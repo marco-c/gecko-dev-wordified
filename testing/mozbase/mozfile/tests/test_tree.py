@@ -87,9 +87,9 @@ mkdtemp
 suffix
 =
 u
-'
+"
 tmp
-'
+"
 )
             
 os
@@ -104,9 +104,9 @@ join
 (
 tmpdir
 u
-'
+"
 dir
-'
+"
 )
 )
             
@@ -121,13 +121,13 @@ join
 (
 tmpdir
 u
-'
+"
 file
-'
+"
 )
-'
+"
 w
-'
+"
 )
 as
 f
@@ -137,9 +137,9 @@ f
 .
 write
 (
-'
+"
 foo
-'
+"
 )
             
 self
@@ -147,7 +147,7 @@ self
 assertEqual
 (
 u
-'
+"
 {
 }
 \
@@ -156,7 +156,7 @@ file
 \
 n
 dir
-'
+"
 .
 format
 (
@@ -181,9 +181,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

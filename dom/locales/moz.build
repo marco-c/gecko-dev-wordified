@@ -578,11 +578,11 @@ JAR_MANIFESTS
 +
 =
 [
-'
+"
 jar
 .
 mn
-'
+"
 ]
 RESOURCE_FILES
 .
@@ -592,7 +592,7 @@ layout
 +
 =
 [
-'
+"
 en
 -
 US
@@ -604,8 +604,8 @@ layout
 HtmlForm
 .
 properties
-'
-'
+"
+"
 en
 -
 US
@@ -617,8 +617,8 @@ layout
 MediaDocument
 .
 properties
-'
-'
+"
+"
 en
 -
 US
@@ -630,7 +630,7 @@ layout
 xmlparser
 .
 properties
-'
+"
 ]
 RESOURCE_FILES
 .
@@ -640,7 +640,7 @@ dom
 +
 =
 [
-'
+"
 en
 -
 US
@@ -652,5 +652,5 @@ dom
 dom
 .
 properties
-'
+"
 ]

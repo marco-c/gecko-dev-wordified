@@ -101,9 +101,9 @@ this
 task
     
 {
-'
+"
 always
-'
+"
 :
 None
 }
@@ -117,9 +117,9 @@ build
 kind
     
 {
-'
+"
 build
-'
+"
 :
 list
 (
@@ -158,11 +158,11 @@ match
 winning
     
 {
-'
+"
 index
 -
 search
-'
+"
 :
 [
 text_type
@@ -176,9 +176,9 @@ this
 task
     
 {
-'
+"
 never
-'
+"
 :
 None
 }
@@ -194,25 +194,25 @@ Nth
 push
     
 {
-'
+"
 skip
 -
 unless
 -
 expanded
-'
+"
 :
 None
 }
     
 {
-'
+"
 skip
 -
 unless
 -
 backstop
-'
+"
 :
 None
 }
@@ -231,13 +231,13 @@ patterns
 match
     
 {
-'
+"
 skip
 -
 unless
 -
 changed
-'
+"
 :
 [
 text_type
@@ -262,13 +262,13 @@ these
 components
     
 {
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
 :
 list
 (
@@ -288,9 +288,9 @@ test
 kind
     
 {
-'
+"
 test
-'
+"
 :
 list
 (
@@ -301,11 +301,11 @@ ALL_COMPONENTS
 }
     
 {
-'
+"
 test
 -
 inclusive
-'
+"
 :
 list
 (
@@ -326,11 +326,11 @@ verify
 tasks
     
 {
-'
+"
 test
 -
 verify
-'
+"
 :
 list
 (
@@ -351,11 +351,11 @@ symbols
 tasks
     
 {
-'
+"
 upload
 -
 symbols
-'
+"
 :
 None
 }
@@ -485,12 +485,12 @@ else
 raise
 Exception
 (
-'
+"
 Can
 only
 call
 set_optimization_schema
 once
 .
-'
+"
 )

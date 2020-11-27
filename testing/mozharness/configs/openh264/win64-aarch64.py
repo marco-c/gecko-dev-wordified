@@ -38,13 +38,13 @@ __file__
 )
 )
     
-'
+"
 external_tools
-'
+"
 )
 VSPATH
 =
-'
+"
 %
 (
 abs_work_dir
@@ -57,34 +57,34 @@ vs2017_15
 9
 .
 6
-'
+"
 config
 =
 {
     
-'
+"
 tooltool_manifest_file
-'
+"
 :
-'
+"
 win64
 -
 aarch64
 .
 manifest
-'
+"
     
-'
+"
 exes
-'
+"
 :
 {
         
-'
+"
 gittool
 .
 py
-'
+"
 :
 [
 sys
@@ -97,21 +97,21 @@ path
 join
 (
 external_tools_path
-'
+"
 gittool
 .
 py
-'
+"
 )
 ]
         
-'
+"
 python2
 .
 7
-'
+"
 :
-'
+"
 c
 :
 \
@@ -127,46 +127,47 @@ python
 python
 .
 exe
-'
+"
     
 }
     
-'
+"
 dump_syms_binary
-'
+"
 :
-'
+"
 dump_syms
 .
 exe
-'
+"
     
-'
+"
 arch
-'
+"
 :
-'
+"
 aarch64
-'
+"
     
-'
+"
 use_yasm
-'
+"
 :
 False
     
-'
+"
 partial_env
-'
+"
 :
 {
         
-'
+"
 PATH
-'
+"
 :
 (
-'
+            
+"
 %
 (
 abs_work_dir
@@ -176,9 +177,9 @@ s
 \
 openh264
 ;
-'
-                 
-'
+"
+            
+"
 {
 MOZ_FETCHES_DIR
 }
@@ -191,9 +192,9 @@ bin
 \
 \
 ;
-'
-                 
-'
+"
+            
+"
 {
 _VSPATH
 }
@@ -210,9 +211,9 @@ Hostx64
 \
 arm64
 ;
-'
-                 
-'
+"
+            
+"
 {
 _VSPATH
 }
@@ -229,8 +230,8 @@ Hostx64
 \
 x64
 ;
-'
-                 
+"
+            
 #
 32
 -
@@ -242,8 +243,8 @@ our
 dump_syms
 .
 exe
-                 
-'
+            
+"
 {
 _VSPATH
 }
@@ -260,9 +261,9 @@ VC141
 .
 CRT
 ;
-'
-                 
-'
+"
+            
+"
 {
 _VSPATH
 }
@@ -277,9 +278,9 @@ DLLs
 /
 x86
 ;
-'
-                 
-'
+"
+            
+"
 {
 _VSPATH
 }
@@ -295,7 +296,7 @@ PATH
 )
 s
 ;
-'
+"
         
 )
 .
@@ -310,19 +311,19 @@ os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
 )
         
-'
+"
 INCLUDES
-'
+"
 :
 (
             
-'
+"
 -
 I
 {
@@ -334,9 +335,9 @@ VC
 \
 \
 include
-'
+"
             
-'
+"
 -
 I
 {
@@ -351,9 +352,9 @@ atlmfc
 \
 \
 include
-'
+"
             
-'
+"
 -
 I
 {
@@ -377,9 +378,9 @@ Include
 \
 \
 ucrt
-'
+"
             
-'
+"
 -
 I
 {
@@ -403,9 +404,9 @@ Include
 \
 \
 shared
-'
+"
             
-'
+"
 -
 I
 {
@@ -429,9 +430,9 @@ Include
 \
 \
 um
-'
+"
             
-'
+"
 -
 I
 {
@@ -455,7 +456,7 @@ Include
 \
 \
 winrt
-'
+"
         
 )
 .
@@ -466,13 +467,13 @@ _VSPATH
 VSPATH
 )
         
-'
+"
 LIB
-'
+"
 :
 (
             
-'
+"
 {
 _VSPATH
 }
@@ -483,9 +484,9 @@ lib
 /
 arm64
 ;
-'
+"
             
-'
+"
 {
 _VSPATH
 }
@@ -498,9 +499,9 @@ lib
 /
 arm64
 ;
-'
+"
             
-'
+"
 {
 _VSPATH
 }
@@ -521,9 +522,9 @@ ucrt
 /
 arm64
 ;
-'
+"
             
-'
+"
 {
 _VSPATH
 }
@@ -544,7 +545,7 @@ um
 /
 arm64
 ;
-'
+"
         
 )
 .

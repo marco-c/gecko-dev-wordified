@@ -122,7 +122,6 @@ the
 adb
 process
 .
-    
 "
 "
 "
@@ -170,11 +169,11 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 w
 +
 b
-'
+"
 )
         
 #
@@ -228,19 +227,19 @@ subprocess
 .
 Popen
 (
+            
 args
-                                     
 stdout
 =
 self
 .
 stdout_file
-                                     
 stderr
 =
 subprocess
 .
 STDOUT
+        
 )
     
 property
@@ -356,8 +355,8 @@ device
         
 arg_string
 =
-'
-'
+"
+"
 .
 join
 (
@@ -373,7 +372,7 @@ re
 sub
 (
 r
-'
+"
 -
 s
 [
@@ -382,15 +381,14 @@ w
 -
 ]
 +
-'
-'
-'
+"
+"
+"
 arg_string
 )
         
 return
-(
-'
+"
 args
 :
 %
@@ -403,18 +401,20 @@ stdout
 :
 %
 s
-'
+"
 %
 (
             
 arg_string
+            
 self
 .
 exitcode
+            
 self
 .
 stdout
-)
+        
 )
 #
 ADBError
@@ -1031,39 +1031,41 @@ instantiated
 def
 __init__
 (
+        
 self
-                 
+        
 adb
 =
-'
+"
 adb
-'
-                 
+"
+        
 adb_host
 =
 None
-                 
+        
 adb_port
 =
 None
-                 
+        
 logger_name
 =
-'
+"
 adb
-'
-                 
+"
+        
 timeout
 =
 300
-                 
+        
 verbose
 =
 False
-                 
+        
 use_root
 =
 True
+    
 )
 :
         
@@ -1139,8 +1141,8 @@ self
 .
 _adb_version
 =
-'
-'
+"
+"
         
 self
 .
@@ -1162,7 +1164,6 @@ self
 __class__
 .
 __name__
-                                       
 self
 .
 __dict__
@@ -1202,24 +1203,24 @@ subprocess
 .
 Popen
 (
+                
 [
 adb
-'
+"
 version
-'
+"
 ]
-                                      
 stdout
 =
 subprocess
 .
 PIPE
-                                      
 stderr
 =
 subprocess
 .
 PIPE
+            
 )
 .
 communicate
@@ -1233,7 +1234,7 @@ re
 compile
 (
 r
-'
+"
 Android
 Debug
 Bridge
@@ -1242,7 +1243,7 @@ version
 .
 *
 )
-'
+"
 )
             
 if
@@ -1266,6 +1267,7 @@ re_version
 .
 match
 (
+                    
 output
 [
 0
@@ -1273,15 +1275,16 @@ output
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
-'
+"
+"
 replace
-'
+"
 )
+                
 )
 .
 group
@@ -1316,19 +1319,20 @@ self
 .
 _adb_version
 <
-'
+"
 1
 .
 0
 .
 36
-'
+"
 :
                 
 raise
 ADBError
 (
-'
+                    
+"
 adb
 version
 %
@@ -1341,11 +1345,12 @@ minimum
 0
 .
 36
-'
+"
 %
 self
 .
 _adb_version
+                
 )
         
 except
@@ -1357,7 +1362,7 @@ exc
 raise
 ADBError
 (
-'
+"
 %
 s
 :
@@ -1367,7 +1372,7 @@ is
 not
 executable
 .
-'
+"
 %
 (
 exc
@@ -1390,15 +1395,15 @@ None
         
 level
 =
-'
+"
 DEBUG
-'
+"
 if
 verbose
 else
-'
+"
 INFO
-'
+"
         
 try
 :
@@ -1468,22 +1473,21 @@ commandline
 .
 setup_logging
 (
+                    
 logger_name
-                                                          
 {
 }
-                                                          
 defaults
-                                                          
 formatter_defaults
 =
 {
-'
+"
 level
-'
+"
 :
 level
 }
+                
 )
         
 except
@@ -1833,9 +1837,9 @@ environ
 .
 get
 (
-'
+"
 ANDROID_SERIAL
-'
+"
 )
         
 if
@@ -1849,10 +1853,10 @@ args
 extend
 (
 [
-'
+"
 -
 H
-'
+"
 self
 .
 _adb_host
@@ -1870,10 +1874,10 @@ args
 extend
 (
 [
-'
+"
 -
 P
-'
+"
 str
 (
 self
@@ -1892,18 +1896,18 @@ args
 extend
 (
 [
-'
+"
 -
 s
-'
+"
 device_serial
-'
+"
 wait
 -
 for
 -
 device
-'
+"
 ]
 )
         
@@ -1955,7 +1959,6 @@ poll
         
 while
 (
-(
 time
 .
 time
@@ -1968,16 +1971,16 @@ start_time
 =
 float
 (
+            
 timeout
+        
 )
 and
-               
 adb_process
 .
 exitcode
 is
 None
-)
 :
             
 time
@@ -2268,16 +2271,16 @@ ADBCommand
 .
 command
 (
+                
 self
 cmds
-                                             
 device_serial
 =
 device_serial
-                                             
 timeout
 =
 timeout
+            
 )
             
 if
@@ -2327,28 +2330,29 @@ _logger
 .
 debug
 (
-'
+                    
+"
 command_output
 :
 %
 s
-'
-                                   
-'
+"
+                    
+"
 timeout
 :
 %
 s
-'
-                                   
-'
+"
+                    
+"
 timedout
 :
 %
 s
-'
-                                   
-'
+"
+                    
+"
 exitcode
 :
 %
@@ -2357,12 +2361,13 @@ output
 :
 %
 s
-'
+"
+                    
 %
-                                   
 (
-'
-'
+                        
+"
+"
 .
 join
 (
@@ -2370,19 +2375,21 @@ adb_process
 .
 args
 )
-                                    
+                        
 timeout
-                                    
+                        
 adb_process
 .
 timedout
-                                    
+                        
 adb_process
 .
 exitcode
-                                    
+                        
 output
+                    
 )
+                
 )
             
 return
@@ -2601,35 +2608,37 @@ start_server
 def
 __init__
 (
+        
 self
-                 
+        
 adb
 =
-'
+"
 adb
-'
-                 
+"
+        
 adb_host
 =
 None
-                 
+        
 adb_port
 =
 None
-                 
+        
 logger_name
 =
-'
+"
 adb
-'
-                 
+"
+        
 timeout
 =
 300
-                 
+        
 verbose
 =
 False
+    
 )
 :
         
@@ -2637,30 +2646,37 @@ ADBCommand
 .
 __init__
 (
+            
 self
+            
 adb
 =
 adb
+            
 adb_host
 =
 adb_host
-                            
+            
 adb_port
 =
 adb_port
+            
 logger_name
 =
 logger_name
-                            
+            
 timeout
 =
 timeout
+            
 verbose
 =
 verbose
+            
 use_root
 =
 True
+        
 )
     
 def
@@ -3671,6 +3687,7 @@ unauthorized
 unknown
 )
 "
+        
 )
         
 devices
@@ -3712,12 +3729,12 @@ if
 line
 =
 =
-'
+"
 List
 of
 devices
 attached
-'
+"
 :
                 
 continue
@@ -3738,10 +3755,9 @@ match
 device
 =
 {
-                    
-'
+"
 device_serial
-'
+"
 :
 match
 .
@@ -3749,10 +3765,9 @@ group
 (
 1
 )
-                    
-'
+"
 state
-'
+"
 :
 match
 .
@@ -3760,7 +3775,6 @@ group
 (
 2
 )
-                
 }
                 
 remainder
@@ -3791,6 +3805,7 @@ device
 .
 update
 (
+                            
 dict
 (
 [
@@ -3798,11 +3813,10 @@ j
 .
 split
 (
-'
+"
 :
-'
+"
 )
-                                            
 for
 j
 in
@@ -3810,11 +3824,12 @@ remainder
 .
 split
 (
-'
-'
+"
+"
 )
 ]
 )
+                        
 )
                     
 except
@@ -3827,23 +3842,24 @@ _logger
 .
 warning
 (
-'
+                            
+"
 devices
 :
 Unable
 to
 parse
-'
-                                             
-'
+"
+"
 remainder
 for
 device
 %
 s
-'
+"
 %
 line
+                        
 )
                 
 devices
@@ -3862,16 +3878,16 @@ devices
 if
 device
 [
-'
+"
 state
-'
+"
 ]
 =
 =
-'
+"
 no
 permissions
-'
+"
 :
                 
 raise
@@ -3932,6 +3948,7 @@ rules
 "
                     
 devices
+                
 )
         
 return
@@ -3943,58 +3960,59 @@ ADBDEVICES
 def
 ADBDeviceFactory
 (
+    
 device
 =
 None
-                     
+    
 adb
 =
-'
+"
 adb
-'
-                     
+"
+    
 adb_host
 =
 None
-                     
+    
 adb_port
 =
 None
-                     
+    
 test_root
 =
 None
-                     
+    
 logger_name
 =
-'
+"
 adb
-'
-                     
+"
+    
 timeout
 =
 300
-                     
+    
 verbose
 =
 False
-                     
+    
 device_ready_retry_wait
 =
 20
-                     
+    
 device_ready_retry_attempts
 =
 3
-                     
+    
 use_root
 =
 True
-                     
+    
 share_test_root
 =
 True
-                     
+    
 run_as_package
 =
 None
@@ -4118,9 +4136,9 @@ environ
 .
 get
 (
-'
+"
 ANDROID_SERIAL
-'
+"
 )
     
 if
@@ -4218,6 +4236,8 @@ keys
 )
         
 assert
+(
+            
 len
 (
 devices
@@ -4225,8 +4245,8 @@ devices
 =
 =
 1
-\
-            
+        
+)
 "
 Only
 one
@@ -4256,22 +4276,29 @@ devices
 ]
     
 elif
+(
+        
 device
 is
 not
 None
+        
 and
 device
 not
 in
 ADBDEVICES
+        
 or
 device
 is
 None
+        
 and
 not
 ADBDEVICES
+    
+)
 :
         
 #
@@ -4290,57 +4317,59 @@ adbdevice
 =
 ADBDevice
 (
+            
 device
 =
 device
-                              
+            
 adb
 =
 adb
-                              
+            
 adb_host
 =
 adb_host
-                              
+            
 adb_port
 =
 adb_port
-                              
+            
 test_root
 =
 test_root
-                              
+            
 logger_name
 =
 logger_name
-                              
+            
 timeout
 =
 timeout
-                              
+            
 verbose
 =
 verbose
-                              
+            
 device_ready_retry_wait
 =
 device_ready_retry_wait
-                              
+            
 device_ready_retry_attempts
 =
 device_ready_retry_attempts
-                              
+            
 use_root
 =
 use_root
-                              
+            
 share_test_root
 =
 share_test_root
-                              
+            
 run_as_package
 =
 run_as_package
+        
 )
         
 ADBDEVICES
@@ -4358,6 +4387,7 @@ else
 raise
 ADBDeviceFactoryError
 (
+            
 "
 Inconsistent
 ADBDeviceFactory
@@ -4371,12 +4401,13 @@ ADBDEVICES
 %
 s
 "
+            
 %
 (
-            
 device
 ADBDEVICES
 )
+        
 )
     
 #
@@ -4393,6 +4424,7 @@ adbdevice
 .
 rm
 (
+        
 posixpath
 .
 join
@@ -4400,20 +4432,23 @@ join
 adbdevice
 .
 test_root
-'
+"
 *
-'
+"
 )
+        
 recursive
 =
 True
+        
 force
 =
 True
-                 
+        
 timeout
 =
 timeout
+    
 )
     
 #
@@ -5063,63 +5098,65 @@ forward
 def
 __init__
 (
+        
 self
-                 
+        
 device
 =
 None
-                 
+        
 adb
 =
-'
+"
 adb
-'
-                 
+"
+        
 adb_host
 =
 None
-                 
+        
 adb_port
 =
 None
-                 
+        
 test_root
 =
 None
-                 
+        
 logger_name
 =
-'
+"
 adb
-'
-                 
+"
+        
 timeout
 =
 300
-                 
+        
 verbose
 =
 False
-                 
+        
 device_ready_retry_wait
 =
 20
-                 
+        
 device_ready_retry_attempts
 =
 3
-                 
+        
 use_root
 =
 True
-                 
+        
 share_test_root
 =
 True
-                 
+        
 run_as_package
 =
 None
+    
 )
 :
         
@@ -5130,31 +5167,37 @@ ADBCommand
 .
 __init__
 (
+            
 self
+            
 adb
 =
 adb
+            
 adb_host
 =
 adb_host
-                            
+            
 adb_port
 =
 adb_port
+            
 logger_name
 =
 logger_name
-                            
+            
 timeout
 =
 timeout
+            
 verbose
 =
 verbose
-                            
+            
 use_root
 =
 use_root
+        
 )
         
 self
@@ -5163,12 +5206,12 @@ _logger
 .
 info
 (
-'
+"
 Using
 adb
 %
 s
-'
+"
 %
 self
 .
@@ -5402,7 +5445,6 @@ version
 .
 sdk
 "
-                                        
 timeout
 =
 timeout
@@ -5496,6 +5538,7 @@ time
 raise
 ADBTimeoutError
 (
+                
 "
 ADBDevice
 :
@@ -5511,6 +5554,7 @@ version
 sdk
 .
 "
+            
 )
         
 self
@@ -5743,6 +5787,7 @@ self
 .
 shell_output
 (
+                        
 "
 /
 system
@@ -5760,6 +5805,7 @@ ls
 timeout
 =
 timeout
+                    
 )
                     
 boot_completed
@@ -6000,13 +6046,13 @@ e
 )
                 
 if
-'
+"
 No
 such
 file
 or
 directory
-'
+"
 not
 in
 str
@@ -6116,12 +6162,12 @@ self
 .
 shell_output
 (
-'
+"
 cp
 -
 -
 help
-'
+"
 timeout
 =
 timeout
@@ -6144,10 +6190,10 @@ e
 :
                 
 if
-'
+"
 not
 found
-'
+"
 in
 str
 (
@@ -6166,10 +6212,10 @@ boot_completed
 True
                 
 elif
-'
+"
 known
 option
-'
+"
 in
 str
 (
@@ -6188,10 +6234,10 @@ boot_completed
 True
                 
 elif
-'
+"
 invalid
 option
-'
+"
 in
 str
 (
@@ -6284,12 +6330,12 @@ re
 compile
 (
 r
-'
+"
 [
 -
 ]
 R
-'
+"
 )
             
 chmod_output
@@ -6630,12 +6676,12 @@ self
 .
 shell_output
 (
-'
+"
 pidof
 -
 -
 help
-'
+"
 timeout
 =
 timeout
@@ -6658,10 +6704,10 @@ e
 :
                     
 if
-'
+"
 not
 found
-'
+"
 in
 str
 (
@@ -6680,10 +6726,10 @@ boot_completed
 True
                     
 elif
-'
+"
 known
 option
-'
+"
 in
 str
 (
@@ -6798,6 +6844,7 @@ self
 _have_flaky_pidof
 =
 (
+            
 self
 .
 version
@@ -6806,20 +6853,22 @@ version
 version_codes
 .
 N
+            
 and
-                                  
 abi
 =
 =
-'
+"
 x86_64
-'
+"
+            
 and
-'
+"
 emulator
-'
+"
 in
 characteristics
+        
 )
         
 self
@@ -6828,6 +6877,7 @@ _logger
 .
 info
 (
+            
 "
 Native
 {
@@ -6841,7 +6891,7 @@ support
 .
 format
 (
-            
+                
 "
 flaky
 "
@@ -6856,7 +6906,9 @@ normal
 self
 .
 _have_pidof
+            
 )
+        
 )
         
 if
@@ -7028,6 +7080,7 @@ _logger
 .
 info
 (
+                    
 "
 su
 -
@@ -7042,9 +7095,9 @@ stdout
 %
 s
 "
+                    
 %
 (
-                    
 adb_process
 .
 proc
@@ -7052,22 +7105,22 @@ proc
 poll
 (
 )
-                    
 adb_process
 .
 proc
 .
 stdout
 )
+                
 )
                 
 uid
 =
-'
+"
 uid
 =
 0
-'
+"
                 
 #
 Do
@@ -7226,12 +7279,13 @@ try
                     
 if
 (
+                        
 not
 self
 .
 _have_su
-and
                         
+and
 self
 .
 shell_output
@@ -7250,10 +7304,12 @@ find
 (
 uid
 )
+                        
 !
 =
 -
 1
+                    
 )
 :
                         
@@ -7468,6 +7524,7 @@ self
 .
 shell_output
 (
+            
 "
 getprop
 dalvik
@@ -7480,10 +7537,10 @@ trace
 -
 dir
 "
-                                            
 timeout
 =
 timeout
+        
 )
         
 if
@@ -7497,6 +7554,7 @@ self
 .
 shell_output
 (
+                
 "
 getprop
 dalvik
@@ -7509,10 +7567,10 @@ trace
 -
 file
 "
-                                                 
 timeout
 =
 timeout
+            
 )
             
 if
@@ -7533,12 +7591,12 @@ else
                 
 stack_trace_dir
 =
-'
+"
 /
 data
 /
 anr
-'
+"
         
 self
 .
@@ -7550,9 +7608,9 @@ self
 .
 enforcing
 =
-'
+"
 Permissive
-'
+"
         
 self
 .
@@ -7728,15 +7786,17 @@ self
 .
 shell_output
 (
-'
+                
+"
 getprop
 sys
 .
 boot_completed
-'
+"
 timeout
 =
 timeout
+            
 )
             
 if
@@ -7771,14 +7831,14 @@ sys_boot_completed
 raise
 ADBError
 (
-'
+"
 Failed
 to
 complete
 boot
 in
 time
-'
+"
 )
     
 def
@@ -7799,9 +7859,9 @@ environ
 .
 get
 (
-'
+"
 ANDROID_SERIAL
-'
+"
 )
         
 if
@@ -7814,6 +7874,7 @@ devices
 =
 ADBHost
 (
+                
 adb
 =
 self
@@ -7824,12 +7885,12 @@ adb_host
 self
 .
 _adb_host
-                              
 adb_port
 =
 self
 .
 _adb_port
+            
 )
 .
 devices
@@ -7848,6 +7909,7 @@ devices
 raise
 ValueError
 (
+                    
 "
 ADBDevice
 called
@@ -7855,7 +7917,7 @@ with
 multiple
 devices
 "
-                                 
+                    
 "
 attached
 and
@@ -7863,6 +7925,7 @@ no
 device
 specified
 "
+                
 )
             
 if
@@ -7936,7 +7999,7 @@ re
 compile
 (
 r
-'
+"
 [
 ^
 :
@@ -7949,7 +8012,7 @@ r
 9
 ]
 +
-'
+"
 )
         
 def
@@ -7960,6 +8023,8 @@ serial
 :
             
 return
+(
+                
 serial
 .
 startswith
@@ -7969,9 +8034,8 @@ usb
 :
 "
 )
-or
-\
                 
+or
 re_device_serial_tcpip
 .
 match
@@ -7981,15 +8045,16 @@ serial
 is
 not
 None
-or
-\
                 
+or
 "
 :
 "
 not
 in
 serial
+            
+)
         
 if
 isinstance
@@ -8020,6 +8085,7 @@ device
 raise
 ValueError
 (
+                    
 "
 Device
 serials
@@ -8030,7 +8096,7 @@ containing
 characters
 are
 "
-                                 
+                    
 "
 invalid
 .
@@ -8039,7 +8105,7 @@ the
 output
 from
 "
-                                 
+                    
 "
 ADBHost
 .
@@ -8051,6 +8117,7 @@ the
 device
 instead
 "
+                
 )
             
 return
@@ -8134,11 +8201,11 @@ None
         
 uid
 =
-'
+"
 uid
 =
 0
-'
+"
         
 #
 Is
@@ -8265,9 +8332,9 @@ exclude_set
 .
 add
 (
-'
+"
 E5823
-'
+"
 )
 #
 Sony
@@ -8305,13 +8372,13 @@ self
 .
 get_prop
 (
-'
+"
 ro
 .
 product
 .
 model
-'
+"
 )
 in
 exclude_set
@@ -8323,6 +8390,7 @@ _logger
 .
 warning
 (
+                    
 "
 your
 device
@@ -8334,6 +8402,7 @@ adb
 root
 .
 "
+                
 )
             
 else
@@ -8452,11 +8521,11 @@ self
 .
 shell_output
 (
-'
+"
 pidof
 %
 s
-'
+"
 %
 appname
 timeout
@@ -8471,14 +8540,14 @@ re
 compile
 (
 r
-'
+"
 [
 0
 -
 9
 ]
 +
-'
+"
 )
                 
 pids
@@ -8514,16 +8583,18 @@ self
 .
 shell_output
 (
-'
+                        
+"
 pidof
 %
 s
-'
+"
 %
 appname
 timeout
 =
 timeout
+                    
 )
                     
 pids
@@ -8798,9 +8869,9 @@ if
 hasattr
 (
 shlex
-'
+"
 quote
-'
+"
 )
 :
             
@@ -8814,9 +8885,9 @@ elif
 hasattr
 (
 pipes
-'
+"
 quote
-'
+"
 )
 :
             
@@ -8840,8 +8911,8 @@ arg
 =
 arg
 or
-'
-'
+"
+"
                 
 re_unsafe
 =
@@ -8850,7 +8921,7 @@ re
 compile
 (
 r
-'
+"
 [
 ^
 \
@@ -8863,7 +8934,7 @@ w
 /
 -
 ]
-'
+"
 )
                 
 if
@@ -9062,7 +9133,7 @@ re
 compile
 (
 r
-'
+"
 adb_returncode
 =
 (
@@ -9073,7 +9144,7 @@ adb_returncode
 ]
 +
 )
-'
+"
 )
         
 file_obj
@@ -9088,8 +9159,8 @@ SEEK_END
         
 line
 =
-'
-'
+"
+"
         
 length
 =
@@ -9148,18 +9219,18 @@ if
 char
 !
 =
-'
+"
 \
 r
-'
+"
 and
 char
 !
 =
-'
+"
 \
 n
-'
+"
 :
                 
 line
@@ -9558,16 +9629,16 @@ storage_dirs
 set
 (
 [
-'
+"
 /
 mnt
 /
 sdcard
-'
-'
+"
+"
 /
 sdcard
-'
+"
 ]
 )
             
@@ -9577,7 +9648,7 @@ re
 .
 compile
 (
-'
+"
 (
 [
 ^
@@ -9591,7 +9662,7 @@ STORAGE
 .
 *
 )
-'
+"
 )
             
 lines
@@ -9600,9 +9671,9 @@ self
 .
 shell_output
 (
-'
+"
 set
-'
+"
 timeout
 =
 timeout
@@ -9662,10 +9733,10 @@ re
 .
 compile
 (
-'
+"
 /
 |
-'
+"
 .
 join
 (
@@ -9675,9 +9746,9 @@ storage_dirs
 )
 )
 +
-'
+"
 /
-'
+"
 )
         
 return
@@ -9810,11 +9881,11 @@ include_set
 .
 add
 (
-'
+"
 SM
 -
 G973F
-'
+"
 )
 #
 Samsung
@@ -9824,23 +9895,24 @@ SM
 G973F
         
 if
+(
+            
 self
 .
 get_prop
 (
-'
+"
 ro
 .
 product
 .
 model
-'
+"
 )
 in
 include_set
+            
 and
-\
-           
 self
 .
 shell_output
@@ -9852,11 +9924,14 @@ global
 art_verifier_verify_debuggable
 "
 )
+            
 =
 =
 "
 1
 "
+        
+)
 :
             
 self
@@ -9865,6 +9940,7 @@ _logger
 .
 warning
 (
+                
 "
 "
 "
@@ -9913,11 +9989,13 @@ device
 "
 "
 "
+            
 )
             
 raise
 ADBError
 (
+                
 "
 Verify
 bytecode
@@ -9934,6 +10012,7 @@ run
 -
 as
 "
+            
 )
         
 self
@@ -9959,7 +10038,8 @@ _logger
 .
 info
 (
-'
+                    
+"
 Resetting
 test
 root
@@ -9968,11 +10048,12 @@ from
 s
 to
 None
-'
+"
 %
 self
 .
 _test_root
+                
 )
             
 self
@@ -9990,13 +10071,13 @@ _logger
 .
 info
 (
-'
+"
 Setting
 run_as_package
 to
 %
 s
-'
+"
 %
 value
 )
@@ -10014,7 +10095,7 @@ value
 raise
 ADBError
 (
-'
+"
 run_as_package
 %
 s
@@ -10022,7 +10103,7 @@ is
 not
 installed
 .
-'
+"
 %
 value
 )
@@ -10031,7 +10112,7 @@ self
 .
 package_dir
 =
-'
+"
 /
 data
 /
@@ -10039,7 +10120,7 @@ data
 /
 %
 s
-'
+"
 %
 value
             
@@ -10052,9 +10133,9 @@ join
 self
 .
 package_dir
-'
+"
 test_root
-'
+"
 )
             
 if
@@ -10087,9 +10168,9 @@ join
 self
 .
 test_root
-'
+"
 *
-'
+"
 )
 recursive
 =
@@ -10110,9 +10191,9 @@ join
 self
 .
 package_dir
-'
+"
 test_root
-'
+"
 )
                 
 #
@@ -10136,9 +10217,9 @@ join
 self
 .
 test_root
-'
+"
 *
-'
+"
 )
 recursive
 =
@@ -10528,7 +10609,7 @@ tmp
 paths
 =
 [
-'
+"
 /
 data
 /
@@ -10537,7 +10618,7 @@ local
 tmp
 /
 test_root
-'
+"
 ]
         
 max_attempts
@@ -10568,6 +10649,7 @@ _logger
 .
 debug
 (
+                    
 "
 Setting
 test
@@ -10582,13 +10664,14 @@ of
 %
 d
 "
+                    
 %
-                                   
 (
 test_root
 attempt
 max_attempts
 )
+                
 )
                 
 if
@@ -10636,12 +10719,13 @@ _logger
 .
 debug
 (
-'
+                    
+"
 _setup_test_root
 :
-'
-                                   
-'
+"
+                    
+"
 Attempt
 %
 d
@@ -10655,14 +10739,15 @@ test_root
 to
 %
 s
-'
+"
+                    
 %
-                                   
 (
 attempt
 max_attempts
 test_root
 )
+                
 )
             
 if
@@ -10682,6 +10767,7 @@ sleep
 raise
 ADBError
 (
+            
 "
 Unable
 to
@@ -10697,7 +10783,6 @@ paths
 s
 ]
 "
-                       
 %
 "
 "
@@ -10706,6 +10791,7 @@ join
 (
 paths
 )
+        
 )
     
 test_root
@@ -10753,7 +10839,7 @@ _logger
 .
 debug
 (
-'
+"
 Setting
 test_root
 from
@@ -10762,7 +10848,7 @@ s
 to
 %
 s
-'
+"
 %
 (
 self
@@ -10791,7 +10877,8 @@ _logger
 .
 info
 (
-'
+                
+"
 Resetting
 test
 root
@@ -10801,7 +10888,7 @@ s
 to
 %
 s
-'
+"
 %
 (
 self
@@ -10809,6 +10896,7 @@ self
 _test_root
 value
 )
+            
 )
         
 self
@@ -10842,7 +10930,7 @@ value
 raise
 ADBError
 (
-'
+"
 Unable
 to
 set
@@ -10850,7 +10938,7 @@ test_root
 to
 %
 s
-'
+"
 %
 value
 )
@@ -10862,9 +10950,9 @@ posixpath
 join
 (
 value
-'
+"
 README
-'
+"
 )
         
 if
@@ -10885,9 +10973,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 w
-'
+"
 delete
 =
 False
@@ -10897,6 +10985,7 @@ tmpf
 .
 write
 (
+                
 "
 This
 directory
@@ -10909,7 +10998,7 @@ contain
 all
 content
 "
-                       
+                
 "
 related
 to
@@ -10922,6 +11011,7 @@ device
 \
 n
 "
+            
 )
             
 tmpf
@@ -10993,6 +11083,7 @@ _logger
 .
 debug
 (
+                
 "
 _try_test_root
 :
@@ -11005,6 +11096,7 @@ False
 "
 %
 base_path
+            
 )
             
 return
@@ -11029,6 +11121,7 @@ _logger
 .
 debug
 (
+                    
 "
 _try_test_root
 :
@@ -11041,6 +11134,7 @@ False
 "
 %
 test_root
+                
 )
                 
 self
@@ -11057,9 +11151,9 @@ posixpath
 join
 (
 test_root
-'
+"
 proof
-'
+"
 )
             
 if
@@ -11413,18 +11507,18 @@ ADBCommand
 .
 command
 (
+            
 self
 cmds
-                                  
 device_serial
 =
 self
 .
 _device_serial
-                                  
 timeout
 =
 timeout
+        
 )
     
 def
@@ -11562,18 +11656,18 @@ ADBCommand
 .
 command_output
 (
+            
 self
 cmds
-                                         
 device_serial
 =
 self
 .
 _device_serial
-                                         
 timeout
 =
 timeout
+        
 )
     
 #
@@ -11768,25 +11862,28 @@ direction
 not
 in
 [
+            
 self
 .
 SOCKET_DIRECTION_FORWARD
+            
 self
 .
 SOCKET_DIRECTION_REVERSE
+        
 ]
 :
             
 raise
 ValueError
 (
-'
+"
 Invalid
 direction
 specifier
 {
 }
-'
+"
 .
 format
 (
@@ -11797,6 +11894,7 @@ direction
 def
 create_socket_connection
 (
+        
 self
 direction
 local
@@ -11807,6 +11905,7 @@ True
 timeout
 =
 None
+    
 )
 :
         
@@ -12461,14 +12560,15 @@ self
 .
 create_socket_connection
 (
+            
 self
 .
 SOCKET_DIRECTION_FORWARD
-                                      
 local
 remote
 allow_rebind
 timeout
+        
 )
     
 def
@@ -12608,14 +12708,15 @@ self
 .
 create_socket_connection
 (
+            
 self
 .
 SOCKET_DIRECTION_REVERSE
-                                      
 local
 remote
 allow_rebind
 timeout
+        
 )
     
 def
@@ -12704,7 +12805,6 @@ remove_socket_connections
 self
 .
 SOCKET_DIRECTION_REVERSE
-                                       
 local
 timeout
 )
@@ -12717,24 +12817,31 @@ methods
 def
 shell
 (
+        
 self
+        
 cmd
+        
 env
 =
 None
+        
 cwd
 =
 None
+        
 timeout
 =
 None
-              
+        
 stdout_callback
 =
 None
+        
 enable_run_as
 =
 False
+    
 )
 :
         
@@ -13205,9 +13312,9 @@ frame
 raise
 IOError
 (
-'
+"
 ReadLineTimeout
-'
+"
 )
         
 def
@@ -13286,9 +13393,9 @@ not
 hasattr
 (
 signal
-'
+"
 SIGALRM
-'
+"
 )
 :
                 
@@ -13311,8 +13418,8 @@ timeout
             
 line
 =
-'
-'
+"
+"
             
 default_alarm_handler
 =
@@ -13496,24 +13603,23 @@ env
             
 envstr
 =
-'
+"
 &
 &
-'
+"
 .
 join
 (
 [
-'
+"
 export
 %
 s
 =
 %
 s
-'
+"
 %
-                                 
 (
 x
 [
@@ -13647,26 +13753,28 @@ directly
         
 if
 (
+            
 self
 .
 _device_serial
 .
 startswith
 (
-'
+"
 emulator
-'
+"
 )
-or
             
+or
 not
 hasattr
 (
 self
-'
+"
 version
-'
+"
 )
+            
 or
 self
 .
@@ -13675,6 +13783,7 @@ version
 version_codes
 .
 N
+        
 )
 :
             
@@ -13708,10 +13817,10 @@ args
 extend
 (
 [
-'
+"
 -
 H
-'
+"
 self
 .
 _adb_host
@@ -13729,10 +13838,10 @@ args
 extend
 (
 [
-'
+"
 -
 P
-'
+"
 str
 (
 self
@@ -13753,10 +13862,10 @@ args
 extend
 (
 [
-'
+"
 -
 s
-'
+"
 self
 .
 _device_serial
@@ -13881,9 +13990,9 @@ adb_process
 stdout_file
 .
 name
-'
+"
 rb
-'
+"
 )
             
 while
@@ -14042,6 +14151,7 @@ exitcode
             
 if
 (
+                
 not
 self
 .
@@ -14049,19 +14159,20 @@ _device_serial
 .
 startswith
 (
-'
+"
 emulator
-'
+"
 )
-and
                 
+and
 hasattr
 (
 self
-'
+"
 version
-'
+"
 )
+                
 and
 self
 .
@@ -14071,6 +14182,7 @@ version
 version_codes
 .
 N
+            
 )
 :
                 
@@ -14351,6 +14463,7 @@ self
 .
 shell
 (
+                
 cmd
 env
 =
@@ -14358,13 +14471,13 @@ env
 cwd
 =
 cwd
-                                     
 timeout
 =
 timeout
 enable_run_as
 =
 enable_run_as
+            
 )
             
 if
@@ -14417,45 +14530,47 @@ _logger
 .
 debug
 (
-'
+                        
+"
 shell_bool
 :
 %
 s
-'
-                                       
-'
+"
+                        
+"
 timeout
 :
 %
 s
-'
-                                       
-'
+"
+                        
+"
 timedout
 :
 %
 s
-'
-                                       
-'
+"
+                        
+"
 exitcode
 :
 %
 s
-'
-                                       
-'
+"
+                        
+"
 output
 :
 %
 s
-'
+"
+                        
 %
-                                       
 (
-'
-'
+                            
+"
+"
 .
 join
 (
@@ -14463,19 +14578,21 @@ adb_process
 .
 args
 )
-                                        
+                            
 timeout
-                                        
+                            
 adb_process
 .
 timedout
-                                        
+                            
 adb_process
 .
 exitcode
-                                        
+                            
 output
+                        
 )
+                    
 )
                 
 adb_process
@@ -14680,6 +14797,7 @@ self
 .
 shell
 (
+                
 cmd
 env
 =
@@ -14687,13 +14805,13 @@ env
 cwd
 =
 cwd
-                                     
 timeout
 =
 timeout
 enable_run_as
 =
 enable_run_as
+            
 )
             
 if
@@ -14743,45 +14861,47 @@ _logger
 .
 debug
 (
-'
+                    
+"
 shell_output
 :
 %
 s
-'
-                                   
-'
+"
+                    
+"
 timeout
 :
 %
 s
-'
-                                   
-'
+"
+                    
+"
 timedout
 :
 %
 s
-'
-                                   
-'
+"
+                    
+"
 exitcode
 :
 %
 s
-'
-                                   
-'
+"
+                    
+"
 output
 :
 %
 s
-'
+"
+                    
 %
-                                   
 (
-'
-'
+                        
+"
+"
 .
 join
 (
@@ -14789,19 +14909,21 @@ adb_process
 .
 args
 )
-                                    
+                        
 timeout
-                                    
+                        
 adb_process
 .
 timedout
-                                    
+                        
 adb_process
 .
 exitcode
-                                    
+                        
 output
+                    
 )
+                
 )
             
 return
@@ -14849,15 +14971,15 @@ valid_buffers
 set
 (
 [
-'
+"
 radio
-'
-'
+"
+"
 main
-'
-'
+"
+"
 events
-'
+"
 ]
 )
         
@@ -14880,7 +15002,8 @@ invalid_buffers
 raise
 ADBError
 (
-'
+                
+"
 Invalid
 logcat
 buffers
@@ -14890,10 +15013,10 @@ not
 in
 %
 s
-'
+"
+                
 %
 (
-                
 list
 (
 invalid_buffers
@@ -14903,6 +15026,7 @@ list
 valid_buffers
 )
 )
+            
 )
         
 args
@@ -14921,10 +15045,10 @@ args
 extend
 (
 [
-'
+"
 -
 b
-'
+"
 b
 ]
 )
@@ -15174,6 +15298,7 @@ str
 e
 )
 )
+            
 )
             
 self
@@ -15203,116 +15328,119 @@ timeout
 def
 get_logcat
 (
+        
 self
-                   
+        
 filter_specs
 =
 [
-                       
+            
 "
 dalvikvm
 :
 I
 "
-                       
+            
 "
 ConnectivityService
 :
 S
 "
-                       
+            
 "
 WifiMonitor
 :
 S
 "
-                       
+            
 "
 WifiStateTracker
 :
 S
 "
-                       
+            
 "
 wpa_supplicant
 :
 S
 "
-                       
+            
 "
 NetworkStateTracker
 :
 S
 "
-                       
+            
 "
 EmulatedCamera_Camera
 :
 S
 "
-                       
+            
 "
 EmulatedCamera_Device
 :
 S
 "
-                       
+            
 "
 EmulatedCamera_FakeCamera
 :
 S
 "
-                       
+            
 "
 EmulatedCamera_FakeDevice
 :
 S
 "
-                       
+            
 "
 EmulatedCamera_CallbackNotifier
 :
 S
 "
-                       
+            
 "
 GnssLocationProvider
 :
 S
 "
-                       
+            
 "
 Hyphenator
 :
 S
 "
-                       
+            
 "
 BatteryStats
 :
 S
 "
+        
 ]
-                   
+        
 format
 =
 "
 time
 "
-                   
+        
 filter_out_regexps
 =
 [
 ]
-                   
+        
 timeout
 =
 None
-                   
+        
 buffers
 =
 [
 ]
+    
 )
 :
         
@@ -15692,11 +15820,11 @@ self
 .
 shell_output
 (
-'
+"
 getprop
 %
 s
-'
+"
 %
 prop
 timeout
@@ -16008,7 +16136,7 @@ _logger
 .
 warning
 (
-'
+"
 Device
 not
 rooted
@@ -16019,7 +16147,7 @@ obtain
 ip
 address
 .
-'
+"
 )
             
 return
@@ -16065,11 +16193,11 @@ self
 .
 get_prop
 (
-'
+"
 wifi
 .
 interface
-'
+"
 timeout
 =
 timeout
@@ -16081,14 +16209,14 @@ _logger
 .
 debug
 (
-'
+"
 get_ip_address
 :
 wifi_interface
 :
 %
 s
-'
+"
 %
 wifi_interface
 )
@@ -16295,7 +16423,7 @@ re
 compile
 (
 r
-'
+"
 (
 \
 w
@@ -16315,7 +16443,7 @@ ip
 mask
 .
 *
-'
+"
 )
         
 #
@@ -16378,7 +16506,7 @@ re
 compile
 (
 r
-'
+"
 (
 \
 w
@@ -16388,7 +16516,7 @@ w
 s
 +
 Link
-'
+"
 )
         
 re2_ip
@@ -16398,7 +16526,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -16414,7 +16542,7 @@ addr
 ]
 +
 )
-'
+"
 )
         
 matched_interface
@@ -16432,7 +16560,7 @@ re
 compile
 (
 r
-'
+"
 127
 .
 0
@@ -16448,7 +16576,7 @@ r
 0
 .
 0
-'
+"
 )
         
 self
@@ -16457,11 +16585,11 @@ _logger
 .
 debug
 (
-'
+"
 get_ip_address
 :
 ifconfig
-'
+"
 )
         
 for
@@ -16479,14 +16607,13 @@ self
 .
 shell_output
 (
-'
+"
 ifconfig
 %
 s
-'
+"
 %
 interface
-                                           
 timeout
 =
 timeout
@@ -16504,7 +16631,8 @@ _logger
 .
 warning
 (
-'
+                    
+"
 get_ip_address
 ifconfig
 %
@@ -16512,7 +16640,7 @@ s
 :
 %
 s
-'
+"
 %
 (
 interface
@@ -16521,12 +16649,13 @@ str
 e
 )
 )
+                
 )
                 
 output
 =
-'
-'
+"
+"
             
 for
 line
@@ -16635,7 +16764,8 @@ _logger
 .
 debug
 (
-'
+                            
+"
 get_ip_address
 :
 found
@@ -16644,13 +16774,14 @@ found
 s
 %
 s
-'
+"
+                            
 %
-                                           
 (
 matched_interface
 matched_ip
 )
+                        
 )
                         
 return
@@ -16670,11 +16801,11 @@ _logger
 .
 debug
 (
-'
+"
 get_ip_address
 :
 netcfg
-'
+"
 )
         
 #
@@ -17025,8 +17156,9 @@ re
 .
 compile
 (
+            
 r
-'
+"
 (
 \
 w
@@ -17076,7 +17208,8 @@ d
 3
 }
 )
-'
+"
+        
 )
         
 try
@@ -17088,9 +17221,9 @@ self
 .
 shell_output
 (
-'
+"
 netcfg
-'
+"
 timeout
 =
 timeout
@@ -17108,13 +17241,13 @@ _logger
 .
 warning
 (
-'
+"
 get_ip_address
 netcfg
 :
 %
 s
-'
+"
 %
 str
 (
@@ -17124,8 +17257,8 @@ e
             
 output
 =
-'
-'
+"
+"
         
 for
 line
@@ -17197,7 +17330,8 @@ _logger
 .
 debug
 (
-'
+                        
+"
 get_ip_address
 :
 found
@@ -17206,13 +17340,13 @@ found
 s
 %
 s
-'
+"
 %
-                                       
 (
 matched_interface
 matched_ip
 )
+                    
 )
                     
 return
@@ -17224,12 +17358,12 @@ _logger
 .
 debug
 (
-'
+"
 get_ip_address
 :
 not
 found
-'
+"
 )
         
 return
@@ -17531,9 +17665,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 w
-'
+"
 delete
 =
 False
@@ -17543,10 +17677,10 @@ tmpf
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -17562,13 +17696,13 @@ close
             
 script
 =
-'
+"
 /
 sdcard
 /
 {
 }
-'
+"
 .
 format
 (
@@ -17598,11 +17732,12 @@ self
 .
 shell_output
 (
-'
+                
+"
 sh
 {
 }
-'
+"
 .
 format
 (
@@ -17614,6 +17749,7 @@ enable_run_as
 timeout
 =
 timeout
+            
 )
         
 finally
@@ -17952,7 +18088,8 @@ _logger
 .
 debug
 (
-'
+            
+"
 chmod
 :
 path
@@ -17967,14 +18104,14 @@ mask
 =
 %
 s
-'
+"
 %
-                           
 (
 path
 recursive
 mask
 )
+        
 )
         
 if
@@ -18025,14 +18162,14 @@ _logger
 .
 debug
 (
-'
+"
 Ignoring
 attempt
 to
 chmod
 external
 storage
-'
+"
 )
             
 return
@@ -18053,9 +18190,9 @@ capabilities
 command
 =
 [
-'
+"
 chmod
-'
+"
 ]
         
 if
@@ -18070,10 +18207,10 @@ command
 .
 append
 (
-'
+"
 -
 R
-'
+"
 )
         
 command
@@ -18109,8 +18246,8 @@ timeout
             
 base
 =
-'
-'
+"
+"
 .
 join
 (
@@ -18120,8 +18257,8 @@ command
 commands
 =
 [
-'
-'
+"
+"
 .
 join
 (
@@ -18166,10 +18303,11 @@ self
 .
 shell_output
 (
+                    
 cmd
 =
-'
-'
+"
+"
 .
 join
 (
@@ -18178,10 +18316,10 @@ command
 timeout
 =
 timeout
-                                  
 enable_run_as
 =
 enable_run_as
+                
 )
             
 except
@@ -18451,14 +18589,14 @@ _logger
 .
 warning
 (
-'
+"
 Ignoring
 attempt
 to
 chown
 external
 storage
-'
+"
 )
             
 return
@@ -18479,9 +18617,9 @@ capabilities
 command
 =
 [
-'
+"
 chown
-'
+"
 ]
         
 if
@@ -18496,10 +18634,10 @@ command
 .
 append
 (
-'
+"
 -
 R
-'
+"
 )
         
 if
@@ -18531,7 +18669,7 @@ command
 .
 append
 (
-'
+"
 {
 owner
 }
@@ -18539,7 +18677,7 @@ owner
 {
 group
 }
-'
+"
 .
 format
 (
@@ -18627,8 +18765,8 @@ timeout
             
 base
 =
-'
-'
+"
+"
 .
 join
 (
@@ -18638,8 +18776,8 @@ command
 commands
 =
 [
-'
-'
+"
+"
 .
 join
 (
@@ -18707,10 +18845,11 @@ self
 .
 shell_output
 (
+                
 cmd
 =
-'
-'
+"
+"
 .
 join
 (
@@ -18722,6 +18861,7 @@ timeout
 enable_run_as
 =
 enable_run_as
+            
 )
     
 def
@@ -18896,8 +19036,6 @@ if
 not
 enable_run_as
 and
-\
-           
 not
 self
 .
@@ -18905,9 +19043,9 @@ _device_serial
 .
 startswith
 (
-'
+"
 emulator
-'
+"
 )
 :
             
@@ -18916,7 +19054,8 @@ self
 .
 shell_bool
 (
-'
+                
+"
 test
 -
 {
@@ -18925,25 +19064,26 @@ arg
 {
 path
 }
-'
+"
 .
 format
 (
 arg
 =
 argument
-                                                               
 path
 =
 path
 )
-                                   
+                
 timeout
 =
 timeout
+                
 enable_run_as
 =
 False
+            
 )
         
 #
@@ -18980,14 +19120,12 @@ if
 argument
 =
 =
-'
+"
 f
-'
+"
 :
             
 return
-(
-                
 self
 .
 exists
@@ -18998,26 +19136,26 @@ timeout
 timeout
 )
 and
-                
 not
 self
 .
 is_dir
 (
+                
 path
 timeout
 =
 timeout
-)
+            
 )
         
 if
 argument
 =
 =
-'
+"
 d
-'
+"
 :
             
 return
@@ -19025,14 +19163,15 @@ self
 .
 shell_bool
 (
-'
+                
+"
 ls
 -
 a
 {
 }
 /
-'
+"
 .
 format
 (
@@ -19041,19 +19180,19 @@ path
 timeout
 =
 timeout
-                                   
 enable_run_as
 =
 enable_run_as
+            
 )
         
 if
 argument
 =
 =
-'
+"
 e
-'
+"
 :
             
 return
@@ -19061,13 +19200,14 @@ self
 .
 shell_bool
 (
-'
+                
+"
 ls
 -
 a
 {
 }
-'
+"
 .
 format
 (
@@ -19076,10 +19216,10 @@ path
 timeout
 =
 timeout
-                                   
 enable_run_as
 =
 enable_run_as
+            
 )
         
 raise
@@ -19249,9 +19389,9 @@ self
 .
 _test_path
 (
-'
+"
 e
-'
+"
 path
 timeout
 =
@@ -19401,9 +19541,9 @@ self
 .
 _test_path
 (
-'
+"
 d
-'
+"
 path
 timeout
 =
@@ -19554,9 +19694,9 @@ self
 .
 _test_path
 (
-'
+"
 f
-'
+"
 path
 timeout
 =
@@ -19740,6 +19880,7 @@ self
 .
 shell_output
 (
+                    
 "
 %
 s
@@ -19753,14 +19894,15 @@ self
 _ls
 path
 )
-                                         
+                    
 timeout
 =
 timeout
-                                         
+                    
 enable_run_as
 =
 enable_run_as
+                
 )
 .
 splitlines
@@ -19773,14 +19915,14 @@ _logger
 .
 debug
 (
-'
+"
 list_files
 :
 data
 :
 %
 s
-'
+"
 %
 data
 )
@@ -19795,7 +19937,8 @@ _logger
 .
 error
 (
-'
+                    
+"
 Ignoring
 exception
 in
@@ -19806,14 +19949,15 @@ list_files
 n
 %
 s
-'
+"
+                    
 %
-                                   
 traceback
 .
 format_exc
 (
 )
+                
 )
         
 data
@@ -19837,12 +19981,12 @@ _logger
 .
 debug
 (
-'
+"
 list_files
 :
 %
 s
-'
+"
 %
 data
 )
@@ -20255,8 +20399,8 @@ path
         
 parent
 =
-'
-'
+"
+"
         
 entries
 =
@@ -20267,18 +20411,18 @@ if
 path
 =
 =
-'
+"
 /
 sdcard
-'
+"
 :
             
 path
 +
 =
-'
+"
 /
-'
+"
         
 #
 Android
@@ -20329,37 +20473,37 @@ recursive
             
 recursive_flag
 =
-'
-'
+"
+"
         
 else
 :
             
 recursive_flag
 =
-'
+"
 -
 R
-'
+"
             
 if
 path
 .
 startswith
 (
-'
+"
 /
 sdcard
-'
+"
 )
 and
 path
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
                 
@@ -20369,14 +20513,13 @@ self
 .
 get_prop
 (
-'
+"
 ro
 .
 product
 .
 model
-'
-                                      
+"
 timeout
 =
 timeout
@@ -20386,18 +20529,18 @@ if
 model
 =
 =
-'
+"
 Nexus
 4
-'
+"
 :
                     
 path
 +
 =
-'
+"
 *
-'
+"
         
 lines
 =
@@ -20405,14 +20548,15 @@ self
 .
 shell_output
 (
-'
+            
+"
 %
 s
 %
 s
 %
 s
-'
+"
 %
 (
 self
@@ -20421,14 +20565,15 @@ _ls
 recursive_flag
 path
 )
-                                  
+            
 timeout
 =
 timeout
-                                  
+            
 enable_run_as
 =
 enable_run_as
+        
 )
 .
 splitlines
@@ -20456,8 +20601,8 @@ line
                 
 parent
 =
-'
-'
+"
+"
                 
 continue
             
@@ -20466,9 +20611,9 @@ line
 .
 endswith
 (
-'
+"
 :
-'
+"
 )
 :
 #
@@ -20483,12 +20628,12 @@ line
 .
 replace
 (
-'
+"
 :
-'
-'
+"
+"
 /
-'
+"
 )
                 
 entry
@@ -20875,34 +21020,32 @@ supported
 .
                 
 if
-(
 self
 .
 shell_bool
 (
-'
+                    
+"
 mkdir
 -
 p
 %
 s
-'
+"
 %
 path
 timeout
 =
 timeout
-                                    
 enable_run_as
 =
 enable_run_as
+                
 )
 or
-                    
 verify_mkdir
 (
 path
-)
 )
 :
                     
@@ -20974,9 +21117,9 @@ path
 .
 split
 (
-'
+"
 /
-'
+"
 )
                 
 name
@@ -21046,21 +21189,23 @@ self
 .
 shell_output
 (
-'
+                                
+"
 mkdir
 %
 s
-'
+"
 %
 name
-                                              
+                                
 timeout
 =
 timeout
-                                              
+                                
 enable_run_as
 =
 enable_run_as
+                            
 )
                             
 self
@@ -21071,7 +21216,6 @@ name
 recursive
 =
 True
-                                       
 timeout
 =
 timeout
@@ -21159,20 +21303,21 @@ self
 .
 shell_output
 (
-'
+                
+"
 mkdir
 %
 s
-'
+"
 %
 path
 timeout
 =
 timeout
-                              
 enable_run_as
 =
 enable_run_as
+            
 )
             
 self
@@ -21208,12 +21353,12 @@ path
 raise
 ADBError
 (
-'
+"
 mkdir
 %
 s
 Failed
-'
+"
 %
 path
 )
@@ -21598,9 +21743,9 @@ remote
                 
 remote
 =
-'
+"
 /
-'
+"
 .
 join
 (
@@ -21608,16 +21753,16 @@ remote
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 :
@@ -21806,15 +21951,15 @@ posixpath
 .
 join
 (
-'
+                            
+"
 /
 data
 /
 local
 /
 tmp
-'
-                                                      
+"
 posixpath
 .
 basename
@@ -21823,6 +21968,7 @@ tmpf
 .
 name
 )
+                        
 )
                     
 self
@@ -21979,7 +22125,9 @@ str
 (
 e
 )
+                
 )
+            
 )
             
 #
@@ -22091,10 +22239,10 @@ posixpath
 .
 join
 (
-'
+"
 /
 sdcard
-'
+"
 posixpath
 .
 basename
@@ -22576,9 +22724,9 @@ else
                 
 local
 =
-'
+"
 /
-'
+"
 .
 join
 (
@@ -22586,16 +22734,16 @@ local
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 :
@@ -22803,15 +22951,15 @@ posixpath
 .
 join
 (
-'
+                            
+"
 /
 data
 /
 local
 /
 tmp
-'
-                                                      
+"
 posixpath
 .
 basename
@@ -22820,6 +22968,7 @@ tmpf
 .
 name
 )
+                        
 )
                     
 #
@@ -22875,6 +23024,7 @@ self
 .
 mkdir
 (
+                            
 posixpath
 .
 join
@@ -22882,13 +23032,15 @@ join
 intermediate
 remote_name
 )
+                            
 parents
 =
 True
-                                   
+                            
 timeout
 =
 timeout
+                        
 )
                     
 else
@@ -23214,9 +23366,9 @@ tf
 name
 mode
 =
-'
+"
 rb
-'
+"
 )
 as
 tf2
@@ -23530,6 +23682,7 @@ self
 .
 shell_output
 (
+                
 "
 %
 s
@@ -23544,10 +23697,10 @@ path
 timeout
 =
 timeout
-                              
 enable_run_as
 =
 enable_run_as
+            
 )
             
 self
@@ -23602,13 +23755,13 @@ if
 not
 force
 and
-'
+"
 No
 such
 file
 or
 directory
-'
+"
 in
 str
 (
@@ -23619,11 +23772,11 @@ e
 raise
             
 if
-'
+"
 Directory
 not
 empty
-'
+"
 in
 str
 (
@@ -23638,13 +23791,13 @@ self
 .
 _verbose
 and
-'
+"
 No
 such
 file
 or
 directory
-'
+"
 not
 in
 str
@@ -23660,7 +23813,7 @@ _logger
 error
 (
                     
-'
+"
 rm
 %
 s
@@ -23683,10 +23836,10 @@ s
 :
 %
 s
-'
+"
+                    
 %
 (
-                        
 path
 recursive
 force
@@ -23697,6 +23850,7 @@ str
 e
 )
 )
+                
 )
     
 def
@@ -23832,6 +23986,7 @@ self
 .
 shell_output
 (
+            
 "
 rmdir
 %
@@ -23842,10 +23997,10 @@ path
 timeout
 =
 timeout
-                          
 enable_run_as
 =
 enable_run_as
+        
 )
         
 self
@@ -24154,9 +24309,9 @@ if
 item
 =
 =
-'
+"
 user
-'
+"
 :
                         
 user_i
@@ -24167,9 +24322,9 @@ elif
 item
 =
 =
-'
+"
 pid
-'
+"
 :
                         
 pid_i
@@ -24222,7 +24377,8 @@ _logger
 .
 info
 (
-'
+                        
+"
 get_process_list
 :
 attempt
@@ -24231,12 +24387,13 @@ attempt
 d
 %
 s
-'
+"
 %
 (
 attempt
 header
 )
+                    
 )
                 
 else
@@ -24245,7 +24402,8 @@ else
 raise
 ADBError
 (
-'
+                        
+"
 get_process_list
 :
 Unknown
@@ -24256,13 +24414,14 @@ s
 :
 %
 s
-'
+"
+                        
 %
 (
-                        
 header
 adb_process
 )
+                    
 )
             
 ret
@@ -24334,7 +24493,8 @@ _logger
 .
 error
 (
-'
+                        
+"
 get_process_list
 :
 %
@@ -24345,10 +24505,10 @@ s
 n
 %
 s
-'
+"
+                        
 %
 (
-                        
 header
 line
 traceback
@@ -24357,12 +24517,14 @@ format_exc
 (
 )
 )
+                    
 )
                     
 raise
 ADBError
 (
-'
+                        
+"
 get_process_list
 :
 %
@@ -24373,14 +24535,14 @@ s
 :
 %
 s
-'
+"
 %
 (
-                        
 header
 line
 adb_process
 )
+                    
 )
                 
 except
@@ -24393,7 +24555,8 @@ _logger
 .
 error
 (
-'
+                        
+"
 get_process_list
 :
 %
@@ -24413,10 +24576,10 @@ s
 n
 %
 s
-'
+"
+                        
 %
 (
-                        
 header
 line
 els
@@ -24428,12 +24591,14 @@ format_exc
 (
 )
 )
+                    
 )
                     
 raise
 ADBError
 (
-'
+                        
+"
 get_process_list
 :
 %
@@ -24453,10 +24618,10 @@ s
 :
 %
 s
-'
+"
+                        
 %
 (
-                        
 header
 line
 els
@@ -24464,6 +24629,7 @@ pid_i
 user_i
 adb_process
 )
+                    
 )
                 
 line
@@ -24487,12 +24653,12 @@ _logger
 .
 debug
 (
-'
+"
 get_process_list
 :
 %
 s
-'
+"
 %
 ret
 )
@@ -24539,7 +24705,6 @@ attempts
 wait
 =
 5
-             
 timeout
 =
 None
@@ -24757,8 +24922,8 @@ self
 .
 shell_output
 (
-'
-'
+"
+"
 .
 join
 (
@@ -24776,11 +24941,11 @@ e
 :
                 
 if
-'
+"
 No
 such
 process
-'
+"
 not
 in
 str
@@ -24802,6 +24967,7 @@ current_pid_set
 =
 set
 (
+                
 [
 str
 (
@@ -24813,7 +24979,6 @@ proc
 for
 proc
 in
-                                   
 self
 .
 get_process_list
@@ -24823,6 +24988,7 @@ timeout
 timeout
 )
 ]
+            
 )
             
 pid_list
@@ -24850,6 +25016,7 @@ _logger
 .
 debug
 (
+                
 "
 Attempt
 %
@@ -24864,8 +25031,8 @@ processes
 s
 failed
 "
+                
 %
-                               
 (
 attempt
 +
@@ -24873,6 +25040,7 @@ attempt
 attempts
 pid_list
 )
+            
 )
             
 time
@@ -24889,7 +25057,7 @@ pid_list
 raise
 ADBError
 (
-'
+"
 kill
 :
 processes
@@ -24897,7 +25065,7 @@ processes
 s
 not
 killed
-'
+"
 %
 pid_list
 )
@@ -24916,7 +25084,6 @@ attempts
 wait
 =
 5
-              
 timeout
 =
 None
@@ -25144,7 +25311,6 @@ attempts
 wait
 =
 wait
-                      
 timeout
 =
 timeout
@@ -25362,21 +25528,21 @@ process_name
 .
 split
 (
-'
-'
+"
+"
 )
 if
 x
 !
 =
-'
-'
+"
+"
 ]
         
 process_name
 =
-'
-'
+"
+"
 .
 join
 (
@@ -25445,8 +25611,8 @@ parts
             
 process_name
 =
-'
-'
+"
+"
 .
 join
 (
@@ -25467,8 +25633,8 @@ process_name
 .
 split
 (
-'
-'
+"
+"
 )
         
 parts
@@ -25480,9 +25646,9 @@ pieces
 .
 split
 (
-'
+"
 /
-'
+"
 )
         
 app
@@ -25714,11 +25880,11 @@ self
 .
 enable_run_as_for_path
 (
+            
 source
+        
 )
 or
-\
-            
 self
 .
 enable_run_as_for_path
@@ -25734,21 +25900,22 @@ _have_cp
             
 r
 =
-'
+"
 -
 R
-'
+"
 if
 recursive
 else
-'
-'
+"
+"
             
 self
 .
 shell_output
 (
-'
+                
+"
 cp
 %
 s
@@ -25756,20 +25923,22 @@ s
 s
 %
 s
-'
+"
 %
 (
 r
 source
 destination
 )
-                              
+                
 timeout
 =
 timeout
+                
 enable_run_as
 =
 enable_run_as
+            
 )
             
 self
@@ -25855,7 +26024,6 @@ or
 directory
 "
 %
-                           
 source
 )
         
@@ -25900,7 +26068,6 @@ posixpath
 join
 (
 destination
-                                             
 posixpath
 .
 basename
@@ -25913,7 +26080,7 @@ self
 .
 shell_output
 (
-'
+"
 dd
 if
 =
@@ -25923,13 +26090,12 @@ of
 =
 %
 s
-'
+"
 %
 (
 source
 destination
 )
-                              
 timeout
 =
 timeout
@@ -25974,7 +26140,7 @@ timeout
 raise
 ADBError
 (
-'
+"
 cp
 :
 %
@@ -25983,7 +26149,7 @@ s
 Not
 a
 directory
-'
+"
 %
 destination
 )
@@ -26040,7 +26206,6 @@ posixpath
 join
 (
 destination
-                                             
 posixpath
 .
 basename
@@ -26104,10 +26269,10 @@ e
 :
             
 if
-'
+"
 File
 exists
-'
+"
 not
 in
 str
@@ -26136,6 +26301,7 @@ self
 .
 cp
 (
+                
 posixpath
 .
 join
@@ -26143,7 +26309,7 @@ join
 source
 i
 )
-                    
+                
 posixpath
 .
 join
@@ -26151,14 +26317,15 @@ join
 destination_dir
 i
 )
-                    
+                
 recursive
 =
 recursive
-                    
+                
 timeout
 =
 timeout
+            
 )
         
 self
@@ -26336,11 +26503,11 @@ self
 .
 enable_run_as_for_path
 (
+            
 source
+        
 )
 or
-\
-            
 self
 .
 enable_run_as_for_path
@@ -26352,25 +26519,28 @@ self
 .
 shell_output
 (
-'
+            
+"
 mv
 %
 s
 %
 s
-'
+"
 %
 (
 source
 destination
 )
+            
 timeout
 =
 timeout
-                          
+            
 enable_run_as
 =
 enable_run_as
+        
 )
     
 def
@@ -26722,31 +26892,39 @@ for
 service
 in
 (
+            
 "
 meminfo
 "
+            
 "
 cpuinfo
 "
+            
 "
 dbinfo
 "
+            
 "
 procstats
 "
+            
 "
 usagestats
 "
-                        
+            
 "
 battery
 "
+            
 "
 batterystats
 "
+            
 "
 diskstats
 "
+        
 )
 :
             
@@ -26759,6 +26937,7 @@ self
 .
 shell_output
 (
+                
 "
 dumpsys
 %
@@ -26766,10 +26945,10 @@ s
 "
 %
 service
-                                                 
 timeout
 =
 timeout
+            
 )
         
 return
@@ -26975,28 +27154,27 @@ ADBError
 directives
 =
 [
-'
+"
 battery
-'
-'
+"
+"
 disk
-'
-'
+"
+"
 id
-'
-'
+"
+"
 os
-'
-'
+"
+"
 process
-'
-'
+"
+"
 systime
-'
-                      
-'
+"
+"
 uptime
-'
+"
 ]
         
 if
@@ -27017,18 +27195,18 @@ info
 }
         
 if
-'
+"
 battery
-'
+"
 in
 directives
 :
             
 info
 [
-'
+"
 battery
-'
+"
 ]
 =
 self
@@ -27041,25 +27219,26 @@ timeout
 )
         
 if
-'
+"
 disk
-'
+"
 in
 directives
 :
             
 info
 [
-'
+"
 disk
-'
+"
 ]
 =
 self
 .
 shell_output
 (
-'
+                
+"
 df
 /
 data
@@ -27067,11 +27246,11 @@ data
 system
 /
 sdcard
-'
-                                             
+"
 timeout
 =
 timeout
+            
 )
 .
 splitlines
@@ -27079,18 +27258,18 @@ splitlines
 )
         
 if
-'
+"
 id
-'
+"
 in
 directives
 :
             
 info
 [
-'
+"
 id
-'
+"
 ]
 =
 self
@@ -27098,11 +27277,11 @@ self
 command_output
 (
 [
-'
+"
 get
 -
 serialno
-'
+"
 ]
 timeout
 =
@@ -27110,25 +27289,25 @@ timeout
 )
         
 if
-'
+"
 os
-'
+"
 in
 directives
 :
             
 info
 [
-'
+"
 os
-'
+"
 ]
 =
 self
 .
 get_prop
 (
-'
+"
 ro
 .
 build
@@ -27136,17 +27315,16 @@ build
 display
 .
 id
-'
-                                       
+"
 timeout
 =
 timeout
 )
         
 if
-'
+"
 process
-'
+"
 in
 directives
 :
@@ -27157,9 +27335,9 @@ self
 .
 shell_output
 (
-'
+"
 ps
-'
+"
 timeout
 =
 timeout
@@ -27167,9 +27345,9 @@ timeout
             
 info
 [
-'
+"
 process
-'
+"
 ]
 =
 ps
@@ -27179,36 +27357,36 @@ splitlines
 )
         
 if
-'
+"
 systime
-'
+"
 in
 directives
 :
             
 info
 [
-'
+"
 systime
-'
+"
 ]
 =
 self
 .
 shell_output
 (
-'
+"
 date
-'
+"
 timeout
 =
 timeout
 )
         
 if
-'
+"
 uptime
-'
+"
 in
 directives
 :
@@ -27219,9 +27397,9 @@ self
 .
 shell_output
 (
-'
+"
 uptime
-'
+"
 timeout
 =
 timeout
@@ -27238,7 +27416,7 @@ re
 match
 (
 r
-'
+"
 up
 time
 :
@@ -27274,8 +27452,7 @@ d
 2
 }
 )
-'
-                             
+"
 uptime
 )
                 
@@ -27285,7 +27462,7 @@ m
                     
 uptime
 =
-'
+"
 %
 d
 days
@@ -27298,7 +27475,7 @@ minutes
 %
 d
 seconds
-'
+"
 %
 tuple
 (
@@ -27323,13 +27500,14 @@ groups
 :
 ]
 ]
+                    
 )
                 
 info
 [
-'
+"
 uptime
-'
+"
 ]
 =
 uptime
@@ -27411,7 +27589,6 @@ supported
 False
 otherwise
 .
-        
 "
 "
 "
@@ -27428,15 +27605,13 @@ self
 .
 _selinux
 =
-(
 self
 .
 enforcing
 !
 =
-'
-'
-)
+"
+"
         
 return
 self
@@ -27461,9 +27636,9 @@ self
 .
 shell_output
 (
-'
+"
 getenforce
-'
+"
 )
         
 except
@@ -27474,8 +27649,8 @@ e
             
 enforce
 =
-'
-'
+"
+"
             
 self
 .
@@ -27483,7 +27658,7 @@ _logger
 .
 warning
 (
-'
+"
 Unable
 to
 get
@@ -27494,7 +27669,7 @@ to
 %
 s
 .
-'
+"
 %
 e
 )
@@ -27574,12 +27749,12 @@ _logger
 .
 info
 (
-'
+"
 Setting
 SELinux
 %
 s
-'
+"
 %
 value
 )
@@ -27596,7 +27771,7 @@ _logger
 .
 warning
 (
-'
+"
 Unable
 to
 set
@@ -27607,7 +27782,7 @@ to
 %
 s
 .
-'
+"
 %
 e
 )
@@ -27750,7 +27925,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -27768,7 +27943,7 @@ s
 d
 +
 )
-'
+"
 )
         
 lines
@@ -27828,9 +28003,9 @@ if
 parameter
 =
 =
-'
+"
 level
-'
+"
 :
                     
 level
@@ -27844,9 +28019,9 @@ elif
 parameter
 =
 =
-'
+"
 scale
-'
+"
 :
                     
 scale
@@ -28150,14 +28325,14 @@ re
 .
 search
 (
-'
+"
 mFocusedApp
 (
 .
 +
 )
 /
-'
+"
 data
 )
         
@@ -28182,14 +28357,14 @@ re
 .
 search
 (
-'
+"
 FocusedApplication
 (
 .
 +
 )
 /
-'
+"
 data
 )
         
@@ -28228,14 +28403,14 @@ re
 search
 (
 r
-'
+"
 (
 \
 S
 +
 )
 /
-'
+"
 line
 )
             
@@ -28264,12 +28439,12 @@ _logger
 .
 debug
 (
-'
+"
 get_top_activity
 :
 %
 s
-'
+"
 %
 str
 (
@@ -28403,7 +28578,7 @@ re
 search
 (
 r
-'
+"
 mFocusedWindow
 =
 Window
@@ -28424,7 +28599,7 @@ S
 S
 +
 }
-'
+"
 data
 )
         
@@ -28453,12 +28628,12 @@ _logger
 .
 debug
 (
-'
+"
 get_top_activity
 :
 %
 s
-'
+"
 %
 str
 (
@@ -28723,10 +28898,10 @@ _device_ready_retry_attempts
             
 failure
 =
-'
+"
 Unknown
 failure
-'
+"
             
 success
 =
@@ -28750,9 +28925,9 @@ if
 state
 !
 =
-'
+"
 device
-'
+"
 :
                     
 failure
@@ -28780,18 +28955,18 @@ self
 enforcing
 !
 =
-'
+"
 Permissive
-'
+"
 :
                         
 self
 .
 enforcing
 =
-'
+"
 Permissive
-'
+"
                     
 if
 self
@@ -28860,6 +29035,7 @@ self
 .
 shell_output
 (
+                        
 "
 pm
 list
@@ -28868,10 +29044,10 @@ org
 .
 mozilla
 "
-                                             
 timeout
 =
 timeout
+                    
 )
                     
 if
@@ -28916,7 +29092,8 @@ _logger
 .
 debug
 (
-'
+                    
+"
 Attempt
 %
 s
@@ -28929,19 +29106,19 @@ ready
 :
 %
 s
-'
+"
+                    
 %
 (
-                    
 attempt
 +
 1
 self
 .
 _device_ready_retry_attempts
-                    
 failure
 )
+                
 )
                 
 time
@@ -29062,13 +29239,12 @@ self
 .
 shell_output
 (
-'
+"
 svc
 power
 stayon
 true
-'
-                              
+"
 timeout
 =
 timeout
@@ -29103,11 +29279,11 @@ error
 .
             
 if
-'
+"
 exitcode
 :
 137
-'
+"
 not
 in
 str
@@ -29124,7 +29300,7 @@ _logger
 .
 warning
 (
-'
+"
 Unable
 to
 set
@@ -29134,7 +29310,7 @@ true
 :
 %
 s
-'
+"
 %
 e
 )
@@ -29219,53 +29395,53 @@ permissions
 =
 [
                 
-'
+"
 android
 .
 permission
 .
 WRITE_EXTERNAL_STORAGE
-'
+"
                 
-'
+"
 android
 .
 permission
 .
 READ_EXTERNAL_STORAGE
-'
+"
                 
-'
+"
 android
 .
 permission
 .
 ACCESS_COARSE_LOCATION
-'
+"
                 
-'
+"
 android
 .
 permission
 .
 ACCESS_FINE_LOCATION
-'
+"
                 
-'
+"
 android
 .
 permission
 .
 CAMERA
-'
+"
                 
-'
+"
 android
 .
 permission
 .
 RECORD_AUDIO
-'
+"
             
 ]
             
@@ -29301,26 +29477,29 @@ self
 .
 shell_output
 (
-'
+                        
+"
 pm
 grant
 %
 s
 %
 s
-'
+"
 %
 (
 app_name
 permission
 )
+                        
 timeout
 =
 timeout
-                                      
+                        
 enable_run_as
 =
 False
+                    
 )
                 
 except
@@ -29335,6 +29514,7 @@ _logger
 .
 warning
 (
+                        
 "
 Unable
 to
@@ -29351,13 +29531,14 @@ to
 %
 s
 "
+                        
 %
-                                         
 (
 permission
 app_name
 e
 )
+                    
 )
     
 def
@@ -29519,10 +29700,10 @@ dump_packages
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 )
         
@@ -29572,9 +29753,9 @@ data
 .
 find
 (
-'
+"
 Success
-'
+"
 )
 =
 =
@@ -29598,7 +29779,6 @@ Got
 s
 "
 %
-                           
 (
 apk_path
 data
@@ -29618,10 +29798,10 @@ dump_packages
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 )
         
@@ -29642,7 +29822,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -29659,7 +29839,7 @@ Package
 *
 )
 }
-'
+"
 )
         
 for
@@ -29801,7 +29981,7 @@ ADBError
         
 pm_error_string
 =
-'
+"
 Error
 :
 Could
@@ -29810,7 +29990,7 @@ access
 the
 Package
 Manager
-'
+"
         
 data
 =
@@ -29818,6 +29998,7 @@ self
 .
 shell_output
 (
+            
 "
 pm
 list
@@ -29830,10 +30011,10 @@ app_name
 timeout
 =
 timeout
-                                 
 enable_run_as
 =
 False
+        
 )
         
 if
@@ -29872,12 +30053,12 @@ return
 any
 (
 [
-'
+"
 package
 :
 {
 }
-'
+"
 .
 format
 (
@@ -29896,31 +30077,39 @@ output
 def
 launch_application
 (
+        
 self
+        
 app_name
+        
 activity_name
+        
 intent
+        
 url
 =
 None
-                           
+        
 extras
 =
 None
+        
 wait
 =
 True
+        
 fail_if_running
 =
 True
-                           
+        
 grant_runtime_permissions
 =
 True
-                           
+        
 timeout
 =
 None
+    
 )
 :
         
@@ -30190,6 +30379,7 @@ timeout
 raise
 ADBError
 (
+                
 "
 Only
 one
@@ -30201,11 +30391,11 @@ may
 be
 running
 "
-                           
 "
 at
 once
 "
+            
 )
         
 if
@@ -30230,9 +30420,8 @@ start
 "
 ]
 +
-\
-            
 [
+            
 "
 -
 W
@@ -30240,12 +30429,14 @@ W
 if
 wait
 else
-'
-'
+"
+"
+            
 "
 -
 n
 "
+            
 "
 %
 s
@@ -30258,6 +30449,7 @@ s
 app_name
 activity_name
 )
+        
 ]
         
 if
@@ -30441,12 +30633,12 @@ _logger
 .
 info
 (
-'
+"
 launch_application
 :
 %
 s
-'
+"
 %
 cmd
 )
@@ -30464,10 +30656,10 @@ timeout
 )
         
 if
-'
+"
 Error
 :
-'
+"
 in
 cmd_output
 :
@@ -30479,10 +30671,10 @@ cmd_output
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 :
                 
@@ -30498,7 +30690,7 @@ line
 raise
 ADBError
 (
-'
+"
 launch_activity
 %
 s
@@ -30506,7 +30698,7 @@ s
 %
 s
 failed
-'
+"
 %
 (
 app_name
@@ -30517,8 +30709,11 @@ activity_name
 def
 launch_fennec
 (
+        
 self
+        
 app_name
+        
 intent
 =
 "
@@ -30530,26 +30725,31 @@ action
 .
 VIEW
 "
-                      
+        
 moz_env
 =
 None
+        
 extra_args
 =
 None
+        
 url
 =
 None
+        
 wait
 =
 True
-                      
+        
 fail_if_running
 =
 True
+        
 timeout
 =
 None
+    
 )
 :
         
@@ -30851,9 +31051,9 @@ extra_args
             
 extras
 [
-'
+"
 args
-'
+"
 ]
 =
 "
@@ -30868,7 +31068,9 @@ self
 .
 launch_application
 (
+            
 app_name
+            
 "
 org
 .
@@ -30878,36 +31080,43 @@ gecko
 .
 BrowserApp
 "
-                                
+            
 intent
+            
 url
 =
 url
+            
 extras
 =
 extras
-                                
+            
 wait
 =
 wait
+            
 fail_if_running
 =
 fail_if_running
-                                
+            
 timeout
 =
 timeout
+        
 )
     
 def
 launch_activity
 (
+        
 self
+        
 app_name
+        
 activity_name
 =
 None
-                        
+        
 intent
 =
 "
@@ -30919,29 +31128,35 @@ action
 .
 MAIN
 "
-                        
+        
 moz_env
 =
 None
+        
 extra_args
 =
 None
+        
 url
 =
 None
+        
 e10s
 =
 False
-                        
+        
 wait
 =
 True
+        
 fail_if_running
 =
 True
+        
 timeout
 =
 None
+    
 )
 :
         
@@ -31286,9 +31501,9 @@ extra_args
             
 extras
 [
-'
+"
 args
-'
+"
 ]
 =
 "
@@ -31301,9 +31516,9 @@ extra_args
         
 extras
 [
-'
+"
 use_multiprocess
-'
+"
 ]
 =
 e10s
@@ -31312,8 +31527,9 @@ self
 .
 launch_application
 (
+            
 app_name
-                                
+            
 "
 %
 s
@@ -31326,25 +31542,29 @@ s
 app_name
 activity_name
 )
-                                
+            
 intent
+            
 url
 =
 url
+            
 extras
 =
 extras
-                                
+            
 wait
 =
 wait
+            
 fail_if_running
 =
 fail_if_running
-                                
+            
 timeout
 =
 timeout
+        
 )
     
 def
@@ -31608,6 +31828,7 @@ max_tries
 raise
 ADBError
 (
+                        
 "
 Couldn
 '
@@ -31620,7 +31841,7 @@ after
 %
 s
 "
-                                   
+                        
 "
 tries
 "
@@ -31629,6 +31850,7 @@ tries
 app_name
 max_tries
 )
+                    
 )
                 
 self
@@ -31887,9 +32109,9 @@ data
 .
 find
 (
-'
+"
 Success
-'
+"
 )
 =
 =
@@ -31903,13 +32125,13 @@ _logger
 .
 debug
 (
-'
+"
 uninstall_app
 failed
 :
 %
 s
-'
+"
 %
 data
 )

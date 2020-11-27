@@ -234,9 +234,9 @@ registry
 [
 name
 ]
-'
+"
 description
-'
+"
 )
 :
                 
@@ -257,15 +257,21 @@ wrap
 def
 optimize_task_graph
 (
+    
 target_task_graph
+    
 requested_tasks
+    
 params
+    
 do_not_optimize
-                        
+    
 decision_task_id
+    
 existing_tasks
 =
 None
+    
 strategy_override
 =
 None
@@ -375,6 +381,7 @@ params
 do_not_optimize
 =
 do_not_optimize
+    
 )
     
 replaced_tasks
@@ -409,20 +416,30 @@ existing_tasks
 removed_tasks
 =
 removed_tasks
+    
 )
     
 return
+(
+        
 get_subgraph
 (
             
 target_task_graph
+            
 removed_tasks
+            
 replaced_tasks
             
 label_to_taskid
+            
 decision_task_id
+        
 )
+        
 label_to_taskid
+    
+)
 def
 _get_optimizations
 (
@@ -481,9 +498,9 @@ if
 hasattr
 (
 strategy
-'
+"
 description
-'
+"
 )
 :
                 
@@ -516,14 +533,14 @@ else
             
 return
 (
-'
+"
 never
-'
+"
 strategies
 [
-'
+"
 never
-'
+"
 ]
 None
 )
@@ -606,10 +623,10 @@ logger
 info
 (
             
-'
+"
 {
 }
-'
+"
 .
 format
 (
@@ -619,29 +636,28 @@ title
 (
 )
 )
-+
             
-'
-'
++
+"
+"
 .
 join
 (
                 
-'
+"
 {
 }
 tasks
 by
 {
 }
-'
+"
 .
 format
 (
 c
 b
 )
-                
 for
 b
 c
@@ -654,14 +670,16 @@ items
 (
 )
 )
-)
-+
             
-'
+)
+            
++
+"
 during
 optimization
 .
-'
+"
+        
 )
     
 else
@@ -671,14 +689,14 @@ logger
 .
 info
 (
-'
+"
 No
 tasks
 {
 }
 during
 optimization
-'
+"
 .
 format
 (
@@ -688,6 +706,7 @@ verb
 def
 remove_tasks
 (
+    
 target_task_graph
 requested_tasks
 params
@@ -878,7 +897,9 @@ considered
 prune_deps
 =
 {
+            
 l
+            
 for
 l
 in
@@ -886,12 +907,12 @@ dependents_of
 [
 label
 ]
-                      
+            
 if
 l
 in
 prune_candidates
-                      
+            
 if
 not
 tasks
@@ -909,6 +930,7 @@ l
 ]
 .
 if_dependencies
+        
 }
         
 def
@@ -1289,6 +1311,7 @@ remove
 if
 any
 (
+            
 l
 for
 l
@@ -1307,6 +1330,7 @@ l
 not
 in
 prune_deps
+        
 )
 :
             
@@ -1552,7 +1576,9 @@ dependents
 =
 any
 (
+                
 d
+                
 for
 d
 in
@@ -1560,18 +1586,19 @@ dependents_of
 [
 label
 ]
-                             
+                
 if
 d
 not
 in
 prune_candidates
-                             
+                
 if
 d
 not
 in
 removed
+            
 )
             
 if
@@ -1624,9 +1651,9 @@ reason
     
 _log_optimization
 (
-'
+"
 removed
-'
+"
 opt_counts
 opt_reasons
 )
@@ -1636,13 +1663,19 @@ removed
 def
 replace_tasks
 (
+    
 target_task_graph
+    
 params
+    
 optimizations
+    
 do_not_optimize
-                  
+    
 label_to_taskid
+    
 removed_tasks
+    
 existing_tasks
 )
 :
@@ -1831,9 +1864,9 @@ label
             
 opt_counts
 [
-'
+"
 existing_tasks
-'
+"
 ]
 +
 =
@@ -1943,9 +1976,9 @@ continue
     
 _log_optimization
 (
-'
+"
 replaced
-'
+"
 opt_counts
 )
     
@@ -1956,9 +1989,13 @@ get_subgraph
 (
     
 target_task_graph
+    
 removed_tasks
+    
 replaced_tasks
+    
 label_to_taskid
+    
 decision_task_id
 )
 :
@@ -2053,11 +2090,13 @@ tasks
 bad_edges
 =
 [
+        
 (
 l
 r
 n
 )
+        
 for
 l
 r
@@ -2068,7 +2107,7 @@ target_task_graph
 graph
 .
 edges
-                 
+        
 if
 l
 not
@@ -2078,6 +2117,7 @@ and
 r
 in
 removed_tasks
+    
 ]
     
 if
@@ -2086,12 +2126,13 @@ bad_edges
         
 probs
 =
-'
-'
+"
+"
 .
 join
 (
-'
+            
+"
 {
 }
 depends
@@ -2106,7 +2147,7 @@ it
 has
 been
 removed
-'
+"
 .
 format
 (
@@ -2114,13 +2155,14 @@ l
 r
 n
 )
-                          
+            
 for
 l
 r
 n
 in
 bad_edges
+        
 )
         
 raise
@@ -2160,6 +2202,7 @@ label
 in
 sorted
 (
+        
 target_task_graph
 .
 graph
@@ -2172,6 +2215,7 @@ set
 (
 label_to_taskid
 )
+    
 )
 :
         
@@ -2186,9 +2230,9 @@ slugid
 .
 decode
 (
-'
+"
 ascii
-'
+"
 )
     
 #
@@ -2284,6 +2328,7 @@ label
 items
 (
 )
+        
 }
         
 #
@@ -2302,22 +2347,23 @@ named_task_dependencies
 .
 update
 (
-{
                 
+{
+                    
 label
 :
 label_to_taskid
 [
 label
 ]
-                
+                    
 for
 label
 in
 task
 .
 soft_dependencies
-                
+                    
 if
 label
 in
@@ -2327,8 +2373,9 @@ label
 not
 in
 omit
-            
+                
 }
+            
 )
         
 task
@@ -2370,9 +2417,9 @@ task
 .
 setdefault
 (
-'
+"
 dependencies
-'
+"
 [
 ]
 )
@@ -2511,9 +2558,7 @@ tasks_by_taskid
 return
 TaskGraph
 (
-        
 tasks_by_taskid
-        
 Graph
 (
 set
@@ -2525,9 +2570,9 @@ edges_by_taskid
 )
 register_strategy
 (
-'
+"
 never
-'
+"
 )
 class
 OptimizationStrategy
@@ -2624,9 +2669,9 @@ return
 False
 register_strategy
 (
-'
+"
 always
-'
+"
 )
 class
 Always
@@ -2744,6 +2789,7 @@ missing
 raise
 TypeError
 (
+                
 "
 substrategies
 aren
@@ -2757,7 +2803,7 @@ registered
 .
 format
 (
-                
+                    
 "
 "
 .
@@ -2768,7 +2814,9 @@ sorted
 missing
 )
 )
+                
 )
+            
 )
         
 self
@@ -2779,9 +2827,9 @@ kwargs
 .
 pop
 (
-'
+"
 split_args
-'
+"
 None
 )
         
@@ -2898,6 +2946,7 @@ arg
 in
 zip
 (
+            
 self
 .
 substrategies
@@ -2910,6 +2959,7 @@ self
 .
 substrategies
 )
+        
 )
 :
             
@@ -2940,9 +2990,9 @@ self
 .
 _generate_results
 (
-'
+"
 should_remove_task
-'
+"
 *
 args
 )
@@ -2970,9 +3020,9 @@ self
 .
 _generate_results
 (
-'
+"
 should_replace_task
-'
+"
 *
 args
 )
@@ -3474,7 +3524,9 @@ BugBugPushSchedules
 index
 =
 [
+        
 i
+        
 for
 i
 strategy
@@ -3483,13 +3535,14 @@ enumerate
 (
 substrategies
 )
-             
+        
 if
 isinstance
 (
 strategy
 BugBugPushSchedules
 )
+    
 ]
 [
 0
@@ -3532,19 +3585,19 @@ strategies
 .
 register_strategy
 (
-'
+"
 build
-'
+"
 args
 =
 (
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
 )
 )
 (
@@ -3552,19 +3605,19 @@ Alias
 )
 register_strategy
 (
-'
+"
 test
-'
+"
 args
 =
 (
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
 )
 )
 (
@@ -3572,21 +3625,21 @@ Alias
 )
 register_strategy
 (
-'
+"
 test
 -
 inclusive
-'
+"
 args
 =
 (
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
 )
 )
 (
@@ -3594,21 +3647,21 @@ Alias
 )
 register_strategy
 (
-'
+"
 test
 -
 verify
-'
+"
 args
 =
 (
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
 )
 )
 (
@@ -3616,17 +3669,17 @@ Alias
 )
 register_strategy
 (
-'
+"
 upload
 -
 symbols
-'
+"
 args
 =
 (
-'
+"
 never
-'
+"
 )
 )
 (
@@ -3678,9 +3731,9 @@ autoland
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
@@ -3845,23 +3898,23 @@ barrier
 strategies
 .
                 
-'
+"
 skip
 -
 unless
 -
 backstop
-'
+"
                 
 Not
 (
-'
+"
 skip
 -
 unless
 -
 expanded
-'
+"
 )
                 
 #
@@ -3880,15 +3933,15 @@ pushes
 Any
 (
                     
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
                     
-'
+"
 bugbug
 -
 reduced
@@ -3902,13 +3955,13 @@ last
 10
 -
 pushes
-'
+"
                     
-'
+"
 platform
 -
 disperse
-'
+"
                     
 split_args
 =
@@ -4031,13 +4084,13 @@ barrier
 strategy
 .
                 
-'
+"
 skip
 -
 unless
 -
 expanded
-'
+"
                 
 #
 The
@@ -4053,15 +4106,15 @@ pushes
 Any
 (
                     
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
                     
-'
+"
 bugbug
 -
 reduced
@@ -4069,13 +4122,13 @@ reduced
 manifests
 -
 fallback
-'
+"
                     
-'
+"
 platform
 -
 disperse
-'
+"
                     
 split_args
 =
@@ -4087,39 +4140,39 @@ split_bugbug_arg
         
 )
         
-'
+"
 build
-'
+"
 :
 All
 (
             
-'
+"
 skip
 -
 unless
 -
 expanded
-'
+"
             
 Any
 (
                 
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
                 
-'
+"
 bugbug
 -
 reduced
 -
 fallback
-'
+"
                 
 split_args
 =
@@ -4218,29 +4271,31 @@ bugbug_tasks_medium
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
-'
+            
+"
 skip
 -
 unless
 -
 schedules
-'
-'
+"
+"
 bugbug
 -
 tasks
 -
 medium
-'
+"
 split_args
 =
 split_bugbug_arg
+        
 )
     
 }
@@ -4265,29 +4320,31 @@ bugbug_tasks_high
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
-'
+            
+"
 skip
 -
 unless
 -
 schedules
-'
-'
+"
+"
 bugbug
 -
 tasks
 -
 high
-'
+"
 split_args
 =
 split_bugbug_arg
+        
 )
     
 }
@@ -4312,38 +4369,38 @@ bugbug_debug_disperse
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
             
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
             
-'
+"
 bugbug
 -
 low
-'
+"
             
-'
+"
 platform
 -
 debug
-'
+"
             
-'
+"
 platform
 -
 disperse
-'
+"
             
 split_args
 =
@@ -4370,32 +4427,32 @@ bugbug_disperse_low
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
             
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
             
-'
+"
 bugbug
 -
 low
-'
+"
             
-'
+"
 platform
 -
 disperse
-'
+"
             
 split_args
 =
@@ -4424,32 +4481,32 @@ bugbug_disperse_medium
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
             
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
             
-'
+"
 bugbug
 -
 medium
-'
+"
             
-'
+"
 platform
 -
 disperse
-'
+"
             
 split_args
 =
@@ -4478,34 +4535,34 @@ bugbug_disperse_reduced_medium
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
             
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
             
-'
+"
 bugbug
 -
 reduced
 -
 manifests
-'
+"
             
-'
+"
 platform
 -
 disperse
-'
+"
             
 split_args
 =
@@ -4537,22 +4594,22 @@ bugbug_reduced_manifests_config_selection_medium
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
             
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
             
-'
+"
 bugbug
 -
 reduced
@@ -4562,7 +4619,7 @@ manifests
 config
 -
 selection
-'
+"
             
 split_args
 =
@@ -4595,28 +4652,28 @@ bugbug_disperse_medium_no_unseen
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
             
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
             
-'
+"
 bugbug
 -
 medium
-'
+"
             
-'
+"
 platform
 -
 disperse
@@ -4624,7 +4681,7 @@ disperse
 no
 -
 unseen
-'
+"
             
 split_args
 =
@@ -4661,28 +4718,28 @@ bugbug_disperse_medium_only_one
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
             
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
             
-'
+"
 bugbug
 -
 medium
-'
+"
             
-'
+"
 platform
 -
 disperse
@@ -4690,7 +4747,7 @@ disperse
 only
 -
 one
-'
+"
             
 split_args
 =
@@ -4725,32 +4782,32 @@ bugbug_disperse_high
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
             
-'
+"
 skip
 -
 unless
 -
 schedules
-'
+"
             
-'
+"
 bugbug
 -
 high
-'
+"
             
-'
+"
 platform
 -
 disperse
-'
+"
             
 split_args
 =
@@ -4779,27 +4836,29 @@ bugbug_reduced
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
-'
+            
+"
 skip
 -
 unless
 -
 schedules
-'
-'
+"
+"
 bugbug
 -
 reduced
-'
+"
 split_args
 =
 split_bugbug_arg
+        
 )
     
 }
@@ -4830,29 +4889,31 @@ bugbug_reduced_high
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
-'
+            
+"
 skip
 -
 unless
 -
 schedules
-'
-'
+"
+"
 bugbug
 -
 reduced
 -
 high
-'
+"
 split_args
 =
 split_bugbug_arg
+        
 )
     
 }
@@ -4887,20 +4948,20 @@ relevant_tests
 =
 {
         
-'
+"
 test
-'
+"
 :
 Any
 (
-'
+"
 skip
 -
 unless
 -
 schedules
-'
-'
+"
+"
 skip
 -
 unless
@@ -4910,7 +4971,7 @@ has
 relevant
 -
 tests
-'
+"
 )
     
 }
@@ -5087,10 +5148,10 @@ strategy
 .
 startswith
 (
-'
+"
 base
 :
-'
+"
 )
 :
                 
@@ -5102,10 +5163,10 @@ strategy
 [
 len
 (
-'
+"
 base
 :
-'
+"
 )
 :
 ]
@@ -5124,55 +5185,60 @@ tryselect
 =
 ExperimentalOverride
 (
-experimental
-{
     
-'
+experimental
+    
+{
+        
+"
 build
-'
+"
 :
 Any
 (
-'
+            
+"
 skip
 -
 unless
 -
 schedules
-'
-'
+"
+"
 bugbug
 -
 reduced
-'
+"
 split_args
 =
 split_bugbug_arg
+        
 )
-    
-'
+        
+"
 test
 -
 verify
-'
+"
 :
-'
+"
 base
 :
 test
-'
-    
-'
+"
+        
+"
 upload
 -
 symbols
-'
+"
 :
 Alias
 (
-'
+"
 always
-'
+"
 )
+    
 }
 )

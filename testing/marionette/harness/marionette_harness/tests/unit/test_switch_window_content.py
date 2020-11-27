@@ -204,6 +204,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -427,6 +428,7 @@ i
 "
 "
 "
+            
 )
     
 def
@@ -633,6 +635,7 @@ selected_tab_index
     
 skipIf
 (
+        
 sys
 .
 platform
@@ -643,7 +646,7 @@ startswith
 linux
 "
 )
-            
+        
 "
 Bug
 1557232
@@ -657,6 +660,7 @@ t
 receive
 focus
 "
+    
 )
     
 def

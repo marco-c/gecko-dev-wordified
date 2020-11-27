@@ -117,13 +117,13 @@ locale
 raise
 ValueError
 (
-'
+"
 locale
 must
 be
 specified
 !
-'
+"
 )
     
 CONFIG
@@ -217,9 +217,9 @@ defines
     
 defines
 [
-'
+"
 AB_CD
-'
+"
 ]
 =
 locale
@@ -227,37 +227,37 @@ locale
 if
 defines
 [
-'
+"
 AB_CD
-'
+"
 ]
 =
 =
-'
+"
 ja
 -
 JP
 -
 mac
-'
+"
 :
         
 defines
 [
-'
+"
 AB_CD
-'
+"
 ]
 =
-'
+"
 ja
-'
+"
     
 defines
 [
-'
+"
 BOOKMARKS_INCLUDE_PATH
-'
+"
 ]
 =
 bookmarks_inc
@@ -266,9 +266,9 @@ for
 var
 in
 (
-'
+"
 NIGHTLY_BUILD
-'
+"
 )
 :
         
@@ -294,19 +294,19 @@ preprocessor
 .
 preprocess
 (
+        
 includes
 =
 [
 bookmarks_html_in
 ]
-                                       
 defines
 =
 defines
-                                       
 output
 =
 output
+    
 )
     
 return

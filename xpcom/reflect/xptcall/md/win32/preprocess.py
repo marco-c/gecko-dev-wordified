@@ -121,9 +121,9 @@ buildconfig
 .
 substs
 [
-'
+"
 CXX
-'
+"
 ]
 )
     
@@ -196,9 +196,9 @@ buildconfig
 .
 substs
 [
-'
+"
 OS_CPPFLAGS
-'
+"
 ]
     
 #
@@ -243,10 +243,10 @@ mkstemp
 (
 suffix
 =
-'
+"
 .
 cpp
-'
+"
 )
     
 #
@@ -279,19 +279,19 @@ command
 cxx
 +
 [
-'
+"
 /
 EP
-'
+"
 ]
 +
 cppflags
 +
 [
-'
+"
 /
 TP
-'
+"
 asm_file
 ]
     
@@ -299,9 +299,9 @@ with
 open
 (
 tmpout
-'
+"
 wb
-'
+"
 )
 as
 t
@@ -341,9 +341,9 @@ with
 open
 (
 tmpout
-'
+"
 rb
-'
+"
 )
 as
 t

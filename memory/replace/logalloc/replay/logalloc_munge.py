@@ -463,8 +463,8 @@ line
 .
 split
 (
-'
-'
+"
+"
 1
 )
         
@@ -475,9 +475,9 @@ func_call
 .
 split
 (
-'
+"
 )
-'
+"
 )
         
 func
@@ -487,9 +487,9 @@ call
 .
 split
 (
-'
+"
 (
-'
+"
 )
         
 args
@@ -498,8 +498,8 @@ args
 .
 split
 (
-'
-'
+"
+"
 )
 if
 args
@@ -518,18 +518,18 @@ result
 ]
 !
 =
-'
+"
 =
-'
+"
 :
                 
 raise
 Ignored
 (
-'
+"
 Malformed
 input
-'
+"
 )
             
 result
@@ -541,8 +541,8 @@ result
 ]
         
 if
-'
-'
+"
+"
 in
 func
 :
@@ -554,8 +554,8 @@ func
 .
 split
 (
-'
-'
+"
+"
 1
 )
         
@@ -580,66 +580,66 @@ Exception
 raise
 Ignored
 (
-'
+"
 Malformed
 input
-'
+"
 )
 NUM_ARGUMENTS
 =
 {
     
-'
+"
 jemalloc_stats
-'
+"
 :
 0
     
-'
+"
 free
-'
+"
 :
 1
     
-'
+"
 malloc
-'
+"
 :
 1
     
-'
+"
 posix_memalign
-'
+"
 :
 2
     
-'
+"
 aligned_alloc
-'
+"
 :
 2
     
-'
+"
 calloc
-'
+"
 :
 2
     
-'
+"
 realloc
-'
+"
 :
 2
     
-'
+"
 memalign
-'
+"
 :
 2
     
-'
+"
 valloc
-'
+"
 :
 1
 }
@@ -662,17 +662,16 @@ defaultdict
 lambda
 :
 {
-'
+"
 pointers
-'
+"
 :
 IdMapping
 (
 )
-                                     
-'
+"
 tids
-'
+"
 :
 IdMapping
 (
@@ -739,9 +738,9 @@ tid
 =
 process
 [
-'
+"
 tids
-'
+"
 ]
 [
 int
@@ -754,9 +753,9 @@ pointers
 =
 process
 [
-'
+"
 pointers
-'
+"
 ]
             
 if
@@ -769,10 +768,10 @@ NUM_ARGUMENTS
 raise
 Ignored
 (
-'
+"
 Unknown
 function
-'
+"
 )
             
 if
@@ -791,22 +790,22 @@ func
 raise
 Ignored
 (
-'
+"
 Malformed
 input
-'
+"
 )
             
 if
 func
 in
 (
-'
+"
 jemalloc_stats
-'
-'
+"
+"
 free
-'
+"
 )
 and
 result
@@ -815,22 +814,22 @@ result
 raise
 Ignored
 (
-'
+"
 Malformed
 input
-'
+"
 )
             
 if
 func
 in
 (
-'
+"
 free
-'
-'
+"
+"
 realloc
-'
+"
 )
 :
                 
@@ -857,7 +856,7 @@ pointers
 raise
 Ignored
 (
-'
+"
 Did
 not
 see
@@ -865,7 +864,7 @@ an
 alloc
 for
 pointer
-'
+"
 )
                 
 args
@@ -910,11 +909,11 @@ result
 raise
 Ignored
 (
-'
+"
 Result
 is
 NULL
-'
+"
 )
                 
 result
@@ -932,7 +931,8 @@ result
             
 print
 (
-'
+                
+"
 %
 d
 %
@@ -945,33 +945,34 @@ s
 )
 %
 s
-'
+"
+                
 %
 (
 pid
 tid
 func
-'
-'
+"
+"
 .
 join
 (
 args
 )
-                                      
-'
+"
 =
 %
 s
-'
+"
 %
 result
 if
 result
 else
-'
-'
+"
+"
 )
+            
 )
         
 except
@@ -1009,9 +1010,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

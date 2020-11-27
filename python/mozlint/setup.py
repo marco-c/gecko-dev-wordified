@@ -65,27 +65,27 @@ VERSION
 DEPS
 =
 [
-'
+"
 mozlog
 >
 =
 6
 .
 0
-'
+"
 ]
 setup
 (
     
 name
 =
-'
+"
 mozlint
-'
+"
     
 description
 =
-'
+"
 Framework
 for
 registering
@@ -93,44 +93,44 @@ and
 running
 micro
 lints
-'
+"
     
 license
 =
-'
+"
 MPL
 2
 .
 0
-'
+"
     
 author
 =
-'
+"
 Andrew
 Halberstadt
-'
+"
     
 author_email
 =
-'
+"
 ahalberstadt
 mozilla
 .
 com
-'
+"
     
 url
 =
-'
-'
+"
+"
     
 packages
 =
 [
-'
+"
 mozlint
-'
+"
 ]
     
 version
@@ -141,14 +141,14 @@ classifiers
 =
 [
         
-'
+"
 Environment
 :
 :
 Console
-'
+"
         
-'
+"
 Development
 Status
 :
@@ -156,9 +156,9 @@ Status
 3
 -
 Alpha
-'
+"
         
-'
+"
 License
 :
 :
@@ -178,15 +178,15 @@ MPL
 .
 0
 )
-'
+"
         
-'
+"
 Natural
 Language
 :
 :
 English
-'
+"
     
 ]
     

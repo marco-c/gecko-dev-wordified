@@ -390,6 +390,7 @@ self
 .
 assertTrue
 (
+                
 cmd
 .
 _is_ignored_path
@@ -398,9 +399,9 @@ ignored_dirs_re
 win32_path
 )
 is
-                            
 not
 None
+            
 )
         
 finally
@@ -432,9 +433,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

@@ -206,15 +206,15 @@ test_results
 =
 {
             
-'
+"
 framework
-'
+"
 :
 {
                 
-'
+"
 name
-'
+"
 :
 self
 .
@@ -229,9 +229,9 @@ framework
             
 }
             
-'
+"
 suites
-'
+"
 :
 suites
         
@@ -272,9 +272,9 @@ suite
 =
 {
                     
-'
+"
 name
-'
+"
 :
 test
 .
@@ -282,9 +282,9 @@ name
 (
 )
                     
-'
+"
 extraOptions
-'
+"
 :
 self
 .
@@ -295,15 +295,15 @@ or
 [
 ]
                     
-'
+"
 subtests
-'
+"
 :
 subtests
                     
-'
+"
 shouldAlert
-'
+"
 :
 test
 .
@@ -311,9 +311,9 @@ test_config
 .
 get
 (
-'
+"
 suite_should_alert
-'
+"
 True
 )
                 
@@ -402,9 +402,9 @@ if
 page
 =
 =
-'
+"
 NULL
-'
+"
 :
                             
 page
@@ -436,28 +436,29 @@ r
 results
 =
 [
+                                    
 {
-'
+"
 index
-'
+"
 :
 0
-'
+"
 page
-'
+"
 :
 test
 .
 name
 (
 )
-                                              
-'
+"
 runs
-'
+"
 :
 val
 }
+                                
 ]
                             
 else
@@ -475,9 +476,9 @@ results
 if
 r
 [
-'
+"
 page
-'
+"
 ]
 =
 =
@@ -490,9 +491,9 @@ name
                                     
 r
 [
-'
+"
 runs
-'
+"
 ]
 .
 extend
@@ -567,9 +568,9 @@ page
 =
 r
 [
-'
+"
 page
-'
+"
 ]
                         
 if
@@ -583,18 +584,18 @@ merged_results
 page
 ]
 [
-'
+"
 runs
-'
+"
 ]
 .
 extend
 (
 r
 [
-'
+"
 runs
-'
+"
 ]
 )
                         
@@ -640,27 +641,26 @@ tresults
                     
 filtered_results
 =
-\
-                        
 result
 .
 values
 (
+                        
 suite
 [
-'
+"
 name
-'
+"
 ]
-                                      
 test
 .
 test_config
 [
-'
+"
 filters
-'
+"
 ]
+                    
 )
                     
 vals
@@ -671,9 +671,9 @@ extend
 [
 i
 [
-'
+"
 value
-'
+"
 ]
 j
 ]
@@ -700,9 +700,9 @@ if
 page
 =
 =
-'
+"
 NULL
-'
+"
 :
                             
 #
@@ -722,26 +722,26 @@ subtest
 =
 {
                             
-'
+"
 name
-'
+"
 :
 page
                             
-'
+"
 value
-'
+"
 :
 val
 [
-'
+"
 filtered
-'
+"
 ]
                             
-'
+"
 replicates
-'
+"
 :
 replicates
 [
@@ -812,9 +812,9 @@ subtest_index
 .
 get
 (
-'
+"
 base_runs
-'
+"
 None
 )
                         
@@ -829,9 +829,9 @@ subtest_index
 .
 get
 (
-'
+"
 ref_runs
-'
+"
 None
 )
                         
@@ -843,18 +843,18 @@ ref_runs
                             
 subtest
 [
-'
+"
 base_replicates
-'
+"
 ]
 =
 base_runs
                             
 subtest
 [
-'
+"
 ref_replicates
-'
+"
 ]
 =
 ref_runs
@@ -878,9 +878,9 @@ test_config
 .
 get
 (
-'
+"
 lower_is_better
-'
+"
 )
 is
 not
@@ -889,20 +889,20 @@ None
                             
 subtest
 [
-'
+"
 lowerIsBetter
-'
+"
 ]
 =
-\
-                                
 test
 .
 test_config
 [
-'
+                                
+"
 lower_is_better
-'
+"
+                            
 ]
                         
 if
@@ -912,9 +912,9 @@ test_config
 .
 get
 (
-'
+"
 alert_threshold
-'
+"
 )
 is
 not
@@ -923,20 +923,20 @@ None
                             
 subtest
 [
-'
+"
 alertThreshold
-'
+"
 ]
 =
-\
-                                
 test
 .
 test_config
 [
-'
+                                
+"
 alert_threshold
-'
+"
+                            
 ]
                         
 if
@@ -946,9 +946,9 @@ test_config
 .
 get
 (
-'
+"
 subtest_alerts
-'
+"
 )
 is
 not
@@ -957,20 +957,18 @@ None
                             
 subtest
 [
-'
+"
 shouldAlert
-'
+"
 ]
 =
-\
-                                
 test
 .
 test_config
 [
-'
+"
 subtest_alerts
-'
+"
 ]
                         
 if
@@ -980,9 +978,9 @@ test_config
 .
 get
 (
-'
+"
 alert_threshold
-'
+"
 )
 is
 not
@@ -991,20 +989,20 @@ None
                             
 subtest
 [
-'
+"
 alertThreshold
-'
+"
 ]
 =
-\
-                                
 test
 .
 test_config
 [
-'
+                                
+"
 alert_threshold
-'
+"
+                            
 ]
                         
 if
@@ -1014,26 +1012,26 @@ test_config
 .
 get
 (
-'
+"
 unit
-'
+"
 )
 :
                             
 subtest
 [
-'
+"
 unit
-'
+"
 ]
 =
 test
 .
 test_config
 [
-'
+"
 unit
-'
+"
 ]
                 
 #
@@ -1065,16 +1063,16 @@ subtests
 0
 ]
 [
-'
+"
 shouldAlert
-'
+"
 ]
 =
 suite
 [
-'
+"
 shouldAlert
-'
+"
 ]
                 
 #
@@ -1101,16 +1099,15 @@ subtests
                     
 suite
 [
-'
+"
 value
-'
+"
 ]
 =
 self
 .
 construct_results
 (
-                        
 vals
 testname
 =
@@ -1128,9 +1125,9 @@ test_config
 .
 get
 (
-'
+"
 lower_is_better
-'
+"
 )
 is
 not
@@ -1139,20 +1136,18 @@ None
                     
 suite
 [
-'
+"
 lowerIsBetter
-'
+"
 ]
 =
-\
-                        
 test
 .
 test_config
 [
-'
+"
 lower_is_better
-'
+"
 ]
                 
 if
@@ -1162,9 +1157,9 @@ test_config
 .
 get
 (
-'
+"
 alert_threshold
-'
+"
 )
 is
 not
@@ -1173,20 +1168,18 @@ None
                     
 suite
 [
-'
+"
 alertThreshold
-'
+"
 ]
 =
-\
-                        
 test
 .
 test_config
 [
-'
+"
 alert_threshold
-'
+"
 ]
             
 #
@@ -1286,9 +1279,9 @@ a
 counter
                     
 if
-'
+"
 mainthreadio
-'
+"
 in
 name
 :
@@ -1318,9 +1311,9 @@ all
 counters
                     
 if
-'
+"
 responsiveness
-'
+"
 =
 =
 name
@@ -1330,15 +1323,15 @@ subtest
 =
 {
                             
-'
+"
 name
-'
+"
 :
 name
                             
-'
+"
 value
-'
+"
 :
 filter
 .
@@ -1362,15 +1355,15 @@ subtest
 =
 {
                         
-'
+"
 name
-'
+"
 :
 name
                         
-'
+"
 value
-'
+"
 :
 0
 .
@@ -1402,9 +1395,9 @@ vals
                             
 subtest
 [
-'
+"
 value
-'
+"
 ]
 =
 vals
@@ -1444,9 +1437,9 @@ vals
                             
 subtest
 [
-'
+"
 value
-'
+"
 ]
 =
 filter
@@ -1464,20 +1457,22 @@ suites
 .
 append
 (
+                    
 {
-'
+                        
+"
 name
-'
+"
 :
 test
 .
 name
 (
 )
-                               
-'
+                        
+"
 extraOptions
-'
+"
 :
 self
 .
@@ -1487,16 +1482,16 @@ extra_options
 or
 [
 ]
-                               
-'
+                        
+"
 subtests
-'
+"
 :
 counter_subtests
-                               
-'
+                        
+"
 shouldAlert
-'
+"
 :
 test
 .
@@ -1504,12 +1499,14 @@ test_config
 .
 get
 (
-'
+"
 suite_should_alert
-'
+"
 True
 )
+                    
 }
+                
 )
         
 return
@@ -1587,12 +1584,12 @@ if
 results_scheme
 in
 (
-'
+"
 http
-'
-'
+"
+"
 https
-'
+"
 )
 :
             
@@ -1610,18 +1607,18 @@ elif
 results_scheme
 =
 =
-'
+"
 file
-'
+"
 :
             
 with
 open
 (
 results_path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -1709,11 +1706,11 @@ log
 file
         
 if
-'
+"
 gecko
 -
 profile
-'
+"
 not
 in
 self
@@ -1739,7 +1736,6 @@ json
 dumps
 (
 results
-                                                        
 ignore_nan
 =
 True
@@ -1750,9 +1746,9 @@ if
 results_scheme
 in
 (
-'
+"
 file
-'
+"
 )
 :
             
@@ -1760,24 +1756,29 @@ json
 .
 dump
 (
+                
 results
+                
 open
 (
 results_path
-'
+"
 w
-'
+"
 )
+                
 indent
 =
 2
-                      
+                
 sort_keys
 =
 True
+                
 ignore_nan
 =
 True
+            
 )
     
 def
@@ -1835,7 +1836,6 @@ Time
 %
 cpu
 "
-                 
 "
 XRes
 "
@@ -1882,9 +1882,9 @@ metric
 memory_metric
 =
 [
-'
+"
 xres
-'
+"
 ]
 #
 measured
@@ -2022,9 +2022,9 @@ if
 j
 =
 =
-'
+"
 geomean
-'
+"
 ]
         
 return
@@ -2466,6 +2466,7 @@ results
 raise
 Exception
 (
+                
 "
 StyleBench
 requires
@@ -2477,12 +2478,12 @@ found
 s
 instead
 "
-                            
 %
 len
 (
 results
 )
+            
 )
         
 results
@@ -2523,9 +2524,9 @@ testname
 :
         
 if
-'
+"
 responsiveness
-'
+"
 in
 testname
 :
@@ -2552,9 +2553,9 @@ testname
 .
 startswith
 (
-'
+"
 v8_7
-'
+"
 )
 :
             
@@ -2571,9 +2572,9 @@ testname
 .
 startswith
 (
-'
+"
 kraken
-'
+"
 )
 :
             
@@ -2590,9 +2591,9 @@ testname
 .
 startswith
 (
-'
+"
 ares6
-'
+"
 )
 :
             
@@ -2609,9 +2610,9 @@ testname
 .
 startswith
 (
-'
+"
 jetstream
-'
+"
 )
 :
             
@@ -2628,9 +2629,9 @@ testname
 .
 startswith
 (
-'
+"
 speedometer
-'
+"
 )
 :
             
@@ -2647,9 +2648,9 @@ testname
 .
 startswith
 (
-'
+"
 stylebench
-'
+"
 )
 :
             

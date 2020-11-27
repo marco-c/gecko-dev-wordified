@@ -151,7 +151,9 @@ LintException
 .
 __init__
 (
+            
 self
+            
 "
 No
 linters
@@ -162,7 +164,6 @@ LintRoller
 .
 read
 "
-                                     
 "
 to
 register
@@ -170,4 +171,5 @@ a
 linter
 .
 "
+        
 )

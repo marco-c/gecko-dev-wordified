@@ -87,9 +87,9 @@ MPL
 .
 XPIDL_MODULE
 =
-'
+"
 foobar
-'
+"
 export
 (
 "
@@ -100,10 +100,10 @@ DIRS
 +
 =
 [
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 ]

@@ -1052,48 +1052,61 @@ True
 def
 __init__
 (
+        
 self
+        
 host
 =
 None
+        
 port
 =
 None
+        
 bin
 =
 None
+        
 profile
 =
 None
+        
 addons
 =
 None
-                 
+        
 app_args
 =
 None
+        
 symbols_path
 =
 None
+        
 gecko_log
 =
 None
+        
 prefs
 =
 None
-                 
+        
 workspace
 =
 None
+        
 verbose
 =
 0
+        
 headless
 =
 False
+        
 enable_webrender
 =
 False
+    
 )
 :
         
@@ -1523,6 +1536,7 @@ errors
 .
 MarionetteException
 (
+                
 "
 The
 current
@@ -1532,7 +1546,7 @@ only
 be
 updated
 "
-                                             
+                
 "
 when
 the
@@ -1541,6 +1555,7 @@ is
 not
 running
 "
+            
 )
         
 if
@@ -1650,6 +1665,7 @@ u
 .
 format
 (
+                        
 profile_name
 or
 os
@@ -1660,6 +1676,7 @@ basename
 (
 profile_path
 )
+                    
 )
                     
 dir
@@ -1667,6 +1684,7 @@ dir
 self
 .
 workspace
+                
 )
                 
 #
@@ -1745,6 +1763,7 @@ dir
 self
 .
 workspace
+                
 )
                 
 profile
@@ -2116,8 +2135,9 @@ preferences
 .
 update
 (
-{
                 
+{
+                    
 "
 devtools
 .
@@ -2129,7 +2149,7 @@ panel
 "
 jsdebugger
 "
-                
+                    
 "
 devtools
 .
@@ -2141,7 +2161,7 @@ enabled
 "
 :
 True
-                
+                    
 "
 devtools
 .
@@ -2151,7 +2171,7 @@ enabled
 "
 :
 True
-                
+                    
 "
 devtools
 .
@@ -2163,7 +2183,7 @@ connection
 "
 :
 False
-                
+                    
 "
 marionette
 .
@@ -2173,8 +2193,9 @@ clicktostart
 "
 :
 True
-            
+                
 }
+            
 )
         
 if
@@ -2307,6 +2328,7 @@ of
 .
 format
 (
+                
 app
 list
 (
@@ -2316,6 +2338,7 @@ keys
 (
 )
 )
+            
 )
             
 reraise
@@ -2436,11 +2459,11 @@ codecs
 .
 getwriter
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 (
 sys
@@ -2462,11 +2485,11 @@ codecs
 .
 getwriter
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 (
 sys
@@ -2602,7 +2625,9 @@ env
 .
 update
 (
+            
 {
+                
 "
 MOZ_CRASHREPORTER
 "
@@ -2610,7 +2635,7 @@ MOZ_CRASHREPORTER
 "
 1
 "
-                    
+                
 "
 MOZ_CRASHREPORTER_NO_REPORT
 "
@@ -2618,7 +2643,7 @@ MOZ_CRASHREPORTER_NO_REPORT
 "
 1
 "
-                    
+                
 "
 MOZ_CRASHREPORTER_SHUTDOWN
 "
@@ -2626,8 +2651,9 @@ MOZ_CRASHREPORTER_SHUTDOWN
 "
 1
 "
-                    
+            
 }
+        
 )
         
 return
@@ -3095,38 +3121,48 @@ True
 def
 __init__
 (
+        
 self
+        
 emulator_binary
 =
 None
+        
 avd_home
 =
 None
+        
 avd
 =
 None
-                 
+        
 adb_path
 =
 None
+        
 serial
 =
 None
+        
 connect_to_running_emulator
 =
 False
-                 
+        
 package_name
 =
 None
+        
 env
 =
 None
+        
 *
 args
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -3400,10 +3436,11 @@ exc_info
             
 reraise
 (
+                
 exc_cls
+                
 exc_cls
 (
-                
 "
 Error
 possibly
@@ -3423,7 +3460,9 @@ format
 exc
 )
 )
+                
 tb
+            
 )
         
 #
@@ -3473,6 +3512,7 @@ self
 .
 marionette_port
 )
+        
 )
     
 def
@@ -3792,6 +3832,7 @@ self
 .
 marionette_port
 )
+                
 )
                 
 self
@@ -4700,21 +4741,21 @@ apps
 =
 {
     
-'
+"
 fennec
-'
+"
 :
 FennecInstance
     
-'
+"
 fxdesktop
-'
+"
 :
 DesktopInstance
     
-'
+"
 thunderbird
-'
+"
 :
 ThunderbirdInstance
 }
@@ -4722,7 +4763,7 @@ app_ids
 =
 {
     
-'
+"
 {
 aa3c5121
 -
@@ -4734,13 +4775,13 @@ dab2
 -
 7ea25febc110
 }
-'
+"
 :
-'
+"
 fennec
-'
+"
     
-'
+"
 {
 ec8030f7
 -
@@ -4752,13 +4793,13 @@ c20a
 -
 13a3a9e97384
 }
-'
+"
 :
-'
+"
 fxdesktop
-'
+"
     
-'
+"
 {
 3550f703
 -
@@ -4770,9 +4811,9 @@ e582
 -
 453d09bdfdc6
 }
-'
+"
 :
-'
+"
 thunderbird
-'
+"
 }

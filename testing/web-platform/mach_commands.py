@@ -164,14 +164,14 @@ join
 self
 .
 topsrcdir
-'
+"
 testing
-'
-'
+"
+"
 web
 -
 platform
-'
+"
 )
         
 kwargs
@@ -221,9 +221,9 @@ join
 self
 .
 topobjdir
-'
+"
 build
-'
+"
 )
         
 if
@@ -284,6 +284,7 @@ tests
         
 if
 (
+            
 kwargs
 [
 "
@@ -299,8 +300,8 @@ firefox
 firefox_android
 "
 }
-and
             
+and
 kwargs
 [
 "
@@ -309,6 +310,7 @@ specialpowers_path
 ]
 is
 None
+        
 )
 :
             
@@ -325,16 +327,15 @@ path
 .
 join
 (
+                
 self
 .
 distdir
-                                                        
 "
 xpi
 -
 stage
 "
-                                                        
 "
 specialpowers
 mozilla
@@ -343,6 +344,7 @@ org
 .
 xpi
 "
+            
 )
         
 if
@@ -426,12 +428,17 @@ devices
 android_device
 import
 (
+                
 verify_android_device
+                
 InstallIntent
+            
 )
             
 install
 =
+(
+                
 InstallIntent
 .
 NO
@@ -440,17 +447,20 @@ kwargs
 .
 pop
 (
-'
+"
 no_install
-'
+"
 )
 else
 InstallIntent
 .
 YES
             
+)
+            
 verify_android_device
 (
+                
 self
 install
 =
@@ -464,6 +474,7 @@ True
 app
 =
 package_name
+            
 )
             
 if
@@ -497,13 +508,14 @@ environ
 .
 get
 (
-'
+"
 MOZ_HOST_BIN
-'
+"
 )
 "
 certutil
 "
+                
 )
             
 if
@@ -554,25 +566,27 @@ join
 self
 .
 topobjdir
-'
+"
 _tests
-'
-'
+"
+"
 web
 -
 platform
-'
-'
+"
+"
 wptrunner
 .
 local
 .
 ini
-'
+"
+            
 )
         
 if
 (
+            
 kwargs
 [
 "
@@ -581,6 +595,7 @@ exclude
 ]
 is
 None
+            
 and
 kwargs
 [
@@ -590,7 +605,7 @@ include
 ]
 is
 None
-           
+            
 and
 not
 sys
@@ -603,6 +618,7 @@ startswith
 linux
 "
 )
+        
 )
 :
             
@@ -708,6 +724,7 @@ path
 .
 join
 (
+                    
 cert_root
 "
 web
@@ -718,6 +735,7 @@ test
 .
 key
 "
+                
 )
             
 if
@@ -744,6 +762,7 @@ path
 .
 join
 (
+                    
 cert_root
 "
 web
@@ -754,6 +773,7 @@ test
 .
 pem
 "
+                
 )
         
 if
@@ -878,9 +898,9 @@ self
 .
 get_binary_path
 (
-'
+"
 certutil
-'
+"
 )
         
 if
@@ -905,12 +925,14 @@ self
 .
 get_binary_path
 (
+                
 "
 geckodriver
 "
 validate_exists
 =
 False
+            
 )
         
 if
@@ -935,12 +957,14 @@ True
         
 if
 (
+            
 kwargs
 [
 "
 install_fonts
 "
 ]
+            
 and
 mozinfo
 .
@@ -955,7 +979,7 @@ os
 "
 win
 "
-           
+            
 and
 mozinfo
 .
@@ -972,6 +996,7 @@ os_version
 .
 1
 "
+        
 )
 :
             
@@ -1057,12 +1082,12 @@ join
 self
 .
 topsrcdir
-'
+"
 testing
-'
-'
+"
+"
 profiles
-'
+"
 )
         
 if
@@ -1349,10 +1374,12 @@ virtualenv_manager
 .
 install_pip_requirements
 (
+                    
 path
 require_hashes
 =
 False
+                
 )
         
 venv
@@ -1363,15 +1390,16 @@ virtualenv
 .
 Virtualenv
 (
+            
 self
 .
 virtualenv_manager
 .
 virtualenv_root
-                                         
 skip_virtualenv_setup
 =
 True
+        
 )
         
 try
@@ -1481,6 +1509,7 @@ path
 .
 join
 (
+                
 self
 .
 _here
@@ -1493,8 +1522,8 @@ kwargs
 product
 "
 ]
-                                    
 meta_suffix
+            
 )
             
 value
@@ -1593,6 +1622,7 @@ path
 .
 join
 (
+                
 os
 .
 path
@@ -1605,22 +1635,23 @@ get_binary_path
 (
 )
 )
-                                     
+                
 os
 .
 pardir
-                                     
+                
 "
 Resources
 "
-                                     
+                
 "
 res
 "
-                                     
+                
 "
 fonts
 "
+            
 )
         
 ahem_src
@@ -1631,33 +1662,30 @@ path
 .
 join
 (
+            
 self
 .
 topsrcdir
-                                
 "
 testing
 "
-                                
 "
 web
 -
 platform
 "
-                                
 "
 tests
 "
-                                
 "
 fonts
 "
-                                
 "
 Ahem
 .
 ttf
 "
+        
 )
         
 ahem_dest
@@ -1796,25 +1824,24 @@ manifestupdate
 .
 run
 (
+            
 logger
 =
 logger
-                                  
 src_root
 =
 self
 .
 topsrcdir
-                                  
 obj_root
 =
 self
 .
 topobjdir
-                                  
 *
 *
 kwargs
+        
 )
     
 def
@@ -1870,27 +1897,26 @@ path
 .
 join
 (
+                
 self
 .
 topobjdir
-                                            
-'
+"
 _tests
-'
-                                            
-'
+"
+"
 web
 -
 platform
-'
-                                            
-'
+"
+"
 wptrunner
 .
 local
 .
 ini
-'
+"
+            
 )
         
 if
@@ -2025,7 +2051,9 @@ path
 .
 insert
 (
+            
 0
+            
 os
 .
 path
@@ -2046,7 +2074,6 @@ dirname
 (
 __file__
 )
-                                                        
 "
 tests
 "
@@ -2055,6 +2082,7 @@ tools
 "
 )
 )
+        
 )
         
 from
@@ -2125,10 +2153,13 @@ manifestupdate
 .
 generate_config
 (
+            
 logger
+            
 src_root
+            
 src_wpt_dir
-                                                     
+            
 os
 .
 path
@@ -2139,15 +2170,15 @@ obj_root
 "
 _tests
 "
-                                                                  
 "
 web
 -
 platform
 "
 )
-                                                     
+            
 False
+        
 )
         
 test_paths
@@ -2156,6 +2187,7 @@ wptcommandline
 .
 get_test_paths
 (
+            
 wptcommandline
 .
 config
@@ -2164,6 +2196,7 @@ read
 (
 config_path
 )
+        
 )
         
 results
@@ -2203,18 +2236,19 @@ path
 .
 join
 (
+                    
 paths
 [
 "
 metadata_path
 "
 ]
-                                                      
 "
 MANIFEST
 .
 json
 "
+                
 )
             
 results
@@ -2226,6 +2260,7 @@ testpaths
 .
 get_paths
 (
+                    
 path
 =
 paths
@@ -2234,11 +2269,11 @@ paths
 manifest_path
 "
 ]
-                                    
+                    
 src_root
 =
 src_root
-                                    
+                    
 tests_root
 =
 paths
@@ -2247,7 +2282,7 @@ paths
 tests_path
 "
 ]
-                                    
+                    
 update
 =
 kwargs
@@ -2256,7 +2291,7 @@ kwargs
 update
 "
 ]
-                                    
+                    
 rebuild
 =
 kwargs
@@ -2265,11 +2300,11 @@ kwargs
 rebuild
 "
 ]
-                                    
+                    
 url_base
 =
 url_base
-                                    
+                    
 cache_root
 =
 kwargs
@@ -2278,7 +2313,7 @@ kwargs
 cache_root
 "
 ]
-                                    
+                    
 test_ids
 =
 kwargs
@@ -2287,7 +2322,9 @@ kwargs
 test_ids
 "
 ]
+                
 )
+            
 )
         
 testpaths
@@ -2379,6 +2416,7 @@ path
 .
 insert
 (
+        
 0
 os
 .
@@ -2400,7 +2438,6 @@ dirname
 (
 __file__
 )
-                                                    
 "
 tests
 "
@@ -2409,6 +2446,7 @@ tools
 "
 )
 )
+    
 )
     
 import
@@ -2473,16 +2511,19 @@ no
 -
 update
 "
+        
 dest
 =
 "
 update
 "
+        
 action
 =
 "
 store_false
 "
+        
 default
 =
 True
@@ -2498,6 +2539,7 @@ manifest
 before
 continuing
 "
+    
 )
     
 parser
@@ -2509,16 +2551,19 @@ add_argument
 -
 r
 "
+        
 "
 -
 -
 rebuild
 "
+        
 action
 =
 "
 store_true
 "
+        
 default
 =
 False
@@ -2535,6 +2580,7 @@ the
 manifest
 .
 "
+    
 )
     
 parser
@@ -2549,11 +2595,13 @@ cache
 -
 root
 "
+        
 action
 =
 "
 store
 "
+        
 default
 =
 os
@@ -2594,6 +2642,7 @@ wptcache
 /
 )
 "
+    
 )
     
 parser
@@ -2614,7 +2663,6 @@ nargs
 "
 +
 "
-        
 help
 =
 "
@@ -2626,6 +2674,7 @@ to
 get
 paths
 "
+    
 )
     
 parser
@@ -2646,7 +2695,6 @@ store_true
 default
 =
 False
-        
 help
 =
 "
@@ -2654,6 +2702,7 @@ Output
 as
 JSON
 "
+    
 )
     
 return
@@ -2681,6 +2730,7 @@ activate_virtualenv
     
 Command
 (
+        
 "
 web
 -
@@ -2688,13 +2738,13 @@ platform
 -
 tests
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 conditions
 =
 [
@@ -2702,7 +2752,7 @@ conditions
 .
 is_firefox_or_android
 ]
-             
+        
 description
 =
 "
@@ -2714,10 +2764,11 @@ platform
 tests
 .
 "
-             
+        
 parser
 =
 create_parser_wpt
+    
 )
     
 def
@@ -2878,9 +2929,9 @@ params
 .
 get
 (
-'
+"
 debugger
-'
+"
 None
 )
 :
@@ -2898,9 +2949,9 @@ params
 .
 get
 (
-'
+"
 debugger
-'
+"
 )
 )
 :
@@ -2972,6 +3023,7 @@ logger
 .
 warning
 (
+                
 "
 Must
 specify
@@ -2985,6 +3037,7 @@ Android
 environment
 .
 "
+            
 )
         
 return
@@ -3000,16 +3053,17 @@ params
     
 Command
 (
+        
 "
 wpt
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 conditions
 =
 [
@@ -3017,7 +3071,7 @@ conditions
 .
 is_firefox_or_android
 ]
-             
+        
 description
 =
 "
@@ -3029,10 +3083,11 @@ platform
 tests
 .
 "
-             
+        
 parser
 =
 create_parser_wpt
+    
 )
     
 def
@@ -3057,6 +3112,7 @@ params
     
 Command
 (
+        
 "
 web
 -
@@ -3066,13 +3122,13 @@ tests
 -
 update
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 description
 =
 "
@@ -3085,10 +3141,11 @@ test
 metadata
 .
 "
-             
+        
 parser
 =
 create_parser_update
+    
 )
     
 def
@@ -3113,7 +3170,7 @@ virtualenv_manager
 .
 install_pip_package
 (
-'
+"
 html5lib
 =
 =
@@ -3122,7 +3179,7 @@ html5lib
 0
 .
 1
-'
+"
 )
         
 self
@@ -3131,9 +3188,9 @@ virtualenv_manager
 .
 install_pip_package
 (
-'
+"
 ujson
-'
+"
 )
         
 self
@@ -3142,9 +3199,9 @@ virtualenv_manager
 .
 install_pip_package
 (
-'
+"
 requests
-'
+"
 )
         
 wpt_updater
@@ -3180,18 +3237,19 @@ params
     
 Command
 (
+        
 "
 wpt
 -
 update
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 description
 =
 "
@@ -3204,10 +3262,11 @@ test
 metadata
 .
 "
-             
+        
 parser
 =
 create_parser_update
+    
 )
     
 def
@@ -3232,6 +3291,7 @@ params
     
 Command
 (
+        
 "
 wpt
 -
@@ -3239,13 +3299,13 @@ manifest
 -
 update
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 description
 =
 "
@@ -3258,10 +3318,11 @@ test
 manifests
 .
 "
-             
+        
 parser
 =
 create_parser_manifest_update
+    
 )
     
 def
@@ -3311,6 +3372,7 @@ logger
 .
 warning
 (
+            
 "
 The
 wpt
@@ -3320,7 +3382,7 @@ now
 automatically
 updated
 "
-                       
+            
 "
 so
 running
@@ -3330,6 +3392,7 @@ is
 usually
 unnecessary
 "
+        
 )
         
 return
@@ -3349,18 +3412,19 @@ else
     
 Command
 (
+        
 "
 wpt
 -
 serve
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 description
 =
 "
@@ -3369,10 +3433,11 @@ the
 wpt
 server
 "
-             
+        
 parser
 =
 create_parser_serve
+    
 )
     
 def
@@ -3444,6 +3509,7 @@ else
     
 Command
 (
+        
 "
 wpt
 -
@@ -3451,13 +3517,13 @@ metadata
 -
 summary
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 description
 =
 "
@@ -3470,10 +3536,11 @@ the
 wpt
 metadata
 "
-             
+        
 parser
 =
 create_parser_metadata_summary
+    
 )
     
 def
@@ -3516,6 +3583,7 @@ params
     
 Command
 (
+        
 "
 wpt
 -
@@ -3523,16 +3591,15 @@ metadata
 -
 merge
 "
-             
 category
 =
 "
 testing
 "
-             
 parser
 =
 create_parser_metadata_merge
+    
 )
     
 def
@@ -3585,18 +3652,19 @@ params
     
 Command
 (
+        
 "
 wpt
 -
 unittest
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 description
 =
 "
@@ -3609,10 +3677,11 @@ wptrunner
 unit
 tests
 "
-             
+        
 parser
 =
 create_parser_unittest
+    
 )
     
 def
@@ -3637,9 +3706,9 @@ virtualenv_manager
 .
 install_pip_package
 (
-'
+"
 tox
-'
+"
 )
         
 runner
@@ -3667,6 +3736,7 @@ else
     
 Command
 (
+        
 "
 wpt
 -
@@ -3674,13 +3744,13 @@ test
 -
 paths
 "
-             
+        
 category
 =
 "
 testing
 "
-             
+        
 description
 =
 "
@@ -3693,10 +3763,11 @@ ids
 to
 files
 "
-             
+        
 parser
 =
 create_parser_testpaths
+    
 )
     
 def

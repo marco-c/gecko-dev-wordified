@@ -406,7 +406,6 @@ d
 +
 )
 "
-                         
 data
 .
 get
@@ -478,17 +477,16 @@ MozbuildObject
 .
 from_environment
 (
-        
 cwd
 =
 here
 virtualenv_name
 =
-'
+"
 python
 -
 test
-'
+"
 )
     
 build
@@ -617,16 +615,17 @@ ProcessHandler
 (
         
 [
+            
 "
 mozproxy
 "
-         
+            
 "
 -
 -
 local
 "
-         
+            
 "
 -
 -
@@ -634,7 +633,7 @@ binary
 =
 firefox
 "
-         
+            
 "
 -
 -
@@ -645,7 +644,7 @@ topsrcdir
 build
 .
 topsrcdir
-         
+            
 "
 -
 -
@@ -656,7 +655,7 @@ objdir
 build
 .
 topobjdir
-         
+            
 os
 .
 path
@@ -679,6 +678,7 @@ amazon
 zip
 "
 )
+        
 ]
         
 processOutputLine
@@ -813,16 +813,17 @@ ProcessHandler
 (
         
 [
+            
 "
 mozproxy
 "
-         
+            
 "
 -
 -
 local
 "
-         
+            
 #
 Exclude
 some
@@ -836,7 +837,7 @@ command
 line
 error
 .
-         
+            
 os
 .
 path
@@ -859,6 +860,7 @@ amazon
 zip
 "
 )
+        
 ]
         
 processOutputLine

@@ -160,7 +160,7 @@ virtualenv_manager
 install_pip_package
 (
             
-'
+"
 git
 +
 git
@@ -177,7 +177,8 @@ luscious
 .
 git
 cfc9b7a402e750d008c0255cd23ecbb3c401c053
-'
+"
+        
 )
 def
 main
@@ -220,7 +221,7 @@ ArgumentParser
         
 description
 =
-'
+"
 Output
 build
 system
@@ -231,23 +232,24 @@ json
 -
 schema
 format
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+"
 output
-'
+"
 help
 =
-'
+"
 JSON
 output
 destination
-'
+"
 )
     
 args
@@ -277,9 +279,9 @@ open
 args
 .
 output
-'
+"
 wb
-'
+"
 )
 as
 f
@@ -297,11 +299,11 @@ indent
 separators
 =
 (
-'
-'
-'
+"
+"
+"
 :
-'
+"
 )
 sort_keys
 =
@@ -311,9 +313,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

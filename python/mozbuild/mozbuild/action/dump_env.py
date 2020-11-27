@@ -118,10 +118,10 @@ dirname
 (
 __file__
 )
-'
+"
 .
 .
-'
+"
 )
 )
 from
@@ -211,11 +211,11 @@ s
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 return
@@ -255,13 +255,13 @@ environ
     
 print
 (
-'
+"
 %
 s
 =
 %
 s
-'
+"
 %
 (
 key

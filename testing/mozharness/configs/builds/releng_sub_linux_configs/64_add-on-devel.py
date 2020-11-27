@@ -4,11 +4,11 @@ config
 =
 {
     
-'
+"
 stage_platform
-'
+"
 :
-'
+"
 linux64
 -
 add
@@ -16,7 +16,7 @@ add
 on
 -
 devel
-'
+"
     
 #
 #
@@ -32,15 +32,15 @@ specific
 #
 #
     
-'
+"
 env
-'
+"
 :
 {
         
-'
+"
 MOZBUILD_STATE_PATH
-'
+"
 :
 os
 .
@@ -53,80 +53,80 @@ os
 getcwd
 (
 )
-'
+"
 .
 mozbuild
-'
+"
 )
         
-'
+"
 HG_SHARE_BASE_DIR
-'
+"
 :
-'
+"
 /
 builds
 /
 hg
 -
 shared
-'
+"
         
-'
+"
 MOZ_OBJDIR
-'
+"
 :
-'
+"
 %
 (
 abs_obj_dir
 )
 s
-'
+"
         
-'
+"
 TINDERBOX_OUTPUT
-'
+"
 :
-'
+"
 1
-'
+"
         
-'
+"
 TOOLTOOL_CACHE
-'
+"
 :
-'
+"
 /
 builds
 /
 tooltool_cache
-'
+"
         
-'
+"
 TOOLTOOL_HOME
-'
+"
 :
-'
+"
 /
 builds
-'
+"
         
-'
+"
 MOZ_CRASHREPORTER_NO_REPORT
-'
+"
 :
-'
+"
 1
-'
+"
         
-'
+"
 LC_ALL
-'
+"
 :
-'
+"
 C
-'
+"
         
 #
 #
@@ -134,11 +134,11 @@ C
 bit
 specific
         
-'
+"
 PATH
-'
+"
 :
-'
+"
 /
 builds
 /
@@ -184,7 +184,7 @@ sbin
 :
 /
 sbin
-'
+"
     
 }
     

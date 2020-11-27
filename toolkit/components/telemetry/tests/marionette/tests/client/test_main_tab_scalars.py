@@ -270,7 +270,6 @@ self
 .
 assertEqual
 (
-            
 scalars
 [
 "
@@ -282,7 +281,6 @@ max_concurrent_tab_count
 "
 ]
 3
-        
 )
         
 self
@@ -306,7 +304,6 @@ self
 .
 assertEqual
 (
-            
 scalars
 [
 "
@@ -318,5 +315,4 @@ max_concurrent_window_count
 "
 ]
 1
-        
 )

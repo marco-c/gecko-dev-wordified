@@ -95,12 +95,12 @@ MPL
 .
 imply_option
 (
-'
+"
 -
 -
 enable
 -
 jemalloc
-'
+"
 True
 )

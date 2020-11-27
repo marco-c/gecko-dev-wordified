@@ -95,21 +95,27 @@ stacks
 def
 __init__
 (
+        
 self
+        
 logger
+        
 scope
 =
 None
+        
 allowed
 =
 None
+        
 maxNumRecordedFrames
 =
 None
-                 
+        
 allowAll
 =
 False
+    
 )
 :
         
@@ -228,15 +234,19 @@ unescapedSkipList
 "
 malloc
 "
+            
 "
 js_malloc
 "
+            
 "
 malloc_
 "
+            
 "
 __interceptor_malloc
 "
+            
 "
 moz_xmalloc
 "
@@ -244,15 +254,19 @@ moz_xmalloc
 "
 calloc
 "
+            
 "
 js_calloc
 "
+            
 "
 calloc_
 "
+            
 "
 __interceptor_calloc
 "
+            
 "
 moz_xcalloc
 "
@@ -260,15 +274,19 @@ moz_xcalloc
 "
 realloc
 "
+            
 "
 js_realloc
 "
+            
 "
 realloc_
 "
+            
 "
 __interceptor_realloc
 "
+            
 "
 moz_xrealloc
 "
@@ -321,6 +339,7 @@ unescapedSkipList
 +
 "
 "
+        
 )
         
 self
@@ -348,6 +367,7 @@ detected
 memory
 leaks
 "
+        
 )
         
 self
@@ -375,6 +395,7 @@ fatal
 error
 .
 "
+        
 )
         
 self
@@ -397,6 +418,7 @@ Cannot
 allocate
 memory
 "
+        
 )
         
 self
@@ -480,6 +502,7 @@ f
 \
 )
 "
+        
 )
         
 self
@@ -522,6 +545,7 @@ s
 )
 .
 "
+        
 )
         
 self
@@ -614,6 +638,7 @@ in
 allowedLines
 ]
 )
+            
 )
     
 def
@@ -1094,6 +1119,7 @@ logger
 .
 error
 (
+                
 "
 LeakSanitizer
 |
@@ -1105,6 +1131,7 @@ fatal
 error
 .
 "
+            
 )
             
 failures
@@ -1124,6 +1151,7 @@ logger
 .
 error
 (
+                
 "
 LeakSanitizer
 |
@@ -1137,7 +1165,7 @@ memory
 \
 n
 "
-                              
+                
 "
 This
 will
@@ -1145,7 +1173,7 @@ cause
 leaks
 that
 "
-                              
+                
 "
 should
 be
@@ -1158,6 +1186,7 @@ as
 an
 error
 "
+            
 )
             
 failures
@@ -1177,6 +1206,7 @@ logger
 .
 info
 (
+                
 "
 LeakSanitizer
 |
@@ -1184,7 +1214,7 @@ To
 show
 the
 "
-                             
+                
 "
 addresses
 of
@@ -1199,7 +1229,7 @@ LSAN_OPTIONS
 \
 n
 "
-                             
+                
 "
 This
 can
@@ -1218,6 +1248,7 @@ utils
 .
 py
 "
+            
 )
             
 self
@@ -1282,24 +1313,26 @@ sawError
 and
 not
 (
+            
 self
 .
 summaryData
+            
 or
-                                  
 self
 .
 foundFrames
+            
 or
-                                  
 self
 .
 fatalError
+            
 or
-                                  
 self
 .
 symbolizerError
+        
 )
 :
             
@@ -1309,6 +1342,7 @@ logger
 .
 error
 (
+                
 "
 LeakSanitizer
 |
@@ -1321,6 +1355,7 @@ leak
 report
 generated
 "
+            
 )
         
 self

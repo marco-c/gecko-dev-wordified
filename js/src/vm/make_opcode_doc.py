@@ -201,9 +201,9 @@ exc
 name
 =
 =
-'
+"
 markdown
-'
+"
 :
         
 #
@@ -275,6 +275,7 @@ venv
             
 print
 (
+                
 "
 It
 looks
@@ -292,7 +293,7 @@ this
 \
 n
 "
-                  
+                
 "
 .
 venv
@@ -301,12 +302,13 @@ bin
 /
 activate
 "
-                  
+                
 file
 =
 sys
 .
 stderr
+            
 )
             
 sys
@@ -318,6 +320,7 @@ exit
         
 print
 (
+            
 "
 Try
 this
@@ -325,7 +328,7 @@ this
 \
 n
 "
-              
+            
 "
 pip3
 install
@@ -333,7 +336,7 @@ markdown
 \
 n
 "
-              
+            
 "
 Or
 if
@@ -348,7 +351,7 @@ globally
 \
 n
 "
-              
+            
 "
 python3
 -
@@ -369,12 +372,13 @@ pip3
 install
 markdown
 "
-              
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 sys
@@ -410,7 +414,6 @@ issue
 .
     
 if
-(
 exc
 .
 msg
@@ -427,7 +430,6 @@ opcode
 '
 "
 )
-        
 and
 os
 .
@@ -435,6 +437,7 @@ path
 .
 isfile
 (
+        
 os
 .
 path
@@ -448,12 +451,13 @@ opcode
 pyc
 "
 )
-)
+    
 )
 :
         
 print
 (
+            
 "
 Failed
 to
@@ -467,7 +471,7 @@ bug
 \
 n
 "
-              
+            
 "
 This
 is
@@ -492,7 +496,7 @@ this
 \
 n
 "
-              
+            
 "
 rm
 "
@@ -507,7 +511,7 @@ pyc
 \
 n
 "
-              
+            
 "
 The
 file
@@ -518,12 +522,13 @@ November
 2018
 .
 "
-              
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 sys
@@ -537,7 +542,7 @@ raise
 exc
 SOURCE_BASE
 =
-'
+"
 https
 :
 /
@@ -551,7 +556,7 @@ mozilla
 central
 /
 source
-'
+"
 FORMAT_TO_IGNORE
 =
 {
@@ -637,11 +642,11 @@ format
 :
         
 return
-'
-'
+"
+"
     
 return
-'
+"
 <
 div
 >
@@ -656,14 +661,14 @@ div
 >
 \
 n
-'
+"
 .
 format
 (
 format
 =
-'
-'
+"
+"
 .
 join
 (
@@ -763,8 +768,8 @@ group
     
 names
 =
-'
-'
+"
+"
 .
 join
 (
@@ -909,11 +914,12 @@ stack
     
 print
 (
+        
 OPCODE_FORMAT
 .
 format
 (
-        
+            
 id
 =
 opcodes
@@ -922,19 +928,19 @@ opcodes
 ]
 .
 op
-        
+            
 names
 =
 names
-        
+            
 operands
 =
 operands
-        
+            
 stack
 =
 stack
-        
+            
 desc
 =
 markdown
@@ -945,7 +951,7 @@ opcode
 .
 desc
 )
-        
+            
 format
 =
 format_format
@@ -954,8 +960,9 @@ opcode
 .
 format_
 )
-    
+        
 )
+    
 )
 id_cache
 =
@@ -973,20 +980,20 @@ make_element_id
 category
 type
 =
-'
-'
+"
+"
 )
 :
     
 key
 =
-'
+"
 {
 }
 :
 {
 }
-'
+"
 .
 format
 (
@@ -1010,8 +1017,8 @@ if
 type
 =
 =
-'
-'
+"
+"
 :
         
 id
@@ -1020,11 +1027,11 @@ category
 .
 replace
 (
-'
-'
-'
+"
+"
+"
 _
-'
+"
 )
     
 else
@@ -1036,11 +1043,11 @@ type
 .
 replace
 (
-'
-'
-'
+"
+"
+"
 _
-'
+"
 )
     
 if
@@ -1059,13 +1066,13 @@ id
         
 id
 =
-'
+"
 {
 }
 _
 {
 }
-'
+"
 .
 format
 (
@@ -1104,6 +1111,7 @@ index
     
 print
 (
+        
 "
 "
 "
@@ -1217,10 +1225,13 @@ p
 .
 format
 (
+            
 source_base
 =
 SOURCE_BASE
+        
 )
+    
 )
     
 for
@@ -1234,6 +1245,7 @@ index
         
 print
 (
+            
 '
 <
 h3
@@ -1256,17 +1268,19 @@ h3
 .
 format
 (
+                
 name
 =
 category_name
-                                                 
 id
 =
 make_element_id
 (
 category_name
 )
+            
 )
+        
 )
         
 for
@@ -1284,6 +1298,7 @@ type_name
                 
 print
 (
+                    
 '
 <
 h4
@@ -1306,11 +1321,10 @@ h4
 .
 format
 (
-                    
+                        
 name
 =
 type_name
-                    
 id
 =
 make_element_id
@@ -1318,16 +1332,18 @@ make_element_id
 category_name
 type_name
 )
+                    
 )
+                
 )
             
 print
 (
-'
+"
 <
 dl
 >
-'
+"
 )
             
 for
@@ -1343,20 +1359,20 @@ opcode
             
 print
 (
-'
+"
 <
 /
 dl
 >
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 if
@@ -1382,7 +1398,6 @@ make_opcode_doc
 .
 py
 "
-              
 file
 =
 sys
@@ -1430,18 +1445,18 @@ path
 join
 (
 js_src_vm_dir
-'
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
+"
 )
 )
     

@@ -125,9 +125,9 @@ __file__
 )
 ENG_BUILD_REQUIRED
 =
-'
-'
-'
+"
+"
+"
 The
 mochitest
 command
@@ -190,18 +190,18 @@ in
 {
 }
 .
-'
-'
-'
+"
+"
+"
 .
 lstrip
 (
 )
 SUPPORTED_TESTS_NOT_FOUND
 =
-'
-'
-'
+"
+"
+"
 The
 mochitest
 command
@@ -288,18 +288,18 @@ path
 to
 /
 mozconfig
-'
-'
-'
+"
+"
+"
 .
 lstrip
 (
 )
 TESTS_NOT_FOUND
 =
-'
-'
-'
+"
+"
+"
 The
 mochitest
 command
@@ -331,9 +331,9 @@ mochitests
 living
 there
 .
-'
-'
-'
+"
+"
+"
 .
 lstrip
 (
@@ -341,15 +341,15 @@ lstrip
 SUPPORTED_APPS
 =
 [
-'
+"
 firefox
-'
-'
+"
+"
 android
-'
-'
+"
+"
 thunderbird
-'
+"
 ]
 parser
 =
@@ -442,9 +442,9 @@ join
 self
 .
 topobjdir
-'
+"
 build
-'
+"
 )
         
 if
@@ -478,9 +478,9 @@ join
 self
 .
 topobjdir
-'
+"
 _tests
-'
+"
 )
         
 self
@@ -493,18 +493,15 @@ path
 .
 join
 (
-            
 self
 .
 tests_dir
-            
-'
+"
 testing
-'
-            
-'
+"
+"
 mochitest
-'
+"
 )
         
 self
@@ -520,12 +517,12 @@ join
 self
 .
 topobjdir
-'
+"
 dist
-'
-'
+"
+"
 bin
-'
+"
 )
     
 def
@@ -627,9 +624,9 @@ manually
 .
         
 if
-'
+"
 mochitest
-'
+"
 not
 in
 sys
@@ -651,20 +648,20 @@ join
 self
 .
 mochitest_dir
-'
+"
 runtests
 .
 py
-'
+"
 )
             
 with
 open
 (
 path
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -674,20 +671,19 @@ imp
 .
 load_module
 (
-'
+"
 mochitest
-'
+"
 fh
 path
-                                
 (
-'
+"
 .
 py
-'
-'
+"
+"
 r
-'
+"
 imp
 .
 PY_SOURCE
@@ -754,7 +750,9 @@ handler
 remove_handlers
 =
 [
+            
 l
+            
 for
 l
 in
@@ -765,7 +763,7 @@ getLogger
 )
 .
 handlers
-                           
+            
 if
 isinstance
 (
@@ -774,6 +772,7 @@ logging
 .
 StreamHandler
 )
+        
 ]
         
 for
@@ -917,6 +916,7 @@ false
             
 if
 (
+                
 len
 (
 tests
@@ -924,36 +924,37 @@ tests
 =
 =
 1
-                    
+                
 and
 options
 .
 keep_open
 is
 None
-                    
+                
 and
 not
 options
 .
 headless
-                    
+                
 and
 getattr
 (
 options
-'
+"
 flavor
-'
-'
+"
+"
 plain
-'
+"
 )
 =
 =
-'
+"
 plain
-'
+"
+            
 )
 :
                 
@@ -1045,20 +1046,20 @@ join
 self
 .
 mochitest_dir
-'
+"
 runtestsremote
 .
 py
-'
+"
 )
         
 with
 open
 (
 path
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -1068,20 +1069,19 @@ imp
 .
 load_module
 (
-'
+"
 runtestsremote
-'
+"
 fh
 path
-                            
 (
-'
+"
 .
 py
-'
-'
+"
+"
 r
-'
+"
 imp
 .
 PY_SOURCE
@@ -1104,17 +1104,17 @@ if
 not
 kwargs
 [
-'
+"
 adbPath
-'
+"
 ]
 :
             
 kwargs
 [
-'
+"
 adbPath
-'
+"
 ]
 =
 get_adb_path
@@ -1184,9 +1184,9 @@ is
 not
 None
 and
-'
+"
 geckoview
-'
+"
 not
 in
 options
@@ -1301,9 +1301,9 @@ join
 build_obj
 .
 topobjdir
-'
+"
 build
-'
+"
 )
     
 if
@@ -1335,15 +1335,15 @@ join
 build_obj
 .
 topobjdir
-'
+"
 _tests
-'
-'
+"
+"
 testing
-'
-'
+"
+"
 mochitest
-'
+"
 )
     
 with
@@ -1358,9 +1358,9 @@ warnings
 .
 simplefilter
 (
-'
+"
 ignore
-'
+"
 )
         
 import
@@ -1378,11 +1378,11 @@ build_obj
 .
 topobjdir
 mochitest_dir
-'
+"
 runtests
 .
 py
-'
+"
 )
         
 if
@@ -1417,9 +1417,9 @@ with
 open
 (
 path
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -1429,20 +1429,19 @@ imp
 .
 load_module
 (
-'
+"
 mochitest
-'
+"
 fh
 path
-                            
 (
-'
+"
 .
 py
-'
-'
+"
+"
 r
-'
+"
 imp
 .
 PY_SOURCE
@@ -1520,8 +1519,11 @@ devices
 android_device
 import
 (
+            
 verify_android_device
+            
 InstallIntent
+        
 )
         
 #
@@ -1582,9 +1584,9 @@ join
 build_obj
 .
 topobjdir
-'
+"
 build
-'
+"
 )
     
 if
@@ -1616,15 +1618,15 @@ join
 build_obj
 .
 topobjdir
-'
+"
 _tests
-'
-'
+"
+"
 testing
-'
-'
+"
+"
 mochitest
-'
+"
 )
     
 with
@@ -1639,9 +1641,9 @@ warnings
 .
 simplefilter
 (
-'
+"
 ignore
-'
+"
 )
         
 #
@@ -1669,11 +1671,11 @@ build_obj
 .
 topobjdir
 mochitest_dir
-'
+"
 runtests
 .
 py
-'
+"
 )
         
 if
@@ -1708,9 +1710,9 @@ with
 open
 (
 path
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -1720,20 +1722,19 @@ imp
 .
 load_module
 (
-'
+"
 mochitest
-'
+"
 fh
 path
-                            
 (
-'
+"
 .
 py
-'
-'
+"
+"
 r
-'
+"
 imp
 .
 PY_SOURCE
@@ -1751,12 +1752,16 @@ devices
 android_device
 import
 (
+            
 verify_android_device
+            
 InstallIntent
+        
 )
         
 verify_android_device
 (
+            
 build_obj
 install
 =
@@ -1769,6 +1774,7 @@ True
 network
 =
 True
+        
 )
     
 global
@@ -1801,9 +1807,9 @@ tests
     
 xpcshell_binary
 =
-'
+"
 xpcshell
-'
+"
     
 if
 os
@@ -1811,18 +1817,18 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 :
         
 xpcshell_binary
 =
-'
+"
 xpcshell
 .
 exe
-'
+"
     
 MOZ_HOST_BIN
 =
@@ -1832,9 +1838,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_HOST_BIN
-'
+"
 )
     
 if
@@ -1844,7 +1850,8 @@ MOZ_HOST_BIN
         
 print
 (
-'
+            
+"
 environment
 variable
 MOZ_HOST_BIN
@@ -1856,14 +1863,15 @@ a
 directory
 containing
 host
-'
-              
-'
+"
+            
+"
 %
 s
-'
+"
 %
 xpcshell_binary
+        
 )
         
 return
@@ -1883,14 +1891,14 @@ MOZ_HOST_BIN
         
 print
 (
-'
+"
 MOZ_HOST_BIN
 does
 not
 specify
 a
 directory
-'
+"
 )
         
 return
@@ -1918,7 +1926,7 @@ xpcshell_binary
         
 print
 (
-'
+"
 MOZ_HOST_BIN
 /
 %
@@ -1926,7 +1934,7 @@ s
 does
 not
 exist
-'
+"
 %
 xpcshell_binary
 )
@@ -1946,15 +1954,17 @@ MachCommandBase
     
 Command
 (
-'
+        
+"
 mochitest
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 conditions
 =
 [
@@ -1970,10 +1980,10 @@ apps
 SUPPORTED_APPS
 )
 ]
-             
+        
 description
 =
-'
+"
 Run
 any
 flavor
@@ -1984,16 +1994,18 @@ integration
 test
 )
 .
-'
-             
+"
+        
 parser
 =
 setup_argument_parser
+    
 )
     
 def
 run_mochitest_general
 (
+        
 self
 flavor
 =
@@ -2007,6 +2019,7 @@ True
 *
 *
 kwargs
+    
 )
 :
         
@@ -2127,9 +2140,9 @@ flavor
 in
 fobj
 [
-'
+"
 aliases
-'
+"
 ]
 :
                     
@@ -2139,9 +2152,9 @@ not
 in
 fobj
 [
-'
+"
 enabled_apps
-'
+"
 ]
 :
                         
@@ -2161,7 +2174,9 @@ else
 flavors
 =
 [
+                
 f
+                
 for
 f
 v
@@ -2172,15 +2187,17 @@ iteritems
 (
 ALL_FLAVORS
 )
+                
 if
 buildapp
 in
 v
 [
-'
+"
 enabled_apps
-'
+"
 ]
+            
 ]
         
 from
@@ -2196,25 +2213,25 @@ self
 .
 _ensure_state_subdir_exists
 (
-'
+"
 .
-'
+"
 )
         
 test_paths
 =
 kwargs
 [
-'
+"
 test_paths
-'
+"
 ]
         
 kwargs
 [
-'
+"
 test_paths
-'
+"
 ]
 =
 [
@@ -2225,9 +2242,9 @@ kwargs
 .
 get
 (
-'
+"
 debugger
-'
+"
 None
 )
 :
@@ -2245,9 +2262,9 @@ kwargs
 .
 get
 (
-'
+"
 debugger
-'
+"
 )
 )
 :
@@ -2283,6 +2300,7 @@ mochitest
 .
 resolve_tests
 (
+                
 test_paths
 test_objects
 cwd
@@ -2292,6 +2310,7 @@ self
 _mach_context
 .
 cwd
+            
 )
         
 if
@@ -2300,9 +2319,9 @@ kwargs
 .
 get
 (
-'
+"
 log
-'
+"
 )
 :
             
@@ -2314,9 +2333,9 @@ logger
 format_args
 =
 {
-'
+"
 level
-'
+"
 :
 self
 .
@@ -2324,14 +2343,14 @@ _mach_context
 .
 settings
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 level
-'
+"
 ]
 }
             
@@ -2347,18 +2366,18 @@ tests
                 
 format_args
 [
-'
+"
 verbose
-'
+"
 ]
 =
 True
                 
 format_args
 [
-'
+"
 compact
-'
+"
 ]
 =
 False
@@ -2371,30 +2390,31 @@ _mach_context
 .
 settings
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 format
-'
+"
 ]
             
 kwargs
 [
-'
+"
 log
-'
+"
 ]
 =
 setup_logging
 (
-'
+                
+"
 mach
 -
 mochitest
-'
+"
 kwargs
 {
 default_format
@@ -2403,8 +2423,8 @@ sys
 .
 stdout
 }
-                                          
 format_args
+            
 )
             
 for
@@ -2412,9 +2432,9 @@ handler
 in
 kwargs
 [
-'
+"
 log
-'
+"
 ]
 .
 handlers
@@ -2459,25 +2479,25 @@ kwargs
 .
 get
 (
-'
+"
 subsuite
-'
+"
 )
         
 if
 subsuite
 =
 =
-'
+"
 default
-'
+"
 :
             
 kwargs
 [
-'
+"
 subsuite
-'
+"
 ]
 =
 None
@@ -2515,9 +2535,9 @@ flavors
 if
 test
 [
-'
+"
 flavor
-'
+"
 ]
 not
 in
@@ -2531,28 +2551,28 @@ key
 (
 test
 [
-'
+"
 flavor
-'
+"
 ]
 test
 .
 get
 (
-'
+"
 subsuite
-'
-'
-'
+"
+"
+"
 )
 )
             
 if
 test
 [
-'
+"
 flavor
-'
+"
 ]
 not
 in
@@ -2572,9 +2592,9 @@ if
 subsuite
 =
 =
-'
+"
 default
-'
+"
 :
                 
 #
@@ -2601,9 +2621,9 @@ test
 .
 get
 (
-'
+"
 subsuite
-'
+"
 )
 :
                     
@@ -2623,11 +2643,11 @@ test
 .
 get
 (
-'
+"
 subsuite
-'
-'
-'
+"
+"
+"
 )
 !
 =
@@ -2655,12 +2675,12 @@ test
         
 if
 (
-'
+"
 mochitest
-'
-'
+"
+"
 media
-'
+"
 )
 in
 suites
@@ -2674,21 +2694,25 @@ path
 .
 join
 (
-'
+                
+"
 testing
-'
-'
+"
+                
+"
 tools
-'
-'
+"
+                
+"
 websocketprocessbridge
-'
-                               
-'
+"
+                
+"
 websocketprocessbridge_requirements_3
 .
 txt
-'
+"
+            
 )
             
 self
@@ -2809,9 +2833,9 @@ kwargs
 .
 get
 (
-'
+"
 subsuite
-'
+"
 )
 )
                 
@@ -2846,18 +2870,19 @@ unsupported
                 
 print
 (
+                    
 TESTS_NOT_FOUND
 .
 format
 (
-'
+                        
+"
 \
 n
-'
+"
 .
 join
 (
-                    
 sorted
 (
 list
@@ -2868,7 +2893,9 @@ test_objects
 )
 )
 )
+                    
 )
+                
 )
                 
 return
@@ -2897,18 +2924,18 @@ apps
 =
 fobj
 [
-'
+"
 enabled_apps
-'
+"
 ]
                 
 name
 =
 fobj
 [
-'
+"
 aliases
-'
+"
 ]
 [
 0
@@ -2920,7 +2947,7 @@ s
                     
 name
 =
-'
+"
 {
 }
 -
@@ -2928,7 +2955,7 @@ name
 subsuite
 {
 }
-'
+"
 .
 format
 (
@@ -2945,17 +2972,17 @@ apps
                     
 reason
 =
-'
+"
 requires
 {
 }
-'
+"
 .
 format
 (
-'
+"
 or
-'
+"
 .
 join
 (
@@ -2968,19 +2995,19 @@ else
                     
 reason
 =
-'
+"
 excluded
 by
 the
 command
 line
-'
+"
                 
 msg
 .
 append
 (
-'
+"
 mochitest
 -
 f
@@ -2990,7 +3017,7 @@ f
 {
 }
 )
-'
+"
 .
 format
 (
@@ -3005,12 +3032,11 @@ SUPPORTED_TESTS_NOT_FOUND
 .
 format
 (
-                
 buildapp
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -3029,9 +3055,9 @@ if
 buildapp
 =
 =
-'
+"
 android
-'
+"
 :
             
 from
@@ -3042,8 +3068,11 @@ devices
 android_device
 import
 (
+                
 verify_android_device
+                
 InstallIntent
+            
 )
             
 app
@@ -3052,9 +3081,9 @@ kwargs
 .
 get
 (
-'
+"
 app
-'
+"
 )
             
 if
@@ -3080,13 +3109,15 @@ kwargs
 .
 get
 (
-'
+"
 deviceSerial
-'
+"
 )
             
 install
 =
+(
+                
 InstallIntent
 .
 NO
@@ -3095,14 +3126,16 @@ kwargs
 .
 get
 (
-'
+"
 no_install
-'
+"
 )
 else
 InstallIntent
 .
 YES
+            
+)
             
 #
 verify
@@ -3110,23 +3143,29 @@ installation
             
 verify_android_device
 (
+                
 self
+                
 install
 =
 install
+                
 xre
 =
 False
+                
 network
 =
 True
-                                  
+                
 app
 =
 app
+                
 device_serial
 =
 device_serial
+            
 )
             
 run_mochitest
@@ -3175,29 +3214,29 @@ subsuite
 )
             
 if
-'
+"
 test_paths
-'
+"
 in
 suite
 [
-'
+"
 kwargs
-'
+"
 ]
 :
                 
 del
 suite
 [
-'
+"
 kwargs
-'
+"
 ]
 [
-'
+"
 test_paths
-'
+"
 ]
             
 harness_args
@@ -3214,9 +3253,9 @@ update
 (
 suite
 [
-'
+"
 kwargs
-'
+"
 ]
 )
             
@@ -3272,9 +3311,9 @@ harness_args
 update
 (
 {
-'
+"
 suite_name
-'
+"
 :
 suite_name
 }
@@ -3284,15 +3323,12 @@ result
 =
 run_mochitest
 (
-                
 self
 .
 _mach_context
-                
 tests
 =
 tests
-                
 *
 *
 harness_args
@@ -3336,26 +3372,26 @@ it
 if
 kwargs
 [
-'
+"
 log
-'
+"
 ]
 .
 name
 =
 =
-'
+"
 mach
 -
 mochitest
-'
+"
 :
             
 kwargs
 [
-'
+"
 log
-'
+"
 ]
 .
 shutdown
@@ -3374,17 +3410,19 @@ MachCommandBase
     
 Command
 (
-'
+        
+"
 geckoview
 -
 junit
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 conditions
 =
 [
@@ -3392,35 +3430,38 @@ conditions
 .
 is_android
 ]
-             
+        
 description
 =
-'
+"
 Run
 remote
 geckoview
 junit
 tests
 .
-'
-             
+"
+        
 parser
 =
 setup_junit_argument_parser
+    
 )
     
 CommandArgument
 (
-'
+        
+"
 -
 -
 no
 -
 install
-'
+"
+        
 help
 =
-'
+"
 Do
 not
 try
@@ -3430,27 +3471,28 @@ application
 on
 device
 before
-'
+"
+        
 +
-                     
-'
+"
 running
 (
 default
 :
 False
 )
-'
-                     
+"
+        
 action
 =
-'
+"
 store_true
-'
-                     
+"
+        
 default
 =
 False
+    
 )
     
 def
@@ -3468,9 +3510,9 @@ self
 .
 _ensure_state_subdir_exists
 (
-'
+"
 .
-'
+"
 )
         
 from
@@ -3481,11 +3523,13 @@ devices
 android_device
 import
 (
+            
 get_adb_path
-                                                      
+            
 verify_android_device
-                                                      
+            
 InstallIntent
+        
 )
         
 #
@@ -3498,9 +3542,9 @@ kwargs
 .
 get
 (
-'
+"
 app
-'
+"
 )
         
 device_serial
@@ -3509,15 +3553,16 @@ kwargs
 .
 get
 (
-'
+"
 deviceSerial
-'
+"
 )
         
 verify_android_device
 (
+            
 self
-                              
+            
 install
 =
 InstallIntent
@@ -3529,17 +3574,19 @@ else
 InstallIntent
 .
 YES
-                              
+            
 xre
 =
 False
+            
 app
 =
 app
-                              
+            
 device_serial
 =
 device_serial
+        
 )
         
 if
@@ -3548,17 +3595,17 @@ kwargs
 .
 get
 (
-'
+"
 adbPath
-'
+"
 )
 :
             
 kwargs
 [
-'
+"
 adbPath
-'
+"
 ]
 =
 get_adb_path
@@ -3572,9 +3619,9 @@ kwargs
 .
 get
 (
-'
+"
 log
-'
+"
 )
 :
             
@@ -3588,9 +3635,9 @@ setup_logging
 format_args
 =
 {
-'
+"
 level
-'
+"
 :
 self
 .
@@ -3598,14 +3645,14 @@ _mach_context
 .
 settings
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 level
-'
+"
 ]
 }
             
@@ -3617,32 +3664,32 @@ _mach_context
 .
 settings
 [
-'
+"
 test
-'
+"
 ]
 [
-'
+"
 format
-'
+"
 ]
             
 kwargs
 [
-'
+"
 log
-'
+"
 ]
 =
 setup_logging
 (
-'
+                
+"
 mach
 -
 mochitest
-'
+"
 kwargs
-                                          
 {
 default_format
 :
@@ -3651,6 +3698,7 @@ sys
 stdout
 }
 format_args
+            
 )
         
 mochitest

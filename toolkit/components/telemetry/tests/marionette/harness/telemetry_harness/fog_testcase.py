@@ -231,6 +231,7 @@ marionette
 .
 execute_script
 (
+                
 "
 return
 AppConstants
@@ -238,6 +239,7 @@ AppConstants
 NIGHTLY_BUILD
 ;
 "
+            
 )
         
 if

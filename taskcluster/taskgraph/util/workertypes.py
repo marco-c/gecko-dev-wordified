@@ -79,7 +79,7 @@ WORKER_TYPES
 =
 {
     
-'
+"
 gce
 /
 gecko
@@ -89,20 +89,20 @@ gecko
 b
 -
 linux
-'
+"
 :
 (
-'
+"
 docker
 -
 worker
-'
-'
+"
+"
 linux
-'
+"
 )
     
-'
+"
 gce
 /
 gecko
@@ -112,20 +112,20 @@ gecko
 b
 -
 linux
-'
+"
 :
 (
-'
+"
 docker
 -
 worker
-'
-'
+"
+"
 linux
-'
+"
 )
     
-'
+"
 gce
 /
 gecko
@@ -135,46 +135,46 @@ gecko
 b
 -
 linux
-'
+"
 :
 (
-'
+"
 docker
 -
 worker
-'
-'
+"
+"
 linux
-'
+"
 )
     
-'
+"
 invalid
 /
 invalid
-'
+"
 :
 (
-'
+"
 invalid
-'
+"
 None
 )
     
-'
+"
 invalid
 /
 always
 -
 optimized
-'
+"
 :
 (
-'
+"
 always
 -
 optimized
-'
+"
 None
 )
     
@@ -193,11 +193,11 @@ v1
 "
 :
 (
-'
+"
 scriptworker
 -
 signing
-'
+"
 None
 )
     
@@ -214,9 +214,9 @@ shipit
 "
 :
 (
-'
+"
 shipit
-'
+"
 None
 )
     
@@ -233,9 +233,9 @@ shipit
 "
 :
 (
-'
+"
 shipit
-'
+"
 None
 )
 }
@@ -293,9 +293,9 @@ alias
 format
     
 if
-'
+"
 /
-'
+"
 in
 alias
 :
@@ -338,29 +338,29 @@ alias
 return
 {
                 
-'
+"
 provisioner
-'
+"
 :
 provisioner
                 
-'
+"
 worker
 -
 type
-'
+"
 :
 worker_type
                 
-'
+"
 implementation
-'
+"
 :
 implementation
                 
-'
+"
 os
-'
+"
 :
 os
             
@@ -373,17 +373,17 @@ KeyError
 return
 {
                 
-'
+"
 provisioner
-'
+"
 :
 provisioner
                 
-'
+"
 worker
 -
 type
-'
+"
 :
 worker_type
             
@@ -395,14 +395,14 @@ keymatch
 (
 graph_config
 [
-'
+"
 workers
-'
+"
 ]
 [
-'
+"
 aliases
-'
+"
 ]
 alias
 )
@@ -466,9 +466,9 @@ copy
     
 worker_config
 [
-'
+"
 provisioner
-'
+"
 ]
 =
 evaluate_keyed_by
@@ -476,9 +476,9 @@ evaluate_keyed_by
         
 worker_config
 [
-'
+"
 provisioner
-'
+"
 ]
         
 "
@@ -504,10 +504,12 @@ level
 :
 level
 }
+    
 )
 .
 format
 (
+        
 *
 *
 {
@@ -520,17 +522,19 @@ domain
 :
 graph_config
 [
-'
+"
 trust
 -
 domain
-'
+"
 ]
+            
 "
 level
 "
 :
 level
+            
 "
 alias
 "
@@ -538,15 +542,16 @@ alias
 alias
         
 }
+    
 )
     
 worker_config
 [
-'
+"
 worker
 -
 type
-'
+"
 ]
 =
 evaluate_keyed_by
@@ -554,11 +559,11 @@ evaluate_keyed_by
         
 worker_config
 [
-'
+"
 worker
 -
 type
-'
+"
 ]
         
 "
@@ -585,18 +590,20 @@ level
 "
 :
 level
-'
+"
 release
 -
 level
-'
+"
 :
 release_level
 }
+    
 )
 .
 format
 (
+        
 *
 *
 {
@@ -609,17 +616,19 @@ domain
 :
 graph_config
 [
-'
+"
 trust
 -
 domain
-'
+"
 ]
+            
 "
 level
 "
 :
 level
+            
 "
 alias
 "
@@ -627,6 +636,7 @@ alias
 alias
         
 }
+    
 )
     
 return
@@ -683,28 +693,28 @@ _get
 (
 graph_config
 worker_type
-'
+"
 1
-'
-'
+"
+"
 staging
-'
+"
 )
     
 return
 worker_config
 [
-'
+"
 implementation
-'
+"
 ]
 worker_config
 .
 get
 (
-'
+"
 os
-'
+"
 )
 def
 get_worker_type
@@ -756,15 +766,15 @@ release_level
 return
 worker_config
 [
-'
+"
 provisioner
-'
+"
 ]
 worker_config
 [
-'
+"
 worker
 -
 type
-'
+"
 ]

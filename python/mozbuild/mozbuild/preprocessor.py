@@ -277,29 +277,25 @@ os
 .
 linesep
 =
-'
+"
 \
 n
-'
+"
 __all__
 =
 [
-  
-'
+"
 Context
-'
-  
-'
+"
+"
 Expression
-'
-  
-'
+"
+"
 Preprocessor
-'
-  
-'
+"
+"
 preprocess
-'
+"
 ]
 def
 _to_text
@@ -641,10 +637,10 @@ content
 ]
 !
 =
-'
+"
 |
 |
-'
+"
 :
             
 #
@@ -677,9 +673,9 @@ Expression
 .
 __ASTLeaf
 (
-'
+"
 op
-'
+"
 self
 .
 content
@@ -804,10 +800,10 @@ content
 ]
 !
 =
-'
+"
 &
 &
-'
+"
 :
             
 #
@@ -840,9 +836,9 @@ Expression
 .
 __ASTLeaf
 (
-'
+"
 op
-'
+"
 self
 .
 content
@@ -970,13 +966,13 @@ re
 .
 match
 (
-'
+"
 [
 =
 !
 ]
 =
-'
+"
 self
 .
 content
@@ -1012,9 +1008,9 @@ Expression
 .
 __ASTLeaf
 (
-'
+"
 op
-'
+"
 self
 .
 content
@@ -1094,12 +1090,12 @@ re
 .
 match
 (
-'
+"
 !
 \
 s
 *
-'
+"
 self
 .
 content
@@ -1123,9 +1119,9 @@ Expression
 .
 __AST
 (
-'
+"
 not
-'
+"
 )
         
 self
@@ -1254,7 +1250,7 @@ re
 .
 match
 (
-'
+"
 defined
 \
 s
@@ -1274,7 +1270,7 @@ s
 *
 \
 )
-'
+"
 self
 .
 content
@@ -1298,9 +1294,9 @@ Expression
 .
 __ASTLeaf
 (
-'
+"
 defined
-'
+"
 m
 .
 group
@@ -1318,14 +1314,14 @@ re
 .
 match
 (
-'
+"
 [
 0
 -
 9
 ]
 *
-'
+"
 self
 .
 content
@@ -1358,9 +1354,9 @@ Expression
 .
 __ASTLeaf
 (
-'
+"
 int
-'
+"
 value
 )
             
@@ -1373,11 +1369,11 @@ re
 .
 match
 (
-'
+"
 \
 w
 *
-'
+"
 self
 .
 content
@@ -1397,9 +1393,9 @@ Expression
 .
 __ASTLeaf
 (
-'
+"
 string
-'
+"
 self
 .
 content
@@ -1449,11 +1445,11 @@ re
 .
 match
 (
-'
+"
 \
 s
 *
-'
+"
 self
 .
 content
@@ -1614,10 +1610,10 @@ tok
 value
 =
 =
-'
+"
 !
 =
-'
+"
 :
                 
 rv
@@ -1690,10 +1686,10 @@ tok
 value
 =
 =
-'
+"
 &
 &
-'
+"
 :
                 
 return
@@ -1710,10 +1706,10 @@ tok
 value
 =
 =
-'
+"
 |
 |
-'
+"
 :
                 
 return
@@ -1758,22 +1754,22 @@ forms
 opmap
 =
 {
-          
-'
+            
+"
 logical_op
-'
+"
 :
 eval_logical_op
-          
-'
+            
+"
 equality
-'
+"
 :
 eval_equality
-          
-'
+            
+"
 not
-'
+"
 :
 lambda
 tok
@@ -1794,10 +1790,10 @@ tok
 0
 ]
 )
-          
-'
+            
+"
 string
-'
+"
 :
 lambda
 tok
@@ -1808,10 +1804,10 @@ tok
 .
 value
 ]
-          
-'
+            
+"
 defined
-'
+"
 :
 lambda
 tok
@@ -1821,10 +1817,10 @@ tok
 value
 in
 context
-          
-'
+            
+"
 int
-'
+"
 :
 lambda
 tok
@@ -1832,6 +1828,7 @@ tok
 tok
 .
 value
+        
 }
         
 return
@@ -2068,13 +2065,14 @@ offset
 .
 format
 (
+                
 self
 .
 offset
-                                                                    
 self
 .
 content
+            
 )
 class
 Context
@@ -2216,9 +2214,9 @@ cpp
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
             
 self
@@ -2229,9 +2227,9 @@ cpp
 .
 context
 [
-'
+"
 LINE
-'
+"
 ]
             
 self
@@ -2268,9 +2266,9 @@ defines
 None
 marker
 =
-'
+"
 #
-'
+"
 )
 :
         
@@ -2289,23 +2287,20 @@ context
 update
 (
 {
-            
-'
+"
 FILE
-'
+"
 :
-'
-'
-            
-'
+"
+"
+"
 LINE
-'
+"
 :
 0
-            
-'
+"
 DIRECTORY
-'
+"
 :
 os
 .
@@ -2313,11 +2308,10 @@ path
 .
 abspath
 (
-'
+"
 .
-'
+"
 )
-            
 }
 )
         
@@ -2380,9 +2374,9 @@ self
 .
 curdir
 =
-'
+"
 .
-'
+"
         
 self
 .
@@ -2463,129 +2457,129 @@ in
 (
             
 (
-'
+"
 define
-'
+"
 0
 )
             
 (
-'
+"
 undef
-'
+"
 0
 )
             
 (
-'
+"
 if
-'
+"
 sys
 .
 maxsize
 )
             
 (
-'
+"
 ifdef
-'
+"
 sys
 .
 maxsize
 )
             
 (
-'
+"
 ifndef
-'
+"
 sys
 .
 maxsize
 )
             
 (
-'
+"
 else
-'
+"
 1
 )
             
 (
-'
+"
 elif
-'
+"
 1
 )
             
 (
-'
+"
 elifdef
-'
+"
 1
 )
             
 (
-'
+"
 elifndef
-'
+"
 1
 )
             
 (
-'
+"
 endif
-'
+"
 sys
 .
 maxsize
 )
             
 (
-'
+"
 expand
-'
+"
 0
 )
             
 (
-'
+"
 literal
-'
+"
 0
 )
             
 (
-'
+"
 filter
-'
+"
 0
 )
             
 (
-'
+"
 unfilter
-'
+"
 0
 )
             
 (
-'
+"
 include
-'
+"
 0
 )
             
 (
-'
+"
 includesubst
-'
+"
 0
 )
             
 (
-'
+"
 error
-'
+"
 0
 )
         
@@ -2604,9 +2598,9 @@ level
 getattr
 (
 self
-'
+"
 do_
-'
+"
 +
 cmd
 )
@@ -2635,7 +2629,7 @@ re
 .
 compile
 (
-'
+"
 (
 ?
 P
@@ -2646,7 +2640,7 @@ VAR
 w
 +
 )
-'
+"
 re
 .
 U
@@ -2707,12 +2701,12 @@ silenceMissingDirectiveWarnings
             
 msg
 =
-'
+"
 no
 preprocessor
 directives
 found
-'
+"
         
 elif
 self
@@ -2725,13 +2719,13 @@ actionLevel
             
 msg
 =
-'
+"
 no
 useful
 preprocessor
 directives
 found
-'
+"
         
 if
 msg
@@ -2758,15 +2752,15 @@ context
 =
 {
                 
-'
+"
 FILE
-'
+"
 :
 file
                 
-'
+"
 LINE
-'
+"
 :
 None
             
@@ -2860,7 +2854,8 @@ re
 .
 compile
 (
-'
+                
+"
 \
 s
 *
@@ -2901,13 +2896,13 @@ args
 \
 s
 *
-'
-                                          
+"
 .
 format
 (
 aMarker
 )
+            
 )
             
 self
@@ -3389,17 +3384,17 @@ self
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
 self
 .
 context
 [
-'
+"
 LINE
-'
+"
 ]
     
 def
@@ -3441,17 +3436,17 @@ self
 .
 context
 [
-'
+"
 LINE
-'
+"
 ]
 self
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
         
 if
@@ -3474,18 +3469,21 @@ expected_line
             
 if
 (
+                
 expected_line
 !
 =
 next_line
-or
                 
+or
 expected_file
+                
 and
 expected_file
 !
 =
 next_file
+            
 )
 :
                 
@@ -3495,6 +3493,7 @@ out
 .
 write
 (
+                    
 '
 /
 /
@@ -3516,11 +3515,11 @@ format
 line
 =
 next_line
-                                                                  
 file
 =
 next_file
 )
+                
 )
         
 self
@@ -3659,22 +3658,22 @@ io
 open
 (
 path
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 newline
 =
-'
+"
 \
 n
-'
+"
 )
         
 p
@@ -3765,7 +3764,6 @@ work
 with
 stdin
 "
-                                         
 None
 )
         
@@ -3787,6 +3785,7 @@ Preprocessor
 .
 Error
 (
+                    
 self
 "
 -
@@ -3799,8 +3798,8 @@ work
 with
 stdout
 "
-                                         
 None
+                
 )
             
 depfile
@@ -3828,16 +3827,16 @@ io
 open
 (
 f
-'
+"
 rU
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 input
@@ -3869,7 +3868,6 @@ mk
 .
 create_rule
 (
-                    
 [
 six
 .
@@ -3880,14 +3878,15 @@ options
 output
 )
 ]
-                
 )
 .
 add_dependencies
 (
+                    
 self
 .
 includes
+                
 )
                 
 mk
@@ -3945,11 +3944,11 @@ re
 .
 compile
 (
-'
+"
 \
 d
 +
-'
+"
 )
         
 def
@@ -3968,9 +3967,9 @@ value
 .
 split
 (
-'
+"
 =
-'
+"
 1
 )
             
@@ -4146,24 +4145,28 @@ p
 .
 add_option
 (
-'
+            
+"
 -
 D
-'
+"
+            
 action
 =
-'
+"
 callback
-'
+"
+            
 callback
 =
 handleD
+            
 type
 =
 "
 string
 "
-                     
+            
 metavar
 =
 "
@@ -4173,195 +4176,222 @@ VAR
 VAL
 ]
 "
+            
 help
 =
-'
+"
 Define
 a
 variable
-'
+"
+        
 )
         
 p
 .
 add_option
 (
-'
+            
+"
 -
 U
-'
+"
+            
 action
 =
-'
+"
 callback
-'
+"
+            
 callback
 =
 handleU
+            
 type
 =
 "
 string
 "
-                     
+            
 metavar
 =
 "
 VAR
 "
+            
 help
 =
-'
+"
 Undefine
 a
 variable
-'
+"
+        
 )
         
 p
 .
 add_option
 (
-'
+            
+"
 -
 F
-'
+"
+            
 action
 =
-'
+"
 callback
-'
+"
+            
 callback
 =
 handleF
+            
 type
 =
 "
 string
 "
-                     
+            
 metavar
 =
 "
 FILTER
 "
+            
 help
 =
-'
+"
 Enable
 the
 specified
 filter
-'
+"
+        
 )
         
 p
 .
 add_option
 (
-'
+            
+"
 -
 o
-'
-'
+"
+            
+"
 -
 -
 output
-'
+"
+            
 type
 =
 "
 string
 "
+            
 default
 =
 None
-                     
+            
 metavar
 =
 "
 FILENAME
 "
+            
 help
 =
-'
+"
 Output
 to
 the
 specified
 file
-'
+"
 +
-                     
-'
+"
 instead
 of
 stdout
-'
+"
+        
 )
         
 p
 .
 add_option
 (
-'
+            
+"
 -
 -
 depend
-'
+"
+            
 type
 =
 "
 string
 "
+            
 default
 =
 None
+            
 metavar
 =
 "
 FILENAME
 "
-                     
+            
 help
 =
-'
+"
 Generate
 dependencies
 in
 the
 given
 file
-'
+"
+        
 )
         
 p
 .
 add_option
 (
-'
+            
+"
 -
 -
 marker
-'
+"
+            
 action
 =
-'
+"
 callback
-'
+"
+            
 callback
 =
 handleMarker
-                     
+            
 type
 =
 "
 string
 "
-                     
+            
 help
 =
-'
+"
 Use
 the
 specified
@@ -4369,14 +4399,16 @@ marker
 instead
 of
 #
-'
+"
+        
 )
         
 p
 .
 add_option
 (
-'
+            
+"
 -
 -
 silence
@@ -4386,22 +4418,22 @@ missing
 directive
 -
 warnings
-'
+"
+            
 action
 =
-'
+"
 callback
-'
-                     
+"
+            
 callback
 =
 handleSilenceDirectiveWarnings
-                     
+            
 help
 =
-'
+"
 Don
-\
 '
 t
 emit
@@ -4409,7 +4441,8 @@ warnings
 about
 missing
 directives
-'
+"
+        
 )
         
 return
@@ -4491,9 +4524,9 @@ m
 .
 group
 (
-'
+"
 cmd
-'
+"
 )
             
 try
@@ -4505,9 +4538,9 @@ m
 .
 group
 (
-'
+"
 args
-'
+"
 )
             
 except
@@ -4531,9 +4564,9 @@ Preprocessor
 Error
 (
 self
-'
+"
 INVALID_CMD
-'
+"
 aLine
 )
             
@@ -4548,14 +4581,12 @@ cmd
 ]
             
 if
-(
 level
 >
 =
 self
 .
 disableLevel
-)
 :
                 
 cmd
@@ -4567,9 +4598,9 @@ if
 cmd
 !
 =
-'
+"
 literal
-'
+"
 :
                 
 self
@@ -4639,7 +4670,7 @@ re
 .
 match
 (
-'
+"
 (
 ?
 P
@@ -4666,7 +4697,7 @@ value
 )
 )
 ?
-'
+"
 args
 re
 .
@@ -4684,25 +4715,25 @@ Preprocessor
 Error
 (
 self
-'
+"
 SYNTAX_DEF
-'
+"
 args
 )
         
 val
 =
-'
-'
+"
+"
         
 if
 m
 .
 group
 (
-'
+"
 value
-'
+"
 )
 :
             
@@ -4716,9 +4747,9 @@ m
 .
 group
 (
-'
+"
 value
-'
+"
 )
 )
             
@@ -4746,9 +4777,9 @@ m
 .
 group
 (
-'
+"
 name
-'
+"
 )
 ]
 =
@@ -4768,7 +4799,7 @@ re
 .
 match
 (
-'
+"
 (
 ?
 P
@@ -4779,7 +4810,7 @@ name
 w
 +
 )
-'
+"
 args
 re
 .
@@ -4797,9 +4828,9 @@ Preprocessor
 Error
 (
 self
-'
+"
 SYNTAX_DEF
-'
+"
 args
 )
         
@@ -4858,7 +4889,8 @@ stderr
 .
 write
 (
-'
+                
+"
 WARNING
 :
 bad
@@ -4871,16 +4903,17 @@ in
 s
 \
 n
-'
+"
 %
 self
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
+            
 )
     
 def
@@ -4954,9 +4987,9 @@ Preprocessor
 Error
 (
 self
-'
+"
 SYNTAX_ERR
-'
+"
 args
 )
         
@@ -5080,10 +5113,10 @@ re
 .
 search
 (
-'
+"
 \
 W
-'
+"
 args
 re
 .
@@ -5097,9 +5130,9 @@ Preprocessor
 Error
 (
 self
-'
+"
 INVALID_VAR
-'
+"
 args
 )
         
@@ -5196,10 +5229,10 @@ re
 .
 search
 (
-'
+"
 \
 W
-'
+"
 args
 re
 .
@@ -5213,9 +5246,9 @@ Preprocessor
 Error
 (
 self
-'
+"
 INVALID_VAR
-'
+"
 args
 )
         
@@ -5569,7 +5602,7 @@ re
 .
 split
 (
-'
+"
 __
 (
 \
@@ -5577,7 +5610,7 @@ w
 +
 )
 __
-'
+"
 args
 re
 .
@@ -5611,8 +5644,8 @@ v
 )
             
 return
-'
-'
+"
+"
         
 for
 i
@@ -5645,10 +5678,10 @@ lst
 .
 append
 (
-'
+"
 \
 n
-'
+"
 )
 #
 add
@@ -5674,8 +5707,8 @@ x
 +
 y
 lst
-'
-'
+"
+"
 )
 )
     
@@ -5693,10 +5726,10 @@ write
 (
 args
 +
-'
+"
 \
 n
-'
+"
 )
     
 def
@@ -5718,16 +5751,16 @@ args
 .
 split
 (
-'
-'
+"
+"
 )
 if
 hasattr
 (
 self
-'
+"
 filter_
-'
+"
 +
 f
 )
@@ -5768,9 +5801,9 @@ f
 getattr
 (
 self
-'
+"
 filter_
-'
+"
 +
 f
 )
@@ -5816,8 +5849,8 @@ args
 .
 split
 (
-'
-'
+"
+"
 )
         
 current
@@ -5902,15 +5935,15 @@ if
 aLine
 =
 =
-'
+"
 \
 n
-'
+"
 :
             
 return
-'
-'
+"
+"
         
 return
 aLine
@@ -5948,7 +5981,7 @@ re
 .
 sub
 (
-'
+"
 ^
 \
 s
@@ -5957,9 +5990,9 @@ s
 /
 .
 *
-'
-'
-'
+"
+"
+"
 aLine
 )
     
@@ -6000,9 +6033,9 @@ matchobj
 .
 group
 (
-'
+"
 VAR
-'
+"
 )
             
 if
@@ -6034,9 +6067,9 @@ Preprocessor
 Error
 (
 self
-'
+"
 UNDEFINED_VAR
-'
+"
 varname
 )
             
@@ -6241,16 +6274,16 @@ io
 open
 (
 args
-'
+"
 rU
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
             
 except
@@ -6271,9 +6304,9 @@ Preprocessor
 Error
 (
 self
-'
+"
 FILE_NOT_FOUND
-'
+"
 _to_text
 (
 args
@@ -6286,11 +6319,12 @@ checkLineNumbers
 =
 bool
 (
+            
 re
 .
 search
 (
-'
+"
 \
 .
 (
@@ -6310,11 +6344,12 @@ webidl
 in
 )
 ?
-'
+"
 args
 .
 name
 )
+        
 )
         
 oldFile
@@ -6323,9 +6358,9 @@ self
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
         
 oldLine
@@ -6334,9 +6369,9 @@ self
 .
 context
 [
-'
+"
 LINE
-'
+"
 ]
         
 oldDir
@@ -6345,9 +6380,9 @@ self
 .
 context
 [
-'
+"
 DIRECTORY
-'
+"
 ]
         
 oldCurdir
@@ -6391,34 +6426,34 @@ self
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
 =
-'
+"
 -
-'
+"
             
 self
 .
 context
 [
-'
+"
 DIRECTORY
-'
+"
 ]
 =
-'
-'
+"
+"
             
 self
 .
 curdir
 =
-'
+"
 .
-'
+"
         
 else
 :
@@ -6479,9 +6514,9 @@ topobjdir
                 
 abspath
 =
-'
+"
 OBJDIR
-'
+"
 +
 normsep
 (
@@ -6513,9 +6548,9 @@ topsrcdir
                 
 abspath
 =
-'
+"
 SRCDIR
-'
+"
 +
 normsep
 (
@@ -6535,9 +6570,9 @@ self
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
 =
 abspath
@@ -6546,9 +6581,9 @@ self
 .
 context
 [
-'
+"
 DIRECTORY
-'
+"
 ]
 =
 os
@@ -6564,9 +6599,9 @@ self
 .
 context
 [
-'
+"
 LINE
-'
+"
 ]
 =
 0
@@ -6581,9 +6616,9 @@ self
 .
 context
 [
-'
+"
 LINE
-'
+"
 ]
 +
 =
@@ -6610,9 +6645,9 @@ self
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
 =
 oldFile
@@ -6627,9 +6662,9 @@ self
 .
 context
 [
-'
+"
 LINE
-'
+"
 ]
 =
 oldLine
@@ -6638,9 +6673,9 @@ self
 .
 context
 [
-'
+"
 DIRECTORY
-'
+"
 ]
 =
 oldDir
@@ -6689,10 +6724,10 @@ Preprocessor
 Error
 (
 self
-'
+"
 Error
 :
-'
+"
 _to_text
 (
 args
@@ -6712,18 +6747,16 @@ defines
 =
 {
 }
-               
 output
 =
 sys
 .
 stdout
-               
 marker
 =
-'
+"
 #
-'
+"
 )
 :
     
@@ -6734,7 +6767,6 @@ Preprocessor
 defines
 =
 defines
-                      
 marker
 =
 marker
@@ -6752,16 +6784,16 @@ io
 open
 (
 f
-'
+"
 rU
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 input

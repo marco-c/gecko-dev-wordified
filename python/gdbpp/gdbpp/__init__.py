@@ -110,9 +110,9 @@ printing
 .
 RegexpCollectionPrettyPrinter
 (
-'
+"
 GeckoPrettyPrinters
-'
+"
 )
     
 def

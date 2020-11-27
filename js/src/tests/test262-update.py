@@ -119,8 +119,9 @@ UNSUPPORTED_FEATURES
 =
 set
 (
-[
     
+[
+        
 "
 tail
 -
@@ -128,7 +129,7 @@ call
 -
 optimization
 "
-    
+        
 "
 regexp
 -
@@ -136,7 +137,7 @@ match
 -
 indices
 "
-    
+        
 "
 Intl
 .
@@ -144,13 +145,13 @@ DateTimeFormat
 -
 quarter
 "
-    
+        
 "
 Intl
 .
 Segmenter
 "
-    
+        
 "
 top
 -
@@ -158,18 +159,19 @@ level
 -
 await
 "
-    
+        
 "
 Atomics
 .
 waitAsync
 "
-    
+        
 "
 legacy
 -
 regexp
 "
+    
 ]
 )
 FEATURE_CHECK_NEEDED
@@ -244,8 +246,9 @@ RELEASE_OR_BETA
 =
 set
 (
-[
     
+[
+        
 "
 Intl
 .
@@ -253,7 +256,7 @@ DateTimeFormat
 -
 fractionalSecondDigits
 "
-    
+        
 "
 Intl
 .
@@ -261,7 +264,7 @@ DateTimeFormat
 -
 dayPeriod
 "
-    
+        
 "
 Intl
 .
@@ -269,6 +272,7 @@ DateTimeFormat
 -
 formatRange
 "
+    
 ]
 )
 SHELL_OPTIONS
@@ -1126,6 +1130,7 @@ ext
 def
 writeShellAndBrowserFiles
 (
+    
 test262OutDir
 harnessDir
 includesMap
@@ -1305,6 +1310,7 @@ s
 "
 %
 (
+                
 os
 .
 path
@@ -1322,12 +1328,13 @@ utf
 8
 "
 )
-                                         
+                
 includeFile
 .
 read
 (
 )
+            
 )
     
 localIncludes
@@ -1361,19 +1368,22 @@ n
 .
 join
 (
+        
 map
 (
+            
 readIncludeFile
+            
 chain
 (
-        
+                
 #
 The
 requested
 include
 files
 .
-        
+                
 map
 (
 partial
@@ -1392,7 +1402,7 @@ findIncludes
 )
 )
 )
-        
+                
 #
 And
 additional
@@ -1400,7 +1410,7 @@ local
 include
 files
 .
-        
+                
 map
 (
 partial
@@ -1421,9 +1431,11 @@ sorted
 localIncludes
 )
 )
+            
+)
+        
+)
     
-)
-)
 )
     
 #
@@ -1512,6 +1524,7 @@ io
 .
 open
 (
+        
 os
 .
 path
@@ -1529,6 +1542,7 @@ js
 "
 wb
 "
+    
 )
 as
 browserFile
@@ -2002,8 +2016,8 @@ isNegative
 and
 isAsync
 )
-\
-           
+(
+        
 "
 Can
 '
@@ -2020,6 +2034,8 @@ s
 "
 %
 testName
+    
+)
     
 #
 Only
@@ -2090,8 +2106,8 @@ or
 isAsync
 or
 isNegative
-\
-           
+(
+        
 "
 Missing
 async
@@ -2103,6 +2119,8 @@ s
 "
 %
 testName
+    
+)
     
 #
 When
@@ -2318,11 +2336,13 @@ refTestSkipIf
 .
 append
 (
+                    
 (
+                        
 "
 release_or_beta
 "
-                                      
+                        
 "
 %
 s
@@ -2339,12 +2359,15 @@ join
 (
 releaseOrBeta
 )
+                    
 )
+                
 )
             
 featureCheckNeeded
 =
 [
+                
 f
 for
 f
@@ -2359,6 +2382,7 @@ if
 f
 in
 FEATURE_CHECK_NEEDED
+            
 ]
             
 if
@@ -2369,7 +2393,9 @@ refTestSkipIf
 .
 append
 (
+                    
 (
+                        
 "
 |
 |
@@ -2377,19 +2403,20 @@ append
 .
 join
 (
+                            
 [
 FEATURE_CHECK_NEEDED
 [
 f
 ]
-                                                 
 for
 f
 in
 featureCheckNeeded
 ]
+                        
 )
-                                      
+                        
 "
 %
 s
@@ -2398,19 +2425,23 @@ not
 enabled
 unconditionally
 "
+                        
 %
 "
 "
 .
 join
 (
-                                          
 featureCheckNeeded
 )
+                    
 )
+                
 )
             
 if
+(
+                
 "
 Atomics
 "
@@ -2421,6 +2452,7 @@ testRec
 features
 "
 ]
+                
 and
 "
 SharedArrayBuffer
@@ -2432,13 +2464,17 @@ testRec
 features
 "
 ]
+            
+)
 :
                 
 refTestSkipIf
 .
 append
 (
+                    
 (
+                        
 "
 (
 this
@@ -2450,7 +2486,7 @@ getBuildConfiguration
 '
 )
 "
-                                      
+                        
 "
 &
 &
@@ -2466,7 +2502,7 @@ simulator
 ]
 )
 "
-                                      
+                        
 "
 ARM64
 Simulator
@@ -2474,12 +2510,15 @@ cannot
 emulate
 atomics
 "
+                    
 )
+                
 )
             
 shellOptions
 =
 {
+                
 SHELL_OPTIONS
 [
 f
@@ -2497,6 +2536,7 @@ if
 f
 in
 SHELL_OPTIONS
+            
 }
             
 if
@@ -2527,6 +2567,7 @@ refTestOptions
 .
 extend
 (
+                    
 (
 "
 shell
@@ -2542,12 +2583,12 @@ format
 (
 opt
 )
-                                       
 for
 opt
 in
 shellOptions
 )
+                
 )
     
 #
@@ -2677,13 +2718,14 @@ comments
 =
 createRefTestEntry
 (
+        
 refTestOptions
 refTestSkip
 refTestSkipIf
 errorType
-                                           
 isModule
 isAsync
+    
 )
     
 if
@@ -2751,7 +2793,7 @@ or
 noStrict
 )
 )
-\
+(
         
 "
 Unexpected
@@ -2765,6 +2807,8 @@ s
 "
 %
 testName
+    
+)
     
 #
 Write
@@ -2953,13 +2997,14 @@ comments
 =
 createRefTestEntry
 (
+        
 refTestOptions
 refTestSkip
 refTestSkipIf
 errorType
-                                           
 isModule
 isAsync
+    
 )
     
 refTest
@@ -3267,12 +3312,14 @@ file
     
 writeShellAndBrowserFiles
 (
+        
 test262OutDir
 harnessDir
 includesMap
 localIncludesMap
 "
 "
+    
 )
     
 #
@@ -3323,17 +3370,19 @@ Atomics
 ]
 =
 [
+        
 "
 testAtomics
 .
 js
 "
-                                                              
+        
 "
 testTypedArray
 .
 js
 "
+    
 ]
     
 explicitIncludes
@@ -3356,11 +3405,13 @@ DataView
 ]
 =
 [
+        
 "
 byteConversionValues
 .
 js
 "
+    
 ]
     
 explicitIncludes
@@ -3410,22 +3461,25 @@ TypedArray
 ]
 =
 [
+        
 "
 byteConversionValues
 .
 js
 "
-                                                                 
+        
 "
 detachArrayBuffer
 .
 js
 "
+        
 "
 nans
 .
 js
 "
+    
 ]
     
 explicitIncludes
@@ -3448,11 +3502,13 @@ TypedArrays
 ]
 =
 [
+        
 "
 detachArrayBuffer
 .
 js
 "
+    
 ]
     
 #
@@ -3573,6 +3629,7 @@ path
 .
 exists
 (
+            
 os
 .
 path
@@ -3580,9 +3637,9 @@ path
 join
 (
 test262OutDir
-                                                                               
 relPath
 )
+        
 )
 :
             
@@ -3825,12 +3882,13 @@ convert
 =
 convertTestFile
 (
+                    
 test262parser
 testSource
 testName
-                                          
 includeSet
 strictTests
+                
 )
             
 for
@@ -3861,21 +3919,23 @@ externManifests
 .
 append
 (
-{
                         
+{
+                            
 "
 name
 "
 :
 newFileName
-                        
+                            
 "
 reftest
 "
 :
 externRefTest
-                    
+                        
 }
+                    
 )
         
 #
@@ -3896,12 +3956,13 @@ directory
         
 writeShellAndBrowserFiles
 (
+            
 test262OutDir
 harnessDir
-                                  
 includesMap
 localIncludesMap
 relPath
+        
 )
 def
 fetch_local_changes
@@ -4139,9 +4200,9 @@ n
 %
 s
 "
-            
 %
 status
+        
 )
     
 #
@@ -4189,6 +4250,7 @@ split
 "
 "
 )
+    
 )
 .
 split
@@ -4503,6 +4565,7 @@ deletedFiles
         
 print
 (
+            
 "
 Deleted
 files
@@ -4524,6 +4587,7 @@ s
 "
 %
 deletedFiles
+        
 )
     
 if
@@ -4532,6 +4596,7 @@ modifiedFiles
         
 print
 (
+            
 "
 Modified
 files
@@ -4551,8 +4616,10 @@ n
 %
 s
 "
+            
 %
 modifiedFiles
+        
 )
     
 if
@@ -4671,7 +4738,6 @@ join
 srcDir
 f
 )
-            
 os
 .
 path
@@ -4947,6 +5013,7 @@ requests
 .
 get
 (
+        
 "
 https
 :
@@ -4971,6 +5038,7 @@ s
 "
 %
 prNumber
+    
 )
     
 prRequest
@@ -4988,7 +5056,6 @@ json
 )
     
 if
-(
 pr
 [
 "
@@ -5000,7 +5067,6 @@ state
 "
 open
 "
-)
 :
         
 #
@@ -5032,6 +5098,7 @@ requests
 .
 get
 (
+        
 "
 https
 :
@@ -5058,6 +5125,7 @@ files
 "
 %
 prNumber
+    
 )
     
 files
@@ -5255,9 +5323,9 @@ fileText
 .
 encode
 (
-'
+"
 utf8
-'
+"
 )
 )
     
@@ -5915,6 +5983,7 @@ subprocess
 .
 check_call
 (
+                
 [
 "
 git
@@ -5929,7 +5998,6 @@ depth
 =
 1
 "
-                                   
 "
 -
 -
@@ -5943,6 +6011,7 @@ branch
 url
 inDir
 ]
+            
 )
         
 else
@@ -5952,6 +6021,7 @@ subprocess
 .
 check_call
 (
+                
 [
 "
 git
@@ -5966,7 +6036,6 @@ single
 -
 branch
 "
-                                   
 "
 -
 -
@@ -5980,6 +6049,7 @@ branch
 url
 inDir
 ]
+            
 )
             
 subprocess
@@ -6205,11 +6275,13 @@ parser
 .
 add_argument
 (
+        
 "
 -
 -
 url
 "
+        
 default
 =
 "
@@ -6227,7 +6299,7 @@ test262
 .
 git
 "
-                        
+        
 help
 =
 "
@@ -6245,12 +6317,14 @@ default
 s
 )
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -6261,7 +6335,6 @@ default
 "
 main
 "
-                        
 help
 =
 "
@@ -6277,12 +6350,14 @@ default
 s
 )
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -6293,7 +6368,6 @@ default
 "
 HEAD
 "
-                        
 help
 =
 "
@@ -6309,23 +6383,26 @@ default
 s
 )
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 out
 "
+        
 default
 =
 "
 test262
 "
-                        
+        
 help
 =
 "
@@ -6340,7 +6417,7 @@ be
 removed
 !
 "
-                        
+        
 "
 (
 default
@@ -6352,18 +6429,19 @@ default
 s
 )
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 pull
 "
-                        
 help
 =
 "
@@ -6378,18 +6456,20 @@ by
 its
 number
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 local
 "
-                        
+        
 help
 =
 "
@@ -6406,7 +6486,7 @@ a
 new
 folder
 "
-                        
+        
 "
 will
 be
@@ -6416,26 +6496,30 @@ local
 /
 branch_name
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 strict
 "
+        
 default
 =
 False
+        
 action
 =
 "
 store_true
 "
-                        
+        
 help
 =
 "
@@ -6451,6 +6535,7 @@ by
 default
 .
 "
+    
 )
     
 parser

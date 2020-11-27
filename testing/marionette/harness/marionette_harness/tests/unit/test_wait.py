@@ -1832,10 +1832,10 @@ self
 .
 assertRaisesRegexp
 (
+            
 errors
 .
 TimeoutException
-                                     
 "
 Timed
 out
@@ -1845,6 +1845,7 @@ after
 0
 seconds
 "
+        
 )
 :
             
@@ -1906,10 +1907,10 @@ self
 .
 assertRaisesRegexp
 (
+            
 errors
 .
 TimeoutException
-                                     
 "
 Timed
 out
@@ -1919,6 +1920,7 @@ after
 0
 seconds
 "
+        
 )
 :
             
@@ -1974,10 +1976,10 @@ self
 .
 assertRaisesRegexp
 (
+            
 errors
 .
 TimeoutException
-                                     
 "
 Timed
 out
@@ -1987,6 +1989,7 @@ after
 0
 seconds
 "
+        
 )
 :
             
@@ -2047,6 +2050,7 @@ clock
 .
 sleep
 (
+0
 .
 5
 )
@@ -2063,10 +2067,10 @@ self
 .
 assertRaisesRegexp
 (
+            
 errors
 .
 TimeoutException
-                                     
 "
 Timed
 out
@@ -2076,6 +2080,7 @@ after
 0
 seconds
 "
+        
 )
 :
             
@@ -2151,10 +2156,10 @@ self
 .
 assertRaisesRegexp
 (
+            
 errors
 .
 TimeoutException
-                                     
 "
 Timed
 out
@@ -2164,6 +2169,7 @@ after
 0
 seconds
 "
+        
 )
 :
             

@@ -206,6 +206,7 @@ mac
 "
 :
 [
+        
 "
 Darwin_x86_64
 -
@@ -221,7 +222,7 @@ x86_64
 The
 main
 platofrm
-            
+        
 "
 Darwin_x86
 -
@@ -233,7 +234,7 @@ i386
 -
 x86_64
 "
-            
+        
 #
 We
 don
@@ -248,7 +249,7 @@ targets
 but
 some
 users
-            
+        
 #
 modify
 their
@@ -263,7 +264,7 @@ report
 like
 these
 .
-            
+        
 #
 See
 bug
@@ -271,17 +272,19 @@ bug
 for
 details
 .
-            
+        
 "
 Darwin_x86
 -
 gcc3
 "
+        
 "
 Darwin_x86_64
 -
 gcc3
 "
+    
 ]
     
 "

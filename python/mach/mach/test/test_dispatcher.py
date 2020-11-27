@@ -157,11 +157,11 @@ self
 .
 get_mach
 (
-'
+"
 basic
 .
 py
-'
+"
 )
         
 for
@@ -285,9 +285,9 @@ parser
 parse_args
 (
 [
-'
+"
 foo
-'
+"
 ]
 )
         
@@ -298,9 +298,9 @@ assertEquals
 args
 .
 command
-'
+"
 cmd_foo
-'
+"
 )
         
 def
@@ -326,9 +326,9 @@ assertEquals
 args
 .
 command
-'
+"
 cmd_bar
-'
+"
 )
             
 self
@@ -359,41 +359,41 @@ baz
 assert_bar_baz
 (
 [
-'
+"
 bar
-'
-'
+"
+"
 -
 -
 baz
-'
+"
 ]
 )
         
 assert_bar_baz
 (
 [
-'
+"
 baz
-'
+"
 ]
 )
         
 assert_bar_baz
 (
 [
-'
+"
 cmd_bar
-'
+"
 ]
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

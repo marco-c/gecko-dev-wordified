@@ -242,6 +242,7 @@ expected_count
     
 print
 (
+        
 "
 TEST
 -
@@ -258,19 +259,22 @@ py
 1
 }
 "
-          
 .
 format
 (
+            
 search_string
 expected_count
+        
 )
+    
 )
 else
 :
     
 print
 (
+        
 "
 TEST
 -
@@ -286,17 +290,17 @@ py
 }
 |
 "
-          
 .
 format
 (
 search_string
 )
-          
+        
 end
 =
-'
-'
+"
+"
+    
 )
     
 if
@@ -307,6 +311,7 @@ expected_count
         
 print
 (
+            
 "
 There
 are
@@ -322,7 +327,7 @@ than
 expected
 .
 "
-              
+            
 "
 This
 may
@@ -336,7 +341,7 @@ but
 forgotten
 to
 "
-              
+            
 "
 account
 for
@@ -352,6 +357,7 @@ format
 search_string
 error_location
 )
+        
 )
     
 else
@@ -359,6 +365,7 @@ else
         
 print
 (
+            
 "
 There
 are
@@ -378,7 +385,7 @@ We
 re
 trying
 "
-              
+            
 "
 to
 prevent
@@ -399,7 +406,7 @@ using
 }
 if
 "
-              
+            
 "
 possible
 .
@@ -413,7 +420,7 @@ update
 the
 expected
 "
-              
+            
 "
 count
 {
@@ -424,12 +431,14 @@ count
 .
 format
 (
+                
 search_string
 search_string
 replacement
-                                  
 error_location
+            
 )
+        
 )
     
 print

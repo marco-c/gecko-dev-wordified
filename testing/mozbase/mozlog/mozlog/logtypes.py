@@ -212,6 +212,7 @@ Unicode
 component
 "
 )
+        
 ]
         
 for
@@ -383,18 +384,18 @@ if
 hasattr
 (
 f
-'
+"
 __doc__
-'
+"
 )
 :
             
 setattr
 (
 inner
-'
+"
 __doc__
-'
+"
 f
 .
 __doc__
@@ -435,6 +436,7 @@ kwargs
 positional_no_default
 =
 [
+            
 item
 for
 item
@@ -447,6 +449,7 @@ item
 not
 in
 values
+        
 ]
         
 num_no_default
@@ -524,13 +527,13 @@ i
 positional_with_default
 =
 [
+            
 self
 .
 args_with_default
 [
 i
 ]
-                                   
 for
 i
 in
@@ -543,6 +546,7 @@ args
 -
 num_no_default
 )
+        
 ]
         
 for
@@ -662,14 +666,12 @@ missing
 :
                     
 if
-(
 key
 in
 self
 .
 optional_args
 and
-                            
 value
 =
 =
@@ -681,7 +683,6 @@ key
 ]
 .
 default
-)
 :
                         
 pass
@@ -728,6 +729,7 @@ kwargs
 known_kwargs
 =
 {
+            
 name
 :
 value
@@ -741,13 +743,13 @@ iteritems
 (
 kwargs
 )
-                        
 if
 name
 in
 self
 .
 args
+        
 }
         
 return
@@ -871,6 +873,7 @@ Exception
 raise
 ValueError
 (
+                
 "
 Failed
 to
@@ -891,8 +894,8 @@ type
 %
 s
 "
+                
 %
-                             
 (
 value
 type
@@ -910,6 +913,7 @@ __class__
 .
 __name__
 )
+            
 )
 class
 ContainerType
@@ -1246,34 +1250,43 @@ DataType
 allowed
 =
 [
+        
 "
 PASS
 "
+        
 "
 FAIL
 "
+        
 "
 OK
 "
+        
 "
 ERROR
 "
+        
 "
 TIMEOUT
 "
+        
 "
 CRASH
 "
+        
 "
 ASSERT
 "
+        
 "
 PRECONDITION_FAILED
 "
-               
+        
 "
 SKIP
 "
+    
 ]
     
 def
@@ -1316,31 +1329,39 @@ Status
 allowed
 =
 [
+        
 "
 PASS
 "
+        
 "
 FAIL
 "
+        
 "
 ERROR
 "
+        
 "
 TIMEOUT
 "
+        
 "
 ASSERT
 "
+        
 "
 PRECONDITION_FAILED
 "
+        
 "
 NOTRUN
 "
-               
+        
 "
 SKIP
 "
+    
 ]
 class
 Dict
@@ -1388,6 +1409,7 @@ item_type
 raise
 ValueError
 (
+                    
 "
 Dict
 item
@@ -1400,6 +1422,7 @@ single
 entry
 .
 "
+                
 )
             
 key_type
@@ -1454,6 +1477,7 @@ item_type
         
 return
 {
+            
 key_type
 .
 convert
@@ -1479,6 +1503,7 @@ data
 items
 (
 )
+        
 }
 class
 List
@@ -1622,9 +1647,9 @@ tuple
 data
 =
 {
-'
+"
 default
-'
+"
 :
 data
 }
@@ -1785,6 +1810,7 @@ item_type
 raise
 ValueError
 (
+                
 "
 Expected
 %
@@ -1807,18 +1833,19 @@ len
 data
 )
 )
+            
 )
         
 return
 tuple
 (
+            
 item_type
 .
 convert
 (
 value
 )
-                     
 for
 item_type
 value
@@ -1830,6 +1857,7 @@ self
 item_type
 data
 )
+        
 )
 class
 Nullable

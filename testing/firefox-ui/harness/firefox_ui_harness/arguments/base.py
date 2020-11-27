@@ -70,11 +70,11 @@ object
     
 name
 =
-'
+"
 Firefox
 UI
 Tests
-'
+"
     
 args
 =

@@ -280,6 +280,7 @@ params
 .
 format
 (
+            
 self
 .
 id
@@ -289,6 +290,7 @@ name
 self
 .
 params
+        
 )
     
 def
@@ -444,6 +446,7 @@ result
 .
 format
 (
+            
 self
 .
 id
@@ -453,6 +456,7 @@ error
 self
 .
 result
+        
 )
     
 def
@@ -1166,6 +1170,7 @@ socket
 .
 timeout
 (
+            
 "
 Connection
 timed
@@ -1182,6 +1187,7 @@ self
 .
 socket_timeout
 )
+        
 )
     
 def
@@ -1450,6 +1456,7 @@ gecko
 raise
 ValueError
 (
+                
 "
 Application
 type
@@ -1466,6 +1473,7 @@ format
 (
 application_type
 )
+            
 )
         
 if
@@ -1699,6 +1707,7 @@ sent
 raise
 IOError
 (
+                    
 "
 Socket
 error
@@ -1713,16 +1722,18 @@ of
 }
 bytes
 "
-                              
 .
 format
 (
+                        
 totalsent
 len
 (
 payload
 )
+                    
 )
+                
 )
             
 else

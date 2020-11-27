@@ -96,9 +96,9 @@ dirname
 (
 here
 )
-'
+"
 raptor
-'
+"
 )
 sys
 .
@@ -119,9 +119,9 @@ set_default_logger
 (
 StructuredLogger
 (
-'
+"
 test_control_server
-'
+"
 )
 )
 def
@@ -350,6 +350,7 @@ metrics
 ]
             
 }
+        
 )
     
 assert
@@ -396,9 +397,9 @@ page_timeout_list
 assert
 timeout_details
 [
-'
+"
 test_name
-'
+"
 ]
 =
 =
@@ -407,9 +408,9 @@ test_name
 assert
 timeout_details
 [
-'
+"
 url
-'
+"
 ]
 =
 =
@@ -437,15 +438,15 @@ len
 (
 timeout_details
 [
-'
+"
 pending_metrics
-'
+"
 ]
 .
 split
 (
-'
-'
+"
+"
 )
 )
 =
@@ -475,35 +476,33 @@ patch
 .
 object
 (
-            
+        
 RaptorControlServer
-'
+"
 background_app
-'
+"
 return_value
 =
 True
-         
+    
 )
 as
 _
-\
-         
 mock
 .
 patch
 .
 object
 (
-            
+        
 RaptorControlServer
-'
+"
 foreground_app
-'
+"
 return_value
 =
 True
-         
+    
 )
 as
 _
@@ -599,6 +598,7 @@ app
 "
                 
 }
+            
 )
         
 def
@@ -637,7 +637,6 @@ port
 json
 =
 {
-                    
 "
 type
 "
@@ -645,7 +644,6 @@ type
 "
 webext_end_background
 "
-                    
 "
 data
 "
@@ -655,8 +653,8 @@ ending
 background
 app
 "
-                
 }
+            
 )
         
 #
@@ -747,6 +745,7 @@ requests
 .
 post
 (
+            
 "
 http
 :
@@ -770,7 +769,7 @@ raptor
 control_server
 .
 port
-                      
+            
 json
 =
 {
@@ -781,7 +780,6 @@ type
 "
 webext_status
 "
-                            
 "
 data
 "
@@ -791,6 +789,7 @@ test
 status
 "
 }
+        
 )
     
 wait_time
@@ -799,12 +798,12 @@ wait_time
     
 message_state
 =
-'
+"
 webext_status
 /
 test
 status
-'
+"
     
 rhc
 =
@@ -853,9 +852,9 @@ control_server_wait_get
 )
 =
 =
-'
+"
 None
-'
+"
     
 #
 Test
@@ -872,8 +871,8 @@ message_state
 )
 =
 =
-'
-'
+"
+"
     
 assert
 message_state
@@ -904,14 +903,14 @@ raptor
 .
 control_server_wait_clear
 (
-'
+"
 nothing
-'
+"
 )
 =
 =
-'
-'
+"
+"
     
 assert
 message_state
@@ -935,8 +934,8 @@ message_state
 )
 =
 =
-'
-'
+"
+"
     
 assert
 message_state
@@ -961,8 +960,8 @@ message_state
 )
 =
 =
-'
-'
+"
+"
     
 assert
 message_state
@@ -976,14 +975,14 @@ raptor
 .
 control_server_wait_clear
 (
-'
+"
 all
-'
+"
 )
 =
 =
-'
-'
+"
+"
     
 assert
 rhc
@@ -1014,8 +1013,8 @@ message_state
 )
 =
 =
-'
-'
+"
+"
     
 assert
 rhc
@@ -1034,8 +1033,8 @@ wait_time
 )
 =
 =
-'
-'
+"
+"
     
 assert
 rhc
@@ -1089,9 +1088,9 @@ control_server_wait_get
 )
 =
 =
-'
+"
 None
-'
+"
     
 assert
 message_state
@@ -1177,9 +1176,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

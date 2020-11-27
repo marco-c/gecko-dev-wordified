@@ -160,30 +160,30 @@ Build
 types
     
 r
-'
+"
 build
 -
 .
 *
 -
 gcp
-'
+"
 #
 Bug
 1631990
     
 r
-'
+"
 mingwclang
-'
+"
 #
 Bug
 1631990
     
 r
-'
+"
 valgrind
-'
+"
 #
 Bug
 1631990
@@ -193,27 +193,27 @@ Android
 tasks
     
 r
-'
+"
 android
 -
 geckoview
 -
 docs
-'
+"
     
 r
-'
+"
 android
 -
 hw
-'
+"
     
 #
 Windows
 tasks
     
 r
-'
+"
 windows10
 -
 64
@@ -221,24 +221,24 @@ windows10
 ref
 -
 hw
-'
+"
     
 r
-'
+"
 windows10
 -
 aarch64
-'
+"
     
 #
 Linux
 tasks
     
 r
-'
+"
 linux
 -
-'
+"
 #
 hide
 all
@@ -251,11 +251,11 @@ bug
 1599197
     
 r
-'
+"
 linux1804
 -
 32
-'
+"
 #
 hide
 linux32
@@ -269,7 +269,7 @@ Test
 tasks
     
 r
-'
+"
 web
 -
 platform
@@ -278,7 +278,7 @@ tests
 .
 *
 backlog
-'
+"
 #
 hide
 wpt
@@ -293,18 +293,18 @@ bug
 1572820
     
 r
-'
+"
 -
 ccov
 /
-'
+"
     
 r
-'
+"
 -
 profiling
 -
-'
+"
 #
 talos
 /
@@ -348,7 +348,7 @@ tests
 .
     
 r
-'
+"
 -
 shippable
 (
@@ -388,7 +388,7 @@ wdspec
 headless
 )
 )
-'
+"
 #
 noqa
 -
@@ -614,30 +614,30 @@ attributes
 .
 get
 (
-'
+"
 nightly
-'
+"
 )
-and
         
+and
 task
 .
 attributes
 .
 get
 (
-'
+"
 shipping_phase
-'
+"
 )
 in
 (
 None
-'
+"
 build
-'
+"
 )
-        
+    
 )
 def
 filter_out_devedition
@@ -655,15 +655,15 @@ attributes
 .
 get
 (
-'
+"
 shipping_product
-'
+"
 )
 =
 =
-'
+"
 devedition
-'
+"
 def
 filter_out_cron
 (
@@ -697,9 +697,9 @@ attributes
 .
 get
 (
-'
+"
 cron
-'
+"
 )
 def
 filter_for_project
@@ -735,9 +735,9 @@ attributes
 .
 get
 (
-'
+"
 run_on_projects
-'
+"
 [
 ]
 )
@@ -748,9 +748,9 @@ match_run_on_projects
 (
 parameters
 [
-'
+"
 project
-'
+"
 ]
 run_on_projects
 )
@@ -797,13 +797,13 @@ attributes
 .
 get
 (
-'
+"
 run_on_hg_branches
-'
+"
 [
-'
+"
 all
-'
+"
 ]
 )
 )
@@ -813,9 +813,9 @@ match_run_on_hg_branches
 (
 parameters
 [
-'
+"
 hg_branch
-'
+"
 ]
 run_on_hg_branches
 )
@@ -848,17 +848,15 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
     
 return
-(
 platform
 in
 platforms
-)
 def
 filter_by_uncommon_try_tasks
 (
@@ -995,16 +993,16 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
     
 if
 platform
 in
 (
-            
+        
 #
 On
 beta
@@ -1013,29 +1011,31 @@ builds
 are
 already
 PGOs
-            
-'
+        
+"
 linux
 -
 pgo
-'
-'
+"
+        
+"
 linux64
 -
 pgo
-'
-            
-'
+"
+        
+"
 win32
 -
 pgo
-'
-'
+"
+        
+"
 win64
 -
 pgo
-'
-            
+"
+    
 )
 :
         
@@ -1046,30 +1046,33 @@ if
 platform
 in
 (
-            
-'
+        
+"
 linux
-'
-'
+"
+        
+"
 linux64
-'
-            
-'
+"
+        
+"
 macosx64
-'
-            
-'
+"
+        
+"
 win32
-'
-'
+"
+        
+"
 win64
-'
-'
+"
+        
+"
 win64
 -
 aarch64
-'
-            
+"
+    
 )
 :
         
@@ -1078,15 +1081,15 @@ task
 .
 attributes
 [
-'
+"
 kind
-'
+"
 ]
 =
 =
-'
+"
 l10n
-'
+"
 :
             
 #
@@ -1101,55 +1104,57 @@ return
 True
         
 if
+(
+            
 task
 .
 attributes
 [
-'
+"
 build_type
-'
+"
 ]
 =
 =
-'
+"
 opt
-'
+"
+            
 and
-\
-           
 task
 .
 attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 !
 =
-'
+"
 talos
-'
+"
+            
 and
-\
-           
 task
 .
 attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 !
 =
-'
+"
 raptor
-'
+"
+        
+)
 :
             
 return
@@ -1162,17 +1167,17 @@ attributes
 .
 get
 (
-'
+"
 shipping_phase
-'
+"
 )
 not
 in
 (
 None
-'
+"
 build
-'
+"
 )
 :
         
@@ -1272,16 +1277,16 @@ release
 if
 parameters
 [
-'
+"
 release_type
-'
+"
 ]
 .
 startswith
 (
-'
+"
 esr
-'
+"
 )
 :
         
@@ -1310,11 +1315,11 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
-'
-'
+"
+"
+"
 )
     
 build_platform
@@ -1325,11 +1330,11 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
-'
-'
+"
+"
+"
 )
     
 test_platform
@@ -1340,11 +1345,11 @@ attributes
 .
 get
 (
-'
+"
 test_platform
-'
-'
-'
+"
+"
+"
 )
     
 if
@@ -1353,13 +1358,13 @@ task
 kind
 =
 =
-'
+"
 hazard
-'
+"
 or
-'
+"
 toolchain
-'
+"
 in
 build_platform
 :
@@ -1379,15 +1384,15 @@ if
 build_type
 =
 =
-'
+"
 debug
-'
+"
 :
         
 if
-'
+"
 linux
-'
+"
 not
 in
 build_platform
@@ -1412,15 +1417,15 @@ kind
 not
 in
 [
-'
+"
 spidermonkey
-'
+"
 ]
 and
-'
+"
 -
 qr
-'
+"
 in
 test_platform
 :
@@ -1439,9 +1444,9 @@ return
 False
         
 elif
-'
+"
 64
-'
+"
 not
 in
 build_platform
@@ -1486,13 +1491,13 @@ task
 kind
 =
 =
-'
+"
 webrender
-'
+"
 and
-'
+"
 debug
-'
+"
 in
 task
 .
@@ -1517,9 +1522,9 @@ signoff
 in
 parameters
 [
-'
+"
 required_signoffs
-'
+"
 ]
 :
         
@@ -1529,13 +1534,11 @@ not
 in
 parameters
 [
-'
+"
 signoff_urls
-'
+"
 ]
 and
-\
-           
 signoff
 in
 task
@@ -1544,11 +1547,13 @@ attributes
 .
 get
 (
-'
+            
+"
 required_signoffs
-'
+"
 [
 ]
+        
 )
 :
             
@@ -1708,10 +1713,10 @@ filter_func
 task
 parameters
 )
+        
 for
 filter_func
 in
-        
 (
             
 filter_out_cron
@@ -1750,9 +1755,9 @@ builds
 "
     
 if
-'
+"
 android
-'
+"
 not
 in
 platform
@@ -1762,9 +1767,9 @@ return
 False
     
 if
-'
+"
 shippable
-'
+"
 not
 in
 platform
@@ -1774,15 +1779,15 @@ return
 False
     
 if
-'
+"
 p2
-'
+"
 in
 platform
 and
-'
+"
 aarch64
-'
+"
 in
 platform
 :
@@ -1791,9 +1796,9 @@ return
 True
     
 if
-'
+"
 g5
-'
+"
 in
 platform
 :
@@ -1813,14 +1818,14 @@ requested_tasks
 =
 parameters
 [
-'
+"
 try_task_config
-'
+"
 ]
 [
-'
+"
 tasks
-'
+"
 ]
     
 return
@@ -1885,17 +1890,21 @@ try_option_syntax
 .
 TryOptionSyntax
 (
+        
 parameters
 full_task_graph
 graph_config
+    
 )
     
 target_tasks_labels
 =
 [
+        
 t
 .
 label
+        
 for
 t
 in
@@ -1907,7 +1916,7 @@ full_task_graph
 .
 tasks
 )
-                           
+        
 if
 options
 .
@@ -1922,6 +1931,7 @@ t
 .
 label
 )
+    
 ]
     
 attributes
@@ -1935,18 +1945,19 @@ getattr
 options
 k
 )
+        
 for
 k
 in
 [
             
-'
+"
 no_retry
-'
+"
             
-'
+"
 tag
-'
+"
         
 ]
     
@@ -1966,9 +1977,9 @@ l
 ]
         
 if
-'
+"
 unittest_suite
-'
+"
 in
 task
 .
@@ -1979,9 +1990,9 @@ task
 .
 attributes
 [
-'
+"
 task_duplicates
-'
+"
 ]
 =
 options
@@ -2026,9 +2037,9 @@ trigger_tests
 >
 1
 and
-'
+"
 unittest_suite
-'
+"
 in
 task
 .
@@ -2039,9 +2050,9 @@ task
 .
 attributes
 [
-'
+"
 task_duplicates
-'
+"
 ]
 =
 options
@@ -2068,11 +2079,14 @@ value
 here
         
 if
+(
+            
 options
 .
 talos_trigger_tests
 >
 1
+            
 and
 task
 .
@@ -2080,24 +2094,26 @@ attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 =
 =
-'
+"
 talos
-'
+"
+        
+)
 :
             
 task
 .
 attributes
 [
-'
+"
 task_duplicates
-'
+"
 ]
 =
 options
@@ -2124,42 +2140,46 @@ value
 here
         
 if
+(
+            
 options
 .
 raptor_trigger_tests
+            
 and
 options
 .
 raptor_trigger_tests
 >
 1
+            
 and
-\
-                
 task
 .
 attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 =
 =
-'
+"
 raptor
-'
+"
+        
+)
 :
             
 task
 .
 attributes
 [
-'
+"
 task_duplicates
-'
+"
 ]
 =
 options
@@ -2200,9 +2220,9 @@ parameters
 .
 get
 (
-'
+"
 owner
-'
+"
 )
             
 routes
@@ -2213,9 +2233,9 @@ task
 .
 setdefault
 (
-'
+"
 routes
-'
+"
 [
 ]
 )
@@ -2226,9 +2246,9 @@ options
 notifications
 =
 =
-'
+"
 all
-'
+"
 :
                 
 routes
@@ -2260,9 +2280,9 @@ options
 notifications
 =
 =
-'
+"
 failure
-'
+"
 :
                 
 routes
@@ -2315,9 +2335,9 @@ return
 target_tasks_labels
 _target_task
 (
-'
+"
 try_tasks
-'
+"
 )
 def
 target_tasks_try
@@ -2332,18 +2352,18 @@ try_mode
 =
 parameters
 [
-'
+"
 try_mode
-'
+"
 ]
     
 if
 try_mode
 =
 =
-'
+"
 try_task_config
-'
+"
 :
         
 return
@@ -2358,9 +2378,9 @@ elif
 try_mode
 =
 =
-'
+"
 try_option_syntax
-'
+"
 :
         
 return
@@ -2400,9 +2420,9 @@ return
 ]
 _target_task
 (
-'
+"
 try_select_tasks
-'
+"
 )
 def
 target_tasks_try_select
@@ -2423,14 +2443,14 @@ for
 project
 in
 (
-'
+"
 autoland
-'
-'
+"
+"
 mozilla
 -
 central
-'
+"
 )
 :
         
@@ -2443,9 +2463,9 @@ parameters
         
 params
 [
-'
+"
 project
-'
+"
 ]
 =
 project
@@ -2463,8 +2483,11 @@ tasks
 .
 update
 (
+            
 [
+                
 l
+                
 for
 l
 t
@@ -2477,28 +2500,30 @@ full_task_graph
 .
 tasks
 )
-                      
+                
 if
 standard_filter
 (
 t
 parameters
 )
-                      
+                
 and
 filter_out_shipping_phase
 (
 t
 parameters
 )
-                      
+                
 and
 filter_out_devedition
 (
 t
 parameters
 )
+            
 ]
+        
 )
     
 return
@@ -2516,9 +2541,9 @@ l
 ]
 _target_task
 (
-'
+"
 try_select_tasks_uncommon
-'
+"
 )
 def
 target_tasks_try_select_uncommon
@@ -2539,14 +2564,14 @@ for
 project
 in
 (
-'
+"
 autoland
-'
-'
+"
+"
 mozilla
 -
 central
-'
+"
 )
 :
         
@@ -2559,9 +2584,9 @@ parameters
         
 params
 [
-'
+"
 project
-'
+"
 ]
 =
 project
@@ -2579,8 +2604,11 @@ tasks
 .
 update
 (
+            
 [
+                
 l
+                
 for
 l
 t
@@ -2593,28 +2621,30 @@ full_task_graph
 .
 tasks
 )
-                      
+                
 if
 standard_filter
 (
 t
 parameters
 )
-                      
+                
 and
 filter_out_shipping_phase
 (
 t
 parameters
 )
-                      
+                
 and
 filter_out_devedition
 (
 t
 parameters
 )
+            
 ]
+        
 )
     
 return
@@ -2627,9 +2657,9 @@ tasks
 ]
 _target_task
 (
-'
+"
 try_auto
-'
+"
 )
 def
 target_tasks_try_auto
@@ -2693,14 +2723,14 @@ parameters
     
 params
 [
-'
+"
 project
-'
+"
 ]
 =
-'
+"
 autoland
-'
+"
     
 parameters
 =
@@ -2713,7 +2743,9 @@ params
     
 return
 [
+        
 l
+        
 for
 l
 t
@@ -2726,28 +2758,28 @@ full_task_graph
 .
 tasks
 )
-            
+        
 if
 standard_filter
 (
 t
 parameters
 )
-            
+        
 and
 filter_out_shipping_phase
 (
 t
 parameters
 )
-            
+        
 and
 filter_out_devedition
 (
 t
 parameters
 )
-            
+        
 and
 filter_by_uncommon_try_tasks
 (
@@ -2755,12 +2787,13 @@ t
 .
 label
 )
+    
 ]
 _target_task
 (
-'
+"
 default
-'
+"
 )
 def
 target_tasks_default
@@ -2799,7 +2832,9 @@ attributes
     
 return
 [
+        
 l
+        
 for
 l
 t
@@ -2812,33 +2847,34 @@ full_task_graph
 .
 tasks
 )
-            
+        
 if
 standard_filter
 (
 t
 parameters
 )
-            
+        
 and
 filter_out_shipping_phase
 (
 t
 parameters
 )
-            
+        
 and
 filter_out_devedition
 (
 t
 parameters
 )
+    
 ]
 _target_task
 (
-'
+"
 autoland_tasks
-'
+"
 )
 def
 target_tasks_autoland
@@ -2865,7 +2901,7 @@ the
 '
 default
 '
-       
+    
 filter
 does
 also
@@ -2876,7 +2912,7 @@ running
 against
 shippable
 builds
-       
+    
 for
 non
 -
@@ -2891,9 +2927,11 @@ filtered_for_project
 =
 target_tasks_default
 (
+        
 full_task_graph
 parameters
 graph_config
+    
 )
     
 def
@@ -2937,9 +2975,9 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
         
 shippable
@@ -2950,9 +2988,9 @@ attributes
 .
 get
 (
-'
+"
 shippable
-'
+"
 False
 )
         
@@ -2963,9 +3001,9 @@ or
 build_type
 !
 =
-'
+"
 opt
-'
+"
 or
 not
 shippable
@@ -2995,9 +3033,9 @@ l
 ]
 _target_task
 (
-'
+"
 mozilla_central_tasks
-'
+"
 )
 def
 target_tasks_mozilla_central
@@ -3024,7 +3062,7 @@ the
 '
 default
 '
-       
+    
 filter
 does
 also
@@ -3038,7 +3076,7 @@ regular
 aka
 not
 shippable
-       
+    
 asan
 etc
 .
@@ -3054,9 +3092,11 @@ filtered_for_project
 =
 target_tasks_default
 (
+        
 full_task_graph
 parameters
 graph_config
+    
 )
     
 def
@@ -3088,9 +3128,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 build_type
@@ -3101,9 +3141,9 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
         
 shippable
@@ -3114,9 +3154,9 @@ attributes
 .
 get
 (
-'
+"
 shippable
-'
+"
 False
 )
         
@@ -3258,20 +3298,22 @@ now
 is_regular_opt
 =
 (
+            
 family
 =
 =
-'
+"
 android
-'
+"
 and
 not
 shippable
+        
 )
 or
-'
+"
 -
-'
+"
 not
 in
 build_platform
@@ -3312,9 +3354,9 @@ l
 ]
 _target_task
 (
-'
+"
 graphics_tasks
-'
+"
 )
 def
 target_tasks_graphics
@@ -3341,7 +3383,7 @@ the
 '
 default
 '
-       
+    
 filter
 does
 also
@@ -3353,7 +3395,7 @@ we
 have
 csets
 on
-       
+    
 the
 graphics
 branch
@@ -3367,7 +3409,7 @@ candidate
 branches
 of
 artifact
-       
+    
 builds
 "
 "
@@ -3377,9 +3419,11 @@ filtered_for_project
 =
 target_tasks_default
 (
+        
 full_task_graph
 parameters
 graph_config
+    
 )
     
 def
@@ -3394,17 +3438,17 @@ task
 .
 attributes
 [
-'
+"
 kind
-'
+"
 ]
 =
 =
-'
+"
 artifact
 -
 build
-'
+"
 :
             
 return
@@ -3431,9 +3475,9 @@ l
 ]
 _target_task
 (
-'
+"
 mochitest_valgrind
-'
+"
 )
 def
 target_tasks_valgrind
@@ -3473,18 +3517,18 @@ attributes
 .
 get
 (
-'
+"
 test_platform
-'
-'
-'
+"
+"
+"
 )
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 0
@@ -3495,9 +3539,9 @@ platform
 not
 in
 [
-'
+"
 linux64
-'
+"
 ]
 :
             
@@ -3511,22 +3555,24 @@ attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
-'
-'
+"
+"
+"
 )
 .
 startswith
 (
-'
+            
+"
 mochitest
 -
 valgrind
 -
 plain
-'
+"
+        
 )
 :
             
@@ -3559,9 +3605,9 @@ t
 ]
 _target_task
 (
-'
+"
 mozilla_beta_tasks
-'
+"
 )
 def
 target_tasks_mozilla_beta
@@ -3622,7 +3668,9 @@ jobs
     
 return
 [
+        
 l
+        
 for
 l
 t
@@ -3635,26 +3683,26 @@ full_task_graph
 .
 tasks
 )
-            
+        
 if
 filter_release_tasks
 (
 t
 parameters
 )
-            
 and
 standard_filter
 (
 t
 parameters
 )
+    
 ]
 _target_task
 (
-'
+"
 mozilla_release_tasks
-'
+"
 )
 def
 target_tasks_mozilla_release
@@ -3715,7 +3763,9 @@ jobs
     
 return
 [
+        
 l
+        
 for
 l
 t
@@ -3728,26 +3778,26 @@ full_task_graph
 .
 tasks
 )
-            
+        
 if
 filter_release_tasks
 (
 t
 parameters
 )
-            
 and
 standard_filter
 (
 t
 parameters
 )
+    
 ]
 _target_task
 (
-'
+"
 mozilla_esr78_tasks
-'
+"
 )
 def
 target_tasks_mozilla_esr78
@@ -3845,9 +3895,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 #
@@ -3862,9 +3912,9 @@ esr78
 if
 platform
 and
-'
+"
 android
-'
+"
 in
 platform
 :
@@ -3880,9 +3930,9 @@ attributes
 .
 get
 (
-'
+"
 test_platform
-'
+"
 )
         
 #
@@ -3899,11 +3949,11 @@ esr78
 if
 test_platform
 and
-'
+"
 -
 qr
 /
-'
+"
 in
 test_platform
 :
@@ -3937,9 +3987,9 @@ t
 ]
 _target_task
 (
-'
+"
 promote_desktop
-'
+"
 )
 def
 target_tasks_promote_desktop
@@ -4010,17 +4060,17 @@ attributes
 .
 get
 (
-'
+"
 shipping_product
-'
+"
 )
 !
 =
 parameters
 [
-'
+"
 release_product
-'
+"
 ]
 :
             
@@ -4049,23 +4099,23 @@ parameters
 .
 get
 (
-'
+"
 release_type
-'
+"
 )
 !
 =
-'
+"
 release
 -
 rc
-'
+"
 :
             
 if
-'
+"
 secondary
-'
+"
 in
 task
 .
@@ -4094,15 +4144,15 @@ attributes
 .
 get
 (
-'
+"
 shipping_phase
-'
+"
 )
 =
 =
-'
+"
 promote
-'
+"
 :
             
 return
@@ -4146,53 +4196,53 @@ attributes
 .
 get
 (
-'
+"
 shipping_product
-'
+"
 )
 =
 =
-'
+"
 fennec
-'
-and
+"
         
+and
 task
 .
 kind
 in
 (
-'
+"
 beetmover
 -
 geckoview
-'
-'
+"
+"
 upload
 -
 symbols
-'
+"
 )
-and
         
+and
 parameters
 [
-'
+"
 release_product
-'
+"
 ]
 =
 =
-'
+"
 firefox
-'
+"
     
 )
 _target_task
 (
-'
+"
 push_desktop
-'
+"
 )
 def
 target_tasks_push_desktop
@@ -4243,7 +4293,9 @@ target_tasks_promote_desktop
 (
         
 full_task_graph
+        
 parameters
+        
 graph_config
     
 )
@@ -4322,24 +4374,26 @@ at
 sync
         
 if
-'
+"
 mozilla
 -
 esr
-'
+"
 not
 in
 parameters
 [
-'
+"
 project
-'
+"
 ]
 and
 is_geckoview
 (
+            
 task
 parameters
+        
 )
 :
             
@@ -4347,42 +4401,45 @@ return
 True
         
 if
+(
+            
 task
 .
 attributes
 .
 get
 (
-'
+"
 shipping_product
-'
+"
 )
 =
 =
 parameters
 [
-'
+"
 release_product
-'
+"
 ]
+            
 and
-\
-                
 task
 .
 attributes
 .
 get
 (
-'
+"
 shipping_phase
-'
+"
 )
 =
 =
-'
+"
 push
-'
+"
+        
+)
 :
             
 return
@@ -4411,9 +4468,9 @@ t
 ]
 _target_task
 (
-'
+"
 ship_desktop
-'
+"
 )
 def
 target_tasks_ship_desktop
@@ -4455,23 +4512,21 @@ task
     
 is_rc
 =
-(
 parameters
 .
 get
 (
-'
+"
 release_type
-'
+"
 )
 =
 =
-'
+"
 release
 -
 rc
-'
-)
+"
     
 if
 is_rc
@@ -4500,7 +4555,9 @@ target_tasks_promote_desktop
 (
             
 full_task_graph
+            
 parameters
+            
 graph_config
         
 )
@@ -4526,7 +4583,9 @@ target_tasks_push_desktop
 (
             
 full_task_graph
+            
 parameters
+            
 graph_config
         
 )
@@ -4599,51 +4658,54 @@ return
 True
         
 if
+(
+            
 task
 .
 attributes
 .
 get
 (
-'
+"
 shipping_product
-'
+"
 )
 !
 =
 parameters
 [
-'
+"
 release_product
-'
+"
 ]
+            
 or
-\
-                
 task
 .
 attributes
 .
 get
 (
-'
+"
 shipping_phase
-'
+"
 )
 !
 =
-'
+"
 ship
-'
+"
+        
+)
 :
             
 return
 False
         
 if
-'
+"
 secondary
-'
+"
 in
 task
 .
@@ -4683,9 +4745,9 @@ t
 ]
 _target_task
 (
-'
+"
 pine_tasks
-'
+"
 )
 def
 target_tasks_pine
@@ -4727,9 +4789,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 #
@@ -4745,9 +4807,9 @@ platform
 .
 startswith
 (
-'
+"
 android
-'
+"
 )
 :
             
@@ -4762,11 +4824,11 @@ if
 platform
 =
 =
-'
+"
 linux64
 -
 asan
-'
+"
 :
             
 return
@@ -4793,8 +4855,10 @@ parameters
 or
 filter_out_shipping_phase
 (
+            
 task
 parameters
+        
 )
 :
             
@@ -4824,9 +4888,9 @@ t
 ]
 _target_task
 (
-'
+"
 kaios_tasks
-'
+"
 )
 def
 target_tasks_kaios
@@ -4897,9 +4961,9 @@ t
 ]
 _target_task
 (
-'
+"
 ship_geckoview
-'
+"
 )
 def
 target_tasks_ship_geckoview
@@ -4980,41 +5044,39 @@ be
 uploaded
         
 return
-(
-            
 task
 .
 attributes
 .
 get
 (
-'
+"
 shipping_product
-'
+"
 )
 =
 =
-'
+"
 fennec
-'
+"
 and
-            
 task
 .
 kind
 in
 (
-'
+            
+"
 beetmover
 -
 geckoview
-'
-'
+"
+            
+"
 upload
 -
 symbols
-'
-)
+"
         
 )
     
@@ -5041,9 +5103,9 @@ t
 ]
 _target_task
 (
-'
+"
 fennec_v68
-'
+"
 )
 def
 target_tasks_fennec_v68
@@ -5087,9 +5149,9 @@ attributes
 .
 get
 (
-'
+"
 test_platform
-'
+"
 )
         
 try_name
@@ -5100,9 +5162,9 @@ attributes
 .
 get
 (
-'
+"
 raptor_try_name
-'
+"
 )
         
 vismet
@@ -5113,19 +5175,19 @@ attributes
 .
 get
 (
-'
+"
 kind
-'
+"
 )
 =
 =
-'
+"
 visual
 -
 metrics
 -
 dep
-'
+"
         
 if
 vismet
@@ -5139,18 +5201,18 @@ task
 .
 get
 (
-'
+"
 extra
-'
+"
 )
 .
 get
 (
-'
+"
 treeherder
 -
 platform
-'
+"
 )
             
 try_name
@@ -5166,15 +5228,15 @@ attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 !
 =
-'
+"
 raptor
-'
+"
 and
 not
 vismet
@@ -5195,19 +5257,19 @@ return
 False
         
 if
-'
+"
 -
 fennec
-'
+"
 in
 try_name
 :
             
 if
-'
+"
 -
 power
-'
+"
 in
 try_name
 :
@@ -5216,17 +5278,17 @@ return
 True
             
 if
-'
+"
 browsertime
-'
+"
 in
 try_name
 :
                 
 if
-'
+"
 tp6m
-'
+"
 in
 try_name
 :
@@ -5235,9 +5297,9 @@ return
 True
                 
 elif
-'
+"
 speedometer
-'
+"
 in
 try_name
 :
@@ -5252,12 +5314,12 @@ return
 False
             
 if
-'
+"
 -
 youtube
 -
 playback
-'
+"
 in
 try_name
 :
@@ -5276,19 +5338,19 @@ on
 G5
                 
 if
-'
+"
 -
 g5
 -
-'
+"
 in
 test_platform
 and
-'
+"
 -
 vp9
 -
-'
+"
 in
 try_name
 :
@@ -5307,11 +5369,11 @@ currently
 broken
                 
 if
-'
+"
 -
 av1
 -
-'
+"
 in
 try_name
 :
@@ -5395,9 +5457,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 attributes
@@ -5412,34 +5474,34 @@ attributes
 .
 get
 (
-'
+"
 kind
-'
+"
 )
 =
 =
-'
+"
 visual
 -
 metrics
 -
 dep
-'
+"
         
 if
 attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 !
 =
-'
+"
 raptor
-'
+"
 and
 not
 vismet
@@ -5454,9 +5516,9 @@ attributes
 .
 get
 (
-'
+"
 raptor_try_name
-'
+"
 )
         
 if
@@ -5471,18 +5533,18 @@ task
 .
 get
 (
-'
+"
 extra
-'
+"
 )
 .
 get
 (
-'
+"
 treeherder
 -
 platform
-'
+"
 )
             
 try_name
@@ -5503,9 +5565,9 @@ return
 False
         
 if
-'
+"
 fenix
-'
+"
 not
 in
 try_name
@@ -5515,9 +5577,9 @@ return
 False
         
 if
-'
+"
 browsertime
-'
+"
 not
 in
 try_name
@@ -5527,9 +5589,9 @@ return
 False
         
 if
-'
+"
 live
-'
+"
 not
 in
 try_name
@@ -5605,9 +5667,9 @@ t
 ]
 _target_task
 (
-'
+"
 general_perf_testing
-'
+"
 )
 def
 target_tasks_general_perf_testing
@@ -5654,9 +5716,9 @@ attributes
 .
 get
 (
-'
+"
 test_platform
-'
+"
 )
         
 attributes
@@ -5671,34 +5733,34 @@ attributes
 .
 get
 (
-'
+"
 kind
-'
+"
 )
 =
 =
-'
+"
 visual
 -
 metrics
 -
 dep
-'
+"
         
 if
 attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 !
 =
-'
+"
 raptor
-'
+"
 and
 not
 vismet
@@ -5713,9 +5775,9 @@ attributes
 .
 get
 (
-'
+"
 raptor_try_name
-'
+"
 )
         
 if
@@ -5740,18 +5802,18 @@ task
 .
 get
 (
-'
+"
 extra
-'
+"
 )
 .
 get
 (
-'
+"
 treeherder
 -
 platform
-'
+"
 )
             
 try_name
@@ -5809,9 +5871,9 @@ shippable
 platforms
         
 if
-'
+"
 shippable
-'
+"
 not
 in
 platform
@@ -5825,9 +5887,9 @@ Desktop
 selection
         
 if
-'
+"
 android
-'
+"
 not
 in
 platform
@@ -5845,17 +5907,17 @@ smoke
 tests
             
 if
-'
+"
 browsertime
-'
+"
 in
 try_name
 :
                 
 if
-'
+"
 chrome
-'
+"
 in
 try_name
 :
@@ -5864,9 +5926,9 @@ return
 False
                 
 if
-'
+"
 chromium
-'
+"
 in
 try_name
 :
@@ -5875,10 +5937,10 @@ return
 False
                 
 if
-'
+"
 -
 fis
-'
+"
 in
 try_name
 :
@@ -5887,10 +5949,10 @@ return
 False
                 
 if
-'
+"
 -
 wr
-'
+"
 in
 try_name
 :
@@ -5899,17 +5961,17 @@ return
 False
                 
 if
-'
+"
 linux
-'
+"
 in
 platform
 :
                     
 if
-'
+"
 speedometer
-'
+"
 in
 try_name
 :
@@ -5918,15 +5980,15 @@ return
 True
                     
 if
-'
+"
 tp6
-'
+"
 in
 try_name
 and
-'
+"
 amazon
-'
+"
 in
 try_name
 :
@@ -5946,10 +6008,10 @@ chrome
 variants
                 
 if
-'
+"
 -
 chrome
-'
+"
 in
 try_name
 :
@@ -5958,10 +6020,10 @@ return
 True
                 
 if
-'
+"
 -
 chromium
-'
+"
 in
 try_name
 :
@@ -5992,9 +6054,9 @@ those
 weekly
             
 if
-'
+"
 fennec
-'
+"
 in
 try_name
 :
@@ -6009,25 +6071,25 @@ site
 tests
             
 if
-'
+"
 -
 live
-'
+"
 in
 try_name
 and
 (
-'
+"
 fenix
-'
+"
 in
 try_name
 or
-'
+"
 chrome
 -
 m
-'
+"
 in
 try_name
 )
@@ -6046,18 +6108,18 @@ usage
 tests
             
 if
-'
+"
 fenix
-'
+"
 in
 try_name
 :
                 
 if
-'
+"
 -
 power
-'
+"
 in
 try_name
 :
@@ -6073,9 +6135,9 @@ usage
 tests
             
 if
-'
+"
 geckoview
-'
+"
 in
 try_name
 :
@@ -6091,26 +6153,26 @@ tests
                 
 cpu_n_memory_task
 =
-'
+"
 -
 cpu
-'
+"
 in
 try_name
 and
-'
+"
 -
 memory
-'
+"
 in
 try_name
                 
 power_task
 =
-'
+"
 -
 power
-'
+"
 in
 try_name
                 
@@ -6137,11 +6199,11 @@ cpu_n_memory_task
 :
                     
 if
-'
+"
 -
 speedometer
 -
-'
+"
 in
 try_name
 :
@@ -6150,17 +6212,17 @@ return
 True
                     
 if
-'
+"
 -
 scn
-'
+"
 in
 try_name
 and
-'
+"
 -
 idle
-'
+"
 in
 try_name
 :
@@ -6173,9 +6235,9 @@ power_task
 :
                     
 return
-'
+"
 browsertime
-'
+"
 in
 try_name
             
@@ -6187,17 +6249,17 @@ specific
 tests
             
 if
-'
+"
 browsertime
-'
+"
 in
 try_name
 :
                 
 if
-'
+"
 speedometer
-'
+"
 in
 try_name
 :
@@ -6267,32 +6329,33 @@ parameters
 return
 all
 (
-[
             
+[
+                
 filter_on_platforms
 (
 task
 platforms
 )
-            
+                
 filter_for_project
 (
 task
 parameters
 )
-            
+                
 task
 .
 attributes
 .
 get
 (
-'
+"
 shippable
-'
+"
 False
 )
-            
+                
 #
 Tests
 and
@@ -6305,17 +6368,18 @@ t
 have
 shipping_product
 set
-            
+                
 task
 .
 attributes
 .
 get
 (
-'
+"
 shipping_product
-'
+"
 )
+                
 in
 {
 None
@@ -6326,16 +6390,16 @@ firefox
 thunderbird
 "
 }
-            
+                
 task
 .
 kind
 not
 in
 {
-'
+"
 l10n
-'
+"
 }
 #
 no
@@ -6343,17 +6407,18 @@ on
 -
 change
 l10n
-        
+            
 ]
+        
 )
     
 return
 filter
 _target_task
 (
-'
+"
 nightly_linux
-'
+"
 )
 def
 target_tasks_nightly_linux
@@ -6409,18 +6474,16 @@ filter
 make_desktop_nightly_filter
 (
 {
-        
-'
+"
 linux64
 -
 shippable
-'
-'
+"
+"
 linux
 -
 shippable
-'
-        
+"
 }
 )
     
@@ -6448,9 +6511,9 @@ parameters
 ]
 _target_task
 (
-'
+"
 nightly_macosx
-'
+"
 )
 def
 target_tasks_nightly_macosx
@@ -6506,11 +6569,11 @@ filter
 make_desktop_nightly_filter
 (
 {
-'
+"
 macosx64
 -
 shippable
-'
+"
 }
 )
     
@@ -6538,9 +6601,9 @@ parameters
 ]
 _target_task
 (
-'
+"
 nightly_win32
-'
+"
 )
 def
 target_tasks_nightly_win32
@@ -6598,11 +6661,11 @@ filter
 make_desktop_nightly_filter
 (
 {
-'
+"
 win32
 -
 shippable
-'
+"
 }
 )
     
@@ -6630,9 +6693,9 @@ parameters
 ]
 _target_task
 (
-'
+"
 nightly_win64
-'
+"
 )
 def
 target_tasks_nightly_win64
@@ -6690,11 +6753,11 @@ filter
 make_desktop_nightly_filter
 (
 {
-'
+"
 win64
 -
 shippable
-'
+"
 }
 )
     
@@ -6722,9 +6785,9 @@ parameters
 ]
 _target_task
 (
-'
+"
 nightly_win64_aarch64
-'
+"
 )
 def
 target_tasks_nightly_win64_aarch64
@@ -6782,13 +6845,13 @@ filter
 make_desktop_nightly_filter
 (
 {
-'
+"
 win64
 -
 aarch64
 -
 shippable
-'
+"
 }
 )
     
@@ -6816,9 +6879,9 @@ parameters
 ]
 _target_task
 (
-'
+"
 nightly_asan
-'
+"
 )
 def
 target_tasks_nightly_asan
@@ -6873,9 +6936,9 @@ filter
 =
 make_desktop_nightly_filter
 (
-{
         
-'
+{
+"
 linux64
 -
 asan
@@ -6883,9 +6946,8 @@ asan
 reporter
 -
 shippable
-'
-        
-'
+"
+"
 win64
 -
 asan
@@ -6893,9 +6955,9 @@ asan
 reporter
 -
 shippable
-'
-    
+"
 }
+    
 )
     
 return
@@ -6922,9 +6984,9 @@ parameters
 ]
 _target_task
 (
-'
+"
 daily_releases
-'
+"
 )
 def
 target_tasks_daily_releases
@@ -6990,11 +7052,11 @@ task
 kind
 in
 [
-'
+"
 maybe
 -
 release
-'
+"
 ]
     
 return
@@ -7020,9 +7082,9 @@ t
 ]
 _target_task
 (
-'
+"
 nightly_desktop
-'
+"
 )
 def
 target_tasks_nightly_desktop
@@ -7079,6 +7141,7 @@ release_tasks
 [
         
 l
+        
 for
 l
 t
@@ -7135,12 +7198,16 @@ graph_config
 |
 set
 (
+            
 target_tasks_nightly_win64_aarch64
 (
+                
 full_task_graph
 parameters
 graph_config
+            
 )
+        
 )
         
 |
@@ -7192,9 +7259,9 @@ daily
 .
 _target_task
 (
-'
+"
 searchfox_index
-'
+"
 )
 def
 target_tasks_searchfox
@@ -7226,7 +7293,8 @@ day
     
 return
 [
-'
+        
+"
 searchfox
 -
 linux64
@@ -7234,9 +7302,9 @@ linux64
 searchfox
 /
 debug
-'
-            
-'
+"
+        
+"
 searchfox
 -
 macosx64
@@ -7244,9 +7312,9 @@ macosx64
 searchfox
 /
 debug
-'
-            
-'
+"
+        
+"
 searchfox
 -
 win64
@@ -7254,9 +7322,9 @@ win64
 searchfox
 /
 debug
-'
-            
-'
+"
+        
+"
 searchfox
 -
 android
@@ -7266,9 +7334,9 @@ armv7
 searchfox
 /
 debug
-'
-            
-'
+"
+        
+"
 source
 -
 test
@@ -7280,9 +7348,9 @@ metadata
 bugzilla
 -
 components
-'
-            
-'
+"
+        
+"
 source
 -
 test
@@ -7296,9 +7364,9 @@ test
 info
 -
 all
-'
-            
-'
+"
+        
+"
 source
 -
 test
@@ -7308,7 +7376,8 @@ wpt
 metadata
 -
 summary
-'
+"
+    
 ]
 #
 Run
@@ -7320,9 +7389,9 @@ daily
 .
 _target_task
 (
-'
+"
 coverity_static_analysis_full
-'
+"
 )
 def
 target_tasks_coverity_full
@@ -7350,7 +7419,7 @@ Analysis
     
 return
 [
-'
+"
 source
 -
 test
@@ -7362,13 +7431,13 @@ coverity
 full
 -
 analysis
-'
+"
 ]
 _target_task
 (
-'
+"
 customv8_update
-'
+"
 )
 def
 target_tasks_customv8_update
@@ -7399,7 +7468,7 @@ version
     
 return
 [
-'
+"
 toolchain
 -
 linux64
@@ -7407,13 +7476,13 @@ linux64
 custom
 -
 v8
-'
+"
 ]
 _target_task
 (
-'
+"
 chromium_update
-'
+"
 )
 def
 target_tasks_chromium_update
@@ -7442,43 +7511,45 @@ versions
     
 return
 [
-'
+        
+"
 fetch
 -
 linux64
 -
 chromium
-'
-            
-'
+"
+        
+"
 fetch
 -
 win32
 -
 chromium
-'
-            
-'
+"
+        
+"
 fetch
 -
 win64
 -
 chromium
-'
-            
-'
+"
+        
+"
 fetch
 -
 mac
 -
 chromium
-'
+"
+    
 ]
 _target_task
 (
-'
+"
 python_dependency_update
-'
+"
 )
 def
 target_tasks_python_update
@@ -7506,7 +7577,6 @@ in
 tree
 pipfile
 updates
-    
 "
 "
 "
@@ -7538,13 +7608,13 @@ task
 kind
 in
 [
-'
+"
 python
 -
 dependency
 -
 update
-'
+"
 ]
     
 return
@@ -7570,9 +7640,9 @@ t
 ]
 _target_task
 (
-'
+"
 file_update
-'
+"
 )
 def
 target_tasks_file_update
@@ -7600,7 +7670,6 @@ in
 tree
 file
 updates
-    
 "
 "
 "
@@ -7632,11 +7701,11 @@ task
 kind
 in
 [
-'
+"
 repo
 -
 update
-'
+"
 ]
     
 return
@@ -7662,9 +7731,9 @@ t
 ]
 _target_task
 (
-'
+"
 l10n_bump
-'
+"
 )
 def
 target_tasks_l10n_bump
@@ -7689,7 +7758,6 @@ perform
 l10n
 bumping
 .
-    
 "
 "
 "
@@ -7721,11 +7789,11 @@ task
 kind
 in
 [
-'
+"
 l10n
 -
 bump
-'
+"
 ]
     
 return
@@ -7751,9 +7819,9 @@ t
 ]
 _target_task
 (
-'
+"
 merge_automation
-'
+"
 )
 def
 target_tasks_merge_automation
@@ -7778,7 +7846,6 @@ perform
 repository
 merges
 .
-    
 "
 "
 "
@@ -7810,11 +7877,11 @@ task
 kind
 in
 [
-'
+"
 merge
 -
 automation
-'
+"
 ]
     
 return
@@ -7840,9 +7907,9 @@ t
 ]
 _target_task
 (
-'
+"
 scriptworker_canary
-'
+"
 )
 def
 target_tasks_scriptworker_canary
@@ -7867,7 +7934,6 @@ run
 scriptworker
 canaries
 .
-    
 "
 "
 "
@@ -7899,11 +7965,11 @@ task
 kind
 in
 [
-'
+"
 scriptworker
 -
 canary
-'
+"
 ]
     
 return
@@ -7929,9 +7995,9 @@ t
 ]
 _target_task
 (
-'
+"
 cron_bouncer_check
-'
+"
 )
 def
 target_tasks_bouncer_check
@@ -7957,7 +8023,6 @@ bouncer
 version
 verification
 .
-    
 "
 "
 "
@@ -8001,13 +8066,13 @@ task
 kind
 in
 [
-'
+"
 cron
 -
 bouncer
 -
 check
-'
+"
 ]
     
 return
@@ -8033,9 +8098,9 @@ t
 ]
 _target_task
 (
-'
+"
 staging_release_builds
-'
+"
 )
 def
 target_tasks_staging_release
@@ -8079,9 +8144,9 @@ attributes
 .
 get
 (
-'
+"
 shipping_product
-'
+"
 )
 :
             
@@ -8089,25 +8154,25 @@ return
 False
         
 if
-(
 parameters
 [
-'
+"
 release_type
-'
+"
 ]
 .
 startswith
 (
-'
+            
+"
 esr
-'
+"
+        
 )
-                
 and
-'
+"
 android
-'
+"
 in
 task
 .
@@ -8115,12 +8180,11 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
-'
-'
-)
+"
+"
+"
 )
 :
             
@@ -8128,23 +8192,21 @@ return
 False
         
 if
-(
 parameters
 [
-'
+"
 release_type
-'
+"
 ]
 !
 =
-'
+"
 beta
-'
-                
+"
 and
-'
+"
 devedition
-'
+"
 in
 task
 .
@@ -8152,12 +8214,13 @@ attributes
 .
 get
 (
-'
+            
+"
 build_platform
-'
-'
-'
-)
+"
+"
+"
+        
 )
 :
             
@@ -8171,15 +8234,15 @@ attributes
 .
 get
 (
-'
+"
 shipping_phase
-'
+"
 )
 =
 =
-'
+"
 build
-'
+"
 :
             
 return
@@ -8211,9 +8274,9 @@ t
 ]
 _target_task
 (
-'
+"
 release_simulation
-'
+"
 )
 def
 target_tasks_release_simulation
@@ -8249,45 +8312,45 @@ project_by_release
 =
 {
         
-'
+"
 nightly
-'
+"
 :
-'
+"
 mozilla
 -
 central
-'
+"
         
-'
+"
 beta
-'
+"
 :
-'
+"
 mozilla
 -
 beta
-'
+"
         
-'
+"
 release
-'
+"
 :
-'
+"
 mozilla
 -
 release
-'
+"
         
-'
+"
 esr78
-'
+"
 :
-'
+"
 mozilla
 -
 esr78
-'
+"
     
 }
     
@@ -8299,9 +8362,9 @@ get
 (
 parameters
 [
-'
+"
 release_type
-'
+"
 ]
 )
     
@@ -8314,7 +8377,7 @@ None
 raise
 Exception
 (
-'
+"
 Unknown
 or
 unspecified
@@ -8324,7 +8387,7 @@ in
 simulation
 run
 .
-'
+"
 )
     
 def
@@ -8360,9 +8423,9 @@ attributes
 .
 get
 (
-'
+"
 run_on_projects
-'
+"
 [
 ]
 )
@@ -8383,25 +8446,25 @@ task
 :
         
 if
-(
 parameters
 [
-'
+"
 release_type
-'
+"
 ]
 .
 startswith
 (
-'
+            
+"
 esr
-'
+"
+        
 )
-                
 and
-'
+"
 android
-'
+"
 in
 task
 .
@@ -8409,12 +8472,11 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
-'
-'
-)
+"
+"
+"
 )
 :
             
@@ -8426,7 +8488,9 @@ True
     
 return
 [
+        
 l
+        
 for
 l
 t
@@ -8439,38 +8503,39 @@ full_task_graph
 .
 tasks
 )
-            
+        
 if
 filter_release_tasks
 (
 t
 parameters
 )
-            
+        
 and
 filter_out_cron
 (
 t
 parameters
 )
-            
+        
 and
 filter_for_target_project
 (
 t
 )
-            
+        
 and
 filter_out_android_on_esr
 (
 t
 )
+    
 ]
 _target_task
 (
-'
+"
 codereview
-'
+"
 )
 def
 target_tasks_codereview
@@ -8515,11 +8580,11 @@ task
 kind
 in
 [
-'
+"
 code
 -
 review
-'
+"
 ]
 :
             
@@ -8537,11 +8602,11 @@ attributes
 .
 get
 (
-'
+"
 code
 -
 review
-'
+"
 )
 is
 True
@@ -8576,9 +8641,9 @@ t
 ]
 _target_task
 (
-'
+"
 nothing
-'
+"
 )
 def
 target_tasks_nothing
@@ -8606,9 +8671,9 @@ return
 ]
 _target_task
 (
-'
+"
 raptor_tp6m
-'
+"
 )
 def
 target_tasks_raptor_tp6m
@@ -8658,9 +8723,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 attributes
@@ -8672,9 +8737,9 @@ attributes
 if
 platform
 and
-'
+"
 android
-'
+"
 not
 in
 platform
@@ -8688,15 +8753,15 @@ attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 !
 =
-'
+"
 raptor
-'
+"
 :
             
 return
@@ -8708,22 +8773,22 @@ attributes
 .
 get
 (
-'
+"
 raptor_try_name
-'
+"
 )
         
 if
-'
+"
 -
 cold
-'
+"
 in
 try_name
 and
-'
+"
 shippable
-'
+"
 in
 platform
 :
@@ -8736,34 +8801,37 @@ smoke
 tests
             
 if
-'
+(
+                
+"
 browsertime
-'
+"
 in
 try_name
+                
 and
-\
-               
-'
+"
 amazon
-'
+"
 in
 try_name
+                
 and
-'
+"
 search
-'
+"
 not
 in
 try_name
+                
 and
-\
-               
-'
+"
 fenix
-'
+"
 in
 try_name
+            
+)
 :
                 
 return
@@ -8792,13 +8860,14 @@ t
 ]
 _target_task
 (
-'
+"
 raptor_tp6_windows10_64_ref_hw_2017
-'
+"
 )
 def
 target_tasks_raptor_tp6_windows10_64_ref_hw_2017
 (
+    
 full_task_graph
 parameters
 graph_config
@@ -8839,9 +8908,9 @@ attributes
 .
 get
 (
-'
+"
 test_platform
-'
+"
 )
         
 attributes
@@ -8855,22 +8924,22 @@ attributes
 .
 get
 (
-'
+"
 unittest_suite
-'
+"
 )
 !
 =
-'
+"
 raptor
-'
+"
 :
             
 return
 False
         
 if
-'
+"
 windows10
 -
 64
@@ -8882,7 +8951,7 @@ hw
 2017
 /
 opt
-'
+"
 not
 in
 platform
@@ -8897,33 +8966,33 @@ attributes
 .
 get
 (
-'
+"
 raptor_try_name
-'
+"
 )
         
 if
-'
+"
 raptor
-'
+"
 in
 try_name
 :
             
 if
-'
+"
 -
 tp6
-'
+"
 in
 try_name
 :
                 
 if
-'
+"
 -
 cold
-'
+"
 in
 try_name
 :
@@ -8960,9 +9029,9 @@ t
 ]
 _target_task
 (
-'
+"
 condprof
-'
+"
 )
 def
 target_tasks_condprof
@@ -9019,9 +9088,9 @@ yield
 name
 _target_task
 (
-'
+"
 system_symbols
-'
+"
 )
 def
 target_tasks_system_symbols
@@ -9089,9 +9158,9 @@ yield
 name
 _target_task
 (
-'
+"
 perftest
-'
+"
 )
 def
 target_tasks_perftest
@@ -9153,9 +9222,9 @@ attributes
 .
 get
 (
-'
+"
 cron
-'
+"
 False
 )
 :
@@ -9164,13 +9233,13 @@ yield
 name
 _target_task
 (
-'
+"
 perftest
 -
 on
 -
 autoland
-'
+"
 )
 def
 target_tasks_perftest_autoland
@@ -9232,16 +9301,15 @@ attributes
 .
 get
 (
-'
+"
 cron
-'
+"
 False
 )
 and
-\
-                
 any
 (
+            
 test_name
 in
 name
@@ -9256,6 +9324,7 @@ view
 main
 "
 ]
+        
 )
 :
             

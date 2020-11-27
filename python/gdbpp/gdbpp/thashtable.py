@@ -103,9 +103,9 @@ desired_tag_prefix
 )
 :
     
-'
-'
-'
+"
+"
+"
 Given
 a
 value
@@ -140,9 +140,9 @@ type
 )
 .
     
-'
-'
-'
+"
+"
+"
     
 #
 Base
@@ -421,87 +421,87 @@ lines
 .
 GeckoPrettyPrinter
 (
-'
+"
 nsClassHashtable
-'
-'
+"
+"
 ^
 nsClassHashtable
 <
 .
 *
 >
-'
+"
 )
 GeckoPrettyPrinter
 (
-'
+"
 nsDataHashtable
-'
-'
+"
+"
 ^
 nsDataHashtable
 <
 .
 *
 >
-'
+"
 )
 GeckoPrettyPrinter
 (
-'
+"
 nsInterfaceHashtable
-'
-'
+"
+"
 ^
 nsInterfaceHashtable
 <
 .
 *
 >
-'
+"
 )
 GeckoPrettyPrinter
 (
-'
+"
 nsRefPtrHashtable
-'
-'
+"
+"
 ^
 nsRefPtrHashtable
 <
 .
 *
 >
-'
+"
 )
 GeckoPrettyPrinter
 (
-'
+"
 nsBaseHashtable
-'
-'
+"
+"
 ^
 nsBaseHashtable
 <
 .
 *
 >
-'
+"
 )
 GeckoPrettyPrinter
 (
-'
+"
 nsTHashtable
-'
-'
+"
+"
 ^
 nsTHashtable
 <
 .
 *
 >
-'
+"
 )
 class
 thashtable_printer
@@ -531,10 +531,10 @@ value
 walk_template_to_given_base
 (
 outer_value
-'
+"
 nsTHashtable
 <
-'
+"
 )
         
 self
@@ -671,10 +671,10 @@ tag
 .
 startswith
 (
-'
+"
 nsBaseHashtableET
 <
-'
+"
 )
         
 #
@@ -908,18 +908,18 @@ f
 name
 =
 =
-'
+"
 mKeyHash
-'
+"
 or
 f
 .
 name
 =
 =
-'
+"
 mData
-'
+"
 :
                 
 continue
@@ -963,9 +963,9 @@ self
 .
 value
 [
-'
+"
 mTable
-'
+"
 ]
         
 #
@@ -1000,9 +1000,9 @@ entryCount
 =
 table
 [
-'
+"
 mEntryCount
-'
+"
 ]
         
 if
@@ -1062,12 +1062,12 @@ gdb
 .
 lookup_type
 (
-'
+"
 mozilla
 :
 :
 HashNumber
-'
+"
 )
         
 hashBits
@@ -1088,9 +1088,9 @@ hashBits
 -
 table
 [
-'
+"
 mHashShift
-'
+"
 ]
 )
         
@@ -1126,14 +1126,14 @@ store
 =
 table
 [
-'
+"
 mEntryStore
-'
+"
 ]
 [
-'
+"
 mEntryStore
-'
+"
 ]
         
 key_field_name
@@ -1275,10 +1275,10 @@ dereference
             
 yield
 (
-'
+"
 %
 d
-'
+"
 %
 i
 entry
@@ -1295,17 +1295,17 @@ is_table
                 
 yield
 (
-'
+"
 %
 d
-'
+"
 %
 i
 entry
 [
-'
+"
 mData
-'
+"
 ]
 )
             
@@ -1378,14 +1378,14 @@ is_table
 :
             
 return
-'
+"
 map
-'
+"
         
 else
 :
             
 return
-'
+"
 array
-'
+"

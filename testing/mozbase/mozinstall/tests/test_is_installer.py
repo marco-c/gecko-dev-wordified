@@ -20,9 +20,10 @@ skipif
 mozinfo
 .
 isWin
+    
 reason
 =
-'
+"
 Bug
 1157352
 -
@@ -39,7 +40,7 @@ mozinstall
 and
 higher
 .
-'
+"
 )
 def
 test_is_installer
@@ -78,11 +79,11 @@ is_installer
 (
 get_installer
 (
-'
+"
 tar
 .
 bz2
-'
+"
 )
 )
     
@@ -104,9 +105,9 @@ is_installer
 (
 get_installer
 (
-'
+"
 zip
-'
+"
 )
 )
         
@@ -122,9 +123,9 @@ is_installer
 (
 get_installer
 (
-'
+"
 exe
-'
+"
 )
 )
         
@@ -155,6 +156,8 @@ noqa
             
 stub_exe
 =
+(
+                
 request
 .
 node
@@ -163,21 +166,23 @@ fspath
 .
 dirpath
 (
-'
+"
 build_stub
-'
+"
 )
 .
 join
 (
-'
+"
 firefox
 .
 exe
-'
+"
 )
 .
 strpath
+            
+)
             
 assert
 not
@@ -207,18 +212,18 @@ is_installer
 (
 get_installer
 (
-'
+"
 dmg
-'
+"
 )
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

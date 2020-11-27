@@ -259,6 +259,7 @@ brandShortName
 :
 TERM_REFERENCE
 (
+                                                            
 "
 brand
 -
@@ -266,6 +267,7 @@ short
 -
 name
 "
+                                                        
 )
                                                     
 }
@@ -329,6 +331,7 @@ brandShortName
 :
 TERM_REFERENCE
 (
+                                                            
 "
 brand
 -
@@ -336,6 +339,7 @@ short
 -
 name
 "
+                                                        
 )
                                                     
 }

@@ -31,9 +31,9 @@ TestCase
 __init__
 (
 self
-'
+"
 test
-'
+"
 )
         
 self
@@ -100,9 +100,9 @@ msg
 :
         
 return
-'
-'
-'
+"
+"
+"
 #
 #
 #
@@ -122,13 +122,14 @@ stderr
 :
 %
 s
-'
-'
-'
+"
+"
+"
 %
 (
-'
-'
+            
+"
+"
 .
 join
 (
@@ -138,12 +139,15 @@ compile
 .
 argv
 )
+            
 msg
+            
 self
 .
 compile
 .
 stderr
+        
 )
     
 def
@@ -154,9 +158,9 @@ self
 :
         
 return
-'
-'
-'
+"
+"
+"
 #
 #
 #
@@ -171,13 +175,14 @@ stderr
 :
 %
 s
-'
-'
-'
+"
+"
+"
 %
 (
-'
-'
+            
+"
+"
 .
 join
 (
@@ -187,11 +192,13 @@ compile
 .
 argv
 )
+            
 self
 .
 compile
 .
 stderr
+        
 )
     
 def
@@ -230,9 +237,9 @@ IPDLTestCase
 )
 :
     
-'
-'
-'
+"
+"
+"
 An
 invocation
 of
@@ -244,6 +251,7 @@ a
 valid
 specification
 .
+    
 The
 IPDL
 compiler
@@ -254,9 +262,9 @@ errors
 or
 exceptions
 .
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -307,9 +315,9 @@ IPDLTestCase
 )
 :
     
-'
-'
-'
+"
+"
+"
 An
 invocation
 of
@@ -323,6 +331,7 @@ invalid
 *
 specification
 .
+    
 The
 IPDL
 compiler
@@ -335,9 +344,9 @@ but
 not
 exceptions
 .
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -373,9 +382,9 @@ f
 open
 (
 filename
-'
+"
 r
-'
+"
 )
         
 self
@@ -437,16 +446,19 @@ self
 .
 assertNotEqual
 (
+            
 self
 .
 expectedErrorMessage
+            
 [
 ]
-                            
+            
 self
 .
 mkCustomMsg
 (
+                
 "
 Error
 test
@@ -455,8 +467,8 @@ contain
 at
 least
 "
+                
 +
-                                             
 "
 one
 line
@@ -467,8 +479,8 @@ with
 error
 :
 "
+                
 +
-                                             
 "
 that
 indicates
@@ -477,7 +489,9 @@ expected
 failure
 .
 "
+            
 )
+        
 )
         
 for
@@ -492,6 +506,7 @@ self
 .
 assertTrue
 (
+                
 self
 .
 compile
@@ -500,7 +515,7 @@ error
 (
 e
 )
-                            
+                
 self
 .
 mkCustomMsg
@@ -514,21 +529,21 @@ error
 "
 '
 +
-                                             
 e
 +
 '
 "
 '
 )
+            
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 import
@@ -640,10 +655,10 @@ files
 errorIncludes
 =
 [
-'
+"
 -
 I
-'
+"
 os
 .
 path
@@ -651,15 +666,14 @@ path
 join
 (
 errordir
-'
+"
 extra
-'
+"
 )
-                             
-'
+"
 -
 I
-'
+"
 errordir
 ]
             
@@ -672,7 +686,6 @@ ErrorTestCase
 ipdlargv
 +
 errorIncludes
-                                             
 arg
 )
 )
@@ -682,9 +695,9 @@ oktests
 :
             
 if
-'
+"
 ERRORTESTS
-'
+"
 =
 =
 arg
@@ -705,13 +718,12 @@ OkTestCase
 ipdlargv
 +
 [
-'
+"
 -
 I
-'
+"
 okdir
 ]
-                                       
 arg
 )
 )
@@ -720,9 +732,9 @@ else
 :
             
 if
-'
+"
 OKTESTS
-'
+"
 =
 =
 arg
@@ -751,7 +763,6 @@ TextTestRunner
 .
 run
 (
-        
 unittest
 .
 TestSuite

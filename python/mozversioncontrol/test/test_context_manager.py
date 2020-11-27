@@ -77,31 +77,31 @@ repo
 vcs
 =
 =
-'
+"
 git
-'
+"
     
 cmd
 =
 [
-'
+"
 show
-'
-'
+"
+"
 -
 -
 no
 -
 patch
-'
+"
 ]
 if
 is_git
 else
 [
-'
+"
 tip
-'
+"
 ]
     
 vcs
@@ -188,9 +188,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

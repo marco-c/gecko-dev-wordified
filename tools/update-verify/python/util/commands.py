@@ -144,9 +144,9 @@ copy
 )
     
 if
-'
+"
 cwd
-'
+"
 not
 in
 kwargs
@@ -154,9 +154,9 @@ kwargs
         
 kwargs
 [
-'
+"
 cwd
-'
+"
 ]
 =
 os
@@ -335,27 +335,27 @@ the
 output
     
 if
-'
+"
 env
-'
+"
 in
 kwargs
 :
         
 kwargs
 [
-'
+"
 env
-'
+"
 ]
 =
 merge_env
 (
 kwargs
 [
-'
+"
 env
-'
+"
 ]
 )
     
@@ -403,11 +403,11 @@ log
 .
 info
 (
-'
+"
 command
 :
 ERROR
-'
+"
 exc_info
 =
 True

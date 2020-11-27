@@ -123,9 +123,9 @@ get_mozharness_status
 partial
 (
 get_mozharness_status
-'
+"
 reftest
-'
+"
 )
 def
 test_output_pass
@@ -139,13 +139,13 @@ lines
 =
 runtests
 (
-'
+"
 reftest
 -
 pass
 .
 list
-'
+"
 )
     
 assert
@@ -182,9 +182,9 @@ test_status
 =
 filter_action
 (
-'
+"
 test_status
-'
+"
 lines
 )
     
@@ -202,15 +202,15 @@ all
 (
 t
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 PASS
-'
+"
 for
 t
 in
@@ -221,9 +221,9 @@ test_end
 =
 filter_action
 (
-'
+"
 test_end
-'
+"
 lines
 )
     
@@ -241,15 +241,15 @@ all
 (
 t
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 OK
-'
+"
 for
 t
 in
@@ -268,9 +268,9 @@ pytest
 .
 importorskip
 (
-'
+"
 output
-'
+"
 )
 .
 ReftestFormatter
@@ -282,13 +282,13 @@ lines
 =
 runtests
 (
-'
+"
 reftest
 -
 fail
 .
 list
-'
+"
 )
     
 assert
@@ -318,6 +318,7 @@ formatter
 buf
 =
 buf
+    
 )
     
 assert
@@ -336,9 +337,9 @@ test_status
 =
 filter_action
 (
-'
+"
 test_status
-'
+"
 lines
 )
     
@@ -356,15 +357,15 @@ all
 (
 t
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 FAIL
-'
+"
 for
 t
 in
@@ -374,15 +375,15 @@ test_status
 assert
 all
 (
-'
+"
 reftest_screenshots
-'
+"
 in
 t
 [
-'
+"
 extra
-'
+"
 ]
 for
 t
@@ -394,9 +395,9 @@ test_end
 =
 filter_action
 (
-'
+"
 test_end
-'
+"
 lines
 )
     
@@ -414,15 +415,15 @@ all
 (
 t
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 OK
-'
+"
 for
 t
 in
@@ -444,20 +445,20 @@ getvalue
 )
     
 assert
-'
+"
 REFTEST
 IMAGE
 1
-'
+"
 in
 formatted
     
 assert
-'
+"
 REFTEST
 IMAGE
 2
-'
+"
 in
 formatted
 pytest
@@ -483,13 +484,14 @@ lines
 =
 runtests
 (
-'
+        
+"
 reftest
 -
 crash
 .
 list
-'
+"
 environment
 =
 [
@@ -499,6 +501,7 @@ MOZ_CRASHREPORTER_SHUTDOWN
 1
 "
 ]
+    
 )
     
 assert
@@ -533,9 +536,9 @@ crash
 =
 filter_action
 (
-'
+"
 crash
-'
+"
 lines
 )
     
@@ -554,15 +557,15 @@ crash
 0
 ]
 [
-'
+"
 action
-'
+"
 ]
 =
 =
-'
+"
 crash
-'
+"
     
 assert
 crash
@@ -570,9 +573,9 @@ crash
 0
 ]
 [
-'
+"
 signature
-'
+"
 ]
     
 assert
@@ -581,18 +584,18 @@ crash
 0
 ]
 [
-'
+"
 minidump_path
-'
+"
 ]
     
 lines
 =
 filter_action
 (
-'
+"
 test_end
-'
+"
 lines
 )
     
@@ -627,13 +630,14 @@ lines
 =
 runtests
 (
-'
+        
+"
 reftest
 -
 crash
 .
 list
-'
+"
 environment
 =
 [
@@ -643,6 +647,7 @@ MOZ_CRASHREPORTER_SHUTDOWN
 1
 "
 ]
+    
 )
     
 assert
@@ -677,9 +682,9 @@ crash
 =
 filter_action
 (
-'
+"
 crash
-'
+"
 lines
 )
     
@@ -696,26 +701,26 @@ process_output
 =
 filter_action
 (
-'
+"
 process_output
-'
+"
 lines
 )
     
 assert
 any
 (
-'
+"
 ERROR
 :
 AddressSanitizer
-'
+"
 in
 l
 [
-'
+"
 data
-'
+"
 ]
 for
 l
@@ -745,13 +750,13 @@ lines
 =
 runtests
 (
-'
+"
 reftest
 -
 assert
 .
 list
-'
+"
 )
     
 assert
@@ -786,9 +791,9 @@ test_status
 =
 filter_action
 (
-'
+"
 test_status
-'
+"
 lines
 )
     
@@ -807,23 +812,23 @@ test_status
 0
 ]
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 PASS
-'
+"
     
 test_end
 =
 filter_action
 (
-'
+"
 test_end
-'
+"
 lines
 )
     
@@ -842,23 +847,23 @@ test_end
 0
 ]
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 OK
-'
+"
     
 assertions
 =
 filter_action
 (
-'
+"
 assertion_count
-'
+"
 lines
 )
     
@@ -877,9 +882,9 @@ assertions
 0
 ]
 [
-'
+"
 count
-'
+"
 ]
 =
 =
@@ -946,6 +951,7 @@ kwargs
 return
 old_process_leak_log
 (
+            
 os
 .
 path
@@ -953,14 +959,14 @@ path
 join
 (
 here
-'
+"
 files
-'
-'
+"
+"
 leaks
 .
 log
-'
+"
 )
 *
 args
@@ -971,17 +977,18 @@ args
 *
 *
 kwargs
+        
 )
     
 monkeypatch
 .
 setattr
 (
-'
+"
 mozleak
 .
 process_leak_log
-'
+"
 process_leak_log
 )
     
@@ -990,13 +997,13 @@ lines
 =
 runtests
 (
-'
+"
 reftest
 -
 pass
 .
 list
-'
+"
 )
     
 assert
@@ -1031,9 +1038,9 @@ leaks
 =
 filter_action
 (
-'
+"
 mozleak_total
-'
+"
 lines
 )
     
@@ -1052,9 +1059,9 @@ leaks
 0
 ]
 [
-'
+"
 process
-'
+"
 ]
 =
 =
@@ -1068,9 +1075,9 @@ leaks
 0
 ]
 [
-'
+"
 bytes
-'
+"
 ]
 =
 =
@@ -1079,9 +1086,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

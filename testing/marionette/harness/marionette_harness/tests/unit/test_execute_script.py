@@ -95,36 +95,37 @@ globals
 =
 set
 (
+    
 [
-              
+        
 "
 atob
 "
-              
+        
 "
 Audio
 "
-              
+        
 "
 btoa
 "
-              
+        
 "
 document
 "
-              
+        
 "
 navigator
 "
-              
+        
 "
 URL
 "
-              
+        
 "
 window
 "
-              
+    
 ]
 )
 class
@@ -187,7 +188,6 @@ timeout
 .
 until
 (
-            
 lambda
 _
 :
@@ -253,13 +253,14 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
+                
 "
 return
 typeof
@@ -279,6 +280,7 @@ property
 sandbox
 =
 sandbox
+            
 )
             
 "
@@ -293,6 +295,7 @@ format
 (
 property
 )
+        
 )
     
 def
@@ -422,7 +425,6 @@ self
 .
 assertEqual
 (
-            
 [
 1
 2
@@ -474,6 +476,7 @@ return
 ]
 "
 )
+        
 )
         
 self
@@ -499,6 +502,7 @@ false
 ]
 "
 )
+        
 )
         
 self
@@ -532,6 +536,7 @@ bar
 ]
 "
 )
+        
 )
         
 self
@@ -549,6 +554,7 @@ True
 foo
 "
 ]
+            
 self
 .
 marionette
@@ -569,13 +575,13 @@ foo
 ]
 "
 )
+        
 )
         
 self
 .
 assertEqual
 (
-            
 [
 1
 [
@@ -611,7 +617,6 @@ self
 .
 assertEqual
 (
-            
 {
 "
 foo
@@ -667,6 +672,7 @@ foo
 }
 "
 )
+        
 )
         
 self
@@ -696,6 +702,7 @@ true
 }
 "
 )
+        
 )
         
 self
@@ -729,6 +736,7 @@ bar
 }
 "
 )
+        
 )
         
 self
@@ -764,6 +772,7 @@ foo
 }
 "
 )
+        
 )
         
 self
@@ -810,6 +819,7 @@ bar
 }
 "
 )
+        
 )
     
 def
@@ -846,13 +856,14 @@ self
 .
 assertIsNone
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
+                
 "
 return
 arguments
@@ -860,32 +871,33 @@ arguments
 0
 ]
 "
-            
 script_args
 =
 (
 None
 )
-            
 sandbox
 =
 "
 default
 "
+            
 )
+        
 )
         
 self
 .
 assertIsNone
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
+                
 "
 return
 arguments
@@ -893,32 +905,33 @@ arguments
 0
 ]
 "
-            
 script_args
 =
 (
 None
 )
-            
 sandbox
 =
 "
 system
 "
+            
 )
+        
 )
         
 self
 .
 assertIsNone
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
+                
 "
 return
 arguments
@@ -926,17 +939,17 @@ arguments
 0
 ]
 "
-            
 script_args
 =
 (
 None
 )
-            
 sandbox
 =
 None
+            
 )
+        
 )
     
 def
@@ -950,7 +963,6 @@ self
 .
 assertEqual
 (
-            
 1
 self
 .
@@ -998,6 +1010,7 @@ arguments
 5
 )
 )
+        
 )
     
 def
@@ -1064,6 +1077,7 @@ foo
 "
 )
 )
+        
 )
     
 def
@@ -1102,6 +1116,7 @@ arguments
 ]
 )
 )
+        
 )
     
 def
@@ -1115,6 +1130,7 @@ self
 .
 assertEqual
 (
+            
 {
 "
 foo
@@ -1122,13 +1138,13 @@ foo
 :
 1
 }
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
 "
 return
 arguments
@@ -1146,6 +1162,7 @@ foo
 }
 )
 )
+        
 )
     
 def
@@ -1326,10 +1343,10 @@ self
 .
 assertRaises
 (
+            
 errors
 .
 JavascriptException
-                          
 self
 .
 marionette
@@ -1339,6 +1356,7 @@ execute_script
 return
 foo
 "
+        
 )
     
 def
@@ -1389,6 +1407,7 @@ self
 .
 assertIn
 (
+            
 os
 .
 path
@@ -1414,6 +1433,7 @@ cm
 exception
 .
 stacktrace
+        
 )
         
 self
@@ -1488,6 +1508,7 @@ service
 '
 ]
 "
+                
 )
     
 def
@@ -1530,7 +1551,6 @@ marionette
 .
 execute_script
 (
-            
 "
 return
 document
@@ -1592,6 +1612,7 @@ marionette
 .
 execute_script
 (
+            
 "
 "
 "
@@ -1622,6 +1643,7 @@ els
 "
 "
 "
+        
 )
         
 self
@@ -1698,7 +1720,6 @@ marionette
 .
 execute_script
 (
-            
 "
 return
 document
@@ -1761,13 +1782,13 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
 "
 return
 this
@@ -1779,10 +1800,12 @@ new_sandbox
 =
 False
 )
+            
 [
 23
 42
 ]
+        
 )
     
 def
@@ -1819,19 +1842,20 @@ arguments
 23
 42
 ]
+        
 )
         
 self
 .
 assertEqual
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
 "
 return
 this
@@ -1842,10 +1866,12 @@ new_sandbox
 =
 False
 )
+            
 [
 23
 42
 ]
+        
 )
     
 def
@@ -1883,6 +1909,7 @@ marionette
 .
 execute_script
 (
+                
 "
 window
 .
@@ -1895,6 +1922,7 @@ foo
 sandbox
 =
 None
+            
 )
     
 def
@@ -1944,19 +1972,21 @@ sandbox
 "
 default
 "
+            
 )
             
 self
 .
 assertEqual
 (
+                
 self
 .
 marionette
 .
 execute_script
 (
-                
+                    
 "
 return
 window
@@ -1970,8 +2000,11 @@ sandbox
 "
 default
 "
+                
 )
+                
 4
+            
 )
         
 finally
@@ -1997,6 +2030,7 @@ sandbox
 "
 default
 "
+            
 )
     
 def
@@ -2043,19 +2077,21 @@ sandbox
 "
 system
 "
+        
 )
         
 self
 .
 assertEqual
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
+                
 "
 return
 window
@@ -2069,8 +2105,11 @@ sandbox
 "
 system
 "
+            
 )
+            
 4
+        
 )
     
 def
@@ -2120,12 +2159,12 @@ yo
 '
 }
 "
-            
 sandbox
 =
 "
 system
 "
+        
 )
         
 self
@@ -2150,6 +2189,7 @@ sandbox
 "
 system
 "
+        
 )
         
 self
@@ -2182,6 +2222,7 @@ sandbox
 "
 system
 "
+        
 )
         
 typ
@@ -2207,6 +2248,7 @@ sandbox
 "
 system
 "
+        
 )
         
 self
@@ -2245,6 +2287,7 @@ sandbox
 "
 system
 "
+        
 )
         
 self
@@ -2296,6 +2339,7 @@ key
 "
 value
 "
+            
 )
         
 send
@@ -2380,8 +2424,10 @@ self
 .
 assertTrue
 (
+            
 send
 (
+                
 "
 "
 "
@@ -2414,7 +2460,9 @@ undefined
 "
 "
 "
+            
 )
+        
 )
         
 self
@@ -2449,13 +2497,13 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
 "
 return
 typeof
@@ -2470,6 +2518,7 @@ undefined
 '
 "
 )
+        
 )
     
 def
@@ -2526,8 +2575,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -2565,7 +2616,9 @@ script
 "
 "
 "
+            
 )
+        
 )
         
 #
@@ -2592,14 +2645,15 @@ self
 .
 assertEqual
 (
+            
 0
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
 "
 return
 window
@@ -2616,6 +2670,7 @@ setTimeout
 already
 fired
 "
+        
 )
         
 #
@@ -2656,6 +2711,7 @@ call
 to
 execute_script
 "
+        
 )
     
 def
@@ -2778,8 +2834,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -2813,7 +2871,9 @@ script
 "
 "
 "
+            
 )
+        
 )
         
 self
@@ -2844,8 +2904,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -2879,7 +2941,9 @@ script
 "
 "
 "
+            
 )
+        
 )
         
 self
@@ -2938,6 +3002,7 @@ marionette
 .
 execute_script
 (
+            
 "
 "
 "
@@ -2963,9 +3028,11 @@ foo
 "
 "
 "
+            
 sandbox
 =
 None
+        
 )
         
 self
@@ -2993,6 +3060,7 @@ marionette
 .
 execute_script
 (
+            
 "
 "
 "
@@ -3018,9 +3086,11 @@ documentElement
 "
 "
 "
+            
 sandbox
 =
 None
+        
 )
         
 self
@@ -3201,6 +3271,7 @@ service
 '
 ]
 "
+        
 )
     
 def
@@ -3279,6 +3350,7 @@ input
 '
 )
 "
+            
 )
             
 self
@@ -3334,6 +3406,7 @@ marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -3368,9 +3441,11 @@ cb
 "
 "
 "
+                
 script_timeout
 =
 100
+            
 )
     
 def

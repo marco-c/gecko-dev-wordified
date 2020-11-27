@@ -61,9 +61,9 @@ NODEJS_PATH
 =
 None
 if
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 in
 os
 .
@@ -96,17 +96,17 @@ exe
 )
 XPCSHELL_NAME
 =
-'
+"
 xpcshell
 .
 exe
-'
+"
 EXE_SUFFIX
 =
-'
+"
 .
 exe
-'
+"
 DISABLE_SCREEN_SAVER
 =
 False
@@ -117,52 +117,52 @@ DESKTOP_VISUALFX_THEME
 =
 {
     
-'
+"
 Let
 Windows
 choose
-'
+"
 :
 0
     
-'
+"
 Best
 appearance
-'
+"
 :
 1
     
-'
+"
 Best
 performance
-'
+"
 :
 2
     
-'
+"
 Custom
-'
+"
 :
 3
 }
 .
 get
 (
-'
+"
 Best
 appearance
-'
+"
 )
 TASKBAR_AUTOHIDE_REG_PATH
 =
 {
     
-'
+"
 Windows
 7
-'
+"
 :
-'
+"
 HKCU
 :
 SOFTWARE
@@ -176,14 +176,14 @@ CurrentVersion
 Explorer
 \
 StuckRects2
-'
+"
     
-'
+"
 Windows
 10
-'
+"
 :
-'
+"
 HKCU
 :
 SOFTWARE
@@ -197,17 +197,17 @@ CurrentVersion
 Explorer
 \
 StuckRects3
-'
+"
 }
 .
 get
 (
-'
+"
 {
 }
 {
 }
-'
+"
 .
 format
 (
@@ -238,17 +238,17 @@ exes
 :
 {
         
-'
+"
 python
-'
+"
 :
 sys
 .
 executable
         
-'
+"
 hg
-'
+"
 :
 os
 .
@@ -262,18 +262,18 @@ environ
 .
 get
 (
-'
+"
 PROGRAMFILES
-'
-'
-'
+"
+"
+"
 )
-'
+"
 Mercurial
-'
-'
+"
+"
 hg
-'
+"
 )
     
 }
@@ -305,10 +305,10 @@ virtualenv_modules
 "
 :
 [
-'
+"
 pypiwin32
-'
-'
+"
+"
 six
 =
 =
@@ -317,8 +317,8 @@ six
 13
 .
 0
-'
-'
+"
+"
 vcversioner
 =
 =
@@ -329,16 +329,16 @@ vcversioner
 0
 .
 0
-'
+"
 ]
     
 "
 virtualenv_path
 "
 :
-'
+"
 venv
-'
+"
     
 "
 exe_suffix
@@ -1197,7 +1197,6 @@ suites
 all_mochitest_suites
 "
 :
-    
 {
         
 "
@@ -1358,6 +1357,7 @@ screenshots
 "
 :
 [
+            
 "
 -
 -
@@ -1365,6 +1365,7 @@ flavor
 =
 browser
 "
+            
 "
 -
 -
@@ -1372,6 +1373,7 @@ subsuite
 =
 screenshots
 "
+        
 ]
         
 "
@@ -1499,6 +1501,7 @@ chrome
 "
 :
 [
+            
 "
 -
 -
@@ -1506,6 +1509,7 @@ flavor
 =
 browser
 "
+            
 "
 -
 -
@@ -1513,6 +1517,7 @@ subsuite
 =
 devtools
 "
+            
 "
 -
 -
@@ -1522,6 +1527,7 @@ by
 -
 runtime
 "
+        
 ]
         
 "
@@ -1589,9 +1595,9 @@ crashtest
 :
 {
             
-'
+"
 options
-'
+"
 :
 [
 "
@@ -1601,7 +1607,6 @@ suite
 =
 crashtest
 "
-                        
 "
 -
 -
@@ -1615,9 +1620,9 @@ tests
 "
 ]
             
-'
+"
 tests
-'
+"
 :
 [
 "
@@ -1645,11 +1650,12 @@ jsreftest
 :
 {
             
-'
+"
 options
-'
+"
 :
 [
+                
 "
 -
 -
@@ -1675,7 +1681,7 @@ user
 .
 js
 "
-                       
+                
 "
 -
 -
@@ -1683,7 +1689,7 @@ suite
 =
 jstestbrowser
 "
-                       
+                
 "
 -
 -
@@ -1695,11 +1701,12 @@ jsreftest
 /
 tests
 "
+            
 ]
             
-'
+"
 tests
-'
+"
 :
 [
 "
@@ -1729,9 +1736,9 @@ reftest
 :
 {
             
-'
+"
 options
-'
+"
 :
 [
 "
@@ -1741,7 +1748,6 @@ suite
 =
 reftest
 "
-                        
 "
 -
 -
@@ -1755,9 +1761,9 @@ tests
 "
 ]
             
-'
+"
 tests
-'
+"
 :
 [
 "
@@ -1787,11 +1793,12 @@ gpu
 :
 {
             
-'
+"
 options
-'
+"
 :
 [
+                
 "
 -
 -
@@ -1799,7 +1806,7 @@ suite
 =
 reftest
 "
-                        
+                
 "
 -
 -
@@ -1817,7 +1824,7 @@ enabled
 =
 true
 "
-                        
+                
 "
 -
 -
@@ -1829,11 +1836,12 @@ reftest
 /
 tests
 "
+            
 ]
             
-'
+"
 tests
-'
+"
 :
 [
 "
@@ -1870,6 +1878,7 @@ options
 "
 :
 [
+                
 "
 -
 -
@@ -1877,7 +1886,7 @@ suite
 =
 reftest
 "
-                        
+                
 "
 -
 -
@@ -1891,7 +1900,7 @@ disabled
 =
 true
 "
-                        
+                
 "
 -
 -
@@ -1903,6 +1912,7 @@ reftest
 /
 tests
 "
+            
 ]
             
 "
@@ -1943,11 +1953,12 @@ xpcshell
 :
 {
             
-'
+"
 options
-'
+"
 :
 [
+                
 "
 -
 -
@@ -1962,7 +1973,7 @@ s
 "
 +
 XPCSHELL_NAME
-                        
+                
 "
 -
 -
@@ -1978,11 +1989,12 @@ xpcshell
 .
 ini
 "
+            
 ]
             
-'
+"
 tests
-'
+"
 :
 [
 ]
@@ -1996,19 +2008,17 @@ all_cppunittest_suites
 "
 :
 {
-        
 "
 cppunittest
 "
 :
 [
-'
+"
 tests
 /
 cppunittest
-'
+"
 ]
-    
 }
     
 "
@@ -2016,14 +2026,12 @@ all_gtest_suites
 "
 :
 {
-        
 "
 gtest
 "
 :
 [
 ]
-    
 }
     
 "
@@ -2064,58 +2072,58 @@ preflight_run_cmd_suites
         
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 disable_screen_saver
-'
+"
             
-'
+"
 cmd
-'
+"
 :
 [
-'
+"
 xset
-'
-'
+"
+"
 s
-'
-'
+"
+"
 off
-'
-'
+"
+"
 s
-'
-'
+"
+"
 reset
-'
+"
 ]
             
-'
+"
 architectures
-'
+"
 :
 [
-'
+"
 32bit
-'
-'
+"
+"
 64bit
-'
+"
 ]
             
-'
+"
 halt_on_failure
-'
+"
 :
 False
             
-'
+"
 enabled
-'
+"
 :
 DISABLE_SCREEN_SAVER
         
@@ -2123,22 +2131,22 @@ DISABLE_SCREEN_SAVER
         
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 run
 mouse
 &
 screen
 adjustment
 script
-'
+"
             
-'
+"
 cmd
-'
+"
 :
 [
                 
@@ -2152,32 +2160,36 @@ path
 .
 join
 (
+                    
 os
 .
 getcwd
 (
 )
                     
-'
+"
 mozharness
-'
-'
+"
+                    
+"
 external_tools
-'
-'
+"
+                    
+"
 mouse_and_screen_resolution
 .
 py
-'
+"
+                
 )
                 
-'
+"
 -
 -
 configuration
 -
 file
-'
+"
                 
 os
 .
@@ -2185,51 +2197,55 @@ path
 .
 join
 (
+                    
 os
 .
 getcwd
 (
 )
                     
-'
+"
 mozharness
-'
-'
+"
+                    
+"
 external_tools
-'
-'
+"
+                    
+"
 machine
 -
 configuration
 .
 json
-'
+"
+                
 )
             
 ]
             
-'
+"
 architectures
-'
+"
 :
 [
-'
+"
 32bit
-'
-'
+"
+"
 64bit
-'
+"
 ]
             
-'
+"
 halt_on_failure
-'
+"
 :
 True
             
-'
+"
 enabled
-'
+"
 :
 ADJUST_MOUSE_AND_SCREEN
         
@@ -2237,40 +2253,41 @@ ADJUST_MOUSE_AND_SCREEN
         
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 disable
 windows
 security
 and
 maintenance
 notifications
-'
+"
             
-'
+"
 cmd
-'
+"
 :
 [
                 
-'
+"
 powershell
-'
-'
+"
+                
+"
 -
 command
-'
+"
                 
-'
+"
+\
 "
 &
 {
 p
 =
-\
 '
 HKCU
 :
@@ -2292,7 +2309,6 @@ Windows
 SystemToast
 .
 SecurityAndMaintenance
-\
 '
 ;
 if
@@ -2332,35 +2348,36 @@ Enabled
 Value
 0
 }
+\
 "
-'
+"
 #
 noqa
             
 ]
             
-'
+"
 architectures
-'
+"
 :
 [
-'
+"
 32bit
-'
-'
+"
+"
 64bit
-'
+"
 ]
             
-'
+"
 halt_on_failure
-'
+"
 :
 True
             
-'
+"
 enabled
-'
+"
 :
 (
 platform
@@ -2377,31 +2394,33 @@ release
         
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 set
 windows
 VisualFX
-'
+"
             
-'
+"
 cmd
-'
+"
 :
 [
                 
-'
+"
 powershell
-'
-'
+"
+                
+"
 -
 command
-'
+"
                 
-'
+"
+\
 "
 &
 {
@@ -2412,7 +2431,6 @@ Set
 ItemProperty
 -
 Path
-\
 '
 HKCU
 :
@@ -2427,7 +2445,6 @@ CurrentVersion
 Explorer
 \
 VisualEffects
-\
 '
 -
 Name
@@ -2438,38 +2455,41 @@ Value
 }
 }
 }
+\
 "
-'
+"
 .
 format
 (
+                    
 DESKTOP_VISUALFX_THEME
+                
 )
             
 ]
             
-'
+"
 architectures
-'
+"
 :
 [
-'
+"
 32bit
-'
-'
+"
+"
 64bit
-'
+"
 ]
             
-'
+"
 halt_on_failure
-'
+"
 :
 True
             
-'
+"
 enabled
-'
+"
 :
 True
         
@@ -2477,42 +2497,42 @@ True
         
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 hide
 windows
 taskbar
-'
+"
             
-'
+"
 cmd
-'
+"
 :
 [
                 
-'
+"
 powershell
-'
-'
+"
+                
+"
 -
 command
-'
+"
                 
-'
+"
+\
 "
 &
 {
 {
 p
 =
-\
 '
 {
 }
-\
 '
 ;
 v
@@ -2550,38 +2570,41 @@ Value
 v
 }
 }
+\
 "
-'
+"
 .
 format
 (
+                    
 TASKBAR_AUTOHIDE_REG_PATH
+                
 )
             
 ]
             
-'
+"
 architectures
-'
+"
 :
 [
-'
+"
 32bit
-'
-'
+"
+"
 64bit
-'
+"
 ]
             
-'
+"
 halt_on_failure
-'
+"
 :
 True
             
-'
+"
 enabled
-'
+"
 :
 True
         
@@ -2589,29 +2612,30 @@ True
         
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 restart
 windows
 explorer
-'
+"
             
-'
+"
 cmd
-'
+"
 :
 [
                 
-'
+"
 powershell
-'
-'
+"
+                
+"
 -
 command
-'
+"
                 
 '
 "
@@ -2630,28 +2654,28 @@ explorer
             
 ]
             
-'
+"
 architectures
-'
+"
 :
 [
-'
+"
 32bit
-'
-'
+"
+"
 64bit
-'
+"
 ]
             
-'
+"
 halt_on_failure
-'
+"
 :
 True
             
-'
+"
 enabled
-'
+"
 :
 True
         
@@ -2659,31 +2683,32 @@ True
         
 {
             
-'
+"
 name
-'
+"
 :
-'
+"
 prepare
 chrome
 profile
-'
+"
             
-'
+"
 cmd
-'
+"
 :
 [
                 
-'
+"
 powershell
-'
-'
+"
+                
+"
 -
 command
-'
+"
                 
-'
+"
 if
 (
 test
@@ -2730,32 +2755,32 @@ exe
 /
 T
 }
-'
+"
             
 ]
             
-'
+"
 architectures
-'
+"
 :
 [
-'
+"
 32bit
-'
-'
+"
+"
 64bit
-'
+"
 ]
             
-'
+"
 halt_on_failure
-'
+"
 :
 True
             
-'
+"
 enabled
-'
+"
 :
 True
         
@@ -2791,34 +2816,35 @@ unstructured_flavors
 "
 :
 {
+        
 "
 xpcshell
 "
 :
 [
 ]
-                             
+        
 "
 gtest
 "
 :
 [
 ]
-                             
+        
 "
 cppunittest
 "
 :
 [
 ]
-                             
+        
 "
 jittest
 "
 :
 [
 ]
-                             
+    
 }
     
 "

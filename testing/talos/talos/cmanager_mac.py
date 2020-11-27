@@ -102,7 +102,7 @@ returns
 the
 output
 line
-      
+    
 as
 a
 list
@@ -119,7 +119,7 @@ rss
 command
 =
 [
-'
+"
 ps
 -
 o
@@ -128,7 +128,7 @@ vsize
 rss
 -
 p
-'
+"
 +
 str
 (
@@ -145,19 +145,20 @@ subprocess
 .
 Popen
 (
+            
 command
 stdout
 =
 subprocess
 .
 PIPE
-                                  
 universal_newlines
 =
 True
 shell
 =
 True
+        
 )
         
 handle
@@ -372,10 +373,10 @@ with
 any
 number
 of
-       
+    
 counters
 .
-       
+    
 A
 counter
 can
@@ -390,7 +391,7 @@ of
 one
 pid
 and
-       
+    
 returns
 a
 piece
@@ -400,7 +401,7 @@ about
 that
 process
 .
-       
+    
 Some
 examples
 are
@@ -423,7 +424,6 @@ Bytes
 "
 :
 GetPrivateBytes
-                   
 "
 RSS
 "
@@ -446,7 +446,7 @@ counters
 "
 Args
 :
-             
+        
 counters
 :
 A
@@ -460,7 +460,7 @@ Any
 counters
 whose
 name
-             
+        
 does
 not
 match
@@ -552,6 +552,7 @@ registeredCounters
             
 print
 (
+                
 "
 Warning
 :
@@ -566,12 +567,13 @@ it
 is
 not
 "
-                  
+                
 "
 registered
 "
 %
 counterName
+            
 )
             
 return
@@ -603,6 +605,7 @@ e
             
 print
 (
+                
 "
 Error
 in
@@ -620,7 +623,7 @@ exception
 %
 s
 "
-                  
+                
 %
 (
 counterName
@@ -629,4 +632,5 @@ self
 pid
 e
 )
+            
 )

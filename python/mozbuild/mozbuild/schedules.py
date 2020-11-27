@@ -159,27 +159,27 @@ INCLUSIVE_COMPONENTS
 =
 [
     
-'
+"
 docs
-'
+"
     
-'
+"
 py
 -
 lint
-'
+"
     
-'
+"
 js
 -
 lint
-'
+"
     
-'
+"
 yaml
 -
 lint
-'
+"
     
 #
 inclusive
@@ -198,61 +198,61 @@ files
 have
 changed
     
-'
+"
 jittest
-'
+"
     
-'
+"
 test
 -
 verify
-'
+"
     
-'
+"
 test
 -
 verify
 -
 gpu
-'
+"
     
-'
+"
 test
 -
 verify
 -
 wpt
-'
+"
     
-'
+"
 test
 -
 coverage
-'
+"
     
-'
+"
 test
 -
 coverage
 -
 wpt
-'
+"
     
-'
+"
 jsreftest
-'
+"
     
-'
+"
 android
 -
 hw
 -
 gfx
-'
+"
     
-'
+"
 rusttests
-'
+"
 ]
 INCLUSIVE_COMPONENTS
 =
@@ -339,21 +339,21 @@ EXCLUSIVE_COMPONENTS
 os
 families
     
-'
+"
 android
-'
+"
     
-'
+"
 linux
-'
+"
     
-'
+"
 macosx
-'
+"
     
-'
+"
 windows
-'
+"
     
 #
 broad
@@ -361,116 +361,116 @@ test
 harness
 categories
     
-'
+"
 awsy
-'
+"
     
-'
+"
 condprofile
-'
+"
     
-'
+"
 cppunittest
-'
+"
     
-'
+"
 firefox
 -
 ui
-'
+"
     
-'
+"
 geckoview
 -
 junit
-'
+"
     
-'
+"
 gtest
-'
+"
     
-'
+"
 marionette
-'
+"
     
-'
+"
 mochitest
-'
+"
     
-'
+"
 raptor
-'
+"
     
-'
+"
 reftest
-'
+"
     
-'
+"
 talos
-'
+"
     
-'
+"
 telemetry
 -
 tests
 -
 client
-'
+"
     
-'
+"
 xpcshell
-'
+"
     
-'
+"
 xpcshell
 -
 coverage
-'
+"
     
-'
+"
 web
 -
 platform
 -
 tests
-'
+"
     
 #
 specific
 test
 suites
     
-'
+"
 crashtest
-'
+"
     
-'
+"
 mochitest
 -
 a11y
-'
+"
     
-'
+"
 mochitest
 -
 browser
 -
 chrome
-'
+"
     
-'
+"
 mochitest
 -
 chrome
-'
+"
     
-'
+"
 mochitest
 -
 plain
-'
+"
     
-'
+"
 web
 -
 platform
@@ -478,9 +478,9 @@ platform
 tests
 -
 crashtest
-'
+"
     
-'
+"
 web
 -
 platform
@@ -490,9 +490,9 @@ tests
 print
 -
 reftest
-'
+"
     
-'
+"
 web
 -
 platform
@@ -500,9 +500,9 @@ platform
 tests
 -
 reftest
-'
+"
     
-'
+"
 web
 -
 platform
@@ -510,15 +510,15 @@ platform
 tests
 -
 wdspec
-'
+"
     
 #
 webrender
 enabled
     
-'
+"
 webrender
-'
+"
 ]
 EXCLUSIVE_COMPONENTS
 =

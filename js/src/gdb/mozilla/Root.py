@@ -163,9 +163,9 @@ referent
     
 member
 =
-'
+"
 ptr
-'
+"
     
 #
 If
@@ -759,9 +759,9 @@ Common
     
 member
 =
-'
+"
 value
-'
+"
 def
 deref
 (
@@ -801,6 +801,7 @@ tag
 raise
 TypeError
 (
+            
 "
 Can
 '
@@ -821,6 +822,7 @@ root
 .
 type
 )
+        
 )
     
 elif
@@ -828,22 +830,22 @@ tag
 .
 startswith
 (
-'
+"
 js
 :
 :
 HeapPtr
 <
-'
+"
 )
 :
         
 return
 root
 [
-'
+"
 value
-'
+"
 ]
     
 elif
@@ -851,22 +853,22 @@ tag
 .
 startswith
 (
-'
+"
 JS
 :
 :
 Rooted
 <
-'
+"
 )
 :
         
 return
 root
 [
-'
+"
 ptr
-'
+"
 ]
     
 elif
@@ -874,22 +876,22 @@ tag
 .
 startswith
 (
-'
+"
 JS
 :
 :
 Handle
 <
-'
+"
 )
 :
         
 return
 root
 [
-'
+"
 ptr
-'
+"
 ]
     
 elif
@@ -897,22 +899,22 @@ tag
 .
 startswith
 (
-'
+"
 js
 :
 :
 GCPtr
 <
-'
+"
 )
 :
         
 return
 root
 [
-'
+"
 value
-'
+"
 ]
     
 else

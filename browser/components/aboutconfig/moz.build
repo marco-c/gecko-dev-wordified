@@ -89,7 +89,7 @@ BROWSER_CHROME_MANIFESTS
 +
 =
 [
-'
+"
 test
 /
 browser
@@ -97,15 +97,15 @@ browser
 browser
 .
 ini
-'
+"
 ]
 JAR_MANIFESTS
 +
 =
 [
-'
+"
 jar
 .
 mn
-'
+"
 ]

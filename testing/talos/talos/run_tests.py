@@ -209,8 +209,8 @@ test
 item
 ]
 =
-'
-'
+"
+"
     
 return
 tests
@@ -238,9 +238,9 @@ tpcycles
 if
 test
 [
-'
+"
 tpcycles
-'
+"
 ]
 not
 in
@@ -254,7 +254,7 @@ range
 raise
 TalosError
 (
-'
+"
 pageloader
 cycles
 must
@@ -264,13 +264,13 @@ int
 to
 1
 000
-'
+"
 )
     
 if
-'
+"
 tpmanifest
-'
+"
 not
 in
 test
@@ -308,9 +308,9 @@ hanging
 if
 test
 [
-'
+"
 gecko_profile
-'
+"
 ]
 :
         
@@ -318,6 +318,7 @@ LOG
 .
 info
 (
+            
 "
 Gecko
 profiling
@@ -330,7 +331,7 @@ reducing
 the
 number
 "
-                 
+            
 "
 of
 cycles
@@ -339,21 +340,22 @@ disregard
 reported
 numbers
 "
+        
 )
         
 for
 cycle_var
 in
 [
-'
+"
 tppagecycles
-'
-'
+"
+"
 tpcycles
-'
-'
+"
+"
 cycles
-'
+"
 ]
 :
             
@@ -376,48 +378,56 @@ cycle_var
 CLI_bool_options
 =
 [
-'
+        
+"
 tpchrome
-'
-'
+"
+        
+"
 tphero
-'
-'
+"
+        
+"
 tpmozafterpaint
-'
-'
+"
+        
+"
 tploadnocache
-'
-'
+"
+        
+"
 tpscrolltest
-'
-                        
-'
+"
+        
+"
 fnbpaint
-'
-'
+"
+        
+"
 pdfpaint
-'
-'
+"
+        
+"
 a11y
-'
+"
+    
 ]
     
 CLI_options
 =
 [
-'
+"
 tpcycles
-'
-'
+"
+"
 tppagecycles
-'
-'
+"
+"
 tptimeout
-'
-'
+"
+"
 tpmanifest
-'
+"
 ]
     
 for
@@ -445,9 +455,9 @@ test
             
 test
 [
-'
+"
 preferences
-'
+"
 ]
 [
 _pref_name
@@ -483,18 +493,18 @@ _pref_name
 in
 test
 [
-'
+"
 preferences
-'
+"
 ]
 :
                 
 del
 test
 [
-'
+"
 preferences
-'
+"
 ]
 [
 _pref_name
@@ -532,9 +542,9 @@ value
             
 test
 [
-'
+"
 preferences
-'
+"
 ]
 [
 _pref_name
@@ -565,18 +575,18 @@ _pref_name
 in
 test
 [
-'
+"
 preferences
-'
+"
 ]
 :
                 
 del
 test
 [
-'
+"
 preferences
-'
+"
 ]
 [
 _pref_name
@@ -704,9 +714,9 @@ webserver
 .
 split
 (
-'
+"
 :
-'
+"
 )
     
 httpd
@@ -749,6 +759,7 @@ tracemonkey
 pdf
 "
 tracemonkey_pdf_handler
+    
 )
     
 return
@@ -777,7 +788,6 @@ generates
 a
 report
 .
-    
 "
 "
 "
@@ -792,9 +802,9 @@ tests
 =
 config
 [
-'
+"
 tests
-'
+"
 ]
     
 tests
@@ -805,9 +815,9 @@ config
 .
 get
 (
-'
+"
 basetest
-'
+"
 {
 }
 )
@@ -817,21 +827,21 @@ tests
 paths
 =
 [
-'
+"
 profile_path
-'
-'
+"
+"
 tpmanifest
-'
-'
+"
+"
 extensions
-'
-'
+"
+"
 setup
-'
-'
+"
+"
 cleanup
-'
+"
 ]
     
 for
@@ -897,9 +907,9 @@ if
 path
 =
 =
-'
+"
 extensions
-'
+"
 :
                     
 for
@@ -910,18 +920,18 @@ enumerate
 (
 test
 [
-'
+"
 extensions
-'
+"
 ]
 )
 :
                         
 test
 [
-'
+"
 extensions
-'
+"
 ]
 [
 _index
@@ -957,34 +967,33 @@ test
 .
 get
 (
-'
+"
 tpmanifest
-'
+"
 )
 :
             
 test
 [
-'
+"
 tpmanifest
-'
+"
 ]
 =
-\
-                
 os
 .
 path
 .
 normpath
 (
-'
+                
+"
 file
 :
 /
 %
 s
-'
+"
 %
 (
 urllib
@@ -993,12 +1002,11 @@ quote
 (
 test
 [
-'
+"
 tpmanifest
-'
+"
 ]
-                                               
-'
+"
 /
 \
 \
@@ -1006,30 +1014,31 @@ t
 :
 \
 \
-'
+"
 )
 )
+            
 )
             
 test
 [
-'
+"
 preferences
-'
+"
 ]
 [
-'
+"
 talos
 .
 tpmanifest
-'
+"
 ]
 =
 test
 [
-'
+"
 tpmanifest
-'
+"
 ]
         
 #
@@ -1062,9 +1071,9 @@ test
 .
 get
 (
-'
+"
 fnbpaint
-'
+"
 False
 )
 :
@@ -1089,12 +1098,13 @@ on
             
 test
 [
-'
+"
 preferences
-'
+"
 ]
 [
-'
+                
+"
 dom
 .
 performance
@@ -1102,16 +1112,17 @@ performance
 time_to_non_blank_paint
 .
 enabled
-'
+"
+            
 ]
 =
 True
         
 test
 [
-'
+"
 setup
-'
+"
 ]
 =
 utils
@@ -1120,17 +1131,17 @@ interpolate
 (
 test
 [
-'
+"
 setup
-'
+"
 ]
 )
         
 test
 [
-'
+"
 cleanup
-'
+"
 ]
 =
 utils
@@ -1139,9 +1150,9 @@ interpolate
 (
 test
 [
-'
+"
 cleanup
-'
+"
 ]
 )
         
@@ -1151,27 +1162,27 @@ test
 .
 get
 (
-'
+"
 profile
-'
+"
 False
 )
 :
             
 test
 [
-'
+"
 profile
-'
+"
 ]
 =
 config
 .
 get
 (
-'
+"
 profile
-'
+"
 )
     
 if
@@ -1180,33 +1191,33 @@ mozinfo
 os
 =
 =
-'
+"
 win
-'
+"
 :
         
 browser_config
 [
-'
+"
 extra_args
-'
+"
 ]
 =
 [
-'
+"
 -
 wait
 -
 for
 -
 browser
-'
-'
+"
+"
 -
 no
 -
 deelevate
-'
+"
 ]
     
 else
@@ -1214,9 +1225,9 @@ else
         
 browser_config
 [
-'
+"
 extra_args
-'
+"
 ]
 =
 [
@@ -1260,28 +1271,28 @@ instance
 if
 browser_config
 [
-'
+"
 develop
-'
+"
 ]
 :
         
 browser_config
 [
-'
+"
 extra_args
-'
+"
 ]
 .
 append
 (
-'
+"
 -
 -
 no
 -
 remote
-'
+"
 )
     
 #
@@ -1296,31 +1307,31 @@ preference
 if
 browser_config
 [
-'
+"
 subtests
-'
+"
 ]
 :
         
 browser_config
 [
-'
+"
 preferences
-'
+"
 ]
 [
-'
+"
 talos
 .
 subtests
-'
+"
 ]
 =
 browser_config
 [
-'
+"
 subtests
-'
+"
 ]
     
 if
@@ -1328,81 +1339,83 @@ browser_config
 .
 get
 (
-'
+"
 enable_fission
-'
+"
 False
 )
 :
         
 browser_config
 [
-'
+"
 preferences
-'
+"
 ]
 [
-'
+"
 fission
 .
 autostart
-'
+"
 ]
 =
 True
         
 browser_config
 [
-'
+"
 preferences
-'
+"
 ]
 [
-'
+"
 dom
 .
 serviceWorkers
 .
 parent_intercept
-'
+"
 ]
 =
 True
     
 browser_config
 [
-'
+"
 preferences
-'
+"
 ]
 [
-'
+"
 network
 .
 proxy
 .
 type
-'
+"
 ]
 =
 2
     
 browser_config
 [
-'
+"
 preferences
-'
+"
 ]
 [
-'
+"
 network
 .
 proxy
 .
 autoconfig_url
-'
+"
 ]
 =
+(
+        
 "
 "
 "
@@ -1451,13 +1464,16 @@ DIRECT
 "
 "
 "
+        
 %
 browser_config
 [
-'
+"
 webserver
-'
+"
 ]
+    
+)
     
 #
 If
@@ -1541,9 +1557,9 @@ config
 .
 get
 (
-'
+"
 code_coverage
-'
+"
 False
 )
 :
@@ -1551,16 +1567,17 @@ False
 if
 browser_config
 [
-'
+"
 develop
-'
+"
 ]
 :
             
 raise
 TalosError
 (
-'
+                
+"
 Aborting
 :
 talos
@@ -1572,13 +1589,14 @@ coverage
 flag
 is
 only
-'
-                             
-'
+"
+                
+"
 supported
 in
 production
-'
+"
+            
 )
         
 else
@@ -1586,9 +1604,9 @@ else
             
 browser_config
 [
-'
+"
 code_coverage
-'
+"
 ]
 =
 True
@@ -1603,11 +1621,11 @@ config
 .
 get
 (
-'
+"
 testdate
-'
-'
-'
+"
+"
+"
 )
     
 #
@@ -1626,21 +1644,19 @@ if
 not
 browser_config
 [
-'
+"
 process
-'
+"
 ]
 :
         
 browser_config
 [
-'
+"
 process
-'
+"
 ]
 =
-\
-            
 os
 .
 path
@@ -1649,9 +1665,9 @@ basename
 (
 browser_config
 [
-'
+"
 browser_path
-'
+"
 ]
 )
     
@@ -1703,49 +1719,50 @@ id
     
 browser_config
 [
-'
+"
 extensions
-'
+"
 ]
 =
 [
+        
 utils
 .
 interpolate
 (
 i
 )
-                                    
 for
 i
 in
 browser_config
 [
-'
+"
 extensions
-'
+"
 ]
+    
 ]
     
 browser_config
 [
-'
+"
 bcontroller_config
-'
+"
 ]
 =
-\
-        
 utils
 .
 interpolate
 (
+        
 browser_config
 [
-'
+"
 bcontroller_config
-'
+"
 ]
+    
 )
     
 #
@@ -1759,13 +1776,11 @@ platforms
     
 browser_config
 [
-'
+"
 browser_path
-'
+"
 ]
 =
-\
-        
 os
 .
 path
@@ -1774,9 +1789,9 @@ normpath
 (
 browser_config
 [
-'
+"
 browser_path
-'
+"
 ]
 )
     
@@ -1802,44 +1817,44 @@ binary
     
 browser_config
 [
-'
+"
 browser_name
-'
+"
 ]
 =
 version_info
 [
-'
+"
 application_name
-'
+"
 ]
     
 browser_config
 [
-'
+"
 browser_version
-'
+"
 ]
 =
 version_info
 [
-'
+"
 application_version
-'
+"
 ]
     
 browser_config
 [
-'
+"
 buildid
-'
+"
 ]
 =
 version_info
 [
-'
+"
 application_buildid
-'
+"
 ]
     
 try
@@ -1847,30 +1862,30 @@ try
         
 browser_config
 [
-'
+"
 repository
-'
+"
 ]
 =
 version_info
 [
-'
+"
 application_repository
-'
+"
 ]
         
 browser_config
 [
-'
+"
 sourcestamp
-'
+"
 ]
 =
 version_info
 [
-'
+"
 application_changeset
-'
+"
 ]
     
 except
@@ -1881,9 +1896,9 @@ if
 not
 browser_config
 [
-'
+"
 develop
-'
+"
 ]
 :
             
@@ -1918,25 +1933,25 @@ else
             
 browser_config
 [
-'
+"
 repository
-'
+"
 ]
 =
-'
+"
 develop
-'
+"
             
 browser_config
 [
-'
+"
 sourcestamp
-'
+"
 ]
 =
-'
+"
 develop
-'
+"
     
 #
 get
@@ -1964,8 +1979,7 @@ time
 strptime
 (
 testdate
-                                             
-'
+"
 %
 a
 %
@@ -1983,7 +1997,7 @@ M
 %
 S
 GMT
-'
+"
 )
 )
 )
@@ -2057,17 +2071,17 @@ if
 not
 browser_config
 [
-'
+"
 develop
-'
+"
 ]
 and
 not
 config
 [
-'
+"
 gecko_profile
-'
+"
 ]
 :
         
@@ -2105,11 +2119,11 @@ required
 output_urls
 =
 [
-'
+"
 local
 .
 json
-'
+"
 ]
         
 )
@@ -2137,11 +2151,11 @@ path
 .
 abspath
 (
-'
+"
 local
 .
 json
-'
+"
 )
 ]
 )
@@ -2152,9 +2166,9 @@ setup_webserver
 (
 browser_config
 [
-'
+"
 webserver
-'
+"
 ]
 )
     
@@ -2176,18 +2190,18 @@ talos_results
 .
 add_extra_option
 (
-'
+"
 e10s
-'
+"
 )
     
 talos_results
 .
 add_extra_option
 (
-'
+"
 stylo
-'
+"
 )
     
 #
@@ -2206,9 +2220,9 @@ config
 .
 get
 (
-'
+"
 stylothreads
-'
+"
 0
 )
 >
@@ -2219,25 +2233,25 @@ talos_results
 .
 add_extra_option
 (
-'
+"
 %
 s_thread
-'
+"
 %
 config
 [
-'
+"
 stylothreads
-'
+"
 ]
 )
     
 if
 config
 [
-'
+"
 gecko_profile
-'
+"
 ]
 :
         
@@ -2245,11 +2259,11 @@ talos_results
 .
 add_extra_option
 (
-'
+"
 gecko
 -
 profile
-'
+"
 )
     
 #
@@ -2268,9 +2282,9 @@ browser_config
 .
 get
 (
-'
+"
 enable_fission
-'
+"
 False
 )
 :
@@ -2279,9 +2293,9 @@ talos_results
 .
 add_extra_option
 (
-'
+"
 fission
-'
+"
 )
     
 #
@@ -2296,20 +2310,20 @@ results
 if
 browser_config
 [
-'
+"
 preferences
-'
+"
 ]
 .
 get
 (
-'
+"
 gfx
 .
 webrender
 .
 software
-'
+"
 False
 )
 :
@@ -2330,9 +2344,9 @@ browser_config
 .
 get
 (
-'
+"
 enable_webrender
-'
+"
 False
 )
 :
@@ -2341,9 +2355,9 @@ talos_results
 .
 add_extra_option
 (
-'
+"
 webrender
-'
+"
 )
     
 #
@@ -2358,14 +2372,14 @@ results
 if
 browser_config
 [
-'
+"
 preferences
-'
+"
 ]
 .
 get
 (
-'
+"
 webgl
 .
 out
@@ -2373,7 +2387,7 @@ out
 of
 -
 process
-'
+"
 False
 )
 :
@@ -2382,11 +2396,11 @@ talos_results
 .
 add_extra_option
 (
-'
+"
 webgl
 -
 ipc
-'
+"
 )
     
 testname
@@ -2415,9 +2429,9 @@ tests
 [
 test
 [
-'
+"
 name
-'
+"
 ]
 for
 test
@@ -2439,9 +2453,9 @@ testname
 =
 test
 [
-'
+"
 name
-'
+"
 ]
             
 LOG
@@ -2457,9 +2471,9 @@ test
 .
 get
 (
-'
+"
 url
-'
+"
 )
 :
                 
@@ -2485,9 +2499,9 @@ url
                 
 test
 [
-'
+"
 url
-'
+"
 ]
 =
 None
@@ -2522,9 +2536,9 @@ test
 .
 get
 (
-'
+"
 firstpaint
-'
+"
 False
 )
 or
@@ -2532,9 +2546,9 @@ test
 .
 get
 (
-'
+"
 userready
-'
+"
 None
 )
 :
@@ -2572,9 +2586,9 @@ test
 .
 get
 (
-'
+"
 testeventmap
-'
+"
 None
 )
                 
@@ -2587,6 +2601,7 @@ None
 raise
 TalosError
 (
+                        
 "
 Need
 '
@@ -2605,10 +2620,11 @@ test
 .
 get
 (
-'
+"
 name
-'
+"
 )
+                    
 )
                 
 #
@@ -2635,6 +2651,7 @@ None
 raise
 TalosError
 (
+                        
 "
 Abort
 :
@@ -2650,10 +2667,11 @@ test
 .
 get
 (
-'
+"
 name
-'
+"
 )
+                    
 )
                 
 #
@@ -2679,9 +2697,10 @@ separate_results_list
 =
 convert_to_separate_test_results
 (
+                    
 multi_value_result
-                                                                         
 test_event_map
+                
 )
                 
 #
@@ -2760,9 +2779,9 @@ test
 .
 get
 (
-'
+"
 base_vs_ref
-'
+"
 False
 )
 :
@@ -2855,9 +2874,9 @@ test_end
 testname
 status
 =
-'
+"
 OK
-'
+"
 )
     
 except
@@ -2916,19 +2935,19 @@ LOG
 .
 test_end
 (
+            
 testname
 status
 =
-'
+"
 FAIL
-'
+"
 message
 =
 str
 (
 exc
 )
-                     
 stack
 =
 traceback
@@ -2936,6 +2955,7 @@ traceback
 format_exc
 (
 )
+        
 )
         
 return
@@ -2980,19 +3000,19 @@ LOG
 .
 test_end
 (
+            
 testname
 status
 =
-'
+"
 ERROR
-'
+"
 message
 =
 str
 (
 exc
 )
-                     
 stack
 =
 traceback
@@ -3000,6 +3020,7 @@ traceback
 format_exc
 (
 )
+        
 )
         
 #
@@ -3062,9 +3083,9 @@ and
 not
 browser_config
 [
-'
+"
 no_upload_results
-'
+"
 ]
 :
         
@@ -3078,21 +3099,22 @@ results_urls
 if
 browser_config
 [
-'
+"
 develop
-'
+"
 ]
 or
 config
 [
-'
+"
 gecko_profile
-'
+"
 ]
 :
             
 print
 (
+                
 "
 Thanks
 for
@@ -3106,16 +3128,17 @@ in
 %
 s
 "
-                  
+                
 %
 (
 results_urls
 [
-'
+"
 output_urls
-'
+"
 ]
 )
+            
 )
     
 #
@@ -3154,16 +3177,16 @@ com
 if
 config
 [
-'
+"
 gecko_profile
-'
+"
 ]
 and
 browser_config
 [
-'
+"
 develop
-'
+"
 ]
 :
         
@@ -3174,24 +3197,25 @@ environ
 .
 get
 (
-'
+"
 DISABLE_PROFILE_LAUNCH
-'
-'
+"
+"
 0
-'
+"
 )
 =
 =
-'
+"
 1
-'
+"
 :
             
 LOG
 .
 info
 (
+                
 "
 Not
 launching
@@ -3205,6 +3229,7 @@ DISABLE_PROFILE_LAUNCH
 =
 1
 "
+            
 )
         
 else
@@ -3250,9 +3275,9 @@ environ
 .
 get
 (
-'
+"
 TALOS_LATEST_GECKO_PROFILE_ARCHIVE
-'
+"
 None
 )
     
@@ -3276,6 +3301,7 @@ LOG
 .
 info
 (
+            
 "
 No
 local
@@ -3293,6 +3319,7 @@ firefox
 .
 com
 "
+        
 )
         
 return
@@ -3325,9 +3352,9 @@ base_and_reference_results
 )
 :
     
-'
-'
-'
+"
+"
+"
 Receive
 a
 test
@@ -3725,9 +3752,9 @@ alertThreshold
 ]
 }
     
-'
-'
-'
+"
+"
+"
     
 #
 create
@@ -3898,9 +3925,9 @@ results
 x
 ]
 [
-'
+"
 runs
-'
+"
 ]
         
 ref_result_runs
@@ -3912,9 +3939,9 @@ x
 1
 ]
 [
-'
+"
 runs
-'
+"
 ]
         
 #
@@ -3967,9 +3994,9 @@ results
 x
 ]
 [
-'
+"
 page
-'
+"
 ]
         
 #
@@ -3992,38 +4019,42 @@ comp_results
 .
 append
 (
+            
 {
-'
+                
+"
 index
-'
+"
 :
 0
-                             
-'
+                
+"
 runs
-'
+"
 :
 [
 ]
-                             
-'
+                
+"
 page
-'
+"
 :
 sub_test_name
-                             
-'
+                
+"
 base_runs
-'
+"
 :
 base_result_runs
-                             
-'
+                
+"
 ref_runs
-'
+"
 :
 ref_result_runs
+            
 }
+        
 )
         
 #
@@ -4061,9 +4092,9 @@ comp_results
 subtest_index
 ]
 [
-'
+"
 ref_runs
-'
+"
 ]
 :
             
@@ -4078,9 +4109,9 @@ comp_results
 subtest_index
 ]
 [
-'
+"
 base_runs
-'
+"
 ]
 [
 _index
@@ -4092,9 +4123,9 @@ comp_results
 subtest_index
 ]
 [
-'
+"
 runs
-'
+"
 ]
 .
 append
@@ -4135,9 +4166,9 @@ test_event_map
 )
 :
     
-'
-'
-'
+"
+"
+"
 Receive
 a
 test
@@ -4446,9 +4477,9 @@ ts_user_ready
 ]
 }
     
-'
-'
-'
+"
+"
+"
     
 list_of_separate_tests
 =
@@ -4499,16 +4530,16 @@ separate_test
 .
 test_config
 [
-'
+"
 name
-'
+"
 ]
 =
 next_test
 [
-'
+"
 name
-'
+"
 ]
         
 #
@@ -4541,25 +4572,25 @@ all_runs
 =
 item
 [
-'
+"
 runs
-'
+"
 ]
                 
 item
 [
-'
+"
 runs
-'
+"
 ]
 =
 all_runs
 [
 next_test
 [
-'
+"
 label
-'
+"
 ]
 ]
         
@@ -4642,9 +4673,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

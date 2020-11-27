@@ -103,8 +103,7 @@ UnicodeLoader
 .
 add_constructor
 (
-    
-'
+"
 tag
 :
 yaml
@@ -113,8 +112,7 @@ org
 2002
 :
 str
-'
-    
+"
 UnicodeLoader
 .
 construct_yaml_str

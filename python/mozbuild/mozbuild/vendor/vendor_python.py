@@ -1015,29 +1015,29 @@ ignore
 =
 (
                 
-'
+"
 *
 /
 doc
-'
+"
                 
-'
+"
 *
 /
 docs
-'
+"
                 
-'
+"
 *
 /
 test
-'
+"
                 
-'
+"
 *
 /
 tests
-'
+"
             
 )
         
@@ -1260,6 +1260,7 @@ mozfile
 .
 extract
 (
+                    
 os
 .
 path
@@ -1275,6 +1276,7 @@ dest
 ignore
 =
 ignore
+                
 )
 [
 0

@@ -75,13 +75,13 @@ __file__
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
 )
 sys
@@ -159,7 +159,7 @@ re
 compile
 (
 r
-'
+"
 <
 .
 +
@@ -178,7 +178,7 @@ F
 ]
 +
 >
-'
+"
 )
 OUT_DIR
 =
@@ -295,6 +295,7 @@ main
 usage
 =
 (
+        
 "
 Usage
 :
@@ -324,14 +325,15 @@ template
 html
 ]
 "
+        
 %
-             
 sys
 .
 argv
 [
 0
 ]
+    
 )
     
 if
@@ -387,24 +389,26 @@ servo
 gecko
 "
 ]
-\
-            
 or
 output
 not
 in
 [
+        
 "
 style
 -
 crate
 "
+        
 "
 geckolib
 "
+        
 "
 html
 "
+    
 ]
 :
         
@@ -780,7 +784,6 @@ p
 name
 :
 {
-                        
 "
 pref
 "
@@ -790,7 +793,6 @@ getattr
 p
 pref_attr
 )
-                    
 }
                     
 for
@@ -850,6 +852,7 @@ as_html
 =
 render
 (
+                
 os
 .
 path
@@ -868,6 +871,7 @@ mako
 properties
 =
 properties_dict
+            
 )
             
 as_json
@@ -1048,27 +1052,28 @@ lookup
 =
 TemplateLookup
 (
+            
 directories
 =
 [
 BASE
 ]
-                                
 input_encoding
 =
 "
 utf8
 "
-                                
 strict_undefined
 =
 True
+        
 )
         
 template
 =
 Template
 (
+            
 open
 (
 filename
@@ -1080,24 +1085,25 @@ rb
 read
 (
 )
-                            
+            
 filename
 =
 filename
-                            
+            
 input_encoding
 =
 "
 utf8
 "
-                            
+            
 lookup
 =
 lookup
-                            
+            
 strict_undefined
 =
 True
+        
 )
         
 #
@@ -1253,13 +1259,11 @@ python_addr
         
 abort
 (
-"
+'
 Found
-\
 "
 {
 }
-\
 "
 in
 {
@@ -1268,7 +1272,7 @@ in
 {
 }
 )
-"
+'
 .
 format
 (

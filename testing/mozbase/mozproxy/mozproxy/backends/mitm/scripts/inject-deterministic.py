@@ -17,8 +17,6 @@ import
 ctx
 class
 AddDeterministic
-(
-)
 :
     
 def
@@ -399,7 +397,7 @@ script
 )
         
 return
-'
+"
 <
 script
 >
@@ -409,7 +407,7 @@ script
 /
 script
 >
-'
+"
 .
 format
 (
@@ -864,11 +862,11 @@ headers
 :
             
 if
-'
+"
 text
 /
 html
-'
+"
 in
 flow
 .
@@ -890,6 +888,7 @@ log
 .
 info
 (
+                    
 "
 Working
 on
@@ -912,6 +911,7 @@ type
 "
 ]
 )
+                
 )
                 
 flow
@@ -982,7 +982,7 @@ re
 .
 search
 (
-'
+"
 (
 ?
 i
@@ -996,7 +996,7 @@ head
 *
 ?
 >
-'
+"
 html
 )
                         
@@ -1012,7 +1012,7 @@ re
 .
 search
 (
-'
+"
 (
 ?
 i
@@ -1026,7 +1026,7 @@ html
 *
 ?
 >
-'
+"
 html
 )
                         
@@ -1042,7 +1042,7 @@ re
 .
 search
 (
-'
+"
 (
 ?
 i
@@ -1055,7 +1055,7 @@ i
 doctype
 html
 >
-'
+"
 html
 )
                         
@@ -1071,6 +1071,7 @@ log
 .
 info
 (
+                                
 "
 No
 start
@@ -1085,15 +1086,17 @@ Skip
 injecting
 "
 .
-                                         
 format
 (
+                                    
 flow
 .
 request
 .
 url
+                                
 )
+                            
 )
                             
 return
@@ -1160,6 +1163,8 @@ nonce
 )
                             
 if
+(
+                                
 self
 .
 get_csp_script_sources
@@ -1170,9 +1175,12 @@ response
 .
 headers
 )
+                                
 and
 not
 nonce
+                            
+)
 :
                                 
 #
@@ -1192,11 +1200,11 @@ js
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
                                 
@@ -1206,15 +1214,15 @@ base64
 .
 b64encode
 (
+                                    
 hash_object
 .
 digest
 (
 )
+                                
 )
 .
-\
-                                    
 decode
 (
 "
@@ -1243,8 +1251,8 @@ flow
 response
 .
 headers
-                                    
 script_sha256
+                                
 )
                                 
 flow
@@ -1263,8 +1271,8 @@ flow
 response
 .
 headers
-                                    
 updated_script_sources
+                                
 )
                         
 #
@@ -1275,14 +1283,15 @@ file
                         
 new_html
 =
+(
+                            
 html
 [
 :
 script_index
 ]
-+
-\
                             
++
 self
 .
 get_script_with_nonce
@@ -1290,14 +1299,15 @@ get_script_with_nonce
 js
 nonce
 )
-+
-\
                             
++
 html
 [
 script_index
 :
 ]
+                        
+)
                         
 flow
 .
@@ -1313,6 +1323,7 @@ log
 .
 info
 (
+                            
 "
 In
 request
@@ -1323,15 +1334,17 @@ deterministic
 JS
 "
 .
-                                     
 format
 (
+                                
 flow
 .
 request
 .
 url
+                            
 )
+                        
 )
                     
 else
@@ -1343,6 +1356,7 @@ log
 .
 info
 (
+                            
 "
 Script
 already
@@ -1353,15 +1367,17 @@ request
 }
 "
 .
-                                     
 format
 (
+                                
 flow
 .
 request
 .
 url
+                            
 )
+                        
 )
 def
 start

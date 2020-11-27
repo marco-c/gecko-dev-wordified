@@ -194,8 +194,8 @@ text_type
 __new__
 (
 cls
-'
-'
+"
+"
 )
             
 return
@@ -230,8 +230,8 @@ int
 :
                 
 return
-'
-'
+"
+"
             
 return
 args

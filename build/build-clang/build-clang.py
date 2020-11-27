@@ -190,8 +190,8 @@ args
     
 print
 (
-'
-'
+"
+"
 .
 join
 (
@@ -214,9 +214,9 @@ args
 ]
 =
 =
-'
+"
 cmake
-'
+"
 :
         
 #
@@ -322,10 +322,9 @@ re
 compile
 (
 b
-"
+'
 See
 also
-\
 "
 (
 .
@@ -335,9 +334,8 @@ CMakeOutput
 .
 log
 )
-\
 "
-"
+'
 )
             
 cmake_error_re
@@ -347,10 +345,9 @@ re
 compile
 (
 b
-"
+'
 See
 also
-\
 "
 (
 .
@@ -360,9 +357,8 @@ CMakeError
 .
 log
 )
-\
 "
-"
+'
 )
             
 def
@@ -419,9 +415,9 @@ with
 open
 (
 log
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -620,35 +616,34 @@ patch
 check_run
 (
 [
-'
+"
 patch
-'
-'
+"
+"
 -
 d
-'
+"
 srcdir
-'
+"
 -
 p1
-'
-'
+"
+"
 -
 i
-'
+"
 patch
-'
+"
 -
 -
 fuzz
 =
 0
-'
-               
-'
+"
+"
 -
 s
-'
+"
 ]
 )
 def
@@ -681,16 +676,15 @@ argv
 0
 ]
 )
-                                     
-'
+"
 .
 .
-'
-'
+"
+"
 clang
 -
 plugin
-'
+"
 )
     
 clang_tidy_path
@@ -702,8 +696,7 @@ path
 join
 (
 source_dir
-                                   
-'
+"
 clang
 -
 tools
@@ -713,7 +706,7 @@ extra
 clang
 -
 tidy
-'
+"
 )
     
 sys
@@ -733,13 +726,13 @@ do_import
 import_options
 =
 {
-      
+        
 "
 alpha
 "
 :
 build_clang_tidy_alpha
-      
+        
 "
 external
 "
@@ -982,7 +975,7 @@ name
     
 print
 (
-'
+"
 tarring
 {
 }
@@ -992,7 +985,7 @@ from
 /
 {
 }
-'
+"
 .
 format
 (
@@ -1186,9 +1179,9 @@ path
 join
 (
 gcc_dir
-'
+"
 bin
-'
+"
 )
     
 #
@@ -1311,7 +1304,7 @@ path
 join
 (
 clang_dir
-'
+"
 x86_64
 -
 unknown
@@ -1319,10 +1312,10 @@ unknown
 linux
 -
 gnu
-'
-'
+"
+"
 bin
-'
+"
 )
         
 mkdir_p
@@ -1341,9 +1334,9 @@ path
 join
 (
 gcc_bin_dir
-'
+"
 ld
-'
+"
 )
 x64_bin_dir
 )
@@ -1354,6 +1347,7 @@ subprocess
 .
 check_output
 (
+        
 [
 os
 .
@@ -1366,8 +1360,7 @@ gcc_bin_dir
 gcc
 "
 )
-                                   
-'
+"
 -
 print
 -
@@ -1376,8 +1369,9 @@ libgcc
 file
 -
 name
-'
+"
 ]
+    
 )
     
 libgcc_dir
@@ -1407,14 +1401,17 @@ path
 .
 join
 (
+        
 clang_dir
+        
 "
 lib
 "
+        
 "
 gcc
 "
-                                 
+        
 "
 x86_64
 -
@@ -1424,7 +1421,7 @@ linux
 -
 gnu
 "
-                                 
+        
 os
 .
 path
@@ -1433,6 +1430,7 @@ basename
 (
 libgcc_dir
 )
+    
 )
     
 mkdir_p
@@ -1571,6 +1569,7 @@ shutil
 .
 copy2
 (
+        
 os
 .
 path
@@ -1587,7 +1586,6 @@ clang
 lib
 "
 )
-                 
 os
 .
 path
@@ -1599,6 +1597,7 @@ clang_dir
 lib
 "
 )
+    
 )
 def
 install_asan_symbols
@@ -1643,6 +1642,7 @@ glob
 .
 glob
 (
+        
 os
 .
 path
@@ -1651,7 +1651,6 @@ join
 (
 build_dir
 lib_path_pattern
-                                      
 "
 clang_rt
 .
@@ -1662,6 +1661,7 @@ asan_dynamic
 pdb
 "
 )
+    
 )
     
 dst_path
@@ -1796,49 +1796,67 @@ Windows
 def
 build_one_stage
 (
+    
 cc
+    
 cxx
+    
 asm
+    
 ld
+    
 ar
+    
 ranlib
+    
 libtool
-                    
+    
 src_dir
+    
 stage_dir
+    
 package_name
+    
 build_libcxx
-                    
+    
 osx_cross_compile
+    
 build_type
+    
 assertions
-                    
+    
 python_path
+    
 gcc_dir
+    
 libcxx_include_dir
+    
 build_wasm
-                    
+    
 compiler_rt_source_dir
 =
 None
+    
 runtimes_source_link
 =
 None
-                    
+    
 compiler_rt_source_link
 =
 None
-                    
+    
 is_final_stage
 =
 False
+    
 android_targets
 =
 None
-                    
+    
 extra_targets
 =
 None
+    
 pgo_phase
 =
 None
@@ -1958,13 +1976,13 @@ path
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
     
 def
@@ -2091,8 +2109,8 @@ DCMAKE_C_FLAGS
 s
 "
 %
-'
-'
+"
+"
 .
 join
 (
@@ -2111,8 +2129,8 @@ DCMAKE_CXX_FLAGS
 s
 "
 %
-'
-'
+"
+"
 .
 join
 (
@@ -2131,8 +2149,8 @@ DCMAKE_ASM_FLAGS
 s
 "
 %
-'
-'
+"
+"
 .
 join
 (
@@ -2151,8 +2169,8 @@ DCMAKE_EXE_LINKER_FLAGS
 s
 "
 %
-'
-'
+"
+"
 .
 join
 (
@@ -2171,8 +2189,8 @@ DCMAKE_SHARED_LINKER_FLAGS
 s
 "
 %
-'
-'
+"
+"
 .
 join
 (
@@ -3139,6 +3157,7 @@ api_level
 android_flags
 =
 [
+                
 "
 -
 isystem
@@ -3156,11 +3175,11 @@ os
 .
 environ
 )
-                             
 for
 d
 in
 android_include_dirs
+            
 ]
             
 android_flags
@@ -3271,12 +3290,12 @@ for
 kind
 in
 (
-'
+"
 BUILTINS
-'
-'
+"
+"
 RUNTIMES
-'
+"
 )
 :
                 
@@ -3285,62 +3304,62 @@ var
 arg
 in
 (
-                        
+                    
 (
-'
+"
 ANDROID
-'
-'
+"
+"
 1
-'
+"
 )
-                        
+                    
 (
-'
+"
 CMAKE_ASM_FLAGS
-'
+"
 rt_asm_flags
 )
-                        
+                    
 (
-'
+"
 CMAKE_CXX_FLAGS
-'
+"
 rt_cxx_flags
 )
-                        
+                    
 (
-'
+"
 CMAKE_C_FLAGS
-'
+"
 rt_c_flags
 )
-                        
+                    
 (
-'
+"
 CMAKE_EXE_LINKER_FLAGS
-'
+"
 android_link_flags
 )
-                        
+                    
 (
-'
+"
 CMAKE_SHARED_LINKER_FLAGS
-'
+"
 android_link_flags
 )
-                        
+                    
 (
-'
+"
 CMAKE_SYSROOT
-'
+"
 sysroot_dir
 )
-                        
+                    
 (
-'
+"
 ANDROID_NATIVE_API_LEVEL
-'
+"
 api_level
 )
                 
@@ -3351,7 +3370,7 @@ cmake_args
 +
 =
 [
-'
+"
 -
 D
 %
@@ -3363,7 +3382,7 @@ s
 =
 %
 s
-'
+"
 %
 (
 kind
@@ -3378,7 +3397,6 @@ cmake_args
 =
 cmake_base_args
 (
-        
 cc
 cxx
 asm
@@ -3393,9 +3411,7 @@ cmake_args
 +
 =
 [
-        
 src_dir
-    
 ]
     
 build_package
@@ -3556,9 +3572,9 @@ os
 .
 environ
 [
-'
+"
 LIB
-'
+"
 ]
             
 new_lib
@@ -3584,9 +3600,9 @@ l
 .
 endswith
 (
-'
+"
 x64
-'
+"
 )
 :
                     
@@ -3599,9 +3615,9 @@ l
 3
 ]
 +
-'
+"
 x86
-'
+"
                     
 build_32_bit
 =
@@ -3612,9 +3628,9 @@ l
 .
 endswith
 (
-'
+"
 amd64
-'
+"
 )
 :
                     
@@ -3646,9 +3662,9 @@ os
 .
 environ
 [
-'
+"
 LIB
-'
+"
 ]
 =
 os
@@ -3664,24 +3680,24 @@ compiler_rt_build_dir
 =
 stage_dir
 +
-'
+"
 /
 compiler
 -
 rt
-'
+"
             
 compiler_rt_inst_dir
 =
 inst_dir
 +
-'
+"
 /
 lib
 /
 clang
 /
-'
+"
             
 subdirs
 =
@@ -3722,21 +3738,21 @@ path
 join
 (
 inst_dir
-'
+"
 bin
-'
-'
+"
+"
 clang
 -
 cl
 .
 exe
-'
+"
 )
-'
+"
 -
 m32
-'
+"
 ]
 +
 cc
@@ -3753,21 +3769,21 @@ path
 join
 (
 inst_dir
-'
+"
 bin
-'
-'
+"
+"
 clang
 -
 cl
 .
 exe
-'
+"
 )
-'
+"
 -
 m32
-'
+"
 ]
 +
 cxx
@@ -3784,21 +3800,21 @@ path
 join
 (
 inst_dir
-'
+"
 bin
-'
-'
+"
+"
 clang
 -
 cl
 .
 exe
-'
+"
 )
-'
+"
 -
 m32
-'
+"
 ]
 +
 asm
@@ -3808,10 +3824,15 @@ asm
 ]
                 
 ld
+                
 ar
+                
 ranlib
+                
 libtool
+                
 compiler_rt_inst_dir
+            
 )
             
 cmake_args
@@ -3819,17 +3840,17 @@ cmake_args
 =
 [
                 
-'
+"
 -
 DLLVM_CONFIG_PATH
 =
 %
 s
-'
+"
+                
 %
 slashify_path
 (
-                    
 os
 .
 path
@@ -3837,14 +3858,14 @@ path
 join
 (
 inst_dir
-'
+"
 bin
-'
-'
+"
+"
 llvm
 -
 config
-'
+"
 )
 )
                 
@@ -3855,14 +3876,14 @@ path
 join
 (
 src_dir
-'
+"
 projects
-'
-'
+"
+"
 compiler
 -
 rt
-'
+"
 )
             
 ]
@@ -3877,9 +3898,9 @@ os
 .
 environ
 [
-'
+"
 LIB
-'
+"
 ]
 =
 old_lib
@@ -4359,32 +4380,41 @@ expect
 dirs
 =
 [
+        
 "
 bin
 "
+        
 "
 include
 "
+        
 "
 lib
 "
+        
 "
 lib32
 "
+        
 "
 libexec
 "
+        
 "
 msbuild
 -
 bin
 "
+        
 "
 share
 "
+        
 "
 tools
 "
+    
 ]
     
 if
@@ -4489,26 +4519,26 @@ f
 kept_binaries
 =
 [
-'
+"
 clang
 -
 apply
 -
 replacements
-'
-'
+"
+"
 clang
 -
 format
-'
-'
+"
+"
 clang
 -
 tidy
-'
-'
+"
+"
 clangd
-'
+"
 ]
     
 re_clang_tidy
@@ -4762,18 +4792,18 @@ and
 name
 in
 [
-'
+"
 libLLVM
 .
 dylib
-'
-'
+"
+"
 libclang
 -
 cpp
 .
 dylib
-'
+"
 ]
 :
             
@@ -4785,34 +4815,36 @@ is_linux
 )
 and
 (
+            
 fnmatch
 .
 fnmatch
 (
 name
-'
+"
 libLLVM
 *
 .
 so
-'
+"
 )
+            
 or
-                           
 fnmatch
 .
 fnmatch
 (
 name
-'
+"
 libclang
 -
 cpp
 .
 so
 *
-'
+"
 )
+        
 )
 :
             
@@ -5127,30 +5159,33 @@ parser
 .
 add_argument
 (
-'
+        
+"
 -
 c
-'
-'
+"
+        
+"
 -
 -
 config
-'
+"
+        
 required
 =
 True
-                        
+        
 type
 =
 argparse
 .
 FileType
 (
-'
+"
 r
-'
+"
 )
-                        
+        
 help
 =
 "
@@ -5158,27 +5193,27 @@ Clang
 configuration
 file
 "
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 clean
-'
+"
 required
 =
 False
-                        
 action
 =
-'
+"
 store_true
-'
-                        
+"
 help
 =
 "
@@ -5187,29 +5222,32 @@ the
 build
 directory
 "
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 skip
 -
 tar
-'
+"
+        
 required
 =
 False
-                        
+        
 action
 =
-'
+"
 store_true
-'
-                        
+"
+        
 help
 =
 "
@@ -5218,29 +5256,32 @@ tar
 packaging
 stage
 "
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 skip
 -
 checkout
-'
+"
+        
 required
 =
 False
-                        
+        
 action
 =
-'
+"
 store_true
-'
-                        
+"
+        
 help
 =
 "
@@ -5251,6 +5292,7 @@ checkout
 revert
 source
 "
+    
 )
     
 args
@@ -5269,20 +5311,21 @@ path
 .
 exists
 (
-'
+"
 llvm
 /
 LLVMBuild
 .
 txt
-'
+"
 )
 :
         
 raise
 Exception
 (
-'
+            
+"
 The
 script
 must
@@ -5294,14 +5337,14 @@ root
 directory
 of
 the
-'
-                        
-'
+"
+"
 llvm
 -
 project
 tree
-'
+"
+        
 )
     
 source_dir
@@ -5666,6 +5709,7 @@ MinSizeRel
 raise
 ValueError
 (
+                
 "
 We
 only
@@ -5678,11 +5722,12 @@ Debug
 RelWithDebInfo
 or
 "
-                             
+                
 "
 MinSizeRel
 builds
 "
+            
 )
     
 build_libcxx
@@ -5869,6 +5914,7 @@ False
 raise
 ValueError
 (
+                
 "
 Only
 boolean
@@ -5879,6 +5925,7 @@ for
 build_clang_tidy_alpha
 .
 "
+            
 )
     
 build_clang_tidy_external
@@ -5927,6 +5974,7 @@ False
 raise
 ValueError
 (
+                
 "
 Only
 boolean
@@ -5937,6 +5985,7 @@ for
 build_clang_tidy_external
 .
 "
+            
 )
     
 osx_cross_compile
@@ -6211,6 +6260,7 @@ cfg
 raise
 ValueError
 (
+                        
 "
 must
 specify
@@ -6228,12 +6278,13 @@ target
 %
 s
 "
+                        
 %
-                                     
 (
 attr
 target
 )
+                    
 )
     
 extra_targets
@@ -6342,16 +6393,16 @@ os
 .
 environ
 [
-'
+"
 MACOSX_DEPLOYMENT_TARGET
-'
+"
 ]
 =
-'
+"
 10
 .
 11
-'
+"
     
 cc
 =
@@ -6529,9 +6580,9 @@ rt
 symlinks
 =
 [
+        
 (
 clang_source_dir
-                 
 llvm_source_dir
 +
 "
@@ -6541,10 +6592,9 @@ tools
 clang
 "
 )
-                
+        
 (
 extra_source_dir
-                 
 llvm_source_dir
 +
 "
@@ -6558,10 +6608,9 @@ tools
 extra
 "
 )
-                
+        
 (
 lld_source_dir
-                 
 llvm_source_dir
 +
 "
@@ -6571,15 +6620,14 @@ tools
 lld
 "
 )
-                
+        
 (
 compiler_rt_source_dir
 compiler_rt_source_link
 )
-                
+        
 (
 libcxx_source_dir
-                 
 llvm_source_dir
 +
 "
@@ -6589,10 +6637,9 @@ projects
 libcxx
 "
 )
-                
+        
 (
 libcxxabi_source_dir
-                 
 llvm_source_dir
 +
 "
@@ -6602,6 +6649,7 @@ projects
 libcxxabi
 "
 )
+    
 ]
     
 for
@@ -6737,7 +6785,6 @@ llvm_source_dir
 "
 projects
 "
-                                      
 "
 libcxx
 "
@@ -6750,18 +6797,18 @@ stage1_dir
 =
 build_dir
 +
-'
+"
 /
 stage1
-'
+"
     
 stage1_inst_dir
 =
 stage1_dir
 +
-'
+"
 /
-'
+"
 +
 package_name
     
@@ -6901,12 +6948,12 @@ extra_cflags2
 -
 fPIC
 "
-'
+"
 -
 gcc
 -
 toolchain
-'
+"
 stage1_inst_dir
 ]
         
@@ -6928,23 +6975,28 @@ compilation
 extra_cxxflags2
 =
 [
+            
 "
 -
 fPIC
 "
-'
+            
+"
 -
 Qunused
 -
 arguments
-'
-'
+"
+            
+"
 -
 gcc
 -
 toolchain
-'
+"
+            
 stage1_inst_dir
+        
 ]
         
 extra_asmflags
@@ -6967,14 +7019,14 @@ PLT
 extra_ldflags
 =
 [
-'
+"
 -
 Wl
 -
 Bsymbolic
 -
 functions
-'
+"
 ]
         
 #
@@ -7055,15 +7107,15 @@ extra_ldflags
 +
 =
 [
-'
+"
 -
 fuse
 -
 ld
 =
 gold
-'
-'
+"
+"
 -
 Wl
 -
@@ -7071,8 +7123,8 @@ Wl
 gc
 -
 sections
-'
-'
+"
+"
 -
 Wl
 -
@@ -7080,13 +7132,13 @@ Wl
 icf
 =
 safe
-'
+"
 ]
         
 if
-'
+"
 LD_LIBRARY_PATH
-'
+"
 in
 os
 .
@@ -7097,13 +7149,12 @@ os
 .
 environ
 [
-'
+"
 LD_LIBRARY_PATH
-'
+"
 ]
 =
-(
-'
+"
 %
 s
 /
@@ -7112,20 +7163,21 @@ lib64
 :
 %
 s
-'
+"
 %
-                                             
 (
+                
 gcc_dir
+                
 os
 .
 environ
 [
-'
+"
 LD_LIBRARY_PATH
-'
+"
 ]
-)
+            
 )
         
 else
@@ -7135,18 +7187,18 @@ os
 .
 environ
 [
-'
+"
 LD_LIBRARY_PATH
-'
+"
 ]
 =
-'
+"
 %
 s
 /
 lib64
 /
-'
+"
 %
 gcc_dir
     
@@ -7216,7 +7268,8 @@ extra_cflags2
 extra_cxxflags2
 =
 [
-'
+            
+"
 -
 fms
 -
@@ -7229,12 +7282,14 @@ version
 13
 .
 26128
-'
-'
+"
+            
+"
 -
 Xclang
-'
-'
+"
+            
+"
 -
 std
 =
@@ -7242,7 +7297,8 @@ c
 +
 +
 14
-'
+"
+        
 ]
         
 extra_asmflags
@@ -7318,10 +7374,12 @@ libc
 extra_flags
 =
 [
+            
 "
 -
 target
 "
+            
 "
 x86_64
 -
@@ -7329,6 +7387,7 @@ apple
 -
 darwin
 "
+            
 "
 -
 mlinker
@@ -7337,11 +7396,12 @@ version
 =
 137
 "
-                       
+            
 "
 -
 B
 "
+            
 "
 %
 s
@@ -7357,11 +7417,12 @@ getenv
 CROSS_CCTOOLS_PATH
 "
 )
-                       
+            
 "
 -
 isysroot
 "
+            
 os
 .
 getenv
@@ -7370,7 +7431,7 @@ getenv
 CROSS_SYSROOT
 "
 )
-                       
+            
 #
 technically
 the
@@ -7383,7 +7444,7 @@ enough
 to
 deduce
 this
-                       
+            
 #
 but
 clang
@@ -7395,7 +7456,7 @@ figure
 this
 out
 .
-                       
+            
 "
 -
 I
@@ -7415,11 +7476,12 @@ getenv
 CROSS_SYSROOT
 "
 )
-                       
+            
 "
 -
 iframework
 "
+            
 "
 %
 s
@@ -7439,6 +7501,7 @@ getenv
 CROSS_SYSROOT
 "
 )
+        
 ]
         
 extra_cflags
@@ -7469,6 +7532,7 @@ extra_flags
 extra_ldflags
 =
 [
+            
 "
 -
 Wl
@@ -7486,13 +7550,14 @@ getenv
 CROSS_SYSROOT
 "
 )
-                         
+            
 "
 -
 Wl
 -
 dead_strip
 "
+        
 ]
     
 upload_dir
@@ -7501,9 +7566,9 @@ os
 .
 getenv
 (
-'
+"
 UPLOAD_DIR
-'
+"
 )
     
 if
@@ -7516,7 +7581,7 @@ extra_cflags2
 +
 =
 [
-'
+"
 -
 fcrash
 -
@@ -7526,7 +7591,7 @@ dir
 =
 %
 s
-'
+"
 %
 upload_dir
 ]
@@ -7535,7 +7600,7 @@ extra_cxxflags2
 +
 =
 [
-'
+"
 -
 fcrash
 -
@@ -7545,7 +7610,7 @@ dir
 =
 %
 s
-'
+"
 %
 upload_dir
 ]
@@ -7578,20 +7643,31 @@ ld
 extra_ldflags
         
 ar
+        
 ranlib
+        
 libtool
         
 llvm_source_dir
+        
 stage1_dir
+        
 package_name
+        
 build_libcxx
+        
 osx_cross_compile
         
 build_type
+        
 assertions
+        
 python_path
+        
 gcc_dir
+        
 libcxx_include_dir
+        
 build_wasm
         
 is_final_stage
@@ -7602,6 +7678,7 @@ stages
 =
 1
 )
+    
 )
     
 runtimes_source_link
@@ -7628,18 +7705,18 @@ stage2_dir
 =
 build_dir
 +
-'
+"
 /
 stage2
-'
+"
         
 stage2_inst_dir
 =
 stage2_dir
 +
-'
+"
 /
-'
+"
 +
 package_name
         
@@ -7677,7 +7754,6 @@ s
 s
 "
 %
-                
 (
 cc_name
 exe_ext
@@ -7699,7 +7775,6 @@ s
 s
 "
 %
-                
 (
 cxx_name
 exe_ext
@@ -7721,7 +7796,6 @@ s
 s
 "
 %
-                
 (
 cc_name
 exe_ext
@@ -7737,24 +7811,37 @@ ld
 extra_ldflags
             
 ar
+            
 ranlib
+            
 libtool
             
 llvm_source_dir
+            
 stage2_dir
+            
 package_name
+            
 build_libcxx
+            
 osx_cross_compile
             
 build_type
+            
 assertions
+            
 python_path
+            
 gcc_dir
+            
 libcxx_include_dir
+            
 build_wasm
             
 compiler_rt_source_dir
+            
 runtimes_source_link
+            
 compiler_rt_source_link
             
 is_final_stage
@@ -7765,6 +7852,7 @@ stages
 =
 2
 )
+            
 android_targets
 =
 android_targets
@@ -7772,9 +7860,11 @@ android_targets
 extra_targets
 =
 extra_targets
+            
 pgo_phase
 =
 pgo_phase
+        
 )
     
 if
@@ -7788,18 +7878,18 @@ stage3_dir
 =
 build_dir
 +
-'
+"
 /
 stage3
-'
+"
         
 stage3_inst_dir
 =
 stage3_dir
 +
-'
+"
 /
-'
+"
 +
 package_name
         
@@ -7827,7 +7917,6 @@ s
 s
 "
 %
-                
 (
 cc_name
 exe_ext
@@ -7849,7 +7938,6 @@ s
 s
 "
 %
-                
 (
 cxx_name
 exe_ext
@@ -7871,7 +7959,6 @@ s
 s
 "
 %
-                
 (
 cc_name
 exe_ext
@@ -7887,24 +7974,37 @@ ld
 extra_ldflags
             
 ar
+            
 ranlib
+            
 libtool
             
 llvm_source_dir
+            
 stage3_dir
+            
 package_name
+            
 build_libcxx
+            
 osx_cross_compile
             
 build_type
+            
 assertions
+            
 python_path
+            
 gcc_dir
+            
 libcxx_include_dir
+            
 build_wasm
             
 compiler_rt_source_dir
+            
 runtimes_source_link
+            
 compiler_rt_source_link
             
 (
@@ -7913,9 +8013,11 @@ stages
 =
 3
 )
+            
 extra_targets
 =
 extra_targets
+        
 )
     
 if
@@ -7929,18 +8031,18 @@ stage4_dir
 =
 build_dir
 +
-'
+"
 /
 stage4
-'
+"
         
 stage4_inst_dir
 =
 stage4_dir
 +
-'
+"
 /
-'
+"
 +
 package_name
         
@@ -7987,18 +8089,18 @@ merge_cmd
 =
 [
 llvm_profdata
-'
+"
 merge
-'
-'
+"
+"
 -
 o
-'
-'
+"
+"
 merged
 .
 profdata
-'
+"
 ]
             
 profraw_files
@@ -8007,6 +8109,7 @@ glob
 .
 glob
 (
+                
 os
 .
 path
@@ -8014,19 +8117,19 @@ path
 join
 (
 stage2_dir
-'
+"
 build
-'
-                                                   
-'
+"
+"
 profiles
-'
-'
+"
+"
 *
 .
 profraw
-'
+"
 )
+            
 )
             
 if
@@ -8072,7 +8175,6 @@ s
 s
 "
 %
-                
 (
 cc_name
 exe_ext
@@ -8094,7 +8196,6 @@ s
 s
 "
 %
-                
 (
 cxx_name
 exe_ext
@@ -8116,7 +8217,6 @@ s
 s
 "
 %
-                
 (
 cc_name
 exe_ext
@@ -8132,24 +8232,37 @@ ld
 extra_ldflags
             
 ar
+            
 ranlib
+            
 libtool
             
 llvm_source_dir
+            
 stage4_dir
+            
 package_name
+            
 build_libcxx
+            
 osx_cross_compile
             
 build_type
+            
 assertions
+            
 python_path
+            
 gcc_dir
+            
 libcxx_include_dir
+            
 build_wasm
             
 compiler_rt_source_dir
+            
 runtimes_source_link
+            
 compiler_rt_source_link
             
 (
@@ -8158,12 +8271,15 @@ stages
 =
 4
 )
+            
 extra_targets
 =
 extra_targets
+            
 pgo_phase
 =
 pgo_phase
+        
 )
     
 if
@@ -8172,6 +8288,7 @@ build_clang_tidy
         
 prune_final_dir_for_clang_tidy
 (
+            
 os
 .
 path
@@ -8181,8 +8298,8 @@ join
 final_stage_dir
 package_name
 )
-                                       
 osx_cross_compile
+        
 )
     
 #
@@ -8248,7 +8365,7 @@ glob
 .
 glob
 (
-                    
+                
 os
 .
 path
@@ -8272,6 +8389,7 @@ lib
 wasi
 "
 )
+            
 )
 :
                 
@@ -8333,7 +8451,6 @@ path
 .
 dirname
 (
-                    
 srcdir
 )
 )
@@ -8347,6 +8464,7 @@ path
 .
 join
 (
+                    
 final_inst_dir
 "
 lib
@@ -8355,13 +8473,13 @@ lib
 clang
 "
 version
-                                       
 "
 lib
 "
 "
 wasi
 "
+                
 )
                 
 mkdir_p

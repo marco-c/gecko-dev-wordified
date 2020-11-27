@@ -121,9 +121,9 @@ event
 stop_signal
 =
 =
-'
+"
 SIGSEGV
-'
+"
 :
         
 #
@@ -167,6 +167,7 @@ gdb
 .
 parse_and_eval
 (
+                
 "
 (
 struct
@@ -182,6 +183,7 @@ sigaction
 )
 )
 "
+            
 )
             
 sigaction_buffers
@@ -210,7 +212,8 @@ gdb
 .
 parse_and_eval
 (
-'
+            
+"
 (
 void
 (
@@ -225,7 +228,8 @@ void
 )
 )
 __sigaction
-'
+"
+        
 )
 .
 dereference
@@ -253,14 +257,14 @@ WasmTrapHandler
 if
 buf
 [
-'
+"
 __sigaction_handler
-'
+"
 ]
 [
-'
+"
 sa_handler
-'
+"
 ]
 =
 =

@@ -100,9 +100,11 @@ __init__
 all_actions
 =
 [
-'
+                
+"
 verbosity
-'
+"
+            
 ]
             
 require_config_file
@@ -170,7 +172,6 @@ tar
 .
 bz2
 "
-            
 file_name
 =
 tarball_name
@@ -281,14 +282,17 @@ xjvf
 "
 tarball_name
 ]
+            
 #
 error_list
 =
 TarErrorList
+            
 #
 halt_on_failure
 =
 True
+            
 #
 fatal_exit_code
 =
@@ -331,14 +335,17 @@ tarball_name
 x
 "
 ]
+            
 #
 error_list
 =
 TarErrorList
+            
 #
 halt_on_failure
 =
 True
+            
 #
 fatal_exit_code
 =
@@ -382,6 +389,7 @@ tar
 bz2
 "
 ]
+            
 #
 error_list
 =
@@ -394,6 +402,7 @@ self
 .
 error
 (
+                
 "
 There
 '
@@ -414,6 +423,7 @@ proceed
 anyway
 .
 "
+            
 )
         
 self
@@ -432,9 +442,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 verbose_example

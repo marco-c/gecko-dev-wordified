@@ -167,6 +167,7 @@ self
 .
 assertIsInstance
 (
+                
 self
 .
 marionette
@@ -175,12 +176,14 @@ current_chrome_window_handle
 six
 .
 string_types
+            
 )
             
 self
 .
 assertIsInstance
 (
+                
 self
 .
 marionette
@@ -189,6 +192,7 @@ current_window_handle
 six
 .
 string_types
+            
 )
         
 except
@@ -264,6 +268,7 @@ self
 .
 assertEqual
 (
+            
 len
 (
 self
@@ -280,6 +285,7 @@ start_windows
 )
 +
 1
+        
 )
         
 self
@@ -298,6 +304,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -306,6 +313,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 new_dialog
@@ -329,6 +337,7 @@ self
 .
 assertEqual
 (
+            
 len
 (
 self
@@ -345,6 +354,7 @@ start_windows
 )
 +
 2
+        
 )
         
 self
@@ -363,6 +373,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -371,6 +382,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 chrome_window_handles_in_chrome_scope
@@ -406,26 +418,29 @@ self
 .
 assertEqual
 (
+                
 self
 .
 marionette
 .
 chrome_window_handles
-                             
+                
 chrome_window_handles_in_chrome_scope
+            
 )
             
 self
 .
 assertEqual
 (
+                
 self
 .
 marionette
 .
 window_handles
-                             
 window_handles_in_chrome_scope
+            
 )
     
 def
@@ -456,6 +471,7 @@ self
 .
 assertEqual
 (
+            
 len
 (
 self
@@ -472,6 +488,7 @@ start_windows
 )
 +
 1
+        
 )
         
 self
@@ -490,6 +507,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -498,6 +516,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 #
@@ -588,6 +607,7 @@ self
 .
 assertEqual
 (
+            
 len
 (
 self
@@ -602,6 +622,7 @@ self
 .
 start_windows
 )
+        
 )
         
 self
@@ -637,6 +658,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -645,6 +667,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
     
 def
@@ -672,6 +695,7 @@ self
 .
 assertEqual
 (
+            
 len
 (
 self
@@ -688,6 +712,7 @@ start_windows
 )
 +
 1
+        
 )
         
 self
@@ -706,6 +731,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -714,6 +740,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 self
@@ -775,6 +802,7 @@ self
 .
 assertEqual
 (
+            
 len
 (
 self
@@ -789,6 +817,7 @@ self
 .
 start_windows
 )
+        
 )
         
 self
@@ -824,6 +853,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -832,6 +862,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
     
 def

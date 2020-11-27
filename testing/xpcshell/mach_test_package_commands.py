@@ -167,9 +167,9 @@ join
 args
 .
 appPath
-'
+"
 xpcshell
-'
+"
 )
     
 if
@@ -204,9 +204,9 @@ path
 join
 (
 path
-'
+"
 plugins
-'
+"
 )
             
 if
@@ -236,12 +236,11 @@ commandline
 .
 setup_logging
 (
+        
 "
 XPCShellTests
 "
-                                           
 args
-                                           
 {
 "
 mach
@@ -251,7 +250,6 @@ sys
 .
 stdout
 }
-                                           
 {
 "
 verbose
@@ -259,6 +257,7 @@ verbose
 :
 True
 }
+    
 )
     
 if
@@ -278,12 +277,12 @@ join
 context
 .
 package_root
-'
+"
 xpcshell
-'
-'
+"
+"
 tests
-'
+"
 )
         
 normalize
@@ -344,30 +343,33 @@ MachCommandBase
     
 Command
 (
-'
+        
+"
 xpcshell
 -
 test
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 description
 =
-'
+"
 Run
 the
 xpcshell
 harness
 .
-'
-             
+"
+        
 parser
 =
 parser_desktop
+    
 )
     
 def

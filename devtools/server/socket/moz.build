@@ -89,7 +89,7 @@ MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
-'
+"
 tests
 /
 chrome
@@ -97,15 +97,15 @@ chrome
 chrome
 .
 ini
-'
+"
 ]
 DevToolsModules
 (
-'
+"
 websocket
 -
 server
 .
 js
-'
+"
 )

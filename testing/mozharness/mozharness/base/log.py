@@ -279,9 +279,9 @@ logging
 addLevelName
 (
 FATAL_LEVEL
-'
+"
 FATAL
-'
+"
 )
 #
 mozharness
@@ -298,27 +298,33 @@ IGNORE
 =
 (
     
-'
+"
 debug
-'
-'
+"
+    
+"
 info
-'
-'
+"
+    
+"
 warning
-'
-'
+"
+    
+"
 error
-'
-'
+"
+    
+"
 critical
-'
-'
+"
+    
+"
 fatal
-'
-'
+"
+    
+"
 ignore
-'
+"
 )
 LOG_LEVELS
 =
@@ -529,9 +535,9 @@ if
 hasattr
 (
 self
-'
+"
 config
-'
+"
 )
 :
             
@@ -543,9 +549,9 @@ config
 .
 get
 (
-'
+"
 log_level
-'
+"
 INFO
 )
         
@@ -653,9 +659,9 @@ not
 hasattr
 (
 self
-'
+"
 config
-'
+"
 )
 or
 self
@@ -664,9 +670,9 @@ config
 .
 get
 (
-'
+"
 log_to_console
-'
+"
 True
 )
 :
@@ -798,6 +804,7 @@ log_message
 (
                 
 message
+                
 level
 =
 level
@@ -857,12 +864,12 @@ self
 .
 _print
 (
-'
+"
 DEBUG
 :
 %
 s
-'
+"
 %
 message
 )
@@ -2004,6 +2011,7 @@ error_list
 def
 __init__
 (
+        
 self
 config
 =
@@ -2020,6 +2028,7 @@ True
 *
 *
 kwargs
+    
 )
 :
         
@@ -2316,9 +2325,9 @@ match
 False
             
 if
-'
+"
 substr
-'
+"
 in
 error_check
 :
@@ -2326,9 +2335,9 @@ error_check
 if
 error_check
 [
-'
+"
 substr
-'
+"
 ]
 in
 line
@@ -2339,9 +2348,9 @@ match
 True
             
 elif
-'
+"
 regex
-'
+"
 in
 error_check
 :
@@ -2349,9 +2358,9 @@ error_check
 if
 error_check
 [
-'
+"
 regex
-'
+"
 ]
 .
 search
@@ -2387,7 +2396,6 @@ in
 s
 "
 %
-                             
 error_check
 )
             
@@ -2401,9 +2409,9 @@ error_check
 .
 get
 (
-'
+"
 level
-'
+"
 INFO
 )
                 
@@ -2415,10 +2423,10 @@ log_output
                     
 message
 =
-'
+"
 %
 s
-'
+"
 %
 line
                     
@@ -2427,27 +2435,27 @@ error_check
 .
 get
 (
-'
+"
 explanation
-'
+"
 )
 :
                         
 message
 +
 =
-'
+"
 \
 n
 %
 s
-'
+"
 %
 error_check
 [
-'
+"
 explanation
-'
+"
 ]
                     
 if
@@ -2455,9 +2463,9 @@ error_check
 .
 get
 (
-'
+"
 summary
-'
+"
 )
 :
                         
@@ -2524,7 +2532,6 @@ self
 worst_level
 (
 log_level
-                                                        
 self
 .
 worst_log_level
@@ -2543,10 +2550,10 @@ self
 .
 info
 (
-'
+"
 %
 s
-'
+"
 %
 line
 )
@@ -2672,9 +2679,9 @@ utf
 -
 8
 "
-'
+"
 replace
-'
+"
 )
             
 line
@@ -2814,23 +2821,24 @@ __init__
 (
         
 self
+        
 log_level
 =
 INFO
         
 log_format
 =
-'
+"
 %
 (
 message
 )
 s
-'
+"
         
 log_date_format
 =
-'
+"
 %
 H
 :
@@ -2839,13 +2847,13 @@ M
 :
 %
 S
-'
+"
         
 log_name
 =
-'
+"
 test
-'
+"
         
 log_to_console
 =
@@ -2853,9 +2861,9 @@ True
         
 log_dir
 =
-'
+"
 .
-'
+"
         
 log_to_raw
 =
@@ -2863,8 +2871,8 @@ False
         
 logger_name
 =
-'
-'
+"
+"
         
 append_to_log
 =
@@ -3442,6 +3450,7 @@ self
 .
 log_message
 (
+            
 "
 %
 s
@@ -3453,8 +3462,8 @@ in
 %
 s
 "
+            
 %
-                         
 (
 name
 datetime
@@ -3482,13 +3491,13 @@ M
 SZ
 "
 )
-                          
 os
 .
 getcwd
 (
 )
 )
+        
 )
     
 def
@@ -3764,7 +3773,7 @@ are
 no
 handlers
 .
-            
+        
 The
 new
 logger
@@ -3833,17 +3842,17 @@ self
 .
 log_files
 [
-'
+"
 raw
-'
+"
 ]
 =
-'
+"
 %
 s_raw
 .
 log
-'
+"
 %
 self
 .
@@ -3853,6 +3862,7 @@ self
 .
 add_file_handler
 (
+                
 os
 .
 path
@@ -3862,26 +3872,26 @@ join
 self
 .
 abs_log_dir
-                                               
 self
 .
 log_files
 [
-'
+"
 raw
-'
+"
 ]
 )
-                                  
+                
 log_format
 =
-'
+"
 %
 (
 message
 )
 s
-'
+"
+            
 )
     
 def
@@ -3931,15 +3941,15 @@ self
 )
         
 if
-'
+"
 all_handlers
-'
+"
 in
 attrs
 and
-'
+"
 logger
-'
+"
 in
 attrs
 :
@@ -4014,7 +4024,6 @@ None
 log_format
 =
 None
-                            
 date_format
 =
 None
@@ -4130,6 +4139,7 @@ console_handler
 .
 setFormatter
 (
+            
 self
 .
 get_log_formatter
@@ -4137,11 +4147,11 @@ get_log_formatter
 log_format
 =
 log_format
-                                                            
 date_format
 =
 date_format
 )
+        
 )
         
 self
@@ -4165,6 +4175,7 @@ console_handler
 def
 add_file_handler
 (
+        
 self
 log_path
 log_level
@@ -4173,10 +4184,10 @@ None
 log_format
 =
 None
-                         
 date_format
 =
 None
+    
 )
 :
         
@@ -4344,6 +4355,7 @@ file_handler
 .
 setFormatter
 (
+            
 self
 .
 get_log_formatter
@@ -4351,11 +4363,11 @@ get_log_formatter
 log_format
 =
 log_format
-                                                         
 date_format
 =
 date_format
 )
+        
 )
         
 self
@@ -4619,11 +4631,11 @@ logger
 log
 (
 FATAL_LEVEL
-'
+"
 Exiting
 %
 d
-'
+"
 %
 exit_code
 )
@@ -4686,11 +4698,12 @@ date
 def
 __init__
 (
+        
 self
-                 
+        
 log_format
 =
-'
+"
 %
 (
 asctime
@@ -4707,21 +4720,24 @@ levelname
 message
 )
 s
-'
-                 
+"
+        
 logger_name
 =
-'
+"
 Simple
-'
+"
+        
 log_dir
 =
-'
+"
 logs
-'
+"
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -4856,20 +4872,25 @@ BaseLogger
 .
 __init__
 (
+            
 self
+            
 logger_name
 =
 logger_name
+            
 log_format
 =
 log_format
-                            
+            
 log_dir
 =
 log_dir
+            
 *
 *
 kwargs
+        
 )
         
 self
@@ -4929,16 +4950,15 @@ path
 .
 join
 (
-            
 self
 .
 abs_log_dir
-'
+"
 %
 s
 .
 log
-'
+"
 %
 self
 .
@@ -4949,9 +4969,9 @@ self
 .
 log_files
 [
-'
+"
 default
-'
+"
 ]
 =
 self
@@ -5024,16 +5044,18 @@ date
 def
 __init__
 (
+        
 self
+        
 logger_name
 =
-'
+"
 Multi
-'
-                 
+"
+        
 log_format
 =
-'
+"
 %
 (
 asctime
@@ -5050,19 +5072,22 @@ levelname
 message
 )
 s
-'
-                 
+"
+        
 log_dir
 =
-'
+"
 logs
-'
+"
+        
 log_to_raw
 =
 True
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -5223,25 +5248,29 @@ BaseLogger
 .
 __init__
 (
+            
 self
+            
 logger_name
 =
 logger_name
-                            
+            
 log_format
 =
 log_format
-                            
+            
 log_to_raw
 =
 log_to_raw
+            
 log_dir
 =
 log_dir
-                            
+            
 *
 *
 kwargs
+        
 )
         
 self
@@ -5344,20 +5373,19 @@ log_files
 level
 ]
 =
-'
+"
 %
 s_
 %
 s
 .
 log
-'
+"
 %
 (
 self
 .
 log_name
-                                                       
 level
 )
                 
@@ -5365,6 +5393,7 @@ self
 .
 add_file_handler
 (
+                    
 os
 .
 path
@@ -5374,7 +5403,6 @@ join
 self
 .
 abs_log_dir
-                                                   
 self
 .
 log_files
@@ -5382,10 +5410,11 @@ log_files
 level
 ]
 )
-                                      
+                    
 log_level
 =
 level
+                
 )
 #
 ConsoleLogger
@@ -5422,11 +5451,12 @@ stderr
 def
 __init__
 (
+        
 self
-                 
+        
 log_format
 =
-'
+"
 %
 (
 levelname
@@ -5438,11 +5468,11 @@ levelname
 message
 )
 s
-'
-                 
+"
+        
 log_date_format
 =
-'
+"
 %
 H
 :
@@ -5451,16 +5481,18 @@ M
 :
 %
 S
-'
-                 
+"
+        
 logger_name
 =
-'
+"
 Console
-'
+"
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -5546,17 +5578,18 @@ BaseLogger
 .
 __init__
 (
+            
 self
 logger_name
 =
 logger_name
-                            
 log_format
 =
 log_format
 *
 *
 kwargs
+        
 )
         
 self
@@ -5746,9 +5779,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 "

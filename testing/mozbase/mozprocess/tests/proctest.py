@@ -199,8 +199,8 @@ pid
         
 output
 =
-'
-'
+"
+"
         
 #
 ProcessHandler
@@ -228,9 +228,9 @@ if
 getattr
 (
 proc
-'
+"
 output
-'
+"
 )
 :
             
@@ -241,9 +241,9 @@ proc
 output
         
 if
-'
+"
 returncode
-'
+"
 in
 expectedfail
 :
@@ -252,6 +252,7 @@ self
 .
 assertTrue
 (
+                
 returncode
 "
 Detected
@@ -266,6 +267,7 @@ s
 "
 %
 returncode
+            
 )
         
 elif
@@ -276,6 +278,7 @@ self
 .
 assertEqual
 (
+                
 returncode
 None
 "
@@ -291,6 +294,7 @@ s
 "
 %
 returncode
+            
 )
         
 else
@@ -300,6 +304,7 @@ self
 .
 assertNotEqual
 (
+                
 returncode
 None
 "
@@ -310,12 +315,13 @@ return
 code
 of
 "
+            
 )
         
 if
-'
+"
 didtimeout
-'
+"
 in
 expectedfail
 :
@@ -363,7 +369,9 @@ self
 .
 assertTrue
 (
+                
 detected
+                
 "
 Detected
 process
@@ -371,7 +379,6 @@ is
 not
 running
 "
-                            
 "
 process
 output
@@ -381,6 +388,7 @@ s
 "
 %
 output
+            
 )
         
 else
@@ -390,8 +398,10 @@ self
 .
 assertTrue
 (
+                
 not
 detected
+                
 "
 Detected
 process
@@ -399,7 +409,6 @@ is
 still
 running
 "
-                            
 "
 process
 output
@@ -409,4 +418,5 @@ s
 "
 %
 output
+            
 )

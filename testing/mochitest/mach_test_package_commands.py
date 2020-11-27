@@ -140,29 +140,29 @@ kwargs
 .
 get
 (
-'
+"
 log
-'
+"
 )
 :
         
 kwargs
 [
-'
+"
 log
-'
+"
 ]
 =
 setup_logging
 (
-'
+"
 mochitest
-'
+"
 kwargs
 {
-'
+"
 mach
-'
+"
 :
 sys
 .
@@ -177,9 +177,9 @@ logger
 =
 kwargs
 [
-'
+"
 log
-'
+"
 ]
     
 flavor
@@ -188,14 +188,14 @@ kwargs
 .
 get
 (
-'
+"
 flavor
-'
+"
 )
 or
-'
+"
 mochitest
-'
+"
     
 if
 flavor
@@ -220,9 +220,9 @@ flavor
 in
 fobj
 [
-'
+"
 aliases
-'
+"
 ]
 :
                 
@@ -247,9 +247,9 @@ fobj
 .
 get
 (
-'
+"
 extra_args
-'
+"
 {
 }
 )
@@ -260,9 +260,9 @@ kwargs
 .
 get
 (
-'
+"
 allow_software_gl_layers
-'
+"
 )
 :
         
@@ -270,21 +270,21 @@ os
 .
 environ
 [
-'
+"
 MOZ_LAYERS_ALLOW_SOFTWARE_GL
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 del
 kwargs
 [
-'
+"
 allow_software_gl_layers
-'
+"
 ]
     
 if
@@ -292,9 +292,9 @@ kwargs
 .
 get
 (
-'
+"
 mochitest_suite
-'
+"
 )
 :
         
@@ -302,17 +302,17 @@ suite
 =
 kwargs
 [
-'
+"
 mochitest_suite
-'
+"
 ]
         
 del
 kwargs
 [
-'
+"
 mochitest_suite
-'
+"
 ]
     
 elif
@@ -320,9 +320,9 @@ kwargs
 .
 get
 (
-'
+"
 test_suite
-'
+"
 )
 :
         
@@ -330,17 +330,17 @@ suite
 =
 kwargs
 [
-'
+"
 test_suite
-'
+"
 ]
         
 del
 kwargs
 [
-'
+"
 test_suite
-'
+"
 ]
     
 if
@@ -348,18 +348,18 @@ kwargs
 .
 get
 (
-'
+"
 no_run_tests
-'
+"
 )
 :
         
 del
 kwargs
 [
-'
+"
 no_run_tests
-'
+"
 ]
     
 args
@@ -381,9 +381,9 @@ mozharness_config
 .
 get
 (
-'
+"
 e10s
-'
+"
 args
 .
 e10s
@@ -600,18 +600,18 @@ args
 subsuite
 =
 =
-'
+"
 devtools
-'
+"
 :
         
 args
 .
 flavor
 =
-'
+"
 browser
-'
+"
     
 if
 not
@@ -632,9 +632,9 @@ environ
 .
 get
 (
-'
+"
 MOZHARNESS_TEST_PATHS
-'
+"
 '
 "
 "
@@ -704,14 +704,14 @@ fobj
 .
 get
 (
-'
+"
 install_subdir
-'
+"
 fobj
 [
-'
+"
 suite
-'
+"
 ]
 )
         
@@ -726,9 +726,9 @@ join
 context
 .
 package_root
-'
+"
 mochitest
-'
+"
 install_subdir
 )
         
@@ -764,17 +764,17 @@ info
 .
 get
 (
-'
+"
 buildapp
-'
+"
 )
 =
 =
-'
+"
 mobile
 /
 android
-'
+"
 :
         
 return
@@ -833,9 +833,9 @@ join
 context
 .
 bin_dir
-'
+"
 plugins
-'
+"
 )
 )
     
@@ -884,9 +884,9 @@ args
 .
 marionette_startup_timeout
 =
-'
+"
 180
-'
+"
     
 args
 .
@@ -905,9 +905,9 @@ args
 flavor
 =
 =
-'
+"
 browser
-'
+"
 :
         
 args
@@ -971,7 +971,7 @@ args
 .
 app
 or
-'
+"
 org
 .
 mozilla
@@ -979,7 +979,7 @@ mozilla
 geckoview
 .
 test
-'
+"
     
 args
 .
@@ -1037,9 +1037,9 @@ config
 .
 get
 (
-'
+"
 remote_webserver
-'
+"
 host
 )
         
@@ -1051,9 +1051,9 @@ config
 .
 get
 (
-'
+"
 http_port
-'
+"
 8854
 )
         
@@ -1065,9 +1065,9 @@ config
 .
 get
 (
-'
+"
 ssl_port
-'
+"
 4454
 )
         
@@ -1077,24 +1077,26 @@ adbPath
 =
 config
 [
-'
+"
 exes
-'
+"
 ]
 [
-'
+"
 adb
-'
+"
 ]
 %
 {
-'
+            
+"
 abs_work_dir
-'
+"
 :
 context
 .
 mozharness_workdir
+        
 }
         
 args
@@ -1107,14 +1109,14 @@ environ
 .
 get
 (
-'
+"
 DEVICE_SERIAL
-'
-'
+"
+"
 emulator
 -
 5554
-'
+"
 )
     
 return
@@ -1141,6 +1143,7 @@ extraProfileFiles
 .
 append
 (
+        
 os
 .
 path
@@ -1150,13 +1153,14 @@ join
 context
 .
 package_root
-'
+"
 mochitest
-'
-'
+"
+"
 fonts
-'
+"
 )
+    
 )
     
 from
@@ -1246,46 +1250,46 @@ parser
 .
 add_argument
 (
-'
+"
 -
 -
 test
 -
 suite
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 mochitest
 -
 suite
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 download
 -
 symbols
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 allow
@@ -1295,19 +1299,19 @@ software
 gl
 -
 layers
-'
+"
 action
 =
-'
+"
 store_true
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 no
@@ -1315,12 +1319,12 @@ no
 run
 -
 tests
-'
+"
 action
 =
-'
+"
 store_true
-'
+"
 )
 def
 setup_mochitest_argument_parser
@@ -1340,9 +1344,9 @@ here
     
 app
 =
-'
+"
 generic
-'
+"
     
 if
 mozinfo
@@ -1351,24 +1355,24 @@ info
 .
 get
 (
-'
+"
 buildapp
-'
+"
 )
 =
 =
-'
+"
 mobile
 /
 android
-'
+"
 :
         
 app
 =
-'
+"
 android
-'
+"
     
 from
 mochitest_options
@@ -1431,28 +1435,31 @@ MachCommandBase
     
 Command
 (
-'
+        
+"
 mochitest
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 description
 =
-'
+"
 Run
 the
 mochitest
 harness
 .
-'
-             
+"
+        
 parser
 =
 setup_mochitest_argument_parser
+    
 )
     
 def
@@ -1487,20 +1494,22 @@ kwargs
     
 Command
 (
-'
+        
+"
 geckoview
 -
 junit
-'
+"
+        
 category
 =
-'
+"
 testing
-'
-             
+"
+        
 description
 =
-'
+"
 Run
 the
 geckoview
@@ -1508,11 +1517,12 @@ geckoview
 junit
 harness
 .
-'
-             
+"
+        
 parser
 =
 setup_junit_argument_parser
+    
 )
     
 def

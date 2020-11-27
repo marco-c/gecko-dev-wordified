@@ -137,51 +137,49 @@ noqa
 class
 ArchlinuxBootstrapper
 (
-        
 LinuxBootstrapper
-        
 BaseBootstrapper
 )
 :
     
-'
-'
-'
+"
+"
+"
 Archlinux
 experimental
 bootstrapper
 .
-'
-'
-'
+"
+"
+"
     
 SYSTEM_PACKAGES
 =
 [
         
-'
+"
 autoconf2
 .
 13
-'
+"
         
-'
+"
 base
 -
 devel
-'
+"
         
-'
+"
 nodejs
-'
+"
         
-'
+"
 unzip
-'
+"
         
-'
+"
 zip
-'
+"
     
 ]
     
@@ -189,55 +187,55 @@ BROWSER_PACKAGES
 =
 [
         
-'
+"
 alsa
 -
 lib
-'
+"
         
-'
+"
 dbus
 -
 glib
-'
+"
         
-'
+"
 gtk2
-'
+"
         
-'
+"
 gtk3
-'
+"
         
-'
+"
 libevent
-'
+"
         
-'
+"
 libvpx
-'
+"
         
-'
+"
 libxt
-'
+"
         
-'
+"
 mime
 -
 types
-'
+"
         
-'
+"
 nasm
-'
+"
         
-'
+"
 startup
 -
 notification
-'
+"
         
-'
+"
 gst
 -
 plugins
@@ -245,37 +243,37 @@ plugins
 base
 -
 libs
-'
+"
         
-'
+"
 libpulse
-'
+"
         
-'
+"
 xorg
 -
 server
 -
 xvfb
-'
+"
         
-'
+"
 yasm
-'
+"
         
-'
+"
 gst
 -
 libav
-'
+"
         
-'
+"
 gst
 -
 plugins
 -
 good
-'
+"
     
 ]
     
@@ -283,7 +281,7 @@ BROWSER_AUR_PACKAGES
 =
 [
         
-'
+"
 https
 :
 /
@@ -307,7 +305,7 @@ uuid
 tar
 .
 gz
-'
+"
     
 ]
     
@@ -345,11 +343,11 @@ php
 Java
 .
         
-'
+"
 jdk8
 -
 openjdk
-'
+"
         
 #
 For
@@ -361,9 +359,9 @@ and
 NDK
 .
         
-'
+"
 wget
-'
+"
         
 #
 See
@@ -377,29 +375,29 @@ multilib
 below
 .
         
-'
+"
 multilib
 /
 lib32
 -
 ncurses
-'
+"
         
-'
+"
 multilib
 /
 lib32
 -
 readline
-'
+"
         
-'
+"
 multilib
 /
 lib32
 -
 zlib
-'
+"
     
 ]
     
@@ -417,7 +415,7 @@ kwargs
         
 print
 (
-'
+"
 Using
 an
 experimental
@@ -425,7 +423,7 @@ bootstrapper
 for
 Archlinux
 .
-'
+"
 )
         
 BaseBootstrapper
@@ -698,7 +696,8 @@ e
             
 print
 (
-'
+                
+"
 Failed
 to
 install
@@ -708,9 +707,9 @@ packages
 The
 Android
 developer
-'
-                  
-'
+"
+                
+"
 toolchain
 requires
 32
@@ -720,9 +719,9 @@ be
 enabled
 (
 see
-'
-                  
-'
+"
+                
+"
 https
 :
 /
@@ -744,9 +743,9 @@ You
 may
 need
 to
-'
-                  
-'
+"
+                
+"
 manually
 enable
 the
@@ -755,9 +754,9 @@ repository
 following
 the
 instructions
-'
-                  
-'
+"
+                
+"
 at
 https
 :
@@ -775,7 +774,8 @@ php
 /
 Multilib
 .
-'
+"
+            
 )
             
 raise
@@ -804,18 +804,19 @@ android
 .
 ensure_android
 (
-'
+            
+"
 linux
-'
+"
 artifact_mode
 =
 artifact_mode
-                               
 no_interactive
 =
 self
 .
 no_interactive
+        
 )
     
 def
@@ -838,9 +839,9 @@ android
 .
 generate_mozconfig
 (
-'
+"
 linux
-'
+"
 artifact_mode
 =
 artifact_mode
@@ -888,9 +889,9 @@ self
 .
 pacman_install
 (
-'
+"
 mercurial
-'
+"
 )
     
 def
@@ -905,18 +906,18 @@ packages
 command
 =
 [
-'
+"
 pacman
-'
-'
+"
+"
 -
 S
-'
-'
+"
+"
 -
 -
 needed
-'
+"
 ]
         
 if
@@ -929,11 +930,11 @@ command
 .
 append
 (
-'
+"
 -
 -
 noconfirm
-'
+"
 )
         
 command
@@ -960,18 +961,18 @@ self
 command
 =
 [
-'
+"
 pacman
-'
-'
+"
+"
 -
 S
-'
-'
+"
+"
 -
 -
 refresh
-'
+"
 ]
         
 self
@@ -1018,17 +1019,17 @@ uri
 command
 =
 [
-'
+"
 curl
-'
-'
+"
+"
 -
 L
-'
-'
+"
+"
 -
 O
-'
+"
 uri
 ]
         
@@ -1053,50 +1054,50 @@ if
 ext
 =
 =
-'
+"
 gz
-'
+"
 :
             
 compression
 =
-'
+"
 -
 z
-'
+"
         
 elif
 ext
 =
 =
-'
+"
 bz
-'
+"
 :
             
 compression
 =
 =
-'
+"
 -
 j
-'
+"
         
 elif
 exit
 =
 =
-'
+"
 xz
-'
+"
 :
             
 compression
 =
 =
-'
+"
 x
-'
+"
         
 name
 =
@@ -1110,34 +1111,34 @@ path
 name
 )
 +
-'
+"
 .
 tar
 .
-'
+"
 +
 ext
         
 command
 =
 [
-'
+"
 tar
-'
-'
+"
+"
 -
 x
-'
+"
 compression
-'
+"
 -
 f
-'
+"
 name
-'
+"
 -
 C
-'
+"
 path
 ]
         
@@ -1159,13 +1160,13 @@ name
 command
 =
 [
-'
+"
 makepkg
-'
-'
+"
+"
 -
 s
-'
+"
 ]
         
 makepkg_env
@@ -1180,30 +1181,30 @@ copy
         
 makepkg_env
 [
-'
+"
 PKGDEST
-'
+"
 ]
 =
-'
+"
 .
-'
+"
         
 makepkg_env
 [
-'
+"
 PKGEXT
-'
+"
 ]
 =
-'
+"
 .
 pkg
 .
 tar
 .
 xz
-'
+"
         
 self
 .
@@ -1223,7 +1224,7 @@ glob
 (
 name
 +
-'
+"
 *
 .
 pkg
@@ -1231,7 +1232,7 @@ pkg
 tar
 .
 xz
-'
+"
 )
 [
 0
@@ -1240,13 +1241,13 @@ xz
 command
 =
 [
-'
+"
 pacman
-'
-'
+"
+"
 -
 U
-'
+"
 ]
         
 if
@@ -1259,11 +1260,11 @@ command
 .
 append
 (
-'
+"
 -
 -
 noconfirm
-'
+"
 )
         
 command
@@ -1306,7 +1307,8 @@ no_interactive
             
 print
 (
-'
+                
+"
 WARNING
 !
 This
@@ -1318,9 +1320,9 @@ packages
 from
 the
 AUR
-'
-                  
-'
+"
+                
+"
 This
 is
 potentially
@@ -1331,9 +1333,9 @@ recommend
 that
 you
 carefully
-'
-                  
-'
+"
+                
+"
 read
 each
 package
@@ -1343,29 +1345,30 @@ check
 the
 sources
 .
-'
-                  
-'
+"
+                
+"
 These
 packages
 will
 be
 built
 in
-'
+"
 +
 path
 +
-'
+"
 .
-'
+"
+            
 )
             
 choice
 =
 input
 (
-'
+"
 Do
 you
 want
@@ -1380,16 +1383,16 @@ no
 [
 no
 ]
-'
+"
 )
             
 if
 choice
 !
 =
-'
+"
 yes
-'
+"
 :
                 
 sys
@@ -1428,9 +1431,9 @@ package
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 -
@@ -1439,9 +1442,9 @@ split
 .
 split
 (
-'
+"
 .
-'
+"
 )
             
 directory

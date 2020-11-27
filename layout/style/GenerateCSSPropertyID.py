@@ -252,12 +252,14 @@ output
 .
 write
 (
+        
 template
 .
 substitute
 (
+            
 {
-        
+                
 "
 property_ids
 "
@@ -283,7 +285,7 @@ p
 in
 property_ids
 )
-        
+                
 "
 longhand_count
 "
@@ -292,7 +294,7 @@ property_ids
 [
 longhand_count
 ]
-        
+                
 "
 shorthand_count
 "
@@ -303,7 +305,9 @@ longhand_count
 +
 shorthand_count
 ]
-    
+            
 }
+        
 )
+    
 )

@@ -99,13 +99,13 @@ skipIf
 psutil
 is
 None
-'
+"
 Resource
 monitor
 requires
 psutil
 .
-'
+"
 )
 class
 TestResourceMonitor
@@ -274,9 +274,9 @@ monitor
 .
 phase
 (
-'
+"
 phase1
-'
+"
 )
 :
             
@@ -292,9 +292,9 @@ monitor
 .
 phase
 (
-'
+"
 phase2
-'
+"
 )
 :
                 
@@ -329,12 +329,12 @@ self
 assertEqual
 (
 [
-'
+"
 phase2
-'
-'
+"
+"
 phase1
-'
+"
 ]
 list
 (
@@ -367,9 +367,9 @@ monitor
 .
 phase_usage
 (
-'
+"
 phase1
-'
+"
 )
 )
         
@@ -381,9 +381,9 @@ monitor
 .
 phase_usage
 (
-'
+"
 phase2
-'
+"
 )
 )
         
@@ -546,9 +546,9 @@ monitor
 .
 record_event
 (
-'
+"
 t0
-'
+"
 )
         
 time
@@ -562,9 +562,9 @@ monitor
 .
 record_event
 (
-'
+"
 t1
-'
+"
 )
         
 time
@@ -614,9 +614,9 @@ event
 [
 1
 ]
-'
+"
 t0
-'
+"
 )
         
 self
@@ -643,12 +643,12 @@ monitor
 .
 between_events_usage
 (
-'
+"
 t0
-'
-'
+"
+"
 t1
-'
+"
 )
 )
         
@@ -801,9 +801,9 @@ values
 [
 0
 ]
-'
+"
 user
-'
+"
 )
 )
         
@@ -924,9 +924,9 @@ assertTrue
 hasattr
 (
 values
-'
+"
 read_count
-'
+"
 )
 )
     
@@ -1038,18 +1038,18 @@ monitor
 .
 begin_phase
 (
-'
+"
 phase1
-'
+"
 )
         
 monitor
 .
 record_event
 (
-'
+"
 foo
-'
+"
 )
         
 time
@@ -1065,18 +1065,18 @@ monitor
 .
 begin_phase
 (
-'
+"
 phase2
-'
+"
 )
         
 monitor
 .
 record_event
 (
-'
+"
 bar
-'
+"
 )
         
 time
@@ -1092,9 +1092,9 @@ monitor
 .
 finish_phase
 (
-'
+"
 phase1
-'
+"
 )
         
 time
@@ -1110,9 +1110,9 @@ monitor
 .
 finish_phase
 (
-'
+"
 phase2
-'
+"
 )
         
 time
@@ -1144,9 +1144,9 @@ assertEqual
 (
 d
 [
-'
+"
 version
-'
+"
 ]
 2
 )
@@ -1159,9 +1159,9 @@ len
 (
 d
 [
-'
+"
 events
-'
+"
 ]
 )
 2
@@ -1175,9 +1175,9 @@ len
 (
 d
 [
-'
+"
 phases
-'
+"
 ]
 )
 2
@@ -1187,9 +1187,9 @@ self
 .
 assertIn
 (
-'
+"
 system
-'
+"
 d
 )
         
@@ -1199,9 +1199,9 @@ assertIsInstance
 (
 d
 [
-'
+"
 system
-'
+"
 ]
 dict
 )
@@ -1212,9 +1212,9 @@ assertIsInstance
 (
 d
 [
-'
+"
 overall
-'
+"
 ]
 dict
 )
@@ -1223,14 +1223,14 @@ self
 .
 assertIn
 (
-'
+"
 duration
-'
+"
 d
 [
-'
+"
 overall
-'
+"
 ]
 )
         
@@ -1238,23 +1238,23 @@ self
 .
 assertIn
 (
-'
+"
 cpu_times
-'
+"
 d
 [
-'
+"
 overall
-'
+"
 ]
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

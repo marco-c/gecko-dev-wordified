@@ -151,6 +151,7 @@ tearDown
     
 skipIf
 (
+        
 sys
 .
 platform
@@ -161,7 +162,7 @@ startswith
 linux
 "
 )
-            
+        
 "
 Bug
 1511970
@@ -178,6 +179,7 @@ background
 on
 Linux
 "
+    
 )
     
 def
@@ -307,6 +309,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -315,6 +318,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 self
@@ -373,6 +377,7 @@ self
 .
 assertNotEqual
 (
+            
 self
 .
 marionette
@@ -381,6 +386,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 self
@@ -521,6 +527,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -529,6 +536,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 self
@@ -568,6 +576,7 @@ self
 .
 assertNotEqual
 (
+            
 self
 .
 marionette
@@ -576,6 +585,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 self
@@ -618,6 +628,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -626,6 +637,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 #
@@ -755,6 +767,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -763,6 +776,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 self
@@ -823,6 +837,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 marionette
@@ -831,6 +846,7 @@ current_chrome_window_handle
 self
 .
 start_window
+        
 )
         
 self

@@ -158,7 +158,6 @@ path
 .
 insert
 (
-    
 1
 os
 .
@@ -166,21 +165,18 @@ path
 .
 dirname
 (
-        
 os
 .
 path
 .
 dirname
 (
-            
 os
 .
 path
 .
 dirname
 (
-                
 sys
 .
 path
@@ -205,15 +201,15 @@ VCS_DICT
 =
 {
     
-'
+"
 hg
-'
+"
 :
 MercurialVCS
     
-'
+"
 gittool
-'
+"
 :
 GittoolVCS
 }
@@ -267,9 +263,9 @@ kwargs
 :
         
 if
-'
+"
 dest
-'
+"
 in
 kwargs
 :
@@ -277,9 +273,9 @@ kwargs
 return
 kwargs
 [
-'
+"
 dest
-'
+"
 ]
         
 dest
@@ -292,9 +288,9 @@ basename
 (
 kwargs
 [
-'
+"
 repo
-'
+"
 ]
 )
         
@@ -307,10 +303,10 @@ dest
 .
 endswith
 (
-'
+"
 .
 git
-'
+"
 )
 :
             
@@ -320,12 +316,12 @@ dest
 .
 replace
 (
-'
+"
 .
 git
-'
-'
-'
+"
+"
+"
 )
         
 return
@@ -389,17 +385,15 @@ config
 .
 get
 (
-            
-'
+"
 default_vcs
-'
+"
 getattr
 (
-                
 self
-'
+"
 default_vcs
-'
+"
 None
 )
 )
@@ -441,7 +435,6 @@ a
 single
 repo
 .
-        
 "
 "
 "
@@ -507,9 +500,9 @@ this
 .
         
 if
-'
+"
 dest
-'
+"
 not
 in
 kwargs
@@ -517,9 +510,9 @@ kwargs
             
 kwargs
 [
-'
+"
 dest
-'
+"
 ]
 =
 self
@@ -530,9 +523,9 @@ kwargs
 )
         
 if
-'
+"
 vcs_share_base
-'
+"
 not
 in
 kwargs
@@ -540,9 +533,9 @@ kwargs
             
 kwargs
 [
-'
+"
 vcs_share_base
-'
+"
 ]
 =
 c
@@ -550,21 +543,21 @@ c
 get
 (
                 
-'
+"
 %
 s_share_base
-'
+"
 %
-                
 vcs
 c
 .
 get
 (
-'
+"
 vcs_share_base
-'
+"
 )
+            
 )
         
 vcs_obj
@@ -625,9 +618,9 @@ s
 %
 kwargs
 [
-'
+"
 repo
-'
+"
 ]
             
 args
@@ -636,9 +629,9 @@ args
 vcs_obj
 kwargs
 [
-'
+"
 dest
-'
+"
 ]
 )
         
@@ -647,18 +640,19 @@ dest
 def
 vcs_checkout_repos
 (
+        
 self
 repo_list
 parent_dir
 =
 None
-                           
 tag_override
 =
 None
 *
 *
 kwargs
+    
 )
 :
         
@@ -672,7 +666,6 @@ list
 of
 repos
 .
-        
 "
 "
 "
@@ -706,15 +699,15 @@ join
 (
 c
 [
-'
+"
 base_work_dir
-'
+"
 ]
 c
 [
-'
+"
 work_dir
-'
+"
 ]
 )
         
@@ -770,9 +763,9 @@ tag_override
                 
 kwargs
 [
-'
+"
 branch
-'
+"
 ]
 =
 tag_override
@@ -792,15 +785,15 @@ dest
 ]
 =
 {
-'
+"
 repo
-'
+"
 :
 kwargs
 [
-'
+"
 repo
-'
+"
 ]
 }
             
@@ -809,9 +802,9 @@ revision_dict
 dest
 ]
 [
-'
+"
 revision
-'
+"
 ]
 =
 self
@@ -988,9 +981,9 @@ config
 .
 get
 (
-'
+"
 repos
-'
+"
 )
         
 if
@@ -1028,9 +1021,9 @@ parent_dir
 or
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
         
 return
@@ -1039,7 +1032,6 @@ self
 vcs_checkout_repos
 (
 repos
-                                       
 parent_dir
 =
 parent_dir
@@ -1097,9 +1089,9 @@ VCSScript
     
 default_vcs
 =
-'
+"
 hg
-'
+"
 #
 __main__
 {
@@ -1110,9 +1102,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 pass
