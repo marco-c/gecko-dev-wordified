@@ -289,6 +289,17 @@ mozilla
 /
 layers
 /
+LayerManagerCompositeUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureHost
 .
 h

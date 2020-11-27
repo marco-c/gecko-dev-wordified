@@ -1107,6 +1107,13 @@ h
 "
 composite
 /
+LayerManagerCompositeUtils
+.
+h
+"
+"
+composite
+/
 PaintedLayerComposite
 .
 h
@@ -1485,6 +1492,11 @@ h
 "
 "
 LayerAttributes
+.
+h
+"
+"
+LayerManager
 .
 h
 "
@@ -3240,6 +3252,11 @@ cpp
 ipc
 /
 VideoBridgeParent
+.
+cpp
+"
+"
+LayerManager
 .
 cpp
 "
