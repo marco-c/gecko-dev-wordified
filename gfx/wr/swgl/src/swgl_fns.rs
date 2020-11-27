@@ -1691,6 +1691,9 @@ LockedTexture
 color_space
 :
 YUVColorSpace
+color_depth
+:
+GLuint
 src_x
 :
 GLint
@@ -10773,6 +10776,9 @@ LockedResource
 color_space
 :
 YUVColorSpace
+color_depth
+:
+GLuint
 src_x
 :
 GLint
@@ -10825,6 +10831,7 @@ locked_v
 .
 0
 color_space
+color_depth
 src_x
 src_y
 src_width
