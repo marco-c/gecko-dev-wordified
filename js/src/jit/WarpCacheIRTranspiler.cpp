@@ -2427,10 +2427,6 @@ bailOnEquality
 *
 /
 false
-BailoutKind
-:
-:
-ObjectIdentityOrTypeGuard
 )
 ;
 add
