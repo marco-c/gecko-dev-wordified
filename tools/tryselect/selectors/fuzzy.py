@@ -290,8 +290,6 @@ com
 junegunn
 /
 fzf
--
-bin
 /
 releases
 "
@@ -405,8 +403,6 @@ com
 junegunn
 /
 fzf
--
-bin
 /
 releases
 "
@@ -492,8 +488,6 @@ com
 junegunn
 /
 fzf
--
-bin
 /
 releases
 "
