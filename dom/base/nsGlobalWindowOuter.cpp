@@ -23271,7 +23271,7 @@ mDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eWindowContentUntrusted

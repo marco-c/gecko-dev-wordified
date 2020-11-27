@@ -5878,7 +5878,7 @@ GetExtantDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eCreateImageBitmapCanvasRenderingContext2D

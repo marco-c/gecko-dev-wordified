@@ -16327,7 +16327,7 @@ GetDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eLenientThis
@@ -27333,9 +27333,6 @@ aGlobal
 nsIURI
 *
 aURI
-Document
-:
-:
 DeprecatedOperations
 aOperation
 const
@@ -27447,7 +27444,13 @@ AssignASCII
 (
 kDeprecatedOperations
 [
+static_cast
+<
+size_t
+>
+(
 aOperation
+)
 ]
 )
 ;
@@ -27460,7 +27463,13 @@ AssignASCII
 (
 kDeprecatedOperations
 [
+static_cast
+<
+size_t
+>
+(
 aOperation
+)
 ]
 )
 ;
@@ -27716,9 +27725,6 @@ public
 WorkerProxyToMainThreadRunnable
 {
 const
-Document
-:
-:
 DeprecatedOperations
 mOperation
 ;
@@ -27727,9 +27733,6 @@ public
 explicit
 DeprecationWarningRunnable
 (
-Document
-:
-:
 DeprecatedOperations
 aOperation
 )
@@ -27855,9 +27858,6 @@ const
 GlobalObject
 &
 aGlobal
-Document
-:
-:
 DeprecatedOperations
 aOperation
 )
@@ -27964,9 +27964,6 @@ const
 GlobalObject
 &
 aGlobal
-Document
-:
-:
 DeprecatedOperations
 aOperation
 )
@@ -28183,9 +28180,6 @@ aCx
 JSObject
 *
 aObject
-Document
-:
-:
 DeprecatedOperations
 aOperation
 )
@@ -28235,9 +28229,6 @@ const
 GlobalObject
 &
 aGlobal
-Document
-:
-:
 DeprecatedOperations
 aOperation
 )

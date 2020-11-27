@@ -818,7 +818,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedScriptShiftAttributes
@@ -965,7 +965,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedScriptShiftAttributes

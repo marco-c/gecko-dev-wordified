@@ -4295,7 +4295,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedAlignmentAttributes

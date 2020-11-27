@@ -7856,7 +7856,7 @@ GetExtantDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eSyncXMLHttpRequest

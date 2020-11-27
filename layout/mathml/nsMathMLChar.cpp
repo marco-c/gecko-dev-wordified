@@ -12301,7 +12301,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedStixgeneralOperatorStretching

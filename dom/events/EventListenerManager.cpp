@@ -1817,7 +1817,7 @@ doc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eMutationEvent

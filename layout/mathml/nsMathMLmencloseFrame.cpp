@@ -755,7 +755,7 @@ WarnOnceAbout
 dom
 :
 :
-Document
+DeprecatedOperations
 :
 :
 eMathML_DeprecatedMencloseNotationRadical

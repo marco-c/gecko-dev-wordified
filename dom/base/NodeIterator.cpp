@@ -954,7 +954,7 @@ OwnerDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eNodeIteratorDetach

@@ -3478,7 +3478,7 @@ doc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eMotionEvent
@@ -3544,7 +3544,7 @@ doc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eOrientationEvent
@@ -3598,7 +3598,7 @@ doc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eProximityEvent
@@ -3653,7 +3653,7 @@ doc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eAmbientLightEvent

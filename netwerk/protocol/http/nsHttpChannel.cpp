@@ -62719,10 +62719,16 @@ warner
 >
 IssueWarning
 (
-Document
+static_cast
+<
+uint32_t
+>
+(
+DeprecatedOperations
 :
 :
 eAppCache
+)
 false
 )
 ;

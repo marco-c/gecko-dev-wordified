@@ -2470,7 +2470,7 @@ GetExtantDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eIDBOpenDBOptions_StorageType

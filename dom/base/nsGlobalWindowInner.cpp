@@ -17690,7 +17690,7 @@ doc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eComponents
@@ -18410,7 +18410,7 @@ GetExtantDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eWindow_Cc_ontrollers
@@ -23607,7 +23607,7 @@ mDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eUseOfCaptureEvents
@@ -23633,7 +23633,7 @@ mDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eUseOfReleaseEvents

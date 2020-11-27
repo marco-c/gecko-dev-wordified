@@ -29785,7 +29785,7 @@ OwnerDoc
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eMozBoxOrInlineBoxDisplay

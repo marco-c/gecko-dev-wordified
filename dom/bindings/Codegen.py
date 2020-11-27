@@ -63907,7 +63907,7 @@ DeprecationWarning
 (
 cx
 obj
-Document
+DeprecatedOperations
 :
 :
 e
@@ -79550,7 +79550,7 @@ DeprecationWarning
 (
 cx
 obj
-Document
+DeprecatedOperations
 :
 :
 eLenientSetter

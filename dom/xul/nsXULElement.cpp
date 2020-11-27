@@ -4597,7 +4597,7 @@ mDocument
 >
 WarnOnceAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eImportXULIntoContent
@@ -4769,7 +4769,7 @@ doc
 .
 HasWarnedAbout
 (
-Document
+DeprecatedOperations
 :
 :
 eImportXULIntoContent
