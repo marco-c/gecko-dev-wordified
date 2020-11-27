@@ -1218,6 +1218,7 @@ render
 self
 .
 size
+0
 )
 .
 unwrap
