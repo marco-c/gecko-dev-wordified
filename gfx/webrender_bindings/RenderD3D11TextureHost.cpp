@@ -2407,6 +2407,11 @@ aColorDepth
 gfx
 :
 :
+ColorRange
+aColorRange
+gfx
+:
+:
 IntSize
 aSizeY
 gfx
@@ -2450,6 +2455,10 @@ aYUVColorSpace
 mColorDepth
 (
 aColorDepth
+)
+mColorRange
+(
+aColorRange
 )
 mSizeY
 (
