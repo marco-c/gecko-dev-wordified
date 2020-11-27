@@ -70987,7 +70987,7 @@ length
 /
 Copy
 the
-ScriptThingVariant
+TaggedScriptThingIndex
 data
 from
 the
@@ -71001,7 +71001,7 @@ mozilla
 :
 Span
 <
-ScriptThingVariant
+TaggedScriptThingIndex
 >
 stencilThings
 =

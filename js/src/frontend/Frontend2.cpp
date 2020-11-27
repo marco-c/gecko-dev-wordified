@@ -329,7 +329,6 @@ h
 ScopeStencil
 RegExpIndex
 FunctionIndex
-NullScriptThing
 #
 include
 "
@@ -2579,7 +2578,7 @@ mozilla
 :
 Span
 <
-ScriptThingVariant
+TaggedScriptThingIndex
 >
 stencilThings
 =
@@ -2671,11 +2670,8 @@ new
 (
 raw
 )
-ScriptThingVariant
+TaggedScriptThingIndex
 (
-NullScriptThing
-(
-)
 )
 ;
 break
@@ -2695,7 +2691,7 @@ new
 (
 raw
 )
-ScriptThingVariant
+TaggedScriptThingIndex
 (
 allAtoms
 [
@@ -2729,7 +2725,7 @@ new
 (
 raw
 )
-ScriptThingVariant
+TaggedScriptThingIndex
 (
 FunctionIndex
 (
@@ -2758,7 +2754,7 @@ new
 (
 raw
 )
-ScriptThingVariant
+TaggedScriptThingIndex
 (
 ScopeIndex
 (
@@ -2787,7 +2783,7 @@ new
 (
 raw
 )
-ScriptThingVariant
+TaggedScriptThingIndex
 (
 RegExpIndex
 (
