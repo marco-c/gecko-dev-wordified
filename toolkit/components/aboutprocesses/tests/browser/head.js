@@ -3440,12 +3440,12 @@ row
 .
 process
 .
-totalResidentUniqueSize
+totalRamSize
 row
 .
 process
 .
-deltaResidentUniqueSize
+deltaRamSize
 HARDCODED_ASSUMPTIONS_PROCESS
 )
 ;
