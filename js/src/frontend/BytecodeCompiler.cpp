@@ -2140,6 +2140,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 return
@@ -2148,6 +2151,7 @@ compilationInfo
 prepareForInstantiate
 (
 cx
+gcOutput
 )
 ;
 }
@@ -2163,6 +2167,9 @@ cx
 CompilationInfoVector
 &
 compilationInfos
+CompilationGCOutput
+&
+gcOutput
 )
 {
 return
@@ -2171,6 +2178,7 @@ compilationInfos
 prepareForInstantiate
 (
 cx
+gcOutput
 )
 ;
 }

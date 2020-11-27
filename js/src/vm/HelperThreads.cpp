@@ -4768,6 +4768,7 @@ PrepareForInstantiate
 cx
 *
 compilationInfo_
+gcOutput_
 )
 )
 {
@@ -5146,6 +5147,7 @@ PrepareForInstantiate
 cx
 *
 compilationInfo_
+gcOutput_
 )
 )
 {
@@ -5414,6 +5416,7 @@ PrepareForInstantiate
 cx
 *
 compilationInfos_
+gcOutput_
 )
 )
 {

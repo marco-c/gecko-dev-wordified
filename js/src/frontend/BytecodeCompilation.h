@@ -829,6 +829,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 extern
@@ -841,6 +844,9 @@ cx
 CompilationInfoVector
 &
 compilationInfos
+CompilationGCOutput
+&
+gcOutput
 )
 ;
 }
