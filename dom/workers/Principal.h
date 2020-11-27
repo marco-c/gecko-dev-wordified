@@ -123,7 +123,9 @@ mozilla_dom_workers_principal_h__
 #
 include
 "
-WorkerCommon
+js
+/
+Principals
 .
 h
 "

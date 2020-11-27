@@ -154,6 +154,9 @@ namespace
 dom
 {
 class
+WeakWorkerRef
+;
+class
 WorkerRef
 ;
 class

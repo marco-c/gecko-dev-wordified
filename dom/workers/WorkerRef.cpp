@@ -117,6 +117,10 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerRef
 .
 h
@@ -124,9 +128,7 @@ h
 #
 include
 "
-mozilla
-/
-Unused
+nsDebug
 .
 h
 "
