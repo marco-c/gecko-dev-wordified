@@ -127,17 +127,6 @@ mozilla
 /
 dom
 /
-ChromeUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ChromeUtilsBinding
 .
 h
