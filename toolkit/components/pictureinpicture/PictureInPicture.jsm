@@ -2740,6 +2740,12 @@ screenX
 windowOrPlayer
 .
 screenY
+windowOrPlayer
+.
+innerWidth
+windowOrPlayer
+.
+innerHeight
 )
 ;
 let
@@ -3776,6 +3782,12 @@ getWorkingScreen
 (
 left
 top
+width
+=
+1
+height
+=
+1
 )
 {
 /
@@ -3843,8 +3855,8 @@ screenForRect
 (
 left
 top
-1
-1
+width
+height
 )
 ;
 return
