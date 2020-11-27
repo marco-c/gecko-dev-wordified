@@ -121,6 +121,13 @@ mozilla_dom_MIDIInputMap_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

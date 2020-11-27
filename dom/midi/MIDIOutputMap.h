@@ -121,6 +121,13 @@ mozilla_dom_MIDIOutputMap_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

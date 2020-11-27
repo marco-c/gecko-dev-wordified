@@ -119,6 +119,17 @@ MIDIMessageQueue
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+MIDITypes
+.
+h
+"
 namespace
 mozilla
 {
