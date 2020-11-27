@@ -912,7 +912,7 @@ getElement
 JSContext
 *
 cx
-uint32_t
+size_t
 index
 typename
 MaybeRooted
@@ -929,7 +929,7 @@ val
 bool
 getElementPure
 (
-uint32_t
+size_t
 index
 Value
 *

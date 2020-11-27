@@ -6285,7 +6285,7 @@ getIndex
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 )
 {
@@ -6336,7 +6336,7 @@ setIndex
 TypedArrayObject
 &
 tarray
-uint32_t
+size_t
 index
 NativeType
 val
@@ -6390,7 +6390,7 @@ cx
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 MutableHandleValue
 val
@@ -6403,7 +6403,7 @@ getElementPure
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 Value
 *
@@ -12675,7 +12675,7 @@ getElementPure
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 Value
 *
@@ -12753,7 +12753,7 @@ getElementPure
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 Value
 *
@@ -12791,7 +12791,7 @@ getElementPure
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 Value
 *
@@ -12834,7 +12834,7 @@ getElementPure
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 Value
 *
@@ -12979,7 +12979,7 @@ getElementPure
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 Value
 *
@@ -13089,7 +13089,7 @@ getElementPure
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 Value
 *
@@ -13115,7 +13115,7 @@ getElementPure
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 Value
 *
@@ -13155,7 +13155,7 @@ cx
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 MutableHandleValue
 val
@@ -13197,7 +13197,7 @@ cx
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 MutableHandleValue
 val
@@ -13264,7 +13264,7 @@ cx
 TypedArrayObject
 *
 tarray
-uint32_t
+size_t
 index
 MutableHandleValue
 val
@@ -13338,7 +13338,7 @@ CanGC
 JSContext
 *
 cx
-uint32_t
+size_t
 index
 MutableHandleValue
 val
@@ -13434,7 +13434,7 @@ NoGC
 JSContext
 *
 cx
-uint32_t
+size_t
 index
 typename
 MaybeRooted
@@ -13471,7 +13471,7 @@ TypedArrayObject
 :
 getElementPure
 (
-uint32_t
+size_t
 index
 Value
 *
