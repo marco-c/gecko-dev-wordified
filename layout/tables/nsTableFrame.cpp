@@ -8644,7 +8644,7 @@ MOZ_ASSERT
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+FindNearestCommonAncestorFrame
 (
 reference
 aTable
