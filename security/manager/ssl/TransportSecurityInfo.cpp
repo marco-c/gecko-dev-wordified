@@ -5871,6 +5871,12 @@ IsEmpty
 )
 )
 ;
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 !
@@ -5914,6 +5920,12 @@ uint8_t
 aCertList
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 return
 CreateCertChain
 (

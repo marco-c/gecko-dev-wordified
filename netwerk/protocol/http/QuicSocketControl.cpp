@@ -389,6 +389,12 @@ STATE_IS_SECURE
 bool
 distrustImminent
 ;
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 nsresult
 rv
 =

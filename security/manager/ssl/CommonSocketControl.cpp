@@ -753,6 +753,12 @@ return
 NS_OK
 ;
 }
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 /
 /
 An
