@@ -3279,6 +3279,13 @@ TRANSACTION_RESTART_OTHERS
 5
 }
 ;
+nsDataHashtable
+<
+nsUint32HashKey
+uint32_t
+>
+mEchRetryCounterMap
+;
 }
 ;
 }
