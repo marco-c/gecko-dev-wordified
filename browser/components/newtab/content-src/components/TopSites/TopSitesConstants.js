@@ -147,7 +147,7 @@ Separator
 BlockUrl
 "
 "
-ShowPrivacyInfo
+AboutSponsored
 "
 ]
 ;

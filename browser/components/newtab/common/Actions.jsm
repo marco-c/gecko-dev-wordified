@@ -224,6 +224,9 @@ type
 of
 [
 "
+ABOUT_SPONSORED_TOP_SITES
+"
+"
 ADDONS_INFO_REQUEST
 "
 "
