@@ -64,7 +64,7 @@ api
 ColorU
 ColorF
 ImageFormat
-TextureTarget
+ImageBufferKind
 }
 ;
 use
@@ -669,10 +669,10 @@ device
 .
 create_texture
 (
-TextureTarget
+ImageBufferKind
 :
 :
-Array
+Texture2DArray
 ImageFormat
 :
 :
