@@ -61,7 +61,6 @@ ir
 {
 ExternalName
 Opcode
-SourceLoc
 TrapCode
 Type
 }
@@ -90,6 +89,7 @@ regalloc
 :
 :
 {
+PrettyPrint
 RealRegUniverse
 Reg
 RegClass
@@ -184,6 +184,10 @@ regs
 :
 :
 *
+;
+pub
+mod
+unwind
 ;
 #
 [
@@ -474,10 +478,6 @@ Reg
 >
 >
 pub
-loc
-:
-SourceLoc
-pub
 opcode
 :
 Opcode
@@ -539,10 +539,6 @@ Writable
 Reg
 >
 >
-pub
-loc
-:
-SourceLoc
 pub
 opcode
 :
@@ -1178,12 +1174,6 @@ Reg
 mem
 :
 AMode
-srcloc
-:
-Option
-<
-SourceLoc
->
 bits
 :
 u8
@@ -1229,12 +1219,6 @@ Reg
 mem
 :
 AMode
-srcloc
-:
-Option
-<
-SourceLoc
->
 bits
 :
 u8
@@ -1434,9 +1418,6 @@ Box
 <
 ExternalName
 >
-srcloc
-:
-SourceLoc
 offset
 :
 i32
@@ -1586,10 +1567,7 @@ cond
 Cond
 trap_info
 :
-(
-SourceLoc
 TrapCode
-)
 }
 /
 /
@@ -1617,10 +1595,7 @@ Udf
 {
 trap_info
 :
-(
-SourceLoc
 TrapCode
-)
 }
 /
 /
@@ -2133,9 +2108,6 @@ rt
 :
 into_reg
 mem
-srcloc
-:
-None
 bits
 sign_extend
 :
@@ -2220,9 +2192,6 @@ rt
 :
 from_reg
 mem
-srcloc
-:
-None
 bits
 }
 }
@@ -5541,7 +5510,7 @@ mem
 )
 }
 impl
-ShowWithRRU
+PrettyPrint
 for
 Inst
 {
@@ -7712,9 +7681,6 @@ rt
 ref
 name
 offset
-srcloc
-:
-_srcloc
 }
 =
 >

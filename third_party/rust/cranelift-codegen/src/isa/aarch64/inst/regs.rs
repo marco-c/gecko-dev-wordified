@@ -56,15 +56,6 @@ use
 crate
 :
 :
-machinst
-:
-:
-*
-;
-use
-crate
-:
-:
 settings
 ;
 use
@@ -72,6 +63,7 @@ regalloc
 :
 :
 {
+PrettyPrint
 RealRegUniverse
 Reg
 RegClass

@@ -123,9 +123,9 @@ Global
 GlobalIndex
 Memory
 MemoryIndex
-SignatureIndex
 Table
 TableIndex
+TypeIndex
 }
 ;
 use
@@ -449,7 +449,7 @@ signatures
 :
 PrimaryMap
 <
-SignatureIndex
+TypeIndex
 ir
 :
 :
@@ -571,7 +571,7 @@ PrimaryMap
 FuncIndex
 Exportable
 <
-SignatureIndex
+TypeIndex
 >
 >
 /
@@ -1051,7 +1051,7 @@ FuncIndex
 )
 -
 >
-SignatureIndex
+TypeIndex
 {
 self
 .
@@ -1251,7 +1251,7 @@ vmctx_sig
 self
 sigidx
 :
-SignatureIndex
+TypeIndex
 )
 -
 >
@@ -1914,7 +1914,7 @@ ir
 Function
 index
 :
-SignatureIndex
+TypeIndex
 )
 -
 >
@@ -2091,7 +2091,7 @@ ir
 Table
 _sig_index
 :
-SignatureIndex
+TypeIndex
 sig_ref
 :
 ir
@@ -2700,10 +2700,19 @@ self
 _pos
 :
 FuncCursor
-_index
+_src_index
 :
 MemoryIndex
-_heap
+_src_heap
+:
+ir
+:
+:
+Heap
+_dst_index
+:
+MemoryIndex
+_dst_heap
 :
 ir
 :
@@ -3539,7 +3548,7 @@ for
 DummyEnvironment
 {
 fn
-declare_signature
+declare_type_func
 (
 &
 mut
@@ -3585,9 +3594,9 @@ declare_func_import
 &
 mut
 self
-sig_index
+index
 :
-SignatureIndex
+TypeIndex
 module
 :
 &
@@ -3653,7 +3662,7 @@ Exportable
 :
 new
 (
-sig_index
+index
 )
 )
 ;
@@ -3695,9 +3704,9 @@ declare_func_type
 &
 mut
 self
-sig_index
+index
 :
-SignatureIndex
+TypeIndex
 )
 -
 >
@@ -3720,7 +3729,7 @@ Exportable
 :
 new
 (
-sig_index
+index
 )
 )
 ;

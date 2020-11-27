@@ -791,17 +791,6 @@ crate
 mod
 aarch64
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-unwind
-"
-)
-]
 pub
 mod
 unwind

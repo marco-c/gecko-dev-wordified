@@ -4447,6 +4447,21 @@ rreg
 )
 ;
 }
+let
+included_in_clobbers
+=
+func
+.
+is_included_in_clobbers
+(
+func
+.
+get_insn
+(
+iix
+)
+)
+;
 if
 mention_set
 .
@@ -4536,6 +4551,9 @@ vreg
 rreg
 )
 ;
+if
+included_in_clobbers
+{
 clobbered_registers
 .
 insert
@@ -4543,6 +4561,7 @@ insert
 rreg
 )
 ;
+}
 }
 if
 mention_set
@@ -4592,6 +4611,9 @@ vreg
 rreg
 )
 ;
+if
+included_in_clobbers
+{
 clobbered_registers
 .
 insert
@@ -4599,6 +4621,7 @@ insert
 rreg
 )
 ;
+}
 }
 }
 /

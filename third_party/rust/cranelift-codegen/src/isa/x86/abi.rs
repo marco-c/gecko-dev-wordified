@@ -7863,6 +7863,7 @@ is_return
 insert_common_epilogue
 (
 inst
+block
 stack_size
 pos
 reg_type
@@ -7910,6 +7911,12 @@ ir
 :
 :
 Inst
+block
+:
+ir
+:
+:
+Block
 stack_size
 :
 i64
@@ -8407,6 +8414,7 @@ epilogues_start
 .
 push
 (
+(
 first_fpr_load
 .
 or
@@ -8422,6 +8430,8 @@ first_csr_pop_inst
 unwrap_or
 (
 fp_pop_inst
+)
+block
 )
 )
 ;
@@ -8558,17 +8568,6 @@ create_unwind_info
 (
 func
 isa
-Some
-(
-RU
-:
-:
-rbp
-.
-into
-(
-)
-)
 )
 ?
 .

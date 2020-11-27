@@ -727,7 +727,10 @@ epilogues_start
 :
 Vec
 <
+(
 Inst
+Block
+)
 >
 /
 /
