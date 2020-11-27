@@ -13906,7 +13906,8 @@ ImageContainer
 >
 prevContainer
 ;
-drawResult
+ImgDrawResult
+newDrawResult
 =
 mPrevImage
 -
@@ -13933,7 +13934,7 @@ if
 prevContainer
 &
 &
-drawResult
+newDrawResult
 =
 =
 ImgDrawResult
@@ -13942,6 +13943,10 @@ ImgDrawResult
 SUCCESS
 )
 {
+drawResult
+=
+newDrawResult
+;
 container
 =
 std
