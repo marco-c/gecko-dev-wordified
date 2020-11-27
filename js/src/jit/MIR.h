@@ -29276,7 +29276,14 @@ MTypeOf
 public
 MUnaryInstruction
 public
-BoxInputsPolicy
+BoxExceptPolicy
+<
+0
+MIRType
+:
+:
+Object
+>
 :
 :
 Data
