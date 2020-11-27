@@ -283,7 +283,7 @@ LinkStyle
 .
 StyleSheet
 *
-GetSheetForBindings
+GetSheet
 (
 )
 const
