@@ -21277,8 +21277,6 @@ s
 "
 %
 (
-self
-.
 descriptor
 .
 name
