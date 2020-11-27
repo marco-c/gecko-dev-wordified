@@ -4880,11 +4880,14 @@ nsIInputStream
 >
 inputStream
 ;
-MOZ_TRY_VAR
+MOZ_TRY
 (
-inputStream
 NS_NewLocalFileInputStream
 (
+getter_AddRefs
+(
+inputStream
+)
 requestedFile
 PR_RDONLY
 -
