@@ -128,17 +128,6 @@ mozilla
 /
 dom
 /
-Feature
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 FeaturePolicyBinding
 .
 h

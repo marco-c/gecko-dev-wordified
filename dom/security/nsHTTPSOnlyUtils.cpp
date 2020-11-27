@@ -3089,9 +3089,6 @@ isAuthChannel
 =
 false
 ;
-mozilla
-:
-:
 Unused
 <
 <

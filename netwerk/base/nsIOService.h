@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
