@@ -385,8 +385,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -5161,9 +5161,7 @@ aScope
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

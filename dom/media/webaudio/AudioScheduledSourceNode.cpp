@@ -121,8 +121,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 AudioScheduledSourceNode
@@ -154,9 +154,7 @@ aChannelInterpretation
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

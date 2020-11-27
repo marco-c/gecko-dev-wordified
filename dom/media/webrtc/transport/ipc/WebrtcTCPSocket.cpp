@@ -243,8 +243,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -4315,9 +4315,7 @@ count
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

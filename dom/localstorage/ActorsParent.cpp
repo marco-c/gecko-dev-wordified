@@ -1262,8 +1262,8 @@ LS_MOBILE
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -54241,9 +54241,7 @@ NS_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

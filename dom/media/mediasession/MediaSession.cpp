@@ -221,8 +221,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -2059,9 +2059,7 @@ mPositionState
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

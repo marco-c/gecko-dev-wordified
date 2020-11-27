@@ -125,8 +125,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 GMPVideoHostImpl
@@ -518,9 +518,7 @@ aFrame
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp

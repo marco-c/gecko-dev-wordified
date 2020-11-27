@@ -247,8 +247,8 @@ Anchor
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 #
@@ -1496,9 +1496,7 @@ mState
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -173,8 +173,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 mozilla
@@ -680,9 +680,7 @@ proxyConfig
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

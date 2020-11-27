@@ -598,8 +598,8 @@ PrincipalInfo
 ;
 namespace
 dom
-{
-namespace
+:
+:
 indexedDB
 {
 namespace
@@ -22085,12 +22085,10 @@ endif
 /
 /
 namespace
-indexedDB
-}
-/
-/
-namespace
 dom
+:
+:
+indexedDB
 }
 /
 /

@@ -138,8 +138,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MessageListenerManager
@@ -271,9 +271,7 @@ nullptr
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

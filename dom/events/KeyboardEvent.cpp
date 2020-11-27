@@ -150,8 +150,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 KeyboardEvent
@@ -2586,12 +2586,10 @@ aRawModifierState
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 using
 namespace
 mozilla

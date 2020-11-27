@@ -197,8 +197,8 @@ type_traits
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 ChromiumCDMChild
@@ -6368,9 +6368,7 @@ mDecoderInitialized
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp

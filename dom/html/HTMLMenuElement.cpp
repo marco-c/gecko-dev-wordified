@@ -228,8 +228,8 @@ Menu
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 enum
@@ -1196,9 +1196,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -230,6 +230,9 @@ h
 "
 namespace
 mozilla
+:
+:
+gmp
 {
 #
 ifdef
@@ -245,9 +248,6 @@ __CLASS__
 "
 GMPServiceChild
 "
-namespace
-gmp
-{
 already_AddRefed
 <
 GeckoMediaPluginServiceChild
@@ -3844,12 +3844,10 @@ Count
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp
 #
 undef
 __CLASS__

@@ -352,8 +352,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -4469,9 +4469,7 @@ aReflector
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

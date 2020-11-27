@@ -188,8 +188,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 OSFileSystem
@@ -562,9 +562,7 @@ aRootDir
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

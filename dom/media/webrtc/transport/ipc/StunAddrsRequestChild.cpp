@@ -90,8 +90,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 StunAddrsRequestChild
@@ -268,9 +268,7 @@ StunAddrsListener
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

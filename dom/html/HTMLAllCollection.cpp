@@ -185,8 +185,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLAllCollection
@@ -1310,9 +1310,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -78,8 +78,8 @@ mozilla
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 layer
 {
 class
@@ -89,12 +89,10 @@ Image
 /
 /
 namespace
-layer
-}
-/
-/
-namespace
 mozilla
+:
+:
+layer
 TEST
 (
 VideoSegment

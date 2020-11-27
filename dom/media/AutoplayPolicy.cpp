@@ -334,8 +334,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2265,9 +2265,7 @@ aContext
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

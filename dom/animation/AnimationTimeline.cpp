@@ -143,8 +143,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 AnimationTimeline
@@ -366,9 +366,7 @@ aAnimation
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

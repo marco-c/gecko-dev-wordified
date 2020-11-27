@@ -117,8 +117,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 plugins
 {
 FunctionBrokerChild
@@ -693,9 +693,7 @@ nullptr
 /
 /
 namespace
-plugins
-}
-/
-/
-namespace
 mozilla
+:
+:
+plugins

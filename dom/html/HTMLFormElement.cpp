@@ -640,8 +640,8 @@ Form
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -15424,9 +15424,7 @@ loading
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

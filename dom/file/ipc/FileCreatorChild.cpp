@@ -145,8 +145,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 FileCreatorChild
@@ -407,9 +407,7 @@ nullptr
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

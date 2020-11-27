@@ -123,8 +123,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SpeechRecognitionError
@@ -330,9 +330,7 @@ aMessage
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -213,8 +213,8 @@ SAMPLERATE
 1600
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 StaticRefPtr
@@ -1529,9 +1529,7 @@ forget
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

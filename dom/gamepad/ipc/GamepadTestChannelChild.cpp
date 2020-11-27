@@ -123,8 +123,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 already_AddRefed
@@ -276,9 +276,7 @@ IPC_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

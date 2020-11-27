@@ -161,8 +161,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ClientSourceParent
@@ -659,9 +659,7 @@ mSourcePromiseRequestHolder
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

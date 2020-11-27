@@ -130,8 +130,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 PClientManagerChild
@@ -232,9 +232,7 @@ Init
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

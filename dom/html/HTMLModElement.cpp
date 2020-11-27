@@ -149,8 +149,8 @@ Mod
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLModElement
@@ -236,9 +236,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

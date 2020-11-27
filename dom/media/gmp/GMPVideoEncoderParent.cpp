@@ -199,6 +199,9 @@ h
 "
 namespace
 mozilla
+:
+:
+gmp
 {
 #
 ifdef
@@ -214,9 +217,6 @@ __CLASS__
 "
 GMPVideoEncoderParent
 "
-namespace
-gmp
-{
 /
 /
 States
@@ -2011,12 +2011,10 @@ IPC_OK
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp
 #
 undef
 __CLASS__

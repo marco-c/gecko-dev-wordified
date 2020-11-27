@@ -180,8 +180,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -952,12 +952,10 @@ ignored
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 nsresult
 NS_NewVideoDocument
 (

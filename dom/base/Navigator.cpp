@@ -951,8 +951,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -13497,9 +13497,7 @@ false
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

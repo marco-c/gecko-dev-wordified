@@ -129,8 +129,8 @@ bitset
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_INHERITED
@@ -835,12 +835,10 @@ mToneBuffer
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 undef
 LOGTAG

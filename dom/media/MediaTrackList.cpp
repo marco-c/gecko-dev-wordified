@@ -187,8 +187,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MediaTrackList
@@ -950,9 +950,7 @@ PostDOMEvent
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

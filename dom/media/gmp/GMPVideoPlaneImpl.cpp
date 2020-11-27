@@ -127,8 +127,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 GMPPlaneImpl
@@ -1025,9 +1025,7 @@ this
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp

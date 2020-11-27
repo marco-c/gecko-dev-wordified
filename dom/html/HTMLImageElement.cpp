@@ -530,8 +530,8 @@ false
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -8432,9 +8432,7 @@ StartLoadingIfNeeded
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

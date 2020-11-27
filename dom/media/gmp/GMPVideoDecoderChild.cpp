@@ -146,8 +146,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 GMPVideoDecoderChild
@@ -1252,9 +1252,7 @@ endif
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp

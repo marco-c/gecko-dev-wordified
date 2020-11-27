@@ -135,8 +135,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 SpeechTrackListener
@@ -617,9 +617,7 @@ __func__
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

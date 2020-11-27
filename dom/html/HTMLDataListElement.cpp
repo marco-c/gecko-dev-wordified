@@ -138,8 +138,8 @@ DataList
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLDataListElement
@@ -256,9 +256,7 @@ disabled
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

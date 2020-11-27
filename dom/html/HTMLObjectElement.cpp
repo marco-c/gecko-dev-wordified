@@ -290,8 +290,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLObjectElement
@@ -2737,12 +2737,10 @@ obj
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 NS_IMPL_NS_NEW_HTML_ELEMENT_CHECK_PARSER
 (
 Object

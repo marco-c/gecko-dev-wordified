@@ -874,8 +874,8 @@ NS_ERROR_NOT_AVAILABLE
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -2379,9 +2379,7 @@ forget
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

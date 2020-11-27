@@ -217,8 +217,8 @@ Marquee
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLMarqueeElement
@@ -1125,9 +1125,7 @@ _ns
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

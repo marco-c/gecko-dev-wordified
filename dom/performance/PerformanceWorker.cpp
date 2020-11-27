@@ -143,8 +143,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 PerformanceWorker
@@ -368,9 +368,7 @@ CrossOriginIsolated
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

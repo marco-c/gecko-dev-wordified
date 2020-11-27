@@ -141,8 +141,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 Timeout
@@ -591,9 +591,7 @@ mTimeRemaining
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

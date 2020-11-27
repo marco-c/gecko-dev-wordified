@@ -143,8 +143,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 StaticMutex
@@ -937,9 +937,7 @@ aPorts
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

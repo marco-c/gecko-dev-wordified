@@ -165,8 +165,8 @@ HR
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLHRElement
@@ -1321,9 +1321,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -661,8 +661,8 @@ __VA_ARGS__
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -9595,9 +9595,7 @@ gOpenConnections
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

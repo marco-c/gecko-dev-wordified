@@ -235,8 +235,8 @@ Source
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLSourceElement
@@ -1010,9 +1010,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

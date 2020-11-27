@@ -203,8 +203,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 FileBlobImpl
@@ -1601,9 +1601,7 @@ isDirectory
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

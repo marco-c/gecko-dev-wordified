@@ -262,8 +262,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_INHERITED
@@ -3708,9 +3708,7 @@ false
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

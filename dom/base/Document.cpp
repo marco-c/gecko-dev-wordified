@@ -57746,8 +57746,8 @@ false
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsINode
@@ -106569,9 +106569,7 @@ mPictureInPictureChildElementCount
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

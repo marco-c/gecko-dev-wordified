@@ -185,8 +185,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 /
@@ -2965,9 +2965,7 @@ CancelResetCompleteTimeout
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp

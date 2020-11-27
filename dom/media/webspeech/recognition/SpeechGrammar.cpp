@@ -132,8 +132,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
@@ -359,9 +359,7 @@ NS_ERROR_NOT_IMPLEMENTED
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -149,8 +149,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -1302,9 +1302,7 @@ UNKNOWN_CK_MECHANISM
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

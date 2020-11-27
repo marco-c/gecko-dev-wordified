@@ -176,8 +176,8 @@ Title
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLTitleElement
@@ -546,9 +546,7 @@ aBound
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

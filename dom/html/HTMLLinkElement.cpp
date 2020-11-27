@@ -469,8 +469,8 @@ Link
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLLinkElement
@@ -5215,9 +5215,7 @@ css
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

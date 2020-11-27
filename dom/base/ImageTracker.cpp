@@ -172,8 +172,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ImageTracker
@@ -1209,9 +1209,7 @@ aChange
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

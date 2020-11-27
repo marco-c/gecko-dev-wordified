@@ -158,8 +158,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 constexpr
@@ -654,9 +654,7 @@ aReflector
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

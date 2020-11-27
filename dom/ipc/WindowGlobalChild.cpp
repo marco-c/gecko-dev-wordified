@@ -426,8 +426,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 typedef
@@ -4528,9 +4528,7 @@ WindowGlobalChild
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

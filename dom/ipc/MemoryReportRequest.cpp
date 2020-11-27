@@ -159,8 +159,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MemoryReportRequestHost
@@ -913,9 +913,7 @@ rv
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -143,8 +143,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 CompositionEvent
@@ -700,12 +700,10 @@ Clone
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 using
 namespace
 mozilla

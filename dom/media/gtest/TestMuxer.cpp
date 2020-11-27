@@ -512,8 +512,8 @@ data
 }
 namespace
 testing
-{
-namespace
+:
+:
 internal
 {
 /
@@ -656,12 +656,10 @@ end
 /
 /
 namespace
-internal
-}
-/
-/
-namespace
 testing
+:
+:
+internal
 class
 MockContainerWriter
 :

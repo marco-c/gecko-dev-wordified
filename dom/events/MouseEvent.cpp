@@ -157,8 +157,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MouseEvent
@@ -1846,12 +1846,10 @@ mInputSource
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 using
 namespace
 mozilla

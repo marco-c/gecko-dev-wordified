@@ -255,8 +255,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 UIEvent
@@ -2012,12 +2012,10 @@ SET_MODIFIER
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 using
 namespace
 mozilla

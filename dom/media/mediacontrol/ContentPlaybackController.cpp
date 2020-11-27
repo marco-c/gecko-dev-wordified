@@ -175,8 +175,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ContentPlaybackController
@@ -1312,9 +1312,7 @@ key
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

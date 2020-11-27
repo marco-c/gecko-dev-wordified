@@ -145,8 +145,8 @@ Data
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLDataElement
@@ -232,9 +232,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

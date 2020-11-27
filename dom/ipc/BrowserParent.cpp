@@ -1357,8 +1357,8 @@ NOTIFY_FLAG_SHIFT
 16
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 BrowserParent
@@ -25805,9 +25805,7 @@ IPC_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -162,8 +162,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 mozilla
@@ -752,9 +752,7 @@ nullptr
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
