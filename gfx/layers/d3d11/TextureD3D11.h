@@ -2706,6 +2706,13 @@ IsSyncObjectValid
 )
 override
 ;
+void
+EnsureInitialized
+(
+)
+override
+{
+}
 SyncType
 GetSyncType
 (
@@ -2821,6 +2828,12 @@ override
 ;
 bool
 IsSyncObjectValid
+(
+)
+override
+;
+void
+EnsureInitialized
 (
 )
 override
