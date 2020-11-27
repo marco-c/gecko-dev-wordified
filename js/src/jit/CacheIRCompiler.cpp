@@ -44216,7 +44216,7 @@ Fn
 js
 :
 :
-Int32ToStringHelperPure
+Int32ToStringPure
 >
 (
 )
@@ -44451,7 +44451,7 @@ Fn
 js
 :
 :
-NumberToStringHelperPure
+NumberToStringPure
 >
 (
 )

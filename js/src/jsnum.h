@@ -333,7 +333,7 @@ d
 extern
 JSString
 *
-NumberToStringHelperPure
+NumberToStringPure
 (
 JSContext
 *
@@ -395,7 +395,7 @@ i
 extern
 JSLinearString
 *
-Int32ToStringHelperPure
+Int32ToStringPure
 (
 JSContext
 *

@@ -5292,7 +5292,7 @@ JSLinearString
 js
 :
 :
-Int32ToStringHelperPure
+Int32ToStringPure
 (
 JSContext
 *
@@ -10101,7 +10101,7 @@ JSString
 js
 :
 :
-NumberToStringHelperPure
+NumberToStringPure
 (
 JSContext
 *

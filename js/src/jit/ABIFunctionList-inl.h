@@ -182,13 +182,13 @@ StringToNumberPure
 js
 :
 :
-Int32ToStringHelperPure
+Int32ToStringPure
 /
 /
 js
 :
 :
-NumberToStringHelperPure
+NumberToStringPure
 #
 include
 "
@@ -847,7 +847,7 @@ _
 js
 :
 :
-Int32ToStringHelperPure
+Int32ToStringPure
 )
 \
 _
@@ -1606,7 +1606,7 @@ _
 js
 :
 :
-NumberToStringHelperPure
+NumberToStringPure
 )
 \
 _
