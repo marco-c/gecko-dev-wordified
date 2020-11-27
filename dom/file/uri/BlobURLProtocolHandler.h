@@ -187,6 +187,14 @@ BlobURLsReporter
 class
 OriginAttributes
 ;
+template
+<
+class
+T
+>
+class
+Maybe
+;
 namespace
 dom
 {
