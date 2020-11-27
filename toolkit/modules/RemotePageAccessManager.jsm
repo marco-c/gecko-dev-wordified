@@ -455,6 +455,13 @@ RPMGetAppBuildID
 *
 "
 ]
+RPMGetInnerMostURI
+:
+[
+"
+*
+"
+]
 RPMIsWindowPrivate
 :
 [
@@ -707,6 +714,13 @@ min
 "
 ]
 RPMAddToHistogram
+:
+[
+"
+*
+"
+]
+RPMGetInnerMostURI
 :
 [
 "
