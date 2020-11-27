@@ -156,6 +156,15 @@ WebAuthenticationBinding
 .
 h
 "
+#
+include
+"
+ipc
+/
+IPCMessageUtils
+.
+h
+"
 namespace
 mozilla
 {

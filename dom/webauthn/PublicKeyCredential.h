@@ -183,6 +183,17 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+CryptoBuffer
+.
+h
+"
 namespace
 mozilla
 {

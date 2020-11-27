@@ -431,6 +431,9 @@ namespace
 dom
 {
 class
+Credential
+;
+class
 WebAuthnTransaction
 {
 public
