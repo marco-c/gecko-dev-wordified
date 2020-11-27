@@ -604,6 +604,13 @@ h
 #
 include
 "
+nsICookieJarSettings
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
