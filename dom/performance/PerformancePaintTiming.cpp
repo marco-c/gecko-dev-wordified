@@ -223,10 +223,7 @@ aPerformance
 )
 mStartTime
 (
-CalculateStartTime
-(
 aStartTime
-)
 )
 {
 }
@@ -277,12 +274,8 @@ DOMHighResTimeStamp
 PerformancePaintTiming
 :
 :
-CalculateStartTime
+StartTime
 (
-const
-TimeStamp
-&
-aStartTime
 )
 const
 {
@@ -299,7 +292,7 @@ GetDOMTiming
 >
 TimeStampToDOMHighRes
 (
-aStartTime
+mStartTime
 )
 ;
 return
