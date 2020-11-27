@@ -7457,11 +7457,11 @@ order
 =
 b
 .
-totalCpu
+slopeCpu
 -
 a
 .
-totalCpu
+slopeCpu
 ;
 break
 ;
@@ -7643,11 +7643,11 @@ order
 =
 b
 .
-totalCpu
+slopeCpu
 -
 a
 .
-totalCpu
+slopeCpu
 ;
 break
 ;
