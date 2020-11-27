@@ -80,7 +80,7 @@ protocol
 ;
 const
 {
-networkSpec
+networkParentSpec
 }
 =
 require
@@ -93,6 +93,8 @@ shared
 specs
 /
 network
+-
+parent
 "
 )
 ;
@@ -115,11 +117,11 @@ requests
 *
 /
 class
-NetworkFront
+NetworkParentFront
 extends
 FrontClassWithSpec
 (
-networkSpec
+networkParentSpec
 )
 {
 constructor
@@ -159,13 +161,13 @@ this
 formAttributeName
 =
 "
-networkActor
+networkParentActor
 "
 ;
 }
 }
 registerFront
 (
-NetworkFront
+NetworkParentFront
 )
 ;

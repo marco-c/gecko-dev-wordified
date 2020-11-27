@@ -2275,7 +2275,7 @@ this
 .
 currentWatcherFront
 .
-getNetworkActor
+getNetworkParentActor
 (
 )
 ;
@@ -2364,7 +2364,7 @@ this
 .
 currentWatcherFront
 .
-getNetworkActor
+getNetworkParentActor
 (
 )
 ;
