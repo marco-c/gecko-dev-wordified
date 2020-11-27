@@ -2113,6 +2113,3 @@ nullptr
 /
 namespace
 mozilla
-#
-undef
-LOG
