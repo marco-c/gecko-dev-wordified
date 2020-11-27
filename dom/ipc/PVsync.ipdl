@@ -98,6 +98,10 @@ protocol
 PBackground
 ;
 include
+protocol
+PBrowser
+;
+include
 "
 mozilla
 /
@@ -141,7 +145,7 @@ namespace
 mozilla
 {
 namespace
-layout
+dom
 {
 /
 *
@@ -155,13 +159,15 @@ sub
 protocol
 in
 PBackground
+or
+PBrowser
 and
 it
 is
 used
 to
-notify
 *
+notify
 the
 vsync
 event
@@ -195,6 +201,8 @@ PVsync
 {
 manager
 PBackground
+or
+PBrowser
 ;
 child
 :
@@ -290,6 +298,8 @@ as
 /
 its
 PBackground
+or
+PBrowser
 manager
 .
 async
@@ -303,7 +313,7 @@ __delete__
 /
 /
 namespace
-layout
+dom
 }
 /
 /
