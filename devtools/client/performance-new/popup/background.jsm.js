@@ -1304,7 +1304,7 @@ MediaDecoderStateMachine
 MediaPDecoder
 "
 "
-MediaController
+MediaSupervisor
 "
 "
 MediaTimer
