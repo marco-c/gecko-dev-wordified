@@ -175,6 +175,8 @@ aStyle
 uint32_t
 count
 =
+aOther
+.
 mStringHashToIndexMap
 .
 count
