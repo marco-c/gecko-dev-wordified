@@ -157,11 +157,6 @@ closeToolbox
 target
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

@@ -212,11 +212,6 @@ runTests
 (
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

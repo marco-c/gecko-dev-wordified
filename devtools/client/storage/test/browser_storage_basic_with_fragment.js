@@ -1494,11 +1494,6 @@ testTables
 (
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

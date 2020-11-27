@@ -570,11 +570,6 @@ runTests
 testcasesAfterHiding
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

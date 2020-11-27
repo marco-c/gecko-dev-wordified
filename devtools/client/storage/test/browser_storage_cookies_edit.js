@@ -74,12 +74,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -120,7 +120,7 @@ browser
 "
 )
 ;
-yield
+await
 editCell
 (
 id
@@ -153,7 +153,7 @@ browser
 "
 )
 ;
-yield
+await
 editCell
 (
 id
@@ -189,7 +189,7 @@ browser
 "
 )
 ;
-yield
+await
 editCell
 (
 id
@@ -220,7 +220,7 @@ org
 "
 )
 ;
-yield
+await
 editCell
 (
 id
@@ -241,7 +241,7 @@ GMT
 "
 )
 ;
-yield
+await
 editCell
 (
 id
@@ -253,7 +253,7 @@ newValue3
 "
 )
 ;
-yield
+await
 editCell
 (
 id
@@ -265,7 +265,7 @@ true
 "
 )
 ;
-yield
+await
 editCell
 (
 id
@@ -275,11 +275,6 @@ isHttpOnly
 "
 true
 "
-)
-;
-yield
-finishTests
-(
 )
 ;
 }

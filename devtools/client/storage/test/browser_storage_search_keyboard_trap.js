@@ -90,11 +90,6 @@ searchbox
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

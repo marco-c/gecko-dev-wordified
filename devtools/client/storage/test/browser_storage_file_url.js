@@ -498,11 +498,6 @@ test6
 ]
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

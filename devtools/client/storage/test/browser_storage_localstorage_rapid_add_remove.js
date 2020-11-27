@@ -169,11 +169,6 @@ i
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;

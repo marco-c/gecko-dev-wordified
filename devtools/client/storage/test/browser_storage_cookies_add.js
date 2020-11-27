@@ -74,12 +74,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -98,7 +98,7 @@ showAllColumns
 true
 )
 ;
-yield
+await
 performAdd
 (
 [
@@ -119,7 +119,7 @@ org
 ]
 )
 ;
-yield
+await
 performAdd
 (
 [
@@ -140,7 +140,7 @@ org
 ]
 )
 ;
-yield
+await
 performAdd
 (
 [
@@ -161,7 +161,7 @@ org
 ]
 )
 ;
-yield
+await
 performAdd
 (
 [
@@ -182,7 +182,7 @@ org
 ]
 )
 ;
-yield
+await
 performAdd
 (
 [
@@ -201,11 +201,6 @@ example
 org
 "
 ]
-)
-;
-yield
-finishTests
-(
 )
 ;
 }

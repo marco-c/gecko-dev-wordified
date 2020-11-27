@@ -625,11 +625,6 @@ repeat
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;

@@ -1860,11 +1860,6 @@ testTables
 storageItemsForDefault
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

@@ -271,11 +271,6 @@ closeWindow
 win
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;
