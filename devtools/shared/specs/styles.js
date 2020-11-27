@@ -552,15 +552,6 @@ type
 "
 styleSheetUpdated
 "
-styleSheet
-:
-Arg
-(
-0
-"
-stylesheet
-"
-)
 }
 }
 methods

@@ -226,7 +226,7 @@ getOriginalLocation
 toolbox
 stylesheetFront
 .
-actorID
+resourceId
 generatedLine
 generatedColumn
 )

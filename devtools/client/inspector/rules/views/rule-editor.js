@@ -2547,6 +2547,15 @@ rule
 .
 sheet
 .
+resourceId
+|
+|
+this
+.
+rule
+.
+sheet
+.
 actorID
 this
 .

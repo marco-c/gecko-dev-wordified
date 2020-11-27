@@ -395,6 +395,17 @@ msg
 await
 onMessage
 ;
+await
+hud
+.
+toolbox
+.
+sourceMapURLService
+.
+waitForSourcesLoading
+(
+)
+;
 }
 const
 onConsolesDestroyed
