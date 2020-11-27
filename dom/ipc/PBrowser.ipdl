@@ -175,6 +175,9 @@ include
 DOMTypes
 ;
 include
+NeckoChannelParams
+;
+include
 WindowGlobalTypes
 ;
 include
@@ -4244,6 +4247,8 @@ nsIPrincipal
 principal
 nsIContentSecurityPolicy
 csp
+CookieJarSettingsArgs
+cookieJarSettings
 )
 ;
 /
