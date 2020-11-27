@@ -785,7 +785,7 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-childReflowOuput
+childReflowInput
 (
 aPresContext
 aReflowInput
@@ -815,7 +815,7 @@ differs
 LogicalMargin
 childMargin
 =
-childReflowOuput
+childReflowInput
 .
 ComputedLogicalMargin
 (
@@ -897,7 +897,7 @@ ReflowChild
 inputAreaFrame
 aPresContext
 childDesiredSize
-childReflowOuput
+childReflowInput
 myWM
 childOffset
 dummyContainerSize
@@ -1153,7 +1153,7 @@ inputAreaFrame
 aPresContext
 childDesiredSize
 &
-childReflowOuput
+childReflowInput
 myWM
 childOffset
 borderBoxSize
