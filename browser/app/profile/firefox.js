@@ -17852,7 +17852,7 @@ logowordmark
 .
 alwaysVisible
 "
-false
+true
 )
 ;
 /
