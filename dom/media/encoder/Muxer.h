@@ -112,6 +112,12 @@ mozilla
 class
 ContainerWriter
 ;
+class
+EncodedFrame
+;
+class
+TrackMetadataBase
+;
 /
 /
 Generic
