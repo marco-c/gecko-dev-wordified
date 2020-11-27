@@ -221,11 +221,6 @@ BaselineIC
 cpp
 "
 "
-BaselineInspector
-.
-cpp
-"
-"
 BaselineJIT
 .
 cpp
@@ -312,11 +307,6 @@ cpp
 "
 "
 IonAnalysis
-.
-cpp
-"
-"
-IonBuilder
 .
 cpp
 "
@@ -421,11 +411,6 @@ MacroAssembler
 cpp
 "
 "
-MCallOptimize
-.
-cpp
-"
-"
 MIR
 .
 cpp
@@ -519,11 +504,6 @@ cpp
 "
 "
 Snapshots
-.
-cpp
-"
-"
-TIOracle
 .
 cpp
 "
