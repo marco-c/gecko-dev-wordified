@@ -471,7 +471,7 @@ CONFIRM_INIT
 )
 mRetryConfirmInterval
 (
-1000
+125
 )
 mTRRFailures
 (
@@ -5806,7 +5806,12 @@ CONFIRM_OK
 }
 mRetryConfirmInterval
 =
-1000
+StaticPrefs
+:
+:
+network_trr_retry_timeout_ms
+(
+)
 ;
 }
 return
