@@ -34,6 +34,16 @@ ArrayBuffer
 gb
 )
 ;
+assertEq
+(
+ab
+.
+byteLength
+7
+*
+gb
+)
+;
 let
 taInt16
 =

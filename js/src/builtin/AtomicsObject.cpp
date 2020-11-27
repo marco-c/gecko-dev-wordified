@@ -743,7 +743,7 @@ TypedArrayObject
 typedArray
 HandleValue
 requestIndex
-uint32_t
+size_t
 *
 index
 )
@@ -767,7 +767,7 @@ hasDetachedBuffer
 )
 )
 ;
-uint32_t
+size_t
 length
 =
 typedArray
@@ -777,7 +777,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -835,7 +835,7 @@ Step
 *
 index
 =
-uint32_t
+size_t
 (
 accessIndex
 )
@@ -1582,7 +1582,7 @@ false
 Step
 2
 .
-uint32_t
+size_t
 intIndex
 ;
 if
@@ -1832,7 +1832,7 @@ cx
 TypedArrayObject
 *
 typedArray
-uint32_t
+size_t
 index
 )
 {
@@ -1971,7 +1971,7 @@ TypedArrayObject
 *
 >
 unwrappedTypedArray
-uint32_t
+size_t
 index
 )
 {
@@ -2188,7 +2188,7 @@ TypedArrayObject
 *
 >
 unwrappedTypedArray
-uint32_t
+size_t
 index
 )
 {
@@ -2353,7 +2353,7 @@ TypedArrayObject
 *
 >
 unwrappedTypedArray
-uint32_t
+size_t
 index
 )
 {
@@ -2529,7 +2529,7 @@ TypedArrayObject
 *
 >
 unwrappedTypedArray
-uint32_t
+size_t
 index
 )
 {
@@ -3399,7 +3399,7 @@ public
 :
 FutexWaiter
 (
-uint32_t
+size_t
 offset
 JSContext
 *
@@ -3424,7 +3424,7 @@ nullptr
 )
 {
 }
-uint32_t
+size_t
 offset
 ;
 /
@@ -3632,7 +3632,7 @@ cx
 SharedArrayRawBuffer
 *
 sarb
-uint32_t
+size_t
 byteOffset
 T
 value
@@ -4030,7 +4030,7 @@ cx
 SharedArrayRawBuffer
 *
 sarb
-uint32_t
+size_t
 byteOffset
 int32_t
 value
@@ -4075,7 +4075,7 @@ cx
 SharedArrayRawBuffer
 *
 sarb
-uint32_t
+size_t
 byteOffset
 int64_t
 value
@@ -4150,7 +4150,7 @@ TypedArrayObject
 *
 >
 unwrappedTypedArray
-uint32_t
+size_t
 index
 T
 value
@@ -4313,7 +4313,7 @@ bufferShared
 Step
 11
 .
-uint32_t
+size_t
 offset
 =
 unwrappedTypedArray
@@ -4323,7 +4323,7 @@ byteOffset
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -4350,7 +4350,7 @@ been
 /
 performed
 .
-uint32_t
+size_t
 indexedPosition
 =
 index
@@ -4688,7 +4688,7 @@ cx
 Step
 2
 .
-uint32_t
+size_t
 intIndex
 ;
 if
@@ -4869,7 +4869,7 @@ atomics_notify_impl
 SharedArrayRawBuffer
 *
 sarb
-uint32_t
+size_t
 byteOffset
 int64_t
 count
@@ -5274,7 +5274,7 @@ BigInt64
 Step
 2
 .
-uint32_t
+size_t
 intIndex
 ;
 if
@@ -5442,7 +5442,7 @@ bufferShared
 Step
 6
 .
-uint32_t
+size_t
 offset
 =
 unwrappedTypedArray
@@ -5452,7 +5452,7 @@ byteOffset
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -5479,7 +5479,7 @@ been
 /
 performed
 .
-uint32_t
+size_t
 elementSize
 =
 Scalar
@@ -5495,7 +5495,7 @@ type
 )
 )
 ;
-uint32_t
+size_t
 indexedPosition
 =
 intIndex

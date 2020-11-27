@@ -895,7 +895,7 @@ cx
 SharedArrayRawBuffer
 *
 sarb
-uint32_t
+size_t
 byteOffset
 int32_t
 value
@@ -943,7 +943,7 @@ cx
 SharedArrayRawBuffer
 *
 sarb
-uint32_t
+size_t
 byteOffset
 int64_t
 value
@@ -1033,7 +1033,7 @@ atomics_notify_impl
 SharedArrayRawBuffer
 *
 sarb
-uint32_t
+size_t
 byteOffset
 int64_t
 count
