@@ -346,6 +346,8 @@ _ns
 void
 NoteBackgroundThread
 (
+uint32_t
+aPrivateBrowsingId
 nsIEventTarget
 *
 aBackgroundThread
@@ -396,6 +398,9 @@ nsCOMPtr
 nsIEventTarget
 >
 mBackgroundThread
+[
+2
+]
 ;
 /
 /

@@ -2548,6 +2548,10 @@ const
 nsString
 &
 aProfilePath
+const
+uint32_t
+&
+aPrivateBrowsingId
 )
 -
 >
@@ -2572,6 +2576,7 @@ dom
 AllocPBackgroundStorageParent
 (
 aProfilePath
+aPrivateBrowsingId
 )
 ;
 }
@@ -2594,6 +2599,10 @@ const
 nsString
 &
 aProfilePath
+const
+uint32_t
+&
+aPrivateBrowsingId
 )
 {
 AssertIsInMainOrSocketProcess
@@ -2620,6 +2629,7 @@ RecvPBackgroundStorageConstructor
 (
 aActor
 aProfilePath
+aPrivateBrowsingId
 )
 ;
 }
