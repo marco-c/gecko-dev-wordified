@@ -123,6 +123,13 @@ mozilla_SurfaceFromElementResult_h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -177,13 +184,6 @@ gfx
 {
 class
 SourceSurface
-;
-}
-namespace
-layers
-{
-class
-Image
 ;
 }
 struct

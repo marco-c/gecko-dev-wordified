@@ -127,15 +127,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefCounted
 .
 h
@@ -159,6 +150,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 devtools
 {

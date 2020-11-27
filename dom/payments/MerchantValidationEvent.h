@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Result
 .
 h
@@ -186,6 +177,9 @@ nsIURI
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

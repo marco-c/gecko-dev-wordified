@@ -123,15 +123,6 @@ MOZILLA_GEOMETRYUTILS_H_
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -168,6 +159,9 @@ nsINode
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

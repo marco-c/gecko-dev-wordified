@@ -188,7 +188,7 @@ h
 #
 include
 "
-nsTArray
+nsTArrayForwardDeclare
 .
 h
 "

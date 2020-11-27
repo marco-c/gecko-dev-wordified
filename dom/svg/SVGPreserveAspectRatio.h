@@ -163,15 +163,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 SVGElement
@@ -181,6 +172,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 /
 /
 These

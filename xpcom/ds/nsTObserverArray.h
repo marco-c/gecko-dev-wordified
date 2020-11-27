@@ -152,11 +152,6 @@ nsCycleCollectionNoteChild
 .
 h
 "
-#
-include
-<
-functional
->
 /
 *
 *

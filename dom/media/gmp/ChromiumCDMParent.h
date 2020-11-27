@@ -173,15 +173,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Span
 .
 h
@@ -199,6 +190,9 @@ ChromiumCDMCallback
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 MediaRawData
 ;

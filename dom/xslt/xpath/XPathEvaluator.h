@@ -131,15 +131,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Document
@@ -158,6 +149,9 @@ txResultRecycler
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

@@ -155,15 +155,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
@@ -213,6 +204,9 @@ txIGlobalParameter
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

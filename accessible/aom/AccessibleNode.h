@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
@@ -186,6 +177,9 @@ nsINode
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 a11y
 {

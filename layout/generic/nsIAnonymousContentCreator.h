@@ -149,15 +149,6 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
-.
-h
-"
-#
-include
-"
 nsQueryFrame
 .
 h
@@ -171,9 +162,6 @@ h
 "
 class
 nsIContent
-;
-class
-nsIFrame
 ;
 /
 *

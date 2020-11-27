@@ -123,15 +123,6 @@ mozilla_dom_Pose_h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -139,6 +130,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

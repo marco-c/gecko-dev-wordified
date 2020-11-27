@@ -176,15 +176,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -249,6 +240,9 @@ nsIURI
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

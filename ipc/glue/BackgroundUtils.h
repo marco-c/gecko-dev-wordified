@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-BasePrincipal
+OriginAttributes
 .
 h
 "
@@ -303,6 +303,13 @@ IPC
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+Document
+;
+}
 namespace
 net
 {

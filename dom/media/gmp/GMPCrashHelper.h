@@ -136,13 +136,9 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-nsPIDOMWindow
-.
-h
-"
+class
+nsPIDOMWindowInner
+;
 namespace
 mozilla
 {

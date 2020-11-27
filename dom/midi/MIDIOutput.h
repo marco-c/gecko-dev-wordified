@@ -141,15 +141,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -160,6 +151,9 @@ JSContext
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

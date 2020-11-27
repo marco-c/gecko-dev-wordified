@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsStyleConsts
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h
@@ -168,7 +161,7 @@ include
 "
 mozilla
 /
-StaticPtr
+ServoStyleConsts
 .
 h
 "
@@ -177,7 +170,7 @@ include
 "
 mozilla
 /
-TimeStamp
+StaticPtr
 .
 h
 "

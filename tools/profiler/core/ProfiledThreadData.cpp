@@ -142,9 +142,7 @@ include
 "
 mozilla
 /
-dom
-/
-ContentChild
+ProfileJSONWriter
 .
 h
 "
@@ -153,7 +151,14 @@ include
 "
 mozilla
 /
-ProfileJSONWriter
+Span
+.
+h
+"
+#
+include
+"
+nsXULAppAPI
 .
 h
 "
@@ -1192,6 +1197,9 @@ StringProperty
 "
 processType
 "
+mozilla
+:
+:
 MakeStringSpan
 (
 XRE_GetProcessTypeString
@@ -1207,6 +1215,9 @@ StringProperty
 "
 name
 "
+mozilla
+:
+:
 MakeStringSpan
 (
 aName

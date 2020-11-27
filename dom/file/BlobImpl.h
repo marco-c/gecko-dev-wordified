@@ -134,15 +134,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -183,6 +174,9 @@ nsIInputStream
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

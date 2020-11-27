@@ -150,15 +150,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 PromiseNativeHandler
@@ -195,6 +186,9 @@ nsQueryJSActor
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

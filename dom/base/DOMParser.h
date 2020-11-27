@@ -150,15 +150,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Span
 .
 h
@@ -191,6 +182,9 @@ nsIGlobalObject
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

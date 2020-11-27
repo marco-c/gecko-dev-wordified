@@ -143,15 +143,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsIWeakReferenceUtils
 .
 h

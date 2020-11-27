@@ -181,15 +181,6 @@ include
 "
 mozilla
 /
-Result
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h

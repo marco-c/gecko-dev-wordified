@@ -138,6 +138,13 @@ PlatformMutex
 .
 h
 "
+#
+include
+"
+nsISupports
+.
+h
+"
 /
 /
 /

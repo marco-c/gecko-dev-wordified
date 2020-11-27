@@ -130,15 +130,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -153,6 +144,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 storage
 {

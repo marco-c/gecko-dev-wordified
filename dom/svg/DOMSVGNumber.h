@@ -162,15 +162,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h
@@ -197,6 +188,9 @@ items
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

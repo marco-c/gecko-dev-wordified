@@ -130,15 +130,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -197,6 +188,9 @@ mozilla
 {
 class
 DecoderDoctorDiagnostics
+;
+class
+ErrorResult
 ;
 namespace
 dom

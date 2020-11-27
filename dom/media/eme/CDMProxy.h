@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MozPromise
 .
 h
@@ -188,6 +179,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 MediaRawData
 ;

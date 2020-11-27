@@ -181,15 +181,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FloatingPoint
 .
 h

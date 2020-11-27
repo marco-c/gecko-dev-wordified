@@ -134,15 +134,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -204,6 +195,9 @@ nsIGlobalObject
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

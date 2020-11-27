@@ -92,7 +92,7 @@ mozilla
 /
 gfx
 /
-2D
+Rect
 .
 h
 "
@@ -119,6 +119,9 @@ LayersTypes
 h
 "
 #
+ifdef
+MOZ_IS_GCC
+#
 include
 "
 mozilla
@@ -129,6 +132,8 @@ NativeLayer
 .
 h
 "
+#
+endif
 class
 nsIWidget
 ;
@@ -165,7 +170,7 @@ class
 LayerManagerComposite
 ;
 class
-Compositor
+NativeLayerRoot
 ;
 }
 /

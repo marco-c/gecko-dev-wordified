@@ -132,10 +132,13 @@ h
 #
 include
 "
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteChild
 .
 h
 "
+class
+nsCycleCollectionTraversalCallback
+;
 template
 <
 typename

@@ -183,15 +183,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Mutex
 .
 h
@@ -205,6 +196,9 @@ nsIInputStream
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

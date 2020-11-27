@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Nullable
@@ -220,6 +211,9 @@ nsFrameLoader
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

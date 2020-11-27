@@ -141,15 +141,6 @@ include
 "
 mozilla
 /
-BackgroundHangMonitor
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Result
 .
 h

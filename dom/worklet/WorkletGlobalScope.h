@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
@@ -214,6 +205,9 @@ WORKLET_IID
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 WorkletImpl
 ;

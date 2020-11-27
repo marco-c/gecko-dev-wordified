@@ -146,15 +146,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Promise
@@ -196,6 +187,9 @@ dom
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 intl
 {

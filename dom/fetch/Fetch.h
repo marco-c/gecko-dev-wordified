@@ -162,15 +162,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 AbortSignal
@@ -241,6 +232,9 @@ nsIEventTarget
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

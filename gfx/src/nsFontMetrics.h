@@ -207,6 +207,13 @@ NS_INLINE_DECL_REFCOUNTING
 #
 include
 "
+nsStyleConsts
+.
+h
+"
+#
+include
+"
 nscore
 .
 h

@@ -174,15 +174,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EnumeratedArray
 .
 h
@@ -214,6 +205,9 @@ nsPIDOMWindowInner
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

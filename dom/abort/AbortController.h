@@ -134,15 +134,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -167,6 +158,9 @@ nsIGlobalObject
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

@@ -145,15 +145,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h
@@ -223,6 +214,9 @@ nsXULElement
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 PresShell
 ;

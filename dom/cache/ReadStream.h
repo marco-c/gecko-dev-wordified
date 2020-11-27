@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 SafeRefPtr
@@ -198,6 +189,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 ipc
 {

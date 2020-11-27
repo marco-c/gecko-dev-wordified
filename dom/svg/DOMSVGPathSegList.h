@@ -175,15 +175,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h
@@ -202,6 +193,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 SVGAnimatedPathSegList
 ;

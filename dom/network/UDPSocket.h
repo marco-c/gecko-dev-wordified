@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Promise
@@ -208,6 +199,9 @@ UDPSocket
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 LazyLogModule
 ;

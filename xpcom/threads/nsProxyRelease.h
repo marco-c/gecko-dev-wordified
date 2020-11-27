@@ -167,6 +167,13 @@ h
 #
 include
 "
+nsISerialEventTarget
+.
+h
+"
+#
+include
+"
 nsIThread
 .
 h
@@ -198,6 +205,9 @@ NSPR
 .
 #
 endif
+class
+nsIRunnable
+;
 namespace
 detail
 {

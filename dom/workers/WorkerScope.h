@@ -152,15 +152,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
@@ -328,6 +319,9 @@ nsISerialEventTarget
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

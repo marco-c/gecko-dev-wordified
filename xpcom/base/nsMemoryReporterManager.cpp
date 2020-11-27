@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsMemoryReporterManager
+.
+h
+"
+#
+include
+"
 nsAtomTable
 .
 h
@@ -153,13 +160,6 @@ h
 include
 "
 nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
-nsMemoryReporterManager
 .
 h
 "

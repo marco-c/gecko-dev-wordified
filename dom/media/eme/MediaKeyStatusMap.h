@@ -125,15 +125,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
@@ -189,6 +180,9 @@ nsPIDOMWindowInner
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

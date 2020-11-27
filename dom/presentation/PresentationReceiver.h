@@ -123,15 +123,6 @@ mozilla_dom_PresentationReceiver_h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -170,6 +161,9 @@ nsPIDOMWindowInner
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

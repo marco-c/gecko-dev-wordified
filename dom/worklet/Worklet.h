@@ -132,15 +132,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsRefPtrHashtable
 .
 h
@@ -165,6 +156,9 @@ nsPIDOMWindowInner
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 class
 WorkletImpl
 ;

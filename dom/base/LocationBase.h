@@ -132,15 +132,6 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
@@ -160,6 +151,9 @@ nsDocShellLoadState
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

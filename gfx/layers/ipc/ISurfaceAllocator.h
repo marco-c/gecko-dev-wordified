@@ -228,13 +228,6 @@ h
 /
 for
 ShmemSection
-#
-include
-"
-LayersTypes
-.
-h
-"
 namespace
 mozilla
 {

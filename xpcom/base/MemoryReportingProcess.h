@@ -148,6 +148,14 @@ FileDescriptor
 /
 namespace
 ipc
+template
+<
+class
+T
+>
+class
+Maybe
+;
 /
 /
 Top
@@ -195,8 +203,9 @@ virtual
 MemoryReportingProcess
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Return

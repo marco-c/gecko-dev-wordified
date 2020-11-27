@@ -132,15 +132,6 @@ include
 "
 mozilla
 /
-ErrorResult
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 TypedArray
@@ -240,6 +231,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 gfx
 {
