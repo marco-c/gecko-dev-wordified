@@ -230,6 +230,15 @@ include
 "
 mozilla
 /
+StaticMutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
