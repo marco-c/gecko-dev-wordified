@@ -1023,6 +1023,7 @@ CGTryNoteList
 Vector
 <
 TryNote
+0
 >
 list
 ;
@@ -1104,6 +1105,7 @@ CGScopeNoteList
 Vector
 <
 ScopeNote
+0
 >
 list
 ;
@@ -1210,6 +1212,7 @@ CGResumeOffsetList
 Vector
 <
 uint32_t
+0
 >
 list
 ;

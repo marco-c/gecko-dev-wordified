@@ -2296,6 +2296,7 @@ vector
 Vector
 <
 FunctionIndex
+4
 >
 innerFunctionIndexesForLazy
 ;
