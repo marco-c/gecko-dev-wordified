@@ -937,6 +937,9 @@ ParseTask
 *
 removeFinishedParseTask
 (
+JSContext
+*
+cx
 ParseTaskKind
 kind
 JS
