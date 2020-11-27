@@ -1096,7 +1096,7 @@ aTitle
 aMode
 )
 {
-this
+MockFilePicker
 .
 mode
 =
