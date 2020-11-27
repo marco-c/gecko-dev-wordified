@@ -91,6 +91,17 @@ mozilla
 /
 glean
 /
+String
+.
+h
+"
+#
+include
+"
+mozilla
+/
+glean
+/
 Uuid
 .
 h
