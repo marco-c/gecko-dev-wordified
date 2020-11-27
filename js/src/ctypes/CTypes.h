@@ -2864,7 +2864,10 @@ obj
 )
 ;
 const
-JSCTypesCallbacks
+JS
+:
+:
+CTypesCallbacks
 *
 GetCallbacks
 (
@@ -3049,7 +3052,10 @@ SLOT_CALLBACKS
 /
 pointer
 to
-JSCTypesCallbacks
+JS
+:
+:
+CTypesCallbacks
 struct
 SLOT_ERRNO
 =
@@ -4014,7 +4020,10 @@ slot
 )
 ;
 const
-JSCTypesCallbacks
+JS
+:
+:
+CTypesCallbacks
 *
 GetCallbacksFromType
 (

@@ -5231,7 +5231,7 @@ preparer
 }
 JS_FRIEND_API
 void
-js
+JS
 :
 :
 SetCTypesActivityCallback
@@ -5256,7 +5256,7 @@ ctypesActivityCallback
 cb
 ;
 }
-js
+JS
 :
 :
 AutoCTypesActivityCallback
@@ -5267,14 +5267,8 @@ AutoCTypesActivityCallback
 JSContext
 *
 cx
-js
-:
-:
 CTypesActivityType
 beginType
-js
-:
-:
 CTypesActivityType
 endType
 )

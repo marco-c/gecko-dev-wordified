@@ -64936,7 +64936,10 @@ fuzzingSafe
 &
 &
 !
-JS_InitCTypesClass
+JS
+:
+:
+InitCTypesClass
 (
 cx
 glob
