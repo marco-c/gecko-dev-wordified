@@ -482,6 +482,13 @@ boxModel
 )
 .
 isRequired
+dispatch
+:
+PropTypes
+.
+func
+.
+isRequired
 flexbox
 :
 PropTypes
