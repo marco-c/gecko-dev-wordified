@@ -1231,11 +1231,6 @@ bool
 aDoReg
 )
 ;
-void
-CheckBoxOrder
-(
-)
-;
 private
 :
 void
