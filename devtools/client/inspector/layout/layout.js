@@ -278,7 +278,6 @@ return
 }
 const
 {
-onShowBoxModelHighlighterForNode
 setSelectedNode
 }
 =
@@ -396,7 +395,6 @@ swatchColorPickerTooltip
 onSetFlexboxOverlayColor
 onSetGridOverlayColor
 onShowBoxModelEditor
-onShowBoxModelHighlighterForNode
 onShowRulePreviewTooltip
 onShowGridOutlineHighlight
 onToggleFlexboxHighlighter
