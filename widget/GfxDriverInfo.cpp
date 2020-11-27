@@ -3434,7 +3434,7 @@ NvidiaRolloutWebRender
 :
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 APPEND_RANGE
 (
 0x0400
@@ -3473,7 +3473,7 @@ IntelRolloutWebRender
 :
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 /
 /
 gen5
@@ -3490,11 +3490,6 @@ APPEND_DEVICE
 0x0046
 )
 ;
-#
-endif
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 cherryview
