@@ -290,7 +290,7 @@ mozilla
 /
 ipc
 /
-Shmem
+ShmemMessageUtils
 .
 h
 "
