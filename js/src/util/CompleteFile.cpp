@@ -169,7 +169,11 @@ JS_ReportErrorNumberLatin1
 #
 include
 "
-jsfriendapi
+js
+/
+friend
+/
+ErrorMessages
 .
 h
 "

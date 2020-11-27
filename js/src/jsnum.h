@@ -168,6 +168,10 @@ ErrorMessages
 .
 h
 "
+/
+/
+JSMSG_
+*
 #
 include
 "

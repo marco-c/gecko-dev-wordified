@@ -132,7 +132,11 @@ MOZ_CRASH
 #
 include
 "
-jsfriendapi
+js
+/
+friend
+/
+ErrorMessages
 .
 h
 "
