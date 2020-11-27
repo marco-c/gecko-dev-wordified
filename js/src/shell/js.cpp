@@ -34137,8 +34137,6 @@ get
 )
 .
 stencil
-.
-parserAtoms
 )
 ;
 if
@@ -34602,8 +34600,6 @@ get
 )
 .
 stencil
-.
-parserAtoms
 )
 ;
 Parser
