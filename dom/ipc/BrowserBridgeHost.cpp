@@ -134,6 +134,13 @@ Unused
 .
 h
 "
+#
+include
+"
+nsFrameLoader
+.
+h
+"
 namespace
 mozilla
 {

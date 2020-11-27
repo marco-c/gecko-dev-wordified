@@ -163,6 +163,17 @@ mozilla
 /
 dom
 /
+WindowGlobalChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WindowGlobalParent
 .
 h

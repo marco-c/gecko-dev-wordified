@@ -139,6 +139,17 @@ ResultExtensions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+FileDescriptor
+.
+h
+"
 namespace
 mozilla
 {

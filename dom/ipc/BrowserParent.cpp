@@ -773,6 +773,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsQueryActor
 .
 h

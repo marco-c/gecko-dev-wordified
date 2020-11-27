@@ -119,6 +119,17 @@ mozilla
 /
 dom
 /
+ContentChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 JSProcessActorBinding
 .
 h
