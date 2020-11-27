@@ -1298,8 +1298,6 @@ bool
 aPrintToFile
 )
 {
-/
-/
 NS_ENSURE_ARG_POINTER
 (
 aPrintToFile
@@ -1471,9 +1469,6 @@ aIsInitializedFromPrinter
 *
 aIsInitializedFromPrinter
 =
-(
-bool
-)
 mIsInitedFromPrinter
 ;
 return
@@ -1492,9 +1487,6 @@ aIsInitializedFromPrinter
 {
 mIsInitedFromPrinter
 =
-(
-bool
-)
 aIsInitializedFromPrinter
 ;
 return
@@ -1520,9 +1512,6 @@ aInitializedFromPrefs
 *
 aInitializedFromPrefs
 =
-(
-bool
-)
 mIsInitedFromPrefs
 ;
 return
@@ -1541,9 +1530,6 @@ aInitializedFromPrefs
 {
 mIsInitedFromPrefs
 =
-(
-bool
-)
 aInitializedFromPrefs
 ;
 return
