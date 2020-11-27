@@ -3322,14 +3322,6 @@ smooshScript
 .
 was_function_emitted
 ;
-script
-.
-isSingletonFunction
-=
-smooshScript
-.
-is_singleton_function
-;
 }
 if
 (
