@@ -293,6 +293,12 @@ resourceType
 =
 storageType
 ;
+storage
+.
+resourceKey
+=
+storageKey
+;
 /
 /
 storage
@@ -374,6 +380,9 @@ storageType
 resourceType
 :
 storageType
+resourceKey
+:
+storageKey
 changed
 :
 response

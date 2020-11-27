@@ -88,6 +88,15 @@ MPL
 DevToolsModules
 (
 '
+content
+-
+process
+-
+storage
+.
+js
+'
+'
 nsi
 -
 console

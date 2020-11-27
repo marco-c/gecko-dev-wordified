@@ -883,6 +883,12 @@ Map
 (
 )
 ;
+exports
+.
+storageTypePool
+=
+storageTypePool
+;
 /
 *
 *
