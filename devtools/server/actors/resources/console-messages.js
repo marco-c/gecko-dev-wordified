@@ -319,7 +319,7 @@ via
 /
 prepareConsoleMessageForRemote
 >
-TabSources
+SourcesManager
 .
 getActorIdForInternalSourceId
 /

@@ -909,7 +909,7 @@ this
 .
 threadActor
 .
-sources
+sourcesManager
 .
 getFrameLocation
 (
@@ -922,7 +922,7 @@ this
 .
 threadActor
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (

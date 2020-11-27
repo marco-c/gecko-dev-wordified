@@ -930,7 +930,7 @@ to
 lazily
 create
 the
-TabSources
+SourcesManager
 instance
 .
 this

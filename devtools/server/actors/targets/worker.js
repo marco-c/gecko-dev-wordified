@@ -173,7 +173,7 @@ debugger
 ;
 const
 {
-TabSources
+SourcesManager
 }
 =
 require
@@ -187,7 +187,9 @@ actors
 /
 utils
 /
-TabSources
+sources
+-
+manager
 "
 )
 ;
@@ -590,7 +592,7 @@ this
 _sources
 =
 new
-TabSources
+SourcesManager
 (
 this
 .

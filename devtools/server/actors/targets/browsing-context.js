@@ -279,7 +279,7 @@ DevToolsUtils
 ;
 var
 {
-TabSources
+SourcesManager
 }
 =
 require
@@ -293,7 +293,9 @@ actors
 /
 utils
 /
-TabSources
+sources
+-
+manager
 "
 )
 ;
@@ -2319,7 +2321,7 @@ consoleAPIListenerOptions
 /
 /
 Optional
-TabSources
+SourcesManager
 filter
 function
 (
@@ -3235,7 +3237,7 @@ this
 _sources
 =
 new
-TabSources
+SourcesManager
 (
 this
 .

@@ -1766,7 +1766,7 @@ objectGrip
 ;
 }
 get
-sources
+sourcesManager
 (
 )
 {
@@ -2067,12 +2067,6 @@ removeAllDebuggees
 }
 this
 .
-_sources
-=
-null
-;
-this
-.
 _scripts
 =
 null
@@ -2282,7 +2276,7 @@ _onNavigate
 ;
 this
 .
-sources
+sourcesManager
 .
 off
 (
@@ -2483,7 +2477,7 @@ options
 ;
 this
 .
-sources
+sourcesManager
 .
 on
 (
@@ -3452,7 +3446,7 @@ sourceActors
 =
 this
 .
-sources
+sourcesManager
 .
 getSourceActorsByURL
 (
@@ -3486,7 +3480,7 @@ sourceActor
 =
 this
 .
-sources
+sourcesManager
 .
 getSourceActorById
 (
@@ -5051,7 +5045,7 @@ if
 (
 this
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (
@@ -5087,7 +5081,7 @@ if
 (
 this
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (
@@ -5408,7 +5402,7 @@ column
 =
 this
 .
-sources
+sourcesManager
 .
 getFrameLocation
 (
@@ -5700,7 +5694,7 @@ if
 (
 this
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (
@@ -5895,7 +5889,7 @@ finish
 !
 thread
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (
@@ -6079,7 +6073,7 @@ newLocation
 =
 this
 .
-sources
+sourcesManager
 .
 getFrameLocation
 (
@@ -6327,7 +6321,7 @@ isBreakpoint
 |
 this
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (
@@ -6395,7 +6389,7 @@ location
 =
 this
 .
-sources
+sourcesManager
 .
 getFrameLocation
 (
@@ -7142,7 +7136,7 @@ if
 !
 this
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (
@@ -8420,7 +8414,7 @@ sourceActor
 =
 this
 .
-sources
+sourcesManager
 .
 createSourceActor
 (
@@ -8758,7 +8752,7 @@ sources
 :
 this
 .
-sources
+sourcesManager
 .
 iter
 (
@@ -10344,7 +10338,7 @@ sources
 >
 this
 .
-sources
+sourcesManager
 createEnvironmentActor
 :
 (
@@ -10582,7 +10576,7 @@ detached
 {
 this
 .
-sources
+sourcesManager
 .
 reset
 (
@@ -10932,7 +10926,7 @@ skipBreakpoints
 |
 this
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (
@@ -11566,7 +11560,7 @@ skipBreakpoints
 |
 this
 .
-sources
+sourcesManager
 .
 isFrameBlackBoxed
 (
@@ -11977,7 +11971,7 @@ if
 !
 this
 .
-sources
+sourcesManager
 .
 allowSource
 (
@@ -12062,7 +12056,7 @@ source
 &
 this
 .
-sources
+sourcesManager
 .
 hasSourceActor
 (
@@ -12074,7 +12068,7 @@ sourceActor
 =
 this
 .
-sources
+sourcesManager
 .
 getSourceActor
 (
@@ -12094,7 +12088,7 @@ sourceActor
 =
 this
 .
-sources
+sourcesManager
 .
 createSourceActor
 (
@@ -12253,7 +12247,7 @@ sourceMapURL
 await
 this
 .
-sources
+sourcesManager
 .
 urlContents
 (
@@ -12892,7 +12886,7 @@ loc
 =
 this
 .
-sources
+sourcesManager
 .
 getFrameLocation
 (

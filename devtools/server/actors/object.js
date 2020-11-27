@@ -360,7 +360,7 @@ object
 -
 sources
 *
-TabSources
+SourcesManager
 getter
 that
 manages
