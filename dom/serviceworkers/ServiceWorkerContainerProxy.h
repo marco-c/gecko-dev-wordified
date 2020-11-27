@@ -138,8 +138,10 @@ final
 Background
 thread
 only
+RefPtr
+<
 ServiceWorkerContainerParent
-*
+>
 mActor
 ;
 ~

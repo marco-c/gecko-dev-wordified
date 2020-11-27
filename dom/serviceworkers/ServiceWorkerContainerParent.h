@@ -156,6 +156,11 @@ ServiceWorkerContainerProxy
 >
 mProxy
 ;
+~
+ServiceWorkerContainerParent
+(
+)
+;
 /
 /
 PServiceWorkerContainerParent
@@ -277,11 +282,12 @@ override
 ;
 public
 :
-ServiceWorkerContainerParent
+NS_INLINE_DECL_REFCOUNTING
 (
+ServiceWorkerContainerParent
+override
 )
 ;
-~
 ServiceWorkerContainerParent
 (
 )

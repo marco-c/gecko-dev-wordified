@@ -146,8 +146,10 @@ ServiceWorkerContainer
 :
 Inner
 {
+RefPtr
+<
 ServiceWorkerContainerChild
-*
+>
 mActor
 ;
 ServiceWorkerContainer
