@@ -3724,6 +3724,7 @@ PointerEventHandler
 UpdateActivePointerState
 (
 mouseEvent
+aTargetContent
 )
 ;
 switch
