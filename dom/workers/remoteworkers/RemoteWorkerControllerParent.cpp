@@ -190,17 +190,6 @@ mozilla
 /
 dom
 /
-RemoteWorkerParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ServiceWorkerOpPromise
 .
 h

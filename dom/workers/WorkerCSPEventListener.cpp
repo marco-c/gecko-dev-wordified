@@ -157,17 +157,6 @@ SecurityPolicyViolationEventBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-WorkerRunnable
-.
-h
-"
 using
 namespace
 mozilla

@@ -128,13 +128,6 @@ Instance
 .
 h
 "
-#
-include
-"
-Texture
-.
-h
-"
 namespace
 mozilla
 {
