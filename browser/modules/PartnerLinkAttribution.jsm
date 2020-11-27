@@ -238,9 +238,9 @@ getBoolPref
 "
 browser
 .
-topsites
+partnerlink
 .
-useRemoteSetting
+useAttributionURL
 "
 )
 ?
