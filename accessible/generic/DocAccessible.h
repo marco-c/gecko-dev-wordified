@@ -643,16 +643,7 @@ PresContext
 (
 )
 const
-{
-return
-mPresShell
--
->
-GetPresContext
-(
-)
 ;
-}
 /
 *
 *

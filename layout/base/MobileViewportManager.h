@@ -141,6 +141,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShellForwards
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
