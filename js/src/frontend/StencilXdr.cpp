@@ -5374,7 +5374,7 @@ value
 }
 MOZ_TRY
 (
-XDRParserAtom
+XDRTaggedParserAtomIndex
 (
 xdr
 &
