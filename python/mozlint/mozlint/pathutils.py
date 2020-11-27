@@ -186,9 +186,9 @@ path
 .
 strip
 (
-"
+'
 .
-"
+'
 )
     
 property
@@ -780,9 +780,9 @@ paths
 .
 rstrip
 (
-"
+'
 /
-"
+'
 )
         
 #
@@ -817,7 +817,6 @@ base
 same_prefix
 =
 [
-            
 p
 for
 p
@@ -840,7 +839,6 @@ basename
 base
 )
 )
-        
 ]
         
 if
@@ -910,9 +908,9 @@ name
 ]
 =
 =
-"
+'
 .
-"
+'
 :
             
 continue
@@ -1206,9 +1204,9 @@ path
 :
         
 if
-"
+'
 *
-"
+'
 not
 in
 path
@@ -1673,8 +1671,6 @@ p
 )
     
 return
-(
-        
 [
 f
 .
@@ -1688,7 +1684,6 @@ f
 .
 exists
 ]
-        
 collapse
 (
 [
@@ -1704,8 +1699,6 @@ f
 .
 exists
 ]
-)
-    
 )
 def
 findobject
@@ -1772,9 +1765,9 @@ path
 .
 count
 (
-"
+'
 :
-"
+'
 )
 !
 =
@@ -1808,7 +1801,6 @@ format
 (
 path
 )
-        
 )
     
 modulepath
@@ -1818,9 +1810,9 @@ path
 .
 split
 (
-"
+'
 :
-"
+'
 )
     
 obj
@@ -1837,9 +1829,9 @@ modulepath
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 1
@@ -1862,9 +1854,9 @@ objectpath
 .
 split
 (
-"
+'
 .
-"
+'
 )
 :
         
@@ -2162,9 +2154,9 @@ e
 .
 lstrip
 (
-"
+'
 .
-"
+'
 )
 for
 e
@@ -2173,9 +2165,9 @@ config
 .
 get
 (
-"
+'
 extensions
-"
+'
 [
 ]
 )
@@ -2187,11 +2179,11 @@ config
 .
 get
 (
-"
+'
 find
 -
 dotfiles
-"
+'
 False
 )
     
@@ -2245,9 +2237,9 @@ config
 .
 get
 (
-"
+'
 exclude
-"
+'
 [
 ]
 )
@@ -2294,9 +2286,9 @@ e
 in
 exclude
 if
-"
+'
 *
-"
+'
 not
 in
 e
@@ -2320,9 +2312,9 @@ e
 in
 exclude
 if
-"
+'
 *
-"
+'
 in
 e
 )
@@ -2338,7 +2330,6 @@ continue
 ignore
 =
 [
-            
 e
 [
 len
@@ -2350,16 +2341,15 @@ path
 .
 lstrip
 (
-"
+'
 /
-"
+'
 )
-            
 for
 e
 in
 exclude
-            
+                  
 if
 mozpath
 .
@@ -2373,7 +2363,6 @@ e
 =
 =
 path
-        
 ]
         
 finder
@@ -2405,9 +2394,9 @@ ext
 .
 lstrip
 (
-"
+'
 .
-"
+'
 )
         
 for

@@ -1039,16 +1039,16 @@ ensure_str
 s
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 errors
 =
-"
+'
 strict
-"
+'
 )
 :
     
@@ -1315,8 +1315,8 @@ cmd
 ensure_str
 (
 b
-"
-"
+'
+'
 .
 join
 (
@@ -1326,16 +1326,16 @@ out
 )
 errors
 =
-"
+'
 replace
-"
+'
 )
                 
 ensure_str
 (
 b
-"
-"
+'
+'
 .
 join
 (
@@ -1345,9 +1345,9 @@ err
 )
 errors
 =
-"
+'
 replace
-"
+'
 )
                 
 returncode
@@ -1375,17 +1375,15 @@ timeout
 )
                 
 {
-"
+'
 pid
-"
+'
 :
 ended
 .
 pid
 }
-            
 )
-        
 )
     
 return
@@ -1593,9 +1591,9 @@ task
 =
 spawn_test
 (
-                
 test
 prefix
+                              
 options
 .
 passthrough
@@ -1605,7 +1603,6 @@ run_skipped
 options
 .
 show_cmd
-            
 )
             
 if

@@ -187,6 +187,7 @@ action
 "
 store
 "
+                        
 help
 =
 "
@@ -205,11 +206,13 @@ add_argument
 "
 commit
 "
+                        
 action
 =
 "
 store
 "
+                        
 help
 =
 "
@@ -391,27 +394,27 @@ headers
 =
 {
         
-"
+'
 Accept
-"
+'
 :
-"
+'
 application
 /
 json
-"
+'
         
-"
+'
 User
 -
 Agent
-"
+'
 :
-"
+'
 wpt
 -
 fetchlogs
-"
+'
     
 }
     
@@ -484,9 +487,9 @@ artifact_params
 =
 {
         
-"
+'
 job_guid
-"
+'
 :
 job_guid
     
@@ -581,7 +584,6 @@ urlparse
 .
 urljoin
 (
-        
 treeherder_base
 "
 /
@@ -597,16 +599,15 @@ resultset
 "
 %
 branch
-    
 )
     
 resultset_params
 =
 {
         
-"
+'
 revision
-"
+'
 :
 commit
     
@@ -666,25 +667,25 @@ jobs_params
 =
 {
         
-"
+'
 result_set_id
-"
+'
 :
 result_set
         
-"
+'
 count
-"
+'
 :
 2000
         
-"
+'
 exclusion_profile
-"
+'
 :
-"
+'
 false
-"
+'
     
 }
     
@@ -725,7 +726,6 @@ job_type_name
         
 if
 (
-            
 job_type_name
 .
 startswith
@@ -736,8 +736,8 @@ Web
 Platform
 "
 )
-            
 or
+            
 job_type_name
 .
 startswith
@@ -747,7 +747,6 @@ test
 -
 "
 )
-            
 and
 "
 -
@@ -760,7 +759,6 @@ tests
 "
 in
 job_type_name
-        
 )
 :
             

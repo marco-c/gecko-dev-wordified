@@ -541,10 +541,6 @@ mozilla
 TimeStamp
 MostRecentRefresh
 (
-bool
-aEnsureTimerStarted
-=
-true
 )
 const
 ;

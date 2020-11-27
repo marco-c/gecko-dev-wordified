@@ -28,7 +28,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -49,7 +48,6 @@ Foo
 "
 "
 "
-        
 )
         
 results
@@ -83,7 +81,6 @@ harness
 .
 ok
 (
-            
 "
 Name
 collision
@@ -92,6 +89,7 @@ in
 e
 .
 message
+                   
 "
 Should
 have
@@ -100,7 +98,6 @@ collision
 for
 interface
 "
-        
 )
     
 parser
@@ -118,7 +115,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -144,7 +140,6 @@ a
 "
 "
 "
-        
 )
         
 results
@@ -178,7 +173,6 @@ harness
 .
 ok
 (
-            
 "
 Name
 collision
@@ -187,6 +181,7 @@ in
 e
 .
 message
+                   
 "
 Should
 have
@@ -195,7 +190,6 @@ collision
 for
 dictionary
 "
-        
 )
     
 parser
@@ -213,7 +207,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -239,7 +232,6 @@ b
 "
 "
 "
-        
 )
         
 results
@@ -273,7 +265,6 @@ harness
 .
 ok
 (
-            
 "
 Multiple
 unresolvable
@@ -283,7 +274,7 @@ in
 e
 .
 message
-            
+                   
 "
 Should
 have
@@ -292,5 +283,4 @@ collision
 for
 dictionary
 "
-        
 )

@@ -76,22 +76,22 @@ import
 setup
 VERSION
 =
-"
+'
 1
 .
 0
 .
 0
-"
+'
 README
 =
 open
 (
-"
+'
 README
 .
 rst
-"
+'
 )
 .
 read
@@ -102,13 +102,13 @@ setup
     
 name
 =
-"
+'
 mach
-"
+'
     
 description
 =
-"
+'
 Generic
 command
 line
@@ -116,7 +116,7 @@ command
 dispatching
 framework
 .
-"
+'
     
 long_description
 =
@@ -124,34 +124,34 @@ README
     
 license
 =
-"
+'
 MPL
 2
 .
 0
-"
+'
     
 author
 =
-"
+'
 Gregory
 Szorc
-"
+'
     
 author_email
 =
-"
+'
 gregory
 .
 szorc
 gmail
 .
 com
-"
+'
     
 url
 =
-"
+'
 https
 :
 /
@@ -171,19 +171,19 @@ docs
 Developer_Guide
 /
 mach
-"
+'
     
 packages
 =
 [
-"
+'
 mach
-"
-"
+'
+'
 mach
 .
 mixin
-"
+'
 ]
     
 version
@@ -194,14 +194,14 @@ classifiers
 =
 [
         
-"
+'
 Environment
 :
 :
 Console
-"
+'
         
-"
+'
 Development
 Status
 :
@@ -211,9 +211,9 @@ Status
 Production
 /
 Stable
-"
+'
         
-"
+'
 License
 :
 :
@@ -233,17 +233,17 @@ MPL
 .
 0
 )
-"
+'
         
-"
+'
 Natural
 Language
 :
 :
 English
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -254,9 +254,9 @@ Python
 2
 .
 7
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -267,7 +267,7 @@ Python
 3
 .
 5
-"
+'
     
 ]
     
@@ -275,29 +275,29 @@ install_requires
 =
 [
         
-"
+'
 blessings
-"
+'
         
-"
+'
 mozfile
-"
+'
         
-"
+'
 mozprocess
-"
+'
         
-"
+'
 six
-"
+'
     
 ]
     
 tests_require
 =
 [
-"
+'
 mock
-"
+'
 ]
 )

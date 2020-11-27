@@ -96,8 +96,10 @@ deepcopy
 from
 six
 import
+(
 iteritems
 PY2
+)
 from
 struct
 import
@@ -320,44 +322,44 @@ WindowsDllBlocklistCommon
 h
 FLAGS_DEFAULT
 =
-"
+'
 FLAGS_DEFAULT
-"
+'
 BLOCK_WIN8_AND_OLDER
 =
-"
+'
 BLOCK_WIN8_AND_OLDER
-"
+'
 BLOCK_WIN7_AND_OLDER
 =
-"
+'
 BLOCK_WIN7_AND_OLDER
-"
+'
 USE_TIMESTAMP
 =
-"
+'
 USE_TIMESTAMP
-"
+'
 CHILD_PROCESSES_ONLY
 =
-"
+'
 CHILD_PROCESSES_ONLY
-"
+'
 BROWSER_PROCESS_ONLY
 =
-"
+'
 BROWSER_PROCESS_ONLY
-"
+'
 SUBSTITUTE_LSP_PASSTHROUGH
 =
-"
+'
 SUBSTITUTE_LSP_PASSTHROUGH
-"
+'
 REDIRECT_TO_NOOP_ENTRYPOINT
 =
-"
+'
 REDIRECT_TO_NOOP_ENTRYPOINT
-"
+'
 #
 Only
 these
@@ -499,21 +501,21 @@ key
 return
 key
 +
-"
+'
 _TESTS
-"
+'
 ALL_DEFINITION_LISTS
 =
 (
-"
+'
 ALL_PROCESSES
-"
-"
+'
+'
 BROWSER_PROCESS
-"
-"
+'
+'
 CHILD_PROCESSES
-"
+'
 )
 class
 BlocklistDescriptor
@@ -571,28 +573,28 @@ DEFAULT_OUTSPEC
 =
 {
         
-"
+'
 mode
-"
+'
 :
-"
-"
+'
+'
         
-"
+'
 filter
-"
+'
 :
 FILTER_ALLOW_ALL
         
-"
+'
 begin
-"
+'
 :
 H_DEFS_BEGIN_DEFAULT
         
-"
+'
 end
-"
+'
 :
 H_DEFS_END_DEFAULT
     
@@ -600,13 +602,13 @@ H_DEFS_END_DEFAULT
     
 FILE_NAME_TPL
 =
-"
+'
 WindowsDllBlocklist
 {
 0
 }
 Defs
-"
+'
     
 OutputDir
 =
@@ -1038,9 +1040,10 @@ kwargs
 .
 get
 (
-"
+'
 outspec
-"
+'
+                                    
 BlocklistDescriptor
 .
 DEFAULT_OUTSPEC
@@ -1084,9 +1087,9 @@ kwargs
 .
 get
 (
-"
+'
 flagspec
-"
+'
 dict
 (
 )
@@ -1173,7 +1176,7 @@ set
 raise
 TypeError
 (
-"
+'
 Flag
 spec
 for
@@ -1185,7 +1188,7 @@ be
 a
 set
 !
-"
+'
 %
 blocklist
 )
@@ -1285,15 +1288,13 @@ ExistingFd
 fd
         
 (
-            
 BlocklistDescriptor
 .
 OutputDir
-            
+         
 BlocklistDescriptor
 .
 ExistingFdLeafName
-        
 )
 =
 os
@@ -1391,14 +1392,14 @@ else
 raise
 ValueError
 (
-"
+'
 Duplicate
 entry
 found
 :
 %
 s
-"
+'
 %
 name
 )
@@ -1817,6 +1818,7 @@ extend
 map
 (
 add_list_flags
+                    
 self
 .
 get_test_entries
@@ -1825,7 +1827,6 @@ exec_env
 blocklist
 )
 )
-            
 )
         
 #
@@ -1962,20 +1963,18 @@ writing
         
 if
 (
-            
 not
 BlocklistDescriptor
 .
 ExistingFd
-            
 or
+            
 BlocklistDescriptor
 .
 ExistingFdLeafName
 !
 =
 outspec_leaf_name
-        
 )
 :
             
@@ -1990,6 +1989,7 @@ join
 BlocklistDescriptor
 .
 OutputDir
+                                    
 outspec_leaf_name
 )
             
@@ -1997,9 +1997,9 @@ return
 open
 (
 new_name
-"
+'
 w
-"
+'
 )
         
 fd
@@ -2133,9 +2133,9 @@ gen_list
 exec_env
 effective_outspec
 [
-"
+'
 filter
-"
+'
 ]
 )
             
@@ -2150,9 +2150,9 @@ mode
 =
 effective_outspec
 [
-"
+'
 mode
-"
+'
 ]
             
 #
@@ -2208,10 +2208,10 @@ leafname
 =
 leafname_no_ext
 +
-"
+'
 .
 h
-"
+'
             
 with
 self
@@ -2236,27 +2236,28 @@ leafname_no_ext
 file
 =
 output
+                      
 end
 =
-"
-"
+'
+'
 )
                 
 print
 (
 effective_outspec
 [
-"
+'
 begin
-"
+'
 ]
 file
 =
 output
 end
 =
-"
-"
+'
+'
 )
                 
 for
@@ -2277,17 +2278,17 @@ print
 (
 effective_outspec
 [
-"
+'
 end
-"
+'
 ]
 file
 =
 output
 end
 =
-"
-"
+'
+'
 )
                 
 print
@@ -2302,62 +2303,61 @@ leafname_no_ext
 file
 =
 output
+                      
 end
 =
-"
-"
+'
+'
 )
 A11Y_OUTPUT_SPEC
 =
 {
     
-"
+'
 filter
-"
+'
 :
 FILTER_ALLOW_ONLY_A11Y
     
-"
+'
 begin
-"
+'
 :
 H_BEGIN_A11Y
 }
 LSP_MODE_GUID
 =
-"
+'
 Guid
-"
+'
 LSP_OUTPUT_SPEC
 =
 [
     
 {
-        
-"
+'
 mode
-"
+'
 :
 LSP_MODE_GUID
-        
-"
+     
+'
 filter
-"
+'
 :
 FILTER_ALLOW_ONLY_LSP
-        
-"
+     
+'
 begin
-"
+'
 :
 H_BEGIN_LSP
-        
-"
+     
+'
 end
-"
+'
 :
 H_END_LSP
-    
 }
 ]
 GENERATED_BLOCKLIST_FILES
@@ -2366,13 +2366,13 @@ GENERATED_BLOCKLIST_FILES
     
 BlocklistDescriptor
 (
-"
+'
 A11y
-"
+'
 [
-"
+'
 BROWSER_PROCESS
-"
+'
 ]
 outspec
 =
@@ -2381,68 +2381,58 @@ A11Y_OUTPUT_SPEC
     
 BlocklistDescriptor
 (
-        
-"
+'
 Launcher
-"
-        
+'
 ALL_DEFINITION_LISTS
-        
 flagspec
 =
 {
-            
-"
+                        
+'
 BROWSER_PROCESS
-"
+'
 :
 {
 BROWSER_PROCESS_ONLY
 }
-            
-"
+                        
+'
 CHILD_PROCESSES
-"
+'
 :
 {
 CHILD_PROCESSES_ONLY
 }
-        
 }
-    
 )
     
 BlocklistDescriptor
 (
-        
-"
+'
 Legacy
-"
-        
+'
 ALL_DEFINITION_LISTS
-        
 flagspec
 =
 {
-            
-"
+                        
+'
 BROWSER_PROCESS
-"
+'
 :
 {
 BROWSER_PROCESS_ONLY
 }
-            
-"
+                        
+'
 CHILD_PROCESSES
-"
+'
 :
 {
 CHILD_PROCESSES_ONLY
 }
-        
 }
-    
 )
     
 #
@@ -2476,21 +2466,20 @@ LSP_OUTPUT_SPEC
     
 BlocklistDescriptor
 (
-        
-"
+'
 Test
-"
+'
 ALL_DEFINITION_LISTS
+                        
 outspec
 =
 {
-"
+'
 filter
-"
+'
 :
 FILTER_TESTS_ONLY
 }
-    
 )
 ]
 class
@@ -2532,11 +2521,11 @@ max_timestamp
 raise
 ValueError
 (
-"
+'
 Invalid
 timestamp
 value
-"
+'
 )
         
 self
@@ -2553,11 +2542,11 @@ self
 :
         
 return
-"
+'
 0x
 %
 08XU
-"
+'
 %
 self
 .
@@ -2577,6 +2566,7 @@ a
 DLL
 version
 .
+    
 "
 "
 "
@@ -2707,11 +2697,11 @@ self
 .
 _ver
 =
-"
+'
 MAKE_VERSION
 %
 r
-"
+'
 %
 (
 args
@@ -2776,11 +2766,11 @@ self
 .
 _ver
 =
-"
+'
 MAKE_VERSION
 %
 r
-"
+'
 %
 (
 tuple
@@ -2795,13 +2785,13 @@ else
 raise
 ValueError
 (
-"
+'
 Bad
 arguments
 to
 Version
 constructor
-"
+'
 )
     
 def
@@ -2825,7 +2815,7 @@ arg
 raise
 ValueError
 (
-"
+'
 Versions
 must
 be
@@ -2833,7 +2823,7 @@ a
 4
 -
 tuple
-"
+'
 )
         
 for
@@ -2843,6 +2833,7 @@ arg
 :
             
 if
+(
 not
 isinstance
 (
@@ -2853,17 +2844,18 @@ or
 component
 <
 0
+                
 or
 component
 >
 0xFFFF
+)
 :
                 
 raise
 ValueError
 (
-                    
-"
+'
 Each
 version
 component
@@ -2873,12 +2865,12 @@ a
 16
 -
 bit
-"
-"
+'
+                                 
+'
 unsigned
 integer
-"
-                
+'
 )
     
 def
@@ -2898,8 +2890,6 @@ args
         
 return
 (
-            
-(
 int
 (
 args
@@ -2911,7 +2901,6 @@ args
 <
 48
 )
-            
 |
 (
 int
@@ -2925,8 +2914,9 @@ args
 <
 32
 )
-            
 |
+\
+            
 (
 int
 (
@@ -2939,7 +2929,6 @@ args
 <
 16
 )
-            
 |
 int
 (
@@ -2947,8 +2936,6 @@ args
 [
 3
 ]
-)
-        
 )
     
 def
@@ -2996,12 +2983,12 @@ ALL_VERSIONS
 :
                 
 return
-"
+'
 DllBlockInfo
 :
 :
 ALL_VERSIONS
-"
+'
             
 if
 self
@@ -3015,19 +3002,19 @@ UNVERSIONED
 :
                 
 return
-"
+'
 DllBlockInfo
 :
 :
 UNVERSIONED
-"
+'
             
 return
-"
+'
 0x
 %
 016XULL
-"
+'
 %
 self
 .
@@ -3049,12 +3036,12 @@ object
     
 TEST_CONDITION
 =
-"
+'
 defined
 (
 ENABLE_TESTS
 )
-"
+'
     
 def
 __init__
@@ -3264,9 +3251,9 @@ kwargs
 .
 get
 (
-"
+'
 condition
-"
+'
 set
 (
 )
@@ -3397,9 +3384,9 @@ name
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
         
 except
@@ -3475,30 +3462,30 @@ _cond
             
 fmt
 =
-"
+'
 {
 0
 }
-"
+'
         
 else
 :
             
 fmt
 =
-"
+'
 (
 {
 0
 }
 )
-"
+'
         
 return
-"
+'
 &
 &
-"
+'
 .
 join
 (
@@ -3601,11 +3588,11 @@ flag
 :
         
 return
-"
+'
 DllBlockInfo
 :
 :
-"
+'
 +
 flag
     
@@ -3638,12 +3625,12 @@ _cond
             
 print
 (
-"
+'
 #
 if
 %
 s
-"
+'
 %
 self
 .
@@ -3657,8 +3644,8 @@ output
         
 flags_str
 =
-"
-"
+'
+'
         
 flags
 =
@@ -3674,12 +3661,12 @@ flags
             
 flags_str
 =
-"
-"
+'
+'
 +
-"
+'
 |
-"
+'
 .
 join
 (
@@ -3694,35 +3681,35 @@ flags
         
 entry_str
 =
-'
+"
 DLL_BLOCKLIST_ENTRY
 (
+\
 "
 %
 s
+\
 "
 %
 s
 %
 s
 )
-'
+"
 %
+\
+                    
 (
-            
 self
 .
 _name
-            
 str
 (
 self
 .
 _ver
 )
-            
 flags_str
-        
 )
         
 print
@@ -3741,14 +3728,14 @@ _cond
             
 print
 (
-"
+'
 #
 endif
 /
 /
 %
 s
-"
+'
 %
 self
 .
@@ -3842,6 +3829,7 @@ to
 DllBlocklistEntry
 .
 __init__
+        
 "
 "
 "
@@ -3965,6 +3953,7 @@ to
 DllBlocklistEntry
 .
 __init__
+        
 "
 "
 "
@@ -4046,16 +4035,17 @@ Provider
 LSP
 )
 .
+    
 "
 "
 "
     
 GUID_UNPACK_FMT_LE
 =
-"
+'
 <
 IHHBBBBBBBB
-"
+'
     
 Guids
 =
@@ -4287,14 +4277,14 @@ guids
 raise
 ValueError
 (
-"
+'
 Missing
 GUID
 (
 s
 )
 !
-"
+'
 )
         
 if
@@ -4502,8 +4492,6 @@ bytes_le
         
 str_guid
 =
-(
-            
 "
 /
 /
@@ -4530,6 +4518,7 @@ n
 %
 04x
 "
+\
             
 "
 {
@@ -4559,78 +4548,64 @@ n
 02x
 }
 "
+\
             
 "
 }
 "
-            
 %
 (
-                
 names
-                
 str
 (
 guid
 )
-                
 parts
 [
 0
 ]
-                
 parts
 [
 1
 ]
-                
 parts
 [
 2
 ]
-                
 parts
 [
 3
 ]
-                
+                    
 parts
 [
 4
 ]
-                
 parts
 [
 5
 ]
-                
 parts
 [
 6
 ]
-                
 parts
 [
 7
 ]
-                
 parts
 [
 8
 ]
-                
 parts
 [
 9
 ]
-                
+                    
 parts
 [
 10
 ]
-            
-)
-        
 )
         
 return
@@ -4704,16 +4679,14 @@ Guids
             
 result
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
-                
 [
-                    
 self
 .
 as_c_struct
@@ -4721,7 +4694,7 @@ as_c_struct
 guid
 names
 )
-                    
+                                 
 for
 guid
 names
@@ -4732,9 +4705,7 @@ LspBlocklistEntry
 .
 Guids
 )
-                
 ]
-            
 )
             
 print
@@ -4779,9 +4750,9 @@ read
 (
 )
 script_name
-"
+'
 exec
-"
+'
 )
 globals
 )
@@ -4835,27 +4806,27 @@ blocklist
 entry
 types
         
-"
+'
 A11yBlocklistEntry
-"
+'
 :
 A11yBlocklistEntry
         
-"
+'
 DllBlocklistEntry
-"
+'
 :
 DllBlocklistEntry
         
-"
+'
 LspBlocklistEntry
-"
+'
 :
 LspBlocklistEntry
         
-"
+'
 RedirectToNoOpEntryPoint
-"
+'
 :
 RedirectToNoOpEntryPoint
         
@@ -4866,25 +4837,25 @@ special
 version
 types
         
-"
+'
 ALL_VERSIONS
-"
+'
 :
 Version
 .
 ALL_VERSIONS
         
-"
+'
 UNVERSIONED
-"
+'
 :
 Version
 .
 UNVERSIONED
         
-"
+'
 PETimeStamp
-"
+'
 :
 PETimeStamp
     

@@ -149,7 +149,7 @@ at
 various
 checkpoints
 :
-    
+      
 -
 "
 Start
@@ -158,7 +158,7 @@ Start
 Just
 after
 startup
-    
+      
 -
 "
 StartSettled
@@ -169,7 +169,7 @@ an
 additional
 wait
 time
-    
+      
 -
 "
 TabsOpen
@@ -180,7 +180,7 @@ opening
 all
 provided
 URLs
-    
+      
 -
 "
 TabsOpenSettled
@@ -191,7 +191,7 @@ an
 additional
 wait
 time
-    
+      
 -
 "
 TabsOpenForceGC
@@ -202,7 +202,7 @@ forcibly
 invoking
 garbage
 collection
-    
+      
 -
 "
 TabsClosed
@@ -212,7 +212,7 @@ After
 closing
 all
 tabs
-    
+      
 -
 "
 TabsClosedSettled
@@ -223,7 +223,7 @@ an
 additional
 wait
 time
-    
+      
 -
 "
 TabsClosedForceGC
@@ -306,22 +306,21 @@ path
 .
 join
 (
-            
 self
 .
 _webroot_dir
-"
+'
 page_load_test
-"
-"
+'
+'
 tp5n
-"
-"
+'
+                                             
+'
 tp5n
 .
 manifest
-"
-        
+'
 )
         
 tp5n_manifest
@@ -366,15 +365,15 @@ x
 .
 replace
 (
-"
+'
 localhost
-"
-"
+'
+'
 localhost
 :
 {
 }
-"
+'
 )
 urls
 )
@@ -435,16 +434,17 @@ webservers
 .
 WebServers
 (
-            
 "
 localhost
 "
+                                                 
 8001
+                                                 
 self
 .
 _webroot_dir
+                                                 
 to_load
-        
 )
         
 self
@@ -537,16 +537,16 @@ path
 join
 (
 AWSY_PATH
-"
+'
 conf
-"
-"
+'
+'
 tp6
 -
 pages
 .
 yml
-"
+'
 )
         
 tp6_pages_manifest
@@ -557,12 +557,10 @@ testvars
 .
 get
 (
-            
 "
 pageManifest
 "
 default_tp6_pages_manifest
-        
 )
         
 urls
@@ -606,9 +604,9 @@ add
 (
 r
 [
-"
+'
 rec
-"
+'
 ]
 )
                 
@@ -616,9 +614,9 @@ url
 =
 r
 [
-"
+'
 url
-"
+'
 ]
                 
 if
@@ -683,11 +681,11 @@ marionette
 .
 get_pref
 (
-"
+'
 fission
 .
 autostart
-"
+'
 )
 :
             
@@ -724,92 +722,92 @@ path
 join
 (
 AWSY_PATH
-"
+'
 tp6
 -
 pageset
 .
 manifest
-"
+'
 )
         
 config
 =
 {
             
-"
+'
 playback_tool
-"
+'
 :
-"
+'
 mitmproxy
-"
+'
             
-"
+'
 playback_version
-"
+'
 :
-"
+'
 4
 .
 0
 .
 4
-"
+'
             
-"
+'
 playback_files
-"
+'
 :
 [
 tp6_pageset_manifest
 ]
             
-"
+'
 platform
-"
+'
 :
 mozinfo
 .
 os
             
-"
+'
 obj_path
-"
+'
 :
 self
 .
 _webroot_dir
             
-"
+'
 binary
-"
+'
 :
 self
 .
 _binary
             
-"
+'
 run_local
-"
+'
 :
 self
 .
 _run_local
             
-"
+'
 app
-"
+'
 :
-"
+'
 firefox
-"
+'
             
-"
+'
 host
-"
+'
 :
-"
+'
 127
 .
 0
@@ -817,11 +815,11 @@ host
 0
 .
 1
-"
+'
             
-"
+'
 ignore_mitmdump_exit_failure
-"
+'
 :
 True
         
@@ -917,9 +915,9 @@ marionette
 .
 set_context
 (
-"
+'
 chrome
-"
+'
 )
     
 def
@@ -1009,7 +1007,6 @@ logger
 .
 info
 (
-            
 "
 areweslimyet
 run
@@ -1021,7 +1018,7 @@ pages
 d
 iterations
 "
-            
+                         
 "
 %
 d
@@ -1030,28 +1027,23 @@ perTabPause
 d
 settleWaitTime
 "
-            
+                         
 %
 (
-                
 self
 .
 _pages_to_load
-                
 self
 .
 _iterations
-                
+                            
 self
 .
 _perTabPause
-                
 self
 .
 _settleWaitTime
-            
 )
-        
 )
         
 self
@@ -1242,6 +1234,7 @@ marionette
 execute_script
 (
 script
+                                                    
 script_timeout
 =
 180000
@@ -1322,7 +1315,6 @@ exc_info
 [
 0
 ]
-            
 )
         
 else
@@ -1593,9 +1585,9 @@ marionette
 .
 using_context
 (
-"
+'
 content
-"
+'
 )
 :
                 

@@ -196,9 +196,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 Sandbox
 -
 visible
@@ -207,9 +207,9 @@ of
 depends
 functions
 .
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -258,7 +258,7 @@ kwargs
 raise
 ConfigureError
 (
-"
+'
 The
 %
 s
@@ -267,7 +267,8 @@ may
 not
 be
 called
-"
+'
+                             
 %
 self
 .
@@ -294,24 +295,22 @@ SandboxDependsFunction
 raise
 ConfigureError
 (
-                
-"
+'
 Can
 only
 do
 binary
 arithmetic
 operations
-"
-                
-"
+'
+                                 
+'
 with
 another
 depends
 function
 .
-"
-            
+'
 )
         
 return
@@ -344,24 +343,22 @@ SandboxDependsFunction
 raise
 ConfigureError
 (
-                
-"
+'
 Can
 only
 do
 binary
 arithmetic
 operations
-"
-                
-"
+'
+                                 
+'
 with
 another
 depends
 function
 .
-"
-            
+'
 )
         
 return
@@ -385,13 +382,13 @@ other
 raise
 ConfigureError
 (
-"
+'
 Cannot
 compare
 depends
 functions
 .
-"
+'
 )
     
 def
@@ -405,13 +402,13 @@ other
 raise
 ConfigureError
 (
-"
+'
 Cannot
 compare
 depends
 functions
 .
-"
+'
 )
     
 def
@@ -440,13 +437,13 @@ other
 raise
 ConfigureError
 (
-"
+'
 Cannot
 compare
 depends
 functions
 .
-"
+'
 )
     
 def
@@ -460,13 +457,13 @@ other
 raise
 ConfigureError
 (
-"
+'
 Cannot
 compare
 depends
 functions
 .
-"
+'
 )
     
 def
@@ -480,13 +477,13 @@ other
 raise
 ConfigureError
 (
-"
+'
 Cannot
 compare
 depends
 functions
 .
-"
+'
 )
     
 def
@@ -500,13 +497,13 @@ other
 raise
 ConfigureError
 (
-"
+'
 Cannot
 compare
 depends
 functions
 .
-"
+'
 )
     
 def
@@ -520,13 +517,13 @@ other
 raise
 ConfigureError
 (
-"
+'
 Cannot
 compare
 depends
 functions
 .
-"
+'
 )
     
 def
@@ -557,7 +554,8 @@ self
 raise
 ConfigureError
 (
-"
+            
+'
 Cannot
 do
 boolean
@@ -566,7 +564,7 @@ on
 depends
 functions
 .
-"
+'
 )
 class
 DependsFunction
@@ -579,34 +577,28 @@ __slots__
 =
 (
         
-"
+'
 _func
-"
-        
-"
+'
+'
 _name
-"
-        
-"
+'
+'
 dependencies
-"
-        
-"
+'
+'
 when
-"
-        
-"
+'
+'
 sandboxed
-"
-        
-"
+'
+'
 sandbox
-"
+'
         
-"
+'
 _result
-"
-    
+'
 )
     
 def
@@ -868,6 +860,7 @@ _value_for
 (
 d
 )
+                         
 for
 d
 in
@@ -893,7 +886,7 @@ self
 :
         
 return
-"
+'
 <
 %
 s
@@ -904,7 +897,7 @@ s
 s
 )
 >
-"
+'
 %
 (
             
@@ -918,8 +911,8 @@ self
 .
 name
             
-"
-"
+'
+'
 .
 join
 (
@@ -991,6 +984,7 @@ sandbox
 self
 .
 or_impl
+                                       
 (
 self
 other
@@ -1109,6 +1103,7 @@ sandbox
 self
 .
 and_impl
+                                       
 (
 self
 other
@@ -1187,9 +1182,9 @@ key
 .
 startswith
 (
-"
+'
 _
-"
+'
 )
 :
             
@@ -1256,7 +1251,6 @@ self
 self
 .
 when
-        
 )
 class
 TrivialDependsFunction
@@ -1265,9 +1259,9 @@ DependsFunction
 )
 :
     
-"
-"
-"
+'
+'
+'
 Like
 a
 DependsFunction
@@ -1290,9 +1284,9 @@ on
 help
 ever
 .
-"
-"
-"
+'
+'
+'
 class
 CombinedDependsFunction
 (
@@ -1379,6 +1373,7 @@ self
 .
 __init__
 (
+            
 sandbox
 func
 flatten_deps
@@ -1404,6 +1399,7 @@ _value_for
 (
 d
 )
+                         
 for
 d
 in
@@ -1430,7 +1426,6 @@ other
         
 return
 (
-            
 isinstance
 (
 other
@@ -1438,8 +1433,8 @@ self
 .
 __class__
 )
-            
 and
+                
 self
 .
 _func
@@ -1447,8 +1442,8 @@ is
 other
 .
 _func
-            
 and
+                
 set
 (
 self
@@ -1463,7 +1458,6 @@ other
 .
 dependencies
 )
-        
 )
     
 def
@@ -1502,9 +1496,9 @@ dict
 )
 :
     
-"
-"
-"
+'
+'
+'
 Identifiable
 dict
 type
@@ -1513,9 +1507,9 @@ use
 as
 function
 global
-"
-"
-"
+'
+'
+'
 def
 forbidden_import
 (
@@ -1530,12 +1524,12 @@ kwargs
 raise
 ImportError
 (
-"
+'
 Importing
 modules
 is
 forbidden
-"
+'
 )
 class
 ConfigureSandbox
@@ -1767,9 +1761,8 @@ BUILTINS
 =
 ReadOnlyDict
 (
-        
 {
-            
+        
 b
 :
 getattr
@@ -1778,112 +1771,92 @@ __builtin__
 b
 None
 )
-            
+        
 for
 b
 in
 (
-                
-"
+'
 None
-"
-                
-"
+'
+'
 False
-"
-                
-"
+'
+'
 True
-"
-                
-"
+'
+'
 int
-"
-                
-"
+'
+'
 bool
-"
-                
-"
+'
+'
 any
-"
-                
-"
+'
+'
 all
-"
-                
-"
+'
+'
 len
-"
-                
-"
+'
+                  
+'
 list
-"
-                
-"
+'
+'
 tuple
-"
-                
-"
+'
+'
 set
-"
-                
-"
+'
+'
 dict
-"
-                
-"
+'
+'
 isinstance
-"
-                
-"
+'
+'
 getattr
-"
-                
-"
+'
+                  
+'
 hasattr
-"
-                
-"
+'
+'
 enumerate
-"
-                
-"
+'
+'
 range
-"
-                
-"
+'
+'
 zip
-"
-                
-"
+'
+'
 AssertionError
-"
-                
-"
+'
+                  
+'
 __build_class__
-"
+'
 #
 will
 be
 None
 on
 py2
-            
+                  
 )
-        
+    
 }
-        
 __import__
 =
 forbidden_import
-        
 str
 =
 six
 .
 text_type
-    
 )
     
 #
@@ -1902,16 +1875,14 @@ OS
 =
 ReadOnlyNamespace
 (
-        
 path
 =
 ReadOnlyNamespace
 (
-            
 *
 *
 {
-                
+        
 k
 :
 getattr
@@ -1926,92 +1897,74 @@ path
 k
 )
 )
-                
+        
 for
 k
 in
 (
-                    
-"
+'
 abspath
-"
-                    
-"
+'
+'
 basename
-"
-                    
-"
+'
+'
 dirname
-"
-                    
-"
+'
+'
 isabs
-"
-                    
-"
+'
+'
 join
-"
-                    
-"
+'
+                  
+'
 normcase
-"
-                    
-"
+'
+'
 normpath
-"
-                    
-"
+'
+'
 realpath
-"
-                    
-"
+'
+'
 relpath
-"
-                
-)
-            
-}
-        
+'
 )
     
+}
+)
 )
     
 def
 __init__
 (
-        
 self
-        
 config
-        
 environ
 =
 os
 .
 environ
-        
 argv
 =
 sys
 .
 argv
-        
+                 
 stdout
 =
 sys
 .
 stdout
-        
 stderr
 =
 sys
 .
 stderr
-        
 logger
 =
 None
-    
 )
 :
         
@@ -2020,9 +1973,9 @@ dict
 __setitem__
 (
 self
-"
+'
 __builtins__
-"
+'
 self
 .
 BUILTINS
@@ -2301,9 +2254,9 @@ logging
 addLevelName
 (
 TRACE
-"
+'
 TRACE
-"
+'
 )
         
 if
@@ -2320,11 +2273,11 @@ logging
 .
 getLogger
 (
-"
+'
 moz
 .
 configure
-"
+'
 )
             
 logger
@@ -2342,7 +2295,7 @@ logging
 .
 Formatter
 (
-"
+'
 %
 (
 levelname
@@ -2354,7 +2307,7 @@ s
 message
 )
 s
-"
+'
 )
             
 handler
@@ -2510,11 +2463,11 @@ encoding
 =
 encoding
 or
-"
+'
 utf
 -
 8
-"
+'
 )
                     
 if
@@ -2525,10 +2478,8 @@ six
 .
 binary_type
 )
-                    
 else
 arg
-                    
 for
 arg
 in
@@ -2565,27 +2516,27 @@ for
 k
 in
 (
-"
+'
 debug
-"
-"
+'
+'
 info
-"
-"
+'
+'
 warning
-"
-"
+'
+'
 error
-"
+'
 )
         
 }
         
 log_namespace
 [
-"
+'
 queue_debug
-"
+'
 ]
 =
 queue_debug
@@ -2616,22 +2567,21 @@ self
 option_impl
 (
             
-"
+'
 -
 -
 help
-"
+'
 help
 =
-"
+'
 print
 this
 message
-"
+'
 category
 =
 HELP_OPTIONS_CATEGORY
-        
 )
         
 self
@@ -2717,28 +2667,27 @@ logging
 .
 FileHandler
 (
-                
-"
+'
 config
 .
 log
-"
+'
 mode
 =
-"
+'
 w
-"
+'
 delay
 =
 True
+                                          
 encoding
 =
-"
+'
 utf
 -
 8
-"
-            
+'
 )
             
 handler
@@ -2763,9 +2712,9 @@ path
 )
 :
         
-"
-"
-"
+'
+'
+'
 Include
 one
 file
@@ -2813,9 +2762,9 @@ nothing
 else
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -2880,7 +2829,7 @@ raise
 ConfigureError
 (
                     
-"
+'
 Cannot
 include
 %
@@ -2892,13 +2841,13 @@ not
 in
 a
 subdirectory
-"
+'
                     
-"
+'
 of
 %
 s
-"
+'
 %
 (
 path
@@ -2914,7 +2863,6 @@ _paths
 ]
 )
 )
-                
 )
         
 else
@@ -2946,7 +2894,7 @@ raise
 ConfigureError
 (
                 
-"
+'
 Cannot
 include
 %
@@ -2957,10 +2905,9 @@ was
 included
 already
 .
-"
+'
 %
 path
-            
 )
         
 self
@@ -2985,9 +2932,9 @@ with
 open
 (
 path
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -3007,9 +2954,9 @@ compile
 (
 source
 path
-"
+'
 exec
-"
+'
 )
         
 exec_
@@ -3038,9 +2985,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Executes
 the
 given
@@ -3073,9 +3020,9 @@ script
 s
 )
 .
-"
-"
-"
+'
+'
+'
         
 if
 path
@@ -3125,7 +3072,7 @@ raise
 ConfigureError
 (
                     
-"
+'
 Option
 %
 s
@@ -3138,7 +3085,7 @@ it
 with
 a
 depends
-"
+'
                     
 %
 option
@@ -3250,7 +3197,7 @@ raise
 ConfigureError
 (
                         
-"
+'
 %
 s
 emitted
@@ -3263,31 +3210,27 @@ d
 is
 unknown
 .
-"
+'
                         
 %
 (
-                            
 implied_option
 .
 option
-                            
 implied_option
 .
 caller
 [
 1
 ]
-                            
+                           
 implied_option
 .
 caller
 [
 2
 ]
-                        
 )
-                    
 )
                 
 #
@@ -3318,10 +3261,12 @@ option
 .
                 
 if
+(
 implied_option
 .
 when
 and
+                        
 not
 self
 .
@@ -3330,6 +3275,7 @@ _value_for
 implied_option
 .
 when
+)
 )
 :
                     
@@ -3386,9 +3332,9 @@ reason
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
 [
@@ -3433,7 +3379,6 @@ s
                         
 %
 (
-                            
 value
 .
 format
@@ -3442,9 +3387,8 @@ option
 .
 option
 )
-                            
 reason
-                            
+                           
 option_value
 .
 format
@@ -3453,13 +3397,10 @@ option
 .
 option
 )
-                            
 option_value
 .
 origin
-                        
 )
-                    
 )
         
 #
@@ -3490,9 +3431,9 @@ arg
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
 [
@@ -3501,13 +3442,13 @@ split
             
 msg
 =
-"
+'
 Unknown
 option
 :
 %
 s
-"
+'
 %
 without_value
             
@@ -3594,10 +3535,10 @@ key
         
 impl
 =
-"
+'
 %
 s_impl
-"
+'
 %
 key
         
@@ -3640,44 +3581,41 @@ value
         
 if
 (
-            
 key
 in
 self
 .
 BUILTINS
-            
 or
 key
 =
 =
-"
+'
 __builtins__
-"
-            
+'
 or
+                
 hasattr
 (
 self
-"
+'
 %
 s_impl
-"
+'
 %
 key
 )
-        
 )
 :
             
 raise
 KeyError
 (
-"
+'
 Cannot
 reassign
 builtins
-"
+'
 )
         
 if
@@ -3707,23 +3645,22 @@ value
         
 elif
 (
-            
 not
 isinstance
 (
 value
 SandboxDependsFunction
 )
-            
 and
+                
 value
 not
 in
 self
 .
 _templates
-            
 and
+                
 not
 (
 inspect
@@ -3739,15 +3676,13 @@ value
 Exception
 )
 )
-        
 )
 :
             
 raise
 KeyError
 (
-                
-"
+'
 Cannot
 assign
 %
@@ -3757,17 +3692,16 @@ it
 is
 neither
 a
-"
-                
-"
+'
+                           
+'
 depends
 nor
 a
 template
-"
+'
 %
 key
-            
 )
         
 if
@@ -3930,13 +3864,13 @@ _logger
 log
 (
 TRACE
-"
+'
 %
 r
 =
 %
 r
-"
+'
 obj
 value
 )
@@ -4043,10 +3977,12 @@ matching_implied_options
 :
             
 if
+(
 implied_option
 .
 when
 and
+                
 not
 self
 .
@@ -4055,6 +3991,7 @@ _value_for
 implied_option
 .
 when
+)
 )
 :
                 
@@ -4105,9 +4042,9 @@ _helper
 add
 (
 opt
-"
+'
 implied
-"
+'
 )
                 
 implied
@@ -4178,9 +4115,9 @@ reason
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
 [
@@ -4227,7 +4164,6 @@ e
 .
 old_origin
 )
-            
 )
         
 if
@@ -4236,9 +4172,9 @@ value
 origin
 =
 =
-"
+'
 implied
-"
+'
 :
             
 recursed_value
@@ -4246,9 +4182,9 @@ recursed_value
 getattr
 (
 self
-"
+'
 __value_for_option
-"
+'
 )
 .
 get
@@ -4324,7 +4260,6 @@ option
 filename
 line
 )
-                
 )
         
 if
@@ -4474,12 +4409,12 @@ origin
 not
 in
 (
-"
+'
 default
-"
-"
+'
+'
 environment
-"
+'
 )
 :
                 
@@ -4487,7 +4422,7 @@ raise
 InvalidOptionError
 (
                     
-"
+'
 %
 s
 is
@@ -4496,22 +4431,21 @@ available
 in
 this
 configuration
-"
+'
                     
 %
 option_string
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
 [
 0
 ]
-                
 )
             
 self
@@ -4521,12 +4455,12 @@ _logger
 log
 (
 TRACE
-"
+'
 %
 r
 =
 None
-"
+'
 option
 )
             
@@ -4540,13 +4474,13 @@ _logger
 log
 (
 TRACE
-"
+'
 %
 r
 =
 %
 r
-"
+'
 option
 value
 )
@@ -4622,7 +4556,6 @@ _options
 raise
 ConfigureError
 (
-                    
 "
 '
 %
@@ -4635,6 +4568,7 @@ known
 option
 .
 "
+                                     
 "
 Maybe
 it
@@ -4645,9 +4579,9 @@ too
 late
 ?
 "
+                                     
 %
 arg
-                
 )
             
 arg
@@ -4719,30 +4653,26 @@ s
                 
 %
 (
-                    
 type
 (
 arg
 )
 .
 __name__
-                    
-"
+'
 %
 s
-"
+'
 %
 arg_name
 if
 arg_name
 else
-"
-"
-                    
+'
+'
+                   
 callee_name
-                
 )
-            
 )
         
 return
@@ -4796,9 +4726,9 @@ _dependency
 (
 when
 callee_name
-"
+'
 when
-"
+'
 )
         
 if
@@ -4883,9 +4813,9 @@ when
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 only_when
@@ -4913,9 +4843,9 @@ block
 ignored
 .
         
-"
-"
-"
+'
+'
+'
         
 when
 =
@@ -4924,9 +4854,9 @@ self
 _normalize_when
 (
 when
-"
+'
 only_when
-"
+'
 )
         
 if
@@ -4983,9 +4913,9 @@ kwargs
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 option
@@ -5054,9 +4984,9 @@ handled
 here
 .
         
-"
-"
-"
+'
+'
+'
         
 when
 =
@@ -5068,13 +4998,13 @@ kwargs
 .
 get
 (
-"
+'
 when
-"
+'
 )
-"
+'
 option
-"
+'
 )
         
 args
@@ -5113,13 +5043,14 @@ iteritems
 (
 kwargs
 )
+                  
 if
 k
 !
 =
-"
+'
 when
-"
+'
 }
         
 #
@@ -5195,9 +5126,9 @@ function
         
 kwargs
 [
-"
+'
 define_depth
-"
+'
 ]
 =
 self
@@ -5243,13 +5174,13 @@ _options
 raise
 ConfigureError
 (
-"
+'
 Option
 %
 s
 already
 defined
-"
+'
 %
 option
 .
@@ -5269,13 +5200,13 @@ _options
 raise
 ConfigureError
 (
-"
+'
 Option
 %
 s
 already
 defined
-"
+'
 %
 option
 .
@@ -5359,9 +5290,9 @@ kwargs
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 depends
@@ -5524,9 +5455,9 @@ os
 path
 .
         
-"
-"
-"
+'
+'
+'
         
 for
 k
@@ -5538,9 +5469,9 @@ if
 k
 !
 =
-"
+'
 when
-"
+'
 :
                 
 raise
@@ -5561,9 +5492,9 @@ argument
 s
 '
 "
+                    
 %
 k
-                
 )
         
 when
@@ -5576,13 +5507,13 @@ kwargs
 .
 get
 (
-"
+'
 when
-"
+'
 )
-"
+'
 depends
-"
+'
 )
         
 if
@@ -5596,14 +5527,14 @@ args
 raise
 ConfigureError
 (
-"
+'
 depends
 needs
 at
 least
 one
 argument
-"
+'
 )
         
 dependencies
@@ -5615,9 +5546,9 @@ self
 _dependency
 (
 arg
-"
+'
 depends
-"
+'
 )
 for
 arg
@@ -5672,24 +5603,22 @@ when
 raise
 ConfigureError
 (
-                    
-"
+'
 depends
 function
 needs
 the
 same
 when
-"
-                    
-"
+'
+                                     
+'
 as
 options
 it
 depends
 on
-"
-                
+'
 )
         
 def
@@ -5712,15 +5641,14 @@ raise
 ConfigureError
 (
                     
-"
+'
 Cannot
 decorate
 generator
 functions
 with
 depends
-"
-                
+'
 )
             
 func
@@ -5763,9 +5691,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 include
@@ -5833,9 +5761,9 @@ enable
 project
 .
         
-"
-"
-"
+'
+'
+'
         
 with
 self
@@ -5906,9 +5834,9 @@ func
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 template
@@ -5971,9 +5899,9 @@ and
 somesuch
 .
         
-"
-"
-"
+'
+'
+'
         
 def
 update_globals
@@ -5994,9 +5922,9 @@ k
 -
 len
 (
-"
+'
 _impl
-"
+'
 )
 ]
 getattr
@@ -6013,23 +5941,22 @@ dir
 (
 self
 )
-                
 if
 k
 .
 endswith
 (
-"
+'
 _impl
-"
+'
 )
 and
 k
 !
 =
-"
+'
 template_impl
-"
+'
             
 )
             
@@ -6255,6 +6182,7 @@ maybe_prepare_function
 (
 v
 )
+                          
 for
 k
 v
@@ -6453,7 +6381,7 @@ re
 .
 compile
 (
-"
+'
 ^
 [
 a
@@ -6467,7 +6395,7 @@ Z0
 .
 ]
 +
-"
+'
 )
     
 def
@@ -6484,9 +6412,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 imports
@@ -6551,15 +6479,16 @@ mozpath
 '
 )
         
-"
-"
-"
+'
+'
+'
         
 for
 value
 required
 in
 (
+                
 (
 _import
 True
@@ -6586,14 +6515,13 @@ string_types
 )
 and
 (
-                
+                    
 required
 or
 value
 is
 not
 None
-            
 )
 :
                 
@@ -6656,9 +6584,9 @@ value
 if
 _as
 and
-"
+'
 .
-"
+'
 in
 _as
 :
@@ -6699,13 +6627,14 @@ _templates
 raise
 ConfigureError
 (
-"
+                    
+'
 imports
 must
 appear
 after
 template
-"
+'
 )
             
 if
@@ -6719,13 +6648,14 @@ _depends
 raise
 ConfigureError
 (
-"
+                    
+'
 imports
 must
 appear
 after
 depends
-"
+'
 )
             
 #
@@ -6951,9 +6881,9 @@ _import
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 0
@@ -6961,9 +6891,9 @@ split
         
 attr
 =
-"
+'
 _wrapped_
-"
+'
 +
 module
         
@@ -6997,19 +6927,18 @@ module
 (
 _from
 +
-"
+'
 .
-"
+'
 if
 _from
 else
-"
-"
+'
+'
 )
 +
 _import
 wrapped
-                
 )
                 
 glob
@@ -7132,9 +7061,9 @@ startswith
 (
 module
 +
-"
+'
 .
-"
+'
 )
         
 attrs
@@ -7145,18 +7074,18 @@ len
 (
 module
 +
-"
+'
 .
-"
+'
 )
 :
 ]
 .
 split
 (
-"
+'
 .
-"
+'
 )
         
 for
@@ -7192,12 +7121,12 @@ wrapped_os
         
 exec_
 (
-"
+'
 from
 os
 import
 *
-"
+'
 {
 }
 wrapped_os
@@ -7228,9 +7157,9 @@ environment
         
 wrapped_os
 [
-"
+'
 environ
-"
+'
 ]
 =
 self
@@ -7261,12 +7190,12 @@ wrapped_subprocess
         
 exec_
 (
-"
+'
 from
 subprocess
 import
 *
-"
+'
 {
 }
 wrapped_subprocess
@@ -7291,9 +7220,9 @@ kwargs
 :
                 
 if
-"
+'
 env
-"
+'
 not
 in
 kwargs
@@ -7301,9 +7230,9 @@ kwargs
                     
 kwargs
 [
-"
+'
 env
-"
+'
 ]
 =
 dict
@@ -7362,24 +7291,22 @@ this
                 
 kwargs
 [
-"
+'
 env
-"
+'
 ]
 =
 ensure_subprocess_env
 (
-                    
 kwargs
 [
-"
+'
 env
-"
+'
 ]
 encoding
 =
 system_encoding
-                
 )
                 
 return
@@ -7399,18 +7326,18 @@ for
 f
 in
 (
-"
+'
 call
-"
-"
+'
+'
 check_call
-"
-"
+'
+'
 check_output
-"
-"
+'
+'
 Popen
-"
+'
 )
 :
             
@@ -7460,12 +7387,12 @@ wrapped_six
         
 exec_
 (
-"
+'
 from
 six
 import
 *
-"
+'
 {
 }
 wrapped_six
@@ -7478,14 +7405,14 @@ wrapped_six_moves
         
 exec_
 (
-"
+'
 from
 six
 .
 moves
 import
 *
-"
+'
 {
 }
 wrapped_six_moves
@@ -7498,7 +7425,7 @@ wrapped_six_moves_builtins
         
 exec_
 (
-"
+'
 from
 six
 .
@@ -7507,9 +7434,10 @@ moves
 builtins
 import
 *
-"
+'
 {
 }
+              
 wrapped_six_moves_builtins
 )
         
@@ -7605,9 +7533,9 @@ None
                 
 kwargs
 [
-"
+'
 buffering
-"
+'
 ]
 =
 buffering
@@ -7627,9 +7555,9 @@ mode
 )
                 
 if
-"
+'
 b
-"
+'
 in
 mode
 :
@@ -7646,9 +7574,9 @@ kwargs
             
 kwargs
 [
-"
+'
 encoding
-"
+'
 ]
 =
 system_encoding
@@ -7667,22 +7595,23 @@ kwargs
         
 wrapped_six_moves_builtins
 [
-"
+'
 open
-"
+'
 ]
 =
 wrapped_open
         
 wrapped_six_moves
 [
-"
+'
 builtins
-"
+'
 ]
 =
 ReadOnlyNamespace
 (
+            
 *
 *
 wrapped_six_moves_builtins
@@ -7690,9 +7619,9 @@ wrapped_six_moves_builtins
         
 wrapped_six
 [
-"
+'
 moves
-"
+'
 ]
 =
 ReadOnlyNamespace
@@ -7747,18 +7676,18 @@ and
 _import
 =
 =
-"
+'
 __builtin__
-"
+'
 :
             
 glob
 [
 _as
 or
-"
+'
 __builtin__
-"
+'
 ]
 =
 __builtin__
@@ -7769,20 +7698,20 @@ if
 _from
 =
 =
-"
+'
 __builtin__
-"
+'
 :
             
 _from
 =
-"
+'
 six
 .
 moves
 .
 builtins
-"
+'
         
 #
 The
@@ -7806,9 +7735,9 @@ and
 _import
 =
 =
-"
+'
 __sandbox__
-"
+'
 :
             
 glob
@@ -7876,49 +7805,47 @@ it
         
 import_line
 =
-"
+'
 %
 simport
 %
 s
 %
 s
-"
+'
 %
 (
             
 (
-"
+'
 from
 %
 s
-"
+'
 %
 _from
 )
 if
 _from
 else
-"
-"
-            
+'
+'
 _import
             
 (
-"
+'
 as
 %
 s
-"
+'
 %
 _as
 )
 if
 _as
 else
-"
-"
-        
+'
+'
 )
         
 exec_
@@ -8052,12 +7979,12 @@ configuration
 Key
 already
 "
+                
 "
 exists
 "
 %
 name
-            
 )
         
 value
@@ -8102,7 +8029,7 @@ _logger
 log
 (
 TRACE
-"
+'
 set_config
 (
 %
@@ -8110,7 +8037,7 @@ s
 %
 r
 )
-"
+'
 name
 value
 )
@@ -8124,9 +8051,9 @@ _config
 .
 get
 (
-"
+'
 DEFINES
-"
+'
 )
 :
                     
@@ -8137,7 +8064,7 @@ _logger
 log
 (
 TRACE
-"
+'
 set_define
 (
 %
@@ -8145,7 +8072,7 @@ s
 %
 r
 )
-"
+'
 name
 value
 )
@@ -8169,9 +8096,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 set_config
@@ -8232,9 +8159,9 @@ not
 set
 .
         
-"
-"
-"
+'
+'
+'
         
 when
 =
@@ -8243,9 +8170,9 @@ self
 _normalize_when
 (
 when
-"
+'
 set_config
-"
+'
 )
         
 self
@@ -8254,8 +8181,8 @@ _execution_queue
 .
 append
 (
-            
 (
+            
 self
 .
 _resolve_and_set
@@ -8268,7 +8195,6 @@ value
 when
 )
 )
-        
 )
     
 def
@@ -8283,9 +8209,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 set_define
@@ -8360,9 +8286,9 @@ U
 )
 .
         
-"
-"
-"
+'
+'
+'
         
 when
 =
@@ -8371,9 +8297,9 @@ self
 _normalize_when
 (
 when
-"
+'
 set_define
-"
+'
 )
         
 defines
@@ -8384,9 +8310,9 @@ _config
 .
 setdefault
 (
-"
+'
 DEFINES
-"
+'
 {
 }
 )
@@ -8397,8 +8323,8 @@ _execution_queue
 .
 append
 (
-            
 (
+            
 self
 .
 _resolve_and_set
@@ -8409,7 +8335,6 @@ value
 when
 )
 )
-        
 )
     
 def
@@ -8427,9 +8352,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Implementation
 of
 imply_option
@@ -8914,9 +8839,9 @@ the
 value
 .
         
-"
-"
-"
+'
+'
+'
         
 when
 =
@@ -8925,9 +8850,9 @@ self
 _normalize_when
 (
 when
-"
+'
 imply_option
-"
+'
 )
         
 #
@@ -9026,7 +8951,6 @@ not
 reason
 and
 (
-            
 isinstance
 (
 value
@@ -9036,6 +8960,7 @@ tuple
 )
 )
 or
+                           
 isinstance
 (
 value
@@ -9043,7 +8968,6 @@ six
 .
 string_types
 )
-        
 )
 :
             
@@ -9131,9 +9055,9 @@ imply_option
 call
 .
 "
+                
 %
 option
-            
 )
         
 prefix
@@ -9177,26 +9101,25 @@ _implied_options
 .
 append
 (
-            
 ReadOnlyNamespace
 (
-                
+            
 option
 =
 option
-                
+            
 prefix
 =
 prefix
-                
+            
 name
 =
 name
-                
+            
 value
 =
 value
-                
+            
 caller
 =
 inspect
@@ -9207,17 +9130,16 @@ stack
 [
 1
 ]
-                
-reason
-=
-reason
-                
-when
-=
-when
             
-)
+reason
+=
+reason
+            
+when
+=
+when
         
+)
 )
     
 def
@@ -9231,9 +9153,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
 Alter
 the
 given
@@ -9251,9 +9173,9 @@ and
 template
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 not
@@ -9336,9 +9258,9 @@ self
 .
 _templates
 )
-            
 or
 (
+                
 inspect
 .
 isclass
@@ -9380,8 +9302,8 @@ self
 .
 _paths
 else
-"
-"
+'
+'
             
 __name__
 =
@@ -9397,8 +9319,8 @@ self
 .
 _paths
 else
-"
-"
+'
+'
             
 os
 =
@@ -9586,6 +9508,7 @@ cell
 .
 cell_contents
 )
+                            
 for
 cell
 in
@@ -9603,26 +9526,28 @@ wraps
 func
 )
 (
-            
 types
 .
 FunctionType
 (
-                
+            
 func
 .
 __code__
+            
 glob
+            
 func
 .
 __name__
+            
 func
 .
 __defaults__
-closure
             
-)
+closure
         
+)
 )
         
 self

@@ -131,9 +131,9 @@ times
 )
 :
     
-"
-"
-"
+'
+'
+'
 Generate
 input
 for
@@ -169,39 +169,39 @@ that
 information
 .
     
-"
-"
-"
+'
+'
+'
     
 input
 =
 {
         
-"
+'
 label
-"
+'
 :
 task
 [
-"
+'
 metadata
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
         
-"
+'
 revision
-"
+'
 :
 revision
         
-"
+'
 times
-"
+'
 :
 times
         
@@ -221,25 +221,25 @@ the
 originating
 task
         
-"
+'
 symbol
-"
+'
 :
 task
 [
-"
+'
 extra
-"
+'
 ]
 [
-"
+'
 treeherder
-"
+'
 ]
 [
-"
+'
 symbol
-"
+'
 ]
     
 }
@@ -257,53 +257,51 @@ scheduling
 if
 task
 [
-"
+'
 payload
-"
+'
 ]
 [
-"
+'
 env
-"
+'
 ]
 .
 get
 (
-"
+'
 MOZHARNESS_TEST_PATHS
-"
+'
 )
 :
         
 input
 [
-"
+'
 test_manifests
-"
+'
 ]
 =
 json
 .
 loads
 (
-            
 task
 [
-"
+'
 payload
-"
+'
 ]
 [
-"
+'
 env
-"
+'
 ]
 [
-"
+'
 MOZHARNESS_TEST_PATHS
-"
+'
 ]
-        
 )
     
 return
@@ -313,40 +311,40 @@ register_callback_action
     
 title
 =
-"
+'
 Backfill
-"
+'
     
 name
 =
-"
+'
 backfill
-"
+'
     
 permission
 =
-"
+'
 backfill
-"
+'
     
 symbol
 =
-"
+'
 Bk
-"
+'
     
 description
 =
 (
-        
-"
+'
 Given
 a
 task
 schedule
 it
-"
-"
+'
+                 
+'
 on
 previous
 pushes
@@ -355,8 +353,7 @@ the
 same
 project
 .
-"
-    
+'
 )
     
 order
@@ -382,67 +379,66 @@ schema
 =
 {
         
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
         
-"
+'
 properties
-"
+'
 :
 {
             
-"
+'
 depth
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 integer
-"
+'
                 
-"
+'
 default
-"
+'
 :
 9
                 
-"
+'
 minimum
-"
+'
 :
 1
                 
-"
+'
 maximum
-"
+'
 :
 25
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Depth
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 The
 number
 of
@@ -451,9 +447,9 @@ pushes
 before
 the
 current
-"
-                    
-"
+'
+                                
+'
 push
 to
 attempt
@@ -463,48 +459,46 @@ this
 task
 on
 .
-"
-                
+'
 )
             
 }
             
-"
+'
 inclusive
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 boolean
-"
+'
                 
-"
+'
 default
-"
+'
 :
 False
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Inclusive
 Range
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 If
 true
 the
@@ -514,67 +508,65 @@ also
 retrigger
 the
 task
-"
-                    
-"
+'
+                                
+'
 on
 the
 selected
 push
 .
-"
-                
+'
 )
             
 }
             
-"
+'
 times
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 integer
-"
+'
                 
-"
+'
 default
-"
+'
 :
 1
                 
-"
+'
 minimum
-"
+'
 :
 1
                 
-"
+'
 maximum
-"
+'
 :
 10
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Times
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 The
 number
 of
@@ -583,23 +575,23 @@ to
 execute
 each
 job
-"
-"
+'
+                                
+'
 you
 are
 backfilling
 .
-"
-                
+'
 )
             
 }
         
 }
         
-"
+'
 additionalProperties
-"
+'
 :
 False
     
@@ -623,9 +615,9 @@ task_id
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 This
 action
@@ -685,9 +677,9 @@ action
 -
 locally
     
-"
-"
-"
+'
+'
+'
     
 task
 =
@@ -717,9 +709,9 @@ revision
 =
 parameters
 [
-"
+'
 head_rev
-"
+'
 ]
         
 task
@@ -732,9 +724,9 @@ input
 .
 get
 (
-"
+'
 times
-"
+'
 1
 )
     
@@ -781,9 +773,9 @@ get_decision_task_id
 (
 parameters
 [
-"
+'
 project
-"
+'
 ]
 push_id
 )
@@ -851,11 +843,11 @@ trigger_action
                 
 action_name
 =
-"
+'
 backfill
 -
 task
-"
+'
                 
 #
 This
@@ -933,9 +925,9 @@ test_manifests
 )
 :
     
-"
-"
-"
+'
+'
+'
 In
 the
 case
@@ -951,9 +943,9 @@ paths
 they
 execute
 .
-"
-"
-"
+'
+'
+'
     
 if
 task
@@ -974,13 +966,13 @@ logger
 .
 debug
 (
-"
+'
 Modifying
 test_manifests
 for
 {
 }
-"
+'
 .
 format
 (
@@ -998,9 +990,9 @@ task
 .
 attributes
 [
-"
+'
 test_manifests
-"
+'
 ]
 =
 test_manifests
@@ -1009,28 +1001,26 @@ task
 .
 task
 [
-"
+'
 payload
-"
+'
 ]
 [
-"
+'
 env
-"
+'
 ]
 [
-"
+'
 MOZHARNESS_TEST_PATHS
-"
+'
 ]
 =
 json
 .
 dumps
 (
-            
 test_manifests
-        
 )
         
 #
@@ -1055,14 +1045,14 @@ task
 .
 task
 [
-"
+'
 metadata
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
 =
 task
@@ -1075,14 +1065,14 @@ task
 .
 task
 [
-"
+'
 extra
-"
+'
 ]
 [
-"
+'
 treeherder
-"
+'
 ]
         
 #
@@ -1103,12 +1093,12 @@ action
         
 th_info
 [
-"
+'
 symbol
-"
+'
 ]
 =
-"
+'
 {
 }
 -
@@ -1116,17 +1106,20 @@ symbol
 }
 -
 bk
-"
+'
 .
 format
 (
+            
 symbol
+            
 revision
 [
 0
 :
 11
 ]
+        
 )
         
 if
@@ -1134,9 +1127,9 @@ th_info
 .
 get
 (
-"
+'
 groupSymbol
-"
+'
 )
 :
             
@@ -1149,25 +1142,25 @@ together
             
 th_info
 [
-"
+'
 groupSymbol
-"
+'
 ]
 =
-"
+'
 {
 }
 -
 bk
-"
+'
 .
 format
 (
 th_info
 [
-"
+'
 groupSymbol
-"
+'
 ]
 )
     
@@ -1188,7 +1181,7 @@ logger
 .
 warning
 (
-"
+'
 The
 task
 will
@@ -1198,7 +1191,7 @@ without
 intended
 modifications
 .
-"
+'
 )
     
 finally
@@ -1223,9 +1216,9 @@ tasks
 )
 :
     
-"
-"
-"
+'
+'
+'
 This
 is
 to
@@ -1286,9 +1279,9 @@ task
 label
 .
     
-"
-"
-"
+'
+'
+'
     
 begining_label
 ending
@@ -1297,9 +1290,9 @@ label
 .
 rsplit
 (
-"
+'
 -
-"
+'
 1
 )
     
@@ -1341,10 +1334,10 @@ begining_label
 elif
 begining_label
 +
-"
+'
 -
 1
-"
+'
 in
 tasks
 :
@@ -1352,10 +1345,10 @@ tasks
 return
 begining_label
 +
-"
+'
 -
 1
-"
+'
         
 else
 :
@@ -1363,8 +1356,7 @@ else
 raise
 Exception
 (
-                
-"
+'
 New
 label
 (
@@ -1379,13 +1371,12 @@ the
 task
 -
 graph
-"
+'
 .
 format
 (
 label
 )
-            
 )
     
 else
@@ -1394,7 +1385,7 @@ else
 raise
 Exception
 (
-"
+'
 {
 }
 was
@@ -1405,7 +1396,7 @@ the
 task
 -
 graph
-"
+'
 .
 format
 (
@@ -1417,40 +1408,40 @@ register_callback_action
     
 name
 =
-"
+'
 backfill
 -
 task
-"
+'
     
 title
 =
-"
+'
 Backfill
 task
 on
 a
 push
 .
-"
+'
     
 permission
 =
-"
+'
 backfill
-"
+'
     
 symbol
 =
-"
+'
 backfill
 -
 task
-"
+'
     
 description
 =
-"
+'
 This
 action
 is
@@ -1461,9 +1452,9 @@ the
 backfill
 action
 .
-"
-    
-"
+'
+                
+'
 The
 intent
 is
@@ -1475,7 +1466,7 @@ on
 previous
 pushes
 .
-"
+'
     
 order
 =
@@ -1490,62 +1481,65 @@ schema
 =
 {
         
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
         
-"
+'
 properties
-"
+'
 :
 {
             
-"
+'
 label
-"
+'
 :
 {
-"
+                
+'
 type
-"
+'
 :
-"
+'
 string
-"
-"
+'
+                
+'
 description
-"
+'
 :
-"
+'
 A
 task
 label
-"
+'
+            
 }
             
-"
+'
 revision
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 Revision
 of
 the
@@ -1556,29 +1550,29 @@ where
 we
 backfill
 .
-"
+'
             
 }
             
-"
+'
 symbol
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 Symbol
 to
 be
@@ -1588,107 +1582,108 @@ the
 scheduled
 task
 .
-"
+'
             
 }
             
-"
+'
 test_manifests
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 array
-"
+'
                 
-"
+'
 default
-"
+'
 :
 [
 ]
                 
-"
+'
 description
-"
+'
 :
-"
+'
 An
 array
 of
 test
 manifest
 paths
-"
+'
                 
-"
+'
 items
-"
+'
 :
 {
-"
+                    
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
+                
 }
             
 }
             
-"
+'
 times
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 integer
-"
+'
                 
-"
+'
 default
-"
+'
 :
 1
                 
-"
+'
 minimum
-"
+'
 :
 1
                 
-"
+'
 maximum
-"
+'
 :
 10
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Times
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 The
 number
 of
@@ -1697,14 +1692,14 @@ to
 execute
 each
 job
-"
-"
+'
+                                
+'
 you
 are
 backfilling
 .
-"
-                
+'
 )
             
 }
@@ -1716,7 +1711,6 @@ backfilling
 def
 add_task_with_original_manifests
 (
-    
 parameters
 graph_config
 input
@@ -1725,9 +1719,9 @@ task_id
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 This
 action
@@ -1820,9 +1814,9 @@ action
 -
 locally
     
-"
-"
-"
+'
+'
+'
     
 #
 This
@@ -1861,7 +1855,6 @@ fetch_graph_and_labels
         
 parameters
 graph_config
-    
 )
     
 label
@@ -1870,9 +1863,9 @@ input
 .
 get
 (
-"
+'
 label
-"
+'
 )
     
 if
@@ -1904,9 +1897,9 @@ input
 .
 get
 (
-"
+'
 test_manifests
-"
+'
 )
     
 #
@@ -1940,9 +1933,9 @@ input
 .
 get
 (
-"
+'
 revision
-"
+'
 )
             
 symbol
@@ -1951,9 +1944,9 @@ input
 .
 get
 (
-"
+'
 symbol
-"
+'
 )
             
 test_manifests
@@ -1981,9 +1974,9 @@ input
 .
 get
 (
-"
+'
 times
-"
+'
 1
 )
     

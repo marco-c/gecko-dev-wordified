@@ -433,6 +433,7 @@ integer
 "
     
 return
+(
 metric_id
 <
 <
@@ -448,6 +449,7 @@ ID_BITS
 )
 |
 idx
+)
 def
 metric_identifier
 (
@@ -722,29 +724,28 @@ get_jinja2_template
 (
         
 template_filename
+        
 filters
 =
 (
+            
 (
 "
 type_name
 "
 type_name
 )
+        
 )
     
 )
     
 assert
-(
-        
 INDEX_BITS
 +
 ID_BITS
 <
 ENTRY_WIDTH
-    
-)
 "
 INDEX_BITS
 or
@@ -969,9 +970,9 @@ category_map
 bytearray
 (
 category
-"
+'
 ascii
-"
+'
 )
 id
 )
@@ -1001,9 +1002,9 @@ cxx_codegen
         
 name
 =
-"
+'
 CategoryByNameLookup
-"
+'
         
 entry_type
 =
@@ -1073,7 +1074,6 @@ entry
 )
 ;
 "
-    
 )
     
 #
@@ -1104,16 +1104,18 @@ metric_map
 [
         
 (
+            
 bytearray
 (
 metric_name
-"
+'
 ascii
-"
+'
 )
+            
 metric_id
-)
         
+)
 for
 (
 metric_name
@@ -1145,9 +1147,9 @@ cxx_codegen
         
 name
 =
-"
+'
 MetricByNameLookup
-"
+'
         
 entry_type
 =
@@ -1217,61 +1219,57 @@ entry
 )
 ;
 "
-    
 )
     
 output_fd
 .
 write
 (
-        
 template
 .
 render
 (
-            
+        
 categories
 =
 categories
-            
+        
 metric_id_mapping
 =
 metric_id_mapping
-            
+        
 metric_type_ids
 =
 metric_type_ids
-            
+        
 entry_width
 =
 ENTRY_WIDTH
-            
+        
 index_bits
 =
 INDEX_BITS
-            
+        
 id_bits
 =
 ID_BITS
-            
-category_string_table
-=
-category_string_table
-            
-category_by_name_lookup
-=
-category_by_name_lookup
-            
-metric_string_table
-=
-metric_string_table
-            
-metric_by_name_lookup
-=
-metric_by_name_lookup
         
+category_string_table
+=
+category_string_table
+        
+category_by_name_lookup
+=
+category_by_name_lookup
+        
+metric_string_table
+=
+metric_string_table
+        
+metric_by_name_lookup
+=
+metric_by_name_lookup
 )
-    
 )
     
 output_fd

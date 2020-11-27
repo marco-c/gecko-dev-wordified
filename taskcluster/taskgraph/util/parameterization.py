@@ -85,7 +85,7 @@ re
 .
 compile
 (
-"
+'
 <
 (
 [
@@ -95,7 +95,7 @@ compile
 +
 )
 >
-"
+'
 )
 ARTIFACT_REFERENCE_PATTERN
 =
@@ -103,7 +103,7 @@ re
 .
 compile
 (
-"
+'
 <
 (
 [
@@ -121,7 +121,7 @@ compile
 +
 )
 >
-"
+'
 )
 def
 _recurse
@@ -283,16 +283,14 @@ definition
 return
 _recurse
 (
-        
 task_def
-        
 {
-            
-"
+        
+'
 relative
 -
 datestamp
-"
+'
 :
 lambda
 v
@@ -302,9 +300,8 @@ json_time_from_now
 v
 now
 )
-        
-}
     
+}
 )
 def
 resolve_task_references
@@ -408,9 +405,9 @@ if
 key
 =
 =
-"
+'
 self
-"
+'
 :
                 
 return
@@ -420,9 +417,9 @@ elif
 key
 =
 =
-"
+'
 decision
-"
+'
 :
                 
 return
@@ -452,9 +449,9 @@ if
 key
 =
 =
-"
+'
 <
-"
+'
 :
                     
 return
@@ -463,7 +460,6 @@ key
 raise
 KeyError
 (
-                    
 "
 task
 '
@@ -485,7 +481,6 @@ format
 label
 key
 )
-                
 )
         
 return
@@ -526,9 +521,9 @@ if
 dependency
 =
 =
-"
+'
 self
-"
+'
 :
                 
 raise
@@ -561,9 +556,9 @@ elif
 dependency
 =
 =
-"
+'
 decision
-"
+'
 :
                 
 task_id
@@ -609,10 +604,8 @@ named
 .
 format
 (
-                            
 label
 dependency
-                        
 )
                     
 )
@@ -622,13 +615,13 @@ artifact_name
 .
 startswith
 (
-                
-"
+'
 public
 /
-"
-            
+'
 )
+\
+                
 "
 artifact
 -
@@ -644,9 +637,7 @@ not
 .
 format
 (
-                
 artifact_name
-            
 )
             
 return
@@ -668,27 +659,24 @@ val
 return
 _recurse
 (
-        
 task_def
-        
 {
-            
-"
+        
+'
 task
 -
 reference
-"
+'
 :
 task_reference
-            
-"
+        
+'
 artifact
 -
 reference
-"
+'
 :
 artifact_reference
-        
-}
     
+}
 )

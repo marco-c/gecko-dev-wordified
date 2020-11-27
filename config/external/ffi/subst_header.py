@@ -121,47 +121,45 @@ context
 .
 update
 (
-        
 {
-            
-"
+        
+'
 FFI_EXEC_TRAMPOLINE_TABLE
-"
+'
 :
-"
+'
 0
-"
-            
-"
+'
+        
+'
 HAVE_LONG_DOUBLE
-"
+'
 :
-"
+'
 0
-"
-            
-"
+'
+        
+'
 TARGET
-"
+'
 :
 buildconfig
 .
 substs
 [
-"
+'
 FFI_TARGET
-"
+'
 ]
-            
-"
-VERSION
-"
-:
-"
-"
         
-}
+'
+VERSION
+'
+:
+'
+'
     
+}
 )
     
 for
@@ -179,9 +177,9 @@ update
 {
 d
 :
-"
+'
 1
-"
+'
 }
 )
     
@@ -189,9 +187,9 @@ pp
 .
 do_filter
 (
-"
+'
 substitution
-"
+'
 )
     
 pp
@@ -217,9 +215,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

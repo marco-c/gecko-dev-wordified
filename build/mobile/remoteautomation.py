@@ -198,7 +198,6 @@ much
 fennecLogcatFilters
 =
 [
-    
 "
 The
 character
@@ -211,7 +210,7 @@ was
 not
 declared
 "
-    
+                       
 "
 Use
 of
@@ -225,7 +224,7 @@ MutationObserver
 instead
 .
 "
-    
+                       
 "
 Unexpected
 value
@@ -245,23 +244,22 @@ object
 def
 __init__
 (
-        
 self
 device
 appName
 =
-"
-"
+'
+'
 remoteProfile
 =
 None
 remoteLog
 =
 None
+                 
 processArgs
 =
 None
-    
 )
 :
         
@@ -327,52 +325,39 @@ _log
 def
 runApp
 (
-        
 self
-        
 testURL
-        
 env
-        
 app
-        
 profileDir
-        
 extraArgs
-        
+               
 utilityPath
 =
 None
-        
 xrePath
 =
 None
-        
 debuggerInfo
 =
 None
-        
 symbolsPath
 =
 None
-        
+               
 timeout
 =
 -
 1
-        
 maxTime
 =
 None
-        
 e10s
 =
 True
-        
 *
 *
 kwargs
-    
 )
 :
         
@@ -497,13 +482,11 @@ self
 .
 buildCommandLine
 (
-            
 app
 debuggerInfo
 profileDir
 testURL
 extraArgs
-        
 )
         
 startTime
@@ -530,13 +513,12 @@ self
 .
 launchApp
 (
-            
 [
 cmd
 ]
 +
 args
-            
+                       
 env
 =
 self
@@ -551,17 +533,15 @@ crashreporter
 not
 debuggerInfo
 )
-            
+                       
 e10s
 =
 e10s
-            
 *
 *
 self
 .
 processArgs
-        
 )
         
 self
@@ -603,7 +583,6 @@ log
 .
 info
 (
-            
 "
 remoteautomation
 .
@@ -616,8 +595,8 @@ for
 %
 s
 "
-            
 %
+                      
 str
 (
 datetime
@@ -630,7 +609,6 @@ now
 -
 startTime
 )
-        
 )
         
 crashed
@@ -726,50 +704,50 @@ crashreporter
             
 env
 [
-"
+'
 MOZ_CRASHREPORTER_NO_REPORT
-"
+'
 ]
 =
-"
+'
 1
-"
+'
             
 env
 [
-"
+'
 MOZ_CRASHREPORTER
-"
+'
 ]
 =
-"
+'
 1
-"
+'
             
 env
 [
-"
+'
 MOZ_CRASHREPORTER_SHUTDOWN
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 else
 :
             
 env
 [
-"
+'
 MOZ_CRASHREPORTER_DISABLE
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 #
 Crash
@@ -830,12 +808,12 @@ env
 .
 setdefault
 (
-"
+'
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
-"
-"
+'
+'
 1
-"
+'
 )
         
 #
@@ -896,12 +874,12 @@ env
 .
 setdefault
 (
-"
+'
 MOZ_IN_AUTOMATION
-"
-"
+'
+'
 1
-"
+'
 )
         
 #
@@ -921,36 +899,36 @@ env
 .
 setdefault
 (
-"
+'
 R_LOG_LEVEL
-"
-"
+'
+'
 6
-"
+'
 )
         
 env
 .
 setdefault
 (
-"
+'
 R_LOG_DESTINATION
-"
-"
+'
+'
 stderr
-"
+'
 )
         
 env
 .
 setdefault
 (
-"
+'
 R_LOG_VERBOSE
-"
-"
+'
+'
 1
-"
+'
 )
         
 return
@@ -974,7 +952,7 @@ tests
 to
 finish
 .
-        
+            
 If
 maxTime
 seconds
@@ -986,7 +964,7 @@ is
 detected
 for
 timeout
-        
+            
 seconds
 kill
 the
@@ -1099,7 +1077,6 @@ log
 .
 error
 (
-                    
 "
 TEST
 -
@@ -1111,7 +1088,7 @@ FAIL
 s
 |
 "
-                    
+                               
 "
 application
 ran
@@ -1122,7 +1099,7 @@ allowed
 maximum
 time
 "
-                    
+                               
 "
 of
 %
@@ -1136,7 +1113,6 @@ self
 lastTestSeen
 maxTime
 )
-                
 )
             
 else
@@ -1148,7 +1124,6 @@ log
 .
 error
 (
-                    
 "
 TEST
 -
@@ -1160,7 +1135,7 @@ FAIL
 s
 |
 "
-                    
+                               
 "
 application
 ran
@@ -1171,12 +1146,11 @@ allowed
 maximum
 time
 "
-                    
+                               
 %
 self
 .
 lastTestSeen
-                
 )
         
 if
@@ -1192,7 +1166,6 @@ log
 .
 error
 (
-                
 "
 TEST
 -
@@ -1204,7 +1177,7 @@ FAIL
 s
 |
 "
-                
+                           
 "
 application
 timed
@@ -1217,7 +1190,7 @@ with
 no
 output
 "
-                
+                           
 %
 (
 self
@@ -1228,7 +1201,6 @@ int
 timeout
 )
 )
-            
 )
         
 return
@@ -1262,9 +1234,9 @@ join
 self
 .
 remoteProfile
-"
+'
 minidumps
-"
+'
 )
             
 if
@@ -1313,7 +1285,6 @@ test
 self
 .
 lastTestSeen
-            
 )
         
 finally
@@ -1352,6 +1323,7 @@ s
 "
 %
 (
+                    
 dumpDir
 str
 (
@@ -1439,12 +1411,12 @@ extraArgs
 ]
 in
 (
-"
+'
 instrument
-"
-"
+'
+'
 start
-"
+'
 )
 :
             
@@ -1558,10 +1530,10 @@ args
 .
 remove
 (
-"
+'
 -
 foreground
-"
+'
 )
         
 except
@@ -1625,7 +1597,6 @@ appName
             
 print
 (
-                
 "
 remoteautomation
 .
@@ -1645,7 +1616,6 @@ Stopping
 self
 .
 appName
-            
 )
             
 self
@@ -1678,9 +1648,9 @@ self
 .
 counts
 [
-"
+'
 pass
-"
+'
 ]
 =
 0
@@ -1689,9 +1659,9 @@ self
 .
 counts
 [
-"
+'
 fail
-"
+'
 ]
 =
 0
@@ -1700,9 +1670,9 @@ self
 .
 counts
 [
-"
+'
 todo
-"
+'
 ]
 =
 0
@@ -1714,15 +1684,15 @@ cmd
 ]
 =
 =
-"
+'
 am
-"
+'
 :
             
 cmd
 =
-"
-"
+'
+'
 .
 join
 (
@@ -1829,9 +1799,9 @@ url
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 :
                 
@@ -1864,9 +1834,9 @@ args
 ]
             
 if
-"
+'
 geckoview
-"
+'
 in
 self
 .
@@ -1885,31 +1855,25 @@ device
 .
 launch_activity
 (
-                    
 self
 .
 appName
-                    
 activity_name
 =
 activity
-                    
 e10s
 =
 e10s
-                    
+                                            
 moz_env
 =
 env
-                    
 extra_args
 =
 args
-                    
 url
 =
 url
-                
 )
             
 else
@@ -1921,7 +1885,6 @@ device
 .
 launch_fennec
 (
-                    
 self
 .
 appName
@@ -1934,7 +1897,6 @@ args
 url
 =
 url
-                
 )
         
 #
@@ -2159,7 +2121,6 @@ log
 .
 exception
 (
-                
 "
 remoteautomation
 .
@@ -2177,7 +2138,6 @@ str
 (
 e
 )
-            
 )
             
 return
@@ -2210,9 +2170,9 @@ ensure_str
 newLogContent
 errors
 =
-"
+'
 replace
-"
+'
 )
         
 if
@@ -2285,10 +2245,10 @@ logBuffer
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
         
 lines
@@ -2314,10 +2274,10 @@ logBuffer
 .
 endswith
 (
-"
+'
 \
 n
-"
+'
 )
 :
                 
@@ -2433,21 +2393,19 @@ messageLogger
 .
 write
 (
-                    
 line
 .
 encode
 (
-"
+'
 UTF
 -
 8
-"
-"
+'
+'
 replace
-"
+'
 )
-                
 )
             
 else
@@ -2495,15 +2453,15 @@ message
 .
 get
 (
-"
+'
 action
-"
+'
 )
 =
 =
-"
+'
 test_start
-"
+'
 :
                         
 self
@@ -2512,9 +2470,9 @@ lastTestSeen
 =
 message
 [
-"
+'
 test
-"
+'
 ]
                     
 elif
@@ -2522,36 +2480,36 @@ message
 .
 get
 (
-"
+'
 action
-"
+'
 )
 =
 =
-"
+'
 test_end
-"
+'
 :
                         
 self
 .
 lastTestSeen
 =
-"
+'
 {
 }
 (
 finished
 )
-"
+'
 .
 format
 (
 message
 [
-"
+'
 test
-"
+'
 ]
 )
                     
@@ -2560,15 +2518,15 @@ message
 .
 get
 (
-"
+'
 action
-"
+'
 )
 =
 =
-"
+'
 suite_end
-"
+'
 :
                         
 self
@@ -2586,24 +2544,24 @@ message
 .
 get
 (
-"
+'
 action
-"
+'
 )
 =
 =
-"
+'
 log
-"
+'
 :
                         
 line
 =
 message
 [
-"
+'
 message
-"
+'
 ]
 .
 strip
@@ -2670,9 +2628,9 @@ self
 .
 counts
 [
-"
+'
 pass
-"
+'
 ]
 +
 =
@@ -2701,9 +2659,9 @@ self
 .
 counts
 [
-"
+'
 fail
-"
+'
 ]
 +
 =
@@ -2722,9 +2680,9 @@ self
 .
 counts
 [
-"
+'
 todo
-"
+'
 ]
 +
 =
@@ -3101,11 +3059,9 @@ datetime
 .
 timedelta
 (
-                    
 seconds
 =
 5
-                
 )
 :
                     
@@ -3126,9 +3082,9 @@ self
 .
 counts
 and
-"
+'
 pass
-"
+'
 in
 self
 .
@@ -3138,9 +3094,9 @@ self
 .
 counts
 [
-"
+'
 pass
-"
+'
 ]
 >
 0
@@ -3188,11 +3144,13 @@ status
 break
             
 if
+(
 noOutputTimeout
 and
 noOutputTimer
 >
 noOutputTimeout
+)
 :
                 
 status
@@ -3378,10 +3336,10 @@ _device_serial
 .
 startswith
 (
-"
+'
 emulator
 -
-"
+'
 )
 :
             
@@ -3837,9 +3795,9 @@ data
 open
 (
 filename
-"
+'
 rb
-"
+'
 )
 .
 read

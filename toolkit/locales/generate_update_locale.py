@@ -86,10 +86,12 @@ None
 :
     
 assert
+(
 locale
 is
 not
 None
+)
     
 #
 update

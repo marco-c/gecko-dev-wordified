@@ -208,11 +208,11 @@ environ
 .
 get
 (
-"
+'
 LC_ALL
-"
-"
-"
+'
+'
+'
 )
 .
 upper
@@ -220,20 +220,20 @@ upper
 )
 =
 =
-"
+'
 UTF
 -
 8
-"
+'
 :
             
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
     
 return
 encoding
@@ -244,9 +244,9 @@ LooseVersion
 )
 :
     
-"
-"
-"
+'
+'
+'
 A
 simple
 subclass
@@ -317,9 +317,9 @@ patch
 =
 0
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -395,12 +395,11 @@ patch
 =
 list
 (
-            
 itertools
 .
 chain
 (
-                
+            
 itertools
 .
 takewhile
@@ -417,15 +416,13 @@ self
 .
 version
 )
-                
+            
 (
 0
 0
 0
 )
-            
 )
-        
 )
 [
 :
@@ -473,9 +470,9 @@ other
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
         
 if
@@ -621,9 +618,9 @@ Handler
 )
 :
     
-"
-"
-"
+'
+'
+'
 A
 logging
 handler
@@ -740,9 +737,9 @@ context
 manager
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -1115,6 +1112,7 @@ getMessage
 )
                 
 if
+(
 self
 .
 _stdout_waiting
@@ -1124,20 +1122,22 @@ self
 .
 INTERRUPTED
 and
+                        
 self
 .
 _same_output
+)
 :
                     
 msg
 =
-"
+'
 .
 .
 .
 %
 s
-"
+'
 %
 msg
                 
@@ -1149,11 +1149,11 @@ msg
 .
 endswith
 (
-"
+'
 .
 .
 .
-"
+'
 )
                 
 if
@@ -1161,11 +1161,11 @@ msg
 .
 endswith
 (
-"
+'
 .
 .
 .
-"
+'
 )
 :
                     
@@ -1188,16 +1188,17 @@ None
                     
 msg
 =
-"
+'
 %
 s
 \
 n
-"
+'
 %
 msg
             
 elif
+(
 record
 .
 levelno
@@ -1206,6 +1207,7 @@ logging
 .
 INFO
 and
+                    
 self
 .
 _keep_if_debug
@@ -1214,6 +1216,7 @@ _keep_if_debug
 self
 .
 PRINT
+)
 :
                 
 if
@@ -1294,10 +1297,10 @@ _stdout
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
                     
 self
@@ -1316,12 +1319,12 @@ _stderr
                 
 msg
 =
-"
+'
 %
 s
 \
 n
-"
+'
 %
 self
 .
@@ -1505,29 +1508,25 @@ self
 .
 emit
 (
-                
 logging
 .
 LogRecord
 (
-                    
+                
 r
 .
 name
-                    
 r
 .
 levelno
-                    
 r
 .
 pathname
-                    
 r
 .
 lineno
-                    
-"
+                
+'
 <
 truncated
 -
@@ -1539,15 +1538,12 @@ for
 full
 output
 >
-"
-                    
+'
+                
 (
 )
-                    
 None
-                
 )
-            
 )
         
 while
@@ -1590,9 +1586,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 File
 -
 like
@@ -1616,9 +1612,9 @@ returns
 )
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -1627,9 +1623,9 @@ self
 callback
 errors
 =
-"
+'
 strict
-"
+'
 )
 :
         
@@ -1643,8 +1639,8 @@ self
 .
 _buf
 =
-"
-"
+'
+'
         
 self
 .
@@ -1681,11 +1677,11 @@ self
 .
 _encoding
 or
-"
+'
 utf
 -
 8
-"
+'
 )
         
 lines
@@ -1727,8 +1723,8 @@ self
 .
 _buf
 =
-"
-"
+'
+'
         
 if
 not
@@ -1736,10 +1732,10 @@ buf
 .
 endswith
 (
-"
+'
 \
 n
-"
+'
 )
 :
             
@@ -1792,8 +1788,8 @@ self
 .
 _buf
 =
-"
-"
+'
+'
     
 def
 __enter__

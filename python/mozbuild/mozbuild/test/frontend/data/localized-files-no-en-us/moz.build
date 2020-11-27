@@ -55,7 +55,7 @@ foo
 +
 =
 [
-"
+'
 en
 -
 US
@@ -63,13 +63,13 @@ US
 bar
 .
 ini
-"
-"
+'
+'
 foo
 .
 js
-"
-"
+'
+'
 inner
 /
 locales
@@ -81,5 +81,5 @@ US
 bar
 .
 ini
-"
+'
 ]

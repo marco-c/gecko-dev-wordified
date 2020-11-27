@@ -53,9 +53,9 @@ MPL
 0
 /
 .
-"
-"
-"
+'
+'
+'
 Given
 a
 library
@@ -82,9 +82,9 @@ the
 library
 itself
 .
-"
-"
-"
+'
+'
+'
 import
 os
 import
@@ -133,34 +133,31 @@ subprocess
 .
 Popen
 (
-        
 [
 substs
 [
-"
+'
 LLVM_OBJDUMP
-"
+'
 ]
-"
+'
 -
 -
 private
 -
 headers
-"
+'
 lib
 ]
-        
 stdout
 =
 subprocess
 .
 PIPE
-        
+                            
 universal_newlines
 =
 True
-    
 )
     
 deps
@@ -182,7 +179,7 @@ re
 .
 match
 (
-"
+'
 \
 s
 +
@@ -194,7 +191,7 @@ Name
 S
 +
 )
-"
+'
 line
 )
         
@@ -318,9 +315,9 @@ lib
 )
 :
     
-"
-"
-"
+'
+'
+'
 Returns
 the
 list
@@ -333,9 +330,9 @@ given
 ELF
 .
 so
-"
-"
-"
+'
+'
+'
     
 proc
 =
@@ -343,39 +340,36 @@ subprocess
 .
 Popen
 (
-        
 [
 substs
 .
 get
 (
-"
+'
 TOOLCHAIN_PREFIX
-"
-"
-"
+'
+'
+'
 )
 +
-"
+'
 readelf
-"
-"
+'
+'
 -
 d
-"
+'
 lib
 ]
-        
 stdout
 =
 subprocess
 .
 PIPE
-        
+                            
 universal_newlines
 =
 True
-    
 )
     
 deps
@@ -432,8 +426,8 @@ line
 .
 split
 (
-"
-"
+'
+'
 3
 )
         
@@ -445,9 +439,9 @@ tmp
 >
 3
 and
-"
+'
 NEEDED
-"
+'
 in
 tmp
 [
@@ -497,7 +491,7 @@ re
 .
 search
 (
-"
+'
 \
 [
 (
@@ -506,7 +500,7 @@ search
 )
 \
 ]
-"
+'
 tmp
 [
 3
@@ -544,9 +538,9 @@ lib
 )
 :
     
-"
-"
-"
+'
+'
+'
 Returns
 the
 list
@@ -560,9 +554,9 @@ MACH
 -
 O
 dylib
-"
-"
-"
+'
+'
+'
     
 proc
 =
@@ -570,34 +564,31 @@ subprocess
 .
 Popen
 (
-        
 [
 substs
 [
-"
+'
 LLVM_OBJDUMP
-"
+'
 ]
-"
+'
 -
 -
 private
 -
 headers
-"
+'
 lib
 ]
-        
 stdout
 =
 subprocess
 .
 PIPE
-        
+                            
 universal_newlines
 =
 True
-    
 )
     
 deps
@@ -694,9 +685,9 @@ tmp
 ]
 =
 =
-"
+'
 cmd
-"
+'
 :
             
 cmd
@@ -710,9 +701,9 @@ elif
 cmd
 =
 =
-"
+'
 LC_LOAD_DYLIB
-"
+'
 and
 tmp
 [
@@ -720,9 +711,9 @@ tmp
 ]
 =
 =
-"
+'
 name
-"
+'
 :
             
 deps
@@ -733,13 +724,13 @@ re
 .
 sub
 (
-"
+'
 ^
 executable_path
 /
-"
-"
-"
+'
+'
+'
 tmp
 [
 1
@@ -764,9 +755,9 @@ func
 )
 :
     
-"
-"
-"
+'
+'
+'
 For
 a
 given
@@ -794,18 +785,22 @@ the
 library
 itself
 .
-"
-"
-"
+'
+'
+'
     
 assert
+(
 libpaths
+)
     
 assert
+(
 isinstance
 (
 libpaths
 list
+)
 )
     
 deps
@@ -985,13 +980,13 @@ join
 (
 substs
 [
-"
+'
 DIST
-"
+'
 ]
-"
+'
 bin
-"
+'
 )
 ]
     
@@ -1042,13 +1037,15 @@ lib
 ]
         
 assert
+(
 ext
 =
 =
-"
+'
 .
 dll
-"
+'
+)
         
 func
 =
@@ -1092,10 +1089,10 @@ output
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -1106,10 +1103,10 @@ keys
 )
 )
 +
-"
+'
 \
 n
-"
+'
 )
     
 with
@@ -1123,9 +1120,9 @@ name
 .
 gtest
 "
-"
+'
 w
-"
+'
 )
 as
 gtest_out
@@ -1148,10 +1145,10 @@ libs
 1
 ]
 =
-"
+'
 gtest
 /
-"
+'
 +
 libs
 [
@@ -1163,20 +1160,20 @@ gtest_out
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
 libs
 )
 +
-"
+'
 \
 n
-"
+'
 )
     
 return
@@ -1210,9 +1207,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

@@ -140,7 +140,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -180,7 +179,6 @@ proxy
 "
 "
 "
-            
 )
         
 super
@@ -260,7 +258,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -271,13 +268,13 @@ session_capabilities
 proxy
 "
 ]
+                         
 capabilities
 [
 "
 proxy
 "
 ]
-        
 )
     
 def
@@ -318,7 +315,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -329,13 +325,13 @@ session_capabilities
 proxy
 "
 ]
+                         
 capabilities
 [
 "
 proxy
 "
 ]
-        
 )
     
 def
@@ -376,7 +372,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -387,13 +382,13 @@ session_capabilities
 proxy
 "
 ]
+                         
 capabilities
 [
 "
 proxy
 "
 ]
-        
 )
     
 def
@@ -414,13 +409,12 @@ test
 capabilities
 =
 {
-            
 "
 proxy
 "
 :
 {
-                
+            
 "
 proxyType
 "
@@ -428,7 +422,7 @@ proxyType
 "
 manual
 "
-                
+            
 "
 ftpProxy
 "
@@ -444,7 +438,7 @@ format
 (
 proxy_hostname
 )
-                
+            
 "
 httpProxy
 "
@@ -460,7 +454,7 @@ format
 (
 proxy_hostname
 )
-                
+            
 "
 sslProxy
 "
@@ -476,21 +470,20 @@ format
 (
 proxy_hostname
 )
-                
+            
 "
 socksProxy
 "
 :
 proxy_hostname
-                
+            
 "
 socksVersion
 "
 :
 4
-            
-}
         
+}
 }
         
 self
@@ -506,7 +499,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -517,13 +509,13 @@ session_capabilities
 proxy
 "
 ]
+                         
 capabilities
 [
 "
 proxy
 "
 ]
-        
 )
     
 def
@@ -564,13 +556,12 @@ proxy_port
 capabilities
 =
 {
-            
 "
 proxy
 "
 :
 {
-                
+            
 "
 proxyType
 "
@@ -578,15 +569,14 @@ proxyType
 "
 manual
 "
-                
+            
 "
 socksProxy
 "
 :
 proxy_host
-            
-}
         
+}
 }
         
 with
@@ -619,13 +609,12 @@ self
 capabilities
 =
 {
-            
 "
 proxy
 "
 :
 {
-                
+            
 "
 proxyType
 "
@@ -633,7 +622,7 @@ proxyType
 "
 manual
 "
-                
+            
 "
 noProxy
 "
@@ -646,9 +635,8 @@ foo
 bar
 "
 ]
-            
-}
         
+}
 }
         
 self
@@ -664,7 +652,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -675,13 +662,13 @@ session_capabilities
 proxy
 "
 ]
+                         
 capabilities
 [
 "
 proxy
 "
 ]
-        
 )
     
 def
@@ -694,13 +681,12 @@ self
 capabilities
 =
 {
-            
 "
 proxy
 "
 :
 {
-                
+            
 "
 proxyType
 "
@@ -708,7 +694,7 @@ proxyType
 "
 manual
 "
-                
+            
 "
 noProxy
 "
@@ -717,9 +703,8 @@ noProxy
 foo
 bar
 "
-            
-}
         
+}
 }
         
 with
@@ -797,7 +782,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -808,13 +792,13 @@ session_capabilities
 proxy
 "
 ]
+                         
 capabilities
 [
 "
 proxy
 "
 ]
-        
 )
     
 def
@@ -855,7 +839,6 @@ self
 .
 assertEqual
 (
-            
 self
 .
 marionette
@@ -866,13 +849,13 @@ session_capabilities
 proxy
 "
 ]
+                         
 capabilities
 [
 "
 proxy
 "
 ]
-        
 )
     
 def
@@ -1063,7 +1046,6 @@ marionette
 .
 start_session
 (
-                
 {
 "
 proxy
@@ -1077,6 +1059,7 @@ proxyType
 "
 pac
 "
+                                                     
 "
 proxyAutoconfigUrl
 "
@@ -1084,7 +1067,6 @@ proxyAutoconfigUrl
 None
 }
 }
-            
 )
     
 def
@@ -1097,7 +1079,6 @@ self
 capabilities
 =
 {
-            
 "
 proxy
 "
@@ -1120,7 +1101,6 @@ marionette
 test
 "
 }
-        
 }
         
 with

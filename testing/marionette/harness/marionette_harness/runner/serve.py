@@ -107,31 +107,30 @@ httpd
 __all__
 =
 [
-    
 "
 default_doc_root
 "
-    
+           
 "
 iter_proc
 "
-    
+           
 "
 iter_url
 "
-    
+           
 "
 registered_servers
 "
-    
+           
 "
 servers
 "
-    
+           
 "
 start
 "
-    
+           
 "
 where_is
 "
@@ -643,7 +642,6 @@ ssl_config
 *
 *
 kwargs
-        
 )
         
 self
@@ -897,9 +895,8 @@ httpd
 .
 FixtureServer
 (
-        
 doc_root
-        
+                               
 url
 =
 "
@@ -918,7 +915,7 @@ format
 (
 host
 )
-        
+                               
 ssl_key
 =
 ssl_config
@@ -927,7 +924,7 @@ ssl_config
 key_path
 "
 ]
-        
+                               
 ssl_cert
 =
 ssl_config
@@ -936,11 +933,10 @@ ssl_config
 cert_path
 "
 ]
-        
+                               
 *
 *
 kwargs
-    
 )
 def
 start_servers
@@ -1085,7 +1081,6 @@ default_doc_root
 ssl_config
 =
 {
-        
 "
 cert_path
 "
@@ -1093,7 +1088,7 @@ cert_path
 httpd
 .
 default_ssl_cert
-        
+                  
 "
 key_path
 "
@@ -1101,7 +1096,6 @@ key_path
 httpd
 .
 default_ssl_key
-    
 }
     
 global
@@ -1267,6 +1261,7 @@ http
 "
 http_server
 )
+                      
 (
 "
 https
@@ -1301,7 +1296,6 @@ parser
 .
 add_argument
 (
-        
 "
 -
 r
@@ -1311,6 +1305,7 @@ dest
 "
 doc_root
 "
+                        
 help
 =
 "
@@ -1323,7 +1318,6 @@ Overrides
 default
 .
 "
-    
 )
     
 args

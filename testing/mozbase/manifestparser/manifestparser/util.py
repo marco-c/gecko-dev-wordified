@@ -68,9 +68,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Normalize
 path
@@ -94,9 +94,9 @@ sep
 is
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 os
@@ -104,9 +104,9 @@ os
 sep
 !
 =
-"
+'
 /
-"
+'
 :
         
 #
@@ -159,14 +159,14 @@ sep
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
 b
-"
+'
 /
-"
+'
 )
         
 else
@@ -181,9 +181,9 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
     
 if
@@ -196,9 +196,9 @@ os
 altsep
 !
 =
-"
+'
 /
-"
+'
 :
         
 if
@@ -221,14 +221,14 @@ altsep
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
 b
-"
+'
 /
-"
+'
 )
         
 else
@@ -243,9 +243,9 @@ replace
 os
 .
 altsep
-"
+'
 /
-"
+'
 )
     
 return

@@ -24,13 +24,13 @@ request
 messages_to_send
 =
 [
-"
+'
 Hello
 world
 !
-"
-"
-"
+'
+'
+'
 all_distinct_bytes
 (
 )
@@ -96,8 +96,8 @@ all_distinct_bytes
 :
     
 return
-"
-"
+'
+'
 .
 join
 (

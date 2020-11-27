@@ -67,7 +67,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -96,7 +95,6 @@ COMPOSITOR_ANIMATABLE_PROPERTY_LIST
 "
 "
 "
-    
 )
     
 def
@@ -229,7 +227,6 @@ output
 .
 write
 (
-        
 "
 #
 define
@@ -244,7 +241,6 @@ format
 (
 count
 )
-    
 )
     
 output

@@ -425,9 +425,9 @@ files
 .
         
 if
-"
+'
 jsreftest
-"
+'
 not
 in
 path
@@ -438,9 +438,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_AUTOMATION
-"
+'
 )
 :
             
@@ -461,19 +461,19 @@ else
             
 relPath
 =
-"
+'
 jsreftest
 /
-"
+'
 +
 path
 .
 split
 (
-"
+'
 jsreftest
 /
-"
+'
 )
 [
 -
@@ -526,7 +526,7 @@ the
 real
 web
 .
-    
+        
 It
 is
 virtually
@@ -540,7 +540,7 @@ mochitest
 and
 will
 only
-    
+        
 be
 used
 for
@@ -548,7 +548,7 @@ running
 reftests
 remotely
 .
-    
+        
 Bug
 581257
 has
@@ -563,7 +563,7 @@ httpd
 .
 js
 into
-    
+        
 it
 '
 s
@@ -750,13 +750,12 @@ shutdown
 "
 %
 {
-            
+                           
 "
 server
 "
 :
 shutdownServer
-            
 "
 port
 "
@@ -764,7 +763,6 @@ port
 self
 .
 httpPort
-        
 }
     
 def
@@ -820,15 +818,15 @@ sys
 platform
 in
 (
-"
+'
 win32
-"
-"
+'
+'
 msys
-"
-"
+'
+'
 cygwin
-"
+'
 )
 :
             
@@ -909,7 +907,6 @@ LD_LIBRARY_PATH
 .
 join
 (
-                    
 [
 self
 .
@@ -921,27 +918,23 @@ LD_LIBRARY_PATH
 "
 ]
 ]
-                
 )
         
 args
 =
 [
-            
 "
 -
 g
 "
-            
 self
 .
 xrePath
-            
+                
 "
 -
 f
 "
-            
 os
 .
 path
@@ -957,12 +950,11 @@ httpd
 js
 "
 )
-            
+                
 "
 -
 e
 "
-            
 "
 const
 _PROFILE_PATH
@@ -979,7 +971,7 @@ const
 _SERVER_PORT
 =
 "
-            
+                      
 "
 '
 %
@@ -1001,10 +993,9 @@ s
 '
 ;
 "
-            
 %
 {
-                
+                      
 "
 profile
 "
@@ -1015,18 +1006,17 @@ profileDir
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 \
 \
 \
 \
-"
+'
 )
-                
 "
 port
 "
@@ -1034,7 +1024,7 @@ port
 self
 .
 httpPort
-                
+                      
 "
 server
 "
@@ -1042,14 +1032,12 @@ server
 self
 .
 webServer
-            
 }
-            
+                
 "
 -
 f
 "
-            
 os
 .
 path
@@ -1065,7 +1053,6 @@ server
 js
 "
 )
-        
 ]
         
 xpcshell
@@ -1102,14 +1089,14 @@ F_OK
 raise
 Exception
 (
-"
+'
 xpcshell
 not
 found
 at
 %
 s
-"
+'
 %
 xpcshell
 )
@@ -1126,8 +1113,7 @@ xpcshell
 raise
 Exception
 (
-                
-"
+'
 xpcshell
 at
 %
@@ -1139,9 +1125,9 @@ binary
 ;
 please
 use
-"
-                
-"
+'
+                            
+'
 the
 -
 -
@@ -1153,18 +1139,17 @@ to
 specify
 the
 path
-"
-                
-"
+'
+                            
+'
 to
 a
 desktop
 version
 .
-"
+'
 %
 xpcshell
-            
 )
         
 self
@@ -1205,7 +1190,6 @@ log
 .
 error
 (
-                
 "
 TEST
 -
@@ -1222,7 +1206,6 @@ starting
 server
 .
 "
-            
 )
             
 return
@@ -1327,7 +1310,6 @@ log
 .
 error
 (
-                
 "
 TEST
 -
@@ -1340,7 +1322,7 @@ remotereftests
 py
 |
 "
-                
+                           
 "
 Timed
 out
@@ -1351,7 +1333,6 @@ server
 startup
 .
 "
-            
 )
             
 self
@@ -1374,9 +1355,9 @@ if
 hasattr
 (
 self
-"
+'
 _process
-"
+'
 )
 :
             
@@ -1414,9 +1395,11 @@ poll
 )
                 
 if
+(
 rtncode
 is
 None
+)
 :
                     
 self
@@ -1524,43 +1507,38 @@ verbose
 False
         
 if
-(
-            
 options
 .
 log_mach_verbose
-            
 or
 options
 .
 log_tbpl_level
 =
 =
-"
+'
 debug
-"
-            
+'
 or
+\
+           
 options
 .
 log_mach_level
 =
 =
-"
+'
 debug
-"
-            
+'
 or
 options
 .
 log_raw_level
 =
 =
-"
+'
 debug
-"
-        
-)
+'
 :
             
 verbose
@@ -1584,9 +1562,9 @@ app
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -1599,37 +1577,35 @@ device
 =
 ADBDeviceFactory
 (
-            
 adb
 =
 options
 .
 adb_path
 or
-"
+'
 adb
-"
-            
+'
+                                       
 device
 =
 options
 .
 deviceSerial
-            
+                                       
 test_root
 =
 options
 .
 remoteTestRoot
-            
+                                       
 verbose
 =
 verbose
-            
+                                       
 run_as_package
 =
 expected
-        
 )
         
 if
@@ -1731,14 +1707,15 @@ device
 .
 get_info
 (
-"
+                
+'
 screen
-"
+'
 )
 [
-"
+'
 screen
-"
+'
 ]
 [
 0
@@ -1759,9 +1736,9 @@ parts
 .
 split
 (
-"
+'
 :
-"
+'
 )
 [
 1
@@ -1779,9 +1756,9 @@ parts
 .
 split
 (
-"
+'
 :
-"
+'
 )
 [
 1
@@ -1789,6 +1766,7 @@ split
 )
             
 if
+(
 width
 <
 1366
@@ -1796,13 +1774,13 @@ or
 height
 <
 1050
+)
 :
                 
 self
 .
 error
 (
-                    
 "
 ERROR
 :
@@ -1814,7 +1792,7 @@ sx
 %
 s
 "
-                    
+                           
 "
 please
 adjust
@@ -1825,10 +1803,10 @@ higher
 "
 %
 (
+                            
 width
 height
 )
-                
 )
         
 self
@@ -1844,7 +1822,6 @@ outputHandler
 =
 OutputHandler
 (
-            
 self
 .
 log
@@ -1854,7 +1831,6 @@ utilityPath
 options
 .
 symbolsPath
-        
 )
         
 #
@@ -1903,9 +1879,9 @@ __call__
 args
 =
 {
-"
+'
 messageLogger
-"
+'
 :
 self
 .
@@ -1918,33 +1894,31 @@ automation
 =
 RemoteAutomation
 (
-            
 self
 .
 device
-            
+                                           
 appName
 =
 options
 .
 app
-            
+                                           
 remoteProfile
 =
 self
 .
 remoteProfile
-            
+                                           
 remoteLog
 =
 options
 .
 remoteLogFile
-            
+                                           
 processArgs
 =
 args
-        
 )
         
 self
@@ -1997,9 +1971,9 @@ app
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -2076,9 +2050,9 @@ app
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -2277,7 +2251,6 @@ None
             
 print
 (
-                
 "
 ERROR
 :
@@ -2290,7 +2263,7 @@ for
 %
 s
 "
-                
+                  
 "
 please
 specify
@@ -2307,7 +2280,6 @@ os
 .
 name
 )
-            
 )
             
 return
@@ -2349,6 +2321,7 @@ xpcshell
 "
         
 if
+(
 os
 .
 name
@@ -2357,6 +2330,7 @@ name
 "
 nt
 "
+)
 :
             
 xpcshell
@@ -2368,9 +2342,11 @@ exe
 "
         
 if
+(
 options
 .
 utilityPath
+)
 :
             
 paths
@@ -2405,7 +2381,6 @@ None
             
 print
 (
-                
 "
 ERROR
 :
@@ -2418,7 +2393,7 @@ for
 %
 s
 "
-                
+                  
 "
 please
 specify
@@ -2435,7 +2410,6 @@ os
 .
 name
 )
-            
 )
             
 return
@@ -2671,18 +2645,18 @@ as_dict
 attrs
 =
 [
-"
+'
 pid
-"
-"
+'
+'
 ppid
-"
-"
+'
+'
 name
-"
-"
+'
+'
 username
-"
+'
 ]
 )
                     
@@ -2722,7 +2696,6 @@ os
 .
 kill
 (
-                                
 proc
 .
 pid
@@ -2736,7 +2709,6 @@ signal
 .
 SIGTERM
 )
-                            
 )
                         
 except
@@ -2751,7 +2723,6 @@ log
 .
 info
 (
-                                
 "
 Failed
 to
@@ -2773,7 +2744,6 @@ str
 e
 )
 )
-                            
 )
                     
 else
@@ -2837,27 +2807,25 @@ RefTest
 .
 createReftestProfile
 (
-            
 self
-            
+                                               
 options
-            
+                                               
 server
 =
 options
 .
 remoteWebServer
-            
+                                               
 port
 =
 options
 .
 httpPort
-            
+                                               
 *
 *
 kwargs
-        
 )
         
 profileDir
@@ -3145,16 +3113,16 @@ l
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 errors
 =
-"
+'
 replace
-"
+'
 )
                     
 sl
@@ -3163,16 +3131,16 @@ ul
 .
 encode
 (
-"
+'
 iso8859
 -
 1
-"
+'
 errors
 =
-"
+'
 replace
-"
+'
 )
                     
 print
@@ -3398,43 +3366,33 @@ browserEnv
 def
 runApp
 (
-        
 self
-        
 options
-        
 cmdargs
 =
 None
-        
 timeout
 =
 None
-        
 debuggerInfo
 =
 None
-        
 symbolsPath
 =
 None
-        
+               
 valgrindPath
 =
 None
-        
 valgrindArgs
 =
 None
-        
 valgrindSuppFiles
 =
 None
-        
 *
 *
 profileArgs
-    
 )
 :
         
@@ -3459,10 +3417,10 @@ cmdargs
 .
 append
 (
-"
+'
 -
 marionette
-"
+'
 )
         
 binary
@@ -3556,49 +3514,46 @@ automation
 .
 runApp
 (
-            
 None
-            
 env
-            
+                                                           
 binary
-            
+                                                           
 profile
 .
 profile
-            
+                                                           
 cmdargs
-            
+                                                           
 utilityPath
 =
 options
 .
 utilityPath
-            
+                                                           
 xrePath
 =
 options
 .
 xrePath
-            
+                                                           
 debuggerInfo
 =
 debuggerInfo
-            
+                                                           
 symbolsPath
 =
 symbolsPath
-            
+                                                           
 timeout
 =
 timeout
-            
+                                                           
 e10s
 =
 options
 .
 e10s
-        
 )
         
 self
@@ -3803,9 +3758,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_AUTOMATION
-"
+'
 )
 :
         
@@ -3837,7 +3792,6 @@ path
 .
 join
 (
-            
 build_obj
 .
 topobjdir
@@ -3852,7 +3806,6 @@ stage
 "
 jsreftest
 "
-        
 )
         
 if
@@ -3947,18 +3900,18 @@ reftest
 .
 killNamedProc
 (
-"
+'
 ssltunnel
-"
+'
 )
     
 reftest
 .
 killNamedProc
 (
-"
+'
 xpcshell
-"
+'
 )
     
 #

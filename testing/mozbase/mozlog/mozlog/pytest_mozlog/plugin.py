@@ -112,9 +112,9 @@ parser
 .
 getgroup
 (
-"
+'
 mozlog
-"
+'
 )
     
 for
@@ -140,7 +140,7 @@ group
 .
 addoption
 (
-"
+'
 -
 -
 log
@@ -148,7 +148,7 @@ log
 {
 0
 }
-"
+'
 .
 format
 (
@@ -156,9 +156,9 @@ name
 )
 action
 =
-"
+'
 append
-"
+'
 help
 =
 _help
@@ -210,7 +210,7 @@ group
 addoption
 (
                     
-"
+'
 -
 -
 log
@@ -222,20 +222,21 @@ log
 {
 1
 }
-"
+'
 .
 format
 (
 formatter
 name
 )
+                    
 action
 =
 action
+                    
 help
 =
 _help
-                
 )
 def
 pytest_configure
@@ -264,9 +265,9 @@ not
 hasattr
 (
 config
-"
+'
 slaveinput
-"
+'
 )
 :
         
@@ -378,17 +379,18 @@ suite_start
 tests
 =
 tests
+                
 time
 =
 self
 .
 start_time
+                
 run_info
 =
 self
 .
 run_info
-            
 )
             
 self
@@ -411,24 +413,20 @@ commandline
 .
 setup_logging
 (
-            
-"
+'
 pytest
-"
-            
+'
 config
 .
 known_args_namespace
-            
+                                         
 defaults
 =
 {
 }
-            
 allow_unused_options
 =
 True
-        
 )
         
 self
@@ -441,9 +439,9 @@ get_default_logger
 (
 component
 =
-"
+'
 pytest
-"
+'
 )
     
 def
@@ -454,9 +452,9 @@ session
 )
 :
         
-"
-"
-"
+'
+'
+'
 Called
 before
 test
@@ -469,9 +467,9 @@ time
 to
 log
 later
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -503,9 +501,9 @@ getattr
 session
 .
 config
-"
+'
 _metadata
-"
+'
 None
 )
     
@@ -517,9 +515,9 @@ session
 )
 :
         
-"
-"
-"
+'
+'
+'
 Called
 after
 test
@@ -535,9 +533,9 @@ run
 suite
 start
 )
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -571,9 +569,9 @@ ids
 )
 :
         
-"
-"
-"
+'
+'
+'
 Called
 after
 each
@@ -584,9 +582,9 @@ node
 collection
 is
 completed
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -640,9 +638,9 @@ report
 )
 :
         
-"
-"
-"
+'
+'
+'
 Called
 3
 times
@@ -658,9 +656,9 @@ by
 report
 .
 when
-"
-"
-"
+'
+'
+'
         
 test
 =
@@ -672,9 +670,9 @@ status
 =
 expected
 =
-"
+'
 PASS
-"
+'
         
 message
 =
@@ -686,17 +684,17 @@ if
 hasattr
 (
 report
-"
+'
 wasxfail
-"
+'
 )
 :
             
 expected
 =
-"
+'
 FAIL
-"
+'
         
 if
 report
@@ -708,29 +706,29 @@ report
 outcome
 =
 =
-"
+'
 rerun
-"
+'
 :
             
 status
 =
-"
+'
 FAIL
-"
+'
 if
 report
 .
 when
 =
 =
-"
+'
 call
-"
+'
 else
-"
+'
 ERROR
-"
+'
         
 if
 report
@@ -740,22 +738,22 @@ skipped
             
 status
 =
-"
+'
 SKIP
-"
+'
 if
 not
 hasattr
 (
 report
-"
+'
 wasxfail
-"
+'
 )
 else
-"
+'
 FAIL
-"
+'
         
 if
 report
@@ -806,14 +804,14 @@ longrepr
 .
 startswith
 (
-"
+'
 [
 XPASS
 (
 strict
 )
 ]
-"
+'
 )
 :
                     
@@ -838,12 +836,12 @@ expected
 status
 =
 (
-"
+'
 FAIL
-"
-"
+'
+'
 PASS
-"
+'
 )
             
 elif
@@ -970,7 +968,6 @@ else
 raise
 ValueError
 (
-                    
 "
 Unable
 to
@@ -989,8 +986,8 @@ nfields
 %
 s
 "
-                    
 %
+                                 
 (
 longrepr
 .
@@ -1000,7 +997,6 @@ dir
 longrepr
 )
 )
-                
 )
         
 if
@@ -1012,9 +1008,9 @@ or
 expected
 !
 =
-"
+'
 PASS
-"
+'
 :
             
 self
@@ -1037,29 +1033,29 @@ report
 outcome
 =
 =
-"
+'
 rerun
-"
+'
 or
 report
 .
 when
 =
 =
-"
+'
 teardown
-"
+'
 :
             
 defaults
 =
 (
-"
+'
 PASS
-"
-"
+'
+'
 PASS
-"
+'
 None
 None
 )
@@ -1085,25 +1081,20 @@ logger
 .
 test_end
 (
-                
 test
 =
 test
-                
 status
 =
 status
-                
 expected
 =
 expected
-                
+                                 
 message
 =
 message
-                
 stack
 =
 stack
-            
 )

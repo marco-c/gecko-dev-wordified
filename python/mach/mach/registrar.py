@@ -71,9 +71,9 @@ MachError
 INVALID_COMMAND_CONTEXT
 =
 r
-"
-"
-"
+'
+'
+'
 It
 looks
 like
@@ -120,9 +120,9 @@ the
 current
 context
 .
-"
-"
-"
+'
+'
+'
 .
 lstrip
 (
@@ -221,8 +221,7 @@ category
 raise
 MachError
 (
-                
-"
+'
 Cannot
 register
 a
@@ -230,16 +229,16 @@ mach
 command
 without
 a
-"
-"
+'
+                            
+'
 category
 :
 %
 s
-"
+'
 %
 name
-            
 )
         
 if
@@ -256,8 +255,7 @@ categories
 raise
 MachError
 (
-                
-"
+'
 Cannot
 register
 a
@@ -265,9 +263,9 @@ command
 to
 an
 undefined
-"
-                
-"
+'
+                            
+'
 category
 :
 %
@@ -276,7 +274,7 @@ s
 >
 %
 s
-"
+'
 %
 (
 name
@@ -284,7 +282,6 @@ handler
 .
 category
 )
-            
 )
         
 self
@@ -378,10 +375,10 @@ conditions
 msg
 =
 [
-"
+'
 \
 n
-"
+'
 ]
         
 for
@@ -393,17 +390,17 @@ conditions
 part
 =
 [
-"
+'
 %
 s
-"
+'
 %
 getattr
 (
 c
-"
+'
 __name__
-"
+'
 c
 )
 ]
@@ -430,9 +427,9 @@ msg
 .
 append
 (
-"
+'
 -
-"
+'
 .
 join
 (
@@ -445,10 +442,10 @@ INVALID_COMMAND_CONTEXT
 %
 (
 name
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -479,7 +476,7 @@ None
 raise
 ValueError
 (
-"
+'
 Expected
 a
 non
@@ -487,7 +484,7 @@ non
 None
 context
 .
-"
+'
 )
         
 prerun
@@ -495,9 +492,9 @@ prerun
 getattr
 (
 context
-"
+'
 pre_dispatch_handler
-"
+'
 None
 )
         
@@ -623,7 +620,6 @@ fail_conditions
             
 print
 (
-                
 MachRegistrar
 .
 _condition_failed_message
@@ -633,7 +629,6 @@ handler
 name
 fail_conditions
 )
-            
 )
             
 return
@@ -728,9 +723,9 @@ postrun
 getattr
 (
 context
-"
+'
 post_dispatch_handler
-"
+'
 None
 )
             
@@ -740,28 +735,20 @@ postrun
                 
 postrun
 (
-                    
 context
-                    
 handler
-                    
 instance
-                    
 not
 result
-                    
+                        
 start_time
-                    
 end_time
-                    
 self
 .
 command_depth
-                    
 args
 =
 kwargs
-                
 )
         
 self
@@ -931,12 +918,12 @@ subcommand
                     
 name
 =
-"
+'
 {
 }
 {
 }
-"
+'
 .
 format
 (
@@ -948,7 +935,6 @@ parser
 .
 error
 (
-                    
 "
 unrecognized
 arguments
@@ -962,10 +948,10 @@ for
 .
 format
 (
-                        
+                    
 name
-"
-"
+'
+'
 .
 join
 (
@@ -987,9 +973,7 @@ in
 unknown
 ]
 )
-                    
 )
-                
 )
         
 return

@@ -178,9 +178,9 @@ element
 .
 get_attribute
 (
-"
+'
 value
-"
+'
 )
     
 #
@@ -269,7 +269,7 @@ date_value
 .
 strftime
 (
-"
+'
 %
 Y
 -
@@ -278,7 +278,7 @@ m
 -
 %
 d
-"
+'
 )
 )
     
@@ -314,9 +314,9 @@ element
 .
 get_attribute
 (
-"
+'
 value
-"
+'
 )
     
 #
@@ -405,7 +405,7 @@ time_value
 .
 strftime
 (
-"
+'
 %
 H
 :
@@ -414,6 +414,6 @@ M
 :
 %
 S
-"
+'
 )
 )

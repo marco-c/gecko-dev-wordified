@@ -69,9 +69,9 @@ dest
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Merge
 dict
@@ -128,9 +128,9 @@ in
 place
 )
     
-"
-"
-"
+'
+'
+'
     
 for
 key
@@ -144,14 +144,11 @@ items
 :
         
 if
-(
-            
 isinstance
 (
 value
 dict
 )
-            
 and
 len
 (
@@ -160,8 +157,9 @@ value
 =
 =
 1
-            
 and
+\
+                
 list
 (
 value
@@ -172,12 +170,10 @@ value
 .
 startswith
 (
-"
+'
 by
 -
-"
-)
-        
+'
 )
 :
             
@@ -304,9 +300,9 @@ objects
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Merge
 the
@@ -354,9 +350,9 @@ any
 arguments
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 len

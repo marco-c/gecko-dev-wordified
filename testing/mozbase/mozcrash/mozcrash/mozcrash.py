@@ -94,73 +94,70 @@ __all__
 =
 [
     
-"
+'
 check_for_crashes
-"
+'
     
-"
+'
 check_for_java_exception
-"
+'
     
-"
+'
 kill_and_get_minidump
-"
+'
     
-"
+'
 log_crashes
-"
+'
     
-"
+'
 cleanup_pending_crash_reports
-"
+'
 ]
 StackInfo
 =
 namedtuple
 (
-    
 "
 StackInfo
 "
-    
+                       
 [
-        
 "
 minidump_path
 "
-        
+                        
 "
 signature
 "
-        
+                        
 "
 stackwalk_stdout
 "
-        
+                        
 "
 stackwalk_stderr
 "
-        
+                        
 "
 stackwalk_retcode
 "
-        
+                        
 "
 stackwalk_errors
 "
-        
+                        
 "
 extra
 "
-        
+                        
 "
 reason
 "
-        
+                        
 "
 java_stack
 "
-    
 ]
 )
 def
@@ -193,9 +190,9 @@ unstructured
 .
 getLogger
 (
-"
+'
 mozcrash
-"
+'
 )
     
 return
@@ -203,25 +200,24 @@ structured_logger
 def
 check_for_crashes
 (
-    
 dump_directory
-    
+                      
 symbols_path
 =
 None
-    
+                      
 stackwalk_binary
 =
 None
-    
+                      
 dump_save_path
 =
 None
-    
+                      
 test_name
 =
 None
-    
+                      
 quiet
 =
 False
@@ -572,19 +568,15 @@ crash_info
 =
 CrashInfo
 (
-        
 dump_directory
-        
 symbols_path
-        
 dump_save_path
 =
 dump_save_path
-        
+                           
 stackwalk_binary
 =
 stackwalk_binary
-    
 )
     
 crash_count
@@ -640,7 +632,6 @@ stack
 info
 .
 java_stack
-            
 )
         
 elif
@@ -758,7 +749,6 @@ stackwalk_output
 .
 append
 (
-                    
 "
 minidump_stackwalk
 exited
@@ -771,13 +761,11 @@ code
 .
 format
 (
-                        
+                                        
 info
 .
 stackwalk_retcode
-                    
 )
-                
 )
             
 signature
@@ -863,7 +851,6 @@ info
 .
 stackwalk_errors
 )
-            
 )
         
 if
@@ -885,11 +872,11 @@ stdout
 encoding
 !
 =
-"
+'
 UTF
 -
 8
-"
+'
 :
                 
 output
@@ -898,11 +885,11 @@ output
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
             
 print
@@ -915,25 +902,24 @@ crash_count
 def
 log_crashes
 (
-    
 logger
-    
+                
 dump_directory
-    
+                
 symbols_path
-    
+                
 process
 =
 None
-    
+                
 test
 =
 None
-    
+                
 stackwalk_binary
 =
 None
-    
+                
 dump_save_path
 =
 None
@@ -962,19 +948,15 @@ info
 in
 CrashInfo
 (
-        
 dump_directory
-        
 symbols_path
-        
 dump_save_path
 =
 dump_save_path
-        
+                          
 stackwalk_binary
 =
 stackwalk_binary
-    
 )
 :
         
@@ -1429,17 +1411,16 @@ used
 def
 __init__
 (
-        
 self
 dump_directory
 symbols_path
 dump_save_path
 =
 None
+                 
 stackwalk_binary
 =
 None
-    
 )
 :
         
@@ -1475,9 +1456,9 @@ environ
 .
 get
 (
-"
+'
 MINIDUMP_SAVE_PATH
-"
+'
 None
 )
         
@@ -1501,9 +1482,9 @@ environ
 .
 get
 (
-"
+'
 MINIDUMP_STACKWALK
-"
+'
 None
 )
         
@@ -1544,7 +1525,6 @@ minidump_stackwalk
 /
 minidump_stackwalk
 "
-            
 )
             
 if
@@ -1557,20 +1537,20 @@ stackwalk_binary
 .
 endswith
 (
-"
+'
 .
 exe
-"
+'
 )
 :
                 
 stackwalk_binary
 +
 =
-"
+'
 .
 exe
-"
+'
         
 self
 .
@@ -1783,9 +1763,9 @@ zipfile
 ZipFile
 (
 symbols_file
-"
+'
 r
-"
+'
 )
 as
 zfile
@@ -1823,7 +1803,7 @@ path_to_extra_file
 for
 each
 dump
-        
+           
 file
 in
 self
@@ -1854,7 +1834,6 @@ self
 _dump_files
 =
 [
-                
 (
 path
 os
@@ -1869,18 +1848,17 @@ path
 0
 ]
 +
-"
+'
 .
 extra
-"
+'
 )
-                
 for
 path
 in
+                                
 reversed
 (
-                    
 sorted
 (
 glob
@@ -1896,17 +1874,16 @@ join
 self
 .
 dump_directory
-"
+                                                                       
+'
 *
 .
 dmp
-"
+'
 )
 )
 )
-                
 )
-            
 ]
             
 max_dumps
@@ -1930,7 +1907,6 @@ logger
 .
 warning
 (
-                    
 "
 Found
 %
@@ -1945,8 +1921,8 @@ to
 d
 !
 "
-                    
 %
+                                    
 (
 len
 (
@@ -1956,7 +1932,6 @@ _dump_files
 )
 max_dumps
 )
-                
 )
                 
 del
@@ -2237,17 +2212,15 @@ None
         
 if
 (
-            
 self
 .
 symbols_path
-            
 and
 self
 .
 stackwalk_binary
-            
 and
+            
 os
 .
 path
@@ -2258,8 +2231,8 @@ self
 .
 stackwalk_binary
 )
-            
 and
+                
 os
 .
 access
@@ -2271,20 +2244,23 @@ os
 .
 X_OK
 )
-        
 )
 :
             
 command
 =
 [
+                
 self
 .
 stackwalk_binary
+                
 path
+                
 self
 .
 symbols_path
+            
 ]
             
 self
@@ -2305,8 +2281,8 @@ paste
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (
@@ -2327,11 +2303,13 @@ Popen
 (
                 
 command
+                
 stdout
 =
 subprocess
 .
 PIPE
+                
 stderr
 =
 subprocess
@@ -2660,23 +2638,22 @@ func
 if
 not
 (
-                                    
 func
 in
 ABORT_SIGNATURES
-                                    
 or
+                                        
 any
 (
 pat
 in
 func
+                                            
 for
 pat
 in
 ABORT_SUBSTRINGS
 )
-                                
 )
 :
                                     
@@ -2730,7 +2707,6 @@ errors
 .
 append
 (
-                    
 "
 MINIDUMP_STACKWALK
 not
@@ -2744,7 +2720,7 @@ dump
 Either
 set
 "
-                    
+                              
 "
 MINIDUMP_STACKWALK
 or
@@ -2757,14 +2733,13 @@ no
 -
 system
 "
-                    
+                              
 "
 to
 install
 minidump_stackwalk
 .
 "
-                
 )
             
 elif
@@ -2789,7 +2764,6 @@ errors
 .
 append
 (
-                    
 "
 MINIDUMP_STACKWALK
 binary
@@ -2803,7 +2777,7 @@ Use
 mach
 bootstrap
 "
-                    
+                              
 "
 -
 -
@@ -2819,7 +2793,6 @@ minidump_stackwalk
 self
 .
 stackwalk_binary
-                
 )
             
 elif
@@ -2841,7 +2814,7 @@ errors
 .
 append
 (
-"
+'
 This
 user
 cannot
@@ -2850,7 +2823,7 @@ the
 MINIDUMP_STACKWALK
 binary
 .
-"
+'
 )
         
 if
@@ -2948,29 +2921,27 @@ extra
 return
 StackInfo
 (
-            
 path
-            
+                         
 signature
-            
+                         
 out
-            
+                         
 err
 if
 include_stderr
 else
 None
-            
+                         
 retcode
-            
+                         
 errors
-            
+                         
 extra
-            
+                         
 reason
-            
+                         
 java_stack
-        
 )
     
 def
@@ -3106,7 +3077,6 @@ logger
 .
 info
 (
-            
 u
 "
 Saved
@@ -3118,7 +3088,7 @@ as
 .
 format
 (
-                
+            
 os
 .
 path
@@ -3137,9 +3107,8 @@ basename
 path
 )
 )
-            
-)
         
+)
 )
         
 if
@@ -3169,7 +3138,6 @@ logger
 .
 info
 (
-                
 u
 "
 Saved
@@ -3182,7 +3150,7 @@ as
 .
 format
 (
-                    
+                
 os
 .
 path
@@ -3201,9 +3169,8 @@ basename
 extra
 )
 )
-                
-)
             
+)
 )
 def
 check_for_java_exception
@@ -3782,8 +3749,6 @@ quiet
                     
 output
 =
-(
-                        
 u
 "
 PROCESS
@@ -3807,18 +3772,18 @@ loc
 .
 format
 (
-                            
+                        
 name
 =
 test_name
+                        
 type
 =
 exception_type
+                        
 loc
 =
 exception_location
-                        
-)
                     
 )
                     
@@ -3841,7 +3806,6 @@ else
                 
 print
 (
-                    
 u
 "
 Automation
@@ -3854,7 +3818,7 @@ logcat
 at
 line
 "
-                    
+                      
 "
 {
 0
@@ -3878,7 +3842,6 @@ logcat
 )
 line
 )
-                
 )
             
 break
@@ -4014,6 +3977,7 @@ path
 join
 (
 dump_directory
+                                 
 str
 (
 uuid
@@ -4030,13 +3994,14 @@ dmp
 )
         
 if
+(
 mozinfo
 .
 info
 [
-"
+'
 bits
-"
+'
 ]
 !
 =
@@ -4051,7 +4016,9 @@ c_voidp
 *
 8
 and
+                
 utility_path
+)
 :
             
 #
@@ -4102,7 +4069,6 @@ path
 .
 normpath
 (
-                
 os
 .
 path
@@ -4110,20 +4076,19 @@ path
 join
 (
 utility_path
+                                                           
 "
 minidumpwriter
 .
 exe
 "
 )
-            
 )
             
 log
 .
 info
 (
-                
 u
 "
 Using
@@ -4145,13 +4110,11 @@ for
 .
 format
 (
-                    
+                
 minidumpwriter
 file_name
 pid
-                
 )
-            
 )
             
 if
@@ -4300,6 +4263,7 @@ OpenProcess
 PROCESS_QUERY_INFORMATION
 |
 PROCESS_VM_READ
+                                  
 0
 pid
 )
@@ -4392,23 +4356,21 @@ kernel32
 .
 CreateFileW
 (
-            
 file_name
-            
+                                           
 GENERIC_READ
 |
 GENERIC_WRITE
-            
+                                           
 0
-            
+                                           
 None
-            
+                                           
 CREATE_ALWAYS
-            
+                                           
 FILE_ATTRIBUTE_NORMAL
-            
+                                           
 None
-        
 )
         
 if
@@ -4428,40 +4390,38 @@ dbghelp
 .
 MiniDumpWriteDump
 (
-                
 proc_handle
-                
+                                                           
 pid
-                
+                                                           
 file_handle
-                
+                                                           
 #
 Dump
 type
 -
 MiniDumpNormal
-                
+                                                           
 0
-                
+                                                           
 #
 Exception
 parameter
-                
+                                                           
 None
-                
+                                                           
 #
 User
 stream
 parameter
-                
+                                                           
 None
-                
+                                                           
 #
 Callback
 parameter
-                
+                                                           
 None
-            
 )
 :
                 
@@ -4691,7 +4651,6 @@ logger
 .
 warning
 (
-                        
 "
 kill_pid
 (
@@ -4712,14 +4671,13 @@ error
 %
 d
 "
-                        
 %
+                                   
 (
 status
 pid
 err
 )
-                    
 )
                 
 elif
@@ -4733,7 +4691,6 @@ logger
 .
 warning
 (
-                        
 "
 kill_pid
 (
@@ -4750,13 +4707,12 @@ pid
 %
 d
 "
-                        
 %
+                                   
 (
 status
 pid
 )
-                    
 )
             
 else
@@ -4774,7 +4730,6 @@ logger
 .
 warning
 (
-                    
 "
 kill_pid
 (
@@ -4791,11 +4746,11 @@ d
 d
 "
 %
+                               
 (
 pid
 err
 )
-                
 )
             
 CloseHandle
@@ -4818,7 +4773,6 @@ logger
 .
 warning
 (
-                
 "
 kill_pid
 (
@@ -4837,11 +4791,11 @@ d
 d
 "
 %
+                           
 (
 pid
 err
 )
-            
 )
 else
 :
@@ -5239,7 +5193,6 @@ path
 .
 expanduser
 (
-            
 "
 ~
 \
@@ -5259,7 +5212,6 @@ Firefox
 Crash
 Reports
 "
-        
 )
     
 elif
@@ -5276,7 +5228,6 @@ path
 .
 expanduser
 (
-            
 "
 ~
 /
@@ -5290,7 +5241,6 @@ firefox
 Crash
 Reports
 "
-        
 )
     
 else
@@ -5372,9 +5322,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 import
@@ -5392,24 +5342,24 @@ parser
 .
 add_argument
 (
-"
+'
 -
 -
 stackwalk
 -
 binary
-"
-"
+'
+'
 -
 b
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 -
 -
 dump
@@ -5417,46 +5367,46 @@ dump
 save
 -
 path
-"
-"
+'
+'
 -
 o
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 -
 -
 test
 -
 name
-"
-"
+'
+'
 -
 n
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 dump_directory
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 symbols_path
-"
+'
 )
     
 args
@@ -5469,31 +5419,28 @@ parse_args
     
 check_for_crashes
 (
-        
 args
 .
 dump_directory
-        
 args
 .
 symbols_path
-        
+                      
 stackwalk_binary
 =
 args
 .
 stackwalk_binary
-        
+                      
 dump_save_path
 =
 args
 .
 dump_save_path
-        
+                      
 test_name
 =
 args
 .
 test_name
-    
 )

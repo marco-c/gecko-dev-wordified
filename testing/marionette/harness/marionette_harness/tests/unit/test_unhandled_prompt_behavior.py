@@ -164,23 +164,17 @@ False
 def
 perform_user_prompt_check
 (
-        
 self
-        
 prompt_type
-        
 text
-        
 expected_result
-        
+                                  
 expected_close
 =
 True
-        
 expected_notify
 =
 True
-    
 )
 :
         
@@ -241,7 +235,6 @@ marionette
 .
 execute_async_script
 (
-            
 "
 "
 "
@@ -275,14 +268,12 @@ arguments
 "
 "
 "
-            
 script_args
 =
 (
 prompt_type
 text
 )
-        
 )
         
 if
@@ -401,7 +392,6 @@ return_value
 new_sandbox
 =
 False
-            
 )
             
 self
@@ -476,7 +466,6 @@ self
 .
 perform_user_prompt_check
 (
-            
 prompt_type
 "
 foo
@@ -489,10 +478,10 @@ format
 prompt_type
 )
 result
+                                       
 expected_notify
 =
 False
-        
 )
     
 parameterized
@@ -561,7 +550,6 @@ self
 .
 perform_user_prompt_check
 (
-            
 prompt_type
 "
 foo
@@ -574,7 +562,6 @@ format
 prompt_type
 )
 result
-        
 )
     
 parameterized
@@ -640,7 +627,6 @@ self
 .
 perform_user_prompt_check
 (
-            
 prompt_type
 "
 foo
@@ -653,10 +639,10 @@ format
 prompt_type
 )
 result
+                                       
 expected_notify
 =
 False
-        
 )
     
 parameterized
@@ -724,7 +710,6 @@ self
 .
 perform_user_prompt_check
 (
-            
 prompt_type
 "
 foo
@@ -737,7 +722,6 @@ format
 prompt_type
 )
 result
-        
 )
     
 parameterized
@@ -803,7 +787,6 @@ self
 .
 perform_user_prompt_check
 (
-            
 prompt_type
 "
 foo
@@ -816,10 +799,10 @@ format
 prompt_type
 )
 result
+                                       
 expected_close
 =
 False
-        
 )
     
 parameterized
@@ -878,7 +861,6 @@ self
 .
 perform_user_prompt_check
 (
-            
 prompt_type
 "
 foo
@@ -891,5 +873,4 @@ format
 prompt_type
 )
 result
-        
 )

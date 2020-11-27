@@ -183,9 +183,9 @@ __init__
 self
 logger_name
 =
-"
+'
 mozpower
-"
+'
 *
 *
 kwargs
@@ -244,14 +244,14 @@ logger_name
 logger_name
 os
 =
-"
+'
 darwin
-"
+'
 cpu
 =
-"
+'
 intel
-"
+'
 )
         
 self
@@ -310,6 +310,7 @@ gathering
 through
 IntelPowerGadget
 .
+        
 "
 "
 "
@@ -367,23 +368,24 @@ time
 def
 finalize_power_measurements
 (
-        
 self
+                                    
 test_name
 =
-"
+'
 power
 -
 testing
-"
+'
+                                    
 output_dir_path
 =
-"
-"
+'
+'
+                                    
 *
 *
 kwargs
-    
 )
 :
         
@@ -588,15 +590,13 @@ self
 .
 perfherder_data
 =
-(
-            
 self
 .
 ipg_results_handler
 .
 format_ipg_data_to_partial_perfherder
 (
-                
+            
 self
 .
 end_time
@@ -605,8 +605,6 @@ self
 .
 start_time
 test_name
-            
-)
         
 )
     

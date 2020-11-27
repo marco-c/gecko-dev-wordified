@@ -547,9 +547,9 @@ None
         
 self
 [
-"
+'
 version
-"
+'
 ]
 =
 self
@@ -558,9 +558,9 @@ VERSION
         
 self
 [
-"
+'
 webidls
-"
+'
 ]
 =
 {
@@ -568,9 +568,9 @@ webidls
         
 self
 [
-"
+'
 global_depends
-"
+'
 ]
 =
 {
@@ -595,9 +595,9 @@ fh
 if
 state
 [
-"
+'
 version
-"
+'
 ]
 !
 =
@@ -609,49 +609,49 @@ VERSION
 raise
 Exception
 (
-"
+'
 Unknown
 state
 version
 :
 %
 s
-"
+'
 %
 state
 [
-"
+'
 version
-"
+'
 ]
 )
         
 self
 [
-"
+'
 version
-"
+'
 ]
 =
 state
 [
-"
+'
 version
-"
+'
 ]
         
 self
 [
-"
+'
 global_depends
-"
+'
 ]
 =
 state
 [
-"
+'
 global_depends
-"
+'
 ]
         
 for
@@ -660,9 +660,9 @@ v
 in
 state
 [
-"
+'
 webidls
-"
+'
 ]
 .
 items
@@ -672,9 +672,9 @@ items
             
 self
 [
-"
+'
 webidls
-"
+'
 ]
 [
 k
@@ -703,59 +703,59 @@ sets
             
 self
 [
-"
+'
 webidls
-"
+'
 ]
 [
 k
 ]
 [
-"
+'
 inputs
-"
+'
 ]
 =
 set
 (
 v
 [
-"
+'
 inputs
-"
+'
 ]
 )
             
 self
 [
-"
+'
 webidls
-"
+'
 ]
 [
 k
 ]
 [
-"
+'
 outputs
-"
+'
 ]
 =
 set
 (
 v
 [
-"
+'
 outputs
-"
+'
 ]
 )
         
 self
 [
-"
+'
 dictionaries_convertible_to_js
-"
+'
 ]
 =
 set
@@ -763,18 +763,17 @@ set
             
 state
 [
-"
+'
 dictionaries_convertible_to_js
-"
+'
 ]
-        
 )
         
 self
 [
-"
+'
 dictionaries_convertible_from_js
-"
+'
 ]
 =
 set
@@ -782,11 +781,10 @@ set
             
 state
 [
-"
+'
 dictionaries_convertible_from_js
-"
+'
 ]
-        
 )
     
 def
@@ -825,9 +823,9 @@ v
 in
 self
 [
-"
+'
 webidls
-"
+'
 ]
 .
 items
@@ -851,59 +849,59 @@ sets
             
 normalized
 [
-"
+'
 webidls
-"
+'
 ]
 [
 k
 ]
 [
-"
+'
 outputs
-"
+'
 ]
 =
 sorted
 (
 v
 [
-"
+'
 outputs
-"
+'
 ]
 )
             
 normalized
 [
-"
+'
 webidls
-"
+'
 ]
 [
 k
 ]
 [
-"
+'
 inputs
-"
+'
 ]
 =
 sorted
 (
 v
 [
-"
+'
 inputs
-"
+'
 ]
 )
         
 normalized
 [
-"
+'
 dictionaries_convertible_to_js
-"
+'
 ]
 =
 sorted
@@ -911,18 +909,17 @@ sorted
             
 self
 [
-"
+'
 dictionaries_convertible_to_js
-"
+'
 ]
-        
 )
         
 normalized
 [
-"
+'
 dictionaries_convertible_from_js
-"
+'
 ]
 =
 sorted
@@ -930,11 +927,10 @@ sorted
             
 self
 [
-"
+'
 dictionaries_convertible_from_js
-"
+'
 ]
-        
 )
         
 json
@@ -1005,71 +1001,71 @@ GLOBAL_DECLARE_FILES
 =
 {
         
-"
+'
 GeneratedAtomList
 .
 h
-"
+'
         
-"
+'
 GeneratedEventList
 .
 h
-"
+'
         
-"
+'
 PrototypeList
 .
 h
-"
+'
         
-"
+'
 RegisterBindings
 .
 h
-"
+'
         
-"
+'
 RegisterWorkerBindings
 .
 h
-"
+'
         
-"
+'
 RegisterWorkerDebuggerBindings
 .
 h
-"
+'
         
-"
+'
 RegisterWorkletBindings
 .
 h
-"
+'
         
-"
+'
 UnionConversions
 .
 h
-"
+'
         
-"
+'
 UnionTypes
 .
 h
-"
+'
         
-"
+'
 WebIDLPrefs
 .
 h
-"
+'
         
-"
+'
 WebIDLSerializable
 .
 h
-"
+'
     
 }
     
@@ -1085,86 +1081,77 @@ GLOBAL_DEFINE_FILES
 =
 {
         
-"
+'
 RegisterBindings
 .
 cpp
-"
+'
         
-"
+'
 RegisterWorkerBindings
 .
 cpp
-"
+'
         
-"
+'
 RegisterWorkerDebuggerBindings
 .
 cpp
-"
+'
         
-"
+'
 RegisterWorkletBindings
 .
 cpp
-"
+'
         
-"
+'
 UnionTypes
 .
 cpp
-"
+'
         
-"
+'
 PrototypeList
 .
 cpp
-"
+'
         
-"
+'
 WebIDLPrefs
 .
 cpp
-"
+'
         
-"
+'
 WebIDLSerializable
 .
 cpp
-"
+'
     
 }
     
 def
 __init__
 (
-        
 self
-        
 config_path
-        
 webidl_root
-        
 inputs
-        
 exported_header_dir
-        
+                 
 codegen_dir
-        
 state_path
-        
 cache_dir
 =
 None
-        
 make_deps_path
 =
 None
-        
+                 
 make_deps_target
 =
 None
-    
 )
 :
         
@@ -1435,43 +1422,42 @@ make_deps_target
         
 if
 (
+(
 make_deps_path
 and
 not
 make_deps_target
 )
 or
+                
 (
-            
 not
 make_deps_path
 and
 make_deps_target
-        
+)
 )
 :
             
 raise
 Exception
 (
-                
-"
+'
 Must
 define
 both
 make_deps_path
 and
 make_deps_target
-"
-                
-"
+'
+                            
+'
 if
 one
 is
 defined
 .
-"
-            
+'
 )
         
 self
@@ -1511,9 +1497,9 @@ io
 open
 (
 state_path
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -1543,27 +1529,24 @@ self
 .
 log
 (
-                        
 logging
 .
 WARN
-                        
-"
+'
 webidl_bad_state
-"
-                        
+'
 {
-"
+'
 msg
-"
+'
 :
 str
 (
 e
 )
 }
-                        
-"
+                                           
+'
 Bad
 WebIDL
 state
@@ -1571,8 +1554,7 @@ state
 {
 msg
 }
-"
-                    
+'
 )
     
 property
@@ -2062,9 +2044,9 @@ self
 .
 _state
 [
-"
+'
 global_depends
-"
+'
 ]
 =
 global_hashes
@@ -2073,9 +2055,9 @@ self
 .
 _state
 [
-"
+'
 dictionaries_convertible_to_js
-"
+'
 ]
 =
 set
@@ -2096,16 +2078,15 @@ _config
 getDictionariesConvertibleToJS
 (
 )
-        
 )
         
 self
 .
 _state
 [
-"
+'
 dictionaries_convertible_from_js
-"
+'
 ]
 =
 set
@@ -2126,7 +2107,6 @@ _config
 getDictionariesConvertibleFromJS
 (
 )
-        
 )
         
 #
@@ -2209,9 +2189,9 @@ self
 .
 _state
 [
-"
+'
 webidls
-"
+'
 ]
 [
 basename
@@ -2353,7 +2333,6 @@ codegen_rule
 .
 add_dependencies
 (
-                
 six
 .
 ensure_text
@@ -2363,12 +2342,12 @@ s
 for
 s
 in
+                                          
 global_hashes
 .
 keys
 (
 )
-            
 )
             
 codegen_rule
@@ -2384,6 +2363,7 @@ p
 for
 p
 in
+                                          
 self
 .
 _input_paths
@@ -2512,19 +2492,17 @@ self
 .
 log
 (
-            
 logging
 .
 INFO
-            
-"
+'
 webidl_parse
-"
-            
+'
+                 
 {
-"
+'
 count
-"
+'
 :
 len
 (
@@ -2533,8 +2511,8 @@ self
 _input_paths
 )
 }
-            
-"
+                 
+'
 Parsing
 {
 count
@@ -2542,8 +2520,7 @@ count
 WebIDL
 files
 .
-"
-        
+'
 )
         
 hashes
@@ -2579,16 +2556,16 @@ io
 open
 (
 path
-"
+'
 r
-"
+'
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 as
 fh
@@ -2777,21 +2754,18 @@ _config
 =
 Configuration
 (
-            
 self
 .
 _config_path
-            
 web_roots
-            
+                                     
 self
 .
 _parser_results
-            
+                                     
 self
 .
 _generated_events_stems_as_array
-        
 )
         
 self
@@ -2816,9 +2790,9 @@ things
 =
 [
 (
-"
+'
 declare
-"
+'
 f
 )
 for
@@ -2834,9 +2808,9 @@ things
 extend
 (
 (
-"
+'
 define
-"
+'
 f
 )
 for
@@ -2897,9 +2871,9 @@ if
 what
 =
 =
-"
+'
 declare
-"
+'
 :
                 
 code
@@ -2920,9 +2894,9 @@ elif
 what
 =
 =
-"
+'
 define
-"
+'
 :
                 
 code
@@ -2945,7 +2919,7 @@ else
 raise
 Exception
 (
-"
+'
 Unknown
 global
 gen
@@ -2953,7 +2927,7 @@ type
 :
 %
 s
-"
+'
 %
 what
 )
@@ -3136,17 +3110,18 @@ old_hashes
 {
 v
 [
-"
+'
 filename
-"
+'
 ]
 :
 v
 [
-"
+'
 sha1
-"
+'
 ]
+                      
 for
 v
 in
@@ -3154,9 +3129,9 @@ self
 .
 _state
 [
-"
+'
 webidls
-"
+'
 ]
 .
 values
@@ -3335,9 +3310,9 @@ self
 .
 _state
 [
-"
+'
 webidls
-"
+'
 ]
 .
 values
@@ -3354,9 +3329,9 @@ dep
 in
 v
 [
-"
+'
 inputs
-"
+'
 ]
 if
 dep
@@ -3371,9 +3346,9 @@ add
 (
 v
 [
-"
+'
 filename
-"
+'
 ]
 )
         
@@ -3399,9 +3374,9 @@ self
 .
 _state
 [
-"
+'
 dictionaries_convertible_to_js
-"
+'
 ]
         
 newDictionariesConvertibleToJS
@@ -3457,25 +3432,19 @@ self
 .
 _state
 [
-            
-"
+'
 dictionaries_convertible_from_js
-"
-        
+'
 ]
         
 newDictionariesConvertibleFromJS
 =
-(
-            
 self
 .
 _config
 .
 getDictionariesConvertibleFromJS
 (
-)
-        
 )
         
 newNames
@@ -3684,10 +3653,10 @@ basename
         
 binding_stem
 =
-"
+'
 %
 sBinding
-"
+'
 %
 stem
         
@@ -3731,12 +3700,12 @@ mozpath
 join
 (
 header_dir
-"
+'
 %
 s
 .
 h
-"
+'
 %
 binding_stem
 )
@@ -3748,12 +3717,12 @@ join
 self
 .
 _codegen_dir
-"
+'
 %
 s
 .
 cpp
-"
+'
 %
 binding_stem
 )
@@ -3763,12 +3732,12 @@ mozpath
 join
 (
 header_dir
-"
+'
 %
 s
 .
 h
-"
+'
 %
 stem
 )
@@ -3784,12 +3753,12 @@ join
 self
 .
 _codegen_dir
-"
+'
 %
 s
 .
 cpp
-"
+'
 %
 stem
 )
@@ -3825,14 +3794,14 @@ join
 self
 .
 _codegen_dir
-"
+'
 %
 s
 -
 example
 .
 h
-"
+'
 %
 interface
 )
@@ -3844,18 +3813,17 @@ join
 self
 .
 _codegen_dir
-"
+'
 %
 s
 -
 example
 .
 cpp
-"
+'
 %
 interface
 )
-        
 )
     
 def
@@ -4028,24 +3996,22 @@ self
 .
 log
 (
-            
 logging
 .
 INFO
-            
-"
+'
 webidl_generate_build_for_input
-"
-            
+'
+                 
 {
-"
+'
 filename
-"
+'
 :
 filename
 }
-            
-"
+                 
+'
 Generating
 WebIDL
 files
@@ -4054,8 +4020,7 @@ from
 {
 filename
 }
-"
-        
+'
 )
         
 stem
@@ -4119,18 +4084,17 @@ self
 .
 _maybe_write_codegen
 (
-                
 generated_event
 files
 [
 2
 ]
+                                               
 files
 [
 3
 ]
 result
-            
 )
         
 return
@@ -4282,9 +4246,9 @@ io
 open
 (
 f
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -4328,9 +4292,9 @@ self
 .
 _state
 [
-"
+'
 global_depends
-"
+'
 ]
 .
 keys
@@ -4367,9 +4331,9 @@ self
 .
 _state
 [
-"
+'
 global_depends
-"
+'
 ]
 [
 f
@@ -4399,15 +4363,15 @@ open
 self
 .
 _state_path
-"
+'
 w
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 fh
@@ -4597,12 +4561,12 @@ path
 join
 (
 topsrcdir
-"
+'
 dom
-"
-"
+'
+'
 bindings
-"
+'
 )
     
 obj_dir
@@ -4614,12 +4578,12 @@ path
 join
 (
 topobjdir
-"
+'
 dom
-"
-"
+'
+'
 bindings
-"
+'
 )
     
 webidl_root
@@ -4631,12 +4595,12 @@ path
 join
 (
 topsrcdir
-"
+'
 dom
-"
-"
+'
+'
 webidl
-"
+'
 )
     
 with
@@ -4651,17 +4615,17 @@ path
 join
 (
 obj_dir
-"
+'
 file
 -
 lists
 .
 json
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -4679,35 +4643,31 @@ fh
 inputs
 =
 (
-        
 files
 [
-"
+'
 webidls
-"
+'
 ]
-        
 files
 [
-"
+'
 exported_stems
-"
+'
 ]
-        
+              
 files
 [
-"
+'
 generated_events_stems
-"
+'
 ]
-        
 files
 [
-"
+'
 example_interfaces
-"
+'
 ]
-    
 )
     
 cache_dir
@@ -4719,9 +4679,9 @@ path
 join
 (
 obj_dir
-"
+'
 _cache
-"
+'
 )
     
 try
@@ -4764,11 +4724,11 @@ path
 join
 (
 src_dir
-"
+'
 Bindings
 .
 conf
-"
+'
 )
         
 webidl_root
@@ -4782,15 +4742,15 @@ path
 join
 (
 dist_dir
-"
+'
 include
-"
-"
+'
+'
 mozilla
-"
-"
+'
+'
 dom
-"
+'
 )
         
 obj_dir
@@ -4802,11 +4762,11 @@ path
 join
 (
 obj_dir
-"
+'
 codegen
 .
 json
-"
+'
 )
         
 cache_dir
@@ -4836,20 +4796,20 @@ path
 join
 (
 obj_dir
-"
+'
 codegen
 .
 pp
-"
+'
 )
         
 make_deps_target
 =
-"
+'
 webidl
 .
 stub
-"
+'
     
 )
 class
@@ -4873,9 +4833,9 @@ not
 hasattr
 (
 self
-"
+'
 _webidl_manager
-"
+'
 )
 :
             
@@ -4895,7 +4855,6 @@ topobjdir
 self
 .
 distdir
-            
 )
         
 return

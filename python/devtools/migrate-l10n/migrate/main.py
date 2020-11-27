@@ -53,9 +53,8 @@ path
 .
 join
 (
-    
 script_path
-"
+'
 .
 .
 /
@@ -75,7 +74,7 @@ python
 compare
 -
 locales
-"
+'
 )
 sys
 .
@@ -102,7 +101,7 @@ basicConfig
 (
 format
 =
-"
+'
 [
 %
 (
@@ -115,7 +114,7 @@ s
 message
 )
 s
-"
+'
 level
 =
 logging
@@ -136,8 +135,7 @@ files
 DEFAULT_HEADER
 =
 (
-    
-"
+'
 #
 This
 Source
@@ -150,9 +148,9 @@ the
 terms
 of
 the
-"
-    
-"
+'
+                  
+'
 Mozilla
 Public
 \
@@ -171,9 +169,9 @@ copy
 of
 the
 MPL
-"
-    
-"
+'
+                  
+'
 was
 not
 distributed
@@ -186,9 +184,9 @@ file
 You
 can
 obtain
-"
-    
-"
+'
+                  
+'
 one
 at
 http
@@ -208,7 +206,7 @@ MPL
 .
 \
 n
-"
+'
 )
 #
 Base
@@ -231,8 +229,7 @@ notes
 CENTRAL_BASE_URL
 =
 (
-    
-"
+'
 https
 :
 /
@@ -243,9 +240,9 @@ mozilla
 .
 org
 /
-"
-    
-"
+'
+                    
+'
 mozilla
 -
 central
@@ -256,9 +253,9 @@ file
 /
 tip
 /
-"
-    
-"
+'
+                    
+'
 devtools
 /
 client
@@ -269,7 +266,7 @@ en
 -
 US
 /
-"
+'
 )
 #
 HTML
@@ -390,7 +387,7 @@ logging
 .
 info
 (
-"
+'
 loading
 localization
 file
@@ -401,7 +398,7 @@ central
 %
 s
 }
-"
+'
 %
 url
 )
@@ -432,7 +429,7 @@ logging
 .
 error
 (
-"
+'
 failed
 to
 load
@@ -445,7 +442,8 @@ central
 %
 s
 }
-"
+'
+                      
 %
 url
 )
@@ -519,18 +517,18 @@ line
 .
 strip
 (
-"
+'
 \
 n
-"
+'
 )
 .
 strip
 (
-"
+'
 \
 r
-"
+'
 )
         
 if
@@ -538,9 +536,9 @@ line
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 :
             
@@ -567,14 +565,14 @@ re
 .
 search
 (
-"
+'
 (
 ^
 |
 \
 n
 )
-"
+'
 +
 re
 .
@@ -583,12 +581,12 @@ escape
 prop_name
 )
 +
-"
+'
 \
 s
 *
 =
-"
+'
 line
 )
 :
@@ -609,6 +607,7 @@ note
 .
             
 break
+;
         
 else
 :
@@ -631,10 +630,10 @@ comment_buffer
 ]
     
 return
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -684,10 +683,10 @@ parser
 .
 getParser
 (
-"
+'
 .
 dtd
-"
+'
 )
     
 dtd_parser
@@ -789,11 +788,11 @@ translation
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 #
 Extract
@@ -879,18 +878,18 @@ line
 .
 strip
 (
-"
+'
 \
 n
-"
+'
 )
 .
 strip
 (
-"
+'
 \
 r
-"
+'
 )
         
 #
@@ -910,16 +909,16 @@ re
 .
 search
 (
-            
-"
+'
 ^
 (
 \
 s
 *
 )
-"
-"
+'
+                                   
+'
 (
 (
 ?
@@ -939,8 +938,9 @@ s
 )
 *
 )
-"
-"
+'
+                                   
+'
 (
 [
 ^
@@ -973,9 +973,8 @@ s
 t
 ]
 *
-"
+'
 line
-        
 )
         
 is_loc_note
@@ -984,15 +983,16 @@ re
 .
 search
 (
-"
+'
 ^
 (
 \
 s
 *
 )
-"
-"
+'
+                                
+'
 \
 #
 \
@@ -1012,7 +1012,7 @@ s
 +
 \
 )
-"
+'
 line
 )
         
@@ -1062,10 +1062,10 @@ return
 .
     
 return
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -1093,7 +1093,7 @@ logging
 .
 info
 (
-"
+'
 creating
 new
 *
@@ -1105,7 +1105,7 @@ file
 %
 s
 }
-"
+'
 %
 prop_path
 )
@@ -1133,10 +1133,10 @@ prop_file
 open
 (
 prop_path
-"
+'
 w
 +
-"
+'
 )
     
 prop_file
@@ -1191,7 +1191,7 @@ logging
 .
 error
 (
-"
+'
 dtd
 file
 can
@@ -1204,7 +1204,7 @@ at
 %
 s
 }
-"
+'
 %
 dtd_path
 )
@@ -1228,8 +1228,7 @@ logging
 .
 error
 (
-            
-"
+'
 translation
 could
 not
@@ -1246,13 +1245,13 @@ in
 %
 s
 }
-"
+'
+                      
 %
 (
 dtd_name
 dtd_path
 )
-        
 )
         
 return
@@ -1298,7 +1297,7 @@ logging
 .
 error
 (
-"
+'
 could
 not
 create
@@ -1311,7 +1310,8 @@ at
 %
 s
 }
-"
+'
+                      
 %
 prop_path
 )
@@ -1322,16 +1322,16 @@ prop_line
 =
 prop_name
 +
-"
+'
 =
-"
+'
 +
 translation
 +
-"
+'
 \
 n
-"
+'
     
 #
 Skip
@@ -1352,9 +1352,9 @@ prop_file_content
 open
 (
 prop_path
-"
+'
 r
-"
+'
 )
 .
 read
@@ -1371,7 +1371,7 @@ logging
 .
 warning
 (
-"
+'
 string
 already
 migrated
@@ -1381,7 +1381,7 @@ skipping
 %
 s
 }
-"
+'
 %
 prop_name
 )
@@ -1416,14 +1416,14 @@ re
 .
 search
 (
-"
+'
 (
 ^
 |
 \
 n
 )
-"
+'
 +
 re
 .
@@ -1432,12 +1432,12 @@ escape
 prop_name
 )
 +
-"
+'
 \
 s
 *
 =
-"
+'
 prop_file_content
 )
 :
@@ -1446,7 +1446,7 @@ logging
 .
 error
 (
-"
+'
 existing
 string
 found
@@ -1456,7 +1456,7 @@ skipping
 %
 s
 }
-"
+'
 %
 prop_name
 )
@@ -1478,7 +1478,7 @@ logging
 .
 info
 (
-"
+'
 migrating
 {
 %
@@ -1489,7 +1489,7 @@ in
 %
 s
 }
-"
+'
 %
 (
 prop_name
@@ -1501,9 +1501,9 @@ with
 open
 (
 prop_path
-"
+'
 a
-"
+'
 )
 as
 prop_file
@@ -1528,10 +1528,10 @@ prop_file
 .
 write
 (
-"
+'
 \
 n
-"
+'
 +
 localization_note
 )
@@ -1543,8 +1543,7 @@ logging
 .
 warning
 (
-                
-"
+'
 localization
 notes
 could
@@ -1557,20 +1556,20 @@ for
 %
 s
 }
-"
+'
+                            
 %
 prop_name
-            
 )
         
 prop_file
 .
 write
 (
-"
+'
 \
 n
-"
+'
 +
 prop_line
 )
@@ -1598,9 +1597,9 @@ f
 open
 (
 conf_path
-"
+'
 r
-"
+'
 )
     
 lines
@@ -1639,18 +1638,18 @@ line
 .
 strip
 (
-"
+'
 \
 n
-"
+'
 )
 .
 strip
 (
-"
+'
 \
 r
-"
+'
 )
         
 #
@@ -1660,9 +1659,9 @@ lines
 .
         
 if
-"
+'
 =
-"
+'
 not
 in
 line
@@ -1698,9 +1697,9 @@ line
 .
 split
 (
-"
+'
 =
-"
+'
 )
         
 prop_path
@@ -1710,9 +1709,9 @@ prop_info
 .
 split
 (
-"
+'
 :
-"
+'
 )
         
 dtd_path
@@ -1722,9 +1721,9 @@ dtd_info
 .
 split
 (
-"
+'
 :
-"
+'
 )
         
 dtd_path
@@ -1777,67 +1776,65 @@ argparse
 .
 ArgumentParser
 (
-        
+            
 description
 =
-"
+'
 Migrate
 devtools
 localized
 strings
 .
-"
-    
+'
 )
     
 arg_parser
 .
 add_argument
 (
-"
+'
 path
-"
+'
 type
 =
 str
 help
 =
-"
+'
 path
 to
 l10n
 repository
-"
+'
 )
     
 arg_parser
 .
 add_argument
 (
-        
-"
+'
 -
 c
-"
-"
+'
+'
 -
 -
 config
-"
+'
 type
 =
 str
+                            
 help
 =
-"
+'
 path
 to
 configuration
 file
 or
 folder
-"
-    
+'
 )
     
 args
@@ -1871,12 +1868,12 @@ join
 args
 .
 path
-"
+'
 devtools
 /
 client
 /
-"
+'
 )
     
 if
@@ -1895,7 +1892,7 @@ logging
 .
 error
 (
-"
+'
 l10n
 path
 is
@@ -1905,7 +1902,7 @@ invalid
 %
 s
 }
-"
+'
 %
 devtools_l10n_path
 )
@@ -1918,7 +1915,7 @@ logging
 .
 info
 (
-"
+'
 l10n
 path
 is
@@ -1928,7 +1925,7 @@ valid
 %
 s
 }
-"
+'
 %
 devtools_l10n_path
 )
@@ -1964,9 +1961,9 @@ args
 .
 config
 +
-"
+'
 *
-"
+'
 )
     
 elif
@@ -1997,7 +1994,7 @@ logging
 .
 error
 (
-"
+'
 config
 path
 is
@@ -2007,7 +2004,7 @@ invalid
 %
 s
 }
-"
+'
 %
 args
 .
@@ -2037,7 +2034,7 @@ logging
 .
 info
 (
-"
+'
 performing
 migration
 for
@@ -2048,7 +2045,7 @@ file
 %
 s
 }
-"
+'
 %
 conf_file
 )
@@ -2062,9 +2059,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

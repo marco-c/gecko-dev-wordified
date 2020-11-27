@@ -128,9 +128,9 @@ open
 self
 .
 path
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -216,8 +216,8 @@ presets
 :
             
 return
-"
-"
+'
+'
         
 return
 yaml
@@ -271,9 +271,9 @@ self
 :
         
 if
-"
+'
 EDITOR
-"
+'
 not
 in
 os
@@ -283,7 +283,6 @@ environ
             
 print
 (
-                
 "
 error
 :
@@ -301,7 +300,6 @@ edit
 -
 presets
 "
-            
 )
             
 return
@@ -318,9 +316,9 @@ os
 .
 environ
 [
-"
+'
 EDITOR
-"
+'
 ]
 )
 +
@@ -513,12 +511,14 @@ all_presets
 k
 :
 v
+            
 for
 handler
 in
 self
 .
 handlers
+            
 for
 k
 v
@@ -593,17 +593,16 @@ val
                 
 val
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
-                    
 [
-"
-"
+'
+'
 ]
 +
 val
@@ -613,10 +612,9 @@ splitlines
 )
 +
 [
-"
-"
+'
+'
 ]
-                
 )
 #
 indent

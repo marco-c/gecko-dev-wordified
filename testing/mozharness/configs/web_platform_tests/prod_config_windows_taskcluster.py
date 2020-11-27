@@ -115,52 +115,52 @@ DESKTOP_VISUALFX_THEME
 =
 {
     
-"
+'
 Let
 Windows
 choose
-"
+'
 :
 0
     
-"
+'
 Best
 appearance
-"
+'
 :
 1
     
-"
+'
 Best
 performance
-"
+'
 :
 2
     
-"
+'
 Custom
-"
+'
 :
 3
 }
 .
 get
 (
-"
+'
 Best
 appearance
-"
+'
 )
 TASKBAR_AUTOHIDE_REG_PATH
 =
 {
     
-"
+'
 Windows
 7
-"
+'
 :
-"
+'
 HKCU
 :
 SOFTWARE
@@ -174,14 +174,14 @@ CurrentVersion
 Explorer
 \
 StuckRects2
-"
+'
     
-"
+'
 Windows
 10
-"
+'
 :
-"
+'
 HKCU
 :
 SOFTWARE
@@ -195,17 +195,17 @@ CurrentVersion
 Explorer
 \
 StuckRects3
-"
+'
 }
 .
 get
 (
-"
+'
 {
 }
 {
 }
-"
+'
 .
 format
 (
@@ -380,17 +380,17 @@ exes
 :
 {
         
-"
+'
 python
-"
+'
 :
 sys
 .
 executable
         
-"
+'
 hg
-"
+'
 :
 os
 .
@@ -402,16 +402,16 @@ os
 .
 environ
 [
-"
+'
 PROGRAMFILES
-"
+'
 ]
-"
+'
 Mercurial
-"
-"
+'
+'
 hg
-"
+'
 )
     
 }
@@ -430,58 +430,58 @@ preflight_run_cmd_suites
         
 {
             
-"
+'
 name
-"
+'
 :
-"
+'
 disable_screen_saver
-"
+'
             
-"
+'
 cmd
-"
+'
 :
 [
-"
+'
 xset
-"
-"
+'
+'
 s
-"
-"
+'
+'
 off
-"
-"
+'
+'
 s
-"
-"
+'
+'
 reset
-"
+'
 ]
             
-"
+'
 architectures
-"
+'
 :
 [
-"
+'
 32bit
-"
-"
+'
+'
 64bit
-"
+'
 ]
             
-"
+'
 halt_on_failure
-"
+'
 :
 False
             
-"
+'
 enabled
-"
+'
 :
 DISABLE_SCREEN_SAVER
         
@@ -489,22 +489,22 @@ DISABLE_SCREEN_SAVER
         
 {
             
-"
+'
 name
-"
+'
 :
-"
+'
 run
 mouse
 &
 screen
 adjustment
 script
-"
+'
             
-"
+'
 cmd
-"
+'
 :
 [
                 
@@ -518,36 +518,32 @@ path
 .
 join
 (
-                    
 os
 .
 getcwd
 (
 )
                     
-"
+'
 mozharness
-"
-                    
-"
+'
+'
 external_tools
-"
-                    
-"
+'
+'
 mouse_and_screen_resolution
 .
 py
-"
-                
+'
 )
                 
-"
+'
 -
 -
 configuration
 -
 file
-"
+'
                 
 os
 .
@@ -555,55 +551,51 @@ path
 .
 join
 (
-                    
 os
 .
 getcwd
 (
 )
                     
-"
+'
 mozharness
-"
-                    
-"
+'
+'
 external_tools
-"
-                    
-"
+'
+'
 machine
 -
 configuration
 .
 json
-"
-                
+'
 )
             
 ]
             
-"
+'
 architectures
-"
+'
 :
 [
-"
+'
 32bit
-"
-"
+'
+'
 64bit
-"
+'
 ]
             
-"
+'
 halt_on_failure
-"
+'
 :
 True
             
-"
+'
 enabled
-"
+'
 :
 ADJUST_MOUSE_AND_SCREEN
         
@@ -611,41 +603,40 @@ ADJUST_MOUSE_AND_SCREEN
         
 {
             
-"
+'
 name
-"
+'
 :
-"
+'
 disable
 windows
 security
 and
 maintenance
 notifications
-"
+'
             
-"
+'
 cmd
-"
+'
 :
 [
                 
-"
+'
 powershell
-"
-                
-"
+'
+'
 -
 command
-"
+'
                 
-"
-\
+'
 "
 &
 {
 p
 =
+\
 '
 HKCU
 :
@@ -666,6 +657,7 @@ Windows
 SystemToast
 .
 SecurityAndMaintenance
+\
 '
 ;
 if
@@ -705,36 +697,35 @@ Enabled
 Value
 0
 }
-\
 "
-"
+'
 #
 noqa
             
 ]
             
-"
+'
 architectures
-"
+'
 :
 [
-"
+'
 32bit
-"
-"
+'
+'
 64bit
-"
+'
 ]
             
-"
+'
 halt_on_failure
-"
+'
 :
 True
             
-"
+'
 enabled
-"
+'
 :
 (
 platform
@@ -751,33 +742,31 @@ release
         
 {
             
-"
+'
 name
-"
+'
 :
-"
+'
 set
 windows
 VisualFX
-"
+'
             
-"
+'
 cmd
-"
+'
 :
 [
                 
-"
+'
 powershell
-"
-                
-"
+'
+'
 -
 command
-"
+'
                 
-"
-\
+'
 "
 &
 {
@@ -788,6 +777,7 @@ Set
 ItemProperty
 -
 Path
+\
 '
 HKCU
 :
@@ -802,6 +792,7 @@ CurrentVersion
 Explorer
 \
 VisualEffects
+\
 '
 -
 Name
@@ -812,41 +803,38 @@ Value
 }
 }
 }
-\
 "
-"
+'
 .
 format
 (
-                    
 DESKTOP_VISUALFX_THEME
-                
 )
             
 ]
             
-"
+'
 architectures
-"
+'
 :
 [
-"
+'
 32bit
-"
-"
+'
+'
 64bit
-"
+'
 ]
             
-"
+'
 halt_on_failure
-"
+'
 :
 True
             
-"
+'
 enabled
-"
+'
 :
 True
         
@@ -854,42 +842,42 @@ True
         
 {
             
-"
+'
 name
-"
+'
 :
-"
+'
 hide
 windows
 taskbar
-"
+'
             
-"
+'
 cmd
-"
+'
 :
 [
                 
-"
+'
 powershell
-"
-                
-"
+'
+'
 -
 command
-"
+'
                 
-"
-\
+'
 "
 &
 {
 {
 p
 =
+\
 '
 {
 }
+\
 '
 ;
 v
@@ -927,41 +915,38 @@ Value
 v
 }
 }
-\
 "
-"
+'
 .
 format
 (
-                    
 TASKBAR_AUTOHIDE_REG_PATH
-                
 )
             
 ]
             
-"
+'
 architectures
-"
+'
 :
 [
-"
+'
 32bit
-"
-"
+'
+'
 64bit
-"
+'
 ]
             
-"
+'
 halt_on_failure
-"
+'
 :
 True
             
-"
+'
 enabled
-"
+'
 :
 True
         
@@ -969,30 +954,29 @@ True
         
 {
             
-"
+'
 name
-"
+'
 :
-"
+'
 restart
 windows
 explorer
-"
+'
             
-"
+'
 cmd
-"
+'
 :
 [
                 
-"
+'
 powershell
-"
-                
-"
+'
+'
 -
 command
-"
+'
                 
 '
 "
@@ -1011,28 +995,28 @@ explorer
             
 ]
             
-"
+'
 architectures
-"
+'
 :
 [
-"
+'
 32bit
-"
-"
+'
+'
 64bit
-"
+'
 ]
             
-"
+'
 halt_on_failure
-"
+'
 :
 True
             
-"
+'
 enabled
-"
+'
 :
 True
         

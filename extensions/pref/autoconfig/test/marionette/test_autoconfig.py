@@ -94,9 +94,9 @@ if
 hasattr
 (
 self
-"
+'
 pref_file
-"
+'
 )
 :
             
@@ -113,9 +113,9 @@ if
 hasattr
 (
 self
-"
+'
 autoconfig_file
-"
+'
 )
 :
             
@@ -166,7 +166,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -188,13 +187,11 @@ arguments
 "
 "
 "
-                
 script_args
 =
 (
 pref
 )
-            
 )
     
 def
@@ -225,7 +222,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -247,13 +243,11 @@ arguments
 "
 "
 "
-                
 script_args
 =
 (
 pref
 )
-            
 )
     
 def
@@ -286,7 +280,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -312,7 +305,6 @@ path
 "
 "
 "
-            
 )
         
 self
@@ -449,7 +441,6 @@ self
 .
 assertTrue
 (
-                
 self
 .
 pref_has_user_value
@@ -462,7 +453,7 @@ test
 userpref
 "
 )
-                
+                            
 "
 Pref
 should
@@ -470,14 +461,12 @@ have
 user
 value
 "
-            
 )
             
 self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -492,11 +481,10 @@ test
 userpref
 "
 )
-                
+                             
 "
 userpref
 "
-                
 "
 User
 pref
@@ -504,14 +492,12 @@ should
 be
 set
 "
-            
 )
             
 self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -527,11 +513,10 @@ defaultpref
 "
 True
 )
-                
+                             
 "
 defaultpref
 "
-                
 "
 Default
 pref
@@ -539,14 +524,12 @@ should
 be
 set
 "
-            
 )
             
 self
 .
 assertTrue
 (
-                
 self
 .
 pref_is_locked
@@ -559,21 +542,19 @@ test
 lockpref
 "
 )
-                
+                            
 "
 Pref
 should
 be
 locked
 "
-            
 )
             
 self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -588,11 +569,10 @@ test
 lockpref
 "
 )
-                
+                             
 "
 lockpref
 "
-                
 "
 Locked
 pref
@@ -600,14 +580,12 @@ should
 be
 set
 "
-            
 )
             
 self
 .
 assertFalse
 (
-                
 self
 .
 pref_is_locked
@@ -620,21 +598,19 @@ test
 unlockpref
 "
 )
-                
+                             
 "
 Pref
 should
 be
 unlocked
 "
-            
 )
             
 self
 .
 assertEqual
 (
-                
 self
 .
 marionette
@@ -649,11 +625,10 @@ test
 unlockpref
 "
 )
-                
+                             
 "
 unlockpref
 "
-                
 "
 Unlocked
 pref
@@ -661,14 +636,12 @@ should
 be
 set
 "
-            
 )
             
 self
 .
 assertFalse
 (
-                
 self
 .
 pref_has_user_value
@@ -681,12 +654,11 @@ test
 clearpref
 "
 )
-                
+                             
 "
 Pref
 should
 be
 cleared
 "
-            
 )

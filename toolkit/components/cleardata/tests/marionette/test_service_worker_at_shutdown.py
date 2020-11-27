@@ -140,7 +140,6 @@ marionette
 .
 absolute_url
 (
-            
 "
 serviceworker
 /
@@ -148,7 +147,6 @@ install_serviceworker
 .
 html
 "
-        
 )
         
 self
@@ -259,7 +257,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -385,7 +382,6 @@ false
 "
 "
 "
-                
 script_args
 =
 (
@@ -399,5 +395,4 @@ absolute_url
 "
 )
 )
-            
 )

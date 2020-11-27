@@ -96,13 +96,17 @@ MPL
 from
 __future__
 import
+(
 absolute_import
 print_function
+)
 from
 abc
 import
+(
 ABCMeta
 abstractmethod
+)
 from
 collections
 import
@@ -140,7 +144,7 @@ mozprofilerprobe
 mof
 EVENT_ID_FIREFOX_WINDOW_RESTORED
 =
-"
+'
 {
 917B96B1
 -
@@ -152,7 +156,7 @@ A760
 -
 8D49027748AE
 }
-"
+'
 class
 XPerfSession
 (
@@ -547,11 +551,11 @@ attribute
     
 ACCUMULATIONS
 =
-"
+'
 XPerfAttribute
 .
 ACCUMULATIONS
-"
+'
     
 #
 The
@@ -564,11 +568,11 @@ attribute
     
 NAME
 =
-"
+'
 XPerfAttribute
 .
 NAME
-"
+'
     
 #
 The
@@ -581,11 +585,11 @@ attribute
     
 RESULT
 =
-"
+'
 XPerfAttribute
 .
 RESULT
-"
+'
     
 #
 Some
@@ -625,11 +629,11 @@ key
     
 SUB_ATTRIBUTES
 =
-"
+'
 XPerfAttribute
 .
 SUB_ATTRIBUTES
-"
+'
     
 #
 Other
@@ -897,9 +901,9 @@ output
 =
 kwargs
 [
-"
+'
 output
-"
+'
 ]
         
 except
@@ -1064,22 +1068,24 @@ evtlist
 raise
 Exception
 (
-                
-'
+"
 Event
 mismatch
 :
+\
 "
 {
 !
 s
 }
+\
 "
 is
 not
 in
 this
-'
+"
+                            
 .
 format
 (
@@ -1087,7 +1093,6 @@ format
 evt
 )
 )
-                
 +
 "
 attribute
@@ -1096,7 +1101,6 @@ s
 event
 list
 "
-            
 )
         
 self
@@ -1727,6 +1731,8 @@ took
 }
 ]
 "
+\
+              
 "
 milliseconds
 .
@@ -1734,7 +1740,6 @@ milliseconds
 .
 format
 (
-            
 (
 start
 )
@@ -1744,7 +1749,6 @@ end
 (
 duration
 )
-        
 )
         
 if
@@ -1940,7 +1944,6 @@ get_results
 results
 =
 {
-            
 XPerfAttribute
 .
 NAME
@@ -1950,13 +1953,12 @@ self
 __class__
 .
 __name__
-            
+                   
 XPerfAttribute
 .
 RESULT
 :
 duration
-        
 }
         
 if
@@ -2120,6 +2122,7 @@ evt
 XPerfAttribute
 .
 PERSISTENT
+                                           
 *
 *
 kwargs
@@ -2148,9 +2151,9 @@ filters
 =
 kwargs
 [
-"
+'
 filters
-"
+'
 ]
         
 except
@@ -2328,12 +2331,12 @@ s
 .
 format
 (
-            
 (
 self
 .
 count
 )
+                                                    
 (
 self
 .
@@ -2342,7 +2345,6 @@ seen_evtlist
 0
 ]
 )
-        
 )
         
 if
@@ -2417,7 +2419,6 @@ self
 results
 =
 {
-            
 XPerfAttribute
 .
 NAME
@@ -2427,7 +2428,7 @@ self
 __class__
 .
 __name__
-            
+                   
 XPerfAttribute
 .
 RESULT
@@ -2435,7 +2436,6 @@ RESULT
 self
 .
 count
-        
 }
         
 if
@@ -2578,9 +2578,9 @@ event
     
 EVENT_DATA_PID
 =
-"
+'
 pid
-"
+'
     
 #
 The
@@ -2594,9 +2594,9 @@ event
     
 EVENT_DATA_CMD_LINE
 =
-"
+'
 cmd_line
-"
+'
     
 #
 The
@@ -2610,9 +2610,9 @@ event
     
 EVENT_DATA_TID
 =
-"
+'
 tid
-"
+'
     
 #
 Number
@@ -2629,9 +2629,9 @@ quantities
     
 EVENT_NUM_BYTES
 =
-"
+'
 num_bytes
-"
+'
     
 #
 File
@@ -2646,9 +2646,9 @@ event
     
 EVENT_FILE_NAME
 =
-"
+'
 file_name
-"
+'
     
 #
 Set
@@ -2691,9 +2691,9 @@ accumulated
     
 EVENT_ACCUMULATABLE_FIELDS
 =
-"
+'
 accumulatable_fields
-"
+'
     
 timestamp_index
 =
@@ -2850,9 +2850,9 @@ self
 .
 get_field_index
 (
-"
+'
 TimeStamp
-"
+'
 )
         
 #
@@ -3277,22 +3277,26 @@ expression
 for
 event
 "
-                
 +
-'
+                
+"
+\
 "
 %
 s
+\
 "
 fired
 for
 event
+\
 "
 %
 s
+\
 "
 instead
-'
+"
 %
 (
 self
@@ -3300,7 +3304,6 @@ self
 event
 evt
 )
-            
 )
         
 self
@@ -3420,51 +3423,51 @@ if
 lastDigit
 =
 =
-"
+'
 1
-"
+'
 :
             
 return
-"
+'
 st
-"
+'
         
 elif
 lastDigit
 =
 =
-"
+'
 2
-"
+'
 :
             
 return
-"
+'
 nd
-"
+'
         
 elif
 lastDigit
 =
 =
-"
+'
 3
-"
+'
 :
             
 return
-"
+'
 rd
-"
+'
         
 else
 :
             
 return
-"
+'
 th
-"
+'
     
 def
 __str__
@@ -3692,7 +3695,7 @@ raise
 Exception
 (
                 
-"
+'
 EventSequence
 requires
 at
@@ -3702,13 +3705,13 @@ events
 %
 d
 provided
-"
+'
 %
+                
 len
 (
 events
 )
-            
 )
         
 self
@@ -3747,10 +3750,7 @@ events
 0
         
 if
-(
-            
 unseen_events
-            
 and
 evt
 !
@@ -3761,12 +3761,12 @@ events
 [
 0
 ]
-            
 or
 not
 unseen_events
-            
 and
+\
+           
 evt
 !
 =
@@ -3777,8 +3777,6 @@ seen_events
 -
 1
 ]
-        
-)
 :
             
 raise
@@ -3801,11 +3799,12 @@ this
 event
 sequence
 '
+                
 %
 (
 evt
 )
-            
+                
 )
         
 #
@@ -4211,22 +4210,26 @@ expression
 for
 event
 "
-                
 +
-'
+                
+"
+\
 "
 %
 s
+\
 "
 fired
 for
 event
+\
 "
 %
 s
+\
 "
 instead
-'
+"
 %
 (
 self
@@ -4234,7 +4237,6 @@ self
 event
 evt
 )
-            
 )
         
 self
@@ -4311,9 +4313,9 @@ row
 [
 0
 ]
-"
+'
 ThreadID
-"
+'
 )
         
 except
@@ -4474,11 +4476,11 @@ self
 .
 __init__
 (
-"
+'
 UnknownEvent
 /
 Classic
-"
+'
 )
         
 self
@@ -4530,9 +4532,9 @@ self
 .
 get_field_index
 (
-"
+'
 EventGuid
-"
+'
 )
         
 guid
@@ -4632,7 +4634,6 @@ __init__
 (
             
 EVENT_ID_FIREFOX_WINDOW_RESTORED
-        
 )
     
 def
@@ -4671,7 +4672,7 @@ re
 .
 compile
 (
-"
+'
 ^
 (
 .
@@ -4689,7 +4690,7 @@ d
 )
 \
 )
-"
+'
 )
     
 def
@@ -4708,11 +4709,11 @@ self
 .
 __init__
 (
-"
+'
 P
 -
 Start
-"
+'
 )
         
 self
@@ -4792,8 +4793,8 @@ elif
 c
 =
 =
-"
-"
+'
+'
 :
                     
 result
@@ -4889,13 +4890,14 @@ self
 .
 get_field_index
 (
-"
+                
+'
 Process
 Name
 (
 PID
 )
-"
+'
 )
         
 m
@@ -4966,10 +4968,10 @@ self
 .
 get_field_index
 (
-"
+'
 Command
 Line
-"
+'
 )
         
 cmd_line
@@ -5028,6 +5030,8 @@ XPerfEvent
 EVENT_DATA_CMD_LINE
 ]
 =
+\
+                
 {
 pid
 :
@@ -5123,7 +5127,7 @@ re
 .
 compile
 (
-"
+'
 ^
 .
 +
@@ -5139,7 +5143,7 @@ d
 )
 \
 )
-"
+'
 )
     
 def
@@ -5157,11 +5161,11 @@ self
 .
 __init__
 (
-"
+'
 T
 -
 Start
-"
+'
 )
     
 def
@@ -5204,13 +5208,14 @@ self
 .
 get_field_index
 (
-"
+                
+'
 Process
 Name
 (
 PID
 )
-"
+'
 )
         
 m
@@ -5269,9 +5274,9 @@ self
 .
 get_field_index
 (
-"
+'
 ThreadID
-"
+'
 )
         
 self
@@ -5283,6 +5288,8 @@ XPerfEvent
 EVENT_DATA_TID
 ]
 =
+\
+            
 int
 (
 row
@@ -5329,7 +5336,6 @@ XPerfEvent
 EVENT_DATA_PID
 ]
 )
-        
 )
         
 return
@@ -5390,9 +5396,9 @@ self
 .
 __init__
 (
-"
+'
 ReadyThread
-"
+'
 )
     
 def
@@ -5454,10 +5460,10 @@ self
 .
 get_field_index
 (
-"
+'
 Rdy
 TID
-"
+'
 )
         
 try
@@ -5474,16 +5480,16 @@ EVENT_DATA_TID
 ]
 =
 =
+\
+                   
 int
 (
-                
 row
 [
 ReadyThread
 .
 tid_index
 ]
-            
 )
         
 except
@@ -5526,7 +5532,6 @@ XPerfEvent
 EVENT_DATA_TID
 ]
 )
-        
 )
 class
 ContextSwitchToThread
@@ -5584,9 +5589,9 @@ self
 .
 __init__
 (
-"
+'
 CSwitch
-"
+'
 )
     
 def
@@ -5629,10 +5634,10 @@ self
 .
 get_field_index
 (
-"
+'
 New
 TID
-"
+'
 )
         
 try
@@ -5649,16 +5654,16 @@ EVENT_DATA_TID
 ]
 =
 =
+\
+                   
 int
 (
-                
 row
 [
 ContextSwitchToThread
 .
 tid_index
 ]
-            
 )
         
 except
@@ -5683,6 +5688,8 @@ to
 thread
 "
 +
+\
+               
 "
 [
 {
@@ -5694,7 +5701,6 @@ s
 .
 format
 (
-            
 (
 self
 .
@@ -5705,7 +5711,6 @@ XPerfEvent
 EVENT_DATA_TID
 ]
 )
-        
 )
 class
 FileIOReadOrWrite
@@ -5753,17 +5758,17 @@ WRITE
             
 evt_name
 =
-"
+'
 FileIoWrite
-"
+'
             
 self
 .
 strverb
 =
-"
+'
 Write
-"
+'
         
 elif
 verb
@@ -5776,17 +5781,17 @@ READ
             
 evt_name
 =
-"
+'
 FileIoRead
-"
+'
             
 self
 .
 strverb
 =
-"
+'
 Read
-"
+'
         
 else
 :
@@ -5794,13 +5799,13 @@ else
 raise
 Exception
 (
-"
+'
 Invalid
 verb
 argument
 to
 FileIOReadOrWrite
-"
+'
 )
         
 super
@@ -5860,9 +5865,9 @@ self
 .
 get_field_index
 (
-"
+'
 ThreadID
-"
+'
 )
         
 if
@@ -5880,9 +5885,9 @@ self
 .
 get_field_index
 (
-"
+'
 Size
-"
+'
 )
         
 if
@@ -5896,13 +5901,15 @@ FileIOReadOrWrite
 .
 file_name_index
 =
+\
+                
 self
 .
 get_field_index
 (
-"
+'
 FileName
-"
+'
 )
         
 self
@@ -5914,16 +5921,16 @@ XPerfEvent
 EVENT_DATA_TID
 ]
 =
+\
+            
 int
 (
-            
 row
 [
 FileIOReadOrWrite
 .
 tid_index
 ]
-        
 )
         
 self
@@ -5935,9 +5942,10 @@ XPerfEvent
 EVENT_NUM_BYTES
 ]
 =
+\
+            
 int
 (
-            
 row
 [
 FileIOReadOrWrite
@@ -5945,7 +5953,6 @@ FileIOReadOrWrite
 num_bytes_index
 ]
 0
-        
 )
         
 self
@@ -5957,13 +5964,13 @@ XPerfEvent
 EVENT_FILE_NAME
 ]
 =
+\
+            
 row
 [
-            
 FileIOReadOrWrite
 .
 file_name_index
-        
 ]
 .
 strip
@@ -5982,12 +5989,12 @@ XPerfEvent
 EVENT_ACCUMULATABLE_FIELDS
 ]
 =
-{
+\
             
+{
 XPerfEvent
 .
 EVENT_NUM_BYTES
-        
 }
         
 return
@@ -6363,9 +6370,9 @@ xperf_path
 xperf_path
         
 if
-"
+'
 etlfile
-"
+'
 in
 kwargs
 :
@@ -6382,22 +6389,22 @@ abspath
 (
 kwargs
 [
-"
+'
 etlfile
-"
+'
 ]
 )
         
 elif
-"
+'
 etluser
-"
+'
 in
 kwargs
 and
-"
+'
 etlkernel
-"
+'
 in
 kwargs
 :
@@ -6416,9 +6423,9 @@ kwargs
 )
         
 elif
-"
+'
 csvfile
-"
+'
 not
 in
 kwargs
@@ -6427,7 +6434,7 @@ kwargs
 raise
 Exception
 (
-"
+'
 Missing
 parameters
 :
@@ -6436,7 +6443,7 @@ or
 csv
 files
 required
-"
+'
 )
         
 if
@@ -6460,9 +6467,9 @@ abspath
 (
 kwargs
 [
-"
+'
 csvout
-"
+'
 ]
 )
             
@@ -6497,9 +6504,9 @@ abspath
 (
 kwargs
 [
-"
+'
 csvfile
-"
+'
 ]
 )
         
@@ -6512,9 +6519,9 @@ keepcsv
 =
 kwargs
 [
-"
+'
 keepcsv
-"
+'
 ]
         
 except
@@ -6552,9 +6559,9 @@ self
 .
 keepcsv
 =
-"
+'
 csvfile
-"
+'
 in
 kwargs
         
@@ -6603,11 +6610,11 @@ xperf_path
         
 leaf_name
 =
-"
+'
 xperf
 .
 exe
-"
+'
         
 access_flags
 =
@@ -6625,9 +6632,9 @@ os
 .
 environ
 [
-"
+'
 PATH
-"
+'
 ]
 .
 split
@@ -6686,11 +6693,11 @@ xperf_path
 raise
 Exception
 (
-"
+'
 Cannot
 find
 xperf
-"
+'
 )
     
 def
@@ -6713,9 +6720,9 @@ abspath
 (
 kwargs
 [
-"
+'
 etluser
-"
+'
 ]
 )
         
@@ -6729,9 +6736,9 @@ abspath
 (
 kwargs
 [
-"
+'
 etlkernel
-"
+'
 ]
 )
         
@@ -6758,11 +6765,11 @@ path
 join
 (
 base
-"
+'
 merged
 .
 etl
-"
+'
 )
         
 xperf_cmd
@@ -6773,10 +6780,10 @@ self
 get_xperf_path
 (
 )
-"
+'
 -
 merge
-"
+'
 user
 kernel
 merged
@@ -6900,17 +6907,18 @@ self
 get_xperf_path
 (
 )
-"
+'
 -
 i
-"
+'
 self
 .
 etlfile
-"
+'
 -
 o
-"
+'
+                     
 abs_csv_name
 ]
         
@@ -6967,10 +6975,10 @@ load
 raise
 Exception
 (
-"
+'
 Load
 failed
-"
+'
 )
         
 return
@@ -7047,9 +7055,9 @@ open
 self
 .
 csvfile
-"
+'
 rb
-"
+'
 )
         
 self
@@ -7060,39 +7068,35 @@ self
 .
 filter_xperf_header
 (
-            
 csv
 .
 reader
 (
-                
 self
 .
 csv_fd
-                
+                                                        
 delimiter
 =
-"
-"
-                
+'
+'
+                                                        
 quotechar
 =
 '
 "
 '
-                
+                                                        
 quoting
 =
 csv
 .
 QUOTE_NONE
-                
+                                                        
 skipinitialspace
 =
 True
-            
 )
-        
 )
         
 return
@@ -7225,7 +7229,6 @@ sess
 .
 add_field_mapping
 (
-                    
 row
 [
 0
@@ -7240,6 +7243,7 @@ for
 k
 v
 in
+                                                     
 enumerate
 (
 row
@@ -7249,7 +7253,6 @@ row
 ]
 )
 }
-                
 )
                 
 continue
@@ -7364,12 +7367,12 @@ subparsers
 add_parser
 (
             
-"
+'
 etl
-"
+'
 help
 =
-"
+'
 Input
 consists
 of
@@ -7377,8 +7380,7 @@ one
 .
 etl
 file
-"
-        
+'
 )
         
 etl_parser
@@ -7389,7 +7391,6 @@ add_argument
 "
 etlfile
 "
-            
 type
 =
 str
@@ -7407,15 +7408,14 @@ containing
 merged
 kernel
 "
-            
 +
+                 
 "
 and
 user
 mode
 data
 "
-        
 )
         
 etl_parser
@@ -7423,19 +7423,18 @@ etl_parser
 add_argument
 (
             
-"
+'
 -
 -
 csvout
-"
-            
+'
 required
 =
 False
             
 help
 =
-"
+'
 Specify
 a
 path
@@ -7447,8 +7446,7 @@ csv
 file
 to
 disk
-"
-        
+'
 )
         
 etl_parser
@@ -7456,19 +7454,18 @@ etl_parser
 add_argument
 (
             
-"
+'
 -
 -
 keepcsv
-"
-            
+'
 required
 =
 False
             
 help
 =
-"
+'
 Do
 not
 delete
@@ -7481,14 +7478,13 @@ was
 written
 to
 disk
-"
+'
             
 action
 =
-"
+'
 store_true
-"
-        
+'
 )
         
 etls_parser
@@ -7498,12 +7494,12 @@ subparsers
 add_parser
 (
             
-"
+'
 etls
-"
+'
 help
 =
-"
+'
 Input
 consists
 of
@@ -7511,8 +7507,7 @@ two
 .
 etl
 files
-"
-        
+'
 )
         
 etls_parser
@@ -7525,7 +7520,6 @@ add_argument
 -
 user
 "
-            
 type
 =
 str
@@ -7543,17 +7537,15 @@ mode
 etl
 file
 "
-            
 dest
 =
-"
+'
 etluser
-"
+'
             
 required
 =
 True
-        
 )
         
 etls_parser
@@ -7566,7 +7558,6 @@ add_argument
 -
 kernel
 "
-            
 type
 =
 str
@@ -7584,17 +7575,15 @@ mode
 etl
 file
 "
-            
 dest
 =
-"
+'
 etlkernel
-"
+'
             
 required
 =
 True
-        
 )
         
 etls_parser
@@ -7602,19 +7591,18 @@ etls_parser
 add_argument
 (
             
-"
+'
 -
 -
 csvout
-"
-            
+'
 required
 =
 False
             
 help
 =
-"
+'
 Specify
 a
 path
@@ -7626,8 +7614,7 @@ csv
 file
 to
 disk
-"
-        
+'
 )
         
 etls_parser
@@ -7635,19 +7622,18 @@ etls_parser
 add_argument
 (
             
-"
+'
 -
 -
 keepcsv
-"
-            
+'
 required
 =
 False
             
 help
 =
-"
+'
 Do
 not
 delete
@@ -7660,14 +7646,13 @@ was
 written
 to
 disk
-"
+'
             
 action
 =
-"
+'
 store_true
-"
-        
+'
 )
         
 csv_parser
@@ -7677,12 +7662,12 @@ subparsers
 add_parser
 (
             
-"
+'
 csv
-"
+'
 help
 =
-"
+'
 Input
 consists
 of
@@ -7690,8 +7675,7 @@ one
 .
 csv
 file
-"
-        
+'
 )
         
 csv_parser
@@ -7705,6 +7689,7 @@ csvfile
 type
 =
 str
+            
 help
 =
 "
@@ -7718,7 +7703,6 @@ generated
 by
 xperf
 "
-        
 )
         
 #
@@ -7739,16 +7723,14 @@ csv_parser
 add_argument
 (
             
-"
+'
 -
 -
 keepcsv
-"
-            
+'
 required
 =
 False
-            
 help
 =
 argparse
@@ -7757,14 +7739,12 @@ SUPPRESS
             
 action
 =
-"
+'
 store_true
-"
-            
+'
 default
 =
 True
-        
 )
         
 args
@@ -7870,10 +7850,10 @@ lower
 )
 !
 =
-"
+'
 .
 dll
-"
+'
             
 myfilters
 =
@@ -7889,11 +7869,11 @@ fxstart1
 =
 ProcessStart
 (
-"
+'
 firefox
 .
 exe
-"
+'
 )
             
 sess_restore
@@ -7906,9 +7886,9 @@ interval1
 =
 XPerfInterval
 (
-                
 fxstart1
 sess_restore
+                                      
 output
 =
 lambda
@@ -7921,7 +7901,6 @@ str
 a
 )
 )
-            
 )
             
 etl
@@ -7935,37 +7914,36 @@ fxstart2
 =
 ProcessStart
 (
-"
+'
 firefox
 .
 exe
-"
+'
 )
             
 ready
 =
 EventSequence
 (
-                
 Nth
 (
 2
 ProcessStart
 (
-"
+'
 firefox
 .
 exe
-"
+'
 )
 )
+                                  
 ThreadStart
 (
 )
 ReadyThread
 (
 )
-            
 )
             
 interval2
@@ -7974,6 +7952,7 @@ XPerfInterval
 (
 fxstart2
 ready
+                                      
 output
 =
 structured_output
@@ -7996,14 +7975,13 @@ Nth
 2
 ProcessStart
 (
-"
+'
 firefox
 .
 exe
-"
+'
 )
 )
-                
 ThreadStart
 (
 )
@@ -8017,24 +7995,21 @@ FileIOReadOrWrite
 READ
 )
 )
-            
 )
             
 read_counter
 =
 XPerfCounter
 (
-                
 browser_main_thread_file_io_read
-                
+                                        
 output
 =
 structured_output
-                
+                                        
 filters
 =
 myfilters
-            
 )
             
 browser_main_thread_file_io_write
@@ -8047,14 +8022,13 @@ Nth
 2
 ProcessStart
 (
-"
+'
 firefox
 .
 exe
-"
+'
 )
 )
-                
 ThreadStart
 (
 )
@@ -8068,19 +8042,17 @@ FileIOReadOrWrite
 WRITE
 )
 )
-            
 )
             
 write_counter
 =
 XPerfCounter
 (
-                
 browser_main_thread_file_io_write
+                                         
 output
 =
 structured_output
-            
 )
             
 #
@@ -8106,11 +8078,11 @@ Nth
 2
 ProcessStart
 (
-"
+'
 firefox
 .
 exe
-"
+'
 )
 )
             
@@ -8118,19 +8090,16 @@ interval3
 =
 XPerfInterval
 (
-                
 parent_process_started
-                
+                                      
 SessionStoreWindowRestored
 (
 )
-                
+                                      
 read_counter
-                
 output
 =
 structured_output
-            
 )
             
 etl
@@ -8147,11 +8116,11 @@ Nth
 2
 ProcessStart
 (
-"
+'
 firefox
 .
 exe
-"
+'
 )
 )
             
@@ -8159,19 +8128,16 @@ interval4
 =
 XPerfInterval
 (
-                
 parent_process_started2
-                
+                                      
 SessionStoreWindowRestored
 (
 )
-                
+                                      
 write_counter
-                
 output
 =
 structured_output
-            
 )
             
 etl

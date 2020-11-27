@@ -94,7 +94,7 @@ out
 waiting
 on
 it
-        
+            
 to
 complete
 .
@@ -199,9 +199,9 @@ sys
 platform
 =
 =
-"
+'
 darwin
-"
+'
 and
 sys
 .
@@ -225,14 +225,14 @@ copy
             
 myenv
 [
-"
+'
 PYTHONPATH
-"
+'
 ]
 =
-"
+'
 :
-"
+'
 .
 join
 (
@@ -247,7 +247,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -255,31 +254,31 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_waittimeout
 .
 ini
 "
 ]
-            
+                                          
 cwd
 =
 here
-            
+                                          
 env
 =
 myenv
-            
+                                          
 onTimeout
 =
 (
 timeout_handler
 )
-            
+                                          
 kill_on_timeout
 =
 False
-        
 )
         
 p
@@ -313,12 +312,12 @@ determine_status
 p
 False
 [
-"
+'
 returncode
-"
-"
+'
+'
 didtimeout
-"
+'
 ]
 )
     
@@ -333,12 +332,12 @@ env
 =
 {
             
-"
+'
 FOOBAR
-"
+'
 :
-"
-"
+'
+'
         
 }
         
@@ -348,7 +347,6 @@ processhandler
 .
 ProcessHandler
 (
-            
 [
 self
 .
@@ -356,21 +354,20 @@ python
 self
 .
 proclaunch
+                                           
 "
 process_normal_finish
 .
 ini
 "
 ]
-            
+                                          
 cwd
 =
 here
-            
 env
 =
 env
-        
 )
         
 #
@@ -396,9 +393,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

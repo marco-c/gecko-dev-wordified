@@ -174,23 +174,23 @@ buildconfig
 .
 substs
 [
-"
+'
 CPP
-"
+'
 ]
 +
 [
-"
+'
 -
 EP
-"
+'
 ]
 +
 [
-"
+'
 -
 TC
-"
+'
 ]
     
 input_asm
@@ -221,8 +221,8 @@ input_asm
     
 print
 (
-"
-"
+'
+'
 .
 join
 (

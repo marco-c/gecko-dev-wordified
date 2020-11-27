@@ -101,8 +101,7 @@ CLANG_TESTS
 [
     
 (
-        
-"
+'
 foobar
 .
 cpp
@@ -120,37 +119,30 @@ up
 -
 Wfoo
 ]
-"
-        
-"
+'
+     
+'
 foobar
 .
 cpp
-"
-        
+'
 123
-        
 10
-        
-"
+'
 warning
-"
-        
-"
+'
+'
 you
 messed
 up
-"
-        
-"
+'
+'
 -
 Wfoo
-"
-    
+'
 )
     
 (
-        
 "
 c_locale_dummy
 .
@@ -167,7 +159,7 @@ near
 initialization
 for
 "
-        
+     
 "
 '
 full_wmonthname
@@ -184,21 +176,18 @@ diagnostic
 error
 ]
 "
-        
-"
+     
+'
 c_locale_dummy
 .
 c
-"
-        
+'
 457
-        
 1
-        
-"
+'
 error
-"
-        
+'
+     
 "
 (
 near
@@ -212,15 +201,13 @@ full_wmonthname
 '
 )
 "
-        
-"
+'
 clang
 -
 diagnostic
 -
 error
-"
-    
+'
 )
 ]
 CURRENT_LINE
@@ -243,12 +230,12 @@ CompilerWarning
     
 w
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 foo
 /
@@ -257,38 +244,38 @@ bar
 baz
 .
 cpp
-"
+'
     
 w
 [
-"
+'
 line
-"
+'
 ]
 =
 CURRENT_LINE
     
 w
 [
-"
+'
 column
-"
+'
 ]
 =
 12
     
 w
 [
-"
+'
 message
-"
+'
 ]
 =
-"
+'
 This
 is
 irrelevant
-"
+'
     
 CURRENT_LINE
 +
@@ -374,31 +361,31 @@ s
         
 w1
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 foo
 .
 c
-"
+'
         
 w2
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 bar
 .
 c
-"
+'
         
 self
 .
@@ -441,64 +428,64 @@ s
         
 w1
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 foo
 .
 c
-"
+'
         
 w1
 [
-"
+'
 line
-"
+'
 ]
 =
 5
         
 w2
 [
-"
+'
 line
-"
+'
 ]
 =
 5
         
 w2
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 foo
 .
 c
-"
+'
         
 w1
 [
-"
+'
 column
-"
+'
 ]
 =
 3
         
 w2
 [
-"
+'
 column
-"
+'
 ]
 =
 3
@@ -532,64 +519,64 @@ CompilerWarning
         
 w1
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 aaa
 .
 c
-"
+'
         
 w1
 [
-"
+'
 line
-"
+'
 ]
 =
 5
         
 w1
 [
-"
+'
 column
-"
+'
 ]
 =
 5
         
 w2
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 bbb
 .
 c
-"
+'
         
 w2
 [
-"
+'
 line
-"
+'
 ]
 =
 5
         
 w2
 [
-"
+'
 column
-"
+'
 ]
 =
 5
@@ -620,32 +607,32 @@ w1
         
 w2
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 aaa
 .
 c
-"
+'
         
 w2
 [
-"
+'
 line
-"
+'
 ]
 =
 4
         
 w2
 [
-"
+'
 column
-"
+'
 ]
 =
 6
@@ -676,32 +663,32 @@ w2
         
 w2
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 aaa
 .
 c
-"
+'
         
 w2
 [
-"
+'
 line
-"
+'
 ]
 =
 5
         
 w2
 [
-"
+'
 column
-"
+'
 ]
 =
 10
@@ -732,32 +719,32 @@ w1
         
 w2
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 /
 aaa
 .
 c
-"
+'
         
 w2
 [
-"
+'
 line
-"
+'
 ]
 =
 5
         
 w2
 [
-"
+'
 column
-"
+'
 ]
 =
 5
@@ -853,9 +840,9 @@ assertEqual
 (
 warning
 [
-"
+'
 filename
-"
+'
 ]
 filename
 )
@@ -866,9 +853,9 @@ assertEqual
 (
 warning
 [
-"
+'
 line
-"
+'
 ]
 line
 )
@@ -879,9 +866,9 @@ assertEqual
 (
 warning
 [
-"
+'
 column
-"
+'
 ]
 column
 )
@@ -892,9 +879,9 @@ assertEqual
 (
 warning
 [
-"
+'
 type
-"
+'
 ]
 diag_type
 )
@@ -905,9 +892,9 @@ assertEqual
 (
 warning
 [
-"
+'
 message
-"
+'
 ]
 message
 )
@@ -918,9 +905,9 @@ assertEqual
 (
 warning
 [
-"
+'
 flag
-"
+'
 ]
 flag
 )
@@ -1041,18 +1028,18 @@ NamedTemporaryFile
 (
 mode
 =
-"
+'
 wt
-"
+'
 )
         
 temp
 .
 write
 (
-"
+'
 x
-"
+'
 *
 100
 )
@@ -1071,9 +1058,9 @@ CompilerWarning
         
 w
 [
-"
+'
 filename
-"
+'
 ]
 =
 temp
@@ -1082,33 +1069,33 @@ name
         
 w
 [
-"
+'
 line
-"
+'
 ]
 =
 1
         
 w
 [
-"
+'
 column
-"
+'
 ]
 =
 4
         
 w
 [
-"
+'
 message
-"
+'
 ]
 =
-"
+'
 foo
 bar
-"
+'
         
 #
 Should
@@ -1125,14 +1112,14 @@ w
         
 w
 [
-"
+'
 filename
-"
+'
 ]
 =
-"
+'
 DOES_NOT_EXIST
-"
+'
         
 with
 self
@@ -1200,18 +1187,18 @@ NamedTemporaryFile
 (
 mode
 =
-"
+'
 wt
-"
+'
 )
             
 temp
 .
 write
 (
-"
+'
 x
-"
+'
 *
 (
 100
@@ -1257,9 +1244,9 @@ CompilerWarning
             
 w
 [
-"
+'
 filename
-"
+'
 ]
 =
 temp
@@ -1268,18 +1255,18 @@ name
             
 w
 [
-"
+'
 line
-"
+'
 ]
 =
 1
             
 w
 [
-"
+'
 column
-"
+'
 ]
 =
 i
@@ -1288,14 +1275,14 @@ i
             
 w
 [
-"
+'
 message
-"
+'
 ]
 =
-"
+'
 irrelevant
-"
+'
             
 db
 .
@@ -1342,9 +1329,9 @@ source_files
 .
 write
 (
-"
+'
 extra
-"
+'
 )
         
 source_files
@@ -1364,9 +1351,9 @@ CompilerWarning
         
 w
 [
-"
+'
 filename
-"
+'
 ]
 =
 source_files
@@ -1378,32 +1365,32 @@ name
         
 w
 [
-"
+'
 line
-"
+'
 ]
 =
 1
         
 w
 [
-"
+'
 column
-"
+'
 ]
 =
 50
         
 w
 [
-"
+'
 message
-"
+'
 ]
 =
-"
+'
 replaced
-"
+'
         
 db
 .
@@ -1460,15 +1447,15 @@ warnings
 0
 ]
 [
-"
+'
 column
-"
+'
 ]
 w
 [
-"
+'
 column
-"
+'
 ]
 )
         
@@ -1541,9 +1528,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

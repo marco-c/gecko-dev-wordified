@@ -134,13 +134,19 @@ mozpack
 .
 files
 import
+(
+    
 FileFinder
+)
 from
 mozpack
 .
 mozjar
 import
+(
+    
 JarWriter
+)
 import
 mozpack
 .
@@ -149,7 +155,7 @@ as
 mozpath
 SDK_RELEASE
 =
-"
+'
 10
 .
 0
@@ -157,18 +163,18 @@ SDK_RELEASE
 17134
 .
 0
-"
+'
 PATTERNS
 =
 [
     
 {
         
-"
+'
 srcdir
-"
+'
 :
-"
+'
 %
 (
 vs_path
@@ -177,109 +183,113 @@ s
 /
 DIA
 SDK
-"
+'
         
-"
+'
 dstdir
-"
+'
 :
-"
+'
 DIA
 SDK
-"
+'
         
-"
+'
 files
-"
+'
 :
 [
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 bin
 /
 *
 *
-"
+'
                 
-"
+'
 ignore
-"
+'
 :
 (
-"
+                    
+'
 bin
 /
 arm
 /
 *
 *
-"
+'
+                
 )
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 idl
 /
 *
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 include
 /
 *
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 lib
 /
 *
 *
-"
+'
                 
-"
+'
 ignore
-"
+'
 :
 (
-"
+                    
+'
 lib
 /
 arm
 /
 *
 *
-"
+'
+                
 )
             
 }
@@ -290,11 +300,11 @@ arm
     
 {
         
-"
+'
 srcdir
-"
+'
 :
-"
+'
 %
 (
 vs_path
@@ -312,19 +322,19 @@ MSVC
 16
 .
 27023
-"
+'
         
-"
+'
 dstdir
-"
+'
 :
-"
+'
 VC
-"
+'
         
-"
+'
 files
-"
+'
 :
 [
             
@@ -338,28 +348,28 @@ Breakpad
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 atlmfc
 /
 include
 /
 *
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 atlmfc
 /
 lib
@@ -369,17 +379,17 @@ arm64
 atls
 .
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 atlmfc
 /
 lib
@@ -389,17 +399,17 @@ x64
 atls
 .
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 atlmfc
 /
 lib
@@ -409,7 +419,7 @@ x86
 atls
 .
 *
-"
+'
             
 }
             
@@ -428,11 +438,11 @@ dll
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 bin
 /
 arm64
@@ -440,24 +450,24 @@ arm64
 pgort140
 .
 dll
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 bin
 /
 Hostx64
 /
 *
 *
-"
+'
             
 }
             
@@ -480,11 +490,11 @@ dll
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 bin
 /
 Hostx86
@@ -494,45 +504,45 @@ x86
 pgort140
 .
 dll
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 include
 /
 *
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 lib
 /
 *
 *
-"
+'
                 
-"
+'
 ignore
-"
+'
 :
 (
                     
-"
+'
 lib
 /
 arm64
@@ -541,18 +551,18 @@ store
 /
 *
 *
-"
+'
                     
-"
+'
 lib
 /
 onecore
 /
 *
 *
-"
+'
                     
-"
+'
 lib
 /
 x64
@@ -561,9 +571,9 @@ store
 /
 *
 *
-"
+'
                     
-"
+'
 lib
 /
 x86
@@ -572,7 +582,7 @@ store
 /
 *
 *
-"
+'
                 
 )
             
@@ -584,11 +594,11 @@ store
     
 {
         
-"
+'
 srcdir
-"
+'
 :
-"
+'
 %
 (
 vs_path
@@ -606,31 +616,31 @@ MSVC
 16
 .
 27012
-"
+'
         
-"
+'
 dstdir
-"
+'
 :
-"
+'
 VC
 /
 redist
-"
+'
         
-"
+'
 files
-"
+'
 :
 [
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 arm64
 /
 Microsoft
@@ -641,17 +651,17 @@ CRT
 /
 *
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 x64
 /
 Microsoft
@@ -662,17 +672,17 @@ CRT
 /
 *
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 x86
 /
 Microsoft
@@ -683,7 +693,7 @@ CRT
 /
 *
 *
-"
+'
             
 }
         
@@ -693,39 +703,39 @@ CRT
     
 {
         
-"
+'
 srcdir
-"
+'
 :
-"
+'
 %
 (
 sdk_path
 )
 s
-"
+'
         
-"
+'
 dstdir
-"
+'
 :
-"
+'
 SDK
-"
+'
         
-"
+'
 files
-"
+'
 :
 [
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 bin
 /
 %
@@ -735,7 +745,7 @@ x64
 /
 *
 *
-"
+'
 %
 SDK_RELEASE
             
@@ -743,11 +753,11 @@ SDK_RELEASE
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Include
 /
 %
@@ -755,7 +765,7 @@ s
 /
 *
 *
-"
+'
 %
 SDK_RELEASE
             
@@ -763,11 +773,11 @@ SDK_RELEASE
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Lib
 /
 %
@@ -779,7 +789,7 @@ arm64
 /
 *
 *
-"
+'
 %
 SDK_RELEASE
             
@@ -787,11 +797,11 @@ SDK_RELEASE
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Lib
 /
 %
@@ -803,7 +813,7 @@ x64
 /
 *
 *
-"
+'
 %
 SDK_RELEASE
             
@@ -811,11 +821,11 @@ SDK_RELEASE
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Lib
 /
 %
@@ -827,7 +837,7 @@ x86
 /
 *
 *
-"
+'
 %
 SDK_RELEASE
             
@@ -835,11 +845,11 @@ SDK_RELEASE
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Lib
 /
 %
@@ -851,7 +861,7 @@ arm64
 /
 *
 *
-"
+'
 %
 SDK_RELEASE
             
@@ -859,11 +869,11 @@ SDK_RELEASE
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Lib
 /
 %
@@ -875,7 +885,7 @@ x64
 /
 *
 *
-"
+'
 %
 SDK_RELEASE
             
@@ -883,11 +893,11 @@ SDK_RELEASE
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Lib
 /
 %
@@ -899,7 +909,7 @@ x86
 /
 *
 *
-"
+'
 %
 SDK_RELEASE
             
@@ -907,28 +917,28 @@ SDK_RELEASE
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Redist
 /
 D3D
 /
 *
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Redist
 /
 ucrt
@@ -939,17 +949,17 @@ x64
 /
 *
 *
-"
+'
             
 }
             
 {
                 
-"
+'
 pattern
-"
+'
 :
-"
+'
 Redist
 /
 ucrt
@@ -960,7 +970,7 @@ x86
 /
 *
 *
-"
+'
             
 }
         
@@ -1011,12 +1021,12 @@ environ
 .
 get
 (
-"
+'
 ProgramFiles
 (
 x86
 )
-"
+'
 )
     
 if
@@ -1027,7 +1037,6 @@ pf
 raise
 Exception
 (
-            
 '
 No
 "
@@ -1040,8 +1049,8 @@ environment
 variable
 .
 '
-            
-"
+                        
+'
 Not
 running
 on
@@ -1050,8 +1059,7 @@ on
 bit
 Windows
 ?
-"
-        
+'
 )
     
 vs_path
@@ -1063,17 +1071,17 @@ path
 join
 (
 pf
-"
+'
 Microsoft
 Visual
 Studio
-"
-"
+'
+'
 2017
-"
-"
+'
+'
 Community
-"
+'
 )
     
 if
@@ -1091,8 +1099,7 @@ vs_path
 raise
 Exception
 (
-            
-"
+'
 %
 s
 does
@@ -1105,10 +1112,10 @@ Studio
 not
 installed
 ?
-"
+'
 %
+                        
 vs_path
-        
 )
     
 sdk_path
@@ -1120,13 +1127,13 @@ path
 join
 (
 pf
-"
+'
 Windows
 Kits
-"
-"
+'
+'
 10
-"
+'
 )
     
 if
@@ -1144,7 +1151,7 @@ sdk_path
 raise
 Exception
 (
-"
+'
 %
 s
 does
@@ -1157,8 +1164,9 @@ SDK
 not
 installed
 ?
-"
+'
 %
+                        
 sdk_path
 )
     
@@ -1171,9 +1179,9 @@ path
 join
 (
 sdk_path
-"
+'
 Include
-"
+'
 SDK_RELEASE
 )
     
@@ -1192,8 +1200,7 @@ sdk_fullver_path
 raise
 Exception
 (
-            
-"
+'
 %
 s
 does
@@ -1205,10 +1212,10 @@ SDK
 version
 installed
 ?
-"
+'
 %
+                        
 sdk_fullver_path
-        
 )
     
 return
@@ -1282,22 +1289,22 @@ fullpath
 =
 entry
 [
-"
+'
 srcdir
-"
+'
 ]
 %
 {
             
-"
+'
 vs_path
-"
+'
 :
 vs_path
             
-"
+'
 sdk_path
-"
+'
 :
 sdk_path
         
@@ -1308,9 +1315,9 @@ pattern
 in
 entry
 [
-"
+'
 files
-"
+'
 ]
 :
             
@@ -1325,9 +1332,9 @@ pattern
 .
 get
 (
-"
+'
 ignore
-"
+'
 [
 ]
 )
@@ -1343,29 +1350,29 @@ find
 (
 pattern
 [
-"
+'
 pattern
-"
+'
 ]
 )
 :
                 
 dstpath
 =
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
 entry
 [
-"
+'
 dstdir
-"
+'
 ]
 p
 )
@@ -1375,11 +1382,11 @@ dstpath
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 f
 def
@@ -1571,7 +1578,7 @@ sha256_lines
 append
 (
 b
-"
+'
 %
 s
 \
@@ -1582,7 +1589,7 @@ d
 t
 %
 s
-"
+'
 %
 (
 sha256
@@ -1601,16 +1608,16 @@ sha256_lines
 append
 (
 b
-"
-"
+'
+'
 )
     
 return
 b
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -1662,11 +1669,11 @@ prefix
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
     
 with
@@ -1739,18 +1746,18 @@ manifest
 sdk_path
 =
 b
-"
+'
 SDK_VERSION
-"
+'
         
 sha256_path
 =
 b
-"
+'
 MANIFEST
 .
 SHA256
-"
+'
         
 if
 prefix
@@ -1785,11 +1792,11 @@ SDK_RELEASE
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 )
         
@@ -1804,9 +1811,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 if
@@ -1823,7 +1830,7 @@ argv
         
 print
 (
-"
+'
 usage
 :
 %
@@ -1836,7 +1843,7 @@ path
 -
 prefix
 >
-"
+'
 %
 sys
 .
@@ -1862,11 +1869,11 @@ argv
 ]
 =
 =
-"
+'
 create
 -
 zip
-"
+'
     
 prefix
 =
@@ -1886,12 +1893,12 @@ argv
     
 destzip
 =
-"
+'
 %
 s
 .
 zip
-"
+'
 %
 sys
 .
@@ -1936,9 +1943,9 @@ with
 open
 (
 destzip
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -1975,7 +1982,7 @@ data
     
 print
 (
-"
+'
 Hashes
 of
 %
@@ -1986,7 +1993,7 @@ size
 %
 d
 )
-"
+'
 %
 (
 destzip
@@ -1999,14 +2006,14 @@ data
     
 print
 (
-"
+'
 SHA
 -
 1
 :
 %
 s
-"
+'
 %
 sha1
 .
@@ -2017,14 +2024,14 @@ hexdigest
     
 print
 (
-"
+'
 SHA
 -
 256
 :
 %
 s
-"
+'
 %
 sha256
 .
@@ -2035,14 +2042,14 @@ hexdigest
     
 print
 (
-"
+'
 SHA
 -
 512
 :
 %
 s
-"
+'
 %
 sha512
 .

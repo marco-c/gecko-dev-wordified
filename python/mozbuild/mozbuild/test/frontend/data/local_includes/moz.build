@@ -53,13 +53,13 @@ LOCAL_INCLUDES
 +
 =
 [
-"
+'
 /
 bar
 /
 baz
-"
-"
+'
+'
 foo
-"
+'
 ]

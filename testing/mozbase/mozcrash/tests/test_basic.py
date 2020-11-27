@@ -63,9 +63,9 @@ mark
 .
 parametrize
 (
-"
+'
 minidump_files
-"
+'
 [
 3
 ]
@@ -170,6 +170,7 @@ fspath
 (
 tmpdir
 )
+                                  
 quiet
 =
 False
@@ -242,6 +243,7 @@ test_name
 u
 "
 "
+                                  
 quiet
 =
 False
@@ -268,9 +270,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

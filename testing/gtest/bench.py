@@ -114,7 +114,6 @@ subtests
                 
 print
 (
-                    
 "
 %
 4d
@@ -130,10 +129,9 @@ s
 %
 s
 "
-                    
 %
 (
-                        
+                    
 subtest
 [
 "
@@ -143,8 +141,7 @@ value
 /
 1000
 .
-0
-                        
+                    
 subtest
 [
 "
@@ -153,7 +150,7 @@ value
 ]
 %
 1000
-                        
+                    
 "
 %
 .
@@ -175,21 +172,20 @@ replicates
 /
 1000
 )
-                        
+                    
 suite
 [
 "
 name
 "
 ]
-                        
+                    
 subtest
 [
 "
 name
 "
 ]
-                    
-)
                 
+)
 )

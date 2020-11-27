@@ -92,18 +92,18 @@ pytest
 .
 importorskip
 (
-"
+'
 blessings
-"
+'
 )
     
 kind
 =
-"
+'
 xterm
 -
 256color
-"
+'
     
 try
 :
@@ -183,9 +183,9 @@ monkeypatch
 setattr
 (
 term
-"
+'
 _height_and_width
-"
+'
 lambda
 :
 (
@@ -216,29 +216,27 @@ footer
 .
 write
 (
-        
 [
-            
+        
 (
-"
+'
 dim
-"
-"
+'
+'
 foo
-"
-)
-            
-(
-"
-green
-"
-"
-bar
-"
+'
 )
         
-]
+(
+'
+green
+'
+'
+bar
+'
+)
     
+]
 )
     
 value
@@ -335,9 +333,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

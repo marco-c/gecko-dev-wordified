@@ -112,7 +112,7 @@ MOCHITEST_MANIFESTS
 +
 =
 [
-"
+'
 test
 /
 mochitest
@@ -120,5 +120,5 @@ mochitest
 mochitest
 .
 ini
-"
+'
 ]

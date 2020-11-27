@@ -750,12 +750,10 @@ index
 matches
 =
 [
-        
 (
 operator
 index
 )
-        
 for
 (
 index
@@ -764,6 +762,7 @@ operator
 in
 enumerate
 (
+        
 json_data
 [
 "
@@ -771,7 +770,6 @@ operators
 "
 ]
 )
-        
 if
 operator
 [
@@ -782,7 +780,6 @@ id
 =
 =
 operator_id
-    
 ]
     
 assert
@@ -807,6 +804,7 @@ defined
 .
 format
 (
+        
 operator_id
 )
     
@@ -834,7 +832,6 @@ format
 (
         
 operator_id
-    
 )
     
 return
@@ -870,12 +867,10 @@ tmpl
 =
 Template
 (
-        
 textwrap
 .
 dedent
 (
-            
 "
 "
 "
@@ -903,9 +898,7 @@ log_key_len
 "
 "
 "
-        
 )
-    
 )
     
 initializers
@@ -987,6 +980,7 @@ operator_index
 get_operator_and_index
 (
 json_data
+                                                          
 operated_by
 [
 0
@@ -1027,7 +1021,6 @@ log
 disqualification_time
 "
 ]
-            
 )
             
 disqualification_time_comment
@@ -1054,7 +1047,6 @@ log
 disqualification_time
 "
 ]
-            
 )
         
 else
@@ -1252,9 +1244,9 @@ indented_log_key
 n
 "
 .
+            
 join
 (
-                
 [
 '
 "
@@ -1277,7 +1269,6 @@ log_key
 74
 )
 ]
-            
 )
             
 log_key_len
@@ -1286,7 +1277,6 @@ len
 (
 log_key
 )
-        
 )
         
 initializers
@@ -1407,6 +1397,7 @@ tmpl
 .
 substitute
 (
+            
 name
 =
 json
@@ -1420,6 +1411,7 @@ name
 "
 ]
 )
+            
 id
 =
 operator
@@ -1525,7 +1517,6 @@ out_file
 .
 write
 (
-        
 Template
 (
 OUTPUT_TEMPLATE
@@ -1533,7 +1524,7 @@ OUTPUT_TEMPLATE
 .
 substitute
 (
-            
+        
 prog
 =
 os
@@ -1549,11 +1540,11 @@ argv
 0
 ]
 )
-            
+        
 include_guard
 =
 include_guard
-            
+        
 logs
 =
 "
@@ -1565,7 +1556,7 @@ join
 (
 log_info_initializers
 )
-            
+        
 operators
 =
 "
@@ -1577,9 +1568,7 @@ join
 (
 operator_info_initializers
 )
-        
 )
-    
 )
 def
 patch_in_test_logs
@@ -1641,7 +1630,6 @@ id
 mozilla_test_operator_1
 =
 {
-        
 "
 name
 "
@@ -1652,7 +1640,6 @@ Test
 Org
 1
 "
-        
 "
 id
 "
@@ -1660,19 +1647,17 @@ id
 max_id
 +
 1
-        
+                               
 "
 test_only
 "
 :
 True
-    
 }
     
 mozilla_test_operator_2
 =
 {
-        
 "
 name
 "
@@ -1683,7 +1668,6 @@ Test
 Org
 2
 "
-        
 "
 id
 "
@@ -1691,13 +1675,12 @@ id
 max_id
 +
 2
-        
+                               
 "
 test_only
 "
 :
 True
-    
 }
     
 json_data
@@ -1757,7 +1740,6 @@ pem
 mozilla_rsa_log_1
 =
 {
-        
 "
 description
 "
@@ -1769,7 +1751,7 @@ RSA
 Log
 1
 "
-        
+                         
 "
 key
 "
@@ -1817,7 +1799,7 @@ jQIDAQAB
 "
 "
 "
-        
+                         
 "
 operated_by
 "
@@ -1827,7 +1809,6 @@ max_id
 +
 1
 ]
-    
 }
     
 #
@@ -1859,7 +1840,6 @@ pem
 mozilla_rsa_log_2
 =
 {
-        
 "
 description
 "
@@ -1871,7 +1851,7 @@ RSA
 Log
 2
 "
-        
+                         
 "
 key
 "
@@ -1907,7 +1887,7 @@ uwIDAQAB
 "
 "
 "
-        
+                         
 "
 operated_by
 "
@@ -1917,7 +1897,6 @@ max_id
 +
 2
 ]
-    
 }
     
 #
@@ -1941,7 +1920,6 @@ pem
 mozilla_ec_log
 =
 {
-        
 "
 description
 "
@@ -1952,7 +1930,7 @@ Test
 EC
 Log
 "
-        
+                      
 "
 key
 "
@@ -1975,7 +1953,7 @@ PPcukj8sT3lLRVwqadIzRWw2xBGdBwbgDu3I0ZOQ15kbey0HowTqoEqmwA
 "
 "
 "
-        
+                      
 "
 operated_by
 "
@@ -1985,7 +1963,6 @@ max_id
 +
 1
 ]
-    
 }
     
 json_data
@@ -2292,7 +2269,6 @@ argv
 0
 ]
 )
-    
 )
     
 source_group
@@ -2310,19 +2286,17 @@ source_group
 .
 add_argument
 (
-        
 "
 -
 -
 file
 "
-        
 nargs
 =
 "
 ?
 "
-        
+                              
 const
 =
 "
@@ -2330,7 +2304,7 @@ log_list
 .
 json
 "
-        
+                              
 help
 =
 "
@@ -2344,7 +2318,7 @@ data
 from
 the
 "
-        
+                              
 "
 specified
 local
@@ -2360,19 +2334,18 @@ default
 )
 .
 "
-    
 )
     
 source_group
 .
 add_argument
 (
-        
 "
 -
 -
 url
 "
+                              
 help
 =
 "
@@ -2384,6 +2357,7 @@ logs
 JSON
 file
 "
+                              
 "
 from
 the
@@ -2391,20 +2365,18 @@ specified
 URL
 .
 "
-    
 )
     
 arg_parser
 .
 add_argument
 (
-        
 "
 -
 -
 out
 "
-        
+                            
 default
 =
 "
@@ -2420,7 +2392,7 @@ CTKnownLogs
 .
 h
 "
-        
+                            
 help
 =
 "
@@ -2432,7 +2404,7 @@ the
 header
 file
 "
-        
+                            
 "
 to
 be
@@ -2446,7 +2418,6 @@ default
 )
 s
 "
-    
 )
     
 run

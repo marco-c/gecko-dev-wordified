@@ -177,15 +177,15 @@ cmd
 +
 =
 [
-"
+'
 -
 d
-"
+'
 def_file
-"
+'
 -
 l
-"
+'
 tmp_output
 ]
         
@@ -200,9 +200,9 @@ with
 open
 (
 tmp_output
-"
+'
 rb
-"
+'
 )
 as
 tmplib

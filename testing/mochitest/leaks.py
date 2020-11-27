@@ -282,9 +282,9 @@ action
 =
 message
 [
-"
+'
 action
-"
+'
 ]
         
 #
@@ -306,12 +306,12 @@ if
 action
 in
 (
-"
+'
 log
-"
-"
+'
+'
 process_output
-"
+'
 )
 :
             
@@ -319,23 +319,23 @@ line
 =
 message
 [
-"
+'
 message
-"
+'
 ]
 if
 action
 =
 =
-"
+'
 log
-"
+'
 else
 message
 [
-"
+'
 data
-"
+'
 ]
             
 m
@@ -449,18 +449,18 @@ elif
 action
 =
 =
-"
+'
 test_start
-"
+'
 :
             
 fileName
 =
 message
 [
-"
+'
 test
-"
+'
 ]
 .
 replace
@@ -480,7 +480,6 @@ browser
 "
 "
 "
-            
 )
             
 self
@@ -494,7 +493,6 @@ fileName
 "
 :
 fileName
-                
 "
 windows
 "
@@ -502,7 +500,6 @@ windows
 set
 (
 )
-                
 "
 docShells
 "
@@ -510,16 +507,15 @@ docShells
 set
 (
 )
-            
 }
         
 elif
 action
 =
 =
-"
+'
 test_end
-"
+'
 :
             
 #
@@ -542,7 +538,6 @@ self
 currentTest
 and
 (
-                
 self
 .
 currentTest
@@ -560,7 +555,6 @@ currentTest
 docShells
 "
 ]
-            
 )
 :
                 
@@ -625,7 +619,6 @@ of
 test
 suite
 "
-            
 )
             
 failures
@@ -634,15 +627,12 @@ failures
 1
         
 if
-(
-            
 self
 .
 numDocShellCreatedLogsSeen
 =
 =
 0
-            
 or
 self
 .
@@ -650,8 +640,6 @@ numDocShellDestroyedLogsSeen
 =
 =
 0
-        
-)
 :
             
 self
@@ -660,7 +648,6 @@ logger
 .
 error
 (
-                
 "
 TEST
 -
@@ -676,7 +663,7 @@ log
 strings
 .
 "
-                
+                              
 "
 this
 occurs
@@ -688,7 +675,7 @@ gets
 disabled
 by
 "
-                
+                              
 "
 something
 .
@@ -701,8 +688,8 @@ d
 destroyed
 seen
 "
-                
 %
+                              
 (
 self
 .
@@ -711,7 +698,6 @@ self
 .
 numDocShellDestroyedLogsSeen
 )
-            
 )
             
 failures
@@ -728,7 +714,7 @@ logger
 .
 info
 (
-                
+                    
 "
 TEST
 -
@@ -747,13 +733,13 @@ d
 destroyed
 log
 "
-                
+                    
 "
 strings
 .
 "
-                
 %
+                    
 (
 self
 .
@@ -762,19 +748,15 @@ self
 .
 numDocShellDestroyedLogsSeen
 )
-            
 )
         
 if
-(
-            
 self
 .
 numDomWindowCreatedLogsSeen
 =
 =
 0
-            
 or
 self
 .
@@ -782,8 +764,6 @@ numDomWindowDestroyedLogsSeen
 =
 =
 0
-        
-)
 :
             
 self
@@ -792,7 +772,6 @@ logger
 .
 error
 (
-                
 "
 TEST
 -
@@ -808,7 +787,7 @@ log
 strings
 .
 "
-                
+                              
 "
 this
 occurs
@@ -820,7 +799,7 @@ gets
 disabled
 by
 "
-                
+                              
 "
 something
 %
@@ -832,17 +811,17 @@ d
 destroyed
 seen
 "
-                
 %
+                              
 (
 self
 .
 numDomWindowCreatedLogsSeen
+                               
 self
 .
 numDomWindowDestroyedLogsSeen
 )
-            
 )
             
 failures
@@ -859,7 +838,7 @@ logger
 .
 info
 (
-                
+                    
 "
 TEST
 -
@@ -878,13 +857,13 @@ d
 destroyed
 log
 "
-                
+                    
 "
 strings
 .
 "
-                
 %
+                    
 (
 self
 .
@@ -893,7 +872,6 @@ self
 .
 numDomWindowDestroyedLogsSeen
 )
-            
 )
         
 for
@@ -970,7 +948,6 @@ fileName
 count
 url
 )
-                
 )
                 
 failures
@@ -993,7 +970,6 @@ logger
 .
 info
 (
-                    
 "
 TEST
 -
@@ -1011,8 +987,8 @@ leaked
 %
 s
 "
-                    
 %
+                                 
 (
 test
 [
@@ -1027,7 +1003,6 @@ leakedWindowsString
 "
 ]
 )
-                
 )
             
 if
@@ -1045,7 +1020,6 @@ logger
 .
 error
 (
-                    
 "
 TEST
 -
@@ -1065,11 +1039,12 @@ s
 )
 until
 "
-                    
+                                  
 "
 shutdown
 "
 %
+                                  
 (
 test
 [
@@ -1087,7 +1062,6 @@ leakedDocShells
 ]
 )
 )
-                
 )
                 
 failures
@@ -1101,7 +1075,6 @@ logger
 .
 info
 (
-                    
 "
 TEST
 -
@@ -1119,25 +1092,21 @@ leaked
 %
 s
 "
-                    
 %
+                                 
 (
-                        
 test
 [
 "
 fileName
 "
 ]
-                        
-"
-"
+'
+'
 .
 join
 (
-                            
 [
-                                
 "
 [
 pid
@@ -1153,8 +1122,8 @@ s
 ]
 "
 %
+                                                               
 x
-                                
 for
 x
 in
@@ -1164,13 +1133,10 @@ test
 leakedDocShells
 "
 ]
-                            
 ]
-                        
+                                                              
 )
-                    
 )
-                
 )
             
 if
@@ -1266,7 +1232,6 @@ hiddenWindowsCount
 /
 2
 )
-                
 )
             
 if
@@ -1322,7 +1287,6 @@ hiddenDocShellsCount
 "
 ]
 )
-                
 )
         
 return
@@ -1423,10 +1387,8 @@ line
 s
 >
 "
-                
 %
 line
-            
 )
             
 return
@@ -1626,10 +1588,8 @@ line
 s
 >
 "
-                
 %
 line
-            
 )
             
 return
@@ -1806,6 +1766,7 @@ tests
 leakedWindows
 =
 [
+                
 id
 for
 id
@@ -1838,6 +1799,7 @@ leakedWindows
 [
 id
 ]
+                                     
 for
 id
 in
@@ -1862,8 +1824,8 @@ leakedWindowsString
 "
 ]
 =
-"
-"
+'
+'
 .
 join
 (
@@ -1890,7 +1852,6 @@ x
 in
 leakedWindows
 ]
-            
 )
             
 test
@@ -1918,7 +1879,6 @@ in
 self
 .
 leakedDocShells
-            
 ]
             
 test
@@ -1941,6 +1901,7 @@ leakCount
 =
 len
 (
+                
 test
 [
 "
@@ -1951,26 +1912,21 @@ leakedWindows
 +
 len
 (
-                
 test
 [
 "
 leakedDocShells
 "
 ]
-            
 )
             
 if
-(
-                
 test
 [
 "
 leakCount
 "
 ]
-                
 or
 test
 [
@@ -1978,7 +1934,6 @@ test
 hiddenWindowsCount
 "
 ]
-                
 or
 test
 [
@@ -1986,8 +1941,6 @@ test
 hiddenDocShellsCount
 "
 ]
-            
-)
 :
                 
 leakingTests
@@ -2093,7 +2046,6 @@ url
         
 return
 (
-            
 url
 =
 =
@@ -2110,8 +2062,12 @@ hiddenWindow
 .
 html
 "
-            
 or
+#
+Win
+/
+Linux
+                
 url
 =
 =
@@ -2128,11 +2084,6 @@ hiddenWindowMac
 .
 xhtml
 "
-#
-Win
-/
-Linux
-        
 )
 #
 Mac
@@ -2265,15 +2216,12 @@ unescapedSkipList
 "
 malloc
 "
-            
 "
 js_malloc
 "
-            
 "
 js_arena_malloc
 "
-            
 "
 malloc_
 "
@@ -2281,7 +2229,6 @@ malloc_
 "
 __interceptor_malloc
 "
-            
 "
 moz_xmalloc
 "
@@ -2289,15 +2236,12 @@ moz_xmalloc
 "
 calloc
 "
-            
 "
 js_calloc
 "
-            
 "
 js_arena_calloc
 "
-            
 "
 calloc_
 "
@@ -2305,7 +2249,6 @@ calloc_
 "
 __interceptor_calloc
 "
-            
 "
 moz_xcalloc
 "
@@ -2313,15 +2256,12 @@ moz_xcalloc
 "
 realloc
 "
-            
 "
 js_realloc
 "
-            
 "
 js_arena_realloc
 "
-            
 "
 realloc_
 "
@@ -2329,7 +2269,6 @@ realloc_
 "
 __interceptor_realloc
 "
-            
 "
 moz_xrealloc
 "
@@ -2382,7 +2321,6 @@ unescapedSkipList
 +
 "
 "
-        
 )
         
 self
@@ -2410,7 +2348,6 @@ detected
 memory
 leaks
 "
-        
 )
         
 self
@@ -2438,7 +2375,6 @@ fatal
 error
 .
 "
-        
 )
         
 self
@@ -2461,7 +2397,6 @@ Cannot
 allocate
 memory
 "
-        
 )
         
 self
@@ -2545,7 +2480,6 @@ f
 \
 )
 "
-        
 )
     
 def
@@ -2878,7 +2812,6 @@ logger
 .
 error
 (
-                
 "
 TEST
 -
@@ -2890,7 +2823,7 @@ LeakSanitizer
 |
 LeakSanitizer
 "
-                
+                              
 "
 has
 encountered
@@ -2899,7 +2832,6 @@ fatal
 error
 .
 "
-            
 )
             
 failures
@@ -2919,7 +2851,6 @@ logger
 .
 error
 (
-                
 "
 TEST
 -
@@ -2931,7 +2862,7 @@ LeakSanitizer
 |
 LLVMSymbolizer
 "
-                
+                              
 "
 was
 unable
@@ -2940,7 +2871,6 @@ allocate
 memory
 .
 "
-            
 )
             
 failures
@@ -2954,7 +2884,6 @@ logger
 .
 info
 (
-                
 "
 TEST
 -
@@ -2968,7 +2897,7 @@ cause
 leaks
 that
 "
-                
+                             
 "
 should
 be
@@ -2981,7 +2910,6 @@ as
 an
 error
 "
-            
 )
         
 if
@@ -2996,7 +2924,6 @@ logger
 .
 info
 (
-                
 "
 TEST
 -
@@ -3008,7 +2935,7 @@ To
 show
 the
 "
-                
+                             
 "
 addresses
 of
@@ -3021,7 +2948,6 @@ report_objects
 to
 LSAN_OPTIONS
 "
-            
 )
             
 self
@@ -3030,7 +2956,6 @@ logger
 .
 info
 (
-                
 "
 TEST
 -
@@ -3043,7 +2968,7 @@ can
 be
 done
 "
-                
+                             
 "
 in
 testing
@@ -3058,7 +2983,6 @@ utils
 .
 py
 "
-            
 )
         
 for
@@ -3075,6 +2999,7 @@ logger
 .
 error
 (
+                
 "
 TEST
 -

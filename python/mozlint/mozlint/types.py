@@ -227,9 +227,9 @@ log
 =
 lintargs
 [
-"
+'
 log
-"
+'
 ]
         
 if
@@ -237,9 +237,9 @@ lintargs
 .
 get
 (
-"
+'
 use_filters
-"
+'
 True
 )
 :
@@ -252,27 +252,27 @@ filterpaths
                 
 lintargs
 [
-"
+'
 root
-"
+'
 ]
                 
 paths
                 
 config
 [
-"
+'
 include
-"
+'
 ]
                 
 config
 .
 get
 (
-"
+'
 exclude
-"
+'
 [
 ]
 )
@@ -281,9 +281,9 @@ config
 .
 get
 (
-"
+'
 extensions
-"
+'
 [
 ]
 )
@@ -292,9 +292,9 @@ extensions
             
 config
 [
-"
+'
 exclude
-"
+'
 ]
 =
 exclude
@@ -304,18 +304,18 @@ config
 .
 get
 (
-"
+'
 exclude
-"
+'
 )
 :
             
 del
 config
 [
-"
+'
 exclude
-"
+'
 ]
         
 if
@@ -331,7 +331,6 @@ log
 .
 debug
 (
-            
 "
 Passing
 the
@@ -347,7 +346,7 @@ paths
 .
 format
 (
-                
+            
 paths
 =
 "
@@ -359,9 +358,8 @@ join
 (
 paths
 )
-            
-)
         
+)
 )
         
 if
@@ -529,19 +527,19 @@ config
 .
 get
 (
-"
+'
 extensions
-"
+'
 )
 :
             
 patterns
 =
 [
-"
+'
 *
 *
-"
+'
 ]
         
 else
@@ -550,7 +548,7 @@ else
 patterns
 =
 [
-"
+'
 *
 *
 /
@@ -558,7 +556,7 @@ patterns
 .
 {
 }
-"
+'
 .
 format
 (
@@ -569,9 +567,9 @@ e
 in
 config
 [
-"
+'
 extensions
-"
+'
 ]
 ]
         
@@ -594,9 +592,9 @@ config
 .
 get
 (
-"
+'
 exclude
-"
+'
 [
 ]
 )
@@ -701,23 +699,23 @@ payload
 =
 config
 [
-"
+'
 payload
-"
+'
 ]
         
 with
 open
 (
 path
-"
+'
 r
-"
+'
 errors
 =
-"
+'
 replace
-"
+'
 )
 as
 fh
@@ -954,9 +952,9 @@ findobject
 (
 config
 [
-"
+'
 payload
-"
+'
 ]
 )
         
@@ -1069,9 +1067,9 @@ files
 config
 lintargs
 [
-"
+'
 root
-"
+'
 ]
 )
 )
@@ -1090,9 +1088,9 @@ findobject
 (
 config
 [
-"
+'
 payload
-"
+'
 ]
 )
         
@@ -1295,41 +1293,41 @@ supported_types
 =
 {
     
-"
+'
 string
-"
+'
 :
 StringType
 (
 )
     
-"
+'
 regex
-"
+'
 :
 RegexType
 (
 )
     
-"
+'
 external
-"
+'
 :
 ExternalType
 (
 )
     
-"
+'
 global
-"
+'
 :
 GlobalType
 (
 )
     
-"
+'
 structured_log
-"
+'
 :
 StructuredLogType
 (

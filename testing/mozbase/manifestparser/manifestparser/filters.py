@@ -145,9 +145,9 @@ log
 msg
 level
 =
-"
+'
 info
-"
+'
 )
 :
     
@@ -170,9 +170,9 @@ get_default_logger
 (
 component
 =
-"
+'
 manifestparser
-"
+'
 )
     
 if
@@ -236,11 +236,11 @@ default
     
 tag
 =
-"
+'
 skip
 -
 if
-"
+'
     
 for
 test
@@ -269,16 +269,16 @@ test
 .
 setdefault
 (
-"
+'
 disabled
-"
-"
+'
+'
 {
 }
 :
 {
 }
-"
+'
 .
 format
 (
@@ -336,11 +336,11 @@ default
     
 tag
 =
-"
+'
 run
 -
 if
-"
+'
     
 for
 test
@@ -370,16 +370,16 @@ test
 .
 setdefault
 (
-"
+'
 disabled
-"
-"
+'
+'
 {
 }
 :
 {
 }
-"
+'
 .
 format
 (
@@ -441,11 +441,11 @@ default
     
 tag
 =
-"
+'
 fail
 -
 if
-"
+'
     
 for
 test
@@ -472,14 +472,14 @@ values
             
 test
 [
-"
+'
 expected
-"
+'
 ]
 =
-"
+'
 fail
-"
+'
         
 yield
 test
@@ -529,9 +529,9 @@ tests
 :
         
 if
-"
+'
 disabled
-"
+'
 not
 in
 test
@@ -603,9 +603,9 @@ exists
 (
 test
 [
-"
+'
 path
-"
+'
 ]
 )
 :
@@ -718,17 +718,16 @@ self
 .
 fmt_args
 =
-"
-"
+'
+'
 .
 join
 (
-            
 itertools
 .
 chain
 (
-                
+            
 [
 str
 (
@@ -739,15 +738,15 @@ a
 in
 args
 ]
-                
+            
 [
-"
+'
 {
 }
 =
 {
 }
-"
+'
 .
 format
 (
@@ -765,9 +764,7 @@ iteritems
 kwargs
 )
 ]
-            
 )
-        
 )
     
 def
@@ -1029,16 +1026,16 @@ test
 .
 get
 (
-"
+'
 subsuite
-"
-"
-"
+'
+'
+'
 )
             
 if
-"
-"
+'
+'
 in
 subsuite
 :
@@ -1053,8 +1050,8 @@ subsuite
 .
 split
 (
-"
-"
+'
+'
 )
                 
 except
@@ -1091,9 +1088,9 @@ matched
                     
 test
 [
-"
+'
 subsuite
-"
+'
 ]
 =
 subsuite
@@ -1103,13 +1100,13 @@ else
                     
 test
 [
-"
+'
 subsuite
-"
+'
 ]
 =
-"
-"
+'
+'
             
 #
 Filter
@@ -1131,9 +1128,9 @@ test
 .
 get
 (
-"
+'
 subsuite
-"
+'
 )
 :
                     
@@ -1148,11 +1145,11 @@ test
 .
 get
 (
-"
+'
 subsuite
-"
-"
-"
+'
+'
+'
 )
 =
 =
@@ -1289,6 +1286,7 @@ __init__
 self
 this_chunk
 total_chunks
+                                
 disabled
 =
 disabled
@@ -1353,9 +1351,9 @@ t
 in
 tests
 if
-"
+'
 disabled
-"
+'
 not
 in
 t
@@ -1764,9 +1762,9 @@ path
 =
 test
 [
-"
+'
 relpath
-"
+'
 ]
             
 if
@@ -1861,9 +1859,9 @@ not
 in
 ordered_dirs
 and
-"
+'
 disabled
-"
+'
 not
 in
 test
@@ -2004,7 +2002,6 @@ this_chunk
 disabled_dirs
 =
 [
-                
 v
 for
 k
@@ -2016,12 +2013,12 @@ iteritems
 (
 tests_by_dir
 )
+                             
 if
 k
 not
 in
 ordered_dirs
-            
 ]
             
 for
@@ -2160,9 +2157,9 @@ set
 (
 t
 [
-"
+'
 manifest
-"
+'
 ]
 for
 t
@@ -2192,9 +2189,9 @@ tests
 if
 t
 [
-"
+'
 manifest
-"
+'
 ]
 =
 =
@@ -2258,9 +2255,9 @@ x
 0
 ]
 [
-"
+'
 manifest
-"
+'
 ]
 )
 )
@@ -2313,7 +2310,6 @@ tests_by_chunk
 .
 sort
 (
-                
 key
 =
 lambda
@@ -2329,9 +2325,9 @@ x
 0
 ]
 [
-"
+'
 manifest
-"
+'
 ]
 if
 len
@@ -2342,7 +2338,6 @@ else
 "
 "
 )
-            
 )
             
 tests_by_chunk
@@ -2540,11 +2535,11 @@ test
 .
 get
 (
-"
+'
 ancestor_manifest
-"
-"
-"
+'
+'
+'
 )
 )
         
@@ -2607,9 +2602,9 @@ if
 not
 manifest
 or
-"
+'
 /
-"
+'
 not
 in
 manifest
@@ -2621,9 +2616,9 @@ normsep
 (
 test
 [
-"
+'
 manifest_relpath
-"
+'
 ]
 )
         
@@ -2744,7 +2739,6 @@ runtimes
         
 log
 (
-            
 "
 Applying
 average
@@ -2767,23 +2761,21 @@ n
 .
 format
 (
-                
+            
 avg
-"
-"
+'
+'
 +
-"
+'
 \
 n
-"
+'
 .
 join
 (
 missing
 )
-            
 )
-        
 )
         
 runtimes
@@ -3039,7 +3031,6 @@ this_chunk
         
 log
 (
-            
 "
 Cumulative
 test
@@ -3060,14 +3051,13 @@ minutes
 .
 format
 (
-                
+            
 round
 (
 runtime
 /
 60
 )
-                
 round
 (
 sum
@@ -3093,9 +3083,7 @@ chunks
 )
 )
 )
-            
 )
-        
 )
         
 return
@@ -3293,9 +3281,9 @@ tests
 :
             
 if
-"
+'
 tags
-"
+'
 not
 in
 test
@@ -3316,9 +3304,9 @@ t
 in
 test
 [
-"
+'
 tags
-"
+'
 ]
 .
 split
@@ -3480,10 +3468,10 @@ tp
 .
 endswith
 (
-"
+'
 .
 ini
-"
+'
 )
 :
                     
@@ -3492,16 +3480,16 @@ mpaths
 [
 test
 [
-"
+'
 manifest_relpath
-"
+'
 ]
 ]
                     
 if
-"
+'
 ancestor_manifest
-"
+'
 in
 test
 :
@@ -3512,9 +3500,9 @@ append
 (
 test
 [
-"
+'
 ancestor_manifest
-"
+'
 ]
 )
                     
@@ -3533,9 +3521,9 @@ root
 =
 test
 [
-"
+'
 manifest
-"
+'
 ]
 [
 :
@@ -3544,9 +3532,9 @@ len
 (
 test
 [
-"
+'
 manifest_relpath
-"
+'
 ]
 )
 -
@@ -3622,9 +3610,9 @@ path
 =
 test
 [
-"
+'
 relpath
-"
+'
 ]
                     
 if
@@ -3642,9 +3630,9 @@ path
 =
 test
 [
-"
+'
 path
-"
+'
 ]
                     
 if
@@ -3692,9 +3680,9 @@ s
 disabled
                 
 if
-"
+'
 disabled
-"
+'
 in
 test
 and
@@ -3706,9 +3694,9 @@ normpath
 (
 test
 [
-"
+'
 relpath
-"
+'
 ]
 )
 =
@@ -3719,9 +3707,9 @@ tp
 del
 test
 [
-"
+'
 disabled
-"
+'
 ]
                 
 seen

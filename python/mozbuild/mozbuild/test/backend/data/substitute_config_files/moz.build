@@ -52,7 +52,7 @@ zero
 CONFIGURE_SUBST_FILES
 =
 [
-"
+'
 foo
-"
+'
 ]

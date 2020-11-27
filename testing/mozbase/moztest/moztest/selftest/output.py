@@ -129,12 +129,12 @@ join
 build
 .
 topsrcdir
-"
+'
 testing
-"
-"
+'
+'
 mozharness
-"
+'
 )
 )
 from
@@ -214,9 +214,9 @@ StructuredOutputParser
 config
 =
 {
-"
+'
 log_level
-"
+'
 :
 INFO
 }
@@ -296,9 +296,9 @@ open
 os
 .
 devnull
-"
+'
 w
-"
+'
 )
     
 orig
@@ -374,9 +374,9 @@ x
 :
 x
 [
-"
+'
 action
-"
+'
 ]
 in
 actions

@@ -74,6 +74,8 @@ import
 ProxyLogger
 class
 RaptorLogger
+(
+)
 :
     
 app
@@ -245,7 +247,6 @@ logger
 .
 warning
 (
-            
 "
 Warning
 :
@@ -265,7 +266,6 @@ message
 *
 *
 kwargs
-        
 )
     
 def
@@ -286,7 +286,6 @@ logger
 .
 error
 (
-            
 "
 Error
 :
@@ -306,7 +305,6 @@ message
 *
 *
 kwargs
-        
 )
     
 def
@@ -327,7 +325,6 @@ logger
 .
 critical
 (
-            
 "
 Critical
 :
@@ -347,7 +344,6 @@ message
 *
 *
 kwargs
-        
 )
     
 def

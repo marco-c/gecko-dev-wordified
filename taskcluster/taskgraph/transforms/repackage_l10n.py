@@ -111,11 +111,11 @@ dep_job
 =
 job
 [
-"
+'
 primary
 -
 dependency
-"
+'
 ]
         
 for
@@ -127,9 +127,9 @@ attributes
 .
 get
 (
-"
+'
 chunk_locales
-"
+'
 [
 ]
 )
@@ -158,21 +158,21 @@ locale_job
 .
 setdefault
 (
-"
+'
 treeherder
-"
+'
 {
 }
 )
             
 treeherder
 [
-"
+'
 symbol
-"
+'
 ]
 =
-"
+'
 L10n
 -
 Rpk
@@ -180,7 +180,7 @@ Rpk
 {
 }
 )
-"
+'
 .
 format
 (
@@ -189,9 +189,9 @@ locale
             
 locale_job
 [
-"
+'
 locale
-"
+'
 ]
 =
 locale

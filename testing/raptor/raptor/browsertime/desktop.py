@@ -191,15 +191,12 @@ app
 ]
 in
 (
-            
 "
 chrome
 "
-            
 "
 chromium
 "
-        
 )
 :
             
@@ -246,13 +243,11 @@ return
 args_list
 +
 [
-            
 "
 -
 -
 browser
 "
-            
 self
 .
 config
@@ -261,7 +256,6 @@ config
 app
 "
 ]
-            
 "
 -
 -
@@ -269,9 +263,7 @@ firefox
 .
 binaryPath
 "
-            
 binary_path
-        
 ]
     
 def

@@ -152,9 +152,9 @@ str
 (
 exc
 )
-"
+'
 None
-"
+'
 )
         
 self
@@ -198,7 +198,6 @@ cause
 stacktrace
 =
 stacktrace
-        
 )
         
 self
@@ -254,7 +253,6 @@ cause
 stacktrace
 =
 stacktrace
-        
 )
         
 r
@@ -339,7 +337,6 @@ cause
 stacktrace
 =
 stacktrace
-        
 )
         
 r
@@ -426,7 +423,6 @@ cause
 stacktrace
 =
 stacktrace
-        
 )
         
 r
@@ -651,7 +647,6 @@ self
 .
 assertEqual
 (
-            
 errors
 .
 NoSuchElementException
@@ -665,7 +660,6 @@ such
 element
 "
 )
-        
 )
     
 def
@@ -703,7 +697,6 @@ self
 .
 assertEqual
 (
-            
 errors
 .
 NoSuchElementException
@@ -718,7 +711,6 @@ such
 element
 "
 )
-        
 )
 class
 TestAllErrors
@@ -748,7 +740,6 @@ self
 .
 assertTrue
 (
-                
 hasattr
 (
 exc
@@ -756,6 +747,7 @@ exc
 status
 "
 )
+                            
 "
 expected
 exception
@@ -765,5 +757,4 @@ attribute
 status
 '
 "
-            
 )

@@ -29,7 +29,7 @@ tp5n
 files
         
 r
-"
+'
 {
 talos
 }
@@ -59,10 +59,11 @@ eng
 style
 \
 css_images
-"
+'
 :
+            
 r
-"
+'
 {
 talos
 }
@@ -74,14 +75,10 @@ tests
 {
 tp5n_files
 }
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 {
 talos
 }
@@ -113,10 +110,11 @@ i
 tron
 \
 fd
-"
+'
 :
+            
 r
-"
+'
 {
 talos
 }
@@ -128,14 +126,10 @@ tests
 {
 tp5n_files
 }
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 {
 talos
 }
@@ -149,10 +143,11 @@ tp5n
 tp5n
 .
 manifest
-"
+'
 :
+            
 r
-"
+'
 {
 talos
 }
@@ -164,10 +159,10 @@ tests
 {
 tp5n_files
 }
-"
+'
         
 r
-"
+'
 {
 talos
 }
@@ -183,10 +178,11 @@ tp5n
 manifest
 .
 develop
-"
+'
 :
+            
 r
-"
+'
 {
 talos
 }
@@ -198,10 +194,10 @@ tests
 {
 tp5n_files
 }
-"
+'
         
 r
-"
+'
 {
 talos
 }
@@ -225,10 +221,11 @@ yelpcdn
 com
 \
 photo
-"
+'
 :
+            
 r
-"
+'
 {
 talos
 }
@@ -240,11 +237,7 @@ tests
 {
 tp5n_files
 }
-"
-#
-NOQA
-:
-E501
+'
         
 #
 cltbld
@@ -254,7 +247,7 @@ Windows
 32bit
         
 r
-"
+'
 c
 :
 \
@@ -277,10 +270,11 @@ appdata
 locallow
 \
 mozilla
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -295,14 +289,10 @@ appdata
 locallow
 \
 mozilla
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -325,10 +315,11 @@ appdata
 locallow
 \
 mozilla
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -343,14 +334,10 @@ appdata
 locallow
 \
 mozilla
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -373,10 +360,11 @@ appdata
 locallow
 \
 mozilla
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -391,14 +379,10 @@ appdata
 locallow
 \
 mozilla
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -421,10 +405,11 @@ appdata
 local
 \
 temp
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -439,11 +424,7 @@ appdata
 local
 \
 temp
-"
-#
-NOQA
-:
-E501
+'
         
 #
 nvidia
@@ -453,7 +434,7 @@ s
 Vision
         
 r
-"
+'
 c
 :
 \
@@ -469,10 +450,11 @@ vision
 npnv3dv
 .
 dll
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -482,14 +464,10 @@ files
 {
 nvidia_3d_vision
 }
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -505,10 +483,11 @@ vision
 npnv3dvstreaming
 .
 dll
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -518,14 +497,10 @@ files
 {
 nvidia_3d_vision
 }
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -541,10 +516,11 @@ vision
 nvstereoapii
 .
 dll
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -554,14 +530,10 @@ files
 {
 nvidia_3d_vision
 }
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 {
 firefox
 }
@@ -583,10 +555,11 @@ a6ad
 }
 .
 xpi
-"
+'
 :
+            
 r
-"
+'
 {
 firefox
 }
@@ -600,14 +573,10 @@ uuid
 }
 .
 xpi
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -632,10 +601,11 @@ _vendor
 html5lib
 \
 treebuilders
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -656,14 +626,10 @@ packages
 {
 pip_vendor
 }
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -686,10 +652,11 @@ pip
 _vendor
 \
 colorama
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -710,14 +677,10 @@ packages
 {
 pip_vendor
 }
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -742,10 +705,11 @@ _vendor
 cachecontrol
 \
 caches
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -766,14 +730,10 @@ packages
 {
 pip_vendor
 }
-"
-#
-NOQA
-:
-E501
+'
         
 r
-"
+'
 c
 :
 \
@@ -800,14 +760,19 @@ requests
 packages
 \
 urllib3
+'
+        
+r
+'
 \
 packages
 \
 ssl_match_hostname
-"
+'
 :
+            
 r
-"
+'
 c
 :
 \
@@ -828,11 +793,7 @@ packages
 {
 pip_vendor
 }
-"
-#
-NOQA
-:
-E501
+'
     
 }
     
@@ -878,9 +839,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

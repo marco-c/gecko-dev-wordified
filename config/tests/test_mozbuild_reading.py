@@ -149,9 +149,9 @@ environ
 .
 pop
 (
-"
+'
 MOZCONFIG
-"
+'
 None
 )
         
@@ -161,9 +161,9 @@ environ
 .
 pop
 (
-"
+'
 MOZ_OBJDIR
-"
+'
 None
 )
     
@@ -206,9 +206,9 @@ not
 hasattr
 (
 self
-"
+'
 _mozbuild_paths
-"
+'
 )
 :
             
@@ -234,12 +234,12 @@ unittest
 .
 skip
 (
-"
+'
 failing
 in
 SpiderMonkey
 builds
-"
+'
 )
     
 def
@@ -467,14 +467,14 @@ path
 join
 (
 here
-"
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
+'
 )
 )
         
@@ -553,9 +553,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
 :
             
 raise
@@ -563,12 +563,12 @@ unittest
 .
 SkipTest
 (
-"
+'
 failing
 on
 windows
 builds
-"
+'
 )
         
 mb
@@ -604,7 +604,7 @@ e
 )
 =
 =
-"
+'
 config
 .
 status
@@ -614,7 +614,7 @@ available
 Run
 configure
 .
-"
+'
 :
                 
 raise
@@ -622,13 +622,13 @@ unittest
 .
 SkipTest
 (
-"
+'
 failing
 without
 config
 .
 status
-"
+'
 )
             
 raise
@@ -638,15 +638,15 @@ config
 .
 substs
 [
-"
+'
 MOZ_BUILD_APP
-"
+'
 ]
 =
 =
-"
+'
 js
-"
+'
 :
             
 raise
@@ -654,12 +654,12 @@ unittest
 .
 SkipTest
 (
-"
+'
 failing
 in
 Spidermonkey
 builds
-"
+'
 )
         
 reader
@@ -698,10 +698,10 @@ topsrcdir
 ignore
 =
 [
-"
+'
 obj
 *
-"
+'
 ]
 )
         
@@ -781,7 +781,6 @@ self
 .
 fail
 (
-                        
 "
 The
 pattern
@@ -797,7 +796,7 @@ Files
 entry
 in
 "
-                        
+                              
 "
 '
 %
@@ -814,7 +813,7 @@ tree
 \
 n
 "
-                        
+                              
 "
 Please
 update
@@ -823,21 +822,21 @@ entry
 .
 "
 %
+                              
 (
 p
 ctx
 .
 main_path
 )
-                    
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

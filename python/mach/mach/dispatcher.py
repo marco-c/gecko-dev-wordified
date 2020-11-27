@@ -94,6 +94,8 @@ SettingsProvider
 SettingsProvider
 class
 DispatchSettings
+(
+)
 :
     
 config_settings
@@ -101,17 +103,14 @@ config_settings
 [
         
 (
-            
-"
+'
 alias
 .
 *
-"
-            
-"
+'
+'
 string
-"
-            
+'
 "
 "
 "
@@ -160,7 +159,6 @@ args
 strip
 (
 )
-        
 )
     
 ]
@@ -474,29 +472,22 @@ __call__
 def
 __init__
 (
-        
 self
-        
 option_strings
-        
 dest
-        
 required
 =
 True
-        
 default
 =
 None
-        
+                 
 registrar
 =
 None
-        
 context
 =
 None
-    
 )
 :
         
@@ -570,29 +561,23 @@ Action
 .
 __init__
 (
-            
 self
-            
 option_strings
-            
 dest
-            
 required
 =
 required
-            
+                                 
 help
 =
 argparse
 .
 SUPPRESS
-            
 nargs
 =
 argparse
 .
 REMAINDER
-        
 )
         
 self
@@ -840,9 +825,9 @@ if
 command
 =
 =
-"
+'
 help
-"
+'
 :
                 
 if
@@ -855,15 +840,15 @@ args
 not
 in
 [
-"
+'
 -
 h
-"
-"
+'
+'
 -
 -
 help
-"
+'
 ]
 :
                     
@@ -913,18 +898,18 @@ exit
 )
             
 elif
-"
+'
 -
 h
-"
+'
 in
 args
 or
-"
+'
 -
 -
 help
-"
+'
 in
 args
 :
@@ -944,10 +929,10 @@ arguments
 .
                 
 if
-"
+'
 -
 -
-"
+'
 in
 args
 :
@@ -961,12 +946,10 @@ command
 arguments
                     
 if
-(
-                        
-"
+'
 -
 h
-"
+'
 in
 args
 [
@@ -975,19 +958,18 @@ args
 .
 index
 (
-"
+'
 -
 -
-"
+'
 )
 ]
-                        
 or
-"
+'
 -
 -
 help
-"
+'
 in
 args
 [
@@ -996,14 +978,12 @@ args
 .
 index
 (
-"
+'
 -
 -
-"
+'
 )
 ]
-                    
-)
 :
                         
 #
@@ -1178,7 +1158,7 @@ command
         
 usage
 =
-"
+'
 %
 (
 prog
@@ -1188,16 +1168,18 @@ s
 global
 arguments
 ]
-"
+'
 +
 command
 +
-"
+\
+            
+'
 [
 command
 arguments
 ]
-"
+'
         
 subcommand
 =
@@ -1244,14 +1226,14 @@ args
 intersection
 (
 (
-"
+'
 help
-"
-"
+'
+'
 -
 -
 help
-"
+'
 )
 )
 :
@@ -1315,16 +1297,14 @@ prog
 =
 prog
 +
-"
-"
+'
+'
 +
 subcommand
                 
 usage
 =
-(
-                    
-"
+'
 %
 (
 prog
@@ -1334,27 +1314,23 @@ s
 global
 arguments
 ]
-"
-                    
+'
 +
 command
-                    
 +
-"
-"
-                    
+'
+'
 +
+\
+                    
 subcommand
-                    
 +
-"
+'
 [
 command
 arguments
 ]
-"
-                
-)
+'
                 
 args
 .
@@ -1409,15 +1385,15 @@ parser_args
 =
 {
             
-"
+'
 add_help
-"
+'
 :
 False
             
-"
+'
 usage
-"
+'
 :
 usage
         
@@ -1455,8 +1431,8 @@ subparser
 .
 prog
 +
-"
-"
+'
+'
 +
 prog
             
@@ -1494,38 +1470,35 @@ arg
 remainder
 =
 (
-                        
-(
 arg
 .
 dest
 )
-                        
 {
-"
+'
 default
-"
+'
 :
 arg
 .
 default
-"
+                                              
+'
 nargs
-"
+'
 :
 arg
 .
 nargs
-"
+                                              
+'
 help
-"
+'
 :
 arg
 .
 help
 }
-                    
-)
         
 else
 :
@@ -1572,9 +1545,9 @@ arg
 .
 get
 (
-"
+'
 group
-"
+'
 )
             
 if
@@ -1587,9 +1560,9 @@ arg
 1
 ]
 [
-"
+'
 group
-"
+'
 ]
             
 if
@@ -1600,9 +1573,9 @@ arg
 .
 get
 (
-"
+'
 nargs
-"
+'
 )
 =
 =
@@ -1678,18 +1651,18 @@ all
 k
 in
 (
-"
+'
 default
-"
-"
+'
+'
 nargs
-"
-"
+'
+'
 help
-"
-"
+'
+'
 metavar
-"
+'
 )
 for
 k
@@ -1753,27 +1726,27 @@ command
 setattr
 (
 namespace
-"
+'
 mach_handler
-"
+'
 handler
 )
         
 setattr
 (
 namespace
-"
+'
 command
-"
+'
 command
 )
         
 setattr
 (
 namespace
-"
+'
 subcommand
-"
+'
 subcommand
 )
         
@@ -1790,9 +1763,9 @@ args
 setattr
 (
 namespace
-"
+'
 command_args
-"
+'
 command_namespace
 )
         
@@ -1880,10 +1853,10 @@ down
 .
             
 if
-"
+'
 -
 -
-"
+'
 in
 extra
 :
@@ -1892,10 +1865,10 @@ extra
 .
 remove
 (
-"
+'
 -
 -
-"
+'
 )
             
 #
@@ -1990,12 +1963,12 @@ arg
 .
 replace
 (
-"
+'
 -
-"
-"
+'
+'
 +
-"
+'
 1
 )
                     
@@ -2036,9 +2009,9 @@ options
 .
 get
 (
-"
+'
 default
-"
+'
 [
 ]
 )
@@ -2054,9 +2027,9 @@ cls
 __name__
 !
 =
-"
+'
 DeprecatedCommands
-"
+'
 :
             
 raise
@@ -2261,14 +2234,13 @@ handler
 .
 create_instance
 (
-                        
 self
 .
 _context
+                                                       
 handler
 .
 virtualenv_name
-                    
 )
                     
 is_filtered
@@ -2310,19 +2282,16 @@ description
 disabled_command
 =
 {
-                            
-"
+'
 command
-"
+'
 :
 command
-                            
-"
+'
 description
-"
+'
 :
 description
-                        
 }
                         
 disabled_commands
@@ -2375,19 +2344,20 @@ command
 help
 =
 description
+                                   
 action
 =
-"
+'
 store_true
-"
+'
 )
         
 if
 disabled_commands
 and
-"
+'
 disabled
-"
+'
 in
 r
 .
@@ -2402,9 +2372,9 @@ r
 .
 categories
 [
-"
+'
 disabled
-"
+'
 ]
             
 group
@@ -2431,27 +2401,26 @@ group
 .
 add_argument
 (
-                        
 c
 [
-"
+'
 command
-"
+'
 ]
 help
 =
 c
 [
-"
+'
 description
-"
+'
 ]
+                                       
 action
 =
-"
+'
 store_true
-"
-                    
+'
 )
         
 parser
@@ -2485,11 +2454,11 @@ argument_group_names
             
 group_full_name
 =
-"
+'
 Command
 Arguments
 for
-"
+'
 +
 group_name
             
@@ -2498,6 +2467,8 @@ extra_groups
 group_name
 ]
 =
+\
+                
 parser
 .
 add_argument_group
@@ -2529,9 +2500,9 @@ arg
 .
 get
 (
-"
+'
 group
-"
+'
 )
             
 if
@@ -2544,9 +2515,9 @@ arg
 1
 ]
 [
-"
+'
 group
-"
+'
 ]
                 
 group
@@ -2720,15 +2691,15 @@ parser_args
 =
 {
             
-"
+'
 formatter_class
-"
+'
 :
 CommandFormatter
             
-"
+'
 add_help
-"
+'
 :
 False
         
@@ -2851,10 +2822,10 @@ _action_groups
 .
 title
 =
-"
+'
 Command
 Parameters
-"
+'
             
 c_parser
 .
@@ -2865,10 +2836,10 @@ _action_groups
 .
 title
 =
-"
+'
 Command
 Arguments
-"
+'
             
 if
 not
@@ -2911,10 +2882,10 @@ c_parser
 .
 add_argument_group
 (
-"
+'
 Command
 Arguments
-"
+'
 )
         
 self
@@ -2961,9 +2932,9 @@ raise
 UnknownCommandError
 (
 command
-"
+'
 query
-"
+'
 )
         
 if
@@ -3056,7 +3027,7 @@ parser
 .
 usage
 =
-"
+'
 %
 (
 prog
@@ -3066,16 +3037,18 @@ s
 global
 arguments
 ]
-"
+'
 +
 command
 +
-"
+\
+            
+'
 [
 command
 arguments
 ]
-"
+'
         
 #
 This
@@ -3116,8 +3089,8 @@ print_help
         
 print
 (
-"
-"
+'
+'
 )
         
 c_parser
@@ -3139,9 +3112,7 @@ parser
 .
 usage
 =
-(
-            
-"
+'
 %
 (
 prog
@@ -3151,23 +3122,21 @@ s
 global
 arguments
 ]
-"
-            
+'
 +
 handler
 .
 name
-            
 +
-"
+\
+            
+'
 subcommand
 [
 subcommand
 arguments
 ]
-"
-        
-)
+'
         
 group
 =
@@ -3175,10 +3144,10 @@ parser
 .
 add_argument_group
 (
-"
+'
 Sub
 Commands
-"
+'
 )
         
 def
@@ -3187,7 +3156,6 @@ by_decl_order
 item
 )
 :
-            
 return
 item
 [
@@ -3202,7 +3170,6 @@ by_name
 item
 )
 :
-            
 return
 item
 [
@@ -3227,9 +3194,9 @@ subhandler
 in
 sorted
 (
-            
+                
 subhandlers
-            
+                
 key
 =
 by_decl_order
@@ -3239,9 +3206,9 @@ handler
 order
 =
 =
-"
+'
 declaration
-"
+'
 else
 by_name
         
@@ -3252,19 +3219,18 @@ group
 .
 add_argument
 (
-                
 subcommand
 help
 =
 subhandler
 .
 description
+                               
 action
 =
-"
+'
 store_true
-"
-            
+'
 )
         
 if
@@ -3309,8 +3275,8 @@ print_help
         
 print
 (
-"
-"
+'
+'
 )
         
 c_parser
@@ -3408,11 +3374,11 @@ c_parser
 .
 add_argument_group
 (
-"
+'
 Sub
 Command
 Arguments
-"
+'
 )
         
 self
@@ -3453,9 +3419,7 @@ parser
 .
 usage
 =
-(
-            
-"
+'
 %
 (
 prog
@@ -3465,29 +3429,25 @@ s
 global
 arguments
 ]
-"
-            
+'
 +
 handler
 .
 name
-            
 +
-"
-"
+\
             
+'
+'
 +
 subcommand
-            
 +
-"
+'
 [
 command
 arguments
 ]
-"
-        
-)
+'
         
 parser
 .
@@ -3497,8 +3457,8 @@ print_help
         
 print
 (
-"
-"
+'
+'
 )
         
 c_parser
@@ -3531,11 +3491,9 @@ commands
 names
 =
 [
-            
 h
 .
 name
-            
 for
 h
 in
@@ -3548,7 +3506,7 @@ command_handlers
 values
 (
 )
-            
+                 
 if
 h
 .
@@ -3557,10 +3515,9 @@ cls
 __name__
 !
 =
-"
+'
 DeprecatedCommands
-"
-        
+'
 ]
         
 #
@@ -3718,9 +3675,9 @@ raise
 UnknownCommandError
 (
 command
-"
+'
 run
-"
+'
 suggested_commands
 )
 class
@@ -3792,8 +3749,8 @@ docstring
 :
         
 return
-"
-"
+'
+'
     
 lines
 =
@@ -3932,10 +3889,10 @@ pop
 )
     
 return
-"
+'
 \
 n
-"
+'
 .
 join
 (

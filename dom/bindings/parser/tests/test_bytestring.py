@@ -24,7 +24,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -49,7 +48,6 @@ ds
 "
 "
 "
-    
 )
     
 results
@@ -59,6 +57,7 @@ parser
 finish
 (
 )
+;
     
 harness
 .
@@ -106,6 +105,7 @@ WebIDL
 .
 IDLInterface
 )
+               
 "
 Should
 be
@@ -125,7 +125,6 @@ harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -145,14 +144,12 @@ the
 right
 QName
 "
-    
 )
     
 harness
 .
 check
 (
-        
 iface
 .
 identifier
@@ -168,7 +165,6 @@ the
 right
 name
 "
-    
 )
     
 harness
@@ -240,7 +236,6 @@ harness
 .
 check
 (
-        
 attr
 .
 identifier
@@ -262,7 +257,6 @@ has
 correct
 QName
 "
-    
 )
     
 harness
@@ -413,7 +407,6 @@ harness
 .
 check
 (
-        
 attr
 .
 identifier
@@ -435,7 +428,6 @@ has
 correct
 QName
 "
-    
 )
     
 harness
@@ -562,7 +554,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -585,7 +576,6 @@ hello
 "
 "
 "
-        
 )
     
 except
@@ -602,7 +592,6 @@ harness
 .
 ok
 (
-        
 threw
 "
 Should
@@ -617,7 +606,6 @@ default
 in
 interface
 "
-    
 )
     
 #
@@ -636,7 +624,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -664,7 +651,6 @@ hello
 "
 "
 "
-        
 )
         
 results2
@@ -674,6 +660,7 @@ parser
 finish
 (
 )
+;
     
 except
 WebIDL
@@ -687,9 +674,8 @@ harness
 .
 ok
 (
-            
 False
-            
+                   
 "
 Should
 not
@@ -701,7 +687,7 @@ error
 for
 ByteString
 "
-            
+                   
 "
 default
 in
@@ -713,7 +699,6 @@ str
 (
 e
 )
-        
 )
     
 #
@@ -734,7 +719,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -758,7 +742,6 @@ string
 "
 "
 "
-        
 )
         
 results3
@@ -768,6 +751,7 @@ parser
 finish
 (
 )
+;
     
 except
 WebIDL
@@ -781,9 +765,8 @@ harness
 .
 ok
 (
-            
 False
-            
+                   
 "
 Should
 not
@@ -795,7 +778,7 @@ error
 for
 ByteString
 "
-            
+                   
 "
 default
 in
@@ -807,7 +790,6 @@ str
 (
 e
 )
-        
 )
     
 #
@@ -832,7 +814,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -856,7 +837,6 @@ x03
 "
 "
 "
-        
 )
         
 results4
@@ -883,9 +863,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 have
@@ -897,11 +876,10 @@ for
 invalid
 ByteString
 "
-        
+               
 "
 default
 in
 dictionary
 "
-    
 )

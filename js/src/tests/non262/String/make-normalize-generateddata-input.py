@@ -87,9 +87,9 @@ re
 .
 compile
 (
-"
+'
 +
-"
+'
 )
 def
 to_code_list
@@ -99,21 +99,21 @@ codes
 :
     
 return
-"
+'
 [
-"
+'
 +
-"
-"
+'
+'
 .
 join
 (
-"
+'
 0x
 {
 0
 }
-"
+'
 .
 format
 (
@@ -131,9 +131,9 @@ codes
 )
 )
 +
-"
+'
 ]
-"
+'
 def
 convert
 (
@@ -147,7 +147,7 @@ re
 .
 compile
 (
-"
+'
 NormalizationTest
 -
 (
@@ -163,7 +163,7 @@ NormalizationTest
 \
 .
 txt
-"
+'
 )
     
 part_pat
@@ -172,7 +172,7 @@ re
 .
 compile
 (
-"
+'
 ^
 (
 Part
@@ -187,7 +187,7 @@ Part
 .
 +
 )
-"
+'
 )
     
 test_pat
@@ -197,7 +197,7 @@ re
 compile
 (
         
-"
+'
 ^
 (
 [
@@ -264,8 +264,7 @@ f
 +
 )
 ;
-"
-    
+'
 )
     
 ignore_pat
@@ -274,17 +273,17 @@ re
 .
 compile
 (
-"
+'
 ^
 #
 |
 ^
-"
+'
 )
     
 js_path
 =
-"
+'
 js
 /
 src
@@ -302,11 +301,11 @@ generateddata
 input
 .
 js
-"
+'
     
 txt_path
 =
-"
+'
 intl
 /
 icu
@@ -320,7 +319,7 @@ unidata
 NormalizationTest
 .
 txt
-"
+'
     
 part_opened
 =
@@ -333,7 +332,7 @@ False
 with
 open
 (
-"
+'
 {
 dir
 }
@@ -341,7 +340,7 @@ dir
 {
 path
 }
-"
+'
 .
 format
 (
@@ -352,9 +351,9 @@ path
 =
 txt_path
 )
-"
+'
 r
-"
+'
 )
 as
 f
@@ -363,7 +362,7 @@ f
 with
 open
 (
-"
+'
 {
 dir
 }
@@ -371,7 +370,7 @@ dir
 {
 path
 }
-"
+'
 .
 format
 (
@@ -382,9 +381,9 @@ path
 =
 js_path
 )
-"
+'
 w
-"
+'
 )
 as
 outf
@@ -417,23 +416,23 @@ outf
 .
 write
 (
-"
-"
+'
+'
 )
                     
 outf
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
                     
 pat
 =
-"
+'
 {
 {
 source
@@ -463,7 +462,7 @@ NFKD
 }
 }
 }
-"
+'
 #
 NOQA
 :
@@ -473,12 +472,10 @@ outf
 .
 write
 (
-                        
 pat
 .
 format
 (
-                            
 source
 =
 to_code_list
@@ -490,7 +487,7 @@ group
 1
 )
 )
-                            
+                                          
 NFC
 =
 to_code_list
@@ -502,7 +499,7 @@ group
 2
 )
 )
-                            
+                                          
 NFD
 =
 to_code_list
@@ -514,7 +511,7 @@ group
 3
 )
 )
-                            
+                                          
 NFKC
 =
 to_code_list
@@ -526,7 +523,7 @@ group
 4
 )
 )
-                            
+                                          
 NFKD
 =
 to_code_list
@@ -538,9 +535,7 @@ group
 5
 )
 )
-                        
 )
-                    
 )
                     
 not_empty
@@ -588,21 +583,21 @@ outf
 .
 write
 (
-"
+'
 \
 n
 ]
 ;
 \
 n
-"
+'
 )
                     
 outf
 .
 write
 (
-"
+'
 /
 *
 {
@@ -612,7 +607,7 @@ desc
 /
 \
 n
-"
+'
 .
 format
 (
@@ -626,7 +621,7 @@ outf
 .
 write
 (
-"
+'
 var
 tests_part
 {
@@ -634,7 +629,7 @@ part
 }
 =
 [
-"
+'
 .
 format
 (
@@ -680,8 +675,7 @@ outf
 .
 write
 (
-                        
-"
+'
 /
 *
 created
@@ -697,17 +691,14 @@ txt
 /
 \
 n
-"
+'
 .
 format
 (
-                            
 ver
 =
 ver
-                        
 )
-                    
 )
                     
 continue
@@ -757,22 +748,22 @@ outf
 .
 write
 (
-"
+'
 \
 n
 ]
 ;
 \
 n
-"
+'
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 if
@@ -788,7 +779,6 @@ argv
         
 print
 (
-            
 "
 Usage
 :
@@ -803,13 +793,12 @@ input
 py
 PATH_TO_MOZILLA_CENTRAL
 "
-            
+              
 file
 =
 sys
 .
 stderr
-        
 )
         
 sys

@@ -242,24 +242,20 @@ AndroidMixin
     
 config_options
 =
-(
+[
         
 [
-            
 [
-                
-[
-"
+'
 -
 -
 test
 -
 type
-"
+'
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -267,7 +263,7 @@ action
 "
 extend
 "
-                    
+            
 "
 dest
 "
@@ -275,7 +271,7 @@ dest
 "
 test_type
 "
-                    
+            
 "
 help
 "
@@ -289,25 +285,22 @@ to
 run
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
-"
+'
 -
 -
 disable
 -
 e10s
-"
+'
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -315,7 +308,7 @@ action
 "
 store_false
 "
-                    
+            
 "
 dest
 "
@@ -323,13 +316,13 @@ dest
 "
 e10s
 "
-                    
+            
 "
 default
 "
 :
 True
-                    
+            
 "
 help
 "
@@ -340,13 +333,11 @@ without
 e10s
 enabled
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -356,9 +347,8 @@ total
 chunks
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -366,7 +356,7 @@ action
 "
 store
 "
-                    
+            
 "
 dest
 "
@@ -374,7 +364,7 @@ dest
 "
 total_chunks
 "
-                    
+            
 "
 help
 "
@@ -385,13 +375,11 @@ of
 total
 chunks
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -401,9 +389,8 @@ this
 chunk
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -411,7 +398,7 @@ action
 "
 store
 "
-                    
+            
 "
 dest
 "
@@ -419,7 +406,7 @@ dest
 "
 this_chunk
 "
-                    
+            
 "
 help
 "
@@ -430,13 +417,11 @@ of
 this
 chunk
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -450,9 +435,8 @@ gl
 layers
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -460,7 +444,7 @@ action
 "
 store_true
 "
-                    
+            
 "
 dest
 "
@@ -468,13 +452,13 @@ dest
 "
 allow_software_gl_layers
 "
-                    
+            
 "
 default
 "
 :
 False
-                    
+            
 "
 help
 "
@@ -500,13 +484,11 @@ GL
 compositor
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -516,9 +498,8 @@ enable
 webrender
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -526,7 +507,7 @@ action
 "
 store_true
 "
-                    
+            
 "
 dest
 "
@@ -534,13 +515,13 @@ dest
 "
 enable_webrender
 "
-                    
+            
 "
 default
 "
 :
 False
-                    
+            
 "
 help
 "
@@ -554,13 +535,11 @@ in
 Gecko
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -568,9 +547,8 @@ Gecko
 headless
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -578,7 +556,7 @@ action
 "
 store_true
 "
-                    
+            
 "
 dest
 "
@@ -586,13 +564,13 @@ dest
 "
 headless
 "
-                    
+            
 "
 default
 "
 :
 False
-                    
+            
 "
 help
 "
@@ -605,13 +583,11 @@ headless
 mode
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -621,9 +597,8 @@ headless
 width
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -631,7 +606,7 @@ action
 "
 store
 "
-                    
+            
 "
 dest
 "
@@ -639,7 +614,7 @@ dest
 "
 headless_width
 "
-                    
+            
 "
 default
 "
@@ -647,7 +622,7 @@ default
 "
 1600
 "
-                    
+            
 "
 help
 "
@@ -665,13 +640,11 @@ default
 )
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -681,9 +654,8 @@ headless
 height
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -691,7 +663,7 @@ action
 "
 store
 "
-                    
+            
 "
 dest
 "
@@ -699,7 +671,7 @@ dest
 "
 headless_height
 "
-                    
+            
 "
 default
 "
@@ -707,7 +679,7 @@ default
 "
 1200
 "
-                    
+            
 "
 help
 "
@@ -725,13 +697,11 @@ default
 )
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -739,9 +709,8 @@ default
 setpref
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -749,7 +718,7 @@ action
 "
 append
 "
-                    
+            
 "
 metavar
 "
@@ -759,7 +728,7 @@ PREF
 =
 VALUE
 "
-                    
+            
 "
 dest
 "
@@ -767,14 +736,14 @@ dest
 "
 extra_prefs
 "
-                    
+            
 "
 default
 "
 :
 [
 ]
-                    
+            
 "
 help
 "
@@ -787,13 +756,11 @@ user
 preference
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -805,9 +772,8 @@ implementation
 status
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -815,7 +781,7 @@ action
 "
 extend
 "
-                    
+            
 "
 dest
 "
@@ -823,14 +789,14 @@ dest
 "
 skip_implementation_status
 "
-                    
+            
 "
 default
 "
 :
 [
 ]
-                    
+            
 "
 help
 "
@@ -859,13 +825,11 @@ implemented
 )
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -873,9 +837,8 @@ implemented
 backlog
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -883,7 +846,7 @@ action
 "
 store_true
 "
-                    
+            
 "
 dest
 "
@@ -891,13 +854,13 @@ dest
 "
 backlog
 "
-                    
+            
 "
 default
 "
 :
 False
-                    
+            
 "
 help
 "
@@ -911,13 +874,11 @@ is
 backlog
 .
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -927,9 +888,8 @@ skip
 timeout
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -937,7 +897,7 @@ action
 "
 store_true
 "
-                    
+            
 "
 dest
 "
@@ -945,13 +905,13 @@ dest
 "
 skip_timeout
 "
-                    
+            
 "
 default
 "
 :
 False
-                    
+            
 "
 help
 "
@@ -966,13 +926,11 @@ status
 of
 TIMEOUT
 "
-                
 }
-            
+         
 ]
-            
+        
 [
-                
 [
 "
 -
@@ -980,9 +938,8 @@ TIMEOUT
 include
 "
 ]
-                
 {
-                    
+            
 "
 action
 "
@@ -990,7 +947,7 @@ action
 "
 store
 "
-                    
+            
 "
 dest
 "
@@ -998,13 +955,13 @@ dest
 "
 include
 "
-                    
+            
 "
 default
 "
 :
 None
-                    
+            
 "
 help
 "
@@ -1016,13 +973,11 @@ to
 include
 .
 "
-                
 }
-            
+         
 ]
-        
+    
 ]
-        
 +
 copy
 .
@@ -1030,15 +985,14 @@ deepcopy
 (
 testing_config_options
 )
-        
 +
+\
+        
 copy
 .
 deepcopy
 (
 code_coverage_config_options
-)
-    
 )
     
 def
@@ -1070,25 +1024,25 @@ all_actions
 =
 [
                 
-"
+'
 clobber
-"
+'
                 
-"
+'
 setup
 -
 avds
-"
+'
                 
-"
+'
 download
 -
 and
 -
 extract
-"
+'
                 
-"
+'
 download
 -
 and
@@ -1096,39 +1050,39 @@ and
 process
 -
 manifest
-"
+'
                 
-"
+'
 create
 -
 virtualenv
-"
+'
                 
-"
+'
 pull
-"
+'
                 
-"
+'
 start
 -
 emulator
-"
+'
                 
-"
+'
 verify
 -
 device
-"
+'
                 
-"
+'
 install
-"
+'
                 
-"
+'
 run
 -
 tests
-"
+'
             
 ]
             
@@ -1139,13 +1093,12 @@ require_config_file
 config
 =
 {
-"
+'
 require_test_zip
-"
+'
 :
 True
 }
-        
 )
         
 #
@@ -1171,9 +1124,9 @@ c
 .
 get
 (
-"
+'
 installer_url
-"
+'
 )
         
 self
@@ -1184,9 +1137,9 @@ c
 .
 get
 (
-"
+'
 test_url
-"
+'
 )
         
 self
@@ -1197,9 +1150,9 @@ c
 .
 get
 (
-"
+'
 test_packages_url
-"
+'
 )
         
 self
@@ -1210,9 +1163,9 @@ c
 .
 get
 (
-"
+'
 installer_path
-"
+'
 )
         
 self
@@ -1223,9 +1176,9 @@ c
 .
 get
 (
-"
+'
 binary_path
-"
+'
 )
         
 self
@@ -1250,11 +1203,11 @@ self
 .
 device_serial
 =
-"
+'
 emulator
 -
 5554
-"
+'
     
 def
 query_abs_app_dir
@@ -1387,9 +1340,9 @@ dirs
         
 dirs
 [
-"
+'
 abs_app_install_dir
-"
+'
 ]
 =
 os
@@ -1398,24 +1351,22 @@ path
 .
 join
 (
-            
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 application
-"
-        
+'
 )
         
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
 =
 os
@@ -1426,20 +1377,20 @@ join
 (
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 tests
-"
+'
 )
         
 dirs
 [
-"
+'
 abs_test_bin_dir
-"
+'
 ]
 =
 os
@@ -1450,13 +1401,13 @@ join
 (
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
-"
+'
 bin
-"
+'
 )
         
 dirs
@@ -1472,26 +1423,24 @@ path
 .
 join
 (
-            
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
 "
 web
 -
 platform
 "
-        
 )
         
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 =
 os
@@ -1500,24 +1449,22 @@ path
 .
 join
 (
-            
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 blobber_upload_dir
-"
-        
+'
 )
         
 dirs
 [
-"
+'
 abs_test_extensions_dir
-"
+'
 ]
 =
 os
@@ -1526,17 +1473,16 @@ path
 .
 join
 (
-            
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
-"
+                                                       
+'
 extensions
-"
-        
+'
 )
         
 if
@@ -1547,9 +1493,9 @@ is_android
             
 dirs
 [
-"
+'
 abs_xre_dir
-"
+'
 ]
 =
 os
@@ -1560,13 +1506,13 @@ join
 (
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 hostutils
-"
+'
 )
         
 if
@@ -1577,9 +1523,9 @@ is_emulator
             
 dirs
 [
-"
+'
 abs_avds_dir
-"
+'
 ]
 =
 os
@@ -1608,9 +1554,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 )
             
 if
@@ -1619,9 +1565,9 @@ fetches_dir
                 
 dirs
 [
-"
+'
 abs_sdk_dir
-"
+'
 ]
 =
 os
@@ -1631,13 +1577,13 @@ path
 join
 (
 fetches_dir
-"
+'
 android
 -
 sdk
 -
 linux
-"
+'
 )
             
 else
@@ -1645,9 +1591,9 @@ else
                 
 dirs
 [
-"
+'
 abs_sdk_dir
-"
+'
 ]
 =
 os
@@ -1656,21 +1602,19 @@ path
 .
 join
 (
-                    
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 android
 -
 sdk
 -
 linux
-"
-                
+'
 )
             
 if
@@ -1732,11 +1676,11 @@ abs_dirs
     
 PreScriptAction
 (
-"
+'
 create
 -
 virtualenv
-"
+'
 )
     
 def
@@ -1763,22 +1707,22 @@ path
 .
 join
 (
-            
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
-"
+                                    
+'
 config
-"
-"
+'
+                                    
+'
 marionette_requirements
 .
 txt
-"
-        
+'
 )
         
 self
@@ -1790,6 +1734,7 @@ requirements
 [
 requirements
 ]
+                                        
 two_pass
 =
 True
@@ -1926,17 +1871,17 @@ str_format_values
 =
 {
             
-"
+'
 binary_path
-"
+'
 :
 self
 .
 binary_path
             
-"
+'
 test_path
-"
+'
 :
 dirs
 [
@@ -1945,9 +1890,9 @@ abs_wpttest_dir
 "
 ]
             
-"
+'
 test_install_path
-"
+'
 :
 dirs
 [
@@ -1956,15 +1901,15 @@ abs_test_install_dir
 "
 ]
             
-"
+'
 abs_app_dir
-"
+'
 :
 abs_app_dir
             
-"
+'
 abs_work_dir
-"
+'
 :
 dirs
 [
@@ -1973,9 +1918,9 @@ abs_work_dir
 "
 ]
             
-"
+'
 xre_path
-"
+'
 :
 self
 .
@@ -1990,14 +1935,14 @@ self
 .
 query_python_path
 (
-"
+'
 python
-"
+'
 )
-"
+'
 -
 u
-"
+'
 ]
         
 cmd
@@ -2026,9 +1971,9 @@ find_and_update_from_json
 (
 dirs
 [
-"
+'
 abs_test_install_dir
-"
+'
 ]
 )
         
@@ -2039,24 +1984,22 @@ self
 .
 get_indexed_logs
 (
-            
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
-"
+                                                                 
+'
 wpt
-"
-        
+'
 )
         
 cmd
 +
 =
 [
-            
 "
 -
 -
@@ -2066,7 +2009,7 @@ raw
 =
 -
 "
-            
+                
 "
 -
 -
@@ -2079,7 +2022,7 @@ s
 "
 %
 raw_log_file
-            
+                
 "
 -
 -
@@ -2090,7 +2033,6 @@ wptreport
 %
 s
 "
-            
 %
 os
 .
@@ -2104,13 +2046,14 @@ dirs
 abs_blob_upload_dir
 "
 ]
+                                                    
 "
 wptreport
 .
 json
 "
 )
-            
+                
 "
 -
 -
@@ -2123,7 +2066,7 @@ s
 "
 %
 error_summary_file
-            
+                
 "
 -
 -
@@ -2136,7 +2079,7 @@ s
 self
 .
 binary_path
-            
+                
 "
 -
 -
@@ -2151,7 +2094,7 @@ s
 self
 .
 symbols_path
-            
+                
 "
 -
 -
@@ -2168,7 +2111,7 @@ self
 query_minidump_stackwalk
 (
 )
-            
+                
 "
 -
 -
@@ -2196,7 +2139,7 @@ abs_test_install_dir
 bin
 "
 )
-            
+                
 "
 -
 -
@@ -2208,7 +2151,7 @@ after
 -
 test
 "
-            
+                
 "
 -
 -
@@ -2221,7 +2164,6 @@ file
 %
 s
 "
-            
 %
 os
 .
@@ -2235,13 +2177,14 @@ dirs
 abs_blob_upload_dir
 "
 ]
+                                                         
 "
 wpt_instruments
 .
 txt
 "
 )
-            
+                
 "
 -
 -
@@ -2252,7 +2195,6 @@ path
 %
 s
 "
-            
 %
 os
 .
@@ -2260,13 +2202,13 @@ path
 .
 join
 (
-                
 dirs
 [
-"
+'
 abs_test_extensions_dir
-"
+'
 ]
+                                                         
 "
 specialpowers
 mozilla
@@ -2275,15 +2217,12 @@ org
 .
 xpi
 "
-            
 )
-        
+                
 ]
         
 is_windows_7
 =
-(
-            
 mozinfo
 .
 info
@@ -2314,23 +2253,20 @@ os_version
 1
 "
         
-)
-        
 if
 (
-            
 self
 .
 is_android
-            
 or
+            
 "
 wdspec
 "
 in
 test_types
-            
 or
+            
 "
 fission
 .
@@ -2341,11 +2277,10 @@ true
 in
 c
 [
-"
+'
 extra_prefs
-"
+'
 ]
-            
 or
             
 #
@@ -2362,7 +2297,6 @@ denied
 .
             
 is_windows_7
-            
 and
 mozinfo
 .
@@ -2372,7 +2306,6 @@ info
 debug
 "
 ]
-        
 )
 :
             
@@ -2413,7 +2346,6 @@ cmd
 +
 =
 [
-                
 "
 -
 -
@@ -2428,7 +2360,7 @@ s
 self
 .
 device_serial
-                
+                    
 "
 -
 -
@@ -2445,7 +2377,6 @@ self
 query_package_name
 (
 )
-            
 ]
         
 if
@@ -2521,9 +2452,9 @@ test_type
 if
 c
 [
-"
+'
 extra_prefs
-"
+'
 ]
 :
             
@@ -2532,14 +2463,14 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 setpref
 =
 {
 }
-"
+'
 .
 format
 (
@@ -2550,9 +2481,9 @@ p
 in
 c
 [
-"
+'
 extra_prefs
-"
+'
 ]
 ]
 )
@@ -2673,9 +2604,9 @@ backlog
 if
 c
 [
-"
+'
 backlog
-"
+'
 ]
 :
             
@@ -2721,22 +2652,20 @@ json
 .
 loads
 (
-                
 os
 .
 environ
 .
 get
 (
-"
+'
 MOZHARNESS_TEST_PATHS
-"
+'
 '
 "
 "
 '
 )
-            
 )
             
 if
@@ -2751,17 +2680,18 @@ path
 .
 join
 (
+                    
 dirs
 [
 "
 abs_fetches_dir
 "
 ]
-"
+'
 wpt_tests_by_group
 .
 json
-"
+'
 )
                 
 if
@@ -2780,7 +2710,7 @@ self
 .
 critical
 (
-"
+'
 Unable
 to
 locate
@@ -2792,7 +2722,7 @@ test
 groups
 file
 .
-"
+'
 )
                 
 cmd
@@ -2877,13 +2807,13 @@ path
 relpath
 (
 path
-"
+'
 testing
 /
 web
 -
 platform
-"
+'
 )
                             
 if
@@ -3110,7 +3040,6 @@ self
 .
 fatal
 (
-                    
 "
 Unable
 to
@@ -3118,7 +3047,7 @@ find
 geckodriver
 binary
 "
-                    
+                           
 "
 in
 common
@@ -3133,7 +3062,6 @@ str
 (
 geckodriver_path
 )
-                
 )
             
 cmd
@@ -3275,37 +3203,34 @@ cmd
 .
 extend
 (
-                
 self
 .
 query_options
 (
-                    
 options
+                                          
 try_options
+                                          
 str_format_values
 =
 str_format_values
-                
 )
-            
 )
             
 cmd
 .
 extend
 (
-                
 self
 .
 query_tests_args
 (
 try_tests
+                                             
 str_format_values
 =
 str_format_values
 )
-            
 )
         
 if
@@ -3373,47 +3298,46 @@ download_and_extract
 extract_dirs
 =
 [
-                
 "
 mach
 "
-                
+                          
 "
 bin
 /
 *
 "
-                
+                          
 "
 config
 /
 *
 "
-                
+                          
 "
 extensions
 /
 *
 "
-                
+                          
 "
 mozbase
 /
 *
 "
-                
+                          
 "
 marionette
 /
 *
 "
-                
+                          
 "
 tools
 /
 *
 "
-                
+                          
 "
 web
 -
@@ -3421,19 +3345,18 @@ platform
 /
 *
 "
-                
+                          
 "
 mozpack
 /
 *
 "
-                
+                          
 "
 mozbuild
 /
 *
 "
-            
 ]
             
 suite_categories
@@ -3445,7 +3368,6 @@ web
 platform
 "
 ]
-        
 )
         
 dirs
@@ -3472,9 +3394,9 @@ download_hostutils
 (
 dirs
 [
-"
+'
 abs_xre_dir
-"
+'
 ]
 )
         
@@ -3647,11 +3569,11 @@ environ
 .
 get
 (
-"
+'
 TESTS_BY_MANIFEST_URL
-"
-"
-"
+'
+'
+'
 )
         
 if
@@ -3663,12 +3585,12 @@ self
 .
 fatal
 (
-"
+'
 TESTS_BY_MANIFEST_URL
 not
 defined
 .
-"
+'
 )
         
 artifact_name
@@ -3677,9 +3599,9 @@ url
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -3699,11 +3621,11 @@ self
 .
 download_file
 (
-            
 url
 file_name
 =
 artifact_name
+                           
 parent_dir
 =
 dirs
@@ -3712,7 +3634,6 @@ dirs
 abs_fetches_dir
 "
 ]
-        
 )
         
 with
@@ -3734,9 +3655,9 @@ abs_fetches_dir
 ]
 artifact_name
 )
-"
+'
 r
-"
+'
 )
 as
 f
@@ -3798,14 +3719,12 @@ slash
 test_groups
 =
 {
-            
 key
 :
 tests_by_manifest
 [
 key
 ]
-            
 for
 key
 in
@@ -3814,7 +3733,7 @@ tests_by_manifest
 keys
 (
 )
-            
+                       
 if
 key
 .
@@ -3824,7 +3743,6 @@ startswith
 /
 "
 )
-        
 }
         
 outfile
@@ -3852,10 +3770,10 @@ with
 open
 (
 outfile
-"
+'
 w
 +
-"
+'
 )
 as
 f
@@ -3989,7 +3907,6 @@ path
 .
 join
 (
-                
 os
 .
 path
@@ -4000,23 +3917,19 @@ self
 .
 binary_path
 )
-                
 os
 .
 pardir
-                
+                                     
 "
 Resources
 "
-                
 "
 res
 "
-                
 "
 fonts
 "
-            
 )
         
 if
@@ -4132,147 +4045,145 @@ parser
 =
 StructuredOutputParser
 (
-            
 config
 =
 self
 .
 config
-            
+                                        
 log_obj
 =
 self
 .
 log_obj
-            
+                                        
 log_compact
 =
 True
-            
+                                        
 error_list
 =
 BaseErrorList
 +
 WptHarnessErrorList
-            
+                                        
 allow_crashes
 =
 True
-        
 )
         
 env
 =
 {
-"
+'
 MINIDUMP_SAVE_PATH
-"
+'
 :
 dirs
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
 }
         
 env
 [
-"
+'
 RUST_BACKTRACE
-"
+'
 ]
 =
-"
+'
 full
-"
+'
         
 if
 self
 .
 config
 [
-"
+'
 allow_software_gl_layers
-"
+'
 ]
 :
             
 env
 [
-"
+'
 MOZ_LAYERS_ALLOW_SOFTWARE_GL
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 if
 self
 .
 config
 [
-"
+'
 headless
-"
+'
 ]
 :
             
 env
 [
-"
+'
 MOZ_HEADLESS
-"
+'
 ]
 =
-"
+'
 1
-"
+'
             
 env
 [
-"
+'
 MOZ_HEADLESS_WIDTH
-"
+'
 ]
 =
 self
 .
 config
 [
-"
+'
 headless_width
-"
+'
 ]
             
 env
 [
-"
+'
 MOZ_HEADLESS_HEIGHT
-"
+'
 ]
 =
 self
 .
 config
 [
-"
+'
 headless_height
-"
+'
 ]
         
 env
 [
-"
+'
 STYLO_THREADS
-"
+'
 ]
 =
-"
+'
 4
-"
+'
         
 if
 self
@@ -4282,9 +4193,9 @@ is_android
             
 env
 [
-"
+'
 ADB_PATH
-"
+'
 ]
 =
 self
@@ -4536,27 +4447,23 @@ run
                 
 is_baseline_test
 =
-(
-                    
-"
+'
 baselinecoverage
-"
+'
 in
 per_test_args
 [
 -
 1
 ]
-                    
+\
+                                   
 if
 self
 .
 per_test_coverage
-                    
 else
 False
-                
-)
                 
 if
 executed_too_many_tests
@@ -4634,7 +4541,6 @@ self
 .
 info
 (
-                            
 "
 TinderboxPrint
 :
@@ -4648,7 +4554,7 @@ Not
 all
 tests
 "
-                            
+                                  
 "
 were
 executed
@@ -4658,7 +4564,6 @@ br
 /
 >
 "
-                        
 )
                         
 return
@@ -4723,7 +4628,6 @@ self
 .
 info
 (
-                            
 "
 TinderboxPrint
 :
@@ -4736,7 +4640,7 @@ Not
 all
 tests
 "
-                            
+                                  
 "
 were
 executed
@@ -4746,7 +4650,6 @@ br
 /
 >
 "
-                        
 )
                         
 executed_too_many_tests
@@ -4804,30 +4707,28 @@ self
 .
 run_command
 (
-                    
 cmd
-                    
+                                               
 cwd
 =
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-                    
+                                               
 output_timeout
 =
 1000
-                    
+                                               
 output_parser
 =
 parser
-                    
+                                               
 env
 =
 final_env
-                
 )
                 
 if
@@ -4840,7 +4741,6 @@ self
 .
 add_per_test_coverage_report
 (
-                        
 final_env
 suite
 per_test_args
@@ -4848,7 +4748,6 @@ per_test_args
 -
 1
 ]
-                    
 )
                 
 tbpl_status
@@ -4859,12 +4758,11 @@ parser
 .
 evaluate_parser
 (
-                    
 return_code
+                                                                         
 previous_summary
 =
 summary
-                
 )
                 
 self
@@ -4934,9 +4832,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 web_platform_tests

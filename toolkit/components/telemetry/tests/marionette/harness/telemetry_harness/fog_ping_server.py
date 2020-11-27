@@ -217,13 +217,11 @@ append
 (
                 
 {
-                    
 "
 request_url
 "
 :
 request_url
-                    
 "
 payload
 "
@@ -232,9 +230,9 @@ json
 .
 loads
 (
+                    
 request_data
 )
-                    
 "
 debug_tag
 "
@@ -253,7 +251,6 @@ Debug
 ID
 "
 )
-                
 }
             
 )

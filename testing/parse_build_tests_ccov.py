@@ -95,9 +95,9 @@ substs
 .
 get
 (
-"
+'
 MOZ_CODE_COVERAGE
-"
+'
 )
 or
 not
@@ -107,29 +107,23 @@ substs
 .
 get
 (
-        
-"
+'
 MOZ_RUST_TESTS
-"
-    
+'
 )
 :
         
 return
     
 assert
-(
-        
-"
+'
 GRCOV_PATH
-"
+'
 in
 os
 .
 environ
-    
-)
-"
+'
 The
 environment
 variable
@@ -140,7 +134,7 @@ a
 path
 to
 grcov
-"
+'
     
 grcov_path
 =
@@ -148,9 +142,9 @@ os
 .
 environ
 [
-"
+'
 GRCOV_PATH
-"
+'
 ]
     
 assert
@@ -162,11 +156,11 @@ exists
 (
 grcov_path
 )
-"
+'
 grcov
 should
 exist
-"
+'
     
 grcov_command
 =
@@ -174,20 +168,18 @@ grcov_command
         
 grcov_path
         
-"
+'
 -
 t
-"
-        
-"
+'
+'
 lcov
-"
+'
         
-"
+'
 -
 p
-"
-        
+'
 buildconfig
 .
 topsrcdir
@@ -215,15 +207,15 @@ buildconfig
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 =
 =
-"
+'
 WINNT
-"
+'
 :
         
 #
@@ -252,15 +244,15 @@ buildconfig
 .
 substs
 [
-"
+'
 MOZ_CONFIGURE_OPTIONS
-"
+'
 ]
 .
 split
 (
-"
-"
+'
+'
 )
         
 for
@@ -274,10 +266,10 @@ opt
 .
 startswith
 (
-"
+'
 WINDOWSSDKDIR
 =
-"
+'
 )
 :
                 
@@ -287,10 +279,10 @@ opt
 [
 len
 (
-"
+'
 WINDOWSSDKDIR
 =
-"
+'
 )
 :
 ]
@@ -298,21 +290,17 @@ WINDOWSSDKDIR
 break
         
 assert
-(
-            
 windows_sdk_dir
 is
 not
 None
-        
-)
-"
+'
 WINDOWSSDKDIR
 should
 be
 in
 MOZ_CONFIGURE_OPTIONS
-"
+'
         
 ignore_dir_abs
 =
@@ -400,20 +388,18 @@ isdir
 (
 ignore_dir_abs
 )
-"
+'
 {
 }
 is
 not
 a
 directory
-"
+'
 .
 format
 (
-            
 ignore_dir_abs
-        
 )
         
 assert
@@ -421,13 +407,11 @@ ignore_dir_abs
 .
 startswith
 (
-            
 buildconfig
 .
 topsrcdir
-        
 )
-"
+'
 {
 }
 should
@@ -435,7 +419,7 @@ start
 with
 {
 }
-"
+'
 .
 format
 (
@@ -449,13 +433,11 @@ grcov_command
 +
 =
 [
-            
-"
+'
 -
 -
 ignore
-"
-            
+'
 os
 .
 path
@@ -468,10 +450,9 @@ buildconfig
 topsrcdir
 )
 +
-"
+'
 *
-"
-        
+'
 ]
     
 if
@@ -479,15 +460,15 @@ buildconfig
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 =
 =
-"
+'
 Linux
-"
+'
 :
         
 gcc_dir
@@ -502,19 +483,19 @@ os
 .
 environ
 [
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 ]
-"
+'
 gcc
-"
+'
 )
         
 if
-"
+'
 LD_LIBRARY_PATH
-"
+'
 in
 os
 .
@@ -525,12 +506,12 @@ os
 .
 environ
 [
-"
+'
 LD_LIBRARY_PATH
-"
+'
 ]
 =
-"
+'
 {
 }
 /
@@ -539,21 +520,19 @@ lib64
 :
 {
 }
-"
+'
 .
 format
 (
-                
 gcc_dir
 os
 .
 environ
 [
-"
+'
 LD_LIBRARY_PATH
-"
+'
 ]
-            
 )
         
 else
@@ -563,18 +542,18 @@ os
 .
 environ
 [
-"
+'
 LD_LIBRARY_PATH
-"
+'
 ]
 =
-"
+'
 {
 }
 /
 lib64
 /
-"
+'
 .
 format
 (
@@ -585,12 +564,12 @@ os
 .
 environ
 [
-"
+'
 PATH
-"
+'
 ]
 =
-"
+'
 {
 }
 /
@@ -599,7 +578,7 @@ bin
 :
 {
 }
-"
+'
 .
 format
 (
@@ -608,9 +587,9 @@ os
 .
 environ
 [
-"
+'
 PATH
-"
+'
 ]
 )
     
@@ -634,7 +613,7 @@ join
 buildconfig
 .
 topobjdir
-"
+'
 code
 -
 coverage
@@ -642,7 +621,7 @@ coverage
 grcov
 .
 zip
-"
+'
 )
     
 with
@@ -651,9 +630,9 @@ zipfile
 ZipFile
 (
 grcov_zip_path
-"
+'
 a
-"
+'
 zipfile
 .
 ZIP_DEFLATED
@@ -666,20 +645,20 @@ z
 .
 writestr
 (
-"
+'
 grcov_lcov_output
 .
 info
-"
+'
 grcov_output
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

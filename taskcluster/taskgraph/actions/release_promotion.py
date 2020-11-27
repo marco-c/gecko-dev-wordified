@@ -95,12 +95,8 @@ util
 .
 taskgraph
 import
-(
-    
 find_decision_task
-    
 find_existing_tasks_from_previous_kinds
-)
 from
 taskgraph
 .
@@ -156,11 +152,11 @@ release_level
 RELEASE_PROMOTION_SIGNOFFS
 =
 (
-"
+'
 mar
 -
 signing
-"
+'
 )
 def
 is_release_promotion_available
@@ -172,9 +168,9 @@ parameters
 return
 parameters
 [
-"
+'
 project
-"
+'
 ]
 in
 RELEASE_PROMOTION_PROJECTS
@@ -244,13 +240,13 @@ signoff
 =
 {
             
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
         
 }
     
@@ -272,9 +268,9 @@ input
 .
 get
 (
-"
+'
 required_signoffs
-"
+'
 [
 ]
 )
@@ -286,9 +282,9 @@ set
 (
 parameters
 [
-"
+'
 required_signoffs
-"
+'
 ]
 or
 [
@@ -317,9 +313,9 @@ signoff_urls
 =
 parameters
 [
-"
+'
 signoff_urls
-"
+'
 ]
     
 signoff_urls
@@ -330,9 +326,9 @@ input
 .
 get
 (
-"
+'
 signoff_urls
-"
+'
 {
 }
 )
@@ -370,26 +366,24 @@ promotion_flavors
 =
 graph_config
 [
-"
+'
 release
 -
 promotion
-"
+'
 ]
 [
-"
+'
 flavors
-"
+'
 ]
     
 return
 sorted
 (
-        
 [
-            
+        
 flavor
-            
 for
 (
 flavor
@@ -401,7 +395,7 @@ promotion_flavors
 items
 (
 )
-            
+        
 if
 config
 .
@@ -410,37 +404,36 @@ get
 param
 False
 )
-        
-]
     
+]
 )
 register_callback_action
 (
     
 name
 =
-"
+'
 release
 -
 promotion
-"
+'
     
 title
 =
-"
+'
 Release
 Promotion
-"
+'
     
 symbol
 =
-"
+'
 {
 input
 .
 release_promotion_flavor
 }
-"
+'
     
 description
 =
@@ -453,11 +446,11 @@ release
     
 permission
 =
-"
+'
 release
 -
 promotion
-"
+'
     
 order
 =
@@ -479,64 +472,63 @@ graph_config
 :
 {
         
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
         
-"
+'
 properties
-"
+'
 :
 {
             
-"
+'
 build_number
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 integer
-"
+'
                 
-"
+'
 default
-"
+'
 :
 1
                 
-"
+'
 minimum
-"
+'
 :
 1
                 
-"
+'
 title
-"
+'
 :
-"
+'
 The
 release
 build
 number
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 The
 release
 build
@@ -546,9 +538,9 @@ Starts
 at
 1
 per
-"
-                    
-"
+'
+                                
+'
 release
 version
 and
@@ -556,33 +548,31 @@ increments
 on
 rebuild
 .
-"
-                
+'
 )
             
 }
             
-"
+'
 do_not_optimize
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 array
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 Optional
 :
 a
@@ -593,9 +583,9 @@ to
 avoid
 optimizing
 out
-"
-                    
-"
+'
+                                
+'
 of
 the
 graph
@@ -606,9 +596,9 @@ a
 rerun
 of
 say
-"
-                    
-"
+'
+                                
+'
 funsize
 docker
 -
@@ -616,61 +606,59 @@ image
 tasks
 )
 .
-"
-                
+'
 )
                 
-"
+'
 items
-"
+'
 :
 {
                     
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
 }
             
 }
             
-"
+'
 revision
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Optional
 :
 revision
 to
 promote
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 Optional
 :
 the
@@ -680,9 +668,9 @@ promote
 .
 If
 specified
-"
-                    
-"
+'
+                                
+'
 and
 previous_graph_kinds
 is
@@ -690,9 +678,9 @@ not
 specified
 find
 the
-"
-                    
-"
+'
+                                
+'
 push
 graph
 to
@@ -702,31 +690,30 @@ on
 the
 revision
 .
-"
-                
+'
 )
             
 }
             
-"
+'
 release_promotion_flavor
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 The
 flavor
 of
@@ -735,26 +722,26 @@ promotion
 to
 perform
 .
-"
+'
                 
-"
+'
 enum
-"
+'
 :
 sorted
 (
 graph_config
 [
-"
+'
 release
 -
 promotion
-"
+'
 ]
 [
-"
+'
 flavors
-"
+'
 ]
 .
 keys
@@ -764,27 +751,26 @@ keys
             
 }
             
-"
+'
 rebuild_kinds
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 array
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 Optional
 :
 an
@@ -796,57 +782,55 @@ ignore
 from
 the
 previous
-"
-                    
-"
+'
+                                
+'
 graph
 (
 s
 )
 .
-"
-                
+'
 )
                 
-"
+'
 items
-"
+'
 :
 {
                     
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
 }
             
 }
             
-"
+'
 previous_graph_ids
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 array
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 Optional
 :
 an
@@ -857,9 +841,9 @@ of
 decision
 or
 action
-"
-                    
-"
+'
+                                
+'
 tasks
 from
 the
@@ -872,55 +856,53 @@ to
 use
 to
 populate
-"
-                    
-"
+'
+                                
+'
 our
 previous_graph_kinds
 .
-"
-                
+'
 )
                 
-"
+'
 items
-"
+'
 :
 {
                     
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
 }
             
 }
             
-"
+'
 version
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 Optional
 :
 override
@@ -930,8 +912,8 @@ for
 release
 promotion
 .
-"
-                    
+'
+                                
 "
 Occasionally
 we
@@ -945,8 +927,8 @@ in
 a
 later
 "
-                    
-"
+                                
+'
 commit
 but
 want
@@ -958,9 +940,9 @@ build
 from
 a
 previous
-"
-                    
-"
+'
+                                
+'
 commit
 .
 If
@@ -972,9 +954,9 @@ landed
 in
 the
 meantime
-"
-                    
-"
+'
+                                
+'
 relying
 on
 the
@@ -986,40 +968,38 @@ will
 break
 things
 .
-"
-                
+'
 )
                 
-"
+'
 default
-"
+'
 :
-"
-"
+'
+'
             
 }
             
-"
+'
 next_version
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 Next
 version
 .
@@ -1029,34 +1009,33 @@ the
 following
 flavors
 :
-"
-                    
-"
+'
+                                
+'
 {
 }
-"
+'
 .
 format
 (
 get_flavors
 (
 graph_config
-"
+'
 version
 -
 bump
-"
+'
+)
 )
 )
                 
-)
-                
-"
+'
 default
-"
+'
 :
-"
-"
+'
+'
             
 }
             
@@ -1161,27 +1140,26 @@ uk
 #
 }
             
-"
+'
 partial_updates
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 Partial
 updates
 .
@@ -1191,98 +1169,97 @@ the
 following
 flavors
 :
-"
-                    
-"
+'
+                                
+'
 {
 }
-"
+'
 .
 format
 (
 get_flavors
 (
 graph_config
-"
+'
 partial
 -
 updates
-"
+'
+)
 )
 )
                 
-)
-                
-"
+'
 default
-"
+'
 :
 {
 }
                 
-"
+'
 additionalProperties
-"
+'
 :
 {
                     
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
                     
-"
+'
 properties
-"
+'
 :
 {
                         
-"
+'
 buildNumber
-"
+'
 :
 {
                             
-"
+'
 type
-"
+'
 :
-"
+'
 number
-"
+'
                         
 }
                         
-"
+'
 locales
-"
+'
 :
 {
                             
-"
+'
 type
-"
+'
 :
-"
+'
 array
-"
+'
                             
-"
+'
 items
-"
+'
 :
 {
                                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                             
 }
                         
@@ -1290,25 +1267,25 @@ string
                     
 }
                     
-"
+'
 required
-"
+'
 :
 [
                         
-"
+'
 buildNumber
-"
+'
                         
-"
+'
 locales
-"
+'
                     
 ]
                     
-"
+'
 additionalProperties
-"
+'
 :
 False
                 
@@ -1316,118 +1293,117 @@ False
             
 }
             
-"
+'
 release_eta
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
-"
+'
 default
-"
+'
 :
-"
-"
+'
+'
             
 }
             
-"
+'
 release_enable_partner_repack
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 boolean
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 Toggle
 for
 creating
 partner
 repacks
-"
+'
             
 }
             
-"
+'
 release_enable_partner_attribution
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 boolean
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 Toggle
 for
 creating
 partner
 attribution
-"
+'
             
 }
             
-"
+'
 release_partner_build_number
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 integer
-"
+'
                 
-"
+'
 default
-"
+'
 :
 1
                 
-"
+'
 minimum
-"
+'
 :
 1
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 The
 partner
 build
@@ -1440,9 +1416,9 @@ e
 .
 g
 .
-"
-                    
-"
+'
+                                
+'
 v1
 in
 the
@@ -1453,9 +1429,9 @@ generally
 only
 have
 to
-"
-                    
-"
+'
+                                
+'
 bump
 this
 on
@@ -1465,33 +1441,31 @@ cycle
 partner
 rebuilds
 .
-"
-                
+'
 )
             
 }
             
-"
+'
 release_partners
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 array
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-                    
-"
+'
 A
 list
 of
@@ -1505,54 +1479,53 @@ or
 empty
 then
 use
-"
-                    
-"
+'
+                                
+'
 the
 current
 full
 set
-"
-                
+'
 )
                 
-"
+'
 items
-"
+'
 :
 {
                     
-"
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
                 
 }
             
 }
             
-"
+'
 release_partner_config
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 Partner
 configuration
 to
@@ -1561,42 +1534,42 @@ for
 partner
 repacks
 .
-"
+'
                 
-"
+'
 properties
-"
+'
 :
 {
 }
                 
-"
+'
 additionalProperties
-"
+'
 :
 True
             
 }
             
-"
+'
 release_enable_emefree
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 boolean
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 Toggle
 for
 creating
@@ -1604,30 +1577,30 @@ EME
 -
 free
 repacks
-"
+'
             
 }
             
-"
+'
 required_signoffs
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 array
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
-"
+'
 The
 flavor
 of
@@ -1636,18 +1609,18 @@ promotion
 to
 perform
 .
-"
+'
 )
                 
-"
+'
 items
-"
+'
 :
 {
                     
-"
+'
 enum
-"
+'
 :
 RELEASE_PROMOTION_SIGNOFFS
                 
@@ -1655,36 +1628,36 @@ RELEASE_PROMOTION_SIGNOFFS
             
 }
             
-"
+'
 signoff_urls
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
                 
-"
+'
 default
-"
+'
 :
 {
 }
                 
-"
+'
 additionalProperties
-"
+'
 :
 False
                 
-"
+'
 properties
-"
+'
 :
 get_signoff_properties
 (
@@ -1699,12 +1672,12 @@ required
 "
 :
 [
-"
+'
 release_promotion_flavor
-"
-"
+'
+'
 build_number
-"
+'
 ]
     
 }
@@ -1724,30 +1697,28 @@ release_promotion_flavor
 =
 input
 [
-"
+'
 release_promotion_flavor
-"
+'
 ]
     
 promotion_config
 =
 graph_config
 [
-"
+'
 release
 -
 promotion
-"
+'
 ]
 [
-"
+'
 flavors
-"
+'
 ]
 [
-        
 release_promotion_flavor
-    
 ]
     
 release_history
@@ -1759,9 +1730,9 @@ product
 =
 promotion_config
 [
-"
+'
 product
-"
+'
 ]
     
 next_version
@@ -1772,13 +1743,13 @@ input
 .
 get
 (
-"
+'
 next_version
-"
+'
 )
 or
-"
-"
+'
+'
 )
     
 if
@@ -1786,11 +1757,11 @@ promotion_config
 .
 get
 (
-"
+'
 version
 -
 bump
-"
+'
 False
 )
 :
@@ -1813,11 +1784,11 @@ if
 next_version
 in
 [
-"
-"
-"
+'
+'
+'
 None
-"
+'
 ]
 :
             
@@ -1854,11 +1825,11 @@ promotion_config
 .
 get
 (
-"
+'
 partial
 -
 updates
-"
+'
 False
 )
 :
@@ -1869,9 +1840,9 @@ input
 .
 get
 (
-"
+'
 partial_updates
-"
+'
 {
 }
 )
@@ -1884,16 +1855,16 @@ release_level
 (
 parameters
 [
-"
+'
 project
-"
+'
 ]
 )
 =
 =
-"
+'
 production
-"
+'
 :
             
 raise
@@ -1936,9 +1907,9 @@ os
 .
 environ
 [
-"
+'
 PARTIAL_UPDATES
-"
+'
 ]
 =
 json
@@ -1959,10 +1930,11 @@ populate_release_history
 balrog_prefix
 parameters
 [
-"
+'
 project
-"
+'
 ]
+            
 partial_updates
 =
 partial_updates
@@ -1973,13 +1945,13 @@ target_tasks_method
 =
 promotion_config
 [
-"
+'
 target
 -
 tasks
 -
 method
-"
+'
 ]
 .
 format
@@ -1989,9 +1961,9 @@ project
 =
 parameters
 [
-"
+'
 project
-"
+'
 ]
     
 )
@@ -2003,18 +1975,18 @@ input
 get
 (
         
-"
+'
 rebuild_kinds
-"
+'
 promotion_config
 .
 get
 (
-"
+'
 rebuild
 -
 kinds
-"
+'
 [
 ]
 )
@@ -2028,20 +2000,20 @@ input
 get
 (
         
-"
+'
 do_not_optimize
-"
+'
 promotion_config
 .
 get
 (
-"
+'
 do
 -
 not
 -
 optimize
-"
+'
 [
 ]
 )
@@ -2068,9 +2040,9 @@ input
 .
 get
 (
-"
+'
 previous_graph_ids
-"
+'
 )
     
 if
@@ -2084,9 +2056,9 @@ input
 .
 get
 (
-"
+'
 revision
-"
+'
 )
         
 if
@@ -2095,18 +2067,17 @@ revision
             
 head_rev_param
 =
-"
+'
 {
 }
 head_rev
-"
+'
 .
 format
 (
-                
 graph_config
 [
-"
+'
 project
 -
 repo
@@ -2114,9 +2085,8 @@ repo
 param
 -
 prefix
-"
+'
 ]
-            
 )
             
 push_parameters
@@ -2127,15 +2097,15 @@ head_rev_param
 :
 revision
                 
-"
+'
 project
-"
+'
 :
 parameters
 [
-"
+'
 project
-"
+'
 ]
             
 }
@@ -2290,9 +2260,9 @@ combined_full_task_graph
     
 parameters
 [
-"
+'
 existing_tasks
-"
+'
 ]
 =
 find_existing_tasks_from_previous_kinds
@@ -2306,53 +2276,53 @@ rebuild_kinds
     
 parameters
 [
-"
+'
 do_not_optimize
-"
+'
 ]
 =
 do_not_optimize
     
 parameters
 [
-"
+'
 target_tasks_method
-"
+'
 ]
 =
 target_tasks_method
     
 parameters
 [
-"
+'
 build_number
-"
+'
 ]
 =
 int
 (
 input
 [
-"
+'
 build_number
-"
+'
 ]
 )
     
 parameters
 [
-"
+'
 next_version
-"
+'
 ]
 =
 next_version
     
 parameters
 [
-"
+'
 release_history
-"
+'
 ]
 =
 release_history
@@ -2362,50 +2332,50 @@ promotion_config
 .
 get
 (
-"
+'
 is
 -
 rc
-"
+'
 )
 :
         
 parameters
 [
-"
+'
 release_type
-"
+'
 ]
 +
 =
-"
+'
 -
 rc
-"
+'
     
 parameters
 [
-"
+'
 release_eta
-"
+'
 ]
 =
 input
 .
 get
 (
-"
+'
 release_eta
-"
-"
-"
+'
+'
+'
 )
     
 parameters
 [
-"
+'
 release_product
-"
+'
 ]
 =
 product
@@ -2434,9 +2404,9 @@ graphs
     
 parameters
 [
-"
+'
 optimize_target_tasks
-"
+'
 ]
 =
 True
@@ -2445,9 +2415,9 @@ if
 release_promotion_flavor
 =
 =
-"
+'
 promote_firefox_partner_repack
-"
+'
 :
         
 release_enable_partner_repack
@@ -2466,9 +2436,9 @@ elif
 release_promotion_flavor
 =
 =
-"
+'
 promote_firefox_partner_attribution
-"
+'
 :
         
 release_enable_partner_repack
@@ -2511,9 +2481,9 @@ input
 .
 get
 (
-"
+'
 release_enable_partner_repack
-"
+'
 True
 )
         
@@ -2523,12 +2493,10 @@ input
 .
 get
 (
-            
-"
+'
 release_enable_partner_attribution
-"
+'
 True
-        
 )
         
 release_enable_emefree
@@ -2537,9 +2505,9 @@ input
 .
 get
 (
-"
+'
 release_enable_emefree
-"
+'
 True
 )
     
@@ -2552,24 +2520,19 @@ graph_config
 )
     
 if
-(
-        
 release_enable_partner_repack
-        
 and
 not
 partner_url_config
 [
-"
+'
 release
 -
 partner
 -
 repack
-"
+'
 ]
-    
-)
 :
         
 raise
@@ -2591,24 +2554,21 @@ found
 )
     
 if
-(
-        
 release_enable_partner_attribution
-        
 and
+\
+            
 not
 partner_url_config
 [
-"
+'
 release
 -
 partner
 -
 attribution
-"
+'
 ]
-    
-)
 :
         
 raise
@@ -2635,7 +2595,7 @@ and
 not
 partner_url_config
 [
-"
+'
 release
 -
 eme
@@ -2643,7 +2603,7 @@ eme
 free
 -
 repack
-"
+'
 ]
 :
         
@@ -2667,29 +2627,27 @@ found
     
 parameters
 [
-"
+'
 release_enable_partner_repack
-"
+'
 ]
 =
 release_enable_partner_repack
     
 parameters
 [
-        
-"
+'
 release_enable_partner_attribution
-"
-    
+'
 ]
 =
 release_enable_partner_attribution
     
 parameters
 [
-"
+'
 release_enable_emefree
-"
+'
 ]
 =
 release_enable_emefree
@@ -2700,9 +2658,9 @@ input
 .
 get
 (
-"
+'
 release_partner_config
-"
+'
 )
     
 if
@@ -2711,17 +2669,13 @@ partner_config
 and
 any
 (
-        
 [
-            
 release_enable_partner_repack
-            
+                                   
 release_enable_partner_attribution
-            
+                                   
 release_enable_emefree
-        
 ]
-    
 )
 :
         
@@ -2746,9 +2700,9 @@ partner_config
         
 parameters
 [
-"
+'
 release_partner_config
-"
+'
 ]
 =
 fix_partner_config
@@ -2758,18 +2712,18 @@ partner_config
     
 parameters
 [
-"
+'
 release_partners
-"
+'
 ]
 =
 input
 .
 get
 (
-"
+'
 release_partners
-"
+'
 )
     
 if
@@ -2777,56 +2731,54 @@ input
 .
 get
 (
-"
+'
 release_partner_build_number
-"
+'
 )
 :
         
 parameters
 [
-"
+'
 release_partner_build_number
-"
+'
 ]
 =
 input
 [
-            
-"
+'
 release_partner_build_number
-"
-        
+'
 ]
     
 if
 input
 [
-"
+'
 version
-"
+'
 ]
 :
         
 parameters
 [
-"
+'
 version
-"
+'
 ]
 =
 input
 [
-"
+'
 version
-"
+'
 ]
     
 parameters
 [
-"
+'
 required_signoffs
-"
+'
 ]
 =
 get_required_signoffs
@@ -2837,9 +2789,9 @@ parameters
     
 parameters
 [
-"
+'
 signoff_urls
-"
+'
 ]
 =
 get_signoff_urls
@@ -2867,9 +2819,9 @@ parameters
 taskgraph_decision
 (
 {
-"
+'
 root
-"
+'
 :
 graph_config
 .

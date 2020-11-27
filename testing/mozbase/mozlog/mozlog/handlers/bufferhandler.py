@@ -198,12 +198,12 @@ None
 buffered_actions
 =
 [
-"
+'
 log
-"
-"
+'
+'
 test_status
-"
+'
 ]
         
 self
@@ -264,13 +264,11 @@ message_handler
 .
 register_message_handlers
 (
-            
 "
 buffer
 "
-            
 {
-                
+            
 "
 on
 "
@@ -278,7 +276,7 @@ on
 self
 .
 _enable_buffering
-                
+            
 "
 off
 "
@@ -286,7 +284,7 @@ off
 self
 .
 _disable_buffering
-                
+            
 "
 flush
 "
@@ -294,7 +292,7 @@ flush
 self
 .
 _flush_buffered
-                
+            
 "
 clear
 "
@@ -302,9 +300,8 @@ clear
 self
 .
 _clear_buffer
-            
-}
         
+}
 )
     
 def
@@ -319,15 +316,15 @@ action
 =
 data
 [
-"
+'
 action
-"
+'
 ]
         
 if
-"
+'
 bypass_mozlog_buffer
-"
+'
 in
 data
 :
@@ -336,9 +333,9 @@ data
 .
 pop
 (
-"
+'
 bypass_mozlog_buffer
-"
+'
 )
             
 self

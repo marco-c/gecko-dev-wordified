@@ -200,9 +200,9 @@ read
 (
 )
 filename
-"
+'
 exec
-"
+'
 )
         
 exec
@@ -248,11 +248,11 @@ path
 join
 (
 testlibdir
-"
+'
 prologue
 .
 py
-"
+'
 )
 globals
 (
@@ -273,7 +273,7 @@ stderr
 .
 write
 (
-"
+'
 Error
 running
 GDB
@@ -281,7 +281,7 @@ prologue
 :
 \
 n
-"
+'
 )
     
 traceback

@@ -92,8 +92,12 @@ mozparsers
 .
 shared_telemetry_utils
 import
+(
+    
 static_assert
+    
 ParserError
+)
 from
 mozparsers
 import
@@ -114,7 +118,6 @@ path
 .
 abspath
 (
-    
 path
 .
 join
@@ -139,7 +142,6 @@ path
 .
 append
 (
-    
 path
 .
 join
@@ -403,7 +405,6 @@ extra_keys
             
 print
 (
-                
 "
 /
 /
@@ -418,12 +419,13 @@ s
 s
 ]
 "
-                
 %
 (
+                  
 e
 .
 category
+                  
 "
 "
 .
@@ -433,6 +435,7 @@ e
 .
 methods
 )
+                  
 "
 "
 .
@@ -443,11 +446,10 @@ e
 objects
 )
 )
-                
+                  
 file
 =
 output
-            
 )
             
 print
@@ -491,6 +493,7 @@ str
 indexes
 )
 )
+                  
 file
 =
 output
@@ -535,6 +538,7 @@ UINT32_MAX
 "
 %
 table_name
+                  
 "
 index
 overflow
@@ -747,7 +751,6 @@ structure
         
 print
 (
-            
 "
 {
 %
@@ -766,10 +769,9 @@ s
 s
 }
 "
-            
 %
+              
 (
-                
 string_table
 .
 stringIndex
@@ -778,7 +780,7 @@ e
 .
 category
 )
-                
+               
 string_table
 .
 stringIndex
@@ -787,7 +789,7 @@ e
 .
 expiry_version
 )
-                
+               
 extras
 [
 0
@@ -796,7 +798,7 @@ extras
 extra
 keys
 index
-                
+               
 extras
 [
 1
@@ -805,11 +807,11 @@ extras
 extra
 keys
 count
-                
+               
 e
 .
 dataset
-                
+               
 "
 |
 "
@@ -820,7 +822,7 @@ e
 .
 record_in_processes_enum
 )
-                
+               
 "
 |
 "
@@ -831,13 +833,11 @@ e
 .
 products_enum
 )
-            
 )
-            
+              
 file
 =
 output
-        
 )
     
 print
@@ -866,6 +866,7 @@ UINT32_MAX
 "
 %
 table_name
+                  
 "
 index
 overflow
@@ -997,7 +998,6 @@ objects
             
 print
 (
-                
 "
 /
 /
@@ -1014,8 +1014,8 @@ object
 %
 s
 "
-                
 %
+                  
 (
 e
 .
@@ -1023,16 +1023,14 @@ category
 method_name
 object_name
 )
-                
+                  
 file
 =
 output
-            
 )
             
 print
 (
-                
 "
 {
 gCommonEventInfo
@@ -1046,32 +1044,29 @@ d
 d
 }
 "
-                
 %
+                  
 (
-                    
 common_info_index
-                    
+                   
 string_table
 .
 stringIndex
 (
 method_name
 )
-                    
+                   
 string_table
 .
 stringIndex
 (
 object_name
 )
-                
 )
-                
+                  
 file
 =
 output
-            
 )
     
 print
@@ -1100,6 +1095,7 @@ UINT32_MAX
 "
 %
 table_name
+                  
 "
 index
 overflow
@@ -1295,54 +1291,51 @@ name
 =
 OrderedDict
 (
-            
 {
-                
-"
+            
+'
 methods
-"
+'
 :
 event
 .
 methods
-                
-"
+            
+'
 objects
-"
+'
 :
 event
 .
 objects
-                
-"
+            
+'
 extra_keys
-"
+'
 :
 event
 .
 extra_keys
-                
-"
+            
+'
 record_on_release
-"
+'
 :
 True
-                
 if
 event
 .
 dataset_short
 =
 =
-"
+'
 opt
 -
 out
-"
-                
+'
 else
 False
-                
+            
 #
 We
 don
@@ -1360,7 +1353,7 @@ re
 only
 meant
 for
-                
+            
 #
 use
 in
@@ -1375,31 +1368,30 @@ expire
 when
 rebuilding
 .
-                
-"
+            
+'
 expires
-"
+'
 :
 event
 .
 expiry_version
-                
-"
+            
+'
 expired
-"
+'
 :
 False
-                
-"
+            
+'
 products
-"
+'
 :
 event
 .
 products
-            
-}
         
+}
 )
     
 json
@@ -1635,7 +1627,6 @@ string_table_name
     
 static_assert
 (
-        
 output
 "
 sizeof
@@ -1649,11 +1640,11 @@ UINT32_MAX
 "
 %
 string_table_name
+                  
 "
 index
 overflow
 "
-    
 )
     
 print
@@ -1676,9 +1667,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

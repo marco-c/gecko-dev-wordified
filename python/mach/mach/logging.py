@@ -166,21 +166,21 @@ getdefaultencoding
         
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 if
 encoding
 in
 (
-"
+'
 ascii
-"
-"
+'
+'
 charmap
-"
+'
 )
 else
 encoding
@@ -202,9 +202,9 @@ encoding
 fh
 errors
 =
-"
+'
 replace
-"
+'
 )
         
 else
@@ -221,11 +221,12 @@ encoding
 fh
 .
 buffer
+                                              
 errors
 =
-"
+'
 replace
-"
+'
 )
     
 else
@@ -269,7 +270,7 @@ total
 )
     
 return
-"
+'
 %
 2d
 :
@@ -277,7 +278,7 @@ return
 05
 .
 2f
-"
+'
 %
 (
 minutes
@@ -320,17 +321,17 @@ if
 hasattr
 (
 record
-"
+'
 action
-"
+'
 )
 and
 hasattr
 (
 record
-"
+'
 params
-"
+'
 )
 :
             
@@ -341,18 +342,18 @@ record
 .
 action
 =
-"
+'
 unstructured
-"
+'
         
 record
 .
 params
 =
 {
-"
+'
 msg
-"
+'
 :
 record
 .
@@ -365,11 +366,11 @@ record
 .
 msg
 =
-"
+'
 {
 msg
 }
-"
+'
         
 return
 True
@@ -411,12 +412,12 @@ action
 getattr
 (
 record
-"
+'
 action
-"
-"
+'
+'
 UNKNOWN
-"
+'
 )
         
 params
@@ -424,9 +425,9 @@ params
 getattr
 (
 record
-"
+'
 params
-"
+'
 {
 }
 )
@@ -631,12 +632,12 @@ record
 )
         
 return
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
 format_seconds
@@ -747,8 +748,8 @@ terminal
 and
 blessings
 else
-"
-"
+'
+'
     
 def
 format
@@ -890,14 +891,14 @@ terminal
 .
         
 return
-"
+'
 %
 s
 %
 s
 %
 s
-"
+'
 %
 (
 t
@@ -940,9 +941,9 @@ s
 .
 startswith
 (
-"
+'
 REFTEST
-"
+'
 )
         
 if
@@ -962,11 +963,11 @@ s
 .
 startswith
 (
-"
+'
 TEST
 -
 PASS
-"
+'
 )
 :
             
@@ -997,11 +998,11 @@ s
 .
 startswith
 (
-"
+'
 TEST
 -
 UNEXPECTED
-"
+'
 )
 :
             
@@ -1032,11 +1033,11 @@ s
 .
 startswith
 (
-"
+'
 TEST
 -
 START
-"
+'
 )
 :
             
@@ -1067,11 +1068,11 @@ s
 .
 startswith
 (
-"
+'
 TEST
 -
 INFO
-"
+'
 )
 :
             
@@ -1103,9 +1104,9 @@ reftest
             
 result
 =
-"
+'
 REFTEST
-"
+'
 +
 result
         
@@ -1299,9 +1300,9 @@ logging
 .
 getLogger
 (
-"
+'
 mach
-"
+'
 )
         
 mach_logger
@@ -1381,6 +1382,7 @@ blessings
 .
 Terminal
 (
+                    
 stream
 =
 _wrap_stdstream
@@ -1510,7 +1512,6 @@ handler
 def
 add_terminal_logging
 (
-        
 self
 fh
 =
@@ -1522,13 +1523,13 @@ level
 logging
 .
 INFO
+                             
 write_interval
 =
 False
 write_times
 =
 True
-    
 )
 :
         
@@ -1556,17 +1557,17 @@ formatter
 =
 StructuredHumanFormatter
 (
-            
 self
 .
 start_time
+                                             
 write_interval
 =
 write_interval
+                                             
 write_times
 =
 write_times
-        
 )
         
 if
@@ -1579,17 +1580,17 @@ formatter
 =
 StructuredTerminalFormatter
 (
-                
 self
 .
 start_time
+                                                    
 write_interval
 =
 write_interval
+                                                    
 write_times
 =
 write_times
-            
 )
             
 formatter
@@ -2031,9 +2032,9 @@ logging
 .
 getLogger
 (
-"
+'
 glean
-"
+'
 )
 .
 setLevel
@@ -2168,6 +2169,7 @@ root_logger
 terminal
 =
 terminal
+                                        
 json
 =
 json

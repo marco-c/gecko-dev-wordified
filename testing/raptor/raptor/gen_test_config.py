@@ -98,12 +98,12 @@ dirname
 (
 here
 )
-"
+'
 webext
-"
-"
+'
+'
 raptor
-"
+'
 )
 LOG
 =
@@ -111,7 +111,7 @@ RaptorLogger
 (
 component
 =
-"
+'
 raptor
 -
 gen
@@ -119,7 +119,7 @@ gen
 test
 -
 config
-"
+'
 )
 FILE_CONTENTS
 =
@@ -258,16 +258,13 @@ browser_cycle
 def
 gen_test_config
 (
-    
 test
-    
 cs_port
-    
 post_startup_delay
-    
+                    
 host
 =
-"
+'
 127
 .
 0
@@ -275,16 +272,14 @@ host
 0
 .
 1
-"
-    
+'
 b_port
 =
 0
-    
 debug_mode
 =
 0
-    
+                    
 browser_cycle
 =
 1
@@ -323,7 +318,6 @@ None
 raise
 ValueError
 (
-            
 "
 Invalid
 URL
@@ -347,7 +341,6 @@ format
 host
 cs_port
 )
-        
 )
     
 config
@@ -389,6 +382,7 @@ test
     
 webext_background_script
 =
+(
 os
 .
 path
@@ -401,6 +395,7 @@ auto_gen_test_config
 .
 js
 "
+)
 )
     
 with

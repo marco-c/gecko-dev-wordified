@@ -138,44 +138,42 @@ test
 =
 Context
 (
-            
 {
-                
-"
+            
+'
 foo
-"
+'
 :
 (
 int
 int
-"
-"
-)
-                
-"
-bar
-"
-:
-(
-bool
-bool
-"
-"
-)
-                
-"
-baz
-"
-:
-(
-dict
-dict
-"
-"
+'
+'
 )
             
-}
+'
+bar
+'
+:
+(
+bool
+bool
+'
+'
+)
+            
+'
+baz
+'
+:
+(
+dict
+dict
+'
+'
+)
         
+}
 )
         
 self
@@ -196,9 +194,9 @@ assertEqual
 (
 test
 [
-"
+'
 foo
-"
+'
 ]
 0
 )
@@ -216,9 +214,9 @@ keys
 )
 )
 {
-"
+'
 foo
-"
+'
 }
 )
         
@@ -228,9 +226,9 @@ assertEqual
 (
 test
 [
-"
+'
 bar
-"
+'
 ]
 False
 )
@@ -248,12 +246,12 @@ keys
 )
 )
 {
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
+'
 }
 )
         
@@ -263,9 +261,9 @@ assertEqual
 (
 test
 [
-"
+'
 baz
-"
+'
 ]
 {
 }
@@ -284,15 +282,15 @@ keys
 )
 )
 {
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
-"
+'
+'
 baz
-"
+'
 }
 )
         
@@ -307,9 +305,9 @@ KeyError
             
 test
 [
-"
+'
 qux
-"
+'
 ]
         
 self
@@ -325,15 +323,15 @@ keys
 )
 )
 {
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
-"
+'
+'
 baz
-"
+'
 }
 )
     
@@ -348,40 +346,38 @@ test
 =
 Context
 (
-            
 {
-                
-"
+            
+'
 foo
-"
+'
 :
 (
 int
 int
-"
-"
+'
+'
 )
-                
-"
+            
+'
 baz
-"
+'
 :
 (
 dict
 list
-"
-"
+'
+'
 )
-            
-}
         
+}
 )
         
 test
 [
-"
+'
 foo
-"
+'
 ]
 =
 5
@@ -392,9 +388,9 @@ assertEqual
 (
 test
 [
-"
+'
 foo
-"
+'
 ]
 5
 )
@@ -410,9 +406,9 @@ ValueError
             
 test
 [
-"
+'
 foo
-"
+'
 ]
 =
 {
@@ -424,9 +420,9 @@ assertEqual
 (
 test
 [
-"
+'
 foo
-"
+'
 ]
 5
 )
@@ -442,31 +438,31 @@ KeyError
             
 test
 [
-"
+'
 bar
-"
+'
 ]
 =
 True
         
 test
 [
-"
+'
 baz
-"
+'
 ]
 =
 [
 (
-"
+'
 a
-"
+'
 1
 )
 (
-"
+'
 b
-"
+'
 2
 )
 ]
@@ -477,19 +473,19 @@ assertEqual
 (
 test
 [
-"
+'
 baz
-"
+'
 ]
 {
-"
+'
 a
-"
+'
 :
 1
-"
+'
 b
-"
+'
 :
 2
 }
@@ -506,44 +502,42 @@ test
 =
 Context
 (
-            
 {
-                
-"
+            
+'
 foo
-"
+'
 :
 (
 int
 int
-"
-"
+'
+'
 )
-                
-"
+            
+'
 bar
-"
+'
 :
 (
 bool
 bool
-"
-"
+'
+'
 )
-                
-"
+            
+'
 baz
-"
+'
 :
 (
 dict
 list
-"
-"
+'
+'
 )
-            
-}
         
+}
 )
         
 self
@@ -617,12 +611,12 @@ keys
 )
 )
 {
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
+'
 }
 )
         
@@ -632,9 +626,9 @@ assertEqual
 (
 test
 [
-"
+'
 foo
-"
+'
 ]
 1
 )
@@ -645,9 +639,9 @@ assertEqual
 (
 test
 [
-"
+'
 bar
-"
+'
 ]
 True
 )
@@ -658,15 +652,15 @@ update
 (
 [
 (
-"
+'
 bar
-"
+'
 False
 )
 (
-"
+'
 foo
-"
+'
 2
 )
 ]
@@ -678,9 +672,9 @@ assertEqual
 (
 test
 [
-"
+'
 foo
-"
+'
 ]
 2
 )
@@ -691,9 +685,9 @@ assertEqual
 (
 test
 [
-"
+'
 bar
-"
+'
 ]
 False
 )
@@ -704,24 +698,24 @@ update
 (
 [
 (
-"
+'
 foo
-"
+'
 0
 )
 (
-"
+'
 baz
-"
+'
 {
-"
+'
 a
-"
+'
 :
 1
-"
+'
 b
-"
+'
 :
 2
 }
@@ -735,9 +729,9 @@ assertEqual
 (
 test
 [
-"
+'
 foo
-"
+'
 ]
 0
 )
@@ -748,19 +742,19 @@ assertEqual
 (
 test
 [
-"
+'
 baz
-"
+'
 ]
 {
-"
+'
 a
-"
+'
 :
 1
-"
+'
 b
-"
+'
 :
 2
 }
@@ -772,26 +766,26 @@ update
 (
 [
 (
-"
+'
 foo
-"
+'
 42
 )
 (
-"
+'
 baz
-"
+'
 [
 (
-"
+'
 c
-"
+'
 3
 )
 (
-"
+'
 d
-"
+'
 4
 )
 ]
@@ -805,9 +799,9 @@ assertEqual
 (
 test
 [
-"
+'
 foo
-"
+'
 ]
 42
 )
@@ -818,19 +812,19 @@ assertEqual
 (
 test
 [
-"
+'
 baz
-"
+'
 ]
 {
-"
+'
 c
-"
+'
 :
 3
-"
+'
 d
-"
+'
 :
 4
 }
@@ -907,9 +901,9 @@ path
 .
 abspath
 (
-"
+'
 foo
-"
+'
 )
         
 test
@@ -988,9 +982,9 @@ path
 .
 abspath
 (
-"
+'
 bar
-"
+'
 )
         
 test
@@ -1070,9 +1064,9 @@ path
 .
 abspath
 (
-"
+'
 qux
-"
+'
 )
         
 test
@@ -1150,9 +1144,9 @@ path
 .
 abspath
 (
-"
+'
 hoge
-"
+'
 )
         
 test
@@ -1222,9 +1216,9 @@ path
 .
 abspath
 (
-"
+'
 fuga
-"
+'
 )
         
 #
@@ -1794,9 +1788,9 @@ mozpath
 .
 abspath
 (
-"
+'
 obj
-"
+'
 )
         
 test
@@ -1814,9 +1808,9 @@ mozpath
 .
 abspath
 (
-"
+'
 foo
-"
+'
 )
         
 test
@@ -1845,8 +1839,8 @@ assertEqual
 test
 .
 relsrcdir
-"
-"
+'
+'
 )
         
 self
@@ -1868,8 +1862,8 @@ assertEqual
 test
 .
 relobjdir
-"
-"
+'
+'
 )
         
 foobar
@@ -1880,11 +1874,11 @@ path
 .
 abspath
 (
-"
+'
 foo
 /
 bar
-"
+'
 )
         
 test
@@ -1908,9 +1902,9 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
+'
 )
 )
         
@@ -1921,9 +1915,9 @@ assertEqual
 test
 .
 relsrcdir
-"
+'
 foo
-"
+'
 )
         
 self
@@ -1945,8 +1939,8 @@ assertEqual
 test
 .
 relobjdir
-"
-"
+'
+'
 )
 class
 TestSymbols
@@ -1996,10 +1990,10 @@ self
 .
 assertNotIn
 (
-"
+'
 \
 r
-"
+'
 doc
 )
         
@@ -2009,10 +2003,10 @@ doc
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
         
 #
@@ -2095,8 +2089,8 @@ lines
 strip
 (
 )
-"
-"
+'
+'
 )
     
 def
@@ -2263,9 +2257,9 @@ mozpath
 .
 abspath
 (
-"
+'
 obj
-"
+'
 )
     
 def
@@ -2301,14 +2295,14 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -2332,14 +2326,14 @@ join
 config
 .
 topsrcdir
-"
+'
 bar
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -2348,9 +2342,9 @@ path1
 Path
 (
 ctxt1
-"
+'
 qux
-"
+'
 )
         
 self
@@ -2366,9 +2360,9 @@ self
 assertEqual
 (
 path1
-"
+'
 qux
-"
+'
 )
         
 self
@@ -2378,6 +2372,7 @@ assertEqual
 path1
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2385,12 +2380,12 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2399,14 +2394,14 @@ path2
 Path
 (
 ctxt2
-"
+'
 .
 .
 /
 foo
 /
 qux
-"
+'
 )
         
 self
@@ -2422,14 +2417,14 @@ self
 assertEqual
 (
 path2
-"
+'
 .
 .
 /
 foo
 /
 qux
-"
+'
 )
         
 self
@@ -2439,6 +2434,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2446,12 +2442,12 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2467,12 +2463,11 @@ self
 .
 assertEqual
 (
-            
 path1
 .
 join
 (
-"
+'
 .
 .
 /
@@ -2482,11 +2477,11 @@ join
 bar
 /
 qux
-"
+'
 )
 .
 full_path
-            
+                         
 mozpath
 .
 join
@@ -2494,14 +2489,13 @@ join
 config
 .
 topsrcdir
-"
+'
 bar
-"
-"
+'
+'
 qux
-"
+'
 )
-        
 )
         
 path1
@@ -2509,12 +2503,12 @@ path1
 Path
 (
 ctxt1
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2530,12 +2524,12 @@ self
 assertEqual
 (
 path1
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2545,6 +2539,7 @@ assertEqual
 path1
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2552,12 +2547,12 @@ join
 config
 .
 topsrcdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2566,12 +2561,12 @@ path2
 Path
 (
 ctxt2
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2587,12 +2582,12 @@ self
 assertEqual
 (
 path2
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2602,6 +2597,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2609,12 +2605,12 @@ join
 config
 .
 topsrcdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2631,10 +2627,10 @@ path1
 Path
 (
 ctxt1
-"
+'
 !
 qux
-"
+'
 )
         
 self
@@ -2650,10 +2646,10 @@ self
 assertEqual
 (
 path1
-"
+'
 !
 qux
-"
+'
 )
         
 self
@@ -2663,6 +2659,7 @@ assertEqual
 path1
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2670,12 +2667,12 @@ join
 config
 .
 topobjdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2684,7 +2681,7 @@ path2
 Path
 (
 ctxt2
-"
+'
 !
 .
 .
@@ -2692,7 +2689,7 @@ ctxt2
 foo
 /
 qux
-"
+'
 )
         
 self
@@ -2708,7 +2705,7 @@ self
 assertEqual
 (
 path2
-"
+'
 !
 .
 .
@@ -2716,7 +2713,7 @@ path2
 foo
 /
 qux
-"
+'
 )
         
 self
@@ -2726,6 +2723,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2733,12 +2731,12 @@ join
 config
 .
 topobjdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2755,13 +2753,13 @@ path1
 Path
 (
 ctxt1
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2777,13 +2775,13 @@ self
 assertEqual
 (
 path1
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2793,6 +2791,7 @@ assertEqual
 path1
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2800,12 +2799,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2814,13 +2813,13 @@ path2
 Path
 (
 ctxt2
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2836,13 +2835,13 @@ self
 assertEqual
 (
 path2
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2852,6 +2851,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2859,12 +2859,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2897,13 +2897,13 @@ self
 assertEqual
 (
 path1
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2913,6 +2913,7 @@ assertEqual
 path1
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2920,12 +2921,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -2950,13 +2951,13 @@ self
 assertEqual
 (
 path2
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -2966,6 +2967,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -2973,12 +2975,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3010,13 +3012,13 @@ self
 assertEqual
 (
 path1
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -3026,6 +3028,7 @@ assertEqual
 path1
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3033,12 +3036,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3070,13 +3073,13 @@ self
 assertEqual
 (
 path2
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -3086,6 +3089,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3093,12 +3097,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3143,14 +3147,14 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -3159,9 +3163,9 @@ path
 SourcePath
 (
 ctxt
-"
+'
 qux
-"
+'
 )
         
 self
@@ -3169,9 +3173,9 @@ self
 assertEqual
 (
 path
-"
+'
 qux
-"
+'
 )
         
 self
@@ -3181,6 +3185,7 @@ assertEqual
 path
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3188,12 +3193,12 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3204,6 +3209,7 @@ assertEqual
 path
 .
 translated
+                         
 mozpath
 .
 join
@@ -3211,12 +3217,12 @@ join
 config
 .
 topobjdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3225,14 +3231,14 @@ path
 SourcePath
 (
 ctxt
-"
+'
 .
 .
 /
 bar
 /
 qux
-"
+'
 )
         
 self
@@ -3240,14 +3246,14 @@ self
 assertEqual
 (
 path
-"
+'
 .
 .
 /
 bar
 /
 qux
-"
+'
 )
         
 self
@@ -3257,6 +3263,7 @@ assertEqual
 path
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3264,12 +3271,12 @@ join
 config
 .
 topsrcdir
-"
+'
 bar
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3280,6 +3287,7 @@ assertEqual
 path
 .
 translated
+                         
 mozpath
 .
 join
@@ -3287,12 +3295,12 @@ join
 config
 .
 topobjdir
-"
+'
 bar
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3301,12 +3309,12 @@ path
 SourcePath
 (
 ctxt
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -3314,12 +3322,12 @@ self
 assertEqual
 (
 path
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -3329,6 +3337,7 @@ assertEqual
 path
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3336,12 +3345,12 @@ join
 config
 .
 topsrcdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3352,6 +3361,7 @@ assertEqual
 path
 .
 translated
+                         
 mozpath
 .
 join
@@ -3359,12 +3369,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3380,7 +3390,7 @@ ValueError
 SourcePath
 (
 ctxt
-"
+'
 !
 .
 .
@@ -3388,7 +3398,7 @@ ctxt
 bar
 /
 qux
-"
+'
 )
         
 with
@@ -3403,13 +3413,13 @@ ValueError
 SourcePath
 (
 ctxt
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 path
@@ -3432,12 +3442,12 @@ self
 assertEqual
 (
 path
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -3447,6 +3457,7 @@ assertEqual
 path
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3454,12 +3465,12 @@ join
 config
 .
 topsrcdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3470,6 +3481,7 @@ assertEqual
 path
 .
 translated
+                         
 mozpath
 .
 join
@@ -3477,12 +3489,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3534,14 +3546,14 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -3550,10 +3562,10 @@ path
 ObjDirPath
 (
 ctxt
-"
+'
 !
 qux
-"
+'
 )
         
 self
@@ -3561,10 +3573,10 @@ self
 assertEqual
 (
 path
-"
+'
 !
 qux
-"
+'
 )
         
 self
@@ -3574,6 +3586,7 @@ assertEqual
 path
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3581,12 +3594,12 @@ join
 config
 .
 topobjdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3595,7 +3608,7 @@ path
 ObjDirPath
 (
 ctxt
-"
+'
 !
 .
 .
@@ -3603,7 +3616,7 @@ ctxt
 bar
 /
 qux
-"
+'
 )
         
 self
@@ -3611,7 +3624,7 @@ self
 assertEqual
 (
 path
-"
+'
 !
 .
 .
@@ -3619,7 +3632,7 @@ path
 bar
 /
 qux
-"
+'
 )
         
 self
@@ -3629,6 +3642,7 @@ assertEqual
 path
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3636,12 +3650,12 @@ join
 config
 .
 topobjdir
-"
+'
 bar
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3650,13 +3664,13 @@ path
 ObjDirPath
 (
 ctxt
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -3664,13 +3678,13 @@ self
 assertEqual
 (
 path
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -3680,6 +3694,7 @@ assertEqual
 path
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3687,12 +3702,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3710,14 +3725,14 @@ path
 ObjDirPath
 (
 ctxt
-"
+'
 .
 .
 /
 bar
 /
 qux
-"
+'
 )
         
 with
@@ -3734,12 +3749,12 @@ path
 ObjDirPath
 (
 ctxt
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 path
@@ -3762,13 +3777,13 @@ self
 assertEqual
 (
 path
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -3778,6 +3793,7 @@ assertEqual
 path
 .
 full_path
+                         
 mozpath
 .
 join
@@ -3785,12 +3801,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -3842,14 +3858,14 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -3858,11 +3874,11 @@ path
 AbsolutePath
 (
 ctxt
-"
+'
 %
 /
 qux
-"
+'
 )
         
 self
@@ -3870,11 +3886,11 @@ self
 assertEqual
 (
 path
-"
+'
 %
 /
 qux
-"
+'
 )
         
 self
@@ -3884,10 +3900,10 @@ assertEqual
 path
 .
 full_path
-"
+'
 /
 qux
-"
+'
 )
         
 with
@@ -3904,10 +3920,10 @@ path
 AbsolutePath
 (
 ctxt
-"
+'
 %
 qux
-"
+'
 )
     
 def
@@ -3943,14 +3959,14 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -3974,14 +3990,14 @@ join
 config
 .
 topsrcdir
-"
+'
 bar
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -3990,9 +4006,9 @@ path1
 Path
 (
 ctxt1
-"
+'
 qux
-"
+'
 )
         
 path2
@@ -4016,9 +4032,9 @@ self
 assertEqual
 (
 path2
-"
+'
 qux
-"
+'
 )
         
 self
@@ -4038,6 +4054,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -4045,12 +4062,12 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -4059,14 +4076,14 @@ path1
 Path
 (
 ctxt1
-"
+'
 .
 .
 /
 bar
 /
 qux
-"
+'
 )
         
 path2
@@ -4090,14 +4107,14 @@ self
 assertEqual
 (
 path2
-"
+'
 .
 .
 /
 bar
 /
 qux
-"
+'
 )
         
 self
@@ -4117,6 +4134,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -4124,12 +4142,12 @@ join
 config
 .
 topsrcdir
-"
+'
 bar
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -4138,12 +4156,12 @@ path1
 Path
 (
 ctxt1
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 path2
@@ -4167,12 +4185,12 @@ self
 assertEqual
 (
 path2
-"
+'
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -4192,6 +4210,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -4199,12 +4218,12 @@ join
 config
 .
 topsrcdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -4213,10 +4232,10 @@ path1
 Path
 (
 ctxt1
-"
+'
 !
 qux
-"
+'
 )
         
 path2
@@ -4240,10 +4259,10 @@ self
 assertEqual
 (
 path2
-"
+'
 !
 qux
-"
+'
 )
         
 self
@@ -4263,6 +4282,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -4270,12 +4290,12 @@ join
 config
 .
 topobjdir
-"
+'
 foo
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -4284,7 +4304,7 @@ path1
 Path
 (
 ctxt1
-"
+'
 !
 .
 .
@@ -4292,7 +4312,7 @@ ctxt1
 bar
 /
 qux
-"
+'
 )
         
 path2
@@ -4316,7 +4336,7 @@ self
 assertEqual
 (
 path2
-"
+'
 !
 .
 .
@@ -4324,7 +4344,7 @@ path2
 bar
 /
 qux
-"
+'
 )
         
 self
@@ -4344,6 +4364,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -4351,12 +4372,12 @@ join
 config
 .
 topobjdir
-"
+'
 bar
-"
-"
+'
+'
 qux
-"
+'
 )
 )
         
@@ -4365,13 +4386,13 @@ path1
 Path
 (
 ctxt1
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 path2
@@ -4395,13 +4416,13 @@ self
 assertEqual
 (
 path2
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
 )
         
 self
@@ -4421,6 +4442,7 @@ assertEqual
 path2
 .
 full_path
+                         
 mozpath
 .
 join
@@ -4428,12 +4450,12 @@ join
 config
 .
 topobjdir
-"
+'
 qux
-"
-"
+'
+'
 qux
-"
+'
 )
 )
     
@@ -4470,14 +4492,14 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -4501,14 +4523,14 @@ join
 config
 .
 topsrcdir
-"
+'
 bar
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -4516,7 +4538,7 @@ paths
 =
 [
             
-"
+'
 !
 .
 .
@@ -4524,40 +4546,40 @@ paths
 bar
 /
 qux
-"
+'
             
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
             
-"
+'
 !
 qux
-"
+'
             
-"
+'
 .
 .
 /
 bar
 /
 qux
-"
+'
             
-"
+'
 /
 qux
 /
 qux
-"
+'
             
-"
+'
 qux
-"
+'
         
 ]
         
@@ -4615,15 +4637,15 @@ self
 .
 assertEqual
 (
-                
 p_path
 .
 join
 (
-"
+'
 foo
-"
+'
 )
+                             
 Path
 (
 ctxt1
@@ -4632,12 +4654,11 @@ mozpath
 join
 (
 p_str
-"
+'
 foo
-"
+'
 )
 )
-            
 )
         
 l2
@@ -4745,22 +4766,18 @@ ContextDerivedTypedListWithItems
 (
             
 Path
-            
 StrictOrderingOnAppendListWithFlagsFactory
 (
-                
 {
-                    
-"
+                
+'
 foo
-"
+'
 :
 bool
-                
-}
             
+}
 )
-        
 )
         
 l
@@ -4880,14 +4897,14 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -4911,14 +4928,14 @@ join
 config
 .
 topsrcdir
-"
+'
 bar
-"
-"
+'
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -4926,7 +4943,7 @@ paths
 =
 [
             
-"
+'
 !
 .
 .
@@ -4934,40 +4951,40 @@ paths
 bar
 /
 qux
-"
+'
             
-"
+'
 !
 /
 qux
 /
 qux
-"
+'
             
-"
+'
 !
 qux
-"
+'
             
-"
+'
 .
 .
 /
 bar
 /
 qux
-"
+'
             
-"
+'
 /
 qux
 /
 qux
-"
+'
             
-"
+'
 qux
-"
+'
         
 ]
         
@@ -5043,15 +5060,15 @@ self
 .
 assertEqual
 (
-                    
 p_path
 .
 join
 (
-"
+'
 foo
-"
+'
 )
+                                 
 Path
 (
 ctxt1
@@ -5060,12 +5077,11 @@ mozpath
 join
 (
 p_str
-"
+'
 foo
-"
+'
 )
 )
-                
 )
         
 l2
@@ -5216,17 +5232,18 @@ T
 ContextDerivedTypedRecord
 (
 (
-"
+'
 field1
-"
+'
 six
 .
 text_type
 )
+                                      
 (
-"
+'
 field2
-"
+'
 list
 )
 )
@@ -5245,8 +5262,8 @@ assertEqual
 inst
 .
 field1
-"
-"
+'
+'
 )
         
 self
@@ -5264,9 +5281,9 @@ inst
 .
 field1
 =
-"
+'
 foo
-"
+'
         
 inst
 .
@@ -5274,9 +5291,9 @@ field2
 +
 =
 [
-"
+'
 bar
-"
+'
 ]
         
 self
@@ -5286,9 +5303,9 @@ assertEqual
 inst
 .
 field1
-"
+'
 foo
-"
+'
 )
         
 self
@@ -5299,9 +5316,9 @@ inst
 .
 field2
 [
-"
+'
 bar
-"
+'
 ]
 )
         
@@ -5333,17 +5350,18 @@ T
 ContextDerivedTypedRecord
 (
 (
-"
+'
 field1
-"
+'
 six
 .
 text_type
 )
+                                      
 (
-"
+'
 field2
-"
+'
 list
 )
 )
@@ -5367,9 +5385,9 @@ field2
 +
 =
 (
-"
+'
 bar
-"
+'
 )
         
 self
@@ -5379,9 +5397,9 @@ assertEqual
 inst
 .
 field1
-"
+'
 3
-"
+'
 )
         
 self
@@ -5392,9 +5410,9 @@ inst
 .
 field2
 [
-"
+'
 bar
-"
+'
 ]
 )
         
@@ -5441,19 +5459,19 @@ Context
 files
 =
 {
-"
+'
 moz
 .
 build
-"
+'
 :
 Files
 (
 c
-"
+'
 *
 *
-"
+'
 )
 }
         
@@ -5461,31 +5479,28 @@ self
 .
 assertEqual
 (
-            
 Files
 .
 aggregate
 (
 files
 )
-            
 {
-                
-"
+            
+'
 bug_component_counts
-"
+'
 :
 [
 ]
-                
-"
+            
+'
 recommended_bug_component
-"
+'
 :
 None
-            
-}
         
+}
 )
     
 def
@@ -5508,36 +5523,38 @@ f
 Files
 (
 c
-"
+'
 *
 *
-"
+'
 )
         
 f
 [
-"
+'
 BUG_COMPONENT
-"
+'
 ]
 =
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
         
 files
 =
 {
-"
+'
 moz
 .
 build
-"
+'
 :
 f
 }
@@ -5546,49 +5563,50 @@ self
 .
 assertEqual
 (
-            
 Files
 .
 aggregate
 (
 files
 )
-            
 {
-                
-"
+            
+'
 bug_component_counts
-"
+'
 :
 [
 (
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
 1
 )
 ]
-                
-"
+            
+'
 recommended_bug_component
-"
+'
 :
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
-            
-}
         
+}
 )
     
 def
@@ -5611,26 +5629,28 @@ f1
 Files
 (
 c
-"
+'
 *
 *
-"
+'
 )
         
 f1
 [
-"
+'
 BUG_COMPONENT
-"
+'
 ]
 =
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
         
 f2
@@ -5638,44 +5658,46 @@ f2
 Files
 (
 c
-"
+'
 *
 *
-"
+'
 )
         
 f2
 [
-"
+'
 BUG_COMPONENT
-"
+'
 ]
 =
 (
-"
+u
+'
 Product2
-"
-"
+'
+u
+'
 Component2
-"
+'
 )
         
 files
 =
 {
-"
+'
 a
-"
+'
 :
 f1
-"
+'
 b
-"
+'
 :
 f2
-"
+'
 c
-"
+'
 :
 f1
 }
@@ -5684,63 +5706,66 @@ self
 .
 assertEqual
 (
-            
 Files
 .
 aggregate
 (
 files
 )
-            
 {
-                
-"
+            
+'
 bug_component_counts
-"
+'
 :
 [
-                    
+                
 (
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
 2
 )
-                    
+                
 (
 (
-"
+u
+'
 Product2
-"
-"
+'
+u
+'
 Component2
-"
+'
 )
 1
 )
-                
+            
 ]
-                
-"
+            
+'
 recommended_bug_component
-"
+'
 :
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
-            
-}
         
+}
 )
     
 def
@@ -5786,26 +5811,28 @@ f1
 Files
 (
 c
-"
+'
 *
 *
-"
+'
 )
         
 f1
 [
-"
+'
 BUG_COMPONENT
-"
+'
 ]
 =
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
         
 f2
@@ -5813,39 +5840,41 @@ f2
 Files
 (
 c
-"
+'
 *
 *
-"
+'
 )
         
 f2
 [
-"
+'
 BUG_COMPONENT
-"
+'
 ]
 =
 (
-"
+u
+'
 Product2
-"
-"
+'
+u
+'
 Component2
-"
+'
 )
         
 files
 =
 {
-"
+'
 a
-"
+'
 :
 f1
-"
+'
 b
-"
+'
 :
 f2
 }
@@ -5854,56 +5883,57 @@ self
 .
 assertEqual
 (
-            
 Files
 .
 aggregate
 (
 files
 )
-            
 {
-                
-"
+            
+'
 bug_component_counts
-"
+'
 :
 [
-                    
+                
 (
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
 1
 )
-                    
+                
 (
 (
-"
+u
+'
 Product2
-"
-"
+'
+u
+'
 Component2
-"
+'
 )
 1
 )
-                
+            
 ]
-                
-"
+            
+'
 recommended_bug_component
-"
+'
 :
 None
-            
-}
         
+}
 )
     
 def
@@ -5926,28 +5956,30 @@ f1
 Files
 (
 c
-"
+'
 a
 /
 *
 *
-"
+'
 )
         
 f1
 [
-"
+'
 BUG_COMPONENT
-"
+'
 ]
 =
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
         
 f2
@@ -5955,57 +5987,59 @@ f2
 Files
 (
 c
-"
+'
 b
 /
 *
 *
-"
-"
+'
+'
 a
 /
 bar
-"
+'
 )
         
 f2
 [
-"
+'
 BUG_COMPONENT
-"
+'
 ]
 =
 (
-"
+u
+'
 Product2
-"
-"
+'
+u
+'
 Component2
-"
+'
 )
         
 files
 =
 {
-"
+'
 a
 /
 foo
-"
+'
 :
 f1
-"
+'
 a
 /
 bar
-"
+'
 :
 f2
-"
+'
 b
 /
 foo
-"
+'
 :
 f2
 }
@@ -6014,71 +6048,74 @@ self
 .
 assertEqual
 (
-            
 Files
 .
 aggregate
 (
 files
 )
-            
 {
-                
-"
+            
+'
 bug_component_counts
-"
+'
 :
 [
-                    
+                
 (
 (
-"
+u
+'
 Product2
-"
-"
+'
+u
+'
 Component2
-"
+'
 )
 2
 )
-                    
+                
 (
 (
-"
+u
+'
 Product1
-"
-"
+'
+u
+'
 Component1
-"
+'
 )
 1
 )
-                
+            
 ]
-                
-"
+            
+'
 recommended_bug_component
-"
+'
 :
 (
-"
+u
+'
 Product2
-"
-"
+'
+u
+'
 Component2
-"
+'
 )
-            
-}
         
+}
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

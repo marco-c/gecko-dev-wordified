@@ -146,9 +146,9 @@ mozpath
 join
 (
 test_data_path
-"
+'
 data
-"
+'
 )
 class
 TestSandbox
@@ -169,26 +169,22 @@ self
 return
 Sandbox
 (
-            
 Context
 (
-                
 {
-                    
-"
+            
+'
 DIRS
-"
+'
 :
 (
 list
 list
 None
 )
-                
-}
-            
-)
         
+}
+)
 )
     
 def
@@ -216,20 +212,20 @@ sandbox
 .
 exec_source
 (
-"
+'
 foo
 =
 True
-"
+'
 mozpath
 .
 abspath
 (
-"
+'
 foo
 .
 py
-"
+'
 )
 )
         
@@ -237,9 +233,9 @@ self
 .
 assertNotIn
 (
-"
+'
 foo
-"
+'
 context
 )
         
@@ -254,11 +250,11 @@ mozpath
 .
 abspath
 (
-"
+'
 foo
 .
 py
-"
+'
 )
 )
         
@@ -276,11 +272,11 @@ mozpath
 .
 abspath
 (
-"
+'
 foo
 .
 py
-"
+'
 )
 ]
 )
@@ -316,22 +312,22 @@ sandbox
 .
 exec_source
 (
-"
+'
 2f23
 ;
 k
 ;
 asfj
-"
+'
 mozpath
 .
 abspath
 (
-"
+'
 foo
 .
 py
-"
+'
 )
 )
         
@@ -349,11 +345,11 @@ mozpath
 .
 abspath
 (
-"
+'
 foo
 .
 py
-"
+'
 )
 ]
 )
@@ -383,11 +379,11 @@ mozpath
 .
 abspath
 (
-"
+'
 foo
 .
 py
-"
+'
 )
 )
     
@@ -421,10 +417,10 @@ sandbox
 .
 exec_source
 (
-"
+'
 import
 sys
-"
+'
 )
         
 self
@@ -501,17 +497,17 @@ assertEqual
 (
 sandbox
 [
-"
+'
 DIRS
-"
+'
 ]
 [
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
+'
 ]
 )
     
@@ -545,11 +541,11 @@ sandbox
 .
 exec_source
 (
-"
+'
 ILLEGAL
 =
 True
-"
+'
 )
         
 e
@@ -586,9 +582,9 @@ args
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -601,9 +597,9 @@ args
 [
 1
 ]
-"
+'
 set_unknown
-"
+'
 )
     
 def
@@ -668,14 +664,14 @@ assertEqual
 (
 sandbox
 [
-"
+'
 DIRS
-"
+'
 ]
 [
-"
+'
 foo
-"
+'
 ]
 )
         
@@ -713,9 +709,9 @@ args
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -728,9 +724,9 @@ args
 [
 1
 ]
-"
+'
 reassign
-"
+'
 )
         
 self
@@ -743,9 +739,9 @@ args
 [
 2
 ]
-"
+'
 DIRS
-"
+'
 )
     
 def
@@ -778,11 +774,11 @@ sandbox
 .
 exec_source
 (
-"
+'
 sorted
 =
 1
-"
+'
 )
         
 e
@@ -819,11 +815,11 @@ args
 [
 0
 ]
-"
+'
 Cannot
 reassign
 builtins
-"
+'
 )
 class
 TestedSandbox
@@ -832,9 +828,9 @@ MozbuildSandbox
 )
 :
     
-"
-"
-"
+'
+'
+'
 Version
 of
 MozbuildSandbox
@@ -866,9 +862,9 @@ test
 code
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 normalize_path
@@ -883,6 +879,7 @@ mozpath
 .
 normpath
 (
+            
 mozpath
 .
 join
@@ -946,8 +943,8 @@ self
 source
 path
 =
-"
-"
+'
+'
 )
 :
         
@@ -959,8 +956,8 @@ self
 .
 exec_source
 (
-            
 source
+                                               
 self
 .
 normalize_path
@@ -970,9 +967,8 @@ path
 if
 path
 else
-"
-"
-        
+'
+'
 )
 class
 TestMozbuildSandbox
@@ -1066,11 +1062,11 @@ sandbox
 .
 normalize_path
 (
-"
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -1088,9 +1084,9 @@ assertEqual
 (
 sandbox
 [
-"
+'
 TOPSRCDIR
-"
+'
 ]
 config
 .
@@ -1103,9 +1099,9 @@ assertEqual
 (
 sandbox
 [
-"
+'
 TOPOBJDIR
-"
+'
 ]
 config
 .
@@ -1118,12 +1114,12 @@ assertEqual
 (
 sandbox
 [
-"
+'
 RELATIVEDIR
-"
+'
 ]
-"
-"
+'
+'
 )
         
 self
@@ -1132,9 +1128,9 @@ assertEqual
 (
 sandbox
 [
-"
+'
 SRCDIR
-"
+'
 ]
 config
 .
@@ -1147,9 +1143,9 @@ assertEqual
 (
 sandbox
 [
-"
+'
 OBJDIR
-"
+'
 ]
 config
 .
@@ -1201,11 +1197,11 @@ sandbox
 .
 normalize_path
 (
-"
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -1280,7 +1276,7 @@ sandbox
 .
 normalize_path
 (
-"
+'
 foo
 /
 bar
@@ -1288,7 +1284,7 @@ bar
 moz
 .
 build
-"
+'
 )
 )
         
@@ -1306,9 +1302,9 @@ assertEqual
 (
 sandbox
 [
-"
+'
 TOPSRCDIR
-"
+'
 ]
 config
 .
@@ -1321,9 +1317,9 @@ assertEqual
 (
 sandbox
 [
-"
+'
 TOPOBJDIR
-"
+'
 ]
 config
 .
@@ -1336,15 +1332,15 @@ assertEqual
 (
 sandbox
 [
-"
+'
 RELATIVEDIR
-"
+'
 ]
-"
+'
 foo
 /
 bar
-"
+'
 )
         
 self
@@ -1353,10 +1349,11 @@ assertEqual
 (
 sandbox
 [
-"
+'
 SRCDIR
-"
+'
 ]
+                         
 mozpath
 .
 join
@@ -1364,11 +1361,11 @@ join
 config
 .
 topsrcdir
-"
+'
 foo
 /
 bar
-"
+'
 )
 )
         
@@ -1378,10 +1375,11 @@ assertEqual
 (
 sandbox
 [
-"
+'
 OBJDIR
-"
+'
 ]
+                         
 mozpath
 .
 join
@@ -1389,11 +1387,11 @@ join
 config
 .
 topobjdir
-"
+'
 foo
 /
 bar
-"
+'
 )
 )
     
@@ -1426,18 +1424,18 @@ assertEqual
 (
 sandbox
 [
-"
+'
 CONFIG
-"
+'
 ]
 [
-"
+'
 MOZ_TRUE
-"
+'
 ]
-"
+'
 1
-"
+'
 )
         
 self
@@ -1446,22 +1444,22 @@ assertEqual
 (
 sandbox
 [
-"
+'
 CONFIG
-"
+'
 ]
 [
-"
+'
 MOZ_FOO
-"
+'
 ]
 config
 .
 substs
 [
-"
+'
 MOZ_FOO
-"
+'
 ]
 )
         
@@ -1480,14 +1478,14 @@ self
 .
 assertNotIn
 (
-"
+'
 MISSING
-"
+'
 sandbox
 [
-"
+'
 CONFIG
-"
+'
 ]
 )
         
@@ -1497,14 +1495,14 @@ assertIsNone
 (
 sandbox
 [
-"
+'
 CONFIG
-"
+'
 ]
 [
-"
+'
 MISSING
-"
+'
 ]
 )
         
@@ -1533,18 +1531,18 @@ Exception
             
 sandbox
 [
-"
+'
 CONFIG
-"
+'
 ]
 [
-"
+'
 FOO
-"
+'
 ]
 =
-"
-"
+'
+'
     
 def
 test_special_variables
@@ -1571,11 +1569,11 @@ sandbox
 .
 normalize_path
 (
-"
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -1616,9 +1614,9 @@ sandbox
 (
 data_path
 =
-"
+'
 templates
-"
+'
 )
         
 #
@@ -1643,11 +1641,11 @@ template_sandbox
 .
 exec_file
 (
-"
+'
 templates
 .
 mozbuild
-"
+'
 )
         
 config
@@ -1659,46 +1657,43 @@ MockConfig
 exports
 =
 {
-"
+'
 DIST_SUBDIR
-"
+'
 :
-"
+'
 browser
-"
+'
 }
         
 sandbox
 =
 TestedSandbox
 (
-            
 Context
 (
 VARIABLES
 config
 )
-            
 metadata
 =
 {
-                
-"
+            
+'
 exports
-"
+'
 :
 exports
-                
-"
+            
+'
 templates
-"
+'
 :
 template_sandbox
 .
 templates
-            
-}
         
+}
 )
         
 self
@@ -1707,13 +1702,13 @@ assertEqual
 (
 sandbox
 [
-"
+'
 DIST_SUBDIR
-"
+'
 ]
-"
+'
 browser
-"
+'
 )
         
 #
@@ -1726,18 +1721,18 @@ sandbox
 .
 exec_source
 (
-"
+'
 Template
 (
 [
 ]
 )
-"
-"
+'
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 sandbox
@@ -1783,13 +1778,13 @@ assertEqual
 (
 sandbox
 [
-"
+'
 DIST_SUBDIR
-"
+'
 ]
-"
+'
 foo
-"
+'
 )
         
 e
@@ -1826,9 +1821,9 @@ args
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -1841,9 +1836,9 @@ args
 [
 1
 ]
-"
+'
 reassign
-"
+'
 )
         
 self
@@ -1856,9 +1851,9 @@ args
 [
 2
 ]
-"
+'
 DIST_SUBDIR
-"
+'
 )
     
 def
@@ -1876,81 +1871,77 @@ sandbox
 (
 data_path
 =
-"
+'
 include
 -
 basic
-"
+'
 )
         
 sandbox
 .
 exec_file
 (
-"
+'
 moz
 .
 build
-"
+'
 )
         
 self
 .
 assertEqual
 (
-            
 sandbox
 [
-"
+'
 DIRS
-"
+'
 ]
-            
 [
-                
+            
 sandbox
 .
 source_path
 (
-"
+'
 foo
-"
-)
-                
-sandbox
-.
-source_path
-(
-"
-bar
-"
+'
 )
             
-]
+sandbox
+.
+source_path
+(
+'
+bar
+'
+)
         
+]
 )
         
 self
 .
 assertEqual
 (
-            
 sandbox
 .
 _context
 .
 main_path
+                         
 sandbox
 .
 normalize_path
 (
-"
+'
 moz
 .
 build
-"
+'
 )
-        
 )
         
 self
@@ -1983,13 +1974,13 @@ sandbox
 (
 data_path
 =
-"
+'
 include
 -
 outside
 -
 topsrcdir
-"
+'
 )
         
 with
@@ -2007,37 +1998,36 @@ sandbox
 .
 exec_file
 (
-"
+'
 relative
 .
 build
-"
+'
 )
         
 self
 .
 assertEqual
 (
-            
 se
 .
 exception
 .
 illegal_path
+                         
 sandbox
 .
 normalize_path
 (
-"
+'
 .
 .
 /
 moz
 .
 build
-"
+'
 )
-        
 )
     
 def
@@ -2067,13 +2057,13 @@ sandbox
 (
 data_path
 =
-"
+'
 include
 -
 file
 -
 stack
-"
+'
 )
         
 with
@@ -2091,11 +2081,11 @@ sandbox
 .
 exec_file
 (
-"
+'
 moz
 .
 build
-"
+'
 )
         
 e
@@ -2130,9 +2120,9 @@ args
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -2143,9 +2133,9 @@ args
 [
 1
 ]
-"
+'
 set_unknown
-"
+'
 )
         
 self
@@ -2156,15 +2146,14 @@ args
 [
 2
 ]
-"
+'
 ILLEGAL
-"
+'
 )
         
 expected_stack
 =
 [
-            
 mozpath
 .
 join
@@ -2178,32 +2167,31 @@ config
 topsrcdir
 p
 )
-            
 for
 p
 in
 [
-"
+            
+'
 moz
 .
 build
-"
-"
+'
+'
 included
 -
 1
 .
 build
-"
-"
+'
+'
 included
 -
 2
 .
 build
-"
+'
 ]
-        
 ]
         
 self
@@ -2231,11 +2219,11 @@ sandbox
 (
 data_path
 =
-"
+'
 include
 -
 missing
-"
+'
 )
         
 with
@@ -2253,11 +2241,11 @@ sandbox
 .
 exec_file
 (
-"
+'
 moz
 .
 build
-"
+'
 )
         
 self
@@ -2304,7 +2292,7 @@ sandbox
 (
 data_path
 =
-"
+'
 include
 -
 relative
@@ -2312,20 +2300,20 @@ relative
 from
 -
 child
-"
+'
 )
         
 sandbox
 .
 exec_file
 (
-"
+'
 child
 /
 child
 .
 build
-"
+'
 )
         
 self
@@ -2334,21 +2322,21 @@ assertEqual
 (
 sandbox
 [
-"
+'
 DIRS
-"
+'
 ]
 [
 sandbox
 .
 source_path
 (
-"
+'
 .
 .
 /
 foo
-"
+'
 )
 ]
 )
@@ -2361,7 +2349,7 @@ sandbox
 (
 data_path
 =
-"
+'
 include
 -
 relative
@@ -2369,20 +2357,20 @@ relative
 from
 -
 child
-"
+'
 )
         
 sandbox
 .
 exec_file
 (
-"
+'
 child
 /
 child2
 .
 build
-"
+'
 )
         
 self
@@ -2391,21 +2379,21 @@ assertEqual
 (
 sandbox
 [
-"
+'
 DIRS
-"
+'
 ]
 [
 sandbox
 .
 source_path
 (
-"
+'
 .
 .
 /
 foo
-"
+'
 )
 ]
 )
@@ -2439,24 +2427,24 @@ sandbox
 (
 data_path
 =
-"
+'
 include
 -
 topsrcdir
 -
 relative
-"
+'
 )
         
 sandbox
 .
 exec_file
 (
-"
+'
 moz
 .
 build
-"
+'
 )
         
 self
@@ -2465,18 +2453,18 @@ assertEqual
 (
 sandbox
 [
-"
+'
 DIRS
-"
+'
 ]
 [
 sandbox
 .
 source_path
 (
-"
+'
 foo
-"
+'
 )
 ]
 )
@@ -2537,13 +2525,13 @@ self
 .
 assertIn
 (
-"
+'
 This
 is
 an
 error
 .
-"
+'
 str
 (
 e
@@ -2575,11 +2563,11 @@ sandbox
 .
 normalize_path
 (
-"
+'
 moz
 .
 build
-"
+'
 )
 )
         
@@ -2608,17 +2596,17 @@ assertEqual
 (
 sandbox
 [
-"
+'
 CONFIGURE_SUBST_FILES
-"
+'
 ]
 [
-"
+'
 bar
-"
-"
+'
+'
 foo
-"
+'
 ]
 )
         
@@ -2627,9 +2615,9 @@ item
 in
 sandbox
 [
-"
+'
 CONFIGURE_SUBST_FILES
-"
+'
 ]
 :
             
@@ -2709,9 +2697,9 @@ sandbox
 (
 data_path
 =
-"
+'
 templates
-"
+'
 )
         
 #
@@ -2736,11 +2724,11 @@ sandbox
 .
 exec_file
 (
-"
+'
 templates
 .
 mozbuild
-"
+'
 )
         
 sandbox2
@@ -2752,9 +2740,9 @@ sandbox
 metadata
 =
 {
-"
+'
 templates
-"
+'
 :
 sandbox
 .
@@ -2764,9 +2752,9 @@ templates
         
 source
 =
-"
-"
-"
+'
+'
+'
 Template
 (
 [
@@ -2778,54 +2766,51 @@ cpp
 '
 ]
 )
-"
-"
-"
+'
+'
+'
         
 sandbox2
 .
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 self
 .
 assertEqual
 (
-            
 sandbox2
 .
 _context
-            
 {
-                
-"
+            
+'
 SOURCES
-"
+'
 :
 [
-"
+'
 foo
 .
 cpp
-"
+'
 ]
-                
-"
+            
+'
 DIRS
-"
+'
 :
 [
 ]
-            
-}
         
+}
 )
         
 sandbox2
@@ -2837,9 +2822,9 @@ sandbox
 metadata
 =
 {
-"
+'
 templates
-"
+'
 :
 sandbox
 .
@@ -2849,9 +2834,9 @@ templates
         
 source
 =
-"
-"
-"
+'
+'
+'
 SOURCES
 +
 =
@@ -2895,77 +2880,74 @@ hoge
 cpp
 '
 ]
-"
-"
-"
+'
+'
+'
         
 sandbox2
 .
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 self
 .
 assertEqual
 (
-            
 sandbox2
 .
 _context
-            
 {
-                
-"
+            
+'
 SOURCES
-"
+'
 :
 [
-"
+'
 qux
 .
 cpp
-"
-"
+'
+'
 bar
 .
 cpp
-"
-"
+'
+'
 foo
 .
 cpp
-"
-"
+'
+'
 hoge
 .
 cpp
-"
+'
 ]
-                
-"
+            
+'
 DIRS
-"
+'
 :
 [
 sandbox2
 .
 source_path
 (
-"
+'
 foo
-"
+'
 )
 ]
-            
-}
         
+}
 )
         
 sandbox2
@@ -2977,9 +2959,9 @@ sandbox
 metadata
 =
 {
-"
+'
 templates
-"
+'
 :
 sandbox
 .
@@ -2989,9 +2971,9 @@ templates
         
 source
 =
-"
-"
-"
+'
+'
+'
 TemplateError
 (
 [
@@ -3003,9 +2985,9 @@ cpp
 '
 ]
 )
-"
-"
-"
+'
+'
+'
         
 with
 self
@@ -3023,11 +3005,11 @@ sandbox2
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 e
@@ -3064,9 +3046,9 @@ args
 [
 0
 ]
-"
+'
 global_ns
-"
+'
 )
         
 self
@@ -3079,9 +3061,9 @@ args
 [
 1
 ]
-"
+'
 set_unknown
-"
+'
 )
         
 #
@@ -3111,9 +3093,9 @@ sandbox
 metadata
 =
 {
-"
+'
 templates
-"
+'
 :
 sandbox
 .
@@ -3123,18 +3105,18 @@ templates
         
 source
 =
-"
-"
-"
+'
+'
+'
 illegal
 =
 True
 TemplateGlobalVariable
 (
 )
-"
-"
-"
+'
+'
+'
         
 with
 self
@@ -3152,11 +3134,11 @@ sandbox2
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 e
@@ -3214,9 +3196,9 @@ sandbox
 metadata
 =
 {
-"
+'
 templates
-"
+'
 :
 sandbox
 .
@@ -3226,9 +3208,9 @@ templates
         
 source
 =
-"
-"
-"
+'
+'
+'
 DIRS
 +
 =
@@ -3240,57 +3222,54 @@ foo
 TemplateGlobalUPPERVariable
 (
 )
-"
-"
-"
+'
+'
+'
         
 sandbox2
 .
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 self
 .
 assertEqual
 (
-            
 sandbox2
 .
 _context
-            
 {
-                
-"
+            
+'
 SOURCES
-"
+'
 :
 [
 ]
-                
-"
+            
+'
 DIRS
-"
+'
 :
 [
 sandbox2
 .
 source_path
 (
-"
+'
 foo
-"
+'
 )
 ]
-            
-}
         
+}
 )
         
 #
@@ -3319,9 +3298,9 @@ sandbox
 metadata
 =
 {
-"
+'
 templates
-"
+'
 :
 sandbox
 .
@@ -3331,9 +3310,9 @@ templates
         
 source
 =
-"
-"
-"
+'
+'
+'
 SOURCES
 +
 =
@@ -3371,79 +3350,76 @@ hoge
 cpp
 '
 ]
-"
-"
-"
+'
+'
+'
         
 sandbox2
 .
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 self
 .
 assertEqual
 (
-            
 sandbox2
 .
 _context
-            
 {
-                
-"
+            
+'
 SOURCES
-"
+'
 :
 [
-"
+'
 qux
 .
 cpp
-"
-"
+'
+'
 bar
 .
 cpp
-"
-"
+'
+'
 foo
 .
 cpp
-"
-"
+'
+'
 hoge
 .
 cpp
-"
-]
-                
-"
-USE_LIBS
-"
-:
-[
-"
-foo
-"
-]
-                
-"
-DIRS
-"
-:
-[
+'
 ]
             
-}
+'
+USE_LIBS
+'
+:
+[
+'
+foo
+'
+]
+            
+'
+DIRS
+'
+:
+[
+]
         
+}
 )
         
 #
@@ -3481,9 +3457,9 @@ sandbox
 metadata
 =
 {
-"
+'
 templates
-"
+'
 :
 sandbox
 .
@@ -3493,9 +3469,9 @@ templates
         
 source
 =
-"
-"
-"
+'
+'
+'
 template
 def
 foo
@@ -3504,9 +3480,9 @@ foo
 :
     
 pass
-"
-"
-"
+'
+'
+'
         
 with
 self
@@ -3524,11 +3500,11 @@ sandbox2
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 e
@@ -3559,7 +3535,7 @@ self
 .
 assertIn
 (
-"
+'
 Template
 function
 names
@@ -3567,7 +3543,8 @@ must
 be
 CamelCase
 .
-"
+'
+                      
 str
 (
 e
@@ -3593,9 +3570,9 @@ sandbox
 metadata
 =
 {
-"
+'
 templates
-"
+'
 :
 sandbox
 .
@@ -3605,9 +3582,9 @@ templates
         
 source
 =
-"
-"
-"
+'
+'
+'
 template
 def
 Template
@@ -3616,9 +3593,9 @@ Template
 :
     
 pass
-"
-"
-"
+'
+'
+'
         
 with
 self
@@ -3636,11 +3613,11 @@ sandbox2
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
         
 e
@@ -3671,7 +3648,6 @@ self
 .
 assertIn
 (
-            
 '
 A
 template
@@ -3687,24 +3663,22 @@ in
 s
 .
 '
-            
 %
+                      
 sandbox
 .
 normalize_path
 (
-"
+'
 templates
 .
 mozbuild
-"
+'
 )
-            
 str
 (
 e
 )
-        
 )
     
 def
@@ -3745,12 +3719,11 @@ FUNCTIONS
 .
 update
 (
-            
 {
-                
-"
+            
+'
 foo
-"
+'
 :
 (
 lambda
@@ -3761,12 +3734,11 @@ foo
 Foo
 int
 )
-"
-"
+'
+'
 )
-            
-}
         
+}
 )
         
 try
@@ -3810,11 +3782,11 @@ sandbox
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
             
 e
@@ -3869,11 +3841,11 @@ sandbox
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
             
 e
@@ -3902,7 +3874,7 @@ sandbox
             
 source
 =
-"
+'
 a
 =
 foo
@@ -3910,18 +3882,18 @@ foo
 1
 2
 )
-"
+'
             
 sandbox
 .
 exec_source
 (
 source
-"
+'
 foo
 .
 mozbuild
-"
+'
 )
             
 self
@@ -3930,9 +3902,9 @@ assertEquals
 (
 sandbox
 [
-"
+'
 a
-"
+'
 ]
 (
 Foo
@@ -3946,17 +3918,17 @@ finally
 del
 FUNCTIONS
 [
-"
+'
 foo
-"
+'
 ]
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

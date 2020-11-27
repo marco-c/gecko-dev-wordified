@@ -135,7 +135,7 @@ re
 compile
 (
 r
-"
+'
 \
 x1b
 \
@@ -147,7 +147,7 @@ d
 ]
 +
 m
-"
+'
 )
 #
 This
@@ -165,7 +165,6 @@ re
 .
 compile
 (
-    
 r
 "
 "
@@ -257,7 +256,6 @@ flag
 "
 "
 "
-    
 re
 .
 X
@@ -277,7 +275,6 @@ re
 .
 compile
 (
-    
 r
 "
 "
@@ -368,19 +365,18 @@ flag
 "
 "
 "
-    
 re
 .
 X
 )
 IN_FILE_INCLUDED_FROM
 =
-"
+'
 In
 file
 included
 from
-"
+'
 class
 CompilerWarning
 (
@@ -417,45 +413,45 @@ self
         
 self
 [
-"
+'
 filename
-"
+'
 ]
 =
 None
         
 self
 [
-"
+'
 line
-"
+'
 ]
 =
 None
         
 self
 [
-"
+'
 column
-"
+'
 ]
 =
 None
         
 self
 [
-"
+'
 message
-"
+'
 ]
 =
 None
         
 self
 [
-"
+'
 flag
-"
+'
 ]
 =
 None
@@ -581,21 +577,21 @@ return
 (
 self
 [
-"
+'
 filename
-"
+'
 ]
 self
 [
-"
+'
 line
-"
+'
 ]
 self
 [
-"
+'
 column
-"
+'
 ]
 )
     
@@ -1079,9 +1075,9 @@ len
 (
 value
 [
-"
+'
 warnings
-"
+'
 ]
 )
         
@@ -1112,9 +1108,9 @@ warning
 in
 value
 [
-"
+'
 warnings
-"
+'
 ]
 :
                 
@@ -1146,9 +1142,9 @@ warning
 in
 value
 [
-"
+'
 warnings
-"
+'
 ]
 :
                 
@@ -1206,9 +1202,9 @@ w
 in
 value
 [
-"
+'
 warnings
-"
+'
 ]
 :
                 
@@ -1264,9 +1260,9 @@ warning
 in
 value
 [
-"
+'
 warnings
-"
+'
 ]
 :
                 
@@ -1280,17 +1276,15 @@ normsep
 (
 warning
 [
-"
+'
 filename
-"
+'
 ]
 )
 .
 startswith
 (
-                    
 dirpath
-                
 )
 :
                     
@@ -1300,9 +1294,9 @@ flag
 =
 warning
 [
-"
+'
 flag
-"
+'
 ]
                 
 count
@@ -1395,9 +1389,9 @@ get
 (
 filename
 {
-"
+'
 warnings
-"
+'
 :
 [
 ]
@@ -1409,9 +1403,9 @@ warning
 in
 f
 [
-"
+'
 warnings
-"
+'
 ]
 :
             
@@ -1440,9 +1434,9 @@ filename
 =
 warning
 [
-"
+'
 filename
-"
+'
 ]
         
 new_hash
@@ -1479,9 +1473,9 @@ _files
 filename
 ]
 [
-"
+'
 hash
-"
+'
 ]
 :
                 
@@ -1501,34 +1495,31 @@ _files
 .
 get
 (
-            
 filename
-            
 {
-                
-"
+            
+'
 hash
-"
+'
 :
 new_hash
-                
-"
+            
+'
 warnings
-"
+'
 :
 set
 (
 )
-            
-}
         
+}
 )
         
 value
 [
-"
+'
 warnings
-"
+'
 ]
 .
 add
@@ -1686,9 +1677,9 @@ _files
 filename
 ]
 [
-"
+'
 hash
-"
+'
 ]
 is
 None
@@ -1714,9 +1705,9 @@ _files
 filename
 ]
 [
-"
+'
 hash
-"
+'
 ]
 :
                 
@@ -1757,9 +1748,9 @@ handle
 obj
 =
 {
-"
+'
 files
-"
+'
 :
 {
 }
@@ -1794,9 +1785,9 @@ _files
             
 obj
 [
-"
+'
 files
-"
+'
 ]
 [
 k
@@ -1838,9 +1829,9 @@ v2
                 
 obj
 [
-"
+'
 files
-"
+'
 ]
 [
 k
@@ -1916,9 +1907,9 @@ _files
 =
 obj
 [
-"
+'
 files
-"
+'
 ]
         
 #
@@ -1942,9 +1933,9 @@ _files
 :
             
 if
-"
+'
 warnings
-"
+'
 in
 value
 :
@@ -1960,9 +1951,9 @@ d
 in
 value
 [
-"
+'
 warnings
-"
+'
 ]
 :
                     
@@ -1993,9 +1984,9 @@ _files
 filename
 ]
 [
-"
+'
 warnings
-"
+'
 ]
 =
 normalized
@@ -2028,16 +2019,16 @@ io
 open
 (
 filename
-"
+'
 r
-"
+'
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 as
 fh
@@ -2120,22 +2111,22 @@ io
 open
 (
 filename
-"
+'
 w
-"
+'
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 fh
@@ -2275,7 +2266,7 @@ for
 normalizing
 paths
 .
-        
+         
 "
 "
 "
@@ -2332,8 +2323,8 @@ RE_STRIP_COLORS
 .
 sub
 (
-"
-"
+'
+'
 line
 )
         
@@ -2406,9 +2397,9 @@ included_from
 .
 split
 (
-"
+'
 :
-"
+'
 )
             
 self
@@ -2482,85 +2473,85 @@ filename
 =
 d
 [
-"
+'
 file
-"
+'
 ]
             
 warning
 [
-"
+'
 type
-"
+'
 ]
 =
 d
 [
-"
+'
 type
-"
+'
 ]
             
 warning
 [
-"
+'
 line
-"
+'
 ]
 =
 int
 (
 d
 [
-"
+'
 line
-"
+'
 ]
 )
             
 warning
 [
-"
+'
 column
-"
+'
 ]
 =
 int
 (
 d
 [
-"
+'
 column
-"
+'
 ]
 )
             
 warning
 [
-"
+'
 flag
-"
+'
 ]
 =
 d
 [
-"
+'
 flag
-"
+'
 ]
             
 warning
 [
-"
+'
 message
-"
+'
 ]
 =
 d
 [
-"
+'
 message
-"
+'
 ]
 .
 rstrip
@@ -2583,85 +2574,85 @@ filename
 =
 d
 [
-"
+'
 file
-"
+'
 ]
             
 warning
 [
-"
+'
 type
-"
+'
 ]
 =
 d
 [
-"
+'
 type
-"
+'
 ]
             
 warning
 [
-"
+'
 line
-"
+'
 ]
 =
 int
 (
 d
 [
-"
+'
 line
-"
+'
 ]
 )
             
 warning
 [
-"
+'
 column
-"
+'
 ]
 =
 int
 (
 d
 [
-"
+'
 column
-"
+'
 ]
 )
             
 warning
 [
-"
+'
 flag
-"
+'
 ]
 =
 d
 [
-"
+'
 flag
-"
+'
 ]
             
 warning
 [
-"
+'
 message
-"
+'
 ]
 =
 d
 [
-"
+'
 message
-"
+'
 ]
 .
 rstrip
@@ -2743,9 +2734,9 @@ filename
         
 warning
 [
-"
+'
 filename
-"
+'
 ]
 =
 filename
@@ -2784,12 +2775,12 @@ filename
 .
 find
 (
-"
+'
 /
 dist
 /
 include
-"
+'
 )
         
 if

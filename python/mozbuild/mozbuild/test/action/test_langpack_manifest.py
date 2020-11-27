@@ -102,33 +102,31 @@ Context
         
 ctx
 [
-"
+'
 MOZ_LANG_TITLE
-"
+'
 ]
 =
-"
+'
 Finnish
-"
+'
         
 ctx
 [
-"
+'
 MOZ_LANGPACK_CREATOR
-"
+'
 ]
 =
-"
+'
 Suomennosprojekti
-"
+'
         
 ctx
 [
-            
-"
+'
 MOZ_LANGPACK_CONTRIBUTORS
-"
-        
+'
 ]
 =
 "
@@ -174,29 +172,29 @@ langpack_manifest
 create_webmanifest
 (
             
-"
+'
 fi
-"
+'
             
-"
+'
 57
 .
 0
-"
+'
             
-"
+'
 57
 .
 0
 .
 *
-"
+'
             
-"
+'
 Firefox
-"
+'
             
-"
+'
 /
 var
 /
@@ -205,9 +203,9 @@ vcs
 l10n
 -
 central
-"
+'
             
-"
+'
 langpack
 -
 fi
@@ -216,7 +214,7 @@ firefox
 mozilla
 .
 og
-"
+'
             
 ctx
             
@@ -240,15 +238,15 @@ assertEquals
 (
 data
 [
-"
+'
 name
-"
+'
 ]
-"
+'
 Finnish
 Language
 Pack
-"
+'
 )
         
 self
@@ -258,11 +256,11 @@ assertEquals
             
 data
 [
-"
+'
 author
-"
+'
 ]
-"
+'
 Suomennosprojekti
 (
 contributors
@@ -272,8 +270,7 @@ Smith
 Mary
 White
 )
-"
-        
+'
 )
     
 def
@@ -291,25 +288,25 @@ Context
         
 ctx
 [
-"
+'
 MOZ_LANG_TITLE
-"
+'
 ]
 =
-"
+'
 Finnish
-"
+'
         
 ctx
 [
-"
+'
 MOZ_LANGPACK_CREATOR
-"
+'
 ]
 =
-"
+'
 Suomennosprojekti
-"
+'
         
 manifest
 =
@@ -318,29 +315,29 @@ langpack_manifest
 create_webmanifest
 (
             
-"
+'
 fi
-"
+'
             
-"
+'
 57
 .
 0
-"
+'
             
-"
+'
 57
 .
 0
 .
 *
-"
+'
             
-"
+'
 Firefox
-"
+'
             
-"
+'
 /
 var
 /
@@ -349,9 +346,9 @@ vcs
 l10n
 -
 central
-"
+'
             
-"
+'
 langpack
 -
 fi
@@ -360,7 +357,7 @@ firefox
 mozilla
 .
 og
-"
+'
             
 ctx
             
@@ -384,15 +381,15 @@ assertEquals
 (
 data
 [
-"
+'
 name
-"
+'
 ]
-"
+'
 Finnish
 Language
 Pack
-"
+'
 )
         
 self
@@ -401,21 +398,21 @@ assertEquals
 (
 data
 [
-"
+'
 author
-"
+'
 ]
-"
+'
 Suomennosprojekti
-"
+'
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

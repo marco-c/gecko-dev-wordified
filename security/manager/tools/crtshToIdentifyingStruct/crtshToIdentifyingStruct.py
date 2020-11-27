@@ -427,14 +427,14 @@ encode
 (
 cert
 [
-"
+'
 tbsCertificate
-"
+'
 ]
 [
-"
+'
 subject
-"
+'
 ]
 )
         
@@ -462,14 +462,14 @@ encode
 (
 cert
 [
-"
+'
 tbsCertificate
-"
+'
 ]
 [
-"
+'
 subjectPublicKeyInfo
-"
+'
 ]
 )
         
@@ -536,13 +536,12 @@ CA
 .
 format
 (
-        
 re
 .
 sub
 (
 r
-"
+'
 [
 -
 :
@@ -550,15 +549,14 @@ r
 _
 .
 ]
-"
-"
-"
+'
+'
+'
 common_name
 .
 value
 )
 identifierType
-    
 )
     
 fingerprint
@@ -580,7 +578,6 @@ SHA256
 dn_parts
 =
 [
-        
 "
 /
 {
@@ -602,20 +599,19 @@ part
 .
 oid
 )
+                                       
 value
 =
 part
 .
 value
 )
-        
 for
 part
 in
 cert
 .
 subject
-    
 ]
     
 distinguished_name
@@ -725,6 +721,7 @@ crtsh
 }
 )
 "
+              
 .
 format
 (
@@ -836,18 +833,16 @@ parser
 .
 add_argument
 (
-        
 "
 -
 spki
 "
-        
 action
 =
 "
 store_true
 "
-        
+                        
 help
 =
 "
@@ -861,25 +856,22 @@ key
 info
 fields
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
 "
 -
 dn
 "
-        
 action
 =
 "
 store_true
 "
-        
+                        
 help
 =
 "
@@ -892,7 +884,6 @@ distinguished
 name
 fields
 "
-    
 )
     
 parser
@@ -903,6 +894,7 @@ add_argument
 -
 listname
 "
+                        
 help
 =
 "
@@ -919,7 +911,6 @@ parser
 .
 add_argument
 (
-        
 "
 certId
 "
@@ -928,6 +919,7 @@ nargs
 "
 +
 "
+                        
 help
 =
 "
@@ -944,7 +936,6 @@ crt
 sh
 IDs
 "
-    
 )
     
 args
@@ -995,7 +986,6 @@ blocks
     
 print
 (
-        
 "
 /
 /
@@ -1010,14 +1000,13 @@ tools
 crtshToIdentifyingStruct
 /
 "
-        
 +
+          
 "
 crtshToIdentifyingStruct
 .
 py
 "
-    
 )
     
 print
@@ -1112,7 +1101,6 @@ blocks
 .
 append
 (
-                    
 print_block
 (
 pemFile
@@ -1124,7 +1112,6 @@ identifierType
 =
 identifierType
 )
-                
 )
         
 except
@@ -1137,7 +1124,7 @@ requests
 .
 get
 (
-"
+'
 https
 :
 /
@@ -1151,7 +1138,7 @@ d
 =
 {
 }
-"
+'
 .
 format
 (
@@ -1169,7 +1156,6 @@ blocks
 .
 append
 (
-                
 print_block
 (
 r
@@ -1182,7 +1168,6 @@ identifierType
 =
 identifierType
 )
-            
 )
     
 print

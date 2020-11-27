@@ -113,9 +113,9 @@ open
 os
 .
 devnull
-"
+'
 w
-"
+'
 )
 as
 devnull
@@ -125,7 +125,6 @@ subprocess
 .
 check_call
 (
-                    
 [
 "
 hg
@@ -140,10 +139,10 @@ repo_root
 stdout
 =
 devnull
+                                      
 stderr
 =
 devnull
-                
 )
         
 except
@@ -283,9 +282,9 @@ open
 os
 .
 devnull
-"
+'
 w
-"
+'
 )
 as
 devnull
@@ -295,7 +294,6 @@ subprocess
 .
 check_call
 (
-                    
 [
 "
 git
@@ -313,19 +311,16 @@ show
 cdup
 "
 ]
-                    
 cwd
 =
 repo_root
-                    
+                                      
 stdout
 =
 devnull
-                    
 stderr
 =
 devnull
-                
 )
         
 except

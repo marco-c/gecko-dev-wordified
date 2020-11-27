@@ -107,19 +107,19 @@ path
 join
 (
 __file__
-"
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
-"
+'
+'
 metrics
 .
 yaml
-"
+'
 )
 )
 class
@@ -175,7 +175,6 @@ is_bootstrap
             
 print
 (
-                
 "
 Glean
 could
@@ -190,7 +189,7 @@ be
 reported
 .
 "
-                
+                  
 "
 You
 may
@@ -203,13 +202,11 @@ bootstrap
 |
 .
 "
-                
 file
 =
 sys
 .
 stderr
-            
 )
 class
 GleanTelemetry
@@ -303,9 +300,7 @@ environments
 def
 __init__
 (
-        
 self
-    
 )
 :
         
@@ -393,11 +388,11 @@ parent
 .
 parent
 /
-"
+'
 pings
 .
 yaml
-"
+'
 )
         
 pings
@@ -504,6 +499,7 @@ it
     
 is_mach_virtualenv
 =
+(
 mozpack
 .
 path
@@ -516,13 +512,13 @@ executable
 )
 =
 =
+                          
 mozpack
 .
 path
 .
 normpath
 (
-        
 get_mach_virtualenv_binary
 (
 py2
@@ -531,17 +527,16 @@ six
 .
 PY2
 )
-    
+)
 )
     
 if
 not
 (
-        
 is_applicable_telemetry_environment
 (
 )
-        
+            
 #
 Glean
 is
@@ -550,7 +545,7 @@ compatible
 with
 Python
 2
-        
+            
 and
 sys
 .
@@ -561,7 +556,7 @@ version_info
 3
 0
 )
-        
+            
 #
 If
 not
@@ -580,7 +575,7 @@ uses
 native
 python
 )
-        
+            
 #
 then
 we
@@ -597,7 +592,7 @@ we
 import
 is
 a
-        
+            
 #
 compatible
 version
@@ -609,10 +604,9 @@ t
 use
 glean
 .
-        
+            
 and
 is_mach_virtualenv
-    
 )
 :
         
@@ -650,15 +644,15 @@ Glean
 initialize
 (
         
-"
+'
 mozilla
 .
 mach
-"
+'
         
-"
+'
 Unknown
-"
+'
         
 is_telemetry_enabled
 (
@@ -674,9 +668,9 @@ get_state_dir
 )
 )
 /
-"
+'
 glean
-"
+'
     
 )
     
@@ -835,9 +829,9 @@ environ
 .
 get
 (
-"
+'
 MACH_MAIN_PID
-"
+'
 )
 !
 =
@@ -898,12 +892,12 @@ for
 e
 in
 (
-"
+'
 MOZ_AUTOMATION
-"
-"
+'
+'
 TASK_ID
-"
+'
 )
 )
 :
@@ -927,15 +921,15 @@ environ
 .
 get
 (
-"
+'
 DISABLE_TELEMETRY
-"
+'
 )
 =
 =
-"
+'
 1
-"
+'
 :
         
 return

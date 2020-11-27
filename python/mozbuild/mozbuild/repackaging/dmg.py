@@ -203,8 +203,8 @@ mozpath
 join
 (
 tmpdir
-"
-"
+'
+'
 )
 )
         
@@ -231,20 +231,19 @@ volume_name
 =
 get_application_ini_value
 (
-            
 tmpdir
-"
+'
 App
-"
-"
+'
+'
 CodeName
-"
+'
+                                                
 fallback
 =
-"
+'
 Name
-"
-        
+'
 )
         
 #

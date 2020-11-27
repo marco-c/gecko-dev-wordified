@@ -121,9 +121,9 @@ FileRegistrySubtree
     
 Jarrer
 )
-"
-"
-"
+'
+'
+'
 Formatters
 are
 classes
@@ -450,9 +450,9 @@ the
 packaged
 data
 .
-"
-"
-"
+'
+'
+'
 class
 PiecemealFormatter
 (
@@ -460,9 +460,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Generic
 formatter
@@ -479,9 +479,9 @@ to
 paths
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -590,9 +590,9 @@ path
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Return
 the
@@ -605,9 +605,9 @@ given
 path
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -791,9 +791,9 @@ path
 :
         
 assert
-"
+'
 *
-"
+'
 not
 in
 path
@@ -843,9 +843,9 @@ PiecemealFormatter
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Formatter
 for
@@ -855,9 +855,9 @@ package
 format
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 _add_base
@@ -887,7 +887,6 @@ self
 .
 copier
 )
-        
 )
 class
 FlatSubFormatter
@@ -896,9 +895,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Sub
 -
@@ -910,9 +909,9 @@ package
 format
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -1024,9 +1023,9 @@ else
             
 name
 =
-"
+'
 chrome
-"
+'
         
 path
 =
@@ -1041,12 +1040,12 @@ join
 entry
 .
 base
-"
+'
 %
 s
 .
 manifest
-"
+'
 %
 name
 )
@@ -1124,6 +1123,7 @@ mozpath
 join
 (
 relbase
+                                       
 mozpath
 .
 basename
@@ -1201,6 +1201,8 @@ type
 {
 }
 )
+\
+                              
 .
 setdefault
 (
@@ -1379,7 +1381,6 @@ self
 .
 add_manifest
 (
-            
 ManifestInterfaces
 (
 mozpath
@@ -1388,6 +1389,7 @@ dirname
 (
 path
 )
+                                             
 mozpath
 .
 basename
@@ -1395,7 +1397,6 @@ basename
 path
 )
 )
-        
 )
     
 def
@@ -1407,9 +1408,9 @@ path
 :
         
 assert
-"
+'
 *
-"
+'
 not
 in
 path
@@ -1430,9 +1431,9 @@ PiecemealFormatter
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Formatter
 for
@@ -1474,9 +1475,9 @@ manifest
 entries
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -1537,10 +1538,10 @@ add
 (
 base
 +
-"
+'
 .
 xpi
-"
+'
 jarrer
 )
             
@@ -1576,10 +1577,10 @@ self
 .
 copier
 )
+                
 self
 .
 _compress
-            
 )
 class
 JarSubFormatter
@@ -1588,9 +1589,9 @@ PiecemealFormatter
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Sub
 -
@@ -1638,9 +1639,9 @@ chrome
 files
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -1677,8 +1678,8 @@ self
 .
 _sub_formatter
 [
-"
-"
+'
+'
 ]
 =
 FlatSubFormatter
@@ -1695,9 +1696,9 @@ relpath
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Transform
 a
@@ -1725,9 +1726,9 @@ new
 entry
 .
         
-"
-"
-"
+'
+'
+'
         
 base
 =
@@ -1759,14 +1760,13 @@ basepath
         
 entry
 =
-(
-            
 entry
 .
 rebase
 (
 chromepath
 )
+\
             
 .
 move
@@ -1776,7 +1776,7 @@ mozpath
 join
 (
 base
-"
+'
 jar
 :
 %
@@ -1784,18 +1784,17 @@ s
 .
 jar
 !
-"
+'
 %
 basepath
 )
 )
+\
             
 .
 rebase
 (
 base
-)
-        
 )
         
 return
@@ -1817,6 +1816,8 @@ entry
 ManifestChrome
 )
 and
+\
+                
 not
 urlparse
 (
@@ -1873,10 +1874,10 @@ add
 (
 chromepath
 +
-"
+'
 .
 jar
-"
+'
 jarrer
 )
                 
@@ -1899,6 +1900,8 @@ entry
 ManifestResource
 )
 and
+\
+                
 not
 urlparse
 (
@@ -1949,9 +1952,9 @@ JarFormatter
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Formatter
 for
@@ -1961,9 +1964,9 @@ package
 format
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -2108,15 +2111,15 @@ rel_base
                 
 omnijar_sub_formatter
 =
+\
+                    
 parent_sub_formatter
 .
 _sub_formatter
 [
-                    
 self
 .
 _omnijar_name
-                
 ]
                 
 self
@@ -2136,7 +2139,6 @@ omnijar_sub_formatter
 .
 copier
 )
-                
 )
                 
 return
@@ -2170,7 +2172,6 @@ self
 .
 copier
 )
-                
 self
 .
 _omnijar_name
@@ -2178,11 +2179,9 @@ _omnijar_name
 self
 .
 _compress
-                
 self
 .
 _non_resources
-            
 )
 class
 OmniJarSubFormatter
@@ -2191,9 +2190,9 @@ PiecemealFormatter
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Sub
 -
@@ -2228,9 +2227,9 @@ other
 files
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -2278,8 +2277,8 @@ self
 .
 _sub_formatter
 [
-"
-"
+'
+'
 ]
 =
 FlatSubFormatter
@@ -2329,8 +2328,8 @@ is_resource
 path
 )
 else
-"
-"
+'
+'
         
 #
 Only
@@ -2391,8 +2390,8 @@ entry
         
 base
 =
-"
-"
+'
+'
         
 if
 not
@@ -2434,9 +2433,9 @@ path
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Return
 whether
@@ -2457,9 +2456,9 @@ omnijar
 archive
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 any
@@ -2473,15 +2472,16 @@ p
 .
 replace
 (
-"
+'
 *
-"
-"
+'
+'
 *
 *
-"
+'
 )
 )
+               
 for
 p
 in
@@ -2510,9 +2510,9 @@ path
 ]
 =
 =
-"
+'
 chrome
-"
+'
 :
             
 return
@@ -2530,9 +2530,9 @@ path
 ]
 !
 =
-"
+'
 icons
-"
+'
         
 if
 path
@@ -2541,9 +2541,9 @@ path
 ]
 =
 =
-"
+'
 components
-"
+'
 :
             
 return
@@ -2556,14 +2556,14 @@ path
 endswith
 (
 (
-"
+'
 .
 js
-"
-"
+'
+'
 .
 xpt
-"
+'
 )
 )
         
@@ -2574,9 +2574,9 @@ path
 ]
 =
 =
-"
+'
 res
-"
+'
 :
             
 return
@@ -2588,42 +2588,42 @@ path
 =
 1
 or
+\
+                
 (
-                
 path
 [
 1
 ]
 !
 =
-"
+'
 cursors
-"
-                
+'
 and
+                 
 path
 [
 1
 ]
 !
 =
-"
+'
 touchbar
-"
-                
+'
 and
+                 
 path
 [
 1
 ]
 !
 =
-"
+'
 MainMenu
 .
 nib
-"
-            
+'
 )
         
 if
@@ -2633,9 +2633,9 @@ path
 ]
 =
 =
-"
+'
 defaults
-"
+'
 :
             
 return
@@ -2647,37 +2647,38 @@ path
 =
 3
 or
+\
+                
 not
 (
-                
 path
 [
 2
 ]
 =
 =
-"
+'
 channel
 -
 prefs
 .
 js
-"
+'
 and
+                     
 path
 [
 1
 ]
 in
 [
-"
+'
 pref
-"
-"
+'
+'
 preferences
-"
+'
 ]
-            
 )
         
 if
@@ -2696,11 +2697,11 @@ path
 ]
 =
 =
-"
+'
 greprefs
 .
 js
-"
+'
 :
             
 #
@@ -2727,34 +2728,34 @@ path
 in
 [
             
-"
+'
 modules
-"
+'
             
-"
+'
 actors
-"
+'
             
-"
+'
 dictionaries
-"
+'
             
-"
+'
 hyphenation
-"
+'
             
-"
+'
 localization
-"
+'
             
-"
+'
 update
 .
 locale
-"
+'
             
-"
+'
 contentaccessible
-"
+'
         
 ]

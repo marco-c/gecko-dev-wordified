@@ -170,7 +170,7 @@ OK
     
 url
 =
-"
+'
 %
 s
 /
@@ -180,16 +180,16 @@ automationrelevance
 /
 %
 s
-"
+'
 %
 (
 repository
 .
 rstrip
 (
-"
+'
 /
-"
+'
 )
 revision
 )
@@ -253,8 +253,7 @@ logger
 .
 debug
 (
-        
-"
+'
 {
 }
 commits
@@ -262,7 +261,8 @@ influencing
 task
 scheduling
 :
-"
+'
+                 
 .
 format
 (
@@ -270,13 +270,12 @@ len
 (
 contents
 [
-"
+'
 changesets
-"
+'
 ]
 )
 )
-    
 )
     
 changed_files
@@ -290,9 +289,9 @@ c
 in
 contents
 [
-"
+'
 changesets
-"
+'
 ]
 :
         
@@ -308,9 +307,9 @@ desc
 if
 c
 [
-"
+'
 desc
-"
+'
 ]
 :
             
@@ -318,9 +317,9 @@ desc
 =
 c
 [
-"
+'
 desc
-"
+'
 ]
 .
 splitlines
@@ -332,12 +331,12 @@ splitlines
 .
 encode
 (
-"
+'
 ascii
-"
-"
+'
+'
 ignore
-"
+'
 )
         
 logger
@@ -355,19 +354,21 @@ desc
 .
 format
 (
+            
 cset
 =
 c
 [
-"
+'
 node
-"
+'
 ]
 [
 0
 :
 12
 ]
+            
 desc
 =
 desc
@@ -381,9 +382,9 @@ set
 (
 c
 [
-"
+'
 files
-"
+'
 ]
 )
     
@@ -440,9 +441,9 @@ params
 .
 get
 (
-"
+'
 head_repository
-"
+'
 )
     
 revision
@@ -451,9 +452,9 @@ params
 .
 get
 (
-"
+'
 head_rev
-"
+'
 )
     
 if
@@ -468,7 +469,6 @@ logger
 .
 warning
 (
-            
 "
 Missing
 head_repository
@@ -477,7 +477,7 @@ head_rev
 parameters
 ;
 "
-            
+                       
 "
 assuming
 all
@@ -485,7 +485,6 @@ files
 have
 changed
 "
-        
 )
         
 return
@@ -500,9 +499,9 @@ revision
 )
     
 if
-"
+'
 comm_head_repository
-"
+'
 in
 params
 :
@@ -513,9 +512,9 @@ params
 .
 get
 (
-"
+'
 comm_head_repository
-"
+'
 )
         
 revision
@@ -524,9 +523,9 @@ params
 .
 get
 (
-"
+'
 comm_head_rev
-"
+'
 )
         
 if
@@ -538,13 +537,13 @@ logger
 .
 warning
 (
-                
 "
 Missing
 comm_head_rev
 parameters
 ;
 "
+                           
 "
 assuming
 all
@@ -552,7 +551,6 @@ files
 have
 changed
 "
-            
 )
             
 return
@@ -573,6 +571,7 @@ file
 for
 file
 in
+            
 get_changed_files
 (
 repository
@@ -631,9 +630,9 @@ vcs
 .
 get_outgoing_files
 (
-"
+'
 AM
-"
+'
 )
 )
     

@@ -53,9 +53,9 @@ MPL
 0
 /
 .
-"
-"
-"
+'
+'
+'
 Like
 :
 py
@@ -101,9 +101,9 @@ os
 .
 path
 .
-"
-"
-"
+'
+'
+'
 from
 __future__
 import
@@ -127,9 +127,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Normalize
 path
@@ -153,9 +153,9 @@ sep
 is
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 os
@@ -163,9 +163,9 @@ os
 sep
 !
 =
-"
+'
 /
-"
+'
 :
         
 #
@@ -218,14 +218,14 @@ sep
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
 b
-"
+'
 /
-"
+'
 )
         
 else
@@ -240,9 +240,9 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
     
 if
@@ -255,9 +255,9 @@ os
 altsep
 !
 =
-"
+'
 /
-"
+'
 :
         
 if
@@ -280,14 +280,14 @@ altsep
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
 b
-"
+'
 /
-"
+'
 )
         
 else
@@ -302,9 +302,9 @@ replace
 os
 .
 altsep
-"
+'
 /
-"
+'
 )
     
 return
@@ -318,12 +318,12 @@ path
     
 unc
 =
-"
+'
 /
 /
 ?
 /
-"
+'
     
 if
 path
@@ -374,9 +374,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
 :
         
 #
@@ -490,15 +490,15 @@ rel
 )
     
 return
-"
-"
+'
+'
 if
 rel
 =
 =
-"
+'
 .
-"
+'
 else
 rel
 def
@@ -657,9 +657,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Return
 the
@@ -696,9 +696,9 @@ baz
 '
 ]
     
-"
-"
-"
+'
+'
+'
     
 return
 normsep
@@ -708,9 +708,9 @@ path
 .
 split
 (
-"
+'
 /
-"
+'
 )
 def
 basedir
@@ -720,9 +720,9 @@ bases
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Given
 a
@@ -808,9 +808,9 @@ deepest
 match
 )
     
-"
-"
-"
+'
+'
+'
     
 path
 =
@@ -857,8 +857,8 @@ if
 b
 =
 =
-"
-"
+'
+'
 or
 path
 .
@@ -866,9 +866,9 @@ startswith
 (
 b
 +
-"
+'
 /
-"
+'
 )
 :
             
@@ -906,15 +906,15 @@ re
 .
 escape
 (
-"
+'
 /
-"
+'
 )
 =
 =
-"
+'
 /
-"
+'
 :
     
 MATCH_STAR_STAR_RE
@@ -924,7 +924,7 @@ re
 compile
 (
 r
-"
+'
 (
 ^
 |
@@ -939,7 +939,7 @@ r
 \
 *
 /
-"
+'
 )
     
 MATCH_STAR_STAR_END_RE
@@ -949,7 +949,7 @@ re
 compile
 (
 r
-"
+'
 (
 ^
 |
@@ -963,7 +963,7 @@ r
 \
 \
 *
-"
+'
 )
 else
 :
@@ -975,7 +975,7 @@ re
 compile
 (
 r
-"
+'
 (
 ^
 |
@@ -996,7 +996,7 @@ r
 \
 \
 /
-"
+'
 )
     
 MATCH_STAR_STAR_END_RE
@@ -1006,7 +1006,7 @@ re
 compile
 (
 r
-"
+'
 (
 ^
 |
@@ -1023,7 +1023,7 @@ r
 \
 \
 *
-"
+'
 )
 def
 match
@@ -1033,9 +1033,9 @@ pattern
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Return
 whether
@@ -1169,9 +1169,9 @@ or
 /
 bar
     
-"
-"
-"
+'
+'
+'
     
 if
 not
@@ -1204,7 +1204,7 @@ MATCH_STAR_STAR_RE
 sub
 (
 r
-"
+'
 \
 1
 (
@@ -1215,7 +1215,7 @@ r
 /
 )
 ?
-"
+'
 p
 )
         
@@ -1226,7 +1226,7 @@ MATCH_STAR_STAR_END_RE
 sub
 (
 r
-"
+'
 (
 ?
 :
@@ -1236,7 +1236,7 @@ r
 +
 )
 ?
-"
+'
 p
 )
         
@@ -1247,20 +1247,20 @@ p
 replace
 (
 r
-"
+'
 \
 *
-"
-"
+'
+'
 [
 ^
 /
 ]
 *
-"
+'
 )
 +
-"
+'
 (
 ?
 :
@@ -1269,7 +1269,7 @@ r
 *
 )
 ?
-"
+'
         
 re_cache
 [
@@ -1305,9 +1305,9 @@ relativepath
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Return
 relativepath
@@ -1319,9 +1319,9 @@ of
 oldbase
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 base
@@ -1416,9 +1416,9 @@ relativepath
 .
 endswith
 (
-"
+'
 /
-"
+'
 )
 and
 not
@@ -1426,18 +1426,18 @@ result
 .
 endswith
 (
-"
+'
 /
-"
+'
 )
 :
         
 result
 +
 =
-"
+'
 /
-"
+'
     
 return
 result
@@ -1452,9 +1452,9 @@ if
 hasattr
 (
 os
-"
+'
 readlink
-"
+'
 )
 :
         
@@ -1517,9 +1517,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
     
 CreateFileW
 =
@@ -1611,21 +1611,14 @@ handle
 =
 CreateFileW
 (
-        
 path
-        
 GENERIC_READ
-        
 FILE_SHARE_READ
-        
 0
-        
 OPEN_EXISTING
-        
+                         
 FILE_FLAG_BACKUP_SEMANTICS
-        
 0
-    
 )
     
 assert
@@ -1633,7 +1626,7 @@ handle
 !
 =
 1
-"
+'
 Failed
 getting
 a
@@ -1642,7 +1635,7 @@ to
 :
 {
 }
-"
+'
 .
 format
 (
@@ -1738,7 +1731,7 @@ rv
 <
 =
 MAX_PATH
-"
+'
 Failed
 getting
 final
@@ -1747,7 +1740,7 @@ for
 :
 {
 }
-"
+'
 .
 format
 (
@@ -1798,11 +1791,11 @@ rv
 !
 =
 0
-"
+'
 Failed
 closing
 handle
-"
+'
     
 #
 Remove

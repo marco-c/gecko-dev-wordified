@@ -73,9 +73,9 @@ from
 string
 import
 letters
-"
-"
-"
+'
+'
+'
 Test
 case
 infrastructure
@@ -192,9 +192,9 @@ a
 fixed
 seed
 .
-"
-"
-"
+'
+'
+'
 if
 not
 __file__
@@ -228,10 +228,10 @@ dirname
 (
 __file__
 )
-"
+'
 .
 .
-"
+'
 )
 )
 from
@@ -243,17 +243,20 @@ zipfile
 leafs
 =
 (
-"
+    
+'
 firstdir
 /
 oneleaf
-"
-"
+'
+    
+'
 seconddir
 /
 twoleaf
-"
-"
+'
+    
+'
 thirddir
 /
 with
@@ -261,7 +264,7 @@ with
 sub
 /
 threeleaf
-"
+'
 )
 _lengths
 =
@@ -292,9 +295,9 @@ i
 )
 :
     
-"
-"
-"
+'
+'
+'
 Return
 a
 length
@@ -318,9 +321,9 @@ to
 use
 .
     
-"
-"
-"
+'
+'
+'
     
 return
 _lengths
@@ -335,9 +338,9 @@ iterables
 )
 :
     
-"
-"
-"
+'
+'
+'
 '
 Tensor
 product
@@ -369,9 +372,9 @@ possible
 combinations
 .
     
-"
-"
-"
+'
+'
+'
     
 for
 item
@@ -427,7 +430,7 @@ descs
 )
 :
     
-"
+'
 Convert
 a
 list
@@ -437,7 +440,7 @@ to
 a
 string
 .
-"
+'
     
 return
 reduce
@@ -448,14 +451,14 @@ y
 :
 x
 +
-"
+'
 {
 0
 }
 {
 1
 }
-"
+'
 .
 format
 (
@@ -466,8 +469,8 @@ y
 )
 )
 descs
-"
-"
+'
+'
 )
 def
 getContent
@@ -476,7 +479,7 @@ length
 )
 :
     
-"
+'
 Get
 pseudo
 random
@@ -485,7 +488,7 @@ of
 given
 length
 .
-"
+'
     
 rv
 =
@@ -517,8 +520,8 @@ letters
 )
     
 return
-"
-"
+'
+'
 .
 join
 (
@@ -533,7 +536,7 @@ items
 )
 :
     
-"
+'
 Helper
 method
 to
@@ -548,7 +551,7 @@ one
 for
 each
 item
-"
+'
     
 locitems
 =
@@ -567,9 +570,9 @@ locitems
         
 item
 [
-"
+'
 length
-"
+'
 ]
 =
 sizer
@@ -578,9 +581,9 @@ item
 .
 pop
 (
-"
+'
 length
-"
+'
 0
 )
 )
@@ -594,9 +597,9 @@ self
         
 mode
 =
-"
+'
 w
-"
+'
         
 if
 os
@@ -613,9 +616,9 @@ f
             
 mode
 =
-"
+'
 a
-"
+'
         
 zf
 =
@@ -663,9 +666,9 @@ writes
 )
 :
     
-"
-"
-"
+'
+'
+'
 Helper
 method
 to
@@ -683,9 +686,9 @@ helper
 methods
 .
     
-"
-"
-"
+'
+'
+'
     
 _writes
 =
@@ -759,9 +762,9 @@ TestCase
 )
 :
     
-"
-"
-"
+'
+'
+'
 Unit
 tests
 for
@@ -781,9 +784,9 @@ class
 definition
 .
     
-"
-"
-"
+'
+'
+'
     
 stage
 =
@@ -866,11 +869,11 @@ self
 .
 leaf
 (
-"
+'
 test
 .
 jar
-"
+'
 )
         
 self
@@ -1093,9 +1096,9 @@ self
 .
 leaf
 (
-"
+'
 stage
-"
+'
 leaf
 )
 )
@@ -1125,14 +1128,14 @@ self
 .
 leaf
 (
-"
+'
 stage
-"
+'
 leaf
 )
-"
+'
 w
-"
+'
 )
 .
 write
@@ -1234,7 +1237,6 @@ now
 nonatomics
 =
 [
-        
 list
 (
 prod
@@ -1256,6 +1258,7 @@ lengths
 )
 )
 )
+                  
 for
 i
 in
@@ -1266,7 +1269,6 @@ w
 +
 1
 )
-    
 ]
 +
 [
@@ -1311,47 +1313,43 @@ descs
         
 setattr
 (
-            
 TestExtensiveStored
-"
+'
 _write
-"
+'
 +
 suffix
+                
 createWriter
 (
 givenlength
 *
 dicts
 )
-        
 )
         
 setattr
 (
-            
 TestExtensiveStored
-            
-"
+'
 test
-"
+'
 +
 suffix
-            
+                
 createTester
 (
-"
+'
 test
-"
+'
 +
 suffix
-"
+'
 _write
-"
+'
 +
 suffix
 )
-        
 )
 #
 now
@@ -1435,7 +1433,6 @@ allfiles
 =
 reduce
 (
-    
 lambda
 l
 r
@@ -1443,6 +1440,7 @@ r
 l
 +
 r
+                  
 [
 list
 (
@@ -1480,13 +1478,13 @@ allfiles
     
 testbasename
 =
-"
+'
 test
 {
 0
 }
 _
-"
+'
 .
 format
 (
@@ -1500,9 +1498,9 @@ test
 =
 [
 None
-"
+'
 _write
-"
+'
 +
 getid
 (
@@ -1536,9 +1534,9 @@ test
 2
 ]
 =
-"
+'
 _write
-"
+'
 +
 getid
 (
@@ -1567,7 +1565,7 @@ TestExtensiveStored
 )
 :
     
-"
+'
 Test
 all
 that
@@ -1580,7 +1578,7 @@ with
 DEFLATED
 too
 .
-"
+'
     
 compression
 =
@@ -1591,9 +1589,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 unittest

@@ -53,9 +53,9 @@ MPL
 0
 /
 .
-"
-"
-"
+'
+'
+'
 jarmaker
 .
 py
@@ -91,9 +91,9 @@ on
 the
 format
 .
-"
-"
-"
+'
+'
+'
 from
 __future__
 import
@@ -164,9 +164,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
 :
     
 from
@@ -185,9 +185,9 @@ CreateHardLinkA
 __all__
 =
 [
-"
+'
 JarMaker
-"
+'
 ]
 class
 ZipEntry
@@ -196,16 +196,16 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 Helper
 class
 for
 jar
 output
 .
-    
+      
 This
 class
 defines
@@ -220,7 +220,7 @@ a
 zipfile
 .
 ZipEntry
-    
+      
 so
 that
 we
@@ -234,7 +234,7 @@ then
 close
 it
 .
-    
+      
 This
 methods
 hooks
@@ -247,10 +247,10 @@ close
 (
 )
 .
-    
-"
-"
-"
+      
+'
+'
+'
     
 def
 __init__
@@ -289,9 +289,9 @@ content
 )
 :
         
-"
-"
-"
+'
+'
+'
 Append
 the
 given
@@ -300,9 +300,9 @@ to
 this
 zip
 entry
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -325,9 +325,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 The
 close
 method
@@ -340,9 +340,9 @@ the
 zip
 file
 .
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -511,8 +511,8 @@ base
 =
 base_or_jarinfo
 or
-"
-"
+'
+'
             
 self
 .
@@ -559,9 +559,9 @@ mozpath
 .
 join
 (
-"
+'
 chrome
-"
+'
 self
 .
 name
@@ -607,7 +607,7 @@ re
 .
 compile
 (
-"
+'
 \
 s
 *
@@ -618,7 +618,7 @@ s
 *
 )
 ?
-"
+'
 )
     
 jarline
@@ -627,10 +627,9 @@ re
 .
 compile
 (
-        
-"
-"
-"
+'
+'
+'
         
 (
 ?
@@ -742,14 +741,12 @@ s
 #
 whitespaces
         
-"
-"
-"
-        
+'
+'
+'
 re
 .
 VERBOSE
-    
 )
     
 relsrcline
@@ -758,7 +755,7 @@ re
 .
 compile
 (
-"
+'
 relativesrcdir
 \
 s
@@ -774,7 +771,7 @@ relativesrcdir
 ?
 )
 :
-"
+'
 )
     
 regline
@@ -783,7 +780,7 @@ re
 .
 compile
 (
-"
+'
 \
 %
 \
@@ -793,12 +790,12 @@ s
 .
 *
 )
-"
+'
 )
     
 entryre
 =
-"
+'
 (
 ?
 P
@@ -822,7 +819,7 @@ optOverwrite
 \
 s
 +
-"
+'
     
 entryline
 =
@@ -832,11 +829,9 @@ compile
 (
         
 entryre
-        
 +
 (
-            
-"
+'
 (
 ?
 P
@@ -866,9 +861,9 @@ _
 \
 s
 *
-"
-            
-"
+'
+                   
+'
 (
 \
 (
@@ -915,10 +910,9 @@ _
 \
 s
 *
-"
-        
+'
 )
-    
+        
 )
     
 def
@@ -1129,9 +1123,9 @@ m
 .
 group
 (
-"
+'
 jarfile
-"
+'
 )
 :
                 
@@ -1145,17 +1139,18 @@ m
 .
 group
 (
-"
+'
 base
-"
+'
 )
+                                            
 m
 .
 group
 (
-"
+'
 jarfile
-"
+'
 )
 )
                 
@@ -1281,9 +1276,9 @@ m
 .
 group
 (
-"
+'
 relativesrcdir
-"
+'
 )
             
 return
@@ -1317,8 +1312,8 @@ m
             
 rline
 =
-"
-"
+'
+'
 .
 join
 (
@@ -1513,15 +1508,16 @@ m
 .
 group
 (
-"
+'
 optOverwrite
-"
+'
 )
 :
                 
 raise
 DeprecatedJarManifest
 (
+                    
 '
 The
 "
@@ -1543,26 +1539,25 @@ entries
 .
 append
 (
-                
 JarManifestEntry
 (
-                    
+                
 m
 .
 group
 (
-"
+'
 output
-"
+'
 )
-                    
+                
 m
 .
 group
 (
-"
+'
 source
-"
+'
 )
 or
 mozpath
@@ -1573,12 +1568,12 @@ m
 .
 group
 (
-"
+'
 output
-"
+'
 )
 )
-                    
+                
 is_locale
 =
 bool
@@ -1587,12 +1582,12 @@ m
 .
 group
 (
-"
+'
 locale
-"
+'
 )
 )
-                    
+                
 preprocess
 =
 bool
@@ -1601,14 +1596,13 @@ m
 .
 group
 (
-"
+'
 optPreprocess
-"
+'
 )
-)
-                
 )
             
+)
 )
             
 return
@@ -1647,9 +1641,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 JarMaker
 reads
 jar
@@ -1663,7 +1657,7 @@ into
 jar
 files
 or
-    
+      
 flat
 directories
 along
@@ -1673,28 +1667,27 @@ chrome
 manifest
 files
 .
-    
-"
-"
-"
+      
+'
+'
+'
     
 def
 __init__
 (
-        
 self
 outputFormat
 =
-"
+'
 flat
-"
+'
 useJarfileManifest
 =
 True
+                 
 useChromeManifest
 =
 False
-    
 )
 :
         
@@ -1776,9 +1769,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Get
 a
 optparse
@@ -1807,9 +1800,9 @@ inner
 PreProcessor
 .
         
-"
-"
-"
+'
+'
+'
         
 #
 HACK
@@ -1851,130 +1844,127 @@ p
 .
 add_option
 (
-            
-"
+'
 -
 f
-"
-            
+'
 type
 =
-"
+'
 choice
-"
-            
+'
 default
 =
-"
+'
 jar
-"
-            
+'
+                     
 choices
 =
 (
-"
+'
 jar
-"
-"
+'
+'
 flat
-"
-"
+'
+'
 symlink
-"
+'
 )
-            
+                     
 help
 =
-"
+'
 fileformat
 used
 for
 output
-"
-            
+'
+                     
 metavar
 =
-"
+'
 [
 jar
 flat
 symlink
 ]
-"
-        
+'
+                     
 )
         
 p
 .
 add_option
 (
-"
+'
 -
 v
-"
+'
 action
 =
-"
+'
 store_true
-"
+'
 dest
 =
-"
+'
 verbose
-"
+'
+                     
 help
 =
-"
+'
 verbose
 output
-"
+'
 )
         
 p
 .
 add_option
 (
-"
+'
 -
 q
-"
+'
 action
 =
-"
+'
 store_false
-"
+'
 dest
 =
-"
+'
 verbose
-"
+'
+                     
 help
 =
-"
+'
 verbose
 output
-"
+'
 )
         
 p
 .
 add_option
 (
-            
-"
+'
 -
 e
-"
-            
+'
 action
 =
-"
+'
 store_true
-"
-            
+'
+                     
 help
 =
-"
+'
 create
 chrome
 .
@@ -1984,131 +1974,122 @@ of
 jarfile
 .
 manifest
-"
-        
+'
+                     
 )
         
 p
 .
 add_option
 (
-            
-"
+'
 -
 s
-"
+'
 type
 =
-"
+'
 string
-"
+'
 action
 =
-"
+'
 append
-"
+'
 default
 =
 [
 ]
+                     
 help
 =
-"
+'
 source
 directory
-"
-        
+'
 )
         
 p
 .
 add_option
 (
-"
+'
 -
 t
-"
+'
 type
 =
-"
+'
 string
-"
+'
 help
 =
-"
+'
 top
 source
 directory
-"
+'
 )
         
 p
 .
 add_option
 (
-            
-"
+'
 -
 c
-"
-            
-"
+'
+'
 -
 -
 l10n
 -
 src
-"
-            
+'
 type
 =
-"
+'
 string
-"
-            
+'
+                     
 action
 =
-"
+'
 append
-"
-            
+'
 help
 =
-"
+'
 localization
 directory
-"
-        
+'
 )
         
 p
 .
 add_option
 (
-            
-"
+'
 -
 -
 l10n
 -
 base
-"
-            
+'
 type
 =
-"
+'
 string
-"
-            
+'
 action
 =
-"
+'
 store
-"
-            
+'
+                     
 help
 =
-"
+'
 merged
 directory
 to
@@ -2120,67 +2101,63 @@ localization
 requires
 relativesrcdir
 )
-"
-        
+'
+                     
 )
         
 p
 .
 add_option
 (
-            
-"
+'
 -
 -
 relativesrcdir
-"
-            
+'
 type
 =
-"
+'
 string
-"
-            
+'
+                     
 help
 =
-"
+'
 relativesrcdir
 to
 be
 used
 for
 localization
-"
-        
+'
 )
         
 p
 .
 add_option
 (
-"
+'
 -
 d
-"
+'
 type
 =
-"
+'
 string
-"
+'
 help
 =
-"
+'
 base
 directory
-"
+'
 )
         
 p
 .
 add_option
 (
-            
-"
+'
 -
 -
 root
@@ -2190,17 +2167,16 @@ manifest
 entry
 -
 appid
-"
-            
+'
 type
 =
-"
+'
 string
-"
-            
+'
+                     
 help
 =
-"
+'
 add
 an
 app
@@ -2211,8 +2187,8 @@ chrome
 manifest
 entry
 .
-"
-        
+'
+                     
 )
         
 return
@@ -2221,7 +2197,6 @@ p
 def
 finalizeJar
 (
-        
 self
 jardir
 jarbase
@@ -2231,13 +2206,12 @@ register
 doZip
 =
 True
-    
 )
 :
         
-"
-"
-"
+'
+'
+'
 Helper
 method
 to
@@ -2270,9 +2244,9 @@ in
 updateManifest
 .
         
-"
-"
-"
+'
+'
+'
         
 #
 rewrite
@@ -2299,11 +2273,11 @@ join
 (
 jardir
 jarbase
-"
+'
 chrome
 .
 manifest
-"
+'
 )
         
 if
@@ -2316,7 +2290,6 @@ self
 .
 updateManifest
 (
-                
 os
 .
 path
@@ -2325,55 +2298,53 @@ join
 (
 jardir
 jarbase
+                                             
 jarname
 +
-"
+'
 .
 manifest
-"
+'
 )
-                
+                                
 chromebasepath
 .
 format
 (
-"
-"
+'
+'
 )
-                
 register
-            
 )
             
 if
 jarname
 !
 =
-"
+'
 chrome
-"
+'
 :
                 
 addEntriesToListFile
 (
-                    
 chromeManifest
+                                     
 [
-"
+'
 manifest
 {
 0
 }
 .
 manifest
-"
+'
 .
 format
 (
 jarname
 )
 ]
-                
 )
         
 if
@@ -2393,16 +2364,16 @@ dirname
 jarname
 )
 +
-"
+'
 /
-"
+'
             
 self
 .
 updateManifest
 (
-                
 chromeManifest
+                                
 chromebasepath
 .
 format
@@ -2410,7 +2381,6 @@ format
 chromebase
 )
 register
-            
 )
         
 #
@@ -2471,13 +2441,14 @@ rootManifestAppId
             
 rootChromeManifest
 =
+\
+                
 os
 .
 path
 .
 join
 (
-                
 os
 .
 path
@@ -2493,18 +2464,16 @@ dirname
 chromeManifest
 )
 )
-                
-"
+                             
+'
 .
 .
-"
-                
-"
+'
+'
 chrome
 .
 manifest
-"
-            
+'
 )
             
 rootChromeManifest
@@ -2520,13 +2489,14 @@ rootChromeManifest
             
 chromeDir
 =
+\
+                
 os
 .
 path
 .
 basename
 (
-                
 os
 .
 path
@@ -2542,14 +2512,12 @@ normpath
 chromeManifest
 )
 )
-            
 )
             
 logging
 .
 info
 (
-                
 "
 adding
 '
@@ -2566,7 +2534,7 @@ appid
 %
 s
 "
-                
+                         
 %
 (
 chromeDir
@@ -2574,17 +2542,14 @@ self
 .
 rootManifestAppId
 )
-            
 )
             
 addEntriesToListFile
 (
-                
 rootChromeManifest
-                
+                                 
 [
-                    
-"
+'
 manifest
 %
 s
@@ -2596,18 +2561,17 @@ application
 =
 %
 s
-"
-                    
+'
+                                  
 %
 (
 chromeDir
+                                     
 self
 .
 rootManifestAppId
 )
-                
 ]
-            
 )
     
 def
@@ -2620,9 +2584,9 @@ register
 )
 :
         
-"
-"
-"
+'
+'
+'
 updateManifest
 replaces
 the
@@ -2647,9 +2611,9 @@ manifest
 file
 .
         
-"
-"
-"
+'
+'
+'
         
 myregister
 =
@@ -2657,7 +2621,6 @@ dict
 .
 fromkeys
 (
-            
 map
 (
 lambda
@@ -2667,14 +2630,14 @@ s
 .
 replace
 (
-"
+'
 %
-"
+'
+                                                           
 chromebasepath
 )
 register
 )
-        
 )
         
 addEntriesToListFile
@@ -2697,9 +2660,9 @@ jardir
 )
 :
         
-"
-"
-"
+'
+'
+'
 makeJar
 is
 the
@@ -2736,9 +2699,9 @@ l10n
 dirs
 .
         
-"
-"
-"
+'
+'
+'
         
 #
 making
@@ -2759,7 +2722,6 @@ _normpath
 p
 )
 :
-            
 return
 os
 .
@@ -2838,6 +2800,8 @@ self
 .
 localedirs
 =
+\
+                
 self
 .
 generateLocaleDirs
@@ -2861,9 +2825,9 @@ logging
 .
 info
 (
-"
+'
 processing
-"
+'
 +
 infile
 )
@@ -2947,9 +2911,9 @@ relativesrcdir
 )
 =
 =
-"
+'
 locales
-"
+'
 :
             
 #
@@ -3039,12 +3003,13 @@ join
 self
 .
 topsourcedir
+                                        
 relativesrcdir
-"
+'
 en
 -
 US
-"
+'
 )
 )
         
@@ -3060,9 +3025,9 @@ jardir
 )
 :
         
-"
-"
-"
+'
+'
+'
 Internal
 method
 called
@@ -3082,9 +3047,9 @@ mn
 file
 .
         
-"
-"
-"
+'
+'
+'
         
 #
 chromebasepath
@@ -3123,11 +3088,11 @@ manifest
         
 chromebasepath
 =
-"
+'
 {
 0
 }
-"
+'
 +
 os
 .
@@ -3146,32 +3111,32 @@ self
 outputFormat
 =
 =
-"
+'
 jar
-"
+'
 :
             
 chromebasepath
 =
-"
+'
 jar
 :
-"
+'
 +
 chromebasepath
 +
-"
+'
 .
 jar
 !
-"
+'
         
 chromebasepath
 +
 =
-"
+'
 /
-"
+'
         
 jarfile
 =
@@ -3200,9 +3165,9 @@ self
 outputFormat
 =
 =
-"
+'
 jar
-"
+'
 :
             
 #
@@ -3212,10 +3177,10 @@ jarfilepath
 =
 jarfile
 +
-"
+'
 .
 jar
-"
+'
             
 try
 :
@@ -3258,9 +3223,9 @@ jf
 ZipFile
 (
 jarfilepath
-"
+'
 a
-"
+'
 lock
 =
 True
@@ -3283,9 +3248,10 @@ outHelper
 getattr
 (
 self
-"
+'
 OutputHelper_
-"
+'
+                                
 +
 self
 .
@@ -3335,7 +3301,6 @@ self
 .
 finalizeJar
 (
-            
 jardir
 jarinfo
 .
@@ -3344,10 +3309,10 @@ jarinfo
 .
 name
 chromebasepath
+                         
 jarinfo
 .
 chrome_manifests
-        
 )
         
 if
@@ -3480,20 +3445,19 @@ one
             
 if
 (
-                
 e
 .
 source
 .
 endswith
 (
-"
+'
 .
 ftl
-"
+'
 )
-                
 and
+                
 len
 (
 self
@@ -3502,13 +3466,13 @@ localedirs
 )
 >
 1
-                
 and
-"
+                
+'
 en
 -
 US
-"
+'
 in
 self
 .
@@ -3517,7 +3481,6 @@ localedirs
 -
 1
 ]
-            
 )
 :
                 
@@ -3546,9 +3509,9 @@ src
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 :
             
@@ -3646,9 +3609,9 @@ getcwd
 ]
         
 if
-"
+'
 *
-"
+'
 in
 src
 :
@@ -3667,16 +3630,16 @@ s
 .
 split
 (
-"
+'
 /
-"
+'
 )
 :
                     
 if
-"
+'
 *
-"
+'
 not
 in
 p
@@ -3685,14 +3648,14 @@ p
 yield
 p
 +
-"
+'
 /
-"
+'
             
 prefix
 =
-"
-"
+'
+'
 .
 join
 (
@@ -3910,7 +3873,6 @@ close
 raise
 RuntimeError
 (
-                
 '
 File
 "
@@ -3929,15 +3891,15 @@ in
 format
 (
 src
-"
-"
+                                                                    
+'
+'
 .
 join
 (
 src_base
 )
 )
-            
 )
         
 if
@@ -3951,12 +3913,12 @@ _seen_output
 raise
 RuntimeError
 (
-"
+'
 %
 s
 already
 added
-"
+'
 %
 out
 )
@@ -3985,9 +3947,9 @@ getOutput
 out
 mode
 =
-"
+'
 w
-"
+'
 )
             
 inf
@@ -3999,11 +3961,11 @@ open
 realsrc
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
             
 pp
@@ -4025,19 +3987,19 @@ src
 ]
 =
 =
-"
+'
 .
 css
-"
+'
 :
                 
 pp
 .
 setMarker
 (
-"
+'
 %
-"
+'
 )
             
 pp
@@ -4103,9 +4065,9 @@ self
 outputFormat
 =
 =
-"
+'
 symlink
-"
+'
 :
                 
 outHelper
@@ -4143,9 +4105,9 @@ inf
 open
 (
 realsrc
-"
+'
 rb
-"
+'
 )
             
 outf
@@ -4178,9 +4140,9 @@ object
 )
 :
         
-"
-"
-"
+'
+'
+'
 Provide
 getDestModTime
 and
@@ -4190,9 +4152,9 @@ a
 given
 jarfile
 .
-"
-"
-"
+'
+'
+'
         
 def
 __init__
@@ -4252,9 +4214,9 @@ self
 name
 mode
 =
-"
+'
 wb
-"
+'
 )
 :
             
@@ -4274,9 +4236,9 @@ object
 )
 :
         
-"
-"
-"
+'
+'
+'
 Provide
 getDestModTime
 and
@@ -4302,9 +4264,9 @@ symlink
 subclass
 .
         
-"
-"
-"
+'
+'
+'
         
 def
 __init__
@@ -4351,9 +4313,9 @@ self
 name
 mode
 =
-"
+'
 wb
-"
+'
 )
 :
             
@@ -4403,9 +4365,9 @@ ENOENT
 raise
             
 if
-"
+'
 b
-"
+'
 in
 mode
 :
@@ -4431,17 +4393,17 @@ out
 mode
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
         
 def
@@ -4528,9 +4490,9 @@ OutputHelper_flat
 )
 :
         
-"
-"
-"
+'
+'
+'
 Subclass
 of
 OutputHelper_flat
@@ -4550,9 +4512,9 @@ parent
 directories
 .
         
-"
-"
-"
+'
+'
+'
         
 def
 symlink
@@ -4614,9 +4576,9 @@ sys
 platform
 !
 =
-"
+'
 win32
-"
+'
 :
                 
 os
@@ -4768,7 +4730,7 @@ p
 .
 error
 (
-"
+'
 relativesrcdir
 required
 when
@@ -4776,7 +4738,7 @@ using
 l10n
 -
 base
-"
+'
 )
         
 if
@@ -4789,7 +4751,7 @@ p
 .
 error
 (
-"
+'
 both
 l10n
 -
@@ -4801,7 +4763,7 @@ base
 are
 not
 supported
-"
+'
 )
         
 jm
@@ -4892,13 +4854,13 @@ basicConfig
 (
 format
 =
-"
+'
 %
 (
 message
 )
 s
-"
+'
 )
     
 else

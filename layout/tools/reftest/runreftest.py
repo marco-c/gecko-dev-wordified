@@ -117,6 +117,7 @@ path
 .
 abspath
 (
+    
 os
 .
 path
@@ -350,8 +351,8 @@ return
 (
 "
 +
-"
-"
+'
+'
 .
 join
 (
@@ -389,162 +390,151 @@ categoryList
 summaryLines
 =
 [
-    
 (
-"
+'
 Successful
-"
+'
 [
 (
-"
+'
 pass
-"
-"
+'
+'
 pass
-"
+'
 )
 (
-"
+'
 loadOnly
-"
-"
+'
+'
 load
 only
-"
+'
 )
 ]
 )
-    
+                
 (
-        
-"
+'
 Unexpected
-"
-        
+'
 [
-            
 (
-"
+'
 fail
-"
-"
+'
+'
 unexpected
 fail
-"
+'
 )
-            
+                                
 (
-"
+'
 pass
-"
-"
+'
+'
 unexpected
 pass
-"
+'
 )
-            
+                                
 (
-"
+'
 asserts
-"
-"
+'
+'
 unexpected
 asserts
-"
+'
 )
-            
+                                
 (
-"
+'
 fixedAsserts
-"
-"
+'
+'
 unexpected
 fixed
 asserts
-"
+'
 )
-            
+                                
 (
-"
+'
 failedLoad
-"
-"
+'
+'
 failed
 load
-"
+'
 )
-            
+                                
 (
-"
+'
 exception
-"
-"
+'
+'
 exception
-"
+'
 )
-        
 ]
-    
 )
-    
+                
 (
-        
-"
+'
 Known
 problems
-"
-        
+'
 [
-            
 (
-"
+'
 knownFail
-"
-"
+'
+'
 known
 fail
-"
+'
 )
-            
+                                    
 (
-"
+'
 knownAsserts
-"
-"
+'
+'
 known
 asserts
-"
+'
 )
-            
+                                    
 (
-"
+'
 random
-"
-"
+'
+'
 random
-"
+'
 )
-            
+                                    
 (
-"
+'
 skipped
-"
-"
+'
+'
 skipped
-"
+'
 )
-            
+                                    
 (
-"
+'
 slow
-"
-"
+'
+'
 slow
-"
+'
 )
-        
 ]
-    
 )
 ]
 if
@@ -688,9 +678,9 @@ path
 .
 expanduser
 (
-"
+'
 ~
-"
+'
 )
 :
         
@@ -877,8 +867,8 @@ print
 chunk
 end
 =
-"
-"
+'
+'
 )
                 
 sys
@@ -1040,8 +1030,6 @@ summary
         
 summaryRegexFormatString
 =
-(
-            
 "
 ^
 REFTEST
@@ -1076,29 +1064,25 @@ regex
 }
 "
         
-)
-        
 summaryRegexStrings
 =
 [
-            
 summaryRegexFormatString
 .
 format
 (
-                
 text
 =
 text
+                                                               
 regex
 =
 categoriesToRegex
 (
 categories
 )
-            
 )
-            
+                               
 for
 (
 text
@@ -1106,7 +1090,6 @@ categories
 )
 in
 summaryLines
-        
 ]
         
 summaryRegexes
@@ -1176,8 +1159,8 @@ None
 break
                 
 yield
-"
-"
+'
+'
 .
 join
 (
@@ -1220,9 +1203,9 @@ match
 .
 group
 (
-"
+'
 message
-"
+'
 )
 ]
 =
@@ -1270,7 +1253,6 @@ suite
         
 return
 {
-            
 "
 reftest
 "
@@ -1280,7 +1262,7 @@ reftest
 .
 list
 "
-            
+                
 "
 crashtest
 "
@@ -1290,7 +1272,7 @@ crashtests
 .
 list
 "
-            
+                
 "
 jstestbrowser
 "
@@ -1300,7 +1282,6 @@ jstests
 .
 list
 "
-        
 }
 [
 suite
@@ -1505,10 +1486,10 @@ test_file
 .
 endswith
 (
-"
+'
 .
 list
-"
+'
 )
 :
             
@@ -1620,9 +1601,7 @@ found
 rv
 =
 [
-                    
 (
-                        
 os
 .
 path
@@ -1632,7 +1611,7 @@ join
 dirname
 default_manifest
 )
-                        
+                       
 r
 "
 .
@@ -1664,17 +1643,15 @@ pathname
 .
 replace
 (
-"
+'
 ?
-"
-"
+'
+'
 \
 ?
-"
+'
 )
-                    
 )
-                
 ]
         
 return
@@ -1814,7 +1791,6 @@ path
 .
 relpath
 (
-                
 os
 .
 path
@@ -1833,7 +1809,6 @@ key
 options
 .
 topsrcdir
-            
 )
             
 id
@@ -2007,11 +1982,11 @@ tempfile
 gettempdir
 (
 )
-"
+'
 reftests
 .
 json
-"
+'
 )
         
 self
@@ -2024,12 +1999,12 @@ if
 suite
 in
 (
-"
+'
 crashtest
-"
-"
+'
+'
 jstestbrowser
-"
+'
 )
 :
             
@@ -2062,9 +2037,9 @@ log
 getattr
 (
 options
-"
+'
 log
-"
+'
 None
 )
         
@@ -2088,9 +2063,8 @@ tbpl
 ]
 =
 (
-            
 ReftestFormatter
-            
+                                                     
 "
 Reftest
 specific
@@ -2098,7 +2072,7 @@ formatter
 for
 the
 "
-            
+                                                     
 "
 benefit
 of
@@ -2107,7 +2081,7 @@ log
 parsers
 and
 "
-            
+                                                     
 "
 tools
 such
@@ -2116,7 +2090,6 @@ the
 reftest
 analyzer
 "
-        
 )
         
 fmt_options
@@ -2136,9 +2109,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_REFTEST_VERBOSE
-"
+'
 )
 :
             
@@ -2148,14 +2121,14 @@ log_tbpl_level
 =
 fmt_options
 [
-"
+'
 level
-"
+'
 ]
 =
-"
+'
 debug
-"
+'
         
 self
 .
@@ -2183,7 +2156,6 @@ sys
 stdout
 }
 fmt_options
-        
 )
     
 def
@@ -2237,37 +2209,29 @@ path
 def
 createReftestProfile
 (
-        
 self
-        
 options
-        
 tests
 =
 None
-        
 manifests
 =
 None
-        
+                             
 server
 =
-"
+'
 localhost
-"
-        
+'
 port
 =
 0
-        
 profile_to_clone
 =
 None
-        
 prefs
 =
 None
-    
 )
 :
         
@@ -2390,9 +2354,9 @@ add_host
 server
 scheme
 =
-"
+'
 http
-"
+'
 port
 =
 port
@@ -2405,9 +2369,9 @@ add_host
 server
 scheme
 =
-"
+'
 https
-"
+'
 port
 =
 port
@@ -2420,6 +2384,7 @@ options
 sandboxReadWhitelist
         
 if
+(
 platform
 .
 system
@@ -2431,6 +2396,7 @@ system
 Linux
 "
 or
+            
 platform
 .
 system
@@ -2438,15 +2404,13 @@ system
 )
 in
 (
-            
 "
 Windows
 "
-            
 "
 Microsoft
 "
-        
+)
 )
 :
             
@@ -2467,7 +2431,6 @@ sandbox_whitelist_paths
 =
 map
 (
-                
 lambda
 p
 :
@@ -2481,8 +2444,8 @@ p
 "
 "
 )
+                                          
 sandbox_whitelist_paths
-            
 )
         
 addons
@@ -2549,7 +2512,6 @@ path
 .
 join
 (
-            
 options
 .
 app
@@ -2566,13 +2528,13 @@ os
 sep
 )
 ]
+                                  
 "
 distribution
 "
 "
 extensions
 "
-        
 )
         
 if
@@ -2641,25 +2603,23 @@ f
 kwargs
 =
 {
-            
-"
+'
 addons
-"
+'
 :
 addons
-            
-"
+                  
+'
 locations
-"
+'
 :
 locations
-            
-"
+                  
+'
 whitelistpaths
-"
+'
 :
 sandbox_whitelist_paths
-        
 }
         
 if
@@ -2736,9 +2696,9 @@ path
 join
 (
 SCRIPT_DIRECTORY
-"
+'
 profile_data
-"
+'
 )
         
 #
@@ -2794,12 +2754,12 @@ join
 build_obj
 .
 topsrcdir
-"
+'
 testing
-"
-"
+'
+'
 profiles
-"
+'
 )
             
 if
@@ -2856,7 +2816,6 @@ path
 .
 abspath
 (
-                
 os
 .
 path
@@ -2864,26 +2823,26 @@ path
 join
 (
 SCRIPT_DIRECTORY
-"
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
-"
+'
+                                                
+'
 testing
-"
-"
+'
+'
 profiles
-"
+'
 )
-            
 )
             
 if
@@ -2911,15 +2870,15 @@ path
 join
 (
 profile_data_dir
-"
+'
 profiles
 .
 json
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -2934,9 +2893,9 @@ load
 fh
 )
 [
-"
+'
 reftest
-"
+'
 ]
         
 for
@@ -3013,11 +2972,11 @@ or
         
 prefs
 [
-"
+'
 reftest
 .
 timeout
-"
+'
 ]
 =
 options
@@ -3034,11 +2993,11 @@ logFile
             
 prefs
 [
-"
+'
 reftest
 .
 logFile
-"
+'
 ]
 =
 options
@@ -3053,11 +3012,11 @@ ignoreWindowSize
             
 prefs
 [
-"
+'
 reftest
 .
 ignoreWindowSize
-"
+'
 ]
 =
 True
@@ -3070,11 +3029,11 @@ shuffle
             
 prefs
 [
-"
+'
 reftest
 .
 shuffle
-"
+'
 ]
 =
 True
@@ -3087,11 +3046,11 @@ repeat
             
 prefs
 [
-"
+'
 reftest
 .
 repeat
-"
+'
 ]
 =
 options
@@ -3106,11 +3065,11 @@ runUntilFailure
             
 prefs
 [
-"
+'
 reftest
 .
 runUntilFailure
-"
+'
 ]
 =
 True
@@ -3124,11 +3083,11 @@ repeat
                 
 prefs
 [
-"
+'
 reftest
 .
 repeat
-"
+'
 ]
 =
 30
@@ -3141,11 +3100,11 @@ verify
             
 prefs
 [
-"
+'
 reftest
 .
 verify
-"
+'
 ]
 =
 True
@@ -3158,22 +3117,22 @@ cleanupCrashes
             
 prefs
 [
-"
+'
 reftest
 .
 cleanupPendingCrashes
-"
+'
 ]
 =
 True
         
 prefs
 [
-"
+'
 reftest
 .
 focusFilterMode
-"
+'
 ]
 =
 options
@@ -3182,28 +3141,28 @@ focusFilterMode
         
 prefs
 [
-"
+'
 reftest
 .
 logLevel
-"
+'
 ]
 =
 options
 .
 log_tbpl_level
 or
-"
+'
 info
-"
+'
         
 prefs
 [
-"
+'
 reftest
 .
 suite
-"
+'
 ]
 =
 options
@@ -3212,13 +3171,13 @@ suite
         
 prefs
 [
-"
+'
 gfx
 .
 font_rendering
 .
 ahem_antialias_none
-"
+'
 ]
 =
 True
@@ -3256,26 +3215,26 @@ test
         
 prefs
 [
-"
+'
 gfx
 .
 font_loader
 .
 delay
-"
+'
 ]
 =
 0
         
 prefs
 [
-"
+'
 gfx
 .
 font_loader
 .
 interval
-"
+'
 ]
 =
 0
@@ -3295,7 +3254,7 @@ transparent
         
 prefs
 [
-"
+'
 widget
 .
 disable
@@ -3303,18 +3262,18 @@ disable
 dark
 -
 scrollbar
-"
+'
 ]
 =
 True
         
 prefs
 [
-"
+'
 reftest
 .
 isCoverageBuild
-"
+'
 ]
 =
 mozinfo
@@ -3323,9 +3282,9 @@ info
 .
 get
 (
-"
+'
 ccov
-"
+'
 False
 )
         
@@ -3355,20 +3314,20 @@ join
 profile
 .
 profile
-"
+'
 reftests
 .
 json
-"
+'
 )
             
 with
 open
 (
 testlist
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -3384,11 +3343,11 @@ fh
             
 prefs
 [
-"
+'
 reftest
 .
 tests
-"
+'
 ]
 =
 testlist
@@ -3399,11 +3358,11 @@ manifests
             
 prefs
 [
-"
+'
 reftest
 .
 manifests
-"
+'
 ]
 =
 json
@@ -3429,7 +3388,7 @@ e10s
             
 prefs
 [
-"
+'
 browser
 .
 tabs
@@ -3437,7 +3396,7 @@ tabs
 remote
 .
 autostart
-"
+'
 ]
 =
 True
@@ -3447,7 +3406,7 @@ else
             
 prefs
 [
-"
+'
 browser
 .
 tabs
@@ -3455,7 +3414,7 @@ tabs
 remote
 .
 autostart
-"
+'
 ]
 =
 False
@@ -3468,11 +3427,11 @@ fission
             
 prefs
 [
-"
+'
 fission
 .
 autostart
-"
+'
 ]
 =
 True
@@ -3482,11 +3441,11 @@ else
             
 prefs
 [
-"
+'
 fission
 .
 autostart
-"
+'
 ]
 =
 False
@@ -3506,11 +3465,11 @@ totalChunks
                 
 prefs
 [
-"
+'
 reftest
 .
 totalChunks
-"
+'
 ]
 =
 options
@@ -3525,11 +3484,11 @@ thisChunk
                 
 prefs
 [
-"
+'
 reftest
 .
 thisChunk
-"
+'
 ]
 =
 options
@@ -3548,8 +3507,6 @@ disable
 acceleration
         
 if
-(
-            
 platform
 .
 system
@@ -3564,37 +3521,35 @@ Windows
 Microsoft
 "
 )
-            
 and
-"
+\
+           
+'
 5
 .
 1
-"
+'
 in
 platform
 .
 version
 (
 )
-            
 and
 options
 .
 e10s
-        
-)
 :
             
 prefs
 [
-"
+'
 layers
 .
 acceleration
 .
 disabled
-"
+'
 ]
 =
 True
@@ -3622,8 +3577,6 @@ OOMs
 .
         
 if
-(
-            
 platform
 .
 system
@@ -3638,30 +3591,29 @@ Windows
 Microsoft
 "
 )
-            
 and
-"
+\
+           
+'
 6
 .
 1
-"
+'
 in
 platform
 .
 version
 (
 )
-        
-)
 :
             
 prefs
 [
-"
+'
 reftest
 .
 nocache
-"
+'
 ]
 =
 True
@@ -3775,9 +3727,9 @@ v
 .
 split
 (
-"
+'
 =
-"
+'
 )
             
 if
@@ -3868,9 +3820,9 @@ path
 join
 (
 here
-"
+'
 chrome
-"
+'
 )
 not
 in
@@ -3892,9 +3844,9 @@ path
 join
 (
 here
-"
+'
 chrome
-"
+'
 )
 )
         
@@ -3921,9 +3873,9 @@ kwargs
         
 kwargs
 [
-"
+'
 log
-"
+'
 ]
 =
 self
@@ -3964,7 +3916,6 @@ debugger
 options
 .
 debugger
-        
 )
         
 browserEnv
@@ -4448,18 +4399,18 @@ if
 hasattr
 (
 options
-"
+'
 log
-"
+'
 )
 :
             
 delattr
 (
 options
-"
+'
 log
-"
+'
 )
         
 #
@@ -4723,11 +4674,11 @@ browser
 "
 %
 VERIFY_REPEAT
+             
 step1
 )
             
 (
-                
 "
 2
 .
@@ -4745,16 +4696,14 @@ each
 time
 .
 "
-                
 %
+             
 VERIFY_REPEAT_SINGLE_BROWSER
-                
+             
 step2
-            
 )
             
 (
-                
 "
 3
 .
@@ -4772,16 +4721,13 @@ chaos
 mode
 .
 "
-                
 %
 VERIFY_REPEAT
-                
+             
 step3
-            
 )
             
 (
-                
 "
 4
 .
@@ -4802,12 +4748,11 @@ chaos
 mode
 .
 "
-                
 %
+             
 VERIFY_REPEAT_SINGLE_BROWSER
-                
+             
 step4
-            
 )
         
 ]
@@ -4915,7 +4860,6 @@ log
 .
 info
 (
-                    
 "
 :
 :
@@ -4933,7 +4877,6 @@ were
 run
 .
 "
-                
 )
                 
 break
@@ -4944,11 +4887,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
             
 self
@@ -4983,11 +4926,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
             
 result
@@ -5036,11 +4979,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 self
@@ -5049,7 +4992,7 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
@@ -5058,7 +5001,7 @@ verification
 summary
 for
 :
-"
+'
 )
         
 self
@@ -5067,11 +5010,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 for
@@ -5086,11 +5029,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 +
 test
 )
@@ -5101,11 +5044,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 for
@@ -5127,7 +5070,7 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
@@ -5136,7 +5079,7 @@ s
 :
 %
 s
-"
+'
 %
 (
 descr
@@ -5153,11 +5096,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 self
@@ -5166,7 +5109,7 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
@@ -5174,7 +5117,7 @@ Test
 verification
 %
 s
-"
+'
 %
 finalResult
 )
@@ -5185,11 +5128,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 return
@@ -5227,7 +5170,6 @@ outputHandler
 =
 OutputHandler
 (
-            
 self
 .
 log
@@ -5237,7 +5179,6 @@ utilityPath
 options
 .
 symbolsPath
-        
 )
         
 if
@@ -5288,9 +5229,9 @@ not
 getattr
 (
 options
-"
+'
 runTestsInParallel
-"
+'
 False
 )
 :
@@ -5389,9 +5330,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
 :
             
 jobsWithoutFocus
@@ -5434,9 +5375,9 @@ totalJobs
         
 host
 =
-"
+'
 localhost
-"
+'
         
 port
 =
@@ -5457,9 +5398,9 @@ marionette
 .
 split
 (
-"
+'
 :
-"
+'
 )
         
 #
@@ -5539,7 +5480,6 @@ jobArgs
 ]
 =
 [
-                
 "
 -
 -
@@ -5555,7 +5495,7 @@ needs
 -
 focus
 "
-                
+                              
 "
 -
 -
@@ -5568,7 +5508,7 @@ d
 "
 %
 jobsWithoutFocus
-                
+                              
 "
 -
 -
@@ -5581,7 +5521,7 @@ d
 "
 %
 chunkNumber
-                
+                              
 "
 -
 -
@@ -5598,7 +5538,6 @@ d
 host
 port
 )
-            
 ]
             
 port
@@ -5905,6 +5844,7 @@ amount
 =
 int
 (
+                        
 threadMatches
 .
 group
@@ -5929,13 +5869,14 @@ amount
 =
 int
 (
+                    
 threadMatches
 .
 group
 (
-"
+'
 total
-"
+'
 )
 if
 threadMatches
@@ -5945,9 +5886,9 @@ else
                 
 summaryObj
 [
-"
+'
 total
-"
+'
 ]
 +
 =
@@ -5955,14 +5896,14 @@ amount
         
 print
 (
-"
+'
 REFTEST
 INFO
 |
 Result
 summary
 :
-"
+'
 )
         
 for
@@ -5983,14 +5924,12 @@ summaryLines
             
 details
 =
-"
-"
+'
+'
 .
 join
 (
-                
 [
-                    
 "
 %
 d
@@ -6005,60 +5944,52 @@ attribute
 ]
 description
 )
-                    
 for
 (
+                
 attribute
 description
 )
 in
 categories
-                
 ]
-            
 )
             
 print
 (
                 
-"
+'
 REFTEST
 INFO
 |
-"
-                
+'
 +
 text
-                
 +
-"
+'
 :
-"
-                
+'
 +
 str
 (
 summaryObj
 [
-"
+'
 total
-"
+'
 ]
 )
-                
 +
-"
+'
 (
-"
-                
+'
 +
 details
-                
 +
-"
+'
 )
-"
-            
+'
+                
 )
         
 return
@@ -6131,7 +6062,6 @@ log
 .
 error
 (
-            
 "
 %
 s
@@ -6147,9 +6077,9 @@ with
 no
 output
 "
-            
 %
 (
+                       
 self
 .
 lastTestSeen
@@ -6158,7 +6088,6 @@ int
 timeout
 )
 )
-        
 )
         
 self
@@ -6192,7 +6121,6 @@ dump_screen
 =
 not
 debuggerInfo
-        
 )
     
 def
@@ -6215,7 +6143,6 @@ log
 .
 info
 (
-                
 "
 Not
 taking
@@ -6230,7 +6157,6 @@ was
 previously
 logged
 "
-            
 )
             
 return
@@ -6318,9 +6244,9 @@ info
 .
 get
 (
-"
+'
 crashreporter
-"
+'
 True
 )
 and
@@ -6370,7 +6296,6 @@ crashinject
 exe
 "
 )
-                
 )
                 
 if
@@ -6390,6 +6315,7 @@ subprocess
 .
 Popen
 (
+                        
 [
 crashinject
 str
@@ -6510,43 +6436,34 @@ kill
 def
 runApp
 (
-        
 self
-        
 options
-        
 cmdargs
 =
 None
-        
 timeout
 =
 None
-        
 debuggerInfo
 =
 None
-        
+               
 symbolsPath
 =
 None
-        
 valgrindPath
 =
 None
-        
 valgrindArgs
 =
 None
-        
+               
 valgrindSuppFiles
 =
 None
-        
 *
 *
 profileArgs
-    
 )
 :
         
@@ -6578,10 +6495,10 @@ cmdargs
 .
 append
 (
-"
+'
 -
 marionette
-"
+'
 )
         
 binary
@@ -6674,6 +6591,7 @@ self
 .
 handleTimeout
 (
+                
 timeout
 proc
 options
@@ -6773,15 +6691,15 @@ test
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_start
-"
+'
 :
                 
 self
@@ -6792,24 +6710,24 @@ testid
 (
 message
 [
-"
+'
 test
-"
+'
 ]
 )
             
 elif
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_end
-"
+'
 :
                 
 if
@@ -6819,9 +6737,9 @@ lastTest
 and
 message
 [
-"
+'
 test
-"
+'
 ]
 =
 =
@@ -6847,13 +6765,13 @@ self
 .
 lastTestSeen
 =
-"
+'
 {
 }
 (
 finished
 )
-"
+'
 .
 format
 (
@@ -6861,9 +6779,9 @@ testid
 (
 message
 [
-"
+'
 test
-"
+'
 ]
 )
 )
@@ -6881,29 +6799,29 @@ kp_kwargs
 =
 {
             
-"
+'
 kill_on_timeout
-"
+'
 :
 False
             
-"
+'
 cwd
-"
+'
 :
 SCRIPT_DIRECTORY
             
-"
+'
 onTimeout
-"
+'
 :
 [
 timeoutHandler
 ]
             
-"
+'
 processOutputLine
-"
+'
 :
 [
 self
@@ -6953,9 +6871,9 @@ details
             
 kp_kwargs
 [
-"
+'
 processStderrLine
-"
+'
 ]
 =
 [
@@ -7018,74 +6936,71 @@ runners
 .
 get
 (
-            
 mozinfo
 .
 info
 .
 get
 (
-"
+'
 appname
-"
-"
+'
+'
 firefox
-"
+'
 )
+                                           
 mozrunner
 .
 Runner
-        
 )
         
 runner
 =
 runner_cls
 (
-            
 profile
 =
 profile
-            
+                            
 binary
 =
 binary
-            
+                            
 process_class
 =
 mozprocess
 .
 ProcessHandlerMixin
-            
+                            
 cmdargs
 =
 cmdargs
-            
+                            
 env
 =
 env
-            
+                            
 process_args
 =
 kp_kwargs
-        
 )
         
 runner
 .
 start
 (
-            
 debug_args
 =
 debug_args
+                     
 interactive
 =
 interactive
+                     
 outputTimeout
 =
 timeout
-        
 )
         
 proc
@@ -7100,13 +7015,13 @@ outputHandler
 .
 proc_name
 =
-"
+'
 GECKO
 (
 {
 }
 )
-"
+'
 .
 format
 (
@@ -7140,25 +7055,25 @@ marionette_args
 =
 {
                 
-"
+'
 socket_timeout
-"
+'
 :
 options
 .
 marionette_socket_timeout
                 
-"
+'
 startup_timeout
-"
+'
 :
 options
 .
 marionette_startup_timeout
                 
-"
+'
 symbols_path
-"
+'
 :
 options
 .
@@ -7181,25 +7096,25 @@ marionette
 .
 split
 (
-"
+'
 :
-"
+'
 )
                 
 marionette_args
 [
-"
+'
 host
-"
+'
 ]
 =
 host
                 
 marionette_args
 [
-"
+'
 port
-"
+'
 ]
 =
 int
@@ -7365,8 +7280,6 @@ status
             
 msg
 =
-(
-                
 "
 TEST
 -
@@ -7385,15 +7298,14 @@ code
 %
 s
 "
-                
 %
+\
+                    
 (
 self
 .
 lastTestSeen
 status
-)
-            
 )
             
 #
@@ -7421,11 +7333,9 @@ mozcrash
 .
 log_crashes
 (
-            
 self
 .
 log
-            
 os
 .
 path
@@ -7435,21 +7345,19 @@ join
 profile
 .
 profile
-"
+'
 minidumps
-"
+'
 )
-            
+                                       
 options
 .
 symbolsPath
-            
 test
 =
 self
 .
 lastTestSeen
-        
 )
         
 if
@@ -7515,19 +7423,19 @@ mode
 .
 format
 (
-"
+'
 e10s
-"
+'
 if
 options
 .
 e10s
 else
-"
+'
 non
 -
 e10s
-"
+'
 )
 )
         
@@ -7575,11 +7483,11 @@ prefs
 =
 {
             
-"
+'
 reftest
 .
 manifests
-"
+'
 :
 json
 .
@@ -7588,13 +7496,13 @@ dumps
 manifests
 )
             
-"
+'
 reftest
 .
 manifests
 .
 dumpTests
-"
+'
 :
 testDumpFile
 or
@@ -7661,9 +7569,9 @@ open
 self
 .
 testDumpFile
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -7723,23 +7631,23 @@ reftest
             
 test
 [
-"
+'
 name
-"
+'
 ]
 =
 test
 [
-"
+'
 path
-"
+'
 ]
 =
 test
 [
-"
+'
 url1
-"
+'
 ]
         
 mp
@@ -7772,7 +7680,6 @@ filters
 .
 append
 (
-                
 mpf
 .
 chunk_by_manifest
@@ -7784,7 +7691,6 @@ options
 .
 totalChunks
 )
-            
 )
         
 tests
@@ -7832,17 +7738,16 @@ mozdebug
 .
 get_debugger_info
 (
-                
 options
 .
 debugger
 options
 .
 debuggerArgs
+                                                      
 options
 .
 debuggerInteractive
-            
 )
         
 def
@@ -7859,9 +7764,9 @@ kwargs
 .
 get
 (
-"
+'
 tests
-"
+'
 )
 :
                 
@@ -7871,18 +7776,18 @@ lastTest
 =
 kwargs
 [
-"
+'
 tests
-"
+'
 ]
 [
 -
 1
 ]
 [
-"
+'
 identifier
-"
+'
 ]
                 
 if
@@ -7900,8 +7805,8 @@ self
 .
 lastTest
 =
-"
-"
+'
+'
 .
 join
 (
@@ -8042,38 +7947,34 @@ symbolsPath
 *
 *
 kwargs
-            
 )
             
 mozleak
 .
 process_leak_log
 (
-                
 self
 .
 leakLogFile
-                
+                                     
 leak_thresholds
 =
 options
 .
 leakThresholds
-                
+                                     
 stack_fixer
 =
 get_stack_fixer_function
 (
-                    
 options
 .
 utilityPath
+                                                                          
 options
 .
 symbolsPath
-                
 )
-            
 )
             
 return
@@ -8125,9 +8026,9 @@ tests_by_manifest
 [
 t
 [
-"
+'
 manifest
-"
+'
 ]
 ]
 .
@@ -8140,9 +8041,9 @@ test_id
 =
 t
 [
-"
+'
 identifier
-"
+'
 ]
             
 if
@@ -8156,8 +8057,8 @@ string_types
                 
 test_id
 =
-"
-"
+'
+'
 .
 join
 (
@@ -8168,9 +8069,9 @@ ids_by_manifest
 [
 t
 [
-"
+'
 manifestID
-"
+'
 ]
 ]
 .
@@ -8252,9 +8153,9 @@ suite_end
 extra
 =
 {
-"
+'
 results
-"
+'
 :
 self
 .
@@ -8339,11 +8240,11 @@ abspath
 )
 =
 =
-"
+'
 user
 .
 js
-"
+'
 :
                     
 extra_prefs
@@ -8376,10 +8277,10 @@ abspath
 .
 endswith
 (
-"
+'
 .
 dic
-"
+'
 )
 :
                     
@@ -8498,7 +8399,6 @@ profile
 "
 %
 abspath
-                
 )
                 
 continue
@@ -8625,7 +8525,6 @@ parser
 .
 error
 (
-            
 "
 Error
 :
@@ -8644,7 +8543,7 @@ Are
 you
 executing
 "
-            
+                     
 "
 objdir
 /
@@ -8667,7 +8566,6 @@ options
 .
 app
 }
-        
 )
     
 if

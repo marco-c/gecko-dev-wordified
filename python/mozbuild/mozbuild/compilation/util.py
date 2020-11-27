@@ -76,9 +76,9 @@ path
 join
 (
 topobjdir
-"
+'
 Makefile
-"
+'
 )
     
 if
@@ -95,8 +95,7 @@ top_make
         
 print
 (
-            
-"
+'
 Your
 tree
 has
@@ -107,9 +106,9 @@ yet
 .
 Please
 run
-"
-            
-"
+'
+              
+'
 |
 mach
 build
@@ -118,8 +117,7 @@ with
 no
 arguments
 .
-"
-        
+'
 )
         
 return
@@ -162,9 +160,9 @@ line
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
 ]
@@ -212,37 +210,31 @@ cmd
 .
 _run_make
 (
-            
 directory
 =
 directory
-            
 target
 =
-"
+'
 showbuild
-"
-            
+'
 log
 =
 False
-            
+                      
 print_directory
 =
 False
-            
 allow_parallel
 =
 False
-            
 silent
 =
 True
-            
+                      
 line_handler
 =
 on_line
-        
 )
     
 finally
@@ -395,10 +387,10 @@ if
 flag
 =
 =
-"
+'
 -
 Xclang
-"
+'
 :
             
 saw_xclang

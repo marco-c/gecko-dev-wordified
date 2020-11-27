@@ -49,14 +49,12 @@ harness
 .
 check
 (
-            
 len
 (
 results
 )
-            
 numProductions
-            
+                      
 "
 %
 s
@@ -73,14 +71,12 @@ d
 prefix
 numProductions
 )
-        
 )
         
 harness
 .
 ok
 (
-            
 isinstance
 (
 results
@@ -91,7 +87,7 @@ WebIDL
 .
 IDLInterface
 )
-            
+                   
 "
 %
 s
@@ -105,7 +101,6 @@ IDLInterface
 (
 prefix
 )
-        
 )
         
 #
@@ -179,6 +174,7 @@ s
 (
 prefix
 name
+                                                               
 type
 (
 m
@@ -206,9 +202,7 @@ harness
 .
 ok
 (
-                    
 False
-                    
 "
 %
 s
@@ -224,6 +218,7 @@ type
 s
 "
 %
+                           
 (
 prefix
 name
@@ -232,7 +227,6 @@ type
 m
 )
 )
-                
 )
         
 #
@@ -284,9 +278,8 @@ harness
 .
 ok
 (
-                
 False
-                
+                       
 "
 Expected
 member
@@ -300,8 +293,8 @@ type
 %
 s
 "
-                
 %
+                       
 (
 expectedMembers
 [
@@ -318,7 +311,6 @@ expectedMembers
 1
 ]
 )
-            
 )
         
 return
@@ -361,6 +353,7 @@ harness
 ok
 (
 False
+                       
 prefix
 +
 "
@@ -388,6 +381,7 @@ harness
 ok
 (
 True
+                       
 prefix
 +
 "
@@ -409,11 +403,9 @@ harness
 .
 ok
 (
-                
 False
-                
+                       
 prefix
-                
 +
 "
 -
@@ -431,13 +423,11 @@ s
 "
 %
 e
-            
 )
     
 iterableMembers
 =
 [
-        
 (
 x
 WebIDL
@@ -454,6 +444,7 @@ entries
 "
 keys
 "
+                                                       
 "
 values
 "
@@ -461,13 +452,11 @@ values
 forEach
 "
 ]
-    
 ]
     
 setROMembers
 =
 (
-        
 [
 (
 x
@@ -484,8 +473,8 @@ has
 "
 ]
 ]
-        
 +
+                    
 [
 (
 "
@@ -496,10 +485,9 @@ WebIDL
 IDLMaplikeOrSetlike
 )
 ]
-        
 +
+                    
 iterableMembers
-    
 )
     
 setROMembers
@@ -520,8 +508,8 @@ IDLAttribute
     
 setRWMembers
 =
+(
 [
-        
 (
 x
 WebIDL
@@ -535,22 +523,25 @@ in
 "
 add
 "
+                                                     
 "
 clear
 "
+                                                     
 "
 delete
 "
 ]
-    
 ]
 +
+                    
 setROMembers
+)
     
 setROChromeMembers
 =
+(
 [
-        
 (
 x
 WebIDL
@@ -564,22 +555,25 @@ in
 "
 __add
 "
+                                                           
 "
 __clear
 "
+                                                           
 "
 __delete
 "
 ]
-    
 ]
 +
+                          
 setROMembers
+)
     
 setRWChromeMembers
 =
+(
 [
-        
 (
 x
 WebIDL
@@ -593,22 +587,24 @@ in
 "
 __add
 "
+                                                           
 "
 __clear
 "
+                                                           
 "
 __delete
 "
 ]
-    
 ]
 +
+                          
 setRWMembers
+)
     
 mapROMembers
 =
 (
-        
 [
 (
 x
@@ -628,8 +624,8 @@ has
 "
 ]
 ]
-        
 +
+                    
 [
 (
 "
@@ -640,10 +636,9 @@ WebIDL
 IDLMaplikeOrSetlike
 )
 ]
-        
 +
+                    
 iterableMembers
-    
 )
     
 mapROMembers
@@ -664,8 +659,8 @@ IDLAttribute
     
 mapRWMembers
 =
+(
 [
-        
 (
 x
 WebIDL
@@ -679,22 +674,24 @@ in
 "
 set
 "
+                                                     
 "
 clear
 "
+                                                     
 "
 delete
 "
 ]
-    
 ]
 +
 mapROMembers
+)
     
 mapRWChromeMembers
 =
+(
 [
-        
 (
 x
 WebIDL
@@ -708,17 +705,20 @@ in
 "
 __set
 "
+                                                           
 "
 __clear
 "
+                                                           
 "
 __delete
 "
 ]
-    
 ]
 +
+                          
 mapRWMembers
+)
     
 #
 OK
@@ -877,7 +877,6 @@ disallowedNonMethodNames
 unrelatedMembers
 =
 [
-        
 (
 "
 unrelatedAttribute
@@ -886,7 +885,7 @@ WebIDL
 .
 IDLAttribute
 )
-        
+                        
 (
 "
 unrelatedMethod
@@ -895,7 +894,6 @@ WebIDL
 .
 IDLMethod
 )
-    
 ]
     
 #
@@ -909,7 +907,6 @@ Tests
     
 shouldPass
 (
-        
 "
 Iterable
 (
@@ -917,7 +914,7 @@ key
 only
 )
 "
-        
+               
 "
 "
 "
@@ -965,16 +962,13 @@ unrelatedMethod
 "
 "
 "
-        
 valueIterableMembers
 +
 unrelatedMembers
-    
 )
     
 shouldPass
 (
-        
 "
 Iterable
 (
@@ -985,7 +979,7 @@ inheriting
 from
 parent
 "
-        
+               
 "
 "
 "
@@ -1042,18 +1036,14 @@ unrelatedMethod
 "
 "
 "
-        
 valueIterableMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Iterable
 (
@@ -1062,7 +1052,7 @@ and
 value
 )
 "
-        
+               
 "
 "
 "
@@ -1095,11 +1085,10 @@ unrelatedMethod
 "
 "
 "
-        
 iterableMembers
 +
 unrelatedMembers
-        
+               
 #
 numProductions
 =
@@ -1111,16 +1100,14 @@ the
 generated
 iterator
 iface
-        
+               
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Iterable
 (
@@ -1132,7 +1119,7 @@ inheriting
 from
 parent
 "
-        
+               
 "
 "
 "
@@ -1174,9 +1161,8 @@ unrelatedMethod
 "
 "
 "
-        
 iterableMembers
-        
+               
 #
 numProductions
 =
@@ -1188,23 +1174,21 @@ the
 generated
 iterator
 iface
-        
+               
 numProductions
 =
 3
-    
 )
     
 shouldPass
 (
-        
 "
 Maplike
 (
 readwrite
 )
 "
-        
+               
 "
 "
 "
@@ -1237,16 +1221,13 @@ unrelatedMethod
 "
 "
 "
-        
 mapRWMembers
 +
 unrelatedMembers
-    
 )
     
 shouldPass
 (
-        
 "
 Maplike
 (
@@ -1256,7 +1237,7 @@ inheriting
 from
 parent
 "
-        
+               
 "
 "
 "
@@ -1298,25 +1279,21 @@ unrelatedMethod
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Maplike
 (
 readwrite
 )
 "
-        
+               
 "
 "
 "
@@ -1349,16 +1326,13 @@ unrelatedMethod
 "
 "
 "
-        
 mapRWMembers
 +
 unrelatedMembers
-    
 )
     
 shouldPass
 (
-        
 "
 Maplike
 (
@@ -1368,7 +1342,7 @@ inheriting
 from
 parent
 "
-        
+               
 "
 "
 "
@@ -1410,25 +1384,21 @@ unrelatedMethod
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Maplike
 (
 readonly
 )
 "
-        
+               
 "
 "
 "
@@ -1462,16 +1432,13 @@ unrelatedMethod
 "
 "
 "
-        
 mapROMembers
 +
 unrelatedMembers
-    
 )
     
 shouldPass
 (
-        
 "
 Maplike
 (
@@ -1481,7 +1448,7 @@ inheriting
 from
 parent
 "
-        
+               
 "
 "
 "
@@ -1524,25 +1491,21 @@ unrelatedMethod
 "
 "
 "
-        
 mapROMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Setlike
 (
 readwrite
 )
 "
-        
+               
 "
 "
 "
@@ -1574,16 +1537,13 @@ unrelatedMethod
 "
 "
 "
-        
 setRWMembers
 +
 unrelatedMembers
-    
 )
     
 shouldPass
 (
-        
 "
 Setlike
 (
@@ -1593,7 +1553,7 @@ inheriting
 from
 parent
 "
-        
+               
 "
 "
 "
@@ -1634,25 +1594,21 @@ unrelatedMethod
 "
 "
 "
-        
 setRWMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Setlike
 (
 readonly
 )
 "
-        
+               
 "
 "
 "
@@ -1685,16 +1641,13 @@ unrelatedMethod
 "
 "
 "
-        
 setROMembers
 +
 unrelatedMembers
-    
 )
     
 shouldPass
 (
-        
 "
 Setlike
 (
@@ -1704,7 +1657,7 @@ inheriting
 from
 parent
 "
-        
+               
 "
 "
 "
@@ -1746,18 +1699,14 @@ unrelatedMethod
 "
 "
 "
-        
 setROMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Inheritance
 of
@@ -1765,7 +1714,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -1796,25 +1745,21 @@ Foo1
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 JS
 Implemented
 maplike
 interface
 "
-        
+               
 "
 "
 "
@@ -1862,21 +1807,18 @@ long
 "
 "
 "
-        
 setRWChromeMembers
-    
 )
     
 shouldPass
 (
-        
 "
 JS
 Implemented
 maplike
 interface
 "
-        
+               
 "
 "
 "
@@ -1925,9 +1867,7 @@ long
 "
 "
 "
-        
 mapRWChromeMembers
-    
 )
     
 #
@@ -1943,7 +1883,6 @@ tests
     
 shouldFail
 (
-        
 "
 Two
 maplike
@@ -1953,7 +1892,7 @@ on
 same
 interface
 "
-        
+               
 "
 "
 "
@@ -1981,12 +1920,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Two
 iterable
@@ -1996,7 +1933,7 @@ on
 same
 interface
 "
-        
+               
 "
 "
 "
@@ -2024,12 +1961,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Two
 iterables
@@ -2037,7 +1972,7 @@ on
 same
 interface
 "
-        
+               
 "
 "
 "
@@ -2065,12 +2000,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Two
 maplike
@@ -2079,7 +2012,7 @@ setlikes
 in
 partials
 "
-        
+               
 "
 "
 "
@@ -2115,12 +2048,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Conflicting
 maplike
@@ -2129,7 +2060,7 @@ setlikes
 across
 inheritance
 "
-        
+               
 "
 "
 "
@@ -2166,12 +2097,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Conflicting
 maplike
@@ -2180,7 +2109,7 @@ iterable
 across
 inheritance
 "
-        
+               
 "
 "
 "
@@ -2217,12 +2146,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Conflicting
 maplike
@@ -2232,7 +2159,7 @@ across
 multistep
 inheritance
 "
-        
+               
 "
 "
 "
@@ -2278,7 +2205,6 @@ long
 "
 "
 "
-    
 )
     
 #
@@ -2366,7 +2292,6 @@ methodPasses
             
 shouldPass
 (
-                
 "
 Conflicting
 method
@@ -2382,7 +2307,7 @@ s
 likeMember
 conflictName
 )
-                
+                       
 "
 "
 "
@@ -2418,15 +2343,12 @@ test3
 "
 "
 "
-                
 %
 (
 likeMember
 conflictName
 )
-                
 expectedMembers
-            
 )
         
 else
@@ -2434,7 +2356,6 @@ else
             
 shouldFail
 (
-                
 "
 Conflicting
 method
@@ -2450,7 +2371,7 @@ s
 likeMember
 conflictName
 )
-                
+                       
 "
 "
 "
@@ -2486,13 +2407,11 @@ test3
 "
 "
 "
-                
 %
 (
 likeMember
 conflictName
 )
-            
 )
         
 #
@@ -2505,7 +2424,6 @@ fail
         
 shouldFail
 (
-            
 "
 Conflicting
 inherited
@@ -2522,7 +2440,7 @@ s
 likeMember
 conflictName
 )
-            
+                   
 "
 "
 "
@@ -2563,18 +2481,15 @@ s
 "
 "
 "
-            
 %
 (
 conflictName
 likeMember
 )
-        
 )
         
 shouldFail
 (
-            
 "
 Conflicting
 static
@@ -2591,7 +2506,7 @@ s
 likeMember
 conflictName
 )
-            
+                   
 "
 "
 "
@@ -2624,18 +2539,15 @@ test3
 "
 "
 "
-            
 %
 (
 likeMember
 conflictName
 )
-        
 )
         
 shouldFail
 (
-            
 "
 Conflicting
 attribute
@@ -2651,7 +2563,7 @@ s
 likeMember
 conflictName
 )
-            
+                   
 "
 "
 "
@@ -2675,18 +2587,15 @@ s
 "
 "
 "
-            
 %
 (
 likeMember
 conflictName
 )
-        
 )
         
 shouldFail
 (
-            
 "
 Conflicting
 const
@@ -2702,7 +2611,7 @@ s
 likeMember
 conflictName
 )
-            
+                   
 "
 "
 "
@@ -2729,18 +2638,15 @@ s
 "
 "
 "
-            
 %
 (
 likeMember
 conflictName
 )
-        
 )
         
 shouldFail
 (
-            
 "
 Conflicting
 static
@@ -2757,7 +2663,7 @@ s
 likeMember
 conflictName
 )
-            
+                   
 "
 "
 "
@@ -2783,13 +2689,11 @@ s
 "
 "
 "
-            
 %
 (
 likeMember
 conflictName
 )
-        
 )
     
 for
@@ -2892,7 +2796,6 @@ True
     
 shouldPass
 (
-        
 "
 Inheritance
 of
@@ -2904,7 +2807,7 @@ child
 member
 collision
 "
-        
+               
 "
 "
 "
@@ -2941,18 +2844,14 @@ entries
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Inheritance
 of
@@ -2967,7 +2866,7 @@ child
 member
 collision
 "
-        
+               
 "
 "
 "
@@ -3013,18 +2912,14 @@ entries
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 3
-    
 )
     
 shouldFail
 (
-        
 "
 Maplike
 interface
@@ -3033,7 +2928,7 @@ mixin
 member
 collision
 "
-        
+               
 "
 "
 "
@@ -3074,12 +2969,10 @@ Foo2
 "
 "
 "
-    
 )
     
 shouldPass
 (
-        
 "
 Inherited
 Maplike
@@ -3090,7 +2983,7 @@ interface
 member
 collision
 "
-        
+               
 "
 "
 "
@@ -3140,18 +3033,14 @@ Foo2
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 4
-    
 )
     
 shouldFail
 (
-        
 "
 Inheritance
 of
@@ -3163,7 +3052,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3200,12 +3089,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Inheritance
 of
@@ -3220,7 +3107,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3266,12 +3153,10 @@ long
 "
 "
 "
-    
 )
     
 shouldPass
 (
-        
 "
 Inheritance
 of
@@ -3283,7 +3168,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3319,18 +3204,14 @@ size
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldPass
 (
-        
 "
 Inheritance
 of
@@ -3345,7 +3226,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3390,18 +3271,14 @@ size
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 3
-    
 )
     
 shouldFail
 (
-        
 "
 Inheritance
 of
@@ -3413,7 +3290,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3449,12 +3326,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Inheritance
 of
@@ -3469,7 +3344,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3514,12 +3389,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Inheritance
 of
@@ -3534,7 +3407,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3570,12 +3443,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Inheritance
 of
@@ -3590,7 +3461,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3628,12 +3499,10 @@ long
 "
 "
 "
-    
 )
     
 shouldPass
 (
-        
 "
 Inheritance
 of
@@ -3648,7 +3517,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3685,18 +3554,14 @@ clear
 "
 "
 "
-        
 mapRWMembers
-        
 numProductions
 =
 2
-    
 )
     
 shouldFail
 (
-        
 "
 Inheritance
 of
@@ -3709,7 +3574,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3749,12 +3614,10 @@ long
 "
 "
 "
-    
 )
     
 shouldFail
 (
-        
 "
 Inheritance
 of
@@ -3770,7 +3633,7 @@ maplike
 /
 setlike
 "
-        
+               
 "
 "
 "
@@ -3819,12 +3682,10 @@ long
 "
 "
 "
-    
 )
     
 shouldPass
 (
-        
 "
 Interface
 with
@@ -3832,7 +3693,7 @@ readonly
 allowable
 overrides
 "
-        
+               
 "
 "
 "
@@ -3860,7 +3721,6 @@ clear
 "
 "
 "
-        
 setROMembers
 +
 [
@@ -3873,12 +3733,10 @@ WebIDL
 IDLAttribute
 )
 ]
-    
 )
     
 shouldPass
 (
-        
 "
 JS
 Implemented
@@ -3891,7 +3749,7 @@ readonly
 allowable
 overrides
 "
-        
+               
 "
 "
 "
@@ -3946,7 +3804,6 @@ clear
 "
 "
 "
-        
 setROChromeMembers
 +
 [
@@ -3959,12 +3816,10 @@ WebIDL
 IDLAttribute
 )
 ]
-    
 )
     
 shouldFail
 (
-        
 "
 JS
 Implemented
@@ -3979,7 +3834,7 @@ readwrite
 allowable
 overrides
 "
-        
+               
 "
 "
 "
@@ -4033,14 +3888,12 @@ clear
 "
 "
 "
-    
 )
     
 r
 =
 shouldPass
 (
-        
 "
 Check
 proper
@@ -4052,7 +3905,7 @@ delete
 /
 set
 "
-        
+                   
 "
 "
 "
@@ -4116,9 +3969,7 @@ d
 "
 "
 "
-        
 mapRWMembers
-    
 )
     
 for
@@ -4181,7 +4032,6 @@ harness
 .
 check
 (
-                
 m
 .
 maxArgCount
@@ -4200,21 +4050,19 @@ m
 identifier
 .
 name
-            
 )
             
 harness
 .
 ok
 (
-                
 not
 m
 .
 isMaplikeOrSetlikeOrIterableMethod
 (
 )
-                
+                       
 "
 %
 s
@@ -4233,5 +4081,4 @@ m
 identifier
 .
 name
-            
 )

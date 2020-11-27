@@ -183,7 +183,6 @@ windowtype
 )
 ;
 "
-        
 )
         
 self

@@ -187,26 +187,28 @@ log
 logging
 .
 ERROR
-"
+'
 talos
-"
+'
+                     
 {
-"
+'
 error
-"
+'
 :
 str
 (
 e
 )
 }
-"
+                     
+'
 ERROR
 :
 {
 error
 }
-"
+'
 )
             
 self
@@ -216,13 +218,14 @@ log
 logging
 .
 INFO
-"
+'
 raptor
-"
+'
+                     
 {
-"
+'
 help
-"
+'
 :
 e
 .
@@ -230,11 +233,12 @@ help
 (
 )
 }
-"
+                     
+'
 {
 help
 }
-"
+'
 )
             
 return
@@ -286,12 +290,12 @@ join
 self
 .
 topsrcdir
-"
+'
 testing
-"
-"
+'
+'
 talos
-"
+'
 )
         
 self
@@ -307,12 +311,13 @@ join
 self
 .
 topsrcdir
-"
+'
 testing
-"
-"
+'
+                                           
+'
 mozharness
-"
+'
 )
         
 self
@@ -328,11 +333,11 @@ join
 self
 .
 talos_dir
-"
+'
 talos
 .
 json
-"
+'
 )
         
 self
@@ -345,21 +350,20 @@ path
 .
 join
 (
-            
 self
 .
 _topobjdir
-"
+'
 testing
-"
-"
+'
+                                             
+'
 talos
 -
 in_tree_conf
 .
 json
-"
-        
+'
 )
         
 self
@@ -382,25 +386,24 @@ path
 .
 join
 (
-            
 self
 .
 topsrcdir
-"
+'
 third_party
-"
-"
+'
+'
 python
-"
-"
+'
+                                              
+'
 virtualenv
-"
-"
+'
+'
 virtualenv
 .
 py
-"
-        
+'
 )
         
 self
@@ -416,14 +419,15 @@ join
 self
 .
 _topobjdir
-"
+'
 testing
-"
-"
+'
+                                            
+'
 talos
 -
 venv
-"
+'
 )
         
 self
@@ -450,34 +454,32 @@ self
 default_actions
 =
 [
-"
+'
 populate
 -
 webroot
-"
+'
 ]
         
 default_actions
 .
 extend
 (
-            
 [
-                
-"
+            
+'
 create
 -
 virtualenv
-"
-                
-"
+'
+            
+'
 run
 -
 tests
-"
-            
-]
+'
         
+]
 )
         
 self
@@ -486,65 +488,65 @@ config
 =
 {
             
-"
+'
 run_local
-"
+'
 :
 True
             
-"
+'
 talos_json
-"
+'
 :
 self
 .
 talos_json
             
-"
+'
 binary_path
-"
+'
 :
 self
 .
 binary_path
             
-"
+'
 repo_path
-"
+'
 :
 self
 .
 topsrcdir
             
-"
+'
 obj_path
-"
+'
 :
 self
 .
 topobjdir
             
-"
+'
 log_name
-"
+'
 :
-"
+'
 talos
-"
+'
             
-"
+'
 virtualenv_path
-"
+'
 :
 self
 .
 virtualenv_path
             
-"
+'
 pypi_url
-"
+'
 :
-"
+'
 http
 :
 /
@@ -556,33 +558,33 @@ python
 org
 /
 simple
-"
+'
             
-"
+'
 base_work_dir
-"
+'
 :
 self
 .
 mozharness_dir
             
-"
+'
 exes
-"
+'
 :
 {
                 
-"
+'
 python
-"
+'
 :
 self
 .
 python_interp
                 
-"
+'
 virtualenv
-"
+'
 :
 [
 self
@@ -595,9 +597,9 @@ virtualenv_script
             
 }
             
-"
+'
 title
-"
+'
 :
 socket
 .
@@ -605,53 +607,53 @@ gethostname
 (
 )
             
-"
+'
 default_actions
-"
+'
 :
 default_actions
             
-"
+'
 talos_extra_options
-"
+'
 :
 [
-"
+'
 -
 -
 develop
-"
+'
 ]
 +
 self
 .
 talos_args
             
-"
+'
 python3_manifest
-"
+'
 :
 {
                 
-"
+'
 win32
-"
+'
 :
-"
+'
 python3
 .
 manifest
-"
+'
                 
-"
+'
 win64
-"
+'
 :
-"
+'
 python3_x64
 .
 manifest
-"
+'
             
 }
         
@@ -670,16 +672,16 @@ args
 =
 {
             
-"
+'
 config
-"
+'
 :
 {
 }
             
-"
+'
 initial_config_file
-"
+'
 :
 self
 .
@@ -704,9 +706,9 @@ open
 self
 .
 config_file_path
-"
+'
 wb
-"
+'
 )
             
 config_file
@@ -801,29 +803,27 @@ talos_mh
 =
 Talos
 (
-            
 config
 =
 self
 .
 args
 [
-"
+'
 config
-"
+'
 ]
-            
+                         
 initial_config_file
 =
 self
 .
 args
 [
-"
+'
 initial_config_file
-"
+'
 ]
-        
 )
         
 return
@@ -879,22 +879,20 @@ MachCommandBase
     
 Command
 (
-        
-"
+'
 talos
 -
 test
-"
-        
+'
 category
 =
-"
+'
 testing
-"
-        
+'
+             
 description
 =
-"
+'
 Run
 talos
 tests
@@ -903,12 +901,11 @@ performance
 testing
 )
 .
-"
-        
+'
+             
 parser
 =
 create_parser
-    
 )
     
 def

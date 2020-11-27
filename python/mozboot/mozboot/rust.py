@@ -96,7 +96,7 @@ SNI
 .
 RUSTUP_URL_BASE
 =
-"
+'
 https
 :
 /
@@ -116,7 +116,7 @@ amazonaws
 com
 /
 rustup
-"
+'
 #
 Pull
 this
@@ -132,14 +132,14 @@ RUSTUP_MANIFEST
 =
 RUSTUP_URL_BASE
 +
-"
+'
 /
 release
 -
 stable
 .
 toml
-"
+'
 #
 We
 bake
@@ -157,13 +157,13 @@ checksum
 .
 RUSTUP_VERSION
 =
-"
+'
 1
 .
 21
 .
 1
-"
+'
 #
 SHA
 -
@@ -179,31 +179,33 @@ RUSTUP_HASHES
 =
 {
     
-"
+'
 x86_64
 -
 unknown
 -
 freebsd
-"
+'
 :
-"
+        
+'
 a6bfc71c58b7ac3dad0d6ea0937990ca72f3b636096244c0c9ba814a627cbcc1
-"
+'
     
-"
+'
 x86_64
 -
 apple
 -
 darwin
-"
+'
 :
-"
+        
+'
 fd76f7093bd810f9ee9050786678c74155d6f5fcc3aac958d24c0783e435a994
-"
+'
     
-"
+'
 x86_64
 -
 unknown
@@ -211,13 +213,14 @@ unknown
 linux
 -
 gnu
-"
+'
 :
-"
+        
+'
 ad1f8b5199b3b9e231472ed7aa08d2e5d1d539198a15c5b1e53c746aad81d27b
-"
+'
     
-"
+'
 x86_64
 -
 pc
@@ -225,17 +228,18 @@ pc
 windows
 -
 msvc
-"
+'
 :
-"
+        
+'
 9f9e33fa4759075ec60e4da13798d1d66a4c2f43c5500e08714399313409dcf5
-"
+'
 }
 NO_PLATFORM
 =
-"
-"
-"
+'
+'
+'
 Sorry
 we
 have
@@ -280,9 +284,9 @@ your
 package
 manager
 .
-"
-"
-"
+'
+'
+'
 def
 rustup_url
 (
@@ -293,9 +297,9 @@ RUSTUP_VERSION
 )
 :
     
-"
-"
-"
+'
+'
+'
 Download
 url
 for
@@ -306,12 +310,12 @@ of
 the
 installer
 .
-"
-"
-"
+'
+'
+'
     
 return
-"
+'
 %
 (
 base
@@ -340,37 +344,36 @@ init
 ext
 )
 s
-"
+'
 %
 {
-        
-"
+                
+'
 base
-"
+'
 :
 RUSTUP_URL_BASE
-        
-"
+                
+'
 version
-"
+'
 :
 version
-        
-"
+                
+'
 host
-"
+'
 :
 host
-        
-"
+                
+'
 ext
-"
+'
 :
 exe_suffix
 (
 host
 )
-    
 }
 def
 rustup_hash
@@ -379,9 +382,9 @@ host
 )
 :
     
-"
-"
-"
+'
+'
+'
 Look
 up
 the
@@ -391,9 +394,9 @@ the
 given
 installer
 .
-"
-"
-"
+'
+'
+'
     
 return
 RUSTUP_HASHES
@@ -409,9 +412,9 @@ platform
 )
 :
     
-"
-"
-"
+'
+'
+'
 Determine
 the
 appropriate
@@ -422,9 +425,9 @@ for
 the
 current
 host
-"
-"
-"
+'
+'
+'
     
 if
 sys
@@ -433,20 +436,20 @@ platform
 .
 startswith
 (
-"
+'
 darwin
-"
+'
 )
 :
         
 return
-"
+'
 x86_64
 -
 apple
 -
 darwin
-"
+'
     
 elif
 sys
@@ -456,12 +459,12 @@ platform
 startswith
 (
 (
-"
+'
 win32
-"
-"
+'
+'
 msys
-"
+'
 )
 )
 :
@@ -481,7 +484,7 @@ Firefox
 .
         
 return
-"
+'
 x86_64
 -
 pc
@@ -489,7 +492,7 @@ pc
 windows
 -
 msvc
-"
+'
     
 elif
 sys
@@ -498,14 +501,14 @@ platform
 .
 startswith
 (
-"
+'
 linux
-"
+'
 )
 :
         
 return
-"
+'
 x86_64
 -
 unknown
@@ -513,7 +516,7 @@ unknown
 linux
 -
 gnu
-"
+'
     
 elif
 sys
@@ -522,20 +525,20 @@ platform
 .
 startswith
 (
-"
+'
 freebsd
-"
+'
 )
 :
         
 return
-"
+'
 x86_64
 -
 unknown
 -
 freebsd
-"
+'
     
 return
 None
@@ -560,27 +563,27 @@ platform
 )
     
 if
-"
+'
 windows
-"
+'
 in
 host
 :
         
 return
-"
+'
 .
 exe
-"
+'
     
 return
-"
-"
+'
+'
 USAGE
 =
-"
-"
-"
+'
+'
+'
 python
 rust
 .
@@ -642,9 +645,9 @@ by
 mach
 bootstrap
 .
-"
-"
-"
+'
+'
+'
 def
 unquote
 (
@@ -652,9 +655,9 @@ s
 )
 :
     
-"
-"
-"
+'
+'
+'
 Strip
 outer
 quotation
@@ -663,9 +666,9 @@ from
 a
 string
 .
-"
-"
-"
+'
+'
+'
     
 return
 s
@@ -689,9 +692,9 @@ rustup_latest_version
 )
 :
     
-"
-"
-"
+'
+'
+'
 Query
 the
 latest
@@ -701,9 +704,9 @@ the
 rustup
 installer
 .
-"
-"
-"
+'
+'
+'
     
 import
 urllib2
@@ -800,9 +803,9 @@ line
 split
 (
 b
-"
+'
 =
-"
+'
 2
 )
 )
@@ -811,11 +814,11 @@ if
 key
 =
 =
-"
+'
 schema
 -
 version
-"
+'
 :
             
 schema
@@ -837,7 +840,7 @@ schema
                 
 print
 (
-"
+'
 ERROR
 :
 Unknown
@@ -845,7 +848,7 @@ manifest
 schema
 %
 s
-"
+'
 %
 value
 )
@@ -861,9 +864,9 @@ elif
 key
 =
 =
-"
+'
 version
-"
+'
 :
             
 return
@@ -962,20 +965,20 @@ validate
             
 print
 (
-"
+'
 Checking
 %
 s
 .
 .
 .
-"
+'
 %
 platform
 end
 =
-"
-"
+'
+'
 )
         
 else
@@ -983,20 +986,20 @@ else
             
 print
 (
-"
+'
 Fetching
 %
 s
 .
 .
 .
-"
+'
 %
 platform
 end
 =
-"
-"
+'
+'
 )
         
 checksum
@@ -1024,8 +1027,7 @@ platform
             
 print
 (
-                
-"
+'
 mismatch
 :
 \
@@ -1040,17 +1042,16 @@ server
 :
 %
 s
-"
-                
+'
 %
 (
+                
 RUSTUP_HASHES
 [
 platform
 ]
 checksum
 )
-            
 )
         
 else
@@ -1058,9 +1059,9 @@ else
             
 print
 (
-"
+'
 OK
-"
+'
 )
         
 hashes
@@ -1079,14 +1080,14 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
-"
-"
-"
+'
+'
+'
 Allow
 invoking
 the
@@ -1098,9 +1099,9 @@ to
 update
 checksums
 .
-"
-"
-"
+'
+'
+'
     
 #
 Unbuffer
@@ -1145,9 +1146,9 @@ stdout
 fileno
 (
 )
-"
+'
 w
-"
+'
 0
 )
     
@@ -1229,17 +1230,17 @@ path
 join
 (
 mod_path
-"
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
-"
+'
+'
 requests
-"
+'
 )
 )
     
@@ -1267,11 +1268,11 @@ argv
 ]
 =
 =
-"
+'
 -
 -
 update
-"
+'
 :
             
 update
@@ -1295,7 +1296,7 @@ exit
     
 print
 (
-"
+'
 Checking
 latest
 installer
@@ -1303,11 +1304,11 @@ version
 .
 .
 .
-"
+'
 end
 =
-"
-"
+'
+'
 )
     
 version
@@ -1323,7 +1324,7 @@ version
         
 print
 (
-"
+'
 ERROR
 :
 Could
@@ -1334,7 +1335,7 @@ rustup
 installer
 version
 .
-"
+'
 )
         
 sys
@@ -1391,7 +1392,7 @@ update
         
 print
 (
-"
+'
 Out
 of
 date
@@ -1404,7 +1405,7 @@ s
 Validating
 checksums
 .
-"
+'
 %
 RUSTUP_VERSION
 )
@@ -1423,7 +1424,7 @@ exit
     
 print
 (
-"
+'
 Out
 of
 date
@@ -1436,7 +1437,7 @@ s
 Calculating
 checksums
 .
-"
+'
 %
 RUSTUP_VERSION
 )
@@ -1450,8 +1451,8 @@ version
     
 print
 (
-"
-"
+'
+'
 )
     
 print

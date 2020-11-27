@@ -99,9 +99,9 @@ if
 hasattr
 (
 a
-"
+'
 session
-"
+'
 )
 ]
 [

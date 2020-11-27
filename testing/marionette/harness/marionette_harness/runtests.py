@@ -132,25 +132,23 @@ object
 def
 __init__
 (
-        
 self
-        
+                 
 runner_class
 =
 MarionetteTestRunner
-        
+                 
 parser_class
 =
 MarionetteArguments
-        
+                 
 testcase_class
 =
 MarionetteTestCase
-        
+                 
 args
 =
 None
-    
 )
 :
         
@@ -203,7 +201,7 @@ _parser_class
             
 usage
 =
-"
+'
 %
 (
 prog
@@ -219,27 +217,24 @@ test_file_or_dir
 .
 .
 .
-"
-        
+'
 )
         
 parser
 .
 add_argument
 (
-            
-"
+'
 -
 -
 version
-"
-            
+'
 action
 =
-"
+'
 version
-"
-            
+'
+                            
 help
 =
 "
@@ -248,7 +243,7 @@ version
 information
 .
 "
-            
+                            
 version
 =
 "
@@ -261,7 +256,7 @@ s
 version
 }
 "
-            
+                            
 "
 (
 using
@@ -276,16 +271,16 @@ driver_version
 .
 format
 (
-                
+                                
 version
 =
 __version__
+                                
 driver_version
 =
 driver_version
-            
+                            
 )
-        
 )
         
 mozlog
@@ -336,7 +331,6 @@ sys
 .
 stdout
 }
-        
 )
         
 args
@@ -365,9 +359,9 @@ args
 .
 get
 (
-"
+'
 pydebugger
-"
+'
 )
 :
             
@@ -383,9 +377,9 @@ self
 .
 args
 [
-"
+'
 pydebugger
-"
+'
 ]
 )
     
@@ -410,9 +404,9 @@ args
 .
 pop
 (
-"
+'
 tests
-"
+'
 )
         
 runner
@@ -458,23 +452,19 @@ crashed
 def
 cli
 (
-    
 runner_class
 =
 MarionetteTestRunner
-    
 parser_class
 =
 MarionetteArguments
-    
+        
 harness_class
 =
 MarionetteHarness
-    
 testcase_class
 =
 MarionetteTestCase
-    
 args
 =
 None
@@ -535,11 +525,11 @@ commandline
 .
 setup_logging
 (
-"
+'
 Marionette
 test
 runner
-"
+'
 {
 }
 )
@@ -551,14 +541,13 @@ harness_instance
 =
 harness_class
 (
-            
 runner_class
 parser_class
 testcase_class
+                                         
 args
 =
 args
-        
 )
         
 failed

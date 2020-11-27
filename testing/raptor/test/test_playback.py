@@ -198,14 +198,13 @@ playback_files
 ]
 =
 [
-        
 os
 .
 path
 .
 join
 (
-            
+        
 os
 .
 path
@@ -228,21 +227,21 @@ __file__
 )
 )
 )
-            
+        
 "
 raptor
 "
-            
+        
 "
 tooltool
 -
 manifests
 "
-            
+        
 "
 playback
 "
-            
+        
 "
 mitm4
 -
@@ -254,9 +253,8 @@ amazon
 .
 manifest
 "
-        
-)
     
+)
 ]
     
 config

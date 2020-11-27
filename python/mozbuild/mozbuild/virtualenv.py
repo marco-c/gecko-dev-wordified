@@ -98,34 +98,38 @@ import
 sys
 IS_NATIVE_WIN
 =
+(
 sys
 .
 platform
 =
 =
-"
+'
 win32
-"
+'
 and
 os
 .
 sep
 =
 =
-"
+'
 \
 \
-"
+'
+)
 IS_CYGWIN
 =
+(
 sys
 .
 platform
 =
 =
-"
+'
 cygwin
-"
+'
+)
 PY2
 =
 sys
@@ -150,9 +154,9 @@ version_info
 3
 UPGRADE_WINDOWS
 =
-"
-"
-"
+'
+'
+'
 Please
 upgrade
 to
@@ -184,18 +188,18 @@ Developer_Guide
 Build_Instructions
 /
 Windows_Prerequisites
-"
-"
-"
+'
+'
+'
 .
 lstrip
 (
 )
 UPGRADE_OTHER
 =
-"
-"
-"
+'
+'
+'
 Run
 |
 mach
@@ -246,9 +250,9 @@ and
 try
 again
 .
-"
-"
-"
+'
+'
+'
 .
 lstrip
 (
@@ -340,11 +344,11 @@ ensure_binary
 s
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 :
     
@@ -364,9 +368,9 @@ encode
 encoding
 errors
 =
-"
+'
 strict
-"
+'
 )
     
 elif
@@ -407,11 +411,11 @@ ensure_text
 s
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 :
     
@@ -431,9 +435,9 @@ decode
 encoding
 errors
 =
-"
+'
 strict
-"
+'
 )
     
 elif
@@ -581,9 +585,9 @@ join
 self
 .
 virtualenv_root
-"
+'
 Scripts
-"
+'
 )
         
 return
@@ -596,9 +600,9 @@ join
 self
 .
 virtualenv_root
-"
+'
 bin
-"
+'
 )
     
 property
@@ -612,9 +616,9 @@ self
         
 binary
 =
-"
+'
 python
-"
+'
         
 if
 sys
@@ -622,22 +626,22 @@ sys
 platform
 in
 (
-"
+'
 win32
-"
-"
+'
+'
 cygwin
-"
+'
 )
 :
             
 binary
 +
 =
-"
+'
 .
 exe
-"
+'
         
 return
 os
@@ -678,21 +682,16 @@ tree
 def
 __init__
 (
-        
+            
 self
-        
 topsrcdir
-        
 virtualenv_path
-        
 log_handle
-        
 manifest_path
-        
+            
 populate_local_paths
 =
 True
-    
 )
 :
         
@@ -797,9 +796,9 @@ environ
 .
 pop
 (
-"
+'
 __PYVENV_LAUNCHER__
-"
+'
 None
 )
         
@@ -812,7 +811,6 @@ isabs
 (
             
 manifest_path
-        
 )
 "
 manifest_path
@@ -883,11 +881,12 @@ join
 self
 .
 virtualenv_root
-"
+                                          
+'
 python_exe
 .
 txt
-"
+'
 )
         
 self
@@ -940,25 +939,24 @@ path
 .
 join
 (
-            
 self
 .
 topsrcdir
-"
+'
 third_party
-"
-"
+'
+'
 python
-"
-"
+'
+                            
+'
 virtualenv
-"
-"
+'
+'
 virtualenv
 .
 py
-"
-        
+'
 )
     
 property
@@ -973,21 +971,20 @@ self
 return
 eval
 (
-            
 subprocess
 .
 check_output
 (
-                
 [
+            
 self
 .
 python_path
-"
+'
 -
 c
-"
-"
+'
+'
 import
 sys
 ;
@@ -1000,11 +997,9 @@ version_info
 :
 ]
 )
-"
+'
 ]
-            
 )
-        
 )
     
 property
@@ -1026,11 +1021,11 @@ join
 self
 .
 bin_path
-"
+'
 activate_this
 .
 py
-"
+'
 )
     
 def
@@ -1072,9 +1067,9 @@ open
 self
 .
 exe_info_path
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -1167,9 +1162,9 @@ open
 self
 .
 exe_info_path
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -1218,7 +1213,7 @@ value
         
 program
 =
-"
+'
 import
 sys
 ;
@@ -1228,7 +1223,7 @@ sys
 .
 hexversion
 )
-"
+'
         
 out
 =
@@ -1238,10 +1233,10 @@ check_output
 (
 [
 python
-"
+'
 -
 c
-"
+'
 program
 ]
 )
@@ -1363,6 +1358,8 @@ self
 virtualenv_root
 )
 or
+\
+                
 not
 os
 .
@@ -1370,11 +1367,9 @@ path
 .
 exists
 (
-            
 self
 .
 activate_path
-        
 )
 :
             
@@ -1559,6 +1554,7 @@ self
 packages
 (
 )
+                        
 if
 i
 [
@@ -1566,11 +1562,11 @@ i
 ]
 =
 =
-"
+'
 packages
 .
 txt
-"
+'
 ]
         
 for
@@ -1597,18 +1593,19 @@ submanager
 =
 VirtualenvManager
 (
-                
 self
 .
 topsrcdir
+                                           
 self
 .
 virtualenv_root
+                                           
 self
 .
 log_handle
+                                           
 submanifest
-            
 )
             
 if
@@ -1740,9 +1737,9 @@ kwargs
 .
 pop
 (
-"
+'
 env
-"
+'
 None
 )
 or
@@ -1771,17 +1768,17 @@ env
 .
 pop
 (
-"
+'
 PYTHONEXECUTABLE
-"
+'
 None
 )
         
 kwargs
 [
-"
+'
 env
-"
+'
 ]
 =
 ensure_subprocess_env
@@ -1795,9 +1792,9 @@ hasattr
 self
 .
 log_handle
-"
+'
 fileno
-"
+'
 )
 :
             
@@ -1806,7 +1803,6 @@ subprocess
 .
 call
 (
-                
 *
 args
 stdout
@@ -1814,6 +1810,7 @@ stdout
 self
 .
 log_handle
+                                   
 stderr
 =
 subprocess
@@ -1822,7 +1819,6 @@ STDOUT
 *
 *
 kwargs
-            
 )
         
 proc
@@ -1831,7 +1827,6 @@ subprocess
 .
 Popen
 (
-            
 *
 args
 stdout
@@ -1839,6 +1834,7 @@ stdout
 subprocess
 .
 PIPE
+                                
 stderr
 =
 subprocess
@@ -1847,7 +1843,6 @@ STDOUT
 *
 *
 kwargs
-        
 )
         
 for
@@ -1884,11 +1879,11 @@ line
 .
 decode
 (
-"
+'
 UTF
 -
 8
-"
+'
 )
 )
         
@@ -1983,13 +1978,11 @@ virtualenv_root
 args
 =
 [
-            
 python
-            
 self
 .
 virtualenv_script_path
-            
+                
 #
 Without
 this
@@ -2002,7 +1995,7 @@ to
 contact
 the
 outside
-            
+                
 #
 world
 and
@@ -2015,7 +2008,7 @@ newer
 version
 of
 pip
-            
+                
 #
 setuptools
 or
@@ -2027,24 +2020,23 @@ bad
 for
 security
 reproducibility
-            
+                
 #
 and
 speed
 .
-            
-"
+                
+'
 -
 -
 no
 -
 download
-"
-            
+'
+                
 self
 .
 virtualenv_root
-        
 ]
         
 result
@@ -2064,7 +2056,7 @@ raise
 Exception
 (
                 
-"
+'
 Failed
 to
 create
@@ -2081,16 +2073,15 @@ retcode
 %
 s
 )
-"
-                
+'
 %
 (
+                    
 self
 .
 virtualenv_root
 result
 )
-            
 )
         
 self
@@ -2114,15 +2105,15 @@ self
         
 mode
 =
-"
+'
 rU
-"
+'
 if
 PY2
 else
-"
+'
 r
-"
+'
         
 with
 open
@@ -2147,10 +2138,11 @@ rstrip
 .
 split
 (
-"
+'
 :
-"
+'
 )
+                        
 for
 line
 in
@@ -2623,18 +2615,18 @@ dirname
 (
 python_lib
 )
-"
+'
 sitecustomize
 .
 py
-"
+'
 )
+            
 mode
 =
-"
+'
 w
-"
-        
+'
 )
         
 def
@@ -2652,11 +2644,11 @@ package
 .
 startswith
 (
-"
+'
 set
 -
 variable
-"
+'
 )
 :
                 
@@ -2678,11 +2670,11 @@ package
 [
 len
 (
-"
+'
 set
 -
 variable
-"
+'
 )
 :
 ]
@@ -2698,9 +2690,9 @@ assignment
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
                 
@@ -2731,12 +2723,13 @@ sitecustomize
 write
 (
                     
-"
+'
 import
 os
 \
 n
-"
+'
+                    
 "
 os
 .
@@ -2762,7 +2755,6 @@ repr
 val
 )
 )
-                
 )
                 
 return
@@ -2775,11 +2767,11 @@ package
 ]
 =
 =
-"
+'
 setup
 .
 py
-"
+'
 :
                 
 assert
@@ -2809,6 +2801,7 @@ package
 1
 ]
 )
+                                
 package
 [
 2
@@ -2826,11 +2819,11 @@ package
 ]
 =
 =
-"
+'
 packages
 .
 txt
-"
+'
 :
                 
 assert
@@ -2888,15 +2881,12 @@ VirtualenvManager
 self
 .
 topsrcdir
-                    
 self
 .
 virtualenv_root
-                    
 self
 .
 log_handle
-                    
 src
                     
 populate_local_paths
@@ -2904,7 +2894,6 @@ populate_local_paths
 self
 .
 populate_local_paths
-                
 )
                 
 submanager
@@ -2927,10 +2916,10 @@ package
 .
 endswith
 (
-"
+'
 .
 pth
-"
+'
 )
 :
                 
@@ -2985,9 +2974,9 @@ package
 0
 ]
 )
-"
+'
 a
-"
+'
 )
 as
 f
@@ -3072,9 +3061,9 @@ package
 ]
 =
 =
-"
+'
 optional
-"
+'
 :
                 
 try
@@ -3098,16 +3087,15 @@ Exception
                     
 print
 (
-                        
-"
+'
 Error
 processing
 command
 .
 Ignoring
-"
-                        
-"
+'
+                          
+'
 because
 optional
 .
@@ -3115,23 +3103,22 @@ optional
 %
 s
 )
-"
+'
 %
-"
+'
 :
-"
+'
 .
 join
 (
 package
 )
-                        
+                          
 file
 =
 self
 .
 log_handle
-                    
 )
                     
 return
@@ -3144,13 +3131,13 @@ package
 ]
 in
 (
-"
+'
 windows
-"
-"
+'
+'
 !
 windows
-"
+'
 )
 :
                 
@@ -3164,9 +3151,9 @@ package
 .
 startswith
 (
-"
+'
 !
-"
+'
 )
                 
 is_win
@@ -3176,9 +3163,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
                 
 if
 is_win
@@ -3207,12 +3194,12 @@ package
 ]
 in
 (
-"
+'
 python2
-"
-"
+'
+'
 python3
-"
+'
 )
 :
                 
@@ -3225,9 +3212,9 @@ package
 .
 endswith
 (
-"
+'
 3
-"
+'
 )
                 
 if
@@ -3253,13 +3240,13 @@ True
 raise
 Exception
 (
-"
+'
 Unknown
 action
 :
 %
 s
-"
+'
 %
 package
 [
@@ -3457,21 +3444,21 @@ broken
 IGNORE_ENV_VARIABLES
 =
 (
-"
+'
 CC
-"
-"
+'
+'
 CXX
-"
-"
+'
+'
 CFLAGS
-"
-"
+'
+'
 CXXFLAGS
-"
-"
+'
+'
 LDFLAGS
-"
+'
 )
         
 try
@@ -3485,25 +3472,25 @@ environ
 .
 get
 (
-"
+'
 MACOSX_DEPLOYMENT_TARGET
-"
+'
 None
 )
             
 sysconfig_target
 =
+\
+                
 distutils
 .
 sysconfig
 .
 get_config_var
 (
-                
-"
+'
 MACOSX_DEPLOYMENT_TARGET
-"
-            
+'
 )
             
 if
@@ -3517,9 +3504,9 @@ os
 .
 environ
 [
-"
+'
 MACOSX_DEPLOYMENT_TARGET
-"
+'
 ]
 =
 sysconfig_target
@@ -3620,7 +3607,7 @@ sitecustomize
 write
 (
                         
-"
+'
 #
 Importing
 mach_bootstrap
@@ -3631,9 +3618,9 @@ effect
 of
 \
 n
-"
+'
                         
-"
+'
 #
 installing
 an
@@ -3641,15 +3628,14 @@ import
 hook
 \
 n
-"
+'
                         
-"
+'
 import
 mach_bootstrap
 \
 n
-"
-                    
+'
 )
                 
 sitecustomize
@@ -3664,9 +3650,9 @@ environ
 .
 pop
 (
-"
+'
 MACOSX_DEPLOYMENT_TARGET
-"
+'
 None
 )
             
@@ -3681,9 +3667,9 @@ os
 .
 environ
 [
-"
+'
 MACOSX_DEPLOYMENT_TARGET
-"
+'
 ]
 =
 old_target
@@ -3730,11 +3716,11 @@ path
 join
 (
 directory
-"
+'
 setup
 .
 py
-"
+'
 )
         
 program
@@ -3821,23 +3807,19 @@ subprocess
 .
 check_output
 (
-                
 program
-                
 cwd
 =
 directory
-                
 stderr
 =
 subprocess
 .
 STDOUT
-                
+                                             
 universal_newlines
 =
 True
-            
 )
             
 print
@@ -3854,7 +3836,7 @@ e
 :
             
 if
-"
+'
 Python
 .
 h
@@ -3864,7 +3846,7 @@ such
 file
 or
 directory
-"
+'
 in
 e
 .
@@ -3873,8 +3855,7 @@ output
                 
 print
 (
-                    
-"
+'
 WARNING
 :
 Python
@@ -3888,8 +3869,7 @@ Python
 development
 headers
 .
-"
-                
+'
 )
             
 else
@@ -3905,14 +3885,14 @@ output
 raise
 Exception
 (
-"
+'
 Error
 installing
 package
 :
 %
 s
-"
+'
 %
 directory
 )
@@ -4056,14 +4036,14 @@ __file__
 ]
 in
 (
-"
+'
 .
 pyc
-"
-"
+'
+'
 .
 pyo
-"
+'
 )
 :
             
@@ -4086,29 +4066,23 @@ __file__
 args
 =
 [
-            
 self
 .
 python_path
-            
 thismodule
-            
-"
+'
 populate
-"
-            
+'
 self
 .
 topsrcdir
-            
+                
 self
 .
 virtualenv_root
-            
 self
 .
 manifest_path
-        
 ]
         
 if
@@ -4121,7 +4095,7 @@ args
 .
 append
 (
-"
+'
 -
 -
 populate
@@ -4129,7 +4103,7 @@ populate
 local
 -
 paths
-"
+'
 )
         
 result
@@ -4156,12 +4130,12 @@ result
 raise
 Exception
 (
-"
+'
 Error
 populating
 virtualenv
 .
-"
+'
 )
         
 os
@@ -4483,9 +4457,9 @@ args
 =
 [
             
-"
+'
 install
-"
+'
             
 package
         
@@ -4499,25 +4473,24 @@ args
 .
 extend
 (
-                
 [
-                    
-"
+                
+'
 -
 -
 no
 -
 deps
-"
-                    
-"
+'
+                
+'
 -
 -
 no
 -
 index
-"
-                    
+'
+                
 #
 The
 setup
@@ -4530,7 +4503,7 @@ in
 an
 isolated
 build
-                    
+                
 #
 environment
 and
@@ -4546,7 +4519,7 @@ no
 -
 index
 this
-                    
+                
 #
 means
 that
@@ -4560,7 +4533,7 @@ in
 the
 isolated
 build
-                    
+                
 #
 environment
 any
@@ -4571,7 +4544,7 @@ be
 specified
 in
 a
-                    
+                
 #
 setup_requires
 directive
@@ -4584,7 +4557,7 @@ we
 '
 re
 manually
-                    
+                
 #
 controlling
 our
@@ -4596,7 +4569,7 @@ isn
 '
 t
 a
-                    
+                
 #
 concern
 and
@@ -4610,7 +4583,7 @@ Note
 that
 this
 is
-                    
+                
 #
 safe
 and
@@ -4625,7 +4598,7 @@ packages
 that
 may
 be
-                    
+                
 #
 installed
 due
@@ -4644,8 +4617,8 @@ index
 as
 well
 .
-                    
-"
+                
+'
 -
 -
 no
@@ -4653,10 +4626,9 @@ no
 build
 -
 isolation
-"
-                
-]
+'
             
+]
 )
         
 return
@@ -4670,7 +4642,6 @@ args
 def
 install_pip_requirements
 (
-        
 self
 path
 require_hashes
@@ -4682,7 +4653,6 @@ False
 vendored
 =
 False
-    
 )
 :
         
@@ -4791,15 +4761,15 @@ args
 =
 [
             
-"
+'
 install
-"
+'
             
-"
+'
 -
 -
 requirement
-"
+'
             
 path
         
@@ -4813,13 +4783,13 @@ args
 .
 append
 (
-"
+'
 -
 -
 require
 -
 hashes
-"
+'
 )
         
 if
@@ -4830,11 +4800,11 @@ args
 .
 append
 (
-"
+'
 -
 -
 quiet
-"
+'
 )
         
 if
@@ -4845,27 +4815,25 @@ args
 .
 extend
 (
-                
 [
-                    
-"
+                
+'
 -
 -
 no
 -
 deps
-"
-                    
-"
+'
+                
+'
 -
 -
 no
 -
 index
-"
-                
-]
+'
             
+]
 )
         
 return
@@ -5002,38 +4970,34 @@ join
 self
 .
 bin_path
-"
+'
 pip
-"
+'
 )
         
 subprocess
 .
 check_call
 (
-            
 [
 pip
 ]
 +
 args
-            
 stderr
 =
 subprocess
 .
 STDOUT
-            
 cwd
 =
 self
 .
 topsrcdir
-            
+                              
 universal_newlines
 =
 PY3
-        
 )
 def
 verify_python_version
@@ -5085,26 +5049,26 @@ minimum_python_versions
 :
 LooseVersion
 (
-"
+'
 2
 .
 7
 .
 3
-"
+'
 )
         
 3
 :
 LooseVersion
 (
-"
+'
 3
 .
 6
 .
 0
-"
+'
 )
     
 }
@@ -5113,7 +5077,7 @@ our
 =
 LooseVersion
 (
-"
+'
 %
 d
 .
@@ -5122,7 +5086,7 @@ d
 .
 %
 d
-"
+'
 %
 (
 major
@@ -5132,24 +5096,27 @@ micro
 )
     
 if
+(
 major
 not
 in
 minimum_python_versions
 or
+        
 our
 <
 minimum_python_versions
 [
 major
 ]
+)
 :
         
 log_handle
 .
 write
 (
-"
+'
 One
 of
 the
@@ -5161,7 +5128,7 @@ required
 :
 \
 n
-"
+'
 )
         
 for
@@ -5178,7 +5145,7 @@ log_handle
 .
 write
 (
-"
+'
 *
 Python
 %
@@ -5187,7 +5154,7 @@ or
 greater
 \
 n
-"
+'
 %
 minver
 )
@@ -5196,7 +5163,7 @@ log_handle
 .
 write
 (
-"
+'
 You
 are
 running
@@ -5206,7 +5173,7 @@ s
 .
 \
 n
-"
+'
 %
 our
 )
@@ -5217,12 +5184,12 @@ os
 name
 in
 (
-"
+'
 nt
-"
-"
+'
+'
 ce
-"
+'
 )
 :
             
@@ -5255,11 +5222,11 @@ ensure_subprocess_env
 env
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 :
     
@@ -5448,9 +5415,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 verify_python_version
@@ -5473,11 +5440,11 @@ argv
         
 print
 (
-"
+'
 Too
 few
 arguments
-"
+'
 file
 =
 sys
@@ -5504,34 +5471,34 @@ parser
 .
 add_argument
 (
-"
+'
 topsrcdir
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 virtualenv_path
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 manifest_path
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 -
 -
 populate
@@ -5539,12 +5506,12 @@ populate
 local
 -
 paths
-"
+'
 action
 =
-"
+'
 store_true
-"
+'
 )
     
 if
@@ -5556,9 +5523,9 @@ argv
 ]
 =
 =
-"
+'
 populate
-"
+'
 :
         
 #
@@ -5619,15 +5586,12 @@ VirtualenvManager
 opts
 .
 topsrcdir
-        
 opts
 .
 virtualenv_path
-        
 sys
 .
 stdout
-        
 opts
 .
 manifest_path
@@ -5637,7 +5601,6 @@ populate_local_paths
 opts
 .
 populate_local_paths
-    
 )
     
 if

@@ -598,7 +598,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -611,12 +610,12 @@ startup
 homepage_welcome_url
 "
 )
+                            
 "
 about
 :
 about
 "
-        
 )
         
 self
@@ -725,7 +724,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -761,7 +759,6 @@ inSafeMode
 "
 "
 "
-            
 )
     
 def
@@ -791,7 +788,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -862,13 +858,11 @@ flags
 "
 "
 "
-            
 script_args
 =
 (
 restart
 )
-        
 )
     
 def
@@ -943,7 +937,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -956,12 +949,12 @@ startup
 homepage_welcome_url
 "
 )
+                            
 "
 about
 :
 about
 "
-        
 )
     
 def
@@ -1039,7 +1032,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -1052,12 +1044,12 @@ startup
 homepage_welcome_url
 "
 )
+                            
 "
 about
 :
 about
 "
-        
 )
     
 def
@@ -1092,7 +1084,6 @@ self
 .
 assertRaisesRegexp
 (
-            
 errors
 .
 InvalidSessionIdException
@@ -1102,7 +1093,6 @@ start
 a
 session
 "
-        
 )
 :
             
@@ -1149,7 +1139,6 @@ self
 .
 assertRaisesRegexp
 (
-            
 errors
 .
 InvalidSessionIdException
@@ -1159,7 +1148,6 @@ start
 a
 session
 "
-        
 )
 :
             
@@ -1211,7 +1199,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -1224,12 +1211,12 @@ startup
 homepage_welcome_url
 "
 )
+                            
 "
 about
 :
 about
 "
-        
 )
     
 def
@@ -1256,7 +1243,6 @@ self
 .
 assertRaisesRegexp
 (
-            
 ValueError
 "
 cannot
@@ -1268,7 +1254,6 @@ clean
 flag
 set
 "
-        
 )
 :
             
@@ -1401,7 +1386,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -1414,12 +1398,12 @@ startup
 homepage_welcome_url
 "
 )
+                            
 "
 about
 :
 about
 "
-        
 )
     
 def
@@ -1435,10 +1419,10 @@ marionette
 .
 restart
 (
-            
 in_app
 =
 True
+                                
 callback
 =
 lambda
@@ -1451,7 +1435,6 @@ restart
 =
 True
 )
-        
 )
         
 self
@@ -1551,7 +1534,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -1564,12 +1546,12 @@ startup
 homepage_welcome_url
 "
 )
+                            
 "
 about
 :
 about
 "
-        
 )
     
 def
@@ -1674,7 +1656,6 @@ self
 .
 assertRaisesRegexp
 (
-                
 IOError
 "
 Process
@@ -1683,7 +1664,6 @@ quit
 without
 restarting
 "
-            
 )
 :
                 
@@ -1693,7 +1673,6 @@ marionette
 .
 restart
 (
-                    
 in_app
 =
 True
@@ -1709,7 +1688,6 @@ restart
 =
 False
 )
-                
 )
         
 finally
@@ -1798,7 +1776,6 @@ self
 .
 assertRaisesRegexp
 (
-                
 IOError
 "
 the
@@ -1809,7 +1786,6 @@ server
 is
 lost
 "
-            
 )
 :
                 
@@ -1880,7 +1856,6 @@ marionette
 .
 execute_script
 (
-                    
 "
 "
 "
@@ -1981,7 +1956,6 @@ eAttemptQuit
 "
 "
 "
-                
 )
         
 try
@@ -2100,7 +2074,6 @@ self
 .
 assertRaisesRegexp
 (
-            
 errors
 .
 InvalidSessionIdException
@@ -2110,7 +2083,6 @@ start
 a
 session
 "
-        
 )
 :
             
@@ -2162,7 +2134,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -2175,12 +2146,12 @@ startup
 homepage_welcome_url
 "
 )
+                            
 "
 about
 :
 about
 "
-        
 )
     
 def
@@ -2223,7 +2194,6 @@ self
 .
 assertRaisesRegexp
 (
-            
 errors
 .
 InvalidSessionIdException
@@ -2233,7 +2203,6 @@ start
 a
 session
 "
-        
 )
 :
             
@@ -2285,7 +2254,6 @@ self
 .
 assertNotEqual
 (
-            
 self
 .
 marionette
@@ -2298,12 +2266,12 @@ startup
 homepage_welcome_url
 "
 )
+                            
 "
 about
 :
 about
 "
-        
 )
     
 def
@@ -2421,10 +2389,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -2474,9 +2440,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -2548,14 +2512,12 @@ self
 .
 assertNotIn
 (
-            
 "
 chrome
 :
 /
 /
 "
-            
 self
 .
 marionette
@@ -2563,7 +2525,7 @@ marionette
 get_url
 (
 )
-            
+                         
 "
 Context
 does
@@ -2572,7 +2534,6 @@ default
 to
 content
 "
-        
 )
         
 self
@@ -2621,14 +2582,12 @@ self
 .
 assertNotIn
 (
-            
 "
 chrome
 :
 /
 /
 "
-            
 self
 .
 marionette
@@ -2636,7 +2595,7 @@ marionette
 get_url
 (
 )
-            
+                         
 "
 Not
 in
@@ -2647,7 +2606,6 @@ quit
 with
 using_context
 "
-        
 )
     
 def
@@ -2679,14 +2637,12 @@ self
 .
 assertNotIn
 (
-            
 "
 chrome
 :
 /
 /
 "
-            
 self
 .
 marionette
@@ -2694,7 +2650,7 @@ marionette
 get_url
 (
 )
-            
+                         
 "
 Context
 does
@@ -2703,7 +2659,6 @@ default
 to
 content
 "
-        
 )
         
 with
@@ -2754,14 +2709,12 @@ self
 .
 assertNotIn
 (
-                
 "
 chrome
 :
 /
 /
 "
-                
 self
 .
 marionette
@@ -2769,7 +2722,7 @@ marionette
 get_url
 (
 )
-                
+                             
 "
 Not
 in
@@ -2780,7 +2733,6 @@ quit
 with
 using_context
 "
-            
 )
     
 def
@@ -2812,7 +2764,6 @@ self
 .
 assertNotIn
 (
-            
 "
 chrome
 :
@@ -2826,6 +2777,7 @@ marionette
 get_url
 (
 )
+                         
 "
 Context
 doesn
@@ -2835,7 +2787,6 @@ default
 to
 content
 "
-        
 )
         
 #
@@ -2938,14 +2889,12 @@ self
 .
 assertIn
 (
-            
 "
 chrome
 :
 /
 /
 "
-            
 self
 .
 marionette
@@ -2953,7 +2902,7 @@ marionette
 get_url
 (
 )
-            
+                      
 "
 Not
 in
@@ -2965,7 +2914,6 @@ restart
 with
 set_context
 "
-        
 )
     
 def
@@ -2997,14 +2945,12 @@ self
 .
 assertNotIn
 (
-            
 "
 chrome
 :
 /
 /
 "
-            
 self
 .
 marionette
@@ -3012,7 +2958,7 @@ marionette
 get_url
 (
 )
-            
+                         
 "
 Context
 does
@@ -3021,7 +2967,6 @@ default
 to
 content
 "
-        
 )
         
 #
@@ -3040,9 +2985,9 @@ marionette
 .
 using_context
 (
-"
+'
 chrome
-"
+'
 )
 :
             
@@ -3126,14 +3071,12 @@ self
 .
 assertIn
 (
-                
 "
 chrome
 :
 /
 /
 "
-                
 self
 .
 marionette
@@ -3141,7 +3084,7 @@ marionette
 get_url
 (
 )
-                
+                          
 "
 Not
 in
@@ -3153,5 +3096,4 @@ restart
 with
 using_context
 "
-            
 )

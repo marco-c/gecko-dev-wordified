@@ -537,44 +537,41 @@ self
 .
 config
 [
-"
+'
 app
-"
+'
 ]
 =
 =
-"
+'
 chrome
 -
 m
-"
+'
 :
             
 args_list
 .
 extend
 (
-                
 [
-                    
-"
+                
+'
 -
 -
 browser
-"
-                    
-"
+'
+'
 chrome
-"
-                    
-"
+'
+                
+'
 -
 -
 android
-"
-                
-]
+'
             
+]
 )
         
 else
@@ -651,25 +648,23 @@ args_list
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
 browser
 "
-                    
 "
 firefox
 "
-                    
+                
 "
 -
 -
 android
 "
-                    
+                
 #
 Work
 around
@@ -680,7 +675,7 @@ webdriver
 issue
 where
 Browsertime
-                    
+                
 #
 fails
 to
@@ -695,7 +690,7 @@ we
 re
 going
 to
-                    
+                
 #
 actually
 do
@@ -705,7 +700,7 @@ an
 Android
 device
 .
-                    
+                
 "
 -
 -
@@ -713,11 +708,10 @@ firefox
 .
 binaryPath
 "
-                    
 self
 .
 browsertime_node
-                    
+                
 "
 -
 -
@@ -727,7 +721,6 @@ android
 .
 package
 "
-                    
 self
 .
 config
@@ -736,7 +729,7 @@ config
 binary
 "
 ]
-                    
+                
 "
 -
 -
@@ -746,11 +739,9 @@ android
 .
 activity
 "
-                    
 activity
-                
-]
             
+]
 )
         
 #
@@ -898,9 +889,8 @@ args_list
 .
 extend
 (
-                
 [
-                    
+                
 "
 -
 -
@@ -914,7 +904,7 @@ intentArgument
 -
 es
 "
-                    
+                
 "
 -
 -
@@ -926,7 +916,7 @@ intentArgument
 =
 startNext
 "
-                    
+                
 "
 -
 -
@@ -946,7 +936,7 @@ config
 activity
 "
 ]
-                    
+                
 "
 -
 -
@@ -960,7 +950,7 @@ intentArgument
 -
 esa
 "
-                    
+                
 "
 -
 -
@@ -972,7 +962,7 @@ intentArgument
 =
 sourceTags
 "
-                    
+                
 "
 -
 -
@@ -984,9 +974,8 @@ intentArgument
 =
 automation
 "
-                
-]
             
+]
 )
             
 args_list
@@ -1048,7 +1037,6 @@ test
 chrome_args
 =
 [
-            
 "
 -
 -
@@ -1058,7 +1046,6 @@ mock
 -
 keychain
 "
-            
 "
 -
 -
@@ -1070,7 +1057,6 @@ browser
 -
 check
 "
-            
 "
 -
 -
@@ -1080,7 +1066,6 @@ first
 -
 run
 "
-        
 ]
         
 if
@@ -1498,9 +1483,9 @@ self
 .
 config
 [
-"
+'
 binary
-"
+'
 ]
         
 self
@@ -1604,9 +1589,9 @@ self
 .
 config
 [
-"
+'
 app
-"
+'
 ]
 =
 =

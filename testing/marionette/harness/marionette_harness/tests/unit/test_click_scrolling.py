@@ -134,10 +134,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -186,9 +184,7 @@ div
 "
 "
 "
-            
 )
-        
 )
         
 #
@@ -247,7 +243,6 @@ marionette
 .
 execute_script
 (
-            
 "
 "
 "
@@ -301,7 +296,6 @@ pageY
 "
 "
 "
-        
 )
         
 self
@@ -457,7 +451,6 @@ marionette
 .
 execute_script
 (
-                    
 "
 return
 [
@@ -470,7 +463,6 @@ scrollY
 ]
 ;
 "
-                
 )
                 
 self
@@ -507,16 +499,14 @@ self
 .
 assertEqual
 (
-                    
 scroll
-                    
 self
 .
 marionette
 .
 execute_script
 (
-                        
+                    
 "
 return
 [
@@ -529,9 +519,7 @@ scrollY
 ]
 ;
 "
-                    
 )
-                
 )
     
 def
@@ -547,10 +535,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -623,9 +609,7 @@ div
 "
 "
 "
-            
 )
-        
 )
         
 button1
@@ -695,15 +679,14 @@ self
 .
 assertEqual
 (
-            
 scroll_top
-            
 self
 .
 marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -714,7 +697,6 @@ scrollTop
 ;
 "
 )
-        
 )
     
 def
@@ -730,10 +712,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -765,9 +745,7 @@ top
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -801,10 +779,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -876,9 +852,7 @@ ul
 "
 "
 "
-            
 )
-        
 )
         
 list_el
@@ -921,7 +895,6 @@ script_args
 (
 list_el
 )
-        
 )
         
 item
@@ -952,7 +925,6 @@ marionette
 .
 execute_script
 (
-            
 "
 return
 arguments
@@ -963,12 +935,12 @@ arguments
 scrollTop
 ;
 "
+                                                  
 script_args
 =
 (
 list_el
 )
-        
 )
         
 self
@@ -992,10 +964,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -1111,9 +1081,7 @@ ul
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -1171,10 +1139,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -1278,9 +1244,7 @@ div
 "
 "
 "
-            
 )
-        
 )
         
 self

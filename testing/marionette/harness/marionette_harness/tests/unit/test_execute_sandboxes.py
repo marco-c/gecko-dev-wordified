@@ -136,7 +136,6 @@ sandbox
 "
 system
 "
-        
 )
         
 self
@@ -178,7 +177,6 @@ marionette
 .
 execute_async_script
 (
-            
 "
 "
 "
@@ -205,13 +203,11 @@ result
 "
 "
 "
-            
 sandbox
 =
 "
 system
 "
-        
 )
         
 self
@@ -302,7 +298,6 @@ sandbox
 new_sandbox
 =
 False
-        
 )
         
 self
@@ -334,7 +329,6 @@ sandbox
 new_sandbox
 =
 False
-        
 )
         
 self
@@ -427,7 +421,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -438,17 +431,14 @@ foo
 "
 "
 "
-                
 sandbox
 =
 "
 1
 "
-                
 new_sandbox
 =
 True
-            
 )
         
 foo
@@ -472,7 +462,6 @@ sandbox
 new_sandbox
 =
 False
-        
 )
         
 self
@@ -512,6 +501,7 @@ marionette
 .
 execute_async_script
 (
+            
 "
 foo
 =
@@ -538,6 +528,7 @@ marionette
 .
 execute_async_script
 (
+            
 "
 foo
 =
@@ -553,9 +544,9 @@ arguments
 "
 sandbox
 =
-"
+'
 2
-"
+'
 )
         
 foo
@@ -577,15 +568,16 @@ foo
 )
 ;
 "
+            
 sandbox
 =
 "
 1
 "
+            
 new_sandbox
 =
 False
-        
 )
         
 self
@@ -615,15 +607,16 @@ foo
 )
 ;
 "
+            
 sandbox
 =
 "
 2
 "
+            
 new_sandbox
 =
 False
-        
 )
         
 self

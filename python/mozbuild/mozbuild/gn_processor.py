@@ -244,8 +244,8 @@ self
 .
 indent
 =
-"
-"
+'
+'
         
 self
 .
@@ -352,10 +352,10 @@ self
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
             
 if
@@ -368,7 +368,6 @@ self
 .
 write_ln
 (
-                    
 "
 SharedLibrary
 (
@@ -385,7 +384,6 @@ self
 .
 _library_name
 )
-                
 )
             
 else
@@ -458,10 +456,10 @@ self
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
     
 def
@@ -555,10 +553,10 @@ self
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
             
 self
@@ -576,13 +574,13 @@ self
 .
 write
 (
-"
+'
 +
 =
 [
 \
 n
-"
+'
 +
 self
 .
@@ -595,10 +593,10 @@ write
 (
                 
 (
-"
+'
 \
 n
-"
+'
 +
 self
 .
@@ -621,28 +619,27 @@ v
 in
 value
 )
-                
 )
-            
+                
 )
             
 self
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
             
 self
 .
 write_ln
 (
-"
+'
 ]
-"
+'
 )
     
 def
@@ -662,9 +659,9 @@ if
 key
 =
 =
-"
+'
 LIBRARY_NAME
-"
+'
 :
                 
 self
@@ -677,9 +674,9 @@ elif
 key
 =
 =
-"
+'
 FORCE_SHARED_LIB
-"
+'
 :
                 
 self
@@ -695,23 +692,23 @@ self
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
                 
 self
 .
 write_ln
 (
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 key
@@ -728,10 +725,10 @@ self
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
     
 def
@@ -760,28 +757,25 @@ replacements
 (
             
 (
-                
 (
-"
+'
 COMPILE_FLAGS
-"
+'
 '
 "
 WARNINGS_AS_ERRORS
 "
 '
-"
+'
 [
 ]
-"
+'
 )
-                
-"
+'
 AllowCompilerWarnings
 (
 )
-"
-            
+'
 )
         
 )
@@ -794,10 +788,10 @@ self
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
             
 for
@@ -953,29 +947,28 @@ self
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
         
 self
 .
 write
 (
-"
+'
 if
-"
+'
 )
         
 self
 .
 write
 (
-            
-"
+'
 and
-"
+'
 .
 join
 (
@@ -999,18 +992,17 @@ keys
 )
 )
 )
-        
 )
         
 self
 .
 write
 (
-"
+'
 :
 \
 n
-"
+'
 )
         
 self
@@ -1018,8 +1010,8 @@ self
 indent
 +
 =
-"
-"
+'
+'
 *
 self
 .
@@ -1083,9 +1075,9 @@ all_targets
 target
 ]
 [
-"
+'
 deps
-"
+'
 ]
 :
         
@@ -1145,22 +1137,22 @@ gn_out
 =
 {
         
-"
+'
 targets
-"
+'
 :
 {
 }
         
-"
+'
 sandbox_vars
-"
+'
 :
 sandbox_vars
         
-"
+'
 gn_gen_args
-"
+'
 :
 input_vars
     
@@ -1170,21 +1162,21 @@ gn_mozbuild_vars
 =
 (
         
-"
+'
 MOZ_DEBUG
-"
+'
         
-"
+'
 OS_TARGET
-"
+'
         
-"
+'
 HOST_CPU_ARCH
-"
+'
         
-"
+'
 CPU_ARCH
-"
+'
     
 )
     
@@ -1209,9 +1201,9 @@ gn_mozbuild_vars
     
 gn_out
 [
-"
+'
 mozbuild_args
-"
+'
 ]
 =
 mozbuild_args
@@ -1222,9 +1214,9 @@ find_deps
 (
 gn_result
 [
-"
+'
 targets
-"
+'
 ]
 gn_target
 )
@@ -1239,9 +1231,9 @@ raw_spec
 =
 gn_result
 [
-"
+'
 targets
-"
+'
 ]
 [
 target_fullname
@@ -1269,22 +1261,23 @@ well
 if
 raw_spec
 [
-"
+'
 type
-"
+'
 ]
 not
 in
 (
-"
+'
 static_library
-"
-"
+'
+'
 shared_library
-"
-"
+'
+                                    
+'
 source_set
-"
+'
 )
 :
             
@@ -1299,35 +1292,28 @@ for
 spec_attr
 in
 (
-            
-"
+'
 type
-"
-            
-"
+'
+'
 sources
-"
-            
-"
+'
+'
 defines
-"
-            
-"
+'
+'
 include_dirs
-"
-            
-"
+'
+                          
+'
 cflags
-"
-            
-"
+'
+'
 deps
-"
-            
-"
+'
+'
 libs
-"
-        
+'
 )
 :
             
@@ -1347,9 +1333,9 @@ spec_attr
             
 gn_out
 [
-"
+'
 targets
-"
+'
 ]
 [
 target_fullname
@@ -1362,12 +1348,12 @@ gn_out
 def
 process_gn_config
 (
-    
 gn_config
 srcdir
 config
 output
 non_unified_sources
+                      
 sandbox_vars
 mozilla_flags
 )
@@ -1418,22 +1404,23 @@ py
 mozbuild_attrs
 =
 {
-"
+'
 mozbuild_args
-"
+'
 :
 gn_config
 .
 get
 (
-"
+'
 mozbuild_args
-"
+'
 None
 )
-"
+                      
+'
 dirs
-"
+'
 :
 {
 }
@@ -1492,9 +1479,9 @@ target_fullname
 .
 split
 (
-"
+'
 :
-"
+'
 )
         
 #
@@ -1541,16 +1528,16 @@ path
 .
 lstrip
 (
-"
+'
 /
 /
-"
+'
 )
 name
 +
-"
+'
 _gn
-"
+'
     
 #
 Process
@@ -1618,21 +1605,21 @@ target_name
 if
 spec
 [
-"
+'
 type
-"
+'
 ]
 in
 (
-"
+'
 static_library
-"
-"
+'
+'
 shared_library
-"
-"
+'
+'
 source_set
-"
+'
 )
 :
             
@@ -1641,9 +1628,9 @@ name
 .
 startswith
 (
-"
+'
 lib
-"
+'
 )
 :
                 
@@ -1657,9 +1644,9 @@ name
             
 context_attrs
 [
-"
+'
 LIBRARY_NAME
-"
+'
 ]
 =
 six
@@ -1675,8 +1662,7 @@ else
 raise
 Exception
 (
-                
-"
+'
 The
 following
 GN
@@ -1685,8 +1671,8 @@ type
 is
 not
 currently
-"
-                
+'
+                            
 '
 consumed
 by
@@ -1705,8 +1691,8 @@ need
 to
 be
 '
-                
-"
+                            
+'
 added
 or
 you
@@ -1717,42 +1703,41 @@ re
 -
 run
 the
-"
-                
-"
+'
+                            
+'
 GnConfigGen
 step
 .
-"
+'
 %
 spec
 [
-"
+'
 type
-"
+'
 ]
-            
 )
         
 if
 spec
 [
-"
+'
 type
-"
+'
 ]
 =
 =
-"
+'
 shared_library
-"
+'
 :
             
 context_attrs
 [
-"
+'
 FORCE_SHARED_LIB
-"
+'
 ]
 =
 True
@@ -1784,9 +1769,9 @@ spec
 .
 get
 (
-"
+'
 sources
-"
+'
 [
 ]
 )
@@ -1826,13 +1811,13 @@ ext
             
 src
 =
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
 project_relsrcdir
@@ -1843,10 +1828,10 @@ if
 ext
 =
 =
-"
+'
 .
 h
-"
+'
 :
                 
 continue
@@ -1855,17 +1840,17 @@ elif
 ext
 =
 =
-"
+'
 .
 def
-"
+'
 :
                 
 context_attrs
 [
-"
+'
 SYMBOLS_FILE
-"
+'
 ]
 =
 src
@@ -1874,10 +1859,10 @@ elif
 ext
 !
 =
-"
+'
 .
 S
-"
+'
 and
 src
 not
@@ -1889,11 +1874,11 @@ unified_sources
 .
 append
 (
-"
+'
 /
 %
 s
-"
+'
 %
 src
 )
@@ -1905,11 +1890,11 @@ sources
 .
 append
 (
-"
+'
 /
 %
 s
-"
+'
 %
 src
 )
@@ -1935,10 +1920,10 @@ if
 ext
 =
 =
-"
+'
 .
 s
-"
+'
 :
                 
 use_defines_in_asflags
@@ -1947,27 +1932,27 @@ True
         
 context_attrs
 [
-"
+'
 SOURCES
-"
+'
 ]
 =
 sources
         
 context_attrs
 [
-"
+'
 UNIFIED_SOURCES
-"
+'
 ]
 =
 unified_sources
         
 context_attrs
 [
-"
+'
 DEFINES
-"
+'
 ]
 =
 {
@@ -1980,18 +1965,18 @@ spec
 .
 get
 (
-"
+'
 defines
-"
+'
 [
 ]
 )
 :
             
 if
-"
+'
 =
-"
+'
 in
 define
 :
@@ -2003,17 +1988,17 @@ define
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
                 
 context_attrs
 [
-"
+'
 DEFINES
-"
+'
 ]
 [
 name
@@ -2026,9 +2011,9 @@ else
                 
 context_attrs
 [
-"
+'
 DEFINES
-"
+'
 ]
 [
 define
@@ -2038,9 +2023,9 @@ True
         
 context_attrs
 [
-"
+'
 LOCAL_INCLUDES
-"
+'
 ]
 =
 [
@@ -2053,9 +2038,9 @@ spec
 .
 get
 (
-"
+'
 include_dirs
-"
+'
 [
 ]
 )
@@ -2091,10 +2076,10 @@ include
 .
 startswith
 (
-"
+'
 /
 /
-"
+'
 )
 :
                 
@@ -2126,9 +2111,9 @@ include
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 :
                 
@@ -2221,19 +2206,18 @@ resolved
 .
 endswith
 (
-"
+'
 gn
 -
 output
 /
 gen
-"
+'
 )
 :
                     
 print
 (
-                        
 "
 Included
 path
@@ -2250,20 +2234,18 @@ include
 from
 GN
 "
-                        
+                          
 "
 configuration
 .
 "
 %
 resolved
-                        
 file
 =
 sys
 .
 stderr
-                    
 )
                 
 continue
@@ -2274,22 +2256,22 @@ include
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 :
                 
 include
 =
-"
+'
 /
 %
 s
 /
 %
 s
-"
+'
 %
 (
 project_relsrcdir
@@ -2298,9 +2280,9 @@ include
             
 context_attrs
 [
-"
+'
 LOCAL_INCLUDES
-"
+'
 ]
 +
 =
@@ -2310,18 +2292,18 @@ include
         
 context_attrs
 [
-"
+'
 ASFLAGS
-"
+'
 ]
 =
 spec
 .
 get
 (
-"
+'
 asflags_mozilla
-"
+'
 [
 ]
 )
@@ -2331,25 +2313,25 @@ use_defines_in_asflags
 and
 context_attrs
 [
-"
+'
 DEFINES
-"
+'
 ]
 :
             
 context_attrs
 [
-"
+'
 ASFLAGS
-"
+'
 ]
 +
 =
 [
-"
+'
 -
 D
-"
+'
 +
 d
 for
@@ -2357,9 +2339,9 @@ d
 in
 context_attrs
 [
-"
+'
 DEFINES
-"
+'
 ]
 ]
         
@@ -2374,9 +2356,9 @@ spec
 .
 get
 (
-"
+'
 cflags
-"
+'
 [
 ]
 )
@@ -2394,50 +2376,50 @@ suffix_map
 =
 {
                 
-"
+'
 .
 c
-"
+'
 :
-"
+'
 CFLAGS
-"
+'
                 
-"
+'
 .
 cpp
-"
+'
 :
-"
+'
 CXXFLAGS
-"
+'
                 
-"
+'
 .
 cc
-"
+'
 :
-"
+'
 CXXFLAGS
-"
+'
                 
-"
+'
 .
 m
-"
+'
 :
-"
+'
 CMFLAGS
-"
+'
                 
-"
+'
 .
 mm
-"
+'
 :
-"
+'
 CMMFLAGS
-"
+'
             
 }
             
@@ -2582,9 +2564,9 @@ f
         
 context_attrs
 [
-"
+'
 OS_LIBS
-"
+'
 ]
 =
 [
@@ -2597,9 +2579,9 @@ spec
 .
 get
 (
-"
+'
 libs
-"
+'
 [
 ]
 )
@@ -2624,26 +2606,26 @@ lib
 .
 endswith
 (
-"
+'
 .
 framework
-"
+'
 )
 :
                 
 context_attrs
 [
-"
+'
 OS_LIBS
-"
+'
 ]
 +
 =
 [
-"
+'
 -
 framework
-"
+'
 +
 lib_name
 ]
@@ -2653,9 +2635,9 @@ else
                 
 context_attrs
 [
-"
+'
 OS_LIBS
-"
+'
 ]
 +
 =
@@ -2684,15 +2666,15 @@ matters
         
 context_attrs
 [
-"
+'
 LOCAL_INCLUDES
-"
+'
 ]
 +
 =
 [
             
-"
+'
 !
 /
 ipc
@@ -2700,23 +2682,23 @@ ipc
 ipdl
 /
 _ipdlheaders
-"
+'
             
-"
+'
 /
 ipc
 /
 chromium
 /
 src
-"
+'
             
-"
+'
 /
 ipc
 /
 glue
-"
+'
         
 ]
         
@@ -2752,62 +2734,62 @@ builds
 if
 gn_config
 [
-"
+'
 mozbuild_args
-"
+'
 ]
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 =
 =
-"
+'
 WINNT
-"
+'
 :
             
 context_attrs
 [
-"
+'
 DEFINES
-"
+'
 ]
 [
-"
+'
 UNICODE
-"
+'
 ]
 =
 True
             
 context_attrs
 [
-"
+'
 DEFINES
-"
+'
 ]
 [
-"
+'
 _UNICODE
-"
+'
 ]
 =
 True
         
 context_attrs
 [
-"
+'
 COMPILE_FLAGS
-"
+'
 ]
 =
 {
             
-"
+'
 OS_INCLUDES
-"
+'
 :
 [
 ]
@@ -2940,9 +2922,9 @@ target_name
         
 mozbuild_attrs
 [
-"
+'
 dirs
-"
+'
 ]
 [
 target_relsrcdir
@@ -3078,14 +3060,12 @@ k
 ]
 =
 [
-                        
 i
-                        
 for
 i
 in
 common_value
-                        
+                                    
 if
 input_value
 .
@@ -3101,7 +3081,6 @@ count
 (
 i
 )
-                    
 ]
                 
 elif
@@ -3118,11 +3097,9 @@ k
 ]
 =
 {
-                        
 key
 :
 value
-                        
 for
 key
 value
@@ -3132,7 +3109,7 @@ common_value
 items
 (
 )
-                        
+                                    
 if
 key
 in
@@ -3145,7 +3122,6 @@ input_value
 [
 key
 ]
-                    
 }
                 
 elif
@@ -3294,14 +3270,12 @@ k
 ]
 =
 [
-                        
 i
-                        
 for
 i
 in
 input_value
-                        
+                                      
 if
 common_value
 .
@@ -3317,7 +3291,6 @@ count
 (
 i
 )
-                    
 ]
                 
 elif
@@ -3334,11 +3307,9 @@ k
 ]
 =
 {
-                        
 key
 :
 value
-                        
 for
 key
 value
@@ -3348,13 +3319,12 @@ input_value
 items
 (
 )
-                        
+                                      
 if
 key
 not
 in
 common_value
-                    
 }
                 
 else
@@ -3399,12 +3369,12 @@ common_attrs
 def
 write_mozbuild
 (
-    
 config
 srcdir
 output
 non_unified_sources
 gn_config_files
+                   
 mozilla_flags
 )
 :
@@ -3427,9 +3397,9 @@ with
 open
 (
 path
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -3448,26 +3418,21 @@ mozbuild_attrs
 =
 process_gn_config
 (
-                
 gn_config
-                
 srcdir
-                
 config
-                
+                                               
 output
-                
 non_unified_sources
-                
+                                               
 gn_config
 [
-"
+'
 sandbox_vars
-"
+'
 ]
-                
+                                               
 mozilla_flags
-            
 )
             
 all_mozbuild_results
@@ -3523,18 +3488,18 @@ mozbuild_args
 =
 config_attrs
 [
-"
+'
 mozbuild_args
-"
+'
 ]
         
 dirs
 =
 config_attrs
 [
-"
+'
 dirs
-"
+'
 ]
         
 for
@@ -3599,20 +3564,20 @@ mozpath
 join
 (
 target_srcdir
-"
+'
 moz
 .
 build
-"
+'
 )
         
 with
 open
 (
 target_mozbuild
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -3636,10 +3601,10 @@ mb
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
             
 mb
@@ -3692,76 +3657,69 @@ for
 attrs
 in
 (
-                
 (
 )
-                
+                          
 (
-"
+'
 MOZ_DEBUG
-"
+'
 )
-                
 (
-"
+'
 OS_TARGET
-"
+'
 )
-                
 (
-"
+'
 CPU_ARCH
-"
+'
 )
-                
+                          
 (
-                    
-"
+'
 MOZ_DEBUG
-"
-                    
-"
+'
+'
 OS_TARGET
-"
-                
+'
 )
-                
+                          
 (
-"
+'
 OS_TARGET
-"
-"
+'
+'
 CPU_ARCH
-"
+'
 )
-                
+                          
 (
-"
+'
 OS_TARGET
-"
-"
+'
+'
 CPU_ARCH
-"
-"
+'
+'
 MOZ_DEBUG
-"
+'
 )
-                
+                          
 (
-"
+'
 MOZ_DEBUG
-"
-"
+'
+'
 OS_TARGET
-"
-"
+'
+'
 CPU_ARCH
-"
-"
+'
+'
 HOST_CPU_ARCH
-"
+'
 )
-            
 )
 :
                 
@@ -3791,8 +3749,8 @@ get
 k
 )
 or
-"
-"
+'
+'
 )
 for
 k
@@ -3821,18 +3779,16 @@ common_attrs
 =
 find_common_attrs
 (
-                        
 [
-                            
+                        
 attrs
-                            
 for
 args
 attrs
 in
 configs
-                            
 if
+                        
 all
 (
 (
@@ -3843,8 +3799,8 @@ get
 k
 )
 or
-"
-"
+'
+'
 )
 =
 =
@@ -3855,9 +3811,7 @@ v
 in
 cond
 )
-                        
 ]
-                    
 )
                     
 if
@@ -3915,20 +3869,20 @@ mozpath
 join
 (
 srcdir
-"
+'
 moz
 .
 build
-"
+'
 )
     
 with
 open
 (
 dirs_mozbuild
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -3952,10 +3906,10 @@ mb
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
         
 mb
@@ -3993,14 +3947,13 @@ build
 dirs_by_config
 =
 {
-            
 tuple
 (
 v
 [
-"
+'
 mozbuild_args
-"
+'
 ]
 .
 items
@@ -4012,21 +3965,20 @@ set
 (
 v
 [
-"
+'
 dirs
-"
+'
 ]
 .
 keys
 (
 )
 )
-            
+                          
 for
 v
 in
 all_mozbuild_results
-        
 }
         
 for
@@ -4036,17 +3988,17 @@ in
 (
 )
 (
-"
+'
 OS_TARGET
-"
+'
 )
 (
-"
+'
 OS_TARGET
-"
-"
+'
+'
 CPU_ARCH
-"
+'
 )
 )
 :
@@ -4084,8 +4036,8 @@ get
 k
 )
 or
-"
-"
+'
+'
 )
 for
 k
@@ -4139,8 +4091,8 @@ get
 k
 )
 or
-"
-"
+'
+'
 )
 =
 =
@@ -4235,15 +4187,16 @@ mb
 .
 write_mozbuild_list
 (
-"
+'
 DIRS
-"
+'
+                                           
 [
-"
+'
 /
 %
 s
-"
+'
 %
 d
 for
@@ -4265,21 +4218,14 @@ terminate_condition
 def
 generate_gn_config
 (
-    
 config
-    
 srcdir
-    
 output
-    
 non_unified_sources
-    
 gn_binary
-    
+                       
 input_variables
-    
 sandbox_variables
-    
 gn_target
 )
 :
@@ -4322,29 +4268,28 @@ v
     
 gn_args
 =
-"
+'
 -
 -
 args
 =
 %
 s
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
-        
 [
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 k
@@ -4356,6 +4301,7 @@ v
 for
 k
 v
+                                      
 in
 six
 .
@@ -4364,18 +4310,16 @@ iteritems
 input_variables
 )
 ]
-    
 )
     
 gn_arg_string
 =
-"
+'
 _
-"
+'
 .
 join
 (
-        
 [
 str
 (
@@ -4396,7 +4340,6 @@ keys
 )
 )
 ]
-    
 )
     
 out_dir
@@ -4406,11 +4349,11 @@ mozpath
 join
 (
 output
-"
+'
 gn
 -
 output
-"
+'
 )
     
 gen_args
@@ -4421,41 +4364,39 @@ config
 .
 substs
 [
-"
+'
 GN
-"
+'
 ]
-        
-"
+'
 gen
-"
-        
+'
 out_dir
-        
 gn_args
-        
-"
+'
 -
 -
 ide
 =
 json
-"
+'
     
 ]
     
 print
 (
-'
+"
 Running
+\
 "
 %
 s
+\
 "
-'
+"
 %
-"
-"
+'
+'
 .
 join
 (
@@ -4490,20 +4431,20 @@ mozpath
 join
 (
 out_dir
-"
+'
 project
 .
 json
-"
+'
 )
     
 with
 open
 (
 gn_config_file
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -4522,13 +4463,12 @@ gn_out
 =
 filter_gn_config
 (
-            
 gn_out
 config
 sandbox_variables
+                                  
 input_variables
 gn_target
-        
 )
     
 os
@@ -4547,19 +4487,19 @@ join
 out_dir
 gn_arg_string
 +
-"
+'
 .
 json
-"
+'
 )
     
 with
 open
 (
 gn_out_file
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -4580,11 +4520,11 @@ True
 separators
 =
 (
-"
-"
-"
+'
+'
+'
 :
-"
+'
 )
 )
     
@@ -4634,9 +4574,9 @@ substs
 .
 get
 (
-"
+'
 GN
-"
+'
 )
             
 if
@@ -4647,7 +4587,6 @@ gn_binary
 raise
 Exception
 (
-                    
 "
 The
 GN
@@ -4661,16 +4600,13 @@ GN
 configs
 .
 "
-                
 )
             
 generate_gn_config
 (
-                
 obj
 .
 config
-                
 mozpath
 .
 join
@@ -4682,7 +4618,7 @@ obj
 .
 target_dir
 )
-                
+                               
 mozpath
 .
 join
@@ -4694,25 +4630,22 @@ obj
 .
 target_dir
 )
-                
+                               
 obj
 .
 non_unified_sources
-                
 gn_binary
-                
+                               
 obj
 .
 gn_input_variables
-                
 obj
 .
 gn_sandbox_variables
-                
+                               
 obj
 .
 gn_target
-            
 )
         
 return
@@ -4755,7 +4688,6 @@ glob
 .
 glob
 (
-                
 mozpath
 .
 join
@@ -4763,18 +4695,17 @@ join
 obj
 .
 srcdir
-"
+'
 gn
 -
 configs
-"
-"
+'
+'
 *
 .
 json
-"
+'
 )
-            
 )
             
 if
@@ -4831,7 +4762,6 @@ glob
 .
 glob
 (
-                    
 mozpath
 .
 join
@@ -4842,18 +4772,18 @@ objdir
 obj
 .
 target_dir
-"
+                                                         
+'
 gn
 -
 output
-"
-"
+'
+'
 *
 .
 json
-"
+'
 )
-                
 )
             
 if
@@ -4862,7 +4792,6 @@ gn_config_files
                 
 print
 (
-                    
 "
 Writing
 moz
@@ -4879,19 +4808,16 @@ configs
 %
 s
 "
-                    
 %
+                      
 gn_config_files
-                
 )
                 
 write_mozbuild
 (
-                    
 obj
 .
 config
-                    
 mozpath
 .
 join
@@ -4903,7 +4829,7 @@ obj
 .
 target_dir
 )
-                    
+                               
 mozpath
 .
 join
@@ -4915,17 +4841,15 @@ obj
 .
 target_dir
 )
-                    
+                               
 obj
 .
 non_unified_sources
-                    
 gn_config_files
-                    
+                               
 obj
 .
 mozilla_flags
-                
 )
             
 else
@@ -4933,7 +4857,6 @@ else
                 
 print
 (
-                    
 "
 Ignoring
 gn
@@ -4952,8 +4875,8 @@ in
 s
 '
 "
-                    
 %
+                      
 (
 obj
 .
@@ -4965,14 +4888,13 @@ join
 obj
 .
 srcdir
-"
+'
 gn
 -
 configs
-"
+'
 )
 )
-                
 )
         
 return

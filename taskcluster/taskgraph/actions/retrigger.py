@@ -115,12 +115,12 @@ __name__
 RERUN_STATES
 =
 (
-"
+'
 exception
-"
-"
+'
+'
 failed
-"
+'
 )
 def
 _should_retrigger
@@ -231,29 +231,29 @@ register_callback_action
     
 title
 =
-"
+'
 Retrigger
-"
+'
     
 name
 =
-"
+'
 retrigger
-"
+'
     
 symbol
 =
-"
+'
 rt
-"
+'
     
 cb_name
 =
-"
+'
 retrigger
 -
 decision
-"
+'
     
 description
 =
@@ -261,10 +261,9 @@ textwrap
 .
 dedent
 (
-        
-"
-"
-"
+'
+'
+'
 \
         
 Create
@@ -286,10 +285,9 @@ special
 scopes
 )
 .
-"
-"
-"
-    
+'
+'
+'
 )
     
 order
@@ -301,39 +299,39 @@ context
 [
         
 {
-"
+'
 kind
-"
+'
 :
-"
+'
 decision
 -
 task
-"
+'
 }
         
 {
-"
+'
 kind
-"
+'
 :
-"
+'
 action
 -
 callback
-"
+'
 }
         
 {
-"
+'
 kind
-"
+'
 :
-"
+'
 cron
 -
 task
-"
+'
 }
     
 ]
@@ -450,9 +448,9 @@ create_task_from_def
 task
 parameters
 [
-"
+'
 level
-"
+'
 ]
 )
 register_callback_action
@@ -460,26 +458,27 @@ register_callback_action
     
 title
 =
-"
+'
 Retrigger
-"
+'
     
 name
 =
-"
+'
 retrigger
-"
+'
     
 symbol
 =
-"
+'
 rt
-"
+'
     
 description
 =
 (
-"
+        
+'
 Create
 a
 clone
@@ -487,7 +486,8 @@ of
 the
 task
 .
-"
+'
+    
 )
     
 order
@@ -514,13 +514,13 @@ context
 =
 [
 {
-"
+'
 retrigger
-"
+'
 :
-"
+'
 true
-"
+'
 }
 ]
     
@@ -528,41 +528,41 @@ schema
 =
 {
         
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
         
-"
+'
 properties
-"
+'
 :
 {
             
-"
+'
 downstream
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 boolean
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
                     
-"
+'
 If
 true
 downstream
@@ -576,9 +576,9 @@ cloned
 as
 well
 .
-"
+'
                     
-"
+'
 The
 dependencies
 will
@@ -594,63 +594,63 @@ at
 the
 root
 .
-"
+'
                 
 )
                 
-"
+'
 default
-"
+'
 :
 False
             
 }
             
-"
+'
 times
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 integer
-"
+'
                 
-"
+'
 default
-"
+'
 :
 1
                 
-"
+'
 minimum
-"
+'
 :
 1
                 
-"
+'
 maximum
-"
+'
 :
 100
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Times
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 How
 many
 times
@@ -659,7 +659,7 @@ run
 each
 task
 .
-"
+'
             
 }
         
@@ -672,38 +672,38 @@ register_callback_action
     
 title
 =
-"
+'
 Retrigger
 (
 disabled
 )
-"
+'
     
 name
 =
-"
+'
 retrigger
-"
+'
     
 cb_name
 =
-"
+'
 retrigger
 -
 disabled
-"
+'
     
 symbol
 =
-"
+'
 rt
-"
+'
     
 description
 =
 (
         
-"
+'
 Create
 a
 clone
@@ -715,9 +715,9 @@ task
 n
 \
 n
-"
+'
         
-"
+'
 This
 type
 of
@@ -734,7 +734,7 @@ re
 -
 triggered
 .
-"
+'
     
 )
     
@@ -769,41 +769,41 @@ schema
 =
 {
         
-"
+'
 type
-"
+'
 :
-"
+'
 object
-"
+'
         
-"
+'
 properties
-"
+'
 :
 {
             
-"
+'
 downstream
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 boolean
-"
+'
                 
-"
+'
 description
-"
+'
 :
 (
                     
-"
+'
 If
 true
 downstream
@@ -817,9 +817,9 @@ cloned
 as
 well
 .
-"
+'
                     
-"
+'
 The
 dependencies
 will
@@ -835,63 +835,63 @@ at
 the
 root
 .
-"
+'
                 
 )
                 
-"
+'
 default
-"
+'
 :
 False
             
 }
             
-"
+'
 times
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 integer
-"
+'
                 
-"
+'
 default
-"
+'
 :
 1
                 
-"
+'
 minimum
-"
+'
 :
 1
                 
-"
+'
 maximum
-"
+'
 :
 100
                 
-"
+'
 title
-"
+'
 :
-"
+'
 Times
-"
+'
                 
-"
+'
 description
-"
+'
 :
-"
+'
 How
 many
 times
@@ -900,37 +900,37 @@ run
 each
 task
 .
-"
+'
             
 }
             
-"
+'
 force
-"
+'
 :
 {
                 
-"
+'
 type
-"
+'
 :
-"
+'
 boolean
-"
+'
                 
-"
+'
 default
-"
+'
 :
 False
                 
-"
+'
 description
-"
+'
 :
 (
                     
-"
+'
 This
 task
 should
@@ -940,9 +940,9 @@ re
 -
 triggered
 .
-"
+'
                     
-"
+'
 This
 can
 be
@@ -952,7 +952,7 @@ passing
 true
 here
 .
-"
+'
                 
 )
             
@@ -982,7 +982,6 @@ fetch_graph_and_labels
         
 parameters
 graph_config
-    
 )
     
 task
@@ -998,20 +997,20 @@ label
 =
 task
 [
-"
+'
 metadata
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
     
 with_downstream
 =
-"
-"
+'
+'
     
 to_run
 =
@@ -1025,9 +1024,9 @@ input
 .
 get
 (
-"
+'
 force
-"
+'
 None
 )
 and
@@ -1067,7 +1066,9 @@ specified
 .
 format
 (
+                
 label
+            
 )
         
 )
@@ -1084,9 +1085,9 @@ input
 .
 get
 (
-"
+'
 downstream
-"
+'
 )
 :
         
@@ -1098,7 +1099,6 @@ graph
 .
 transitive_closure
 (
-            
 set
 (
 to_run
@@ -1106,7 +1106,6 @@ to_run
 reverse
 =
 True
-        
 )
 .
 nodes
@@ -1126,12 +1125,12 @@ keys
         
 with_downstream
 =
-"
+'
 (
 with
 downstream
 )
-"
+'
     
 times
 =
@@ -1139,9 +1138,9 @@ input
 .
 get
 (
-"
+'
 times
-"
+'
 1
 )
     
@@ -1177,8 +1176,7 @@ logger
 .
 info
 (
-            
-"
+'
 Scheduled
 {
 }
@@ -1192,7 +1190,7 @@ time
 {
 }
 )
-"
+'
 .
 format
 (
@@ -1203,7 +1201,6 @@ i
 1
 times
 )
-        
 )
     
 combine_task_graph_files
@@ -1221,27 +1218,27 @@ register_callback_action
     
 title
 =
-"
+'
 Rerun
-"
+'
     
 name
 =
-"
+'
 rerun
-"
+'
     
 symbol
 =
-"
+'
 rr
-"
+'
     
 description
 =
 (
         
-"
+'
 Rerun
 a
 task
@@ -1250,9 +1247,9 @@ task
 n
 \
 n
-"
+'
         
-"
+'
 This
 only
 works
@@ -1265,15 +1262,15 @@ in
 the
 original
 taskgraph
-"
+'
         
-"
+'
 and
 is
 CoT
 friendly
 .
-"
+'
     
 )
     
@@ -1291,19 +1288,22 @@ context
 schema
 =
 {
-"
+        
+'
 type
-"
+'
 :
-"
+'
 object
-"
-"
+'
+        
+'
 properties
-"
+'
 :
 {
 }
+    
 }
 )
 def
@@ -1342,21 +1342,20 @@ fetch_graph_and_labels
         
 parameters
 graph_config
-    
 )
     
 label
 =
 task
 [
-"
+'
 metadata
-"
+'
 ]
 [
-"
+'
 name
-"
+'
 ]
     
 if
@@ -1462,11 +1461,9 @@ in
 .
 format
 (
-                
 label
 status
 RERUN_STATES
-            
 )
         
 )
@@ -1484,11 +1481,11 @@ logger
 .
 info
 (
-"
+'
 Reran
 {
 }
-"
+'
 .
 format
 (
@@ -1500,28 +1497,29 @@ register_callback_action
     
 title
 =
-"
+'
 Retrigger
-"
+'
     
 name
 =
-"
+'
 retrigger
 -
 multiple
-"
+'
     
 symbol
 =
-"
+'
 rt
-"
+'
     
 description
 =
 (
-"
+        
+'
 Create
 a
 clone
@@ -1529,7 +1527,8 @@ of
 the
 task
 .
-"
+'
+    
 )
     
 context
@@ -1589,30 +1588,32 @@ type
 array
 "
                         
-"
+'
 description
-"
+'
 :
-"
+'
 An
 array
 of
 task
 labels
-"
+'
                         
-"
+'
 items
-"
+'
 :
 {
-"
+                            
+'
 type
-"
+'
 :
-"
+'
 string
-"
+'
+                        
 }
                     
 }
@@ -1708,7 +1709,6 @@ fetch_graph_and_labels
         
 parameters
 graph_config
-    
 )
     
 suffixes
@@ -1726,9 +1726,9 @@ input
 .
 get
 (
-"
+'
 requests
-"
+'
 [
 ]
 )
@@ -1741,9 +1741,9 @@ request
 .
 get
 (
-"
+'
 times
-"
+'
 1
 )
         
@@ -1752,7 +1752,6 @@ rerun_tasks
 [
             
 label
-            
 for
 label
 in
@@ -1760,9 +1759,9 @@ request
 .
 get
 (
-"
+'
 tasks
-"
+'
 )
             
 if
@@ -1780,7 +1779,6 @@ retrigger_tasks
 [
             
 label
-            
 for
 label
 in
@@ -1788,9 +1786,9 @@ request
 .
 get
 (
-"
+'
 tasks
-"
+'
 )
             
 if
@@ -1875,13 +1873,13 @@ times
             
 suffix
 =
-"
+'
 {
 }
 -
 {
 }
-"
+'
 .
 format
 (

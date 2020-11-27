@@ -641,9 +641,7 @@ add_option
 "
 upload_dir
 "
-            
 str
-            
 "
 "
             
@@ -665,7 +663,7 @@ flows
 "
 "
 "
-        
+            
 Replay
 server
 responses
@@ -689,9 +687,9 @@ i
 type
 =
 =
-"
+'
 websocket
-"
+'
 :
                 
 #
@@ -794,7 +792,6 @@ flowmap
 .
 setdefault
 (
-                    
 self
 .
 _hash
@@ -814,7 +811,6 @@ reply_count
 :
 0
 }
-                
 )
                 
 l
@@ -1154,7 +1150,9 @@ info
 .
 format
 (
+                                
 proto
+                            
 )
                         
 )
@@ -1216,7 +1214,7 @@ flow
 "
 "
 "
-        
+            
 Calculates
 a
 loose
@@ -1393,7 +1391,7 @@ request
 "
 "
 "
-        
+            
 Returns
 the
 next
@@ -1406,7 +1404,7 @@ no
 matching
 flow
 was
-        
+            
 found
 .
         
@@ -1557,7 +1555,6 @@ _replayed
 )
 /
 (
-            
 self
 .
 _replayed
@@ -1565,15 +1562,11 @@ _replayed
 self
 .
 _not_replayed
-        
 )
         
 recording_proportion_used
 =
-(
-            
 0
-            
 if
 self
 .
@@ -1581,10 +1574,10 @@ _recordings_used
 =
 =
 0
-            
 else
 float
 (
+            
 self
 .
 _recordings_used
@@ -1597,12 +1590,9 @@ self
 flowmap
 )
         
-)
-        
 stats
 =
 {
-            
 "
 totals
 "
@@ -1613,7 +1603,7 @@ self
 .
 netlocs
 )
-            
+                 
 "
 calls
 "
@@ -1621,7 +1611,7 @@ calls
 self
 .
 calls
-            
+                 
 "
 replayed
 "
@@ -1629,7 +1619,7 @@ replayed
 self
 .
 _replayed
-            
+                 
 "
 not
 -
@@ -1639,7 +1629,7 @@ replayed
 self
 .
 _not_replayed
-            
+                 
 "
 replay
 -
@@ -1652,7 +1642,7 @@ replay_confidence
 *
 100
 )
-            
+                 
 "
 recording
 -
@@ -1667,13 +1657,10 @@ recording_proportion_used
 *
 100
 )
-        
 }
         
 file_name
 =
-(
-            
 "
 mitm_netlocs_
 %
@@ -1681,20 +1668,23 @@ s
 .
 json
 "
-            
 %
+\
+                    
 os
 .
 path
 .
 splitext
 (
+                        
 os
 .
 path
 .
 basename
 (
+                            
 ctx
 .
 options
@@ -1703,13 +1693,13 @@ server_replay_files
 [
 0
 ]
+                        
 )
+                    
 )
 [
 0
 ]
-        
-)
         
 path
 =
@@ -1730,6 +1720,7 @@ ctx
 options
 .
 upload_dir
+                                             
 file_name
 )
 )
@@ -2021,12 +2012,10 @@ calls
 .
 append
 (
-                        
 {
-                            
-"
+'
 time
-"
+'
 :
 str
 (
@@ -2036,29 +2025,27 @@ time
 (
 )
 )
-                            
-"
+                                       
+'
 url
-"
+'
 :
 f
 .
 request
 .
 url
-                            
-"
+                                       
+'
 response_status
-"
+'
 :
 f
 .
 response
 .
 status_code
-                        
 }
-                    
 )
             
 except
@@ -2143,9 +2130,9 @@ if
 hasattr
 (
 signal
-"
+'
 SIGBREAK
-"
+'
 )
 :
     

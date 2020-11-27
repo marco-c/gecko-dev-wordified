@@ -156,7 +156,6 @@ generate_try_task_config
 "
 fuzzy
 "
-            
 [
 "
 foo
@@ -165,7 +164,6 @@ foo
 bar
 "
 ]
-            
 {
 "
 use
@@ -347,13 +345,13 @@ try_task_config
 .
 get
 (
-"
+'
 use
 -
 artifact
 -
 builds
-"
+'
 )
     
 with
@@ -425,7 +423,6 @@ generate_try_task_config
 "
 fuzzy
 "
-            
 [
 "
 foo
@@ -434,7 +431,6 @@ foo
 bar
 "
 ]
-            
 {
 "
 use

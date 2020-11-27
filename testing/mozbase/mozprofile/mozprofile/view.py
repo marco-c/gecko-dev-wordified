@@ -34,9 +34,9 @@ sys
 __all__
 =
 [
-"
+'
 view_profile
-"
+'
 ]
 def
 view_profile
@@ -55,7 +55,7 @@ argv
     
 usage
 =
-"
+'
 %
 prog
 [
@@ -67,7 +67,7 @@ profile_path
 .
 .
 >
-"
+'
     
 parser
 =
@@ -122,6 +122,7 @@ for
 i
 in
 args
+               
 if
 not
 os
@@ -182,8 +183,8 @@ s
 %
 (
 missing_string
-"
-"
+'
+'
 .
 join
 (
@@ -236,9 +237,9 @@ args
             
 print
 (
-"
+'
 -
-"
+'
 *
 4
 )
@@ -246,9 +247,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 view_profile

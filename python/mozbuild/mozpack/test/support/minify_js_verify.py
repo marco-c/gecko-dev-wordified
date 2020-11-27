@@ -76,7 +76,7 @@ argv
 raise
 Exception
 (
-"
+'
 Usage
 :
 minify_js_verify
@@ -89,7 +89,7 @@ orig
 <
 minified
 >
-"
+'
 )
 retcode
 =
@@ -108,10 +108,10 @@ retcode
     
 print
 (
-"
+'
 Error
 message
-"
+'
 file
 =
 sys

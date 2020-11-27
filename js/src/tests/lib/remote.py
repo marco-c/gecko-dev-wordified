@@ -106,37 +106,32 @@ change
 required_libs
 =
 [
-        
-"
+'
 libnss3
 .
 so
-"
-        
-"
+'
+'
 libmozglue
 .
 so
-"
-        
-"
+'
+'
 libnspr4
 .
 so
-"
-        
-"
+'
+                     
+'
 libplc4
 .
 so
-"
-        
-"
+'
+'
 libplds4
 .
 so
-"
-    
+'
 ]
     
 for
@@ -222,6 +217,7 @@ posixpath
 join
 (
 dest_dir
+                                     
 os
 .
 path
@@ -378,18 +374,17 @@ DEVICE
 =
 ADBDeviceFactory
 (
-            
 device
 =
 options
 .
 device_serial
+                                  
 test_root
 =
 options
 .
 remote_test_root
-        
 )
         
 init_remote_dir
@@ -409,9 +404,9 @@ join
 options
 .
 remote_test_root
-"
+'
 bin
-"
+'
 )
         
 tests_dir
@@ -423,9 +418,9 @@ join
 options
 .
 remote_test_root
-"
+'
 tests
-"
+'
 )
         
 #
@@ -493,9 +488,9 @@ path
 join
 (
 bin_dir
-"
+'
 js
-"
+'
 )
         
 return

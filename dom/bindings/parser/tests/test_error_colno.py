@@ -30,10 +30,10 @@ False
     
 input
 =
-"
+'
 interface
 ?
-"
+'
     
 try
 :
@@ -74,10 +74,10 @@ e
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
         
 harness
@@ -89,7 +89,7 @@ len
 lines
 )
 3
-"
+'
 Expected
 number
 of
@@ -97,7 +97,7 @@ lines
 in
 error
 message
-"
+'
 )
         
 harness
@@ -109,26 +109,24 @@ lines
 1
 ]
 input
-"
+'
 Second
 line
 shows
 error
-"
+'
 )
         
 harness
 .
 check
 (
-            
 lines
 [
 2
 ]
-            
-"
-"
+'
+'
 *
 (
 len
@@ -139,19 +137,18 @@ input
 1
 )
 +
-"
+'
 ^
-"
-            
-"
+'
+                      
+'
 Correct
 column
 pointer
 in
 error
 message
-"
-        
+'
 )
     
 harness

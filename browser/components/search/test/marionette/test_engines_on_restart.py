@@ -107,21 +107,19 @@ marionette
 .
 enforce_gecko_prefs
 (
-            
 {
-                
-"
+            
+'
 browser
 .
 search
 .
 log
-"
+'
 :
 True
-            
-}
         
+}
 )
     
 def

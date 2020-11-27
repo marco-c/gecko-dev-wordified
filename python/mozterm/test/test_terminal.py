@@ -83,9 +83,9 @@ pytest
 .
 importorskip
 (
-"
+'
 blessings
-"
+'
 )
     
 term
@@ -124,9 +124,9 @@ sys
 .
 modules
 [
-"
+'
 blessings
-"
+'
 ]
     
 orig
@@ -145,9 +145,9 @@ orig
 :
         
 if
-"
+'
 blessings
-"
+'
 in
 path
 :
@@ -291,9 +291,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

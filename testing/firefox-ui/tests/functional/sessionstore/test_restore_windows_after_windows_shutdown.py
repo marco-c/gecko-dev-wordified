@@ -185,9 +185,11 @@ self
 .
 setUp
 (
+                
 startup_page
 =
 3
+                
 no_auto_updates
 =
 False
@@ -247,17 +249,18 @@ self
 .
 setUp
 (
-            
+                
 startup_page
 =
 3
+                
 no_auto_updates
 =
 False
+                
 win_register_restart
 =
 True
-        
 )
     
 def
@@ -319,6 +322,7 @@ self
 .
 setUp
 (
+                
 no_auto_updates
 =
 False
@@ -382,14 +386,14 @@ self
 .
 setUp
 (
-            
+                
 no_auto_updates
 =
 False
+                
 win_register_restart
 =
 True
-        
 )
     
 def

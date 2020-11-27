@@ -104,9 +104,9 @@ platform
 .
 startswith
 (
-"
+'
 linux
-"
+'
 )
 or
 sys
@@ -115,9 +115,9 @@ platform
 .
 startswith
 (
-"
+'
 darwin
-"
+'
 )
 :
     
@@ -217,14 +217,14 @@ path
 join
 (
 JS_DIR
-"
+'
 jit
 -
 test
-"
-"
+'
+'
 tests
-"
+'
 )
 LIB_DIR
 =
@@ -235,14 +235,14 @@ path
 join
 (
 JS_DIR
-"
+'
 jit
 -
 test
-"
-"
+'
+'
 lib
-"
+'
 )
 +
 os
@@ -259,14 +259,14 @@ path
 join
 (
 JS_DIR
-"
+'
 jit
 -
 test
-"
-"
+'
+'
 modules
-"
+'
 )
 +
 os
@@ -281,9 +281,9 @@ posixpath
 join
 (
 JS_DIR
-"
+'
 tests
-"
+'
 )
 #
 Backported
@@ -473,83 +473,83 @@ QUOTE_MAP
 =
 {
     
-"
+'
 \
 \
-"
+'
 :
-"
+'
 \
 \
 \
 \
-"
+'
     
-"
+'
 \
 b
-"
+'
 :
-"
+'
 \
 \
 b
-"
+'
     
-"
+'
 \
 f
-"
+'
 :
-"
+'
 \
 \
 f
-"
+'
     
-"
+'
 \
 n
-"
+'
 :
-"
+'
 \
 \
 n
-"
+'
     
-"
+'
 \
 r
-"
+'
 :
-"
+'
 \
 \
 r
-"
+'
     
-"
+'
 \
 t
-"
+'
 :
-"
+'
 \
 \
 t
-"
+'
     
-"
+'
 \
 v
-"
+'
 :
-"
+'
 \
 \
 v
-"
+'
 }
 #
 Quote
@@ -587,10 +587,10 @@ quote
 result
 +
 =
-"
+'
 \
 \
-"
+'
 +
 quote
         
@@ -687,9 +687,9 @@ os
 .
 environ
 [
-"
+'
 PATH
-"
+'
 ]
 .
 split
@@ -710,9 +710,9 @@ path
 join
 (
 d
-"
+'
 valgrind
-"
+'
 )
 for
 d
@@ -742,16 +742,14 @@ VALGRIND_CMD
 =
 [
             
-"
+'
 valgrind
-"
-            
-"
+'
+'
 -
 q
-"
-            
-"
+'
+'
 -
 -
 smc
@@ -763,9 +761,9 @@ all
 non
 -
 file
-"
+'
             
-"
+'
 -
 -
 error
@@ -773,9 +771,8 @@ error
 exitcode
 =
 1
-"
-            
-"
+'
+'
 -
 -
 gen
@@ -783,9 +780,9 @@ gen
 suppressions
 =
 all
-"
+'
             
-"
+'
 -
 -
 show
@@ -795,9 +792,8 @@ possibly
 lost
 =
 no
-"
-            
-"
+'
+'
 -
 -
 leak
@@ -805,7 +801,7 @@ leak
 check
 =
 full
-"
+'
         
 ]
         
@@ -820,22 +816,22 @@ uname
 ]
 =
 =
-"
+'
 Darwin
-"
+'
 :
             
 VALGRIND_CMD
 .
 append
 (
-"
+'
 -
 -
 dsymutil
 =
 yes
-"
+'
 )
     
 del
@@ -1111,8 +1107,8 @@ self
 .
 expect_error
 =
-"
-"
+'
+'
         
 #
 Exit
@@ -1190,8 +1186,8 @@ self
 .
 skip_if_cond
 =
-"
-"
+'
+'
         
 self
 .
@@ -1444,7 +1440,6 @@ skip_if_cond
 =
 extend_condition
 (
-                    
 t
 .
 skip_if_cond
@@ -1454,7 +1449,6 @@ skip_variant_if_cond
 [
 flags
 ]
-                
 )
         
 return
@@ -1580,13 +1574,13 @@ variants
 COOKIE
 =
 b
-"
+'
 |
 jit
 -
 test
 |
-"
+'
     
 #
 We
@@ -1631,8 +1625,8 @@ file_name
         
 meta
 =
-"
-"
+'
+'
         
 line
 =
@@ -1669,9 +1663,9 @@ i
             
 meta
 =
-"
+'
 ;
-"
+'
 +
 line
 [
@@ -1690,17 +1684,17 @@ decode
 (
 errors
 =
-"
+'
 strict
-"
+'
 )
 .
 strip
 (
-"
+'
 \
 n
-"
+'
 )
         
 return
@@ -1796,8 +1790,8 @@ file
         
 dir_meta
 =
-"
-"
+'
+'
         
 dir_name
 =
@@ -1900,14 +1894,14 @@ if
 meta
 !
 =
-"
-"
+'
+'
 or
 dir_meta
 !
 =
-"
-"
+'
+'
 :
             
 meta
@@ -1922,9 +1916,9 @@ meta
 .
 split
 (
-"
+'
 ;
-"
+'
 )
             
 for
@@ -1956,9 +1950,9 @@ part
 .
 partition
 (
-"
+'
 :
-"
+'
 )
                 
 if
@@ -1977,9 +1971,9 @@ if
 name
 =
 =
-"
+'
 error
-"
+'
 :
                         
 test
@@ -1992,9 +1986,9 @@ elif
 name
 =
 =
-"
+'
 exitstatus
-"
+'
 :
                         
 try
@@ -2019,7 +2013,6 @@ SKIPPED_EXIT_STATUS
                                 
 print
 (
-                                    
 "
 warning
 :
@@ -2033,20 +2026,17 @@ as
 a
 sentinel
 "
-                                    
+                                      
 "
 return
 value
 {
 }
 "
-                                    
 test
 .
 SKIPPED_EXIT_STATUS
-                                    
 path
-                                
 )
                             
 else
@@ -2064,7 +2054,6 @@ ValueError
                             
 print
 (
-                                
 "
 warning
 :
@@ -2075,7 +2064,7 @@ parse
 exit
 status
 "
-                                
+                                  
 "
 {
 }
@@ -2085,18 +2074,17 @@ format
 (
 value
 )
-                            
 )
                     
 elif
 name
 =
 =
-"
+'
 thread
 -
 count
-"
+'
 :
                         
 try
@@ -2108,8 +2096,7 @@ jitflags
 .
 append
 (
-                                
-"
+'
 -
 -
 thread
@@ -2118,17 +2105,17 @@ count
 =
 {
 }
-"
+'
 .
 format
 (
+                                
 int
 (
 value
 0
 )
 )
-                            
 )
                         
 except
@@ -2137,7 +2124,6 @@ ValueError
                             
 print
 (
-                                
 "
 warning
 :
@@ -2149,7 +2135,7 @@ thread
 -
 count
 "
-                                
+                                  
 "
 {
 }
@@ -2159,16 +2145,15 @@ format
 (
 value
 )
-                            
 )
                     
 elif
 name
 =
 =
-"
+'
 include
-"
+'
 :
                         
 test
@@ -2184,11 +2169,11 @@ elif
 name
 =
 =
-"
+'
 local
 -
 include
-"
+'
 :
                         
 test
@@ -2204,11 +2189,11 @@ elif
 name
 =
 =
-"
+'
 skip
 -
 if
-"
+'
 :
                         
 test
@@ -2227,13 +2212,13 @@ elif
 name
 =
 =
-"
+'
 skip
 -
 variant
 -
 if
-"
+'
 :
                         
 try
@@ -2248,8 +2233,8 @@ value
 .
 split
 (
-"
-"
+'
+'
 )
                             
 test
@@ -2265,8 +2250,8 @@ extend_condition
 test
 .
 skip_if_cond
+                                
 condition
-                            
 )
                         
 except
@@ -2295,8 +2280,7 @@ else
                         
 print
 (
-                            
-"
+'
 {
 }
 :
@@ -2309,19 +2293,18 @@ jit
 test
 |
 attribute
-"
-                            
-"
+'
+                              
+'
 {
 }
-"
+'
 .
 format
 (
 path
 part
 )
-                        
 )
                 
 else
@@ -2331,9 +2314,9 @@ if
 name
 =
 =
-"
+'
 slow
-"
+'
 :
                         
 test
@@ -2346,11 +2329,11 @@ elif
 name
 =
 =
-"
+'
 allow
 -
 oom
-"
+'
 :
                         
 test
@@ -2363,13 +2346,13 @@ elif
 name
 =
 =
-"
+'
 allow
 -
 unhandlable
 -
 oom
-"
+'
 :
                         
 test
@@ -2382,11 +2365,11 @@ elif
 name
 =
 =
-"
+'
 allow
 -
 overrecursed
-"
+'
 :
                         
 test
@@ -2399,9 +2382,9 @@ elif
 name
 =
 =
-"
+'
 valgrind
-"
+'
 :
                         
 test
@@ -2416,11 +2399,11 @@ elif
 name
 =
 =
-"
+'
 tz
 -
 pacific
-"
+'
 :
                         
 test
@@ -2434,12 +2417,12 @@ name
 .
 startswith
 (
-"
+'
 test
 -
 also
 =
-"
+'
 )
 :
                         
@@ -2449,32 +2432,30 @@ test_also
 .
 append
 (
-                            
 re
 .
 split
 (
 r
-"
+'
 \
 s
 +
-"
+'
 name
 [
 len
 (
-"
+'
 test
 -
 also
 =
-"
+'
 )
 :
 ]
 )
-                        
 )
                     
 elif
@@ -2482,12 +2463,12 @@ name
 .
 startswith
 (
-"
+'
 test
 -
 join
 =
-"
+'
 )
 :
                         
@@ -2497,41 +2478,39 @@ test_join
 .
 append
 (
-                            
 re
 .
 split
 (
 r
-"
+'
 \
 s
 +
-"
+'
 name
 [
 len
 (
-"
+'
 test
 -
 join
 =
-"
+'
 )
 :
 ]
 )
-                        
 )
                     
 elif
 name
 =
 =
-"
+'
 module
-"
+'
 :
                         
 test
@@ -2544,9 +2523,9 @@ elif
 name
 =
 =
-"
+'
 crash
-"
+'
 :
                         
 test
@@ -2560,10 +2539,10 @@ name
 .
 startswith
 (
-"
+'
 -
 -
-"
+'
 )
 :
                         
@@ -2603,8 +2582,7 @@ else
                         
 print
 (
-                            
-"
+'
 {
 }
 :
@@ -2617,19 +2595,18 @@ jit
 test
 |
 attribute
-"
-                            
-"
+'
+                              
+'
 {
 }
-"
+'
 .
 format
 (
 path
 part
 )
-                        
 )
         
 if
@@ -2657,8 +2634,8 @@ test
 .
 expect_error
 =
-"
-"
+'
+'
             
 test
 .
@@ -2721,18 +2698,18 @@ scriptdir_var
 .
 endswith
 (
-"
+'
 /
-"
+'
 )
 :
             
 scriptdir_var
 +
 =
-"
+'
 /
-"
+'
         
 #
 Platforms
@@ -2838,7 +2815,6 @@ bug
 exprs
 =
 [
-            
 "
 const
 platform
@@ -2857,7 +2833,7 @@ sys
 platform
 )
 )
-            
+                 
 "
 const
 libdir
@@ -2874,7 +2850,7 @@ quotechar
 libdir
 )
 )
-            
+                 
 "
 const
 scriptdir
@@ -2891,7 +2867,6 @@ quotechar
 scriptdir_var
 )
 )
-        
 ]
         
 #
@@ -2967,10 +2942,10 @@ cmd
 +
 =
 [
-"
+'
 -
 e
-"
+'
 expr
 ]
         
@@ -2986,10 +2961,10 @@ cmd
 +
 =
 [
-"
+'
 -
 f
-"
+'
 libdir
 +
 inc
@@ -3007,10 +2982,10 @@ cmd
 +
 =
 [
-"
+'
 -
 f
-"
+'
 scriptdir_var
 +
 inc
@@ -3026,13 +3001,11 @@ cmd
 +
 =
 [
-                
-"
+'
 -
 e
-"
-                
-"
+'
+'
 if
 (
 {
@@ -3043,7 +3016,7 @@ quit
 {
 }
 )
-"
+'
 .
 format
 (
@@ -3054,14 +3027,13 @@ self
 .
 SKIPPED_EXIT_STATUS
 )
-            
 ]
         
 cmd
 +
 =
 [
-"
+'
 -
 -
 module
@@ -3069,7 +3041,7 @@ module
 load
 -
 path
-"
+'
 moduledir
 ]
         
@@ -3083,11 +3055,11 @@ cmd
 +
 =
 [
-"
+'
 -
 -
 module
-"
+'
 path
 ]
         
@@ -3103,10 +3075,10 @@ cmd
 +
 =
 [
-"
+'
 -
 f
-"
+'
 path
 ]
         
@@ -3117,10 +3089,10 @@ cmd
 +
 =
 [
-"
+'
 -
 -
-"
+'
 self
 .
 test_reflect_stringify
@@ -3160,13 +3132,13 @@ cmd
 +
 =
 [
-"
+'
 -
 -
 suppress
 -
 minidump
-"
+'
 ]
         
 return
@@ -3264,9 +3236,9 @@ if
 dirpath
 =
 =
-"
+'
 .
-"
+'
 :
             
 continue
@@ -3283,10 +3255,10 @@ filename
 .
 endswith
 (
-"
+'
 .
 js
-"
+'
 )
 :
                 
@@ -3296,16 +3268,16 @@ if
 filename
 in
 (
-"
+'
 shell
 .
 js
-"
-"
+'
+'
 browser
 .
 js
-"
+'
 )
 :
                 
@@ -3327,6 +3299,8 @@ if
 substring
 is
 None
+\
+               
 or
 substring
 in
@@ -3394,9 +3368,8 @@ test
 .
 command
 (
-        
 prefix
-        
+                       
 posixpath
 .
 join
@@ -3404,12 +3377,12 @@ join
 options
 .
 remote_test_root
-"
+'
 lib
 /
-"
+'
 )
-        
+                       
 posixpath
 .
 join
@@ -3417,12 +3390,12 @@ join
 options
 .
 remote_test_root
-"
+'
 modules
 /
-"
+'
 )
-        
+                       
 posixpath
 .
 join
@@ -3430,11 +3403,10 @@ join
 options
 .
 remote_test_root
-"
+'
 tests
-"
+'
 )
-    
 )
     
 if
@@ -3454,9 +3426,10 @@ cmd
 env
 =
 {
-"
+        
+'
 LD_LIBRARY_PATH
-"
+'
 :
 os
 .
@@ -3469,6 +3442,7 @@ prefix
 0
 ]
 )
+    
 }
     
 if
@@ -3479,14 +3453,14 @@ tz_pacific
         
 env
 [
-"
+'
 TZ
-"
+'
 ]
 =
-"
+'
 PST8PDT
-"
+'
     
 #
 replace
@@ -3565,16 +3539,17 @@ device
 .
 shell_output
 (
-            
 cmd
 env
 =
 env
+                                  
 cwd
 =
 options
 .
 remote_test_root
+                                  
 timeout
 =
 int
@@ -3583,7 +3558,6 @@ options
 .
 timeout
 )
-        
 )
         
 returncode
@@ -3636,7 +3610,7 @@ re
 compile
 (
 r
-"
+'
 error
 :
 (
@@ -3648,7 +3622,7 @@ device
 not
 found
 )
-"
+'
 )
         
 if
@@ -3797,8 +3771,6 @@ timed_out
 :
         
 if
-(
-            
 os
 .
 path
@@ -3815,17 +3787,16 @@ replace
 os
 .
 sep
-"
+'
 /
-"
+'
 )
-            
+\
+                
 in
 options
 .
 ignore_timeouts
-        
-)
 :
             
 return
@@ -3892,9 +3863,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
 :
             
 ver
@@ -3969,12 +3940,12 @@ sys
 platform
 in
 [
-"
+'
 win32
-"
-"
+'
+'
 cygwin
-"
+'
 ]
 :
             
@@ -4020,10 +3991,10 @@ out
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
 :
         
@@ -4032,12 +4003,12 @@ line
 .
 startswith
 (
-"
+'
 Trace
 stats
 check
 failed
-"
+'
 )
 :
             
@@ -4051,19 +4022,19 @@ err
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
 :
         
 if
-"
+'
 Assertion
 failed
 :
-"
+'
 in
 line
 :
@@ -4115,9 +4086,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
 and
 rc
 in
@@ -4146,9 +4117,9 @@ sys
 platform
 !
 =
-"
+'
 win32
-"
+'
 and
 rc
 =
@@ -4304,12 +4275,12 @@ sys
 platform
 in
 [
-"
+'
 win32
-"
-"
+'
+'
 cygwin
-"
+'
 ]
 and
 rc
@@ -4347,39 +4318,34 @@ OOM
 .
         
 if
-(
-            
 test
 .
 allow_oom
-            
 and
-"
+'
 out
 of
 memory
-"
+'
 in
 err
-            
+\
+           
 and
-"
+'
 Assertion
 failure
-"
+'
 not
 in
 err
-            
 and
-"
+'
 MOZ_CRASH
-"
+'
 not
 in
 err
-        
-)
 :
             
 return
@@ -4417,14 +4383,14 @@ test
 .
 allow_unhandlable_oom
 and
-"
+'
 MOZ_CRASH
 (
 [
 unhandlable
 oom
 ]
-"
+'
 in
 err
 :
@@ -4462,31 +4428,27 @@ recursed
 .
         
 if
-(
-            
 test
 .
 allow_overrecursed
-            
 and
-"
+'
 too
 much
 recursion
-"
+'
 in
 err
-            
+\
+           
 and
-"
+'
 Assertion
 failure
-"
+'
 not
 in
 err
-        
-)
 :
             
 return
@@ -4754,8 +4716,7 @@ jitflags
     
 print
 (
-        
-'
+"
 {
 }
 |
@@ -4769,9 +4730,11 @@ code
 {
 }
 args
+\
 "
 {
 }
+\
 "
 )
 [
@@ -4782,11 +4745,11 @@ args
 }
 s
 ]
-'
+"
 .
 format
 (
-            
+        
 result
 res
 .
@@ -4801,30 +4764,28 @@ jitflags
 res
 .
 dt
-        
 )
-    
 )
     
 details
 =
 {
         
-"
+'
 message
-"
+'
 :
 message
         
-"
+'
 extra
-"
+'
 :
 {
             
-"
+'
 jitflags
-"
+'
 :
 jitflags
         
@@ -4840,9 +4801,9 @@ extra
         
 details
 [
-"
+'
 extra
-"
+'
 ]
 .
 update
@@ -4861,15 +4822,15 @@ res
 test
 .
 relpath_tests
-"
+'
 PASS
-"
+'
 if
 ok
 else
-"
+'
 FAIL
-"
+'
 res
 .
 dt
@@ -5025,9 +4986,9 @@ open
 options
 .
 write_failures
-"
+'
 w
-"
+'
 )
                 
 #
@@ -5089,11 +5050,12 @@ test
 path
 TEST_DIR
 )
+                                  
 +
-"
+'
 \
 n
-"
+'
 )
                         
 if
@@ -5124,11 +5086,11 @@ out
 .
 write
 (
-"
+'
 Exit
 code
 :
-"
+'
 +
 str
 (
@@ -5170,7 +5132,6 @@ stderr
 .
 write
 (
-                    
 "
 Exception
 thrown
@@ -5179,7 +5140,7 @@ to
 write
 failure
 "
-                    
+                                 
 "
 file
 '
@@ -5196,7 +5157,6 @@ options
 .
 write_failures
 )
-                
 )
                 
 traceback
@@ -5211,13 +5171,13 @@ stderr
 .
 write
 (
-"
+'
 -
 -
 -
 \
 n
-"
+'
 )
         
 def
@@ -5235,8 +5195,8 @@ show_failed
                 
 print
 (
-"
-"
+'
+'
 +
 escape_cmdline
 (
@@ -5251,11 +5211,11 @@ else
                 
 print
 (
-"
-"
+'
+'
 +
-"
-"
+'
+'
 .
 join
 (
@@ -5277,10 +5237,10 @@ relpath_tests
         
 print
 (
-"
+'
 FAILURES
 :
-"
+'
 )
         
 for
@@ -5303,10 +5263,10 @@ res
         
 print
 (
-"
+'
 TIMEOUTS
 :
-"
+'
 )
         
 for
@@ -5331,23 +5291,20 @@ else
         
 print
 (
-            
-"
+'
 PASSED
 ALL
-"
-            
+'
+              
 +
 (
-                
-"
-"
-                
+'
+'
 if
 complete
-                
+                 
 else
-"
+'
 (
 partial
 run
@@ -5359,15 +5316,13 @@ user
 {
 }
 )
-"
+'
 .
 format
 (
 doing
 )
-            
 )
-        
 )
     
 if
@@ -5376,9 +5331,9 @@ options
 format
 =
 =
-"
+'
 automation
-"
+'
 :
         
 num_failures
@@ -5394,23 +5349,23 @@ else
         
 print
 (
-"
+'
 Result
 summary
 :
-"
+'
 )
         
 print
 (
-"
+'
 Passed
 :
 {
 :
 d
 }
-"
+'
 .
 format
 (
@@ -5422,14 +5377,14 @@ num_failures
         
 print
 (
-"
+'
 Failed
 :
 {
 :
 d
 }
-"
+'
 .
 format
 (
@@ -5449,26 +5404,22 @@ options
 :
     
 if
-(
-        
 not
 options
 .
 hide_progress
-        
 and
 not
 options
 .
 show_cmd
-        
+\
+       
 and
 ProgressBar
 .
 conservative_isatty
 (
-)
-    
 )
 :
         
@@ -5477,71 +5428,71 @@ fmt
 [
             
 {
-"
+'
 value
-"
+'
 :
-"
+'
 PASS
-"
-"
+'
+'
 color
-"
+'
 :
-"
+'
 green
-"
+'
 }
             
 {
-"
+'
 value
-"
+'
 :
-"
+'
 FAIL
-"
-"
+'
+'
 color
-"
+'
 :
-"
+'
 red
-"
+'
 }
             
 {
-"
+'
 value
-"
+'
 :
-"
+'
 TIMEOUT
-"
-"
+'
+'
 color
-"
+'
 :
-"
+'
 blue
-"
+'
 }
             
 {
-"
+'
 value
-"
+'
 :
-"
+'
 SKIP
-"
-"
+'
+'
 color
-"
+'
 :
-"
+'
 brightgray
-"
+'
 }
         
 ]
@@ -5588,10 +5539,10 @@ output_dict
     
 doing
 =
-"
+'
 before
 starting
-"
+'
     
 if
 num_tests
@@ -5638,7 +5589,6 @@ ok
 =
 check_output
 (
-                
 res
 .
 out
@@ -5651,11 +5601,11 @@ rc
 res
 .
 timed_out
+                              
 res
 .
 test
 options
-            
 )
             
 if
@@ -5725,7 +5675,7 @@ stdout
 .
 write
 (
-"
+'
 Exit
 code
 :
@@ -5733,7 +5683,7 @@ code
 }
 \
 n
-"
+'
 .
 format
 (
@@ -5811,7 +5761,6 @@ pb
 .
 message
 (
-                            
 "
 FAIL
 -
@@ -5829,7 +5778,6 @@ test
 .
 relpath_tests
 )
-                        
 )
                 
 else
@@ -5850,11 +5798,11 @@ out
             
 doing
 =
-"
+'
 after
 {
 }
-"
+'
 .
 format
 (
@@ -5939,9 +5887,9 @@ options
 format
 =
 =
-"
+'
 automation
-"
+'
 :
                 
 print_automation_format
@@ -5961,14 +5909,12 @@ pb
 .
 update
 (
-                
 n
-                
 {
-                    
-"
+                
+'
 PASS
-"
+'
 :
 n
 -
@@ -5976,30 +5922,29 @@ len
 (
 failures
 )
-                    
-"
+                
+'
 FAIL
-"
+'
 :
 len
 (
 failures
 )
-                    
-"
+                
+'
 TIMEOUT
-"
+'
 :
 timeouts
-                    
-"
+                
+'
 SKIP
-"
+'
 :
 0
-                
-}
             
+}
 )
         
 complete
@@ -6012,7 +5957,6 @@ KeyboardInterrupt
         
 print
 (
-            
 "
 TEST
 -
@@ -6024,8 +5968,8 @@ jit_test
 .
 py
 "
-            
 +
+              
 "
 :
 Test
@@ -6034,7 +5978,6 @@ interrupted
 by
 user
 "
-        
 )
     
 pb
@@ -6076,9 +6019,9 @@ options
 format
 =
 =
-"
+'
 automation
-"
+'
 :
         
 slog
@@ -6201,72 +6144,56 @@ AdaptorOptions
 =
 namedtuple
 (
-        
 "
 AdaptorOptions
 "
-        
 [
-            
+        
 "
 worker_count
 "
-            
 "
 passthrough
 "
-            
 "
 timeout
 "
-            
 "
 output_fp
 "
-            
+        
 "
 hide_progress
 "
-            
 "
 run_skipped
 "
-            
 "
 show_cmd
 "
-        
 ]
-    
 )
     
 shim_options
 =
 AdaptorOptions
 (
-        
 options
 .
 max_jobs
-        
 False
-        
 options
 .
 timeout
-        
+                                  
 sys
 .
 stdout
-        
 False
-        
 True
-        
 options
 .
 show_cmd
-    
 )
     
 #
@@ -6474,12 +6401,12 @@ join
 options
 .
 remote_test_root
-"
+'
 bin
-"
-"
+'
+'
 js
-"
+'
 )
         
 #
@@ -6504,9 +6431,9 @@ join
 options
 .
 remote_test_root
-"
+'
 tests
-"
+'
 )
         
 options
@@ -6518,9 +6445,9 @@ posixpath
 join
 (
 jit_tests_dir
-"
+'
 tests
-"
+'
 )
         
 jtd_tests
@@ -6576,6 +6503,7 @@ TEST_DIR
 options
 .
 remote_test_root
+                    
 timeout
 =
 600
@@ -6614,6 +6542,7 @@ jit_test
 py
 "
 +
+              
 "
 :
 Device
@@ -6683,6 +6612,7 @@ jit_test
 py
 "
 +
+              
 "
 :
 Device
@@ -6779,14 +6709,14 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 print
 (
-"
+'
 Use
 .
 .
@@ -6803,5 +6733,5 @@ run
 these
 tests
 .
-"
+'
 )

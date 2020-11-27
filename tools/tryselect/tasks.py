@@ -327,9 +327,9 @@ join
 build
 .
 topsrcdir
-"
+'
 taskcluster
-"
+'
 )
     
 tmod
@@ -403,25 +403,25 @@ srcdir
 =
 True
 )
-"
+'
 cache
-"
-"
+'
+'
 taskgraph
-"
+'
 )
     
 attr
 =
-"
+'
 full_task_set
-"
+'
 if
 full
 else
-"
+'
 target_task_set
-"
+'
     
 cache
 =
@@ -455,9 +455,9 @@ with
 open
 (
 cache
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -515,11 +515,11 @@ attr
 .
 replace
 (
-"
+'
 _
-"
-"
-"
+'
+'
+'
 )
 )
 )
@@ -558,31 +558,28 @@ join
 build
 .
 topsrcdir
-"
+'
 taskcluster
-"
-"
+'
+'
 ci
-"
+'
 )
     
 target_tasks_method
 =
 (
-        
-"
+'
 try_select_tasks
-"
-        
+'
 if
 not
 disable_target_task_filter
-        
+                           
 else
-"
+'
 try_select_tasks_uncommon
-"
-    
+'
 )
     
 params
@@ -599,21 +596,18 @@ False
 overrides
 =
 {
-            
-"
+'
 try_mode
-"
+'
 :
-"
+'
 try_select
-"
-            
-"
+'
+'
 target_tasks_method
-"
+'
 :
 target_tasks_method
-        
 }
     
 )
@@ -726,9 +720,9 @@ join
 cache_dir
 attr
 )
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -753,18 +747,18 @@ tg_full
 =
 generate
 (
-"
+'
 full_task_set
-"
+'
 )
     
 tg_target
 =
 generate
 (
-"
+'
 target_task_set
-"
+'
 )
     
 #
@@ -784,16 +778,16 @@ full
         
 generate
 (
-"
+'
 full_task_graph
-"
+'
 )
     
 generate
 (
-"
+'
 target_task_graph
-"
+'
 )
     
 os
@@ -852,17 +846,17 @@ set
 (
 t
 [
-"
+'
 flavor
-"
+'
 ]
 t
 .
 get
 (
-"
+'
 subsuite
-"
+'
 )
 )
 for
@@ -898,9 +892,9 @@ True
 )
         
 if
-"
+'
 task_regex
-"
+'
 not
 in
 suite
@@ -908,7 +902,6 @@ suite
             
 print
 (
-                
 "
 warning
 :
@@ -949,9 +942,7 @@ subsuite
 else
 "
 "
-                
 )
-            
 )
             
 continue
@@ -962,9 +953,9 @@ update
 (
 suite
 [
-"
+'
 task_regex
-"
+'
 ]
 )
     
@@ -1084,17 +1075,17 @@ get_suite_definition
 (
 test
 [
-"
+'
 flavor
-"
+'
 ]
 test
 .
 get
 (
-"
+'
 subsuite
-"
+'
 )
 strict
 =
@@ -1107,9 +1098,9 @@ test
 .
 get
 (
-"
+'
 srcdir_relpath
-"
+'
 )
         
 if

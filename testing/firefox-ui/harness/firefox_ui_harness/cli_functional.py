@@ -97,27 +97,26 @@ None
     
 mn_cli
 (
-        
 runner_class
 =
 FirefoxUITestRunner
-        
+           
 parser_class
 =
 FirefoxUIArguments
-        
+           
 args
 =
 args
-    
+           
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 cli

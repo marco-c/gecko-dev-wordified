@@ -64,7 +64,7 @@ adapters
 __all__
 =
 [
-"
+'
 adapters
-"
+'
 ]

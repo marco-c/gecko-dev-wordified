@@ -120,7 +120,7 @@ MIN_CATEGORICAL_BUCKET_COUNT
 50
 CPP_IDENTIFIER_PATTERN
 =
-"
+'
 ^
 [
 a
@@ -142,63 +142,62 @@ z0
 -
 9
 ]
-"
+'
 ALWAYS_ALLOWED_KEYS
 =
 [
     
-"
+'
 kind
-"
+'
     
-"
+'
 description
-"
+'
     
-"
+'
 operating_systems
-"
+'
     
-"
+'
 expires_in_version
-"
+'
     
-"
+'
 alert_emails
-"
+'
     
-"
+'
 keyed
-"
+'
     
-"
+'
 releaseChannelCollection
-"
+'
     
-"
+'
 bug_numbers
-"
+'
     
-"
+'
 keys
-"
+'
     
-"
+'
 record_in_processes
-"
+'
     
-"
+'
 record_into_store
-"
+'
     
-"
+'
 products
-"
+'
 ]
 BASE_DOC_URL
 =
 (
-    
 "
 https
 :
@@ -219,6 +218,7 @@ toolkit
 components
 /
 "
+                
 "
 telemetry
 /
@@ -228,6 +228,7 @@ telemetry
 )
 HISTOGRAMS_DOC_URL
 =
+(
 BASE_DOC_URL
 +
 "
@@ -237,8 +238,10 @@ histograms
 .
 html
 "
+)
 SCALARS_DOC_URL
 =
+(
 BASE_DOC_URL
 +
 "
@@ -248,21 +251,22 @@ scalars
 .
 html
 "
+)
 GECKOVIEW_STREAMING_SUPPORTED_KINDS
 =
 [
     
-"
+'
 linear
-"
+'
     
-"
+'
 exponential
-"
+'
     
-"
+'
 categorical
-"
+'
 ]
 #
 parse_histograms
@@ -362,12 +366,12 @@ join
 buildconfig
 .
 topsrcdir
-"
+'
 dom
 /
 base
 /
-"
+'
 )
 )
 except
@@ -730,7 +734,6 @@ path
 .
 abspath
 (
-            
 os
 .
 path
@@ -745,7 +748,6 @@ os
 .
 pardir
 )
-        
 )
         
 allowlist_path
@@ -756,25 +758,23 @@ path
 .
 join
 (
-            
 telemetry_module_path
-"
+'
 histogram
 -
 allowlists
 .
 json
-"
-        
+'
 )
         
 with
 open
 (
 allowlist_path
-"
+'
 r
-"
+'
 )
 as
 f
@@ -819,14 +819,14 @@ ValueError
                 
 ParserError
 (
-"
+'
 Error
 parsing
 allowlist
 :
 %
 s
-"
+'
 %
 allowlist_path
 )
@@ -845,7 +845,7 @@ None
         
 ParserError
 (
-"
+'
 Unable
 to
 parse
@@ -854,7 +854,7 @@ allowlist
 %
 s
 .
-"
+'
 %
 allowlist_path
 )
@@ -906,7 +906,6 @@ the
 given
 definition
 .
-        
 definition
 is
 a
@@ -922,7 +921,7 @@ least
 the
 keys
 :
-         
+ 
 -
 '
 kind
@@ -943,7 +942,7 @@ boolean
 '
 flag
 '
-           
+   
 '
 count
 '
@@ -958,7 +957,7 @@ or
 exponential
 '
 .
-         
+ 
 -
 '
 description
@@ -971,7 +970,7 @@ of
 the
 histogram
 .
-         
+ 
 -
 '
 strict_type_checks
@@ -989,7 +988,7 @@ stricter
 type
 checks
 .
-                                 
+                         
 The
 server
 -
@@ -1002,8 +1001,8 @@ with
 old
 oddly
 typed
-                                 
 submissions
+                         
 so
 we
 have
@@ -1014,7 +1013,6 @@ there
 by
 default
 .
-        
 "
 "
 "
@@ -1048,16 +1046,16 @@ definition
 .
 setdefault
 (
-"
+'
 record_in_processes
-"
+'
 [
-"
+'
 main
-"
-"
+'
+'
 content
-"
+'
 ]
 )
             
@@ -1065,30 +1063,30 @@ definition
 .
 setdefault
 (
-"
+'
 releaseChannelCollection
-"
-"
+'
+'
 opt
 -
 out
-"
+'
 )
             
 definition
 .
 setdefault
 (
-"
+'
 products
-"
+'
 [
-"
+'
 firefox
-"
-"
+'
+'
 fennec
-"
+'
 ]
 )
         
@@ -1112,9 +1110,9 @@ _description
 =
 definition
 [
-"
+'
 description
-"
+'
 ]
         
 self
@@ -1123,9 +1121,9 @@ _kind
 =
 definition
 [
-"
+'
 kind
-"
+'
 ]
         
 self
@@ -1136,9 +1134,9 @@ definition
 .
 get
 (
-"
+'
 keys
-"
+'
 [
 ]
 )
@@ -1151,9 +1149,9 @@ definition
 .
 get
 (
-"
+'
 keyed
-"
+'
 False
 )
         
@@ -1165,9 +1163,9 @@ definition
 .
 get
 (
-"
+'
 expires_in_version
-"
+'
 )
         
 self
@@ -1178,9 +1176,9 @@ definition
 .
 get
 (
-"
+'
 labels
-"
+'
 [
 ]
 )
@@ -1193,9 +1191,9 @@ definition
 .
 get
 (
-"
+'
 record_in_processes
-"
+'
 )
         
 self
@@ -1206,13 +1204,13 @@ definition
 .
 get
 (
-"
+'
 record_into_store
-"
+'
 [
-"
+'
 main
-"
+'
 ]
 )
         
@@ -1224,9 +1222,9 @@ definition
 .
 get
 (
-"
+'
 products
-"
+'
 )
         
 self
@@ -1237,9 +1235,9 @@ definition
 .
 get
 (
-"
+'
 operating_systems
-"
+'
 [
 "
 all
@@ -1336,7 +1334,6 @@ of
 the
 histogram
 .
-        
 Will
 be
 one
@@ -1359,7 +1356,6 @@ categorical
 '
 linear
 '
-        
 or
 '
 exponential
@@ -1420,7 +1416,6 @@ to
 the
 kind
 of
-        
 the
 histogram
 .
@@ -1960,45 +1955,45 @@ bucket_fns
 =
 {
             
-"
+'
 boolean
-"
+'
 :
 linear_buckets
             
-"
+'
 flag
-"
+'
 :
 linear_buckets
             
-"
+'
 count
-"
+'
 :
 linear_buckets
             
-"
+'
 enumerated
-"
+'
 :
 linear_buckets
             
-"
+'
 categorical
-"
+'
 :
 linear_buckets
             
-"
+'
 linear
-"
+'
 :
 linear_buckets
             
-"
+'
 exponential
-"
+'
 :
 exponential_buckets
         
@@ -2015,7 +2010,6 @@ bucket_fns
             
 ParserError
 (
-                
 '
 Unknown
 kind
@@ -2032,6 +2026,7 @@ s
 .
 '
 %
+                        
 (
 self
 .
@@ -2040,7 +2035,6 @@ self
 .
 _name
 )
-            
 )
 .
 handle_later
@@ -2088,57 +2082,57 @@ bucket_fns
 =
 {
             
-"
+'
 boolean
-"
+'
 :
 Histogram
 .
 boolean_flag_bucket_parameters
             
-"
+'
 flag
-"
+'
 :
 Histogram
 .
 boolean_flag_bucket_parameters
             
-"
+'
 count
-"
+'
 :
 Histogram
 .
 boolean_flag_bucket_parameters
             
-"
+'
 enumerated
-"
+'
 :
 Histogram
 .
 enumerated_bucket_parameters
             
-"
+'
 categorical
-"
+'
 :
 Histogram
 .
 categorical_bucket_parameters
             
-"
+'
 linear
-"
+'
 :
 Histogram
 .
 linear_bucket_parameters
             
-"
+'
 exponential
-"
+'
 :
 Histogram
 .
@@ -2157,7 +2151,6 @@ bucket_fns
             
 ParserError
 (
-                
 '
 Unknown
 kind
@@ -2174,6 +2167,7 @@ s
 .
 '
 %
+                        
 (
 self
 .
@@ -2182,7 +2176,6 @@ self
 .
 _name
 )
-            
 )
 .
 handle_later
@@ -2226,75 +2219,75 @@ general_keys
 ALWAYS_ALLOWED_KEYS
 +
 [
-"
+'
 low
-"
-"
+'
+'
 high
-"
-"
+'
+'
 n_buckets
-"
+'
 ]
         
 table
 =
 {
             
-"
+'
 boolean
-"
+'
 :
 ALWAYS_ALLOWED_KEYS
             
-"
+'
 flag
-"
+'
 :
 ALWAYS_ALLOWED_KEYS
             
-"
+'
 count
-"
+'
 :
 ALWAYS_ALLOWED_KEYS
             
-"
+'
 enumerated
-"
+'
 :
 ALWAYS_ALLOWED_KEYS
 +
 [
-"
+'
 n_values
-"
+'
 ]
             
-"
+'
 categorical
-"
+'
 :
 ALWAYS_ALLOWED_KEYS
 +
 [
-"
+'
 labels
-"
-"
+'
+'
 n_values
-"
+'
 ]
             
-"
+'
 linear
-"
+'
 :
 general_keys
             
-"
+'
 exponential
-"
+'
 :
 general_keys
         
@@ -2336,25 +2329,25 @@ _strict_type_checks
             
 table
 [
-"
+'
 exponential
-"
+'
 ]
 .
 append
 (
-"
+'
 extended_statistics_ok
-"
+'
 )
         
 kind
 =
 definition
 [
-"
+'
 kind
-"
+'
 ]
         
 if
@@ -2366,7 +2359,6 @@ table
             
 ParserError
 (
-                
 '
 Unknown
 kind
@@ -2387,7 +2379,6 @@ s
 kind
 name
 )
-            
 )
 .
 handle_later
@@ -2506,16 +2497,15 @@ name
 :
         
 if
-"
+'
 #
-"
+'
 in
 name
 :
             
 ParserError
 (
-                
 '
 Error
 for
@@ -2535,10 +2525,10 @@ allowed
 .
 '
 %
+                        
 (
 name
 )
-            
 )
 .
 handle_later
@@ -2574,7 +2564,6 @@ LABELS_
             
 ParserError
 (
-                
 '
 Error
 for
@@ -2595,10 +2584,10 @@ LABELS_
 .
 '
 %
+                        
 (
 name
 )
-            
 )
 .
 handle_later
@@ -2673,7 +2662,6 @@ IGNORECASE
                 
 ParserError
 (
-                    
 '
 Error
 for
@@ -2694,13 +2682,12 @@ to
 s
 "
 '
-                    
 %
+                            
 (
 name
 CPP_IDENTIFIER_PATTERN
 )
-                
 )
 .
 handle_later
@@ -2718,9 +2705,9 @@ definition
         
 field
 =
-"
+'
 expires_in_version
-"
+'
         
 expiration
 =
@@ -2772,38 +2759,35 @@ allowlist
 .
         
 if
-(
-            
 expiration
 =
 =
 "
 default
 "
-            
 and
+\
+           
 allowlists
 is
 not
 None
-            
 and
+\
+           
 name
 not
 in
 allowlists
 [
-"
+'
 expiry_default
-"
+'
 ]
-        
-)
 :
             
 ParserError
 (
-                
 '
 New
 histogram
@@ -2822,11 +2806,11 @@ value
 .
 '
 %
+                        
 (
 name
 field
 )
-            
 )
 .
 handle_later
@@ -2868,16 +2852,15 @@ false
 .
         
 if
-(
-            
 expiration
 !
 =
 "
 default
 "
-            
 and
+\
+           
 not
 utils
 .
@@ -2885,21 +2868,18 @@ validate_expiration_version
 (
 expiration
 )
-            
 and
+\
+           
 self
 .
 _strict_type_checks
-        
-)
 :
             
 ParserError
 (
-                
 (
-                    
-"
+'
 Error
 for
 histogram
@@ -2913,9 +2893,9 @@ invalid
 {
 }
 .
-"
-                    
-"
+'
+                         
+'
 \
 nSee
 :
@@ -2927,9 +2907,9 @@ expires
 in
 -
 version
-"
-                
+'
 )
+                        
 .
 format
 (
@@ -2938,7 +2918,6 @@ field
 expiration
 HISTOGRAMS_DOC_URL
 )
-            
 )
 .
 handle_later
@@ -2976,9 +2955,9 @@ definition
 .
 get
 (
-"
+'
 labels
-"
+'
 )
         
 if
@@ -3018,7 +2997,6 @@ invalid
             
 ParserError
 (
-                
 '
 Label
 values
@@ -3037,20 +3015,19 @@ d
 %
 s
 '
-                
 %
+                        
 (
 name
 MAX_LABEL_LENGTH
-"
-"
+'
+'
 .
 join
 (
 invalid
 )
 )
-            
 )
 .
 handle_later
@@ -3068,7 +3045,6 @@ MAX_LABEL_COUNT
             
 ParserError
 (
-                
 '
 Label
 count
@@ -3084,11 +3060,11 @@ of
 d
 '
 %
+                        
 (
 name
 MAX_LABEL_COUNT
 )
-            
 )
 .
 handle_now
@@ -3127,7 +3103,6 @@ invalid
 =
 filter
 (
-            
 lambda
 l
 :
@@ -3143,7 +3118,6 @@ re
 IGNORECASE
 )
 labels
-        
 )
         
 if
@@ -3160,7 +3134,6 @@ invalid
             
 ParserError
 (
-                
 '
 Label
 values
@@ -3179,20 +3152,19 @@ s
 %
 s
 '
-                
 %
+                        
 (
 name
 CPP_IDENTIFIER_PATTERN
-"
-"
+'
+'
 .
 join
 (
 invalid
 )
 )
-            
 )
 .
 handle_later
@@ -3219,9 +3191,9 @@ return
         
 field
 =
-"
+'
 record_in_processes
-"
+'
         
 rip
 =
@@ -3252,7 +3224,6 @@ rip
             
 ParserError
 (
-                
 '
 Histogram
 "
@@ -3273,13 +3244,13 @@ n
 %
 s
 '
+                        
 %
 (
 name
 field
 DOC_URL
 )
-            
 )
 .
 handle_later
@@ -3304,7 +3275,6 @@ process
                 
 ParserError
 (
-                    
 '
 Histogram
 "
@@ -3327,15 +3297,14 @@ n
 %
 s
 '
-                    
 %
+                            
 (
 name
 process
 field
 DOC_URL
 )
-                
 )
 .
 handle_later
@@ -3362,9 +3331,9 @@ return
         
 field
 =
-"
+'
 products
-"
+'
         
 products
 =
@@ -3391,7 +3360,6 @@ products
             
 ParserError
 (
-                
 '
 Histogram
 "
@@ -3412,13 +3380,13 @@ n
 %
 s
 '
+                        
 %
 (
 name
 field
 DOC_URL
 )
-            
 )
 .
 handle_now
@@ -3443,7 +3411,6 @@ product
                 
 ParserError
 (
-                    
 '
 Histogram
 "
@@ -3466,15 +3433,14 @@ n
 %
 s
 '
-                    
 %
+                            
 (
 name
 product
 field
 DOC_URL
 )
-                
 )
 .
 handle_later
@@ -3496,9 +3462,9 @@ definition
 .
 get
 (
-"
+'
 kind
-"
+'
 )
                 
 if
@@ -3510,9 +3476,7 @@ GECKOVIEW_STREAMING_SUPPORTED_KINDS
                     
 ParserError
 (
-                        
 (
-                            
 '
 Histogram
 "
@@ -3531,7 +3495,7 @@ is
 unsupported
 for
 '
-                            
+                                 
 '
 product
 "
@@ -3540,16 +3504,13 @@ s
 "
 .
 '
-                        
 )
-                        
 %
 (
 name
 kind
 product
 )
-                    
 )
 .
 handle_later
@@ -3562,9 +3523,9 @@ definition
 .
 get
 (
-"
+'
 keyed
-"
+'
 )
                 
 if
@@ -3573,7 +3534,6 @@ keyed
                     
 ParserError
 (
-                        
 '
 Keyed
 histograms
@@ -3591,13 +3551,12 @@ product
 s
 "
 '
-                        
 %
+                                
 (
 name
 product
 )
-                    
 )
 .
 handle_later
@@ -3624,9 +3583,9 @@ return
         
 field
 =
-"
+'
 operating_systems
-"
+'
         
 operating_systems
 =
@@ -3678,7 +3637,6 @@ operating_system
                 
 ParserError
 (
-                    
 '
 Histogram
 "
@@ -3702,15 +3660,14 @@ n
 %
 s
 '
-                    
 %
+                            
 (
 name
 operating_system
 field
 DOC_URL
 )
-                
 )
 .
 handle_later
@@ -3737,9 +3694,9 @@ return
         
 field
 =
-"
+'
 record_into_store
-"
+'
         
 DOC_URL
 =
@@ -3791,7 +3748,6 @@ record_into_store
             
 ParserError
 (
-                
 '
 Histogram
 "
@@ -3813,13 +3769,12 @@ n
 %
 s
 '
-                
 %
+                        
 (
 name
 DOC_URL
 )
-            
 )
 .
 handle_later
@@ -3841,9 +3796,9 @@ definition
 .
 get
 (
-"
+'
 keys
-"
+'
 )
         
 if
@@ -3865,9 +3820,9 @@ definition
 .
 get
 (
-"
+'
 keyed
-"
+'
 False
 )
 :
@@ -3875,7 +3830,6 @@ False
 raise
 ValueError
 (
-                
 "
 '
 keys
@@ -3895,12 +3849,11 @@ keyed
 histograms
 .
 "
-                
+                             
 %
 (
 name
 )
-            
 )
         
 if
@@ -3916,7 +3869,7 @@ keys
 raise
 ValueError
 (
-"
+'
 The
 key
 list
@@ -3926,7 +3879,7 @@ s
 cannot
 be
 empty
-"
+'
 %
 (
 name
@@ -3945,8 +3898,7 @@ MAX_KEY_COUNT
 raise
 ValueError
 (
-                
-"
+'
 Label
 count
 for
@@ -3957,13 +3909,12 @@ limit
 of
 %
 d
-"
+'
 %
 (
 name
 MAX_KEY_COUNT
 )
-            
 )
         
 invalid
@@ -3997,7 +3948,6 @@ invalid
 raise
 ValueError
 (
-                
 '
 "
 keys
@@ -4017,20 +3967,19 @@ d
 %
 s
 '
-                
 %
+                             
 (
 name
 MAX_KEY_LENGTH
-"
-"
+'
+'
 .
 join
 (
 invalid
 )
 )
-            
 )
     
 def
@@ -4140,12 +4089,11 @@ operating_systems
 )
         
 if
-(
-            
 not
 android_target
-            
 and
+\
+           
 hist_kind
 in
 [
@@ -4156,8 +4104,9 @@ flag
 count
 "
 ]
-            
 and
+\
+           
 name
 not
 in
@@ -4167,15 +4116,11 @@ allowlists
 kind
 "
 ]
-        
-)
 :
             
 ParserError
 (
-                
 (
-                    
 '
 Unsupported
 kind
@@ -4193,7 +4138,7 @@ s
 \
 n
 '
-                    
+                         
 '
 New
 "
@@ -4209,24 +4154,24 @@ Desktop
 you
 should
 '
-                    
-"
+                         
+'
 use
 scalars
 instead
 :
 \
 n
-"
-                    
-"
+'
+                         
+'
 %
 s
 \
 n
-"
-                    
-"
+'
+                         
+'
 Are
 you
 trying
@@ -4237,8 +4182,8 @@ histogram
 on
 Android
 ?
-"
-                    
+'
+                         
 '
 Add
 "
@@ -4256,9 +4201,8 @@ histogram
 definition
 .
 '
-                
 )
-                
+                        
 %
 (
 hist_kind
@@ -4266,7 +4210,6 @@ name
 hist_kind
 SCALARS_DOC_URL
 )
-            
 )
 .
 handle_now
@@ -4378,12 +4321,12 @@ for
 field
 in
 [
-"
+'
 alert_emails
-"
-"
+'
+'
 bug_numbers
-"
+'
 ]
 :
             
@@ -4404,7 +4347,6 @@ field
                 
 ParserError
 (
-                    
 '
 New
 histogram
@@ -4423,11 +4365,11 @@ field
 .
 '
 %
+                            
 (
 name
 field
 )
-                
 )
 .
 handle_later
@@ -4449,8 +4391,6 @@ field
                 
 msg
 =
-(
-                    
 '
 Histogram
 "
@@ -4470,17 +4410,16 @@ s
 "
 in
 '
-                    
-"
+\
+                      
+'
 histogram
 -
 allowlists
 .
 json
 .
-"
-                
-)
+'
                 
 ParserError
 (
@@ -4927,7 +4866,6 @@ key_type
                 
 ParserError
 (
-                    
 '
 Value
 for
@@ -4951,19 +4889,17 @@ be
 }
 .
 '
+                            
 .
 format
 (
-                        
 key
 name
 nice_type_name
 (
 key_type
 )
-                    
 )
-                
 )
 .
 handle_later
@@ -5009,7 +4945,6 @@ value
             
 ParserError
 (
-                
 '
 Value
 for
@@ -5030,17 +4965,15 @@ to
 INT_MAX
 .
 '
+                        
 .
 format
 (
-                    
 nice_type_name
 (
 c_int
 )
-                
 )
-            
 )
 .
 handle_later
@@ -5088,7 +5021,6 @@ key
                 
 ParserError
 (
-                    
 '
 All
 values
@@ -5111,13 +5043,13 @@ be
 of
 type
 '
-                    
-"
+                            
+'
 {
 2
 }
 .
-"
+'
 .
 format
 (
@@ -5128,7 +5060,6 @@ nice_type_name
 key_type
 )
 )
-                
 )
 .
 handle_later
@@ -5176,7 +5107,6 @@ allowed_keys
                 
 ParserError
 (
-                    
 '
 Key
 "
@@ -5195,11 +5125,11 @@ s
 .
 '
 %
+                            
 (
 key
 name
 )
-                
 )
 .
 handle_later
@@ -5243,19 +5173,18 @@ self
 _kind
 in
 [
-"
+'
 enumerated
-"
-"
+'
+'
 categorical
-"
+'
 ]
 else
 100
         
 if
 (
-            
 allowlists
 is
 not
@@ -5277,7 +5206,6 @@ _n_buckets
 )
 is
 int
-        
 )
 :
             
@@ -5289,9 +5217,9 @@ not
 in
 allowlists
 [
-"
+'
 n_buckets
-"
+'
 ]
 :
                 
@@ -5319,7 +5247,7 @@ buckets
 n
 '
                     
-"
+'
 Histograms
 with
 large
@@ -5329,9 +5257,9 @@ buckets
 use
 disproportionately
 high
-"
+'
                     
-"
+'
 amounts
 of
 resources
@@ -5349,9 +5277,9 @@ in
 #
 telemetry
 )
-"
+'
                     
-"
+'
 if
 you
 think
@@ -5364,9 +5292,9 @@ made
 :
 \
 n
-"
+'
                     
-"
+'
 https
 :
 /
@@ -5382,12 +5310,13 @@ Modules
 Toolkit
 #
 Telemetry
-"
+'
+                    
 %
 self
 .
 _name
-                
+                    
 )
 .
 handle_later
@@ -5425,22 +5354,24 @@ definition
 .
 get
 (
-"
+'
 low
-"
+'
 1
 )
+                
 definition
 [
-"
+'
 high
-"
+'
 ]
+                
 definition
 [
-"
+'
 n_buckets
-"
+'
 ]
 )
     
@@ -5457,9 +5388,9 @@ n_values
 =
 definition
 [
-"
+'
 n_values
-"
+'
 ]
         
 return
@@ -5531,29 +5462,27 @@ n_values
 =
 max
 (
-            
 len
 (
 definition
 [
-"
+'
 labels
-"
+'
 ]
 )
-            
+                       
 definition
 .
 get
 (
-"
+'
 n_values
-"
+'
 0
 )
-            
+                       
 MIN_CATEGORICAL_BUCKET_COUNT
-        
 )
         
 return
@@ -5580,22 +5509,24 @@ definition
 .
 get
 (
-"
+'
 low
-"
+'
 1
 )
+                
 definition
 [
-"
+'
 high
-"
+'
 ]
+                
 definition
 [
-"
+'
 n_buckets
-"
+'
 ]
 )
     
@@ -5618,61 +5549,61 @@ types
 =
 {
             
-"
+'
 boolean
-"
+'
 :
-"
+'
 BOOLEAN
-"
+'
             
-"
+'
 flag
-"
+'
 :
-"
+'
 FLAG
-"
+'
             
-"
+'
 count
-"
+'
 :
-"
+'
 COUNT
-"
+'
             
-"
+'
 enumerated
-"
+'
 :
-"
+'
 LINEAR
-"
+'
             
-"
+'
 categorical
-"
+'
 :
-"
+'
 CATEGORICAL
-"
+'
             
-"
+'
 linear
-"
+'
 :
-"
+'
 LINEAR
-"
+'
             
-"
+'
 exponential
-"
+'
 :
-"
+'
 EXPONENTIAL
-"
+'
         
 }
         
@@ -5687,7 +5618,6 @@ types
             
 ParserError
 (
-                
 '
 Unknown
 kind
@@ -5704,6 +5634,7 @@ s
 .
 '
 %
+                        
 (
 self
 .
@@ -5712,7 +5643,6 @@ self
 .
 _name
 )
-            
 )
 .
 handle_later
@@ -5751,25 +5681,25 @@ datasets
 =
 {
             
-"
+'
 opt
 -
 in
-"
+'
 :
-"
+'
 DATASET_PRERELEASE_CHANNELS
-"
+'
             
-"
+'
 opt
 -
 out
-"
+'
 :
-"
+'
 DATASET_ALL_CHANNELS
-"
+'
         
 }
         
@@ -5779,14 +5709,14 @@ definition
 .
 get
 (
-"
+'
 releaseChannelCollection
-"
-"
+'
+'
 opt
 -
 in
-"
+'
 )
         
 if
@@ -5798,14 +5728,13 @@ datasets
             
 ParserError
 (
-                
-"
+'
 Unknown
 value
 for
 releaseChannelCollection
-"
-                
+'
+                        
 '
 policy
 for
@@ -5820,7 +5749,6 @@ s
 self
 .
 _name
-            
 )
 .
 handle_later
@@ -5897,7 +5825,6 @@ d
             
 ParserError
 (
-                
 "
 Found
 duplicate
@@ -5911,7 +5838,6 @@ s
 "
 %
 key
-            
 )
 .
 handle_later
@@ -5984,9 +5910,9 @@ with
 open
 (
 filename
-"
+'
 r
-"
+'
 )
 as
 f
@@ -6029,7 +5955,6 @@ e
             
 ParserError
 (
-                
 "
 error
 parsing
@@ -6048,7 +5973,6 @@ e
 .
 message
 )
-            
 )
 .
 handle_now
@@ -6102,7 +6026,7 @@ re
 .
 compile
 (
-"
+'
 ^
 DEPRECATED_OPERATION
 \
@@ -6118,7 +6042,7 @@ DEPRECATED_OPERATION
 \
 \
 )
-"
+'
 )
     
 histograms
@@ -6133,9 +6057,9 @@ with
 open
 (
 filename
-"
+'
 r
-"
+'
 )
 as
 f
@@ -6181,13 +6105,13 @@ context
                 
 name
 =
-"
+'
 USE_COUNTER2_DEPRECATED_
 %
 s_
 %
 s
-"
+'
 %
 (
 op
@@ -6205,27 +6129,27 @@ name
 =
 {
                     
-"
+'
 expires_in_version
-"
+'
 :
-"
+'
 never
-"
+'
                     
-"
+'
 kind
-"
+'
 :
-"
+'
 boolean
-"
+'
                     
-"
+'
 description
-"
+'
 :
-"
+'
 Whether
 a
 %
@@ -6233,7 +6157,7 @@ s
 used
 %
 s
-"
+'
 %
 (
 context
@@ -6244,16 +6168,16 @@ op
             
 add_counter
 (
-"
+'
 document
-"
+'
 )
             
 add_counter
 (
-"
+'
 page
-"
+'
 )
     
 return
@@ -6270,7 +6194,6 @@ re
 .
 sub
 (
-        
 "
 (
 ^
@@ -6289,7 +6212,7 @@ z0
 ]
 )
 "
-        
+                  
 lambda
 m
 :
@@ -6303,7 +6226,7 @@ group
 upper
 (
 )
-        
+                  
 property_name
 .
 strip
@@ -6319,7 +6242,6 @@ strip
 -
 "
 )
-    
 )
 def
 add_css_property_counters
@@ -6338,27 +6260,24 @@ context
         
 name
 =
-"
+'
 USE_COUNTER2_CSS_PROPERTY_
 %
 s_
 %
 s
-"
+'
 %
 (
-            
 to_camel_case
 (
 property_name
 )
-            
 context
 .
 upper
 (
 )
-        
 )
         
 histograms
@@ -6368,27 +6287,27 @@ name
 =
 {
             
-"
+'
 expires_in_version
-"
+'
 :
-"
+'
 never
-"
+'
             
-"
+'
 kind
-"
+'
 :
-"
+'
 boolean
-"
+'
             
-"
+'
 description
-"
+'
 :
-"
+'
 Whether
 a
 %
@@ -6399,8 +6318,7 @@ CSS
 property
 %
 s
-"
-            
+'
 %
 (
 context
@@ -6411,16 +6329,16 @@ property_name
     
 add_counter
 (
-"
+'
 document
-"
+'
 )
     
 add_counter
 (
-"
+'
 page
-"
+'
 )
 def
 from_ServoCSSPropList
@@ -6590,9 +6508,9 @@ with
 open
 (
 filename
-"
+'
 r
-"
+'
 )
 as
 f
@@ -6654,9 +6572,10 @@ line
 .
 startswith
 (
-'
 "
-'
+\
+"
+"
 )
 :
                 
@@ -6668,9 +6587,10 @@ line
 .
 split
 (
-'
 "
-'
+\
+"
+"
 )
 [
 1
@@ -6698,35 +6618,31 @@ x
 .
 endswith
 (
-"
+'
 .
 json
-"
+'
 )
 else
 None
 )
     
 (
-        
 lambda
 x
 :
 from_nsDeprecatedOperationList
-        
 if
 x
 =
 =
-"
+'
 nsDeprecatedOperationList
 .
 h
-"
-        
+'
 else
 None
-    
 )
     
 (
@@ -6738,35 +6654,31 @@ if
 x
 =
 =
-"
+'
 ServoCSSPropList
 .
 py
-"
+'
 else
 None
 )
     
 (
-        
 lambda
 x
 :
 from_counted_unknown_properties
-        
 if
 x
 =
 =
-"
+'
 counted_unknown_properties
 .
 py
-"
-        
+'
 else
 None
-    
 )
     
 (
@@ -6778,13 +6690,13 @@ if
 x
 =
 =
-"
+'
 properties
 -
 db
 .
 js
-"
+'
 else
 None
 )
@@ -6818,7 +6730,6 @@ FILENAME_PARSERS
 .
 append
 (
-        
 lambda
 x
 :
@@ -6827,14 +6738,13 @@ if
 x
 =
 =
-"
+'
 UseCounters
 .
 conf
-"
+'
 else
 None
-    
 )
     
 FILENAME_PARSERS
@@ -6850,14 +6760,13 @@ if
 x
 =
 =
-"
+'
 UseCountersWorker
 .
 conf
-"
+'
 else
 None
-    
 )
 except
 ImportError
@@ -6887,7 +6796,6 @@ sequence
 of
 Histograms
 for
-    
 the
 histograms
 defined
@@ -7178,7 +7086,6 @@ indices
                 
 ParserError
 (
-                    
 "
 Histograms
 %
@@ -7193,8 +7100,8 @@ block
 .
 "
 %
+                            
 name
-                
 )
 .
 handle_later
@@ -7222,9 +7129,8 @@ block
     
 check_continuity
 (
-        
 all_histograms
-        
+                     
 lambda
 x
 :
@@ -7251,13 +7157,12 @@ endswith
 _WORKER
 "
 )
-        
+                     
 "
 use
 counter
 worker
 "
-    
 )
     
 #
@@ -7279,9 +7184,8 @@ block
     
 check_continuity
 (
-        
 all_histograms
-        
+                     
 lambda
 x
 :
@@ -7309,12 +7213,11 @@ endswith
 _WORKER
 "
 )
-        
+                     
 "
 use
 counter
 "
-    
 )
     
 #
@@ -7392,9 +7295,7 @@ orphaned
             
 msg
 =
-(
-                
-"
+'
 The
 following
 entries
@@ -7405,9 +7306,10 @@ should
 be
 removed
 from
-"
-                
-"
+'
+\
+                  
+'
 histogram
 -
 allowlists
@@ -7418,17 +7320,15 @@ json
 n
 %
 s
-"
-            
-)
+'
             
 ParserError
 (
 msg
 %
 (
-"
-"
+'
+'
 .
 join
 (

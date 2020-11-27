@@ -60,9 +60,9 @@ absolute_import
 print_function
 unicode_literals
 r
-"
-"
-"
+'
+'
+'
 This
 module
 contains
@@ -74,9 +74,9 @@ of
 the
 tree
 .
-"
-"
-"
+'
+'
+'
 import
 errno
 import
@@ -99,14 +99,12 @@ import
 TextWrapper
 CLOBBER_MESSAGE
 =
-"
-"
+'
+'
 .
 join
 (
-    
 [
-        
 TextWrapper
 (
 )
@@ -116,17 +114,17 @@ fill
 line
 )
 +
-"
+'
 \
 n
-"
-        
+'
 for
 line
 in
-"
-"
-"
+                           
+'
+'
+'
 The
 CLOBBER
 file
@@ -241,14 +239,13 @@ touch
 {
 clobber_file
 }
-"
-"
-"
+'
+'
+'
 .
 splitlines
 (
 )
-    
 ]
 )
 class
@@ -362,9 +359,9 @@ path
 join
 (
 topsrcdir
-"
+'
 CLOBBER
-"
+'
 )
         
 self
@@ -378,9 +375,9 @@ path
 join
 (
 topobjdir
-"
+'
 CLOBBER
-"
+'
 )
         
 if
@@ -441,12 +438,12 @@ path
 join
 (
 topsrcdir
-"
+'
 mozilla
-"
-"
+'
+'
 CLOBBER
-"
+'
 )
         
 assert
@@ -540,6 +537,8 @@ src_clobber
 )
 <
 =
+\
+                
 os
 .
 path
@@ -623,9 +622,9 @@ open
 self
 .
 src_clobber
-"
+'
 rt
-"
+'
 )
 as
 fh
@@ -664,9 +663,9 @@ l
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 ]
     
@@ -703,29 +702,29 @@ subprocess
 .
 Popen
 (
-                
 [
-"
+'
 winrm
 .
 exe
-"
-"
+'
+'
 -
 h
-"
+'
 ]
+                                 
 stdout
 =
 subprocess
 .
 PIPE
+                                 
 stderr
 =
 subprocess
 .
 STDOUT
-            
 )
             
 return
@@ -748,9 +747,9 @@ read
 .
 startswith
 (
-"
+'
 winrm
-"
+'
 )
         
 except
@@ -900,26 +899,22 @@ p
 )
             
 if
-(
-                
 sys
 .
 platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
-                
 and
 self
 .
 have_winrm
 (
 )
-                
 and
 os
 .
@@ -928,8 +923,6 @@ path
 isdir
 (
 path
-)
-            
 )
 :
                 
@@ -942,13 +935,13 @@ subprocess
 Popen
 (
 [
-"
+'
 winrm
-"
-"
+'
+'
 -
 rf
-"
+'
 path
 ]
 )
@@ -1056,19 +1049,18 @@ stored
 RUST_TARGET_VARS
 =
 (
-"
+'
 RUST_HOST_TARGET
-"
-"
+'
+'
 RUST_TARGET
-"
+'
 )
         
 rust_targets
 =
 set
 (
-            
 [
 self
 .
@@ -1087,14 +1079,13 @@ self
 .
 substs
 ]
-        
 )
         
 rust_build_kind
 =
-"
+'
 release
-"
+'
         
 if
 self
@@ -1103,17 +1094,17 @@ substs
 .
 get
 (
-"
+'
 MOZ_DEBUG_RUST
-"
+'
 )
 :
             
 rust_build_kind
 =
-"
+'
 debug
-"
+'
         
 #
 Top
@@ -1133,14 +1124,14 @@ no_clobber
 =
 {
             
-"
+'
 .
 mozbuild
-"
+'
             
-"
+'
 msvc
-"
+'
         
 }
         
@@ -1241,17 +1232,12 @@ self
 .
 collect_subdirs
 (
-                
 cargo_path
-                
 {
-                    
-"
+'
 incremental
-"
-                
+'
 }
-            
 )
             
 self
@@ -1414,12 +1400,12 @@ clobber_needed
             
 print
 (
-"
+'
 Clobber
 not
 needed
 .
-"
+'
 file
 =
 fh
@@ -1526,18 +1512,15 @@ allow_auto
 :
             
 return
-(
-                
 True
-                
 False
-                
+\
+               
 self
 .
 _message
 (
-                    
-"
+'
 Automatic
 clobbering
 is
@@ -1545,8 +1528,8 @@ not
 enabled
 \
 n
-"
-                    
+'
+                             
 '
 (
 add
@@ -1559,15 +1542,12 @@ AUTOCLOBBER
 to
 your
 '
-                    
-"
+                             
+'
 mozconfig
 )
 .
-"
-                
-)
-            
+'
 )
         
 if
@@ -1589,18 +1569,14 @@ topobjdir
 :
             
 return
-(
-                
 True
-                
 False
-                
 self
 .
 _message
 (
-                    
-"
+                
+'
 Cannot
 clobber
 while
@@ -1612,10 +1588,7 @@ the
 object
 directory
 .
-"
-                
-)
-            
+'
 )
         
 objdir
@@ -1626,24 +1599,24 @@ topobjdir
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
-"
+'
+'
 replace
-"
+'
 )
         
 print
 (
-"
+'
 Automatically
 clobbering
 %
 s
-"
+'
 %
 objdir
 file
@@ -1663,13 +1636,13 @@ False
             
 print
 (
-"
+'
 Successfully
 completed
 auto
 clobber
 .
-"
+'
 file
 =
 fh
@@ -1689,30 +1662,25 @@ error
 :
             
 return
-(
-                
 True
-                
 False
-                
 self
 .
 _message
 (
-"
+                
+'
 Error
 when
 automatically
 clobbering
 :
-"
+'
 +
 str
 (
 error
 )
-)
-            
 )
     
 def
@@ -1726,8 +1694,8 @@ reason
 lines
 =
 [
-"
-"
+'
+'
 +
 line
 for
@@ -1745,30 +1713,27 @@ CLOBBER_MESSAGE
 .
 format
 (
-            
 clobber_reason
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
 lines
 )
-            
+                                      
 no_reason
 =
-"
-"
+'
+'
 +
 reason
-            
 clobber_file
 =
 self
 .
 obj_clobber
-        
 )

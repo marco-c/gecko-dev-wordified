@@ -85,9 +85,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys
@@ -95,9 +95,9 @@ sys
 path
 =
 [
-"
+'
 pywebsocket3
-"
+'
 ]
 +
 sys
@@ -177,11 +177,11 @@ argv
 ]
 =
 =
-"
+'
 -
 -
 interactive
-"
+'
 :
         
 del
