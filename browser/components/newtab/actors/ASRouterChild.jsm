@@ -351,6 +351,11 @@ UpdateAdminState
 :
 case
 "
+ClearProviders
+"
+:
+case
+"
 ClearMessages
 "
 :
