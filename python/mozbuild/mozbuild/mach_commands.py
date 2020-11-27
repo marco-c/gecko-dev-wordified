@@ -7315,6 +7315,38 @@ add_argument
 "
 -
 -
+app
+"
+help
+=
+"
+Path
+to
+executable
+to
+run
+(
+default
+:
+output
+of
+.
+/
+mach
+build
+)
+"
+    
+)
+    
+group
+.
+add_argument
+(
+        
+"
+-
+-
 remote
 "
         
@@ -9367,6 +9399,8 @@ params
         
 packaged
         
+app
+        
 remote
         
 background
@@ -9435,6 +9469,8 @@ else
                 
 binpath
 =
+app
+or
 self
 .
 get_binary_path
