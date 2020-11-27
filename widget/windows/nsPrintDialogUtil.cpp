@@ -1871,6 +1871,8 @@ PD_PAGENUMS
 TODO
 (
 emilio
+bug
+1675956
 )
 :
 Can
@@ -2498,18 +2500,6 @@ prntdlg
 nToPage
 )
 ;
-}
-else
-{
-/
-/
-(
-prntdlg
-.
-Flags
-&
-PD_ALLPAGES
-)
 }
 aPrintSettings
 -
