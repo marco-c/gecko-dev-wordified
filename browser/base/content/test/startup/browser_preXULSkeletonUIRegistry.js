@@ -625,6 +625,9 @@ SpringsCSSSpan
 "
 SearchbarCSSSpan
 "
+"
+Theme
+"
 ]
 ;
 /
