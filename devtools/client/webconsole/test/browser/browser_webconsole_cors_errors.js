@@ -304,7 +304,7 @@ info
 (
 "
 Test
-CORSPreflightDidNotSucceed2
+CORSPreflightDidNotSucceed
 "
 )
 ;
@@ -324,7 +324,7 @@ succeed
 makeFaultyCorsCall
 (
 "
-CORSPreflightDidNotSucceed2
+CORSPreflightDidNotSucceed
 "
 )
 ;
@@ -338,7 +338,7 @@ checkCorsMessage
 (
 message
 "
-CORSPreflightDidNotSucceed2
+CORSPreflightDidNotSucceed
 "
 )
 ;
@@ -949,7 +949,7 @@ info
 (
 "
 Test
-CORSMissingAllowHeaderFromPreflight2
+CORSMissingAllowHeaderFromPreflight
 "
 )
 ;
@@ -999,7 +999,7 @@ response
 makeFaultyCorsCall
 (
 "
-CORSMissingAllowHeaderFromPreflight2
+CORSMissingAllowHeaderFromPreflight
 "
 )
 ;
@@ -1013,7 +1013,7 @@ checkCorsMessage
 (
 message
 "
-CORSMissingAllowHeaderFromPreflight2
+CORSMissingAllowHeaderFromPreflight
 "
 )
 ;
@@ -1533,7 +1533,7 @@ category
 =
 =
 "
-CORSMissingAllowHeaderFromPreflight2
+CORSMissingAllowHeaderFromPreflight
 "
 )
 {
