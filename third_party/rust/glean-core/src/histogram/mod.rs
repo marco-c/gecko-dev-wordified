@@ -601,7 +601,7 @@ B
 /
 /
 /
-Get
+Gets
 the
 number
 of
@@ -632,7 +632,7 @@ len
 /
 /
 /
-Add
+Adds
 a
 single
 value
@@ -711,7 +711,7 @@ count
 /
 /
 /
-Get
+Gets
 the
 total
 sum
@@ -740,7 +740,7 @@ sum
 /
 /
 /
-Get
+Gets
 the
 total
 count
@@ -769,7 +769,7 @@ count
 /
 /
 /
-Get
+Gets
 the
 filled
 values
@@ -798,7 +798,7 @@ values
 /
 /
 /
-Check
+Checks
 if
 this
 histogram
@@ -829,7 +829,7 @@ count
 /
 /
 /
-Get
+Gets
 a
 snapshot
 of

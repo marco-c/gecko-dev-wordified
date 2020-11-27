@@ -696,7 +696,7 @@ PrecomputedExponential
 /
 /
 /
-Create
+Creates
 a
 histogram
 with
