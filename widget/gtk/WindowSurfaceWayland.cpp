@@ -590,7 +590,7 @@ nsWindow
 |
 |
 |
-WindowBackBufferShm
+WindowBackBuffer
 |
 |
 |
@@ -712,7 +712,7 @@ WaylandShmPool
 |
 |
 |
-WindowBackBufferShm
+WindowBackBuffer
 |
 |
 |
@@ -950,7 +950,7 @@ nsWindow
 |
 |
 |
-WindowBackBufferShm
+WindowBackBuffer
 |
 |
 |
@@ -1064,7 +1064,7 @@ WaylandShmPool
 |
 |
 |
-WindowBackBufferShm
+WindowBackBuffer
 |
 |
 |
@@ -1384,8 +1384,7 @@ invalidated
 .
 WindowBackBuffer
 Is
-an
-abstraction
+a
 class
 which
 provides
@@ -1446,12 +1445,9 @@ rendered
 by
 compositor
 .
-WindowBackBufferShm
-It
-'
-s
 WindowBackBuffer
-implementation
+is
+implemented
 by
 shared
 memory
@@ -2581,7 +2577,7 @@ buffer_release
 }
 ;
 bool
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Create
@@ -2697,7 +2693,7 @@ LOGWAYLAND
 (
 (
 "
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Create
@@ -2746,7 +2742,7 @@ true
 ;
 }
 void
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 ReleaseShmSurface
@@ -2757,7 +2753,7 @@ LOGWAYLAND
 (
 (
 "
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Release
@@ -2799,7 +2795,7 @@ mHeight
 ;
 }
 void
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Clear
@@ -2822,17 +2818,17 @@ BUFFER_BPP
 )
 ;
 }
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
-WindowBackBufferShm
+WindowBackBuffer
 (
 WindowSurfaceWayland
 *
 aWindowSurfaceWayland
 )
 :
-WindowBackBuffer
+mWindowSurfaceWayland
 (
 aWindowSurfaceWayland
 )
@@ -2857,11 +2853,11 @@ false
 )
 {
 }
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 ~
-WindowBackBufferShm
+WindowBackBuffer
 (
 )
 {
@@ -2871,7 +2867,7 @@ ReleaseShmSurface
 ;
 }
 bool
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Resize
@@ -2904,7 +2900,7 @@ LOGWAYLAND
 (
 (
 "
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Resize
@@ -3074,7 +3070,7 @@ SetAttached
 }
 }
 void
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Detach
@@ -3088,7 +3084,7 @@ LOGWAYLAND
 (
 (
 "
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Detach
@@ -3163,7 +3159,7 @@ CommitWaylandBuffer
 ;
 }
 bool
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 SetImageDataFromBuffer
@@ -3180,7 +3176,7 @@ sourceBuffer
 static_cast
 <
 class
-WindowBackBufferShm
+WindowBackBuffer
 *
 >
 (
@@ -3250,7 +3246,7 @@ gfx
 :
 DrawTarget
 >
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Lock
@@ -3261,7 +3257,7 @@ LOGWAYLAND
 (
 (
 "
-WindowBackBufferShm
+WindowBackBuffer
 :
 :
 Lock
@@ -3679,7 +3675,7 @@ WindowBackBuffer
 buffer
 =
 new
-WindowBackBufferShm
+WindowBackBuffer
 (
 this
 )
