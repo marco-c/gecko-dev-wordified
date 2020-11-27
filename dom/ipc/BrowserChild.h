@@ -4126,6 +4126,17 @@ WindowsHandle
 aWidgetNativeData
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvReleaseAllPointerCapture
+(
+)
+;
 private
 :
 void
