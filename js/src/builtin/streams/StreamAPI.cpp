@@ -3838,12 +3838,12 @@ void
 JS
 :
 :
-InitAbortSignalHandling
+InitPipeToHandling
 (
 const
 JSClass
 *
-clasp
+abortSignalClass
 AbortSignalIsAborted
 isAborted
 JSContext
@@ -3859,9 +3859,9 @@ runtime
 )
 -
 >
-initAbortSignalHandling
+initPipeToHandling
 (
-clasp
+abortSignalClass
 isAborted
 )
 ;

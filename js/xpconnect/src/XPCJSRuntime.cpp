@@ -507,7 +507,7 @@ AbortSignalIsAborted
 JS
 :
 :
-InitAbortSignalHandling
+InitPipeToHandling
 #
 include
 "
@@ -21477,7 +21477,7 @@ Aborted
 JS
 :
 :
-InitAbortSignalHandling
+InitPipeToHandling
 (
 dom
 :

@@ -2855,12 +2855,12 @@ abortSignalIsAborted_
 public
 :
 void
-initAbortSignalHandling
+initPipeToHandling
 (
 const
 JSClass
 *
-clasp
+abortSignalClass
 JS
 :
 :
@@ -2870,7 +2870,7 @@ isAborted
 {
 MOZ_ASSERT
 (
-clasp
+abortSignalClass
 !
 =
 nullptr
@@ -2892,7 +2892,7 @@ class
 "
 when
 specifying
-AbortSignal
+pipeTo
 handling
 "
 )
@@ -2915,7 +2915,7 @@ pointer
 ;
 abortSignalClass_
 =
-clasp
+abortSignalClass
 ;
 abortSignalIsAborted_
 =
@@ -2951,7 +2951,7 @@ nullptr
 "
 must
 call
-initAbortSignalHandling
+initPipeToHandling
 first
 "
 )
