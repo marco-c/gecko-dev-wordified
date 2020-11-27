@@ -94,7 +94,7 @@ MOZ_ANDROID_FAT_AAR_ENV_MAP
 =
 {
     
-'
+"
 android
 -
 api
@@ -102,49 +102,49 @@ api
 16
 -
 shippable
-'
+"
 :
-'
+"
 MOZ_ANDROID_FAT_AAR_ARMEABI_V7A
-'
+"
     
-'
+"
 android
 -
 aarch64
 -
 shippable
-'
+"
 :
-'
+"
 MOZ_ANDROID_FAT_AAR_ARM64_V8A
-'
+"
     
-'
+"
 android
 -
 x86
 -
 shippable
-'
+"
 :
-'
+"
 MOZ_ANDROID_FAT_AAR_X86
-'
+"
     
-'
+"
 android
 -
 x86_64
 -
 shippable
-'
+"
 :
-'
+"
 MOZ_ANDROID_FAT_AAR_X86_64
-'
+"
     
-'
+"
 android
 -
 api
@@ -152,47 +152,47 @@ api
 16
 -
 opt
-'
+"
 :
-'
+"
 MOZ_ANDROID_FAT_AAR_ARMEABI_V7A
-'
+"
     
-'
+"
 android
 -
 aarch64
 -
 opt
-'
+"
 :
-'
+"
 MOZ_ANDROID_FAT_AAR_ARM64_V8A
-'
+"
     
-'
+"
 android
 -
 x86
 -
 opt
-'
+"
 :
-'
+"
 MOZ_ANDROID_FAT_AAR_X86
-'
+"
     
-'
+"
 android
 -
 x86_64
 -
 opt
-'
+"
 :
-'
+"
 MOZ_ANDROID_FAT_AAR_X86_64
-'
+"
 }
 transforms
 .
@@ -235,9 +235,9 @@ deepcopy
 (
 job
 [
-'
+"
 dependencies
-'
+"
 ]
 )
         
@@ -254,15 +254,15 @@ items
             
 job
 [
-'
+"
 dependencies
-'
+"
 ]
 =
 {
-'
+"
 build
-'
+"
 :
 label
 }
@@ -289,9 +289,9 @@ prefix
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
                 
@@ -299,9 +299,9 @@ prefix
 =
 prefix
 +
-'
+"
 /
-'
+"
             
 if
 aar_location
@@ -327,9 +327,9 @@ job
 .
 setdefault
 (
-'
+"
 fetches
-'
+"
 {
 }
 )
@@ -343,21 +343,23 @@ platform
 .
 append
 (
-{
                 
-'
+{
+                    
+"
 artifact
-'
+"
 :
 aar_location
-                
-'
+                    
+"
 extract
-'
+"
 :
 False
-            
+                
 }
+            
 )
             
 aar_file_name
@@ -366,9 +368,9 @@ aar_location
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 -
@@ -384,14 +386,14 @@ platform
             
 job
 [
-'
+"
 worker
-'
+"
 ]
 [
-'
+"
 env
-'
+"
 ]
 [
 env_var
@@ -401,9 +403,9 @@ aar_file_name
         
 job
 [
-'
+"
 dependencies
-'
+"
 ]
 =
 dependencies
@@ -423,11 +425,13 @@ artifacts_locations
 =
 get_geckoview_upstream_artifacts
 (
+        
 config
 job
 platform
 =
 platform
+    
 )
     
 aar_locations
@@ -443,20 +447,19 @@ artifacts_locations
 0
 ]
 [
-'
+"
 paths
-'
+"
 ]
-        
 if
 path
 .
 endswith
 (
-'
+"
 .
 aar
-'
+"
 )
     
 ]
@@ -474,7 +477,8 @@ aar_locations
 raise
 ValueError
 (
-'
+            
+"
 Only
 a
 single
@@ -487,12 +491,13 @@ Got
 :
 {
 }
-'
+"
 .
 format
 (
 aar_locations
 )
+        
 )
     
 return

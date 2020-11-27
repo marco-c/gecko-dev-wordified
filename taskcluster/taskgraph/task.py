@@ -443,9 +443,9 @@ self
 .
 attributes
 [
-'
+"
 kind
-'
+"
 ]
 =
 self
@@ -531,49 +531,49 @@ rv
 =
 {
             
-'
+"
 kind
-'
+"
 :
 self
 .
 kind
             
-'
+"
 label
-'
+"
 :
 self
 .
 label
             
-'
+"
 description
-'
+"
 :
 self
 .
 description
             
-'
+"
 attributes
-'
+"
 :
 self
 .
 attributes
             
-'
+"
 dependencies
-'
+"
 :
 self
 .
 dependencies
             
-'
+"
 soft_dependencies
-'
+"
 :
 sorted
 (
@@ -582,25 +582,25 @@ self
 soft_dependencies
 )
             
-'
+"
 if_dependencies
-'
+"
 :
 self
 .
 if_dependencies
             
-'
+"
 optimization
-'
+"
 :
 self
 .
 optimization
             
-'
+"
 task
-'
+"
 :
 self
 .
@@ -616,9 +616,9 @@ task_id
             
 rv
 [
-'
+"
 task_id
-'
+"
 ]
 =
 self
@@ -633,9 +633,9 @@ release_artifacts
             
 rv
 [
-'
+"
 release_artifacts
-'
+"
 ]
 =
 sorted
@@ -715,18 +715,18 @@ kind
 =
 task_dict
 [
-'
+"
 kind
-'
+"
 ]
             
 label
 =
 task_dict
 [
-'
+"
 label
-'
+"
 ]
             
 description
@@ -735,9 +735,9 @@ task_dict
 .
 get
 (
-'
+"
 description
-'
+"
 "
 "
 )
@@ -746,27 +746,27 @@ attributes
 =
 task_dict
 [
-'
+"
 attributes
-'
+"
 ]
             
 task
 =
 task_dict
 [
-'
+"
 task
-'
+"
 ]
             
 optimization
 =
 task_dict
 [
-'
+"
 optimization
-'
+"
 ]
             
 dependencies
@@ -775,9 +775,9 @@ task_dict
 .
 get
 (
-'
+"
 dependencies
-'
+"
 )
             
 soft_dependencies
@@ -786,9 +786,9 @@ task_dict
 .
 get
 (
-'
+"
 soft_dependencies
-'
+"
 )
             
 if_dependencies
@@ -797,9 +797,9 @@ task_dict
 .
 get
 (
-'
+"
 if_dependencies
-'
+"
 )
             
 release_artifacts
@@ -808,19 +808,19 @@ task_dict
 .
 get
 (
-'
+"
 release
 -
 artifacts
-'
+"
 )
         
 )
         
 if
-'
+"
 task_id
-'
+"
 in
 task_dict
 :
@@ -831,9 +831,9 @@ task_id
 =
 task_dict
 [
-'
+"
 task_id
-'
+"
 ]
         
 return

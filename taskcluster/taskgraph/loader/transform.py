@@ -288,11 +288,11 @@ config
 .
 get
 (
-'
+"
 job
 -
 defaults
-'
+"
 )
         
 for
@@ -307,9 +307,9 @@ config
 .
 get
 (
-'
+"
 jobs
-'
+"
 {
 }
 )
@@ -330,18 +330,18 @@ job
             
 job
 [
-'
+"
 job
 -
 from
-'
+"
 ]
 =
-'
+"
 kind
 .
 yml
-'
+"
             
 yield
 name
@@ -354,11 +354,11 @@ config
 .
 get
 (
-'
+"
 jobs
 -
 from
-'
+"
 [
 ]
 )
@@ -378,11 +378,11 @@ tasks
 .
 pop
 (
-'
+"
 job
 -
 defaults
-'
+"
 None
 )
             
@@ -427,11 +427,11 @@ job
                 
 job
 [
-'
+"
 job
 -
 from
-'
+"
 ]
 =
 filename
@@ -451,9 +451,9 @@ jobs
         
 job
 [
-'
+"
 name
-'
+"
 ]
 =
 name

@@ -12,6 +12,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -39,6 +40,7 @@ b
 "
 "
 "
+    
 )
     
 results
@@ -61,6 +63,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -102,6 +105,7 @@ b
 "
 "
 "
+    
 )
     
 results
@@ -124,6 +128,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -146,6 +151,7 @@ b
 "
 "
 "
+    
 )
     
 results
@@ -173,7 +179,6 @@ members
 hasLenientThis
 (
 )
-               
 "
 Should
 have
@@ -202,6 +207,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -226,6 +232,7 @@ b
 "
 "
 "
+        
 )
         
 results
@@ -271,6 +278,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -304,6 +312,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -340,6 +349,7 @@ harness
 .
 ok
 (
+        
 results
 [
 0
@@ -368,18 +378,19 @@ type
 hasClamp
 (
 )
-               
 "
 Should
 be
 clamped
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 not
 results
 [
@@ -409,13 +420,14 @@ type
 hasClamp
 (
 )
-               
+        
 "
 Should
 not
 be
 clamped
 "
+    
 )
     
 parser
@@ -437,6 +449,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -464,6 +477,7 @@ foo
 "
 "
 "
+        
 )
         
 results
@@ -509,6 +523,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -542,6 +557,7 @@ foo
 "
 "
 "
+    
 )
     
 results
@@ -578,6 +594,7 @@ harness
 .
 ok
 (
+        
 results
 [
 0
@@ -606,18 +623,20 @@ type
 hasEnforceRange
 (
 )
-               
+        
 "
 Should
 be
 enforceRange
 "
+    
 )
     
 harness
 .
 ok
 (
+        
 not
 results
 [
@@ -647,13 +666,14 @@ type
 hasEnforceRange
 (
 )
-               
+        
 "
 Should
 not
 be
 enforceRange
 "
+    
 )
     
 parser
@@ -675,6 +695,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -702,6 +723,7 @@ foo
 "
 "
 "
+        
 )
         
 results

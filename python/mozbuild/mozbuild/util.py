@@ -109,17 +109,12 @@ time
 from
 collections
 import
-(
-    
 OrderedDict
-)
 from
 io
 import
-(
 BytesIO
 StringIO
-)
 import
 six
 MOZBUILD_METRICS_PATH
@@ -138,19 +133,19 @@ path
 join
 (
 __file__
-'
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
-'
+"
+"
 metrics
 .
 yaml
-'
+"
 )
 )
 if
@@ -159,9 +154,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
     
 _kernel32
@@ -178,19 +173,19 @@ _FILE_ATTRIBUTE_NOT_CONTENT_INDEXED
     
 system_encoding
 =
-'
+"
 mbcs
-'
+"
 else
 :
     
 system_encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 def
 exec_
 (
@@ -294,9 +289,9 @@ mode
 :
     
 if
-'
+"
 b
-'
+"
 in
 mode
 :
@@ -319,17 +314,17 @@ path
 mode
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 newline
 =
-'
+"
 \
 n
-'
+"
 )
 def
 hash_file
@@ -401,9 +396,9 @@ with
 open
 (
 path
-'
+"
 rb
-'
+"
 )
 as
 fh
@@ -591,14 +586,14 @@ key
 raise
 Exception
 (
-'
+"
 Object
 does
 not
 support
 deletion
 .
-'
+"
 )
     
 def
@@ -613,14 +608,14 @@ value
 raise
 Exception
 (
-'
+"
 Object
 does
 not
 support
 assignment
 .
-'
+"
 )
     
 def
@@ -658,9 +653,9 @@ or
 hasattr
 (
 other
-'
+"
 __dict__
-'
+"
 )
 and
 self
@@ -671,6 +666,7 @@ __dict__
 other
 .
 __dict__
+        
 )
     
 def
@@ -681,14 +677,14 @@ self
 :
         
 return
-'
+"
 <
 %
 s
 %
 r
 >
-'
+"
 %
 (
 self
@@ -755,14 +751,14 @@ key
 raise
 Exception
 (
-'
+"
 Object
 does
 not
 support
 deletion
 .
-'
+"
 )
     
 def
@@ -777,14 +773,14 @@ value
 raise
 Exception
 (
-'
+"
 Object
 does
 not
 support
 assignment
 .
-'
+"
 )
     
 def
@@ -802,14 +798,14 @@ kwargs
 raise
 Exception
 (
-'
+"
 Object
 does
 not
 support
 update
 .
-'
+"
 )
 class
 undefined_default
@@ -1081,9 +1077,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
             
 if
@@ -1123,9 +1119,9 @@ sys
 platform
 =
 =
-'
+"
 darwin
-'
+"
 :
             
 with
@@ -1138,14 +1134,14 @@ path
 join
 (
 path
-'
+"
 .
 metadata_never_index
-'
+"
 )
-'
+"
 a
-'
+"
 )
 :
                 
@@ -1223,12 +1219,12 @@ deletion
     
 old_name
 =
-'
+"
 /
 dev
 /
 null
-'
+"
 if
 old_lines
 is
@@ -1238,12 +1234,12 @@ filename
     
 new_name
 =
-'
+"
 /
 dev
 /
 null
-'
+"
 if
 new_lines
 is
@@ -1256,6 +1252,7 @@ difflib
 .
 unified_diff
 (
+        
 old_lines
 or
 [
@@ -1264,7 +1261,6 @@ new_lines
 or
 [
 ]
-                                
 old_name
 new_name
 n
@@ -1272,8 +1268,9 @@ n
 4
 lineterm
 =
-'
-'
+"
+"
+    
 )
 class
 FileAvoidWrite
@@ -1452,9 +1449,9 @@ dry_run
 False
 readmode
 =
-'
+"
 rU
-'
+"
 )
 :
         
@@ -1490,9 +1487,9 @@ dry_run
 bool
         
 assert
-'
+"
 r
-'
+"
 in
 readmode
         
@@ -1525,9 +1522,9 @@ self
 .
 _binary_mode
 =
-'
+"
 b
-'
+"
 in
 readmode
     
@@ -1799,9 +1796,9 @@ dropped
             
 writemode
 =
-'
+"
 w
-'
+"
             
 if
 self
@@ -1812,9 +1809,9 @@ _binary_mode
 writemode
 +
 =
-'
+"
 b
-'
+"
                 
 buf
 =
@@ -2007,11 +2004,11 @@ old_content
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
                 
 old_lines
@@ -2044,11 +2041,11 @@ new_content
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
             
 new_lines
@@ -2168,7 +2165,7 @@ self
 diff
 =
 [
-'
+"
 Binary
 or
 non
@@ -2179,9 +2176,8 @@ changed
 :
 %
 s
-'
+"
 %
-                         
 self
 .
 name
@@ -2228,9 +2224,9 @@ target
 :
     
 r
-'
-'
-'
+"
+"
+"
     
 Resolve
 target
@@ -2376,9 +2372,9 @@ appropriate
 target
 .
     
-'
-'
-'
+"
+"
+"
     
 target
 =
@@ -2389,16 +2385,16 @@ replace
 os
 .
 sep
-'
+"
 /
-'
+"
 )
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
     
 abs_target
@@ -2481,9 +2477,9 @@ path
 join
 (
 current
-'
+"
 Makefile
-'
+"
 )
             
 if
@@ -2551,9 +2547,9 @@ such
 .
     
 if
-'
+"
 /
-'
+"
 not
 in
 target
@@ -2641,9 +2637,9 @@ join
 (
 topobjdir
 reldir
-'
+"
 Makefile
-'
+"
 )
         
 #
@@ -2668,9 +2664,9 @@ if
 target
 !
 =
-'
+"
 Makefile
-'
+"
 and
 os
 .
@@ -2819,7 +2815,7 @@ list
 raise
 ValueError
 (
-'
+"
 List
 can
 only
@@ -2830,7 +2826,7 @@ other
 list
 instances
 .
-'
+"
 )
         
 self
@@ -2871,7 +2867,7 @@ list
 raise
 ValueError
 (
-'
+"
 List
 can
 only
@@ -2882,7 +2878,7 @@ other
 list
 instances
 .
-'
+"
 )
         
 return
@@ -2926,7 +2922,8 @@ list
 raise
 ValueError
 (
-'
+                    
+"
 List
 can
 only
@@ -2935,12 +2932,12 @@ sliced
 with
 other
 list
-'
-                                 
-'
+"
+"
 instances
 .
-'
+"
+                
 )
             
 if
@@ -2952,7 +2949,7 @@ step
 raise
 ValueError
 (
-'
+"
 List
 cannot
 be
@@ -2961,11 +2958,10 @@ with
 a
 nonzero
 step
-'
-                                 
-'
+"
+"
 value
-'
+"
 )
             
 #
@@ -3003,7 +2999,6 @@ start
 key
 .
 stop
-                                                      
 val
 )
             
@@ -3123,7 +3118,7 @@ list
 raise
 ValueError
 (
-'
+"
 Only
 lists
 can
@@ -3132,7 +3127,7 @@ appended
 to
 lists
 .
-'
+"
 )
         
 new_list
@@ -3198,7 +3193,7 @@ list
 raise
 ValueError
 (
-'
+"
 Only
 lists
 can
@@ -3207,7 +3202,7 @@ appended
 to
 lists
 .
-'
+"
 )
         
 return
@@ -3310,7 +3305,7 @@ s
 .
 write
 (
-'
+"
 An
 attempt
 was
@@ -3324,14 +3319,14 @@ to
 a
 list
 .
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 The
 incoming
 list
@@ -3343,9 +3338,8 @@ element
 %
 d
 .
-'
+"
 %
-                
 self
 .
 i
@@ -3355,6 +3349,7 @@ s
 .
 write
 (
+            
 '
 We
 expected
@@ -3369,9 +3364,9 @@ got
 s
 "
 '
+            
 %
 (
-            
 self
 .
 sorted
@@ -3389,6 +3384,7 @@ self
 i
 ]
 )
+        
 )
         
 return
@@ -3726,7 +3722,6 @@ of
 the
 value
 .
-    
 "
 "
 "
@@ -3944,7 +3939,8 @@ action
 raise
 ValueError
 (
-'
+                
+"
 A
 callable
 action
@@ -3952,12 +3948,13 @@ is
 required
 to
 construct
-'
-                             
-'
+"
+                
+"
 a
 StrictOrderingOnAppendListWithAction
-'
+"
+            
 )
         
 self
@@ -3982,19 +3979,20 @@ raise
 ValueError
 (
                 
-'
+"
 StrictOrderingOnAppendListWithAction
 can
 only
 be
 initialized
-'
+"
                 
-'
+"
 with
 another
 list
-'
+"
+            
 )
         
 iterable
@@ -4025,6 +4023,7 @@ iterable
 action
 =
 action
+        
 )
     
 def
@@ -4048,19 +4047,20 @@ raise
 ValueError
 (
                 
-'
+"
 StrictOrderingOnAppendListWithAction
 can
 only
 be
 extended
-'
+"
                 
-'
+"
 with
 another
 list
-'
+"
+            
 )
         
 l
@@ -4120,19 +4120,20 @@ raise
 ValueError
 (
                     
-'
+"
 StrictOrderingOnAppendListWithAction
 can
 only
 be
 sliced
-'
+"
                     
-'
+"
 with
 another
 list
-'
+"
+                
 )
             
 val
@@ -4159,7 +4160,6 @@ self
 .
 __setitem__
 (
-            
 key
 val
 )
@@ -4185,19 +4185,20 @@ raise
 ValueError
 (
                 
-'
+"
 StrictOrderingOnAppendListWithAction
 can
 only
 be
 added
 with
-'
+"
                 
-'
+"
 another
 list
-'
+"
+            
 )
         
 return
@@ -4233,19 +4234,20 @@ raise
 ValueError
 (
                 
-'
+"
 StrictOrderingOnAppendListWithAction
 can
 only
 be
 added
 with
-'
+"
                 
-'
+"
 another
 list
-'
+"
+            
 )
         
 other
@@ -4451,6 +4453,7 @@ __slots__
 raise
 AttributeError
 (
+                    
 "
 '
 %
@@ -4465,8 +4468,8 @@ attribute
 s
 '
 "
+                    
 %
-                                     
 (
 self
 .
@@ -4475,6 +4478,7 @@ __class__
 __name__
 name
 )
+                
 )
             
 try
@@ -4536,6 +4540,7 @@ __slots__
 raise
 AttributeError
 (
+                    
 "
 '
 %
@@ -4550,8 +4555,8 @@ attribute
 s
 '
 "
+                    
 %
-                                     
 (
 self
 .
@@ -4560,6 +4565,7 @@ __class__
 __name__
 name
 )
+                
 )
             
 if
@@ -4579,6 +4585,7 @@ name
 raise
 TypeError
 (
+                    
 "
 '
 %
@@ -4598,8 +4605,8 @@ be
 s
 '
 "
+                    
 %
-                                
 (
 name
 self
@@ -4607,7 +4614,6 @@ self
 __class__
 .
 __name__
-                                 
 self
 .
 _flags
@@ -4617,6 +4623,7 @@ name
 .
 __name__
 )
+                
 )
             
 return
@@ -4640,7 +4647,7 @@ name
 raise
 MozbuildDeletionError
 (
-'
+"
 Unable
 to
 delete
@@ -4648,7 +4655,7 @@ attributes
 for
 this
 object
-'
+"
 )
     
 return
@@ -4825,7 +4832,9 @@ bar
 class
 StrictOrderingOnAppendListWithFlagsSpecialization
 (
+        
 StrictOrderingOnAppendListWithFlags
+    
 )
 :
         
@@ -4954,6 +4963,7 @@ slice
 raise
 TypeError
 (
+                    
 "
 '
 %
@@ -4966,22 +4976,24 @@ support
 item
 assignment
 "
+                    
 %
-                                
 self
 .
 __class__
 .
 __name__
+                
 )
             
 result
 =
 super
 (
+                
 StrictOrderingOnAppendListWithFlagsSpecialization
-                           
 self
+            
 )
 .
 __setitem__
@@ -5070,7 +5082,8 @@ _flags
 raise
 ValueError
 (
-'
+                    
+"
 Expected
 a
 list
@@ -5085,9 +5098,9 @@ not
 like
 %
 s
-'
+"
+                    
 %
-                                 
 (
 self
 .
@@ -5100,6 +5113,7 @@ _flags_type
 .
 _flags
 )
+                
 )
             
 intersection
@@ -5134,7 +5148,7 @@ raise
 ValueError
 (
                     
-'
+"
 Cannot
 update
 flags
@@ -5148,11 +5162,11 @@ flags
 configure
 %
 s
-'
+"
+                    
 %
-                    
 intersection
-                    
+                
 )
             
 self
@@ -5178,9 +5192,10 @@ result
 =
 super
 (
+                
 StrictOrderingOnAppendListWithFlagsSpecialization
-                           
 self
+            
 )
 .
 extend
@@ -5218,9 +5233,10 @@ result
 =
 super
 (
+                
 StrictOrderingOnAppendListWithFlagsSpecialization
-                           
 self
+            
 )
 .
 __add__
@@ -5331,9 +5347,10 @@ result
 =
 super
 (
+                
 StrictOrderingOnAppendListWithFlagsSpecialization
-                           
 self
+            
 )
 .
 __iadd__
@@ -5513,12 +5530,12 @@ list
 __slots__
 =
 (
-'
+"
 _strings
-'
-'
+"
+"
 _children
-'
+"
 )
     
 def
@@ -5699,8 +5716,8 @@ _strings
             
 path_to_here
 =
-'
-'
+"
+"
             
 yield
 path_to_here
@@ -5740,13 +5757,13 @@ walk
                 
 path_to_there
 =
-'
+"
 %
 s
 /
 %
 s
-'
+"
 %
 (
 k
@@ -5758,9 +5775,9 @@ path_to_there
 .
 strip
 (
-'
+"
 /
-'
+"
 )
 v
     
@@ -5925,9 +5942,9 @@ name
 .
 startswith
 (
-'
+"
 __
-'
+"
 )
 :
             
@@ -5959,7 +5976,7 @@ name
 raise
 MozbuildDeletionError
 (
-'
+"
 Unable
 to
 delete
@@ -5967,7 +5984,7 @@ attributes
 for
 this
 object
-'
+"
 )
     
 def
@@ -6157,14 +6174,13 @@ return
 raise
 KeyError
 (
-'
+"
 global_ns
-'
-'
+"
+"
 reassign
-'
-                           
-'
+"
+"
 <
 some
 variable
@@ -6172,7 +6188,7 @@ variable
 .
 %
 s
-'
+"
 %
 name
 )
@@ -6220,7 +6236,7 @@ list
 raise
 ValueError
 (
-'
+"
 Expected
 a
 list
@@ -6229,7 +6245,7 @@ strings
 not
 %
 s
-'
+"
 %
 type
 (
@@ -6258,7 +6274,7 @@ raise
 ValueError
 (
                     
-'
+"
 Expected
 a
 list
@@ -6270,12 +6286,13 @@ element
 of
 %
 s
-'
+"
 %
 type
 (
 v
 )
+                
 )
 class
 LockFile
@@ -6549,7 +6566,6 @@ e
 :
             
 if
-(
 e
 .
 errno
@@ -6559,8 +6575,8 @@ errno
 .
 EEXIST
 or
-                
 (
+                
 sys
 .
 platform
@@ -6578,7 +6594,7 @@ errno
 errno
 .
 EACCES
-)
+            
 )
 :
                 
@@ -6627,9 +6643,9 @@ f
 open
 (
 lockfile
-'
+"
 r
-'
+"
 )
             
 s
@@ -6697,7 +6713,8 @@ continue
 raise
 Exception
 (
-'
+                
+"
 {
 0
 }
@@ -6711,16 +6728,16 @@ failed
 {
 1
 }
-'
+"
 .
 format
 (
-                
 lockfile
 e
 .
 strerror
 )
+            
 )
         
 #
@@ -6782,7 +6799,8 @@ rstrip
 raise
 Exception
 (
-'
+                
+"
 {
 0
 }
@@ -6792,9 +6810,9 @@ locked
 for
 more
 than
-'
-                            
-'
+"
+                
+"
 {
 1
 }
@@ -6805,7 +6823,7 @@ PID
 2
 }
 )
-'
+"
 .
 format
 (
@@ -6813,6 +6831,7 @@ lockfile
 max_wait
 pid
 )
+            
 )
         
 #
@@ -6882,22 +6901,22 @@ os
 fdopen
 (
 fd
-'
+"
 w
-'
+"
 )
     
 f
 .
 write
 (
-'
+"
 {
 0
 }
 \
 n
-'
+"
 .
 format
 (
@@ -6927,9 +6946,9 @@ OrderedDict
 )
 :
     
-'
-'
-'
+"
+"
+"
 A
 combination
 of
@@ -6937,9 +6956,9 @@ OrderedDict
 and
 defaultdict
 .
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -7002,9 +7021,9 @@ dict
 )
 :
     
-'
-'
-'
+"
+"
+"
 Like
 a
 defaultdict
@@ -7018,9 +7037,9 @@ key
 as
     
 argument
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -7089,9 +7108,9 @@ ReadOnlyDict
 )
 :
     
-'
-'
-'
+"
+"
+"
 Like
 KeyedDefaultDict
 but
@@ -7099,9 +7118,9 @@ read
 -
 only
 .
-'
-'
-'
+"
+"
+"
 class
 memoize
 (
@@ -7109,9 +7128,9 @@ dict
 )
 :
     
-'
-'
-'
+"
+"
+"
 A
 decorator
 to
@@ -7152,9 +7171,9 @@ instance
 itself
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -7225,11 +7244,11 @@ args
         
 name
 =
-'
+"
 _
 %
 s
-'
+"
 %
 self
 .
@@ -7316,6 +7335,7 @@ instance
 self
 .
 func
+        
 )
 class
 memoized_property
@@ -7324,9 +7344,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
 A
 specialized
 version
@@ -7343,9 +7363,9 @@ instance
 properties
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -7372,11 +7392,11 @@ cls
         
 name
 =
-'
+"
 _
 %
 s
-'
+"
 %
 self
 .
@@ -7734,7 +7754,8 @@ ftype
 raise
 TypeError
 (
-'
+                        
+"
 field
 in
 tuple
@@ -7746,26 +7767,26 @@ type
 %
 s
 ;
-'
-                                    
-'
+"
+                        
+"
 got
 %
 s
 expected
 %
 s
-'
+"
 %
 (
 fname
-                                                             
 type
 (
 value
 )
 ftype
 )
+                    
 )
     
 TypedTuple
@@ -7787,9 +7808,9 @@ List
 )
 :
     
-'
-'
-'
+"
+"
+"
 A
 list
 with
@@ -7852,9 +7873,9 @@ unicode
 StrictOrderingOnAppendList
 )
     
-'
-'
-'
+"
+"
+"
     
 class
 _TypedList
@@ -8114,7 +8135,6 @@ group_unified_files
 files
 unified_prefix
 unified_suffix
-                        
 files_per_unified_file
 )
 :
@@ -8331,7 +8351,6 @@ x
 !
 =
 dummy_fill_value
-                                
 iterable
 )
     
@@ -8405,7 +8424,6 @@ enumerate
 grouper
 (
 files_per_unified_file
-                                              
 files
 )
 )
@@ -8422,7 +8440,7 @@ unified_group
 )
         
 yield
-'
+"
 %
 s
 %
@@ -8430,7 +8448,7 @@ d
 .
 %
 s
-'
+"
 %
 (
 unified_prefix
@@ -8445,9 +8463,9 @@ iterable
 )
 :
     
-'
-'
-'
+"
+"
+"
 Given
 an
 iterable
@@ -8494,9 +8512,9 @@ returns
 )
 ]
     
-'
-'
-'
+"
+"
+"
     
 i
 =
@@ -8522,9 +8540,9 @@ iterable
 )
 :
     
-'
-'
-'
+"
+"
+"
 Given
 an
 iterable
@@ -8590,9 +8608,9 @@ returns
 )
 ]
     
-'
-'
-'
+"
+"
+"
     
 a
 b
@@ -8622,7 +8640,7 @@ re
 .
 compile
 (
-'
+"
 \
 \
 (
@@ -8633,7 +8651,7 @@ w
 )
 \
 )
-'
+"
 )
 def
 expand_variables
@@ -8643,9 +8661,9 @@ variables
 )
 :
     
-'
-'
-'
+"
+"
+"
 Given
 a
 string
@@ -8691,14 +8709,14 @@ with
 a
 whitespace
 .
-'
-'
-'
+"
+"
+"
     
 result
 =
-'
-'
+"
+"
     
 for
 s
@@ -8749,8 +8767,8 @@ string_types
             
 value
 =
-'
-'
+"
+"
 .
 join
 (
@@ -8773,9 +8791,9 @@ Action
 )
 :
     
-'
-'
-'
+"
+"
+"
 An
 ArgumentParser
 action
@@ -8791,9 +8809,9 @@ type
 of
 arguments
 .
-'
-'
-'
+"
+"
+"
     
 def
 __call__
@@ -8833,9 +8851,9 @@ values
 .
 split
 (
-'
+"
 =
-'
+"
 1
 )
         
@@ -8913,9 +8931,9 @@ text_type
 )
 :
     
-'
-'
-'
+"
+"
+"
 A
 string
 type
@@ -8972,9 +8990,9 @@ such
 subclasses
 .
     
-'
-'
-'
+"
+"
+"
     
 POSSIBLE_VALUES
 =
@@ -9001,6 +9019,7 @@ POSSIBLE_VALUES
 raise
 ValueError
 (
+                
 "
 '
 %
@@ -9015,7 +9034,6 @@ for
 %
 s
 "
-                             
 %
 (
 value
@@ -9025,6 +9043,7 @@ __class__
 .
 __name__
 )
+            
 )
     
 def
@@ -9048,18 +9067,18 @@ raise
 EnumStringComparisonError
 (
                 
-'
+"
 Can
 only
 compare
 with
 %
 s
-'
+"
                 
 %
-'
-'
+"
+"
 .
 join
 (
@@ -9078,6 +9097,7 @@ self
 .
 POSSIBLE_VALUES
 )
+            
 )
         
 return
@@ -9211,9 +9231,9 @@ c
 .
 encode
 (
-'
+"
 unicode_escape
-'
+"
 )
 )
 if
@@ -9275,7 +9295,6 @@ _escape_char
 x
 )
 )
-                        
 map
 (
 unichr
@@ -9310,13 +9329,13 @@ re
 compile
 (
         
-'
+"
 (
 [
-'
+"
 +
-'
-'
+"
+"
 .
 join
 (
@@ -9327,11 +9346,12 @@ values
 )
 )
 +
-'
+"
 ]
 +
 )
-'
+"
+    
 )
 def
 write_indented_repr
@@ -9344,9 +9364,9 @@ indent
 )
 :
     
-'
-'
-'
+"
+"
+"
 Write
 an
 indented
@@ -9387,9 +9407,9 @@ import
 unicode_literals
 .
     
-'
-'
-'
+"
+"
+"
     
 if
 six
@@ -9427,8 +9447,8 @@ Python
     
 one_indent
 =
-'
-'
+"
+"
 *
 indent
     
@@ -9449,11 +9469,11 @@ dict
 :
             
 yield
-'
+"
 {
 \
 n
-'
+"
             
 for
 k
@@ -9494,9 +9514,9 @@ yield
 d
                 
 yield
-'
+"
 :
-'
+"
                 
 for
 d
@@ -9514,10 +9534,10 @@ yield
 d
                 
 yield
-'
+"
 \
 n
-'
+"
             
 yield
 one_indent
@@ -9525,9 +9545,9 @@ one_indent
 level
             
 yield
-'
+"
 }
-'
+"
         
 elif
 isinstance
@@ -9538,9 +9558,9 @@ bytes
 :
             
 yield
-'
+"
 b
-'
+"
             
 yield
 repr
@@ -9643,18 +9663,18 @@ elif
 hasattr
 (
 o
-'
+"
 __iter__
-'
+"
 )
 :
             
 yield
-'
+"
 [
 \
 n
-'
+"
             
 for
 i
@@ -9687,10 +9707,10 @@ yield
 d
                 
 yield
-'
+"
 \
 n
-'
+"
             
 yield
 one_indent
@@ -9698,9 +9718,9 @@ one_indent
 level
             
 yield
-'
+"
 ]
-'
+"
         
 else
 :
@@ -9713,8 +9733,8 @@ o
     
 result
 =
-'
-'
+"
+"
 .
 join
 (
@@ -9725,10 +9745,10 @@ o
 )
 )
 +
-'
+"
 \
 n
-'
+"
     
 f
 .
@@ -9742,9 +9762,9 @@ patch_main
 )
 :
     
-'
-'
-'
+"
+"
+"
 This
 is
 a
@@ -9937,9 +9957,9 @@ id
 =
 914563
     
-'
-'
-'
+"
+"
+"
     
 #
 XXX
@@ -10039,9 +10059,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 and
 sys
 .
@@ -10103,13 +10123,13 @@ sys
 .
 modules
 [
-'
+"
 __main__
-'
+"
 ]
-'
+"
 __file__
-'
+"
 None
 )
         
@@ -10168,10 +10188,10 @@ if
 ext
 =
 =
-'
+"
 .
 py
-'
+"
 :
             
 #
@@ -10255,11 +10275,11 @@ return
 f
 path
 (
-'
-'
-'
+"
+"
+"
 r
-'
+"
 imp
 .
 PY_SOURCE
@@ -10331,9 +10351,9 @@ if
 name
 =
 =
-'
+"
 __parents_main__
-'
+"
 :
                     
 old_bytecode
@@ -10453,6 +10473,7 @@ globals
 fork_string
 =
 (
+                
 "
 main_file_name
 =
@@ -10465,8 +10486,8 @@ n
 "
 %
 main_file_name
+                
 +
-                           
 "
 main_module_name
 =
@@ -10479,10 +10500,10 @@ n
 "
 %
 main_module_name
+                
 +
-                           
-'
-'
+"
+"
 .
 join
 (
@@ -10500,6 +10521,7 @@ fork_code
 :
 ]
 )
+            
 )
             
 cmdline
@@ -10566,10 +10588,10 @@ cmdline
 .
 index
 (
-'
+"
 -
 c
-'
+"
 )
 +
 1
@@ -10597,11 +10619,11 @@ ensure_bytes
 value
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 :
     
@@ -10631,11 +10653,11 @@ ensure_unicode
 value
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 :
     
@@ -10665,11 +10687,11 @@ ensure_subprocess_env
 env
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 :
     

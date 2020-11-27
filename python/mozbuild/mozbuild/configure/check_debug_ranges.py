@@ -110,9 +110,9 @@ debug_info
 )
 :
     
-'
-'
-'
+"
+"
+"
 Returns
 the
 range
@@ -122,22 +122,22 @@ a
 given
 compilation
 unit
-       
+    
 in
 a
 given
 debug_info
 .
-'
-'
-'
+"
+"
+"
     
 name
 =
 ranges
 =
-'
-'
+"
+"
     
 search_cu
 =
@@ -154,9 +154,9 @@ splitlines
 :
         
 if
-'
+"
 DW_TAG_compile_unit
-'
+"
 in
 nfo
 :
@@ -166,9 +166,9 @@ search_cu
 True
         
 elif
-'
+"
 DW_TAG_
-'
+"
 in
 nfo
 or
@@ -189,8 +189,8 @@ and
 ranges
 !
 =
-'
-'
+"
+"
 :
                 
 return
@@ -204,8 +204,8 @@ name
 =
 ranges
 =
-'
-'
+"
+"
             
 search_cu
 =
@@ -216,9 +216,9 @@ search_cu
 :
             
 if
-'
+"
 DW_AT_name
-'
+"
 in
 nfo
 :
@@ -237,9 +237,9 @@ None
 ]
             
 elif
-'
+"
 DW_AT_ranges
-'
+"
 in
 nfo
 :
@@ -267,9 +267,9 @@ debug_ranges
 )
 :
     
-'
-'
-'
+"
+"
+"
 Returns
 the
 number
@@ -281,13 +281,13 @@ range
 starting
 at
 the
-       
+    
 given
 offset
 .
-'
-'
-'
+"
+"
+"
     
 length
 =
@@ -309,7 +309,7 @@ re
 .
 match
 (
-'
+"
 \
 s
 *
@@ -355,7 +355,7 @@ F
 ]
 +
 )
-'
+"
 line
 )
         
@@ -398,30 +398,34 @@ subprocess
 .
 Popen
 (
+        
 [
-'
+"
 objdump
-'
-'
+"
+"
 -
 W
-'
+"
 bin
 ]
+        
 stdout
 =
 subprocess
 .
 PIPE
-                         
+        
 stderr
 =
 subprocess
 .
 PIPE
+        
 universal_newlines
 =
 True
+    
 )
     
 (
@@ -441,7 +445,7 @@ re
 .
 split
 (
-'
+"
 \
 n
 (
@@ -452,7 +456,7 @@ the
 The
 section
 )
-'
+"
 out
 )
     
@@ -469,10 +473,10 @@ s
 .
 startswith
 (
-'
+"
 .
 debug_info
-'
+"
 )
 ]
     
@@ -489,10 +493,10 @@ s
 .
 startswith
 (
-'
+"
 .
 debug_ranges
-'
+"
 )
 ]
     
@@ -542,9 +546,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 print

@@ -64,7 +64,7 @@ string
 tag_re
 =
 r
-'
+"
 <
 (
 [
@@ -106,7 +106,7 @@ z
 >
 )
 ?
-'
+"
 attr_re
 =
 r
@@ -164,18 +164,18 @@ s
 .
 startswith
 (
-'
+"
 &
-'
+"
 )
 and
 s
 .
 endswith
 (
-'
+"
 ;
-'
+"
 )
 def
 convert_camel_case
@@ -190,7 +190,7 @@ re
 .
 sub
 (
-'
+"
 (
 .
 )
@@ -207,15 +207,15 @@ z
 ]
 +
 )
-'
+"
 r
-'
+"
 \
 1
 -
 \
 2
-'
+"
 name
 )
     
@@ -224,7 +224,7 @@ re
 .
 sub
 (
-'
+"
 (
 [
 a
@@ -241,15 +241,15 @@ A
 Z
 ]
 )
-'
+"
 r
-'
+"
 \
 1
 -
 \
 2
-'
+"
 s1
 )
 .
@@ -327,9 +327,9 @@ digits
 .
 split
 (
-'
+"
 .
-'
+"
 )
             
 if
@@ -354,9 +354,9 @@ k
                     
 core
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -373,9 +373,9 @@ else
                     
 core
 =
-'
+"
 .
-'
+"
 .
 join
 (
@@ -396,12 +396,12 @@ id
 .
 replace
 (
-'
+"
 .
-'
-'
+"
+"
 -
-'
+"
 )
     
 id
@@ -682,19 +682,16 @@ l10n_id
 ]
 =
 {
-            
 "
 value
 "
 :
 l10n_val
-            
 "
 attrs
 "
 :
 l10n_attrs
-        
 }
         
 indent
@@ -723,7 +720,7 @@ vector
         
 tag
 =
-\
+(
             
 tag
 [
@@ -743,13 +740,11 @@ group
 -
 vector
 ]
-+
-\
             
++
 indent
-+
-\
             
++
 '
 data
 -
@@ -759,28 +754,24 @@ id
 =
 "
 '
-+
-\
             
++
 l10n_id
-+
-\
             
++
 '
 "
 '
-+
-\
             
++
 m
 .
 group
 (
 2
 )
-+
-\
             
++
 (
 m
 .
@@ -795,9 +786,8 @@ else
 "
 "
 )
-+
-\
             
++
 tag
 [
 len
@@ -822,7 +812,6 @@ group
 )
 )
 +
-                
 len
 (
 m
@@ -836,6 +825,8 @@ group
 vector
 :
 ]
+        
+)
     
 return
 tag
@@ -882,9 +873,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 pass

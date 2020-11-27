@@ -96,13 +96,11 @@ formautofill
 "
         
 if
-(
 path
 .
 startswith
 (
 autofillPath
-)
 )
 :
             
@@ -118,8 +116,6 @@ formautofill
 content
 "
 +
-\
-                
 path
 [
 len
@@ -161,9 +157,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 BaseHTTPServer

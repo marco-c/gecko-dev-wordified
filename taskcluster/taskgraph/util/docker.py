@@ -114,10 +114,7 @@ mozpack
 .
 archive
 import
-(
-    
 create_tar_gz_from_files
-)
 from
 .
 .
@@ -137,12 +134,12 @@ path
 join
 (
 GECKO
-'
+"
 taskcluster
-'
-'
+"
+"
 docker
-'
+"
 )
 def
 docker_url
@@ -162,10 +159,10 @@ environ
 .
 get
 (
-'
+"
 DOCKER_SOCKET
-'
-'
+"
+"
 /
 var
 /
@@ -174,42 +171,38 @@ run
 docker
 .
 sock
-'
+"
 )
     
 return
 urlunparse
 (
-(
         
-'
+(
+"
 http
 +
 unix
-'
-        
+"
 quote
 (
 docker_socket
 safe
 =
-'
-'
+"
+"
 )
-        
 path
-        
-'
-'
-        
+"
+"
 urlencode
 (
 kwargs
 )
-        
-'
-'
+"
+"
 )
+    
 )
 def
 post_to_docker
@@ -396,19 +389,19 @@ True
 headers
 =
 {
-'
+"
 Content
 -
 Type
-'
+"
 :
-'
+"
 application
 /
 x
 -
 tar
-'
+"
 }
     
 )
@@ -432,9 +425,9 @@ json
 .
 get
 (
-'
+"
 message
-'
+"
 )
         
 if
@@ -444,7 +437,7 @@ message
             
 message
 =
-'
+"
 docker
 API
 returned
@@ -452,11 +445,10 @@ HTTP
 code
 {
 }
-'
+"
 .
 format
 (
-                
 req
 .
 status_code
@@ -476,8 +468,8 @@ status_line
 buf
 =
 b
-'
-'
+"
+"
     
 for
 content
@@ -548,8 +540,8 @@ continue
 buf
 =
 b
-'
-'
+"
+"
         
 #
 data
@@ -595,17 +587,17 @@ and
 .
         
 if
-'
+"
 status
-'
+"
 in
 data
 :
             
 if
-'
+"
 id
-'
+"
 in
 data
 :
@@ -635,9 +627,9 @@ setdefault
 (
 data
 [
-'
+"
 id
-'
+"
 ]
 total_lines
 )
@@ -669,14 +661,14 @@ stderr
 .
 write
 (
-'
+"
 \
 033
 [
 {
 }
 A
-'
+"
 .
 format
 (
@@ -704,14 +696,14 @@ stderr
 .
 write
 (
-'
+"
 \
 033
 [
 2K
 \
 r
-'
+"
 )
                     
 sys
@@ -720,7 +712,8 @@ stderr
 .
 write
 (
-'
+                        
+"
 {
 }
 :
@@ -730,34 +723,36 @@ write
 }
 \
 n
-'
+"
 .
 format
 (
-                        
+                            
 data
 [
-'
+"
 id
-'
+"
 ]
 data
 [
-'
+"
 status
-'
+"
 ]
 data
 .
 get
 (
-'
+"
 progress
-'
-'
-'
+"
+"
+"
 )
+                        
 )
+                    
 )
                     
 if
@@ -802,14 +797,14 @@ stderr
 .
 write
 (
-'
+"
 \
 033
 [
 {
 }
 B
-'
+"
 .
 format
 (
@@ -830,9 +825,9 @@ get
 (
 data
 [
-'
+"
 id
-'
+"
 ]
 )
                     
@@ -849,9 +844,9 @@ status
 =
 data
 [
-'
+"
 status
-'
+"
 ]
 :
                         
@@ -861,7 +856,7 @@ stderr
 .
 write
 (
-'
+"
 {
 }
 :
@@ -869,21 +864,21 @@ write
 }
 \
 n
-'
+"
 .
 format
 (
 data
 [
-'
+"
 id
-'
+"
 ]
 data
 [
-'
+"
 status
-'
+"
 ]
 )
 )
@@ -892,17 +887,17 @@ status_line
 [
 data
 [
-'
+"
 id
-'
+"
 ]
 ]
 =
 data
 [
-'
+"
 status
-'
+"
 ]
             
 else
@@ -919,28 +914,28 @@ stderr
 .
 write
 (
-'
+"
 {
 }
 \
 n
-'
+"
 .
 format
 (
 data
 [
-'
+"
 status
-'
+"
 ]
 )
 )
         
 elif
-'
+"
 stream
-'
+"
 in
 data
 :
@@ -953,16 +948,16 @@ write
 (
 data
 [
-'
+"
 stream
-'
+"
 ]
 )
         
 elif
-'
+"
 aux
-'
+"
 in
 data
 :
@@ -977,17 +972,17 @@ repr
 (
 data
 [
-'
+"
 aux
-'
+"
 ]
 )
 )
         
 elif
-'
+"
 error
-'
+"
 in
 data
 :
@@ -998,20 +993,20 @@ stderr
 .
 write
 (
-'
+"
 {
 }
 \
 n
-'
+"
 .
 format
 (
 data
 [
-'
+"
 error
-'
+"
 ]
 )
 )
@@ -1071,7 +1066,7 @@ re
 search
 (
 r
-'
+"
 returned
 a
 non
@@ -1084,12 +1079,12 @@ code
 d
 +
 )
-'
+"
 data
 [
-'
+"
 error
-'
+"
 ]
 )
             
@@ -1145,10 +1140,10 @@ False
 )
 :
     
-'
-'
-'
-        
+"
+"
+"
+    
 Resolve
 in
 -
@@ -1169,7 +1164,7 @@ sha256
 <
 digest
 >
-        
+    
 or
 <
 registry
@@ -1188,9 +1183,9 @@ is
 True
 .
     
-'
-'
-'
+"
+"
+"
     
 try
 :
@@ -1206,9 +1201,9 @@ join
 (
 IMAGE_DIR
 name
-'
+"
 REGISTRY
-'
+"
 )
 )
 as
@@ -1241,9 +1236,9 @@ path
 join
 (
 IMAGE_DIR
-'
+"
 REGISTRY
-'
+"
 )
 )
 as
@@ -1277,9 +1272,9 @@ join
 (
 IMAGE_DIR
 name
-'
+"
 HASH
-'
+"
 )
         
 try
@@ -1295,7 +1290,7 @@ f
 :
                 
 return
-'
+"
 {
 }
 /
@@ -1303,7 +1298,7 @@ return
 }
 {
 }
-'
+"
 .
 format
 (
@@ -1327,7 +1322,7 @@ IOError
 raise
 Exception
 (
-'
+"
 Failed
 to
 read
@@ -1335,7 +1330,7 @@ HASH
 file
 {
 }
-'
+"
 .
 format
 (
@@ -1357,9 +1352,9 @@ join
 (
 IMAGE_DIR
 name
-'
+"
 VERSION
-'
+"
 )
 )
 as
@@ -1384,12 +1379,12 @@ IOError
         
 tag
 =
-'
+"
 latest
-'
+"
     
 return
-'
+"
 {
 }
 /
@@ -1398,7 +1393,7 @@ return
 :
 {
 }
-'
+"
 .
 format
 (
@@ -1477,6 +1472,7 @@ image
 return
 stream_context_tar
 (
+        
 topsrcdir
 image_path
 VoidWriter
@@ -1486,6 +1482,7 @@ image_name
 args
 =
 args
+    
 )
 class
 HashingWriter
@@ -1784,9 +1781,9 @@ with
 open
 (
 out_path
-'
+"
 wb
-'
+"
 )
 as
 fh
@@ -1797,11 +1794,15 @@ stream_context_tar
 (
             
 topsrcdir
+            
 context_dir
+            
 fh
+            
 image_name
 =
 image_name
+            
 args
 =
 args
@@ -1942,13 +1943,13 @@ path
 join
 (
 context_dir
-'
+"
 Dockerfile
-'
+"
 )
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -1965,11 +1966,11 @@ line
 .
 startswith
 (
-'
+"
 #
 %
 ARG
-'
+"
 )
 :
                 
@@ -1979,11 +1980,11 @@ line
 [
 len
 (
-'
+"
 #
 %
 ARG
-'
+"
 )
 :
 ]
@@ -2005,13 +2006,13 @@ args
 raise
 Exception
 (
-'
+"
 missing
 argument
 :
 {
 }
-'
+"
 .
 format
 (
@@ -2029,13 +2030,13 @@ re
 compile
 (
 r
-'
+"
 \
 {
 }
 \
 b
-'
+"
 .
 format
 (
@@ -2082,11 +2083,11 @@ line
 .
 startswith
 (
-'
+"
 #
 %
 include
-'
+"
 )
 :
                 
@@ -2098,11 +2099,11 @@ line
 [
 len
 (
-'
+"
 #
 %
 include
-'
+"
 )
 :
 ]
@@ -2125,7 +2126,7 @@ p
 raise
 Exception
 (
-'
+"
 extra
 include
 path
@@ -2135,7 +2136,7 @@ absolute
 :
 %
 s
-'
+"
 %
 p
 )
@@ -2180,7 +2181,7 @@ topsrcdir
 raise
 Exception
 (
-'
+"
 extra
 include
 path
@@ -2189,7 +2190,7 @@ topsrcdir
 :
 %
 s
-'
+"
 %
 p
 )
@@ -2209,7 +2210,7 @@ fs_path
 raise
 Exception
 (
-'
+"
 extra
 include
 path
@@ -2219,7 +2220,7 @@ exist
 :
 %
 s
-'
+"
 %
 p
 )
@@ -2287,9 +2288,9 @@ path
 .
 join
 (
-'
+"
 topsrcdir
-'
+"
 p
 rel
 )
@@ -2312,9 +2313,9 @@ path
 .
 join
 (
-'
+"
 topsrcdir
-'
+"
 p
 )
                 
@@ -2327,16 +2328,17 @@ fs_path
     
 archive_files
 [
-'
+"
 Dockerfile
-'
+"
 ]
 =
 GeneratedFile
 (
+        
 b
-'
-'
+"
+"
 .
 join
 (
@@ -2351,6 +2353,7 @@ s
 in
 content
 )
+    
 )
     
 writer
@@ -2455,9 +2458,9 @@ __update_image_paths
 (
 config
 [
-'
+"
 jobs
-'
+"
 ]
 image_dir
 )
@@ -2523,8 +2526,9 @@ __dict__
 .
 update
 (
-{
             
+{
+                
 k
 :
 os
@@ -2538,13 +2542,13 @@ v
 .
 get
 (
-'
+"
 definition
-'
+"
 k
 )
 )
-            
+                
 for
 k
 v
@@ -2554,8 +2558,9 @@ jobs
 items
 (
 )
-        
+            
 }
+        
 )
     
 def
@@ -2626,7 +2631,7 @@ image_paths
 =
 ImagePathsMap
 (
-'
+"
 taskcluster
 /
 ci
@@ -2638,7 +2643,7 @@ image
 kind
 .
 yml
-'
+"
 )
 def
 image_path
@@ -2717,13 +2722,13 @@ path
 join
 (
 path
-'
+"
 Dockerfile
-'
+"
 )
-'
+"
 rb
-'
+"
 )
 as
 fh
@@ -2763,9 +2768,9 @@ line
 startswith
 (
 b
-'
+"
 VOLUME
-'
+"
 )
 :
                 
@@ -2790,16 +2795,17 @@ v
 startswith
 (
 b
-'
+"
 [
-'
+"
 )
 :
                 
 raise
 ValueError
 (
-'
+                    
+"
 cannot
 parse
 array
@@ -2807,14 +2813,15 @@ syntax
 for
 VOLUME
 ;
-'
-                                 
-'
+"
+                    
+"
 convert
 to
 multiple
 entries
-'
+"
+                
 )
             
 volumes

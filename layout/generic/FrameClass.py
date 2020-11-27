@@ -82,8 +82,6 @@ DynamicLeaf
 "
 class
 FrameClass
-(
-)
 :
     
 def

@@ -146,13 +146,14 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
+                
 "
 return
 arguments
@@ -162,14 +163,17 @@ arguments
 .
 selected
 "
+                
 script_args
 =
 [
 option_element
 ]
+                
 sandbox
 =
 None
+            
 )
             
 "
@@ -181,6 +185,7 @@ attribute
 not
 updated
 "
+        
 )
     
 def
@@ -213,13 +218,14 @@ self
 .
 assertFalse
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
-            
+                
 "
 return
 arguments
@@ -229,14 +235,17 @@ arguments
 .
 selected
 "
+                
 script_args
 =
 [
 option_element
 ]
+                
 sandbox
 =
 None
+            
 )
             
 "
@@ -248,6 +257,7 @@ attribute
 not
 updated
 "
+        
 )
 class
 TestSelect
@@ -269,8 +279,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -296,7 +308,9 @@ select
 "
 "
 "
+            
 )
+        
 )
         
 select
@@ -373,8 +387,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -405,7 +421,9 @@ select
 "
 "
 "
+            
 )
+        
 )
         
 select
@@ -529,8 +547,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -556,7 +576,9 @@ select
 "
 "
 "
+            
 )
+        
 )
         
 select
@@ -662,8 +684,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -779,7 +803,9 @@ select
 "
 "
 "
+            
 )
+        
 )
         
 select
@@ -913,8 +939,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -946,7 +974,9 @@ select
 "
 "
 "
+            
 )
+        
 )
         
 select
@@ -1114,8 +1144,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -1138,7 +1170,9 @@ select
 "
 "
 "
+            
 )
+        
 )
         
 option
@@ -1190,8 +1224,10 @@ marionette
 .
 navigate
 (
+            
 inline
 (
+                
 "
 "
 "
@@ -1308,7 +1344,9 @@ select
 "
 "
 "
+            
 )
+        
 )
         
 select

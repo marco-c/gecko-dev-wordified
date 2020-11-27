@@ -119,39 +119,39 @@ context_map
 =
 {
         
-'
+"
 chrome
-'
+"
 :
 ChromeContext
         
-'
+"
 chromium
-'
+"
 :
 ChromiumContext
         
-'
+"
 default
-'
+"
 :
 DefaultContext
         
-'
+"
 fennec
-'
+"
 :
 FennecContext
         
-'
+"
 firefox
-'
+"
 :
 FirefoxContext
         
-'
+"
 thunderbird
-'
+"
 :
 ThunderbirdContext
     
@@ -229,8 +229,8 @@ None
     
 remote_test_root
 =
-'
-'
+"
+"
     
 remote_process
 =
@@ -258,9 +258,9 @@ paths
 [
 find_executable
 (
-'
+"
 emulator
-'
+"
 )
 ]
             
@@ -297,8 +297,8 @@ self
 .
 _bindir
 =
-'
-'
+"
+"
             
 else
 :
@@ -343,36 +343,38 @@ _adb
 paths
 =
 [
+                
 os
 .
 environ
 .
 get
 (
-'
+"
 ADB
-'
+"
 )
-                     
+                
 os
 .
 environ
 .
 get
 (
-'
+"
 ADB_PATH
-'
+"
 )
-                     
+                
 self
 .
 which
 (
-'
+"
 adb
-'
+"
 )
+            
 ]
             
 paths
@@ -408,7 +410,7 @@ raise
 OSError
 (
                     
-'
+"
 Could
 not
 find
@@ -421,9 +423,9 @@ it
 is
 on
 your
-'
+"
                     
-'
+"
 path
 or
 set
@@ -432,7 +434,8 @@ ADB_PATH
 environment
 variable
 .
-'
+"
+                
 )
             
 self
@@ -476,10 +479,9 @@ join
 self
 .
 remote_test_root
-                                                  
-'
+"
 profile
-'
+"
 )
         
 return
@@ -503,9 +505,9 @@ environ
 .
 get
 (
-'
+"
 PATH
-'
+"
 {
 }
 )
@@ -561,9 +563,9 @@ os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 =
 os
@@ -850,28 +852,27 @@ posixpath
 join
 (
                 
-'
+"
 /
 data
-'
-'
+"
+"
 data
-'
+"
 self
 .
 remote_process
-                
-'
+"
 files
-'
-'
+"
+"
 mozilla
-'
-'
+"
+"
 profiles
 .
 ini
-'
+"
             
 )
         

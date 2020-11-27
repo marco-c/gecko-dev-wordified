@@ -156,15 +156,17 @@ self
 .
 assertRaises
 (
+            
 ScriptTimeoutException
-                          
+            
 self
 .
 marionette
 .
 execute_async_script
-                          
+            
 (
+                
 "
 setTimeout
 (
@@ -189,13 +191,16 @@ arguments
 )
 ;
 "
-                              
 .
 format
 (
+                    
 multiplier
+                
 )
+            
 )
+        
 )
         
 self
@@ -216,6 +221,7 @@ marionette
 .
 execute_async_script
 (
+            
 "
 "
 "
@@ -254,8 +260,11 @@ resolve
 .
 format
 (
+                
 multiplier
+            
 )
+        
 )
         
 self

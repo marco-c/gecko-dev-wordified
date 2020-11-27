@@ -133,7 +133,6 @@ toolkit
 "
 mobile
 "
-                   
 "
 mobile
 /
@@ -595,6 +594,7 @@ plugins
 .
 properties
 "
+        
 )
 :
             
@@ -656,7 +656,6 @@ None
 :
             
 if
-(
 re
 .
 match
@@ -672,7 +671,6 @@ js
 path
 )
 or
-                
 re
 .
 match
@@ -684,7 +682,6 @@ defines
 inc
 "
 path
-)
 )
 :
                 
@@ -758,6 +755,7 @@ remain
         
 if
 (
+            
 re
 .
 match
@@ -781,8 +779,8 @@ types
 "
 entity
 )
-or
             
+or
 re
 .
 match
@@ -801,8 +799,8 @@ schemes
 "
 entity
 )
-or
             
+or
 re
 .
 match
@@ -819,8 +817,8 @@ defaultHandlersVersion
 "
 entity
 )
-or
             
+or
 re
 .
 match
@@ -836,6 +834,7 @@ suggestedsites
 "
 entity
 )
+        
 )
 :
             

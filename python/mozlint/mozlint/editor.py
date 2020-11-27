@@ -76,9 +76,9 @@ environ
 .
 get
 (
-'
+"
 EDITOR
-'
+"
 )
 def
 edit_issues
@@ -109,7 +109,7 @@ editor
         
 print
 (
-'
+"
 warning
 :
 could
@@ -118,7 +118,7 @@ find
 a
 default
 editor
-'
+"
 )
         
 return
@@ -138,15 +138,15 @@ if
 name
 in
 (
-'
+"
 vim
-'
-'
+"
+"
 nvim
-'
-'
+"
+"
 gvim
-'
+"
 )
 :
         
@@ -171,12 +171,13 @@ without
 a
 column
             
-'
+"
 -
 -
 cmd
-'
-'
+"
+            
+"
 set
 errorformat
 +
@@ -217,14 +218,15 @@ trror
 \
 %
 m
-'
+"
             
-'
+"
 -
 -
 cmd
-'
-'
+"
+            
+"
 set
 errorformat
 +
@@ -265,14 +267,15 @@ tarning
 \
 %
 m
-'
+"
             
-'
+"
 -
 -
 cmd
-'
-'
+"
+            
+"
 set
 errorformat
 +
@@ -302,14 +305,15 @@ trror
 \
 %
 m
-'
+"
             
-'
+"
 -
 -
 cmd
-'
-'
+"
+            
+"
 set
 errorformat
 +
@@ -339,7 +343,7 @@ tarning
 \
 %
 m
-'
+"
             
 #
 start
@@ -348,13 +352,14 @@ quickfix
 window
 opened
             
-'
+"
 -
 c
-'
-'
+"
+            
+"
 copen
-'
+"
             
 #
 running
@@ -381,13 +386,14 @@ that
 empty
 buffer
             
-'
+"
 -
 c
-'
-'
+"
+            
+"
 1bd
-'
+"
         
 ]
         
@@ -398,9 +404,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -412,9 +418,9 @@ formatters
 .
 get
 (
-'
+"
 compact
-'
+"
 summary
 =
 False
@@ -441,10 +447,10 @@ cmd
 extend
 (
 [
-'
+"
 -
 q
-'
+"
 fh
 .
 name

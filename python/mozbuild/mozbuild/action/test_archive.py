@@ -175,198 +175,196 @@ join
 buildconfig
 .
 topobjdir
-'
+"
 dist
-'
-'
+"
+"
 test
 -
 stage
-'
+"
 )
 TEST_HARNESS_BINS
 =
 [
     
-'
+"
 BadCertAndPinningServer
-'
+"
     
-'
+"
 DelegatedCredentialsServer
-'
+"
     
-'
+"
 GenerateOCSPResponse
-'
+"
     
-'
+"
 OCSPStaplingServer
-'
+"
     
-'
+"
 SanctionsTestServer
-'
+"
     
-'
+"
 SmokeDMD
-'
+"
     
-'
+"
 certutil
-'
+"
     
-'
+"
 crashinject
-'
+"
     
-'
+"
 geckodriver
-'
+"
     
-'
+"
 http3server
-'
+"
     
-'
+"
 minidumpwriter
-'
+"
     
-'
+"
 pk12util
-'
+"
     
-'
+"
 screenshot
-'
+"
     
-'
+"
 screentopng
-'
+"
     
-'
+"
 ssltunnel
-'
+"
     
-'
+"
 xpcshell
-'
+"
 ]
 TEST_HARNESS_DLLS
 =
 [
-    
-'
+"
 crashinjectdll
-'
-    
-'
+"
+"
 mozglue
-'
+"
 ]
 TEST_PLUGIN_DLLS
 =
 [
     
-'
+"
 npsecondtest
-'
+"
     
-'
+"
 npswftest
-'
+"
     
-'
+"
 nptest
-'
+"
     
-'
+"
 nptestjava
-'
+"
     
-'
+"
 npthirdtest
-'
+"
 ]
 TEST_PLUGIN_DIRS
 =
 [
     
-'
+"
 JavaTest
 .
 plugin
 /
 *
 *
-'
+"
     
-'
+"
 SecondTest
 .
 plugin
 /
 *
 *
-'
+"
     
-'
+"
 Test
 .
 plugin
 /
 *
 *
-'
+"
     
-'
+"
 ThirdTest
 .
 plugin
 /
 *
 *
-'
+"
     
-'
+"
 npswftest
 .
 plugin
 /
 *
 *
-'
+"
 ]
 GMP_TEST_PLUGIN_DIRS
 =
 [
     
-'
+"
 gmp
 -
 clearkey
 /
 *
 *
-'
+"
     
-'
+"
 gmp
 -
 fake
 /
 *
 *
-'
+"
     
-'
+"
 gmp
 -
 fakeopenh264
 /
 *
 *
-'
+"
 ]
 #
 These
@@ -395,85 +393,85 @@ OBJDIR_TEST_FILES
 =
 {
     
-'
+"
 xpcshell
-'
+"
 :
 {
         
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
         
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
 /
 xpcshell
-'
+"
         
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
         
-'
+"
 dest
-'
+"
 :
-'
+"
 xpcshell
 /
 tests
-'
+"
     
 }
     
-'
+"
 mochitest
-'
+"
 :
 {
         
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
         
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
 /
 testing
-'
+"
         
-'
+"
 pattern
-'
+"
 :
-'
+"
 mochitest
 /
 *
 *
-'
+"
     
 }
 }
@@ -481,145 +479,145 @@ ARCHIVE_FILES
 =
 {
     
-'
+"
 common
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 STAGE
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 ignore
-'
+"
 :
 [
                 
-'
+"
 cppunittest
 /
 *
 *
-'
+"
                 
-'
+"
 condprof
 /
 *
 *
-'
+"
                 
-'
+"
 gtest
 /
 *
 *
-'
+"
                 
-'
+"
 mochitest
 /
 *
 *
-'
+"
                 
-'
+"
 reftest
 /
 *
 *
-'
+"
                 
-'
+"
 talos
 /
 *
 *
-'
+"
                 
-'
+"
 raptor
 /
 *
 *
-'
+"
                 
-'
+"
 awsy
 /
 *
 *
-'
+"
                 
-'
+"
 web
 -
 platform
 /
 *
 *
-'
+"
                 
-'
+"
 xpcshell
 /
 *
 *
-'
+"
                 
-'
+"
 updater
 -
 dep
 /
 *
 *
-'
+"
                 
-'
+"
 jsreftest
 /
 *
 *
-'
+"
                 
-'
+"
 jit
 -
 test
 /
 *
 *
-'
+"
                 
-'
+"
 jittest
 /
 *
 *
-'
+"
 #
 To
 make
@@ -628,12 +626,12 @@ ignore
 checker
 happy
                 
-'
+"
 perftests
 /
 *
 *
-'
+"
             
 ]
         
@@ -641,110 +639,110 @@ perftests
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 modules
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 marionette
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 [
                 
-'
+"
 client
 /
 *
 *
-'
+"
                 
-'
+"
 harness
 /
 *
 *
-'
+"
                 
-'
+"
 mach_test_package_commands
 .
 py
-'
+"
             
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 marionette
-'
+"
             
-'
+"
 ignore
-'
+"
 :
 [
                 
-'
+"
 client
 /
 docs
-'
+"
                 
-'
+"
 harness
 /
 marionette_harness
 /
 tests
-'
+"
             
 ]
         
@@ -752,28 +750,28 @@ tests
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 manifests
-'
+"
 :
 [
                 
-'
+"
 testing
 /
 marionette
@@ -789,9 +787,9 @@ unit
 tests
 .
 ini
-'
+"
                 
-'
+"
 gfx
 /
 tests
@@ -801,7 +799,7 @@ marionette
 manifest
 .
 ini
-'
+"
             
 ]
             
@@ -815,11 +813,11 @@ and
 harness_unit
 tests
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 testing
 /
 marionette
@@ -832,95 +830,95 @@ tests
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 marionette
 /
 tests
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozbase
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 firefox
 -
 ui
 /
 *
 *
-'
+"
             
-'
+"
 ignore
-'
+"
 :
 [
                 
-'
+"
 firefox
 -
 ui
 /
 tests
-'
+"
             
 ]
         
@@ -928,26 +926,26 @@ tests
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 testing
 /
 firefox
@@ -955,37 +953,37 @@ firefox
 ui
 /
 tests
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 firefox
 -
 ui
 /
 tests
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 toolkit
 /
 components
@@ -995,110 +993,110 @@ telemetry
 tests
 /
 marionette
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 telemetry
 /
 marionette
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 tps
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 services
 /
 sync
 /
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 tps
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 services
 /
 sync
@@ -1106,44 +1104,44 @@ sync
 tests
 /
 tps
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 tps
 /
 tests
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 web
@@ -1155,44 +1153,44 @@ tests
 tools
 /
 wptserve
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 tools
 /
 wptserve
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 web
@@ -1204,217 +1202,217 @@ tests
 tools
 /
 third_party
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 tools
 /
 wpt_third_party
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 python
 /
 mozterm
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 tools
 /
 mozterm
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 third_party
 /
 python
 /
 six
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 tools
 /
 six
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 third_party
 /
 python
 /
 distro
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 tools
 /
 distro
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozinfo
 .
 json
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 bin
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 [
                 
-'
+"
 %
 s
 %
 s
-'
+"
 %
 (
 f
@@ -1422,9 +1420,9 @@ buildconfig
 .
 substs
 [
-'
+"
 BIN_SUFFIX
-'
+"
 ]
 )
                 
@@ -1434,36 +1432,42 @@ in
 TEST_HARNESS_BINS
             
 ]
+            
 +
 [
                 
-'
+"
 %
 s
 %
 s
 %
 s
-'
+"
+                
 %
 (
+                    
 buildconfig
 .
 substs
 [
-'
+"
 DLL_PREFIX
-'
+"
 ]
+                    
 f
+                    
 buildconfig
 .
 substs
 [
-'
+"
 DLL_SUFFIX
-'
+"
 ]
+                
 )
                 
 for
@@ -1473,69 +1477,74 @@ TEST_HARNESS_DLLS
             
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 plugins
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 [
                 
-'
+"
 %
 s
 %
 s
 %
 s
-'
+"
+                
 %
 (
+                    
 buildconfig
 .
 substs
 [
-'
+"
 DLL_PREFIX
-'
+"
 ]
+                    
 f
+                    
 buildconfig
 .
 substs
 [
-'
+"
 DLL_SUFFIX
-'
+"
 ]
+                
 )
                 
 for
@@ -1545,266 +1554,266 @@ TEST_PLUGIN_DLLS
             
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
 /
 plugins
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 plugins
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 TEST_PLUGIN_DIRS
             
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
 /
 plugins
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 bin
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 GMP_TEST_PLUGIN_DIRS
             
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
 /
 plugins
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 bin
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 [
                 
-'
+"
 dmd
 .
 py
-'
+"
                 
-'
+"
 fix_stacks
 .
 py
-'
+"
             
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 bin
 /
 components
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 [
                 
-'
+"
 httpd
 .
 js
-'
+"
             
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
 /
 components
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 build
 /
 pgo
 /
 certs
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 certs
-'
+"
         
 }
     
 ]
     
-'
+"
 cppunittest
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 STAGE
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 cppunittest
 /
 *
 *
-'
+"
         
 }
         
@@ -1840,498 +1849,498 @@ archives
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 startupcache
 /
 test
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 TestStartupCacheTelemetry
 .
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 cppunittest
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 runcppunittests
 .
 py
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 cppunittest
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 remotecppunittests
 .
 py
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 cppunittest
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 cppunittest
 .
 ini
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 cppunittest
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozinfo
 .
 json
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 cppunittest
-'
+"
         
 }
     
 ]
     
-'
+"
 gtest
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 STAGE
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 gtest
 /
 *
 *
-'
+"
         
 }
     
 ]
     
-'
+"
 mochitest
-'
+"
 :
 [
         
 OBJDIR_TEST_FILES
 [
-'
+"
 mochitest
-'
+"
 ]
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
 /
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mochitest
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 STAGE
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mochitest
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozinfo
 .
 json
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mochitest
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 xpi
 -
 stage
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mochijar
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mochitest
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 xpi
 -
 stage
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 specialpowers
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mochitest
 /
 extensions
-'
+"
         
 }
     
 ]
     
-'
+"
 mozharness
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozharness
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 third_party
 /
 python
 /
 virtualenv
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mozharness
 /
 third_party
@@ -2339,375 +2348,375 @@ third_party
 python
 /
 virtualenv
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 manifestparser
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 manifestparser
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mozharness
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 mozfile
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozfile
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mozharness
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 mozinfo
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozinfo
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mozharness
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 mozprocess
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozprocess
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mozharness
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 third_party
 /
 python
 /
 six
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 six
 .
 py
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mozharness
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 third_party
 /
 python
 /
 distro
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 distro
 .
 py
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 mozharness
-'
+"
         
 }
     
 ]
     
-'
+"
 reftest
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 reftest
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozinfo
 .
 json
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 reftest
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 manifests
-'
+"
 :
 [
                 
-'
+"
 layout
 /
 reftests
@@ -2715,9 +2724,9 @@ reftests
 reftest
 .
 list
-'
+"
                 
-'
+"
 layout
 /
 reftests
@@ -2727,9 +2736,9 @@ reftest
 qr
 .
 list
-'
+"
                 
-'
+"
 testing
 /
 crashtest
@@ -2737,226 +2746,226 @@ crashtest
 crashtests
 .
 list
-'
+"
             
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 reftest
 /
 tests
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 xpi
 -
 stage
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 reftest
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 reftest
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 xpi
 -
 stage
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 specialpowers
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 reftest
-'
+"
         
 }
     
 ]
     
-'
+"
 talos
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 talos
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 profiles
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 talos
 /
 talos
 /
 profile_data
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 third_party
 /
 webkit
 /
 PerformanceTests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 talos
 /
 talos
@@ -2967,108 +2976,108 @@ webkit
 /
 PerformanceTests
 /
-'
+"
         
 }
     
 ]
     
-'
+"
 perftests
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 testing
 /
 condprofile
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 third_party
 /
 python
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 tools
 /
 lint
@@ -3077,25 +3086,23 @@ eslint
 /
 *
 *
-'
+"
         
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
 /
@@ -3103,75 +3110,66 @@ perftest_
 *
 .
 js
-'
-        
+"
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
 /
 hooks_
 *
 py
-'
-        
+"
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 build
 /
 autoconf
 /
 *
 *
-'
-        
+"
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 build
 /
 moz
@@ -3180,167 +3178,157 @@ configure
 /
 *
 *
-'
-        
+"
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 python
 /
 *
 *
-'
-        
+"
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 build
 /
 mach_bootstrap
 .
 py
-'
-        
+"
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 build
 /
 build_virtualenv_packages
 .
 txt
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 build
 /
 common_virtualenv_packages
 .
 txt
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 build
 /
 mach_virtualenv_packages
 .
 txt
-'
+"
         
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 mach
 /
 *
 *
-'
-        
+"
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 testing
 /
 web
@@ -3357,611 +3345,613 @@ certifi
 /
 *
 *
-'
+"
         
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 testing
 /
 mozharness
 /
 *
 *
-'
-        
+"
 }
         
 {
-            
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-            
-'
+"
 pattern
-'
+"
 :
-'
+"
 browser
 /
 config
 /
 *
 *
-'
-        
+"
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
 /
 modules
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
 /
 modules
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 bin
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 [
+                
 "
 browser
 /
 *
 *
 "
+                
 "
 chrome
 /
 *
 *
 "
+                
 "
 chrome
 .
 manifest
 "
-                         
+                
 "
 components
 /
 *
 *
 "
+                
 "
 http3server
 "
+                
 "
 *
 .
 ini
 "
-                         
+                
 "
 localization
 /
 *
 *
 "
+                
 "
 modules
 /
 *
 *
 "
-                         
+                
 "
 update
 .
 locale
 "
+                
 "
 greprefs
 .
 js
 "
+            
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 netwerk
 /
 test
 /
 http3serverDB
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 netwerk
 /
 test
 /
 http3serverDB
-'
+"
         
 }
     
 ]
     
-'
+"
 condprof
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 condprofile
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 mozfile
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 condprofile
 /
 mozfile
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 mozprofile
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 condprofile
 /
 mozprofile
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 mozdevice
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 condprofile
 /
 mozdevice
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 mozbase
 /
 mozlog
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 condprofile
 /
 mozlog
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 third_party
 /
 python
 /
 virtualenv
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 condprofile
 /
 virtualenv
-'
+"
         
 }
     
 ]
     
-'
+"
 raptor
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 raptor
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 profiles
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 raptor
 /
 raptor
 /
 profile_data
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 third_party
 /
 webkit
 /
 PerformanceTests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 raptor
 /
 raptor
@@ -3972,82 +3962,82 @@ webkit
 /
 PerformanceTests
 /
-'
+"
         
 }
     
 ]
     
-'
+"
 awsy
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 awsy
 /
 *
 *
-'
+"
         
 }
     
 ]
     
-'
+"
 web
 -
 platform
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 web
 -
 platform
@@ -4056,33 +4046,33 @@ meta
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 web
 -
 platform
@@ -4091,33 +4081,33 @@ mozilla
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 web
 -
 platform
@@ -4126,15 +4116,15 @@ tests
 /
 *
 *
-'
+"
             
-'
+"
 ignore
-'
+"
 :
 [
                 
-'
+"
 web
 -
 platform
@@ -4144,9 +4134,9 @@ tests
 tools
 /
 wptserve
-'
+"
                 
-'
+"
 web
 -
 platform
@@ -4156,7 +4146,7 @@ tests
 tools
 /
 wpt_third_party
-'
+"
             
 ]
         
@@ -4164,491 +4154,491 @@ wpt_third_party
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 web
 -
 platform
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozinfo
 .
 json
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 web
 -
 platform
-'
+"
         
 }
     
 ]
     
-'
+"
 xpcshell
-'
+"
 :
 [
         
 OBJDIR_TEST_FILES
 [
-'
+"
 xpcshell
-'
+"
 ]
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 xpcshell
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 [
                 
-'
+"
 head
 .
 js
-'
+"
                 
-'
+"
 mach_test_package_commands
 .
 py
-'
+"
                 
-'
+"
 moz
 -
 http2
 /
 *
 *
-'
+"
                 
-'
+"
 node
 -
 http2
 /
 *
 *
-'
+"
                 
-'
+"
 node
 -
 ip
 /
 *
 *
-'
+"
                 
-'
+"
 dns
 -
 packet
 /
 *
 *
-'
+"
                 
-'
+"
 remotexpcshelltests
 .
 py
-'
+"
                 
-'
+"
 runxpcshelltests
 .
 py
-'
+"
                 
-'
+"
 selftest
 .
 py
-'
+"
                 
-'
+"
 xpcshellcommandline
 .
 py
-'
+"
             
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 xpcshell
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 STAGE
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 xpcshell
 /
 *
 *
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 mozinfo
 .
 json
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 xpcshell
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 build
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 automation
 .
 py
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 xpcshell
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 profiles
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 xpcshell
 /
 profile_data
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 bin
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 http3server
 %
 s
-'
+"
 %
 buildconfig
 .
 substs
 [
-'
+"
 BIN_SUFFIX
-'
+"
 ]
             
-'
+"
 dest
-'
+"
 :
-'
+"
 xpcshell
 /
 http3server
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 netwerk
 /
 test
 /
 http3serverDB
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 xpcshell
 /
 http3server
 /
 http3serverDB
-'
+"
         
 }
     
 ]
     
-'
+"
 updater
 -
 dep
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
 /
 updater
 -
 dep
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 updater
 -
 dep
-'
+"
         
 }
         
@@ -4662,212 +4652,212 @@ Linux
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 config
 /
 external
 /
 sqlite
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 libmozsqlite3
 .
 so
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 updater
 -
 dep
-'
+"
         
 }
     
 ]
     
-'
+"
 jsreftest
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 STAGE
             
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 jsreftest
 /
 *
 *
-'
+"
         
 }
     
 ]
     
-'
+"
 jittest
-'
+"
 :
 [
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 js
 /
 src
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 jit
 -
 test
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 jit
 -
 test
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 js
 /
 src
 /
 tests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 non262
 /
 shell
 .
 js
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 jit
 -
 test
 /
 tests
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 js
 /
 src
 /
 tests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 non262
 /
 Math
@@ -4875,49 +4865,49 @@ Math
 shell
 .
 js
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 jit
 -
 test
 /
 tests
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 js
 /
 src
 /
 tests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 non262
 /
 reflect
@@ -4927,108 +4917,108 @@ parse
 Match
 .
 js
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 jit
 -
 test
 /
 tests
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 js
 /
 src
 /
 tests
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 lib
 /
 *
 *
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 jit
 -
 test
 /
 tests
-'
+"
         
 }
         
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 js
 /
 src
-'
+"
             
-'
+"
 pattern
-'
+"
 :
-'
+"
 jsapi
 .
 h
-'
+"
             
-'
+"
 dest
-'
+"
 :
-'
+"
 jit
 -
 test
-'
+"
         
 }
     
@@ -5041,67 +5031,69 @@ substs
 .
 get
 (
-'
+"
 MOZ_CODE_COVERAGE
-'
+"
 )
 :
     
 ARCHIVE_FILES
 [
-'
+"
 common
-'
+"
 ]
 .
 append
 (
-{
         
-'
+{
+            
+"
 source
-'
+"
 :
 buildconfig
 .
 topsrcdir
-        
-'
+            
+"
 base
-'
+"
 :
-'
+"
 python
 /
 mozbuild
 /
-'
-        
-'
+"
+            
+"
 patterns
-'
+"
 :
 [
-            
-'
+                
+"
 mozpack
 /
 *
 *
-'
-            
-'
+"
+                
+"
 mozbuild
 /
 codecoverage
 /
 *
 *
-'
-        
+"
+            
 ]
-    
+        
 }
+    
 )
 if
 buildconfig
@@ -5110,9 +5102,9 @@ substs
 .
 get
 (
-'
+"
 MOZ_ASAN
-'
+"
 )
 and
 buildconfig
@@ -5121,9 +5113,9 @@ substs
 .
 get
 (
-'
+"
 CLANG_CL
-'
+"
 )
 :
     
@@ -5131,27 +5123,27 @@ asan_dll
 =
 {
         
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
         
-'
+"
 base
-'
+"
 :
-'
+"
 dist
 /
 bin
-'
+"
         
-'
+"
 pattern
-'
+"
 :
 os
 .
@@ -5163,27 +5155,27 @@ buildconfig
 .
 substs
 [
-'
+"
 MOZ_CLANG_RT_ASAN_LIB_PATH
-'
+"
 ]
 )
         
-'
+"
 dest
-'
+"
 :
-'
+"
 bin
-'
+"
     
 }
     
 ARCHIVE_FILES
 [
-'
+"
 common
-'
+"
 ]
 .
 append
@@ -5197,9 +5189,9 @@ substs
 .
 get
 (
-'
+"
 commtopsrcdir
-'
+"
 )
 :
     
@@ -5211,55 +5203,55 @@ substs
 .
 get
 (
-'
+"
 commtopsrcdir
-'
+"
 )
     
 mozharness_comm
 =
 {
         
-'
+"
 source
-'
+"
 :
 commtopsrcdir
         
-'
+"
 base
-'
+"
 :
-'
+"
 mozharness
-'
+"
         
-'
+"
 pattern
-'
+"
 :
-'
+"
 *
 *
-'
+"
         
-'
+"
 dest
-'
+"
 :
-'
+"
 mozharness
 /
 configs
-'
+"
     
 }
     
 ARCHIVE_FILES
 [
-'
+"
 mozharness
-'
+"
 ]
 .
 append
@@ -5271,24 +5263,24 @@ marionette_comm
 =
 {
         
-'
+"
 source
-'
+"
 :
 commtopsrcdir
         
-'
+"
 base
-'
+"
 :
-'
-'
+"
+"
         
-'
+"
 manifest
-'
+"
 :
-'
+"
 testing
 /
 marionette
@@ -5298,27 +5290,27 @@ unit
 tests
 .
 ini
-'
+"
         
-'
+"
 dest
-'
+"
 :
-'
+"
 marionette
 /
 tests
 /
 comm
-'
+"
     
 }
     
 ARCHIVE_FILES
 [
-'
+"
 common
-'
+"
 ]
 .
 append
@@ -5330,51 +5322,51 @@ thunderbirdinstance
 =
 {
         
-'
+"
 source
-'
+"
 :
 commtopsrcdir
         
-'
+"
 base
-'
+"
 :
-'
+"
 testing
 /
 marionette
-'
+"
         
-'
+"
 pattern
-'
+"
 :
-'
+"
 thunderbirdinstance
 .
 py
-'
+"
         
-'
+"
 dest
-'
+"
 :
-'
+"
 marionette
 /
 client
 /
 marionette_driver
-'
+"
     
 }
     
 ARCHIVE_FILES
 [
-'
+"
 common
-'
+"
 ]
 .
 append
@@ -5443,12 +5435,12 @@ if
 k
 in
 (
-'
+"
 common
-'
-'
+"
+"
 mozharness
-'
+"
 )
 :
         
@@ -5458,6 +5450,7 @@ ignores
 =
 set
 (
+        
 itertools
 .
 chain
@@ -5468,24 +5461,24 @@ e
 .
 get
 (
-'
+"
 ignore
-'
+"
 [
 ]
 )
-                                    
 for
 e
 in
 ARCHIVE_FILES
 [
-'
+"
 common
-'
+"
 ]
 )
 )
+    
 )
     
 if
@@ -5496,11 +5489,11 @@ p
 .
 startswith
 (
-'
+"
 %
 s
 /
-'
+"
 %
 k
 )
@@ -5559,6 +5552,7 @@ manifest
 =
 InstallManifest
 (
+        
 mozpath
 .
 join
@@ -5566,19 +5560,17 @@ join
 buildconfig
 .
 topobjdir
-                                            
-'
+"
 _build_manifests
-'
-                                            
-'
+"
+"
 install
-'
-                                            
-'
+"
+"
 _tests
-'
+"
 )
+    
 )
     
 registry
@@ -5629,15 +5621,17 @@ instance
     
 return
 [
+        
 mozpath
 .
 join
 (
-'
+"
 _tests
-'
+"
 p
 )
+        
 for
 p
 in
@@ -5646,7 +5640,7 @@ registry
 paths
 (
 )
-            
+        
 if
 isinstance
 (
@@ -5656,6 +5650,7 @@ p
 ]
 ExistingFile
 )
+    
 ]
 def
 find_files
@@ -5679,9 +5674,9 @@ if
 archive
 =
 =
-'
+"
 common
-'
+"
 :
         
 #
@@ -5728,24 +5723,24 @@ join
 (
 entry
 [
-'
+"
 base
-'
+"
 ]
 entry
 [
-'
+"
 pattern
-'
+"
 ]
 )
             
 del
 entry
 [
-'
+"
 pattern
-'
+"
 ]
             
 patterns
@@ -5779,9 +5774,9 @@ len
 (
 entry
 [
-'
+"
 base
-'
+"
 ]
 )
 +
@@ -5803,9 +5798,9 @@ patterns
                 
 entry
 [
-'
+"
 patterns
-'
+"
 ]
 =
 patterns
@@ -5821,25 +5816,25 @@ entry
 =
 {
             
-'
+"
 source
-'
+"
 :
 buildconfig
 .
 topobjdir
             
-'
+"
 base
-'
+"
 :
-'
+"
 _tests
-'
+"
             
-'
+"
 patterns
-'
+"
 :
 [
 ]
@@ -5859,9 +5854,9 @@ packaged_paths
             
 entry
 [
-'
+"
 patterns
-'
+"
 ]
 .
 append
@@ -5870,9 +5865,9 @@ path
 [
 len
 (
-'
+"
 _tests
-'
+"
 )
 +
 1
@@ -5902,9 +5897,9 @@ source
 =
 entry
 [
-'
+"
 source
-'
+"
 ]
         
 dest
@@ -5913,9 +5908,9 @@ entry
 .
 get
 (
-'
+"
 dest
-'
+"
 )
         
 base
@@ -5924,11 +5919,11 @@ entry
 .
 get
 (
-'
+"
 base
-'
-'
-'
+"
+"
+"
 )
         
 pattern
@@ -5937,9 +5932,9 @@ entry
 .
 get
 (
-'
+"
 pattern
-'
+"
 )
         
 patterns
@@ -5948,9 +5943,9 @@ entry
 .
 get
 (
-'
+"
 patterns
-'
+"
 [
 ]
 )
@@ -5972,9 +5967,9 @@ entry
 .
 get
 (
-'
+"
 manifest
-'
+"
 )
         
 manifests
@@ -5983,9 +5978,9 @@ entry
 .
 get
 (
-'
+"
 manifests
-'
+"
 [
 ]
 )
@@ -6026,13 +6021,13 @@ patterns
 extend
 (
 {
-'
+"
 {
 }
 /
 *
 *
-'
+"
 .
 format
 (
@@ -6053,9 +6048,9 @@ entry
 .
 get
 (
-'
+"
 ignore
-'
+"
 [
 ]
 )
@@ -6065,17 +6060,18 @@ ignore
 .
 extend
 (
-[
             
-'
+[
+                
+"
 *
 *
 /
 .
 flake8
-'
-            
-'
+"
+                
+"
 *
 *
 /
@@ -6083,18 +6079,19 @@ flake8
 mkdir
 .
 done
-'
-            
-'
+"
+                
+"
 *
 *
 /
 *
 .
 pyc
-'
-        
+"
+            
 ]
+        
 )
         
 if
@@ -6102,23 +6099,23 @@ archive
 not
 in
 (
-'
+"
 common
-'
-'
+"
+"
 updater
 -
 dep
-'
+"
 )
 and
 base
 .
 startswith
 (
-'
+"
 _tests
-'
+"
 )
 :
             
@@ -6169,15 +6166,15 @@ common_kwargs
 =
 {
             
-'
+"
 find_dotfiles
-'
+"
 :
 True
             
-'
+"
 ignore
-'
+"
 :
 ignore
         
@@ -6309,10 +6306,10 @@ p
 .
 endswith
 (
-'
+"
 .
 ini
-'
+"
 )
 :
             
@@ -6359,10 +6356,10 @@ p
 .
 endswith
 (
-'
+"
 .
 list
-'
+"
 )
 :
             
@@ -6392,6 +6389,7 @@ else
 raise
 Exception
 (
+                
 '
 "
 {
@@ -6408,7 +6406,7 @@ format
 .
 format
 (
-                
+                    
 os
 .
 path
@@ -6420,7 +6418,9 @@ p
 [
 1
 ]
+                
 )
+            
 )
     
 dirs
@@ -6442,9 +6442,9 @@ topsrcdir
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
 for
 d
@@ -6561,49 +6561,48 @@ argparse
 .
 ArgumentParser
 (
-        
 description
 =
-'
+"
 Produce
 test
 archives
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 archive
-'
+"
 help
 =
-'
+"
 Which
 archive
 to
 generate
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+"
 outputfile
-'
+"
 help
 =
-'
+"
 File
 to
 write
 output
 to
-'
+"
 )
     
 args
@@ -6628,16 +6627,16 @@ out_file
 endswith
 (
 (
-'
+"
 .
 tar
 .
 gz
-'
-'
+"
+"
 .
 zip
-'
+"
 )
 )
 :
@@ -6645,7 +6644,7 @@ zip
 raise
 Exception
 (
-'
+"
 expected
 tar
 .
@@ -6654,7 +6653,7 @@ or
 zip
 output
 file
-'
+"
 )
     
 file_count
@@ -6687,9 +6686,9 @@ with
 open
 (
 out_file
-'
+"
 wb
-'
+"
 )
 as
 fh
@@ -6745,12 +6744,12 @@ out_file
 .
 endswith
 (
-'
+"
 .
 tar
 .
 gz
-'
+"
 )
 :
             
@@ -6782,10 +6781,10 @@ out_file
 .
 endswith
 (
-'
+"
 .
 zip
-'
+"
 )
 :
             
@@ -6814,15 +6813,16 @@ writer
 .
 add
 (
+                        
 p
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 f
 .
@@ -6834,10 +6834,10 @@ mode
 f
 .
 mode
-                               
 skip_duplicates
 =
 True
+                    
 )
                     
 file_count
@@ -6851,14 +6851,14 @@ else
 raise
 Exception
 (
-'
+"
 unhandled
 file
 extension
 :
 %
 s
-'
+"
 %
 out_file
 )
@@ -6901,7 +6901,8 @@ outputfile
     
 print
 (
-'
+        
+"
 Wrote
 %
 d
@@ -6917,23 +6918,24 @@ in
 %
 .
 2fs
-'
+"
+        
 %
 (
-          
 file_count
 zip_size
 basename
 duration
 )
+    
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

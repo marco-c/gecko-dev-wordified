@@ -277,9 +277,9 @@ import
 Popen
 __version__
 =
-'
+"
 1
-'
+"
 #
 Allowed
 request
@@ -392,19 +392,19 @@ Z0
 )
 DEFAULT_MANIFEST_NAME
 =
-'
+"
 manifest
 .
 tt
-'
+"
 TOOLTOOL_PACKAGE_SUFFIX
 =
-'
+"
 .
 TOOLTOOL
 -
 PACKAGE
-'
+"
 HAWK_VER
 =
 1
@@ -429,6 +429,8 @@ bytes
     
 unicode
 =
+(
+        
 str
 #
 Silence
@@ -444,6 +446,8 @@ in
 Python
 3
 .
+    
+)
     
 import
 urllib
@@ -641,6 +645,7 @@ times
 raise
 Exception
 (
+            
 "
 jitter
 (
@@ -664,6 +669,7 @@ format
 jitter
 sleeptime
 )
+        
 )
     
 sleeptime_real
@@ -778,6 +784,7 @@ log
 .
 debug
 (
+                
 "
 sleeping
 for
@@ -798,6 +805,7 @@ _
 +
 1
 attempts
+            
 )
             
 time
@@ -946,6 +954,7 @@ kwargs
 log_attempt_args
 =
 (
+            
 "
 retry
 :
@@ -968,10 +977,13 @@ attempt
 %
 d
 "
-                            
+            
 action_name
+            
 args
+            
 kwargs
+        
 )
     
 else
@@ -1027,26 +1039,27 @@ _
 in
 retrier
 (
-            
+        
 attempts
 =
 attempts
-            
+        
 sleeptime
 =
 sleeptime
-            
+        
 max_sleeptime
 =
 max_sleeptime
-            
+        
 sleepscale
 =
 sleepscale
-            
+        
 jitter
 =
 jitter
+    
 )
 :
         
@@ -1420,49 +1433,49 @@ url_dict
 =
 {
         
-'
+"
 scheme
-'
+"
 :
 url_parts
 .
 scheme
         
-'
+"
 hostname
-'
+"
 :
 url_parts
 .
 hostname
         
-'
+"
 port
-'
+"
 :
 url_parts
 .
 port
         
-'
+"
 path
-'
+"
 :
 url_parts
 .
 path
         
-'
+"
 resource
-'
+"
 :
 url_parts
 .
 path
         
-'
+"
 query
-'
+"
 :
 url_parts
 .
@@ -1475,9 +1488,9 @@ len
 (
 url_dict
 [
-'
+"
 query
-'
+"
 ]
 )
 >
@@ -1486,38 +1499,40 @@ query
         
 url_dict
 [
-'
+"
 resource
-'
+"
 ]
 =
-'
+"
 %
 s
 ?
 %
 s
-'
+"
 %
 (
+            
 url_dict
 [
-'
+"
 resource
-'
+"
 ]
 #
 pragma
 :
 no
 cover
-                                          
+            
 url_dict
 [
-'
+"
 query
-'
+"
 ]
+        
 )
     
 if
@@ -1534,16 +1549,16 @@ url_parts
 scheme
 =
 =
-'
+"
 http
-'
+"
 :
             
 url_dict
 [
-'
+"
 port
-'
+"
 ]
 =
 80
@@ -1554,9 +1569,9 @@ url_parts
 scheme
 =
 =
-'
+"
 https
-'
+"
 :
 #
 pragma
@@ -1566,9 +1581,9 @@ cover
             
 url_dict
 [
-'
+"
 port
-'
+"
 ]
 =
 443
@@ -1654,11 +1669,11 @@ val
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 if
@@ -1680,7 +1695,7 @@ pragma
 no
 cover
             
-'
+"
 header
 value
 value
@@ -1692,17 +1707,20 @@ contained
 an
 illegal
 character
-'
+"
 .
 format
 (
+                
 val
 =
 repr
 (
 val
 )
+            
 )
+        
 )
     
 return
@@ -1728,9 +1746,9 @@ content_type
 .
 split
 (
-'
+"
 ;
-'
+"
 )
 [
 0
@@ -1748,8 +1766,8 @@ else
 :
         
 return
-'
-'
+"
+"
 def
 calculate_payload_hash
 (
@@ -1780,52 +1798,53 @@ part
 .
 encode
 (
-'
+"
 utf8
-'
+"
 )
         
 for
 part
 in
 [
-'
+            
+"
 hawk
 .
-'
+"
 +
 str
 (
 HAWK_VER
 )
 +
-'
+"
 .
 payload
 \
 n
-'
-                     
+"
+            
 parse_content_type
 (
 content_type
 )
 +
-'
+"
 \
 n
-'
-                     
+"
+            
 payload
 or
-'
-'
-                     
-'
+"
+"
+            
+"
 \
 n
-'
-                     
+"
+        
 ]
     
 ]
@@ -1856,7 +1875,8 @@ log
 .
 debug
 (
-'
+        
+"
 calculating
 payload
 hash
@@ -1867,7 +1887,7 @@ n
 {
 parts
 }
-'
+"
 .
 format
 (
@@ -1880,6 +1900,7 @@ pformat
 parts
 )
 )
+    
 )
     
 return
@@ -1905,16 +1926,17 @@ not
 hasattr
 (
 credentials
-'
+"
 __getitem__
-'
+"
 )
 :
         
 raise
 InvalidCredentials
 (
-'
+            
+"
 credentials
 must
 be
@@ -1923,7 +1945,8 @@ dict
 -
 like
 object
-'
+"
+        
 )
 #
 pragma
@@ -1936,16 +1959,16 @@ try
         
 credentials
 [
-'
+"
 clientId
-'
+"
 ]
         
 credentials
 [
-'
+"
 accessToken
-'
+"
 ]
     
 except
@@ -1970,7 +1993,7 @@ exc_info
 raise
 InvalidCredentials
 (
-'
+"
 {
 etype
 }
@@ -1978,7 +2001,7 @@ etype
 {
 val
 }
-'
+"
 .
 format
 (
@@ -2010,11 +2033,11 @@ val
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 return
@@ -2027,40 +2050,41 @@ cover
 def
 normalize_string
 (
+    
 mac_type
-                     
+    
 timestamp
-                     
+    
 nonce
-                     
+    
 method
-                     
+    
 name
-                     
+    
 host
-                     
+    
 port
-                     
+    
 content_hash
-                     
 )
 :
     
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
-[
         
+[
+            
 normalize_header_attr
 (
 header
 )
-        
+            
 #
 The
 blank
@@ -2077,52 +2101,53 @@ Hawk
 lib
 does
 .
-        
+            
 for
 header
 in
 [
-'
+                
+"
 hawk
 .
-'
+"
 +
 str
 (
 HAWK_VER
 )
 +
-'
+"
 .
-'
+"
 +
 mac_type
-                       
+                
 timestamp
-                       
+                
 nonce
-                       
+                
 method
 or
-'
-'
-                       
+"
+"
+                
 name
 or
-'
-'
-                       
+"
+"
+                
 host
-                       
+                
 port
-                       
+                
 content_hash
 or
-'
-'
-                       
-'
-'
+"
+"
+                
+"
+"
 #
 for
 ext
@@ -2132,43 +2157,44 @@ empty
 in
 this
 case
-                       
-'
-'
+                
+"
+"
 #
 Add
 trailing
 new
 line
 .
-                       
+            
+]
+        
 ]
     
-]
 )
 def
 calculate_mac
 (
+    
 mac_type
-                  
+    
 access_token
-                  
+    
 algorithm
-                  
+    
 timestamp
-                  
+    
 nonce
-                  
+    
 method
-                  
+    
 name
-                  
+    
 host
-                  
+    
 port
-                  
+    
 content_hash
-                  
 )
 :
     
@@ -2176,21 +2202,16 @@ normalized
 =
 normalize_string
 (
+        
 mac_type
-                                  
 timestamp
-                                  
 nonce
-                                  
 method
-                                  
 name
-                                  
 host
-                                  
 port
-                                  
 content_hash
+    
 )
     
 log
@@ -2198,7 +2219,7 @@ log
 debug
 (
 u
-'
+"
 normalized
 resource
 for
@@ -2208,7 +2229,7 @@ calc
 {
 norm
 }
-'
+"
 .
 format
 (
@@ -2241,9 +2262,9 @@ normalized
 .
 encode
 (
-'
+"
 utf8
-'
+"
 )
     
 if
@@ -2261,9 +2282,9 @@ access_token
 .
 encode
 (
-'
+"
 ascii
-'
+"
 )
     
 result
@@ -2319,9 +2340,9 @@ get_method
     
 algorithm
 =
-'
+"
 sha256
-'
+"
     
 timestamp
 =
@@ -2410,11 +2431,11 @@ json
             
 content_type
 =
-'
+"
 application
 /
 json
-'
+"
         
 )
     
@@ -2422,51 +2443,52 @@ mac
 =
 calculate_mac
 (
-'
+        
+"
 header
-'
-                        
+"
+        
 credentials
 [
-'
+"
 accessToken
-'
+"
 ]
-                        
+        
 algorithm
-                        
+        
 timestamp
-                        
+        
 nonce
-                        
+        
 method
-                        
+        
 url_parts
 [
-'
+"
 resource
-'
+"
 ]
-                        
+        
 url_parts
 [
-'
+"
 hostname
-'
+"
 ]
-                        
+        
 str
 (
 url_parts
 [
-'
+"
 port
-'
+"
 ]
 )
-                        
+        
 content_hash
-                        
+    
 )
     
 header
@@ -2565,9 +2587,9 @@ prepare_header_val
 (
 credentials
 [
-'
+"
 clientId
-'
+"
 ]
 )
         
@@ -2591,7 +2613,7 @@ log
 .
 debug
 (
-'
+"
 Hawk
 header
 for
@@ -2606,7 +2628,7 @@ method
 :
 {
 }
-'
+"
 .
 format
 (
@@ -2628,21 +2650,29 @@ object
 def
 __init__
 (
+        
 self
+        
 filename
+        
 size
+        
 digest
+        
 algorithm
+        
 unpack
 =
 False
-                 
+        
 version
 =
 None
+        
 visibility
 =
 None
+    
 )
 :
         
@@ -2654,16 +2684,16 @@ self
 )
         
 if
-'
+"
 /
-'
+"
 in
 filename
 or
-'
+"
 \
 \
-'
+"
 in
 filename
 :
@@ -2686,6 +2716,7 @@ therefore
 invalid
 .
 "
+            
 )
             
 raise
@@ -2756,6 +2787,8 @@ return
 True
         
 if
+(
+            
 self
 .
 filename
@@ -2764,9 +2797,8 @@ filename
 other
 .
 filename
+            
 and
-\
-           
 self
 .
 size
@@ -2775,9 +2807,8 @@ size
 other
 .
 size
+            
 and
-\
-           
 self
 .
 digest
@@ -2786,9 +2817,8 @@ digest
 other
 .
 digest
+            
 and
-\
-           
 self
 .
 algorithm
@@ -2797,9 +2827,8 @@ algorithm
 other
 .
 algorithm
+            
 and
-\
-           
 self
 .
 version
@@ -2808,9 +2837,8 @@ version
 other
 .
 version
+            
 and
-\
-           
 self
 .
 visibility
@@ -2819,6 +2847,8 @@ visibility
 other
 .
 visibility
+        
+)
 :
             
 return
@@ -2868,6 +2898,8 @@ self
 :
         
 return
+(
+            
 "
 %
 s
@@ -2903,31 +2935,40 @@ visibility
 r
 )
 "
+            
 %
 (
-            
+                
 __name__
+                
 self
 .
 __class__
 .
 __name__
+                
 self
 .
 filename
+                
 self
 .
 size
-            
+                
 self
 .
 digest
+                
 self
 .
 algorithm
+                
 self
 .
 visibility
+            
+)
+        
 )
     
 def
@@ -2995,7 +3036,6 @@ log
 .
 debug
 (
-                
 "
 trying
 to
@@ -3044,9 +3084,9 @@ open
 self
 .
 filename
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -3073,7 +3113,6 @@ log
 .
 debug
 (
-                
 "
 trying
 to
@@ -3227,9 +3266,9 @@ fo
 open
 (
 filename
-'
+"
 rb
-'
+"
 )
     
 stored_filename
@@ -3250,22 +3289,26 @@ fr
 =
 FileRecord
 (
+        
 stored_filename
+        
 os
 .
 path
 .
 getsize
 (
-        
 filename
 )
+        
 digest_file
 (
 fo
 algorithm
 )
+        
 algorithm
+    
 )
     
 fo
@@ -3307,6 +3350,8 @@ FileRecord
             
 err
 =
+(
+                
 "
 FileRecordJSONEncoder
 is
@@ -3318,8 +3363,7 @@ lists
 of
 FileRecords
 "
-\
-                  
+                
 "
 not
 %
@@ -3331,6 +3375,8 @@ obj
 __class__
 .
 __name__
+            
+)
             
 log
 .
@@ -3352,33 +3398,33 @@ rv
 =
 {
                 
-'
+"
 filename
-'
+"
 :
 obj
 .
 filename
                 
-'
+"
 size
-'
+"
 :
 obj
 .
 size
                 
-'
+"
 algorithm
-'
+"
 :
 obj
 .
 algorithm
                 
-'
+"
 digest
-'
+"
 :
 obj
 .
@@ -3394,9 +3440,9 @@ unpack
                 
 rv
 [
-'
+"
 unpack
-'
+"
 ]
 =
 True
@@ -3409,9 +3455,9 @@ version
                 
 rv
 [
-'
+"
 version
-'
+"
 ]
 =
 obj
@@ -3429,9 +3475,9 @@ None
                 
 rv
 [
-'
+"
 visibility
-'
+"
 ]
 =
 obj
@@ -3630,21 +3676,21 @@ required_fields
 =
 [
             
-'
+"
 filename
-'
+"
             
-'
+"
 size
-'
+"
             
-'
+"
 algorithm
-'
+"
             
-'
+"
 digest
-'
+"
         
 ]
         
@@ -3690,9 +3736,9 @@ obj
 .
 get
 (
-'
+"
 unpack
-'
+"
 False
 )
                 
@@ -3702,9 +3748,9 @@ obj
 .
 get
 (
-'
+"
 version
-'
+"
 None
 )
                 
@@ -3714,9 +3760,9 @@ obj
 .
 get
 (
-'
+"
 visibility
-'
+"
 None
 )
                 
@@ -3727,32 +3773,38 @@ FileRecord
                     
 obj
 [
-'
+"
 filename
-'
+"
 ]
+                    
 obj
 [
-'
+"
 size
-'
+"
 ]
+                    
 obj
 [
-'
+"
 digest
-'
+"
 ]
+                    
 obj
 [
-'
+"
 algorithm
-'
+"
 ]
                     
 unpack
+                    
 version
+                    
 visibility
+                
 )
                 
 log
@@ -3815,9 +3867,9 @@ object
 valid_formats
 =
 (
-'
+"
 json
-'
+"
 )
     
 def
@@ -3877,14 +3929,14 @@ log
 .
 debug
 (
-'
+"
 Manifests
 differ
 in
 number
 of
 files
-'
+"
 )
             
 return
@@ -4119,9 +4171,9 @@ self
 data_file
 fmt
 =
-'
+"
 json
-'
+"
 )
 :
         
@@ -4136,9 +4188,9 @@ if
 fmt
 =
 =
-'
+"
 json
-'
+"
 :
             
 try
@@ -4160,6 +4212,7 @@ cls
 =
 FileRecordJSONDecoder
 )
+                
 )
             
 except
@@ -4186,9 +4239,9 @@ self
 data_string
 fmt
 =
-'
+"
 json
-'
+"
 )
 :
         
@@ -4203,9 +4256,9 @@ if
 fmt
 =
 =
-'
+"
 json
-'
+"
 :
             
 try
@@ -4227,6 +4280,7 @@ cls
 =
 FileRecordJSONDecoder
 )
+                
 )
             
 except
@@ -4253,9 +4307,9 @@ self
 output_file
 fmt
 =
-'
+"
 json
-'
+"
 )
 :
         
@@ -4270,9 +4324,9 @@ if
 fmt
 =
 =
-'
+"
 json
-'
+"
 :
             
 return
@@ -4284,19 +4338,21 @@ dump
 self
 .
 file_records
+                
 output_file
                 
 indent
 =
 2
+                
 separators
 =
 (
-'
-'
-'
+"
+"
+"
 :
-'
+"
 )
                 
 cls
@@ -4311,9 +4367,9 @@ dumps
 self
 fmt
 =
-'
+"
 json
-'
+"
 )
 :
         
@@ -4328,9 +4384,9 @@ if
 fmt
 =
 =
-'
+"
 json
-'
+"
 :
             
 return
@@ -4346,14 +4402,15 @@ file_records
 indent
 =
 2
+                
 separators
 =
 (
-'
-'
-'
+"
+"
+"
 :
-'
+"
 )
                 
 cls
@@ -4464,21 +4521,21 @@ if
 hasattr
 (
 f
-'
+"
 name
-'
+"
 )
 else
-'
+"
 a
 file
-'
+"
     
 log
 .
 debug
 (
-'
+"
 hashed
 %
 s
@@ -4489,7 +4546,7 @@ to
 be
 %
 s
-'
+"
 name
 a
 h
@@ -4570,12 +4627,12 @@ line
 .
 replace
 (
-'
+"
 \
 n
-'
-'
-'
+"
+"
+"
 )
 )
     
@@ -4700,7 +4757,6 @@ manifest_file
 raise
 InvalidManifest
 (
-            
 "
 manifest
 file
@@ -4759,6 +4815,7 @@ log
 .
 error
 (
+            
 "
 failed
 to
@@ -4774,17 +4831,19 @@ s
 %
 s
 "
+            
 %
 (
-            
+                
 manifest_file
-            
+                
 str
 (
 e
 )
-        
+            
 )
+        
 )
         
 return
@@ -4800,6 +4859,7 @@ file_records
         
 print
 (
+            
 "
 {
 }
@@ -4815,6 +4875,7 @@ t
 .
 format
 (
+                
 "
 P
 "
@@ -4828,7 +4889,7 @@ else
 "
 -
 "
-                                  
+                
 "
 V
 "
@@ -4848,11 +4909,13 @@ else
 "
 -
 "
-                                  
+                
 f
 .
 filename
+            
 )
+        
 )
     
 return
@@ -4917,6 +4980,7 @@ log
 .
 error
 (
+            
 "
 failed
 to
@@ -4932,17 +4996,19 @@ s
 %
 s
 "
+            
 %
 (
-            
+                
 manifest_file
-            
+                
 str
 (
 e
 )
-        
+            
 )
+        
 )
         
 return
@@ -5234,6 +5300,7 @@ log
 .
 debug
 (
+                
 "
 manifest
 file
@@ -5243,6 +5310,7 @@ has
 s
 '
 "
+                
 %
 "
 '
@@ -5250,7 +5318,6 @@ s
 .
 join
 (
-                
 [
 x
 .
@@ -5263,6 +5330,7 @@ old_manifest
 file_records
 ]
 )
+            
 )
             
 if
@@ -5301,6 +5369,7 @@ log
 .
 error
 (
+                    
 "
 manifest
 already
@@ -5314,6 +5383,7 @@ s
 "
 %
 filename
+                
 )
                 
 add
@@ -5440,9 +5510,9 @@ dump
 output
 fmt
 =
-'
+"
 json
-'
+"
 )
     
 else
@@ -5469,9 +5539,9 @@ dump
 output
 fmt
 =
-'
+"
 json
-'
+"
 )
     
 return
@@ -5525,7 +5595,7 @@ log
 .
 warn
 (
-'
+"
 impossible
 to
 update
@@ -5534,7 +5604,7 @@ of
 file
 %
 s
-'
+"
 %
 f
 )
@@ -5689,14 +5759,13 @@ url
 urljoin
 (
 base_url
-                      
-'
+"
 %
 s
 /
 %
 s
-'
+"
 %
 (
 file_record
@@ -5718,11 +5787,11 @@ None
 url
 +
 =
-'
+"
 ?
 region
 =
-'
+"
 +
 region
         
@@ -5780,9 +5849,9 @@ open
 temp_path
 mode
 =
-'
+"
 wb
-'
+"
 )
 as
 out
@@ -5862,6 +5931,7 @@ log
 .
 info
 (
+                    
 "
 File
 %
@@ -5874,8 +5944,8 @@ as
 %
 s
 "
+                    
 %
-                         
 (
 file_record
 .
@@ -5883,6 +5953,7 @@ filename
 base_url
 temp_path
 )
+                
 )
                 
 fetched_path
@@ -5903,6 +5974,7 @@ log
 .
 info
 (
+                
 "
 .
 .
@@ -5919,16 +5991,17 @@ from
 s
 "
 %
-                     
 (
 file_record
 .
 filename
 base_url
 )
+                
 exc_info
 =
 True
+            
 )
         
 except
@@ -5944,6 +6017,7 @@ log
 .
 info
 (
+                
 "
 failed
 to
@@ -5958,13 +6032,14 @@ s
 '
 "
 %
-                     
 file_record
 .
 filename
+                
 exc_info
 =
 True
+            
 )
     
 #
@@ -6061,13 +6136,13 @@ log
 .
 info
 (
-'
+"
 rm
 tree
 :
 %
 s
-'
+"
 %
 dirname
 )
@@ -6248,12 +6323,12 @@ filename
 .
 endswith
 (
-'
+"
 .
 tar
 .
 xz
-'
+"
 )
 :
         
@@ -6263,14 +6338,14 @@ filename
 .
 replace
 (
-'
+"
 .
 tar
 .
 xz
-'
-'
-'
+"
+"
+"
 )
         
 clean_path
@@ -6314,17 +6389,17 @@ process
 Popen
 (
 [
-'
+"
 xz
-'
-'
+"
+"
 -
 d
-'
-'
+"
+"
 -
 c
-'
+"
 filename
 ]
 stdout
@@ -6384,10 +6459,10 @@ fileobj
 fileobj
 mode
 =
-'
+"
 r
 |
-'
+"
 )
         
 tar
@@ -6426,12 +6501,12 @@ filename
 .
 replace
 (
-'
+"
 .
 zip
-'
-'
-'
+"
+"
+"
 )
         
 clean_path
@@ -6505,19 +6580,24 @@ True
 def
 fetch_files
 (
+    
 manifest_file
+    
 base_urls
+    
 filenames
 =
 [
 ]
+    
 cache_folder
 =
 None
-                
+    
 auth_file
 =
 None
+    
 region
 =
 None
@@ -6551,6 +6631,7 @@ log
 .
 error
 (
+            
 "
 failed
 to
@@ -6566,17 +6647,19 @@ s
 %
 s
 "
+            
 %
 (
-            
+                
 manifest_file
-            
+                
 str
 (
 e
 )
-        
+            
 )
+        
 )
         
 return
@@ -6770,6 +6853,7 @@ log
 .
 info
 (
+                    
 "
 File
 %
@@ -6787,7 +6871,7 @@ will
 remove
 it
 "
-                         
+                    
 "
 and
 try
@@ -6799,6 +6883,7 @@ it
 f
 .
 filename
+                
 )
                 
 os
@@ -6849,6 +6934,7 @@ shutil
 .
 copy
 (
+                    
 os
 .
 path
@@ -6860,7 +6946,7 @@ f
 .
 digest
 )
-                            
+                    
 os
 .
 path
@@ -6876,12 +6962,14 @@ f
 .
 filename
 )
+                
 )
                 
 log
 .
 info
 (
+                    
 "
 File
 %
@@ -6894,13 +6982,13 @@ cache
 s
 "
 %
-                         
 (
 f
 .
 filename
 cache_folder
 )
+                
 )
                 
 touch
@@ -6935,6 +7023,7 @@ digest
 f
 .
 algorithm
+                
 )
                 
 if
@@ -6998,6 +7087,7 @@ log
 .
 warn
 (
+                        
 "
 File
 %
@@ -7015,7 +7105,7 @@ it
 from
 the
 "
-                             
+                        
 "
 cache
 as
@@ -7025,6 +7115,7 @@ well
 f
 .
 filename
+                    
 )
                     
 os
@@ -7073,6 +7164,7 @@ log
 .
 info
 (
+                    
 "
 File
 %
@@ -7086,14 +7178,15 @@ folder
 %
 s
 "
+                    
 %
-                         
 (
 f
 .
 filename
 cache_folder
 )
+                
 )
         
 #
@@ -7186,6 +7279,7 @@ cache
         
 if
 (
+            
 f
 .
 filename
@@ -7199,6 +7293,7 @@ filenames
 =
 =
 0
+        
 )
 and
 f
@@ -7228,6 +7323,7 @@ temp_file_name
 =
 fetch_file
 (
+                
 base_urls
 f
 auth_file
@@ -7236,6 +7332,7 @@ auth_file
 region
 =
 region
+            
 )
             
 if
@@ -7343,6 +7440,7 @@ digest
 localfile
 .
 algorithm
+        
 )
         
 if
@@ -7369,6 +7467,7 @@ log
 .
 info
 (
+                
 "
 File
 integrity
@@ -7380,20 +7479,22 @@ to
 %
 s
 "
+                
 %
-                     
 (
 temp_file_name
 localfile
 .
 filename
 )
+            
 )
             
 os
 .
 rename
 (
+                
 os
 .
 path
@@ -7407,7 +7508,7 @@ getcwd
 )
 temp_file_name
 )
-                      
+                
 os
 .
 path
@@ -7423,6 +7524,7 @@ localfile
 .
 filename
 )
+            
 )
             
 if
@@ -7537,6 +7639,7 @@ shutil
 .
 copy
 (
+                        
 os
 .
 path
@@ -7552,7 +7655,7 @@ localfile
 .
 filename
 )
-                                
+                        
 os
 .
 path
@@ -7564,12 +7667,14 @@ localfile
 .
 digest
 )
+                    
 )
                     
 log
 .
 info
 (
+                        
 "
 Local
 cache
@@ -7580,14 +7685,15 @@ with
 %
 s
 "
+                        
 %
 (
 cache_folder
-                                                                 
 localfile
 .
 filename
 )
+                    
 )
                     
 touch
@@ -7616,7 +7722,8 @@ log
 .
 warning
 (
-'
+                        
+"
 Impossible
 to
 add
@@ -7628,18 +7735,20 @@ cache
 folder
 %
 s
-'
+"
+                        
 %
-                                
 (
 localfile
 .
 filename
 cache_folder
 )
+                        
 exc_info
 =
 True
+                    
 )
         
 else
@@ -7750,7 +7859,6 @@ s
 '
 "
 %
-                  
 "
 '
 "
@@ -7791,9 +7899,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
 #
 pragma
@@ -7824,7 +7932,6 @@ win32file
 .
 GetDiskFreeSpace
 (
-            
 p
 )
         
@@ -8133,28 +8240,28 @@ if
 hasattr
 (
 e
-'
+"
 hdrs
-'
+"
 )
 and
 e
 .
 hdrs
 [
-'
+"
 content
 -
 type
-'
+"
 ]
 =
 =
-'
+"
 application
 /
 json
-'
+"
 :
         
 json_resp
@@ -8172,6 +8279,7 @@ log
 .
 error
 (
+            
 "
 %
 s
@@ -8183,28 +8291,28 @@ s
 (
 json_resp
 [
-'
+"
 error
-'
+"
 ]
 [
-'
+"
 name
-'
+"
 ]
-                              
 json_resp
 [
-'
+"
 error
-'
+"
 ]
 [
-'
+"
 description
-'
+"
 ]
 )
+        
 )
     
 else
@@ -8316,9 +8424,9 @@ req
 .
 add_unredirected_header
 (
-'
+"
 Authorization
-'
+"
 taskcluster_header
 )
     
@@ -8345,14 +8453,14 @@ req
 .
 add_unredirected_header
 (
-'
+"
 Authorization
-'
-'
+"
+"
 Bearer
 %
 s
-'
+"
 %
 auth_file_content
 )
@@ -8371,9 +8479,9 @@ url
 urljoin
 (
 base_url
-'
+"
 upload
-'
+"
 )
     
 if
@@ -8427,17 +8535,17 @@ Request
 url
 data
 {
-'
+"
 Content
 -
 Type
-'
+"
 :
-'
+"
 application
 /
 json
-'
+"
 }
 )
     
@@ -8484,9 +8592,9 @@ load
 resp
 )
 [
-'
+"
 result
-'
+"
 ]
 def
 _s3_upload
@@ -8517,9 +8625,9 @@ urlparse
 (
 file
 [
-'
+"
 put_url
-'
+"
 ]
 )
     
@@ -8532,9 +8640,9 @@ url
 scheme
 =
 =
-'
+"
 https
-'
+"
 else
 HTTPConnection
     
@@ -8547,14 +8655,14 @@ netloc
 .
 split
 (
-'
+"
 :
-'
+"
 )
 if
-'
+"
 :
-'
+"
 in
 url
 .
@@ -8616,9 +8724,9 @@ with
 open
 (
 filename
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -8651,9 +8759,9 @@ conn
 request
 (
                 
-'
+"
 PUT
-'
+"
                 
 req_path
                 
@@ -8661,25 +8769,25 @@ f
                 
 {
                     
-'
+"
 Content
 -
 Type
-'
+"
 :
-'
+"
 application
 /
 octet
 -
 stream
-'
+"
                     
-'
+"
 Content
 -
 Length
-'
+"
 :
 str
 (
@@ -8724,6 +8832,7 @@ status
 raise
 RuntimeError
 (
+                
 "
 Non
 -
@@ -8741,8 +8850,8 @@ n
 %
 s
 "
+                
 %
-                               
 (
 resp
 .
@@ -8752,6 +8861,7 @@ resp
 reason
 resp_body
 )
+            
 )
     
 except
@@ -8760,9 +8870,9 @@ Exception
         
 file
 [
-'
+"
 upload_exception
-'
+"
 ]
 =
 sys
@@ -8773,9 +8883,9 @@ exc_info
         
 file
 [
-'
+"
 upload_ok
-'
+"
 ]
 =
 False
@@ -8785,9 +8895,9 @@ else
         
 file
 [
-'
+"
 upload_ok
-'
+"
 ]
 =
 True
@@ -8804,13 +8914,10 @@ req
 =
 Request
 (
-        
 urljoin
 (
-            
 base_url
-            
-'
+"
 upload
 /
 complete
@@ -8826,7 +8933,7 @@ s
 digest
 )
 s
-'
+"
 %
 file
 )
@@ -8902,13 +9009,13 @@ headers
 .
 get
 (
-'
+"
 X
 -
 Retry
 -
 After
-'
+"
 60
 )
 )
@@ -9038,11 +9145,11 @@ log
 .
 error
 (
-'
+"
 manifest
 is
 invalid
-'
+"
 )
         
 return
@@ -9069,7 +9176,7 @@ log
 .
 error
 (
-'
+"
 All
 files
 in
@@ -9082,7 +9189,7 @@ have
 a
 visibility
 set
-'
+"
 )
     
 #
@@ -9098,15 +9205,15 @@ batch
 =
 {
         
-'
+"
 message
-'
+"
 :
 message
         
-'
+"
 files
-'
+"
 :
 {
 }
@@ -9123,9 +9230,9 @@ file_records
         
 batch
 [
-'
+"
 files
-'
+"
 ]
 [
 fr
@@ -9135,33 +9242,33 @@ filename
 =
 {
             
-'
+"
 size
-'
+"
 :
 fr
 .
 size
             
-'
+"
 digest
-'
+"
 :
 fr
 .
 digest
             
-'
+"
 algorithm
-'
+"
 :
 fr
 .
 algorithm
             
-'
+"
 visibility
-'
+"
 :
 fr
 .
@@ -9200,9 +9307,9 @@ files
 =
 resp
 [
-'
+"
 files
-'
+"
 ]
     
 #
@@ -9250,9 +9357,9 @@ items
 :
         
 if
-'
+"
 put_url
-'
+"
 in
 file
 :
@@ -9283,7 +9390,6 @@ Thread
 target
 =
 _s3_upload
-                                   
 args
 =
 (
@@ -9401,9 +9507,9 @@ join
 if
 file
 [
-'
+"
 upload_ok
-'
+"
 ]
 :
                     
@@ -9428,6 +9534,7 @@ log
 .
 error
 (
+                        
 "
 %
 s
@@ -9436,15 +9543,15 @@ failed
 "
 %
 filename
-                              
 exc_info
 =
 file
 [
-'
+"
 upload_exception
-'
+"
 ]
+                    
 )
                     
 success
@@ -9503,17 +9610,17 @@ items
 :
         
 if
-'
+"
 put_url
-'
+"
 in
 file
 and
 file
 [
-'
+"
 upload_ok
-'
+"
 ]
 :
             
@@ -9571,12 +9678,12 @@ url
 urljoin
 (
 url
-'
+"
 file
 /
 sha512
 /
-'
+"
 +
 digest
 )
@@ -9597,17 +9704,17 @@ Request
 url
 data
 {
-'
+"
 Content
 -
 Type
-'
+"
 :
-'
+"
 application
 /
 json
-'
+"
 }
 )
     
@@ -9617,9 +9724,9 @@ get_method
 =
 lambda
 :
-'
+"
 PATCH
-'
+"
     
 _authorize
 (
@@ -9669,8 +9776,9 @@ auth_file
 data
 =
 [
-{
         
+{
+            
 "
 op
 "
@@ -9678,14 +9786,15 @@ op
 "
 set_visibility
 "
-        
+            
 "
 visibility
 "
 :
 visibility
-    
+        
 }
+    
 ]
     
 return
@@ -9709,8 +9818,9 @@ auth_file
 data
 =
 [
-{
         
+{
+            
 "
 op
 "
@@ -9718,8 +9828,9 @@ op
 "
 delete_instances
 "
-    
+        
 }
+    
 ]
     
 return
@@ -9798,7 +9909,6 @@ s
 '
 "
 %
-              
 (
 cmd
 '
@@ -9832,9 +9942,9 @@ if
 cmd
 =
 =
-'
+"
 list
-'
+"
 :
         
 return
@@ -9842,9 +9952,9 @@ list_manifest
 (
 options
 [
-'
+"
 manifest
-'
+"
 ]
 )
     
@@ -9852,9 +9962,9 @@ if
 cmd
 =
 =
-'
+"
 validate
-'
+"
 :
         
 return
@@ -9862,9 +9972,9 @@ validate_manifest
 (
 options
 [
-'
+"
 manifest
-'
+"
 ]
 )
     
@@ -9872,64 +9982,69 @@ elif
 cmd
 =
 =
-'
+"
 add
-'
+"
 :
         
 return
 add_files
 (
+            
 options
 [
-'
+"
 manifest
-'
+"
 ]
+            
 options
 [
-'
+"
 algorithm
-'
+"
 ]
+            
 cmd_args
-                         
+            
 options
 [
-'
+"
 version
-'
+"
 ]
+            
 options
 [
-'
+"
 visibility
-'
+"
 ]
-                         
+            
 options
 [
-'
+"
 unpack
-'
+"
 ]
+        
 )
     
 elif
 cmd
 =
 =
-'
+"
 purge
-'
+"
 :
         
 if
 options
 [
-'
+"
 cache_folder
-'
+"
 ]
 :
             
@@ -9939,17 +10054,17 @@ folder
 =
 options
 [
-'
+"
 cache_folder
-'
+"
 ]
 gigs
 =
 options
 [
-'
+"
 size
-'
+"
 ]
 )
         
@@ -9960,7 +10075,7 @@ log
 .
 critical
 (
-'
+"
 please
 specify
 the
@@ -9969,7 +10084,7 @@ folder
 to
 be
 purged
-'
+"
 )
             
 return
@@ -9979,9 +10094,9 @@ elif
 cmd
 =
 =
-'
+"
 fetch
-'
+"
 :
         
 return
@@ -9990,16 +10105,16 @@ fetch_files
             
 options
 [
-'
+"
 manifest
-'
+"
 ]
             
 options
 [
-'
+"
 base_url
-'
+"
 ]
             
 cmd_args
@@ -10008,9 +10123,9 @@ cache_folder
 =
 options
 [
-'
+"
 cache_folder
-'
+"
 ]
             
 auth_file
@@ -10030,19 +10145,20 @@ options
 .
 get
 (
-'
+"
 region
-'
+"
 )
+        
 )
     
 elif
 cmd
 =
 =
-'
+"
 upload
-'
+"
 :
         
 if
@@ -10051,9 +10167,9 @@ options
 .
 get
 (
-'
+"
 message
-'
+"
 )
 :
             
@@ -10061,13 +10177,13 @@ log
 .
 critical
 (
-'
+"
 upload
 command
 requires
 a
 message
-'
+"
 )
             
 return
@@ -10081,57 +10197,58 @@ options
 .
 get
 (
-'
+"
 manifest
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 message
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 base_url
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 auth_file
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 region
-'
+"
 )
+        
 )
     
 elif
 cmd
 =
 =
-'
+"
 change
 -
 visibility
-'
+"
 :
         
 if
@@ -10140,9 +10257,9 @@ options
 .
 get
 (
-'
+"
 digest
-'
+"
 )
 :
             
@@ -10150,7 +10267,7 @@ log
 .
 critical
 (
-'
+"
 change
 -
 visibility
@@ -10159,7 +10276,7 @@ requires
 a
 digest
 option
-'
+"
 )
             
 return
@@ -10171,9 +10288,9 @@ options
 .
 get
 (
-'
+"
 visibility
-'
+"
 )
 :
             
@@ -10181,7 +10298,7 @@ log
 .
 critical
 (
-'
+"
 change
 -
 visibility
@@ -10190,7 +10307,7 @@ requires
 a
 visibility
 option
-'
+"
 )
             
 return
@@ -10204,36 +10321,36 @@ options
 .
 get
 (
-'
+"
 base_url
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 digest
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 visibility
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 auth_file
-'
+"
 )
         
 )
@@ -10242,9 +10359,9 @@ elif
 cmd
 =
 =
-'
+"
 delete
-'
+"
 :
         
 if
@@ -10253,9 +10370,9 @@ options
 .
 get
 (
-'
+"
 digest
-'
+"
 )
 :
             
@@ -10263,7 +10380,7 @@ log
 .
 critical
 (
-'
+"
 change
 -
 visibility
@@ -10272,7 +10389,7 @@ requires
 a
 digest
 option
-'
+"
 )
             
 return
@@ -10286,27 +10403,27 @@ options
 .
 get
 (
-'
+"
 base_url
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 digest
-'
+"
 )
             
 options
 .
 get
 (
-'
+"
 auth_file
-'
+"
 )
         
 )
@@ -10362,100 +10479,111 @@ parser
 .
 add_option
 (
-'
+        
+"
 -
 q
-'
-'
+"
+        
+"
 -
 -
 quiet
-'
+"
+        
 default
 =
 logging
 .
 INFO
-                      
+        
 dest
 =
-'
+"
 loglevel
-'
+"
+        
 action
 =
-'
+"
 store_const
-'
+"
+        
 const
 =
 logging
 .
 ERROR
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 v
-'
-'
+"
+"
 -
 -
 verbose
-'
-                      
+"
 dest
 =
-'
+"
 loglevel
-'
+"
 action
 =
-'
+"
 store_const
-'
+"
 const
 =
 logging
 .
 DEBUG
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 m
-'
-'
+"
+        
+"
 -
 -
 manifest
-'
+"
+        
 default
 =
 DEFAULT_MANIFEST_NAME
-                      
+        
 dest
 =
-'
+"
 manifest
-'
+"
+        
 action
 =
-'
+"
 store
-'
-                      
+"
+        
 help
 =
-'
+"
 specify
 the
 manifest
@@ -10464,42 +10592,47 @@ to
 be
 operated
 on
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 d
-'
-'
+"
+        
+"
 -
 -
 algorithm
-'
+"
+        
 default
 =
-'
+"
 sha512
-'
-                      
+"
+        
 dest
 =
-'
+"
 algorithm
-'
+"
+        
 action
 =
-'
+"
 store
-'
-                      
+"
+        
 help
 =
-'
+"
 hashing
 algorithm
 to
@@ -10510,74 +10643,82 @@ sha512
 is
 allowed
 )
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 digest
-'
+"
+        
 default
 =
 None
-                      
+        
 dest
 =
-'
+"
 digest
-'
+"
+        
 action
 =
-'
+"
 store
-'
-                      
+"
+        
 help
 =
-'
+"
 digest
 hash
 to
 change
 visibility
 for
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 visibility
-'
+"
+        
 default
 =
 None
-                      
+        
 dest
 =
-'
+"
 visibility
-'
+"
+        
 choices
 =
 [
-'
+"
 internal
-'
-'
+"
+"
 public
-'
+"
 ]
-                      
+        
 help
 =
 '
@@ -10593,8 +10734,8 @@ internal
 is
 for
 '
-                           
-'
+        
+"
 files
 that
 cannot
@@ -10604,8 +10745,8 @@ out
 of
 the
 company
-'
-                           
+"
+        
 '
 but
 not
@@ -10620,41 +10761,45 @@ are
 available
 to
 '
-                           
-'
+        
+"
 anyone
 without
 restriction
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 unpack
-'
+"
+        
 default
 =
 False
-                      
+        
 dest
 =
-'
+"
 unpack
-'
+"
+        
 action
 =
-'
+"
 store_true
-'
-                      
+"
+        
 help
 =
-'
+"
 Request
 unpacking
 this
@@ -10662,45 +10807,49 @@ file
 after
 fetch
 .
-'
-                           
-'
+"
+        
+"
 This
 is
 helpful
 with
 tarballs
 .
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 version
-'
+"
+        
 default
 =
 None
-                      
+        
 dest
 =
-'
+"
 version
-'
+"
+        
 action
 =
-'
+"
 store
-'
-                      
+"
+        
 help
 =
-'
+"
 Version
 string
 for
@@ -10710,9 +10859,9 @@ file
 This
 annotates
 the
-'
-                           
-'
+"
+        
+"
 manifest
 entry
 with
@@ -10721,79 +10870,88 @@ version
 string
 to
 help
-'
-                           
-'
+"
+        
+"
 identify
 the
 contents
 .
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 o
-'
-'
+"
+        
+"
 -
 -
 overwrite
-'
+"
+        
 default
 =
 False
-                      
+        
 dest
 =
-'
+"
 overwrite
-'
+"
+        
 action
 =
-'
+"
 store_true
-'
-                      
+"
+        
 help
 =
-'
+"
 UNUSED
 ;
 present
 for
 backward
 compatibility
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 url
-'
+"
+        
 dest
 =
-'
+"
 base_url
-'
+"
+        
 action
 =
-'
+"
 append
-'
-                      
+"
+        
 help
 =
-'
+"
 RelengAPI
 URL
 ending
@@ -10803,63 +10961,67 @@ tooltool
 /
 ;
 default
-'
-                      
-'
+"
+        
+"
 is
 appropriate
 for
 Mozilla
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 c
-'
-'
+"
+"
 -
 -
 cache
 -
 folder
-'
+"
 dest
 =
-'
+"
 cache_folder
-'
-                      
+"
 help
 =
-'
+"
 Local
 cache
 folder
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 s
-'
-'
+"
+        
+"
 -
 -
 size
-'
-                      
+"
+        
 help
 =
-'
+"
 free
 space
 required
@@ -10867,40 +11029,47 @@ required
 in
 GB
 )
-'
+"
+        
 dest
 =
-'
+"
 size
-'
-                      
+"
+        
 type
 =
-'
+"
 float
-'
+"
+        
 default
 =
 0
 .
+0
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 r
-'
-'
+"
+        
+"
 -
 -
 region
-'
+"
+        
 help
 =
-'
+"
 Preferred
 AWS
 region
@@ -10909,9 +11078,8 @@ upload
 or
 fetch
 ;
-'
-                      
-'
+"
+"
 example
 :
 -
@@ -10923,19 +11091,21 @@ us
 west
 -
 2
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 message
-'
-                      
+"
+        
 help
 =
 '
@@ -10954,35 +11124,37 @@ a
 bug
 number
 '
-                           
-'
+        
+"
 and
 brief
 comment
-'
-                      
+"
+        
 dest
 =
-'
+"
 message
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 authentication
 -
 file
-'
-                      
+"
+        
 help
 =
-'
+"
 Use
 the
 RelengAPI
@@ -10993,22 +11165,23 @@ the
 given
 file
 to
-'
-                           
-'
+"
+        
+"
 authenticate
 to
 the
 RelengAPI
 server
 .
-'
-                      
+"
+        
 dest
 =
-'
+"
 auth_file
-'
+"
+    
 )
     
 (
@@ -11042,10 +11215,10 @@ environ
 .
 get
 (
-'
+"
 TOOLTOOL_HOST
-'
-'
+"
+"
 tooltool
 .
 mozilla
@@ -11053,7 +11226,7 @@ mozilla
 releng
 .
 net
-'
+"
 )
         
 taskcluster_proxy_url
@@ -11064,9 +11237,9 @@ environ
 .
 get
 (
-'
+"
 TASKCLUSTER_PROXY_URL
-'
+"
 )
         
 if
@@ -11075,13 +11248,13 @@ taskcluster_proxy_url
             
 tooltool_url
 =
-'
+"
 {
 }
 /
 {
 }
-'
+"
 .
 format
 (
@@ -11094,14 +11267,14 @@ else
             
 tooltool_url
 =
-'
+"
 https
 :
 /
 /
 {
 }
-'
+"
 .
 format
 (
@@ -11139,17 +11312,17 @@ url
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 else
 (
 url
 +
-'
+"
 /
-'
+"
 )
     
 options_obj
@@ -11221,9 +11394,9 @@ setLevel
 (
 options
 [
-'
+"
 loglevel
-'
+"
 ]
 )
     
@@ -11294,22 +11467,22 @@ ch
 if
 options
 [
-'
+"
 algorithm
-'
+"
 ]
 !
 =
-'
+"
 sha512
-'
+"
 :
         
 parser
 .
 error
 (
-'
+"
 only
 -
 -
@@ -11317,7 +11490,7 @@ algorithm
 sha512
 is
 supported
-'
+"
 )
     
 if
@@ -11333,13 +11506,13 @@ parser
 .
 error
 (
-'
+"
 You
 must
 specify
 a
 command
-'
+"
 )
     
 return

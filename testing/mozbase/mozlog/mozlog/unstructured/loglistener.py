@@ -182,8 +182,8 @@ self
 .
 _partial_message
 =
-'
-'
+"
+"
         
 self
 .
@@ -287,10 +287,10 @@ data
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 :
             
@@ -318,8 +318,8 @@ self
 .
 _partial_message
 =
-'
-'
+"
+"
                 
 self
 .
@@ -333,12 +333,12 @@ msg
 .
 get
 (
-'
+"
 action
-'
-'
+"
+"
 UNKNOWN
-'
+"
 )
 msg
 )

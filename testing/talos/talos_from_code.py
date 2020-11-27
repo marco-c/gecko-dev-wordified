@@ -139,9 +139,9 @@ main
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 This
 script
@@ -204,9 +204,9 @@ talos
 .
 json
     
-'
-'
-'
+"
+"
+"
     
 parser
 =
@@ -218,6 +218,7 @@ parser
 .
 add_option
 (
+        
 "
 -
 -
@@ -227,17 +228,19 @@ json
 -
 url
 "
+        
 dest
 =
 "
 talos_json_url
 "
+        
 type
 =
 "
 string
 "
-                      
+        
 help
 =
 "
@@ -254,6 +257,7 @@ json
 file
 .
 "
+    
 )
     
 (
@@ -415,11 +419,11 @@ try
         
 key
 =
-'
+"
 talos
 .
 zip
-'
+"
         
 entity
 =
@@ -464,6 +468,7 @@ zip
             
 print
 (
+                
 "
 INFO
 :
@@ -474,8 +479,8 @@ as
 %
 s
 "
+                
 %
-                  
 (
 entity
 [
@@ -498,6 +503,7 @@ path
 key
 )
 )
+            
 )
             
 download_file
@@ -522,6 +528,7 @@ else
             
 print
 (
+                
 "
 ERROR
 :
@@ -533,8 +540,8 @@ download
 a
 file
 "
+                
 +
-                  
 "
 from
 :
@@ -548,8 +555,8 @@ entity
 url
 "
 ]
+                
 +
-                  
 "
 which
 is
@@ -574,6 +581,7 @@ mozilla
 org
 /
 "
+            
 )
             
 print
@@ -635,9 +643,9 @@ fileUrl
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Only
 certain
@@ -665,11 +673,13 @@ mozilla
 .
 org
     
-'
-'
-'
+"
+"
+"
     
 if
+(
+        
 talosJsonUrl
 .
 startswith
@@ -689,9 +699,8 @@ try
 /
 "
 )
+        
 or
-\
-       
 talosJsonUrl
 .
 startswith
@@ -711,9 +720,8 @@ try
 /
 "
 )
+        
 or
-\
-       
 talosJsonUrl
 .
 startswith
@@ -735,9 +743,8 @@ pine
 /
 "
 )
+        
 or
-\
-       
 talosJsonUrl
 .
 startswith
@@ -759,9 +766,8 @@ pine
 /
 "
 )
+        
 or
-\
-       
 talosJsonUrl
 .
 startswith
@@ -783,9 +789,8 @@ ash
 /
 "
 )
+        
 or
-\
-       
 talosJsonUrl
 .
 startswith
@@ -806,6 +811,8 @@ projects
 ash
 /
 "
+)
+    
 )
 :
         
@@ -821,7 +828,7 @@ re
 .
 compile
 (
-'
+"
 ^
 http
 :
@@ -839,7 +846,7 @@ mozilla
 .
 org
 /
-'
+"
 )
         
 m
@@ -869,9 +876,9 @@ url
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 This
 returns
@@ -887,9 +894,9 @@ trying
 to
 download
     
-'
-'
-'
+"
+"
+"
     
 parsed
 =
@@ -901,9 +908,9 @@ url
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
 )
     
@@ -913,8 +920,8 @@ parsed
 path
 !
 =
-'
-'
+"
+"
 :
         
 return
@@ -924,9 +931,9 @@ path
 .
 rsplit
 (
-'
+"
 /
-'
+"
 1
 )
 [
@@ -939,6 +946,7 @@ else
         
 print
 (
+            
 "
 ERROR
 :
@@ -953,8 +961,8 @@ from
 %
 s
 "
+            
 +
-              
 "
 but
 the
@@ -965,6 +973,7 @@ be
 incorrect
 .
 "
+        
 )
         
 sys
@@ -987,9 +996,9 @@ None
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 It
 downloads
@@ -1002,9 +1011,9 @@ the
 indicated
 path
     
-'
-'
-'
+"
+"
+"
     
 req
 =
@@ -1118,9 +1127,9 @@ join
 path
 filename
 )
-'
+"
 wb
-'
+"
 )
     
 local_file
@@ -1150,9 +1159,9 @@ key
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 It
 loads
@@ -1169,18 +1178,18 @@ the
 given
 string
     
-'
-'
-'
+"
+"
+"
     
 f
 =
 open
 (
 json_filename
-'
+"
 r
-'
+"
 )
     
 return
@@ -1197,9 +1206,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

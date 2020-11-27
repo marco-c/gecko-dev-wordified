@@ -504,9 +504,9 @@ tasks
 :
             
 if
-'
+"
 name
-'
+"
 in
 task
 :
@@ -540,16 +540,17 @@ name
 =
 task
 [
-'
+"
 name
-'
+"
 ]
+                
 )
             
 elif
-'
+"
 label
-'
+"
 in
 task
 :
@@ -573,18 +574,18 @@ label
 =
 task
 [
-'
+"
 label
-'
+"
 ]
 )
             
 elif
-'
+"
 primary
 -
 dependency
-'
+"
 in
 task
 :
@@ -619,14 +620,15 @@ dependency
 =
 task
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
 .
 label
+                
 )
             
 else

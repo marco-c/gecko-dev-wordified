@@ -132,18 +132,18 @@ MozillaBuild
 version
 LATEST_MOZILLABUILD_VERSION
 =
-'
+"
 1
 .
 11
 .
 0
-'
+"
 DISABLE_LASTACCESS_WIN
 =
-'
-'
-'
+"
+"
+"
 Disable
 the
 last
@@ -204,9 +204,9 @@ library
 cc785435
 .
 aspx
-'
-'
-'
+"
+"
+"
 class
 Doctor
 (
@@ -279,9 +279,9 @@ path_mounts
 [
             
 (
-'
+"
 srcdir
-'
+"
 self
 .
 srcdir
@@ -291,9 +291,9 @@ srcdir_mount
 )
             
 (
-'
+"
 objdir
-'
+"
 self
 .
 objdir
@@ -327,27 +327,21 @@ self
 checks
 =
 [
-            
-'
+"
 cpu
-'
-            
-'
+"
+"
 memory
-'
-            
-'
+"
+"
 storage_freespace
-'
-            
-'
+"
+"
 fs_lastaccess
-'
-            
-'
+"
+"
 mozillabuild
-'
-        
+"
 ]
         
 for
@@ -392,15 +386,15 @@ result
 .
 get
 (
-'
+"
 status
-'
+"
 )
 !
 =
-'
+"
 GOOD
-'
+"
 :
                 
 good
@@ -412,9 +406,9 @@ result
 .
 get
 (
-'
+"
 fixable
-'
+"
 False
 )
 :
@@ -428,9 +422,9 @@ result
 .
 get
 (
-'
+"
 denied
-'
+"
 False
 )
 :
@@ -524,9 +518,9 @@ while
 path
 !
 =
-'
+"
 /
-'
+"
 and
 not
 os
@@ -570,9 +564,9 @@ limit
 )
 :
         
-'
-'
-'
+"
+"
+"
 Prompts
 the
 user
@@ -584,9 +578,9 @@ a
 boolean
 value
 .
-'
-'
-'
+"
+"
+"
         
 valid
 =
@@ -616,7 +610,7 @@ input
 (
 prompt
 +
-'
+"
 [
 Y
 /
@@ -624,7 +618,7 @@ N
 ]
 \
 n
-'
+"
 )
 )
                 
@@ -728,21 +722,21 @@ result
 .
 get
 (
-'
+"
 status
-'
-'
+"
+"
 UNSURE
-'
+"
 )
             
 if
 status
 =
 =
-'
+"
 SKIPPED
-'
+"
 :
                 
 continue
@@ -758,8 +752,7 @@ result
             
 print
 (
-                
-'
+"
 {
 }
 .
@@ -771,31 +764,27 @@ t
 }
 \
 n
-'
+"
 .
 format
 (
-                    
 result
 .
 get
 (
-'
+"
 desc
-'
-'
-'
+"
+"
+"
 )
-                    
 status
-                
 )
 .
 expandtabs
 (
 40
 )
-            
 )
     
 property
@@ -812,9 +801,9 @@ platform
 getattr
 (
 self
-'
+"
 _platform
-'
+"
 None
 )
         
@@ -853,9 +842,9 @@ platform
 setattr
 (
 self
-'
+"
 _platform
-'
+"
 platform
 )
         
@@ -887,13 +876,13 @@ PROCESSORS_THRESHOLD
             
 status
 =
-'
+"
 BAD
-'
+"
             
 desc
 =
-'
+"
 %
 d
 logical
@@ -902,11 +891,12 @@ detected
 <
 %
 d
-'
+"
 %
 (
                 
 cpu_count
+                
 PROCESSORS_THRESHOLD
             
 )
@@ -916,13 +906,13 @@ else
             
 status
 =
-'
+"
 GOOD
-'
+"
             
 desc
 =
-'
+"
 %
 d
 logical
@@ -932,25 +922,26 @@ detected
 =
 %
 d
-'
+"
 %
 (
                 
 cpu_count
+                
 PROCESSORS_THRESHOLD
             
 )
         
 return
 {
-'
+"
 status
-'
+"
 :
 status
-'
+"
 desc
-'
+"
 :
 desc
 }
@@ -999,13 +990,13 @@ MEMORY_THRESHOLD
             
 status
 =
-'
+"
 BAD
-'
+"
             
 desc
 =
-'
+"
 %
 .
 1fGB
@@ -1016,13 +1007,11 @@ memory
 %
 .
 1fGB
-'
+"
 %
 (
-                
 memory_GB
 MEMORY_THRESHOLD
-            
 )
         
 else
@@ -1030,13 +1019,13 @@ else
             
 status
 =
-'
+"
 GOOD
-'
+"
             
 desc
 =
-'
+"
 %
 .
 1fGB
@@ -1047,25 +1036,23 @@ memory
 %
 .
 1fGB
-'
+"
 %
 (
-                
 memory_GB
 MEMORY_THRESHOLD
-            
 )
         
 return
 {
-'
+"
 status
-'
+"
 :
 status
-'
+"
 desc
-'
+"
 :
 desc
 }
@@ -1086,8 +1073,8 @@ results
         
 desc
 =
-'
-'
+"
+"
         
 mountpoint_line
 =
@@ -1115,7 +1102,7 @@ path_mounts
 desc
 +
 =
-'
+"
 %
 s
 =
@@ -1123,7 +1110,7 @@ s
 s
 \
 n
-'
+"
 %
 (
 purpose
@@ -1189,14 +1176,14 @@ FREESPACE_THRESHOLD
                     
 status
 =
-'
+"
 BAD
-'
+"
                     
 desc
 +
 =
-'
+"
 mountpoint
 =
 %
@@ -1212,13 +1199,16 @@ free
 <
 %
 dGB
-'
+"
 %
 (
                         
 mount
+                        
 freespace_GB
+                        
 size_GB
+                        
 FREESPACE_THRESHOLD
                     
 )
@@ -1228,14 +1218,14 @@ else
                     
 status
 =
-'
+"
 GOOD
-'
+"
                     
 desc
 +
 =
-'
+"
 mountpoint
 =
 %
@@ -1252,13 +1242,16 @@ free
 =
 %
 dGB
-'
+"
 %
 (
                         
 mount
+                        
 freespace_GB
+                        
 size_GB
+                        
 FREESPACE_THRESHOLD
                     
 )
@@ -1269,31 +1262,31 @@ OSError
                 
 status
 =
-'
+"
 UNSURE
-'
+"
                 
 desc
 +
 =
-'
+"
 path
 invalid
-'
+"
             
 results
 .
 append
 (
 {
-'
+"
 status
-'
+"
 :
 status
-'
+"
 desc
-'
+"
 :
 desc
 }
@@ -1322,9 +1315,9 @@ self
 platform
 =
 =
-'
+"
 win
-'
+"
 :
             
 fixable
@@ -1369,17 +1362,17 @@ try
                 
 command
 =
-'
+"
 fsutil
 behavior
 query
 disablelastaccess
-'
+"
 .
 split
 (
-'
-'
+"
+"
 )
                 
 fsutil_output
@@ -1399,9 +1392,9 @@ fsutil_output
 .
 partition
 (
-'
+"
 =
-'
+"
 )
 [
 2
@@ -1424,19 +1417,19 @@ disablelastaccess
                 
 status
 =
-'
+"
 UNSURE
-'
+"
                 
 desc
 =
-'
+"
 unable
 to
 check
 lastaccess
 behavior
-'
+"
             
 if
 disablelastaccess
@@ -1447,17 +1440,17 @@ disablelastaccess
                 
 status
 =
-'
+"
 GOOD
-'
+"
                 
 desc
 =
-'
+"
 lastaccess
 disabled
 systemwide
-'
+"
             
 elif
 disablelastaccess
@@ -1492,25 +1485,27 @@ choice
                         
 return
 {
-'
+                            
+"
 status
-'
+"
 :
-'
+"
 BAD
 NOT
 FIXED
-'
-                                
-'
+"
+                            
+"
 desc
-'
+"
 :
-'
+"
 lastaccess
 enabled
 systemwide
-'
+"
+                        
 }
                     
 try
@@ -1518,18 +1513,18 @@ try
                         
 command
 =
-'
+"
 fsutil
 behavior
 set
 disablelastaccess
 1
-'
+"
 .
 split
 (
-'
-'
+"
+"
 )
                         
 fsutil_output
@@ -1543,18 +1538,18 @@ command
                         
 status
 =
-'
+"
 GOOD
 FIXED
-'
+"
                         
 desc
 =
-'
+"
 lastaccess
 disabled
 systemwide
-'
+"
                     
 except
 subprocess
@@ -1566,11 +1561,11 @@ e
                         
 desc
 =
-'
+"
 lastaccess
 enabled
 systemwide
-'
+"
                         
 if
 e
@@ -1579,9 +1574,9 @@ output
 .
 find
 (
-'
+"
 denied
-'
+"
 )
 !
 =
@@ -1591,11 +1586,11 @@ denied
                             
 status
 =
-'
+"
 BAD
 FIX
 DENIED
-'
+"
                             
 denied
 =
@@ -1606,28 +1601,28 @@ else
                             
 status
 =
-'
+"
 BAD
 NOT
 FIXED
-'
+"
                 
 else
 :
                     
 status
 =
-'
+"
 BAD
 FIXABLE
-'
+"
                     
 desc
 =
-'
+"
 lastaccess
 enabled
-'
+"
                     
 fixable
 =
@@ -1637,29 +1632,30 @@ results
 .
 append
 (
+                
 {
-'
+"
 status
-'
+"
 :
 status
-'
+"
 desc
-'
+"
 :
 desc
-'
+"
 fixable
-'
+"
 :
 fixable
-                            
-'
+"
 denied
-'
+"
 :
 denied
 }
+            
 )
         
 elif
@@ -1668,15 +1664,15 @@ self
 platform
 in
 [
-'
+"
 freebsd
-'
-'
+"
+"
 linux
-'
-'
+"
+"
 openbsd
-'
+"
 ]
 :
             
@@ -1729,13 +1725,13 @@ results
 append
 (
 {
-'
+"
 status
-'
+"
 :
-'
+"
 SKIPPED
-'
+"
 }
 )
         
@@ -1764,29 +1760,29 @@ True
 atime_opts
 =
 {
-'
+"
 atime
-'
-'
+"
+"
 noatime
-'
-'
+"
+"
 relatime
-'
-'
+"
+"
 norelatime
-'
+"
 }
         
 option
 =
-'
-'
+"
+"
         
 fstype
 =
-'
-'
+"
+"
         
 for
 partition
@@ -1813,8 +1809,8 @@ opts
 .
 split
 (
-'
-'
+"
+"
 )
 )
                 
@@ -1856,20 +1852,20 @@ if
 fstype
 =
 =
-'
+"
 tmpfs
-'
+"
 :
             
 status
 =
-'
+"
 GOOD
-'
+"
             
 desc
 =
-'
+"
 %
 s
 is
@@ -1882,12 +1878,10 @@ reltime
 is
 not
 needed
-'
+"
 %
 (
-                
 mount
-            
 )
         
 elif
@@ -1897,9 +1891,9 @@ option
             
 status
 =
-'
+"
 BAD
-'
+"
             
 if
 self
@@ -1907,31 +1901,31 @@ self
 platform
 =
 =
-'
+"
 linux
-'
+"
 :
                 
 option
 =
-'
+"
 noatime
 /
 relatime
-'
+"
             
 else
 :
                 
 option
 =
-'
+"
 noatime
-'
+"
             
 desc
 =
-'
+"
 %
 s
 has
@@ -1941,40 +1935,38 @@ explicit
 s
 mount
 option
-'
+"
 %
 (
-                
 mount
 option
-            
 )
         
 elif
 option
 =
 =
-'
+"
 atime
-'
+"
 or
 option
 =
 =
-'
+"
 norelatime
-'
+"
 :
             
 status
 =
-'
+"
 BAD
-'
+"
             
 desc
 =
-'
+"
 %
 s
 has
@@ -1982,40 +1974,38 @@ has
 s
 mount
 option
-'
+"
 %
 (
-                
 mount
 option
-            
 )
         
 elif
 option
 =
 =
-'
+"
 noatime
-'
+"
 or
 option
 =
 =
-'
+"
 relatime
-'
+"
 :
             
 status
 =
-'
+"
 GOOD
-'
+"
             
 desc
 =
-'
+"
 %
 s
 has
@@ -2023,25 +2013,23 @@ has
 s
 mount
 option
-'
+"
 %
 (
-                
 mount
 option
-            
 )
         
 return
 {
-'
+"
 status
-'
+"
 :
 status
-'
+"
 desc
-'
+"
 :
 desc
 }
@@ -2061,20 +2049,20 @@ self
 platform
 !
 =
-'
+"
 win
-'
+"
 :
             
 return
 {
-'
+"
 status
-'
+"
 :
-'
+"
 SKIPPED
-'
+"
 }
         
 MOZILLABUILD
@@ -2089,11 +2077,11 @@ environ
 .
 get
 (
-'
+"
 MOZILLABUILD
-'
-'
-'
+"
+"
+"
 )
 )
         
@@ -2114,16 +2102,16 @@ MOZILLABUILD
             
 return
 {
-'
+"
 desc
-'
+"
 :
-'
+"
 not
 running
 under
 MozillaBuild
-'
+"
 }
         
 try
@@ -2137,13 +2125,13 @@ mozpath
 join
 (
 MOZILLABUILD
-'
+"
 VERSION
-'
+"
 )
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -2181,13 +2169,13 @@ LATEST_MOZILLABUILD_VERSION
                 
 status
 =
-'
+"
 BAD
-'
+"
                 
 desc
 =
-'
+"
 MozillaBuild
 %
 s
@@ -2196,11 +2184,12 @@ use
 <
 %
 s
-'
+"
 %
 (
                     
 version
+                    
 LATEST_MOZILLABUILD_VERSION
                 
 )
@@ -2210,19 +2199,19 @@ else
                 
 status
 =
-'
+"
 GOOD
-'
+"
                 
 desc
 =
-'
+"
 MozillaBuild
 %
 s
 in
 use
-'
+"
 %
 version
         
@@ -2235,29 +2224,29 @@ ValueError
             
 status
 =
-'
+"
 UNSURE
-'
+"
             
 desc
 =
-'
+"
 MozillaBuild
 version
 not
 found
-'
+"
         
 return
 {
-'
+"
 status
-'
+"
 :
 status
-'
+"
 desc
-'
+"
 :
 desc
 }

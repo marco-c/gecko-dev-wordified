@@ -121,7 +121,7 @@ close
 if
 files
 :
-      
+        
 #
 The
 zip
@@ -137,7 +137,7 @@ an
 absolute
 path
 .
-      
+        
 in_files
 =
 [
@@ -151,15 +151,15 @@ file
 in
 files
 ]
-      
+        
 return
 create_zip
 (
 [
-'
+"
 -
 C
-'
+"
 input_dir
 abspath
 (
@@ -174,15 +174,15 @@ in_files
     
 else
 :
-      
+        
 return
 create_zip
 (
 [
-'
+"
 -
 C
-'
+"
 input_dir
 abspath
 (
@@ -190,9 +190,9 @@ output
 .
 name
 )
-'
+"
 *
 *
-'
+"
 ]
 )

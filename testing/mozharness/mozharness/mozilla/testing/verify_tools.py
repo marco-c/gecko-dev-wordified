@@ -113,6 +113,7 @@ verify_config_options
 [
     
 [
+        
 [
 "
 -
@@ -120,8 +121,9 @@ verify_config_options
 verify
 "
 ]
-     
+        
 {
+            
 "
 action
 "
@@ -129,7 +131,7 @@ action
 "
 store_true
 "
-      
+            
 "
 dest
 "
@@ -137,13 +139,13 @@ dest
 "
 verify
 "
-      
+            
 "
 default
 "
 :
 False
-      
+            
 "
 help
 "
@@ -157,8 +159,9 @@ modified
 tests
 .
 "
-      
+        
 }
+    
 ]
 ]
 class
@@ -219,9 +222,9 @@ config
 .
 get
 (
-'
+"
 verify
-'
+"
 )
 )
         
@@ -238,13 +241,13 @@ False
     
 PostScriptAction
 (
-'
+"
 download
 -
 and
 -
 extract
-'
+"
 )
     
 def
@@ -261,7 +264,7 @@ None
 "
 "
 "
-           
+        
 For
 each
 file
@@ -274,7 +277,7 @@ if
 the
 modified
 file
-           
+        
 is
 a
 test
@@ -287,7 +290,7 @@ Populate
 self
 .
 verify_suites
-           
+        
 with
 test
 files
@@ -295,7 +298,7 @@ organized
 by
 suite
 .
-           
+        
 This
 depends
 on
@@ -309,7 +312,7 @@ after
 test
 zips
 have
-           
+        
 been
 downloaded
 and
@@ -389,9 +392,9 @@ config
 .
 get
 (
-'
+"
 per_test_category
-'
+"
 )
 =
 =
@@ -405,7 +408,7 @@ platform
 args
 =
 [
-'
+"
 -
 -
 verify
@@ -413,7 +416,7 @@ verify
 log
 -
 full
-'
+"
 ]
         
 else
@@ -422,7 +425,7 @@ else
 args
 =
 [
-'
+"
 -
 -
 verify
@@ -433,7 +436,7 @@ time
 =
 %
 d
-'
+"
 %
 MAX_TIME_PER_TEST
 ]
@@ -442,11 +445,11 @@ args
 .
 append
 (
-'
+"
 -
 -
 verify
-'
+"
 )
         
 return

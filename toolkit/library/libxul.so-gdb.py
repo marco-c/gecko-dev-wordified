@@ -74,14 +74,9 @@ os
 .
 path
 import
-(
-    
 abspath
-    
 dirname
-    
 exists
-)
 #
 Add
 the
@@ -257,7 +252,7 @@ re
 search
 (
 r
-'
+"
 [
 \
 w
@@ -268,7 +263,7 @@ w
 .
 *
 )
-'
+"
 gdb
 .
 execute

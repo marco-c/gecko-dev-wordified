@@ -141,7 +141,7 @@ re
 .
 compile
 (
-'
+"
 .
 *
 (
@@ -149,7 +149,7 @@ compile
 =
 _
 )
-'
+"
 )
 SOURCE_PACKAGE_RE
 =
@@ -157,7 +157,7 @@ re
 .
 compile
 (
-'
+"
 .
 *
 (
@@ -170,7 +170,7 @@ _
 \
 d
 )
-'
+"
 )
 source_definition
 =
@@ -178,18 +178,18 @@ source_definition
     
 Required
 (
-'
+"
 url
-'
+"
 )
 :
 text_type
     
 Required
 (
-'
+"
 sha256
-'
+"
 )
 :
 text_type
@@ -198,34 +198,35 @@ run_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
-'
+"
 using
-'
+"
 )
 :
-'
+"
 debian
 -
 package
-'
-    
+"
+        
 #
 Debian
 distribution
-    
+        
 Required
 (
-'
+"
 dist
-'
+"
 )
 :
 text_type
-    
+        
 #
 Date
 of
@@ -244,7 +245,7 @@ use
 in
 the
 format
-    
+        
 #
 YYYYMMDDTHHMMSSZ
 .
@@ -260,7 +261,7 @@ docker
 -
 image
 name
-    
+        
 #
 (
 only
@@ -269,16 +270,16 @@ YYYYMMDD
 part
 )
 .
-    
+        
 Required
 (
-'
+"
 snapshot
-'
+"
 )
 :
 text_type
-    
+        
 #
 URL
 /
@@ -295,7 +296,7 @@ either
 be
 a
 source
-    
+        
 #
 control
 (
@@ -306,22 +307,22 @@ or
 a
 tarball
 .
-    
+        
 Required
 (
 Any
 (
-'
+"
 dsc
-'
-'
+"
+"
 tarball
-'
+"
 )
 )
 :
 source_definition
-    
+        
 #
 Package
 name
@@ -335,7 +336,7 @@ control
 or
 tarball
 file
-    
+        
 #
 name
 .
@@ -350,20 +351,20 @@ t
 match
 DSC_PACKAGE_RE
 or
-    
+        
 #
 SOURCE_PACKAGE_RE
 .
-    
+        
 Optional
 (
-'
+"
 name
-'
+"
 )
 :
 text_type
-    
+        
 #
 Patch
 to
@@ -373,16 +374,16 @@ the
 extracted
 source
 .
-    
+        
 Optional
 (
-'
+"
 patch
-'
+"
 )
 :
 text_type
-    
+        
 #
 Command
 to
@@ -392,20 +393,20 @@ dpkg
 -
 buildpackage
 .
-    
+        
 Optional
 (
-'
+"
 pre
 -
 build
 -
 command
-'
+"
 )
 :
 text_type
-    
+        
 #
 Architecture
 to
@@ -414,16 +415,16 @@ the
 package
 for
 .
-    
+        
 Optional
 (
-'
+"
 arch
-'
+"
 )
 :
 text_type
-    
+        
 #
 List
 of
@@ -435,18 +436,18 @@ build
 dependencies
 from
 .
-    
+        
 Optional
 (
-'
+"
 packages
-'
+"
 )
 :
 [
 text_type
 ]
-    
+        
 #
 What
 resolver
@@ -459,7 +460,7 @@ dependencies
 .
 The
 default
-    
+        
 #
 (
 apt
@@ -476,7 +477,7 @@ in
 subtle
 cases
 involving
-    
+        
 #
 a
 *
@@ -492,7 +493,7 @@ able
 to
 find
 a
-    
+        
 #
 solution
 that
@@ -501,26 +502,26 @@ the
 build
 dependencies
 .
-    
+        
 Optional
 (
-'
+"
 resolver
-'
+"
 )
 :
 Any
 (
-'
+"
 apt
 -
 get
-'
-'
+"
+"
 aptitude
-'
+"
 )
-    
+        
 #
 Base
 work
@@ -532,15 +533,16 @@ up
 the
 task
 .
-    
+        
 Required
 (
-'
+"
 workdir
-'
+"
 )
 :
 text_type
+    
 }
 )
 run_job_using
@@ -572,27 +574,27 @@ run
 =
 job
 [
-'
+"
 run
-'
+"
 ]
     
 name
 =
 taskdesc
 [
-'
+"
 label
-'
+"
 ]
 .
 replace
 (
-'
+"
 {
 }
 -
-'
+"
 .
 format
 (
@@ -600,8 +602,8 @@ config
 .
 kind
 )
-'
-'
+"
+"
 1
 )
     
@@ -611,30 +613,30 @@ run
 .
 get
 (
-'
+"
 arch
-'
-'
+"
+"
 amd64
-'
+"
 )
     
 worker
 =
 taskdesc
 [
-'
+"
 worker
-'
+"
 ]
     
 worker
 .
 setdefault
 (
-'
+"
 artifacts
-'
+"
 [
 ]
 )
@@ -643,27 +645,27 @@ version
 =
 {
         
-'
+"
 wheezy
-'
+"
 :
 7
         
-'
+"
 jessie
-'
+"
 :
 8
         
-'
+"
 stretch
-'
+"
 :
 9
         
-'
+"
 buster
-'
+"
 :
 10
     
@@ -671,19 +673,19 @@ buster
 [
 run
 [
-'
+"
 dist
-'
+"
 ]
 ]
     
 image
 =
-'
+"
 debian
 %
 d
-'
+"
 %
 version
     
@@ -691,43 +693,43 @@ if
 arch
 !
 =
-'
+"
 amd64
-'
+"
 :
         
 image
 +
 =
-'
+"
 -
-'
+"
 +
 arch
     
 image
 +
 =
-'
+"
 -
 packages
-'
+"
     
 worker
 [
-'
+"
 docker
 -
 image
-'
+"
 ]
 =
 {
-'
+"
 in
 -
 tree
-'
+"
 :
 image
 }
@@ -739,12 +741,12 @@ job
 taskdesc
 path
 =
-'
+"
 /
 tmp
 /
 artifacts
-'
+"
 )
     
 env
@@ -753,34 +755,34 @@ worker
 .
 setdefault
 (
-'
+"
 env
-'
+"
 {
 }
 )
     
 env
 [
-'
+"
 DEBFULLNAME
-'
+"
 ]
 =
-'
+"
 Mozilla
 build
 team
-'
+"
     
 env
 [
-'
+"
 DEBEMAIL
-'
+"
 ]
 =
-'
+"
 dev
 -
 builds
@@ -789,12 +791,12 @@ lists
 mozilla
 .
 org
-'
+"
     
 if
-'
+"
 dsc
-'
+"
 in
 run
 :
@@ -803,14 +805,14 @@ src
 =
 run
 [
-'
+"
 dsc
-'
+"
 ]
         
 unpack
 =
-'
+"
 dpkg
 -
 source
@@ -822,16 +824,16 @@ src_file
 {
 package
 }
-'
+"
         
 package_re
 =
 DSC_PACKAGE_RE
     
 elif
-'
+"
 tarball
-'
+"
 in
 run
 :
@@ -840,24 +842,25 @@ src
 =
 run
 [
-'
+"
 tarball
-'
+"
 ]
         
 unpack
 =
 (
-'
+            
+"
 mkdir
 {
 package
 }
 &
 &
-'
-                  
-'
+"
+            
+"
 tar
 -
 C
@@ -876,7 +879,8 @@ strip
 components
 =
 1
-'
+"
+        
 )
         
 package_re
@@ -889,18 +893,18 @@ else
 raise
 RuntimeError
 (
-'
+"
 Unreachable
-'
+"
 )
     
 src_url
 =
 src
 [
-'
+"
 url
-'
+"
 ]
     
 src_file
@@ -918,9 +922,9 @@ src_sha256
 =
 src
 [
-'
+"
 sha256
-'
+"
 ]
     
 package
@@ -929,9 +933,9 @@ run
 .
 get
 (
-'
+"
 name
-'
+"
 )
     
 if
@@ -973,30 +977,30 @@ run
 .
 get
 (
-'
+"
 resolver
-'
-'
+"
+"
 apt
 -
 get
-'
+"
 )
     
 if
 resolver
 =
 =
-'
+"
 apt
 -
 get
-'
+"
 :
         
 resolver
 =
-'
+"
 apt
 -
 get
@@ -1009,21 +1013,22 @@ no
 install
 -
 recommends
-'
+"
     
 elif
 resolver
 =
 =
-'
+"
 aptitude
-'
+"
 :
         
 resolver
 =
 (
-'
+            
+"
 aptitude
 -
 y
@@ -1034,9 +1039,9 @@ without
 recommends
 -
 o
-'
-                    
-'
+"
+            
+"
 Aptitude
 :
 :
@@ -1048,8 +1053,8 @@ Hints
 :
 KeepBuildDeps
 =
-'
-                    
+"
+            
 '
 "
 reject
@@ -1063,6 +1068,7 @@ deps
 UNINST
 "
 '
+        
 )
 .
 format
@@ -1076,20 +1082,20 @@ else
 raise
 RuntimeError
 (
-'
+"
 Unreachable
-'
+"
 )
     
 adjust
 =
-'
-'
+"
+"
     
 if
-'
+"
 patch
-'
+"
 in
 run
 :
@@ -1171,7 +1177,7 @@ patch
 adjust
 +
 =
-'
+"
 curl
 -
 sL
@@ -1182,16 +1188,16 @@ patch
 p1
 &
 &
-'
+"
     
 if
-'
+"
 pre
 -
 build
 -
 command
-'
+"
 in
 run
 :
@@ -1201,24 +1207,24 @@ adjust
 =
 run
 [
-'
+"
 pre
 -
 build
 -
 command
-'
+"
 ]
 +
-'
+"
 &
 &
-'
+"
     
 if
-'
+"
 tarball
-'
+"
 in
 run
 :
@@ -1226,7 +1232,7 @@ run
 adjust
 +
 =
-'
+"
 mv
 .
 .
@@ -1252,7 +1258,7 @@ tar
 gz
 &
 &
-'
+"
 .
 format
 (
@@ -1267,27 +1273,27 @@ package
             
 ver
 =
-'
+"
 (
 dpkg
 -
 parsechangelog
 |
 awk
-\
 '
 1
 =
 =
+\
 "
 Version
 :
+\
 "
 {
 print
 2
 }
-\
 '
 |
 cut
@@ -1298,25 +1304,25 @@ f
 d
 -
 )
-'
+"
         
 )
     
 if
-'
+"
 patch
-'
+"
 not
 in
 run
 and
-'
+"
 pre
 -
 build
 -
 command
-'
+"
 not
 in
 run
@@ -1326,6 +1332,7 @@ adjust
 +
 =
 (
+            
 '
 debchange
 -
@@ -1346,7 +1353,7 @@ dist
 }
 "
 '
-                   
+            
 '
 "
 Mozilla
@@ -1365,6 +1372,7 @@ null
 &
 &
 '
+        
 )
 .
 format
@@ -1376,9 +1384,9 @@ name
 .
 split
 (
-'
+"
 -
-'
+"
 1
 )
 [
@@ -1389,35 +1397,35 @@ dist
 =
 run
 [
-'
+"
 dist
-'
+"
 ]
         
 )
     
 worker
 [
-'
+"
 command
-'
+"
 ]
 =
 [
         
-'
+"
 sh
-'
+"
         
-'
+"
 -
 x
-'
+"
         
-'
+"
 -
 c
-'
+"
         
 #
 Add
@@ -1431,7 +1439,7 @@ package
 tasks
 .
         
-'
+"
 /
 usr
 /
@@ -1448,16 +1456,16 @@ root_url
 PACKAGES
 &
 &
-'
+"
         
-'
+"
 apt
 -
 get
 update
 &
 &
-'
+"
         
 #
 Upgrade
@@ -1472,7 +1480,7 @@ package
 tasks
 .
         
-'
+"
 apt
 -
 get
@@ -1481,15 +1489,14 @@ dist
 upgrade
 &
 &
-'
-        
-'
+"
+"
 cd
 /
 tmp
 &
 &
-'
+"
         
 #
 Get
@@ -1501,7 +1508,7 @@ package
 source
 .
         
-'
+"
 (
 dget
 -
@@ -1518,7 +1525,7 @@ exit
 )
 &
 &
-'
+"
         
 '
 echo
@@ -1538,22 +1545,22 @@ c
 &
 '
         
-'
+"
 {
 unpack
 }
 &
 &
-'
+"
         
-'
+"
 cd
 {
 package
 }
 &
 &
-'
+"
         
 #
 Optionally
@@ -1568,11 +1575,11 @@ build
 command
 .
         
-'
+"
 {
 adjust
 }
-'
+"
         
 #
 Install
@@ -1582,7 +1589,7 @@ build
 dependencies
 .
         
-'
+"
 (
 mk
 -
@@ -1598,12 +1605,10 @@ debian
 control
 -
 t
-\
 '
 {
 resolver
 }
-\
 '
 |
 |
@@ -1612,7 +1617,7 @@ exit
 )
 &
 &
-'
+"
         
 #
 Build
@@ -1642,7 +1647,7 @@ Copy
 the
 artifacts
         
-'
+"
 mkdir
 -
 p
@@ -1653,9 +1658,9 @@ artifacts
 debian
 &
 &
-'
+"
         
-'
+"
 dcmd
 cp
 .
@@ -1676,16 +1681,16 @@ debian
 /
 &
 &
-'
+"
         
-'
+"
 cd
 {
 artifacts
 }
 &
 &
-'
+"
         
 #
 Make
@@ -1699,7 +1704,7 @@ APT
 repository
 .
         
-'
+"
 apt
 -
 ftparchive
@@ -1717,9 +1722,9 @@ Sources
 gz
 &
 &
-'
+"
         
-'
+"
 apt
 -
 ftparchive
@@ -1735,8 +1740,7 @@ debian
 Packages
 .
 gz
-'
-        
+"
 .
 format
 (
@@ -1774,12 +1778,12 @@ adjust
             
 artifacts
 =
-'
+"
 /
 tmp
 /
 artifacts
-'
+"
             
 resolver
 =
@@ -1794,9 +1798,9 @@ run
 .
 get
 (
-'
+"
 packages
-'
+"
 )
 :
         
@@ -1806,53 +1810,52 @@ worker
 .
 setdefault
 (
-'
+"
 env
-'
+"
 {
 }
 )
         
 env
 [
-'
+"
 PACKAGES
-'
+"
 ]
 =
 {
             
-'
+"
 task
 -
 reference
-'
+"
 :
-'
-'
+"
+"
 .
 join
 (
-'
+"
 <
 {
 }
 >
-'
+"
 .
 format
 (
 p
 )
-                                       
 for
 p
 in
 run
 [
-'
+"
 packages
-'
+"
 ]
 )
         
@@ -1864,9 +1867,9 @@ taskdesc
 .
 setdefault
 (
-'
+"
 dependencies
-'
+"
 {
 }
 )
@@ -1876,9 +1879,9 @@ p
 in
 run
 [
-'
+"
 packages
-'
+"
 ]
 :
             
@@ -1887,12 +1890,12 @@ deps
 p
 ]
 =
-'
+"
 packages
 -
 {
 }
-'
+"
 .
 format
 (
@@ -1935,16 +1938,16 @@ list
 (
 worker
 [
-'
+"
 command
-'
+"
 ]
 )
     
 if
-'
+"
 patch
-'
+"
 in
 run
 :
@@ -1963,22 +1966,23 @@ path
 join
 (
 GECKO
-'
+"
 build
-'
-'
+"
+"
 debian
 -
 packages
-'
+"
 run
 [
-'
+"
 patch
-'
+"
 ]
 )
 )
+        
 )
     
 if
@@ -1990,34 +1994,34 @@ fast
         
 taskdesc
 [
-'
+"
 cache
-'
+"
 ]
 =
 {
             
-'
+"
 type
-'
+"
 :
-'
+"
 packages
 .
 v1
-'
+"
             
-'
+"
 name
-'
+"
 :
 name
             
-'
+"
 digest
 -
 data
-'
+"
 :
 digest_data
         

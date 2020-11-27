@@ -184,6 +184,7 @@ None
 def
 fixSymbols
 (
+    
 line
 jsonMode
 =
@@ -288,9 +289,9 @@ environ
 get
 (
             
-'
+"
 MOZ_FETCHES_DIR
-'
+"
             
 os
 .
@@ -298,25 +299,22 @@ environ
 .
 get
 (
-                
-'
+"
 MOZBUILD_STATE_PATH
-'
-                
+"
 os
 .
 path
 .
 expanduser
 (
-'
+"
 ~
 /
 .
 mozbuild
-'
+"
 )
-            
 )
         
 )
@@ -325,7 +323,7 @@ fix_stacks_exe
 =
 base
 +
-'
+"
 /
 fix
 -
@@ -334,7 +332,7 @@ stacks
 fix
 -
 stacks
-'
+"
         
 if
 platform
@@ -344,19 +342,19 @@ system
 )
 =
 =
-'
+"
 Windows
-'
+"
 :
             
 fix_stacks_exe
 =
 fix_stacks_exe
 +
-'
+"
 .
 exe
-'
+"
         
 if
 not
@@ -385,7 +383,7 @@ X_OK
 raise
 Exception
 (
-'
+"
 cannot
 find
 fix
@@ -398,7 +396,7 @@ run
 /
 mach
 bootstrap
-'
+"
 )
         
 args
@@ -415,10 +413,10 @@ args
 .
 append
 (
-'
+"
 -
 j
-'
+"
 )
         
 if
@@ -429,10 +427,10 @@ args
 .
 append
 (
-'
+"
 -
 b
-'
+"
 )
             
 args
@@ -472,6 +470,7 @@ fix_stacks
 =
 Popen
 (
+            
 args
 stdin
 =
@@ -485,6 +484,7 @@ stderr
 universal_newlines
 =
 True
+        
 )
         
 #
@@ -563,6 +563,7 @@ slowWarning
             
 print
 (
+                
 "
 Initializing
 stack
@@ -582,6 +583,7 @@ while
 .
 .
 "
+            
 )
     
 #
@@ -648,10 +650,10 @@ line
 .
 endswith
 (
-'
+"
 \
 n
-'
+"
 )
     
 if

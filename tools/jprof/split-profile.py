@@ -1016,6 +1016,7 @@ stderr
 .
 write
 (
+            
 "
 Error
 {
@@ -1035,7 +1036,7 @@ n
 .
 format
 (
-            
+                
 process
 .
 returncode
@@ -1046,7 +1047,9 @@ join
 (
 args
 )
+            
 )
+        
 )
         
 sys
@@ -1202,7 +1205,6 @@ dirname
 (
 splitfile
 )
-                        
 "
 jprof
 -
@@ -1256,6 +1258,7 @@ splits
     
 generate_profile
 (
+        
 excludes
 +
 [
@@ -1266,12 +1269,12 @@ i
 +
 splitfunction
 ]
-                     
 output_filename
 (
 count
 splitname
 )
+    
 )
     
 excludes

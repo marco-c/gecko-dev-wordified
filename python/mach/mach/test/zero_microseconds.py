@@ -46,7 +46,6 @@ context
 handler
 instance
 result
-            
 start_time
 end_time
 depth
@@ -72,7 +71,6 @@ context
 handler
 instance
 result
-        
 int
 (
 start_time

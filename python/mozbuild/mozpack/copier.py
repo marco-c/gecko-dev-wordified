@@ -109,9 +109,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Generic
 container
@@ -194,9 +194,9 @@ bar
 file_instance
 )
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -236,9 +236,9 @@ path
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Turn
 "
@@ -270,9 +270,9 @@ foo
 ]
 .
         
-'
-'
-'
+"
+"
+"
         
 dir_name
 =
@@ -280,9 +280,9 @@ path
 .
 rpartition
 (
-'
+"
 /
-'
+"
 )
 [
 0
@@ -349,9 +349,9 @@ content
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 a
@@ -366,9 +366,9 @@ given
 path
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 isinstance
@@ -431,7 +431,6 @@ required
 directory
 "
 %
-                                
 path
 )
         
@@ -491,7 +490,6 @@ a
 file
 "
 %
-                                    
 (
 path
 partial_path
@@ -524,9 +522,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -561,14 +559,14 @@ handled
 patterns
 .
         
-'
-'
-'
+"
+"
+"
         
 if
-'
+"
 *
-'
+"
 in
 pattern
 :
@@ -584,7 +582,6 @@ self
 paths
 (
 )
-                    
 if
 mozpath
 .
@@ -599,8 +596,8 @@ if
 pattern
 =
 =
-'
-'
+"
+"
 :
             
 return
@@ -634,7 +631,6 @@ self
 paths
 (
 )
-                
 if
 mozpath
 .
@@ -658,9 +654,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Remove
 paths
@@ -691,9 +687,9 @@ handled
 patterns
 .
         
-'
-'
-'
+"
+"
+"
         
 items
 =
@@ -714,6 +710,7 @@ errors
 .
 error
 (
+                
 "
 Can
 '
@@ -725,10 +722,10 @@ s
 %
 s
 "
+                
 %
 (
 pattern
-                                                         
 "
 not
 matching
@@ -737,6 +734,7 @@ previously
 added
 "
 )
+            
 )
         
 for
@@ -774,9 +772,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 all
@@ -793,9 +791,9 @@ were
 added
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 list
@@ -812,9 +810,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 number
@@ -826,9 +824,9 @@ the
 container
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 len
@@ -849,6 +847,7 @@ pattern
 raise
 RuntimeError
 (
+            
 "
 '
 in
@@ -866,12 +865,12 @@ contains
 .
 "
 %
-                           
 self
 .
 __class__
 .
 __name__
+        
 )
     
 def
@@ -882,9 +881,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -916,9 +915,9 @@ handled
 patterns
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 len
@@ -941,9 +940,9 @@ path
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -960,9 +959,9 @@ given
 path
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -979,9 +978,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Iterate
 over
@@ -1010,9 +1009,9 @@ registry
 .
 )
         
-'
-'
-'
+"
+"
+"
         
 return
 six
@@ -1031,9 +1030,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -1079,9 +1078,9 @@ directory
 )
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 set
@@ -1111,9 +1110,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 a
@@ -1139,9 +1138,9 @@ are
 normalized
 .
         
-'
-'
-'
+"
+"
+"
         
 tree
 =
@@ -1197,9 +1196,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 a
@@ -1224,9 +1223,9 @@ are
 normalized
 .
         
-'
-'
-'
+"
+"
+"
         
 tree
 =
@@ -1292,9 +1291,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
 A
 proxy
 class
@@ -1321,9 +1320,9 @@ whole
 FileRegistry
 interface
 .
-'
-'
-'
+"
+"
+"
     
 def
 __new__
@@ -1455,6 +1454,7 @@ pattern
         
 return
 [
+            
 mozpath
 .
 relpath
@@ -1464,7 +1464,7 @@ self
 .
 _base
 )
-                
+            
 for
 p
 in
@@ -1481,6 +1481,7 @@ _get_path
 pattern
 )
 )
+        
 ]
     
 def
@@ -1761,9 +1762,9 @@ FileRegistry
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 FileRegistry
 with
@@ -1781,36 +1782,40 @@ separate
 directory
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 copy
 (
+        
 self
+        
 destination
+        
 skip_if_older
 =
 True
-             
+        
 remove_unaccounted
 =
 True
-             
+        
 remove_all_directory_symlinks
 =
 True
-             
+        
 remove_empty_directories
 =
 True
+    
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Copy
 all
@@ -2057,9 +2062,9 @@ what
 changed
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 isinstance
@@ -2101,9 +2106,9 @@ have_symlinks
 hasattr
 (
 os
-'
+"
 symlink
-'
+"
 )
         
 destination
@@ -2275,6 +2280,7 @@ required_dirs
 =
 set
 (
+            
 os
 .
 path
@@ -2291,7 +2297,7 @@ destination
 d
 )
 )
-                             
+            
 for
 d
 in
@@ -2300,6 +2306,7 @@ self
 required_directories
 (
 )
+        
 )
         
 #
@@ -2655,6 +2662,7 @@ existing_files
 =
 set
 (
+                
 os
 .
 path
@@ -2671,7 +2679,7 @@ destination
 p
 )
 )
-                                 
+                
 for
 p
 in
@@ -2680,12 +2688,14 @@ remove_unaccounted
 paths
 (
 )
+            
 )
             
 existing_dirs
 =
 set
 (
+                
 os
 .
 path
@@ -2702,16 +2712,16 @@ destination
 p
 )
 )
-                                
+                
 for
 p
 in
 remove_unaccounted
-                                
 .
 required_directories
 (
 )
+            
 )
             
 existing_dirs
@@ -2934,7 +2944,6 @@ removed_files
 .
 add
 (
-                                    
 os
 .
 path
@@ -3177,9 +3186,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 and
 len
 (
@@ -3387,9 +3396,9 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 and
 not
 os
@@ -3786,13 +3795,14 @@ them
                 
 if
 (
+                    
 isinstance
 (
 remove_unaccounted
 FileRegistry
 )
+                    
 and
-                        
 e
 .
 errno
@@ -3801,6 +3811,7 @@ errno
 errno
 .
 ENOTEMPTY
+                
 )
 :
                     
@@ -3827,9 +3838,9 @@ BaseFile
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 FileRegistry
 with
@@ -3862,9 +3873,9 @@ a
 FileCopier
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -3876,9 +3887,9 @@ True
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Create
 a
@@ -3901,9 +3912,9 @@ compress
 argument
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -3988,9 +3999,9 @@ True
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Pack
 all
@@ -4049,9 +4060,9 @@ when
 appropriate
 .
         
-'
-'
-'
+"
+"
+"
         
 class
 DeflaterDest
@@ -4060,9 +4071,9 @@ Dest
 )
 :
             
-'
-'
-'
+"
+"
+"
             
 Dest
 -
@@ -4135,9 +4146,9 @@ reads
 from
 it
             
-'
-'
-'
+"
+"
+"
             
 def
 __init__
@@ -4187,9 +4198,9 @@ self
 mode
 !
 =
-'
+"
 r
-'
+"
 :
                     
 assert
@@ -4203,9 +4214,9 @@ self
 .
 mode
 =
-'
+"
 r
-'
+"
                 
 return
 self
@@ -4231,9 +4242,9 @@ self
 mode
 !
 =
-'
+"
 w
-'
+"
 :
                     
 from
@@ -4258,9 +4269,9 @@ self
 .
 mode
 =
-'
+"
 w
-'
+"
                 
 self
 .
@@ -4439,14 +4450,14 @@ compress
 JAR_BROTLI
 and
 (
-                        
+                    
 isinstance
 (
 file
 ManifestFile
 )
+                    
 or
-                        
 mozpath
 .
 basename
@@ -4455,11 +4466,12 @@ path
 )
 =
 =
-'
+"
 install
 .
 rdf
-'
+"
+                
 )
 :
                     
@@ -4509,6 +4521,7 @@ jar
 .
 add
 (
+                        
 path
 file
 .
@@ -4518,7 +4531,6 @@ mode
 file
 .
 mode
-                            
 compress
 =
 file
@@ -4526,6 +4538,7 @@ file
 file
 .
 compress
+                    
 )
                     
 continue
@@ -4672,9 +4685,9 @@ self
 raise
 RuntimeError
 (
-'
+"
 unsupported
-'
+"
 )
     
 def
@@ -4685,9 +4698,9 @@ paths
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 the
@@ -4717,9 +4730,9 @@ jar
 preloading
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .

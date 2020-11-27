@@ -147,28 +147,26 @@ False
     
 Command
 (
-'
+"
 cmd_foo
-'
+"
 category
 =
-'
+"
 testing
-'
+"
 )
     
 CommandArgument
 (
-        
-'
+"
 -
 -
 arg
-'
+"
 default
 =
 None
-        
 help
 =
 "
@@ -189,15 +187,14 @@ pass
     
 Command
 (
-'
+"
 cmd_bar
-'
+"
 category
 =
-'
+"
 testing
-'
-             
+"
 conditions
 =
 [
@@ -220,15 +217,15 @@ pass
     
 Command
 (
-'
+        
+"
 cmd_foobar
-'
+"
 category
 =
-'
+"
 testing
-'
-             
+"
 conditions
 =
 [
@@ -239,6 +236,7 @@ is_bar
 True
 )
 ]
+    
 )
     
 def

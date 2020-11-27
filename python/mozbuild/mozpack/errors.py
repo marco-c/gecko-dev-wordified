@@ -72,9 +72,9 @@ Exception
 )
 :
     
-'
-'
-'
+"
+"
+"
 Exception
 type
 raised
@@ -90,9 +90,9 @@ errors
 fatal
 (
 )
-'
-'
-'
+"
+"
+"
 class
 AccumulatedErrors
 (
@@ -100,9 +100,9 @@ Exception
 )
 :
     
-'
-'
-'
+"
+"
+"
 Exception
 type
 raised
@@ -112,9 +112,9 @@ errors
 accumulate
 (
 )
-'
-'
-'
+"
+"
+"
 class
 ErrorCollector
 (
@@ -122,9 +122,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Error
 handling
@@ -490,9 +490,9 @@ messages
 do
 .
     
-'
-'
-'
+"
+"
+"
     
 out
 =
@@ -578,18 +578,18 @@ _level
             
 level
 =
-'
+"
 Error
-'
+"
         
 else
 :
             
 level
 =
-'
+"
 Warning
-'
+"
         
 if
 self

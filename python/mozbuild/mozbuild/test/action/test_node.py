@@ -92,12 +92,12 @@ mozpath
 join
 (
 test_data_path
-'
+"
 data
-'
-'
+"
+"
 node
-'
+"
 )
 def
 data
@@ -195,9 +195,9 @@ buildconfig
 .
 substs
 [
-'
+"
 NODEJS
-'
+"
 ]
 =
 find_node_executable
@@ -297,11 +297,9 @@ deps
 set
 (
 [
-u
 "
 a
 "
-u
 "
 b
 "
@@ -458,9 +456,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

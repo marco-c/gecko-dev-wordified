@@ -118,6 +118,7 @@ target
 .
 EvaluateExpression
 (
+        
 "
 (
 char16_t
@@ -136,6 +137,7 @@ valobj
 GetName
 (
 )
+    
 )
     
 return
@@ -250,6 +252,8 @@ self
 :
         
 return
+(
+            
 self
 .
 header
@@ -257,6 +261,7 @@ header
 Dereference
 (
 )
+            
 .
 GetChildMemberWithName
 (
@@ -264,10 +269,13 @@ GetChildMemberWithName
 mLength
 "
 )
+            
 .
 GetValueAsUnsigned
 (
 0
+)
+        
 )
     
 def
@@ -385,6 +393,7 @@ valobj
 .
 CreateValueFromAddress
 (
+            
 "
 [
 %
@@ -397,6 +406,7 @@ addr
 self
 .
 element_type
+        
 )
 def
 prefcnt
@@ -624,6 +634,7 @@ nsCycleCollectingAutoRefCnt
         
 print
 (
+            
 field
 .
 GetChildMemberWithName
@@ -640,6 +651,7 @@ GetValueAsUnsigned
 >
 >
 2
+        
 )
     
 elif
@@ -810,7 +822,7 @@ by
 getting
 its
 address
-       
+    
 from
 the
 symbol
@@ -829,9 +841,9 @@ void
 "
     
 if
-'
+"
 (
-'
+"
 not
 in
 command
@@ -839,7 +851,7 @@ command
         
 print
 (
-'
+"
 Usage
 :
 callfunc
@@ -847,7 +859,7 @@ your_function
 (
 args
 )
-'
+"
 )
         
 return
@@ -858,9 +870,9 @@ command
 .
 split
 (
-'
+"
 (
-'
+"
 )
     
 funcname
@@ -938,10 +950,10 @@ symbols
     
 arg_types
 =
-'
+"
 (
 )
-'
+"
     
 if
 sym
@@ -956,9 +968,9 @@ startswith
 (
 funcname
 +
-'
+"
 (
-'
+"
 )
 :
         
@@ -999,6 +1011,7 @@ s
 %
 s
 "
+        
 %
 (
 arg_types
@@ -1025,6 +1038,7 @@ debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1038,12 +1052,14 @@ general
 .
 summarize_string
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1057,12 +1073,14 @@ general
 .
 summarize_string
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1076,12 +1094,14 @@ general
 .
 summarize_string
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1095,12 +1115,14 @@ general
 .
 summarize_string
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1114,12 +1136,14 @@ general
 .
 summarize_string
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1133,12 +1157,14 @@ general
 .
 summarize_string
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1152,6 +1178,7 @@ general
 .
 summarize_atom
 "
+    
 )
     
 debugger
@@ -1159,17 +1186,15 @@ debugger
 HandleCommand
 (
         
-"
+'
 type
 synthetic
 add
 -
 x
-\
 "
 nsTArray
 <
-\
 "
 -
 l
@@ -1178,7 +1203,7 @@ lldbutils
 general
 .
 TArraySyntheticChildrenProvider
-"
+'
     
 )
     
@@ -1187,17 +1212,15 @@ debugger
 HandleCommand
 (
         
-"
+'
 type
 synthetic
 add
 -
 x
-\
 "
 AutoTArray
 <
-\
 "
 -
 l
@@ -1206,7 +1229,7 @@ lldbutils
 general
 .
 TArraySyntheticChildrenProvider
-"
+'
 #
 NOQA
 :
@@ -1219,17 +1242,15 @@ debugger
 HandleCommand
 (
         
-"
+'
 type
 synthetic
 add
 -
 x
-\
 "
 FallibleTArray
 <
-\
 "
 -
 l
@@ -1238,7 +1259,7 @@ lldbutils
 general
 .
 TArraySyntheticChildrenProvider
-"
+'
 #
 NOQA
 :

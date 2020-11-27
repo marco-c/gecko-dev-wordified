@@ -138,9 +138,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 A
 class
@@ -501,9 +501,9 @@ fail
 appropriately
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -553,15 +553,13 @@ self
 .
 re_error
 =
-\
-            
 re
 .
 compile
 (
-                
+            
 r
-'
+"
 =
 =
 \
@@ -570,11 +568,11 @@ d
 =
 =
 (
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Use
 of
@@ -587,11 +585,11 @@ d
 +
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Conditional
 jump
@@ -608,11 +606,11 @@ s
 )
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Syscall
 param
@@ -628,11 +626,11 @@ s
 )
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Syscall
 param
@@ -653,11 +651,11 @@ s
 )
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 (
 Unaddressable
@@ -677,11 +675,11 @@ check
 request
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Invalid
 free
@@ -705,11 +703,11 @@ realloc
 )
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Mismatched
 free
@@ -727,11 +725,11 @@ delete
 ]
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Invalid
 (
@@ -746,11 +744,11 @@ d
 +
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Jump
 to
@@ -764,11 +762,11 @@ next
 line
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 Source
 and
@@ -779,11 +777,11 @@ in
 *
 )
 |
-'
+"
+            
 +
-                
 r
-'
+"
 (
 .
 *
@@ -797,14 +795,14 @@ are
 *
 lost
 )
-'
-+
-                
-r
-'
-)
-'
+"
             
++
+r
+"
+)
+"
+        
 )
         
 #
@@ -843,14 +841,12 @@ self
 .
 re_stack_entry
 =
-\
-            
 re
 .
 compile
 (
 r
-'
+"
 ^
 =
 =
@@ -886,26 +882,24 @@ z0
 ]
 +
 )
-'
+"
 )
         
 self
 .
 re_suppression
 =
-\
-            
 re
 .
 compile
 (
 r
-'
+"
 *
 <
 insert_a_suppression_name_here
 >
-'
+"
 )
         
 self
@@ -971,15 +965,15 @@ text
 if
 msg
 [
-'
+"
 action
-'
+"
 ]
 !
 =
-'
+"
 log
-'
+"
 :
             
 return
@@ -989,9 +983,9 @@ line
 =
 msg
 [
-'
+"
 message
-'
+"
 ]
         
 output_message
@@ -1149,11 +1143,11 @@ self
 curr_failure_msg
 +
 =
-'
+"
 ?
 !
 ?
-'
+"
             
 self
 .
@@ -1176,9 +1170,9 @@ self
 curr_failure_msg
 +
 =
-'
+"
 /
-'
+"
             
 else
 :
@@ -1326,6 +1320,7 @@ secondary
 self
 .
 buffered_lines
+                
 }
                 
 self

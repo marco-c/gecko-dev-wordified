@@ -100,7 +100,7 @@ MAX_EXTRA_KEY_NAME_LENGTH
 IDENTIFIER_PATTERN
 =
 r
-'
+"
 ^
 [
 a
@@ -129,7 +129,7 @@ Z0
 -
 9
 ]
-'
+"
 def
 nice_type_name
 (
@@ -277,6 +277,7 @@ instance_type
             
 ParserError
 (
+                
 "
 %
 s
@@ -296,18 +297,21 @@ got
 s
 .
 "
+                
 %
-                        
 (
+                    
 identifier
+                    
 key
+                    
 nice_type_name
 (
 self
 .
 instance_type
 )
-                            
+                    
 nice_type_name
 (
 type
@@ -315,7 +319,9 @@ type
 value
 )
 )
+                
 )
+            
 )
 .
 handle_later
@@ -407,6 +413,7 @@ instance_types
             
 ParserError
 (
+                
 "
 %
 s
@@ -430,12 +437,14 @@ n
 %
 s
 "
+                
 %
-                        
 (
+                    
 identifier
+                    
 key
-                         
+                    
 nice_type_name
 (
 type
@@ -443,7 +452,7 @@ type
 value
 )
 )
-                         
+                    
 "
 or
 "
@@ -458,7 +467,9 @@ self
 instance_types
 )
 )
+                
 )
+            
 )
 .
 handle_later
@@ -519,6 +530,7 @@ value
             
 ParserError
 (
+                
 "
 %
 s
@@ -536,12 +548,13 @@ be
 empty
 .
 "
+                
 %
-                        
 (
 identifier
 key
 )
+            
 )
 .
 handle_now
@@ -567,6 +580,7 @@ instance_type
                 
 ParserError
 (
+                    
 "
 %
 s
@@ -586,23 +600,27 @@ type
 s
 got
 "
-                            
+                    
 "
 %
 s
 .
 "
+                    
 %
 (
+                        
 identifier
+                        
 key
+                        
 nice_type_name
 (
 self
 .
 instance_type
 )
-                                      
+                        
 nice_type_name
 (
 type
@@ -610,7 +628,9 @@ type
 x
 )
 )
+                    
 )
+                
 )
 .
 handle_later
@@ -684,6 +704,7 @@ keys
             
 ParserError
 (
+                
 "
 %
 s
@@ -701,12 +722,13 @@ be
 empty
 .
 "
+                
 %
-                        
 (
 identifier
 key
 )
+            
 )
 .
 handle_now
@@ -736,6 +758,7 @@ keys_instance_type
                 
 ParserError
 (
+                    
 "
 %
 s
@@ -755,25 +778,27 @@ type
 s
 got
 "
-                            
+                    
 "
 %
 s
 .
 "
+                    
 %
-                            
 (
+                        
 identifier
+                        
 key
-                             
+                        
 nice_type_name
 (
 self
 .
 keys_instance_type
 )
-                             
+                        
 nice_type_name
 (
 type
@@ -781,7 +806,9 @@ type
 x
 )
 )
+                    
 )
+                
 )
 .
 handle_later
@@ -812,6 +839,7 @@ values_instance_type
                 
 ParserError
 (
+                    
 "
 %
 s
@@ -825,7 +853,7 @@ for
 s
 -
 "
-                            
+                    
 "
 expected
 value
@@ -841,20 +869,23 @@ got
 s
 .
 "
+                    
 %
-                            
 (
+                        
 identifier
+                        
 key
-                             
+                        
 nice_type_name
 (
 self
 .
 values_instance_type
 )
-                             
+                        
 k
+                        
 nice_type_name
 (
 type
@@ -862,7 +893,9 @@ type
 v
 )
 )
+                    
 )
+                
 )
 .
 handle_later
@@ -899,54 +932,54 @@ REQUIRED_FIELDS
 =
 {
         
-'
+"
 objects
-'
+"
 :
 ListTypeChecker
 (
 str
 )
         
-'
+"
 bug_numbers
-'
+"
 :
 ListTypeChecker
 (
 int
 )
         
-'
+"
 notification_emails
-'
+"
 :
 ListTypeChecker
 (
 str
 )
         
-'
+"
 record_in_processes
-'
+"
 :
 ListTypeChecker
 (
 str
 )
         
-'
+"
 description
-'
+"
 :
 AtomicTypeChecker
 (
 str
 )
         
-'
+"
 products
-'
+"
 :
 ListTypeChecker
 (
@@ -959,36 +992,36 @@ OPTIONAL_FIELDS
 =
 {
         
-'
+"
 methods
-'
+"
 :
 ListTypeChecker
 (
 str
 )
         
-'
+"
 release_channel_collection
-'
+"
 :
 AtomicTypeChecker
 (
 str
 )
         
-'
+"
 expiry_version
-'
+"
 :
 AtomicTypeChecker
 (
 str
 )
         
-'
+"
 extra_keys
-'
+"
 :
 DictTypeChecker
 (
@@ -996,9 +1029,9 @@ str
 str
 )
         
-'
+"
 operating_systems
-'
+"
 :
 ListTypeChecker
 (
@@ -1063,24 +1096,25 @@ missing_fields
         
 ParserError
 (
+            
 identifier
 +
-'
+"
 :
 Missing
 required
 fields
 :
-'
+"
 +
-'
-'
+"
+"
 .
 join
 (
 missing_fields
 )
-                    
+        
 )
 .
 handle_now
@@ -1125,22 +1159,24 @@ unknown_fields
         
 ParserError
 (
+            
 identifier
 +
-'
+"
 :
 Unknown
 fields
 :
-'
+"
 +
-'
-'
+"
+"
 .
 join
 (
 unknown_fields
 )
+        
 )
 .
 handle_later
@@ -1210,6 +1246,7 @@ min_length
         
 ParserError
 (
+            
 "
 %
 s
@@ -1233,14 +1270,15 @@ of
 d
 .
 "
+            
 %
-                    
 (
 identifier
 value
 field
 min_length
 )
+        
 )
 .
 handle_later
@@ -1260,6 +1298,7 @@ max_length
         
 ParserError
 (
+            
 "
 %
 s
@@ -1283,14 +1322,15 @@ of
 d
 .
 "
+            
 %
-                    
 (
 identifier
 value
 field
 max_length
 )
+        
 )
 .
 handle_later
@@ -1317,6 +1357,7 @@ value
         
 ParserError
 (
+            
 '
 %
 s
@@ -1340,14 +1381,15 @@ s
 "
 .
 '
+            
 %
-                    
 (
 identifier
 value
 field
 regex
 )
+        
 )
 .
 handle_later
@@ -1439,28 +1481,33 @@ methods
                 
 string_check
 (
+                    
 self
 .
 identifier
+                    
 field
 =
-'
+"
 methods
-'
+"
+                    
 value
 =
 method
-                             
+                    
 min_length
 =
 1
+                    
 max_length
 =
 MAX_METHOD_NAME_LENGTH
-                             
+                    
 regex
 =
 IDENTIFIER_PATTERN
+                
 )
             
 for
@@ -1473,28 +1520,33 @@ objects
                 
 string_check
 (
+                    
 self
 .
 identifier
+                    
 field
 =
-'
+"
 objects
-'
+"
+                    
 value
 =
 obj
-                             
+                    
 min_length
 =
 1
+                    
 max_length
 =
 MAX_OBJECT_NAME_LENGTH
-                             
+                    
 regex
 =
 IDENTIFIER_PATTERN
+                
 )
         
 #
@@ -1503,9 +1555,9 @@ release_channel_collection
         
 rcc_key
 =
-'
+"
 release_channel_collection
-'
+"
         
 rcc
 =
@@ -1514,11 +1566,11 @@ definition
 get
 (
 rcc_key
-'
+"
 opt
 -
 in
-'
+"
 )
         
 allowed_rcc
@@ -1545,6 +1597,7 @@ allowed_rcc
             
 ParserError
 (
+                
 "
 %
 s
@@ -1561,8 +1614,8 @@ of
 %
 s
 "
+                
 %
-                        
 (
 self
 .
@@ -1576,6 +1629,7 @@ join
 allowed_rcc
 )
 )
+            
 )
 .
 handle_later
@@ -1593,9 +1647,9 @@ definition
 .
 get
 (
-'
+"
 record_in_processes
-'
+"
 )
         
 for
@@ -1616,21 +1670,22 @@ proc
                 
 ParserError
 (
+                    
 self
 .
 identifier
 +
-'
+"
 :
 Unknown
 value
 in
 record_in_processes
 :
-'
+"
 +
-                            
 proc
+                
 )
 .
 handle_later
@@ -1648,9 +1703,9 @@ definition
 .
 get
 (
-'
+"
 products
-'
+"
 )
         
 for
@@ -1675,21 +1730,22 @@ _strict_type_checks
                 
 ParserError
 (
+                    
 self
 .
 identifier
 +
-'
+"
 :
 Unknown
 value
 in
 products
 :
-'
+"
 +
-                            
 product
+                
 )
 .
 handle_later
@@ -1707,6 +1763,7 @@ product
                 
 ParserError
 (
+                    
 "
 {
 }
@@ -1722,12 +1779,14 @@ Telemetry
 .
 format
 (
-                    
+                        
 self
 .
 identifier
 product
+                    
 )
+                
 )
 .
 handle_later
@@ -1745,9 +1804,9 @@ definition
 .
 get
 (
-'
+"
 operating_systems
-'
+"
 [
 ]
 )
@@ -1770,21 +1829,24 @@ operating_system
                 
 ParserError
 (
+                    
 self
 .
 identifier
+                    
 +
-'
+"
 :
 Unknown
 value
 in
 operating_systems
 :
-'
+"
+                    
 +
-                            
 operating_system
+                
 )
 .
 handle_later
@@ -1802,9 +1864,9 @@ definition
 .
 get
 (
-'
+"
 extra_keys
-'
+"
 {
 }
 )
@@ -1824,6 +1886,7 @@ MAX_EXTRA_KEYS_COUNT
             
 ParserError
 (
+                
 "
 %
 s
@@ -1837,14 +1900,15 @@ limit
 d
 .
 "
+                
 %
-                        
 (
 self
 .
 identifier
 MAX_EXTRA_KEYS_COUNT
 )
+            
 )
 .
 handle_later
@@ -1863,28 +1927,33 @@ keys
             
 string_check
 (
+                
 self
 .
 identifier
+                
 field
 =
-'
+"
 extra_keys
-'
+"
+                
 value
 =
 key
-                         
+                
 min_length
 =
 1
+                
 max_length
 =
 MAX_EXTRA_KEY_NAME_LENGTH
-                         
+                
 regex
 =
 IDENTIFIER_PATTERN
+            
 )
         
 #
@@ -1893,9 +1962,9 @@ expiry
 .
         
 if
-'
+"
 expiry_version
-'
+"
 not
 in
 definition
@@ -1903,6 +1972,7 @@ definition
             
 ParserError
 (
+                
 "
 %
 s
@@ -1914,13 +1984,13 @@ required
 field
 expiry_version
 "
-                        
 %
 (
 self
 .
 identifier
 )
+            
 )
 .
 handle_later
@@ -1973,15 +2043,17 @@ definition
 .
 get
 (
-'
+"
 expiry_version
-'
-'
+"
+"
 never
-'
+"
 )
         
 if
+(
+            
 not
 utils
 .
@@ -1989,15 +2061,19 @@ validate_expiration_version
 (
 expiry_version
 )
+            
 and
 self
 .
 _strict_type_checks
+        
+)
 :
             
 ParserError
 (
-'
+                
+"
 {
 }
 :
@@ -2007,16 +2083,18 @@ expiry_version
 {
 }
 .
-'
-                        
+"
 .
 format
 (
+                    
 self
 .
 identifier
 expiry_version
+                
 )
+            
 )
 .
 handle_now
@@ -2025,9 +2103,9 @@ handle_now
         
 definition
 [
-'
+"
 expiry_version
-'
+"
 ]
 =
 utils
@@ -2136,9 +2214,9 @@ _definition
 .
 get
 (
-'
+"
 methods
-'
+"
 [
 self
 .
@@ -2162,9 +2240,9 @@ _definition
 .
 get
 (
-'
+"
 objects
-'
+"
 )
     
 property
@@ -2183,9 +2261,9 @@ _definition
 .
 get
 (
-'
+"
 record_in_processes
-'
+"
 )
     
 property
@@ -2270,9 +2348,9 @@ _definition
 .
 get
 (
-'
+"
 products
-'
+"
 )
     
 property
@@ -2337,9 +2415,9 @@ _definition
 .
 get
 (
-'
+"
 expiry_version
-'
+"
 )
     
 property
@@ -2375,9 +2453,9 @@ _definition
 .
 get
 (
-'
+"
 operating_systems
-'
+"
 [
 "
 all
@@ -2500,9 +2578,9 @@ _
 return
 m
 +
-'
+"
 _
-'
+"
 +
 o
         
@@ -2559,7 +2637,6 @@ equivalent
 for
 release_channel_collection
 .
-        
 "
 "
 "
@@ -2574,28 +2651,28 @@ if
 rcc
 =
 =
-'
+"
 opt
 -
 out
-'
+"
 :
             
 return
-'
+"
 nsITelemetry
 :
 :
 DATASET_ALL_CHANNELS
-'
+"
         
 return
-'
+"
 nsITelemetry
 :
 :
 DATASET_PRERELEASE_CHANNELS
-'
+"
     
 property
     
@@ -2624,7 +2701,6 @@ for
 the
 event
 .
-        
 "
 "
 "
@@ -2655,14 +2731,14 @@ _definition
 .
 get
 (
-'
+"
 release_channel_collection
-'
-'
+"
+"
 opt
 -
 in
-'
+"
 )
     
 property
@@ -2685,9 +2761,9 @@ _definition
 .
 get
 (
-'
+"
 extra_keys
-'
+"
 {
 }
 )
@@ -2786,9 +2862,9 @@ with
 open
 (
 filename
-'
+"
 r
-'
+"
 )
 as
 f
@@ -2811,16 +2887,16 @@ e
         
 ParserError
 (
-'
+"
 Error
 opening
-'
+"
 +
 filename
 +
-'
+"
 :
-'
+"
 +
 e
 .
@@ -2843,18 +2919,19 @@ e
         
 ParserError
 (
-'
+            
+"
 Error
 parsing
 events
 in
-'
+"
 +
 filename
 +
-'
+"
 :
-'
+"
 +
 e
 .
@@ -2863,6 +2940,7 @@ message
 "
 .
 "
+        
 )
 .
 handle_now
@@ -2962,30 +3040,35 @@ items
         
 string_check
 (
+            
 "
 top
 level
 structure
 "
+            
 field
 =
-'
+"
 category
-'
+"
+            
 value
 =
 category_name
-                     
+            
 min_length
 =
 1
+            
 max_length
 =
 MAX_CATEGORY_NAME_LENGTH
-                     
+            
 regex
 =
 IDENTIFIER_PATTERN
+        
 )
         
 #
@@ -3018,13 +3101,14 @@ category
             
 ParserError
 (
-'
+                
+"
 Category
-'
+"
 +
 category_name
 +
-'
+"
 must
 contain
 at
@@ -3032,8 +3116,8 @@ least
 one
 entry
 .
-'
-                        
+"
+            
 )
 .
 handle_now
@@ -3056,27 +3140,32 @@ items
             
 string_check
 (
+                
 category_name
+                
 field
 =
-'
+"
 event
 name
-'
+"
+                
 value
 =
 name
-                         
+                
 min_length
 =
 1
+                
 max_length
 =
 MAX_METHOD_NAME_LENGTH
-                         
+                
 regex
 =
 IDENTIFIER_PATTERN
+            
 )
             
 event_list

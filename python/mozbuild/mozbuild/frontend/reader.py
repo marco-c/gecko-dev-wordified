@@ -345,14 +345,14 @@ formatter
 extra
 =
 {
-'
+"
 action
-'
+"
 :
 action
-'
+"
 params
-'
+"
 :
 params
 }
@@ -515,21 +515,21 @@ the
 instances
 .
         
-'
+"
 MOZ_APP_NAME
-'
+"
 :
-'
+"
 empty
-'
+"
         
-'
+"
 MOZ_CHILD_PROCESS_NAME
-'
+"
 :
-'
+"
 empty
-'
+"
         
 #
 Needed
@@ -547,13 +547,13 @@ from
 loading
 .
         
-'
+"
 JS_STANDALONE
-'
+"
 :
-'
+"
 1
-'
+"
     
 }
     
@@ -578,8 +578,8 @@ self
 .
 topobjdir
 =
-'
-'
+"
+"
         
 self
 .
@@ -931,9 +931,9 @@ metadata
 .
 get
 (
-'
+"
 exports
-'
+"
 {
 }
 )
@@ -968,9 +968,9 @@ metadata
 .
 setdefault
 (
-'
+"
 templates
-'
+"
 {
 }
 )
@@ -985,11 +985,12 @@ metadata
 .
 setdefault
 (
-'
+            
+"
 special_variables
-'
-                                                          
+"
 SPECIAL_VARIABLES
+        
 )
         
 self
@@ -1002,9 +1003,9 @@ metadata
 .
 setdefault
 (
-'
+"
 functions
-'
+"
 FUNCTIONS
 )
         
@@ -1018,10 +1019,9 @@ metadata
 .
 setdefault
 (
-'
+"
 subcontexts
-'
-                                                         
+"
 SUBCONTEXTS
 )
     
@@ -1140,27 +1140,34 @@ key
 if
 any
 (
+            
 key
 in
 d
+            
 for
 d
 in
 (
+                
 self
 .
 special_variables
+                
 self
 .
 functions
-                                  
+                
 self
 .
 subcontext_types
+                
 self
 .
 templates
+            
 )
+        
 )
 :
             
@@ -1203,23 +1210,29 @@ key
 return
         
 if
+(
+            
 key
 in
 self
 .
 special_variables
+            
 or
 key
 in
 self
 .
 functions
+            
 or
 key
 in
 self
 .
 subcontext_types
+        
+)
 :
             
 raise
@@ -1239,7 +1252,6 @@ a
 reserved
 keyword
 '
-                           
 %
 key
 )
@@ -1369,12 +1381,12 @@ config
 raise
 SandboxLoadError
 (
+                
 self
 .
 _context
 .
 source_stack
-                                   
 sys
 .
 exc_info
@@ -1386,6 +1398,7 @@ exc_info
 illegal_path
 =
 path
+            
 )
         
 Sandbox
@@ -1430,9 +1443,9 @@ metadata
 .
 setdefault
 (
-'
+"
 exports
-'
+"
 dict
 (
 )
@@ -1447,7 +1460,7 @@ exports
 raise
 Exception
 (
-'
+"
 Variable
 has
 already
@@ -1456,7 +1469,7 @@ exported
 :
 %
 s
-'
+"
 %
 varname
 )
@@ -1527,12 +1540,12 @@ last_name_error
 =
 KeyError
 (
-'
+"
 global_ns
-'
-'
+"
+"
 get_unknown
-'
+"
 varname
 )
             
@@ -1572,9 +1585,9 @@ subdirectory
 "
         
 if
-'
+"
 exports
-'
+"
 in
 self
 .
@@ -1588,9 +1601,9 @@ self
 .
 metadata
 [
-'
+"
 exports
-'
+"
 ]
 :
                 
@@ -1598,9 +1611,9 @@ self
 .
 metadata
 [
-'
+"
 exports
-'
+"
 ]
 [
 key
@@ -1676,12 +1689,12 @@ printing
         
 print
 (
-'
+"
 WARNING
 :
 %
 s
-'
+"
 %
 message
 file
@@ -1761,7 +1774,8 @@ func
 raise
 Exception
 (
-'
+                
+"
 template
 is
 a
@@ -1770,9 +1784,9 @@ decorator
 .
 You
 must
-'
-                            
-'
+"
+                
+"
 use
 it
 as
@@ -1782,7 +1796,8 @@ a
 function
 declaration
 .
-'
+"
+            
 )
         
 name
@@ -1819,10 +1834,10 @@ in
 s
 .
 '
+                
 %
 (
 name
-                                                                       
 self
 .
 templates
@@ -1832,6 +1847,7 @@ name
 .
 path
 )
+            
 )
         
 if
@@ -1860,7 +1876,7 @@ islower
 raise
 NameError
 (
-'
+"
 Template
 function
 names
@@ -1868,7 +1884,7 @@ must
 be
 CamelCase
 .
-'
+"
 )
         
 self
@@ -2213,6 +2229,7 @@ self
 _context
 .
 config
+            
 )
             
 context
@@ -2247,11 +2264,13 @@ sandbox
 =
 MozbuildSandbox
 (
+                
 context
+                
 metadata
 =
 {
-                
+                    
 #
 We
 should
@@ -2263,7 +2282,7 @@ to
 something
 else
 .
-                
+                    
 #
 Templates
 for
@@ -2274,7 +2293,7 @@ come
 from
 the
 state
-                
+                    
 #
 of
 the
@@ -2287,7 +2306,7 @@ was
 declared
 not
 when
-                
+                    
 #
 it
 was
@@ -2296,10 +2315,10 @@ instantiated
 Bug
 1137319
 .
-                
-'
+                    
+"
 functions
-'
+"
 :
 self
 .
@@ -2307,16 +2326,16 @@ metadata
 .
 get
 (
-'
+"
 functions
-'
+"
 {
 }
 )
-                
-'
+                    
+"
 special_variables
-'
+"
 :
 self
 .
@@ -2324,16 +2343,16 @@ metadata
 .
 get
 (
-'
+"
 special_variables
-'
+"
 {
 }
 )
-                
-'
+                    
+"
 subcontexts
-'
+"
 :
 self
 .
@@ -2341,16 +2360,16 @@ metadata
 .
 get
 (
-'
+"
 subcontexts
-'
+"
 {
 }
 )
-                
-'
+                    
+"
 templates
-'
+"
 :
 self
 .
@@ -2358,19 +2377,21 @@ metadata
 .
 get
 (
-'
+"
 templates
-'
+"
 {
 }
 )
-            
+                
 }
+                
 finder
 =
 self
 .
 _finder
+            
 )
             
 template
@@ -2632,10 +2653,10 @@ lines
 .
 endswith
 (
-'
+"
 \
 n
-'
+"
 )
 :
                 
@@ -2646,10 +2667,10 @@ lines
 ]
 +
 =
-'
+"
 \
 n
-'
+"
         
 lines
 =
@@ -2713,8 +2734,8 @@ ast
 .
 parse
 (
-'
-'
+"
+"
 .
 join
 (
@@ -2827,9 +2848,9 @@ _global_name
 =
 str
 (
-'
+"
 _data
-'
+"
 )
         
 #
@@ -2864,6 +2885,7 @@ name
         
 while
 (
+            
 self
 .
 _global_name
@@ -2872,7 +2894,6 @@ code
 .
 co_names
 or
-                
 self
 .
 _global_name
@@ -2880,6 +2901,7 @@ in
 code
 .
 co_varnames
+        
 )
 :
             
@@ -2890,9 +2912,9 @@ _global_name
 =
 str
 (
-'
+"
 _
-'
+"
 )
         
 func_ast
@@ -2982,9 +3004,9 @@ namespace
 glob
 =
 {
-'
+"
 __builtins__
-'
+"
 :
 sandbox
 .
@@ -3004,9 +3026,9 @@ func_ast
 self
 .
 path
-'
+"
 exec
-'
+"
 )
             
 glob
@@ -3084,21 +3106,18 @@ sandbox
 glob
 =
 {
-            
 self
 .
 _global_name
 :
 sandbox
-            
-'
+"
 __builtins__
-'
+"
 :
 sandbox
 .
 _builtins
-        
 }
         
 func
@@ -3144,7 +3163,6 @@ kwargs
 self
 .
 path
-                              
 becomes_current_path
 =
 False
@@ -3300,11 +3318,12 @@ node
 return
 c
 (
+                
 ast
 .
 Subscript
 (
-                
+                    
 value
 =
 c
@@ -3327,7 +3346,7 @@ Load
 )
 )
 )
-                
+                    
 slice
 =
 c
@@ -3353,14 +3372,15 @@ id
 )
 )
 )
-                
+                    
 ctx
 =
 node
 .
 ctx
-            
+                
 )
+            
 )
 class
 SandboxValidationError
@@ -3423,9 +3443,9 @@ StringIO
         
 delim
 =
-'
+"
 =
-'
+"
 *
 30
         
@@ -3433,7 +3453,7 @@ s
 .
 write
 (
-'
+"
 \
 n
 %
@@ -3452,7 +3472,7 @@ s
 n
 \
 n
-'
+"
 %
 (
 delim
@@ -3464,7 +3484,7 @@ s
 .
 write
 (
-'
+"
 The
 error
 occurred
@@ -3474,14 +3494,14 @@ the
 following
 file
 or
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 one
 of
 the
@@ -3491,24 +3511,24 @@ includes
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 %
 s
 /
@@ -3517,7 +3537,7 @@ moz
 build
 \
 n
-'
+"
 %
 self
 .
@@ -3530,17 +3550,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 The
 error
 occurred
@@ -3549,14 +3569,14 @@ validating
 the
 result
 of
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 the
 execution
 .
@@ -3567,38 +3587,39 @@ is
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
-'
+            
+"
+"
 .
 join
 (
-            
-'
+                
+"
 %
 s
 \
 n
-'
+"
 %
 l
-            
+                
 for
 l
 in
@@ -3615,17 +3636,19 @@ __str__
 splitlines
 (
 )
+            
 )
+        
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 return
@@ -3752,26 +3775,33 @@ course
 def
 __init__
 (
+        
 self
+        
 file_stack
+        
 trace
+        
 sandbox_exec_error
 =
 None
-                 
+        
 sandbox_load_error
 =
 None
+        
 validation_error
 =
 None
+        
 other_error
 =
 None
-                 
+        
 sandbox_called_error
 =
 None
+    
 )
 :
         
@@ -3923,8 +3953,6 @@ is
 not
 None
 and
-\
-                
 len
 (
 self
@@ -3973,8 +4001,6 @@ self
 .
 sandbox_load
 or
-\
-            
 self
 .
 sandbox_called_error
@@ -3994,9 +4020,9 @@ StringIO
         
 delim
 =
-'
+"
 =
-'
+"
 *
 30
         
@@ -4004,7 +4030,7 @@ s
 .
 write
 (
-'
+"
 \
 n
 %
@@ -4023,7 +4049,7 @@ s
 n
 \
 n
-'
+"
 %
 (
 delim
@@ -4035,7 +4061,7 @@ s
 .
 write
 (
-'
+"
 The
 error
 occurred
@@ -4047,29 +4073,29 @@ file
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 self
 .
@@ -4080,10 +4106,10 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 if
@@ -4106,7 +4132,7 @@ s
 .
 write
 (
-'
+"
 This
 file
 was
@@ -4118,29 +4144,29 @@ processing
 :
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 self
 .
@@ -4151,10 +4177,10 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 if
@@ -4186,7 +4212,7 @@ s
 .
 write
 (
-'
+"
 The
 error
 occurred
@@ -4195,14 +4221,14 @@ validating
 the
 result
 of
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 the
 execution
 .
@@ -4213,38 +4239,39 @@ is
 :
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
-'
+                
+"
+"
 .
 join
 (
-                
-'
+                    
+"
 %
 s
 \
 n
-'
+"
 %
 l
-                
+                    
 for
 l
 in
@@ -4260,17 +4287,19 @@ validation_error
 splitlines
 (
 )
+                
 )
+            
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 else
@@ -4280,7 +4309,7 @@ s
 .
 write
 (
-'
+"
 The
 error
 appears
@@ -4291,7 +4320,7 @@ of
 the
 %
 s
-'
+"
 %
 __name__
 )
@@ -4300,7 +4329,7 @@ s
 .
 write
 (
-'
+"
 Python
 module
 itself
@@ -4311,14 +4340,14 @@ possible
 you
 have
 stumbled
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 across
 a
 legitimate
@@ -4326,17 +4355,17 @@ bug
 .
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 for
@@ -4346,6 +4375,7 @@ traceback
 .
 format_exception
 (
+                
 type
 (
 self
@@ -4355,10 +4385,10 @@ other
 self
 .
 other
-                                                
 self
 .
 trace
+            
 )
 :
                 
@@ -4448,9 +4478,9 @@ getattr
 self
 .
 sandbox_error
-'
+"
 trace
-'
+"
 None
 )
         
@@ -4535,9 +4565,9 @@ frame
 ]
 =
 =
-'
+"
 exec_function
-'
+"
 :
                 
 script_frame
@@ -4555,7 +4585,7 @@ s
 .
 write
 (
-'
+"
 The
 error
 was
@@ -4564,7 +4594,7 @@ on
 line
 %
 d
-'
+"
 %
 script_frame
 [
@@ -4576,36 +4606,36 @@ s
 .
 write
 (
-'
+"
 of
 this
 file
 :
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 script_frame
 [
@@ -4617,10 +4647,10 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 if
@@ -4686,7 +4716,7 @@ s
 .
 write
 (
-'
+"
 A
 moz
 .
@@ -4701,24 +4731,24 @@ function
 .
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 The
 error
 it
@@ -4727,29 +4757,29 @@ is
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 self
 .
@@ -4762,17 +4792,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 Correct
 the
 error
@@ -4783,7 +4813,7 @@ again
 .
 \
 n
-'
+"
 )
     
 def
@@ -4817,7 +4847,7 @@ s
 .
 write
 (
-'
+"
 The
 underlying
 problem
@@ -4827,14 +4857,14 @@ illegal
 file
 access
 .
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 This
 is
 likely
@@ -4845,14 +4875,14 @@ to
 access
 a
 file
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 outside
 of
 the
@@ -4862,24 +4892,24 @@ directory
 .
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 The
 path
 whose
@@ -4890,29 +4920,29 @@ is
 :
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 self
 .
@@ -4925,17 +4955,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 Modify
 the
 script
@@ -4945,20 +4975,20 @@ access
 this
 file
 and
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 try
 again
 .
 \
 n
-'
+"
 )
             
 return
@@ -4994,7 +5024,7 @@ s
 .
 write
 (
-'
+"
 The
 underlying
 problem
@@ -5003,14 +5033,14 @@ we
 referenced
 a
 path
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 that
 does
 not
@@ -5022,29 +5052,29 @@ is
 :
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 self
 .
@@ -5057,17 +5087,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 Either
 create
 the
@@ -5078,14 +5108,14 @@ needs
 to
 exist
 or
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 do
 not
 reference
@@ -5093,7 +5123,7 @@ it
 .
 \
 n
-'
+"
 )
             
 else
@@ -5103,7 +5133,7 @@ s
 .
 write
 (
-'
+"
 The
 underlying
 problem
@@ -5112,14 +5142,14 @@ a
 referenced
 path
 could
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 not
 be
 read
@@ -5131,29 +5161,29 @@ is
 :
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 self
 .
@@ -5166,17 +5196,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 It
 is
 possible
@@ -5188,14 +5218,14 @@ correct
 .
 Is
 it
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 pointing
 to
 a
@@ -5207,14 +5237,14 @@ also
 be
 a
 file
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 permissions
 issue
 .
@@ -5223,19 +5253,19 @@ that
 the
 file
 is
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 readable
 .
 \
 n
-'
+"
 )
             
 return
@@ -5254,13 +5284,13 @@ this
 raise
 AssertionError
 (
-'
+"
 SandboxLoadError
 with
 unhandled
 properties
 !
-'
+"
 )
     
 def
@@ -5299,7 +5329,7 @@ s
 .
 write
 (
-'
+"
 The
 underlying
 problem
@@ -5308,14 +5338,14 @@ a
 Python
 syntax
 error
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 on
 line
 %
@@ -5323,7 +5353,7 @@ d
 :
 \
 n
-'
+"
 %
 inner
 .
@@ -5334,22 +5364,22 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 inner
 .
@@ -5367,8 +5397,8 @@ s
 write
 (
 (
-'
-'
+"
+"
 *
 (
 inner
@@ -5379,28 +5409,28 @@ offset
 )
 )
 +
-'
+"
 ^
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 Fix
 the
 syntax
@@ -5411,7 +5441,7 @@ again
 .
 \
 n
-'
+"
 )
             
 return
@@ -5483,12 +5513,12 @@ args
 not
 in
 (
-'
+"
 global_ns
-'
-'
+"
+"
 local_ns
-'
+"
 )
 :
             
@@ -5511,9 +5541,9 @@ args
 ]
 =
 =
-'
+"
 global_ns
-'
+"
 :
             
 import
@@ -5532,16 +5562,16 @@ args
 ]
 =
 =
-'
+"
 get_unknown
-'
+"
 :
                 
 verb
 =
-'
+"
 read
-'
+"
             
 elif
 inner
@@ -5552,16 +5582,16 @@ args
 ]
 =
 =
-'
+"
 set_unknown
-'
+"
 :
                 
 verb
 =
-'
+"
 write
-'
+"
             
 elif
 inner
@@ -5572,16 +5602,16 @@ args
 ]
 =
 =
-'
+"
 reassign
-'
+"
 :
                 
 s
 .
 write
 (
-'
+"
 The
 underlying
 problem
@@ -5590,14 +5620,14 @@ an
 attempt
 to
 reassign
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 a
 reserved
 UPPERCASE
@@ -5605,24 +5635,24 @@ variable
 .
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 The
 reassigned
 variable
@@ -5633,29 +5663,29 @@ is
 :
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
                 
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 inner
 .
@@ -5669,10 +5699,10 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
                 
 s
@@ -5706,13 +5736,13 @@ else
 raise
 AssertionError
 (
-'
+"
 Unhandled
 global_ns
 :
 %
 s
-'
+"
 %
 inner
 .
@@ -5726,7 +5756,7 @@ s
 .
 write
 (
-'
+"
 The
 underlying
 problem
@@ -5736,7 +5766,7 @@ attempt
 to
 %
 s
-'
+"
 %
 verb
 )
@@ -5745,7 +5775,7 @@ s
 .
 write
 (
-'
+"
 a
 reserved
 UPPERCASE
@@ -5757,24 +5787,24 @@ exist
 .
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 The
 variable
 %
@@ -5786,7 +5816,7 @@ is
 :
 \
 n
-'
+"
 %
 verb
 )
@@ -5795,22 +5825,22 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 inner
 .
@@ -5824,10 +5854,10 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 close_matches
@@ -5836,19 +5866,20 @@ difflib
 .
 get_close_matches
 (
+                
 inner
 .
 args
 [
 2
 ]
-                                                      
 VARIABLES
 .
 keys
 (
 )
 2
+            
 )
             
 if
@@ -5859,7 +5890,7 @@ s
 .
 write
 (
-'
+"
 Maybe
 you
 meant
@@ -5868,11 +5899,11 @@ s
 ?
 \
 n
-'
+"
 %
-'
+"
 or
-'
+"
 .
 join
 (
@@ -5884,10 +5915,10 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 if
@@ -5905,14 +5936,14 @@ s
 .
 write
 (
-'
+                    
+"
 %
 s
 \
 n
-'
+"
 %
-                        
 textwrap
 .
 dedent
@@ -5931,6 +5962,7 @@ args
 strip
 (
 )
+                
 )
                 
 return
@@ -5939,7 +5971,7 @@ s
 .
 write
 (
-'
+"
 Please
 change
 the
@@ -5952,24 +5984,24 @@ variable
 .
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 For
 reference
 the
@@ -5981,25 +6013,25 @@ is
 :
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 s
 .
 write
 (
-'
-'
+"
+"
 .
 join
 (
@@ -6013,10 +6045,10 @@ keys
 )
 )
 +
-'
+"
 \
 n
-'
+"
 )
             
 return
@@ -6025,7 +6057,7 @@ s
 .
 write
 (
-'
+"
 The
 underlying
 problem
@@ -6035,42 +6067,42 @@ reference
 to
 an
 undefined
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 local
 variable
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 inner
 .
@@ -6084,17 +6116,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 Please
 change
 the
@@ -6103,14 +6135,14 @@ to
 not
 reference
 undefined
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 variables
 and
 try
@@ -6118,7 +6150,7 @@ again
 .
 \
 n
-'
+"
 )
     
 def
@@ -6145,12 +6177,12 @@ args
 not
 in
 (
-'
+"
 global_ns
-'
-'
+"
+"
 local_ns
-'
+"
 )
 :
             
@@ -6173,15 +6205,15 @@ args
 ]
 =
 =
-'
+"
 set_type
-'
+"
         
 s
 .
 write
 (
-'
+"
 The
 underlying
 problem
@@ -6192,14 +6224,14 @@ to
 write
 an
 illegal
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 value
 to
 a
@@ -6208,24 +6240,24 @@ variable
 .
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 The
 variable
 whose
@@ -6236,27 +6268,27 @@ is
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 %
 s
-'
+"
 %
 inner
 .
@@ -6270,17 +6302,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 The
 value
 being
@@ -6295,29 +6327,29 @@ type
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 type
 (
@@ -6336,17 +6368,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 This
 variable
 expects
@@ -6359,17 +6391,17 @@ s
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 if
@@ -6391,12 +6423,12 @@ s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 inner
 .
@@ -6426,12 +6458,12 @@ s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 t
 .
@@ -6442,17 +6474,17 @@ s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 Change
 the
 file
@@ -6464,21 +6496,21 @@ of
 the
 appropriate
 type
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 and
 try
 again
 .
 \
 n
-'
+"
 )
     
 def
@@ -6494,7 +6526,7 @@ s
 .
 write
 (
-'
+"
 An
 error
 was
@@ -6505,14 +6537,14 @@ of
 executing
 the
 file
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 itself
 .
 The
@@ -6528,24 +6560,24 @@ script
 .
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 The
 error
 as
@@ -6556,29 +6588,29 @@ is
 :
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 s
 .
 write
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 traceback
 .
@@ -6797,7 +6829,7 @@ moz
 build
 .
             
-'
+"
 python
 /
 mozbuild
@@ -6805,9 +6837,9 @@ mozbuild
 mozbuild
 /
 test
-'
+"
             
-'
+"
 testing
 /
 mozbase
@@ -6817,7 +6849,7 @@ moztest
 tests
 /
 data
-'
+"
             
 #
 Ignore
@@ -6825,10 +6857,10 @@ object
 directories
 .
             
-'
+"
 obj
 *
-'
+"
         
 }
         
@@ -6838,15 +6870,16 @@ _relevant_mozbuild_finder
 =
 FileFinder
 (
+            
 self
 .
 config
 .
 topsrcdir
-                                                    
 ignore
 =
 ignores
+        
 )
         
 #
@@ -6885,13 +6918,13 @@ _relevant_mozbuild_finder
 .
 find
 (
-'
+"
 *
 /
 config
 .
 status
-'
+"
 )
 :
             
@@ -6926,9 +6959,9 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 :
             
@@ -7094,7 +7127,7 @@ return
 ExecutionSummary
 (
             
-'
+"
 Finished
 reading
 {
@@ -7107,9 +7140,9 @@ moz
 build
 files
 in
-'
+"
             
-'
+"
 {
 execution_time
 :
@@ -7117,7 +7150,7 @@ execution_time
 2f
 }
 s
-'
+"
             
 file_count
 =
@@ -7130,6 +7163,7 @@ execution_time
 self
 .
 _execution_time
+        
 )
     
 def
@@ -7143,7 +7177,7 @@ return
 ExecutionSummary
 (
             
-'
+"
 Read
 {
 file_count
@@ -7155,9 +7189,9 @@ files
 in
 parallel
 contributing
-'
+"
             
-'
+"
 {
 execution_time
 :
@@ -7169,7 +7203,7 @@ to
 total
 wall
 time
-'
+"
             
 file_count
 =
@@ -7182,6 +7216,7 @@ execution_time
 self
 .
 _gyp_execution_time
+        
 )
     
 def
@@ -7279,11 +7314,11 @@ self
 config
 .
 topsrcdir
-'
+"
 moz
 .
 build
-'
+"
 )
         
 for
@@ -7455,14 +7490,14 @@ _relevant_mozbuild_finder
 .
 find
 (
-'
+"
 *
 *
 /
 moz
 .
 build
-'
+"
 )
 :
             
@@ -7871,9 +7906,9 @@ if
 hasattr
 (
 node
-'
+"
 targets
-'
+"
 )
 :
                 
@@ -8268,9 +8303,9 @@ with
 open
 (
 full
-'
+"
 rb
-'
+"
 )
 as
 fh
@@ -8523,15 +8558,16 @@ self
 .
 _read_mozbuild
 (
+                
 path
 config
 descend
 =
 descend
-                                         
 metadata
 =
 metadata
+            
 )
 :
                 
@@ -8556,13 +8592,13 @@ sce
 raise
 BuildReaderError
 (
+                
 list
 (
 self
 .
 _execution_stack
 )
-                                   
 sys
 .
 exc_info
@@ -8574,6 +8610,7 @@ exc_info
 sandbox_called_error
 =
 sce
+            
 )
         
 except
@@ -8585,13 +8622,13 @@ se
 raise
 BuildReaderError
 (
+                
 list
 (
 self
 .
 _execution_stack
 )
-                                   
 sys
 .
 exc_info
@@ -8603,6 +8640,7 @@ exc_info
 sandbox_exec_error
 =
 se
+            
 )
         
 except
@@ -8614,13 +8652,13 @@ sle
 raise
 BuildReaderError
 (
+                
 list
 (
 self
 .
 _execution_stack
 )
-                                   
 sys
 .
 exc_info
@@ -8632,6 +8670,7 @@ exc_info
 sandbox_load_error
 =
 sle
+            
 )
         
 except
@@ -8643,13 +8682,13 @@ ve
 raise
 BuildReaderError
 (
+                
 list
 (
 self
 .
 _execution_stack
 )
-                                   
 sys
 .
 exc_info
@@ -8661,6 +8700,7 @@ exc_info
 validation_error
 =
 ve
+            
 )
         
 except
@@ -8672,13 +8712,13 @@ e
 raise
 BuildReaderError
 (
+                
 list
 (
 self
 .
 _execution_stack
 )
-                                   
 sys
 .
 exc_info
@@ -8690,6 +8730,7 @@ exc_info
 other_error
 =
 e
+            
 )
     
 def
@@ -8714,31 +8755,35 @@ path
         
 log
 (
+            
 self
 .
 _log
+            
 logging
 .
 DEBUG
-'
+            
+"
 read_mozbuild
-'
+"
+            
 {
-'
+"
 path
-'
+"
 :
 path
 }
             
-'
+"
 Reading
 file
 :
 {
 path
 }
-'
+"
 .
 format
 (
@@ -8746,6 +8791,7 @@ path
 =
 path
 )
+        
 )
         
 if
@@ -8758,24 +8804,28 @@ _read_files
             
 log
 (
+                
 self
 .
 _log
+                
 logging
 .
 WARNING
-'
+                
+"
 read_already
-'
+"
+                
 {
-'
+"
 path
-'
+"
 :
 path
 }
                 
-'
+"
 File
 already
 read
@@ -8785,7 +8835,7 @@ Skipping
 {
 path
 }
-'
+"
 .
 format
 (
@@ -8793,6 +8843,7 @@ path
 =
 path
 )
+            
 )
             
 return
@@ -8850,14 +8901,12 @@ relpath
 )
 =
 =
-'
+"
 js
 /
 src
-'
+"
 and
-\
-                
 not
 config
 .
@@ -8865,9 +8914,11 @@ substs
 .
 get
 (
-'
+            
+"
 JS_STANDALONE
-'
+"
+        
 )
 :
             
@@ -8884,12 +8935,13 @@ join
 (
 topobjdir
 reldir
-'
+"
 config
 .
 status
-'
+"
 )
+            
 )
             
 config
@@ -8917,7 +8969,6 @@ context
 metadata
 =
 metadata
-                                  
 finder
 =
 self
@@ -9013,9 +9064,9 @@ context
 .
 get
 (
-'
+"
 DIRS
-'
+"
 [
 ]
 )
@@ -9037,9 +9088,9 @@ context
 .
 get
 (
-'
+"
 GYP_DIRS
-'
+"
 [
 ]
 )
@@ -9049,9 +9100,9 @@ gyp_dir
 =
 context
 [
-'
+"
 GYP_DIRS
-'
+"
 ]
 [
 target_dir
@@ -9061,12 +9112,12 @@ for
 v
 in
 (
-'
+"
 input
-'
-'
+"
+"
 variables
-'
+"
 )
 :
                 
@@ -9082,12 +9133,12 @@ v
 raise
 SandboxValidationError
 (
-'
+                        
+"
 Missing
 value
 for
-'
-                                                 
+"
 '
 GYP_DIRS
 [
@@ -9105,7 +9156,9 @@ s
 target_dir
 v
 )
+                        
 context
+                    
 )
             
 #
@@ -9206,16 +9259,15 @@ full_path
 raise
 SandboxValidationError
 (
-'
+"
 Cannot
 find
 %
 s
 .
-'
+"
 %
 source
-                                                 
 context
 )
                 
@@ -9260,12 +9312,13 @@ gyp_processor
 =
 GypProcessor
 (
+                
 context
 .
 config
-                                         
+                
 gyp_dir
-                                         
+                
 mozpath
 .
 join
@@ -9275,7 +9328,7 @@ gyp_dir
 .
 input
 )
-                                         
+                
 mozpath
 .
 join
@@ -9283,17 +9336,17 @@ join
 context
 .
 objdir
-                                                      
 target_dir
 )
-                                         
+                
 self
 .
 _gyp_worker_pool
-                                         
+                
 action_overrides
-                                         
+                
 non_unified_sources
+            
 )
             
 self
@@ -9388,7 +9441,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 Directory
 (
 %
@@ -9397,10 +9450,10 @@ s
 registered
 multiple
 times
-'
+"
+                    
 %
 (
-                        
 mozpath
 .
 relpath
@@ -9415,6 +9468,7 @@ srcdir
 )
                     
 context
+                
 )
             
 recurse_info
@@ -9437,9 +9491,9 @@ if
 key
 =
 =
-'
+"
 exports
-'
+"
 :
                     
 sandbox
@@ -9483,11 +9537,11 @@ path
 .
 join
 (
-'
+"
 moz
 .
 build
-'
+"
 )
 .
 full_path
@@ -9573,7 +9627,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 Attempting
 to
 process
@@ -9585,11 +9639,13 @@ paths
 :
 %
 s
-'
-%
+"
                     
+%
 child_path
+                    
 context
+                
 )
             
 if
@@ -9606,14 +9662,15 @@ self
 .
 read_mozbuild
 (
+                
 child_path
 context
 .
 config
-                                          
 metadata
 =
 child_metadata
+            
 )
 :
                 
@@ -9868,15 +9925,15 @@ path
             
 subpath
 =
-'
-'
+"
+"
             
 yield
-'
+"
 moz
 .
 build
-'
+"
             
 for
 part
@@ -9905,11 +9962,11 @@ mozpath
 join
 (
 subpath
-'
+"
 moz
 .
 build
-'
+"
 )
         
 for
@@ -9957,14 +10014,14 @@ root
 raise
 Exception
 (
-'
+"
 Path
 outside
 topsrcdir
 :
 %
 s
-'
+"
 %
 path
 )
@@ -10359,9 +10416,9 @@ None
         
 functions
 [
-'
+"
 export
-'
+"
 ]
 =
 tuple
@@ -10374,9 +10431,9 @@ list
 (
 FUNCTIONS
 [
-'
+"
 export
-'
+"
 ]
 [
 1
@@ -10389,9 +10446,9 @@ metadata
 =
 {
             
-'
+"
 functions
-'
+"
 :
 functions
         
@@ -10416,24 +10473,25 @@ self
 .
 read_mozbuild
 (
+            
 mozpath
 .
 join
 (
 topsrcdir
-'
+"
 moz
 .
 build
-'
+"
 )
-                                          
 self
 .
 config
 metadata
 =
 metadata
+        
 )
 :
             
@@ -10465,12 +10523,12 @@ for
 v
 in
 (
-'
+"
 DIRS
-'
-'
+"
+"
 GYP_DIRS
-'
+"
 )
 :
                     
@@ -10487,9 +10545,9 @@ v
                 
 context
 [
-'
+"
 DIRS
-'
+"
 ]
 =
 sorted
@@ -10568,6 +10626,7 @@ paths
 )
 [
 ]
+            
 )
         
 return
@@ -10804,9 +10863,9 @@ return
 True
             
 return
-'
+"
 *
-'
+"
 in
 pattern
 and
@@ -10838,10 +10897,10 @@ read_relevant_mozbuilds
 .
             
 assert
-'
+"
 \
 \
-'
+"
 not
 in
 path

@@ -80,11 +80,11 @@ RaptorLogger
 (
 component
 =
-'
+"
 raptor
 -
 benchmark
-'
+"
 )
 here
 =
@@ -287,9 +287,9 @@ config
 .
 get
 (
-'
+"
 run_local
-'
+"
 False
 )
 :
@@ -304,18 +304,20 @@ path
 .
 join
 (
+                
 self
 .
 bench_dir
-'
+"
 testing
-'
-'
+"
+"
 raptor
-'
-'
+"
+"
 benchmarks
-'
+"
+            
 )
         
 else
@@ -331,18 +333,20 @@ path
 .
 join
 (
+                
 self
 .
 bench_dir
-'
+"
 tests
-'
-'
+"
+"
 webkit
-'
-'
+"
+"
 PerformanceTests
-'
+"
+            
 )
             
 #
@@ -374,23 +378,27 @@ environ
 .
 get
 (
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 )
             
 if
+(
+                
 test
 .
 get
 (
-'
+"
 fetch_task
-'
+"
 False
 )
+                
 and
 fetches_dir
+                
 and
 os
 .
@@ -399,6 +407,8 @@ path
 isdir
 (
 fetches_dir
+)
+            
 )
 :
                 
@@ -418,9 +428,9 @@ test
 .
 get
 (
-'
+"
 fetch_task
-'
+"
 )
 .
 lower
@@ -559,8 +569,8 @@ sock
 bind
 (
 (
-'
-'
+"
+"
 0
 )
 )
@@ -573,9 +583,9 @@ self
 .
 config
 [
-'
+"
 host
-'
+"
 ]
         
 self
@@ -599,13 +609,13 @@ close
         
 _webserver
 =
-'
+"
 %
 s
 :
 %
 d
-'
+"
 %
 (
 self
@@ -706,11 +716,11 @@ join
 self
 .
 bench_dir
-'
+"
 __dir__
 .
 headers
-'
+"
 )
         
 file
@@ -718,9 +728,9 @@ file
 open
 (
 headers_file
-'
+"
 w
-'
+"
 )
         
 file
@@ -816,9 +826,9 @@ webserver
 .
 split
 (
-'
+"
 :
-'
+"
 )
         
 return
@@ -826,11 +836,13 @@ server
 .
 WebTestHttpd
 (
+            
 host
 =
 self
 .
 host
+            
 port
 =
 int
@@ -839,13 +851,13 @@ self
 .
 port
 )
-                                   
+            
 doc_root
 =
 self
 .
 bench_dir
-                                   
+            
 routes
 =
 [
@@ -861,6 +873,7 @@ handlers
 file_handler
 )
 ]
+        
 )
     
 def

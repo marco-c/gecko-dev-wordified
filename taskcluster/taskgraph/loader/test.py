@@ -118,14 +118,16 @@ builds_by_platform
 =
 get_builds_by_platform
 (
+        
 dep_kind
 =
-'
+"
 build
-'
+"
 loaded_tasks
 =
 loaded_tasks
+    
 )
     
 signed_builds_by_platform
@@ -135,11 +137,11 @@ get_builds_by_platform
         
 dep_kind
 =
-'
+"
 build
 -
 signing
-'
+"
 loaded_tasks
 =
 loaded_tasks
@@ -161,13 +163,13 @@ test_platforms_cfg
 load_yaml
 (
 path
-'
+"
 test
 -
 platforms
 .
 yml
-'
+"
 )
     
 test_platforms
@@ -197,13 +199,13 @@ test_sets_cfg
 load_yaml
 (
 path
-'
+"
 test
 -
 sets
 .
 yml
-'
+"
 )
     
 test_platforms
@@ -238,9 +240,9 @@ t
 .
 pop
 (
-'
+"
 name
-'
+"
 )
 :
 t
@@ -276,11 +278,11 @@ test_name
 in
 test_platform
 [
-'
+"
 test
 -
 names
-'
+"
 ]
 :
             
@@ -298,49 +300,49 @@ test_name
             
 test
 [
-'
+"
 build
 -
 platform
-'
+"
 ]
 =
 test_platform
 [
-'
+"
 build
 -
 platform
-'
+"
 ]
             
 test
 [
-'
+"
 test
 -
 platform
-'
+"
 ]
 =
 test_platform_name
             
 test
 [
-'
+"
 build
 -
 label
-'
+"
 ]
 =
 test_platform
 [
-'
+"
 build
 -
 label
-'
+"
 ]
             
 if
@@ -348,64 +350,64 @@ test_platform
 .
 get
 (
-'
+"
 build
 -
 signing
 -
 label
-'
+"
 None
 )
 :
                 
 test
 [
-'
+"
 build
 -
 signing
 -
 label
-'
+"
 ]
 =
 test_platform
 [
-'
+"
 build
 -
 signing
 -
 label
-'
+"
 ]
             
 test
 [
-'
+"
 build
 -
 attributes
-'
+"
 ]
 =
 test_platform
 [
-'
+"
 build
 -
 attributes
-'
+"
 ]
             
 test
 [
-'
+"
 test
 -
 name
-'
+"
 ]
 =
 test_name
@@ -415,9 +417,9 @@ test_platform
 .
 get
 (
-'
+"
 shippable
-'
+"
 )
 :
                 
@@ -425,43 +427,46 @@ test
 .
 setdefault
 (
-'
+"
 attributes
-'
+"
 {
 }
 )
 [
-'
+"
 shippable
-'
+"
 ]
 =
 True
                 
 test
 [
-'
+"
 attributes
-'
+"
 ]
 [
-'
+"
 shipping_product
-'
+"
 ]
 =
 test_platform
 [
-'
+                    
+"
 shipping_product
-'
+"
+                
 ]
             
 logger
 .
 debug
 (
+                
 "
 Generating
 tasks
@@ -477,17 +482,19 @@ platform
 .
 format
 (
-                
+                    
 test_name
 test
 [
-'
+"
 test
 -
 platform
-'
+"
 ]
+                
 )
+            
 )
             
 yield
@@ -562,9 +569,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 build_type
@@ -575,9 +582,9 @@ attributes
 .
 get
 (
-'
+"
 build_type
-'
+"
 )
         
 if
@@ -637,6 +644,7 @@ builds_by_platform
 def
 get_test_platforms
 (
+    
 test_platforms_cfg
 builds_by_platform
 signed_builds_by_platform
@@ -713,11 +721,11 @@ build_platform
 =
 cfg
 [
-'
+"
 build
 -
 platform
-'
+"
 ]
         
 if
@@ -753,7 +761,9 @@ format
                     
 build_platform
 test_platform
+                
 )
+            
 )
             
 continue
@@ -765,19 +775,19 @@ test_platform
 =
 {
             
-'
+"
 build
 -
 platform
-'
+"
 :
 build_platform
             
-'
+"
 build
 -
 label
-'
+"
 :
 builds_by_platform
 [
@@ -786,11 +796,11 @@ build_platform
 .
 label
             
-'
+"
 build
 -
 attributes
-'
+"
 :
 builds_by_platform
 [
@@ -811,9 +821,9 @@ attributes
 .
 get
 (
-'
+"
 shippable
-'
+"
 )
 :
             
@@ -822,23 +832,23 @@ test_platforms
 test_platform
 ]
 [
-'
+"
 shippable
-'
+"
 ]
 =
-\
-                
 builds_by_platform
 [
+                
 build_platform
+            
 ]
 .
 attributes
 [
-'
+"
 shippable
-'
+"
 ]
             
 test_platforms
@@ -846,23 +856,23 @@ test_platforms
 test_platform
 ]
 [
-'
+"
 shipping_product
-'
+"
 ]
 =
-\
-                
 builds_by_platform
 [
+                
 build_platform
+            
 ]
 .
 attributes
 [
-'
+"
 shipping_product
-'
+"
 ]
         
 test_platforms
@@ -897,17 +907,17 @@ test_platforms
 test_platform
 ]
 [
-'
+                
+"
 build
 -
 signing
 -
 label
-'
+"
+            
 ]
 =
-\
-                
 signed_builds_by_platform
 [
 build_platform
@@ -992,11 +1002,11 @@ test_sets
 =
 cfg
 [
-'
+"
 test
 -
 sets
-'
+"
 ]
         
 if
@@ -1035,15 +1045,17 @@ defined
 format
 (
                     
-'
-'
+"
+"
 .
 join
 (
 test_sets
 )
 test_platform
+                
 )
+            
 )
         
 test_names
@@ -1084,11 +1096,11 @@ rv
 test_platform
 ]
 [
-'
+"
 test
 -
 names
-'
+"
 ]
 =
 test_names

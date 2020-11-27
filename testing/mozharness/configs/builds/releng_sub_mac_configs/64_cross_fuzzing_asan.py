@@ -4,27 +4,27 @@ config
 =
 {
     
-'
+"
 stage_platform
-'
+"
 :
-'
+"
 macosx64
 -
 fuzzing
 -
 asan
-'
+"
     
-'
+"
 publish_nightly_en_US_routes
-'
+"
 :
 False
     
-'
+"
 platform_supports_post_upload_to_latest
-'
+"
 :
 False
     
@@ -42,15 +42,15 @@ specific
 #
 #
     
-'
+"
 env
-'
+"
 :
 {
         
-'
+"
 MOZBUILD_STATE_PATH
-'
+"
 :
 os
 .
@@ -63,99 +63,99 @@ os
 getcwd
 (
 )
-'
+"
 .
 mozbuild
-'
+"
 )
         
-'
+"
 DISPLAY
-'
+"
 :
-'
+"
 :
 2
-'
+"
         
-'
+"
 HG_SHARE_BASE_DIR
-'
+"
 :
-'
+"
 /
 builds
 /
 hg
 -
 shared
-'
+"
         
-'
+"
 MOZ_OBJDIR
-'
+"
 :
-'
+"
 %
 (
 abs_obj_dir
 )
 s
-'
+"
         
-'
+"
 TINDERBOX_OUTPUT
-'
+"
 :
-'
+"
 1
-'
+"
         
-'
+"
 TOOLTOOL_CACHE
-'
+"
 :
-'
+"
 /
 builds
 /
 tooltool_cache
-'
+"
         
-'
+"
 TOOLTOOL_HOME
-'
+"
 :
-'
+"
 /
 builds
-'
+"
         
-'
+"
 MOZ_CRASHREPORTER_NO_REPORT
-'
+"
 :
-'
+"
 1
-'
+"
         
-'
+"
 LC_ALL
-'
+"
 :
-'
+"
 C
-'
+"
         
-'
+"
 ASAN_OPTIONS
-'
+"
 :
-'
+"
 detect_leaks
 =
 0
-'
+"
         
 #
 #
@@ -163,11 +163,11 @@ detect_leaks
 bit
 specific
         
-'
+"
 PATH
-'
+"
 :
-'
+"
 /
 usr
 /
@@ -198,7 +198,7 @@ sbin
 :
 /
 sbin
-'
+"
     
 }
 }

@@ -71,9 +71,9 @@ import
 FileAvoidWrite
 header_template
 =
-'
-'
-'
+"
+"
+"
 #
 pragma
 GCC
@@ -94,12 +94,12 @@ pragma
 GCC
 visibility
 pop
-'
-'
-'
+"
+"
+"
 include_next_template
 =
-'
+"
 #
 include_next
 <
@@ -107,7 +107,7 @@ include_next
 header
 }
 >
-'
+"
 #
 The
 '
@@ -180,13 +180,13 @@ if
 header
 =
 =
-'
+"
 wayland
 -
 util
 .
 h
-'
+"
 :
                 
 #
@@ -258,7 +258,7 @@ first
                 
 includes
 =
-'
+"
 #
 include
 <
@@ -268,7 +268,7 @@ h
 >
 \
 n
-'
+"
 +
 includes
             
@@ -276,13 +276,13 @@ elif
 header
 =
 =
-'
+"
 wayland
 -
 client
 .
 h
-'
+"
 :
                 
 #

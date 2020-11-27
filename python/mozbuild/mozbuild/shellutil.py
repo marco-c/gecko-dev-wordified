@@ -184,13 +184,14 @@ arguments
     
 all_tokens
 =
-'
+"
 |
-'
+"
 .
 join
 (
-'
+        
+"
 (
 ?
 P
@@ -201,13 +202,12 @@ s
 %
 s
 )
-'
+"
 %
 (
 name
 value
 )
-                          
 for
 name
 value
@@ -217,12 +217,13 @@ tokens
 items
 (
 )
+    
 )
     
 nonescaped
 =
 r
-'
+"
 (
 ?
 <
@@ -236,7 +237,7 @@ r
 %
 s
 )
-'
+"
 %
 all_tokens
     
@@ -270,7 +271,7 @@ re
 .
 compile
 (
-'
+"
 (
 ?
 :
@@ -280,12 +281,12 @@ s
 %
 s
 )
-'
+"
 %
 (
 nonescaped
 r
-'
+"
 (
 ?
 P
@@ -297,18 +298,18 @@ escape
 \
 \
 )
-'
+"
 )
 )
 UNQUOTED_TOKENS_RE
 =
 _tokens2re
 (
-  
+    
 whitespace
 =
 r
-'
+"
 [
 \
 t
@@ -318,8 +319,8 @@ r
 n
 ]
 +
-'
-  
+"
+    
 quote
 =
 r
@@ -330,17 +331,17 @@ r
 "
 ]
 '
-  
+    
 comment
 =
-'
+"
 #
-'
-  
+"
+    
 special
 =
 r
-'
+"
 [
 <
 >
@@ -356,12 +357,12 @@ r
 \
 ?
 ]
-'
-  
+"
+    
 backslashed
 =
 r
-'
+"
 \
 \
 [
@@ -369,19 +370,19 @@ r
 \
 \
 ]
-'
+"
 )
 DOUBLY_QUOTED_TOKENS_RE
 =
 _tokens2re
 (
-  
+    
 quote
 =
 '
 "
 '
-  
+    
 backslashedquote
 =
 r
@@ -390,13 +391,13 @@ r
 \
 "
 '
-  
+    
 special
 =
-'
+"
 \
-'
-  
+"
+    
 backslashed
 =
 r
@@ -418,12 +419,12 @@ re
 compile
 (
 r
-'
+"
 \
 \
 \
 n
-'
+"
 )
 #
 This
@@ -452,7 +453,7 @@ re
 compile
 (
 r
-'
+"
 [
 \
 \
@@ -481,7 +482,7 @@ n
 \
 ?
 ]
-'
+"
 )
 class
 MetaCharacterException
@@ -510,9 +511,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Parses
 a
@@ -534,9 +535,9 @@ wildcard
 expansion
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -579,9 +580,9 @@ str
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Push
 the
@@ -594,9 +595,9 @@ the
 current
 argument
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -610,8 +611,8 @@ self
 .
 arg
 =
-'
-'
+"
+"
         
 self
 .
@@ -627,9 +628,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Finalize
 current
@@ -642,9 +643,9 @@ the
 list
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -680,9 +681,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Parse
 command
@@ -697,9 +698,9 @@ unquoted
 string
 .
         
-'
-'
-'
+"
+"
+"
         
 while
 self
@@ -831,7 +832,6 @@ match
 name
 :
 value
-                     
 for
 name
 value
@@ -850,9 +850,9 @@ value
 }
             
 if
-'
+"
 quote
-'
+"
 in
 match
 :
@@ -869,9 +869,9 @@ string
 if
 match
 [
-'
+"
 quote
-'
+"
 ]
 =
 =
@@ -896,9 +896,9 @@ _parse_quoted
 )
             
 elif
-'
+"
 comment
-'
+"
 in
 match
 :
@@ -924,9 +924,9 @@ stopped
 break
             
 elif
-'
+"
 special
-'
+"
 in
 match
 :
@@ -954,16 +954,16 @@ MetaCharacterException
 (
 match
 [
-'
+"
 special
-'
+"
 ]
 )
             
 elif
-'
+"
 whitespace
-'
+"
 in
 match
 :
@@ -982,9 +982,9 @@ _next
 )
             
 elif
-'
+"
 escape
-'
+"
 in
 match
 :
@@ -1002,16 +1002,16 @@ self
 .
 _push
 (
-'
+"
 \
 \
-'
+"
 )
             
 elif
-'
+"
 backslashed
-'
+"
 in
 match
 :
@@ -1040,9 +1040,9 @@ _push
 (
 match
 [
-'
+"
 backslashed
-'
+"
 ]
 [
 1
@@ -1119,13 +1119,13 @@ index
 raise
 Exception
 (
-'
+"
 Unterminated
 quoted
 string
 in
 command
-'
+"
 )
         
 self
@@ -1172,13 +1172,13 @@ cline
 raise
 Exception
 (
-'
+"
 Unterminated
 quoted
 string
 in
 command
-'
+"
 )
         
 while
@@ -1206,13 +1206,13 @@ m
 raise
 Exception
 (
-'
+"
 Unterminated
 quoted
 string
 in
 command
-'
+"
 )
             
 self
@@ -1254,7 +1254,6 @@ match
 name
 :
 value
-                     
 for
 name
 value
@@ -1273,9 +1272,9 @@ value
 }
             
 if
-'
+"
 quote
-'
+"
 in
 match
 :
@@ -1300,9 +1299,9 @@ parsing
 return
             
 elif
-'
+"
 special
-'
+"
 in
 match
 :
@@ -1343,16 +1342,16 @@ MetaCharacterException
 (
 match
 [
-'
+"
 special
-'
+"
 ]
 )
             
 elif
-'
+"
 escape
-'
+"
 in
 match
 :
@@ -1370,16 +1369,16 @@ self
 .
 _push
 (
-'
+"
 \
 \
-'
+"
 )
             
 elif
-'
+"
 backslashedquote
-'
+"
 in
 match
 :
@@ -1403,9 +1402,9 @@ _push
 )
             
 elif
-'
+"
 backslashed
-'
+"
 in
 match
 :
@@ -1423,9 +1422,9 @@ _push
 (
 match
 [
-'
+"
 backslashed
-'
+"
 ]
 )
 def
@@ -1435,9 +1434,9 @@ cline
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Split
 the
@@ -1447,9 +1446,9 @@ line
 string
 .
     
-'
-'
-'
+"
+"
+"
     
 s
 =
@@ -1457,8 +1456,8 @@ ESCAPED_NEWLINES_RE
 .
 sub
 (
-'
-'
+"
+"
 cline
 )
     
@@ -1476,9 +1475,9 @@ s
 )
 :
     
-'
-'
-'
+"
+"
+"
 Given
 a
 string
@@ -1526,9 +1525,9 @@ in
 quotes
 .
     
-'
-'
-'
+"
+"
+"
     
 if
 type
@@ -1541,10 +1540,10 @@ int
 :
         
 return
-'
+"
 %
 d
-'
+"
 %
 s
     
@@ -1576,9 +1575,9 @@ s
 .
 startswith
 (
-'
+"
 ~
-'
+"
 )
 :
         
@@ -1673,9 +1672,9 @@ strings
 )
 :
     
-'
-'
-'
+"
+"
+"
 Given
 one
 or
@@ -1738,13 +1737,13 @@ b
 c
 "
     
-'
-'
-'
+"
+"
+"
     
 return
-'
-'
+"
+"
 .
 join
 (
@@ -1760,13 +1759,13 @@ strings
 __all__
 =
 [
-'
+"
 MetaCharacterException
-'
-'
+"
+"
 split
-'
-'
+"
+"
 quote
-'
+"
 ]

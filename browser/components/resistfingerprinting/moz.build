@@ -108,7 +108,7 @@ BROWSER_CHROME_MANIFESTS
 +
 =
 [
-'
+"
 test
 /
 browser
@@ -116,13 +116,13 @@ browser
 browser
 .
 ini
-'
+"
 ]
 MOCHITEST_MANIFESTS
 +
 =
 [
-'
+"
 test
 /
 mochitest
@@ -130,13 +130,13 @@ mochitest
 mochitest
 .
 ini
-'
+"
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
-'
+"
 test
 /
 chrome
@@ -144,5 +144,5 @@ chrome
 chrome
 .
 ini
-'
+"
 ]

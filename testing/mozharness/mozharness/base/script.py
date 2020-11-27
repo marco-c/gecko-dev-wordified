@@ -195,17 +195,25 @@ base
 log
 import
 (
+    
 DEBUG
+    
 ERROR
+    
 FATAL
+    
 INFO
+    
 WARNING
-                                 
+    
 ConsoleLogger
+    
 LogMixin
+    
 MultiFileLogger
-                                 
+    
 OutputParser
+    
 SimpleFileLogger
 )
 try
@@ -278,9 +286,9 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 :
     
 import
@@ -360,9 +368,9 @@ _is_64_bit
 :
         
 return
-'
+"
 linux64
-'
+"
     
 elif
 pm
@@ -380,9 +388,9 @@ _is_64_bit
 :
         
 return
-'
+"
 linux
-'
+"
     
 elif
 pm
@@ -393,9 +401,9 @@ _is_darwin
 :
         
 return
-'
+"
 macosx
-'
+"
     
 elif
 pm
@@ -412,9 +420,9 @@ _is_64_bit
 :
         
 return
-'
+"
 win64
-'
+"
     
 elif
 pm
@@ -432,9 +440,9 @@ _is_64_bit
 :
         
 return
-'
+"
 win32
-'
+"
     
 else
 :
@@ -531,9 +539,9 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 :
             
 return
@@ -766,9 +774,9 @@ re
 .
 compile
 (
-'
+"
 debian
-'
+"
 )
         
 return
@@ -848,7 +856,7 @@ re
 .
 compile
 (
-'
+"
 Redhat
 |
 Fedora
@@ -856,7 +864,7 @@ Fedora
 CentOS
 |
 Oracle
-'
+"
 )
         
 return
@@ -907,6 +915,8 @@ the
 following
             
 return
+(
+                
 sys
 .
 maxsize
@@ -915,6 +925,8 @@ maxsize
 *
 *
 32
+            
+)
 #
 context
 :
@@ -964,9 +976,9 @@ Python
 binary
             
 return
-'
+"
 64
-'
+"
 in
 platform
 .
@@ -1228,12 +1240,11 @@ file_path
 verbose
 =
 False
-                                       
 open_mode
 =
-'
+"
 rb
-'
+"
 )
         
 m
@@ -1489,7 +1500,6 @@ s
 "
 %
 path
-                         
 level
 =
 error_level
@@ -1530,7 +1540,6 @@ INFO
 error_level
 =
 ERROR
-               
 exit_code
 =
 -
@@ -2037,12 +2046,12 @@ m
 :
             
 return
-'
+"
 /
 %
 s
 /
-'
+"
 %
 m
 .
@@ -2058,9 +2067,9 @@ re
 sub
 (
 r
-'
-'
-'
+"
+"
+"
 ^
 (
 [
@@ -2073,9 +2082,9 @@ Z
 )
 :
 /
-'
-'
-'
+"
+"
+"
 repl
 path
 )
@@ -2217,7 +2226,7 @@ path
         
 full_path
 =
-'
+"
 \
 \
 \
@@ -2225,7 +2234,7 @@ full_path
 ?
 \
 \
-'
+"
 +
 path
         
@@ -2314,7 +2323,7 @@ win32file
 .
 SetFileAttributesW
 (
-'
+"
 \
 \
 \
@@ -2322,7 +2331,7 @@ SetFileAttributesW
 ?
 \
 \
-'
+"
 +
 path
 win32file
@@ -2350,7 +2359,7 @@ path
 .
 isdir
 (
-'
+"
 \
 \
 \
@@ -2358,7 +2367,7 @@ isdir
 ?
 \
 \
-'
+"
 +
 path
 )
@@ -2369,7 +2378,7 @@ win32file
 .
 DeleteFile
 (
-'
+"
 \
 \
 \
@@ -2377,7 +2386,7 @@ DeleteFile
 ?
 \
 \
-'
+"
 +
 path
 )
@@ -2389,7 +2398,7 @@ win32api
 .
 FindFiles
 (
-'
+"
 \
 \
 \
@@ -2397,17 +2406,17 @@ FindFiles
 ?
 \
 \
-'
+"
 +
 path
 +
-'
+"
 \
 \
 *
 .
 *
-'
+"
 )
 :
             
@@ -2429,17 +2438,17 @@ if
 name
 =
 =
-'
+"
 .
-'
+"
 or
 name
 =
 =
-'
+"
 .
 .
-'
+"
 :
                 
 continue
@@ -2482,7 +2491,7 @@ win32file
 SetFileAttributesW
 (
                         
-'
+"
 \
 \
 \
@@ -2490,19 +2499,20 @@ SetFileAttributesW
 ?
 \
 \
-'
+"
 +
 full_name
 win32file
 .
 FILE_ATTRIBUTE_NORMAL
+                    
 )
                     
 win32file
 .
 DeleteFile
 (
-'
+"
 \
 \
 \
@@ -2510,7 +2520,7 @@ DeleteFile
 ?
 \
 \
-'
+"
 +
 full_name
 )
@@ -2557,7 +2567,7 @@ win32file
 .
 RemoveDirectory
 (
-'
+"
 \
 \
 \
@@ -2565,7 +2575,7 @@ RemoveDirectory
 ?
 \
 \
-'
+"
 +
 path
 )
@@ -2640,9 +2650,9 @@ url
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
 )
         
@@ -2652,8 +2662,8 @@ parsed
 path
 !
 =
-'
-'
+"
+"
 :
             
 return
@@ -2663,9 +2673,9 @@ path
 .
 rsplit
 (
-'
+"
 /
-'
+"
 1
 )
 [
@@ -2860,7 +2870,7 @@ quote
 url
 safe
 =
-'
+"
 %
 /
 :
@@ -2872,7 +2882,6 @@ safe
 +
 !
 ;
-\
 '
 (
 )
@@ -2880,7 +2889,7 @@ safe
 [
 ]
 |
-'
+"
 )
         
 #
@@ -2912,9 +2921,9 @@ platform_name
 )
 in
 (
-'
+"
 win64
-'
+"
 )
 and
 platform
@@ -2927,9 +2936,11 @@ architecture
 ]
 in
 (
-'
+            
+"
 x64
-'
+"
+        
 )
 :
             
@@ -2996,9 +3007,9 @@ url
 )
 :
         
-'
-'
-'
+"
+"
+"
 Downloads
 a
 file
@@ -3096,21 +3107,21 @@ contents
 of
 url
         
-'
-'
-'
+"
+"
+"
         
 self
 .
 info
 (
-'
+"
 Fetch
 {
 }
 into
 memory
-'
+"
 .
 format
 (
@@ -3133,11 +3144,11 @@ parsed_url
 scheme
 in
 (
-'
-'
-'
+"
+"
+"
 file
-'
+"
 )
 :
             
@@ -3162,7 +3173,7 @@ path
 raise
 IOError
 (
-'
+"
 Could
 not
 find
@@ -3172,7 +3183,7 @@ extract
 :
 {
 }
-'
+"
 .
 format
 (
@@ -3212,20 +3223,20 @@ parsed_url
 scheme
 =
 =
-'
-'
+"
+"
 :
                 
 url
 =
-'
+"
 file
 :
 /
 /
 %
 s
-'
+"
 %
 os
 .
@@ -3475,12 +3486,12 @@ parsed_url
 scheme
 in
 (
-'
+"
 http
-'
-'
+"
+"
 https
-'
+"
 )
 :
             
@@ -3494,11 +3505,11 @@ headers
 .
 get
 (
-'
+"
 Content
 -
 Length
-'
+"
 )
 )
         
@@ -3521,7 +3532,7 @@ self
 .
 info
 (
-'
+"
 Content
 -
 Length
@@ -3530,7 +3541,7 @@ header
 :
 {
 }
-'
+"
 .
 format
 (
@@ -3542,13 +3553,13 @@ self
 .
 info
 (
-'
+"
 Bytes
 received
 :
 {
 }
-'
+"
 .
 format
 (
@@ -3567,7 +3578,7 @@ raise
 ContentLengthMismatch
 (
                 
-'
+"
 The
 retrieved
 Content
@@ -3578,9 +3589,9 @@ declares
 a
 body
 length
-'
+"
                 
-'
+"
 of
 {
 }
@@ -3592,13 +3603,14 @@ retrieved
 {
 }
 bytes
-'
+"
 .
 format
 (
                     
 content_length
 response_body_size
+                
 )
             
 )
@@ -3612,17 +3624,17 @@ info
 .
 get
 (
-'
+"
 Content
 -
 Encoding
-'
+"
 )
 =
 =
-'
+"
 gzip
-'
+"
 :
             
 self
@@ -3993,14 +4005,14 @@ url
             
 url
 =
-'
+"
 file
 :
 /
 /
 %
 s
-'
+"
 %
 os
 .
@@ -4039,11 +4051,11 @@ info
 .
 get
 (
-'
+"
 content
 -
 length
-'
+"
 )
 is
 not
@@ -4060,11 +4072,11 @@ info
 (
 )
 [
-'
+"
 content
 -
 length
-'
+"
 ]
 )
                 
@@ -4081,17 +4093,17 @@ info
 .
 get
 (
-'
+"
 Content
 -
 Encoding
-'
+"
 )
 =
 =
-'
+"
 gzip
-'
+"
 :
                 
 #
@@ -4150,13 +4162,13 @@ open
 (
 file_name
 +
-'
+"
 .
 gz
-'
-'
+"
+"
 wb
-'
+"
 )
             
 else
@@ -4167,9 +4179,9 @@ local_file
 open
 (
 file_name
-'
+"
 wb
-'
+"
 )
             
 while
@@ -4233,6 +4245,7 @@ d
 f_length
 got_length
 )
+                        
 )
                     
 break
@@ -4274,17 +4287,17 @@ info
 .
 get
 (
-'
+"
 Content
 -
 Encoding
-'
+"
 )
 =
 =
-'
+"
 gzip
-'
+"
 :
                 
 #
@@ -4302,9 +4315,9 @@ with
 open
 (
 file_name
-'
+"
 wb
-'
+"
 )
 as
 f_out
@@ -4374,13 +4387,13 @@ open
 (
 file_name
 +
-'
+"
 .
 gz
-'
-'
+"
+"
 rb
-'
+"
 )
                         
 shutil
@@ -4406,10 +4419,10 @@ remove
 (
 file_name
 +
-'
+"
 .
 gz
-'
+"
 )
             
 return
@@ -4425,6 +4438,7 @@ self
 .
 warning
 (
+                
 "
 Server
 returned
@@ -4451,6 +4465,7 @@ e
 )
 url
 )
+            
 )
             
 raise
@@ -4799,19 +4814,23 @@ None
 retry_exceptions
 =
 (
+                
 HTTPError
+                
 URLError
-                              
+                
 httplib
 .
 BadStatusLine
-                              
+                
 socket
 .
 timeout
+                
 socket
 .
 error
+            
 )
             
 error_message
@@ -4898,17 +4917,13 @@ self
 .
 retry
 (
-            
 download_func
-            
 kwargs
 =
 kwargs
-            
 *
 *
 retry_args
-        
 )
     
 def
@@ -4967,9 +4982,9 @@ filter_partial
 extract_dirs
 or
 [
-'
+"
 *
-'
+"
 ]
 )
 )
@@ -4991,9 +5006,9 @@ compressed_file
 extract_to
 extract_dirs
 =
-'
+"
 *
-'
+"
 verbose
 =
 False
@@ -5153,10 +5168,10 @@ self
 .
 info
 (
-'
+"
 {
 }
-'
+"
 .
 format
 (
@@ -5356,7 +5371,7 @@ self
 .
 warning
 (
-'
+"
 {
 }
 was
@@ -5366,7 +5381,7 @@ in
 the
 zip
 file
-'
+"
 .
 format
 (
@@ -5382,9 +5397,9 @@ compressed_file
 mode
 extract_to
 =
-'
+"
 .
-'
+"
 *
 args
 *
@@ -5520,14 +5535,14 @@ self
 url
 extract_to
 =
-'
+"
 .
-'
+"
 extract_dirs
 =
-'
+"
 *
-'
+"
 verbose
 =
 False
@@ -5654,51 +5669,51 @@ EXTENSION_TO_MIMETYPE
 =
 {
                 
-'
+"
 bz2
-'
+"
 :
-'
+"
 application
 /
 x
 -
 bzip2
-'
+"
                 
-'
+"
 gz
-'
+"
 :
-'
+"
 application
 /
 x
 -
 gzip
-'
+"
                 
-'
+"
 tar
-'
+"
 :
-'
+"
 application
 /
 x
 -
 tar
-'
+"
                 
-'
+"
 zip
-'
+"
 :
-'
+"
 application
 /
 zip
-'
+"
             
 }
             
@@ -5706,123 +5721,123 @@ MIMETYPES
 =
 {
                 
-'
+"
 application
 /
 x
 -
 bzip2
-'
+"
 :
 {
                     
-'
+"
 function
-'
+"
 :
 self
 .
 deflate
                     
-'
+"
 kwargs
-'
+"
 :
 {
-'
+"
 mode
-'
+"
 :
-'
+"
 r
 :
 bz2
-'
+"
 }
                 
 }
                 
-'
+"
 application
 /
 x
 -
 gzip
-'
+"
 :
 {
                     
-'
+"
 function
-'
+"
 :
 self
 .
 deflate
                     
-'
+"
 kwargs
-'
+"
 :
 {
-'
+"
 mode
-'
+"
 :
-'
+"
 r
 :
 gz
-'
+"
 }
                 
 }
                 
-'
+"
 application
 /
 x
 -
 tar
-'
+"
 :
 {
                     
-'
+"
 function
-'
+"
 :
 self
 .
 deflate
                     
-'
+"
 kwargs
-'
+"
 :
 {
-'
+"
 mode
-'
+"
 :
-'
+"
 r
-'
+"
 }
                 
 }
                 
-'
+"
 application
 /
 zip
-'
+"
 :
 {
                     
-'
+"
 function
-'
+"
 :
 self
 .
@@ -5830,7 +5845,7 @@ unzip
                 
 }
                 
-'
+"
 application
 /
 x
@@ -5838,13 +5853,13 @@ x
 zip
 -
 compressed
-'
+"
 :
 {
                     
-'
+"
 function
-'
+"
 :
 self
 .
@@ -5860,9 +5875,9 @@ url
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 -
@@ -5893,9 +5908,9 @@ filename
 .
 rfind
 (
-'
+"
 .
-'
+"
 )
 +
 1
@@ -5913,12 +5928,12 @@ self
 .
 debug
 (
-'
+"
 Mimetype
 :
 {
 }
-'
+"
 .
 format
 (
@@ -5933,36 +5948,36 @@ MIMETYPES
 mimetype
 ]
 [
-'
+"
 function
-'
+"
 ]
             
 kwargs
 =
 {
                 
-'
+"
 compressed_file
-'
+"
 :
 compressed_file
                 
-'
+"
 extract_to
-'
+"
 :
 extract_to
                 
-'
+"
 extract_dirs
-'
+"
 :
 extract_dirs
                 
-'
+"
 verbose
-'
+"
 :
 verbose
             
@@ -5979,9 +5994,9 @@ mimetype
 .
 get
 (
-'
+"
 kwargs
-'
+"
 {
 }
 )
@@ -6005,9 +6020,9 @@ None
         
 extract_dirs
 =
-'
+"
 *
-'
+"
 if
 extract_dirs
 is
@@ -6019,7 +6034,8 @@ self
 .
 info
 (
-'
+            
+"
 Downloading
 and
 extracting
@@ -6033,24 +6049,25 @@ dirs
 from
 {
 }
-'
+"
 .
 format
 (
-            
+                
 extract_to
-            
-'
-'
+                
+"
+"
 .
 join
 (
 extract_dirs
 )
-            
+                
 url
-        
+            
 )
+        
 )
         
 #
@@ -6133,17 +6150,15 @@ retry
 self
 .
 fetch_url_into_memory
-            
 kwargs
 =
 {
-'
+"
 url
-'
+"
 :
 url
 }
-            
 *
 *
 retry_args
@@ -6328,28 +6343,35 @@ object
 def
 download_file
 (
+        
 self
+        
 url
+        
 file_name
 =
 None
+        
 parent_dir
 =
 None
-                      
+        
 create_parent_dir
 =
 True
+        
 error_level
 =
 ERROR
-                      
+        
 exit_code
 =
 3
+        
 retry_config
 =
 None
+    
 )
 :
         
@@ -6584,6 +6606,7 @@ self
 .
 log
 (
+                    
 "
 Unable
 to
@@ -6599,13 +6622,15 @@ url
 "
 %
 url
-                         
+                    
 level
 =
 error_level
+                    
 exit_code
 =
 exit_code
+                
 )
                 
 return
@@ -6728,7 +6753,6 @@ INFO
 error_level
 =
 ERROR
-             
 exit_code
 =
 -
@@ -6914,7 +6938,6 @@ str
 (
 e
 )
-                     
 level
 =
 error_level
@@ -6971,7 +6994,6 @@ str
 (
 e
 )
-                     
 level
 =
 WARNING
@@ -7105,17 +7127,23 @@ copyfile
 (
         
 self
+        
 src
+        
 dest
+        
 log_level
 =
 INFO
+        
 error_level
 =
 ERROR
+        
 copystat
 =
 False
+        
 compress
 =
 False
@@ -7338,6 +7366,7 @@ self
 .
 log
 (
+                    
 "
 Can
 '
@@ -7362,10 +7391,11 @@ str
 e
 )
 )
-                         
+                    
 level
 =
 error_level
+                
 )
                 
 return
@@ -7423,6 +7453,7 @@ self
 .
 log
 (
+                    
 "
 Can
 '
@@ -7447,10 +7478,10 @@ str
 e
 )
 )
-                         
 level
 =
 error_level
+                
 )
                 
 return
@@ -7487,6 +7518,7 @@ self
 .
 log
 (
+                    
 "
 Can
 '
@@ -7513,10 +7545,11 @@ str
 e
 )
 )
-                         
+                    
 level
 =
 error_level
+                
 )
                 
 return
@@ -7526,21 +7559,22 @@ return
 def
 copytree
 (
+        
 self
 src
 dest
 overwrite
 =
-'
+"
 no_overwrite
-'
+"
 log_level
 =
 INFO
-                 
 error_level
 =
 ERROR
+    
 )
 :
         
@@ -7728,7 +7762,7 @@ self
 .
 info
 (
-'
+"
 copying
 tree
 :
@@ -7737,7 +7771,7 @@ s
 to
 %
 s
-'
+"
 %
 (
 src
@@ -7752,9 +7786,9 @@ if
 overwrite
 =
 =
-'
+"
 clobber
-'
+"
 or
 not
 os
@@ -7786,16 +7820,16 @@ elif
 overwrite
 =
 =
-'
+"
 no_overwrite
-'
+"
 or
 overwrite
 =
 =
-'
+"
 overwrite_if_exists
-'
+"
 :
                 
 files
@@ -7873,12 +7907,11 @@ copytree
 (
 abs_src_f
 abs_dest_f
-                                          
 overwrite
 =
-'
+"
 clobber
-'
+"
 )
                         
 else
@@ -7896,9 +7929,9 @@ elif
 overwrite
 =
 =
-'
+"
 no_overwrite
-'
+"
 :
 #
 destination
@@ -7929,14 +7962,15 @@ self
 .
 copytree
 (
+                                
 abs_src_f
 abs_dest_f
-                                          
 overwrite
 =
-'
+"
 no_overwrite
-'
+"
+                            
 )
                         
 else
@@ -7946,7 +7980,8 @@ self
 .
 debug
 (
-'
+                                
+"
 ignoring
 path
 :
@@ -7960,12 +7995,14 @@ destination
 %
 s
 exists
-'
+"
+                                
 %
 (
 abs_src_f
 abs_dest_f
 )
+                            
 )
                     
 else
@@ -7985,7 +8022,7 @@ self
 .
 debug
 (
-'
+"
 overwriting
 :
 %
@@ -7994,9 +8031,8 @@ with
 :
 %
 s
-'
+"
 %
-                                   
 (
 abs_dest_f
 abs_src_f
@@ -8032,14 +8068,15 @@ self
 .
 copytree
 (
+                                
 abs_src_f
 abs_dest_f
-                                          
 overwrite
 =
-'
+"
 overwrite_if_exists
-'
+"
+                            
 )
                         
 else
@@ -8060,6 +8097,7 @@ self
 .
 fatal
 (
+                    
 "
 %
 s
@@ -8076,6 +8114,7 @@ overwrite
 (
 overwrite
 )
+                
 )
         
 except
@@ -8091,6 +8130,7 @@ self
 .
 exception
 (
+                
 "
 There
 was
@@ -8110,10 +8150,11 @@ s
 src
 dest
 )
-                           
+                
 level
 =
 error_level
+            
 )
             
 return
@@ -8123,25 +8164,31 @@ return
 def
 write_to_file
 (
+        
 self
+        
 file_path
+        
 contents
+        
 verbose
 =
 True
-                      
+        
 open_mode
 =
-'
+"
 w
-'
+"
+        
 create_parent_dir
 =
 False
-                      
+        
 error_level
 =
 ERROR
+    
 )
 :
         
@@ -8390,14 +8437,14 @@ contents
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
-'
+"
+"
 replace
-'
+"
 )
 )
             
@@ -8432,7 +8479,6 @@ writing
 "
 %
 file_path
-                     
 level
 =
 error_level
@@ -8450,10 +8496,9 @@ verbose
 True
 open_mode
 =
-'
+"
 r
-'
-               
+"
 error_level
 =
 ERROR
@@ -8654,6 +8699,7 @@ self
 .
 log
 (
+                
 "
 unable
 to
@@ -8671,10 +8717,10 @@ err
 .
 strerror
 )
-                     
 level
 =
 error_level
+            
 )
             
 yield
@@ -8710,10 +8756,9 @@ verbose
 True
 open_mode
 =
-'
+"
 r
-'
-                       
+"
 error_level
 =
 ERROR
@@ -9231,35 +9276,43 @@ commands
 def
 retry
 (
+        
 self
+        
 action
+        
 attempts
 =
 None
+        
 sleeptime
 =
 60
+        
 max_sleeptime
 =
 5
 *
 60
-              
+        
 retry_exceptions
 =
 (
 Exception
 )
+        
 good_statuses
 =
 None
+        
 cleanup
 =
 None
-              
+        
 error_level
 =
 ERROR
+        
 error_message
 =
 "
@@ -9278,22 +9331,26 @@ d
 tries
 !
 "
-              
+        
 failure_status
 =
 -
 1
+        
 log_level
 =
 INFO
+        
 args
 =
 (
 )
+        
 kwargs
 =
 {
 }
+    
 )
 :
         
@@ -9784,6 +9841,7 @@ self
 .
 debug
 (
+                
 "
 max_sleeptime
 %
@@ -9796,10 +9854,10 @@ d
 "
 %
 (
-                       
 max_sleeptime
 sleeptime
 )
+            
 )
         
 n
@@ -9829,6 +9887,7 @@ self
 .
 log
 (
+                    
 "
 retry
 :
@@ -9849,8 +9908,8 @@ attempt
 %
 d
 "
+                    
 %
-                         
 (
 action
 .
@@ -9865,9 +9924,11 @@ kwargs
 )
 n
 )
+                    
 level
 =
 log_level
+                
 )
                 
 status
@@ -9929,7 +9990,8 @@ self
 .
 log
 (
-'
+                    
+"
 retry
 :
 attempt
@@ -9943,9 +10005,9 @@ exception
 :
 %
 s
-'
+"
+                    
 %
-                         
 (
 n
 type
@@ -9959,9 +10021,11 @@ str
 e
 )
 )
+                    
 level
 =
 INFO
+                
 )
             
 if
@@ -9994,23 +10058,26 @@ self
 .
 log
 (
+                        
 error_message
 %
 {
-'
+"
 action
-'
+"
 :
 action
-'
+"
 attempts
-'
+"
 :
 n
 }
+                        
 level
 =
 error_level
+                    
 )
                     
 return
@@ -10026,6 +10093,7 @@ self
 .
 log
 (
+                        
 "
 retry
 :
@@ -10037,12 +10105,14 @@ seconds
 before
 retrying
 "
+                        
 %
-                             
 sleeptime
+                        
 level
 =
 log_level
+                    
 )
                     
 time
@@ -10071,29 +10141,34 @@ max_sleeptime
 def
 query_env
 (
+        
 self
+        
 partial_env
 =
 None
+        
 replace_dict
 =
 None
-                  
+        
 purge_env
 =
 (
 )
-                  
+        
 set_self_env
 =
 None
+        
 log_level
 =
 DEBUG
-                  
+        
 avoid_host_env
 =
 False
+    
 )
 :
         
@@ -10386,9 +10461,9 @@ config
 .
 get
 (
-'
+"
 env
-'
+"
 None
 )
             
@@ -10416,17 +10491,17 @@ True
 env
 =
 {
-'
+"
 PATH
-'
+"
 :
 os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 }
 if
@@ -10450,18 +10525,18 @@ query_abs_dirs
         
 default_replace_dict
 [
-'
+"
 PATH
-'
+"
 ]
 =
 os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
         
 if
@@ -10572,9 +10647,9 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 :
             
 pref_encoding
@@ -10643,23 +10718,29 @@ env
 def
 query_exe
 (
+        
 self
+        
 exe_name
+        
 exe_dict
 =
-'
+"
 exes
-'
+"
+        
 default
 =
 None
-                  
+        
 return_type
 =
 None
+        
 error_level
 =
 FATAL
+    
 )
 :
         
@@ -10946,9 +11027,9 @@ hasattr
 self
 .
 script_obj
-'
+"
 query_abs_dirs
-'
+"
 )
 :
             
@@ -11108,6 +11189,7 @@ self
 .
 log
 (
+                        
 "
 a
 exes
@@ -11128,7 +11210,7 @@ tuple
 Got
 key
 "
-                             
+                        
 "
 %
 s
@@ -11146,9 +11228,11 @@ str
 path
 )
 )
+                        
 level
 =
 error_level
+                    
 )
                 
 if
@@ -11168,6 +11252,7 @@ self
 .
 log
 (
+                    
 "
 query_exe
 was
@@ -11178,7 +11263,7 @@ but
 an
 existing
 "
-                         
+                    
 "
 path
 could
@@ -11190,7 +11275,7 @@ Tried
 searching
 in
 "
-                         
+                    
 "
 paths
 :
@@ -11204,9 +11289,11 @@ str
 exe
 )
 )
+                    
 level
 =
 error_level
+                
 )
                 
 return
@@ -11259,6 +11346,7 @@ self
 .
 log
 (
+                
 "
 query_exe
 :
@@ -11274,7 +11362,7 @@ or
 string
 :
 "
-                     
+                
 "
 %
 s
@@ -11288,9 +11376,11 @@ str
 exe
 )
 )
+                
 level
 =
 error_level
+            
 )
             
 return
@@ -11368,12 +11458,13 @@ in
 query_exe
 !
 "
-                
 %
 return_type
+                
 level
 =
 error_level
+            
 )
         
 return
@@ -11382,54 +11473,65 @@ exe
 def
 run_command
 (
+        
 self
+        
 command
+        
 cwd
 =
 None
+        
 error_list
 =
 None
-                    
+        
 halt_on_failure
 =
 False
+        
 success_codes
 =
 None
-                    
+        
 env
 =
 None
+        
 partial_env
 =
 None
+        
 return_type
 =
-'
+"
 status
-'
-                    
+"
+        
 throw_exception
 =
 False
+        
 output_parser
 =
 None
-                    
+        
 output_timeout
 =
 None
+        
 fatal_exit_code
 =
 2
-                    
+        
 error_level
 =
 ERROR
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -11944,6 +12046,7 @@ self
 .
 log
 (
+                    
 "
 Can
 '
@@ -11963,15 +12066,17 @@ s
 '
 !
 "
+                    
 %
-                         
 (
 command
 cwd
 )
+                    
 level
 =
 level
+                
 )
                 
 return
@@ -12123,9 +12228,9 @@ if
 hasattr
 (
 self
-'
+"
 previous_env
-'
+"
 )
 and
 env
@@ -12192,6 +12297,7 @@ parser
 =
 OutputParser
 (
+                
 config
 =
 self
@@ -12202,10 +12308,10 @@ log_obj
 self
 .
 log_obj
-                                  
 error_list
 =
 error_list
+            
 )
         
 else
@@ -12276,47 +12382,51 @@ str
 command
 )
 )
+                    
 )
                 
 p
 =
 ProcessHandler
 (
+                    
 command
-                                   
+                    
 shell
 =
 shell
-                                   
+                    
 env
 =
 env
-                                   
+                    
 cwd
 =
 cwd
-                                   
+                    
 storeOutput
 =
 False
-                                   
+                    
 onTimeout
 =
 (
 onTimeout
 )
-                                   
+                    
 processOutputLine
 =
 [
 processOutput
 ]
+                
 )
                 
 self
 .
 info
 (
+                    
 "
 Calling
 %
@@ -12331,6 +12441,7 @@ d
 command
 output_timeout
 )
+                
 )
                 
 p
@@ -12359,7 +12470,7 @@ self
 log
 (
                         
-'
+"
 timed
 out
 after
@@ -12369,7 +12480,7 @@ seconds
 of
 no
 output
-'
+"
 %
 output_timeout
                         
@@ -12399,31 +12510,37 @@ subprocess
 .
 Popen
 (
+                    
 command
+                    
 shell
 =
 shell
+                    
 stdout
 =
 subprocess
 .
 PIPE
-                                     
+                    
 cwd
 =
 cwd
+                    
 stderr
 =
 subprocess
 .
 STDOUT
+                    
 env
 =
 env
-                                     
+                    
 bufsize
 =
 0
+                
 )
                 
 loop
@@ -12519,6 +12636,7 @@ self
 .
 log
 (
+                
 "
 Process
 interrupted
@@ -12536,10 +12654,11 @@ s
 p
 .
 pid
-                     
+                
 level
 =
 level
+            
 )
             
 p
@@ -12574,7 +12693,8 @@ self
 .
 log
 (
-'
+                
+"
 caught
 OS
 error
@@ -12587,21 +12707,23 @@ while
 running
 %
 s
-'
+"
+                
 %
 (
 e
 .
 errno
-                     
 e
 .
 strerror
 command
 )
+                
 level
 =
 level
+            
 )
             
 return
@@ -12741,6 +12863,7 @@ self
 .
 fatal
 (
+                    
 "
 Halting
 on
@@ -12752,19 +12875,20 @@ s
 "
 %
 command
-                           
+                    
 exit_code
 =
 fatal_exit_code
+                
 )
         
 if
 return_type
 =
 =
-'
+"
 num_errors
-'
+"
 :
             
 return
@@ -12778,54 +12902,63 @@ returncode
 def
 get_output_from_command
 (
+        
 self
+        
 command
+        
 cwd
 =
 None
-                                
+        
 halt_on_failure
 =
 False
+        
 env
 =
 None
-                                
+        
 silent
 =
 False
+        
 log_level
 =
 INFO
-                                
+        
 tmpfile_base_path
 =
-'
+"
 tmpfile
-'
-                                
+"
+        
 return_type
 =
-'
+"
 output
-'
+"
+        
 save_tmpfiles
 =
 False
-                                
+        
 throw_exception
 =
 False
+        
 fatal_exit_code
 =
 2
-                                
+        
 ignore_errors
 =
 False
+        
 success_codes
 =
 None
+    
 )
 :
         
@@ -13382,6 +13515,7 @@ self
 .
 log
 (
+                    
 "
 Can
 '
@@ -13399,15 +13533,17 @@ directory
 s
 !
 "
+                    
 %
-                         
 (
 command
 cwd
 )
+                    
 level
 =
 level
+                
 )
                 
 return
@@ -13503,19 +13639,19 @@ None
         
 tmp_stdout_filename
 =
-'
+"
 %
 s_stdout
-'
+"
 %
 tmpfile_base_path
         
 tmp_stderr_filename
 =
-'
+"
 %
 s_stderr
-'
+"
 %
 tmpfile_base_path
         
@@ -13551,9 +13687,9 @@ tmp_stdout
 open
 (
 tmp_stdout_filename
-'
+"
 w
-'
+"
 )
         
 except
@@ -13576,6 +13712,7 @@ self
 .
 log
 (
+                
 "
 Can
 '
@@ -13590,15 +13727,16 @@ writing
 %
 tmp_stdout_filename
 +
-                     
 self
 .
 exception
 (
 )
+                
 level
 =
 level
+            
 )
             
 return
@@ -13612,9 +13750,9 @@ tmp_stderr
 open
 (
 tmp_stderr_filename
-'
+"
 w
-'
+"
 )
         
 except
@@ -13637,6 +13775,7 @@ self
 .
 log
 (
+                
 "
 Can
 '
@@ -13651,15 +13790,16 @@ writing
 %
 tmp_stderr_filename
 +
-                     
 self
 .
 exception
 (
 )
+                
 level
 =
 level
+            
 )
             
 return
@@ -13687,26 +13827,33 @@ subprocess
 .
 Popen
 (
+            
 command
+            
 shell
 =
 shell
+            
 stdout
 =
 tmp_stdout
-                             
+            
 cwd
 =
 cwd
+            
 stderr
 =
 tmp_stderr
+            
 env
 =
 env
+            
 bufsize
 =
 0
+        
 )
         
 #
@@ -13757,15 +13904,16 @@ and
 %
 s
 "
-            
 %
 (
 tmp_stdout_filename
 tmp_stderr_filename
 )
+            
 level
 =
 DEBUG
+        
 )
         
 p
@@ -13798,9 +13946,9 @@ if
 return_type
 =
 =
-'
+"
 output
-'
+"
 or
 not
 silent
@@ -13822,7 +13970,9 @@ path
 .
 getsize
 (
+                
 tmp_stdout_filename
+            
 )
 :
                 
@@ -13833,7 +13983,6 @@ self
 read_from_file
 (
 tmp_stdout_filename
-                                             
 verbose
 =
 False
@@ -13914,10 +14063,10 @@ self
 .
 log
 (
-'
+"
 %
 s
-'
+"
 %
 line
 level
@@ -13927,10 +14076,10 @@ log_level
                     
 output
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -13987,7 +14136,6 @@ self
 read_from_file
 (
 tmp_stderr_filename
-                                         
 verbose
 =
 False
@@ -14045,10 +14193,10 @@ self
 .
 log
 (
-'
+"
 %
 s
-'
+"
 %
 line
 level
@@ -14160,6 +14308,7 @@ self
 .
 fatal
 (
+                
 "
 Halting
 on
@@ -14171,10 +14320,11 @@ s
 "
 %
 command
-                       
+                
 exit_code
 =
 fatal_exit_code
+            
 )
         
 #
@@ -14208,9 +14358,9 @@ if
 return_type
 !
 =
-'
+"
 output
-'
+"
 :
             
 return
@@ -14382,9 +14532,9 @@ try
 open
 (
 file_name
-'
+"
 w
-'
+"
 )
 .
 close
@@ -14443,22 +14593,29 @@ times
 def
 unpack
 (
+        
 self
+        
 filename
+        
 extract_to
+        
 extract_dirs
 =
 None
-               
+        
 error_level
 =
 ERROR
+        
 fatal_exit_code
 =
 2
+        
 verbose
 =
 False
+    
 )
 :
         
@@ -14606,7 +14763,7 @@ filename
 raise
 IOError
 (
-'
+"
 Could
 not
 find
@@ -14616,7 +14773,7 @@ extract
 :
 %
 s
-'
+"
 %
 filename
 )
@@ -14637,7 +14794,8 @@ self
 .
 info
 (
-'
+                    
+"
 Using
 ZipFile
 to
@@ -14647,13 +14805,14 @@ extract
 to
 {
 }
-'
+"
 .
 format
 (
 filename
 extract_to
 )
+                
 )
                 
 with
@@ -14691,10 +14850,10 @@ self
 .
 info
 (
-'
+"
 %
 s
-'
+"
 %
 entry
 )
@@ -14815,14 +14974,15 @@ self
 .
 log
 (
-'
+                    
+"
 %
 s
 (
 %
 s
 )
-'
+"
 %
 (
 e
@@ -14830,13 +14990,15 @@ e
 message
 filename
 )
-                         
+                    
 level
 =
 error_level
+                    
 exit_code
 =
 fatal_exit_code
+                
 )
         
 #
@@ -14868,10 +15030,10 @@ lower
 .
 endswith
 (
-'
+"
 .
 dmg
-'
+"
 )
 :
             
@@ -14882,7 +15044,8 @@ self
 .
 info
 (
-'
+                    
+"
 Using
 TarFile
 to
@@ -14892,13 +15055,14 @@ extract
 to
 {
 }
-'
+"
 .
 format
 (
 filename
 extract_to
 )
+                
 )
                 
 with
@@ -14936,10 +15100,10 @@ self
 .
 info
 (
-'
+"
 %
 s
-'
+"
 %
 entry
 )
@@ -14966,14 +15130,15 @@ self
 .
 log
 (
-'
+                    
+"
 %
 s
 (
 %
 s
 )
-'
+"
 %
 (
 e
@@ -14981,13 +15146,15 @@ e
 message
 filename
 )
-                         
+                    
 level
 =
 error_level
+                    
 exit_code
 =
 fatal_exit_code
+                
 )
         
 else
@@ -14997,7 +15164,8 @@ self
 .
 log
 (
-'
+                
+"
 No
 extraction
 method
@@ -15006,16 +15174,18 @@ for
 :
 %
 s
-'
+"
 %
 filename
-                     
+                
 level
 =
 error_level
+                
 exit_code
 =
 fatal_exit_code
+            
 )
     
 def
@@ -15056,9 +15226,9 @@ work
 on
         
 return
-'
+"
 TASKCLUSTER_WORKER_TYPE
-'
+"
 in
 os
 .
@@ -15553,22 +15723,27 @@ object
 def
 __init__
 (
+        
 self
+        
 config_options
 =
 None
+        
 ConfigClass
 =
 BaseConfig
-                 
+        
 default_log_level
 =
 "
 info
 "
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -15735,7 +15910,7 @@ None
         
 srcreldir
 =
-'
+"
 testing
 /
 mozharness
@@ -15743,7 +15918,7 @@ mozharness
 mozharness
 /
 base
-'
+"
         
 here
 =
@@ -15768,13 +15943,13 @@ here
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
 )
 .
 endswith
@@ -15798,23 +15973,22 @@ path
 join
 (
 here
-'
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
-                                                      
-'
+"
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
+"
 )
 )
             
@@ -15827,10 +16001,10 @@ path
 join
 (
 topsrcdir
-'
+"
 .
 hg
-'
+"
 )
             
 git_dir
@@ -15842,10 +16016,10 @@ path
 join
 (
 topsrcdir
-'
+"
 .
 git
-'
+"
 )
             
 if
@@ -16189,6 +16363,7 @@ self
 .
 warning
 (
+                    
 "
 BaseScript
 collecting
@@ -16196,7 +16371,7 @@ decorated
 methods
 :
 "
-                             
+                    
 "
 failure
 to
@@ -16217,6 +16392,7 @@ str
 e
 )
 )
+                
 )
             
 if
@@ -16253,9 +16429,9 @@ if
 hasattr
 (
 item
-'
+"
 _pre_run_listener
-'
+"
 )
 :
                 
@@ -16263,9 +16439,9 @@ self
 .
 _listeners
 [
-'
+"
 pre_run
-'
+"
 ]
 .
 append
@@ -16277,9 +16453,9 @@ if
 hasattr
 (
 item
-'
+"
 _pre_action_listener
-'
+"
 )
 :
                 
@@ -16287,17 +16463,15 @@ self
 .
 _listeners
 [
-'
+"
 pre_action
-'
+"
 ]
 .
 append
 (
 (
-                    
 k
-                    
 item
 .
 _pre_action_listener
@@ -16308,9 +16482,9 @@ if
 hasattr
 (
 item
-'
+"
 _post_action_listener
-'
+"
 )
 :
                 
@@ -16318,17 +16492,15 @@ self
 .
 _listeners
 [
-'
+"
 post_action
-'
+"
 ]
 .
 append
 (
 (
-                    
 k
-                    
 item
 .
 _post_action_listener
@@ -16339,9 +16511,9 @@ if
 hasattr
 (
 item
-'
+"
 _post_run_listener
-'
+"
 )
 :
                 
@@ -16349,9 +16521,9 @@ self
 .
 _listeners
 [
-'
+"
 post_run
-'
+"
 ]
 .
 append
@@ -16486,12 +16658,12 @@ property_list
 set
 (
 [
-'
+"
 adb_path
-'
-'
+"
+"
 device
-'
+"
 ]
 )
         
@@ -16904,7 +17076,6 @@ unique_dict
 =
 dict
 (
-                
 (
 key
 target_dict
@@ -16918,7 +17089,6 @@ for
 key
 in
 unique_keys
-            
 )
             
 cfg_files_dump_config
@@ -16994,7 +17164,6 @@ keys_not_from_file
 .
 difference
 (
-                
 set
 (
 target_dict
@@ -17003,7 +17172,6 @@ keys
 (
 )
 )
-            
 )
         
 not_from_file_dict
@@ -17042,6 +17210,7 @@ self
 .
 action_message
 (
+            
 "
 Not
 from
@@ -17051,7 +17220,6 @@ file
 (
 default_config
 "
-                            
 "
 cmd
 line
@@ -17059,6 +17227,7 @@ options
 etc
 )
 "
+        
 )
         
 self
@@ -17100,9 +17269,9 @@ join
 (
 dirs
 [
-'
+"
 abs_log_dir
-'
+"
 ]
 "
 localconfigfiles
@@ -17112,9 +17281,11 @@ json
 )
             
 cfg_files_dump_config
+            
 console_output
 =
 False
+            
 exit_on_finish
 =
 True
@@ -17228,7 +17399,6 @@ run
 (
 )
 .
-        
 "
 "
 "
@@ -17364,9 +17534,9 @@ self
 .
 _listeners
 [
-'
+"
 pre_action
-'
+"
 ]
 :
             
@@ -17426,6 +17596,7 @@ self
 .
 error
 (
+                    
 "
 Exception
 during
@@ -17439,9 +17610,9 @@ s
 %
 s
 "
+                    
 %
 (
-                    
 action
 traceback
 .
@@ -17449,6 +17620,7 @@ format_exc
 (
 )
 )
+                
 )
                 
 for
@@ -17459,9 +17631,9 @@ self
 .
 _listeners
 [
-'
+"
 post_action
-'
+"
 ]
 :
                     
@@ -17524,6 +17696,7 @@ self
 .
 error
 (
+                            
 "
 An
 additional
@@ -17531,7 +17704,7 @@ exception
 occurred
 during
 "
-                                   
+                            
 "
 post
 -
@@ -17543,7 +17716,6 @@ s
 %
 s
 "
-                                   
 %
 (
 action
@@ -17553,6 +17725,7 @@ format_exc
 (
 )
 )
+                        
 )
                 
 self
@@ -17667,9 +17840,9 @@ self
 .
 _listeners
 [
-'
+"
 post_action
-'
+"
 ]
 :
                 
@@ -17743,6 +17916,7 @@ self
 .
 error
 (
+                        
 "
 Exception
 during
@@ -17756,9 +17930,9 @@ s
 %
 s
 "
+                        
 %
 (
-                        
 action
 traceback
 .
@@ -17766,19 +17940,20 @@ format_exc
 (
 )
 )
+                    
 )
             
 step_result
 =
-'
+"
 success
-'
+"
 if
 success
 else
-'
+"
 failed
-'
+"
             
 self
 .
@@ -17944,9 +18119,9 @@ self
 .
 _listeners
 [
-'
+"
 pre_run
-'
+"
 ]
 :
             
@@ -17991,6 +18166,7 @@ self
 .
 error
 (
+                    
 "
 Exception
 during
@@ -18003,12 +18179,12 @@ listener
 s
 "
 %
-                           
 traceback
 .
 format_exc
 (
 )
+                
 )
                 
 for
@@ -18018,9 +18194,9 @@ self
 .
 _listeners
 [
-'
+"
 post_run
-'
+"
 ]
 :
                     
@@ -18047,6 +18223,7 @@ self
 .
 error
 (
+                            
 "
 An
 additional
@@ -18055,7 +18232,7 @@ occurred
 during
 a
 "
-                                   
+                            
 "
 post
 -
@@ -18071,6 +18248,7 @@ traceback
 format_exc
 (
 )
+                        
 )
                 
 self
@@ -18152,9 +18330,9 @@ self
 .
 _listeners
 [
-'
+"
 post_run
-'
+"
 ]
 :
                 
@@ -18203,6 +18381,7 @@ self
 .
 error
 (
+                        
 "
 Exception
 during
@@ -18214,13 +18393,14 @@ listener
 %
 s
 "
+                        
 %
-                               
 traceback
 .
 format_exc
 (
 )
+                    
 )
             
 if
@@ -18346,9 +18526,9 @@ rmtree
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 error_level
 =
@@ -18465,23 +18645,23 @@ dirs
         
 dirs
 [
-'
+"
 base_work_dir
-'
+"
 ]
 =
 c
 [
-'
+"
 base_work_dir
-'
+"
 ]
         
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 =
 os
@@ -18492,23 +18672,23 @@ join
 (
 c
 [
-'
+"
 base_work_dir
-'
+"
 ]
 c
 [
-'
+"
 work_dir
-'
+"
 ]
 )
         
 dirs
 [
-'
+"
 abs_log_dir
-'
+"
 ]
 =
 os
@@ -18519,27 +18699,27 @@ join
 (
 c
 [
-'
+"
 base_work_dir
-'
+"
 ]
 c
 .
 get
 (
-'
+"
 log_dir
-'
-'
+"
+"
 logs
-'
+"
 )
 )
         
 if
-'
+"
 GECKO_PATH
-'
+"
 in
 os
 .
@@ -18548,18 +18728,18 @@ environ
             
 dirs
 [
-'
+"
 abs_src_dir
-'
+"
 ]
 =
 os
 .
 environ
 [
-'
+"
 GECKO_PATH
-'
+"
 ]
         
 self
@@ -18576,6 +18756,7 @@ abs_dirs
 def
 dump_config
 (
+        
 self
 file_path
 =
@@ -18583,13 +18764,13 @@ None
 config
 =
 None
-                    
 console_output
 =
 True
 exit_on_finish
 =
 False
+    
 )
 :
         
@@ -18604,7 +18785,6 @@ to
 localconfig
 .
 json
-        
 "
 "
 "
@@ -18640,9 +18820,9 @@ join
 (
 dirs
 [
-'
+"
 abs_log_dir
-'
+"
 ]
 "
 localconfig
@@ -18705,17 +18885,17 @@ open
 file_path
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 mode
 =
-'
+"
 w
 +
-'
+"
 )
         
 fh
@@ -18792,20 +18972,20 @@ join
 (
 c
 [
-'
+"
 base_work_dir
-'
+"
 ]
 c
 .
 get
 (
-'
+"
 log_dir
-'
-'
+"
+"
 logs
-'
+"
 )
 )
         
@@ -18817,17 +18997,17 @@ log_config
 logger_name
 "
 :
-'
+"
 Simple
-'
+"
             
 "
 log_name
 "
 :
-'
+"
 log
-'
+"
             
 "
 log_dir
@@ -18845,7 +19025,7 @@ default_log_level
 log_format
 "
 :
-'
+"
 %
 (
 asctime
@@ -18862,7 +19042,7 @@ levelname
 message
 )
 s
-'
+"
             
 "
 log_to_console
@@ -18996,6 +19176,7 @@ self
 .
 info
 (
+            
 "
 [
 mozharness
@@ -19006,9 +19187,9 @@ sZ
 %
 s
 "
+            
 %
 (
-            
 datetime
 .
 datetime
@@ -19019,11 +19200,12 @@ utcnow
 .
 isoformat
 (
-'
-'
+"
+"
 )
 message
 )
+        
 )
     
 def
@@ -19114,17 +19296,17 @@ log
 (
 item
 [
-'
+"
 message
-'
+"
 ]
 level
 =
 item
 [
-'
+"
 level
-'
+"
 ]
 )
                 
@@ -19176,9 +19358,9 @@ s
 %
 item
 [
-'
+"
 message
-'
+"
 ]
 )
     
@@ -19200,14 +19382,14 @@ summary_list
 append
 (
 {
-'
+"
 message
-'
+"
 :
 message
-'
+"
 level
-'
+"
 :
 level
 }
@@ -19246,10 +19428,10 @@ level
 def
 summarize_success_count
 (
+        
 self
 success_count
 total_count
-                                
 message
 =
 "
@@ -19261,10 +19443,10 @@ d
 successful
 .
 "
-                                
 level
 =
 None
+    
 )
 :
         
@@ -19298,7 +19480,6 @@ message
 success_count
 total_count
 )
-                         
 level
 =
 level
@@ -19334,9 +19515,9 @@ with
 open
 (
 file_path
-'
+"
 rb
-'
+"
 )
 as
 fh

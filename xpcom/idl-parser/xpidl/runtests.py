@@ -158,9 +158,9 @@ parse
 "
 filename
 =
-'
+"
 f
-'
+"
 )
         
 self
@@ -209,9 +209,9 @@ foo
 "
 filename
 =
-'
+"
 f
-'
+"
 )
         
 self
@@ -292,9 +292,9 @@ foo
 "
 filename
 =
-'
+"
 f
-'
+"
 )
         
 self
@@ -377,11 +377,13 @@ foo
 }
 ;
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 self
@@ -493,9 +495,9 @@ foo
 "
 filename
 =
-'
+"
 f
-'
+"
 )
         
 self
@@ -576,6 +578,7 @@ p
 .
 parse
 (
+            
 "
 "
 "
@@ -598,11 +601,13 @@ bar
 "
 "
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 self
@@ -711,6 +716,7 @@ p
 .
 parse
 (
+            
 "
 "
 "
@@ -763,11 +769,13 @@ c
 "
 "
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 i
@@ -1060,6 +1068,7 @@ p
 .
 parse
 (
+            
 "
 "
 "
@@ -1081,11 +1090,13 @@ bar
 "
 "
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 self
@@ -1194,6 +1205,7 @@ p
 .
 parse
 (
+            
 "
 "
 "
@@ -1247,11 +1259,13 @@ getBar
 "
 "
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 self
@@ -1307,14 +1321,14 @@ FdMock
 )
 filename
 =
-'
+"
 f
-'
+"
 relpath
 =
-'
+"
 f
-'
+"
 )
             
 self
@@ -1348,6 +1362,7 @@ args
 [
 0
 ]
+                
 "
 Unexpected
 overloaded
@@ -1358,6 +1373,7 @@ in
 interface
 foo
 "
+            
 )
     
 def
@@ -1375,6 +1391,7 @@ p
 .
 parse
 (
+            
 "
 "
 "
@@ -1394,11 +1411,13 @@ foo
 "
 "
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 self
@@ -1434,8 +1453,8 @@ self
 .
 assertTrue
 (
+                
 False
-                            
 "
 Must
 check
@@ -1445,6 +1464,7 @@ inherit
 from
 nsISupports
 "
+            
 )
         
 except
@@ -1459,11 +1479,9 @@ self
 .
 assertEqual
 (
-                
 e
 .
 message
-                
 "
 Interface
 '
@@ -1491,6 +1509,7 @@ p
 .
 parse
 (
+            
 "
 "
 "
@@ -1542,11 +1561,13 @@ foo
 "
 "
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 self
@@ -1582,8 +1603,8 @@ self
 .
 assertTrue
 (
+                
 False
-                            
 "
 non
 -
@@ -1595,6 +1616,7 @@ inherit
 from
 builtinclasses
 "
+            
 )
         
 except
@@ -1630,6 +1652,7 @@ builtinclass
 foo
 '
 "
+            
 )
     
 def
@@ -1656,6 +1679,7 @@ p
 .
 parse
 (
+            
 "
 "
 "
@@ -1701,11 +1725,13 @@ method2
 "
 "
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 self
@@ -1741,8 +1767,9 @@ self
 .
 assertTrue
 (
+                
 False
-                            
+                
 "
 Resolve
 should
@@ -1755,6 +1782,7 @@ with
 notxpcom
 methods
 "
+            
 )
         
 except
@@ -1773,7 +1801,9 @@ assertEqual
 e
 .
 message
+                
 (
+                    
 "
 scriptable
 interface
@@ -1781,7 +1811,7 @@ interface
 nsIScriptableWithNotXPCOM
 '
 "
-                            
+                    
 "
 must
 be
@@ -1797,14 +1827,16 @@ a
 notxpcom
 ]
 "
-                            
+                    
 "
 method
 '
 method2
 '
 "
+                
 )
+            
 )
         
 #
@@ -1824,6 +1856,7 @@ p
 .
 parse
 (
+            
 "
 "
 "
@@ -1872,11 +1905,13 @@ attrib
 "
 "
 "
+            
 filename
 =
-'
+"
 f
-'
+"
+        
 )
         
 self
@@ -1912,8 +1947,9 @@ self
 .
 assertTrue
 (
+                
 False
-                            
+                
 "
 Resolve
 should
@@ -1926,6 +1962,7 @@ with
 notxpcom
 attributes
 "
+            
 )
         
 except
@@ -1944,7 +1981,9 @@ assertEqual
 e
 .
 message
+                
 (
+                    
 "
 scriptable
 interface
@@ -1955,7 +1994,7 @@ must
 be
 marked
 "
-                            
+                    
 "
 [
 builtinclass
@@ -1972,15 +2011,17 @@ attribute
 attrib
 '
 "
+                
 )
+            
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit
@@ -1989,7 +2030,7 @@ main
 (
 runwith
 =
-'
+"
 unittest
-'
+"
 )

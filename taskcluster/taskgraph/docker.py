@@ -133,9 +133,9 @@ None
 params
 =
 {
-'
+"
 level
-'
+"
 :
 six
 .
@@ -147,12 +147,12 @@ environ
 .
 get
 (
-'
+"
 MOZ_SCM_LEVEL
-'
-'
+"
+"
 3
-'
+"
 )
 )
 }
@@ -162,25 +162,25 @@ tasks
 load_tasks_for_kind
 (
 params
-'
+"
 docker
 -
 image
-'
+"
 )
     
 task
 =
 tasks
 [
-'
+"
 docker
 -
 image
 -
 {
 }
-'
+"
 .
 format
 (
@@ -206,14 +206,15 @@ optimization
 .
 get
 (
-'
+"
 index
 -
 search
-'
+"
 [
 ]
 )
+    
 )
     
 if
@@ -228,7 +229,7 @@ False
 print
 (
             
-'
+"
 Could
 not
 find
@@ -237,9 +238,9 @@ for
 a
 docker
 image
-'
+"
             
-'
+"
 named
 {
 image_name
@@ -250,9 +251,9 @@ commits
 and
 other
 changes
-'
+"
             
-'
+"
 in
 your
 checkout
@@ -262,9 +263,9 @@ this
 error
 .
 Try
-'
+"
             
-'
+"
 updating
 to
 a
@@ -274,14 +275,14 @@ of
 mozilla
 -
 central
-'
+"
             
-'
+"
 to
 download
 image
 .
-'
+"
 .
 format
 (
@@ -289,6 +290,7 @@ image_name
 =
 image_name
 )
+        
 )
         
 return
@@ -315,7 +317,7 @@ artifact_url
 get_artifact_url
 (
 task_id
-'
+"
 public
 /
 image
@@ -323,7 +325,7 @@ image
 tar
 .
 zst
-'
+"
 )
     
 result
@@ -352,15 +354,15 @@ format
 (
 result
 [
-'
+"
 image
-'
+"
 ]
 result
 [
-'
+"
 tag
-'
+"
 ]
 )
 )
@@ -392,27 +394,27 @@ else
         
 tag
 =
-'
+"
 {
 }
 :
 {
 }
-'
+"
 .
 format
 (
 result
 [
-'
+"
 image
-'
+"
 ]
 result
 [
-'
+"
 tag
-'
+"
 ]
 )
     
@@ -466,7 +468,6 @@ with
 specified
 name
 .
-    
 "
 "
 "
@@ -479,14 +480,14 @@ name
 raise
 ValueError
 (
-'
+"
 must
 provide
 a
 Docker
 image
 name
-'
+"
 )
     
 if
@@ -497,12 +498,12 @@ outputFile
 raise
 ValueError
 (
-'
+"
 must
 provide
 a
 outputFile
-'
+"
 )
     
 image_dir
@@ -529,7 +530,7 @@ image_dir
 raise
 Exception
 (
-'
+"
 image
 directory
 does
@@ -538,7 +539,7 @@ exist
 :
 %
 s
-'
+"
 %
 image_dir
 )
@@ -604,14 +605,14 @@ name
 raise
 ValueError
 (
-'
+"
 must
 provide
 a
 Docker
 image
 name
-'
+"
 )
     
 image_dir
@@ -638,7 +639,7 @@ image_dir
 raise
 Exception
 (
-'
+"
 image
 directory
 does
@@ -647,7 +648,7 @@ exist
 :
 %
 s
-'
+"
 %
 image_dir
 )
@@ -692,10 +693,10 @@ buf
 getvalue
 (
 )
-'
+"
 /
 build
-'
+"
 nocache
 =
 1
@@ -706,7 +707,7 @@ tag
     
 print
 (
-'
+"
 Successfully
 built
 %
@@ -716,7 +717,7 @@ tagged
 with
 %
 s
-'
+"
 %
 (
 name
@@ -729,25 +730,25 @@ tag
 .
 endswith
 (
-'
+"
 :
 latest
-'
+"
 )
 :
         
 print
 (
-'
+"
 *
-'
+"
 *
 50
 )
         
 print
 (
-'
+"
 WARNING
 :
 no
@@ -758,12 +759,12 @@ in
 image
 directory
 .
-'
+"
 )
         
 print
 (
-'
+"
 Image
 is
 not
@@ -773,12 +774,12 @@ deploying
 /
 pushing
 .
-'
+"
 )
         
 print
 (
-'
+"
 Create
 an
 image
@@ -789,12 +790,12 @@ deploying
 pushing
 by
 creating
-'
+"
 )
         
 print
 (
-'
+"
 a
 VERSION
 file
@@ -803,14 +804,14 @@ the
 image
 directory
 .
-'
+"
 )
         
 print
 (
-'
+"
 *
-'
+"
 *
 50
 )
@@ -942,9 +943,9 @@ imageTag
 :
         
 if
-'
+"
 :
-'
+"
 in
 imageName
 :
@@ -956,9 +957,9 @@ imageName
 .
 split
 (
-'
+"
 :
-'
+"
 1
 )
         
@@ -967,9 +968,9 @@ else
             
 imageTag
 =
-'
+"
 latest
-'
+"
     
 info
 =
@@ -1090,10 +1091,10 @@ open
                 
 mode
 =
-'
+"
 r
 |
-'
+"
                 
 fileobj
 =
@@ -1104,6 +1105,7 @@ bufsize
 zstd
 .
 DECOMPRESSION_RECOMMENDED_OUTPUT_SIZE
+            
 )
             
 #
@@ -1201,9 +1203,9 @@ member
 name
 =
 =
-'
+"
 repositories
-'
+"
 :
                     
 #
@@ -1268,21 +1270,21 @@ keys
 raise
 Exception
 (
-'
+"
 file
 contains
 more
 than
 one
 image
-'
+"
 )
                     
 info
 [
-'
+"
 image
-'
+"
 ]
 =
 image
@@ -1318,21 +1320,21 @@ keys
 raise
 Exception
 (
-'
+"
 file
 contains
 more
 than
 one
 tag
-'
+"
 )
                     
 info
 [
-'
+"
 tag
-'
+"
 ]
 =
 tag
@@ -1354,9 +1356,9 @@ keys
                     
 info
 [
-'
+"
 layer
-'
+"
 ]
 =
 layer
@@ -1463,7 +1465,6 @@ length
 min
 (
 remaining
-                                 
 zstd
 .
 DECOMPRESSION_RECOMMENDED_OUTPUT_SIZE
@@ -1516,10 +1517,10 @@ remainder
                     
 yield
 (
-'
+"
 \
 0
-'
+"
 *
 (
 512
@@ -1550,12 +1551,12 @@ post_to_docker
 download_and_modify_image
 (
 )
-'
+"
 /
 images
 /
 load
-'
+"
 quiet
 =
 0
@@ -1576,9 +1577,9 @@ info
 .
 get
 (
-'
+"
 image
-'
+"
 )
 or
 not
@@ -1586,9 +1587,9 @@ info
 .
 get
 (
-'
+"
 tag
-'
+"
 )
 or
 not
@@ -1596,22 +1597,22 @@ info
 .
 get
 (
-'
+"
 layer
-'
+"
 )
 :
         
 raise
 Exception
 (
-'
+"
 No
 repositories
 file
 found
 !
-'
+"
 )
     
 return

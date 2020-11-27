@@ -399,7 +399,6 @@ Addon
 :
 Install
 "
-                                          
 body
 key
 =
@@ -541,7 +540,6 @@ Addon
 :
 Uninstall
 "
-                               
 {
 "
 id

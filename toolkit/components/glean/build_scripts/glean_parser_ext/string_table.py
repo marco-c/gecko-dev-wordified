@@ -716,6 +716,7 @@ string
 raise
 ValueError
 (
+                    
 "
 String
 in
@@ -732,9 +733,10 @@ sequence
 %
 s
 "
+                    
 %
-                                 
 string
+                
 )
             
 e
@@ -752,6 +754,7 @@ f
 .
 write
 (
+                    
 "
 /
 *
@@ -776,7 +779,7 @@ s
 \
 n
 "
-                        
+                    
 %
 (
 offset
@@ -786,6 +789,7 @@ explodeToCharArray
 string
 )
 )
+                
 )
             
 else

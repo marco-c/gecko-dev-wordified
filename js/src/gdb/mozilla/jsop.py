@@ -134,9 +134,9 @@ gdb
 .
 lookup_type
 (
-'
+"
 JSOp
-'
+"
 )
     
 classmethod
@@ -171,9 +171,9 @@ cache
 mod_JSOp
 pretty_printer
 (
-'
+"
 JSOp
-'
+"
 )
 class
 JSOp
@@ -349,9 +349,9 @@ idx
 )
 ptr_pretty_printer
 (
-'
+"
 jsbytecode
-'
+"
 )
 class
 JSBytecodePtr
@@ -434,20 +434,20 @@ Exception
             
 opcode
 =
-'
+"
 bad
 pc
-'
+"
         
 return
-'
+"
 {
 }
 (
 {
 }
 )
-'
+"
 .
 format
 (

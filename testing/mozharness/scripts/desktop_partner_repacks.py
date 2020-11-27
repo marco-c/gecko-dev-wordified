@@ -212,25 +212,25 @@ repacks
 actions
 =
 [
-                
+        
 "
 get
 -
 secrets
 "
-                
+        
 "
 setup
 "
-                
+        
 "
 repack
 "
-                
+        
 "
 summary
 "
-              
+    
 ]
     
 config_options
@@ -238,6 +238,7 @@ config_options
 [
         
 [
+            
 [
 "
 -
@@ -249,8 +250,9 @@ version
 v
 "
 ]
+            
 {
-          
+                
 "
 dest
 "
@@ -258,7 +260,7 @@ dest
 "
 version
 "
-          
+                
 "
 help
 "
@@ -270,11 +272,13 @@ Firefox
 to
 repack
 "
-          
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -288,8 +292,9 @@ number
 n
 "
 ]
+            
 {
-          
+                
 "
 dest
 "
@@ -297,7 +302,7 @@ dest
 "
 build_number
 "
-          
+                
 "
 help
 "
@@ -310,11 +315,13 @@ Firefox
 to
 repack
 "
-          
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -322,8 +329,9 @@ repack
 platform
 "
 ]
+            
 {
-          
+                
 "
 dest
 "
@@ -331,7 +339,7 @@ dest
 "
 platform
 "
-          
+                
 "
 help
 "
@@ -352,11 +360,13 @@ macosx64
 .
 )
 "
-          
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -368,8 +378,9 @@ partner
 p
 "
 ]
+            
 {
-          
+                
 "
 dest
 "
@@ -377,7 +388,7 @@ dest
 "
 partner
 "
-          
+                
 "
 help
 "
@@ -391,11 +402,13 @@ matching
 this
 string
 "
-          
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -407,8 +420,9 @@ taskid
 t
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -416,7 +430,7 @@ dest
 "
 taskIds
 "
-            
+                
 "
 action
 "
@@ -424,7 +438,7 @@ action
 "
 extend
 "
-            
+                
 "
 help
 "
@@ -442,11 +456,13 @@ vanilla
 Firefox
 artifacts
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
 "
 -
@@ -460,8 +476,9 @@ locale
 l
 "
 ]
-{
             
+{
+                
 "
 dest
 "
@@ -469,7 +486,7 @@ dest
 "
 limitLocales
 "
-            
+                
 "
 action
 "
@@ -477,8 +494,9 @@ action
 "
 append
 "
-        
+            
 }
+        
 ]
     
 ]
@@ -499,25 +517,25 @@ buildscript_kwargs
 =
 {
             
-'
+"
 all_actions
-'
+"
 :
 DesktopPartnerRepacks
 .
 actions
             
-'
+"
 default_actions
-'
+"
 :
 DesktopPartnerRepacks
 .
 actions
             
-'
+"
 config
-'
+"
 :
 {
                 
@@ -539,15 +557,15 @@ hashType
 sha512
 "
                 
-'
+"
 workdir
-'
+"
 :
-'
+"
 partner
 -
 repacks
-'
+"
             
 }
         
@@ -561,13 +579,11 @@ __init__
 (
             
 self
-            
 config_options
 =
 self
 .
 config_options
-            
 *
 *
 buildscript_kwargs
@@ -587,9 +603,9 @@ os
 .
 getenv
 (
-'
+"
 REPACK_MANIFESTS_URL
-'
+"
 )
 :
             
@@ -597,40 +613,43 @@ self
 .
 info
 (
-'
+                
+"
 Overriding
 repack_manifests_url
 to
 %
 s
-'
+"
+                
 %
 os
 .
 getenv
 (
-'
+"
 REPACK_MANIFESTS_URL
-'
+"
 )
+            
 )
             
 self
 .
 config
 [
-'
+"
 repack_manifests_url
-'
+"
 ]
 =
 os
 .
 getenv
 (
-'
+"
 REPACK_MANIFESTS_URL
-'
+"
 )
         
 if
@@ -638,9 +657,9 @@ os
 .
 getenv
 (
-'
+"
 UPSTREAM_TASKIDS
-'
+"
 )
 :
             
@@ -648,21 +667,21 @@ self
 .
 info
 (
-'
+"
 Overriding
 taskIds
 with
 %
 s
-'
+"
 %
 os
 .
 getenv
 (
-'
+"
 UPSTREAM_TASKIDS
-'
+"
 )
 )
             
@@ -670,18 +689,18 @@ self
 .
 config
 [
-'
+"
 taskIds
-'
+"
 ]
 =
 os
 .
 getenv
 (
-'
+"
 UPSTREAM_TASKIDS
-'
+"
 )
 .
 split
@@ -689,9 +708,9 @@ split
 )
         
 if
-'
+"
 version
-'
+"
 not
 in
 self
@@ -716,9 +735,9 @@ supplied
 )
         
 if
-'
+"
 build_number
-'
+"
 not
 in
 self
@@ -744,9 +763,9 @@ supplied
 )
         
 if
-'
+"
 repo_file
-'
+"
 not
 in
 self
@@ -767,9 +786,9 @@ supplied
 )
         
 if
-'
+"
 repack_manifests_url
-'
+"
 not
 in
 self
@@ -781,6 +800,7 @@ self
 .
 fatal
 (
+                
 "
 repack_manifests_url
 not
@@ -791,12 +811,13 @@ or
 via
 REPACK_MANIFESTS_URL
 "
+            
 )
         
 if
-'
+"
 taskIds
-'
+"
 not
 in
 self
@@ -808,7 +829,7 @@ self
 .
 fatal
 (
-'
+"
 Need
 upstream
 taskIds
@@ -818,7 +839,7 @@ line
 or
 in
 UPSTREAM_TASKIDS
-'
+"
 )
     
 def
@@ -878,9 +899,9 @@ dirs
         
 dirs
 [
-'
+"
 abs_repo_dir
-'
+"
 ]
 =
 os
@@ -891,21 +912,21 @@ join
 (
 abs_dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 .
 repo
-'
+"
 )
         
 dirs
 [
-'
+"
 abs_partners_dir
-'
+"
 ]
 =
 os
@@ -916,13 +937,13 @@ join
 (
 abs_dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 partners
-'
+"
 )
         
 for
@@ -986,9 +1007,9 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_repo_dir
-'
+"
 ]
 )
         
@@ -1002,9 +1023,9 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_partners_dir
-'
+"
 ]
 )
     
@@ -1020,18 +1041,18 @@ partial_env
 =
 {
             
-'
+"
 GIT_SSH_COMMAND
-'
+"
 :
-'
+"
 ssh
 -
 oIdentityFile
 =
 {
 }
-'
+"
 .
 format
 (
@@ -1039,9 +1060,9 @@ self
 .
 config
 [
-'
+"
 ssh_key
-'
+"
 ]
 )
         
@@ -1053,11 +1074,15 @@ self
 .
 run_command
 (
+            
 [
+                
 repo
+                
 "
 init
 "
+                
 "
 -
 -
@@ -1067,21 +1092,23 @@ repo
 -
 verify
 "
-                                   
+                
 "
 -
 u
 "
+                
 self
 .
 config
 [
-'
+"
 repack_manifests_url
-'
+"
 ]
+            
 ]
-                                  
+            
 cwd
 =
 self
@@ -1090,14 +1117,15 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                  
+            
 partial_env
 =
 partial_env
+        
 )
         
 if
@@ -1112,6 +1140,7 @@ self
 .
 run_command
 (
+            
 [
 repo
 "
@@ -1132,7 +1161,7 @@ no
 tags
 "
 ]
-                                
+            
 cwd
 =
 self
@@ -1141,14 +1170,15 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                
+            
 partial_env
 =
 partial_env
+        
 )
     
 def
@@ -1173,21 +1203,22 @@ self
 .
 download_file
 (
+            
 self
 .
 config
 [
-'
+"
 repo_file
-'
+"
 ]
-                                  
+            
 file_name
 =
-'
+"
 repo
-'
-                                  
+"
+            
 parent_dir
 =
 self
@@ -1196,14 +1227,15 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                  
+            
 error_level
 =
 FATAL
+        
 )
         
 if
@@ -1244,20 +1276,21 @@ self
 .
 retry
 (
+            
 self
 .
 _repo_init
-                   
+            
 args
 =
 (
 repo
 )
-                   
+            
 error_level
 =
 FATAL
-                   
+            
 cleanup
 =
 self
@@ -1265,16 +1298,17 @@ self
 _repo_cleanup
 (
 )
-                   
+            
 good_statuses
 =
 [
 0
 ]
-                   
+            
 sleeptime
 =
 5
+        
 )
     
 def
@@ -1297,15 +1331,17 @@ repacks
 repack_cmd
 =
 [
+            
 "
 .
 /
 mach
 "
+            
 "
 python
 "
-                      
+            
 "
 python
 /
@@ -1317,35 +1353,38 @@ partner_repack
 .
 py
 "
-                      
+            
 "
 -
 v
 "
+            
 self
 .
 config
 [
-'
+"
 version
-'
+"
 ]
-                      
+            
 "
 -
 n
 "
+            
 str
 (
 self
 .
 config
 [
-'
+"
 build_number
-'
+"
 ]
 )
+        
 ]
         
 if
@@ -1355,9 +1394,9 @@ config
 .
 get
 (
-'
+"
 platform
-'
+"
 )
 :
             
@@ -1375,9 +1414,9 @@ self
 .
 config
 [
-'
+"
 platform
-'
+"
 ]
 ]
 )
@@ -1389,9 +1428,9 @@ config
 .
 get
 (
-'
+"
 partner
-'
+"
 )
 :
             
@@ -1409,9 +1448,9 @@ self
 .
 config
 [
-'
+"
 partner
-'
+"
 ]
 ]
 )
@@ -1423,9 +1462,9 @@ config
 .
 get
 (
-'
+"
 taskIds
-'
+"
 )
 :
             
@@ -1436,9 +1475,9 @@ self
 .
 config
 [
-'
+"
 taskIds
-'
+"
 ]
 :
                 
@@ -1503,7 +1542,6 @@ self
 run_command
 (
 repack_cmd
-                         
 cwd
 =
 os
@@ -1514,7 +1552,6 @@ environ
 GECKO_PATH
 "
 ]
-                         
 halt_on_failure
 =
 True
@@ -1528,9 +1565,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 partner_repacks

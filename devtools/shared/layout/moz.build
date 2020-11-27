@@ -87,7 +87,7 @@ MPL
 .
 DevToolsModules
 (
-'
+"
 dom
 -
 matrix
@@ -95,10 +95,10 @@ matrix
 2d
 .
 js
-'
-'
+"
+"
 utils
 .
 js
-'
+"
 )

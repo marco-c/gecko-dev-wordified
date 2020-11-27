@@ -91,9 +91,9 @@ name
 ]
 ]
 [
-'
+"
 value
-'
+"
 ]
 def
 build_ftl
@@ -146,9 +146,9 @@ attrs
 if
 msg
 [
-'
+"
 value
-'
+"
 ]
 :
             
@@ -158,9 +158,9 @@ get_value_from_dtd
 (
 msg
 [
-'
+"
 value
-'
+"
 ]
 dtd
 )
@@ -186,9 +186,9 @@ attr_name
 in
 msg
 [
-'
+"
 attrs
-'
+"
 ]
 :
             
@@ -198,9 +198,9 @@ get_value_from_dtd
 (
 msg
 [
-'
+"
 attrs
-'
+"
 ]
 [
 attr_name

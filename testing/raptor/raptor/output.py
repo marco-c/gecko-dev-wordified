@@ -829,14 +829,15 @@ suite
 .
 update
 (
-{
                     
+{
+                        
 "
 lowerIsBetter
 "
 :
 True
-                    
+                        
 "
 unit
 "
@@ -847,7 +848,7 @@ data_set
 unit
 "
 ]
-                    
+                        
 "
 alertThreshold
 "
@@ -855,8 +856,9 @@ alertThreshold
 2
 .
 0
-                
+                    
 }
+                
 )
             
 for
@@ -2649,9 +2651,11 @@ testname
 .
 startswith
 (
+            
 "
 speedometer
 "
+        
 )
 :
             
@@ -3587,6 +3591,7 @@ MHz
 unit
 .
 "
+                
 )
             
 if
@@ -5132,8 +5137,9 @@ _subtests
 test_name
 =
 [
+            
 measurement
-                     
+            
 for
 measurement
 in
@@ -5147,7 +5153,7 @@ measurements
 keys
 (
 )
-                     
+            
 if
 "
 youtube
@@ -5156,7 +5162,7 @@ playback
 "
 in
 measurement
-                     
+        
 ]
         
 if
@@ -5407,6 +5413,7 @@ failed_tests
 .
 append
 (
+                        
 "
 %
 s
@@ -5421,8 +5428,8 @@ droppedFrames
 s
 .
 "
+                        
 %
-                                        
 (
 _sub
 _value
@@ -5438,6 +5445,7 @@ droppedFrames
 "
 ]
 )
+                    
 )
                 
 try
@@ -5685,6 +5693,7 @@ LOG
 .
 warning
 (
+                
 "
 Youtube
 playback
@@ -5696,7 +5705,7 @@ failed
 !
 !
 "
-                        
+                
 "
 Not
 submitting
@@ -5705,6 +5714,7 @@ to
 perfherder
 !
 "
+            
 )
         
 vals
@@ -7252,7 +7262,9 @@ benchmark
 if
 any
 (
+                    
 [
+                        
 "
 youtube
 -
@@ -7274,7 +7286,9 @@ measurements
 keys
 (
 )
+                    
 ]
+                
 )
 :
                     
@@ -9752,7 +9766,7 @@ test
 "
 "
 "
-          
+        
 {
 u
 '
@@ -9762,7 +9776,7 @@ misc
 '
 :
 [
-            
+          
 [
 [
 {
@@ -9784,11 +9798,11 @@ time
 .
 44000000000005
 }
-              
+            
 .
 .
 .
-              
+            
 {
 u
 '
@@ -9810,11 +9824,11 @@ time
 }
 ]
 ]
-            
+          
 .
 .
 .
-            
+          
 [
 [
 {
@@ -9836,7 +9850,7 @@ time
 .
 42000000000002
 }
-              
+            
 {
 u
 '
@@ -9858,7 +9872,7 @@ time
 }
 ]
 ]
-           
+         
 ]
 }
         
@@ -10128,7 +10142,7 @@ test
 "
 "
 "
-            
+        
 {
 u
 '
@@ -10138,9 +10152,9 @@ godot
 '
 :
 [
-                
+            
 {
-                  
+              
 "
 name
 "
@@ -10150,16 +10164,16 @@ wasm
 -
 instantiate
 "
-                  
+              
 "
 time
 "
 :
 349
-                
+            
 }
 {
-                  
+              
 "
 name
 "
@@ -10169,17 +10183,17 @@ engine
 -
 instantiate
 "
-                  
+              
 "
 time
 "
 :
 1263
-                
+            
 .
 .
 .
-                
+            
 }
 ]
 }
@@ -13963,9 +13977,12 @@ prev_name
 test_name
             
 while
+(
+                
 test_name
 in
 suites
+                
 and
 suites
 [
@@ -13979,6 +13996,8 @@ extraOptions
 !
 =
 extra_options
+            
+)
 :
                 
 missing
@@ -14028,7 +14047,9 @@ extraOptions
 -
 set
 (
+                        
 extra_options
+                    
 )
                 
 test_name
@@ -14523,6 +14544,7 @@ test
 if
 any
 (
+                    
 "
 youtube
 -
@@ -14543,6 +14565,7 @@ measurements
 keys
 (
 )
+                
 )
 :
                     

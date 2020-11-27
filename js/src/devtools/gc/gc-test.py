@@ -151,9 +151,9 @@ if
 dirpath
 =
 =
-'
+"
 .
-'
+"
 :
             
 continue
@@ -170,10 +170,10 @@ filename
 .
 endswith
 (
-'
+"
 .
 js
-'
+"
 )
 :
                 
@@ -231,10 +231,10 @@ path
 return
 [
 JS
-'
+"
 -
 f
-'
+"
 path
 ]
 def
@@ -316,14 +316,14 @@ copy
     
 env
 [
-'
+"
 MOZ_GCTIMER
-'
+"
 ]
 =
-'
+"
 stderr
-'
+"
     
 cmd
 =
@@ -356,9 +356,9 @@ sys
 platform
 !
 =
-'
+"
 win32
-'
+"
     
 p
 =
@@ -434,7 +434,7 @@ float_array
         
 print
 (
-'
+"
 Error
 :
 No
@@ -450,7 +450,7 @@ enable
 -
 gctimer
 ?
-'
+"
 )
         
 sys
@@ -471,14 +471,12 @@ float_array
 :
         
 if
-(
 i
 %
 3
 =
 =
 0
-)
 :
             
 total
@@ -492,14 +490,12 @@ else
 :
             
 if
-(
 i
 %
 3
 =
 =
 1
-)
 :
                 
 mark
@@ -674,7 +670,6 @@ NOQA
 E501
             
 if
-(
 i
 !
 =
@@ -684,14 +679,13 @@ tests
 )
 -
 1
-)
 :
                 
 fmt
 +
 =
-'
-'
+"
+"
             
 print
 (
@@ -714,16 +708,19 @@ KeyboardInterrupt
         
 print
 (
-'
+"
 fail
-'
+"
 )
     
 return
 dict
 (
+        
 (
+            
 filename
+            
 dict
 (
 TMax
@@ -745,8 +742,9 @@ SAvg
 =
 SAvg
 )
+        
 )
-                
+        
 for
 filename
 (
@@ -763,6 +761,7 @@ bench_map
 iteritems
 (
 )
+    
 )
 def
 compare
@@ -805,11 +804,11 @@ KeyError
 print
 (
 key
-'
+"
 missing
 from
 baseline
-'
+"
 )
             
 continue
@@ -818,24 +817,24 @@ val_getter
 =
 itemgetter
 (
-'
+"
 TMax
-'
-'
+"
+"
 TAvg
-'
-'
+"
+"
 MMax
-'
-'
+"
+"
 MAvg
-'
-'
+"
+"
 SMax
-'
-'
+"
+"
 SAvg
-'
+"
 )
         
 BTMax
@@ -883,7 +882,7 @@ BTAvg
             
 result
 =
-'
+"
 faster
 :
 %
@@ -905,14 +904,16 @@ baseline
 %
 %
 )
-'
+"
 %
-\
-                
 (
+                
 CTAvg
+                
 BTAvg
+                
 speedup
+            
 )
             
 percent_speedups
@@ -939,7 +940,7 @@ BTAvg
             
 result
 =
-'
+"
 SLOWER
 :
 %
@@ -961,14 +962,16 @@ baseline
 %
 %
 )
-'
+"
 %
-\
-                
 (
+                
 CTAvg
+                
 BTAvg
+                
 slowdown
+            
 )
             
 percent_speedups
@@ -980,13 +983,13 @@ slowdown
         
 print
 (
-'
+"
 %
 30s
 :
 %
 s
-'
+"
 %
 (
 key
@@ -1000,7 +1003,7 @@ percent_speedups
         
 print
 (
-'
+"
 Average
 speedup
 :
@@ -1009,7 +1012,7 @@ speedup
 2f
 %
 %
-'
+"
 %
 avg
 (
@@ -1020,9 +1023,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 script_path
@@ -1056,9 +1059,9 @@ path
 join
 (
 script_dir
-'
+"
 tests
-'
+"
 )
     
 from
@@ -1072,7 +1075,7 @@ OptionParser
 (
 usage
 =
-'
+"
 %
 prog
 [
@@ -1082,48 +1085,52 @@ JS_SHELL
 [
 TESTS
 ]
-'
+"
 )
     
 op
 .
 add_option
 (
-'
+        
+"
 -
 b
-'
-'
+"
+        
+"
 -
 -
 baseline
-'
+"
+        
 metavar
 =
-'
+"
 JSON_PATH
-'
-                  
+"
+        
 dest
 =
-'
+"
 baseline_path
-'
+"
+        
 help
 =
-'
+"
 json
 file
 with
 baseline
 values
 to
-'
-                  
-'
+"
+"
 compare
 against
-'
+"
+    
 )
     
 (
@@ -1150,11 +1157,11 @@ op
 .
 error
 (
-'
+"
 missing
 JS_SHELL
 argument
-'
+"
 )
     
 #
@@ -1350,9 +1357,9 @@ open
 OPTIONS
 .
 baseline_path
-'
+"
 r
-'
+"
 )
         
 baseline_map

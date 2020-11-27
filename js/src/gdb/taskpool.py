@@ -529,9 +529,9 @@ self
 tasks
 cwd
 =
-'
+"
 .
-'
+"
 job_limit
 =
 4
@@ -612,9 +612,9 @@ open
 os
 .
 devnull
-'
+"
 r
-'
+"
 )
 as
 devnull
@@ -649,30 +649,35 @@ p
 =
 Popen
 (
+                        
 task
 .
 cmd
 (
 )
+                        
 bufsize
 =
 16384
-                              
+                        
 stdin
 =
 devnull
+                        
 stdout
 =
 PIPE
+                        
 stderr
 =
 PIPE
-                              
+                        
 cwd
 =
 self
 .
 cwd
+                    
 )
                     
 #
@@ -888,7 +893,6 @@ timeout
                 
 stdouts_and_stderrs
 =
-(
 [
 t
 .
@@ -900,9 +904,9 @@ t
 in
 running
 ]
-                                       
 +
 [
+                    
 t
 .
 pipe
@@ -912,8 +916,8 @@ for
 t
 in
 running
+                
 ]
-)
                 
 (
 readable
@@ -925,13 +929,14 @@ select
 .
 select
 (
+                    
 stdouts_and_stderrs
 [
 ]
 [
 ]
-                                                 
 secs_to_next_deadline
+                
 )
                 
 finished
@@ -1068,11 +1073,11 @@ output
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
                             
@@ -1128,11 +1133,11 @@ output
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
                             
@@ -1462,9 +1467,9 @@ os
 .
 sysconf
 (
-'
+"
 SC_NPROCESSORS_ONLN
-'
+"
 )
 )
         
@@ -1500,9 +1505,9 @@ os
 .
 environ
 [
-'
+"
 NUMBER_OF_PROCESSORS
-'
+"
 ]
 )
         
@@ -1530,9 +1535,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 #
@@ -1628,14 +1633,14 @@ self
                 
 return
 [
-'
+"
 sh
-'
-'
+"
+"
 -
 c
-'
-'
+"
+"
 echo
 out
 ;
@@ -1648,7 +1653,7 @@ err
 >
 &
 2
-'
+"
 %
 (
 self
@@ -1667,14 +1672,14 @@ text
                 
 print
 (
-'
+"
 %
 d
 stdout
 :
 %
 r
-'
+"
 %
 (
 self
@@ -1694,14 +1699,14 @@ text
                 
 print
 (
-'
+"
 %
 d
 stderr
 :
 %
 r
-'
+"
 %
 (
 self
@@ -1721,7 +1726,7 @@ returncode
                 
 print
 (
-'
+"
 %
 d
 (
@@ -1730,7 +1735,7 @@ rc
 %
 d
 )
-'
+"
 %
 (
 self
@@ -1758,12 +1763,12 @@ self
                 
 print
 (
-'
+"
 %
 d
 timed
 out
-'
+"
 %
 (
 self

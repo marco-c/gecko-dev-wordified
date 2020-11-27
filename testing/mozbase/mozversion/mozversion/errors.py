@@ -147,7 +147,7 @@ AppNotFoundError
 __init__
 (
 self
-'
+"
 Application
 not
 found
@@ -155,7 +155,7 @@ at
 :
 %
 s
-'
+"
 %
 path
 )

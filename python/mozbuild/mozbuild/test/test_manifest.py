@@ -104,75 +104,75 @@ simple_dict
 =
 {
             
-'
+"
 schema
-'
+"
 :
 1
             
-'
+"
 origin
-'
+"
 :
 {
                 
-'
+"
 description
-'
+"
 :
-'
+"
 2D
 Graphics
 Library
-'
+"
                 
-'
+"
 license
-'
+"
 :
 [
-'
+"
 MPL
 -
 1
 .
 1
-'
-'
+"
+"
 LGPL
 -
 2
 .
 1
-'
+"
 ]
                 
-'
+"
 name
-'
+"
 :
-'
+"
 cairo
-'
+"
                 
-'
+"
 release
-'
+"
 :
-'
+"
 version
 1
 .
 6
 .
 4
-'
+"
                 
-'
+"
 url
-'
+"
 :
-'
+"
 https
 :
 /
@@ -183,31 +183,31 @@ cairographics
 .
 org
 /
-'
+"
             
 }
             
-'
+"
 bugzilla
-'
+"
 :
 {
                 
-'
+"
 component
-'
+"
 :
-'
+"
 Graphics
-'
+"
                 
-'
+"
 product
-'
+"
 :
-'
+"
 Core
-'
+"
             
 }
         
@@ -227,6 +227,7 @@ tf
 .
 write
 (
+                
 "
 "
 "
@@ -305,6 +306,7 @@ Graphics
 strip
 (
 )
+            
 )
             
 tf
@@ -328,6 +330,7 @@ require_license_file
 False
 )
 simple_dict
+            
 )
         
 #
@@ -355,6 +358,7 @@ tf
 .
 write
 (
+                
 "
 "
 "
@@ -430,6 +434,7 @@ Graphics
 strip
 (
 )
+            
 )
             
 tf
@@ -453,6 +458,7 @@ require_license_file
 False
 )
 simple_dict
+            
 )
     
 raises
@@ -481,9 +487,9 @@ tf
 .
 write
 (
-'
+"
 blah
-'
+"
 )
             
 tf
@@ -528,11 +534,11 @@ tf
 .
 write
 (
-'
+"
 schema
 :
 99
-'
+"
 )
             
 tf
@@ -577,6 +583,7 @@ tf
 .
 write
 (
+                
 '
 {
 "
@@ -607,7 +614,7 @@ https
 /
 w
 '
-                     
+                
 '
 ww
 .
@@ -625,7 +632,7 @@ description
 Graphics
 Libra
 '
-                     
+                
 '
 ry
 "
@@ -658,7 +665,7 @@ cairo
 "
 }
 '
-                     
+                
 '
 "
 bugzilla
@@ -680,7 +687,7 @@ component
 Graphics
 "
 '
-                     
+                
 '
 }
 "
@@ -690,6 +697,7 @@ schema
 1
 }
 '
+            
 )
             
 tf

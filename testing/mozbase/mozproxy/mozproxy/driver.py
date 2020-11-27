@@ -108,6 +108,7 @@ parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -118,7 +119,6 @@ action
 "
 store_true
 "
-                        
 help
 =
 "
@@ -135,6 +135,7 @@ in
 production
 )
 "
+    
 )
     
 parser
@@ -160,17 +161,19 @@ parser
 .
 add_argument
 (
+        
 "
 -
 -
 tool
 "
+        
 default
 =
 "
 mitmproxy
 "
-                        
+        
 help
 =
 "
@@ -189,12 +192,14 @@ default
 s
 )
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -202,6 +207,7 @@ tool
 -
 version
 "
+        
 default
 =
 "
@@ -211,7 +217,7 @@ default
 .
 4
 "
-                        
+        
 help
 =
 "
@@ -231,12 +237,14 @@ default
 s
 )
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -247,7 +255,6 @@ default
 "
 localhost
 "
-                        
 help
 =
 "
@@ -260,21 +267,24 @@ the
 proxy
 server
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 binary
 "
+        
 required
 =
 True
-                        
+        
 help
 =
 (
@@ -289,27 +299,29 @@ tested
 (
 typically
 "
-                              
 "
 firefox
 )
 "
 )
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 topsrcdir
 "
+        
 required
 =
 True
-                        
+        
 help
 =
 "
@@ -323,12 +335,14 @@ for
 this
 project
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -337,7 +351,6 @@ objdir
 required
 =
 True
-                        
 help
 =
 "
@@ -348,12 +361,14 @@ for
 this
 build
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -364,7 +379,6 @@ default
 "
 firefox
 "
-                        
 help
 =
 "
@@ -382,21 +396,24 @@ default
 s
 )
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 playback
 "
+        
 nargs
 =
 "
 *
 "
-                        
+        
 help
 =
 "
@@ -407,7 +424,7 @@ to
 use
 .
 "
-                             
+        
 "
 It
 can
@@ -423,7 +440,7 @@ file
 manifest
 file
 "
-                             
+        
 "
 or
 a
@@ -435,6 +452,7 @@ manifest
 file
 .
 "
+    
 )
     
 mozlog
@@ -479,12 +497,14 @@ TOOLTOOL_PATHS
 .
 append
 (
+        
 os
 .
 path
 .
 join
 (
+            
 args
 .
 topsrcdir
@@ -494,7 +514,6 @@ python
 "
 mozbuild
 "
-                                       
 "
 mozbuild
 "
@@ -506,7 +525,9 @@ tooltool
 .
 py
 "
+        
 )
+    
 )
     
 if
@@ -605,8 +626,9 @@ playback
 =
 get_playback
 (
-{
             
+{
+                
 "
 run_local
 "
@@ -614,7 +636,7 @@ run_local
 args
 .
 local
-            
+                
 "
 host
 "
@@ -622,7 +644,7 @@ host
 args
 .
 host
-            
+                
 "
 binary
 "
@@ -630,7 +652,7 @@ binary
 args
 .
 binary
-            
+                
 "
 obj_path
 "
@@ -638,7 +660,7 @@ obj_path
 args
 .
 objdir
-            
+                
 "
 platform
 "
@@ -646,7 +668,7 @@ platform
 mozinfo
 .
 os
-            
+                
 "
 playback_record
 "
@@ -654,7 +676,7 @@ playback_record
 args
 .
 record
-            
+                
 "
 playback_tool
 "
@@ -662,7 +684,7 @@ playback_tool
 args
 .
 tool
-            
+                
 "
 playback_version
 "
@@ -670,7 +692,7 @@ playback_version
 args
 .
 tool_version
-            
+                
 "
 playback_files
 "
@@ -678,7 +700,7 @@ playback_files
 args
 .
 playback
-            
+                
 "
 app
 "
@@ -686,8 +708,9 @@ app
 args
 .
 app
-        
+            
 }
+        
 )
         
 playback

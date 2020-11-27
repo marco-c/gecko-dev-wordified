@@ -75,33 +75,33 @@ default_actions
 :
 [
         
-'
+"
 clobber
-'
+"
         
-'
+"
 download
 -
 and
 -
 extract
-'
+"
         
-'
+"
 create
 -
 virtualenv
-'
+"
         
-'
+"
 install
-'
+"
         
-'
+"
 run
 -
 tests
-'
+"
     
 ]
     
@@ -378,6 +378,7 @@ windows
 "
 python
 "
+                
 "
 .
 .
@@ -413,6 +414,7 @@ configuration
 .
 json
 "
+            
 ]
             
 "

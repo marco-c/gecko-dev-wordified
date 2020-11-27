@@ -110,7 +110,7 @@ for
 each
 file
 and
-        
+    
 directory
 .
 Excludes
@@ -204,6 +204,7 @@ replace
 if
 not
 (
+                
 rel_path_file
 .
 endswith
@@ -216,8 +217,8 @@ prefs
 js
 "
 )
+                
 or
-                    
 rel_path_file
 .
 endswith
@@ -230,8 +231,8 @@ settings
 ini
 "
 )
+                
 or
-                    
 rel_path_file
 .
 find
@@ -245,6 +246,7 @@ distribution
 =
 -
 1
+            
 )
 :
                 
@@ -382,7 +384,7 @@ the
 remove
 and
 rmdir
-        
+    
 application
 update
 instructions
@@ -392,7 +394,7 @@ given
 directory
 is
 used
-        
+    
 for
 the
 location
@@ -464,14 +466,14 @@ path
 join
 (
 root_path
-'
+"
 .
 .
 /
 .
 .
 /
-'
+"
 )
 )
         
@@ -540,10 +542,10 @@ wt
 "
 newline
 =
-'
+"
 \
 n
-'
+"
 )
     
 rel_file_path_list
@@ -564,20 +566,18 @@ precomplete_file
 .
 write
 (
-"
+'
 remove
-\
 "
-"
+'
 +
 rel_file_path
 +
-"
-\
+'
 "
 \
 n
-"
+'
 )
     
 for
@@ -590,20 +590,18 @@ precomplete_file
 .
 write
 (
-"
+'
 rmdir
-\
 "
-"
+'
 +
 rel_dir_path
 +
-"
-\
+'
 "
 \
 n
-"
+'
 )
     
 precomplete_file

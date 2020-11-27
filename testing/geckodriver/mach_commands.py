@@ -95,10 +95,11 @@ MachCommandBase
     
 Command
 (
+        
 "
 geckodriver
 "
-             
+        
 category
 =
 "
@@ -106,7 +107,7 @@ post
 -
 build
 "
-             
+        
 description
 =
 "
@@ -118,10 +119,12 @@ for
 Gecko
 .
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 -
 -
@@ -130,7 +133,6 @@ binary
 type
 =
 str
-                     
 help
 =
 "
@@ -145,10 +147,12 @@ build
 )
 .
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 params
 "
@@ -159,7 +163,6 @@ nargs
 .
 .
 "
-                     
 help
 =
 "
@@ -172,6 +175,7 @@ to
 geckodriver
 .
 "
+    
 )
     
 CommandArgumentGroup
@@ -183,22 +187,25 @@ debugging
     
 CommandArgument
 (
+        
 "
 -
 -
 debug
 "
+        
 action
 =
 "
 store_true
 "
+        
 group
 =
 "
 debugging
 "
-                     
+        
 help
 =
 "
@@ -213,7 +220,7 @@ a
 -
 debugger
 "
-                          
+        
 "
 option
 will
@@ -223,33 +230,38 @@ the
 default
 debugger
 "
-                          
+        
 "
 being
 used
 .
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 -
 -
 debugger
 "
+        
 default
 =
 None
+        
 type
 =
 str
+        
 group
 =
 "
 debugging
 "
-                     
+        
 help
 =
 "
@@ -260,10 +272,12 @@ to
 use
 .
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 -
 -
@@ -271,24 +285,27 @@ debugger
 -
 args
 "
+        
 default
 =
 None
+        
 metavar
 =
 "
 params
 "
-                     
+        
 type
 =
 str
+        
 group
 =
 "
 debugging
 "
-                     
+        
 help
 =
 "
@@ -301,7 +318,7 @@ debugger
 itself
 ;
 "
-                          
+        
 "
 split
 as
@@ -311,6 +328,7 @@ shell
 would
 .
 "
+    
 )
     
 def
@@ -352,43 +370,44 @@ log
 logging
 .
 ERROR
-'
+"
 geckodriver
-'
-                     
+"
 {
-'
+"
 error
-'
+"
 :
 str
 (
 e
 )
 }
-                     
-'
+"
 ERROR
 :
 {
 error
 }
-'
+"
 )
             
 self
 .
 log
 (
+                
 logging
 .
 INFO
-'
+                
+"
 geckodriver
-'
+"
+                
 {
 }
-                     
+                
 "
 It
 looks
@@ -400,7 +419,7 @@ t
 built
 .
 "
-                     
+                
 "
 Add
 ac_add_options
@@ -412,11 +431,11 @@ geckodriver
 to
 your
 "
-                     
+                
 "
 mozconfig
 "
-                     
+                
 "
 and
 run
@@ -431,6 +450,7 @@ build
 it
 .
 "
+            
 )
             
 return
@@ -483,31 +503,31 @@ self
 .
 log
 (
+                    
 logging
 .
 ERROR
-'
+"
 geckodriver
-'
-                         
+"
 {
-'
+"
 error
-'
+"
 :
 str
 (
 e
 )
 }
-                         
-'
+"
 ERROR
 :
 {
 error
 }
-'
+"
+                
 )
                 
 self
@@ -517,14 +537,13 @@ log
 logging
 .
 INFO
-'
+"
 geckodriver
-'
-                         
+"
 {
-'
+"
 help
-'
+"
 :
 e
 .
@@ -532,12 +551,11 @@ help
 (
 )
 }
-                         
-'
+"
 {
 help
 }
-'
+"
 )
                 
 return
@@ -621,11 +639,13 @@ mozdebug
 .
 get_default_debugger_name
 (
+                    
 mozdebug
 .
 DebuggerSearch
 .
 KeepLooking
+                
 )
             
 if
@@ -720,6 +740,7 @@ e
                     
 print
 (
+                        
 "
 The
 -
@@ -738,6 +759,7 @@ parse
 them
 .
 "
+                    
 )
                     
 print
@@ -801,7 +823,6 @@ args
 ensure_exit_code
 =
 False
-                                
 pass_thru
 =
 True
@@ -816,12 +837,13 @@ MachCommandBase
     
 Command
 (
+        
 "
 geckodriver
 -
 test
 "
-             
+        
 category
 =
 "
@@ -829,7 +851,7 @@ post
 -
 build
 "
-             
+        
 description
 =
 "
@@ -839,25 +861,29 @@ unit
 tests
 .
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 -
 v
 "
+        
 "
 -
 -
 verbose
 "
+        
 action
 =
 "
 store_true
 "
-                     
+        
 help
 =
 "
@@ -866,7 +892,6 @@ output
 for
 what
 "
-                          
 "
 commands
 the
@@ -875,6 +900,7 @@ is
 running
 .
 "
+    
 )
     
 def
@@ -943,4 +969,5 @@ mach_context
 self
 .
 _mach_context
+        
 )

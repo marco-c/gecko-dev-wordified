@@ -36,6 +36,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -312,6 +313,7 @@ long
 "
 "
 "
+        
 )
         
 results
@@ -355,6 +357,7 @@ harness
 .
 check
 (
+            
 results
 [
 0
@@ -373,6 +376,7 @@ is
 EnforceRange
 ]
 "
+        
 )
         
 harness
@@ -403,6 +407,7 @@ harness
 .
 check
 (
+            
 results
 [
 2
@@ -411,7 +416,9 @@ results
 innerType
 .
 treatNullAsEmpty
+            
 True
+            
 "
 Baz
 is
@@ -421,6 +428,7 @@ TreatNullAs
 EmptyString
 ]
 "
+        
 )
         
 A
@@ -434,6 +442,7 @@ harness
 .
 check
 (
+            
 A
 .
 members
@@ -456,6 +465,7 @@ is
 EnforceRange
 ]
 "
+        
 )
         
 harness
@@ -490,6 +500,7 @@ harness
 .
 check
 (
+            
 A
 .
 members
@@ -512,12 +523,14 @@ is
 EnforceRange
 ]
 "
+        
 )
         
 harness
 .
 check
 (
+            
 A
 .
 members
@@ -540,6 +553,7 @@ is
 EnforceRange
 ]
 "
+        
 )
         
 B
@@ -553,6 +567,7 @@ harness
 .
 check
 (
+            
 B
 .
 members
@@ -575,12 +590,14 @@ is
 EnforceRange
 ]
 "
+        
 )
         
 harness
 .
 check
 (
+            
 B
 .
 members
@@ -603,6 +620,7 @@ is
 EnforceRange
 ]
 "
+        
 )
         
 harness
@@ -637,6 +655,7 @@ harness
 .
 check
 (
+            
 B
 .
 members
@@ -647,7 +666,9 @@ members
 type
 .
 treatNullAsEmpty
+            
 True
+            
 "
 B
 .
@@ -659,6 +680,7 @@ TreatNullAs
 EmptyString
 ]
 "
+        
 )
         
 method
@@ -684,6 +706,7 @@ harness
 .
 check
 (
+            
 method
 [
 0
@@ -694,7 +717,9 @@ type
 hasEnforceRange
 (
 )
+            
 True
+            
 "
 foo
 argument
@@ -705,12 +730,14 @@ is
 EnforceRange
 ]
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 [
 1
@@ -732,12 +759,14 @@ is
 Clamp
 ]
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 [
 2
@@ -746,7 +775,9 @@ method
 type
 .
 treatNullAsEmpty
+            
 True
+            
 "
 baz
 argument
@@ -759,6 +790,7 @@ TreatNullAs
 EmptyString
 ]
 "
+        
 )
         
 method2
@@ -784,6 +816,7 @@ harness
 .
 check
 (
+            
 method
 [
 0
@@ -794,7 +827,9 @@ type
 hasEnforceRange
 (
 )
+            
 True
+            
 "
 foo
 argument
@@ -805,12 +840,14 @@ is
 EnforceRange
 ]
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 [
 1
@@ -832,12 +869,14 @@ is
 Clamp
 ]
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 [
 2
@@ -846,7 +885,9 @@ method
 type
 .
 treatNullAsEmpty
+            
 True
+            
 "
 baz
 argument
@@ -859,6 +900,7 @@ TreatNullAs
 EmptyString
 ]
 "
+        
 )
         
 C
@@ -1019,6 +1061,7 @@ harness
 .
 ok
 (
+            
 method
 [
 0
@@ -1029,6 +1072,7 @@ type
 hasEnforceRange
 (
 )
+            
 "
 foo
 argument
@@ -1039,6 +1083,7 @@ has
 EnforceRange
 ]
 "
+        
 )
         
 harness
@@ -1138,6 +1183,7 @@ harness
 .
 ok
 (
+            
 method2
 [
 0
@@ -1148,6 +1194,7 @@ type
 hasEnforceRange
 (
 )
+            
 "
 foo
 argument
@@ -1158,6 +1205,7 @@ has
 EnforceRange
 ]
 "
+        
 )
         
 harness
@@ -1235,6 +1283,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1417,6 +1466,7 @@ ArrayBufferView
 "
 "
 "
+        
 )
         
 results
@@ -1651,6 +1701,7 @@ harness
 .
 ok
 (
+            
 method
 [
 0
@@ -1671,6 +1722,7 @@ is
 AllowShared
 ]
 "
+        
 )
         
 method2
@@ -1696,6 +1748,7 @@ harness
 .
 ok
 (
+            
 method2
 [
 0
@@ -1716,6 +1769,7 @@ is
 AllowShared
 ]
 "
+        
 )
         
 C
@@ -1824,6 +1878,7 @@ harness
 .
 ok
 (
+            
 method
 [
 0
@@ -1844,6 +1899,7 @@ is
 AllowShared
 ]
 "
+        
 )
         
 method2
@@ -1893,6 +1949,7 @@ harness
 .
 ok
 (
+            
 method2
 [
 0
@@ -1913,11 +1970,13 @@ is
 AllowShared
 ]
 "
+        
 )
     
 ATTRIBUTES
 =
 [
+        
 (
 "
 [
@@ -1928,6 +1987,7 @@ Clamp
 long
 "
 )
+        
 (
 "
 [
@@ -1938,7 +1998,7 @@ EnforceRange
 long
 "
 )
-                  
+        
 (
 "
 [
@@ -1951,6 +2011,7 @@ EmptyString
 DOMString
 "
 )
+        
 (
 "
 [
@@ -1961,6 +2022,7 @@ AllowShared
 ArrayBufferView
 "
 )
+    
 ]
     
 TEMPLATES
@@ -1968,11 +2030,13 @@ TEMPLATES
 [
         
 (
+            
 "
 required
 dictionary
 members
 "
+            
 "
 "
 "
@@ -1995,13 +2059,16 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 optional
 arguments
 "
+            
 "
 "
 "
@@ -2028,12 +2095,15 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 typedefs
 "
+            
 "
 "
 "
@@ -2049,12 +2119,15 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 attributes
 "
+            
 "
 "
 "
@@ -2077,13 +2150,16 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 readonly
 attributes
 "
+            
 "
 "
 "
@@ -2107,14 +2183,17 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 readonly
 unresolved
 attributes
 "
+            
 "
 "
 "
@@ -2143,12 +2222,15 @@ Bar
 "
 "
 "
+        
 )
         
 (
+            
 "
 method
 "
+            
 "
 "
 "
@@ -2172,12 +2254,15 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 interface
 "
+            
 "
 "
 "
@@ -2201,13 +2286,16 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 partial
 interface
 "
+            
 "
 "
 "
@@ -2245,13 +2333,16 @@ bar
 "
 "
 "
+        
 )
         
 (
+            
 "
 interface
 mixin
 "
+            
 "
 "
 "
@@ -2276,12 +2367,15 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 namespace
 "
+            
 "
 "
 "
@@ -2305,13 +2399,16 @@ foo
 "
 "
 "
+        
 )
         
 (
+            
 "
 partial
 namespace
 "
+            
 "
 "
 "
@@ -2349,12 +2446,15 @@ bar
 "
 "
 "
+        
 )
         
 (
+            
 "
 dictionary
 "
+            
 "
 "
 "
@@ -2377,10 +2477,10 @@ foo
 "
 "
 "
+        
 )
     
 ]
-;
     
 for
 (
@@ -2507,7 +2607,6 @@ harness
 ok
 (
 threw
-                       
 "
 Should
 not
@@ -2544,6 +2643,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2560,6 +2660,7 @@ Foo
 "
 "
 "
+        
 )
         
 parser
@@ -2614,6 +2715,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2630,6 +2732,7 @@ Foo
 "
 "
 "
+        
 )
         
 parser
@@ -2684,6 +2787,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2707,6 +2811,7 @@ bar
 "
 "
 "
+        
 )
         
 parser
@@ -2763,6 +2868,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2786,6 +2892,7 @@ bar
 "
 "
 "
+        
 )
         
 parser
@@ -2826,23 +2933,29 @@ typedefs
 TYPES
 =
 [
+        
 "
 DOMString
 "
+        
 "
 unrestricted
 float
 "
+        
 "
 float
 "
+        
 "
 unrestricted
 double
 "
+        
 "
 double
 "
+    
 ]
     
 for
@@ -2870,6 +2983,7 @@ parser
 .
 parse
 (
+                
 "
 "
 "
@@ -2886,8 +3000,10 @@ Foo
 "
 "
 "
+                
 %
 type
+            
 )
             
 parser
@@ -2942,6 +3058,7 @@ parser
 .
 parse
 (
+                
 "
 "
 "
@@ -2958,8 +3075,10 @@ Foo
 "
 "
 "
+                
 %
 type
+            
 )
             
 parser
@@ -3014,6 +3133,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3031,6 +3151,7 @@ Foo
 "
 "
 "
+        
 )
         
 parser
@@ -3082,6 +3203,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3099,6 +3221,7 @@ Foo
 "
 "
 "
+        
 )
         
 parser
@@ -3150,6 +3273,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3168,6 +3292,7 @@ Foo
 "
 "
 "
+        
 )
         
 parser
@@ -3220,6 +3345,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3235,6 +3361,7 @@ Foo
 "
 "
 "
+        
 )
         
 results
@@ -3289,6 +3416,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3306,6 +3434,7 @@ Foo
 "
 "
 "
+        
 )
         
 results
@@ -3358,6 +3487,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3388,6 +3518,7 @@ Bar
 "
 "
 "
+        
 )
         
 results
@@ -3426,6 +3557,7 @@ harness
 .
 check
 (
+        
 results
 [
 0
@@ -3454,8 +3586,9 @@ type
 hasClamp
 (
 )
+        
 True
-                  
+        
 "
 Unresolved
 types
@@ -3468,6 +3601,7 @@ resolve
 with
 attributes
 "
+    
 )
     
 parser
@@ -3489,6 +3623,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3519,6 +3654,7 @@ Bar
 "
 "
 "
+        
 )
         
 results
@@ -3556,6 +3692,7 @@ harness
 .
 check
 (
+        
 results
 [
 0
@@ -3584,8 +3721,9 @@ type
 hasClamp
 (
 )
+        
 True
-                  
+        
 "
 Unresolved
 types
@@ -3601,4 +3739,5 @@ resolve
 with
 attributes
 "
+    
 )

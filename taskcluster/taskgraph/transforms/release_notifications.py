@@ -139,9 +139,9 @@ if
 conversion
 =
 =
-'
+"
 t
-'
+"
 :
             
 return
@@ -199,13 +199,13 @@ jobs
         
 label
 =
-'
+"
 {
 }
 -
 {
 }
-'
+"
 .
 format
 (
@@ -214,9 +214,9 @@ config
 kind
 job
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -226,9 +226,9 @@ job
 .
 pop
 (
-'
+"
 notifications
-'
+"
 None
 )
         
@@ -238,10 +238,11 @@ notifications
             
 resolve_keyed_by
 (
+                
 notifications
-'
+"
 emails
-'
+"
 label
 project
 =
@@ -249,19 +250,20 @@ config
 .
 params
 [
-'
+"
 project
-'
+"
 ]
+            
 )
             
 emails
 =
 notifications
 [
-'
+"
 emails
-'
+"
 ]
             
 format_kwargs
@@ -293,9 +295,9 @@ format
 (
 notifications
 [
-'
+"
 subject
-'
+"
 ]
 *
 *
@@ -310,9 +312,9 @@ format
 (
 notifications
 [
-'
+"
 message
-'
+"
 ]
 *
 *
@@ -373,17 +375,17 @@ notifications
 .
 get
 (
-'
+"
 status
 -
 types
-'
+"
 [
-'
+"
 on
 -
 completed
-'
+"
 ]
 )
             
@@ -397,9 +399,9 @@ job
 .
 setdefault
 (
-'
+"
 routes
-'
+"
 [
 ]
 )
@@ -408,7 +410,7 @@ extend
 (
                     
 [
-'
+"
 notify
 .
 email
@@ -418,7 +420,7 @@ email
 .
 {
 }
-'
+"
 .
 format
 (
@@ -450,9 +452,9 @@ job
 .
 setdefault
 (
-'
+"
 extra
-'
+"
 {
 }
 )
@@ -461,22 +463,22 @@ update
 (
                 
 {
-                   
-'
+                    
+"
 notify
-'
+"
 :
 {
-                       
-'
+                        
+"
 email
-'
+"
 :
 {
                             
-'
+"
 subject
-'
+"
 :
 subject
                         
@@ -494,24 +496,24 @@ message
                 
 job
 [
-'
+"
 extra
-'
+"
 ]
 [
-'
+"
 notify
-'
+"
 ]
 [
-'
+"
 email
-'
+"
 ]
 [
-'
+"
 content
-'
+"
 ]
 =
 message

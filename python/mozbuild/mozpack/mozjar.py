@@ -127,9 +127,9 @@ Exception
 )
 :
     
-'
-'
-'
+"
+"
+"
 Error
 type
 for
@@ -137,9 +137,9 @@ Jar
 reader
 errors
 .
-'
-'
-'
+"
+"
+"
 class
 JarWriterError
 (
@@ -147,9 +147,9 @@ Exception
 )
 :
     
-'
-'
-'
+"
+"
+"
 Error
 type
 for
@@ -157,9 +157,9 @@ Jar
 writer
 errors
 .
-'
-'
-'
+"
+"
+"
 class
 JarStruct
 (
@@ -167,9 +167,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Helper
 used
@@ -441,33 +441,33 @@ empty
 fields
 .
     
-'
-'
-'
+"
+"
+"
     
 TYPE_MAPPING
 =
 {
-'
+"
 uint32
-'
+"
 :
 (
 b
-'
+"
 I
-'
+"
 4
 )
-'
+"
 uint16
-'
+"
 :
 (
 b
-'
+"
 H
-'
+"
 2
 )
 }
@@ -482,9 +482,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Create
 an
@@ -508,9 +508,9 @@ empty
 fields
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 self
@@ -531,6 +531,7 @@ size_fields
 =
 set
 (
+            
 t
 for
 t
@@ -543,7 +544,6 @@ self
 .
 STRUCT
 )
-                               
 if
 t
 not
@@ -551,6 +551,7 @@ in
 JarStruct
 .
 TYPE_MAPPING
+        
 )
         
 self
@@ -588,9 +589,9 @@ data
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 an
@@ -624,9 +625,9 @@ data
 ]
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 data
@@ -643,9 +644,9 @@ JarStruct
 .
 get_data
 (
-'
+"
 uint32
-'
+"
 data
 )
         
@@ -663,10 +664,10 @@ MAGIC
 raise
 JarReaderError
 (
-'
+"
 Bad
 magic
-'
+"
 )
         
 offset
@@ -820,9 +821,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 an
@@ -832,9 +833,9 @@ empty
 fields
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -883,8 +884,8 @@ JarStruct
 .
 TYPE_MAPPING
 else
-'
-'
+"
+"
     
 staticmethod
     
@@ -896,9 +897,9 @@ data
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Deserialize
 a
@@ -927,9 +928,9 @@ given
 data
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 type
@@ -984,9 +985,9 @@ struct
 unpack
 (
 b
-'
+"
 <
-'
+"
 +
 format
 data
@@ -1003,9 +1004,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Serialize
 the
@@ -1024,9 +1025,9 @@ self
 STRUCT
 .
         
-'
-'
-'
+"
+"
+"
         
 serialized
 =
@@ -1035,10 +1036,10 @@ struct
 pack
 (
 b
-'
+"
 <
 I
-'
+"
 self
 .
 signature
@@ -1048,11 +1049,12 @@ sizes
 =
 dict
 (
+            
 (
 t
 name
 )
-                     
+            
 for
 name
 t
@@ -1065,7 +1067,7 @@ self
 .
 STRUCT
 )
-                     
+            
 if
 t
 not
@@ -1073,6 +1075,7 @@ in
 JarStruct
 .
 TYPE_MAPPING
+        
 )
         
 for
@@ -1144,9 +1147,9 @@ struct
 pack
 (
 b
-'
+"
 <
-'
+"
 +
 format
 value
@@ -1178,9 +1181,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -1201,9 +1204,9 @@ length
 fields
 .
         
-'
-'
-'
+"
+"
+"
         
 size
 =
@@ -1211,9 +1214,9 @@ JarStruct
 .
 TYPE_MAPPING
 [
-'
+"
 uint32
-'
+"
 ]
 [
 1
@@ -1390,24 +1393,25 @@ s
 "
 %
 (
+            
 self
 .
 __class__
 .
 __name__
-                            
-'
-'
+            
+"
+"
 .
 join
 (
-'
+"
 %
 s
 =
 %
 s
-'
+"
 %
 (
 n
@@ -1419,6 +1423,7 @@ v
 in
 self
 )
+        
 )
 class
 JarCdirEnd
@@ -1427,9 +1432,9 @@ JarStruct
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 End
 of
@@ -1438,93 +1443,95 @@ directory
 record
 .
     
-'
-'
-'
+"
+"
+"
     
 MAGIC
 =
-0x06054b50
+0x06054B50
     
 STRUCT
 =
 OrderedDict
 (
+        
 [
-        
+            
 (
-'
+"
 disk_num
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 cdir_disk
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 disk_entries
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 cdir_entries
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 cdir_size
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 cdir_offset
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 comment_size
-'
-'
+"
+"
 uint16
-'
+"
+)
+            
+(
+"
+comment
+"
+"
+comment_size
+"
 )
         
-(
-'
-comment
-'
-'
-comment_size
-'
-)
-    
 ]
+    
 )
 CDIR_END_SIZE
 =
@@ -1540,201 +1547,203 @@ JarStruct
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Central
 directory
 file
 header
     
-'
-'
-'
+"
+"
+"
     
 MAGIC
 =
-0x02014b50
+0x02014B50
     
 STRUCT
 =
 OrderedDict
 (
+        
 [
-        
+            
 (
-'
+"
 creator_version
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 min_version
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 general_flag
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 compression
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 lastmod_time
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 lastmod_date
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 crc32
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 compressed_size
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 uncompressed_size
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 filename_size
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 extrafield_size
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 filecomment_size
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 disknum
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 internal_attr
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 external_attr
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 offset
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 filename
-'
-'
+"
+"
 filename_size
-'
+"
 )
-        
+            
 (
-'
+"
 extrafield
-'
-'
+"
+"
 extrafield_size
-'
+"
+)
+            
+(
+"
+filecomment
+"
+"
+filecomment_size
+"
 )
         
-(
-'
-filecomment
-'
-'
-filecomment_size
-'
-)
-    
 ]
+    
 )
 class
 JarLocalFileHeader
@@ -1743,137 +1752,139 @@ JarStruct
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Local
 file
 header
     
-'
-'
-'
+"
+"
+"
     
 MAGIC
 =
-0x04034b50
+0x04034B50
     
 STRUCT
 =
 OrderedDict
 (
+        
 [
-        
+            
 (
-'
+"
 min_version
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 general_flag
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 compression
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 lastmod_time
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 lastmod_date
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 crc32
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 compressed_size
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 uncompressed_size
-'
-'
+"
+"
 uint32
-'
+"
 )
-        
+            
 (
-'
+"
 filename_size
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 extra_field_size
-'
-'
+"
+"
 uint16
-'
+"
 )
-        
+            
 (
-'
+"
 filename
-'
-'
+"
+"
 filename_size
-'
+"
+)
+            
+(
+"
+extra_field
+"
+"
+extra_field_size
+"
 )
         
-(
-'
-extra_field
-'
-'
-extra_field_size
-'
-)
-    
 ]
+    
 )
 class
 JarFileReader
@@ -1882,9 +1893,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 -
@@ -1907,9 +1918,9 @@ Jar
 archive
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1920,9 +1931,9 @@ data
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 a
@@ -1953,16 +1964,16 @@ file
 data
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 header
 [
-'
+"
 compression
-'
+"
 ]
 in
 [
@@ -1990,15 +2001,15 @@ for
 name
 in
 [
-'
+"
 compressed_size
-'
-'
+"
+"
 uncompressed_size
-'
-'
+"
+"
 crc32
-'
+"
 ]
 :
             
@@ -2022,9 +2033,9 @@ ensure_text
 (
 header
 [
-'
+"
 filename
-'
+"
 ]
 )
         
@@ -2034,9 +2045,9 @@ compressed
 =
 header
 [
-'
+"
 compression
-'
+"
 ]
 !
 =
@@ -2048,9 +2059,9 @@ compress
 =
 header
 [
-'
+"
 compression
-'
+"
 ]
     
 def
@@ -2064,9 +2075,9 @@ length
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Read
 some
@@ -2076,9 +2087,9 @@ uncompressed
 data
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -2097,9 +2108,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 a
@@ -2117,9 +2128,9 @@ uncompressed
 data
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -2140,9 +2151,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Iterator
 to
@@ -2157,9 +2168,9 @@ fileobj
 constructs
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 iter
@@ -2184,9 +2195,9 @@ SEEK_SET
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Change
 the
@@ -2206,9 +2217,9 @@ from
 there
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -2228,9 +2239,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Free
 the
@@ -2239,9 +2250,9 @@ data
 buffer
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -2260,9 +2271,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -2271,9 +2282,9 @@ compressed
 data
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -2295,9 +2306,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -2305,17 +2316,17 @@ uncompressed
 data
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 hasattr
 (
 self
-'
+"
 _uncompressed_data
-'
+"
 )
 :
             
@@ -2423,13 +2434,13 @@ uncompressed_size
 raise
 JarReaderError
 (
-'
+"
 Corrupted
 file
 ?
 %
 s
-'
+"
 %
 self
 .
@@ -2456,9 +2467,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Class
 with
@@ -2491,9 +2502,9 @@ documentation
 )
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -2511,9 +2522,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Opens
 the
@@ -2545,9 +2556,9 @@ file
 name
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 fileobj
@@ -2570,9 +2581,9 @@ data
 open
 (
 file
-'
+"
 rb
-'
+"
 )
 .
 read
@@ -2634,9 +2645,9 @@ JarStruct
 .
 get_data
 (
-'
+"
 uint32
-'
+"
 self
 .
 _data
@@ -2676,12 +2687,12 @@ _data
 raise
 JarReaderError
 (
-'
+"
 Not
 a
 jar
 ?
-'
+"
 )
             
 offset
@@ -2711,9 +2722,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Free
 some
@@ -2724,9 +2735,9 @@ the
 Jar
 .
         
-'
-'
-'
+"
+"
+"
         
 del
 self
@@ -2761,9 +2772,9 @@ max
 (
 f
 [
-'
+"
 compression
-'
+"
 ]
 for
 f
@@ -2785,9 +2796,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 an
@@ -2820,17 +2831,17 @@ are
 skipped
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 hasattr
 (
 self
-'
+"
 _entries
-'
+"
 )
 :
             
@@ -2855,9 +2866,9 @@ JarStruct
 .
 get_data
 (
-'
+"
 uint32
-'
+"
 self
 .
 _data
@@ -2878,9 +2889,9 @@ self
 .
 _cdir_end
 [
-'
+"
 cdir_offset
-'
+"
 ]
         
 for
@@ -2896,9 +2907,9 @@ self
 .
 _cdir_end
 [
-'
+"
 cdir_entries
-'
+"
 ]
 )
 :
@@ -2939,9 +2950,9 @@ host
 =
 entry
 [
-'
+"
 creator_version
-'
+"
 ]
 >
 >
@@ -2987,9 +2998,9 @@ xattr
 =
 entry
 [
-'
+"
 external_attr
-'
+"
 ]
             
 #
@@ -3014,7 +3025,6 @@ host
 =
 3
 and
-                                                
 xattr
 &
 (
@@ -3036,9 +3046,9 @@ ensure_text
 (
 entry
 [
-'
+"
 filename
-'
+"
 ]
 )
 ]
@@ -3048,9 +3058,9 @@ entry
 if
 entry
 [
-'
+"
 offset
-'
+"
 ]
 <
 preload
@@ -3066,9 +3076,9 @@ ensure_text
 (
 entry
 [
-'
+"
 filename
-'
+"
 ]
 )
         
@@ -3090,9 +3100,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -3103,9 +3113,9 @@ is
 optimized
 .
         
-'
-'
-'
+"
+"
+"
         
 #
 In
@@ -3146,21 +3156,19 @@ self
 .
 _cdir_end
 [
-'
+"
 cdir_offset
-'
+"
 ]
 =
 =
-\
-            
 JarStruct
 .
 TYPE_MAPPING
 [
-'
+"
 uint32
-'
+"
 ]
 [
 1
@@ -3175,9 +3183,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -3204,17 +3212,17 @@ on
 preloading
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 hasattr
 (
 self
-'
+"
 _last_preloaded
-'
+"
 )
 :
             
@@ -3246,9 +3254,9 @@ entry
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Helper
 to
@@ -3265,9 +3273,9 @@ directory
 entry
 .
         
-'
-'
-'
+"
+"
+"
         
 header
 =
@@ -3279,9 +3287,9 @@ _data
 [
 entry
 [
-'
+"
 offset
-'
+"
 ]
 :
 ]
@@ -3311,38 +3319,39 @@ value
 raise
 JarReaderError
 (
-'
+                    
+"
 Central
 directory
 and
 file
 header
-'
+"
+                    
 +
-                                     
-'
+"
 mismatch
 .
 Corrupted
 archive
 ?
-'
+"
+                
 )
         
 return
 JarFileReader
 (
 header
-                             
 self
 .
 _data
 [
 entry
 [
-'
+"
 offset
-'
+"
 ]
 +
 header
@@ -3359,9 +3368,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Iterate
 over
@@ -3389,9 +3398,9 @@ jarReader
 .
 .
         
-'
-'
-'
+"
+"
+"
         
 for
 entry
@@ -3422,9 +3431,9 @@ name
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Get
 a
@@ -3436,9 +3445,9 @@ file
 name
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -3461,9 +3470,9 @@ name
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -3478,9 +3487,9 @@ Jar
 archive
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 name
@@ -3495,9 +3504,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Class
 with
@@ -3546,9 +3555,9 @@ both
 layouts
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -3569,9 +3578,9 @@ compress_level
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 a
@@ -3667,9 +3676,9 @@ of
 compression
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 fileobj
@@ -3691,9 +3700,9 @@ _data
 open
 (
 file
-'
+"
 wb
-'
+"
 )
         
 if
@@ -3739,9 +3748,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Context
 manager
@@ -3751,9 +3760,9 @@ for
 JarWriter
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -3768,9 +3777,9 @@ tb
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Context
 manager
@@ -3780,9 +3789,9 @@ for
 JarWriter
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -3797,9 +3806,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Flush
 and
@@ -4039,9 +4048,9 @@ directory
 entries
 .
         
-'
-'
-'
+"
+"
+"
         
 offset
 =
@@ -4108,9 +4117,9 @@ name
             
 entry
 [
-'
+"
 offset
-'
+"
 ]
 =
 offset
@@ -4134,9 +4143,9 @@ ensure_text
 (
 entry
 [
-'
+"
 filename
-'
+"
 ]
 )
 =
@@ -4172,9 +4181,9 @@ JarCdirEnd
         
 end
 [
-'
+"
 disk_entries
-'
+"
 ]
 =
 len
@@ -4186,23 +4195,23 @@ _contents
         
 end
 [
-'
+"
 cdir_entries
-'
+"
 ]
 =
 end
 [
-'
+"
 disk_entries
-'
+"
 ]
         
 end
 [
-'
+"
 cdir_size
-'
+"
 ]
 =
 six
@@ -4211,6 +4220,7 @@ moves
 .
 reduce
 (
+            
 lambda
 x
 y
@@ -4223,7 +4233,6 @@ y
 ]
 .
 size
-                                            
 self
 .
 _contents
@@ -4232,6 +4241,7 @@ values
 (
 )
 0
+        
 )
         
 #
@@ -4265,9 +4275,9 @@ preload_size
             
 end
 [
-'
+"
 cdir_offset
-'
+"
 ]
 =
 4
@@ -4276,16 +4286,16 @@ offset
 =
 end
 [
-'
+"
 cdir_size
-'
+"
 ]
 +
 end
 [
-'
+"
 cdir_offset
-'
+"
 ]
 +
 end
@@ -4307,10 +4317,10 @@ struct
 .
 pack
 (
-'
+"
 <
 I
-'
+"
 preload_size
 )
 )
@@ -4331,9 +4341,9 @@ _contents
                 
 entry
 [
-'
+"
 offset
-'
+"
 ]
 +
 =
@@ -4457,9 +4467,9 @@ preload_size
             
 end
 [
-'
+"
 cdir_offset
-'
+"
 ]
 =
 offset
@@ -4539,9 +4549,9 @@ False
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 a
@@ -4712,9 +4722,9 @@ recompress
 it
 .
         
-'
-'
-'
+"
+"
+"
         
 name
 =
@@ -4789,7 +4799,6 @@ compress
 JAR_STORED
         
 if
-(
 isinstance
 (
 data
@@ -4799,14 +4808,12 @@ Deflater
 )
 )
 and
-                
 data
 .
 compress
 =
 =
 compress
-)
 :
             
 deflater
@@ -4854,9 +4861,9 @@ elif
 hasattr
 (
 data
-'
+"
 read
-'
+"
 )
 :
                 
@@ -4908,7 +4915,6 @@ handle
 s
 "
 %
-                                     
 type
 (
 data
@@ -4935,9 +4941,9 @@ JarCdirEntry
         
 entry
 [
-'
+"
 creator_version
-'
+"
 ]
 =
 20
@@ -4979,9 +4985,9 @@ one
             
 entry
 [
-'
+"
 creator_version
-'
+"
 ]
 |
 =
@@ -4992,9 +4998,9 @@ creator_version
             
 entry
 [
-'
+"
 external_attr
-'
+"
 ]
 =
 (
@@ -5014,9 +5020,9 @@ compressed
             
 entry
 [
-'
+"
 min_version
-'
+"
 ]
 =
 20
@@ -5031,9 +5037,9 @@ streams
             
 entry
 [
-'
+"
 general_flag
-'
+"
 ]
 =
 2
@@ -5043,9 +5049,9 @@ compression
             
 entry
 [
-'
+"
 compression
-'
+"
 ]
 =
 deflater
@@ -5057,9 +5063,9 @@ else
             
 entry
 [
-'
+"
 min_version
-'
+"
 ]
 =
 10
@@ -5074,18 +5080,18 @@ streams
             
 entry
 [
-'
+"
 general_flag
-'
+"
 ]
 =
 0
             
 entry
 [
-'
+"
 compression
-'
+"
 ]
 =
 JAR_STORED
@@ -5102,9 +5108,9 @@ bug
         
 entry
 [
-'
+"
 lastmod_date
-'
+"
 ]
 =
 (
@@ -5129,18 +5135,18 @@ lastmod_date
         
 entry
 [
-'
+"
 lastmod_time
-'
+"
 ]
 =
 0
         
 entry
 [
-'
+"
 crc32
-'
+"
 ]
 =
 deflater
@@ -5149,9 +5155,9 @@ crc32
         
 entry
 [
-'
+"
 compressed_size
-'
+"
 ]
 =
 deflater
@@ -5160,9 +5166,9 @@ compressed_size
         
 entry
 [
-'
+"
 uncompressed_size
-'
+"
 ]
 =
 deflater
@@ -5171,9 +5177,9 @@ uncompressed_size
         
 entry
 [
-'
+"
 filename
-'
+"
 ]
 =
 six
@@ -5203,9 +5209,9 @@ files
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Set
 which
@@ -5239,9 +5245,9 @@ given
 list
 .
         
-'
-'
-'
+"
+"
+"
         
 new_contents
 =
@@ -5323,9 +5329,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 -
@@ -5355,9 +5361,9 @@ uncompressed
 data
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -5372,9 +5378,9 @@ compress_level
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 a
@@ -5390,9 +5396,9 @@ to
 compress
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -5459,6 +5465,7 @@ zlib
 DEFLATED
 -
 MAX_WBITS
+                
 )
             
 else
@@ -5509,9 +5516,9 @@ data
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Append
 a
@@ -5521,9 +5528,9 @@ the
 Deflater
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 isinstance
@@ -5617,7 +5624,7 @@ self
 crc32
 )
 &
-0xffffffff
+0xFFFFFFFF
     
 def
 close
@@ -5626,18 +5633,18 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Close
 the
 Deflater
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -5668,9 +5675,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Flush
 the
@@ -5680,9 +5687,9 @@ compression
 object
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -5724,9 +5731,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -5737,9 +5744,9 @@ be
 compressed
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -5759,9 +5766,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -5813,9 +5820,9 @@ uncompressed
 size
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -5852,9 +5859,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -5912,9 +5919,9 @@ uncompressed
 size
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -5941,9 +5948,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -5957,9 +5964,9 @@ the
 Deflater
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 self
@@ -5979,9 +5986,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 the
@@ -6012,9 +6019,9 @@ data
 otherwise
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -6069,31 +6076,32 @@ path
 .
 join
 (
+            
 topobjdir
-'
+"
 dist
-'
-'
+"
+"
 host
-'
-'
+"
+"
 bin
-'
-                            
-'
+"
+"
 bro
-'
+"
 +
 substs
 .
 get
 (
-'
+"
 BIN_SUFFIX
-'
-'
-'
+"
+"
+"
 )
+        
 )
     
 staticmethod
@@ -6112,6 +6120,7 @@ subprocess
 .
 Popen
 (
+            
 [
 Brotli
 .
@@ -6121,18 +6130,17 @@ brotli_tool
 ]
 +
 args
-                                
 stdin
 =
 subprocess
 .
 PIPE
-                                
 stdout
 =
 subprocess
 .
 PIPE
+        
 )
         
 (
@@ -6190,14 +6198,14 @@ Brotli
 run_brotli_tool
 (
 [
-'
+"
 -
 -
 window
-'
-'
+"
+"
 17
-'
+"
 ]
 data
 )
@@ -6217,11 +6225,11 @@ Brotli
 run_brotli_tool
 (
 [
-'
+"
 -
 -
 decompress
-'
+"
 ]
 data
 )
@@ -6266,8 +6274,8 @@ data
         
 return
 b
-'
-'
+"
+"
     
 def
 flush
@@ -6296,9 +6304,9 @@ dict
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Helper
 to
@@ -6354,9 +6362,9 @@ is
 stored
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -6381,9 +6389,9 @@ fileobj
 open
 (
 file
-'
+"
 r
-'
+"
 )
         
 for

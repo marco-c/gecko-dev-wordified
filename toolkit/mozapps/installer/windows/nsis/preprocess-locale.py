@@ -378,10 +378,9 @@ value
 ]
 =
 =
+'
 "
-\
-"
-"
+'
 and
 value
 [
@@ -389,10 +388,9 @@ value
 ]
 =
 =
+'
 "
-\
-"
-"
+'
 :
             
 value
@@ -481,16 +479,14 @@ value
 .
 replace
 (
+'
 "
-\
-"
-"
-"
-\
+'
+'
 \
 \
 "
-"
+'
 )
 #
 prefix
@@ -580,19 +576,17 @@ strip
 +
 middle
 +
+'
 "
-\
-"
-"
+'
 +
 value
 +
-"
-\
+'
 "
 \
 n
-"
+'
     
 fp
 .
@@ -733,6 +727,7 @@ locale_strings
 =
 get_locale_strings
 (
+        
 lookup
 (
 "
@@ -740,20 +735,17 @@ override
 .
 properties
 "
-                                               
 l10ndirs
 )
-                                        
 "
 LangString
 ^
 "
-                                        
 "
 0
 "
-                                        
 False
+    
 )
     
 fp
@@ -808,7 +800,9 @@ fp
 .
 write
 (
+        
 (
+            
 u
 "
 "
@@ -855,6 +849,7 @@ baseLocale
 "
 "
 "
+        
 )
 .
 encode
@@ -867,12 +862,14 @@ utf
 le
 "
 )
+    
 )
     
 locale_strings
 =
 get_locale_strings
 (
+        
 lookup
 (
 "
@@ -882,7 +879,6 @@ properties
 "
 l10ndirs
 )
-                                        
 "
 !
 define
@@ -890,6 +886,7 @@ define
 "
 "
 True
+    
 )
     
 fp
@@ -971,6 +968,7 @@ locale_strings
 =
 get_locale_strings
 (
+        
 lookup
 (
 "
@@ -978,19 +976,16 @@ custom
 .
 properties
 "
-                                               
 l10ndirs
 )
-                                        
 "
 LangString
 "
-                                        
 "
 0
 "
-                                        
 True
+    
 )
     
 fp
@@ -1099,10 +1094,10 @@ io
 .
 open
 (
+        
 join
 (
 moz_dir
-                      
 "
 toolkit
 /
@@ -1119,17 +1114,19 @@ locales
 nsi
 "
 )
-                 
+        
 "
 r
 "
+        
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
+    
 )
     
 for
@@ -1232,7 +1229,9 @@ fp
 .
 write
 (
+        
 (
+            
 u
 "
 "
@@ -1292,8 +1291,10 @@ s
 "
 "
 "
+            
 %
 rtl
+        
 )
 .
 encode
@@ -1306,6 +1307,7 @@ utf
 le
 "
 )
+    
 )
     
 fp
@@ -1317,11 +1319,8 @@ def
 preprocess_locale_file
 (
 config_dir
-                           
 l10ndirs
-                           
 properties_filename
-                           
 output_filename
 )
 :
@@ -1426,22 +1425,20 @@ locale_strings
 =
 get_locale_strings
 (
+        
 lookup
 (
 properties_filename
-                                               
 l10ndirs
 )
-                                        
 "
 LangString
 "
-                                        
 "
 0
 "
-                                        
 True
+    
 )
     
 fp
@@ -1538,11 +1535,11 @@ r
 "
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
     
 out_fp
@@ -1589,9 +1586,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 usage
@@ -2159,6 +2156,7 @@ p
 .
 add_option
 (
+        
 "
 -
 -
@@ -2174,18 +2172,19 @@ store_true
 default
 =
 False
-                 
 dest
 =
-'
+"
 preprocess
-'
+"
+    
 )
     
 p
 .
 add_option
 (
+        
 "
 -
 -
@@ -2195,26 +2194,30 @@ single
 -
 file
 "
+        
 action
 =
 "
 store_true
 "
+        
 default
 =
 False
-                 
+        
 dest
 =
-'
+"
 preprocessSingle
-'
+"
+    
 )
     
 p
 .
 add_option
 (
+        
 "
 -
 -
@@ -2232,18 +2235,19 @@ store_true
 default
 =
 False
-                 
 dest
 =
-'
+"
 createNlf
-'
+"
+    
 )
     
 p
 .
 add_option
 (
+        
 "
 -
 -
@@ -2251,22 +2255,24 @@ l10n
 -
 dir
 "
+        
 action
 =
 "
 append
 "
+        
 default
 =
 [
 ]
-                 
+        
 dest
 =
 "
 l10n_dirs
 "
-                 
+        
 help
 =
 "
@@ -2278,12 +2284,14 @@ for
 locale
 files
 "
+    
 )
     
 p
 .
 add_option
 (
+        
 "
 -
 -
@@ -2301,12 +2309,12 @@ store_true
 default
 =
 False
-                 
 dest
 =
-'
+"
 convert
-'
+"
+    
 )
     
 options
@@ -2323,11 +2331,9 @@ foundOne
 False
     
 if
-(
 options
 .
 preprocess
-)
 :
         
 foundOne
@@ -2335,17 +2341,13 @@ foundOne
 True
     
 if
-(
 options
 .
 convert
-)
 :
         
 if
-(
 foundOne
-)
 :
             
 p
@@ -2369,17 +2371,13 @@ foundOne
 True
     
 if
-(
 options
 .
 preprocessSingle
-)
 :
         
 if
-(
 foundOne
-)
 :
             
 p
@@ -2403,17 +2401,13 @@ foundOne
 True
     
 if
-(
 options
 .
 createNlf
-)
 :
         
 if
-(
 foundOne
-)
 :
             
 p
@@ -2437,12 +2431,10 @@ foundOne
 True
     
 if
-(
 not
 foundOne
-)
 :
-      
+        
 p
 .
 error
@@ -2701,11 +2693,8 @@ files
 preprocess_locale_file
 (
 config_dir
-                               
 l10n_dirs
-                               
 in_file
-                               
 out_file
 )
     

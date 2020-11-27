@@ -110,9 +110,9 @@ environ
     
 env
 [
-'
+"
 PERL
-'
+"
 ]
 =
 str
@@ -121,9 +121,9 @@ buildconfig
 .
 substs
 [
-'
+"
 PERL
-'
+"
 ]
 )
     
@@ -131,20 +131,21 @@ output
 .
 write
 (
+        
 subprocess
 .
 check_output
 (
+            
 [
 buildconfig
 .
 substs
 [
-'
+"
 PYTHON3
-'
+"
 ]
-                                          
 inputs
 [
 0
@@ -157,7 +158,9 @@ inputs
 env
 =
 env
+        
 )
+    
 )
     
 return

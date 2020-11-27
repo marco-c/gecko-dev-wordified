@@ -67,9 +67,9 @@ STEPS
 =
 {
     
-'
+"
 hg
-'
+"
 :
 [
         
@@ -98,9 +98,9 @@ foo
     
 ]
     
-'
+"
 git
-'
+"
 :
 [
         
@@ -183,6 +183,7 @@ vcs
 .
 commit
 (
+        
 "
 Modify
 bar
@@ -193,7 +194,7 @@ nbut
 not
 baz
 "
-               
+        
 "
 Testing
 McTesterson
@@ -204,7 +205,7 @@ example
 org
 >
 "
-               
+        
 "
 2017
 -
@@ -218,12 +219,13 @@ org
 00
 UTC
 "
-               
+        
 [
 "
 bar
 "
 ]
+    
 )
     
 #
@@ -255,22 +257,22 @@ repo
 vcs
 =
 =
-'
+"
 git
-'
+"
 :
         
 log_cmd
 =
 [
-'
+"
 log
-'
-'
+"
+"
 -
 1
-'
-'
+"
+"
 -
 -
 format
@@ -283,23 +285,23 @@ ae
 at
 %
 B
-'
+"
 ]
         
 patch_cmd
 =
 [
-'
+"
 log
-'
-'
+"
+"
 -
 1
-'
-'
+"
+"
 -
 p
-'
+"
 ]
     
 else
@@ -308,21 +310,25 @@ else
 log_cmd
 =
 [
-'
+            
+"
 log
-'
-'
+"
+            
+"
 -
 l
-'
-'
+"
+            
+"
 1
-'
-'
+"
+            
+"
 -
 T
-'
-                   
+"
+            
 '
 {
 person
@@ -353,25 +359,26 @@ s
 desc
 }
 '
+        
 ]
         
 patch_cmd
 =
 [
-'
+"
 log
-'
-'
+"
+"
 -
 l
-'
-'
+"
+"
 1
-'
-'
+"
+"
 -
 p
-'
+"
 ]
     
 #
@@ -405,10 +412,13 @@ rstrip
 )
     
 assert
+(
+        
 log
+        
 =
 =
-'
+"
 Testing
 McTesterson
 test
@@ -424,7 +434,9 @@ n
 nbut
 not
 baz
-'
+"
+    
+)
     
 #
 Verify
@@ -503,9 +515,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

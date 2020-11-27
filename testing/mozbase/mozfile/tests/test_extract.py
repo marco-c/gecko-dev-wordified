@@ -216,11 +216,11 @@ tmpdir
 .
 join
 (
-'
+"
 bundle
 .
 tar
-'
+"
 )
 .
 strpath
@@ -234,9 +234,9 @@ TarFile
 filename
 mode
 =
-'
+"
 w
-'
+"
 )
     
 for
@@ -359,11 +359,11 @@ tmpdir
 .
 join
 (
-'
+"
 bundle
 .
 zip
-'
+"
 )
 .
 strpath
@@ -377,9 +377,9 @@ ZipFile
 filename
 mode
 =
-'
+"
 w
-'
+"
 )
     
 for
@@ -509,9 +509,9 @@ tmpdir
 .
 mkdir
 (
-'
+"
 dest
-'
+"
 )
 .
 strpath
@@ -565,6 +565,7 @@ path
 .
 join
 (
+        
 os
 .
 path
@@ -573,14 +574,15 @@ dirname
 (
 __file__
 )
-'
+"
 files
-'
-'
+"
+"
 missing_file_attributes
 .
 zip
-'
+"
+    
 )
     
 assert
@@ -599,9 +601,9 @@ tmpdir
 .
 mkdir
 (
-'
+"
 dest
-'
+"
 )
 .
 strpath
@@ -625,18 +627,18 @@ path
 join
 (
 dest
-'
+"
 foo
-'
+"
 )
     
 with
 open
 (
 fname
-'
+"
 w
-'
+"
 )
 :
         
@@ -736,7 +738,7 @@ write
 (
 fd
 b
-'
+"
 This
 is
 not
@@ -744,7 +746,7 @@ a
 zipfile
 or
 tarball
-'
+"
 )
     
 os
@@ -824,9 +826,9 @@ tmpdir
 .
 mkdir
 (
-'
+"
 dest
-'
+"
 )
 .
 strpath
@@ -834,23 +836,23 @@ strpath
 ignore
 =
 (
-'
+"
 foo
-'
-'
+"
+"
 *
 *
 /
 fleem
 .
 txt
-'
-'
+"
+"
 read
 *
 .
 txt
-'
+"
 )
     
 mozfile
@@ -877,24 +879,24 @@ dest
 =
 =
 [
-'
+"
 bar
 .
 txt
-'
-'
+"
+"
 foo
 .
 txt
-'
+"
 ]
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

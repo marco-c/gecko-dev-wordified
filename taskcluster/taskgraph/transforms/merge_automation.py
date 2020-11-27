@@ -474,7 +474,6 @@ None
 :
             
 del
-(
 worker
 [
 "
@@ -485,7 +484,6 @@ bump
 info
 "
 ]
-)
         
 #
 Override
@@ -499,26 +497,31 @@ for
 field
 in
 [
+            
 "
 from
 -
 repo
 "
+            
 "
 from
 -
 branch
 "
+            
 "
 to
 -
 repo
 "
+            
 "
 to
 -
 branch
 "
+            
 "
 fetch
 -
@@ -526,6 +529,7 @@ version
 -
 from
 "
+        
 ]
 :
             

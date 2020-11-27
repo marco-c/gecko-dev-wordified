@@ -103,9 +103,9 @@ FileFinder
 (
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 )
     
@@ -118,9 +118,9 @@ join
 (
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 p
 )
@@ -132,12 +132,12 @@ finder
 .
 find
 (
-'
+"
 files
 /
 *
 *
-'
+"
 )
 ]
     
@@ -174,9 +174,9 @@ issue
 .
 linter
 =
-'
+"
 global_payload
-'
+"
     
 return
 issues
@@ -254,9 +254,9 @@ FileFinder
 (
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 )
     
@@ -269,9 +269,9 @@ join
 (
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 p
 )
@@ -283,12 +283,12 @@ finder
 .
 find
 (
-'
+"
 files
 /
 *
 *
-'
+"
 )
 ]
     
@@ -301,11 +301,12 @@ issues
 .
 append
 (
+        
 result
 .
 from_config
 (
-        
+            
 config
 path
 =
@@ -326,5 +327,7 @@ not
 -
 skipped
 "
+        
 )
+    
 )

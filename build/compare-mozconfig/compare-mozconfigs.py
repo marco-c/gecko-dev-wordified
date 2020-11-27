@@ -121,31 +121,31 @@ PLATFORMS
 =
 (
     
-'
+"
 linux32
-'
+"
     
-'
+"
 linux64
-'
+"
     
-'
+"
 macosx64
-'
+"
     
-'
+"
 win32
-'
+"
     
-'
+"
 win64
-'
+"
     
-'
+"
 win64
 -
 aarch64
-'
+"
 )
 log
 =
@@ -184,17 +184,17 @@ c
 return
 c
 [
-'
+"
 whitelist
-'
+"
 ]
 def
 verify_mozconfigs
 (
+    
 mozconfig_pair
 nightly_mozconfig_pair
 platform
-                      
 mozconfigWhitelist
 )
 :
@@ -323,7 +323,6 @@ diff_instance
 .
 compare
 (
-        
 mozconfig_lines
 nightly_mozconfig_lines
 )
@@ -361,9 +360,9 @@ line
 ]
 =
 =
-'
+"
 -
-'
+"
 or
 line
 [
@@ -371,9 +370,9 @@ line
 ]
 =
 =
-'
+"
 +
-'
+"
 )
 and
 len
@@ -394,9 +393,9 @@ clean_line
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
 :
                 
@@ -419,9 +418,9 @@ line
 ]
 =
 =
-'
+"
 -
-'
+"
 :
                 
 #
@@ -434,9 +433,9 @@ in
 diff
                 
 if
-'
+"
 +
-'
+"
 +
 line
 [
@@ -456,9 +455,9 @@ mozconfigWhitelist
 .
 get
 (
-'
+"
 release
-'
+"
 {
 }
 )
@@ -467,13 +466,11 @@ release
 if
 clean_line
 in
-\
-                            
 mozconfigWhitelist
 [
-'
+"
 release
-'
+"
 ]
 [
 platform
@@ -489,15 +486,15 @@ line
 ]
 =
 =
-'
+"
 +
-'
+"
 :
                 
 if
-'
+"
 -
-'
+"
 +
 line
 [
@@ -517,9 +514,9 @@ mozconfigWhitelist
 .
 get
 (
-'
+"
 nightly
-'
+"
 {
 }
 )
@@ -528,13 +525,11 @@ nightly
 if
 clean_line
 in
-\
-                            
 mozconfigWhitelist
 [
-'
+"
 nightly
-'
+"
 ]
 [
 platform
@@ -550,6 +545,7 @@ log
 .
 warning
 (
+                            
 "
 %
 s
@@ -561,22 +557,26 @@ s
 s
 !
 "
+                            
 %
 (
-                            
+                                
 clean_line
+                                
 platform
-                            
+                                
 mozconfigWhitelist
 [
-'
+"
 nightly
-'
+"
 ]
 [
 platform
 ]
+                            
 )
+                        
 )
             
 else
@@ -623,23 +623,24 @@ line
 ]
 =
 =
-'
+"
 -
-'
+"
 :
                 
 log
 .
 error
 (
+                    
 message
 %
 (
 mozconfig_name
-                                     
 nightly_mozconfig_name
 clean_line
 )
+                
 )
             
 else
@@ -649,14 +650,15 @@ log
 .
 error
 (
+                    
 message
 %
 (
 nightly_mozconfig_name
-                                     
 mozconfig_name
 clean_line
 )
+                
 )
             
 success
@@ -697,9 +699,9 @@ with
 open
 (
 path
-'
+"
 rb
-'
+"
 )
 as
 fh
@@ -727,9 +729,9 @@ path
 join
 (
 topsrcdir
-'
+"
 browser
-'
+"
 )
     
 whitelist
@@ -743,16 +745,15 @@ path
 join
 (
 app
-'
+"
 config
-'
-'
+"
+"
 mozconfigs
-'
-                                        
-'
+"
+"
 whitelist
-'
+"
 )
 )
     
@@ -790,12 +791,12 @@ log
 .
 info
 (
-'
+"
 Comparing
 platform
 %
 s
-'
+"
 %
 platform
 )
@@ -809,12 +810,12 @@ path
 join
 (
 app
-'
+"
 config
-'
-'
+"
+"
 mozconfigs
-'
+"
 platform
 )
         
@@ -827,9 +828,9 @@ path
 join
 (
 mozconfigs_path
-'
+"
 nightly
-'
+"
 )
         
 beta_path
@@ -841,9 +842,9 @@ path
 join
 (
 mozconfigs_path
-'
+"
 beta
-'
+"
 )
         
 release_path
@@ -855,9 +856,9 @@ path
 join
 (
 mozconfigs_path
-'
+"
 release
-'
+"
 )
         
 nightly_lines
@@ -906,12 +907,11 @@ whitelist_normalized
 =
 normalize_lines
 (
-            
 whitelist
 [
-'
+"
 nightly
-'
+"
 ]
 .
 get
@@ -944,7 +944,7 @@ log
 .
 error
 (
-'
+"
 extra
 line
 in
@@ -953,7 +953,7 @@ whitelist
 :
 %
 s
-'
+"
 %
 line
 )
@@ -966,32 +966,31 @@ log
 .
 info
 (
-'
+"
 Comparing
 beta
 and
 nightly
 mozconfigs
-'
+"
 )
         
 passed
 =
 verify_mozconfigs
 (
+            
 (
 beta_path
 beta_lines
 )
-                                   
 (
 nightly_path
 nightly_lines
 )
-                                   
 platform
-                                   
 whitelist
+        
 )
         
 if
@@ -1007,32 +1006,34 @@ log
 .
 info
 (
-'
+"
 Comparing
 release
 and
 nightly
 mozconfigs
-'
+"
 )
         
 passed
 =
 verify_mozconfigs
 (
+            
 (
 release_path
 release_lines
 )
-                                   
+            
 (
 nightly_path
 nightly_lines
 )
-                                   
+            
 platform
-                                   
+            
 whitelist
+        
 )
         
 if
@@ -1068,9 +1069,9 @@ buildconfig
 .
 substs
 [
-'
+"
 top_srcdir
-'
+"
 ]
         
 self
@@ -1086,9 +1087,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 logging

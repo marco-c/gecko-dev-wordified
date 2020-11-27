@@ -52,9 +52,9 @@ __file__
 )
 )
     
-'
+"
 external_tools
-'
+"
 )
 config
 =
@@ -66,17 +66,17 @@ local
 variable
 overwrite
     
-'
+"
 exes
-'
+"
 :
 {
         
-'
+"
 gittool
 .
 py
-'
+"
 :
 [
             
@@ -105,11 +105,11 @@ path
 join
 (
 external_tools_path
-'
+"
 gittool
 .
 py
-'
+"
 )
         
 ]
@@ -120,11 +120,11 @@ py
 mozcrash
 support
     
-'
+"
 download_symbols
-'
+"
 :
-'
+"
 ondemand
-'
+"
 }

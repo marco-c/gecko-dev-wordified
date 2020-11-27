@@ -79,6 +79,7 @@ path
 .
 abspath
 (
+    
 path
 .
 join
@@ -580,9 +581,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

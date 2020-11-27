@@ -83,11 +83,11 @@ TRY_AUTO_PARAMETERS
 =
 {
     
-'
+"
 optimize_strategies
-'
+"
 :
-'
+"
 taskgraph
 .
 optimize
@@ -95,41 +95,41 @@ optimize
 tryselect
 .
 bugbug_debug_disperse
-'
+"
     
-'
+"
 optimize_target_tasks
-'
+"
 :
 True
     
-'
+"
 target_tasks_method
-'
+"
 :
-'
+"
 try_auto
-'
+"
     
-'
+"
 test_manifest_loader
-'
+"
 :
-'
+"
 bugbug
-'
+"
     
-'
+"
 try_mode
-'
+"
 :
-'
+"
 try_auto
-'
+"
     
-'
+"
 try_task_config
-'
+"
 :
 {
 }
@@ -143,16 +143,16 @@ BaseTryParser
     
 name
 =
-'
+"
 auto
-'
+"
     
 common_groups
 =
 [
-'
+"
 push
-'
+"
 ]
     
 task_configs
@@ -192,26 +192,28 @@ arguments
 [
         
 [
+            
 [
-'
+"
 -
 -
 strategy
-'
+"
 ]
-         
+            
 {
-'
+                
+"
 default
-'
+"
 :
 None
-          
-'
+                
+"
 help
-'
+"
 :
-'
+"
 Override
 the
 default
@@ -220,9 +222,9 @@ strategy
 .
 Valid
 values
-'
-                  
-'
+"
+                
+"
 are
 the
 experimental
@@ -232,9 +234,9 @@ at
 the
 bottom
 of
-'
-                  
-'
+"
+                
+"
 taskcluster
 /
 taskgraph
@@ -245,9 +247,10 @@ __init__
 .
 py
 .
-'
-          
+"
+            
 }
+        
 ]
     
 ]
@@ -278,9 +281,9 @@ strategy
 :
             
 if
-'
+"
 :
-'
+"
 not
 in
 args
@@ -387,25 +390,31 @@ strategy
 def
 run
 (
+    
 message
 =
-'
+"
 {
 msg
 }
-'
+"
+    
 push
 =
 True
+    
 closed_tree
 =
 False
+    
 strategy
 =
 None
+    
 try_config
 =
 None
+    
 *
 *
 ignored
@@ -420,12 +429,12 @@ format
 (
 msg
 =
-'
+"
 Tasks
 automatically
 selected
 .
-'
+"
 )
     
 params
@@ -442,9 +451,9 @@ try_config
         
 params
 [
-'
+"
 try_task_config
-'
+"
 ]
 =
 try_config
@@ -455,9 +464,9 @@ strategy
         
 params
 [
-'
+"
 optimize_strategies
-'
+"
 ]
 =
 strategy
@@ -466,15 +475,15 @@ task_config
 =
 {
         
-'
+"
 version
-'
+"
 :
 2
         
-'
+"
 parameters
-'
+"
 :
 params
     
@@ -483,18 +492,19 @@ params
 return
 push_to_try
 (
-'
+        
+"
 auto
-'
+"
 msg
 try_task_config
 =
 task_config
-                       
 push
 =
 push
 closed_tree
 =
 closed_tree
+    
 )

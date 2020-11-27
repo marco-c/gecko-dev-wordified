@@ -113,7 +113,7 @@ unexpected
 test
 results
 grouped
-       
+    
 together
 in
 a
@@ -238,11 +238,13 @@ message_handler
 .
 register_message_handlers
 (
+            
 "
 show_logs
 "
-{
             
+{
+                
 "
 on
 "
@@ -250,7 +252,7 @@ on
 self
 .
 _enable_show_logs
-            
+                
 "
 off
 "
@@ -258,8 +260,9 @@ off
 self
 .
 _disable_show_logs
-        
+            
 }
+        
 )
         
 #
@@ -318,17 +321,18 @@ line_width
 =
 int
 (
+                    
 subprocess
 .
 check_output
 (
 [
-'
+"
 stty
-'
-'
+"
+"
 size
-'
+"
 ]
 )
 .
@@ -338,6 +342,7 @@ split
 [
 1
 ]
+                
 )
             
 else
@@ -375,51 +380,51 @@ expected
 =
 {
             
-'
+"
 OK
-'
+"
 :
 0
             
-'
+"
 PASS
-'
+"
 :
 0
             
-'
+"
 FAIL
-'
+"
 :
 0
             
-'
+"
 PRECONDITION_FAILED
-'
+"
 :
 0
             
-'
+"
 ERROR
-'
+"
 :
 0
             
-'
+"
 TIMEOUT
-'
+"
 :
 0
             
-'
+"
 SKIP
-'
+"
 :
 0
             
-'
+"
 CRASH
-'
+"
 :
 0
         
@@ -431,51 +436,51 @@ unexpected_tests
 =
 {
             
-'
+"
 OK
-'
+"
 :
 [
 ]
             
-'
+"
 PASS
-'
+"
 :
 [
 ]
             
-'
+"
 FAIL
-'
+"
 :
 [
 ]
             
-'
+"
 PRECONDITION_FAILED
-'
+"
 :
 [
 ]
             
-'
+"
 ERROR
-'
+"
 :
 [
 ]
             
-'
+"
 TIMEOUT
-'
+"
 :
 [
 ]
             
-'
+"
 CRASH
-'
+"
 :
 [
 ]
@@ -608,6 +613,7 @@ stderr
 .
 write
 (
+                
 "
 GroupingFormatter
 :
@@ -616,7 +622,7 @@ not
 get
 terminal
 "
-                             
+                
 "
 control
 characters
@@ -628,6 +634,7 @@ n
 "
 %
 exception
+            
 )
             
 return
@@ -659,7 +666,6 @@ return
         
 return
 (
-(
 self
 .
 move_up
@@ -669,18 +675,16 @@ self
 clear_eol
 )
 *
-                
 self
 .
 current_display
 .
 count
 (
-'
+"
 \
 n
-'
-)
+"
 )
     
 def
@@ -839,7 +843,10 @@ sys
 maxsize
             
 return
+(
+                
 new_display
+                
 +
 (
 "
@@ -854,7 +861,7 @@ indent
 .
 join
 (
-                
+                    
 val
 [
 :
@@ -870,12 +877,16 @@ running_tests
 values
 (
 )
+                
 )
+                
 +
 "
 \
 n
 "
+            
+)
         
 else
 :
@@ -906,6 +917,7 @@ number_of_tests
 =
 sum
 (
+            
 len
 (
 tests
@@ -924,6 +936,7 @@ tests
 "
 ]
 )
+        
 )
         
 self
@@ -962,9 +975,9 @@ n
 data
 [
 u
-'
+"
 source
-'
+"
 ]
         
 else
@@ -986,16 +999,19 @@ n
 "
 %
 (
+                
 self
 .
 number_of_tests
+                
 data
 [
 u
-'
+"
 source
-'
+"
 ]
+            
 )
     
 def
@@ -1012,17 +1028,17 @@ running_tests
 [
 data
 [
-'
+"
 thread
-'
+"
 ]
 ]
 =
 data
 [
-'
+"
 test
-'
+"
 ]
         
 return
@@ -1033,7 +1049,6 @@ generate_output
 text
 =
 None
-                                    
 new_display
 =
 self
@@ -1053,14 +1068,12 @@ indent
 :
         
 assert
-(
 len
 (
 lines
 )
 >
 0
-)
         
 output
 =
@@ -1146,17 +1159,14 @@ output
 def
 get_lines_for_unexpected_result
 (
+        
 self
-                                        
 test_name
-                                        
 status
-                                        
 expected
-                                        
 message
-                                        
 stack
+    
 )
 :
         
@@ -1192,11 +1202,11 @@ test_name
 .
 encode
 (
-'
+"
 unicode
 -
 escape
-'
+"
 )
 .
 decode
@@ -1373,20 +1383,23 @@ s
 "
 %
 (
+                
 data
 [
 "
 expected
 "
 ]
-                                                                   
+                
 known_intermittent
+            
 )
             
 lines
 +
 =
 [
+                
 u
 "
 %
@@ -1398,14 +1411,16 @@ s
 %
 s
 "
+                
 %
 (
+                    
 status
-                                      
+                    
 expected
-                                      
+                    
 test
-                                      
+                    
 (
 "
 %
@@ -1422,7 +1437,9 @@ None
 else
 "
 "
+                
 )
+            
 ]
         
 output
@@ -1485,9 +1502,9 @@ subtest
 .
 get
 (
-'
+"
 subtest
-'
+"
 None
 )
                 
@@ -1495,9 +1512,9 @@ subtest
 .
 get
 (
-'
+"
 status
-'
+"
 None
 )
                 
@@ -1505,9 +1522,9 @@ subtest
 .
 get
 (
-'
+"
 expected
-'
+"
 None
 )
                 
@@ -1515,13 +1532,14 @@ subtest
 .
 get
 (
-'
+"
 message
-'
+"
 None
 )
                 
 stack
+            
 )
         
 def
@@ -1673,9 +1691,9 @@ separate
 .
             
 if
-'
+"
 stack
-'
+"
 not
 in
 failure
@@ -1700,9 +1718,9 @@ failures_by_stack
 [
 failure
 [
-'
+"
 stack
-'
+"
 ]
 ]
 .
@@ -1798,7 +1816,6 @@ test_name
 )
         
 if
-(
 "
 expected
 "
@@ -1809,7 +1826,6 @@ test_status
 not
 in
 known_intermittent_statuses
-)
 :
             
 had_unexpected_test_result
@@ -1830,9 +1846,9 @@ running_tests
 [
 data
 [
-'
+"
 thread
-'
+"
 ]
 ]
         
@@ -1889,6 +1905,7 @@ self
 .
 generate_output
 (
+                    
 text
 =
 "
@@ -1899,10 +1916,10 @@ n
 "
 %
 test_name
-                                            
 new_display
 =
 new_display
+                
 )
         
 if
@@ -1986,9 +2003,9 @@ data
 .
 get
 (
-'
+"
 stack
-'
+"
 "
 "
 )
@@ -2002,9 +2019,9 @@ data
 .
 get
 (
-'
+"
 stack
-'
+"
 None
 )
         
@@ -2044,9 +2061,9 @@ data
 .
 get
 (
-'
+"
 expected
-'
+"
 None
 )
                 
@@ -2054,13 +2071,14 @@ data
 .
 get
 (
-'
+"
 message
-'
+"
 None
 )
                 
 stack
+            
 )
             
 output
@@ -2100,9 +2118,10 @@ self
 .
 get_output_for_unexpected_subtests
 (
+                
 test_name
-                                                              
 subtest_failures
+            
 )
         
 self
@@ -2134,7 +2153,6 @@ data
 :
         
 if
-(
 "
 expected
 "
@@ -2149,17 +2167,17 @@ status
 ]
 not
 in
-                
 data
 .
 get
 (
+            
 "
 known_intermittent
 "
 [
 ]
-)
+        
 )
 :
             
@@ -2289,6 +2307,7 @@ n
 self
 .
 completed_tests
+            
 (
 self
 .
@@ -2302,6 +2321,7 @@ start_time
 1000
 .
 0
+        
 )
         
 output
@@ -2338,14 +2358,16 @@ values
 (
 )
 )
+            
 self
 .
 expected
 [
-'
+"
 SKIP
-'
+"
 ]
+        
 )
         
 if
@@ -2379,6 +2401,7 @@ self
 .
 known_intermittent_results
 )
+            
 )
         
 def
@@ -2440,9 +2463,9 @@ u
 crashed
 unexpectedly
 "
-'
+"
 CRASH
-'
+"
 )
         
 output
@@ -2456,9 +2479,9 @@ had
 errors
 unexpectedly
 "
-'
+"
 ERROR
-'
+"
 )
         
 output
@@ -2471,9 +2494,9 @@ u
 failed
 unexpectedly
 "
-'
+"
 FAIL
-'
+"
 )
         
 output
@@ -2481,16 +2504,17 @@ output
 =
 text_for_unexpected_list
 (
+            
 u
 "
 precondition
 failed
 unexpectedly
 "
-                                           
-'
+"
 PRECONDITION_FAILED
-'
+"
+        
 )
         
 output
@@ -2504,9 +2528,9 @@ timed
 out
 unexpectedly
 "
-'
+"
 TIMEOUT
-'
+"
 )
         
 output
@@ -2519,9 +2543,9 @@ u
 passed
 unexpectedly
 "
-'
+"
 PASS
-'
+"
 )
         
 output
@@ -2534,9 +2558,9 @@ u
 unexpectedly
 okay
 "
-'
+"
 OK
-'
+"
 )
         
 num_with_failing_subtests
@@ -2556,6 +2580,7 @@ output
 +
 =
 (
+                
 u
 "
 \
@@ -2570,9 +2595,10 @@ results
 \
 n
 "
-                       
+                
 %
 num_with_failing_subtests
+            
 )
         
 output
@@ -2651,9 +2677,11 @@ self
 .
 get_lines_for_known_intermittents
 (
+                
 self
 .
 known_intermittent_results
+            
 )
             
 output
@@ -2698,9 +2726,9 @@ data
 if
 data
 [
-'
+"
 thread
-'
+"
 ]
 not
 in
@@ -2719,9 +2747,9 @@ running_tests
 [
 data
 [
-'
+"
 thread
-'
+"
 ]
 ]
         
@@ -2735,9 +2763,9 @@ test_name
 =
 data
 [
-'
+"
 data
-'
+"
 ]
 +
 "
@@ -2758,9 +2786,9 @@ data
 .
 get
 (
-'
+"
 component
-'
+"
 )
 :
             
@@ -2778,21 +2806,21 @@ s
 (
 data
 [
-'
+"
 component
-'
+"
 ]
 data
 [
-'
+"
 level
-'
+"
 ]
 data
 [
-'
+"
 message
-'
+"
 ]
 )
         
@@ -2811,15 +2839,15 @@ s
 (
 data
 [
-'
+"
 level
-'
+"
 ]
 data
 [
-'
+"
 message
-'
+"
 ]
 )
         
@@ -2874,16 +2902,16 @@ indicated
 if
 data
 [
-'
+"
 message
-'
+"
 ]
 .
 startswith
 (
-'
+"
 STDERR
-'
+"
 )
 :
             
@@ -2905,18 +2933,18 @@ n
 if
 data
 [
-'
+"
 level
-'
+"
 ]
 in
 (
-'
+"
 CRITICAL
-'
-'
+"
+"
 ERROR
-'
+"
 )
 :
             

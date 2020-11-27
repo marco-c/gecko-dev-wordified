@@ -138,8 +138,6 @@ static_element
 static_element
 remove_element_by_tag_name
 =
-\
-    
 "
 "
 "

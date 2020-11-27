@@ -844,6 +844,7 @@ tag
 self
 )
 :
+        
 raise
 NotImplementedError
     
@@ -868,6 +869,7 @@ as_uint32
 self
 )
 :
+        
 raise
 NotImplementedError
     
@@ -915,6 +917,7 @@ as_address
 self
 )
 :
+        
 raise
 NotImplementedError
 class
@@ -1017,11 +1020,11 @@ TAG_SHIFT
     
 TAG_MAX_DOUBLE
 =
-0x1fff0
+0x1FFF0
     
 TAG_TYPE_MASK
 =
-0x0000f
+0x0000F
     
 def
 tag
@@ -1073,6 +1076,7 @@ as_uint32
 self
 )
 :
+        
 return
 int
 (
@@ -1098,6 +1102,7 @@ as_address
 self
 )
 :
+        
 return
 gdb
 .
@@ -1124,15 +1129,15 @@ TAG_SHIFT
     
 TAG_CLEAR
 =
-0xffff0000
+0xFFFF0000
     
 PAYLOAD_MASK
 =
-0xffffffff
+0xFFFFFFFF
     
 TAG_TYPE_MASK
 =
-0x0000000f
+0x0000000F
     
 def
 tag
@@ -1180,6 +1185,7 @@ as_uint32
 self
 )
 :
+        
 return
 int
 (
@@ -1198,6 +1204,7 @@ as_address
 self
 )
 :
+        
 return
 gdb
 .
@@ -1257,9 +1264,9 @@ gdb
 .
 lookup_type
 (
-'
+"
 JSValueType
-'
+"
 )
 )
         
@@ -1323,11 +1330,11 @@ val
 return
 d
 [
-'
+"
 JSValueType
 :
 :
-'
+"
 +
 key
 ]
@@ -1338,9 +1345,9 @@ DOUBLE
 =
 get
 (
-'
+"
 JSVAL_TYPE_DOUBLE
-'
+"
 )
         
 self
@@ -1349,9 +1356,9 @@ INT32
 =
 get
 (
-'
+"
 JSVAL_TYPE_INT32
-'
+"
 )
         
 self
@@ -1360,9 +1367,9 @@ UNDEFINED
 =
 get
 (
-'
+"
 JSVAL_TYPE_UNDEFINED
-'
+"
 )
         
 self
@@ -1371,9 +1378,9 @@ BOOLEAN
 =
 get
 (
-'
+"
 JSVAL_TYPE_BOOLEAN
-'
+"
 )
         
 self
@@ -1382,9 +1389,9 @@ MAGIC
 =
 get
 (
-'
+"
 JSVAL_TYPE_MAGIC
-'
+"
 )
         
 self
@@ -1393,9 +1400,9 @@ STRING
 =
 get
 (
-'
+"
 JSVAL_TYPE_STRING
-'
+"
 )
         
 self
@@ -1404,9 +1411,9 @@ SYMBOL
 =
 get
 (
-'
+"
 JSVAL_TYPE_SYMBOL
-'
+"
 )
         
 self
@@ -1415,9 +1422,9 @@ BIGINT
 =
 get
 (
-'
+"
 JSVAL_TYPE_BIGINT
-'
+"
 )
         
 self
@@ -1426,9 +1433,9 @@ NULL
 =
 get
 (
-'
+"
 JSVAL_TYPE_NULL
-'
+"
 )
         
 self
@@ -1437,9 +1444,9 @@ OBJECT
 =
 get
 (
-'
+"
 JSVAL_TYPE_OBJECT
-'
+"
 )
         
 #
@@ -1481,9 +1488,9 @@ gdb
 .
 lookup_type
 (
-'
+"
 JSWhyMagic
-'
+"
 )
 )
         
@@ -1558,12 +1565,12 @@ else
 Nunbox
 pretty_printer
 (
-'
+"
 JS
 :
 :
 Value
-'
+"
 )
 class
 JSValue
@@ -1646,9 +1653,9 @@ boxer
 (
 value
 [
-'
+"
 asBits_
-'
+"
 ]
 self
 .
@@ -1684,14 +1691,14 @@ UNDEFINED
 :
             
 return
-'
+"
 JS
 :
 :
 UndefinedValue
 (
 )
-'
+"
         
 if
 tag
@@ -1705,14 +1712,14 @@ NULL
 :
             
 return
-'
+"
 JS
 :
 :
 NullValue
 (
 )
-'
+"
         
 if
 tag
@@ -1726,7 +1733,7 @@ BOOLEAN
 :
             
 return
-'
+"
 JS
 :
 :
@@ -1735,7 +1742,7 @@ BooleanValue
 %
 s
 )
-'
+"
 %
 str
 (
@@ -1795,7 +1802,7 @@ magic_names
 :
                 
 return
-'
+"
 JS
 :
 :
@@ -1804,7 +1811,7 @@ MagicValue
 %
 s
 )
-'
+"
 %
 (
 self
@@ -1821,7 +1828,7 @@ else
 :
                 
 return
-'
+"
 JS
 :
 :
@@ -1830,7 +1837,7 @@ MagicValue
 %
 d
 )
-'
+"
 %
 (
 value
@@ -1875,7 +1882,7 @@ signbit
 signbit
             
 return
-'
+"
 JS
 :
 :
@@ -1884,7 +1891,7 @@ Int32Value
 %
 s
 )
-'
+"
 %
 value
         
@@ -1900,7 +1907,7 @@ DOUBLE
 :
             
 return
-'
+"
 JS
 :
 :
@@ -1909,7 +1916,7 @@ DoubleValue
 %
 s
 )
-'
+"
 %
 self
 .
@@ -2021,27 +2028,27 @@ BIGINT
 :
             
 return
-'
+"
 JS
 :
 :
 BigIntValue
 (
 )
-'
+"
         
 else
 :
             
 value
 =
-'
+"
 unrecognized
 !
-'
+"
         
 return
-'
+"
 JS
 :
 :
@@ -2050,7 +2057,7 @@ Value
 %
 s
 )
-'
+"
 %
 (
 value

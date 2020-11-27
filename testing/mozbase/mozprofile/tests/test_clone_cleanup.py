@@ -144,19 +144,17 @@ profile
 Profile
 (
 path
-                      
 preferences
 =
 {
-'
+"
 foo
-'
+"
 :
-'
+"
 bar
-'
+"
 }
-                      
 restore
 =
 False
@@ -173,11 +171,11 @@ join
 profile
 .
 profile
-'
+"
 user
 .
 js
-'
+"
 )
     
 assert
@@ -299,7 +297,6 @@ profile
 restore
 =
 True
-                          
 ignore
 =
 _feedback
@@ -484,9 +481,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

@@ -77,11 +77,11 @@ PARAMS
 =
 {
     
-'
+"
 head_repository
-'
+"
 :
-'
+"
 https
 :
 /
@@ -95,21 +95,21 @@ org
 mozilla
 -
 central
-'
+"
     
-'
+"
 head_rev
-'
+"
 :
-'
+"
 a14f88a9af7a
-'
+"
 }
 FILES_CHANGED
 =
 [
     
-'
+"
 devtools
 /
 client
@@ -119,9 +119,9 @@ debugger
 index
 .
 html
-'
+"
     
-'
+"
 devtools
 /
 client
@@ -137,9 +137,9 @@ eyedropper
 events
 .
 js
-'
+"
     
-'
+"
 devtools
 /
 client
@@ -151,9 +151,9 @@ test
 head
 .
 js
-'
+"
     
-'
+"
 devtools
 /
 client
@@ -163,9 +163,9 @@ themes
 rules
 .
 css
-'
+"
     
-'
+"
 devtools
 /
 client
@@ -177,9 +177,9 @@ test
 browser_webconsole_output_06
 .
 js
-'
+"
     
-'
+"
 devtools
 /
 server
@@ -193,9 +193,9 @@ eye
 dropper
 .
 js
-'
+"
     
-'
+"
 devtools
 /
 server
@@ -205,9 +205,9 @@ actors
 object
 .
 js
-'
+"
     
-'
+"
 docshell
 /
 base
@@ -215,9 +215,9 @@ base
 nsDocShell
 .
 cpp
-'
+"
     
-'
+"
 dom
 /
 tests
@@ -229,9 +229,9 @@ general
 test_contentViewer_overrideDPPX
 .
 html
-'
+"
     
-'
+"
 taskcluster
 /
 scripts
@@ -243,7 +243,7 @@ build
 l10n
 .
 sh
-'
+"
 ]
 class
 FakeResponse
@@ -259,6 +259,7 @@ self
 with
 open
 (
+            
 os
 .
 path
@@ -273,12 +274,13 @@ dirname
 (
 __file__
 )
-'
+"
 automationrelevance
 .
 json
-'
+"
 )
+        
 )
 as
 f
@@ -433,26 +435,31 @@ assertEqual
             
 sorted
 (
+                
 files_changed
 .
 get_changed_files
 (
+                    
 PARAMS
 [
-'
+"
 head_repository
-'
+"
 ]
 PARAMS
 [
-'
+"
 head_rev
-'
+"
 ]
+                
 )
+            
 )
             
 FILES_CHANGED
+        
 )
 class
 TestCheck
@@ -477,16 +484,17 @@ get_changed_files
             
 PARAMS
 [
-'
+"
 head_repository
-'
+"
 ]
 PARAMS
 [
-'
+"
 head_rev
-'
+"
 ]
+        
 ]
 =
 FILES_CHANGED
@@ -588,9 +596,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

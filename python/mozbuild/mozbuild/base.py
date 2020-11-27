@@ -274,9 +274,9 @@ hasattr
 os
 .
 path
-'
+"
 samefile
-'
+"
 )
 and
 os
@@ -284,9 +284,9 @@ os
 name
 !
 =
-'
+"
 nt
-'
+"
 :
         
 return
@@ -318,14 +318,13 @@ path1
 )
 =
 =
-\
-        
 os
 .
 path
 .
 normcase
 (
+        
 os
 .
 path
@@ -334,6 +333,7 @@ realpath
 (
 path2
 )
+    
 )
 class
 BadEnvironmentException
@@ -512,7 +512,7 @@ self
 :
         
 return
-'
+"
 Binary
 expected
 at
@@ -522,7 +522,7 @@ does
 not
 exist
 .
-'
+"
 .
 format
 (
@@ -539,14 +539,13 @@ self
 :
         
 return
-'
+"
 It
 looks
 like
 your
 program
 isn
-\
 '
 t
 built
@@ -564,7 +563,7 @@ to
 build
 it
 .
-'
+"
 class
 MozbuildObject
 (
@@ -641,22 +640,29 @@ easily
 def
 __init__
 (
+        
 self
+        
 topsrcdir
+        
 settings
+        
 log_manager
+        
 topobjdir
 =
 None
-                 
+        
 mozconfig
 =
 MozconfigLoader
 .
 AUTODETECT
+        
 virtualenv_name
 =
 None
+    
 )
 :
         
@@ -785,18 +791,17 @@ _virtualenv_name
 virtualenv_name
 or
 (
-            
-'
+"
 init_py3
-'
+"
 if
 six
 .
 PY3
 else
-'
+"
 init
-'
+"
 )
         
 self
@@ -1063,16 +1068,16 @@ io
 open
 (
 path
-'
+"
 rt
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 )
             
@@ -1082,9 +1087,9 @@ info
 .
 get
 (
-'
+"
 topsrcdir
-'
+"
 )
             
 topobjdir
@@ -1104,9 +1109,9 @@ info
 .
 get
 (
-'
+"
 mozconfig
-'
+"
 )
             
 return
@@ -1147,11 +1152,11 @@ path
 join
 (
 dir_path
-'
+"
 mozinfo
 .
 json
-'
+"
 )
             
 if
@@ -1210,21 +1215,23 @@ path
 .
 join
 (
+                
 dir_path
-'
+"
 python
-'
-'
+"
+"
 mozbuild
-'
-'
+"
+"
 mozbuild
-'
-'
+"
+"
 base
 .
 py
-'
+"
+            
 )
             
 if
@@ -1355,7 +1362,7 @@ raise
 BuildEnvironmentNotFoundException
 (
                 
-'
+"
 Could
 not
 find
@@ -1366,7 +1373,8 @@ or
 build
 environment
 .
-'
+"
+            
 )
         
 topsrcdir
@@ -1409,14 +1417,14 @@ raise
 BadEnvironmentException
 (
                     
-'
+"
 The
 object
 directory
 appears
-'
+"
                     
-'
+"
 to
 be
 the
@@ -1432,17 +1440,18 @@ s
 .
 This
 build
-'
+"
                     
-'
+"
 configuration
 is
 not
 supported
 .
-'
+"
 %
 topsrcdir
+                
 )
         
 #
@@ -1472,19 +1481,20 @@ one
 return
 cls
 (
+            
 topsrcdir
 None
 None
 topobjdir
 =
 topobjdir
-                   
 mozconfig
 =
 mozconfig
 *
 *
 kwargs
+        
 )
     
 def
@@ -1503,9 +1513,9 @@ self
 .
 mozconfig
 [
-'
+"
 topobjdir
-'
+"
 ]
 or
 default
@@ -1519,9 +1529,9 @@ return
 None
         
 if
-'
+"
 CONFIG_GUESS
-'
+"
 in
 topobjdir
 :
@@ -1532,10 +1542,9 @@ topobjdir
 .
 replace
 (
-'
+"
 CONFIG_GUESS
-'
-                                          
+"
 self
 .
 resolve_config_guess
@@ -1672,22 +1681,22 @@ io
 open
 (
 dep_file
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 newline
 =
-'
+"
 \
 n
-'
+"
 )
 as
 fh
@@ -1870,22 +1879,22 @@ io
 open
 (
 backend_file
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 newline
 =
-'
+"
 \
 n
-'
+"
 )
 as
 fh
@@ -1934,12 +1943,12 @@ True
         
 dep_file
 =
-'
+"
 %
 s
 .
 in
-'
+"
 %
 backend_file
         
@@ -1980,11 +1989,12 @@ resolve_mozconfig_topobjdir
                 
 default
 =
-'
+"
 obj
 -
 CONFIG_GUESS
-'
+"
+            
 )
         
 return
@@ -2035,10 +2045,9 @@ join
 self
 .
 topobjdir
-'
+"
 _virtualenvs
-'
-                             
+"
 self
 .
 _virtualenv_name
@@ -2057,17 +2066,16 @@ join
 self
 .
 topsrcdir
-'
+"
 build
-'
-                             
-'
+"
+"
 build_virtualenv_packages
 .
 txt
-'
+"
 )
-                
+            
 )
         
 return
@@ -2174,9 +2182,9 @@ env
             
 env
 [
-'
+"
 MOZCONFIG
-'
+"
 ]
 =
 path
@@ -2293,6 +2301,7 @@ tuple
 (
                     
 a
+                    
 if
 not
 isinstance
@@ -2306,11 +2315,11 @@ or
 a
 !
 =
-'
+"
 -
 -
 help
-'
+"
                     
 else
 self
@@ -2335,17 +2344,20 @@ self
 .
 depends_impl
 (
+                    
 *
 args
 *
 *
 kwargs
+                
 )
         
 sandbox
 =
 ReducedConfigureSandbox
 (
+            
 {
 }
 environ
@@ -2354,22 +2366,22 @@ env
 argv
 =
 [
-'
+"
 mach
-'
-'
+"
+"
 -
 -
 help
-'
+"
 ]
-                                          
 stdout
 =
 out
 stderr
 =
 out
+        
 )
         
 base_dir
@@ -2381,14 +2393,14 @@ path
 join
 (
 topsrcdir
-'
+"
 build
-'
-'
+"
+"
 moz
 .
 configure
-'
+"
 )
         
 try
@@ -2405,11 +2417,11 @@ path
 join
 (
 base_dir
-'
+"
 init
 .
 configure
-'
+"
 )
 )
             
@@ -2430,9 +2442,9 @@ _value_for
 (
 sandbox
 [
-'
+"
 mozconfig_options
-'
+"
 ]
 )
             
@@ -2445,9 +2457,9 @@ _value_for
 (
 sandbox
 [
-'
+"
 mozconfig
-'
+"
 ]
 )
                 
@@ -2457,9 +2469,9 @@ _value_for
 (
 sandbox
 [
-'
+"
 real_target
-'
+"
 ]
 )
             
@@ -2507,10 +2519,11 @@ environ
 .
 get
 (
-'
+"
 MOZCONFIG
-'
+"
 )
+        
 )
     
 property
@@ -2630,11 +2643,11 @@ join
 self
 .
 topobjdir
-'
+"
 config
 .
 status
-'
+"
 )
         
 if
@@ -2662,7 +2675,8 @@ config_status
 raise
 BuildEnvironmentNotFoundException
 (
-'
+                
+"
 config
 .
 status
@@ -2672,7 +2686,8 @@ available
 Run
 configure
 .
-'
+"
+            
 )
         
 try
@@ -2682,13 +2697,13 @@ self
 .
 _config_environment
 =
-\
-                
 ConfigEnvironment
 .
 from_config_status
 (
+                
 config_status
+            
 )
         
 except
@@ -2701,10 +2716,11 @@ six
 .
 raise_from
 (
+                
 BuildEnvironmentNotFoundException
 (
-                
-'
+                    
+"
 config
 .
 status
@@ -2716,9 +2732,12 @@ broken
 Run
 configure
 .
-'
+"
+                
 )
+                
 e
+            
 )
         
 return
@@ -2777,9 +2796,9 @@ join
 self
 .
 topobjdir
-'
+"
 dist
-'
+"
 )
     
 property
@@ -2801,12 +2820,12 @@ join
 self
 .
 topobjdir
-'
+"
 dist
-'
-'
+"
+"
 bin
-'
+"
 )
     
 property
@@ -2828,12 +2847,12 @@ join
 self
 .
 topobjdir
-'
+"
 dist
-'
-'
+"
+"
 include
-'
+"
 )
     
 property
@@ -2855,10 +2874,10 @@ join
 self
 .
 topobjdir
-'
+"
 .
 mozbuild
-'
+"
 )
     
 property
@@ -2898,9 +2917,9 @@ mozinfo
 .
 info
 [
-'
+"
 bits
-'
+"
 ]
 )
         
@@ -2950,9 +2969,9 @@ return
 platform_name
 bits
 +
-'
+"
 bit
-'
+"
     
 memoized_property
     
@@ -2963,9 +2982,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Get
 a
 mozversioncontrol
@@ -2979,9 +2998,9 @@ top
 source
 directory
 .
-'
-'
-'
+"
+"
+"
         
 #
 We
@@ -3049,9 +3068,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Force
 config
 .
@@ -3073,9 +3092,9 @@ self
 config_environment
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -3091,19 +3110,20 @@ config_environment
 def
 mozbuild_reader
 (
+        
 self
 config_mode
 =
-'
+"
 build
-'
+"
 vcs_revision
 =
 None
-                        
 vcs_check_clean
 =
 True
+    
 )
 :
         
@@ -3331,19 +3351,15 @@ mozpack
 .
 files
 import
-(
-            
 MercurialRevisionFinder
-        
-)
         
 if
 config_mode
 =
 =
-'
+"
 build
-'
+"
 :
             
 config
@@ -3356,9 +3372,9 @@ elif
 config_mode
 =
 =
-'
+"
 empty
-'
+"
 :
             
 config
@@ -3376,14 +3392,14 @@ else
 raise
 ValueError
 (
-'
+"
 unknown
 config_mode
 value
 :
 %
 s
-'
+"
 %
 config_mode
 )
@@ -3420,9 +3436,9 @@ sparse_checkout_present
             
 vcs_revision
 =
-'
+"
 .
-'
+"
         
 if
 vcs_revision
@@ -3474,15 +3490,15 @@ repo
 name
 !
 =
-'
+"
 hg
-'
+"
 :
                 
 raise
 Exception
 (
-'
+"
 do
 not
 support
@@ -3492,9 +3508,8 @@ mode
 for
 %
 s
-'
+"
 %
-                                
 repo
 .
 name
@@ -3504,9 +3519,9 @@ if
 vcs_revision
 =
 =
-'
+"
 .
-'
+"
 and
 vcs_check_clean
 :
@@ -3527,16 +3542,17 @@ working_directory_clean
 raise
 Exception
 (
-'
+                            
+"
 working
 directory
 is
 not
 clean
 ;
-'
-                                        
-'
+"
+                            
+"
 refusing
 to
 use
@@ -3545,23 +3561,25 @@ VCS
 -
 based
 finder
-'
+"
+                        
 )
             
 finder
 =
 MercurialRevisionFinder
 (
+                
 self
 .
 topsrcdir
 rev
 =
 vcs_revision
-                                             
 recognize_repo_paths
 =
 True
+            
 )
         
 return
@@ -3653,9 +3671,9 @@ self
 substs
             
 if
-'
+"
 PYTHON3
-'
+"
 in
 subst
 :
@@ -3669,16 +3687,16 @@ map
 int
 subst
 [
-'
+"
 PYTHON3_VERSION
-'
+"
 ]
 .
 split
 (
-'
+"
 .
-'
+"
 )
 )
 )
@@ -3686,9 +3704,9 @@ split
 return
 subst
 [
-'
+"
 PYTHON3
-'
+"
 ]
 version
         
@@ -3748,17 +3766,17 @@ get_binary_path
 self
 what
 =
-'
+"
 app
-'
+"
 validate_exists
 =
 True
 where
 =
-'
+"
 default
-'
+"
 )
 :
         
@@ -3880,14 +3898,14 @@ where
 not
 in
 (
-'
+"
 default
-'
-'
+"
+"
 staged
 -
 package
-'
+"
 )
 :
             
@@ -3923,11 +3941,11 @@ if
 where
 =
 =
-'
+"
 staged
 -
 package
-'
+"
 :
             
 stem
@@ -3941,28 +3959,28 @@ join
 stem
 substs
 [
-'
+"
 MOZ_APP_NAME
-'
+"
 ]
 )
         
 if
 substs
 [
-'
+"
 OS_ARCH
-'
+"
 ]
 =
 =
-'
+"
 Darwin
-'
+"
 and
-'
+"
 MOZ_MACBUNDLE_NAME
-'
+"
 in
 substs
 :
@@ -3978,26 +3996,25 @@ join
 stem
 substs
 [
-'
+"
 MOZ_MACBUNDLE_NAME
-'
+"
 ]
-'
+"
 Contents
-'
-                                
-'
+"
+"
 MacOS
-'
+"
 )
         
 elif
 where
 =
 =
-'
+"
 default
-'
+"
 :
             
 stem
@@ -4009,9 +4026,9 @@ path
 join
 (
 stem
-'
+"
 bin
-'
+"
 )
         
 leaf
@@ -4023,26 +4040,28 @@ leaf
 (
 substs
 [
-'
+"
 MOZ_APP_NAME
-'
+"
 ]
 if
 what
 =
 =
-'
+"
 app
-'
+"
 else
 what
 )
 +
 substs
 [
-'
+            
+"
 BIN_SUFFIX
-'
+"
+        
 ]
         
 path
@@ -4154,9 +4173,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_NOSPAM
-'
+"
 )
         
 if
@@ -4175,9 +4194,9 @@ platform
 .
 startswith
 (
-'
+"
 darwin
-'
+"
 )
 :
                 
@@ -4185,11 +4204,11 @@ notifier
 =
 which
 (
-'
+"
 terminal
 -
 notifier
-'
+"
 )
                 
 if
@@ -4200,16 +4219,17 @@ notifier
 raise
 Exception
 (
-'
+                        
+"
 Install
 terminal
 -
 notifier
 to
 get
-'
-                                    
-'
+"
+                        
+"
 a
 notification
 when
@@ -4217,42 +4237,52 @@ the
 build
 finishes
 .
-'
+"
+                    
 )
                 
 self
 .
 run_process
 (
+                    
 [
+                        
 notifier
-'
+                        
+"
 -
 title
-'
-                                  
-'
+"
+                        
+"
 Mozilla
 Build
 System
-'
-'
+"
+                        
+"
 -
 group
-'
-'
+"
+                        
+"
 mozbuild
-'
-                                  
-'
+"
+                        
+"
 -
 message
-'
+"
+                        
 msg
+                    
 ]
+                    
 ensure_exit_code
 =
 False
+                
 )
             
 elif
@@ -4262,9 +4292,9 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 :
                 
@@ -4297,40 +4327,42 @@ Structure
 _fields_
 =
 [
+                        
 (
 "
 cbSize
 "
 UINT
 )
-                                
+                        
 (
 "
 hwnd
 "
 HANDLE
 )
-                                
+                        
 (
 "
 dwFlags
 "
 DWORD
 )
-                                
+                        
 (
 "
 uCount
 "
 UINT
 )
-                                
+                        
 (
 "
 dwTimeout
 "
 DWORD
 )
+                    
 ]
                 
 FlashWindowExProto
@@ -4411,20 +4443,24 @@ params
 =
 FLASHWINDOW
 (
+                    
 sizeof
 (
 FLASHWINDOW
 )
-                                     
+                    
 console
-                                     
+                    
 FLASHW_CAPTION
 |
 FLASHW_TRAY
 |
 FLASHW_TIMERNOFG
+                    
 3
+                    
 0
+                
 )
                 
 FlashWindowEx
@@ -4439,11 +4475,11 @@ notifier
 =
 which
 (
-'
+"
 notify
 -
 send
-'
+"
 )
                 
 if
@@ -4454,7 +4490,8 @@ notifier
 raise
 Exception
 (
-'
+                        
+"
 Install
 notify
 -
@@ -4463,9 +4500,9 @@ send
 usually
 part
 of
-'
-                                    
-'
+"
+                        
+"
 the
 libnotify
 package
@@ -4475,23 +4512,27 @@ get
 a
 notification
 when
-'
-                                    
-'
+"
+                        
+"
 the
 build
 finishes
 .
-'
+"
+                    
 )
                 
 self
 .
 run_process
 (
+                    
 [
+                        
 notifier
-'
+                        
+"
 -
 -
 app
@@ -4501,18 +4542,22 @@ name
 Mozilla
 Build
 System
-'
-                                  
-'
+"
+                        
+"
 Mozilla
 Build
 System
-'
+"
+                        
 msg
+                    
 ]
+                    
 ensure_exit_code
 =
 False
+                
 )
         
 except
@@ -4525,26 +4570,29 @@ self
 .
 log
 (
+                
 logging
 .
 WARNING
-'
+                
+"
 notifier
 -
 failed
-'
-                     
+"
+                
 {
-'
+"
 error
-'
+"
 :
 str
 (
 e
 )
 }
-'
+                
+"
 Notification
 center
 failed
@@ -4552,7 +4600,8 @@ failed
 {
 error
 }
-'
+"
+            
 )
     
 def
@@ -4695,59 +4744,73 @@ topobjdir
 def
 _run_make
 (
+        
 self
+        
 directory
 =
 None
+        
 filename
 =
 None
+        
 target
 =
 None
+        
 log
 =
 True
-                  
+        
 srcdir
 =
 False
+        
 allow_parallel
 =
 True
+        
 line_handler
 =
 None
-                  
+        
 append_env
 =
 None
+        
 explicit_env
 =
 None
+        
 ignore_errors
 =
 False
-                  
+        
 ensure_exit_code
 =
 0
+        
 silent
 =
 True
+        
 print_directory
 =
 True
-                  
+        
 pass_thru
 =
 False
+        
 num_jobs
 =
 0
+        
 keep_going
 =
 False
+    
 )
 :
         
@@ -4890,10 +4953,10 @@ args
 extend
 (
 [
-'
+"
 -
 C
-'
+"
 directory
 .
 replace
@@ -4901,9 +4964,9 @@ replace
 os
 .
 sep
-'
+"
 /
-'
+"
 )
 ]
 )
@@ -4917,10 +4980,10 @@ args
 extend
 (
 [
-'
+"
 -
 f
-'
+"
 filename
 ]
 )
@@ -4935,9 +4998,9 @@ self
 .
 mozconfig
 [
-'
+"
 make_flags
-'
+"
 ]
 :
             
@@ -4949,9 +5012,9 @@ self
 .
 mozconfig
 [
-'
+"
 make_flags
-'
+"
 ]
 )
             
@@ -4965,10 +5028,10 @@ if
 flag
 =
 =
-'
+"
 -
 j
-'
+"
 :
                     
 try
@@ -5014,10 +5077,10 @@ flag
 .
 startswith
 (
-'
+"
 -
 j
-'
+"
 )
 :
                     
@@ -5068,12 +5131,12 @@ args
 .
 append
 (
-'
+"
 -
 j
 %
 d
-'
+"
 %
 num_jobs
 )
@@ -5085,12 +5148,12 @@ args
 .
 append
 (
-'
+"
 -
 j
 %
 d
-'
+"
 %
 multiprocessing
 .
@@ -5109,12 +5172,12 @@ args
 .
 append
 (
-'
+"
 MOZ_PARALLEL_BUILD
 =
 %
 d
-'
+"
 %
 num_jobs
 )
@@ -5126,9 +5189,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_LOW_PARALLELISM_BUILD
-'
+"
 )
 :
             
@@ -5157,6 +5220,7 @@ cpus
             
 print
 (
+                
 "
 Low
 parallelism
@@ -5172,23 +5236,23 @@ d
 cores
 "
 %
-                  
 (
 jobs
 cpus
 )
+            
 )
             
 args
 .
 append
 (
-'
+"
 MOZ_PARALLEL_BUILD
 =
 %
 d
-'
+"
 %
 jobs
 )
@@ -5201,10 +5265,10 @@ args
 .
 append
 (
-'
+"
 -
 k
-'
+"
 )
         
 if
@@ -5215,10 +5279,10 @@ args
 .
 append
 (
-'
+"
 -
 s
-'
+"
 )
         
 #
@@ -5249,10 +5313,10 @@ args
 .
 append
 (
-'
+"
 -
 w
-'
+"
 )
         
 if
@@ -5263,10 +5327,10 @@ args
 .
 append
 (
-'
+"
 -
 k
-'
+"
 )
         
 if
@@ -5323,66 +5387,66 @@ or
         
 append_env
 [
-'
+"
 MACH
-'
+"
 ]
 =
-'
+"
 1
-'
+"
         
 params
 =
 {
             
-'
+"
 args
-'
+"
 :
 args
             
-'
+"
 line_handler
-'
+"
 :
 line_handler
             
-'
+"
 append_env
-'
+"
 :
 append_env
             
-'
+"
 explicit_env
-'
+"
 :
 explicit_env
             
-'
+"
 log_level
-'
+"
 :
 logging
 .
 INFO
             
-'
+"
 require_unix_environment
-'
+"
 :
 False
             
-'
+"
 ensure_exit_code
-'
+"
 :
 ensure_exit_code
             
-'
+"
 pass_thru
-'
+"
 :
 pass_thru
             
@@ -5424,9 +5488,9 @@ bug
 796840
 .
             
-'
+"
 ignore_children
-'
+"
 :
 True
         
@@ -5438,14 +5502,14 @@ log
             
 params
 [
-'
+"
 log_name
-'
+"
 ]
 =
-'
+"
 make
-'
+"
         
 return
 fn
@@ -5473,14 +5537,14 @@ join
 self
 .
 topsrcdir
-'
+"
 config
-'
-'
+"
+"
 baseconfig
 .
 mk
-'
+"
 )
         
 def
@@ -5498,12 +5562,12 @@ _is_osx
 )
 and
 b
-'
+"
 Agreeing
 to
 the
 Xcode
-'
+"
 in
 output
         
@@ -5538,10 +5602,10 @@ cmd
 =
 [
 make
-'
+"
 -
 f
-'
+"
 baseconfig
 ]
                 
@@ -5557,11 +5621,11 @@ cmd
 .
 append
 (
-'
+"
 HOST_OS_ARCH
 =
 WINNT
-'
+"
 )
                 
 try
@@ -5611,29 +5675,29 @@ False
 possible_makes
 =
 [
-'
+"
 gmake
-'
-'
+"
+"
 make
-'
-'
+"
+"
 mozmake
-'
-'
+"
+"
 gnumake
-'
-'
+"
+"
 mingw32
 -
 make
-'
+"
 ]
         
 if
-'
+"
 MAKE
-'
+"
 in
 os
 .
@@ -5646,9 +5710,9 @@ os
 .
 environ
 [
-'
+"
 MAKE
-'
+"
 ]
             
 possible_makes
@@ -5727,7 +5791,8 @@ xcode_lisense_error
 raise
 Exception
 (
-'
+                
+"
 Xcode
 requires
 accepting
@@ -5738,9 +5803,9 @@ agreement
 .
 \
 n
-'
-                            
-'
+"
+                
+"
 Please
 run
 Xcode
@@ -5750,7 +5815,8 @@ the
 license
 agreement
 .
-'
+"
+            
 )
         
 if
@@ -5764,7 +5830,8 @@ _is_windows
 raise
 Exception
 (
-'
+                
+"
 Could
 not
 find
@@ -5775,9 +5842,9 @@ implementation
 .
 \
 n
-'
-                            
-'
+"
+                
+"
 Please
 use
 MozillaBuild
@@ -5786,7 +5853,8 @@ MozillaBuild
 9
 or
 newer
-'
+"
+            
 )
         
 else
@@ -5795,7 +5863,7 @@ else
 raise
 Exception
 (
-'
+"
 Could
 not
 find
@@ -5804,7 +5872,7 @@ suitable
 make
 implementation
 .
-'
+"
 )
     
 def
@@ -5870,12 +5938,12 @@ os
 name
 in
 (
-'
+"
 nt
-'
-'
+"
+"
 ce
-'
+"
 )
     
 def
@@ -5886,9 +5954,9 @@ self
 :
         
 return
-'
+"
 darwin
-'
+"
 in
 str
 (
@@ -5966,6 +6034,7 @@ us
 return
 cls
 (
+            
 self
 .
 topsrcdir
@@ -5975,12 +6044,12 @@ settings
 self
 .
 log_manager
-                   
 topobjdir
 =
 self
 .
 topobjdir
+        
 )
     
 def
@@ -6022,6 +6091,7 @@ terminal_handler
 .
 setLevel
 (
+            
 logging
 .
 INFO
@@ -6032,6 +6102,7 @@ else
 logging
 .
 DEBUG
+        
 )
     
 def
@@ -6070,7 +6141,7 @@ virtualenv_manager
 .
 install_pip_package
 (
-'
+"
 zstandard
 >
 =
@@ -6086,7 +6157,7 @@ zstandard
 13
 .
 0
-'
+"
 )
 class
 MachCommandBase
@@ -6195,9 +6266,9 @@ if
 hasattr
 (
 context
-'
+"
 detect_virtualenv_mozinfo
-'
+"
 )
 :
             
@@ -6206,10 +6277,9 @@ detect_virtualenv_mozinfo
 getattr
 (
 context
-                                                
-'
+"
 detect_virtualenv_mozinfo
-'
+"
 )
         
 try
@@ -6227,10 +6297,10 @@ cwd
 context
 .
 cwd
-                
 detect_virtualenv_mozinfo
 =
 detect_virtualenv_mozinfo
+            
 )
             
 topsrcdir
@@ -6356,7 +6426,8 @@ e
             
 print
 (
-'
+                
+"
 Ambiguous
 object
 directory
@@ -6365,9 +6436,9 @@ detected
 We
 detected
 that
-'
-                  
-'
+"
+                
+"
 both
 %
 s
@@ -6381,9 +6452,9 @@ directories
 .
 This
 is
-'
-                  
-'
+"
+                
+"
 typically
 caused
 by
@@ -6393,9 +6464,9 @@ mozconfig
 pointing
 to
 a
-'
-                  
-'
+"
+                
+"
 different
 object
 directory
@@ -6403,9 +6474,9 @@ from
 the
 current
 working
-'
-                  
-'
+"
+                
+"
 directory
 .
 To
@@ -6418,26 +6489,26 @@ do
 not
 have
 a
-'
-                  
-'
+"
+                
+"
 default
 mozconfig
 in
 searched
 paths
 .
-'
+"
 %
 (
 e
 .
 objdir1
-                                                            
 e
 .
 objdir2
 )
+            
 )
             
 sys
@@ -6471,7 +6542,9 @@ __init__
 (
             
 self
+            
 topsrcdir
+            
 context
 .
 settings
@@ -6479,6 +6552,7 @@ settings
 context
 .
 log_manager
+            
 topobjdir
 =
 topobjdir
@@ -6486,6 +6560,7 @@ topobjdir
 virtualenv_name
 =
 virtualenv_name
+        
 )
         
 self
@@ -6622,9 +6697,9 @@ getattr
 sys
 .
 stdout
-'
+"
 fileno
-'
+"
 lambda
 :
 None
@@ -6643,7 +6718,6 @@ fileno
 None
         
 if
-(
 fileno
 and
 os
@@ -6653,16 +6727,14 @@ isatty
 fileno
 )
 and
-                
 not
 getattr
 (
 self
-'
+"
 NO_AUTO_LOG
-'
+"
 False
-)
 )
 :
             
@@ -6670,9 +6742,9 @@ self
 .
 _ensure_state_subdir_exists
 (
-'
+"
 .
-'
+"
 )
             
 logfile
@@ -6681,11 +6753,11 @@ self
 .
 _get_state_filename
 (
-'
+"
 last_log
 .
 json
-'
+"
 )
             
 try
@@ -6696,9 +6768,9 @@ fd
 open
 (
 logfile
-'
+"
 wt
-'
+"
 )
                 
 self
@@ -6720,24 +6792,27 @@ self
 .
 log
 (
+                    
 logging
 .
 WARNING
-'
+                    
+"
 mach
-'
+"
+                    
 {
-'
+"
 error
-'
+"
 :
 str
 (
 e
 )
 }
-                         
-'
+                    
+"
 Log
 will
 not
@@ -6751,7 +6826,8 @@ command
 error
 }
 .
-'
+"
+                
 )
     
 def
@@ -6767,8 +6843,8 @@ subprocess
 .
 call
 (
-[
             
+[
 sys
 .
 executable
@@ -6781,13 +6857,14 @@ join
 self
 .
 topsrcdir
-'
+"
 mach
-'
+"
 )
 ]
 +
 argv
+        
 )
 class
 MachCommandConditions
@@ -6851,9 +6928,9 @@ if
 hasattr
 (
 cls
-'
+"
 substs
-'
+"
 )
 :
             
@@ -6864,15 +6941,15 @@ substs
 .
 get
 (
-'
+"
 MOZ_BUILD_APP
-'
+"
 )
 =
 =
-'
+"
 browser
-'
+"
         
 return
 False
@@ -6903,9 +6980,9 @@ if
 hasattr
 (
 cls
-'
+"
 substs
-'
+"
 )
 :
             
@@ -6916,15 +6993,15 @@ substs
 .
 get
 (
-'
+"
 MOZ_BUILD_APP
-'
+"
 )
 =
 =
-'
+"
 js
-'
+"
         
 return
 False
@@ -6955,9 +7032,9 @@ if
 hasattr
 (
 cls
-'
+"
 substs
-'
+"
 )
 :
             
@@ -6968,17 +7045,17 @@ substs
 .
 get
 (
-'
+"
 MOZ_BUILD_APP
-'
+"
 )
 =
 =
-'
+"
 comm
 /
 mail
-'
+"
         
 return
 False
@@ -7012,7 +7089,9 @@ MachCommandConditions
 .
 is_firefox
 (
+            
 cls
+        
 )
 or
 MachCommandConditions
@@ -7048,9 +7127,9 @@ if
 hasattr
 (
 cls
-'
+"
 substs
-'
+"
 )
 :
             
@@ -7061,15 +7140,15 @@ substs
 .
 get
 (
-'
+"
 MOZ_WIDGET_TOOLKIT
-'
+"
 )
 =
 =
-'
+"
 android
-'
+"
         
 return
 False
@@ -7101,9 +7180,9 @@ if
 hasattr
 (
 cls
-'
+"
 substs
-'
+"
 )
 :
             
@@ -7114,15 +7193,15 @@ substs
 .
 get
 (
-'
+"
 MOZ_WIDGET_TOOLKIT
-'
+"
 )
 !
 =
-'
+"
 android
-'
+"
         
 return
 False
@@ -7156,7 +7235,9 @@ MachCommandConditions
 .
 is_firefox
 (
+            
 cls
+        
 )
 or
 MachCommandConditions
@@ -7188,21 +7269,20 @@ build
 "
         
 return
-(
 MachCommandConditions
 .
 is_firefox_or_android
 (
+            
 cls
+        
 )
 or
-                
 MachCommandConditions
 .
 is_thunderbird
 (
 cls
-)
 )
     
 staticmethod
@@ -7231,7 +7311,6 @@ build
 "
         
 return
-(
 MachCommandConditions
 .
 has_build
@@ -7239,13 +7318,13 @@ has_build
 cls
 )
 or
-                
 MachCommandConditions
 .
 is_jsshell
 (
+            
 cls
-)
+        
 )
     
 staticmethod
@@ -7358,9 +7437,9 @@ if
 hasattr
 (
 cls
-'
+"
 substs
-'
+"
 )
 :
             
@@ -7368,18 +7447,18 @@ return
 getattr
 (
 cls
-'
+"
 substs
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 MOZ_ARTIFACT_BUILDS
-'
+"
 )
         
 return
@@ -7412,9 +7491,9 @@ if
 hasattr
 (
 cls
-'
+"
 substs
-'
+"
 )
 :
             
@@ -7468,11 +7547,11 @@ attr
 getattr
 (
 MachCommandConditions
-'
+"
 is_
 {
 }
-'
+"
 .
 format
 (
@@ -7802,13 +7881,13 @@ self
 .
 _summary_format
 =
-'
-'
+"
+"
         
 assert
-'
+"
 execution_time
-'
+"
 in
 data
         

@@ -31,7 +31,6 @@ WebIDL
 .
 IDLArgument
 )
-                   
 "
 Should
 be
@@ -44,6 +43,7 @@ harness
 .
 check
 (
+            
 argument
 .
 identifier
@@ -59,6 +59,7 @@ the
 right
 QName
 "
+        
 )
         
 harness
@@ -105,6 +106,7 @@ harness
 .
 check
 (
+            
 argument
 .
 optional
@@ -117,12 +119,14 @@ right
 optional
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 argument
 .
 variadic
@@ -135,51 +139,65 @@ right
 variadic
 value
 "
+        
 )
     
 def
 checkMethod
 (
+        
 method
+        
 QName
+        
 name
+        
 signatures
-                    
+        
 static
 =
 True
+        
 getter
 =
 False
+        
 setter
 =
 False
+        
 deleter
 =
 False
-                    
+        
 legacycaller
 =
 False
+        
 stringifier
 =
 False
+        
 chromeOnly
 =
 False
-                    
+        
 htmlConstructor
 =
 False
+        
 secureContext
 =
 False
+        
 pref
 =
 None
+        
 func
 =
 None
+    
 )
 :
         
@@ -194,7 +212,6 @@ WebIDL
 .
 IDLMethod
 )
-                   
 "
 Should
 be
@@ -362,6 +379,7 @@ harness
 .
 check
 (
+            
 method
 .
 isDeleter
@@ -376,18 +394,22 @@ correct
 deleter
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 isLegacycaller
 (
 )
+            
 legacycaller
+            
 "
 Method
 has
@@ -396,18 +418,22 @@ correct
 legacycaller
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 isStringifier
 (
 )
+            
 stringifier
+            
 "
 Method
 has
@@ -416,12 +442,14 @@ correct
 stringifier
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 getExtendedAttribute
@@ -433,7 +461,9 @@ ChromeOnly
 is
 not
 None
+            
 chromeOnly
+            
 "
 Method
 has
@@ -443,18 +473,22 @@ value
 for
 ChromeOnly
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 isHTMLConstructor
 (
 )
+            
 htmlConstructor
+            
 "
 Method
 has
@@ -463,12 +497,14 @@ correct
 htmlConstructor
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 len
 (
 method
@@ -477,10 +513,12 @@ signatures
 (
 )
 )
+            
 len
 (
 signatures
 )
+            
 "
 Method
 has
@@ -490,12 +528,14 @@ number
 of
 signatures
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 getExtendedAttribute
@@ -504,7 +544,9 @@ getExtendedAttribute
 Pref
 "
 )
+            
 pref
+            
 "
 Method
 has
@@ -513,12 +555,14 @@ correct
 pref
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 getExtendedAttribute
@@ -527,7 +571,9 @@ getExtendedAttribute
 Func
 "
 )
+            
 func
+            
 "
 Method
 has
@@ -536,12 +582,14 @@ correct
 func
 value
 "
+        
 )
         
 harness
 .
 check
 (
+            
 method
 .
 getExtendedAttribute
@@ -553,7 +601,9 @@ SecureContext
 is
 not
 None
+            
 secureContext
+            
 "
 Method
 has
@@ -562,6 +612,7 @@ correct
 SecureContext
 value
 "
+        
 )
         
 sigpairs
@@ -603,12 +654,12 @@ harness
 .
 check
 (
+                
 str
 (
 gotRetType
 )
 expectedRetType
-                          
 "
 Method
 has
@@ -618,6 +669,7 @@ return
 type
 .
 "
+            
 )
             
 for
@@ -687,6 +739,7 @@ harness
 .
 ok
 (
+            
 isinstance
 (
 results
@@ -697,19 +750,20 @@ WebIDL
 .
 IDLInterface
 )
-                   
 "
 Should
 be
 an
 IDLInterface
 "
+        
 )
         
 harness
 .
 ok
 (
+            
 isinstance
 (
 results
@@ -720,19 +774,20 @@ WebIDL
 .
 IDLInterface
 )
-                   
 "
 Should
 be
 an
 IDLInterface
 "
+        
 )
         
 harness
 .
 ok
 (
+            
 isinstance
 (
 results
@@ -743,17 +798,18 @@ WebIDL
 .
 IDLInterface
 )
-                   
 "
 Should
 be
 an
 IDLInterface
 "
+        
 )
         
 checkMethod
 (
+            
 results
 [
 0
@@ -762,6 +818,7 @@ results
 ctor
 (
 )
+            
 "
 :
 :
@@ -770,10 +827,11 @@ TestConstructorNoArgs
 :
 constructor
 "
-                    
+            
 "
 constructor
 "
+            
 [
 (
 "
@@ -786,12 +844,14 @@ Wrapper
 ]
 )
 ]
+        
 )
         
 harness
 .
 check
 (
+            
 len
 (
 results
@@ -802,7 +862,6 @@ results
 members
 )
 0
-                      
 "
 TestConstructorNoArgs
 should
@@ -810,10 +869,12 @@ not
 have
 members
 "
+        
 )
         
 checkMethod
 (
+            
 results
 [
 1
@@ -822,6 +883,7 @@ results
 ctor
 (
 )
+            
 "
 :
 :
@@ -830,22 +892,26 @@ TestConstructorWithArgs
 :
 constructor
 "
-                    
+            
 "
 constructor
 "
-                    
+            
 [
+                
 (
+                    
 "
 TestConstructorWithArgs
 (
 Wrapper
 )
 "
-                      
+                    
 [
+                        
 (
+                            
 "
 :
 :
@@ -857,24 +923,34 @@ constructor
 :
 name
 "
+                            
 "
 name
 "
+                            
 "
 String
 "
+                            
 False
+                            
 False
+                        
 )
+                    
 ]
+                
 )
+            
 ]
+        
 )
         
 harness
 .
 check
 (
+            
 len
 (
 results
@@ -884,8 +960,9 @@ results
 .
 members
 )
+            
 0
-                      
+            
 "
 TestConstructorWithArgs
 should
@@ -893,10 +970,12 @@ not
 have
 members
 "
+        
 )
         
 checkMethod
 (
+            
 results
 [
 2
@@ -905,6 +984,7 @@ results
 ctor
 (
 )
+            
 "
 :
 :
@@ -913,22 +993,26 @@ TestConstructorOverloads
 :
 constructor
 "
-                    
+            
 "
 constructor
 "
-                    
+            
 [
+                
 (
+                    
 "
 TestConstructorOverloads
 (
 Wrapper
 )
 "
-                      
+                    
 [
+                        
 (
+                            
 "
 :
 :
@@ -940,28 +1024,38 @@ constructor
 :
 foo
 "
+                            
 "
 foo
 "
+                            
 "
 Object
 "
+                            
 False
+                            
 False
+                        
 )
+                    
 ]
+                
 )
-                     
+                
 (
+                    
 "
 TestConstructorOverloads
 (
 Wrapper
 )
 "
-                      
+                    
 [
+                        
 (
+                            
 "
 :
 :
@@ -973,24 +1067,34 @@ constructor
 :
 bar
 "
+                            
 "
 bar
 "
+                            
 "
 Boolean
 "
+                            
 False
+                            
 False
+                        
 )
+                    
 ]
+                
 )
+            
 ]
+        
 )
         
 harness
 .
 check
 (
+            
 len
 (
 results
@@ -1000,8 +1104,9 @@ results
 .
 members
 )
+            
 0
-                      
+            
 "
 TestConstructorOverloads
 should
@@ -1009,12 +1114,14 @@ not
 have
 members
 "
+        
 )
     
 parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1069,6 +1176,7 @@ bar
 "
 "
 "
+    
 )
     
 results
@@ -1096,6 +1204,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1126,6 +1235,7 @@ constructor
 "
 "
 "
+    
 )
     
 results
@@ -1167,7 +1277,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -1178,6 +1287,7 @@ IDLInterface
     
 checkMethod
 (
+        
 results
 [
 0
@@ -1186,6 +1296,7 @@ results
 ctor
 (
 )
+        
 "
 :
 :
@@ -1194,10 +1305,11 @@ TestPrefConstructor
 :
 constructor
 "
-                
+        
 "
 constructor
 "
+        
 [
 (
 "
@@ -1210,7 +1322,7 @@ Wrapper
 ]
 )
 ]
-                
+        
 pref
 =
 [
@@ -1222,6 +1334,7 @@ webidl
 test1
 "
 ]
+    
 )
     
 parser
@@ -1236,6 +1349,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1258,6 +1372,7 @@ constructor
 "
 "
 "
+    
 )
     
 results
@@ -1299,7 +1414,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -1310,6 +1424,7 @@ IDLInterface
     
 checkMethod
 (
+        
 results
 [
 0
@@ -1318,6 +1433,7 @@ results
 ctor
 (
 )
+        
 "
 :
 :
@@ -1326,10 +1442,11 @@ TestChromeOnlyConstructor
 :
 constructor
 "
-                
+        
 "
 constructor
 "
+        
 [
 (
 "
@@ -1342,10 +1459,11 @@ Wrapper
 ]
 )
 ]
-                
+        
 chromeOnly
 =
 True
+    
 )
     
 parser
@@ -1360,6 +1478,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1382,6 +1501,7 @@ constructor
 "
 "
 "
+    
 )
     
 results
@@ -1423,7 +1543,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -1434,6 +1553,7 @@ IDLInterface
     
 checkMethod
 (
+        
 results
 [
 0
@@ -1442,6 +1562,7 @@ results
 ctor
 (
 )
+        
 "
 :
 :
@@ -1450,10 +1571,11 @@ TestSCConstructor
 :
 constructor
 "
-                
+        
 "
 constructor
 "
+        
 [
 (
 "
@@ -1466,10 +1588,11 @@ Wrapper
 ]
 )
 ]
-                
+        
 secureContext
 =
 True
+    
 )
     
 parser
@@ -1484,6 +1607,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1513,6 +1637,7 @@ constructor
 "
 "
 "
+    
 )
     
 results
@@ -1554,7 +1679,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -1565,6 +1689,7 @@ IDLInterface
     
 checkMethod
 (
+        
 results
 [
 0
@@ -1573,6 +1698,7 @@ results
 ctor
 (
 )
+        
 "
 :
 :
@@ -1581,10 +1707,11 @@ TestFuncConstructor
 :
 constructor
 "
-                
+        
 "
 constructor
 "
+        
 [
 (
 "
@@ -1597,7 +1724,7 @@ Wrapper
 ]
 )
 ]
-                
+        
 func
 =
 [
@@ -1608,6 +1735,7 @@ Document
 IsWebAnimationsEnabled
 "
 ]
+    
 )
     
 parser
@@ -1622,6 +1750,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1663,6 +1792,7 @@ constructor
 "
 "
 "
+    
 )
     
 results
@@ -1704,7 +1834,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -1715,6 +1844,7 @@ IDLInterface
     
 checkMethod
 (
+        
 results
 [
 0
@@ -1723,6 +1853,7 @@ results
 ctor
 (
 )
+        
 "
 :
 :
@@ -1731,10 +1862,11 @@ TestPrefChromeOnlySCFuncConstructor
 :
 constructor
 "
-                
+        
 "
 constructor
 "
+        
 [
 (
 "
@@ -1747,7 +1879,7 @@ Wrapper
 ]
 )
 ]
-                
+        
 func
 =
 [
@@ -1758,6 +1890,7 @@ Document
 IsWebAnimationsEnabled
 "
 ]
+        
 pref
 =
 [
@@ -1769,13 +1902,15 @@ webidl
 test1
 "
 ]
-                
+        
 chromeOnly
 =
 True
+        
 secureContext
 =
 True
+    
 )
     
 parser
@@ -1790,6 +1925,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -1812,6 +1948,7 @@ constructor
 "
 "
 "
+    
 )
     
 results
@@ -1853,7 +1990,6 @@ WebIDL
 .
 IDLInterface
 )
-               
 "
 Should
 be
@@ -1864,6 +2000,7 @@ IDLInterface
     
 checkMethod
 (
+        
 results
 [
 0
@@ -1872,6 +2009,7 @@ results
 ctor
 (
 )
+        
 "
 :
 :
@@ -1880,10 +2018,11 @@ TestHTMLConstructor
 :
 constructor
 "
-                
+        
 "
 constructor
 "
+        
 [
 (
 "
@@ -1896,10 +2035,11 @@ Wrapper
 ]
 )
 ]
-                
+        
 htmlConstructor
 =
 True
+    
 )
     
 parser
@@ -1921,6 +2061,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -1949,6 +2090,7 @@ a
 "
 "
 "
+        
 )
         
 results
@@ -2011,6 +2153,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2035,6 +2178,7 @@ a
 "
 "
 "
+        
 )
         
 results
@@ -2093,6 +2237,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2116,6 +2261,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2178,6 +2324,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2205,6 +2352,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2260,6 +2408,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2291,6 +2440,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2313,7 +2463,6 @@ harness
 ok
 (
 threw
-               
 "
 Can
 '
@@ -2348,6 +2497,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2377,6 +2527,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2399,7 +2550,6 @@ harness
 ok
 (
 threw
-               
 "
 Can
 '
@@ -2434,6 +2584,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2467,6 +2618,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2488,8 +2640,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Can
 '
@@ -2503,10 +2656,10 @@ a
 throwing
 constructor
 "
-               
 "
 operation
 "
+    
 )
     
 #
@@ -2538,6 +2691,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2569,6 +2723,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2591,7 +2746,6 @@ harness
 ok
 (
 threw
-               
 "
 Can
 '
@@ -2626,6 +2780,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2658,6 +2813,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2679,8 +2835,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Can
 '
@@ -2694,10 +2851,10 @@ constructor
 and
 a
 "
-               
 "
 HTMLConstructor
 "
+    
 )
     
 parser
@@ -2719,6 +2876,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2752,6 +2910,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2773,8 +2932,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Can
 '
@@ -2788,10 +2948,10 @@ a
 chromeonly
 constructor
 "
-               
 "
 operation
 "
+    
 )
     
 parser
@@ -2813,6 +2973,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2847,6 +3008,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2868,8 +3030,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Can
 '
@@ -2883,11 +3046,12 @@ a
 throwing
 chromeonly
 "
-               
+        
 "
 constructor
 operation
 "
+    
 )
     
 parser
@@ -2909,6 +3073,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -2932,6 +3097,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -2953,8 +3119,9 @@ harness
 .
 ok
 (
+        
 threw
-               
+        
 "
 Can
 '
@@ -2969,10 +3136,10 @@ a
 NoInterfaceObject
 ]
 "
-               
 "
 interface
 "
+    
 )
     
 parser
@@ -2994,6 +3161,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3021,6 +3189,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -3043,7 +3212,6 @@ harness
 ok
 (
 threw
-               
 "
 Can
 '
@@ -3078,6 +3246,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -3109,6 +3278,7 @@ Mixin
 "
 "
 "
+        
 )
         
 results
@@ -3131,7 +3301,6 @@ harness
 ok
 (
 threw
-               
 "
 Can
 '

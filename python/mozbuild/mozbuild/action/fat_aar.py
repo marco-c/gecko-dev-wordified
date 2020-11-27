@@ -53,9 +53,9 @@ MPL
 0
 /
 .
-'
-'
-'
+"
+"
+"
 Fetch
 and
 unpack
@@ -82,9 +82,9 @@ fat
 AAR
 build
 .
-'
-'
-'
+"
+"
+"
 from
 __future__
 import
@@ -183,7 +183,7 @@ no_process
         
 print
 (
-'
+"
 Not
 processing
 architecture
@@ -193,7 +193,7 @@ artifact
 Maven
 AARs
 .
-'
+"
 )
         
 return
@@ -286,27 +286,27 @@ old_rewrite_map
 =
 {
             
-'
+"
 greprefs
 .
 js
-'
+"
 :
-'
+"
 {
 }
 /
 greprefs
 .
 js
-'
+"
 .
 format
 (
 arch
 )
             
-'
+"
 defaults
 /
 pref
@@ -316,9 +316,9 @@ geckoview
 prefs
 .
 js
-'
+"
 :
-'
+"
 defaults
 /
 pref
@@ -331,11 +331,13 @@ geckoview
 prefs
 .
 js
-'
+"
 .
 format
 (
+                
 arch
+            
 )
         
 }
@@ -402,12 +404,12 @@ mozpath
 match
 (
 path
-'
+"
 jni
 /
 *
 *
-'
+"
 )
 :
                 
@@ -437,16 +439,16 @@ elif
 path
 in
 (
-'
+"
 classes
 .
 jar
-'
-'
+"
+"
 annotations
 .
 zip
-'
+"
 )
 :
                 
@@ -554,14 +556,14 @@ hexdigest
                     
 diffs
 [
-'
+"
 {
 }
 !
 /
 {
 }
-'
+"
 .
 format
 (
@@ -692,11 +694,11 @@ allow_pattern_list
 =
 {
         
-'
+"
 AndroidManifest
 .
 xml
-'
+"
 #
 Min
 SDK
@@ -713,7 +715,7 @@ bit
 builds
 .
         
-'
+"
 classes
 .
 jar
@@ -730,7 +732,7 @@ util
 HardwareUtils
 .
 class
-'
+"
 #
 Min
 SDK
@@ -738,7 +740,7 @@ as
 well
 .
         
-'
+"
 classes
 .
 jar
@@ -753,7 +755,7 @@ geckoview
 BuildConfig
 .
 class
-'
+"
         
 #
 Each
@@ -764,7 +766,7 @@ CPU
 architecture
 .
         
-'
+"
 chrome
 /
 toolkit
@@ -776,7 +778,7 @@ global
 buildconfig
 .
 html
-'
+"
         
 #
 Bug
@@ -801,32 +803,32 @@ same
 push
 .
         
-'
+"
 *
 *
 /
 *
 .
 ftl
-'
+"
         
-'
+"
 *
 *
 /
 *
 .
 dtd
-'
+"
         
-'
+"
 *
 *
 /
 *
 .
 properties
-'
+"
     
 }
     
@@ -866,17 +868,18 @@ YYY
 .
         
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
+            
 sorted
 (
-            
-'
+                
+"
 {
 archs
 }
@@ -885,14 +888,15 @@ archs
 {
 fingerprint
 }
-'
+"
 .
 format
 (
+                    
 archs
 =
-'
-'
+"
+"
 .
 join
 (
@@ -901,12 +905,12 @@ sorted
 archs
 )
 )
-                                                
 fingerprint
 =
 fingerprint
+                
 )
-            
+                
 for
 fingerprint
 archs
@@ -916,7 +920,9 @@ ds
 items
 (
 )
+            
 )
+        
 )
     
 for
@@ -976,8 +982,71 @@ allow_pattern_list
             
 print
 (
+                
 '
 Allowed
+:
+Path
+"
+{
+path
+}
+"
+has
+architecture
+-
+specific
+versions
+:
+\
+n
+{
+ds_repr
+}
+'
+.
+format
+(
+                    
+path
+=
+p
+ds_repr
+=
+format_diffs
+(
+ds
+)
+                
+)
+            
+)
+            
+continue
+        
+not_allowed
+[
+p
+]
+=
+ds
+    
+for
+p
+ds
+in
+not_allowed
+.
+items
+(
+)
+:
+        
+print
+(
+            
+'
+Disallowed
 :
 Path
 "
@@ -1010,66 +1079,9 @@ format_diffs
 (
 ds
 )
-)
-)
             
-continue
+)
         
-not_allowed
-[
-p
-]
-=
-ds
-    
-for
-p
-ds
-in
-not_allowed
-.
-items
-(
-)
-:
-        
-print
-(
-'
-Disallowed
-:
-Path
-"
-{
-path
-}
-"
-has
-architecture
--
-specific
-versions
-:
-\
-n
-{
-ds_repr
-}
-'
-.
-format
-(
-                 
-path
-=
-p
-ds_repr
-=
-format_diffs
-(
-ds
-)
-)
 )
     
 for
@@ -1083,7 +1095,8 @@ missing_arch_prefs
         
 print
 (
-'
+            
+"
 Disallowed
 :
 Inputs
@@ -1097,15 +1110,17 @@ input
 {
 missing
 }
-'
+"
 .
 format
 (
-            
+                
 missing
 =
 missing
+            
 )
+        
 )
     
 if
@@ -1129,9 +1144,9 @@ mozpath
 join
 (
 distdir
-'
+"
 output
-'
+"
 )
     
 copier
@@ -1146,22 +1161,22 @@ return
 _ALL_ARCHS
 =
 (
-'
+"
 armeabi
 -
 v7a
-'
-'
+"
+"
 arm64
 -
 v8a
-'
-'
+"
+"
 x86_64
-'
-'
+"
+"
 x86
-'
+"
 )
 def
 main
@@ -1172,9 +1187,9 @@ argv
     
 description
 =
-'
-'
-'
+"
+"
+"
 Unpack
 architecture
 -
@@ -1199,9 +1214,9 @@ fat
 AAR
 build
 .
-'
-'
-'
+"
+"
+"
     
 parser
 =
@@ -1218,36 +1233,38 @@ parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 no
 -
 process
-'
+"
 action
 =
-'
+"
 store_true
-'
-                        
+"
 help
 =
-'
+"
 Do
 not
 process
 Maven
 AARs
 .
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 no
@@ -1255,16 +1272,17 @@ no
 compatibility
 -
 check
-'
+"
+        
 action
 =
-'
+"
 store_true
-'
-                        
+"
+        
 help
 =
-'
+"
 Do
 not
 fail
@@ -1275,18 +1293,19 @@ are
 not
 compatible
 .
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 distdir
-'
+"
 required
 =
 True
@@ -1304,24 +1323,24 @@ arch
 .
 replace
 (
-'
+"
 _
-'
-'
+"
+"
 -
-'
+"
 )
         
 parser
 .
 add_argument
 (
-'
+"
 -
 -
 {
 }
-'
+"
 .
 format
 (
@@ -1360,12 +1379,10 @@ get
 (
 arch
 )
-        
 for
 arch
 in
 _ALL_ARCHS
-        
 if
 args_dict
 .
@@ -1384,7 +1401,7 @@ aars_paths
 raise
 ValueError
 (
-'
+"
 You
 must
 provide
@@ -1394,7 +1411,7 @@ one
 AAR
 file
 !
-'
+"
 )
     
 return
@@ -1424,9 +1441,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

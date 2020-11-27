@@ -78,9 +78,14 @@ tryselect
 .
 push
 import
+(
+    
 check_working_directory
+    
 generate_try_task_config
+    
 push_to_try
+)
 from
 tryselect
 .
@@ -119,9 +124,9 @@ BaseTryParser
     
 name
 =
-'
+"
 chooser
-'
+"
     
 arguments
 =
@@ -131,106 +136,115 @@ arguments
 common_groups
 =
 [
-'
+"
 push
-'
-'
+"
+"
 task
-'
+"
 ]
     
 task_configs
 =
 [
         
-'
+"
 artifact
-'
+"
         
-'
+"
 browsertime
-'
+"
         
-'
+"
 chemspill
 -
 prio
-'
+"
         
-'
+"
 disable
 -
 pgo
-'
+"
         
-'
+"
 env
-'
+"
         
-'
+"
 gecko
 -
 profile
-'
+"
         
-'
+"
 path
-'
+"
         
-'
+"
 pernosco
-'
+"
         
-'
+"
 rebuild
-'
+"
         
-'
+"
 worker
 -
 overrides
-'
+"
     
 ]
 def
 run
 (
+    
 update
 =
 False
+    
 query
 =
 None
+    
 try_config
 =
 None
+    
 full
 =
 False
+    
 parameters
 =
 None
-        
+    
 save
 =
 False
+    
 preset
 =
 None
+    
 mod_presets
 =
 False
+    
 push
 =
 True
+    
 message
 =
-'
+"
 {
 msg
 }
-'
-        
+"
+    
 closed_tree
 =
 False
@@ -281,7 +295,9 @@ full
 blacklisted_tasks
 =
 [
+            
 label
+            
 for
 label
 in
@@ -292,13 +308,14 @@ tasks
 keys
 (
 )
-                             
+            
 if
 not
 filter_by_uncommon_try_tasks
 (
 label
 )
+        
 ]
         
 for
@@ -330,15 +347,15 @@ environ
 .
 get
 (
-'
+"
 WERKZEUG_RUN_MAIN
-'
+"
 )
 =
 =
-'
+"
 true
-'
+"
 :
         
 #
@@ -382,7 +399,7 @@ browser
     
 url
 =
-'
+"
 http
 :
 /
@@ -396,7 +413,7 @@ http
 1
 :
 5000
-'
+"
     
 Timer
 (
@@ -484,9 +501,11 @@ selected
 return
 push_to_try
 (
-'
+        
+"
 chooser
-'
+"
+        
 message
 .
 format
@@ -495,22 +514,24 @@ msg
 =
 msg
 )
-                       
+        
 try_task_config
 =
 generate_try_task_config
 (
-'
+"
 chooser
-'
+"
 selected
 try_config
 )
-                       
+        
 push
 =
 push
+        
 closed_tree
 =
 closed_tree
+    
 )

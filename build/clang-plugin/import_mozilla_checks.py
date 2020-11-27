@@ -231,7 +231,7 @@ else
 raise
 Exception
 (
-'
+"
 Directory
 not
 copied
@@ -240,7 +240,7 @@ Error
 :
 %
 s
-'
+"
 %
 e
 )
@@ -255,8 +255,8 @@ import_options
 names
 =
 [
-'
-'
+"
+"
 +
 os
 .
@@ -299,8 +299,9 @@ names
 +
 =
 [
-'
-'
+            
+"
+"
 +
 os
 .
@@ -320,7 +321,7 @@ basename
 f
 )
 )
-                  
+            
 for
 f
 in
@@ -343,6 +344,7 @@ cpp
 module_path
 )
 )
+        
 ]
     
 if
@@ -358,8 +360,9 @@ names
 +
 =
 [
-'
-'
+            
+"
+"
 +
 os
 .
@@ -379,7 +382,7 @@ basename
 f
 )
 )
-                  
+            
 for
 f
 in
@@ -402,6 +405,7 @@ cpp
 module_path
 )
 )
+        
 ]
     
 with
@@ -414,15 +418,15 @@ path
 join
 (
 module_path
-'
+"
 CMakeLists
 .
 txt
-'
+"
 )
-'
+"
 w
-'
+"
 )
 as
 f
@@ -432,6 +436,7 @@ f
 .
 write
 (
+            
 "
 "
 "
@@ -480,11 +485,12 @@ clangTidyMPIModule
 "
 "
 "
+            
 %
 {
-'
+"
 names
-'
+"
 :
 "
 \
@@ -496,6 +502,7 @@ join
 names
 )
 }
+        
 )
 def
 add_moz_module
@@ -508,9 +515,9 @@ with
 open
 (
 cmake_path
-'
+"
 r
-'
+"
 )
 as
 f
@@ -539,13 +546,13 @@ lines
 .
 index
 (
-'
+"
 set
 (
 ALL_CLANG_TIDY_CHECKS
 \
 n
-'
+"
 )
         
 lines
@@ -555,20 +562,20 @@ insert
 idx
 +
 1
-'
+"
 clangTidyMozillaModule
 \
 n
-'
+"
 )
         
 with
 open
 (
 cmake_path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -594,7 +601,7 @@ ValueError
 raise
 Exception
 (
-'
+"
 Unable
 to
 find
@@ -602,7 +609,7 @@ ALL_CLANG_TIDY_CHECKS
 in
 {
 }
-'
+"
 .
 format
 (
@@ -625,9 +632,8 @@ path
 .
 join
 (
-        
 mozilla_path
-'
+"
 .
 .
 /
@@ -641,7 +647,7 @@ rewriting
 ThirdPartyPaths
 .
 txt
-'
+"
 )
     
 generated_txt
@@ -652,9 +658,8 @@ path
 .
 join
 (
-        
 mozilla_path
-'
+"
 .
 .
 /
@@ -668,7 +673,7 @@ rewriting
 Generated
 .
 txt
-'
+"
 )
     
 with
@@ -681,15 +686,15 @@ path
 join
 (
 module_path
-'
+"
 ThirdPartyPaths
 .
 cpp
-'
+"
 )
-'
+"
 w
-'
+"
 )
 as
 f
@@ -719,9 +724,8 @@ path
 .
 join
 (
-        
 mozilla_path
-'
+"
 .
 .
 /
@@ -737,8 +741,7 @@ plugin
 ThreadAllows
 .
 txt
-'
-    
+"
 )
     
 files
@@ -749,9 +752,8 @@ path
 .
 join
 (
-        
 mozilla_path
-'
+"
 .
 .
 /
@@ -767,8 +769,7 @@ plugin
 ThreadFileAllows
 .
 txt
-'
-    
+"
 )
     
 with
@@ -781,15 +782,15 @@ path
 join
 (
 module_path
-'
+"
 ThreadAllows
 .
 h
-'
+"
 )
-'
+"
 w
-'
+"
 )
 as
 f
@@ -820,9 +821,9 @@ import_options
     
 module
 =
-'
+"
 mozilla
-'
+"
     
 module_path
 =
@@ -898,15 +899,15 @@ path
 join
 (
 module_path
-'
+"
 .
 .
-'
-'
+"
+"
 CMakeLists
 .
 txt
-'
+"
 )
 )
     
@@ -920,19 +921,19 @@ path
 join
 (
 module_path
-'
+"
 .
 .
-'
-'
+"
+"
 CMakeLists
 .
 txt
-'
+"
 )
-'
+"
 a
-'
+"
 )
 as
 f
@@ -942,7 +943,7 @@ f
 .
 write
 (
-'
+"
 add_subdirectory
 (
 %
@@ -950,7 +951,7 @@ s
 )
 \
 n
-'
+"
 %
 module
 )
@@ -988,22 +989,22 @@ path
 join
 (
 module_path
-'
+"
 .
 .
-'
-'
+"
+"
 tool
-'
-'
+"
+"
 ClangTidyMain
 .
 cpp
-'
+"
 )
-'
+"
 a
-'
+"
 )
 as
 f
@@ -1013,9 +1014,10 @@ f
 .
 write
 (
-'
-'
-'
+            
+"
+"
+"
 /
 /
 This
@@ -1044,9 +1046,10 @@ MozillaModuleAnchorDestination
           
 MozillaModuleAnchorSource
 ;
-'
-'
-'
+"
+"
+"
+        
 )
 def
 main
@@ -1116,10 +1119,10 @@ parser
 .
 add_argument
 (
-'
+        
+"
 mozilla_path
-'
-                        
+"
 help
 =
 "
@@ -1136,16 +1139,17 @@ clang
 -
 plugin
 "
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 clang_tidy_path
-'
-                        
+"
 help
 =
 "
@@ -1166,20 +1170,22 @@ clang
 -
 tidy
 "
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 import
 -
 alpha
-'
-                        
+"
+        
 help
 =
 "
@@ -1192,26 +1198,28 @@ tree
 alpha
 checks
 "
-                        
+        
 action
 =
 "
 store_true
 "
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 import
 -
 external
-'
-                        
+"
+        
 help
 =
 "
@@ -1224,12 +1232,13 @@ tree
 external
 checks
 "
-                        
+        
 action
 =
 "
 store_true
 "
+    
 )
     
 args
@@ -1297,7 +1306,6 @@ directory
 import_options
 =
 {
-      
 "
 alpha
 "
@@ -1305,7 +1313,6 @@ alpha
 args
 .
 import_alpha
-      
 "
 external
 "
@@ -1313,7 +1320,6 @@ external
 args
 .
 import_external
-    
 }
     
 do_import
@@ -1330,9 +1336,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

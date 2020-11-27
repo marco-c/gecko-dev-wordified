@@ -121,6 +121,7 @@ n
 "
 %
 (
+        
 "
 "
 .
@@ -128,8 +129,9 @@ join
 (
 extendedAttrs
 )
-                                                 
+        
 propName
+    
 )
 def
 generate
@@ -202,18 +204,21 @@ nsComputedDOMStyle
 extendedAttrs
 =
 [
+            
 "
 CEReactions
 "
+            
 "
 Throws
 "
-                         
+            
 "
 SetterNeedsSubjectPrincipal
 =
 NonSystem
 "
+        
 ]
         
 if
@@ -332,7 +337,6 @@ here
 .
         
 if
-(
 prop
 .
 startswith
@@ -340,7 +344,6 @@ startswith
 "
 Webkit
 "
-)
 )
 :
             
@@ -667,6 +670,7 @@ output
 .
 write
 (
+        
 "
 /
 *
@@ -686,8 +690,8 @@ n
 \
 n
 "
+        
 +
-                 
 string
 .
 Template
@@ -705,11 +709,13 @@ props
 props
 }
 )
+        
 +
-'
+"
 \
 n
-'
+"
+    
 )
 def
 main
@@ -729,29 +735,30 @@ parser
 .
 add_argument
 (
-'
+"
 idlFilename
-'
+"
 help
 =
-'
+"
 IDL
 property
 file
 template
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 preprocessorHeader
-'
+"
 help
 =
-'
+"
 Header
 file
 to
@@ -759,7 +766,8 @@ pass
 through
 the
 preprocessor
-'
+"
+    
 )
     
 args
@@ -786,9 +794,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main
