@@ -4648,9 +4648,12 @@ comment
 is
 unused
 .
-NEW_GROUP_UNKNOWN
-=
+/
+/
 0x400
+is
+unused
+.
 UNCACHEABLE_PROTO
 =
 0x800
