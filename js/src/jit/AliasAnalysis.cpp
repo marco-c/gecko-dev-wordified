@@ -955,6 +955,15 @@ MDefinition
 Opcode
 :
 :
+ArrayBufferByteLengthInt32
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 ArrayBufferViewLength
 :
 case
