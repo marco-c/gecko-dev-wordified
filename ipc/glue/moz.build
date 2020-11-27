@@ -226,6 +226,11 @@ IOThreadChild
 h
 "
 "
+IPCCore
+.
+h
+"
+"
 IPCStreamAlloc
 .
 h
