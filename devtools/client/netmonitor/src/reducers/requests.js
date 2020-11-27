@@ -971,7 +971,6 @@ processNetworkUpdates
 action
 .
 data
-request
 )
 }
 ;
