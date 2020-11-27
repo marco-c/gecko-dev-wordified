@@ -78,28 +78,37 @@ test_data_model
 )
 :
     
+def
 foo
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
+def
 bar
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
+def
 baz
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
 fl
@@ -246,20 +255,26 @@ test_add_duplicates_to_list
 )
 :
     
+def
 foo
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
+def
 bar
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
 sub
@@ -406,52 +421,70 @@ test_filters_run_in_order
 )
 :
     
+def
 a
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
+def
 b
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
+def
 c
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
+def
 d
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
+def
 e
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
+def
 f
-=
-lambda
+(
 x
 y
+)
 :
+        
+return
 x
     
 fl
@@ -880,6 +913,38 @@ bar
 "
 }
 )
+        
+(
+"
+test8
+"
+{
+"
+skip
+-
+if
+"
+:
+"
+\
+nbaz
+\
+nfoo
+=
+=
+'
+bar
+'
+\
+nfoo
+=
+=
+'
+baz
+'
+"
+}
+)
     
 )
 def
@@ -947,13 +1012,24 @@ bar
 )
     
 assert
+"
+disabled
+"
+in
 tests
 [
 1
 ]
-not
+    
+assert
+"
+disabled
+"
 in
-ref
+tests
+[
+8
+]
 def
 test_run_if
 (
@@ -981,13 +1057,14 @@ tests
 )
     
 assert
-ref
+"
+disabled
+"
+in
+tests
 [
 2
 ]
-not
-in
-tests
     
 tests
 =
@@ -1016,16 +1093,15 @@ bar
 )
     
 assert
-len
-(
+"
+disabled
+"
+not
+in
 tests
-)
-=
-=
-len
-(
-ref
-)
+[
+2
+]
 def
 test_fail_if
 (
