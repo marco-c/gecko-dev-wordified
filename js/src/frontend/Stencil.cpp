@@ -5438,11 +5438,6 @@ input
 .
 options
 range
-initial
-.
-stencil
-.
-parserAtoms
 )
 ;
 XDRResult
