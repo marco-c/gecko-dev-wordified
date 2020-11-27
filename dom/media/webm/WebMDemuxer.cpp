@@ -254,6 +254,13 @@ h
 "
 #
 include
+"
+VideoUtils
+.
+h
+"
+#
+include
 <
 algorithm
 >
