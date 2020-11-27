@@ -1,13 +1,3 @@
-/
-*
-eslint
--
-disable
-no
--
-undef
-*
-/
 const
 PAGE_NON_AUTOPLAY
 =
@@ -29,6 +19,8 @@ media
 mediacontrol
 /
 tests
+/
+browser
 /
 file_non_autoplay
 .
