@@ -1073,6 +1073,9 @@ Compositor
 "
 Renderer
 "
+"
+SwComposite
+"
 ]
 duration
 :
@@ -1219,6 +1222,9 @@ Compositor
 Renderer
 "
 "
+SwComposite
+"
+"
 RenderBackend
 "
 "
@@ -1317,6 +1323,9 @@ RenderBackend
 "
 "
 Renderer
+"
+"
+SwComposite
 "
 ]
 duration
