@@ -2082,6 +2082,12 @@ nsTableColGroupFrame
 :
 GetLogicalSkipSides
 (
+const
+Maybe
+<
+SkipSidesDuringReflow
+>
+&
 )
 const
 {
