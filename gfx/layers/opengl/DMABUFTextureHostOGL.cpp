@@ -893,10 +893,10 @@ TextureHandle
 wr
 :
 :
-TextureTarget
+ImageBufferKind
 :
 :
-Default
+Texture2D
 )
 ;
 switch
