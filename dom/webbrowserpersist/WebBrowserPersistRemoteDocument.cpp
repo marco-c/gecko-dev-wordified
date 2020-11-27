@@ -153,6 +153,13 @@ nsIPrincipal
 .
 h
 "
+#
+include
+"
+nsISHEntry
+.
+h
+"
 namespace
 mozilla
 {
