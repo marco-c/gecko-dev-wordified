@@ -107,7 +107,7 @@ window
 addEventListener
 (
 '
-load
+pageshow
 '
 (
 )
