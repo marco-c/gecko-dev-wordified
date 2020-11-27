@@ -5298,7 +5298,6 @@ aLineReflowStatus
 Compute
 the
 available
-inline
 size
 for
 a
@@ -5320,9 +5319,6 @@ mozilla
 LogicalRect
 &
 aFloatAvailableSpace
-nsIFrame
-*
-aFloatFrame
 )
 ;
 /
