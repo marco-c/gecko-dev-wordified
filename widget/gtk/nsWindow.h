@@ -2491,7 +2491,7 @@ aFlippedY
 ;
 static
 bool
-IsMainWindowTransparent
+IsToplevelWindowTransparent
 (
 )
 ;
@@ -2705,9 +2705,6 @@ mWindowScaleFactorChanged
 ;
 int
 mWindowScaleFactor
-;
-bool
-mIsAccelerated
 ;
 private
 :
@@ -3033,6 +3030,13 @@ widget
 :
 WindowSurfaceProvider
 mSurfaceProvider
+;
+bool
+ConfigureX11GLVisual
+(
+bool
+aUseAlpha
+)
 ;
 #
 endif
