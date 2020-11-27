@@ -236,7 +236,7 @@ execute_script
 return
 AppConstants
 .
-NIGHTLY_BUILD
+MOZ_GLEAN
 ;
 "
             
@@ -298,7 +298,7 @@ present
 in
 AppConstants
 .
-NIGHTLY_BUILD
+MOZ_GLEAN
 builds
 .
 "
