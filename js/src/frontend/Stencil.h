@@ -2733,13 +2733,6 @@ NullScriptThing
 {
 }
 ;
-using
-ScriptAtom
-=
-const
-ParserAtom
-*
-;
 /
 /
 These
@@ -2768,7 +2761,7 @@ mozilla
 :
 Variant
 <
-ScriptAtom
+TaggedParserAtomIndex
 NullScriptThing
 BigIntIndex
 ObjLiteralIndex

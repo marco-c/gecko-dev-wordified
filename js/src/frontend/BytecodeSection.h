@@ -579,12 +579,11 @@ mozilla
 :
 AsVariant
 (
-std
-:
-:
-move
-(
 atom
+-
+>
+toIndex
+(
 )
 )
 )
