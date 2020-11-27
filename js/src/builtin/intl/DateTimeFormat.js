@@ -2712,9 +2712,6 @@ numeric
 undefined
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 formatOpt
 .
 fractionalSecondDigits
@@ -2730,8 +2727,6 @@ fractionalSecondDigits
 undefined
 )
 ;
-#
-endif
 formatOpt
 .
 timeZoneName
@@ -3010,14 +3005,9 @@ minute
 "
 second
 "
-#
-ifdef
-NIGHTLY_BUILD
 "
 fractionalSecondDigits
 "
-#
-endif
 "
 timeZoneName
 "
@@ -4803,9 +4793,6 @@ s
 break
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 switch
 (
 options
@@ -4850,8 +4837,6 @@ SSS
 break
 ;
 }
-#
-endif
 switch
 (
 options
@@ -5293,9 +5278,6 @@ needDefaults
 =
 false
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 options
@@ -5310,8 +5292,6 @@ needDefaults
 =
 false
 ;
-#
-endif
 }
 /
 /
@@ -8022,9 +8002,6 @@ second
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 fractionalSecondDigits
@@ -8040,8 +8017,6 @@ fractionalSecondDigits
 )
 ;
 }
-#
-endif
 if
 (
 timeZoneName
