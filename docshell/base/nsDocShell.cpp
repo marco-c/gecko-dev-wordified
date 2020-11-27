@@ -56320,6 +56320,7 @@ get
 (
 )
 mLoadType
+mChildOffset
 cacheKey
 )
 ;
@@ -75369,6 +75370,7 @@ get
 (
 )
 mLoadType
+mChildOffset
 /
 *
 aCacheKey
