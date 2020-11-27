@@ -786,7 +786,7 @@ issues
 /
 3856
                 
-l
+f
 =
 self
 .
@@ -803,11 +803,10 @@ i
 )
 {
 "
-items
+flow
 "
 :
-[
-]
+None
 "
 reply_count
 "
@@ -817,17 +816,23 @@ reply_count
                 
 )
                 
-l
+#
+overwrite
+with
+new
+flow
+if
+already
+hashed
+                
+f
 [
 "
-items
+flow
 "
 ]
-.
-append
-(
+=
 i
-)
             
 else
 :
@@ -1470,6 +1475,17 @@ reply_count
 =
 1
             
+#
+return
+the
+most
+recently
+added
+flow
+with
+this
+hash
+            
 return
 self
 .
@@ -1479,12 +1495,8 @@ hsh
 ]
 [
 "
-items
+flow
 "
-]
-[
--
-1
 ]
     
 def
