@@ -100,7 +100,10 @@ transforms
 .
 bouncer_submission_partners
 import
+(
+    
 craft_partner_bouncer_product_name
+)
 from
 taskgraph
 .
@@ -159,28 +162,30 @@ resolve_keyed_by
 (
             
 job
-'
+            
+"
 worker
 -
 type
-'
+"
+            
 item_name
 =
 job
 [
-'
+"
 name
-'
+"
 ]
             
 *
 *
 {
-'
+"
 release
 -
 level
-'
+"
 :
 config
 .
@@ -197,26 +202,28 @@ resolve_keyed_by
 (
             
 job
-'
+            
+"
 scopes
-'
+"
+            
 item_name
 =
 job
 [
-'
+"
 name
-'
+"
 ]
             
 *
 *
 {
-'
+"
 release
 -
 level
-'
+"
 :
 config
 .
@@ -233,7 +240,8 @@ resolve_keyed_by
 (
             
 job
-'
+            
+"
 bouncer
 -
 products
@@ -241,31 +249,32 @@ products
 per
 -
 alias
-'
+"
             
 item_name
 =
 job
 [
-'
+"
 name
-'
+"
 ]
+            
 project
 =
 config
 .
 params
 [
-'
+"
 project
-'
+"
 ]
         
 )
         
 if
-'
+"
 partner
 -
 bouncer
@@ -275,7 +284,7 @@ products
 per
 -
 alias
-'
+"
 in
 job
 :
@@ -284,7 +293,8 @@ resolve_keyed_by
 (
                 
 job
-'
+                
+"
 partner
 -
 bouncer
@@ -294,39 +304,40 @@ products
 per
 -
 alias
-'
+"
                 
 item_name
 =
 job
 [
-'
+"
 name
-'
+"
 ]
+                
 project
 =
 config
 .
 params
 [
-'
+"
 project
-'
+"
 ]
             
 )
         
 job
 [
-'
+"
 worker
-'
+"
 ]
 [
-'
+"
 entries
-'
+"
 ]
 =
 craft_bouncer_entries
@@ -338,7 +349,7 @@ job
 del
 job
 [
-'
+"
 bouncer
 -
 products
@@ -346,11 +357,11 @@ products
 per
 -
 alias
-'
+"
 ]
         
 if
-'
+"
 partner
 -
 bouncer
@@ -360,7 +371,7 @@ products
 per
 -
 alias
-'
+"
 in
 job
 :
@@ -368,7 +379,7 @@ job
 del
 job
 [
-'
+"
 partner
 -
 bouncer
@@ -378,20 +389,20 @@ products
 per
 -
 alias
-'
+"
 ]
         
 if
 job
 [
-'
+"
 worker
-'
+"
 ]
 [
-'
+"
 entries
-'
+"
 ]
 :
             
@@ -405,6 +416,7 @@ logger
 .
 warn
 (
+                
 '
 No
 bouncer
@@ -428,13 +440,16 @@ deleted
 .
 format
 (
+                    
 job
 [
-'
+"
 name
-'
+"
 ]
+                
 )
+            
 )
 def
 craft_bouncer_entries
@@ -455,27 +470,27 @@ product
 =
 job
 [
-'
+"
 shipping
 -
 product
-'
+"
 ]
     
 current_version
 =
 release_config
 [
-'
+"
 version
-'
+"
 ]
     
 bouncer_products_per_alias
 =
 job
 [
-'
+"
 bouncer
 -
 products
@@ -483,7 +498,7 @@ products
 per
 -
 alias
-'
+"
 ]
     
 entries
@@ -496,7 +511,9 @@ craft_bouncer_product_name
 (
             
 product
+            
 bouncer_product
+            
 current_version
         
 )
@@ -519,7 +536,7 @@ job
 .
 get
 (
-'
+"
 partner
 -
 bouncer
@@ -529,7 +546,7 @@ products
 per
 -
 alias
-'
+"
 )
     
 if
@@ -555,41 +572,48 @@ entries
 .
 update
 (
-{
                 
+{
+                    
 bouncer_alias
 .
 replace
 (
-'
+                        
+"
 PARTNER
-'
-'
+"
+"
 {
 }
 -
 {
 }
-'
+"
 .
 format
 (
 partner
 sub_config_name
 )
+                    
 )
 :
-                    
 craft_partner_bouncer_product_name
 (
                         
 product
+                        
 bouncer_product
+                        
 current_version
+                        
 partner
+                        
 sub_config_name
+                    
 )
-                
+                    
 for
 bouncer_alias
 bouncer_product
@@ -599,8 +623,13 @@ partner_bouncer_products_per_alias
 items
 (
 )
-            
+#
+NOQA
+:
+E501
+                
 }
+            
 )
     
 return

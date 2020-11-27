@@ -28,33 +28,33 @@ import
 buildconfig
 NO_CONTRACT_ID
 =
-0xffffffff
+0xFFFFFFFF
 PHF_SIZE
 =
 512
 ENDIAN
 =
-'
+"
 <
-'
+"
 if
 buildconfig
 .
 substs
 [
-'
+"
 TARGET_ENDIANNESS
-'
+"
 ]
 =
 =
-'
+"
 little
-'
+"
 else
-'
+"
 >
-'
+"
 #
 Represents
 a
@@ -181,7 +181,7 @@ i
 )
 )
 &
-0xff
+0xFF
 )
         
 self
@@ -224,10 +224,9 @@ pack
 (
 ENDIAN
 +
-'
+"
 IHHBBBBBBBB
-'
-                           
+"
 self
 .
 a
@@ -252,16 +251,16 @@ self
         
 rest
 =
-'
-'
+"
+"
 .
 join
 (
-'
+"
 0x
 %
 02x
-'
+"
 %
 b
 for
@@ -273,7 +272,7 @@ d
 )
         
 return
-'
+"
 {
 0x
 %
@@ -289,7 +288,7 @@ x
 s
 }
 }
-'
+"
 %
 (
 self
@@ -301,7 +300,6 @@ b
 self
 .
 c
-                                                 
 rest
 )
 #
@@ -384,21 +382,15 @@ ALLOW_IN_RDD_PROCESS
     
 ALLOW_IN_GPU_AND_MAIN_PROCESS
 =
-(
 ALLOW_IN_GPU_PROCESS
 |
-                                     
 MAIN_PROCESS_ONLY
-)
     
 ALLOW_IN_GPU_AND_SOCKET_PROCESS
 =
-(
 ALLOW_IN_GPU_PROCESS
 |
-                                       
 ALLOW_IN_SOCKET_PROCESS
-)
     
 ALLOW_IN_GPU_AND_VR_PROCESS
 =
@@ -409,49 +401,48 @@ ALLOW_IN_VR_PROCESS
 ALLOW_IN_GPU_VR_AND_SOCKET_PROCESS
 =
 (
+        
 ALLOW_IN_GPU_PROCESS
 |
-                                          
 ALLOW_IN_VR_PROCESS
 |
-                                          
 ALLOW_IN_SOCKET_PROCESS
+    
 )
     
 ALLOW_IN_RDD_AND_SOCKET_PROCESS
 =
-(
 ALLOW_IN_RDD_PROCESS
 |
-                                       
 ALLOW_IN_SOCKET_PROCESS
-)
     
 ALLOW_IN_GPU_RDD_AND_SOCKET_PROCESS
 =
 (
+        
 ALLOW_IN_GPU_PROCESS
 |
-                                           
 ALLOW_IN_RDD_PROCESS
 |
-                                           
 ALLOW_IN_SOCKET_PROCESS
+    
 )
     
 ALLOW_IN_GPU_RDD_VR_AND_SOCKET_PROCESS
 =
 (
+        
 ALLOW_IN_GPU_PROCESS
+        
 |
-                                              
 ALLOW_IN_RDD_PROCESS
+        
 |
-                                              
 ALLOW_IN_VR_PROCESS
+        
 |
-                                              
 ALLOW_IN_SOCKET_PROCESS
+    
 )
 #
 Maps
@@ -479,116 +470,117 @@ ProcessSelector
 .
 ANY_PROCESS
 :
-'
+"
 ANY_PROCESS
-'
+"
     
 ProcessSelector
 .
 MAIN_PROCESS_ONLY
 :
-'
+"
 MAIN_PROCESS_ONLY
-'
+"
     
 ProcessSelector
 .
 CONTENT_PROCESS_ONLY
 :
-'
+"
 CONTENT_PROCESS_ONLY
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_GPU_PROCESS
 :
-'
+"
 ALLOW_IN_GPU_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_VR_PROCESS
 :
-'
+"
 ALLOW_IN_VR_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_SOCKET_PROCESS
 :
-'
+"
 ALLOW_IN_SOCKET_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_RDD_PROCESS
 :
-'
+"
 ALLOW_IN_RDD_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_GPU_AND_MAIN_PROCESS
 :
-'
+"
 ALLOW_IN_GPU_AND_MAIN_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_GPU_AND_SOCKET_PROCESS
 :
-'
+"
 ALLOW_IN_GPU_AND_SOCKET_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_GPU_AND_VR_PROCESS
 :
-'
+"
 ALLOW_IN_GPU_AND_VR_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_GPU_VR_AND_SOCKET_PROCESS
 :
-'
+"
 ALLOW_IN_GPU_VR_AND_SOCKET_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_RDD_AND_SOCKET_PROCESS
 :
-        
-'
+"
 ALLOW_IN_RDD_AND_SOCKET_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_GPU_RDD_AND_SOCKET_PROCESS
 :
-        
-'
+"
 ALLOW_IN_GPU_RDD_AND_SOCKET_PROCESS
-'
+"
     
 ProcessSelector
 .
 ALLOW_IN_GPU_RDD_VR_AND_SOCKET_PROCESS
 :
-        
-'
+"
 ALLOW_IN_GPU_RDD_VR_AND_SOCKET_PROCESS
-'
+"
+#
+NOQA
+:
+E501
 }
 #
 Emits
@@ -612,7 +604,7 @@ processes
 :
     
 return
-'
+"
 Module
 :
 :
@@ -621,7 +613,7 @@ ProcessSelector
 :
 %
 s
-'
+"
 %
 PROCESSES
 [
@@ -652,13 +644,13 @@ module
 :
     
 return
-'
+"
 ModuleID
 :
 :
 %
 s
-'
+"
 %
 module
 .
@@ -807,11 +799,11 @@ string
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
         
@@ -936,16 +928,16 @@ entry
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 \
 \
 \
 \
-'
+"
 )
 .
 replace
@@ -954,25 +946,23 @@ replace
 "
 '
 r
-'
+"
 \
 "
-'
+"
 )
-\
-                        
 .
 replace
 (
-'
+"
 \
 n
-'
+"
 r
-'
+"
 \
 n
-'
+"
 )
             
 lines
@@ -1015,8 +1005,8 @@ entry
 1
         
 return
-'
-'
+"
+"
 .
 join
 (
@@ -1073,7 +1063,7 @@ string
 )
         
 return
-'
+"
 {
 0x
 %
@@ -1085,12 +1075,10 @@ x
 s
 *
 /
-'
+"
 %
 (
-            
 idx
-            
 pretty_string
 (
 string
@@ -1287,14 +1275,14 @@ name
 res
 +
 =
-'
+"
 namespace
 %
 s
 {
 \
 n
-'
+"
 %
 self
 .
@@ -1314,14 +1302,14 @@ classes
 res
 +
 =
-'
+"
 class
 %
 s
 ;
 \
 n
-'
+"
 %
 clas
         
@@ -1363,7 +1351,7 @@ name
 res
 +
 =
-'
+"
 }
 /
 /
@@ -1372,7 +1360,7 @@ namespace
 s
 \
 n
-'
+"
 %
 self
 .
@@ -1424,9 +1412,9 @@ UUID
 (
 data
 [
-'
+"
 cid
-'
+"
 ]
 )
 )
@@ -1439,9 +1427,9 @@ data
 .
 get
 (
-'
+"
 contract_ids
-'
+"
 [
 ]
 )
@@ -1454,12 +1442,12 @@ data
 .
 get
 (
-'
+"
 type
-'
-'
+"
+"
 nsISupports
-'
+"
 )
         
 self
@@ -1470,9 +1458,9 @@ data
 .
 get
 (
-'
+"
 categories
-'
+"
 {
 }
 )
@@ -1485,9 +1473,9 @@ data
 .
 get
 (
-'
+"
 processes
-'
+"
 0
 )
         
@@ -1499,9 +1487,9 @@ data
 .
 get
 (
-'
+"
 headers
-'
+"
 [
 ]
 )
@@ -1514,9 +1502,9 @@ data
 .
 get
 (
-'
+"
 js_name
-'
+"
 None
 )
         
@@ -1528,9 +1516,9 @@ data
 .
 get
 (
-'
+"
 interfaces
-'
+"
 [
 ]
 )
@@ -1549,7 +1537,8 @@ interfaces
 raise
 Exception
 (
-'
+                
+"
 JS
 service
 %
@@ -1560,15 +1549,15 @@ have
 more
 than
 255
-'
-                            
-'
+"
+"
 interfaces
-'
+"
 %
 self
 .
 js_name
+            
 )
         
 self
@@ -1668,9 +1657,9 @@ data
 .
 get
 (
-'
+"
 constructor
-'
+"
 None
 )
         
@@ -1682,9 +1671,9 @@ data
 .
 get
 (
-'
+"
 legacy_constructor
-'
+"
 None
 )
         
@@ -1696,9 +1685,9 @@ data
 .
 get
 (
-'
+"
 init_method
-'
+"
 [
 ]
 )
@@ -1711,9 +1700,9 @@ data
 .
 get
 (
-'
+"
 jsm
-'
+"
 None
 )
         
@@ -1725,20 +1714,21 @@ data
 .
 get
 (
-'
+            
+"
 external
-'
+"
 not
 (
 self
 .
 headers
 or
-                                                  
 self
 .
 legacy_constructor
 )
+        
 )
         
 self
@@ -1749,9 +1739,9 @@ data
 .
 get
 (
-'
+"
 singleton
-'
+"
 False
 )
         
@@ -1763,16 +1753,16 @@ data
 .
 get
 (
-'
+"
 overridable
-'
+"
 False
 )
         
 if
-'
+"
 name
-'
+"
 in
 data
 :
@@ -1789,9 +1779,9 @@ name
 =
 data
 [
-'
+"
 name
-'
+"
 ]
         
 else
@@ -1807,11 +1797,11 @@ self
 .
 name
 =
-'
+"
 Anonymous
 %
 03d
-'
+"
 %
 ModuleEntry
 .
@@ -1834,6 +1824,7 @@ str_
 raise
 Exception
 (
+                
 "
 Error
 defining
@@ -1848,17 +1839,17 @@ s
 %
 s
 "
+                
 %
 (
-                
 str
 (
 self
 .
 cid
 )
-'
-'
+"
+"
 .
 join
 (
@@ -1870,9 +1861,9 @@ self
 contract_ids
 )
 )
-                
 str_
 )
+            
 )
         
 if
@@ -1904,15 +1895,15 @@ for
 prop
 in
 (
-'
+"
 init_method
-'
-'
+"
+"
 legacy_constructor
-'
-'
+"
+"
 headers
-'
+"
 )
 :
                 
@@ -1926,6 +1917,7 @@ prop
                     
 error
 (
+                        
 "
 JavaScript
 components
@@ -1938,12 +1930,13 @@ a
 s
 '
 "
-                          
+                        
 "
 property
 "
 %
 prop
+                    
 )
         
 elif
@@ -1964,6 +1957,7 @@ legacy_constructor
                 
 error
 (
+                    
 "
 Externally
 -
@@ -1973,7 +1967,7 @@ may
 not
 specify
 "
-                      
+                    
 "
 '
 constructor
@@ -1984,6 +1978,7 @@ legacy_constructor
 '
 properties
 "
+                
 )
             
 if
@@ -1994,6 +1989,7 @@ init_method
                 
 error
 (
+                    
 "
 Externally
 -
@@ -2003,13 +1999,14 @@ may
 not
 specify
 "
-                      
+                    
 "
 '
 init_method
 '
 properties
 "
+                
 )
             
 if
@@ -2018,13 +2015,14 @@ self
 type
 =
 =
-'
+"
 nsISupports
-'
+"
 :
                 
 error
 (
+                    
 "
 Externally
 -
@@ -2035,12 +2033,13 @@ specify
 a
 type
 "
-                      
+                    
 "
 other
 than
 nsISupports
 "
+                
 )
         
 if
@@ -2055,6 +2054,7 @@ legacy_constructor
             
 error
 (
+                
 "
 The
 '
@@ -2066,12 +2066,13 @@ legacy_constructor
 '
 properties
 "
-                  
+                
 "
 are
 mutually
 exclusive
 "
+            
 )
         
 if
@@ -2097,7 +2098,6 @@ least
 one
 contract
 "
-                  
 "
 ID
 "
@@ -2149,6 +2149,7 @@ self
 contract_id
 =
 (
+            
 strings
 .
 entry_to_cxx
@@ -2157,22 +2158,23 @@ self
 .
 contract_id
 )
-                       
+            
 if
 self
 .
 overridable
-                       
+            
 else
-'
+"
 {
 0x
 %
 x
 }
-'
+"
 %
 NO_CONTRACT_ID
+        
 )
         
 return
@@ -2222,11 +2224,13 @@ processes
 .
 format
 (
+            
 name
 =
 self
 .
 name
+            
 cid
 =
 self
@@ -2236,7 +2240,7 @@ cid
 to_cxx
 (
 )
-                     
+            
 cid_string
 =
 str
@@ -2245,11 +2249,11 @@ self
 .
 cid
 )
-                     
+            
 contract_id
 =
 contract_id
-                     
+            
 processes
 =
 lower_processes
@@ -2258,6 +2262,7 @@ self
 .
 processes
 )
+        
 )
     
 #
@@ -2321,6 +2326,7 @@ iface_count
 .
 format
 (
+            
 js_name
 =
 strings
@@ -2331,19 +2337,19 @@ self
 .
 js_name
 )
-                     
+            
 name
 =
 self
 .
 name
-                     
+            
 iface_offset
 =
 self
 .
 interfaces_offset
-                     
+            
 iface_count
 =
 len
@@ -2352,6 +2358,7 @@ self
 .
 interfaces
 )
+        
 )
     
 #
@@ -2454,8 +2461,8 @@ self
         
 res
 =
-'
-'
+"
+"
         
 if
 self
@@ -2469,7 +2476,7 @@ None
 res
 +
 =
-'
+"
 MOZ_TRY
 (
 CallInitFunc
@@ -2481,7 +2488,7 @@ d
 ;
 \
 n
-'
+"
 %
 self
 .
@@ -2497,7 +2504,8 @@ res
 +
 =
 (
-'
+                
+"
 return
 /
 *
@@ -2514,12 +2522,13 @@ aResult
 ;
 \
 n
-'
-                    
+"
+                
 %
 self
 .
 legacy_constructor
+            
 )
             
 return
@@ -2536,7 +2545,7 @@ res
 =
 (
                 
-'
+"
 nsCOMPtr
 <
 nsISupports
@@ -2545,9 +2554,9 @@ inst
 ;
 \
 n
-'
+"
                 
-'
+"
 MOZ_TRY
 (
 ConstructJSMComponent
@@ -2559,16 +2568,16 @@ s
 )
 \
 n
-'
+"
                 
-'
+"
 %
 s
 \
 n
-'
+"
                 
-'
+"
 getter_AddRefs
 (
 inst
@@ -2576,12 +2585,12 @@ inst
 )
 )
 ;
-'
+"
                 
-'
+"
 \
 n
-'
+"
 %
 (
 json
@@ -2601,6 +2610,7 @@ self
 constructor
 )
 )
+            
 )
         
 elif
@@ -2613,16 +2623,17 @@ res
 +
 =
 (
-'
+                
+"
 nsCOMPtr
 <
 nsISupports
 >
 inst
 =
-'
-                    
-'
+"
+                
+"
 mozCreateComponent
 <
 %
@@ -2633,11 +2644,12 @@ s
 ;
 \
 n
-'
+"
 %
 self
 .
 type
+            
 )
             
 #
@@ -2660,7 +2672,7 @@ methods
 res
 +
 =
-'
+"
 NS_ENSURE_TRUE
 (
 inst
@@ -2669,7 +2681,7 @@ NS_ERROR_FAILURE
 ;
 \
 n
-'
+"
         
 else
 :
@@ -2677,7 +2689,7 @@ else
 res
 +
 =
-'
+"
 RefPtr
 <
 %
@@ -2685,7 +2697,7 @@ s
 >
 inst
 =
-'
+"
 %
 self
 .
@@ -2701,7 +2713,7 @@ constructor
 res
 +
 =
-'
+"
 new
 %
 s
@@ -2710,7 +2722,7 @@ s
 ;
 \
 n
-'
+"
 %
 self
 .
@@ -2722,7 +2734,7 @@ else
 res
 +
 =
-'
+"
 %
 s
 (
@@ -2730,7 +2742,7 @@ s
 ;
 \
 n
-'
+"
 %
 self
 .
@@ -2773,7 +2785,7 @@ methods
 res
 +
 =
-'
+"
 NS_ENSURE_TRUE
 (
 inst
@@ -2782,7 +2794,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 \
 n
-'
+"
                 
 #
 Check
@@ -2900,20 +2912,23 @@ already_AddRefed
 "
 %
 {
-'
+                    
+"
 type
-'
+"
 :
 self
 .
 type
-'
+                    
+"
 constructor
-'
+"
 :
 self
 .
 constructor
+                
 }
             
 if
@@ -2925,7 +2940,7 @@ init_method
 res
 +
 =
-'
+"
 MOZ_TRY
 (
 inst
@@ -2939,7 +2954,7 @@ s
 ;
 \
 n
-'
+"
 %
 self
 .
@@ -2948,7 +2963,7 @@ init_method
 res
 +
 =
-'
+"
 return
 inst
 -
@@ -2961,7 +2976,7 @@ aResult
 ;
 \
 n
-'
+"
         
 return
 res
@@ -3037,19 +3052,19 @@ substs
 =
 {
             
-'
+"
 name
-'
+"
 :
 self
 .
 name
             
-'
+"
 id
-'
+"
 :
-'
+"
 :
 :
 mozilla
@@ -3063,7 +3078,7 @@ ModuleID
 :
 %
 s
-'
+"
 %
 self
 .
@@ -3073,6 +3088,8 @@ name
         
 res
 =
+(
+            
 "
 "
 "
@@ -3150,8 +3167,11 @@ aRv
 "
 "
 "
+            
 %
 substs
+        
+)
         
 if
 not
@@ -3163,6 +3183,8 @@ singleton
 res
 +
 =
+(
+                
 "
 "
 "
@@ -3201,12 +3223,17 @@ aRv
 "
 "
 "
+                
 %
 substs
+            
+)
         
 res
 +
 =
+(
+            
 "
 "
 "
@@ -3223,8 +3250,11 @@ s
 "
 "
 "
+            
 %
 substs
+        
+)
         
 return
 res
@@ -3278,7 +3308,6 @@ string
 :
     
 return
-(
 json
 .
 dumps
@@ -3288,32 +3317,30 @@ string
 .
 replace
 (
-'
+"
 *
 /
-'
+"
 r
-'
+"
 *
 \
 /
-'
+"
 )
-                
 .
 replace
 (
-'
+"
 /
 *
-'
+"
 r
-'
+"
 /
 \
 *
-'
-)
+"
 )
 #
 Represents
@@ -3400,6 +3427,7 @@ module_id
 .
 format
 (
+            
 contract
 =
 strings
@@ -3410,7 +3438,7 @@ self
 .
 contract
 )
-                     
+            
 module_id
 =
 lower_module_id
@@ -3419,6 +3447,7 @@ self
 .
 module
 )
+        
 )
 #
 Generates
@@ -3489,15 +3518,16 @@ cats
 .
 append
 (
-'
+            
+"
 {
 %
 s
 \
 n
-'
-                    
-'
+"
+            
+"
 %
 d
 %
@@ -3505,8 +3535,7 @@ d
 }
 \
 n
-'
-                    
+"
 %
 (
 strings
@@ -3515,13 +3544,13 @@ entry_to_cxx
 (
 category
 )
-                       
 count
 len
 (
 entries
 )
 )
+        
 )
         
 count
@@ -3536,7 +3565,7 @@ ents
 .
 append
 (
-'
+"
 /
 *
 %
@@ -3545,7 +3574,7 @@ s
 /
 \
 n
-'
+"
 %
 pretty_string
 (
@@ -3565,60 +3594,64 @@ ents
 .
 append
 (
-'
+                
+"
 {
 %
 s
 \
 n
-'
-                        
-'
+"
+                
+"
 %
 s
 \
 n
-'
-                        
-'
+"
+                
+"
 %
 s
 }
 \
 n
-'
-                        
+"
+                
 %
 (
+                    
 strings
 .
 entry_to_cxx
 (
 entry
 )
-                           
+                    
 strings
 .
 entry_to_cxx
 (
 value
 )
-                           
+                    
 lower_processes
 (
 processes
 )
+                
 )
+            
 )
         
 ents
 .
 append
 (
-'
+"
 \
 n
-'
+"
 )
     
 ents
@@ -3629,9 +3662,9 @@ pop
     
 substs
 [
-'
+"
 category_count
-'
+"
 ]
 =
 len
@@ -3641,13 +3674,13 @@ cats
     
 substs
 [
-'
+"
 categories
-'
+"
 ]
 =
-'
-'
+"
+"
 .
 join
 (
@@ -3656,13 +3689,13 @@ cats
     
 substs
 [
-'
+"
 category_entries
-'
+"
 ]
 =
-'
-'
+"
+"
 .
 join
 (
@@ -3759,25 +3792,25 @@ funcs
         
 init_code
 =
-'
+"
 %
 s
 (
 )
 ;
-'
+"
 %
 init
 if
 init
 else
-'
+"
 /
 *
 empty
 *
 /
-'
+"
         
 inits
 .
@@ -3799,6 +3832,7 @@ unloads
 .
 append
 (
+                
 "
 "
 "
@@ -3824,22 +3858,24 @@ s
 "
 "
 "
+                
 %
 (
 i
 unload
 )
+            
 )
     
 substs
 [
-'
+"
 init_funcs
-'
+"
 ]
 =
-'
-'
+"
+"
 .
 join
 (
@@ -3848,13 +3884,13 @@ inits
     
 substs
 [
-'
+"
 unload_funcs
-'
+"
 ]
 =
-'
-'
+"
+"
 .
 join
 (
@@ -3863,9 +3899,9 @@ unloads
     
 substs
 [
-'
+"
 init_count
-'
+"
 ]
 =
 len
@@ -3894,7 +3930,7 @@ res
 .
 append
 (
-'
+"
 nsXPTInterface
 :
 :
@@ -3902,14 +3938,14 @@ nsXPTInterface
 s
 \
 n
-'
+"
 %
 iface
 )
     
 return
-'
-'
+"
+"
 .
 join
 (
@@ -3972,10 +4008,10 @@ type_
 .
 split
 (
-'
+"
 :
 :
-'
+"
 )
         
 ns
@@ -4073,6 +4109,7 @@ constructors
 .
 append
 (
+            
 "
 "
 "
@@ -4098,13 +4135,13 @@ constructor
 .
 format
 (
+                
 id
 =
 lower_module_id
 (
 entry
 )
-           
 constructor
 =
 entry
@@ -4112,12 +4149,14 @@ entry
 lower_constructor
 (
 )
+            
 )
+        
 )
     
 return
-'
-'
+"
+"
 .
 join
 (
@@ -4173,8 +4212,8 @@ name
 )
     
 return
-'
-'
+"
+"
 .
 join
 (
@@ -4183,12 +4222,10 @@ entry
 lower_getters
 (
 )
-                   
 for
 entry
 in
 entries
-                   
 if
 not
 entry
@@ -4226,9 +4263,9 @@ header
 .
 startswith
 (
-'
+"
 /
-'
+"
 )
 :
             
@@ -4273,29 +4310,30 @@ headers
     
 substs
 [
-'
+"
 includes
-'
+"
 ]
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 includes
 )
 +
-'
+"
 \
 n
-'
+"
     
 relative_includes
 =
 [
+        
 '
 #
 include
@@ -4311,7 +4349,6 @@ s
 '
 %
 header
-                         
 for
 header
 in
@@ -4319,29 +4356,30 @@ sorted
 (
 absolute_headers
 )
+    
 ]
     
 substs
 [
-'
+"
 relative_includes
-'
+"
 ]
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 relative_includes
 )
 +
-'
+"
 \
 n
-'
+"
 def
 to_list
 (
@@ -4364,7 +4402,9 @@ return
 val
     
 return
+(
 val
+)
 def
 gen_substs
 (
@@ -4410,9 +4450,9 @@ manifest
 .
 get
 (
-'
+"
 Headers
-'
+"
 [
 ]
 )
@@ -4428,9 +4468,9 @@ manifest
 .
 get
 (
-'
+"
 InitFunc
-'
+"
 )
         
 unload
@@ -4439,9 +4479,9 @@ manifest
 .
 get
 (
-'
+"
 UnloadFunc
-'
+"
 )
         
 if
@@ -4472,9 +4512,9 @@ clas
 in
 manifest
 [
-'
+"
 Classes
-'
+"
 ]
 :
             
@@ -4497,9 +4537,9 @@ manifest
 .
 get
 (
-'
+"
 Categories
-'
+"
 {
 }
 )
@@ -4622,14 +4662,14 @@ contract_map
 raise
 Exception
 (
-'
+"
 Duplicate
 contract
 ID
 :
 %
 s
-'
+"
 %
 contract_id
 )
@@ -4690,7 +4730,6 @@ entry
 mod
 .
 contract_id
-                                             
 mod
 .
 processes
@@ -4749,7 +4788,7 @@ js_services
 raise
 Exception
 (
-'
+"
 Duplicate
 JS
 service
@@ -4757,7 +4796,7 @@ name
 :
 %
 s
-'
+"
 %
 mod
 .
@@ -4787,13 +4826,13 @@ cids
 raise
 Exception
 (
-'
+"
 Duplicate
 cid
 :
 %
 s
-'
+"
 %
 str
 (
@@ -4821,7 +4860,6 @@ PerfectHash
 (
 modules
 PHF_SIZE
-                          
 key
 =
 lambda
@@ -4840,7 +4878,6 @@ PerfectHash
 (
 contracts
 PHF_SIZE
-                               
 key
 =
 lambda
@@ -4855,6 +4892,7 @@ js_services_phf
 =
 PerfectHash
 (
+        
 list
 (
 js_services
@@ -4864,7 +4902,6 @@ values
 )
 )
 PHF_SIZE
-                                  
 key
 =
 lambda
@@ -4873,6 +4910,7 @@ entry
 entry
 .
 js_name
+    
 )
     
 substs
@@ -4888,27 +4926,26 @@ categories
     
 substs
 [
-'
+"
 module_ids
-'
+"
 ]
 =
-'
-'
+"
+"
 .
 join
 (
-'
+"
 %
 s
 \
 n
-'
+"
 %
 entry
 .
 name
-                                   
 for
 entry
 in
@@ -4919,9 +4956,9 @@ entries
     
 substs
 [
-'
+"
 module_count
-'
+"
 ]
 =
 len
@@ -4931,9 +4968,9 @@ modules
     
 substs
 [
-'
+"
 contract_count
-'
+"
 ]
 =
 len
@@ -4955,22 +4992,24 @@ headers
     
 substs
 [
-'
+"
 component_jsms
-'
+"
 ]
 =
-'
+(
+        
+"
 \
 n
-'
+"
 .
 join
 (
-'
+"
 %
 s
-'
+"
 %
 strings
 .
@@ -4978,7 +5017,6 @@ entry_to_cxx
 (
 jsm
 )
-                                         
 for
 jsm
 in
@@ -4988,16 +5026,18 @@ jsms
 )
 )
 +
-'
+"
 \
 n
-'
+"
+    
+)
     
 substs
 [
-'
+"
 interfaces
-'
+"
 ]
 =
 gen_interfaces
@@ -5007,9 +5047,9 @@ interfaces
     
 substs
 [
-'
+"
 decls
-'
+"
 ]
 =
 gen_decls
@@ -5019,9 +5059,9 @@ types
     
 substs
 [
-'
+"
 constructors
-'
+"
 ]
 =
 gen_constructors
@@ -5033,9 +5073,9 @@ entries
     
 substs
 [
-'
+"
 component_getters
-'
+"
 ]
 =
 gen_getters
@@ -5047,9 +5087,9 @@ entries
     
 substs
 [
-'
+"
 module_cid_table
-'
+"
 ]
 =
 cid_phf
@@ -5059,21 +5099,21 @@ cxx_codegen
         
 name
 =
-'
+"
 ModuleByCID
-'
+"
         
 entry_type
 =
-'
+"
 StaticModule
-'
+"
         
 entries_name
 =
-'
+"
 gStaticModules
-'
+"
         
 lower_entry
 =
@@ -5088,16 +5128,17 @@ to_cxx
         
 return_type
 =
-'
+"
 const
 StaticModule
 *
-'
+"
         
 return_entry
 =
 (
-'
+            
+"
 return
 entry
 .
@@ -5116,29 +5157,29 @@ entry
 Active
 (
 )
-'
-                      
-'
+"
+"
 ?
 &
 entry
 :
 nullptr
 ;
-'
+"
+        
 )
         
 key_type
 =
-'
+"
 const
 nsID
 &
-'
+"
         
 key_bytes
 =
-'
+"
 reinterpret_cast
 <
 const
@@ -5149,23 +5190,24 @@ char
 &
 aKey
 )
-'
+"
         
 key_length
 =
-'
+"
 sizeof
 (
 nsID
 )
-'
+"
+    
 )
     
 substs
 [
-'
+"
 module_contract_id_table
-'
+"
 ]
 =
 contract_phf
@@ -5175,21 +5217,21 @@ cxx_codegen
         
 name
 =
-'
+"
 LookupContractID
-'
+"
         
 entry_type
 =
-'
+"
 ContractEntry
-'
+"
         
 entries_name
 =
-'
+"
 gContractEntries
-'
+"
         
 lower_entry
 =
@@ -5204,15 +5246,15 @@ to_cxx
         
 return_type
 =
-'
+"
 const
 ContractEntry
 *
-'
+"
         
 return_entry
 =
-'
+"
 return
 entry
 .
@@ -5226,42 +5268,43 @@ entry
 :
 nullptr
 ;
-'
+"
         
 key_type
 =
-'
+"
 const
 nsACString
 &
-'
+"
         
 key_bytes
 =
-'
+"
 aKey
 .
 BeginReading
 (
 )
-'
+"
         
 key_length
 =
-'
+"
 aKey
 .
 Length
 (
 )
-'
+"
+    
 )
     
 substs
 [
-'
+"
 js_services_table
-'
+"
 ]
 =
 js_services_phf
@@ -5271,21 +5314,21 @@ cxx_codegen
         
 name
 =
-'
+"
 LookupJSService
-'
+"
         
 entry_type
 =
-'
+"
 JSServiceEntry
-'
+"
         
 entries_name
 =
-'
+"
 gJSServices
-'
+"
         
 lower_entry
 =
@@ -5300,15 +5343,15 @@ lower_js_service
         
 return_type
 =
-'
+"
 const
 JSServiceEntry
 *
-'
+"
         
 return_entry
 =
-'
+"
 return
 entry
 .
@@ -5324,35 +5367,36 @@ entry
 :
 nullptr
 ;
-'
+"
         
 key_type
 =
-'
+"
 const
 nsACString
 &
-'
+"
         
 key_bytes
 =
-'
+"
 aKey
 .
 BeginReading
 (
 )
-'
+"
         
 key_length
 =
-'
+"
 aKey
 .
 Length
 (
 )
-'
+"
+    
 )
     
 #
@@ -5381,9 +5425,9 @@ complete
     
 substs
 [
-'
+"
 strings
-'
+"
 ]
 =
 strings
@@ -5437,23 +5481,25 @@ filename
 glbl
 =
 {
-'
+        
+"
 buildconfig
-'
+"
 :
 buildconfig
-            
-'
+        
+"
 defined
-'
+"
 :
 defined
-            
-'
+        
+"
 ProcessSelector
-'
+"
 :
 ProcessSelector
+    
 }
     
 exec
@@ -5519,9 +5565,9 @@ load
 open
 (
 conf_file
-'
+"
 r
-'
+"
 )
 )
     
@@ -5541,9 +5587,9 @@ filename
 in
 conf
 [
-'
+"
 manifests
-'
+"
 ]
 :
         
@@ -5572,17 +5618,17 @@ manifest
 .
 setdefault
 (
-'
+"
 Priority
-'
+"
 50
 )
         
 manifest
 [
-'
+"
 __filename__
-'
+"
 ]
 =
 filename
@@ -5599,15 +5645,15 @@ man
 (
 man
 [
-'
+"
 Priority
-'
+"
 ]
 man
 [
-'
+"
 __filename__
-'
+"
 ]
 )
 )
@@ -5640,11 +5686,11 @@ group
 with
 open_output
 (
-'
+"
 StaticComponents
 .
 cpp
-'
+"
 )
 as
 fh
@@ -5654,9 +5700,9 @@ with
 open
 (
 template_file
-'
+"
 r
-'
+"
 )
 as
 tfh
@@ -5679,7 +5725,7 @@ re
 sub
 (
 r
-'
+"
 /
 /
 #
@@ -5695,7 +5741,7 @@ Z_
 )
 \
 n
-'
+"
 replacer
 template
 )
@@ -5704,11 +5750,11 @@ template
 with
 open_output
 (
-'
+"
 StaticComponentData
 .
 h
-'
+"
 )
 as
 fh
@@ -5718,6 +5764,7 @@ fh
 .
 write
 (
+            
 "
 "
 "
@@ -5911,14 +5958,17 @@ endif
 "
 "
 "
+            
 %
 substs
+        
 )
     
 fd
 .
 write
 (
+        
 "
 "
 "
@@ -6316,8 +6366,10 @@ endif
 "
 "
 "
+        
 %
 substs
+    
 )
     
 return
