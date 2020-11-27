@@ -228,6 +228,9 @@ counter
 "
 timespan
 "
+"
+uuid
+"
 ]
 def
 is_implemented_metric_type
