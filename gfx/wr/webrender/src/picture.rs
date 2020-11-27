@@ -1325,7 +1325,6 @@ render_task
 RenderTask
 RenderTaskLocation
 BlurTaskCache
-ClearMode
 }
 ;
 use
@@ -34996,10 +34995,6 @@ RenderTargetKind
 :
 :
 Color
-ClearMode
-:
-:
-Transparent
 None
 original_size
 .
@@ -35387,10 +35382,6 @@ RenderTargetKind
 :
 :
 Color
-ClearMode
-:
-:
-Transparent
 Some
 (
 &
