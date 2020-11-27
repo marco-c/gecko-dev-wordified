@@ -638,9 +638,11 @@ QueueNotificationObserversTask
 ;
 protected
 :
-explicit
 Performance
 (
+nsIGlobalObject
+*
+aGlobal
 bool
 aSystemPrincipal
 )

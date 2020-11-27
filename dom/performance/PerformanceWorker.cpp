@@ -162,6 +162,12 @@ Performance
 aWorkerPrivate
 -
 >
+GlobalScope
+(
+)
+aWorkerPrivate
+-
+>
 UsesSystemPrincipal
 (
 )
