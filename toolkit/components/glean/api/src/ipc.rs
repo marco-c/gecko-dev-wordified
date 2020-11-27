@@ -238,6 +238,17 @@ String
 )
 >
 >
+pub
+memory_samples
+:
+HashMap
+<
+MetricId
+Vec
+<
+u64
+>
+>
 }
 /
 /
