@@ -127,6 +127,13 @@ gfxFeature
 .
 h
 "
+#
+include
+"
+gfxTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -227,10 +234,6 @@ mWrEnvForceEnabled
 false
 )
 mWrEnvForceDisabled
-(
-false
-)
-mHwStretchingSupport
 (
 false
 )
@@ -414,7 +417,7 @@ System
 support
 *
 /
-bool
+HwStretchingSupport
 mHwStretchingSupport
 ;
 bool

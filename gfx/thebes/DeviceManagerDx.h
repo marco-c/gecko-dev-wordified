@@ -113,6 +113,13 @@ h
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -606,9 +613,12 @@ adapter
 supports
 hardware
 stretching
-bool
+void
 CheckHardwareStretchingSupport
 (
+HwStretchingSupport
+&
+aRv
 )
 ;
 bool
