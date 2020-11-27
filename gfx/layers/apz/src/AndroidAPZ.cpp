@@ -459,14 +459,6 @@ AndroidFlingPhysics
 (
 aApzc
 aHandoffState
-.
-mChain
-aHandoffState
-.
-mIsHandoff
-aHandoffState
-.
-mScrolledApzc
 aPLPPI
 )
 ;

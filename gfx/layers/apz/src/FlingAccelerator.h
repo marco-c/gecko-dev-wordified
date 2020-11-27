@@ -144,6 +144,9 @@ mozilla
 namespace
 layers
 {
+struct
+FlingHandoffState
+;
 /
 *
 *
@@ -263,6 +266,10 @@ const
 ParentLayerPoint
 &
 aVelocity
+const
+FlingHandoffState
+&
+aHandoffState
 )
 ;
 void
@@ -292,6 +299,10 @@ const
 ParentLayerPoint
 &
 aVelocity
+const
+FlingHandoffState
+&
+aHandoffState
 )
 const
 ;
