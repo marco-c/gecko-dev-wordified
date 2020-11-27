@@ -123,10 +123,6 @@ querySelector
 "
 #
 mount
-.
-launchpad
--
-root
 "
 )
 ;
