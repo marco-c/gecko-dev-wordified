@@ -172,6 +172,9 @@ AsyncImagePipelineManager
 class
 WebRenderBridgeParent
 ;
+class
+WebRenderBridgeParentRef
+;
 /
 *
 *
@@ -547,9 +550,9 @@ std
 unordered_map
 <
 uint64_t
-WeakPtr
+RefPtr
 <
-WebRenderBridgeParent
+WebRenderBridgeParentRef
 >
 >
 mWrBridges
