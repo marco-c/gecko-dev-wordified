@@ -301,11 +301,11 @@ hence
 it
 '
 s
-CRAZY
+ABSURD
 .
 #
 define
-CRAZY_COORD
+ABSURD_COORD
 (
 10000000
 *
@@ -313,7 +313,7 @@ CRAZY_COORD
 )
 #
 define
-CRAZY_SIZE
+ABSURD_SIZE
 (
 _x
 )
@@ -324,7 +324,7 @@ _x
 )
 <
 -
-CRAZY_COORD
+ABSURD_COORD
 )
 |
 |
@@ -333,7 +333,7 @@ CRAZY_COORD
 _x
 )
 >
-CRAZY_COORD
+ABSURD_COORD
 )
 )
 #
@@ -3785,7 +3785,7 @@ this
 to
 suppress
 the
-CRAZY_SIZE
+ABSURD_SIZE
 assertions
 .
 NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
@@ -3794,7 +3794,7 @@ DebugReflowingWithInfiniteISize
 bool
 )
 bool
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 const

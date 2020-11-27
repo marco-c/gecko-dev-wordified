@@ -2214,7 +2214,7 @@ IsInlineBreakBefore
 if
 (
 (
-CRAZY_SIZE
+ABSURD_SIZE
 (
 mMetrics
 .
@@ -2225,7 +2225,7 @@ mWritingMode
 )
 |
 |
-CRAZY_SIZE
+ABSURD_SIZE
 (
 mMetrics
 .
@@ -2246,7 +2246,7 @@ GetParent
 )
 -
 >
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 )

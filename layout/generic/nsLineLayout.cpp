@@ -985,7 +985,7 @@ NS_UNCONSTRAINEDSIZE
 )
 &
 &
-CRAZY_SIZE
+ABSURD_SIZE
 (
 aISize
 )
@@ -1002,7 +1002,7 @@ GetParent
 )
 -
 >
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 )
@@ -1054,7 +1054,7 @@ NS_UNCONSTRAINEDSIZE
 )
 &
 &
-CRAZY_SIZE
+ABSURD_SIZE
 (
 aBSize
 )
@@ -1071,7 +1071,7 @@ GetParent
 )
 -
 >
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 )
@@ -2031,7 +2031,7 @@ NS_UNCONSTRAINEDSIZE
 )
 &
 &
-CRAZY_SIZE
+ABSURD_SIZE
 (
 availSpace
 .
@@ -2053,7 +2053,7 @@ GetParent
 )
 -
 >
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 )
@@ -2120,7 +2120,7 @@ NS_UNCONSTRAINEDSIZE
 )
 &
 &
-CRAZY_SIZE
+ABSURD_SIZE
 (
 availSpace
 .
@@ -2142,7 +2142,7 @@ GetParent
 )
 -
 >
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 )
@@ -7230,7 +7230,7 @@ IsInlineBreakBefore
 if
 (
 (
-CRAZY_SIZE
+ABSURD_SIZE
 (
 reflowOutput
 .
@@ -7241,7 +7241,7 @@ lineWM
 )
 |
 |
-CRAZY_SIZE
+ABSURD_SIZE
 (
 reflowOutput
 .
@@ -7264,7 +7264,7 @@ GetParent
 )
 -
 >
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 )
@@ -19008,7 +19008,7 @@ Guessing
 isn
 '
 t
-crazy
+unreasonable
 since
 all
 we

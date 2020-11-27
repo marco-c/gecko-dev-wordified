@@ -38814,7 +38814,7 @@ This
 will
 suppress
 various
-CRAZY_SIZE
+ABSURD_SIZE
 warnings
 for
 this

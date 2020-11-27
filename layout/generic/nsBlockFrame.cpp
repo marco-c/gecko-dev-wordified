@@ -15146,7 +15146,7 @@ DEBUG_blocks
 if
 (
 (
-CRAZY_SIZE
+ABSURD_SIZE
 (
 aMetrics
 .
@@ -15156,7 +15156,7 @@ Width
 )
 |
 |
-CRAZY_SIZE
+ABSURD_SIZE
 (
 aMetrics
 .
@@ -15173,7 +15173,7 @@ GetParent
 )
 -
 >
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 )
@@ -37884,7 +37884,7 @@ GetParent
 )
 -
 >
-IsCrazySizeAssertSuppressed
+IsAbsurdSizeAssertSuppressed
 (
 )
 )
@@ -37897,7 +37897,7 @@ lastHeight
 ;
 if
 (
-CRAZY_SIZE
+ABSURD_SIZE
 (
 aLine
 -
@@ -37931,7 +37931,7 @@ BStart
 lastHeight
 )
 >
-CRAZY_COORD
+ABSURD_COORD
 /
 10
 )
