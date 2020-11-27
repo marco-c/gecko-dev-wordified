@@ -6398,6 +6398,17 @@ state
 )
 ;
 }
+void
+trackNotAttached
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 /
 /
 If
