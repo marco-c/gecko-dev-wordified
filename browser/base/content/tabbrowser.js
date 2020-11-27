@@ -17728,14 +17728,6 @@ selectedTabs
 removeTabs
 (
 tabs
-{
-animate
-=
-true
-}
-=
-{
-}
 )
 {
 /
@@ -17842,6 +17834,8 @@ aParams
 =
 {
 animate
+:
+true
 prewarmed
 :
 true
