@@ -1545,7 +1545,7 @@ return
 !
 this
 .
-watcher
+watcherFront
 ?
 .
 traits
@@ -1715,7 +1715,7 @@ startListening
 /
 /
 This
-watcher
+watcherFront
 attribute
 may
 be
@@ -1736,7 +1736,7 @@ if
 !
 this
 .
-watcher
+watcherFront
 )
 {
 /
@@ -1774,7 +1774,7 @@ supportsWatcher
 {
 this
 .
-watcher
+watcherFront
 =
 await
 this
@@ -2123,7 +2123,7 @@ true
 ;
 this
 .
-watcher
+watcherFront
 .
 on
 (
@@ -2139,7 +2139,7 @@ _onTargetAvailable
 ;
 this
 .
-watcher
+watcherFront
 .
 on
 (
@@ -2157,7 +2157,7 @@ _onTargetDestroyed
 await
 this
 .
-watcher
+watcherFront
 .
 watchTargets
 (
@@ -2391,7 +2391,7 @@ onlyLegacy
 {
 this
 .
-watcher
+watcherFront
 .
 unwatchTargets
 (
