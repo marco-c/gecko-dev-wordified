@@ -887,10 +887,6 @@ scopes
 [
 index
 ]
-.
-get
-(
-)
 )
 ;
 return

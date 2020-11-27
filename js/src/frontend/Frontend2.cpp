@@ -4000,6 +4000,19 @@ sprinter
 cx
 )
 ;
+Rooted
+<
+JSScript
+*
+>
+script
+(
+cx
+gcOutput
+.
+script
+)
+;
 if
 (
 !
@@ -4020,8 +4033,6 @@ if
 Disassemble
 (
 cx
-gcOutput
-.
 script
 true
 &
@@ -4058,8 +4069,6 @@ if
 Disassemble
 (
 cx
-gcOutput
-.
 script
 true
 &
