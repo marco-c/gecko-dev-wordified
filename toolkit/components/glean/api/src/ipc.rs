@@ -249,6 +249,17 @@ Vec
 u64
 >
 >
+pub
+string_lists
+:
+HashMap
+<
+MetricId
+Vec
+<
+String
+>
+>
 }
 /
 /
