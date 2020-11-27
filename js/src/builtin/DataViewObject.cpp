@@ -5818,12 +5818,11 @@ rval
 .
 set
 (
-DataViewObject
-:
-:
+thisView
+-
+>
 byteLengthValue
 (
-thisView
 )
 )
 ;
