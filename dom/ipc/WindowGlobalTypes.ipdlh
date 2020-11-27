@@ -118,6 +118,17 @@ include
 "
 mozilla
 /
+dom
+/
+PermissionMessageUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 ipc
 /
 TransportSecurityInfoUtils
