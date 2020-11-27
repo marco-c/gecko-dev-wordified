@@ -976,7 +976,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+NS_EVENT_STATE_FOCUSRING
 )
 ;
 if
@@ -2619,7 +2619,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+NS_EVENT_STATE_FOCUSRING
 )
 )
 {
@@ -3561,7 +3561,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+NS_EVENT_STATE_FOCUSRING
 )
 )
 {
@@ -3762,7 +3762,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+NS_EVENT_STATE_FOCUSRING
 )
 )
 {
@@ -3836,7 +3836,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+NS_EVENT_STATE_FOCUSRING
 )
 )
 {
@@ -3910,7 +3910,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+NS_EVENT_STATE_FOCUSRING
 )
 )
 {
@@ -5586,7 +5586,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+NS_EVENT_STATE_FOCUSRING
 )
 )
 {
@@ -6393,7 +6393,7 @@ aState
 .
 HasState
 (
-NS_EVENT_STATE_FOCUS
+NS_EVENT_STATE_FOCUSRING
 )
 )
 {
