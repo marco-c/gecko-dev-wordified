@@ -626,6 +626,7 @@ true
 )
 ;
 }
+await
 importFunctions
 (
 {
