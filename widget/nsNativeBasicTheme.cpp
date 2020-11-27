@@ -8818,12 +8818,6 @@ case
 StyleAppearance
 :
 :
-Scrollbar
-:
-case
-StyleAppearance
-:
-:
 ScrollbarVertical
 :
 case
