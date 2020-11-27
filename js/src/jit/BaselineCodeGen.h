@@ -1661,12 +1661,6 @@ emitStackCheck
 ;
 MOZ_MUST_USE
 bool
-emitArgumentTypeChecks
-(
-)
-;
-MOZ_MUST_USE
-bool
 emitDebugPrologue
 (
 )
