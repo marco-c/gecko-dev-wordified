@@ -1012,13 +1012,6 @@ gc
 InitialHeap
 heap
 ;
-{
-AutoSweepObjectGroup
-sweep
-(
-group
-)
-;
 if
 (
 (
@@ -1068,7 +1061,6 @@ gc
 :
 DefaultHeap
 ;
-}
 }
 debugCheckNewObject
 (

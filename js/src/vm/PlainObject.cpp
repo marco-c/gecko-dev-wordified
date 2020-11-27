@@ -363,12 +363,6 @@ using
 js
 :
 :
-AutoSweepObjectGroup
-;
-using
-js
-:
-:
 CopyInitializerObject
 ;
 using
