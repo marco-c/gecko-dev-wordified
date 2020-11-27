@@ -705,11 +705,8 @@ AutoEnterIonBackend
 {
 public
 :
-explicit
 AutoEnterIonBackend
 (
-bool
-safeForMinorGC
 )
 {
 #
@@ -728,7 +725,6 @@ jcx
 >
 enterIonBackend
 (
-safeForMinorGC
 )
 ;
 #

@@ -2924,11 +2924,6 @@ CurrentThreadIsIonCompiling
 )
 ;
 bool
-CurrentThreadIsIonCompilingSafeForMinorGC
-(
-)
-;
-bool
 CurrentThreadIsGCSweeping
 (
 )

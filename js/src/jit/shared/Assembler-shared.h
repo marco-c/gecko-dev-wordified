@@ -1380,7 +1380,7 @@ isTenured
 (
 )
 !
-CurrentThreadIsIonCompilingSafeForMinorGC
+CurrentThreadIsIonCompiling
 (
 )
 )

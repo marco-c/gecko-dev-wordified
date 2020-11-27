@@ -573,11 +573,6 @@ canNurseryAllocateBigInts
 (
 )
 ;
-void
-setMinorGCShouldCancelIonCompilations
-(
-)
-;
 uintptr_t
 nurseryCellHeader
 (

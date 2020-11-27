@@ -245,14 +245,6 @@ total
 \
 _
 (
-CancelIonCompilations
-"
-canIon
-"
-)
-\
-_
-(
 TraceValues
 "
 mkVals
