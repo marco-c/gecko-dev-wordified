@@ -1698,12 +1698,12 @@ string
 .
 Maybe
 <
-OffsetAndData
-<
 uint32_t
 >
->
-mLastCommit
+mLastCommitStringStart
+;
+nsString
+mLastCommitString
 ;
 }
 ;
