@@ -3296,7 +3296,7 @@ mData
 mOverflowAreas
 =
 =
-nsOverflowAreas
+OverflowAreas
 (
 bounds
 bounds
@@ -3773,7 +3773,7 @@ nsLineBox
 SetOverflowAreas
 (
 const
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )

@@ -2806,7 +2806,10 @@ Trim
 )
 final
 ;
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 RecomputeOverflow
 (
 nsIFrame
@@ -5031,7 +5034,10 @@ const
 bool
 ComputeCustomOverflow
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -5040,7 +5046,10 @@ final
 bool
 ComputeCustomOverflowInternal
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 bool

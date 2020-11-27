@@ -282,7 +282,10 @@ aBEndMarginResult
 out
 *
 /
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 const

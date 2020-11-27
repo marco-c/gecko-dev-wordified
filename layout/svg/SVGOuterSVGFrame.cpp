@@ -4429,7 +4429,7 @@ SVGOuterSVGFrame
 :
 UnionChildOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )

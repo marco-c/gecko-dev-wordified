@@ -6175,7 +6175,7 @@ true
 )
 ;
 }
-nsOverflowAreas
+OverflowAreas
 overflow
 ;
 nsTableRowFrame
@@ -10355,7 +10355,7 @@ nsTableRowGroupFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )

@@ -790,7 +790,7 @@ first
 "
 )
 ;
-nsOverflowAreas
+OverflowAreas
 *
 overflow
 =
@@ -829,7 +829,7 @@ make
 a
 copy
 .
-nsOverflowAreas
+OverflowAreas
 overflowCopy
 =
 *
@@ -868,7 +868,7 @@ GetSize
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 boundsOverflow
 ;
 boundsOverflow

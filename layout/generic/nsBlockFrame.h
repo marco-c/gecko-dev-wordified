@@ -3396,7 +3396,10 @@ nsStyleDisplay
 aDisplay
 nscoord
 aBEndEdgeOfChildren
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -3827,7 +3830,10 @@ virtual
 bool
 ComputeCustomOverflow
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -3837,7 +3843,10 @@ virtual
 void
 UnionChildOverflow
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -4575,7 +4584,10 @@ ReflowPushedFloats
 BlockReflowInput
 &
 aState
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 nsReflowStatus

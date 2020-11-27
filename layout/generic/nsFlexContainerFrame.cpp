@@ -36924,7 +36924,7 @@ GetPrevInFlow
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 ocBounds
 ;
 nsReflowStatus

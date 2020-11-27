@@ -499,7 +499,7 @@ SVGContainerFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -2341,7 +2341,7 @@ tell
 our
 children
 }
-nsOverflowAreas
+OverflowAreas
 overflowRects
 ;
 for

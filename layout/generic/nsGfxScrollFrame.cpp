@@ -2263,7 +2263,7 @@ ReflowScrolledFrame
 =
 =
 =
-nsOverflowAreas
+OverflowAreas
 mContentsOverflowAreas
 ;
 MOZ_INIT_OUTSIDE_CTOR
@@ -5791,7 +5791,7 @@ ContentBox
 )
 )
 {
-nsOverflowAreas
+OverflowAreas
 childOverflow
 ;
 nsLayoutUtils
@@ -7669,7 +7669,7 @@ the
 correct
 value
 .
-nsOverflowAreas
+OverflowAreas
 overflow
 (
 scrolledArea
@@ -43487,7 +43487,7 @@ mHelper
 mScrollPort
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflow
 =
 f
@@ -45883,7 +45883,7 @@ ScrollFrameHelper
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )

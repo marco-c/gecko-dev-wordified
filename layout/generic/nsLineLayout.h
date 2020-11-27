@@ -733,7 +733,10 @@ rect
 void
 RelativePositionFrames
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -2912,7 +2915,10 @@ mozilla
 LogicalRect
 mBounds
 ;
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 mOverflowAreas
 ;
 /
@@ -4193,7 +4199,10 @@ RelativePositionAnnotations
 PerSpanData
 *
 aRubyPSD
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -4204,7 +4213,10 @@ RelativePositionFrames
 PerSpanData
 *
 psd
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )

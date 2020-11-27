@@ -5602,7 +5602,7 @@ nsMathMLContainerFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )

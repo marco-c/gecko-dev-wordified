@@ -7827,7 +7827,7 @@ wm
 =
 aISize
 ;
-nsOverflowAreas
+OverflowAreas
 overflow
 ;
 nscoord
@@ -8788,7 +8788,7 @@ wm
 containerSize
 )
 ;
-nsOverflowAreas
+OverflowAreas
 cellOverflow
 (
 cellPhysicalBounds

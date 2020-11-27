@@ -2688,7 +2688,7 @@ InkOverflowRect
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 (
 overflow

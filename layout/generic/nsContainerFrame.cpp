@@ -9346,7 +9346,7 @@ const
 ReflowInput
 &
 aReflowInput
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowRects
 ReflowChildFlags
@@ -21006,7 +21006,7 @@ nsContainerFrame
 :
 ConsiderChildOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 nsIFrame
@@ -21127,10 +21127,10 @@ InkOverflowRect
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 combined
 =
-nsOverflowAreas
+OverflowAreas
 (
 childVisual
 nsRect

@@ -1527,11 +1527,13 @@ nsPoint
 aPt
 )
 ;
-virtual
 bool
 ComputeCustomOverflow
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )

@@ -2473,7 +2473,10 @@ floats
 placed
 so
 far
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 mFloatOverflowAreas
 ;
 nsFloatCacheFreeList

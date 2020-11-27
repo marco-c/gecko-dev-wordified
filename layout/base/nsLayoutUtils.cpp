@@ -3941,7 +3941,7 @@ UnionChildOverflow
 nsIFrame
 *
 aFrame
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 FrameChildListIDs
@@ -4019,7 +4019,7 @@ child
 list
 )
 {
-nsOverflowAreas
+OverflowAreas
 childOverflow
 =
 child

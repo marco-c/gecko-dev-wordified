@@ -500,11 +500,13 @@ aReflowInput
 )
 override
 ;
-virtual
 void
 UnionChildOverflow
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 )

@@ -444,7 +444,7 @@ virtual
 bool
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )

@@ -63617,7 +63617,7 @@ GetLogicalSize
 )
 ;
 }
-nsOverflowAreas
+OverflowAreas
 oldOverflow
 ;
 /

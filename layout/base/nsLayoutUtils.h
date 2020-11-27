@@ -529,9 +529,6 @@ imgIRequest
 struct
 nsStyleFont
 ;
-struct
-nsOverflowAreas
-;
 namespace
 mozilla
 {
@@ -591,6 +588,9 @@ class
 StyleImageOrientation
 :
 uint8_t
+;
+struct
+OverflowAreas
 ;
 namespace
 dom
@@ -16936,7 +16936,10 @@ UnionChildOverflow
 nsIFrame
 *
 aFrame
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 mozilla

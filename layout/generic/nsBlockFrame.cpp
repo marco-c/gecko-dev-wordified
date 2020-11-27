@@ -9204,7 +9204,7 @@ nsContainerFrame
 .
 h
 )
-nsOverflowAreas
+OverflowAreas
 ocBounds
 ;
 nsReflowStatus
@@ -9290,7 +9290,7 @@ DrainPushedFloats
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 fcBounds
 ;
 nsReflowStatus
@@ -15194,7 +15194,7 @@ WritingMode
 aWritingMode
 nscoord
 aBEndEdgeOfChildren
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 const
@@ -15644,7 +15644,7 @@ nsStyleDisplay
 aDisplay
 nscoord
 aBEndEdgeOfChildren
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -15688,7 +15688,7 @@ N
 2
 )
 .
-nsOverflowAreas
+OverflowAreas
 areas
 (
 aBounds
@@ -15810,10 +15810,10 @@ InkOverflowRect
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 childVisualArea
 =
-nsOverflowAreas
+OverflowAreas
 (
 childVisualRect
 nsRect
@@ -16032,7 +16032,7 @@ nsBlockFrame
 :
 UnionChildOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -16107,7 +16107,7 @@ GetPhysicalBounds
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 lineAreas
 (
 bounds
@@ -16275,7 +16275,7 @@ nsBlockFrame
 :
 ComputeCustomOverflow
 (
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 )
@@ -30715,7 +30715,7 @@ HasFloats
 nsCollapsingMargin
 collapsedBEndMargin
 ;
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 ;
 *
@@ -38142,7 +38142,7 @@ moved
 frames
 around
 !
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 ;
 aLineLayout
@@ -38794,7 +38794,7 @@ line
 layout
 code
 .
-nsOverflowAreas
+OverflowAreas
 lineOverflowAreas
 =
 aState
@@ -50769,7 +50769,7 @@ ReflowPushedFloats
 BlockReflowInput
 &
 aState
-nsOverflowAreas
+OverflowAreas
 &
 aOverflowAreas
 nsReflowStatus

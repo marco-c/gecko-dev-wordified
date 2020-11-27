@@ -66848,7 +66848,7 @@ status
 "
 )
 ;
-nsOverflowAreas
+OverflowAreas
 ocBounds
 ;
 nsReflowStatus

@@ -1007,7 +1007,7 @@ nsRect
 aContainingBlock
 AbsPosReflowFlags
 aFlags
-nsOverflowAreas
+OverflowAreas
 *
 aOverflowAreas
 )
@@ -5451,7 +5451,7 @@ aKidFrame
 nsReflowStatus
 &
 aStatus
-nsOverflowAreas
+OverflowAreas
 *
 aOverflowAreas
 )

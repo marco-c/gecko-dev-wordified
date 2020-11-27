@@ -145,14 +145,17 @@ ReflowInput
 .
 h
 "
+namespace
+mozilla
+{
 void
-nsOverflowAreas
+OverflowAreas
 :
 :
 UnionWith
 (
 const
-nsOverflowAreas
+OverflowAreas
 &
 aOther
 )
@@ -215,7 +218,7 @@ ScrollableOverflow
 ;
 }
 void
-nsOverflowAreas
+OverflowAreas
 :
 :
 UnionAllWith
@@ -277,7 +280,7 @@ aRect
 ;
 }
 void
-nsOverflowAreas
+OverflowAreas
 :
 :
 SetAllTo
@@ -301,9 +304,6 @@ ScrollableOverflow
 aRect
 ;
 }
-namespace
-mozilla
-{
 ReflowOutput
 :
 :

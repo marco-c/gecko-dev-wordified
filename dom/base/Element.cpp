@@ -5246,7 +5246,7 @@ GetPaddingRectRelativeToSelf
 (
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 (
 paddingRect

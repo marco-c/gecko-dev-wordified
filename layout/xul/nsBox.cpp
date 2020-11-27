@@ -1669,7 +1669,7 @@ GetSize
 )
 )
 ;
-nsOverflowAreas
+OverflowAreas
 overflowAreas
 (
 rect

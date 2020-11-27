@@ -1467,7 +1467,7 @@ tell
 our
 children
 }
-nsOverflowAreas
+OverflowAreas
 overflowRects
 ;
 nsIFrame

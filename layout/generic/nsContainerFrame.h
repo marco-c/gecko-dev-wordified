@@ -2957,7 +2957,10 @@ const
 ReflowInput
 &
 aReflowInput
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowRects
 ReflowChildFlags
@@ -3835,7 +3838,10 @@ area
 void
 ConsiderChildOverflow
 (
-nsOverflowAreas
+mozilla
+:
+:
+OverflowAreas
 &
 aOverflowAreas
 nsIFrame
