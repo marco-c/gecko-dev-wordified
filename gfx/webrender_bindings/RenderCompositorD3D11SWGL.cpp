@@ -1590,7 +1590,7 @@ mCurrentTile
 .
 mStagingTexture
 0
-D3D11_MAP_WRITE
+D3D11_MAP_READ_WRITE
 0
 &
 mappedSubresource
@@ -2226,6 +2226,8 @@ desc
 CPUAccessFlags
 =
 D3D11_CPU_ACCESS_WRITE
+|
+D3D11_CPU_ACCESS_READ
 ;
 desc
 .
