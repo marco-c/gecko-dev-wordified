@@ -4005,8 +4005,6 @@ initializeSlotRange
 (
 oldSpan
 newSpan
--
-oldSpan
 )
 ;
 }
@@ -4037,8 +4035,6 @@ invalidateSlotRange
 (
 newSpan
 oldSpan
--
-newSpan
 )
 ;
 if

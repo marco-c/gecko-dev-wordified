@@ -21320,8 +21320,6 @@ traceObjectSlots
 obj
 start
 end
--
-start
 )
 ;
 }
@@ -22910,7 +22908,7 @@ nobj
 uint32_t
 start
 uint32_t
-length
+end
 )
 {
 HeapSlot
@@ -22935,7 +22933,7 @@ nobj
 getSlotRange
 (
 start
-length
+end
 &
 fixedStart
 &

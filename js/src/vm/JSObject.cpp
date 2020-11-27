@@ -10066,9 +10066,8 @@ oldDictionarySlotSpan
 obj
 -
 >
-initSlotRange
+initSlots
 (
-0
 values
 .
 begin
