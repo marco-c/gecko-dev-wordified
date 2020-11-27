@@ -690,11 +690,11 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-ReflowInput
-*
-aReflowInput
-=
-nullptr
+Maybe
+<
+SkipSidesDuringReflow
+>
+&
 )
 const
 final

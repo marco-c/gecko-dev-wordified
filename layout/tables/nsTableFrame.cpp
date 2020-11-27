@@ -9729,9 +9729,11 @@ nsTableFrame
 GetLogicalSkipSides
 (
 const
-ReflowInput
-*
-aReflowInput
+Maybe
+<
+SkipSidesDuringReflow
+>
+&
 )
 const
 {
@@ -9783,9 +9785,6 @@ for
 pagination
 if
 (
-nullptr
-!
-=
 GetPrevInFlow
 (
 )
@@ -9799,9 +9798,6 @@ eLogicalSideBitsBStart
 }
 if
 (
-nullptr
-!
-=
 GetNextInFlow
 (
 )
