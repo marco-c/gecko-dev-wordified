@@ -242,6 +242,13 @@ h
 #
 include
 "
+nsDOMString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
