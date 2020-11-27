@@ -4398,9 +4398,6 @@ APPEND_RANGE
 0x677f
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 Stoney
@@ -4409,6 +4406,9 @@ APPEND_DEVICE
 0x98e4
 )
 ;
+#
+ifdef
+EARLY_BETA_OR_EARLIER
 /
 /
 Carrizo
