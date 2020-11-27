@@ -1215,12 +1215,6 @@ allocate
 too
 large
 buffers
-currently
-limited
-to
-~
-2
-GiB
 .
 if
 (
