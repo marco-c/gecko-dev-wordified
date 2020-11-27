@@ -9039,9 +9039,10 @@ graph_config
 Select
 tasks
 for
+scraping
+and
 uploading
 system
--
 symbols
 .
     
@@ -9067,8 +9068,13 @@ if
 task
 .
 kind
-=
-=
+in
+[
+"
+system
+-
+symbols
+"
 "
 system
 -
@@ -9076,6 +9082,7 @@ symbols
 -
 upload
 "
+]
 :
             
 yield
