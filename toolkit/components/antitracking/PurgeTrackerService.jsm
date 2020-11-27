@@ -663,7 +663,7 @@ host
 }
 isAllowedThirdParty
 (
-firstPartyOrigin
+firstPartyOriginNoSuffix
 thirdPartyHost
 )
 {
@@ -677,7 +677,7 @@ io
 newURI
 (
 {
-firstPartyOrigin
+firstPartyOriginNoSuffix
 }
 /
 ?
@@ -1089,7 +1089,7 @@ isAllowedThirdParty
 (
 firstPartyPrincipal
 .
-origin
+originNoSuffix
 principal
 .
 asciiHost
