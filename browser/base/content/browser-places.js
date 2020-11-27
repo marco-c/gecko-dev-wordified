@@ -1835,6 +1835,11 @@ focusedElement
 "
 preferred
 "
+isNewBookmark
+:
+this
+.
+_isNewBookmark
 }
 )
 ;
