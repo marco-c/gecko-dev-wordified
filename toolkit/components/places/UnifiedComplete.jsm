@@ -7516,12 +7516,13 @@ update2
 &
 &
 !
-query
+UrlbarTokenizer
 .
-startsWith
+REGEXP_SPACES_START
+.
+test
 (
-"
-"
+query
 )
 )
 {

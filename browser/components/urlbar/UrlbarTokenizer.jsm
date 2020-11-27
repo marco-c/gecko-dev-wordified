@@ -217,6 +217,14 @@ REGEXP_SPACES
 s
 +
 /
+REGEXP_SPACES_START
+:
+/
+^
+\
+s
++
+/
 /
 /
 Regex
