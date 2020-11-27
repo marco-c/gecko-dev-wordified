@@ -4082,6 +4082,14 @@ script
 )
 ;
 }
+else
+{
+CancelOffThreadIonCompile
+(
+script
+)
+;
+}
 }
 void
 ICStub
