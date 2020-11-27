@@ -301,7 +301,7 @@ args_
 jit
 :
 :
-WasmABIArgIter
+ABIArgIter
 <
 ArgTypeVector
 >
