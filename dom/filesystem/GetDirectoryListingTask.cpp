@@ -241,8 +241,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -2025,7 +2025,9 @@ aPath
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

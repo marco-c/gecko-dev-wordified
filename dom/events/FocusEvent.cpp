@@ -143,8 +143,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 FocusEvent
@@ -408,10 +408,12 @@ forget
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

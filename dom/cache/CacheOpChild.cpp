@@ -214,8 +214,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -1459,7 +1459,9 @@ cache
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

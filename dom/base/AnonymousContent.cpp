@@ -211,8 +211,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -1313,7 +1313,9 @@ IgnoreErrors
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -138,8 +138,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 JSObject
@@ -179,7 +179,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

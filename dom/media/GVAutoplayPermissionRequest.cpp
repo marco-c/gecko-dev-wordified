@@ -112,8 +112,8 @@ GVAutoplay
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -1607,7 +1607,9 @@ aType
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

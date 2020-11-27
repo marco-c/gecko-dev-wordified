@@ -241,8 +241,8 @@ msg
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -1792,7 +1792,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

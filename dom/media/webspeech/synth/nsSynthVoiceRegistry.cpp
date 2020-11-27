@@ -491,8 +491,8 @@ actor
 namespace
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -4418,7 +4418,9 @@ DispatchError
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

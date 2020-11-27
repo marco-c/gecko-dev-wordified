@@ -318,8 +318,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -9876,7 +9876,9 @@ aDisableShadow
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

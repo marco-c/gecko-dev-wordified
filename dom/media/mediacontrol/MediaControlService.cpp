@@ -256,8 +256,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StaticRefPtr
@@ -3447,7 +3447,9 @@ aController
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -168,8 +168,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 VideoTrack
@@ -592,7 +592,9 @@ CreateAndDispatchChangeEvent
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

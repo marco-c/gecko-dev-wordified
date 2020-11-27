@@ -160,8 +160,8 @@ Unknown
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_ISUPPORTS_INHERITED
@@ -211,7 +211,9 @@ HTMLUnknownElement
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

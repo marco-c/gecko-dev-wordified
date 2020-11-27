@@ -304,8 +304,8 @@ LOGTAG
 wgiLogTag
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 typedef
@@ -5039,7 +5039,9 @@ aError
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

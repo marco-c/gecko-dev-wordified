@@ -172,8 +172,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 const
@@ -3053,7 +3053,9 @@ true
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

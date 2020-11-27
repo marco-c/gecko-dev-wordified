@@ -670,8 +670,8 @@ function
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StaticRefPtr
@@ -3136,7 +3136,9 @@ aMsgId
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

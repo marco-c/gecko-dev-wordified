@@ -168,8 +168,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 nsresult
@@ -512,7 +512,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

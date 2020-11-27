@@ -128,8 +128,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -773,7 +773,9 @@ mList
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

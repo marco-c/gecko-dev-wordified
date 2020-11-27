@@ -256,8 +256,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 DocumentOrShadowRoot
@@ -5522,7 +5522,9 @@ Clear
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

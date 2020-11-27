@@ -143,8 +143,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 TransitionEvent
@@ -427,10 +427,12 @@ mPseudoElement
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

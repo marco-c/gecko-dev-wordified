@@ -154,8 +154,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 WheelEvent
@@ -750,10 +750,12 @@ forget
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

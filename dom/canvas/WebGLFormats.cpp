@@ -136,8 +136,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 webgl
 {
 const
@@ -12123,7 +12123,9 @@ second
 /
 /
 namespace
-mozilla
-:
-:
 webgl
+}
+/
+/
+namespace
+mozilla

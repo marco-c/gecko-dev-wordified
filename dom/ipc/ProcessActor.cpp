@@ -201,8 +201,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 already_AddRefed
@@ -313,7 +313,9 @@ forget
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

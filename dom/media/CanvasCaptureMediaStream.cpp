@@ -196,8 +196,8 @@ gfx
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 OutputStreamDriver
@@ -1295,7 +1295,9 @@ mSourceStream
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -162,8 +162,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -685,7 +685,9 @@ Private
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

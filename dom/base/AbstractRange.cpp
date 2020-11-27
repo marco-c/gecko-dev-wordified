@@ -218,8 +218,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 template
@@ -1332,7 +1332,9 @@ overridden
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

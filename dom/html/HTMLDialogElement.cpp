@@ -320,8 +320,8 @@ forget
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLDialogElement
@@ -1515,7 +1515,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

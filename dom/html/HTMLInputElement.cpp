@@ -936,8 +936,8 @@ nav4
 attrs
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -42196,10 +42196,12 @@ Labels
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 #
 undef
 NS_ORIGINAL_CHECKED_VALUE

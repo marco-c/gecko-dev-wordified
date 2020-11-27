@@ -172,8 +172,8 @@ Span
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLSpanElement
@@ -227,7 +227,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

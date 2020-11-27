@@ -328,8 +328,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -4696,7 +4696,9 @@ aMediaKeyStatus
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

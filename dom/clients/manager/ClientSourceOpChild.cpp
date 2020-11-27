@@ -155,8 +155,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 ClientSource
@@ -842,7 +842,9 @@ DisconnectIfExists
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

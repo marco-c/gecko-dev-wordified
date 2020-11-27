@@ -124,8 +124,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 #
@@ -850,7 +850,9 @@ MOZ_SANDBOX
 /
 /
 namespace
-mozilla
-:
-:
 plugins
+}
+/
+/
+namespace
+mozilla

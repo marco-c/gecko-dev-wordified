@@ -224,8 +224,8 @@ Label
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLLabelElement
@@ -1717,7 +1717,9 @@ nullptr
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

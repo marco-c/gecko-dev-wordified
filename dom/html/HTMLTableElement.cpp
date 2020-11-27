@@ -197,8 +197,8 @@ Table
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -6883,7 +6883,9 @@ aNotify
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

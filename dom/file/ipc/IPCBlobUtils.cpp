@@ -267,8 +267,8 @@ ipc
 ;
 namespace
 dom
-:
-:
+{
+namespace
 IPCBlobUtils
 {
 already_AddRefed
@@ -1257,10 +1257,12 @@ serialize
 /
 /
 namespace
-dom
-:
-:
 IPCBlobUtils
+}
+/
+/
+namespace
+dom
 namespace
 ipc
 {

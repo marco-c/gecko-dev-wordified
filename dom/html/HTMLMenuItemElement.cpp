@@ -174,8 +174,8 @@ MenuItem
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -2296,10 +2296,12 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 #
 undef
 NS_ORIGINAL_CHECKED_VALUE

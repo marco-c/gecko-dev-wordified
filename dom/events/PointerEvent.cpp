@@ -182,8 +182,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 PointerEvent
@@ -1828,10 +1828,12 @@ doc
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

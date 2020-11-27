@@ -208,8 +208,8 @@ deque
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -3337,7 +3337,9 @@ isConnected
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

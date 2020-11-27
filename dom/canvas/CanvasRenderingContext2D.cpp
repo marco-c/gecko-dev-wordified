@@ -1088,8 +1088,8 @@ layers
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -35578,7 +35578,9 @@ value
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

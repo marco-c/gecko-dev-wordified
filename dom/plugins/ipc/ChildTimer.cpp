@@ -127,8 +127,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 ChildTimer
@@ -232,7 +232,9 @@ mID
 /
 /
 namespace
-mozilla
-:
-:
 plugins
+}
+/
+/
+namespace
+mozilla

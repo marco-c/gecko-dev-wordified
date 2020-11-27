@@ -160,8 +160,8 @@ kSendDataChunk
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 BrowserStreamParent
@@ -522,7 +522,9 @@ len
 /
 /
 namespace
-mozilla
-:
-:
 plugins
+}
+/
+/
+namespace
+mozilla

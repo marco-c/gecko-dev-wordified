@@ -72,8 +72,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 SpeechSynthesisChild
@@ -873,7 +873,9 @@ aVolume
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

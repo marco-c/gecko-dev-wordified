@@ -179,8 +179,8 @@ Pre
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLPreElement
@@ -486,7 +486,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

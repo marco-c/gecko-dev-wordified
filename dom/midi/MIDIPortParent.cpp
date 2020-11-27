@@ -150,8 +150,8 @@ file
 contents
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -750,7 +750,9 @@ this
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

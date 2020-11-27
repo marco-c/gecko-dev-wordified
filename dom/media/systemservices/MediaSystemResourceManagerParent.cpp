@@ -122,8 +122,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 media
 {
 using
@@ -443,7 +443,9 @@ true
 /
 /
 namespace
-mozilla
-:
-:
 media
+}
+/
+/
+namespace
+mozilla

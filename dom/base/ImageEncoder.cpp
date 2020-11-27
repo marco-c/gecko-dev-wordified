@@ -269,8 +269,8 @@ gfx
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -2860,7 +2860,9 @@ forget
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

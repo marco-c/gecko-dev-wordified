@@ -142,8 +142,8 @@ Frame
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLFrameElement
@@ -376,7 +376,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

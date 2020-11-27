@@ -172,8 +172,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -1765,7 +1765,9 @@ Data
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

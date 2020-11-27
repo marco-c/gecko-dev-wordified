@@ -197,8 +197,8 @@ limits
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -1452,7 +1452,9 @@ size
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

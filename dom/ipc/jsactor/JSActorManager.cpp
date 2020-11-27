@@ -179,8 +179,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 already_AddRefed
@@ -1611,7 +1611,9 @@ AfterDestroy
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

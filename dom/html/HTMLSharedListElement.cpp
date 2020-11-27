@@ -208,8 +208,8 @@ SharedList
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLSharedListElement
@@ -1073,7 +1073,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -231,8 +231,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 OffscreenCanvasCloneData
@@ -1901,7 +1901,9 @@ DOMEventTargetHelper
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

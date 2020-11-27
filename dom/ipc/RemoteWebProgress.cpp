@@ -65,8 +65,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_ADDREF
@@ -248,7 +248,9 @@ NS_ERROR_NOT_IMPLEMENTED
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

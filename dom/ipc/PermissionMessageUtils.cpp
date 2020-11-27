@@ -163,8 +163,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 ipc
 {
 void
@@ -365,7 +365,9 @@ true
 /
 /
 namespace
-mozilla
-:
-:
 ipc
+}
+/
+/
+namespace
+mozilla

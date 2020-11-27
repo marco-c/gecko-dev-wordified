@@ -499,8 +499,8 @@ quota
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -4331,7 +4331,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

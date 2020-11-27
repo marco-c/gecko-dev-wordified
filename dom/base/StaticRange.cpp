@@ -145,8 +145,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 template
@@ -866,7 +866,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

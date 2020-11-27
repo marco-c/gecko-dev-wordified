@@ -173,8 +173,8 @@ ctime
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 static
@@ -1452,7 +1452,9 @@ aFunction
 /
 /
 namespace
-mozilla
-:
-:
 gmp
+}
+/
+/
+namespace
+mozilla

@@ -127,8 +127,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 GMPVideoEncodedFrameImpl
@@ -1283,7 +1283,9 @@ aBufferType
 /
 /
 namespace
-mozilla
-:
-:
 gmp
+}
+/
+/
+namespace
+mozilla

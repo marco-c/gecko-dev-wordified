@@ -109,8 +109,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 media
 {
 MediaSystemResourceManagerChild
@@ -253,7 +253,9 @@ off
 /
 /
 namespace
-mozilla
-:
-:
 media
+}
+/
+/
+namespace
+mozilla

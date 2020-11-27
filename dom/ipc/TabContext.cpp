@@ -193,8 +193,8 @@ layout
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 TabContext
@@ -802,7 +802,9 @@ mTabContext
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

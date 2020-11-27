@@ -255,8 +255,8 @@ Embed
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLEmbedElement
@@ -1713,7 +1713,9 @@ TYPE_INTERNAL_EMBED
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

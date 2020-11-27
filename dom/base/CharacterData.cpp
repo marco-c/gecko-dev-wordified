@@ -375,8 +375,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 CharacterData
@@ -4038,7 +4038,9 @@ mMallocSizeOf
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

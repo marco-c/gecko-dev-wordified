@@ -457,8 +457,8 @@ false
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -4301,10 +4301,12 @@ mOriginalResolution
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 nsresult
 NS_NewImageDocument
 (

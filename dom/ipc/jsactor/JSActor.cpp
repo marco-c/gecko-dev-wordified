@@ -276,8 +276,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -3248,7 +3248,9 @@ mPromise
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

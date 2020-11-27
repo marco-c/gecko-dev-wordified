@@ -154,8 +154,8 @@ h
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 TemporaryIPCBlobChild
@@ -508,7 +508,9 @@ fdd
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

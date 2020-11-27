@@ -309,8 +309,8 @@ forget
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 JSObject
@@ -590,7 +590,9 @@ mInternalSubset
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

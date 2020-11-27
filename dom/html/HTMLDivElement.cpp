@@ -159,8 +159,8 @@ Div
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLDivElement
@@ -365,7 +365,9 @@ MapAttributesIntoRule
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -188,8 +188,8 @@ Heading
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLHeadingElement
@@ -391,7 +391,9 @@ MapAttributesIntoRule
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

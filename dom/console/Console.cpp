@@ -627,8 +627,8 @@ exceptions
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 struct
@@ -17175,7 +17175,9 @@ true
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

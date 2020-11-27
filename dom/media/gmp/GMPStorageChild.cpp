@@ -249,8 +249,8 @@ data
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 GMPRecordImpl
@@ -1389,10 +1389,12 @@ IPC_OK
 /
 /
 namespace
-mozilla
-:
-:
 gmp
+}
+/
+/
+namespace
+mozilla
 /
 /
 avoid

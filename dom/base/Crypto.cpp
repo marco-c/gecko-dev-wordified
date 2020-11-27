@@ -210,8 +210,8 @@ ContentChild
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -662,7 +662,9 @@ mSubtle
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

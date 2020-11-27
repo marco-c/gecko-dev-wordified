@@ -412,8 +412,8 @@ PostMessage
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -4819,7 +4819,9 @@ event
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

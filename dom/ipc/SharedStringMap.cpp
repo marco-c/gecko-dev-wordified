@@ -173,8 +173,8 @@ ipc
 ;
 namespace
 dom
-:
-:
+{
+namespace
 ipc
 {
 static
@@ -948,10 +948,12 @@ aMap
 /
 /
 namespace
-dom
-:
-:
 ipc
+}
+/
+/
+namespace
+dom
 }
 /
 /

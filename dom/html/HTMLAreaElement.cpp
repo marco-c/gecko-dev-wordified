@@ -207,8 +207,8 @@ Area
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLAreaElement
@@ -823,7 +823,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

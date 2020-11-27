@@ -415,8 +415,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 Event
@@ -5009,10 +5009,12 @@ Truncate
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

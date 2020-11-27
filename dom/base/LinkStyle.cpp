@@ -325,8 +325,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 LinkStyle
@@ -2303,7 +2303,9 @@ resultOrError
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -151,8 +151,8 @@ Progress
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 const
@@ -615,7 +615,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

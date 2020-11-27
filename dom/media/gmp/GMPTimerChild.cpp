@@ -120,8 +120,8 @@ MAX_NUM_TIMERS
 1000
 namespace
 mozilla
-:
-:
+{
+namespace
 gmp
 {
 GMPTimerChild
@@ -390,7 +390,9 @@ IPC_OK
 /
 /
 namespace
-mozilla
-:
-:
 gmp
+}
+/
+/
+namespace
+mozilla

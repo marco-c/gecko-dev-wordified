@@ -206,8 +206,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 File
@@ -1247,7 +1247,9 @@ forget
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

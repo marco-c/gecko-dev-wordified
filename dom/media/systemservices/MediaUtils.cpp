@@ -129,8 +129,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 media
 {
 nsCOMPtr
@@ -249,7 +249,9 @@ nsIAsyncShutdownBlocker
 /
 /
 namespace
-mozilla
-:
-:
 media
+}
+/
+/
+namespace
+mozilla

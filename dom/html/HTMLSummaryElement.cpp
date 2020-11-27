@@ -207,8 +207,8 @@ Summary
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLSummaryElement
@@ -848,7 +848,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

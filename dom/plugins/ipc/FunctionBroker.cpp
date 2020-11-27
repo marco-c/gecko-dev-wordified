@@ -190,8 +190,8 @@ plugins
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 template
@@ -8953,7 +8953,9 @@ FUN_HOOK
 /
 /
 namespace
-mozilla
-:
-:
 plugins
+}
+/
+/
+namespace
+mozilla

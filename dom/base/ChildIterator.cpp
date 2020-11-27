@@ -191,8 +191,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 ExplicitChildIterator
@@ -2018,7 +2018,9 @@ nullptr
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

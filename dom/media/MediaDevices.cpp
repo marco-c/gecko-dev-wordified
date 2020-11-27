@@ -179,8 +179,8 @@ DEVICECHANGE_HOLD_TIME_IN_MS
 1000
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MediaDevices
@@ -1652,7 +1652,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -255,8 +255,8 @@ Debug
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 camera
 {
 CamerasSingleton
@@ -3910,7 +3910,9 @@ nullptr
 /
 /
 namespace
-mozilla
-:
-:
 camera
+}
+/
+/
+namespace
+mozilla

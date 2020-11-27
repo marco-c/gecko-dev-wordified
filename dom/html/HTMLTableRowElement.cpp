@@ -201,8 +201,8 @@ TableRow
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLTableRowElement
@@ -1399,7 +1399,9 @@ MapAttributesIntoRule
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

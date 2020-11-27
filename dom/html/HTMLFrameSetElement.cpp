@@ -172,8 +172,8 @@ FrameSet
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLFrameSetElement
@@ -2247,7 +2247,9 @@ EVENT
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

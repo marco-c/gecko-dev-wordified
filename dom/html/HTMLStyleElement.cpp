@@ -195,8 +195,8 @@ Style
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLStyleElement
@@ -1109,7 +1109,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

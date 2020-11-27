@@ -452,8 +452,8 @@ current
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 AudioTimelineEvent
@@ -2422,7 +2422,9 @@ previous
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

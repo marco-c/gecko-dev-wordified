@@ -176,8 +176,8 @@ dom
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 Comment
@@ -511,7 +511,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

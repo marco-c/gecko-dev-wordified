@@ -144,8 +144,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 RemoteBrowser
@@ -236,7 +236,9 @@ frameLoader
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

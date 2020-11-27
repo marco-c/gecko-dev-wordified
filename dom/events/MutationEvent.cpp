@@ -146,8 +146,8 @@ nsPresContext
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MutationEvent
@@ -506,10 +506,12 @@ aAttrChange
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

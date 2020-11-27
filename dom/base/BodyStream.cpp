@@ -226,8 +226,8 @@ NS_STREAMTRANSPORTSERVICE_CID
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -3295,7 +3295,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -1242,8 +1242,8 @@ HTMLMediaElement_Binding
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 using
@@ -48545,10 +48545,12 @@ IsCloningElementVisually
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 #
 undef
 LOG

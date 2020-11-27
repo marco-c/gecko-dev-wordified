@@ -146,8 +146,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 template
@@ -2355,7 +2355,9 @@ false
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

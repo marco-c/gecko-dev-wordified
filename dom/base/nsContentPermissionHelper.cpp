@@ -712,8 +712,8 @@ forget
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -4029,10 +4029,12 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 NS_IMPL_ISUPPORTS
 (
 nsContentPermissionRequestProxy

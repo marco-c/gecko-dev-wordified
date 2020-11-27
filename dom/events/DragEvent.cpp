@@ -161,8 +161,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 DragEvent
@@ -660,10 +660,12 @@ forget
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

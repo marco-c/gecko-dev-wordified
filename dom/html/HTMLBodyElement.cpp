@@ -257,8 +257,8 @@ Body
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 /
@@ -2346,7 +2346,9 @@ EVENT
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

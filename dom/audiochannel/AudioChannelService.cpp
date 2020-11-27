@@ -497,8 +497,8 @@ anonymous
 namespace
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 const
@@ -3377,7 +3377,9 @@ activeMediaBlockStart
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

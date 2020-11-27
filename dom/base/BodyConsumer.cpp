@@ -338,8 +338,8 @@ CreateFile
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -4222,7 +4222,9 @@ nsISupportsWeakReference
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -349,8 +349,8 @@ __VA_ARGS__
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -3813,7 +3813,9 @@ mAudioChannelVolume
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

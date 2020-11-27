@@ -568,8 +568,8 @@ gUseCountersLog
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 WindowGlobalParent
@@ -7985,7 +7985,9 @@ WindowContext
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

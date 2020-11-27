@@ -177,8 +177,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 StaticAutoPtr
@@ -2288,7 +2288,9 @@ FUN_HOOK
 /
 /
 namespace
-mozilla
-:
-:
 plugins
+}
+/
+/
+namespace
+mozilla

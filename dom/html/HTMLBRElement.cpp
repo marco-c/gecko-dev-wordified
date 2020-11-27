@@ -172,8 +172,8 @@ BR
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLBRElement
@@ -532,7 +532,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

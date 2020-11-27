@@ -137,8 +137,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 VideoStreamTrack
@@ -520,7 +520,9 @@ mConstraints
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

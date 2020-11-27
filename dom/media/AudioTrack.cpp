@@ -168,8 +168,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 AudioTrack
@@ -458,7 +458,9 @@ CreateAndDispatchChangeEvent
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

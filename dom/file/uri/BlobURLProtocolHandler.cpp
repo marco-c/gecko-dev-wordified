@@ -5760,8 +5760,8 @@ NS_OK
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 bool
@@ -5934,7 +5934,9 @@ eMediaSource
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

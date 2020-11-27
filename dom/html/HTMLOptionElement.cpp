@@ -282,8 +282,8 @@ Option
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLOptionElement
@@ -2175,7 +2175,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

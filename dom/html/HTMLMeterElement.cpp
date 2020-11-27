@@ -147,8 +147,8 @@ Meter
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 const
@@ -1552,7 +1552,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

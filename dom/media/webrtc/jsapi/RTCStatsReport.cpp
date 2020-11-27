@@ -152,8 +152,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 RTCStatsTimestampMaker
@@ -752,7 +752,9 @@ aRv
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

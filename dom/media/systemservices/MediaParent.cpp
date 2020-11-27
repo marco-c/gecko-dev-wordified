@@ -308,8 +308,8 @@ ORIGINKEYS_VERSION
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 media
 {
 StaticMutex
@@ -3107,10 +3107,12 @@ true
 /
 /
 namespace
-mozilla
-:
-:
 media
+}
+/
+/
+namespace
+mozilla
 /
 /
 Instantiate

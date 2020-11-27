@@ -150,8 +150,8 @@ ipc
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 static
@@ -1440,7 +1440,9 @@ MDNSServiceWrapper
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

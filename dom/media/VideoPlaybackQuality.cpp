@@ -159,8 +159,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 VideoPlaybackQuality
@@ -263,7 +263,9 @@ mElement
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

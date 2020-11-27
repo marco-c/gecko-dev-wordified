@@ -124,8 +124,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 ImageBitmapRenderingContext
@@ -1718,7 +1718,9 @@ NS_INTERFACE_MAP_END
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

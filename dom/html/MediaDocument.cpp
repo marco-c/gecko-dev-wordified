@@ -252,8 +252,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 MediaDocumentStreamListener
@@ -2400,7 +2400,9 @@ IgnoreErrors
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

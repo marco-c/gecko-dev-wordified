@@ -170,8 +170,8 @@ h
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 void
@@ -915,7 +915,9 @@ aEncoding
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

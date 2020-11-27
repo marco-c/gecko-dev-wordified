@@ -250,8 +250,8 @@ Script
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 JSObject
@@ -1460,7 +1460,9 @@ this
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

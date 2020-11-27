@@ -145,8 +145,8 @@ MediaControl
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 BrowsingContext
@@ -211,7 +211,9 @@ aBC
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

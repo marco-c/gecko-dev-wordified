@@ -206,8 +206,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 namespace
@@ -2484,10 +2484,12 @@ sOpenPopupSpamCount
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 AutoPopupStatePusherInternal
 :
 :

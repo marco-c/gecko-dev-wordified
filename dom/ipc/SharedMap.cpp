@@ -222,8 +222,8 @@ ipc
 ;
 namespace
 dom
-:
-:
+{
+namespace
 ipc
 {
 /
@@ -3045,10 +3045,12 @@ SharedMap
 /
 /
 namespace
-dom
-:
-:
 ipc
+}
+/
+/
+namespace
+dom
 }
 /
 /

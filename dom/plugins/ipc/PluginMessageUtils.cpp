@@ -265,8 +265,8 @@ NS_OK
 namespace
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 NPRemoteWindow
@@ -783,7 +783,9 @@ v
 /
 /
 namespace
-mozilla
-:
-:
 plugins
+}
+/
+/
+namespace
+mozilla

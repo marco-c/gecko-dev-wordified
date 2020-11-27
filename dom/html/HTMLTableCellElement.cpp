@@ -194,8 +194,8 @@ TableCell
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLTableCellElement
@@ -1300,7 +1300,9 @@ MapAttributesIntoRule
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

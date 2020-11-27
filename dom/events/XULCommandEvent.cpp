@@ -134,8 +134,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 XULCommandEvent
@@ -420,10 +420,12 @@ aInputSource
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

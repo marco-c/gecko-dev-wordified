@@ -179,8 +179,8 @@ LI
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLLIElement
@@ -685,7 +685,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

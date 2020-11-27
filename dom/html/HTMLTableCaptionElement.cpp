@@ -172,8 +172,8 @@ TableCaption
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLTableCaptionElement
@@ -488,7 +488,9 @@ MapAttributesIntoRule
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

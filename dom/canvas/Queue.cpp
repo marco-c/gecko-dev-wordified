@@ -102,8 +102,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 webgl
 {
 mozilla
@@ -132,7 +132,9 @@ ipdlqueue
 /
 /
 namespace
-mozilla
-:
-:
 webgl
+}
+/
+/
+namespace
+mozilla

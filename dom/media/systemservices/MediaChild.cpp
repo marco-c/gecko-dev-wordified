@@ -202,8 +202,8 @@ args
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 media
 {
 RefPtr
@@ -706,7 +706,9 @@ true
 /
 /
 namespace
-mozilla
-:
-:
 media
+}
+/
+/
+namespace
+mozilla

@@ -159,8 +159,8 @@ Time
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 HTMLTimeElement
@@ -246,7 +246,9 @@ aGivenProto
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

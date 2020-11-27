@@ -182,8 +182,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 InternalHeaders
@@ -3652,7 +3652,9 @@ break
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

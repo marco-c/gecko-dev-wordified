@@ -201,8 +201,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 StructuredCloneBlob
@@ -1322,7 +1322,9 @@ nsIMemoryReporter
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

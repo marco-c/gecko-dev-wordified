@@ -560,8 +560,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 struct
@@ -13079,7 +13079,9 @@ DISPATCH_NORMAL
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

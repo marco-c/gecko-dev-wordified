@@ -273,8 +273,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 EntryCallbackRunnable
@@ -1546,7 +1546,9 @@ forget
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
