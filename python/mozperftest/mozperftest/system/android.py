@@ -164,7 +164,7 @@ mozilla
 -
 central
 .
-nightly
+shippable
 .
 latest
 .
