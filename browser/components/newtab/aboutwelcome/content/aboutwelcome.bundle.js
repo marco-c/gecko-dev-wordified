@@ -3584,7 +3584,7 @@ setRegion
 await
 window
 .
-AWGetRegion
+AWWaitForRegionChange
 (
 )
 )
