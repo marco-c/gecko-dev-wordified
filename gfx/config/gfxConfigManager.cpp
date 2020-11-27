@@ -2381,6 +2381,9 @@ _ns
 )
 ;
 }
+#
+ifndef
+NIGHTLY_BUILD
 if
 (
 !
@@ -2420,6 +2423,8 @@ _ns
 )
 ;
 }
+#
+endif
 mFeatureWrDComp
 -
 >
