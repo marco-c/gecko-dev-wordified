@@ -177,9 +177,6 @@ NS_BOX_LAYOUT_IID
 \
 }
 class
-nsIGridPart
-;
-class
 nsBoxLayout
 :
 public
@@ -392,17 +389,6 @@ nsMargin
 aMargin
 )
 ;
-virtual
-nsIGridPart
-*
-AsGridPart
-(
-)
-{
-return
-nullptr
-;
-}
 static
 void
 AddLargestSize
