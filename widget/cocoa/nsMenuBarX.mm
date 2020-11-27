@@ -6306,6 +6306,7 @@ nsIAppStartup
 :
 :
 eAttemptQuit
+0
 &
 userAllowedQuit
 )
