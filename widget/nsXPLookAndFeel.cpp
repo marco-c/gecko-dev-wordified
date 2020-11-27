@@ -3435,10 +3435,10 @@ cc
 BorrowLookAndFeelCache
 (
 )
-.
-Clear
-(
-)
+=
+LookAndFeelCache
+{
+}
 ;
 }
 }
@@ -6538,6 +6538,9 @@ i
 ;
 }
 }
+widget
+:
+:
 LookAndFeelCache
 nsXPLookAndFeel
 :
@@ -7033,6 +7036,9 @@ NativeInit
 /
 /
 static
+widget
+:
+:
 LookAndFeelCache
 LookAndFeel
 :
@@ -7065,6 +7071,9 @@ LookAndFeel
 SetCache
 (
 const
+widget
+:
+:
 LookAndFeelCache
 &
 aCache
