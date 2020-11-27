@@ -1429,7 +1429,7 @@ DIAGRAM
 diagram
 "
 ATK_ROLE_IMAGE
-NSAccessibilityUnknownRole
+NSAccessibilityImageRole
 NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_DIAGRAM
 ROLE_SYSTEM_DIAGRAM
