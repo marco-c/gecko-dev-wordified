@@ -239,12 +239,6 @@ protected
 :
 static
 bool
-SystemWantsOverlayScrollbars
-(
-)
-;
-static
-bool
 AllowOverlayScrollbarsOverlap
 (
 )
