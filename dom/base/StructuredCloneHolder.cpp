@@ -2901,7 +2901,7 @@ JSStructuredCloneWriter
 *
 aWriter
 const
-nsString
+nsAString
 &
 aString
 )
@@ -2935,7 +2935,7 @@ JS_WriteBytes
 aWriter
 aString
 .
-get
+BeginReading
 (
 )
 aString
