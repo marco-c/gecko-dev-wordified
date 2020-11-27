@@ -213,6 +213,17 @@ mozilla
 /
 dom
 /
+DocShellMessageUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
+dom
+/
 TabMessageUtils
 .
 h
