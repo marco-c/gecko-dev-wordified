@@ -808,13 +808,13 @@ if
 mMode
 =
 =
-2
+MODE_TRRFIRST
 |
 |
 mMode
 =
 =
-3
+MODE_TRRONLY
 )
 &
 &
