@@ -109,11 +109,6 @@ TestSpan
 .
 cpp
 "
-"
-TestTainting
-.
-cpp
-"
 ]
 SOURCES
 +
@@ -174,7 +169,7 @@ LOCAL_INCLUDES
 =
 [
 #
-"
+'
 .
 .
 /
@@ -182,7 +177,7 @@ LOCAL_INCLUDES
 .
 /
 base
-"
+'
 #
 ]
 FINAL_LIBRARY
