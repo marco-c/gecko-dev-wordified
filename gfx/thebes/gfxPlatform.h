@@ -4819,6 +4819,12 @@ InitWebRenderConfig
 ;
 virtual
 void
+InitWebGLConfig
+(
+)
+;
+virtual
+void
 InitWebGPUConfig
 (
 )
