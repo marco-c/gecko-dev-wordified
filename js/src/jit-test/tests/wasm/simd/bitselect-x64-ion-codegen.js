@@ -92,7 +92,7 @@ up
 /
 The
 remaining
-movaps
+movdqa
 is
 currently
 unavoidable
@@ -147,10 +147,11 @@ rbp
 000000
 .
 .
+66
 0f
-28
+6f
 da
-movaps
+movdqa
 %
 xmm2
 %
