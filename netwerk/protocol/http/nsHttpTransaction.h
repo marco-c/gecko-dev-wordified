@@ -811,6 +811,7 @@ void
 DisableHttp3
 (
 )
+override
 ;
 nsHttpTransaction
 *

@@ -2278,16 +2278,6 @@ NS_HTTP_BE_CONSERVATIVE
 &
 !
 mBeConservative
-&
-&
-!
-gHttpHandler
--
->
-IsHttp3Excluded
-(
-connInfo
-)
 ;
 RefPtr
 <
