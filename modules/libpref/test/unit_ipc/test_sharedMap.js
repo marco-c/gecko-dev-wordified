@@ -208,6 +208,11 @@ getDefaultBranch
 const
 FRAME_SCRIPT_INIT
 =
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

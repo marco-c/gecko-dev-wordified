@@ -7845,12 +7845,6 @@ addJSWindowActors
 JSWINDOWACTORS
 )
 ;
-ActorManagerParent
-.
-flush
-(
-)
-;
 this
 .
 _flashHangCount
