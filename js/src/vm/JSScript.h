@@ -12068,6 +12068,11 @@ MUTABLE_FLAG_GETTER_SETTER
 failedLexicalCheck
 FailedLexicalCheck
 )
+MUTABLE_FLAG_GETTER_SETTER
+(
+hadSpeculativePhiBailout
+HadSpeculativePhiBailout
+)
 #
 undef
 IMMUTABLE_FLAG_GETTER
