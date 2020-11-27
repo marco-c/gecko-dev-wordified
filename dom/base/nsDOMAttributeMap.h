@@ -1000,7 +1000,7 @@ khuey
 yes
 this
 is
-crazy
+strange
 .
 The
 bindings

@@ -1047,7 +1047,7 @@ would
 be
 a
 pretty
-crazy
+strange
 *
 implementation
 ;

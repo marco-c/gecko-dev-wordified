@@ -2992,9 +2992,7 @@ known
 and
 /
 /
-non
--
-crazy
+reasonable
 algorithm
 .
 void

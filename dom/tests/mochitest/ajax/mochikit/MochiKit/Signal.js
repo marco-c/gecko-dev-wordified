@@ -1654,7 +1654,7 @@ and
 keyCode
 to
 something
-crazy
+weird
 for
 special
 keys
