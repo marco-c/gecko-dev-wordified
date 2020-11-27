@@ -8698,7 +8698,7 @@ close
 reraise
 (
 exc_type
-exctype
+exc_type
 (
 value
 .
