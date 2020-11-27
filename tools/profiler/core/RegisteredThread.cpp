@@ -304,12 +304,6 @@ worthwhile
 mPlatformData
 /
 /
--
-mRacyRegisteredThread
-.
-mPendingMarkers
-/
-/
 /
 /
 The
