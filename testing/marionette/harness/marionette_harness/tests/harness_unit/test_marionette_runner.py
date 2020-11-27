@@ -62,8 +62,6 @@ os
 import
 manifestparser
 import
-mozinfo
-import
 mozunit
 import
 pytest
@@ -2847,17 +2845,30 @@ manifest_class
     
 monkeypatch
 .
-setitem
+setattr
 (
+        
+"
+marionette_harness
+.
+runner
+.
+base
+.
 mozinfo
 .
 info
 "
+{
+"
 mozinfo_key
 "
+:
 "
 mozinfo_val
 "
+}
+    
 )
     
 for
