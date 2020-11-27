@@ -15,11 +15,6 @@ Intl
 .
 DateTimeFormat
 -
-fractionalSecondDigits
-Intl
-.
-DateTimeFormat
--
 formatRange
 is
 not
