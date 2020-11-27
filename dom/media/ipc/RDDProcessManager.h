@@ -603,6 +603,11 @@ mNumProcessAttempts
 =
 0
 ;
+uint32_t
+mNumUnexpectedCrashes
+=
+0
+;
 /
 /
 Fields

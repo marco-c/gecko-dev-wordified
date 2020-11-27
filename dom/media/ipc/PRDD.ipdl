@@ -317,6 +317,8 @@ Endpoint
 PVideoBridgeChild
 >
 endpoint
+bool
+createHardwareDevice
 ContentDeviceData
 contentDeviceData
 )

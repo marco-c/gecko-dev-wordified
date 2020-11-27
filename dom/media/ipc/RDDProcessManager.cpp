@@ -1307,6 +1307,10 @@ mProcess
 aHost
 )
 ;
+mNumUnexpectedCrashes
++
++
+;
 DestroyProcess
 (
 )
@@ -1860,6 +1864,10 @@ move
 (
 childPipe
 )
+mNumUnexpectedCrashes
+=
+=
+0
 contentDeviceData
 )
 ;
