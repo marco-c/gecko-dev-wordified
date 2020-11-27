@@ -3443,6 +3443,7 @@ characterSet
 :
 charSet
 baseURI
+cookieJarSettings
 }
 =
 doc
@@ -4192,6 +4193,17 @@ storagePrincipal
 context
 .
 storagePrincipal
+;
+data
+.
+cookieJarSettings
+=
+E10SUtils
+.
+serializeCookieJarSettings
+(
+cookieJarSettings
+)
 ;
 /
 /
