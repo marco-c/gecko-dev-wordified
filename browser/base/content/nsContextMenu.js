@@ -362,6 +362,16 @@ webExtContextData
 data
 .
 webExtContextData
+cookieJarSettings
+:
+E10SUtils
+.
+deserializeCookieJarSettings
+(
+data
+.
+cookieJarSettings
+)
 }
 ;
 let
