@@ -103,7 +103,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )

@@ -153,13 +153,13 @@ document
 )
 ;
 await
-testConsoleMessagesResources
+testTabConsoleMessagesResources
 (
 false
 )
 ;
 await
-testConsoleMessagesResourcesWithIgnoreExistingResources
+testTabConsoleMessagesResourcesWithIgnoreExistingResources
 (
 false
 )
@@ -181,13 +181,13 @@ fission
 )
 ;
 await
-testConsoleMessagesResources
+testTabConsoleMessagesResources
 (
 true
 )
 ;
 await
-testConsoleMessagesResourcesWithIgnoreExistingResources
+testTabConsoleMessagesResourcesWithIgnoreExistingResources
 (
 true
 )
@@ -197,7 +197,7 @@ true
 ;
 async
 function
-testConsoleMessagesResources
+testTabConsoleMessagesResources
 (
 executeInIframe
 )
@@ -219,7 +219,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )
@@ -515,7 +515,7 @@ close
 }
 async
 function
-testConsoleMessagesResourcesWithIgnoreExistingResources
+testTabConsoleMessagesResourcesWithIgnoreExistingResources
 (
 executeInIframe
 )
@@ -549,7 +549,7 @@ targetList
 }
 =
 await
-initResourceWatcherAndTarget
+initResourceWatcher
 (
 tab
 )
