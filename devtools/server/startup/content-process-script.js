@@ -1397,7 +1397,7 @@ this
 module
 const
 {
-init
+initContentProcessTarget
 }
 =
 ChromeUtils
@@ -1429,7 +1429,7 @@ actor
 connection
 }
 =
-init
+initContentProcessTarget
 (
 {
 target

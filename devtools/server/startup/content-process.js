@@ -188,7 +188,7 @@ PROCESS_TYPE_CONTENT
 {
 const
 {
-init
+initContentProcessTarget
 }
 =
 ChromeUtils
@@ -214,7 +214,7 @@ jsm
 "
 )
 ;
-init
+initContentProcessTarget
 (
 message
 )

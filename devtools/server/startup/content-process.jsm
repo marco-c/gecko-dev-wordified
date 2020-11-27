@@ -133,7 +133,7 @@ cached
 /
 *
 exported
-init
+initContentProcessTarget
 *
 /
 const
@@ -141,7 +141,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-init
+initContentProcessTarget
 "
 ]
 ;
@@ -472,7 +472,7 @@ gLoader
 ;
 }
 function
-init
+initContentProcessTarget
 (
 msg
 )
