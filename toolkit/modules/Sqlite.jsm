@@ -2645,7 +2645,7 @@ status
 .
 isPending
 =
-false
+true
 ;
 status
 .
@@ -2699,12 +2699,17 @@ status
 .
 isPending
 =
-false
+true
 ;
 status
 .
 command
 =
+"
+cached
+:
+"
++
 sql
 ;
 try
