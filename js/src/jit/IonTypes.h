@@ -439,6 +439,7 @@ BailoutKind
 :
 uint8_t
 {
+Unknown
 /
 /
 Normal
@@ -1361,6 +1362,17 @@ switch
 kind
 )
 {
+case
+BailoutKind
+:
+:
+Unknown
+:
+return
+"
+Unknown
+"
+;
 /
 /
 Normal
