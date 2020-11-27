@@ -200,6 +200,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Sprintf
