@@ -498,15 +498,11 @@ parse
 global
 .
 bool
-needsParseGlobal
+mustWait
 =
 options
 .
 useOffThreadParseGlobal
-;
-if
-(
-needsParseGlobal
 &
 &
 OffThreadParsingMustWaitForGC
@@ -518,6 +514,10 @@ runtime
 (
 )
 )
+;
+if
+(
+mustWait
 )
 {
 if
