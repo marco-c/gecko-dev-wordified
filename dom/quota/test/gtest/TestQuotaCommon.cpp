@@ -225,6 +225,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

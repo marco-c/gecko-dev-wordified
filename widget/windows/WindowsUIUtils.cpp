@@ -154,6 +154,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h

@@ -167,6 +167,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 BuildConstants
