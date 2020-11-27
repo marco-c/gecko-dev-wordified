@@ -42132,11 +42132,9 @@ memoryLength
 =
 uint64_t
 (
-buffer
--
->
-byteLength
+ByteLength32
 (
+buffer
 )
 )
 ;
