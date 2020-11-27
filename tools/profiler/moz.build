@@ -1272,6 +1272,16 @@ shadow
 -
 Wno
 -
+error
+=
+stack
+-
+protector
+"
+"
+-
+Wno
+-
 ignored
 -
 qualifiers
