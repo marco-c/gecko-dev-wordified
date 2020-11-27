@@ -125,6 +125,17 @@ XRViewerPose
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+XRView
+.
+h
+"
 namespace
 mozilla
 {

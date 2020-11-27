@@ -121,6 +121,13 @@ XRNativeOriginLocalFloor
 .
 h
 "
+#
+include
+"
+VRDisplayClient
+.
+h
+"
 namespace
 mozilla
 {
@@ -132,6 +139,9 @@ XRNativeOriginLocalFloor
 :
 XRNativeOriginLocalFloor
 (
+gfx
+:
+:
 VRDisplayClient
 *
 aDisplay

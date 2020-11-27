@@ -121,6 +121,13 @@ XRNativeOriginLocal
 .
 h
 "
+#
+include
+"
+VRDisplayClient
+.
+h
+"
 namespace
 mozilla
 {
@@ -132,6 +139,9 @@ XRNativeOriginLocal
 :
 XRNativeOriginLocal
 (
+gfx
+:
+:
 VRDisplayClient
 *
 aDisplay
@@ -211,6 +221,9 @@ sensorState
 .
 flags
 &
+gfx
+:
+:
 VRDisplayCapabilityFlags
 :
 :
@@ -221,6 +234,9 @@ sensorState
 .
 flags
 &
+gfx
+:
+:
 VRDisplayCapabilityFlags
 :
 :

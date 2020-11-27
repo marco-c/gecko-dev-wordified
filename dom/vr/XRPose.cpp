@@ -125,6 +125,17 @@ XRPose
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+XRRigidTransform
+.
+h
+"
 namespace
 mozilla
 {

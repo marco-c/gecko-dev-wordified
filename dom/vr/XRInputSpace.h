@@ -127,6 +127,17 @@ XRInputSpace
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+XRSpace
+.
+h
+"
 namespace
 mozilla
 {

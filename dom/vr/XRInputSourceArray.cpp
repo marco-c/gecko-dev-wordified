@@ -147,6 +147,13 @@ XRInputSourcesChangeEvent
 .
 h
 "
+#
+include
+"
+VRDisplayClient
+.
+h
+"
 namespace
 mozilla
 {

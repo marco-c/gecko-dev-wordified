@@ -160,6 +160,13 @@ h
 #
 include
 "
+VRDisplayClient
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -237,6 +244,9 @@ nsString
 >
 GetInputSourceProfile
 (
+gfx
+:
+:
 VRControllerType
 aType
 )
@@ -256,6 +266,9 @@ aType
 )
 {
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -304,6 +317,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -354,6 +370,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -402,6 +421,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -454,6 +476,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -506,6 +531,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -556,6 +584,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -602,6 +633,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -650,6 +684,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -718,6 +755,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -762,6 +802,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -808,6 +851,9 @@ id
 break
 ;
 case
+gfx
+:
+:
 VRControllerType
 :
 :
@@ -1398,6 +1444,9 @@ displayInfo
 .
 mDisplayID
 *
+gfx
+:
+:
 kVRControllerMaxCount
 +
 aIndex
