@@ -7701,16 +7701,11 @@ CheckedInt
 uint32_t
 >
 absOffset
-=
-CheckedInt
-<
-uint32_t
->
 (
 mOffset
-)
 +
 aInsertionPointOffset
+)
 ;
 if
 (
