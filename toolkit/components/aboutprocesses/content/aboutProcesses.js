@@ -543,7 +543,7 @@ Promise
 <
 {
 *
-durationUnits
+duration
 :
 {
 ns
@@ -558,7 +558,7 @@ String
 s
 :
 String
-min
+m
 :
 String
 h
@@ -569,7 +569,7 @@ d
 String
 }
 *
-memoryUnits
+memory
 :
 {
 B
@@ -6196,7 +6196,7 @@ ns
 us
 ms
 s
-min
+m
 h
 d
 B
@@ -6382,7 +6382,7 @@ ns
 us
 ms
 s
-min
+m
 h
 d
 }
