@@ -15188,7 +15188,7 @@ get_device_id
 }
 Err
 (
-status
+e
 )
 =
 >
@@ -15224,7 +15224,7 @@ instead
 self
 .
 stm_ptr
-status
+e
 )
 ;
 }
