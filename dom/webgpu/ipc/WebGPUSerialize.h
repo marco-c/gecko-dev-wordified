@@ -251,7 +251,7 @@ GPURequestAdapterOptions
 mPowerPreference
 )
 ;
-DEFINE_IPC_SERIALIZER_WITH_FIELDS
+DEFINE_IPC_SERIALIZER_WITHOUT_FIELDS
 (
 mozilla
 :
@@ -260,7 +260,6 @@ dom
 :
 :
 GPUExtensions
-mAnisotropicFiltering
 )
 ;
 DEFINE_IPC_SERIALIZER_WITH_FIELDS
