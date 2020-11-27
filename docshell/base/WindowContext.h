@@ -1647,6 +1647,17 @@ bool
 aOldValue
 )
 ;
+void
+DidSet
+(
+FieldIndex
+<
+IDX_SHEntryHasUserInteraction
+>
+bool
+aOldValue
+)
+;
 /
 /
 Overload

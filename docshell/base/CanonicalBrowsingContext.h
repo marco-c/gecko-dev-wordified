@@ -892,6 +892,8 @@ int32_t
 aIndex
 uint64_t
 aHistoryEpoch
+bool
+aRequireUserInteraction
 Maybe
 <
 ContentParentId
