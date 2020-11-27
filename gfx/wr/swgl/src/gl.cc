@@ -20738,6 +20738,13 @@ zmask
 #
 include
 "
+composite
+.
+h
+"
+#
+include
+"
 swgl_ext
 .
 h
@@ -31571,11 +31578,4 @@ c
 extern
 "
 C
-"
-#
-include
-"
-composite
-.
-h
 "
