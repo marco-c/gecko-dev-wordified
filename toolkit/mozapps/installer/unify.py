@@ -160,7 +160,7 @@ based
 application
 into
 a
-Unified
+Universal
 build
 "
     
@@ -253,13 +253,6 @@ parser
 .
 parse_args
 (
-sys
-.
-argv
-[
-1
-:
-]
 )
     
 buildconfig
