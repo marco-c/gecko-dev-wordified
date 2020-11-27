@@ -668,8 +668,6 @@ GPURenderPipelineDescriptor
 aDesc
 )
 ;
-/
-/
 IMPL_EVENT_HANDLER
 (
 uncapturederror

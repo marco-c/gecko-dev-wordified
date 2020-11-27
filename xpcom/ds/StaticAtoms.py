@@ -9709,6 +9709,16 @@ ontransitionstart
 Atom
 (
 "
+onuncapturederror
+"
+"
+onuncapturederror
+"
+)
+    
+Atom
+(
+"
 onunderflow
 "
 "
