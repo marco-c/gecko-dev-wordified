@@ -661,10 +661,6 @@ mCSSAware
 (
 false
 )
-mSelectedCellIndex
-(
-0
-)
 mIsObjectResizingEnabled
 (
 StaticPrefs
