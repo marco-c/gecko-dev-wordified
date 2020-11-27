@@ -149,6 +149,12 @@ text
 )
 ;
 extern
+bool
+HasDisassembler
+(
+)
+;
+extern
 void
 Disassemble
 (
