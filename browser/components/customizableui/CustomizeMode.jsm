@@ -5603,7 +5603,6 @@ this
 unwrapToolbarItem
 (
 paletteChild
-true
 )
 ;
 this
@@ -6796,7 +6795,6 @@ wrapper
 deferredUnwrapToolbarItem
 (
 aWrapper
-aReconnectCommands
 )
 {
 return
@@ -6828,7 +6826,6 @@ this
 unwrapToolbarItem
 (
 aWrapper
-aReconnectCommands
 )
 ;
 }
@@ -6860,7 +6857,6 @@ item
 unwrapToolbarItem
 (
 aWrapper
-aReconnectCommands
 )
 {
 if
@@ -7017,9 +7013,6 @@ hasAttribute
 itemcommand
 "
 )
-&
-&
-aReconnectCommands
 )
 {
 let
@@ -7750,7 +7743,6 @@ this
 unwrapToolbarItem
 (
 toolbarItem
-true
 )
 ;
 }
@@ -7804,7 +7796,6 @@ this
 deferredUnwrapToolbarItem
 (
 toolbarItem
-true
 )
 ;
 }
