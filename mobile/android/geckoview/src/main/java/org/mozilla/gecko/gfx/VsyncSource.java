@@ -319,6 +319,9 @@ native
 void
 nativeNotifyVsync
 (
+final
+long
+frameTimeNanos
 )
 ;
 /
@@ -350,6 +353,7 @@ this
 ;
 nativeNotifyVsync
 (
+frameTimeNanos
 )
 ;
 }
