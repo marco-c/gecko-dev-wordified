@@ -384,10 +384,9 @@ r
 )
 ;
 await
-waitForTabPlayingEvent
+waitForTabSoundIndicatorDisappears
 (
 tab
-false
 )
 ;
 info

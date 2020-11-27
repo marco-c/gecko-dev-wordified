@@ -252,10 +252,9 @@ showing
 )
 ;
 await
-waitForTabPlayingEvent
+waitForTabSoundIndicatorAppears
 (
 tab
-true
 )
 ;
 info
@@ -293,10 +292,9 @@ exist
 )
 ;
 await
-waitForTabPlayingEvent
+waitForTabSoundIndicatorAppears
 (
 tab
-true
 )
 ;
 info
