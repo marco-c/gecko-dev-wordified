@@ -131,6 +131,9 @@ NotNull
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -145,6 +148,12 @@ AudioContext
 ;
 class
 Document
+;
+enum
+class
+DocumentAutoplayPolicy
+:
+uint8_t
 ;
 /
 *
