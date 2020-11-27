@@ -2435,12 +2435,7 @@ stack
 |
 (
 expected
-Some
-\
-(
-I32
-\
-)
+i32
 but
 nothing
 on
@@ -3875,12 +3870,7 @@ stack
 |
 (
 expected
-Some
-\
-(
-I32
-\
-)
+i32
 but
 nothing
 on
