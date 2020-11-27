@@ -2698,6 +2698,7 @@ y
 )
 {
 }
+explicit
 vec2
 (
 ivec2

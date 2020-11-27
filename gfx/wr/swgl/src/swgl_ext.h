@@ -1686,7 +1686,8 @@ using
 a
 color
 space
-SI
+static
+ALWAYS_INLINE
 PackedRGBA8
 convertYUV
 (
