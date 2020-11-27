@@ -619,10 +619,6 @@ insert
 c
 .
 0
-.
-clone
-(
-)
 v
 )
 ;

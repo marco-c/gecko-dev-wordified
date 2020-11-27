@@ -999,10 +999,6 @@ extra
 into
 (
 )
-.
-clone
-(
-)
 ;
 let
 now
@@ -1051,14 +1047,12 @@ into
 (
 )
 .
-and_then
+map
 (
 |
 hash_map
 |
 {
-Some
-(
 hash_map
 .
 iter
@@ -1089,7 +1083,6 @@ clone
 .
 collect
 (
-)
 )
 }
 )
@@ -1171,10 +1164,6 @@ insert
 c
 .
 0
-.
-clone
-(
-)
 v
 )
 ;
