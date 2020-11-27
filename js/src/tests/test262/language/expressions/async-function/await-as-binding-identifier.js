@@ -166,7 +166,7 @@ DONOTEVALUATE
 )
 ;
 var
-fn
+asyncFn
 =
 async
 function

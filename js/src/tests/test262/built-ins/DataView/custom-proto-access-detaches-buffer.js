@@ -127,6 +127,13 @@ instance
 is
 returned
 .
+includes
+:
+[
+detachArrayBuffer
+.
+js
+]
 features
 :
 [
@@ -198,9 +205,7 @@ get
 (
 )
 {
-262
-.
-detachArrayBuffer
+DETACHBUFFER
 (
 buffer
 )

@@ -104,7 +104,9 @@ a
 123
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 verifyNotWritable

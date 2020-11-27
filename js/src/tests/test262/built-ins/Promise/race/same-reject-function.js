@@ -124,7 +124,9 @@ executor
 {
 executor
 (
-ERROR
+Test262Error
+.
+thrower
 rejectFunction
 )
 ;

@@ -13,6 +13,17 @@ reserved
 .
 /
 /
+Copyright
+2020
+Apple
+Inc
+.
+All
+rights
+reserved
+.
+/
+/
 This
 code
 is
@@ -139,7 +150,7 @@ resolvedOptions
 (
 )
 .
-maximumSignificantDigits
+maximumFractionDigits
 3
 )
 ;

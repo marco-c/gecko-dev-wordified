@@ -95,7 +95,9 @@ constructor
 Test262Error
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Expected
@@ -131,7 +133,9 @@ threw
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Expected

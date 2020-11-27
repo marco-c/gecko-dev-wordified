@@ -95,6 +95,12 @@ safeBroadcast
 .
 agent
 .
+setTimeout
+-
+262
+.
+agent
+.
 tryYield
 -
 262
@@ -362,6 +368,14 @@ this
 )
 ;
 }
+262
+.
+agent
+.
+setTimeout
+=
+setTimeout
+;
 262
 .
 agent

@@ -169,11 +169,11 @@ DONOTEVALUATE
 )
 ;
 var
-fn
+asyncFn
 =
 async
 function
-fn
+asyncFn
 (
 )
 {

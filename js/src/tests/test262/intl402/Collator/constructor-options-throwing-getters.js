@@ -74,6 +74,9 @@ usage
 localeMatcher
 "
 "
+collation
+"
+"
 numeric
 "
 "

@@ -165,7 +165,9 @@ executor
 executor
 (
 rejectFunction
-ERROR
+Test262Error
+.
+thrower
 )
 ;
 }

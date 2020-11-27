@@ -6,9 +6,12 @@ reftest
 skip
 -
 -
-has
-YAML
-errors
+Intl
+.
+Segmenter
+is
+not
+supported
 /
 /
 Copyright

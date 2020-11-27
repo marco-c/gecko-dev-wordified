@@ -61,13 +61,6 @@ buffer
 info
 :
 |
-24
-.
-2
-.
-4
-.
-2
 get
 DataView
 .
@@ -76,8 +69,6 @@ prototype
 byteLength
 .
 .
-.
-5
 .
 Let
 buffer
@@ -95,8 +86,6 @@ ViewedArrayBuffer
 ]
 internal
 slot
-.
-6
 .
 If
 IsDetachedBuffer
@@ -125,7 +114,7 @@ js
 -
 *
 /
-var
+let
 buffer
 =
 new
@@ -134,8 +123,8 @@ ArrayBuffer
 1
 )
 ;
-var
-sample
+let
+dv
 =
 new
 DataView
@@ -154,11 +143,12 @@ assert
 throws
 (
 TypeError
-function
 (
 )
+=
+>
 {
-sample
+dv
 .
 byteLength
 ;

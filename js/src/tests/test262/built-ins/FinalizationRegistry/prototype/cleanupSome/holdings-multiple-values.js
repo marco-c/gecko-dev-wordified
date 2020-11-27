@@ -215,6 +215,11 @@ HeldValue
 features
 :
 [
+FinalizationRegistry
+.
+prototype
+.
+cleanupSome
 cleanupSome
 FinalizationRegistry
 Symbol

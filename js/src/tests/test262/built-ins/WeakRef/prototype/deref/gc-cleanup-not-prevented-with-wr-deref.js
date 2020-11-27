@@ -139,6 +139,11 @@ undefined
 features
 :
 [
+FinalizationRegistry
+.
+prototype
+.
+cleanupSome
 cleanupSome
 WeakRef
 host

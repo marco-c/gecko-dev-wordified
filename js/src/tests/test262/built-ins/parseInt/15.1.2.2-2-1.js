@@ -83,6 +83,9 @@ parseInt
 "
 "
 )
+must
+return
+NaN
 '
 )
 ;

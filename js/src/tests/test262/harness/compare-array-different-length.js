@@ -74,7 +74,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Arrays
@@ -105,7 +107,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Arrays

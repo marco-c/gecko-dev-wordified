@@ -163,6 +163,11 @@ exception
 features
 :
 [
+FinalizationRegistry
+.
+prototype
+.
+cleanupSome
 cleanupSome
 FinalizationRegistry
 ]

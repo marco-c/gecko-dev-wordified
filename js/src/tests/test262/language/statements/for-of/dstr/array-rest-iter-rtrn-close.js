@@ -433,6 +433,17 @@ var
 iterator
 =
 {
+next
+(
+)
+{
+throw
+new
+Test262Error
+(
+)
+;
+}
 return
 :
 function

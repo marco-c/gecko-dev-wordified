@@ -313,7 +313,9 @@ catch
 unused
 )
 {
-ERROR
+throw
+new
+Error
 (
 {
 JSON
@@ -512,7 +514,9 @@ if
 fail
 )
 {
-ERROR
+throw
+new
+Error
 (
 {
 JSON

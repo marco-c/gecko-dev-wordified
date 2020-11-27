@@ -148,6 +148,11 @@ js
 features
 :
 [
+FinalizationRegistry
+.
+prototype
+.
+cleanupSome
 cleanupSome
 FinalizationRegistry
 ]

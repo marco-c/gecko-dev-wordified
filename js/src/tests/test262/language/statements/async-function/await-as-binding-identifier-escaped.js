@@ -169,7 +169,7 @@ DONOTEVALUATE
 ;
 async
 function
-fn
+asyncFn
 (
 )
 {

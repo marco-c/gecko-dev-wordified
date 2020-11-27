@@ -182,6 +182,11 @@ exception
 features
 :
 [
+FinalizationRegistry
+.
+prototype
+.
+cleanupSome
 cleanupSome
 WeakSet
 WeakMap

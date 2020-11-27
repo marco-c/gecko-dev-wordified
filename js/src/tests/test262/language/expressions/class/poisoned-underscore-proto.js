@@ -101,6 +101,7 @@ features
 :
 [
 class
+__proto__
 ]
 -
 -

@@ -155,7 +155,9 @@ executor
 executor
 (
 resolveFunction
-ERROR
+Test262Error
+.
+thrower
 )
 ;
 }

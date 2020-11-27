@@ -132,6 +132,7 @@ functions
 async
 -
 iteration
+__proto__
 ]
 -
 -

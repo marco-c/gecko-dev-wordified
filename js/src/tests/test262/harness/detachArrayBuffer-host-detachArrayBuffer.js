@@ -142,7 +142,9 @@ constructor
 Test262Error
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Expected
@@ -185,7 +187,9 @@ called
 '
 )
 {
-ERROR
+throw
+new
+Error
 (
 Expected
 error
@@ -209,7 +213,9 @@ threw
 false
 )
 {
-ERROR
+throw
+new
+Error
 (
 '
 Expected
