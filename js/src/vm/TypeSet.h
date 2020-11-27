@@ -1287,9 +1287,6 @@ ObjectGroupFlags
 uint32_t
 ;
 class
-StackTypeSet
-;
-class
 HeapTypeSet
 ;
 /
@@ -4276,16 +4273,6 @@ JSTracer
 trc
 )
 ;
-}
-;
-class
-StackTypeSet
-:
-public
-ConstraintTypeSet
-{
-public
-:
 }
 ;
 class
