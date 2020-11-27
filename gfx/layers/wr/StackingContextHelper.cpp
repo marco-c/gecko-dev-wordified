@@ -907,10 +907,10 @@ mDeferredAncestorTransform
 {
 result
 =
+result
+*
 *
 mDeferredAncestorTransform
-*
-result
 ;
 }
 return
