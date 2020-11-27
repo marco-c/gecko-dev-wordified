@@ -1335,6 +1335,12 @@ GetMediaController
 (
 )
 ;
+bool
+HasCreatedMediaController
+(
+)
+const
+;
 /
 /
 Attempts
