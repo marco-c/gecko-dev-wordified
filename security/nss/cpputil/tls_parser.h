@@ -387,6 +387,12 @@ kTlsAlertNoApplicationProtocol
 ;
 const
 uint8_t
+kTlsAlertEchRequired
+=
+121
+;
+const
+uint8_t
 kTlsFakeChangeCipherSpec
 [
 ]
