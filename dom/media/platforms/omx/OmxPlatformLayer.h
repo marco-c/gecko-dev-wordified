@@ -139,6 +139,13 @@ h
 #
 include
 "
+OMX_Video
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h

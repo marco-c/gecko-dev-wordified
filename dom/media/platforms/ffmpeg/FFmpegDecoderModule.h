@@ -149,6 +149,13 @@ h
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 VPXDecoder
 .
 h
