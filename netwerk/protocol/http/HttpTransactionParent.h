@@ -775,6 +775,11 @@ int64_t
 mRequestSize
 ;
 bool
+mIsHttp3Used
+=
+false
+;
+bool
 mProxyConnectFailed
 ;
 Atomic
