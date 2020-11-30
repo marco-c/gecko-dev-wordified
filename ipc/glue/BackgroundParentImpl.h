@@ -155,6 +155,17 @@ namespace
 mozilla
 {
 namespace
+layout
+{
+class
+VsyncParent
+;
+}
+/
+/
+namespace
+layout
+namespace
 ipc
 {
 /
