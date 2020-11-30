@@ -308,7 +308,7 @@ NS_NewRunnableFunction
 MockCubebStream
 :
 :
-WaitForUnfreezedStart
+WaitForThawBeforeStart
 "
 [
 this
@@ -609,7 +609,7 @@ void
 MockCubebStream
 :
 :
-Unfreeze
+Thaw
 (
 )
 {

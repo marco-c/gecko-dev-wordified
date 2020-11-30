@@ -1020,7 +1020,7 @@ ForceError
 )
 ;
 void
-Unfreeze
+Thaw
 (
 )
 ;
