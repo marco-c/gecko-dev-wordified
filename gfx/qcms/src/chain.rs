@@ -10777,6 +10777,12 @@ is_none
 (
 )
 {
+append_transform
+(
+transform
+next_transform
+)
+;
 current_block
 =
 8903102000210989603
@@ -10784,6 +10790,14 @@ current_block
 }
 else
 {
+next_transform
+=
+append_transform
+(
+transform
+next_transform
+)
+;
 transform
 =
 qcms_modular_transform_alloc
