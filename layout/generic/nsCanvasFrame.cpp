@@ -5343,9 +5343,10 @@ pifChild
 ScrollableOverflowRect
 (
 )
-aReflowInput
-.
-ComputedSizeAsContainerIfConstrained
+pifChild
+-
+>
+GetSize
 (
 )
 )
