@@ -351,6 +351,11 @@ nsAnimationManager
 h
 "
 "
+nsComputedDOMStyle
+.
+h
+"
+"
 nsCSSAnonBoxes
 .
 h
