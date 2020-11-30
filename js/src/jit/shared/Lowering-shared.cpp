@@ -977,9 +977,6 @@ LIRGeneratorShared
 :
 buildSnapshot
 (
-LInstruction
-*
-ins
 MResumePoint
 *
 rp
@@ -1409,9 +1406,6 @@ LIRGeneratorShared
 :
 buildSnapshot
 (
-LInstruction
-*
-ins
 MResumePoint
 *
 rp
@@ -1770,7 +1764,6 @@ snapshot
 =
 buildSnapshot
 (
-ins
 lastResumePoint_
 kind
 )
@@ -1874,7 +1867,6 @@ postSnapshot
 =
 buildSnapshot
 (
-ins
 mrp
 kind
 )

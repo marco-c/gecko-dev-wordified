@@ -2220,9 +2220,6 @@ LSnapshot
 *
 buildSnapshot
 (
-LInstruction
-*
-ins
 MResumePoint
 *
 rp
