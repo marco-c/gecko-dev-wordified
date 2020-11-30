@@ -1210,6 +1210,12 @@ appropriately
 .
 *
 /
+/
+*
+disabled
+for
+bug
+1676078
 add_task
 (
 async
@@ -1506,6 +1512,8 @@ tearDown
 }
 )
 ;
+*
+/
 /
 *
 *
