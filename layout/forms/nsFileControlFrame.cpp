@@ -1144,6 +1144,13 @@ wm
 )
 ;
 }
+nscoord
+availableISizeForLabel
+=
+contentISize
+;
+if
+(
 auto
 *
 buttonFrame
@@ -1154,12 +1161,11 @@ mBrowseFilesOrDirs
 GetPrimaryFrame
 (
 )
-;
-nscoord
+)
+{
 availableISizeForLabel
-=
-contentISize
 -
+=
 buttonFrame
 -
 >
@@ -1167,7 +1173,7 @@ ISize
 (
 wm
 )
--
++
 buttonFrame
 -
 >
@@ -1181,6 +1187,7 @@ IStartEnd
 wm
 )
 ;
+}
 if
 (
 CropTextToWidth
