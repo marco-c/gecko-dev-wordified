@@ -3385,7 +3385,7 @@ const
 {
 MOZ_ASSERT
 (
-hasBaseScript
+hasBytecode
 (
 )
 )
