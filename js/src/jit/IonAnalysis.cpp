@@ -26612,6 +26612,17 @@ setMaximum
 newMaximum
 )
 ;
+dominating
+-
+>
+setBailoutKind
+(
+BailoutKind
+:
+:
+HoistBoundsCheck
+)
+;
 return
 true
 ;
