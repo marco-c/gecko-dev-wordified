@@ -6269,7 +6269,7 @@ successive
 samplings
 .
 ProfilerStats
-mIntervalsNs
+mIntervalsUs
 ;
 /
 /
@@ -6287,7 +6287,7 @@ below
 .
 )
 ProfilerStats
-mOverheadsNs
+mOverheadsUs
 ;
 /
 /
@@ -6303,7 +6303,7 @@ before
 sampling
 .
 ProfilerStats
-mLockingsNs
+mLockingsUs
 ;
 /
 /
@@ -6317,7 +6317,7 @@ expired
 data
 .
 ProfilerStats
-mCleaningsNs
+mCleaningsUs
 ;
 /
 /
@@ -6331,7 +6331,7 @@ counter
 data
 .
 ProfilerStats
-mCountersNs
+mCountersUs
 ;
 /
 /
@@ -6345,7 +6345,7 @@ thread
 stacks
 .
 ProfilerStats
-mThreadsNs
+mThreadsUs
 ;
 }
 ;

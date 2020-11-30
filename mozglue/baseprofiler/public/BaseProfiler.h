@@ -5084,14 +5084,14 @@ stats
 :
 Interval
 (
-ns
+us
 )
 between
 successive
 samplings
 .
 ProfilerStats
-mIntervalsNs
+mIntervalsUs
 ;
 /
 /
@@ -5101,7 +5101,7 @@ stats
 Total
 duration
 (
-ns
+us
 )
 of
 each
@@ -5114,7 +5114,7 @@ below
 .
 )
 ProfilerStats
-mOverheadsNs
+mOverheadsUs
 ;
 /
 /
@@ -5123,7 +5123,7 @@ stats
 :
 Time
 (
-ns
+us
 )
 to
 acquire
@@ -5133,7 +5133,7 @@ before
 sampling
 .
 ProfilerStats
-mLockingsNs
+mLockingsUs
 ;
 /
 /
@@ -5142,7 +5142,7 @@ stats
 :
 Time
 (
-ns
+us
 )
 to
 discard
@@ -5150,7 +5150,7 @@ expired
 data
 .
 ProfilerStats
-mCleaningsNs
+mCleaningsUs
 ;
 /
 /
@@ -5159,7 +5159,7 @@ stats
 :
 Time
 (
-ns
+us
 )
 to
 collect
@@ -5167,7 +5167,7 @@ counter
 data
 .
 ProfilerStats
-mCountersNs
+mCountersUs
 ;
 /
 /
@@ -5176,7 +5176,7 @@ stats
 :
 Time
 (
-ns
+us
 )
 to
 sample
@@ -5184,7 +5184,7 @@ thread
 stacks
 .
 ProfilerStats
-mThreadsNs
+mThreadsUs
 ;
 }
 ;
