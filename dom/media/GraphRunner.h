@@ -288,6 +288,7 @@ bool
 OnThread
 (
 )
+const
 ;
 #
 ifdef
@@ -320,10 +321,12 @@ last
 bool
 InDriverIteration
 (
+const
 GraphDriver
 *
 aDriver
 )
+const
 ;
 #
 endif

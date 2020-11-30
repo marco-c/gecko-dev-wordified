@@ -864,10 +864,12 @@ aDriver
 bool
 InDriverIteration
 (
+const
 GraphDriver
 *
 aDriver
 )
+const
 override
 ;
 #

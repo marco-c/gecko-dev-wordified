@@ -476,10 +476,12 @@ DEBUG
 bool
 InDriverIteration
 (
+const
 GraphDriver
 *
 aDriver
 )
+const
 override
 {
 return
