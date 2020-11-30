@@ -1668,7 +1668,7 @@ to
 be
 /
 /
-dispayed
+displayed
 (
 i
 .
