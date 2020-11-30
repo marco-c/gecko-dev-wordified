@@ -1075,8 +1075,6 @@ qcms_enable_avx
 let
 sRGB_profile
 =
-unsafe
-{
 crate
 :
 :
@@ -1086,7 +1084,6 @@ iccread
 qcms_profile_sRGB
 (
 )
-}
 ;
 let
 mut
@@ -1159,12 +1156,9 @@ Y
 let
 D65
 =
-unsafe
-{
 qcms_white_point_sRGB
 (
 )
-}
 ;
 let
 other
@@ -1299,8 +1293,6 @@ gray_alpha
 let
 sRGB_profile
 =
-unsafe
-{
 crate
 :
 :
@@ -1310,7 +1302,6 @@ iccread
 qcms_profile_sRGB
 (
 )
-}
 ;
 let
 other
@@ -1930,12 +1921,9 @@ null_mut
 let
 srgb_profile
 =
-unsafe
-{
 qcms_profile_sRGB
 (
 )
-}
 ;
 assert_ne
 !
