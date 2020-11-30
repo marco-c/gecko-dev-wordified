@@ -2074,13 +2074,6 @@ ICScript
 icScript
 )
 {
-MOZ_ASSERT
-(
-JitOptions
-.
-warpBuilder
-)
-;
 icScript_
 =
 icScript
