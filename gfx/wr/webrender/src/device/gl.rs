@@ -28499,15 +28499,6 @@ buffer
 )
 ;
 }
-self
-.
-pbo_pool
-.
-end_frame
-(
-device
-)
-;
 device
 .
 gl
