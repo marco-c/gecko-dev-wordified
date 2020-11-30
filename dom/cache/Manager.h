@@ -1008,6 +1008,12 @@ IsShutdownAllComplete
 (
 )
 ;
+static
+nsCString
+GetShutdownStatus
+(
+)
+;
 /
 /
 Cancel
