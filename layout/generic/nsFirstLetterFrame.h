@@ -435,12 +435,6 @@ virtual
 LogicalSides
 GetLogicalSkipSides
 (
-const
-Maybe
-<
-SkipSidesDuringReflow
->
-&
 )
 const
 override
