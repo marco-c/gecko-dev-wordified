@@ -197,7 +197,7 @@ const
 EventStates
 &
 aDocumentState
-uint32_t
+DPIRatio
 aDpiRatio
 )
 override
@@ -225,7 +225,7 @@ const
 EventStates
 &
 aDocumentState
-uint32_t
+DPIRatio
 aDpiRatio
 bool
 aIsRoot
@@ -255,7 +255,7 @@ const
 EventStates
 &
 aDocumentState
-uint32_t
+DPIRatio
 aDpiRatio
 bool
 aIsRoot
@@ -283,7 +283,7 @@ const
 EventStates
 &
 aDocumentState
-uint32_t
+DPIRatio
 aDpiRatio
 bool
 aIsRoot

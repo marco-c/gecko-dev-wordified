@@ -184,7 +184,7 @@ bool
 aIsOverridable
 )
 {
-uint32_t
+DPIRatio
 dpiRatio
 =
 GetDPIRatio
@@ -274,6 +274,8 @@ GetMinimumWidgetSize
 aAppearance
 aFrame
 dpiRatio
+.
+scale
 )
 ;
 break
@@ -329,7 +331,7 @@ const
 EventStates
 &
 aDocumentState
-uint32_t
+DPIRatio
 aDpiRatio
 )
 {
@@ -349,6 +351,8 @@ aHorizontal
 if
 (
 aDpiRatio
+.
+scale
 >
 =
 2
@@ -462,7 +466,7 @@ const
 EventStates
 &
 aDocumentState
-uint32_t
+DPIRatio
 aDpiRatio
 bool
 aIsRoot
@@ -484,6 +488,8 @@ aHorizontal
 if
 (
 aDpiRatio
+.
+scale
 >
 =
 2
@@ -597,7 +603,7 @@ const
 EventStates
 &
 aDocumentState
-uint32_t
+DPIRatio
 aDpiRatio
 bool
 aIsRoot
@@ -641,7 +647,7 @@ const
 EventStates
 &
 aDocumentState
-uint32_t
+DPIRatio
 aDpiRatio
 bool
 aIsRoot
@@ -663,6 +669,8 @@ false
 if
 (
 aDpiRatio
+.
+scale
 >
 =
 2
