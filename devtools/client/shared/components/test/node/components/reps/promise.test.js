@@ -1006,6 +1006,8 @@ value
 >
 "
 ]
+.
+value
 {
 mode
 :

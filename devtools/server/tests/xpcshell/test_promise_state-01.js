@@ -156,6 +156,8 @@ state
 >
 "
 ]
+.
+value
 "
 pending
 "

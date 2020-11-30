@@ -387,7 +387,11 @@ state
 "
 ]
 =
+{
+value
+:
 state
+}
 ;
 let
 ownPropertiesLength
@@ -413,7 +417,11 @@ value
 "
 ]
 =
+{
 value
+:
+value
+}
 ;
 +
 +
@@ -440,7 +448,11 @@ reason
 "
 ]
 =
+{
+value
+:
 reason
+}
 ;
 +
 +
@@ -589,6 +601,8 @@ state
 >
 "
 ]
+.
+value
 }
 )
 span
