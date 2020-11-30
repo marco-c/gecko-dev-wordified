@@ -206,6 +206,13 @@ kMaxLengthForCompositionString
 static
 constexpr
 uint32_t
+kMaxLengthForSelectedString
+=
+12
+;
+static
+constexpr
+uint32_t
 kMaxLengthForEditor
 =
 20
