@@ -195,13 +195,6 @@ PresShell
 class
 RefreshDriverTimer
 ;
-namespace
-layout
-{
-class
-VsyncChild
-;
-}
 }
 /
 /
