@@ -508,7 +508,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 bool
@@ -542,7 +542,7 @@ aElementState
 aDocumentState
 )
 ;
-Rect
+LayoutDeviceRect
 thumbRect
 (
 aRect
@@ -615,7 +615,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 bool
@@ -653,6 +653,10 @@ aDrawTarget
 FillRect
 (
 aRect
+.
+ToUnknownRect
+(
+)
 gfx
 :
 :
@@ -676,7 +680,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 nsIFrame
@@ -712,6 +716,10 @@ aDrawTarget
 FillRect
 (
 aRect
+.
+ToUnknownRect
+(
+)
 gfx
 :
 :

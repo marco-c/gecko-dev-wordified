@@ -162,7 +162,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 bool
@@ -194,7 +194,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 bool
@@ -224,7 +224,7 @@ DrawTarget
 *
 aDrawTarget
 const
-Rect
+LayoutDeviceRect
 &
 aRect
 nsIFrame
