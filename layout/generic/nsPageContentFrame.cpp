@@ -1213,7 +1213,7 @@ overflowBSize
 LogicalRect
 (
 wm
-InkOverflowRect
+ScrollableOverflowRect
 (
 )
 GetSize
@@ -1267,7 +1267,7 @@ remainingOverflow
 If
 we
 have
-InkOverflow
+ScrollableOverflow
 off
 the
 end
@@ -1302,11 +1302,9 @@ expect
 to
 draw
 our
-InkOverflow
+overflow
 on
 our
-/
-/
 behalf
 .
 aStatus
