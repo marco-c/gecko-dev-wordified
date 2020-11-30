@@ -4256,6 +4256,15 @@ nullptr
 }
 if
 (
+!
+webgl
+-
+>
+IsWebGL2
+(
+)
+&
+&
 hasActiveAttrib
 &
 &
