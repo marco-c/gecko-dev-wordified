@@ -1326,6 +1326,15 @@ Opcode
 :
 GuardIndexIsValidUpdateOrAdd
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+CallObjectHasSparseElement
+:
 object
 =
 ins
