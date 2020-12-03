@@ -71264,8 +71264,9 @@ gLiveDatabaseHashtable
 {
 for
 (
-Database
-*
+const
+auto
+&
 database
 :
 liveDatabasesEntry
@@ -71278,10 +71279,16 @@ GetData
 mLiveDatabases
 )
 {
+MOZ_ASSERT
+(
+database
+)
+;
 if
 (
 aCondition
 (
+*
 database
 )
 )
@@ -71293,6 +71300,10 @@ AppendElement
 SafeRefPtr
 {
 database
+.
+get
+(
+)
 AcquireStrongRefFromRawPtr
 {
 }
@@ -71362,8 +71373,7 @@ database
 {
 return
 database
--
->
+.
 GroupAndOrigin
 (
 )
@@ -71394,6 +71404,7 @@ AssertIsOnBackgroundThread
 InvalidateLiveDatabasesMatching
 (
 [
+&
 aContentParentId
 ]
 (
@@ -71405,8 +71416,7 @@ database
 {
 return
 database
--
->
+.
 IsOwnedByProcess
 (
 aContentParentId
