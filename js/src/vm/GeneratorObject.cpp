@@ -2145,7 +2145,7 @@ JSObject
 js
 :
 :
-NewSingletonObjectWithFunctionPrototype
+NewTenuredObjectWithFunctionPrototype
 (
 JSContext
 *
@@ -2186,7 +2186,7 @@ RootedObject
 obj
 (
 cx
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 PlainObject
 >
@@ -2317,7 +2317,7 @@ key
 )
 {
 return
-NewSingletonObjectWithFunctionPrototype
+NewTenuredObjectWithFunctionPrototype
 (
 cx
 cx

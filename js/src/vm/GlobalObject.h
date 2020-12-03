@@ -6080,7 +6080,7 @@ getClass
 }
 JSObject
 *
-NewSingletonObjectWithFunctionPrototype
+NewTenuredObjectWithFunctionPrototype
 (
 JSContext
 *

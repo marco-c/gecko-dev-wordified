@@ -5944,7 +5944,7 @@ RootedObject
 blankProto
 (
 cx
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 (
 cx
 clasp

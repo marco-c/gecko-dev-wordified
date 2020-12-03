@@ -24275,7 +24275,7 @@ RootedObject
 unscopables
 (
 cx
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 PlainObject
 >

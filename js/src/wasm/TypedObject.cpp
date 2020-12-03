@@ -2723,7 +2723,7 @@ cx
 ;
 obj
 =
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 ArrayTypeDescr
 >
@@ -4082,7 +4082,7 @@ cx
 ;
 descr
 =
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 StructTypeDescr
 >
@@ -5481,7 +5481,7 @@ T
 descr
 (
 cx
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 T
 >
@@ -6193,7 +6193,7 @@ nullptr
 ;
 }
 return
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 TypedProto
 >

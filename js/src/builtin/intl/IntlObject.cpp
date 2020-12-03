@@ -5182,7 +5182,7 @@ constructor
 properties
 .
 return
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 (
 cx
 &
