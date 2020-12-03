@@ -1308,6 +1308,15 @@ Opcode
 :
 GuardIsExtensible
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+GuardIndexGreaterThanDenseInitLength
+:
 object
 =
 ins
