@@ -6191,7 +6191,6 @@ arr
 >
 setLength
 (
-cx
 newLen
 )
 ;
@@ -6550,7 +6549,6 @@ arr
 >
 setLength
 (
-cx
 index
 +
 1
@@ -13687,7 +13685,7 @@ ArrayObject
 (
 )
 .
-setLengthInt32
+setLength
 (
 start
 +
@@ -15155,7 +15153,7 @@ length
 arr
 -
 >
-setLengthInt32
+setLength
 (
 length
 +
@@ -17971,7 +17969,6 @@ narr
 >
 setLength
 (
-cx
 count
 )
 ;
@@ -22640,7 +22637,6 @@ result
 >
 setLength
 (
-cx
 count
 )
 ;
@@ -25237,7 +25233,6 @@ arr
 >
 setLength
 (
-cx
 length
 )
 ;
