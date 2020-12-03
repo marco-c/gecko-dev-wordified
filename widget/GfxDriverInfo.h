@@ -1030,6 +1030,7 @@ AtiAll
 MicrosoftAll
 ParallelsAll
 QualcommAll
+AppleAll
 IntelGMA500
 IntelGMA900
 IntelGMA950
@@ -1091,6 +1092,7 @@ VirtualBox
 Qualcomm
 MicrosoftBasic
 MicrosoftHyperV
+Apple
 Max
 }
 ;
