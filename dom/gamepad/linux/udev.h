@@ -480,7 +480,7 @@ do
 s
 =
 (
-typeof
+__typeof__
 (
 s
 )
