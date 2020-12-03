@@ -2304,7 +2304,7 @@ FirstExecution
 script
 -
 >
-hadLICMBailout
+hadLICMInvalidation
 (
 )
 )
@@ -2312,7 +2312,7 @@ hadLICMBailout
 script
 -
 >
-setHadLICMBailout
+setHadLICMInvalidation
 (
 )
 ;

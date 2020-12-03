@@ -11982,8 +11982,8 @@ FailedShapeGuard
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-hadLICMBailout
-HadLICMBailout
+hadLICMInvalidation
+HadLICMInvalidation
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
