@@ -2955,7 +2955,7 @@ RootedObject
 object
 (
 cx
-NewSingletonProxyObject
+NewProxyObject
 (
 cx
 &
