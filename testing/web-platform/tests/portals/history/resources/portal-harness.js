@@ -92,9 +92,6 @@ test
 '
 +
 testName
-'
-*
-'
 )
 ;
 return
@@ -178,9 +175,6 @@ postMessage
 '
 Passed
 '
-'
-*
-'
 )
 ;
 }
@@ -211,9 +205,6 @@ name
 e
 .
 message
-'
-*
-'
 )
 ;
 }
