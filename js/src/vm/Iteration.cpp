@@ -6346,9 +6346,6 @@ getDenseInitializedLength
 0
 )
 {
-if
-(
-!
 obj
 -
 >
@@ -6361,14 +6358,8 @@ NativeObject
 .
 markDenseElementsMaybeInIteration
 (
-cx
 )
-)
-{
-return
-nullptr
 ;
-}
 }
 PropertyIteratorObject
 *

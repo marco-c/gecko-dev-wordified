@@ -929,15 +929,6 @@ MDefinition
 Opcode
 :
 :
-MaybeCopyElementsForWrite
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 ArrayBufferByteLengthInt32
 :
 case

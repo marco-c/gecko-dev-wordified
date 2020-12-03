@@ -654,13 +654,6 @@ cx
 restvp
 nrest
 GenericObject
-ObjectGroup
-:
-:
-NewArrayKind
-:
-:
-UnknownIndex
 )
 ;
 }
