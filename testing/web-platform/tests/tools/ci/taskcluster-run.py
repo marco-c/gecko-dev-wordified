@@ -534,7 +534,7 @@ call
 (
 [
 '
-python
+python3
 '
 '
 .
@@ -751,7 +751,7 @@ command
 =
 [
 "
-python
+python3
 "
 "
 .
