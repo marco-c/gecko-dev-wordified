@@ -730,11 +730,6 @@ synthesizeMouseAtCenter
 input
 "
 {
-type
-:
-"
-mouseup
-"
 }
 tab
 .
@@ -1256,11 +1251,6 @@ synthesizeMouseAtCenter
 input
 "
 {
-type
-:
-"
-mouseup
-"
 }
 tab
 .
