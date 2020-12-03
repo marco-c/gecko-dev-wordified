@@ -1672,6 +1672,9 @@ shutil
 rmtree
 (
 deleted_dir
+ignore_errors
+=
+True
 )
     
 #
