@@ -980,8 +980,12 @@ process
 browsing
 context
 .
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 RefPtr
 <
 StorageAccessPermissionGrantPromise
