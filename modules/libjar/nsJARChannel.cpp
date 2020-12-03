@@ -3257,7 +3257,7 @@ mPump
 nsresult
 rv
 ;
-auto
+uint32_t
 suspendCount
 =
 mPendingEvent
