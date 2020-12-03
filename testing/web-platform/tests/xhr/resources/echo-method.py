@@ -141,11 +141,3 @@ content
 content
 )
 )
-    
-response
-.
-writer
-.
-flush
-(
-)
