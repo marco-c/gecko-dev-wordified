@@ -6388,11 +6388,6 @@ length
 2
 )
 ;
-bool
-supportsExternalCompositing
-=
-false
-;
 /
 /
 XXX
