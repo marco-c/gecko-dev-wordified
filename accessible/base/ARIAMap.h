@@ -607,6 +607,7 @@ ELiveAttrRule
 eNoLiveAttr
 eOffLiveAttr
 ePoliteLiveAttr
+eAssertiveLiveAttr
 }
 ;
 /
