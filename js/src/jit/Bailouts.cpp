@@ -387,17 +387,6 @@ MOZ_ASSERT
 bailoutInfo
 )
 ;
-MOZ_ASSERT
-(
-!
-cx
--
->
-hasIonReturnOverride
-(
-)
-)
-;
 /
 /
 We

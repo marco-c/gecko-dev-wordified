@@ -897,17 +897,6 @@ address
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-cx
--
->
-hasIonReturnOverride
-(
-)
-)
-;
 /
 /
 Release

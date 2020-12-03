@@ -5722,14 +5722,6 @@ inlinedICScript_
 this
 nullptr
 )
-ionReturnOverride_
-(
-this
-MagicValue
-(
-JS_ARG_POISON
-)
-)
 jitStackLimit
 (
 UINTPTR_MAX
