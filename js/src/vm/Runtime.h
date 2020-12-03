@@ -2676,13 +2676,7 @@ JS
 :
 PersistentRooted
 <
-JS
-:
-:
-detail
-:
-:
-RootListEntry
+void
 *
 >
 >
