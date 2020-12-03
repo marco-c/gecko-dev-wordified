@@ -250,7 +250,9 @@ win
 .
 managerWindow
 .
-gViewDefault
+gViewController
+.
+defaultViewId
 "
 default
 view
@@ -272,7 +274,9 @@ win
 .
 managerWindow
 .
-gViewDefault
+gViewController
+.
+defaultViewId
 "
 default
 view
@@ -337,7 +341,9 @@ win
 .
 managerWindow
 .
-gViewDefault
+gViewController
+.
+defaultViewId
 "
 default
 view
@@ -359,7 +365,9 @@ win
 .
 managerWindow
 .
-gViewDefault
+gViewController
+.
+defaultViewId
 "
 default
 view
