@@ -840,6 +840,9 @@ mod
 guillotine_allocator
 ;
 mod
+slab_allocator
+;
+mod
 texture_cache
 ;
 mod
