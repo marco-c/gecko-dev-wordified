@@ -567,10 +567,6 @@ Zone
 zone
 )
 :
-zone_
-(
-zone
-)
 currentCompilationId_
 (
 zone
@@ -579,11 +575,6 @@ keepJitScripts
 (
 zone
 false
-)
-activeAnalysis
-(
-zone
-nullptr
 )
 {
 }
