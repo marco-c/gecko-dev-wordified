@@ -33,7 +33,7 @@ add_task
 (
 async
 function
-some_test
+render_below_search_snippet
 (
 )
 {
@@ -238,7 +238,7 @@ add_task
 (
 async
 function
-some_test
+render_snippets_icon_and_link
 (
 )
 {
@@ -530,10 +530,10 @@ complete
 add_task
 (
 async
+function
+render_preview_snippet
 (
 )
-=
->
 {
 ASRouter
 .

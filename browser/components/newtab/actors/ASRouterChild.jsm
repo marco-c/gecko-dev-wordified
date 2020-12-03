@@ -558,7 +558,10 @@ telemetry
 .
 sendTelemetry
 (
+{
+type
 data
+}
 )
 ;
 }

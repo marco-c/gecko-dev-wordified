@@ -319,9 +319,14 @@ telemetry
 .
 sendTelemetry
 {
+type
+data
+:
+{
 something
 :
 1
+}
 }
 )
 ;
