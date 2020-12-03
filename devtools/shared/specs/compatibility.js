@@ -283,6 +283,9 @@ browsertype
 }
 response
 :
+{
+compatibilityIssues
+:
 RetVal
 (
 "
@@ -291,6 +294,7 @@ array
 compatibilityissues
 "
 )
+}
 }
 getNodeCssIssues
 :
@@ -321,6 +325,9 @@ browsertype
 }
 response
 :
+{
+compatibilityIssues
+:
 RetVal
 (
 "
@@ -329,6 +336,7 @@ array
 compatibilityissues
 "
 )
+}
 }
 }
 }

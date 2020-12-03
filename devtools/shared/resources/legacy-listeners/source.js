@@ -743,17 +743,13 @@ sources
 ;
 try
 {
-(
-{
 sources
-}
 =
 await
 threadFront
 .
 sources
 (
-)
 )
 ;
 }

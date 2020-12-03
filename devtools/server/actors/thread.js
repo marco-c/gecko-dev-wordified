@@ -8695,9 +8695,6 @@ buffered
 packets
 .
 return
-{
-sources
-:
 this
 .
 sourcesManager
@@ -8717,7 +8714,6 @@ form
 (
 )
 )
-}
 ;
 }
 /
