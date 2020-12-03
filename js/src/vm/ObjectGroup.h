@@ -229,9 +229,6 @@ class
 TypeDescr
 ;
 class
-AutoClearTypeInferenceStateOnOOM
-;
-class
 ObjectGroupRealm
 ;
 class

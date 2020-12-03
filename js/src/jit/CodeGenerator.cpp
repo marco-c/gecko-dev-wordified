@@ -728,6 +728,15 @@ include
 "
 vm
 /
+StringObject
+.
+h
+"
+#
+include
+"
+vm
+/
 StringType
 .
 h

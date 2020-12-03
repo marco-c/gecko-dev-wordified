@@ -328,6 +328,17 @@ include
 "
 jit
 /
+JitScript
+-
+inl
+.
+h
+"
+#
+include
+"
+jit
+/
 MacroAssembler
 -
 inl
