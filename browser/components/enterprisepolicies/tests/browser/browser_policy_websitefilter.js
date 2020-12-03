@@ -145,11 +145,6 @@ BLOCKED_PAGE
 true
 )
 ;
-/
-*
-See
-bug
-1678413
 await
 checkBlockedPage
 (
@@ -166,8 +161,6 @@ BLOCKED_PAGE
 true
 )
 ;
-*
-/
 await
 checkBlockedPage
 (
