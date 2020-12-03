@@ -2514,7 +2514,7 @@ AllocKind
 :
 :
 FUNCTION_EXTENDED
-SingletonObject
+TenuredObject
 )
 ;
 }

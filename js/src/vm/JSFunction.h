@@ -5305,7 +5305,7 @@ this
 /
 creates
 a
-singleton
+tenured
 object
 .
 inline
@@ -5338,7 +5338,7 @@ FUNCTION
 NewObjectKind
 newKind
 =
-SingletonObject
+TenuredObject
 FunctionFlags
 flags
 =
@@ -5388,7 +5388,7 @@ this
 /
 creates
 a
-singleton
+tenured
 object
 .
 inline
@@ -5421,7 +5421,7 @@ FUNCTION
 NewObjectKind
 newKind
 =
-SingletonObject
+TenuredObject
 FunctionFlags
 flags
 =
@@ -6152,19 +6152,6 @@ HandleObject
 proto
 )
 ;
-/
-/
-Functions
-whose
-scripts
-are
-cloned
-are
-always
-given
-singleton
-types
-.
 extern
 JSFunction
 *

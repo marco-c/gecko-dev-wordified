@@ -7052,7 +7052,7 @@ cx
 selfHostedName
 name
 nargs
-SingletonObject
+TenuredObject
 &
 fun
 )
