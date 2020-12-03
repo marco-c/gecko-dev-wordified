@@ -4842,10 +4842,11 @@ bug
 1535398
 .
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 mCleanupWork
 -
