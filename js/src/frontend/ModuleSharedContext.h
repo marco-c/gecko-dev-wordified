@@ -208,18 +208,6 @@ js
 Module
 }
 Scope
-#
-include
-"
-vm
-/
-StencilEnums
-.
-h
-"
-/
-/
-ImmutableScriptFlagsEnum
 namespace
 js
 {
@@ -237,7 +225,7 @@ MOZ_STACK_CLASS
 ModuleSharedContext
 :
 public
-SuspendableContext
+SharedContext
 {
 public
 :

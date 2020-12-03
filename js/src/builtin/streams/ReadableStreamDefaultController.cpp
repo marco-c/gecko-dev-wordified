@@ -548,6 +548,8 @@ include
 "
 builtin
 /
+streams
+/
 HandlerFunction
 -
 inl
