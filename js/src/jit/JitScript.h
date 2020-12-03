@@ -194,6 +194,9 @@ js
 namespace
 jit
 {
+class
+JitZone
+;
 /
 /
 Information
@@ -3404,8 +3407,11 @@ class
 MOZ_RAII
 AutoKeepJitScripts
 {
-TypeZone
-&
+jit
+:
+:
+JitZone
+*
 zone_
 ;
 bool

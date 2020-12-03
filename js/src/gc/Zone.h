@@ -1431,12 +1431,6 @@ gc
 ArenaLists
 arenas
 ;
-js
-:
-:
-TypeZone
-types
-;
 /
 /
 Per
