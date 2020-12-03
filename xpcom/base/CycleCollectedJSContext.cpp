@@ -3280,16 +3280,6 @@ return
 NS_OK
 ;
 }
-nsresult
-Cancel
-(
-)
-override
-{
-return
-NS_OK
-;
-}
 }
 ;
 if

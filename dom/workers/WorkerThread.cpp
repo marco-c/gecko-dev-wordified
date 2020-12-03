@@ -1338,9 +1338,9 @@ onWorkerThread
 {
 nsCOMPtr
 <
-nsICancelableRunnable
+nsIDiscardableRunnable
 >
-cancelable
+discardable
 =
 do_QueryInterface
 (
@@ -1358,7 +1358,7 @@ mLock
 /
 Only
 enforce
-cancelable
+discardable
 runnables
 after
 we
@@ -1377,10 +1377,10 @@ mAcceptingNonWorkerRunnables
 {
 MOZ_ASSERT
 (
-cancelable
+discardable
 "
 Only
-nsICancelableRunnable
+nsIDiscardableRunnable
 may
 be
 dispatched
