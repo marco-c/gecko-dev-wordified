@@ -4507,7 +4507,6 @@ arr
 >
 ensureDenseInitializedLength
 (
-cx
 index
 1
 )
@@ -4517,7 +4516,6 @@ arr
 >
 setDenseElementHole
 (
-cx
 index
 )
 ;

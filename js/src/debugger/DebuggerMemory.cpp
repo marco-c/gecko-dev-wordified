@@ -1301,7 +1301,6 @@ result
 >
 ensureDenseInitializedLength
 (
-cx
 0
 length
 )

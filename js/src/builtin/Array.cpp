@@ -3663,7 +3663,6 @@ aobj
 >
 setDenseElementHole
 (
-cx
 idx
 )
 ;
@@ -10399,7 +10398,6 @@ obj
 >
 ensureDenseInitializedLength
 (
-cx
 length
 0
 )
@@ -10518,7 +10516,6 @@ obj
 >
 setDenseElementHole
 (
-cx
 index
 )
 ;
@@ -13704,9 +13701,8 @@ i
 nobj
 -
 >
-setDenseElementWithType
+setDenseElement
 (
-cx
 start
 +
 i
@@ -15081,9 +15077,8 @@ length
 arr
 -
 >
-initDenseElementWithType
+initDenseElement
 (
-cx
 length
 v
 )
@@ -16992,9 +16987,8 @@ i
 nobj
 -
 >
-setDenseElementWithType
+setDenseElement
 (
-cx
 i
 args
 [
@@ -17901,7 +17895,6 @@ narr
 >
 initDenseElements
 (
-cx
 obj
 begin
 newlength
@@ -18107,9 +18100,8 @@ break
 result
 -
 >
-setDenseElementWithType
+setDenseElement
 (
-cx
 index
 value
 )
@@ -22526,7 +22518,6 @@ result
 >
 initDenseElements
 (
-cx
 arr
 begin
 newlength
