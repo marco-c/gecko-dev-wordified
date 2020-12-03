@@ -8152,6 +8152,12 @@ aExtend
 override
 ;
 NS_IMETHOD
+SelectAll
+(
+)
+override
+;
+NS_IMETHOD
 CheckVisibility
 (
 nsINode
