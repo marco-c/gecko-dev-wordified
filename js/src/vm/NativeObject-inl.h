@@ -3129,8 +3129,6 @@ Value
 vp
 uint32_t
 count
-ShouldUpdateTypes
-updateTypes
 )
 {
 if
@@ -3264,15 +3262,6 @@ count
 }
 if
 (
-updateTypes
-=
-=
-ShouldUpdateTypes
-:
-:
-DontUpdate
-&
-&
 !
 shouldConvertDoubleElements
 (

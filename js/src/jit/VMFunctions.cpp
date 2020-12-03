@@ -5600,10 +5600,6 @@ address
 (
 )
 1
-ShouldUpdateTypes
-:
-:
-DontUpdate
 )
 ;
 if
@@ -10526,15 +10522,6 @@ the
 object
 is
 native
-and
-that
-no
-type
-changes
-are
-/
-/
-needed
 .
 DenseElementResult
 result
@@ -10552,10 +10539,6 @@ address
 (
 )
 1
-ShouldUpdateTypes
-:
-:
-DontUpdate
 )
 ;
 if
