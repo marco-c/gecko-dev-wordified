@@ -912,6 +912,7 @@ int32_t
 GetPrintPreviewNumSheets
 (
 )
+const
 ;
 already_AddRefed
 <
@@ -976,6 +977,7 @@ int32_t
 GetSeqFrameAndCountSheets
 (
 )
+const
 ;
 bool
 PrePrintSheet
