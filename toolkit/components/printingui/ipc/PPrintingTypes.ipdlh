@@ -243,6 +243,9 @@ orientation
 int32_t
 numCopies
 ;
+int32_t
+numPagesPerSheet
+;
 nsString
 printerName
 ;
