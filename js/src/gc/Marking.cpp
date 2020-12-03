@@ -488,6 +488,17 @@ include
 "
 vm
 /
+JSScript
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 -
 inl
