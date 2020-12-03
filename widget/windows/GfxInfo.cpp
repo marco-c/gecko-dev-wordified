@@ -11232,7 +11232,7 @@ APPEND_TO_DRIVER_BLOCKLIST2
 OperatingSystem
 :
 :
-Windows10
+Windows
 DeviceFamily
 :
 :
