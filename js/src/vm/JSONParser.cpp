@@ -3986,10 +3986,7 @@ JSObject
 *
 obj
 =
-ObjectGroup
-:
-:
-newPlainObject
+NewPlainObjectWithProperties
 (
 cx
 properties
