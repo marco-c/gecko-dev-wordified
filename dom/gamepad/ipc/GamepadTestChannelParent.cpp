@@ -313,8 +313,8 @@ id
 gamepadID
 )
 ;
-uint32_t
-index
+GamepadHandle
+handle
 =
 service
 -
@@ -372,10 +372,10 @@ num_touches
 Unused
 <
 <
-SendReplyGamepadIndex
+SendReplyGamepadHandle
 (
 aPromiseId
-index
+handle
 )
 ;
 }
@@ -624,13 +624,12 @@ monitoring
 )
 ;
 }
-const
-uint32_t
-index
+GamepadHandle
+handle
 =
 aEvent
 .
-index
+handle
 (
 )
 ;
@@ -654,7 +653,7 @@ service
 >
 RemoveGamepad
 (
-index
+handle
 )
 ;
 return
@@ -694,7 +693,7 @@ service
 >
 NewButtonEvent
 (
-index
+handle
 a
 .
 button
@@ -754,7 +753,7 @@ service
 >
 NewAxisMoveEvent
 (
-index
+handle
 a
 .
 axis
@@ -804,7 +803,7 @@ service
 >
 NewPoseEvent
 (
-index
+handle
 a
 .
 pose_state
@@ -849,7 +848,7 @@ service
 >
 NewMultiTouchEvent
 (
-index
+handle
 a
 .
 index

@@ -152,6 +152,11 @@ GamepadButton
 h
 "
 "
+GamepadHandle
+.
+h
+"
+"
 GamepadHapticActuator
 .
 h
@@ -230,13 +235,6 @@ h
 "
 ipc
 /
-GamepadServiceType
-.
-h
-"
-"
-ipc
-/
 GamepadTestChannelChild
 .
 h
@@ -259,6 +257,11 @@ cpp
 "
 "
 GamepadButton
+.
+cpp
+"
+"
+GamepadHandle
 .
 cpp
 "

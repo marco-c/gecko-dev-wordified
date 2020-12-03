@@ -263,8 +263,8 @@ nsAString
 aID
 int32_t
 aIndex
-uint32_t
-aHashKey
+GamepadHandle
+aHandle
 GamepadMappingType
 aMapping
 GamepadHand
@@ -295,9 +295,9 @@ mIndex
 (
 aIndex
 )
-mHashKey
+mHandle
 (
-aHashKey
+aHandle
 )
 mDisplayId
 (
@@ -404,7 +404,7 @@ new
 GamepadHapticActuator
 (
 mParent
-mHashKey
+mHandle
 i
 )
 )
@@ -434,7 +434,7 @@ new
 GamepadLightIndicator
 (
 mParent
-mHashKey
+mHandle
 i
 )
 )
@@ -1269,7 +1269,7 @@ Gamepad
 aParent
 mID
 mIndex
-mHashKey
+mHandle
 mMapping
 mHand
 mDisplayId

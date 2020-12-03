@@ -184,8 +184,8 @@ GamepadHapticActuator
 nsISupports
 *
 aParent
-uint32_t
-aGamepadId
+GamepadHandle
+aGamepadHandle
 uint32_t
 aIndex
 )
@@ -194,9 +194,9 @@ mParent
 (
 aParent
 )
-mGamepadId
+mGamepadHandle
 (
-aGamepadId
+aGamepadHandle
 )
 mType
 (
@@ -415,7 +415,7 @@ gamepadManager
 >
 VibrateHaptic
 (
-mGamepadId
+mGamepadHandle
 mIndex
 value
 duration
@@ -490,12 +490,12 @@ GamepadHapticActuator
 aOther
 )
 {
-mGamepadId
+mGamepadHandle
 =
 aOther
 -
 >
-mGamepadId
+mGamepadHandle
 ;
 mType
 =
