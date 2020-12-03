@@ -2891,9 +2891,6 @@ private
 uint32_t
 count_
 ;
-bool
-convertDoubleElements_
-;
 public
 :
 RINSTRUCTION_HEADER_NUM_OP_
