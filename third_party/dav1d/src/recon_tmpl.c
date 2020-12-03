@@ -303,15 +303,6 @@ h
 #
 include
 "
-common
-/
-mem
-.
-h
-"
-#
-include
-"
 src
 /
 cdef_apply
