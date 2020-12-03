@@ -5503,7 +5503,7 @@ return
 0
 ;
 }
-LayoutDeviceSize
+LayoutDeviceIntSize
 dropdownButtonSize
 ;
 bool

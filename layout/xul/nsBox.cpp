@@ -822,7 +822,7 @@ appearance
 )
 )
 {
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 margin
 =
 theme
@@ -952,7 +952,7 @@ appearance
 )
 )
 {
-LayoutDeviceMargin
+LayoutDeviceIntMargin
 padding
 ;
 bool
@@ -2493,7 +2493,7 @@ appearance
 )
 )
 {
-LayoutDeviceSize
+LayoutDeviceIntSize
 size
 ;
 theme

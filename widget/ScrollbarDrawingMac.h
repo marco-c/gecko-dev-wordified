@@ -234,7 +234,7 @@ final
 public
 :
 static
-LayoutDeviceSize
+LayoutDeviceIntSize
 GetMinimumWidgetSize
 (
 StyleAppearance
