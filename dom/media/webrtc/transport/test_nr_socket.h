@@ -1073,6 +1073,10 @@ block_tcp_
 (
 false
 )
+error_code_for_drop_
+(
+0
+)
 delay_stun_resp_ms_
 (
 0
@@ -1212,6 +1216,9 @@ block_stun_
 ;
 bool
 block_tcp_
+;
+bool
+error_code_for_drop_
 ;
 /
 *
