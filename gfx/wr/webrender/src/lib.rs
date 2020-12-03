@@ -837,7 +837,7 @@ mod
 storage
 ;
 mod
-texture_allocator
+guillotine_allocator
 ;
 mod
 texture_cache

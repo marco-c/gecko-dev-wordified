@@ -307,11 +307,11 @@ use
 crate
 :
 :
-texture_allocator
+guillotine_allocator
 :
 :
 {
-ArrayAllocationTracker
+GuillotineAllocator
 FreeRectSlice
 }
 ;
@@ -1702,7 +1702,7 @@ SavedTargetIndex
 pub
 alloc_tracker
 :
-ArrayAllocationTracker
+GuillotineAllocator
 gpu_supports_fast_clears
 :
 bool
@@ -1763,7 +1763,7 @@ saved_index
 None
 alloc_tracker
 :
-ArrayAllocationTracker
+GuillotineAllocator
 :
 :
 new
