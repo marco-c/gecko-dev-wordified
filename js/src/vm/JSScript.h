@@ -11934,11 +11934,6 @@ HasRunOnce
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-hasBeenCloned
-HasBeenCloned
-)
-MUTABLE_FLAG_GETTER_SETTER
-(
 hasScriptCounts
 HasScriptCounts
 )
