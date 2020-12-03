@@ -3166,6 +3166,15 @@ mTrustedMitmDetected
 bool
 mNotTrustedMitmDetected
 ;
+CopyableTArray
+<
+nsCOMPtr
+<
+nsISTSShutdownObserver
+>
+>
+mShutdownObservers
+;
 }
 ;
 extern
