@@ -30396,7 +30396,7 @@ baseprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "
@@ -35017,7 +35017,7 @@ baseprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "

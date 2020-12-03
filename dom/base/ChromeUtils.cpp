@@ -1768,7 +1768,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 aText

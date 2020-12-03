@@ -4450,7 +4450,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "
@@ -5973,7 +5973,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "
@@ -6021,7 +6021,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "
@@ -6096,7 +6096,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "
@@ -6159,7 +6159,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "
@@ -6230,7 +6230,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "
@@ -6299,7 +6299,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "
@@ -6369,7 +6369,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 "

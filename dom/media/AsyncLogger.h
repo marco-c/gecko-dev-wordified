@@ -1648,7 +1648,7 @@ ifdef
 MOZ_GECKO_PROFILER
 {
 struct
-Budget
+BudgetMarker
 {
 static
 constexpr
@@ -1813,7 +1813,7 @@ message
 mTimestamp
 )
 }
-Budget
+BudgetMarker
 {
 }
 )
@@ -1869,7 +1869,7 @@ mDurationUs
 )
 )
 }
-Budget
+BudgetMarker
 {
 }
 )

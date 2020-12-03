@@ -1210,7 +1210,7 @@ ProfilerMarkerTypes
 h
 .
 using
-Text
+TextMarker
 =
 :
 :
@@ -1223,7 +1223,7 @@ baseprofiler
 markers
 :
 :
-Text
+TextMarker
 ;
 using
 Tracing
@@ -1314,7 +1314,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 text
@@ -1533,7 +1533,7 @@ geckoprofiler
 markers
 :
 :
-Text
+TextMarker
 {
 }
 mText
