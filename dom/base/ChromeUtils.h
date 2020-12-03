@@ -1190,15 +1190,6 @@ aGlobal
 )
 ;
 static
-bool
-IsPopupTokenUnused
-(
-GlobalObject
-&
-aGlobal
-)
-;
-static
 double
 LastExternalProtocolIframeAllowed
 (

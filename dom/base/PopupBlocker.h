@@ -412,12 +412,6 @@ aPrincipal
 )
 ;
 static
-bool
-IsPopupOpeningTokenUnused
-(
-)
-;
-static
 PopupBlocker
 :
 :
