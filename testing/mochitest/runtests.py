@@ -6602,6 +6602,14 @@ check_call
 gst
             
 "
+-
+-
+no
+-
+fault
+"
+            
+"
 videotestsrc
 "
             
