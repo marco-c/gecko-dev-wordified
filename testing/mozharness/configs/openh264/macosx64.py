@@ -167,8 +167,25 @@ dump_syms_binary
 "
 :
 "
+{
+}
+/
+dump_syms
+/
 dump_syms
 "
+.
+format
+(
+os
+.
+environ
+[
+"
+MOZ_FETCHES_DIR
+"
+]
+)
     
 "
 arch
