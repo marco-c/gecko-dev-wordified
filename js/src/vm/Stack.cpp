@@ -645,15 +645,11 @@ argv
 nformal
 ;
 return
-ObjectGroup
-:
-:
-newArrayObject
+NewDenseCopiedArray
 (
 cx
-restvp
 nrest
-GenericObject
+restvp
 )
 ;
 }
