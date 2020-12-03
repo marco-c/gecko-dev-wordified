@@ -2503,6 +2503,12 @@ calleeToken
 (
 )
 )
+&
+&
+!
+isModuleFrame
+(
+)
 ;
 }
 bool
