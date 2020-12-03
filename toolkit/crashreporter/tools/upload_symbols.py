@@ -726,12 +726,6 @@ tarfile
 import
 tempfile
         
-config
-.
-_ensure_zstd
-(
-)
-        
 import
 zstandard
         
