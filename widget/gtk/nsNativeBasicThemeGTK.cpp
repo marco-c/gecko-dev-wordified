@@ -572,7 +572,7 @@ width
 )
 )
 ;
-auto
+LayoutDeviceCoord
 radius
 =
 (
@@ -601,6 +601,8 @@ sRGBColor
 )
 0
 radius
+/
+aDpiRatio
 aDpiRatio
 )
 ;
