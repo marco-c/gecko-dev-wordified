@@ -4038,7 +4038,7 @@ destroyedCount
 /
 /
 None
-detroyed
+destroyed
 yet
 .
 }

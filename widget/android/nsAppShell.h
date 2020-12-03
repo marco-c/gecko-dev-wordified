@@ -997,7 +997,7 @@ app
 /
 shell
 is
-detroyed
+destroyed
 this
 lambda
 will

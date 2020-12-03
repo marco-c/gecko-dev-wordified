@@ -271,7 +271,7 @@ until
 it
 '
 s
-detroyed
+destroyed
 .
 *
 (

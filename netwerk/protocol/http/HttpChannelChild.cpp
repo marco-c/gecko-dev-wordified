@@ -19564,7 +19564,7 @@ CanSend
 IPC
 actor
 is
-detroyed
+destroyed
 already
 do
 not

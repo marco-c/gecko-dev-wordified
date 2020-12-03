@@ -528,7 +528,7 @@ As
 the
 toolbox
 get
-detroyed
+destroyed
 we
 need
 to
