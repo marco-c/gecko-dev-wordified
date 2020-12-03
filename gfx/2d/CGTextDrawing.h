@@ -646,6 +646,17 @@ bitmapBounds
 aTextBounds
 )
 ;
+if
+(
+CGRectIsEmpty
+(
+bounds
+)
+)
+{
+return
+;
+}
 int
 startX
 =
