@@ -70,9 +70,11 @@ i
 }
 postMessage
 (
-'
-ready
-'
+self
+.
+location
+.
+href
 )
 ;
 }
