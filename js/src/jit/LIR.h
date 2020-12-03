@@ -11843,7 +11843,7 @@ of
 an
 /
 /
-AutoEnterAnalysis
+AutoSuppressGC
 (
 in
 IonCompile

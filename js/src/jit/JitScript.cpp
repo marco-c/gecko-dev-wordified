@@ -547,8 +547,11 @@ this
 )
 )
 ;
-AutoEnterAnalysis
-enter
+gc
+:
+:
+AutoSuppressGC
+suppressGC
 (
 cx
 )

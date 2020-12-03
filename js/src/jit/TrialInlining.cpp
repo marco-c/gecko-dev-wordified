@@ -3359,7 +3359,7 @@ GC
 This
 matches
 the
-AutoEnterAnalysis
+AutoSuppressGC
 in
 /
 /
