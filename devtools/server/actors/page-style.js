@@ -1200,11 +1200,13 @@ stretch
 )
 /
 /
-Introduced
-in
-Firefox
+backward
+-
+compat
+{
+version
 80
-.
+}
 getAttributesInOwnerDocument
 :
 true

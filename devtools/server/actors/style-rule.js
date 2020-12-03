@@ -2221,6 +2221,13 @@ this
 canSetRuleText
 /
 /
+backward
+-
+compat
+{
+version
+72
+}
 Indicates
 that
 StyleRuleActor
@@ -2232,13 +2239,6 @@ rule
 updated
 "
 event
-.
-/
-/
-Added
-in
-Firefox
-72
 .
 emitsRuleUpdatedEvent
 :

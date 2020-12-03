@@ -473,11 +473,13 @@ isLockedForPrivateBrowsing
 )
 /
 /
-Added
-in
-Firefox
+backward
+-
+compat
+{
+version
 72
-.
+}
 getSupportedFeatures
 :
 actorBridgeWithSpec
