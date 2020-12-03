@@ -542,6 +542,7 @@ JSContext
 cx
 FramePtr
 &
+&
 framePtr
 const
 jsbytecode
