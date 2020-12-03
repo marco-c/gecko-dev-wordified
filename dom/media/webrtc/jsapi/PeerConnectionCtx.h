@@ -382,7 +382,7 @@ PeerConnectionImpl
 *
 >
 &
-mGetPeerConnections
+GetPeerConnections
 (
 )
 ;
