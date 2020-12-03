@@ -2733,13 +2733,10 @@ CurrentThreadIsGCMarking
 )
 )
 ;
-MOZ_ASSERT
-(
 lock_
 .
-ownedByCurrentThread
+assertOwnedByCurrentThread
 (
-)
 )
 ;
 }

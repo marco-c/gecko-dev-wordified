@@ -8043,6 +8043,9 @@ Shape
 /
 namespace
 js
+#
+ifdef
+DEBUG
 void
 GCMarker
 :
@@ -8066,6 +8069,8 @@ checkAtomMarking
 check
 ;
 }
+#
+endif
 template
 <
 typename

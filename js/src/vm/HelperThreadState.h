@@ -1097,8 +1097,8 @@ lock
 #
 ifdef
 DEBUG
-bool
-isLockedByCurrentThread
+void
+assertIsLockedByCurrentThread
 (
 )
 const

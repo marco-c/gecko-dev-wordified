@@ -3550,8 +3550,8 @@ numParseTasks
 #
 ifdef
 DEBUG
-bool
-currentThreadHasScriptDataAccess
+void
+assertCurrentThreadHasScriptDataAccess
 (
 )
 const
@@ -3564,7 +3564,8 @@ hasParseTasks
 )
 )
 {
-return
+MOZ_ASSERT
+(
 js
 :
 :
@@ -3575,12 +3576,14 @@ this
 &
 &
 activeThreadHasScriptDataAccess
+)
+;
+return
 ;
 }
-return
 scriptDataLock
 .
-ownedByCurrentThread
+assertOwnedByCurrentThread
 (
 )
 ;
