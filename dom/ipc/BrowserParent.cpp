@@ -18115,10 +18115,11 @@ textInputHandlingWidget
 |
 NS_WARN_IF
 (
-!
 aEvent
 .
-mSucceeded
+Failed
+(
+)
 )
 )
 {
@@ -18164,7 +18165,8 @@ textInputHandlingWidget
 aEvent
 .
 mReply
-.
+-
+>
 mRect
 +
 =
@@ -18181,7 +18183,8 @@ textInputHandlingWidget
 aEvent
 .
 mReply
-.
+-
+>
 mRect
 =
 TransformChildToParent
@@ -18189,7 +18192,8 @@ TransformChildToParent
 aEvent
 .
 mReply
-.
+-
+>
 mRect
 )
 ;

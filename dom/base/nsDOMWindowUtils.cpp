@@ -11378,7 +11378,13 @@ result
 new
 nsQueryContentEventResult
 (
+std
+:
+:
+move
+(
 queryEvent
+)
 )
 ;
 result
