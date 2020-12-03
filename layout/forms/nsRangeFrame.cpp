@@ -270,6 +270,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
@@ -2721,7 +2728,7 @@ PresContext
 bool
 notUsedCanOverride
 ;
-LayoutDeviceIntSize
+LayoutDeviceSize
 size
 ;
 presContext
@@ -4451,7 +4458,7 @@ IsThemed
 bool
 unused
 ;
-LayoutDeviceIntSize
+LayoutDeviceSize
 size
 ;
 nsPresContext

@@ -160,7 +160,7 @@ return
 NS_OK
 ;
 }
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 HeadlessThemeGTK
 :
 :
@@ -176,7 +176,7 @@ StyleAppearance
 aAppearance
 )
 {
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 result
 ;
 /
@@ -191,6 +191,15 @@ the
 Ubuntu
 GTK
 theme
+.
+/
+/
+FIXME
+:
+Should
+apply
+DPI
+scaling
 .
 switch
 (
@@ -621,7 +630,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 *
 aResult
 )
@@ -844,7 +853,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceIntSize
+LayoutDeviceSize
 *
 aResult
 bool

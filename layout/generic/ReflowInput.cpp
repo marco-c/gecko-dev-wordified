@@ -20095,7 +20095,7 @@ disp
 bool
 needPaddingProp
 ;
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 widgetPadding
 ;
 if
@@ -20501,7 +20501,7 @@ isThemed
 )
 {
 const
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 widgetBorder
 =
 presContext

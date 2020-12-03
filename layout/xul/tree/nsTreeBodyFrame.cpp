@@ -11548,7 +11548,7 @@ if
 useTheme
 )
 {
-LayoutDeviceIntSize
+LayoutDeviceSize
 minTwistySizePx
 ;
 bool

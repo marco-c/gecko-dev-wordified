@@ -161,7 +161,7 @@ override
 nodiscard
 ]
 ]
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 GetWidgetBorder
 (
 nsDeviceContext
@@ -186,7 +186,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-LayoutDeviceIntMargin
+LayoutDeviceMargin
 *
 aResult
 )
@@ -203,10 +203,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-mozilla
-:
-:
-LayoutDeviceIntSize
+LayoutDeviceSize
 *
 aResult
 bool
