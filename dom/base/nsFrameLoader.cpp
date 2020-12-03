@@ -20919,6 +20919,16 @@ hasSelection
 (
 )
 ;
+info
+.
+mIsEmpty
+=
+aInfo
+.
+isEmpty
+(
+)
+;
 promise
 -
 >

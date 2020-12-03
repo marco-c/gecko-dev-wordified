@@ -992,6 +992,12 @@ mPageData
 mRawNumPages
 ;
 }
+uint32_t
+GetPagesInFirstSheet
+(
+)
+const
+;
 nsresult
 DoPageEnd
 (

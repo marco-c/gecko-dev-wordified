@@ -1534,6 +1534,9 @@ uint32_t
 totalPageCount
 ;
 bool
+isEmpty
+;
+bool
 hasSelection
 ;
 }
