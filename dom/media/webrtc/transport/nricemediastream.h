@@ -1421,13 +1421,11 @@ ufrag
 State
 state_
 ;
-nr_ice_ctx
-*
+RefPtr
+<
+NrIceCtx
+>
 ctx_
-;
-nr_ice_peer_ctx
-*
-ctx_peer_
 ;
 const
 std

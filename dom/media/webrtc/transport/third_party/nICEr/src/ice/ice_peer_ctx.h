@@ -380,7 +380,7 @@ nr_ice_peer_ctx
 pctxp
 )
 ;
-int
+void
 nr_ice_peer_ctx_destroy
 (
 nr_ice_peer_ctx
