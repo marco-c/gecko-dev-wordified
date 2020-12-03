@@ -627,16 +627,6 @@ FilterCallback
 void
 *
 context
-const
-mozilla
-:
-:
-phc
-:
-:
-AddrInfo
-*
-addr_info
 )
 ;
 /
