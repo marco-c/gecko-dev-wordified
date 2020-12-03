@@ -371,7 +371,7 @@ cx
 ;
 mJSProtoObject
 =
-JS_NewObjectWithUniqueType
+JS_NewObjectWithGivenProto
 (
 cx
 &

@@ -6136,7 +6136,7 @@ JSObject
 ourProto
 (
 cx
-JS_NewObjectWithUniqueType
+JS_NewObjectWithGivenProto
 (
 cx
 protoClass

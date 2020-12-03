@@ -2219,9 +2219,6 @@ JS_NewObjectWithGivenProto
 JS_NewObjectWithoutMetadata
 "
 "
-JS_NewObjectWithUniqueType
-"
-"
 JS_NewPlainObject
 "
 "
