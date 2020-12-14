@@ -7262,6 +7262,13 @@ trace
 trc
 )
 ;
+delazificationAtomCache
+.
+trace
+(
+trc
+)
+;
 }
 void
 CompilationGCOutput
