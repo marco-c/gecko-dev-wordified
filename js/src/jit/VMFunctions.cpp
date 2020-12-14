@@ -13881,11 +13881,6 @@ typeDescr
 hasProperty
 (
 cx
--
->
-names
-(
-)
 id
 )
 )

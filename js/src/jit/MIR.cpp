@@ -8642,10 +8642,10 @@ printf
 %
 s
 "
-ScalarTypeDescr
+Scalar
 :
 :
-typeName
+name
 (
 storageType
 (
@@ -8682,10 +8682,10 @@ printf
 %
 s
 "
-ScalarTypeDescr
+Scalar
 :
 :
-typeName
+name
 (
 storageType
 (
