@@ -1654,6 +1654,10 @@ capture
 :
 true
 }
+scroll
+:
+{
+}
 }
 }
 }
