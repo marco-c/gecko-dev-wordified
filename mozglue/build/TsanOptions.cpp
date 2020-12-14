@@ -1619,17 +1619,6 @@ fixed
 /
 /
 Bug
-1619162
-"
-race
-:
-currentNameHasEscapes
-\
-n
-"
-/
-/
-Bug
 1601600
 "
 race
