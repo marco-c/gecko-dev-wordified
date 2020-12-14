@@ -933,7 +933,7 @@ thread
 await
 IOUtils
 .
-write
+writeAtomic
 (
 path
 new

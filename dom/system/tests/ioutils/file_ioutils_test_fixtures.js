@@ -94,7 +94,7 @@ contents
 await
 IOUtils
 .
-write
+writeAtomic
 (
 location
 contents

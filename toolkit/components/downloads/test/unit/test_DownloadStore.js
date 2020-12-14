@@ -786,7 +786,7 @@ promiseNewListAndStore
 await
 IOUtils
 .
-write
+writeAtomic
 (
 store
 .
@@ -1239,7 +1239,7 @@ filePathLiteral
 await
 IOUtils
 .
-write
+writeAtomic
 (
 store
 .
@@ -1558,7 +1558,7 @@ copy
 await
 IOUtils
 .
-write
+writeAtomic
 (
 store
 .
@@ -1734,7 +1734,7 @@ blank
 await
 IOUtils
 .
-write
+writeAtomic
 (
 store
 .

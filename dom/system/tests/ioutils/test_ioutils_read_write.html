@@ -430,7 +430,7 @@ writing
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 untouchableContents
@@ -486,7 +486,7 @@ rejects
 (
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 newContents
@@ -509,7 +509,7 @@ at
 IOUtils
 :
 :
-write
+writeAtomic
 rejects
 writing
 to
@@ -534,7 +534,7 @@ untouchableContents
 IOUtils
 :
 :
-write
+writeAtomic
 doesn
 '
 t
@@ -554,7 +554,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 newContents
@@ -581,7 +581,7 @@ length
 IOUtils
 :
 :
-write
+writeAtomic
 can
 overwrite
 files
@@ -680,7 +680,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 destFileName
 fileContents
@@ -707,7 +707,7 @@ contents
 IOUtils
 :
 :
-write
+writeAtomic
 creates
 a
 new
@@ -731,7 +731,7 @@ backupFileName
 IOUtils
 :
 :
-write
+writeAtomic
 does
 not
 create
@@ -757,7 +757,7 @@ length
 IOUtils
 :
 :
-write
+writeAtomic
 correctly
 writes
 to
@@ -821,7 +821,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 destFileName
 newFileContents
@@ -848,7 +848,7 @@ contents
 IOUtils
 :
 :
-write
+writeAtomic
 can
 backup
 an
@@ -875,7 +875,7 @@ contents
 IOUtils
 :
 :
-write
+writeAtomic
 can
 create
 the
@@ -897,7 +897,7 @@ length
 IOUtils
 :
 :
-write
+writeAtomic
 correctly
 writes
 to
@@ -1019,7 +1019,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 destFileName
 fileContents
@@ -1045,7 +1045,7 @@ tmpFileName
 IOUtils
 :
 :
-write
+writeAtomic
 cleans
 up
 the
@@ -1065,7 +1065,7 @@ backupFileName
 IOUtils
 :
 :
-write
+writeAtomic
 does
 not
 create
@@ -1097,7 +1097,7 @@ contents
 IOUtils
 :
 :
-write
+writeAtomic
 can
 write
 to
@@ -1122,7 +1122,7 @@ length
 IOUtils
 :
 :
-write
+writeAtomic
 can
 copy
 tmp
@@ -1174,7 +1174,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 destFileName
 newFileContents
@@ -1200,7 +1200,7 @@ tmpFileName
 IOUtils
 :
 :
-write
+writeAtomic
 cleans
 up
 the
@@ -1224,7 +1224,7 @@ contents
 IOUtils
 :
 :
-write
+writeAtomic
 can
 create
 a
@@ -1253,7 +1253,7 @@ contents
 IOUtils
 :
 :
-write
+writeAtomic
 can
 write
 to
@@ -1278,11 +1278,11 @@ length
 IOUtils
 :
 :
-write
+writeAtomic
 IOUtils
 :
 :
-write
+writeAtomic
 can
 move
 tmp
@@ -1366,7 +1366,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 bytes
@@ -1380,7 +1380,7 @@ bytesWritten
 IOUtils
 :
 :
-write
+writeAtomic
 can
 write
 entire
@@ -1586,7 +1586,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 emptyByteArray
@@ -1600,7 +1600,7 @@ bytesWritten
 IOUtils
 :
 :
-write
+writeAtomic
 can
 create
 an
@@ -1787,7 +1787,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 bytes
@@ -1801,7 +1801,7 @@ bytesWritten
 IOUtils
 :
 :
-write
+writeAtomic
 can
 write
 entire
@@ -2006,7 +2006,7 @@ rejects
 (
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 bytes
@@ -2021,7 +2021,7 @@ path
 IOUtils
 :
 :
-write
+writeAtomic
 only
 works
 with
@@ -2085,7 +2085,7 @@ path
 IOUtils
 :
 :
-write
+writeAtomic
 only
 works
 with
@@ -2168,7 +2168,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 varyingBytes
@@ -2278,7 +2278,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 repeatedBytes
@@ -2376,7 +2376,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 empty
@@ -2655,7 +2655,7 @@ ioutilsBytes
 await
 IOUtils
 .
-write
+writeAtomic
 (
 ioutilsTmpFile
 repeatedBytes
@@ -2674,7 +2674,7 @@ OS
 .
 File
 .
-write
+writeAtomic
 (
 osfileTmpFile
 repeatedBytes
@@ -2983,7 +2983,7 @@ bytesWritten
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 varyingBytes
@@ -3132,7 +3132,7 @@ fill
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 repeatedBytes
@@ -3311,7 +3311,7 @@ fill
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 elevenBytes
@@ -3452,7 +3452,7 @@ badContents
 await
 IOUtils
 .
-write
+writeAtomic
 (
 tmpFileName
 goodHeaderBadContents

@@ -2042,7 +2042,7 @@ aFilePath
 await
 IOUtils
 .
-write
+writeAtomic
 (
 newFilePath
 jsonString
