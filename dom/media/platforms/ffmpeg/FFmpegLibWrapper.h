@@ -302,6 +302,11 @@ IsVAAPIAvailable
 (
 )
 ;
+void
+LinkVAAPILibs
+(
+)
+;
 #
 endif
 /
