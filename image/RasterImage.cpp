@@ -624,7 +624,7 @@ SourceBuffer
 )
 )
 {
-SetHandledOrientation
+StoreHandledOrientation
 (
 StaticPrefs
 :
@@ -888,7 +888,7 @@ INIT_FLAG_DISCARDABLE
 Store
 initialization
 data
-SetDiscardable
+StoreDiscardable
 (
 !
 !
@@ -899,7 +899,7 @@ INIT_FLAG_DISCARDABLE
 )
 )
 ;
-SetWantFullDecode
+StoreWantFullDecode
 (
 !
 !
@@ -910,7 +910,7 @@ INIT_FLAG_DECODE_IMMEDIATELY
 )
 )
 ;
-SetTransient
+StoreTransient
 (
 !
 !
@@ -921,7 +921,7 @@ INIT_FLAG_TRANSIENT
 )
 )
 ;
-SetSyncLoad
+StoreSyncLoad
 (
 !
 !
@@ -1010,7 +1010,7 @@ discardable
 if
 (
 !
-GetDiscardable
+LoadDiscardable
 (
 )
 )
@@ -1291,7 +1291,7 @@ res
 mAnimationFinished
 )
 {
-SetAnimationFinished
+StoreAnimationFinished
 (
 true
 )
@@ -1799,7 +1799,7 @@ mError
 |
 |
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
@@ -2105,7 +2105,7 @@ HandledOrientation
 )
 {
 return
-GetHandledOrientation
+LoadHandledOrientation
 (
 )
 ;
@@ -2591,7 +2591,7 @@ result
 &
 &
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
@@ -2992,7 +2992,7 @@ everything
 .
 if
 (
-GetAllSourceData
+LoadAllSourceData
 (
 )
 &
@@ -3853,7 +3853,7 @@ images
 if
 (
 !
-GetHasBeenDecoded
+LoadHasBeenDecoded
 (
 )
 )
@@ -4579,7 +4579,7 @@ aFlags
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
@@ -4989,7 +4989,7 @@ GetMaxTextureSize
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 |
@@ -5306,7 +5306,7 @@ one
 .
 if
 (
-GetHasSize
+LoadHasSize
 (
 )
 &
@@ -5417,7 +5417,7 @@ nativeSize
 )
 ;
 }
-SetHasSize
+StoreHasSize
 (
 true
 )
@@ -5425,7 +5425,7 @@ true
 }
 if
 (
-GetHasSize
+LoadHasSize
 (
 )
 &
@@ -5966,7 +5966,7 @@ do
 become
 ready
 .
-SetPendingAnimation
+StorePendingAnimation
 (
 !
 mAnimationState
@@ -5984,7 +5984,7 @@ KnownFrameCount
 ;
 if
 (
-GetPendingAnimation
+LoadPendingAnimation
 (
 )
 )
@@ -6040,7 +6040,7 @@ Forever
 )
 )
 {
-SetAnimationFinished
+StoreAnimationFinished
 (
 true
 )
@@ -6318,7 +6318,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-SetPendingAnimation
+StorePendingAnimation
 (
 false
 )
@@ -6350,7 +6350,7 @@ return
 NS_OK
 ;
 }
-SetAnimationFinished
+StoreAnimationFinished
 (
 false
 )
@@ -6728,7 +6728,7 @@ to
 get
 now
 .
-SetAllSourceData
+StoreAllSourceData
 (
 true
 )
@@ -6816,12 +6816,12 @@ transient
 bool
 canSyncDecodeMetadata
 =
-GetSyncLoad
+LoadSyncLoad
 (
 )
 |
 |
-GetTransient
+LoadTransient
 (
 )
 |
@@ -6841,7 +6841,7 @@ canSyncDecodeMetadata
 &
 &
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
@@ -6981,7 +6981,7 @@ finalStatus
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 &
@@ -7061,7 +7061,7 @@ aProgress
 {
 MOZ_ASSERT
 (
-GetHasSize
+LoadHasSize
 (
 )
 |
@@ -7082,7 +7082,7 @@ event
 MOZ_ASSERT
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 |
@@ -7200,12 +7200,12 @@ rv
 &
 &
 !
-GetSomeSourceData
+LoadSomeSourceData
 (
 )
 )
 {
-SetSomeSourceData
+StoreSomeSourceData
 (
 true
 )
@@ -7213,7 +7213,7 @@ true
 if
 (
 !
-GetSyncLoad
+LoadSyncLoad
 (
 )
 )
@@ -7544,7 +7544,7 @@ CanDiscard
 )
 {
 return
-GetAllSourceData
+LoadAllSourceData
 (
 )
 &
@@ -7598,12 +7598,12 @@ NS_ERROR_FAILURE
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
 {
-SetWantFullDecode
+StoreWantFullDecode
 (
 true
 )
@@ -7662,12 +7662,12 @@ false
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
 {
-SetWantFullDecode
+StoreWantFullDecode
 (
 true
 )
@@ -7962,12 +7962,12 @@ result
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
 {
-SetWantFullDecode
+StoreWantFullDecode
 (
 true
 )
@@ -8028,7 +8028,7 @@ bool
 shouldSyncDecodeIfFast
 =
 !
-GetHasBeenDecoded
+LoadHasBeenDecoded
 (
 )
 &
@@ -8301,12 +8301,12 @@ decoding
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
 {
-SetWantFullDecode
+StoreWantFullDecode
 (
 true
 )
@@ -8464,7 +8464,7 @@ ASYNC_NOTIFY
 }
 if
 (
-GetTransient
+LoadTransient
 (
 )
 )
@@ -8480,7 +8480,7 @@ IMAGE_IS_TRANSIENT
 }
 if
 (
-GetHasBeenDecoded
+LoadHasBeenDecoded
 (
 )
 )
@@ -8915,7 +8915,7 @@ LaunchDecodingTask
 task
 this
 aFlags
-GetAllSourceData
+LoadAllSourceData
 (
 )
 )
@@ -8943,7 +8943,7 @@ NS_ERROR_FAILURE
 MOZ_ASSERT
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 "
@@ -9022,7 +9022,7 @@ LaunchDecodingTask
 task
 this
 aFlags
-GetAllSourceData
+LoadAllSourceData
 (
 )
 )
@@ -9048,7 +9048,7 @@ aFlags
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
@@ -9301,12 +9301,12 @@ it
 if
 (
 !
-GetHasSize
+LoadHasSize
 (
 )
 |
 |
-GetTransient
+LoadTransient
 (
 )
 |
@@ -10735,7 +10735,7 @@ RequestDiscard
 {
 if
 (
-GetDiscardable
+LoadDiscardable
 (
 )
 &
@@ -11151,7 +11151,7 @@ KnownFrameCount
 &
 &
 !
-GetAnimationFinished
+LoadAnimationFinished
 (
 )
 ;
@@ -11363,7 +11363,7 @@ Some
 )
 &
 &
-GetPendingAnimation
+LoadPendingAnimation
 (
 )
 &
@@ -11669,7 +11669,7 @@ MOZ_ASSERT
 mError
 |
 |
-GetHasSize
+LoadHasSize
 (
 )
 |
@@ -11715,7 +11715,7 @@ been
 decoded
 before
 .
-SetHasBeenDecoded
+StoreHasBeenDecoded
 (
 true
 )
@@ -11825,7 +11825,7 @@ Some
 )
 &
 &
-GetPendingAnimation
+LoadPendingAnimation
 (
 )
 &
@@ -11845,7 +11845,7 @@ if
 mAnimationState
 &
 &
-GetHasBeenDecoded
+LoadHasBeenDecoded
 (
 )
 )
@@ -12103,7 +12103,7 @@ mWasMetadataDecode
 &
 &
 !
-GetHasSize
+LoadHasSize
 (
 )
 )
@@ -12198,12 +12198,12 @@ it
 .
 if
 (
-GetWantFullDecode
+LoadWantFullDecode
 (
 )
 )
 {
-SetWantFullDecode
+StoreWantFullDecode
 (
 false
 )

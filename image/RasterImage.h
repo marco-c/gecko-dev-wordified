@@ -3176,7 +3176,7 @@ UsedOrientation
 const
 {
 return
-GetHandledOrientation
+LoadHandledOrientation
 (
 )
 ?

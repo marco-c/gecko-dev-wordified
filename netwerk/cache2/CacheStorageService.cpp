@@ -1188,12 +1188,12 @@ NS_IsMainThread
 )
 )
 ;
-SetNotifyStorage
+StoreNotifyStorage
 (
 true
 )
 ;
-SetVisitEntries
+StoreVisitEntries
 (
 aVisitEntries
 )
@@ -1622,7 +1622,7 @@ this
 ;
 if
 (
-GetNotifyStorage
+LoadNotifyStorage
 (
 )
 )
@@ -1682,7 +1682,7 @@ nullptr
 if
 (
 !
-GetVisitEntries
+LoadVisitEntries
 (
 )
 )
@@ -1692,7 +1692,7 @@ NS_OK
 /
 /
 done
-SetNotifyStorage
+StoreNotifyStorage
 (
 false
 )
@@ -2431,7 +2431,7 @@ rv
 {
 if
 (
-GetVisitEntries
+LoadVisitEntries
 (
 )
 )
@@ -2486,7 +2486,7 @@ this
 if
 (
 !
-GetVisitEntries
+LoadVisitEntries
 (
 )
 )
@@ -2681,7 +2681,7 @@ NS_IsMainThread
 {
 if
 (
-GetNotifyStorage
+LoadNotifyStorage
 (
 )
 )
@@ -2735,7 +2735,7 @@ capacity
 dir
 )
 ;
-SetNotifyStorage
+StoreNotifyStorage
 (
 false
 )

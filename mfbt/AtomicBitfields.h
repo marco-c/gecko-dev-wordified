@@ -539,10 +539,10 @@ field
 will
 get
 a
-Get
+Load
 NAME
 and
-Set
+Store
 Name
 method
 which
@@ -573,7 +573,7 @@ safe
 side
 )
 .
-Setting
+Storing
 a
 field
 requires
@@ -1038,7 +1038,7 @@ aNormalInteger
 {
 /
 /
-SetSomeData
+StoreSomeData
 (
 aSomeData
 )
@@ -1092,7 +1092,7 @@ if
 !
 val
 .
-GetIsDownloaded
+LoadIsDownloaded
 (
 )
 )
@@ -1101,7 +1101,7 @@ GetIsDownloaded
 /
 val
 .
-SetOtherData
+StoreOtherData
 (
 2
 )
@@ -1110,7 +1110,7 @@ SetOtherData
 /
 val
 .
-SetIsDownloaded
+StoreIsDownloaded
 (
 true
 )
@@ -1445,9 +1445,10 @@ on
 /
 /
 /
-Getters
+Load
 /
-Setters
+Store
+methods
 for
 all
 the
@@ -1458,7 +1459,7 @@ fields
 /
 /
 bool
-GetIsDownloaded
+LoadIsDownloaded
 (
 )
 {
@@ -1469,7 +1470,7 @@ GetIsDownloaded
 /
 /
 void
-SetIsDownloaded
+StoreIsDownloaded
 (
 bool
 aValue
@@ -1484,7 +1485,7 @@ aValue
 /
 /
 uint32_t
-GetSomeData
+LoadSomeData
 (
 )
 {
@@ -1495,7 +1496,7 @@ GetSomeData
 /
 /
 void
-SetSomeData
+StoreSomeData
 (
 uint32_t
 aValue
@@ -1510,7 +1511,7 @@ aValue
 /
 /
 uint8_t
-GetOtherData
+LoadOtherData
 (
 )
 {
@@ -1521,7 +1522,7 @@ GetOtherData
 /
 /
 void
-SetOtherData
+StoreOtherData
 (
 uint8_t
 aValue
@@ -1568,7 +1569,7 @@ aNormalInteger
 {
 /
 /
-SetSomeData
+StoreSomeData
 (
 aSomeData
 )
@@ -1724,7 +1725,7 @@ would
 be
 nice
 if
-GetField
+LoadField
 could
 be
 IsField
@@ -2158,7 +2159,7 @@ ifdef
 __COVERITY__
 #
 define
-MOZ_ATOMIC_BITFIELDS_SET_GUARD
+MOZ_ATOMIC_BITFIELDS_STORE_GUARD
 (
 aValue
 aFieldSize
@@ -2167,7 +2168,7 @@ aFieldSize
 else
 #
 define
-MOZ_ATOMIC_BITFIELDS_SET_GUARD
+MOZ_ATOMIC_BITFIELDS_STORE_GUARD
 (
 aValue
 aFieldSize
@@ -2205,9 +2206,9 @@ endif
 /
 Generates
 the
-Get
+Load
 and
-Set
+Store
 methods
 for
 each
@@ -2361,7 +2362,7 @@ EXPLAINED
 /
 For
 |
-Get
+Load
 Name
 |
 :
@@ -2510,7 +2511,7 @@ type
 /
 For
 |
-Set
+Store
 Name
 |
 :
@@ -2906,7 +2907,7 @@ payloads
 aFieldType
 MOZ_CONCAT
 (
-Get
+Load
 aFieldName
 )
 (
@@ -2990,7 +2991,7 @@ value
 void
 MOZ_CONCAT
 (
-Set
+Store
 aFieldName
 )
 (
@@ -2999,7 +3000,7 @@ aValue
 )
 {
 \
-MOZ_ATOMIC_BITFIELDS_SET_GUARD
+MOZ_ATOMIC_BITFIELDS_STORE_GUARD
 (
 aValue
 aFieldSize
