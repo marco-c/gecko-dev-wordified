@@ -24993,7 +24993,7 @@ viewElementInInspector
 async
 function
 (
-objectActor
+objectGrip
 reason
 )
 {
@@ -25038,9 +25038,7 @@ inspector
 .
 inspectNodeActor
 (
-objectActor
-.
-actor
+objectGrip
 reason
 )
 ;

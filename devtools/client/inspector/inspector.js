@@ -12189,7 +12189,7 @@ HIGHLIGHTER_AUTOHIDE_TIMER
 async
 inspectNodeActor
 (
-nodeActor
+nodeGrip
 reason
 )
 {
@@ -12203,11 +12203,7 @@ inspectorFront
 .
 getNodeFrontFromNodeGrip
 (
-{
-actor
-:
-nodeActor
-}
+nodeGrip
 )
 ;
 if

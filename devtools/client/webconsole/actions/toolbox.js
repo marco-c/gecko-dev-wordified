@@ -194,7 +194,7 @@ grip
 function
 openNodeInInspector
 (
-actor
+contentDomReference
 )
 {
 return
@@ -211,9 +211,7 @@ hud
 openNodeInInspector
 (
 {
-actor
-:
-actor
+contentDomReference
 }
 )
 ;
