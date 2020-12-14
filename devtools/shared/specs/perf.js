@@ -555,15 +555,6 @@ boolean
 )
 }
 }
-/
-/
-backward
--
-compat
-{
-version
-72
-}
 getSupportedFeatures
 :
 {
