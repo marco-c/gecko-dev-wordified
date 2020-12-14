@@ -821,7 +821,17 @@ ipc
 =
 [
 "
+EnumSerializer
+.
+h
+"
+"
 IPCMessageUtils
+.
+h
+"
+"
+IPCMessageUtilsSpecializations
 .
 h
 "

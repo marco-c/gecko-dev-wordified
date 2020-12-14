@@ -124,6 +124,15 @@ dom_plugins_ipc_functionbrokeripcutils_h
 #
 include
 "
+ipc
+/
+EnumSerializer
+.
+h
+"
+#
+include
+"
 PluginMessageUtils
 .
 h

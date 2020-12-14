@@ -125,7 +125,7 @@ include
 "
 ipc
 /
-IPCMessageUtils
+EnumSerializer
 .
 h
 "
@@ -189,15 +189,6 @@ mozilla
 layers
 /
 LayersMessageUtils
-.
-h
-"
-#
-include
-"
-ipc
-/
-IPCMessageUtils
 .
 h
 "

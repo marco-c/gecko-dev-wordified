@@ -74,6 +74,15 @@ h
 #
 include
 "
+ipc
+/
+IPCMessageUtilsSpecializations
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h

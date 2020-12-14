@@ -122,7 +122,7 @@ include
 "
 ipc
 /
-IPCMessageUtils
+EnumSerializer
 .
 h
 "
