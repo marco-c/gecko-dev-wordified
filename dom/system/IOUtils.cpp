@@ -507,8 +507,8 @@ while
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -9964,12 +9964,10 @@ opts
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 undef
 REJECT_IF_SHUTTING_DOWN
