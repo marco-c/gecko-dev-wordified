@@ -11795,12 +11795,6 @@ SetConnectionFlags
 uint32_t
 )
 ;
-FWD_TS
-(
-SetIsPrivate
-bool
-)
-;
 FWD_TS_PTR
 (
 GetTlsFlags
