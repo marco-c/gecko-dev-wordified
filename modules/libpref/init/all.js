@@ -6524,9 +6524,7 @@ sdp
 parser
 "
 "
-webrtc
--
-sdp
+sipcc
 "
 )
 ;
@@ -6542,7 +6540,7 @@ sdp
 alternate_parse_mode
 "
 "
-never
+parallel
 "
 )
 ;
