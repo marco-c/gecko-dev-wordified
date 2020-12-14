@@ -281,6 +281,9 @@ GCMarker
 class
 Nursery
 ;
+struct
+AutoEnterOOMUnsafeRegion
+;
 namespace
 gc
 {
@@ -3535,6 +3538,12 @@ JS
 :
 HandleObject
 b
+js
+:
+:
+AutoEnterOOMUnsafeRegion
+&
+oomUnsafe
 )
 ;
 private

@@ -10441,6 +10441,9 @@ HandleObject
 a
 HandleObject
 b
+AutoEnterOOMUnsafeRegion
+&
+oomUnsafe
 )
 {
 /
@@ -10539,9 +10542,6 @@ compartment
 (
 )
 )
-;
-AutoEnterOOMUnsafeRegion
-oomUnsafe
 ;
 /
 /
