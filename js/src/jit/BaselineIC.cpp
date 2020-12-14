@@ -1935,12 +1935,6 @@ case
 JSOp
 :
 :
-NewObjectWithGroup
-:
-case
-JSOp
-:
-:
 NewInit
 :
 {
