@@ -844,6 +844,7 @@ GetRootFrame
 }
 scrollPort
 frames
+{
 nsLayoutUtils
 :
 :
@@ -851,6 +852,7 @@ FrameForPointOption
 :
 :
 OnlyVisible
+}
 )
 ;
 AccessibleHashtable
