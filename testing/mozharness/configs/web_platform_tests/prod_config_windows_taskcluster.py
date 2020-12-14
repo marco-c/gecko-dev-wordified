@@ -639,6 +639,7 @@ powershell
 command
 "
                 
+r
 "
 \
 "
