@@ -6425,8 +6425,6 @@ PHandlerService
 async
 AddGeolocationListener
 (
-Principal
-principal
 bool
 highAccuracy
 )

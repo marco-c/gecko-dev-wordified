@@ -3563,13 +3563,6 @@ cpc
 >
 SendAddGeolocationListener
 (
-IPC
-:
-:
-Principal
-(
-aPrincipal
-)
 HighAccuracyRequested
 (
 )
