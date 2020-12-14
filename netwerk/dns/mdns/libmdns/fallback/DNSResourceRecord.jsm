@@ -91,17 +91,6 @@ MPL
 .
 *
 /
-/
-*
-jshint
-esnext
-:
-true
-moz
-:
-true
-*
-/
 "
 use
 strict
