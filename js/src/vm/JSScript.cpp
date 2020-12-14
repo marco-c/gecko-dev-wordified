@@ -18383,8 +18383,6 @@ xdrEncodeFunctionStencilWith
 (
 cx
 delazification
-.
-stencil
 xdrEncoder
 )
 )
