@@ -2503,12 +2503,6 @@ calleeToken
 (
 )
 )
-&
-&
-!
-isModuleFrame
-(
-)
 ;
 }
 bool

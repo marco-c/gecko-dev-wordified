@@ -10,7 +10,6 @@ test
 more
 -
 compartments
-;
 fullcompartmentchecks
 (
 true
