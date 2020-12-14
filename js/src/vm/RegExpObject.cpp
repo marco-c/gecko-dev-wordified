@@ -2664,7 +2664,7 @@ rev32
 .
 4
 .
-JSAtom
+JSLinearString
 *
 js
 :
@@ -2724,7 +2724,7 @@ using
 it
 lazily
 .
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -2828,7 +2828,7 @@ src
 :
 sb
 .
-finishAtom
+finishString
 (
 )
 ;
@@ -2889,7 +2889,7 @@ return
 nullptr
 ;
 }
-RootedAtom
+RootedLinearString
 escapedSrc
 (
 cx
