@@ -359,7 +359,9 @@ user
 provided
 object
 implementing
+[
 PingUploader
+]
 .
 #
 [

@@ -476,10 +476,12 @@ samples
 and
 report
 an
+[
 ErrorType
 :
 :
 InvalidValue
+]
 /
 /
 /

@@ -328,7 +328,9 @@ PingMaker
 Creates
 a
 new
+[
 PingMaker
+]
 .
 pub
 fn
@@ -1193,7 +1195,9 @@ Arguments
 glean
 -
 the
+[
 Glean
+]
 instance
 to
 collect
@@ -1518,7 +1522,9 @@ Arguments
 glean
 -
 the
+[
 Glean
+]
 instance
 to
 collect
@@ -1895,7 +1901,9 @@ Arguments
 glean
 -
 the
+[
 Glean
+]
 instance
 to
 collect

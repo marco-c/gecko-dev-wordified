@@ -398,7 +398,9 @@ i32
 /
 /
 /
+[
 OsString
+]
 conversion
 failed
 OsString

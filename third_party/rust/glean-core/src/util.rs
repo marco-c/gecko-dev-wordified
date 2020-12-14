@@ -255,7 +255,9 @@ it
 to
 the
 provided
+[
 TimeUnit
+]
 .
 /
 /
@@ -275,7 +277,9 @@ Arguments
 datetime
 -
 the
+[
 DateTime
+]
 object
 that
 holds
@@ -478,7 +482,7 @@ Arguments
 value
 -
 The
-String
+string
 to
 truncate
 .

@@ -822,7 +822,9 @@ Unlike
 most
 metric
 types
+[
 LabeledMetric
+]
 does
 not
 have

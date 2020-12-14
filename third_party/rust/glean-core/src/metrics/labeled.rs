@@ -807,9 +807,9 @@ See
 get
 ]
 (
-#
-method
-.
+LabeledMetric
+:
+:
 get
 )
 for
