@@ -127,7 +127,7 @@ SetCurrentDictionaryFromList
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aList

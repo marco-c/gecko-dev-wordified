@@ -129,7 +129,7 @@ IPCResult
 RecvSetDictionary
 (
 const
-nsString
+nsCString
 &
 aDictionary
 bool
@@ -149,7 +149,7 @@ RecvSetDictionaryFromList
 (
 nsTArray
 <
-nsString
+nsCString
 >
 &
 &

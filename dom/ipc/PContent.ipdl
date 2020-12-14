@@ -2087,7 +2087,7 @@ isLangRTL
 bool
 haveBidiKeyboards
 ;
-nsString
+nsCString
 [
 ]
 dictionaries
@@ -3493,7 +3493,7 @@ errorCode
 async
 UpdateDictionaryList
 (
-nsString
+nsCString
 [
 ]
 dictionaries

@@ -1831,7 +1831,7 @@ GetDictionaryList
 (
 nsTArray
 <
-nsString
+nsCString
 >
 *
 aDictionaryList
@@ -1888,7 +1888,7 @@ catching
 duplicates
 nsTHashtable
 <
-nsStringHashKey
+nsCStringHashKey
 >
 dictionaries
 ;
@@ -1945,7 +1945,7 @@ i
 ;
 nsTArray
 <
-nsString
+nsCString
 >
 dictNames
 ;
@@ -2021,7 +2021,7 @@ mozSpellChecker
 :
 GetCurrentDictionary
 (
-nsAString
+nsACString
 &
 aDictionary
 )
@@ -2074,7 +2074,7 @@ mozSpellChecker
 SetCurrentDictionary
 (
 const
-nsAString
+nsACString
 &
 aDictionary
 )
@@ -2086,10 +2086,10 @@ XRE_IsContentProcess
 )
 )
 {
-nsString
+nsCString
 wrappedDict
 =
-nsString
+nsCString
 (
 aDictionary
 )
@@ -2339,7 +2339,7 @@ SetCurrentDictionaryFromList
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aList

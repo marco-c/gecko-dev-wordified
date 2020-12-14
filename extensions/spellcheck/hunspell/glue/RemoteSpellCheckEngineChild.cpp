@@ -136,7 +136,7 @@ SetCurrentDictionaryFromList
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aList
@@ -170,7 +170,7 @@ spellChecker
 Tuple
 <
 bool
-nsString
+nsCString
 >
 &
 &

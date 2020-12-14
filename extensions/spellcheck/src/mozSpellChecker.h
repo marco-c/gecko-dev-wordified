@@ -854,7 +854,7 @@ GetDictionaryList
 (
 nsTArray
 <
-nsString
+nsCString
 >
 *
 aDictionaryList
@@ -907,7 +907,7 @@ GetDictionaryList
 nsresult
 GetCurrentDictionary
 (
-nsAString
+nsACString
 &
 aDictionary
 )
@@ -963,7 +963,7 @@ nsresult
 SetCurrentDictionary
 (
 const
-nsAString
+nsACString
 &
 aDictionary
 )
@@ -1004,7 +1004,7 @@ SetCurrentDictionaryFromList
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aList
@@ -1076,7 +1076,7 @@ mSpellCheckingEngine
 bool
 mFromStart
 ;
-nsString
+nsCString
 mCurrentDictionary
 ;
 MOZ_CAN_RUN_SCRIPT

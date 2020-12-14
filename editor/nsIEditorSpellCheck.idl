@@ -709,7 +709,7 @@ GetDictionaryList
 /
 Array
 <
-AString
+ACString
 >
 GetDictionaryList
 (
@@ -726,7 +726,7 @@ mozSpellChecker
 GetCurrentDictionary
 *
 /
-AString
+ACString
 GetCurrentDictionary
 (
 )
@@ -746,7 +746,7 @@ void
 SetCurrentDictionary
 (
 in
-AString
+ACString
 dictionary
 )
 ;

@@ -31348,7 +31348,7 @@ checker
 ;
 nsTArray
 <
-nsString
+nsCString
 >
 dictionaries
 ;

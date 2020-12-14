@@ -215,7 +215,7 @@ returns
 *
 /
 attribute
-AString
+ACString
 dictionary
 ;
 /
@@ -244,7 +244,7 @@ dictionaries
 /
 Array
 <
-AString
+ACString
 >
 getDictionaryList
 (
