@@ -5352,7 +5352,7 @@ load
 Ordering
 :
 :
-Relaxed
+Acquire
 )
 ;
 while
@@ -5393,7 +5393,7 @@ load
 Ordering
 :
 :
-Relaxed
+Acquire
 )
 ;
 continue
@@ -5669,7 +5669,7 @@ load
 Ordering
 :
 :
-Relaxed
+Acquire
 )
 ;
 continue
