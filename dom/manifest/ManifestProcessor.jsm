@@ -440,12 +440,6 @@ var
 ManifestProcessor
 =
 {
-/
-/
-jshint
-ignore
-:
-line
 get
 defaultDisplayMode
 (
@@ -1720,9 +1714,3 @@ ManifestProcessor
 "
 ]
 ;
-/
-/
-jshint
-ignore
-:
-line

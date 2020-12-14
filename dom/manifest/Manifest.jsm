@@ -1571,9 +1571,3 @@ Manifests
 "
 ]
 ;
-/
-/
-jshint
-ignore
-:
-line

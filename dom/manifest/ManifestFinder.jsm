@@ -66,12 +66,6 @@ ManifestFinder
 =
 {
 /
-/
-jshint
-ignore
-:
-line
-/
 *
 *
 *
@@ -433,12 +427,6 @@ var
 EXPORTED_SYMBOLS
 =
 [
-/
-/
-jshint
-ignore
-:
-line
 "
 ManifestFinder
 "

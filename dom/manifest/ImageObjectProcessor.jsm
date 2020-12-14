@@ -158,12 +158,6 @@ aMemberName
 *
 *
 /
-/
-*
-exported
-EXPORTED_SYMBOLS
-*
-/
 "
 use
 strict
@@ -1491,9 +1485,3 @@ ImageObjectProcessor
 "
 ]
 ;
-/
-/
-jshint
-ignore
-:
-line

@@ -184,10 +184,6 @@ browser
 js
 .
 *
-*
-exported
-ManifestObtainer
-*
 /
 "
 use
@@ -246,12 +242,6 @@ var
 ManifestObtainer
 =
 {
-/
-/
-jshint
-ignore
-:
-line
 /
 *
 *
@@ -1226,9 +1216,3 @@ ManifestObtainer
 "
 ]
 ;
-/
-/
-jshint
-ignore
-:
-line

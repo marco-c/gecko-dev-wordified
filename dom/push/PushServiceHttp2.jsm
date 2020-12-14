@@ -1,16 +1,5 @@
 /
 *
-jshint
-moz
-:
-true
-esnext
-:
-true
-*
-/
-/
-*
 This
 Source
 Code

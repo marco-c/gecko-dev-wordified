@@ -673,9 +673,3 @@ ManifestIcons
 "
 ]
 ;
-/
-/
-jshint
-ignore
-:
-line

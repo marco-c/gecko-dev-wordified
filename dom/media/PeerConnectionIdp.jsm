@@ -1,16 +1,5 @@
 /
 *
-jshint
-moz
-:
-true
-browser
-:
-true
-*
-/
-/
-*
 This
 Source
 Code
