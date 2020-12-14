@@ -26249,7 +26249,7 @@ arguments
 (
 see
 *
-GetElemOptimizedArguments
+MaybeGetElemOptimizedArguments
 )
 .
 *
