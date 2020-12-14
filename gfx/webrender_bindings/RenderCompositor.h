@@ -645,9 +645,11 @@ get
 ;
 }
 virtual
-bool
+GLenum
 IsContextLost
 (
+bool
+aForce
 )
 ;
 virtual
