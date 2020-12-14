@@ -7178,6 +7178,7 @@ rootFrame
 r
 frames
 {
+{
 FrameForPointOption
 :
 :
@@ -7190,6 +7191,7 @@ FrameForPointOption
 :
 :
 OnlyVisible
+}
 }
 )
 ;

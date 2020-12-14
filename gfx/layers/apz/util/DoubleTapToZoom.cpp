@@ -418,10 +418,12 @@ ToAppUnits
 aPoint
 )
 {
+{
 FrameForPointOption
 :
 :
 IgnorePaintSuppression
+}
 }
 )
 ;

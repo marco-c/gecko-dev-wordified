@@ -837,6 +837,8 @@ bool
 aFlushLayout
 bool
 aOnlyVisible
+float
+aVisibleThreshold
 nsTArray
 <
 RefPtr

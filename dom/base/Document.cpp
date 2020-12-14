@@ -80552,6 +80552,7 @@ rootFrame
 }
 pt
 {
+{
 FrameForPointOption
 :
 :
@@ -80560,6 +80561,7 @@ FrameForPointOption
 :
 :
 IgnoreCrossDoc
+}
 }
 )
 ;
