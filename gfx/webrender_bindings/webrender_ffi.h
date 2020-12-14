@@ -642,16 +642,6 @@ wr
 Transaction
 *
 aTransaction
-const
-mozilla
-:
-:
-wr
-:
-:
-WrPipelineIdEpochs
-*
-aPipelineEpochs
 )
 ;
 void

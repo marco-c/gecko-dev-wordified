@@ -412,13 +412,6 @@ wr
 Transaction
 *
 aTransaction
-const
-wr
-:
-:
-WrPipelineIdEpochs
-*
-aEpochsBeingRendered
 )
 ;
 void
@@ -446,13 +439,6 @@ wr
 TransactionWrapper
 &
 aTxn
-const
-wr
-:
-:
-WrPipelineIdEpochs
-*
-aEpochsBeingRendered
 )
 ;
 bool
