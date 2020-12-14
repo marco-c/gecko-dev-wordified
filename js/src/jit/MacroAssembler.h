@@ -29214,6 +29214,15 @@ dest
 )
 ;
 void
+loadJitCodeNoArgCheck
+(
+Register
+func
+Register
+dest
+)
+;
+void
 loadBaselineJitCodeRaw
 (
 Register
