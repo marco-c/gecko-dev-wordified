@@ -131,6 +131,11 @@ EXTRA_JS_MODULES
 =
 [
 "
+ExtensionBrowsingData
+.
+jsm
+"
+"
 ExtensionControlledPopup
 .
 jsm
