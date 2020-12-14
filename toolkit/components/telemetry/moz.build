@@ -543,6 +543,13 @@ UntrustedModules
 .
 cpp
 "
+"
+other
+/
+UntrustedModulesDataSerializer
+.
+cpp
+"
 ]
 XPCOM_MANIFESTS
 +
