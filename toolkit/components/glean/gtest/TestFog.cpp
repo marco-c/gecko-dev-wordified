@@ -92,6 +92,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Tuple
 .
 h
@@ -458,6 +467,7 @@ test
 -
 ping
 "
+_ns
 )
 .
 value
@@ -522,6 +532,7 @@ test
 -
 ping
 "
+_ns
 )
 .
 value
@@ -629,6 +640,7 @@ test
 -
 ping
 "
+_ns
 )
 /
 /
@@ -694,6 +706,7 @@ test
 -
 ping
 "
+_ns
 )
 .
 value
@@ -763,6 +776,7 @@ test
 -
 ping
 "
+_ns
 )
 .
 value
@@ -817,6 +831,7 @@ test
 -
 ping
 "
+_ns
 )
 )
 ;
@@ -841,6 +856,7 @@ test
 -
 ping
 "
+_ns
 )
 )
 ;
