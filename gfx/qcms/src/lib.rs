@@ -296,11 +296,9 @@ pub
 mod
 c_bindings
 ;
-pub
 mod
 chain
 ;
-pub
 mod
 gtest
 ;
@@ -385,7 +383,6 @@ pub
 mod
 transform_sse2
 ;
-pub
 mod
 transform_util
 ;
