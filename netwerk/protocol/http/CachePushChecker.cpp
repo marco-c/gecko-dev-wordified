@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 SocketProcessChild

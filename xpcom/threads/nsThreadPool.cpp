@@ -186,6 +186,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SpinEventLoopUntil
 .
 h

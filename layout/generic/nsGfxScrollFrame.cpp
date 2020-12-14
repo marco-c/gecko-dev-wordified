@@ -425,6 +425,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScrollbarPreferences
 .
 h

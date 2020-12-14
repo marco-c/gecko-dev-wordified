@@ -154,6 +154,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 nsHashPropertyBag
 .
 h

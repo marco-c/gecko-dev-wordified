@@ -227,6 +227,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScrollTypes
 .
 h

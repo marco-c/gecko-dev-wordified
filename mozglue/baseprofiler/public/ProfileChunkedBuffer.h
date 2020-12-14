@@ -188,6 +188,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

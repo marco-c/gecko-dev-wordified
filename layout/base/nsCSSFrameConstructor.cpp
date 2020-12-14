@@ -340,6 +340,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h

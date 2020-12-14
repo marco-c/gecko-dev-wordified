@@ -341,6 +341,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

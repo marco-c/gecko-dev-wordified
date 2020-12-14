@@ -119,15 +119,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_page_load
 .
 h

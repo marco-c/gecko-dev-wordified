@@ -162,6 +162,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

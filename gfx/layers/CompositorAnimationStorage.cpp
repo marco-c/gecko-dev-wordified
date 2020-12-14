@@ -235,6 +235,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleConsts
 .
 h

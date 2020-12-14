@@ -135,15 +135,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtrExtensions
 .
 h

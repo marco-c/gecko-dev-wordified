@@ -248,6 +248,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h

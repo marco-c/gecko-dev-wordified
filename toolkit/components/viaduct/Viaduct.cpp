@@ -79,15 +79,6 @@ include
 "
 mozilla
 /
-ScopeExit
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ViaductRequest
 .
 h

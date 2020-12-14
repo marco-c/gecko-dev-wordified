@@ -173,6 +173,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

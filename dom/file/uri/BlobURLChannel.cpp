@@ -154,15 +154,6 @@ BlobURLInputStream
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ScopeExit
-.
-h
-"
 using
 namespace
 mozilla

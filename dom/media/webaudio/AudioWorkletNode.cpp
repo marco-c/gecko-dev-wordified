@@ -292,6 +292,15 @@ h
 #
 include
 "
+mozilla
+/
+ScopeExit
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h
