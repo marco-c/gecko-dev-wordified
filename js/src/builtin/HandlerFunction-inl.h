@@ -111,8 +111,7 @@ MPL
 /
 *
 *
-Stream
-handler
+Handler
 for
 operations
 that
@@ -133,10 +132,10 @@ value
 /
 #
 ifndef
-builtin_streams_HandlerFunction_inl_h
+builtin_HandlerFunction_inl_h
 #
 define
-builtin_streams_HandlerFunction_inl_h
+builtin_HandlerFunction_inl_h
 #
 include
 "
@@ -358,19 +357,19 @@ slots
 .
 constexpr
 size_t
-StreamHandlerFunctionSlot_Target
+HandlerFunctionSlot_Target
 =
 0
 ;
 constexpr
 size_t
-StreamHandlerFunctionSlot_Extra
+HandlerFunctionSlot_Extra
 =
 1
 ;
 static_assert
 (
-StreamHandlerFunctionSlot_Extra
+HandlerFunctionSlot_Extra
 <
 FunctionExtended
 :
@@ -484,7 +483,7 @@ handlerFun
 >
 setExtendedSlot
 (
-StreamHandlerFunctionSlot_Target
+HandlerFunctionSlot_Target
 JS
 :
 :
@@ -559,7 +558,7 @@ handlerFun
 >
 setExtendedSlot
 (
-StreamHandlerFunctionSlot_Extra
+HandlerFunctionSlot_Extra
 JS
 :
 :
@@ -637,7 +636,7 @@ handlerFun
 >
 setExtendedSlot
 (
-StreamHandlerFunctionSlot_Extra
+HandlerFunctionSlot_Extra
 extra
 )
 ;
@@ -735,7 +734,7 @@ func
 .
 getExtendedSlot
 (
-StreamHandlerFunctionSlot_Target
+HandlerFunctionSlot_Target
 )
 .
 toObject
@@ -820,7 +819,7 @@ func
 .
 getExtendedSlot
 (
-StreamHandlerFunctionSlot_Extra
+HandlerFunctionSlot_Extra
 )
 ;
 }
@@ -926,4 +925,4 @@ js
 endif
 /
 /
-builtin_streams_HandlerFunction_inl_h
+builtin_HandlerFunction_inl_h
