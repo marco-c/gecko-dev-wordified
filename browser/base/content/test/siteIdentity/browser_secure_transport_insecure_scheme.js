@@ -1097,8 +1097,6 @@ localhost
 server
 .
 port
-{
-}
 cert
 overrideBits
 true
@@ -1275,8 +1273,6 @@ localhost
 server
 .
 port
-{
-}
 )
 ;
 Services

@@ -7562,10 +7562,6 @@ nsACString
 aHostName
 int32_t
 aPort
-const
-OriginAttributes
-&
-aOriginAttributes
 bool
 aIsTemporary
 AddCertExceptionResolver

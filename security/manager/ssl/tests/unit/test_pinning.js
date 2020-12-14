@@ -425,8 +425,6 @@ clearValidityOverride
 (
 host
 8443
-{
-}
 )
 ;
 run_next_test

@@ -9576,8 +9576,6 @@ nsCString
 aHostName
 int32_t
 aPort
-OriginAttributes
-aOriginAttributes
 bool
 aIsTemporary
 )
