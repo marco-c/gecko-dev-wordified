@@ -1251,7 +1251,6 @@ InterpretObjLiteral
 (
 cx
 atomCache
-atoms_
 writer_
 )
 ;
