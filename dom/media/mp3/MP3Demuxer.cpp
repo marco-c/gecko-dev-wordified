@@ -3120,11 +3120,7 @@ mStart
 =
 mParser
 .
-ID3Header
-(
-)
-.
-TotalTagSize
+TotalID3HeaderSize
 (
 )
 &
@@ -3767,11 +3763,7 @@ maxSkippableBytes
 =
 mParser
 .
-ID3Header
-(
-)
-.
-TotalTagSize
+TotalID3HeaderSize
 (
 )
 ;
