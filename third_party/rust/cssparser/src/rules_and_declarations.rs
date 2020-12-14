@@ -91,7 +91,6 @@ super
 {
 ParseError
 Parser
-SourceLocation
 Token
 }
 ;
@@ -1284,9 +1283,10 @@ Self
 :
 :
 PreludeNoBlock
-location
+start
 :
-SourceLocation
+&
+ParserState
 )
 -
 >
@@ -1303,7 +1303,7 @@ prelude
 let
 _
 =
-location
+start
 ;
 panic
 !
@@ -1473,9 +1473,10 @@ Self
 :
 :
 PreludeBlock
-location
+start
 :
-SourceLocation
+&
+ParserState
 input
 :
 &
@@ -1515,7 +1516,7 @@ prelude
 let
 _
 =
-location
+start
 ;
 let
 _
@@ -2003,9 +2004,10 @@ Self
 :
 :
 Prelude
-location
+start
 :
-SourceLocation
+&
+ParserState
 input
 :
 &
@@ -2045,7 +2047,7 @@ prelude
 let
 _
 =
-location
+start
 ;
 let
 _
@@ -2563,7 +2565,9 @@ Semicolon
 )
 =
 >
+{
 continue
+}
 Ok
 (
 &
@@ -3411,7 +3415,6 @@ b
 '
 =
 >
-{
 match
 self
 .
@@ -3458,7 +3461,6 @@ start
 )
 ;
 None
-}
 }
 }
 _
@@ -4088,15 +4090,6 @@ E
 >
 {
 let
-location
-=
-input
-.
-current_source_location
-(
-)
-;
-let
 delimiters
 =
 Delimiter
@@ -4208,7 +4201,7 @@ parser
 rule_without_block
 (
 prelude
-location
+start
 )
 )
 Ok
@@ -4329,7 +4322,7 @@ parser
 parse_block
 (
 prelude
-location
+start
 input
 )
 ;
@@ -4575,11 +4568,11 @@ E
 >
 {
 let
-location
+start
 =
 input
 .
-current_source_location
+state
 (
 )
 ;
@@ -4722,7 +4715,8 @@ parser
 parse_block
 (
 prelude
-location
+&
+start
 input
 )
 ;
