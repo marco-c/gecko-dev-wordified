@@ -1038,6 +1038,7 @@ testing
 .
 *
 /
+async
 _gatherTelemetry
 (
 referenceTimeMs
@@ -1271,9 +1272,10 @@ return
 let
 logins
 =
+await
 this
 .
-getAllLogins
+getAllLoginsAsync
 (
 )
 ;
