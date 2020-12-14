@@ -952,9 +952,12 @@ EmitScriptThingsVector
 JSContext
 *
 cx
-CompilationInfo
+CompilationInput
 &
-compilationInfo
+input
+CompilationStencil
+&
+stencil
 CompilationGCOutput
 &
 gcOutput
