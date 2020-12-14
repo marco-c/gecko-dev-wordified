@@ -1241,6 +1241,7 @@ with
 CallerType
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SetFocusedWindowWithCallerType
 (
@@ -1545,6 +1546,7 @@ caller
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 FocusPlugin
 (
@@ -1974,7 +1976,7 @@ instance
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 SetFocusInner
 (

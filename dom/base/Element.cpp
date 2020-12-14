@@ -3074,8 +3074,10 @@ ErrorResult
 aError
 )
 {
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
@@ -19959,8 +19961,10 @@ IsInComposedDoc
 {
 if
 (
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
