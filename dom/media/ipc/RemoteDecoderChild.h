@@ -494,9 +494,6 @@ MediaResult
 aCallback
 )
 ;
-TimeStamp
-mRemoteProcessCrashTime
-;
 nsCString
 mHardwareAcceleratedReason
 ;
