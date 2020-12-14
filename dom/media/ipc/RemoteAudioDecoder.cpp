@@ -170,6 +170,10 @@ RemoteAudioDecoderChild
 :
 RemoteDecoderChild
 (
+RemoteDecodeIn
+:
+:
+RddProcess
 )
 {
 }
@@ -310,10 +314,7 @@ RemoteDecoderManagerChild
 :
 GetSingleton
 (
-RemoteDecodeIn
-:
-:
-RddProcess
+mLocation
 )
 ;
 /

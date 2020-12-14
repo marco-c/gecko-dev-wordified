@@ -189,10 +189,8 @@ RemoteDecoderChild
 explicit
 RemoteDecoderChild
 (
-bool
-aRecreatedOnCrash
-=
-false
+RemoteDecodeIn
+aLocation
 )
 ;
 void
@@ -404,6 +402,10 @@ MediaDataDecoder
 DecodedData
 mDecodedData
 ;
+const
+RemoteDecodeIn
+mLocation
+;
 private
 :
 const
@@ -504,10 +506,6 @@ bool
 mIsHardwareAccelerated
 =
 false
-;
-const
-bool
-mRecreatedOnCrash
 ;
 MediaDataDecoder
 :
