@@ -1107,7 +1107,7 @@ e
 .
 g
 .
-NDEFReader
+NDEFWriter
 .
 write
 )
@@ -1332,7 +1332,7 @@ received
 from
 /
 /
-NDEFReader
+NDEFWriter
 .
 onreading
 (
@@ -1496,7 +1496,7 @@ mockNFC
 >
 {
 const
-ndef1
+reader1
 =
 new
 NDEFReader
@@ -1504,7 +1504,7 @@ NDEFReader
 )
 ;
 const
-ndef2
+reader2
 =
 new
 NDEFReader
@@ -1524,12 +1524,12 @@ AbortController
 Reading
 from
 unmatched
-ndef
+reader
 will
 not
 be
 triggered
-ndef1
+reader1
 .
 onreading
 =
@@ -1557,7 +1557,7 @@ controller
 signal
 ;
 await
-ndef1
+reader1
 .
 scan
 (
@@ -1565,13 +1565,13 @@ unmatchedScanOptions
 )
 ;
 const
-ndefWatcher
+readerWatcher
 =
 new
 EventWatcher
 (
 t
-ndef2
+reader2
 [
 "
 reading
@@ -1585,7 +1585,7 @@ readingerror
 const
 promise
 =
-ndefWatcher
+readerWatcher
 .
 wait_for
 (
@@ -1630,7 +1630,7 @@ controller
 signal
 ;
 await
-ndef2
+reader2
 .
 scan
 (
@@ -1672,7 +1672,7 @@ mockNFC
 >
 {
 const
-ndef
+reader
 =
 new
 NDEFReader
@@ -1688,13 +1688,13 @@ AbortController
 )
 ;
 const
-ndefWatcher
+readerWatcher
 =
 new
 EventWatcher
 (
 t
-ndef
+reader
 [
 "
 reading
@@ -1708,7 +1708,7 @@ readingerror
 const
 promise
 =
-ndefWatcher
+readerWatcher
 .
 wait_for
 (
@@ -1753,7 +1753,7 @@ controller
 signal
 ;
 await
-ndef
+reader
 .
 scan
 (
