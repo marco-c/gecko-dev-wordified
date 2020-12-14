@@ -150,6 +150,13 @@ h
 #
 include
 "
+PlatformDecoderModule
+.
+h
+"
+#
+include
+"
 VideoUtils
 .
 h
