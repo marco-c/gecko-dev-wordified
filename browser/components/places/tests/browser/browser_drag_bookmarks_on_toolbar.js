@@ -88,7 +88,7 @@ document
 getElementById
 (
 "
-PlacesToolbar
+PersonalToolbar
 "
 )
 ;
