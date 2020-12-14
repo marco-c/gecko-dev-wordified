@@ -2910,6 +2910,11 @@ clearValidityOverride
 (
 host
 port
+gBrowser
+.
+contentPrincipal
+.
+originAttributes
 )
 ;
 BrowserReloadSkipCache
