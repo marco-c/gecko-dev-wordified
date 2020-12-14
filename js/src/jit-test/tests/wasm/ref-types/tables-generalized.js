@@ -1614,8 +1614,15 @@ funcref
 )
 |
 (
-type
-mismatch
+indirect
+calls
+must
+go
+through
+a
+table
+of
+funcref
 )
 /
 )
