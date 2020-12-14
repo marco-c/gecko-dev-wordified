@@ -987,7 +987,7 @@ signal_stack_size
 )
 ]
 .
-into_iter
+iter
 (
 )
 {
@@ -1345,7 +1345,7 @@ signal_stack_size
 )
 ]
 .
-into_iter
+iter
 (
 )
 {
