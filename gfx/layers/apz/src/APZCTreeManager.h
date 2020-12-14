@@ -1699,6 +1699,13 @@ AsyncCompositionManager
 void
 SampleForWebRender
 (
+const
+Maybe
+<
+VsyncId
+>
+&
+aVsyncId
 wr
 :
 :

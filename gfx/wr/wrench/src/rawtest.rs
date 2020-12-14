@@ -680,6 +680,7 @@ txn
 .
 generate_frame
 (
+0
 )
 ;
 self
@@ -8261,6 +8262,7 @@ txn
 .
 generate_frame
 (
+0
 )
 ;
 self
@@ -8514,6 +8516,7 @@ txn
 .
 generate_frame
 (
+0
 )
 ;
 self
@@ -8766,6 +8769,7 @@ txn
 .
 generate_frame
 (
+0
 )
 ;
 self

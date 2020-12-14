@@ -1166,6 +1166,7 @@ transaction
 .
 generate_frame
 (
+0
 )
 ;
 self

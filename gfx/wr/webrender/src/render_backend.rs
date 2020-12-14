@@ -6312,6 +6312,7 @@ take
 txn
 .
 render_frame
+None
 txn
 .
 invalidate_rendered_frame
@@ -8433,6 +8434,10 @@ if
 txn
 .
 generate_frame
+.
+as_bool
+(
+)
 {
 txn
 .
@@ -8508,6 +8513,17 @@ take
 txn
 .
 generate_frame
+.
+as_bool
+(
+)
+txn
+.
+generate_frame
+.
+id
+(
+)
 txn
 .
 invalidate_rendered_frame
@@ -8745,6 +8761,7 @@ default
 (
 )
 false
+None
 false
 frame_counter
 false
@@ -8814,6 +8831,12 @@ mut
 render_frame
 :
 bool
+generated_frame_id
+:
+Option
+<
+u64
+>
 invalidate_rendered_frame
 :
 bool
@@ -8954,6 +8977,7 @@ sampler
 sample
 (
 document_id
+generated_frame_id
 &
 doc
 .

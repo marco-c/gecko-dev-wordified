@@ -649,6 +649,10 @@ aPipeline
 void
 GenerateFrame
 (
+const
+VsyncId
+&
+aVsyncId
 )
 ;
 void
