@@ -15,7 +15,7 @@ EDIT
 tzdata
 version
 =
-2020a
+2020d
 #
 ifndef
 builtin_intl_TimeZoneDataGenerated_h
@@ -1370,6 +1370,13 @@ PST
 "
 "
 SST
+"
+"
+US
+/
+Pacific
+-
+New
 "
 "
 VST
