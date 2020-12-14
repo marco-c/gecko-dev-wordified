@@ -7279,7 +7279,12 @@ docShell
 docShell
 -
 >
-GetIsActive
+GetBrowsingContext
+(
+)
+-
+>
+IsActive
 (
 )
 )

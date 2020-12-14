@@ -40411,7 +40411,7 @@ bc
 bc
 -
 >
-GetIsActive
+IsActive
 (
 )
 &

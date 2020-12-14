@@ -7203,6 +7203,11 @@ MoveLoadingToActiveEntry
 (
 )
 ;
+void
+ActivenessMaybeChanged
+(
+)
+;
 private
 :
 /

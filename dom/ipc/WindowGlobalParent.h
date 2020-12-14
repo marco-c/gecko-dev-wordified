@@ -643,10 +643,8 @@ in
 -
 process
 .
-already_AddRefed
-<
 BrowserParent
->
+*
 GetBrowserParent
 (
 )

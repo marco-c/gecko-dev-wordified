@@ -929,16 +929,6 @@ f
 visible
 )
 {
-let
-Ci
-=
-SpecialPowers
-.
-Ci
-;
-let
-docshell
-=
 SpecialPowers
 .
 wrap
@@ -948,9 +938,7 @@ f
 contentWindow
 )
 .
-docShell
-;
-docshell
+browsingContext
 .
 isActive
 =

@@ -153,9 +153,8 @@ rather
 than
 polling
 the
-docShell
-.
 isActive
+flag
 .
 await
 ContentTaskUtils
@@ -181,7 +180,7 @@ aEvent
 return
 content
 .
-docShell
+browsingContext
 .
 isActive
 ;

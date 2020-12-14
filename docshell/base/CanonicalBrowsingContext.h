@@ -1287,6 +1287,13 @@ uint32_t
 aStopFlags
 )
 ;
+BrowserParent
+*
+GetBrowserParent
+(
+)
+const
+;
 /
 /
 Internal

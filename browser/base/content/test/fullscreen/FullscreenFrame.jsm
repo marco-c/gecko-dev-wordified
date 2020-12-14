@@ -243,7 +243,7 @@ RequestFullscreen
 :
 this
 .
-docShell
+browsingContext
 .
 isActive
 =

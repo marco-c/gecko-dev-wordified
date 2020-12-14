@@ -285,7 +285,9 @@ waitForCondition
 )
 =
 >
-docShell
+content
+.
+browsingContext
 .
 isActive
 &

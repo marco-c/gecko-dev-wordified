@@ -481,7 +481,7 @@ for
 the
 document
 being
-actived
+activated
 so
 that
 /
@@ -516,7 +516,9 @@ waitForCondition
 )
 =
 >
-docShell
+content
+.
+browsingContext
 .
 isActive
 &

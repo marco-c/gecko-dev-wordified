@@ -4695,7 +4695,7 @@ NotifyNavigationStart
 browsingContext
 -
 >
-GetIsActive
+IsActive
 (
 )
 ?

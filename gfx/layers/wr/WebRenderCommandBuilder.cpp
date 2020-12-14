@@ -12470,9 +12470,6 @@ aBuilder
 {
 return
 aBuilder
-!
-=
-nullptr
 &
 &
 aBuilder
