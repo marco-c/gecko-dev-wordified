@@ -4407,12 +4407,6 @@ case
 JSOp
 :
 :
-CallProp
-:
-case
-JSOp
-:
-:
 Length
 :
 if

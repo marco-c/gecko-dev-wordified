@@ -19584,10 +19584,6 @@ CASE
 (
 Length
 )
-CASE
-(
-CallProp
-)
 {
 MutableHandleValue
 lval

@@ -3496,15 +3496,6 @@ JSOp
 :
 :
 GetProp
-|
-|
-op
-=
-=
-JSOp
-:
-:
-CallProp
 ;
 }
 inline

@@ -9252,12 +9252,6 @@ case
 JSOp
 :
 :
-CallProp
-:
-case
-JSOp
-:
-:
 RegExp
 :
 case
