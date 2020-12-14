@@ -1106,9 +1106,6 @@ traits
 networkMonitor
 :
 true
-bulk
-:
-true
 /
 /
 Whether
