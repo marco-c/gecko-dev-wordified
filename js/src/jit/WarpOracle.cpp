@@ -4306,12 +4306,6 @@ case
 JSOp
 :
 :
-IterNext
-:
-case
-JSOp
-:
-:
 MoreIter
 :
 case
