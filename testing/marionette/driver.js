@@ -4410,11 +4410,6 @@ browsingContext
 currentWindowGlobal
 )
 ;
-return
-browsingContext
-.
-id
-;
 }
 ;
 GeckoDriver
