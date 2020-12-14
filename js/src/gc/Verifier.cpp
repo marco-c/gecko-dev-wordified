@@ -6909,15 +6909,7 @@ if
 cellZone
 -
 >
-isGCMarking
-(
-)
-|
-|
-cellZone
--
->
-isGCSweeping
+isGCMarkingOrSweeping
 (
 )
 )
