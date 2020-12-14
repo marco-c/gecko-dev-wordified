@@ -135,9 +135,7 @@ include
 "
 mozilla
 /
-ipc
-/
-BackgroundParent
+ScopeExit
 .
 h
 "
@@ -146,7 +144,9 @@ include
 "
 mozilla
 /
-ScopeExit
+ipc
+/
+BackgroundParent
 .
 h
 "

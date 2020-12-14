@@ -377,6 +377,15 @@ include
 "
 mozilla
 /
+UniquePtrExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
