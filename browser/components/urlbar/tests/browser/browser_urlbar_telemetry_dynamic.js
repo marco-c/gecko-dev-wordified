@@ -121,6 +121,17 @@ DYNAMIC_TYPE_NAME
 test
 "
 ;
+/
+*
+*
+*
+A
+test
+URLBar
+provider
+.
+*
+/
 class
 TestProvider
 extends
@@ -247,7 +258,7 @@ gTestPath
 )
 +
 "
-usageTelemetryUrlbarDynamic
+urlbarTelemetryUrlbarDynamic
 .
 css
 "

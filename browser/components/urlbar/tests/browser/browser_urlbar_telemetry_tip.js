@@ -538,6 +538,17 @@ tab
 }
 )
 ;
+/
+*
+*
+*
+A
+test
+URLBar
+provider
+.
+*
+/
 class
 TipProvider
 extends

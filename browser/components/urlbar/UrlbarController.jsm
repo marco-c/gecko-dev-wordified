@@ -139,7 +139,7 @@ AppConstants
 .
 jsm
 "
-BrowserUsageTelemetry
+BrowserSearchTelemetry
 :
 "
 resource
@@ -149,7 +149,7 @@ resource
 /
 modules
 /
-BrowserUsageTelemetry
+BrowserSearchTelemetry
 .
 jsm
 "
@@ -3319,7 +3319,7 @@ resultIndex
 1
 ;
 }
-BrowserUsageTelemetry
+BrowserSearchTelemetry
 .
 recordUrlbarSelectedResultMethod
 (
