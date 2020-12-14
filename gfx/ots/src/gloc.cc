@@ -277,7 +277,7 @@ DropGraphite
 "
 Failed
 to
-calulate
+calculate
 length
 of
 locations

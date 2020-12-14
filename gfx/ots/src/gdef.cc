@@ -639,7 +639,7 @@ i
 /
 Contour
 point
-indeces
+indices
 are
 in
 increasing
@@ -665,7 +665,7 @@ Error
 "
 bad
 contour
-indeces
+indices
 :
 %
 u

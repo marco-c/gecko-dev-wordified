@@ -1781,7 +1781,7 @@ return
 Error
 (
 "
-Invalide
+Invalid
 glyph
 offsets
 size
