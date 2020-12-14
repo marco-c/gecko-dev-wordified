@@ -371,6 +371,10 @@ com
 modified
 :
 "
+https
+:
+/
+/
 www
 .
 exam
@@ -380,7 +384,7 @@ com
 waitForUrl
 :
 "
-http
+https
 :
 /
 /
