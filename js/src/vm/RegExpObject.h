@@ -1504,7 +1504,7 @@ string
 *
 /
 extern
-JSLinearString
+JSAtom
 *
 EscapeRegExpPattern
 (

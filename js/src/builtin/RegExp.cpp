@@ -4985,7 +4985,7 @@ src
 Step
 7
 .
-JSString
+JSAtom
 *
 escaped
 =
