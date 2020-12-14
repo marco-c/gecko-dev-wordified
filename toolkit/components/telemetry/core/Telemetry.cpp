@@ -3901,6 +3901,8 @@ TelemetryImpl
 :
 GetUntrustedModuleLoadEvents
 (
+uint32_t
+aFlags
 JSContext
 *
 cx
@@ -3922,6 +3924,7 @@ Telemetry
 :
 GetUntrustedModuleLoadEvents
 (
+aFlags
 cx
 aPromise
 )
