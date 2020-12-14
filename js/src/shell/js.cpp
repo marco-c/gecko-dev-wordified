@@ -34028,8 +34028,6 @@ compilationInfo
 get
 (
 )
-.
-stencil
 )
 ;
 if
@@ -34540,8 +34538,6 @@ compilationInfo
 get
 (
 )
-.
-stencil
 )
 ;
 Parser

@@ -23522,8 +23522,6 @@ compilationInfo
 get
 (
 )
-.
-stencil
 )
 ;
 Parser

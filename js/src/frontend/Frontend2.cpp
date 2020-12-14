@@ -1042,8 +1042,6 @@ alloc
 =
 compilationInfo
 .
-stencil
-.
 alloc
 ;
 if
@@ -1214,8 +1212,6 @@ createForGlobalScope
 (
 cx
 compilationInfo
-.
-stencil
 ScopeKind
 :
 :
@@ -1349,8 +1345,6 @@ createForVarScope
 (
 cx
 compilationInfo
-.
-stencil
 ScopeKind
 :
 :
@@ -1505,8 +1499,6 @@ createForLexicalScope
 (
 cx
 compilationInfo
-.
-stencil
 ScopeKind
 :
 :
@@ -1700,8 +1692,6 @@ createForFunctionScope
 (
 cx
 compilationInfo
-.
-stencil
 data
 hasParameterExprs
 needsEnvironment
@@ -3322,8 +3312,6 @@ result
 smooshScript
 compilationInfo
 .
-stencil
-.
 alloc
 allAtoms
 script
@@ -3771,8 +3759,6 @@ input
 .
 options
 compilationInfo
-.
-stencil
 )
 ;
 if

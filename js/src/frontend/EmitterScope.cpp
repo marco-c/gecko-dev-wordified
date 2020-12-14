@@ -3870,8 +3870,6 @@ bce
 -
 >
 compilationInfo
-.
-stencil
 kind
 bindings
 firstFrameSlot
@@ -4268,8 +4266,6 @@ bce
 -
 >
 compilationInfo
-.
-stencil
 scopeKind
 funbox
 -
@@ -4865,8 +4861,6 @@ bce
 -
 >
 compilationInfo
-.
-stencil
 funbox
 -
 >
@@ -5383,8 +5377,6 @@ bce
 -
 >
 compilationInfo
-.
-stencil
 ScopeKind
 :
 :
@@ -5730,8 +5722,6 @@ bce
 -
 >
 compilationInfo
-.
-stencil
 globalsc
 -
 >
@@ -6149,8 +6139,6 @@ bce
 -
 >
 compilationInfo
-.
-stencil
 scopeKind
 evalsc
 -
@@ -6667,8 +6655,6 @@ bce
 -
 >
 compilationInfo
-.
-stencil
 modulesc
 -
 >
@@ -6795,8 +6781,6 @@ bce
 -
 >
 compilationInfo
-.
-stencil
 enclosing
 index
 )

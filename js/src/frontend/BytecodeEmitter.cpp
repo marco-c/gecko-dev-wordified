@@ -10901,8 +10901,6 @@ code
 =
 compilationInfo
 .
-stencil
-.
 alloc
 .
 newArrayUninitialized
@@ -70716,8 +70714,6 @@ NewScriptThingSpanUninitialized
 (
 cx
 compilationInfo
-.
-stencil
 .
 alloc
 ngcthings
