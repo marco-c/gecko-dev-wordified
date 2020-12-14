@@ -6727,8 +6727,6 @@ nsIURI
 oldURI
 nsIURI
 newURI
-Principal
-aLoadingPrincipal
 bool
 isPrivate
 )

@@ -2085,9 +2085,6 @@ aOldURI
 nsIURI
 *
 aNewURI
-nsIPrincipal
-*
-aLoadingPrincipal
 bool
 aInPrivateBrowsing
 )
