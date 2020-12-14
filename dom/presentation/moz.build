@@ -210,11 +210,6 @@ PresentationParent
 h
 "
 "
-MockedSocketTransport
-.
-h
-"
-"
 Presentation
 .
 h
@@ -333,11 +328,6 @@ cpp
 ipc
 /
 PresentationParent
-.
-cpp
-"
-"
-MockedSocketTransport
 .
 cpp
 "

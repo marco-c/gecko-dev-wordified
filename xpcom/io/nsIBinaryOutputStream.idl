@@ -242,7 +242,6 @@ nsIBinaryInputStream
 /
 [
 scriptable
-builtinclass
 uuid
 (
 204ee610
