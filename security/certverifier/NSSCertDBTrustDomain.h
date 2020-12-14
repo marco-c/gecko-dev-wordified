@@ -1125,9 +1125,9 @@ nullptr
 optional
 *
 /
-CRLiteTelemetryInfo
+CRLiteLookupResult
 *
-crliteTelemetryInfo
+crliteLookupResult
 =
 nullptr
 /
@@ -1786,13 +1786,6 @@ cachedResponseResult
 const
 Result
 stapledOCSPResponseResult
-const
-Maybe
-<
-TimeDuration
->
-&
-crliteLookupDuration
 )
 ;
 Result
@@ -1962,9 +1955,9 @@ PinningTelemetryInfo
 *
 mPinningTelemetryInfo
 ;
-CRLiteTelemetryInfo
+CRLiteLookupResult
 *
-mCRLiteTelemetryInfo
+mCRLiteLookupResult
 ;
 const
 char
