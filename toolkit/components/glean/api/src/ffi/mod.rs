@@ -156,7 +156,7 @@ FfiStr
 )
 -
 >
-u8
+bool
 {
 test_has
 !
@@ -290,7 +290,7 @@ FfiStr
 )
 -
 >
-u8
+bool
 {
 test_has
 !
@@ -354,7 +354,7 @@ FfiStr
 )
 -
 >
-u8
+bool
 {
 test_has
 !
@@ -386,7 +386,7 @@ FfiStr
 )
 -
 >
-u8
+bool
 {
 test_get
 !
@@ -413,7 +413,7 @@ id
 u32
 value
 :
-u8
+bool
 )
 {
 let
@@ -431,9 +431,6 @@ metric
 set
 (
 value
-!
-=
-0
 )
 ;
 }
@@ -501,7 +498,7 @@ FfiStr
 )
 -
 >
-u8
+bool
 {
 test_has
 !
@@ -685,7 +682,7 @@ FfiStr
 )
 -
 >
-u8
+bool
 {
 test_has
 !
@@ -881,7 +878,7 @@ FfiStr
 )
 -
 >
-u8
+bool
 {
 test_has
 !
