@@ -294,6 +294,10 @@ i32
 }
 pub
 mod
+c_bindings
+;
+pub
+mod
 chain
 ;
 pub

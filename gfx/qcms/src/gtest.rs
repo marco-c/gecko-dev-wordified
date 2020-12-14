@@ -13,6 +13,10 @@ crate
 :
 :
 {
+c_bindings
+:
+:
+*
 iccread
 :
 :
@@ -1078,7 +1082,7 @@ sRGB_profile
 crate
 :
 :
-iccread
+c_bindings
 :
 :
 qcms_profile_sRGB
@@ -1293,12 +1297,6 @@ gray_alpha
 let
 sRGB_profile
 =
-crate
-:
-:
-iccread
-:
-:
 qcms_profile_sRGB
 (
 )
