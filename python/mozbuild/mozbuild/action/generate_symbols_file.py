@@ -636,6 +636,8 @@ symbols
 )
     
 elif
+(
+        
 buildconfig
 .
 substs
@@ -646,6 +648,7 @@ get
 GCC_USE_GNU_LD
 "
 )
+        
 or
 buildconfig
 .
@@ -660,6 +663,8 @@ OS_TARGET
 "
 SunOS
 "
+    
+)
 :
         
 #
