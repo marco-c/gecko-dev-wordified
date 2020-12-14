@@ -36,7 +36,6 @@ support
 helpers
 import
 cleanup_session
-deep_update
 from
 tests
 .
@@ -799,9 +798,10 @@ capabilities
 ]
 )
     
-deep_update
-(
 caps
+.
+update
+(
 capabilities
 )
     
