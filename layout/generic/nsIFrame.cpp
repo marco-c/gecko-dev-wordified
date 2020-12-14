@@ -44504,6 +44504,15 @@ flexBasis
 IsSize
 (
 )
+&
+&
+!
+flexBasis
+-
+>
+IsAuto
+(
+)
 )
 {
 /

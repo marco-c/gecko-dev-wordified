@@ -18024,6 +18024,15 @@ flexBasis
 IsSize
 (
 )
+&
+&
+!
+flexBasis
+-
+>
+IsAuto
+(
+)
 )
 {
 /
