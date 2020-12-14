@@ -212,6 +212,7 @@ second
 "
 )
 ;
+await
 inspector
 .
 highlighters
@@ -249,6 +250,7 @@ second
 "
 )
 ;
+await
 inspector
 .
 highlighters
