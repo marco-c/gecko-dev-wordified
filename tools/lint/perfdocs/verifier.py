@@ -1203,18 +1203,31 @@ tb
 )
                 
 if
+(
+                    
 stests
 .
 get
 (
 tb
+None
 )
+is
+not
+None
+                    
 or
 stests
 .
 get
 (
 test_name
+None
+)
+is
+not
+None
+                
 )
 :
                     
