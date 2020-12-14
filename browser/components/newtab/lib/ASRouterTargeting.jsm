@@ -2574,17 +2574,6 @@ isFxAEnabled
 ;
 }
 get
-trailheadTriplet
-(
-)
-{
-return
-ASRouterPreferences
-.
-trailheadTriplet
-;
-}
-get
 sync
 (
 )
