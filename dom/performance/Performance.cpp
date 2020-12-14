@@ -341,6 +341,7 @@ DOMEventTargetHelper
 mUserEntries
 mResourceEntries
 mSecondaryResourceEntries
+mObservers
 )
 ;
 NS_IMPL_ADDREF_INHERITED
