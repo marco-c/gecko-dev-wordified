@@ -15790,8 +15790,10 @@ true
 ;
 if
 (
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager

@@ -921,8 +921,10 @@ mClickCount
 {
 if
 (
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
