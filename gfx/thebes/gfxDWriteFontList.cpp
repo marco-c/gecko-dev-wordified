@@ -10131,6 +10131,13 @@ errGDIInterop
 )
 )
 ;
+mSharedFontList
+.
+reset
+(
+nullptr
+)
+;
 return
 ;
 }
@@ -10176,6 +10183,13 @@ uint32_t
 (
 errSystemFontCollection
 )
+)
+;
+mSharedFontList
+.
+reset
+(
+nullptr
 )
 ;
 return
