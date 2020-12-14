@@ -529,6 +529,12 @@ aReferrerInfo
 null
 /
 *
+aCookieJarSettings
+*
+/
+null
+/
+*
 aSourceDocument
 *
 /

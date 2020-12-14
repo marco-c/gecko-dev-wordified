@@ -2506,6 +2506,7 @@ true
 true
 aReferrerInfo
 null
+null
 params
 .
 isContentWindowPrivate
@@ -2563,6 +2564,7 @@ null
 true
 true
 aReferrerInfo
+null
 aInitiatingDoc
 )
 ;

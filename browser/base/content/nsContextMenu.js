@@ -8697,6 +8697,7 @@ dialogTitle
 bypassCache
 doc
 referrerInfo
+cookieJarSettings
 windowID
 linkDownload
 isContentWindowPrivate
@@ -9062,6 +9063,7 @@ dialogTitle
 bypassCache
 false
 referrerInfo
+cookieJarSettings
 doc
 isContentWindowPrivate
 this
@@ -9511,6 +9513,14 @@ forceAllowThirdPartyCookie
 true
 ;
 }
+channel
+.
+loadInfo
+.
+cookieJarSettings
+=
+cookieJarSettings
+;
 }
 /
 /
@@ -9668,6 +9678,11 @@ this
 .
 ownerDoc
 referrerInfo
+this
+.
+contentData
+.
+cookieJarSettings
 this
 .
 frameOuterWindowID
