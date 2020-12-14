@@ -531,6 +531,16 @@ empty
 if
 (
 !
+this
+.
+_form
+.
+traits
+.
+getAttributesInOwnerDocument
+|
+|
+!
 search
 )
 {
