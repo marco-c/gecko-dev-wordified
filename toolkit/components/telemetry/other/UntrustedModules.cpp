@@ -945,6 +945,7 @@ serializer
 (
 cx
 kMaxModulesArrayLen
+mFlags
 )
 ;
 if
