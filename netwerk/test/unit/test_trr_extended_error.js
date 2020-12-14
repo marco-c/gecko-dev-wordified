@@ -214,11 +214,15 @@ async
 )
 =
 >
+{
+await
 trrServer
 .
 stop
 (
 )
+;
+}
 )
 ;
 await

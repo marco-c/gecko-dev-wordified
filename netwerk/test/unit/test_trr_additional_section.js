@@ -204,11 +204,15 @@ async
 )
 =
 >
+{
+await
 trrServer
 .
 stop
 (
 )
+;
+}
 )
 ;
 add_task
