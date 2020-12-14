@@ -1241,8 +1241,6 @@ installing
 another
 package
 for
-"
-"
 distutils
 ?
 "
