@@ -3707,12 +3707,8 @@ IOUtils
 :
 RejectJSPromise
 (
-const
-RefPtr
-<
 Promise
->
-&
+*
 aPromise
 const
 IOError
