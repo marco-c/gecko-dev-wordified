@@ -254,7 +254,7 @@ InputStreamCallbackRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -382,7 +382,7 @@ RemoteLazyInputStream
 aStream
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom
@@ -430,7 +430,7 @@ FileMetadataCallbackRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -528,7 +528,7 @@ RemoteLazyInputStream
 aStream
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom
@@ -3894,7 +3894,7 @@ InputStreamLengthCallbackRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -3998,7 +3998,7 @@ int64_t
 aLength
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom

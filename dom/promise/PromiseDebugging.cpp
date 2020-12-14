@@ -251,7 +251,7 @@ class
 FlushRejections
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -259,7 +259,7 @@ FlushRejections
 (
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom

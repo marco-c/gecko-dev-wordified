@@ -1093,7 +1093,7 @@ class
 IncrementalFinalizeRunnable
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 typedef
 AutoTArray
@@ -10834,7 +10834,7 @@ DeferredFinalizerTable
 aFinalizers
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 IncrementalFinalizeRunnable

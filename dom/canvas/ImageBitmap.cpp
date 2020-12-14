@@ -6463,7 +6463,7 @@ CreateImageBitmapFromBlob
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 public
 imgIContainerCallback
 public
@@ -6587,7 +6587,7 @@ nsIEventTarget
 aMainThreadEventTarget
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom
@@ -6927,7 +6927,7 @@ mThread
 NS_IMPL_ISUPPORTS_INHERITED
 (
 CreateImageBitmapFromBlob
-CancelableRunnable
+DiscardableRunnable
 imgIContainerCallback
 nsIInputStreamCallback
 )

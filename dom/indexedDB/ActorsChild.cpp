@@ -6426,7 +6426,7 @@ declarations
 /
 /
 /
-CancelableRunnable
+DiscardableRunnable
 is
 used
 to
@@ -6442,7 +6442,7 @@ PreprocessHelper
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 public
 nsIInputStreamCallback
 public
@@ -6590,7 +6590,7 @@ BackgroundRequestChild
 aActor
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 indexedDB
@@ -16133,7 +16133,7 @@ BackgroundRequestChild
 :
 :
 PreprocessHelper
-CancelableRunnable
+DiscardableRunnable
 nsIInputStreamCallback
 nsIFileMetadataCallback
 )

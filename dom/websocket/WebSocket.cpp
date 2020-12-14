@@ -1433,7 +1433,7 @@ CallDispatchConnectionCloseEvents
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -1445,7 +1445,7 @@ WebSocketImpl
 aWebSocketImpl
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom

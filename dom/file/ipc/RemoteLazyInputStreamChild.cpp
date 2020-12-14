@@ -197,7 +197,7 @@ ShutdownRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -209,7 +209,7 @@ RemoteLazyInputStreamChild
 aActor
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom
@@ -279,7 +279,7 @@ StreamNeededRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -291,7 +291,7 @@ RemoteLazyInputStreamChild
 aActor
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom
@@ -403,7 +403,7 @@ StreamReadyRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -419,7 +419,7 @@ nsIInputStream
 aCreatedStream
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom
@@ -522,7 +522,7 @@ LengthNeededRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -534,7 +534,7 @@ RemoteLazyInputStreamChild
 aActor
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom
@@ -646,7 +646,7 @@ LengthReadyRunnable
 final
 :
 public
-CancelableRunnable
+DiscardableRunnable
 {
 public
 :
@@ -659,7 +659,7 @@ int64_t
 aSize
 )
 :
-CancelableRunnable
+DiscardableRunnable
 (
 "
 dom
