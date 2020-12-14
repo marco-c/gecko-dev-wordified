@@ -947,9 +947,6 @@ const
 nsAString
 &
 aAlertName
-nsIPrincipal
-*
-aPrincipal
 )
 {
 RefPtr

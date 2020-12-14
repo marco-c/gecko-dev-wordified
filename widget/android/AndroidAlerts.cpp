@@ -661,9 +661,6 @@ const
 nsAString
 &
 aAlertName
-nsIPrincipal
-*
-aPrincipal
 )
 {
 java

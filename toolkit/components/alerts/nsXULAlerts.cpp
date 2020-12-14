@@ -2223,9 +2223,6 @@ const
 nsAString
 &
 aAlertName
-nsIPrincipal
-*
-aPrincipal
 )
 {
 mozIDOMWindowProxy

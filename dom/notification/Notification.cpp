@@ -10515,9 +10515,6 @@ alertService
 CloseAlert
 (
 alertName
-GetPrincipal
-(
-)
 )
 ;
 }
