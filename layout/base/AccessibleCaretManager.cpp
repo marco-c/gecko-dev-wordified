@@ -5134,8 +5134,10 @@ aFrame
 )
 const
 {
+RefPtr
+<
 nsFocusManager
-*
+>
 fm
 =
 nsFocusManager
