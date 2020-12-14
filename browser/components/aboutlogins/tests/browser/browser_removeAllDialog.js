@@ -813,6 +813,8 @@ dialog
 confirm
 -
 button
+-
+label
 "
 "
 Remove
@@ -1940,6 +1942,8 @@ dialog
 confirm
 -
 button
+-
+label
 "
 "
 Remove

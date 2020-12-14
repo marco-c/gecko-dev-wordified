@@ -664,6 +664,9 @@ this
 .
 _confirmButton
 confirmButtonLabel
+{
+count
+}
 )
 ;
 document
