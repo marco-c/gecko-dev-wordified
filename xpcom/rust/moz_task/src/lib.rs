@@ -109,10 +109,6 @@ tasks
 to
 threads
 .
-#
-[
-macro_use
-]
 extern
 crate
 cstr
