@@ -8827,7 +8827,7 @@ insecure_fallback_hosts
 Changes
 to
 the
-whitelist
+allowlist
 on
 the
 public

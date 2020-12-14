@@ -639,8 +639,6 @@ NetscapeStepUpPolicy
 netscapeStepUpPolicy
 CertificateTransparencyMode
 ctMode
-DistrustedCAPolicy
-distrustedCAPolicy
 CRLiteMode
 crliteMode
 uint64_t
@@ -696,10 +694,6 @@ netscapeStepUpPolicy
 mCTMode
 (
 ctMode
-)
-mDistrustedCAPolicy
-(
-distrustedCAPolicy
 )
 mCRLiteMode
 (
@@ -3672,7 +3666,6 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-mDistrustedCAPolicy
 mCRLiteMode
 mCRLiteCTMergeDelaySeconds
 originAttributes
@@ -4121,7 +4114,6 @@ sha1ModeConfigurations
 i
 ]
 mNetscapeStepUpPolicy
-mDistrustedCAPolicy
 mCRLiteMode
 mCRLiteCTMergeDelaySeconds
 originAttributes
@@ -4617,7 +4609,6 @@ sha1ModeConfigurations
 j
 ]
 mNetscapeStepUpPolicy
-mDistrustedCAPolicy
 mCRLiteMode
 mCRLiteCTMergeDelaySeconds
 originAttributes
@@ -5020,7 +5011,6 @@ SHA1Mode
 :
 Allowed
 mNetscapeStepUpPolicy
-mDistrustedCAPolicy
 mCRLiteMode
 mCRLiteCTMergeDelaySeconds
 originAttributes
@@ -5089,7 +5079,6 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-mDistrustedCAPolicy
 mCRLiteMode
 mCRLiteCTMergeDelaySeconds
 originAttributes
@@ -5239,7 +5228,6 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
-mDistrustedCAPolicy
 mCRLiteMode
 mCRLiteCTMergeDelaySeconds
 originAttributes

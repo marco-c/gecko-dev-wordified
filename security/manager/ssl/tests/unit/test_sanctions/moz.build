@@ -113,7 +113,7 @@ ee
 -
 from
 -
-whitelist
+allowlist
 -
 after
 -
@@ -129,7 +129,7 @@ ee
 -
 from
 -
-whitelist
+allowlist
 -
 before
 -
@@ -145,7 +145,7 @@ ee
 -
 not
 -
-whitelisted
+allowlisted
 -
 after
 -
@@ -161,7 +161,7 @@ ee
 -
 not
 -
-whitelisted
+allowlisted
 -
 before
 -
@@ -197,7 +197,7 @@ symantec
 -
 intermediate
 -
-whitelisted
+allowlisted
 .
 pem
 '

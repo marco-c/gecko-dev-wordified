@@ -1055,8 +1055,6 @@ SHA1Mode
 sha1Mode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
-DistrustedCAPolicy
-distrustedCAPolicy
 CRLiteMode
 crliteMode
 uint64_t
@@ -1879,9 +1877,6 @@ mSHA1Mode
 ;
 NetscapeStepUpPolicy
 mNetscapeStepUpPolicy
-;
-DistrustedCAPolicy
-mDistrustedCAPolicy
 ;
 CRLiteMode
 mCRLiteMode
