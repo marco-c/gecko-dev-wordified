@@ -4403,12 +4403,6 @@ JSOp
 :
 GetProp
 :
-case
-JSOp
-:
-:
-Length
-:
 if
 (
 !

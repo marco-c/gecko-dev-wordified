@@ -9192,12 +9192,6 @@ case
 JSOp
 :
 :
-Length
-:
-case
-JSOp
-:
-:
 Not
 :
 case
