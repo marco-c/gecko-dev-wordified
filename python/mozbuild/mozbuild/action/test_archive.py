@@ -197,10 +197,6 @@ DelegatedCredentialsServer
 "
     
 "
-EncryptedClientHelloServer
-"
-    
-"
 GenerateOCSPResponse
 "
     

@@ -3811,10 +3811,6 @@ DelegatedCredentialsServer
 "
             
 "
-EncryptedClientHelloServer
-"
-            
-"
 OCSPStaplingServer
 "
             

@@ -4340,15 +4340,6 @@ channelInfo
 .
 peerDelegCred
 ;
-infoObject
--
->
-mIsAcceptedEch
-=
-channelInfo
-.
-echAccepted
-;
 if
 (
 infoObject

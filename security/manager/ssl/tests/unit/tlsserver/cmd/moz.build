@@ -95,9 +95,6 @@ BadCertAndPinningServer
 DelegatedCredentialsServer
 "
 "
-EncryptedClientHelloServer
-"
-"
 GenerateOCSPResponse
 "
 "
