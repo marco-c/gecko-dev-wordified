@@ -145,7 +145,7 @@ For
 more
 details
 see
-http
+https
 :
 /
 /
@@ -155,10 +155,11 @@ org
 /
 id3v2
 .
-3
+4
 .
 0
-.
+-
+structure
 class
 ID3Parser
 {
