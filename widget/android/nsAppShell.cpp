@@ -1522,6 +1522,7 @@ nsIAppStartup
 :
 :
 eForceQuit
+0
 &
 userAllowedQuit
 )

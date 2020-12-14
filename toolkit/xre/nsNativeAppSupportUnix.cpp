@@ -1538,6 +1538,7 @@ nsIAppStartup
 :
 :
 eForceQuit
+0
 &
 userAllowedQuit
 )
@@ -2105,6 +2106,7 @@ nsIAppStartup
 :
 :
 eForceQuit
+0
 &
 userAllowedQuit
 )
