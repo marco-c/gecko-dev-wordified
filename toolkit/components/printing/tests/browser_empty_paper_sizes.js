@@ -110,8 +110,12 @@ helper
 .
 addMockPrinter
 (
+{
+name
+:
 mockPrinterName
 paperList
+}
 )
 ;
 await
