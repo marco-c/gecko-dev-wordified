@@ -301,6 +301,11 @@ CatchCode
 0x07
 ;
 const
+ThrowCode
+=
+0x08
+;
+const
 EndCode
 =
 0x0b
