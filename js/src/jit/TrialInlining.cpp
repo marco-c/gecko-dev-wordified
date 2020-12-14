@@ -634,10 +634,6 @@ cx
 )
 writer
 kind
-BaselineCacheIRStubKind
-:
-:
-Regular
 script_
 icScript_
 fallback
