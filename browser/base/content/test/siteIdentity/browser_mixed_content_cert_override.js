@@ -160,9 +160,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 {
 icon
