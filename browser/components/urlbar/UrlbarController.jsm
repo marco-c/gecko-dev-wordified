@@ -3321,9 +3321,12 @@ resultIndex
 }
 BrowserSearchTelemetry
 .
-recordUrlbarSelectedResultMethod
+recordSearchSuggestionSelectionMethod
 (
 event
+"
+urlbar
+"
 selectedResult
 this
 .
