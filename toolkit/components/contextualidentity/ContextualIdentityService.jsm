@@ -1326,7 +1326,7 @@ object
 return
 IOUtils
 .
-writeAtomic
+write
 (
 this
 .

@@ -474,7 +474,7 @@ file
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 TEST_STORE_FILE_PATH
 "

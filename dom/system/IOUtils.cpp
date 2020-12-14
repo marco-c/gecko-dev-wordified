@@ -1618,7 +1618,7 @@ Promise
 IOUtils
 :
 :
-WriteAtomic
+Write
 (
 GlobalObject
 &
@@ -1632,7 +1632,7 @@ Uint8Array
 &
 aData
 const
-WriteAtomicOptions
+WriteOptions
 &
 aOptions
 )
@@ -1759,7 +1759,7 @@ forget
 auto
 opts
 =
-InternalWriteAtomicOpts
+InternalWriteOpts
 :
 :
 FromBinding
@@ -1832,7 +1832,7 @@ unwrap
 )
 {
 return
-WriteAtomicSync
+WriteSync
 (
 file
 buf
@@ -1862,7 +1862,7 @@ Promise
 IOUtils
 :
 :
-WriteAtomicUTF8
+WriteUTF8
 (
 GlobalObject
 &
@@ -1876,7 +1876,7 @@ nsAString
 &
 aString
 const
-WriteAtomicOptions
+WriteOptions
 &
 aOptions
 )
@@ -1976,7 +1976,7 @@ forget
 auto
 opts
 =
-InternalWriteAtomicOpts
+InternalWriteOpts
 :
 :
 FromBinding
@@ -2048,7 +2048,7 @@ unwrap
 )
 {
 return
-WriteAtomicUTF8Sync
+WriteUTF8Sync
 (
 file
 utf8Str
@@ -4946,7 +4946,7 @@ IOError
 IOUtils
 :
 :
-WriteAtomicSync
+WriteSync
 (
 nsIFile
 *
@@ -4963,7 +4963,7 @@ const
 IOUtils
 :
 :
-InternalWriteAtomicOpts
+InternalWriteOpts
 &
 aOptions
 )
@@ -5881,7 +5881,7 @@ IOError
 IOUtils
 :
 :
-WriteAtomicUTF8Sync
+WriteUTF8Sync
 (
 nsIFile
 *
@@ -5891,7 +5891,7 @@ nsCString
 &
 aUTF8String
 const
-InternalWriteAtomicOpts
+InternalWriteOpts
 &
 aOptions
 )
@@ -5928,7 +5928,7 @@ Length
 )
 ;
 return
-WriteAtomicSync
+WriteSync
 (
 aFile
 utf8Bytes
@@ -9726,7 +9726,7 @@ Result
 IOUtils
 :
 :
-InternalWriteAtomicOpts
+InternalWriteOpts
 IOUtils
 :
 :
@@ -9735,18 +9735,18 @@ IOError
 IOUtils
 :
 :
-InternalWriteAtomicOpts
+InternalWriteOpts
 :
 :
 FromBinding
 (
 const
-WriteAtomicOptions
+WriteOptions
 &
 aOptions
 )
 {
-InternalWriteAtomicOpts
+InternalWriteOpts
 opts
 ;
 opts
