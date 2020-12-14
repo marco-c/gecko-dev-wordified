@@ -4396,16 +4396,6 @@ getTabBrowser
 )
 )
 {
-/
-/
-curBrowser
-holds
-all
-the
-registered
-frames
-in
-knownFrames
 this
 .
 curBrowser
