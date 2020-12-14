@@ -663,7 +663,7 @@ event
 .
 data
 .
-result
+message
 )
 )
 ;
