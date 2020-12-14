@@ -1430,15 +1430,7 @@ html
 ;
 }
 )
-.
-skip
-(
-)
 ;
-/
-/
-Bug
-1681026
 add_task
 (
 async
