@@ -5299,7 +5299,7 @@ js
 gc
 :
 :
-TenuredHeap
+DefaultHeap
 )
 ;
 if
@@ -10136,7 +10136,7 @@ js
 gc
 :
 :
-TenuredHeap
+DefaultHeap
 )
 ;
 if
@@ -10736,7 +10736,7 @@ js
 gc
 :
 :
-TenuredHeap
+DefaultHeap
 )
 ;
 if
