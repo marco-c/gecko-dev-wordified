@@ -2672,7 +2672,15 @@ I64
 global
 -
 >
-value
+val
+(
+)
+.
+get
+(
+)
+.
+toJSValue
 (
 gCx
 &
