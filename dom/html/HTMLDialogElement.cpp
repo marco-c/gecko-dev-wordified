@@ -446,6 +446,11 @@ RemoveFromTopLayerIfNeeded
 (
 )
 ;
+RemoveStates
+(
+NS_EVENT_STATE_MODAL_DIALOG
+)
+;
 RefPtr
 <
 AsyncEventDispatcher
@@ -643,11 +648,6 @@ removedElement
 =
 =
 this
-)
-;
-RemoveStates
-(
-NS_EVENT_STATE_MODAL_DIALOG
 )
 ;
 doc
