@@ -242,28 +242,45 @@ tests
 }
         
 #
-Message
-dictionary
+Two
+dictionaries
 keyed
 by
 test
 name
 .
-Value
-is
-a
-list
+Values
+are
+lists
 of
 strings
 :
         
 #
-see
+actual
+metadata
+content
+and
+other
+messages
+respectively
+.
+        
+#
+See
 _append_test_message
 for
-the
-format
+examples
 .
+        
+self
+.
+actual_metadata
+=
+defaultdict
+(
+list
+)
         
 self
 .
@@ -303,9 +320,46 @@ under
 execution
 .
         
+#
+These
+logs
+are
+from
+ChromeDriver
+'
+s
+stdout
+/
+err
+so
+we
+cannot
+say
+for
+        
+#
+sure
+which
+test
+a
+message
+is
+from
+but
+instead
+we
+correlate
+them
+based
+        
+#
+on
+timing
+.
+        
 self
 .
-test_log
+browser_log
 =
 [
 ]
@@ -321,6 +375,7 @@ message
 )
 :
         
+r
 "
 "
 "
@@ -404,30 +459,41 @@ this
 test
         
 Example
+actual_metadata
+of
+a
+test
+with
+a
+subtest
 :
-          
-[
-test_or_subtest_name
-]
             
+"
+[
+test_name
+]
+\
+n
+expected
+:
+OK
+\
+n
+"
+            
+"
+[
+subtest_name
+]
+\
+n
 expected
 :
 FAIL
-            
-message
-:
-some
-test
-message
-eg
-assert
-failure
-        
-"
-"
+\
+n
 "
         
-#
 NOTE
 :
 throughout
@@ -443,7 +509,6 @@ expected
 "
 but
         
-#
 fill
 it
 in
@@ -462,7 +527,6 @@ goal
 of
 this
         
-#
 output
 is
 to
@@ -478,7 +542,6 @@ so
 that
 it
         
-#
 can
 be
 easily
@@ -486,6 +549,23 @@ diff
 -
 ed
 .
+        
+Messages
+are
+appended
+verbatim
+to
+self
+.
+messages
+[
+test
+]
+.
+        
+"
+"
+"
         
 if
 subtest
@@ -513,24 +593,22 @@ subtest
 wpt_actual_status
 )
             
+self
+.
+actual_metadata
+[
+test
+]
+.
+append
+(
+result
+)
+            
 if
 message
 :
                 
-result
-+
-=
-"
-message
-:
-%
-s
-\
-n
-"
-%
-message
-            
 self
 .
 messages
@@ -540,7 +618,20 @@ test
 .
 append
 (
-result
+"
+%
+s
+:
+%
+s
+\
+n
+"
+%
+(
+subtest
+message
+)
 )
         
 else
@@ -568,22 +659,13 @@ prepended
 to
 the
 list
-of
-messages
 so
 that
-the
-message
-for
-the
-            
-#
-test
+it
 comes
 before
 any
 subtest
-messages
 .
             
 test_name_last_part
@@ -623,24 +705,23 @@ test_name_last_part
 wpt_actual_status
 )
             
+self
+.
+actual_metadata
+[
+test
+]
+.
+insert
+(
+0
+result
+)
+            
 if
 message
 :
                 
-result
-+
-=
-"
-message
-:
-%
-s
-\
-n
-"
-%
-message
-            
 self
 .
 messages
@@ -651,7 +732,16 @@ test
 insert
 (
 0
-result
+"
+Harness
+:
+%
+s
+\
+n
+"
+%
+message
 )
     
 def
@@ -778,11 +868,15 @@ self
 name
 actual
 expected
+actual_metadata
+                           
 messages
 wpt_actual
-                           
 subtest_failure
+                           
 reftest_screenshots
+=
+None
 )
 :
         
@@ -837,6 +931,18 @@ statuses
 of
 the
 test
+.
+        
+:
+param
+list
+actual_metadata
+:
+a
+list
+of
+metadata
+items
 .
         
 :
@@ -1052,7 +1158,7 @@ line
 in
 self
 .
-test_log
+browser_log
 :
                 
 self
@@ -1067,6 +1173,23 @@ line
 )
         
 for
+metadata
+in
+actual_metadata
+:
+            
+self
+.
+_append_artifact
+(
+cur_dict
+"
+wpt_actual_metadata
+"
+metadata
+)
+        
+for
 message
 in
 messages
@@ -1078,7 +1201,7 @@ _append_artifact
 (
 cur_dict
 "
-log
+wpt_log
 "
 message
 )
@@ -2091,6 +2214,13 @@ expected_statuses
                                 
 self
 .
+actual_metadata
+[
+test_name
+]
+                                
+self
+.
 messages
 [
 test_name
@@ -2124,14 +2254,22 @@ Remove
 the
 test
 from
-messages
-dict
+dicts
 to
 avoid
 accumulating
 too
 many
 .
+        
+self
+.
+actual_metadata
+.
+pop
+(
+test_name
+)
         
 self
 .
@@ -2176,7 +2314,7 @@ logs
         
 self
 .
-test_log
+browser_log
 =
 [
 ]
@@ -2297,7 +2435,7 @@ command
             
 self
 .
-test_log
+browser_log
 .
 append
 (
