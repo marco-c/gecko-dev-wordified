@@ -9192,12 +9192,6 @@ case
 JSOp
 :
 :
-CallElem
-:
-case
-JSOp
-:
-:
 Length
 :
 case

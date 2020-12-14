@@ -3755,15 +3755,6 @@ JSOp
 :
 :
 GetElem
-|
-|
-op
-=
-=
-JSOp
-:
-:
-CallElem
 ;
 }
 inline
