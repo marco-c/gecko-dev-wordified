@@ -4137,11 +4137,13 @@ false
 if
 (
 !
-compilationInfo
-.
+CompilationInfo
+:
+:
 instantiateStencils
 (
 cx
+compilationInfo
 gcOutput
 )
 )
