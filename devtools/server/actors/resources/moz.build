@@ -159,6 +159,11 @@ messages
 js
 "
 "
+sources
+.
+js
+"
+"
 storage
 -
 local
