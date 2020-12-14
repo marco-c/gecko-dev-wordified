@@ -89,6 +89,13 @@ h
 #
 include
 "
+nsTouchBar
+.
+h
+"
+#
+include
+"
 nsTouchBarInputIcon
 .
 h
@@ -1304,7 +1311,7 @@ identifier
 identifier
 =
 [
-BaseIdentifier
+kTouchBarBaseIdentifier
 stringByAppendingPathExtension
 :
 aType
