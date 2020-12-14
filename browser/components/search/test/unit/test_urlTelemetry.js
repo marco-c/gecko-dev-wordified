@@ -86,7 +86,7 @@ NetUtil
 .
 jsm
 "
-SearchTelemetry
+SearchSERPTelemetry
 :
 "
 resource
@@ -96,7 +96,7 @@ resource
 /
 modules
 /
-SearchTelemetry
+SearchSERPTelemetry
 .
 jsm
 "
@@ -1976,7 +1976,7 @@ true
 }
 )
 ;
-SearchTelemetry
+SearchSERPTelemetry
 .
 _contentHandler
 .
@@ -2132,7 +2132,7 @@ true
 )
 ;
 await
-SearchTelemetry
+SearchSERPTelemetry
 .
 init
 (
@@ -2196,7 +2196,7 @@ setUp
 )
 ;
 }
-SearchTelemetry
+SearchSERPTelemetry
 .
 updateTrackingStatus
 (

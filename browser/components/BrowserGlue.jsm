@@ -910,7 +910,7 @@ SaveToPocket
 .
 jsm
 "
-SearchTelemetry
+SearchSERPTelemetry
 :
 "
 resource
@@ -920,7 +920,7 @@ resource
 /
 modules
 /
-SearchTelemetry
+SearchSERPTelemetry
 .
 jsm
 "
@@ -3780,7 +3780,7 @@ accessibility
 blockautorefresh
 "
 }
-SearchTelemetry
+SearchSERPTelemetry
 :
 {
 parent
@@ -3796,7 +3796,7 @@ resource
 /
 actors
 /
-SearchTelemetryParent
+SearchSERPTelemetryParent
 .
 jsm
 "
@@ -3814,7 +3814,7 @@ resource
 /
 actors
 /
-SearchTelemetryChild
+SearchSERPTelemetryChild
 .
 jsm
 "
@@ -12519,7 +12519,7 @@ uninit
 (
 )
 ;
-SearchTelemetry
+SearchSERPTelemetry
 .
 uninit
 (
@@ -13726,7 +13726,7 @@ init
 (
 )
 ;
-SearchTelemetry
+SearchSERPTelemetry
 .
 init
 (

@@ -66,7 +66,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-SearchTelemetryChild
+SearchSERPTelemetryChild
 "
 "
 ADLINK_CHECK_TIMEOUT_MS
@@ -600,7 +600,7 @@ given
 *
 /
 class
-SearchTelemetryChild
+SearchSERPTelemetryChild
 extends
 JSWindowActorChild
 {

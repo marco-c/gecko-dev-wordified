@@ -105,7 +105,7 @@ defineLazyModuleGetters
 (
 this
 {
-SearchTelemetry
+SearchSERPTelemetry
 :
 "
 resource
@@ -115,7 +115,7 @@ resource
 /
 modules
 /
-SearchTelemetry
+SearchSERPTelemetry
 .
 jsm
 "
@@ -7629,7 +7629,7 @@ our
 test
 engine
 .
-SearchTelemetry
+SearchSERPTelemetry
 .
 overrideSearchTelemetryForTests
 (
@@ -8645,7 +8645,7 @@ search
 provider
 info
 .
-SearchTelemetry
+SearchSERPTelemetry
 .
 overrideSearchTelemetryForTests
 (

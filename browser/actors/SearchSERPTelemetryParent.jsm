@@ -66,7 +66,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-SearchTelemetryParent
+SearchSERPTelemetryParent
 "
 ]
 ;
@@ -76,7 +76,7 @@ defineModuleGetter
 (
 this
 "
-SearchTelemetry
+SearchSERPTelemetry
 "
 "
 resource
@@ -86,14 +86,14 @@ resource
 /
 modules
 /
-SearchTelemetry
+SearchSERPTelemetry
 .
 jsm
 "
 )
 ;
 class
-SearchTelemetryParent
+SearchSERPTelemetryParent
 extends
 JSWindowActorParent
 {
@@ -116,7 +116,7 @@ PageInfo
 "
 )
 {
-SearchTelemetry
+SearchSERPTelemetry
 .
 reportPageWithAds
 (
