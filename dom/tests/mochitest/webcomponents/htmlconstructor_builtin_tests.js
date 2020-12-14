@@ -557,14 +557,6 @@ Menu
 ]
 [
 "
-menuitem
-"
-"
-MenuItem
-"
-]
-[
-"
 meta
 "
 "
