@@ -1111,6 +1111,15 @@ aStacks
 )
 ;
 void
+Merge
+(
+UntrustedModulesData
+&
+&
+aNewData
+)
+;
+void
 Swap
 (
 UntrustedModulesData

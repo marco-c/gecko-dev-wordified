@@ -546,6 +546,13 @@ cpp
 "
 other
 /
+UntrustedModulesBackupService
+.
+cpp
+"
+"
+other
+/
 UntrustedModulesDataSerializer
 .
 cpp
