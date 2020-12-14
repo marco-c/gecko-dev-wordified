@@ -960,7 +960,7 @@ Address
 enteredCount
 (
 ICStubReg
-ICCacheIR_Regular
+ICCacheIRStub
 :
 :
 offsetOfEnteredCount
@@ -13491,7 +13491,7 @@ iter
 iter
 -
 >
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 -
@@ -13693,7 +13693,7 @@ stubDataOffset
 =
 sizeof
 (
-ICCacheIR_Regular
+ICCacheIRStub
 )
 ;
 JitZone
@@ -14064,7 +14064,7 @@ otherStub
 iter
 -
 >
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 ;
@@ -14357,7 +14357,7 @@ new
 (
 newStubMem
 )
-ICCacheIR_Regular
+ICCacheIRStub
 (
 code
 stubInfo
@@ -14394,7 +14394,7 @@ newStub
 }
 uint8_t
 *
-ICCacheIR_Regular
+ICCacheIRStub
 :
 :
 stubDataStart

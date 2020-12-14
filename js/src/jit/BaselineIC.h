@@ -1244,6 +1244,9 @@ class
 ICStub
 ;
 class
+ICCacheIRStub
+;
+class
 ICFallbackStub
 ;
 #
@@ -2635,9 +2638,9 @@ this
 )
 ;
 }
-ICCacheIR_Regular
+ICCacheIRStub
 *
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 {
@@ -2652,7 +2655,7 @@ isFallback
 return
 reinterpret_cast
 <
-ICCacheIR_Regular
+ICCacheIRStub
 *
 >
 (
@@ -2661,9 +2664,9 @@ this
 ;
 }
 const
-ICCacheIR_Regular
+ICCacheIRStub
 *
-toCacheIR_Regular
+toCacheIRStub
 (
 )
 const
@@ -2680,7 +2683,7 @@ return
 reinterpret_cast
 <
 const
-ICCacheIR_Regular
+ICCacheIRStub
 *
 >
 (
@@ -3944,7 +3947,7 @@ enteredCount_
 }
 ;
 class
-ICCacheIR_Regular
+ICCacheIRStub
 :
 public
 ICStub
@@ -3997,7 +4000,7 @@ enteredCount_
 ;
 public
 :
-ICCacheIR_Regular
+ICCacheIRStub
 (
 JitCode
 *
@@ -4094,7 +4097,7 @@ offsetOfEnteredCount
 return
 offsetof
 (
-ICCacheIR_Regular
+ICCacheIRStub
 enteredCount_
 )
 ;
