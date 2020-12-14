@@ -6332,6 +6332,8 @@ label
 +
 value
 .
+private
+:
 struct
 DynamicData
 {
@@ -6396,6 +6398,9 @@ DynamicData
 StaticData
 >
 ;
+using
+DataRowVector
+=
 std
 :
 :
@@ -6403,6 +6408,8 @@ vector
 <
 DataRow
 >
+;
+DataRowVector
 mData
 ;
 }
