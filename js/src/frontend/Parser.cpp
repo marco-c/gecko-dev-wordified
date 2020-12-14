@@ -10628,6 +10628,19 @@ MOZ_ASSERT
 checkOptionsCalled_
 )
 ;
+this
+-
+>
+compilationInfo_
+.
+stencil
+.
+moduleMetadata
+.
+emplace
+(
+)
+;
 SourceParseContext
 modulepc
 (
@@ -10912,6 +10925,7 @@ builder
 .
 noteAsync
 (
+*
 this
 -
 >
@@ -10946,6 +10960,7 @@ builder
 .
 buildTables
 (
+*
 this
 -
 >
@@ -10981,6 +10996,7 @@ StencilModuleMetadata
 &
 moduleMetadata
 =
+*
 this
 -
 >

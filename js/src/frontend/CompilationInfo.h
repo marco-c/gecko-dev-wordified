@@ -1720,7 +1720,13 @@ a
 module
 compile
 .
+mozilla
+:
+:
+Maybe
+<
 StencilModuleMetadata
+>
 moduleMetadata
 ;
 /
