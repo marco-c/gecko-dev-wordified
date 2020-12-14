@@ -18055,7 +18055,7 @@ logowordmark
 .
 alwaysVisible
 "
-true
+false
 )
 ;
 /
