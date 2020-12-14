@@ -250,10 +250,9 @@ r
 {
 content
 .
-setTimeout
-(
+onpopstate
+=
 r
-)
 ;
 }
 )
