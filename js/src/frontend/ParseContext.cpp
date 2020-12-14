@@ -4677,6 +4677,10 @@ DeclaredNameInfo
 :
 :
 npos
+ClosedOver
+:
+:
+Yes
 )
 ;
 }
