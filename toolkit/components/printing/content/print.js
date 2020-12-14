@@ -121,6 +121,12 @@ jsm
 const
 INPUT_DELAY_MS
 =
+Cu
+.
+isInAutomation
+?
+100
+:
 500
 ;
 const
