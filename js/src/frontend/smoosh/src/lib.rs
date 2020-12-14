@@ -1817,10 +1817,6 @@ fun_length
 :
 u16
 pub
-num_bytecode_type_sets
-:
-u32
-pub
 bytecode
 :
 CVec
@@ -2683,13 +2679,6 @@ script_data
 fun_length
 ;
 let
-num_bytecode_type_sets
-=
-script_data
-.
-num_bytecode_type_sets
-;
-let
 bytecode
 =
 CVec
@@ -2743,7 +2732,6 @@ nslots
 body_scope_index
 num_ic_entries
 fun_length
-num_bytecode_type_sets
 bytecode
 scope_notes
 }
