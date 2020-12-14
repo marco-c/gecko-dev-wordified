@@ -13001,8 +13001,6 @@ aDirection
 ErrorResult
 &
 aRv
-ScrollAfterSelection
-aScroll
 )
 {
 MOZ_ASSERT
@@ -13189,13 +13187,7 @@ return
 }
 if
 (
-aScroll
-=
-=
-ScrollAfterSelection
-:
-:
-Yes
+mBoundFrame
 )
 {
 mBoundFrame
@@ -13984,8 +13976,6 @@ aDirection
 ErrorResult
 &
 aRv
-ScrollAfterSelection
-aScroll
 )
 {
 nsITextControlFrame
@@ -14005,7 +13995,6 @@ aSelectionStart
 aSelectionEnd
 dir
 aRv
-aScroll
 )
 ;
 /
