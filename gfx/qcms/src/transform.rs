@@ -286,7 +286,7 @@ crate
 chain
 :
 :
-qcms_chain_transform
+chain_transform
 double_to_s15Fixed16Number
 iccread
 :
@@ -12131,7 +12131,7 @@ lut
 =
 unsafe
 {
-qcms_chain_transform
+chain_transform
 (
 in_0
 out
