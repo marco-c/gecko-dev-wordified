@@ -96,6 +96,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 altivec
 .
 h
