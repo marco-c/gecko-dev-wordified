@@ -433,6 +433,7 @@ destroy
 =
 >
 void
+;
 getSupportedFeatures
 :
 (
@@ -445,6 +446,7 @@ string
 [
 ]
 >
+;
 }
 /
 *
@@ -860,6 +862,7 @@ promptEnvRestart
 null
 |
 string
+;
 }
 export
 type
@@ -1099,6 +1102,7 @@ Array
 debugName
 :
 string
+;
 breakpadId
 :
 string
@@ -1551,6 +1555,7 @@ supportedFeatures
 string
 [
 ]
+;
 /
 /
 Allow
@@ -1588,6 +1593,7 @@ openAboutProfiling
 =
 >
 void
+;
 /
 /
 Allow
@@ -1611,6 +1617,7 @@ openRemoteDevTools
 =
 >
 void
+;
 }
 /
 *
@@ -1735,6 +1742,7 @@ promptEnvRestart
 string
 |
 null
+;
 }
 |
 {
@@ -1802,6 +1810,7 @@ openAboutProfiling
 =
 >
 void
+;
 openRemoteDevTools
 ?
 :
@@ -1810,6 +1819,7 @@ openRemoteDevTools
 =
 >
 void
+;
 recordingSettingsFromPreferences
 :
 RecordingStateFromPreferences
@@ -2684,12 +2694,15 @@ ScaleFunctions
 fromFractionToValue
 :
 NumberScaler
+;
 fromValueToFraction
 :
 NumberScaler
+;
 fromFractionToSingleDigitValue
 :
 NumberScaler
+;
 }
 export
 interface
@@ -2806,6 +2819,7 @@ requestId
 number
 ;
 }
+;
 /
 *
 *
@@ -2992,6 +3006,7 @@ UI
 name
 :
 string
+;
 /
 /
 The
@@ -3018,6 +3033,7 @@ interface
 value
 :
 string
+;
 /
 /
 The
@@ -3036,6 +3052,7 @@ localized
 title
 :
 string
+;
 /
 /
 This
@@ -3056,6 +3073,7 @@ recommended
 ?
 :
 boolean
+;
 /
 /
 This
@@ -3077,6 +3095,7 @@ experimental
 ?
 :
 boolean
+;
 /
 /
 This
@@ -3094,4 +3113,5 @@ disabledReason
 ?
 :
 string
+;
 }
