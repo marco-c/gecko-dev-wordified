@@ -552,6 +552,11 @@ by
 generate_static_pref_list
 .
 py
+from
+(
+string
+input
+)
 .
 DO
 NOT
@@ -600,6 +605,11 @@ by
 generate_static_pref_list
 .
 py
+from
+(
+string
+input
+)
 .
 DO
 NOT
@@ -653,6 +663,11 @@ by
 generate_static_pref_list
 .
 py
+from
+(
+string
+input
+)
 .
 DO
 NOT
@@ -827,6 +842,11 @@ by
 generate_static_pref_list
 .
 py
+from
+(
+string
+input
+)
 .
 DO
 NOT
@@ -879,6 +899,11 @@ by
 generate_static_pref_list
 .
 py
+from
+(
+string
+input
+)
 .
 DO
 NOT
@@ -969,6 +994,11 @@ by
 generate_static_pref_list
 .
 py
+from
+(
+string
+input
+)
 .
 DO
 NOT
@@ -1065,6 +1095,11 @@ by
 generate_static_pref_list
 .
 py
+from
+(
+string
+input
+)
 .
 DO
 NOT
@@ -2181,6 +2216,12 @@ code
 generate_code
 (
 pref_list
+"
+(
+string
+input
+)
+"
 )
         
 self
@@ -2397,6 +2438,11 @@ inp
 generate_code
 (
 pref_list
+"
+(
+string
+input
+"
 )
                 
 self
