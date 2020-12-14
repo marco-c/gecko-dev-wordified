@@ -1166,6 +1166,13 @@ the
 backfill
 action
     
+th_info
+[
+"
+symbol
+"
+]
+=
 add_backfill_suffix
 (
         
@@ -1214,8 +1221,16 @@ backfilled
 tasks
 together
         
+th_info
+[
+"
+groupSymbol
+"
+]
+=
 add_backfill_suffix
 (
+            
 GROUP_SYMBOL_REGEX
 th_info
 [
@@ -1227,6 +1242,7 @@ groupSymbol
 -
 bk
 "
+        
 )
     
 task
