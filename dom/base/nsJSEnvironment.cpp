@@ -9280,7 +9280,7 @@ JS
 GCReason
 :
 :
-CC_WAITING
+CC_FINISHED
 nullptr
 StaticPrefs
 :
@@ -10952,7 +10952,7 @@ JS
 GCReason
 :
 :
-CC_WAITING
+CC_FINISHED
 )
 {
 sScheduler
