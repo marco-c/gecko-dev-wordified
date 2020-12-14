@@ -259,8 +259,6 @@ gAboutTabCrashedPages
 set
 (
 this
-this
-.
 browser
 )
 ;
