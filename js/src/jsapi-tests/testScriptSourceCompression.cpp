@@ -3765,6 +3765,8 @@ JS
 OffThreadToken
 *
 token
+=
+nullptr
 ;
 /
 /
