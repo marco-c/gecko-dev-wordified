@@ -2217,14 +2217,7 @@ VALUE_OR_RVAL
 CAN_SKIP
 /
 /
-Not
-#
-VALUE_OR_RVAL
-!
-CAN_SKIP
-/
-/
-IfEq
+IfNe
 END
 #
 VALUE
