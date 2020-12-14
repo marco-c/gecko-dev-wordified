@@ -1041,6 +1041,11 @@ privateClassMethods
 =
 false
 ;
+bool
+topLevelAwait
+=
+false
+;
 /
 /
 True
