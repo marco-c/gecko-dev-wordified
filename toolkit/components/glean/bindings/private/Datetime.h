@@ -419,8 +419,8 @@ nsCString
 TestGetValue
 (
 const
-char
-*
+nsACString
+&
 aStorageName
 )
 const
@@ -431,6 +431,7 @@ if
 fog_datetime_test_has_value
 (
 mId
+&
 aStorageName
 )
 )
@@ -447,6 +448,7 @@ ret
 fog_datetime_test_get_value
 (
 mId
+&
 aStorageName
 &
 ret

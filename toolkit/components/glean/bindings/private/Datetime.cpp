@@ -255,14 +255,7 @@ mDatetime
 .
 TestGetValue
 (
-PromiseFlatCString
-(
 aStorageName
-)
-.
-get
-(
-)
 )
 ;
 if
