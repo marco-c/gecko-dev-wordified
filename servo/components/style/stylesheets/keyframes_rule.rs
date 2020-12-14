@@ -240,6 +240,7 @@ cssparser
 parse_one_rule
 DeclarationListParser
 DeclarationParser
+ParserState
 SourceLocation
 Token
 }
@@ -3605,9 +3606,10 @@ Self
 :
 :
 Prelude
-source_location
+start
 :
-SourceLocation
+&
+ParserState
 input
 :
 &
@@ -3844,6 +3846,12 @@ block
 )
 )
 source_location
+:
+start
+.
+source_location
+(
+)
 }
 )
 )
