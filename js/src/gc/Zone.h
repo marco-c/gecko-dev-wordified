@@ -2924,9 +2924,6 @@ CodeSizes
 code
 size_t
 *
-typePool
-size_t
-*
 regexpZone
 size_t
 *
