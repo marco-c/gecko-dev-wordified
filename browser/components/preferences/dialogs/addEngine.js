@@ -370,6 +370,7 @@ value
 let
 engine
 =
+await
 Services
 .
 search

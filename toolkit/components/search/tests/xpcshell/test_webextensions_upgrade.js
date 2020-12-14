@@ -214,6 +214,7 @@ extension
 let
 engine
 =
+await
 Services
 .
 search
@@ -249,6 +250,7 @@ testing
 ;
 engine
 =
+await
 Services
 .
 search
@@ -389,6 +391,7 @@ promiseChanged
 ;
 engine
 =
+await
 Services
 .
 search

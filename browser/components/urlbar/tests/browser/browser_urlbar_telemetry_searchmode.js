@@ -2405,6 +2405,7 @@ search
 (
 value
 {
+searchEngine
 searchModeEntry
 :
 "

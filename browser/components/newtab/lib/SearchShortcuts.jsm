@@ -508,6 +508,7 @@ in
 bug
 1643523
 .
+async
 function
 getSearchFormURL
 (
@@ -517,6 +518,7 @@ keyword
 const
 engine
 =
+await
 Services
 .
 search

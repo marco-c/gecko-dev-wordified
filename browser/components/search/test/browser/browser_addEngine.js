@@ -399,6 +399,7 @@ iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABGklEQVQoz2NgGB6AnZ1dUlJSXl4eSDIy
 )
 ;
 }
+async
 added
 (
 engine
@@ -453,6 +454,7 @@ getEngineByName
 let
 aEngine
 =
+await
 gSS
 .
 getEngineByAlias

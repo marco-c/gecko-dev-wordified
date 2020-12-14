@@ -343,13 +343,18 @@ searchAlias
 "
 ;
 let
-searchAliases
+searchEngine
 =
 Services
 .
 search
 .
 defaultPrivateEngine
+;
+let
+searchAliases
+=
+searchEngine
 .
 aliases
 ;
@@ -440,6 +445,7 @@ data
 text
 }
 {
+searchEngine
 searchModeEntry
 :
 "
@@ -519,6 +525,7 @@ search
 (
 searchAlias
 {
+searchEngine
 searchModeEntry
 :
 "
