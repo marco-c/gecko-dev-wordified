@@ -2034,6 +2034,19 @@ in
                     
 raise
             
+if
+self
+.
+_sock
+:
+                
+#
+Guard
+against
+unclean
+shutdown
+.
+                
 self
 .
 _sock
@@ -2041,7 +2054,7 @@ _sock
 close
 (
 )
-            
+                
 self
 .
 _sock
