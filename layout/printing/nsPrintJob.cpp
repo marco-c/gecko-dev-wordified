@@ -7105,14 +7105,13 @@ false
 ;
 }
 return
+!
 seqFrame
 -
 >
 GetPagesInFirstSheet
 (
 )
->
-0
 ;
 }
 int32_t
