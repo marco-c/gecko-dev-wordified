@@ -135,7 +135,6 @@ ParseError
 ParseErrorKind
 Parser
 ParserInput
-ParserState
 QualifiedRuleParser
 RuleListParser
 SourceLocation
@@ -8522,10 +8521,9 @@ Vec
 <
 Value
 >
-_
+_location
 :
-&
-ParserState
+SourceLocation
 )
 -
 >
@@ -8566,10 +8564,9 @@ Vec
 <
 Value
 >
-_
+_location
 :
-&
-ParserState
+SourceLocation
 input
 :
 &
@@ -8719,10 +8716,9 @@ Vec
 <
 Value
 >
-_
+_location
 :
-&
-ParserState
+SourceLocation
 input
 :
 &
