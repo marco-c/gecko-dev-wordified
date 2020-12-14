@@ -298,6 +298,15 @@ include
 "
 jit
 /
+SharedICRegisters
+.
+h
+"
+#
+include
+"
+jit
+/
 Simulator
 .
 h
