@@ -429,9 +429,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 chevron
 .
