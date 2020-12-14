@@ -944,8 +944,7 @@ listTabs
 /
 Fetch
 the
-missing
-information
+favicon
 for
 all
 tabs
@@ -964,7 +963,7 @@ descriptorFront
 >
 descriptorFront
 .
-retrieveAsyncFormData
+retrieveFavicon
 (
 )
 )
