@@ -391,6 +391,11 @@ ResetWidgetCache
 void
 )
 ;
+bool
+IsSolidCSDStyleUsed
+(
+)
+;
 void
 StyleContextSetScale
 (
