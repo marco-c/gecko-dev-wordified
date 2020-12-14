@@ -917,6 +917,25 @@ writeUnaryMathFunctionImm
 )
     
 "
+WasmValTypeImm
+"
+:
+(
+"
+wasm
+:
+:
+ValType
+:
+:
+Kind
+"
+"
+writeWasmValTypeImm
+"
+)
+    
+"
 Int32Imm
 "
 :
@@ -2107,6 +2126,31 @@ unaryMathFunction
 )
     
 "
+WasmValTypeImm
+"
+:
+(
+"
+wasm
+:
+:
+ValType
+:
+:
+Kind
+"
+"
+"
+"
+reader
+.
+wasmValType
+(
+)
+"
+)
+    
+"
 Int32Imm
 "
 :
@@ -2810,6 +2854,14 @@ UnaryMathFunctionImm
 :
 "
 spewUnaryMathFunctionImm
+"
+    
+"
+WasmValTypeImm
+"
+:
+"
+spewWasmValTypeImm
 "
     
 "
@@ -3810,6 +3862,12 @@ GuardClassKindImm
     
 "
 JSWhyMagicImm
+"
+:
+1
+    
+"
+WasmValTypeImm
 "
 :
 1
