@@ -117,6 +117,13 @@ Element
 ;
 }
 /
+/
+namespace
+mozilla
+:
+:
+dom
+/
 *
 *
 *
