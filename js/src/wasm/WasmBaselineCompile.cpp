@@ -22422,7 +22422,7 @@ type
 ;
 }
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 (
@@ -39910,7 +39910,7 @@ call
 )
 {
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 =
@@ -39930,7 +39930,7 @@ kind
 )
 !
 =
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 None

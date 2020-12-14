@@ -12537,7 +12537,7 @@ single
 function
 .
 class
-FuncTypeIdDesc
+TypeIdDesc
 ;
 struct
 FuncDesc
@@ -12546,7 +12546,7 @@ FuncType
 *
 type
 ;
-FuncTypeIdDesc
+TypeIdDesc
 *
 typeId
 ;
@@ -12564,7 +12564,7 @@ FuncDesc
 FuncType
 *
 type
-FuncTypeIdDesc
+TypeIdDesc
 *
 typeId
 uint32_t
@@ -14226,7 +14226,7 @@ NameVector
 ;
 /
 /
-FuncTypeIdDesc
+TypeIdDesc
 describes
 a
 function
@@ -14371,7 +14371,7 @@ alignment
 )
 .
 class
-FuncTypeIdDesc
+TypeIdDesc
 {
 public
 :
@@ -14384,15 +14384,15 @@ ImmediateBit
 ;
 private
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 kind_
 ;
 size_t
 bits_
 ;
-FuncTypeIdDesc
+TypeIdDesc
 (
-FuncTypeIdDescKind
+TypeIdDescKind
 kind
 size_t
 bits
@@ -14410,7 +14410,7 @@ bits
 }
 public
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 kind
 (
 )
@@ -14430,13 +14430,13 @@ FuncType
 funcType
 )
 ;
-FuncTypeIdDesc
+TypeIdDesc
 (
 )
 :
 kind_
 (
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 None
@@ -14448,7 +14448,7 @@ bits_
 {
 }
 static
-FuncTypeIdDesc
+TypeIdDesc
 global
 (
 const
@@ -14460,7 +14460,7 @@ globalDataOffset
 )
 ;
 static
-FuncTypeIdDesc
+TypeIdDesc
 immediate
 (
 const
@@ -14479,7 +14479,7 @@ return
 kind_
 =
 =
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Global
@@ -14496,7 +14496,7 @@ MOZ_ASSERT
 kind_
 =
 =
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Immediate
@@ -14517,7 +14517,7 @@ MOZ_ASSERT
 kind_
 =
 =
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Global
@@ -14532,11 +14532,11 @@ bits_
 typedef
 Vector
 <
-FuncTypeIdDesc
+TypeIdDesc
 0
 SystemAllocPolicy
 >
-FuncTypeIdDescVector
+TypeIdDescVector
 ;
 /
 /
@@ -14545,7 +14545,7 @@ pairs
 a
 FuncType
 with
-FuncTypeIdDesc
+TypeIdDesc
 describing
 either
 how
@@ -14586,7 +14586,7 @@ FuncTypeWithId
 :
 FuncType
 {
-FuncTypeIdDesc
+TypeIdDesc
 id
 ;
 FuncTypeWithId
@@ -14625,7 +14625,7 @@ FuncType
 &
 &
 funcType
-FuncTypeIdDesc
+TypeIdDesc
 id
 )
 :
@@ -19608,7 +19608,7 @@ globalDataOffset_
 uint32_t
 minLength_
 ;
-FuncTypeIdDesc
+TypeIdDesc
 funcTypeId_
 ;
 }
@@ -19696,7 +19696,7 @@ const
 TableDesc
 &
 desc
-FuncTypeIdDesc
+TypeIdDesc
 funcTypeId
 )
 {
@@ -19965,7 +19965,7 @@ functionBase
 )
 ;
 }
-FuncTypeIdDesc
+TypeIdDesc
 wasmTableSigId
 (
 )

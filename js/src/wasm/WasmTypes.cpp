@@ -1864,7 +1864,7 @@ static
 *
 /
 bool
-FuncTypeIdDesc
+TypeIdDesc
 :
 :
 isGlobal
@@ -1986,8 +1986,8 @@ false
 static
 *
 /
-FuncTypeIdDesc
-FuncTypeIdDesc
+TypeIdDesc
+TypeIdDesc
 :
 :
 global
@@ -2009,9 +2009,9 @@ funcType
 )
 ;
 return
-FuncTypeIdDesc
+TypeIdDesc
 (
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Global
@@ -2064,8 +2064,8 @@ length
 static
 *
 /
-FuncTypeIdDesc
-FuncTypeIdDesc
+TypeIdDesc
+TypeIdDesc
 :
 :
 immediate
@@ -2226,9 +2226,9 @@ sTotalBits
 )
 ;
 return
-FuncTypeIdDesc
+TypeIdDesc
 (
-FuncTypeIdDescKind
+TypeIdDescKind
 :
 :
 Immediate

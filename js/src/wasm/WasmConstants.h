@@ -696,7 +696,7 @@ Ref
 ;
 enum
 class
-FuncTypeIdDescKind
+TypeIdDescKind
 {
 None
 Immediate

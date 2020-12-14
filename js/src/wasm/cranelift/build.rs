@@ -392,7 +392,7 @@ Trap
 |
 TypeCode
 |
-FuncTypeIdDescKind
+TypeIdDescKind
 "
 )
 .
@@ -407,7 +407,7 @@ Trap
 |
 TypeCode
 |
-FuncTypeIdDescKind
+TypeIdDescKind
 "
 )
 .

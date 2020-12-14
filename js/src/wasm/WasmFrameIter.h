@@ -247,7 +247,7 @@ class
 DebugFrame
 ;
 class
-FuncTypeIdDesc
+TypeIdDesc
 ;
 class
 Instance
@@ -1499,7 +1499,7 @@ MacroAssembler
 &
 masm
 const
-FuncTypeIdDesc
+TypeIdDesc
 &
 funcTypeId
 const

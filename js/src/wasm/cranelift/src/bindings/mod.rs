@@ -348,7 +348,7 @@ self
 low_level
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 ;
 pub
 use
@@ -1630,7 +1630,7 @@ Clone
 ]
 pub
 struct
-FuncTypeIdDesc
+TypeIdDesc
 {
 ptr
 :
@@ -1639,10 +1639,10 @@ const
 low_level
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 }
 impl
-FuncTypeIdDesc
+TypeIdDesc
 {
 pub
 (
@@ -1658,7 +1658,7 @@ const
 low_level
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 )
 -
 >
@@ -1681,7 +1681,7 @@ self
 )
 -
 >
-FuncTypeIdDescKind
+TypeIdDescKind
 {
 unsafe
 {
@@ -2781,15 +2781,15 @@ signature_id
 (
 &
 self
-sig_index
+type_index
 :
-SignatureIndex
+TypeIndex
 )
 -
 >
-FuncTypeIdDesc
+TypeIdDesc
 {
-FuncTypeIdDesc
+TypeIdDesc
 :
 :
 new
@@ -2804,7 +2804,7 @@ env_signature_id
 self
 .
 env
-sig_index
+type_index
 .
 index
 (

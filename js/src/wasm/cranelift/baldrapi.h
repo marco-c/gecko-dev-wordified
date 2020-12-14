@@ -405,7 +405,7 @@ class
 FuncType
 ;
 class
-FuncTypeIdDesc
+TypeIdDesc
 ;
 struct
 TableDesc
@@ -1348,7 +1348,7 @@ js
 wasm
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 *
 env_func_sig_id
 (
@@ -1419,7 +1419,7 @@ js
 wasm
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 *
 env_signature_id
 (
@@ -1688,7 +1688,7 @@ js
 wasm
 :
 :
-FuncTypeIdDescKind
+TypeIdDescKind
 funcType_idKind
 (
 const
@@ -1698,7 +1698,7 @@ js
 wasm
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 *
 )
 ;
@@ -1712,7 +1712,7 @@ js
 wasm
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 *
 )
 ;
@@ -1726,7 +1726,7 @@ js
 wasm
 :
 :
-FuncTypeIdDesc
+TypeIdDesc
 *
 )
 ;

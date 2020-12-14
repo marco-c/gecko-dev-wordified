@@ -11592,7 +11592,7 @@ typeIds
 .
 append
 (
-FuncTypeIdDesc
+TypeIdDesc
 (
 )
 )
