@@ -565,13 +565,6 @@ dest
 )
 ;
 void
-loadInt32IndexBytecodeOperand
-(
-ValueOperand
-dest
-)
-;
-void
 loadNumFormalArguments
 (
 Register
