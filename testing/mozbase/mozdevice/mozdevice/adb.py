@@ -29476,6 +29476,14 @@ permission
 .
 RECORD_AUDIO
 "
+                
+"
+android
+.
+permission
+.
+ACCESS_WIFI_STATE
+"
             
 ]
             
