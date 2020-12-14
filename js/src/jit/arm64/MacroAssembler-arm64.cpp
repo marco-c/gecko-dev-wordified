@@ -668,14 +668,14 @@ bo
 =
 movePatchablePtr
 (
-ImmPtr
+ImmWord
 (
 /
 *
 placeholder
 *
 /
-nullptr
+0
 )
 dest
 )
