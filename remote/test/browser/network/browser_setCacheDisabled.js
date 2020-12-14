@@ -458,11 +458,9 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
-/
-icons
 /
 chevron
 .
