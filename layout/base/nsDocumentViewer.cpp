@@ -7994,10 +7994,6 @@ nsAutoSyncOperation
 sync
 (
 mDocument
-SyncOperationBehavior
-:
-:
-eSuspendInput
 )
 ;
 AutoSuppressEventHandlingAndSuspend

@@ -288,10 +288,6 @@ nsAutoSyncOperation
 sync
 (
 loaderDocument
-SyncOperationBehavior
-:
-:
-eSuspendInput
 )
 ;
 rv
