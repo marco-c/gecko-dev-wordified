@@ -156,8 +156,6 @@ do_get_file
 data
 /
 engine
--
-override
 .
 xml
 "
