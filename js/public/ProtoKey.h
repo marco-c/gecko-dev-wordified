@@ -1157,6 +1157,15 @@ WasmGlobal
 \
 REAL
 (
+WasmException
+OCLASP
+(
+WasmException
+)
+)
+\
+REAL
+(
 FinalizationRegistry
 OCLASP
 (

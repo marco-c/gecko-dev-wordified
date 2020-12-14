@@ -1135,6 +1135,9 @@ JSProto_WasmTable
 case
 JSProto_WasmGlobal
 :
+case
+JSProto_WasmException
+:
 return
 false
 ;
