@@ -265,6 +265,8 @@ dbs
 )
 ?
 .
+arena
+.
 iter
 (
 )
@@ -588,6 +590,8 @@ dbs
 (
 )
 ?
+.
+arena
 .
 iter
 (
@@ -1313,6 +1317,8 @@ let
 db
 =
 dbs
+.
+arena
 .
 get_mut
 (
