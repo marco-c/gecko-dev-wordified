@@ -73,6 +73,9 @@ rkv
 :
 :
 {
+migrate
+:
+:
 MigrateError
 as
 RkvMigrateError

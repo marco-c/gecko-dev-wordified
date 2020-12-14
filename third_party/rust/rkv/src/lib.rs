@@ -3191,7 +3191,6 @@ single
 :
 :
 SingleStore
-CloseOptions
 Options
 as
 StoreOptions
