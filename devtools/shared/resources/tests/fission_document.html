@@ -192,12 +192,6 @@ noServiceWorker
 )
 )
 {
-(
-async
-function
-(
-)
-{
 /
 /
 Expose
@@ -215,9 +209,8 @@ it
 .
 window
 .
-registration
+registrationPromise
 =
-await
 navigator
 .
 serviceWorker
@@ -251,11 +244,6 @@ service
 -
 worker
 "
-)
-;
-}
-)
-(
 )
 ;
 }

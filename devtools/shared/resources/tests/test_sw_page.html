@@ -85,12 +85,6 @@ use
 strict
 "
 ;
-(
-async
-function
-(
-)
-{
 /
 /
 Expose
@@ -108,9 +102,8 @@ it
 .
 window
 .
-registration
+registrationPromise
 =
-await
 navigator
 .
 serviceWorker
@@ -122,11 +115,6 @@ test_sw_page_worker
 .
 js
 "
-)
-;
-}
-)
-(
 )
 ;
 <
