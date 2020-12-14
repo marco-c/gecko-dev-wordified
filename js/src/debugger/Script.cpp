@@ -8904,12 +8904,6 @@ case
 JSOp
 :
 :
-NewArrayCopyOnWrite
-:
-case
-JSOp
-:
-:
 NewInit
 :
 case
