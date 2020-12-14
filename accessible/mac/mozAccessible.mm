@@ -316,13 +316,6 @@ providesLabelNotTitle
 ;
 -
 (
-nsStaticAtom
-*
-)
-ARIARole
-;
--
-(
 void
 )
 maybePostLiveRegionChanged
