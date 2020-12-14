@@ -335,6 +335,9 @@ trrFetchDurationNetworkOnly
 bool
 isTRR
 ;
+uint32_t
+effectiveTRRMode
+;
 }
 ;
 union
