@@ -6059,6 +6059,8 @@ id
 ;
 textures
 .
+input
+.
 colors
 [
 0
@@ -6119,6 +6121,8 @@ id
 ]
 ;
 textures
+.
+input
 .
 colors
 [
