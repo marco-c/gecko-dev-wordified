@@ -1252,10 +1252,15 @@ LayerManager
 :
 PayloadPresented
 (
+const
+TimeStamp
+&
+aTimeStamp
 )
 {
 RecordCompositionPayloadsPresented
 (
+aTimeStamp
 mPayload
 )
 ;
