@@ -271,7 +271,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 api
 /
