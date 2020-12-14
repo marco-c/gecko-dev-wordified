@@ -12649,17 +12649,6 @@ Label
 label
 )
 ;
-void
-copyObjGroupNoPreBarrier
-(
-Register
-sourceObj
-Register
-destObj
-Register
-scratch
-)
-;
 /
 /
 Emit
