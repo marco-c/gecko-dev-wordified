@@ -10,11 +10,6 @@ lineno
 /
 column
 values
-gczeal
-(
-0
-)
-;
 /
 /
 Use

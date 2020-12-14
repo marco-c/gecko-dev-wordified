@@ -25718,16 +25718,6 @@ JSTracer
 trc
 )
 {
-MOZ_ASSERT
-(
-JS
-:
-:
-RuntimeHeapIsMajorCollecting
-(
-)
-)
-;
 JSRuntime
 *
 rt
