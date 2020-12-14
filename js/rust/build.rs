@@ -1378,6 +1378,15 @@ RootedPtr
 JS
 :
 :
+detail
+:
+:
+RootListEntry
+"
+"
+JS
+:
+:
 MutableHandle
 "
 "
