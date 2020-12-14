@@ -838,6 +838,7 @@ Int32Value
 )
 ;
 }
+static
 JSLinearString
 *
 toString
@@ -845,8 +846,13 @@ toString
 JSContext
 *
 cx
+Handle
+<
+RegExpObject
+*
+>
+obj
 )
-const
 ;
 JSAtom
 *
@@ -1504,7 +1510,7 @@ string
 *
 /
 extern
-JSAtom
+JSLinearString
 *
 EscapeRegExpPattern
 (

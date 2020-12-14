@@ -2664,7 +2664,7 @@ rev32
 .
 4
 .
-JSAtom
+JSLinearString
 *
 js
 :
@@ -2724,7 +2724,7 @@ using
 it
 lazily
 .
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -2828,7 +2828,7 @@ src
 :
 sb
 .
-finishAtom
+finishString
 (
 )
 ;
@@ -2860,8 +2860,13 @@ toString
 JSContext
 *
 cx
+Handle
+<
+RegExpObject
+*
+>
+obj
 )
-const
 {
 /
 /
@@ -2874,6 +2879,9 @@ RootedAtom
 src
 (
 cx
+obj
+-
+>
 getSource
 (
 )
@@ -2889,7 +2897,7 @@ return
 nullptr
 ;
 }
-RootedAtom
+RootedLinearString
 escapedSrc
 (
 cx
@@ -2980,6 +2988,9 @@ Steps
 .
 if
 (
+obj
+-
+>
 global
 (
 )
@@ -3002,6 +3013,9 @@ nullptr
 }
 if
 (
+obj
+-
+>
 ignoreCase
 (
 )
@@ -3024,6 +3038,9 @@ nullptr
 }
 if
 (
+obj
+-
+>
 multiline
 (
 )
@@ -3046,6 +3063,9 @@ nullptr
 }
 if
 (
+obj
+-
+>
 dotAll
 (
 )
@@ -3068,6 +3088,9 @@ nullptr
 }
 if
 (
+obj
+-
+>
 unicode
 (
 )
@@ -3090,6 +3113,9 @@ nullptr
 }
 if
 (
+obj
+-
+>
 sticky
 (
 )
