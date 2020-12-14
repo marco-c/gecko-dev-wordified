@@ -477,6 +477,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 nsXULPrototypeCache
 .
 h

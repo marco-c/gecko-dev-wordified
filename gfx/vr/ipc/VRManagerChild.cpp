@@ -161,6 +161,15 @@ include
 "
 mozilla
 /
+ProfilerMarkers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h

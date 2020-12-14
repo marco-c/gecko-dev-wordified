@@ -124,6 +124,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 StaticComponents
 .
 h

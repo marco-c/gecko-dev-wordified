@@ -1099,6 +1099,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 MMPrinter
 .
 h

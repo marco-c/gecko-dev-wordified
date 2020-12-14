@@ -144,6 +144,13 @@ classes
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

@@ -119,6 +119,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 nsEventShell
 .
 h

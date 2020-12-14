@@ -197,6 +197,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 MessageEventRunnable
 .
 h

@@ -208,6 +208,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 Layers
 .
 h

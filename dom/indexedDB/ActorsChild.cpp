@@ -136,6 +136,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 IDBDatabase
 .
 h
