@@ -2020,6 +2020,9 @@ compilationInfos
 CompilationGCOutput
 &
 gcOutput
+CompilationGCOutput
+&
+gcOutputForDelazification_
 )
 {
 {
@@ -2049,6 +2052,7 @@ instantiateStencils
 (
 cx
 gcOutput
+gcOutputForDelazification_
 )
 )
 {
@@ -2198,6 +2202,9 @@ compilationInfos
 CompilationGCOutput
 &
 gcOutput
+CompilationGCOutput
+&
+gcOutputForDelazification_
 )
 {
 AutoGeckoProfilerEntry
@@ -2224,6 +2231,7 @@ prepareForInstantiate
 (
 cx
 gcOutput
+gcOutputForDelazification_
 )
 ;
 }

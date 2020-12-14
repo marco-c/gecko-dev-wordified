@@ -4196,6 +4196,13 @@ trace
 trc
 )
 ;
+gcOutputForDelazification_
+.
+trace
+(
+trc
+)
+;
 }
 size_t
 ParseTask
@@ -4793,6 +4800,7 @@ cx
 *
 compilationInfos_
 gcOutput_
+gcOutputForDelazification_
 )
 ;
 }
@@ -5342,6 +5350,7 @@ cx
 *
 compilationInfos_
 gcOutput_
+gcOutputForDelazification_
 )
 )
 {

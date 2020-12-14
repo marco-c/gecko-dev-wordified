@@ -2793,6 +2793,12 @@ frontend
 CompilationGCOutput
 gcOutput_
 ;
+frontend
+:
+:
+CompilationGCOutput
+gcOutputForDelazification_
+;
 /
 /
 Any
