@@ -654,7 +654,24 @@ OSError
             
 pass
         
-experimental_dir
+unwanted_dirs
+=
+[
+"
+experimental
+"
+"
+docs
+"
+]
+        
+for
+dir
+in
+unwanted_dirs
+:
+            
+dir_path
 =
 os
 .
@@ -663,11 +680,9 @@ path
 join
 (
 puppeteer_dir
-"
-experimental
-"
+dir
 )
-        
+            
 if
 os
 .
@@ -675,15 +690,15 @@ path
 .
 isdir
 (
-experimental_dir
+dir_path
 )
 :
-            
+                
 shutil
 .
 rmtree
 (
-experimental_dir
+dir_path
 )
         
 shutil
