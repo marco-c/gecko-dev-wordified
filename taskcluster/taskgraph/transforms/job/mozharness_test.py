@@ -1064,6 +1064,30 @@ worker
     
 )
     
+if
+test
+.
+get
+(
+"
+python
+-
+3
+"
+)
+:
+        
+env
+[
+"
+PYTHON
+"
+]
+=
+"
+python3
+"
+    
 #
 Legacy
 linux64
@@ -3168,14 +3192,26 @@ gz
         
 }
     
+py_3
+=
+test
+.
+get
+(
+"
+python
+-
+3
+"
+False
+)
+    
 if
 is_windows
 :
         
-mh_command
+py_binary
 =
-[
-            
 "
 c
 :
@@ -3186,13 +3222,40 @@ mozilla
 build
 \
 \
+{
 python
+}
 \
 \
+{
 python
+}
 .
 exe
 "
+.
+format
+(
+            
+python
+=
+"
+python3
+"
+if
+py_3
+else
+"
+python
+"
+        
+)
+        
+mh_command
+=
+[
+            
+py_binary
             
 "
 -
@@ -3223,6 +3286,18 @@ script
 elif
 is_bitbar
 :
+        
+py_binary
+=
+"
+python3
+"
+if
+py_3
+else
+"
+python
+"
         
 mh_command
 =
@@ -3262,10 +3337,8 @@ platform
 ]
 :
         
-mh_command
+py_binary
 =
-[
-            
 "
 /
 usr
@@ -3274,8 +3347,28 @@ local
 /
 bin
 /
+{
+}
+"
+.
+format
+(
+"
+python3
+"
+if
+py_3
+else
+"
 python2
 "
+)
+        
+mh_command
+=
+[
+            
+py_binary
             
 "
 -
@@ -3305,6 +3398,31 @@ else
 is_linux
 or
 is_macosx
+        
+py_binary
+=
+"
+/
+usr
+/
+bin
+/
+{
+}
+"
+.
+format
+(
+"
+python3
+"
+if
+py_3
+else
+"
+python2
+"
+)
         
 mh_command
 =
@@ -3353,16 +3471,7 @@ bug
 1547903
 .
             
-"
-/
-usr
-/
-bin
-/
-python2
-.
-7
-"
+py_binary
             
 "
 -
@@ -3384,6 +3493,19 @@ script
 ]
         
 ]
+    
+if
+py_3
+:
+        
+env
+[
+"
+PYTHON
+"
+]
+=
+py_binary
     
 for
 mh_config
