@@ -1799,6 +1799,9 @@ searchStr
 matchAllDomainLevels
 :
 true
+onlyEnabled
+:
+true
 }
 )
 ;
