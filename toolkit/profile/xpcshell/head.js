@@ -485,7 +485,7 @@ set
 SNAP_NAME
 "
 "
-foo
+firefox
 "
 )
 ;
