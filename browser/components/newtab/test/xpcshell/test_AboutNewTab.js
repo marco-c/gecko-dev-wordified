@@ -385,12 +385,6 @@ aTopic
 aData
 )
 {
-/
-/
-jshint
-unused
-:
-false
 Services
 .
 obs
@@ -584,12 +578,6 @@ aTopic
 aData
 )
 {
-/
-/
-jshint
-unused
-:
-false
 Services
 .
 obs
