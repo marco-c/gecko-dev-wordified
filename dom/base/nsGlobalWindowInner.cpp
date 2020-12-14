@@ -5963,6 +5963,10 @@ mHintedWasLoading
 (
 false
 )
+mHasOpenedExternalProtocolFrame
+(
+false
+)
 mSuspendDepth
 (
 0
