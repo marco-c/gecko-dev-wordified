@@ -224,7 +224,7 @@ first
 "
 [
 "
-https
+http
 :
 /
 /
@@ -262,7 +262,7 @@ second
 "
 [
 "
-https
+http
 :
 /
 /
@@ -300,7 +300,7 @@ third
 "
 [
 "
-https
+http
 :
 /
 /
@@ -355,7 +355,7 @@ test
 "
 [
 "
-https
+http
 :
 /
 /
@@ -368,7 +368,7 @@ test
 1
 "
 "
-https
+http
 :
 /
 /
@@ -460,7 +460,7 @@ test
 ]
 [
 "
-https
+http
 :
 /
 /
@@ -473,7 +473,7 @@ test
 5
 "
 "
-https
+http
 :
 /
 /
@@ -486,7 +486,7 @@ test
 6
 "
 "
-https
+http
 :
 /
 /
@@ -587,7 +587,7 @@ nTITLE9
 ]
 [
 "
-https
+http
 :
 /
 /
@@ -600,7 +600,7 @@ test
 8
 "
 "
-https
+http
 :
 /
 /
@@ -685,7 +685,7 @@ nTITLE11
 ]
 [
 "
-https
+http
 :
 /
 /
@@ -773,7 +773,7 @@ n
 )
 [
 "
-https
+http
 :
 /
 /
@@ -786,7 +786,7 @@ test
 multi0
 "
 "
-https
+http
 :
 /
 /
@@ -799,7 +799,7 @@ test
 multi1
 "
 "
-https
+http
 :
 /
 /
@@ -812,7 +812,7 @@ test
 multi2
 "
 "
-https
+http
 :
 /
 /
@@ -825,7 +825,7 @@ test
 multi3
 "
 "
-https
+http
 :
 /
 /
@@ -930,7 +930,7 @@ n
 )
 [
 "
-https
+http
 :
 /
 /
@@ -943,7 +943,7 @@ test
 accept0
 "
 "
-https
+http
 :
 /
 /
@@ -956,7 +956,7 @@ test
 accept1
 "
 "
-https
+http
 :
 /
 /
@@ -969,7 +969,7 @@ test
 accept2
 "
 "
-https
+http
 :
 /
 /
@@ -982,7 +982,7 @@ test
 accept3
 "
 "
-https
+http
 :
 /
 /
@@ -1156,7 +1156,7 @@ non
 url2
 [
 "
-https
+http
 :
 /
 /
@@ -1169,7 +1169,7 @@ test
 urls0
 "
 "
-https
+http
 :
 /
 /
@@ -1182,7 +1182,7 @@ test
 urls1
 "
 "
-https
+http
 :
 /
 /
@@ -1195,7 +1195,7 @@ test
 urls2
 "
 "
-https
+http
 :
 /
 /
