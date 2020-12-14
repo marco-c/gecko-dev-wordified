@@ -1103,9 +1103,6 @@ this
 traits
 =
 {
-sources
-:
-true
 networkMonitor
 :
 true
