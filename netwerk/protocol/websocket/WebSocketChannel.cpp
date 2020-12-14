@@ -4939,7 +4939,7 @@ CallAcknowledge
 final
 :
 public
-CancelableRunnable
+Runnable
 {
 public
 :
@@ -4952,7 +4952,7 @@ uint32_t
 aSize
 )
 :
-CancelableRunnable
+Runnable
 (
 "
 net

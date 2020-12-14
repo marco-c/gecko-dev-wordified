@@ -841,7 +841,7 @@ class
 CompleteResumeRunnable
 :
 public
-CancelableRunnable
+Runnable
 {
 public
 :
@@ -856,7 +856,7 @@ nsISupports
 aOwner
 )
 :
-CancelableRunnable
+Runnable
 (
 "
 CompleteResumeRunnable
