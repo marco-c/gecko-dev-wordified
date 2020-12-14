@@ -154,6 +154,16 @@ mocha
 utils
 '
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+import
+/
+extensions
 describeChromeOnly
 (
 '
@@ -661,7 +671,7 @@ to
 fetch
 browser
 webSocket
-url
+URL
 from
 '
 )

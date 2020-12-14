@@ -161,6 +161,16 @@ mocha
 utils
 '
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+import
+/
+extensions
 const
 FILE_TO_UPLOAD
 =
@@ -287,6 +297,8 @@ evaluate
 (
 (
 e
+:
+HTMLElement
 )
 =
 >
@@ -367,6 +379,8 @@ evaluate
 (
 (
 e
+:
+HTMLInputElement
 )
 =
 >
@@ -404,6 +418,8 @@ evaluate
 (
 (
 e
+:
+HTMLInputElement
 )
 =
 >
@@ -466,6 +482,8 @@ evaluate
 (
 (
 e
+:
+HTMLInputElement
 )
 =
 >

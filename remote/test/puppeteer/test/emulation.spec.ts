@@ -153,6 +153,16 @@ mocha
 utils
 '
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+import
+/
+extensions
 describe
 (
 '
@@ -1246,6 +1256,8 @@ evaluate
 (
 (
 button
+:
+HTMLElement
 )
 =
 >

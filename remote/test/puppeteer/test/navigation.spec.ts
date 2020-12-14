@@ -138,6 +138,8 @@ from
 .
 /
 utils
+.
+js
 '
 ;
 import
@@ -162,6 +164,16 @@ mocha
 utils
 '
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+import
+/
+extensions
 import
 os
 from
@@ -1776,6 +1788,11 @@ ts
 expect
 -
 error
+purposefully
+passing
+an
+old
+option
 .
 goto
 (
@@ -4512,6 +4529,8 @@ evaluate
 (
 (
 url
+:
+string
 )
 =
 >
@@ -6718,6 +6737,8 @@ evaluate
 (
 (
 url
+:
+string
 )
 =
 >

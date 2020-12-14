@@ -262,7 +262,11 @@ lib
 /
 cjs
 /
-index
+puppeteer
+/
+node
+-
+puppeteer
 -
 core
 '

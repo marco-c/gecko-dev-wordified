@@ -150,7 +150,6 @@ import
 getTestState
 setupTestPageAndContextHooks
 setupTestBrowserHooks
-itFailsFirefox
 }
 from
 '
@@ -161,6 +160,16 @@ mocha
 utils
 '
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+import
+/
+extensions
 describe
 (
 '

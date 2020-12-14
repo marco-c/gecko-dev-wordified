@@ -256,6 +256,10 @@ lib
 /
 cjs
 /
+puppeteer
+/
+node
+/
 install
 '
 )

@@ -152,6 +152,8 @@ from
 .
 /
 utils
+.
+js
 '
 ;
 import
@@ -176,6 +178,16 @@ mocha
 utils
 '
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+import
+/
+extensions
 describe
 (
 '
@@ -5137,6 +5149,9 @@ ts
 expect
 -
 error
+purposeful
+bad
+input
 await
 page
 .

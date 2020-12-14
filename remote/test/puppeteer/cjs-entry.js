@@ -262,7 +262,9 @@ lib
 /
 cjs
 /
-index
+puppeteer
+/
+node
 '
 )
 ;

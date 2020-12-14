@@ -208,7 +208,7 @@ waitForSelector
 or
 {
 link
-Puppeteer
+PuppeteerNode
 .
 launch
 |

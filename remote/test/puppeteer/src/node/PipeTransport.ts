@@ -145,6 +145,8 @@ from
 common
 /
 helper
+.
+js
 '
 ;
 import
@@ -159,6 +161,8 @@ from
 common
 /
 ConnectionTransport
+.
+js
 '
 ;
 export

@@ -152,6 +152,8 @@ from
 .
 /
 utils
+.
+js
 '
 ;
 import
@@ -176,6 +178,16 @@ mocha
 utils
 '
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+import
+/
+extensions
 describe
 (
 '
@@ -3814,6 +3826,8 @@ evaluate
 (
 (
 url
+:
+string
 )
 =
 >
@@ -3898,7 +3912,6 @@ to
 URL
 with
 hash
-and
 and
 fire
 requests

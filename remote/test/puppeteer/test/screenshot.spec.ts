@@ -153,6 +153,16 @@ mocha
 utils
 '
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+import
+/
+extensions
 describe
 (
 '
@@ -2180,6 +2190,8 @@ evaluate
 (
 (
 element
+:
+HTMLElement
 )
 =
 >
