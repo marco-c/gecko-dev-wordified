@@ -1732,6 +1732,17 @@ n
 /
 /
 Bug
+1606803
+"
+race
+:
+ipv6_is_present
+\
+n
+"
+/
+/
+Bug
 1606864
 "
 race
