@@ -920,7 +920,7 @@ nsAString
 >
 (
 )
-IgnoredErrorResult
+IgnoreErrors
 (
 )
 )
