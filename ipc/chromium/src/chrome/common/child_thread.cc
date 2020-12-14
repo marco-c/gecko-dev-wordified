@@ -134,7 +134,11 @@ options
 Thread
 (
 "
-Chrome_ChildThread
+IPC
+I
+/
+O
+Child
 "
 )
 owner_loop_
