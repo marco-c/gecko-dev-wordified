@@ -332,7 +332,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomic
+write
 (
 tmpFileName
 bytes
@@ -346,7 +346,7 @@ bytesWritten
 IOUtils
 :
 :
-writeAtomic
+write
 can
 write
 entire
@@ -538,7 +538,7 @@ keys
 await
 IOUtils
 .
-writeAtomic
+write
 (
 src
 bytes

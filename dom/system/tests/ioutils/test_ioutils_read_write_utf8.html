@@ -449,7 +449,7 @@ file
 await
 IOUtils
 .
-writeAtomic
+write
 (
 invalidUTF8File
 invalidUTF8
@@ -574,7 +574,7 @@ n
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 untouchableContents
@@ -599,7 +599,7 @@ rejects
 (
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 newContents
@@ -622,7 +622,7 @@ at
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 rejects
 writing
 to
@@ -647,7 +647,7 @@ untouchableContents
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 doesn
 '
 t
@@ -667,7 +667,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 newContents
@@ -694,7 +694,7 @@ length
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 overwrite
 files
@@ -715,7 +715,7 @@ newContents
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 overwrites
 with
 the
@@ -798,7 +798,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 destFileName
 fileContents
@@ -825,7 +825,7 @@ contents
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 creates
 a
 new
@@ -849,7 +849,7 @@ backupFileName
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 does
 not
 create
@@ -875,7 +875,7 @@ length
 IOUtils
 :
 :
-writeAtomic
+write
 correctly
 writes
 to
@@ -931,7 +931,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 destFileName
 newFileContents
@@ -958,7 +958,7 @@ contents
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 backup
 an
@@ -985,7 +985,7 @@ contents
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 create
 the
@@ -1007,7 +1007,7 @@ length
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 correctly
 writes
 to
@@ -1115,7 +1115,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 destFileName
 fileContents
@@ -1141,7 +1141,7 @@ tmpFileName
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 cleans
 up
 the
@@ -1161,7 +1161,7 @@ backupFileName
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 does
 not
 create
@@ -1193,7 +1193,7 @@ contents
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 write
 to
@@ -1218,7 +1218,7 @@ length
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 copy
 tmp
@@ -1262,7 +1262,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 destFileName
 newFileContents
@@ -1288,7 +1288,7 @@ tmpFileName
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 cleans
 up
 the
@@ -1312,7 +1312,7 @@ contents
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 create
 a
@@ -1341,7 +1341,7 @@ contents
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 write
 to
@@ -1366,7 +1366,7 @@ length
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 move
 tmp
@@ -1426,7 +1426,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 emptyString
@@ -1440,7 +1440,7 @@ bytesWritten
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 create
 an
@@ -1593,7 +1593,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 emoji
@@ -1607,7 +1607,7 @@ expectedBytes
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 can
 write
 emoji
@@ -1725,7 +1725,7 @@ rejects
 (
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 "
@@ -1742,7 +1742,7 @@ path
 IOUtils
 :
 :
-writeAtomicUTF8
+writeUTF8
 only
 works
 with
@@ -1869,7 +1869,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 emoji
@@ -1999,7 +1999,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 lotsOfCoffee
@@ -2107,7 +2107,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 empty
@@ -2305,7 +2305,7 @@ ioutilsBytes
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 ioutilsTmpFile
 emoji
@@ -2560,7 +2560,7 @@ bytesWritten
 await
 IOUtils
 .
-writeAtomicUTF8
+writeUTF8
 (
 tmpFileName
 emoji
@@ -2697,7 +2697,7 @@ fill
 await
 IOUtils
 .
-writeAtomic
+write
 (
 tmpFileName
 repeatedBytes
@@ -2804,7 +2804,7 @@ fill
 await
 IOUtils
 .
-writeAtomic
+write
 (
 tmpFileName
 elevenBytes
@@ -2948,7 +2948,7 @@ badContents
 await
 IOUtils
 .
-writeAtomic
+write
 (
 tmpFileName
 goodHeaderBadContents
