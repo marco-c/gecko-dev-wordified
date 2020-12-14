@@ -3471,7 +3471,7 @@ return
 Err
 (
 "
-Caveat
+failIfMajorPerformanceCaveat
 :
 WGL
 without
