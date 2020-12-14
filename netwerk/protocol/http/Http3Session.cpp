@@ -3328,12 +3328,6 @@ GoawayReceived
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-mGoawayReceived
-)
-;
 mGoawayReceived
 =
 true
