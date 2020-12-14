@@ -1725,6 +1725,12 @@ KeymapWrapper
 aKeymapWrapper
 )
 ;
+gulong
+mOnKeysChangedSignalHandle
+;
+gulong
+mOnDirectionChangedSignalHandle
+;
 /
 *
 *
