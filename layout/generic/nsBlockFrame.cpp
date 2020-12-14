@@ -10796,6 +10796,12 @@ GetOverflowContainers
 )
 )
 {
+ocBounds
+.
+Clear
+(
+)
+;
 for
 (
 nsIFrame
@@ -10812,6 +10818,12 @@ f
 MovePositionBy
 (
 physicalDelta
+)
+;
+ConsiderChildOverflow
+(
+ocBounds
+f
 )
 ;
 }
