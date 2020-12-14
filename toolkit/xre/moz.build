@@ -926,6 +926,11 @@ nsUpdateDriver
 .
 cpp
 "
+"
+nsUpdateSyncManager
+.
+cpp
+"
 ]
 if
 CONFIG
