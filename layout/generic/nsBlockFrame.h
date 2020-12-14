@@ -4590,9 +4590,6 @@ mozilla
 OverflowAreas
 &
 aOverflowAreas
-nsReflowStatus
-&
-aStatus
 )
 ;
 /
