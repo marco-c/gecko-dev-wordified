@@ -686,6 +686,8 @@ lifo_
 masm_
 (
 masmAlloc_
+*
+moduleEnv
 /
 *
 limitedSize

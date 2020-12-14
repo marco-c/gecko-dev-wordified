@@ -16344,10 +16344,13 @@ MOZ_ASSERT
 (
 offset
 <
-wasm
-:
-:
-MaxOffsetGuardLimit
+asMasm
+(
+)
+.
+wasmMaxOffsetGuardLimit
+(
+)
 )
 ;
 MOZ_ASSERT_IF

@@ -44013,7 +44013,7 @@ return
 uint32_t
 offsetGuardLimit
 =
-GetOffsetGuardLimit
+GetMaxOffsetGuardLimit
 (
 moduleEnv_
 .
@@ -44143,7 +44143,7 @@ ptr
 uint32_t
 offsetGuardLimit
 =
-GetOffsetGuardLimit
+GetMaxOffsetGuardLimit
 (
 moduleEnv_
 .
@@ -71645,7 +71645,7 @@ addrTemp
 uint32_t
 offsetGuardLimit
 =
-GetOffsetGuardLimit
+GetMaxOffsetGuardLimit
 (
 moduleEnv_
 .
@@ -100444,6 +100444,7 @@ WasmMacroAssembler
 masm
 (
 alloc
+moduleEnv
 )
 ;
 /

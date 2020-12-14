@@ -3133,6 +3133,7 @@ WasmMacroAssembler
 masm
 (
 alloc
+moduleEnv
 )
 ;
 MOZ_ASSERT
