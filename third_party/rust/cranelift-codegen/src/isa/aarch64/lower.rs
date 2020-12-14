@@ -4859,6 +4859,7 @@ extendop
 let
 value
 =
+(
 ctx
 .
 get_constant
@@ -4868,6 +4869,9 @@ insn
 .
 unwrap
 (
+)
+&
+0xFFFF_FFFF_u64
 )
 as
 i64
