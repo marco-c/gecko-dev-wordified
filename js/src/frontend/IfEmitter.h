@@ -376,7 +376,7 @@ details
 .
 enum
 class
-Kind
+LexicalKind
 {
 /
 /
@@ -451,8 +451,8 @@ condition
 NoLexicalAccessInBranch
 }
 ;
-Kind
-kind_
+LexicalKind
+lexicalKind_
 ;
 mozilla
 :
@@ -499,8 +499,8 @@ BranchEmitterBase
 BytecodeEmitter
 *
 bce
-Kind
-kind
+LexicalKind
+lexicalKind
 )
 ;
 MOZ_MUST_USE
@@ -1480,8 +1480,8 @@ IfEmitter
 BytecodeEmitter
 *
 bce
-Kind
-kind
+LexicalKind
+lexicalKind
 )
 ;
 public
