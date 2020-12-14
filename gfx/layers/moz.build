@@ -533,6 +533,13 @@ ShadowLayerUtils
 .
 h
 "
+"
+ipc
+/
+SurfaceDescriptor
+.
+h
+"
 ]
 EXPORTS
 .

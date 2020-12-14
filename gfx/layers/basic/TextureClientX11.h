@@ -142,17 +142,6 @@ h
 /
 For
 IsSurfaceDescriptorValid
-#
-include
-"
-mozilla
-/
-layers
-/
-ShadowLayerUtilsX11
-.
-h
-"
 namespace
 mozilla
 {

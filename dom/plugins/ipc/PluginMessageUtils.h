@@ -181,7 +181,7 @@ include
 "
 gfxipc
 /
-ShadowLayerUtils
+SurfaceDescriptor
 .
 h
 "

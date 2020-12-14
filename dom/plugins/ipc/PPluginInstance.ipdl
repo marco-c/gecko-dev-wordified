@@ -119,6 +119,15 @@ PPluginSurface
 ;
 include
 "
+gfxipc
+/
+ShadowLayerUtils
+.
+h
+"
+;
+include
+"
 mozilla
 /
 GfxMessageUtils
@@ -352,7 +361,7 @@ from
 "
 gfxipc
 /
-ShadowLayerUtils
+SurfaceDescriptor
 .
 h
 "
