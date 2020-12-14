@@ -737,9 +737,6 @@ traits
 getFavicon
 :
 true
-hasTabInfo
-:
-true
 }
 url
 :
