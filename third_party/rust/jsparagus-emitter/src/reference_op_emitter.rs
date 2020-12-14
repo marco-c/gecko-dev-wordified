@@ -2992,7 +2992,7 @@ emitter
 .
 emit
 .
-get_prop
+call_prop
 (
 key_index
 )
@@ -3381,7 +3381,7 @@ emitter
 .
 emit
 .
-get_elem
+call_elem
 (
 )
 ;

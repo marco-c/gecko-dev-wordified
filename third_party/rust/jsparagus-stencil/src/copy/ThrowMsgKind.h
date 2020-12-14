@@ -127,11 +127,7 @@ uint8_t
 #
 include
 "
-js
-/
-friend
-/
-ErrorMessages
+jsfriendapi
 .
 h
 "
