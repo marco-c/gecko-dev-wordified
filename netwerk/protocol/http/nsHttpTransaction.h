@@ -3287,7 +3287,10 @@ mTrafficCategory
 bool
 mThroughCaptivePortal
 ;
+Atomic
+<
 int32_t
+>
 mProxyConnectResponseCode
 ;
 OnPushCallback

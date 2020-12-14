@@ -744,8 +744,10 @@ TakeResponseTrailers
 0
 ;
 virtual
+already_AddRefed
+<
 nsISupports
-*
+>
 SecurityInfo
 (
 )
@@ -1244,8 +1246,10 @@ override
 ;
 \
 virtual
+already_AddRefed
+<
 nsISupports
-*
+>
 SecurityInfo
 (
 )
