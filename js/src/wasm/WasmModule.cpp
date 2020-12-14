@@ -8896,7 +8896,11 @@ MOZ_RELEASE_ASSERT
 cx
 -
 >
-wasmHaveSignalHandlers
+wasm
+(
+)
+.
+haveSignalHandlers
 )
 ;
 if
