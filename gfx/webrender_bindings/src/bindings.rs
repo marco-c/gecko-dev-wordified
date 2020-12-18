@@ -3244,6 +3244,9 @@ wr_notifier_wake_up
 window_id
 :
 WrWindowId
+composite_needed
+:
+bool
 )
 ;
 fn
@@ -3355,7 +3358,7 @@ wake_up
 (
 &
 self
-_composite_needed
+composite_needed
 :
 bool
 )
@@ -3367,6 +3370,7 @@ wr_notifier_wake_up
 self
 .
 window_id
+composite_needed
 )
 ;
 }
