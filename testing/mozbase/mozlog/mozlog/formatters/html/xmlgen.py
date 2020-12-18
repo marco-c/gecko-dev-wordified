@@ -306,6 +306,13 @@ unicode
 s
 )
     
+#
+pylint
+:
+disable
+=
+W1612
+    
 unicode
 =
 unicode

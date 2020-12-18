@@ -60,6 +60,8 @@ absolute_import
 print_function
 unicode_literals
 import
+six
+import
 os
 from
 argparse
@@ -295,9 +297,19 @@ ensure
 True
 )
         
+#
+pylint
+-
+-
+py3k
+:
+W1612
+        
 path
 =
-unicode
+six
+.
+text_type
 (
 manifest
 )

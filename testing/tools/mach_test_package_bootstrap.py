@@ -556,6 +556,11 @@ text_type
 unicode
 #
 noqa
+pylint
+:
+disable
+=
+W1612
 def
 ancestors
 (
