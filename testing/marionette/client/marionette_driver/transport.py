@@ -1003,12 +1003,9 @@ data
 chunk
             
 except
-(
-TimeoutError
 socket
 .
 timeout
-)
 :
                 
 pass
