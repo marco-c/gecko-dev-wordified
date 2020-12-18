@@ -646,12 +646,9 @@ thrower
 .
 __code__
         
-code
+codetype_args
 =
-types
-.
-CodeType
-(
+[
             
 code
 .
@@ -697,6 +694,47 @@ firstline
             
 co_lnotab
         
+]
+        
+if
+hasattr
+(
+code
+"
+co_posonlyargcount
+"
+)
+:
+            
+#
+co_posonlyargcount
+was
+introduced
+in
+Python
+3
+.
+8
+.
+            
+codetype_args
+.
+insert
+(
+1
+code
+.
+co_posonlyargcount
+)
+        
+code
+=
+types
+.
+CodeType
+(
+*
+codetype_args
 )
         
 thrower
