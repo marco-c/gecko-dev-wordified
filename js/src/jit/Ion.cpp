@@ -13501,6 +13501,17 @@ return
 Method_Skipped
 ;
 }
+JitSpew
+(
+JitSpew_IonScripts
+"
+Forcing
+OSR
+Mismatch
+Compilation
+"
+)
+;
 force
 =
 true
