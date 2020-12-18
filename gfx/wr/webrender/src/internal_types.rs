@@ -2213,6 +2213,7 @@ cache
 TextureCache
 (
 CacheTextureId
+ImageBufferKind
 Swizzle
 )
 /
@@ -2285,15 +2286,13 @@ TextureSource
 :
 TextureCache
 (
-.
-.
+_
+image_buffer_kind
+_
 )
 =
 >
-ImageBufferKind
-:
-:
-Texture2D
+image_buffer_kind
 TextureSource
 :
 :
@@ -2324,7 +2323,7 @@ Dummy
 ImageBufferKind
 :
 :
-Texture2D
+Texture2DArray
 TextureSource
 :
 :
