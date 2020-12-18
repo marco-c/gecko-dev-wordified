@@ -168,8 +168,25 @@ information
 "
 "
     
+#
+pylint
+:
+disable
+=
+W1629
+    
 def
 __nonzero__
+(
+self
+)
+:
+        
+return
+False
+    
+def
+__bool__
 (
 self
 )
