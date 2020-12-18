@@ -50,7 +50,6 @@ BOOL
 BYTE
 DWORD
 HANDLE
-LPCWSTR
 LPVOID
 LPWSTR
 WORD
@@ -361,15 +360,15 @@ argtypes
 =
 [
     
-LPCWSTR
-LPWSTR
+LPCTSTR
+LPTSTR
 LPSECURITY_ATTRIBUTES
     
 LPSECURITY_ATTRIBUTES
 BOOL
 DWORD
 LPVOID
-LPCWSTR
+LPCTSTR
     
 LPSTARTUPINFOW
 LPPROCESS_INFORMATION
@@ -632,24 +631,6 @@ value
 =
 env
     
-wcwd
-=
-None
-    
-if
-cwd
-is
-not
-None
-:
-        
-wcwd
-=
-unicode
-(
-cwd
-)
-    
 pi
 =
 PROCESS_INFORMATION
@@ -674,7 +655,7 @@ inherit_handles
 creation_flags
         
 wenv
-wcwd
+cwd
 byref
 (
 si
