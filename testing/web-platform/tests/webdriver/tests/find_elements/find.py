@@ -16,14 +16,6 @@ import
 assert_error
 assert_same_element
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 find_elements
 (
@@ -374,6 +366,7 @@ def
 test_find_elements
 (
 session
+inline
 using
 value
 )
@@ -606,6 +599,7 @@ def
 test_find_elements_link_text
 (
 session
+inline
 document
 value
 )
@@ -907,6 +901,7 @@ def
 test_find_elements_partial_link_text
 (
 session
+inline
 document
 value
 )
@@ -1166,6 +1161,7 @@ def
 test_xhtml_namespace
 (
 session
+inline
 using
 value
 )
@@ -1322,6 +1318,7 @@ def
 test_htmldocument
 (
 session
+inline
 using
 value
 )

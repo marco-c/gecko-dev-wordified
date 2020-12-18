@@ -16,14 +16,6 @@ import
 assert_dialog_handled
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 forward
 (
@@ -69,6 +61,7 @@ def
 pages
 (
 session
+inline
 )
 :
     

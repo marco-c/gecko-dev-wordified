@@ -29,14 +29,6 @@ assert_in_events
     
 assert_success
 )
-from
-tests
-.
-support
-.
-inline
-import
-inline
 pytest
 .
 fixture
@@ -166,6 +158,7 @@ def
 test_null_response_value
 (
 session
+inline
 )
 :
     
@@ -338,6 +331,7 @@ def
 test_connected_element
 (
 session
+inline
 )
 :
     
@@ -404,6 +398,7 @@ def
 test_pointer_interactable
 (
 session
+inline
 )
 :
     
@@ -470,6 +465,7 @@ def
 test_keyboard_interactable
 (
 session
+inline
 )
 :
     
@@ -810,6 +806,7 @@ def
 test_input
 (
 session
+inline
 add_event_listeners
 tracked_events
 type
@@ -1019,6 +1016,7 @@ def
 test_input_disabled
 (
 session
+inline
 type
 )
 :
@@ -1158,6 +1156,7 @@ def
 test_input_readonly
 (
 session
+inline
 type
 )
 :
@@ -1219,6 +1218,7 @@ def
 test_textarea
 (
 session
+inline
 add_event_listeners
 tracked_events
 )
@@ -1325,6 +1325,7 @@ def
 test_textarea_disabled
 (
 session
+inline
 )
 :
     
@@ -1383,6 +1384,7 @@ def
 test_textarea_readonly
 (
 session
+inline
 )
 :
     
@@ -1442,6 +1444,7 @@ test_input_file
 (
 session
 text_file
+inline
 )
 :
     
@@ -1518,6 +1521,7 @@ test_input_file_multiple
 (
 session
 text_file
+inline
 )
 :
     
@@ -1604,6 +1608,7 @@ def
 test_select
 (
 session
+inline
 )
 :
     
@@ -1707,6 +1712,7 @@ def
 test_button
 (
 session
+inline
 )
 :
     
@@ -1764,6 +1770,7 @@ def
 test_button_with_subtree
 (
 session
+inline
 )
 :
     
@@ -1846,6 +1853,7 @@ def
 test_contenteditable
 (
 session
+inline
 add_event_listeners
 tracked_events
 )
@@ -1965,6 +1973,7 @@ def
 test_designmode
 (
 session
+inline
 )
 :
     
@@ -2076,6 +2085,7 @@ def
 test_resettable_element_focus_when_empty
 (
 session
+inline
 add_event_listeners
 tracked_events
 )
@@ -2281,6 +2291,7 @@ def
 test_resettable_element_does_not_satisfy_validation_constraints
 (
 session
+inline
 type
 invalid_value
 )
@@ -2551,6 +2562,7 @@ def
 test_non_editable_inputs
 (
 session
+inline
 type
 )
 :
@@ -2611,6 +2623,7 @@ def
 test_scroll_into_view
 (
 session
+inline
 )
 :
     

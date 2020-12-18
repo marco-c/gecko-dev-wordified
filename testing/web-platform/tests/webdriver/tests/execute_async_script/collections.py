@@ -13,14 +13,6 @@ asserts
 import
 assert_same_element
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 execute_async_script
 (
@@ -216,6 +208,7 @@ test_file_list
 (
 session
 tmpdir
+inline
 )
 :
     
@@ -428,6 +421,7 @@ def
 test_html_all_collection
 (
 session
+inline
 )
 :
     
@@ -676,6 +670,7 @@ def
 test_html_collection
 (
 session
+inline
 )
 :
     
@@ -797,6 +792,7 @@ def
 test_html_form_controls_collection
 (
 session
+inline
 )
 :
     
@@ -925,6 +921,7 @@ def
 test_html_options_collection
 (
 session
+inline
 )
 :
     
@@ -1055,6 +1052,7 @@ def
 test_node_list
 (
 session
+inline
 )
 :
     

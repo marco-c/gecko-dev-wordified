@@ -16,14 +16,6 @@ import
 assert_error
 assert_same_element
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 find_elements
 (
@@ -93,6 +85,7 @@ test_null_parameter_value
 (
 session
 http
+inline
 )
 :
     
@@ -469,6 +462,7 @@ def
 test_find_elements
 (
 session
+inline
 using
 value
 )
@@ -711,6 +705,7 @@ def
 test_find_elements_link_text
 (
 session
+inline
 document
 value
 )
@@ -1038,6 +1033,7 @@ def
 test_find_elements_partial_link_text
 (
 session
+inline
 document
 value
 )
@@ -1203,6 +1199,7 @@ def
 test_no_element
 (
 session
+inline
 using
 value
 )
@@ -1354,6 +1351,7 @@ def
 test_xhtml_namespace
 (
 session
+inline
 using
 value
 )
@@ -1498,6 +1496,7 @@ def
 test_parent_htmldocument
 (
 session
+inline
 )
 :
     
@@ -1605,6 +1604,7 @@ def
 test_parent_of_document_node_errors
 (
 session
+inline
 )
 :
     
