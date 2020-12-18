@@ -454,6 +454,20 @@ header
 authority
 '
 ]
+        
+[
+(
+'
+:
+protocol
+'
+'
+websocket
+'
+)
+]
++
+base_request_headers
     
 ]
     
@@ -1429,6 +1443,8 @@ in
 str
 (
 e
+.
+value
 )
         
 #

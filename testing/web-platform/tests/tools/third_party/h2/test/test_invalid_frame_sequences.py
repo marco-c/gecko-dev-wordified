@@ -1053,12 +1053,15 @@ frame_factory
 .
 build_data_frame
 (
+            
 data
 =
 b
 '
-hello
+some
+data
 '
+        
 )
         
 c
@@ -1072,7 +1075,7 @@ serialize
 )
 )
         
-expected_frame
+expected
 =
 frame_factory
 .
@@ -1085,8 +1088,18 @@ stream_id
             
 error_code
 =
-0x5
+h2
+.
+errors
+.
+ErrorCodes
+.
+STREAM_CLOSED
         
+)
+.
+serialize
+(
 )
         
 assert
@@ -1097,11 +1110,7 @@ data_to_send
 )
 =
 =
-expected_frame
-.
-serialize
-(
-)
+expected
     
 def
 test_unexpected_continuation_on_closed_stream
@@ -2042,7 +2051,8 @@ data
 =
 b
 '
-hello
+some
+data
 '
         
 )
@@ -2060,7 +2070,7 @@ serialize
 )
 )
         
-expected_frame
+expected
 =
 frame_factory
 .
@@ -2073,8 +2083,18 @@ stream_id
             
 error_code
 =
-0x5
+h2
+.
+errors
+.
+ErrorCodes
+.
+STREAM_CLOSED
         
+)
+.
+serialize
+(
 )
         
 assert
@@ -2085,11 +2105,7 @@ data_to_send
 )
 =
 =
-expected_frame
-.
-serialize
-(
-)
+expected
         
 assert
 len
@@ -2269,7 +2285,8 @@ data
 =
 b
 '
-hello
+some
+data
 '
         
 )
@@ -2295,7 +2312,7 @@ serialize
 5
 )
         
-expected_frame
+expected
 =
 frame_factory
 .
@@ -2308,8 +2325,18 @@ stream_id
             
 error_code
 =
-0x5
+h2
+.
+errors
+.
+ErrorCodes
+.
+STREAM_CLOSED
         
+)
+.
+serialize
+(
 )
         
 assert
@@ -2320,11 +2347,7 @@ data_to_send
 )
 =
 =
-expected_frame
-.
-serialize
-(
-)
+expected
 *
 5
         

@@ -75,11 +75,11 @@ sys
 from
 curio
 import
-Kernel
 Event
 spawn
 socket
 ssl
+run
 import
 h2
 .
@@ -112,6 +112,7 @@ frame
 READ_CHUNK_SIZE
 =
 8192
+async
 def
 create_listening_ssl_socket
 (
@@ -233,6 +234,7 @@ SO_REUSEADDR
     
 sock
 =
+await
 ssl_context
 .
 wrap_socket
@@ -288,6 +290,7 @@ address
     
 sock
 =
+await
 create_listening_ssl_socket
 (
 address
@@ -1049,7 +1052,6 @@ True
 :
             
 while
-not
 self
 .
 conn
@@ -1058,6 +1060,8 @@ local_flow_control_window
 (
 stream_id
 )
+<
+1
 :
                 
 await
@@ -1351,15 +1355,6 @@ else
 localhost
 "
     
-kernel
-=
-Kernel
-(
-with_monitor
-=
-True
-)
-    
 print
 (
 "
@@ -1477,8 +1472,6 @@ warnings
 "
 )
     
-kernel
-.
 run
 (
 h2_server
@@ -1487,14 +1480,13 @@ h2_server
 host
 5000
 )
-                         
 sys
 .
 argv
 [
 1
 ]
-                         
+                  
 "
 {
 }
@@ -1508,7 +1500,7 @@ format
 (
 host
 )
-                         
+                  
 "
 {
 }
@@ -1521,4 +1513,7 @@ format
 host
 )
 )
+with_monitor
+=
+True
 )

@@ -503,13 +503,14 @@ that
 has
 been
 reset
-still
-affects
+does
+not
+affect
 the
 connection
 flow
-control
         
+control
 window
 .
         
@@ -637,7 +638,6 @@ b
 '
 some
 data
-!
 '
             
 stream_id
@@ -646,8 +646,6 @@ close_id
         
 )
         
-events
-=
 c
 .
 receive_data
@@ -659,14 +657,19 @@ serialize
 )
 )
         
-rst_frame
+expected
 =
 frame_factory
 .
 build_rst_stream_frame
 (
             
+stream_id
+=
 close_id
+            
+error_code
+=
 h2
 .
 errors
@@ -676,10 +679,10 @@ ErrorCodes
 STREAM_CLOSED
         
 )
-        
-assert
-not
-events
+.
+serialize
+(
+)
         
 assert
 c
@@ -689,11 +692,7 @@ data_to_send
 )
 =
 =
-rst_frame
-.
-serialize
-(
-)
+expected
         
 new_window
 =
@@ -715,7 +714,6 @@ b
 '
 some
 data
-!
 '
 )
 =

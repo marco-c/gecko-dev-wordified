@@ -366,8 +366,8 @@ self
 )
 :
         
-f
-l
+frame
+length
 =
 Frame
 .
@@ -399,7 +399,7 @@ x01
 )
         
 assert
-f
+frame
 .
 type
 =
@@ -407,7 +407,7 @@ type
 0xFF
         
 assert
-l
+length
 =
 =
 0x59
@@ -415,12 +415,12 @@ l
 assert
 isinstance
 (
-f
+frame
 ExtensionFrame
 )
         
 assert
-f
+frame
 .
 stream_id
 =
@@ -434,8 +434,8 @@ self
 )
 :
         
-f
-l
+frame
+length
 =
 Frame
 .
@@ -467,7 +467,7 @@ x01
 )
         
 assert
-f
+frame
 .
 type
 =
@@ -475,13 +475,13 @@ type
 0xFF
         
 assert
-l
+length
 =
 =
 0x59
         
 assert
-f
+frame
 .
 flag_byte
 =
@@ -495,7 +495,7 @@ self
 )
 :
         
-f
+frame
 =
 decode_frame
 (
@@ -527,7 +527,7 @@ world
 )
         
 assert
-f
+frame
 .
 body
 =
@@ -540,7 +540,7 @@ world
 '
         
 assert
-f
+frame
 .
 body_len
 =
@@ -548,7 +548,7 @@ body_len
 12
         
 assert
-f
+frame
 .
 stream_id
 =
@@ -2243,7 +2243,7 @@ x00
 \
 x00
 \
-x24
+x2A
 \
 x04
 \
@@ -2372,8 +2372,27 @@ xFF
 \
 xFF
 '
++
 #
 MAX_HEADER_LIST_SIZE
+        
+b
+'
+\
+x00
+\
+x08
+\
+x00
+\
+x00
+\
+x00
+\
+x01
+'
+#
+ENABLE_CONNECT_PROTOCOL
     
 )
     
@@ -2416,6 +2435,12 @@ SettingsFrame
 MAX_HEADER_LIST_SIZE
 :
 65535
+        
+SettingsFrame
+.
+ENABLE_CONNECT_PROTOCOL
+:
+1
     
 }
     
@@ -2663,7 +2688,7 @@ f
 body_len
 =
 =
-36
+42
     
 def
 test_settings_frames_never_have_streams
@@ -3870,6 +3895,120 @@ body_len
 =
 =
 13
+        
+s
+=
+(
+            
+b
+'
+\
+x00
+\
+x00
+\
+x08
+\
+x07
+\
+x00
+\
+x00
+\
+x00
+\
+x00
+\
+x00
+'
++
+#
+Frame
+header
+            
+b
+'
+\
+x00
+\
+x00
+\
+x00
+\
+x40
+'
++
+#
+Last
+Stream
+ID
+            
+b
+'
+\
+x00
+\
+x00
+\
+x00
+\
+x20
+'
++
+#
+Error
+Code
+            
+b
+'
+'
+#
+Additional
+data
+        
+)
+        
+f
+=
+decode_frame
+(
+s
+)
+        
+assert
+isinstance
+(
+f
+GoAwayFrame
+)
+        
+assert
+f
+.
+flags
+=
+=
+set
+(
+)
+        
+assert
+f
+.
+additional_data
+=
+=
+b
+'
+'
+        
+assert
+f
+.
+body_len
+=
+=
+8
     
 def
 test_goaway_frame_never_has_a_stream

@@ -2656,6 +2656,20 @@ MAX_HEADER_LIST_SIZE
 =
 0x06
     
+#
+:
+The
+byte
+that
+signals
+SETTINGS_ENABLE_CONNECT_PROTOCOL
+setting
+.
+    
+ENABLE_CONNECT_PROTOCOL
+=
+0x08
+    
 def
 __init__
 (
