@@ -954,9 +954,25 @@ local_dict
 try
 :
                     
-execfile
+with
+open
 (
 config_file
+"
+r
+"
+)
+as
+f
+:
+                        
+exec
+(
+f
+.
+read
+(
+)
 global_dict
 local_dict
 )

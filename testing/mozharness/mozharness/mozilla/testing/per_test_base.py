@@ -2224,9 +2224,25 @@ py
         
 )
         
-execfile
+with
+open
 (
 paths_file
+"
+r
+"
+)
+as
+f
+:
+            
+exec
+(
+f
+.
+read
+(
+)
 {
 "
 __file__
