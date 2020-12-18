@@ -4900,6 +4900,15 @@ doc_root
 "
 ]
                                      
+ws_doc_root
+=
+paths
+[
+"
+ws_doc_root
+"
+]
+                                     
 routes
 =
 routes
