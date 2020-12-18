@@ -594,6 +594,13 @@ simple
 mar
 "
 "
+data
+/
+syncManagerTestChild
+.
+js
+"
+"
 TestAUSReadStrings1
 .
 ini
