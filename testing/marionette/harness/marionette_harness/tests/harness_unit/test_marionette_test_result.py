@@ -201,7 +201,7 @@ logger
         
 verbosity
 =
-None
+1
         
 stream
 =
