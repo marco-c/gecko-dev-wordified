@@ -284,13 +284,6 @@ h
 "
 #
 include
-"
-ThreadSafeRefcountingWithMainThreadDestruction
-.
-h
-"
-#
-include
 <
 unordered_map
 >
