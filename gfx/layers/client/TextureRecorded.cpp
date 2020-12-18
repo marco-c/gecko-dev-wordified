@@ -404,6 +404,16 @@ mSize
 mFormat
 )
 ;
+if
+(
+!
+mDT
+)
+{
+return
+false
+;
+}
 /
 /
 We
