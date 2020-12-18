@@ -102,8 +102,16 @@ import
 pprint
 import
 sys
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 #
 load
 modules
@@ -2036,8 +2044,6 @@ ftp_server_from
                     
 fragment
 =
-urllib
-.
 quote
 (
 rel_info
