@@ -4738,9 +4738,6 @@ APPEND_RANGE
 0x9877
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 Kaveri
@@ -4771,8 +4768,6 @@ APPEND_RANGE
 0x955f
 )
 ;
-#
-endif
 break
 ;
 /
