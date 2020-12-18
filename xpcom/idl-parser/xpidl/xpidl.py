@@ -3212,6 +3212,7 @@ self
 realtype
 (
 Builtin
+CEnum
 Native
 Typedef
 )
