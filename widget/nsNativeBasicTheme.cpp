@@ -735,6 +735,16 @@ HasState
 NS_EVENT_STATE_CHECKED
 )
 ;
+bool
+isIndeterminate
+=
+aState
+.
+HasState
+(
+NS_EVENT_STATE_INDETERMINATE
+)
+;
 sRGBColor
 backgroundColor
 =
@@ -753,6 +763,9 @@ isDisabled
 if
 (
 isChecked
+|
+|
+isIndeterminate
 )
 {
 backgroundColor
@@ -779,6 +792,9 @@ else
 if
 (
 isChecked
+|
+|
+isIndeterminate
 )
 {
 if
