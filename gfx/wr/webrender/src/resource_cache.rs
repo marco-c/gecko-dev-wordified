@@ -2921,9 +2921,6 @@ RenderTarget
 size
 :
 DeviceIntSize
-num_layers
-:
-usize
 format
 :
 ImageFormat
@@ -2979,10 +2976,6 @@ bytes_per_pixel
 as
 usize
 ;
-self
-.
-num_layers
-*
 (
 self
 .
@@ -10567,9 +10560,6 @@ self
 size
 :
 DeviceIntSize
-num_layers
-:
-usize
 format
 :
 ImageFormat
@@ -10594,14 +10584,6 @@ size
 =
 =
 size
-&
-&
-target
-.
-num_layers
-=
-=
-num_layers
 &
 &
 target
@@ -10687,7 +10669,6 @@ texture_cache
 alloc_render_target
 (
 size
-num_layers
 format
 )
 ;
@@ -10700,7 +10681,6 @@ push
 RenderTarget
 {
 size
-num_layers
 format
 texture_id
 is_active
