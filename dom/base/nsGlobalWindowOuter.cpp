@@ -33382,6 +33382,10 @@ nsAutoSyncOperation
 sync
 (
 mDoc
+SyncOperationBehavior
+:
+:
+eSuspendInput
 )
 ;
 if
@@ -33980,6 +33984,10 @@ nsAutoSyncOperation
 sync
 (
 mDoc
+SyncOperationBehavior
+:
+:
+eSuspendInput
 )
 ;
 bool
@@ -35595,6 +35603,10 @@ nsAutoSyncOperation
 sync
 (
 docToPrint
+SyncOperationBehavior
+:
+:
+eAllowInput
 )
 ;
 EnterModalState
