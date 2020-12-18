@@ -3050,7 +3050,7 @@ byte
 -
 order
 .
-ConvertYCbCrAToARGB
+ConvertI420AlphaToARGB
 (
 aBuffer
 .
