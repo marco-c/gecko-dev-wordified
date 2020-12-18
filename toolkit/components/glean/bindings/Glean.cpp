@@ -154,6 +154,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 Glean
 .
 h
@@ -165,6 +167,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 Category
 .
 h
@@ -175,6 +179,8 @@ include
 mozilla
 /
 glean
+/
+bindings
 /
 GleanJSMetricsLookup
 .

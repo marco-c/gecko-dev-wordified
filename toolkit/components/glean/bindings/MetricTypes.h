@@ -69,6 +69,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 Boolean
 .
 h
@@ -79,6 +81,8 @@ include
 mozilla
 /
 glean
+/
+bindings
 /
 Counter
 .
@@ -91,6 +95,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 Datetime
 .
 h
@@ -101,6 +107,8 @@ include
 mozilla
 /
 glean
+/
+bindings
 /
 Event
 .
@@ -113,6 +121,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 MemoryDistribution
 .
 h
@@ -123,6 +133,8 @@ include
 mozilla
 /
 glean
+/
+bindings
 /
 Timespan
 .
@@ -135,6 +147,8 @@ mozilla
 /
 glean
 /
+bindings
+/
 String
 .
 h
@@ -145,6 +159,8 @@ include
 mozilla
 /
 glean
+/
+bindings
 /
 Uuid
 .
