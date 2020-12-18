@@ -729,6 +729,15 @@ enableWasmSimd
 endif
 #
 ifdef
+ENABLE_WASM_SIMD_WORMHOLE
+extern
+bool
+enableWasmSimdWormhole
+;
+#
+endif
+#
+ifdef
 ENABLE_WASM_EXCEPTIONS
 extern
 bool
