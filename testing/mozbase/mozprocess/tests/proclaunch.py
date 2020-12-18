@@ -1128,10 +1128,6 @@ in
 self
 .
 children
-.
-keys
-(
-)
 :
             
 raise

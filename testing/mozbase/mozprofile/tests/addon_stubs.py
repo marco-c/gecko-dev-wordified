@@ -331,10 +331,6 @@ addon_id
 not
 in
 stubs
-.
-keys
-(
-)
 :
         
 raise

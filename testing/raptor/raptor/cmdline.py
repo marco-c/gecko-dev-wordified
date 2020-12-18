@@ -693,10 +693,9 @@ firefox
         
 choices
 =
-APPS
-.
-keys
+list
 (
+APPS
 )
     
 )

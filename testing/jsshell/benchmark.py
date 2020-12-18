@@ -3012,10 +3012,9 @@ benchmark
         
 choices
 =
-all_benchmarks
-.
-keys
+list
 (
+all_benchmarks
 )
         
 help
