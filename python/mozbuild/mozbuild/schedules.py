@@ -380,6 +380,10 @@ ui
 "
     
 "
+fuzztest
+"
+    
+"
 geckoview
 -
 junit
