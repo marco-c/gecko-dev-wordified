@@ -210,7 +210,7 @@ if
 (
 mozinfo
 .
-so
+os
 =
 =
 "
