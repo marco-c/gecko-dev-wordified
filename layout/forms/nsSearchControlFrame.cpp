@@ -705,7 +705,6 @@ _ns
 hidden
 "
 _ns
-u
 "
 "
 _ns
@@ -717,7 +716,7 @@ IgnoreErrors
 }
 else
 {
-nsAutoString
+nsAutoCString
 dummy
 ;
 declaration

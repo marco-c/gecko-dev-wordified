@@ -446,7 +446,7 @@ CSSValue
 of
 the
 property
-nsAutoString
+nsAutoCString
 value
 ;
 nsresult

@@ -955,7 +955,7 @@ const
 RawServoStyleSet
 *
 aRawSet
-nsAString
+nsACString
 &
 aString
 )
@@ -1117,7 +1117,7 @@ FromString
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aValue
 Element

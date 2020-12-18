@@ -1116,11 +1116,11 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aFamily
 const
-StringOrArrayBufferOrArrayBufferView
+UTF8StringOrArrayBufferOrArrayBufferView
 &
 aSource
 const
@@ -1243,7 +1243,7 @@ FontFace
 InitializeSource
 (
 const
-StringOrArrayBufferOrArrayBufferView
+UTF8StringOrArrayBufferOrArrayBufferView
 &
 aSource
 )
@@ -1252,7 +1252,7 @@ if
 (
 aSource
 .
-IsString
+IsUTF8String
 (
 )
 )
@@ -1265,7 +1265,7 @@ SetDescriptor
 eCSSFontDesc_Src
 aSource
 .
-GetAsString
+GetAsUTF8String
 (
 )
 rv
@@ -1373,7 +1373,7 @@ FontFace
 :
 GetFamily
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1392,7 +1392,7 @@ FontFace
 SetFamily
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1429,7 +1429,7 @@ FontFace
 :
 GetStyle
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1448,7 +1448,7 @@ FontFace
 SetStyle
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1478,7 +1478,7 @@ FontFace
 :
 GetWeight
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1497,7 +1497,7 @@ FontFace
 SetWeight
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1534,7 +1534,7 @@ FontFace
 :
 GetStretch
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1553,7 +1553,7 @@ FontFace
 SetStretch
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1590,7 +1590,7 @@ FontFace
 :
 GetUnicodeRange
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1609,7 +1609,7 @@ FontFace
 SetUnicodeRange
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1646,7 +1646,7 @@ FontFace
 :
 GetVariant
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1694,7 +1694,7 @@ FontFace
 SetVariant
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1730,7 +1730,7 @@ FontFace
 :
 GetFeatureSettings
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1749,7 +1749,7 @@ FontFace
 SetFeatureSettings
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1786,7 +1786,7 @@ FontFace
 :
 GetVariationSettings
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1805,7 +1805,7 @@ FontFace
 SetVariationSettings
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1842,7 +1842,7 @@ FontFace
 :
 GetDisplay
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1861,7 +1861,7 @@ FontFace
 SetDisplay
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -2816,7 +2816,7 @@ SetDescriptor
 nsCSSFontDesc
 aFontDesc
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -2905,12 +2905,6 @@ is
 read
 only
 .
-NS_ConvertUTF16toUTF8
-value
-(
-aValue
-)
-;
 RefPtr
 <
 URLExtraData
@@ -2934,7 +2928,7 @@ GetData
 )
 aFontDesc
 &
-value
+aValue
 url
 &
 changed
@@ -2990,7 +2984,7 @@ FontFace
 SetDescriptors
 (
 const
-nsAString
+nsACString
 &
 aFamily
 const
@@ -3048,7 +3042,7 @@ setDesc
 nsCSSFontDesc
 aDesc
 const
-nsAString
+nsACString
 &
 aVal
 )
@@ -3265,7 +3259,7 @@ GetDesc
 (
 nsCSSFontDesc
 aDescID
-nsString
+nsACString
 &
 aResult
 )

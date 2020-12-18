@@ -1422,7 +1422,7 @@ index
 nsAutoCString
 property
 ;
-nsAutoString
+nsAutoCString
 value
 ;
 /
@@ -1509,7 +1509,10 @@ realIndex
 :
 SysAllocString
 (
+NS_ConvertUTF8toUTF16
+(
 value
+)
 .
 get
 (
@@ -1637,7 +1640,7 @@ index
 +
 )
 {
-nsAutoString
+nsAutoCString
 value
 ;
 if
@@ -1679,7 +1682,10 @@ index
 :
 SysAllocString
 (
+NS_ConvertUTF8toUTF16
+(
 value
+)
 .
 get
 (

@@ -220,7 +220,7 @@ class
 Promise
 ;
 class
-StringOrArrayBufferOrArrayBufferView
+UTF8StringOrArrayBufferOrArrayBufferView
 ;
 }
 /
@@ -922,11 +922,11 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aFamily
 const
-StringOrArrayBufferOrArrayBufferView
+UTF8StringOrArrayBufferOrArrayBufferView
 &
 aSource
 const
@@ -941,7 +941,7 @@ aRV
 void
 GetFamily
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -950,7 +950,7 @@ void
 SetFamily
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -961,7 +961,7 @@ aRv
 void
 GetStyle
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -970,7 +970,7 @@ void
 SetStyle
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -981,7 +981,7 @@ aRv
 void
 GetWeight
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -990,7 +990,7 @@ void
 SetWeight
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1001,7 +1001,7 @@ aRv
 void
 GetStretch
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1010,7 +1010,7 @@ void
 SetStretch
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1021,7 +1021,7 @@ aRv
 void
 GetUnicodeRange
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1030,7 +1030,7 @@ void
 SetUnicodeRange
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1041,7 +1041,7 @@ aRv
 void
 GetVariant
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1050,7 +1050,7 @@ void
 SetVariant
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1061,7 +1061,7 @@ aRv
 void
 GetFeatureSettings
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1070,7 +1070,7 @@ void
 SetFeatureSettings
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1081,7 +1081,7 @@ aRv
 void
 GetVariationSettings
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1090,7 +1090,7 @@ void
 SetVariationSettings
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1101,7 +1101,7 @@ aRv
 void
 GetDisplay
 (
-nsString
+nsACString
 &
 aResult
 )
@@ -1110,7 +1110,7 @@ void
 SetDisplay
 (
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1162,9 +1162,8 @@ void
 InitializeSource
 (
 const
-StringOrArrayBufferOrArrayBufferView
+UTF8StringOrArrayBufferOrArrayBufferView
 &
-aSource
 )
 ;
 /
@@ -1226,7 +1225,7 @@ SetDescriptor
 nsCSSFontDesc
 aFontDesc
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -1273,7 +1272,7 @@ bool
 SetDescriptors
 (
 const
-nsAString
+nsACString
 &
 aFamily
 const
@@ -1336,7 +1335,7 @@ GetDesc
 (
 nsCSSFontDesc
 aDescID
-nsString
+nsACString
 &
 aResult
 )

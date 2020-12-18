@@ -5034,7 +5034,7 @@ MediaQueryList
 MatchMedia
 (
 const
-nsAString
+nsACString
 &
 aQuery
 mozilla

@@ -267,7 +267,7 @@ ParseProperty
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aValue
 const
@@ -278,18 +278,12 @@ ParsingMode
 aParsingMode
 )
 {
-NS_ConvertUTF16toUTF8
-value
-(
-aValue
-)
-;
 return
 Servo_ParseProperty
 (
 aProperty
 &
-value
+aValue
 aParsingEnvironment
 .
 mUrlExtraData
@@ -322,7 +316,7 @@ ServoCSSParser
 ParseEasing
 (
 const
-nsAString
+nsACString
 &
 aValue
 nsTimingFunction
@@ -392,7 +386,7 @@ ServoCSSParser
 ParseFontShorthandForMatching
 (
 const
-nsAString
+nsACString
 &
 aValue
 URLExtraData

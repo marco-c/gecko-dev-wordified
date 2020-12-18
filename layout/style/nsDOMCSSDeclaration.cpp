@@ -312,7 +312,7 @@ GetPropertyValue
 const
 nsCSSPropertyID
 aPropID
-nsAString
+nsACString
 &
 aValue
 )
@@ -538,7 +538,7 @@ nsDOMCSSDeclaration
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -582,7 +582,7 @@ nsDOMCSSDeclaration
 SetCssText
 (
 const
-nsAString
+nsACString
 &
 aCssText
 nsIPrincipal
@@ -961,7 +961,7 @@ const
 nsACString
 &
 aPropertyName
-nsAString
+nsACString
 &
 aReturn
 )
@@ -1012,7 +1012,7 @@ const
 nsACString
 &
 aPropertyName
-nsAString
+nsACString
 &
 aPriority
 )
@@ -1076,7 +1076,7 @@ nsACString
 &
 aValue
 const
-nsAString
+nsACString
 &
 aPriority
 nsIPrincipal
@@ -1271,7 +1271,7 @@ const
 nsACString
 &
 aPropertyName
-nsAString
+nsACString
 &
 aReturn
 ErrorResult

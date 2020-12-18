@@ -52871,7 +52871,7 @@ Document
 MatchMedia
 (
 const
-nsAString
+nsACString
 &
 aMediaQueryList
 CallerType

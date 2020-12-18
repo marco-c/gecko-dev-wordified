@@ -249,7 +249,7 @@ FONT_FEATURE_VALUES_RULE
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -259,7 +259,7 @@ override
 void
 GetFontFamily
 (
-nsAString
+nsACString
 &
 aFamily
 )
@@ -268,7 +268,7 @@ void
 SetFontFamily
 (
 const
-nsAString
+nsACString
 &
 aFamily
 mozilla
@@ -282,7 +282,7 @@ aRv
 void
 GetValueText
 (
-nsAString
+nsACString
 &
 aValueText
 )
@@ -291,7 +291,7 @@ void
 SetValueText
 (
 const
-nsAString
+nsACString
 &
 aValueText
 mozilla

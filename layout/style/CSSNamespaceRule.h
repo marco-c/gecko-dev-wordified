@@ -276,7 +276,7 @@ interface
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

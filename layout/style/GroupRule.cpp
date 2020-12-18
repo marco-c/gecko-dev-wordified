@@ -477,7 +477,7 @@ GroupRule
 InsertRule
 (
 const
-nsAString
+nsACString
 &
 aRule
 uint32_t

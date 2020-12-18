@@ -284,7 +284,7 @@ override
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -322,7 +322,7 @@ Get
 #
 method_
 (
-nsAString
+nsACString
 &
 aValue
 )
@@ -335,7 +335,7 @@ Set
 method_
 (
 const
-nsAString
+nsACString
 &
 aValue
 )

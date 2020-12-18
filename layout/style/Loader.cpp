@@ -6748,7 +6748,10 @@ MediaList
 :
 Create
 (
+NS_ConvertUTF16toUTF8
+(
 aMediaString
+)
 )
 ;
 }

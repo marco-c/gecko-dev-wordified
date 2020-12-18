@@ -623,7 +623,7 @@ const
 RawServoStyleSet
 *
 aRawSet
-nsAString
+nsACString
 &
 aString
 )
@@ -722,7 +722,7 @@ FromString
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aValue
 dom
@@ -844,7 +844,7 @@ aValue
 mServo
 )
 ;
-nsString
+nsAutoCString
 s
 ;
 Servo_AnimationValue_Dump

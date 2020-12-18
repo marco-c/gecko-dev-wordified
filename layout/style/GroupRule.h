@@ -440,7 +440,7 @@ uint32_t
 InsertRule
 (
 const
-nsAString
+nsACString
 &
 aRule
 uint32_t
@@ -497,7 +497,7 @@ virtual
 void
 GetConditionText
 (
-nsAString
+nsACString
 &
 aConditionText
 )
@@ -509,7 +509,7 @@ void
 SetConditionText
 (
 const
-nsAString
+nsACString
 &
 aConditionText
 ErrorResult

@@ -1499,7 +1499,7 @@ ComputedTimingFunction
 :
 AppendToString
 (
-nsAString
+nsACString
 &
 aResult
 )

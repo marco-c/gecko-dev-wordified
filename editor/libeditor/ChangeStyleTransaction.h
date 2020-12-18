@@ -449,11 +449,11 @@ bool
 ValueIncludes
 (
 const
-nsAString
+nsACString
 &
 aValueList
 const
-nsAString
+nsACString
 &
 aValue
 )
@@ -527,11 +527,11 @@ in
 void
 AddValueToMultivalueProperty
 (
-nsAString
+nsACString
 &
 aValues
 const
-nsAString
+nsACString
 &
 aNewValue
 )
@@ -631,11 +631,11 @@ list
 void
 RemoveValueFromListOfValues
 (
-nsAString
+nsACString
 &
 aValues
 const
-nsAString
+nsACString
 &
 aRemoveValue
 )
@@ -704,7 +704,7 @@ SetStyle
 (
 bool
 aAttributeWasSet
-nsAString
+nsACString
 &
 aValue
 )
@@ -755,7 +755,7 @@ mRemoveProperty
 true
 )
 .
-nsString
+nsCString
 mValue
 ;
 /
@@ -770,7 +770,7 @@ to
 for
 undo
 .
-nsString
+nsCString
 mUndoValue
 ;
 /
@@ -785,7 +785,7 @@ to
 for
 redo
 .
-nsString
+nsCString
 mRedoValue
 ;
 /

@@ -1821,10 +1821,9 @@ opacity
 "
 _ns
 str
-u
-"
-"
-_ns
+EmptyCString
+(
+)
 IgnoreErrors
 (
 )
@@ -2020,7 +2019,7 @@ Style
 (
 )
 ;
-nsAutoString
+nsAutoCString
 dummy
 ;
 decl

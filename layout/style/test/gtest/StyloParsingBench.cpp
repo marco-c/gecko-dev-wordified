@@ -700,14 +700,8 @@ i
 +
 )
 {
-DOMString
-value_
-;
-nsAString
-&
+nsAutoCString
 value
-=
-value_
 ;
 Servo_DeclarationBlock_GetPropertyValueById
 (

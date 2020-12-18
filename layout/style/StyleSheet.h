@@ -2320,7 +2320,7 @@ uint32_t
 InsertRule
 (
 const
-nsAString
+nsACString
 &
 aRule
 uint32_t
@@ -2350,11 +2350,11 @@ int32_t
 AddRule
 (
 const
-nsAString
+nsACString
 &
 aSelector
 const
-nsAString
+nsACString
 &
 aBlock
 const
@@ -2888,7 +2888,7 @@ nsresult
 InsertRuleIntoGroup
 (
 const
-nsAString
+nsACString
 &
 aRule
 css
@@ -3333,7 +3333,7 @@ uint32_t
 InsertRuleInternal
 (
 const
-nsAString
+nsACString
 &
 aRule
 uint32_t
@@ -3355,7 +3355,7 @@ nsresult
 InsertRuleIntoGroupInternal
 (
 const
-nsAString
+nsACString
 &
 aRule
 css

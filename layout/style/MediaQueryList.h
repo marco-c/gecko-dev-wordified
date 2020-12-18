@@ -254,7 +254,7 @@ Document
 *
 aDocument
 const
-nsAString
+nsACString
 &
 aMediaQueryList
 CallerType
@@ -343,7 +343,7 @@ methods
 void
 GetMedia
 (
-nsAString
+nsACString
 &
 aMedia
 )

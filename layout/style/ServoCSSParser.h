@@ -566,7 +566,7 @@ ParseProperty
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aValue
 const
@@ -627,7 +627,7 @@ bool
 ParseEasing
 (
 const
-nsAString
+nsACString
 &
 aValue
 nsTimingFunction
@@ -813,7 +813,7 @@ bool
 ParseFontShorthandForMatching
 (
 const
-nsAString
+nsACString
 &
 aValue
 URLExtraData

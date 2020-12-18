@@ -112,7 +112,7 @@ TreatNullAs
 =
 EmptyString
 ]
-DOMString
+UTF8String
 %
 s
 ;

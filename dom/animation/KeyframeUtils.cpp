@@ -662,7 +662,7 @@ mProperty
 ;
 nsTArray
 <
-nsString
+nsCString
 >
 mValues
 ;
@@ -1279,7 +1279,7 @@ ListAllowance
 aAllowLists
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aValues
@@ -1294,7 +1294,7 @@ JSContext
 aCx
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aValues
@@ -1321,7 +1321,7 @@ MakePropertyValuePair
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aStringValue
 dom
@@ -4519,7 +4519,7 @@ ListAllowance
 aAllowLists
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aValues
@@ -4765,7 +4765,7 @@ JSContext
 aCx
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aValues
@@ -4811,7 +4811,7 @@ ReportInvalidPropertyValueToConsole
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aInvalidPropertyValue
 dom
@@ -4833,7 +4833,10 @@ params
 .
 AppendElement
 (
+NS_ConvertUTF8toUTF16
+(
 aInvalidPropertyValue
+)
 )
 ;
 CopyASCIItoUTF16
@@ -4955,7 +4958,7 @@ MakePropertyValuePair
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aStringValue
 dom
@@ -7948,7 +7951,7 @@ i
 for
 (
 const
-nsString
+nsCString
 &
 stringValue
 :
@@ -8707,7 +8710,7 @@ parseAndAppendEasing
 ]
 (
 const
-nsString
+nsACString
 &
 easingString
 ErrorResult
@@ -8775,7 +8778,7 @@ if
 (
 easing
 .
-IsString
+IsUTF8String
 (
 )
 )
@@ -8784,7 +8787,7 @@ parseAndAppendEasing
 (
 easing
 .
-GetAsString
+GetAsUTF8String
 (
 )
 aRv
@@ -8814,13 +8817,13 @@ else
 for
 (
 const
-nsString
+auto
 &
 easingString
 :
 easing
 .
-GetAsStringSequence
+GetAsUTF8StringSequence
 (
 )
 )

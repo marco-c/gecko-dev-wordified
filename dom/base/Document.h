@@ -15101,7 +15101,7 @@ MediaQueryList
 MatchMedia
 (
 const
-nsAString
+nsACString
 &
 aMediaQueryList
 CallerType

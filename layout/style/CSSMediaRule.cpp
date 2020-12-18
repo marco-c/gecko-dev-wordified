@@ -440,7 +440,7 @@ CSSMediaRule
 :
 GetConditionText
 (
-nsAString
+nsACString
 &
 aConditionText
 )
@@ -463,7 +463,7 @@ CSSMediaRule
 SetConditionText
 (
 const
-nsAString
+nsACString
 &
 aConditionText
 ErrorResult
@@ -503,7 +503,7 @@ CSSMediaRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

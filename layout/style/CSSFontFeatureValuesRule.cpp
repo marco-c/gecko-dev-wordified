@@ -258,7 +258,7 @@ CSSFontFeatureValuesRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -284,7 +284,7 @@ CSSFontFeatureValuesRule
 :
 GetFontFamily
 (
-nsAString
+nsACString
 &
 aFamilyListStr
 )
@@ -303,7 +303,7 @@ CSSFontFeatureValuesRule
 :
 GetValueText
 (
-nsAString
+nsACString
 &
 aValueText
 )
@@ -323,7 +323,7 @@ CSSFontFeatureValuesRule
 SetFontFamily
 (
 const
-nsAString
+nsACString
 &
 aFontFamily
 ErrorResult
@@ -356,7 +356,7 @@ CSSFontFeatureValuesRule
 SetValueText
 (
 const
-nsAString
+nsACString
 &
 aValueText
 ErrorResult

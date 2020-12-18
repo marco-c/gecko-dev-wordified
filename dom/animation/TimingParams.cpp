@@ -1157,7 +1157,7 @@ TimingParams
 ParseEasing
 (
 const
-nsAString
+nsACString
 &
 aEasing
 ErrorResult
@@ -1191,10 +1191,7 @@ dom
 MSG_INVALID_EASING_ERROR
 >
 (
-NS_ConvertUTF16toUTF8
-(
 aEasing
-)
 )
 ;
 return

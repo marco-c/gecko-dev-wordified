@@ -330,7 +330,7 @@ CSSSupportsRule
 :
 GetConditionText
 (
-nsAString
+nsACString
 &
 aConditionText
 )
@@ -350,7 +350,7 @@ CSSSupportsRule
 SetConditionText
 (
 const
-nsAString
+nsACString
 &
 aConditionText
 ErrorResult
@@ -387,7 +387,7 @@ CSSSupportsRule
 :
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

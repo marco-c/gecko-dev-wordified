@@ -12020,6 +12020,9 @@ StealNSResult
 )
 ;
 }
+nsAutoCString
+result
+;
 static_cast
 <
 nsComputedDOMStyle
@@ -12051,7 +12054,7 @@ NS_ConvertUTF16toUTF8
 (
 aPropertyName
 )
-aResult
+result
 )
 ;
 static_cast
@@ -12071,6 +12074,12 @@ get
 SetExposeVisitedStyle
 (
 false
+)
+;
+CopyUTF8toUTF16
+(
+result
+aResult
 )
 ;
 return
@@ -15649,7 +15658,10 @@ AnimationValue
 FromString
 (
 property
+NS_ConvertUTF16toUTF8
+(
 aValue1
+)
 aElement
 )
 ;
@@ -15662,7 +15674,10 @@ AnimationValue
 FromString
 (
 property
+NS_ConvertUTF16toUTF8
+(
 aValue2
+)
 aElement
 )
 ;
@@ -15919,6 +15934,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsAutoCString
+result
+;
 Servo_AnimationValue_Serialize
 (
 value
@@ -15935,6 +15953,12 @@ RawSet
 (
 )
 &
+result
+)
+;
+CopyUTF8toUTF16
+(
+result
 aResult
 )
 ;

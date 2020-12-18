@@ -21869,7 +21869,7 @@ nsGlobalWindowInner
 MatchMedia
 (
 const
-nsAString
+nsACString
 &
 aMediaQueryList
 CallerType

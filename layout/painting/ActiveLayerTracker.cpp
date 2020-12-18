@@ -2027,7 +2027,7 @@ mutationCount
 0xFF
 )
 {
-nsAutoString
+nsAutoCString
 oldValue
 ;
 aDOMCSSDecl
@@ -2041,10 +2041,7 @@ oldValue
 ;
 if
 (
-NS_ConvertUTF16toUTF8
-(
 oldValue
-)
 !
 =
 aNewValue

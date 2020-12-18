@@ -258,7 +258,7 @@ KEYFRAME_RULE
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )
@@ -268,7 +268,7 @@ final
 void
 GetKeyText
 (
-nsAString
+nsACString
 &
 aKey
 )
@@ -277,7 +277,7 @@ void
 SetKeyText
 (
 const
-nsAString
+nsACString
 &
 aKey
 )

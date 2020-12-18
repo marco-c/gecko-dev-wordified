@@ -381,7 +381,7 @@ PAGE_RULE
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

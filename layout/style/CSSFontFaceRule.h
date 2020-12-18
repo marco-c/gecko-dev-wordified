@@ -204,7 +204,7 @@ GetPropertyValue
 (
 nsCSSFontDesc
 aFontDescID
-nsAString
+nsACString
 &
 aResult
 )
@@ -420,7 +420,7 @@ final
 void
 GetCssText
 (
-nsAString
+nsACString
 &
 aCssText
 )

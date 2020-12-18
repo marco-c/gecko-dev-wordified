@@ -482,7 +482,7 @@ GetPropertyValue
 const
 nsCSSPropertyID
 aPropID
-nsAString
+nsACString
 &
 aValue
 )
@@ -844,7 +844,7 @@ const
 nsACString
 &
 aMaybeCustomPropertyNme
-nsAString
+nsACString
 &
 aValue
 )
