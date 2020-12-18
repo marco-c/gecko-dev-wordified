@@ -104,6 +104,7 @@ setLength
 5
 )
 ;
+await
 op
 .
 assertRejection

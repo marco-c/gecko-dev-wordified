@@ -103,6 +103,7 @@ flush
 (
 )
 ;
+await
 op
 .
 assertRejection

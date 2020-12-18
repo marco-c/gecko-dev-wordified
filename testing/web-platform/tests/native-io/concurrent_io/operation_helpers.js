@@ -154,6 +154,10 @@ as
 third
 parameter
 .
+Returns
+a
+promise
+.
 /
 /
 assertUnchanged
@@ -281,6 +285,7 @@ readBytes
 }
 assertRejection
 :
+async
 (
 testCase
 file
@@ -289,7 +294,7 @@ readBytes
 =
 >
 {
-return
+await
 promise_rejects_dom
 (
 testCase
@@ -387,6 +392,7 @@ writtenBytes
 }
 assertRejection
 :
+async
 (
 testCase
 file
@@ -395,7 +401,7 @@ writtenBytes
 =
 >
 {
-return
+await
 promise_rejects_dom
 (
 testCase
@@ -448,6 +454,7 @@ prepare
 }
 assertRejection
 :
+async
 (
 testCase
 file
@@ -455,7 +462,7 @@ file
 =
 >
 {
-return
+await
 promise_rejects_dom
 (
 testCase
@@ -574,7 +581,7 @@ readBytes
 =
 >
 {
-return
+await
 promise_rejects_dom
 (
 testCase
