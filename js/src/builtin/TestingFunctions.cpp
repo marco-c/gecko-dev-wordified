@@ -3444,6 +3444,7 @@ isObject
 {
 PrepareZoneForGC
 (
+cx
 UncheckedUnwrap
 (
 &
@@ -11306,6 +11307,7 @@ zone
 ;
 PrepareZoneForGC
 (
+cx
 zone
 )
 ;
@@ -11395,6 +11397,7 @@ false
 }
 PrepareZoneForGC
 (
+cx
 zone
 )
 ;

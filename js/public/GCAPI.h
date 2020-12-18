@@ -3220,6 +3220,9 @@ JS_PUBLIC_API
 void
 PrepareZoneForGC
 (
+JSContext
+*
+cx
 Zone
 *
 zone
@@ -3376,6 +3379,9 @@ JS_PUBLIC_API
 void
 SkipZoneForGC
 (
+JSContext
+*
+cx
 Zone
 *
 zone

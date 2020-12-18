@@ -3025,6 +3025,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 wrapper
 -
 >
@@ -4600,6 +4601,7 @@ JS
 :
 PrepareZoneForGC
 (
+cx
 zone
 )
 ;
