@@ -4170,7 +4170,7 @@ mMockGfxInfo
 >
 mMaxRefreshRate
 =
-60
+75
 ;
 mMockGfxInfo
 -
