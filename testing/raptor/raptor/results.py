@@ -75,6 +75,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 json
 import
 os
@@ -5306,15 +5308,18 @@ results
 for
 measurement
 in
+six
+.
+iteritems
+(
+                                
 new_result
 [
 "
 measurements
 "
 ]
-.
-iteritems
-(
+                            
 )
 :
                                 

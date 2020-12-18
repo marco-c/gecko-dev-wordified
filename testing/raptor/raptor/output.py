@@ -88,6 +88,8 @@ absolute_import
 division
 print_function
 import
+six
+import
 filters
 import
 json
@@ -5402,13 +5404,14 @@ for
 _sub
 _value
 in
+six
+.
+iteritems
+(
 pagecycle
 [
 0
 ]
-.
-iteritems
-(
 )
 :
                 

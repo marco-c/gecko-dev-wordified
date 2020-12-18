@@ -59,6 +59,8 @@ import
 absolute_import
 print_function
 import
+six
+import
 argparse
 import
 os
@@ -4449,10 +4451,11 @@ key
 in
 sorted
 (
-test_list
+six
 .
 iterkeys
 (
+test_list
 )
 )
 :

@@ -69,6 +69,8 @@ absolute_import
 division
 print_function
 import
+six
+import
 os
 import
 sys
@@ -1401,10 +1403,11 @@ for
 k
 v
 in
-totals_uss
+six
 .
 iteritems
 (
+totals_uss
 )
 if
 "

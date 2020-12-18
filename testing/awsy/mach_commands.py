@@ -1334,10 +1334,11 @@ for
 k
 v
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
 :
             

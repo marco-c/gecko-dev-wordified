@@ -58,6 +58,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 argparse
 import
 sys
@@ -257,12 +259,13 @@ self
 for
 item
 in
-globals
-(
-)
+six
 .
 itervalues
 (
+globals
+(
+)
 )
 :
             

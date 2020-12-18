@@ -59,6 +59,8 @@ import
 absolute_import
 unicode_literals
 import
+six
+import
 json
 import
 os
@@ -209,10 +211,11 @@ for
 fname
 fobj
 in
-ALL_FLAVORS
+six
 .
 iteritems
 (
+ALL_FLAVORS
 )
 :
             
