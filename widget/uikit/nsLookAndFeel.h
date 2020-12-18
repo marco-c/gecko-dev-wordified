@@ -115,8 +115,13 @@ nsXPLookAndFeel
 {
 public
 :
+explicit
 nsLookAndFeel
 (
+const
+LookAndFeelCache
+*
+aCache
 )
 ;
 virtual

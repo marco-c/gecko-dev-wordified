@@ -1498,6 +1498,16 @@ BroadcastFontListChanged
 (
 )
 ;
+static
+void
+BroadcastThemeUpdate
+(
+widget
+:
+:
+ThemeChangeKind
+)
+;
 const
 nsACString
 &

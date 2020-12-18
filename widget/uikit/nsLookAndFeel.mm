@@ -153,6 +153,9 @@ nsLookAndFeel
 :
 nsLookAndFeel
 (
+LookAndFeelCache
+*
+aCache
 )
 :
 nsXPLookAndFeel
