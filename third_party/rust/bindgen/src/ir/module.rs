@@ -41,9 +41,15 @@ item
 ItemSet
 ;
 use
+crate
+:
+:
 clang
 ;
 use
+crate
+:
+:
 parse
 :
 :
@@ -54,6 +60,9 @@ ParseResult
 }
 ;
 use
+crate
+:
+:
 parse_one
 ;
 use

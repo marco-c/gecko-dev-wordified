@@ -15,9 +15,15 @@ Clang
 cursors
 .
 use
+crate
+:
+:
 clang
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -31,6 +37,9 @@ TypeId
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :

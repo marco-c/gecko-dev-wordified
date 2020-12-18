@@ -21,6 +21,9 @@ MonotoneFramework
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -30,6 +33,9 @@ comp
 Field
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -39,6 +45,9 @@ comp
 FieldMethods
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -51,6 +60,9 @@ ItemId
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -60,6 +72,9 @@ traversal
 EdgeKind
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -69,6 +84,9 @@ ty
 TypeKind
 ;
 use
+crate
+:
+:
 {
 HashMap
 HashSet

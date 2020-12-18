@@ -631,6 +631,9 @@ SizednessResult
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -643,6 +646,9 @@ ItemId
 }
 ;
 use
+crate
+:
+:
 ir
 :
 :
@@ -655,6 +661,12 @@ Trace
 }
 ;
 use
+crate
+:
+:
+HashMap
+;
+use
 std
 :
 :
@@ -665,9 +677,6 @@ std
 :
 :
 ops
-;
-use
-HashMap
 ;
 /
 /
@@ -1731,6 +1740,9 @@ super
 *
 ;
 use
+crate
+:
+:
 {
 HashMap
 HashSet

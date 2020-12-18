@@ -34,9 +34,15 @@ RUST_DERIVE_IN_ARRAY_LIMIT
 }
 ;
 use
+crate
+:
+:
 clang
 ;
 use
+crate
+:
+:
 ir
 :
 :
