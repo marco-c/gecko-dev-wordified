@@ -175,7 +175,7 @@ S
 ;
 SmallVector
 <
-ast_type_traits
+clang
 :
 :
 DynTypedNode
@@ -205,7 +205,7 @@ empty
 )
 )
 {
-ast_type_traits
+clang
 :
 :
 DynTypedNode
