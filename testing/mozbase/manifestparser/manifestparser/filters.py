@@ -106,6 +106,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 itertools
 import
@@ -2740,6 +2741,13 @@ in
 runtimes
 ]
         
+#
+pylint
+-
+-
+py3k
+W1619
+        
 avg
 =
 round
@@ -3074,6 +3082,13 @@ this_chunk
 -
 1
 ]
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 log
 (

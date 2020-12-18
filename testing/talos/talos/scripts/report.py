@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 argparse
 import
@@ -575,6 +576,13 @@ reduce
 outlier
 influence
                     
+#
+pylint
+-
+-
+py3k
+W1619
+                    
 tenth
 =
 len
@@ -937,6 +945,13 @@ look
 at
 weekends
 now
+    
+#
+pylint
+-
+-
+py3k
+W1619
     
 avg
 =

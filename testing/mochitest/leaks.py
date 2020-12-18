@@ -72,6 +72,10 @@ should
 be
 revised
 .
+from
+__future__
+import
+division
 import
 re
 from
@@ -1221,6 +1225,13 @@ window
 inner
 window
 .
+                
+#
+pylint
+-
+-
+py3k
+W1619
                 
 self
 .

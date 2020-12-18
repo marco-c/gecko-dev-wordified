@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 unicode_literals
 def
 get_logger
@@ -192,6 +193,13 @@ float
 "
 "
 "
+    
+#
+pylint
+-
+-
+py3k
+W1619
     
 return
 sum

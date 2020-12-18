@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 unicode_literals
 import
 csv
@@ -3837,6 +3838,13 @@ default
 float
 }
         
+#
+pylint
+-
+-
+py3k
+W1619
+        
 expected_samples
 =
 int
@@ -4992,6 +5000,10 @@ of
 samples
 .
         
+#
+pylint
+W16919
+        
 expected_samples
 =
 int
@@ -5861,6 +5873,13 @@ lower
 )
 :
                 
+#
+pylint
+-
+-
+py3k
+W1619
+                
 watt_usage
 [
 replace_measure_name
@@ -6034,6 +6053,13 @@ utilized_name
 gpu
 "
             
+#
+pylint
+-
+-
+py3k
+W1619
+            
 average_utilization
 [
 utilized_name
@@ -6180,6 +6206,13 @@ fmeasure_name
 "
 gpu
 "
+            
+#
+pylint
+-
+-
+py3k
+W1619
             
 frequency_info
 [

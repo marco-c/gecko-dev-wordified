@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 math
 import
@@ -990,6 +991,13 @@ i
 1
 )
     
+#
+pylint
+-
+-
+py3k
+W1619
+    
 return
 math
 .
@@ -1344,6 +1352,13 @@ Splay
 0
     
 }
+    
+#
+pylint
+-
+-
+py3k
+W1619
     
 return
 reference

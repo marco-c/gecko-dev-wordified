@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 hashlib
 import
@@ -2091,6 +2092,13 @@ left
 =
 right
 :
+            
+#
+pylint
+-
+-
+py3k
+W1619
             
 mid
 =

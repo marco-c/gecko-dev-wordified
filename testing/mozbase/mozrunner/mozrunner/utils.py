@@ -76,6 +76,7 @@ from
 __future__
 import
 absolute_import
+division
 print_function
 import
 os
@@ -1245,6 +1246,13 @@ mozinfo
 isWin
 :
                 
+#
+pylint
+-
+-
+py3k
+W1619
+                
 totalMemory
 =
 (
@@ -1285,6 +1293,13 @@ mozinfo
 .
 isMac
 :
+                
+#
+pylint
+-
+-
+py3k
+W1619
                 
 totalMemory
 =

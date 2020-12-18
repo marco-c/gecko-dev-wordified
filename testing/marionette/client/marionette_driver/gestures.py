@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 from
 .
 legacy_actions
@@ -521,6 +522,13 @@ time_increment
 =
 duration
     
+#
+pylint
+-
+-
+py3k
+W1619
+    
 move_x1
 =
 time_increment
@@ -634,6 +642,13 @@ time
 +
 =
 time_increment
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 action1
 .

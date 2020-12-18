@@ -10,6 +10,7 @@ python3
 from
 __future__
 import
+division
 print_function
 import
 sys
@@ -115,6 +116,13 @@ subtests
 "
 ]
 :
+                
+#
+pylint
+-
+-
+py3k
+W1619
                 
 print
 (

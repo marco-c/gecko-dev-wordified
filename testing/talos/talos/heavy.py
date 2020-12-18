@@ -69,6 +69,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 os
 import
@@ -891,6 +892,13 @@ chunk_size
 =
 1024
 )
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 size
 =

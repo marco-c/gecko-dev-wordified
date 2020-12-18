@@ -85,6 +85,7 @@ from
 __future__
 import
 absolute_import
+division
 print_function
 import
 filters
@@ -2758,6 +2759,13 @@ results
 10
 ]
             
+#
+pylint
+-
+-
+py3k
+W1619
+            
 score
 =
 60
@@ -3227,6 +3235,13 @@ results
 :
 76
 ]
+            
+#
+pylint
+-
+-
+py3k
+W1619
             
 return
 60

@@ -182,6 +182,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 sys
 import
@@ -608,6 +609,13 @@ time
 (
 )
             
+#
+pylint
+-
+-
+py3k
+W1619
+            
 self
 .
 ittimes
@@ -691,6 +699,13 @@ self
 .
 eta
 )
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 x
 =

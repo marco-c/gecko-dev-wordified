@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 functools
 from
@@ -2525,6 +2526,13 @@ start_time
 self
 .
 suite_start_time
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 time
 =

@@ -70,9 +70,7 @@ from
 __future__
 import
 absolute_import
-from
-__future__
-import
+division
 print_function
 import
 platform
@@ -1711,6 +1709,13 @@ chunk_size
 =
 1024
 )
+            
+#
+pylint
+-
+-
+py3k
+W1619
             
 size
 =

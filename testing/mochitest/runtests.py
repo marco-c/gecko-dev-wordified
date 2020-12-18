@@ -68,6 +68,7 @@ harness
 from
 __future__
 import
+division
 print_function
 with_statement
 import
@@ -2295,6 +2296,13 @@ buf
 in
 dumped_messages
 :
+            
+#
+pylint
+-
+-
+py3k
+W1619
             
 timestamp
 =

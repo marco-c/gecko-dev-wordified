@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 class
 EmulatorBattery
 (
@@ -191,6 +192,13 @@ field
 ]
 =
 value
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 state
 [

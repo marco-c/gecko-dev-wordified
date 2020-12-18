@@ -66,6 +66,7 @@ from
 __future__
 import
 absolute_import
+division
 print_function
 import
 os
@@ -556,6 +557,13 @@ sorted
 values
 )
     
+#
+pylint
+-
+-
+py3k
+W1619
+    
 med
 =
 int
@@ -582,6 +590,13 @@ sorted_
 [
 med
 ]
+    
+#
+pylint
+-
+-
+py3k
+W1619
     
 return
 (
@@ -1494,6 +1509,13 @@ wiki
 Geometric_mean
 #
 Relationship_with_arithmetic_mean_of_logarithms
+    
+#
+pylint
+-
+-
+py3k
+W1619
     
 suite
 [

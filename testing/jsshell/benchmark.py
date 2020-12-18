@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 print_function
 import
 json
@@ -925,6 +926,13 @@ name
 score
 )
                 
+#
+pylint
+-
+-
+py3k
+W1619
+                
 mean
 =
 sum
@@ -1388,6 +1396,13 @@ items
 (
 )
 :
+                
+#
+pylint
+-
+-
+py3k
+W1619
                 
 mean
 =
@@ -2282,6 +2297,13 @@ name
 score_name
 )
                 
+#
+pylint
+-
+-
+py3k
+W1619
+                
 mean
 =
 sum
@@ -2699,6 +2721,13 @@ self
 name
 score_name
 )
+                
+#
+pylint
+-
+-
+py3k
+W1619
                 
 mean
 =

@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 unicode_literals
 import
 os
@@ -1180,6 +1181,13 @@ CPU
 %
 of
 8
+            
+#
+pylint
+-
+-
+py3k
+W1619
             
 avg_cpuinfo_data
 =

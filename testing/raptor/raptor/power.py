@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 os
 import
@@ -3189,6 +3190,13 @@ Zero
 return
 0
                 
+#
+pylint
+-
+-
+py3k
+W1619
+                
 return
 (
                     
@@ -3264,6 +3272,13 @@ values
 "
 ]
 :
+                
+#
+pylint
+-
+-
+py3k
+W1619
                 
 pc_power_data
 [

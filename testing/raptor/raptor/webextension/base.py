@@ -66,6 +66,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 json
 import
@@ -578,6 +579,13 @@ for
 page
 cycles
         
+#
+pylint
+-
+-
+py3k
+W1619
+        
 timeout
 =
 int
@@ -625,6 +633,13 @@ propagated
 through
 the
 framework
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 timeout
 +

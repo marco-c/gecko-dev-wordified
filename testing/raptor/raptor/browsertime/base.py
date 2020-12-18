@@ -66,6 +66,7 @@ from
 __future__
 import
 absolute_import
+division
 from
 abc
 import
@@ -2285,6 +2286,13 @@ all
 page
 cycles
         
+#
+pylint
+-
+-
+py3k
+W1619
+        
 bt_timeout
 =
 int
@@ -2373,6 +2381,13 @@ add
 that
 in
 sec
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 bt_timeout
 +

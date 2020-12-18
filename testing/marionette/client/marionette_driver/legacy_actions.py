@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 from
 .
 import
@@ -1726,6 +1727,13 @@ time_increment
 =
 duration
         
+#
+pylint
+-
+-
+py3k
+W1619
+        
 move_x
 =
 time_increment
@@ -1799,6 +1807,13 @@ move_x
 move_y
 ]
 )
+            
+#
+pylint
+-
+-
+py3k
+W1619
             
 self
 .

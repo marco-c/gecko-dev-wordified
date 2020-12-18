@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 from
 contextlib
 import
@@ -3358,6 +3359,13 @@ if
 per_cpu
 :
             
+#
+pylint
+-
+-
+py3k
+W1619
+            
 return
 [
 sum
@@ -3384,6 +3392,13 @@ x
 in
 cpu
 ]
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 return
 sum
@@ -4460,6 +4475,13 @@ cpu_percent_cores
 "
 ]
 :
+                
+#
+pylint
+-
+-
+py3k
+W1619
                 
 e
 [

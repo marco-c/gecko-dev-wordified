@@ -227,6 +227,10 @@ pass
 "
 "
 "
+from
+__future__
+import
+division
 import
 ctypes
 import
@@ -411,6 +415,13 @@ sizes
 [
 from_unit
 ]
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 return
 size

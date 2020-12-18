@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 time
 import
@@ -1058,6 +1059,7 @@ values
 "
 :
 {
+                
 u
 "
 avg
@@ -1076,7 +1078,14 @@ self
 .
 polls
 )
+            
 }
+#
+pylint
+-
+-
+py3k
+W1619
         
 }
         

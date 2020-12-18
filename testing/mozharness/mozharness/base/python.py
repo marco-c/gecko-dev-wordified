@@ -102,6 +102,10 @@ virtualenv
 "
 "
 "
+from
+__future__
+import
+division
 import
 errno
 import
@@ -5880,6 +5884,13 @@ division
 by
 0
 .
+            
+#
+pylint
+-
+-
+py3k
+W1619
             
 percent
 =

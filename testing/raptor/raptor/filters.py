@@ -71,6 +71,7 @@ from
 __future__
 import
 absolute_import
+division
 import
 math
 "
@@ -625,15 +626,36 @@ series
 #
 odd
         
+#
+pylint
+-
+-
+py3k
+W1619
+        
+#
+must
+force
+to
+int
+to
+use
+as
+index
+.
+        
 return
 series
 [
+int
+(
 len
 (
 series
 )
 /
 2
+)
 ]
     
 else
@@ -641,6 +663,13 @@ else
         
 #
 even
+        
+#
+pylint
+-
+-
+py3k
+W1619
         
 middle
 =
@@ -994,6 +1023,13 @@ i
 +
 1
 )
+    
+#
+pylint
+-
+-
+py3k
+W1619
     
 return
 math
@@ -1441,6 +1477,13 @@ Splay
 0
     
 }
+    
+#
+pylint
+-
+-
+py3k
+W1619
     
 return
 reference
