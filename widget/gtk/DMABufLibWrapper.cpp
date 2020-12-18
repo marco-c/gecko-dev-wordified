@@ -1580,6 +1580,17 @@ StaticPrefs
 media_ffmpeg_vaapi_enabled
 (
 )
+&
+&
+gfx
+:
+:
+gfxVars
+:
+:
+CanUseHardwareVideoDecoding
+(
+)
 ;
 }
 bool
