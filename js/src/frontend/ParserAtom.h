@@ -1582,7 +1582,7 @@ HasTwoByteCharsFlag
 )
 {
 }
-protected
+public
 :
 /
 /
@@ -1593,7 +1593,8 @@ is
 used
 by
 StaticParserAtomEntry
-.
+and
+XDR
 constexpr
 ParserAtomEntry
 (
@@ -1601,8 +1602,6 @@ ParserAtomEntry
 =
 default
 ;
-public
-:
 /
 /
 ParserAtomEntries
