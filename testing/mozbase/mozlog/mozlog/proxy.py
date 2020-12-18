@@ -58,10 +58,6 @@ __future__
 import
 absolute_import
 from
-multiprocessing
-import
-Queue
-from
 threading
 import
 Thread
@@ -316,6 +312,9 @@ __init__
 (
 self
 logger
+mp_context
+=
+None
 )
 :
         
@@ -328,6 +327,17 @@ logger
 .
 name
 )
+        
+if
+mp_context
+is
+None
+:
+            
+import
+multiprocessing
+as
+mp_context
         
 if
 logger
@@ -351,6 +361,8 @@ name
 =
 LogQueueThread
 (
+mp_context
+.
 Queue
 (
 )
