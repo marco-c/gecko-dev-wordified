@@ -9689,6 +9689,9 @@ mFrontBufferInvalid
 ;
 if
 (
+mIsDoubleBuffered
+&
+&
 !
 validFront
 .
