@@ -4739,7 +4739,7 @@ Services
 .
 search
 .
-getDefaultEngines
+getAppProvidedEngines
 (
 )
 )

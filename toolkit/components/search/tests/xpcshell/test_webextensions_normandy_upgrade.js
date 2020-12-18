@@ -189,7 +189,7 @@ Services
 .
 search
 .
-getDefaultEngines
+getAppProvidedEngines
 (
 )
 ;
