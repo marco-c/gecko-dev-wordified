@@ -1225,12 +1225,9 @@ implementations
 in
 PGMPServiceParent
 .
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DESTROY
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DELETE_ON_MAIN_THREAD
 (
 GMPServiceParent
-Destroy
-(
-)
 final
 )
 ;
@@ -1379,11 +1376,6 @@ private
 :
 ~
 GMPServiceParent
-(
-)
-;
-void
-Destroy
 (
 )
 ;
