@@ -6349,6 +6349,7 @@ pylint
 py3k
 :
 W1636
+W1649
         
 lines
 =
@@ -6356,7 +6357,7 @@ list
 (
 map
 (
-string
+str
 .
 strip
 lines
@@ -6365,14 +6366,20 @@ lines
         
 certbase64
 =
-string
+"
+"
 .
 join
 (
 lines
-"
-"
 )
+#
+pylint
+-
+-
+py3k
+:
+W1649
         
 turns_url
 =

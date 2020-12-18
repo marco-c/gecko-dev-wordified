@@ -123,8 +123,6 @@ re
 import
 shutil
 import
-string
-import
 subprocess
 import
 json
@@ -2603,15 +2601,21 @@ s
                         
 site_origin_hash
                         
-string
+"
+/
+"
 .
 join
 (
 merged
-"
-/
-"
 )
+#
+pylint
+-
+-
+py3k
+:
+W1649
                     
 )
                     
