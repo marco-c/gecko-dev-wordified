@@ -18,15 +18,6 @@ Intl
 )
 |
 |
-(
-!
-this
-.
-Intl
-.
-DisplayNames
-&
-&
 !
 this
 .
@@ -37,7 +28,11 @@ addIntlExtras
 '
 )
 )
+addMozIntlDisplayNames
+(
+this
 )
+;
 let
 dn1
 =
