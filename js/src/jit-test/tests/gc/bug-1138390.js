@@ -76,9 +76,13 @@ assertEq
 gcstate
 (
 )
+=
+=
+=
 "
-Mark
+NotActive
 "
+false
 )
 ;
 g

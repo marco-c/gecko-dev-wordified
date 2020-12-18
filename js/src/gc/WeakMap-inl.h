@@ -909,9 +909,14 @@ zone
 )
 -
 >
-wasGCStarted
+gcState
 (
 )
+>
+Zone
+:
+:
+Prepare
 )
 {
 mapColor
