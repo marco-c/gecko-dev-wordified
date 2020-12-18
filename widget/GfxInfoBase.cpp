@@ -7203,7 +7203,6 @@ allDriverVersions
 {
 if
 (
-(
 info
 [
 i
@@ -7216,16 +7215,6 @@ GfxDriverInfo
 :
 :
 allFeatures
-&
-&
-aFeature
-!
-=
-nsIGfxInfo
-:
-:
-FEATURE_WEBRENDER_SOFTWARE
-)
 |
 |
 info
