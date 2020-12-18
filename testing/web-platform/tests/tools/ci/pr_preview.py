@@ -481,6 +481,18 @@ raise_for_status
 (
 )
     
+if
+resp
+.
+status_code
+=
+=
+204
+:
+        
+return
+None
+    
 return
 resp
 .

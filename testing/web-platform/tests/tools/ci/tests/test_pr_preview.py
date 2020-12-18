@@ -3641,9 +3641,8 @@ Requests
 .
 ref_delete_trusted
 (
-200
-{
-}
+204
+None
 )
 )
         
@@ -3661,9 +3660,8 @@ Requests
 .
 ref_delete_open
 (
-200
-{
-}
+204
+None
 )
 )
     
