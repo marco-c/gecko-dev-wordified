@@ -739,6 +739,15 @@ slug
 experiment
 )
 ;
+if
+(
+experiment
+.
+branch
+.
+feature
+)
+{
 this
 .
 emit
@@ -757,6 +766,7 @@ featureId
 experiment
 )
 ;
+}
 }
 /
 *
@@ -822,6 +832,7 @@ experiment
 branch
 .
 feature
+?
 .
 featureId
 )
