@@ -638,7 +638,11 @@ aURI
 )
 )
 {
-return
+if
+(
+aLink
+)
+{
 aLink
 -
 >
@@ -652,6 +656,9 @@ visited
 /
 false
 )
+;
+}
+return
 ;
 }
 /
