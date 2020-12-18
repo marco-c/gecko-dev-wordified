@@ -464,7 +464,7 @@ following
 /
 (
 ignoring
-TrySkipAwait
+CanSkipAwait
 ;
 see
 the
@@ -704,7 +704,7 @@ sequence
 /
 (
 Ignoring
-TrySkipAwait
+CanSkipAwait
 for
 simplicity
 )
@@ -1348,7 +1348,7 @@ sequence
 /
 (
 Ignoring
-TrySkipAwait
+CanSkipAwait
 for
 simplicity
 )

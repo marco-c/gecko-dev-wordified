@@ -1,6 +1,6 @@
 /
 /
-JSOP_TRYSKIPAWAIT
+CanSkipAwait
 with
 primitive
 values
