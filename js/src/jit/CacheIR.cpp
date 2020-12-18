@@ -1069,7 +1069,7 @@ CacheIRCloner
 :
 CacheIRCloner
 (
-ICStub
+ICCacheIRStub
 *
 stub
 )
@@ -1079,7 +1079,7 @@ stubInfo_
 stub
 -
 >
-cacheIRStubInfo
+stubInfo
 (
 )
 )
@@ -1088,7 +1088,7 @@ stubData_
 stub
 -
 >
-cacheIRStubData
+stubDataStart
 (
 )
 )

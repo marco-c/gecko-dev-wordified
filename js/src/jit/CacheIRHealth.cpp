@@ -229,7 +229,7 @@ spewStubHealth
 AutoStructuredSpewer
 &
 spew
-ICStub
+ICCacheIRStub
 *
 stub
 )
@@ -242,7 +242,7 @@ stubInfo
 stub
 -
 >
-cacheIRStubInfo
+stubInfo
 (
 )
 ;
@@ -528,6 +528,11 @@ spewStubHealth
 (
 spew
 stub
+-
+>
+toCacheIRStub
+(
+)
 )
 ;
 if

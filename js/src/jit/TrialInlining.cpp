@@ -489,7 +489,7 @@ TrialInliner
 :
 cloneSharedPrefix
 (
-ICStub
+ICCacheIRStub
 *
 stub
 const
@@ -507,7 +507,7 @@ reader
 stub
 -
 >
-cacheIRStubInfo
+stubInfo
 (
 )
 )
@@ -623,7 +623,7 @@ attached
 =
 false
 ;
-ICStub
+auto
 *
 newStub
 =
@@ -712,7 +712,7 @@ return
 true
 ;
 }
-ICStub
+ICCacheIRStub
 *
 TrialInliner
 :
@@ -928,6 +928,11 @@ nullptr
 }
 return
 stub
+-
+>
+toCacheIRStub
+(
+)
 ;
 }
 Maybe
@@ -936,7 +941,7 @@ InlinableOpData
 >
 FindInlinableOpData
 (
-ICStub
+ICCacheIRStub
 *
 stub
 BytecodeLocation
@@ -1060,7 +1065,7 @@ InlinableCallData
 >
 FindInlinableCallData
 (
-ICStub
+ICCacheIRStub
 *
 stub
 )
@@ -1079,7 +1084,7 @@ stubInfo
 stub
 -
 >
-cacheIRStubInfo
+stubInfo
 (
 )
 ;
@@ -1091,7 +1096,7 @@ stubData
 stub
 -
 >
-cacheIRStubData
+stubDataStart
 (
 )
 ;
@@ -1703,7 +1708,7 @@ InlinableGetterData
 >
 FindInlinableGetterData
 (
-ICStub
+ICCacheIRStub
 *
 stub
 )
@@ -1722,7 +1727,7 @@ stubInfo
 stub
 -
 >
-cacheIRStubInfo
+stubInfo
 (
 )
 ;
@@ -1734,7 +1739,7 @@ stubData
 stub
 -
 >
-cacheIRStubData
+stubDataStart
 (
 )
 ;
@@ -2113,7 +2118,7 @@ InlinableSetterData
 >
 FindInlinableSetterData
 (
-ICStub
+ICCacheIRStub
 *
 stub
 )
@@ -2132,7 +2137,7 @@ stubInfo
 stub
 -
 >
-cacheIRStubInfo
+stubInfo
 (
 )
 ;
@@ -2144,7 +2149,7 @@ stubData
 stub
 -
 >
-cacheIRStubData
+stubDataStart
 (
 )
 ;
@@ -2682,7 +2687,7 @@ shouldInline
 JSFunction
 *
 target
-ICStub
+ICCacheIRStub
 *
 stub
 BytecodeLocation
@@ -3541,7 +3546,7 @@ BytecodeLocation
 loc
 )
 {
-ICStub
+ICCacheIRStub
 *
 stub
 =
@@ -3815,7 +3820,7 @@ BytecodeLocation
 loc
 )
 {
-ICStub
+ICCacheIRStub
 *
 stub
 =
@@ -4035,7 +4040,7 @@ BytecodeLocation
 loc
 )
 {
-ICStub
+ICCacheIRStub
 *
 stub
 =

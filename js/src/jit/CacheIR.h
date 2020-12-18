@@ -281,7 +281,7 @@ InlinableNative
 uint16_t
 ;
 class
-ICStub
+ICCacheIRStub
 ;
 class
 ICScript
@@ -7752,7 +7752,7 @@ public
 explicit
 CacheIRCloner
 (
-ICStub
+ICCacheIRStub
 *
 stubInfo
 )

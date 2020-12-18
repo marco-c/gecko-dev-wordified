@@ -7473,7 +7473,7 @@ T
 &
 getStubField
 (
-ICStub
+ICCacheIRStub
 *
 stub
 uint32_t
@@ -7484,7 +7484,7 @@ const
 return
 getStubField
 <
-ICStub
+ICCacheIRStub
 T
 >
 (
@@ -7508,7 +7508,7 @@ const
 uintptr_t
 getStubRawWord
 (
-ICStub
+ICCacheIRStub
 *
 stub
 uint32_t
@@ -7531,7 +7531,7 @@ const
 int64_t
 getStubRawInt64
 (
-ICStub
+ICCacheIRStub
 *
 stub
 uint32_t
