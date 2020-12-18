@@ -975,7 +975,7 @@ oldTabIndex
 "
 )
 const
-isActiveElemDialogOrHTMLorBODY
+isActiveElemDialogOrHTML
 =
 (
 elemTagName
@@ -988,9 +988,6 @@ return
 [
 "
 HTML
-"
-"
-BODY
 "
 "
 CONFIRMATION
@@ -1055,9 +1052,9 @@ showing
 "
 )
 ;
-ok
+is
 (
-isActiveElemDialogOrHTMLorBODY
+isActiveElemDialogOrHTML
 (
 document
 .
@@ -1065,6 +1062,7 @@ activeElement
 .
 tagName
 )
+true
 "
 The
 confirmation
