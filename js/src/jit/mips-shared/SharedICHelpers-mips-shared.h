@@ -701,7 +701,7 @@ loadPtr
 Address
 (
 ICStubReg
-ICStub
+ICCacheIRStub
 :
 :
 offsetOfNext

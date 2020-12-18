@@ -517,7 +517,7 @@ count
 stub
 -
 >
-getEnteredCount
+enteredCount
 (
 )
 ;
@@ -630,6 +630,11 @@ endObject
 stub
 =
 stub
+-
+>
+toCacheIRStub
+(
+)
 -
 >
 next

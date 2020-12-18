@@ -296,7 +296,7 @@ Generic
 ;
 private
 :
-uint32_t
+uint8_t
 mode_
 :
 2
@@ -310,7 +310,7 @@ a
 Baseline
 IC
 .
-uint32_t
+uint8_t
 trialInliningState_
 :
 2
