@@ -64,8 +64,6 @@ os
 import
 types
 import
-urllib2
-import
 six
 from
 six
