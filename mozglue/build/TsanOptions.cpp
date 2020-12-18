@@ -1672,16 +1672,6 @@ race
 ScriptPreloader
 :
 :
-MaybeFinishOffThreadDecode
-\
-n
-"
-"
-race
-:
-ScriptPreloader
-:
-:
 DoFinishOffThreadDecode
 \
 n
