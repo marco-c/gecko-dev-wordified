@@ -1320,8 +1320,8 @@ mResult
 }
 ;
 static
-NodeId
-GetNodeId
+NodeIdParts
+GetNodeIdParts
 (
 const
 nsAString
@@ -1403,12 +1403,15 @@ suffix
 )
 ;
 return
-NodeId
-(
+NodeIdParts
+{
 origin
 topLevelOrigin
+nsString
+(
 aGmpName
 )
+}
 ;
 }
 static
@@ -2327,7 +2330,7 @@ aUpdates
 {
 CreateDecryptor
 (
-GetNodeId
+GetNodeIdParts
 (
 aOrigin
 aTopLevelOrigin
@@ -2354,7 +2357,7 @@ void
 CreateDecryptor
 (
 const
-NodeId
+NodeIdParts
 &
 aNodeId
 nsTArray
