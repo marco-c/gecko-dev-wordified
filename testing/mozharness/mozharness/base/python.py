@@ -4948,6 +4948,13 @@ if
 cpu_percent
 :
                 
+#
+pylint
+:
+disable
+=
+W1633
+                
 cpu_percent_str
 =
 str

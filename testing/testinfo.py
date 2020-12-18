@@ -5578,11 +5578,20 @@ item
 label
 ]
 =
+float
+(
 round
 (
 new_value
 2
 )
+)
+#
+pylint
+:
+disable
+=
+W1633
         
 if
 "
@@ -5655,8 +5664,17 @@ test
 ]
 :
                         
+#
+pylint
+:
+disable
+=
+W1633
+                        
 seconds
 =
+float
+(
 round
 (
 result
@@ -5669,6 +5687,7 @@ duration
 0
 )
 2
+)
 )
                         
 update_item

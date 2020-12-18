@@ -1414,6 +1414,13 @@ self
 .
 total_chunks
         
+#
+pylint
+:
+disable
+=
+W1633
+        
 start
 =
 int
@@ -1924,6 +1931,13 @@ append
 (
 test
 )
+        
+#
+pylint
+:
+disable
+=
+W1633
         
 tests_per_chunk
 =
@@ -2748,6 +2762,13 @@ pylint
 py3k
 W1619
         
+#
+pylint
+:
+disable
+=
+W1633
+        
 avg
 =
 round
@@ -3089,6 +3110,13 @@ pylint
 -
 py3k
 W1619
+        
+#
+pylint
+:
+disable
+=
+W1633
         
 log
 (

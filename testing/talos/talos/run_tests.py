@@ -4129,6 +4129,13 @@ _index
 ]
 )
             
+#
+pylint
+:
+disable
+=
+W1633
+            
 comp_results
 [
 subtest_index
@@ -4141,10 +4148,13 @@ runs
 .
 append
 (
+float
+(
 round
 (
 diff
 3
+)
 )
 )
             

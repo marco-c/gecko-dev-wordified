@@ -3355,6 +3355,13 @@ dom
 )
 :
             
+#
+pylint
+:
+disable
+=
+W1633
+            
 return
 round
 (
@@ -3462,6 +3469,13 @@ playback
 "
 )
 :
+            
+#
+pylint
+:
+disable
+=
+W1633
             
 return
 round
@@ -3661,6 +3675,13 @@ vals
 1
 :
             
+#
+pylint
+:
+disable
+=
+W1633
+            
 return
 round
 (
@@ -3675,6 +3696,13 @@ vals
 )
 2
 )
+        
+#
+pylint
+:
+disable
+=
+W1633
         
 return
 round
@@ -4090,6 +4118,13 @@ replicates
 ]
                     
 }
+                
+#
+pylint
+:
+disable
+=
+W1633
                 
 _subtests
 [
@@ -4935,6 +4970,13 @@ replicates
                     
 }
                 
+#
+pylint
+:
+disable
+=
+W1633
+                
 _subtests
 [
 sub
@@ -4947,17 +4989,22 @@ replicates
 .
 extend
 (
+                    
 [
+float
+(
 round
 (
 x
 3
+)
 )
 for
 x
 in
 replicates
 ]
+                
 )
         
 vals
@@ -5763,6 +5810,13 @@ in
 names
 :
             
+#
+pylint
+:
+disable
+=
+W1633
+            
 _subtests
 [
 name
@@ -5776,6 +5830,8 @@ value
 round
 (
                 
+float
+(
 filters
 .
 median
@@ -5789,6 +5845,7 @@ name
 replicates
 "
 ]
+)
 )
 2
             
@@ -9644,6 +9701,13 @@ replicates
                     
 }
                 
+#
+pylint
+:
+disable
+=
+W1633
+                
 _subtests
 [
 sub
@@ -9656,17 +9720,22 @@ replicates
 .
 extend
 (
+                    
 [
+float
+(
 round
 (
 x
 3
+)
 )
 for
 x
 in
 replicates
 ]
+                
 )
         
 vals
@@ -10985,6 +11054,13 @@ replicates
                     
 }
                 
+#
+pylint
+:
+disable
+=
+W1633
+                
 _subtests
 [
 sub
@@ -10997,17 +11073,22 @@ replicates
 .
 extend
 (
+                    
 [
+float
+(
 round
 (
 x
 3
+)
 )
 for
 x
 in
 replicates
 ]
+                
 )
         
 vals
@@ -11516,6 +11597,13 @@ keys
 try
 :
                     
+#
+pylint
+:
+disable
+=
+W1633
+                    
 replicate
 =
 round
@@ -11910,6 +11998,13 @@ replicates
                     
 }
                 
+#
+pylint
+:
+disable
+=
+W1633
+                
 _subtests
 [
 sub
@@ -11922,17 +12017,22 @@ replicates
 .
 extend
 (
+                    
 [
+float
+(
 round
 (
 x
 3
+)
 )
 for
 x
 in
 replicates
 ]
+                
 )
         
 subtests
@@ -12393,6 +12493,13 @@ in
 names
 :
             
+#
+pylint
+:
+disable
+=
+W1633
+            
 _subtests
 [
 name
@@ -12403,9 +12510,11 @@ value
 "
 ]
 =
-round
+float
 (
                 
+round
+(
 filters
 .
 median
@@ -12421,6 +12530,7 @@ replicates
 ]
 )
 2
+)
             
 )
             

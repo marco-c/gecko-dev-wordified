@@ -1037,6 +1037,13 @@ errors
 TimeoutException
 (
             
+#
+pylint
+:
+disable
+=
+W1633
+            
 "
 Timed
 out
@@ -1056,6 +1063,8 @@ seconds
 format
 (
                 
+float
+(
 round
 (
 (
@@ -1068,6 +1077,7 @@ now
 start
 )
 1
+)
 )
 message
 if
