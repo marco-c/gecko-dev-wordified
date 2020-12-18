@@ -36686,6 +36686,8 @@ self
 stringifier
         
 if
+(
+            
 not
 self
 .
@@ -36694,6 +36696,7 @@ type
 isDOMString
 (
 )
+            
 and
 not
 self
@@ -36702,6 +36705,18 @@ type
 .
 isUSVString
 (
+)
+            
+and
+not
+self
+.
+type
+.
+isUTF8String
+(
+)
+        
 )
 :
             
@@ -36723,8 +36738,9 @@ be
 "
 either
 DOMString
-or
 USVString
+or
+UTF8String
 "
                 
 [
