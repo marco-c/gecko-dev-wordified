@@ -22341,6 +22341,9 @@ kManuallyManagedStates
 {
 {
 "
+-
+moz
+-
 autofill
 "
 NS_EVENT_STATE_AUTOFILL
