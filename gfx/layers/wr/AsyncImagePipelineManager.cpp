@@ -308,6 +308,16 @@ mUseExternalImage
 (
 false
 )
+mRotation
+(
+VideoInfo
+:
+:
+Rotation
+:
+:
+kDegree_0
+)
 mFilter
 (
 wr
