@@ -1130,7 +1130,7 @@ void
 AddActivity
 (
 Activity
-*
+&
 aActivity
 )
 ;
@@ -1138,7 +1138,7 @@ void
 RemoveActivity
 (
 Activity
-*
+&
 aActivity
 )
 ;
@@ -1380,8 +1380,11 @@ RemoveActivity
 .
 nsTObserverArray
 <
+NotNull
+<
 Activity
 *
+>
 >
 mActivityList
 ;
