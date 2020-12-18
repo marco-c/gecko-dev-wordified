@@ -124952,6 +124952,25 @@ concrete
         
 )
         
+descriptorsHaveNeedsMissingPropUseCounters
+=
+any
+(
+            
+d
+.
+needsMissingPropUseCounters
+for
+d
+in
+descriptors
+if
+d
+.
+concrete
+        
+)
+        
 bindingHeaders
 [
 "
@@ -125004,7 +125023,7 @@ MISSING_PROP_PREF
 )
             
 or
-descriptorsHaveInstrumentedProps
+descriptorsHaveNeedsMissingPropUseCounters
         
 )
         
