@@ -181,18 +181,6 @@ restrict3rdpartystorage
 url_decorations
 "
 ;
-inline
-bool
-IgnoreWhitespace
-(
-char16_t
-c
-)
-{
-return
-false
-;
-}
 }
 /
 /
@@ -298,7 +286,7 @@ queryBegins
 typedef
 nsCharSeparatedTokenizerTemplate
 <
-IgnoreWhitespace
+NS_TokenizerIgnoreNothing
 >
 Tokenizer
 ;
