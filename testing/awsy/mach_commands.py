@@ -66,6 +66,8 @@ import
 os
 import
 sys
+import
+six
 from
 mozbuild
 .
@@ -693,6 +695,14 @@ open
 runtime_testvars_path
 "
 wb
+"
+if
+six
+.
+PY2
+else
+"
+w
 "
 )
         
