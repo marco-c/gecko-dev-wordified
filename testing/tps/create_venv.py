@@ -127,8 +127,6 @@ subprocess
 import
 sys
 import
-urllib2
-import
 zipfile
 here
 =
@@ -540,7 +538,13 @@ target
     
 response
 =
-urllib2
+six
+.
+moves
+.
+urllib
+.
+request
 .
 urlopen
 (

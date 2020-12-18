@@ -59,6 +59,28 @@ import
 absolute_import
 import
 six
+#
+pylint
+-
+-
+py3k
+:
+W1648
+if
+six
+.
+PY2
+:
+    
+from
+ConfigParser
+import
+ConfigParser
+else
+:
+    
+from
+configparser
 import
 ConfigParser
 import
@@ -1697,8 +1719,6 @@ cwd
         
 hg_rc
 =
-ConfigParser
-.
 ConfigParser
 (
 )
