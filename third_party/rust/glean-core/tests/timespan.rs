@@ -1510,7 +1510,6 @@ set_raw
 &
 glean
 time
-false
 )
 ;
 let
@@ -1657,7 +1656,6 @@ set_raw
 &
 glean
 time
-false
 )
 ;
 metric

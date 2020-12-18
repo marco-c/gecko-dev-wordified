@@ -590,10 +590,10 @@ RecordedEvent
 >
 >
 {
-dispatcher
+crate
 :
 :
-block_on_queue
+block_on_dispatcher
 (
 )
 ;
@@ -676,10 +676,10 @@ S
 >
 i32
 {
-dispatcher
+crate
 :
 :
-block_on_queue
+block_on_dispatcher
 (
 )
 ;
