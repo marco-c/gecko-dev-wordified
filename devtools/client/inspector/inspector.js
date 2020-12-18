@@ -10619,12 +10619,6 @@ destroy
 (
 )
 ;
-this
-.
-_highlighters
-=
-null
-;
 }
 if
 (
