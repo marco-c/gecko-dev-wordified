@@ -4541,6 +4541,12 @@ case
 JSOp
 :
 :
+GetRval
+:
+case
+JSOp
+:
+:
 Return
 :
 case

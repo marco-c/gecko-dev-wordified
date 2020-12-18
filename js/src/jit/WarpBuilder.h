@@ -439,11 +439,6 @@ DelName
 \
 _
 (
-GetRval
-)
-\
-_
-(
 SetIntrinsic
 )
 \
