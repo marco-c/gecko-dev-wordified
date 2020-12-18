@@ -283,6 +283,13 @@ else
 try
 :
             
+#
+pylint
+:
+disable
+=
+W1609
+            
 input_method
 =
 raw_input
