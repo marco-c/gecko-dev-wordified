@@ -2930,6 +2930,8 @@ uint32_t
 aLoadType
 bool
 aPersist
+bool
+aCloneEntryChildren
 )
 {
 MOZ_LOG
@@ -3536,19 +3538,6 @@ session
 /
 history
 !
-/
-/
-FIXME
-Need
-to
-figure
-out
-the
-right
-value
-for
-aCloneChildren
-.
 shistory
 -
 >
@@ -3559,7 +3548,7 @@ newActiveEntry
 Top
 (
 )
-true
+aCloneEntryChildren
 )
 ;
 mActiveEntry

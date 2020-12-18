@@ -794,6 +794,8 @@ uint32_t
 aLoadType
 bool
 aPersist
+bool
+aCloneEntryChildren
 )
 ;
 /
