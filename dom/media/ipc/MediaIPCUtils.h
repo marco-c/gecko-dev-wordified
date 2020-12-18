@@ -250,9 +250,7 @@ WriteParam
 aMsg
 aParam
 .
-ImageRect
-(
-)
+mImageRect
 )
 ;
 WriteParam
@@ -399,7 +397,10 @@ ReadParam
 aMsg
 aIter
 &
-imageRect
+aResult
+-
+>
+mImageRect
 )
 &
 &
@@ -490,14 +491,6 @@ alphaPresent
 )
 )
 {
-aResult
--
->
-SetImageRect
-(
-imageRect
-)
-;
 aResult
 -
 >
