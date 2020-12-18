@@ -260,14 +260,6 @@ layout
 "
 "
     
-transient
-=
-False
-    
-can_update
-=
-True
-    
 def
 __init__
 (
@@ -296,20 +288,10 @@ return
 "
 {
 }
-(
-{
-}
-)
 "
 .
 format
 (
-type
-(
-self
-)
-.
-__name__
 self
 .
 lock
@@ -317,22 +299,17 @@ lock
 path
 )
     
+property
+    
 def
-__str__
+transient
 (
 self
 )
 :
         
 return
-str
-(
-self
-.
-lock
-.
-path
-)
+False
     
 def
 reset
@@ -887,34 +864,11 @@ if
 bad_format
 :
             
-try
-:
-                
 self
 .
 remove
 (
 )
-            
-except
-OSError
-:
-#
-reading
-and
-writing
-on
-the
-same
-file
-may
-cause
-race
-on
-multiple
-processes
-                
-pass
         
 return
 None
@@ -999,6 +953,9 @@ file
 .
 parent
         
+try
+:
+            
 folder
 .
 mkdir
@@ -1010,6 +967,12 @@ exist_ok
 =
 True
 )
+        
+except
+OSError
+:
+            
+pass
         
 self
 .
@@ -1153,9 +1116,7 @@ __init__
 (
             
 in_folder
-            
 distribution
-            
 "
 embed
 update
@@ -1164,7 +1125,6 @@ distribution
 %
 s
 "
-            
 (
 distribution
 )

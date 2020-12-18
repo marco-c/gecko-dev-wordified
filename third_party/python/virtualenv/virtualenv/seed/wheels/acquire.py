@@ -21,6 +21,8 @@ operator
 import
 eq
 lt
+import
+six
 from
 virtualenv
 .
@@ -412,14 +414,9 @@ out
 }
         
 if
-sys
+six
 .
-version_info
-<
-(
-3
-5
-)
+PY2
 :
             
 kwargs
