@@ -6171,18 +6171,29 @@ config
 )
 :
                 
+#
+pylint
+-
+-
+py3k
+:
+W1636
+                
 fcounts
 =
-map
+list
 (
                     
+map
+(
+                        
 len
-                    
+                        
 sparsemod
 .
 _updateconfigandrefreshwdir
 (
-                        
+                            
 repo
 [
 ]
@@ -6194,6 +6205,8 @@ sparse_profile
 force
 =
 True
+                        
+)
                     
 )
                 

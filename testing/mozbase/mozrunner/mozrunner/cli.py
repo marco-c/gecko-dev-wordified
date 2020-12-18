@@ -864,7 +864,17 @@ application
 "
 "
         
+#
+pylint
+-
+-
+py3k
+:
+W1636
+        
 return
+list
+(
 map
 (
 os
@@ -877,6 +887,7 @@ self
 options
 .
 appArgs
+)
 )
     
 def

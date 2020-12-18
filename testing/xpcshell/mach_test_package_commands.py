@@ -295,16 +295,27 @@ normalize_test_path
 test_root
 )
         
+#
+pylint
+-
+-
+py3k
+:
+W1636
+        
 args
 .
 testPaths
 =
+list
+(
 map
 (
 normalize
 args
 .
 testPaths
+)
 )
     
 import

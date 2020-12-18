@@ -663,12 +663,23 @@ join
 lines
 )
     
+#
+pylint
+-
+-
+py3k
+:
+W1636
+    
 changelog
 =
+list
+(
 map
 (
 prettify
 changelog
+)
 )
     
 print

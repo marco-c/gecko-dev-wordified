@@ -355,8 +355,18 @@ readlines
 (
 )
         
+#
+pylint
+-
+-
+py3k
+:
+W1636
+        
 urls
 =
+list
+(
 map
 (
 lambda
@@ -377,6 +387,7 @@ localhost
 "
 )
 urls
+)
 )
         
 #

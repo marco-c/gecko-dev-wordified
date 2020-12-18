@@ -6342,14 +6342,25 @@ Remove
 END
 CERTIFICATE
         
+#
+pylint
+-
+-
+py3k
+:
+W1636
+        
 lines
 =
+list
+(
 map
 (
 string
 .
 strip
 lines
+)
 )
         
 certbase64

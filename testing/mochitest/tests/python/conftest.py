@@ -580,16 +580,27 @@ TestManifest
 (
 )
         
+#
+pylint
+-
+-
+py3k
+:
+W1636
+        
 manifest
 .
 tests
 .
 extend
 (
+list
+(
 map
 (
 normalize
 tests
+)
 )
 )
         
