@@ -305,6 +305,8 @@ ZoneAllocator
 JSRuntime
 *
 rt
+Kind
+kind
 )
 ;
 ~
