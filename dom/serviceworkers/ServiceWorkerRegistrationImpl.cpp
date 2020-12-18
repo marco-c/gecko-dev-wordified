@@ -236,6 +236,17 @@ mozilla
 /
 dom
 /
+WorkerRunnable
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerScope
 .
 h
