@@ -817,11 +817,6 @@ name
 .
 name
 ]
--
->
-toIndex
-(
-)
 name
 .
 is_closed_over
@@ -961,11 +956,6 @@ name
 .
 name
 ]
--
->
-toIndex
-(
-)
 name
 .
 is_closed_over
@@ -991,12 +981,7 @@ i
 )
 ParserBindingName
 (
-TaggedParserAtomIndex
-:
-:
-null
-(
-)
+nullptr
 false
 false
 )

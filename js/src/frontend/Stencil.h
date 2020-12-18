@@ -531,15 +531,8 @@ BaseParserScopeData
 =
 AbstractBaseScopeData
 <
-TaggedParserAtomIndex
->
-;
-using
-ParserBindingName
-=
-AbstractBindingName
-<
-TaggedParserAtomIndex
+const
+ParserAtom
 >
 ;
 template
@@ -557,7 +550,8 @@ Scope
 template
 AbstractData
 <
-TaggedParserAtomIndex
+const
+ParserAtom
 >
 ;
 using
@@ -613,7 +607,8 @@ ParserBindingIter
 =
 AbstractBindingIter
 <
-TaggedParserAtomIndex
+const
+ParserAtom
 >
 ;
 /
@@ -1813,9 +1808,6 @@ dump
 JSONPrinter
 &
 json
-CompilationStencil
-*
-compilationStencil
 )
 ;
 void
@@ -1824,9 +1816,6 @@ dumpFields
 JSONPrinter
 &
 json
-CompilationStencil
-*
-compilationStencil
 )
 ;
 #
@@ -1852,7 +1841,8 @@ SpecificScopeType
 template
 AbstractData
 <
-TaggedParserAtomIndex
+const
+ParserAtom
 >
 &
 data
@@ -1870,7 +1860,8 @@ SpecificScopeType
 template
 AbstractData
 <
-TaggedParserAtomIndex
+const
+ParserAtom
 >
 ;
 MOZ_ASSERT

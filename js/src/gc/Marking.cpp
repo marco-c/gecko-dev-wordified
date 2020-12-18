@@ -10306,6 +10306,9 @@ name
 }
 }
 ;
+template
+<
+>
 void
 AbstractBindingName
 <
