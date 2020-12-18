@@ -121,6 +121,9 @@ js
 line
 :
 5
+column
+:
+0
 }
 generatedLocation
 :
@@ -137,6 +140,9 @@ js
 line
 :
 4
+column
+:
+0
 }
 options
 :
@@ -168,6 +174,9 @@ js
 line
 :
 5
+column
+:
+0
 }
 generatedLocation
 :
@@ -184,6 +193,9 @@ js
 line
 :
 2
+column
+:
+0
 }
 options
 :
