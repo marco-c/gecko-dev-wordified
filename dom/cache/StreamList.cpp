@@ -525,6 +525,7 @@ mManager
 >
 AddStreamList
 (
+*
 this
 )
 ;
@@ -980,6 +981,7 @@ mManager
 >
 RemoveStreamList
 (
+*
 this
 )
 ;

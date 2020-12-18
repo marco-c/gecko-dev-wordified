@@ -1343,7 +1343,7 @@ void
 AddStreamList
 (
 StreamList
-*
+&
 aStreamList
 )
 ;
@@ -1351,7 +1351,7 @@ void
 RemoveStreamList
 (
 StreamList
-*
+&
 aStreamList
 )
 ;
@@ -1752,8 +1752,11 @@ destructors
 .
 nsTArray
 <
+NotNull
+<
 StreamList
 *
+>
 >
 mStreamLists
 ;
