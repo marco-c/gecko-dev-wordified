@@ -24219,6 +24219,7 @@ supportedCountries
 "
 "
 US
+CA
 "
 )
 ;
