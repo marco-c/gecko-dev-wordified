@@ -8602,7 +8602,9 @@ events
 eventIndex
 ]
 .
-type
+resultType
+(
+)
 )
 ;
 }
@@ -8704,7 +8706,9 @@ events
 eventIndex
 ]
 .
-type
+resultType
+(
+)
 argValues
 )
 )
