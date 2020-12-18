@@ -193,6 +193,10 @@ mSize
 (
 aSize
 )
+mFormat
+(
+aFormat
+)
 mContinuousUpdate
 (
 aContinuousUpdate

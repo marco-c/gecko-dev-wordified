@@ -476,6 +476,14 @@ false
 ;
 }
 virtual
+size_t
+Bytes
+(
+)
+=
+0
+;
+virtual
 RenderDXGITextureHost
 *
 AsRenderDXGITextureHost
