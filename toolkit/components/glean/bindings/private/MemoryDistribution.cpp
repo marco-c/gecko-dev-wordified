@@ -445,8 +445,8 @@ nsPrintfCString
 (
 "
 %
-lu
 "
+PRIu64
 bucket
 )
 .
