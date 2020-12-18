@@ -5008,11 +5008,18 @@ name
 ]
 )
         
+#
+pylint
+W1656
+        
 return
+list
+(
 _subtests
 .
 values
 (
+)
 )
 sorted
 (
