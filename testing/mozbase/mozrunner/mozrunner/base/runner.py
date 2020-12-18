@@ -214,6 +214,10 @@ None
 addons
 =
 None
+        
+explicit_cleanup
+=
+False
     
 )
 :
@@ -369,6 +373,12 @@ self
 crashed
 =
 0
+        
+self
+.
+explicit_cleanup
+=
+explicit_cleanup
     
 def
 __del__
@@ -377,6 +387,13 @@ self
 )
 :
         
+if
+not
+self
+.
+explicit_cleanup
+:
+            
 self
 .
 cleanup
