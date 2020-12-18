@@ -3740,11 +3740,6 @@ Value
 vp
 )
 ;
-template
-<
-bool
-NeedsTypeBarrier
->
 bool
 SetNativeDataPropertyPure
 (
