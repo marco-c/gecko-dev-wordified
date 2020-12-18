@@ -96,6 +96,8 @@ SelectorProtocolPart
                        
 ClickProtocolPart
                        
+CookiesProtocolPart
+                       
 SendKeysProtocolPart
                        
 TestDriverProtocolPart
@@ -3076,6 +3078,58 @@ click
 (
 )
 class
+MarionetteCookiesProtocolPart
+(
+CookiesProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+marionette
+=
+self
+.
+parent
+.
+marionette
+    
+def
+delete_all_cookies
+(
+self
+)
+:
+        
+self
+.
+logger
+.
+info
+(
+"
+Deleting
+all
+cookies
+"
+)
+        
+return
+self
+.
+marionette
+.
+delete_all_cookies
+(
+)
+class
 MarionetteSendKeysProtocolPart
 (
 SendKeysProtocolPart
@@ -4434,6 +4488,8 @@ MarionetteStorageProtocolPart
 MarionetteSelectorProtocolPart
                   
 MarionetteClickProtocolPart
+                  
+MarionetteCookiesProtocolPart
                   
 MarionetteSendKeysProtocolPart
                   
