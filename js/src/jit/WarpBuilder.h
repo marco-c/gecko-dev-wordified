@@ -343,11 +343,6 @@ _
 Resume
 )
 \
-_
-(
-ResumeKind
-)
-\
 /
 *
 try
@@ -385,11 +380,6 @@ DelName
 _
 (
 SetIntrinsic
-)
-\
-_
-(
-ThrowMsg
 )
 \
 /
