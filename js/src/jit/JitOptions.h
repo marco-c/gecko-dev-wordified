@@ -312,6 +312,12 @@ bool
 warpBuilder
 ;
 bool
+warpAsync
+;
+bool
+warpGenerator
+;
+bool
 jitForTrustedPrincipals
 ;
 bool
