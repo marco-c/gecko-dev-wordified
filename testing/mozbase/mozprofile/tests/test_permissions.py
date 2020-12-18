@@ -916,6 +916,12 @@ cursor
 close
 (
 )
+#
+pylint
+:
+disable
+=
+W1638
 pytest
 .
 fixture
