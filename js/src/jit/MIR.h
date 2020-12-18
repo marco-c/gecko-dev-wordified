@@ -33418,6 +33418,16 @@ return
 ret
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 double
 getIdentity
 (
