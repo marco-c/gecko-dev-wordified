@@ -35,7 +35,7 @@ faster
 .
 requestLongerTimeout
 (
-2
+4
 )
 ;
 const
@@ -646,7 +646,7 @@ from
 (
 generatePermutations
 (
-3
+4
 )
 )
 ;
