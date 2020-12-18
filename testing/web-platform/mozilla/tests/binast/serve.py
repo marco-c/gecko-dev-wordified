@@ -15,10 +15,24 @@ import
 os
 .
 path
+try
+:
+    
+from
+urllib
+import
+parse
+except
+ImportError
+:
+    
 import
 urlparse
+as
+parse
 JavaScriptMimeType
 =
+b
 "
 application
 /
@@ -26,6 +40,7 @@ javascript
 "
 BinASTMimeType
 =
+b
 "
 application
 /
@@ -53,6 +68,7 @@ request
 :
     
 if
+b
 "
 accept
 "
@@ -85,6 +101,7 @@ request
 .
 headers
 [
+b
 "
 accept
 "
@@ -92,6 +109,7 @@ accept
 .
 split
 (
+b
 "
 "
 )
@@ -102,7 +120,7 @@ BinASTMimeType
 in
 encodings
 def
-get_mine_type_and_extension
+get_mime_type_and_extension
 (
 request
 params
@@ -248,7 +266,7 @@ response
     
 params
 =
-urlparse
+parse
 .
 parse_qs
 (
@@ -304,7 +322,7 @@ name
 mimeType
 extension
 =
-get_mine_type_and_extension
+get_mime_type_and_extension
 (
 request
 params
@@ -338,6 +356,7 @@ extension
 return
 [
 (
+b
 "
 Content
 -
