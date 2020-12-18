@@ -592,9 +592,10 @@ logger
 .
 error
 (
+str
+(
 e
-.
-message
+)
 exc_info
 =
 True

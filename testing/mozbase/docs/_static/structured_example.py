@@ -434,9 +434,10 @@ FAIL
             
 message
 =
+str
+(
 e
-.
-message
+)
         
 except
 Exception

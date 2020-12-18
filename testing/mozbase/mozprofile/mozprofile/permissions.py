@@ -222,10 +222,20 @@ Bad
 location
 "
         
-if
-self
+m
+=
+str
+(
+Exception
 .
-message
+__str__
+(
+self
+)
+)
+        
+if
+m
 :
             
 s
@@ -237,9 +247,7 @@ s
 s
 "
 %
-self
-.
-message
+m
         
 return
 s

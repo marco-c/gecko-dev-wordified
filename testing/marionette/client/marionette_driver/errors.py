@@ -228,6 +228,13 @@ self
 )
 :
         
+#
+pylint
+:
+disable
+=
+W1645
+        
 msg
 =
 self

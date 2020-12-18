@@ -504,9 +504,10 @@ _parser
 .
 error
 (
+str
+(
 e
-.
-message
+)
 )
         
 #
@@ -993,9 +994,10 @@ _parser
 .
 error
 (
+str
+(
 e
-.
-message
+)
 )
         
 #
@@ -1312,9 +1314,10 @@ _parser
 .
 error
 (
+str
+(
 e
-.
-message
+)
 )
         
 #
