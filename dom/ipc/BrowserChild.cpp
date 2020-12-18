@@ -20949,12 +20949,6 @@ eWindowType_plugin_ipc_content
 ;
 initData
 .
-mUnicode
-=
-false
-;
-initData
-.
 clipChildren
 =
 true

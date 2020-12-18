@@ -3609,9 +3609,6 @@ bool
 mIsVisible
 ;
 bool
-mUnicodeWidget
-;
-bool
 mPainting
 ;
 bool

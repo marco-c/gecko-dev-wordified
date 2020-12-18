@@ -698,10 +698,6 @@ mListenForResizes
 (
 false
 )
-mUnicode
-(
-true
-)
 mRTL
 (
 false
@@ -828,9 +824,6 @@ mDropShadow
 ;
 bool
 mListenForResizes
-;
-bool
-mUnicode
 ;
 bool
 mRTL

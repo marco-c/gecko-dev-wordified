@@ -633,12 +633,6 @@ eWindowType_plugin_ipc_chrome
 ;
 initData
 .
-mUnicode
-=
-false
-;
-initData
-.
 clipChildren
 =
 true
