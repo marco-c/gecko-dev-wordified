@@ -1370,9 +1370,6 @@ ThreeByteOpcodeID
 OP3_PSHUFB_VdqWdq
 =
 0x00
-OP3_PMADDUBSW_VdqWdq
-=
-0x04
 OP3_ROUNDPS_VpsWps
 =
 0x08

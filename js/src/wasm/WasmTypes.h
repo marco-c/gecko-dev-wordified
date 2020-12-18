@@ -7616,10 +7616,6 @@ hugeMemory
 (
 false
 )
-simdWormhole
-(
-false
-)
 exceptions
 (
 false
@@ -7709,9 +7705,6 @@ v128
 ;
 bool
 hugeMemory
-;
-bool
-simdWormhole
 ;
 bool
 exceptions
