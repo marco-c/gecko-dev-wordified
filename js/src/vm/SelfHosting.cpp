@@ -16424,6 +16424,16 @@ math_abs
 0
 MathAbs
 )
+JS_INLINABLE_FN
+(
+"
+std_Math_trunc
+"
+math_trunc
+1
+0
+MathTrunc
+)
 JS_FN
 (
 "

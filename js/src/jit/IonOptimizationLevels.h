@@ -1348,15 +1348,6 @@ return
 smallFunctionMaxInlineDepth_
 ;
 }
-bool
-isSmallFunction
-(
-JSScript
-*
-script
-)
-const
-;
 uint32_t
 maxInlineDepth
 (
