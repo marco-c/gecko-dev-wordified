@@ -57,6 +57,8 @@ from
 __future__
 import
 absolute_import
+import
+six
 from
 abc
 import
@@ -69,16 +71,18 @@ for
 all
 playback
 tools
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 Playback
 (
 object
 )
 :
-    
-__metaclass__
-=
-ABCMeta
     
 def
 __init__

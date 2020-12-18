@@ -57,6 +57,8 @@ from
 __future__
 import
 absolute_import
+import
+six
 from
 abc
 import
@@ -196,16 +198,18 @@ object
 profile_class
 =
 Profile
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 RemoteContext
 (
 object
 )
 :
-    
-__metaclass__
-=
-ABCMeta
     
 device
 =

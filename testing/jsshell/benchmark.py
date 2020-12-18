@@ -60,6 +60,8 @@ absolute_import
 division
 print_function
 import
+six
+import
 json
 import
 os
@@ -167,16 +169,18 @@ binary
 strip
 (
 )
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 Benchmark
 (
 object
 )
 :
-    
-__metaclass__
-=
-ABCMeta
     
 lower_is_better
 =

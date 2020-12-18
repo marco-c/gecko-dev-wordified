@@ -138,6 +138,12 @@ for
 benchmark
 tests
 )
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 Browsertime
 (
@@ -156,10 +162,6 @@ Browsertime
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 property
     
