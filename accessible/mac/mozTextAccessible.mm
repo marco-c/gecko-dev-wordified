@@ -2264,6 +2264,14 @@ if
 !
 selection
 .
+IsValid
+(
+)
+|
+|
+!
+selection
+.
 Crop
 (
 mGeckoAccessible
