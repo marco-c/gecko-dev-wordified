@@ -8006,6 +8006,10 @@ const
 uint32_t
 &
 aLoadType
+const
+bool
+&
+aPersist
 )
 ;
 mozilla

@@ -2928,6 +2928,8 @@ nsID
 aChangeID
 uint32_t
 aLoadType
+bool
+aPersist
 )
 {
 MOZ_LOG
@@ -3310,12 +3312,7 @@ shistory
 AddEntry
 (
 mActiveEntry
-mActiveEntry
--
->
-GetPersist
-(
-)
+aPersist
 )
 ;
 }

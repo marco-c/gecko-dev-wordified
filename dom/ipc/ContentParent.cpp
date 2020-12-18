@@ -45298,6 +45298,10 @@ const
 uint32_t
 &
 aLoadType
+const
+bool
+&
+aPersist
 )
 {
 if
@@ -45322,6 +45326,7 @@ SessionHistoryCommit
 aLoadID
 aChangeID
 aLoadType
+aPersist
 )
 ;
 }
