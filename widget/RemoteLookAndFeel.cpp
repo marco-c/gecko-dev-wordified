@@ -956,6 +956,17 @@ GetInstance
 (
 )
 ;
+impl
+-
+>
+WithThemeConfiguredForContent
+(
+[
+&
+]
+(
+)
+{
 for
 (
 auto
@@ -1400,6 +1411,9 @@ impl
 >
 GetEchoPasswordImpl
 (
+)
+;
+}
 )
 ;
 return
