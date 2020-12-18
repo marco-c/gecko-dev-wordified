@@ -110,6 +110,11 @@ TestPlainTextSerializer
 cpp
 "
 "
+TestScheduler
+.
+cpp
+"
+"
 TestXPathGenerator
 .
 cpp
