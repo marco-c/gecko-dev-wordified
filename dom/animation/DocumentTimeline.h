@@ -425,6 +425,11 @@ return
 mDocument
 ;
 }
+void
+UpdateLastRefreshDriverTime
+(
+)
+;
 protected
 :
 TimeStamp
@@ -516,7 +521,6 @@ none
 iframe
 )
 .
-mutable
 TimeStamp
 mLastRefreshDriverTime
 ;
