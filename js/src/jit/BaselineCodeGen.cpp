@@ -33900,7 +33900,7 @@ Fn
 jit
 :
 :
-CreateGenerator
+CreateGeneratorFromFrame
 >
 (
 )
