@@ -6289,7 +6289,9 @@ flags
 ;
 if
 (
-flags_
+flags
+(
+)
 .
 global
 (
@@ -6308,7 +6310,9 @@ g
 }
 if
 (
-flags_
+flags
+(
+)
 .
 ignoreCase
 (
@@ -6327,7 +6331,9 @@ i
 }
 if
 (
-flags_
+flags
+(
+)
 .
 multiline
 (
@@ -6346,7 +6352,9 @@ m
 }
 if
 (
-flags_
+flags
+(
+)
 .
 dotAll
 (
@@ -6365,7 +6373,9 @@ s
 }
 if
 (
-flags_
+flags
+(
+)
 .
 unicode
 (
@@ -6384,7 +6394,9 @@ u
 }
 if
 (
-flags_
+flags
+(
+)
 .
 sticky
 (

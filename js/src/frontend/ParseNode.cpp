@@ -2920,7 +2920,9 @@ createSyntaxChecked
 (
 cx
 atom
-flags_
+flags
+(
+)
 TenuredObject
 )
 ;
@@ -2994,7 +2996,9 @@ createSyntaxChecked
 (
 cx
 atom
-flags_
+flags
+(
+)
 TenuredObject
 )
 ;
