@@ -100,6 +100,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsIContentPolicy
+.
+idl
+"
 interface
 nsIProtocolHandler
 ;
@@ -781,8 +788,7 @@ unsigned
 long
 aSecurityFlags
 in
-unsigned
-long
+nsContentPolicyType
 aContentPolicyType
 )
 ;
@@ -817,8 +823,7 @@ unsigned
 long
 aSecurityFlags
 in
-unsigned
-long
+nsContentPolicyType
 aContentPolicyType
 in
 unsigned
@@ -899,8 +904,7 @@ unsigned
 long
 aSecurityFlags
 in
-unsigned
-long
+nsContentPolicyType
 aContentPolicyType
 )
 ;
@@ -1608,8 +1612,7 @@ unsigned
 long
 aSecurityFlags
 in
-unsigned
-long
+nsContentPolicyType
 aContentPolicyType
 )
 ;

@@ -3512,7 +3512,7 @@ nsIPrincipal
 *
 aRequestingPrincipal
 const
-uint32_t
+nsContentPolicyType
 &
 aContentPolicyType
 )

@@ -9041,7 +9041,7 @@ OwnerDoc
 (
 )
 ;
-int32_t
+nsContentPolicyType
 objectType
 ;
 switch

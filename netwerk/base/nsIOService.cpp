@@ -6186,7 +6186,7 @@ nsIPrincipal
 aTriggeringPrincipal
 uint32_t
 aSecurityFlags
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 nsIChannel
 *
@@ -6249,7 +6249,7 @@ ServiceWorkerDescriptor
 aController
 uint32_t
 aSecurityFlags
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 uint32_t
 aSandboxFlags
@@ -6357,7 +6357,7 @@ ServiceWorkerDescriptor
 aController
 uint32_t
 aSecurityFlags
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 uint32_t
 aSandboxFlags
@@ -6910,7 +6910,7 @@ nsIPrincipal
 aTriggeringPrincipal
 uint32_t
 aSecurityFlags
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 nsIChannel
 *
@@ -6974,7 +6974,7 @@ nsIPrincipal
 aTriggeringPrincipal
 uint32_t
 aSecurityFlags
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 nsIChannel
 *

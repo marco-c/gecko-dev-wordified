@@ -20573,7 +20573,7 @@ Principal
 &
 aRequestingPrincipal
 const
-uint32_t
+nsContentPolicyType
 &
 aContentPolicyType
 const

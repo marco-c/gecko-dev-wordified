@@ -5407,7 +5407,10 @@ GetSystemPrincipal
 nullptr
 nullptr
 0
-0
+nsIContentPolicy
+:
+:
+TYPE_INVALID
 )
 ;
 Maybe

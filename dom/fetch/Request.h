@@ -433,7 +433,7 @@ Destination
 void
 OverrideContentPolicyType
 (
-nsContentPolicyType
+uint32_t
 aContentPolicyType
 )
 {
@@ -442,7 +442,13 @@ mRequest
 >
 OverrideContentPolicyType
 (
+static_cast
+<
+nsContentPolicyType
+>
+(
 aContentPolicyType
+)
 )
 ;
 }

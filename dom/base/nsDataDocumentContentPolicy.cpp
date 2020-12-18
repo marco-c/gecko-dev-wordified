@@ -405,7 +405,7 @@ BLOCKING_REASON_CONTENT_POLICY_DATA_DOCUMENT
 }
 )
 ;
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo

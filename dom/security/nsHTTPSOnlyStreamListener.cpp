@@ -1082,6 +1082,14 @@ _ns
 ;
 break
 ;
+default
+:
+MOZ_ASSERT_UNREACHABLE
+(
+)
+;
+break
+;
 }
 }
 else
@@ -1341,6 +1349,10 @@ xslt
 "
 _ns
 ;
+break
+;
+default
+:
 break
 ;
 }

@@ -2611,7 +2611,7 @@ get
 )
 ;
 }
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo

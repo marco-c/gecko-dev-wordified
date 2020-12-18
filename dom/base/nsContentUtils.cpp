@@ -21771,7 +21771,7 @@ imgRequestProxy
 *
 *
 aRequest
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 bool
 aUseUrgentStartForChannel

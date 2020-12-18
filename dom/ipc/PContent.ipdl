@@ -6493,7 +6493,7 @@ bool
 aIsPrivateData
 Principal
 aRequestingPrincipal
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 int32_t
 aWhichClipboard

@@ -204,7 +204,7 @@ param
 "
 )
 ;
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo
@@ -474,7 +474,7 @@ param
 "
 )
 ;
-uint32_t
+nsContentPolicyType
 contentType
 =
 aLoadInfo

@@ -869,7 +869,7 @@ Init
 nsIURI
 *
 pSourceURI
-uint32_t
+nsContentPolicyType
 aContentPolicyType
 nsIPrincipal
 *
@@ -3238,7 +3238,7 @@ principal
 "
 )
 ;
-uint32_t
+nsContentPolicyType
 contentPolicyType
 =
 mTransferable

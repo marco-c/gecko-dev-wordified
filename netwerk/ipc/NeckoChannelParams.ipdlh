@@ -273,6 +273,15 @@ h
 "
 ;
 using
+nsContentPolicyType
+from
+"
+nsIContentPolicy
+.
+h
+"
+;
+using
 nsILoadInfo
 :
 :
@@ -919,7 +928,7 @@ sandboxFlags
 uint32_t
 triggeringSandboxFlags
 ;
-uint32_t
+nsContentPolicyType
 contentPolicyType
 ;
 uint32_t
@@ -2678,7 +2687,7 @@ embedderInnerWindowId
 uint32_t
 loadFlags
 ;
-uint8_t
+nsContentPolicyType
 contentPolicyType
 ;
 bool

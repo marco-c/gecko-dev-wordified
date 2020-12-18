@@ -148,6 +148,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsIContentPolicy
+.
+idl
+"
 /
 *
 *
@@ -633,8 +640,7 @@ unsigned
 long
 aSecurityFlags
 in
-unsigned
-long
+nsContentPolicyType
 aContentPolicyType
 in
 unsigned
@@ -691,8 +697,7 @@ unsigned
 long
 aSecurityFlags
 in
-unsigned
-long
+nsContentPolicyType
 aContentPolicyType
 )
 ;

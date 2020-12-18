@@ -6915,7 +6915,7 @@ for
 this
 docshell
 .
-uint32_t
+nsContentPolicyType
 DetermineContentType
 (
 )
