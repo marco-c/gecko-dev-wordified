@@ -228,6 +228,17 @@ kwargs
 return
 {
 "
+adb_binary
+"
+:
+kwargs
+[
+"
+adb_binary
+"
+]
+            
+"
 package_name
 "
 :
@@ -940,6 +951,10 @@ None
 specialpowers_path
 =
 None
+adb_binary
+=
+None
+                 
 *
 *
 kwargs
@@ -1094,6 +1109,12 @@ self
 specialpowers_path
 =
 specialpowers_path
+        
+self
+.
+adb_binary
+=
+adb_binary
         
 self
 .
@@ -1651,6 +1672,12 @@ os
 getcwd
 (
 )
+                                           
+adb_path
+=
+self
+.
+adb_binary
 )
         
 self
