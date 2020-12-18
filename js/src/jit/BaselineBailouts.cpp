@@ -4003,13 +4003,6 @@ nextCallee_
 =
 nextCallee
 ;
-if
-(
-JitOptions
-.
-warpBuilder
-)
-{
 /
 /
 Update
@@ -4043,7 +4036,6 @@ findInlinedChild
 pcOff
 )
 ;
-}
 }
 bool
 BaselineStackBuilder

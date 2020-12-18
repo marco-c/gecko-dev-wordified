@@ -3931,13 +3931,6 @@ usedByTranspiler
 return
 ;
 }
-MOZ_ASSERT
-(
-JitOptions
-.
-warpBuilder
-)
-;
 clearUsedByTranspiler
 (
 )

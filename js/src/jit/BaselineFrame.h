@@ -2065,7 +2065,11 @@ icScript
 (
 )
 const
+{
+return
+icScript_
 ;
+}
 void
 setICScript
 (

@@ -32187,15 +32187,6 @@ the
 script
 )
 .
-if
-(
-jit
-:
-:
-JitOptions
-.
-warpBuilder
-)
 {
 jit
 :
