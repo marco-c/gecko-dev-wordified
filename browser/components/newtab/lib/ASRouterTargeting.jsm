@@ -2782,7 +2782,7 @@ Services
 .
 search
 .
-getAppProvidedEngines
+getDefaultEngines
 (
 )
 .

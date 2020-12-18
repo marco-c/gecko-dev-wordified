@@ -749,7 +749,7 @@ Services
 .
 search
 .
-getAppProvidedEngines
+getDefaultEngines
 (
 )
 ;

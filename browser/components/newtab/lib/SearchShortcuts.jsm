@@ -597,7 +597,7 @@ Services
 .
 search
 .
-getAppProvidedEngines
+getDefaultEngines
 (
 )
 )

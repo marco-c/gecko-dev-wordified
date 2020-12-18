@@ -195,7 +195,7 @@ Services
 .
 search
 .
-getAppProvidedEngines
+getDefaultEngines
 (
 )
 ;
@@ -223,7 +223,7 @@ Services
 .
 search
 .
-getAppProvidedEngines
+getDefaultEngines
 (
 )
 ;
