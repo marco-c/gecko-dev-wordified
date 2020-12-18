@@ -4,13 +4,6 @@ import
 absolute_import
 unicode_literals
 from
-virtualenv
-.
-app_data
-import
-AppDataDiskFolder
-TempAppData
-from
 .
 .
 wheels
@@ -99,18 +92,9 @@ upgraded
 embed
         
 if
-isinstance
-(
 app_data
-AppDataDiskFolder
-)
-and
-not
-isinstance
-(
-app_data
-TempAppData
-)
+.
+can_update
 :
             
 wheel

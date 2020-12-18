@@ -58,6 +58,7 @@ ref
 import
 ExePathRefToDest
 PathRefToDest
+RefMust
 from
 virtualenv
 .
@@ -167,16 +168,20 @@ host
 python
 image
         
-ref
+exe
 =
-PathRefToDest
-(
 cls
 .
 image_ref
 (
 interpreter
 )
+        
+ref
+=
+PathRefToDest
+(
+exe
 dest
 =
 lambda
@@ -191,9 +196,11 @@ dest
 .
 Python
 "
-must_symlink
+must
 =
-True
+RefMust
+.
+SYMLINK
 )
         
 yield
@@ -265,7 +272,12 @@ ExePathRefToDest
 if
 src
 .
-must_copy
+must
+=
+=
+RefMust
+.
+COPY
 or
 not
 self
@@ -343,6 +355,8 @@ interpreter
 for
 _
 targets
+must
+when
 in
 super
 (
@@ -447,6 +461,8 @@ Python
 yield
 fixed_host_exe
 targets
+must
+when
     
 abstractmethod
     
@@ -2017,7 +2033,7 @@ name
 (
 value
 )
-         
+        
 provided
 it
 '
