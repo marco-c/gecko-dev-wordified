@@ -565,13 +565,6 @@ PropTypes
 func
 .
 isRequired
-onToggleFlexboxHighlighter
-:
-PropTypes
-.
-func
-.
-isRequired
 onToggleGeometryEditor
 :
 PropTypes
