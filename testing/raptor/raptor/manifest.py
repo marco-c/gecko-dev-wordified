@@ -479,10 +479,21 @@ white
 -
 listed
             
+#
+pylint
+-
+-
+py3k
+:
+W1639
+            
 elif
-filter
+list
 (
                 
+filter
+(
+                    
 lambda
 name
 :
@@ -497,7 +508,10 @@ startswith
 (
 name
 )
+                    
 whitelist_live_site_tests
+                
+)
             
 )
 :
@@ -2225,11 +2239,21 @@ gecko_profile_threads
 )
 :
             
+#
+pylint
+-
+-
+py3k
+:
+W1639
+            
 test_threads
 =
-filter
+list
 (
                 
+filter
+(
 None
 test_details
 [
@@ -2242,6 +2266,7 @@ split
 (
 "
 "
+)
 )
             
 )
@@ -3485,11 +3510,21 @@ None
 )
 :
                 
+#
+pylint
+-
+-
+py3k
+:
+W1639
+                
 threads
 =
-filter
+list
 (
                     
+filter
+(
 None
 next_test
 .
@@ -3506,6 +3541,7 @@ split
 (
 "
 "
+)
 )
                 
 )

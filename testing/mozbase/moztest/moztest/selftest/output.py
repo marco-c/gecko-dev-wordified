@@ -366,7 +366,17 @@ actions
 actions
 )
     
+#
+pylint
+-
+-
+py3k
+:
+W1639
+    
 return
+list
+(
 filter
 (
 lambda
@@ -381,4 +391,5 @@ action
 in
 actions
 lines
+)
 )

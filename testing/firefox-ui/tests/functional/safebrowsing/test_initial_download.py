@@ -339,8 +339,19 @@ saved
 to
 disk
             
+#
+pylint
+-
+-
+py3k
+:
+W1639
+            
 base_names
 =
+list
+(
+                
 filter
 (
 lambda
@@ -357,6 +368,8 @@ moztest
 "
 )
 base_names
+)
+            
 )
             
 for
