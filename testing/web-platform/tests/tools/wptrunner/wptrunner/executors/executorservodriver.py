@@ -28,12 +28,6 @@ strip_server
 from
 .
 .
-testrunner
-import
-Stop
-from
-.
-.
 webdriver_server
 import
 wait_for_service
@@ -1053,21 +1047,32 @@ except
 IOError
 :
                 
+msg
+=
+"
+Lost
+WebDriver
+connection
+"
+                
 self
 .
 logger
 .
 error
 (
-"
-Lost
-webdriver
-connection
-"
+msg
 )
                 
 return
-Stop
+(
+"
+INTERNAL
+-
+ERROR
+"
+msg
+)
         
 success
 data

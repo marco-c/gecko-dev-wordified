@@ -66,12 +66,6 @@ ActionSequenceProtocolPart
                        
 TestDriverProtocolPart
 )
-from
-.
-.
-testrunner
-import
-Stop
 here
 =
 os
@@ -1736,21 +1730,32 @@ exceptions
 ErrorInResponseException
 :
             
+msg
+=
+"
+Lost
+WebDriver
+connection
+"
+            
 self
 .
 logger
 .
 error
 (
-"
-Lost
-WebDriver
-connection
-"
+msg
 )
             
 return
-Stop
+(
+"
+INTERNAL
+-
+ERROR
+"
+msg
+)
     
 def
 run_func

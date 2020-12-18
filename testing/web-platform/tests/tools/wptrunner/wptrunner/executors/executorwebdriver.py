@@ -74,12 +74,6 @@ SetPermissionProtocolPart
                        
 VirtualAuthenticatorProtocolPart
 )
-from
-.
-.
-testrunner
-import
-Stop
 import
 webdriver
 as
@@ -2480,21 +2474,32 @@ client
 UnknownErrorException
 :
             
+msg
+=
+"
+Lost
+WebDriver
+connection
+"
+            
 self
 .
 logger
 .
 error
 (
-"
-Lost
-WebDriver
-connection
-"
+msg
 )
             
 return
-Stop
+(
+"
+INTERNAL
+-
+ERROR
+"
+msg
+)
     
 def
 run_func
