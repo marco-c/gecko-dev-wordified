@@ -45,6 +45,13 @@ resources
 support
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use
 strict
