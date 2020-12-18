@@ -108,11 +108,4 @@ js
 .
 js
 '
-'
-beautify
--
-tests
-.
-js
-'
 )
