@@ -1047,6 +1047,9 @@ self
 _conn
 :
             
+try
+:
+                
 self
 .
 _conn
@@ -1054,6 +1057,25 @@ _conn
 close
 (
 )
+            
+except
+OSError
+:
+                
+#
+The
+remote
+closed
+the
+connection
+                
+pass
+        
+self
+.
+_conn
+=
+None
     
 property
     
