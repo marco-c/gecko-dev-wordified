@@ -3719,7 +3719,6 @@ argv
 return
 ;
 }
-else
 if
 (
 *
