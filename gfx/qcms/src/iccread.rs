@@ -7775,17 +7775,8 @@ intent
 }
 ;
 }
-#
-[
-no_mangle
-]
-pub
-extern
-"
-C
-"
 fn
-qcms_profile_create
+profile_create
 (
 )
 -
@@ -8337,7 +8328,7 @@ let
 mut
 profile
 =
-qcms_profile_create
+profile_create
 (
 )
 ;
@@ -9083,7 +9074,7 @@ let
 mut
 profile
 =
-qcms_profile_create
+profile_create
 (
 )
 ;
@@ -9167,7 +9158,7 @@ let
 mut
 profile
 =
-qcms_profile_create
+profile_create
 (
 )
 ;
@@ -9446,7 +9437,7 @@ let
 mut
 profile
 =
-qcms_profile_create
+profile_create
 (
 )
 ;
