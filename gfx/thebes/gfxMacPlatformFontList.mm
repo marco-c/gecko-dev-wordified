@@ -9177,6 +9177,9 @@ ForceGlobalReflow
 (
 )
 ;
+mozilla
+:
+:
 dom
 :
 :
@@ -9185,7 +9188,6 @@ ContentParent
 :
 NotifyUpdatedFonts
 (
-true
 )
 ;
 }

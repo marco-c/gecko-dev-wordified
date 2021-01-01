@@ -252,6 +252,12 @@ aListOfFonts
 )
 override
 ;
+nsresult
+UpdateFontList
+(
+)
+override
+;
 void
 GetCommonFallbackFonts
 (
