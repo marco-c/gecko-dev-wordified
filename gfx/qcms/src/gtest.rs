@@ -1195,6 +1195,8 @@ unsafe
 {
 qcms_transform_data
 (
+&
+*
 transform
 data
 .
@@ -1360,6 +1362,8 @@ unsafe
 {
 qcms_transform_data
 (
+&
+*
 transform
 in_data
 .
@@ -2070,6 +2074,8 @@ unsafe
 {
 qcms_transform_data
 (
+&
+*
 transform
 src
 .
@@ -4781,6 +4787,8 @@ DATA_RGB_8
 ;
 qcms_transform_data
 (
+&
+*
 pt
 .
 transform
@@ -5208,6 +5216,8 @@ unsafe
 {
 qcms_transform_data
 (
+&
+*
 transform
 src
 .

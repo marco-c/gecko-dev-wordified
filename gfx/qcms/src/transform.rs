@@ -13578,8 +13578,7 @@ qcms_transform_data
 mut
 transform
 :
-*
-mut
+&
 qcms_transform
 mut
 src
@@ -13713,7 +13712,6 @@ fn
 apply
 (
 &
-mut
 self
 data
 :
@@ -13755,13 +13753,10 @@ unsafe
 {
 qcms_transform_data
 (
+&
 self
 .
 xfm
-.
-as_mut
-(
-)
 data
 .
 as_ptr
