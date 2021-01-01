@@ -9545,12 +9545,6 @@ IMEEnabled
 :
 Enabled
 :
-case
-IMEEnabled
-:
-:
-Plugin
-:
 mTextInputHandler
 -
 >
@@ -9686,12 +9680,6 @@ IMEEnabled
 :
 :
 Enabled
-:
-case
-IMEEnabled
-:
-:
-Plugin
 :
 if
 (
