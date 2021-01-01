@@ -4312,11 +4312,6 @@ spec
 )
 ;
 }
-onClearHistory
-(
-)
-{
-}
 onDeleteVisits
 (
 )

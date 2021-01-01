@@ -485,13 +485,6 @@ __VA_ARGS__
 ;
 \
 NS_IMETHOD
-OnClearHistory
-(
-)
-__VA_ARGS__
-;
-\
-NS_IMETHOD
 OnDeleteVisits
 (
 nsIURI
@@ -3984,6 +3977,11 @@ const
 nsACString
 &
 aGUID
+)
+;
+nsresult
+OnClearHistory
+(
 )
 ;
 virtual

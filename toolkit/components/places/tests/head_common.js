@@ -4651,11 +4651,6 @@ onDeleteURI
 )
 {
 }
-onClearHistory
-(
-)
-{
-}
 onDeleteVisits
 (
 )

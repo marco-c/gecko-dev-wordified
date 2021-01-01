@@ -84,11 +84,6 @@ onDeleteURI
 )
 {
 }
-onClearHistory
-(
-)
-{
-}
 onDeleteVisits
 (
 )

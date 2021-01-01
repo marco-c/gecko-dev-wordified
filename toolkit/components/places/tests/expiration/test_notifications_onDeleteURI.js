@@ -559,11 +559,6 @@ PEX_onEndUpdateBatch
 )
 {
 }
-onClearHistory
-(
-)
-{
-}
 onDeleteURI
 (
 aURI
