@@ -30792,7 +30792,11 @@ ClampToUint8
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 icBuildOOLFakeExitFrame
 (

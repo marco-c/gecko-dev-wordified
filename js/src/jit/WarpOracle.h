@@ -336,7 +336,11 @@ return
 bailoutInfo_
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 registerNurseryObject
 (

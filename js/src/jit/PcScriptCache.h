@@ -359,7 +359,11 @@ perform
 lazy
 allocation
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 get
 (

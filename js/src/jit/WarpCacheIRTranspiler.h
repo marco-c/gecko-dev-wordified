@@ -161,7 +161,11 @@ ICStub
 s
 CacheIR
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 TranspileCacheIRToMIR
 (

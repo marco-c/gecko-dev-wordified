@@ -3379,7 +3379,11 @@ for
 example
 /
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 )
 .
 Squelch

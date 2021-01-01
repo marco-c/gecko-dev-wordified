@@ -202,7 +202,11 @@ uint32_t
 stubDataOffset
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -323,7 +327,11 @@ MacroAssembler
 masm
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 emitAddAndStoreSlotShared
 (

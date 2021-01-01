@@ -147,7 +147,11 @@ MIRGenerator
 class
 MIRGraph
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 LICM
 (

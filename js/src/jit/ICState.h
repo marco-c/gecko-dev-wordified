@@ -635,7 +635,11 @@ discard
 all
 stubs
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 MOZ_ALWAYS_INLINE
 bool
 maybeTransition

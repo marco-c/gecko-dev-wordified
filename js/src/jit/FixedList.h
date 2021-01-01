@@ -260,7 +260,11 @@ to
 report
 failure
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -356,7 +360,11 @@ length_
 num
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 growBy
 (

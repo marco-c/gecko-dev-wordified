@@ -349,7 +349,11 @@ return
 graph_
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ensureBallast
 (
@@ -639,7 +643,11 @@ return
 offThreadStatus_
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 instrumentedProfiling
 (

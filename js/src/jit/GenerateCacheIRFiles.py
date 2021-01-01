@@ -2271,7 +2271,11 @@ example
 #
     
 #
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 emitGuardShape
 (
@@ -2283,7 +2287,11 @@ shapeOffset
 ;
     
 #
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 emitGuardShape
 (
@@ -2431,7 +2439,11 @@ signature
 code
 =
 "
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 {
 }
@@ -2471,7 +2483,11 @@ code
 +
 =
 "
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 {
 }

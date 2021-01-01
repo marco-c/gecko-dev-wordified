@@ -446,7 +446,11 @@ PerfSpewer
 {
 public
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 startBasicBlock
 (

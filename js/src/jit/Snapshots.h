@@ -2081,7 +2081,11 @@ lirId
 ;
 #
 endif
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 add
 (

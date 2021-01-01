@@ -1197,7 +1197,11 @@ lookup
 ;
 protected
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 allocateData
 (

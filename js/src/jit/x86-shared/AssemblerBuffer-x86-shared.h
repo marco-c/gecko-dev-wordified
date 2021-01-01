@@ -1262,7 +1262,11 @@ value
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 append
 (

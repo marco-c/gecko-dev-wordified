@@ -1007,7 +1007,11 @@ flushICache
 ;
 public
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 static
 bool
 makeWritable
@@ -1035,7 +1039,11 @@ No
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 static
 bool
 makeExecutableAndFlushICache

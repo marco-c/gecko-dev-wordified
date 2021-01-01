@@ -3048,7 +3048,11 @@ delete
 ;
 }
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 BailoutIonToBaseline
 (
@@ -3650,7 +3654,11 @@ enable
 ;
 }
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 GenerateBaselineInterpreter
 (

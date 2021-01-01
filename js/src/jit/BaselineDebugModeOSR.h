@@ -193,7 +193,11 @@ into
 compiled
 loops
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 RecompileOnStackBaselineScriptsForDebugMode
 (

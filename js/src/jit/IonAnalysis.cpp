@@ -11394,7 +11394,11 @@ return
 phi
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 propagateAllPhiSpecializations
 (
