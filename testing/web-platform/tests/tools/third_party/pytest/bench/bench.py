@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 import
 sys
 if
@@ -39,11 +51,13 @@ argv
 >
 1
 else
+[
 "
 empty
 .
 py
 "
+]
     
 stats
 =

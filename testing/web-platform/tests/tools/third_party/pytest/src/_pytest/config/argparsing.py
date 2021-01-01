@@ -1,9 +1,31 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 import
-six
+argparse
 import
 warnings
 import
-argparse
+py
+import
+six
+from
+_pytest
+.
+config
+.
+exceptions
+import
+UsageError
 FILE_OR_DIR
 =
 "
@@ -62,6 +84,10 @@ arguments
 "
 "
 "
+    
+prog
+=
+None
     
 def
 __init__
@@ -533,6 +559,31 @@ self
 optparser
 )
         
+args
+=
+[
+str
+(
+x
+)
+if
+isinstance
+(
+x
+py
+.
+path
+.
+local
+)
+else
+x
+for
+x
+in
+args
+]
+        
 return
 self
 .
@@ -540,16 +591,7 @@ optparser
 .
 parse_args
 (
-[
-str
-(
-x
-)
-for
-x
-in
 args
-]
 namespace
 =
 namespace
@@ -577,6 +619,11 @@ self
 self
 .
 extra_info
+prog
+=
+self
+.
+prog
 )
         
 groups
@@ -840,6 +887,18 @@ str
 (
 x
 )
+if
+isinstance
+(
+x
+py
+.
+path
+.
+local
+)
+else
+x
 for
 x
 in
@@ -1121,7 +1180,9 @@ optparse
 .
 Option
     
-its
+it
+'
+s
 currently
 a
 least
@@ -1380,7 +1441,7 @@ addoption
 (
 )
 is
-a
+the
 string
 %
 r
@@ -1389,20 +1450,31 @@ r
                         
 "
 For
-parsearg
+choices
 this
 is
 optional
 and
-when
-supplied
+can
+be
+omitted
 "
                         
 "
+but
+when
+supplied
 should
 be
 a
 type
+(
+for
+example
+str
+or
+int
+)
 .
 "
                         
@@ -1424,7 +1496,7 @@ DeprecationWarning
                         
 stacklevel
 =
-3
+4
                     
 )
                     
@@ -1482,21 +1554,27 @@ addoption
 (
 )
 is
-a
+the
 string
 %
 r
-.
 "
                         
 "
-For
-parsearg
-this
+but
+when
+supplied
 should
 be
 a
 type
+(
+for
+example
+str
+or
+int
+)
 .
 "
                         
@@ -1518,7 +1596,7 @@ DeprecationWarning
                         
 stacklevel
 =
-3
+4
                     
 )
                     
@@ -2559,6 +2637,9 @@ parser
 extra_info
 =
 None
+prog
+=
+None
 )
 :
         
@@ -2586,6 +2667,10 @@ __init__
 (
             
 self
+            
+prog
+=
+prog
             
 usage
 =
@@ -2640,6 +2725,91 @@ self
 extra_info
 =
 extra_info
+    
+def
+error
+(
+self
+message
+)
+:
+        
+"
+"
+"
+Transform
+argparse
+error
+message
+into
+UsageError
+.
+"
+"
+"
+        
+msg
+=
+"
+%
+s
+:
+error
+:
+%
+s
+"
+%
+(
+self
+.
+prog
+message
+)
+        
+if
+hasattr
+(
+self
+.
+_parser
+"
+_config_source_hint
+"
+)
+:
+            
+msg
+=
+"
+%
+s
+(
+%
+s
+)
+"
+%
+(
+msg
+self
+.
+_parser
+.
+_config_source_hint
+)
+        
+raise
+UsageError
+(
+self
+.
+format_usage
+(
+)
++
+msg
+)
     
 def
 parse_args
@@ -3144,13 +3314,10 @@ replace
 )
                 
 if
-(
-                    
 shortened
 not
 in
 short_long
-                    
 or
 len
 (
@@ -3162,8 +3329,8 @@ shortened
 <
 len
 (
+                    
 xxoption
-)
                 
 )
 :

@@ -1,4 +1,16 @@
 #
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+#
 10000
 iterations
 just
@@ -123,7 +135,6 @@ count
     
 print
 (
-(
 timeit
 .
 timeit
@@ -140,6 +151,5 @@ imports
 number
 =
 count
-)
 )
 )

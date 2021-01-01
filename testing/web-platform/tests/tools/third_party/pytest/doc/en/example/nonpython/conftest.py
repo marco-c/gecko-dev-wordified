@@ -1,4 +1,16 @@
 #
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+#
 content
 of
 conftest
