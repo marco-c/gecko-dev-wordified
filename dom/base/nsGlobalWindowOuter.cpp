@@ -43135,7 +43135,7 @@ if
 topWin
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Uh
