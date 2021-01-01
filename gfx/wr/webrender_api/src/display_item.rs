@@ -2223,10 +2223,7 @@ SpaceAndClipInfo
 pub
 external_id
 :
-Option
-<
 ExternalScrollId
->
 pub
 scroll_sensitivity
 :
