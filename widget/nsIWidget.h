@@ -442,9 +442,6 @@ WidgetInputEvent
 class
 WidgetKeyboardEvent
 ;
-class
-WidgetPluginEvent
-;
 struct
 FontRange
 ;

@@ -3209,14 +3209,6 @@ WidgetTouchEvent
 aEvent
 )
 ;
-void
-SendPluginEvent
-(
-WidgetPluginEvent
-&
-aEvent
-)
-;
 /
 *
 *
