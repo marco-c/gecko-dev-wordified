@@ -163,9 +163,6 @@ nsWaylandDisplay
 .
 h
 "
-struct
-FastTrackClipboard
-;
 class
 DataOffer
 {
@@ -698,16 +695,6 @@ ClearDragAndDropDataOffer
 (
 )
 ;
-void
-TransferFastTrackClipboard
-(
-int
-aClipboardRequestNumber
-GtkSelectionData
-*
-aSelectionData
-)
-;
 virtual
 ~
 nsRetrievalContextWayland
@@ -768,9 +755,6 @@ RefPtr
 nsWaylandDragContext
 >
 mDragContext
-;
-int
-mClipboardRequestNumber
 ;
 char
 *
