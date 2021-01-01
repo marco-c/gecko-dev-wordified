@@ -362,13 +362,6 @@ aTabIndex
 )
 override
 ;
-virtual
-IMEState
-GetDesiredIMEState
-(
-)
-override
-;
 /
 /
 Overriden
