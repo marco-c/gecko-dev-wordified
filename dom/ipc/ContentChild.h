@@ -2071,10 +2071,6 @@ ipc
 IPCResult
 RecvRebuildFontList
 (
-const
-bool
-&
-aFullRebuild
 )
 ;
 mozilla
