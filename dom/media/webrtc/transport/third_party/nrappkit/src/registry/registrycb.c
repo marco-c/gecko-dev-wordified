@@ -2192,8 +2192,7 @@ METHODS
 int
 nr_reg_raise_event
 (
-char
-*
+NR_registry
 name
 int
 action
@@ -2463,8 +2462,7 @@ _status
 int
 NR_reg_unregister_callback
 (
-char
-*
+NR_registry
 name
 char
 action

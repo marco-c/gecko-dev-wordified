@@ -2359,8 +2359,10 @@ srtp_sha1_ctx_t
 *
 ctx
 uint32_t
-*
 output
+[
+5
+]
 )
 {
 uint32_t
