@@ -1147,6 +1147,11 @@ filename
 )
 )
 {
+js_free
+(
+filename
+)
+;
 return
 false
 ;
