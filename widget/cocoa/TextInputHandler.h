@@ -5251,7 +5251,7 @@ IsNormalCharInputtingEvent
 )
 checks
 whether
-aKeyEvent
+aNativeEvent
 causes
 text
 input
@@ -5259,7 +5259,7 @@ input
 *
 *
 param
-aKeyEvent
+aNativeEvent
 A
 key
 event
@@ -5285,10 +5285,9 @@ static
 bool
 IsNormalCharInputtingEvent
 (
-const
-WidgetKeyboardEvent
-&
-aKeyEvent
+NSEvent
+*
+aNativeEvent
 )
 ;
 /
