@@ -1918,6 +1918,8 @@ unsafe
 {
 qcms_profile_get_rendering_intent
 (
+&
+*
 profile
 )
 }
