@@ -37055,8 +37055,12 @@ imm
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 MOZ_ALWAYS_INLINE
-MOZ_MUST_USE
 JmpSrc
 immediateRel32
 (

@@ -735,8 +735,12 @@ LocalThreadOnly
 AllThreads
 }
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 ReprotectRegion
 (
@@ -773,8 +777,12 @@ executable
 memory
 region
 .
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 InitProcessExecutableMemory
 (

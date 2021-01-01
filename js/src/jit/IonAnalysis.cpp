@@ -6231,8 +6231,12 @@ of
 the
 block
 .
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 UpdateGotoSuccessor
 (
@@ -6409,8 +6413,12 @@ true
 false
 result
 .
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 UpdateTestSuccessors
 (

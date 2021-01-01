@@ -2186,8 +2186,12 @@ MOZ_CRASH
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 CommitPages
 (
@@ -2830,8 +2834,12 @@ MOZ_CRASH
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 CommitPages
 (

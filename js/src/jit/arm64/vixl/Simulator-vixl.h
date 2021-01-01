@@ -13541,8 +13541,12 @@ Simulator
 sim
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 registerSimulator
 (

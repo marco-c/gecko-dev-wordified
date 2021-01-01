@@ -1199,8 +1199,12 @@ typename
 .
 Args
 >
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 AddOpSnapshot
 (
@@ -1272,8 +1276,12 @@ return
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 AddWarpGetImport
 (

@@ -746,8 +746,12 @@ the
 oldest
 frame
 .
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 RematerializeInlineFrames
 (

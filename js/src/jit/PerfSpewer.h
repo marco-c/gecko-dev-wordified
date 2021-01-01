@@ -334,8 +334,12 @@ basicBlocks_
 ;
 public
 :
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 bool
 startBasicBlock
 (
