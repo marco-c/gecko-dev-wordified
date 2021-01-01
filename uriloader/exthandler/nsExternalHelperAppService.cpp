@@ -3370,6 +3370,16 @@ File
 "
 }
 {
+APPLICATION_ZIP
+"
+zip
+"
+"
+ZIP
+Archive
+"
+}
+{
 APPLICATION_XPINSTALL
 "
 xpi
