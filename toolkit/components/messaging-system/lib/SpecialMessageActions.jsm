@@ -1190,6 +1190,12 @@ window
 MigrationUtils
 .
 MIGRATION_ENTRYPOINT_NEWTAB
+action
+.
+data
+?
+.
+source
 ]
 )
 ;
