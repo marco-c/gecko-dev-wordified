@@ -628,10 +628,12 @@ aCommaDelimited
 ;
 }
 static
+const
 Element
 *
 GetRenderedElement
 (
+const
 Element
 *
 aElement
@@ -1277,6 +1279,7 @@ have
 explicit
 restyles
 .
+const
 Element
 *
 styledElement
@@ -3071,6 +3074,7 @@ nsComputedDOMStyle
 :
 DoGetComputedStyleNoFlush
 (
+const
 Element
 *
 aElement
@@ -3381,6 +3385,7 @@ area
 {
 if
 (
+const
 Element
 *
 element

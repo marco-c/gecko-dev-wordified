@@ -573,6 +573,7 @@ ComputedStyle
 >
 GetComputedStyleNoFlush
 (
+const
 Element
 *
 aElement
@@ -923,6 +924,7 @@ ComputedStyle
 >
 DoGetComputedStyleNoFlush
 (
+const
 Element
 *
 aElement
