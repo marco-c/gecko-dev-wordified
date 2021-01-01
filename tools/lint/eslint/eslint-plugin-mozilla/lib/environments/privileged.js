@@ -1373,6 +1373,9 @@ false
 PlacesEvent
 :
 false
+PlacesHistoryCleared
+:
+false
 PlacesObservers
 :
 false
