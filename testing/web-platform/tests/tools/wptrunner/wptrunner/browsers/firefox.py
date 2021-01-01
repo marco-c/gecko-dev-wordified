@@ -1541,6 +1541,7 @@ autostart
 sessionHistoryInParent
 "
 :
+(
 kwargs
 .
 get
@@ -1550,6 +1551,7 @@ enable_fission
 "
 )
 or
+                                     
 get_bool_pref
 (
 "
@@ -1559,6 +1561,7 @@ autostart
 "
 )
 or
+                                     
 get_bool_pref
 (
 "
@@ -1566,6 +1569,7 @@ fission
 .
 sessionHistoryInParent
 "
+)
 )
 }
     
