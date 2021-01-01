@@ -30887,7 +30887,6 @@ script
 .
 *
 /
-virtual
 bool
 IsFocusable
 (
