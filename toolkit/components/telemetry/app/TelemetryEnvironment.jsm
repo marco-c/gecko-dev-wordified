@@ -11729,6 +11729,9 @@ hasARMv7
 "
 hasNEON
 "
+"
+hasUserCET
+"
 ]
 ;
 /
