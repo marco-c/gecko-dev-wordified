@@ -18946,6 +18946,13 @@ Double
 Compare_BigInt_Double
 /
 /
+BigInt
+compared
+to
+String
+Compare_BigInt_String
+/
+/
 Wasm
 Ref
 /
