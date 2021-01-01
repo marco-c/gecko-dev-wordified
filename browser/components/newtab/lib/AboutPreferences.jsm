@@ -875,6 +875,11 @@ value
 status
 :
 checked
+menu_source
+:
+"
+ABOUT_PREFERENCES
+"
 }
 }
 )
