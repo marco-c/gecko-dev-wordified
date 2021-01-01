@@ -75,6 +75,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsCUPSShim
 .
 h
@@ -687,6 +696,9 @@ mCupsHandle
 )
 ;
 }
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo
@@ -701,6 +713,9 @@ aPrinterName
 )
 const
 {
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo
@@ -1048,6 +1063,9 @@ return
 rv
 ;
 }
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo
@@ -1062,6 +1080,9 @@ aPrinterName
 )
 const
 {
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo

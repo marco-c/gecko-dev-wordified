@@ -216,11 +216,6 @@ UNIFIED_SOURCES
 =
 [
 "
-ComplexTextInputPanel
-.
-mm
-"
-"
 GfxInfo
 .
 mm
