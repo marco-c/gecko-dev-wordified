@@ -1533,16 +1533,6 @@ aCommitted
 override
 ;
 virtual
-void
-SetPluginFocused
-(
-bool
-&
-aFocused
-)
-override
-;
-virtual
 nsresult
 SynthesizeNativeKeyEvent
 (

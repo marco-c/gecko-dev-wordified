@@ -11447,16 +11447,6 @@ mode
 .
 if
 (
-!
-widget
--
->
-IsPluginFocused
-(
-)
-&
-&
-(
 IsIMEEnabled
 (
 )
@@ -11464,7 +11454,6 @@ IsIMEEnabled
 |
 IsASCIICapableOnly
 (
-)
 )
 )
 {
