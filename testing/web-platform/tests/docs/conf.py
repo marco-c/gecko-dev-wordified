@@ -895,18 +895,32 @@ exclude_patterns
 [
     
 '
-_build
+*
+*
+/
+.
+tox
 '
     
 '
+*
+*
+/
+.
+DS_Store
+'
+    
+'
+*
+*
+/
 Thumbs
 .
 db
 '
     
 '
-.
-DS_Store
+_build
 '
 ]
 from
