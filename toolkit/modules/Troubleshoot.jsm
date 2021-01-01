@@ -325,13 +325,6 @@ browser
 .
 download
 .
-hide_plugins_without_extensions
-"
-"
-browser
-.
-download
-.
 lastDir
 .
 savePerSite
