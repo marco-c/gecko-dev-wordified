@@ -114,9 +114,6 @@ ReadableStreamDefaultReader
 ReadableStreamBYOBReader
 "
 "
-ReadableStreamDefaultController
-"
-"
 ReadableByteStreamController
 "
 "
