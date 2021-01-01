@@ -18943,13 +18943,6 @@ NullRef
 Compare_RefOrNull
 /
 /
-Compare
-2
-values
-bitwise
-Compare_Bitwise
-/
-/
 All
 other
 possible
@@ -19444,7 +19437,7 @@ MOZ_ASSERT
 compareType_
 <
 =
-Compare_Bitwise
+Compare_RefOrNull
 )
 ;
 return

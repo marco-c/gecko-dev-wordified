@@ -2409,10 +2409,6 @@ Compare_Object
 MCompare
 :
 :
-Compare_Bitwise
-MCompare
-:
-:
 Compare_String
 }
 ;
