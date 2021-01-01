@@ -1701,6 +1701,9 @@ mSmoothRendering
 bool
 mIsMainThread
 ;
+gint
+mSurfaceReadyTimerID
+;
 }
 ;
 }
