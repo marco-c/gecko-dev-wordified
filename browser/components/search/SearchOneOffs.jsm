@@ -5057,7 +5057,9 @@ param
 {
 boolean
 }
+[
 aForceNewTab
+]
 *
 True
 to
@@ -5115,6 +5117,8 @@ _whereToOpen
 (
 aEvent
 aForceNewTab
+=
+false
 )
 {
 let
