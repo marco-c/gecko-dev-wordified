@@ -15100,17 +15100,6 @@ analysis
 bailed
 out
 .
-MOZ_ASSERT
-(
-!
-outerScript
--
->
-hadEagerTruncationBailout
-(
-)
-)
-;
 outerScript
 -
 >
