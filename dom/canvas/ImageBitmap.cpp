@@ -3752,6 +3752,13 @@ Unmap
 )
 ;
 }
+mAlphaType
+=
+gfxAlphaType
+:
+:
+Premult
+;
 mSurface
 =
 dstSurface

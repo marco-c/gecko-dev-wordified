@@ -1490,7 +1490,6 @@ gfx
 IntRect
 mPictureRect
 ;
-const
 gfxAlphaType
 mAlphaType
 ;
