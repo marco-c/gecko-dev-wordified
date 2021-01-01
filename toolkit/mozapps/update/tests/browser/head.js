@@ -3807,6 +3807,12 @@ if
 params
 .
 popupShown
+&
+&
+!
+PanelUI
+.
+isNotificationPanelOpen
 )
 {
 await
