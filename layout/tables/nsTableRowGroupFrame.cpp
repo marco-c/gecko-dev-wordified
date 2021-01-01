@@ -9585,8 +9585,6 @@ YMost
 >
 availHeight
 )
-else
-{
 aDesiredSize
 .
 Height
@@ -9661,7 +9659,6 @@ SetIncomplete
 ;
 break
 ;
-}
 }
 /
 /
