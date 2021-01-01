@@ -11737,8 +11737,6 @@ f32
 let
 lut
 =
-unsafe
-{
 chain_transform
 (
 in_0
@@ -11749,7 +11747,6 @@ lutSize
 as
 usize
 )
-}
 ;
 if
 let
