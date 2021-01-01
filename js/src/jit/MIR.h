@@ -18939,6 +18939,13 @@ Int32
 Compare_BigInt_Int32
 /
 /
+BigInt
+compared
+to
+Double
+Compare_BigInt_Double
+/
+/
 Wasm
 Ref
 /
