@@ -249,6 +249,7 @@ derive
 Clone
 Debug
 Error
+PartialEq
 )
 ]
 pub

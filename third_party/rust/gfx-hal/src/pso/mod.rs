@@ -812,6 +812,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 ShaderStageFlags

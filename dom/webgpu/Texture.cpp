@@ -740,6 +740,10 @@ GetBridge
 TextureCreateView
 (
 mId
+mParent
+-
+>
+mId
 aDesc
 )
 ;

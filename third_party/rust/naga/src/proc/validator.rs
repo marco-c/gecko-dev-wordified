@@ -120,6 +120,7 @@ derive
 (
 Clone
 Debug
+PartialEq
 thiserror
 :
 :
@@ -254,6 +255,7 @@ derive
 (
 Clone
 Debug
+PartialEq
 thiserror
 :
 :
@@ -303,6 +305,7 @@ derive
 (
 Clone
 Debug
+PartialEq
 thiserror
 :
 :
@@ -399,6 +402,7 @@ derive
 (
 Clone
 Debug
+PartialEq
 thiserror
 :
 :
@@ -590,6 +594,7 @@ derive
 (
 Clone
 Debug
+PartialEq
 thiserror
 :
 :

@@ -2020,6 +2020,14 @@ Borrow
 B
 :
 :
+Image
+>
++
+Borrow
+<
+B
+:
+:
 ImageView
 >
 +
