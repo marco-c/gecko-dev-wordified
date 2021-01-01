@@ -520,9 +520,7 @@ v
 2
 ]
 ;
-return
 result
-;
 }
 /
 /
@@ -743,9 +741,7 @@ m
 0
 ]
 ;
-return
 det
-;
 }
 /
 *
@@ -1119,9 +1115,7 @@ j
 =
 1
 }
-return
 dest_mat
-;
 }
 pub
 fn
@@ -1280,9 +1274,7 @@ invalid
 =
 false
 ;
-return
 i
-;
 }
 pub
 fn
@@ -1309,9 +1301,7 @@ invalid
 =
 true
 ;
-return
 inv
-;
 }
 /
 *
@@ -1511,7 +1501,5 @@ i32
 =
 0
 ;
-return
 result
-;
 }

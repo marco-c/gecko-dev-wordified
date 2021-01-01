@@ -240,7 +240,6 @@ s15Fixed16Number
 >
 f32
 {
-return
 a
 as
 f32
@@ -248,7 +247,6 @@ f32
 65536
 .
 0
-;
 }
 #
 [
@@ -266,7 +264,6 @@ f64
 >
 s15Fixed16Number
 {
-return
 (
 v
 *
@@ -274,7 +271,6 @@ v
 )
 as
 i32
-;
 }
 pub
 mod

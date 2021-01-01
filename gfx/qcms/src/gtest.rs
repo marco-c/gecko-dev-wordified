@@ -3455,16 +3455,13 @@ transform
 =
 transform
 ;
-!
-(
 self
 .
 transform
-=
+!
 =
 null_mut
 (
-)
 )
 }
 unsafe
@@ -3923,7 +3920,6 @@ storage_type
 DATA_RGB_8
 =
 >
-return
 CmpRgbBuffer
 (
 buf
@@ -3938,7 +3934,6 @@ pixels
 DATA_RGBA_8
 =
 >
-return
 CmpRgbaBuffer
 (
 buf
@@ -3953,7 +3948,6 @@ pixels
 DATA_BGRA_8
 =
 >
-return
 CmpBgraBuffer
 (
 buf
@@ -4001,7 +3995,6 @@ ProduceOutput
 trans_fn
 )
 ;
-return
 self
 .
 VerifyOutput
@@ -4011,7 +4004,6 @@ self
 .
 reference
 )
-;
 }
 unsafe
 fn
