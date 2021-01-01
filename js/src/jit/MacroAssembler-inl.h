@@ -2817,7 +2817,7 @@ void
 MacroAssembler
 :
 :
-branchIfNegativeBigInt
+branchIfBigIntIsNegative
 (
 Register
 bigInt
