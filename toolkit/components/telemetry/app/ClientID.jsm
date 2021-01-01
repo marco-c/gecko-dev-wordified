@@ -2843,9 +2843,9 @@ MOZ_GLEAN
 {
 Glean
 .
-fog_validation
+fogValidation
 .
-legacy_telemetry_client_id
+legacyTelemetryClientId
 .
 set
 (
