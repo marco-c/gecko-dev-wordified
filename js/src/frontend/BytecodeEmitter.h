@@ -2036,6 +2036,8 @@ intoScriptStencil
 ScriptStencil
 *
 script
+FunctionIndex
+index
 )
 ;
 /

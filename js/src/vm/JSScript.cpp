@@ -25071,6 +25071,9 @@ frontend
 ScriptStencil
 &
 scriptStencil
+SharedImmutableScriptData
+*
+sharedData
 HandleFunction
 fun
 )
@@ -25548,8 +25551,6 @@ script
 >
 initSharedData
 (
-scriptStencil
-.
 sharedData
 )
 ;
@@ -25778,14 +25779,15 @@ frontend
 ScriptStencil
 &
 scriptStencil
+SharedImmutableScriptData
+*
+sharedData
 HandleFunction
 fun
 )
 {
 MOZ_ASSERT
 (
-scriptStencil
-.
 sharedData
 "
 Need
@@ -25874,6 +25876,7 @@ stencil
 gcOutput
 script
 scriptStencil
+sharedData
 fun
 )
 )
