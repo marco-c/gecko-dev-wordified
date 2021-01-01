@@ -348,6 +348,11 @@ PrintingParent
 jsm
 "
 "
+PrintingSelectionChild
+.
+jsm
+"
+"
 PurgeSessionHistoryChild
 .
 jsm
