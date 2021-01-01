@@ -77,7 +77,7 @@ function
 {
 configurable
 :
-true
+false
 }
 {
 enumerable
@@ -92,7 +92,7 @@ false
 {
 configurable
 :
-true
+false
 writable
 :
 true
@@ -108,7 +108,7 @@ false
 {
 configurable
 :
-true
+false
 value
 :
 15
@@ -184,7 +184,7 @@ obj
 {
 configurable
 :
-false
+true
 }
 )
 ;
@@ -232,7 +232,7 @@ obj
 {
 configurable
 :
-false
+true
 value
 :
 15
