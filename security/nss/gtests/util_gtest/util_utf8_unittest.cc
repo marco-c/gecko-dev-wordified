@@ -8370,7 +8370,7 @@ Parameterized
 test
 instantiations
 :
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Ucs4TestCases
 Ucs4Test
@@ -8385,7 +8385,7 @@ kUcs4Cases
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Iso88591TestCases
 Ucs2Test
@@ -8400,7 +8400,7 @@ kIso88591Cases
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Ucs2TestCases
 Ucs2Test
@@ -8415,7 +8415,7 @@ kUcs2Cases
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Utf16TestCases
 Utf16Test
@@ -8430,7 +8430,7 @@ kUtf16Cases
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 BadUtf8TestCases
 BadUtf8Test
@@ -8445,7 +8445,7 @@ kUtf8BadCases
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 BadUtf16TestCases
 BadUtf16Test
@@ -8460,7 +8460,7 @@ kUtf16BadCases
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Iso88591TestCases
 Iso88591Test

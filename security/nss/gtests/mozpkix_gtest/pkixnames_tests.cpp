@@ -9324,7 +9324,7 @@ matches
 ;
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_MatchPresentedDNSIDWithReferenceDNSID
 pkixnames_MatchPresentedDNSIDWithReferenceDNSID
@@ -9551,7 +9551,7 @@ matches
 }
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_Turkish_I_Comparison
 pkixnames_Turkish_I_Comparison
@@ -9669,7 +9669,7 @@ input
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_IsValidReferenceDNSID
 pkixnames_IsValidReferenceDNSID
@@ -9682,7 +9682,7 @@ DNSNAMES_VALIDITY
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_IsValidReferenceDNSID_Turkish_I
 pkixnames_IsValidReferenceDNSID
@@ -9844,7 +9844,7 @@ i
 }
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_ParseIPv4Address
 pkixnames_ParseIPv4Address
@@ -10006,7 +10006,7 @@ i
 }
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_ParseIPv6Address
 pkixnames_ParseIPv6Address
@@ -15185,7 +15185,7 @@ mNameMatchingPolicy
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_CheckCertHostname
 pkixnames_CheckCertHostname
@@ -15736,7 +15736,7 @@ mNameMatchingPolicy
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_CheckCertHostname_DNSID_MATCH_PARAMS
 pkixnames_CheckCertHostname_PresentedMatchesReference
@@ -16528,7 +16528,7 @@ mNameMatchingPolicy
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_CheckCertHostname_IPV4_ADDRESSES
 pkixnames_CheckCertHostname_IPV4_Addresses
@@ -24348,7 +24348,7 @@ id_kp_serverAuth
 ;
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_CheckNameConstraints
 pkixnames_CheckNameConstraints
@@ -24974,7 +24974,7 @@ id_kp_serverAuth
 ;
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_CheckNameConstraintsOnIntermediate
 pkixnames_CheckNameConstraintsOnIntermediate
@@ -25297,7 +25297,7 @@ id_kp_clientAuth
 ;
 }
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixnames_CheckNameConstraintsForNonServerAuthUsage
 pkixnames_CheckNameConstraintsForNonServerAuthUsage

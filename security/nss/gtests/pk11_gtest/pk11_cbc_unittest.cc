@@ -4146,7 +4146,7 @@ decrypted_len
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 EncryptDecrypt
 Pkcs11CbcPadTest
@@ -4573,7 +4573,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofTestVector
 Pkcs11AesCbcWycheproofTest

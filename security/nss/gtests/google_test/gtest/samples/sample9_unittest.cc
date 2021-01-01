@@ -451,7 +451,6 @@ test
 activity
 starts
 .
-virtual
 void
 OnTestProgramStart
 (
@@ -464,6 +463,7 @@ unit_test
 *
 /
 )
+override
 {
 }
 /
@@ -476,7 +476,6 @@ activities
 have
 ended
 .
-virtual
 void
 OnTestProgramEnd
 (
@@ -485,6 +484,7 @@ UnitTest
 &
 unit_test
 )
+override
 {
 fprintf
 (
@@ -525,7 +525,6 @@ a
 test
 starts
 .
-virtual
 void
 OnTestStart
 (
@@ -534,6 +533,7 @@ TestInfo
 &
 test_info
 )
+override
 {
 fprintf
 (
@@ -585,7 +585,6 @@ SUCCEED
 )
 invocation
 .
-virtual
 void
 OnTestPartResult
 (
@@ -594,6 +593,7 @@ TestPartResult
 &
 test_part_result
 )
+override
 {
 fprintf
 (
@@ -661,7 +661,6 @@ a
 test
 ends
 .
-virtual
 void
 OnTestEnd
 (
@@ -670,6 +669,7 @@ TestInfo
 &
 test_info
 )
+override
 {
 fprintf
 (
@@ -1107,7 +1107,7 @@ i
 <
 unit_test
 .
-total_test_case_count
+total_test_suite_count
 (
 )
 ;
@@ -1117,14 +1117,17 @@ i
 )
 {
 const
-TestCase
+testing
+:
+:
+TestSuite
 &
-test_case
+test_suite
 =
 *
 unit_test
 .
-GetTestCase
+GetTestSuite
 (
 i
 )
@@ -1138,7 +1141,7 @@ j
 ;
 j
 <
-test_case
+test_suite
 .
 total_test_count
 (
@@ -1155,7 +1158,7 @@ TestInfo
 test_info
 =
 *
-test_case
+test_suite
 .
 GetTestInfo
 (

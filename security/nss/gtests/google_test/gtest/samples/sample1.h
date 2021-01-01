@@ -349,7 +349,10 @@ n
 /
 Returns
 true
-iff
+if
+and
+only
+if
 n
 is
 a

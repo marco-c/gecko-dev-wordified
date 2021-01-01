@@ -403,7 +403,10 @@ public
 /
 Returns
 true
-iff
+if
+and
+only
+if
 the
 given
 file
@@ -466,7 +469,7 @@ if
 premature_exit_file_path_
 =
 =
-NULL
+nullptr
 )
 {
 premature_exit_file_path_
@@ -480,7 +483,10 @@ premature_exit_file_path_
 /
 Returns
 true
-iff
+if
+and
+only
+if
 the
 premature
 -
@@ -808,7 +814,7 @@ if
 filepath
 !
 =
-NULL
+nullptr
 &
 &
 *

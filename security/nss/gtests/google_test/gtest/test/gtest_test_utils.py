@@ -347,6 +347,16 @@ uname
 [
 0
 ]
+IS_OS2
+=
+os
+.
+name
+=
+=
+'
+os2
+'
 import
 atexit
 import
@@ -1134,6 +1144,8 @@ if
 IS_WINDOWS
 or
 IS_CYGWIN
+or
+IS_OS2
 )
 and
 not
@@ -1512,14 +1524,17 @@ attributes
         
 terminated_by_signal
 True
-iff
+if
+and
+only
+if
 the
 child
 process
 has
 been
-terminated
                                
+terminated
 by
 a
 signal
@@ -1536,11 +1551,15 @@ process
         
 exited
 True
-iff
+if
+and
+only
+if
 the
 child
 process
 exited
+                               
 normally
 .
         
@@ -2235,27 +2254,6 @@ explicitly
 instructs
 them
 to
-.
-  
-#
-FIXME
-:
-Move
-this
-into
-Subprocess
-when
-we
-implement
-  
-#
-passing
-environment
-into
-it
-as
-a
-parameter
 .
   
 if

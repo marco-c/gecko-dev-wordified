@@ -506,7 +506,7 @@ an_element
 )
 next_
 (
-NULL
+nullptr
 )
 {
 }
@@ -582,11 +582,11 @@ Queue
 :
 head_
 (
-NULL
+nullptr
 )
 last_
 (
-NULL
+nullptr
 )
 size_
 (
@@ -681,7 +681,7 @@ if
 node
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -708,7 +708,7 @@ head_
 =
 last_
 =
-NULL
+nullptr
 ;
 size_
 =
@@ -979,7 +979,7 @@ size_
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -1014,7 +1014,7 @@ size_
 {
 last_
 =
-NULL
+nullptr
 ;
 }
 E
@@ -1110,7 +1110,7 @@ head_
 node
 !
 =
-NULL
+nullptr
 ;
 node
 =

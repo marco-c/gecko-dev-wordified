@@ -579,7 +579,6 @@ a
 test
 starts
 .
-virtual
 void
 OnTestStart
 (
@@ -592,6 +591,7 @@ test_info
 *
 /
 )
+override
 {
 initially_allocated_
 =
@@ -611,7 +611,6 @@ a
 test
 ends
 .
-virtual
 void
 OnTestEnd
 (
@@ -624,6 +623,7 @@ test_info
 *
 /
 )
+override
 {
 int
 difference
@@ -750,7 +750,7 @@ EXPECT_TRUE
 water
 !
 =
-NULL
+nullptr
 )
 ;
 }

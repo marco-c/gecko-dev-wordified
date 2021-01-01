@@ -2492,7 +2492,9 @@ version_
 <
 SSL_LIBRARY_VERSION_TLS_1_1
 )
-return
+GTEST_SKIP
+(
+)
 ;
 Connect
 (
@@ -4905,7 +4907,7 @@ PR_GetError
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericStream
 TlsConnectGeneric
@@ -4927,7 +4929,7 @@ kTlsVAll
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericDatagram
 TlsConnectGeneric
@@ -4949,7 +4951,7 @@ kTlsV11Plus
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 StreamOnly
 TlsConnectStream
@@ -4959,7 +4961,7 @@ TlsConnectTestBase
 kTlsVAll
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DatagramOnly
 TlsConnectDatagram
@@ -4969,7 +4971,7 @@ TlsConnectTestBase
 kTlsV11Plus
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DatagramHolddown
 TlsHolddownTest
@@ -4979,7 +4981,7 @@ TlsConnectTestBase
 kTlsV11Plus
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Pre12Stream
 TlsConnectPre12
@@ -5001,7 +5003,7 @@ kTlsV10V11
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Pre12Datagram
 TlsConnectPre12
@@ -5023,7 +5025,7 @@ kTlsV11
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Version12Only
 TlsConnectTls12
@@ -5036,7 +5038,7 @@ kTlsVariantsAll
 #
 ifndef
 NSS_DISABLE_TLS_1_3
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Version13Only
 TlsConnectTls13
@@ -5048,7 +5050,7 @@ kTlsVariantsAll
 ;
 #
 endif
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Pre13Stream
 TlsConnectGenericPre13
@@ -5070,7 +5072,7 @@ kTlsV10ToV12
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Pre13Datagram
 TlsConnectGenericPre13
@@ -5092,7 +5094,7 @@ kTlsV11V12
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Pre13StreamOnly
 TlsConnectStreamPre13
@@ -5102,7 +5104,7 @@ TlsConnectTestBase
 kTlsV10ToV12
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Version12Plus
 TlsConnectTls12Plus
@@ -5124,7 +5126,7 @@ kTlsV12Plus
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericStream
 TlsConnectGenericResumption
@@ -5156,7 +5158,7 @@ false
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericDatagram
 TlsConnectGenericResumption
@@ -5188,7 +5190,7 @@ false
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericStream
 TlsConnectGenericResumptionToken
@@ -5210,7 +5212,7 @@ kTlsVAll
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericDatagram
 TlsConnectGenericResumptionToken
@@ -5232,7 +5234,7 @@ kTlsV11Plus
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericDatagram
 TlsConnectTls13ResumptionToken

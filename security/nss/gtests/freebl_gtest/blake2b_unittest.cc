@@ -386,7 +386,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 UnkeyedKAT
 Blake2BKATUnkeyed
@@ -401,7 +401,7 @@ TestcasesUnkeyed
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 KeyedKAT
 Blake2BKATKeyed

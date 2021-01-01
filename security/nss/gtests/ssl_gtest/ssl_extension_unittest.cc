@@ -6517,7 +6517,9 @@ supported
 in
 DTLS
 .
-return
+GTEST_SKIP
+(
+)
 ;
 }
 EnsureTlsSetup
@@ -7364,7 +7366,7 @@ SSL_ERROR_ILLEGAL_PARAMETER_ALERT
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ExtensionStream
 TlsExtensionTestGeneric
@@ -7386,7 +7388,7 @@ kTlsVAll
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ExtensionDatagram
 TlsExtensionTestGeneric
@@ -7408,7 +7410,7 @@ kTlsV11Plus
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ExtensionDatagramOnly
 TlsExtensionTestDtls
@@ -7418,7 +7420,7 @@ TlsConnectTestBase
 kTlsV11Plus
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ExtensionTls12
 TlsExtensionTest12
@@ -7440,7 +7442,7 @@ kTlsV12
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ExtensionTls12Plus
 TlsExtensionTest12Plus
@@ -7462,7 +7464,7 @@ kTlsV12Plus
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ExtensionPre13Stream
 TlsExtensionTestPre13
@@ -7484,7 +7486,7 @@ kTlsV10ToV12
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ExtensionPre13Datagram
 TlsExtensionTestPre13
@@ -7506,7 +7508,7 @@ kTlsV11V12
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ExtensionTls13
 TlsExtensionTest13
@@ -7516,7 +7518,7 @@ TlsConnectTestBase
 kTlsVariantsAll
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 BogusExtensionStream
 TlsBogusExtensionTestPre13
@@ -7538,7 +7540,7 @@ kTlsV10ToV12
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 BogusExtensionDatagram
 TlsBogusExtensionTestPre13
@@ -7560,7 +7562,7 @@ kTlsV11V12
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 BogusExtension13
 TlsBogusExtensionTest13

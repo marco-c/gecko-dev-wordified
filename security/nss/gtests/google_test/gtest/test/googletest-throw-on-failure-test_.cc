@@ -479,7 +479,7 @@ program
 ;
 fflush
 (
-NULL
+nullptr
 )
 ;
 exit

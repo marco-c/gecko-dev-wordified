@@ -2333,7 +2333,7 @@ ValuesIn
 kTrueFalseArr
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DamageYStream
 TlsDamageDHYTest
@@ -2357,7 +2357,7 @@ kTrueFalse
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DamageYDatagram
 TlsDamageDHYTest

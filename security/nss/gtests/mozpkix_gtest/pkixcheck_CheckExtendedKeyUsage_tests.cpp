@@ -3447,7 +3447,7 @@ id_kp_OCSPSigning
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixcheck_CheckExtendedKeyUsage
 CheckExtendedKeyUsageTest
@@ -4638,7 +4638,7 @@ Success
 }
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixcheck_CheckExtendedKeyUsage
 CheckExtendedKeyUsageChainTest

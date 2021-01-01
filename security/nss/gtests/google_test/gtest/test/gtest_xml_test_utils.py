@@ -816,7 +816,7 @@ child
 in
 expected_children
 .
-iteritems
+items
 (
 )
 :
@@ -1554,11 +1554,18 @@ if
 element
 .
 tagName
-=
-=
+in
+(
 '
 testsuites
 '
+'
+testsuite
+'
+'
+testcase
+'
+)
 :
       
 timestamp

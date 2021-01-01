@@ -240,7 +240,9 @@ version_
 <
 SSL_LIBRARY_VERSION_TLS_1_1
 )
-return
+GTEST_SKIP
+(
+)
 ;
 uint16_t
 minver
@@ -292,7 +294,9 @@ version_
 <
 SSL_LIBRARY_VERSION_TLS_1_2
 )
-return
+GTEST_SKIP
+(
+)
 ;
 uint16_t
 minver
@@ -857,7 +861,9 @@ c_ver
 s_ver
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 client_
@@ -2681,7 +2687,7 @@ version
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 TlsDowngradeSentinelTest
 TlsDowngradeTest

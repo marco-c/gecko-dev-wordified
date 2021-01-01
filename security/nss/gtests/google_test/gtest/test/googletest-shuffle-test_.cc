@@ -370,17 +370,6 @@ testing
 :
 UnitTest
 ;
-using
-:
-:
-testing
-:
-:
-internal
-:
-:
-scoped_ptr
-;
 /
 /
 The
@@ -583,7 +572,6 @@ EmptyTestEventListener
 {
 public
 :
-virtual
 void
 OnTestIterationStart
 (
@@ -602,6 +590,7 @@ iteration
 *
 /
 )
+override
 {
 printf
 (
@@ -616,7 +605,6 @@ n
 )
 ;
 }
-virtual
 void
 OnTestStart
 (
@@ -625,6 +613,7 @@ TestInfo
 &
 test_info
 )
+override
 {
 printf
 (

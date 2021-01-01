@@ -401,7 +401,7 @@ translation
 units
 .
 class
-InstantiationInMultipleTranslaionUnitsTest
+InstantiationInMultipleTranslationUnitsTest
 :
 public
 :

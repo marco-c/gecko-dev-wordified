@@ -825,7 +825,7 @@ get
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 ParseAVAStrings
 Alg1485ParseTest
@@ -840,7 +840,7 @@ kAVATestStrings
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 CompareAVAStrings
 Alg1485CompareTest

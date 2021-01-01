@@ -424,7 +424,7 @@ for
 src
 !
 =
-NULL
+nullptr
 ;
 src
 =
@@ -481,7 +481,7 @@ otherwise
 const
 char
 *
-TypedTestCasePState
+TypedTestSuitePState
 :
 :
 VerifyRegisteredTestNames
@@ -711,7 +711,7 @@ found
 in
 this
 test
-case
+suite
 .
 \
 n

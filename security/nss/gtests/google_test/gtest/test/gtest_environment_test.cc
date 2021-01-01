@@ -418,11 +418,11 @@ or
 /
 succeed
 .
-virtual
 void
 SetUp
 (
 )
+override
 {
 set_up_was_run_
 =
@@ -494,11 +494,11 @@ non
 fatal
 failure
 .
-virtual
 void
 TearDown
 (
 )
+override
 {
 tear_down_was_run_
 =
@@ -749,7 +749,10 @@ tests
 .
 Return
 true
-iff
+if
+and
+only
+if
 successful
 .
 /

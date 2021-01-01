@@ -1539,7 +1539,9 @@ variant_
 ssl_variant_datagram
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 /
@@ -1688,7 +1690,9 @@ variant_
 ssl_variant_datagram
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 /
@@ -1837,7 +1841,9 @@ variant_
 ssl_variant_datagram
 )
 {
-return
+GTEST_SKIP
+(
+)
 ;
 }
 /
@@ -9864,7 +9870,7 @@ SSL_ERROR_RX_MALFORMED_CLIENT_HELLO
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 EchAgentTest
 TlsAgentEchTest
@@ -9969,7 +9975,7 @@ PORT_GetError
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 EchAgentTest
 TlsAgentEchTest

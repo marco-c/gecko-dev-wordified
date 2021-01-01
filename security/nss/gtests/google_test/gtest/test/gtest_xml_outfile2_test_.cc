@@ -332,11 +332,11 @@ Test
 {
 protected
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 RecordProperty
 (
@@ -347,11 +347,11 @@ SetUpProp
 )
 ;
 }
-virtual
 void
 TearDown
 (
 )
+override
 {
 RecordProperty
 (

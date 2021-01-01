@@ -365,7 +365,7 @@ test_test
 cc
 .
 )
-INSTANTIATE_TYPED_TEST_CASE_P
+INSTANTIATE_TYPED_TEST_SUITE_P
 (
 Vector
 ContainerTest

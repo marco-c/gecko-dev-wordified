@@ -419,7 +419,7 @@ kP521Signature
 }
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 EcdsaSignVerify
 Pkcs11EcdsaTest
@@ -1520,7 +1520,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofP256SignatureSha256Test
 Pkcs11EcdsaWycheproofTest
@@ -1535,7 +1535,7 @@ kP256EcdsaSha256Vectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofP384SignatureSha384Test
 Pkcs11EcdsaWycheproofTest
@@ -1550,7 +1550,7 @@ kP384EcdsaSha384Vectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofP521SignatureSha512Test
 Pkcs11EcdsaWycheproofTest

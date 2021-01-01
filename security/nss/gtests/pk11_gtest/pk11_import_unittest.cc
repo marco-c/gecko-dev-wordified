@@ -1610,7 +1610,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Pk11KeyImportTest
 Pk11KeyImportTest
@@ -1679,7 +1679,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Pk11KeyImportTestEC
 Pk11KeyImportTestEC

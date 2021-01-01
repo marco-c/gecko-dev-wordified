@@ -2458,14 +2458,14 @@ ValuesIn
 kMaskingCiphersuites
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericMasking
 SuiteTest
 kMaskingCiphersuiteParams
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericMasking
 VariantTest
@@ -2475,7 +2475,7 @@ TlsConnectTestBase
 kTlsVariantsAll
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 GenericMasking
 VariantSuiteTest

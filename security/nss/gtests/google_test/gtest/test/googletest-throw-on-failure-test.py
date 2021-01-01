@@ -505,6 +505,7 @@ t
 "
   
 print
+(
 '
 Running
 "
@@ -522,6 +523,7 @@ s
 join
 (
 command
+)
 )
   
 p
@@ -547,31 +549,6 @@ exit_code
 #
 The
 tests
-.
-FIXME
-:
-refactor
-the
-class
-to
-share
-common
-#
-logic
-with
-code
-in
-googletest
--
-break
--
-on
--
-failure
--
-unittest
-.
-py
 .
 class
 ThrowOnFailureTest
@@ -687,7 +664,10 @@ present
 should_fail
 :
 True
-iff
+if
+and
+only
+if
 the
 program
 is

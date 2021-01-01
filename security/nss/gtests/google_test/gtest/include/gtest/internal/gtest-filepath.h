@@ -388,7 +388,6 @@ h
 GTEST_DISABLE_MSC_WARNINGS_PUSH_
 (
 4251
-\
 /
 *
 class
@@ -991,7 +990,10 @@ extension
 /
 Returns
 true
-iff
+if
+and
+only
+if
 the
 path
 is

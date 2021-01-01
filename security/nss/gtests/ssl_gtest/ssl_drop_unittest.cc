@@ -6757,7 +6757,7 @@ Connect
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Datagram12Plus
 TlsConnectDatagram12Plus
@@ -6767,7 +6767,7 @@ TlsConnectTestBase
 kTlsV12Plus
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DatagramPre13
 TlsConnectDatagramPre13
@@ -6777,7 +6777,7 @@ TlsConnectTestBase
 kTlsV11V12
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DatagramDrop13
 TlsDropDatagram13
@@ -6793,7 +6793,7 @@ false
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DatagramReorder13
 TlsReorderDatagram13
@@ -6809,7 +6809,7 @@ false
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 DatagramFragment13
 TlsFragmentationAndRecoveryTest

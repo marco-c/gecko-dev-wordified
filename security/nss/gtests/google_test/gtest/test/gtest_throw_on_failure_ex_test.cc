@@ -556,7 +556,7 @@ failure
 )
 !
 =
-NULL
+nullptr
 )
 return
 ;

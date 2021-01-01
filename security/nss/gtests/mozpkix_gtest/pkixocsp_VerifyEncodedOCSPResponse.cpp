@@ -472,7 +472,7 @@ public
 :
 static
 void
-SetUpTestCase
+SetUpTestSuite
 (
 )
 {
@@ -1058,7 +1058,7 @@ expired
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 pkixocsp_VerifyEncodedResponse_WithoutResponseBytes
 pkixocsp_VerifyEncodedResponse_WithoutResponseBytes
@@ -1206,14 +1206,14 @@ SetUp
 }
 static
 void
-SetUpTestCase
+SetUpTestSuite
 (
 )
 {
 pkixocsp_VerifyEncodedResponse
 :
 :
-SetUpTestCase
+SetUpTestSuite
 (
 )
 ;

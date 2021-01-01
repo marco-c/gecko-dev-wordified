@@ -373,12 +373,6 @@ internal
 :
 ThreadWithParam
 ;
-using
-internal
-:
-:
-scoped_ptr
-;
 /
 /
 In
@@ -1026,7 +1020,10 @@ CanUseScopedTraceAndAssertionsInManyThreads
 )
 {
 {
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 ThreadWithParam
 <
@@ -1393,7 +1390,7 @@ thread
 &
 FailingThread
 is_fatal
-NULL
+nullptr
 )
 ;
 thread

@@ -321,6 +321,7 @@ u
 tests
 '
 :
+        
 1
     
 u
@@ -328,6 +329,7 @@ u
 failures
 '
 :
+        
 0
     
 u
@@ -335,6 +337,7 @@ u
 disabled
 '
 :
+        
 0
     
 u
@@ -342,6 +345,7 @@ u
 errors
 '
 :
+        
 0
     
 u
@@ -349,6 +353,7 @@ u
 time
 '
 :
+        
 u
 '
 *
@@ -359,6 +364,7 @@ u
 timestamp
 '
 :
+        
 u
 '
 *
@@ -369,6 +375,7 @@ u
 name
 '
 :
+        
 u
 '
 AllTests
@@ -387,6 +394,7 @@ u
 name
 '
 :
+            
 u
 '
 PropertyOne
@@ -397,6 +405,7 @@ u
 tests
 '
 :
+            
 1
         
 u
@@ -404,6 +413,7 @@ u
 failures
 '
 :
+            
 0
         
 u
@@ -411,6 +421,7 @@ u
 disabled
 '
 :
+            
 0
         
 u
@@ -418,6 +429,7 @@ u
 errors
 '
 :
+            
 0
         
 u
@@ -425,6 +437,18 @@ u
 time
 '
 :
+            
+u
+'
+*
+'
+        
+u
+'
+timestamp
+'
+:
+            
 u
 '
 *
@@ -460,7 +484,27 @@ RUN
             
 u
 '
+result
+'
+:
+u
+'
+COMPLETED
+'
+            
+u
+'
 time
+'
+:
+u
+'
+*
+'
+            
+u
+'
+timestamp
 '
 :
 u
@@ -523,6 +567,7 @@ u
 tests
 '
 :
+        
 1
     
 u
@@ -530,6 +575,7 @@ u
 failures
 '
 :
+        
 0
     
 u
@@ -537,6 +583,7 @@ u
 disabled
 '
 :
+        
 0
     
 u
@@ -544,6 +591,7 @@ u
 errors
 '
 :
+        
 0
     
 u
@@ -551,6 +599,7 @@ u
 time
 '
 :
+        
 u
 '
 *
@@ -561,6 +610,7 @@ u
 timestamp
 '
 :
+        
 u
 '
 *
@@ -571,6 +621,7 @@ u
 name
 '
 :
+        
 u
 '
 AllTests
@@ -589,6 +640,7 @@ u
 name
 '
 :
+            
 u
 '
 PropertyTwo
@@ -599,6 +651,7 @@ u
 tests
 '
 :
+            
 1
         
 u
@@ -606,6 +659,7 @@ u
 failures
 '
 :
+            
 0
         
 u
@@ -613,6 +667,7 @@ u
 disabled
 '
 :
+            
 0
         
 u
@@ -620,6 +675,7 @@ u
 errors
 '
 :
+            
 0
         
 u
@@ -627,6 +683,18 @@ u
 time
 '
 :
+            
+u
+'
+*
+'
+        
+u
+'
+timestamp
+'
+:
+            
 u
 '
 *
@@ -658,6 +726,26 @@ status
 u
 '
 RUN
+'
+            
+u
+'
+result
+'
+:
+u
+'
+COMPLETED
+'
+            
+u
+'
+timestamp
+'
+:
+u
+'
+*
 '
             
 u
@@ -1029,59 +1117,6 @@ p
 .
 exit_code
 )
-    
-#
-FIXME
-:
-libtool
-causes
-the
-built
-test
-binary
-to
-be
-    
-#
-named
-lt
--
-gtest_xml_outfiles_test_
-instead
-of
-    
-#
-gtest_xml_outfiles_test_
-.
-To
-account
-for
-this
-possibility
-we
-    
-#
-allow
-both
-names
-in
-the
-following
-code
-.
-We
-should
-remove
-this
-    
-#
-when
-libtool
-replacement
-tool
-is
-ready
-.
     
 output_file_name1
 =

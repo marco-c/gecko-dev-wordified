@@ -493,7 +493,6 @@ exception
 {
 public
 :
-virtual
 const
 char
 *
@@ -504,6 +503,7 @@ const
 throw
 (
 )
+override
 {
 return
 "
@@ -575,15 +575,7 @@ TestException
 "
 "
 )
-"
-googletest
--
-death
--
-test_ex_test
-.
-cc
-"
+__FILE__
 )
 ;
 }

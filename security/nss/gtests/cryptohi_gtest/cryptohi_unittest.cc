@@ -2075,7 +2075,7 @@ params
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignParamsTestCases
 SignParamsTest
@@ -2117,7 +2117,7 @@ SEC_OID_SHA512
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 SignParamsSourceTestCases
 SignParamsSourceTest

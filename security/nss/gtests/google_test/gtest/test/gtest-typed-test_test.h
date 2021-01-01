@@ -382,7 +382,7 @@ Test
 {
 }
 ;
-TYPED_TEST_CASE_P
+TYPED_TEST_SUITE_P
 (
 ContainerTest
 )
@@ -417,7 +417,7 @@ size
 )
 ;
 }
-REGISTER_TYPED_TEST_CASE_P
+REGISTER_TYPED_TEST_SUITE_P
 (
 ContainerTest
 CanBeDefaultConstructed

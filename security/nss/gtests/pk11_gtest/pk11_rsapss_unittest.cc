@@ -1958,7 +1958,7 @@ VECTOR_N
 )
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 RsaPssSignVerify
 Pkcs11RsaPssVectorTest
@@ -1987,7 +1987,7 @@ GetParam
 )
 ;
 }
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof2048RsaPssSha120Test
 Pkcs11RsaPssTestWycheproof
@@ -2002,7 +2002,7 @@ kRsaPss2048Sha120WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof2048RsaPssSha25632Test
 Pkcs11RsaPssTestWycheproof
@@ -2017,7 +2017,7 @@ kRsaPss2048Sha25632WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof2048RsaPssSha2560Test
 Pkcs11RsaPssTestWycheproof
@@ -2032,7 +2032,7 @@ kRsaPss2048Sha2560WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof3072RsaPssSha25632Test
 Pkcs11RsaPssTestWycheproof
@@ -2047,7 +2047,7 @@ kRsaPss3072Sha25632WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof4096RsaPssSha25632Test
 Pkcs11RsaPssTestWycheproof
@@ -2062,7 +2062,7 @@ kRsaPss4096Sha25632WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Wycheproof4096RsaPssSha51232Test
 Pkcs11RsaPssTestWycheproof
@@ -2077,7 +2077,7 @@ kRsaPss4096Sha51232WycheproofVectors
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 WycheproofRsaPssMiscTest
 Pkcs11RsaPssTestWycheproof

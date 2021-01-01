@@ -356,10 +356,10 @@ if
 a_c_string
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 const
 size_t

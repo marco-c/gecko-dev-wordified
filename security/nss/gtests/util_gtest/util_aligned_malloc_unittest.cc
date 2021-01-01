@@ -485,7 +485,7 @@ kBadSizes
 56
 }
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AllAligned
 AlignedMallocTest
@@ -500,7 +500,7 @@ kSizes
 )
 )
 ;
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 AllAlignedBadSize
 AlignedMallocTestBadSize

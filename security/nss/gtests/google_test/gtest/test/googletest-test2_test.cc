@@ -460,7 +460,7 @@ test_test
 .
 h
 .
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 MultiplesOf33
 ExternalInstantiationTest
@@ -508,7 +508,7 @@ cc
 and
 /
 /
-InstantiationInMultipleTranslaionUnitsTest
+InstantiationInMultipleTranslationUnitsTest
 fixture
 is
 defined
@@ -522,10 +522,10 @@ param
 test_test
 .
 h
-INSTANTIATE_TEST_CASE_P
+INSTANTIATE_TEST_SUITE_P
 (
 Sequence2
-InstantiationInMultipleTranslaionUnitsTest
+InstantiationInMultipleTranslationUnitsTest
 Values
 (
 42

@@ -418,14 +418,6 @@ name
 '
 nt
 '
-#
-FIXME
-:
-remove
-the
-_lin
-suffix
-.
 GOLDEN_NAME
 =
 '
@@ -2238,6 +2230,10 @@ ToUnixLineEnding
 golden_file
 .
 read
+(
+)
+.
+decode
 (
 )
 )

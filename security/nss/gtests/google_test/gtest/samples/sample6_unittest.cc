@@ -497,11 +497,11 @@ T
 )
 {
 }
-virtual
 ~
 PrimeTableTest
 (
 )
+override
 {
 delete
 table_
@@ -677,7 +677,7 @@ use
 /
 /
 /
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 TestCaseName
 TypeList
@@ -728,7 +728,7 @@ PreCalculatedPrimeTable
 >
 Implementations
 ;
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 (
 PrimeTableTest
 Implementations
@@ -1140,7 +1140,7 @@ type
 list
 specified
 in
-TYPED_TEST_CASE
+TYPED_TEST_SUITE
 .
 Sit
 back
@@ -1423,7 +1423,7 @@ or
 pattern
 "
 .
-TYPED_TEST_CASE_P
+TYPED_TEST_SUITE_P
 (
 PrimeTableTest2
 )
@@ -1753,7 +1753,7 @@ tests
 you
 defined
 :
-REGISTER_TYPED_TEST_CASE_P
+REGISTER_TYPED_TEST_SUITE_P
 (
 PrimeTableTest2
 /
@@ -1960,7 +1960,7 @@ PreCalculatedPrimeTable
 >
 PrimeTableImplementations
 ;
-INSTANTIATE_TYPED_TEST_CASE_P
+INSTANTIATE_TYPED_TEST_SUITE_P
 (
 OnTheFlyAndPreCalculated
 /
