@@ -152,8 +152,9 @@ hVR
 =
 :
 :
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 vrhost
 .
