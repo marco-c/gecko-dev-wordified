@@ -361,7 +361,6 @@ panelWin
 const
 {
 onSetGridOverlayColor
-onShowGridOutlineHighlight
 onToggleGridHighlighter
 onToggleShowGridAreas
 onToggleShowGridLineNumbers
@@ -395,7 +394,6 @@ onSetFlexboxOverlayColor
 onSetGridOverlayColor
 onShowBoxModelEditor
 onShowRulePreviewTooltip
-onShowGridOutlineHighlight
 onToggleGeometryEditor
 onToggleGridHighlighter
 onToggleShowGridAreas

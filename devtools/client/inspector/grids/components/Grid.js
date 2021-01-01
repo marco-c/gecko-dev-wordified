@@ -376,13 +376,6 @@ PropTypes
 func
 .
 isRequired
-onShowGridOutlineHighlight
-:
-PropTypes
-.
-func
-.
-isRequired
 onToggleGridHighlighter
 :
 PropTypes
@@ -473,7 +466,6 @@ getSwatchColorPickerTooltip
 grids
 highlighterSettings
 onSetGridOverlayColor
-onShowGridOutlineHighlight
 onToggleShowGridAreas
 onToggleGridHighlighter
 onToggleShowGridLineNumbers
@@ -561,8 +553,8 @@ length
 GridOutline
 (
 {
+dispatch
 grids
-onShowGridOutlineHighlight
 }
 )
 :
