@@ -133,6 +133,15 @@ h
 #
 include
 "
+ipc
+/
+IPCMessageUtilsSpecializations
+.
+h
+"
+#
+include
+"
 PluginMessageUtils
 .
 h
