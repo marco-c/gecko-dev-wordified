@@ -11637,12 +11637,6 @@ as
 usize
 ]
 ;
-if
-true
-&
-&
-true
-{
 /
 *
 Prepare
@@ -11863,7 +11857,6 @@ else
 return
 None
 ;
-}
 }
 return
 Some

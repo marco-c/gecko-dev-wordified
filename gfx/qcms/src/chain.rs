@@ -8211,9 +8211,6 @@ is_none
 (
 )
 {
-if
-true
-{
 transform
 .
 as_mut
@@ -8394,9 +8391,6 @@ pow
 *
 3
 ;
-if
-true
-{
 assert_eq
 !
 (
@@ -8462,9 +8456,6 @@ u16
 Prepare
 output
 curves
-if
-true
-{
 transform
 .
 as_mut
@@ -8647,9 +8638,6 @@ next_transform
 return
 first_transform
 ;
-}
-}
-}
 }
 }
 }
