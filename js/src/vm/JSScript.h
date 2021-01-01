@@ -11898,6 +11898,11 @@ SpewEnabled
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
+needsFinalWarmUpCount
+NeedsFinalWarmUpCount
+)
+MUTABLE_FLAG_GETTER_SETTER
+(
 failedBoundsCheck
 FailedBoundsCheck
 )
