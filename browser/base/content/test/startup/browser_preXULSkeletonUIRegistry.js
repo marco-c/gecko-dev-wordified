@@ -712,6 +712,9 @@ Theme
 "
 MenubarShown
 "
+"
+RTLEnabled
+"
 ]
 ;
 /

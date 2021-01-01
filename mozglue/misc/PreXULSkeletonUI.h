@@ -287,6 +287,9 @@ maximized
 bool
 menubarShown
 ;
+bool
+rtlEnabled
+;
 }
 ;
 enum
