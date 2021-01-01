@@ -2856,11 +2856,6 @@ const
 override
 ;
 void
-NotifyWebRenderContextPurge
-(
-)
-;
-void
 NotifyWebRenderDisableNativeCompositor
 (
 )

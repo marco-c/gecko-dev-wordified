@@ -1068,6 +1068,14 @@ defined
 .
 if
 (
+mThread
+-
+>
+IsHandlingDeviceReset
+(
+)
+|
+|
 !
 mCompositor
 -
