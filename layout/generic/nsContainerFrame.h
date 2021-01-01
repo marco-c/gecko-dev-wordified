@@ -6806,7 +6806,7 @@ widths
 *
 *
 param
-aIntrinsicRatio
+aAspectRatio
 the
 aspect
 ratio
@@ -6845,7 +6845,7 @@ mozilla
 :
 AspectRatio
 &
-aIntrinsicRatio
+aAspectRatio
 const
 mozilla
 :
