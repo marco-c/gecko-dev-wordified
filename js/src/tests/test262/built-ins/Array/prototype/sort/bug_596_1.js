@@ -149,7 +149,7 @@ sort
 ;
 counter
 <
-22
+2
 .
 Actual
 :

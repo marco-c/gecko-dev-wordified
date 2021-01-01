@@ -13,7 +13,7 @@ enable
 -
 private
 -
-methods
+fields
 )
 shell
 -
@@ -25,7 +25,7 @@ enable
 -
 private
 -
-fields
+methods
 )
 skip
 -

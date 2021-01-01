@@ -158,9 +158,6 @@ includes
 testBigIntTypedArray
 .
 js
-propertyHelper
-.
-js
 ]
 features
 :

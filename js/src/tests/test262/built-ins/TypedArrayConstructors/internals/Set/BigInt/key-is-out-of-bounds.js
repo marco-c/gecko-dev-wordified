@@ -58,7 +58,8 @@ description
 :
 >
 Returns
-false
+true
+even
 if
 index
 is
@@ -119,7 +120,7 @@ undefined
 then
 i
 .
-Return
+Perform
 ?
 IntegerIndexedElementSet
 (
@@ -127,6 +128,11 @@ O
 numericIndex
 V
 )
+.
+ii
+.
+Return
+true
 .
 .
 .
@@ -137,7 +143,7 @@ V
 .
 5
 .
-9
+11
 IntegerIndexedElementSet
 (
 O
@@ -246,7 +252,7 @@ sample
 '
 1n
 )
-false
+true
 '
 Reflect
 .
@@ -287,7 +293,7 @@ sample
 '
 1n
 )
-false
+true
 '
 Reflect
 .
@@ -327,7 +333,7 @@ sample
 '
 1n
 )
-false
+true
 '
 Reflect
 .

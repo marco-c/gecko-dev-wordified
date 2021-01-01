@@ -58,7 +58,7 @@ description
 :
 >
 Returns
-true
+false
 when
 setting
 the

@@ -266,7 +266,7 @@ sample
 [
 0
 ]
-0
+42
 "
 side
 effect

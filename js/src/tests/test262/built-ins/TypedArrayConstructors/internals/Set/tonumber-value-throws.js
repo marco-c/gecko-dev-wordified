@@ -118,7 +118,7 @@ undefined
 then
 i
 .
-Return
+Perform
 ?
 IntegerIndexedElementSet
 (
@@ -126,6 +126,11 @@ O
 numericIndex
 V
 )
+.
+ii
+.
+Return
+true
 .
 .
 .
