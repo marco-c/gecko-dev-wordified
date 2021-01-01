@@ -366,6 +366,9 @@ virtualenv_modules
 [
 "
 pypiwin32
+=
+=
+219
 "
 "
 six
