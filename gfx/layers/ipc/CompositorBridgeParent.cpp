@@ -14174,6 +14174,9 @@ mRootLayerTreeID
 ;
 if
 (
+uiController
+&
+&
 mIsForcedFirstPaint
 )
 {
