@@ -118,6 +118,9 @@ MPL
 define
 MOZ_USE_LAUNCHER_ERROR
 #
+define
+UNICODE
+#
 include
 "
 mozilla
