@@ -126,9 +126,8 @@ crate
 :
 :
 {
-CongestionControlAlgorithm
+ConnectionParameters
 Error
-QuicVersion
 }
 ;
 use
@@ -1166,11 +1165,7 @@ new
 )
 )
 &
-CongestionControlAlgorithm
-:
-:
-NewReno
-QuicVersion
+ConnectionParameters
 :
 :
 default

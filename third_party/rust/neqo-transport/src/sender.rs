@@ -306,7 +306,6 @@ new
 (
 alg
 :
-&
 CongestionControlAlgorithm
 )
 -

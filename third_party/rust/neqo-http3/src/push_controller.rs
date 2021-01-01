@@ -2284,17 +2284,6 @@ check_push_id
 (
 push_id
 )
-.
-map_err
-(
-|
-_
-|
-Error
-:
-:
-InvalidStreamId
-)
 ?
 ;
 match

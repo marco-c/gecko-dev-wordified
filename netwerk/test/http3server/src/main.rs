@@ -144,6 +144,7 @@ neqo_transport
 :
 {
 ConnectionEvent
+ConnectionParameters
 FixedConnectionIdManager
 Output
 }
@@ -3269,6 +3270,12 @@ AllowZeroRtt
 }
 )
 cid_mgr
+ConnectionParameters
+:
+:
+default
+(
+)
 )
 .
 expect

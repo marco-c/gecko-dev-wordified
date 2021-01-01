@@ -5424,10 +5424,8 @@ get
 id
 )
 .
-ok_or_else
+ok_or
 (
-|
-|
 Error
 :
 :
@@ -5464,10 +5462,8 @@ get_mut
 id
 )
 .
-ok_or_else
+ok_or
 (
-|
-|
 Error
 :
 :
