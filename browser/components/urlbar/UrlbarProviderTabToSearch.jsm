@@ -741,6 +741,16 @@ UrlbarPrefs
 get
 (
 "
+update2
+"
+)
+&
+&
+UrlbarPrefs
+.
+get
+(
+"
 suggest
 .
 engines

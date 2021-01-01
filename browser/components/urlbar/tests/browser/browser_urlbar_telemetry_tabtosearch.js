@@ -464,6 +464,16 @@ browser
 .
 urlbar
 .
+update2
+"
+true
+]
+[
+"
+browser
+.
+urlbar
+.
 tabToSearch
 .
 onboard
