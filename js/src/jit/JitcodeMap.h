@@ -1198,11 +1198,6 @@ ptr
 )
 ;
 }
-template
-<
-class
-ShouldTraceProvider
->
 bool
 traceJitcode
 (
@@ -1671,11 +1666,6 @@ ptr
 )
 const
 ;
-template
-<
-class
-ShouldTraceProvider
->
 bool
 trace
 (
@@ -1916,11 +1906,6 @@ lookupRealmID
 )
 const
 ;
-template
-<
-class
-ShouldTraceProvider
->
 bool
 trace
 (
@@ -3669,11 +3654,6 @@ zone
 )
 ;
 }
-template
-<
-class
-ShouldTraceProvider
->
 bool
 trace
 (
@@ -3690,9 +3670,6 @@ baseEntry
 )
 .
 traceJitcode
-<
-ShouldTraceProvider
->
 (
 trc
 )
@@ -3715,9 +3692,6 @@ ionEntry
 )
 .
 trace
-<
-ShouldTraceProvider
->
 (
 trc
 )
@@ -3735,9 +3709,6 @@ baselineEntry
 )
 .
 trace
-<
-ShouldTraceProvider
->
 (
 trc
 )
