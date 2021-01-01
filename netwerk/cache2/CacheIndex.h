@@ -660,6 +660,11 @@ mFlags
 )
 {
 }
+~
+CacheIndexRecord
+(
+)
+;
 }
 ;
 #
@@ -5641,6 +5646,10 @@ friend
 class
 CacheIndexIterator
 ;
+friend
+struct
+CacheIndexRecord
+;
 virtual
 ~
 CacheIndex
@@ -8613,6 +8622,14 @@ aOldRecord
 CacheIndexRecord
 *
 aNewRecord
+)
+;
+bool
+FindAndRemoveRecord
+(
+CacheIndexRecord
+*
+aRecord
 )
 ;
 void
