@@ -25522,7 +25522,7 @@ aUpdates
 )
 ;
 let
-state
+success
 =
 gAUS
 .
@@ -25534,16 +25534,8 @@ false
 ;
 if
 (
-state
-=
-=
-STATE_NONE
-|
-|
-state
-=
-=
-STATE_FAILED
+!
+success
 )
 {
 do_throw
@@ -25555,7 +25547,7 @@ downloadUpdate
 returned
 "
 +
-state
+success
 )
 ;
 }
