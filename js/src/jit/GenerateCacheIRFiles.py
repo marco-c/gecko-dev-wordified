@@ -891,19 +891,6 @@ writeScalarTypeImm
 )
     
 "
-MetaTwoByteKindImm
-"
-:
-(
-"
-MetaTwoByteKind
-"
-"
-writeMetaTwoByteKindImm
-"
-)
-    
-"
 UnaryMathFunctionImm
 "
 :
@@ -2085,28 +2072,6 @@ scalarType
 )
     
 "
-MetaTwoByteKindImm
-"
-:
-(
-"
-MetaTwoByteKind
-"
-"
-"
-"
-reader
-.
-metaKind
-<
-MetaTwoByteKind
->
-(
-)
-"
-)
-    
-"
 UnaryMathFunctionImm
 "
 :
@@ -2838,14 +2803,6 @@ ScalarTypeImm
 :
 "
 spewScalarTypeImm
-"
-    
-"
-MetaTwoByteKindImm
-"
-:
-"
-spewMetaTwoByteKindImm
 "
     
 "
@@ -3826,12 +3783,6 @@ CallFlagsImm
     
 "
 ScalarTypeImm
-"
-:
-1
-    
-"
-MetaTwoByteKindImm
 "
 :
 1

@@ -45077,7 +45077,8 @@ It
 is
 consumed
 by
-BaselineInspector
+the
+transpiler
 .
 bool
 CacheIRCompiler
@@ -45085,7 +45086,6 @@ CacheIRCompiler
 :
 emitMetaTwoByte
 (
-MetaTwoByteKind
 uint32_t
 uint32_t
 )
