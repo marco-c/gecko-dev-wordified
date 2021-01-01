@@ -1712,9 +1712,6 @@ penality
 bool
 mSmoothRendering
 ;
-bool
-mIsMainThread
-;
 gint
 mSurfaceReadyTimerID
 ;
