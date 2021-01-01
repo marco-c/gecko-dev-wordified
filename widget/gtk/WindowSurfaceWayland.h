@@ -155,6 +155,15 @@ WindowSurface
 h
 "
 #
+include
+"
+mozilla
+/
+Mutex
+.
+h
+"
+#
 define
 BACK_BUFFER_NUM
 3
@@ -795,7 +804,7 @@ FrameCallbackHandler
 /
 /
 /
-CommitWaylandBuffer
+FlushPendingCommits
 (
 )
 .
@@ -924,7 +933,7 @@ instance
 )
 .
 void
-CommitWaylandBuffer
+FlushPendingCommits
 (
 )
 ;
@@ -1134,6 +1143,11 @@ aDrawTarget
 LayoutDeviceIntRegion
 &
 aWaylandBufferDamage
+)
+;
+void
+FlushPendingCommitsInternal
+(
 )
 ;
 /
@@ -1642,7 +1656,7 @@ commit
 by
 /
 /
-CommitWaylandBuffer
+FlushPendingCommits
 (
 )
 .
@@ -1703,6 +1717,12 @@ mIsMainThread
 ;
 gint
 mSurfaceReadyTimerID
+;
+mozilla
+:
+:
+Mutex
+mSurfaceLock
 ;
 }
 ;
