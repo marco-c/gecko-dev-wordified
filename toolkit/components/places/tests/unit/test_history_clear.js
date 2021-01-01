@@ -504,7 +504,10 @@ and
 wait
 for
 the
-onClearHistory
+history
+-
+cleared
+event
 notification
 .
 let
@@ -515,7 +518,9 @@ PlacesTestUtils
 waitForNotification
 (
 "
-onClearHistory
+history
+-
+cleared
 "
 (
 )
@@ -523,7 +528,7 @@ onClearHistory
 >
 true
 "
-history
+places
 "
 )
 ;
