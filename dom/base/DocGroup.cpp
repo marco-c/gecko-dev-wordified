@@ -1553,6 +1553,15 @@ if
 (
 !
 top
+|
+|
+!
+top
+-
+>
+GetCurrentWindowContext
+(
+)
 )
 {
 continue
