@@ -4138,6 +4138,11 @@ from
 image_format
 )
 None
+&
+TextureCacheConfig
+:
+:
+DEFAULT
 )
 ;
 let
