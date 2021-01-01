@@ -137,7 +137,7 @@ use
 qcms
 :
 :
-iccread
+c_bindings
 :
 :
 {
@@ -167,11 +167,10 @@ use
 qcms
 :
 :
-transform
+c_bindings
 :
 :
 {
-qcms_data_type
 qcms_profile_precache_output_transform
 qcms_transform_data
 qcms_transform_release
@@ -179,7 +178,10 @@ qcms_enable_iccv4
 }
 ;
 use
-qcms_data_type
+qcms
+:
+:
+DataType
 :
 :
 *
