@@ -322,11 +322,11 @@ qcms_CIE_xyYTRIPLE
 qcms_profile
 RGB_SIGNATURE
 }
-qcms_intent
 transform_util
 :
 :
 clamp_float
+Intent
 }
 ;
 #
@@ -11863,7 +11863,7 @@ qcms_data_type
 mut
 intent
 :
-qcms_intent
+Intent
 )
 -
 >
@@ -13678,7 +13678,7 @@ ty
 qcms_data_type
 intent
 :
-qcms_intent
+Intent
 )
 -
 >

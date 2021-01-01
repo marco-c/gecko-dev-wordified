@@ -32,7 +32,6 @@ iccread
 :
 :
 *
-qcms_intent
 transform
 :
 :
@@ -44,6 +43,7 @@ transform
 qcms_transform
 transform_create
 }
+Intent
 }
 ;
 #
@@ -541,7 +541,7 @@ qcms_profile
 )
 -
 >
-qcms_intent
+Intent
 {
 return
 (
@@ -1596,7 +1596,7 @@ qcms_data_type
 mut
 intent
 :
-qcms_intent
+Intent
 )
 -
 >

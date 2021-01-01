@@ -36,7 +36,9 @@ transform_util
 :
 :
 lut_inverse_interp16
-QCMS_INTENT_DEFAULT
+Intent
+:
+:
 QCMS_INTENT_PERCEPTUAL
 }
 ;
@@ -3490,7 +3492,7 @@ self
 .
 out_profile
 ty
-QCMS_INTENT_DEFAULT
+QCMS_INTENT_PERCEPTUAL
 )
 )
 }
