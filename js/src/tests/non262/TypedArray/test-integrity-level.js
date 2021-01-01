@@ -80,7 +80,7 @@ Non
 empty
 typed
 arrays
-can
+cannot
 be
 sealed
 .
@@ -130,7 +130,7 @@ isSealed
 (
 ta
 )
-true
+false
 )
 ;
 assertEq
@@ -270,7 +270,7 @@ isSealed
 (
 ta
 )
-true
+false
 )
 ;
 assertEq
@@ -360,11 +360,9 @@ empty
 typed
 arrays
 are
+neither
 sealed
-but
-aren
-'
-t
+nor
 frozen
 .
 for
@@ -413,7 +411,7 @@ isSealed
 (
 ta
 )
-true
+false
 )
 ;
 assertEq
