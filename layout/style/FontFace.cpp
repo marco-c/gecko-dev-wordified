@@ -4485,6 +4485,13 @@ end
 )
 ;
 }
+mUnicodeRange
+-
+>
+Compact
+(
+)
+;
 }
 else
 {
