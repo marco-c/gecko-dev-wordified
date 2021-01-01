@@ -28131,7 +28131,7 @@ Rgba
 ImageBufferKind
 :
 :
-Texture2D
+Texture2DArray
 )
 .
 bind
@@ -28161,7 +28161,7 @@ Rgba
 ImageBufferKind
 :
 :
-Texture2D
+Texture2DArray
 )
 ;
 let
@@ -28545,7 +28545,7 @@ Rgba
 ImageBufferKind
 :
 :
-Texture2D
+Texture2DArray
 )
 )
 }
