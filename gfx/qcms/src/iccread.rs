@@ -9008,12 +9008,9 @@ new_sRGB
 )
 -
 >
-Option
-<
 Box
 <
 qcms_profile
->
 >
 {
 let
@@ -9114,6 +9111,10 @@ Rec709Primaries
 &
 table
 )
+.
+unwrap
+(
+)
 }
 pub
 fn
@@ -9125,12 +9126,9 @@ f32
 )
 -
 >
-Option
-<
 Box
 <
 qcms_profile
->
 >
 {
 let
@@ -9177,10 +9175,7 @@ pcs
 =
 XYZ_TYPE
 ;
-Some
-(
 profile
-)
 }
 pub
 fn
