@@ -235,7 +235,11 @@ PlacesTestUtils
 waitForNotification
 (
 "
-onTitleChanged
+page
+-
+title
+-
+changed
 "
 (
 )
@@ -247,7 +251,7 @@ notified
 true
 )
 "
-history
+places
 "
 )
 ;
