@@ -18925,6 +18925,13 @@ Object
 Compare_Object
 /
 /
+BigInt
+compared
+to
+BigInt
+Compare_BigInt
+/
+/
 Wasm
 Ref
 /
