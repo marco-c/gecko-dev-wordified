@@ -654,6 +654,15 @@ controller
 isActive
 )
 {
+info
+(
+wait
+until
+controller
+gets
+activated
+)
+;
 await
 new
 Promise
