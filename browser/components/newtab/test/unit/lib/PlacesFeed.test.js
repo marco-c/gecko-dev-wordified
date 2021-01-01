@@ -5401,12 +5401,6 @@ onEndUpdateBatch
 ;
 observer
 .
-onTitleChanged
-(
-)
-;
-observer
-.
 onFrecencyChanged
 (
 )

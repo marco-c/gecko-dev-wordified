@@ -3964,11 +3964,6 @@ STATUS
 CLEAN
 ;
 }
-onTitleChanged
-(
-)
-{
-}
 onDeleteURI
 (
 )

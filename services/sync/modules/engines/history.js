@@ -3916,11 +3916,6 @@ onEndUpdateBatch
 )
 {
 }
-onTitleChanged
-(
-)
-{
-}
 onBeforeDeleteURI
 (
 )

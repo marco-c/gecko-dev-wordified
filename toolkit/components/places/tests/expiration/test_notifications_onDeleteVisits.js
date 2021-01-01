@@ -714,11 +714,6 @@ onClearHistory
 )
 {
 }
-onTitleChanged
-(
-)
-{
-}
 onDeleteURI
 (
 aURI
