@@ -2110,10 +2110,10 @@ eType_Plugin
 return
 IMEState
 (
-IMEState
+IMEEnabled
 :
 :
-PLUGIN
+Plugin
 )
 ;
 }

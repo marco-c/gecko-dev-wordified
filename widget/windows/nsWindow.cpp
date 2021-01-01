@@ -61345,10 +61345,10 @@ mIMEState
 mEnabled
 !
 =
-IMEState
+IMEEnabled
 :
 :
-PLUGIN
+Plugin
 )
 )
 {

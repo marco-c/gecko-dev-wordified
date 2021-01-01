@@ -9973,10 +9973,10 @@ mIMEState
 mEnabled
 !
 =
-IMEState
+IMEEnabled
 :
 :
-ENABLED
+Enabled
 )
 {
 return

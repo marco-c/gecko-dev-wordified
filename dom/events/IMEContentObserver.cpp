@@ -1139,10 +1139,10 @@ mIMEState
 mEnabled
 =
 =
-IMEState
+IMEEnabled
 :
 :
-PLUGIN
+Plugin
 )
 {
 if
@@ -1955,10 +1955,10 @@ GetDesiredIMEState
 mEnabled
 !
 =
-IMEState
+IMEEnabled
 :
 :
-PLUGIN
+Plugin
 )
 )
 {

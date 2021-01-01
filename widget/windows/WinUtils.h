@@ -3167,10 +3167,7 @@ static
 bool
 IsIMEEnabled
 (
-IMEState
-:
-:
-Enabled
+IMEEnabled
 aIMEState
 )
 ;

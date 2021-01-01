@@ -3658,10 +3658,10 @@ GetDesiredIMEState
 mEnabled
 =
 =
-IMEState
+IMEEnabled
 :
 :
-PLUGIN
+Plugin
 ;
 }
 nsresult

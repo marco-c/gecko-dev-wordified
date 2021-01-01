@@ -38862,10 +38862,10 @@ mIMEState
 mEnabled
 =
 =
-IMEState
+IMEEnabled
 :
 :
-PASSWORD
+Password
 )
 {
 MarkContextAsKeyboardDisabled

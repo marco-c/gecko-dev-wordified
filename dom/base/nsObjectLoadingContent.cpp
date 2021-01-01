@@ -11689,10 +11689,10 @@ mEnabled
 widget
 :
 :
-IMEState
+IMEEnabled
 :
 :
-PLUGIN
+Plugin
 ;
 state
 .

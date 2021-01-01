@@ -19667,10 +19667,10 @@ widget
 :
 IMEState
 (
-IMEState
+IMEEnabled
 :
 :
-DISABLED
+Disabled
 IMEState
 :
 :
