@@ -14096,6 +14096,11 @@ textures
 size
 )
 ;
+if
+(
+vertex_shader
+)
+{
 vertex_shader
 -
 >
@@ -14105,6 +14110,7 @@ location
 V0
 )
 ;
+}
 }
 void
 Uniform4fv
@@ -14127,6 +14133,11 @@ count
 1
 )
 ;
+if
+(
+vertex_shader
+)
+{
 vertex_shader
 -
 >
@@ -14136,6 +14147,7 @@ location
 v
 )
 ;
+}
 }
 void
 UniformMatrix4fv
@@ -14166,6 +14178,11 @@ assert
 transpose
 )
 ;
+if
+(
+vertex_shader
+)
+{
 vertex_shader
 -
 >
@@ -14175,6 +14192,7 @@ location
 value
 )
 ;
+}
 }
 void
 FramebufferTexture2D
@@ -31355,6 +31373,14 @@ instancecount
 <
 =
 0
+|
+|
+!
+vertex_shader
+|
+|
+!
+fragment_shader
 )
 {
 return
