@@ -1411,7 +1411,10 @@ nsThread
 nsThreadArray
 ;
 static
+Atomic
+<
 bool
+>
 sShutdownComplete
 ;
 /
