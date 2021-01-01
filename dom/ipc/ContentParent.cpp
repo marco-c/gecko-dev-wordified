@@ -35668,6 +35668,9 @@ initialized
 "
 )
 ;
+*
+aLoaded
+=
 fontList
 -
 >
@@ -35676,11 +35679,6 @@ InitOtherFamilyNames
 aGeneration
 aDefer
 )
-;
-*
-aLoaded
-=
-true
 ;
 return
 IPC_OK
