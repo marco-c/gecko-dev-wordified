@@ -15490,6 +15490,7 @@ ContentParent
 :
 NotifyUpdatedFonts
 (
+true
 )
 ;
 }
