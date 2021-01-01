@@ -421,7 +421,7 @@ setBoolean
 (
 result
 .
-reallyOk
+ok
 (
 )
 )
@@ -891,7 +891,7 @@ setBoolean
 (
 result
 .
-reallyOk
+ok
 (
 )
 )
@@ -1102,7 +1102,7 @@ setBoolean
 (
 result
 .
-reallyOk
+ok
 (
 )
 )
@@ -1311,7 +1311,7 @@ setBoolean
 (
 result
 .
-reallyOk
+ok
 (
 )
 )
