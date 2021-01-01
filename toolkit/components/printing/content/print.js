@@ -9857,6 +9857,8 @@ handlePaste
 e
 )
 ;
+return
+;
 }
 if
 (
@@ -11354,6 +11356,8 @@ handlePaste
 (
 e
 )
+;
+return
 ;
 }
 if
@@ -13022,6 +13026,8 @@ handlePaste
 e
 )
 ;
+return
+;
 }
 if
 (
@@ -14151,6 +14157,8 @@ handlePaste
 (
 e
 )
+;
+return
 ;
 }
 if
