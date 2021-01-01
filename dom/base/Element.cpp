@@ -21032,7 +21032,7 @@ Element
 Closest
 (
 const
-nsAString
+nsACString
 &
 aSelector
 ErrorResult
@@ -21083,7 +21083,7 @@ Element
 Matches
 (
 const
-nsAString
+nsACString
 &
 aSelector
 ErrorResult

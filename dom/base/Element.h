@@ -7234,7 +7234,7 @@ Element
 Closest
 (
 const
-nsAString
+nsACString
 &
 aSelector
 ErrorResult
@@ -7246,7 +7246,7 @@ bool
 Matches
 (
 const
-nsAString
+nsACString
 &
 aSelector
 ErrorResult
