@@ -486,6 +486,12 @@ OriginFlags
 :
 uint8_t
 ;
+enum
+class
+UseBoxSizing
+:
+uint8_t
+;
 namespace
 css
 {
