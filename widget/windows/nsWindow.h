@@ -2226,15 +2226,6 @@ mDefaultIMC
 ;
 }
 virtual
-void
-EnableIMEForPlugin
-(
-bool
-aEnable
-)
-override
-;
-virtual
 nsresult
 OnWindowedPluginKeyEvent
 (

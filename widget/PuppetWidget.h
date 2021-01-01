@@ -1683,15 +1683,6 @@ override
 ;
 virtual
 void
-EnableIMEForPlugin
-(
-bool
-aEnable
-)
-override
-;
-virtual
-void
 ZoomToRect
 (
 const
