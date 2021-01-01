@@ -189,10 +189,6 @@ data
 -
 unsupported
 ]
-)
-:
-not
-(
 [
 checked
 ]

@@ -2177,10 +2177,6 @@ not
 (
 :
 hover
-)
-:
-not
-(
 :
 focus
 -
@@ -2216,10 +2212,6 @@ not
 (
 :
 hover
-)
-:
-not
-(
 :
 focus
 -

@@ -716,16 +716,8 @@ not
 (
 :
 empty
-)
-:
-not
-(
 :
 disabled
-)
-:
-not
-(
 .
 checked
 )

@@ -569,10 +569,6 @@ not
 [
 open
 ]
-)
-:
-not
-(
 [
 disabled
 =
@@ -580,10 +576,6 @@ disabled
 true
 "
 ]
-)
-:
-not
-(
 :
 -
 moz
