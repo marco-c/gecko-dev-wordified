@@ -1260,7 +1260,7 @@ nsIContent
 *
 aContent
 EditorBase
-*
+&
 aEditorBase
 )
 ;
@@ -2042,7 +2042,7 @@ void
 CreateIMEContentObserver
 (
 EditorBase
-*
+&
 aEditorBase
 )
 ;
