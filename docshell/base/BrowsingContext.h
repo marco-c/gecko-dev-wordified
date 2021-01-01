@@ -887,6 +887,12 @@ SandboxFlags
 uint32_t
 )
 \
+FIELD
+(
+InitialSandboxFlags
+uint32_t
+)
+\
 /
 *
 A
