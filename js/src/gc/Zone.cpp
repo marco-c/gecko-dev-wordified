@@ -1137,11 +1137,6 @@ data
 this
 nullptr
 )
-tenuredStrings
-(
-this
-0
-)
 tenuredBigInts
 (
 this
@@ -1176,6 +1171,14 @@ suppressAllocationMetadataBuilder
 (
 this
 false
+)
+previousGCStringStats
+(
+this
+)
+stringStats
+(
+this
 )
 uniqueIds_
 (
