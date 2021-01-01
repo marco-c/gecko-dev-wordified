@@ -1420,7 +1420,7 @@ frame_state
 gpu_cache
 frame_state
 .
-render_tasks
+rg_builder
 None
 image_properties
 .
@@ -1430,7 +1430,7 @@ is_opaque
 (
 )
 |
-render_tasks
+rg_builder
 |
 {
 /
@@ -1500,7 +1500,7 @@ key
 :
 image_cache_key
 }
-render_tasks
+rg_builder
 target_kind
 *
 size
@@ -1538,7 +1538,7 @@ render
 target
 cache
 .
-render_tasks
+rg_builder
 .
 add
 (
