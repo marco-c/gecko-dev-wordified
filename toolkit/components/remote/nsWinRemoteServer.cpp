@@ -463,7 +463,7 @@ win
 ;
 }
 return
-DefWindowProc
+DefWindowProcW
 (
 msgWindow
 msg
