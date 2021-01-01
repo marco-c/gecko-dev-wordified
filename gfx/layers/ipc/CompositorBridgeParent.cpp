@@ -11583,6 +11583,10 @@ const
 LayoutDeviceIntSize
 &
 aSize
+const
+WindowKind
+&
+aWindowKind
 )
 {
 MOZ_ASSERT
@@ -11836,6 +11840,7 @@ widget
 )
 windowId
 aSize
+aWindowKind
 error
 )
 ;

@@ -1425,6 +1425,9 @@ aPipelineId
 const
 LayoutDeviceIntSize
 &
+const
+WindowKind
+&
 )
 ;
 bool

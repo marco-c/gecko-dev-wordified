@@ -1339,6 +1339,10 @@ const
 LayoutDeviceIntSize
 &
 aSize
+const
+WindowKind
+&
+aWindowKind
 )
 override
 ;

@@ -1372,6 +1372,10 @@ const
 LayoutDeviceIntSize
 &
 aSize
+const
+WindowKind
+&
+aWindowKind
 )
 =
 0
@@ -4096,6 +4100,10 @@ const
 LayoutDeviceIntSize
 &
 aSize
+const
+WindowKind
+&
+aWindowKind
 )
 override
 ;
