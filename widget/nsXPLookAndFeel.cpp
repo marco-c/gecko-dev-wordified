@@ -235,6 +235,15 @@ include
 "
 mozilla
 /
+StaticPrefs_widget
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

@@ -399,7 +399,7 @@ is
 refreshed
 to
 invalidate
-sCachedTables
+sCachedLookAndFeelData
 .
 static
 void
@@ -409,7 +409,7 @@ ClearCachedData
 ;
 private
 :
-FullLookAndFeel
+LookAndFeelTables
 mTables
 ;
 /
@@ -467,7 +467,7 @@ StaticAutoPtr
 <
 FullLookAndFeel
 >
-sCachedTables
+sCachedLookAndFeelData
 ;
 }
 ;
