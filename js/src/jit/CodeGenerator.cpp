@@ -32297,9 +32297,6 @@ callWithABI
 <
 Fn
 GetNativeDataPropertyPure
-<
-true
->
 >
 (
 )
@@ -32548,9 +32545,6 @@ callWithABI
 <
 Fn
 GetNativeDataPropertyByValuePure
-<
-true
->
 >
 (
 )
