@@ -5049,7 +5049,7 @@ mMapping
 =
 :
 :
-CreateFileMapping
+CreateFileMappingW
 (
 INVALID_HANDLE_VALUE
 nullptr
