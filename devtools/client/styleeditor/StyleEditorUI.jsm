@@ -7540,6 +7540,7 @@ editor
 .
 onStyleApplied
 (
+update
 )
 ;
 break
