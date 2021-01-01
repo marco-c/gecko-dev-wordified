@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PMessagePortParent
@@ -159,6 +168,8 @@ final
 :
 public
 PMessagePortParent
+public
+SupportsWeakPtr
 public
 SupportsCheckedUnsafePtr
 <
