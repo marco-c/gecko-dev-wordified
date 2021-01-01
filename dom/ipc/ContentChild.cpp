@@ -15510,6 +15510,7 @@ GetPlatform
 >
 UpdateFontList
 (
+true
 )
 ;
 return
@@ -15530,6 +15531,10 @@ ContentChild
 :
 RecvRebuildFontList
 (
+const
+bool
+&
+aFullRebuild
 )
 {
 gfxPlatform
@@ -15542,6 +15547,7 @@ GetPlatform
 >
 UpdateFontList
 (
+aFullRebuild
 )
 ;
 return
