@@ -332,6 +332,7 @@ executor_kwargs
 =
 chrome_executor_kwargs
 (
+logger
 test_type
 server_config
                                              
