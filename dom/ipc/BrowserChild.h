@@ -4277,6 +4277,11 @@ InitAPZState
 )
 ;
 void
+InitVsyncChild
+(
+)
+;
+void
 DestroyWindow
 (
 )
