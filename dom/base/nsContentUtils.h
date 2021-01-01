@@ -21177,7 +21177,7 @@ bool
 IsLocalRefURL
 (
 const
-nsString
+nsAString
 &
 aString
 )

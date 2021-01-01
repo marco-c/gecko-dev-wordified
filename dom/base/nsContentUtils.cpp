@@ -62319,7 +62319,7 @@ nsContentUtils
 IsLocalRefURL
 (
 const
-nsString
+nsAString
 &
 aString
 )
