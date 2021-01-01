@@ -2203,7 +2203,7 @@ const
 ;
 #
 endif
-private
+public
 :
 static
 constexpr
@@ -2217,6 +2217,8 @@ Digit
 *
 CHAR_BIT
 ;
+private
+:
 static
 constexpr
 size_t
