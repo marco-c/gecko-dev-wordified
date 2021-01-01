@@ -20679,6 +20679,9 @@ Object
 case
 Compare_BigInt
 :
+case
+Compare_BigInt_Int32
+:
 return
 MIRType
 :
@@ -25352,6 +25355,12 @@ compareType_
 =
 =
 Compare_BigInt
+|
+|
+compareType_
+=
+=
+Compare_BigInt_Int32
 )
 ;
 if
