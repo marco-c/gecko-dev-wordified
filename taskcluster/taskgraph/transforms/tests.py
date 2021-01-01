@@ -1439,7 +1439,7 @@ projects
 ]
 )
 def
-gv_e10s_multi_filter
+gv_e10s_filter
 (
 task
 )
@@ -1515,7 +1515,7 @@ geckoview
 -
 e10s
 -
-multi
+single
 "
 :
 {
@@ -1529,17 +1529,17 @@ description
 description
 }
 with
-e10s
+single
 -
-multi
-enabled
+process
+e10s
 "
         
 "
 filterfn
 "
 :
-gv_e10s_multi_filter
+gv_e10s_filter
         
 "
 replace
@@ -1570,7 +1570,7 @@ suffix
 "
 e10s
 -
-multi
+single
 "
         
 "
@@ -1604,7 +1604,7 @@ ipc
 .
 processCount
 =
-3
+1
 "
                 
 ]
@@ -1640,7 +1640,7 @@ enabled
 filterfn
 "
 :
-gv_e10s_multi_filter
+gv_e10s_filter
         
 "
 suffix
