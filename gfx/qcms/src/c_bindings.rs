@@ -37,7 +37,7 @@ iccread
 matrix
 :
 :
-matrix
+Matrix
 transform
 :
 :
@@ -73,12 +73,12 @@ qcms_profile_sRGB
 >
 *
 mut
-qcms_profile
+Profile
 {
 let
 profile
 =
-qcms_profile
+Profile
 :
 :
 new_sRGB
@@ -179,12 +179,12 @@ f32
 >
 *
 mut
-qcms_profile
+Profile
 {
 let
 profile
 =
-qcms_profile
+Profile
 :
 :
 new_rgb_with_gamma_set
@@ -242,12 +242,12 @@ f32
 >
 *
 mut
-qcms_profile
+Profile
 {
 let
 profile
 =
-qcms_profile
+Profile
 :
 :
 new_gray_with_gamma
@@ -293,7 +293,7 @@ f32
 >
 *
 mut
-qcms_profile
+Profile
 {
 qcms_profile_create_rgb_with_gamma_set
 (
@@ -340,7 +340,7 @@ i32
 >
 *
 mut
-qcms_profile
+Profile
 {
 let
 table
@@ -359,7 +359,7 @@ usize
 let
 profile
 =
-qcms_profile
+Profile
 :
 :
 new_rgb_with_table
@@ -439,7 +439,7 @@ usize
 >
 *
 mut
-qcms_profile
+Profile
 {
 let
 mem
@@ -463,7 +463,7 @@ size
 let
 profile
 =
-qcms_profile
+Profile
 :
 :
 new_from_slice
@@ -510,7 +510,7 @@ qcms_profile_get_rendering_intent
 profile
 :
 &
-qcms_profile
+Profile
 )
 -
 >
@@ -535,7 +535,7 @@ qcms_profile_get_color_space
 profile
 :
 &
-qcms_profile
+Profile
 )
 -
 >
@@ -563,7 +563,7 @@ profile
 :
 *
 mut
-qcms_profile
+Profile
 )
 {
 drop
@@ -1001,7 +1001,7 @@ FILE
 >
 *
 mut
-qcms_profile
+Profile
 {
 let
 mut
@@ -1017,7 +1017,7 @@ profile
 :
 *
 mut
-qcms_profile
+Profile
 ;
 let
 mut
@@ -1083,7 +1083,7 @@ null_mut
 :
 :
 <
-qcms_profile
+Profile
 >
 (
 )
@@ -1131,7 +1131,7 @@ c_char
 >
 *
 mut
-qcms_profile
+Profile
 {
 let
 mut
@@ -1139,7 +1139,7 @@ profile
 :
 *
 mut
-qcms_profile
+Profile
 =
 std
 :
@@ -1151,7 +1151,7 @@ null_mut
 :
 :
 <
-qcms_profile
+Profile
 >
 (
 )
@@ -1578,7 +1578,7 @@ mut
 in_0
 :
 &
-qcms_profile
+Profile
 mut
 in_type
 :
@@ -1587,7 +1587,7 @@ mut
 out
 :
 &
-qcms_profile
+Profile
 mut
 out_type
 :
@@ -1734,9 +1734,9 @@ let
 mut
 colorants
 :
-matrix
+Matrix
 =
-matrix
+Matrix
 {
 m
 :
@@ -2639,7 +2639,7 @@ crate
 iccread
 :
 :
-qcms_profile
+qcms_profile_is_bogus
 ;
 pub
 use
@@ -2649,7 +2649,9 @@ crate
 iccread
 :
 :
-qcms_profile_is_bogus
+Profile
+as
+qcms_profile
 ;
 pub
 use

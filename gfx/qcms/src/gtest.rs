@@ -3247,12 +3247,12 @@ in_profile
 :
 *
 mut
-qcms_profile
+Profile
 out_profile
 :
 *
 mut
-qcms_profile
+Profile
 transform
 :
 *
@@ -4855,7 +4855,7 @@ str
 >
 *
 mut
-qcms_profile
+Profile
 {
 use
 std
