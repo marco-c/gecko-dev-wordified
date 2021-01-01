@@ -2340,9 +2340,10 @@ bug
 ProfileBufferChunkManagerSingle
 chunkManager
 (
-64
-*
-1024
+ProfileBufferChunkManager
+:
+:
+scExpectedMaximumStackSize
 )
 ;
 ProfileChunkedBuffer

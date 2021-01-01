@@ -11465,7 +11465,10 @@ MOZ_ASSERT
 (
 bytes
 <
-65536
+ProfileBufferChunkManager
+:
+:
+scExpectedMaximumStackSize
 )
 ;
 tempBuffer
