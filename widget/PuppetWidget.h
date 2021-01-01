@@ -1697,17 +1697,6 @@ override
 ;
 virtual
 void
-SetCandidateWindowForPlugin
-(
-const
-CandidateWindowPosition
-&
-aPosition
-)
-override
-;
-virtual
-void
 EnableIMEForPlugin
 (
 bool
