@@ -765,7 +765,10 @@ BytecodeEmitter
 bce
 ScopeKind
 kind
-ParserLexicalScopeData
+LexicalScope
+:
+:
+ParserData
 *
 bindings
 )

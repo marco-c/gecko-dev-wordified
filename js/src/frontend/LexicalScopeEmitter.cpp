@@ -164,7 +164,10 @@ emitScope
 (
 ScopeKind
 kind
-ParserLexicalScopeData
+LexicalScope
+:
+:
+ParserData
 *
 bindings
 )
