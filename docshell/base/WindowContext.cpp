@@ -2372,7 +2372,7 @@ HasValidTransientUserGestureActivation
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mInProcess
 )
@@ -2504,7 +2504,7 @@ ConsumeTransientUserGestureActivation
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mInProcess
 )
