@@ -4842,12 +4842,7 @@ height
 )
 ;
 return
-mWidget
--
->
-GetClientSize
-(
-)
+size
 ;
 }
 }
