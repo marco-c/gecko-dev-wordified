@@ -879,10 +879,10 @@ aCSP
 >
 GetAllowsInline
 (
-nsIContentSecurityPolicy
+nsIContentPolicy
 :
 :
-SCRIPT_SRC_DIRECTIVE
+TYPE_SCRIPT
 u
 "
 "
