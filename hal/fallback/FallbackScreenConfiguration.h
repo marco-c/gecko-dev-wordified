@@ -158,6 +158,9 @@ y
 w
 h
 ;
+hal
+:
+:
 ScreenOrientation
 orientation
 ;
