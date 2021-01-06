@@ -135,6 +135,15 @@ h
 #
 include
 "
+mozilla
+/
+HTMLEditor
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

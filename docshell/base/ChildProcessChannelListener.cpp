@@ -128,6 +128,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
 nsDocShellLoadState
 .
 h
