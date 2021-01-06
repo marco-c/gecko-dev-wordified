@@ -98,6 +98,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

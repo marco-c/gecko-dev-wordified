@@ -103,6 +103,13 @@ h
 #
 include
 "
+gfxFontUtils
+.
+h
+"
+#
+include
+"
 WSRunObject
 .
 h
