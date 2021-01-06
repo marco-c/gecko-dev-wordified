@@ -7064,10 +7064,7 @@ bce
 bool
 emitScope
 (
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 scopeBindings
 )
@@ -7075,10 +7072,7 @@ scopeBindings
 bool
 emitBodyScope
 (
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 scopeBindings
 )

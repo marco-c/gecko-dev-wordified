@@ -2532,10 +2532,7 @@ ClassEmitter
 :
 emitScope
 (
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 scopeBindings
 )
@@ -2619,10 +2616,7 @@ ClassEmitter
 :
 emitBodyScope
 (
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 scopeBindings
 )

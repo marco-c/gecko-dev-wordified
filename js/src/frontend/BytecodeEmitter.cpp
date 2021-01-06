@@ -47492,10 +47492,7 @@ name
 paramLoc
 )
 {
-FunctionScope
-:
-:
-ParserData
+ParserFunctionScopeData
 *
 bindings
 =

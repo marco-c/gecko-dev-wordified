@@ -1165,10 +1165,7 @@ bindings
 .
 len
 ;
-GlobalScope
-:
-:
-ParserData
+ParserGlobalScopeData
 *
 data
 =
@@ -1293,10 +1290,7 @@ bindings
 .
 len
 ;
-VarScope
-:
-:
-ParserData
+ParserVarScopeData
 *
 data
 =
@@ -1306,6 +1300,7 @@ cx
 alloc
 numBindings
 )
+;
 ;
 if
 (
@@ -1445,10 +1440,7 @@ bindings
 .
 len
 ;
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 data
 =
@@ -1605,10 +1597,7 @@ bindings
 .
 len
 ;
-FunctionScope
-:
-:
-ParserData
+ParserFunctionScopeData
 *
 data
 =

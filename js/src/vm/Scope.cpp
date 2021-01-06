@@ -1159,13 +1159,13 @@ shape
 template
 <
 class
-DataT
+Data
 >
 inline
 size_t
 SizeOfAllocatedData
 (
-DataT
+Data
 *
 data
 )
@@ -1173,7 +1173,7 @@ data
 return
 SizeOfScopeData
 <
-DataT
+Data
 >
 (
 data
@@ -1197,7 +1197,7 @@ typename
 ConcreteScope
 :
 :
-RuntimeData
+Data
 >
 CopyScopeData
 (
@@ -1208,7 +1208,7 @@ typename
 ConcreteScope
 :
 :
-RuntimeData
+Data
 *
 data
 )
@@ -1220,7 +1220,7 @@ typename
 ConcreteScope
 :
 :
-RuntimeData
+Data
 ;
 /
 /
@@ -2006,7 +2006,7 @@ typename
 ConcreteScope
 :
 :
-RuntimeData
+Data
 >
 LiftParserScopeData
 (
@@ -2035,7 +2035,7 @@ typename
 ConcreteScope
 :
 :
-RuntimeData
+Data
 ;
 /
 /
@@ -2596,7 +2596,7 @@ typename
 ConcreteScope
 :
 :
-RuntimeData
+Data
 *
 >
 data
@@ -2946,7 +2946,7 @@ typename
 ConcreteScope
 :
 :
-RuntimeData
+Data
 >
 >
 data
@@ -3051,7 +3051,7 @@ typename
 ConcreteScope
 :
 :
-RuntimeData
+Data
 >
 >
 data
@@ -3778,7 +3778,7 @@ UniquePtr
 VarScope
 :
 :
-RuntimeData
+Data
 >
 >
 dataClone
@@ -3888,7 +3888,7 @@ UniquePtr
 LexicalScope
 :
 :
-RuntimeData
+Data
 >
 >
 dataClone
@@ -3986,7 +3986,7 @@ UniquePtr
 EvalScope
 :
 :
-RuntimeData
+Data
 >
 >
 dataClone
@@ -5203,7 +5203,7 @@ MutableHandle
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -5375,7 +5375,7 @@ cx
 ;
 Rooted
 <
-RuntimeData
+Data
 *
 >
 data
@@ -5411,7 +5411,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 >
@@ -5656,7 +5656,7 @@ SetCanonicalFunction
 FunctionScope
 :
 :
-RuntimeData
+Data
 &
 data
 HandleFunction
@@ -5885,7 +5885,7 @@ MutableHandle
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -6185,7 +6185,7 @@ nullptr
 }
 Rooted
 <
-RuntimeData
+Data
 *
 >
 dataOriginal
@@ -6211,7 +6211,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 dataClone
@@ -6310,7 +6310,7 @@ cx
 ;
 Rooted
 <
-RuntimeData
+Data
 *
 >
 data
@@ -6346,7 +6346,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 >
@@ -6814,7 +6814,7 @@ MutableHandle
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -6919,7 +6919,7 @@ cx
 ;
 Rooted
 <
-RuntimeData
+Data
 *
 >
 data
@@ -6955,7 +6955,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 >
@@ -7243,7 +7243,7 @@ ScopeKind
 kind
 Handle
 <
-RuntimeData
+Data
 *
 >
 dataArg
@@ -7287,7 +7287,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -7355,7 +7355,7 @@ MutableHandle
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -7460,7 +7460,7 @@ kind
 {
 Rooted
 <
-RuntimeData
+Data
 *
 >
 dataOriginal
@@ -7486,7 +7486,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 dataClone
@@ -7585,7 +7585,7 @@ cx
 ;
 Rooted
 <
-RuntimeData
+Data
 *
 >
 data
@@ -7621,7 +7621,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 >
@@ -8145,7 +8145,7 @@ MutableHandle
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -8322,7 +8322,7 @@ cx
 ;
 Rooted
 <
-RuntimeData
+Data
 *
 >
 data
@@ -8337,7 +8337,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 >
@@ -8512,10 +8512,10 @@ scope
 ModuleScope
 :
 :
-RuntimeData
+Data
 :
 :
-RuntimeData
+Data
 (
 size_t
 nameCount
@@ -8534,7 +8534,7 @@ InitModule
 ModuleScope
 :
 :
-RuntimeData
+Data
 &
 data
 HandleModuleObject
@@ -8694,7 +8694,7 @@ MutableHandle
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -8884,7 +8884,7 @@ cx
 ;
 Rooted
 <
-RuntimeData
+Data
 *
 >
 data
@@ -8920,7 +8920,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 >
@@ -9264,7 +9264,7 @@ false
 template
 <
 class
-DataT
+Data
 >
 static
 void
@@ -9275,7 +9275,7 @@ Rooted
 <
 UniquePtr
 <
-DataT
+Data
 >
 >
 &
@@ -9313,10 +9313,10 @@ length
 WasmInstanceScope
 :
 :
-RuntimeData
+Data
 :
 :
-RuntimeData
+Data
 (
 size_t
 nameCount
@@ -9406,7 +9406,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -9745,7 +9745,7 @@ Rooted
 <
 UniquePtr
 <
-RuntimeData
+Data
 >
 >
 data
@@ -9982,7 +9982,7 @@ static_cast
 LexicalScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10014,7 +10014,7 @@ static_cast
 LexicalScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10075,7 +10075,7 @@ static_cast
 FunctionScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10104,7 +10104,7 @@ static_cast
 FunctionScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10130,7 +10130,7 @@ static_cast
 VarScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10161,7 +10161,7 @@ static_cast
 EvalScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10198,7 +10198,7 @@ static_cast
 GlobalScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10222,7 +10222,7 @@ static_cast
 ModuleScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10246,7 +10246,7 @@ static_cast
 WasmInstanceScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -10270,7 +10270,7 @@ static_cast
 WasmFunctionScope
 :
 :
-RuntimeData
+Data
 *
 >
 (
@@ -12767,10 +12767,7 @@ frontend
 CompilationInfo
 &
 compilationInfo
-FunctionScope
-:
-:
-ParserData
+ParserFunctionScopeData
 *
 data
 bool
@@ -13027,10 +13024,7 @@ CompilationInfo
 compilationInfo
 ScopeKind
 kind
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 data
 uint32_t
@@ -13223,10 +13217,7 @@ CompilationInfo
 compilationInfo
 ScopeKind
 kind
-VarScope
-:
-:
-ParserData
+ParserVarScopeData
 *
 data
 uint32_t
@@ -13427,10 +13418,7 @@ CompilationInfo
 compilationInfo
 ScopeKind
 kind
-GlobalScope
-:
-:
-ParserData
+ParserGlobalScopeData
 *
 data
 ScopeIndex
@@ -13654,10 +13642,7 @@ CompilationInfo
 compilationInfo
 ScopeKind
 kind
-EvalScope
-:
-:
-ParserData
+ParserEvalScopeData
 *
 data
 mozilla
@@ -13855,10 +13840,7 @@ frontend
 CompilationInfo
 &
 compilationInfo
-ModuleScope
-:
-:
-ParserData
+ParserModuleScopeData
 *
 data
 mozilla
@@ -14365,7 +14347,7 @@ typename
 SpecificScopeT
 :
 :
-RuntimeData
+Data
 >
 ScopeStencil
 :
@@ -14410,7 +14392,7 @@ UniquePtr
 FunctionScope
 :
 :
-RuntimeData
+Data
 >
 ScopeStencil
 :
@@ -14447,7 +14429,7 @@ UniquePtr
 FunctionScope
 :
 :
-RuntimeData
+Data
 >
 data
 =
@@ -14490,7 +14472,7 @@ the
 FunctionScope
 :
 :
-RuntimeData
+Data
 .
 data
 -
@@ -14517,7 +14499,7 @@ UniquePtr
 ModuleScope
 :
 :
-RuntimeData
+Data
 >
 ScopeStencil
 :
@@ -14554,7 +14536,7 @@ UniquePtr
 ModuleScope
 :
 :
-RuntimeData
+Data
 >
 data
 =
@@ -14597,7 +14579,7 @@ the
 ModuleScope
 :
 :
-RuntimeData
+Data
 .
 data
 -
@@ -14723,7 +14705,7 @@ UniquePtr
 GlobalScope
 :
 :
-RuntimeData
+Data
 >
 >
 rootedData
@@ -14837,7 +14819,7 @@ typename
 SpecificScopeT
 :
 :
-RuntimeData
+Data
 >
 >
 rootedData

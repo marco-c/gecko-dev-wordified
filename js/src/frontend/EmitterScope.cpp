@@ -3654,10 +3654,7 @@ BytecodeEmitter
 bce
 ScopeKind
 kind
-LexicalScope
-:
-:
-ParserData
+ParserLexicalScopeData
 *
 bindings
 )
@@ -6475,10 +6472,7 @@ firstLexicalFrameSlot
 ;
 if
 (
-ModuleScope
-:
-:
-ParserData
+ParserModuleScopeData
 *
 bindings
 =
