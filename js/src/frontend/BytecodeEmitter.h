@@ -3439,8 +3439,6 @@ emitObjLiteralArray
 ParseNode
 *
 arrayHead
-bool
-isCow
 )
 ;
 /
