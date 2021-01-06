@@ -1032,7 +1032,7 @@ AspectRatioRelative
 aspectRatio
 )
 .
-ApplyTo
+ApplyToFloat
 (
 lengthOther
 )
