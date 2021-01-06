@@ -174,6 +174,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h

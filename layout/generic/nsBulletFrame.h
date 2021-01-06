@@ -174,6 +174,9 @@ class
 BulletRenderer
 ;
 class
+nsFontMetrics
+;
+class
 nsBulletListener
 final
 :

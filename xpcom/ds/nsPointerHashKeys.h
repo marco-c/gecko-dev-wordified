@@ -158,6 +158,13 @@ HashFunctions
 .
 h
 "
+#
+include
+"
+PLDHashTable
+.
+h
+"
 /
 *
 *
@@ -264,8 +271,9 @@ mKey
 nsPtrHashKey
 (
 )
-{
-}
+=
+default
+;
 KeyType
 GetKey
 (

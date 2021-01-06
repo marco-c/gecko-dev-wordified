@@ -153,6 +153,17 @@ namespace
 mozilla
 {
 namespace
+dom
+{
+class
+Selection
+;
+}
+/
+/
+namespace
+dom
+namespace
 a11y
 {
 class

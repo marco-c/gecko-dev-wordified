@@ -2456,6 +2456,12 @@ Document
 aDocumentNode
 )
 {
+mozilla
+:
+:
+dom
+:
+:
 BrowsingContext
 *
 bc

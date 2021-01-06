@@ -191,6 +191,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsTextEquivUtils
 .
 h
