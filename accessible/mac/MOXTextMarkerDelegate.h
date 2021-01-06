@@ -278,6 +278,12 @@ GeckoTextMarkerRange
 )
 selection
 ;
+-
+(
+BOOL
+)
+selectionIsCollapsed
+;
 /
 /
 override
