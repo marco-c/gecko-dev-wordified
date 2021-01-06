@@ -1196,7 +1196,6 @@ ShouldLoad
 contentType
 cspEventListener
 aContentLocation
-aMimeTypeGuess
 nullptr
 /
 /
@@ -1358,7 +1357,6 @@ ShouldLoad
 contentType
 cspEventListener
 aContentLocation
-aMimeTypeGuess
 nullptr
 /
 /
@@ -2516,15 +2514,6 @@ aNewURI
 /
 /
 nsIURI
-"
-"
-_ns
-/
-/
-ACString
--
-MIME
-guess
 aOriginalURI
 /
 /
@@ -2642,15 +2631,6 @@ aNewURI
 /
 /
 nsIURI
-"
-"
-_ns
-/
-/
-ACString
--
-MIME
-guess
 aOriginalURI
 /
 /
