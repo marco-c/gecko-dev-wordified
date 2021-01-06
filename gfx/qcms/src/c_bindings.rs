@@ -2455,7 +2455,7 @@ data
 Intent
 :
 :
-QCMS_INTENT_PERCEPTUAL
+Perceptual
 as
 u32
 )
