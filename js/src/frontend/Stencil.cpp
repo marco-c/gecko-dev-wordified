@@ -7933,11 +7933,7 @@ data
 =
 static_cast
 <
-AbstractScopeData
-<
-WasmInstanceScope
-TaggedParserAtomIndex
->
+ParserWasmInstanceScopeData
 *
 >
 (
@@ -8007,11 +8003,7 @@ data
 =
 static_cast
 <
-AbstractScopeData
-<
-WasmFunctionScope
-TaggedParserAtomIndex
->
+ParserWasmFunctionScopeData
 *
 >
 (

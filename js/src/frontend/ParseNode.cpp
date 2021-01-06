@@ -2663,10 +2663,10 @@ isEmptyScope
 )
 )
 {
-ParserScopeData
-<
 LexicalScope
->
+:
+:
+ParserData
 *
 bindings
 =
