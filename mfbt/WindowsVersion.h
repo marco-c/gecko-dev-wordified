@@ -207,7 +207,7 @@ return
 false
 ;
 }
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 info
 ;
 ZeroMemory
@@ -216,7 +216,7 @@ ZeroMemory
 info
 sizeof
 (
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 )
 )
 ;
@@ -226,7 +226,7 @@ dwOSVersionInfoSize
 =
 sizeof
 (
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 )
 ;
 info
@@ -307,7 +307,7 @@ VER_GREATER_EQUAL
 ;
 if
 (
-VerifyVersionInfo
+VerifyVersionInfoW
 (
 &
 info
@@ -390,7 +390,7 @@ return
 false
 ;
 }
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 info
 ;
 ZeroMemory
@@ -399,7 +399,7 @@ ZeroMemory
 info
 sizeof
 (
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 )
 )
 ;
@@ -409,7 +409,7 @@ dwOSVersionInfoSize
 =
 sizeof
 (
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 )
 ;
 info
@@ -432,7 +432,7 @@ VER_GREATER_EQUAL
 ;
 if
 (
-VerifyVersionInfo
+VerifyVersionInfoW
 (
 &
 info
@@ -509,7 +509,7 @@ return
 false
 ;
 }
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 info
 ;
 ZeroMemory
@@ -518,7 +518,7 @@ ZeroMemory
 info
 sizeof
 (
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 )
 )
 ;
@@ -528,7 +528,7 @@ dwOSVersionInfoSize
 =
 sizeof
 (
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 )
 ;
 info
@@ -585,7 +585,7 @@ VER_GREATER_EQUAL
 ;
 if
 (
-VerifyVersionInfo
+VerifyVersionInfoW
 (
 &
 info
@@ -964,7 +964,7 @@ return
 false
 ;
 }
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 info
 ;
 ZeroMemory
@@ -973,7 +973,7 @@ ZeroMemory
 info
 sizeof
 (
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 )
 )
 ;
@@ -983,7 +983,7 @@ dwOSVersionInfoSize
 =
 sizeof
 (
-OSVERSIONINFOEX
+OSVERSIONINFOEXW
 )
 ;
 #
@@ -1003,10 +1003,10 @@ disable
 bool
 success
 =
-GetVersionEx
+GetVersionExW
 (
 (
-LPOSVERSIONINFO
+LPOSVERSIONINFOW
 )
 &
 info
