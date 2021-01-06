@@ -324,6 +324,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -5061,7 +5068,12 @@ focusableFrame
 >
 IsFocusable
 (
-nullptr
+/
+*
+aWithMouse
+=
+*
+/
 true
 )
 )

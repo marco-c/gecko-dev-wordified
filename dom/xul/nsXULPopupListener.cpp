@@ -1465,9 +1465,6 @@ while
 currFrame
 )
 {
-int32_t
-tabIndexUnused
-;
 if
 (
 currFrame
@@ -1475,8 +1472,12 @@ currFrame
 >
 IsFocusable
 (
-&
-tabIndexUnused
+/
+*
+aWithMouse
+=
+*
+/
 true
 )
 &

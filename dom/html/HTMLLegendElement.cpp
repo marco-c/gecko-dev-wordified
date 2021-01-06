@@ -478,9 +478,6 @@ frame
 return
 ;
 }
-int32_t
-tabIndex
-;
 if
 (
 frame
@@ -488,9 +485,6 @@ frame
 >
 IsFocusable
 (
-&
-tabIndex
-false
 )
 )
 {
