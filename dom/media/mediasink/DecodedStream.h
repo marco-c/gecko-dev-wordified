@@ -472,8 +472,6 @@ aData
 void
 SendAudio
 (
-double
-aVolume
 const
 PrincipalHandle
 &
