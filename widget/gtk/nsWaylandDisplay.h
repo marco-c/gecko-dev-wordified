@@ -330,6 +330,11 @@ SyncBegin
 )
 ;
 void
+QueueSyncBegin
+(
+)
+;
+void
 SyncEnd
 (
 )
