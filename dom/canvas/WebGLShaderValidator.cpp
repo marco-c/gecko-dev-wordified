@@ -693,8 +693,6 @@ return
 SH_ESSL_OUTPUT
 ;
 }
-else
-{
 uint32_t
 version
 =
@@ -833,7 +831,6 @@ version
 <
 version
 ;
-}
 }
 return
 SH_GLSL_COMPATIBILITY_OUTPUT
