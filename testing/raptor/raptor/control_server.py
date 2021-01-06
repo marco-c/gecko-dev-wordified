@@ -3734,6 +3734,9 @@ app_name
 else
 :
             
+try
+:
+                
 self
 .
 browser_proc
@@ -3743,6 +3746,29 @@ wait
 timeout
 )
             
+except
+OSError
+:
+                
+LOG
+.
+warning
+(
+"
+OSError
+while
+shutting
+down
+browser
+"
+exc_info
+=
+True
+)
+            
+finally
+:
+                
 if
 self
 .
@@ -3754,7 +3780,7 @@ poll
 is
 None
 :
-                
+                    
 self
 .
 browser_proc
