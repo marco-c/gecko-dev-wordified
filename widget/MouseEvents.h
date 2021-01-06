@@ -1410,8 +1410,8 @@ ExitFrom
 :
 ExitFromType
 {
-eChild
-eTopLevel
+ePlatformChild
+ePlatformTopLevel
 ePuppet
 ePuppetParentToPuppetChild
 }

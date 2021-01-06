@@ -1812,7 +1812,7 @@ Some
 WidgetMouseEvent
 :
 :
-eChild
+ePlatformChild
 )
 ;
 break
