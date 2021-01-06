@@ -248,6 +248,10 @@ Init
 ;
 static
 bool
+sCanUseHardwareVideoDecoder
+;
+static
+bool
 sCanUseVP9Decoder
 ;
 static
