@@ -143,12 +143,13 @@ namespace
 mozilla
 {
 typedef
-nsTArray
+AutoTArray
 <
 RefPtr
 <
 nsAtom
 >
+4
 >
 AtomArray
 ;
