@@ -1847,7 +1847,7 @@ next
 rAF
 callback
 function
-waitForFrame
+promiseFrame
 (
 )
 {
