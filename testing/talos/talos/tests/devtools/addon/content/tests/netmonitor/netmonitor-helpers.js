@@ -110,8 +110,11 @@ runTest
 require
 (
 "
-.
-.
+damp
+-
+test
+/
+tests
 /
 head
 "

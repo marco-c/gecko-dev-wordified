@@ -83,7 +83,13 @@ dampTestSpec
 require
 (
 "
-.
+damp
+-
+test
+/
+tests
+/
+server
 /
 spec
 "

@@ -94,8 +94,11 @@ PAGES_BASE_URL
 require
 (
 "
-.
-.
+damp
+-
+test
+/
+tests
 /
 head
 "

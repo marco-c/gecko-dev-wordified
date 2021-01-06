@@ -74,8 +74,11 @@ waitForTick
 require
 (
 "
-.
-.
+damp
+-
+test
+/
+tests
 /
 head
 "

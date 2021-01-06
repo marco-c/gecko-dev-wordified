@@ -69,8 +69,11 @@ reloadPageAndLog
 require
 (
 "
-.
-.
+damp
+-
+test
+/
+tests
 /
 head
 "
