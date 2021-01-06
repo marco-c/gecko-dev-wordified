@@ -17526,6 +17526,12 @@ defined
 (
 GP_OS_windows
 )
+|
+|
+defined
+(
+GP_OS_darwin
+)
 /
 /
 Note
@@ -17783,6 +17789,12 @@ if
 defined
 (
 GP_OS_windows
+)
+|
+|
+defined
+(
+GP_OS_darwin
 )
 EXPECT_GE
 (
