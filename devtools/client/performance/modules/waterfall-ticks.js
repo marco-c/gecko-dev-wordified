@@ -195,7 +195,13 @@ canvas
 .
 width
 =
+Math
+.
+max
+(
 waterfallWidth
+1
+)
 )
 ;
 /
