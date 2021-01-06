@@ -4763,22 +4763,14 @@ install_pip_requirements
 (
         
 self
-        
 path
-        
 require_hashes
 =
 True
-        
 quiet
 =
 False
-        
 vendored
-=
-False
-        
-legacy_resolver
 =
 False
     
@@ -4965,27 +4957,6 @@ index
                 
 ]
             
-)
-        
-if
-legacy_resolver
-:
-            
-args
-.
-append
-(
-"
--
--
-use
--
-deprecated
-=
-legacy
--
-resolver
-"
 )
         
 return

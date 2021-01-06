@@ -30,14 +30,6 @@ path
 import
 Path
 from
-virtualenv
-.
-util
-.
-six
-import
-ensure_text
-from
 .
 .
 creator
@@ -632,13 +624,7 @@ file
 %
 s
 "
-ensure_text
-(
-str
-(
 pth
-)
-)
 )
             
 pth
@@ -672,13 +658,7 @@ create
 %
 s
 "
-ensure_text
-(
-str
-(
 dest_path
-)
-)
 )
             
 dest_path
