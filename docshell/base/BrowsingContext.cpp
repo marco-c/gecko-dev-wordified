@@ -1644,7 +1644,7 @@ SameOriginWithTop
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 IsInProcess
 (
