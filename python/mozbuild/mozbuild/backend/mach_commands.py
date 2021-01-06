@@ -1690,9 +1690,15 @@ cpu_count
 2
 )
                 
+"
+"
+.
+join
+(
 clang_tidy_cfg
 .
 checks
+)
             
 )
         
