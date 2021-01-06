@@ -1206,9 +1206,25 @@ self
 )
 :
         
-self
+LOG
 .
-stop_mitmproxy_playback
+info
+(
+"
+MitmproxyDesktop
+stop
+!
+!
+"
+)
+        
+super
+(
+MitmproxyDesktop
+self
+)
+.
+stop
 (
 )
         
