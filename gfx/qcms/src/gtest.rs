@@ -149,7 +149,6 @@ test_lut_inverse_crash
 )
 {
 let
-mut
 lutTable1
 :
 [
@@ -290,7 +289,6 @@ u16
 ]
 ;
 let
-mut
 lutTable2
 :
 [
@@ -1062,7 +1060,6 @@ qcms_profile_sRGB
 )
 ;
 let
-mut
 Rec709Primaries
 =
 qcms_CIE_xyYTRIPLE
@@ -1332,7 +1329,6 @@ is_null
 )
 ;
 let
-mut
 in_data
 :
 [
@@ -2050,7 +2046,6 @@ the
 transformation
 changes
 let
-mut
 reference
 =
 [
@@ -5282,7 +5277,6 @@ new_sRGB
 )
 ;
 let
-mut
 xfm
 =
 crate

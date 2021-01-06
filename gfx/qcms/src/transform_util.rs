@@ -301,7 +301,6 @@ inline
 fn
 u8Fixed8Number_to_float
 (
-mut
 x
 :
 u16
@@ -353,7 +352,6 @@ pub
 fn
 clamp_float
 (
-mut
 a
 :
 f32
@@ -497,7 +495,6 @@ mut
 input_value
 :
 f64
-mut
 table
 :
 &
@@ -525,7 +522,6 @@ as
 f64
 ;
 let
-mut
 upper
 :
 i32
@@ -539,7 +535,6 @@ as
 i32
 ;
 let
-mut
 lower
 :
 i32
@@ -553,7 +548,6 @@ as
 i32
 ;
 let
-mut
 value
 :
 f32
@@ -654,11 +648,9 @@ pub
 fn
 lut_interp_linear16
 (
-mut
 input_value
 :
 u16
-mut
 table
 :
 &
@@ -740,7 +732,6 @@ value
 *
 /
 let
-mut
 upper
 :
 u32
@@ -766,7 +757,6 @@ value
 *
 /
 let
-mut
 lower
 :
 u32
@@ -794,7 +784,6 @@ to
 *
 /
 let
-mut
 interp
 :
 u32
@@ -880,11 +869,9 @@ from
 fn
 lut_interp_linear_precache_output
 (
-mut
 input_value
 :
 u32
-mut
 table
 :
 &
@@ -960,7 +947,6 @@ PRECACHE_OUTPUT_MAX
 *
 /
 let
-mut
 upper
 :
 u32
@@ -992,7 +978,6 @@ PRECACHE_OUTPUT_MAX
 *
 /
 let
-mut
 lower
 :
 u32
@@ -1022,7 +1007,6 @@ PRECACHE_OUTPUT_MAX
 *
 /
 let
-mut
 interp
 :
 u32
@@ -1167,7 +1151,6 @@ mut
 value
 :
 f32
-mut
 table
 :
 &
@@ -1195,7 +1178,6 @@ as
 f32
 ;
 let
-mut
 upper
 :
 i32
@@ -1209,7 +1191,6 @@ as
 i32
 ;
 let
-mut
 lower
 :
 i32
@@ -1295,7 +1276,6 @@ value
 fn
 compute_curve_gamma_table_type1
 (
-mut
 gamma_table
 :
 &
@@ -1304,14 +1284,12 @@ Vec
 <
 f32
 >
-mut
 gamma
 :
 u16
 )
 {
 let
-mut
 gamma_float
 :
 f32
@@ -1382,7 +1360,6 @@ f32
 fn
 compute_curve_gamma_table_type2
 (
-mut
 gamma_table
 :
 &
@@ -1391,7 +1368,6 @@ Vec
 <
 f32
 >
-mut
 table
 :
 &
@@ -1430,7 +1406,6 @@ table
 fn
 compute_curve_gamma_table_type_parametric
 (
-mut
 gamma_table
 :
 &
@@ -1439,7 +1414,6 @@ Vec
 <
 f32
 >
-mut
 params
 :
 &
@@ -1449,43 +1423,36 @@ f32
 )
 {
 let
-mut
 interval
 :
 f32
 ;
 let
-mut
 a
 :
 f32
 ;
 let
-mut
 b
 :
 f32
 ;
 let
-mut
 c
 :
 f32
 ;
 let
-mut
 e
 :
 f32
 ;
 let
-mut
 f
 :
 f32
 ;
 let
-mut
 y
 :
 f32
@@ -1949,7 +1916,6 @@ f32
 fn
 compute_curve_gamma_table_type0
 (
-mut
 gamma_table
 :
 &
@@ -1994,7 +1960,6 @@ crate
 fn
 build_input_gamma_table
 (
-mut
 TRC
 :
 Option
@@ -2125,7 +2090,6 @@ pub
 fn
 build_colorant_matrix
 (
-mut
 p
 :
 &
@@ -2405,11 +2369,9 @@ pub
 fn
 lut_inverse_interp16
 (
-mut
 Value
 :
 u16
-mut
 LutTable
 :
 &
@@ -2634,13 +2596,11 @@ NumPoles
 1
 {
 let
-mut
 a_0
 :
 i32
 ;
 let
-mut
 b_0
 :
 i32
@@ -2876,7 +2836,6 @@ x
 )
 ;
 let
-mut
 val2
 :
 f64
@@ -2904,7 +2863,6 @@ f64
 )
 ;
 let
-mut
 cell0
 :
 i32
@@ -2918,7 +2876,6 @@ as
 i32
 ;
 let
-mut
 cell1
 :
 i32
@@ -2944,7 +2901,6 @@ uint16_fract_t
 ;
 }
 let
-mut
 y0
 :
 f64
@@ -2959,7 +2915,6 @@ as
 f64
 ;
 let
-mut
 x0
 :
 f64
@@ -2981,7 +2936,6 @@ as
 f64
 ;
 let
-mut
 y1
 :
 f64
@@ -2996,7 +2950,6 @@ as
 f64
 ;
 let
-mut
 x1
 :
 f64
@@ -3018,7 +2971,6 @@ as
 f64
 ;
 let
-mut
 a
 :
 f64
@@ -3036,7 +2988,6 @@ x0
 )
 ;
 let
-mut
 b
 :
 f64
@@ -3065,7 +3016,6 @@ uint16_fract_t
 ;
 }
 let
-mut
 f
 :
 f64
@@ -3223,14 +3173,12 @@ caller
 fn
 invert_lut
 (
-mut
 table
 :
 &
 [
 u16
 ]
-mut
 out_length
 :
 i32
@@ -3294,7 +3242,6 @@ in
 out_length
 {
 let
-mut
 x
 :
 f64
@@ -3316,7 +3263,6 @@ as
 f64
 ;
 let
-mut
 input
 :
 uint16_fract_t
@@ -3361,7 +3307,6 @@ u8
 ;
 PRECACHE_OUTPUT_SIZE
 ]
-mut
 gamma
 :
 f32
@@ -3442,7 +3387,6 @@ pub
 fn
 compute_precache_lut
 (
-mut
 output
 :
 &
@@ -3452,7 +3396,6 @@ u8
 ;
 PRECACHE_OUTPUT_SIZE
 ]
-mut
 table
 :
 &
@@ -3499,7 +3442,6 @@ pub
 fn
 compute_precache_linear
 (
-mut
 output
 :
 &
@@ -3566,12 +3508,10 @@ crate
 fn
 compute_precache
 (
-mut
 trc
 :
 &
 curveType
-mut
 output
 :
 &
@@ -3751,7 +3691,6 @@ inverted_size
 256
 }
 let
-mut
 inverted
 =
 invert_lut
@@ -3901,7 +3840,6 @@ into
 a
 function
 let
-mut
 inverted
 =
 invert_lut
@@ -3926,7 +3864,6 @@ true
 fn
 build_linear_table
 (
-mut
 length
 :
 i32
@@ -3961,7 +3898,6 @@ in
 length
 {
 let
-mut
 x
 :
 f64
@@ -3983,7 +3919,6 @@ as
 f64
 ;
 let
-mut
 input
 :
 uint16_fract_t
@@ -4015,11 +3950,9 @@ output
 fn
 build_pow_table
 (
-mut
 gamma
 :
 f32
-mut
 length
 :
 i32
@@ -4083,7 +4016,6 @@ f64
 )
 ;
 let
-mut
 result
 :
 uint16_fract_t
@@ -4123,7 +4055,6 @@ crate
 fn
 build_output_lut
 (
-mut
 trc
 :
 &
@@ -4239,7 +4170,6 @@ build_linear_table
 >
 {
 let
-mut
 gamma
 =
 1

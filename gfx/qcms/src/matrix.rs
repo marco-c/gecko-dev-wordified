@@ -315,11 +315,9 @@ pub
 fn
 matrix_eval
 (
-mut
 mat
 :
 Matrix
-mut
 v
 :
 Vector
@@ -546,7 +544,6 @@ pub
 fn
 matrix_det
 (
-mut
 mat
 :
 Matrix
@@ -556,7 +553,6 @@ Matrix
 f32
 {
 let
-mut
 det
 :
 f32
@@ -791,7 +787,6 @@ pub
 fn
 matrix_invert
 (
-mut
 mat
 :
 Matrix
@@ -945,7 +940,6 @@ i
 3
 {
 let
-mut
 ai
 :
 i32
@@ -958,7 +952,6 @@ usize
 ]
 ;
 let
-mut
 aj
 :
 i32
@@ -971,7 +964,6 @@ usize
 ]
 ;
 let
-mut
 bi
 :
 i32
@@ -984,7 +976,6 @@ usize
 ]
 ;
 let
-mut
 bj
 :
 i32
@@ -1321,11 +1312,9 @@ pub
 fn
 matrix_multiply
 (
-mut
 a
 :
 Matrix
-mut
 b
 :
 Matrix
