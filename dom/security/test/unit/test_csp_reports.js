@@ -886,9 +886,9 @@ getAllowsInline
 (
 Ci
 .
-nsIContentPolicy
+nsIContentSecurityPolicy
 .
-TYPE_SCRIPT
+SCRIPT_SRC_DIRECTIVE
 "
 "
 /
@@ -1327,9 +1327,9 @@ getAllowsInline
 (
 Ci
 .
-nsIContentPolicy
+nsIContentSecurityPolicy
 .
-TYPE_SCRIPT
+SCRIPT_SRC_DIRECTIVE
 "
 "
 /
