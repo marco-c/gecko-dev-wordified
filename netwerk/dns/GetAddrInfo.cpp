@@ -1944,7 +1944,7 @@ COMPUTER_NAME_BUFFER_SIZE
 if
 (
 !
-GetComputerNameEx
+GetComputerNameExA
 (
 ComputerNameDnsHostname
 sDNSComputerName
@@ -1970,7 +1970,7 @@ MAX_COMPUTERNAME_LENGTH
 if
 (
 !
-GetComputerNameEx
+GetComputerNameExA
 (
 ComputerNameNetBIOS
 sNETBIOSComputerName

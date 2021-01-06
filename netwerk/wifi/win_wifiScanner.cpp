@@ -115,7 +115,7 @@ mAllInterfacesDoneScanningEvent
 =
 :
 :
-CreateEvent
+CreateEventW
 (
 nullptr
 /

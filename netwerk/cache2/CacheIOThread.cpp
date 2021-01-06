@@ -709,8 +709,9 @@ NULL
 HMODULE
 kernel32_dll
 =
-GetModuleHandle
+GetModuleHandleW
 (
+L
 "
 kernel32
 .
