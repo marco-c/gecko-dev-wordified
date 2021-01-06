@@ -303,12 +303,6 @@ using
 js
 :
 :
-CopyInitializerObject
-;
-using
-js
-:
-:
 GenericObject
 ;
 using
