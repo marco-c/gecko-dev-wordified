@@ -8117,8 +8117,6 @@ unwrap
 )
 .
 num_in_channels
-as
-i32
 =
 =
 3
@@ -8140,8 +8138,6 @@ unwrap
 )
 .
 num_out_channels
-as
-i32
 =
 =
 3
@@ -8823,8 +8819,6 @@ unwrap
 )
 .
 num_in_channels
-as
-i32
 =
 =
 3
@@ -8846,8 +8840,6 @@ unwrap
 )
 .
 num_out_channels
-as
-i32
 =
 =
 3
