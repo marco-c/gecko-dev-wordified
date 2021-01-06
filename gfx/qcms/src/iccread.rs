@@ -275,7 +275,7 @@ transform
 :
 :
 {
-precache_output
+PrecacheOuput
 set_rgb_colorants
 }
 ;
@@ -541,7 +541,7 @@ Option
 <
 Arc
 <
-precache_output
+PrecacheOuput
 >
 >
 pub
@@ -554,7 +554,7 @@ Option
 <
 Arc
 <
-precache_output
+PrecacheOuput
 >
 >
 pub
@@ -567,7 +567,7 @@ Option
 <
 Arc
 <
-precache_output
+PrecacheOuput
 >
 >
 }
