@@ -134,6 +134,10 @@ Target
 T
 ]
 ;
+#
+[
+inline
+]
 fn
 deref
 <
