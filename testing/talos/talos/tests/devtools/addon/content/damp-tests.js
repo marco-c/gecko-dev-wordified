@@ -61,13 +61,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-module
-require
-*
-/
 const
 Services
 =
