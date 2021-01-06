@@ -194,6 +194,18 @@ include
 "
 frontend
 /
+ScriptIndex
+.
+h
+"
+/
+/
+ScriptIndex
+#
+include
+"
+frontend
+/
 SharedContext
 .
 h
@@ -12762,7 +12774,7 @@ bool
 hasParameterExprs
 bool
 needsEnvironment
-FunctionIndex
+ScriptIndex
 functionIndex
 bool
 isArrow

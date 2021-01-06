@@ -1211,7 +1211,7 @@ const
 ScriptStencil
 &
 script
-FunctionIndex
+ScriptIndex
 functionIndex
 )
 {
@@ -1895,11 +1895,11 @@ item
 script
 ;
 auto
-functionIndex
+index
 =
 item
 .
-functionIndex
+index
 ;
 MOZ_ASSERT
 (
@@ -1919,7 +1919,7 @@ cx
 input
 stencil
 scriptStencil
-functionIndex
+index
 )
 ;
 if
@@ -1936,7 +1936,7 @@ gcOutput
 .
 functions
 [
-functionIndex
+index
 ]
 =
 fun
@@ -2268,7 +2268,7 @@ index
 =
 item
 .
-functionIndex
+index
 ;
 if
 (
@@ -3779,7 +3779,7 @@ MOZ_ASSERT_IF
 (
 item
 .
-functionIndex
+index
 =
 =
 CompilationInfo
@@ -3795,7 +3795,7 @@ MOZ_ASSERT_IF
 (
 item
 .
-functionIndex
+index
 >
 CompilationInfo
 :
@@ -4642,7 +4642,7 @@ value
 )
 ]
 =
-FunctionIndex
+ScriptIndex
 (
 i
 )
@@ -5953,14 +5953,14 @@ SharedDataContainer
 :
 get
 (
-FunctionIndex
+ScriptIndex
 index
 )
 {
 struct
 Matcher
 {
-FunctionIndex
+ScriptIndex
 index
 ;
 js
@@ -6102,7 +6102,7 @@ addAndShare
 JSContext
 *
 cx
-FunctionIndex
+ScriptIndex
 index
 js
 :
@@ -6119,7 +6119,7 @@ JSContext
 *
 cx
 ;
-FunctionIndex
+ScriptIndex
 index
 ;
 js
@@ -7344,7 +7344,7 @@ formatProperty
 functionIndex
 "
 "
-FunctionIndex
+ScriptIndex
 (
 %
 zu
@@ -8578,7 +8578,7 @@ json
 value
 (
 "
-FunctionIndex
+ScriptIndex
 (
 %
 zu
@@ -9929,7 +9929,7 @@ json
 value
 (
 "
-FunctionIndex
+ScriptIndex
 (
 %
 zu

@@ -185,6 +185,18 @@ include
 "
 frontend
 /
+ScriptIndex
+.
+h
+"
+/
+/
+ScriptIndex
+#
+include
+"
+frontend
+/
 SharedContext
 .
 h
@@ -2304,7 +2316,7 @@ vector
 .
 Vector
 <
-FunctionIndex
+ScriptIndex
 4
 >
 innerFunctionIndexesForLazy
