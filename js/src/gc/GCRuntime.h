@@ -4563,11 +4563,6 @@ sweepCCWrappers
 )
 ;
 void
-sweepObjectGroups
-(
-)
-;
-void
 sweepMisc
 (
 )
