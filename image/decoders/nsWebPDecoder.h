@@ -289,6 +289,9 @@ aData
 size_t
 aLength
 const
+gfx
+:
+:
 IntRect
 &
 aFrameRect
@@ -451,6 +454,9 @@ the
 current
 frame
 .
+gfx
+:
+:
 IntRect
 mFrameRect
 ;

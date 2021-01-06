@@ -133,6 +133,13 @@ nsIURIMutator
 h
 "
 #
+include
+"
+nsISerializable
+.
+h
+"
+#
 define
 NS_THIS_ICONURI_IMPLEMENTATION_CID
 \

@@ -1043,6 +1043,9 @@ mSawTransparency
 gif_struct
 mGIFStruct
 ;
+gfx
+:
+:
 SwizzleRowFn
 mSwizzleFn
 ;

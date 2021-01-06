@@ -135,6 +135,13 @@ SurfacePipeFactory
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
 using
 namespace
 mozilla
