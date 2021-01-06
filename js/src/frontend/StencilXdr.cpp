@@ -1445,6 +1445,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 ;
 hasParameterExprs
@@ -1452,6 +1454,8 @@ hasParameterExprs
 data
 -
 >
+slotInfo
+.
 hasParameterExprs
 ?
 1
@@ -1463,6 +1467,8 @@ nonPositionalFormalStart
 data
 -
 >
+slotInfo
+.
 nonPositionalFormalStart
 ;
 varStart
@@ -1470,6 +1476,8 @@ varStart
 data
 -
 >
+slotInfo
+.
 varStart
 ;
 length
@@ -1477,6 +1485,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 }
@@ -1594,6 +1604,8 @@ data
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 =
 nextFrameSlot
@@ -1609,6 +1621,8 @@ hasParameterExprs
 data
 -
 >
+slotInfo
+.
 hasParameterExprs
 =
 hasParameterExprs
@@ -1616,6 +1630,8 @@ hasParameterExprs
 data
 -
 >
+slotInfo
+.
 nonPositionalFormalStart
 =
 nonPositionalFormalStart
@@ -1623,6 +1639,8 @@ nonPositionalFormalStart
 data
 -
 >
+slotInfo
+.
 varStart
 =
 varStart
@@ -1630,6 +1648,8 @@ varStart
 data
 -
 >
+slotInfo
+.
 length
 =
 length
@@ -1747,6 +1767,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 ;
 length
@@ -1754,6 +1776,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 }
@@ -1835,6 +1859,8 @@ data
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 =
 nextFrameSlot
@@ -1842,6 +1868,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 length
 =
 length
@@ -1964,6 +1992,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 ;
 constStart
@@ -1971,6 +2001,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 constStart
 ;
 length
@@ -1978,6 +2010,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 }
@@ -2071,6 +2105,8 @@ data
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 =
 nextFrameSlot
@@ -2078,6 +2114,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 constStart
 =
 constStart
@@ -2085,6 +2123,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 length
 =
 length
@@ -2207,6 +2247,8 @@ letStart
 data
 -
 >
+slotInfo
+.
 letStart
 ;
 constStart
@@ -2214,6 +2256,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 constStart
 ;
 length
@@ -2221,6 +2265,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 }
@@ -2314,6 +2360,8 @@ data
 data
 -
 >
+slotInfo
+.
 letStart
 =
 letStart
@@ -2321,6 +2369,8 @@ letStart
 data
 -
 >
+slotInfo
+.
 constStart
 =
 constStart
@@ -2328,6 +2378,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 length
 =
 length
@@ -2460,6 +2512,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 ;
 varStart
@@ -2467,6 +2521,8 @@ varStart
 data
 -
 >
+slotInfo
+.
 varStart
 ;
 letStart
@@ -2474,6 +2530,8 @@ letStart
 data
 -
 >
+slotInfo
+.
 letStart
 ;
 constStart
@@ -2481,6 +2539,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 constStart
 ;
 length
@@ -2488,6 +2548,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 }
@@ -2605,6 +2667,8 @@ data
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 =
 nextFrameSlot
@@ -2612,6 +2676,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 varStart
 =
 varStart
@@ -2619,6 +2685,8 @@ varStart
 data
 -
 >
+slotInfo
+.
 letStart
 =
 letStart
@@ -2626,6 +2694,8 @@ letStart
 data
 -
 >
+slotInfo
+.
 constStart
 =
 constStart
@@ -2633,6 +2703,8 @@ constStart
 data
 -
 >
+slotInfo
+.
 length
 =
 length
@@ -2750,6 +2822,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 ;
 length
@@ -2757,6 +2831,8 @@ length
 data
 -
 >
+slotInfo
+.
 length
 ;
 }
@@ -2838,6 +2914,8 @@ data
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 =
 nextFrameSlot
@@ -2845,6 +2923,8 @@ nextFrameSlot
 data
 -
 >
+slotInfo
+.
 length
 =
 length

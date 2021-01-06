@@ -1195,6 +1195,8 @@ start
 data
 -
 >
+slotInfo
+.
 letStart
 =
 global
@@ -1204,6 +1206,8 @@ let_start
 data
 -
 >
+slotInfo
+.
 constStart
 =
 global
@@ -1213,6 +1217,8 @@ const_start
 data
 -
 >
+slotInfo
+.
 length
 =
 numBindings
@@ -1319,10 +1325,14 @@ NOTE
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 is
 set
 in
+/
+/
 ScopeStencil
 :
 :
@@ -1331,6 +1341,8 @@ createForVarScope
 data
 -
 >
+slotInfo
+.
 length
 =
 numBindings
@@ -1462,6 +1474,8 @@ NOTE
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 is
 set
@@ -1476,6 +1490,8 @@ createForLexicalScope
 data
 -
 >
+slotInfo
+.
 constStart
 =
 lexical
@@ -1485,6 +1501,8 @@ const_start
 data
 -
 >
+slotInfo
+.
 length
 =
 numBindings
@@ -1613,6 +1631,8 @@ NOTE
 data
 -
 >
+slotInfo
+.
 nextFrameSlot
 is
 set
@@ -1627,6 +1647,8 @@ createForFunctionScope
 data
 -
 >
+slotInfo
+.
 hasParameterExprs
 =
 function
@@ -1636,6 +1658,8 @@ has_parameter_exprs
 data
 -
 >
+slotInfo
+.
 nonPositionalFormalStart
 =
 function
@@ -1645,6 +1669,8 @@ non_positional_formal_start
 data
 -
 >
+slotInfo
+.
 varStart
 =
 function
@@ -1654,6 +1680,8 @@ var_start
 data
 -
 >
+slotInfo
+.
 length
 =
 numBindings

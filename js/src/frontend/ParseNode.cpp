@@ -2686,6 +2686,8 @@ i
 bindings
 -
 >
+slotInfo
+.
 length
 ;
 i
@@ -2753,6 +2755,8 @@ i
 bindings
 -
 >
+slotInfo
+.
 length
 -
 1
