@@ -141,12 +141,6 @@ see
 test_duplicate_headers
 .
 js
-/
-*
-global
-globalThis
-*
-/
 "
 use
 strict

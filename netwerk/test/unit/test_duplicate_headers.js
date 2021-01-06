@@ -109,12 +109,6 @@ etc
 /
 Test
 infrastructure
-/
-*
-global
-globalThis
-*
-/
 "
 use
 strict

@@ -32,12 +32,6 @@ use
 strict
 "
 ;
-/
-*
-global
-globalThis
-*
-/
 console
 .
 log

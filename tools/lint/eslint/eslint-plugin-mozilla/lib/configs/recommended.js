@@ -124,7 +124,7 @@ env
 browser
 :
 true
-es6
+es2021
 :
 true
 "
@@ -524,7 +524,7 @@ parserOptions
 {
 ecmaVersion
 :
-11
+12
 }
 /
 /
