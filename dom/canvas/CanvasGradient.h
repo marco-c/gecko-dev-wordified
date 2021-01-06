@@ -149,6 +149,7 @@ LINEAR
 =
 0
 RADIAL
+CONIC
 }
 ;
 Type
