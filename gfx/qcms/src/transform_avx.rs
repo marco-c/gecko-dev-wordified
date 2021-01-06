@@ -163,8 +163,7 @@ Format
 (
 transform
 :
-*
-const
+&
 qcms_transform
 mut
 src
@@ -2342,8 +2341,7 @@ qcms_transform_data_rgb_out_lut_avx
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -2400,8 +2398,7 @@ qcms_transform_data_rgba_out_lut_avx
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
@@ -2458,8 +2455,7 @@ qcms_transform_data_bgra_out_lut_avx
 (
 transform
 :
-*
-const
+&
 qcms_transform
 src
 :
