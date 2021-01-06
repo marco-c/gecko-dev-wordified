@@ -149,6 +149,9 @@ ProfileChunkedBuffer
 .
 h
 "
+class
+RunningTimes
+;
 /
 /
 Class
@@ -738,6 +741,10 @@ uint64_t
 >
 &
 aLastSample
+const
+RunningTimes
+&
+aRunningTimes
 )
 ;
 void
