@@ -264,6 +264,7 @@ exception
 )
 :
         
+return
 sentry_sdk
 .
 capture_exception
@@ -324,7 +325,8 @@ exception
 )
 :
         
-pass
+return
+None
 def
 register_sentry
 (
