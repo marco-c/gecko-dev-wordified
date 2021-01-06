@@ -275,8 +275,8 @@ transform
 :
 :
 {
-PrecacheOuput
 set_rgb_colorants
+PrecacheOuput
 }
 ;
 use
