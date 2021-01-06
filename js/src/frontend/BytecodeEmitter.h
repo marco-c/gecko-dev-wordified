@@ -2045,9 +2045,6 @@ data
 bool
 intoScriptStencil
 (
-ScriptStencil
-*
-script
 ScriptIndex
 scriptIndex
 )
