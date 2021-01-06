@@ -134,6 +134,13 @@ gfxTypes
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 class
 nsIGfxInfo
 ;

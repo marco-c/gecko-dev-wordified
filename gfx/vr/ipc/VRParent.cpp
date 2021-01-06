@@ -201,6 +201,15 @@ ProcessChild
 h
 "
 #
+include
+"
+mozilla
+/
+Preferences
+.
+h
+"
+#
 if
 defined
 (

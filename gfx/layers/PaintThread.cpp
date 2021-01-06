@@ -230,6 +230,13 @@ SyncRunnable
 h
 "
 #
+include
+"
+nsProxyRelease
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #

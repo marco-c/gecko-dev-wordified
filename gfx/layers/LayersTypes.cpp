@@ -239,6 +239,9 @@ LAYERS_WR
 :
 MOZ_ASSERT
 (
+gfx
+:
+:
 gfxVars
 :
 :
@@ -249,6 +252,9 @@ UseWebRender
 ;
 if
 (
+gfx
+:
+:
 gfxVars
 :
 :

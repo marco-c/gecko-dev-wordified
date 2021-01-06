@@ -815,6 +815,17 @@ include
 "
 mozilla
 /
+webrender
+/
+RenderThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 media
 /
 MediaSystemResourceService

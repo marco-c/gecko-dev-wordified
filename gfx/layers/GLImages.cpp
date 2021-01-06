@@ -170,6 +170,17 @@ GLLibraryEGL
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+Logging
+.
+h
+"
 using
 namespace
 mozilla

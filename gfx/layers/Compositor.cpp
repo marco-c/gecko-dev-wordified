@@ -128,6 +128,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+CompositionRecorder
+.
+h
+"
+#
+include
+"
 base
 /
 message_loop

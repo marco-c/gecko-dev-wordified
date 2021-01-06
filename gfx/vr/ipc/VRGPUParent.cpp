@@ -124,6 +124,13 @@ h
 #
 include
 "
+VRPuppetCommandBuffer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc

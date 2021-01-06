@@ -65,6 +65,11 @@ h
 "
 #
 include
+<
+stack
+>
+#
+include
 "
 AsyncPanZoomController
 .

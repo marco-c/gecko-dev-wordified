@@ -167,6 +167,13 @@ Units
 .
 h
 "
+#
+include
+"
+GLTypes
+.
+h
+"
 namespace
 mozilla
 {

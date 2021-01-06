@@ -148,6 +148,13 @@ Create
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 base
 /
 process

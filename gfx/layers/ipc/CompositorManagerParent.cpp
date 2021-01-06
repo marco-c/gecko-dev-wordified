@@ -223,6 +223,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 VsyncSource
 .
 h

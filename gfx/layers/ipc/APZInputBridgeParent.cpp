@@ -158,6 +158,13 @@ IAPZCTreeManager
 .
 h
 "
+#
+include
+"
+InputData
+.
+h
+"
 namespace
 mozilla
 {
