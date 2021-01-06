@@ -1889,6 +1889,9 @@ nsString
 aDisplayInfo
 )
 {
+nsAutoreleasePool
+localPool
+;
 for
 (
 NSScreen
@@ -1977,6 +1980,9 @@ uint32_t
 aDisplayWidth
 )
 {
+nsAutoreleasePool
+localPool
+;
 for
 (
 NSScreen
@@ -2030,6 +2036,9 @@ uint32_t
 aDisplayHeight
 )
 {
+nsAutoreleasePool
+localPool
+;
 for
 (
 NSScreen
@@ -2762,6 +2771,9 @@ HandleObject
 aOutArray
 )
 {
+nsAutoreleasePool
+localPool
+;
 /
 /
 Getting
