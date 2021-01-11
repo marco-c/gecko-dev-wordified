@@ -7684,7 +7684,7 @@ mirNormal
 )
 -
 >
-canBeNegativeZero
+needsNegativeZeroCheck
 (
 )
 lir
@@ -9176,7 +9176,7 @@ mir
 )
 -
 >
-canBeNegativeZero
+needsNegativeZeroCheck
 (
 )
 )
@@ -9250,7 +9250,7 @@ mir
 )
 -
 >
-canBeNegativeZero
+needsNegativeZeroCheck
 (
 )
 )
