@@ -17705,7 +17705,7 @@ getOperand
 (
 0
 )
-MDefinition
+TruncateKind
 :
 :
 NoTruncate
@@ -17794,7 +17794,7 @@ getOperand
 (
 0
 )
-MDefinition
+TruncateKind
 :
 :
 NoTruncate
@@ -19929,6 +19929,9 @@ truncateKind
 )
 >
 =
+TruncateKind
+:
+:
 IndirectTruncate
 )
 {
@@ -19988,6 +19991,9 @@ truncateKind
 )
 >
 =
+TruncateKind
+:
+:
 IndirectTruncate
 )
 {
@@ -27418,7 +27424,7 @@ getOperand
 (
 0
 )
-MDefinition
+TruncateKind
 :
 :
 NoTruncate

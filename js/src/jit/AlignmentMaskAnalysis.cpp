@@ -679,7 +679,7 @@ alloc
 )
 and_
 op1
-MDefinition
+TruncateKind
 :
 :
 Truncate

@@ -18566,7 +18566,7 @@ alloc
 )
 index
 constOne
-MDefinition
+TruncateKind
 :
 :
 Truncate
