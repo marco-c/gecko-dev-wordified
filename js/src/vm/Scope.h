@@ -3865,8 +3865,9 @@ static
 uint32_t
 nextFrameSlot
 (
-Scope
-*
+const
+AbstractScopePtr
+&
 scope
 )
 ;
