@@ -656,6 +656,16 @@ at
 startup
 .
 extern
+const
+char
+*
+selfHostedXDRPath
+;
+extern
+bool
+encodeSelfHostedCode
+;
+extern
 bool
 enableCodeCoverage
 ;
