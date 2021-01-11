@@ -1996,6 +1996,15 @@ AutoLockHelperThreadState
 &
 )
 ;
+bool
+hasQueuedTasks
+(
+const
+AutoLockHelperThreadState
+&
+locked
+)
+;
 void
 waitForAllThreads
 (
