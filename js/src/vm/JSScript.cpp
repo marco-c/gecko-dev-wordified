@@ -24654,7 +24654,7 @@ if
 (
 scriptStencil
 .
-memberInitializers
+hasMemberInitializers
 )
 {
 script
@@ -24662,10 +24662,11 @@ script
 >
 setMemberInitializers
 (
-*
 scriptStencil
 .
 memberInitializers
+(
+)
 )
 ;
 }

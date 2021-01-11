@@ -4419,6 +4419,16 @@ MemberInitializers
 )
 ;
 }
+uint32_t
+serialize
+(
+)
+const
+{
+return
+numMemberInitializers
+;
+}
 private
 :
 MemberInitializers
