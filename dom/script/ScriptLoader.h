@@ -3202,6 +3202,9 @@ IsAboutPageLoadingChromeURI
 ScriptLoadRequest
 *
 aRequest
+Document
+*
+aDocument
 )
 ;
 /
