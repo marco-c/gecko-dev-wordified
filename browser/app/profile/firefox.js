@@ -20493,12 +20493,6 @@ Partitioning
 MVP
 UI
 .
-Disabled
-by
-default
-for
-now
-.
 pref
 (
 "
@@ -20516,7 +20510,7 @@ ui
 .
 enabled
 "
-false
+true
 )
 ;
 /
