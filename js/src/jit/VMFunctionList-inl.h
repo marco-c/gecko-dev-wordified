@@ -999,15 +999,6 @@ CreateGeneratorFromFrame
 \
 _
 (
-CreateThisForFunctionWithProto
-js
-:
-:
-CreateThisForFunctionWithProto
-)
-\
-_
-(
 CreateThisFromIC
 js
 :
