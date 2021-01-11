@@ -124,6 +124,8 @@ const
 EventStates
 &
 aState
+StyleAppearance
+aAppearance
 )
 {
 if
@@ -152,6 +154,7 @@ nsNativeBasicTheme
 ComputeCheckboxColors
 (
 aState
+aAppearance
 )
 ;
 }
@@ -445,6 +448,10 @@ checkColor
 ComputeCheckboxColors
 (
 aState
+StyleAppearance
+:
+:
+Radio
 )
 ;
 (
