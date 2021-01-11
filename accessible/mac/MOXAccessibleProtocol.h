@@ -1113,6 +1113,17 @@ moxIdentifier
 ;
 /
 /
+AXVisibleChildren
+-
+(
+NSArray
+*
+_Nullable
+)
+moxVisibleChildren
+;
+/
+/
 Outline
 Attributes
 /
