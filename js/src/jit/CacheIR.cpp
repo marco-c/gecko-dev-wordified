@@ -55364,6 +55364,13 @@ ScriptedThisResult
 NoAction
 ;
 }
+AutoRealm
+ar
+(
+cx_
+calleeFunc
+)
+;
 PlainObject
 *
 thisObject
