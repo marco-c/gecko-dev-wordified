@@ -578,6 +578,7 @@ create_vao
 (
 &
 DESC_FONT
+1
 )
 ;
 let
@@ -589,6 +590,7 @@ create_vao
 (
 &
 DESC_COLOR
+1
 )
 ;
 let
@@ -600,6 +602,7 @@ create_vao
 (
 &
 DESC_COLOR
+1
 )
 ;
 let

@@ -570,6 +570,7 @@ Vertical
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -631,6 +632,7 @@ BlurDirection
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -692,6 +694,7 @@ i32
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -993,6 +996,7 @@ TransformPaletteId
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -1058,6 +1062,7 @@ LayoutRect
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -1119,6 +1124,7 @@ ClipData
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -1188,6 +1194,7 @@ LayoutRect
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -1468,8 +1475,8 @@ matches
 [
 derive
 (
-Debug
 Clone
+Debug
 )
 ]
 #
