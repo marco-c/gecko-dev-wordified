@@ -477,6 +477,10 @@ static
 MediaCodecsSupported
 Supported
 (
+bool
+aForceRefresh
+=
+false
 )
 ;
 static
