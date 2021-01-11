@@ -177,6 +177,10 @@ self
 .
 port
         
+num_errors
+=
+0
+        
 while
 len
 (
@@ -332,6 +336,11 @@ servers
 pop
 (
 )
+                
+num_errors
++
+=
+1
             
 except
 Exception
@@ -363,6 +372,31 @@ servers
 .
 pop
 (
+)
+                
+num_errors
++
+=
+1
+            
+if
+num_errors
+>
+15
+:
+                
+raise
+Exception
+(
+"
+Too
+many
+errors
+in
+webservers
+.
+py
+"
 )
             
 port
