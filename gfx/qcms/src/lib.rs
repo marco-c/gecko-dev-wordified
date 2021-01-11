@@ -1,3 +1,15 @@
+/
+*
+!
+A
+pure
+Rust
+color
+management
+library
+.
+*
+/
 #
 !
 [
@@ -114,7 +126,8 @@ raw_ref_op
 )
 ]
 /
-*
+/
+/
 These
 values
 match
@@ -126,8 +139,6 @@ from
 the
 ICC
 spec
-*
-/
 #
 [
 repr
@@ -382,8 +393,6 @@ use
 transform
 :
 :
-DataType
-as
 DataType
 ;
 pub
