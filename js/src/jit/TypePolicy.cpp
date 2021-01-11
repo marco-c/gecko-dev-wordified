@@ -7548,11 +7548,12 @@ Uint8Clamped
 :
 /
 /
-IonBuilder
+The
+transpiler
 should
 have
 inserted
-ClampToUint8
+MClampToUint8
 .
 MOZ_ASSERT
 (

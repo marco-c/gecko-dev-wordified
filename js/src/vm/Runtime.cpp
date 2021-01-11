@@ -2273,7 +2273,7 @@ jitRuntime_
 Sizes
 of
 the
-IonBuilders
+IonCompileTasks
 we
 are
 holding
@@ -2283,7 +2283,8 @@ linking
 for
 (
 auto
-builder
+*
+task
 :
 jitRuntime_
 -
@@ -2300,7 +2301,7 @@ rtSizes
 jitLazyLink
 +
 =
-builder
+task
 -
 >
 sizeOfExcludingThis

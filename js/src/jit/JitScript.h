@@ -199,7 +199,7 @@ s
 bytecode
 used
 by
-IonBuilder
+WarpBuilder
 .
 This
 is
@@ -1773,7 +1773,7 @@ or
 /
 analyzed
 by
-IonBuilder
+WarpBuilder
 .
 This
 is
@@ -1792,7 +1792,7 @@ most
 scripts
 are
 never
-Ion
+Warp
 -
 compiled
 .
