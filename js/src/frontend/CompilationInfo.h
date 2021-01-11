@@ -1685,6 +1685,17 @@ enclosingEnv
 nullptr
 )
 ;
+bool
+finish
+(
+JSContext
+*
+cx
+CompilationInfo
+&
+compilationInfo
+)
+;
 }
 ;
 /
