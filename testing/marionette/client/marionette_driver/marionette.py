@@ -10567,9 +10567,6 @@ self
 frame
 =
 None
-focus
-=
-True
 )
 :
         
@@ -10654,28 +10651,6 @@ level
 frame
 .
         
-:
-param
-focus
-:
-A
-boolean
-value
-which
-determins
-whether
-to
-focus
-            
-the
-frame
-that
-we
-just
-switched
-to
-.
-        
 "
 "
 "
@@ -10683,11 +10658,6 @@ to
 body
 =
 {
-"
-focus
-"
-:
-focus
 }
         
 if
