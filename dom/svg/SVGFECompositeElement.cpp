@@ -285,6 +285,13 @@ arithmetic
 SVG_FECOMPOSITE_OPERATOR_ARITHMETIC
 }
 {
+nsGkAtoms
+:
+:
+lighter
+SVG_FECOMPOSITE_OPERATOR_LIGHTER
+}
+{
 nullptr
 0
 }
