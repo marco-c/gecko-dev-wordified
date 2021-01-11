@@ -2050,6 +2050,10 @@ mSession
 loadUri
 (
 uri
+.
+toString
+(
+)
 )
 ;
 }
