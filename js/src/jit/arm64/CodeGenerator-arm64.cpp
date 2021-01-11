@@ -5731,7 +5731,7 @@ answer
 .
 masm
 .
-Asr
+Lsr
 (
 output64
 output64
@@ -5765,7 +5765,7 @@ answer
 .
 masm
 .
-Asr
+Lsr
 (
 output64
 output64
