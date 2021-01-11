@@ -4461,18 +4461,6 @@ preload
 "
 )
 ;
-auto
-referrerInfo
-=
-MakeRefPtr
-<
-ReferrerInfo
->
-(
-*
-this
-)
-;
 RefPtr
 <
 PreloaderBase
@@ -4492,7 +4480,6 @@ PreloadLinkElement
 (
 this
 aPolicyType
-referrerInfo
 )
 ;
 mPreload
