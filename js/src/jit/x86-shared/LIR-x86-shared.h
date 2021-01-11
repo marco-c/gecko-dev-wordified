@@ -2911,6 +2911,8 @@ CONCAT_RIGHT_SHIFT_8x16
 Interleave
 dwords
 /
+qwords
+/
 words
 /
 bytes
@@ -2922,9 +2924,9 @@ halves
 of
 operands
 .
+/
+/
 The
-/
-/
 lhsDest
 gets
 the
@@ -2939,9 +2941,9 @@ gets
 the
 next
 then
+/
+/
 the
-/
-/
 lhsDest
 the
 one
@@ -2958,9 +2960,11 @@ garbage
 INTERLEAVE_HIGH_8x16
 INTERLEAVE_HIGH_16x8
 INTERLEAVE_HIGH_32x4
+INTERLEAVE_HIGH_64x2
 INTERLEAVE_LOW_8x16
 INTERLEAVE_LOW_16x8
 INTERLEAVE_LOW_32x4
+INTERLEAVE_LOW_64x2
 /
 /
 Fully
