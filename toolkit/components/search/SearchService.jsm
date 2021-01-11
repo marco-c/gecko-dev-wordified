@@ -9200,9 +9200,14 @@ search_provider
 name
 encoding
 :
-windows
--
-1252
+details
+.
+encoding
+|
+|
+SearchUtils
+.
+DEFAULT_QUERY_CHARSET
 search_url
 :
 encodeURI
