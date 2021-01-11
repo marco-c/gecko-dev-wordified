@@ -24705,6 +24705,17 @@ aExitFlag
 =
 false
 ;
+#
+ifdef
+XP_MACOSX
+mozilla
+:
+:
+MacAutoreleasePool
+pool
+;
+#
+endif
 /
 /
 Enable
