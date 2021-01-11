@@ -4743,7 +4743,7 @@ first
 .
 MOZ_TRY
 (
-XDRVector
+XDRSpanInitialized
 (
 xdr
 stencil

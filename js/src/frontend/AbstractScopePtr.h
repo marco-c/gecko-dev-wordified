@@ -212,7 +212,7 @@ namespace
 frontend
 {
 struct
-CompilationInfo
+CompilationState
 ;
 struct
 CompilationGCOutput
@@ -337,7 +337,7 @@ hold
 index
 and
 the
-compilationInfo
+compilationState
 together
 to
 avoid
@@ -347,7 +347,7 @@ a
 /
 potentially
 nullable
-compilationInfo
+compilationState
 .
 struct
 Deferred
@@ -358,9 +358,9 @@ index
 frontend
 :
 :
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 ;
 }
 ;
@@ -471,9 +471,9 @@ AbstractScopePtr
 frontend
 :
 :
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 ScopeIndex
 scope
 )
@@ -483,7 +483,7 @@ scope_
 Deferred
 {
 scope
-compilationInfo
+compilationState
 }
 )
 {
@@ -613,7 +613,7 @@ is
 rooted
 in
 the
-CompilationInfo
+CompilationState
 .
 frontend
 :
@@ -628,9 +628,9 @@ const
 frontend
 :
 :
-CompilationInfo
+CompilationState
 &
-compilationInfo
+compilationState
 (
 )
 const
