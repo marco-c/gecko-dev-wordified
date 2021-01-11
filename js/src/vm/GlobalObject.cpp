@@ -4207,7 +4207,7 @@ JSObject
 *
 obj
 =
-NewSingletonObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 (
 cx
 clasp
