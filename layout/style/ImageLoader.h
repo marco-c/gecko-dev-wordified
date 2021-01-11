@@ -316,6 +316,18 @@ uint32_t
 /
 Used
 for
+bullets
+.
+RequiresReflowOnSizeAvailable
+=
+1u
+<
+<
+0
+/
+/
+Used
+for
 shapes
 .
 RequiresReflowOnFirstFrameCompleteAndLoadEventBlocking
@@ -323,7 +335,7 @@ RequiresReflowOnFirstFrameCompleteAndLoadEventBlocking
 1u
 <
 <
-0
+1
 /
 /
 Internal
@@ -341,7 +353,7 @@ IsBlockingLoadEvent
 1u
 <
 <
-1
+2
 }
 ;
 explicit
