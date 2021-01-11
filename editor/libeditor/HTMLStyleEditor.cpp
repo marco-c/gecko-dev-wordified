@@ -2318,7 +2318,7 @@ style
 to
 a
 part
-ot
+of
 it
 .
 if

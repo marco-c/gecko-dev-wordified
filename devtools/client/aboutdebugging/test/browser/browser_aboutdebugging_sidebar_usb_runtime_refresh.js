@@ -84,7 +84,7 @@ that
 USB
 runtimes
 are
-ot
+not
 disconnected
 on
 refresh

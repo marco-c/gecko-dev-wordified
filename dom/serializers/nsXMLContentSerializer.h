@@ -1768,10 +1768,9 @@ things
 just
 after
 *
-after
 the
 serialization
-ot
+of
 the
 start
 tag
@@ -1918,10 +1917,9 @@ things
 just
 after
 *
-after
 the
 serialization
-ot
+of
 the
 end
 tag

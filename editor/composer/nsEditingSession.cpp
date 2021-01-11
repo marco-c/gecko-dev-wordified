@@ -9741,7 +9741,7 @@ the
 /
 old
 editor
-ot
+to
 the
 window
 .

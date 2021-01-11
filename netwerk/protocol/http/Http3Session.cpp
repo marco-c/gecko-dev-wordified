@@ -11474,7 +11474,7 @@ aRestart
 When
 we
 need
-ot
+to
 restart
 transactions
 remove

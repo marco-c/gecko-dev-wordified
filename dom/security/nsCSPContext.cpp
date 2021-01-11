@@ -927,7 +927,7 @@ convert
 the
 internal
 policytype
-ot
+to
 the
 external
 policy

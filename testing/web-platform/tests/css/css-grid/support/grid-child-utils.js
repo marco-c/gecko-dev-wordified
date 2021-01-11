@@ -66,7 +66,7 @@ positions
 Prop
 is
 expected
-ot
+to
 be
 one
 of
