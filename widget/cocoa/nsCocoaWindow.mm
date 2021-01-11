@@ -6885,6 +6885,9 @@ Limit
 the
 workaround
 to
+non
+-
+tooltip
 popup
 windows
 because
@@ -6892,9 +6895,9 @@ only
 they
 need
 to
+/
+/
 override
-/
-/
 the
 "
 Assign
@@ -6912,6 +6915,8 @@ where
 the
 parent
 window
+/
+/
 is
 .
 return
@@ -6920,6 +6925,14 @@ mWindowType
 =
 =
 eWindowType_popup
+)
+&
+&
+(
+mPopupType
+!
+=
+ePopupTypeTooltip
 )
 &
 &
