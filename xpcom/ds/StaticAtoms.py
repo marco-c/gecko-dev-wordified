@@ -26162,22 +26162,6 @@ inner
     
 PseudoElementAtom
 (
-"
-PseudoElement_mozFocusOuter
-"
-"
-:
--
-moz
--
-focus
--
-outer
-"
-)
-    
-PseudoElementAtom
-(
         
 "
 PseudoElement_mozComplexControlWrapper
