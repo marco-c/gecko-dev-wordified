@@ -5607,6 +5607,17 @@ options
 CompilationInfo
 &
 compilationInfo
+InheritThis
+inheritThis
+/
+*
+=
+InheritThis
+:
+:
+No
+*
+/
 Scope
 *
 enclosingScope
@@ -5638,6 +5649,7 @@ forceStrictMode
 scopeContext
 (
 cx
+inheritThis
 enclosingScope
 enclosingEnv
 )
