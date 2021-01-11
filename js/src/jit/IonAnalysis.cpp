@@ -18154,7 +18154,7 @@ block
 }
 graph
 .
-removeBlockIncludingPhis
+removeBlock
 (
 block
 )

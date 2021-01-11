@@ -2468,11 +2468,6 @@ iter
 )
 ;
 void
-discardAllPhiOperands
-(
-)
-;
-void
 discardAllPhis
 (
 )
@@ -5238,14 +5233,6 @@ end
 }
 void
 removeBlock
-(
-MBasicBlock
-*
-block
-)
-;
-void
-removeBlockIncludingPhis
 (
 MBasicBlock
 *
