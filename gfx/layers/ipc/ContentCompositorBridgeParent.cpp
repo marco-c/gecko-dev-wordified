@@ -1151,6 +1151,12 @@ dummyId
 0
 }
 ;
+const
+bool
+useWebRender
+=
+false
+;
 RefPtr
 <
 APZCTreeManager
@@ -1161,6 +1167,7 @@ new
 APZCTreeManager
 (
 dummyId
+useWebRender
 )
 ;
 RefPtr
@@ -1173,7 +1180,7 @@ new
 APZUpdater
 (
 temp
-false
+useWebRender
 )
 ;
 tempUpdater

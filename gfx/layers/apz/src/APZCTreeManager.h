@@ -1107,11 +1107,12 @@ TreeBuildingState
 ;
 public
 :
-explicit
 APZCTreeManager
 (
 LayersId
 aRootLayersId
+bool
+aIsUsingWebRender
 )
 ;
 void
@@ -7924,6 +7925,9 @@ thread
 .
 float
 mDPI
+;
+bool
+mIsUsingWebRender
 ;
 #
 if

@@ -2656,6 +2656,11 @@ new
 APZCTreeManager
 (
 mRootLayerTreeID
+mOptions
+.
+UseWebRender
+(
+)
 )
 ;
 mApzSampler
