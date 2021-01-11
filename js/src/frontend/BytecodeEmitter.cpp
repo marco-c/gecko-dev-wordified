@@ -70626,6 +70626,17 @@ scriptData
 scriptIndex
 ]
 ;
+SourceExtent
+&
+extent
+=
+compilationState
+.
+scriptExtent
+[
+scriptIndex
+]
+;
 script
 .
 setHasSharedData
@@ -70695,8 +70706,6 @@ extent
 sourceStart
 =
 =
-script
-.
 extent
 .
 sourceStart
@@ -70714,8 +70723,6 @@ extent
 sourceEnd
 =
 =
-script
-.
 extent
 .
 sourceEnd
@@ -70733,8 +70740,6 @@ extent
 toStringStart
 =
 =
-script
-.
 extent
 .
 toStringStart
@@ -70752,8 +70757,6 @@ extent
 toStringEnd
 =
 =
-script
-.
 extent
 .
 toStringEnd
@@ -70771,8 +70774,6 @@ extent
 lineno
 =
 =
-script
-.
 extent
 .
 lineno
@@ -70790,8 +70791,6 @@ extent
 column
 =
 =
-script
-.
 extent
 .
 column
@@ -70815,6 +70814,14 @@ sc
 copyScriptFields
 (
 script
+)
+;
+sc
+-
+>
+copyScriptExtent
+(
+extent
 )
 ;
 }

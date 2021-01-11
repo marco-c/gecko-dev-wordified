@@ -5318,7 +5318,7 @@ toFunctionKey
 (
 stencil
 .
-scriptData
+scriptExtent
 [
 frontend
 :
@@ -5328,8 +5328,6 @@ CompilationInfo
 :
 TopLevelIndex
 ]
-.
-extent
 )
 ;
 auto
