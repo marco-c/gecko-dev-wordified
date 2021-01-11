@@ -34,12 +34,12 @@ EDIT
 tzdata
 version
 =
-2020d
+2020f
 const
 tzdata
 =
 "
-2020d
+2020f
 "
 ;
 if

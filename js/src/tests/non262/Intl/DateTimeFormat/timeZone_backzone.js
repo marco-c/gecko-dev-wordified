@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2020d
+2020f
 const
 tzMapper
 =
@@ -832,6 +832,17 @@ St_Helena
 Atlantic
 /
 St_Helena
+"
+"
+Australia
+/
+Currie
+"
+:
+"
+Australia
+/
+Currie
 "
 "
 Europe
