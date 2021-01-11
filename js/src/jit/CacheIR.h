@@ -5290,17 +5290,6 @@ ObjectGroup
 group
 )
 {
-MOZ_ASSERT
-(
-!
-group
--
->
-hasUncacheableProto
-(
-)
-)
-;
 guardGroup
 (
 obj
