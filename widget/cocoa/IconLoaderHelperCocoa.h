@@ -100,6 +100,15 @@ mozilla_widget_IconLoaderHelperCocoa_h
 define
 mozilla_widget_IconLoaderHelperCocoa_h
 #
+import
+<
+Cocoa
+/
+Cocoa
+.
+h
+>
+#
 include
 "
 mozilla

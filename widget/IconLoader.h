@@ -125,6 +125,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsIContentPolicy
 .
 h
