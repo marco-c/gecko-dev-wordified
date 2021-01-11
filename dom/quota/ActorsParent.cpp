@@ -15745,8 +15745,13 @@ AssertIsOnOwningThread
 ;
 for
 (
+NotNull
+<
+RefPtr
+<
 DirectoryLockImpl
-*
+>
+>
 blockingLock
 :
 mBlocking
