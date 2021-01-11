@@ -858,6 +858,14 @@ querySelectorAll
 command
 -
 button
+:
+not
+(
+.
+toolbox
+-
+error
+)
 "
 )
 ]
