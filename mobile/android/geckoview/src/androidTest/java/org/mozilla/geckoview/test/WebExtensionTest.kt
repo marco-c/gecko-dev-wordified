@@ -7403,7 +7403,13 @@ AllowOrDeny
 assertEquals
 (
 extension
+.
+id
 source
+!
+!
+.
+id
 )
 assertEquals
 (
