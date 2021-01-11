@@ -60625,11 +60625,7 @@ index
 this
 -
 >
-getCompilationInfo
-(
-)
-.
-stencil
+compilationState_
 .
 regExpData
 .
@@ -60667,11 +60663,7 @@ if
 this
 -
 >
-getCompilationInfo
-(
-)
-.
-stencil
+compilationState_
 .
 regExpData
 .
