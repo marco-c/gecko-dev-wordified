@@ -628,13 +628,10 @@ StyleList
 ;
 if
 (
-!
 styleList
 -
 >
-mListStyleImage
-.
-IsNone
+GetListStyleImage
 (
 )
 |
@@ -1514,7 +1511,6 @@ eNameOK
 }
 if
 (
-!
 frame
 -
 >
@@ -1523,9 +1519,7 @@ StyleList
 )
 -
 >
-mListStyleImage
-.
-IsNone
+GetListStyleImage
 (
 )
 )

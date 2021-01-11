@@ -3771,9 +3771,7 @@ StyleList
 )
 -
 >
-mListStyleImage
-.
-GetImageRequest
+GetListStyleImage
 (
 )
 ;
