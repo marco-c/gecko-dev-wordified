@@ -1018,9 +1018,13 @@ params
 openWindowInfo
 .
 parent
+{
+openWindowInfo
+:
 params
 .
 openWindowInfo
+}
 )
 ;
 }

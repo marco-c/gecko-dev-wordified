@@ -36597,7 +36597,11 @@ window_print
 aOpenWindowInfo
 .
 parent
+{
+openWindowInfo
+:
 aOpenWindowInfo
+}
 )
 ;
 if
@@ -36869,9 +36873,13 @@ aParams
 openWindowInfo
 .
 parent
+{
+openWindowInfo
+:
 aParams
 .
 openWindowInfo
+}
 )
 ;
 }
