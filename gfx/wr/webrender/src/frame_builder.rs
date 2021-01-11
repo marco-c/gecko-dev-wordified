@@ -646,6 +646,10 @@ pub
 max_target_size
 :
 i32
+pub
+force_invalidation
+:
+bool
 }
 /
 /
