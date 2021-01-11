@@ -737,6 +737,10 @@ False
 editable
 =
 False
+        
+legacy_resolver
+=
+False
     
 )
 :
@@ -804,13 +808,23 @@ append
 (
             
 (
+                
 name
+                
 url
+                
 method
+                
 requirements
+                
 optional
+                
 two_pass
+                
 editable
+                
+legacy_resolver
+            
 )
         
 )
@@ -1566,6 +1580,10 @@ False
 editable
 =
 False
+        
+legacy_resolver
+=
+False
     
 )
 :
@@ -1822,6 +1840,27 @@ command
 no
 -
 deps
+"
+]
+            
+if
+legacy_resolver
+:
+                
+command
++
+=
+[
+"
+-
+-
+use
+-
+deprecated
+=
+legacy
+-
+resolver
 "
 ]
             
@@ -3500,6 +3539,8 @@ optional
 two_pass
             
 editable
+            
+legacy_resolver
         
 )
 in
@@ -3547,6 +3588,10 @@ True
 editable
 =
 editable
+                    
+legacy_resolver
+=
+legacy_resolver
                 
 )
             
@@ -3581,6 +3626,10 @@ optional
 editable
 =
 editable
+                
+legacy_resolver
+=
+legacy_resolver
             
 )
         

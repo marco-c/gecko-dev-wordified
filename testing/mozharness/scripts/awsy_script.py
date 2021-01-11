@@ -1085,16 +1085,15 @@ action
 )
 :
         
-requirements_files
+requirements_file
 =
-[
-            
 os
 .
 path
 .
 join
 (
+            
 self
 .
 testdir
@@ -1106,21 +1105,30 @@ marionette_requirements
 .
 txt
 "
+        
 )
         
-]
+#
+marionette_requirements
+.
+txt
+must
+use
+the
+legacy
+resolver
+until
+bug
+1684969
+is
+resolved
+.
         
-for
-requirements_file
-in
-requirements_files
-:
-            
 self
 .
 register_virtualenv_module
 (
-                
+            
 requirements
 =
 [
@@ -1129,7 +1137,10 @@ requirements_file
 two_pass
 =
 True
-            
+legacy_resolver
+=
+True
+        
 )
         
 self
