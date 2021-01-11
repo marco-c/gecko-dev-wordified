@@ -918,9 +918,9 @@ PAGE_2
 )
 ;
 await
-promiseTabRestored
+promiseBrowserLoaded
 (
-newTab
+browser
 )
 ;
 ok
