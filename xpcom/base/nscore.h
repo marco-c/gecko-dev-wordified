@@ -1275,6 +1275,12 @@ MOZ_ASAN
 |
 defined
 (
+MOZ_TSAN
+)
+|
+|
+defined
+(
 MOZ_CODE_COVERAGE
 )
 |
