@@ -444,6 +444,9 @@ CreateBulletRenderer
 gfxContext
 &
 aRenderingContext
+nsDisplayListBuilder
+*
+aBuilder
 nsPoint
 aPt
 ImgDrawResult
@@ -457,14 +460,15 @@ PaintBullet
 gfxContext
 &
 aRenderingContext
+nsDisplayListBuilder
+*
+aBuilder
 nsPoint
 aPt
 const
 nsRect
 &
 aDirtyRect
-uint32_t
-aFlags
 bool
 aDisableSubpixelAA
 )
