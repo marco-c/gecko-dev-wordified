@@ -329,14 +329,6 @@ Value
 v
 )
 {
-MOZ_ASSERT
-(
-!
-isSingleton
-(
-)
-)
-;
 setSlot
 (
 slot

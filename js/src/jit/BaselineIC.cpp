@@ -16415,15 +16415,6 @@ pc
 if
 (
 obj
-&
-&
-!
-obj
--
->
-isSingleton
-(
-)
 )
 {
 templateObject
