@@ -194,7 +194,7 @@ Item
 /
 /
 /
-Create
+Creates
 a
 new
 InterleaveShortest

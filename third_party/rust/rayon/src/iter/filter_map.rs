@@ -218,7 +218,7 @@ P
 /
 /
 /
-Create
+Creates
 a
 new
 FilterMap
@@ -434,9 +434,6 @@ FilterMapConsumer
 p
 C
 P
-:
-'
-p
 >
 {
 base
@@ -781,9 +778,6 @@ FilterMapFolder
 p
 C
 P
-:
-'
-p
 >
 {
 base

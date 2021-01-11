@@ -143,7 +143,7 @@ IndexedParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 MinLen
@@ -863,7 +863,7 @@ IndexedParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 MaxLen

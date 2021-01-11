@@ -77,13 +77,13 @@ Hash
 /
 /
 /
-Create
+Creates
 an
 empty
 default
 collection
 and
-extend
+extends
 it
 .
 fn
@@ -139,7 +139,7 @@ collection
 /
 /
 /
-Collect
+Collects
 items
 from
 a
@@ -199,7 +199,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 items
 from
 a
@@ -266,7 +266,7 @@ into
 /
 /
 /
-Collect
+Collects
 items
 from
 a
@@ -351,7 +351,7 @@ into
 /
 /
 /
-Collect
+Collects
 items
 from
 a
@@ -417,7 +417,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 (
 key
 value
@@ -541,7 +541,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 (
 key
 value
@@ -654,7 +654,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 values
 from
 a
@@ -727,7 +727,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 values
 from
 a
@@ -789,7 +789,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 characters
 from
 a
@@ -839,7 +839,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 characters
 from
 a
@@ -899,7 +899,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 string
 slices
 from
@@ -960,7 +960,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 strings
 from
 a
@@ -1011,7 +1011,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 string
 slices
 from
@@ -1076,7 +1076,7 @@ par_iter
 /
 /
 /
-Collect
+Collects
 an
 arbitrary
 Cow

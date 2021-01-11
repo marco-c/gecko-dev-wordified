@@ -160,7 +160,7 @@ IndexedParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 ZipEq

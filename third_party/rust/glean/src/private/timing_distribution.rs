@@ -329,7 +329,6 @@ fn
 start
 (
 &
-mut
 self
 )
 -
@@ -367,7 +366,6 @@ fn
 stop_and_accumulate
 (
 &
-mut
 self
 id
 :
@@ -442,7 +440,6 @@ fn
 cancel
 (
 &
-mut
 self
 id
 :

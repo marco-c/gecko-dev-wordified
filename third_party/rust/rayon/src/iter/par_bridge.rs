@@ -46,9 +46,15 @@ thread
 yield_now
 ;
 use
+crate
+:
+:
 current_num_threads
 ;
 use
+crate
+:
+:
 iter
 :
 :
@@ -63,6 +69,9 @@ UnindexedProducer
 }
 ;
 use
+crate
+:
+:
 iter
 :
 :
@@ -444,7 +453,7 @@ Sized
 /
 /
 /
-Create
+Creates
 a
 bridge
 from
@@ -733,9 +742,6 @@ a
 Iter
 :
 Iterator
-+
-'
-a
 >
 {
 split_count

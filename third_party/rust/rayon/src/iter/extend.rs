@@ -76,7 +76,7 @@ Hash
 /
 /
 /
-Perform
+Performs
 a
 generic
 par_extend
@@ -356,7 +356,7 @@ list1
 /
 /
 /
-Compute
+Computes
 the
 total
 length
@@ -481,7 +481,7 @@ list
 /
 /
 /
-Extend
+Extends
 a
 binary
 heap
@@ -547,7 +547,7 @@ heap_reserve
 /
 /
 /
-Extend
+Extends
 a
 binary
 heap
@@ -629,7 +629,7 @@ heap_reserve
 /
 /
 /
-Extend
+Extends
 a
 B
 -
@@ -708,7 +708,7 @@ no_reserve
 /
 /
 /
-Extend
+Extends
 a
 B
 -
@@ -816,7 +816,7 @@ no_reserve
 /
 /
 /
-Extend
+Extends
 a
 B
 -
@@ -884,7 +884,7 @@ no_reserve
 /
 /
 /
-Extend
+Extends
 a
 B
 -
@@ -1019,7 +1019,7 @@ list
 /
 /
 /
-Extend
+Extends
 a
 hash
 map
@@ -1119,7 +1119,7 @@ map_reserve
 /
 /
 /
-Extend
+Extends
 a
 hash
 map
@@ -1283,7 +1283,7 @@ list
 /
 /
 /
-Extend
+Extends
 a
 hash
 set
@@ -1358,7 +1358,7 @@ set_reserve
 /
 /
 /
-Extend
+Extends
 a
 hash
 set
@@ -1482,7 +1482,7 @@ list
 /
 /
 /
-Extend
+Extends
 a
 linked
 list
@@ -1576,7 +1576,7 @@ list
 /
 /
 /
-Extend
+Extends
 a
 linked
 list
@@ -1687,7 +1687,7 @@ string
 /
 /
 /
-Extend
+Extends
 a
 string
 with
@@ -1829,7 +1829,7 @@ list
 /
 /
 /
-Extend
+Extends
 a
 string
 with
@@ -1934,12 +1934,8 @@ iter
 (
 )
 .
-flat_map
+flatten
 (
-|
-vec
-|
-vec
 )
 .
 map
@@ -1973,7 +1969,7 @@ len
 /
 /
 /
-Extend
+Extends
 a
 string
 with
@@ -2037,7 +2033,7 @@ string_reserve
 /
 /
 /
-Extend
+Extends
 a
 string
 with
@@ -2090,7 +2086,7 @@ string_reserve
 /
 /
 /
-Extend
+Extends
 a
 string
 with
@@ -2196,7 +2192,7 @@ list
 /
 /
 /
-Extend
+Extends
 a
 deque
 with
@@ -2259,7 +2255,7 @@ deque_reserve
 /
 /
 /
-Extend
+Extends
 a
 deque
 with
@@ -2367,7 +2363,7 @@ T
 /
 /
 /
-Extend
+Extends
 a
 vector
 with

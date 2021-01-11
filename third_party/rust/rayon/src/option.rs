@@ -76,6 +76,9 @@ std
 option
 /
 use
+crate
+:
+:
 iter
 :
 :
@@ -85,13 +88,13 @@ plumbing
 *
 ;
 use
+crate
+:
+:
 iter
 :
 :
 *
-;
-use
-std
 ;
 use
 std
@@ -710,9 +713,6 @@ a
 T
 :
 Sync
-+
-'
-a
 >
 {
 inner
@@ -1020,9 +1020,6 @@ a
 T
 :
 Send
-+
-'
-a
 >
 {
 inner

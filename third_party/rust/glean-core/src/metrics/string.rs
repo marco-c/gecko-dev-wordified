@@ -335,7 +335,7 @@ it
 is
 longer
 than
-MAX_STRING_LENGTH
+MAX_LENGTH_VALUE
 bytes
 and
 logs

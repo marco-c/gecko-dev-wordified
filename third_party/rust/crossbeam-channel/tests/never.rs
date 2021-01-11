@@ -8,18 +8,6 @@ never
 channel
 flavor
 .
-#
-[
-macro_use
-]
-extern
-crate
-crossbeam_channel
-;
-extern
-crate
-rand
-;
 use
 std
 :
@@ -44,6 +32,7 @@ crossbeam_channel
 :
 {
 never
+select
 tick
 unbounded
 }

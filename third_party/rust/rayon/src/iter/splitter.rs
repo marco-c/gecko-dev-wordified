@@ -1502,9 +1502,6 @@ SplitProducer
 a
 D
 S
-:
-'
-a
 >
 {
 data

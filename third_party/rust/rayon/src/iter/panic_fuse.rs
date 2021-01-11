@@ -294,7 +294,7 @@ ParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 PanicFuse
@@ -1711,6 +1711,10 @@ fuse
 '
 a
 Fuse
+<
+'
+_
+>
 )
 -
 >

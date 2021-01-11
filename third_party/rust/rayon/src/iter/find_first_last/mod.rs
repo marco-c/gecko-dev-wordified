@@ -557,9 +557,6 @@ FindConsumer
 '
 p
 P
-:
-'
-p
 >
 {
 find_op
@@ -1166,9 +1163,6 @@ FindFolder
 p
 T
 P
-:
-'
-p
 >
 {
 find_op

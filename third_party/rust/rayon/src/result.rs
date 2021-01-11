@@ -76,6 +76,9 @@ std
 result
 /
 use
+crate
+:
+:
 iter
 :
 :
@@ -85,6 +88,9 @@ plumbing
 *
 ;
 use
+crate
+:
+:
 iter
 :
 :
@@ -100,6 +106,9 @@ sync
 Mutex
 ;
 use
+crate
+:
+:
 option
 ;
 /
@@ -238,9 +247,6 @@ a
 T
 :
 Sync
-+
-'
-a
 >
 {
 inner
@@ -422,9 +428,6 @@ a
 T
 :
 Send
-+
-'
-a
 >
 {
 inner

@@ -23,7 +23,7 @@ flavors
 !
 1
 .
-after
+at
 -
 Channel
 that
@@ -107,11 +107,11 @@ channel
 .
 pub
 mod
-after
+array
 ;
 pub
 mod
-array
+at
 ;
 pub
 mod

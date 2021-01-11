@@ -143,7 +143,7 @@ ParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 Cloned

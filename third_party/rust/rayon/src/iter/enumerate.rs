@@ -156,7 +156,7 @@ IndexedParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 Enumerate

@@ -217,7 +217,7 @@ ParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 Filter
@@ -430,9 +430,6 @@ FilterConsumer
 p
 C
 P
-:
-'
-p
 >
 {
 base
@@ -765,9 +762,6 @@ FilterFolder
 p
 C
 P
-:
-'
-p
 >
 {
 base

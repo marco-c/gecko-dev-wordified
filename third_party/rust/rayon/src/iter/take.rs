@@ -143,7 +143,7 @@ IndexedParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 Take

@@ -163,7 +163,7 @@ ParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 WhileSome

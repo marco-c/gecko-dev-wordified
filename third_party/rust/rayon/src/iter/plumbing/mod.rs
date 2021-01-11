@@ -48,9 +48,7 @@ r
 ]
 for
 a
-high
--
-level
+general
 overview
 .
 /
@@ -91,6 +89,9 @@ README
 .
 md
 use
+crate
+:
+:
 join_context
 ;
 use
@@ -2735,6 +2736,7 @@ Splitter
 {
 splits
 :
+crate
 :
 :
 current_num_threads
@@ -2811,6 +2813,7 @@ cmp
 :
 max
 (
+crate
 :
 :
 current_num_threads
@@ -2956,7 +2959,7 @@ LengthSplitter
 /
 /
 /
-Create
+Creates
 a
 new
 splitter

@@ -287,7 +287,7 @@ Send
 /
 /
 /
-Take
+Takes
 only
 n
 repeats
@@ -367,7 +367,7 @@ n
 /
 /
 /
-Iterate
+Iterates
 tuples
 repeating
 the

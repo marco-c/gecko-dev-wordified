@@ -51,7 +51,7 @@ tt
 /
 /
 /
-Create
+Creates
 a
 parallel
 iterator
@@ -258,7 +258,7 @@ opt_len
 /
 /
 /
-Create
+Creates
 an
 indexed
 parallel

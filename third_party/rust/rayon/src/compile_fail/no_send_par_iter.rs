@@ -13,7 +13,6 @@ early
 *
 compile_fail
 E0277
-E0599
 use
 rayon
 :
@@ -113,7 +112,6 @@ map
 *
 compile_fail
 E0277
-E0599
 use
 rayon
 :
@@ -216,7 +214,6 @@ filter_map
 *
 compile_fail
 E0277
-E0599
 use
 rayon
 :

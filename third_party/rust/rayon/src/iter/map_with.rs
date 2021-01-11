@@ -242,7 +242,7 @@ ParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 MapWith
@@ -793,9 +793,6 @@ f
 P
 U
 F
-:
-'
-f
 >
 {
 base
@@ -1085,9 +1082,6 @@ f
 I
 U
 F
-:
-'
-f
 >
 {
 base
@@ -1441,9 +1435,6 @@ f
 C
 U
 F
-:
-'
-f
 >
 {
 base
@@ -1828,9 +1819,6 @@ f
 C
 U
 F
-:
-'
-f
 >
 {
 base
@@ -2407,7 +2395,7 @@ ParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 MapInit
@@ -2982,13 +2970,7 @@ MapInitProducer
 f
 P
 INIT
-:
-'
-f
 F
-:
-'
-f
 >
 {
 base
@@ -3370,13 +3352,7 @@ MapInitConsumer
 f
 C
 INIT
-:
-'
-f
 F
-:
-'
-f
 >
 {
 base

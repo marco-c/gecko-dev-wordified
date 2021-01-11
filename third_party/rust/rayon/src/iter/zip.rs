@@ -164,7 +164,7 @@ IndexedParallelIterator
 /
 /
 /
-Create
+Creates
 a
 new
 Zip

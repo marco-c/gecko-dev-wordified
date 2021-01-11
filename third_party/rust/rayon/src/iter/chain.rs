@@ -183,7 +183,7 @@ Item
 /
 /
 /
-Create
+Creates
 a
 new
 Chain

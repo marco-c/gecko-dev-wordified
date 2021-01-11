@@ -182,7 +182,7 @@ Clone
 /
 /
 /
-Create
+Creates
 a
 new
 Intersperse

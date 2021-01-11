@@ -104,11 +104,11 @@ Send
 /
 /
 /
-Consume
+Consumes
 one
 item
 and
-feed
+feeds
 it
 to
 one
@@ -228,7 +228,7 @@ false
 /
 /
 /
-Run
+Runs
 an
 unzip
 -
@@ -343,7 +343,7 @@ b
 /
 /
 /
-Run
+Runs
 an
 unzip
 -
@@ -582,7 +582,7 @@ Unzip
 /
 /
 /
-Unzip
+Unzips
 an
 IndexedParallelIterator
 into
@@ -1387,9 +1387,6 @@ b
 I
 OP
 FromB
-:
-'
-b
 >
 {
 base
@@ -1913,9 +1910,6 @@ UnzipConsumer
 '
 a
 OP
-:
-'
-a
 CA
 CB
 >
@@ -2334,9 +2328,6 @@ UnzipFolder
 '
 a
 OP
-:
-'
-a
 FA
 FB
 >
