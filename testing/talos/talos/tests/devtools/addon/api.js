@@ -499,7 +499,7 @@ damp
 -
 api
 ]
-Instanciate
+Retrieve
 the
 DAMP
 runner
@@ -514,7 +514,7 @@ n
 ;
 const
 {
-Damp
+damp
 }
 =
 require
@@ -526,14 +526,6 @@ test
 /
 damp
 "
-)
-;
-const
-damp
-=
-new
-Damp
-(
 )
 ;
 return
