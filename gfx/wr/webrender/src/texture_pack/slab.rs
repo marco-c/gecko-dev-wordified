@@ -65,10 +65,7 @@ unconditional_recursion
 )
 ]
 use
-crate
-:
-:
-atlas_allocator
+super
 :
 :
 {
