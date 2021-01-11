@@ -1652,7 +1652,7 @@ for
 const
 {
 thread
-isWorkerTarget
+isServiceWorker
 source
 id
 }
@@ -1669,7 +1669,7 @@ id
 makeSourceId
 (
 source
-isWorkerTarget
+isServiceWorker
 )
 ;
 if

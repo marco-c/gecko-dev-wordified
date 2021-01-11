@@ -319,7 +319,7 @@ ThreadId
 source
 :
 SourcePayload
-isWorkerTarget
+isServiceWorker
 :
 boolean
 /
