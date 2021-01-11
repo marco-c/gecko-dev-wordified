@@ -23667,7 +23667,7 @@ this
 )
 )
 {
-setNeedsNegativeZeroCheck
+setCanBeNegativeZero
 (
 false
 )
