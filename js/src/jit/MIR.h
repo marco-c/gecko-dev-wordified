@@ -3331,7 +3331,7 @@ prefer
 to
 /
 /
-recieve
+receive
 integer
 inputs
 we
