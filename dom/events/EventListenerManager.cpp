@@ -4933,10 +4933,10 @@ csp
 >
 GetAllowsInline
 (
-nsIContentPolicy
+nsIContentSecurityPolicy
 :
 :
-TYPE_SCRIPT
+SCRIPT_SRC_DIRECTIVE
 u
 "
 "

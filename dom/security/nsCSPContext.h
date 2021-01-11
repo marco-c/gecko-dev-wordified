@@ -862,8 +862,8 @@ violations
 void
 reportInlineViolation
 (
-nsContentPolicyType
-aContentType
+CSPDirective
+aDirective
 mozilla
 :
 :
