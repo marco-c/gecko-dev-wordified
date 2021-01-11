@@ -207,8 +207,6 @@ scopeData
 data
 .
 index
-.
-index
 ]
 ;
 }
