@@ -1875,6 +1875,11 @@ needsImplicitThis
 (
 )
 ;
+size_t
+countThisEnvironmentHops
+(
+)
+;
 MOZ_MUST_USE
 bool
 emitThisEnvironmentCallee
