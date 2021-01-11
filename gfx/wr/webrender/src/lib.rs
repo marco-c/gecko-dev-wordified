@@ -854,16 +854,6 @@ texture_cache
 mod
 tile_cache
 ;
-#
-[
-cfg
-(
-test
-)
-]
-mod
-tests
-;
 mod
 util
 ;
