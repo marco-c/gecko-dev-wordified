@@ -2002,7 +2002,6 @@ eVarietyRequestDefault
 continue
 ;
 }
-else
 if
 (
 filter
@@ -2022,7 +2021,6 @@ eVarietyResponseNetOriginal
 continue
 ;
 }
-else
 if
 (
 filter
