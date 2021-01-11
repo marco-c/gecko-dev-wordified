@@ -695,7 +695,7 @@ Atomic
 <
 int32_t
 >
-sCPUsForChildProcesses
+sMaxConcurrentIdleTasksInChildProcesses
 ;
 /
 /
