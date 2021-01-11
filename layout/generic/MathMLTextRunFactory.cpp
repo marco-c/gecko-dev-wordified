@@ -4602,6 +4602,13 @@ aMFR
 )
 ;
 }
+aTextRun
+-
+>
+ResetGlyphRuns
+(
+)
+;
 if
 (
 mergeNeeded
@@ -4727,13 +4734,6 @@ break
 the
 cache
 .
-aTextRun
--
->
-ResetGlyphRuns
-(
-)
-;
 aTextRun
 -
 >
