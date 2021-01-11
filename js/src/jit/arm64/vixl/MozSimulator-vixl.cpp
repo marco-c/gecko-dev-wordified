@@ -1132,8 +1132,9 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
+if
 (
+!
 js
 :
 :
@@ -1142,7 +1143,11 @@ CurrentThreadCanAccessRuntime
 rt
 )
 )
+{
+return
+nullptr
 ;
+}
 return
 cx
 -
