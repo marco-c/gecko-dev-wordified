@@ -2063,7 +2063,7 @@ then
 unregisters
 on
 a
-dummy
+sample
 scope
 .
 /
@@ -2119,7 +2119,7 @@ delay
 .
 async
 function
-wait_for_activation_on_dummy_scope
+wait_for_activation_on_sample_scope
 (
 t
 window_or_workerglobalscope

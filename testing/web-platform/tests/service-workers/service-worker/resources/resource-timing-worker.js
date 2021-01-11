@@ -21,7 +21,7 @@ url
 indexOf
 (
 '
-dummy
+sample
 .
 js
 '
@@ -120,7 +120,7 @@ respondWith
 fetch
 (
 '
-dummy
+sample
 .
 txt
 ?

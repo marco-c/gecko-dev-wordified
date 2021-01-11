@@ -313,7 +313,7 @@ return
 fetch
 (
 '
-dummy
+sample
 .
 txt
 '
@@ -353,7 +353,7 @@ testharness
 js
 '
 '
-dummy
+sample
 .
 txt
 '
@@ -488,7 +488,7 @@ length
 fetch
 (
 '
-dummy
+sample
 .
 txt
 '

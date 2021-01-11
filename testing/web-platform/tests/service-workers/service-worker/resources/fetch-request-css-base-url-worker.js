@@ -269,7 +269,7 @@ url
 "
 .
 /
-dummy
+sample
 .
 png
 "
@@ -345,7 +345,7 @@ pathname
 indexOf
 (
 '
-dummy
+sample
 .
 png
 '
