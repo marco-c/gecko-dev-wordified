@@ -15072,6 +15072,10 @@ cpu_count
 (
 )
         
+rc
+=
+0
+        
 with
 concurrent
 .
@@ -15133,6 +15137,41 @@ False
 )
                 
 )
+            
+for
+thread
+in
+concurrent
+.
+futures
+.
+as_completed
+(
+futures
+)
+:
+                
+if
+thread
+.
+result
+(
+)
+!
+=
+0
+:
+                    
+rc
+=
+thread
+.
+result
+(
+)
+        
+return
+rc
     
 Command
 (
