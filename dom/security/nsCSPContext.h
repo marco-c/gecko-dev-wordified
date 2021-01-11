@@ -840,8 +840,6 @@ nsAString
 &
 aNonce
 bool
-aIsPreload
-bool
 aSpecific
 bool
 aSendViolationReports
