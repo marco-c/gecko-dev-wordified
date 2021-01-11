@@ -3764,6 +3764,13 @@ elt
 CurrentNode
 (
 )
+mozilla
+:
+:
+dom
+:
+:
+FROM_PARSER_NETWORK
 )
 ;
 mOpQueue
