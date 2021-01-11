@@ -2159,7 +2159,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-dom_input_events_canSuspendInBCG_enabled_AtStartup
+dom_input_events_canSuspendInBCG_enabled
 (
 )
 )
@@ -2198,7 +2198,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-dom_input_events_canSuspendInBCG_enabled_AtStartup
+dom_input_events_canSuspendInBCG_enabled
 (
 )
 )
@@ -2235,7 +2235,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-dom_input_events_canSuspendInBCG_enabled_AtStartup
+dom_input_events_canSuspendInBCG_enabled
 (
 )
 )
@@ -2275,7 +2275,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-dom_input_events_canSuspendInBCG_enabled_AtStartup
+dom_input_events_canSuspendInBCG_enabled
 (
 )
 )
@@ -2325,7 +2325,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-dom_input_events_canSuspendInBCG_enabled_AtStartup
+dom_input_events_canSuspendInBCG_enabled
 (
 )
 )
