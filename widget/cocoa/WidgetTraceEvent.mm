@@ -399,7 +399,7 @@ postEvent
 NSEvent
 otherEventWithType
 :
-NSApplicationDefined
+NSEventTypeApplicationDefined
 location
 :
 NSMakePoint

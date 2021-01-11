@@ -2870,7 +2870,7 @@ return
 SynthesizeNativeMouseEvent
 (
 aPoint
-NSMouseMoved
+NSEventTypeMouseMoved
 0
 aObserver
 )

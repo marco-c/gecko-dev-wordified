@@ -660,7 +660,7 @@ return
 ;
 /
 /
-NSLeftMouseDown
+NSEventTypeLeftMouseDown
 case
 "
 linux
@@ -739,7 +739,7 @@ return
 ;
 /
 /
-NSMouseMoved
+NSEventTypeMouseMoved
 case
 "
 linux
@@ -818,7 +818,7 @@ return
 ;
 /
 /
-NSLeftMouseUp
+NSEventTypeLeftMouseUp
 case
 "
 linux

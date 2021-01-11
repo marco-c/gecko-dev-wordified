@@ -4192,7 +4192,7 @@ gRTLlayout
 mPlaceHolderString
 setAlignment
 :
-NSRightTextAlignment
+NSTextAlignmentRight
 range
 :
 NSMakeRange

@@ -7284,7 +7284,7 @@ param
 aNativeEvent
 A
 native
-NSKeyDown
+NSEventTypeKeyDown
 event
 .
 *
@@ -7342,7 +7342,7 @@ param
 aNativeEvent
 A
 native
-NSKeyUp
+NSEventTypeKeyUp
 event
 .
 *
@@ -7369,7 +7369,7 @@ param
 aNativeEvent
 A
 native
-NSFlagsChanged
+NSEventTypeFlagsChanged
 event
 .
 *
@@ -7726,7 +7726,7 @@ return
 flags
 &
 ~
-NSDeviceIndependentModifierFlagsMask
+NSEventModifierFlagDeviceIndependentFlagsMask
 )
 ;
 }
@@ -7740,7 +7740,7 @@ return
 (
 flags
 &
-NSDeviceIndependentModifierFlagsMask
+NSEventModifierFlagDeviceIndependentFlagsMask
 )
 ;
 }

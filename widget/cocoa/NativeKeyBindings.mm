@@ -1501,7 +1501,7 @@ type
 ]
 !
 =
-NSKeyDown
+NSEventTypeKeyDown
 )
 {
 MOZ_LOG

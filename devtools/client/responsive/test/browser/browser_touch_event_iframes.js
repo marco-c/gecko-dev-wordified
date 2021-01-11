@@ -1238,7 +1238,7 @@ return
 ;
 /
 /
-NSLeftMouseDown
+NSEventTypeLeftMouseDown
 case
 "
 linux
@@ -1317,7 +1317,7 @@ return
 ;
 /
 /
-NSLeftMouseUp
+NSEventTypeLeftMouseUp
 case
 "
 linux

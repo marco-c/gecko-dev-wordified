@@ -1001,7 +1001,7 @@ type
 ]
 =
 =
-NSApplicationDefined
+NSEventTypeApplicationDefined
 &
 &
 [
@@ -2701,7 +2701,7 @@ postEvent
 NSEvent
 otherEventWithType
 :
-NSApplicationDefined
+NSEventTypeApplicationDefined
 location
 :
 NSMakePoint
@@ -2801,7 +2801,7 @@ postEvent
 NSEvent
 otherEventWithType
 :
-NSApplicationDefined
+NSEventTypeApplicationDefined
 location
 :
 NSMakePoint
@@ -4117,7 +4117,7 @@ nextEvent
 NSApp
 nextEventMatchingMask
 :
-NSAnyEventMask
+NSEventMaskAny
 untilDate
 :
 waitUntil
@@ -4274,7 +4274,7 @@ cgs
 eventKind
 !
 =
-NSApplicationDefined
+NSEventTypeApplicationDefined
 )
 )
 )
@@ -5908,7 +5908,7 @@ currentEvent
 modifierFlags
 ]
 &
-NSDeviceIndependentModifierFlagsMask
+NSEventModifierFlagDeviceIndependentFlagsMask
 ;
 }
 nsCOMPtr

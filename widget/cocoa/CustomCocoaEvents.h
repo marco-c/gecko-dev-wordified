@@ -74,7 +74,7 @@ subtype
 field
 of
 *
-NSApplicationDefined
+NSEventTypeApplicationDefined
 type
 NSEvents
 .

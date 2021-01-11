@@ -2939,7 +2939,7 @@ modifierFlags
 ]
 =
 =
-NSCommandKeyMask
+NSEventModifierFlagCommand
 .
 char
 nsMenuBarX

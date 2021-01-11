@@ -861,9 +861,9 @@ mAllProcessMouseMonitor
 NSEvent
 addGlobalMonitorForEventsMatchingMask
 :
-NSLeftMouseDownMask
+NSEventMaskLeftMouseDown
 |
-NSOtherMouseDownMask
+NSEventMaskLeftMouseDown
 handler
 :
 ^

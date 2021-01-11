@@ -4291,7 +4291,7 @@ event
 NSApp
 nextEventMatchingMask
 :
-NSAnyEventMask
+NSEventMaskAny
 untilDate
 :
 distant_future
@@ -4376,7 +4376,7 @@ postEvent
 NSEvent
 otherEventWithType
 :
-NSApplicationDefined
+NSEventTypeApplicationDefined
 location
 :
 NSMakePoint

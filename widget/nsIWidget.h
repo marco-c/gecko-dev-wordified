@@ -9945,12 +9945,13 @@ g
 on
 Mac
 *
-NSMouseMoved
+NSEventTypeMouseMoved
 ;
 on
 Windows
 MOUSEEVENTF_MOVE
 MOUSEEVENTF_LEFTDOWN
+*
 etc
 )
 *

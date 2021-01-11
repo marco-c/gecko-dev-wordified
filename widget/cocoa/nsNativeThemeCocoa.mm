@@ -1689,7 +1689,7 @@ if
 size
 =
 =
-NSRegularControlSize
+NSControlSizeRegular
 )
 {
 tdi
@@ -1710,7 +1710,7 @@ NS_ASSERTION
 size
 =
 =
-NSSmallControlSize
+NSControlSizeSmall
 "
 We
 shouldn
@@ -2183,7 +2183,7 @@ if
 cocoaControlSize
 =
 =
-NSMiniControlSize
+NSControlSizeMini
 )
 return
 miniControlSize
@@ -2194,7 +2194,7 @@ if
 cocoaControlSize
 =
 =
-NSSmallControlSize
+NSControlSizeSmall
 )
 return
 smallControlSize
@@ -2220,7 +2220,7 @@ enumControlSize
 miniControlSize
 )
 return
-NSMiniControlSize
+NSControlSizeMini
 ;
 else
 if
@@ -2231,11 +2231,11 @@ enumControlSize
 smallControlSize
 )
 return
-NSSmallControlSize
+NSControlSizeSmall
 ;
 else
 return
-NSRegularControlSize
+NSControlSizeRegular
 ;
 }
 static
@@ -2252,7 +2252,7 @@ if
 aControlSize
 =
 =
-NSRegularControlSize
+NSControlSizeRegular
 )
 return
 "
@@ -2265,7 +2265,7 @@ if
 aControlSize
 =
 =
-NSSmallControlSize
+NSControlSizeSmall
 )
 return
 "
@@ -4970,7 +4970,7 @@ DrawCellWithSnapping
 NOTE
 :
 returns
-NSRegularControlSize
+NSControlSizeRegular
 if
 all
 values
@@ -5380,7 +5380,7 @@ sizes
 [
 EnumSizeForCocoaSize
 (
-NSMiniControlSize
+NSControlSizeMini
 )
 ]
 ;
@@ -5392,7 +5392,7 @@ sizes
 [
 EnumSizeForCocoaSize
 (
-NSSmallControlSize
+NSControlSizeSmall
 )
 ]
 ;
@@ -5404,7 +5404,7 @@ sizes
 [
 EnumSizeForCocoaSize
 (
-NSRegularControlSize
+NSControlSizeRegular
 )
 ]
 ;
@@ -5472,7 +5472,7 @@ snapTolerance
 NSControlSize
 controlSize
 =
-NSRegularControlSize
+NSControlSizeRegular
 ;
 size_t
 sizeIndex
@@ -8627,7 +8627,7 @@ DrawCellWithScaling
 mPushButtonCell
 cgContext
 inBoxRect
-NSRegularControlSize
+NSControlSizeRegular
 NSZeroSize
 NSMakeSize
 (
@@ -8673,7 +8673,7 @@ DrawCellWithScaling
 mHelpButtonCell
 cgContext
 inBoxRect
-NSRegularControlSize
+NSControlSizeRegular
 NSZeroSize
 kHelpButtonSize
 NULL
@@ -8732,7 +8732,7 @@ DrawCellWithScaling
 mDisclosureButtonCell
 cgContext
 inBoxRect
-NSRegularControlSize
+NSControlSizeRegular
 NSZeroSize
 kDisclosureButtonSize
 NULL
@@ -22720,7 +22720,7 @@ minimumSizes
 [
 EnumSizeForCocoaSize
 (
-NSMiniControlSize
+NSControlSizeMini
 )
 ]
 ;
