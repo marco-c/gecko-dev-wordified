@@ -348,6 +348,8 @@ if
 stencil
 .
 hasMemberInitializers
+(
+)
 )
 {
 xdrFlags
@@ -438,6 +440,8 @@ if
 stencil
 .
 hasLazyFunctionEnclosingScopeIndex
+(
+)
 )
 {
 xdrFlags
@@ -468,6 +472,8 @@ if
 stencil
 .
 wasFunctionEmitted
+(
+)
 )
 {
 xdrFlags
@@ -490,6 +496,8 @@ if
 stencil
 .
 allowRelazify
+(
+)
 )
 {
 xdrFlags
@@ -512,6 +520,8 @@ if
 stencil
 .
 hasSharedData
+(
+)
 )
 {
 xdrFlags
@@ -865,9 +875,9 @@ WasFunctionEmitted
 {
 stencil
 .
-wasFunctionEmitted
-=
-true
+setWasFunctionEmitted
+(
+)
 ;
 }
 if
@@ -890,9 +900,9 @@ AllowRelazify
 {
 stencil
 .
-allowRelazify
-=
-true
+setAllowRelazify
+(
+)
 ;
 }
 if
@@ -915,9 +925,9 @@ HasSharedData
 {
 stencil
 .
-hasSharedData
-=
-true
+setHasSharedData
+(
+)
 ;
 }
 }

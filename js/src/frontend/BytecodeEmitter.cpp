@@ -70628,9 +70628,9 @@ scriptIndex
 ;
 script
 .
-hasSharedData
-=
-true
+setHasSharedData
+(
+)
 ;
 /
 /
