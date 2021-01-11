@@ -174,18 +174,17 @@ MOZ_DIAGNOSTIC_ASSERT
 aBodyDir
 )
 ;
-nsresult
-rv
-;
 #
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
+{
 nsCOMPtr
 <
 nsIFile
 >
 parentFile
 ;
+nsresult
 rv
 =
 aBodyDir
@@ -245,6 +244,7 @@ _ns
 )
 )
 ;
+}
 #
 endif
 bool
@@ -583,7 +583,7 @@ result
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 }
