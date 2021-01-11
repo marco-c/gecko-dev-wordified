@@ -1734,7 +1734,7 @@ color8_glyphs
 :
 AllocatorList
 <
-BucketedShelfAllocator
+ShelfAllocator
 TextureParameters
 >
 }
