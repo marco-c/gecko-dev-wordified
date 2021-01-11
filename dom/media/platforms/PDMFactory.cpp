@@ -3985,6 +3985,9 @@ VP8
 )
 ;
 }
+#
+ifdef
+MOZ_AV1
 if
 (
 AOMDecoder
@@ -4008,6 +4011,8 @@ AV1
 )
 ;
 }
+#
+endif
 if
 (
 TheoraDecoder
