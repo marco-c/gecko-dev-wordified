@@ -840,13 +840,7 @@ mod
 storage
 ;
 mod
-atlas_allocator
-;
-mod
-guillotine_allocator
-;
-mod
-slab_allocator
+texture_pack
 ;
 mod
 texture_cache
