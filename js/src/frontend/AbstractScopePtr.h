@@ -734,12 +734,6 @@ hasEnvironment
 )
 const
 ;
-uint32_t
-nextFrameSlot
-(
-)
-const
-;
 /
 /
 Valid
