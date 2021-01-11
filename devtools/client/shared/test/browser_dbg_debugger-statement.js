@@ -659,11 +659,6 @@ onPaused
 /
 Now
 attach
-and
-resume
-.
-.
-.
 const
 threadFront
 =
@@ -671,13 +666,6 @@ await
 targetFront
 .
 attachThread
-(
-)
-;
-await
-threadFront
-.
-resume
 (
 )
 ;
