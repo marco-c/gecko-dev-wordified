@@ -384,15 +384,6 @@ line_height
 "
 security
 .
-ssl
-.
-errorReporting
-.
-automatic
-"
-"
-security
-.
 tls
 .
 version
