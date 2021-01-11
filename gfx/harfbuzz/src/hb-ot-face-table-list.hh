@@ -413,11 +413,6 @@ ifndef
 HB_NO_STYLE
 HB_OT_TABLE
 (
-AAT
-fdsc
-)
-HB_OT_TABLE
-(
 OT
 STAT
 )
@@ -623,11 +618,6 @@ HB_OT_TABLE
 (
 AAT
 trak
-)
-HB_OT_TABLE
-(
-AAT
-lcar
 )
 HB_OT_TABLE
 (

@@ -17,9 +17,7 @@ chdir
 (
 os
 .
-environ
-.
-get
+getenv
 (
 '
 srcdir
@@ -36,11 +34,21 @@ __file__
 )
 HBHEADERS
 =
+[
 os
 .
-environ
+path
 .
-get
+basename
+(
+x
+)
+for
+x
+in
+os
+.
+getenv
 (
 '
 HBHEADERS
@@ -52,6 +60,7 @@ HBHEADERS
 split
 (
 )
+]
 or
 \
 	
@@ -90,11 +99,21 @@ h
 ]
 HBSOURCES
 =
+[
 os
 .
-environ
+path
 .
-get
+basename
+(
+x
+)
+for
+x
+in
+os
+.
+getenv
 (
 '
 HBSOURCES
@@ -106,6 +125,7 @@ HBSOURCES
 split
 (
 )
+]
 or
 \
 	

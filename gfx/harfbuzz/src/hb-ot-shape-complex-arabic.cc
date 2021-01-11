@@ -1703,14 +1703,6 @@ nullptr
 ;
 /
 *
-And
-undo
-here
-.
-*
-/
-/
-*
 The
 spec
 includes

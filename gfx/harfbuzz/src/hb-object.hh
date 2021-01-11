@@ -882,6 +882,7 @@ operator
 =
 =
 (
+const
 hb_user_data_key_t
 *
 other_key
@@ -900,6 +901,7 @@ operator
 =
 =
 (
+const
 hb_user_data_item_t
 &
 other

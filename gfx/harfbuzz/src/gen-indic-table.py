@@ -274,7 +274,7 @@ data
 {
 }
 for
-f
+_
 in
 files
 ]
@@ -284,7 +284,7 @@ values
 {
 }
 for
-f
+_
 in
 files
 ]
@@ -617,12 +617,6 @@ data
 combined
 del
 combined
-num
-=
-len
-(
-data
-)
 #
 Move
 the
@@ -1781,12 +1775,6 @@ start
 1
 data
 )
-			
-last
-=
-start
--
-1
 		
 else
 :

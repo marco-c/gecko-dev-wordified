@@ -1057,7 +1057,6 @@ hb_item_type
 <
 BaseIterator
 >
-&
 _
 :
 +

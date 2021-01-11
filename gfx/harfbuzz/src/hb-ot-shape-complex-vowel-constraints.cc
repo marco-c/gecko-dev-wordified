@@ -1789,6 +1789,9 @@ case
 case
 0x0DDDu
 :
+case
+0x0DDEu
+:
 matched
 =
 true

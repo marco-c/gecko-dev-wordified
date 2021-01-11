@@ -18,9 +18,7 @@ builddir
 =
 os
 .
-environ
-.
-get
+getenv
 (
 '
 builddir
@@ -38,9 +36,7 @@ libs
 =
 os
 .
-environ
-.
-get
+getenv
 (
 '
 libs

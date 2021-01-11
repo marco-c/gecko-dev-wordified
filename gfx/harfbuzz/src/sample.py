@@ -226,10 +226,6 @@ pull
 /
 271
 #
-if
-False
-:
-	
 #
 If
 you
@@ -241,7 +237,6 @@ cluster
 values
 reflecting
 Python
-	
 #
 string
 indices
@@ -254,11 +249,10 @@ to
 add
 text
 to
-	
 #
 buffer
 :
-	
+#
 hb
 .
 buffer_add_utf8
@@ -278,7 +272,6 @@ utf
 -
 1
 )
-	
 #
 Otherwise
 then
@@ -288,7 +281,6 @@ both
 narrow
 and
 wide
-	
 #
 Python
 builds
@@ -307,7 +299,7 @@ skip
 it
 )
 :
-elif
+if
 sys
 .
 maxunicode
