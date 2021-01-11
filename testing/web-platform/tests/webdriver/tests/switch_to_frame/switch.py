@@ -9,7 +9,7 @@ protocol
 from
 webdriver
 import
-StaleElementReferenceException
+NoSuchElementException
 from
 webdriver
 .
@@ -635,7 +635,7 @@ pytest
 .
 raises
 (
-StaleElementReferenceException
+NoSuchElementException
 )
 :
         
@@ -648,7 +648,7 @@ pytest
 .
 raises
 (
-StaleElementReferenceException
+NoSuchElementException
 )
 :
         
