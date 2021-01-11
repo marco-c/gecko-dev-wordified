@@ -255,6 +255,10 @@ otherwise
 BOOL
 mImmediateDescendantsOnly
 ;
+NSString
+*
+mSearchText
+;
 }
 -
 (
