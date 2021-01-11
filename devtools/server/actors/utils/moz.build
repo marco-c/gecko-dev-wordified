@@ -109,6 +109,13 @@ map
 js
 "
 "
+capture
+-
+screenshot
+.
+js
+"
+"
 css
 -
 grid
