@@ -376,7 +376,7 @@ mode
 >
 static
 XDRResult
-Scope
+ScopeData
 (
 XDRState
 <
@@ -402,7 +402,7 @@ ScopeT
 >
 static
 XDRResult
-ScopeData
+ScopeSpecificData
 (
 XDRState
 <
