@@ -1079,6 +1079,16 @@ moxRequired
 override
 -
 (
+NSNumber
+*
+)
+moxElementBusy
+;
+/
+/
+override
+-
+(
 id
 )
 moxEditableAncestor

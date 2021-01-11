@@ -755,6 +755,17 @@ moxRequired
 ;
 /
 /
+AXElementBusy
+-
+(
+NSNumber
+*
+_Nullable
+)
+moxElementBusy
+;
+/
+/
 AXDOMIdentifier
 -
 (
