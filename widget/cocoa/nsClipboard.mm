@@ -1310,6 +1310,9 @@ stringData
 getBytes
 :
 clipboardDataPtr
+length
+:
+dataLength
 ]
 ;
 /
@@ -1562,6 +1565,9 @@ pasteboardData
 getBytes
 :
 clipboardDataPtr
+length
+:
+dataLength
 ]
 ;
 nsCOMPtr
