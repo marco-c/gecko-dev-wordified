@@ -11171,9 +11171,7 @@ nameId
 this
 -
 >
-compilationInfo_
-.
-stencil
+compilationState_
 .
 getParserAtomAt
 (

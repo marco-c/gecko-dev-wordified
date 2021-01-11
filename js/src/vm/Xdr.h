@@ -1701,7 +1701,7 @@ virtual
 frontend
 :
 :
-ParserAtomVectorBuilder
+ParserAtomSpanBuilder
 &
 frontendAtoms
 (
@@ -3457,7 +3457,7 @@ hasFinishedAtomTable_
 frontend
 :
 :
-ParserAtomVectorBuilder
+ParserAtomSpanBuilder
 &
 frontendAtoms
 (
@@ -3548,7 +3548,7 @@ false
 frontend
 :
 :
-ParserAtomVectorBuilder
+ParserAtomSpanBuilder
 *
 parserAtomBuilder_
 =

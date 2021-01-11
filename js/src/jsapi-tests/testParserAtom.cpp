@@ -212,9 +212,6 @@ alloc
 512
 )
 ;
-ParserAtomVector
-atoms
-;
 ParserAtomsTable
 atomTable
 (
@@ -225,7 +222,6 @@ runtime
 (
 )
 alloc
-atoms
 )
 ;
 const
@@ -512,9 +508,6 @@ alloc
 512
 )
 ;
-ParserAtomVector
-atoms
-;
 ParserAtomsTable
 atomTable
 (
@@ -525,7 +518,6 @@ runtime
 (
 )
 alloc
-atoms
 )
 ;
 char16_t
@@ -859,9 +851,6 @@ alloc
 512
 )
 ;
-ParserAtomVector
-atoms
-;
 ParserAtomsTable
 atomTable
 (
@@ -872,7 +861,6 @@ runtime
 (
 )
 alloc
-atoms
 )
 ;
 const
@@ -1230,9 +1218,6 @@ alloc
 512
 )
 ;
-ParserAtomVector
-atoms
-;
 ParserAtomsTable
 atomTable
 (
@@ -1243,7 +1228,6 @@ runtime
 (
 )
 alloc
-atoms
 )
 ;
 auto
