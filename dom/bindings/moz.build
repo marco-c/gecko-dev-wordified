@@ -852,6 +852,13 @@ h
 "
 test
 /
+TestInterfaceMaplikeJSObject
+.
+h
+"
+"
+test
+/
 TestInterfaceMaplikeObject
 .
 h
@@ -914,6 +921,13 @@ cpp
 test
 /
 TestInterfaceMaplike
+.
+cpp
+"
+"
+test
+/
+TestInterfaceMaplikeJSObject
 .
 cpp
 "
