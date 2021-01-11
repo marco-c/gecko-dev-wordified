@@ -450,6 +450,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+MallocSizeOf
+)
+]
 pub
 struct
 FreeListHandle
@@ -963,6 +970,7 @@ PhantomData
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 #
@@ -1022,6 +1030,7 @@ T
 derive
 (
 Debug
+MallocSizeOf
 )
 ]
 #
