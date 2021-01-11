@@ -2082,7 +2082,7 @@ headers
 .
 pub
 fn
-parse_with_cors_anonymous
+parse_with_cors_mode
 <
 '
 i
@@ -2105,6 +2105,9 @@ i
 '
 t
 >
+cors_mode
+:
+CorsMode
 )
 -
 >
@@ -2129,10 +2132,7 @@ parse_with_cors_mode
 (
 context
 input
-CorsMode
-:
-:
-Anonymous
+cors_mode
 )
 ?
 )
