@@ -307,6 +307,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -5472,7 +5479,6 @@ AssociateRequestToFrame
 (
 req
 mFrame
-0
 )
 ;
 }
