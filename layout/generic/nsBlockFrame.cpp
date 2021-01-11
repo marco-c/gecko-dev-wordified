@@ -56364,11 +56364,12 @@ IsNone
 )
 &
 &
-!
 list
 -
 >
-GetListStyleImage
+mListStyleImage
+.
+IsNone
 (
 )
 &
