@@ -135,7 +135,7 @@ GeneratedSourceData
 {
 const
 {
-isServiceWorker
+isWorkerTarget
 }
 =
 threadFront
@@ -211,7 +211,7 @@ actor
 makeSourceId
 (
 source
-isServiceWorker
+isWorkerTarget
 )
 )
 ;
@@ -309,7 +309,7 @@ thread
 threadFront
 .
 actor
-isServiceWorker
+isWorkerTarget
 source
 }
 ;
@@ -427,7 +427,7 @@ makeSourceId
 source
 :
 SourcePayload
-isServiceWorker
+isWorkerTarget
 :
 boolean
 )
@@ -469,19 +469,17 @@ exception
 for
 sources
 from
-service
 workers
 where
 there
 may
 be
 multiple
-service
-/
-/
 worker
 threads
 running
+/
+/
 at
 the
 same
@@ -492,8 +490,6 @@ different
 versions
 of
 the
-/
-/
 same
 URL
 .
@@ -504,7 +500,7 @@ url
 &
 &
 !
-isServiceWorker
+isWorkerTarget
 ?
 sourceURL
 -
