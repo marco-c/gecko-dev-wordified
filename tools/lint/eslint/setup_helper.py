@@ -1267,22 +1267,30 @@ f
 expected_modules
 =
 sections
-[
+.
+get
+(
 "
 dependencies
 "
-]
+{
+}
+)
         
 expected_modules
 .
 update
 (
 sections
-[
+.
+get
+(
 "
 devDependencies
 "
-]
+{
+}
+)
 )
     
 #
@@ -1364,11 +1372,15 @@ load
 (
 f
 )
-[
+.
+get
+(
 "
 dependencies
 "
-]
+{
+}
+)
 )
     
 #
@@ -1452,11 +1464,15 @@ load
 (
 f
 )
-[
+.
+get
+(
 "
 dependencies
 "
-]
+{
+}
+)
 )
     
 return
