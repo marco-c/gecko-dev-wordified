@@ -283,15 +283,6 @@ TimeStamp
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Uptime
-.
-h
-"
 /
 /
 Estimate
