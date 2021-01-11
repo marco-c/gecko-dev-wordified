@@ -1487,6 +1487,9 @@ extent
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 Directives
 directives
 GeneratorKind
@@ -1527,6 +1530,10 @@ FunctionAsyncKind
 :
 :
 AsyncFunction
+)
+compilationState_
+(
+compilationState
 )
 atom_
 (
@@ -2399,9 +2406,7 @@ functionStencil
 const
 {
 return
-compilationInfo_
-.
-stencil
+compilationState_
 .
 scriptData
 [

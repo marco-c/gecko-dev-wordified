@@ -32551,9 +32551,7 @@ stencil
 .
 MOZ_ASSERT
 (
-compilationInfo
-.
-stencil
+compilationState
 .
 scriptData
 .
@@ -32571,9 +32569,7 @@ TopLevelIndex
 if
 (
 !
-compilationInfo
-.
-stencil
+compilationState
 .
 scriptData
 .

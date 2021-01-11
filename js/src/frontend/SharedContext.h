@@ -2041,6 +2041,10 @@ friend
 struct
 GCThingList
 ;
+CompilationState
+&
+compilationState_
+;
 /
 /
 If
@@ -2651,6 +2655,9 @@ extent
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 Directives
 directives
 GeneratorKind

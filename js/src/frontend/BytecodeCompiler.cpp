@@ -3984,6 +3984,7 @@ compilationInfo
 .
 rewind
 (
+compilationState_
 startObj
 )
 ;
@@ -4088,9 +4089,7 @@ topLevel
 stencil
 MOZ_ASSERT
 (
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 .
@@ -4108,9 +4107,7 @@ TopLevelIndex
 if
 (
 !
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 .
@@ -4424,9 +4421,7 @@ topLevel
 stencil
 MOZ_ASSERT
 (
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 .
@@ -4444,9 +4439,7 @@ TopLevelIndex
 if
 (
 !
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 .
@@ -4752,6 +4745,7 @@ compilationInfo
 .
 getRewindToken
 (
+compilationState_
 )
 ;
 /
@@ -5037,9 +5031,7 @@ line
 and
 column
 .
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 [
@@ -5187,9 +5179,7 @@ index
 ;
 MOZ_ASSERT
 (
-compilationInfo
-.
-stencil
+compilationState_
 .
 scriptData
 [
@@ -6346,9 +6336,7 @@ isRelazifiableAfterDelazify
 (
 )
 ;
-compilationInfo
-.
-stencil
+compilationState
 .
 scriptData
 [

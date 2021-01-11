@@ -2616,6 +2616,7 @@ compilationInfo_
 .
 getRewindToken
 (
+compilationState_
 )
 ;
 return
@@ -2642,6 +2643,7 @@ compilationInfo_
 .
 rewind
 (
+compilationState_
 m
 .
 token
