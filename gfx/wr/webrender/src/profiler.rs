@@ -286,7 +286,7 @@ use
 crate
 :
 :
-debug_render
+renderer
 :
 :
 DebugRenderer
