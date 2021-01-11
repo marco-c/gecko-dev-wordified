@@ -8102,12 +8102,6 @@ nsILoadInfo
 secCheckLoadInfo
 =
 new
-mozilla
-:
-:
-net
-:
-:
 LoadInfo
 (
 loadingPrincipal
@@ -8125,7 +8119,7 @@ SEC_ONLY_FOR_EXPLICIT_CONTENTSEC_CHECK
 nsIContentPolicy
 :
 :
-TYPE_SAVEAS_DOWNLOAD
+TYPE_FETCH
 )
 ;
 int16_t
