@@ -589,11 +589,10 @@ preventDefault
 }
 )
 ;
+async
 function
-*
 test
 (
-testDriver
 )
 {
 var
@@ -639,8 +638,8 @@ of
 '
 content
 '
-yield
-synthesizeNativeWheelAndWaitForWheelEvent
+await
+promiseNativeWheelAndWaitForWheelEvent
 (
 content
 100
@@ -648,7 +647,6 @@ content
 0
 -
 5
-testDriver
 )
 ;
 }
@@ -784,10 +782,7 @@ waitUntilApzStable
 .
 then
 (
-runContinuation
-(
 test
-)
 )
 .
 then
