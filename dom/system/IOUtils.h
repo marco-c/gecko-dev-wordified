@@ -513,7 +513,7 @@ nsAString
 &
 aPath
 const
-nsAString
+nsACString
 &
 aString
 const
