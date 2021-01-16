@@ -3010,9 +3010,9 @@ scriptData
 scriptIndex
 ]
 ;
-SourceExtent
+ScriptStencilExtra
 &
-extent
+scriptExtra
 =
 compilationInfo
 .
@@ -3022,8 +3022,6 @@ scriptExtra
 [
 scriptIndex
 ]
-.
-extent
 ;
 script
 .
@@ -3261,6 +3259,8 @@ setHasSharedData
 )
 ;
 }
+scriptExtra
+.
 extent
 .
 sourceStart
@@ -3271,6 +3271,8 @@ extent
 .
 source_start
 ;
+scriptExtra
+.
 extent
 .
 sourceEnd
@@ -3281,6 +3283,8 @@ extent
 .
 source_end
 ;
+scriptExtra
+.
 extent
 .
 toStringStart
@@ -3291,6 +3295,8 @@ extent
 .
 to_string_start
 ;
+scriptExtra
+.
 extent
 .
 toStringEnd
@@ -3301,6 +3307,8 @@ extent
 .
 to_string_end
 ;
+scriptExtra
+.
 extent
 .
 lineno
@@ -3311,6 +3319,8 @@ extent
 .
 lineno
 ;
+scriptExtra
+.
 extent
 .
 column
@@ -3369,7 +3379,7 @@ smooshScript
 fun_flags
 )
 ;
-script
+scriptExtra
 .
 nargs
 =

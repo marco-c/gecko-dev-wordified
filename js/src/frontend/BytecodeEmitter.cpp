@@ -70701,9 +70701,9 @@ isFunction
 }
 else
 {
-SourceExtent
+ScriptStencilExtra
 &
-extent
+scriptExtra
 =
 compilationState
 .
@@ -70711,8 +70711,6 @@ scriptExtra
 [
 scriptIndex
 ]
-.
-extent
 ;
 sc
 -
@@ -70725,9 +70723,9 @@ script
 sc
 -
 >
-copyScriptExtent
+copyScriptExtraFields
 (
-extent
+scriptExtra
 )
 ;
 }
