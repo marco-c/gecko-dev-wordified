@@ -65,7 +65,7 @@ automatically
 generated
 by
 the
-GeneratePureDOMFunctions
+GenerateDataFromWebIdls
 .
 py
 /

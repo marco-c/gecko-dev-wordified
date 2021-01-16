@@ -153,6 +153,15 @@ js
 "
 webidl
 -
+deprecated
+-
+list
+.
+js
+"
+"
+webidl
+-
 pure
 -
 allowlist
