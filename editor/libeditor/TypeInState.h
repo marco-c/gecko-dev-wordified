@@ -589,6 +589,17 @@ aCommand
 )
 ;
 void
+PostHandleSelectionChangeCommand
+(
+const
+HTMLEditor
+&
+aHTMLEditor
+Command
+aCommand
+)
+;
+void
 OnSelectionChange
 (
 dom
