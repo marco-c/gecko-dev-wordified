@@ -121,7 +121,6 @@ api
 github
 .
 com
-/
 "
         
 repo_url
