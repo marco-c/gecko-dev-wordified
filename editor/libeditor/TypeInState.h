@@ -198,6 +198,9 @@ nsINode
 namespace
 mozilla
 {
+class
+HTMLEditor
+;
 namespace
 dom
 {
@@ -602,12 +605,10 @@ aCommand
 void
 OnSelectionChange
 (
-dom
-:
-:
-Selection
+const
+HTMLEditor
 &
-aSelection
+aHTMLEditor
 int16_t
 aReason
 )

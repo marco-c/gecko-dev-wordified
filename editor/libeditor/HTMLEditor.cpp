@@ -2139,7 +2139,7 @@ typeInState
 OnSelectionChange
 (
 *
-aSelection
+this
 aReason
 )
 ;
