@@ -1518,9 +1518,13 @@ keyword
 site
 .
 title
-providesSearchMode
+keywordOffer
 :
-true
+UrlbarUtils
+.
+KEYWORD_OFFER
+.
+SHOW
 engine
 :
 engine

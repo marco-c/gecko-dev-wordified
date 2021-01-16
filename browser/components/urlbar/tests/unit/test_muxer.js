@@ -1182,9 +1182,13 @@ query
 "
 moz
 "
-providesSearchMode
+keywordOffer
 :
-true
+UrlbarUtils
+.
+KEYWORD_OFFER
+.
+SHOW
 keyword
 :
 "
