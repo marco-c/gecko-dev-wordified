@@ -949,9 +949,7 @@ dialogs
 =
 tabDialogBox
 .
-getTabDialogManager
-(
-)
+_dialogManager
 .
 _dialogs
 .

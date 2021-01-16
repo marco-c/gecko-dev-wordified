@@ -1098,9 +1098,7 @@ getTabDialogBox
 newTabBrowser
 )
 .
-getTabDialogManager
-(
-)
+_dialogManager
 .
 _dialogs
 .
