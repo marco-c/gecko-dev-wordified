@@ -5276,6 +5276,16 @@ length
 ;
 }
 ;
+MOZ_TRY
+(
+xdr
+-
+>
+align32
+(
+)
+)
+;
 if
 (
 mode
