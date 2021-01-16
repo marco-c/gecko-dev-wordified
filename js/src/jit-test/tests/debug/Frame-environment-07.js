@@ -205,9 +205,6 @@ value
 )
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
@@ -235,9 +232,6 @@ value
 43
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
@@ -287,9 +281,6 @@ block
 )
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
@@ -341,9 +332,6 @@ loop
 )
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
@@ -395,9 +383,6 @@ err
 )
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
@@ -431,9 +416,6 @@ done
 true
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 result
