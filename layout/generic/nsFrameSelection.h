@@ -1616,7 +1616,7 @@ this
 line
 *
 /
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleClick
 (
@@ -1701,6 +1701,14 @@ to
 aFrame
 *
 /
+/
+/
+TODO
+:
+replace
+with
+MOZ_CAN_RUN_SCRIPT
+.
 MOZ_CAN_RUN_SCRIPT
 void
 HandleDrag
@@ -2428,7 +2436,7 @@ of
 drag
 *
 /
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetDragState
 (
@@ -4007,7 +4015,6 @@ bool
 HasDelayedCaretData
 (
 )
-const
 {
 return
 mDelayedMouseEvent
@@ -4019,7 +4026,6 @@ bool
 IsShiftDownInDelayedCaretData
 (
 )
-const
 {
 NS_ASSERTION
 (
@@ -4045,7 +4051,6 @@ uint32_t
 GetClickCountInDelayedCaretData
 (
 )
-const
 {
 NS_ASSERTION
 (
@@ -4071,7 +4076,6 @@ bool
 MouseDownRecorded
 (
 )
-const
 {
 return
 !

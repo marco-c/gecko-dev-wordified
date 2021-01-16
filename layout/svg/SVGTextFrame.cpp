@@ -23993,11 +23993,8 @@ TextElementCharIndex
 (
 )
 ;
-const
-RefPtr
-<
 nsIContent
->
+*
 content
 =
 chit

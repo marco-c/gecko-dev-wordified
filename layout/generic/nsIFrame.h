@@ -630,15 +630,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventForwards
 .
 h
@@ -16206,7 +16197,6 @@ uint32_t
 aSelectFlags
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 PeekBackwardAndForward
 (
@@ -16265,7 +16255,6 @@ nullptr
 /
 Selection
 Methods
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 HandlePress
 (
@@ -16320,7 +16309,6 @@ nsEventStatus
 aEventStatus
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 HandleRelease
 (
