@@ -1936,7 +1936,9 @@ PresContext
 aRenderingContext
 mDest
 mDest
-nsPoint
+mDest
+.
+TopLeft
 (
 )
 aDirtyRect
@@ -2344,7 +2346,9 @@ aManager
 aItem
 mDest
 mDest
-nsPoint
+mDest
+.
+TopLeft
 (
 )
 mDest
