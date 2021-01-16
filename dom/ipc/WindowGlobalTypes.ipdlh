@@ -222,9 +222,6 @@ process
 nsIPrincipal
 principal
 ;
-nsIPrincipal
-contentBlockingAllowListPrincipal
-;
 nsIURI
 documentURI
 ;

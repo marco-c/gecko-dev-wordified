@@ -3456,13 +3456,6 @@ HasStorageAccessPermissionGranted
 (
 )
 ;
-nsIPrincipal
-*
-GetDocumentContentBlockingAllowListPrincipal
-(
-)
-const
-;
 protected
 :
 void
@@ -3632,12 +3625,6 @@ mDocBaseURI
 /
 /
 strong
-nsCOMPtr
-<
-nsIPrincipal
->
-mDocContentBlockingAllowListPrincipal
-;
 nsCOMPtr
 <
 mozilla

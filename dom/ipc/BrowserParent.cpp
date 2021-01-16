@@ -16522,12 +16522,6 @@ isSome
 )
 )
 {
-nsCOMPtr
-<
-nsIPrincipal
->
-contentBlockingAllowListPrincipal
-;
 Unused
 <
 <

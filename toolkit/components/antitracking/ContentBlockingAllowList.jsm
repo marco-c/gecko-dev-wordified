@@ -279,6 +279,11 @@ principal
 =
 browser
 .
+browsingContext
+.
+currentWindowGlobal
+?
+.
 contentBlockingAllowListPrincipal
 ;
 /
