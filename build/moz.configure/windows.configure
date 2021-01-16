@@ -2019,7 +2019,7 @@ depends
 (
 c_compiler
 host_c_compiler
-toolchain_search_path
+vc_toolchain_search_path
 )
 imports
 (
@@ -2032,7 +2032,7 @@ vc_path
 (
 c_compiler
 host_c_compiler
-toolchain_search_path
+vc_toolchain_search_path
 )
 :
 if
@@ -2087,7 +2087,7 @@ exe
 "
 paths
 =
-toolchain_search_path
+vc_toolchain_search_path
 )
 if
 not
