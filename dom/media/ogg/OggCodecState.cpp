@@ -13510,7 +13510,6 @@ return
 true
 ;
 }
-else
 if
 (
 IsSkeletonIndex
@@ -13544,7 +13543,6 @@ get
 )
 ;
 }
-else
 if
 (
 IsSkeletonFisbone
@@ -13568,7 +13566,6 @@ get
 )
 ;
 }
-else
 if
 (
 aPacket
@@ -13579,9 +13576,6 @@ e_o_s
 {
 mDoneReadingHeaders
 =
-true
-;
-return
 true
 ;
 }
