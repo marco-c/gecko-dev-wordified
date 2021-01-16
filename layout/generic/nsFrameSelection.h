@@ -1616,7 +1616,7 @@ this
 line
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleClick
 (
@@ -1701,14 +1701,6 @@ to
 aFrame
 *
 /
-/
-/
-TODO
-:
-replace
-with
-MOZ_CAN_RUN_SCRIPT
-.
 MOZ_CAN_RUN_SCRIPT
 void
 HandleDrag

@@ -2881,6 +2881,7 @@ aExtend
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 LineMove
 (
@@ -2920,6 +2921,7 @@ aForward
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 CompleteMove
 (
@@ -4614,6 +4616,16 @@ Bug
 }
 }
 const
+RefPtr
+<
+nsIContent
+>
+pinnedParentDIV
+{
+parentDIV
+}
+;
+const
 nsFrameSelection
 :
 :
@@ -4643,7 +4655,7 @@ frameSelection
 >
 HandleClick
 (
-parentDIV
+pinnedParentDIV
 offset
 offset
 focusMode
