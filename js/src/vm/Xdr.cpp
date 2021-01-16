@@ -5102,8 +5102,6 @@ runtime
 )
 stencilSet
 .
-initial
-.
 parserAtomData
 )
 ;
@@ -5117,8 +5115,6 @@ stencilAlloc_
 &
 stencilSet
 .
-initial
-.
 alloc
 ;
 MOZ_TRY
@@ -5126,8 +5122,6 @@ MOZ_TRY
 codeStencil
 (
 stencilSet
-.
-initial
 )
 )
 ;
@@ -5290,8 +5284,6 @@ MOZ_TRY
 codeStencil
 (
 stencilSet
-.
-initial
 )
 )
 ;

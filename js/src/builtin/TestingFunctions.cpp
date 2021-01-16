@@ -32389,8 +32389,6 @@ get
 (
 )
 .
-initial
-.
 input
 .
 initForGlobal

@@ -19956,8 +19956,6 @@ instantiateStencils
 (
 cx
 stencilSet
-.
-initial
 output
 .
 get
@@ -20226,8 +20224,6 @@ stencilSet
 get
 (
 )
-.
-initial
 .
 input
 .
