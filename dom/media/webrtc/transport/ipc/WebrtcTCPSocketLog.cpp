@@ -131,7 +131,7 @@ LazyLogModule
 webrtcTCPSocketLog
 (
 "
-WebrtcTCPSocket
+webrtcProxy
 "
 )
 ;

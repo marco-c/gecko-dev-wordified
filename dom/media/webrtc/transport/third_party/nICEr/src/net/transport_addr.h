@@ -459,16 +459,13 @@ as_string
 ]
 ;
 char
-fqdn
+tls_host
 [
 256
 ]
 ;
 bool
 is_proxied
-;
-bool
-tls
 ;
 }
 nr_transport_addr
