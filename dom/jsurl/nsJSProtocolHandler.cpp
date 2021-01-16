@@ -2194,7 +2194,6 @@ return
 NS_ERROR_MALFORMED_URI
 ;
 }
-else
 if
 (
 v
@@ -2208,8 +2207,6 @@ return
 NS_ERROR_DOM_RETVAL_UNDEFINED
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 rv
@@ -2381,6 +2378,7 @@ if
 (
 bytes
 )
+{
 rv
 =
 NS_NewByteInputStream
@@ -2400,7 +2398,9 @@ bytesLen
 NS_ASSIGNMENT_ADOPT
 )
 ;
+}
 else
+{
 rv
 =
 NS_ERROR_OUT_OF_MEMORY
