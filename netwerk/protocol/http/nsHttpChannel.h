@@ -5053,6 +5053,11 @@ uint32_t
 HTTPSSVCTelemetryReported
 1
 )
+(
+uint32_t
+EchConfigUsed
+1
+)
 )
 )
 /

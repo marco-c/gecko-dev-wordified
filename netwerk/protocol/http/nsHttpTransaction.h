@@ -3263,6 +3263,11 @@ bool
 mResolvedByTRR
 ;
 bool
+mEchConfigUsed
+=
+false
+;
+bool
 m0RTTInProgress
 ;
 bool
@@ -3322,9 +3327,10 @@ nsICancelable
 >
 mDNSRequest
 ;
-Maybe
+Atomic
 <
 uint32_t
+Relaxed
 >
 mHTTPSSVCReceivedStage
 ;
