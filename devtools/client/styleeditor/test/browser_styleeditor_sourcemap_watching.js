@@ -455,15 +455,6 @@ file
 "
 )
 ;
-/
-/
-let
-styleApplied
-=
-defer
-(
-)
-;
 const
 styleApplied
 =
