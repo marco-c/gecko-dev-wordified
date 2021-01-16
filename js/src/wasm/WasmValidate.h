@@ -923,6 +923,9 @@ codeSection
 SparseBitmap
 validForRefFunc
 ;
+bool
+usesDuplicateImports
+;
 /
 /
 Fields
@@ -995,6 +998,10 @@ features
 TypeDefVector
 (
 )
+)
+usesDuplicateImports
+(
+false
 )
 {
 }
