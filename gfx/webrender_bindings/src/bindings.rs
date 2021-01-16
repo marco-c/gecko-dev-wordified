@@ -8895,6 +8895,9 @@ color8_glyph_texture_size
 alpha8_texture_size
 :
 512
+alpha8_glyph_texture_size
+:
+512
 alpha16_texture_size
 :
 512
