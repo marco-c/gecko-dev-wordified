@@ -3635,7 +3635,7 @@ result
 .
 payload
 .
-keywordOffer
+providesSearchMode
 |
 |
 (

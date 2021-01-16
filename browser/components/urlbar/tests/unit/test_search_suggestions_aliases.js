@@ -1095,13 +1095,9 @@ engineName
 :
 SUGGESTIONS_ENGINE_NAME
 alias
-keywordOffer
+providesSearchMode
 :
-UrlbarUtils
-.
-KEYWORD_OFFER
-.
-SHOW
+true
 query
 :
 "
