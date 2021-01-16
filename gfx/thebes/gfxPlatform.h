@@ -5670,7 +5670,10 @@ int32_t
 mWordCacheMaxEntries
 ;
 uint64_t
-mTotalSystemMemory
+mTotalPhysicalMemory
+;
+uint64_t
+mTotalVirtualMemory
 ;
 /
 /
