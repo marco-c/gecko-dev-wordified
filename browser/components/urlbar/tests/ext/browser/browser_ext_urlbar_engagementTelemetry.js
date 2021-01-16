@@ -68,6 +68,9 @@ eventTelemetry
 .
 enabled
 "
+"
+boolean
+"
 (
 )
 =
