@@ -261,7 +261,7 @@ sProcessManager
 ;
 private
 long
-lastLowMemoryNotificationTime
+mLastLowMemoryNotificationTime
 =
 0
 ;
@@ -930,7 +930,7 @@ return
 /
 /
 See
-nsMemory
+nsIMemory
 .
 idl
 for
@@ -976,7 +976,7 @@ TRIM_MEMORY_COMPLETE
 (
 currentNotificationTime
 -
-lastLowMemoryNotificationTime
+mLastLowMemoryNotificationTime
 )
 >
 =
@@ -1013,7 +1013,7 @@ low
 memory
 "
 ;
-lastLowMemoryNotificationTime
+mLastLowMemoryNotificationTime
 =
 currentNotificationTime
 ;
