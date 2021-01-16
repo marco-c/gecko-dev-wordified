@@ -5468,6 +5468,12 @@ charCodeAt
 )
 )
 {
+aEvent
+.
+preventDefault
+(
+)
+;
 goDoCommand
 (
 "
