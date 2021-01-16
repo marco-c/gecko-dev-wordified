@@ -1291,7 +1291,7 @@ debuggerObservesAsmJS
 *
 *
 [
-WASMDOC
+SMDOC
 ]
 Compiler
 and

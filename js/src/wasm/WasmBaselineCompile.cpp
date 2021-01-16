@@ -181,7 +181,7 @@ License
 *
 *
 [
-WASMDOC
+SMDOC
 ]
 WebAssembly
 baseline
