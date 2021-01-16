@@ -6361,6 +6361,8 @@ iface
 namemap
 and
 iface
+.
+base
 is
 not
 None
@@ -6376,7 +6378,7 @@ getName
 (
 TypeId
 (
-self
+iface
 .
 base
 )
@@ -6386,9 +6388,12 @@ location
 )
         
 if
+name
+not
+in
 iface
-is
-None
+.
+namemap
 :
             
 raise
@@ -6405,8 +6410,6 @@ s
 "
 %
 name
-self
-.
 location
 )
         
@@ -6447,8 +6450,8 @@ not
 a
 constant
 "
-c
-.
+%
+name
 location
 )
         
