@@ -5869,6 +5869,11 @@ kInitSaveShrinkToFit
 nsIPrintSettings
 :
 :
+kInitSaveToFileName
+|
+nsIPrintSettings
+:
+:
 kInitSaveHeaderLeft
 |
 nsIPrintSettings
