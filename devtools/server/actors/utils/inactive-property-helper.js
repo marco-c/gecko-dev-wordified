@@ -729,9 +729,6 @@ flex
 -
 shrink
 "
-"
-order
-"
 ]
 when
 :
@@ -1015,6 +1012,9 @@ self
 place
 -
 self
+"
+"
+order
 "
 ]
 when
