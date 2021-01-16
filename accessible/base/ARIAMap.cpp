@@ -553,7 +553,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectableIfDefined
-eARIAReadonlyOrEditableIfDefined
+eARIAReadonly
 }
 {
 /
@@ -1706,7 +1706,7 @@ eSelect
 eTable
 kNoReqStates
 eARIAMultiSelectable
-eARIAReadonlyOrEditable
+eARIAReadonly
 eFocusableUntilDisabled
 }
 {
@@ -1728,7 +1728,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectable
-eARIAReadonlyOrEditableIfDefined
+eARIAReadonly
 }
 {
 /
@@ -2410,7 +2410,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectableIfDefined
-eARIAReadonlyOrEditableIfDefined
+eARIAReadonly
 }
 {
 /
@@ -2835,7 +2835,7 @@ eSelect
 |
 eTable
 kNoReqStates
-eARIAReadonlyOrEditable
+eARIAReadonly
 eARIAMultiSelectable
 eFocusableUntilDisabled
 eARIAOrientation
