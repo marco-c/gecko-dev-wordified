@@ -2093,13 +2093,6 @@ left
 right
 :
             
-#
-pylint
--
--
-py3k
-W1619
-            
 mid
 =
 (
@@ -2107,6 +2100,7 @@ left
 +
 right
 )
+/
 /
 2
             
