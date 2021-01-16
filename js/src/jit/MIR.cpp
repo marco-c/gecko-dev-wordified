@@ -39377,7 +39377,7 @@ input
 }
 MDefinition
 *
-MGuardIndexIsNonNegative
+MGuardInt32IsNonNegative
 :
 :
 foldsTo

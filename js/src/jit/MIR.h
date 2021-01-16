@@ -71279,14 +71279,14 @@ ins
 Guard
 the
 input
-index
+int32
 is
 non
 -
 negative
 .
 class
-MGuardIndexIsNonNegative
+MGuardInt32IsNonNegative
 :
 public
 MUnaryInstruction
@@ -71300,7 +71300,7 @@ UnboxedInt32Policy
 Data
 {
 explicit
-MGuardIndexIsNonNegative
+MGuardInt32IsNonNegative
 (
 MDefinition
 *
@@ -71334,7 +71334,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-GuardIndexIsNonNegative
+GuardInt32IsNonNegative
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS

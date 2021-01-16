@@ -6597,7 +6597,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitGuardIndexIsNonNegative
+emitGuardInt32IsNonNegative
 (
 Int32OperandId
 indexId
@@ -6616,7 +6616,7 @@ auto
 *
 ins
 =
-MGuardIndexIsNonNegative
+MGuardInt32IsNonNegative
 :
 :
 New
