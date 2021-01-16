@@ -250,7 +250,7 @@ MeasureUnexpectedPrivilegedLoads
 nsIURI
 *
 aFinalURI
-nsContentPolicyType
+ExtContentPolicyType
 aContentPolicyType
 const
 nsACString

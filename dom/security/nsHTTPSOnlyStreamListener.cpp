@@ -1010,7 +1010,7 @@ NS_SUCCEEDED
 aStatus
 )
 ;
-nsContentPolicyType
+ExtContentPolicyType
 externalType
 =
 loadInfo
@@ -1035,7 +1035,7 @@ if
 externalType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_MEDIA
@@ -1100,7 +1100,7 @@ externalType
 )
 {
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -1115,13 +1115,13 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_OBJECT
 :
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_OBJECT_SUBREQUEST
@@ -1136,7 +1136,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -1151,7 +1151,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -1166,7 +1166,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_XMLHTTPREQUEST
@@ -1181,13 +1181,13 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_IMAGE
 :
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_IMAGESET
@@ -1202,7 +1202,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DTD
@@ -1217,7 +1217,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_FONT
@@ -1232,7 +1232,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_FETCH
@@ -1247,7 +1247,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_WEBSOCKET
@@ -1262,7 +1262,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -1277,7 +1277,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_CSP_REPORT
@@ -1292,7 +1292,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_WEB_MANIFEST
@@ -1307,7 +1307,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_PING
@@ -1322,7 +1322,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_REFRESH
@@ -1337,7 +1337,7 @@ _ns
 break
 ;
 case
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_XSLT
