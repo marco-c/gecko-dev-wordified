@@ -1128,7 +1128,11 @@ args
 .
 rval
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 callExport
 (
@@ -1240,7 +1244,11 @@ already
 been
 performed
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 initElems
 (

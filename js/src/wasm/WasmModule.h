@@ -1741,7 +1741,11 @@ JS
 API
 implementations
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 GetOptimizedEncodingBuildId
 (

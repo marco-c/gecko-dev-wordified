@@ -432,7 +432,11 @@ IsHugeMemoryEnabled
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 DisableHugeMemory
 (

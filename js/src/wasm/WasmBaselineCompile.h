@@ -231,7 +231,11 @@ BaselineAvailable
 (
 )
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 BaselinePlatformSupport
 (
@@ -244,7 +248,11 @@ adequate
 code
 quickly
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 BaselineCompileFunctions
 (

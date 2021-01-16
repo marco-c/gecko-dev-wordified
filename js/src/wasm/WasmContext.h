@@ -305,7 +305,11 @@ triedToInstallSignalHandlers
 bool
 haveSignalHandlers
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ensureTypeContext
 (

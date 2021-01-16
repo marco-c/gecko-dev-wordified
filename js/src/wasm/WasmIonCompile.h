@@ -238,7 +238,11 @@ IonAvailable
 (
 )
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 IonPlatformSupport
 (
@@ -257,7 +261,11 @@ of
 compilation
 time
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 IonCompileFunctions
 (
