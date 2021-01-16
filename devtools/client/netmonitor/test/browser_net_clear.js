@@ -207,6 +207,7 @@ the
 requests
 are
 gone
+await
 EventUtils
 .
 sendMouseEvent
@@ -339,6 +340,7 @@ the
 details
 pane
 closes
+await
 EventUtils
 .
 sendMouseEvent

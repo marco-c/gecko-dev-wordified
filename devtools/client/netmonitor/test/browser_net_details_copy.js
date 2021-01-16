@@ -218,6 +218,7 @@ the
 url
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -314,6 +315,7 @@ copy
 all
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -643,6 +645,7 @@ for
 copy
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -720,6 +723,7 @@ copy
 all
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -973,6 +977,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1056,6 +1061,7 @@ an
 object
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -1150,6 +1156,7 @@ copy
 all
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -1222,6 +1229,7 @@ single
 row
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -1433,6 +1441,7 @@ overview
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1465,6 +1474,7 @@ item
 await
 wait
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1494,6 +1504,7 @@ item
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1633,6 +1644,7 @@ objectRows
 i
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1744,6 +1756,7 @@ length
 i
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent

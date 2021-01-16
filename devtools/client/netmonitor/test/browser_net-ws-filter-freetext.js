@@ -323,6 +323,7 @@ Select
 the
 first
 request
+await
 EventUtils
 .
 sendMouseEvent
@@ -349,6 +350,7 @@ the
 Response
 "
 panel
+await
 EventUtils
 .
 sendMouseEvent
@@ -597,6 +599,7 @@ filter
 input
 is
 cleared
+await
 EventUtils
 .
 sendMouseEvent

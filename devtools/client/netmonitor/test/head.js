@@ -7039,6 +7039,7 @@ column
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -7165,6 +7166,7 @@ column
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -7351,6 +7353,7 @@ the
 ResponseTab
 first
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -8923,6 +8926,7 @@ block
 "
 )
 {
+await
 EventUtils
 .
 sendMouseEvent

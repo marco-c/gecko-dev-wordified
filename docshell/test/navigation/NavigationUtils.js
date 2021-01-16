@@ -557,6 +557,7 @@ hyperlink_count
 =
 0
 ;
+async
 function
 navigateByHyperlink
 (
@@ -608,6 +609,7 @@ appendChild
 link
 )
 ;
+await
 sendMouseEvent
 (
 {

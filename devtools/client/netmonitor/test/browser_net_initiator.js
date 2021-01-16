@@ -826,6 +826,7 @@ stack
 continue
 ;
 }
+await
 EventUtils
 .
 sendMouseEvent
@@ -957,6 +958,7 @@ and
 check
 the
 order
+await
 EventUtils
 .
 sendMouseEvent

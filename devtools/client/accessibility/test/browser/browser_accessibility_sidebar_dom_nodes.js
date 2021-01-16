@@ -183,6 +183,7 @@ doc
 0
 )
 ;
+await
 selectRow
 (
 doc

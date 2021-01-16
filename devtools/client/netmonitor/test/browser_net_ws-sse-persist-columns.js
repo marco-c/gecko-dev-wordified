@@ -535,6 +535,7 @@ the
 WS
 request
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -608,6 +609,7 @@ finBit
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -909,6 +911,7 @@ the
 SSE
 request
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -1167,6 +1170,7 @@ WS
 request
 again
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -1238,6 +1242,7 @@ SSE
 request
 again
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -1326,6 +1331,7 @@ WS
 request
 again
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -1416,6 +1422,7 @@ SSE
 request
 again
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -1490,6 +1497,7 @@ WS
 request
 again
 .
+await
 EventUtils
 .
 sendMouseEvent

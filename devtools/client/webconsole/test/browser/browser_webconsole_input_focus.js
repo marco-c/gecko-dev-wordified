@@ -371,6 +371,7 @@ waitForBlurredInput
 hud
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -483,6 +484,7 @@ body
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

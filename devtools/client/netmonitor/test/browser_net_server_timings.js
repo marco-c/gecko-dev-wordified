@@ -196,6 +196,7 @@ timingsSelector
 4
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -236,6 +237,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

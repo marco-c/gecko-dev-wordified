@@ -206,6 +206,7 @@ waterfall
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

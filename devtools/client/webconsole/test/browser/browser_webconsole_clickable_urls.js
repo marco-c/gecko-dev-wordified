@@ -369,6 +369,7 @@ OS
 Darwin
 "
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -567,6 +568,7 @@ firstURL
 true
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

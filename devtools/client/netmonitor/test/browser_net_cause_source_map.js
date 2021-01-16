@@ -296,6 +296,7 @@ item
 3
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -361,6 +362,7 @@ tab
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

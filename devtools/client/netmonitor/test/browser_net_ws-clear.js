@@ -299,6 +299,7 @@ Select
 the
 first
 request
+await
 EventUtils
 .
 sendMouseEvent
@@ -325,6 +326,7 @@ the
 Response
 "
 panel
+await
 EventUtils
 .
 sendMouseEvent
@@ -511,6 +513,7 @@ item
 2
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

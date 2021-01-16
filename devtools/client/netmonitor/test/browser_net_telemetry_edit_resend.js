@@ -278,6 +278,7 @@ overview
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -309,6 +310,7 @@ responseHeaders
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

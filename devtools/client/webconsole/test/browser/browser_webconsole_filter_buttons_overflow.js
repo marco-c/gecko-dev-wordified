@@ -352,6 +352,7 @@ sidebar
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

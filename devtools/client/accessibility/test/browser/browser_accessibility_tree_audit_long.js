@@ -498,6 +498,7 @@ doc
 =
 >
 {
+await
 selectRow
 (
 doc

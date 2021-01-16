@@ -63,8 +63,8 @@ correct
 range
 *
 /
+async
 function
-*
 spawnTest
 (
 )
@@ -74,7 +74,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformance
 (
 ALLOCS_URL
@@ -111,19 +111,19 @@ ALLOCATIONS_PREF
 true
 )
 ;
-yield
+await
 startRecording
 (
 panel
 )
 ;
-yield
+await
 idleWait
 (
 1000
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -167,7 +167,7 @@ MAX_VALUE
 }
 )
 ;
-yield
+await
 rendered
 ;
 let
@@ -295,6 +295,7 @@ end
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -324,7 +325,7 @@ be
 found
 immediately
 ?
-yield
+await
 waitUntil
 (
 (
@@ -379,6 +380,7 @@ EVENTS
 UI_MEMORY_CALL_TREE_RENDERED
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -393,7 +395,7 @@ click
 showAllocsButton
 )
 ;
-yield
+await
 rendered
 ;
 is
@@ -478,7 +480,7 @@ duration
 }
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -488,7 +490,7 @@ waterfall
 "
 )
 ;
-yield
+await
 rendered
 ;
 /
@@ -557,6 +559,7 @@ end
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -583,7 +586,7 @@ be
 found
 immediately
 ?
-yield
+await
 waitUntil
 (
 (
@@ -638,6 +641,7 @@ EVENTS
 UI_MEMORY_CALL_TREE_RENDERED
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -652,7 +656,7 @@ click
 showAllocsButton
 )
 ;
-yield
+await
 rendered
 ;
 within
@@ -783,7 +787,7 @@ duration
 }
 )
 ;
-yield
+await
 rendered
 ;
 Services
@@ -796,7 +800,7 @@ ALLOCATIONS_PREF
 false
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -812,13 +816,13 @@ EVENTS
 UI_WATERFALL_RENDERED
 )
 ;
-yield
+await
 stopRecording
 (
 panel
 )
 ;
-yield
+await
 rendered
 ;
 injectGCMarkers
@@ -858,7 +862,7 @@ MAX_VALUE
 }
 )
 ;
-yield
+await
 rendered
 ;
 ok
@@ -900,6 +904,7 @@ getMarkers
 (
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -956,7 +961,7 @@ disabled
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

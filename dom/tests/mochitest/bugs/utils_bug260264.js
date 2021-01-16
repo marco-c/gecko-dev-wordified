@@ -66,6 +66,7 @@ event
 .
 *
 /
+async
 function
 send
 (
@@ -99,6 +100,7 @@ unique_handler
 ;
 try
 {
+await
 sendMouseEvent
 (
 {

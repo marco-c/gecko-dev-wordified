@@ -363,6 +363,7 @@ resource
 to
 expand
 it
+await
 EventUtils
 .
 sendMouseEvent
