@@ -249,12 +249,6 @@ essential
 "
         
 "
-libpython2
--
-dev
-"
-        
-"
 libpython3
 -
 dev
