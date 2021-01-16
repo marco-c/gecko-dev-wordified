@@ -6073,8 +6073,12 @@ endif
 /
 /
 WASM_EMULATE_ARM_UNALIGNED_FP_ACCESS
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 HandleTrap
 (

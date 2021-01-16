@@ -406,8 +406,12 @@ the
 /
 beginning
 .
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 CompileAsmJS
 (
@@ -440,8 +444,12 @@ bool
 validated
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 CompileAsmJS
 (
