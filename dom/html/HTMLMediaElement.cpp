@@ -13565,6 +13565,10 @@ RemoveMediaTracks
 (
 )
 ;
+UpdateOutputTrackSources
+(
+)
+;
 ChangeReadyState
 (
 HAVE_NOTHING
