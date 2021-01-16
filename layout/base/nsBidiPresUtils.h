@@ -2367,6 +2367,7 @@ static
 bool
 IsReversedDirectionFrame
 (
+const
 nsIFrame
 *
 aFrame

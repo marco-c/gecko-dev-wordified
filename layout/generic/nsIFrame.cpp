@@ -36907,6 +36907,7 @@ static
 FrameContentRange
 GetRangeForFrame
 (
+const
 nsIFrame
 *
 aFrame
@@ -61128,6 +61129,7 @@ static
 bool
 IsMovingInFrameDirection
 (
+const
 nsIFrame
 *
 frame
