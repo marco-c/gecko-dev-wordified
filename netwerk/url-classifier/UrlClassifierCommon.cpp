@@ -630,7 +630,7 @@ if
 policyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -3760,7 +3760,7 @@ LoadInfo
 (
 )
 ;
-ExtContentPolicyType
+nsContentPolicyType
 contentType
 =
 loadInfo
@@ -3822,7 +3822,7 @@ return
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -3831,7 +3831,7 @@ TYPE_IMAGE
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_MEDIA
@@ -3841,7 +3841,7 @@ TYPE_MEDIA
 contentType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OBJECT_SUBREQUEST

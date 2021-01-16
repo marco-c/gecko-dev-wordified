@@ -1360,7 +1360,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -2734,7 +2734,7 @@ nsIURI
 proxyURI
 uint64_t
 channelId
-ExtContentPolicyType
+nsContentPolicyType
 aContentPolicyType
 )
 {
@@ -3585,7 +3585,7 @@ requests
 /
 #
 preference
-ExtContentPolicyType
+nsContentPolicyType
 type
 =
 mLoadInfo
@@ -3600,7 +3600,7 @@ if
 type
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -3609,7 +3609,7 @@ TYPE_DOCUMENT
 type
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -9675,7 +9675,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -9962,7 +9962,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -66637,7 +66637,7 @@ mChannelCreationTimestamp
 mAsyncOpenTime
 )
 ;
-ExtContentPolicyType
+nsContentPolicyType
 type
 =
 mLoadInfo

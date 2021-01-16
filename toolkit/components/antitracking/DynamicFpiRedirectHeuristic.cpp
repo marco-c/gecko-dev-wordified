@@ -1181,7 +1181,7 @@ MOZ_ASSERT
 newLoadInfo
 )
 ;
-ExtContentPolicyType
+nsContentPolicyType
 contentType
 =
 oldLoadInfo
@@ -1196,7 +1196,7 @@ if
 contentType
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
