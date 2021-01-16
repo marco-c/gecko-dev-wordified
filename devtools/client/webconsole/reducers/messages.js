@@ -3153,9 +3153,6 @@ id
 .
 .
 currMessage
-openedOnce
-:
-true
 }
 )
 ;
