@@ -92,7 +92,6 @@ up
 confident
 for
 XHR
-kCharsetFromCache
 kCharsetFromInitialAutoDetection
 kCharsetFromFinalAutoDetection
 kCharsetFromParentFrame

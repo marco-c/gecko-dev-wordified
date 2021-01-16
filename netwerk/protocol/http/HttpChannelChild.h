@@ -1688,9 +1688,6 @@ ReleaseMainThreadOnlyReferences
 private
 :
 nsCString
-mCachedCharset
-;
-nsCString
 mProtocolVersion
 ;
 RequestHeaderTuples

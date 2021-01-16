@@ -234,9 +234,6 @@ uint32_t
 cacheExpirationTime
 ;
 nsCString
-cachedCharset
-;
-nsCString
 securityInfoSerialization
 ;
 NetAddr

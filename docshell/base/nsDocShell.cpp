@@ -9746,9 +9746,6 @@ case
 kCharsetFromDocTypeDefault
 :
 case
-kCharsetFromCache
-:
-case
 kCharsetFromParentFrame
 :
 /
