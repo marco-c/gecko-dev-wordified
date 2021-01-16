@@ -4015,6 +4015,7 @@ bool
 HasDelayedCaretData
 (
 )
+const
 {
 return
 mDelayedMouseEvent
@@ -4026,6 +4027,7 @@ bool
 IsShiftDownInDelayedCaretData
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -4051,6 +4053,7 @@ uint32_t
 GetClickCountInDelayedCaretData
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -4076,6 +4079,7 @@ bool
 MouseDownRecorded
 (
 )
+const
 {
 return
 !
