@@ -4461,6 +4461,9 @@ message
 _setTimeout
 (
 callback
+delay
+=
+0
 )
 {
 /
@@ -4489,7 +4492,7 @@ chromeWindow
 setTimeout
 (
 callback
-0
+delay
 )
 ;
 }
@@ -4508,7 +4511,7 @@ contentWindow
 setTimeout
 (
 callback
-0
+delay
 )
 ;
 }
