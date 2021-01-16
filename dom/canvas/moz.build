@@ -1299,6 +1299,17 @@ int
 conversion
 "
 ]
+CXXFLAGS
++
+=
+[
+"
+-
+Werror
+=
+switch
+"
+]
 if
 CONFIG
 [

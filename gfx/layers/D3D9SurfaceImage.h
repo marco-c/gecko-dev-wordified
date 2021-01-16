@@ -588,14 +588,6 @@ the
 shared
 surface
 .
-const
-D3DSURFACE_DESC
-&
-GetDesc
-(
-)
-const
-;
 gfx
 :
 :
