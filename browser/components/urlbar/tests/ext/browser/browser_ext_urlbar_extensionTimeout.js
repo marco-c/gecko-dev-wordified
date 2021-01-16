@@ -64,12 +64,12 @@ browser
 .
 urlbar
 .
-eventTelemetry
+extension
 .
-enabled
+timeout
 "
 "
-boolean
+number
 "
 (
 )
@@ -102,7 +102,7 @@ experiments
 .
 urlbar
 .
-engagementTelemetry
+extensionTimeout
 [
 method
 ]
