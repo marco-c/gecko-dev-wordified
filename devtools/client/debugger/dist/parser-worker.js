@@ -49917,6 +49917,9 @@ plugins
 :
 [
 "
+classProperties
+"
+"
 objectRestSpread
 "
 "
