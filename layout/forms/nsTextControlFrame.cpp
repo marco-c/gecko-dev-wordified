@@ -5151,7 +5151,6 @@ aStartOffset
 *
 aEndNode
 aEndOffset
-direction
 error
 )
 ;
@@ -5162,6 +5161,14 @@ error
 StealNSResult
 (
 )
+)
+;
+selection
+-
+>
+SetDirection
+(
+direction
 )
 ;
 return
