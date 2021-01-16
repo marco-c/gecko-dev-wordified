@@ -95,7 +95,7 @@ UNIFIED_SOURCES
 /
 glue
 /
-mozHunspellFileMgrSandbox
+mozHunspellRLBoxSandbox
 .
 cpp
 '

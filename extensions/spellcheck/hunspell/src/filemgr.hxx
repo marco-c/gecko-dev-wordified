@@ -751,7 +751,7 @@ FILEMGR_HXX_
 #
 include
 "
-mozHunspellFileMgrSandbox
+mozHunspellRLBoxSandbox
 .
 h
 "
