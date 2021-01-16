@@ -3023,7 +3023,7 @@ scriptExtra
 scriptIndex
 ]
 ;
-script
+scriptExtra
 .
 immutableFlags
 =
@@ -3044,7 +3044,7 @@ set
 in
 jsparagus
 .
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -3059,7 +3059,7 @@ options
 selfHostingMode
 )
 ;
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -3076,7 +3076,7 @@ forceStrictMode
 )
 )
 ;
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -3108,7 +3108,7 @@ data
 ]
 )
 {
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -3123,7 +3123,7 @@ options
 isRunOnce
 )
 ;
-script
+scriptExtra
 .
 immutableFlags
 .
@@ -3142,7 +3142,7 @@ noScriptRval
 bool
 isFunction
 =
-script
+scriptExtra
 .
 immutableFlags
 .
