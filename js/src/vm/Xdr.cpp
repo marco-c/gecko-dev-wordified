@@ -3187,7 +3187,7 @@ isMainBuf
 ;
 MOZ_TRY
 (
-XDRBaseCompilationStencil
+XDRCompilationStencil
 (
 this
 stencil
