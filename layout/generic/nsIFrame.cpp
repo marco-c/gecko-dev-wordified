@@ -35925,6 +35925,7 @@ alive
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 HandleFrameSelection
