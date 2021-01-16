@@ -294,6 +294,12 @@ NTSTATUS
 aMapNtStatus
 )
 ;
+static
+bool
+ExistsTopFrame
+(
+)
+;
 /
 *
 *
