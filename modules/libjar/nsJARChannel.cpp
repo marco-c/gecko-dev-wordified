@@ -6209,7 +6209,7 @@ APPLICATION_HTTP_INDEX_FORMAT
 contentPolicyType
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -6218,7 +6218,7 @@ TYPE_DOCUMENT
 contentPolicyType
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_FETCH
@@ -6233,7 +6233,7 @@ if
 contentPolicyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -6257,7 +6257,7 @@ if
 contentPolicyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SCRIPT

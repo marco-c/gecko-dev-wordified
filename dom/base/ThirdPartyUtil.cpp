@@ -1971,7 +1971,7 @@ GetExternalContentPolicyType
 )
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
