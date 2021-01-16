@@ -1174,7 +1174,7 @@ result
 await
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 (
 )
 ;
@@ -1188,7 +1188,7 @@ expected
 '
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 URLs
 within
 a
