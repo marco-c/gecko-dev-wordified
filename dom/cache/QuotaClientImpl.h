@@ -440,6 +440,7 @@ cache
 :
 DirectoryPaddingFileExists
 (
+*
 aBaseDir
 DirPaddingFile
 :
@@ -516,7 +517,9 @@ cache
 :
 LockedUpdateDirectoryPaddingFile
 (
+*
 aBaseDir
+*
 aConn
 aIncreaseSize
 aDecreaseSize
@@ -618,6 +621,7 @@ cache
 :
 LockedDirectoryPaddingFinalizeWrite
 (
+*
 aBaseDir
 )
 ;
@@ -654,6 +658,7 @@ cache
 :
 LockedDirectoryPaddingDeleteFile
 (
+*
 aBaseDir
 DirPaddingFile
 :
@@ -690,6 +695,7 @@ cache
 :
 DirectoryPaddingFileExists
 (
+*
 aBaseDir
 DirPaddingFile
 :
