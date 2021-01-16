@@ -248,6 +248,14 @@ OS_ARCH
 WINNT
 '
 :
+DEFINES
+[
+'
+UNICODE
+'
+]
+=
+True
 #
 On
 windows

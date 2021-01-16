@@ -967,6 +967,14 @@ sandbox
 chromium
 "
 ]
+DEFINES
+[
+"
+UNICODE
+"
+]
+=
+True
 DIRS
 +
 =
