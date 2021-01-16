@@ -1937,7 +1937,7 @@ TypedArrayObject
 *
 >
 source
-uint32_t
+size_t
 offset
 )
 {
@@ -2038,7 +2038,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 )
@@ -2052,7 +2052,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 <
@@ -2064,7 +2064,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 -

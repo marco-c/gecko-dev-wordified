@@ -10395,7 +10395,7 @@ TypedArrayObject
 *
 >
 source
-uint32_t
+size_t
 offset
 )
 {
@@ -10494,9 +10494,9 @@ TypedArrayObject
 target
 HandleObject
 source
-uint32_t
+size_t
 len
-uint32_t
+size_t
 offset
 )
 {
@@ -11040,7 +11040,7 @@ Step
 Reordered
 )
 .
-uint32_t
+size_t
 targetLength
 =
 target
@@ -11050,7 +11050,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -11099,10 +11099,10 @@ Cont
 d
 )
 .
-uint32_t
+size_t
 offset
 =
-uint32_t
+size_t
 (
 targetOffset
 )
@@ -11116,7 +11116,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 >
@@ -11322,7 +11322,7 @@ the
 typed
 array
 .
-uint32_t
+size_t
 targetLength
 =
 target
@@ -11332,7 +11332,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -11405,10 +11405,10 @@ Cont
 d
 )
 .
-uint32_t
+size_t
 offset
 =
-uint32_t
+size_t
 (
 targetOffset
 )
