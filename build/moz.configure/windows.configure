@@ -3541,7 +3541,7 @@ when
 target_is_windows
 paths
 =
-toolchain_search_path
+clang_search_path
 )
 option
 (
@@ -3590,7 +3590,7 @@ when
 host_is_windows
 paths
 =
-toolchain_search_path
+clang_search_path
 )
 add_old_configure_assignment
 (

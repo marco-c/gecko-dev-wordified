@@ -339,7 +339,13 @@ depends_if
 "
 CBINDGEN
 "
-toolchain_search_path
+bootstrap_search_path
+(
+"
+cbindgen
+"
+)
+rust_search_path
 when
 =
 cbindgen_is_needed
@@ -368,7 +374,8 @@ def
 cbindgen
 (
 cbindgen_override
-toolchain_search_path
+bootstrap_search_path
+rust_search_path
 )
 :
 if
@@ -396,7 +403,9 @@ candidates
 for
 path
 in
-toolchain_search_path
+bootstrap_search_path
++
+rust_search_path
 :
 candidate
 =
@@ -640,7 +649,7 @@ path
 "
 c_compiler
 cxx_compiler
-toolchain_search_path
+clang_search_path
 target
 macos_sdk
 )
@@ -672,7 +681,7 @@ bindgen_clang_compiler
 clang_path
 c_compiler
 cxx_compiler
-toolchain_search_path
+clang_search_path
 target
 macos_sdk
 )
@@ -889,7 +898,7 @@ clang
 +
 +
 "
-toolchain_search_path
+clang_search_path
 )
 if
 not
