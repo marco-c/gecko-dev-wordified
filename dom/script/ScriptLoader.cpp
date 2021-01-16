@@ -17476,14 +17476,6 @@ aRequest
 -
 >
 mIsInline
-|
-|
-aRequest
--
->
-IsModuleRequest
-(
-)
 )
 {
 doc
