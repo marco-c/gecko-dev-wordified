@@ -1108,7 +1108,7 @@ newOriginUsage
 LocalStorageManager
 :
 :
-GetQuota
+GetOriginQuota
 (
 )
 )
@@ -3407,7 +3407,7 @@ newUsage
 LocalStorageManager
 :
 :
-GetQuota
+GetSiteQuota
 (
 )
 )
