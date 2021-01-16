@@ -658,7 +658,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -1133,7 +1133,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -1447,7 +1447,7 @@ LoadInfo
 (
 )
 ;
-ExtContentPolicyType
+nsContentPolicyType
 type
 =
 loadInfo
@@ -1484,7 +1484,7 @@ if
 type
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -1493,7 +1493,7 @@ TYPE_DOCUMENT
 type
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SAVEAS_DOWNLOAD
@@ -2687,7 +2687,7 @@ nsILoadInfo
 aLoadInfo
 )
 {
-ExtContentPolicyType
+nsContentPolicyType
 contentPolicyType
 =
 aLoadInfo
@@ -2740,7 +2740,7 @@ contentPolicyType
 )
 {
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OTHER
@@ -2756,7 +2756,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -2775,7 +2775,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -2791,7 +2791,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -2810,7 +2810,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OBJECT
@@ -2826,7 +2826,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -2842,7 +2842,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -2861,7 +2861,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_REFRESH
@@ -2882,7 +2882,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_PING
@@ -2898,7 +2898,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_XMLHTTPREQUEST
@@ -3048,7 +3048,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OBJECT_SUBREQUEST
@@ -3112,7 +3112,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DTD
@@ -3176,7 +3176,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_FONT
@@ -3192,7 +3192,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_MEDIA
@@ -3280,7 +3280,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_WEBSOCKET
@@ -3364,7 +3364,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_CSP_REPORT
@@ -3380,7 +3380,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_XSLT
@@ -3447,7 +3447,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_BEACON
@@ -3511,7 +3511,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_FETCH
@@ -3527,7 +3527,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGESET
@@ -3543,7 +3543,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_WEB_MANIFEST
@@ -3564,7 +3564,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SAVEAS_DOWNLOAD
@@ -3580,7 +3580,7 @@ break
 ;
 }
 case
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SPECULATIVE
@@ -3599,7 +3599,7 @@ default
 :
 /
 /
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_INVALID
@@ -3680,7 +3680,7 @@ rv
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -3689,7 +3689,7 @@ TYPE_DOCUMENT
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -5083,7 +5083,7 @@ MeasureUnexpectedPrivilegedLoads
 nsIURI
 *
 aFinalURI
-ExtContentPolicyType
+nsContentPolicyType
 aContentPolicyType
 const
 nsACString
@@ -5631,7 +5631,7 @@ return
 NS_OK
 ;
 }
-ExtContentPolicyType
+nsContentPolicyType
 contentPolicyType
 =
 loadInfo
@@ -5688,7 +5688,7 @@ if
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_FETCH
@@ -5699,7 +5699,7 @@ TYPE_FETCH
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_XMLHTTPREQUEST
@@ -5710,7 +5710,7 @@ TYPE_XMLHTTPREQUEST
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_WEBSOCKET
@@ -5721,7 +5721,7 @@ TYPE_WEBSOCKET
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SAVEAS_DOWNLOAD
@@ -5732,7 +5732,7 @@ TYPE_SAVEAS_DOWNLOAD
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -6059,7 +6059,7 @@ if
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_STYLESHEET
@@ -6070,7 +6070,7 @@ TYPE_STYLESHEET
 contentPolicyType
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OTHER
@@ -7672,7 +7672,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -7861,7 +7861,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -7875,7 +7875,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SUBDOCUMENT

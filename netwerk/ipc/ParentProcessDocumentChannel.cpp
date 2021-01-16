@@ -918,7 +918,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_OBJECT

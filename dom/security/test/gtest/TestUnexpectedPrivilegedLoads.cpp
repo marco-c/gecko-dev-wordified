@@ -267,7 +267,7 @@ testCasesAndResults
 nsCString
 urlstring
 ;
-ExtContentPolicyType
+nsContentPolicyType
 contentType
 ;
 nsCString
@@ -406,7 +406,7 @@ browser
 js
 "
 _ns
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -458,7 +458,7 @@ browser
 js
 "
 _ns
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -530,7 +530,7 @@ blob
 000
 "
 _ns
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -600,7 +600,7 @@ icon
 blahblah
 "
 _ns
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -656,7 +656,7 @@ data
 blahblahblah
 "
 _ns
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -726,7 +726,7 @@ file
 txt
 "
 _ns
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_SCRIPT
@@ -802,7 +802,7 @@ empty
 "
 "
 _ns
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -862,7 +862,7 @@ below
 URLWillResultInNullPtr
 "
 _ns
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_FONT

@@ -6206,7 +6206,7 @@ GetExternalContentPolicyType
 )
 !
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -6262,7 +6262,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_XMLHTTPREQUEST
@@ -6459,17 +6459,11 @@ Telemetry
 :
 :
 HTTP_AUTH_DIALOG_STATS_3
-static_cast
-<
-uint32_t
->
-(
 loadInfo
 -
 >
 GetExternalContentPolicyType
 (
-)
 )
 )
 ;
@@ -6654,7 +6648,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGE
@@ -6670,7 +6664,7 @@ GetExternalContentPolicyType
 )
 =
 =
-ExtContentPolicy
+nsIContentPolicy
 :
 :
 TYPE_IMAGESET

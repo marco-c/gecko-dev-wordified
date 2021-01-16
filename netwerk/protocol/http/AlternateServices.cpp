@@ -5467,7 +5467,7 @@ channelId
 nsLoadFlags
 flags
 ;
-ExtContentPolicyType
+nsContentPolicyType
 contentPolicyType
 =
 loadInfo
