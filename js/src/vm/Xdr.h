@@ -5139,6 +5139,13 @@ c
 BaseCompilationStencil
 /
 /
+d
+.
+moduleMetadata
+if
+exists
+/
+/
 4
 .
 array
