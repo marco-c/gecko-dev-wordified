@@ -1190,7 +1190,7 @@ BinaryIO
 >
 ElementTree
 .
-ElementTree
+Element
     
 doc
 =
@@ -1218,7 +1218,7 @@ cast
 (
 ElementTree
 .
-ElementTree
+Element
 doc
 )
     
@@ -1241,7 +1241,7 @@ BinaryIO
 >
 ElementTree
 .
-ElementTree
+Element
     
 try
 :
@@ -1271,6 +1271,10 @@ parse
 (
 f
 )
+.
+getroot
+(
+)
     
 except
 (
@@ -1299,6 +1303,10 @@ XMLParser
 XMLParser
 (
 )
+)
+.
+getroot
+(
 )
 #
 type
@@ -1348,7 +1356,7 @@ BinaryIO
 ]
 ElementTree
 .
-ElementTree
+Element
 ]
 ]
     
@@ -3540,15 +3548,9 @@ type
 >
 Optional
 [
-Union
-[
 ElementTree
 .
 Element
-ElementTree
-.
-ElementTree
-]
 ]
         
 "
@@ -3628,45 +3630,8 @@ Exception
 return
 None
         
-if
-hasattr
-(
-tree
-"
-getroot
-"
-)
-:
-            
-root
-=
-tree
-.
-getroot
-(
-)
-#
-type
-:
-Union
-[
-ElementTree
-.
-Element
-ElementTree
-.
-ElementTree
-]
-        
-else
-:
-            
-root
-=
-tree
-        
 return
-root
+tree
     
 cached_property
     
