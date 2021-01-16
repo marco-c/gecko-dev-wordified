@@ -127,9 +127,6 @@ h
 class
 NSString
 ;
-class
-mozAccessible
-;
 namespace
 mozilla
 {
@@ -153,11 +150,7 @@ NSArray
 of
 native
 accessibles
-NSArray
-<
-mozAccessible
-*
->
+NSMutableArray
 *
 ConvertToNSArray
 (
@@ -187,11 +180,7 @@ native
 /
 /
 accessibles
-NSArray
-<
-mozAccessible
-*
->
+NSMutableArray
 *
 ConvertToNSArray
 (

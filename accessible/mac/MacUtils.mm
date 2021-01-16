@@ -173,11 +173,7 @@ NSArray
 of
 native
 accessibles
-NSArray
-<
-mozAccessible
-*
->
+NSMutableArray
 *
 ConvertToNSArray
 (
@@ -295,11 +291,7 @@ native
 /
 /
 accessibles
-NSArray
-<
-mozAccessible
-*
->
+NSMutableArray
 *
 ConvertToNSArray
 (
