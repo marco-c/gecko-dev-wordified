@@ -1281,8 +1281,6 @@ return
 NS_OK
 ;
 }
-else
-{
 uint32_t
 flags
 ;
@@ -1665,7 +1663,6 @@ rv
 rv
 )
 ;
-}
 }
 }
 return
