@@ -1553,6 +1553,15 @@ details
 ;
 }
 else
+if
+(
+name
+=
+=
+"
+onUpdateModeChanged
+"
+)
 {
 elements
 =
