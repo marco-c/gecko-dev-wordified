@@ -313,9 +313,6 @@ response
 {
 try
 {
-var
-IMS
-=
 metadata
 .
 getHeader

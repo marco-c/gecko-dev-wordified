@@ -1032,9 +1032,6 @@ saver
 ;
 try
 {
-let
-signatureInfo
-=
 saver
 .
 signatureInfo

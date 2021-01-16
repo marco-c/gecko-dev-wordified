@@ -3822,14 +3822,6 @@ doing
 nothing
 .
 let
-destFile
-=
-getTempFile
-(
-TEST_FILE_NAME_1
-)
-;
-let
 saver
 =
 new
@@ -4218,9 +4210,6 @@ been
 enabled
 try
 {
-let
-hash
-=
 saver
 .
 sha256Hash
@@ -4362,9 +4351,6 @@ NS_ERROR_FAILURE
 ;
 try
 {
-let
-hash
-=
 saver
 .
 sha256Hash
@@ -4524,9 +4510,6 @@ saver
 ;
 try
 {
-let
-signatureInfo
-=
 saver
 .
 signatureInfo
@@ -4723,9 +4706,6 @@ completionPromise
 ;
 try
 {
-let
-signatureInfo
-=
 saver
 .
 signatureInfo

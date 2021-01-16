@@ -512,9 +512,6 @@ for
 db
 close
 .
-let
-obs
-=
 new
 _observer
 (
@@ -869,9 +866,6 @@ for
 read
 completion
 .
-let
-obs
-=
 new
 _observer
 (

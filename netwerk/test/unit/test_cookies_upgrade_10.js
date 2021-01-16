@@ -284,9 +284,6 @@ the
 /
 database
 .
-let
-cookies
-=
 Services
 .
 cookies

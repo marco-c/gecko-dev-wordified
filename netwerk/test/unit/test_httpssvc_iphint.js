@@ -2077,7 +2077,6 @@ defaultOriginAttributes
 let
 [
 inRequest
-inRecord
 inStatus
 ]
 =
@@ -2162,7 +2161,6 @@ com
 let
 [
 req
-resp
 ]
 =
 await

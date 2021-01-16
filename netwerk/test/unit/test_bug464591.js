@@ -605,9 +605,6 @@ throws
 =
 >
 {
-let
-result
-=
 stringToURL
 (
 "

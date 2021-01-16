@@ -9371,9 +9371,6 @@ throws
 =
 >
 {
-let
-other
-=
 stringToURL
 (
 "
@@ -9407,9 +9404,6 @@ throws
 =
 >
 {
-let
-other
-=
 stringToURL
 (
 "
@@ -9469,9 +9463,6 @@ throws
 =
 >
 {
-let
-uri
-=
 Services
 .
 io

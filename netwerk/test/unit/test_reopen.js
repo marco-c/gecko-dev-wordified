@@ -471,9 +471,6 @@ createChanClosure
 (
 )
 ;
-var
-inputStream
-=
 chan
 .
 open

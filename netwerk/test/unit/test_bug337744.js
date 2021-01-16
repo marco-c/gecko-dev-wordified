@@ -340,16 +340,6 @@ spec
 )
 {
 var
-channelURI
-=
-NetUtil
-.
-newURI
-(
-spec
-)
-;
-var
 channel
 =
 NetUtil

@@ -271,7 +271,6 @@ some
 ;
 let
 [
-req
 resp
 ]
 =

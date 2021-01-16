@@ -37,9 +37,6 @@ Ci
 nsIEffectiveTLDService
 )
 ;
-var
-etld
-;
 Assert
 .
 equal
@@ -239,8 +236,6 @@ uk
 ;
 try
 {
-etld
-=
 tld
 .
 getPublicSuffixFromHost
@@ -279,8 +274,6 @@ NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
 }
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost
@@ -325,8 +318,6 @@ NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
 }
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost
@@ -368,8 +359,6 @@ NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
 }
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost
@@ -408,8 +397,6 @@ NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
 }
 try
 {
-etld
-=
 tld
 .
 getPublicSuffixFromHost
@@ -455,8 +442,6 @@ NS_ERROR_HOST_IS_IP_ADDRESS
 }
 try
 {
-etld
-=
 tld
 .
 getPublicSuffixFromHost
@@ -505,8 +490,6 @@ NS_ERROR_HOST_IS_IP_ADDRESS
 }
 try
 {
-etld
-=
 tld
 .
 getPublicSuffixFromHost
@@ -546,8 +529,6 @@ NS_ERROR_HOST_IS_IP_ADDRESS
 }
 try
 {
-etld
-=
 tld
 .
 getPublicSuffixFromHost
@@ -597,8 +578,6 @@ NS_ERROR_HOST_IS_IP_ADDRESS
 }
 try
 {
-etld
-=
 tld
 .
 getPublicSuffixFromHost
@@ -665,8 +644,6 @@ bug
 )
 try
 {
-etld
-=
 tld
 .
 getPublicSuffixFromHost
@@ -713,8 +690,6 @@ NS_ERROR_HOST_IS_IP_ADDRESS
 }
 try
 {
-etld
-=
 tld
 .
 getPublicSuffixFromHost
@@ -951,8 +926,6 @@ invalid
 args
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost
@@ -998,8 +971,6 @@ NS_ERROR_ILLEGAL_VALUE
 }
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost
@@ -1044,8 +1015,6 @@ NS_ERROR_ILLEGAL_VALUE
 }
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost
@@ -1090,8 +1059,6 @@ NS_ERROR_ILLEGAL_VALUE
 }
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost
@@ -1136,8 +1103,6 @@ NS_ERROR_ILLEGAL_VALUE
 }
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost
@@ -1177,8 +1142,6 @@ NS_ERROR_ILLEGAL_VALUE
 }
 try
 {
-etld
-=
 tld
 .
 getBaseDomainFromHost

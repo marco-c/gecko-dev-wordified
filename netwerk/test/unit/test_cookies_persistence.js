@@ -92,9 +92,6 @@ up
 a
 profile
 .
-let
-profile
-=
 do_get_profile
 (
 )

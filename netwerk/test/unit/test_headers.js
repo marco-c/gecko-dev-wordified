@@ -743,13 +743,6 @@ plain
 false
 )
 ;
-var
-body
-=
-"
-foo
-"
-;
 }
 function
 completeTest1
@@ -1043,9 +1036,6 @@ attachment
 "
 )
 ;
-let
-filename
-=
 chan
 .
 contentDispositionFilename
@@ -1299,9 +1289,6 @@ filename
 "
 )
 ;
-let
-filename
-=
 chan
 .
 contentDispositionFilename
@@ -1548,9 +1535,6 @@ inline
 "
 )
 ;
-let
-filename
-=
 chan
 .
 contentDispositionFilename

@@ -491,9 +491,6 @@ channel
 }
 try
 {
-let
-authHeader
-=
 subject
 .
 getRequestHeader

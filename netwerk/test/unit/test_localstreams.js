@@ -402,9 +402,6 @@ in
 the
 binarystream
 implementation
-var
-data
-=
 binstream
 .
 readByteArray

@@ -1325,11 +1325,6 @@ entry
 appcache
 )
 {
-var
-hold_entry_foo3
-=
-entry
-;
 /
 /
 evict

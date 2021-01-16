@@ -1338,13 +1338,6 @@ start_cache_nonpinned_app2_for_partial
 (
 )
 {
-let
-error_count
-=
-[
-0
-]
-;
 info
 (
 "

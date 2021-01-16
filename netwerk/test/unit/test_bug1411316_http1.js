@@ -564,11 +564,6 @@ server
 "
 )
 ;
-var
-allDummyHttpRequestReceived
-=
-false
-;
 /
 /
 Start

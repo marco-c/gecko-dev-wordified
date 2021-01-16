@@ -1625,9 +1625,6 @@ one
 server
 socket
 .
-let
-server
-=
 new
 UnixServerSocket
 (

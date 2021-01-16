@@ -757,9 +757,6 @@ cache
 update
 completed
 .
-var
-_x
-=
 randomURI
 ;
 /

@@ -58,9 +58,6 @@ jar
 ;
 try
 {
-var
-newURI
-=
 ios
 .
 newURI
@@ -257,9 +254,6 @@ passed
 the
 test
 .
-var
-newURI
-=
 ios
 .
 newURI

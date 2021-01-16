@@ -278,9 +278,6 @@ entry
 {
 try
 {
-var
-os
-=
 entry
 .
 openAlternativeOutputStream

@@ -275,9 +275,6 @@ expected
 callback
 )
 {
-var
-chan
-=
 setup_chan
 (
 "

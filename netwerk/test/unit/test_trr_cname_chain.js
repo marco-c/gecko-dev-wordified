@@ -269,7 +269,6 @@ some
 ;
 let
 [
-req
 resp
 ]
 =
@@ -492,9 +491,7 @@ data
 ;
 let
 [
-inRequest
 inRecord
-inStatus
 ]
 =
 await

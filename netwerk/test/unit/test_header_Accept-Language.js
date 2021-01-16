@@ -382,9 +382,7 @@ i
 )
 {
 let
-acceptedLanguage
 qualityValue
-unused
 ;
 try
 {
@@ -411,8 +409,6 @@ Section
 9
 .
 [
-unused
-acceptedLanguage
 qualityValue
 ]
 =

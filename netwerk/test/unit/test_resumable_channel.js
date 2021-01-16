@@ -2415,9 +2415,6 @@ Z3Vlc3Q6Z3Vlc3Q
 =
 "
 ;
-var
-body
-;
 if
 (
 metadata

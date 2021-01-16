@@ -406,9 +406,6 @@ PORT
 /
 testdir
 ;
-let
-response
-;
 await
 get_response
 (
