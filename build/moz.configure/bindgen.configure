@@ -539,7 +539,7 @@ rustfmt
 ]
 paths
 =
-toolchain_search_path
+rust_search_path
 input
 =
 "
