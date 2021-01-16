@@ -16693,13 +16693,13 @@ keySDB
 newInit
 )
 ;
-#
-ifndef
-NSS_DISABLE_DBM
 legacy
 =
 PR_FALSE
 ;
+#
+ifndef
+NSS_DISABLE_DBM
 /
 *
 *
