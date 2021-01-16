@@ -328,8 +328,7 @@ FluentBundle
 :
 new
 (
-vec
-!
+&
 [
 langid_en
 ]
@@ -868,6 +867,14 @@ struct
 FluentArgs
 .
 html
+#
+[
+macro_use
+]
+extern
+crate
+rental
+;
 use
 intl_memoizer
 :
@@ -1112,8 +1119,7 @@ FluentBundle
 :
 new
 (
-vec
-!
+&
 [
 langid_en
 ]
