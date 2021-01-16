@@ -699,17 +699,17 @@ try
 if
 py3
             
-readPlistFromBytes
+load_plist
 =
 plistlib
 .
-readPlistFromBytes
+loads
         
 except
 AttributeError
 :
             
-readPlistFromBytes
+load_plist
 =
 plistlib
 .
@@ -717,7 +717,7 @@ readPlistFromString
         
 fonts
 =
-readPlistFromBytes
+load_plist
 (
 fonts
 )
