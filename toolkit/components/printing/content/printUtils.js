@@ -741,7 +741,9 @@ dialog
 of
 dialogBox
 .
-_dialogManager
+getTabDialogManager
+(
+)
 .
 _dialogs
 )
