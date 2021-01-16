@@ -97,9 +97,6 @@ crate
 Parameters
 ;
 pub
-(
-crate
-)
 fn
 standard_routes
 <
