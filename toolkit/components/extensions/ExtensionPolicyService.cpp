@@ -3133,7 +3133,7 @@ if
 loadType
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -3142,7 +3142,7 @@ TYPE_DOCUMENT
 loadType
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT

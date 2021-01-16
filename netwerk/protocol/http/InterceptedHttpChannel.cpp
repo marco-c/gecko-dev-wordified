@@ -1533,7 +1533,7 @@ aResponseURI
 flags
 )
 ;
-nsContentPolicyType
+ExtContentPolicyType
 contentPolicyType
 =
 redirectLoadInfo

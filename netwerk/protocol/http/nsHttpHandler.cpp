@@ -4796,7 +4796,7 @@ nsHttpRequestHead
 request
 bool
 isSecure
-nsContentPolicyType
+ExtContentPolicyType
 aContentPolicyType
 )
 {
@@ -4902,7 +4902,7 @@ if
 aContentPolicyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -4911,7 +4911,7 @@ TYPE_DOCUMENT
 aContentPolicyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_SUBDOCUMENT
@@ -4931,7 +4931,7 @@ if
 aContentPolicyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_IMAGE
@@ -4940,7 +4940,7 @@ TYPE_IMAGE
 aContentPolicyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_IMAGESET
@@ -4960,7 +4960,7 @@ if
 aContentPolicyType
 =
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_STYLESHEET

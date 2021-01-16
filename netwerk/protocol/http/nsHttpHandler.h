@@ -828,7 +828,7 @@ nsHttpRequestHead
 *
 bool
 isSecure
-nsContentPolicyType
+ExtContentPolicyType
 aContentPolicyType
 )
 ;

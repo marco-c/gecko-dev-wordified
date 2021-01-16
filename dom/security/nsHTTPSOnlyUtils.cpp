@@ -537,7 +537,7 @@ GetExternalContentPolicyType
 )
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -962,7 +962,7 @@ GetExternalContentPolicyType
 )
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
@@ -1923,7 +1923,7 @@ nothing
 to
 here
 .
-nsContentPolicyType
+ExtContentPolicyType
 type
 =
 loadInfo
@@ -1938,7 +1938,7 @@ if
 type
 !
 =
-nsIContentPolicy
+ExtContentPolicy
 :
 :
 TYPE_DOCUMENT
