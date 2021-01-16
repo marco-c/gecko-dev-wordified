@@ -18,8 +18,6 @@ Frame
     
 Session
     
-ShadowRoot
-    
 Timeouts
     
 Window
