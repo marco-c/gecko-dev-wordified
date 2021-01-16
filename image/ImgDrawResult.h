@@ -246,11 +246,11 @@ image
 state
 beforehand
 via
+the
+result
+of
 *
-nsStyleImage
-:
-:
-StartDecoding
+StartDecodingWithResult
 .
 This
 should
@@ -258,8 +258,8 @@ probably
 go
 away
 eventually
-*
 somehow
+*
 see
 bug
 1471583
