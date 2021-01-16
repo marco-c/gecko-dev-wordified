@@ -18379,9 +18379,9 @@ cx
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 UniquePtr
 <
 XDRIncrementalEncoderBase
@@ -18396,7 +18396,7 @@ if
 xdrEncodeInitialStencil
 (
 cx
-compilationInfos
+stencilSet
 .
 initial
 xdrEncoder
@@ -18413,7 +18413,7 @@ auto
 &
 delazification
 :
-compilationInfos
+stencilSet
 .
 delazifications
 )

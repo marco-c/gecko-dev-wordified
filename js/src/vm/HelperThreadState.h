@@ -212,7 +212,7 @@ h
 /
 /
 CompilationInfo
-CompilationInfoVector
+CompilationStencilSet
 CompilationGCOutput
 #
 include
@@ -2781,7 +2781,7 @@ compilationInfo_
 /
 Holds
 the
-CompilationInfoVector
+CompilationStencilSet
 generated
 by
 decoding
@@ -2792,9 +2792,9 @@ UniquePtr
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 >
-compilationInfos_
+stencilSet_
 ;
 frontend
 :

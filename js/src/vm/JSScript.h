@@ -6939,9 +6939,9 @@ cx
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 UniquePtr
 <
 XDRIncrementalEncoderBase

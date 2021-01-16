@@ -231,7 +231,7 @@ CompilationInfo
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 #
 include
 "
@@ -5071,14 +5071,14 @@ codeStencils
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 )
 {
 MOZ_ASSERT
 (
-compilationInfos
+stencilSet
 .
 delazifications
 .
@@ -5104,7 +5104,7 @@ cx
 runtime
 (
 )
-compilationInfos
+stencilSet
 .
 initial
 .
@@ -5121,7 +5121,7 @@ parserAtomBuilder
 stencilAlloc_
 =
 &
-compilationInfos
+stencilSet
 .
 initial
 .
@@ -5131,7 +5131,7 @@ MOZ_TRY
 (
 codeStencil
 (
-compilationInfos
+stencilSet
 .
 initial
 )
@@ -5140,7 +5140,7 @@ initial
 if
 (
 !
-compilationInfos
+stencilSet
 .
 delazifications
 .
@@ -5174,14 +5174,14 @@ TranscodeResult_Throw
 All
 delazification
 share
-CompilationInfoVector
+CompilationStencilSet
 .
 allocForDelazifications
 .
 stencilAlloc_
 =
 &
-compilationInfos
+stencilSet
 .
 allocForDelazifications
 ;
@@ -5201,7 +5201,7 @@ i
 +
 )
 {
-compilationInfos
+stencilSet
 .
 delazifications
 .
@@ -5213,7 +5213,7 @@ auto
 &
 delazification
 =
-compilationInfos
+stencilSet
 .
 delazifications
 [
@@ -5274,9 +5274,9 @@ codeStencils
 frontend
 :
 :
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 )
 {
 MOZ_ASSERT
@@ -5295,7 +5295,7 @@ MOZ_TRY
 (
 codeStencil
 (
-compilationInfos
+stencilSet
 .
 initial
 )
@@ -5307,7 +5307,7 @@ auto
 &
 delazification
 :
-compilationInfos
+stencilSet
 .
 delazifications
 )

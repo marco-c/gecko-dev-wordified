@@ -2030,9 +2030,9 @@ InstantiateStencils
 JSContext
 *
 cx
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 CompilationGCOutput
 &
 gcOutput
@@ -2062,7 +2062,7 @@ JS_Parsing
 if
 (
 !
-compilationInfos
+stencilSet
 .
 instantiateStencils
 (
@@ -2105,7 +2105,7 @@ isHelperThreadContext
 if
 (
 !
-compilationInfos
+stencilSet
 .
 initial
 .
@@ -2143,7 +2143,7 @@ script
 tellDebuggerAboutCompiledScript
 (
 cx
-compilationInfos
+stencilSet
 .
 initial
 .
@@ -2214,9 +2214,9 @@ PrepareForInstantiate
 JSContext
 *
 cx
-CompilationInfoVector
+CompilationStencilSet
 &
-compilationInfos
+stencilSet
 CompilationGCOutput
 &
 gcOutput
@@ -2243,7 +2243,7 @@ JS_Parsing
 )
 ;
 return
-compilationInfos
+stencilSet
 .
 prepareForInstantiate
 (
@@ -7468,7 +7468,7 @@ trc
 ;
 }
 void
-CompilationInfoVector
+CompilationStencilSet
 :
 :
 trace
