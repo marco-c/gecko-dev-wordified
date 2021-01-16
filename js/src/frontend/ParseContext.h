@@ -2310,7 +2310,7 @@ of
 the
 /
 /
-CompilationInfo
+CompilationStencil
 function
 vector
 .

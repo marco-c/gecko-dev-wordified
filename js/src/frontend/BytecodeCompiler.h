@@ -1015,7 +1015,7 @@ namespace
 frontend
 {
 struct
-CompilationInfo
+CompilationStencil
 ;
 struct
 CompilationGCOutput
@@ -1137,9 +1137,9 @@ ParseModuleToStencil
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 JS
 :
 :
@@ -1157,9 +1157,9 @@ ParseModuleToStencil
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 JS
 :
 :
@@ -1176,7 +1176,7 @@ srcBuf
 ;
 UniquePtr
 <
-CompilationInfo
+CompilationStencil
 >
 ParseModuleToStencil
 (
@@ -1203,7 +1203,7 @@ srcBuf
 ;
 UniquePtr
 <
-CompilationInfo
+CompilationStencil
 >
 ParseModuleToStencil
 (

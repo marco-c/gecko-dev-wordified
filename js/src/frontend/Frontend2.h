@@ -237,7 +237,7 @@ namespace
 frontend
 {
 struct
-CompilationInfo
+CompilationStencil
 ;
 struct
 CompilationGCOutput
@@ -279,9 +279,9 @@ compileGlobalScript
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 JS
 :
 :
@@ -309,9 +309,9 @@ compileGlobalScriptToStencil
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 JS
 :
 :
@@ -332,7 +332,7 @@ unimplemented
 static
 UniquePtr
 <
-CompilationInfo
+CompilationStencil
 >
 compileGlobalScriptToStencil
 (

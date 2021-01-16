@@ -277,9 +277,9 @@ JSContext
 cx
 Kind
 kind
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 Directives
 directives
 SourceExtent
@@ -290,9 +290,9 @@ cx_
 (
 cx
 )
-compilationInfo_
+stencil_
 (
-compilationInfo
+stencil
 )
 extent_
 (
@@ -381,7 +381,7 @@ Module
 MOZ_ASSERT
 (
 !
-compilationInfo
+stencil
 .
 input
 .
@@ -458,7 +458,7 @@ ReadOnlyCompileOptions
 &
 options
 =
-compilationInfo
+stencil
 .
 input
 .
@@ -1265,9 +1265,9 @@ JSContext
 cx
 ScopeKind
 scopeKind
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 Directives
 directives
 SourceExtent
@@ -1281,7 +1281,7 @@ Kind
 :
 :
 Global
-compilationInfo
+stencil
 directives
 extent
 )
@@ -1334,9 +1334,9 @@ EvalSharedContext
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1351,7 +1351,7 @@ Kind
 :
 :
 Eval
-compilationInfo
+stencil
 compilationState
 .
 directives
@@ -1433,9 +1433,9 @@ JSContext
 cx
 Kind
 kind
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 Directives
 directives
 SourceExtent
@@ -1450,7 +1450,7 @@ SharedContext
 (
 cx
 kind
-compilationInfo
+stencil
 directives
 extent
 )
@@ -1484,9 +1484,9 @@ JSContext
 cx
 SourceExtent
 extent
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1513,7 +1513,7 @@ Kind
 :
 :
 FunctionBox
-compilationInfo
+stencil
 directives
 extent
 generatorKind
@@ -2293,7 +2293,7 @@ AsmJS
 if
 (
 !
-compilationInfo_
+stencil_
 .
 asmJS
 .
@@ -2330,9 +2330,9 @@ ModuleSharedContext
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 ModuleBuilder
 &
 builder
@@ -2347,7 +2347,7 @@ Kind
 :
 :
 Module
-compilationInfo
+stencil
 Directives
 (
 true

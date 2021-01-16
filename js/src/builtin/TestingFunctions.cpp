@@ -374,7 +374,7 @@ h
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 frontend
 :
 :
@@ -31988,15 +31988,15 @@ Rooted
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
-compilationInfo
+stencil
 (
 cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 (
 cx
 options
@@ -32006,7 +32006,7 @@ options
 if
 (
 !
-compilationInfo
+stencil
 .
 get
 (
@@ -32033,7 +32033,7 @@ frontend
 CompileGlobalScriptToStencil
 (
 cx
-compilationInfo
+stencil
 .
 get
 (
@@ -32069,7 +32069,7 @@ xdrBytes
 if
 (
 !
-compilationInfo
+stencil
 .
 get
 (

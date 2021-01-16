@@ -18194,9 +18194,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 UniquePtr
 <
 XDRIncrementalEncoderBase
@@ -18301,7 +18301,7 @@ xdrEncoder
 >
 codeStencil
 (
-compilationInfo
+stencil
 )
 ;
 if

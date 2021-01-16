@@ -199,6 +199,18 @@ include
 "
 frontend
 /
+CompilationInfo
+.
+h
+"
+/
+/
+BaseCompilationStencil
+#
+include
+"
+frontend
+/
 ScriptIndex
 .
 h
@@ -3567,7 +3579,7 @@ stencil
 .
 scriptExtra
 [
-CompilationInfo
+CompilationStencil
 :
 :
 TopLevelIndex

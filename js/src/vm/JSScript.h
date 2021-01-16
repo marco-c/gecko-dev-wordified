@@ -560,7 +560,7 @@ namespace
 frontend
 {
 struct
-CompilationInfo
+CompilationStencil
 ;
 struct
 BaseCompilationStencil
@@ -6869,9 +6869,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 UniquePtr
 <
 XDRIncrementalEncoderBase

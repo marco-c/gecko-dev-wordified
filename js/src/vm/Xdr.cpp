@@ -227,7 +227,7 @@ BaseCompilationStencil
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 frontend
 :
 :
@@ -2998,9 +2998,9 @@ codeStencil
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 )
 {
 #
@@ -3085,7 +3085,7 @@ options
 =
 =
 &
-compilationInfo
+stencil
 .
 input
 .
@@ -3098,7 +3098,7 @@ MOZ_TRY
 XDRCompilationInput
 (
 this
-compilationInfo
+stencil
 .
 input
 )
@@ -3174,7 +3174,7 @@ MOZ_TRY
 ParserAtomTable
 (
 this
-compilationInfo
+stencil
 )
 )
 ;
@@ -3190,7 +3190,7 @@ MOZ_TRY
 XDRBaseCompilationStencil
 (
 this
-compilationInfo
+stencil
 )
 )
 ;

@@ -211,7 +211,7 @@ h
 "
 /
 /
-CompilationInfo
+CompilationStencil
 CompilationStencilSet
 CompilationGCOutput
 #
@@ -2761,7 +2761,7 @@ sourceObjects
 /
 Holds
 the
-CompilationInfo
+CompilationStencil
 generated
 for
 the
@@ -2773,9 +2773,9 @@ UniquePtr
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
-compilationInfo_
+stencil_
 ;
 /
 /

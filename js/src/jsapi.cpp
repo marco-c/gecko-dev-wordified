@@ -364,10 +364,6 @@ h
 frontend
 :
 :
-CompilationInfo
-frontend
-:
-:
 CompilationStencilSet
 frontend
 :

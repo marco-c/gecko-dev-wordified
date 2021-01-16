@@ -259,7 +259,7 @@ h
 /
 /
 CompilationState
-CompilationInfo
+CompilationStencil
 #
 include
 "
@@ -1057,9 +1057,9 @@ ParserAtom
 >
 &
 allAtoms
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1069,7 +1069,7 @@ LifoAlloc
 &
 alloc
 =
-compilationInfo
+stencil
 .
 alloc
 ;
@@ -1249,7 +1249,7 @@ ScopeStencil
 createForGlobalScope
 (
 cx
-compilationInfo
+stencil
 compilationState
 ScopeKind
 :
@@ -1391,7 +1391,7 @@ ScopeStencil
 createForVarScope
 (
 cx
-compilationInfo
+stencil
 compilationState
 ScopeKind
 :
@@ -1555,7 +1555,7 @@ ScopeStencil
 createForLexicalScope
 (
 cx
-compilationInfo
+stencil
 compilationState
 ScopeKind
 :
@@ -1768,7 +1768,7 @@ ScopeStencil
 createForFunctionScope
 (
 cx
-compilationInfo
+stencil
 compilationState
 data
 hasParameterExprs
@@ -1850,9 +1850,9 @@ const
 SmooshResult
 &
 result
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -1902,7 +1902,7 @@ auto
 *
 p
 =
-compilationInfo
+stencil
 .
 alloc
 .
@@ -1932,7 +1932,7 @@ return
 false
 ;
 }
-compilationInfo
+stencil
 .
 regExpData
 =
@@ -2202,7 +2202,7 @@ TokenStreamAnyChars
 ts
 (
 cx
-compilationInfo
+stencil
 .
 input
 .
@@ -2320,7 +2320,7 @@ mozilla
 :
 KnownNotNull
 &
-compilationInfo
+stencil
 .
 regExpData
 [
@@ -2599,9 +2599,9 @@ const
 SmooshScriptStencil
 &
 smooshScript
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -2961,9 +2961,9 @@ ParserAtom
 >
 &
 allAtoms
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 CompilationState
 &
 compilationState
@@ -2987,7 +2987,7 @@ ReadOnlyCompileOptions
 &
 options
 =
-compilationInfo
+stencil
 .
 input
 .
@@ -2997,7 +2997,7 @@ ScriptStencil
 &
 script
 =
-compilationInfo
+stencil
 .
 scriptData
 [
@@ -3008,7 +3008,7 @@ ScriptStencilExtra
 &
 scriptExtra
 =
-compilationInfo
+stencil
 .
 scriptExtra
 [
@@ -3226,7 +3226,7 @@ false
 if
 (
 !
-compilationInfo
+stencil
 .
 sharedData
 .
@@ -3428,7 +3428,7 @@ ConvertGCThings
 cx
 result
 smooshScript
-compilationInfo
+stencil
 compilationState
 allAtoms
 scriptIndex
@@ -3637,9 +3637,9 @@ compileGlobalScriptToStencil
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 JS
 :
 :
@@ -3711,7 +3711,7 @@ auto
 &
 options
 =
-compilationInfo
+stencil
 .
 input
 .
@@ -3870,12 +3870,12 @@ compilationState
 (
 cx
 allocScope
-compilationInfo
+stencil
 .
 input
 .
 options
-compilationInfo
+stencil
 )
 ;
 if
@@ -3902,7 +3902,7 @@ ConvertScopeStencil
 cx
 result
 allAtoms
-compilationInfo
+stencil
 compilationState
 )
 )
@@ -3918,7 +3918,7 @@ ConvertRegExpData
 (
 cx
 result
-compilationInfo
+stencil
 compilationState
 )
 )
@@ -3971,7 +3971,7 @@ auto
 *
 pscript
 =
-compilationInfo
+stencil
 .
 alloc
 .
@@ -4001,7 +4001,7 @@ return
 false
 ;
 }
-compilationInfo
+stencil
 .
 scriptData
 =
@@ -4018,7 +4018,7 @@ auto
 *
 pextra
 =
-compilationInfo
+stencil
 .
 alloc
 .
@@ -4048,7 +4048,7 @@ return
 false
 ;
 }
-compilationInfo
+stencil
 .
 scriptExtra
 =
@@ -4177,7 +4177,7 @@ nonLazyFunctionCount
 ;
 }
 }
-compilationInfo
+stencil
 .
 prepareStorageFor
 (
@@ -4208,7 +4208,7 @@ mozilla
 :
 KnownNotNull
 &
-compilationInfo
+stencil
 .
 scriptData
 [
@@ -4235,7 +4235,7 @@ data
 i
 ]
 allAtoms
-compilationInfo
+stencil
 compilationState
 ScriptIndex
 (
@@ -4257,7 +4257,7 @@ compilationState
 finish
 (
 cx
-compilationInfo
+stencil
 )
 )
 {
@@ -4276,7 +4276,7 @@ static
 /
 UniquePtr
 <
-CompilationInfo
+CompilationStencil
 >
 Smoosh
 :
@@ -4314,10 +4314,10 @@ UniquePtr
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
 >
-compilationInfo
+stencil
 (
 cx
 js_new
@@ -4325,7 +4325,7 @@ js_new
 frontend
 :
 :
-CompilationInfo
+CompilationStencil
 >
 (
 cx
@@ -4336,7 +4336,7 @@ options
 if
 (
 !
-compilationInfo
+stencil
 )
 {
 ReportOutOfMemory
@@ -4351,7 +4351,7 @@ nullptr
 if
 (
 !
-compilationInfo
+stencil
 .
 get
 (
@@ -4377,7 +4377,7 @@ compileGlobalScriptToStencil
 (
 cx
 *
-compilationInfo
+stencil
 .
 get
 (
@@ -4401,7 +4401,7 @@ std
 :
 move
 (
-compilationInfo
+stencil
 .
 get
 (
@@ -4423,9 +4423,9 @@ compileGlobalScript
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 JS
 :
 :
@@ -4449,7 +4449,7 @@ if
 compileGlobalScriptToStencil
 (
 cx
-compilationInfo
+stencil
 srcBuf
 unimplemented
 )
@@ -4462,13 +4462,13 @@ false
 if
 (
 !
-CompilationInfo
+CompilationStencil
 :
 :
 instantiateStencils
 (
 cx
-compilationInfo
+stencil
 gcOutput
 )
 )

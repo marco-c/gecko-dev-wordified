@@ -391,7 +391,7 @@ if
 bce
 -
 >
-compilationInfo
+stencil
 .
 input
 .
@@ -403,7 +403,7 @@ hops
 bce
 -
 >
-compilationInfo
+stencil
 .
 input
 .
@@ -444,7 +444,7 @@ also
 the
 assertion
 in
-CompilationInfo
+CompilationStencil
 :
 :
 instantiateStencils
@@ -2366,7 +2366,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 .
 input
 .
@@ -2406,7 +2406,7 @@ jsname
 bce
 -
 >
-compilationInfo
+stencil
 .
 input
 .
@@ -3894,7 +3894,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 bce
 -
 >
@@ -4306,7 +4306,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 bce
 -
 >
@@ -4929,7 +4929,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 bce
 -
 >
@@ -5461,7 +5461,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 bce
 -
 >
@@ -5810,7 +5810,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 bce
 -
 >
@@ -6243,7 +6243,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 bce
 -
 >
@@ -6790,7 +6790,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 bce
 -
 >
@@ -6920,7 +6920,7 @@ cx
 bce
 -
 >
-compilationInfo
+stencil
 bce
 -
 >
