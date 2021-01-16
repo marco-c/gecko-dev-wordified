@@ -897,7 +897,7 @@ into
 or
 converted
 from
-CompilationStencil
+BaseCompilationStencil
 .
 parserAtomData
 .
@@ -1169,7 +1169,7 @@ EmptyGlobalScopeType
 in
 /
 /
-CompilationStencil
+BaseCompilationStencil
 .
 gcThings
 .
@@ -1271,7 +1271,7 @@ EmptyGlobalScopeType
 in
 /
 /
-CompilationStencil
+BaseCompilationStencil
 .
 gcThings
 even
@@ -1592,7 +1592,7 @@ data
 /
 Copied
 to
-CompilationStencil
+BaseCompilationStencil
 by
 finish
 method
@@ -1603,7 +1603,7 @@ method
 /
 See
 corresponding
-CompilationStencil
+BaseCompilationStencil
 fields
 for
 desription
@@ -1733,7 +1733,7 @@ passed
 to
 /
 /
-CompilationStencil
+BaseCompilationStencil
 .
 prepareStorageFor
 *
@@ -2106,7 +2106,7 @@ of
 stencil
 .
 struct
-CompilationStencil
+BaseCompilationStencil
 {
 /
 /
@@ -2436,7 +2436,7 @@ functionKey
 {
 }
 ;
-CompilationStencil
+BaseCompilationStencil
 (
 )
 =
@@ -2455,9 +2455,9 @@ work
 with
 Rooted
 .
-CompilationStencil
+BaseCompilationStencil
 (
-CompilationStencil
+BaseCompilationStencil
 &
 &
 other
@@ -2505,7 +2505,7 @@ finished
 and
 /
 /
-CompilationStencil
+BaseCompilationStencil
 .
 scriptData
 field
@@ -2923,7 +2923,7 @@ index_
 0
 ;
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil_
 ;
@@ -2934,7 +2934,7 @@ gcOutput_
 Iterator
 (
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -2978,7 +2978,7 @@ explicit
 Iterator
 (
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3225,7 +3225,7 @@ Iterator
 end
 (
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3251,7 +3251,7 @@ size
 }
 ;
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil_
 ;
@@ -3263,7 +3263,7 @@ explicit
 ScriptStencilIterable
 (
 const
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3384,7 +3384,7 @@ LifoAllocChunkSize
 CompilationInput
 input
 ;
-CompilationStencil
+BaseCompilationStencil
 stencil
 ;
 /
@@ -3536,7 +3536,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -3549,7 +3549,7 @@ prepareGCOutputForInstantiate
 JSContext
 *
 cx
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3600,7 +3600,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3760,7 +3760,7 @@ static
 ScriptStencilIterable
 functionScriptStencils
 (
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3863,7 +3863,7 @@ allocForDelazifications
 ;
 Vector
 <
-CompilationStencil
+BaseCompilationStencil
 0
 js
 :

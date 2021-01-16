@@ -1012,7 +1012,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -1145,7 +1145,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 const
@@ -1453,7 +1453,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -1701,7 +1701,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -1808,7 +1808,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -1956,7 +1956,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -2208,7 +2208,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -2536,7 +2536,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -2983,7 +2983,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3316,7 +3316,7 @@ static
 void
 LinkEnclosingLazyScript
 (
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3497,7 +3497,7 @@ static
 void
 AssertDelazificationFieldsMatch
 (
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -3929,7 +3929,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -4048,7 +4048,7 @@ stencil
 functionKey
 =
 =
-CompilationStencil
+BaseCompilationStencil
 :
 :
 toFunctionKey
@@ -4375,7 +4375,7 @@ false
 }
 HashMap
 <
-CompilationStencil
+BaseCompilationStencil
 :
 :
 FunctionKey
@@ -4494,7 +4494,7 @@ i
 auto
 key
 =
-CompilationStencil
+BaseCompilationStencil
 :
 :
 toFunctionKey
@@ -4846,7 +4846,7 @@ cx
 CompilationInput
 &
 input
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -4893,7 +4893,7 @@ prepareGCOutputForInstantiate
 JSContext
 *
 cx
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 CompilationGCOutput
@@ -6499,7 +6499,7 @@ ScriptStencil
 :
 gcthings
 (
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -6543,7 +6543,7 @@ JSONPrinter
 json
 TaggedParserAtomIndex
 taggedIndex
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -7053,7 +7053,7 @@ js
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -7089,7 +7089,7 @@ js
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -7404,7 +7404,7 @@ json
 BaseParserScopeData
 *
 baseScopeData
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -7444,7 +7444,7 @@ json
 BaseParserScopeData
 *
 baseScopeData
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -8472,7 +8472,7 @@ StencilModuleMetadata
 EntryVector
 &
 entries
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -8674,7 +8674,7 @@ js
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -8710,7 +8710,7 @@ js
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -9968,7 +9968,7 @@ js
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 TaggedScriptThingIndex
@@ -10284,7 +10284,7 @@ js
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -10320,7 +10320,7 @@ js
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -11110,7 +11110,7 @@ m
 ;
 }
 void
-CompilationStencil
+BaseCompilationStencil
 :
 :
 dump
@@ -11152,7 +11152,7 @@ n
 ;
 }
 void
-CompilationStencil
+BaseCompilationStencil
 :
 :
 dump
@@ -12409,7 +12409,7 @@ true
 const
 ParserAtom
 *
-CompilationStencil
+BaseCompilationStencil
 :
 :
 getParserAtomAt

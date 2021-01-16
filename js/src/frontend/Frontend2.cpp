@@ -4233,7 +4233,7 @@ scriptData
 i
 ]
 )
-CompilationStencil
+BaseCompilationStencil
 (
 )
 ;

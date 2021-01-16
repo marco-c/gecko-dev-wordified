@@ -6425,14 +6425,14 @@ the
 FunctionKey
 in
 the
-CompilationStencil
+BaseCompilationStencil
 since
 it
 does
 not
+/
+/
 contain
-/
-/
 any
 of
 the
@@ -6445,7 +6445,7 @@ stencil
 .
 functionKey
 =
-CompilationStencil
+BaseCompilationStencil
 :
 :
 toFunctionKey

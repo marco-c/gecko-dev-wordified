@@ -1237,7 +1237,7 @@ newBigInt
 (
 BigIntIndex
 index
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 const

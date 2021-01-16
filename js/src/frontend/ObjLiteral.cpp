@@ -975,7 +975,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 mozilla
@@ -1436,7 +1436,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -1475,7 +1475,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -1539,7 +1539,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -1578,7 +1578,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )

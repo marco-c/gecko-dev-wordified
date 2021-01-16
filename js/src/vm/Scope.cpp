@@ -173,7 +173,7 @@ h
 /
 CompiltionAtomCache
 CompilationInput
-CompilationStencil
+BaseCompilationStencil
 CompilationGCOutput
 #
 include

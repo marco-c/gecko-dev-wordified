@@ -231,7 +231,7 @@ struct
 CompilationInput
 ;
 struct
-CompilationStencil
+BaseCompilationStencil
 ;
 }
 /
@@ -1616,7 +1616,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -1755,7 +1755,7 @@ number
 of
 chunks
 (
-CompilationStencils
+BaseCompilationStencils
 )
 in
 the
@@ -3465,7 +3465,7 @@ codeFunctionStencil
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -5136,7 +5136,7 @@ atoms
 /
 c
 .
-CompilationStencil
+BaseCompilationStencil
 /
 /
 4
@@ -5161,7 +5161,7 @@ atoms
 /
 c
 .
-CompilationStencil
+BaseCompilationStencil
 /
 /
 A
@@ -5249,7 +5249,7 @@ const
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -5405,7 +5405,7 @@ XDRMode
 mode
 >
 XDRResult
-XDRCompilationStencil
+XDRBaseCompilationStencil
 (
 XDRState
 <
@@ -5416,7 +5416,7 @@ xdr
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )

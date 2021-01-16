@@ -2298,7 +2298,7 @@ nullptr
 /
 Index
 into
-CompilationStencil
+BaseCompilationStencil
 :
 :
 scriptData

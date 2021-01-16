@@ -1197,7 +1197,7 @@ struct
 CompilationAtomCache
 ;
 struct
-CompilationStencil
+BaseCompilationStencil
 ;
 class
 StencilXDR
@@ -2634,7 +2634,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -2648,7 +2648,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -3803,7 +3803,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -3817,7 +3817,7 @@ json
 frontend
 :
 :
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )

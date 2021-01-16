@@ -521,7 +521,7 @@ struct
 CompilationAtomCache
 ;
 struct
-CompilationStencil
+BaseCompilationStencil
 ;
 struct
 CompilationGCOutput
@@ -750,7 +750,7 @@ Index
 into
 {
 CompilationState
-CompilationStencil
+BaseCompilationStencil
 }
 .
 gcThingData
@@ -912,7 +912,7 @@ complete
 instantiation
 of
 the
-CompilationStencil
+BaseCompilationStencil
 .
 RegExpObject
 *
@@ -924,7 +924,7 @@ cx
 CompilationAtomCache
 &
 atomCache
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -953,7 +953,7 @@ dump
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -964,7 +964,7 @@ dumpFields
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -2155,7 +2155,7 @@ json
 BaseParserScopeData
 *
 baseScopeData
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -2169,7 +2169,7 @@ json
 BaseParserScopeData
 *
 baseScopeData
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -3160,7 +3160,7 @@ dump
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -3171,7 +3171,7 @@ dumpFields
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -4197,17 +4197,19 @@ GCThings
 are
 stored
 into
+/
+/
 {
 CompilationState
-CompilationStencil
+BaseCompilationStencil
 }
 .
 gcThingData
-/
-/
 in
 [
 gcThingsOffset
+/
+/
 gcThingsOffset
 +
 gcThingsLength
@@ -4482,7 +4484,7 @@ data
 is
 stored
 into
-CompilationStencil
+BaseCompilationStencil
 .
 sharedData
 .
@@ -4639,7 +4641,7 @@ TaggedScriptThingIndex
 >
 gcthings
 (
-CompilationStencil
+BaseCompilationStencil
 &
 stencil
 )
@@ -4864,7 +4866,7 @@ dump
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -4875,7 +4877,7 @@ dumpFields
 JSONPrinter
 &
 json
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
@@ -5043,7 +5045,7 @@ JSONPrinter
 json
 TaggedParserAtomIndex
 taggedIndex
-CompilationStencil
+BaseCompilationStencil
 *
 compilationStencil
 )
