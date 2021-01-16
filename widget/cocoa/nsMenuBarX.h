@@ -669,6 +669,12 @@ nsCOMPtr
 <
 nsIContent
 >
+mUpdateItemContent
+;
+nsCOMPtr
+<
+nsIContent
+>
 mPrefItemContent
 ;
 nsCOMPtr
