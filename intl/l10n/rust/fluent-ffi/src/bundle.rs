@@ -69,15 +69,6 @@ FluentDateTimeOptions
 NumberFormat
 }
 ;
-use
-fluent
-:
-:
-resolver
-:
-:
-ResolverError
-;
 pub
 use
 fluent
