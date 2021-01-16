@@ -906,11 +906,6 @@ const
 SkMatrix
 &
 matrix
-SkScalar
-*
-overscale
-=
-nullptr
 )
 ;
 private
