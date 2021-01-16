@@ -193,12 +193,6 @@ u
 nu
 -
 latn
--
-x
--
-cel
--
-gaulish
 "
 }
 /

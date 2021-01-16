@@ -276,7 +276,7 @@ sameValue
 descriptor1
 .
 value
-42n
+43n
 )
 ;
 assert
