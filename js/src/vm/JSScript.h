@@ -13502,7 +13502,7 @@ js
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 js

@@ -25566,15 +25566,9 @@ MOZ_ASSERT_IF
 (
 stencil
 .
-scriptExtra
-.
-size
+isInitialStencil
 (
 )
->
-scriptIndex
-.
-index
 script
 -
 >
@@ -25584,6 +25578,10 @@ immutableFlags
 =
 =
 stencil
+.
+asCompilationStencil
+(
+)
 .
 scriptExtra
 [
@@ -25872,7 +25870,7 @@ js
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 frontend

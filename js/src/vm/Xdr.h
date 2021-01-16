@@ -5141,6 +5141,12 @@ BaseCompilationStencil
 /
 d
 .
+ScriptStencilExtra
+array
+/
+/
+e
+.
 moduleMetadata
 if
 exists
