@@ -735,17 +735,6 @@ true
 isDomainMismatch
 :
 true
-subjectAltNames
-:
-content
-.
-document
-.
-getFailedCertSecurityInfo
-(
-)
-.
-subjectAltNames
 }
 content
 .
