@@ -204,9 +204,7 @@ push
 (
 dialogBox
 .
-getTabDialogManager
-(
-)
+_dialogManager
 .
 _topDialog
 )
@@ -621,7 +619,7 @@ dialogBoxManager
 =
 dialogBox
 .
-getTabDialogManager
+getManager
 (
 )
 ;
@@ -738,7 +736,7 @@ tabs
 linkedBrowser
 )
 .
-getTabDialogManager
+getManager
 (
 )
 ;
