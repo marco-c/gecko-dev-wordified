@@ -3590,7 +3590,7 @@ when
 host_is_windows
 paths
 =
-host_toolchain_search_path
+toolchain_search_path
 )
 add_old_configure_assignment
 (
