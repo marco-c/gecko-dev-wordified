@@ -185,7 +185,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -215,13 +214,28 @@ item
 ]
 )
 ;
-await
-clickOnSidebarTab
+EventUtils
+.
+sendMouseEvent
 (
+{
+type
+:
+"
+click
+"
+}
 document
+.
+querySelector
+(
 "
+#
 request
+-
+tab
 "
+)
 )
 ;
 await
@@ -262,7 +276,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -330,7 +343,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -412,7 +424,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -505,7 +516,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -612,7 +622,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -666,7 +675,6 @@ text
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -718,7 +726,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -786,7 +793,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

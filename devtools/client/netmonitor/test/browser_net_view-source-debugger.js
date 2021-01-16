@@ -285,7 +285,6 @@ on
 the
 first
 request
-await
 EventUtils
 .
 sendMouseEvent

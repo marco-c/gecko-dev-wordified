@@ -409,7 +409,6 @@ item
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -431,7 +430,6 @@ length
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

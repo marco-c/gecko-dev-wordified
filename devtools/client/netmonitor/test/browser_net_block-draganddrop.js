@@ -453,7 +453,6 @@ overview
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -840,7 +839,6 @@ transferred
 .
 textContent
 ;
-await
 EventUtils
 .
 sendMouseEvent

@@ -553,7 +553,6 @@ context
 menu
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

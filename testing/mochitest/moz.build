@@ -280,15 +280,6 @@ tests
 /
 SimpleTest
 /
-AccessibilityUtils
-.
-js
-"
-"
-tests
-/
-SimpleTest
-/
 EventUtils
 .
 js

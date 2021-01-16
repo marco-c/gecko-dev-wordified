@@ -409,7 +409,6 @@ length
 1
 ]
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -424,7 +423,6 @@ mousedown
 lastRequest
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -934,7 +932,6 @@ TabOpen
 false
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

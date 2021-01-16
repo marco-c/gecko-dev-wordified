@@ -424,7 +424,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -466,7 +465,6 @@ click
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -514,7 +512,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -559,7 +556,6 @@ Sorting
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -624,7 +620,6 @@ testContents
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -669,7 +664,6 @@ Columns
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1372,7 +1366,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

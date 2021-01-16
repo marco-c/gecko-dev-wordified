@@ -518,7 +518,6 @@ registered
 }
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

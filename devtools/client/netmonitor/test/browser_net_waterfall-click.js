@@ -124,7 +124,6 @@ panel
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

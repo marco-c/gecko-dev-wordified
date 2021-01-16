@@ -443,7 +443,6 @@ context
 menu
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -546,7 +545,6 @@ column
 }
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -799,7 +797,6 @@ column
 }
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

@@ -242,7 +242,6 @@ resizer
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -361,7 +360,6 @@ Resizing
 transferred
 column
 .
-await
 EventUtils
 .
 sendMouseEvent

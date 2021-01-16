@@ -526,7 +526,6 @@ ascending
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -656,7 +655,6 @@ descending
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -798,7 +796,6 @@ ascending
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -873,7 +870,6 @@ descending
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1524,7 +1520,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

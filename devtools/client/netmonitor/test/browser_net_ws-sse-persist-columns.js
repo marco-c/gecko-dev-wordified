@@ -535,7 +535,6 @@ the
 WS
 request
 .
-await
 EventUtils
 .
 sendMouseEvent
@@ -609,13 +608,28 @@ finBit
 )
 )
 ;
-await
-clickOnSidebarTab
+EventUtils
+.
+sendMouseEvent
 (
+{
+type
+:
+"
+click
+"
+}
 document
+.
+querySelector
+(
 "
+#
 response
+-
+tab
 "
+)
 )
 ;
 /
@@ -895,7 +909,6 @@ the
 SSE
 request
 .
-await
 EventUtils
 .
 sendMouseEvent
@@ -1154,7 +1167,6 @@ WS
 request
 again
 .
-await
 EventUtils
 .
 sendMouseEvent
@@ -1226,7 +1238,6 @@ SSE
 request
 again
 .
-await
 EventUtils
 .
 sendMouseEvent
@@ -1315,7 +1326,6 @@ WS
 request
 again
 .
-await
 EventUtils
 .
 sendMouseEvent
@@ -1406,7 +1416,6 @@ SSE
 request
 again
 .
-await
 EventUtils
 .
 sendMouseEvent
@@ -1481,7 +1490,6 @@ WS
 request
 again
 .
-await
 EventUtils
 .
 sendMouseEvent

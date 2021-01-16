@@ -3355,7 +3355,6 @@ opened
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

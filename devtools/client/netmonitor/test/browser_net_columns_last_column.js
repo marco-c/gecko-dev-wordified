@@ -293,7 +293,6 @@ testLastMenuItem
 column
 )
 {
-await
 EventUtils
 .
 sendMouseEvent

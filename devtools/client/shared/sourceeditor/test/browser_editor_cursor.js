@@ -446,7 +446,6 @@ gutters
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

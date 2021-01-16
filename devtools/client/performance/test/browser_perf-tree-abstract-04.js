@@ -235,7 +235,6 @@ focus
 "
 )
 ;
-await
 dblclick
 (
 treeRoot
