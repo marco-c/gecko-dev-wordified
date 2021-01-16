@@ -544,6 +544,7 @@ Type
 GetType
 (
 )
+const
 =
 0
 ;
@@ -602,6 +603,7 @@ Type
 GetType
 (
 )
+const
 override
 {
 return
@@ -650,6 +652,7 @@ Type
 GetType
 (
 )
+const
 override
 {
 return
@@ -845,6 +848,7 @@ Type
 GetType
 (
 )
+const
 override
 {
 return
@@ -941,6 +945,7 @@ Type
 GetType
 (
 )
+const
 override
 {
 return
