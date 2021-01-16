@@ -113,9 +113,6 @@ frame
 =
 f
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
@@ -163,9 +160,6 @@ frame
 true
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
@@ -190,9 +184,6 @@ next
 (
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
