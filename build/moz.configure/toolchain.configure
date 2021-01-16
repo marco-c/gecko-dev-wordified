@@ -5098,6 +5098,20 @@ bin
 )
 depends
 (
+bootstrap_search_path
+(
+"
+rustc
+"
+"
+bin
+"
+when
+=
+"
+MOZ_AUTOMATION
+"
+)
 original_path
 )
 imports
@@ -5122,6 +5136,7 @@ environ
 def
 rust_search_path
 (
+rust_path
 original_path
 )
 :
@@ -5129,6 +5144,8 @@ result
 =
 list
 (
+rust_path
+or
 original_path
 )
 #
