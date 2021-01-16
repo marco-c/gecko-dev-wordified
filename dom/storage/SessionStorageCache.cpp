@@ -1958,7 +1958,7 @@ newOriginUsage
 LocalStorageManager
 :
 :
-GetQuota
+GetOriginQuota
 (
 )
 )
