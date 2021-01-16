@@ -46476,8 +46476,7 @@ aEventStatus
 {
 /
 /
-Probably
-handled
+Handled
 by
 AccessibleCaretEventHub
 .
@@ -46495,8 +46494,7 @@ aGUIEvent
 {
 /
 /
-Nobody
-cannot
+Cannot
 handle
 the
 event
