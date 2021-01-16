@@ -959,8 +959,8 @@ JS
 :
 :
 HandleObject
-uint32_t
-int32_t
+size_t
+int64_t
 )
 JSObject
 *

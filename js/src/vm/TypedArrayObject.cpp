@@ -5578,9 +5578,9 @@ JSContext
 cx
 HandleObject
 bufobj
-uint32_t
+size_t
 byteOffset
-int32_t
+int64_t
 lengthInt
 )
 {
@@ -16459,10 +16459,10 @@ JSContext
 cx
 HandleObject
 arrayBuffer
-uint32_t
+size_t
 byteOffset
 \
-int32_t
+int64_t
 length
 )
 {
