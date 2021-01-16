@@ -25904,10 +25904,12 @@ scriptExtent
 =
 stencil
 .
-scriptExtent
+scriptExtra
 [
 scriptIndex
 ]
+.
+extent
 ;
 MOZ_ASSERT
 (

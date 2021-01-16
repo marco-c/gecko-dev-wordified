@@ -4130,7 +4130,7 @@ if
 !
 compilationState_
 .
-scriptExtent
+scriptExtra
 .
 emplaceBack
 (
@@ -4483,7 +4483,7 @@ if
 !
 compilationState_
 .
-scriptExtent
+scriptExtra
 .
 emplaceBack
 (
@@ -5075,13 +5075,15 @@ column
 .
 compilationState_
 .
-scriptExtent
+scriptExtra
 [
 CompilationInfo
 :
 :
 TopLevelIndex
 ]
+.
+extent
 =
 SourceExtent
 {

@@ -2427,10 +2427,12 @@ const
 return
 compilationState_
 .
-scriptExtent
+scriptExtra
 [
 funcDataIndex_
 ]
+.
+extent
 ;
 }
 void

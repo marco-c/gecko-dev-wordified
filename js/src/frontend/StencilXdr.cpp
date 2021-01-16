@@ -3630,7 +3630,7 @@ XDRSpanContent
 xdr
 stencil
 .
-scriptExtent
+scriptExtra
 )
 )
 ;

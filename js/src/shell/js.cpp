@@ -32601,7 +32601,7 @@ if
 !
 compilationState
 .
-scriptExtent
+scriptExtra
 .
 emplaceBack
 (

@@ -29243,6 +29243,12 @@ AssignmentNode
 node
 )
 {
+TDZCheckCache
+tdzCache
+(
+this
+)
+;
 JSOp
 op
 ;
@@ -70701,10 +70707,12 @@ extent
 =
 compilationState
 .
-scriptExtent
+scriptExtra
 [
 scriptIndex
 ]
+.
+extent
 ;
 sc
 -
