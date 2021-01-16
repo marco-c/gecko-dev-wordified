@@ -7994,10 +7994,6 @@ self
 .
 texture_cache
 &
-self
-.
-cached_render_tasks
-&
 mut
 self
 .
