@@ -718,6 +718,32 @@ symbol
 p
 "
                 
+task
+.
+task
+[
+"
+extra
+"
+]
+[
+"
+treeherder
+"
+]
+[
+"
+groupName
+"
+]
++
+=
+"
+(
+profiling
+)
+"
+                
 return
 task
             
