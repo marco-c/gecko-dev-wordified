@@ -20445,8 +20445,6 @@ parser
 getCompilationInfo
 (
 )
-.
-stencil
 )
 ;
 if

@@ -2295,8 +2295,6 @@ if
 !
 compilationInfo_
 .
-stencil
-.
 asmJS
 .
 putNew

@@ -10815,8 +10815,6 @@ this
 >
 compilationInfo_
 .
-stencil
-.
 moduleMetadata
 .
 emplace
@@ -11113,8 +11111,6 @@ this
 >
 compilationInfo_
 .
-stencil
-.
 moduleMetadata
 )
 ;
@@ -11147,8 +11143,6 @@ this
 -
 >
 compilationInfo_
-.
-stencil
 .
 moduleMetadata
 )
@@ -11183,8 +11177,6 @@ this
 -
 >
 compilationInfo_
-.
-stencil
 .
 moduleMetadata
 ;
@@ -61061,8 +61053,6 @@ getCompilationInfo
 (
 )
 .
-stencil
-.
 bigIntData
 .
 length
@@ -61105,8 +61095,6 @@ getCompilationInfo
 (
 )
 .
-stencil
-.
 bigIntData
 .
 emplaceBack
@@ -61137,8 +61125,6 @@ this
 getCompilationInfo
 (
 )
-.
-stencil
 .
 bigIntData
 [
@@ -61196,8 +61182,6 @@ this
 getCompilationInfo
 (
 )
-.
-stencil
 pos
 (
 )
@@ -67897,8 +67881,6 @@ scriptData
 length
 (
 )
-stencil
-.
 asmJS
 .
 count
@@ -67927,8 +67909,6 @@ pos
 {
 if
 (
-stencil
-.
 asmJS
 .
 count
@@ -67965,8 +67945,6 @@ i
 +
 )
 {
-stencil
-.
 asmJS
 .
 remove
@@ -67980,8 +67958,6 @@ i
 }
 MOZ_ASSERT
 (
-stencil
-.
 asmJS
 .
 count

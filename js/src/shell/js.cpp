@@ -32904,8 +32904,6 @@ JS_JITSPEW
 compilationInfo
 -
 >
-stencil
-.
 dump
 (
 )
@@ -33931,8 +33929,6 @@ DEBUG
 compilationInfo
 -
 >
-stencil
-.
 dump
 (
 )

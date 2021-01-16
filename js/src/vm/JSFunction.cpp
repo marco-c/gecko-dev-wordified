@@ -10757,8 +10757,6 @@ compilationInfo
 get
 (
 )
-.
-stencil
 )
 )
 {

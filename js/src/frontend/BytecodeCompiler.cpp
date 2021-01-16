@@ -4652,8 +4652,6 @@ moduleMetadata
 *
 compilationInfo
 .
-stencil
-.
 moduleMetadata
 ;
 builder
@@ -5203,8 +5201,6 @@ isAsmJSModule
 MOZ_ASSERT
 (
 compilationInfo
-.
-stencil
 .
 asmJS
 .
@@ -6440,8 +6436,6 @@ SourceExtents
 itself
 .
 compilationInfo
-.
-stencil
 .
 functionKey
 =
