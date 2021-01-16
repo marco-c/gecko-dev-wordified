@@ -988,10 +988,13 @@ activeItemIndex
 ;
 }
 }
-successor
+window
 .
-focus
+AboutLoginsUtils
+.
+setFocus
 (
+successor
 )
 ;
 }
