@@ -59461,16 +59461,11 @@ initializerIfPrivate
 (
 )
 ;
-if
+MOZ_ASSERT
 (
-!
 funNode
 )
-{
-return
-false
 ;
-}
 FunctionBox
 *
 funbox
