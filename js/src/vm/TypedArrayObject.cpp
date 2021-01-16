@@ -17245,3 +17245,16 @@ type
 )
 ;
 }
+JS_FRIEND_API
+size_t
+JS_MaxMovableTypedArraySize
+(
+)
+{
+return
+TypedArrayObject
+:
+:
+INLINE_BUFFER_LIMIT
+;
+}
