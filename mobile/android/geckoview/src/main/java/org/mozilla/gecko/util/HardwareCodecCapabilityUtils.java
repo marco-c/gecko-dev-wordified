@@ -978,9 +978,7 @@ toLowerCase
 (
 Locale
 .
-getDefault
-(
-)
+ROOT
 )
 .
 equals

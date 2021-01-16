@@ -10250,7 +10250,7 @@ toLowerCase
 (
 Locale
 .
-ENGLISH
+ROOT
 )
 .
 contains

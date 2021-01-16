@@ -166,6 +166,13 @@ util
 List
 ;
 import
+java
+.
+util
+.
+Locale
+;
+import
 org
 .
 mozilla
@@ -491,6 +498,9 @@ src
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 ;
 this
@@ -506,6 +516,9 @@ type
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 :
 null
@@ -670,6 +683,9 @@ sizesStr
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 .
 split

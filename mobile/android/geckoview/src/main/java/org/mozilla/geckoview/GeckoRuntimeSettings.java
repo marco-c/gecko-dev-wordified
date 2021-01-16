@@ -4979,6 +4979,9 @@ locale
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 ;
@@ -5007,6 +5010,9 @@ locale
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 ;
 if

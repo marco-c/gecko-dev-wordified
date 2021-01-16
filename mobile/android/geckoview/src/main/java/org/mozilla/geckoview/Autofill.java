@@ -144,6 +144,13 @@ java
 .
 util
 .
+Locale
+;
+import
+java
+.
+util
+.
 Map
 ;
 import
@@ -4387,6 +4394,9 @@ tag
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 ;
 mNode
@@ -4562,6 +4572,9 @@ text
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 ;
 switch
@@ -4703,6 +4716,9 @@ autofillhint
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 ;
 if

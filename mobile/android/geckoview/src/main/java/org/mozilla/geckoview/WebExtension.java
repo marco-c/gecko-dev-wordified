@@ -163,6 +163,13 @@ util
 .
 List
 ;
+import
+java
+.
+util
+.
+Locale
+;
 /
 *
 *
@@ -17394,6 +17401,9 @@ conflictActionString
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 {

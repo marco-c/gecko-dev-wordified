@@ -171,6 +171,13 @@ annotation
 .
 RetentionPolicy
 ;
+import
+java
+.
+util
+.
+Locale
+;
 /
 *
 *
@@ -2878,6 +2885,9 @@ event
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 )
 {

@@ -168,6 +168,13 @@ util
 List
 ;
 import
+java
+.
+util
+.
+Locale
+;
+import
 org
 .
 mozilla
@@ -1004,6 +1011,9 @@ uri
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 .
 matches

@@ -912,7 +912,7 @@ toLowerCase
 (
 Locale
 .
-US
+ROOT
 )
 ;
 if

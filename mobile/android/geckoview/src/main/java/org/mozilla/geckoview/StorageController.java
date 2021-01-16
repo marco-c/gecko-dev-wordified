@@ -133,6 +133,13 @@ math
 BigInteger
 ;
 import
+java
+.
+util
+.
+Locale
+;
+import
 androidx
 .
 annotation
@@ -1086,6 +1093,9 @@ getBytes
 .
 toLowerCase
 (
+Locale
+.
+ROOT
 )
 ;
 }
