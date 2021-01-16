@@ -296,7 +296,7 @@ newEncoding
 =
 encodings
 [
-0
+1
 ]
 .
 hasAttribute
@@ -308,12 +308,12 @@ checked
 ?
 encodings
 [
-1
+2
 ]
 :
 encodings
 [
-0
+1
 ]
 ;
 let
