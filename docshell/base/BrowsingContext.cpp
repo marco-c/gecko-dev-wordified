@@ -315,17 +315,6 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 HTMLEmbedElement
 .
 h

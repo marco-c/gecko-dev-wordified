@@ -201,6 +201,9 @@ namespace
 dom
 {
 class
+WindowGlobalChild
+;
+class
 WindowGlobalParent
 ;
 class
@@ -851,6 +854,13 @@ const
 Document
 *
 GetExtantDoc
+(
+)
+const
+;
+WindowGlobalChild
+*
+GetWindowGlobalChild
 (
 )
 const
