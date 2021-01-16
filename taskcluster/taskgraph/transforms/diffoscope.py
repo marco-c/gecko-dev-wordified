@@ -173,6 +173,20 @@ text_type
         
 #
 Treeherder
+tier
+.
+        
+Required
+(
+"
+tier
+"
+)
+:
+int
+        
+#
+Treeherder
 symbol
 .
         
@@ -979,7 +993,12 @@ other
 tier
 "
 :
-2
+task
+[
+"
+tier
+"
+]
             
 }
             
