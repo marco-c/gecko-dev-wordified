@@ -2164,6 +2164,11 @@ visibleTabs
 [
 lastFocusedTabIndex
 ]
+{
+isLastMultiSelectChange
+:
+false
+}
 )
 ;
 }
@@ -2177,6 +2182,11 @@ visibleTabs
 [
 lastFocusedTabIndex
 ]
+{
+isLastMultiSelectChange
+:
+true
+}
 )
 ;
 }
