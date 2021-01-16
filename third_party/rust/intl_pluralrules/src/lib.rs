@@ -333,10 +333,12 @@ operands
 ;
 #
 [
-cfg_attr
+cfg
 (
-tarpaulin
-skip
+not
+(
+tarpaulin_include
+)
 )
 ]
 mod

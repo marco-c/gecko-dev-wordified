@@ -52,6 +52,14 @@ message
 /
 formatting
 .
+#
+[
+derive
+(
+Debug
+Default
+)
+]
 pub
 struct
 FluentArgs
