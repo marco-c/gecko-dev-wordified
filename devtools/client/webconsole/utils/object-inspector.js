@@ -469,6 +469,9 @@ mode
 MODE
 .
 LONG
+standalone
+:
+true
 roots
 onViewSourceInDebugger
 :

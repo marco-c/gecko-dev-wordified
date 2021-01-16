@@ -620,6 +620,9 @@ return
 state
 .
 objectInspector
+|
+|
+state
 ;
 }
 function
