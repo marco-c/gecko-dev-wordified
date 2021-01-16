@@ -12000,7 +12000,11 @@ screenshotFront
 await
 this
 .
-currentTarget
+selection
+.
+nodeFront
+.
+targetFront
 .
 getFront
 (
