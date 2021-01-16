@@ -1547,7 +1547,7 @@ staticMethods
 ]
 =
 {
-JS_FN
+JS_INLINABLE_FN
 (
 "
 asUintN
@@ -1555,8 +1555,9 @@ asUintN
 asUintN
 2
 0
+BigIntAsUintN
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 asIntN
@@ -1564,6 +1565,7 @@ asIntN
 asIntN
 2
 0
+BigIntAsIntN
 )
 JS_FS_END
 }
