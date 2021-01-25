@@ -307,7 +307,6 @@ override
 /
 /
 nsINode
-virtual
 nsresult
 Clone
 (
@@ -324,7 +323,6 @@ aResult
 const
 override
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -347,7 +345,6 @@ override
 /
 /
 nsIContent
-virtual
 nsresult
 BindToTree
 (
@@ -359,7 +356,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -370,7 +366,6 @@ true
 )
 override
 ;
-virtual
 nsresult
 BeforeSetAttr
 (
@@ -388,7 +383,6 @@ aNotify
 )
 override
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -413,7 +407,6 @@ aNotify
 )
 override
 ;
-virtual
 bool
 IsLink
 (
@@ -425,7 +418,6 @@ aURI
 const
 override
 ;
-virtual
 already_AddRefed
 <
 nsIURI
@@ -439,7 +431,6 @@ override
 /
 /
 Element
-virtual
 bool
 ParseAttribute
 (
@@ -461,7 +452,6 @@ aResult
 )
 override
 ;
-virtual
 void
 GetLinkTarget
 (
@@ -471,7 +461,6 @@ aTarget
 )
 override
 ;
-virtual
 EventStates
 IntrinsicState
 (
@@ -491,21 +480,18 @@ nsAString
 aEventName
 )
 ;
-virtual
 void
 OnDNSPrefetchDeferred
 (
 )
 override
 ;
-virtual
 void
 OnDNSPrefetchRequested
 (
 )
 override
 ;
-virtual
 bool
 HasDeferredDNSPrefetchRequest
 (
