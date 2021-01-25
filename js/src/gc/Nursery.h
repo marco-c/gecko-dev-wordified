@@ -3151,7 +3151,7 @@ sizeof
 gc
 :
 :
-ChunkHeader
+ChunkBase
 )
 ;
 void
