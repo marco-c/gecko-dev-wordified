@@ -158,10 +158,10 @@ button
 :
 empty
 :
+enabled
+:
 not
 (
-:
-disabled
 [
 aria
 -
@@ -224,10 +224,10 @@ button
 :
 empty
 :
+enabled
+:
 not
 (
-:
-disabled
 [
 aria
 -
