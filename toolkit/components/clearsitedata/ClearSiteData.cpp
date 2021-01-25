@@ -796,7 +796,7 @@ rv
 ssm
 -
 >
-GetChannelResultPrincipal
+GetChannelResultStoragePrincipal
 (
 aChannel
 getter_AddRefs
@@ -813,6 +813,10 @@ NS_FAILED
 (
 rv
 )
+|
+|
+!
+principal
 )
 )
 {
