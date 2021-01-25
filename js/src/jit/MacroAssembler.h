@@ -25995,7 +25995,7 @@ is
 resolved
 .
 void
-spectreMaskIndex
+spectreMaskIndex32
 (
 Register
 index
@@ -26006,7 +26006,7 @@ output
 )
 ;
 void
-spectreMaskIndex
+spectreMaskIndex32
 (
 Register
 index
