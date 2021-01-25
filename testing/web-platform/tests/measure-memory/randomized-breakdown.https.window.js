@@ -78,7 +78,7 @@ initial
 await
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 (
 )
 ;
@@ -109,7 +109,7 @@ current
 await
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 (
 )
 ;
@@ -194,7 +194,7 @@ result
 of
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 .
 '
 )

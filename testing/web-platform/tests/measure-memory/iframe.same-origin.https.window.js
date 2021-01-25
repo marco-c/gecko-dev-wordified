@@ -100,7 +100,7 @@ result
 await
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 (
 )
 ;
@@ -237,7 +237,7 @@ result
 of
 performance
 .
-measureMemory
+measureUserAgentSpecificMemory
 with
 same
 -
