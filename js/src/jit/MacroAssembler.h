@@ -30470,9 +30470,6 @@ convertValueToInt
 (
 ValueOperand
 value
-MDefinition
-*
-input
 Label
 *
 handleStringEntry
@@ -30531,9 +30528,6 @@ convertValueToInt32
 (
 ValueOperand
 value
-MDefinition
-*
-input
 FloatRegister
 temp
 Register
@@ -30555,7 +30549,6 @@ Any
 convertValueToInt
 (
 value
-input
 nullptr
 nullptr
 nullptr
@@ -30608,9 +30601,6 @@ truncateValueToInt32
 (
 ValueOperand
 value
-MDefinition
-*
-input
 Label
 *
 handleStringEntry
@@ -30634,7 +30624,6 @@ fail
 convertValueToInt
 (
 value
-input
 handleStringEntry
 handleStringRejoin
 truncateDoubleSlow
@@ -30666,7 +30655,6 @@ fail
 truncateValueToInt32
 (
 value
-nullptr
 nullptr
 nullptr
 nullptr
@@ -30706,9 +30694,6 @@ truncateNoWrapValueToInt32
 (
 ValueOperand
 value
-MDefinition
-*
-input
 FloatRegister
 temp
 Register
@@ -30724,7 +30709,6 @@ fail
 convertValueToInt
 (
 value
-input
 nullptr
 nullptr
 truncateDoubleSlow
@@ -30754,9 +30738,6 @@ clampValueToUint8
 (
 ValueOperand
 value
-MDefinition
-*
-input
 Label
 *
 handleStringEntry
@@ -30777,7 +30758,6 @@ fail
 convertValueToInt
 (
 value
-input
 handleStringEntry
 handleStringRejoin
 nullptr
