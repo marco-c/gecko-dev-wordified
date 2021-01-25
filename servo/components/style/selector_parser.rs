@@ -675,7 +675,7 @@ d
 |
 d
 .
-is_chrome
+chrome_rules_enabled
 (
 )
 )

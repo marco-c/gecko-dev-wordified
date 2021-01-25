@@ -931,7 +931,7 @@ self
 .
 url_data
 .
-is_chrome
+chrome_rules_enabled
 (
 )
 |
