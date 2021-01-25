@@ -1157,17 +1157,6 @@ js
 jit
 :
 :
-GetDynamicNamePure
-)
-\
-_
-(
-js
-:
-:
-jit
-:
-:
 GetIndexFromString
 )
 \
