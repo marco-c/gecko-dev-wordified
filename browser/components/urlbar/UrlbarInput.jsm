@@ -14480,6 +14480,8 @@ this
 window
 .
 gBrowser
+.
+selectedBrowser
 engine
 /
 /

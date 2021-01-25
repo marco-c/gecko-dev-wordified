@@ -262,9 +262,9 @@ skipped
 *
 param
 {
-tabbrowser
+browser
 }
-tabbrowser
+browser
 *
 The
 browser
@@ -294,7 +294,7 @@ otherwise
 /
 shouldRecordSearchCount
 (
-tabbrowser
+browser
 )
 {
 return
@@ -304,7 +304,7 @@ PrivateBrowsingUtils
 .
 isWindowPrivate
 (
-tabbrowser
+browser
 .
 ownerGlobal
 )
@@ -1058,12 +1058,12 @@ themselves
 *
 param
 {
-tabbrowser
+browser
 }
-tabbrowser
+browser
 *
 The
-tabbrowser
+browser
 where
 the
 search
@@ -1229,7 +1229,7 @@ list
 /
 recordSearch
 (
-tabbrowser
+browser
 engine
 source
 details
@@ -1247,7 +1247,7 @@ this
 .
 shouldRecordSearchCount
 (
-tabbrowser
+browser
 )
 )
 {
