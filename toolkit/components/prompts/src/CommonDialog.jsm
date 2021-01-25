@@ -1620,6 +1620,14 @@ commonDialogEl
 this
 .
 soundID
+&
+&
+!
+this
+.
+args
+.
+openedWithTabDialog
 )
 {
 Cc
