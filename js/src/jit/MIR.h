@@ -5386,11 +5386,6 @@ types
 )
 const
 ;
-bool
-maybeEmulatesUndefined
-(
-)
-;
 /
 /
 Float32
