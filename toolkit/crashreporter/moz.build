@@ -365,14 +365,9 @@ if
 CONFIG
 [
 "
-OS_TARGET
+MOZ_OXIDIZED_BREAKPAD
 "
 ]
-!
-=
-"
-Android
-"
 :
 DIRS
 +

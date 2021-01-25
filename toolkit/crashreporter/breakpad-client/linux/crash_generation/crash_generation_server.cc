@@ -472,10 +472,9 @@ h
 "
 #
 if
-!
 defined
 (
-__ANDROID__
+MOZ_OXIDIZED_BREAKPAD
 )
 #
 include
@@ -1670,15 +1669,12 @@ true
 if
 defined
 (
-__ANDROID__
+MOZ_OXIDIZED_BREAKPAD
 )
 if
 (
 !
-google_breakpad
-:
-:
-WriteMinidump
+write_minidump_linux_with_context
 (
 minidump_filename
 .
@@ -1687,7 +1683,6 @@ c_str
 )
 crashing_pid
 crash_context
-kCrashContextSize
 )
 )
 {
@@ -1705,7 +1700,10 @@ else
 if
 (
 !
-write_minidump_linux_with_context
+google_breakpad
+:
+:
+WriteMinidump
 (
 minidump_filename
 .
@@ -1714,6 +1712,7 @@ c_str
 )
 crashing_pid
 crash_context
+kCrashContextSize
 )
 )
 {
