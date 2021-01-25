@@ -911,8 +911,8 @@ ProfileBuffer
 :
 CollectOverheadStats
 (
-TimeDuration
-aSamplingTime
+double
+aSamplingTimeMs
 TimeDuration
 aLocking
 TimeDuration
@@ -924,13 +924,9 @@ aThreads
 )
 {
 double
-time
+timeUs
 =
-aSamplingTime
-.
-ToMilliseconds
-(
-)
+aSamplingTimeMs
 *
 1000
 .
@@ -948,7 +944,7 @@ mFirstSamplingTimeUs
 {
 mFirstSamplingTimeUs
 =
-time
+timeUs
 ;
 }
 else
@@ -1006,7 +1002,7 @@ mIntervalsUs
 .
 Count
 (
-time
+timeUs
 -
 mLastSamplingTimeUs
 )
@@ -1014,7 +1010,7 @@ mLastSamplingTimeUs
 }
 mLastSamplingTimeUs
 =
-time
+timeUs
 ;
 double
 locking
@@ -1116,7 +1112,7 @@ ProfileBufferEntry
 :
 ProfilerOverheadTime
 (
-time
+aSamplingTimeMs
 )
 )
 ;
