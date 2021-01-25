@@ -6776,6 +6776,17 @@ PER_ARCH
 ;
 inline
 void
+move32SignExtendToPtr
+(
+Register
+src
+Register
+dest
+)
+PER_ARCH
+;
+inline
+void
 move32ZeroExtendToPtr
 (
 Register
