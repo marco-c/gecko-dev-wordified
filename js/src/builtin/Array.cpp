@@ -2983,7 +2983,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 =
