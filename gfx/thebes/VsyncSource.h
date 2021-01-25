@@ -659,6 +659,15 @@ hold
 mDispatcherLock
 to
 touch
+bool
+mHasGenericObservers
+;
+/
+/
+hold
+mDispatcherLock
+to
+touch
 }
 ;
 void
