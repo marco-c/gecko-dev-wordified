@@ -1682,6 +1682,8 @@ aContentEdgeToBoxSizing
 aBoxSizingToMarginEdge
 aSize
 )
+.
+mISize
 ;
 }
 template
