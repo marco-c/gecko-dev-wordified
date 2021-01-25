@@ -160,6 +160,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_layout
