@@ -35436,6 +35436,17 @@ CallTempReg0
 )
 )
 ;
+assignSnapshot
+(
+lir
+ins
+-
+>
+bailoutKind
+(
+)
+)
+;
 defineReturn
 (
 lir
