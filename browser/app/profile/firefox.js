@@ -6163,7 +6163,7 @@ browser
 .
 tabs
 .
-tooltipsShowPid
+tooltipsShowPidAndActiveness
 "
 true
 )
@@ -6177,7 +6177,7 @@ browser
 .
 tabs
 .
-tooltipsShowPid
+tooltipsShowPidAndActiveness
 "
 false
 )
