@@ -1854,6 +1854,11 @@ mIsDestroyed
 ;
 }
 bool
+IsPopup
+(
+)
+;
+bool
 IsWaylandPopup
 (
 )

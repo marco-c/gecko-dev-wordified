@@ -439,6 +439,15 @@ return
 false
 ;
 }
+mWidget
+-
+>
+ClearBeforePaint
+(
+mDT
+mRegion
+)
+;
 /
 /
 Attempt
