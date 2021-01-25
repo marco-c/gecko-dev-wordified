@@ -812,6 +812,14 @@ MIRGraph
 graph
 )
 {
+JitSpew
+(
+JitSpew_FLAC
+"
+Begin
+"
+)
+;
 for
 (
 PostorderIterator

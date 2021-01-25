@@ -8683,6 +8683,17 @@ MIRGraph
 graph
 )
 {
+JitSpew
+(
+JitSpew_Escape
+"
+Begin
+(
+ScalarReplacement
+)
+"
+)
+;
 EmulateStateOf
 <
 ObjectMemoryView
