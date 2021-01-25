@@ -2332,7 +2332,7 @@ gBrowser
 .
 selectedTab
 .
-textContent
+label
 )
 {
 case
@@ -2584,7 +2584,7 @@ gBrowser
 .
 selectedTab
 .
-textContent
+label
 )
 {
 case
@@ -2788,7 +2788,7 @@ gBrowser
 .
 selectedTab
 .
-textContent
+label
 =
 =
 =
