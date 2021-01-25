@@ -303,9 +303,6 @@ EncoderStream
 DecoderStream
 ClosedCriticalStream
 InternalError
-(
-u16
-)
 /
 /
 These
