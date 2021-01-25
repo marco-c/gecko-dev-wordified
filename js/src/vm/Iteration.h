@@ -2809,14 +2809,6 @@ bool
 done
 )
 ;
-enum
-class
-IteratorKind
-{
-Sync
-Async
-}
-;
 /
 *
 *
