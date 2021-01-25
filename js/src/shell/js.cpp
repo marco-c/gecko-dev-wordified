@@ -12798,7 +12798,7 @@ JSContext
 cx
 HandleObject
 cache
-uint32_t
+size_t
 *
 length
 )
@@ -12896,7 +12896,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -14370,7 +14370,7 @@ if
 loadBytecode
 )
 {
-uint32_t
+size_t
 loadLength
 =
 0
@@ -36546,7 +36546,7 @@ JS
 TranscodeBuffer
 loadBuffer
 ;
-uint32_t
+size_t
 loadLength
 =
 0
