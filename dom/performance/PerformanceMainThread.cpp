@@ -2599,7 +2599,8 @@ mFCPTiming
 GetName
 (
 )
-.
+-
+>
 Equals
 (
 aName
@@ -2621,7 +2622,8 @@ mFCPTiming
 GetEntryType
 (
 )
-.
+-
+>
 Equals
 (
 aEntryType
@@ -2679,7 +2681,8 @@ mDocEntry
 GetName
 (
 )
-.
+-
+>
 Equals
 (
 aName
