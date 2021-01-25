@@ -1719,6 +1719,16 @@ piped
 (
 )
 )
+.
+stderr
+(
+Stdio
+:
+:
+null
+(
+)
+)
 ;
 let
 mut
