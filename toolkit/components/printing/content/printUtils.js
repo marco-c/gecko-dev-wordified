@@ -1497,8 +1497,6 @@ PrintingSelection
 :
 HasSelection
 "
-{
-}
 )
 ;
 }
