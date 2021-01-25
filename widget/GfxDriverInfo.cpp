@@ -3474,9 +3474,6 @@ DeviceFamily
 :
 NvidiaRolloutWebRender
 :
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 APPEND_RANGE
 (
 0x0400
@@ -3495,16 +3492,12 @@ APPEND_RANGE
 INT32_MAX
 )
 ;
-#
-else
 APPEND_RANGE
 (
 0x06c0
 INT32_MAX
 )
 ;
-#
-endif
 break
 ;
 case
