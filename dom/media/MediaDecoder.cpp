@@ -7667,9 +7667,8 @@ GetOwner
 )
 -
 >
-FireTimeUpdate
+MaybeQueueTimeupdateEvent
 (
-true
 )
 ;
 }
