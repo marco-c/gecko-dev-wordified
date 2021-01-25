@@ -2358,6 +2358,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
+const
 RealmBehaviors
 &
 RealmBehaviorsRef
@@ -2369,6 +2370,7 @@ realm
 ;
 extern
 JS_PUBLIC_API
+const
 RealmBehaviors
 &
 RealmBehaviorsRef
