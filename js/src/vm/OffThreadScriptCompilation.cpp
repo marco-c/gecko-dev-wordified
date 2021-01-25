@@ -1598,7 +1598,7 @@ js
 bool
 gUseOffThreadParseGlobal
 =
-true
+false
 ;
 }
 /
