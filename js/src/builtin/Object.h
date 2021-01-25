@@ -318,7 +318,8 @@ ObjectClassToString
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
 )
 ;

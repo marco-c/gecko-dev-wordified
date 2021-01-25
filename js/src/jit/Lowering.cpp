@@ -35410,6 +35410,7 @@ String
 )
 ;
 auto
+*
 lir
 =
 new
@@ -35429,15 +35430,13 @@ object
 (
 )
 )
+tempFixed
+(
+CallTempReg0
+)
 )
 ;
 defineReturn
-(
-lir
-ins
-)
-;
-assignSafepoint
 (
 lir
 ins

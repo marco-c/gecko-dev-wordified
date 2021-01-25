@@ -2093,15 +2093,6 @@ CanGC
 \
 _
 (
-ObjectClassToString
-js
-:
-:
-ObjectClassToString
-)
-\
-_
-(
 ObjectCreateWithTemplate
 js
 :
