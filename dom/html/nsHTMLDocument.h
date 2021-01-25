@@ -432,6 +432,16 @@ return
 mForms
 ;
 }
+bool
+IsPlainText
+(
+)
+const
+{
+return
+mIsPlainText
+;
+}
 /
 /
 Returns
