@@ -3089,8 +3089,8 @@ binding
 )
 MSG_DEF
 (
-JSMSG_LET_STARTING_FOROF_LHS
-0
+JSMSG_BAD_STARTING_FOROF_LHS
+1
 JSEXN_SYNTAXERR
 "
 an
@@ -3110,7 +3110,9 @@ not
 start
 with
 '
-let
+{
+0
+}
 '
 "
 )
