@@ -466,17 +466,6 @@ case
 MediaDecoder
 :
 :
-PLAY_STATE_START
-:
-return
-"
-START
-"
-;
-case
-MediaDecoder
-:
-:
 PLAY_STATE_LOADING
 :
 return
