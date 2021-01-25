@@ -1203,7 +1203,7 @@ timestamp
 ;
 frame
 .
-destroy
+close
 (
 )
 ;

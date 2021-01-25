@@ -148,13 +148,13 @@ cropHeight
 ;
 frame
 .
-destroy
+close
 (
 )
 ;
 clone
 .
-destroy
+close
 (
 )
 ;
@@ -199,7 +199,7 @@ clone
 ;
 frame
 .
-destroy
+close
 (
 )
 ;
@@ -225,14 +225,14 @@ timestamp
 ;
 clone
 .
-destroy
+close
 (
 )
 ;
 }
 '
 Verify
-destroying
+closing
 a
 frame
 doesn
@@ -261,7 +261,7 @@ createDefaultVideoFrame
 ;
 frame
 .
-destroy
+close
 (
 )
 ;
@@ -292,7 +292,7 @@ clone
 Verify
 cloning
 a
-destroyed
+closed
 frame
 throws
 .
@@ -357,7 +357,7 @@ data
 ;
 externalFrame
 .
-destroy
+close
 (
 )
 ;
@@ -408,7 +408,7 @@ localFrame
 }
 '
 Verify
-destroying
+closing
 frames
 propagates
 accross
@@ -475,7 +475,7 @@ data
 ;
 externalFrame
 .
-destroy
+close
 (
 )
 ;
@@ -516,7 +516,7 @@ timestamp
 ;
 localFrame
 .
-destroy
+close
 (
 )
 ;
@@ -536,7 +536,7 @@ clone
 }
 '
 Verify
-destroying
+closing
 cloned
 frames
 doesn
@@ -590,7 +590,7 @@ unreached_func
 ;
 localFrame
 .
-destroy
+close
 (
 )
 ;
@@ -624,7 +624,7 @@ done
 '
 Verify
 posting
-destroyed
+closed
 frames
 throws
 .
