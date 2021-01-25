@@ -845,6 +845,16 @@ break
 ;
 default
 :
+MOZ_ASSERT_UNREACHABLE
+(
+"
+event
+has
+invalid
+type
+"
+)
+;
 break
 ;
 }
