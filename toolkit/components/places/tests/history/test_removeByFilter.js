@@ -2664,11 +2664,6 @@ onEndUpdateBatch
 )
 {
 }
-onManyFrecenciesChanged
-(
-)
-{
-}
 onDeleteURI
 (
 aURI

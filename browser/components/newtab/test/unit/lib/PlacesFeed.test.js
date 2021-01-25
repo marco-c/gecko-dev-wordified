@@ -5520,12 +5520,6 @@ onEndUpdateBatch
 ;
 observer
 .
-onManyFrecenciesChanged
-(
-)
-;
-observer
-.
 onDeleteVisits
 (
 )

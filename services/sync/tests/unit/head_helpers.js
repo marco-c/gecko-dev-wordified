@@ -4286,11 +4286,6 @@ onEndUpdateBatch
 )
 {
 }
-onManyFrecenciesChanged
-(
-)
-{
-}
 onDeleteURI
 (
 uri
