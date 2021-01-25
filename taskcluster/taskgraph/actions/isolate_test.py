@@ -372,9 +372,7 @@ compile
 (
 r
 "
-remoteautomation
-.
-py
+RemoteProcessMonitor
 "
 )
         
