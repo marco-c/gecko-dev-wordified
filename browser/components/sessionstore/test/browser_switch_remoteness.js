@@ -315,9 +315,9 @@ robots
 )
 ;
 await
-promiseBrowserLoaded
+promiseTabRestored
 (
-browser
+tab
 )
 ;
 ok
