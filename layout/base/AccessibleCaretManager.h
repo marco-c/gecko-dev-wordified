@@ -2677,7 +2677,7 @@ Enabled
 }
 ;
 DesiredAsyncPanZoomState
-mDesiredAyncPanZoomState
+mDesiredAsyncPanZoomState
 ;
 static
 const
