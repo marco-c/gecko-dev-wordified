@@ -4149,6 +4149,10 @@ resolution
 =
 20
     
+multidomain
+=
+True
+    
 tpmanifest
 =
 "
@@ -4156,7 +4160,7 @@ tpmanifest
 talos
 }
 /
-tests
+fis
 /
 tp5n
 /
@@ -4487,6 +4491,10 @@ mainthread
 =
 False
     
+multidomain
+=
+True
+    
 tpmanifest
 =
 "
@@ -4494,7 +4502,7 @@ tpmanifest
 talos
 }
 /
-tests
+fis
 /
 tp5n
 /
