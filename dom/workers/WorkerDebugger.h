@@ -149,9 +149,6 @@ mozIDOMWindow
 class
 nsIPrincipal
 ;
-class
-nsPIDOMWindowInner
-;
 namespace
 mozilla
 {
@@ -299,14 +296,6 @@ const
 nsAString
 &
 aMessage
-)
-;
-nsCOMPtr
-<
-nsPIDOMWindowInner
->
-DedicatedWorkerWindow
-(
 )
 ;
 }
