@@ -2061,9 +2061,11 @@ virtual
 void
 UpdateCaretsForAlwaysTilt
 (
+const
 nsIFrame
 *
 aStartFrame
+const
 nsIFrame
 *
 aEndFrame
