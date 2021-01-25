@@ -1375,7 +1375,6 @@ True
 depends
 (
 host
-bootstrap_search_path_order
 when
 =
 bootstrap
@@ -1418,7 +1417,6 @@ def
 bootstrap_toolchain_tasks
 (
 host
-order
 )
 :
 prefix
