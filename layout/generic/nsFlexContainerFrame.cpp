@@ -41092,7 +41092,7 @@ childReflowInput
 .
 mFlags
 .
-mBSizeIsSetByAspectRatio
+mIsBSizeSetByAspectRatio
 =
 false
 ;
@@ -44719,7 +44719,7 @@ childReflowInput
 .
 mFlags
 .
-mBSizeIsSetByAspectRatio
+mIsBSizeSetByAspectRatio
 =
 false
 ;
@@ -45003,7 +45003,7 @@ childReflowInput
 .
 mFlags
 .
-mBSizeIsSetByAspectRatio
+mIsBSizeSetByAspectRatio
 =
 false
 ;

@@ -11871,7 +11871,7 @@ MOZ_ASSERT
 (
 mFlags
 .
-mBSizeIsSetByAspectRatio
+mIsBSizeSetByAspectRatio
 "
 This
 flag
@@ -11899,7 +11899,7 @@ unintentionally
 ;
 mFlags
 .
-mBSizeIsSetByAspectRatio
+mIsBSizeSetByAspectRatio
 =
 false
 ;
@@ -13221,7 +13221,7 @@ wm
 ;
 mFlags
 .
-mBSizeIsSetByAspectRatio
+mIsBSizeSetByAspectRatio
 =
 sizeResult
 .
@@ -19228,7 +19228,7 @@ size
 ;
 mFlags
 .
-mBSizeIsSetByAspectRatio
+mIsBSizeSetByAspectRatio
 =
 size
 .
