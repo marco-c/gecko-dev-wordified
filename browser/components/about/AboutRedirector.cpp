@@ -578,6 +578,11 @@ nsIAboutModule
 :
 :
 ALLOW_SCRIPT
+|
+nsIAboutModule
+:
+:
+URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
 }
 {
 "
