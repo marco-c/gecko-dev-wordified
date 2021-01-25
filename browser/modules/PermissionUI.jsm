@@ -4339,6 +4339,14 @@ remember
 "
 )
 ;
+options
+.
+checkbox
+.
+checked
+=
+true
+;
 }
 return
 options
