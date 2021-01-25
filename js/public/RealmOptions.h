@@ -2378,6 +2378,16 @@ JSContext
 cx
 )
 ;
+extern
+JS_PUBLIC_API
+void
+SetRealmNonLive
+(
+Realm
+*
+realm
+)
+;
 }
 /
 /

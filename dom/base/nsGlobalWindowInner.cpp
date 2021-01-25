@@ -9000,7 +9000,7 @@ point
 JS
 :
 :
-RealmBehaviorsRef
+SetRealmNonLive
 (
 js
 :
@@ -9009,10 +9009,6 @@ GetNonCCWObjectRealm
 (
 wrapper
 )
-)
-.
-setNonLive
-(
 )
 ;
 }
