@@ -5307,16 +5307,6 @@ ObjectGroup
 group
 )
 {
-/
-/
-NOTE
-:
-Comment
-in
-guardGroupForTypeBarrier
-also
-applies
-.
 MOZ_ASSERT
 (
 IsTypedObjectClass
