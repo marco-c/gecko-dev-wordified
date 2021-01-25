@@ -3900,9 +3900,16 @@ OwnerDoc
 nsHTMLDNSPrefetch
 :
 :
-PrefetchLow
+Prefetch
 (
 this
+nsHTMLDNSPrefetch
+:
+:
+Priority
+:
+:
+Low
 )
 ;
 }
