@@ -466,6 +466,11 @@ option
 -
 sponsored
 "
+eventSource
+:
+"
+SPONSORED_TOP_SITES
+"
 }
 ]
 :
@@ -486,6 +491,11 @@ rowsPref
 :
 "
 topSitesRows
+"
+eventSource
+:
+"
+TOP_SITES
 "
 }
 ]
@@ -592,6 +602,11 @@ icon
 :
 "
 info
+"
+eventSource
+:
+"
+SNIPPETS
 "
 }
 ]

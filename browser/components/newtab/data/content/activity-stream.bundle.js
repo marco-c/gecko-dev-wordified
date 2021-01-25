@@ -105002,6 +105002,11 @@ shortcuts
 -
 subtitle
 "
+eventSource
+:
+"
+TOP_SITES
+"
 }
 )
 external_React_default
@@ -105548,6 +105553,11 @@ preference
 "
 showSponsoredTopSites
 "
+eventSource
+:
+"
+SPONSORED_TOP_SITES
+"
 }
 )
 external_React_default
@@ -105706,6 +105716,11 @@ custom
 pocket
 -
 subtitle
+"
+eventSource
+:
+"
+TOP_STORIES
 "
 }
 )
@@ -106385,6 +106400,11 @@ custom
 snippets
 -
 subtitle
+"
+eventSource
+:
+"
+SNIPPETS
 "
 }
 )
