@@ -20492,7 +20492,7 @@ TypedArrayObject
 )
 )
 {
-uint32_t
+size_t
 len
 =
 nativeObj
@@ -20509,7 +20509,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
