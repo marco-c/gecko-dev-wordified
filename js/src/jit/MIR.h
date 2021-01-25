@@ -9690,8 +9690,6 @@ MOsrEntry
 public
 MNullaryInstruction
 {
-protected
-:
 MOsrEntry
 (
 )
@@ -9754,8 +9752,6 @@ MNop
 public
 MNullaryInstruction
 {
-protected
-:
 MNop
 (
 )
@@ -9830,16 +9826,12 @@ ConvertToInt32Policy
 :
 Data
 {
-public
-:
 TruncateKind
 truncate_
 ;
 TruncateKind
 truncateLimit_
 ;
-protected
-:
 MLimitedTruncate
 (
 MDefinition
@@ -10071,8 +10063,6 @@ const
 }
 #
 endif
-protected
-:
 MConstant
 (
 TempAllocator
@@ -15589,8 +15579,6 @@ BoxPolicy
 :
 Data
 {
-protected
-:
 MMutateProto
 (
 MDefinition
@@ -16779,8 +16767,6 @@ MCall
 DOMObjectKind
 objectKind_
 ;
-protected
-:
 MCallDOMNative
 (
 WrappedFunction
@@ -17061,8 +17047,6 @@ BoxPolicy
 :
 Data
 {
-protected
-:
 /
 /
 Monomorphic
@@ -17285,8 +17269,6 @@ BoxPolicy
 :
 Data
 {
-protected
-:
 /
 /
 Monomorphic
@@ -17718,8 +17700,6 @@ MBail
 public
 MNullaryInstruction
 {
-protected
-:
 explicit
 MBail
 (
@@ -17906,8 +17886,6 @@ MEncodeSnapshot
 public
 MNullaryInstruction
 {
-protected
-:
 MEncodeSnapshot
 (
 )
@@ -17942,8 +17920,6 @@ NoTypePolicy
 :
 Data
 {
-protected
-:
 bool
 mustBeRecovered_
 ;
@@ -18055,8 +18031,6 @@ NoTypePolicy
 :
 Data
 {
-protected
-:
 bool
 mustBeFloat32_
 ;
@@ -21773,8 +21747,6 @@ MToFloat32
 public
 MToFPInstruction
 {
-protected
-:
 bool
 mustPreserveNaN_
 ;
@@ -26063,8 +26035,6 @@ BitwisePolicy
 :
 Data
 {
-protected
-:
 explicit
 MBitNot
 (
@@ -39138,8 +39108,6 @@ BoxPolicy
 :
 Data
 {
-protected
-:
 explicit
 MBinaryCache
 (
@@ -45282,8 +45250,6 @@ MUnbox
 Mode
 mode_
 ;
-protected
-:
 MLoadElementAndUnbox
 (
 MDefinition
@@ -49505,8 +49471,6 @@ MUnbox
 Mode
 mode_
 ;
-protected
-:
 MLoadFixedSlotAndUnbox
 (
 MDefinition
@@ -49760,8 +49724,6 @@ MUnbox
 Mode
 mode_
 ;
-protected
-:
 MLoadDynamicSlotAndUnbox
 (
 MDefinition
@@ -57528,8 +57490,6 @@ name_
 bool
 strict_
 ;
-protected
-:
 MDeleteProperty
 (
 MDefinition
@@ -58549,8 +58509,6 @@ getterRealm_
 DOMObjectKind
 objectKind_
 ;
-protected
-:
 MGetDOMProperty
 (
 const
@@ -66524,8 +66482,6 @@ Scalar
 Type
 arrayType_
 ;
-protected
-:
 explicit
 MAtomicTypedArrayElementBinop
 (
@@ -71744,8 +71700,6 @@ MWasmFence
 public
 MNullaryInstruction
 {
-protected
-:
 MWasmFence
 (
 )
@@ -77013,8 +76967,6 @@ MUnreachableResult
 public
 MNullaryInstruction
 {
-protected
-:
 explicit
 MUnreachableResult
 (
