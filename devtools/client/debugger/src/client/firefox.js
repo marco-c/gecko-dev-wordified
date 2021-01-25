@@ -78,7 +78,7 @@ commands
 import
 {
 setupEvents
-ensureSourceActor
+waitForSourceActorToBeRegisteredInStore
 }
 from
 "
@@ -978,7 +978,7 @@ has
 arrived
 .
 await
-ensureSourceActor
+waitForSourceActorToBeRegisteredInStore
 (
 resource
 .
