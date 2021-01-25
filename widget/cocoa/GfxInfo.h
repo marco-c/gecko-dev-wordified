@@ -448,6 +448,15 @@ aDisplayHeight
 )
 override
 ;
+NS_IMETHOD
+GetDrmRenderDevice
+(
+nsACString
+&
+aDrmRenderDevice
+)
+override
+;
 using
 GfxInfoBase
 :
