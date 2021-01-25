@@ -146,6 +146,11 @@ h
 #
 include
 <
+iterator
+>
+#
+include
+<
 stdarg
 .
 h
@@ -258,12 +263,6 @@ h
 using
 namespace
 js
-;
-using
-mozilla
-:
-:
-ArrayLength
 ;
 /
 *
@@ -2940,7 +2939,10 @@ args
 append
 (
 defaultArgs
-ArrayLength
+std
+:
+:
+size
 (
 defaultArgs
 )

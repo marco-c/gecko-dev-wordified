@@ -116,6 +116,11 @@ define
 jit_mips32_Assembler_mips32_h
 #
 include
+<
+iterator
+>
+#
+include
 "
 jit
 /
@@ -184,10 +189,10 @@ const
 uint32_t
 NumCallTempNonArgRegs
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 CallTempNonArgRegs
 )

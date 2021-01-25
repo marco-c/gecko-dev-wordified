@@ -228,6 +228,11 @@ cctype
 >
 #
 include
+<
+iterator
+>
+#
+include
 "
 irregexp
 /
@@ -817,10 +822,10 @@ endif
 #
 define
 arraysize
-mozilla
+std
 :
 :
-ArrayLength
+size
 /
 /
 Explicitly

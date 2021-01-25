@@ -179,6 +179,11 @@ endif
 #
 include
 <
+iterator
+>
+#
+include
+<
 stdarg
 .
 h
@@ -8084,10 +8089,10 @@ JSProto_Null
 }
 static_assert
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 standard_class_names
 )
