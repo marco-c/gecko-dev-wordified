@@ -130,10 +130,6 @@ private
 ;
 pub
 mod
-dispatcher
-;
-pub
-mod
 ipc
 ;
 #
