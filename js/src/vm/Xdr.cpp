@@ -4673,6 +4673,9 @@ JS
 TranscodeBuffer
 &
 buffer
+ScriptSource
+*
+ss
 )
 {
 if
@@ -5086,6 +5089,9 @@ JS
 TranscodeBuffer
 &
 buffer
+ScriptSource
+*
+ss
 )
 {
 /

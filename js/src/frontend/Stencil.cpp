@@ -5493,9 +5493,9 @@ false
 }
 /
 /
-Lineareize
+Linearize
 the
-endcoder
+encoder
 return
 empty
 buffer
@@ -5509,6 +5509,11 @@ encoder
 linearize
 (
 buf
+input
+.
+source
+(
+)
 )
 ;
 if
