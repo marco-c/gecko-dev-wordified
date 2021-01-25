@@ -424,11 +424,6 @@ onEndUpdateBatch
 )
 {
 }
-onFrecencyChanged
-(
-)
-{
-}
 onManyFrecenciesChanged
 (
 )

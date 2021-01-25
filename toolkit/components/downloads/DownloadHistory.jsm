@@ -2248,11 +2248,6 @@ onEndUpdateBatch
 )
 {
 }
-onFrecencyChanged
-(
-)
-{
-}
 onManyFrecenciesChanged
 (
 )

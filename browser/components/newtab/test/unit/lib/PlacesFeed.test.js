@@ -5520,12 +5520,6 @@ onEndUpdateBatch
 ;
 observer
 .
-onFrecencyChanged
-(
-)
-;
-observer
-.
 onManyFrecenciesChanged
 (
 )
