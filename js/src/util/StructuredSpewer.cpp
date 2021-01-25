@@ -704,10 +704,8 @@ script
 {
 if
 (
+!
 spewingEnabled_
-=
-=
-0
 )
 {
 return
