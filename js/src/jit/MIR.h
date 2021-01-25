@@ -20862,7 +20862,6 @@ enum
 ConversionKind
 {
 NonStringPrimitives
-NonNullNonStringPrimitives
 NumbersOnly
 }
 ;
