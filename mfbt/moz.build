@@ -828,6 +828,11 @@ ChaosMode
 cpp
 "
 "
+Compression
+.
+cpp
+"
+"
 double
 -
 conversion
@@ -1051,11 +1056,6 @@ SOURCES
 +
 =
 [
-"
-Compression
-.
-cpp
-"
 "
 lz4
 /
