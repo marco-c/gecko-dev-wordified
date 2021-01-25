@@ -453,12 +453,6 @@ a
 )
 "
 "
-cd
-(
-document
-)
-"
-"
 undefined
 "
 ]
