@@ -484,6 +484,14 @@ toolbarbutton
 menu
 -
 dropmarker
+.
+toolbarbutton
+-
+combined
+-
+buttons
+-
+dropmarker
 {
 appearance
 :
@@ -533,11 +541,7 @@ currentColor
 ;
 width
 :
-12px
-;
-height
-:
-12px
+auto
 ;
 }
 /
