@@ -18916,7 +18916,7 @@ MSameValue
 public
 MBinaryInstruction
 public
-SameValuePolicy
+AllDoublePolicy
 :
 :
 Data
