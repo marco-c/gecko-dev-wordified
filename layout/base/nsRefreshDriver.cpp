@@ -7553,11 +7553,6 @@ char
 aObserverDescription
 )
 {
-MOZ_RELEASE_ASSERT
-(
-mPresContext
-)
-;
 ObserverArray
 &
 array
@@ -7576,6 +7571,11 @@ innerWindowID
 #
 ifdef
 MOZ_GECKO_PROFILER
+if
+(
+mPresContext
+)
+{
 innerWindowID
 =
 profiler_get_inner_window_id_from_docshell
@@ -7588,6 +7588,7 @@ GetDocShell
 )
 )
 ;
+}
 #
 endif
 array
