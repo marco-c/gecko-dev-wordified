@@ -512,7 +512,18 @@ commit
 revision
 )
             
+name_rev
+=
+str
+(
+commit
+.
+name_rev
+)
+            
 if
+(
+                
 "
 remotes
 /
@@ -520,16 +531,28 @@ origin
 "
 not
 in
-str
-(
-commit
-.
 name_rev
+                
+or
+"
+release
+"
+in
+name_rev
+                
+or
+"
+tag
+"
+in
+name_rev
+            
 )
 :
                 
 print
 (
+                    
 "
 Commit
 %
@@ -548,6 +571,10 @@ be
 tested
 .
 "
+                    
+%
+revision
+                
 )
                 
 continue
