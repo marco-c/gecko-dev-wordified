@@ -1212,11 +1212,13 @@ win
 windowUtils
 .
 layerManagerType
-=
-=
+.
+startsWith
+(
 "
 WebRender
 "
+)
 )
 {
 /
