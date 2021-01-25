@@ -328,6 +328,7 @@ frame
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

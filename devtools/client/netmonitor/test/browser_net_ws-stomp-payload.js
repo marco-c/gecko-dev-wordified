@@ -325,6 +325,7 @@ Select
 the
 first
 request
+await
 EventUtils
 .
 sendMouseEvent
@@ -351,6 +352,7 @@ the
 Response
 "
 panel
+await
 EventUtils
 .
 sendMouseEvent
@@ -483,6 +485,7 @@ requestFrame
 =
 frames
 ;
+await
 EventUtils
 .
 sendMouseEvent

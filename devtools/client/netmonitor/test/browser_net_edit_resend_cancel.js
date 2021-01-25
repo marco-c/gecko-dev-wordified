@@ -234,6 +234,7 @@ overview
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -251,6 +252,7 @@ firstRequest
 await
 waitForHeaders
 ;
+await
 EventUtils
 .
 sendMouseEvent

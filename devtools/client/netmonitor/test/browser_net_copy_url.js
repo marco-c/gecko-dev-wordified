@@ -129,6 +129,7 @@ tab
 1
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -232,6 +233,7 @@ table
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

@@ -239,6 +239,7 @@ shown
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -374,6 +375,7 @@ hidden
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -458,6 +460,7 @@ shown
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -588,6 +591,7 @@ shown
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

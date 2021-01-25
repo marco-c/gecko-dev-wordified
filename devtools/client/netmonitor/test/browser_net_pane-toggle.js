@@ -499,6 +499,7 @@ menu
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

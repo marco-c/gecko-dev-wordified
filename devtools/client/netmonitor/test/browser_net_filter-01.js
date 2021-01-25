@@ -1336,6 +1336,7 @@ REQUESTS_WITH_MEDIA_AND_FLASH_AND_WS
 await
 wait
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1486,6 +1487,7 @@ testContents
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1549,6 +1551,7 @@ testContents
 /
 Reset
 filters
+await
 EventUtils
 .
 sendMouseEvent
@@ -1579,6 +1582,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1638,6 +1642,7 @@ testContents
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1668,6 +1673,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1727,6 +1733,7 @@ testContents
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1757,6 +1764,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1816,6 +1824,7 @@ testContents
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1846,6 +1855,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1905,6 +1915,7 @@ testContents
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1935,6 +1946,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1994,6 +2006,7 @@ testContents
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -2024,6 +2037,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -2083,6 +2097,7 @@ testContents
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -2113,6 +2128,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -2172,6 +2188,7 @@ testContents
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -2244,6 +2261,7 @@ should
 hide
 all
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -2317,6 +2335,7 @@ out
 everything
 else
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -2390,6 +2409,7 @@ out
 everything
 else
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -2461,6 +2481,7 @@ show
 unmatched
 items
 )
+await
 EventUtils
 .
 sendMouseEvent
@@ -2535,6 +2556,7 @@ out
 everything
 else
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -2615,6 +2637,7 @@ Unicode
 domain
 name
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -2684,6 +2707,7 @@ show
 unmatched
 items
 )
+await
 EventUtils
 .
 sendMouseEvent
@@ -2767,6 +2791,7 @@ Unicode
 domain
 name
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -2859,6 +2884,7 @@ setFreetextFilter
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -2889,6 +2915,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -3103,6 +3130,7 @@ one
 left
 active
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -3174,6 +3202,7 @@ toggle
 to
 all
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -3251,6 +3280,7 @@ should
 be
 checked
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -3281,6 +3311,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -3311,6 +3342,7 @@ button
 )
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -3358,6 +3390,7 @@ monitor
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -3522,6 +3555,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

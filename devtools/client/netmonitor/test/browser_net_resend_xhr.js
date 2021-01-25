@@ -151,6 +151,7 @@ item
 0
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -226,6 +227,7 @@ Menu
 "
 Resend
 "
+await
 EventUtils
 .
 sendMouseEvent

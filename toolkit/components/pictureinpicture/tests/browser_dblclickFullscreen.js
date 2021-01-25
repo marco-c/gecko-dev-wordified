@@ -131,6 +131,7 @@ async
 =
 >
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -207,6 +208,7 @@ async
 =
 >
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -271,6 +273,7 @@ async
 =
 >
 {
+await
 EventUtils
 .
 sendMouseEvent
