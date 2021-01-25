@@ -9177,17 +9177,6 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_REFRESH
-]
-:
-"
-refresh
-"
-[
-Ci
-.
-nsIContentPolicy
-.
 TYPE_PING
 ]
 :
