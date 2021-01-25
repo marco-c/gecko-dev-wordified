@@ -1246,6 +1246,7 @@ nsIFrame
 *
 GetGeometry
 (
+const
 mozilla
 :
 :
@@ -1382,6 +1383,7 @@ nsIFrame
 *
 GetFrameAndOffset
 (
+const
 mozilla
 :
 :

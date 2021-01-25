@@ -2470,6 +2470,7 @@ nsCaret
 :
 GetFrameAndOffset
 (
+const
 Selection
 *
 aSelection
@@ -2638,6 +2639,7 @@ nsCaret
 :
 GetGeometry
 (
+const
 Selection
 *
 aSelection
