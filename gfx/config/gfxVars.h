@@ -612,6 +612,15 @@ UseEGL
 bool
 false
 )
+\
+_
+(
+DrmRenderDevice
+nsCString
+nsCString
+(
+)
+)
 /
 *
 Add
