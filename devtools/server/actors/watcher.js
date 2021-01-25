@@ -1038,6 +1038,9 @@ TYPES
 NETWORK_EVENT
 ]
 :
+enableServerWatcher
+&
+&
 hasBrowserElement
 [
 Resources
@@ -1047,6 +1050,9 @@ TYPES
 NETWORK_EVENT_STACKTRACE
 ]
 :
+enableServerWatcher
+&
+&
 hasBrowserElement
 [
 Resources

@@ -131,9 +131,6 @@ Arg
 0
 )
 }
-response
-:
-{
 /
 /
 stacktrace
@@ -148,7 +145,7 @@ but
 not
 always
 .
-stacktrace
+response
 :
 RetVal
 (
@@ -156,7 +153,6 @@ RetVal
 json
 "
 )
-}
 }
 }
 }
