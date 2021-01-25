@@ -4168,7 +4168,7 @@ void
 Statistics
 :
 :
-writeLogMessage
+log
 (
 const
 char
@@ -8125,7 +8125,7 @@ desc
 )
 ;
 }
-writeLogMessage
+log
 (
 "
 begin
@@ -8218,7 +8218,7 @@ state
 (
 )
 ;
-writeLogMessage
+log
 (
 "
 end
@@ -9525,7 +9525,7 @@ phase
 =
 now
 ;
-writeLogMessage
+log
 (
 "
 begin
@@ -9908,7 +9908,7 @@ phase
 =
 now
 ;
-writeLogMessage
+log
 (
 "
 end

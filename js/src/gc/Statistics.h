@@ -1350,7 +1350,7 @@ nonincrementalReason_
 =
 reason
 ;
-writeLogMessage
+log
 (
 "
 Non
@@ -2008,7 +2008,7 @@ logging
 message
 .
 void
-writeLogMessage
+log
 (
 const
 char
@@ -2022,7 +2022,7 @@ fmt
 #
 else
 void
-writeLogMessage
+log
 (
 const
 char
