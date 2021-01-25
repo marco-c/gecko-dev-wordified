@@ -178,13 +178,6 @@ namespace
 mozilla
 :
 :
-gfx
-;
-using
-namespace
-mozilla
-:
-:
 layers
 ;
 WindowSurfaceProvider
@@ -461,6 +454,9 @@ if
 mIsShaped
 &
 &
+gfx
+:
+:
 gfxVars
 :
 :
@@ -658,6 +654,9 @@ BUFFER_NONE
 ;
 RefPtr
 <
+gfx
+:
+:
 DrawTarget
 >
 dt

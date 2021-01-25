@@ -6139,6 +6139,9 @@ CopySurface
 (
 mImageSurface
 r
+gfx
+:
+:
 IntPoint
 (
 r
