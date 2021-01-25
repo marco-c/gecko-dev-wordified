@@ -5568,6 +5568,15 @@ target
 ownerDocument
 .
 fullscreen
+&
+&
+this
+.
+target
+.
+readyState
+>
+0
 ;
 this
 .
