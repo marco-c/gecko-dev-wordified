@@ -5825,6 +5825,13 @@ preprocessors
 :
 {
 }
+manifestVersion
+:
+this
+.
+manifest
+.
+manifest_version
 }
 ;
 if
