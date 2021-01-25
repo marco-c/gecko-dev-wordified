@@ -9439,6 +9439,11 @@ cond
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 MacroAssembler
 :
@@ -9447,7 +9452,7 @@ branchAddPtr
 (
 Condition
 cond
-Register
+T
 src
 Register
 dest
@@ -9469,6 +9474,11 @@ cond
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 MacroAssembler
 :
@@ -9477,7 +9487,7 @@ branchSubPtr
 (
 Condition
 cond
-Register
+T
 src
 Register
 dest
