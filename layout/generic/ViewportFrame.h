@@ -166,6 +166,9 @@ nsContainerFrame
 h
 "
 class
+nsDisplayWrapList
+;
+class
 nsPresContext
 ;
 namespace
@@ -341,15 +344,13 @@ aLists
 )
 override
 ;
-void
+nsDisplayWrapList
+*
 BuildDisplayListForTopLayer
 (
 nsDisplayListBuilder
 *
 aBuilder
-nsDisplayList
-*
-aList
 bool
 *
 aIsOpaque
