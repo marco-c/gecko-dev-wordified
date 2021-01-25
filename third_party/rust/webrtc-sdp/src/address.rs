@@ -319,7 +319,7 @@ parse
 s
 )
 .
-and_then
+map
 (
 |
 host
@@ -336,15 +336,12 @@ s
 )
 =
 >
-Ok
-(
 Address
 :
 :
 Fqdn
 (
 s
-)
 )
 Host
 :
@@ -355,8 +352,6 @@ ip
 )
 =
 >
-Ok
-(
 Address
 :
 :
@@ -370,7 +365,6 @@ V4
 ip
 )
 )
-)
 Host
 :
 :
@@ -380,8 +374,6 @@ ip
 )
 =
 >
-Ok
-(
 Address
 :
 :
@@ -393,7 +385,6 @@ IpAddr
 V6
 (
 ip
-)
 )
 )
 }
