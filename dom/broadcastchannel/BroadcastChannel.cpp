@@ -1948,6 +1948,10 @@ CheckCurrentGlobalCorrectness
 )
 )
 {
+RemoveDocFromBFCache
+(
+)
+;
 return
 ;
 }
