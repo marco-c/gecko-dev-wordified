@@ -3948,17 +3948,6 @@ gecko_enum_prefix
 "
 StyleGeometryBox
 "
-gecko_pref
-=
-"
-svg
-.
-transform
--
-box
-.
-enabled
-"
 spec
 =
 "
