@@ -5192,10 +5192,6 @@ anyway
 return
 ;
 }
-EnsureMainThreadTasksScheduled
-(
-)
-;
 if
 (
 aTask
@@ -5209,6 +5205,10 @@ IsMainThreadOnly
 mMayHaveMainThreadTask
 =
 true
+;
+EnsureMainThreadTasksScheduled
+(
+)
 ;
 if
 (
@@ -5328,6 +5328,12 @@ thread
 mCurrentTask
 )
 {
+mThreadPoolCV
+.
+Notify
+(
+)
+;
 /
 /
 There
