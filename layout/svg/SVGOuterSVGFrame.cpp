@@ -2452,6 +2452,10 @@ const
 LogicalSize
 &
 aBorderPadding
+const
+StyleSizeOverrides
+&
+aSizeOverrides
 ComputeSizeFlags
 aFlags
 )
@@ -3010,6 +3014,7 @@ GetAspectRatio
 cbSize
 aMargin
 aBorderPadding
+aSizeOverrides
 aFlags
 )
 AspectRatioUsage

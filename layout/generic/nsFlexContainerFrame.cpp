@@ -13479,6 +13479,8 @@ Size
 itemWM
 )
 {
+}
+{
 ComputeSizeFlag
 :
 :
