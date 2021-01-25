@@ -15742,6 +15742,12 @@ DEBUG
 if
 (
 saveFailedICHash
+&
+&
+!
+JitOptions
+.
+disableBailoutLoopCheck
 )
 {
 outerScript

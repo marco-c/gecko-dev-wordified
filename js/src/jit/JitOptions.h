@@ -294,6 +294,9 @@ bool
 disableSink
 ;
 bool
+disableBailoutLoopCheck
+;
+bool
 baselineInterpreter
 ;
 bool
