@@ -26488,7 +26488,6 @@ Undefined
 &
 &
 !
-(
 lhs
 (
 )
@@ -26500,12 +26499,6 @@ MIRType
 :
 :
 Object
-)
-&
-&
-operandMightEmulateUndefined
-(
-)
 )
 )
 {
