@@ -14577,6 +14577,10 @@ type
 ]
 :
                 
+subtests
+=
+None
+                
 if
 "
 speedometer
@@ -14684,6 +14688,28 @@ self
 parseUnityWebGLOutput
 (
 test
+)
+                
+if
+subtests
+is
+None
+:
+                    
+raise
+Exception
+(
+                        
+"
+No
+benchmark
+metrics
+found
+in
+browsertime
+results
+"
+                    
 )
                 
 suite
