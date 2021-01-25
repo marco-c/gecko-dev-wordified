@@ -2070,6 +2070,12 @@ aFlags
 )
 override
 ;
+bool
+SupportsExternalCompositing
+(
+)
+override
+;
 protected
 :
 bool
@@ -2398,6 +2404,12 @@ ImageKey
 aImageKeys
 PushDisplayItemFlagSet
 aFlags
+)
+override
+;
+bool
+SupportsExternalCompositing
+(
 )
 override
 ;

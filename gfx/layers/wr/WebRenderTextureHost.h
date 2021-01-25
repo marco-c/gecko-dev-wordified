@@ -587,6 +587,12 @@ aFlags
 override
 ;
 bool
+SupportsExternalCompositing
+(
+)
+override
+;
+bool
 NeedsYFlip
 (
 )
