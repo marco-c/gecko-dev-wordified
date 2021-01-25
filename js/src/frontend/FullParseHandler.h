@@ -5772,6 +5772,15 @@ ParseNodeKind
 NegExpr
 |
 |
+kind
+=
+=
+ParseNodeKind
+:
+:
+AwaitExpr
+|
+|
 IsTypeofKind
 (
 kind
