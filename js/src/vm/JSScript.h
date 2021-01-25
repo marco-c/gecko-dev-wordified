@@ -11978,6 +11978,11 @@ MUTABLE_FLAG_GETTER_SETTER
 hadSpeculativePhiBailout
 HadSpeculativePhiBailout
 )
+MUTABLE_FLAG_GETTER_SETTER
+(
+isInlinableLargeFunction
+IsInlinableLargeFunction
+)
 #
 undef
 IMMUTABLE_FLAG_GETTER
