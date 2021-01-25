@@ -688,11 +688,9 @@ const
 nsAString
 &
 aPath
+const
 uint32_t
 aPermissions
-const
-bool
-aHonorUmask
 )
 ;
 static
