@@ -9116,7 +9116,6 @@ example
 .
 org
 /
-foo
 "
 sessionRule
 .

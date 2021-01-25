@@ -1014,7 +1014,14 @@ Referer
 )
 equalTo
 (
-referrer
+"
+http
+:
+/
+/
+foo
+/
+"
 )
 )
 assertThat
