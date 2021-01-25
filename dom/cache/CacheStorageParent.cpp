@@ -374,6 +374,7 @@ PrincipalVerifier
 :
 CreateAndDispatch
 (
+*
 this
 aManagingActor
 aPrincipalInfo
@@ -428,6 +429,7 @@ mVerifier
 >
 RemoveListener
 (
+*
 this
 )
 ;
@@ -803,6 +805,7 @@ mVerifier
 >
 RemoveListener
 (
+*
 this
 )
 ;
