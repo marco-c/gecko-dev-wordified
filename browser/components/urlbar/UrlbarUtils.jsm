@@ -1084,6 +1084,9 @@ point
 HIGHLIGHT
 :
 {
+NONE
+:
+0
 TYPED
 :
 1
