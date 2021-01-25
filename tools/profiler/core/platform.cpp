@@ -16581,13 +16581,6 @@ aLock
 RegisteredThread
 &
 aRegisteredThread
-ProfiledThreadData
-&
-aProfiledThreadData
-const
-TimeStamp
-&
-aNow
 const
 Registers
 &
@@ -25475,9 +25468,6 @@ DoPeriodicSample
 lock
 *
 registeredThread
-*
-profiledThreadData
-now
 aRegs
 samplePos
 localProfileBuffer
