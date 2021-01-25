@@ -972,6 +972,7 @@ ComputedStyle
 *
 )
 ;
+static
 bool
 IsWidgetScrollbarPart
 (

@@ -4496,6 +4496,11 @@ return
 false
 ;
 }
+/
+*
+static
+*
+/
 bool
 nsNativeTheme
 :
