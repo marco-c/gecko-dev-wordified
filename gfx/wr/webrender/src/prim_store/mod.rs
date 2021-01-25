@@ -318,12 +318,6 @@ use
 crate
 :
 :
-storage
-;
-use
-crate
-:
-:
 util
 :
 :
@@ -378,6 +372,9 @@ text_run
 pub
 mod
 interned
+;
+mod
+storage
 ;
 use
 backdrop
