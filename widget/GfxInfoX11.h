@@ -445,15 +445,6 @@ aDisplayHeight
 )
 override
 ;
-NS_IMETHOD
-GetDrmRenderDevice
-(
-nsACString
-&
-aDrmRenderDevice
-)
-override
-;
 using
 GfxInfoBase
 :
@@ -607,9 +598,6 @@ mSecondaryVendorId
 ;
 nsCString
 mSecondaryDeviceId
-;
-nsCString
-mDrmRenderDevice
 ;
 struct
 ScreenInfo
