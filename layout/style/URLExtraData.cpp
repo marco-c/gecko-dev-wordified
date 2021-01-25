@@ -267,7 +267,7 @@ CreateWithoutOriginAttributes
 sDummyChrome
 -
 >
-mChromeRulesEnabled
+mIsChrome
 =
 true
 ;
