@@ -2391,10 +2391,6 @@ nonNumerics
 MCompare
 :
 :
-Compare_Unknown
-MCompare
-:
-:
 Compare_Object
 MCompare
 :
