@@ -802,6 +802,9 @@ stackwalk
 "
 threads
 "
+"
+cpu
+"
 ]
 data
 .

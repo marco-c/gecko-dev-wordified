@@ -700,6 +700,9 @@ stackwalk
 "
 threads
 "
+"
+cpu
+"
 ]
 profiler_threadsArray
 )
