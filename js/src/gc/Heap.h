@@ -3363,7 +3363,7 @@ API
 :
 MOZ_ALWAYS_INLINE
 bool
-ChunkBitmap
+MarkBitmap
 :
 :
 markBit
@@ -3402,7 +3402,7 @@ mask
 }
 MOZ_ALWAYS_INLINE
 bool
-ChunkBitmap
+MarkBitmap
 :
 :
 isMarkedAny
@@ -3436,7 +3436,7 @@ GrayOrBlackBit
 }
 MOZ_ALWAYS_INLINE
 bool
-ChunkBitmap
+MarkBitmap
 :
 :
 isMarkedBlack
@@ -3460,7 +3460,7 @@ BlackBit
 }
 MOZ_ALWAYS_INLINE
 bool
-ChunkBitmap
+MarkBitmap
 :
 :
 isMarkedGray
@@ -3510,7 +3510,7 @@ marked
 .
 MOZ_ALWAYS_INLINE
 bool
-ChunkBitmap
+MarkBitmap
 :
 :
 markIfUnmarked
@@ -3640,7 +3640,7 @@ true
 }
 MOZ_ALWAYS_INLINE
 void
-ChunkBitmap
+MarkBitmap
 :
 :
 markBlack
@@ -3680,7 +3680,7 @@ mask
 }
 MOZ_ALWAYS_INLINE
 void
-ChunkBitmap
+MarkBitmap
 :
 :
 copyMarkBit
@@ -3696,7 +3696,7 @@ ColorBit
 colorBit
 )
 {
-ChunkBase
+TenuredChunkBase
 *
 srcChunk
 =
@@ -3718,7 +3718,7 @@ srcMask
 srcChunk
 -
 >
-bitmap
+markBits
 .
 getMarkWordAndMask
 (
@@ -3772,7 +3772,7 @@ dstMask
 }
 MOZ_ALWAYS_INLINE
 void
-ChunkBitmap
+MarkBitmap
 :
 :
 unmark
@@ -3833,7 +3833,7 @@ mask
 }
 inline
 void
-ChunkBitmap
+MarkBitmap
 :
 :
 clear
@@ -3849,7 +3849,7 @@ i
 ;
 i
 <
-ChunkBitmap
+MarkBitmap
 :
 :
 WordCount
@@ -3871,7 +3871,7 @@ i
 inline
 MarkBitmapWord
 *
-ChunkBitmap
+MarkBitmap
 :
 :
 arenaBits
@@ -3993,7 +3993,7 @@ struct
 Chunk
 :
 public
-ChunkBase
+TenuredChunkBase
 {
 Arena
 arenas

@@ -2998,7 +2998,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 isMarkedAny
 (
@@ -3033,7 +3033,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 isMarkedBlack
 (
@@ -3068,7 +3068,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 isMarkedGray
 (
@@ -3099,7 +3099,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 markIfUnmarked
 (
@@ -3122,7 +3122,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 markBlack
 (
@@ -3142,18 +3142,18 @@ TenuredCell
 src
 )
 {
-ChunkBitmap
+MarkBitmap
 &
-bitmap
+markBits
 =
 chunk
 (
 )
 -
 >
-bitmap
+markBits
 ;
-bitmap
+markBits
 .
 copyMarkBit
 (
@@ -3165,7 +3165,7 @@ ColorBit
 BlackBit
 )
 ;
-bitmap
+markBits
 .
 copyMarkBit
 (
@@ -3191,7 +3191,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 unmark
 (

@@ -864,7 +864,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 arenaBits
 (
@@ -1138,7 +1138,7 @@ chunk
 )
 -
 >
-bitmap
+markBits
 .
 arenaBits
 (
