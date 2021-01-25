@@ -12076,7 +12076,7 @@ E10s
 unsetenv
 (
 "
-JPROF_SLAVE
+JPROF_ISCHILD
 "
 )
 ;
