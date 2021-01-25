@@ -365,8 +365,11 @@ GetSortedWriteInfos
 (
 nsTArray
 <
+NotNull
+<
 WriteInfo
 *
+>
 >
 &
 aWriteInfos
@@ -385,10 +388,13 @@ aWriteInfos
 .
 InsertElementSorted
 (
+WrapNotNullUnchecked
+(
 mTruncateInfo
 .
 get
 (
+)
 )
 WriteInfoComparator
 (
@@ -435,7 +441,10 @@ aWriteInfos
 .
 InsertElementSorted
 (
+WrapNotNull
+(
 writeInfo
+)
 WriteInfoComparator
 (
 )

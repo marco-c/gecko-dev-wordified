@@ -466,8 +466,11 @@ GetSortedWriteInfos
 (
 nsTArray
 <
+NotNull
+<
 WriteInfo
 *
+>
 >
 &
 aWriteInfos

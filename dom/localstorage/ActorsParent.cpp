@@ -19985,8 +19985,11 @@ type
 }
 nsTArray
 <
+NotNull
+<
 WriteInfo
 *
+>
 >
 writeInfos
 ;

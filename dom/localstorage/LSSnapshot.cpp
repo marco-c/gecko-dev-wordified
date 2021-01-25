@@ -557,8 +557,11 @@ processed
 .
 nsTArray
 <
+NotNull
+<
 WriteInfo
 *
+>
 >
 writeInfos
 ;
