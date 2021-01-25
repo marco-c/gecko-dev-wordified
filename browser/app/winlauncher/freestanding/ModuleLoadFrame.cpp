@@ -208,6 +208,11 @@ void
 aMapBaseAddr
 NTSTATUS
 aNtStatus
+ModuleLoadInfo
+:
+:
+Status
+aLoadStatus
 )
 :
 mPrev
@@ -240,6 +245,7 @@ move
 aSectionName
 )
 aMapBaseAddr
+aLoadStatus
 )
 {
 sTopFrame
@@ -448,6 +454,11 @@ void
 aMapBaseAddr
 NTSTATUS
 aMapNtStatus
+ModuleLoadInfo
+:
+:
+Status
+aLoadStatus
 )
 {
 ModuleLoadFrame
@@ -532,6 +543,7 @@ aSectionName
 )
 aMapBaseAddr
 aMapNtStatus
+aLoadStatus
 )
 ;
 }
@@ -552,6 +564,7 @@ aSectionName
 )
 aMapBaseAddr
 aMapNtStatus
+aLoadStatus
 )
 ;
 }
@@ -597,6 +610,11 @@ void
 aMapBaseAddr
 NTSTATUS
 aMapNtStatus
+ModuleLoadInfo
+:
+:
+Status
+aLoadStatus
 )
 {
 if
@@ -648,6 +666,7 @@ aSectionName
 )
 aMapBaseAddr
 aMapNtStatus
+aLoadStatus
 )
 ;
 return
@@ -670,6 +689,12 @@ mLoadInfo
 mBaseAddr
 =
 aMapBaseAddr
+;
+mLoadInfo
+.
+mStatus
+=
+aLoadStatus
 ;
 }
 /
@@ -696,6 +721,11 @@ void
 aMapBaseAddr
 NTSTATUS
 aMapNtStatus
+ModuleLoadInfo
+:
+:
+Status
+aLoadStatus
 )
 {
 /
@@ -725,6 +755,7 @@ aSectionName
 )
 aMapBaseAddr
 aMapNtStatus
+aLoadStatus
 )
 ;
 }
