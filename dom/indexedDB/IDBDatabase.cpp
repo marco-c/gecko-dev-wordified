@@ -5442,7 +5442,7 @@ IDBDatabase
 NoteLiveMutableFile
 (
 IDBMutableFile
-*
+&
 aMutableFile
 )
 {
@@ -5450,14 +5450,8 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
-(
 aMutableFile
-)
-;
-aMutableFile
--
->
+.
 AssertIsOnOwningThread
 (
 )
@@ -5469,6 +5463,7 @@ mLiveMutableFiles
 .
 Contains
 (
+&
 aMutableFile
 )
 )
@@ -5477,7 +5472,11 @@ mLiveMutableFiles
 .
 AppendElement
 (
+WrapNotNullUnchecked
+(
+&
 aMutableFile
+)
 )
 ;
 }
@@ -5488,7 +5487,7 @@ IDBDatabase
 NoteFinishedMutableFile
 (
 IDBMutableFile
-*
+&
 aMutableFile
 )
 {
@@ -5496,14 +5495,8 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
-(
 aMutableFile
-)
-;
-aMutableFile
--
->
+.
 AssertIsOnOwningThread
 (
 )
@@ -5541,6 +5534,7 @@ mLiveMutableFiles
 .
 RemoveElement
 (
+&
 aMutableFile
 )
 ;
