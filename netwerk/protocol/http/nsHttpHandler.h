@@ -3579,7 +3579,11 @@ mSpdyTimeout
 PRIntervalTime
 mResponseTimeout
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mResponseTimeoutEnabled
 ;
 uint32_t
@@ -4461,7 +4465,11 @@ mFastOpenStallsLimit
 uint32_t
 mFastOpenStallsCounter
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mFastOpenStallsIdleTime
 ;
 uint32_t
