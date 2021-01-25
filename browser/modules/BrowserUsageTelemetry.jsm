@@ -863,6 +863,11 @@ sidebar
 -
 button
 "
+"
+library
+-
+button
+"
 ]
 ;
 function
