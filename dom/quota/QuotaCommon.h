@@ -6189,8 +6189,8 @@ Body
 auto
 CollectEachInRange
 (
-const
 Range
+&
 &
 aRange
 const
@@ -6211,8 +6211,8 @@ nsresult
 {
 for
 (
-const
 auto
+&
 &
 element
 :
