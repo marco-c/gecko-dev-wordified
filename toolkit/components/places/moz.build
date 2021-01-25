@@ -187,11 +187,6 @@ INativePlacesEventCallback
 h
 "
 "
-NotifyRankingChanged
-.
-h
-"
-"
 PageIconProtocolHandler
 .
 h

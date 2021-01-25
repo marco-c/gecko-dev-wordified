@@ -2664,6 +2664,17 @@ onEndUpdateBatch
 )
 {
 }
+onFrecencyChanged
+(
+aURI
+)
+{
+}
+onManyFrecenciesChanged
+(
+)
+{
+}
 onDeleteURI
 (
 aURI
