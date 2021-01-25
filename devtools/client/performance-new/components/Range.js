@@ -102,7 +102,9 @@ value
 *
 property
 {
-string
+React
+.
+ReactNode
 }
 label
 *
