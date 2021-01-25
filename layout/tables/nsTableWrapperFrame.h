@@ -590,6 +590,7 @@ aRenderingContext
 )
 override
 ;
+virtual
 mozilla
 :
 :
@@ -627,13 +628,6 @@ mozilla
 LogicalSize
 &
 aBorderPadding
-const
-mozilla
-:
-:
-StyleSizeOverrides
-&
-aSizeOverrides
 mozilla
 :
 :
@@ -1642,13 +1636,6 @@ LogicalSize
 aCBSize
 nscoord
 aAvailableISize
-const
-mozilla
-:
-:
-StyleSizeOverrides
-&
-aSizeOverrides
 nscoord
 *
 aMarginResult

@@ -337,6 +337,7 @@ by
 nsFrame
 not
 nsLeafFrame
+virtual
 mozilla
 :
 :
@@ -374,13 +375,6 @@ mozilla
 LogicalSize
 &
 aBorderPadding
-const
-mozilla
-:
-:
-StyleSizeOverrides
-&
-aSizeOverrides
 mozilla
 :
 :

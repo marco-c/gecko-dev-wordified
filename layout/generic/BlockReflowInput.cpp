@@ -5300,8 +5300,6 @@ Size
 (
 wm
 )
-{
-}
 ComputeSizeFlag
 :
 :
