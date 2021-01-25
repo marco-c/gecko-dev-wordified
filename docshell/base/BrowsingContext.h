@@ -3723,11 +3723,6 @@ aRv
 )
 ;
 }
-void
-SetInitiallyActive
-(
-)
-;
 bool
 AuthorStyleDisabledDefault
 (

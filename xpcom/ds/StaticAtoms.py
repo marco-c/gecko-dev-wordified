@@ -23337,16 +23337,6 @@ initialBrowsingContextGroupId
 "
 )
     
-Atom
-(
-"
-initiallyactive
-"
-"
-initiallyactive
-"
-)
-    
 #
 windows
 media

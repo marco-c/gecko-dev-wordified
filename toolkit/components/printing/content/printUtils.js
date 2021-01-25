@@ -968,9 +968,6 @@ id
 skipLoad
 :
 true
-initiallyActive
-:
-true
 }
 )
 ;
