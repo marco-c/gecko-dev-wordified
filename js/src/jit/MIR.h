@@ -18870,6 +18870,8 @@ MDefinition
 right
 JSOp
 jsop
+CompareType
+compareType
 )
 :
 MBinaryInstruction
@@ -18880,7 +18882,7 @@ right
 )
 compareType_
 (
-Compare_Unknown
+compareType
 )
 jsop_
 (
@@ -18992,13 +18994,6 @@ alloc
 left
 right
 jsop
-)
-;
-ins
--
->
-setCompareType
-(
 compareType
 )
 ;
