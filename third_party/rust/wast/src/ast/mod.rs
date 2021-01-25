@@ -419,6 +419,8 @@ missing_docs
 derive
 (
 Debug
+Copy
+Clone
 )
 ]
 pub
@@ -2836,6 +2838,12 @@ anyref
 custom_keyword
 !
 (
+arg
+)
+;
+custom_keyword
+!
+(
 array
 )
 ;
@@ -3263,6 +3271,12 @@ custom_keyword
 !
 (
 offset
+)
+;
+custom_keyword
+!
+(
+outer
 )
 ;
 custom_keyword
