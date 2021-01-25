@@ -753,9 +753,7 @@ oldDefaultEngine
 ;
 /
 /
-ContentSearch
-.
-jsm
+ContentSearchChild
 doesn
 '
 t
