@@ -4473,8 +4473,8 @@ source
 SyntaxError
 /
 expected
-an
-identifier
+keyword
+table
 /
 )
 ;
