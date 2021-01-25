@@ -188,6 +188,10 @@ with
 ifdef
 etc
 .
+#
+fmt
+:
+off
 STATIC_ATOMS
 =
 [
@@ -1022,11 +1026,9 @@ presentation
     
 Atom
 (
-        
 "
 allowstorageaccessbyuseractivatetion
 "
-        
 "
 allow
 -
@@ -1040,7 +1042,6 @@ user
 -
 activation
 "
-    
 )
     
 Atom
@@ -1095,7 +1096,6 @@ navigation
     
 Atom
 (
-        
 "
 allowtopnavigationbyuseractivation
 "
@@ -1112,7 +1112,6 @@ user
 -
 activation
 "
-    
 )
     
 Atom
@@ -22321,14 +22320,12 @@ FrameAnimations
     
 Atom
 (
-        
 "
 animationsOfBeforeProperty
 "
 "
 AnimationsOfBeforeProperty
 "
-    
 )
 #
 FrameAnimations
@@ -22349,14 +22346,12 @@ FrameAnimations
     
 Atom
 (
-        
 "
 animationsOfMarkerProperty
 "
 "
 AnimationsOfMarkerProperty
 "
-    
 )
 #
 FrameAnimations
@@ -22377,14 +22372,12 @@ EffectSet
     
 Atom
 (
-        
 "
 animationEffectsForBeforeProperty
 "
 "
 AnimationsEffectsForBeforeProperty
 "
-    
 )
 #
 EffectSet
@@ -22392,14 +22385,12 @@ EffectSet
     
 Atom
 (
-        
 "
 animationEffectsForAfterProperty
 "
 "
 AnimationsEffectsForAfterProperty
 "
-    
 )
 #
 EffectSet
@@ -22407,14 +22398,12 @@ EffectSet
     
 Atom
 (
-        
 "
 animationEffectsForMarkerProperty
 "
 "
 AnimationsEffectsForMarkerProperty
 "
-    
 )
 #
 EffectSet
@@ -22435,14 +22424,12 @@ nsXMLElement
     
 Atom
 (
-        
 "
 cssPseudoElementBeforeProperty
 "
 "
 CSSPseudoElementBeforeProperty
 "
-    
 )
 #
 CSSPseudoElement
@@ -22450,14 +22437,12 @@ CSSPseudoElement
     
 Atom
 (
-        
 "
 cssPseudoElementAfterProperty
 "
 "
 CSSPseudoElementAfterProperty
 "
-    
 )
 #
 CSSPseudoElement
@@ -22465,14 +22450,12 @@ CSSPseudoElement
     
 Atom
 (
-        
 "
 cssPseudoElementMarkerProperty
 "
 "
 CSSPseudoElementMarkerProperty
 "
-    
 )
 #
 CSSPseudoElement
@@ -22493,14 +22476,12 @@ FrameTransitions
     
 Atom
 (
-        
 "
 transitionsOfBeforeProperty
 "
 "
 TransitionsOfBeforeProperty
 "
-    
 )
 #
 FrameTransitions
@@ -22508,14 +22489,12 @@ FrameTransitions
     
 Atom
 (
-        
 "
 transitionsOfAfterProperty
 "
 "
 TransitionsOfAfterProperty
 "
-    
 )
 #
 FrameTransitions
@@ -22523,14 +22502,12 @@ FrameTransitions
     
 Atom
 (
-        
 "
 transitionsOfMarkerProperty
 "
 "
 TransitionsOfMarkerProperty
 "
-    
 )
 #
 FrameTransitions
@@ -23507,7 +23484,6 @@ scrollbars
     
 Atom
 (
-        
 "
 _moz_windows_accent_color_in_titlebar
 "
@@ -23525,7 +23501,6 @@ in
 -
 titlebar
 "
-    
 )
     
 Atom
@@ -23741,7 +23716,6 @@ available
     
 Atom
 (
-        
 "
 _moz_gtk_csd_hide_titlebar_by_default
 "
@@ -23761,7 +23735,6 @@ by
 -
 default
 "
-    
 )
     
 Atom
@@ -26181,7 +26154,6 @@ inner
     
 PseudoElementAtom
 (
-        
 "
 PseudoElement_mozComplexControlWrapper
 "
@@ -26196,7 +26168,6 @@ control
 -
 wrapper
 "
-    
 )
     
 PseudoElementAtom
@@ -26255,7 +26226,6 @@ down
     
 PseudoElementAtom
 (
-        
 "
 PseudoElement_mozSearchClearButton
 "
@@ -26270,7 +26240,6 @@ clear
 -
 button
 "
-    
 )
     
 PseudoElementAtom
@@ -26382,7 +26351,6 @@ swatch
     
 PseudoElementAtom
 (
-        
 "
 PseudoElement_mozTextControlEditingRoot
 "
@@ -26399,12 +26367,10 @@ editing
 -
 root
 "
-    
 )
     
 PseudoElementAtom
 (
-        
 "
 PseudoElement_mozTextControlPreview
 "
@@ -26419,7 +26385,6 @@ control
 -
 preview
 "
-    
 )
     
 PseudoElementAtom
@@ -26476,7 +26441,6 @@ placeholder
     
 NonInheritingAnonBoxAtom
 (
-        
 "
 AnonBox_horizontalFramesetBorder
 "
@@ -26489,12 +26453,10 @@ hframeset
 -
 border
 "
-    
 )
     
 NonInheritingAnonBoxAtom
 (
-        
 "
 AnonBox_verticalFramesetBorder
 "
@@ -26507,7 +26469,6 @@ vframeset
 -
 border
 "
-    
 )
     
 NonInheritingAnonBoxAtom
@@ -26608,7 +26569,6 @@ text
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_firstLetterContinuation
 "
@@ -26623,12 +26583,10 @@ letter
 -
 continuation
 "
-    
 )
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozBlockInsideInlineWrapper
 "
@@ -26645,12 +26603,10 @@ inline
 -
 wrapper
 "
-    
 )
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozMathMLAnonymousBlock
 "
@@ -26665,7 +26621,6 @@ anonymous
 -
 block
 "
-    
 )
     
 InheritingAnonBoxAtom
@@ -26768,7 +26723,6 @@ content
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozDisplayComboboxControlFrame
 "
@@ -26783,7 +26737,6 @@ comboboxcontrol
 -
 frame
 "
-    
 )
     
 InheritingAnonBoxAtom
@@ -27008,7 +26961,6 @@ canvas
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_scrolledPageSequence
 "
@@ -27023,7 +26975,6 @@ page
 -
 sequence
 "
-    
 )
     
 InheritingAnonBoxAtom
@@ -27406,7 +27357,6 @@ feedback
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozSVGMarkerAnonChild
 "
@@ -27423,12 +27373,10 @@ anon
 -
 child
 "
-    
 )
     
 InheritingAnonBoxAtom
 (
-        
 "
 AnonBox_mozSVGOuterSVGAnonChild
 "
@@ -27447,7 +27395,6 @@ anon
 -
 child
 "
-    
 )
     
 InheritingAnonBoxAtom
@@ -27490,6 +27437,10 @@ ATOMS
 ]
 +
 HTML_PARSER_ATOMS
+#
+fmt
+:
+on
 def
 verify
 (
