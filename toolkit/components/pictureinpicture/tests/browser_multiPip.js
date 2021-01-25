@@ -137,9 +137,7 @@ allow
 -
 multiple
 "
-"
 true
-"
 ]
 ]
 }
