@@ -1031,7 +1031,16 @@ const
 CSSCoord
 kMinimumSpinnerButtonWidth
 =
-31
+18
+.
+0f
+;
+static
+const
+CSSCoord
+kMinimumSpinnerButtonHeight
+=
+9
 .
 0f
 ;
