@@ -4292,7 +4292,7 @@ rt
 )
 ;
 }
-Chunk
+TenuredChunk
 *
 chunk
 =
@@ -4341,7 +4341,7 @@ other
 valid
 reasons
 why
-Chunk
+TenuredChunk
 :
 :
 allocateArena
@@ -4974,18 +4974,11 @@ enabled
 /
 /
 /
-Chunk
+TenuredChunk
 -
 >
 Arena
 Allocator
-/
-/
-/
-/
-/
-/
-/
 /
 /
 /
@@ -5133,7 +5126,7 @@ GCRuntime
 :
 allocateArena
 (
-Chunk
+TenuredChunk
 *
 chunk
 Zone
@@ -5260,7 +5253,7 @@ arena
 }
 Arena
 *
-Chunk
+TenuredChunk
 :
 :
 allocateArena
@@ -5348,7 +5341,7 @@ numArenasFreeCommitted
 }
 Arena
 *
-Chunk
+TenuredChunk
 :
 :
 fetchNextFreeArena
@@ -5422,7 +5415,7 @@ arena
 }
 Arena
 *
-Chunk
+TenuredChunk
 :
 :
 fetchNextDecommittedArena
@@ -5563,7 +5556,7 @@ allocate
 *
 /
 uint32_t
-Chunk
+TenuredChunk
 :
 :
 findDecommittedArenaOffset
@@ -5676,7 +5669,7 @@ found
 System
 -
 >
-Chunk
+TenuredChunk
 Allocator
 /
 /
@@ -5708,14 +5701,7 @@ Allocator
 /
 /
 /
-/
-/
-/
-/
-/
-/
-/
-Chunk
+TenuredChunk
 *
 GCRuntime
 :
@@ -5727,7 +5713,7 @@ AutoLockGCBgAlloc
 lock
 )
 {
-Chunk
+TenuredChunk
 *
 chunk
 =
@@ -5748,7 +5734,7 @@ chunk
 {
 chunk
 =
-Chunk
+TenuredChunk
 :
 :
 allocate
@@ -5805,7 +5791,7 @@ GCRuntime
 :
 recycleChunk
 (
-Chunk
+TenuredChunk
 *
 chunk
 const
@@ -5843,7 +5829,7 @@ chunk
 )
 ;
 }
-Chunk
+TenuredChunk
 *
 GCRuntime
 :
@@ -5878,7 +5864,7 @@ head
 )
 ;
 }
-Chunk
+TenuredChunk
 *
 chunk
 =
@@ -6062,7 +6048,7 @@ gcLock
 )
 )
 {
-Chunk
+TenuredChunk
 *
 chunk
 ;
@@ -6075,7 +6061,7 @@ gcLock
 ;
 chunk
 =
-Chunk
+TenuredChunk
 :
 :
 allocate
@@ -6119,9 +6105,9 @@ chunk
 static
 *
 /
-Chunk
+TenuredChunk
 *
-Chunk
+TenuredChunk
 :
 :
 allocate
@@ -6137,7 +6123,7 @@ chunk
 =
 static_cast
 <
-Chunk
+TenuredChunk
 *
 >
 (
@@ -6178,7 +6164,7 @@ chunk
 ;
 }
 void
-Chunk
+TenuredChunk
 :
 :
 init
@@ -6361,7 +6347,7 @@ pickChunk
 /
 }
 void
-Chunk
+TenuredChunk
 :
 :
 decommitAllArenas

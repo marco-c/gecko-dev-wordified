@@ -467,7 +467,7 @@ fromChunk
 gc
 :
 :
-Chunk
+TenuredChunk
 *
 chunk
 )
@@ -938,7 +938,7 @@ NurseryChunk
 :
 fromChunk
 (
-Chunk
+TenuredChunk
 *
 chunk
 )
@@ -1198,7 +1198,7 @@ tenuredChunk
 =
 reinterpret_cast
 <
-Chunk
+TenuredChunk
 *
 >
 (
@@ -9948,7 +9948,7 @@ return
 false
 ;
 }
-Chunk
+TenuredChunk
 *
 newChunk
 ;

@@ -4665,7 +4665,7 @@ kind
 ;
 }
 }
-Chunk
+TenuredChunk
 *
 ChunkPool
 :
@@ -4711,7 +4711,7 @@ ChunkPool
 :
 push
 (
-Chunk
+TenuredChunk
 *
 chunk
 )
@@ -4771,14 +4771,14 @@ chunk
 count_
 ;
 }
-Chunk
+TenuredChunk
 *
 ChunkPool
 :
 :
 remove
 (
-Chunk
+TenuredChunk
 *
 chunk
 )
@@ -4999,7 +4999,7 @@ Fixup
 prev
 pointers
 .
-Chunk
+TenuredChunk
 *
 prev
 =
@@ -5007,7 +5007,7 @@ nullptr
 ;
 for
 (
-Chunk
+TenuredChunk
 *
 cur
 =
@@ -5055,14 +5055,14 @@ isSorted
 )
 ;
 }
-Chunk
+TenuredChunk
 *
 ChunkPool
 :
 :
 mergeSort
 (
-Chunk
+TenuredChunk
 *
 list
 size_t
@@ -5105,18 +5105,18 @@ count
 /
 Split
 ;
-Chunk
+TenuredChunk
 *
 front
 =
 list
 ;
-Chunk
+TenuredChunk
 *
 back
 ;
 {
-Chunk
+TenuredChunk
 *
 cur
 =
@@ -5199,7 +5199,7 @@ list
 =
 nullptr
 ;
-Chunk
+TenuredChunk
 *
 *
 cur
@@ -5365,7 +5365,7 @@ last
 ;
 for
 (
-Chunk
+TenuredChunk
 *
 cursor
 =
@@ -5422,7 +5422,7 @@ ChunkPool
 :
 contains
 (
-Chunk
+TenuredChunk
 *
 chunk
 )
@@ -5434,7 +5434,7 @@ verify
 ;
 for
 (
-Chunk
+TenuredChunk
 *
 cursor
 =
@@ -5499,7 +5499,7 @@ count
 ;
 for
 (
-Chunk
+TenuredChunk
 *
 cursor
 =
@@ -5695,7 +5695,7 @@ lock
 )
 )
 {
-Chunk
+TenuredChunk
 *
 chunk
 =
@@ -5817,7 +5817,7 @@ done
 ;
 )
 {
-Chunk
+TenuredChunk
 *
 chunk
 =
@@ -5985,7 +5985,7 @@ numArenasFreeCommitted
 ;
 }
 void
-Chunk
+TenuredChunk
 :
 :
 addArenaToFreeList
@@ -6045,7 +6045,7 @@ updateOnArenaFree
 ;
 }
 void
-Chunk
+TenuredChunk
 :
 :
 addArenaToDecommittedList
@@ -6064,7 +6064,7 @@ numArenasFree
 ;
 decommittedArenas
 [
-Chunk
+TenuredChunk
 :
 :
 arenaIndex
@@ -6082,7 +6082,7 @@ true
 ;
 }
 void
-Chunk
+TenuredChunk
 :
 :
 recycleArena
@@ -6114,7 +6114,7 @@ thingsPerArena
 ;
 }
 void
-Chunk
+TenuredChunk
 :
 :
 releaseArena
@@ -6145,7 +6145,7 @@ lock
 ;
 }
 bool
-Chunk
+TenuredChunk
 :
 :
 decommitOneFreeArena
@@ -6232,7 +6232,7 @@ ok
 ;
 }
 void
-Chunk
+TenuredChunk
 :
 :
 decommitFreeArenasWithoutUnlocking
@@ -6310,7 +6310,7 @@ true
 }
 }
 void
-Chunk
+TenuredChunk
 :
 :
 updateChunkListAfterAlloc
@@ -6364,7 +6364,7 @@ this
 }
 }
 void
-Chunk
+TenuredChunk
 :
 :
 updateChunkListAfterFree
@@ -21750,7 +21750,7 @@ visit
 .
 Vector
 <
-Chunk
+TenuredChunk
 *
 0
 SystemAllocPolicy
@@ -21818,7 +21818,7 @@ return
 }
 for
 (
-Chunk
+TenuredChunk
 *
 chunk
 :
