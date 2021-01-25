@@ -4936,11 +4936,6 @@ tabbrowser
 addToMultiSelectedTabs
 (
 nativeTab
-{
-isLastMultiSelectChange
-:
-true
-}
 )
 ;
 /
@@ -5001,11 +4996,6 @@ tabbrowser
 removeFromMultiSelectedTabs
 (
 nativeTab
-{
-isLastMultiSelectChange
-:
-true
-}
 )
 ;
 }
