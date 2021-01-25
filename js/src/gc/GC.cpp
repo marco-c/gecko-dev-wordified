@@ -6917,6 +6917,10 @@ unmarkTask
 (
 this
 )
+markTask
+(
+this
+)
 sweepTask
 (
 this
@@ -6926,10 +6930,6 @@ freeTask
 this
 )
 decommitTask
-(
-this
-)
-sweepMarkTask
 (
 this
 )
@@ -31224,7 +31224,7 @@ abortSweepAfterCurrentGroup
 {
 joinTask
 (
-sweepMarkTask
+markTask
 gcstats
 :
 :
@@ -36513,7 +36513,7 @@ prevent
 a
 race
 between
-sweepMarkTask
+markTask
 checking
 the
 zone
@@ -36528,7 +36528,7 @@ below
 .
 if
 (
-joinSweepMarkTask
+joinBackgroundMarkTask
 (
 )
 =
@@ -36867,7 +36867,7 @@ budget
 {
 MOZ_ASSERT
 (
-sweepMarkTask
+markTask
 .
 isIdle
 (
@@ -36897,7 +36897,7 @@ lock
 ;
 MOZ_ASSERT
 (
-sweepMarkTask
+markTask
 .
 isIdle
 (
@@ -36905,14 +36905,14 @@ lock
 )
 )
 ;
-sweepMarkTask
+markTask
 .
 setBudget
 (
 budget
 )
 ;
-sweepMarkTask
+markTask
 .
 startOrRunIfIdle
 (
@@ -37392,7 +37392,7 @@ js
 gc
 :
 :
-SweepMarkTask
+BackgroundMarkTask
 :
 :
 run
@@ -37444,7 +37444,7 @@ IncrementalProgress
 GCRuntime
 :
 :
-joinSweepMarkTask
+joinBackgroundMarkTask
 (
 )
 {
@@ -37453,7 +37453,7 @@ lock
 ;
 if
 (
-sweepMarkTask
+markTask
 .
 isIdle
 (
@@ -37467,7 +37467,7 @@ Finished
 }
 joinTask
 (
-sweepMarkTask
+markTask
 gcstats
 :
 :
@@ -40646,7 +40646,7 @@ args
 IncrementalProgress
 markProgress
 =
-joinSweepMarkTask
+joinBackgroundMarkTask
 (
 )
 ;
@@ -50579,7 +50579,7 @@ isIdle
 ;
 MOZ_ASSERT
 (
-sweepMarkTask
+markTask
 .
 isIdle
 (
