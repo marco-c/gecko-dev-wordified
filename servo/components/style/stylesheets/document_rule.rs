@@ -2151,15 +2151,6 @@ ParserContext
 bool
 {
 use
-crate
-:
-:
-stylesheets
-:
-:
-Origin
-;
-use
 static_prefs
 :
 :
