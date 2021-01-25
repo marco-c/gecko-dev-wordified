@@ -177,7 +177,9 @@ promiseUpdatePlaces
 (
 aPlaces
 aOptions
-aBatchFrecencyNotifications
+=
+{
+}
 )
 {
 return
@@ -273,7 +275,6 @@ resultCount
 }
 aOptions
 )
-aBatchFrecencyNotifications
 )
 ;
 }
@@ -7856,9 +7857,6 @@ await
 promiseUpdatePlaces
 (
 places
-{
-}
-true
 )
 ;
 await
