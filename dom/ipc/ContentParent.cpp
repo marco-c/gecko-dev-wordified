@@ -43523,8 +43523,6 @@ BrowsingContext
 aContext
 CallerType
 aCallerType
-uint64_t
-aActionId
 )
 {
 if
@@ -43623,7 +43621,6 @@ SendWindowFocus
 (
 context
 aCallerType
-aActionId
 )
 ;
 return

@@ -10929,8 +10929,6 @@ MaybeDiscardedBrowsingContext
 aContext
 CallerType
 aCallerType
-uint64_t
-aActionId
 )
 ;
 async
