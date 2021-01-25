@@ -48305,6 +48305,10 @@ sGdkWindowGetScaleFactorPtr
 scaledGdkWindow
 )
 ;
+mWindowScaleFactorChanged
+=
+false
+;
 }
 else
 {
@@ -48318,10 +48322,6 @@ GetGTKMonitorScaleFactor
 )
 ;
 }
-mWindowScaleFactorChanged
-=
-false
-;
 return
 mWindowScaleFactor
 ;
