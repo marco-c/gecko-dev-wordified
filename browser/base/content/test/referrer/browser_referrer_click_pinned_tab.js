@@ -128,10 +128,12 @@ example
 .
 com
 /
+browser
 "
 /
 /
-origin
+full
+referrer
 }
 {
 fromScheme
