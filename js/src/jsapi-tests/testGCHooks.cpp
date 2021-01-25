@@ -489,8 +489,8 @@ JS_GC_ZEAL
 JS_SetGCParameter
 (
 cx
-JSGC_MODE
-JSGC_MODE_ZONE_INCREMENTAL
+JSGC_INCREMENTAL_GC_ENABLED
+true
 )
 ;
 gSliceCallbackCount
@@ -642,8 +642,8 @@ nullptr
 JS_SetGCParameter
 (
 cx
-JSGC_MODE
-JSGC_MODE_GLOBAL
+JSGC_INCREMENTAL_GC_ENABLED
+false
 )
 ;
 return
