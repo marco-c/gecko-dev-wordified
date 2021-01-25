@@ -543,12 +543,8 @@ object
 its
 class
 and
-the
-possible
-types
-of
 its
-properties
+realm
 .
 *
 *

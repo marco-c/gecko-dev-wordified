@@ -246,11 +246,8 @@ site
 to
 specify
 the
-type
-properties
-*
-and
 lifetime
+*
 requirements
 that
 must
