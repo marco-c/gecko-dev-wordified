@@ -210,8 +210,8 @@ neqo_transport
 :
 {
 AppError
-CloseError
 Connection
+ConnectionError
 State
 StreamType
 }
@@ -332,11 +332,11 @@ u64
 )
 Closing
 (
-CloseError
+ConnectionError
 )
 Closed
 (
-CloseError
+ConnectionError
 )
 }
 impl
@@ -2932,10 +2932,6 @@ error
 clone
 (
 )
-.
-into
-(
-)
 )
 ;
 Ok
@@ -2989,10 +2985,6 @@ Closed
 error
 .
 clone
-(
-)
-.
-into
 (
 )
 )
@@ -3202,6 +3194,9 @@ Error
 :
 :
 HttpInternal
+(
+3
+)
 )
 }
 }
@@ -3627,7 +3622,7 @@ Http3State
 :
 Closing
 (
-CloseError
+ConnectionError
 :
 :
 Application

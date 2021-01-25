@@ -118,8 +118,8 @@ neqo_transport
 {
 Connection
 ConnectionParameters
-FixedConnectionIdManager
 QuicVersion
+RandomConnectionIdGenerator
 State
 }
 ;
@@ -129,7 +129,7 @@ test_fixture
 :
 {
 self
-loopback
+addr
 now
 }
 ;
@@ -508,7 +508,7 @@ RefCell
 :
 new
 (
-FixedConnectionIdManager
+RandomConnectionIdGenerator
 :
 :
 new
@@ -517,7 +517,6 @@ new
 )
 )
 )
-&
 ConnectionParameters
 :
 :
@@ -590,10 +589,10 @@ Datagram
 :
 new
 (
-loopback
+addr
 (
 )
-loopback
+addr
 (
 )
 pkt
