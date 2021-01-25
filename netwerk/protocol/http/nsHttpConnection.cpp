@@ -12361,14 +12361,6 @@ mTransaction
 &
 &
 mTLSFilter
-&
-&
-gHttpHandler
--
->
-Bug1556491
-(
-)
 )
 {
 /
