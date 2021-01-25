@@ -8671,7 +8671,7 @@ TypedArrayObject
 (
 )
 ;
-uint32_t
+size_t
 len
 =
 tobj
@@ -8681,7 +8681,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
