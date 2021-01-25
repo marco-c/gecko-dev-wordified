@@ -630,9 +630,6 @@ nsIObserverService
 mObs
 ;
 nsString
-mBaseCSP
-;
-nsString
 mDefaultCSP
 ;
 }
