@@ -31411,16 +31411,6 @@ mode
 (
 )
 ;
-BailoutKind
-bailoutKind
-=
-unbox
--
->
-bailoutKind
-(
-)
-;
 MInstruction
 *
 replacement
@@ -31482,7 +31472,6 @@ slot
 )
 mode
 type
-bailoutKind
 )
 ;
 break
@@ -31535,7 +31524,6 @@ slot
 )
 mode
 type
-bailoutKind
 )
 ;
 break
@@ -31604,7 +31592,6 @@ index
 )
 mode
 type
-bailoutKind
 )
 ;
 break

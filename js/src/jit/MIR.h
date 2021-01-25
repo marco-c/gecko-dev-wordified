@@ -44817,8 +44817,6 @@ Mode
 mode
 MIRType
 type
-BailoutKind
-kind
 )
 :
 MBinaryInstruction
@@ -44859,7 +44857,10 @@ setGuard
 }
 setBailoutKind
 (
-kind
+BailoutKind
+:
+:
+UnboxFolding
 )
 ;
 }
@@ -49037,8 +49038,6 @@ Mode
 mode
 MIRType
 type
-BailoutKind
-kind
 )
 :
 MUnaryInstruction
@@ -49082,7 +49081,10 @@ setGuard
 }
 setBailoutKind
 (
-kind
+BailoutKind
+:
+:
+UnboxFolding
 )
 ;
 }
@@ -49290,8 +49292,6 @@ Mode
 mode
 MIRType
 type
-BailoutKind
-kind
 )
 :
 MUnaryInstruction
@@ -49335,7 +49335,10 @@ setGuard
 }
 setBailoutKind
 (
-kind
+BailoutKind
+:
+:
+UnboxFolding
 )
 ;
 }
