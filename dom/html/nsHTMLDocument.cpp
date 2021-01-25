@@ -1014,6 +1014,10 @@ mIsPlainText
 (
 false
 )
+mViewSource
+(
+false
+)
 {
 mType
 =
@@ -1734,7 +1738,7 @@ return
 }
 if
 (
-kCharsetFromInitialAutoDetectionWouldHaveBeenUTF8
+kCharsetFromInitialAutoDetectionASCII
 <
 =
 parentSource
@@ -1994,8 +1998,7 @@ resource
 "
 )
 ;
-bool
-viewSource
+mViewSource
 =
 !
 strcmp
@@ -2025,7 +2028,7 @@ if
 view
 |
 |
-viewSource
+mViewSource
 |
 |
 asData
@@ -2111,7 +2114,7 @@ xhtml
 mIsPlainText
 |
 |
-viewSource
+mViewSource
 )
 )
 {
@@ -2154,7 +2157,7 @@ true
 if
 (
 !
-viewSource
+mViewSource
 &
 &
 xhtml
@@ -2409,7 +2412,7 @@ mIsPlainText
 {
 if
 (
-viewSource
+mViewSource
 )
 {
 html5Parser
@@ -2446,7 +2449,7 @@ text
 else
 if
 (
-viewSource
+mViewSource
 &
 &
 !
