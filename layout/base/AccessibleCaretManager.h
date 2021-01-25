@@ -1610,6 +1610,7 @@ MaybeFlushLayout
 (
 )
 ;
+static
 dom
 :
 :
@@ -1617,11 +1618,11 @@ Element
 *
 GetEditingHostForFrame
 (
+const
 nsIFrame
 *
 aFrame
 )
-const
 ;
 dom
 :

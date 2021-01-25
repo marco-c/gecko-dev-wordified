@@ -4962,6 +4962,9 @@ return
 str
 ;
 }
+/
+/
+static
 Element
 *
 AccessibleCaretManager
@@ -4969,11 +4972,11 @@ AccessibleCaretManager
 :
 GetEditingHostForFrame
 (
+const
 nsIFrame
 *
 aFrame
 )
-const
 {
 if
 (
