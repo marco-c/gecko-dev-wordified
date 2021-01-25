@@ -158,6 +158,9 @@ mozilla
 class
 PresShell
 ;
+class
+PrintedSheetFrame
+;
 namespace
 dom
 {
@@ -1344,7 +1347,10 @@ nsMargin
 aChildPhysicalMargin
 )
 ;
-nsIFrame
+mozilla
+:
+:
+PrintedSheetFrame
 *
 GetCurrentSheetFrame
 (
