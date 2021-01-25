@@ -138,6 +138,11 @@ Unused
 cpp
 "
 "
+Cache
+.
+cpp
+"
+"
 common
 .
 cpp
@@ -329,6 +334,12 @@ OS_LIBS
 +
 =
 [
+"
+advapi32
+"
+"
+kernel32
+"
 "
 netapi32
 "
