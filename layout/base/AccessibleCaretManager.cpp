@@ -4913,6 +4913,7 @@ GetCaretMode
 )
 const
 {
+const
 Selection
 *
 selection
@@ -4934,6 +4935,7 @@ CaretMode
 None
 ;
 }
+const
 uint32_t
 rangeCount
 =
@@ -4959,6 +4961,7 @@ CaretMode
 None
 ;
 }
+const
 nsFocusManager
 *
 fm
