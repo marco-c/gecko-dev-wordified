@@ -146,6 +146,9 @@ TestAtomics
 TestBinarySearch
 "
 "
+TestBitSet
+"
+"
 TestBloomFilter
 "
 "
