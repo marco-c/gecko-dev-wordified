@@ -4459,8 +4459,15 @@ depth
 ;
 if
 (
+(
 !
 buf
+&
+&
+size
+>
+0
+)
 |
 |
 size
