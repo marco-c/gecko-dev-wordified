@@ -7094,7 +7094,7 @@ name
         
 self
 .
-value
+valueFn
 =
 value
         
@@ -7210,6 +7210,29 @@ self
 basetype
 =
 basetype
+        
+#
+Value
+is
+a
+lambda
+.
+Resolve
+it
+.
+        
+self
+.
+value
+=
+self
+.
+valueFn
+(
+self
+.
+iface
+)
     
 def
 getValue
@@ -7222,11 +7245,6 @@ return
 self
 .
 value
-(
-self
-.
-iface
-)
     
 def
 __str__
@@ -7341,7 +7359,7 @@ name
         
 self
 .
-value
+valueFn
 =
 value
         
@@ -7506,23 +7524,6 @@ of
 self
 .
 location
-)
-    
-def
-getValue
-(
-self
-)
-:
-        
-return
-self
-.
-value
-(
-self
-.
-iface
 )
     
 def
@@ -7729,7 +7730,7 @@ it
 if
 variant
 .
-value
+valueFn
 :
                 
 next_value
@@ -7740,7 +7741,7 @@ value
 =
 variant
 .
-value
+valueFn
 (
 self
 .
