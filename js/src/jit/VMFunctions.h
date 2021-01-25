@@ -3473,17 +3473,6 @@ bi
 )
 ;
 void
-AssertValidObjectOrNullPtr
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
-)
-;
-void
 AssertValidObjectPtr
 (
 JSContext

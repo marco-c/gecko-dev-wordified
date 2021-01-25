@@ -4264,12 +4264,6 @@ case
 MIRType
 :
 :
-ObjectOrNull
-:
-case
-MIRType
-:
-:
 RefOrNull
 :
 return
