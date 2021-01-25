@@ -35,6 +35,11 @@ cstring
 #
 include
 <
+functional
+>
+#
+include
+<
 type_traits
 >
 #
@@ -514,8 +519,8 @@ T_Sbx
 get_sandbox_value_ref
 (
 )
-const
 \
+const
 noexcept
 \
 {
@@ -1175,7 +1180,6 @@ tainted
 T
 T_Sbx
 >
-&
 &
 rhs
 )
@@ -2019,7 +2023,6 @@ tainted
 T
 T_Sbx
 >
-&
 &
 rhs_wrap
 )

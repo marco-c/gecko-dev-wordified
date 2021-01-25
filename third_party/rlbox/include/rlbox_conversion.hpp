@@ -765,7 +765,6 @@ T_To_C
 >
 )
 {
-return
 convert_type_fundamental
 (
 to

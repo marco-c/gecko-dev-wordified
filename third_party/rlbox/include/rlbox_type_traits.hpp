@@ -1940,6 +1940,17 @@ bool
 std
 :
 :
+is_same_v
+<
+T
+char
+>
+&
+&
+!
+std
+:
+:
 is_const_v
 <
 T
