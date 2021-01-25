@@ -1412,6 +1412,7 @@ uint32_t
 mOffset
 )
 <
+=
 startOffset
 ;
 }
