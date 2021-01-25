@@ -637,7 +637,7 @@ Preferences
 :
 SetBool
 (
-FPI_PREF
+SITE_PREF
 oldSitePref
 )
 ;
@@ -1026,7 +1026,7 @@ Preferences
 :
 SetBool
 (
-FPI_PREF
+SITE_PREF
 oldSitePref
 )
 ;
@@ -1190,7 +1190,7 @@ Preferences
 :
 SetBool
 (
-FPI_PREF
+SITE_PREF
 oldSitePref
 )
 ;
