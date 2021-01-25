@@ -1215,7 +1215,7 @@ inline
 ]
 pub
 fn
-is_chrome
+chrome_rules_enabled
 (
 &
 self
@@ -1230,7 +1230,7 @@ as_ref
 (
 )
 .
-mIsChrome
+mChromeRulesEnabled
 }
 /
 /
@@ -1588,12 +1588,12 @@ URLExtraData
 field
 (
 "
-is_chrome
+chrome_rules_enabled
 "
 &
 self
 .
-is_chrome
+chrome_rules_enabled
 (
 )
 )
