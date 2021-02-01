@@ -15350,6 +15350,11 @@ atom
 asName
 (
 )
+-
+>
+toIndex
+(
+)
 start
 modifier
 out
@@ -15365,6 +15370,11 @@ atom
 -
 >
 asName
+(
+)
+-
+>
+toIndex
 (
 )
 start
@@ -24576,6 +24586,11 @@ newAtomToken
 (
 kind
 atom
+-
+>
+toIndex
+(
+)
 start
 modifier
 out
