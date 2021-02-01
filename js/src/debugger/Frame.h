@@ -1501,6 +1501,7 @@ discern
 .
 *
 /
+static
 MOZ_MUST_USE
 bool
 setGeneratorInfo
@@ -1508,6 +1509,8 @@ setGeneratorInfo
 JSContext
 *
 cx
+HandleDebuggerFrame
+frame
 Handle
 <
 AbstractGeneratorObject
