@@ -121,7 +121,7 @@ defineModuleGetter
 (
 this
 "
-BrowserUtils
+LayoutUtils
 "
 "
 resource
@@ -132,7 +132,7 @@ gre
 /
 modules
 /
-BrowserUtils
+LayoutUtils
 .
 jsm
 "
@@ -1089,7 +1089,7 @@ _getBoundingContentRect
 )
 {
 return
-BrowserUtils
+LayoutUtils
 .
 getElementBoundingScreenRect
 (
