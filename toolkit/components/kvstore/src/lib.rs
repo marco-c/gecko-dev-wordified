@@ -72,14 +72,6 @@ extern
 crate
 cstr
 ;
-#
-[
-macro_use
-]
-extern
-crate
-failure
-;
 extern
 crate
 libc
@@ -115,6 +107,10 @@ tempfile
 extern
 crate
 thin_vec
+;
+extern
+crate
+thiserror
 ;
 extern
 crate
