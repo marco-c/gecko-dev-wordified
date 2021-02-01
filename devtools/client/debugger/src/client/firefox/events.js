@@ -213,7 +213,7 @@ for
 /
 async
 function
-ensureSourceActor
+waitForSourceActorToBeRegisteredInStore
 (
 sourceActor
 :
@@ -329,6 +329,6 @@ resolve
 export
 {
 setupEvents
-ensureSourceActor
+waitForSourceActorToBeRegisteredInStore
 }
 ;
