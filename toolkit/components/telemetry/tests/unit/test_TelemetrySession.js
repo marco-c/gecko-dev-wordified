@@ -4243,7 +4243,7 @@ platform
 !
 =
 "
-windows
+win
 "
 |
 |
