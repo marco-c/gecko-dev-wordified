@@ -212,6 +212,8 @@ pathprefix
 subsuite
     
 tags
+    
+failures
 )
 from
 mozgeckoprofiler
@@ -12004,6 +12006,14 @@ as
 f
 :
                         
+if
+"
+suite_name
+"
+in
+options
+:
+                            
 runtimes
 =
 json
@@ -12021,6 +12031,14 @@ suite_name
 {
 }
 )
+                        
+else
+:
+                            
+runtimes
+=
+{
+}
                     
 filters
 .
@@ -12062,6 +12080,32 @@ totalChunks
                     
 )
             
+noDefaultFilters
+=
+False
+            
+if
+options
+.
+runFailures
+:
+                
+filters
+.
+append
+(
+failures
+(
+options
+.
+runFailures
+)
+)
+                
+noDefaultFilters
+=
+True
+            
 tests
 =
 manifest
@@ -12072,12 +12116,19 @@ active_tests
 exists
 =
 False
+                
 disabled
 =
 disabled
+                
 filters
 =
 filters
+                
+noDefaultFilters
+=
+noDefaultFilters
+                
 *
 *
 info
