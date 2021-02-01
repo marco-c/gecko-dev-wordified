@@ -241,15 +241,6 @@ aDesktopEnvironment
 override
 ;
 NS_IMETHOD
-GetTestType
-(
-nsAString
-&
-aTestType
-)
-override
-;
-NS_IMETHOD
 GetAdapterDescription
 (
 nsAString
