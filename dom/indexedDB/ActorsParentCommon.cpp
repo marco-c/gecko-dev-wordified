@@ -521,6 +521,14 @@ dom
 :
 indexedDB
 {
+static_assert
+(
+SNAPPY_VERSION
+=
+=
+0x010108
+)
+;
 using
 mozilla
 :
