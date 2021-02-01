@@ -185,7 +185,7 @@ inspector
 )
 ;
 await
-expandContainerByClick
+toggleContainerByClick
 (
 inspector
 container
@@ -250,7 +250,7 @@ inspector
 )
 ;
 await
-expandContainerByClick
+toggleContainerByClick
 (
 inspector
 container
@@ -403,7 +403,7 @@ inspector
 )
 ;
 await
-expandContainerByClick
+toggleContainerByClick
 (
 inspector
 container
