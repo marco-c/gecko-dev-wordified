@@ -422,7 +422,7 @@ browser
 .
 urlbar
 .
-imeCompositionClosesPanel
+keepPanelOpenDuringImeComposition
 "
 val
 ]
@@ -456,7 +456,7 @@ async
 function
 test_composition
 (
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 {
 gURLBar
@@ -640,8 +640,7 @@ composeAndCheckPanel
 "
 t
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -666,8 +665,7 @@ composeAndCheckPanel
 "
 te
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -790,8 +788,7 @@ composeAndCheckPanel
 "
 r
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -815,8 +812,7 @@ composeAndCheckPanel
 (
 "
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -975,8 +971,7 @@ composeAndCheckPanel
 "
 t
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -1001,8 +996,7 @@ composeAndCheckPanel
 "
 te
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -1026,8 +1020,7 @@ composeAndCheckPanel
 (
 "
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -1531,8 +1524,7 @@ composeAndCheckPanel
 "
 I
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -1557,8 +1549,7 @@ composeAndCheckPanel
 "
 In
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -1582,8 +1573,7 @@ composeAndCheckPanel
 (
 "
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -1990,7 +1980,7 @@ async
 function
 test_composition_searchMode_preview
 (
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 {
 info
@@ -2082,8 +2072,7 @@ composeAndCheckPanel
 "
 I
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -2105,8 +2094,7 @@ value
 ;
 if
 (
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 {
 await
@@ -2162,7 +2150,7 @@ async
 function
 test_composition_tabToSearch
 (
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 {
 info
@@ -2257,8 +2245,7 @@ composeAndCheckPanel
 "
 I
 "
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 ;
 Assert
@@ -2280,8 +2267,7 @@ value
 ;
 if
 (
-!
-compositionClosesPanel
+keepPanelOpenDuringImeComposition
 )
 {
 await
