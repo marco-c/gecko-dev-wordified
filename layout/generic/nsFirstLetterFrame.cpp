@@ -635,8 +635,6 @@ outChildFrame
 )
 ;
 }
-else
-{
 return
 nsIFrame
 :
@@ -649,7 +647,6 @@ outFrameContentOffset
 outChildFrame
 )
 ;
-}
 }
 /
 /
