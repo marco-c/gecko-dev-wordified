@@ -575,7 +575,7 @@ if
 aTarget
 -
 >
-HasNameDependentParent
+HasNameDependent
 (
 )
 )
