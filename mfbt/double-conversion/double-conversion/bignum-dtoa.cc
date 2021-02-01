@@ -3240,7 +3240,7 @@ exponent
 of
 the
 decimal
-approximation
+approimation
 .
 digits
 *
@@ -4910,7 +4910,7 @@ denominator
 v
 '
 s
-boundaries
+boundarys
 m
 -
 and
