@@ -199,6 +199,7 @@ now
 (
 )
 ;
+const
 entries
 =
 self
@@ -266,6 +267,7 @@ now
 (
 )
 ;
+const
 entries
 =
 self
@@ -309,6 +311,7 @@ function
 (
 )
 {
+const
 entries
 =
 self
@@ -363,6 +366,7 @@ function
 (
 )
 {
+const
 entries
 =
 self
@@ -424,6 +428,7 @@ function
 (
 )
 {
+const
 entries
 =
 self
@@ -471,6 +476,7 @@ function
 (
 )
 {
+const
 entries
 =
 self
@@ -516,6 +522,7 @@ function
 (
 )
 {
+const
 entries
 =
 self
@@ -590,6 +597,7 @@ function
 (
 )
 {
+const
 entries
 =
 self
@@ -670,6 +678,7 @@ function
 (
 )
 {
+const
 entries
 =
 filter_entries_by_type
@@ -734,6 +743,7 @@ function
 (
 )
 {
+const
 entries
 =
 filter_entries_by_type
@@ -804,6 +814,7 @@ function
 (
 )
 {
+const
 entries
 =
 self
@@ -870,6 +881,7 @@ function
 (
 )
 {
+const
 entries
 =
 self
