@@ -430,3 +430,15 @@ config
 mozbuild
 "
 )
+PYTHON_UNITTEST_MANIFESTS
++
+=
+[
+"
+test
+/
+python
+.
+ini
+"
+]

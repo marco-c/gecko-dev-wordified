@@ -1199,6 +1199,12 @@ mValue
 Module
 :
 :
+BackgroundTasksSelector
+mBackgroundTasksSelector
+;
+Module
+:
+:
 ProcessSelector
 mProcessSelector
 ;
