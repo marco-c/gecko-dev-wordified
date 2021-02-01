@@ -491,6 +491,7 @@ cx
 CompilationInput
 &
 input
+const
 BaseCompilationStencil
 &
 stencil
@@ -684,6 +685,7 @@ Kind
 BigInt
 :
 {
+const
 BigIntStencil
 &
 data
@@ -746,6 +748,7 @@ Kind
 ObjLiteral
 :
 {
+const
 ObjLiteralStencil
 &
 data

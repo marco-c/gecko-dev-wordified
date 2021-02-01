@@ -9284,6 +9284,7 @@ frontend
 CompilationInput
 &
 input
+const
 js
 :
 :
@@ -11849,6 +11850,11 @@ IsFieldInitializer
 )
 IMMUTABLE_FLAG_GETTER
 (
+useMemberInitializers
+UseMemberInitializers
+)
+IMMUTABLE_FLAG_GETTER
+(
 hasRest
 HasRest
 )
@@ -12392,6 +12398,13 @@ memberInitializers
 {
 MOZ_ASSERT
 (
+useMemberInitializers
+(
+)
+)
+;
+MOZ_ASSERT
+(
 data_
 )
 ;
@@ -12595,8 +12608,6 @@ BaseScript
 *
 >
 lazy
-bool
-hasFieldInitializer
 )
 ;
 /
@@ -13242,6 +13253,7 @@ frontend
 CompilationInput
 &
 input
+const
 js
 :
 :
@@ -13420,6 +13432,7 @@ frontend
 CompilationInput
 &
 input
+const
 js
 :
 :
@@ -13491,6 +13504,7 @@ frontend
 CompilationInput
 &
 input
+const
 js
 :
 :
