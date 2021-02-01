@@ -6950,8 +6950,9 @@ focus
 (
 )
 ;
+return
+;
 }
-else
 if
 (
 newBrowser
