@@ -23947,6 +23947,12 @@ DoCacheAllKnownLangPrefs
 (
 )
 ;
+nsAtom
+*
+CJKFromTLD
+(
+)
+;
 void
 RecomputeLanguageFromCharset
 (
