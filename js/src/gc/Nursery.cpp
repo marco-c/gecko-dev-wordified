@@ -2257,8 +2257,6 @@ chunk
 markPagesInUseHard
 (
 ChunkSize
--
-ArenaSize
 )
 )
 {
