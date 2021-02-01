@@ -5989,7 +5989,7 @@ Linux
 ScreenSizeStatus
 :
 :
-SmallAndMedium
+All
 BatteryStatus
 :
 :
@@ -6042,7 +6042,7 @@ Linux
 ScreenSizeStatus
 :
 :
-SmallAndMedium
+All
 BatteryStatus
 :
 :
