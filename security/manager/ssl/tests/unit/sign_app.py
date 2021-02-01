@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 This
@@ -665,7 +665,7 @@ paths
     
 for
 path
-dirs
+_dirs
 files
 in
 os
@@ -821,6 +821,13 @@ contents
 digest
 (
 )
+)
+.
+decode
+(
+"
+ascii
+"
 )
         
 entry
@@ -1655,6 +1662,15 @@ manifest
 coseManifest
 )
             
+coseManifest
+=
+six
+.
+ensure_binary
+(
+coseManifest
+)
+            
 addManifestEntry
 (
                 
@@ -1725,23 +1741,20 @@ intermediate
             
 signatures
 =
-map
-(
+[
                 
-lambda
-coseAlgorithm
-:
 coseAlgorithmToSignatureParams
 (
-                    
 coseAlgorithm
 coseIssuerName
-                
 )
                 
+for
+coseAlgorithm
+in
 coseAlgorithms
             
-)
+]
             
 coseSignatureBytes
 =
@@ -1833,10 +1846,8 @@ in
 signatureHashes
 :
                 
-base64hash
+hashed
 =
-b64encode
-(
 hashFunc
 (
 six
@@ -1850,6 +1861,19 @@ mfContents
 digest
 (
 )
+                
+base64hash
+=
+b64encode
+(
+hashed
+)
+.
+decode
+(
+"
+ascii
+"
 )
                 
 sfContents
@@ -2769,21 +2793,31 @@ parsed
 .
 root
         
-map
-(
+[
 hashNameToFunctionAndIdentifier
+(
+h
+)
+for
+h
+in
 parsed
 .
 manifest_hash
-)
+]
         
-map
-(
+[
 hashNameToFunctionAndIdentifier
+(
+h
+)
+for
+h
+in
 parsed
 .
 signature_hash
-)
+]
         
 parsed
 .
