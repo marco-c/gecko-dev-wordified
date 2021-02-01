@@ -2688,6 +2688,17 @@ Value
 v
 )
 {
+MOZ_ASSERT
+(
+!
+RuntimeFromMainThreadIsHeapMajorCollecting
+(
+zone
+(
+)
+)
+)
+;
 assertMapIsSameZoneWithValue
 (
 v
