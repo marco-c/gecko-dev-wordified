@@ -902,7 +902,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -984,7 +984,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -1067,7 +1067,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -1391,7 +1391,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -1405,7 +1405,7 @@ STATE_CAPTURE_DISABLED
 &
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -1489,7 +1489,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -1572,7 +1572,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -1946,7 +1946,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -2020,7 +2020,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -2323,7 +2323,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -2439,7 +2439,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -2787,7 +2787,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -2903,7 +2903,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -3329,7 +3329,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -3466,7 +3466,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -3601,7 +3601,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -3730,7 +3730,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -3859,7 +3859,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -3998,7 +3998,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -4140,7 +4140,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -4577,7 +4577,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -4714,7 +4714,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -4849,7 +4849,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -4978,7 +4978,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -5107,7 +5107,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -5246,7 +5246,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -5388,7 +5388,7 @@ waitForCondition
 >
 window
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .

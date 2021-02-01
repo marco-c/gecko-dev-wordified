@@ -4294,7 +4294,7 @@ Screen
 ;
 ok
 (
-identityPopupHidden
+permissionPopupHidden
 (
 )
 "
@@ -4387,7 +4387,7 @@ waitForCondition
 =
 >
 !
-identityPopupHidden
+permissionPopupHidden
 (
 )
 "
@@ -4403,7 +4403,7 @@ open
 ok
 (
 !
-identityPopupHidden
+permissionPopupHidden
 (
 )
 "
@@ -4415,9 +4415,9 @@ open
 "
 )
 ;
-gIdentityHandler
+gPermissionPanel
 .
-_identityPopup
+_permissionPopup
 .
 hidePopup
 (
