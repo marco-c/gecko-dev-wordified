@@ -3305,7 +3305,7 @@ name
 let
 fragment
 =
-BrowserUIUtils
+BrowserUtils
 .
 getLocalizedFragment
 (

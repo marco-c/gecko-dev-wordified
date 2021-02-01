@@ -128,7 +128,7 @@ is
 gURLBar
 .
 value
-BrowserUIUtils
+BrowserUtils
 .
 trimURL
 (
@@ -154,7 +154,7 @@ is
 gURLBar
 .
 value
-BrowserUIUtils
+BrowserUtils
 .
 trimURL
 (
@@ -221,7 +221,7 @@ is
 gURLBar
 .
 value
-BrowserUIUtils
+BrowserUtils
 .
 trimURL
 (
