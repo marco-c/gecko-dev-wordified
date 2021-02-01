@@ -671,12 +671,16 @@ t
 trim
 (
 )
+.
+toLowerCase
+(
+)
 )
 .
 includes
 (
 "
-Upgrade
+upgrade
 "
 )
 )
