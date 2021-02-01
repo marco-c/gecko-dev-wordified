@@ -1543,9 +1543,7 @@ name
 ;
 if
 (
-label
-(
-)
+label_
 )
 {
 out
@@ -1558,9 +1556,7 @@ printf
 ;
 DumpCharsNoNewline
 (
-label
-(
-)
+label_
 out
 )
 ;

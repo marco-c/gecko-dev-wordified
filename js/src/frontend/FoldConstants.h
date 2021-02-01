@@ -140,6 +140,9 @@ ParseHandler
 class
 PerHandlerParser
 ;
+class
+ParserAtomsTable
+;
 /
 /
 Perform
