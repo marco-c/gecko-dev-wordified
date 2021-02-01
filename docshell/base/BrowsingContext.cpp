@@ -15497,7 +15497,7 @@ IsTop
 )
 &
 &
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 aSource
 )
@@ -16161,7 +16161,7 @@ bool
 BrowsingContext
 :
 :
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 ContentParent
 *
@@ -16544,7 +16544,7 @@ aSource
 )
 {
 return
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 aSource
 )
@@ -16570,7 +16570,7 @@ aSource
 )
 {
 return
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 aSource
 )
@@ -16596,7 +16596,7 @@ aSource
 )
 {
 return
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 aSource
 )
@@ -16979,7 +16979,7 @@ parent
 process
 ?
 return
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 aSource
 )
@@ -17161,7 +17161,7 @@ false
 ;
 }
 return
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 aSource
 )
@@ -17199,7 +17199,7 @@ false
 ;
 }
 return
-CheckOnlyOwningProcessCanSet
+LegacyCheckOnlyOwningProcessCanSet
 (
 aSource
 )
