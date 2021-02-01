@@ -1283,7 +1283,6 @@ false
 :
 bits_
 (
-*
 name
 .
 rawData
@@ -1310,17 +1309,6 @@ TopLevelFunctionFlag
 }
 public
 :
-uint32_t
-*
-rawData
-(
-)
-{
-return
-&
-bits_
-;
-}
 NamePointerT
 name
 (
