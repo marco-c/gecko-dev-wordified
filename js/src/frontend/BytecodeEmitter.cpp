@@ -11097,7 +11097,7 @@ len
 ObjLiteralIndex
 objIndex
 (
-stencil
+compilationState
 .
 objLiteralData
 .
@@ -11132,7 +11132,7 @@ false
 if
 (
 !
-stencil
+compilationState
 .
 objLiteralData
 .
