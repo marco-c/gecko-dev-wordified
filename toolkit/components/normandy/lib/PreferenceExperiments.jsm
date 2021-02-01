@@ -340,12 +340,6 @@ is
 active
 .
 *
-property
-{
-string
-}
-lastSeen
-*
 ISO
 -
 formatted

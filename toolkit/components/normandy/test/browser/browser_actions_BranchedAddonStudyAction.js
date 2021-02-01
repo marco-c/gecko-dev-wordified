@@ -410,7 +410,7 @@ branchedAddonStudyFactory
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -610,7 +610,7 @@ decorate_task
 withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 AddonStudies
 .
 withStudies
@@ -834,7 +834,7 @@ decorate_task
 withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 AddonStudies
 .
 withStudies
@@ -1043,7 +1043,7 @@ decorate_task
 withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 AddonStudies
 .
 withStudies
@@ -1274,7 +1274,7 @@ decorate_task
 withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -1574,7 +1574,7 @@ addonVersion
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -2000,7 +2000,7 @@ addonVersion
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -2291,7 +2291,7 @@ addonVersion
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -2614,7 +2614,7 @@ addonVersion
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -2910,7 +2910,7 @@ addonVersion
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -3218,7 +3218,7 @@ addonVersion
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -3532,7 +3532,7 @@ addonVersion
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionFromURL
 (
 FIXTURE_ADDON_DETAILS
@@ -3970,7 +3970,7 @@ false
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 async
 (
 [
@@ -4084,7 +4084,7 @@ expectUninstall
 /
 true
 )
-withSendEventStub
+withSendEventSpy
 withStub
 (
 TelemetryEnvironment
@@ -4348,7 +4348,7 @@ com
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 unenrollMissingAddonTest
@@ -4444,7 +4444,7 @@ decorate_task
 withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 withMockPreferences
 AddonStudies
 .
@@ -4654,7 +4654,7 @@ decorate_task
 withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 AddonStudies
 .
 withStudies
@@ -4896,7 +4896,7 @@ addonVersion
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -5334,7 +5334,7 @@ decorate
 withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 withStub
 (
 TelemetryEnvironment
@@ -6192,7 +6192,7 @@ branchedAddonStudyFactory
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtensionSafe
 (
 {
@@ -6578,7 +6578,7 @@ decorate_task
 withStudiesEnabled
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 AddonStudies
 .
 withStudies

@@ -764,7 +764,7 @@ Date
 )
 ]
 )
-withSendEventStub
+withSendEventSpy
 withInstalledWebExtension
 (
 {

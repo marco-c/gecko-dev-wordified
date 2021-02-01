@@ -1285,6 +1285,8 @@ decorate_task
 PreferenceRollouts
 .
 withTestMock
+(
+)
 async
 function
 testRollouts

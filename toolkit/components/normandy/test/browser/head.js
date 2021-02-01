@@ -1955,7 +1955,7 @@ recipeId
 ;
 this
 .
-withSendEventStub
+withSendEventSpy
 =
 function
 (
@@ -1974,7 +1974,7 @@ args
 )
 {
 const
-stub
+spy
 =
 sinon
 .
@@ -1986,7 +1986,7 @@ sendEvent
 "
 )
 ;
-stub
+spy
 .
 assertEvents
 =
@@ -2053,13 +2053,13 @@ testFunction
 .
 .
 args
-stub
+spy
 )
 ;
 }
 finally
 {
-stub
+spy
 .
 restore
 (
@@ -2070,7 +2070,7 @@ Assert
 ok
 (
 !
-stub
+spy
 .
 threw
 (

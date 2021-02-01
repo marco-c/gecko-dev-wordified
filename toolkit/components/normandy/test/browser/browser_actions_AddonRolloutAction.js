@@ -167,7 +167,7 @@ TelemetryEnvironment
 setExperimentActive
 "
 )
-withSendEventStub
+withSendEventSpy
 async
 function
 simple_recipe_enrollment
@@ -523,7 +523,7 @@ AddonRollouts
 withTestMock
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 async
 function
 update_rollout
@@ -1035,7 +1035,7 @@ AddonRollouts
 withTestMock
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 async
 function
 rerun_recipe
@@ -1461,7 +1461,7 @@ AddonRollouts
 withTestMock
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 async
 function
 conflicting_rollout
@@ -1945,7 +1945,7 @@ AddonRollouts
 withTestMock
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 async
 function
 enroll_failed_addon_id_changed
@@ -2462,7 +2462,7 @@ AddonRollouts
 withTestMock
 ensureAddonCleanup
 withMockNormandyApi
-withSendEventStub
+withSendEventSpy
 async
 function
 enroll_failed_upgrade_required

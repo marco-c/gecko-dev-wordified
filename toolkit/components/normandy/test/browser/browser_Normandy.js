@@ -1902,6 +1902,8 @@ study
 PreferenceRollouts
 .
 withTestMock
+(
+)
 AddonRollouts
 .
 withTestMock
