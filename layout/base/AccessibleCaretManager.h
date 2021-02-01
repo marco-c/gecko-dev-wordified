@@ -2366,6 +2366,9 @@ mPresShell
 =
 nullptr
 ;
+struct
+Carets
+{
 /
 /
 First
@@ -2397,7 +2400,7 @@ UniquePtr
 <
 AccessibleCaret
 >
-mFirstCaret
+mFirst
 ;
 /
 /
@@ -2413,9 +2416,9 @@ and
 is
 attached
 to
+/
+/
 selection
-/
-/
 highlight
 as
 the
@@ -2426,7 +2429,12 @@ UniquePtr
 <
 AccessibleCaret
 >
-mSecondCaret
+mSecond
+;
+}
+;
+Carets
+mCarets
 ;
 /
 /
