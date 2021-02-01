@@ -576,6 +576,19 @@ writeOperandId
 )
     
 "
+IntPtrId
+"
+:
+(
+"
+IntPtrOperandId
+"
+"
+writeOperandId
+"
+)
+    
+"
 RawId
 "
 :
@@ -1637,6 +1650,26 @@ valueTagOperandId
 )
     
 "
+IntPtrId
+"
+:
+(
+"
+IntPtrOperandId
+"
+"
+Id
+"
+"
+reader
+.
+intPtrOperandId
+(
+)
+"
+)
+    
+"
 RawId
 "
 :
@@ -2639,6 +2672,14 @@ spewOperandId
     
 "
 ValueTagId
+"
+:
+"
+spewOperandId
+"
+    
+"
+IntPtrId
 "
 :
 "
@@ -3691,6 +3732,12 @@ BigIntId
     
 "
 ValueTagId
+"
+:
+1
+    
+"
+IntPtrId
 "
 :
 1
