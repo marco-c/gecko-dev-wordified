@@ -17222,7 +17222,7 @@ functionStencil
 funbox
 -
 >
-initFromLazyFunction
+initFromLazyFunctionToSkip
 (
 fun
 )
@@ -20124,13 +20124,6 @@ funbox
 initFromLazyFunction
 (
 fun
-)
-;
-funbox
--
->
-initStandalone
-(
 this
 -
 >
