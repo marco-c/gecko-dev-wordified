@@ -3539,8 +3539,17 @@ NS_UNCONSTRAINEDSIZE
 const
 auto
 &
-iSizeCoord
+styleISize
 =
+aSizeOverrides
+.
+mStyleISize
+?
+*
+aSizeOverrides
+.
+mStyleISize
+:
 StylePosition
 (
 )
@@ -3553,7 +3562,7 @@ aWM
 ;
 if
 (
-iSizeCoord
+styleISize
 .
 IsAuto
 (
