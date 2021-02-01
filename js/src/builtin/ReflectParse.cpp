@@ -23558,7 +23558,12 @@ get
 (
 )
 compilationState
-nullptr
+/
+*
+syntaxParser
+=
+*
+/
 nullptr
 )
 ;

@@ -3499,7 +3499,12 @@ foldConstants
 false
 stencil
 compilationState_
-nullptr
+/
+*
+syntaxParser
+=
+*
+/
 nullptr
 )
 ;
@@ -3554,7 +3559,6 @@ ptrOr
 (
 nullptr
 )
-nullptr
 )
 ;
 parser
@@ -6062,8 +6066,13 @@ foldConstants
 true
 stencil
 compilationState
+/
+*
+syntaxParser
+=
+*
+/
 nullptr
-lazy
 )
 ;
 if

@@ -3221,9 +3221,6 @@ stencil
 CompilationState
 &
 compilationState
-BaseScript
-*
-lazyOuterFunction
 void
 *
 internalSyntaxParser
@@ -3263,9 +3260,6 @@ Unit
 >
 *
 syntaxParser
-BaseScript
-*
-lazyOuterFunction
 )
 :
 PerHandlerParser
@@ -3275,7 +3269,6 @@ options
 foldConstants
 stencil
 compilationState
-lazyOuterFunction
 static_cast
 <
 void
@@ -5860,9 +5853,6 @@ compilationState
 SyntaxParser
 *
 syntaxParser
-BaseScript
-*
-lazyOuterFunction
 )
 ;
 inline
