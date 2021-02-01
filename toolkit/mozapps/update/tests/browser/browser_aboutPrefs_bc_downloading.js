@@ -263,14 +263,7 @@ linkedBrowser
 return
 content
 .
-document
-.
-getElementById
-(
-"
-updateDeck
-"
-)
+gAppUpdater
 .
 selectedPanel
 .
