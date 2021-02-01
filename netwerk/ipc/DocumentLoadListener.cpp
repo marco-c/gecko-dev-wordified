@@ -2963,6 +2963,17 @@ if
 documentContext
 &
 &
+aLoadState
+-
+>
+LoadType
+(
+)
+!
+=
+LOAD_ERROR_PAGE
+&
+&
 mozilla
 :
 :
