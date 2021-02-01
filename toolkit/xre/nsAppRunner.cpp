@@ -10795,6 +10795,9 @@ org
 )
 )
 {
+Unused
+<
+<
 SetPreXULSkeletonUIThemeId
 (
 ThemeMode
@@ -10824,6 +10827,9 @@ org
 )
 )
 {
+Unused
+<
+<
 SetPreXULSkeletonUIThemeId
 (
 ThemeMode
@@ -10853,6 +10859,9 @@ org
 )
 )
 {
+Unused
+<
+<
 SetPreXULSkeletonUIThemeId
 (
 ThemeMode
@@ -10876,6 +10885,9 @@ if
 shouldBeEnabled
 )
 {
+Unused
+<
+<
 SetPreXULSkeletonUIThemeId
 (
 ThemeMode
@@ -10895,6 +10907,9 @@ GetPreXULSkeletonUIEnabled
 shouldBeEnabled
 )
 {
+Unused
+<
+<
 SetPreXULSkeletonUIEnabledIfAllowed
 (
 shouldBeEnabled
