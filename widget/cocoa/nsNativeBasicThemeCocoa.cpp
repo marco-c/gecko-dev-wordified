@@ -190,6 +190,7 @@ dpiRatio
 GetDPIRatio
 (
 aFrame
+aAppearance
 )
 ;
 switch
