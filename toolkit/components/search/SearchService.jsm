@@ -15454,16 +15454,6 @@ Region
 .
 REGION_TOPIC
 :
-if
-(
-verb
-=
-=
-Region
-.
-REGION_UPDATED
-)
-{
 logConsole
 .
 debug
@@ -15491,7 +15481,6 @@ Cu
 reportError
 )
 ;
-}
 break
 ;
 }

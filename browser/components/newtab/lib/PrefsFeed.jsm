@@ -1589,17 +1589,6 @@ Region
 .
 REGION_TOPIC
 :
-if
-(
-data
-=
-=
-=
-Region
-.
-REGION_UPDATED
-)
-{
 this
 .
 store
@@ -1634,7 +1623,6 @@ home
 )
 )
 ;
-}
 break
 ;
 }
