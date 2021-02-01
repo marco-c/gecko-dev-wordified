@@ -179,10 +179,13 @@ aEvent
 *
 *
 Puts
-a
 name
+and
+/
+or
+description
 change
-event
+events
 into
 the
 queue
@@ -192,7 +195,7 @@ needed
 *
 /
 bool
-PushNameChange
+PushNameOrDescriptionChange
 (
 Accessible
 *
