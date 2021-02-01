@@ -1324,7 +1324,7 @@ CreateNew
 (
 JSContext
 *
-uint32_t
+size_t
 )
 >
 struct

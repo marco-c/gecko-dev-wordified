@@ -316,7 +316,7 @@ JS_NewInt8Array
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;
@@ -329,7 +329,7 @@ JS_NewUint8Array
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;
@@ -342,7 +342,7 @@ JS_NewUint8ClampedArray
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;
@@ -355,7 +355,7 @@ JS_NewInt16Array
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;
@@ -368,7 +368,7 @@ JS_NewUint16Array
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;
@@ -381,7 +381,7 @@ JS_NewInt32Array
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;
@@ -394,7 +394,7 @@ JS_NewUint32Array
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;
@@ -407,7 +407,7 @@ JS_NewFloat32Array
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;
@@ -420,7 +420,7 @@ JS_NewFloat64Array
 JSContext
 *
 cx
-uint32_t
+size_t
 nelements
 )
 ;

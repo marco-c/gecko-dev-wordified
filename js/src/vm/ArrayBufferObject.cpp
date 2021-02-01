@@ -11578,7 +11578,7 @@ NewArrayBuffer
 JSContext
 *
 cx
-uint32_t
+size_t
 nbytes
 )
 {

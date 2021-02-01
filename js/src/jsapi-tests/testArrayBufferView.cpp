@@ -666,7 +666,7 @@ CreateTypedArray
 JSContext
 *
 cx
-uint32_t
+size_t
 length
 )
 size_t

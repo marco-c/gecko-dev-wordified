@@ -159,12 +159,6 @@ use
 jsapi
 :
 :
-*
-;
-use
-jsapi
-:
-:
 js
 :
 :
@@ -175,6 +169,12 @@ jsapi
 :
 :
 JS
+:
+:
+*
+;
+use
+jsapi
 :
 :
 *
@@ -211,7 +211,7 @@ a
 {
 Length
 (
-u32
+usize
 )
 Slice
 (
@@ -789,8 +789,6 @@ slice
 len
 (
 )
-as
-u32
 }
 ;
 result
@@ -1142,7 +1140,7 @@ mut
 JSContext
 length
 :
-u32
+usize
 )
 -
 >
@@ -1197,7 +1195,7 @@ ident
 )
 =
 >
-(
+{
 /
 /
 /
@@ -1314,7 +1312,7 @@ len
 )
 }
 }
-)
+}
 ;
 (
 t
@@ -1338,7 +1336,7 @@ ident
 )
 =
 >
-(
+{
 typed_array_element
 !
 (
@@ -1364,7 +1362,7 @@ mut
 JSContext
 length
 :
-u32
+usize
 )
 -
 >
@@ -1430,7 +1428,7 @@ shared
 data
 }
 }
-)
+}
 ;
 }
 typed_array_element
@@ -1974,4 +1972,5 @@ init
 )
 ;
 }
+;
 }
