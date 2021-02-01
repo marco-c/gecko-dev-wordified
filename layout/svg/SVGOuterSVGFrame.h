@@ -461,6 +461,13 @@ const
 LogicalSize
 &
 aBorderPadding
+const
+mozilla
+:
+:
+StyleSizeOverrides
+&
+aSizeOverrides
 ComputeSizeFlags
 aFlags
 )

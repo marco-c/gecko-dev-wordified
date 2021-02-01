@@ -602,6 +602,10 @@ const
 LogicalSize
 &
 aBorderPadding
+const
+StyleSizeOverrides
+&
+aSizeOverrides
 ComputeSizeFlags
 aFlags
 )
@@ -741,6 +745,7 @@ Size
 aWM
 )
 bpSize
+aSizeOverrides
 aFlags
 )
 ;
