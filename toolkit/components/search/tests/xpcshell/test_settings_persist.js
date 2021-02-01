@@ -335,6 +335,13 @@ SearchUtils
 jsm
 #
 186
+let
+settingsFileWritten
+=
+promiseAfterSettings
+(
+)
+;
 await
 Services
 .
@@ -354,6 +361,9 @@ wrappedJSObject
 _removeObservers
 (
 )
+;
+await
+settingsFileWritten
 ;
 }
 )
