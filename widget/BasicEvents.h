@@ -6717,6 +6717,17 @@ mClass
 )
 {
 case
+eClipboardEventClass
+:
+mFlags
+.
+mComposed
+=
+true
+;
+break
+;
+case
 eCompositionEventClass
 :
 mFlags
