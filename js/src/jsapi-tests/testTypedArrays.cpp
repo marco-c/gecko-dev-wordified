@@ -788,7 +788,7 @@ cx
 Create
 (
 cx
-UINT32_MAX
+SIZE_MAX
 )
 )
 ;
