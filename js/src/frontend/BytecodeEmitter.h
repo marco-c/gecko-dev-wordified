@@ -1494,9 +1494,7 @@ const
 NameLocation
 lookupName
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 ;
@@ -1557,9 +1555,7 @@ NameLocation
 >
 locationOfNameBoundInScope
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 EmitterScope
 *
@@ -1604,9 +1600,7 @@ NameLocation
 >
 locationOfNameBoundInScopeType
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 EmitterScope
 *
@@ -1646,9 +1640,7 @@ NameLocation
 >
 locationOfNameBoundInFunctionScope
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 {
@@ -3722,6 +3714,11 @@ name
 lookupName
 (
 name
+-
+>
+toIndex
+(
+)
 )
 )
 ;

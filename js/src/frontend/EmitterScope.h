@@ -195,7 +195,6 @@ h
 "
 /
 /
-ParserAtom
 TaggedParserAtomIndex
 #
 include
@@ -646,9 +645,7 @@ searchAndCache
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 ;
@@ -1042,9 +1039,7 @@ lookup
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 ;
@@ -1057,9 +1052,7 @@ NameLocation
 >
 locationBoundInScope
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 EmitterScope
 *

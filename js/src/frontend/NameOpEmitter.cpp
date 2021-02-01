@@ -227,6 +227,11 @@ bce_
 lookupName
 (
 name_
+-
+>
+toIndex
+(
+)
 )
 )
 {
