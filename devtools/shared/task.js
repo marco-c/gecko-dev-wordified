@@ -3761,6 +3761,9 @@ gMaintainStack
 =
 x
 ;
+return
+x
+;
 }
 /
 *

@@ -15746,6 +15746,9 @@ aValue
 )
 ;
 }
+return
+aValue
+;
 }
 get
 checkCompatibility
@@ -15806,6 +15809,9 @@ PREF_EM_CHECK_COMPATIBILITY
 ;
 }
 }
+return
+aValue
+;
 }
 get
 strictCompatibility
@@ -15847,6 +15853,9 @@ aValue
 )
 ;
 }
+return
+aValue
+;
 }
 get
 checkUpdateSecurityDefault
@@ -15918,6 +15927,9 @@ PREF_EM_CHECK_UPDATE_SECURITY
 ;
 }
 }
+return
+aValue
+;
 }
 get
 updateEnabled
@@ -15959,6 +15971,9 @@ aValue
 )
 ;
 }
+return
+aValue
+;
 }
 _verifyThirdPartyInstall
 (

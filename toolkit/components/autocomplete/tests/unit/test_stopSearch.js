@@ -132,6 +132,9 @@ popupOpen
 val
 )
 {
+return
+val
+;
 }
 /
 /
@@ -211,6 +214,9 @@ selectedIndex
 val
 )
 {
+return
+val
+;
 }
 /
 /

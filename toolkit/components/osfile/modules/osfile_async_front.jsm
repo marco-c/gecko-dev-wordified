@@ -10784,6 +10784,8 @@ DEBUG
 x
 )
 {
+return
+(
 SharedAll
 .
 Config
@@ -10791,6 +10793,7 @@ Config
 DEBUG
 =
 x
+)
 ;
 }
 }

@@ -879,6 +879,7 @@ null
 )
 ;
 return
+val
 ;
 }
 let
@@ -945,6 +946,9 @@ items
 val
 ]
 )
+;
+return
+val
 ;
 }
 get
@@ -1031,6 +1035,7 @@ null
 )
 ;
 return
+val
 ;
 }
 let
@@ -1095,6 +1100,9 @@ _selectElement
 (
 selectableElement
 )
+;
+return
+val
 ;
 }
 /

@@ -1184,6 +1184,9 @@ _configureButtons
 val
 )
 ;
+return
+val
+;
 }
 get
 buttons
@@ -1213,6 +1216,9 @@ _setDefaultButton
 (
 val
 )
+;
+return
+val
 ;
 }
 get

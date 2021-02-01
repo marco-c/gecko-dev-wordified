@@ -1732,6 +1732,11 @@ true
 )
 ;
 }
+return
+this
+.
+_active
+;
 }
 /
 *
@@ -2506,11 +2511,14 @@ _ensureVisibleElementsAreActive
 )
 ;
 }
+return
+(
 this
 .
 _searchTerm
 =
 aValue
+)
 ;
 }
 /

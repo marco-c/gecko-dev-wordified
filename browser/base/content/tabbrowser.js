@@ -1486,6 +1486,11 @@ _allowTabChange
 )
 {
 return
+this
+.
+tabbox
+.
+selectedTab
 ;
 }
 /
@@ -1499,6 +1504,9 @@ tabbox
 .
 selectedTab
 =
+val
+;
+return
 val
 ;
 }
@@ -36516,6 +36524,9 @@ this
 )
 ;
 }
+return
+val
+;
 }
 getMouseTargetRect
 (

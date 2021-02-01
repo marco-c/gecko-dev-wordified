@@ -911,6 +911,9 @@ disableautocomplete
 val
 )
 ;
+return
+val
+;
 }
 get
 disableAutoComplete
@@ -949,6 +952,9 @@ completedefaultindex
 val
 )
 ;
+return
+val
+;
 }
 get
 completeDefaultIndex
@@ -987,6 +993,9 @@ completeselectedindex
 val
 )
 ;
+return
+val
+;
 }
 get
 completeSelectedIndex
@@ -1025,6 +1034,9 @@ forcecomplete
 val
 )
 ;
+return
+val
+;
 }
 get
 forceComplete
@@ -1062,6 +1074,9 @@ minresultsforpopup
 "
 val
 )
+;
+return
+val
 ;
 }
 get
@@ -1111,6 +1126,9 @@ timeout
 val
 )
 ;
+return
+val
+;
 }
 get
 timeout
@@ -1158,6 +1176,9 @@ autocompletesearchparam
 "
 val
 )
+;
+return
+val
 ;
 }
 get
@@ -1269,6 +1290,11 @@ val
 true
 )
 ;
+return
+this
+.
+value
+;
 }
 get
 textValue
@@ -1341,6 +1367,9 @@ crop
 val
 )
 {
+return
+false
+;
 }
 get
 crop
@@ -1406,6 +1435,7 @@ value
 val
 )
 {
+return
 this
 .
 _setValueInternal
@@ -1491,6 +1521,9 @@ maxrows
 val
 )
 ;
+return
+val
+;
 }
 get
 maxRows
@@ -1561,6 +1594,9 @@ maxdropmarkerrows
 val
 )
 ;
+return
+val
+;
 }
 get
 maxdropmarkerrows
@@ -1628,6 +1664,9 @@ tabscrolling
 val
 )
 ;
+return
+val
+;
 }
 get
 tabScrolling
@@ -1687,6 +1726,9 @@ ignoreblurwhilesearching
 val
 )
 ;
+return
+val
+;
 }
 get
 ignoreBlurWhileSearching
@@ -1741,6 +1783,9 @@ highlightnonmatches
 "
 val
 )
+;
+return
+val
 ;
 }
 get

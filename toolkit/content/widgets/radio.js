@@ -1346,6 +1346,9 @@ break
 ;
 }
 }
+return
+val
+;
 }
 get
 value
@@ -1436,6 +1439,9 @@ disabled
 val
 ;
 }
+return
+val
+;
 }
 get
 disabled
@@ -1561,6 +1567,9 @@ _getRadioChildren
 [
 val
 ]
+;
+return
+val
 ;
 }
 get
@@ -1985,6 +1994,9 @@ event
 }
 }
 }
+return
+val
+;
 }
 get
 selectedItem
@@ -2163,6 +2175,9 @@ focused
 ;
 }
 }
+return
+val
+;
 }
 get
 focusedItem

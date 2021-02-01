@@ -4654,6 +4654,11 @@ onPinToUrlbarToggled
 )
 ;
 }
+return
+this
+.
+pinnedToUrlbar
+;
 }
 /
 *
