@@ -1929,7 +1929,10 @@ mSizeBuffer
 )
 {
 }
+Atomic
+<
 uint32_t
+>
 mNumTracks
 ;
 /
