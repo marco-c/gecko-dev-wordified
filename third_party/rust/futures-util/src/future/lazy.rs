@@ -438,8 +438,14 @@ take
 (
 )
 .
-unwrap
+expect
 (
+"
+Lazy
+polled
+after
+completion
+"
 )
 )
 (

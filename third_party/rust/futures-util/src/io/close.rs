@@ -162,7 +162,7 @@ W
 >
 Self
 {
-Close
+Self
 {
 writer
 }

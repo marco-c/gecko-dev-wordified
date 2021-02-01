@@ -162,7 +162,7 @@ W
 >
 Self
 {
-Flush
+Self
 {
 writer
 }

@@ -456,12 +456,9 @@ T
 )
 -
 >
-Cursor
-<
-T
->
+Self
 {
-Cursor
+Self
 {
 inner
 :

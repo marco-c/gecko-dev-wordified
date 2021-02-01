@@ -602,10 +602,7 @@ next
 :
 AtomicPtr
 <
-Node
-<
-T
->
+Self
 >
 value
 :
@@ -756,10 +753,7 @@ T
 >
 *
 mut
-Node
-<
-T
->
+Self
 {
 Box
 :
@@ -771,7 +765,7 @@ Box
 :
 new
 (
-Node
+Self
 {
 next
 :
@@ -836,10 +830,7 @@ new
 )
 -
 >
-Queue
-<
-T
->
+Self
 {
 let
 stub
@@ -855,7 +846,7 @@ None
 )
 }
 ;
-Queue
+Self
 {
 head
 :

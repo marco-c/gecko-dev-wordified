@@ -174,7 +174,7 @@ St
 >
 Self
 {
-TryNext
+Self
 {
 stream
 }

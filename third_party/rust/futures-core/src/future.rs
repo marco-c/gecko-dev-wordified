@@ -667,7 +667,7 @@ _
 >
 Poll
 <
-F
+Self
 :
 :
 Output

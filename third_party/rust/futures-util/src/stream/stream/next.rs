@@ -174,7 +174,7 @@ St
 >
 Self
 {
-Next
+Self
 {
 stream
 }

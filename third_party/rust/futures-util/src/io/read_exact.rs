@@ -11,6 +11,12 @@ use
 futures_core
 :
 :
+ready
+;
+use
+futures_core
+:
+:
 future
 :
 :
@@ -189,7 +195,7 @@ u8
 >
 Self
 {
-ReadExact
+Self
 {
 reader
 buf

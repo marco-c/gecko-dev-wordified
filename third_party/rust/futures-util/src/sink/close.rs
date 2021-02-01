@@ -212,7 +212,7 @@ Si
 >
 Self
 {
-Close
+Self
 {
 sink
 _phantom

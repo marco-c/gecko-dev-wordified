@@ -183,7 +183,7 @@ u8
 >
 Self
 {
-Read
+Self
 {
 reader
 buf

@@ -156,6 +156,9 @@ where
 W
 :
 ArcWake
++
+'
+static
 {
 let
 ptr

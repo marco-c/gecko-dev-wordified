@@ -44,6 +44,7 @@ function
 derive
 (
 Debug
+Clone
 )
 ]
 #

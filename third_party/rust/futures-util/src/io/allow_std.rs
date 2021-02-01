@@ -351,7 +351,7 @@ T
 >
 Self
 {
-AllowStdIo
+Self
 (
 io
 )
