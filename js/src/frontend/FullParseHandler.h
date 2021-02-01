@@ -1237,9 +1237,8 @@ newBigInt
 (
 BigIntIndex
 index
-BaseCompilationStencil
-&
-stencil
+bool
+isZero
 const
 TokenPos
 &
@@ -1253,7 +1252,7 @@ BigIntLiteral
 >
 (
 index
-stencil
+isZero
 pos
 )
 ;
