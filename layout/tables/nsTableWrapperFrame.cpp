@@ -2544,10 +2544,6 @@ LogicalSize
 aCBSize
 nscoord
 aAvailableISize
-const
-StyleSizeOverrides
-&
-aSizeOverrides
 nscoord
 *
 aMarginResult
@@ -2755,7 +2751,6 @@ aCBSize
 aAvailableISize
 marginSize
 bpSize
-aSizeOverrides
 flags
 )
 ;
@@ -2835,10 +2830,6 @@ const
 LogicalSize
 &
 aBorderPadding
-const
-StyleSizeOverrides
-&
-aSizeOverrides
 ComputeSizeFlags
 aFlags
 )
@@ -2970,7 +2961,6 @@ InnerTableFrame
 aWM
 aCBSize
 kidAvailableISize
-aSizeOverrides
 )
 ;
 }
@@ -3003,7 +2993,6 @@ FirstChild
 aWM
 aCBSize
 kidAvailableISize
-aSizeOverrides
 )
 ;
 inlineSize
@@ -3021,7 +3010,6 @@ aCBSize
 kidAvailableISize
 -
 capISize
-aSizeOverrides
 )
 ;
 }
@@ -3054,7 +3042,6 @@ InnerTableFrame
 aWM
 aCBSize
 kidAvailableISize
-aSizeOverrides
 &
 margin
 )
@@ -3075,7 +3062,6 @@ aCBSize
 inlineSize
 -
 margin
-aSizeOverrides
 )
 ;
 if
@@ -3124,7 +3110,6 @@ InnerTableFrame
 aWM
 aCBSize
 kidAvailableISize
-aSizeOverrides
 )
 ;
 nscoord
@@ -3141,7 +3126,6 @@ FirstChild
 aWM
 aCBSize
 kidAvailableISize
-aSizeOverrides
 )
 ;
 if
