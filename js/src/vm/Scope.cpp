@@ -12972,12 +12972,15 @@ args
 *
 indexOut
 =
+ScopeIndex
+(
 compilationState
 .
 scopeData
 .
 length
 (
+)
 )
 ;
 if
