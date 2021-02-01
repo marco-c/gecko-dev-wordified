@@ -4888,7 +4888,7 @@ emitAtomicsReadModifyWriteResult
 (
 ObjOperandId
 objId
-Int32OperandId
+IntPtrOperandId
 indexId
 Int32OperandId
 valueId
