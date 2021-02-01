@@ -1499,9 +1499,6 @@ tsan
 race
 :
 crossbeam_deque
-:
-:
-Worker
 *
 :
 :
@@ -1513,9 +1510,6 @@ n
 race
 :
 crossbeam_deque
-:
-:
-Worker
 *
 :
 :
@@ -1527,9 +1521,6 @@ n
 race
 :
 crossbeam_deque
-:
-:
-Buffer
 *
 :
 :
@@ -1541,9 +1532,6 @@ n
 race
 :
 crossbeam_deque
-:
-:
-Buffer
 *
 :
 :
