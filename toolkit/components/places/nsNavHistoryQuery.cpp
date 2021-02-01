@@ -3525,7 +3525,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 aString
