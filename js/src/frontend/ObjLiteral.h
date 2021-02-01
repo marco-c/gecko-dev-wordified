@@ -3681,6 +3681,7 @@ InterpretObjLiteral
 JSContext
 *
 cx
+const
 frontend
 :
 :
@@ -3768,6 +3769,7 @@ create
 JSContext
 *
 cx
+const
 frontend
 :
 :
