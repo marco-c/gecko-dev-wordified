@@ -44214,6 +44214,15 @@ used
 earlier
 if
 (
+!
+mConnectionInfo
+-
+>
+IsHttp3
+(
+)
+&
+&
 gHttpHandler
 -
 >
