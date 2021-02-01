@@ -16189,6 +16189,8 @@ count
 {
 if
 (
+MOZ_LIKELY
+(
 (
 topIndex_
 +
@@ -16198,6 +16200,7 @@ count
 =
 capacity
 (
+)
 )
 )
 {
@@ -16221,6 +16224,7 @@ count
 )
 ;
 }
+MOZ_NEVER_INLINE
 bool
 MarkStack
 :
@@ -17452,6 +17456,7 @@ template
 typename
 T
 >
+inline
 void
 GCMarker
 :
@@ -17481,7 +17486,7 @@ ptr
 )
 )
 {
-delayMarkingChildren
+delayMarkingChildrenOnOOM
 (
 ptr
 )
@@ -17557,7 +17562,7 @@ start
 )
 )
 {
-delayMarkingChildren
+delayMarkingChildrenOnOOM
 (
 obj
 )
@@ -18577,6 +18582,24 @@ within
 this
 GC
 .
+}
+MOZ_NEVER_INLINE
+void
+GCMarker
+:
+:
+delayMarkingChildrenOnOOM
+(
+Cell
+*
+cell
+)
+{
+delayMarkingChildren
+(
+cell
+)
+;
 }
 void
 GCMarker
