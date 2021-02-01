@@ -217,8 +217,6 @@ getElementById
 "
 identity
 -
-icon
--
 box
 "
 )

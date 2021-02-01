@@ -2196,7 +2196,7 @@ querySelector
 (
 "
 .
-permission
+identity
 -
 popup
 -
@@ -2874,7 +2874,7 @@ querySelector
 (
 "
 .
-permission
+identity
 -
 popup
 -
@@ -3334,7 +3334,7 @@ querySelector
 (
 "
 .
-permission
+identity
 -
 popup
 -

@@ -140,8 +140,6 @@ getElementById
 "
 identity
 -
-icon
--
 box
 "
 )
@@ -198,8 +196,6 @@ getElementById
 (
 "
 identity
--
-icon
 -
 box
 "
@@ -290,8 +286,6 @@ getElementById
 (
 "
 identity
--
-icon
 -
 box
 "
