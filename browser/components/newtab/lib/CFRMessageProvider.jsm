@@ -5350,7 +5350,7 @@ doorhanger
 -
 milestone
 -
-heading
+heading2
 "
 }
 notification_text
