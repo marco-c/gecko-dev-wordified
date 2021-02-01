@@ -918,7 +918,7 @@ ExpectArrayBufferObject
 aActual
 )
 ;
-uint32_t
+size_t
 length
 ;
 bool

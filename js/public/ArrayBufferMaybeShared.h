@@ -473,7 +473,7 @@ GetArrayBufferMaybeSharedLengthAndData
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool

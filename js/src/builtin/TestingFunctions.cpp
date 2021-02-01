@@ -22823,7 +22823,7 @@ nullptr
 UniqueChars
 dataOwner
 ;
-uint32_t
+size_t
 nbytes
 ;
 if

@@ -437,6 +437,11 @@ testJSEvaluateScript
 cpp
 "
 "
+testLargeArrayBuffers
+.
+cpp
+"
+"
 testLookup
 .
 cpp

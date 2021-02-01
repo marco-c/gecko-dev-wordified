@@ -392,7 +392,7 @@ GetLengthAndDataAndSharedness
 (
 JSObject
 *
-uint32_t
+size_t
 *
 bool
 *
@@ -1166,7 +1166,7 @@ MOZ_ASSERT
 mComputed
 )
 ;
-uint32_t
+size_t
 length
 ;
 GetLengthAndDataAndSharedness
@@ -1310,7 +1310,7 @@ GetLengthAndDataAndSharedness
 (
 JSObject
 *
-uint32_t
+size_t
 *
 bool
 *
@@ -1760,7 +1760,7 @@ GetLengthAndDataAndSharedness
 (
 JSObject
 *
-uint32_t
+size_t
 *
 bool
 *

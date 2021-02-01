@@ -737,7 +737,7 @@ toObject
 obj
 )
 ;
-uint32_t
+size_t
 len
 ;
 bool
@@ -1066,7 +1066,7 @@ bufferOut
 )
 )
 ;
-uint32_t
+size_t
 len
 ;
 bool

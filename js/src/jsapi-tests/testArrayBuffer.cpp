@@ -1285,7 +1285,7 @@ wasFreed
 )
 )
 ;
-uint32_t
+size_t
 len
 ;
 bool
@@ -1460,7 +1460,7 @@ wasFreed
 )
 )
 ;
-uint32_t
+size_t
 len
 ;
 bool
