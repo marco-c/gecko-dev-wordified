@@ -397,9 +397,6 @@ namespace
 mozilla
 ;
 static
-mozilla
-:
-:
 LazyLogModule
 gCharsetMenuLog
 (
@@ -414,13 +411,9 @@ LOGCHARDETNG
 (
 args
 )
-\
 MOZ_LOG
 (
 gCharsetMenuLog
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -457,9 +450,6 @@ nsHtml5TreeOpExecutor
 aExecutor
 )
 :
-mozilla
-:
-:
 Runnable
 (
 "
@@ -478,6 +468,9 @@ Run
 )
 override
 {
+dom
+:
+:
 Document
 *
 doc
@@ -776,9 +769,6 @@ aOpsToRemove
 }
 ;
 static
-mozilla
-:
-:
 LinkedList
 <
 nsHtml5TreeOpExecutor
@@ -2642,9 +2632,6 @@ gBackgroundFlushList
 gBackgroundFlushList
 =
 new
-mozilla
-:
-:
 LinkedList
 <
 nsHtml5TreeOpExecutor
@@ -3080,9 +3067,6 @@ GetStreamParser
 )
 ;
 }
-mozilla
-:
-:
 Unused
 <
 <
@@ -4296,9 +4280,6 @@ parserKungFuDeathGrip
 mParser
 )
 ;
-mozilla
-:
-:
 Unused
 <
 <
@@ -4334,9 +4315,6 @@ GetStreamParser
 )
 ;
 }
-mozilla
-:
-:
 Unused
 <
 <
@@ -5806,6 +5784,9 @@ EncNoDeclaration
 mDocShell
 )
 {
+dom
+:
+:
 BrowsingContext
 *
 const
