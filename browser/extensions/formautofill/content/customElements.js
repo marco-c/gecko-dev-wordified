@@ -843,9 +843,6 @@ PreviewProfile
 "
 )
 ;
-return
-val
-;
 }
 get
 selected
@@ -2160,9 +2157,9 @@ val
 {
 /
 /
-Make
-this
+This
 item
+is
 unselectable
 since
 we
@@ -2174,9 +2171,6 @@ a
 pure
 message
 .
-return
-false
-;
 }
 get
 selected
