@@ -2115,9 +2115,6 @@ about
 blank
 "
 )
-waitUntilDisplayedMetadataChanged
-(
-)
 ]
 )
 ;
