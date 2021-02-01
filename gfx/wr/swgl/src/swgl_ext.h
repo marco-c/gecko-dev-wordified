@@ -57,7 +57,7 @@ MPL
 *
 /
 static
-inline
+ALWAYS_INLINE
 void
 commit_span
 (
@@ -98,7 +98,7 @@ r
 ;
 }
 static
-inline
+ALWAYS_INLINE
 void
 commit_span
 (
@@ -267,7 +267,7 @@ x
 }
 }
 static
-inline
+ALWAYS_INLINE
 void
 commit_span
 (
@@ -409,7 +409,7 @@ typename
 V
 >
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 pack_span
 (
@@ -429,7 +429,7 @@ v
 ;
 }
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 pack_span
 (
@@ -449,7 +449,7 @@ typename
 C
 >
 static
-inline
+ALWAYS_INLINE
 WideR8
 pack_span
 (
@@ -467,7 +467,7 @@ c
 ;
 }
 static
-inline
+ALWAYS_INLINE
 WideR8
 pack_span
 (
@@ -696,7 +696,7 @@ while
 0
 )
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 pack_pixels_RGBA8
 (
@@ -746,7 +746,7 @@ c
 ;
 }
 static
-inline
+ALWAYS_INLINE
 WideRGBA8
 pack_pixels_RGBA8
 (
@@ -2711,7 +2711,8 @@ NoColor
 {
 }
 ;
-SI
+static
+ALWAYS_INLINE
 WideRGBA8
 applyColor
 (
@@ -2724,7 +2725,8 @@ return
 src
 ;
 }
-SI
+static
+ALWAYS_INLINE
 WideRGBA8
 applyColor
 (
@@ -2742,7 +2744,8 @@ color
 )
 ;
 }
-SI
+static
+ALWAYS_INLINE
 PackedRGBA8
 applyColor
 (
@@ -2755,7 +2758,8 @@ return
 src
 ;
 }
-SI
+static
+ALWAYS_INLINE
 PackedRGBA8
 applyColor
 (
