@@ -170,7 +170,7 @@ Register64
 dest
 )
 {
-movl
+move32
 (
 Imm32
 (
@@ -185,7 +185,7 @@ dest
 low
 )
 ;
-movl
+move32
 (
 Imm32
 (
