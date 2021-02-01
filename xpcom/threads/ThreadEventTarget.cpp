@@ -272,13 +272,14 @@ ThreadEventTarget
 :
 SetCurrentThread
 (
+PRThread
+*
+aThread
 )
 {
 mThread
 =
-PR_GetCurrentThread
-(
-)
+aThread
 ;
 }
 void

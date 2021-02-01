@@ -258,6 +258,9 @@ thread
 void
 SetCurrentThread
 (
+PRThread
+*
+aThread
 )
 ;
 /
@@ -328,8 +331,9 @@ private
 ThreadEventTarget
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 ThreadTargetSink
