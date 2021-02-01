@@ -4655,6 +4655,14 @@ index
 )
 const
 ;
+void
+markUsedByStencil
+(
+TaggedParserAtomIndex
+index
+)
+const
+;
 const
 ParserAtomVector
 &
