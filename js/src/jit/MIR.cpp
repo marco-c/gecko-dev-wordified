@@ -34464,6 +34464,17 @@ alloc
 {
 if
 (
+type
+(
+)
+=
+=
+MIRType
+:
+:
+Int32
+&
+&
 index
 (
 )
