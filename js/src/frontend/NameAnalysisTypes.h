@@ -170,7 +170,7 @@ h
 "
 /
 /
-ParserAtom
+TrivialTaggedParserAtomIndex
 #
 include
 "
@@ -2095,9 +2095,7 @@ AtomVector
 =
 Vector
 <
-const
-ParserAtom
-*
+TrivialTaggedParserAtomIndex
 24
 SystemAllocPolicy
 >
@@ -2127,10 +2125,10 @@ FunctionBoxVector
 =
 Vector
 <
-const
 FunctionBox
 *
-8
+24
+SystemAllocPolicy
 >
 ;
 }

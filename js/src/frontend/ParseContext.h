@@ -171,6 +171,7 @@ h
 /
 /
 DeclaredNameInfo
+FunctionBoxVector
 #
 include
 "
@@ -835,17 +836,6 @@ B
 is
 applicable
 .
-using
-FunctionBoxVector
-=
-Vector
-<
-FunctionBox
-*
-24
-SystemAllocPolicy
->
-;
 PooledVectorPtr
 <
 FunctionBoxVector
