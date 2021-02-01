@@ -255,6 +255,16 @@ return
 false
 ;
 }
+ScrollbarSizes
+GetScrollbarSizes
+(
+nsPresContext
+*
+StyleScrollbarWidth
+Overlay
+)
+override
+;
 protected
 :
 virtual

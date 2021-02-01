@@ -1874,6 +1874,16 @@ aOverflowRect
 )
 override
 ;
+ScrollbarSizes
+GetScrollbarSizes
+(
+nsPresContext
+*
+StyleScrollbarWidth
+Overlay
+)
+override
+;
 NS_IMETHOD
 GetMinimumWidgetSize
 (

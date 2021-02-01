@@ -170,6 +170,16 @@ aIsOverridable
 )
 override
 ;
+ScrollbarSizes
+GetScrollbarSizes
+(
+nsPresContext
+*
+StyleScrollbarWidth
+Overlay
+)
+override
+;
 void
 PaintScrollbarThumb
 (
