@@ -273,15 +273,6 @@ GMP_TEST_PLUGIN_DIRS
 "
 gmp
 -
-clearkey
-/
-*
-*
-"
-    
-"
-gmp
--
 fake
 /
 *
