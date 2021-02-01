@@ -424,8 +424,6 @@ checked
 value
 )
 {
-return
-(
 this
 .
 _checkbox
@@ -433,7 +431,6 @@ _checkbox
 checked
 =
 value
-)
 ;
 }
 }
