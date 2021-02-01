@@ -2988,6 +2988,7 @@ Null
 Boolean
 Int32
 Int64
+IntPtr
 Double
 Float32
 /
@@ -3621,6 +3622,17 @@ Int64
 return
 "
 Int64
+"
+;
+case
+MIRType
+:
+:
+IntPtr
+:
+return
+"
+IntPtr
 "
 ;
 case
