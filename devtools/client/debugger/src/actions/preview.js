@@ -777,6 +777,7 @@ client
 loadObjectProperties
 (
 root
+thread
 )
 ;
 /

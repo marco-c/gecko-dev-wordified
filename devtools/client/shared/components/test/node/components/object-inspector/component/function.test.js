@@ -229,6 +229,12 @@ ObjectFront
 (
 grip
 )
+getFrontByID
+:
+_id
+=
+>
+null
 }
 ;
 return

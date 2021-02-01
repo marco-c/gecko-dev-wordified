@@ -361,6 +361,12 @@ enumProperties
 getProxySlots
 }
 )
+getFrontByID
+:
+_id
+=
+>
+null
 }
 ;
 const

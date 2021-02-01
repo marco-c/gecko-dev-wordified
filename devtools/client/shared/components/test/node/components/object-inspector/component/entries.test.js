@@ -332,6 +332,12 @@ grip
 enumEntries
 }
 )
+getFrontByID
+:
+_id
+=
+>
+null
 }
 ;
 const

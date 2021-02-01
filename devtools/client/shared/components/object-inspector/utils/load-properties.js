@@ -137,6 +137,7 @@ loadItemProperties
 item
 client
 loadedProperties
+threadActorID
 )
 {
 const
@@ -212,6 +213,12 @@ client
 createObjectFront
 (
 value
+client
+.
+getFrontByID
+(
+threadActorID
+)
 )
 ;
 }

@@ -253,6 +253,12 @@ LongStringFront
 (
 grip
 )
+getFrontByID
+:
+_id
+=
+>
+null
 }
 props
 :
