@@ -5843,7 +5843,7 @@ Handle
 JSObject
 *
 >
-interfaceProto
+constructorProto
 const
 JSClass
 *
@@ -5867,7 +5867,7 @@ constructorCache
 const
 NativeProperties
 *
-regularProperties
+properties
 const
 NativeProperties
 *
@@ -5892,6 +5892,8 @@ char
 const
 *
 legacyWindowAliases
+bool
+isNamespace
 )
 ;
 /

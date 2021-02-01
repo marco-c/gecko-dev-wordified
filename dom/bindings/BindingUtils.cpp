@@ -5455,6 +5455,8 @@ char
 const
 *
 legacyWindowAliases
+bool
+isNamespace
 )
 {
 JS
@@ -5499,6 +5501,12 @@ return
 nullptr
 ;
 }
+if
+(
+!
+isNamespace
+)
+{
 if
 (
 !
@@ -5596,6 +5604,7 @@ JSPROP_READONLY
 return
 nullptr
 ;
+}
 }
 if
 (
@@ -6641,6 +6650,8 @@ char
 const
 *
 legacyWindowAliases
+bool
+isNamespace
 )
 {
 MOZ_ASSERT
@@ -6994,6 +7005,7 @@ name
 isChrome
 defineOnGlobal
 legacyWindowAliases
+isNamespace
 )
 ;
 if

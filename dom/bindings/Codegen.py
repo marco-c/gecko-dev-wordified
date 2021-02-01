@@ -25232,6 +25232,10 @@ isGlobal
 {
 legacyWindowAliases
 }
+                                        
+{
+isNamespace
+}
 )
 ;
             
@@ -25343,6 +25347,21 @@ else
 "
 nullptr
 "
+            
+isNamespace
+=
+toStringBool
+(
+self
+.
+descriptor
+.
+interface
+.
+isNamespace
+(
+)
+)
         
 )
         
