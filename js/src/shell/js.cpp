@@ -32778,6 +32778,8 @@ stderr
 ;
 DumpParseTree
 (
+&
+parser
 pn
 out
 )
