@@ -28260,6 +28260,15 @@ MIRType
 :
 :
 Int32
+|
+|
+type
+=
+=
+MIRType
+:
+:
+Double
 )
 ;
 setResultType
