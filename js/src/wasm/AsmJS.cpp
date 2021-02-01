@@ -326,7 +326,6 @@ h
 /
 /
 ParserAtom
-ParserName
 ParserAtomsTable
 TaggedParserAtomIndex
 #
@@ -37899,9 +37898,7 @@ m
 fail
 .
 }
-const
-ParserName
-*
+TaggedParserAtomIndex
 name
 =
 m
