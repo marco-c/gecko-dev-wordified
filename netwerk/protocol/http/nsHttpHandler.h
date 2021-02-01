@@ -2340,6 +2340,12 @@ int32_t
 port
 bool
 pb
+bool
+isolated
+const
+nsACString
+&
+topWindowOrigin
 const
 OriginAttributes
 &
@@ -2360,6 +2366,8 @@ scheme
 host
 port
 pb
+isolated
+topWindowOrigin
 originAttributes
 aHttp2Allowed
 aHttp3Allowed
@@ -3129,8 +3137,14 @@ const
 nsACString
 &
 aUsername
+const
+nsACString
+&
+aTopWindowOrigin
 bool
 aPrivateBrowsing
+bool
+aIsolated
 nsIInterfaceRequestor
 *
 aCallbacks

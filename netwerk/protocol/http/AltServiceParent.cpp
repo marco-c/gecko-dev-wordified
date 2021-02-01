@@ -180,6 +180,10 @@ const
 OriginAttributes
 &
 aOriginAttributes
+const
+nsCString
+&
+aTopWindowOrigin
 )
 {
 LOG
@@ -221,6 +225,7 @@ ClearHostMapping
 aHost
 aPort
 aOriginAttributes
+aTopWindowOrigin
 )
 ;
 }
@@ -263,9 +268,17 @@ nsACString
 &
 aUsername
 const
+nsACString
+&
+aTopWindowOrigin
+const
 bool
 &
 aPrivateBrowsing
+const
+bool
+&
+aIsolated
 nsTArray
 <
 ProxyInfoCloneArgs
@@ -334,7 +347,9 @@ aOriginScheme
 aOriginHost
 aOriginPort
 aUsername
+aTopWindowOrigin
 aPrivateBrowsing
+aIsolated
 nullptr
 pi
 aCaps
