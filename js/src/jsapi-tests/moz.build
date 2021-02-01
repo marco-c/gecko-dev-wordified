@@ -312,6 +312,11 @@ testFunctionBinding
 cpp
 "
 "
+testFunctionNonSyntactic
+.
+cpp
+"
+"
 testFunctionProperties
 .
 cpp
