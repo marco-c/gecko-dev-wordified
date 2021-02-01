@@ -1808,13 +1808,12 @@ a
 thumbnail
 sync
 .
+await
 PageThumbUtils
 .
 createSnapshotThumbnail
 (
 aBrowser
-.
-contentWindow
 aCanvas
 aArgs
 )
