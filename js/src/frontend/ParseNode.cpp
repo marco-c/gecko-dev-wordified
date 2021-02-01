@@ -2746,7 +2746,7 @@ name
 DumpCharsNoNewline
 (
 parser
-labelIndex
+label
 (
 )
 out
@@ -2791,7 +2791,7 @@ parserAtoms
 .
 getParserAtom
 (
-labelIndex
+label
 (
 )
 )

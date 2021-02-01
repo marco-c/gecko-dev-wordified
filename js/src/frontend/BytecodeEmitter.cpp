@@ -11467,7 +11467,7 @@ emitGetName
 name
 -
 >
-nameIndex
+name
 (
 )
 )
@@ -11504,7 +11504,7 @@ emitGetPrivateName
 name
 -
 >
-nameIndex
+name
 (
 )
 )
@@ -12272,7 +12272,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 ShouldInstrument
@@ -12570,7 +12570,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -12657,7 +12657,7 @@ this
 name
 -
 >
-atomIndex
+atom
 (
 )
 kind
@@ -15256,7 +15256,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -18373,7 +18373,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -18824,7 +18824,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -21275,7 +21275,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -25134,7 +25134,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ShouldInstrument
@@ -26100,7 +26100,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -26383,7 +26383,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 =
@@ -26941,7 +26941,7 @@ nameAtom
 decl
 -
 >
-nameIndex
+name
 (
 )
 ;
@@ -27873,7 +27873,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -28012,7 +28012,7 @@ anonFunctionName
 prop
 -
 >
-nameIndex
+name
 (
 )
 ;
@@ -28485,7 +28485,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -29110,7 +29110,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -29472,7 +29472,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -29692,7 +29692,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -30247,7 +30247,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -34952,7 +34952,7 @@ nameAtom
 nameNode
 -
 >
-nameIndex
+name
 (
 )
 ;
@@ -35937,7 +35937,7 @@ nameAtom
 nameNode
 -
 >
-nameIndex
+name
 (
 )
 ;
@@ -43655,7 +43655,7 @@ DelName
 nameExpr
 -
 >
-atomIndex
+atom
 (
 )
 )
@@ -43918,7 +43918,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -44937,7 +44937,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -45442,7 +45442,7 @@ SelfHostedCallFunctionName
 calleeNode
 -
 >
-nameIndex
+name
 (
 )
 cx
@@ -45515,7 +45515,7 @@ constructing
 calleeNode
 -
 >
-nameIndex
+name
 (
 )
 =
@@ -45612,7 +45612,7 @@ SelfHosting
 calleeNode
 -
 >
-nameIndex
+name
 (
 )
 =
@@ -45994,7 +45994,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -46991,7 +46991,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -47582,7 +47582,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -48126,7 +48126,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -48303,7 +48303,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -49988,7 +49988,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -52469,7 +52469,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -53390,7 +53390,7 @@ name
 labeledStmt
 -
 >
-labelIndex
+label
 (
 )
 ;
@@ -55217,7 +55217,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -55835,7 +55835,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 =
@@ -55940,7 +55940,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -56414,7 +56414,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -56769,7 +56769,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -57424,7 +57424,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -58716,7 +58716,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -63274,7 +63274,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -63519,7 +63519,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -63559,7 +63559,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -63986,7 +63986,7 @@ emitLexicalInitialization
 name
 -
 >
-nameIndex
+name
 (
 )
 )
@@ -64249,7 +64249,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 =
@@ -64372,7 +64372,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 ;
@@ -64773,7 +64773,7 @@ innerBinding
 )
 -
 >
-nameIndex
+name
 (
 )
 ;
@@ -64802,7 +64802,7 @@ outerBinding
 )
 -
 >
-nameIndex
+name
 (
 )
 )
@@ -64817,7 +64817,7 @@ outerBinding
 )
 -
 >
-nameIndex
+name
 (
 )
 =
@@ -67113,7 +67113,7 @@ BreakStatement
 (
 )
 .
-labelIndex
+label
 (
 )
 )
@@ -67191,7 +67191,7 @@ ContinueStatement
 (
 )
 .
-labelIndex
+label
 (
 )
 )
@@ -68635,7 +68635,7 @@ key
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -69290,7 +69290,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )

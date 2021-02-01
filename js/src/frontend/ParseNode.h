@@ -5816,7 +5816,7 @@ indent
 #
 endif
 TaggedParserAtomIndex
-atomIndex
+atom
 (
 )
 const
@@ -5826,7 +5826,7 @@ atom_
 ;
 }
 TaggedParserAtomIndex
-nameIndex
+name
 (
 )
 const
@@ -5921,7 +5921,7 @@ NameNode
 (
 )
 .
-nameIndex
+name
 (
 )
 =
@@ -6261,7 +6261,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -10238,13 +10238,13 @@ stmt
 {
 }
 TaggedParserAtomIndex
-labelIndex
+label
 (
 )
 const
 {
 return
-atomIndex
+atom
 (
 )
 ;
@@ -10606,7 +10606,7 @@ any
 *
 /
 TaggedParserAtomIndex
-labelIndex
+label
 (
 )
 const
@@ -11955,7 +11955,7 @@ pn
 ;
 }
 TaggedParserAtomIndex
-nameIndex
+name
 (
 )
 const
@@ -11973,7 +11973,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -13558,7 +13558,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 =
@@ -13573,7 +13573,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )

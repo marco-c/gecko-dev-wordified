@@ -9684,7 +9684,7 @@ module
 moduleSpec
 -
 >
-atomIndex
+atom
 (
 )
 ;
@@ -9791,7 +9791,7 @@ importName
 importNameNode
 -
 >
-atomIndex
+atom
 (
 )
 ;
@@ -9801,7 +9801,7 @@ localName
 localNameNode
 -
 >
-atomIndex
+atom
 (
 )
 ;
@@ -10160,7 +10160,7 @@ localName
 localNameNode
 -
 >
-atomIndex
+atom
 (
 )
 ;
@@ -10170,7 +10170,7 @@ exportName
 exportNameNode
 -
 >
-atomIndex
+atom
 (
 )
 ;
@@ -10239,7 +10239,7 @@ innerBinding
 )
 -
 >
-atomIndex
+atom
 (
 )
 ;
@@ -10392,7 +10392,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -10653,7 +10653,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -11217,7 +11217,7 @@ module
 moduleSpec
 -
 >
-atomIndex
+atom
 (
 )
 ;
@@ -11323,7 +11323,7 @@ bindingName
 localNameNode
 -
 >
-atomIndex
+atom
 (
 )
 ;
@@ -11333,7 +11333,7 @@ exportName
 exportNameNode
 -
 >
-atomIndex
+atom
 (
 )
 ;

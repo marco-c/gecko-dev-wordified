@@ -31256,7 +31256,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -31605,7 +31605,7 @@ checkExportedName
 nameNode
 -
 >
-atomIndex
+atom
 (
 )
 )
@@ -31824,7 +31824,7 @@ innerBinding
 )
 -
 >
-atomIndex
+atom
 (
 )
 )
@@ -32603,7 +32603,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )

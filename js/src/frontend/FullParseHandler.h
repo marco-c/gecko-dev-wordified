@@ -2944,7 +2944,7 @@ MOZ_ASSERT
 name
 -
 >
-atomIndex
+atom
 (
 )
 =
@@ -2952,7 +2952,7 @@ atomIndex
 expr
 -
 >
-atomIndex
+atom
 (
 )
 )
@@ -6532,7 +6532,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 =
@@ -6581,7 +6581,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 =
@@ -6653,7 +6653,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 =
@@ -6819,7 +6819,7 @@ PropertyAccessBase
 (
 )
 .
-nameIndex
+name
 (
 )
 :

@@ -3176,7 +3176,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -3578,7 +3578,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 =
@@ -8013,7 +8013,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 ;
@@ -8995,7 +8995,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
@@ -9117,7 +9117,7 @@ NameNode
 (
 )
 .
-atomIndex
+atom
 (
 )
 )
