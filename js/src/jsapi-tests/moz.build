@@ -597,6 +597,11 @@ testSharedImmutableStringsCache
 cpp
 "
 "
+testSliceBudget
+.
+cpp
+"
+"
 testSourcePolicy
 .
 cpp

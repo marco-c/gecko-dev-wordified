@@ -991,8 +991,8 @@ EXPECT_NEAR
 budget
 .
 timeBudget
-.
-budget
+(
+)
 kTenthSecond
 .
 ToMilliseconds
@@ -1348,8 +1348,8 @@ EXPECT_NEAR
 budget
 .
 timeBudget
-.
-budget
+(
+)
 kTenthSecond
 .
 ToMilliseconds
@@ -1593,8 +1593,8 @@ EXPECT_NEAR
 budget
 .
 timeBudget
-.
-budget
+(
+)
 kICCSliceBudget
 .
 ToMilliseconds
@@ -1647,8 +1647,8 @@ EXPECT_NEAR
 budget
 .
 timeBudget
-.
-budget
+(
+)
 kICCSliceBudget
 .
 ToMilliseconds
@@ -1719,8 +1719,8 @@ EXPECT_NEAR
 budget
 .
 timeBudget
-.
-budget
+(
+)
 kICCSliceBudget
 .
 ToMilliseconds
@@ -1803,8 +1803,8 @@ EXPECT_TRUE
 budget
 .
 timeBudget
-.
-budget
+(
+)
 >
 kICCSliceBudget
 .
@@ -1818,8 +1818,8 @@ EXPECT_TRUE
 budget
 .
 timeBudget
-.
-budget
+(
+)
 <
 =
 MainThreadIdlePeriod
@@ -1854,8 +1854,8 @@ FromMilliseconds
 budget
 .
 timeBudget
-.
-budget
+(
+)
 )
 )
 ;

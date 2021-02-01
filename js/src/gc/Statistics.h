@@ -1212,7 +1212,9 @@ ZoneGCStats
 zoneStats
 JSGCInvocationKind
 gckind
+const
 SliceBudget
+&
 budget
 JS
 :
@@ -1681,7 +1683,9 @@ SliceData
 {
 SliceData
 (
+const
 SliceBudget
+&
 budget
 mozilla
 :
@@ -2838,7 +2842,9 @@ ZoneGCStats
 zoneStats
 JSGCInvocationKind
 gckind
+const
 SliceBudget
+&
 budget
 JS
 :
