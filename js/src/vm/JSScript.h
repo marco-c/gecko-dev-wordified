@@ -17102,8 +17102,6 @@ CloneGlobalScript
 JSContext
 *
 cx
-ScopeKind
-scopeKind
 HandleScript
 src
 )

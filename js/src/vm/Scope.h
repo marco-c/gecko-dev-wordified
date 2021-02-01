@@ -5701,8 +5701,6 @@ GlobalScope
 *
 >
 scope
-ScopeKind
-kind
 )
 ;
 template

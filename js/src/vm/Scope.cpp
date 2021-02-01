@@ -7628,8 +7628,6 @@ GlobalScope
 *
 >
 scope
-ScopeKind
-kind
 )
 {
 Rooted
@@ -7696,7 +7694,12 @@ GlobalScope
 >
 (
 cx
+scope
+-
+>
 kind
+(
+)
 nullptr
 nullptr
 &
