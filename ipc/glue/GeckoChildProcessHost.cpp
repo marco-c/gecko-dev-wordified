@@ -11507,6 +11507,15 @@ lock
 sMutex
 )
 ;
+if
+(
+!
+sGeckoChildProcessHosts
+)
+{
+return
+;
+}
 for
 (
 GeckoChildProcessHost

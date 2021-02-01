@@ -4645,16 +4645,6 @@ bool
 unused
 )
 ;
-async
-GetMemoryUniqueSetSize
-(
-)
-returns
-(
-int64_t
-uss
-)
-;
 /
 *
 *
