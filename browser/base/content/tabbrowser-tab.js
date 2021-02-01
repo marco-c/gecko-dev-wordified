@@ -420,6 +420,11 @@ textoverflow
 )
 ;
 "
+align
+=
+"
+start
+"
 flex
 =
 "
