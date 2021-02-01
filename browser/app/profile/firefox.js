@@ -6253,12 +6253,6 @@ allow_eval_in_parent_process
 false
 )
 ;
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
 pref
 (
 "
@@ -6269,8 +6263,6 @@ allow_parent_unrestricted_js_loads
 false
 )
 ;
-#
-endif
 /
 /
 Unload
