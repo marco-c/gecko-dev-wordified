@@ -3592,12 +3592,9 @@ gCurrentTask
 null
 ;
 }
-return
-(
 gMaintainStack
 =
 x
-)
 ;
 }
 /

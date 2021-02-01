@@ -5615,7 +5615,6 @@ applyBackgroundUpdates
 )
 {
 return
-val
 ;
 }
 XPIDatabase
@@ -5645,9 +5644,6 @@ applyBackgroundUpdates
 ]
 )
 ;
-return
-val
-;
 }
 set
 syncGUID
@@ -5674,7 +5670,6 @@ val
 )
 {
 return
-val
 ;
 }
 if
@@ -5697,9 +5692,6 @@ addon
 .
 syncGUID
 =
-val
-;
-return
 val
 ;
 }

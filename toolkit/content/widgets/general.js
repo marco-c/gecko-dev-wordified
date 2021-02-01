@@ -111,7 +111,6 @@ val
 )
 {
 return
-val
 ;
 }
 this
@@ -153,9 +152,6 @@ dispatchEvent
 (
 event
 )
-;
-return
-val
 ;
 }
 get
@@ -220,9 +216,6 @@ this
 selectedIndex
 =
 selectedIndex
-;
-return
-val
 ;
 }
 get

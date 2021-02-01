@@ -289,9 +289,6 @@ handleCtrlTab
 val
 )
 ;
-return
-val
-;
 }
 get
 handleCtrlTab
@@ -465,9 +462,6 @@ selectedIndex
 val
 )
 ;
-return
-val
-;
 }
 get
 selectedIndex
@@ -523,9 +517,6 @@ val
 ;
 }
 }
-return
-val
-;
 }
 get
 selectedTab
@@ -579,9 +570,6 @@ val
 ;
 }
 }
-return
-val
-;
 }
 get
 selectedPanel
@@ -987,7 +975,6 @@ length
 )
 {
 return
-val
 ;
 }
 let
@@ -1077,9 +1064,6 @@ event
 )
 ;
 }
-return
-val
-;
 }
 get
 selectedIndex
@@ -1151,9 +1135,6 @@ this
 selectedIndex
 =
 selectedIndex
-;
-return
-val
 ;
 }
 get
@@ -2189,9 +2170,6 @@ value
 val
 )
 ;
-return
-val
-;
 }
 get
 value
@@ -2314,9 +2292,6 @@ visuallyselected
 )
 ;
 }
-return
-val
-;
 }
 set
 linkedPanel
@@ -2762,9 +2737,6 @@ break
 ;
 }
 }
-return
-val
-;
 }
 get
 value
@@ -2967,9 +2939,6 @@ linkedPanel
 ;
 }
 }
-return
-val
-;
 }
 get
 selectedIndex
@@ -3077,9 +3046,6 @@ val
 )
 ;
 }
-return
-val
-;
 }
 get
 selectedItem
@@ -3364,9 +3330,6 @@ evt
 )
 ;
 }
-return
-val
-;
 }
 get
 ariaFocusedItem
