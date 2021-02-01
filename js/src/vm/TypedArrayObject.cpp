@@ -17831,7 +17831,7 @@ deprecatedGetUint32
 ;
 }
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetTypedArrayByteOffset
 (
 JSObject
@@ -17871,13 +17871,13 @@ byteOffset
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
 }
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetTypedArrayByteLength
 (
 JSObject
@@ -17917,7 +17917,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;

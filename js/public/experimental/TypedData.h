@@ -2311,7 +2311,7 @@ succeed
 /
 extern
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetTypedArrayByteOffset
 (
 JSObject
@@ -2383,7 +2383,7 @@ succeed
 /
 extern
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetTypedArrayByteLength
 (
 JSObject
@@ -2409,7 +2409,7 @@ well
 /
 extern
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetArrayBufferViewByteLength
 (
 JSObject
@@ -2435,7 +2435,7 @@ well
 /
 extern
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetArrayBufferViewByteOffset
 (
 JSObject

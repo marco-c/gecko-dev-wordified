@@ -8175,11 +8175,11 @@ ArrayLengthMismatch
 JSContext
 *
 cx
-unsigned
+size_t
 expectedLength
 HandleObject
 arrObj
-unsigned
+size_t
 actualLength
 HandleValue
 actual
@@ -23730,7 +23730,7 @@ arrIndex
 )
 ;
 }
-uint32_t
+size_t
 sourceLength
 =
 JS_GetTypedArrayByteLength
@@ -23761,10 +23761,7 @@ if
 arraySize
 !
 =
-size_t
-(
 sourceLength
-)
 )
 {
 MOZ_ASSERT
@@ -23779,10 +23776,7 @@ ArrayLengthMismatch
 cx
 arraySize
 targetType
-size_t
-(
 sourceLength
-)
 val
 convType
 )
