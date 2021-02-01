@@ -3187,7 +3187,6 @@ if
 !
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -3515,7 +3514,6 @@ if
 !
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
