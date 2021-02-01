@@ -11625,9 +11625,7 @@ BytecodeEmitter
 :
 emitTDZCheckIfNeeded
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 const
 NameLocation
