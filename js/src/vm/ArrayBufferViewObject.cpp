@@ -773,6 +773,7 @@ get
 (
 )
 <
+=
 TypedArrayObject
 :
 :
