@@ -635,6 +635,11 @@ states
 :
 :
 BUSY
+|
+states
+:
+:
+MULTI_LINE
 ;
 static
 const
