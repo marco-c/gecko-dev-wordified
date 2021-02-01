@@ -7055,9 +7055,16 @@ LogicalSize
 &
 aMargin
 const
+mozilla
+:
+:
 LogicalSize
 &
 aBorderPadding
+const
+StyleSizeOverrides
+&
+aSizeOverrides
 ComputeSizeFlags
 aFlags
 )
@@ -17320,6 +17327,10 @@ const
 LogicalSize
 &
 aBorderPadding
+const
+StyleSizeOverrides
+&
+aSizeOverrides
 ComputeSizeFlags
 aFlags
 )
