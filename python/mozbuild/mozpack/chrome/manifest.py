@@ -272,6 +272,10 @@ process
 "
 contentaccessible
 "
+        
+"
+backgroundtask
+"
     
 ]
     
