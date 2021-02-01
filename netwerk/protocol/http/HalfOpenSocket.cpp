@@ -1076,14 +1076,6 @@ ci
 GetPrivate
 (
 )
-|
-|
-ci
--
->
-GetIsolated
-(
-)
 )
 {
 tmpFlags
