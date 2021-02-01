@@ -3299,11 +3299,6 @@ bool
 needsProto
 =
 false
-ListNode
-*
-classContentsIfConstructor
-=
-nullptr
 )
 ;
 MOZ_NEVER_INLINE
@@ -5231,7 +5226,7 @@ WantValue
 )
 ;
 bool
-isRestParameter
+isOptimizableSpreadArgument
 (
 ParseNode
 *
