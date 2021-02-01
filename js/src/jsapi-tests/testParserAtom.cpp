@@ -347,7 +347,7 @@ ascii
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -362,7 +362,7 @@ latin1
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -377,7 +377,7 @@ utf8
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -392,7 +392,7 @@ char16
 )
 =
 =
-ref
+refIndex
 )
 ;
 /
@@ -674,7 +674,7 @@ ascii
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -689,7 +689,7 @@ latin1
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -704,7 +704,7 @@ utf8
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -719,7 +719,7 @@ char16
 )
 =
 =
-ref
+refIndex
 )
 ;
 const
@@ -1046,7 +1046,7 @@ ascii
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -1061,7 +1061,7 @@ latin1
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -1076,7 +1076,7 @@ utf8
 )
 =
 =
-ref
+refIndex
 )
 ;
 CHECK
@@ -1091,7 +1091,7 @@ char16
 )
 =
 =
-ref
+refIndex
 )
 ;
 const
@@ -1345,10 +1345,8 @@ length
 arg
 )
 ;
-const
-ParserAtom
-*
-atom
+auto
+index
 =
 atomTable
 .
@@ -1363,7 +1361,12 @@ inputs
 .
 push_back
 (
-atom
+atomTable
+.
+getParserAtom
+(
+index
+)
 )
 ;
 }
@@ -1462,10 +1465,8 @@ length
 exp
 )
 ;
-const
-ParserAtom
-*
-ref
+auto
+refIndex
 =
 atomTable
 .
@@ -1474,16 +1475,6 @@ internChar16
 cx
 exp
 exp_len
-)
-;
-auto
-refIndex
-=
-ref
--
->
-toIndex
-(
 )
 ;
 CHECK
