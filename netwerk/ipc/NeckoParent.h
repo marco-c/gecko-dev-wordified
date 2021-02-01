@@ -1466,6 +1466,17 @@ ipc
 :
 :
 IPCResult
+RecvResetSocketProcessBridge
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvEnsureHSTSData
 (
 EnsureHSTSDataResolver

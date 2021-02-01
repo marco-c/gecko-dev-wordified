@@ -563,13 +563,6 @@ failed
 "
 )
 ;
-SocketProcessBridgeChild
-:
-:
-GetSocketProcessBridge
-(
-)
-;
 }
 }
 PStunAddrsRequestChild
