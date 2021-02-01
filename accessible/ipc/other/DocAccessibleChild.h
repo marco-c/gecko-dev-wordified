@@ -3172,13 +3172,12 @@ const
 uint64_t
 &
 aID
-PDocAccessibleChild
-*
-*
-aResultDoc
 uint64_t
 *
-aResultID
+aChild
+bool
+*
+aOk
 )
 override
 ;
