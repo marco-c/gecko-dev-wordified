@@ -158,9 +158,7 @@ LabelEmitter
 :
 emitLabel
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 {
@@ -181,11 +179,6 @@ emplace
 (
 bce_
 name
--
->
-toIndex
-(
-)
 bce_
 -
 >

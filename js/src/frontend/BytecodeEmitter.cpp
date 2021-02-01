@@ -12572,7 +12572,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -18826,7 +18826,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -28484,7 +28484,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -29109,7 +29109,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -29691,7 +29691,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -30246,7 +30246,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -43916,7 +43916,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -44935,7 +44935,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -47568,10 +47568,8 @@ ParseNodeKind
 Name
 :
 {
-const
-ParserAtom
-*
-nameAtom
+auto
+name
 =
 callee
 -
@@ -47583,7 +47581,7 @@ NameNode
 (
 )
 .
-name
+nameIndex
 (
 )
 ;
@@ -47594,7 +47592,7 @@ cone
 .
 emitNameCallee
 (
-nameAtom
+name
 )
 )
 {
@@ -48114,10 +48112,8 @@ ParseNodeKind
 Name
 :
 {
-const
-ParserAtom
-*
-nameAtom
+auto
+name
 =
 callee
 -
@@ -48129,7 +48125,7 @@ NameNode
 (
 )
 .
-name
+nameIndex
 (
 )
 ;
@@ -48140,7 +48136,7 @@ cone
 .
 emitNameCallee
 (
-nameAtom
+name
 )
 )
 {
@@ -48306,7 +48302,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -52472,7 +52468,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )
@@ -53387,15 +53383,13 @@ LabeledStatement
 labeledStmt
 )
 {
-const
-ParserAtom
-*
+auto
 name
 =
 labeledStmt
 -
 >
-label
+labelIndex
 (
 )
 ;
@@ -55938,9 +55932,7 @@ return
 false
 ;
 }
-const
-ParserAtom
-*
+auto
 keyAtom
 =
 key
@@ -55953,7 +55945,7 @@ NameNode
 (
 )
 .
-atom
+atomIndex
 (
 )
 ;
@@ -63255,9 +63247,7 @@ false
 }
 else
 {
-const
-ParserName
-*
+auto
 paramName
 =
 bindingElement
@@ -63270,7 +63260,7 @@ NameNode
 (
 )
 .
-name
+nameIndex
 (
 )
 ;
@@ -63502,9 +63492,7 @@ return
 false
 ;
 }
-const
-ParserAtom
-*
+auto
 paramName
 =
 bindingElement
@@ -63517,7 +63505,7 @@ NameNode
 (
 )
 .
-name
+nameIndex
 (
 )
 ;
@@ -63544,9 +63532,7 @@ false
 continue
 ;
 }
-const
-ParserAtom
-*
+auto
 paramName
 =
 bindingElement
@@ -63559,7 +63545,7 @@ NameNode
 (
 )
 .
-name
+nameIndex
 (
 )
 ;
@@ -68634,7 +68620,7 @@ key
 (
 )
 .
-atom
+atomIndex
 (
 )
 )

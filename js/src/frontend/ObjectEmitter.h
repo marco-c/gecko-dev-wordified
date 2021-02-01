@@ -220,7 +220,6 @@ h
 "
 /
 /
-ParserAtom
 TaggedParserAtomIndex
 #
 include
@@ -2695,9 +2694,7 @@ emitInit
 (
 AccessorType
 accessorType
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 key
 )
 ;
@@ -2765,9 +2762,7 @@ emitInit
 (
 JSOp
 op
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 key
 )
 ;

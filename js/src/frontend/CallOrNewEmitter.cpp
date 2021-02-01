@@ -260,9 +260,7 @@ CallOrNewEmitter
 :
 emitNameCallee
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 {
@@ -282,11 +280,6 @@ noe
 (
 bce_
 name
--
->
-toIndex
-(
-)
 isCall
 (
 )

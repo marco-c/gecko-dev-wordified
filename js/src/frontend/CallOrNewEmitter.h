@@ -168,7 +168,7 @@ h
 "
 /
 /
-ParserAtom
+TaggedParserAtomIndex
 #
 include
 "
@@ -2398,9 +2398,7 @@ MOZ_MUST_USE
 bool
 emitNameCallee
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 )
 ;

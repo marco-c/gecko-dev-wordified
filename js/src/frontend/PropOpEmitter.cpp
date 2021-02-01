@@ -210,9 +210,7 @@ PropOpEmitter
 :
 prepareAtomIndex
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 prop
 )
 {
@@ -223,11 +221,6 @@ bce_
 makeAtomIndex
 (
 prop
--
->
-toIndex
-(
-)
 &
 propAtomIndex_
 )
@@ -274,9 +267,7 @@ PropOpEmitter
 :
 emitGet
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 prop
 )
 {
@@ -810,9 +801,7 @@ PropOpEmitter
 :
 emitDelete
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 prop
 )
 {
@@ -1067,9 +1056,7 @@ PropOpEmitter
 :
 emitAssignment
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 prop
 )
 {
@@ -1243,9 +1230,7 @@ PropOpEmitter
 :
 emitIncDec
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 prop
 )
 {
