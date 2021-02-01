@@ -1811,7 +1811,7 @@ false
 if
 (
 !
-BrowserUtils
+BrowserUIUtils
 .
 checkEmptyPageOrigin
 (
