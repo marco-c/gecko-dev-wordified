@@ -8583,6 +8583,8 @@ NS_DEFINE_COMMAND_NO_EXEC_COMMAND
 (
 aName
 )
+"
+"
 static
 const
 char
