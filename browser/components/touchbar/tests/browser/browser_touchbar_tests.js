@@ -699,9 +699,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 search
 -
@@ -895,9 +897,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 search
 -

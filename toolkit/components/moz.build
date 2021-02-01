@@ -348,9 +348,6 @@ classifier
 urlformatter
 "
 "
-viewconfig
-"
-"
 viewsource
 "
 "
@@ -385,6 +382,9 @@ DIRS
 +
 =
 [
+"
+aboutconfig
+"
 "
 narrate
 "

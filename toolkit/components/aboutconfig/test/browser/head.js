@@ -542,7 +542,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 content
 /
