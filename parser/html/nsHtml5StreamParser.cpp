@@ -4087,6 +4087,9 @@ aEof
 {
 if
 (
+mFeedChardet
+&
+&
 mSniffingBuffer
 )
 {
