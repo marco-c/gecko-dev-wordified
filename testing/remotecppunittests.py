@@ -484,9 +484,6 @@ with
 open
 (
 local_file
-"
-rb
-"
 )
 as
 f
