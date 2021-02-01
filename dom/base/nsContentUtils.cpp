@@ -46045,8 +46045,13 @@ WindowID
 0
 ;
 }
+/
+/
 static
 void
+nsContentUtils
+:
+:
 MaybeFixIPv6Host
 (
 nsACString
