@@ -35,14 +35,6 @@ wasmSimdWormholeEnabled
 hasDisassembler
 (
 )
-|
-|
-!
-getBuildConfiguration
-(
-)
-.
-x64
 ;
 include
 :
