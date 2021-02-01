@@ -295,6 +295,20 @@ BrowserTelemetryUtils
 .
 jsm
 "
+BrowserUIUtils
+:
+"
+resource
+:
+/
+/
+/
+modules
+/
+BrowserUIUtils
+.
+jsm
+"
 BrowserUtils
 :
 "
@@ -29960,7 +29974,7 @@ trimURLs
 {
 url
 =
-BrowserUtils
+BrowserUIUtils
 .
 trimURL
 (
@@ -30910,7 +30924,7 @@ blank
 "
 &
 &
-BrowserUtils
+BrowserUIUtils
 .
 checkEmptyPageOrigin
 (
@@ -33649,7 +33663,7 @@ if
 shouldAnimate
 )
 {
-BrowserUtils
+BrowserUIUtils
 .
 setToolbarButtonHeightProperty
 (
@@ -33795,7 +33809,7 @@ if
 shouldAnimate
 )
 {
-BrowserUtils
+BrowserUIUtils
 .
 setToolbarButtonHeightProperty
 (

@@ -13428,7 +13428,7 @@ if
 isBookmarked
 )
 {
-BrowserUtils
+BrowserUIUtils
 .
 setToolbarButtonHeightProperty
 (
