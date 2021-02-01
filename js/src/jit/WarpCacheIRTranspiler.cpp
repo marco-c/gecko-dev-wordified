@@ -18048,7 +18048,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitTypedArrayByteOffsetResult
+emitTypedArrayByteOffsetInt32Result
 (
 ObjOperandId
 objId
