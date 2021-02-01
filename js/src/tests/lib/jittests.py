@@ -6632,9 +6632,10 @@ tests
 .
 format
 (
+repr
+(
 e
-.
-message
+)
 )
 )
 def
