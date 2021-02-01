@@ -810,15 +810,6 @@ dav1d_mask
 neon
 )
 ;
-#
-if
-BITDEPTH
-=
-=
-8
-|
-|
-ARCH_AARCH64
 c
 -
 >
@@ -894,8 +885,6 @@ dav1d_w_mask_420
 neon
 )
 ;
-#
-endif
 c
 -
 >
@@ -918,15 +907,6 @@ dav1d_warp_affine_8x8t
 neon
 )
 ;
-#
-if
-BITDEPTH
-=
-=
-8
-|
-|
-ARCH_AARCH64
 c
 -
 >
@@ -938,6 +918,4 @@ dav1d_emu_edge
 neon
 )
 ;
-#
-endif
 }

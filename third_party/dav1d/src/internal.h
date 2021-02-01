@@ -540,6 +540,7 @@ int
 n_tiles
 ;
 Dav1dMemPool
+*
 seq_hdr_pool
 ;
 Dav1dRef
@@ -551,6 +552,7 @@ Dav1dSequenceHeader
 seq_hdr
 ;
 Dav1dMemPool
+*
 frame_hdr_pool
 ;
 Dav1dRef
@@ -652,9 +654,11 @@ reference
 entropy
 state
 Dav1dMemPool
+*
 segmap_pool
 ;
 Dav1dMemPool
+*
 refmvs_pool
 ;
 struct
@@ -683,6 +687,7 @@ refs
 ]
 ;
 Dav1dMemPool
+*
 cdf_pool
 ;
 CdfThreadContext
@@ -797,10 +802,8 @@ Dav1dLogger
 logger
 ;
 Dav1dMemPool
+*
 picture_pool
-;
-int
-mem_pools_inited
 ;
 }
 ;

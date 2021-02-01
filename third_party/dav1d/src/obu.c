@@ -11441,7 +11441,6 @@ ref
 =
 dav1d_ref_create_using_pool
 (
-&
 c
 -
 >
@@ -11839,7 +11838,6 @@ frame_hdr_ref
 =
 dav1d_ref_create_using_pool
 (
-&
 c
 -
 >
