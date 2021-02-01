@@ -60,16 +60,6 @@ set
 "
 dom
 .
-w3c_pointer_events
-.
-enabled
-"
-true
-]
-[
-"
-dom
-.
 maxtouchpoints
 .
 testing
