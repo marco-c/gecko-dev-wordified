@@ -159,6 +159,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -3459,6 +3466,7 @@ task
 =
 aTask
 ;
+{
 mozilla
 :
 :
@@ -3475,6 +3483,11 @@ get
 )
 )
 ;
+AUTO_PROFILE_FOLLOWING_RUNNABLE
+(
+task
+)
+;
 task
 -
 >
@@ -3486,6 +3499,7 @@ task
 =
 nullptr
 ;
+}
 nestable_tasks_allowed_
 =
 true
