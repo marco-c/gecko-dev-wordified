@@ -11656,7 +11656,7 @@ mode_
 ;
 writer
 .
-loadTypedArrayLengthResult
+loadTypedArrayLengthInt32Result
 (
 objId
 )
@@ -49727,7 +49727,7 @@ objArgId
 }
 writer
 .
-loadTypedArrayLengthResult
+loadTypedArrayLengthInt32Result
 (
 objArgId
 )
