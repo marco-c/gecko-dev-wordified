@@ -1290,6 +1290,12 @@ defined
 (
 MOZ_PROFILE_GENERATE
 )
+|
+|
+defined
+(
+JS_STRUCTURED_SPEW
+)
 #
 define
 NS_FREE_PERMANENT_DATA
