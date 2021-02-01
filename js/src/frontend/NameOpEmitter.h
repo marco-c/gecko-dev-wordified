@@ -150,7 +150,7 @@ h
 "
 /
 /
-ParserAtom
+TaggedParserAtomIndex
 #
 include
 "
@@ -487,9 +487,7 @@ emittedBindOp_
 =
 false
 ;
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name_
 ;
 GCThingIndex
@@ -920,9 +918,7 @@ NameOpEmitter
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 Kind
 kind
@@ -933,9 +929,7 @@ NameOpEmitter
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 name
 const
 NameLocation
