@@ -389,7 +389,7 @@ DrawTarget
 mDT
 ;
 LayoutDeviceIntRegion
-mRegion
+mDirtyRegion
 ;
 RefPtr
 <
