@@ -66245,9 +66245,7 @@ stack
 ]
 CALLBACK
 UNDEFINED
-const
-ParserAtom
-*
+auto
 atom
 =
 RealmInstrumentation
@@ -66282,11 +66280,6 @@ JSOp
 :
 String
 atom
--
->
-toIndex
-(
-)
 )
 )
 {
