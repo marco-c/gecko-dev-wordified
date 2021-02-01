@@ -7924,13 +7924,6 @@ setNonSyntacticScope
 true
 )
 ;
-options
-.
-setSourceIsLazy
-(
-true
-)
-;
 JS
 :
 :

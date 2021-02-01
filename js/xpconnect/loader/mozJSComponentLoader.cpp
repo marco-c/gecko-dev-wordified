@@ -4443,10 +4443,6 @@ options
 ;
 options
 .
-setForceStrictMode
-(
-)
-.
 setFileAndLine
 (
 nativePath
@@ -4456,11 +4452,14 @@ get
 )
 1
 )
+;
+options
 .
-setSourceIsLazy
+setForceStrictMode
 (
-true
 )
+;
+options
 .
 setNonSyntacticScope
 (
