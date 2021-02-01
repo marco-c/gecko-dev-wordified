@@ -723,7 +723,6 @@ correct
 "
 )
 ;
-await
 targetList
 .
 destroy

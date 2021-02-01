@@ -423,7 +423,6 @@ reloading
 "
 )
 ;
-await
 targetList
 .
 destroy
@@ -620,7 +619,6 @@ assertEvents
 documentEvents
 )
 ;
-await
 targetList
 .
 destroy

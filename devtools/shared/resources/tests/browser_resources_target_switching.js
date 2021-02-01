@@ -604,7 +604,6 @@ onSourceAvailable
 }
 )
 ;
-await
 targetList
 .
 destroy

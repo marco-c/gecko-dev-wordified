@@ -435,7 +435,6 @@ CONSOLE_MESSAGE
 ]
 )
 ;
-await
 targetList
 .
 destroy

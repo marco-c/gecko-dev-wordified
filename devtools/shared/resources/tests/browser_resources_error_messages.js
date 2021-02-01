@@ -873,7 +873,6 @@ reset
 (
 )
 ;
-await
 targetList
 .
 destroy
