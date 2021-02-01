@@ -2073,7 +2073,9 @@ let
 stat
 =
 await
-IOUtils
+OS
+.
+File
 .
 stat
 (
@@ -2117,12 +2119,12 @@ equal
 (
 stat
 .
-permissions
+winAttributes
+.
+readOnly
+!
+!
 isTemporary
-?
-0o444
-:
-0o666
 )
 ;
 }
@@ -2174,7 +2176,7 @@ equal
 (
 stat
 .
-permissions
+unixMode
 isTemporary
 ?
 0o400
