@@ -419,6 +419,15 @@ ClearMappedBuffer
 bool
 AllocateMappedBuffer
 (
+const
+wr
+:
+:
+DeviceIntRect
+*
+aOpaqueRects
+size_t
+aNumOpaqueRects
 )
 ;
 void
