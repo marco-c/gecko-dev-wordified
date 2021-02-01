@@ -4209,7 +4209,7 @@ int32_t
 (
 TypedArrayObject
 *
-int32_t
+size_t
 int32_t
 int32_t
 )
@@ -4224,7 +4224,7 @@ int32_t
 (
 TypedArrayObject
 *
-int32_t
+size_t
 int32_t
 )
 ;
