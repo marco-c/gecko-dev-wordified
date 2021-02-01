@@ -4233,7 +4233,7 @@ The
 default
 value
 is
-true
+false
 because
 some
 IME
