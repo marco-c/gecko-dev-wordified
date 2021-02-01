@@ -1271,9 +1271,6 @@ kids
 )
 ;
 }
-return
-val
-;
 }
 get
 value
@@ -1336,9 +1333,6 @@ seltype
 val
 )
 ;
-return
-val
-;
 }
 get
 selType
@@ -1376,7 +1370,6 @@ val
 )
 {
 return
-val
 ;
 }
 if
@@ -1494,9 +1487,6 @@ DOMMenuItemActive
 ;
 }
 }
-return
-val
-;
 }
 get
 currentItem
@@ -5344,9 +5334,6 @@ searchlabel
 )
 ;
 }
-return
-val
-;
 }
 get
 searchLabel
@@ -5399,9 +5386,6 @@ value
 "
 val
 )
-;
-return
-val
 ;
 }
 get
@@ -5463,9 +5447,6 @@ selected
 )
 ;
 }
-return
-val
-;
 }
 get
 selected
@@ -5575,9 +5556,6 @@ current
 )
 ;
 }
-return
-val
-;
 }
 get
 current

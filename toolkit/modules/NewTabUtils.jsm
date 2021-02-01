@@ -1281,9 +1281,6 @@ __storedVersion
 =
 aValue
 ;
-return
-aValue
-;
 }
 /
 *

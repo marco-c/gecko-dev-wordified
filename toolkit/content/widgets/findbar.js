@@ -2200,9 +2200,6 @@ _updateBrowserWithState
 (
 )
 ;
-return
-val
-;
 }
 get
 findMode
@@ -2230,9 +2227,6 @@ prefillwithselection
 "
 val
 )
-;
-return
-val
 ;
 }
 get
@@ -2477,9 +2471,6 @@ this
 )
 ;
 }
-return
-val
-;
 }
 get
 browser

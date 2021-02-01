@@ -829,14 +829,13 @@ val
 null
 )
 {
-return
-(
 this
 .
 selectedItem
 =
 val
-)
+;
+return
 ;
 }
 var
@@ -911,9 +910,6 @@ val
 )
 ;
 }
-return
-val
-;
 }
 /
 /
@@ -992,9 +988,6 @@ image
 val
 )
 ;
-return
-val
-;
 }
 /
 /
@@ -1050,9 +1043,6 @@ description
 val
 )
 ;
-return
-val
-;
 }
 get
 description
@@ -1085,9 +1075,6 @@ openMenu
 (
 val
 )
-;
-return
-val
 ;
 }
 /
@@ -1231,9 +1218,6 @@ selectedItem
 null
 ;
 }
-return
-val
-;
 }
 /
 /
@@ -1363,7 +1347,6 @@ val
 )
 {
 return
-val
 ;
 }
 if
@@ -1381,7 +1364,6 @@ val
 )
 {
 return
-val
 ;
 }
 if
@@ -1598,9 +1580,6 @@ dispatchEvent
 (
 event
 )
-;
-return
-val
 ;
 }
 /

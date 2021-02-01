@@ -255,9 +255,6 @@ full
 aVal
 )
 ;
-return
-aVal
-;
 }
 get
 zoom
@@ -392,9 +389,6 @@ setZoomForBrowser
 gBrowser
 aVal
 )
-;
-return
-aVal
 ;
 }
 setZoomForBrowser
