@@ -4010,7 +4010,7 @@ focus
 )
 ;
 let
-identityBox
+permissionBox
 =
 browserWindow
 .
@@ -4020,6 +4020,8 @@ getElementById
 (
 "
 identity
+-
+permission
 -
 box
 "
@@ -4066,7 +4068,7 @@ function
 (
 )
 {
-identityBox
+permissionBox
 .
 click
 (
@@ -4113,7 +4115,7 @@ true
 return
 ;
 }
-identityBox
+permissionBox
 .
 click
 (
