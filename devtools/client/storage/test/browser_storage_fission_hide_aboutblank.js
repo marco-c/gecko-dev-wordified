@@ -143,6 +143,7 @@ document
 checkTree
 (
 doc
+[
 "
 localStorage
 "
@@ -155,12 +156,14 @@ example
 .
 com
 "
+]
 true
 )
 ;
 checkTree
 (
 doc
+[
 "
 localStorage
 "
@@ -169,6 +172,7 @@ about
 :
 blank
 "
+]
 false
 )
 ;
@@ -215,6 +219,7 @@ document
 checkTree
 (
 doc
+[
 "
 localStorage
 "
@@ -223,6 +228,7 @@ about
 :
 blank
 "
+]
 true
 )
 ;
