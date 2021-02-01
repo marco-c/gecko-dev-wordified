@@ -310,6 +310,17 @@ zeroTime
 initialized
 to
 navigationStart
+/
+/
+aPerformanceTiming
+and
+aPerformance
+must
+be
+non
+-
+null
+.
 PerformanceNavigationTiming
 (
 UniquePtr

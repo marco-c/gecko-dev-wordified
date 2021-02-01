@@ -224,6 +224,11 @@ mEntryName
 aEntryName
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mData
+)
+;
 }
 UniquePtr
 <
@@ -231,6 +236,12 @@ PerformanceTimingData
 >
 mData
 ;
+/
+/
+always
+non
+-
+null
 nsString
 mInitiatorType
 ;
