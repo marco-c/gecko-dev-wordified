@@ -496,6 +496,9 @@ EGL_EXT_buffer_age
 "
 EGL_KHR_partial_update
 "
+"
+EGL_NV_robustness_video_memory_purge
+"
 }
 ;
 PRLibrary
