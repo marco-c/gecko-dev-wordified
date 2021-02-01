@@ -4933,9 +4933,7 @@ JSAtom
 atom
 )
 ;
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 concatAtoms
 (
 JSContext
