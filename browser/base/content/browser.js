@@ -1800,9 +1800,6 @@ DownloadsPanel
 DownloadsOverlayLoader
 "
 "
-DownloadsSubview
-"
-"
 DownloadsView
 "
 "
