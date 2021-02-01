@@ -189,6 +189,14 @@ mozilla
 :
 dom
 {
+/
+/
+Guards
+sService
+and
+its
+members
+.
 StaticMutex
 sRefMessageBodyServiceMutex
 ;
@@ -288,6 +296,7 @@ sService
 new
 RefMessageBodyService
 (
+aProofOfLock
 )
 ;
 }
@@ -300,6 +309,10 @@ RefMessageBodyService
 :
 RefMessageBodyService
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -319,6 +332,12 @@ RefMessageBodyService
 (
 )
 {
+StaticMutexAutoLock
+lock
+(
+sRefMessageBodyServiceMutex
+)
+;
 MOZ_DIAGNOSTIC_ASSERT
 (
 sService

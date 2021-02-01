@@ -870,8 +870,13 @@ aMaxCount
 ;
 private
 :
+explicit
 RefMessageBodyService
 (
+const
+StaticMutexAutoLock
+&
+aProofOfLock
 )
 ;
 ~
