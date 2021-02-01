@@ -434,11 +434,14 @@ v8
 #
 define
 V8_WARN_UNUSED_RESULT
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 #
 define
 V8_EXPORT_PRIVATE
-MOZ_EXPORT
 #
 define
 V8_FALLTHROUGH
