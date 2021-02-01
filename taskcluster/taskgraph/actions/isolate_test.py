@@ -207,36 +207,84 @@ returned
 "
 "
     
-re_bad_tests
-=
-[
+def
+re_compile_list
+(
+*
+lst
+)
+:
         
+#
+Ideally
+we
+'
+d
+just
+use
+rb
+"
+"
+literals
+and
+avoid
+the
+encode
+but
+        
+#
+this
+file
+needs
+to
+be
+importable
+in
+python2
+for
+now
+.
+        
+return
+[
 re
 .
 compile
 (
+s
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
+)
+for
+s
+in
+lst
+]
+    
+re_bad_tests
+=
+re_compile_list
+(
+        
 r
 "
 Last
 test
 finished
 "
-)
         
-re
-.
-compile
-(
 r
 "
 LeakSanitizer
 "
-)
         
-re
-.
-compile
-(
 r
 "
 Main
@@ -245,22 +293,12 @@ process
 exited
 normally
 "
-)
         
-re
-.
-compile
-(
 r
 "
 ShutdownLeaks
 "
-)
         
-re
-.
-compile
-(
 r
 "
 [
@@ -275,24 +313,14 @@ js
 )
 ]
 "
-)
         
-re
-.
-compile
-(
 r
 "
 automation
 .
 py
 "
-)
         
-re
-.
-compile
-(
 r
 "
 https
@@ -321,83 +349,49 @@ d
 ]
 html
 "
-)
         
-re
-.
-compile
-(
 r
 "
 jsreftest
 "
-)
         
-re
-.
-compile
-(
 r
 "
 leakcheck
 "
-)
         
-re
-.
-compile
-(
 r
 "
 mozrunner
 -
 startup
 "
-)
         
-re
-.
-compile
-(
 r
 "
 pid
 :
 "
-)
         
-re
-.
-compile
-(
 r
 "
 RemoteProcessMonitor
 "
-)
         
-re
-.
-compile
-(
 r
 "
 unknown
 test
 url
 "
-)
     
-]
+)
     
 re_extract_tests
 =
-[
-        
-re
-.
-compile
+re_compile_list
 (
+        
 r
 '
 "
@@ -442,12 +436,7 @@ tests
 +
 )
 '
-)
         
-re
-.
-compile
-(
 r
 '
 "
@@ -498,12 +487,7 @@ tests
 +
 )
 '
-)
         
-re
-.
-compile
-(
 r
 '
 xpcshell
@@ -526,12 +510,7 @@ ini
 +
 )
 '
-)
         
-re
-.
-compile
-(
 r
 '
 /
@@ -549,12 +528,7 @@ finished
 .
 *
 '
-)
         
-re
-.
-compile
-(
 r
 '
 "
@@ -571,13 +545,7 @@ test
 )
 "
 '
-)
         
-re
-.
-compile
-(
-            
 r
 '
 "
@@ -592,7 +560,8 @@ run_test
 with
 arguments
 '
-            
+        
+r
 "
 [
 (
@@ -617,12 +586,6 @@ TestharnessTest
 >
 "
         
-)
-        
-re
-.
-compile
-(
 r
 '
 "
@@ -655,9 +618,8 @@ TEST
 |
 ]
 '
-)
     
-]
+)
     
 def
 munge_test_path
@@ -945,6 +907,43 @@ timing
 out
 .
         
+#
+We
+handle
+the
+stream
+as
+raw
+bytes
+because
+it
+may
+contain
+invalid
+        
+#
+UTF
+-
+8
+characters
+in
+portions
+other
+than
+those
+containing
+the
+error
+        
+#
+messages
+we
+'
+re
+looking
+for
+.
+        
 for
 line
 in
@@ -956,6 +955,7 @@ read
 .
 split
 (
+b
 "
 \
 n
@@ -983,6 +983,15 @@ tests
 add
 (
 test_path
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 )
                 
 test_dir
@@ -1005,6 +1014,15 @@ dirs
 add
 (
 test_dir
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 )
             
 if
