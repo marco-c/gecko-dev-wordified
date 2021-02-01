@@ -541,7 +541,7 @@ _identityPopup
 ;
 gIdentityHandler
 .
-_identityIconBox
+_identityBox
 .
 click
 (
