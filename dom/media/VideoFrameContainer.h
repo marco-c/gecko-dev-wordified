@@ -483,11 +483,6 @@ NonOwningImage
 )
 ;
 }
-void
-ClearCurrentFrame
-(
-)
-;
 /
 /
 Make
