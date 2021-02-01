@@ -2734,10 +2734,11 @@ aID
 )
 returns
 (
+nullable
+PDocAccessible
+aResultDoc
 uint64_t
-aChild
-bool
-aOk
+aResultID
 )
 ;
 nested
