@@ -5512,9 +5512,7 @@ MOZ_MUST_USE
 bool
 emitBreak
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 label
 )
 ;
@@ -5522,9 +5520,7 @@ MOZ_MUST_USE
 bool
 emitContinue
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 label
 )
 ;

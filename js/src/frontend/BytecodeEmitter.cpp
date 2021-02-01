@@ -37764,9 +37764,7 @@ BytecodeEmitter
 :
 emitBreak
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 label
 )
 {
@@ -37889,9 +37887,7 @@ BytecodeEmitter
 :
 emitContinue
 (
-const
-ParserName
-*
+TaggedParserAtomIndex
 label
 )
 {
@@ -67117,7 +67113,7 @@ BreakStatement
 (
 )
 .
-label
+labelIndex
 (
 )
 )
@@ -67195,7 +67191,7 @@ ContinueStatement
 (
 )
 .
-label
+labelIndex
 (
 )
 )
