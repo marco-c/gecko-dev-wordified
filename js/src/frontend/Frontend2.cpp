@@ -3414,7 +3414,7 @@ was_function_emitted
 {
 script
 .
-setWasFunctionEmitted
+setWasEmittedByEnclosingScript
 (
 )
 ;

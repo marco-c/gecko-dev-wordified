@@ -2981,18 +2981,18 @@ function
 /
 /
 /
-wasFunctionEmitted
+wasEmittedByEnclosingScript
 is
 false
 also
 for
 standalone
+/
+/
 functions
 .
 They
 are
-/
-/
 handled
 in
 InstantiateTopLevel
@@ -3002,7 +3002,7 @@ if
 !
 scriptStencil
 .
-wasFunctionEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -3697,7 +3697,7 @@ if
 !
 scriptStencil
 .
-wasFunctionEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -11577,7 +11577,7 @@ if
 (
 flags_
 &
-WasFunctionEmittedFlag
+WasEmittedByEnclosingScriptFlag
 )
 {
 json
@@ -11585,7 +11585,7 @@ json
 value
 (
 "
-WasFunctionEmittedFlag
+WasEmittedByEnclosingScriptFlag
 "
 )
 ;

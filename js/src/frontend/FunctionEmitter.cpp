@@ -440,7 +440,7 @@ MOZ_ASSERT
 funbox_
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -453,7 +453,7 @@ stack
 funbox_
 -
 >
-setWasEmitted
+setWasEmittedByEnclosingScript
 (
 true
 )
@@ -577,7 +577,7 @@ MOZ_ASSERT
 funbox_
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -590,7 +590,7 @@ stack
 funbox_
 -
 >
-setWasEmitted
+setWasEmittedByEnclosingScript
 (
 true
 )
@@ -698,7 +698,7 @@ MOZ_ASSERT
 funbox_
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -1124,7 +1124,7 @@ MOZ_ASSERT
 funbox_
 -
 >
-wasEmitted
+wasEmittedByEnclosingScript
 (
 )
 )
@@ -1147,7 +1147,7 @@ stack
 funbox_
 -
 >
-setWasEmitted
+setWasEmittedByEnclosingScript
 (
 true
 )
