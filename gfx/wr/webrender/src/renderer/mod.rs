@@ -38446,6 +38446,9 @@ compositor
 start_compositing
 (
 dirty_rects
+&
+[
+]
 )
 ;
 }
