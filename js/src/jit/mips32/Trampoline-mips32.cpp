@@ -6773,7 +6773,7 @@ masm
 .
 callWithABI
 (
-JitMarkFunction
+JitPreWriteBarrier
 (
 type
 )

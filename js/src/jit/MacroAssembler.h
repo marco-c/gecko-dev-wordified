@@ -32128,7 +32128,7 @@ generatePreBarrier
 .
 inline
 DynFn
-JitMarkFunction
+JitPreWriteBarrier
 (
 MIRType
 type
