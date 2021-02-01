@@ -536,8 +536,6 @@ range
 is
 always
 ChunkSize
--
-ArenaSize
 .
 void
 markPagesUnusedHard
@@ -10998,7 +10996,9 @@ ChunkSize
 ?
 ChunkSize
 :
-SubChunkStep
+SystemPageSize
+(
+)
 ;
 size
 =
@@ -11013,7 +11013,9 @@ MOZ_ASSERT
 size
 >
 =
-ArenaSize
+SystemPageSize
+(
+)
 )
 ;
 return
