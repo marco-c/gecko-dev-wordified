@@ -1506,7 +1506,7 @@ getParserAtom
 funbox
 -
 >
-explicitNameIndex
+explicitName
 (
 )
 )
@@ -2267,7 +2267,7 @@ functionBox
 )
 -
 >
-explicitNameIndex
+explicitName
 (
 )
 )
@@ -2293,7 +2293,7 @@ functionBox
 )
 -
 >
-explicitNameIndex
+explicitName
 (
 )
 DeclarationKind
@@ -2412,7 +2412,7 @@ getParserAtom
 funbox
 -
 >
-explicitNameIndex
+explicitName
 (
 )
 )
