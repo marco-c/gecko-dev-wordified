@@ -646,6 +646,19 @@ Referer
 "
 )
 ;
+/
+/
+No
+triggering
+URI
+inloadInfo
+assume
+load
+is
+cross
+-
+origin
+.
 Assert
 .
 equal
@@ -662,7 +675,6 @@ invalid
 :
 90
 /
-bar
 "
 )
 ;
@@ -931,7 +943,6 @@ invalid
 :
 90
 /
-bar
 "
 )
 ;
