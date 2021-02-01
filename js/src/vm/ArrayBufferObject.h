@@ -1371,13 +1371,6 @@ static
 bool
 supportLargeBuffers
 ;
-static
-constexpr
-size_t
-MaxByteLengthForSmallBuffer
-=
-INT32_MAX
-;
 /
 /
 The
@@ -1451,7 +1444,7 @@ GB
 #
 endif
 return
-MaxByteLengthForSmallBuffer
+INT32_MAX
 ;
 }
 /
