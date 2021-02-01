@@ -1484,6 +1484,14 @@ updateAuto
 if
 (
 updateAuto
+&
+&
+!
+this
+.
+aus
+.
+manualUpdateOnly
 )
 {
 /
