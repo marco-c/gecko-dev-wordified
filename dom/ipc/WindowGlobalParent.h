@@ -841,6 +841,13 @@ const
 aTitle
 =
 mDocumentTitle
+.
+valueOr
+(
+nsString
+(
+)
+)
 ;
 }
 nsIPrincipal
@@ -1792,7 +1799,10 @@ nsIURI
 >
 mDocumentURI
 ;
+Maybe
+<
 nsString
+>
 mDocumentTitle
 ;
 bool
