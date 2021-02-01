@@ -2776,7 +2776,10 @@ nsIPropertyBag2
 properties
 ;
 uint32_t
-loadStateLoadFlags
+loadStateExternalLoadFlags
+;
+uint32_t
+loadStateInternalLoadFlags
 ;
 uint32_t
 loadStateLoadType

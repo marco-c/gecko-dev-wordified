@@ -3323,7 +3323,12 @@ switch
 processes
 .
 uint32_t
-mLoadStateLoadFlags
+mLoadStateExternalLoadFlags
+=
+0
+;
+uint32_t
+mLoadStateInternalLoadFlags
 =
 0
 ;
