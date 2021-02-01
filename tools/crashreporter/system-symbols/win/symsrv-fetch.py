@@ -2003,6 +2003,23 @@ format
 symcache
 )
     
+res
+=
+{
+"
+path
+"
+:
+sym_path
+"
+error
+"
+:
+"
+ok
+"
+}
+    
 if
 has_code
 :
@@ -2139,8 +2156,20 @@ error
 err
 )
         
+res
+[
+"
+error
+"
+]
+=
+"
+dump
+error
+"
+        
 return
-1
+res
     
 if
 not
@@ -2175,8 +2204,20 @@ cmd
 "
 )
         
+res
+[
+"
+error
+"
+]
+=
+"
+dump
+error
+"
+        
 return
-1
+res
     
 if
 not
@@ -2251,6 +2292,7 @@ because
 we
 '
 ve
+got
 a
 PDB
 (
@@ -2262,6 +2304,7 @@ its
 DLL
 /
 EXE
+.
         
 if
 code_file
@@ -2311,8 +2354,20 @@ required
 "
 )
         
+res
+[
+"
+error
+"
+]
+=
+"
+no
+binary
+"
+        
 return
-2
+res
     
 log
 .
@@ -2334,7 +2389,7 @@ debug_id
 )
     
 return
-sym_path
+res
 async
 def
 dump
@@ -2400,20 +2455,64 @@ gather
 tasks
 )
     
+#
+Even
+if
+we
+haven
+'
+t
+CFI
+the
+generated
+file
+is
+useful
+to
+get
+symbols
+    
+#
+from
+addresses
+so
+keep
+error
+=
+=
+2
+.
+    
 file_index
 =
 {
 x
+[
+"
+path
+"
+]
 for
 x
 in
 res
 if
-isinstance
-(
 x
-str
-)
+[
+"
+error
+"
+]
+in
+[
+"
+ok
+"
+"
+no
+binary
+"
+]
 }
     
 stats
@@ -2433,9 +2532,17 @@ in
 res
 if
 x
+[
+"
+error
+"
+]
 =
 =
-1
+"
+dump
+error
+"
 )
         
 "
@@ -2451,9 +2558,17 @@ in
 res
 if
 x
+[
+"
+error
+"
+]
 =
 =
-2
+"
+no
+binary
+"
 )
     
 }
