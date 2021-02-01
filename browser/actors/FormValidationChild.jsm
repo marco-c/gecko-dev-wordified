@@ -96,7 +96,7 @@ FormValidationChild
 ;
 const
 {
-LayoutUtils
+BrowserUtils
 }
 =
 ChromeUtils
@@ -112,7 +112,7 @@ gre
 /
 modules
 /
-LayoutUtils
+BrowserUtils
 .
 jsm
 "
@@ -869,7 +869,7 @@ panelData
 .
 screenRect
 =
-LayoutUtils
+BrowserUtils
 .
 getElementBoundingScreenRect
 (

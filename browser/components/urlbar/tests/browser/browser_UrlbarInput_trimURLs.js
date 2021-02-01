@@ -1219,7 +1219,7 @@ trimURLs
 "
 )
 ?
-BrowserUIUtils
+BrowserUtils
 .
 trimURL
 (

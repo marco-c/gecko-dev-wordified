@@ -74,7 +74,7 @@ string
 const
 url
 =
-BrowserUIUtils
+BrowserUtils
 .
 trimURLProtocol
 +
