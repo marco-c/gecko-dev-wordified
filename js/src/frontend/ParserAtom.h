@@ -2764,10 +2764,11 @@ ParserAtomToPrintableString
 JSContext
 *
 cx
-const
-ParserAtom
-*
-atom
+ParserAtomsTable
+&
+parserAtoms
+TaggedParserAtomIndex
+atomIndex
 )
 ;
 inline
