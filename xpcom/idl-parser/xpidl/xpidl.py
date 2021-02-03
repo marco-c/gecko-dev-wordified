@@ -367,10 +367,6 @@ nsIFrame
 "
         
 "
-nsIObjectFrame
-"
-        
-"
 nsSubDocumentFrame
 "
     
@@ -13012,13 +13008,9 @@ not
 have
 attributes
 "
-list
-[
-0
-]
-[
-3
-]
+loc
+(
+)
                 
 )
             
