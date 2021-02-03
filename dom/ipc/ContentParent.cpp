@@ -47876,6 +47876,10 @@ BrowsingContext
 >
 &
 aContext
+const
+nsID
+&
+aChangeID
 )
 {
 if
@@ -47897,6 +47901,7 @@ get_canonical
 >
 RemoveFromSessionHistory
 (
+aChangeID
 )
 ;
 }

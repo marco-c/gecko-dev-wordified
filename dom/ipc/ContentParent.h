@@ -8471,6 +8471,10 @@ BrowsingContext
 >
 &
 aContext
+const
+nsID
+&
+aChangeID
 )
 ;
 mozilla

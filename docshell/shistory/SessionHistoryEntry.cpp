@@ -2438,6 +2438,12 @@ aEntry
 .
 mID
 )
+mBCHistoryLength
+(
+aEntry
+.
+mBCHistoryLength
+)
 {
 }
 SessionHistoryEntry

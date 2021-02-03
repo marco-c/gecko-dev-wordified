@@ -959,6 +959,10 @@ RemoveDynEntriesFromActiveSessionHistoryEntry
 void
 RemoveFromSessionHistory
 (
+const
+nsID
+&
+aChangeID
 )
 ;
 void
