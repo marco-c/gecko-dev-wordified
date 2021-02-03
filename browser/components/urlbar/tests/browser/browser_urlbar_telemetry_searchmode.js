@@ -3240,9 +3240,6 @@ slice
 0
 4
 )
-fireInputEvent
-:
-true
 }
 )
 ;
