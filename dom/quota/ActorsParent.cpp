@@ -35130,6 +35130,8 @@ created
 (
 )
 ;
+if
+(
 auto
 &
 info
@@ -35143,8 +35145,6 @@ aQuotaInfo
 mOrigin
 )
 ;
-if
-(
 !
 info
 .
@@ -38347,6 +38347,8 @@ MOZ_ASSERT
 pair
 )
 ;
+if
+(
 RefPtr
 <
 GroupInfo
@@ -38360,10 +38362,6 @@ LockedGetGroupInfo
 (
 aPersistenceType
 )
-;
-if
-(
-groupInfo
 )
 {
 groupInfo
@@ -40183,6 +40181,8 @@ directorylockId
 =
 mNextDirectoryLockId
 ;
+if
+(
 CheckedInt64
 result
 =
@@ -40193,8 +40193,6 @@ mNextDirectoryLockId
 +
 1
 ;
-if
-(
 result
 .
 isValid
