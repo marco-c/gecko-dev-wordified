@@ -13248,9 +13248,6 @@ getBoolPref
 (
 pref
 )
-|
-|
-false
 ;
 this
 .
@@ -13262,8 +13259,6 @@ reconfigure
 options
 :
 {
-serviceWorkersTestingEnabled
-:
 serviceWorkersTestingEnabled
 }
 }
