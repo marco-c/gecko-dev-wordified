@@ -2524,7 +2524,13 @@ EnumValidator
 :
 IsLegalValue
 (
+static_cast
+<
+DataType
+>
+(
 aValue
+)
 )
 )
 ;
@@ -2610,7 +2616,10 @@ EnumValidator
 :
 IsLegalValue
 (
-ParamType
+static_cast
+<
+DataType
+>
 (
 value
 )
