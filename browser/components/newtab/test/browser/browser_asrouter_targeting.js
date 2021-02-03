@@ -5394,6 +5394,7 @@ m
 m
 .
 trigger
+?
 .
 patterns
 )
