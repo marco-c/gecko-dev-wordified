@@ -17229,11 +17229,6 @@ fxa
 aboutwelcome
 \
 "
-\
-"
-infobar
-\
-"
 ]
 \
 "

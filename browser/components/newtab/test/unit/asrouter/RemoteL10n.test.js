@@ -493,13 +493,6 @@ brand
 .
 ftl
 "
-"
-browser
-/
-defaultBrowserNotification
-.
-ftl
-"
 ]
 )
 ;
@@ -662,13 +655,6 @@ ftl
 branding
 /
 brand
-.
-ftl
-"
-"
-browser
-/
-defaultBrowserNotification
 .
 ftl
 "
