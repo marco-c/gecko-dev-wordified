@@ -529,7 +529,7 @@ OpenDirectoryListener
 aOpenListener
 )
 ;
-already_AddRefed
+RefPtr
 <
 DirectoryLock
 >
@@ -1716,7 +1716,7 @@ lock
 object
 itself
 .
-already_AddRefed
+RefPtr
 <
 DirectoryLock
 >
@@ -1747,7 +1747,7 @@ bug
 gets
 fixed
 .
-already_AddRefed
+RefPtr
 <
 DirectoryLock
 >
@@ -2607,7 +2607,7 @@ Shutdown
 (
 )
 ;
-already_AddRefed
+RefPtr
 <
 DirectoryLockImpl
 >
@@ -2644,7 +2644,7 @@ bool
 aInternal
 )
 ;
-already_AddRefed
+RefPtr
 <
 DirectoryLockImpl
 >
