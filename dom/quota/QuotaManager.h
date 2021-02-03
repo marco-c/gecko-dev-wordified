@@ -3188,8 +3188,11 @@ only
 .
 nsTArray
 <
+NotNull
+<
 DirectoryLockImpl
 *
+>
 >
 mDirectoryLocks
 ;
@@ -3259,8 +3262,11 @@ mQuotaMutex
 nsDataHashtable
 <
 nsUint64HashKey
+NotNull
+<
 DirectoryLockImpl
 *
+>
 >
 mDirectoryLockIdTable
 ;
