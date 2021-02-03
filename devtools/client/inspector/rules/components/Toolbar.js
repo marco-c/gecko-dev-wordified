@@ -592,7 +592,7 @@ stopPropagation
 (
 )
 ;
-let
+const
 nextColorScheme
 =
 (

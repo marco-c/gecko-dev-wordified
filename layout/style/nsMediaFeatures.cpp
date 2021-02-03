@@ -321,7 +321,7 @@ mozilla
 dom
 :
 :
-Document
+DisplayMode
 ;
 using
 mozilla
@@ -330,7 +330,7 @@ mozilla
 dom
 :
 :
-DisplayMode
+Document
 ;
 static
 nsTArray
