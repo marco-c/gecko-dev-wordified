@@ -5710,10 +5710,12 @@ SOURCE
 "
 source
 "
-BREAKPOINT
+THREAD_STATE
 :
 "
-breakpoint
+thread
+-
+state
 "
 SERVER_SENT_EVENT
 :
@@ -6316,7 +6318,7 @@ ResourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 :
 require
@@ -6332,7 +6334,9 @@ legacy
 -
 listeners
 /
-breakpoint
+thread
+-
+states
 "
 )
 [

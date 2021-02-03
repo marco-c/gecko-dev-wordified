@@ -283,7 +283,7 @@ listeners
 for
 SOURCE
 and
-BREAKPOINT
+THREAD_STATE
 in
 order
 to
@@ -335,7 +335,7 @@ resourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 {
 onAvailable
@@ -389,7 +389,7 @@ resourceWatcher
 .
 TYPES
 .
-BREAKPOINT
+THREAD_STATE
 ]
 {
 onAvailable
