@@ -196,6 +196,13 @@ namespace
 js
 {
 namespace
+jit
+{
+struct
+ResumeFromException
+;
+}
+namespace
 wasm
 {
 class
@@ -628,8 +635,7 @@ EnsureBuiltinThunksInitialized
 (
 )
 ;
-void
-*
+bool
 HandleThrow
 (
 JSContext
@@ -638,6 +644,12 @@ cx
 WasmFrameIter
 &
 iter
+jit
+:
+:
+ResumeFromException
+*
+rfe
 )
 ;
 void
