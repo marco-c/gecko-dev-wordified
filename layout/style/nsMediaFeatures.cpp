@@ -323,6 +323,15 @@ dom
 :
 Document
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+DisplayMode
+;
 static
 nsTArray
 <
@@ -1563,6 +1572,9 @@ h
 "
 )
 ;
+dom
+:
+:
 BrowsingContext
 *
 browsingContext
@@ -2060,6 +2072,9 @@ aDocument
 ;
 if
 (
+dom
+:
+:
 BrowsingContext
 *
 bc
@@ -2111,9 +2126,6 @@ TouchEventsOverride
 )
 =
 =
-mozilla
-:
-:
 dom
 :
 :

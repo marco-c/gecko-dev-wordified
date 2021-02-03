@@ -88,13 +88,6 @@ MPL
 DevToolsModules
 (
 "
-content
--
-viewer
-.
-js
-"
-"
 responsive
 .
 js
