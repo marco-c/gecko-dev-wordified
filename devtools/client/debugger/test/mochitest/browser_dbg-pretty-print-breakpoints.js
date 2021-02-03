@@ -173,11 +173,10 @@ dbg
 )
 ;
 await
-assertEditorBreakpoint
+assertBreakpoint
 (
 dbg
 4
-true
 )
 ;
 }
