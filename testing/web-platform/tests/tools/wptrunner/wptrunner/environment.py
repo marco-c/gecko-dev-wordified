@@ -262,6 +262,7 @@ test_paths
 testharness_timeout_multipler
                  
 pause_after_test
+debug_test
 debug_info
 options
 ssl_config
@@ -311,6 +312,12 @@ self
 pause_after_test
 =
 pause_after_test
+        
+self
+.
+debug_test
+=
+debug_test
         
 self
 .
@@ -1308,6 +1315,22 @@ debug_info
 is
 not
 None
+else
+"
+false
+"
+                  
+"
+debug
+"
+:
+"
+true
+"
+if
+self
+.
+debug_test
 else
 "
 false

@@ -285,6 +285,20 @@ cleanup_after_test
 =
 False
     
+executor_kwargs
+[
+"
+debug_test
+"
+]
+=
+kwargs
+[
+"
+debug_test
+"
+]
+    
 return
 executor_kwargs
 def
