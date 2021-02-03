@@ -1148,7 +1148,7 @@ aScrollableRect
 )
 ;
 }
-void
+bool
 FrameMetrics
 :
 :
@@ -1239,6 +1239,9 @@ and
 visual
 offsets
 .
+bool
+offsetChanged
+=
 SetLayoutScrollOffset
 (
 aUpdate
@@ -1248,6 +1251,9 @@ GetDestination
 )
 )
 ;
+offsetChanged
+|
+=
 ClampAndSetVisualScrollOffset
 (
 aUpdate
@@ -1258,6 +1264,9 @@ GetDestination
 +
 relativeOffset
 )
+;
+return
+offsetChanged
 ;
 }
 CSSPoint
