@@ -1233,6 +1233,13 @@ brand
 .
 ftl
 "
+"
+browser
+/
+defaultBrowserNotification
+.
+ftl
+"
 ]
 false
 Services
