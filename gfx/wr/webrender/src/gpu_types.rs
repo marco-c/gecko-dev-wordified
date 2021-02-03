@@ -1494,6 +1494,7 @@ CompositeInstance
 /
 Device
 space
+destination
 rectangle
 of
 surface
@@ -1504,6 +1505,7 @@ DeviceRect
 /
 Device
 space
+destination
 clip
 rect
 for
