@@ -29133,6 +29133,17 @@ setNeedsArgsObj
 true
 )
 ;
+if
+(
+JitOptions
+.
+scalarReplaceArguments
+)
+{
+return
+true
+;
+}
 /
 /
 Always

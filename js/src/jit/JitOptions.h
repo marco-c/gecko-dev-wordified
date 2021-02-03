@@ -297,6 +297,9 @@ bool
 disableBailoutLoopCheck
 ;
 bool
+scalarReplaceArguments
+;
+bool
 baselineInterpreter
 ;
 bool
