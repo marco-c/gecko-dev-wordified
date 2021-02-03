@@ -7884,6 +7884,9 @@ return
 NS_OK
 ;
 }
+/
+/
+static
 nsRect
 AccessibleCaretManager
 :
@@ -7894,7 +7897,6 @@ nsIFrame
 *
 aFrame
 )
-const
 {
 nsRect
 unionRect
@@ -8224,6 +8226,9 @@ editingHostFrame
 nsRect
 boundary
 =
+AccessibleCaretManager
+:
+:
 GetAllChildFrameRectsUnion
 (
 editingHostFrame

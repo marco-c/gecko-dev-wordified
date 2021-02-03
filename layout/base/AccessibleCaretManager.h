@@ -1746,6 +1746,7 @@ relative
 to
 aFrame
 .
+static
 nsRect
 GetAllChildFrameRectsUnion
 (
@@ -1753,7 +1754,6 @@ nsIFrame
 *
 aFrame
 )
-const
 ;
 /
 /
