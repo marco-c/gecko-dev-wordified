@@ -1287,6 +1287,20 @@ browser_version
 "
 )
     
+executor_kwargs
+[
+"
+debug_test
+"
+]
+=
+kwargs
+[
+"
+debug_test
+"
+]
+    
 return
 executor_kwargs
 def
