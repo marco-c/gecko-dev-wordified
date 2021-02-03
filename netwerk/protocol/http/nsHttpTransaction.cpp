@@ -11710,6 +11710,7 @@ if
 mDoNotRemoveAltSvc
 &
 &
+(
 !
 mConnInfo
 -
@@ -11720,6 +11721,15 @@ GetRoutedHost
 .
 IsEmpty
 (
+)
+|
+|
+mConnInfo
+-
+>
+IsHttp3
+(
+)
 )
 &
 &
