@@ -4636,7 +4636,7 @@ all
 -
 controls
 "
-false
+true
 )
 ;
 #
