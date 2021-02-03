@@ -7098,7 +7098,6 @@ toISupportsString
 "
 "
 )
-0
 )
 ;
 this
@@ -7325,11 +7324,6 @@ toISupportsString
 (
 data
 )
-data
-.
-length
-*
-2
 )
 ;
 }

@@ -10024,13 +10024,6 @@ text
 unicode
 "
 str
-str
-.
-data
-.
-length
-*
-2
 )
 ;
 Services
@@ -10384,11 +10377,6 @@ text
 html
 "
 ssHtml
-dataHtml
-.
-length
-*
-2
 )
 ;
 /
@@ -10426,11 +10414,6 @@ text
 unicode
 "
 ssText
-dataText
-.
-length
-*
-2
 )
 ;
 /
