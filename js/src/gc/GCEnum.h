@@ -726,6 +726,11 @@ WasmExceptionType
 \
 _
 (
+WasmRuntimeExceptionTag
+)
+\
+_
+(
 FileObjectFile
 )
 \

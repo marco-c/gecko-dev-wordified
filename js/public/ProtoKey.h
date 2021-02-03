@@ -1166,6 +1166,15 @@ WasmException
 \
 REAL
 (
+WasmRuntimeException
+OCLASP
+(
+WasmRuntimeException
+)
+)
+\
+REAL
+(
 FinalizationRegistry
 OCLASP
 (
