@@ -17514,7 +17514,7 @@ none
 div
 >
 <
-div
+button
 id
 =
 "
@@ -17533,7 +17533,7 @@ true
 >
 <
 /
-div
+button
 >
 <
 /
@@ -19543,7 +19543,7 @@ controlsSpacerStack
 "
 >
 <
-div
+button
 id
 =
 "
@@ -19557,7 +19557,7 @@ clickToPlay
 >
 <
 /
-div
+button
 >
 <
 /
