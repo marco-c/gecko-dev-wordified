@@ -13585,16 +13585,6 @@ MozStyleeditorTransitioning
 NonTSPseudoClass
 :
 :
-MozFocusRing
-|
-NonTSPseudoClass
-:
-:
-MozHandlerNoPlugins
-|
-NonTSPseudoClass
-:
-:
 MozMathIncrementScriptLevel
 |
 NonTSPseudoClass

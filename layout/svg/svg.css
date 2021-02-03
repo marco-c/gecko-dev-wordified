@@ -680,12 +680,10 @@ opacity
 inherit
 ;
 }
-*
 :
+focus
 -
-moz
--
-focusring
+visible
 {
 /
 *
