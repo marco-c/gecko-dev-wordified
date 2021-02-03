@@ -5415,7 +5415,7 @@ else
 {
 rhs
 =
-useRegister
+useAny
 (
 right
 )
@@ -7335,7 +7335,7 @@ else
 {
 rhs
 =
-useRegister
+useAny
 (
 right
 )
