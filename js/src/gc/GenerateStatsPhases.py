@@ -473,126 +473,77 @@ self
 children
 =
 children
-#
-The
-root
-marking
-phase
-appears
-in
-several
-places
-in
-the
-graph
-.
-MarkRootsPhaseKind
+AllPhaseKinds
 =
-PhaseKind
-(
-    
-"
-MARK_ROOTS
-"
-    
-"
-Mark
-Roots
-"
-    
-48
-    
 [
-        
-PhaseKind
+]
+PhaseKindsByName
+=
+dict
 (
-"
-MARK_CCWS
-"
-"
-Mark
-Cross
-Compartment
-Wrappers
-"
-50
 )
-        
-PhaseKind
+def
+addPhaseKind
 (
-"
-MARK_STACK
-"
-"
-Mark
-C
-and
-JS
-stacks
-"
-51
-)
-        
-PhaseKind
-(
-"
-MARK_RUNTIME_DATA
-"
-"
-Mark
-Runtime
--
-wide
-Data
-"
-52
-)
-        
-PhaseKind
-(
-"
-MARK_EMBEDDING
-"
-"
-Mark
-Embedding
-"
-53
-)
-        
-PhaseKind
-(
-"
-MARK_COMPARTMENTS
-"
-"
-Mark
-Compartments
-"
-54
-)
-    
+name
+descr
+bucket
+children
+=
+[
 ]
 )
-JoinParallelTasksPhaseKind
+:
+    
+assert
+name
+not
+in
+PhaseKindsByName
+    
+phaseKind
 =
 PhaseKind
 (
-"
-JOIN_PARALLEL_TASKS
-"
-"
-Join
-Parallel
-Tasks
-"
-67
+name
+descr
+bucket
+children
 )
+    
+AllPhaseKinds
+.
+append
+(
+phaseKind
+)
+    
+PhaseKindsByName
+[
+name
+]
+=
+phaseKind
+    
+return
+phaseKind
+def
+getPhaseKind
+(
+name
+)
+:
+    
+return
+PhaseKindsByName
+[
+name
+]
 PhaseKindGraphRoots
 =
 [
     
-PhaseKind
+addPhaseKind
 (
 "
 MUTATOR
@@ -604,7 +555,7 @@ Running
 0
 )
     
-PhaseKind
+addPhaseKind
 (
 "
 GC_BEGIN
@@ -616,7 +567,7 @@ Callback
 1
 )
     
-PhaseKind
+addPhaseKind
 (
         
 "
@@ -635,13 +586,99 @@ GC
         
 [
             
-MarkRootsPhaseKind
+addPhaseKind
+(
+                
+"
+MARK_ROOTS
+"
+                
+"
+Mark
+Roots
+"
+                
+48
+                
+[
+                    
+addPhaseKind
+(
+"
+MARK_CCWS
+"
+"
+Mark
+Cross
+Compartment
+Wrappers
+"
+50
+)
+                    
+addPhaseKind
+(
+"
+MARK_STACK
+"
+"
+Mark
+C
+and
+JS
+stacks
+"
+51
+)
+                    
+addPhaseKind
+(
+"
+MARK_RUNTIME_DATA
+"
+"
+Mark
+Runtime
+-
+wide
+Data
+"
+52
+)
+                    
+addPhaseKind
+(
+"
+MARK_EMBEDDING
+"
+"
+Mark
+Embedding
+"
+53
+)
+                    
+addPhaseKind
+(
+"
+MARK_COMPARTMENTS
+"
+"
+Mark
+Compartments
+"
+54
+)
+                
+]
+            
+)
         
 ]
     
 )
     
-PhaseKind
+addPhaseKind
 (
 "
 WAIT_BACKGROUND_THREAD
@@ -654,7 +691,7 @@ Thread
 2
 )
     
-PhaseKind
+addPhaseKind
 (
         
 "
@@ -671,7 +708,7 @@ Collection
         
 [
             
-PhaseKind
+addPhaseKind
 (
 "
 UNMARK
@@ -682,7 +719,7 @@ Unmark
 7
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 UNMARK_WEAKMAPS
@@ -694,7 +731,7 @@ WeakMaps
 76
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 BUFFER_GRAY_ROOTS
@@ -707,7 +744,7 @@ Roots
 49
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 MARK_DISCARD_CODE
@@ -720,7 +757,7 @@ Code
 3
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 RELAZIFY_FUNCTIONS
@@ -732,7 +769,7 @@ Functions
 4
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 PURGE
@@ -743,7 +780,7 @@ Purge
 5
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 PURGE_SHAPE_CACHES
@@ -755,7 +792,7 @@ ShapeCaches
 60
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 PURGE_SOURCE_URLS
@@ -768,13 +805,24 @@ URLs
 73
 )
             
-JoinParallelTasksPhaseKind
+addPhaseKind
+(
+"
+JOIN_PARALLEL_TASKS
+"
+"
+Join
+Parallel
+Tasks
+"
+67
+)
         
 ]
     
 )
     
-PhaseKind
+addPhaseKind
 (
         
 "
@@ -788,8 +836,13 @@ Mark
 6
         
 [
-MarkRootsPhaseKind
-PhaseKind
+getPhaseKind
+(
+"
+MARK_ROOTS
+"
+)
+addPhaseKind
 (
 "
 MARK_DELAYED
@@ -804,7 +857,7 @@ Delayed
     
 )
     
-PhaseKind
+addPhaseKind
 (
         
 "
@@ -819,7 +872,7 @@ Sweep
         
 [
             
-PhaseKind
+addPhaseKind
 (
                 
 "
@@ -836,7 +889,7 @@ Sweeping
                 
 [
                     
-PhaseKind
+addPhaseKind
 (
                         
 "
@@ -852,7 +905,7 @@ Pointers
                     
 )
                     
-PhaseKind
+addPhaseKind
 (
                         
 "
@@ -867,8 +920,10 @@ Weak
 13
                         
 [
-PhaseKind
+                            
+addPhaseKind
 (
+                                
 "
 SWEEP_MARK_GRAY_WEAK
 "
@@ -879,12 +934,14 @@ and
 Weak
 "
 16
+                            
 )
+                        
 ]
                     
 )
                     
-PhaseKind
+addPhaseKind
 (
                         
 "
@@ -900,7 +957,7 @@ Pointers
                     
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_MARK_GRAY
@@ -916,7 +973,7 @@ Gray
             
 )
             
-PhaseKind
+addPhaseKind
 (
                 
 "
@@ -933,7 +990,7 @@ Callbacks
                 
 [
                     
-PhaseKind
+addPhaseKind
 (
 "
 WEAK_ZONES_CALLBACK
@@ -948,7 +1005,7 @@ Callback
 57
 )
                     
-PhaseKind
+addPhaseKind
 (
                         
 "
@@ -969,7 +1026,7 @@ Callback
             
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 UPDATE_ATOMS_BITMAP
@@ -982,7 +1039,7 @@ Bitmap
 68
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_ATOMS_TABLE
@@ -995,7 +1052,7 @@ Table
 18
 )
             
-PhaseKind
+addPhaseKind
 (
                 
 "
@@ -1011,7 +1068,7 @@ Compartments
                 
 [
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_DISCARD_CODE
@@ -1024,7 +1081,7 @@ Code
 21
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_INNER_VIEWS
@@ -1037,7 +1094,7 @@ Views
 22
 )
                     
-PhaseKind
+addPhaseKind
 (
                         
 "
@@ -1053,7 +1110,7 @@ Wrappers
                     
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_BASE_SHAPE
@@ -1066,7 +1123,7 @@ Shapes
 24
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_INITIAL_SHAPE
@@ -1079,7 +1136,7 @@ Shapes
 25
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_REGEXP
@@ -1091,7 +1148,7 @@ Regexps
 28
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_COMPRESSION
@@ -1104,7 +1161,7 @@ Tasks
 62
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_WEAKMAPS
@@ -1116,7 +1173,7 @@ WeakMaps
 63
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_UNIQUEIDS
@@ -1129,7 +1186,7 @@ IDs
 64
 )
                     
-PhaseKind
+addPhaseKind
 (
                         
 "
@@ -1145,7 +1202,7 @@ FinalizationRegistries
                     
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_WEAKREFS
@@ -1157,7 +1214,7 @@ WeakRefs
 75
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_JIT_DATA
@@ -1170,7 +1227,7 @@ Data
 65
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_WEAK_CACHES
@@ -1183,7 +1240,7 @@ Caches
 66
 )
                     
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_MISC
@@ -1195,13 +1252,18 @@ Miscellaneous
 29
 )
                     
-JoinParallelTasksPhaseKind
+getPhaseKind
+(
+"
+JOIN_PARALLEL_TASKS
+"
+)
                 
 ]
             
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_OBJECT
@@ -1213,7 +1275,7 @@ Object
 33
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_STRING
@@ -1225,7 +1287,7 @@ String
 34
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_SCRIPT
@@ -1237,7 +1299,7 @@ Script
 35
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_SCOPE
@@ -1249,7 +1311,7 @@ Scope
 59
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_REGEXP_SHARED
@@ -1261,7 +1323,7 @@ RegExpShared
 61
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 SWEEP_SHAPE
@@ -1273,7 +1335,7 @@ Shape
 36
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 FINALIZE_END
@@ -1286,7 +1348,7 @@ Callback
 38
 )
             
-PhaseKind
+addPhaseKind
 (
 "
 DESTROY
@@ -1297,13 +1359,18 @@ Deallocate
 39
 )
             
-JoinParallelTasksPhaseKind
+getPhaseKind
+(
+"
+JOIN_PARALLEL_TASKS
+"
+)
         
 ]
     
 )
     
-PhaseKind
+addPhaseKind
 (
         
 "
@@ -1318,7 +1385,7 @@ Compact
         
 [
             
-PhaseKind
+addPhaseKind
 (
 "
 COMPACT_MOVE
@@ -1330,7 +1397,7 @@ Move
 41
 )
             
-PhaseKind
+addPhaseKind
 (
                 
 "
@@ -1346,9 +1413,14 @@ Update
                 
 [
                     
-MarkRootsPhaseKind
+getPhaseKind
+(
+"
+MARK_ROOTS
+"
+)
                     
-PhaseKind
+addPhaseKind
 (
 "
 COMPACT_UPDATE_CELLS
@@ -1361,7 +1433,12 @@ Cells
 43
 )
                     
-JoinParallelTasksPhaseKind
+getPhaseKind
+(
+"
+JOIN_PARALLEL_TASKS
+"
+)
                 
 ]
             
@@ -1371,7 +1448,7 @@ JoinParallelTasksPhaseKind
     
 )
     
-PhaseKind
+addPhaseKind
 (
 "
 DECOMMIT
@@ -1382,7 +1459,7 @@ Decommit
 72
 )
     
-PhaseKind
+addPhaseKind
 (
 "
 GC_END
@@ -1394,7 +1471,7 @@ Callback
 44
 )
     
-PhaseKind
+addPhaseKind
 (
         
 "
@@ -1411,13 +1488,18 @@ GCs
         
 [
             
-MarkRootsPhaseKind
+getPhaseKind
+(
+"
+MARK_ROOTS
+"
+)
         
 ]
     
 )
     
-PhaseKind
+addPhaseKind
 (
         
 "
@@ -1436,13 +1518,18 @@ Nursery
         
 [
             
-MarkRootsPhaseKind
+getPhaseKind
+(
+"
+MARK_ROOTS
+"
+)
         
 ]
     
 )
     
-PhaseKind
+addPhaseKind
 (
         
 "
@@ -1458,14 +1545,20 @@ Heap
         
 [
             
-MarkRootsPhaseKind
+getPhaseKind
+(
+"
+MARK_ROOTS
+"
+)
         
 ]
     
 )
     
-PhaseKind
+addPhaseKind
 (
+        
 "
 BARRIER
 "
@@ -1474,7 +1567,7 @@ Barriers
 "
 55
 [
-PhaseKind
+addPhaseKind
 (
 "
 UNMARK_GRAY
@@ -1486,124 +1579,9 @@ gray
 56
 )
 ]
+    
 )
 ]
-def
-findAllPhaseKinds
-(
-)
-:
-    
-#
-Make
-a
-linear
-list
-of
-all
-unique
-phases
-by
-performing
-a
-depth
-first
-    
-#
-search
-on
-the
-phase
-graph
-starting
-at
-the
-roots
-.
-This
-will
-be
-used
-to
-    
-#
-generate
-the
-PhaseKind
-enum
-.
-    
-phases
-=
-[
-]
-    
-seen
-=
-set
-(
-)
-    
-def
-dfs
-(
-phase
-)
-:
-        
-if
-phase
-in
-seen
-:
-            
-return
-        
-phases
-.
-append
-(
-phase
-)
-        
-seen
-.
-add
-(
-phase
-)
-        
-for
-child
-in
-phase
-.
-children
-:
-            
-dfs
-(
-child
-)
-    
-for
-phase
-in
-PhaseKindGraphRoots
-:
-        
-dfs
-(
-phase
-)
-    
-return
-phases
-AllPhaseKinds
-=
-findAllPhaseKinds
-(
-)
 class
 Phase
 :
