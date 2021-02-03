@@ -1168,27 +1168,6 @@ expected_perfherder
 1
         
 if
-output
-.
-mozproxy_data
-:
-            
-#
-Check
-if
-we
-have
-mozproxy
-data
-available
-.
-            
-expected_perfherder
-+
-=
-1
-        
-if
 is_resource_test
 (
 )

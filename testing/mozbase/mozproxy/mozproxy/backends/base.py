@@ -153,14 +153,3 @@ self
 :
         
 pass
-    
-abstractmethod
-    
-def
-confidence
-(
-self
-)
-:
-        
-pass
