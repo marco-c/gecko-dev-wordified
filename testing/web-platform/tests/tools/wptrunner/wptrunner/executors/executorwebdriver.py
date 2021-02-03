@@ -73,6 +73,8 @@ GenerateTestReportProtocolPart
 SetPermissionProtocolPart
                        
 VirtualAuthenticatorProtocolPart
+                       
+DebugProtocolPart
 )
 import
 webdriver
@@ -2009,6 +2011,24 @@ authenticator_id
 uv
 )
 class
+WebDriverDebugProtocolPart
+(
+DebugProtocolPart
+)
+:
+    
+def
+load_devtools
+(
+self
+)
+:
+        
+raise
+NotImplementedError
+(
+)
+class
 WebDriverProtocol
 (
 Protocol
@@ -2039,6 +2059,8 @@ WebDriverGenerateTestReportProtocolPart
 WebDriverSetPermissionProtocolPart
                   
 WebDriverVirtualAuthenticatorProtocolPart
+                  
+WebDriverDebugProtocolPart
 ]
     
 def
@@ -3692,6 +3714,9 @@ None
 capabilities
 =
 None
+debug_test
+=
+False
 *
 *
 kwargs
@@ -3773,6 +3798,12 @@ self
 has_window
 =
 False
+        
+self
+.
+debug_test
+=
+debug_test
         
 with
 open
@@ -3982,6 +4013,49 @@ implementation
 run_test
 (
 test
+)
+        
+if
+self
+.
+debug_test
+and
+result
+[
+"
+status
+"
+]
+in
+[
+"
+PASS
+"
+"
+FAIL
+"
+"
+ERROR
+"
+]
+and
+"
+extra
+"
+in
+result
+:
+            
+self
+.
+protocol
+.
+debug
+.
+load_reftest_analyzer
+(
+test
+result
 )
         
 return
