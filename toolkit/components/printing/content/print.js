@@ -8441,13 +8441,13 @@ Ci
 .
 nsIPrintSettings
 .
-kDuplexHorizontal
+kDuplexFlipOnSideEdge
 :
 Ci
 .
 nsIPrintSettings
 .
-kSimplex
+kDuplexNone
 ;
 break
 ;
