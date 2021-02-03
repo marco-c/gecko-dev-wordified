@@ -1631,15 +1631,6 @@ aFrame
 )
 ;
 static
-bool
-IsRootScrollbar
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 LayoutDeviceRect
 FixAspectRatio
 (
@@ -1896,8 +1887,6 @@ const
 EventStates
 &
 aDocumentState
-bool
-aIsRoot
 )
 ;
 virtual
@@ -2379,8 +2368,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 ;
 virtual
@@ -2409,8 +2396,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 ;
 virtual
@@ -2437,8 +2422,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 ;
 virtual

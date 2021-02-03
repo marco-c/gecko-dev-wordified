@@ -237,8 +237,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 override
 ;
@@ -267,8 +265,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 override
 ;
@@ -295,8 +291,6 @@ EventStates
 aDocumentState
 DPIRatio
 aDpiRatio
-bool
-aIsRoot
 )
 override
 ;
