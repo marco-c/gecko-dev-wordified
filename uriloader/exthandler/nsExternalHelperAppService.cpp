@@ -9873,6 +9873,7 @@ break
 ;
 }
 }
+}
 if
 (
 !
@@ -9882,7 +9883,6 @@ canForce
 return
 false
 ;
-}
 }
 /
 /
