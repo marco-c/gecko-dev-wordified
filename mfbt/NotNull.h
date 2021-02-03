@@ -2561,6 +2561,10 @@ aSrc
 mBasePtr
 (
 aSrc
+.
+get
+(
+)
 )
 {
 }
@@ -2584,6 +2588,10 @@ aSrc
 mBasePtr
 (
 aSrc
+.
+get
+(
+)
 )
 {
 }
