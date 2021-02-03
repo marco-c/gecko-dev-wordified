@@ -615,6 +615,9 @@ mRefreshRate
 bool
 mIsPseudoDisplay
 ;
+nsString
+mDeviceString
+;
 }
 ;
 private
