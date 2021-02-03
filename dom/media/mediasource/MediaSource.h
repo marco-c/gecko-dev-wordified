@@ -513,7 +513,7 @@ sourceended
 ;
 IMPL_EVENT_HANDLER
 (
-sourceclosed
+sourceclose
 )
 ;
 /
