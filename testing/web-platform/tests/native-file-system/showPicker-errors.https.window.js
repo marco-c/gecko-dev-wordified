@@ -766,7 +766,9 @@ showPickerMethod
 '
 :
 unknown
-common
+well
+-
+known
 starting
 directory
 .
