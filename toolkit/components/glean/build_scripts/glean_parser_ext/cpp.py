@@ -90,7 +90,6 @@ util
 import
 generate_metric_ids
 generate_ping_ids
-is_implemented_metric_type
 from
 glean_parser
 import
@@ -740,13 +739,6 @@ get_metric_id
 ping_id
 "
 get_ping_id
-)
-            
-(
-"
-is_implemented_type
-"
-is_implemented_metric_type
 )
             
 (

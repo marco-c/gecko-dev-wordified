@@ -146,7 +146,6 @@ util
 import
 generate_metric_ids
 generate_ping_ids
-is_implemented_metric_type
 from
 glean_parser
 import
@@ -873,21 +872,12 @@ template_filename
 filters
 =
 (
-            
 (
 "
 type_name
 "
 type_name
 )
-            
-(
-"
-is_implemented_type
-"
-is_implemented_metric_type
-)
-        
 )
     
 )
