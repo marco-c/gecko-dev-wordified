@@ -237,6 +237,11 @@ script
 w3cworker
 :
 |
+%
+(
+timeout
+)
+s
 /
 /
 DO

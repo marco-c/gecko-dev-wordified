@@ -20,6 +20,13 @@ resources
 encodings
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 var
 whitespace
 =
