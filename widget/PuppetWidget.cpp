@@ -3227,6 +3227,16 @@ CommandInt
 aCommands
 )
 {
+MOZ_ASSERT
+(
+!
+aEvent
+.
+mFlags
+.
+mIsSynthesizedForTests
+)
+;
 /
 /
 Validate

@@ -3995,9 +3995,6 @@ aType
 )
 ;
 }
-#
-ifdef
-DEBUG
 /
 *
 *
@@ -4039,13 +4036,6 @@ mEditCommandsForMultiLineEditorInitialized
 mEditCommandsForRichTextEditorInitialized
 ;
 }
-#
-endif
-/
-/
-#
-ifdef
-DEBUG
 /
 *
 *
