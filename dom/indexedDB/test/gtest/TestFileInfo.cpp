@@ -329,8 +329,11 @@ mFileInfos
 Put
 (
 id
-new
+MakeNotNull
+<
 FileInfo
+*
+>
 (
 FileManagerGuard
 {
