@@ -157,7 +157,7 @@ Null
 #
 case
 -
-insentive
+insensitive
 null
 fail
         
