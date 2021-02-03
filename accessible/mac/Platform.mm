@@ -698,6 +698,15 @@ nsIAccessibleEvent
 :
 :
 EVENT_NAME_CHANGE
+&
+&
+aEventType
+!
+=
+nsIAccessibleEvent
+:
+:
+EVENT_OBJECT_ATTRIBUTE_CHANGED
 )
 return
 ;
