@@ -1880,7 +1880,7 @@ JS_GetObjectAsInt8Array
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -1901,7 +1901,7 @@ JS_GetObjectAsUint8Array
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -1922,7 +1922,7 @@ JS_GetObjectAsUint8ClampedArray
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -1943,7 +1943,7 @@ JS_GetObjectAsInt16Array
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -1964,7 +1964,7 @@ JS_GetObjectAsUint16Array
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -1985,7 +1985,7 @@ JS_GetObjectAsInt32Array
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -2006,7 +2006,7 @@ JS_GetObjectAsUint32Array
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -2027,7 +2027,7 @@ JS_GetObjectAsFloat32Array
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -2048,7 +2048,7 @@ JS_GetObjectAsFloat64Array
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
@@ -2069,7 +2069,7 @@ JS_GetObjectAsArrayBufferView
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
