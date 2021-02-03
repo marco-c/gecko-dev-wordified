@@ -5382,8 +5382,6 @@ InternalLoad
 (
 nsDocShellLoadState
 aLoadState
-bool
-aTakeFocus
 )
 ;
 async
