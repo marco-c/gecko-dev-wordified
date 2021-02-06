@@ -3449,12 +3449,6 @@ targetFront
 {
 return
 (
-!
-targetFront
-.
-isParentProcess
-&
-&
 /
 /
 backward
@@ -3487,7 +3481,6 @@ not
 have
 the
 screenshotContentActor
-(
 targetFront
 .
 hasActor
@@ -3505,7 +3498,6 @@ hasActor
 "
 screenshot
 "
-)
 )
 )
 ;
