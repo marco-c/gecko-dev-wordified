@@ -2862,6 +2862,10 @@ if
 buffer
 )
 {
+mAttached
+=
+true
+;
 wl_surface_attach
 (
 aSurface
@@ -2880,10 +2884,6 @@ wl_display_flush
 WaylandDisplayGetWLDisplay
 (
 )
-)
-;
-SetAttached
-(
 )
 ;
 }
