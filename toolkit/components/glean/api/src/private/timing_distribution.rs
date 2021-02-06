@@ -124,16 +124,8 @@ glean
 {
 DistributionData
 ErrorType
-}
-;
-use
-glean_core
-:
-:
-metrics
-:
-:
 TimerId
+}
 ;
 use
 crate
@@ -148,7 +140,7 @@ with_ipc_payload
 }
 ;
 use
-glean_core
+glean
 :
 :
 traits

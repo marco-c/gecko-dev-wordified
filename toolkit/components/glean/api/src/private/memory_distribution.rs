@@ -74,7 +74,7 @@ MetricId
 }
 ;
 use
-glean_core
+glean
 :
 :
 traits
