@@ -1751,9 +1751,7 @@ cpp
 bool
 IsKeyword
 (
-const
-ParserAtom
-*
+TaggedParserAtomIndex
 atom
 )
 ;
