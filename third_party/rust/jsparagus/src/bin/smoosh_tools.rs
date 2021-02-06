@@ -5330,6 +5330,7 @@ jstests
 args
 =
 -
+-
 smoosh
 "
 ]
@@ -5351,6 +5352,7 @@ test
 -
 args
 =
+-
 -
 smoosh
 "
