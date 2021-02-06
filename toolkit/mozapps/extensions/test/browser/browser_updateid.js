@@ -398,7 +398,7 @@ newAddon
 var
 item
 =
-get_addon_element
+getAddonCard
 (
 gManagerWindow
 "
@@ -511,7 +511,7 @@ visible
 ;
 item
 =
-get_addon_element
+getAddonCard
 (
 gManagerWindow
 "

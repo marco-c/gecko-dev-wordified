@@ -500,7 +500,7 @@ theme
 let
 customTheme
 =
-get_addon_element
+getAddonCard
 (
 manager
 CUSTOM_THEME_ID
@@ -520,7 +520,7 @@ again
 let
 defaultTheme
 =
-get_addon_element
+getAddonCard
 (
 manager
 DEFAULT_THEME_ID
@@ -749,7 +749,7 @@ extension
 let
 addon
 =
-get_addon_element
+getAddonCard
 (
 manager
 ADDON_ID
@@ -883,7 +883,7 @@ option
 .
 addon
 =
-get_addon_element
+getAddonCard
 (
 manager
 ADDON_ID
