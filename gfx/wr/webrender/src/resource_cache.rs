@@ -3635,6 +3635,7 @@ GlyphRasterizer
 new
 (
 workers
+true
 )
 .
 unwrap
