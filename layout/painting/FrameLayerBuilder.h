@@ -576,7 +576,6 @@ PushOpacityWithBg
 PopOpacity
 PushTransform
 PopTransform
-HitTestInfo
 }
 ;
 /
