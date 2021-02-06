@@ -5929,11 +5929,6 @@ content
 type
 "
 "
-content
--
-length
-"
-"
 expires
 "
 "
