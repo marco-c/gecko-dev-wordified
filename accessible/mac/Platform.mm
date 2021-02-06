@@ -707,6 +707,15 @@ nsIAccessibleEvent
 :
 :
 EVENT_OBJECT_ATTRIBUTE_CHANGED
+&
+&
+aEventType
+!
+=
+nsIAccessibleEvent
+:
+:
+EVENT_TABLE_STYLING_CHANGED
 )
 return
 ;
