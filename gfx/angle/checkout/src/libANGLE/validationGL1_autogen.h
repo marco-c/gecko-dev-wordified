@@ -30,7 +30,7 @@ xml
 /
 /
 Copyright
-2019
+2020
 The
 ANGLE
 Project
@@ -111,6 +111,7 @@ Context
 bool
 ValidateAccum
 (
+const
 Context
 *
 context
@@ -123,6 +124,7 @@ value
 bool
 ValidateBegin
 (
+const
 Context
 *
 context
@@ -133,6 +135,7 @@ mode
 bool
 ValidateBitmap
 (
+const
 Context
 *
 context
@@ -157,6 +160,7 @@ bitmap
 bool
 ValidateCallList
 (
+const
 Context
 *
 context
@@ -167,6 +171,7 @@ list
 bool
 ValidateCallLists
 (
+const
 Context
 *
 context
@@ -183,6 +188,7 @@ lists
 bool
 ValidateClearAccum
 (
+const
 Context
 *
 context
@@ -199,6 +205,7 @@ alpha
 bool
 ValidateClearDepth
 (
+const
 Context
 *
 context
@@ -209,6 +216,7 @@ depth
 bool
 ValidateClearIndex
 (
+const
 Context
 *
 context
@@ -219,6 +227,7 @@ c
 bool
 ValidateClipPlane
 (
+const
 Context
 *
 context
@@ -233,6 +242,7 @@ equation
 bool
 ValidateColor3b
 (
+const
 Context
 *
 context
@@ -247,6 +257,7 @@ blue
 bool
 ValidateColor3bv
 (
+const
 Context
 *
 context
@@ -259,6 +270,7 @@ v
 bool
 ValidateColor3d
 (
+const
 Context
 *
 context
@@ -273,6 +285,7 @@ blue
 bool
 ValidateColor3dv
 (
+const
 Context
 *
 context
@@ -285,6 +298,7 @@ v
 bool
 ValidateColor3f
 (
+const
 Context
 *
 context
@@ -299,6 +313,7 @@ blue
 bool
 ValidateColor3fv
 (
+const
 Context
 *
 context
@@ -311,6 +326,7 @@ v
 bool
 ValidateColor3i
 (
+const
 Context
 *
 context
@@ -325,6 +341,7 @@ blue
 bool
 ValidateColor3iv
 (
+const
 Context
 *
 context
@@ -337,6 +354,7 @@ v
 bool
 ValidateColor3s
 (
+const
 Context
 *
 context
@@ -351,6 +369,7 @@ blue
 bool
 ValidateColor3sv
 (
+const
 Context
 *
 context
@@ -363,6 +382,7 @@ v
 bool
 ValidateColor3ub
 (
+const
 Context
 *
 context
@@ -377,6 +397,7 @@ blue
 bool
 ValidateColor3ubv
 (
+const
 Context
 *
 context
@@ -389,6 +410,7 @@ v
 bool
 ValidateColor3ui
 (
+const
 Context
 *
 context
@@ -403,6 +425,7 @@ blue
 bool
 ValidateColor3uiv
 (
+const
 Context
 *
 context
@@ -415,6 +438,7 @@ v
 bool
 ValidateColor3us
 (
+const
 Context
 *
 context
@@ -429,6 +453,7 @@ blue
 bool
 ValidateColor3usv
 (
+const
 Context
 *
 context
@@ -441,6 +466,7 @@ v
 bool
 ValidateColor4b
 (
+const
 Context
 *
 context
@@ -457,6 +483,7 @@ alpha
 bool
 ValidateColor4bv
 (
+const
 Context
 *
 context
@@ -469,6 +496,7 @@ v
 bool
 ValidateColor4d
 (
+const
 Context
 *
 context
@@ -485,6 +513,7 @@ alpha
 bool
 ValidateColor4dv
 (
+const
 Context
 *
 context
@@ -497,6 +526,7 @@ v
 bool
 ValidateColor4fv
 (
+const
 Context
 *
 context
@@ -509,6 +539,7 @@ v
 bool
 ValidateColor4i
 (
+const
 Context
 *
 context
@@ -525,6 +556,7 @@ alpha
 bool
 ValidateColor4iv
 (
+const
 Context
 *
 context
@@ -537,6 +569,7 @@ v
 bool
 ValidateColor4s
 (
+const
 Context
 *
 context
@@ -553,6 +586,7 @@ alpha
 bool
 ValidateColor4sv
 (
+const
 Context
 *
 context
@@ -565,6 +599,7 @@ v
 bool
 ValidateColor4ubv
 (
+const
 Context
 *
 context
@@ -577,6 +612,7 @@ v
 bool
 ValidateColor4ui
 (
+const
 Context
 *
 context
@@ -593,6 +629,7 @@ alpha
 bool
 ValidateColor4uiv
 (
+const
 Context
 *
 context
@@ -605,6 +642,7 @@ v
 bool
 ValidateColor4us
 (
+const
 Context
 *
 context
@@ -621,6 +659,7 @@ alpha
 bool
 ValidateColor4usv
 (
+const
 Context
 *
 context
@@ -633,6 +672,7 @@ v
 bool
 ValidateColorMaterial
 (
+const
 Context
 *
 context
@@ -645,6 +685,7 @@ mode
 bool
 ValidateCopyPixels
 (
+const
 Context
 *
 context
@@ -663,6 +704,7 @@ type
 bool
 ValidateDeleteLists
 (
+const
 Context
 *
 context
@@ -675,6 +717,7 @@ range
 bool
 ValidateDepthRange
 (
+const
 Context
 *
 context
@@ -687,6 +730,7 @@ f
 bool
 ValidateDrawBuffer
 (
+const
 Context
 *
 context
@@ -697,6 +741,7 @@ buf
 bool
 ValidateDrawPixels
 (
+const
 Context
 *
 context
@@ -717,6 +762,7 @@ pixels
 bool
 ValidateEdgeFlag
 (
+const
 Context
 *
 context
@@ -727,6 +773,7 @@ flag
 bool
 ValidateEdgeFlagv
 (
+const
 Context
 *
 context
@@ -739,6 +786,7 @@ flag
 bool
 ValidateEnd
 (
+const
 Context
 *
 context
@@ -747,6 +795,7 @@ context
 bool
 ValidateEndList
 (
+const
 Context
 *
 context
@@ -755,6 +804,7 @@ context
 bool
 ValidateEvalCoord1d
 (
+const
 Context
 *
 context
@@ -765,6 +815,7 @@ u
 bool
 ValidateEvalCoord1dv
 (
+const
 Context
 *
 context
@@ -777,6 +828,7 @@ u
 bool
 ValidateEvalCoord1f
 (
+const
 Context
 *
 context
@@ -787,6 +839,7 @@ u
 bool
 ValidateEvalCoord1fv
 (
+const
 Context
 *
 context
@@ -799,6 +852,7 @@ u
 bool
 ValidateEvalCoord2d
 (
+const
 Context
 *
 context
@@ -811,6 +865,7 @@ v
 bool
 ValidateEvalCoord2dv
 (
+const
 Context
 *
 context
@@ -823,6 +878,7 @@ u
 bool
 ValidateEvalCoord2f
 (
+const
 Context
 *
 context
@@ -835,6 +891,7 @@ v
 bool
 ValidateEvalCoord2fv
 (
+const
 Context
 *
 context
@@ -847,6 +904,7 @@ u
 bool
 ValidateEvalMesh1
 (
+const
 Context
 *
 context
@@ -861,6 +919,7 @@ i2
 bool
 ValidateEvalMesh2
 (
+const
 Context
 *
 context
@@ -879,6 +938,7 @@ j2
 bool
 ValidateEvalPoint1
 (
+const
 Context
 *
 context
@@ -889,6 +949,7 @@ i
 bool
 ValidateEvalPoint2
 (
+const
 Context
 *
 context
@@ -901,6 +962,7 @@ j
 bool
 ValidateFeedbackBuffer
 (
+const
 Context
 *
 context
@@ -908,6 +970,7 @@ GLsizei
 size
 GLenum
 type
+const
 GLfloat
 *
 buffer
@@ -916,6 +979,7 @@ buffer
 bool
 ValidateFogi
 (
+const
 Context
 *
 context
@@ -928,6 +992,7 @@ param
 bool
 ValidateFogiv
 (
+const
 Context
 *
 context
@@ -942,6 +1007,7 @@ params
 bool
 ValidateFrustum
 (
+const
 Context
 *
 context
@@ -962,6 +1028,7 @@ zFar
 bool
 ValidateGenLists
 (
+const
 Context
 *
 context
@@ -972,11 +1039,13 @@ range
 bool
 ValidateGetClipPlane
 (
+const
 Context
 *
 context
 GLenum
 plane
+const
 GLdouble
 *
 equation
@@ -985,11 +1054,13 @@ equation
 bool
 ValidateGetDoublev
 (
+const
 Context
 *
 context
 GLenum
 pname
+const
 GLdouble
 *
 data
@@ -998,6 +1069,7 @@ data
 bool
 ValidateGetLightiv
 (
+const
 Context
 *
 context
@@ -1005,6 +1077,7 @@ GLenum
 light
 GLenum
 pname
+const
 GLint
 *
 params
@@ -1013,6 +1086,7 @@ params
 bool
 ValidateGetMapdv
 (
+const
 Context
 *
 context
@@ -1020,6 +1094,7 @@ GLenum
 target
 GLenum
 query
+const
 GLdouble
 *
 v
@@ -1028,6 +1103,7 @@ v
 bool
 ValidateGetMapfv
 (
+const
 Context
 *
 context
@@ -1035,6 +1111,7 @@ GLenum
 target
 GLenum
 query
+const
 GLfloat
 *
 v
@@ -1043,6 +1120,7 @@ v
 bool
 ValidateGetMapiv
 (
+const
 Context
 *
 context
@@ -1050,6 +1128,7 @@ GLenum
 target
 GLenum
 query
+const
 GLint
 *
 v
@@ -1058,6 +1137,7 @@ v
 bool
 ValidateGetMaterialiv
 (
+const
 Context
 *
 context
@@ -1065,6 +1145,7 @@ GLenum
 face
 GLenum
 pname
+const
 GLint
 *
 params
@@ -1073,11 +1154,13 @@ params
 bool
 ValidateGetPixelMapfv
 (
+const
 Context
 *
 context
 GLenum
 map
+const
 GLfloat
 *
 values
@@ -1086,11 +1169,13 @@ values
 bool
 ValidateGetPixelMapuiv
 (
+const
 Context
 *
 context
 GLenum
 map
+const
 GLuint
 *
 values
@@ -1099,11 +1184,13 @@ values
 bool
 ValidateGetPixelMapusv
 (
+const
 Context
 *
 context
 GLenum
 map
+const
 GLushort
 *
 values
@@ -1112,9 +1199,11 @@ values
 bool
 ValidateGetPolygonStipple
 (
+const
 Context
 *
 context
+const
 GLubyte
 *
 mask
@@ -1123,6 +1212,7 @@ mask
 bool
 ValidateGetTexGendv
 (
+const
 Context
 *
 context
@@ -1130,6 +1220,7 @@ GLenum
 coord
 GLenum
 pname
+const
 GLdouble
 *
 params
@@ -1138,6 +1229,7 @@ params
 bool
 ValidateGetTexGenfv
 (
+const
 Context
 *
 context
@@ -1145,6 +1237,7 @@ GLenum
 coord
 GLenum
 pname
+const
 GLfloat
 *
 params
@@ -1153,6 +1246,7 @@ params
 bool
 ValidateGetTexGeniv
 (
+const
 Context
 *
 context
@@ -1160,6 +1254,7 @@ GLenum
 coord
 GLenum
 pname
+const
 GLint
 *
 params
@@ -1168,17 +1263,19 @@ params
 bool
 ValidateGetTexImage
 (
+const
 Context
 *
 context
-GLenum
-target
+TextureTarget
+targetPacked
 GLint
 level
 GLenum
 format
 GLenum
 type
+const
 void
 *
 pixels
@@ -1187,6 +1284,7 @@ pixels
 bool
 ValidateIndexMask
 (
+const
 Context
 *
 context
@@ -1197,6 +1295,7 @@ mask
 bool
 ValidateIndexd
 (
+const
 Context
 *
 context
@@ -1207,6 +1306,7 @@ c
 bool
 ValidateIndexdv
 (
+const
 Context
 *
 context
@@ -1219,6 +1319,7 @@ c
 bool
 ValidateIndexf
 (
+const
 Context
 *
 context
@@ -1229,6 +1330,7 @@ c
 bool
 ValidateIndexfv
 (
+const
 Context
 *
 context
@@ -1241,6 +1343,7 @@ c
 bool
 ValidateIndexi
 (
+const
 Context
 *
 context
@@ -1251,6 +1354,7 @@ c
 bool
 ValidateIndexiv
 (
+const
 Context
 *
 context
@@ -1263,6 +1367,7 @@ c
 bool
 ValidateIndexs
 (
+const
 Context
 *
 context
@@ -1273,6 +1378,7 @@ c
 bool
 ValidateIndexsv
 (
+const
 Context
 *
 context
@@ -1285,6 +1391,7 @@ c
 bool
 ValidateInitNames
 (
+const
 Context
 *
 context
@@ -1293,6 +1400,7 @@ context
 bool
 ValidateIsList
 (
+const
 Context
 *
 context
@@ -1303,6 +1411,7 @@ list
 bool
 ValidateLightModeli
 (
+const
 Context
 *
 context
@@ -1315,6 +1424,7 @@ param
 bool
 ValidateLightModeliv
 (
+const
 Context
 *
 context
@@ -1329,6 +1439,7 @@ params
 bool
 ValidateLighti
 (
+const
 Context
 *
 context
@@ -1343,6 +1454,7 @@ param
 bool
 ValidateLightiv
 (
+const
 Context
 *
 context
@@ -1359,6 +1471,7 @@ params
 bool
 ValidateLineStipple
 (
+const
 Context
 *
 context
@@ -1371,6 +1484,7 @@ pattern
 bool
 ValidateListBase
 (
+const
 Context
 *
 context
@@ -1381,6 +1495,7 @@ base
 bool
 ValidateLoadMatrixd
 (
+const
 Context
 *
 context
@@ -1393,6 +1508,7 @@ m
 bool
 ValidateLoadName
 (
+const
 Context
 *
 context
@@ -1403,6 +1519,7 @@ name
 bool
 ValidateMap1d
 (
+const
 Context
 *
 context
@@ -1425,6 +1542,7 @@ points
 bool
 ValidateMap1f
 (
+const
 Context
 *
 context
@@ -1447,6 +1565,7 @@ points
 bool
 ValidateMap2d
 (
+const
 Context
 *
 context
@@ -1477,6 +1596,7 @@ points
 bool
 ValidateMap2f
 (
+const
 Context
 *
 context
@@ -1507,6 +1627,7 @@ points
 bool
 ValidateMapGrid1d
 (
+const
 Context
 *
 context
@@ -1521,6 +1642,7 @@ u2
 bool
 ValidateMapGrid1f
 (
+const
 Context
 *
 context
@@ -1535,6 +1657,7 @@ u2
 bool
 ValidateMapGrid2d
 (
+const
 Context
 *
 context
@@ -1555,6 +1678,7 @@ v2
 bool
 ValidateMapGrid2f
 (
+const
 Context
 *
 context
@@ -1575,6 +1699,7 @@ v2
 bool
 ValidateMateriali
 (
+const
 Context
 *
 context
@@ -1589,6 +1714,7 @@ param
 bool
 ValidateMaterialiv
 (
+const
 Context
 *
 context
@@ -1605,6 +1731,7 @@ params
 bool
 ValidateMultMatrixd
 (
+const
 Context
 *
 context
@@ -1617,6 +1744,7 @@ m
 bool
 ValidateNewList
 (
+const
 Context
 *
 context
@@ -1629,6 +1757,7 @@ mode
 bool
 ValidateNormal3b
 (
+const
 Context
 *
 context
@@ -1643,6 +1772,7 @@ nz
 bool
 ValidateNormal3bv
 (
+const
 Context
 *
 context
@@ -1655,6 +1785,7 @@ v
 bool
 ValidateNormal3d
 (
+const
 Context
 *
 context
@@ -1669,6 +1800,7 @@ nz
 bool
 ValidateNormal3dv
 (
+const
 Context
 *
 context
@@ -1681,6 +1813,7 @@ v
 bool
 ValidateNormal3fv
 (
+const
 Context
 *
 context
@@ -1693,6 +1826,7 @@ v
 bool
 ValidateNormal3i
 (
+const
 Context
 *
 context
@@ -1707,6 +1841,7 @@ nz
 bool
 ValidateNormal3iv
 (
+const
 Context
 *
 context
@@ -1719,6 +1854,7 @@ v
 bool
 ValidateNormal3s
 (
+const
 Context
 *
 context
@@ -1733,6 +1869,7 @@ nz
 bool
 ValidateNormal3sv
 (
+const
 Context
 *
 context
@@ -1745,6 +1882,7 @@ v
 bool
 ValidateOrtho
 (
+const
 Context
 *
 context
@@ -1765,6 +1903,7 @@ zFar
 bool
 ValidatePassThrough
 (
+const
 Context
 *
 context
@@ -1775,6 +1914,7 @@ token
 bool
 ValidatePixelMapfv
 (
+const
 Context
 *
 context
@@ -1791,6 +1931,7 @@ values
 bool
 ValidatePixelMapuiv
 (
+const
 Context
 *
 context
@@ -1807,6 +1948,7 @@ values
 bool
 ValidatePixelMapusv
 (
+const
 Context
 *
 context
@@ -1823,6 +1965,7 @@ values
 bool
 ValidatePixelStoref
 (
+const
 Context
 *
 context
@@ -1835,6 +1978,7 @@ param
 bool
 ValidatePixelTransferf
 (
+const
 Context
 *
 context
@@ -1847,6 +1991,7 @@ param
 bool
 ValidatePixelTransferi
 (
+const
 Context
 *
 context
@@ -1859,6 +2004,7 @@ param
 bool
 ValidatePixelZoom
 (
+const
 Context
 *
 context
@@ -1871,6 +2017,7 @@ yfactor
 bool
 ValidatePolygonMode
 (
+const
 Context
 *
 context
@@ -1883,6 +2030,7 @@ mode
 bool
 ValidatePolygonStipple
 (
+const
 Context
 *
 context
@@ -1895,6 +2043,7 @@ mask
 bool
 ValidatePopAttrib
 (
+const
 Context
 *
 context
@@ -1903,6 +2052,7 @@ context
 bool
 ValidatePopName
 (
+const
 Context
 *
 context
@@ -1911,6 +2061,7 @@ context
 bool
 ValidatePushAttrib
 (
+const
 Context
 *
 context
@@ -1921,6 +2072,7 @@ mask
 bool
 ValidatePushName
 (
+const
 Context
 *
 context
@@ -1931,6 +2083,7 @@ name
 bool
 ValidateRasterPos2d
 (
+const
 Context
 *
 context
@@ -1943,6 +2096,7 @@ y
 bool
 ValidateRasterPos2dv
 (
+const
 Context
 *
 context
@@ -1955,6 +2109,7 @@ v
 bool
 ValidateRasterPos2f
 (
+const
 Context
 *
 context
@@ -1967,6 +2122,7 @@ y
 bool
 ValidateRasterPos2fv
 (
+const
 Context
 *
 context
@@ -1979,6 +2135,7 @@ v
 bool
 ValidateRasterPos2i
 (
+const
 Context
 *
 context
@@ -1991,6 +2148,7 @@ y
 bool
 ValidateRasterPos2iv
 (
+const
 Context
 *
 context
@@ -2003,6 +2161,7 @@ v
 bool
 ValidateRasterPos2s
 (
+const
 Context
 *
 context
@@ -2015,6 +2174,7 @@ y
 bool
 ValidateRasterPos2sv
 (
+const
 Context
 *
 context
@@ -2027,6 +2187,7 @@ v
 bool
 ValidateRasterPos3d
 (
+const
 Context
 *
 context
@@ -2041,6 +2202,7 @@ z
 bool
 ValidateRasterPos3dv
 (
+const
 Context
 *
 context
@@ -2053,6 +2215,7 @@ v
 bool
 ValidateRasterPos3f
 (
+const
 Context
 *
 context
@@ -2067,6 +2230,7 @@ z
 bool
 ValidateRasterPos3fv
 (
+const
 Context
 *
 context
@@ -2079,6 +2243,7 @@ v
 bool
 ValidateRasterPos3i
 (
+const
 Context
 *
 context
@@ -2093,6 +2258,7 @@ z
 bool
 ValidateRasterPos3iv
 (
+const
 Context
 *
 context
@@ -2105,6 +2271,7 @@ v
 bool
 ValidateRasterPos3s
 (
+const
 Context
 *
 context
@@ -2119,6 +2286,7 @@ z
 bool
 ValidateRasterPos3sv
 (
+const
 Context
 *
 context
@@ -2131,6 +2299,7 @@ v
 bool
 ValidateRasterPos4d
 (
+const
 Context
 *
 context
@@ -2147,6 +2316,7 @@ w
 bool
 ValidateRasterPos4dv
 (
+const
 Context
 *
 context
@@ -2159,6 +2329,7 @@ v
 bool
 ValidateRasterPos4f
 (
+const
 Context
 *
 context
@@ -2175,6 +2346,7 @@ w
 bool
 ValidateRasterPos4fv
 (
+const
 Context
 *
 context
@@ -2187,6 +2359,7 @@ v
 bool
 ValidateRasterPos4i
 (
+const
 Context
 *
 context
@@ -2203,6 +2376,7 @@ w
 bool
 ValidateRasterPos4iv
 (
+const
 Context
 *
 context
@@ -2215,6 +2389,7 @@ v
 bool
 ValidateRasterPos4s
 (
+const
 Context
 *
 context
@@ -2231,6 +2406,7 @@ w
 bool
 ValidateRasterPos4sv
 (
+const
 Context
 *
 context
@@ -2243,6 +2419,7 @@ v
 bool
 ValidateRectd
 (
+const
 Context
 *
 context
@@ -2259,6 +2436,7 @@ y2
 bool
 ValidateRectdv
 (
+const
 Context
 *
 context
@@ -2275,6 +2453,7 @@ v2
 bool
 ValidateRectf
 (
+const
 Context
 *
 context
@@ -2291,6 +2470,7 @@ y2
 bool
 ValidateRectfv
 (
+const
 Context
 *
 context
@@ -2307,6 +2487,7 @@ v2
 bool
 ValidateRecti
 (
+const
 Context
 *
 context
@@ -2323,6 +2504,7 @@ y2
 bool
 ValidateRectiv
 (
+const
 Context
 *
 context
@@ -2339,6 +2521,7 @@ v2
 bool
 ValidateRects
 (
+const
 Context
 *
 context
@@ -2355,6 +2538,7 @@ y2
 bool
 ValidateRectsv
 (
+const
 Context
 *
 context
@@ -2371,6 +2555,7 @@ v2
 bool
 ValidateRenderMode
 (
+const
 Context
 *
 context
@@ -2381,6 +2566,7 @@ mode
 bool
 ValidateRotated
 (
+const
 Context
 *
 context
@@ -2397,6 +2583,7 @@ z
 bool
 ValidateScaled
 (
+const
 Context
 *
 context
@@ -2411,11 +2598,13 @@ z
 bool
 ValidateSelectBuffer
 (
+const
 Context
 *
 context
 GLsizei
 size
+const
 GLuint
 *
 buffer
@@ -2424,6 +2613,7 @@ buffer
 bool
 ValidateTexCoord1d
 (
+const
 Context
 *
 context
@@ -2434,6 +2624,7 @@ s
 bool
 ValidateTexCoord1dv
 (
+const
 Context
 *
 context
@@ -2446,6 +2637,7 @@ v
 bool
 ValidateTexCoord1f
 (
+const
 Context
 *
 context
@@ -2456,6 +2648,7 @@ s
 bool
 ValidateTexCoord1fv
 (
+const
 Context
 *
 context
@@ -2468,6 +2661,7 @@ v
 bool
 ValidateTexCoord1i
 (
+const
 Context
 *
 context
@@ -2478,6 +2672,7 @@ s
 bool
 ValidateTexCoord1iv
 (
+const
 Context
 *
 context
@@ -2490,6 +2685,7 @@ v
 bool
 ValidateTexCoord1s
 (
+const
 Context
 *
 context
@@ -2500,6 +2696,7 @@ s
 bool
 ValidateTexCoord1sv
 (
+const
 Context
 *
 context
@@ -2512,6 +2709,7 @@ v
 bool
 ValidateTexCoord2d
 (
+const
 Context
 *
 context
@@ -2524,6 +2722,7 @@ t
 bool
 ValidateTexCoord2dv
 (
+const
 Context
 *
 context
@@ -2536,6 +2735,7 @@ v
 bool
 ValidateTexCoord2f
 (
+const
 Context
 *
 context
@@ -2548,6 +2748,7 @@ t
 bool
 ValidateTexCoord2fv
 (
+const
 Context
 *
 context
@@ -2560,6 +2761,7 @@ v
 bool
 ValidateTexCoord2i
 (
+const
 Context
 *
 context
@@ -2572,6 +2774,7 @@ t
 bool
 ValidateTexCoord2iv
 (
+const
 Context
 *
 context
@@ -2584,6 +2787,7 @@ v
 bool
 ValidateTexCoord2s
 (
+const
 Context
 *
 context
@@ -2596,6 +2800,7 @@ t
 bool
 ValidateTexCoord2sv
 (
+const
 Context
 *
 context
@@ -2608,6 +2813,7 @@ v
 bool
 ValidateTexCoord3d
 (
+const
 Context
 *
 context
@@ -2622,6 +2828,7 @@ r
 bool
 ValidateTexCoord3dv
 (
+const
 Context
 *
 context
@@ -2634,6 +2841,7 @@ v
 bool
 ValidateTexCoord3f
 (
+const
 Context
 *
 context
@@ -2648,6 +2856,7 @@ r
 bool
 ValidateTexCoord3fv
 (
+const
 Context
 *
 context
@@ -2660,6 +2869,7 @@ v
 bool
 ValidateTexCoord3i
 (
+const
 Context
 *
 context
@@ -2674,6 +2884,7 @@ r
 bool
 ValidateTexCoord3iv
 (
+const
 Context
 *
 context
@@ -2686,6 +2897,7 @@ v
 bool
 ValidateTexCoord3s
 (
+const
 Context
 *
 context
@@ -2700,6 +2912,7 @@ r
 bool
 ValidateTexCoord3sv
 (
+const
 Context
 *
 context
@@ -2712,6 +2925,7 @@ v
 bool
 ValidateTexCoord4d
 (
+const
 Context
 *
 context
@@ -2728,6 +2942,7 @@ q
 bool
 ValidateTexCoord4dv
 (
+const
 Context
 *
 context
@@ -2740,6 +2955,7 @@ v
 bool
 ValidateTexCoord4f
 (
+const
 Context
 *
 context
@@ -2756,6 +2972,7 @@ q
 bool
 ValidateTexCoord4fv
 (
+const
 Context
 *
 context
@@ -2768,6 +2985,7 @@ v
 bool
 ValidateTexCoord4i
 (
+const
 Context
 *
 context
@@ -2784,6 +3002,7 @@ q
 bool
 ValidateTexCoord4iv
 (
+const
 Context
 *
 context
@@ -2796,6 +3015,7 @@ v
 bool
 ValidateTexCoord4s
 (
+const
 Context
 *
 context
@@ -2812,6 +3032,7 @@ q
 bool
 ValidateTexCoord4sv
 (
+const
 Context
 *
 context
@@ -2824,6 +3045,7 @@ v
 bool
 ValidateTexGend
 (
+const
 Context
 *
 context
@@ -2838,6 +3060,7 @@ param
 bool
 ValidateTexGendv
 (
+const
 Context
 *
 context
@@ -2854,6 +3077,7 @@ params
 bool
 ValidateTexGenf
 (
+const
 Context
 *
 context
@@ -2868,6 +3092,7 @@ param
 bool
 ValidateTexGenfv
 (
+const
 Context
 *
 context
@@ -2884,6 +3109,7 @@ params
 bool
 ValidateTexGeni
 (
+const
 Context
 *
 context
@@ -2898,6 +3124,7 @@ param
 bool
 ValidateTexGeniv
 (
+const
 Context
 *
 context
@@ -2914,6 +3141,7 @@ params
 bool
 ValidateTexImage1D
 (
+const
 Context
 *
 context
@@ -2940,6 +3168,7 @@ pixels
 bool
 ValidateTranslated
 (
+const
 Context
 *
 context
@@ -2954,6 +3183,7 @@ z
 bool
 ValidateVertex2d
 (
+const
 Context
 *
 context
@@ -2966,6 +3196,7 @@ y
 bool
 ValidateVertex2dv
 (
+const
 Context
 *
 context
@@ -2978,6 +3209,7 @@ v
 bool
 ValidateVertex2f
 (
+const
 Context
 *
 context
@@ -2990,6 +3222,7 @@ y
 bool
 ValidateVertex2fv
 (
+const
 Context
 *
 context
@@ -3002,6 +3235,7 @@ v
 bool
 ValidateVertex2i
 (
+const
 Context
 *
 context
@@ -3014,6 +3248,7 @@ y
 bool
 ValidateVertex2iv
 (
+const
 Context
 *
 context
@@ -3026,6 +3261,7 @@ v
 bool
 ValidateVertex2s
 (
+const
 Context
 *
 context
@@ -3038,6 +3274,7 @@ y
 bool
 ValidateVertex2sv
 (
+const
 Context
 *
 context
@@ -3050,6 +3287,7 @@ v
 bool
 ValidateVertex3d
 (
+const
 Context
 *
 context
@@ -3064,6 +3302,7 @@ z
 bool
 ValidateVertex3dv
 (
+const
 Context
 *
 context
@@ -3076,6 +3315,7 @@ v
 bool
 ValidateVertex3f
 (
+const
 Context
 *
 context
@@ -3090,6 +3330,7 @@ z
 bool
 ValidateVertex3fv
 (
+const
 Context
 *
 context
@@ -3102,6 +3343,7 @@ v
 bool
 ValidateVertex3i
 (
+const
 Context
 *
 context
@@ -3116,6 +3358,7 @@ z
 bool
 ValidateVertex3iv
 (
+const
 Context
 *
 context
@@ -3128,6 +3371,7 @@ v
 bool
 ValidateVertex3s
 (
+const
 Context
 *
 context
@@ -3142,6 +3386,7 @@ z
 bool
 ValidateVertex3sv
 (
+const
 Context
 *
 context
@@ -3154,6 +3399,7 @@ v
 bool
 ValidateVertex4d
 (
+const
 Context
 *
 context
@@ -3170,6 +3416,7 @@ w
 bool
 ValidateVertex4dv
 (
+const
 Context
 *
 context
@@ -3182,6 +3429,7 @@ v
 bool
 ValidateVertex4f
 (
+const
 Context
 *
 context
@@ -3198,6 +3446,7 @@ w
 bool
 ValidateVertex4fv
 (
+const
 Context
 *
 context
@@ -3210,6 +3459,7 @@ v
 bool
 ValidateVertex4i
 (
+const
 Context
 *
 context
@@ -3226,6 +3476,7 @@ w
 bool
 ValidateVertex4iv
 (
+const
 Context
 *
 context
@@ -3238,6 +3489,7 @@ v
 bool
 ValidateVertex4s
 (
+const
 Context
 *
 context
@@ -3254,6 +3506,7 @@ w
 bool
 ValidateVertex4sv
 (
+const
 Context
 *
 context

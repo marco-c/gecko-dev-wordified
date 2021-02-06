@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2015
 The
 ANGLE
 Project
@@ -746,6 +741,14 @@ EOpIsinf
 return
 "
 isinf
+"
+;
+case
+EOpFma
+:
+return
+"
+fma
 "
 ;
 case

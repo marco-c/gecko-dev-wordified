@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2012
--
-2014
 The
 ANGLE
 Project
@@ -360,9 +355,11 @@ const
 gl
 :
 :
-BlendState
+BlendStateExt
 &
-blendState
+blendStateExt
+bool
+sampleAlphaToCoverage
 )
 ;
 angle

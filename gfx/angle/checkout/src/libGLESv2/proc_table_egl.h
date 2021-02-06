@@ -107,12 +107,14 @@ __eglMustCastToProperFunctionPointerType
 >
 ;
 extern
+const
 ProcEntry
 g_procTable
 [
 ]
 ;
 extern
+const
 size_t
 g_numProcs
 ;

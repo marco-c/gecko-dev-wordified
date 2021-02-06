@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2013
 The
 ANGLE
 Project
@@ -168,7 +163,6 @@ FindDiscard
 {
 public
 :
-virtual
 bool
 visitBranch
 (
@@ -178,6 +172,7 @@ TIntermBranch
 *
 node
 )
+override
 {
 switch
 (

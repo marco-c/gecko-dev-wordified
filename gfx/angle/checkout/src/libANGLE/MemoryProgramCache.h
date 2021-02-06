@@ -4,8 +4,6 @@
 /
 Copyright
 2017
--
-2018
 The
 ANGLE
 Project
@@ -228,6 +226,9 @@ BlobCache
 Value
 *
 programOut
+size_t
+*
+programSizeOut
 )
 ;
 /
@@ -301,7 +302,10 @@ serializes
 a
 program
 .
-void
+angle
+:
+:
+Result
 putProgram
 (
 const
@@ -334,7 +338,10 @@ computes
 the
 hash
 .
-void
+angle
+:
+:
+Result
 updateProgram
 (
 const
@@ -380,7 +387,8 @@ anglebug
 com
 /
 2516
-void
+ANGLE_NO_DISCARD
+bool
 putBinary
 (
 const

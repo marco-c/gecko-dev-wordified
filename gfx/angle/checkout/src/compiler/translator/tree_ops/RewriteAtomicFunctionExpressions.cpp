@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2018
 The
 ANGLE
@@ -1023,9 +1020,12 @@ true
 /
 anonymous
 namespace
-void
+bool
 RewriteAtomicFunctionExpressions
 (
+TCompiler
+*
+compiler
 TIntermNode
 *
 root
@@ -1050,10 +1050,13 @@ traverse
 root
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

@@ -125,7 +125,7 @@ vector
 sh
 :
 :
-Uniform
+ShaderVariable
 >
 &
 image2DUniforms
@@ -170,7 +170,7 @@ vector
 sh
 :
 :
-Uniform
+ShaderVariable
 >
 &
 image2DUniforms

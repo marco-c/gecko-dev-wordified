@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2017
 The
 ANGLE
@@ -94,7 +91,7 @@ translator
 /
 tree_util
 /
-BuiltIn_autogen
+BuiltIn
 .
 h
 "
@@ -140,9 +137,12 @@ h
 namespace
 sh
 {
-void
+bool
 ClampPointSize
 (
+TCompiler
+*
+compiler
 TIntermBlock
 *
 root
@@ -183,6 +183,7 @@ gl_PointSize
 )
 {
 return
+true
 ;
 }
 TIntermSymbol
@@ -306,8 +307,10 @@ pointSizeNode
 clampedPointSize
 )
 ;
+return
 RunAtTheEndOfShader
 (
+compiler
 root
 assignPointSize
 symbolTable

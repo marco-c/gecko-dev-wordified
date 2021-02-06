@@ -1,9 +1,6 @@
 /
 /
 Copyright
-(
-c
-)
 2012
 The
 ANGLE
@@ -60,7 +57,7 @@ include
 "
 platform
 /
-Platform
+PlatformMethods
 .
 h
 "

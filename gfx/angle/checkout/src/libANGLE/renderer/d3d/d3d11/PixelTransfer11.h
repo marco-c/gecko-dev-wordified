@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2013
 The
 ANGLE
@@ -139,6 +136,9 @@ gl
 class
 Buffer
 ;
+class
+Context
+;
 struct
 Box
 ;
@@ -265,6 +265,12 @@ gl
 PixelUnpackState
 &
 unpack
+gl
+:
+:
+Buffer
+*
+unpackBuffer
 unsigned
 int
 offset

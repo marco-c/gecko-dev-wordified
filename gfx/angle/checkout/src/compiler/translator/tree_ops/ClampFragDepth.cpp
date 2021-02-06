@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2017
 The
 ANGLE
@@ -142,7 +139,7 @@ translator
 /
 tree_util
 /
-BuiltIn_autogen
+BuiltIn
 .
 h
 "
@@ -188,9 +185,12 @@ h
 namespace
 sh
 {
-void
+bool
 ClampFragDepth
 (
+TCompiler
+*
+compiler
 TIntermBlock
 *
 root
@@ -229,6 +229,7 @@ gl_FragDepth
 )
 {
 return
+true
 ;
 }
 TIntermSymbol
@@ -386,8 +387,10 @@ fragDepthNode
 clampedFragDepth
 )
 ;
+return
 RunAtTheEndOfShader
 (
+compiler
 root
 assignFragDepth
 symbolTable

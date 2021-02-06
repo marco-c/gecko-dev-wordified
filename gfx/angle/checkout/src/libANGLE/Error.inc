@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2014
 The
 ANGLE
@@ -244,7 +241,7 @@ else
 {
 mMessage
 .
-release
+reset
 (
 )
 ;

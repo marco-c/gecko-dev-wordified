@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2012
--
-2014
 The
 ANGLE
 Project
@@ -599,8 +594,7 @@ samples
 {
 /
 /
-Sanity
-check
+Check
 that
 if
 present
@@ -1104,7 +1098,6 @@ D3D11_TEXTURE2D_DESC
 offscreenTextureDesc
 =
 {
-0
 }
 ;
 /
@@ -1935,7 +1928,6 @@ D3D11_BOX
 sourceBox
 =
 {
-0
 }
 ;
 sourceBox
@@ -2215,7 +2207,6 @@ D3D11_TEXTURE2D_DESC
 offscreenTextureDesc
 =
 {
-0
 }
 ;
 mOffscreenTexture

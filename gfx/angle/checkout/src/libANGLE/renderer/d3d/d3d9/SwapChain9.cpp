@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2012
--
-2014
 The
 ANGLE
 Project
@@ -882,7 +877,6 @@ D3DPRESENT_PARAMETERS
 presentParameters
 =
 {
-0
 }
 ;
 presentParameters

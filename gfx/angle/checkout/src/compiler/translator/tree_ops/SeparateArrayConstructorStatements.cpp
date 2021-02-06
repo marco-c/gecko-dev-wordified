@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2018
 The
 ANGLE
@@ -363,9 +360,12 @@ false
 /
 /
 namespace
-void
+bool
 SeparateArrayConstructorStatements
 (
+TCompiler
+*
+compiler
 TIntermBlock
 *
 root
@@ -383,10 +383,13 @@ traverse
 traverser
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

@@ -219,6 +219,12 @@ getTarget
 )
 const
 ;
+TextureTarget
+getTargetOrFirstCubeFace
+(
+)
+const
+;
 bool
 isLayered
 (
@@ -303,6 +309,8 @@ GLint
 levelIndex
 GLint
 depth
+=
+0
 )
 ;
 static
@@ -672,6 +680,15 @@ ImageIndex
 mCurrentIndex
 ;
 }
+;
+TextureTarget
+TextureTypeToTarget
+(
+TextureType
+type
+GLint
+layerIndex
+)
 ;
 }
 /

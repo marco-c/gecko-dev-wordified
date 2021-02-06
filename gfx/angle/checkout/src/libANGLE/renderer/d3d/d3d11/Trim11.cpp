@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2014
 The
 ANGLE
@@ -104,7 +101,7 @@ h
 if
 defined
 (
-ANGLE_ENABLE_WINDOWS_STORE
+ANGLE_ENABLE_WINDOWS_UWP
 )
 #
 include
@@ -272,7 +269,7 @@ return
 if
 defined
 (
-ANGLE_ENABLE_WINDOWS_STORE
+ANGLE_ENABLE_WINDOWS_UWP
 )
 ID3D11Device
 *
@@ -333,7 +330,7 @@ registerForRendererTrimRequest
 if
 defined
 (
-ANGLE_ENABLE_WINDOWS_STORE
+ANGLE_ENABLE_WINDOWS_UWP
 )
 ICoreApplication
 *
@@ -453,7 +450,7 @@ unregisterForRendererTrimRequest
 if
 defined
 (
-ANGLE_ENABLE_WINDOWS_STORE
+ANGLE_ENABLE_WINDOWS_UWP
 )
 if
 (

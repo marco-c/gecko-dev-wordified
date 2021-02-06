@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2011
 The
 ANGLE
 Project
@@ -95,7 +90,7 @@ translator
 /
 tree_util
 /
-BuiltIn_autogen
+BuiltIn
 .
 h
 "

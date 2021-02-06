@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2015
 The
 ANGLE
 Project
@@ -52,6 +47,11 @@ COMPILER_TRANSLATOR_OPERATOR_H_
 #
 define
 COMPILER_TRANSLATOR_OPERATOR_H_
+#
+include
+<
+cstdint
+>
 /
 /
 /
@@ -73,6 +73,8 @@ representation
 /
 enum
 TOperator
+:
+uint8_t
 {
 EOpNull
 /
@@ -335,6 +337,7 @@ EOpStep
 EOpSmoothstep
 EOpIsnan
 EOpIsinf
+EOpFma
 EOpFloatBitsToInt
 EOpFloatBitsToUint
 EOpIntBitsToFloat
@@ -472,6 +475,14 @@ Geometry
 only
 EOpEmitVertex
 EOpEndPrimitive
+/
+/
+Desktop
+GLSL
+functions
+EOpFTransform
+EOpPackDouble2x32
+EOpUnpackDouble2x32
 }
 ;
 /

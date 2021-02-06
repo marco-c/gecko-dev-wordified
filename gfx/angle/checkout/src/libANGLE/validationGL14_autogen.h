@@ -30,7 +30,7 @@ xml
 /
 /
 Copyright
-2019
+2020
 The
 ANGLE
 Project
@@ -111,6 +111,7 @@ Context
 bool
 ValidateFogCoordPointer
 (
+const
 Context
 *
 context
@@ -127,6 +128,7 @@ pointer
 bool
 ValidateFogCoordd
 (
+const
 Context
 *
 context
@@ -137,6 +139,7 @@ coord
 bool
 ValidateFogCoorddv
 (
+const
 Context
 *
 context
@@ -149,6 +152,7 @@ coord
 bool
 ValidateFogCoordf
 (
+const
 Context
 *
 context
@@ -159,6 +163,7 @@ coord
 bool
 ValidateFogCoordfv
 (
+const
 Context
 *
 context
@@ -171,6 +176,7 @@ coord
 bool
 ValidateMultiDrawArrays
 (
+const
 Context
 *
 context
@@ -191,6 +197,7 @@ drawcount
 bool
 ValidateMultiDrawElements
 (
+const
 Context
 *
 context
@@ -215,6 +222,7 @@ drawcount
 bool
 ValidatePointParameteri
 (
+const
 Context
 *
 context
@@ -227,6 +235,7 @@ param
 bool
 ValidatePointParameteriv
 (
+const
 Context
 *
 context
@@ -241,6 +250,7 @@ params
 bool
 ValidateSecondaryColor3b
 (
+const
 Context
 *
 context
@@ -255,6 +265,7 @@ blue
 bool
 ValidateSecondaryColor3bv
 (
+const
 Context
 *
 context
@@ -267,6 +278,7 @@ v
 bool
 ValidateSecondaryColor3d
 (
+const
 Context
 *
 context
@@ -281,6 +293,7 @@ blue
 bool
 ValidateSecondaryColor3dv
 (
+const
 Context
 *
 context
@@ -293,6 +306,7 @@ v
 bool
 ValidateSecondaryColor3f
 (
+const
 Context
 *
 context
@@ -307,6 +321,7 @@ blue
 bool
 ValidateSecondaryColor3fv
 (
+const
 Context
 *
 context
@@ -319,6 +334,7 @@ v
 bool
 ValidateSecondaryColor3i
 (
+const
 Context
 *
 context
@@ -333,6 +349,7 @@ blue
 bool
 ValidateSecondaryColor3iv
 (
+const
 Context
 *
 context
@@ -345,6 +362,7 @@ v
 bool
 ValidateSecondaryColor3s
 (
+const
 Context
 *
 context
@@ -359,6 +377,7 @@ blue
 bool
 ValidateSecondaryColor3sv
 (
+const
 Context
 *
 context
@@ -371,6 +390,7 @@ v
 bool
 ValidateSecondaryColor3ub
 (
+const
 Context
 *
 context
@@ -385,6 +405,7 @@ blue
 bool
 ValidateSecondaryColor3ubv
 (
+const
 Context
 *
 context
@@ -397,6 +418,7 @@ v
 bool
 ValidateSecondaryColor3ui
 (
+const
 Context
 *
 context
@@ -411,6 +433,7 @@ blue
 bool
 ValidateSecondaryColor3uiv
 (
+const
 Context
 *
 context
@@ -423,6 +446,7 @@ v
 bool
 ValidateSecondaryColor3us
 (
+const
 Context
 *
 context
@@ -437,6 +461,7 @@ blue
 bool
 ValidateSecondaryColor3usv
 (
+const
 Context
 *
 context
@@ -449,6 +474,7 @@ v
 bool
 ValidateSecondaryColorPointer
 (
+const
 Context
 *
 context
@@ -467,6 +493,7 @@ pointer
 bool
 ValidateWindowPos2d
 (
+const
 Context
 *
 context
@@ -479,6 +506,7 @@ y
 bool
 ValidateWindowPos2dv
 (
+const
 Context
 *
 context
@@ -491,6 +519,7 @@ v
 bool
 ValidateWindowPos2f
 (
+const
 Context
 *
 context
@@ -503,6 +532,7 @@ y
 bool
 ValidateWindowPos2fv
 (
+const
 Context
 *
 context
@@ -515,6 +545,7 @@ v
 bool
 ValidateWindowPos2i
 (
+const
 Context
 *
 context
@@ -527,6 +558,7 @@ y
 bool
 ValidateWindowPos2iv
 (
+const
 Context
 *
 context
@@ -539,6 +571,7 @@ v
 bool
 ValidateWindowPos2s
 (
+const
 Context
 *
 context
@@ -551,6 +584,7 @@ y
 bool
 ValidateWindowPos2sv
 (
+const
 Context
 *
 context
@@ -563,6 +597,7 @@ v
 bool
 ValidateWindowPos3d
 (
+const
 Context
 *
 context
@@ -577,6 +612,7 @@ z
 bool
 ValidateWindowPos3dv
 (
+const
 Context
 *
 context
@@ -589,6 +625,7 @@ v
 bool
 ValidateWindowPos3f
 (
+const
 Context
 *
 context
@@ -603,6 +640,7 @@ z
 bool
 ValidateWindowPos3fv
 (
+const
 Context
 *
 context
@@ -615,6 +653,7 @@ v
 bool
 ValidateWindowPos3i
 (
+const
 Context
 *
 context
@@ -629,6 +668,7 @@ z
 bool
 ValidateWindowPos3iv
 (
+const
 Context
 *
 context
@@ -641,6 +681,7 @@ v
 bool
 ValidateWindowPos3s
 (
+const
 Context
 *
 context
@@ -655,6 +696,7 @@ z
 bool
 ValidateWindowPos3sv
 (
+const
 Context
 *
 context

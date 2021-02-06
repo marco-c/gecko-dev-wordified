@@ -702,6 +702,9 @@ BlobCache
 Value
 *
 valueOut
+size_t
+*
+bufferSizeOut
 )
 ;
 /

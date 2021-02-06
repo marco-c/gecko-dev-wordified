@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2012
 The
 ANGLE
 Project
@@ -422,6 +417,7 @@ attrib
 binding
 count
 instances
+0
 &
 mapSize
 )
@@ -699,7 +695,7 @@ mVertexBuffer
 ;
 void
 *
-dummy
+mock
 ;
 HRESULT
 result
@@ -726,7 +722,7 @@ Lock
 0
 1
 &
-dummy
+mock
 D3DLOCK_DISCARD
 )
 ;

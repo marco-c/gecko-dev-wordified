@@ -2251,8 +2251,10 @@ c
 #
 define
 XXH_CPU_LITTLE_ENDIAN
+(
 XXH_isLittleEndian
 (
+)
 )
 #
 endif
@@ -2528,6 +2530,7 @@ XXH_STATIC_ASSERT
 (
 c
 )
+do
 {
 enum
 {
@@ -2548,6 +2551,10 @@ c
 }
 ;
 }
+while
+(
+0
+)
 /
 *
 use
@@ -2929,7 +2936,6 @@ h32
 )
 *
 PRIME32_1
-;
 #
 define
 PROCESS4
@@ -2960,7 +2966,6 @@ h32
 )
 *
 PRIME32_4
-;
 switch
 (
 len
@@ -5659,7 +5664,6 @@ h64
 )
 *
 PRIME64_1
-;
 #
 define
 PROCESS4_64
@@ -5697,10 +5701,10 @@ h64
 PRIME64_2
 +
 PRIME64_3
-;
 #
 define
 PROCESS8_64
+do
 {
 \
 U64
@@ -5743,6 +5747,10 @@ PRIME64_4
 ;
 \
 }
+while
+(
+0
+)
 switch
 (
 len

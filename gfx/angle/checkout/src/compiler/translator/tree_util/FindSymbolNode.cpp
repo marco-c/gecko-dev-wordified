@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2015
 The
 ANGLE
@@ -155,6 +152,7 @@ TIntermSymbol
 *
 node
 )
+override
 {
 if
 (

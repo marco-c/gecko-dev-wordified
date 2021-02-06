@@ -565,9 +565,12 @@ newSequence
 /
 anonymous
 namespace
-void
+bool
 NameEmbeddedStructUniforms
 (
+TCompiler
+*
+compiler
 TIntermBlock
 *
 root
@@ -591,10 +594,13 @@ traverse
 nameStructs
 )
 ;
+return
 nameStructs
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

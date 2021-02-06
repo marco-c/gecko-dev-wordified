@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2010
 The
 ANGLE

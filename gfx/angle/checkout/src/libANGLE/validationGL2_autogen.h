@@ -30,7 +30,7 @@ xml
 /
 /
 Copyright
-2019
+2020
 The
 ANGLE
 Project
@@ -111,6 +111,7 @@ Context
 bool
 ValidateGetVertexAttribdv
 (
+const
 Context
 *
 context
@@ -118,6 +119,7 @@ GLuint
 index
 GLenum
 pname
+const
 GLdouble
 *
 params
@@ -126,6 +128,7 @@ params
 bool
 ValidateVertexAttrib1d
 (
+const
 Context
 *
 context
@@ -138,6 +141,7 @@ x
 bool
 ValidateVertexAttrib1dv
 (
+const
 Context
 *
 context
@@ -152,6 +156,7 @@ v
 bool
 ValidateVertexAttrib1s
 (
+const
 Context
 *
 context
@@ -164,6 +169,7 @@ x
 bool
 ValidateVertexAttrib1sv
 (
+const
 Context
 *
 context
@@ -178,6 +184,7 @@ v
 bool
 ValidateVertexAttrib2d
 (
+const
 Context
 *
 context
@@ -192,6 +199,7 @@ y
 bool
 ValidateVertexAttrib2dv
 (
+const
 Context
 *
 context
@@ -206,6 +214,7 @@ v
 bool
 ValidateVertexAttrib2s
 (
+const
 Context
 *
 context
@@ -220,6 +229,7 @@ y
 bool
 ValidateVertexAttrib2sv
 (
+const
 Context
 *
 context
@@ -234,6 +244,7 @@ v
 bool
 ValidateVertexAttrib3d
 (
+const
 Context
 *
 context
@@ -250,6 +261,7 @@ z
 bool
 ValidateVertexAttrib3dv
 (
+const
 Context
 *
 context
@@ -264,6 +276,7 @@ v
 bool
 ValidateVertexAttrib3s
 (
+const
 Context
 *
 context
@@ -280,6 +293,7 @@ z
 bool
 ValidateVertexAttrib3sv
 (
+const
 Context
 *
 context
@@ -294,6 +308,7 @@ v
 bool
 ValidateVertexAttrib4Nbv
 (
+const
 Context
 *
 context
@@ -308,6 +323,7 @@ v
 bool
 ValidateVertexAttrib4Niv
 (
+const
 Context
 *
 context
@@ -322,6 +338,7 @@ v
 bool
 ValidateVertexAttrib4Nsv
 (
+const
 Context
 *
 context
@@ -336,6 +353,7 @@ v
 bool
 ValidateVertexAttrib4Nub
 (
+const
 Context
 *
 context
@@ -354,6 +372,7 @@ w
 bool
 ValidateVertexAttrib4Nubv
 (
+const
 Context
 *
 context
@@ -368,6 +387,7 @@ v
 bool
 ValidateVertexAttrib4Nuiv
 (
+const
 Context
 *
 context
@@ -382,6 +402,7 @@ v
 bool
 ValidateVertexAttrib4Nusv
 (
+const
 Context
 *
 context
@@ -396,6 +417,7 @@ v
 bool
 ValidateVertexAttrib4bv
 (
+const
 Context
 *
 context
@@ -410,6 +432,7 @@ v
 bool
 ValidateVertexAttrib4d
 (
+const
 Context
 *
 context
@@ -428,6 +451,7 @@ w
 bool
 ValidateVertexAttrib4dv
 (
+const
 Context
 *
 context
@@ -442,6 +466,7 @@ v
 bool
 ValidateVertexAttrib4iv
 (
+const
 Context
 *
 context
@@ -456,6 +481,7 @@ v
 bool
 ValidateVertexAttrib4s
 (
+const
 Context
 *
 context
@@ -474,6 +500,7 @@ w
 bool
 ValidateVertexAttrib4sv
 (
+const
 Context
 *
 context
@@ -488,6 +515,7 @@ v
 bool
 ValidateVertexAttrib4ubv
 (
+const
 Context
 *
 context
@@ -502,6 +530,7 @@ v
 bool
 ValidateVertexAttrib4uiv
 (
+const
 Context
 *
 context
@@ -516,6 +545,7 @@ v
 bool
 ValidateVertexAttrib4usv
 (
+const
 Context
 *
 context

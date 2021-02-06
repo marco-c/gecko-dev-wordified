@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2012
 The
 ANGLE
 Project
@@ -579,6 +574,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 )
 ;
 /
@@ -723,6 +720,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 )
 ;
 angle
@@ -747,6 +746,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 )
 ;
 BufferFactoryD3D

@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2012
 The
 ANGLE
 Project
@@ -564,6 +559,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 unsigned
 int
 *
@@ -669,6 +666,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 unsigned
 int
 *
@@ -710,6 +709,8 @@ size_t
 count
 GLsizei
 instances
+GLuint
+baseInstance
 )
 ;
 private

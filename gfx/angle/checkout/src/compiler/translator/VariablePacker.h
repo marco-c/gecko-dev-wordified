@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2012
 The
 ANGLE
 Project
@@ -172,11 +167,6 @@ subclasses
 of
 ShaderVariable
 .
-template
-<
-typename
-T
->
 bool
 CheckVariablesInPackingLimits
 (
@@ -189,7 +179,7 @@ std
 :
 vector
 <
-T
+ShaderVariable
 >
 &
 variables

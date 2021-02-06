@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2016
 The
 ANGLE
@@ -1791,9 +1788,12 @@ this
 /
 /
 namespace
-void
+bool
 SimplifyLoopConditions
 (
+TCompiler
+*
+compiler
 TIntermNode
 *
 root
@@ -1821,10 +1821,13 @@ traverse
 traverser
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

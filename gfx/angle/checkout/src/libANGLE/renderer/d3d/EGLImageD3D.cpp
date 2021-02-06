@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2015
 The
 ANGLE
@@ -399,6 +396,7 @@ GL_NONE
 mState
 .
 imageIndex
+0
 &
 rt
 )

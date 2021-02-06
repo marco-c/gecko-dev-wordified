@@ -115,10 +115,11 @@ FramebufferAttachmentRenderTarget
 class
 FramebufferAttachmentObjectImpl
 :
+public
 angle
 :
 :
-NonCopyable
+Subject
 {
 public
 :
@@ -127,11 +128,11 @@ FramebufferAttachmentObjectImpl
 )
 {
 }
-virtual
 ~
 FramebufferAttachmentObjectImpl
 (
 )
+override
 {
 }
 virtual
@@ -157,6 +158,8 @@ gl
 ImageIndex
 &
 imageIndex
+GLsizei
+samples
 FramebufferAttachmentRenderTarget
 *
 *
@@ -214,6 +217,8 @@ gl
 ImageIndex
 &
 imageIndex
+GLsizei
+samples
 FramebufferAttachmentRenderTarget
 *
 *

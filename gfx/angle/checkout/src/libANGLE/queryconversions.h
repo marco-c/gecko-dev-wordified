@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2014
 The
 ANGLE
@@ -537,6 +534,7 @@ QueryT
 void
 CastStateValues
 (
+const
 Context
 *
 context

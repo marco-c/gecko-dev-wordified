@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2014
 The
 ANGLE
@@ -641,7 +638,6 @@ LUID
 adapterLuid
 =
 {
-0
 }
 ;
 if
@@ -1200,9 +1196,14 @@ switch
 hr
 )
 {
+#
+ifdef
+ANGLE_ENABLE_D3D9
 case
 D3DERR_OUTOFVIDEOMEMORY
 :
+#
+endif
 case
 E_OUTOFMEMORY
 :

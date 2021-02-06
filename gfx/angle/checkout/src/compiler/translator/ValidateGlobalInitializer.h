@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2015
 The
 ANGLE
 Project
@@ -76,6 +71,10 @@ TIntermTyped
 initializer
 int
 shaderVersion
+bool
+isWebGL
+bool
+hasExtNonConstGlobalInitializers
 bool
 *
 warning

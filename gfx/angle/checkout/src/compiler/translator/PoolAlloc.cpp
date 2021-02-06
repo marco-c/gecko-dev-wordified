@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2010
 The
 ANGLE
 Project
@@ -59,11 +54,13 @@ h
 "
 #
 include
-<
-assert
+"
+common
+/
+debug
 .
 h
->
+"
 #
 include
 "
@@ -83,7 +80,7 @@ InitializePoolIndex
 (
 )
 {
-assert
+ASSERT
 (
 PoolIndex
 =
@@ -109,7 +106,7 @@ FreePoolIndex
 (
 )
 {
-assert
+ASSERT
 (
 PoolIndex
 !
@@ -136,7 +133,7 @@ GetGlobalPoolAllocator
 (
 )
 {
-assert
+ASSERT
 (
 PoolIndex
 !
@@ -172,7 +169,7 @@ PoolAllocator
 poolAllocator
 )
 {
-assert
+ASSERT
 (
 PoolIndex
 !

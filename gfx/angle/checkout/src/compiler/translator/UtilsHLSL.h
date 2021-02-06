@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2014
 The
 ANGLE
@@ -473,6 +470,8 @@ bool
 useHLSLRowMajorPacking
 bool
 useStd140Packing
+bool
+forcePackingEnd
 )
 ;
 const

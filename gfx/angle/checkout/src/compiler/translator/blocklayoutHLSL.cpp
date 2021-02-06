@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2013
--
-2014
 The
 ANGLE
 Project
@@ -786,7 +781,7 @@ int
 HLSLVariableRegisterCount
 (
 const
-Uniform
+ShaderVariable
 &
 variable
 ShShaderOutput

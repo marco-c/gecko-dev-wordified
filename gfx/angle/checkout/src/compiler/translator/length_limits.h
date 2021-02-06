@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2011
--
-2014
 The
 ANGLE
 Project

@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2014
 The
 ANGLE
 Project
@@ -221,11 +216,11 @@ node
 override
 ;
 bool
-visitInvariantDeclaration
+visitGlobalQualifierDeclaration
 (
 Visit
 visit
-TIntermInvariantDeclaration
+TIntermGlobalQualifierDeclaration
 *
 node
 )

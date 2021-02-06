@@ -72,6 +72,7 @@ gl
 bool
 ValidateFogCoordPointer
 (
+const
 Context
 *
 context
@@ -92,6 +93,7 @@ true
 bool
 ValidateFogCoordd
 (
+const
 Context
 *
 context
@@ -106,6 +108,7 @@ true
 bool
 ValidateFogCoorddv
 (
+const
 Context
 *
 context
@@ -122,6 +125,7 @@ true
 bool
 ValidateFogCoordf
 (
+const
 Context
 *
 context
@@ -136,6 +140,7 @@ true
 bool
 ValidateFogCoordfv
 (
+const
 Context
 *
 context
@@ -152,6 +157,7 @@ true
 bool
 ValidateMultiDrawArrays
 (
+const
 Context
 *
 context
@@ -176,6 +182,7 @@ true
 bool
 ValidateMultiDrawElements
 (
+const
 Context
 *
 context
@@ -204,6 +211,7 @@ true
 bool
 ValidatePointParameteri
 (
+const
 Context
 *
 context
@@ -220,6 +228,7 @@ true
 bool
 ValidatePointParameteriv
 (
+const
 Context
 *
 context
@@ -238,6 +247,7 @@ true
 bool
 ValidateSecondaryColor3b
 (
+const
 Context
 *
 context
@@ -256,6 +266,7 @@ true
 bool
 ValidateSecondaryColor3bv
 (
+const
 Context
 *
 context
@@ -272,6 +283,7 @@ true
 bool
 ValidateSecondaryColor3d
 (
+const
 Context
 *
 context
@@ -290,6 +302,7 @@ true
 bool
 ValidateSecondaryColor3dv
 (
+const
 Context
 *
 context
@@ -306,6 +319,7 @@ true
 bool
 ValidateSecondaryColor3f
 (
+const
 Context
 *
 context
@@ -324,6 +338,7 @@ true
 bool
 ValidateSecondaryColor3fv
 (
+const
 Context
 *
 context
@@ -340,6 +355,7 @@ true
 bool
 ValidateSecondaryColor3i
 (
+const
 Context
 *
 context
@@ -358,6 +374,7 @@ true
 bool
 ValidateSecondaryColor3iv
 (
+const
 Context
 *
 context
@@ -374,6 +391,7 @@ true
 bool
 ValidateSecondaryColor3s
 (
+const
 Context
 *
 context
@@ -392,6 +410,7 @@ true
 bool
 ValidateSecondaryColor3sv
 (
+const
 Context
 *
 context
@@ -408,6 +427,7 @@ true
 bool
 ValidateSecondaryColor3ub
 (
+const
 Context
 *
 context
@@ -426,6 +446,7 @@ true
 bool
 ValidateSecondaryColor3ubv
 (
+const
 Context
 *
 context
@@ -442,6 +463,7 @@ true
 bool
 ValidateSecondaryColor3ui
 (
+const
 Context
 *
 context
@@ -460,6 +482,7 @@ true
 bool
 ValidateSecondaryColor3uiv
 (
+const
 Context
 *
 context
@@ -476,6 +499,7 @@ true
 bool
 ValidateSecondaryColor3us
 (
+const
 Context
 *
 context
@@ -494,6 +518,7 @@ true
 bool
 ValidateSecondaryColor3usv
 (
+const
 Context
 *
 context
@@ -510,6 +535,7 @@ true
 bool
 ValidateSecondaryColorPointer
 (
+const
 Context
 *
 context
@@ -532,6 +558,7 @@ true
 bool
 ValidateWindowPos2d
 (
+const
 Context
 *
 context
@@ -548,6 +575,7 @@ true
 bool
 ValidateWindowPos2dv
 (
+const
 Context
 *
 context
@@ -564,6 +592,7 @@ true
 bool
 ValidateWindowPos2f
 (
+const
 Context
 *
 context
@@ -580,6 +609,7 @@ true
 bool
 ValidateWindowPos2fv
 (
+const
 Context
 *
 context
@@ -596,6 +626,7 @@ true
 bool
 ValidateWindowPos2i
 (
+const
 Context
 *
 context
@@ -612,6 +643,7 @@ true
 bool
 ValidateWindowPos2iv
 (
+const
 Context
 *
 context
@@ -628,6 +660,7 @@ true
 bool
 ValidateWindowPos2s
 (
+const
 Context
 *
 context
@@ -644,6 +677,7 @@ true
 bool
 ValidateWindowPos2sv
 (
+const
 Context
 *
 context
@@ -660,6 +694,7 @@ true
 bool
 ValidateWindowPos3d
 (
+const
 Context
 *
 context
@@ -678,6 +713,7 @@ true
 bool
 ValidateWindowPos3dv
 (
+const
 Context
 *
 context
@@ -694,6 +730,7 @@ true
 bool
 ValidateWindowPos3f
 (
+const
 Context
 *
 context
@@ -712,6 +749,7 @@ true
 bool
 ValidateWindowPos3fv
 (
+const
 Context
 *
 context
@@ -728,6 +766,7 @@ true
 bool
 ValidateWindowPos3i
 (
+const
 Context
 *
 context
@@ -746,6 +785,7 @@ true
 bool
 ValidateWindowPos3iv
 (
+const
 Context
 *
 context
@@ -762,6 +802,7 @@ true
 bool
 ValidateWindowPos3s
 (
+const
 Context
 *
 context
@@ -780,6 +821,7 @@ true
 bool
 ValidateWindowPos3sv
 (
+const
 Context
 *
 context

@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2013
 The
 ANGLE
@@ -1515,7 +1512,6 @@ D3D11_QUERY_DATA_SO_STATISTICS
 soStats
 =
 {
-0
 }
 ;
 HRESULT
@@ -1641,7 +1637,6 @@ D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
 timeStats
 =
 {
-0
 }
 ;
 HRESULT

@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2010
 The
 ANGLE
 Project
@@ -100,7 +95,8 @@ compileOptions
 )
 override
 ;
-void
+ANGLE_NO_DISCARD
+bool
 translate
 (
 TIntermBlock

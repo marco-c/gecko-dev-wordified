@@ -72,6 +72,7 @@ gl
 bool
 ValidateMultiDrawArraysIndirectCount
 (
+const
 Context
 *
 context
@@ -96,6 +97,7 @@ true
 bool
 ValidateMultiDrawElementsIndirectCount
 (
+const
 Context
 *
 context
@@ -122,6 +124,7 @@ true
 bool
 ValidatePolygonOffsetClamp
 (
+const
 Context
 *
 context
@@ -140,6 +143,7 @@ true
 bool
 ValidateSpecializeShader
 (
+const
 Context
 *
 context

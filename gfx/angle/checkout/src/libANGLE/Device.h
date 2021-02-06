@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2015
 The
 ANGLE
@@ -167,8 +164,10 @@ const
 override
 ;
 Error
-getDevice
+getAttribute
 (
+EGLint
+attribute
 EGLAttrib
 *
 value

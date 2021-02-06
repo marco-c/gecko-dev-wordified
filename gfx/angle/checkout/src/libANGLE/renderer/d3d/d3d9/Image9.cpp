@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2012
 The
 ANGLE
 Project
@@ -489,7 +484,6 @@ D3DLOCKED_RECT
 sourceLocked
 =
 {
-0
 }
 ;
 result
@@ -534,7 +528,6 @@ D3DLOCKED_RECT
 destLocked
 =
 {
-0
 }
 ;
 result
@@ -781,14 +774,12 @@ D3DLOCKED_RECT
 sourceLock
 =
 {
-0
 }
 ;
 D3DLOCKED_RECT
 destLock
 =
 {
-0
 }
 ;
 HRESULT
@@ -1261,7 +1252,6 @@ D3DLOCKED_RECT
 sourceLocked
 =
 {
-0
 }
 ;
 result
@@ -1305,7 +1295,6 @@ D3DLOCKED_RECT
 destLocked
 =
 {
-0
 }
 ;
 result
@@ -3926,7 +3915,6 @@ D3DLOCKED_RECT
 sourceLock
 =
 {
-0
 }
 ;
 hr
@@ -3967,7 +3955,6 @@ D3DLOCKED_RECT
 destLock
 =
 {
-0
 }
 ;
 angle
@@ -5253,6 +5240,7 @@ getRenderTarget
 (
 context
 imageIndex
+0
 &
 renderTarget
 )
@@ -5364,6 +5352,7 @@ srcAttachment
 getRenderTarget
 (
 context
+0
 &
 renderTarget
 )

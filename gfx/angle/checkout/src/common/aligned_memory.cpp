@@ -377,7 +377,7 @@ false
 }
 /
 /
-Sanity
+Confidence
 check
 alignment
 just

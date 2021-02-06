@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2012
 The
 ANGLE
@@ -2643,6 +2640,7 @@ srcAttachment
 getRenderTarget
 (
 context
+0
 &
 rt11
 )

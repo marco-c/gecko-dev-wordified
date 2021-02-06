@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2015
 The
 ANGLE
 Project
@@ -1216,6 +1211,7 @@ name
 <
 <
 "
+(
 )
 '
 used

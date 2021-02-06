@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2017
 The
 ANGLE
@@ -2350,9 +2347,12 @@ node
 /
 /
 namespace
-void
+bool
 RemoveUnreferencedVariables
 (
+TCompiler
+*
+compiler
 TIntermBlock
 *
 root
@@ -2400,10 +2400,13 @@ traverse
 traverser
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2017
 The
 ANGLE
@@ -723,9 +720,12 @@ blocks
 when
 needed
 .
-void
+bool
 WrapSwitchStatementsInBlocks
 (
+TCompiler
+*
+compiler
 TIntermBlock
 *
 root
@@ -743,10 +743,13 @@ traverse
 traverser
 )
 ;
+return
 traverser
 .
 updateTree
 (
+compiler
+root
 )
 ;
 }

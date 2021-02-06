@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2002
--
-2014
 The
 ANGLE
 Project
@@ -4176,11 +4171,11 @@ bool
 EmulatePrecision
 :
 :
-visitInvariantDeclaration
+visitGlobalQualifierDeclaration
 (
 Visit
 visit
-TIntermInvariantDeclaration
+TIntermGlobalQualifierDeclaration
 *
 node
 )

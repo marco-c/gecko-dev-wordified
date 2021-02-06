@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2017
 The
 ANGLE
@@ -1313,7 +1310,13 @@ isAtomicCounterFunction
 const
 ;
 bool
-hasSamplerInStructParams
+hasSamplerInStructOrArrayParams
+(
+)
+const
+;
+bool
+hasSamplerInStructOrArrayOfArrayParams
 (
 )
 const

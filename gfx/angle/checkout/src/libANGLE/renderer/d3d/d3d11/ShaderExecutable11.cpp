@@ -3,12 +3,7 @@
 /
 /
 Copyright
-(
-c
-)
 2012
--
-2014
 The
 ANGLE
 Project
@@ -510,7 +505,6 @@ D3D11_BUFFER_DESC
 desc
 =
 {
-0
 }
 ;
 desc

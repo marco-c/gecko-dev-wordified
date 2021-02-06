@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2016
 The
 ANGLE
@@ -128,6 +125,15 @@ node
 static
 bool
 IsDynamicIndexingOfVectorOrMatrix
+(
+TIntermBinary
+*
+node
+)
+;
+static
+bool
+IsDynamicIndexingOfSwizzledVector
 (
 TIntermBinary
 *

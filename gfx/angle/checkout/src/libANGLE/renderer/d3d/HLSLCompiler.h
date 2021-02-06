@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2016
 The
 ANGLE

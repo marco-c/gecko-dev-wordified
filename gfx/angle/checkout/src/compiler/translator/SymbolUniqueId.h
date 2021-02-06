@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2017
 The
 ANGLE
@@ -180,6 +177,8 @@ mId
 enum
 class
 SymbolType
+:
+uint8_t
 {
 BuiltIn
 UserDefined
@@ -198,6 +197,8 @@ name
 enum
 class
 SymbolClass
+:
+uint8_t
 {
 Function
 Variable

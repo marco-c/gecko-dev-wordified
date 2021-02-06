@@ -3,9 +3,6 @@
 /
 /
 Copyright
-(
-c
-)
 2015
 The
 ANGLE
@@ -672,6 +669,9 @@ DIRTY_BIT_MAX
 ;
 bool
 mUsingZeroColorMaskWorkaround
+;
+bool
+mCurSampleAlphaToCoverage
 ;
 /
 /
