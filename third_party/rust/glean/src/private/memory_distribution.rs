@@ -154,10 +154,7 @@ types
 /
 /
 /
-This
-implements
-the
-developer
+Developer
 -
 facing
 API

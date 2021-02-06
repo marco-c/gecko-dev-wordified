@@ -757,10 +757,8 @@ types
 /
 /
 /
-This
-implements
-the
-specific
+Developer
+-
 facing
 API
 for
