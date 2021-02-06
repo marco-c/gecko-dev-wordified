@@ -575,8 +575,6 @@ client
 /
 shared
 /
-save
--
 screenshot
 "
 "
