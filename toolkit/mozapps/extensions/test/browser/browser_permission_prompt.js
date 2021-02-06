@@ -286,7 +286,6 @@ checked
 function
 clickEnableExtension
 (
-managerWindow
 addonElement
 )
 {
@@ -509,7 +508,6 @@ CUSTOM_THEME_ID
 ;
 clickEnableExtension
 (
-manager
 customTheme
 )
 ;
@@ -530,7 +528,6 @@ DEFAULT_THEME_ID
 ;
 clickEnableExtension
 (
-manager
 defaultTheme
 )
 ;
@@ -797,7 +794,6 @@ permissions
 ;
 clickEnableExtension
 (
-manager
 addon
 )
 ;
@@ -931,7 +927,6 @@ permissions
 ;
 clickEnableExtension
 (
-manager
 addon
 )
 ;

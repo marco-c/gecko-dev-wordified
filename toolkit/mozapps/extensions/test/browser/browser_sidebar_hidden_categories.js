@@ -919,8 +919,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 await
@@ -967,8 +965,6 @@ getSelectedViewId
 (
 )
 win
-.
-managerWindow
 .
 gViewController
 .

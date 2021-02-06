@@ -485,9 +485,9 @@ content
 /
 extensions
 /
-extensions
+aboutaddons
 .
-xhtml
+html
 "
 nsIAboutModule
 :

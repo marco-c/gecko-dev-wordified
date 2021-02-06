@@ -1014,11 +1014,7 @@ action
 {
 win
 .
-getHtmlBrowser
-(
-)
-.
-contentDocument
+document
 .
 querySelector
 (
@@ -3009,11 +3005,7 @@ doc
 =
 win
 .
-getHtmlBrowser
-(
-)
-.
-contentDocument
+document
 ;
 if
 (
@@ -3087,9 +3079,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-win
-.
-document
+doc
 "
 ViewChanged
 "

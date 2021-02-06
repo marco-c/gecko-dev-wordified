@@ -68,8 +68,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 /
@@ -114,8 +112,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 is
@@ -178,8 +174,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 is
@@ -235,8 +229,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 is
@@ -247,8 +239,6 @@ getSelectedViewId
 (
 )
 win
-.
-managerWindow
 .
 gViewController
 .
@@ -265,14 +255,10 @@ is
 (
 win
 .
-managerWindow
-.
 gViewController
 .
 currentViewId
 win
-.
-managerWindow
 .
 gViewController
 .
@@ -326,8 +312,6 @@ new
 CategoryUtilities
 (
 win
-.
-managerWindow
 )
 ;
 is
@@ -338,8 +322,6 @@ getSelectedViewId
 (
 )
 win
-.
-managerWindow
 .
 gViewController
 .
@@ -356,14 +338,10 @@ is
 (
 win
 .
-managerWindow
-.
 gViewController
 .
 currentViewId
 win
-.
-managerWindow
 .
 gViewController
 .

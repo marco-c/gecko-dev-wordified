@@ -111,7 +111,9 @@ MockFilePicker
 cleanup
 ;
 let
-managerWin
+{
+document
+}
 =
 await
 BrowserOpenAddonsMgr
@@ -140,8 +142,6 @@ BrowserTestUtils
 .
 waitForEvent
 (
-managerWin
-.
 document
 "
 ViewChanged
@@ -151,13 +151,7 @@ ViewChanged
 let
 installButton
 =
-managerWin
-.
-getHtmlBrowser
-(
-)
-.
-contentDocument
+document
 .
 querySelector
 (
