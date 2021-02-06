@@ -7980,6 +7980,11 @@ name
 tests
 .
 current_test
+&
+&
+tests
+.
+current_test
 .
 name
 args
@@ -18675,6 +18680,10 @@ the
 list
 of
 tests
+tests
+.
+current_test
+=
 async_test
 (
 )
