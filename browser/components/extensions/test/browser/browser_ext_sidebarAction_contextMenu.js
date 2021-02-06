@@ -760,7 +760,7 @@ querySelector
 #
 context
 -
-viewimageinfo
+copyimage
 "
 )
 ;

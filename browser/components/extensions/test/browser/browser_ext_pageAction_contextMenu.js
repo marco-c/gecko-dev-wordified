@@ -720,7 +720,7 @@ querySelector
 #
 context
 -
-viewimageinfo
+copyimage
 "
 )
 ;
@@ -734,6 +734,7 @@ hidden
 ;
 ok
 (
+!
 item
 .
 disabled
