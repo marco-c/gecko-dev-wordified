@@ -3029,9 +3029,6 @@ mKeepaliveRetryIntervalS
 int32_t
 mKeepaliveProbeCount
 ;
-nsresult
-mFirstRetryError
-;
 bool
 mDoNotRetryToConnect
 ;

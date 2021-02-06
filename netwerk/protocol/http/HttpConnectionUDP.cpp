@@ -334,13 +334,6 @@ h
 #
 include
 "
-TCPFastOpenLayer
-.
-h
-"
-#
-include
-"
 Http3Session
 .
 h
@@ -1038,8 +1031,6 @@ IsNullTransaction
 /
 For
 QUIC
-and
-TFO
 we
 have
 HttpConnecitonUDP
@@ -1054,9 +1045,7 @@ been
 establish
 so
 wait
-fo
-TFO
-and
+for
 TLS
 handshake
 to
