@@ -2775,6 +2775,15 @@ gHttpHandler
 UseHTTPSRRAsAltSvcEnabled
 (
 )
+&
+&
+!
+mConnInfo
+-
+>
+UsingConnect
+(
+)
 )
 {
 mHTTPSSVCReceivedStage
