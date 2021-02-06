@@ -883,8 +883,6 @@ handle
 :
 raw
 owned
-:
-owned
 }
 ;
 PlatformHandle

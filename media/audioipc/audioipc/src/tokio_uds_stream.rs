@@ -137,16 +137,10 @@ IoVec
 }
 ;
 use
-libc
-;
-use
 mio
 :
 :
 Ready
-;
-use
-mio_uds
 ;
 use
 std

@@ -51,9 +51,6 @@ RtPriorityThreadInfo
 ;
 use
 audioipc
-;
-use
-audioipc
 :
 :
 codec
@@ -169,9 +166,6 @@ futures
 :
 :
 Future
-;
-use
-slab
 ;
 use
 std

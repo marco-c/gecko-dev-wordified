@@ -352,10 +352,6 @@ D
 FnOnce
 (
 )
--
->
-(
-)
 +
 Send
 +
@@ -473,10 +469,6 @@ handle_tx
 send
 (
 handle
-.
-clone
-(
-)
 )
 )
 ;
@@ -550,14 +542,12 @@ recv
 (
 )
 .
-or_else
+map_err
 (
 |
 _
 |
 {
-Err
-(
 io
 :
 :
@@ -583,7 +573,6 @@ from
 spawned
 thread
 "
-)
 )
 }
 )
