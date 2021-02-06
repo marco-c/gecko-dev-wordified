@@ -406,7 +406,9 @@ is
 (
 browserAction
 .
-tabToRevokeDuringClearPopup
+action
+.
+activeTabForPreload
 tab
 "
 Tab
@@ -490,7 +492,9 @@ is
 (
 browserAction
 .
-tabToRevokeDuringClearPopup
+action
+.
+activeTabForPreload
 null
 "
 Tab
