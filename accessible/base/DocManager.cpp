@@ -831,6 +831,8 @@ RemoveFromXPCDocumentCache
 DocAccessible
 *
 aDocument
+bool
+aAllowServiceShutdown
 )
 {
 xpcAccessibleDocument
@@ -865,6 +867,9 @@ aDocument
 ;
 if
 (
+aAllowServiceShutdown
+&
+&
 !
 HasXPCDocuments
 (
@@ -894,6 +899,8 @@ aDocument
 Document
 *
 aDOMDocument
+bool
+aAllowServiceShutdown
 )
 {
 /
@@ -970,6 +977,7 @@ return
 RemoveFromXPCDocumentCache
 (
 aDocument
+aAllowServiceShutdown
 )
 ;
 mDocAccessibleCache
