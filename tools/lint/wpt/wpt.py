@@ -301,7 +301,7 @@ cmd
 =
 [
 "
-python2
+python3
 "
 os
 .
