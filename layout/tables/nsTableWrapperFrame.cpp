@@ -2742,6 +2742,7 @@ nsTableWrapperFrame
 GetCaptionSide
 (
 )
+const
 {
 if
 (
