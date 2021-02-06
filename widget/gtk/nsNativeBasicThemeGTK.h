@@ -246,11 +246,7 @@ ThemeSupportsScrollbarButtons
 (
 )
 override
-{
-return
-false
 ;
-}
 sRGBColor
 ComputeScrollbarThumbColor
 (
