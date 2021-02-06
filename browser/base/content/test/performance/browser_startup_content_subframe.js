@@ -585,6 +585,17 @@ resource
 /
 specialpowers
 /
+AppTestDelegateChild
+.
+jsm
+"
+"
+resource
+:
+/
+/
+specialpowers
+/
 WrapPrivileged
 .
 jsm
