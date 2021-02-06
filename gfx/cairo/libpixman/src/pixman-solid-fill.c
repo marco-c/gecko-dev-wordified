@@ -237,10 +237,6 @@ color
 {
 return
 (
-(
-unsigned
-int
-)
 color
 -
 >
@@ -254,10 +250,6 @@ alpha
 )
 |
 (
-(
-unsigned
-int
-)
 color
 -
 >
@@ -271,10 +263,6 @@ red
 )
 |
 (
-(
-unsigned
-int
-)
 color
 -
 >
@@ -284,10 +272,6 @@ green
 )
 |
 (
-(
-unsigned
-int
-)
 color
 -
 >

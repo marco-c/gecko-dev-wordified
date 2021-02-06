@@ -262,7 +262,7 @@ x
 {
 #
 ifdef
-HAVE_BUILTIN_CLZ
+__GNUC__
 return
 __builtin_clz
 (
@@ -2014,9 +2014,6 @@ int64_t
 div
 =
 (
-(
-uint64_t
-)
 divint
 <
 <
