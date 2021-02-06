@@ -649,6 +649,15 @@ CreateDecoderParamsForAsync
 aParams
 uint32_t
 aIndex
+Maybe
+<
+MediaResult
+>
+aEarlierError
+=
+Nothing
+(
+)
 )
 ;
 nsTArray
