@@ -790,6 +790,13 @@ nsIAccessibleEvent
 :
 :
 EVENT_LIVE_REGION_REMOVED
+kEVENT_WIN_UNKNOWN
+/
+/
+nsIAccessibleEvent
+:
+:
+EVENT_TABLE_STYLING_CHANGED
 /
 /
 clang
