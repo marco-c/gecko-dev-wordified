@@ -278,6 +278,10 @@ friend
 class
 nsSliderMediator
 ;
+friend
+class
+nsDisplaySliderMarks
+;
 explicit
 nsSliderFrame
 (
