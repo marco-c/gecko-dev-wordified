@@ -1757,14 +1757,6 @@ ParserAtom
 atom
 )
 ;
-bool
-IsKeyword
-(
-JSLinearString
-*
-str
-)
-;
 class
 MOZ_STACK_CLASS
 AutoFrontendTraceLog
