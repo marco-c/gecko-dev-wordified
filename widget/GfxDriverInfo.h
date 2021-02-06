@@ -1168,6 +1168,10 @@ MesaSoftPipe
 MesaSWRast
 /
 /
+AMD
+MesaR600
+/
+/
 Nouveau
 :
 Open
