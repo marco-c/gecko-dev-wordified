@@ -155,6 +155,11 @@ await
 waitForSelectedSource
 (
 dbg
+"
+simple2
+.
+js
+"
 )
 ;
 info
@@ -195,6 +200,11 @@ await
 waitForSelectedSource
 (
 dbg
+"
+simple2
+.
+js
+"
 )
 ;
 }
