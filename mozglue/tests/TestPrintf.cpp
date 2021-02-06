@@ -1241,10 +1241,10 @@ print_one
 "
 "
 %
-zu
+tu
 "
 (
-size_t
+ptrdiff_t
 )
 27270
 )
