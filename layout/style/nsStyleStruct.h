@@ -2385,6 +2385,7 @@ const
 nscolor
 BackgroundColor
 (
+const
 mozilla
 :
 :
