@@ -225,6 +225,7 @@ setInterval
 setIntervalWithTarget
 setTimeout
 setTimeoutWithTarget
+Date
 }
 ;
 Services
