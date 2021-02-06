@@ -3952,7 +3952,7 @@ useModal
 !
 this
 .
-highlightAll
+_highlightAll
 )
 {
 this
