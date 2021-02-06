@@ -193,6 +193,14 @@ doc_type
 self
 .
 doc_type
+FOG_BASELINE_PING
+=
+FOGDocTypePingFilter
+(
+"
+baseline
+"
+)
 FOG_DELETION_REQUEST_PING
 =
 FOGDocTypePingFilter
