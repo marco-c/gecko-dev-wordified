@@ -1083,6 +1083,12 @@ OVR_multiview2
 {
 resources
 .
+OVR_multiview
+=
+1
+;
+resources
+.
 OVR_multiview2
 =
 1
