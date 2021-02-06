@@ -1091,17 +1091,6 @@ ipc
 :
 :
 IPCResult
-RecvAudioDefaultDeviceChange
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvReinitRenderingForDeviceReset
 (
 )

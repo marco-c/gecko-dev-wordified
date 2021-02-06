@@ -3101,11 +3101,6 @@ namespaces
 )
 ;
 async
-AudioDefaultDeviceChange
-(
-)
-;
-async
 NetworkLinkTypeChange
 (
 uint32_t
