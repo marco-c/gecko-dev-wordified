@@ -3755,16 +3755,10 @@ system
 Linux
 "
 and
-platform
-.
-machine
-(
-)
+word_bits
 =
 =
-"
-x86_64
-"
+64
 :
         
 use_minidump
