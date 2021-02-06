@@ -125,7 +125,7 @@ h
 >
 /
 /
-uint32_t
+uint8_t
 #
 include
 "
@@ -213,7 +213,7 @@ NewSharedArrayBuffer
 JSContext
 *
 cx
-uint32_t
+size_t
 nbytes
 )
 ;
@@ -303,7 +303,7 @@ obj
 ;
 extern
 JS_PUBLIC_API
-uint32_t
+size_t
 GetSharedArrayBufferByteLength
 (
 JSObject
@@ -372,7 +372,7 @@ GetSharedArrayBufferLengthAndData
 JSObject
 *
 obj
-uint32_t
+size_t
 *
 length
 bool
