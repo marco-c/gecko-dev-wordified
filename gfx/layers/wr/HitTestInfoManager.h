@@ -316,7 +316,7 @@ aBuilder
 void
 SwitchItem
 (
-nsPaintedDisplayItem
+nsDisplayItem
 *
 aItem
 wr
