@@ -181,6 +181,9 @@ nsITimer
 h
 "
 class
+nsICookieJarSettings
+;
+class
 nsIThread
 ;
 class
@@ -1541,6 +1544,9 @@ aContentPolicyType
 nsIPrincipal
 *
 aRequestingPrincipal
+nsICookieJarSettings
+*
+aCookieJarSettings
 )
 ;
 NS_DECL_ISUPPORTS
