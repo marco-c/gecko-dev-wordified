@@ -1260,6 +1260,14 @@ startup
 (
 )
 ;
+if
+(
+!
+options
+.
+skipWaitForSearchEngine
+)
+{
 await
 AddonTestUtils
 .
@@ -1268,6 +1276,7 @@ waitForSearchProviderStartup
 extension
 )
 ;
+}
 return
 extension
 ;

@@ -16119,7 +16119,7 @@ Services
 .
 search
 .
-checkWebExtensionEngines
+runBackgroundChecks
 (
 )
 (

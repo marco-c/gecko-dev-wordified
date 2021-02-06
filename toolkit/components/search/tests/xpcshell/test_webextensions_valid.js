@@ -305,7 +305,7 @@ Services
 .
 search
 .
-checkWebExtensionEngines
+runBackgroundChecks
 (
 )
 ;
@@ -425,7 +425,7 @@ Services
 .
 search
 .
-checkWebExtensionEngines
+runBackgroundChecks
 (
 )
 ;
@@ -529,7 +529,7 @@ Services
 .
 search
 .
-checkWebExtensionEngines
+runBackgroundChecks
 (
 )
 ;
@@ -653,7 +653,7 @@ Services
 .
 search
 .
-checkWebExtensionEngines
+runBackgroundChecks
 (
 )
 ;
@@ -746,7 +746,7 @@ Services
 .
 search
 .
-checkWebExtensionEngines
+runBackgroundChecks
 (
 )
 ;
@@ -862,7 +862,7 @@ Services
 .
 search
 .
-checkWebExtensionEngines
+runBackgroundChecks
 (
 )
 ;
