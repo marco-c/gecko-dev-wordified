@@ -319,9 +319,6 @@ ThreadId
 source
 :
 SourcePayload
-isServiceWorker
-:
-boolean
 /
 /
 Many

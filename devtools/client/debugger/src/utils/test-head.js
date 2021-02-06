@@ -872,9 +872,6 @@ extensionName
 :
 null
 }
-isServiceWorker
-:
-false
 }
 ;
 }
