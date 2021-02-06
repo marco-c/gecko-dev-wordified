@@ -8452,6 +8452,12 @@ friend
 class
 AutoApplyAsyncTestAttributes
 ;
+bool
+SuppressAsyncScrollOffset
+(
+)
+const
+;
 /
 *
 *
