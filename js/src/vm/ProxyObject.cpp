@@ -1148,12 +1148,10 @@ JS
 :
 GCThingIsMarkedGray
 (
-JS
-:
-:
-GCCellPtr
-(
 priv
+.
+toGCCellPtr
+(
 )
 )
 )
