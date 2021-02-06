@@ -1473,7 +1473,7 @@ frame
 )
 .
 void
-OuterDoReflowChild
+ReflowChild
 (
 nsPresContext
 *
