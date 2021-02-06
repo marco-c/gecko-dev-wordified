@@ -8010,6 +8010,17 @@ hello_downgrade_check
 "
 security
 .
+tls
+.
+version
+.
+enable
+-
+deprecated
+"
+"
+security
+.
 warn_submit_secure_to_insecure
 "
 ]
