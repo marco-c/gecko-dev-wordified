@@ -135,11 +135,6 @@ FrameLayerBuilder
 h
 "
 "
-HitTestInfo
-.
-h
-"
-"
 LayerState
 .
 h
@@ -253,11 +248,6 @@ cpp
 "
 "
 FrameLayerBuilder
-.
-cpp
-"
-"
-HitTestInfo
 .
 cpp
 "
