@@ -9341,12 +9341,7 @@ cx_
 if
 (
 !
-this
--
->
-compilationState_
-.
-usedNames
+usedNames_
 .
 getUnboundPrivateNames
 (
@@ -45420,12 +45415,7 @@ maybeUnboundName
 if
 (
 !
-this
--
->
-compilationState_
-.
-usedNames
+usedNames_
 .
 hasUnboundPrivateNames
 (
