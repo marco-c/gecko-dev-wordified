@@ -6261,10 +6261,11 @@ too
 .
 if
 (
-aValue
 !
-=
-NS_ERROR_FILE_CORRUPTED
+IsDatabaseCorruptionError
+(
+aValue
+)
 |
 |
 aName
