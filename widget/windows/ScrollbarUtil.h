@@ -222,16 +222,6 @@ aButtonColor
 ;
 static
 nscolor
-AdjustScrollbarFaceColor
-(
-nscolor
-aFaceColor
-EventStates
-aStates
-)
-;
-static
-nscolor
 GetScrollbarTrackColor
 (
 nsIFrame
