@@ -586,6 +586,8 @@ mozilla
 ProfileChunkedBuffer
 &
 aChunkedBuffer
+StackCaptureOptions
+aCaptureOptions
 )
 {
 return
@@ -6058,6 +6060,11 @@ mozilla
 ProfileChunkedBuffer
 &
 aChunkedBuffer
+mozilla
+:
+:
+StackCaptureOptions
+aCaptureOptions
 )
 ;
 /
