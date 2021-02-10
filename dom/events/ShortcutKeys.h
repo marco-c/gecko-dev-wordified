@@ -178,6 +178,12 @@ WidgetKeyboardEvent
 aWidgetKeyboardEvent
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 protected
 :
 ShortcutKeys

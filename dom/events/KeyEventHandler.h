@@ -548,6 +548,15 @@ aMallocSizeOf
 )
 const
 ;
+void
+GetCommand
+(
+nsAString
+&
+aCommand
+)
+const
+;
 public
 :
 static
