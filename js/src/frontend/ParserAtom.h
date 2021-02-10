@@ -5316,8 +5316,6 @@ s
 )
 const
 ;
-public
-:
 const
 ParserAtom
 *
@@ -5338,6 +5336,8 @@ index
 )
 const
 ;
+public
+:
 void
 markUsedByStencil
 (
