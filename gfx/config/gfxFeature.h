@@ -339,16 +339,6 @@ Painting
 \
 _
 (
-ADVANCED_LAYERS
-Feature
-"
-Advanced
-Layers
-"
-)
-\
-_
-(
 WEBGPU
 Feature
 "

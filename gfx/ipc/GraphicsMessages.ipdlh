@@ -285,9 +285,6 @@ FeatureStatus
 oglCompositing
 ;
 FeatureStatus
-advancedLayers
-;
-FeatureStatus
 useD2D1
 ;
 FeatureStatus
@@ -374,10 +371,6 @@ d3d11Compositing
 FeatureFailure
 ?
 oglCompositing
-;
-FeatureFailure
-?
-advancedLayers
 ;
 D3D11DeviceStatus
 ?
