@@ -346,3 +346,7 @@ DEPRECATED_OPERATION
 (
 MathML_DeprecatedScriptsizemultiplierAttribute
 )
+DEPRECATED_OPERATION
+(
+FormSubmissionUntrustedEvent
+)
