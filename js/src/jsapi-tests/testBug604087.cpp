@@ -389,7 +389,7 @@ js
 Wrapper
 :
 :
-NewSingleton
+New
 (
 cx
 global
@@ -667,7 +667,7 @@ js
 Wrapper
 :
 :
-NewSingleton
+New
 (
 cx
 compartment2

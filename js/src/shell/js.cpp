@@ -4251,7 +4251,7 @@ js
 Wrapper
 :
 :
-NewSingleton
+New
 (
 cx
 global
