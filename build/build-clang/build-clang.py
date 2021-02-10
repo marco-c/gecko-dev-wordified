@@ -115,6 +115,12 @@ dir_util
 import
 copy_tree
 from
+distutils
+.
+file_util
+import
+copy_file
+from
 shutil
 import
 which
@@ -1461,8 +1467,41 @@ lib64
 "
 )
     
-clang_lib_dir
-=
+#
+This
+is
+necessary
+as
+long
+as
+CI
+runs
+on
+debian8
+docker
+images
+.
+    
+copy_file
+(
+        
+os
+.
+path
+.
+join
+(
+libgcc_dir
+"
+libstdc
++
++
+.
+so
+.
+6
+"
+)
 os
 .
 path
@@ -1473,6 +1512,8 @@ clang_dir
 "
 lib
 "
+)
+    
 )
     
 copy_tree
@@ -1506,9 +1547,9 @@ path
 .
 join
 (
-clang_dir
+clang_lib_dir
 "
-lib32
+32
 "
 )
     
