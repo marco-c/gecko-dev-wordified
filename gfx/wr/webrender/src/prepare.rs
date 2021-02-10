@@ -2361,19 +2361,6 @@ pic_index
 ]
 ;
 let
-raster_space
-=
-pic
-.
-get_raster_space_for_prim
-(
-prim_spatial_node_index
-frame_context
-.
-spatial_tree
-)
-;
-let
 surface
 =
 &
@@ -2457,7 +2444,6 @@ _
 )
 surface
 prim_spatial_node_index
-raster_space
 root_scaling_factor
 &
 pic_context

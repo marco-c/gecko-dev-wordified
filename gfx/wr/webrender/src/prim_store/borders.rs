@@ -64,6 +64,7 @@ api
 NormalBorder
 PremultipliedColorF
 Shadow
+RasterSpace
 }
 ;
 use
@@ -901,6 +902,12 @@ shadow
 :
 &
 Shadow
+_
+:
+bool
+_
+:
+RasterSpace
 )
 -
 >

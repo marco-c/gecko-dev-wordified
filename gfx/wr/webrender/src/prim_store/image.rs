@@ -65,6 +65,7 @@ AlphaType
 ColorDepth
 ColorF
 ColorU
+RasterSpace
 ImageKey
 as
 ApiImageKey
@@ -1979,6 +1980,12 @@ shadow
 :
 &
 Shadow
+_
+:
+bool
+_
+:
+RasterSpace
 )
 -
 >

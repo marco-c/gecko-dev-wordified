@@ -65,6 +65,7 @@ BorderRadius
 ClipMode
 ColorF
 ColorU
+RasterSpace
 }
 ;
 use
@@ -5368,6 +5369,12 @@ shadow
 :
 &
 Shadow
+_
+:
+bool
+_
+:
+RasterSpace
 )
 -
 >
