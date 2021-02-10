@@ -3256,6 +3256,16 @@ TRR_UNSET
 {
 aReason
 =
+rcode
+=
+=
+0x03
+?
+nsHostRecord
+:
+:
+TRR_NXDOMAIN
+:
 nsHostRecord
 :
 :
