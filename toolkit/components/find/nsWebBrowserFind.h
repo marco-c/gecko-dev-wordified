@@ -394,6 +394,7 @@ Length
 0
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SearchInFrame
 (
@@ -440,6 +441,7 @@ nsPIDOMWindowOuter
 aWindow
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ClearFrameSelection
 (

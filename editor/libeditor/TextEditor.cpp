@@ -3690,8 +3690,11 @@ Selection
 ErrorResult
 error
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
