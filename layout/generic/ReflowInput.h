@@ -1041,6 +1041,11 @@ WritingMode
 aCBWM
 nscoord
 aPercentBasis
+mozilla
+:
+:
+LayoutFrameType
+aFrameType
 )
 ;
 /
