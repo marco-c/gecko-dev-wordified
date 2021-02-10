@@ -100,6 +100,15 @@ nsNativeBasicThemeAndroid
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ClearOnShutdown
+.
+h
+"
 already_AddRefed
 <
 nsITheme
@@ -109,6 +118,9 @@ do_GetBasicNativeThemeDoNotUseDirectly
 )
 {
 static
+mozilla
+:
+:
 StaticRefPtr
 <
 nsITheme
