@@ -250,12 +250,6 @@ mScrollData
 struct
 TransactionData
 {
-wr
-:
-:
-IdNamespace
-mIdNamespace
-;
 nsTArray
 <
 WebRenderParentCommand
