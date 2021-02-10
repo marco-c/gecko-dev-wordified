@@ -4036,9 +4036,6 @@ the
 list
 of
 uses
-and
-the
-block
 empty
 .
 explicit
@@ -7329,8 +7326,6 @@ an
 instruction
 leaves
 the
-block
-and
 resume
 point
 as
