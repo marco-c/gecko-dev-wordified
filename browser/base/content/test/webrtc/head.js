@@ -2904,9 +2904,9 @@ aFrameBC
 ;
 aWindow
 .
-gIdentityHandler
+gPermissionPanel
 .
-_identityBox
+_identityPermissionBox
 .
 click
 (
@@ -2917,9 +2917,9 @@ popup
 =
 aWindow
 .
-gIdentityHandler
+gPermissionPanel
 .
-_identityPopup
+_permissionPopup
 ;
 /
 /
@@ -3014,7 +3014,7 @@ doc
 getElementById
 (
 "
-identity
+permission
 -
 popup
 -
@@ -3033,7 +3033,7 @@ querySelector
 (
 "
 .
-identity
+permission
 -
 popup
 -
@@ -3053,7 +3053,7 @@ icon
 +
 "
 .
-identity
+permission
 -
 popup
 -
@@ -3986,7 +3986,7 @@ i
 icon
 .
 let
-identityBox
+permissionBox
 =
 doc
 .
@@ -3994,6 +3994,8 @@ getElementById
 (
 "
 identity
+-
+permission
 -
 box
 "
@@ -4231,11 +4233,10 @@ sharing
 indicators
 inside
 the
-control
-center
-panel
+permission
+popup
 .
-identityBox
+permissionBox
 .
 click
 (
@@ -4246,9 +4247,9 @@ popup
 =
 aWin
 .
-gIdentityHandler
+gPermissionPanel
 .
-_identityPopup
+_permissionPopup
 ;
 /
 /
@@ -4336,7 +4337,7 @@ doc
 getElementById
 (
 "
-identity
+permission
 -
 popup
 -
@@ -4425,7 +4426,7 @@ is
 !
 aWin
 .
-gIdentityHandler
+gPermissionPanel
 .
 _sharingState
 .
@@ -4459,7 +4460,7 @@ querySelectorAll
 (
 "
 .
-identity
+permission
 -
 popup
 -
@@ -4498,8 +4499,7 @@ id
 "
 icon
 in
-control
-center
+permission
 panel
 "
 )
@@ -4568,8 +4568,7 @@ id
 icon
 in
 the
-control
-center
+permission
 panel
 "
 )
@@ -4654,9 +4653,9 @@ icon
 }
 aWin
 .
-gIdentityHandler
+gPermissionPanel
 .
-_identityPopup
+_permissionPopup
 .
 hidePopup
 (
@@ -4671,7 +4670,7 @@ waitForCondition
 )
 =
 >
-identityPopupHidden
+permissionPopupHidden
 (
 aWin
 )
@@ -5247,7 +5246,7 @@ reason
 }
 }
 function
-identityPopupHidden
+permissionPopupHidden
 (
 win
 =
@@ -5259,9 +5258,9 @@ popup
 =
 win
 .
-gIdentityHandler
+gPermissionPanel
 .
-_identityPopup
+_permissionPopup
 ;
 return
 !
@@ -5323,7 +5322,7 @@ notification
 ;
 ok
 (
-identityPopupHidden
+permissionPopupHidden
 (
 )
 "
@@ -5333,8 +5332,8 @@ the
 test
 with
 the
-control
-center
+permission
+panel
 hidden
 "
 )
