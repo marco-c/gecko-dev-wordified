@@ -58134,15 +58134,6 @@ IsActive
 &
 &
 !
-mBrowsingContext
--
->
-IsActive
-(
-)
-&
-&
-!
 Preferences
 :
 :
