@@ -3843,8 +3843,6 @@ JS
 OptimizedEncodingListener
 *
 listener
-JSTelemetrySender
-telemetrySender
 )
 {
 Decoder
@@ -3914,7 +3912,6 @@ mg
 init
 (
 nullptr
-telemetrySender
 )
 )
 {
@@ -3986,8 +3983,6 @@ bool
 >
 *
 cancelled
-JSTelemetrySender
-telemetrySender
 )
 {
 UniqueChars
@@ -4087,7 +4082,6 @@ mg
 init
 (
 nullptr
-telemetrySender
 )
 )
 {
@@ -4669,8 +4663,6 @@ error
 UniqueCharsVector
 *
 warnings
-JSTelemetrySender
-telemetrySender
 )
 {
 CompilerEnvironment
@@ -4792,7 +4784,6 @@ mg
 init
 (
 nullptr
-telemetrySender
 )
 )
 {
