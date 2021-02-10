@@ -2371,12 +2371,6 @@ InterpreterStubExitFrameLayout
 frame
 )
 ;
-void
-*
-GetContextSensitiveInterpreterStub
-(
-)
-;
 bool
 CheckOverRecursed
 (
