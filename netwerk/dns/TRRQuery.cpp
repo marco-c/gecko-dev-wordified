@@ -301,6 +301,8 @@ TRRQuery
 :
 Cancel
 (
+nsresult
+aStatus
 )
 {
 MutexAutoLock
@@ -319,6 +321,7 @@ mTrrA
 >
 Cancel
 (
+aStatus
 )
 ;
 mTrrA
@@ -336,6 +339,7 @@ mTrrAAAA
 >
 Cancel
 (
+aStatus
 )
 ;
 mTrrAAAA
@@ -353,6 +357,7 @@ mTrrByType
 >
 Cancel
 (
+aStatus
 )
 ;
 mTrrByType

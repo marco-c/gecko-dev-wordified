@@ -847,6 +847,16 @@ rcode
 (
 0x03
 )
+TRR_REQ_CANCELLED
+=
+31
+/
+/
+The
+request
+has
+been
+cancelled
 }
 ;
 /

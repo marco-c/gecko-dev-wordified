@@ -181,6 +181,8 @@ false
 void
 Cancel
 (
+nsresult
+aStatus
 )
 ;
 enum

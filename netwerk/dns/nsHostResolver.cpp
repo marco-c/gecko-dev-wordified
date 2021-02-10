@@ -1933,6 +1933,7 @@ query
 >
 Cancel
 (
+NS_ERROR_ABORT
 )
 ;
 }
