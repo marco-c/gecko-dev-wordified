@@ -2795,6 +2795,10 @@ PROFILER_MAX_INTERVAL
 milliseconds
 *
 /
+#
+define
+PROFILER_DEFAULT_ACTIVE_BROWSING_CONTEXT_ID
+0
 /
 /
 Initialize
