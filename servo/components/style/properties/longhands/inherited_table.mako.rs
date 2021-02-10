@@ -250,9 +250,6 @@ CaptionSide
 :
 Top
 "
-needs_context
-=
-False
 engines
 =
 "
