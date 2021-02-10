@@ -110,6 +110,15 @@ h
 #
 include
 "
+mozilla
+/
+ClearOnShutdown
+.
+h
+"
+#
+include
+"
 ScrollbarUtil
 .
 h

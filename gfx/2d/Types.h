@@ -2257,6 +2257,7 @@ a
 {
 }
 static
+constexpr
 sRGBColor
 White
 (
@@ -2281,6 +2282,7 @@ aA
 ;
 }
 static
+constexpr
 sRGBColor
 Black
 (
@@ -2305,6 +2307,7 @@ aA
 ;
 }
 static
+constexpr
 sRGBColor
 OpaqueWhite
 (
@@ -2320,6 +2323,7 @@ f
 ;
 }
 static
+constexpr
 sRGBColor
 OpaqueBlack
 (
@@ -2335,6 +2339,7 @@ f
 ;
 }
 static
+constexpr
 sRGBColor
 FromU8
 (
@@ -2387,6 +2392,7 @@ f
 ;
 }
 static
+constexpr
 sRGBColor
 FromABGR
 (
@@ -2394,8 +2400,8 @@ uint32_t
 aColor
 )
 {
+return
 sRGBColor
-newColor
 (
 (
 (
@@ -2478,9 +2484,6 @@ aColor
 0f
 )
 )
-;
-return
-newColor
 ;
 }
 /
@@ -2512,6 +2515,7 @@ is
 needed
 .
 static
+constexpr
 sRGBColor
 UnusualFromARGB
 (
@@ -2519,8 +2523,8 @@ uint32_t
 aColor
 )
 {
+return
 sRGBColor
-newColor
 (
 (
 (
@@ -2603,9 +2607,6 @@ aColor
 0f
 )
 )
-;
-return
-newColor
 ;
 }
 uint32_t
