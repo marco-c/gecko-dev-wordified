@@ -3215,6 +3215,11 @@ from
 )
 ;
 }
+_SetIsInlinableLargeFunction
+(
+String_substring
+)
+;
 /
 /
 ES2020
@@ -3482,6 +3487,11 @@ resultLength
 )
 ;
 }
+_SetIsInlinableLargeFunction
+(
+String_substr
+)
+;
 /
 /
 ES2021
@@ -3991,6 +4001,11 @@ span
 )
 ;
 }
+_SetIsInlinableLargeFunction
+(
+String_slice
+)
+;
 /
 /
 ES2020
