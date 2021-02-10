@@ -921,15 +921,6 @@ isEffectful
 &
 &
 !
-ins
--
->
-neverHoist
-(
-)
-&
-&
-!
 HasOperandInLoop
 (
 ins
