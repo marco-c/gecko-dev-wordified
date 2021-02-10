@@ -258,10 +258,11 @@ i
 var
 start
 =
-new
-Date
+elapsed
 (
 )
+/
+1000
 ;
     
 func
@@ -274,10 +275,11 @@ options
 var
 end
 =
-new
-Date
+elapsed
 (
 )
+/
+1000
 ;
     
 results
