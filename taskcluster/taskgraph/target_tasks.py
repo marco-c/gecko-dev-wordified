@@ -470,10 +470,6 @@ firefox
 "
     
 "
-jianshu
-"
-    
-"
 medium
 -
 article
