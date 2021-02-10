@@ -1240,7 +1240,6 @@ trc
 )
 ;
 }
-JS_HAZ_GC_POINTER
 ;
 /
 /
@@ -1936,7 +1935,6 @@ trc
 )
 ;
 }
-JS_HAZ_GC_POINTER
 ;
 struct
 MOZ_RAII
@@ -4564,7 +4562,6 @@ trc
 )
 ;
 }
-JS_HAZ_GC_POINTER
 ;
 /
 /
