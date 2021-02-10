@@ -227,7 +227,6 @@ h
 "
 /
 /
-ParserAtom
 ParserAtomsTable
 TaggedParserAtomIndex
 #
@@ -3081,19 +3080,6 @@ other
 )
 =
 default
-;
-const
-ParserAtom
-*
-getParserAtomAt
-(
-JSContext
-*
-cx
-TaggedParserAtomIndex
-taggedIndex
-)
-const
 ;
 bool
 prepareStorageFor
