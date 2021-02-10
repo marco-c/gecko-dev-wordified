@@ -17823,8 +17823,6 @@ isSelfHosting
 funName
 &
 &
-IsExtendedUnclonedSelfHostedFunctionName
-(
 this
 -
 >
@@ -17832,10 +17830,9 @@ parserAtoms
 (
 )
 .
-getParserAtom
+isExtendedUnclonedSelfHostedFunctionName
 (
 funName
-)
 )
 ;
 MOZ_ASSERT_IF
