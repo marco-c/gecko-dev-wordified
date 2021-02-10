@@ -1560,7 +1560,7 @@ include
 "
 frontend
 /
-CompilationInfo
+CompilationStencil
 .
 h
 "

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-frontend_CompilationInfo_h
+frontend_CompilationStencil_h
 #
 define
-frontend_CompilationInfo_h
+frontend_CompilationStencil_h
 #
 include
 "
@@ -4951,4 +4951,4 @@ js
 endif
 /
 /
-frontend_CompilationInfo_h
+frontend_CompilationStencil_h
