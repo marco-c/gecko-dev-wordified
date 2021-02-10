@@ -2100,6 +2100,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SelectAllChildrenJS
 (
@@ -3325,7 +3326,7 @@ selection
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 SelectAllChildren
 (
