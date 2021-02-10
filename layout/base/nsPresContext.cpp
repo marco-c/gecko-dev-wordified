@@ -5348,6 +5348,16 @@ TextZoom
 )
 )
 ;
+SetOverrideDPPX
+(
+browsingContext
+-
+>
+OverrideDPPX
+(
+)
+)
+;
 if
 (
 doc
