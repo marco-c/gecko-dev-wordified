@@ -5391,6 +5391,17 @@ result
 )
 const
 ;
+UniqueChars
+toNewUTF8CharsZ
+(
+JSContext
+*
+cx
+TaggedParserAtomIndex
+index
+)
+const
+;
 }
 ;
 /
