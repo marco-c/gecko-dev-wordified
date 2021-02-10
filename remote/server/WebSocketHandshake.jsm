@@ -170,6 +170,8 @@ remote
 /
 content
 /
+shared
+/
 Sync
 .
 jsm
