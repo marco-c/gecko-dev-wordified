@@ -819,6 +819,10 @@ run_test
 (
 )
 {
+do_get_profile
+(
+)
+;
 var
 selfuri
 =

@@ -380,6 +380,10 @@ localhost
 +
 port
 ;
+do_get_profile
+(
+)
+;
 registerCleanupFunction
 (
 (

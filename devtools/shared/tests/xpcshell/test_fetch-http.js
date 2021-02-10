@@ -261,6 +261,10 @@ length
 )
 ;
 }
+do_get_profile
+(
+)
+;
 registerCleanupFunction
 (
 (
