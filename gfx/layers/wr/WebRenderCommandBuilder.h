@@ -149,6 +149,17 @@ mozilla
 /
 layers
 /
+HitTestInfoManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 WebRenderMessages
 .
 h
@@ -1087,6 +1098,9 @@ aDisplayListBuilder
 ;
 ClipManager
 mClipManager
+;
+HitTestInfoManager
+mHitTestInfoManager
 ;
 /
 /

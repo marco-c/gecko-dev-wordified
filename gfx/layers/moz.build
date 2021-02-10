@@ -1747,6 +1747,13 @@ h
 "
 wr
 /
+HitTestInfoManager
+.
+h
+"
+"
+wr
+/
 IpcResourceUpdateQueue
 .
 h
@@ -3563,6 +3570,13 @@ cpp
 wr
 /
 DisplayItemCache
+.
+cpp
+"
+"
+wr
+/
+HitTestInfoManager
 .
 cpp
 "
