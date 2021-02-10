@@ -5353,6 +5353,14 @@ defined
 JS_JITSPEW
 )
 void
+dump
+(
+TaggedParserAtomIndex
+index
+)
+const
+;
+void
 dumpCharsNoQuote
 (
 js

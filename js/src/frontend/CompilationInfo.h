@@ -3319,6 +3319,14 @@ JSONPrinter
 json
 )
 ;
+void
+dumpAtom
+(
+TaggedParserAtomIndex
+index
+)
+const
+;
 #
 endif
 }
