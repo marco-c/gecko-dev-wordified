@@ -2665,7 +2665,12 @@ pc
 const
 {
 return
-pc_
+trackedSite_
+-
+>
+pc
+(
+)
 ;
 }
 uint32_t
@@ -4346,10 +4351,6 @@ tree
 .
 uint32_t
 numDominated_
-;
-jsbytecode
-*
-pc_
 ;
 LBlock
 *
