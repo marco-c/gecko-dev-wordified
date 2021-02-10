@@ -512,7 +512,7 @@ cond
 JSOp
 :
 :
-IfEq
+JumpIfFalse
 break
 /
 /

@@ -7396,7 +7396,7 @@ case
 JSOp
 :
 :
-IfEq
+JumpIfFalse
 :
 case
 JSOp
@@ -9589,7 +9589,7 @@ bool
 WarpBuilder
 :
 :
-build_IfEq
+build_JumpIfFalse
 (
 BytecodeLocation
 loc

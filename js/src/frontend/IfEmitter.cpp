@@ -282,7 +282,7 @@ Positive
 JSOp
 :
 :
-IfEq
+JumpIfFalse
 :
 JSOp
 :
