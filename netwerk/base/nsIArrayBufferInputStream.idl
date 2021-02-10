@@ -186,12 +186,10 @@ in
 jsval
 buffer
 in
-unsigned
-long
+uint64_t
 byteOffset
 in
-unsigned
-long
+uint64_t
 byteLen
 )
 ;
