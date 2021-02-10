@@ -337,7 +337,10 @@ use
 rayon
 ;
 use
-swgl_bindings
+webrender
+:
+:
+sw_compositor
 :
 :
 SwCompositor
