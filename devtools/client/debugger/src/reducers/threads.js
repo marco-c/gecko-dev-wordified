@@ -143,9 +143,6 @@ ThreadsState
 threads
 :
 ThreadList
-traits
-:
-Object
 isWebExtension
 :
 boolean
@@ -165,10 +162,6 @@ threads
 :
 [
 ]
-traits
-:
-{
-}
 isWebExtension
 :
 false
@@ -212,11 +205,6 @@ return
 .
 .
 state
-traits
-:
-action
-.
-traits
 isWebExtension
 :
 action

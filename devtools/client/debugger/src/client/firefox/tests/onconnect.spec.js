@@ -213,10 +213,6 @@ devToolsClient
 mainRoot
 :
 {
-traits
-:
-{
-}
 }
 }
 ;

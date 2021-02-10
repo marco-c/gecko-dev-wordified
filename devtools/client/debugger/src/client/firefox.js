@@ -762,13 +762,6 @@ e
 )
 )
 ;
-const
-{
-traits
-}
-=
-targetFront
-;
 await
 actions
 .
@@ -780,7 +773,6 @@ url
 threadFront
 .
 actor
-traits
 targetFront
 .
 isWebExtension
