@@ -4236,7 +4236,7 @@ isDerivedClassConstructor
 const
 ;
 bool
-isFieldInitializer
+isSyntheticFunction
 (
 )
 const

@@ -11945,8 +11945,8 @@ IsDerivedClassConstructor
 )
 IMMUTABLE_FLAG_GETTER
 (
-isFieldInitializer
-IsFieldInitializer
+isSyntheticFunction
+IsSyntheticFunction
 )
 IMMUTABLE_FLAG_GETTER
 (
