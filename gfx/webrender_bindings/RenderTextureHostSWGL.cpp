@@ -860,7 +860,7 @@ aContext
 wr
 :
 :
-WrSWGLCompositeSurfaceInfo
+SWGLCompositeSurfaceInfo
 *
 aInfo
 )
@@ -1148,7 +1148,7 @@ aId
 wr
 :
 :
-WrSWGLCompositeSurfaceInfo
+SWGLCompositeSurfaceInfo
 *
 aInfo
 )
