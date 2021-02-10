@@ -3213,11 +3213,12 @@ docshell
 if
 (
 !
-aDocument
--
->
-IsVisibleConsideringAncestors
+nsCoreUtils
+:
+:
+IsDocumentVisibleConsideringInProcessAncestors
 (
+aDocument
 )
 |
 |

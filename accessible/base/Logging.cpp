@@ -1323,11 +1323,12 @@ svisible
 considering
 ancestors
 "
-aDocumentNode
--
->
-IsVisibleConsideringAncestors
+nsCoreUtils
+:
+:
+IsDocumentVisibleConsideringInProcessAncestors
 (
+aDocumentNode
 )
 ?
 "
