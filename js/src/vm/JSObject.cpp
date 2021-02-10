@@ -12511,14 +12511,14 @@ copies
 /
 -
 Only
-propegate
+propagate
 along
 proto
 chain
 if
 we
 are
-mark
+marked
 DELEGATE
 .
 This
@@ -12546,7 +12546,7 @@ and
 don
 '
 t
-propegate
+propagate
 reshapes
 through
 /
