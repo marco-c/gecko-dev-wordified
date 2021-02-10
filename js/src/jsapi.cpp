@@ -34964,7 +34964,7 @@ res
 }
 UniquePtr
 <
-XDRIncrementalEncoderBase
+XDRIncrementalStencilEncoder
 >
 xdrEncoder
 ;

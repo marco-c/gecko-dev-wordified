@@ -954,7 +954,7 @@ useStencilXDR
 ;
 UniquePtr
 <
-XDRIncrementalEncoderBase
+XDRIncrementalStencilEncoder
 >
 xdrEncoder
 ;
