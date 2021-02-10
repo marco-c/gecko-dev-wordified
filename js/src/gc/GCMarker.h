@@ -2742,6 +2742,8 @@ markAllDelayedChildren
 SliceBudget
 &
 budget
+ShouldReportMarkTime
+reportTime
 )
 ;
 bool

@@ -13588,6 +13588,7 @@ if
 markAllDelayedChildren
 (
 budget
+reportTime
 )
 )
 {
@@ -19055,6 +19056,8 @@ markAllDelayedChildren
 SliceBudget
 &
 budget
+ShouldReportMarkTime
+reportTime
 )
 {
 MOZ_ASSERT
@@ -19103,17 +19106,7 @@ ap
 ;
 if
 (
-gc
-.
-state
-(
-)
-=
-=
-State
-:
-:
-Mark
+reportTime
 )
 {
 ap
