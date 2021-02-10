@@ -1898,15 +1898,6 @@ create
 \
 _
 (
-MakeDefaultConstructor
-js
-:
-:
-MakeDefaultConstructor
-)
-\
-_
-(
 MutatePrototype
 js
 :

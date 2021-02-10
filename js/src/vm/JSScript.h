@@ -17208,11 +17208,6 @@ ScriptSourceObject
 *
 >
 sourceObject
-SourceExtent
-*
-maybeClassExtent
-=
-nullptr
 )
 ;
 JSScript
