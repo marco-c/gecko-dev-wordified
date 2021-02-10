@@ -472,11 +472,6 @@ OffscreenCanvas
 h
 "
 "
-ProducerConsumerQueue
-.
-h
-"
-"
 QueueParamTraits
 .
 h
@@ -493,11 +488,6 @@ h
 "
 "
 WebGLCommandQueue
-.
-h
-"
-"
-WebGLCrossProcessCommandQueue
 .
 h
 "
@@ -646,11 +636,6 @@ HostWebGLContext
 cpp
 "
 "
-Queue
-.
-cpp
-"
-"
 TexUnpackBlob
 .
 cpp
@@ -782,11 +767,6 @@ cpp
 "
 "
 WebGLContextVertices
-.
-cpp
-"
-"
-WebGLCrossProcessCommandQueue
 .
 cpp
 "
