@@ -525,6 +525,7 @@ consideration
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

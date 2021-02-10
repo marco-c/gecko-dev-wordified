@@ -348,6 +348,7 @@ element
 const
 click
 =
+async
 (
 node
 win
@@ -357,6 +358,7 @@ window
 =
 >
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -389,6 +391,7 @@ element
 const
 dblclick
 =
+async
 (
 node
 win
@@ -398,6 +401,7 @@ window
 =
 >
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -429,6 +433,7 @@ element
 const
 mousedown
 =
+async
 (
 node
 win
@@ -438,6 +443,7 @@ window
 =
 >
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -474,6 +480,7 @@ element
 const
 rightMousedown
 =
+async
 (
 node
 win
@@ -483,6 +490,7 @@ window
 =
 >
 {
+await
 EventUtils
 .
 sendMouseEvent

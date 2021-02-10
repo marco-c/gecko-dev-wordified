@@ -853,6 +853,7 @@ if
 enableButton
 )
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -3351,6 +3352,7 @@ BrowserTestUtils
 .
 waitForCondition
 (
+async
 (
 )
 =
@@ -3419,6 +3421,7 @@ false
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -3523,6 +3526,7 @@ selected
 .
 *
 /
+async
 function
 selectRow
 (
@@ -3565,6 +3569,7 @@ false
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -3756,6 +3761,7 @@ false
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

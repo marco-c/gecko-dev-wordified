@@ -239,6 +239,7 @@ the
 side
 panel
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -265,6 +266,7 @@ the
 Response
 "
 panel
+await
 clickOnSidebarTab
 (
 document

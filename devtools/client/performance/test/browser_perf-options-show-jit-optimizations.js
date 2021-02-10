@@ -431,6 +431,7 @@ focus
 "
 )
 ;
+await
 mousedown
 (
 window
@@ -597,6 +598,7 @@ focus
 "
 )
 ;
+await
 mousedown
 (
 window
@@ -743,6 +745,7 @@ focus
 "
 )
 ;
+await
 mousedown
 (
 window
@@ -921,6 +924,7 @@ focus
 "
 )
 ;
+await
 mousedown
 (
 window

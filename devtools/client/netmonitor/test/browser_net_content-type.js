@@ -225,6 +225,7 @@ scrollIntoView
 (
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

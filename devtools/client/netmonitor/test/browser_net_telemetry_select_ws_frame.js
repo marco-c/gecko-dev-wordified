@@ -288,6 +288,7 @@ the
 side
 panel
 .
+await
 EventUtils
 .
 sendMouseEvent
@@ -357,6 +358,7 @@ Response
 "
 panel
 .
+await
 clickOnSidebarTab
 (
 document
@@ -477,6 +479,7 @@ LONGSTRING_RESOLVED
 /
 Select
 frame
+await
 EventUtils
 .
 sendMouseEvent

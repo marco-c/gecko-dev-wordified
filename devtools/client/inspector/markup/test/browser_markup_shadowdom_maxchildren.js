@@ -783,6 +783,7 @@ container
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

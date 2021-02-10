@@ -443,6 +443,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

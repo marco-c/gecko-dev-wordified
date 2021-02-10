@@ -309,6 +309,7 @@ selected
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

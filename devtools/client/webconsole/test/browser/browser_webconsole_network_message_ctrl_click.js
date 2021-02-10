@@ -246,6 +246,7 @@ url
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

@@ -1503,6 +1503,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

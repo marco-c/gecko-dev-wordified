@@ -169,6 +169,7 @@ DownloadsBlockedSubview
 subview
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -291,6 +292,7 @@ DownloadsBlockedSubview
 subview
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -432,6 +434,7 @@ DownloadsBlockedSubview
 subview
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

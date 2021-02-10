@@ -140,6 +140,7 @@ tab
 7
 )
 ;
+await
 testCopyUrlParamsHidden
 (
 0
@@ -155,6 +156,7 @@ a
 "
 )
 ;
+await
 testCopyPostDataHidden
 (
 0
@@ -178,6 +180,7 @@ bar
 '
 )
 ;
+await
 testCopyUrlParamsHidden
 (
 1
@@ -195,6 +198,7 @@ b
 "
 )
 ;
+await
 testCopyPostDataHidden
 (
 1
@@ -218,6 +222,7 @@ bar
 '
 )
 ;
+await
 testCopyUrlParamsHidden
 (
 2
@@ -235,6 +240,7 @@ b
 "
 )
 ;
+await
 testCopyPostDataHidden
 (
 2
@@ -252,6 +258,7 @@ bar
 "
 )
 ;
+await
 testCopyUrlParamsHidden
 (
 3
@@ -267,6 +274,7 @@ a
 "
 )
 ;
+await
 testCopyPostDataHidden
 (
 3
@@ -290,6 +298,7 @@ bar
 '
 )
 ;
+await
 testCopyUrlParamsHidden
 (
 4
@@ -307,6 +316,7 @@ b
 "
 )
 ;
+await
 testCopyPostDataHidden
 (
 4
@@ -330,6 +340,7 @@ bar
 '
 )
 ;
+await
 testCopyUrlParamsHidden
 (
 5
@@ -347,6 +358,7 @@ b
 "
 )
 ;
+await
 testCopyPostDataHidden
 (
 5
@@ -365,6 +377,7 @@ bar
 "
 )
 ;
+await
 testCopyRequestDataLabel
 (
 5
@@ -373,24 +386,28 @@ POST
 "
 )
 ;
+await
 testCopyUrlParamsHidden
 (
 6
 true
 )
 ;
+await
 testCopyPostDataHidden
 (
 6
 true
 )
 ;
+await
 testCopyPostDataHidden
 (
 7
 false
 )
 ;
+await
 testCopyRequestDataLabel
 (
 7
@@ -399,12 +416,14 @@ PATCH
 "
 )
 ;
+await
 testCopyPostDataHidden
 (
 8
 false
 )
 ;
+await
 testCopyRequestDataLabel
 (
 8
@@ -419,6 +438,7 @@ teardown
 monitor
 )
 ;
+async
 function
 testCopyUrlParamsHidden
 (
@@ -426,6 +446,7 @@ index
 hidden
 )
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -455,6 +476,7 @@ index
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -552,6 +574,7 @@ index
 queryString
 )
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -581,6 +604,7 @@ index
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -664,6 +688,7 @@ correct
 )
 ;
 }
+async
 function
 testCopyPostDataHidden
 (
@@ -671,6 +696,7 @@ index
 hidden
 )
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -700,6 +726,7 @@ index
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -789,6 +816,7 @@ hidden
 )
 ;
 }
+async
 function
 testCopyRequestDataLabel
 (
@@ -796,6 +824,7 @@ index
 method
 )
 {
+await
 EventUtils
 .
 sendMouseEvent
@@ -825,6 +854,7 @@ index
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -990,6 +1020,7 @@ requestPostData
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1019,6 +1050,7 @@ index
 ]
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

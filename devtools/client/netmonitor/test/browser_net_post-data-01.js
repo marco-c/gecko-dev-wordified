@@ -265,6 +265,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -497,6 +498,7 @@ item
 2
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -526,6 +528,7 @@ item
 ]
 )
 ;
+await
 clickOnSidebarTab
 (
 document
@@ -594,6 +597,7 @@ code
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

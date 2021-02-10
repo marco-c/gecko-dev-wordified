@@ -300,6 +300,7 @@ Select
 the
 first
 request
+await
 EventUtils
 .
 sendMouseEvent
@@ -326,6 +327,7 @@ the
 Response
 "
 panel
+await
 clickOnSidebarTab
 (
 document
@@ -402,6 +404,7 @@ Click
 on
 filter
 menu
+await
 EventUtils
 .
 sendMouseEvent
@@ -731,6 +734,7 @@ item
 3
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

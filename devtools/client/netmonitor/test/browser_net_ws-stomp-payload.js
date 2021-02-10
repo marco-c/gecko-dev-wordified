@@ -325,6 +325,7 @@ Select
 the
 first
 request
+await
 EventUtils
 .
 sendMouseEvent
@@ -351,6 +352,7 @@ the
 Response
 "
 panel
+await
 clickOnSidebarTab
 (
 document
@@ -467,6 +469,7 @@ requestFrame
 =
 frames
 ;
+await
 EventUtils
 .
 sendMouseEvent

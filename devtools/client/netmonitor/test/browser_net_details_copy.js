@@ -218,6 +218,7 @@ the
 url
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -314,6 +315,7 @@ copy
 all
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -643,6 +645,7 @@ for
 copy
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -720,6 +723,7 @@ copy
 all
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -973,6 +977,7 @@ toggleNetworkDetails
 )
 )
 ;
+await
 clickOnSidebarTab
 (
 document
@@ -1040,6 +1045,7 @@ an
 object
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -1134,6 +1140,7 @@ copy
 all
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -1206,6 +1213,7 @@ single
 row
 *
 /
+await
 EventUtils
 .
 sendMouseEvent
@@ -1417,6 +1425,7 @@ overview
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1449,6 +1458,7 @@ item
 await
 wait
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1478,6 +1488,7 @@ item
 ]
 )
 ;
+await
 clickOnSidebarTab
 (
 document
@@ -1601,6 +1612,7 @@ objectRows
 i
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -1712,6 +1724,7 @@ length
 i
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent

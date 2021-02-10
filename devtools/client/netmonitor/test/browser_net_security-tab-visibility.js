@@ -397,6 +397,7 @@ request
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -538,6 +539,7 @@ tab
 )
 )
 ;
+await
 clickOnSidebarTab
 (
 document

@@ -241,6 +241,7 @@ item
 0
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -347,6 +348,7 @@ request
 Mark
 as
 blocked
+await
 EventUtils
 .
 sendMouseEvent
@@ -550,6 +552,7 @@ item
 0
 ]
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -656,6 +659,7 @@ request
 Mark
 as
 unblocked
+await
 EventUtils
 .
 sendMouseEvent
@@ -823,6 +827,7 @@ transferred
 .
 textContent
 ;
+await
 EventUtils
 .
 sendMouseEvent

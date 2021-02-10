@@ -687,6 +687,7 @@ blocked
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

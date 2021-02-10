@@ -230,6 +230,7 @@ tab
 )
 )
 ;
+await
 clickOnSidebarTab
 (
 document

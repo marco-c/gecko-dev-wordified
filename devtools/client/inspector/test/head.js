@@ -7244,6 +7244,7 @@ shown
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -7285,6 +7286,7 @@ hidden
 "
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent

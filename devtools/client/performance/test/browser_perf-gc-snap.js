@@ -295,6 +295,7 @@ end
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -379,6 +380,7 @@ EVENTS
 UI_MEMORY_CALL_TREE_RENDERED
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -557,6 +559,7 @@ end
 }
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -638,6 +641,7 @@ EVENTS
 UI_MEMORY_CALL_TREE_RENDERED
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
@@ -900,6 +904,7 @@ getMarkers
 (
 )
 ;
+await
 EventUtils
 .
 sendMouseEvent
