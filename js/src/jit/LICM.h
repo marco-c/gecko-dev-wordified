@@ -126,15 +126,6 @@ Code
 Motion
 optimization
 pass
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 js
 {

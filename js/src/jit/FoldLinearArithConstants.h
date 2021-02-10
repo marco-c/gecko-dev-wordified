@@ -114,15 +114,6 @@ jit_FoldLinearArithConstants_h
 #
 define
 jit_FoldLinearArithConstants_h
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 js
 {
