@@ -4052,7 +4052,7 @@ XDRMode
 mode
 >
 XDRResult
-XDRParserAtomEntry
+XDRParserAtom
 (
 XDRState
 <
@@ -4063,7 +4063,7 @@ xdr
 frontend
 :
 :
-ParserAtomEntry
+ParserAtom
 *
 *
 atomp

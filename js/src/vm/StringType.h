@@ -361,9 +361,6 @@ class
 ParserAtom
 ;
 class
-ParserAtomEntry
-;
-class
 TaggedParserAtomIndex
 ;
 class
@@ -8789,7 +8786,7 @@ js
 frontend
 :
 :
-ParserAtomEntry
+ParserAtom
 ;
 friend
 class
