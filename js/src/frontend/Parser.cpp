@@ -43628,11 +43628,7 @@ this
 parserAtoms
 (
 )
-.
-getParserAtom
-(
 propAtom
-)
 )
 )
 {

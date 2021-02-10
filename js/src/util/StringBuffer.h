@@ -152,7 +152,6 @@ h
 "
 /
 /
-ParserAtom
 ParserAtomsTable
 TaggedParserAtomIndex
 #
@@ -1646,8 +1645,13 @@ const
 frontend
 :
 :
-ParserAtom
-*
+ParserAtomsTable
+&
+parserAtoms
+frontend
+:
+:
+TaggedParserAtomIndex
 atom
 )
 ;

@@ -274,6 +274,9 @@ StringEqualsAscii
 namespace
 js
 {
+class
+StringBuffer
+;
 namespace
 frontend
 {
@@ -5414,6 +5417,17 @@ index
 CompilationAtomCache
 &
 atomCache
+)
+const
+;
+bool
+appendTo
+(
+StringBuffer
+&
+buffer
+TaggedParserAtomIndex
+index
 )
 const
 ;
