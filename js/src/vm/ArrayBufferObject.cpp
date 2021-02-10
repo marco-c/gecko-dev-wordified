@@ -6801,7 +6801,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -6907,7 +6907,7 @@ byteLength
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 )
