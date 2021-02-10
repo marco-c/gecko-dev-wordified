@@ -43997,6 +43997,8 @@ BrowsingContext
 >
 &
 aContext
+CallerType
+aCallerType
 )
 {
 if
@@ -44094,6 +44096,7 @@ cp
 SendWindowBlur
 (
 context
+aCallerType
 )
 ;
 return

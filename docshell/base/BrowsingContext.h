@@ -4482,6 +4482,8 @@ aError
 void
 Blur
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -5616,6 +5618,13 @@ bool
 bool
 >
 CanFocusCheck
+(
+CallerType
+aCallerType
+)
+;
+bool
+CanBlurCheck
 (
 CallerType
 aCallerType
