@@ -11855,11 +11855,9 @@ name
 {
 eitherParser_
 .
-getCompilationState
+parserAtoms
 (
 )
-.
-parserAtoms
 .
 markUsedByStencil
 (

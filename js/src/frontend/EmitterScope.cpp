@@ -1219,9 +1219,9 @@ input
 bce
 -
 >
-compilationState
-.
 parserAtoms
+(
+)
 name
 hops
 )
@@ -2130,9 +2130,9 @@ cx
 bce
 -
 >
-compilationState
-.
 parserAtoms
+(
+)
 atom
 )
 ;
