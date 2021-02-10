@@ -17,11 +17,6 @@ OrderedDict
 import
 taskcluster
 from
-six
-import
-iteritems
-itervalues
-from
 .
 import
 taskgraph
@@ -241,9 +236,10 @@ for
 name
 task
 in
-iteritems
-(
 all_tasks
+.
+items
+(
 )
 :
         
@@ -758,9 +754,10 @@ for
 name
 task
 in
-iteritems
-(
 tasks
+.
+items
+(
 )
 :
         
@@ -2427,9 +2424,10 @@ for
 task_name
 task
 in
-iteritems
-(
 tasks
+.
+items
+(
 )
 :
         
@@ -2677,9 +2675,10 @@ task_id
 task_data
 )
 in
-itervalues
-(
 task_id_map
+.
+values
+(
 )
 :
         

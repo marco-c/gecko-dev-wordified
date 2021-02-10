@@ -19,7 +19,6 @@ six
 import
 ensure_text
 ensure_str
-iteritems
 try
 :
     
@@ -848,9 +847,10 @@ for
 commit
 parents
 in
-iteritems
-(
 commit_parents
+.
+items
+(
 )
 :
             

@@ -12,12 +12,6 @@ distutils
 spawn
 import
 find_executable
-from
-six
-.
-moves
-import
-input
 wpt_root
 =
 os
@@ -5636,20 +5630,16 @@ wptrunner
 import
 wptcommandline
     
-from
-six
-import
-iteritems
-    
 kwargs
 =
 utils
 .
 Kwargs
 (
-iteritems
-(
 kwargs
+.
+items
+(
 )
 )
     

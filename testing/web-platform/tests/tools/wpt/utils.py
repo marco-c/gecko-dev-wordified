@@ -31,10 +31,6 @@ NOQA
 :
 N812
 from
-six
-.
-moves
-.
 urllib
 .
 request

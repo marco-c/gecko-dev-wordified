@@ -13,13 +13,7 @@ copy
 import
 deepcopy
 import
-six
-import
 yaml
-from
-six
-import
-iteritems
 here
 =
 os
@@ -129,9 +123,10 @@ for
 key
 value
 in
-iteritems
-(
 update_data
+.
+items
+(
 )
 :
         
@@ -569,9 +564,7 @@ if
 isinstance
 (
 data
-six
-.
-string_types
+str
 )
 :
         
@@ -625,9 +618,10 @@ for
 key
 value
 in
-iteritems
-(
 data
+.
+items
+(
 )
 }
     
@@ -1108,9 +1102,10 @@ for
 task_default_name
 data
 in
-iteritems
-(
 map_resolved_tasks
+.
+items
+(
 )
 :
         

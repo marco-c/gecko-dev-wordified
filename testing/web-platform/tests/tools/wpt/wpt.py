@@ -17,10 +17,6 @@ noqa
 :
 F401
 from
-six
-import
-iteritems
-from
 .
 import
 virtualenv
@@ -181,9 +177,10 @@ for
 command
 props
 in
-iteritems
-(
 data
+.
+items
+(
 )
 :
                 
@@ -527,9 +524,10 @@ for
 command
 props
 in
-iteritems
-(
 commands
+.
+items
+(
 )
 :
         

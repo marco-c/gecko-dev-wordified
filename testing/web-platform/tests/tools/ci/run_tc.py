@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 "
 "
 "
@@ -470,6 +470,28 @@ f
 subprocess
 .
 check_output
+        
+if
+"
+encoding
+"
+not
+in
+kwargs
+:
+            
+kwargs
+[
+"
+encoding
+"
+]
+=
+"
+utf
+-
+8
+"
     
 else
 :
@@ -1302,7 +1324,7 @@ open
 (
 dest
 "
-w
+wb
 "
 )
 as
