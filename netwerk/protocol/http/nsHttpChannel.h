@@ -2142,6 +2142,10 @@ bool
 aShouldUpgrade
 nsresult
 aStatus
+bool
+aUpgradeWithHTTPSRR
+=
+false
 )
 ;
 nsresult
