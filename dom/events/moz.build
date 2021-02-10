@@ -187,9 +187,6 @@ DIRS
 +
 =
 [
-"
-android
-"
 ]
 elif
 CONFIG
