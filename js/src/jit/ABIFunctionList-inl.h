@@ -1172,6 +1172,17 @@ js
 jit
 :
 :
+GetContextSensitiveInterpreterStub
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 GetIndexFromString
 )
 \
