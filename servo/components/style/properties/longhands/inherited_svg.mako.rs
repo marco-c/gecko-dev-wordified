@@ -531,6 +531,9 @@ engines
 "
 gecko
 "
+needs_context
+=
+False
 animation_value_type
 =
 "
@@ -1133,6 +1136,9 @@ engines
 "
 gecko
 "
+needs_context
+=
+False
 animation_value_type
 =
 "
