@@ -273,7 +273,10 @@ js
 SPHINX_TREES
 [
 "
+/
 services
+/
+common
 "
 ]
 =

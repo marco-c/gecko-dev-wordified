@@ -484,3 +484,16 @@ utils
 js
 "
 ]
+SPHINX_TREES
+[
+"
+/
+services
+/
+sync
+"
+]
+=
+"
+docs
+"
