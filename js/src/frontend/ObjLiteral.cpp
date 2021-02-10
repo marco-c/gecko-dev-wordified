@@ -1360,6 +1360,7 @@ js
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -1795,6 +1796,7 @@ ObjLiteralWriter
 dump
 (
 )
+const
 {
 js
 :
@@ -1833,6 +1835,7 @@ js
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -1840,6 +1843,7 @@ BaseCompilationStencil
 *
 stencil
 )
+const
 {
 json
 .
@@ -1872,6 +1876,7 @@ js
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -1879,6 +1884,7 @@ BaseCompilationStencil
 *
 stencil
 )
+const
 {
 DumpObjLiteral
 (
@@ -1899,6 +1905,7 @@ ObjLiteralStencil
 dump
 (
 )
+const
 {
 js
 :
@@ -1937,6 +1944,7 @@ js
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -1944,6 +1952,7 @@ BaseCompilationStencil
 *
 stencil
 )
+const
 {
 json
 .
@@ -1976,6 +1985,7 @@ js
 JSONPrinter
 &
 json
+const
 frontend
 :
 :
@@ -1983,6 +1993,7 @@ BaseCompilationStencil
 *
 stencil
 )
+const
 {
 DumpObjLiteral
 (
