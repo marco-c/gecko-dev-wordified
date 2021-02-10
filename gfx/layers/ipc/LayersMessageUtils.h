@@ -1647,7 +1647,7 @@ WriteParam
 aMsg
 aParam
 .
-mRootCompositionSize
+mBoundingCompositionSize
 )
 ;
 WriteParam
@@ -1905,7 +1905,7 @@ aIter
 aResult
 -
 >
-mRootCompositionSize
+mBoundingCompositionSize
 )
 &
 &
