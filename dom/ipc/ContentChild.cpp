@@ -24366,6 +24366,8 @@ BrowsingContext
 >
 &
 aContext
+CallerType
+aCallerType
 )
 {
 if
@@ -24484,6 +24486,7 @@ window
 >
 BlurOuter
 (
+aCallerType
 )
 ;
 return
