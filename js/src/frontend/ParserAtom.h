@@ -2705,15 +2705,6 @@ UsedByStencilFlag
 ;
 }
 }
-bool
-equalsJSAtom
-(
-JSAtom
-*
-other
-)
-const
-;
 template
 <
 typename
