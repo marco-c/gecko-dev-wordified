@@ -468,6 +468,15 @@ subtests
 concat
 (
 [
+{
+file
+:
+"
+helper_fission_inactivescroller_positionedcontent
+.
+html
+"
+}
 /
 /
 add
