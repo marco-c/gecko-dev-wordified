@@ -14926,6 +14926,14 @@ aListener
 )
 )
 {
+RefPtr
+<
+nsResolveHostCallback
+>
+callback
+=
+c
+;
 c
 -
 >
@@ -14937,7 +14945,7 @@ recPtr
 =
 rec
 ;
-c
+callback
 -
 >
 OnResolveHostComplete
