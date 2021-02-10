@@ -33794,7 +33794,7 @@ if
 DisplayPortUtils
 :
 :
-HasNonMinimalDisplayPort
+HasNonMinimalNonZeroDisplayPort
 (
 content
 )
@@ -55322,7 +55322,7 @@ if
 DisplayPortUtils
 :
 :
-HasNonMinimalDisplayPort
+HasNonMinimalNonZeroDisplayPort
 (
 content
 )

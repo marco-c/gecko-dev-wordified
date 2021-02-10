@@ -4770,7 +4770,7 @@ if
 DisplayPortUtils
 :
 :
-HasNonMinimalDisplayPort
+HasNonMinimalNonZeroDisplayPort
 (
 dpElement
 )
