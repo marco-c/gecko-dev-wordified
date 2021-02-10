@@ -925,15 +925,6 @@ createProperties
 callback
 )
 {
-let
-caller
-=
-context
-.
-getCaller
-(
-)
-;
 if
 (
 createProperties
@@ -1032,7 +1023,7 @@ context
 withLastError
 (
 error
-caller
+null
 (
 )
 =
