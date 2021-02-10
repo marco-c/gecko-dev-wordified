@@ -22,10 +22,6 @@ from
 collections
 import
 defaultdict
-from
-six
-import
-iteritems
 def
 html_escape
 (
@@ -250,11 +246,12 @@ for
 key
 value
 in
-iteritems
-(
 self
 .
 attrs
+.
+items
+(
 )
 )
         

@@ -13,16 +13,6 @@ io
 import
 BytesIO
 from
-six
-import
-binary_type
-iteritems
-text_type
-from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -459,7 +449,7 @@ assert
 isinstance
 (
 line
-binary_type
+bytes
 )
 line
         
@@ -669,7 +659,7 @@ assert
 isinstance
 (
 item
-text_type
+str
 )
 item
     
@@ -809,7 +799,7 @@ assert
 isinstance
 (
 value
-text_type
+str
 )
 value
     
@@ -936,7 +926,7 @@ assert
 isinstance
 (
 value
-text_type
+str
 )
 value
     
@@ -1869,9 +1859,10 @@ for
 key
 value
 in
-iteritems
-(
 rv
+.
+items
+(
 )
 if
 key
@@ -2320,7 +2311,7 @@ self
 .
 _hash
 =
-text_type
+str
 (
 hashlib
 .

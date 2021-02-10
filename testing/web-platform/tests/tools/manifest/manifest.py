@@ -1,8 +1,6 @@
 import
 io
 import
-itertools
-import
 os
 import
 sys
@@ -22,18 +20,7 @@ cpu_count
 from
 six
 import
-(
-    
-PY3
-    
 ensure_text
-    
-iteritems
-    
-itervalues
-    
-string_types
-)
 from
 .
 import
@@ -414,9 +401,10 @@ for
 key
 value
 in
-iteritems
-(
 item_classes
+.
+items
+(
 )
 :
             
@@ -543,9 +531,10 @@ Text
 for
 item_data
 in
-itervalues
-(
 self
+.
+values
+(
 )
 :
             
@@ -609,9 +598,10 @@ for
 item_type
 item_data
 in
-iteritems
-(
 self
+.
+items
+(
 )
 :
             
@@ -959,9 +949,10 @@ for
 path
 tests
 in
-iteritems
-(
 type_tests
+.
+items
+(
 )
 :
                 
@@ -1728,26 +1719,12 @@ Text
 ]
 ]
         
-elif
-PY3
-:
-            
-results
-=
-map
-(
-compute_manifest_items
-to_update
-)
-        
 else
 :
             
 results
 =
-itertools
-.
-imap
+map
 (
 compute_manifest_items
 to_update
@@ -1858,9 +1835,10 @@ remaining_manifest_paths
 for
 test_data
 in
-itervalues
-(
 data
+.
+values
+(
 )
 :
                     
@@ -2007,11 +1985,12 @@ for
 test_type
 type_paths
 in
-iteritems
-(
 self
 .
 _data
+.
+items
+(
 )
 if
 type_paths
@@ -2246,14 +2225,15 @@ for
 test_type
 type_paths
 in
-iteritems
-(
 obj
 [
 "
 items
 "
 ]
+.
+items
+(
 )
 :
             
@@ -2456,7 +2436,7 @@ if
 isinstance
 (
 manifest
-string_types
+str
 )
                      
 else
@@ -2483,7 +2463,7 @@ if
 isinstance
 (
 manifest
-string_types
+str
 )
 :
         
