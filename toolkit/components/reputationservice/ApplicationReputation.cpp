@@ -13455,7 +13455,7 @@ mChannel
 >
 Cancel
 (
-NS_ERROR_NET_TIMEOUT
+NS_ERROR_NET_TIMEOUT_EXTERNAL
 )
 ;
 mTimeoutTimer
@@ -13834,7 +13834,7 @@ if
 aResult
 !
 =
-NS_ERROR_NET_TIMEOUT
+NS_ERROR_NET_TIMEOUT_EXTERNAL
 )
 {
 Accumulate

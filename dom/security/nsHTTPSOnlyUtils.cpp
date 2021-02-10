@@ -3199,7 +3199,7 @@ httpsOnlyChannel
 >
 Cancel
 (
-NS_ERROR_NET_TIMEOUT
+NS_ERROR_NET_TIMEOUT_EXTERNAL
 )
 ;
 }
