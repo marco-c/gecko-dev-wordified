@@ -52,8 +52,6 @@ remote
 /
 content
 /
-shared
-/
 Format
 .
 jsm
