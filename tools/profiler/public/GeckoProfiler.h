@@ -586,6 +586,9 @@ mozilla
 ProfileChunkedBuffer
 &
 aChunkedBuffer
+mozilla
+:
+:
 StackCaptureOptions
 aCaptureOptions
 )
