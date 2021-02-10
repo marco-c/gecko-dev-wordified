@@ -257,7 +257,6 @@ t
 show
 up
 .
-await
 EventUtils
 .
 sendMouseEvent
@@ -324,7 +323,6 @@ will
 show
 up
 .
-await
 EventUtils
 .
 sendMouseEvent
@@ -376,7 +374,6 @@ auto
 -
 resume
 .
-await
 EventUtils
 .
 sendMouseEvent

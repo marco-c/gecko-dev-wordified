@@ -337,7 +337,6 @@ Select
 the
 first
 request
-await
 EventUtils
 .
 sendMouseEvent
@@ -481,7 +480,6 @@ requestFrame
 =
 frames
 ;
-await
 EventUtils
 .
 sendMouseEvent

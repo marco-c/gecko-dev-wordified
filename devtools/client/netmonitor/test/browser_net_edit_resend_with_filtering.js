@@ -209,7 +209,6 @@ item
 0
 ]
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -274,7 +273,6 @@ Edit
 Resend
 "
 .
-await
 EventUtils
 .
 sendMouseEvent

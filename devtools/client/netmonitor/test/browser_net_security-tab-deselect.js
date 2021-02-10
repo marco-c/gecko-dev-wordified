@@ -231,7 +231,6 @@ tabs
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -274,7 +273,6 @@ tab
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -309,7 +307,6 @@ request
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

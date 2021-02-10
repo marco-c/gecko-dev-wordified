@@ -369,7 +369,6 @@ OS
 Darwin
 "
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -602,7 +601,6 @@ false
 }
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

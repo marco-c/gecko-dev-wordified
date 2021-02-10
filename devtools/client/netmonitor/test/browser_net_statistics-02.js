@@ -126,7 +126,6 @@ index
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -157,7 +156,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -188,7 +186,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -219,7 +216,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -250,7 +246,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -410,7 +405,6 @@ correctly
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

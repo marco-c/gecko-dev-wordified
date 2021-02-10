@@ -284,7 +284,6 @@ visible
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

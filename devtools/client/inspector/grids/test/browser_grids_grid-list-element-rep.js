@@ -410,7 +410,6 @@ front
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

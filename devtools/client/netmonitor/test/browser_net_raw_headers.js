@@ -177,7 +177,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -227,7 +226,6 @@ headers
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -267,7 +265,6 @@ headers
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -310,7 +307,6 @@ getState
 ]
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -330,7 +326,6 @@ RESPONSE
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

@@ -302,7 +302,6 @@ Fire
 right
 click
 .
-await
 rightMousedown
 (
 A
@@ -362,7 +361,6 @@ Fire
 left
 click
 .
-await
 mousedown
 (
 A
