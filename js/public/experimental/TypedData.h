@@ -2228,7 +2228,7 @@ succeed
 /
 extern
 JS_FRIEND_API
-uint32_t
+size_t
 JS_GetTypedArrayLength
 (
 JSObject

@@ -2785,7 +2785,7 @@ channelRef
 float32ArraysRef
 )
 {
-uint32_t
+size_t
 length
 =
 JS_GetTypedArrayLength
@@ -4103,7 +4103,7 @@ mFloat32Arrays
 i
 ]
 ;
-uint32_t
+size_t
 length
 =
 JS_GetTypedArrayLength
@@ -4449,7 +4449,7 @@ channelCount
 c
 )
 {
-uint32_t
+size_t
 length
 =
 JS_GetTypedArrayLength
