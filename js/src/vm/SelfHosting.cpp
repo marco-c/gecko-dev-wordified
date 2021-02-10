@@ -21217,13 +21217,9 @@ return
 nullptr
 ;
 }
-Rooted
-<
 ScriptSourceHolder
->
 ssHolder
 (
-cx
 ss
 )
 ;

@@ -3818,16 +3818,6 @@ linearize
 )
 ;
 }
-virtual
-void
-trace
-(
-JSTracer
-*
-trc
-)
-{
-}
 }
 ;
 class
