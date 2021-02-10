@@ -107,6 +107,7 @@ bootstrapApp
 bootstrapStore
 bootstrapWorkers
 unmountRoot
+teardownWorkers
 }
 from
 "
@@ -513,6 +514,10 @@ onDisconnect
 )
 ;
 unmountRoot
+(
+)
+;
+teardownWorkers
 (
 )
 ;
