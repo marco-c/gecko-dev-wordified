@@ -4001,6 +4001,9 @@ Information
 TEXT_CALENDAR
 "
 ics
+ical
+ifb
+icalendar
 "
 "
 iCalendar
