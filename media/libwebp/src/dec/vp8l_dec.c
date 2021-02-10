@@ -7972,8 +7972,6 @@ default
 goto
 Copy
 ;
-break
-;
 }
 CopySmallPattern8b
 (
