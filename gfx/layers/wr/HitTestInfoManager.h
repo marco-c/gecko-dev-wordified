@@ -314,9 +314,9 @@ aBuilder
 *
 /
 void
-SwitchItem
+ProcessItem
 (
-nsPaintedDisplayItem
+nsDisplayItem
 *
 aItem
 wr

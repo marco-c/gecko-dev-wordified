@@ -288,6 +288,14 @@ return
 mInfo
 ;
 }
+static
+const
+HitTestInfo
+&
+Empty
+(
+)
+;
 private
 :
 nsRect
