@@ -169,10 +169,6 @@ h
 frontend
 :
 :
-ParserAtom
-frontend
-:
-:
 ParserAtomTable
 #
 include
