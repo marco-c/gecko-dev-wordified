@@ -1224,6 +1224,10 @@ svg
 ;
 pub
 mod
+table
+;
+pub
+mod
 text
 ;
 pub

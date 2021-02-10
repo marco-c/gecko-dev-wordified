@@ -1309,6 +1309,10 @@ svg_path
 ;
 pub
 mod
+table
+;
+pub
+mod
 text
 ;
 pub
