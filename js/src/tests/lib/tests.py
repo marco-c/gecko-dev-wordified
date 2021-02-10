@@ -783,6 +783,7 @@ def
 get_environment_overlay
 (
 js_shell
+gc_zeal
 )
 :
     
@@ -1028,6 +1029,19 @@ dirname
 (
 js_shell
 )
+    
+if
+gc_zeal
+:
+        
+env
+[
+"
+JS_GC_ZEAL
+"
+]
+=
+gc_zeal
     
 return
 env
