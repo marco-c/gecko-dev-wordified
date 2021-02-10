@@ -5400,6 +5400,17 @@ index
 )
 const
 ;
+UniqueChars
+toQuotedString
+(
+JSContext
+*
+cx
+TaggedParserAtomIndex
+index
+)
+const
+;
 }
 ;
 /
