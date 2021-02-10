@@ -3220,6 +3220,8 @@ dom
 :
 CallerType
 aCallerType
+bool
+aFromOtherProcess
 uint64_t
 aActionId
 )

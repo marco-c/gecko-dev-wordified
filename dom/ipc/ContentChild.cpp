@@ -24332,6 +24332,12 @@ window
 FocusOuter
 (
 aCallerType
+/
+*
+aFromOtherProcess
+*
+/
+true
 aActionId
 )
 ;
