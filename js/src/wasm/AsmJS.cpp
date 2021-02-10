@@ -10898,10 +10898,11 @@ if
 UniqueChars
 bytes
 =
-ParserAtomToPrintableString
+parserAtoms_
+.
+toPrintableString
 (
 cx_
-parserAtoms_
 name
 )
 )
