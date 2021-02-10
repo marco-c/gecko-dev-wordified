@@ -2366,13 +2366,10 @@ isSpread
 const
 {
 return
-JOF_OPTYPE
+IsSpreadOp
 (
 op_
 )
-=
-=
-JOF_BYTE
 ;
 }
 MOZ_MUST_USE
