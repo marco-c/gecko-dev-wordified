@@ -3912,7 +3912,7 @@ mirId
 ;
 if
 (
-LNode
+LInstruction
 *
 ins
 =

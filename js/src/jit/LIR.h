@@ -5945,7 +5945,7 @@ LElementVisitor
 #
 ifdef
 TRACK_SNAPSHOTS
-LNode
+LInstruction
 *
 ins_
 =
@@ -5958,7 +5958,7 @@ protected
 #
 ifdef
 TRACK_SNAPSHOTS
-LNode
+LInstruction
 *
 instruction
 (
@@ -5971,7 +5971,7 @@ ins_
 void
 setElement
 (
-LNode
+LInstruction
 *
 ins
 )
@@ -5986,7 +5986,7 @@ else
 void
 setElement
 (
-LNode
+LInstruction
 *
 ins
 )
