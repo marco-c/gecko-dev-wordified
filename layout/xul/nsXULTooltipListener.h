@@ -458,9 +458,6 @@ mTargetNode
 nsWeakPtr
 mCurrentTooltip
 ;
-nsWeakPtr
-mPreviousMouseMoveTarget
-;
 /
 /
 a
