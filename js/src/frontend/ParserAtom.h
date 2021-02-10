@@ -5341,6 +5341,14 @@ indexp
 )
 const
 ;
+uint32_t
+length
+(
+TaggedParserAtomIndex
+index
+)
+const
+;
 /
 /
 Methods
