@@ -364,6 +364,9 @@ class
 TaggedParserAtomIndex
 ;
 class
+WellKnownParserAtoms
+;
+class
 WellKnownParserAtoms_ROM
 ;
 struct
@@ -8797,6 +8800,16 @@ frontend
 :
 :
 TaggedParserAtomIndex
+;
+friend
+class
+js
+:
+:
+frontend
+:
+:
+WellKnownParserAtoms
 ;
 friend
 class
