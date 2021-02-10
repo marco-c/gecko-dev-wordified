@@ -3482,7 +3482,7 @@ messageSubscribers
 "
 AboutLogins
 :
-AllLogins
+RemoveAllLogins
 "
 [
 ]
