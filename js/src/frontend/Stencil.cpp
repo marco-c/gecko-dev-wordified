@@ -11634,7 +11634,7 @@ if
 (
 taggedIndex
 .
-isStaticParserString1
+isLength1StaticParserString
 (
 )
 )
@@ -11647,7 +11647,7 @@ property
 tag
 "
 "
-Static1
+Length1Static
 "
 )
 ;
@@ -11656,7 +11656,7 @@ index
 =
 taggedIndex
 .
-toStaticParserString1
+toLength1StaticParserString
 (
 )
 ;
@@ -11676,7 +11676,7 @@ atom
 WellKnownParserAtoms
 :
 :
-getStatic1
+getLength1Static
 (
 index
 )
@@ -11700,7 +11700,7 @@ if
 (
 taggedIndex
 .
-isStaticParserString2
+isLength2StaticParserString
 (
 )
 )
@@ -11713,7 +11713,7 @@ property
 tag
 "
 "
-Static2
+Length2Static
 "
 )
 ;
@@ -11722,7 +11722,7 @@ index
 =
 taggedIndex
 .
-toStaticParserString2
+toLength2StaticParserString
 (
 )
 ;
@@ -11742,7 +11742,7 @@ atom
 WellKnownParserAtoms
 :
 :
-getStatic2
+getLength2Static
 (
 index
 )
@@ -12036,7 +12036,7 @@ if
 (
 taggedIndex
 .
-isStaticParserString1
+isLength1StaticParserString
 (
 )
 )
@@ -12046,14 +12046,14 @@ index
 =
 taggedIndex
 .
-toStaticParserString1
+toLength1StaticParserString
 (
 )
 ;
 WellKnownParserAtoms
 :
 :
-getStatic1
+getLength1Static
 (
 index
 )
@@ -12071,7 +12071,7 @@ if
 (
 taggedIndex
 .
-isStaticParserString2
+isLength2StaticParserString
 (
 )
 )
@@ -12081,14 +12081,14 @@ index
 =
 taggedIndex
 .
-toStaticParserString2
+toLength2StaticParserString
 (
 )
 ;
 WellKnownParserAtoms
 :
 :
-getStatic2
+getLength2Static
 (
 index
 )
@@ -17257,7 +17257,7 @@ if
 (
 taggedIndex
 .
-isStaticParserString1
+isLength1StaticParserString
 (
 )
 )
@@ -17267,7 +17267,7 @@ index
 =
 taggedIndex
 .
-toStaticParserString1
+toLength1StaticParserString
 (
 )
 ;
@@ -17292,7 +17292,7 @@ MOZ_ASSERT
 (
 taggedIndex
 .
-isStaticParserString2
+isLength2StaticParserString
 (
 )
 )
@@ -17302,7 +17302,7 @@ index
 =
 taggedIndex
 .
-toStaticParserString2
+toLength2StaticParserString
 (
 )
 ;
