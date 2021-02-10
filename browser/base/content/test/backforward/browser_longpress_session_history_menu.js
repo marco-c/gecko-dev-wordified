@@ -415,7 +415,6 @@ SSTabRestored
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

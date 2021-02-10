@@ -747,7 +747,6 @@ doc
 1
 )
 ;
-await
 selectRow
 (
 doc
@@ -857,7 +856,6 @@ tree
 "
 setup
 :
-async
 (
 {
 doc
@@ -865,15 +863,11 @@ doc
 )
 =
 >
-{
-await
 selectRow
 (
 doc
 1
 )
-;
-}
 expected
 :
 {
@@ -942,7 +936,6 @@ doc
 3
 )
 ;
-await
 selectRow
 (
 doc
@@ -1056,7 +1049,6 @@ tree
 "
 setup
 :
-async
 (
 {
 doc
@@ -1064,15 +1056,11 @@ doc
 )
 =
 >
-{
-await
 selectRow
 (
 doc
 1
 )
-;
-}
 expected
 :
 {

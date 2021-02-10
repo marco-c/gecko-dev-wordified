@@ -611,7 +611,6 @@ badge
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

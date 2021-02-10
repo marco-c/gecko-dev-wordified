@@ -323,7 +323,6 @@ Select
 the
 first
 request
-await
 EventUtils
 .
 sendMouseEvent
@@ -350,7 +349,6 @@ the
 Response
 "
 panel
-await
 clickOnSidebarTab
 (
 document
@@ -583,7 +581,6 @@ filter
 input
 is
 cleared
-await
 EventUtils
 .
 sendMouseEvent

@@ -352,7 +352,6 @@ the
 side
 panel
 .
-await
 EventUtils
 .
 sendMouseEvent

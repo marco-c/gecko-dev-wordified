@@ -203,7 +203,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -233,7 +232,6 @@ item
 ]
 )
 ;
-await
 clickOnSidebarTab
 (
 document

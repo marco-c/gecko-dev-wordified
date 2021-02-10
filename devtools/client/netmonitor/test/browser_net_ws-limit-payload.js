@@ -329,7 +329,6 @@ Select
 the
 first
 request
-await
 EventUtils
 .
 sendMouseEvent
@@ -356,7 +355,6 @@ the
 Response
 "
 panel
-await
 clickOnSidebarTab
 (
 document
@@ -452,7 +450,6 @@ waitForTick
 (
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

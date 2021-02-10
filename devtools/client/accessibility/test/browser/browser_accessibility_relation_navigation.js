@@ -279,7 +279,6 @@ node
 "
 setup
 :
-async
 (
 {
 doc
@@ -352,7 +351,6 @@ node
 "
 setup
 :
-async
 (
 {
 doc
@@ -360,15 +358,11 @@ doc
 )
 =
 >
-{
-await
 selectRow
 (
 doc
 1
 )
-;
-}
 expected
 :
 {
@@ -513,7 +507,6 @@ false
 }
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -587,7 +580,6 @@ false
 }
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

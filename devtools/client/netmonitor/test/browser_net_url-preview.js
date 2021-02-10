@@ -160,7 +160,6 @@ preview
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -229,7 +228,6 @@ preview
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -348,7 +346,6 @@ preview
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

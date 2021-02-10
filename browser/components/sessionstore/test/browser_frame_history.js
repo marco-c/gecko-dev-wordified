@@ -267,7 +267,6 @@ linkedBrowser
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -316,7 +315,6 @@ linkedBrowser
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -688,7 +686,6 @@ linkedBrowser
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -739,7 +736,6 @@ linkedBrowser
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1249,7 +1245,6 @@ linkedBrowser
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -1300,7 +1295,6 @@ linkedBrowser
 1
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

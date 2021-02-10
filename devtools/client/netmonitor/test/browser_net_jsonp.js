@@ -228,7 +228,6 @@ code
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -496,7 +495,6 @@ toggleNetworkDetails
 )
 )
 ;
-await
 clickOnSidebarTab
 (
 document
@@ -612,7 +610,6 @@ item
 2
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent

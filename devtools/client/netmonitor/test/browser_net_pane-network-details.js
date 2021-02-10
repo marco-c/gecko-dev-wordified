@@ -433,7 +433,6 @@ visible
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -464,7 +463,6 @@ button
 )
 )
 ;
-await
 testDetailsPanel
 (
 true
@@ -486,7 +484,6 @@ visible
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -517,7 +514,6 @@ button
 )
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -556,7 +552,6 @@ js
 "
 )
 ;
-await
 testDetailsPanel
 (
 true
@@ -586,7 +581,6 @@ filters
 "
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
@@ -640,7 +634,6 @@ no
 available
 requests
 visible
-await
 testDetailsPanel
 (
 false
@@ -698,7 +691,6 @@ selectedId
 )
 ;
 }
-async
 function
 testDetailsPanel
 (
@@ -974,7 +966,6 @@ menu
 Close
 the
 panel
-await
 EventUtils
 .
 sendMouseEvent

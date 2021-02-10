@@ -1929,7 +1929,6 @@ EVENT_MENUPOPUP_START
 isEventForMenuPopup
 )
 ;
-await
 EventUtils
 .
 sendMouseEvent
