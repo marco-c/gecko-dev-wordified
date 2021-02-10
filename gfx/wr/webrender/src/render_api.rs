@@ -10960,6 +10960,10 @@ pub
 display_list
 :
 usize
+pub
+upload_staging_memory
+:
+usize
 /
 /
 /
@@ -11003,6 +11007,10 @@ swap_chain
 usize
 pub
 render_texture_hosts
+:
+usize
+pub
+upload_staging_textures
 :
 usize
 }
