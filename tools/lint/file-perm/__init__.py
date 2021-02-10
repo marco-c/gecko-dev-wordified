@@ -86,6 +86,10 @@ results
 [
 ]
     
+fixed
+=
+0
+    
 if
 platform
 .
@@ -114,7 +118,18 @@ Exit
 now
         
 return
+{
+"
 results
+"
+:
+results
+"
+fixed
+"
+:
+fixed
+}
     
 files
 =
@@ -252,6 +267,11 @@ f
 0o644
 )
                 
+fixed
++
+=
+1
+                
 continue
             
 res
@@ -303,4 +323,15 @@ res
 )
     
 return
+{
+"
 results
+"
+:
+results
+"
+fixed
+"
+:
+fixed
+}

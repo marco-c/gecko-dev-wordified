@@ -7,6 +7,9 @@ LINTER
 "
 flake8
 "
+fixed
+=
+0
 def
 test_lint_single_file
 (
@@ -174,6 +177,9 @@ create_temp_file
 )
 :
     
+global
+fixed
+    
 contents
 =
 "
@@ -267,6 +273,16 @@ results
 =
 1
     
+assert
+fixed
+=
+=
+1
+    
+fixed
+=
+0
+    
 #
 Also
 test
@@ -327,6 +343,12 @@ results
 =
 =
 2
+    
+assert
+fixed
+=
+=
+1
     
 assert
 all

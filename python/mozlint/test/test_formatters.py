@@ -392,6 +392,8 @@ problems
 errors
 1
 warning
+0
+fixed
 )
 "
 "

@@ -192,6 +192,12 @@ defaultdict
 (
 int
 )
+        
+self
+.
+fixed
+=
+0
     
 property
     
@@ -287,6 +293,20 @@ values
 )
 )
     
+property
+    
+def
+total_fixed
+(
+self
+)
+:
+        
+return
+self
+.
+fixed
+    
 def
 update
 (
@@ -353,6 +373,15 @@ failed_setup
 other
 .
 failed_setup
+        
+self
+.
+fixed
++
+=
+other
+.
+fixed
         
 for
 k

@@ -107,6 +107,10 @@ log
 "
 ]
     
+fixed
+=
+0
+    
 for
 f
 in
@@ -210,6 +214,11 @@ seek
 if
 fix
 :
+                        
+fixed
++
+=
+1
                         
 #
 fix
@@ -516,6 +525,11 @@ if
 fix
 :
                     
+fixed
++
+=
+1
+                    
 with
 open
 (
@@ -713,6 +727,11 @@ n
 "
 )
                         
+fixed
++
+=
+1
+                        
 hasFix
 =
 True
@@ -903,15 +922,10 @@ if
 fix
 :
                     
-#
-replace
-\
-r
-\
-n
-by
-\
-n
+fixed
++
+=
+1
                     
 content
 =
@@ -1001,4 +1015,15 @@ res
 )
     
 return
+{
+"
 results
+"
+:
+results
+"
+fixed
+"
+:
+fixed
+}

@@ -269,6 +269,8 @@ n
     
 fmt_summary
 =
+(
+        
 "
 {
 t
@@ -293,6 +295,9 @@ warning
 {
 failure
 }
+{
+fixed
+}
 )
 {
 t
@@ -300,6 +305,8 @@ t
 normal
 }
 "
+    
+)
     
 def
 __init__
@@ -649,6 +656,12 @@ num_errors
 num_warnings
 =
 0
+        
+num_fixed
+=
+result
+.
+fixed
         
 for
 path
@@ -1203,6 +1216,19 @@ failed
 else
 "
 "
+                
+fixed
+=
+"
+{
+}
+fixed
+"
+.
+format
+(
+num_fixed
+)
             
 )
         
