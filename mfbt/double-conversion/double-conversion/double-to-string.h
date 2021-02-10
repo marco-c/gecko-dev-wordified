@@ -363,7 +363,7 @@ const
 int
 kMaxFixedDigitsAfterPoint
 =
-60
+100
 ;
 /
 /
