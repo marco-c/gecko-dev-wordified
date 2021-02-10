@@ -594,6 +594,11 @@ list
 .
 "
 "
+layout
+.
+frame_rate
+"
+"
 media
 .
 "
