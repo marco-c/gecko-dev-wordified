@@ -576,7 +576,7 @@ steps
 )
 ;
 typedef
-void
+int
 (
 *
 DrawSpanRGBA8Func
@@ -587,7 +587,7 @@ FragmentShaderImpl
 )
 ;
 typedef
-void
+int
 (
 *
 DrawSpanR8Func
@@ -943,7 +943,7 @@ steps
 ;
 }
 ALWAYS_INLINE
-void
+int
 draw_span
 (
 uint32_t
@@ -961,6 +961,7 @@ swgl_SpanLength
 =
 len
 ;
+return
 (
 *
 draw_span_RGBA8_func
@@ -986,7 +987,7 @@ nullptr
 ;
 }
 ALWAYS_INLINE
-void
+int
 draw_span
 (
 uint8_t
@@ -1004,6 +1005,7 @@ swgl_SpanLength
 =
 len
 ;
+return
 (
 *
 draw_span_R8_func
