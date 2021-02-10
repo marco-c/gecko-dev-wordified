@@ -10931,8 +10931,6 @@ WindowBlur
 (
 MaybeDiscardedBrowsingContext
 aContext
-CallerType
-aCallerType
 )
 ;
 async

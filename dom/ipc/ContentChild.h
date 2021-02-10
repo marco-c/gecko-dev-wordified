@@ -4184,8 +4184,6 @@ BrowsingContext
 >
 &
 aContext
-CallerType
-aCallerType
 )
 ;
 mozilla

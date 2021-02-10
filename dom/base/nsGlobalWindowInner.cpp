@@ -22891,8 +22891,6 @@ nsGlobalWindowInner
 :
 Blur
 (
-CallerType
-aCallerType
 ErrorResult
 &
 aError
@@ -22902,7 +22900,6 @@ FORWARD_TO_OUTER_OR_THROW
 (
 BlurOuter
 (
-aCallerType
 )
 aError
 )
