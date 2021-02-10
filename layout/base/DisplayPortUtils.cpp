@@ -7216,16 +7216,14 @@ frame
 )
 &
 &
-(
 !
-HasNonMinimalDisplayPort
+HasDisplayPort
 (
 frame
 -
 >
 GetContent
 (
-)
 )
 )
 )
@@ -7259,7 +7257,7 @@ GetContent
 ClearMinimalDisplayPortProperty
 :
 :
-Yes
+No
 0
 RepaintMode
 :
