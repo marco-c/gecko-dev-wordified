@@ -11,6 +11,7 @@ skip
 -
 if
 :
+(
 getBuildConfiguration
 (
 )
@@ -19,6 +20,17 @@ getBuildConfiguration
 arm64
 '
 ]
+|
+|
+getBuildConfiguration
+(
+)
+[
+'
+tsan
+'
+]
+)
 /
 /
 /
