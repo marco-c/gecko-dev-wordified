@@ -1207,6 +1207,15 @@ mir
 ;
 inline
 LAllocation
+useAnyAtStart
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LAllocation
 useAnyOrConstant
 (
 MDefinition
