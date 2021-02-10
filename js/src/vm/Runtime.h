@@ -218,6 +218,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+XorShift128PlusRNG
+.
+h
+"
+#
+include
 <
 algorithm
 >
