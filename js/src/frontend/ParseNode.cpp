@@ -2797,6 +2797,9 @@ create
 JSContext
 *
 cx
+ParserAtomsTable
+&
+parserAtoms
 CompilationAtomCache
 &
 atomCache
@@ -2817,8 +2820,8 @@ index_
 createRegExpAndEnsureAtom
 (
 cx
+parserAtoms
 atomCache
-stencil
 )
 ;
 }

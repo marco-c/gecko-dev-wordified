@@ -11633,6 +11633,9 @@ create
 JSContext
 *
 cx
+ParserAtomsTable
+&
+parserAtoms
 CompilationAtomCache
 &
 atomCache
