@@ -1274,7 +1274,7 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Extend
 (
@@ -2083,7 +2083,7 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 ExtendJS
 (
@@ -3264,7 +3264,7 @@ end
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 Extend
 (
