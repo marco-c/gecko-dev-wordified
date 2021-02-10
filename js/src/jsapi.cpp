@@ -369,7 +369,7 @@ h
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 frontend
 :
 :
@@ -34444,9 +34444,9 @@ buffer
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 &
-stencilSet
+stencil
 size_t
 cursorIndex
 )
@@ -34456,7 +34456,7 @@ decoder
 (
 cx
 &
-stencilSet
+stencil
 .
 input
 .
@@ -34468,7 +34468,7 @@ cursorIndex
 if
 (
 !
-stencilSet
+stencil
 .
 input
 .
@@ -34492,7 +34492,7 @@ decoder
 .
 codeStencils
 (
-stencilSet
+stencil
 )
 ;
 if
@@ -34615,15 +34615,15 @@ Rooted
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 >
-stencilSet
+stencil
 (
 cx
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 (
 cx
 options
@@ -34640,7 +34640,7 @@ DecodeStencil
 (
 cx
 buffer
-stencilSet
+stencil
 .
 get
 (
@@ -34696,7 +34696,7 @@ frontend
 InstantiateStencils
 (
 cx
-stencilSet
+stencil
 .
 get
 (
@@ -34708,7 +34708,7 @@ get
 )
 gcOutputForDelazification
 .
-get
+address
 (
 )
 )
@@ -34914,15 +34914,15 @@ Rooted
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 >
-stencilSet
+stencil
 (
 cx
 frontend
 :
 :
-CompilationStencilSet
+CompilationStencil
 (
 cx
 options
@@ -34939,7 +34939,7 @@ DecodeStencil
 (
 cx
 buffer
-stencilSet
+stencil
 .
 get
 (
@@ -34971,7 +34971,7 @@ xdrEncoder
 if
 (
 !
-stencilSet
+stencil
 .
 get
 (
@@ -34987,7 +34987,7 @@ source
 xdrEncodeStencils
 (
 cx
-stencilSet
+stencil
 .
 get
 (
@@ -35036,7 +35036,7 @@ frontend
 InstantiateStencils
 (
 cx
-stencilSet
+stencil
 .
 get
 (
@@ -35048,7 +35048,7 @@ get
 )
 gcOutputForDelazification
 .
-get
+address
 (
 )
 )
