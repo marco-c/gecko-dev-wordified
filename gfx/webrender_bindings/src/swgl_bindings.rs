@@ -57,12 +57,6 @@ MPL
 *
 /
 use
-bindings
-:
-:
-WrCompositor
-;
-use
 gleam
 :
 :
@@ -224,6 +218,7 @@ host_utils
 thread_started
 thread_stopped
 }
+MappableCompositor
 }
 ;
 #
@@ -7322,7 +7317,11 @@ Gl
 >
 compositor
 :
-WrCompositor
+Box
+<
+dyn
+MappableCompositor
+>
 use_native_compositor
 :
 bool
@@ -7570,7 +7569,11 @@ Gl
 >
 compositor
 :
-WrCompositor
+Box
+<
+dyn
+MappableCompositor
+>
 use_native_compositor
 :
 bool
