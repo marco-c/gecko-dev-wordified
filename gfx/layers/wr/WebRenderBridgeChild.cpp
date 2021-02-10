@@ -602,6 +602,7 @@ this
 >
 SendUpdateResources
 (
+mIdNamespace
 resourceUpdates
 smallShmems
 std
