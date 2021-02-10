@@ -643,7 +643,7 @@ Goto
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 head
 /
 /

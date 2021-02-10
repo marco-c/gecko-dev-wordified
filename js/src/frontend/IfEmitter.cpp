@@ -258,11 +258,7 @@ reset
 /
 Emit
 a
-branch
--
-if
--
-false
+jump
 around
 the
 then
@@ -287,7 +283,7 @@ JumpIfFalse
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 ;
 if
 (

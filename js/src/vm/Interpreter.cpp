@@ -9758,7 +9758,7 @@ TRY_BRANCH_AFTER_COND
 /
 static_assert
 (
-JSOpLength_IfNe
+JSOpLength_JumpIfTrue
 =
 =
 JSOpLength_JumpIfFalse
@@ -9771,7 +9771,7 @@ uint8_t
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 )
 =
 =
@@ -16011,7 +16011,7 @@ JumpIfFalse
 )
 CASE
 (
-IfNe
+JumpIfTrue
 )
 {
 bool
@@ -16053,7 +16053,7 @@ pc
 }
 END_CASE
 (
-IfNe
+JumpIfTrue
 )
 CASE
 (

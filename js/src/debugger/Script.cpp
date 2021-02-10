@@ -8508,7 +8508,7 @@ case
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 :
 case
 JSOp

@@ -2223,7 +2223,7 @@ VALUE_OR_RVAL
 CAN_SKIP
 /
 /
-IfNe
+JumpIfTrue
 END
 #
 VALUE

@@ -7375,7 +7375,7 @@ case
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 :
 case
 JSOp
@@ -8888,7 +8888,7 @@ LoopHead
 .
 /
 /
-IfNe
+JumpIfTrue
 /
 Goto
 to
@@ -9409,7 +9409,7 @@ op
 JSOp
 :
 :
-IfNe
+JumpIfTrue
 )
 ;
 MOZ_ASSERT
@@ -9606,7 +9606,7 @@ bool
 WarpBuilder
 :
 :
-build_IfNe
+build_JumpIfTrue
 (
 BytecodeLocation
 loc
