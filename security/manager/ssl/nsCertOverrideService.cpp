@@ -218,17 +218,12 @@ nsILineInputStream
 h
 "
 #
-ifdef
-ENABLE_MARIONETTE
-#
 include
 "
 nsIMarionette
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -4084,9 +4079,6 @@ remoteAgentListening
 =
 false
 ;
-#
-ifdef
-ENABLE_MARIONETTE
 nsCOMPtr
 <
 nsIMarionette
@@ -4113,8 +4105,6 @@ marionetteRunning
 )
 ;
 }
-#
-endif
 #
 ifdef
 ENABLE_REMOTE_AGENT
