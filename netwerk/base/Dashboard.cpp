@@ -6825,6 +6825,7 @@ connectionData
 >
 mPort
 nullptr
+nullptr
 getter_AddRefs
 (
 connectionData
@@ -6858,6 +6859,7 @@ connectionData
 -
 >
 mPort
+nullptr
 nullptr
 getter_AddRefs
 (

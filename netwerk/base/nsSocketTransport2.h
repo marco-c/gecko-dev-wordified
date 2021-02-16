@@ -877,6 +877,9 @@ portRoute
 nsIProxyInfo
 *
 proxyInfo
+nsIDNSRecord
+*
+dnsRecord
 )
 ;
 /
@@ -3137,6 +3140,16 @@ remapping
 .
 bool
 mPortRemappingApplied
+=
+false
+;
+bool
+mExternalDNSResolution
+=
+false
+;
+bool
+mRetryDnsIfPossible
 =
 false
 ;

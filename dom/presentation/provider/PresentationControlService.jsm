@@ -1245,6 +1245,7 @@ aDeviceInfo
 .
 port
 null
+null
 )
 ;
 }
@@ -1264,6 +1265,7 @@ address
 aDeviceInfo
 .
 port
+null
 null
 )
 ;

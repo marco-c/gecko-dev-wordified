@@ -1775,6 +1775,7 @@ socketTypes
 host
 port
 aSocksProxyInfo
+nullptr
 getter_AddRefs
 (
 mTransport

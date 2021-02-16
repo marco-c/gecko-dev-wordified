@@ -902,6 +902,7 @@ nsCString
 serverHost
 serverPort
 nullptr
+nullptr
 getter_AddRefs
 (
 mTransport

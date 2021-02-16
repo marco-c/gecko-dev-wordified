@@ -721,6 +721,7 @@ nsCString
 _ns
 serverPort
 nullptr
+nullptr
 getter_AddRefs
 (
 client
