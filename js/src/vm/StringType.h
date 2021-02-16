@@ -366,9 +366,6 @@ TaggedParserAtomIndex
 class
 WellKnownParserAtoms
 ;
-class
-WellKnownParserAtoms_ROM
-;
 struct
 CompilationAtomCache
 ;
@@ -8869,16 +8866,6 @@ frontend
 :
 :
 WellKnownParserAtoms
-;
-friend
-class
-js
-:
-:
-frontend
-:
-:
-WellKnownParserAtoms_ROM
 ;
 friend
 struct
