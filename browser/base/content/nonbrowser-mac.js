@@ -491,15 +491,9 @@ list
 ;
 element
 .
-setAttribute
-(
-"
 hidden
-"
-"
+=
 true
-"
-)
 ;
 /
 /

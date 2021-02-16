@@ -1283,15 +1283,9 @@ exceptionDialogButton
 "
 )
 .
-setAttribute
-(
-"
 hidden
-"
-"
+=
 true
-"
-)
 ;
 }
 if

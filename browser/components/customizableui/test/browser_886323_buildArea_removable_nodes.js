@@ -194,15 +194,9 @@ kLazyAreaId
 ;
 gLazyArea
 .
-setAttribute
-(
-"
 hidden
-"
-"
+=
 true
-"
-)
 ;
 popupSet
 .

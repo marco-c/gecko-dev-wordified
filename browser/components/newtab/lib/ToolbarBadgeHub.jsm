@@ -1257,13 +1257,9 @@ description
 ;
 descriptionEl
 .
-setAttribute
-(
-"
 hidden
-"
+=
 true
-)
 ;
 document
 .
