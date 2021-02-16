@@ -69,9 +69,12 @@ expectedResult
 }
 )
 {
+let
+promise
+=
 BrowserTestUtils
 .
-promiseAlertDialogOpen
+promiseAlertDialog
 (
 buttonToClick
 )
@@ -87,6 +90,9 @@ args
 )
 expectedResult
 )
+;
+await
+promise
 ;
 }
 /
