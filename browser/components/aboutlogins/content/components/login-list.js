@@ -3609,15 +3609,6 @@ _filter
 )
 |
 |
-(
-!
-window
-.
-AboutLoginsUtils
-.
-masterPasswordEnabled
-&
-&
 login
 .
 password
@@ -3631,7 +3622,6 @@ includes
 this
 .
 _filter
-)
 )
 )
 ;
