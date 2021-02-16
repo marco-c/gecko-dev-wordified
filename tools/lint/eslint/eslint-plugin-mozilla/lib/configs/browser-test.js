@@ -170,6 +170,12 @@ false
 setExpectedFailuresForSelfTest
 :
 false
+stringContains
+:
+false
+stringMatches
+:
+false
 todo
 :
 false
