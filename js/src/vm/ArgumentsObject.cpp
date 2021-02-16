@@ -739,6 +739,13 @@ slot
 )
 )
 ;
+obj
+-
+>
+markArgumentForwarded
+(
+)
+;
 }
 }
 }
@@ -896,6 +903,13 @@ location
 slot
 (
 )
+)
+;
+obj
+-
+>
+markArgumentForwarded
+(
 )
 ;
 }
