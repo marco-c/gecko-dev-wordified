@@ -56890,7 +56890,7 @@ output
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 obj
 out
@@ -92883,7 +92883,7 @@ index
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 object
 scratch
@@ -93199,7 +93199,7 @@ index
 ;
 masm
 .
-loadArrayBufferViewLengthPtr
+loadArrayBufferViewLengthIntPtr
 (
 object
 scratch
