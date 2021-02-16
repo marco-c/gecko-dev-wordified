@@ -405,7 +405,7 @@ if
 bce
 -
 >
-stencil
+compilationState
 .
 input
 .
@@ -1196,7 +1196,7 @@ MOZ_ASSERT
 bce
 -
 >
-stencil
+compilationState
 .
 input
 .
@@ -1227,7 +1227,7 @@ cx
 bce
 -
 >
-stencil
+compilationState
 .
 input
 bce
@@ -3572,7 +3572,7 @@ if
 bce
 -
 >
-stencil
+compilationState
 .
 input
 .

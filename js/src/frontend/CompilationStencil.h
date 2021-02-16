@@ -2120,13 +2120,9 @@ cx
 LifoAllocScope
 &
 frontendAllocScope
-const
-JS
-:
-:
-ReadOnlyCompileOptions
+CompilationInput
 &
-options
+input
 CompilationStencil
 &
 stencil

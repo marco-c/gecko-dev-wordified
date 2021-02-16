@@ -1436,7 +1436,7 @@ allocScope
 alloc
 (
 )
-stencil
+compilationState
 .
 input
 .
@@ -1457,7 +1457,7 @@ isInitialStencil
 =
 =
 !
-stencil
+compilationState
 .
 input
 .
@@ -5568,7 +5568,7 @@ cx_
 this
 -
 >
-getCompilationStencil
+getCompilationState
 (
 )
 .
@@ -9373,7 +9373,7 @@ if
 this
 -
 >
-stencil_
+compilationState_
 .
 input
 .
@@ -9913,7 +9913,7 @@ superScopeNeedsHomeObject
 this
 -
 >
-stencil_
+compilationState_
 .
 input
 .
@@ -16931,7 +16931,7 @@ cx_
 this
 -
 >
-stencil_
+compilationState_
 .
 input
 .
@@ -19941,7 +19941,7 @@ cx_
 this
 -
 >
-stencil_
+compilationState_
 .
 input
 .

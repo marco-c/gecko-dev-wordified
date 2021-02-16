@@ -34687,7 +34687,11 @@ compilationState
 (
 cx
 allocScope
-options
+input
+.
+get
+(
+)
 stencil
 )
 ;
@@ -35204,7 +35208,11 @@ compilationState
 (
 cx
 allocScope
-options
+input
+.
+get
+(
+)
 stencil
 )
 ;
