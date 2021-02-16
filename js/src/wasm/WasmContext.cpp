@@ -226,6 +226,17 @@ return
 true
 ;
 }
+/
+/
+Default
+options
+should
+be
+OK
+here
+FeatureOptions
+options
+;
 typeContext
 =
 js
@@ -242,6 +253,7 @@ FeatureArgs
 build
 (
 cx
+options
 )
 TypeDefVector
 (

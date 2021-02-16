@@ -229,6 +229,13 @@ xmm0
 '
 {
 instanceBox
+features
+:
+{
+simdWormhole
+:
+true
+}
 }
 )
 ;
@@ -516,6 +523,13 @@ xmm0
 '
 {
 instanceBox
+features
+:
+{
+simdWormhole
+:
+true
+}
 }
 )
 ;

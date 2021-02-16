@@ -1277,6 +1277,8 @@ TypedArrayObject
 code
 HandleObject
 importObj
+HandleValue
+maybeOptions
 MutableHandleWasmInstanceObject
 instanceObj
 )

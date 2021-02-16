@@ -455,6 +455,10 @@ ScriptedCaller
 &
 &
 scriptedCaller
+const
+FeatureOptions
+&
+options
 )
 ;
 explicit
