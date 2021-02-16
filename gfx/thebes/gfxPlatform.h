@@ -395,9 +395,12 @@ while
 0
 )
 enum
-eCMSMode
+class
+CMSMode
+:
+int32_t
 {
-eCMSMode_Off
+Off
 =
 0
 /
@@ -405,7 +408,7 @@ eCMSMode_Off
 No
 color
 management
-eCMSMode_All
+All
 =
 1
 /
@@ -413,7 +416,7 @@ eCMSMode_All
 Color
 manage
 everything
-eCMSMode_TaggedOnly
+TaggedOnly
 =
 2
 /
@@ -423,7 +426,7 @@ manage
 tagged
 Images
 Only
-eCMSMode_AllCount
+AllCount
 =
 3
 }
@@ -3396,7 +3399,7 @@ management
 *
 /
 static
-eCMSMode
+CMSMode
 GetCMSMode
 (
 )
@@ -3421,7 +3424,7 @@ static
 void
 SetCMSModeOverride
 (
-eCMSMode
+CMSMode
 aMode
 )
 ;

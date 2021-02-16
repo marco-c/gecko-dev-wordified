@@ -392,7 +392,10 @@ gfxPlatform
 :
 SetCMSModeOverride
 (
-eCMSMode_All
+CMSMode
+:
+:
+All
 )
 ;
 /
