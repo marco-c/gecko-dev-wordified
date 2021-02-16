@@ -10553,6 +10553,8 @@ nsIPrincipal
 aLoadingPrincipal
 OriginAttributes
 aOriginAttributes
+uint64_t
+aInnerWindowId
 nsID
 ?
 aAgentClusterId
