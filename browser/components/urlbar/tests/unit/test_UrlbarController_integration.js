@@ -239,7 +239,7 @@ test_basic_search
 )
 {
 let
-providerName
+provider
 =
 registerBasicTestProvider
 (
@@ -258,7 +258,9 @@ TEST_URL
 providers
 :
 [
-providerName
+provider
+.
+name
 ]
 }
 )
@@ -357,7 +359,7 @@ defer
 )
 ;
 let
-providerName
+provider
 =
 registerBasicTestProvider
 (
@@ -379,7 +381,9 @@ TEST_URL
 providers
 :
 [
-providerName
+provider
+.
+name
 ]
 }
 )

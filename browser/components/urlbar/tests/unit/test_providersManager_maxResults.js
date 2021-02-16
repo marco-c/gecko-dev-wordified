@@ -106,7 +106,7 @@ i
 ;
 }
 let
-providerName
+provider
 =
 registerBasicTestProvider
 (
@@ -123,7 +123,9 @@ undefined
 providers
 :
 [
-providerName
+provider
+.
+name
 ]
 }
 )
