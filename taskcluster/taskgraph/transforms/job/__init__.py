@@ -1948,6 +1948,32 @@ kind
 )
             
 if
+not
+value
+:
+                
+value
+=
+[
+]
+            
+elif
+isinstance
+(
+value
+text_type
+)
+:
+                
+value
+=
+[
+value
+]
+            
+for
+alias
+in
 value
 :
                 
@@ -1966,7 +1992,7 @@ format
 config
 .
 kind
-value
+alias
 )
 ]
 =
@@ -2055,6 +2081,32 @@ kind
 )
             
 if
+not
+value
+:
+                
+value
+=
+[
+]
+            
+elif
+isinstance
+(
+value
+text_type
+)
+:
+                
+value
+=
+[
+value
+]
+            
+for
+alias
+in
 value
 :
                 
@@ -2073,7 +2125,7 @@ format
 task
 .
 kind
-value
+alias
 )
 ]
 =
