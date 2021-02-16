@@ -129,7 +129,7 @@ dom
 /
 quota
 /
-PersistenceType
+OriginMetadata
 .
 h
 "
@@ -142,7 +142,7 @@ dom
 /
 quota
 /
-QuotaInfo
+PersistenceType
 .
 h
 "

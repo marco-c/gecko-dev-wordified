@@ -2259,7 +2259,7 @@ LS_TRY_INSPECT
 const
 auto
 &
-quotaInfo
+originMetadata
 quota
 :
 :
@@ -2281,7 +2281,7 @@ MOZ_ASSERT
 originAttrSuffix
 =
 =
-quotaInfo
+originMetadata
 .
 mSuffix
 )
@@ -2291,7 +2291,7 @@ auto
 &
 origin
 =
-quotaInfo
+originMetadata
 .
 mOrigin
 ;
@@ -2784,7 +2784,7 @@ LS_TRY_INSPECT
 const
 auto
 &
-quotaInfo
+originMetadata
 (
 [
 &
@@ -2801,7 +2801,7 @@ Result
 quota
 :
 :
-QuotaInfo
+OriginMetadata
 nsresult
 >
 {
@@ -2858,7 +2858,7 @@ MOZ_ASSERT
 originAttrSuffix
 =
 =
-quotaInfo
+originMetadata
 .
 mSuffix
 )
@@ -2868,7 +2868,7 @@ auto
 &
 origin
 =
-quotaInfo
+originMetadata
 .
 mOrigin
 ;
