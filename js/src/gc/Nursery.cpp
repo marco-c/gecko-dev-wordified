@@ -4690,15 +4690,6 @@ stringTail
 &
 stringHead
 )
-bigIntHead
-(
-nullptr
-)
-bigIntTail
-(
-&
-bigIntHead
-)
 {
 }
 inline
