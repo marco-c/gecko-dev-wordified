@@ -35344,10 +35344,6 @@ to_f32
 )
 pic_index
 content_origin
-UvRectKind
-:
-:
-Rect
 surface_spatial_node_index
 device_pixel_scale
 *
@@ -36782,7 +36778,6 @@ pic_index
 device_rect
 .
 origin
-uv_rect_kind
 surface_spatial_node_index
 device_pixel_scale
 PrimitiveVisibilityMask
@@ -36794,6 +36789,11 @@ all
 None
 None
 )
+)
+.
+with_uv_rect_kind
+(
+uv_rect_kind
 )
 )
 ;
@@ -37087,7 +37087,6 @@ pic_index
 device_rect
 .
 origin
-uv_rect_kind
 surface_spatial_node_index
 device_pixel_scale
 PrimitiveVisibilityMask
@@ -37099,6 +37098,11 @@ all
 None
 None
 )
+)
+.
+with_uv_rect_kind
+(
+uv_rect_kind
 )
 )
 ;
@@ -37797,8 +37801,12 @@ available_rect
 .
 origin
 )
-backdrop_uv
 )
+)
+.
+with_uv_rect_kind
+(
+backdrop_uv
 )
 )
 }
@@ -37835,10 +37843,6 @@ RenderTaskKind
 new_readback
 (
 None
-UvRectKind
-:
-:
-Rect
 )
 )
 )
@@ -37905,7 +37909,6 @@ pic_index
 clipped
 .
 origin
-uv_rect_kind
 surface_spatial_node_index
 device_pixel_scale
 PrimitiveVisibilityMask
@@ -37917,6 +37920,11 @@ all
 None
 None
 )
+)
+.
+with_uv_rect_kind
+(
+uv_rect_kind
 )
 )
 ;
@@ -38042,7 +38050,6 @@ pic_index
 clipped
 .
 origin
-uv_rect_kind
 surface_spatial_node_index
 device_pixel_scale
 PrimitiveVisibilityMask
@@ -38054,6 +38061,11 @@ all
 None
 None
 )
+)
+.
+with_uv_rect_kind
+(
+uv_rect_kind
 )
 )
 ;
@@ -38179,7 +38191,6 @@ pic_index
 clipped
 .
 origin
-uv_rect_kind
 surface_spatial_node_index
 device_pixel_scale
 PrimitiveVisibilityMask
@@ -38191,6 +38202,11 @@ all
 None
 None
 )
+)
+.
+with_uv_rect_kind
+(
+uv_rect_kind
 )
 )
 ;
@@ -38324,7 +38340,6 @@ pic_index
 clipped
 .
 origin
-uv_rect_kind
 surface_spatial_node_index
 device_pixel_scale
 PrimitiveVisibilityMask
@@ -38336,6 +38351,11 @@ all
 None
 None
 )
+)
+.
+with_uv_rect_kind
+(
+uv_rect_kind
 )
 )
 ;
@@ -38463,7 +38483,6 @@ pic_index
 clipped
 .
 origin
-uv_rect_kind
 surface_spatial_node_index
 device_pixel_scale
 PrimitiveVisibilityMask
@@ -38475,6 +38494,11 @@ all
 None
 None
 )
+)
+.
+with_uv_rect_kind
+(
+uv_rect_kind
 )
 )
 ;

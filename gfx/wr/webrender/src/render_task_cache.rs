@@ -1589,6 +1589,17 @@ rg_builder
 )
 ?
 ;
+rg_builder
+.
+get_task_mut
+(
+render_task_id
+)
+.
+mark_cached
+(
+)
+;
 cache_entry
 .
 user_data
