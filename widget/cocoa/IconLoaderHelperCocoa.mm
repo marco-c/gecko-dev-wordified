@@ -841,6 +841,11 @@ placeholderImage
 =
 nil
 ;
+if
+(
+mLoadListener
+)
+{
 mLoadListener
 -
 >
@@ -848,6 +853,7 @@ OnComplete
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -889,6 +895,10 @@ mNativeIconImage
 nil
 ;
 }
+mLoadListener
+=
+nullptr
+;
 }
 }
 /
