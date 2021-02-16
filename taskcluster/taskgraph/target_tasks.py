@@ -6129,6 +6129,27 @@ return
 False
         
 #
+ignore
+all
+windows
+7
+perf
+jobs
+scheduled
+automatically
+        
+if
+"
+windows7
+"
+in
+platform
+:
+            
+return
+False
+        
+#
 Desktop
 selection
         
