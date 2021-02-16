@@ -332,10 +332,6 @@ mozilla
 :
 widget
 {
-NS_IMPL_ISUPPORTS0
-(
-IconLoaderHelperCocoa
-)
 IconLoaderHelperCocoa
 :
 :
