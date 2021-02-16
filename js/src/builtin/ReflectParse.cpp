@@ -24557,6 +24557,7 @@ ModuleSharedContext
 modulesc
 (
 cx
+options
 stencil
 builder
 extent

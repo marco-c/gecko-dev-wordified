@@ -34716,6 +34716,11 @@ frontend
 InstantiateStencils
 (
 cx
+input
+.
+get
+(
+)
 stencil
 gcOutput
 .
@@ -35058,6 +35063,11 @@ frontend
 InstantiateStencils
 (
 cx
+input
+.
+get
+(
+)
 stencil
 gcOutput
 .

@@ -13414,6 +13414,15 @@ fromStencil
 JSContext
 *
 cx
+js
+:
+:
+frontend
+:
+:
+CompilationInput
+&
+input
 const
 js
 :
@@ -13433,7 +13442,6 @@ frontend
 CompilationGCOutput
 &
 gcOutput
-const
 js
 :
 :

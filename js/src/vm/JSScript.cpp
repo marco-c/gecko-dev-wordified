@@ -25311,10 +25311,13 @@ fromStencil
 JSContext
 *
 cx
+frontend
+:
+:
+CompilationInput
+&
+input
 const
-js
-:
-:
 frontend
 :
 :
@@ -25327,10 +25330,6 @@ frontend
 CompilationGCOutput
 &
 gcOutput
-const
-js
-:
-:
 frontend
 :
 :
@@ -25470,8 +25469,6 @@ if
 fullyInitFromStencil
 (
 cx
-stencil
-.
 input
 stencil
 gcOutput

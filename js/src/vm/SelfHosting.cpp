@@ -19843,6 +19843,11 @@ CompilationStencil
 instantiateStencils
 (
 cx
+input
+.
+get
+(
+)
 *
 stencil
 output
