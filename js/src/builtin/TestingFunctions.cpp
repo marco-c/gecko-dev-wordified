@@ -31962,6 +31962,11 @@ stencil
 serializeStencils
 (
 cx
+input
+.
+get
+(
+)
 xdrBytes
 )
 )
@@ -32342,6 +32347,11 @@ stencil
 deserializeStencils
 (
 cx
+input
+.
+get
+(
+)
 xdrRange
 &
 succeeded

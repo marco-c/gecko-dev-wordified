@@ -34448,6 +34448,12 @@ buffer
 frontend
 :
 :
+CompilationInput
+&
+input
+frontend
+:
+:
 CompilationStencil
 &
 stencil
@@ -34460,8 +34466,6 @@ decoder
 (
 cx
 &
-stencil
-.
 input
 .
 options
@@ -34472,8 +34476,6 @@ cursorIndex
 if
 (
 !
-stencil
-.
 input
 .
 initForGlobal
@@ -34496,6 +34498,7 @@ decoder
 .
 codeStencils
 (
+input
 stencil
 )
 ;
@@ -34656,6 +34659,11 @@ DecodeStencil
 (
 cx
 buffer
+input
+.
+get
+(
+)
 stencil
 cursorIndex
 )
@@ -34959,6 +34967,11 @@ DecodeStencil
 (
 cx
 buffer
+input
+.
+get
+(
+)
 stencil
 cursorIndex
 )
@@ -34995,6 +35008,11 @@ source
 xdrEncodeStencils
 (
 cx
+input
+.
+get
+(
+)
 stencil
 xdrEncoder
 )

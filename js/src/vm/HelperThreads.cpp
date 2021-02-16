@@ -5334,6 +5334,8 @@ decoder
 codeStencils
 (
 *
+stencilInput_
+*
 stencil_
 )
 ;
@@ -13191,10 +13193,6 @@ parseTask
 -
 >
 stencil_
-.
-get
-(
-)
 )
 {
 auto
@@ -13222,6 +13220,11 @@ source
 xdrEncodeStencils
 (
 cx
+*
+parseTask
+-
+>
+stencilInput_
 *
 stencil
 xdrEncoder

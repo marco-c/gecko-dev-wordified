@@ -19537,6 +19537,11 @@ stencil
 deserializeStencils
 (
 cx
+input
+.
+get
+(
+)
 selfHostedXDR
 &
 decodeOk
@@ -19752,6 +19757,11 @@ stencil
 serializeStencils
 (
 cx
+input
+.
+get
+(
+)
 xdrBuffer
 )
 )

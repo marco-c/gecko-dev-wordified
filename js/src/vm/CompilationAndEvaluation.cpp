@@ -956,6 +956,11 @@ source
 xdrEncodeInitialStencil
 (
 cx
+input
+.
+get
+(
+)
 *
 stencil
 xdrEncoder

@@ -3735,6 +3735,9 @@ serializeStencils
 JSContext
 *
 cx
+CompilationInput
+&
+input
 JS
 :
 :
@@ -3759,6 +3762,9 @@ deserializeStencils
 JSContext
 *
 cx
+CompilationInput
+&
+input
 const
 JS
 :
