@@ -403,11 +403,6 @@ GfxInfo
 cpp
 "
 "
-IconLoaderHelperWin
-.
-cpp
-"
-"
 IEnumFE
 .
 cpp
