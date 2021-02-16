@@ -1310,7 +1310,7 @@ initialized
 *
 /
 void
-NotifyInitialized
+UpdateInitialized
 (
 )
 ;
@@ -1318,7 +1318,18 @@ NotifyInitialized
 *
 *
 *
-Notifies
+Updates
+internal
+state
+when
+track
+encoders
+are
+all
+initialized
+and
+*
+notifies
 listeners
 that
 this
@@ -1330,7 +1341,7 @@ started
 *
 /
 void
-NotifyStarted
+UpdateStarted
 (
 )
 ;
