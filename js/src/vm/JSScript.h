@@ -16370,6 +16370,11 @@ argSlot
 )
 ;
 bool
+anyFormalIsAliased
+(
+)
+;
+bool
 formalLivesInArgumentsObject
 (
 unsigned

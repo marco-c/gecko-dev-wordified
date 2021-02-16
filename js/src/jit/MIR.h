@@ -7475,6 +7475,14 @@ resumePoint
 )
 ;
 void
+stealResumePoint
+(
+MInstruction
+*
+other
+)
+;
+void
 moveResumePointAsEntry
 (
 )
