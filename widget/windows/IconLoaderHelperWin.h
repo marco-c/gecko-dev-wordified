@@ -258,16 +258,10 @@ IconLoaderHelperWin
 final
 :
 public
-mozilla
-:
-:
-widget
-:
-:
 IconLoader
 :
 :
-Helper
+Listener
 {
 public
 :

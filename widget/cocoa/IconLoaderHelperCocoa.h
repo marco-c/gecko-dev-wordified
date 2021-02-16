@@ -213,7 +213,7 @@ default
 This
 is
 a
-Helper
+helper
 used
 with
 mozilla
@@ -248,16 +248,10 @@ IconLoaderHelperCocoa
 final
 :
 public
-mozilla
-:
-:
-widget
-:
-:
 IconLoader
 :
 :
-Helper
+Listener
 {
 public
 :
