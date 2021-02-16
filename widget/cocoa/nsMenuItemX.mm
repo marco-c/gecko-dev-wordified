@@ -284,6 +284,7 @@ if
 (
 mIcon
 )
+{
 mIcon
 -
 >
@@ -291,6 +292,7 @@ Destroy
 (
 )
 ;
+}
 /
 /
 autorelease
@@ -325,6 +327,7 @@ if
 (
 mContent
 )
+{
 mMenuGroupOwner
 -
 >
@@ -333,10 +336,12 @@ UnregisterForContentChanges
 mContent
 )
 ;
+}
 if
 (
 mCommandElement
 )
+{
 mMenuGroupOwner
 -
 >
@@ -345,6 +350,7 @@ UnregisterForContentChanges
 mCommandElement
 )
 ;
+}
 MOZ_COUNT_DTOR
 (
 nsMenuItemX
@@ -575,6 +581,7 @@ if
 (
 mCommandElement
 )
+{
 isEnabled
 =
 !
@@ -595,7 +602,9 @@ _true
 eCaseMatters
 )
 ;
+}
 else
+{
 isEnabled
 =
 !
@@ -630,6 +639,7 @@ _true
 eCaseMatters
 )
 ;
+}
 /
 /
 set
@@ -753,9 +763,11 @@ if
 !
 mIcon
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 return
 NS_OK
 ;
@@ -840,6 +852,7 @@ if
 (
 mIsChecked
 )
+{
 [
 mNativeMenuItem
 setState
@@ -847,7 +860,9 @@ setState
 NSOnState
 ]
 ;
+}
 else
+{
 [
 mNativeMenuItem
 setState
@@ -855,6 +870,7 @@ setState
 NSOffState
 ]
 ;
+}
 return
 NS_OK
 ;
@@ -981,12 +997,14 @@ _false
 eCaseMatters
 )
 )
+{
 SetChecked
 (
 !
 mIsChecked
 )
 ;
+}
 /
 *
 the
@@ -1030,9 +1048,11 @@ if
 !
 mContent
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 /
 /
 get
@@ -1267,6 +1287,7 @@ Length
 (
 )
 )
+{
 /
 /
 no
@@ -1276,6 +1297,7 @@ to
 do
 return
 ;
+}
 nsCOMPtr
 <
 nsIContent
@@ -1294,8 +1316,10 @@ if
 !
 parent
 )
+{
 return
 ;
+}
 /
 /
 loop
@@ -1671,6 +1695,7 @@ isEqualToString
 "
 ]
 )
+{
 [
 mNativeMenuItem
 setKeyEquivalent
@@ -1679,7 +1704,9 @@ setKeyEquivalent
 "
 ]
 ;
+}
 else
+{
 [
 mNativeMenuItem
 setKeyEquivalent
@@ -1687,6 +1714,7 @@ setKeyEquivalent
 keyEquivalent
 ]
 ;
+}
 return
 ;
 }
@@ -1746,8 +1774,10 @@ if
 !
 aContent
 )
+{
 return
 ;
+}
 if
 (
 aContent
@@ -1971,6 +2001,7 @@ _true
 eCaseMatters
 )
 )
+{
 [
 mNativeMenuItem
 setEnabled
@@ -1978,7 +2009,9 @@ setEnabled
 NO
 ]
 ;
+}
 else
+{
 [
 mNativeMenuItem
 setEnabled
@@ -1986,6 +2019,7 @@ setEnabled
 YES
 ]
 ;
+}
 }
 }
 else
@@ -2129,6 +2163,7 @@ IsEmpty
 (
 )
 )
+{
 mContent
 -
 >
@@ -2147,7 +2182,9 @@ disabled
 true
 )
 ;
+}
 else
+{
 mContent
 -
 >
@@ -2167,6 +2204,7 @@ commandDisabled
 true
 )
 ;
+}
 }
 /
 /
@@ -2206,6 +2244,7 @@ _true
 eCaseMatters
 )
 )
+{
 [
 mNativeMenuItem
 setEnabled
@@ -2213,7 +2252,9 @@ setEnabled
 NO
 ]
 ;
+}
 else
+{
 [
 mNativeMenuItem
 setEnabled
@@ -2221,6 +2262,7 @@ setEnabled
 YES
 ]
 ;
+}
 }
 }
 NS_OBJC_END_TRY_ABORT_BLOCK
@@ -2403,6 +2445,7 @@ if
 (
 mIcon
 )
+{
 mIcon
 -
 >
@@ -2410,4 +2453,5 @@ SetupIcon
 (
 )
 ;
+}
 }

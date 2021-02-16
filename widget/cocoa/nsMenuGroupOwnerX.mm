@@ -364,9 +364,11 @@ if
 !
 aContent
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 mContent
 =
 aContent
@@ -546,6 +548,7 @@ if
 (
 obs
 )
+{
 obs
 -
 >
@@ -561,6 +564,7 @@ aElement
 aAttribute
 )
 ;
+}
 }
 void
 nsMenuGroupOwnerX
@@ -618,6 +622,7 @@ if
 (
 obs
 )
+{
 obs
 -
 >
@@ -634,6 +639,7 @@ aChild
 aPreviousSibling
 )
 ;
+}
 else
 if
 (
@@ -713,6 +719,7 @@ if
 (
 obs
 )
+{
 obs
 -
 >
@@ -734,6 +741,7 @@ aChild
 aPreviousSibling
 )
 ;
+}
 }
 }
 }
@@ -790,6 +798,7 @@ if
 (
 obs
 )
+{
 obs
 -
 >
@@ -805,6 +814,7 @@ container
 aChild
 )
 ;
+}
 else
 if
 (
@@ -884,6 +894,7 @@ if
 (
 obs
 )
+{
 obs
 -
 >
@@ -899,6 +910,7 @@ container
 aChild
 )
 ;
+}
 }
 }
 }
@@ -1081,13 +1093,17 @@ aContent
 result
 )
 )
+{
 return
 result
 ;
+}
 else
+{
 return
 nullptr
 ;
+}
 }
 /
 /
@@ -1292,13 +1308,17 @@ inCommandID
 result
 )
 )
+{
 return
 result
 ;
+}
 else
+{
 return
 nullptr
 ;
+}
 }
 void
 nsMenuGroupOwnerX
