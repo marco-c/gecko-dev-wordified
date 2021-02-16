@@ -115,15 +115,6 @@ define
 vm_Opcodes_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stddef
 .

@@ -138,11 +138,6 @@ h
 "
 /
 /
-[
-[
-nodiscard
-]
-]
 for
 MOZ_RAII
 #

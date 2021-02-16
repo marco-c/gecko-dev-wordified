@@ -116,15 +116,6 @@ define
 builtin_intl_ListFormat_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stdint
 .

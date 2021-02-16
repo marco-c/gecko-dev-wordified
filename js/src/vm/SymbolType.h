@@ -116,15 +116,6 @@ define
 vm_SymbolType_h
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stdio
 .

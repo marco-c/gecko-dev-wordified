@@ -103,15 +103,6 @@ ctypes_Library_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 js
 /
 TypeDecls

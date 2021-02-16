@@ -117,15 +117,6 @@ frontend_UsedNameTracker_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 frontend
 /
 ParserAtom
