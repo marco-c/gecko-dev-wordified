@@ -4845,7 +4845,7 @@ NS_IsMainThread
 )
 )
 ;
-Stop
+DisconnectTracks
 (
 )
 ;
@@ -4982,7 +4982,7 @@ void
 MediaEncoder
 :
 :
-Stop
+DisconnectTracks
 (
 )
 {
