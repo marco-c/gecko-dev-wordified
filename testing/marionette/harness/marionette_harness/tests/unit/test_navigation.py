@@ -100,8 +100,6 @@ MarionetteTestCase
     
 run_if_manage_instance
     
-skip_if_framescript
-    
 skip_unless_browser_pref
     
 WindowManagerMixin
@@ -7282,23 +7280,6 @@ self
 .
 tearDown
 (
-)
-    
-skip_if_framescript
-(
-"
-Bug
-1675173
-:
-Won
-'
-t
-be
-fixed
-for
-framescript
-mode
-"
 )
     
 def
