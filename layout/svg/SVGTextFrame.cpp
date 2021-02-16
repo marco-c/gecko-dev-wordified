@@ -19130,7 +19130,7 @@ displayed
 SVG
 frame
 ancestors
-toerh
+other
 /
 /
 than
@@ -21958,7 +21958,7 @@ ReflowSVG
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 SVGUtils
 :

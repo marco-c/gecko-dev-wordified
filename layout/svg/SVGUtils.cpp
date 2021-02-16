@@ -1149,7 +1149,7 @@ get
 messed
 up
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 OuterSVGIsCallingReflowSVG
