@@ -555,7 +555,6 @@ new
 IconLoader
 (
 this
-mImageRegionRect
 )
 ;
 }
@@ -751,10 +750,6 @@ OnComplete
 imgIContainer
 *
 aImage
-const
-nsIntRect
-&
-aRect
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -803,7 +798,7 @@ kIconSize
 )
 subrect
 :
-aRect
+mImageRegionRect
 scaleFactor
 :
 kHiDPIScalingFactor
