@@ -499,7 +499,6 @@ h
 /
 MOZ_COLD
 MOZ_IS_CLASS_INIT
-MOZ_MUST_USE
 #
 include
 "

@@ -149,7 +149,6 @@ h
 "
 /
 /
-MOZ_MUST_USE
 MOZ_STACK_CLASS
 #
 include

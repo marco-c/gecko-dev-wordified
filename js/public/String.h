@@ -166,7 +166,6 @@ h
 /
 /
 MOZ_ALWAYS_INLINE
-MOZ_MUST_USE
 #
 include
 "
