@@ -1302,7 +1302,10 @@ lazy
 =
 nullptr
 ;
-ScriptSourceHolder
+RefPtr
+<
+ScriptSource
+>
 source_
 ;
 /
@@ -1888,10 +1891,9 @@ ScriptSource
 ss
 )
 {
-return
 source_
-.
-reset
+=
+do_AddRef
 (
 ss
 )
