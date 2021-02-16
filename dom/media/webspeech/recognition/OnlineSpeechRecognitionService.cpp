@@ -1607,7 +1607,7 @@ this
 ;
 mAudioEncoder
 =
-MakeAndAddRef
+MakeUnique
 <
 OpusTrackEncoder
 >

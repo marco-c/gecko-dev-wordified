@@ -616,7 +616,7 @@ supported
 by
 our
 backend
-RefPtr
+UniquePtr
 <
 AudioTrackEncoder
 >
