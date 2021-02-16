@@ -562,6 +562,12 @@ config
 >
 rc_target_bitrate
 =
+std
+:
+:
+max
+(
+1U
 (
 aVideoBitrate
 !
@@ -574,6 +580,7 @@ DEFAULT_BITRATE_BPS
 )
 /
 1000
+)
 ;
 /
 /
