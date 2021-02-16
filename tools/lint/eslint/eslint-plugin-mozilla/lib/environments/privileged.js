@@ -1385,6 +1385,9 @@ false
 PlacesVisit
 :
 false
+PlacesVisitRemoved
+:
+false
 PlacesVisitTitle
 :
 false
