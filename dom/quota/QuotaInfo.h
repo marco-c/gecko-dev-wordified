@@ -142,7 +142,7 @@ dom
 quota
 {
 struct
-GroupAndOrigin
+OriginMetadata
 {
 nsCString
 mGroup
@@ -155,7 +155,7 @@ mOrigin
 struct
 QuotaInfo
 :
-GroupAndOrigin
+OriginMetadata
 {
 nsCString
 mSuffix
@@ -176,7 +176,7 @@ nsCString
 aOrigin
 )
 :
-GroupAndOrigin
+OriginMetadata
 {
 std
 :

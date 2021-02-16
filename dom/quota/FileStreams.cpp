@@ -378,7 +378,7 @@ quotaManager
 GetQuotaObject
 (
 mPersistenceType
-mGroupAndOrigin
+mOriginMetadata
 mClientType
 FileStreamBase
 :
@@ -570,9 +570,9 @@ CreateFileInputStream
 PersistenceType
 aPersistenceType
 const
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 Client
 :
 :
@@ -602,7 +602,7 @@ FileInputStream
 >
 (
 aPersistenceType
-aGroupAndOrigin
+aOriginMetadata
 aClientType
 )
 ;
@@ -640,9 +640,9 @@ CreateFileOutputStream
 PersistenceType
 aPersistenceType
 const
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 Client
 :
 :
@@ -672,7 +672,7 @@ FileOutputStream
 >
 (
 aPersistenceType
-aGroupAndOrigin
+aOriginMetadata
 aClientType
 )
 ;
@@ -710,9 +710,9 @@ CreateFileStream
 PersistenceType
 aPersistenceType
 const
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 Client
 :
 :
@@ -742,7 +742,7 @@ FileStream
 >
 (
 aPersistenceType
-aGroupAndOrigin
+aOriginMetadata
 aClientType
 )
 ;

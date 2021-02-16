@@ -1217,9 +1217,9 @@ const
 quota
 :
 :
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 Client
 :
 :
@@ -1243,7 +1243,7 @@ PERSISTENCE_TYPE_INVALID
 MOZ_ASSERT
 (
 !
-aGroupAndOrigin
+aOriginMetadata
 .
 mGroup
 .
@@ -1255,7 +1255,7 @@ IsEmpty
 MOZ_ASSERT
 (
 !
-aGroupAndOrigin
+aOriginMetadata
 .
 mOrigin
 .
@@ -1319,7 +1319,7 @@ PersistenceType
 (
 aPersistenceType
 )
-aGroupAndOrigin
+aOriginMetadata
 .
 mGroup
 OriginScope
@@ -1327,7 +1327,7 @@ OriginScope
 :
 FromOrigin
 (
-aGroupAndOrigin
+aOriginMetadata
 .
 mOrigin
 )

@@ -169,11 +169,11 @@ quota
 class
 ClientDirectoryLock
 ;
-struct
-GroupAndOrigin
-;
 class
 OpenDirectoryListener
+;
+struct
+OriginMetadata
 ;
 /
 /
@@ -264,9 +264,9 @@ Specialize
 PersistenceType
 aPersistenceType
 const
-GroupAndOrigin
+OriginMetadata
 &
-aGroupAndOrigin
+aOriginMetadata
 Client
 :
 :
@@ -336,8 +336,8 @@ virtual
 quota
 :
 :
-GroupAndOrigin
-GroupAndOrigin
+OriginMetadata
+OriginMetadata
 (
 )
 const
