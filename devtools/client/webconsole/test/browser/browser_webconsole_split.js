@@ -615,12 +615,7 @@ splitterVisibility
 !
 splitter
 .
-getAttribute
-(
-"
 hidden
-"
-)
 ;
 /
 /
