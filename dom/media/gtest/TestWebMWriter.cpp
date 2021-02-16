@@ -239,6 +239,12 @@ VP8TrackEncoder
 nullptr
 aTrackRate
 mEncodedVideoQueue
+TimeDuration
+:
+:
+Forever
+(
+)
 FrameDroppingMode
 :
 :
