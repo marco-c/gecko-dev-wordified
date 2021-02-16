@@ -2554,9 +2554,7 @@ I32x4ExtMulLowUI16x8
 I32x4ExtMulHighUI16x8
 =
 0xbf
-/
-/
-Abs
+I64x2Eq
 =
 0xc0
 I64x2Neg
@@ -2609,14 +2607,10 @@ I64x2ShrU
 I64x2Add
 =
 0xce
-/
-/
-AddSatS
+I64x2AllTrue
 =
 0xcf
-/
-/
-AddSatU
+I64x2Ne
 =
 0xd0
 I64x2Sub
