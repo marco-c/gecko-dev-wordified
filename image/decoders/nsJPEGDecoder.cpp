@@ -1803,7 +1803,10 @@ if
 mCMSMode
 !
 =
-eCMSMode_Off
+CMSMode
+:
+:
+Off
 )
 {
 if
@@ -2101,7 +2104,10 @@ if
 mCMSMode
 =
 =
-eCMSMode_All
+CMSMode
+:
+:
+All
 )
 {
 mTransform

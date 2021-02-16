@@ -5661,7 +5661,10 @@ GetCMSMode
 )
 =
 =
-eCMSMode_All
+CMSMode
+:
+:
+All
 &
 &
 !
