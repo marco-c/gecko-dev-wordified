@@ -357,6 +357,11 @@ rv
 rv
 )
 ;
+if
+(
+mLoadListener
+)
+{
 mLoadListener
 -
 >
@@ -364,6 +369,7 @@ OnComplete
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -425,16 +431,10 @@ mNativeIconImage
 nullptr
 ;
 }
-if
-(
-mLoadListener
-)
-{
 mLoadListener
 =
 nullptr
 ;
-}
 }
 }
 /
