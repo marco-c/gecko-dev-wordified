@@ -1262,6 +1262,14 @@ opacity
 75
 ;
 }
+media
+not
+(
+prefers
+-
+contrast
+)
+{
 .
 breached
 >
@@ -1287,4 +1295,5 @@ opacity
 :
 1
 ;
+}
 }
