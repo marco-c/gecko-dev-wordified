@@ -1088,7 +1088,7 @@ CommitImageCacheToWaylandBuffer
 (
 )
 ;
-void
+bool
 DrawDelayedImageCommits
 (
 gfx
@@ -1266,7 +1266,7 @@ compositor
 /
 /
 the
-mBufferPendingCommit
+mWLBufferIsDirty
 is
 set
 .
@@ -1553,7 +1553,7 @@ compositor
 yet
 .
 bool
-mBufferPendingCommit
+mWLBufferIsDirty
 ;
 /
 /
