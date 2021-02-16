@@ -1403,7 +1403,7 @@ case
 InlinableNative
 :
 :
-IntrinsicTypedArrayElementShift
+IntrinsicTypedArrayElementSize
 :
 case
 InlinableNative

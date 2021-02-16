@@ -942,7 +942,7 @@ IntrinsicTypedArrayByteOffset
 \
 _
 (
-IntrinsicTypedArrayElementShift
+IntrinsicTypedArrayElementSize
 )
 struct
 JSClass

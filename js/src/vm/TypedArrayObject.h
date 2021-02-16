@@ -2067,6 +2067,7 @@ type
 }
 static
 inline
+constexpr
 unsigned
 TypedArrayElemSize
 (
