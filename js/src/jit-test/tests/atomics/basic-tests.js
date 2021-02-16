@@ -2766,7 +2766,7 @@ false
 for
 n
 =
-8
+7
 .
 /
 /
@@ -2784,12 +2784,16 @@ isLockFree
 )
 isLockFree
 (
+8
+)
+isLockFree
+(
 4
 )
+/
+/
 on
 all
-/
-/
 supported
 platforms
 only
@@ -2830,7 +2834,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -3002,7 +3006,7 @@ isLockFree
 (
 8
 )
-false
+true
 )
 ;
 assertEq
