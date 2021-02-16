@@ -506,6 +506,17 @@ Option
 json
 "
 )
+clonedFromContentProcess
+:
+Option
+(
+0
+"
+nullable
+:
+boolean
+"
+)
 }
 reflowActivity
 :
