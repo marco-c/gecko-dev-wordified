@@ -4362,6 +4362,10 @@ mForceLayerForScrollParent
 (
 false
 )
+mContainsNonMinimalDisplayPort
+(
+false
+)
 mAsyncPanZoomEnabled
 (
 nsLayoutUtils
