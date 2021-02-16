@@ -2475,6 +2475,8 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
+LayersId
+aLayersId
 HitTestingTreeNodeAutoLock
 &
 aOutThumbNode

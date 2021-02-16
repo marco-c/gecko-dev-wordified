@@ -961,6 +961,8 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
+LayersId
+aLayersId
 )
 const
 ;

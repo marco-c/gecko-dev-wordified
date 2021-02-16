@@ -684,6 +684,8 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
+LayersId
+aLayersId
 )
 const
 {
@@ -691,6 +693,12 @@ return
 IsScrollThumbNode
 (
 )
+&
+&
+mLayersId
+=
+=
+aLayersId
 &
 &
 mScrollbarData
