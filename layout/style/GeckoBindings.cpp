@@ -4443,6 +4443,8 @@ sServoFFILock
 ;
 nscolor
 result
+=
+0
 ;
 LookAndFeel
 :
