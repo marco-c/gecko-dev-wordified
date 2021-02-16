@@ -1269,11 +1269,7 @@ are
 /
 handled
 by
-the
-load
-listener
-in
-listener
+navigate
 .
 js
 }
