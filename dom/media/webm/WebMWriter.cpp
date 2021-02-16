@@ -220,6 +220,9 @@ i
 +
 )
 {
+nsresult
+rv
+=
 mEbmlComposer
 -
 >
@@ -235,6 +238,12 @@ i
 get
 (
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }

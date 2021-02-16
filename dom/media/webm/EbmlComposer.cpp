@@ -733,7 +733,7 @@ IsEmpty
 )
 ;
 }
-void
+nsresult
 EbmlComposer
 :
 :
@@ -847,6 +847,7 @@ I
 frames
 .
 return
+NS_ERROR_INVALID_ARG
 ;
 }
 int64_t
@@ -1159,6 +1160,9 @@ ebml
 .
 offset
 )
+;
+return
+NS_OK
 ;
 }
 void

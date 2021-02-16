@@ -314,7 +314,7 @@ applied
 .
 *
 /
-void
+nsresult
 WriteSimpleBlock
 (
 EncodedFrame
