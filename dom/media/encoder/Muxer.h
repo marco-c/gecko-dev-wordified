@@ -442,7 +442,7 @@ MediaQueue
 <
 EncodedFrame
 >
-mEncodedAudioFrames
+mEncodedAudioQueue
 ;
 /
 /
@@ -464,7 +464,7 @@ MediaQueue
 <
 EncodedFrame
 >
-mEncodedVideoFrames
+mEncodedVideoQueue
 ;
 /
 /
