@@ -34987,15 +34987,9 @@ xdrEncoder
 if
 (
 !
-input
-.
-get
-(
-)
+stencil
 .
 source
-(
-)
 -
 >
 xdrEncodeStencils
