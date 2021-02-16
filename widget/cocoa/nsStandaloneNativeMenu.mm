@@ -523,8 +523,6 @@ return
 NS_OK
 ;
 }
-else
-{
 *
 aVoidPointer
 =
@@ -533,7 +531,6 @@ nullptr
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-}
 }
 NS_IMETHODIMP
 nsStandaloneNativeMenu

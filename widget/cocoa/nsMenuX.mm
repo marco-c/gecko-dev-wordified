@@ -1597,7 +1597,7 @@ Length
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1705,7 +1705,7 @@ count
 )
 {
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1843,7 +1843,7 @@ visibleNodeIndex
 }
 }
 return
-NULL
+nullptr
 ;
 }
 nsresult

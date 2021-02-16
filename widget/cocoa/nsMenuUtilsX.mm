@@ -540,7 +540,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -779,12 +779,9 @@ GetMenuBar
 )
 ;
 }
-else
-{
 return
 nullptr
 ;
-}
 }
 /
 /

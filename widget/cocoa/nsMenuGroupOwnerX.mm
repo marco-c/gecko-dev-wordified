@@ -1098,12 +1098,9 @@ return
 result
 ;
 }
-else
-{
 return
 nullptr
 ;
-}
 }
 /
 /
@@ -1313,12 +1310,9 @@ return
 result
 ;
 }
-else
-{
 return
 nullptr
 ;
-}
 }
 void
 nsMenuGroupOwnerX
