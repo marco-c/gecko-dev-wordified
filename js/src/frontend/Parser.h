@@ -2617,7 +2617,7 @@ LifoAlloc
 Mark
 mark
 ;
-CompilationStencil
+CompilationState
 :
 :
 RewindToken
@@ -2648,11 +2648,10 @@ m
 .
 token
 =
-stencil_
+compilationState_
 .
 getRewindToken
 (
-compilationState_
 )
 ;
 return
@@ -2675,11 +2674,10 @@ m
 mark
 )
 ;
-stencil_
+compilationState_
 .
 rewind
 (
-compilationState_
 m
 .
 token

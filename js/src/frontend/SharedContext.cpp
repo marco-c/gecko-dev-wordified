@@ -1770,7 +1770,7 @@ AsmJS
 if
 (
 !
-stencil_
+compilationState_
 .
 asmJS
 .
