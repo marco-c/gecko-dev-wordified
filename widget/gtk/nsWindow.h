@@ -2395,7 +2395,7 @@ at
 all
 GTK_DECORATION_UNKNOWN
 }
-CSDSupportLevel
+GtkWindowDecoration
 ;
 /
 *
@@ -2419,8 +2419,8 @@ variable
 *
 /
 static
-CSDSupportLevel
-GetSystemCSDSupportLevel
+GtkWindowDecoration
+GetSystemGtkWindowDecoration
 (
 )
 ;
@@ -3187,8 +3187,8 @@ for
 this
 window
 .
-CSDSupportLevel
-mCSDSupportLevel
+GtkWindowDecoration
+mGtkWindowDecoration
 ;
 /
 /
@@ -3967,8 +3967,8 @@ CurrentX11TimeGetter
 mCurrentTimeGetter
 ;
 static
-CSDSupportLevel
-sCSDSupportLevel
+GtkWindowDecoration
+sGtkWindowDecoration
 ;
 static
 bool
