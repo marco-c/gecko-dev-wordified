@@ -888,8 +888,12 @@ newCount
 '
 method
 .
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 bool
 count
 (
@@ -933,8 +937,12 @@ newCount
 '
 method
 .
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 bool
 report
 (

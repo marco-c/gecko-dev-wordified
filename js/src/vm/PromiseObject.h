@@ -1332,8 +1332,12 @@ PromiseSlot_ReactionsOrResult
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 resolve
 (
@@ -1362,8 +1366,12 @@ Value
 resolutionValue
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 reject
 (

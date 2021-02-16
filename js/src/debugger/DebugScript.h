@@ -696,8 +696,12 @@ DebugScript
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 incrementStepperCount
 (
@@ -764,8 +768,12 @@ DebugScript
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 incrementGeneratorObserverCount
 (

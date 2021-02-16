@@ -1610,8 +1610,12 @@ protoClass_
 ;
 }
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 CheckReadableStreamControllerCanCloseOrEnqueue
 (
@@ -1633,8 +1637,12 @@ char
 action
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 JSObject
 *
 ReadableStreamControllerCancelSteps

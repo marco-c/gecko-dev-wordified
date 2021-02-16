@@ -761,8 +761,12 @@ BaseScript
 lazy
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 CompileLazyFunctionToStencil
 (
@@ -789,8 +793,12 @@ size_t
 length
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 CompileLazyFunctionToStencil
 (

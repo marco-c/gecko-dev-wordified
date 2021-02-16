@@ -515,8 +515,12 @@ code
 )
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 intl_ComputeDisplayName
 (

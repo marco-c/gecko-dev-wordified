@@ -257,8 +257,12 @@ reader
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 WritableStream
 *
 UnwrapStreamFromWriter

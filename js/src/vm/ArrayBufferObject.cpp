@@ -1206,8 +1206,12 @@ supportLargeBuffers
 =
 false
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 CheckArrayBufferTooLarge
 (

@@ -1434,8 +1434,12 @@ instead
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 CopyStringChars
 (
@@ -1559,8 +1563,12 @@ instead
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 LossyCopyStringChars
 (

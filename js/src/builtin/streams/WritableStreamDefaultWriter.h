@@ -759,8 +759,12 @@ protoClass_
 ;
 }
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 WritableStreamDefaultWriter
 *
 CreateWritableStreamDefaultWriter

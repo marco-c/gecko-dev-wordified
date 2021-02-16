@@ -2942,8 +2942,12 @@ UndefinedValue
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 WritableStream
 *
 create

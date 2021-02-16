@@ -285,8 +285,12 @@ false
 /
 /
 }
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 FoldConstants
 (
@@ -305,8 +309,12 @@ FullParseHandler
 handler
 )
 ;
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 FoldConstants
 (

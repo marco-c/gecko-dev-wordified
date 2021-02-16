@@ -26923,8 +26923,12 @@ with
 ImplicitConvert
 .
 )
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 BuildDataSource
 (

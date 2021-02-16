@@ -720,8 +720,12 @@ obj
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 StoreNewListInFixedSlot
 (
@@ -820,8 +824,12 @@ list
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 AppendToListInFixedSlot
 (

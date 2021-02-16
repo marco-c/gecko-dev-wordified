@@ -2860,8 +2860,12 @@ the
 web
 platform
 .
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 bool
 constructSavedFrameStack
 (

@@ -1148,8 +1148,12 @@ typename
 .
 Args
 >
+[
+[
+nodiscard
+]
+]
 MOZ_ALWAYS_INLINE
-MOZ_MUST_USE
 bool
 add
 (

@@ -442,8 +442,12 @@ computed
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 JS_PUBLIC_API
 bool
 GetOptimizedEncodingBuildId
@@ -562,8 +566,12 @@ h
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 JS_PUBLIC_API
 bool
 GetScriptTranscodingBuildId

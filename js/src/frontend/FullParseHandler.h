@@ -5328,8 +5328,12 @@ return
 true
 ;
 }
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 setLastFunctionFormalParameterDefault
 (

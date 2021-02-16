@@ -3071,8 +3071,12 @@ wasmMaxSize
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 wasmGrowToSizeInPlace
 (
@@ -3095,8 +3099,12 @@ JSContext
 cx
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 wasmMovingGrowToSize
 (

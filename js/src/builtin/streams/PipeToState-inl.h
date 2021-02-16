@@ -327,8 +327,12 @@ compartment
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 JSObject
 *
 UnwrapSignalFromPipeToState

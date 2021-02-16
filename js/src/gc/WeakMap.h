@@ -1096,8 +1096,12 @@ a
 different
 zone
 .
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 findSweepGroupEdgesForZone
 (

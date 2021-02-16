@@ -808,8 +808,12 @@ JSContext
 cx
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 finishSavedFrameInit
 (

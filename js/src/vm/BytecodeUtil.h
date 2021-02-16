@@ -4500,8 +4500,12 @@ only
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 Disassemble
 (
@@ -4560,8 +4564,12 @@ sp
 ;
 #
 endif
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 DumpRealmPCCounts
 (

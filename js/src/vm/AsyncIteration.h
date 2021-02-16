@@ -3610,8 +3610,12 @@ State_Completed
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 enqueueRequest
 (

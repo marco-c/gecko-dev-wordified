@@ -880,8 +880,12 @@ SetUpReadableStreamDefaultController
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 ReadableStream
 *
 CreateReadableStream

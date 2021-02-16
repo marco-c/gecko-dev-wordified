@@ -751,8 +751,12 @@ occurred
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 ReportCompileWarning
 (

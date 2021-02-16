@@ -225,8 +225,12 @@ case
 indirect
 eval
 .
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 IndirectEval
 (
@@ -285,8 +289,12 @@ a
 script
 frame
 .
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 DirectEval
 (

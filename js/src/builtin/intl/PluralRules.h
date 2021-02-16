@@ -575,8 +575,12 @@ x
 )
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 intl_SelectPluralRule
 (
@@ -669,8 +673,12 @@ other
 ]
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 intl_GetPluralCategories
 (

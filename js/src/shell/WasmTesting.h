@@ -247,8 +247,12 @@ in
 error
 '
 .
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 bool
 TextToBinary
 (

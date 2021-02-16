@@ -7654,8 +7654,12 @@ bool
 resultp
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 JSObject
 *
 SpeciesConstructor
@@ -7680,8 +7684,12 @@ JSFunction
 )
 )
 ;
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 JSObject
 *
 SpeciesConstructor

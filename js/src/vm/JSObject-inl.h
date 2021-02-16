@@ -1645,9 +1645,13 @@ template
 typename
 T
 >
+[
+[
+nodiscard
+]
+]
 static
 MOZ_ALWAYS_INLINE
-MOZ_MUST_USE
 T
 *
 SetNewObjectMetadata
