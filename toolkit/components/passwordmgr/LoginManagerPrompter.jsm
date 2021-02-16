@@ -4267,13 +4267,9 @@ VISIBILITY_TOGGLE_MAX_PW_AGE_MS
 ;
 toggleBtn
 .
-setAttribute
-(
-"
 hidden
-"
+=
 hideToggle
-)
 ;
 }
 let
