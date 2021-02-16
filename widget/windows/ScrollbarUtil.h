@@ -102,7 +102,7 @@ ScrollbarUtil_h
 #
 include
 "
-nsLayoutUtils
+nsITheme
 .
 h
 "
@@ -122,6 +122,9 @@ static
 bool
 IsScrollbarWidthThin
 (
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
@@ -188,6 +191,9 @@ dark
 background
 .
 static
+mozilla
+:
+:
 ComputedStyle
 *
 GetCustomScrollbarStyle
@@ -208,6 +214,9 @@ GetScrollbarButtonColor
 (
 nscolor
 aTrackColor
+mozilla
+:
+:
 EventStates
 aStates
 )
@@ -236,11 +245,17 @@ GetScrollbarThumbColor
 nsIFrame
 *
 aFrame
+mozilla
+:
+:
 EventStates
 aEventStates
 )
 ;
 static
+mozilla
+:
+:
 Maybe
 <
 nsITheme
@@ -253,6 +268,9 @@ GetScrollbarPartTransparency
 nsIFrame
 *
 aFrame
+mozilla
+:
+:
 StyleAppearance
 aAppearance
 )
