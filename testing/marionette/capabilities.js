@@ -4125,8 +4125,9 @@ is
 not
 accessible
 from
-JSWindowActor
-child
+content
+frame
+scripts
 /
 /
 but

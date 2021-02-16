@@ -995,6 +995,17 @@ newSession
 =
 true
 ;
+this
+.
+seenEls
+=
+new
+element
+.
+Store
+(
+)
+;
 /
 /
 A

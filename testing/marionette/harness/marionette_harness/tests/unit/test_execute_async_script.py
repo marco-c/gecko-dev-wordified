@@ -1184,8 +1184,12 @@ the
 privileged
     
 #
-JSWindowActor
-child
+content
+frame
+script
+listener
+.
+js
 runs
 in
 cannot
