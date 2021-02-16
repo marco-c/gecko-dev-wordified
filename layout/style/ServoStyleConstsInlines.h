@@ -2783,12 +2783,12 @@ url
 "
 )
 or
+/
+/
 url
 (
 )
 )
-/
-/
 the
 url
 must
@@ -2801,10 +2801,10 @@ resource
 similar
 to
 what
+/
+/
 the
 url
-/
-/
 about
 :
 invalid
