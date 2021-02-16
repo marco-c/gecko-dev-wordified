@@ -861,7 +861,6 @@ new
 IconLoader
 (
 mIconLoaderHelper
-mMenu
 rect
 )
 ;
@@ -878,6 +877,7 @@ mIconLoader
 LoadIcon
 (
 iconURI
+mMenu
 )
 ;
 }
@@ -1177,13 +1177,6 @@ mIconLoaderHelper
 -
 >
 Destroy
-(
-)
-;
-mIconLoader
--
->
-ReleaseJSObjects
 (
 )
 ;

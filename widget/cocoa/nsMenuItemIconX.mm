@@ -590,7 +590,6 @@ new
 IconLoader
 (
 mIconLoaderHelper
-mContent
 mImageRegionRect
 )
 ;
@@ -638,6 +637,7 @@ mIconLoader
 LoadIcon
 (
 iconURI
+mContent
 )
 ;
 if

@@ -176,7 +176,6 @@ widget
 :
 :
 IconLoader
-mContent
 mHelper
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -226,19 +225,12 @@ IconLoader
 Helper
 *
 aHelper
-nsINode
-*
-aContent
 const
 nsIntRect
 &
 aImageRegionRect
 )
 :
-mContent
-(
-aContent
-)
 mContentType
 (
 nsIContentPolicy
@@ -319,6 +311,9 @@ LoadIcon
 nsIURI
 *
 aIconURI
+nsINode
+*
+aNode
 bool
 aIsInternalIcon
 )
@@ -361,7 +356,7 @@ false
 if
 (
 !
-mContent
+aNode
 )
 {
 return
@@ -380,7 +375,7 @@ Document
 >
 document
 =
-mContent
+aNode
 -
 >
 OwnerDoc
@@ -499,7 +494,7 @@ LoadImage
 aIconURI
 nullptr
 nullptr
-mContent
+aNode
 -
 >
 NodePrincipal
@@ -508,7 +503,7 @@ NodePrincipal
 0
 loadGroup
 this
-mContent
+aNode
 document
 nsIRequest
 :
