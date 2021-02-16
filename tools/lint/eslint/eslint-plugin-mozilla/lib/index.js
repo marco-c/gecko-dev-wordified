@@ -1096,7 +1096,7 @@ chromeutils
 -
 import
 -
-null
+params
 "
 :
 require
@@ -1115,7 +1115,7 @@ chromeutils
 -
 import
 -
-null
+params
 "
 )
 "
