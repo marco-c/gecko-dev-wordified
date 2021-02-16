@@ -4882,16 +4882,6 @@ index
 )
 const
 ;
-const
-ParserAtom
-*
-getParserAtom
-(
-TaggedParserAtomIndex
-index
-)
-const
-;
 public
 :
 const
