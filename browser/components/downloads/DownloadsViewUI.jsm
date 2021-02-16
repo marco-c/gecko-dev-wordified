@@ -2847,9 +2847,15 @@ this
 .
 _downloadButton
 .
+setAttribute
+(
+"
 hidden
-=
+"
+"
 true
+"
+)
 ;
 }
 lastEstimatedSecondsLeft
