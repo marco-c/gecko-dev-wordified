@@ -23668,7 +23668,7 @@ getTemp
 }
 ;
 class
-LArrayBufferByteLengthInt32
+LArrayBufferByteLength
 :
 public
 LInstructionHelper
@@ -23682,10 +23682,10 @@ public
 :
 LIR_HEADER
 (
-ArrayBufferByteLengthInt32
+ArrayBufferByteLength
 )
 explicit
-LArrayBufferByteLengthInt32
+LArrayBufferByteLength
 (
 const
 LAllocation
