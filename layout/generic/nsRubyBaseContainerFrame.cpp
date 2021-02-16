@@ -1962,6 +1962,8 @@ aFlags
 eSupportsCSSTransforms
 |
 eSupportsContainLayoutAndPaint
+|
+eSupportsAspectRatio
 )
 )
 {

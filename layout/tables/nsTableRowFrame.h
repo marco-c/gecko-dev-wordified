@@ -1446,7 +1446,11 @@ if
 (
 aFlags
 &
+(
 eSupportsContainLayoutAndPaint
+|
+eSupportsAspectRatio
+)
 )
 {
 return

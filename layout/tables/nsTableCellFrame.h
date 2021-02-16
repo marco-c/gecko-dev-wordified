@@ -1549,6 +1549,17 @@ aFlags
 const
 override
 {
+if
+(
+aFlags
+&
+eSupportsAspectRatio
+)
+{
+return
+false
+;
+}
 return
 nsContainerFrame
 :
