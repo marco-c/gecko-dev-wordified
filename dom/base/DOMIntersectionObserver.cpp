@@ -4253,6 +4253,12 @@ issues
 .
 if
 (
+rootFrame
+=
+=
+targetFrame
+|
+|
 !
 nsLayoutUtils
 :
