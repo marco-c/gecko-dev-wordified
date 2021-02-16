@@ -284,9 +284,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
-&
-stencil
 Directives
 directives
 SourceExtent
@@ -296,10 +293,6 @@ extent
 cx_
 (
 cx
-)
-stencil_
-(
-stencil
 )
 extent_
 (
@@ -556,9 +549,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
-&
-stencil
 Directives
 directives
 SourceExtent
@@ -573,7 +563,6 @@ Kind
 :
 Global
 options
-stencil
 directives
 extent
 )
@@ -626,9 +615,6 @@ EvalSharedContext
 JSContext
 *
 cx
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -648,7 +634,6 @@ compilationState
 input
 .
 options
-stencil
 compilationState
 .
 directives
@@ -737,9 +722,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
-&
-stencil
 Directives
 directives
 SourceExtent
@@ -755,7 +737,6 @@ SharedContext
 cx
 kind
 options
-stencil
 directives
 extent
 )
@@ -789,9 +770,6 @@ JSContext
 cx
 SourceExtent
 extent
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -801,6 +779,8 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
+bool
+isInitialCompilation
 TaggedParserAtomIndex
 atom
 FunctionFlags
@@ -821,7 +801,6 @@ compilationState
 input
 .
 options
-stencil
 directives
 extent
 generatorKind
@@ -899,11 +878,7 @@ false
 )
 isInitialCompilation
 (
-stencil
-.
-isInitialStencil
-(
-)
+isInitialCompilation
 )
 isStandalone
 (
@@ -1814,9 +1789,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
-&
-stencil
 ModuleBuilder
 &
 builder
@@ -1832,7 +1804,6 @@ Kind
 :
 Module
 options
-stencil
 Directives
 (
 true

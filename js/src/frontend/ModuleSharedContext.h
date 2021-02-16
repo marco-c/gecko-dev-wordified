@@ -279,9 +279,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-CompilationStencil
-&
-stencil
 ModuleBuilder
 &
 builder
