@@ -915,9 +915,9 @@ perftools
 -
 thread
 -
-dns
+img
 -
-resolver
+decoder
 "
 }
 {
