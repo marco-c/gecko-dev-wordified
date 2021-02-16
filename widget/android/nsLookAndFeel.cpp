@@ -1201,6 +1201,12 @@ ColorID
 :
 Highlight
 :
+case
+ColorID
+:
+:
+MozAccentColor
+:
 /
 /
 background
@@ -1235,6 +1241,12 @@ ColorID
 :
 :
 Highlighttext
+:
+case
+ColorID
+:
+:
+MozAccentColorForeground
 :
 case
 ColorID

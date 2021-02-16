@@ -1310,6 +1310,12 @@ Highlight
 /
 CSS2
 color
+case
+ColorID
+:
+:
+MozAccentColor
+:
 aColor
 =
 mColorHighlight
@@ -1350,6 +1356,12 @@ Highlighttext
 /
 CSS2
 color
+case
+ColorID
+:
+:
+MozAccentColorForeground
+:
 case
 ColorID
 :
