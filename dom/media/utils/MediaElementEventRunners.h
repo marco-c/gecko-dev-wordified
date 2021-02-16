@@ -901,6 +901,15 @@ IsCancelled
 (
 )
 ;
+nsresult
+DispatchEvent
+(
+const
+nsAString
+&
+aName
+)
+;
 RefPtr
 <
 HTMLMediaElement
