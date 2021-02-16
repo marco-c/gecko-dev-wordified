@@ -129,6 +129,17 @@ h
 #
 include
 "
+mozilla
+/
+widget
+/
+IconLoader
+.
+h
+"
+#
+include
+"
 nsCocoaUtils
 .
 h
