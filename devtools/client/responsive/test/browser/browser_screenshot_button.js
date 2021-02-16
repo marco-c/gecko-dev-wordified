@@ -36,7 +36,7 @@ strict
 /
 Test
 global
-exit
+screenshot
 button
 const
 TEST_URL
