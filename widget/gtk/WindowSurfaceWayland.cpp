@@ -7236,11 +7236,6 @@ commit
 \
 n
 "
-(
-void
-*
-)
-this
 )
 )
 ;

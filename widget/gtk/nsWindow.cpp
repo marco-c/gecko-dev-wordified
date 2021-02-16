@@ -6284,6 +6284,9 @@ bottom
 ;
 }
 }
+#
+ifdef
+MOZ_WAYLAND
 bool
 nsWindow
 :
@@ -6349,6 +6352,8 @@ false
 ;
 }
 }
+#
+endif
 void
 nsWindow
 :
