@@ -223,6 +223,13 @@ DEFAULT_FRAME_HEIGHT
 =
 480
 ;
+static
+const
+int
+DEFAULT_FRAME_RATE
+=
+30
+;
 /
 /
 10
@@ -2984,6 +2991,15 @@ width
 intrinsicSize
 .
 height
+/
+*
+TODO
+:
+no
+hardcode
+*
+/
+30
 )
 ;
 if
@@ -3248,7 +3264,7 @@ width
 frame
 height
 and
-track
+frame
 rate
 .
 Init
@@ -3257,6 +3273,7 @@ DEFAULT_FRAME_WIDTH
 DEFAULT_FRAME_HEIGHT
 DEFAULT_FRAME_WIDTH
 DEFAULT_FRAME_HEIGHT
+DEFAULT_FRAME_RATE
 )
 ;
 }
