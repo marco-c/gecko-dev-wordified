@@ -1520,7 +1520,7 @@ getSynchronizationSources
 (
 )
 ;
-if
+assert_true
 (
 Array
 .
@@ -1528,8 +1528,10 @@ isArray
 (
 ssrcs
 )
-&
-&
+)
+;
+if
+(
 ssrcs
 .
 length

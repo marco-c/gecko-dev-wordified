@@ -87,8 +87,6 @@ Element
 [
 '
 document
-.
-body
 '
 ]
 Window
