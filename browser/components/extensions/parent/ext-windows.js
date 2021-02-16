@@ -601,11 +601,8 @@ activeWindow
 if
 (
 window
-)
-{
-if
-(
-!
+&
+&
 context
 .
 canAccessWindow
@@ -614,9 +611,6 @@ window
 )
 )
 {
-return
-;
-}
 windowId
 =
 windowTracker
