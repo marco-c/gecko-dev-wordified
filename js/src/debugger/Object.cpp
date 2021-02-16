@@ -688,7 +688,6 @@ h
 /
 for
 Atomize
-js_apply_str
 #
 include
 "
@@ -912,6 +911,19 @@ h
 for
 JSAtom
 PropertyName
+#
+include
+"
+vm
+/
+WellKnownAtom
+.
+h
+"
+/
+/
+for
+js_apply_str
 #
 include
 "
