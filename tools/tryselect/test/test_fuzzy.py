@@ -304,7 +304,7 @@ taskgraph
 -
 tests
 -
-py2
+py3
 "
 ]
     
@@ -365,7 +365,7 @@ taskgraph
 -
 tests
 -
-py2
+py3
 "
     
 ]
