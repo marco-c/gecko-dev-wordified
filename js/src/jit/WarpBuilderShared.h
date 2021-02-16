@@ -292,7 +292,7 @@ ArgFormat
 {
 Standard
 Array
-FunApplyArgs
+FunApplyMagicArgs
 }
 ;
 private

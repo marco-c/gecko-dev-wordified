@@ -369,7 +369,7 @@ isJitCall
 )
 ;
 void
-pushFunApplyArgs
+pushFunApplyMagicArgs
 (
 Register
 argcReg

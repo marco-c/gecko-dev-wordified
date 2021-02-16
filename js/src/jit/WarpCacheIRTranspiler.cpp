@@ -1679,7 +1679,7 @@ nodiscard
 ]
 ]
 bool
-emitFunApplyArgs
+emitFunApplyMagicArgs
 (
 WrappedFunction
 *
@@ -22070,7 +22070,7 @@ case
 CallFlags
 :
 :
-FunApplyArgs
+FunApplyMagicArgs
 :
 MOZ_ASSERT
 (
@@ -22209,7 +22209,7 @@ CallInfo
 ArgFormat
 :
 :
-FunApplyArgs
+FunApplyMagicArgs
 )
 ;
 }
@@ -22989,11 +22989,11 @@ CallInfo
 ArgFormat
 :
 :
-FunApplyArgs
+FunApplyMagicArgs
 :
 {
 return
-emitFunApplyArgs
+emitFunApplyMagicArgs
 (
 wrappedTarget
 flags
@@ -23013,7 +23013,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitFunApplyArgs
+emitFunApplyMagicArgs
 (
 WrappedFunction
 *
