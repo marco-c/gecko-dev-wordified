@@ -84,7 +84,7 @@ PendingTransactionInfo_h__
 #
 include
 "
-HalfOpenSocket
+DnsAndConnectSocket
 .
 h
 "
@@ -140,8 +140,7 @@ transaction
 has
 claimed
 a
-HalfOpen
-socket
+DnsAndConnectSocket
 or
 /
 /
@@ -158,7 +157,7 @@ IsAlreadyClaimedInitializingConn
 )
 ;
 void
-AbandonHalfOpenAndForgetActiveConn
+AbandonDnsAndConnectSocketAndForgetActiveConn
 (
 )
 ;
@@ -186,9 +185,9 @@ claimed
 yet
 .
 bool
-TryClaimingHalfOpen
+TryClaimingDnsAndConnectSocket
 (
-HalfOpenSocket
+DnsAndConnectSocket
 *
 sock
 )
@@ -252,9 +251,9 @@ already
 claimed
 .
 void
-AddHalfOpen
+AddDnsAndConnectSocket
 (
-HalfOpenSocket
+DnsAndConnectSocket
 *
 sock
 )
@@ -279,7 +278,7 @@ nsHttpTransaction
 mTransaction
 ;
 nsWeakPtr
-mHalfOpen
+mDnsAndSock
 ;
 nsWeakPtr
 mActiveConn

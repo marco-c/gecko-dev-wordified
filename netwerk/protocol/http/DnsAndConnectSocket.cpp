@@ -102,7 +102,7 @@ h
 #
 include
 "
-HalfOpenSocket
+DnsAndConnectSocket
 .
 h
 "
@@ -201,18 +201,18 @@ net
 /
 /
 /
-HalfOpenSocket
+DnsAndConnectSocket
 NS_IMPL_ADDREF
 (
-HalfOpenSocket
+DnsAndConnectSocket
 )
 NS_IMPL_RELEASE
 (
-HalfOpenSocket
+DnsAndConnectSocket
 )
 NS_INTERFACE_MAP_BEGIN
 (
-HalfOpenSocket
+DnsAndConnectSocket
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -240,13 +240,13 @@ nsINamed
 )
 NS_INTERFACE_MAP_ENTRY_CONCRETE
 (
-HalfOpenSocket
+DnsAndConnectSocket
 )
 NS_INTERFACE_MAP_END
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
-HalfOpenSocket
+DnsAndConnectSocket
 (
 ConnectionEntry
 *
@@ -340,7 +340,7 @@ LOG
 (
 "
 Creating
-HalfOpenSocket
+DnsAndConnectSocket
 [
 this
 =
@@ -451,11 +451,11 @@ mEnt
 )
 ;
 }
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 ~
-HalfOpenSocket
+DnsAndConnectSocket
 (
 )
 {
@@ -476,7 +476,7 @@ LOG
 (
 "
 Destroying
-HalfOpenSocket
+DnsAndConnectSocket
 [
 this
 =
@@ -501,7 +501,7 @@ inqueue
 mEnt
 -
 >
-RemoveHalfOpen
+RemoveDnsAndConnectSocket
 (
 this
 )
@@ -511,7 +511,7 @@ LOG
 (
 "
 Destroying
-HalfOpenSocket
+DnsAndConnectSocket
 was
 in
 the
@@ -536,7 +536,7 @@ this
 }
 }
 nsresult
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupStreams
@@ -702,7 +702,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupStreams
@@ -901,7 +901,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 this
 =
 %
@@ -1908,7 +1908,7 @@ rv
 ;
 }
 nsresult
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupPrimaryStreams
@@ -1963,7 +1963,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupPrimaryStream
@@ -2047,7 +2047,7 @@ rv
 ;
 }
 nsresult
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupBackupStreams
@@ -2092,7 +2092,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupBackupStream
@@ -2176,7 +2176,7 @@ rv
 ;
 }
 void
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupBackupTimer
@@ -2346,7 +2346,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupBackupTimer
@@ -2374,7 +2374,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupBackupTimer
@@ -2399,7 +2399,7 @@ this
 }
 }
 void
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 CancelBackupTimer
@@ -2443,7 +2443,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 CancelBackupTimer
@@ -2482,7 +2482,7 @@ connection
 .
 }
 void
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 Abandon
@@ -2493,7 +2493,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 Abandon
@@ -2564,7 +2564,7 @@ thread
 ;
 RefPtr
 <
-HalfOpenSocket
+DnsAndConnectSocket
 >
 deleteProtector
 (
@@ -2822,7 +2822,7 @@ false
 mEnt
 -
 >
-RemoveHalfOpen
+RemoveDnsAndConnectSocket
 (
 this
 )
@@ -2834,7 +2834,7 @@ nullptr
 ;
 }
 double
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 Duration
@@ -2874,7 +2874,7 @@ NS_IMETHODIMP
 method
 for
 nsITimerCallback
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 Notify
@@ -2973,7 +2973,7 @@ NS_IMETHODIMP
 method
 for
 nsINamed
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 GetName
@@ -2988,7 +2988,7 @@ aName
 AssignLiteral
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 "
 )
 ;
@@ -3002,7 +3002,7 @@ method
 for
 nsIAsyncOutputStreamCallback
 NS_IMETHODIMP
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 OnOutputStreamReady
@@ -3060,7 +3060,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 OnOutputStreamReady
@@ -3153,7 +3153,7 @@ rv
 ;
 }
 nsresult
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupConn
@@ -3207,7 +3207,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupConn
@@ -3640,7 +3640,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupConn
@@ -4293,7 +4293,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupConn
@@ -4435,7 +4435,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 SetupConn
@@ -4794,7 +4794,7 @@ method
 for
 nsITransportEventSink
 NS_IMETHODIMP
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 OnTransportStatus
@@ -5371,7 +5371,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 skip
 creating
@@ -5566,7 +5566,7 @@ LOG
 (
 (
 "
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 OnTransportStatus
@@ -5821,7 +5821,7 @@ method
 for
 nsIInterfaceRequestor
 NS_IMETHODIMP
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 GetInterface
@@ -5880,7 +5880,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 bool
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 AcceptsTransaction
@@ -5934,7 +5934,7 @@ UrgentStart
 ;
 }
 bool
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 Claim
@@ -6096,7 +6096,7 @@ false
 ;
 }
 void
-HalfOpenSocket
+DnsAndConnectSocket
 :
 :
 Unclaim

@@ -77,10 +77,10 @@ MPL
 /
 #
 ifndef
-HalfOpenSocket_h__
+DnsAndConnectSocket_h__
 #
 define
-HalfOpenSocket_h__
+DnsAndConnectSocket_h__
 #
 include
 "
@@ -158,7 +158,7 @@ net
 ff125eab1564
 #
 define
-NS_HALFOPENSOCKET_IID
+NS_DNSANDCONNECTSOCKET_IID
 \
 {
 \
@@ -186,7 +186,7 @@ class
 ConnectionEntry
 ;
 class
-HalfOpenSocket
+DnsAndConnectSocket
 final
 :
 public
@@ -203,7 +203,7 @@ public
 nsSupportsWeakReference
 {
 ~
-HalfOpenSocket
+DnsAndConnectSocket
 (
 )
 ;
@@ -211,7 +211,7 @@ public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
-NS_HALFOPENSOCKET_IID
+NS_DNSANDCONNECTSOCKET_IID
 )
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOUTPUTSTREAMCALLBACK
@@ -219,7 +219,7 @@ NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSINAMED
-HalfOpenSocket
+DnsAndConnectSocket
 (
 ConnectionEntry
 *
@@ -756,7 +756,7 @@ mBackupConnStatsSet
 /
 /
 A
-HalfOpenSocket
+DnsAndConnectSocket
 can
 be
 made
@@ -841,8 +841,8 @@ mIsHttp3
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-HalfOpenSocket
-NS_HALFOPENSOCKET_IID
+DnsAndConnectSocket
+NS_DNSANDCONNECTSOCKET_IID
 )
 }
 /
@@ -858,4 +858,4 @@ mozilla
 endif
 /
 /
-HalfOpenSocket_h__
+DnsAndConnectSocket_h__

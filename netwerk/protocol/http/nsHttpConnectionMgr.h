@@ -84,7 +84,7 @@ nsHttpConnectionMgr_h__
 #
 include
 "
-HalfOpenSocket
+DnsAndConnectSocket
 .
 h
 "
@@ -1350,12 +1350,12 @@ aNoHttp3
 )
 ;
 void
-IncreaseNumHalfOpenConns
+IncreaseNumDnsAndConnectSockets
 (
 )
 ;
 void
-DecreaseNumHalfOpenConns
+DecreaseNumDnsAndConnectSockets
 (
 )
 ;
@@ -1923,7 +1923,7 @@ private
 :
 friend
 class
-HalfOpenSocket
+DnsAndConnectSocket
 ;
 friend
 class
@@ -3081,7 +3081,7 @@ number
 of
 connections
 in
-mHalfOpens
+DnsAndConnectSockets
 ConnectionEntry
 objects
 /
@@ -3094,7 +3094,7 @@ mCT
 connection
 table
 uint32_t
-mNumHalfOpenConns
+mNumDnsAndConnectSockets
 ;
 /
 /

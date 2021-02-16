@@ -3543,7 +3543,7 @@ mozilla
 dom
 :
 :
-HalfOpenInfoDict
+DnsAndSockInfoDict
 ;
 using
 mozilla
@@ -3724,7 +3724,7 @@ Construct
 ;
 connection
 .
-mHalfOpens
+mDnsAndSocks
 .
 Construct
 (
@@ -3762,14 +3762,14 @@ Value
 ;
 Sequence
 <
-HalfOpenInfoDict
+DnsAndSockInfoDict
 >
 &
-halfOpens
+dnsAndSocks
 =
 connection
 .
-mHalfOpens
+mDnsAndSocks
 .
 Value
 (
@@ -3822,7 +3822,7 @@ fallible
 |
 |
 !
-halfOpens
+dnsAndSocks
 .
 SetCapacity
 (
@@ -3834,7 +3834,7 @@ mData
 i
 ]
 .
-halfOpens
+dnsAndSocks
 .
 Length
 (
@@ -4065,7 +4065,7 @@ mData
 i
 ]
 .
-halfOpens
+dnsAndSocks
 .
 Length
 (
@@ -4076,12 +4076,12 @@ j
 +
 )
 {
-HalfOpenInfoDict
+DnsAndSockInfoDict
 &
 info
 =
 *
-halfOpens
+dnsAndSocks
 .
 AppendElement
 (
@@ -4100,7 +4100,7 @@ mData
 i
 ]
 .
-halfOpens
+dnsAndSocks
 [
 j
 ]

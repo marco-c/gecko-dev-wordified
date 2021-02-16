@@ -208,7 +208,7 @@ tcp
 ;
 }
 struct
-HalfOpenSockets
+DnsAndConnectSockets
 {
 bool
 speculative
@@ -285,9 +285,9 @@ idle
 ;
 CopyableTArray
 <
-HalfOpenSockets
+DnsAndConnectSockets
 >
-halfOpens
+dnsAndSocks
 ;
 uint32_t
 counter
@@ -684,7 +684,7 @@ mozilla
 net
 :
 :
-HalfOpenSockets
+DnsAndConnectSockets
 >
 {
 typedef
@@ -694,7 +694,7 @@ mozilla
 net
 :
 :
-HalfOpenSockets
+DnsAndConnectSockets
 paramType
 ;
 static
@@ -935,7 +935,7 @@ WriteParam
 aMsg
 aParam
 .
-halfOpens
+dnsAndSocks
 )
 ;
 WriteParam
@@ -1032,7 +1032,7 @@ aIter
 aResult
 -
 >
-halfOpens
+dnsAndSocks
 )
 &
 &
