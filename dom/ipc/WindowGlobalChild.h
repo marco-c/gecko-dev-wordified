@@ -769,11 +769,6 @@ aGivenProto
 )
 override
 ;
-void
-MaybeSendUpdateDocumentWouldPreloadResources
-(
-)
-;
 dom
 :
 :
@@ -1122,11 +1117,6 @@ int64_t
 mBeforeUnloadListeners
 =
 0
-;
-bool
-mDocumentWouldPreloadResources
-=
-false
 ;
 }
 ;
