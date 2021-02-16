@@ -37,6 +37,11 @@ requestLongerTimeout
 2
 )
 ;
+const
+{
+PermissionUI
+}
+=
 ChromeUtils
 .
 import
@@ -53,9 +58,13 @@ PermissionUI
 .
 jsm
 "
-this
 )
 ;
+const
+{
+SitePermissions
+}
+=
 ChromeUtils
 .
 import
@@ -72,7 +81,6 @@ SitePermissions
 .
 jsm
 "
-this
 )
 ;
 const

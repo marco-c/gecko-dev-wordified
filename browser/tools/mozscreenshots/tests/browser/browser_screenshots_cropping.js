@@ -79,6 +79,11 @@ head
 js
 *
 /
+const
+{
+Rect
+}
+=
 ChromeUtils
 .
 import
@@ -96,7 +101,6 @@ Geometry
 .
 jsm
 "
-this
 )
 ;
 async

@@ -18,6 +18,11 @@ is
 actually
 caught
 .
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -35,7 +40,6 @@ PromiseTestUtils
 .
 jsm
 "
-this
 )
 ;
 PromiseTestUtils

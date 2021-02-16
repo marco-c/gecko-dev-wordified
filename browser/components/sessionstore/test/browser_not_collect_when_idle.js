@@ -8,6 +8,11 @@ Bug
 *
 *
 /
+const
+{
+MockRegistrar
+}
+=
 ChromeUtils
 .
 import
@@ -25,7 +30,6 @@ MockRegistrar
 .
 jsm
 "
-this
 )
 ;
 /

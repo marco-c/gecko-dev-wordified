@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+Promise
+}
+=
 ChromeUtils
 .
 import
@@ -45,7 +50,6 @@ Promise
 .
 jsm
 "
-this
 )
 ;
 const

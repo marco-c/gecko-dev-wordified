@@ -1537,6 +1537,11 @@ function
 args
 )
 {
+const
+{
+TestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -1554,7 +1559,6 @@ TestUtils
 .
 jsm
 "
-this
 )
 ;
 let

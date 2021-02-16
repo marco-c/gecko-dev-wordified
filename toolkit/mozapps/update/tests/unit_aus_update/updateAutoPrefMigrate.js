@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -73,7 +78,6 @@ osfile
 .
 jsm
 "
-this
 )
 ;
 /

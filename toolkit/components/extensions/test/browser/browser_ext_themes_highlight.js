@@ -32,6 +32,11 @@ are
 applied
 properly
 .
+const
+{
+CustomizableUITestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -49,7 +54,6 @@ CustomizableUITestUtils
 .
 jsm
 "
-this
 )
 ;
 let

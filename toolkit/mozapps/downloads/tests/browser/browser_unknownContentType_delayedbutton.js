@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -73,7 +78,6 @@ PromiseUtils
 .
 jsm
 "
-this
 )
 ;
 const

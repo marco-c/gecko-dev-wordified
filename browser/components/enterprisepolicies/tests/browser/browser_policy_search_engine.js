@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+CustomizableUITestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -50,7 +55,6 @@ CustomizableUITestUtils
 .
 jsm
 "
-this
 )
 ;
 let

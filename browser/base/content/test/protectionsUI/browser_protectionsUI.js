@@ -98,6 +98,11 @@ jsm
 "
 )
 ;
+const
+{
+CustomizableUITestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -115,7 +120,6 @@ CustomizableUITestUtils
 .
 jsm
 "
-this
 )
 ;
 add_task

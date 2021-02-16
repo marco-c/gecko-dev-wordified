@@ -43,6 +43,11 @@ use
 strict
 "
 ;
+const
+{
+SearchStaticData
+}
+=
 ChromeUtils
 .
 import
@@ -60,7 +65,6 @@ SearchStaticData
 .
 jsm
 "
-this
 )
 ;
 function

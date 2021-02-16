@@ -47,6 +47,11 @@ use
 strict
 "
 ;
+const
+{
+BasePromiseWorker
+}
+=
 ChromeUtils
 .
 import
@@ -64,9 +69,13 @@ PromiseWorker
 .
 jsm
 "
-this
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -84,7 +93,6 @@ Timer
 .
 jsm
 "
-this
 )
 ;
 /

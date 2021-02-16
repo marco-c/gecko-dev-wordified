@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -78,9 +83,13 @@ ctypes
 .
 jsm
 "
-this
 )
 ;
+const
+{
+makeFakeAppDir
+}
+=
 ChromeUtils
 .
 import
@@ -98,7 +107,6 @@ AppData
 .
 jsm
 "
-this
 )
 ;
 function

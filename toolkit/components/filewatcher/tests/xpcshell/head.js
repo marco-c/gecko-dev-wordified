@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -78,9 +83,13 @@ osfile
 .
 jsm
 "
-this
 )
 ;
+const
+{
+Promise
+}
+=
 ChromeUtils
 .
 import
@@ -98,7 +107,6 @@ Promise
 .
 jsm
 "
-this
 )
 ;
 function

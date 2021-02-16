@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+const
+{
+getAppInfo
+updateAppInfo
+}
+=
 ChromeUtils
 .
 import
@@ -73,7 +79,6 @@ AppInfo
 .
 jsm
 "
-this
 )
 ;
 updateAppInfo

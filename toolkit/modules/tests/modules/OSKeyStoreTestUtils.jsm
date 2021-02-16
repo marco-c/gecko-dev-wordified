@@ -42,6 +42,11 @@ OSKeyStoreTestUtils
 "
 ]
 ;
+const
+{
+OSKeyStore
+}
+=
 ChromeUtils
 .
 import
@@ -59,7 +64,6 @@ OSKeyStore
 .
 jsm
 "
-this
 )
 ;
 const

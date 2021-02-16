@@ -32,6 +32,11 @@ use
 strict
 "
 ;
+const
+{
+TelemetryUtils
+}
+=
 ChromeUtils
 .
 import
@@ -49,9 +54,13 @@ TelemetryUtils
 .
 jsm
 "
-this
 )
 ;
+const
+{
+TelemetryArchiveTesting
+}
+=
 ChromeUtils
 .
 import
@@ -69,7 +78,6 @@ TelemetryArchiveTesting
 .
 jsm
 "
-this
 )
 ;
 add_task

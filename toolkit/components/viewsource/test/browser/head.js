@@ -52,6 +52,11 @@ jsm
 "
 )
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -69,7 +74,6 @@ Preferences
 .
 jsm
 "
-this
 )
 ;
 /

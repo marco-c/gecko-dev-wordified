@@ -300,6 +300,11 @@ t
 .
 *
 /
+const
+{
+SessionStartup
+}
+=
 ChromeUtils
 .
 import
@@ -318,7 +323,6 @@ SessionStartup
 .
 jsm
 "
-this
 )
 ;
 /
@@ -395,6 +399,11 @@ flag
 individual
 failures
 .
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -412,7 +421,6 @@ PromiseTestUtils
 .
 jsm
 "
-this
 )
 ;
 PromiseTestUtils
