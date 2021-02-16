@@ -16209,15 +16209,9 @@ hidden
 {
 tab
 .
-setAttribute
-(
-"
 hidden
-"
-"
+=
 true
-"
-)
 ;
 hiddenTabs
 .
