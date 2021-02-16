@@ -189,8 +189,7 @@ more
 than
 that
 .
-static
-const
+constexpr
 int
 MAX_SUPPORTED_AUDIO_CHANNELS
 =
@@ -240,8 +239,7 @@ of
 input
 signal
 .
-static
-const
+constexpr
 int
 MAX_CHANNELS
 =
@@ -258,8 +256,7 @@ Opus
 to
 encode
 .
-static
-const
+constexpr
 int
 MAX_DATA_BYTES
 =
@@ -323,8 +320,7 @@ of
 kHz
 .
 "
-static
-const
+constexpr
 int
 kOpusSamplingRate
 =
@@ -353,8 +349,7 @@ or
 60
 ms
 .
-static
-const
+constexpr
 int
 kFrameDurationMs
 =
@@ -387,8 +382,7 @@ to
 48kHz
 otherwise
 .
-static
-const
+constexpr
 int
 kOpusSupportedInputSamplingRates
 [
@@ -608,8 +602,7 @@ off
 from
 strings
 .
-static
-const
+constexpr
 uint8_t
 magic
 [
@@ -830,8 +823,7 @@ be
 stripped
 off
 .
-static
-const
+constexpr
 uint8_t
 magic
 [

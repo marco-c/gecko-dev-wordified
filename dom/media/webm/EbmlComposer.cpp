@@ -168,8 +168,7 @@ Timecode
 scale
 in
 nanoseconds
-static
-const
+constexpr
 unsigned
 long
 TIME_CODE_SCALE
@@ -185,8 +184,7 @@ size
 without
 audio
 CodecPrivateData
-static
-const
+constexpr
 int32_t
 DEFAULT_HEADER_SIZE
 =
@@ -205,8 +203,7 @@ audio
 -
 only
 clusters
-static
-const
+constexpr
 int32_t
 FLUSH_AUDIO_ONLY_AFTER_MS
 =
