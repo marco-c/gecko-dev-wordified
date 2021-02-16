@@ -1093,15 +1093,6 @@ Feature
 :
 D3D11_COMPOSITING
 )
-&
-&
-!
-gfxPlatform
-:
-:
-IsHeadless
-(
-)
 )
 {
 UniquePtr
