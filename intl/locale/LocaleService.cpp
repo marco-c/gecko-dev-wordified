@@ -2550,6 +2550,9 @@ r
 "
 )
 ;
+#
+ifdef
+MOZ_UPDATER
 /
 /
 This
@@ -2568,6 +2571,8 @@ IsEmpty
 )
 )
 ;
+#
+endif
 if
 (
 CanonicalizeLanguageId
