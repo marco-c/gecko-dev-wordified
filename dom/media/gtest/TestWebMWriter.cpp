@@ -179,6 +179,7 @@ aTrackRate
 OpusTrackEncoder
 (
 aTrackRate
+mEncodedAudioQueue
 )
 {
 }
@@ -208,6 +209,12 @@ return
 false
 ;
 }
+MediaQueue
+<
+EncodedFrame
+>
+mEncodedAudioQueue
+;
 }
 ;
 class
@@ -231,6 +238,7 @@ VP8TrackEncoder
 (
 nullptr
 aTrackRate
+mEncodedVideoQueue
 FrameDroppingMode
 :
 :
@@ -274,6 +282,12 @@ return
 false
 ;
 }
+MediaQueue
+<
+EncodedFrame
+>
+mEncodedVideoQueue
+;
 }
 ;
 static
