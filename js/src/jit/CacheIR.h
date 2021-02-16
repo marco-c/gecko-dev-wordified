@@ -1965,6 +1965,7 @@ Standard
 Spread
 FunCall
 FunApplyMagicArgs
+FunApplyArgsObj
 FunApplyArray
 LastArgFormat
 =
@@ -2945,6 +2946,12 @@ CallFlags
 :
 :
 FunApplyMagicArgs
+:
+case
+CallFlags
+:
+:
+FunApplyArgsObj
 :
 case
 CallFlags
