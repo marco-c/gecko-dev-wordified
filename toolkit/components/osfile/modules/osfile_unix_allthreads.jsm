@@ -203,6 +203,11 @@ as
 a
 jsm
 module
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -220,8 +225,13 @@ ctypes
 .
 jsm
 "
-this
 )
+;
+this
+.
+ctypes
+=
+ctypes
 ;
 SharedAll
 =

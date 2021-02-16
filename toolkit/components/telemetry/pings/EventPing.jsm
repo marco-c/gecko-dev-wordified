@@ -112,6 +112,11 @@ TelemetryEventPing
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -129,7 +134,6 @@ XPCOMUtils
 .
 jsm
 "
-this
 )
 ;
 XPCOMUtils

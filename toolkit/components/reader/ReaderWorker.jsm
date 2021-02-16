@@ -76,6 +76,11 @@ parsing
 .
 *
 /
+const
+{
+BasePromiseWorker
+}
+=
 ChromeUtils
 .
 import
@@ -93,7 +98,6 @@ PromiseWorker
 .
 jsm
 "
-this
 )
 ;
 var

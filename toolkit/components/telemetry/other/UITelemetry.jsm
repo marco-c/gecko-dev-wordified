@@ -70,6 +70,11 @@ UITelemetry
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -87,9 +92,13 @@ Services
 .
 jsm
 "
-this
 )
 ;
+const
+{
+TelemetryUtils
+}
+=
 ChromeUtils
 .
 import
@@ -107,7 +116,6 @@ TelemetryUtils
 .
 jsm
 "
-this
 )
 ;
 /

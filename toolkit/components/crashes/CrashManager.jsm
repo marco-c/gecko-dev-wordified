@@ -66,6 +66,11 @@ myScope
 =
 this
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -83,7 +88,6 @@ Log
 .
 jsm
 "
-this
 )
 ;
 const
@@ -110,6 +114,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -127,7 +136,6 @@ Services
 .
 jsm
 "
-this
 )
 ;
 const
@@ -154,6 +162,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -171,9 +184,13 @@ Timer
 .
 jsm
 "
-this
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -191,7 +208,6 @@ XPCOMUtils
 .
 jsm
 "
-this
 )
 ;
 var

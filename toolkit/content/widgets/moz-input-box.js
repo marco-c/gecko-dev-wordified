@@ -1484,6 +1484,11 @@ true
 ;
 try
 {
+const
+{
+InlineSpellChecker
+}
+=
 ChromeUtils
 .
 import
@@ -1501,7 +1506,6 @@ InlineSpellChecker
 .
 jsm
 "
-this
 )
 ;
 this
@@ -1509,8 +1513,6 @@ this
 InlineSpellCheckerUI
 =
 new
-this
-.
 InlineSpellChecker
 (
 this

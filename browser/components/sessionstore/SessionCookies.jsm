@@ -70,6 +70,11 @@ SessionCookies
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -87,7 +92,6 @@ Services
 .
 jsm
 "
-this
 )
 ;
 ChromeUtils

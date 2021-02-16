@@ -342,6 +342,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -359,9 +364,13 @@ XPCOMUtils
 .
 jsm
 "
-this
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -379,7 +388,6 @@ Services
 .
 jsm
 "
-this
 )
 ;
 ChromeUtils
