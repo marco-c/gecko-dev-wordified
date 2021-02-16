@@ -858,7 +858,7 @@ selectedTab
 Test
 clearing
 service
-worker
+wroker
 through
 the
 settings

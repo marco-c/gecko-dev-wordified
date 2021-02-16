@@ -236,9 +236,6 @@ View
 FullScreen
 "
 "
-enterFullScreenItem
-"
-"
 viewHistorySidebar
 "
 "
