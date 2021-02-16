@@ -123,6 +123,8 @@ remote
 /
 content
 /
+cdp
+/
 StreamRegistry
 .
 jsm

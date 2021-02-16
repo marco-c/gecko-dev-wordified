@@ -155,6 +155,8 @@ remote
 /
 content
 /
+cdp
+/
 JSONHandler
 .
 jsm
@@ -202,6 +204,8 @@ remote
 /
 content
 /
+cdp
+/
 RecommendedPreferences
 .
 jsm
@@ -216,6 +220,8 @@ chrome
 remote
 /
 content
+/
+cdp
 /
 targets
 /

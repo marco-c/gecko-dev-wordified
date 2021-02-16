@@ -51,6 +51,8 @@ remote
 /
 content
 /
+cdp
+/
 domains
 /
 Domain
@@ -76,6 +78,8 @@ chrome
 remote
 /
 content
+/
+cdp
 /
 domains
 /
