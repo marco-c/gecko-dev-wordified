@@ -544,7 +544,7 @@ kDuplexNone
 Equivalent
 to
 :
-Horizontal
+DMDUP_VERTICAL
 NoTumble
 const
 short
@@ -557,7 +557,7 @@ kDuplexFlipOnSideEdge
 Equivalent
 to
 :
-Vertical
+DMDUP_HORIZONTAL
 Tumble
 const
 short
