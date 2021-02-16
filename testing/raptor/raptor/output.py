@@ -8112,6 +8112,11 @@ measurements
 ]
 :
                     
+#
+this
+includes
+stylebench
+                    
 subtests
 vals
 =
@@ -14628,10 +14633,15 @@ in
 test
 [
 "
-name
+measurements
 "
 ]
 :
+                    
+#
+this
+includes
+stylebench
                     
 subtests
 vals
