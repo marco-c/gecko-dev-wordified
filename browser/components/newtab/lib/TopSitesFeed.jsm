@@ -2602,9 +2602,10 @@ s
 s
 &
 &
+shortURL
+(
 s
-.
-hostname
+)
 =
 =
 =
