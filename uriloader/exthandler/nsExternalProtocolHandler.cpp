@@ -1014,12 +1014,6 @@ LoadURI
 mUrl
 principal
 ctx
-mLoadInfo
--
->
-GetLoadTriggeredFromExternal
-(
-)
 )
 ;
 if

@@ -6041,8 +6041,6 @@ nsIPrincipal
 triggeringPrincipal
 MaybeDiscardedBrowsingContext
 browsingContext
-bool
-wasExternallyTriggered
 )
 ;
 async
