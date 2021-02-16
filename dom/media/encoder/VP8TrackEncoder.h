@@ -611,10 +611,7 @@ Codec
 context
 structure
 .
-UniquePtr
-<
 vpx_codec_ctx_t
->
 mVPXContext
 ;
 /
@@ -622,10 +619,7 @@ mVPXContext
 Image
 Descriptor
 .
-UniquePtr
-<
 vpx_image_t
->
 mVPXImageWrapper
 ;
 }
