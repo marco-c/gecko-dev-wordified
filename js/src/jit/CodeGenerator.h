@@ -1047,6 +1047,16 @@ extraStackSpace
 void
 emitPushArguments
 (
+LApplyArgsObj
+*
+apply
+Register
+extraStackSpace
+)
+;
+void
+emitPushArguments
+(
 LApplyArrayGeneric
 *
 apply
