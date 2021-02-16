@@ -2785,6 +2785,15 @@ UniquePtr
 frontend
 :
 :
+CompilationInput
+>
+stencilInput_
+;
+UniquePtr
+<
+frontend
+:
+:
 CompilationStencil
 >
 stencil_

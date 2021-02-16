@@ -237,6 +237,9 @@ namespace
 frontend
 {
 struct
+CompilationInput
+;
+struct
 CompilationStencil
 ;
 struct
@@ -279,13 +282,9 @@ tryCompileGlobalScriptToStencil
 JSContext
 *
 cx
-const
-JS
-:
-:
-ReadOnlyCompileOptions
+CompilationInput
 &
-options
+input
 JS
 :
 :
