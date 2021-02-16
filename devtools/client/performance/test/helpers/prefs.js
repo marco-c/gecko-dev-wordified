@@ -439,17 +439,6 @@ gc
 -
 types
 "
-"
-devtools
-.
-performance
-.
-new
--
-panel
--
-enabled
-"
 ]
 .
 reduce
