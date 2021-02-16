@@ -196,12 +196,6 @@ qcms
 .
 h
 "
-enum
-class
-CMSMode
-:
-int32_t
-;
 namespace
 mozilla
 {
@@ -3819,7 +3813,7 @@ X
 uint32_t
 mImageDataLength
 ;
-CMSMode
+uint32_t
 mCMSMode
 ;
 private

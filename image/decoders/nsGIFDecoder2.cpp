@@ -3167,10 +3167,7 @@ if
 mCMSMode
 =
 =
-CMSMode
-:
-:
-All
+eCMSMode_All
 )
 {
 qcms_transform

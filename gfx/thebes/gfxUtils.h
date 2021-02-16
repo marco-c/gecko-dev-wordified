@@ -2226,10 +2226,7 @@ the
 CMS
 mode
 is
-CMSMode
-:
-:
-All
+eCMSMode_All
 these
 functions
 transform
@@ -2244,12 +2241,12 @@ color
 using
 the
 transform
-returned
+returened
 by
-*
 gfxPlatform
 :
 :
+*
 GetCMSRGBTransform
 (
 )
@@ -2263,9 +2260,9 @@ some
 other
 value
 the
-*
 color
 is
+*
 returned
 unchanged
 (

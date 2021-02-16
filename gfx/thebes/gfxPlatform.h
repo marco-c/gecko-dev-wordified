@@ -395,12 +395,9 @@ while
 0
 )
 enum
-class
-CMSMode
-:
-int32_t
+eCMSMode
 {
-Off
+eCMSMode_Off
 =
 0
 /
@@ -408,7 +405,7 @@ Off
 No
 color
 management
-All
+eCMSMode_All
 =
 1
 /
@@ -416,7 +413,7 @@ All
 Color
 manage
 everything
-TaggedOnly
+eCMSMode_TaggedOnly
 =
 2
 /
@@ -426,7 +423,7 @@ manage
 tagged
 Images
 Only
-AllCount
+eCMSMode_AllCount
 =
 3
 }
@@ -3399,7 +3396,7 @@ management
 *
 /
 static
-CMSMode
+eCMSMode
 GetCMSMode
 (
 )
@@ -3424,7 +3421,7 @@ static
 void
 SetCMSModeOverride
 (
-CMSMode
+eCMSMode
 aMode
 )
 ;
@@ -5919,6 +5916,12 @@ RefPtr
 gfxASurface
 >
 mScreenReferenceSurface
+;
+nsCOMPtr
+<
+nsIObserver
+>
+mSRGBOverrideObserver
 ;
 RefPtr
 <
