@@ -865,6 +865,11 @@ perftools
 ftl
 "
 ]
+{
+setAttributesOnDocument
+:
+true
+}
 )
 ;
 /
