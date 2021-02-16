@@ -144,7 +144,11 @@ ParseNode
 class
 ParserAtomsTable
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 NameFunctions
 (

@@ -1667,7 +1667,11 @@ rawFlags
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 hasFlag
 (

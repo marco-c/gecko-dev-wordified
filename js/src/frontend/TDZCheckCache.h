@@ -410,7 +410,11 @@ CheckTDZMap
 >
 cache_
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ensureCache
 (
@@ -445,7 +449,11 @@ TaggedParserAtomIndex
 name
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 noteTDZCheck
 (

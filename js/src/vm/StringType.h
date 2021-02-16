@@ -5358,7 +5358,11 @@ string
 being
 hashed
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 hash
 (

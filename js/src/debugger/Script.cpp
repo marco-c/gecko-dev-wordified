@@ -1502,7 +1502,11 @@ cx
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ensureScriptMaybeLazy
 (
@@ -1548,7 +1552,11 @@ return
 true
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ensureScript
 (

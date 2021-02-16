@@ -333,7 +333,11 @@ return
 true
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 PropOpEmitter
 &
 CallOrNewEmitter
@@ -411,7 +415,11 @@ return
 poe_
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 ElemOpEmitter
 &
 CallOrNewEmitter

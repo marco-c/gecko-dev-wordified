@@ -10796,7 +10796,11 @@ get
 }
 public
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 typename
 UniquePtr
 <

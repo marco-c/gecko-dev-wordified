@@ -498,7 +498,11 @@ Steps
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 ReadableStreamDefaultReader
 *
 js

@@ -530,7 +530,11 @@ Uninitialized
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -558,7 +562,11 @@ TwoByte
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 initTwoByte
 (

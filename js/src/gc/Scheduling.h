@@ -4840,7 +4840,11 @@ return
 mallocGrowthFactor_
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 setParameter
 (

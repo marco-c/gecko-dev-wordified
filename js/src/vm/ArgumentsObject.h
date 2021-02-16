@@ -1390,7 +1390,11 @@ data
 rareData
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 createRareData
 (

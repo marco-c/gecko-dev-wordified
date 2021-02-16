@@ -1181,7 +1181,11 @@ a09fc232c137800dbf51b6204f37fdede4ba1646
 Await
 Fulfilled
 Functions
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 js
 :
@@ -1234,7 +1238,11 @@ a09fc232c137800dbf51b6204f37fdede4ba1646
 Await
 Rejected
 Functions
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 js
 :

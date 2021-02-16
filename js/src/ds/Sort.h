@@ -591,7 +591,11 @@ T
 typename
 Comparator
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 MergeSort
 (

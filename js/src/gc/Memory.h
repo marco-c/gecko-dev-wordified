@@ -566,7 +566,11 @@ read
 /
 write
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 MarkPagesInUseHard
 (

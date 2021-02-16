@@ -629,7 +629,11 @@ typename
 .
 Args
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 init
 (
@@ -1138,7 +1142,11 @@ of
 thread
 creation
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 create
 (

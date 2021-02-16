@@ -1264,7 +1264,11 @@ reportAllocOverflow
 const
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 checkSimulatedOOM
 (

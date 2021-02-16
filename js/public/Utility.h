@@ -3343,7 +3343,11 @@ template
 typename
 T
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 bool
 CalculateAllocSize
@@ -3441,7 +3445,11 @@ T
 typename
 Extra
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 bool
 CalculateAllocSizeWithExtra

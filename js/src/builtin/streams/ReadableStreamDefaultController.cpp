@@ -1561,7 +1561,11 @@ of
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 js
 :
@@ -2462,7 +2466,11 @@ reason
 )
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 JSObject
 *
 js

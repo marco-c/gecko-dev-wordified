@@ -559,7 +559,11 @@ of
 the
 chunk
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 markPagesInUseHard
 (

@@ -150,7 +150,11 @@ LIBRARY_SLOTS
 namespace
 Library
 {
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Name
 (
@@ -205,7 +209,11 @@ JSObject
 obj
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Open
 (

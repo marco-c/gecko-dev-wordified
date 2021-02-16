@@ -219,7 +219,11 @@ length
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ExecuteRegExpLegacy
 (
@@ -264,7 +268,11 @@ s
 output
 format
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 CreateRegExpMatchResult
 (

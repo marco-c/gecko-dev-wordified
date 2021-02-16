@@ -393,7 +393,11 @@ mScriptLength
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Start
 (

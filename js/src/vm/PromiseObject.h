@@ -1480,7 +1480,11 @@ allocationTime
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 dependentPromises
 (
@@ -1689,7 +1693,11 @@ function
 returns
 true
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 forEachReactionRecord
 (

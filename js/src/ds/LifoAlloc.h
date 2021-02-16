@@ -4166,7 +4166,11 @@ new
 unused
 chunk
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ensureUnusedApproximateColdPath
 (
@@ -6824,7 +6828,11 @@ reportAllocOverflow
 const
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 checkSimulatedOOM
 (

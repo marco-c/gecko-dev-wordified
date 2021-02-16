@@ -1654,7 +1654,11 @@ return
 mLocation
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 GetLocation
 (

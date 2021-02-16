@@ -729,7 +729,12 @@ the
 return
 type
 has
-MOZ_MUST_USE_TYPE
+[
+[
+nodiscard
+]
+]
+_TYPE
 .
 *
 /
@@ -4209,7 +4214,11 @@ PropertyName
 name
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 createJitRuntime
 (

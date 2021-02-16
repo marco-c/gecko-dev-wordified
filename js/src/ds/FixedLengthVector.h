@@ -342,7 +342,11 @@ the
 given
 context
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 allocateUninitialized
 (
@@ -432,7 +436,11 @@ the
 given
 context
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 allocate
 (

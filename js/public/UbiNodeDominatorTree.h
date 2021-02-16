@@ -3395,7 +3395,11 @@ length
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 computeRetainedSizes
 (
@@ -5098,7 +5102,11 @@ unchanged
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 getRetainedSize
 (

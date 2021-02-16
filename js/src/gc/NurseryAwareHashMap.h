@@ -1001,7 +1001,11 @@ mallocSizeOf
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 put
 (

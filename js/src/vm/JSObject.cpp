@@ -26137,7 +26137,11 @@ ES
 .
 20
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 JSObject
 *
 js
@@ -26567,7 +26571,11 @@ return
 nullptr
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 JSObject
 *
 js
