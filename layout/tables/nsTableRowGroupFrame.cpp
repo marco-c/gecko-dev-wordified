@@ -13144,14 +13144,6 @@ FrameCursorData
 (
 )
 ;
-if
-(
-!
-data
-)
-return
-nullptr
-;
 SetProperty
 (
 RowCursorProperty
