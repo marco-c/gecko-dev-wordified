@@ -3924,7 +3924,7 @@ MODULE_STATUS_EVALUATED
 {
 module
 =
-GetAsyncCycleRoot
+GetCycleRoot
 (
 module
 )
@@ -4572,7 +4572,7 @@ isTopLevelAwaitEnabled
 {
 requiredModule
 =
-GetAsyncCycleRoot
+GetCycleRoot
 (
 requiredModule
 )
@@ -4777,6 +4777,11 @@ dfsIndex
 )
 {
 let
+cycleRoot
+=
+module
+;
+let
 requiredModule
 ;
 do
@@ -4793,6 +4798,12 @@ ModuleSetStatus
 (
 requiredModule
 MODULE_STATUS_EVALUATED
+)
+;
+SetCycleRoot
+(
+requiredModule
+cycleRoot
 )
 ;
 }
