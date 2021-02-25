@@ -1519,6 +1519,14 @@ scalarSet
 >
 {
 }
+keyedScalarAdd
+:
+(
+)
+=
+>
+{
+}
 }
 console
 :
