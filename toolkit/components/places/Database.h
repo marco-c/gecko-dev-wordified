@@ -1356,12 +1356,6 @@ Shutdown
 (
 )
 ;
-bool
-IsShutdownStarted
-(
-)
-const
-;
 /
 *
 *
