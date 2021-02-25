@@ -6503,7 +6503,7 @@ nsITimer
 >
 mShutdownTimer
 ;
-private
+protected
 :
 virtual
 ~
@@ -6511,6 +6511,8 @@ MediaTrackGraphImpl
 (
 )
 ;
+private
+:
 MOZ_DEFINE_MALLOC_SIZE_OF
 (
 MallocSizeOf
