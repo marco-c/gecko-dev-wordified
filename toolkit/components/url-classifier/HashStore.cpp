@@ -1282,7 +1282,7 @@ NS_ENSURE_TRUE_VOID
 !
 mPrefixesMap
 .
-Get
+Contains
 (
 aSize
 )
