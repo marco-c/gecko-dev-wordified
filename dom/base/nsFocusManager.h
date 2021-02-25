@@ -1533,6 +1533,14 @@ Document
 aDocument
 )
 ;
+void
+WasNuked
+(
+nsPIDOMWindowOuter
+*
+aWindow
+)
+;
 /
 *
 *
@@ -4969,6 +4977,10 @@ SetFocusedWindowInternal
 nsPIDOMWindowOuter
 *
 aWindow
+bool
+aSyncBrowsingContext
+=
+true
 )
 ;
 bool
