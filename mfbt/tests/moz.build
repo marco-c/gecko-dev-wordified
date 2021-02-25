@@ -206,9 +206,6 @@ TestFunctionTypeTraits
 TestHashTable
 "
 "
-TestIntegerPrintfMacros
-"
-"
 TestIntegerRange
 "
 "
