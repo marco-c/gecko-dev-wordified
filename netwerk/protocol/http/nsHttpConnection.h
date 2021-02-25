@@ -1575,6 +1575,11 @@ DisableTCPKeepalives
 (
 )
 ;
+bool
+CheckCanWrite0RTTData
+(
+)
+;
 private
 :
 /
