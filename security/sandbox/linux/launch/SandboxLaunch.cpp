@@ -311,7 +311,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -1197,10 +1197,13 @@ nsIGfxInfo
 >
 gfxInfo
 =
-services
+components
 :
 :
-GetGfxInfo
+GfxInfo
+:
+:
+Service
 (
 )
 ;
