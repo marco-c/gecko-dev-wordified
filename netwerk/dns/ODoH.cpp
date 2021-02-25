@@ -224,7 +224,7 @@ gODoHService
 {
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 TRR_SEND_FAILED
@@ -294,7 +294,7 @@ else
 {
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 ODOH_UPDATE_KEY_FAILED
@@ -466,7 +466,7 @@ this
 {
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 ODOH_KEY_NOT_AVAILABLE
@@ -533,7 +533,7 @@ KeyNotAvailable
 {
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 ODOH_KEY_NOT_AVAILABLE
@@ -554,7 +554,7 @@ KeyNotUsable
 {
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 ODOH_KEY_NOT_USABLE
@@ -575,7 +575,7 @@ EncryptError
 {
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 ODOH_ENCRYPTION_FAILED
@@ -648,7 +648,7 @@ DecryptError
 {
 RecordReason
 (
-nsHostRecord
+TRRSkippedReason
 :
 :
 ODOH_DECRYPTION_FAILED
