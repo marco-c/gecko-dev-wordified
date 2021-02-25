@@ -24025,7 +24025,7 @@ fragment_shader
 gl_SecondaryFragColor
 256
 .
-0f
+49f
 )
 )
 ;
@@ -24059,7 +24059,7 @@ fragment_shader
 gl_SecondaryFragColor
 256
 .
-0f
+49f
 )
 )
 ;
@@ -24110,7 +24110,7 @@ fragment_shader
 gl_SecondaryFragColor
 256
 .
-0f
+49f
 )
 )
 ;
@@ -24167,7 +24167,7 @@ fragment_shader
 gl_SecondaryFragColor
 256
 .
-0f
+49f
 )
 )
 ;
