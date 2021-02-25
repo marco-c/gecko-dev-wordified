@@ -1597,6 +1597,14 @@ null
 )
 ;
 }
+if
+(
+!
+isChildProcess
+(
+)
+)
+{
 GeckoSystemStateListener
 .
 getInstance
@@ -1608,6 +1616,7 @@ initialize
 context
 )
 ;
+}
 loadGeckoLibs
 (
 context
