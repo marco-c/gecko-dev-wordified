@@ -8151,11 +8151,7 @@ rhs
 Register
 srcDest
 )
-DEFINED_ON
-(
-x86
-x64
-)
+PER_ARCH
 ;
 inline
 void
