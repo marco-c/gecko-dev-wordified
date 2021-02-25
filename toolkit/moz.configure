@@ -14089,6 +14089,9 @@ dav1d_nasm
 vpx_nasm
 jpeg_nasm
 ffvpx_nasm
+when
+=
+compile_environment
 )
 def
 need_nasm
@@ -16759,6 +16762,9 @@ bootstrap_search_path
 "
 dump_syms
 "
+when
+=
+compile_environment
 )
 when
 =
