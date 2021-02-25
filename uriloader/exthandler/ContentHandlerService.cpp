@@ -1270,10 +1270,8 @@ nsCString
 (
 aFileExtension
 )
-MakeUnique
-<
+new
 nsCString
->
 (
 type
 )

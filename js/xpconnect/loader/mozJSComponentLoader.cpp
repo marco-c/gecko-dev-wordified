@@ -8159,10 +8159,8 @@ newEntry
 -
 >
 resolvedURL
-MakeUnique
-<
+new
 nsCString
->
 (
 info
 .
@@ -8491,12 +8489,10 @@ info
 Key
 (
 )
-std
-:
-:
-move
-(
 newEntry
+.
+release
+(
 )
 )
 ;

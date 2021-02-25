@@ -1860,13 +1860,7 @@ mNamedParameters
 Put
 (
 aName
-nsCOMPtr
-<
-nsIVariant
->
-{
 variant
-}
 )
 ;
 return

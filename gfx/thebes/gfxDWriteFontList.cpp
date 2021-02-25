@@ -12796,10 +12796,8 @@ mSubstitutions
 Put
 (
 substituteName
-MakeUnique
-<
+new
 nsCString
->
 (
 actualFontName
 )
@@ -12822,10 +12820,8 @@ mSubstitutions
 Put
 (
 substituteName
-MakeUnique
-<
+new
 nsCString
->
 (
 *
 mSubstitutions
@@ -13132,10 +13128,8 @@ mSubstitutions
 Put
 (
 substituteName
-MakeUnique
-<
+new
 nsCString
->
 (
 actualFontName
 )
