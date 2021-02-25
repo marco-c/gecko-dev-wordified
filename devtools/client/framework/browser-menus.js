@@ -1008,7 +1008,7 @@ doc
 getElementById
 (
 "
-menu_devtools_separator
+menu_devtools_remotedebugging
 "
 )
 ;
@@ -1293,7 +1293,7 @@ doc
 getElementById
 (
 "
-menu_devtools_separator
+menu_devtools_remotedebugging
 "
 )
 ;
