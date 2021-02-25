@@ -3472,7 +3472,7 @@ Path
 GetFocusStrokePath
 (
 DrawTarget
-*
+&
 aDrawTarget
 LayoutDeviceRect
 &
@@ -3553,7 +3553,6 @@ aFocusWidth
 return
 MakePathForRoundedRect
 (
-*
 aDrawTarget
 focusRect
 .
@@ -3580,7 +3579,7 @@ nsNativeBasicTheme
 PaintRoundedFocusRect
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -3752,8 +3751,7 @@ strokeWidth
 )
 ;
 aDrawTarget
--
->
+.
 Stroke
 (
 roundedRect
@@ -3809,8 +3807,7 @@ strokeWidth
 )
 ;
 aDrawTarget
--
->
+.
 Stroke
 (
 roundedRect
@@ -3866,8 +3863,7 @@ strokeWidth
 )
 ;
 aDrawTarget
--
->
+.
 Stroke
 (
 roundedRect
@@ -3892,7 +3888,7 @@ nsNativeBasicTheme
 PaintRoundedRectWithRadius
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -4058,7 +4054,6 @@ roundedRect
 =
 MakePathForRoundedRect
 (
-*
 aDrawTarget
 rect
 .
@@ -4069,8 +4064,7 @@ radii
 )
 ;
 aDrawTarget
--
->
+.
 Fill
 (
 roundedRect
@@ -4084,8 +4078,7 @@ aBackgroundColor
 )
 ;
 aDrawTarget
--
->
+.
 Stroke
 (
 roundedRect
@@ -4110,7 +4103,7 @@ nsNativeBasicTheme
 PaintCheckboxControl
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -4252,7 +4245,7 @@ nsNativeBasicTheme
 PaintCheckMark
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -4405,8 +4398,7 @@ PathBuilder
 builder
 =
 aDrawTarget
--
->
+.
 CreatePathBuilder
 (
 )
@@ -4507,8 +4499,7 @@ aState
 )
 ;
 aDrawTarget
--
->
+.
 Fill
 (
 path
@@ -4529,7 +4520,7 @@ nsNativeBasicTheme
 PaintIndeterminateMark
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -4647,8 +4638,7 @@ aState
 )
 ;
 aDrawTarget
--
->
+.
 FillRect
 (
 rect
@@ -4669,7 +4659,7 @@ nsNativeBasicTheme
 PaintStrokedEllipse
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -4706,8 +4696,7 @@ PathBuilder
 builder
 =
 aDrawTarget
--
->
+.
 CreatePathBuilder
 (
 )
@@ -4789,8 +4778,7 @@ Finish
 )
 ;
 aDrawTarget
--
->
+.
 Fill
 (
 ellipse
@@ -4804,8 +4792,7 @@ aBackgroundColor
 )
 ;
 aDrawTarget
--
->
+.
 Stroke
 (
 ellipse
@@ -4830,7 +4817,7 @@ nsNativeBasicTheme
 PaintEllipseShadow
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -4875,8 +4862,7 @@ FilterNode
 blurFilter
 =
 aDrawTarget
--
->
+.
 CreateFilter
 (
 FilterType
@@ -4988,8 +4974,7 @@ DrawTarget
 ellipseDT
 =
 aDrawTarget
--
->
+.
 CreateSimilarDrawTargetForFilter
 (
 dtSize
@@ -5097,8 +5082,7 @@ ellipseSurface
 )
 ;
 aDrawTarget
--
->
+.
 DrawFilter
 (
 blurFilter
@@ -5114,7 +5098,7 @@ nsNativeBasicTheme
 PaintRadioControl
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -5193,7 +5177,7 @@ nsNativeBasicTheme
 PaintRadioCheckmark
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -5268,7 +5252,7 @@ nsNativeBasicTheme
 PaintTextField
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -5341,7 +5325,7 @@ nsNativeBasicTheme
 PaintListbox
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -5414,7 +5398,7 @@ nsNativeBasicTheme
 PaintMenulist
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -5487,7 +5471,7 @@ nsNativeBasicTheme
 PaintArrow
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -5540,8 +5524,7 @@ PathBuilder
 builder
 =
 aDrawTarget
--
->
+.
 CreatePathBuilder
 (
 )
@@ -5634,8 +5617,7 @@ Finish
 )
 ;
 aDrawTarget
--
->
+.
 Fill
 (
 path
@@ -5659,7 +5641,7 @@ nsIFrame
 *
 aFrame
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -5798,7 +5780,7 @@ nsIFrame
 *
 aFrame
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -5826,8 +5808,7 @@ aState
 )
 ;
 aDrawTarget
--
->
+.
 FillRect
 (
 aRect
@@ -5975,8 +5956,7 @@ PathBuilder
 builder
 =
 aDrawTarget
--
->
+.
 CreatePathBuilder
 (
 )
@@ -6082,8 +6062,7 @@ Finish
 )
 ;
 aDrawTarget
--
->
+.
 Fill
 (
 path
@@ -6107,7 +6086,7 @@ nsIFrame
 *
 aFrame
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -6563,8 +6542,7 @@ PathBuilder
 builder
 =
 aDrawTarget
--
->
+.
 CreatePathBuilder
 (
 FillRule
@@ -6661,8 +6639,7 @@ state
 )
 .
 aDrawTarget
--
->
+.
 PushClip
 (
 path
@@ -6670,8 +6647,7 @@ path
 ;
 {
 aDrawTarget
--
->
+.
 PushClipRect
 (
 progressClipRect
@@ -6689,15 +6665,13 @@ aDpiRatio
 )
 ;
 aDrawTarget
--
->
+.
 PopClip
 (
 )
 ;
 aDrawTarget
--
->
+.
 PushClipRect
 (
 trackClipRect
@@ -6715,8 +6689,7 @@ aDpiRatio
 )
 ;
 aDrawTarget
--
->
+.
 PopClip
 (
 )
@@ -6761,8 +6734,7 @@ aDpiRatio
 }
 }
 aDrawTarget
--
->
+.
 PopClip
 (
 )
@@ -6844,7 +6816,7 @@ nsIFrame
 *
 aFrame
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -7230,8 +7202,7 @@ clipHeight
 ;
 }
 aDrawTarget
--
->
+.
 PushClipRect
 (
 clipRect
@@ -7260,8 +7231,7 @@ aBar
 )
 {
 aDrawTarget
--
->
+.
 PopClip
 (
 )
@@ -7278,7 +7248,7 @@ nsIFrame
 *
 aFrame
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -7352,7 +7322,7 @@ nsNativeBasicTheme
 PaintScrollbarThumb
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -7391,8 +7361,7 @@ aDocumentState
 )
 ;
 aDrawTarget
--
->
+.
 FillRect
 (
 aRect
@@ -7417,7 +7386,7 @@ nsNativeBasicTheme
 PaintScrollbarTrack
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -7460,7 +7429,7 @@ nsNativeBasicTheme
 PaintScrollbar
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -7497,8 +7466,7 @@ aDocumentState
 )
 ;
 aDrawTarget
--
->
+.
 FillRect
 (
 aRect
@@ -7576,8 +7544,7 @@ PathBuilder
 builder
 =
 aDrawTarget
--
->
+.
 CreatePathBuilder
 (
 )
@@ -7658,8 +7625,7 @@ Finish
 )
 ;
 aDrawTarget
--
->
+.
 Stroke
 (
 path
@@ -7692,7 +7658,7 @@ nsNativeBasicTheme
 PaintScrollCorner
 (
 DrawTarget
-*
+&
 aDrawTarget
 const
 LayoutDeviceRect
@@ -7732,8 +7698,7 @@ Unused
 borderColor
 ;
 aDrawTarget
--
->
+.
 FillRect
 (
 aRect
@@ -7758,7 +7723,7 @@ nsNativeBasicTheme
 PaintScrollbarButton
 (
 DrawTarget
-*
+&
 aDrawTarget
 StyleAppearance
 aAppearance
@@ -7818,8 +7783,7 @@ aDocumentState
 )
 ;
 aDrawTarget
--
->
+.
 FillRect
 (
 aRect
@@ -8124,8 +8088,7 @@ PathBuilder
 builder
 =
 aDrawTarget
--
->
+.
 CreatePathBuilder
 (
 )
@@ -8224,8 +8187,7 @@ Finish
 )
 ;
 aDrawTarget
--
->
+.
 Stroke
 (
 path
@@ -8280,9 +8242,10 @@ aDirtyRect
 )
 {
 DrawTarget
-*
+&
 dt
 =
+*
 aContext
 -
 >
@@ -8347,7 +8310,6 @@ NSRectToSnappedRect
 (
 aRect
 twipsPerPixel
-*
 dt
 )
 )
@@ -8497,7 +8459,6 @@ maybeClipRect
 .
 emplace
 (
-*
 dt
 devPxRect
 )
@@ -9312,7 +9273,7 @@ nsIFrame
 *
 aFrame
 DrawTarget
-*
+&
 aDt
 const
 LayoutDeviceRect
@@ -9429,8 +9390,7 @@ cssRadii
 {
 return
 aDt
--
->
+.
 StrokeRect
 (
 rect
@@ -9556,7 +9516,6 @@ path
 =
 MakePathForRoundedRect
 (
-*
 aDt
 rect
 .
@@ -9567,8 +9526,7 @@ outerRadii
 )
 ;
 aDt
--
->
+.
 Stroke
 (
 path
