@@ -461,7 +461,7 @@ android
 :
 [
 "
-gdb
+lldb
 "
 ]
     
