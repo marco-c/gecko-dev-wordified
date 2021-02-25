@@ -62,6 +62,8 @@ import
 sys
 import
 subprocess
+import
+buildconfig
 def
 make_unzip
 (
@@ -74,9 +76,14 @@ subprocess
 check_call
 (
 [
+buildconfig
+.
+substs
+[
 "
-unzip
+UNZIP
 "
+]
 package
 ]
 )
