@@ -2622,6 +2622,17 @@ declaration
 >
 {
 let
+mut
+cache
+=
+Default
+:
+:
+default
+(
+)
+;
+let
 substituted
 =
 {
@@ -2663,6 +2674,9 @@ context
 device
 (
 )
+&
+mut
+cache
 )
 }
 ;
