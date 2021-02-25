@@ -175,11 +175,6 @@ TestAudioDriftCorrection
 cpp
 "
 "
-TestAudioInputProcessing
-.
-cpp
-"
-"
 TestAudioMixer
 .
 cpp
