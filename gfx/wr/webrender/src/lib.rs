@@ -857,6 +857,9 @@ api_resources
 mod
 image_tiling
 ;
+mod
+image_source
+;
 pub
 mod
 host_utils
