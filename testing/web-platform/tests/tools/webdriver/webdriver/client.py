@@ -3530,6 +3530,22 @@ end
 )
     
 def
+match
+(
+self
+capabilities
+)
+:
+        
+return
+self
+.
+requested_capabilities
+=
+=
+capabilities
+    
+def
 start
 (
 self

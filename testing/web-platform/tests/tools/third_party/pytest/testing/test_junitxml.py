@@ -1,37 +1,23 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-division
-from
-__future__
-import
-print_function
 import
 os
 import
 platform
-import
-sys
 from
 datetime
 import
 datetime
+from
+typing
+import
+cast
+from
+typing
+import
+List
+from
+typing
+import
+Tuple
 from
 xml
 .
@@ -41,7 +27,27 @@ minidom
 import
 py
 import
+xmlschema
+import
 pytest
+from
+_pytest
+.
+compat
+import
+TYPE_CHECKING
+from
+_pytest
+.
+config
+import
+Config
+from
+_pytest
+.
+junitxml
+import
+bin_xml_escape
 from
 _pytest
 .
@@ -51,19 +57,206 @@ LogXML
 from
 _pytest
 .
+pathlib
+import
+Path
+from
+_pytest
+.
 reports
 import
 BaseReport
-def
-runandparse
+from
+_pytest
+.
+reports
+import
+TestReport
+from
+_pytest
+.
+store
+import
+Store
+pytest
+.
+fixture
 (
-testdir
-*
-args
+scope
+=
+"
+session
+"
+)
+def
+schema
+(
 )
 :
     
-resultpath
+"
+"
+"
+Return
+an
+xmlschema
+.
+XMLSchema
+object
+for
+the
+junit
+-
+10
+.
+xsd
+file
+.
+"
+"
+"
+    
+fn
+=
+Path
+(
+__file__
+)
+.
+parent
+/
+"
+example_scripts
+/
+junit
+-
+10
+.
+xsd
+"
+    
+with
+fn
+.
+open
+(
+)
+as
+f
+:
+        
+return
+xmlschema
+.
+XMLSchema
+(
+f
+)
+pytest
+.
+fixture
+def
+run_and_parse
+(
+testdir
+schema
+)
+:
+    
+"
+"
+"
+Fixture
+that
+returns
+a
+function
+that
+can
+be
+used
+to
+execute
+pytest
+and
+    
+return
+the
+parsed
+DomNode
+of
+the
+root
+xml
+node
+.
+    
+The
+family
+parameter
+is
+used
+to
+configure
+the
+junit_family
+of
+the
+written
+report
+.
+    
+"
+xunit2
+"
+is
+also
+automatically
+validated
+against
+the
+schema
+.
+    
+"
+"
+"
+    
+def
+run
+(
+*
+args
+family
+=
+"
+xunit1
+"
+)
+:
+        
+if
+family
+:
+            
+args
+=
+(
+"
+-
+o
+"
+"
+junit_family
+=
+"
++
+family
+)
++
+args
+        
+xml_path
 =
 testdir
 .
@@ -77,7 +270,7 @@ junit
 xml
 "
 )
-    
+        
 result
 =
 testdir
@@ -93,11 +286,37 @@ junitxml
 s
 "
 %
-resultpath
+xml_path
 *
 args
 )
-    
+        
+if
+family
+=
+=
+"
+xunit2
+"
+:
+            
+with
+xml_path
+.
+open
+(
+)
+as
+f
+:
+                
+schema
+.
+validate
+(
+f
+)
+        
 xmldoc
 =
 minidom
@@ -106,16 +325,19 @@ parse
 (
 str
 (
-resultpath
+xml_path
 )
 )
-    
+        
 return
 result
 DomNode
 (
 xmldoc
 )
+    
+return
+run
 def
 assert_attr
 (
@@ -202,9 +424,6 @@ on_node
 expected
 class
 DomNode
-(
-object
-)
 :
     
 def
@@ -540,18 +759,39 @@ __node
 .
 nextSibling
 )
+parametrize_families
+=
+pytest
+.
+mark
+.
+parametrize
+(
+"
+xunit_family
+"
+[
+"
+xunit1
+"
+"
+xunit2
+"
+]
+)
 class
 TestPython
-(
-object
-)
 :
+    
+parametrize_families
     
 def
 test_summing_simple
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -637,9 +877,11 @@ assert
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -681,11 +923,15 @@ tests
 5
 )
     
+parametrize_families
+    
 def
 test_summing_simple_with_errors
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -786,9 +1032,11 @@ True
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -830,11 +1078,15 @@ tests
 5
 )
     
+parametrize_families
+    
 def
 test_hostname_in_xml
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -864,9 +1116,11 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 node
@@ -893,11 +1147,15 @@ node
 )
 )
     
+parametrize_families
+    
 def
 test_timestamp_in_xml
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -935,9 +1193,11 @@ now
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 node
@@ -1003,6 +1263,8 @@ test_timing_function
 (
 self
 testdir
+run_and_parse
+mock_timing
 )
 :
         
@@ -1015,9 +1277,10 @@ makepyfile
 "
 "
             
+from
+_pytest
 import
-time
-pytest
+timing
             
 def
 setup_module
@@ -1025,13 +1288,11 @@ setup_module
 )
 :
                 
-time
+timing
 .
 sleep
 (
-0
-.
-01
+1
 )
             
 def
@@ -1040,13 +1301,11 @@ teardown_module
 )
 :
                 
-time
+timing
 .
 sleep
 (
-0
-.
-01
+2
 )
             
 def
@@ -1055,13 +1314,11 @@ test_sleep
 )
 :
                 
-time
+timing
 .
 sleep
 (
-0
-.
-01
+4
 )
         
 "
@@ -1073,9 +1330,8 @@ sleep
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 )
         
 node
@@ -1110,19 +1366,15 @@ time
 ]
         
 assert
-round
-(
 float
 (
 val
 )
-2
-)
->
 =
-0
+=
+7
 .
-03
+0
     
 pytest
 .
@@ -1146,10 +1398,13 @@ total
 def
 test_junit_duration_report
 (
+        
 self
 testdir
 monkeypatch
 duration_report
+run_and_parse
+    
 )
 :
         
@@ -1241,10 +1496,9 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
             
-testdir
 "
 -
 o
@@ -1333,11 +1587,15 @@ val
 .
 0
     
+parametrize_families
+    
 def
 test_setup_error
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -1367,6 +1625,10 @@ request
 raise
 ValueError
 (
+"
+Error
+reason
+"
 )
             
 def
@@ -1387,9 +1649,11 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -1464,11 +1728,18 @@ assert_attr
 (
 message
 =
-"
-test
+'
+failed
+on
 setup
-failure
+with
 "
+ValueError
+:
+Error
+reason
+"
+'
 )
         
 assert
@@ -1482,11 +1753,15 @@ toxml
 (
 )
     
+parametrize_families
+    
 def
 test_teardown_error
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -1517,6 +1792,10 @@ yield
 raise
 ValueError
 (
+'
+Error
+reason
+'
 )
             
 def
@@ -1537,9 +1816,11 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -1602,11 +1883,18 @@ assert_attr
 (
 message
 =
-"
-test
+'
+failed
+on
 teardown
-failure
+with
 "
+ValueError
+:
+Error
+reason
+"
+'
 )
         
 assert
@@ -1620,11 +1908,15 @@ toxml
 (
 )
     
+parametrize_families
+    
 def
 test_call_failure_teardown_error
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -1686,9 +1978,11 @@ Exception
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -1734,21 +2028,17 @@ testcase
 "
 )
         
-if
-not
-first
-or
-not
-second
-or
-first
-=
-=
-second
-:
-            
 assert
-0
+first
+        
+assert
+second
+        
+assert
+first
+!
+=
+second
         
 fnode
 =
@@ -1790,20 +2080,33 @@ snode
 .
 assert_attr
 (
+            
 message
 =
-"
-test
+'
+failed
+on
 teardown
-failure
+with
 "
+Exception
+:
+Teardown
+Exception
+"
+'
+        
 )
+    
+parametrize_families
     
 def
 test_skip_contains_name_reason
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -1843,9 +2146,11 @@ hello23
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -1932,11 +2237,15 @@ hello23
 "
 )
     
+parametrize_families
+    
 def
 test_mark_skip_contains_name_reason
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -1983,9 +2292,11 @@ True
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -2074,11 +2385,17 @@ hello24
 "
 )
     
+parametrize_families
+    
 def
 test_mark_skipif_contains_name_reason
 (
+        
 self
 testdir
+run_and_parse
+xunit_family
+    
 )
 :
         
@@ -2130,9 +2447,11 @@ True
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -2221,11 +2540,17 @@ hello25
 "
 )
     
+parametrize_families
+    
 def
 test_mark_skip_doesnt_capture_output
 (
+        
 self
 testdir
+run_and_parse
+xunit_family
+    
 )
 :
         
@@ -2277,9 +2602,11 @@ bar
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -2314,11 +2641,15 @@ not
 in
 node_xml
     
+parametrize_families
+    
 def
 test_classname_instance
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -2357,9 +2688,11 @@ assert
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -2418,11 +2751,15 @@ test_method
         
 )
     
+parametrize_families
+    
 def
 test_classname_nested_dir
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -2463,9 +2800,11 @@ test_func
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -2522,11 +2861,15 @@ test_func
 "
 )
     
+parametrize_families
+    
 def
 test_internal_error
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -2563,9 +2906,11 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -2663,12 +3008,16 @@ mark
 .
 parametrize
 (
+        
 "
 junit_logging
 "
 [
 "
 no
+"
+"
+log
 "
 "
 system
@@ -2680,15 +3029,30 @@ system
 -
 err
 "
+"
+out
+-
+err
+"
+"
+all
+"
 ]
+    
 )
+    
+parametrize_families
     
 def
 test_failure_function
 (
+        
 self
 testdir
 junit_logging
+run_and_parse
+xunit_family
+    
 )
 :
         
@@ -2773,9 +3137,9 @@ ValueError
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+            
 "
 -
 o
@@ -2788,12 +3152,22 @@ s
 "
 %
 junit_logging
+family
+=
+xunit_family
+        
 )
         
 assert
 result
 .
 ret
+"
+Expected
+ret
+>
+0
+"
         
 node
 =
@@ -2879,13 +3253,134 @@ fnode
 toxml
 (
 )
+"
+ValueError
+not
+included
+"
         
+if
+junit_logging
+in
+[
+"
+log
+"
+"
+all
+"
+]
+:
+            
+logdata
+=
+tnode
+.
+find_first_by_tag
+(
+"
+system
+-
+out
+"
+)
+            
+log_xml
+=
+logdata
+.
+toxml
+(
+)
+            
+assert
+logdata
+.
+tag
+=
+=
+"
+system
+-
+out
+"
+"
+Expected
+tag
+:
+system
+-
+out
+"
+            
+assert
+"
+info
+msg
+"
+not
+in
+log_xml
+"
+Unexpected
+INFO
+message
+"
+            
+assert
+"
+warning
+msg
+"
+in
+log_xml
+"
+Missing
+WARN
+message
+"
+        
+if
+junit_logging
+in
+[
+"
+system
+-
+out
+"
+"
+out
+-
+err
+"
+"
+all
+"
+]
+:
+            
 systemout
 =
-fnode
+tnode
 .
-next_sibling
-        
+find_first_by_tag
+(
+"
+system
+-
+out
+"
+)
+            
+systemout_xml
+=
+systemout
+.
+toxml
+(
+)
+            
 assert
 systemout
 .
@@ -2897,39 +3392,99 @@ system
 -
 out
 "
-        
+"
+Expected
+tag
+:
+system
+-
+out
+"
+            
 assert
+"
+info
+msg
+"
+not
+in
+systemout_xml
+"
+INFO
+message
+found
+in
+system
+-
+out
+"
+            
+assert
+(
+                
 "
 hello
 -
 stdout
 "
 in
-systemout
-.
-toxml
-(
+systemout_xml
+            
 )
-        
-assert
 "
-info
-msg
-"
-not
+Missing
+'
+hello
+-
+stdout
+'
 in
-systemout
-.
-toxml
-(
-)
+system
+-
+out
+"
         
+if
+junit_logging
+in
+[
+"
+system
+-
+err
+"
+"
+out
+-
+err
+"
+"
+all
+"
+]
+:
+            
 systemerr
 =
-systemout
+tnode
 .
-next_sibling
-        
+find_first_by_tag
+(
+"
+system
+-
+err
+"
+)
+            
+systemerr_xml
+=
+systemerr
+.
+toxml
+(
+)
+            
 assert
 systemerr
 .
@@ -2941,20 +3496,15 @@ system
 -
 err
 "
-        
-assert
 "
-hello
+Expected
+tag
+:
+system
 -
-stderr
+err
 "
-in
-systemerr
-.
-toxml
-(
-)
-        
+            
 assert
 "
 info
@@ -2962,85 +3512,65 @@ msg
 "
 not
 in
-systemerr
-.
-toxml
-(
-)
-        
-if
-junit_logging
-=
-=
+systemerr_xml
 "
-system
--
-out
-"
-:
-            
-assert
-"
-warning
-msg
-"
+INFO
+message
+found
 in
-systemout
-.
-toxml
-(
-)
-            
-assert
-"
-warning
-msg
-"
-not
-in
-systemerr
-.
-toxml
-(
-)
-        
-elif
-junit_logging
-=
-=
-"
 system
 -
 err
 "
-:
             
 assert
+(
+                
+"
+hello
+-
+stderr
+"
+in
+systemerr_xml
+            
+)
+"
+Missing
+'
+hello
+-
+stderr
+'
+in
+system
+-
+err
+"
+            
+assert
+(
+                
 "
 warning
 msg
 "
 not
 in
-systemout
-.
-toxml
-(
-)
+systemerr_xml
             
-assert
-"
-warning
-msg
-"
-in
-systemerr
-.
-toxml
-(
 )
+"
+WARN
+message
+found
+in
+system
+-
+err
+"
         
-elif
+if
 junit_logging
 =
 =
@@ -3050,36 +3580,80 @@ no
 :
             
 assert
-"
-warning
-msg
-"
 not
-in
-systemout
+tnode
 .
-toxml
+find_by_tag
 (
+"
+log
+"
 )
+"
+Found
+unexpected
+content
+:
+log
+"
             
 assert
-"
-warning
-msg
-"
 not
-in
-systemerr
+tnode
 .
-toxml
+find_by_tag
 (
+                
+"
+system
+-
+out
+"
+            
 )
+"
+Found
+unexpected
+content
+:
+system
+-
+out
+"
+            
+assert
+not
+tnode
+.
+find_by_tag
+(
+                
+"
+system
+-
+err
+"
+            
+)
+"
+Found
+unexpected
+content
+:
+system
+-
+err
+"
+    
+parametrize_families
     
 def
 test_failure_verbose_message
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -3117,9 +3691,11 @@ error
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 node
@@ -3166,16 +3742,21 @@ AssertionError
 :
 An
 error
-assert
+\
+nassert
 0
 "
 )
+    
+parametrize_families
     
 def
 test_failure_escape
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -3238,9 +3819,24 @@ assert
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+            
+"
+-
+o
+"
+"
+junit_logging
+=
+system
+-
+out
+"
+family
+=
+xunit_family
+        
 )
         
 assert
@@ -3341,9 +3937,6 @@ sysout
 text
             
 assert
-text
-=
-=
 "
 %
 s
@@ -3352,12 +3945,18 @@ n
 "
 %
 char
+in
+text
+    
+parametrize_families
     
 def
 test_junit_prefixing
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -3404,9 +4003,8 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 "
 -
 -
@@ -3414,6 +4012,9 @@ junitprefix
 =
 xyz
 "
+family
+=
+xunit_family
 )
         
 assert
@@ -3507,11 +4108,15 @@ test_hello
         
 )
     
+parametrize_families
+    
 def
 test_xfailure_function
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -3551,9 +4156,11 @@ xfail
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -3640,24 +4247,16 @@ message
 42
 "
 )
-        
-#
-assert
-"
-ValueError
-"
-in
-fnode
-.
-toxml
-(
-)
+    
+parametrize_families
     
 def
 test_xfailure_marker
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -3704,9 +4303,11 @@ False
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -3794,11 +4395,52 @@ message
 "
 )
     
+pytest
+.
+mark
+.
+parametrize
+(
+        
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+log
+"
+"
+system
+-
+out
+"
+"
+system
+-
+err
+"
+"
+out
+-
+err
+"
+"
+all
+"
+]
+    
+)
+    
 def
 test_xfail_captures_output_once
 (
 self
 testdir
+junit_logging
+run_and_parse
 )
 :
         
@@ -3871,9 +4513,20 @@ assert
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
         
 node
@@ -3898,6 +4551,26 @@ testcase
 "
 )
         
+if
+junit_logging
+in
+[
+"
+system
+-
+err
+"
+"
+out
+-
+err
+"
+"
+all
+"
+]
+:
+            
 assert
 len
 (
@@ -3916,6 +4589,50 @@ err
 =
 1
         
+else
+:
+            
+assert
+len
+(
+tnode
+.
+find_by_tag
+(
+"
+system
+-
+err
+"
+)
+)
+=
+=
+0
+        
+if
+junit_logging
+in
+[
+"
+log
+"
+"
+system
+-
+out
+"
+"
+out
+-
+err
+"
+"
+all
+"
+]
+:
+            
 assert
 len
 (
@@ -3933,12 +4650,37 @@ out
 =
 =
 1
+        
+else
+:
+            
+assert
+len
+(
+tnode
+.
+find_by_tag
+(
+"
+system
+-
+out
+"
+)
+)
+=
+=
+0
+    
+parametrize_families
     
 def
 test_xfailure_xpass
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -3977,9 +4719,11 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 #
@@ -4038,11 +4782,15 @@ test_xpass
 "
 )
     
+parametrize_families
+    
 def
 test_xfailure_xpass_strict
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -4095,9 +4843,11 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 #
@@ -4188,11 +4938,15 @@ fail
 "
 )
     
+parametrize_families
+    
 def
 test_collect_error
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -4209,9 +4963,11 @@ error
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -4292,6 +5048,7 @@ test_unicode
 (
 self
 testdir
+run_and_parse
 )
 :
         
@@ -4319,6 +5076,7 @@ makepyfile
 "
 "
 "
+\
             
 #
 coding
@@ -4339,7 +5097,7 @@ r
                 
 assert
 0
-        
+            
 "
 "
 "
@@ -4352,9 +5110,8 @@ value
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 )
         
 assert
@@ -4387,20 +5144,6 @@ failure
 "
 )
         
-if
-not
-sys
-.
-platform
-.
-startswith
-(
-"
-java
-"
-)
-:
-            
 assert
 "
 hx
@@ -4417,21 +5160,25 @@ test_assertion_binchars
 (
 self
 testdir
+run_and_parse
 )
 :
         
 "
 "
 "
-this
+This
 test
 did
 fail
 when
 the
 escaping
-wasnt
+wasn
+'
+t
 strict
+.
 "
 "
 "
@@ -4492,9 +5239,8 @@ M2
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 )
         
 print
@@ -4504,6 +5250,27 @@ dom
 toxml
 (
 )
+)
+    
+pytest
+.
+mark
+.
+parametrize
+(
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+system
+-
+out
+"
+]
 )
     
 def
@@ -4511,6 +5278,8 @@ test_pass_captures_stdout
 (
 self
 testdir
+run_and_parse
+junit_logging
 )
 :
         
@@ -4547,9 +5316,20 @@ stdout
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
         
 node
@@ -4574,6 +5354,50 @@ testcase
 "
 )
         
+if
+junit_logging
+=
+=
+"
+no
+"
+:
+            
+assert
+not
+node
+.
+find_by_tag
+(
+                
+"
+system
+-
+out
+"
+            
+)
+"
+system
+-
+out
+should
+not
+be
+generated
+"
+        
+if
+junit_logging
+=
+=
+"
+system
+-
+out
+"
+:
+            
 systemout
 =
 pnode
@@ -4586,8 +5410,10 @@ system
 out
 "
 )
-        
+            
 assert
+(
+                
 "
 hello
 -
@@ -4598,6 +5424,42 @@ systemout
 .
 toxml
 (
+)
+            
+)
+"
+'
+hello
+-
+stdout
+'
+should
+be
+in
+system
+-
+out
+"
+    
+pytest
+.
+mark
+.
+parametrize
+(
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+system
+-
+err
+"
+]
 )
     
 def
@@ -4605,6 +5467,8 @@ test_pass_captures_stderr
 (
 self
 testdir
+run_and_parse
+junit_logging
 )
 :
         
@@ -4648,9 +5512,20 @@ stderr
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
         
 node
@@ -4675,7 +5550,51 @@ testcase
 "
 )
         
-systemout
+if
+junit_logging
+=
+=
+"
+no
+"
+:
+            
+assert
+not
+node
+.
+find_by_tag
+(
+                
+"
+system
+-
+err
+"
+            
+)
+"
+system
+-
+err
+should
+not
+be
+generated
+"
+        
+if
+junit_logging
+=
+=
+"
+system
+-
+err
+"
+:
+            
+systemerr
 =
 pnode
 .
@@ -4687,18 +5606,56 @@ system
 err
 "
 )
-        
+            
 assert
+(
+                
 "
 hello
 -
 stderr
 "
 in
-systemout
+systemerr
 .
 toxml
 (
+)
+            
+)
+"
+'
+hello
+-
+stderr
+'
+should
+be
+in
+system
+-
+err
+"
+    
+pytest
+.
+mark
+.
+parametrize
+(
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+system
+-
+out
+"
+]
 )
     
 def
@@ -4706,6 +5663,8 @@ test_setup_error_captures_stdout
 (
 self
 testdir
+run_and_parse
+junit_logging
 )
 :
         
@@ -4764,9 +5723,20 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
         
 node
@@ -4791,6 +5761,50 @@ testcase
 "
 )
         
+if
+junit_logging
+=
+=
+"
+no
+"
+:
+            
+assert
+not
+node
+.
+find_by_tag
+(
+                
+"
+system
+-
+out
+"
+            
+)
+"
+system
+-
+out
+should
+not
+be
+generated
+"
+        
+if
+junit_logging
+=
+=
+"
+system
+-
+out
+"
+:
+            
 systemout
 =
 pnode
@@ -4803,8 +5817,10 @@ system
 out
 "
 )
-        
+            
 assert
+(
+                
 "
 hello
 -
@@ -4816,12 +5832,50 @@ systemout
 toxml
 (
 )
+            
+)
+"
+'
+hello
+-
+stdout
+'
+should
+be
+in
+system
+-
+out
+"
+    
+pytest
+.
+mark
+.
+parametrize
+(
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+system
+-
+err
+"
+]
+)
     
 def
 test_setup_error_captures_stderr
 (
 self
 testdir
+run_and_parse
+junit_logging
 )
 :
         
@@ -4887,9 +5941,20 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
         
 node
@@ -4914,7 +5979,51 @@ testcase
 "
 )
         
-systemout
+if
+junit_logging
+=
+=
+"
+no
+"
+:
+            
+assert
+not
+node
+.
+find_by_tag
+(
+                
+"
+system
+-
+err
+"
+            
+)
+"
+system
+-
+err
+should
+not
+be
+generated
+"
+        
+if
+junit_logging
+=
+=
+"
+system
+-
+err
+"
+:
+            
+systemerr
 =
 pnode
 .
@@ -4926,18 +6035,56 @@ system
 err
 "
 )
-        
+            
 assert
+(
+                
 "
 hello
 -
 stderr
 "
 in
-systemout
+systemerr
 .
 toxml
 (
+)
+            
+)
+"
+'
+hello
+-
+stderr
+'
+should
+be
+in
+system
+-
+err
+"
+    
+pytest
+.
+mark
+.
+parametrize
+(
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+system
+-
+out
+"
+]
 )
     
 def
@@ -4945,6 +6092,8 @@ test_avoid_double_stdout
 (
 self
 testdir
+run_and_parse
+junit_logging
 )
 :
         
@@ -5025,9 +6174,20 @@ call
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
         
 node
@@ -5052,6 +6212,50 @@ testcase
 "
 )
         
+if
+junit_logging
+=
+=
+"
+no
+"
+:
+            
+assert
+not
+node
+.
+find_by_tag
+(
+                
+"
+system
+-
+out
+"
+            
+)
+"
+system
+-
+out
+should
+not
+be
+generated
+"
+        
+if
+junit_logging
+=
+=
+"
+system
+-
+out
+"
+:
+            
 systemout
 =
 pnode
@@ -5064,7 +6268,7 @@ system
 out
 "
 )
-        
+            
 assert
 "
 hello
@@ -5078,7 +6282,7 @@ systemout
 toxml
 (
 )
-        
+            
 assert
 "
 hello
@@ -5188,23 +6392,38 @@ a
 "
 ]
 def
-test_dont_configure_on_slaves
+test_dont_configure_on_workers
 (
 tmpdir
 )
+-
+>
+None
 :
     
 gotten
 =
 [
 ]
+#
+type
+:
+List
+[
+object
+]
     
 class
 FakeConfig
-(
-object
-)
 :
+        
+if
+TYPE_CHECKING
+:
+            
+workerinput
+=
+None
         
 def
 __init__
@@ -5224,6 +6443,14 @@ self
 option
 =
 self
+            
+self
+.
+_store
+=
+Store
+(
+)
         
 def
 getini
@@ -5245,7 +6472,9 @@ None
 #
 XXX
 :
-shouldnt
+shouldn
+'
+t
 need
 tmpdir
 ?
@@ -5274,8 +6503,12 @@ append
     
 fake_config
 =
+cast
+(
+Config
 FakeConfig
 (
+)
 )
     
 from
@@ -5301,7 +6534,7 @@ gotten
     
 FakeConfig
 .
-slaveinput
+workerinput
 =
 None
     
@@ -5322,16 +6555,17 @@ gotten
 1
 class
 TestNonPython
-(
-object
-)
 :
+    
+parametrize_families
     
 def
 test_summing_simple
 (
 self
 testdir
+run_and_parse
+xunit_family
 )
 :
         
@@ -5369,8 +6603,16 @@ xyz
                     
 return
 MyItem
+.
+from_parent
 (
+name
+=
 path
+.
+basename
+parent
+=
 parent
 )
             
@@ -5382,35 +6624,6 @@ pytest
 Item
 )
 :
-                
-def
-__init__
-(
-self
-path
-parent
-)
-:
-                    
-super
-(
-MyItem
-self
-)
-.
-__init__
-(
-path
-.
-basename
-parent
-)
-                    
-self
-.
-fspath
-=
-path
                 
 def
 runtest
@@ -5470,9 +6683,11 @@ hello
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
         
 assert
@@ -5571,10 +6786,31 @@ fnode
 toxml
 (
 )
+pytest
+.
+mark
+.
+parametrize
+(
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+system
+-
+out
+"
+]
+)
 def
 test_nullbyte
 (
 testdir
+junit_logging
 )
 :
     
@@ -5711,6 +6947,18 @@ s
 "
 %
 xmlf
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
     
 text
@@ -5730,6 +6978,17 @@ not
 in
 text
     
+if
+junit_logging
+=
+=
+"
+system
+-
+out
+"
+:
+        
 assert
 "
 #
@@ -5737,10 +6996,49 @@ x00
 "
 in
 text
+    
+if
+junit_logging
+=
+=
+"
+no
+"
+:
+        
+assert
+"
+#
+x00
+"
+not
+in
+text
+pytest
+.
+mark
+.
+parametrize
+(
+"
+junit_logging
+"
+[
+"
+no
+"
+"
+system
+-
+out
+"
+]
+)
 def
 test_nullbyte_replace
 (
 testdir
+junit_logging
 )
 :
     
@@ -5866,6 +7164,18 @@ s
 "
 %
 xmlf
+"
+-
+o
+"
+"
+junit_logging
+=
+%
+s
+"
+%
+junit_logging
 )
     
 text
@@ -5876,11 +7186,40 @@ read
 (
 )
     
+if
+junit_logging
+=
+=
+"
+system
+-
+out
+"
+:
+        
 assert
 "
 #
 x0
 "
+in
+text
+    
+if
+junit_logging
+=
+=
+"
+no
+"
+:
+        
+assert
+"
+#
+x0
+"
+not
 in
 text
 def
@@ -5910,7 +7249,7 @@ let
 '
 s
 just
-thest
+test
 the
 edges
 of
@@ -5918,7 +7257,7 @@ the
 ranges
     
 #
-intead
+instead
 .
     
 #
@@ -5980,25 +7319,6 @@ it
 too
 .
     
-global
-unichr
-    
-try
-:
-        
-unichr
-(
-65
-)
-    
-except
-NameError
-:
-        
-unichr
-=
-chr
-    
 invalid
 =
 (
@@ -6051,13 +7371,6 @@ valid
 0x10FFFF
 )
     
-from
-_pytest
-.
-junitxml
-import
-bin_xml_escape
-    
 for
 i
 in
@@ -6068,13 +7381,11 @@ got
 =
 bin_xml_escape
 (
-unichr
+chr
 (
 i
 )
 )
-.
-uniobj
         
 if
 i
@@ -6129,13 +7440,11 @@ i
 =
 bin_xml_escape
 (
-unichr
+chr
 (
 i
 )
 )
-.
-uniobj
 def
 test_logxml_path_expansion
 (
@@ -6527,6 +7836,7 @@ def
 test_escaped_parametrized_names_xml
 (
 testdir
+run_and_parse
 )
 :
     
@@ -6538,6 +7848,7 @@ makepyfile
 "
 "
 "
+\
         
 import
 pytest
@@ -6552,7 +7863,6 @@ parametrize
 char
 '
 [
-u
 "
 \
 \
@@ -6570,7 +7880,7 @@ char
             
 assert
 char
-    
+        
 "
 "
 "
@@ -6580,9 +7890,8 @@ char
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 )
     
 assert
@@ -6623,6 +7932,7 @@ def
 test_double_colon_split_function_issue469
 (
 testdir
+run_and_parse
 )
 :
     
@@ -6675,9 +7985,8 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 )
     
 assert
@@ -6730,6 +8039,7 @@ def
 test_double_colon_split_method_issue469
 (
 testdir
+run_and_parse
 )
 :
     
@@ -6790,9 +8100,8 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 )
     
 assert
@@ -6848,6 +8157,9 @@ test_unicode_issue368
 (
 testdir
 )
+-
+>
+None
 :
     
 path
@@ -6878,7 +8190,6 @@ None
     
 ustr
 =
-u
 "
 !
 "
@@ -6897,6 +8208,17 @@ ustr
 sections
 =
 [
+]
+#
+type
+:
+List
+[
+Tuple
+[
+str
+str
+]
 ]
         
 nodeid
@@ -6923,8 +8245,12 @@ method
     
 test_report
 =
+cast
+(
+TestReport
 Report
 (
+)
 )
     
 #
@@ -7023,6 +8349,15 @@ test_report
 wasxfail
 =
 ustr
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
     
 node_reporter
 .
@@ -7040,6 +8375,7 @@ def
 test_record_property
 (
 testdir
+run_and_parse
 )
 :
     
@@ -7103,13 +8439,8 @@ foo
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
-"
--
-rwv
-"
 )
     
 node
@@ -7194,10 +8525,29 @@ value
 1
 "
 )
+    
+result
+.
+stdout
+.
+fnmatch_lines
+(
+[
+"
+*
+=
+1
+passed
+in
+*
+"
+]
+)
 def
 test_record_property_same_name
 (
 testdir
+run_and_parse
 )
 :
     
@@ -7246,13 +8596,8 @@ baz
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
-"
--
-rw
-"
 )
     
 node
@@ -7436,6 +8781,7 @@ def
 test_record_attribute
 (
 testdir
+run_and_parse
 )
 :
     
@@ -7522,13 +8868,8 @@ foo
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
-"
--
-rw
-"
 )
     
 node
@@ -7635,6 +8976,7 @@ test_record_fixtures_xunit2
 (
 testdir
 fixture_name
+run_and_parse
 )
 :
     
@@ -7652,7 +8994,7 @@ outside
 of
 legacy
 family
-    
+.
 "
 "
 "
@@ -7757,13 +9099,11 @@ fixture_name
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
-"
--
-rw
-"
+family
+=
+None
 )
     
 expected_lines
@@ -7865,6 +9205,7 @@ test_random_report_log_xdist
 (
 testdir
 monkeypatch
+run_and_parse
 )
 :
     
@@ -7880,7 +9221,7 @@ are
 executed
 by
 the
-slaves
+workers
     
 with
 nodes
@@ -7899,10 +9240,11 @@ to
 produce
 correct
 reports
-.
+(
 #
 1064
-    
+)
+.
 "
 "
 "
@@ -7981,9 +9323,8 @@ i
 _
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 "
 -
 n2
@@ -8054,10 +9395,13 @@ test_x
 ]
 "
 ]
+parametrize_families
 def
 test_root_testsuites_tag
 (
 testdir
+run_and_parse
+xunit_family
 )
 :
     
@@ -8087,9 +9431,11 @@ pass
 _
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
     
 root
@@ -8127,6 +9473,7 @@ def
 test_runs_twice
 (
 testdir
+run_and_parse
 )
 :
     
@@ -8158,25 +9505,23 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 f
 f
 )
     
-assert
-"
-INTERNALERROR
-"
-not
-in
 result
 .
 stdout
 .
-str
+no_fnmatch_line
 (
+"
+*
+INTERNALERROR
+*
+"
 )
     
 first
@@ -8207,25 +9552,11 @@ first
 =
 =
 second
-pytest
-.
-mark
-.
-xfail
-(
-reason
-=
-"
-hangs
-"
-run
-=
-False
-)
 def
 test_runs_twice_xdist
 (
 testdir
+run_and_parse
 )
 :
     
@@ -8235,6 +9566,17 @@ importorskip
 (
 "
 xdist
+"
+)
+    
+testdir
+.
+monkeypatch
+.
+delenv
+(
+"
+PYTEST_DISABLE_PLUGIN_AUTOLOAD
 "
 )
     
@@ -8266,9 +9608,8 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 f
 "
 -
@@ -8290,18 +9631,17 @@ popen
 "
 )
     
-assert
-"
-INTERNALERROR
-"
-not
-in
 result
 .
 stdout
 .
-str
+no_fnmatch_line
 (
+"
+*
+INTERNALERROR
+*
+"
 )
     
 first
@@ -8336,6 +9676,7 @@ def
 test_fancy_items_regression
 (
 testdir
+run_and_parse
 )
 :
     
@@ -8411,26 +9752,44 @@ return
 [
                     
 FunItem
+.
+from_parent
 (
+name
+=
 '
 a
 '
+parent
+=
 self
 )
                     
 NoFunItem
+.
+from_parent
 (
+name
+=
 '
 a
 '
+parent
+=
 self
 )
                     
 NoFunItem
+.
+from_parent
 (
+name
+=
 '
 b
 '
+parent
+=
 self
 )
                 
@@ -8460,8 +9819,14 @@ py
                 
 return
 FunCollector
+.
+from_parent
 (
+fspath
+=
 path
+parent
+=
 parent
 )
     
@@ -8497,23 +9862,21 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 )
     
-assert
-"
-INTERNALERROR
-"
-not
-in
 result
 .
 stdout
 .
-str
+no_fnmatch_line
 (
+"
+*
+INTERNALERROR
+*
+"
 )
     
 items
@@ -8563,54 +9926,52 @@ items
 =
 [
         
-u
 "
 conftest
 a
 "
         
-u
 "
 conftest
 a
 "
         
-u
 "
 conftest
 b
 "
         
-u
 "
 test_fancy_items_regression
 a
 "
         
-u
 "
 test_fancy_items_regression
 a
 "
         
-u
 "
 test_fancy_items_regression
 b
 "
         
-u
 "
 test_fancy_items_regression
 test_pass
 "
     
 ]
+parametrize_families
 def
 test_global_properties
 (
 testdir
+xunit_family
 )
+-
+>
+None
 :
     
 path
@@ -8637,6 +9998,9 @@ str
 path
 )
 None
+family
+=
+xunit_family
 )
     
 class
@@ -8649,6 +10013,17 @@ BaseReport
 sections
 =
 [
+]
+#
+type
+:
+List
+[
+Tuple
+[
+str
+str
+]
 ]
         
 nodeid
@@ -8670,7 +10045,9 @@ add_global_property
 "
 foo
 "
+"
 1
+"
 )
     
 log
@@ -8680,7 +10057,9 @@ add_global_property
 "
 bar
 "
+"
 2
+"
 )
     
 log
@@ -8833,6 +10212,9 @@ test_url_property
 (
 testdir
 )
+-
+>
+None
 :
     
 test_url
@@ -8896,6 +10278,17 @@ sections
 =
 [
 ]
+#
+type
+:
+List
+[
+Tuple
+[
+str
+str
+]
+]
         
 nodeid
 =
@@ -8925,8 +10318,12 @@ test_url
     
 test_report
 =
+cast
+(
+TestReport
 Report
 (
+)
 )
     
 log
@@ -9006,10 +10403,13 @@ to
 the
 xml
 "
+parametrize_families
 def
 test_record_testsuite_property
 (
 testdir
+run_and_parse
+xunit_family
 )
 :
     
@@ -9064,9 +10464,11 @@ stats
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
     
 assert
@@ -9340,11 +10742,14 @@ my_suite
 "
 ]
 )
+parametrize_families
 def
 test_set_suite_name
 (
 testdir
 suite_name
+run_and_parse
+xunit_family
 )
 :
     
@@ -9368,6 +10773,13 @@ pytest
 junit_suite_name
 =
 {
+suite_name
+}
+            
+junit_family
+=
+{
+family
 }
         
 "
@@ -9378,6 +10790,11 @@ format
 (
                 
 suite_name
+=
+suite_name
+family
+=
+xunit_family
             
 )
         
@@ -9425,9 +10842,11 @@ pass
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
     
 assert
@@ -9461,6 +10880,7 @@ def
 test_escaped_skipreason_issue3533
 (
 testdir
+run_and_parse
 )
 :
     
@@ -9509,9 +10929,8 @@ pass
 _
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
 )
     
 node
@@ -9561,10 +10980,14 @@ message
 2
 "
 )
+parametrize_families
 def
 test_logging_passing_tests_disabled_does_not_log_test_output
 (
+    
 testdir
+run_and_parse
+xunit_family
 )
 :
     
@@ -9590,10 +11013,25 @@ junit_logging
 system
 -
 out
+        
+junit_family
+=
+{
+family
+}
     
 "
 "
 "
+.
+format
+(
+            
+family
+=
+xunit_family
+        
+)
     
 )
     
@@ -9665,9 +11103,11 @@ hello
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+family
+=
+xunit_family
 )
     
 assert
@@ -9724,6 +11164,7 @@ out
 =
 =
 0
+parametrize_families
 pytest
 .
 mark
@@ -9755,6 +11196,8 @@ test_logging_passing_tests_disabled_logs_output_for_failing_test_issue5430
     
 testdir
 junit_logging
+run_and_parse
+xunit_family
 )
 :
     
@@ -9774,10 +11217,25 @@ pytest
 junit_log_passing_tests
 =
 False
+        
+junit_family
+=
+{
+family
+}
     
 "
 "
 "
+.
+format
+(
+            
+family
+=
+xunit_family
+        
+)
     
 )
     
@@ -9826,9 +11284,9 @@ assert
 result
 dom
 =
-runandparse
+run_and_parse
 (
-testdir
+        
 "
 -
 o
@@ -9841,6 +11299,10 @@ s
 "
 %
 junit_logging
+family
+=
+xunit_family
+    
 )
     
 assert
