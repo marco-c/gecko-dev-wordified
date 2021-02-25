@@ -528,11 +528,6 @@ aboutNewTabFeature
 .
 getValue
 (
-{
-sendExposurePing
-:
-false
-}
 )
 |
 |
@@ -1059,11 +1054,6 @@ aboutNewTabFeature
 .
 getValue
 (
-{
-sendExposurePing
-:
-false
-}
 )
 |
 |
