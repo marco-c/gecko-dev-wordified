@@ -200,7 +200,7 @@ h
 "
 #
 ifdef
-DEBUG
+MOZ_DOM_LIST
 #
 include
 "
@@ -837,7 +837,7 @@ aNullParent
 }
 #
 ifdef
-DEBUG
+MOZ_DOM_LIST
 void
 nsTextNode
 :

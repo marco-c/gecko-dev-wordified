@@ -2398,7 +2398,7 @@ of
 nsIContent
 #
 ifdef
-DEBUG
+MOZ_DOM_LIST
 void
 CharacterData
 :

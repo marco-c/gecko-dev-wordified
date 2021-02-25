@@ -367,7 +367,7 @@ aNextSibling
 ;
 #
 ifdef
-DEBUG
+MOZ_DOM_LIST
 virtual
 void
 List
