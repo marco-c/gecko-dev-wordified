@@ -5947,10 +5947,13 @@ nsIIOService
 >
 io
 =
-services
+components
 :
 :
-GetIOService
+IO
+:
+:
+Service
 (
 )
 ;

@@ -86,7 +86,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -304,10 +304,13 @@ ios
 mozilla
 :
 :
-services
+components
 :
 :
-GetIOService
+IO
+:
+:
+Service
 (
 )
 ;
