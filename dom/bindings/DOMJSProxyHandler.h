@@ -437,14 +437,6 @@ die
 )
 *
 /
-template
-<
-typename
-T
->
-struct
-Prefable
-;
 class
 BaseDOMProxyHandler
 :
