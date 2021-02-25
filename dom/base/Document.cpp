@@ -883,7 +883,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -105662,10 +105662,13 @@ mozIThirdPartyUtil
 >
 thirdPartyUtil
 =
-services
+components
 :
 :
-GetThirdPartyUtil
+ThirdPartyUtil
+:
+:
+Service
 (
 )
 ;
