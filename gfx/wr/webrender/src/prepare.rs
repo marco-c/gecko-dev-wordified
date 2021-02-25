@@ -3270,7 +3270,7 @@ ninepatch
 and
 to
 check
-whwther
+whether
 we
 need
 support
@@ -3288,7 +3288,7 @@ Update
 the
 template
 this
-instane
+instance
 references
 which
 may
