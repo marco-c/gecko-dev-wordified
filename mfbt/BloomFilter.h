@@ -581,7 +581,7 @@ class
 T
 >
 class
-BloomFilter
+CountingBloomFilter
 {
 /
 *
@@ -1011,7 +1011,7 @@ N
 /
 public
 :
-BloomFilter
+CountingBloomFilter
 (
 )
 {
@@ -1413,7 +1413,7 @@ T
 >
 inline
 void
-BloomFilter
+CountingBloomFilter
 <
 KeySize
 T
@@ -1441,7 +1441,7 @@ T
 >
 inline
 void
-BloomFilter
+CountingBloomFilter
 <
 KeySize
 T
@@ -1516,7 +1516,7 @@ T
 >
 MOZ_ALWAYS_INLINE
 void
-BloomFilter
+CountingBloomFilter
 <
 KeySize
 T
@@ -1557,7 +1557,7 @@ T
 >
 inline
 void
-BloomFilter
+CountingBloomFilter
 <
 KeySize
 T
@@ -1664,7 +1664,7 @@ T
 >
 MOZ_ALWAYS_INLINE
 void
-BloomFilter
+CountingBloomFilter
 <
 KeySize
 T
@@ -1704,7 +1704,7 @@ T
 >
 MOZ_ALWAYS_INLINE
 bool
-BloomFilter
+CountingBloomFilter
 <
 KeySize
 T
@@ -1752,7 +1752,7 @@ T
 >
 MOZ_ALWAYS_INLINE
 bool
-BloomFilter
+CountingBloomFilter
 <
 KeySize
 T
