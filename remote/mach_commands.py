@@ -2761,6 +2761,21 @@ default
 preferences
 .
         
+enable_webrender
+:
+          
+Boolean
+to
+indicate
+whether
+to
+enable
+WebRender
+compositor
+in
+Gecko
+.
+        
 write_results
 :
           
@@ -3025,6 +3040,28 @@ PUPPETEER_PRODUCT
 "
 firefox
 "
+            
+env
+[
+"
+MOZ_WEBRENDER
+"
+]
+=
+"
+%
+d
+"
+%
+params
+.
+get
+(
+"
+enable_webrender
+"
+False
+)
         
 command
 =
@@ -3585,6 +3622,39 @@ add_argument
         
 "
 -
+-
+enable
+-
+webrender
+"
+        
+action
+=
+"
+store_true
+"
+        
+help
+=
+"
+Enable
+the
+WebRender
+compositor
+in
+Gecko
+.
+"
+    
+)
+    
+p
+.
+add_argument
+(
+        
+"
+-
 z
 "
 "
@@ -3992,6 +4062,10 @@ ci
 False
         
 enable_fission
+=
+False
+        
+enable_webrender
 =
 False
         
@@ -4460,6 +4534,12 @@ headless
 "
 :
 headless
+            
+"
+enable_webrender
+"
+:
+enable_webrender
             
 "
 extra_prefs
