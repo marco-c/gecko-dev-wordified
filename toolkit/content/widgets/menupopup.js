@@ -542,6 +542,11 @@ menupopup
 -
 arrowscrollbox
 "
+part
+=
+"
+arrowscrollbox
+"
 exportparts
 =
 "
