@@ -2858,6 +2858,14 @@ None
 e10s
 =
 True
+        
+runFailures
+=
+False
+        
+crashAsPass
+=
+False
     
 )
 :
@@ -3035,6 +3043,30 @@ e10s
 e10s
         
 )
+        
+#
+TODO
+:
+not
+using
+runFailures
+or
+crashAsPass
+if
+we
+choose
+to
+use
+them
+        
+#
+we
+need
+to
+adjust
+status
+and
+check_for_crashes
         
 self
 .
