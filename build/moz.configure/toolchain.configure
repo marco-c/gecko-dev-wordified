@@ -6730,7 +6730,13 @@ when
 =
 target_is_linux
 )
+"
+-
+-
+enable
+-
 bootstrap
+"
 "
 MOZ_AUTOMATION
 "
