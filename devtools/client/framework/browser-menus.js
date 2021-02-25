@@ -1641,7 +1641,7 @@ doc
 getElementById
 (
 "
-menu_extensionsForDevelopers
+extensionsForDevelopers
 "
 )
 ;
