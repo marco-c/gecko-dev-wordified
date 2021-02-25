@@ -44640,6 +44640,8 @@ uint32_t
 aFocusMethod
 bool
 aNeedsFocus
+bool
+aWillShowOutline
 )
 {
 FORWARD_TO_INNER_VOID
@@ -44649,6 +44651,7 @@ SetFocusedElement
 aElement
 aFocusMethod
 aNeedsFocus
+aWillShowOutline
 )
 )
 ;
