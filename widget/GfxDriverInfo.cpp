@@ -3537,6 +3537,8 @@ APPEND_DEVICE
 0x0046
 )
 ;
+#
+endif
 /
 /
 cherryview
@@ -3560,8 +3562,6 @@ APPEND_DEVICE
 0x22b3
 )
 ;
-#
-endif
 [
 [
 fallthrough
@@ -3970,9 +3970,6 @@ APPEND_DEVICE
 0x0d2e
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 broxton
@@ -4017,8 +4014,6 @@ APPEND_DEVICE
 0x3185
 )
 ;
-#
-endif
 /
 /
 broadwell
