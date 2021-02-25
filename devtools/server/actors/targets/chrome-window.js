@@ -486,6 +486,11 @@ connection
 window
 .
 docShell
+{
+isTopLevelTarget
+:
+true
+}
 )
 ;
 }
