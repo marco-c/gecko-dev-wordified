@@ -2207,7 +2207,7 @@ resolve
 function
 toggleCache
 (
-target
+toolbox
 disabled
 )
 {
@@ -2228,6 +2228,8 @@ navigationFinished
 =
 waitForNavigation
 (
+toolbox
+.
 target
 )
 ;
@@ -2265,13 +2267,13 @@ disabled
 )
 ;
 return
-target
+toolbox
 .
-reconfigure
+targetList
+.
+updateConfiguration
 (
-{
 options
-}
 )
 .
 then
@@ -3011,7 +3013,7 @@ monitor
 await
 toggleCache
 (
-target
+toolbox
 true
 )
 ;
