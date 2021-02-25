@@ -20487,14 +20487,6 @@ audiounit_stream_stop
 /
 *
 .
-stream_reset_default_device
-=
-*
-/
-nullptr
-/
-*
-.
 stream_get_position
 =
 *

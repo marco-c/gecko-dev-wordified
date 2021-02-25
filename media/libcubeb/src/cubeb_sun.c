@@ -4141,10 +4141,6 @@ stream_stop
 =
 sun_stream_stop
 .
-stream_reset_default_device
-=
-NULL
-.
 stream_get_position
 =
 sun_stream_get_position
