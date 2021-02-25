@@ -548,7 +548,7 @@ DMDUP_VERTICAL
 NoTumble
 const
 short
-kDuplexFlipOnSideEdge
+kDuplexFlipOnLongEdge
 =
 1
 ;
@@ -561,7 +561,7 @@ DMDUP_HORIZONTAL
 Tumble
 const
 short
-kDuplexFlipOnTopEdge
+kDuplexFlipOnShortEdge
 =
 2
 ;
