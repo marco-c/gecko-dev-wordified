@@ -179,12 +179,6 @@ aarch64
 "
     
 "
-use_yasm
-"
-:
-True
-    
-"
 operating_system
 "
 :

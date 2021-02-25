@@ -226,12 +226,6 @@ x64
 "
     
 "
-use_yasm
-"
-:
-True
-    
-"
 partial_env
 "
 :
@@ -255,6 +249,16 @@ clang
 bin
 \
 \
+;
+"
+            
+"
+{
+MOZ_FETCHES_DIR
+}
+\
+\
+nasm
 ;
 "
             
