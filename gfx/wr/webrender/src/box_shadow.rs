@@ -127,10 +127,10 @@ use
 crate
 :
 :
-render_task_cache
+render_task_graph
 :
 :
-RenderTaskCacheEntryHandle
+RenderTaskId
 ;
 use
 crate
@@ -251,11 +251,11 @@ BoxShadowCacheKey
 )
 >
 pub
-cache_handle
+render_task
 :
 Option
 <
-RenderTaskCacheEntryHandle
+RenderTaskId
 >
 /
 /

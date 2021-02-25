@@ -895,7 +895,7 @@ PrimitiveInstanceKind
 NormalBorder
 {
 data_handle
-cache_handles
+render_task_ids
 :
 storage
 :

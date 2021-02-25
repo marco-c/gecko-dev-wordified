@@ -1557,7 +1557,7 @@ src_color
 ImageSourceHandle
 :
 :
-CachedRenderTask
+RenderTask
 (
 cached_task_handle
 )

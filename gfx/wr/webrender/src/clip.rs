@@ -11068,7 +11068,7 @@ blur_radius
 clip_mode
 stretch_mode_x
 stretch_mode_y
-cache_handle
+render_task
 :
 None
 cache_key
