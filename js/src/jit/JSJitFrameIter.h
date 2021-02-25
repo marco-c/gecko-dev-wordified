@@ -3531,8 +3531,9 @@ argsObj
 Value
 v
 =
-read
+maybeRead
 (
+fallback
 )
 ;
 if
