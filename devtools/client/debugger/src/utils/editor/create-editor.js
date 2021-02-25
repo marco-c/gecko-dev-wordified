@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 SourceEditor
 from
@@ -90,8 +87,6 @@ function
 createEditor
 (
 )
-:
-SourceEditor
 {
 const
 gutters
@@ -243,8 +238,6 @@ function
 createHeadlessEditor
 (
 )
-:
-SourceEditor
 {
 const
 editor

@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 containsPosition
@@ -172,15 +169,9 @@ function
 undefinedColumn
 (
 )
-:
-number
 {
 return
-(
 undefined
-:
-any
-)
 ;
 }
 function

@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 scrollList
@@ -176,11 +173,7 @@ li
 "
 )
 ;
-(
 li
-:
-any
-)
 .
 scrollIntoView
 =

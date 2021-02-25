@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 jest
 .
 mock
@@ -103,9 +100,6 @@ MockTelemetry
 }
 )
 ;
-/
-/
-FlowIgnore
 const
 Telemetry
 =

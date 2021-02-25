@@ -75,9 +75,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -164,9 +161,6 @@ fuzzaldrin
 plus
 "
 ;
-/
-/
-FlowIgnore
 lodash
 .
 throttle
@@ -194,8 +188,6 @@ shallow
 {
 const
 props
-:
-any
 =
 {
 cx
@@ -674,9 +666,6 @@ query
 displayedSources
 :
 [
-/
-/
-FlowIgnore
 {
 url
 :

@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 *
 as
@@ -273,9 +270,6 @@ from
 preview
 "
 ;
-/
-/
-FlowIgnore
 import
 {
 objectInspector

@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 const
 {
 SourceMapConsumer
@@ -97,11 +94,7 @@ function
 setAssetRootURL
 (
 assetRoot
-:
-string
 )
-:
-void
 {
 /
 /

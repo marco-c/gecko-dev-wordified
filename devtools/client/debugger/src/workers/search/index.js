@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 workerUtils
@@ -127,10 +124,6 @@ start
 .
 .
 args
-:
-any
-[
-]
 )
 =
 >
@@ -181,10 +174,6 @@ getMatches
 .
 .
 args
-:
-any
-[
-]
 )
 =
 >
@@ -216,10 +205,6 @@ findSourceMatches
 .
 .
 args
-:
-any
-[
-]
 )
 =
 >

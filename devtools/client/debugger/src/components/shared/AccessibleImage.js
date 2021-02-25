@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -87,11 +84,7 @@ css
 const
 AccessibleImage
 =
-(
 props
-:
-Object
-)
 =
 >
 {

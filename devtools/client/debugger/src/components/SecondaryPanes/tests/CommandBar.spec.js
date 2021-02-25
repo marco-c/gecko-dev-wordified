@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -226,9 +223,6 @@ fn
 }
 }
 ;
-/
-/
-FlowIgnore
 shallow
 (
 <
@@ -497,9 +491,6 @@ fn
 }
 }
 ;
-/
-/
-FlowIgnore
 shallow
 (
 <

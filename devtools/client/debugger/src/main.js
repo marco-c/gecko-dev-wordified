@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 *
 as
@@ -149,11 +146,6 @@ function
 syncBreakpoints
 (
 )
-:
-Promise
-<
-*
->
 {
 const
 breakpoints
@@ -166,15 +158,11 @@ pendingBreakpoints
 const
 breakpointValues
 =
-(
 Object
 .
 values
 (
 breakpoints
-)
-:
-any
 )
 ;
 breakpointValues
@@ -216,8 +204,6 @@ function
 syncXHRBreakpoints
 (
 )
-:
-void
 {
 asyncStore
 .
@@ -359,8 +345,6 @@ workers
 panelWorkers
 panel
 }
-:
-any
 )
 {
 verifyPrefSchema

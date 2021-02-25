@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -77,15 +74,6 @@ Badge
 css
 "
 ;
-type
-Props
-=
-{
-children
-:
-number
-}
-;
 const
 Badge
 =
@@ -93,8 +81,6 @@ Badge
 {
 children
 }
-:
-Props
 )
 =
 >

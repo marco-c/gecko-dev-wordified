@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -330,11 +327,7 @@ afterEach
 =
 >
 {
-(
 copyToTheClipboard
-:
-any
-)
 .
 mockClear
 (
@@ -3731,9 +3724,6 @@ generateDefaults
 overrides
 )
 ;
-/
-/
-FlowIgnore
 const
 component
 =

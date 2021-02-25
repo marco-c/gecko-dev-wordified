@@ -1,7 +1,4 @@
 /
-/
-flow
-/
 *
 This
 Source
@@ -204,9 +201,6 @@ xhrBreakpointsComponent
 =
 mount
 (
-/
-/
-FlowIgnore
 <
 XHRBreakpoints
 .

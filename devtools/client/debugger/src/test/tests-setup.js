@@ -58,12 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
-/
-/
-FlowIgnore
 global
 .
 Worker
@@ -89,9 +83,6 @@ from
 enzyme
 "
 ;
-/
-/
-FlowIgnore
 import
 Adapter
 from

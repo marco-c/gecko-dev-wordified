@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 const
 InlineBase64JSON
 =
@@ -108,17 +105,8 @@ function
 networkRequest
 (
 url
-:
-string
 opts
-:
-any
 )
-:
-Promise
-<
-*
->
 {
 if
 (

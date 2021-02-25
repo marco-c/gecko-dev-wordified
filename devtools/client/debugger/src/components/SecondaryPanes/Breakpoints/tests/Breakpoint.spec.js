@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -422,9 +419,6 @@ overrides
 breakpointOverrides
 )
 ;
-/
-/
-FlowIgnore
 const
 component
 =
@@ -549,11 +543,7 @@ breakpoint
 selectedSource
 frame
 :
-(
 null
-:
-any
-)
 editor
 :
 {

@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -96,9 +93,6 @@ from
 immutable
 "
 ;
-/
-/
-FlowIgnore
 const
 BreakpointsComponent
 =
@@ -111,8 +105,6 @@ generateDefaults
 (
 overrides
 )
-:
-any
 {
 const
 sourceId

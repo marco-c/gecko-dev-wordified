@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -439,7 +436,6 @@ fn
 )
 contextMenuEvent
 :
-(
 {
 preventDefault
 :
@@ -449,9 +445,6 @@ fn
 (
 )
 }
-:
-any
-)
 selectedSource
 :
 makeMockSource

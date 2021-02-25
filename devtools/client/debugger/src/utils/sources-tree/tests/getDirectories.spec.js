@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 makeMockDisplaySource
@@ -106,8 +103,6 @@ tree
 {
 const
 paths
-:
-any
 =
 getDirectories
 (

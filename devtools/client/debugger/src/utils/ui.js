@@ -59,9 +59,6 @@ MPL
 *
 /
 /
-/
-flow
-/
 *
 Checks
 to
@@ -114,8 +111,6 @@ function
 isVisible
 (
 )
-:
-boolean
 {
 const
 el
@@ -167,11 +162,7 @@ function
 getLineNumberWidth
 (
 editor
-:
-Object
 )
-:
-number
 {
 const
 {
@@ -258,11 +249,7 @@ function
 resizeBreakpointGutter
 (
 editor
-:
-Object
 )
-:
-void
 {
 const
 {
@@ -338,11 +325,7 @@ function
 resizeToggleButton
 (
 editor
-:
-Object
 )
-:
-void
 {
 const
 toggleButton

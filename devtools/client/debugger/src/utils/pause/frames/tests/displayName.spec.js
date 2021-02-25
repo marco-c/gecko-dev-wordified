@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 formatCopyName
@@ -544,11 +541,7 @@ makeMockFrame
 )
 displayName
 :
-(
 null
-:
-any
-)
 }
 ;
 expect

@@ -58,12 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
-/
-/
-FlowIgnore
 const
 {
 PrefsHelper
@@ -2118,9 +2112,6 @@ by
 the
 TargetMixin
 class
-/
-/
-FlowIgnore
 const
 ThreadUtils
 =
@@ -2152,8 +2143,6 @@ function
 resetSchemaVersion
 (
 )
-:
-void
 {
 prefs
 .
@@ -2167,8 +2156,6 @@ function
 verifyPrefSchema
 (
 )
-:
-void
 {
 if
 (

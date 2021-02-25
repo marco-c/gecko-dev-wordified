@@ -59,9 +59,6 @@ MPL
 *
 /
 /
-/
-flow
-/
 *
 eslint
 camelcase
@@ -285,11 +282,7 @@ function
 convertToJSON
 (
 buffer
-:
-ArrayBuffer
 )
-:
-any
 {
 /
 /

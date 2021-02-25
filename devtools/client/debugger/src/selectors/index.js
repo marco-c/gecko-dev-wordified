@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 export
 *
 from
@@ -405,9 +402,6 @@ from
 pause
 "
 ;
-/
-/
-FlowIgnore
 import
 {
 objectInspector

@@ -59,9 +59,6 @@ MPL
 *
 /
 /
-/
-flow
-/
 *
 *
 *
@@ -169,11 +166,7 @@ function
 formatKeyShortcut
 (
 shortcut
-:
-string
 )
-:
-string
 {
 if
 (
@@ -368,14 +361,8 @@ function
 truncateMiddleText
 (
 sourceText
-:
-string
 maxLength
-:
-number
 )
-:
-string
 {
 let
 truncatedText

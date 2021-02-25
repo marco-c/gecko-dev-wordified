@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 connect
@@ -77,9 +74,6 @@ redux
 export
 const
 connect
-:
-typeof
-reduxConnect
 =
 reduxConnect
 ;

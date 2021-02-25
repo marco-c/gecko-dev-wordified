@@ -75,9 +75,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -290,9 +287,6 @@ id
 doc
 )
 ;
-/
-/
-FlowIgnore
 const
 component
 =

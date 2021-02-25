@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -348,9 +345,6 @@ generateDefaults
 overrides
 )
 ;
-/
-/
-FlowIgnore
 const
 component
 =

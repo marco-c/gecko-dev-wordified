@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -392,8 +389,6 @@ class
 {
 const
 status
-:
-any
 =
 "
 testStatus

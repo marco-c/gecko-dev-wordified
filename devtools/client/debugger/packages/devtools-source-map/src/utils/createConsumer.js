@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 const
 {
 SourceMapConsumer
@@ -80,14 +77,8 @@ function
 createConsumer
 (
 map
-:
-any
 sourceMapUrl
-:
-any
 )
-:
-SourceMapConsumer
 {
 return
 new

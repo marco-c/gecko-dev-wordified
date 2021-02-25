@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -95,12 +92,7 @@ function
 render
 (
 why
-:
-Object
 delay
-:
-?
-number
 )
 {
 const
@@ -111,9 +103,6 @@ why
 delay
 }
 ;
-/
-/
-FlowIgnore
 const
 component
 =

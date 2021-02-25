@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 isNodeTest
@@ -78,14 +75,8 @@ function
 assert
 (
 condition
-:
-boolean
 message
-:
-string
 )
-:
-void
 {
 if
 (

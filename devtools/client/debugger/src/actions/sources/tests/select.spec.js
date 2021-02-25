@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 getSymbols
@@ -1381,7 +1378,6 @@ testSource
 const
 location
 =
-(
 {
 test
 :
@@ -1389,9 +1385,6 @@ test
 testLocation
 "
 }
-:
-any
-)
 ;
 /
 /

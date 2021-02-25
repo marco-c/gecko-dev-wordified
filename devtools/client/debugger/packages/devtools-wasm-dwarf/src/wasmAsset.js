@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 const
 fs
 =
@@ -88,11 +85,7 @@ function
 setAssetRootURL
 (
 assetRoot
-:
-string
 )
-:
-void
 {
 /
 /
@@ -107,11 +100,6 @@ function
 getDwarfToWasmData
 (
 )
-:
-Promise
-<
-ArrayBuffer
->
 {
 const
 data

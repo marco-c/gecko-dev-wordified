@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 {
 parseScript
@@ -79,13 +76,7 @@ function
 hasSyntaxError
 (
 input
-:
-string
 )
-:
-string
-|
-false
 {
 try
 {

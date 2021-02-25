@@ -67,15 +67,9 @@ fn
 {
 let
 lastArgs
-:
-any
-[
-]
 ;
 let
 lastResult
-:
-any
 ;
 const
 memoized

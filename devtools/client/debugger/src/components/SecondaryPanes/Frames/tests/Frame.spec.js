@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -153,8 +150,6 @@ frameProperties
 (
 frame
 selectedFrame
-:
-any
 overrides
 =
 {

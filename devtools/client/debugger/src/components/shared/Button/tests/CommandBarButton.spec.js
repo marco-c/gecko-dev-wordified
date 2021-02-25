@@ -58,9 +58,6 @@ MPL
 .
 *
 /
-/
-/
-flow
 import
 React
 from
@@ -119,12 +116,8 @@ CommandBarButton
 children
 =
 {
-(
 [
 ]
-:
-any
-)
 }
 className
 =
@@ -179,11 +172,7 @@ CommandBarButton
 children
 =
 {
-(
 children
-:
-any
-)
 }
 className
 =
