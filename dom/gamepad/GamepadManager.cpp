@@ -1236,7 +1236,6 @@ mGamepads
 Contains
 (
 aHandle
-nullptr
 )
 )
 ;
