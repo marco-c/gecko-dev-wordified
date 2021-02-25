@@ -40810,7 +40810,7 @@ WrapNotNull
 (
 mFileInfoEntries
 .
-LookupOrAddFromFactory
+GetOrInsertWith
 (
 id
 [
@@ -40832,6 +40832,10 @@ FileInfoPtr
 )
 ;
 }
+)
+.
+get
+(
 )
 )
 ;
