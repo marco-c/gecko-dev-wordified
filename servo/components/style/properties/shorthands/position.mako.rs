@@ -935,7 +935,7 @@ engines
 "
 gecko
 "
-alias
+aliases
 =
 "
 grid

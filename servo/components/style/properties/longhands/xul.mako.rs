@@ -152,7 +152,7 @@ animation_value_type
 "
 discrete
 "
-alias
+aliases
 =
 "
 -
@@ -231,7 +231,7 @@ animation_value_type
 "
 discrete
 "
-alias
+aliases
 =
 "
 -
@@ -314,7 +314,7 @@ animation_value_type
 "
 NonNegativeNumber
 "
-alias
+aliases
 =
 "
 -
@@ -407,7 +407,7 @@ animation_value_type
 "
 discrete
 "
-alias
+aliases
 =
 "
 -
@@ -488,7 +488,7 @@ animation_value_type
 "
 discrete
 "
-alias
+aliases
 =
 "
 -
@@ -603,7 +603,7 @@ parse_method
 "
 parse_non_negative
 "
-alias
+aliases
 =
 "
 -

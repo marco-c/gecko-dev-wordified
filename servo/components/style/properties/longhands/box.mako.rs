@@ -3535,7 +3535,7 @@ engines
 "
 gecko
 "
-alias
+aliases
 =
 "
 page
@@ -4199,7 +4199,7 @@ engines
 "
 gecko
 "
-alias
+aliases
 =
 "
 -

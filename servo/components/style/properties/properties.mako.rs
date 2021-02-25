@@ -13806,7 +13806,7 @@ alias
 in
 property
 .
-alias
+aliases
 :
 "
 {
@@ -29636,7 +29636,7 @@ property
 +
 property
 .
-alias
+aliases
 :
 %
 if
