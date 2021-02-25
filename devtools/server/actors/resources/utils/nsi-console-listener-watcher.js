@@ -444,6 +444,7 @@ shouldHandleMessage
 (
 targetActor
 message
+true
 )
 )
 {
