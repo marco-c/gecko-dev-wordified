@@ -10255,7 +10255,7 @@ panel
 -
 header
 >
-label
+h1
 >
 span
 "
@@ -10445,16 +10445,16 @@ blur
 )
 ;
 let
-label
+h1
 =
 this
 .
 document
 .
-createXULElement
+createElement
 (
 "
-label
+h1
 "
 )
 ;
@@ -10478,7 +10478,7 @@ textContent
 =
 value
 ;
-label
+h1
 .
 appendChild
 (
@@ -10490,7 +10490,7 @@ header
 append
 (
 backButton
-label
+h1
 )
 ;
 this

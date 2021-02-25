@@ -344,7 +344,7 @@ equal
 (
 bookmarkPanelTitle
 .
-value
+textContent
 gNavigatorBundle
 .
 getString
@@ -410,7 +410,7 @@ equal
 (
 bookmarkPanelTitle
 .
-value
+textContent
 gNavigatorBundle
 .
 getString
