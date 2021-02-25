@@ -5718,7 +5718,7 @@ MOZ_ASSERT
 sSpoofingKeyboardCodes
 -
 >
-Lookup
+Contains
 (
 key
 )
