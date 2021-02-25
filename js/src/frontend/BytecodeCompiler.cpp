@@ -620,9 +620,6 @@ static
 bool
 EmplaceEmitter
 (
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -713,9 +710,6 @@ allocScope
 CompilationInput
 &
 input
-CompilationStencil
-&
-stencil
 SourceText
 <
 Unit
@@ -733,9 +727,6 @@ compilationState_
 cx
 allocScope
 input
-stencil
-.
-alloc
 )
 {
 MOZ_ASSERT
@@ -806,23 +797,17 @@ createSourceAndParser
 JSContext
 *
 cx
-CompilationStencil
-&
-stencil
 )
 ;
 void
 assertSourceAndParserCreated
 (
-CompilationStencil
-&
-stencil
 )
 const
 {
 MOZ_ASSERT
 (
-stencil
+compilationState_
 .
 source
 !
@@ -843,14 +828,10 @@ isSome
 void
 assertSourceParserAndScriptCreated
 (
-CompilationStencil
-&
-stencil
 )
 {
 assertSourceAndParserCreated
 (
-stencil
 )
 ;
 }
@@ -862,9 +843,6 @@ nodiscard
 bool
 emplaceEmitter
 (
-CompilationStencil
-&
-stencil
 Maybe
 <
 BytecodeEmitter
@@ -879,7 +857,6 @@ sharedContext
 return
 EmplaceEmitter
 (
-stencil
 compilationState_
 emitter
 EitherParser
@@ -1030,9 +1007,6 @@ allocScope
 CompilationInput
 &
 input
-CompilationStencil
-&
-stencil
 SourceText
 <
 Unit
@@ -1046,7 +1020,6 @@ Base
 cx
 allocScope
 input
-stencil
 sourceBuffer
 )
 {
@@ -1468,8 +1441,6 @@ compiler
 cx
 allocScope
 input
-*
-stencil
 srcBuf
 )
 ;
@@ -1496,8 +1467,6 @@ compiler
 createSourceAndParser
 (
 cx
-*
-stencil
 )
 )
 {
@@ -2180,7 +2149,6 @@ input
 get
 (
 )
-stencil
 srcBuf
 )
 ;
@@ -2212,7 +2180,6 @@ compiler
 createSourceAndParser
 (
 cx
-stencil
 )
 )
 {
@@ -2468,9 +2435,6 @@ allocScope
 CompilationInput
 &
 input
-CompilationStencil
-&
-stencil
 SourceText
 <
 Unit
@@ -2484,7 +2448,6 @@ Base
 cx
 allocScope
 input
-stencil
 sourceBuffer
 )
 {
@@ -2592,9 +2555,6 @@ allocScope
 CompilationInput
 &
 input
-CompilationStencil
-&
-stencil
 SourceText
 <
 Unit
@@ -2608,7 +2568,6 @@ Base
 cx
 allocScope
 input
-stencil
 sourceBuffer
 )
 {
@@ -2632,9 +2591,6 @@ parse
 JSContext
 *
 cx
-CompilationStencil
-&
-stencil
 FunctionSyntaxKind
 syntaxKind
 GeneratorKind
@@ -3024,9 +2980,6 @@ createSourceAndParser
 JSContext
 *
 cx
-CompilationStencil
-&
-stencil
 )
 {
 const
@@ -3043,7 +2996,7 @@ options
 if
 (
 !
-stencil
+compilationState_
 .
 source
 -
@@ -3091,7 +3044,6 @@ foldConstants
 *
 /
 false
-stencil
 compilationState_
 /
 *
@@ -3141,7 +3093,6 @@ foldConstants
 *
 /
 true
-stencil
 compilationState_
 syntaxParser
 .
@@ -3156,7 +3107,7 @@ parser
 >
 ss
 =
-stencil
+compilationState_
 .
 source
 .
@@ -3177,9 +3128,6 @@ static
 bool
 EmplaceEmitter
 (
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -3234,7 +3182,6 @@ parent
 nullptr
 parser
 sc
-stencil
 compilationState
 emitterMode
 )
@@ -3532,7 +3479,6 @@ sc
 {
 assertSourceParserAndScriptCreated
 (
-stencil
 )
 ;
 TokenStreamPosition
@@ -3793,7 +3739,6 @@ if
 !
 emplaceEmitter
 (
-stencil
 emitter
 sc
 )
@@ -3902,7 +3847,6 @@ if
 createSourceAndParser
 (
 cx
-stencil
 )
 )
 {
@@ -4069,7 +4013,6 @@ if
 !
 emplaceEmitter
 (
-stencil
 emitter
 &
 modulesc
@@ -4220,9 +4163,6 @@ parse
 JSContext
 *
 cx
-CompilationStencil
-&
-stencil
 FunctionSyntaxKind
 syntaxKind
 GeneratorKind
@@ -4240,7 +4180,6 @@ parameterListEnd
 {
 assertSourceAndParserCreated
 (
-stencil
 )
 ;
 TokenStreamPosition
@@ -4473,7 +4412,6 @@ if
 !
 emplaceEmitter
 (
-stencil
 emitter
 funbox
 )
@@ -4928,8 +4866,6 @@ compiler
 cx
 allocScope
 input
-*
-stencil
 srcBuf
 )
 ;
@@ -5379,16 +5315,6 @@ compartment
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-stencil
-.
-isInitialStencil
-(
-)
-)
-;
 /
 /
 We
@@ -5497,9 +5423,25 @@ compilationState
 cx
 allocScope
 input
-stencil
+)
+;
+compilationState
 .
-alloc
+setFunctionKey
+(
+input
+.
+lazy
+)
+;
+MOZ_ASSERT
+(
+!
+compilationState
+.
+isInitialStencil
+(
+)
 )
 ;
 if
@@ -5538,7 +5480,6 @@ foldConstants
 *
 /
 true
-stencil
 compilationState
 /
 *
@@ -5651,7 +5592,6 @@ pn
 funbox
 (
 )
-stencil
 compilationState
 BytecodeEmitter
 :
@@ -6201,7 +6141,6 @@ input
 get
 (
 )
-stencil
 srcBuf
 )
 ;
@@ -6229,7 +6168,6 @@ compiler
 createSourceAndParser
 (
 cx
-stencil
 )
 )
 {
@@ -6246,7 +6184,6 @@ compiler
 parse
 (
 cx
-stencil
 syntaxKind
 generatorKind
 asyncKind

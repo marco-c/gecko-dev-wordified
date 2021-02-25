@@ -1040,9 +1040,6 @@ TaggedParserAtomIndex
 >
 &
 allAtoms
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1052,7 +1049,7 @@ LifoAlloc
 &
 alloc
 =
-stencil
+compilationState
 .
 alloc
 ;
@@ -1232,9 +1229,6 @@ ScopeStencil
 createForGlobalScope
 (
 cx
-stencil
-.
-alloc
 compilationState
 ScopeKind
 :
@@ -1376,9 +1370,6 @@ ScopeStencil
 createForVarScope
 (
 cx
-stencil
-.
-alloc
 compilationState
 ScopeKind
 :
@@ -1542,9 +1533,6 @@ ScopeStencil
 createForLexicalScope
 (
 cx
-stencil
-.
-alloc
 compilationState
 ScopeKind
 :
@@ -1757,9 +1745,6 @@ ScopeStencil
 createForFunctionScope
 (
 cx
-stencil
-.
-alloc
 compilationState
 data
 hasParameterExprs
@@ -1841,9 +1826,6 @@ const
 SmooshResult
 &
 result
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -2553,9 +2535,6 @@ const
 SmooshScriptStencil
 &
 smooshScript
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -2906,9 +2885,6 @@ TaggedParserAtomIndex
 >
 &
 allAtoms
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -3171,7 +3147,7 @@ false
 if
 (
 !
-stencil
+compilationState
 .
 sharedData
 .
@@ -3368,7 +3344,6 @@ ConvertGCThings
 cx
 result
 smooshScript
-stencil
 compilationState
 allAtoms
 scriptIndex
@@ -3846,10 +3821,6 @@ compilationState
 cx
 allocScope
 input
-stencil
--
->
-alloc
 )
 ;
 if
@@ -3876,8 +3847,6 @@ ConvertScopeStencil
 cx
 result
 allAtoms
-*
-stencil
 compilationState
 )
 )
@@ -3893,8 +3862,6 @@ ConvertRegExpData
 (
 cx
 result
-*
-stencil
 compilationState
 )
 )
@@ -4131,13 +4098,11 @@ nonLazyFunctionCount
 if
 (
 !
-stencil
--
->
-prepareStorageFor
+compilationState
+.
+prepareSharedDataStorage
 (
 cx
-compilationState
 )
 )
 {
@@ -4177,8 +4142,6 @@ data
 i
 ]
 allAtoms
-*
-stencil
 compilationState
 ScriptIndex
 (

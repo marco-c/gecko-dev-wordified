@@ -2803,7 +2803,7 @@ parserAtoms
 CompilationAtomCache
 &
 atomCache
-BaseCompilationStencil
+ExtensibleCompilationStencil
 &
 stencil
 )

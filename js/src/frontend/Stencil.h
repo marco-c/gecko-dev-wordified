@@ -2380,9 +2380,6 @@ createForFunctionScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 CompilationState
 &
 compilationState
@@ -2420,9 +2417,6 @@ createForLexicalScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 CompilationState
 &
 compilationState
@@ -2456,9 +2450,6 @@ createForVarScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 CompilationState
 &
 compilationState
@@ -2494,9 +2485,6 @@ createForGlobalScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 CompilationState
 &
 compilationState
@@ -2520,9 +2508,6 @@ createForEvalScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 CompilationState
 &
 compilationState
@@ -2554,9 +2539,6 @@ createForModuleScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 CompilationState
 &
 compilationState
@@ -2586,9 +2568,6 @@ createForWithScope
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 CompilationState
 &
 compilationState

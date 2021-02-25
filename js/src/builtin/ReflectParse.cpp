@@ -21211,7 +21211,7 @@ atomCache
 parser
 -
 >
-getCompilationStencil
+getCompilationState
 (
 )
 )
@@ -24364,9 +24364,6 @@ input
 get
 (
 )
-stencil
-.
-alloc
 )
 ;
 if
@@ -24414,7 +24411,6 @@ foldConstants
 *
 /
 false
-stencil
 compilationState
 /
 *

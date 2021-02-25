@@ -1398,19 +1398,6 @@ return
 false
 ;
 }
-frontend
-:
-:
-CompilationStencil
-stencil
-(
-input
-.
-get
-(
-)
-)
-;
 LifoAllocScope
 allocScope
 (
@@ -1436,9 +1423,6 @@ input
 get
 (
 )
-stencil
-.
-alloc
 )
 ;
 if
@@ -1487,7 +1471,6 @@ foldConstants
 *
 /
 true
-stencil
 compilationState
 /
 *

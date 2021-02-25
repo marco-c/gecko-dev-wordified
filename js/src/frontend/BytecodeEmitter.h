@@ -909,10 +909,6 @@ parser
 =
 nullptr
 ;
-CompilationStencil
-&
-stencil
-;
 CompilationState
 &
 compilationState
@@ -1328,9 +1324,6 @@ parent
 SharedContext
 *
 sc
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1423,9 +1416,6 @@ handle
 SharedContext
 *
 sc
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1447,9 +1437,6 @@ parser
 SharedContext
 *
 sc
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1479,9 +1466,6 @@ parser
 SharedContext
 *
 sc
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1499,7 +1483,6 @@ EitherParser
 parser
 )
 sc
-stencil
 compilationState
 emitterMode
 )

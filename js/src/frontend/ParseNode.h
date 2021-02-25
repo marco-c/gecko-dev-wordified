@@ -446,7 +446,7 @@ class
 ParserAtomsTable
 ;
 struct
-BaseCompilationStencil
+ExtensibleCompilationStencil
 ;
 class
 ParserSharedBase
@@ -11679,7 +11679,7 @@ parserAtoms
 CompilationAtomCache
 &
 atomCache
-BaseCompilationStencil
+ExtensibleCompilationStencil
 &
 stencil
 )

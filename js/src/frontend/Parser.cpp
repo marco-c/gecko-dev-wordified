@@ -1164,9 +1164,6 @@ ParserSharedBase
 JSContext
 *
 cx
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1187,10 +1184,6 @@ allocScope
 alloc
 (
 )
-)
-stencil_
-(
-stencil
 )
 compilationState_
 (
@@ -1288,9 +1281,6 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1299,7 +1289,6 @@ compilationState
 ParserSharedBase
 (
 cx
-stencil
 compilationState
 ParserSharedBase
 :
@@ -1407,9 +1396,6 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1423,7 +1409,6 @@ ParserBase
 cx
 options
 foldConstants
-stencil
 compilationState
 )
 handler_
@@ -1449,7 +1434,7 @@ internalSyntaxParser
 {
 MOZ_ASSERT
 (
-stencil
+compilationState
 .
 isInitialStencil
 (
@@ -1496,9 +1481,6 @@ size_t
 length
 bool
 foldConstants
-CompilationStencil
-&
-stencil
 CompilationState
 &
 compilationState
@@ -1512,7 +1494,6 @@ Base
 cx
 options
 foldConstants
-stencil
 compilationState
 syntaxParser
 )
@@ -1846,7 +1827,7 @@ isInitialStencil
 this
 -
 >
-stencil_
+compilationState_
 .
 isInitialStencil
 (
@@ -9340,7 +9321,7 @@ if
 this
 -
 >
-stencil_
+compilationState_
 .
 isInitialStencil
 (
@@ -10594,7 +10575,7 @@ checkOptionsCalled_
 this
 -
 >
-stencil_
+compilationState_
 .
 moduleMetadata
 =
@@ -10611,7 +10592,7 @@ if
 this
 -
 >
-stencil_
+compilationState_
 .
 moduleMetadata
 )
@@ -10921,7 +10902,7 @@ noteAsync
 this
 -
 >
-stencil_
+compilationState_
 .
 moduleMetadata
 )
@@ -10938,7 +10919,7 @@ tables
 and
 store
 in
-CompilationStencil
+CompilationState
 .
 if
 (
@@ -10954,7 +10935,7 @@ buildTables
 this
 -
 >
-stencil_
+compilationState_
 .
 moduleMetadata
 )
@@ -10988,7 +10969,7 @@ moduleMetadata
 this
 -
 >
-stencil_
+compilationState_
 .
 moduleMetadata
 ;
@@ -12110,7 +12091,7 @@ if
 this
 -
 >
-stencil_
+compilationState_
 .
 isInitialStencil
 (
@@ -54340,7 +54321,7 @@ We
 do
 not
 call
-CompilationStencil
+CompilationState
 :
 :
 rewind
@@ -62077,7 +62058,7 @@ cleaned
 up
 by
 the
-CompilationStencil
+CompilationState
 destructor
 .
 return
