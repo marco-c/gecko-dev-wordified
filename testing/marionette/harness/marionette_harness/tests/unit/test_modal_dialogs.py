@@ -1263,6 +1263,12 @@ accept
 (
 )
         
+self
+.
+wait_for_alert
+(
+)
+        
 alert2
 =
 self
