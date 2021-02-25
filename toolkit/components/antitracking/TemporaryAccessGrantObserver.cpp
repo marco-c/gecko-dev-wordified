@@ -277,7 +277,7 @@ Unused
 sObservers
 -
 >
-LookupForAdd
+GetOrInsertWith
 (
 std
 :
@@ -296,10 +296,6 @@ nsCString
 aType
 )
 )
-)
-.
-OrInsert
-(
 [
 &
 ]
@@ -307,8 +303,10 @@ OrInsert
 )
 -
 >
+nsCOMPtr
+<
 nsITimer
-*
+>
 {
 /
 /
