@@ -405,6 +405,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_gfx
 .
 h

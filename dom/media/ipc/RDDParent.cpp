@@ -1811,7 +1811,7 @@ GetCurrentSerialEventTarget
 )
 __func__
 [
-this
+&
 ]
 (
 )

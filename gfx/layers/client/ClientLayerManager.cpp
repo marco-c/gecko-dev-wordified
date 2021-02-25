@@ -169,6 +169,15 @@ include
 "
 mozilla
 /
+ProfilerMarkers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_apz
 .
 h

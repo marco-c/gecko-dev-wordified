@@ -139,6 +139,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
