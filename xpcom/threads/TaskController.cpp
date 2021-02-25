@@ -3989,6 +3989,9 @@ MutexAutoLock
 aProofOfLock
 )
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
 nsCOMPtr
 <
 nsIThread
@@ -4020,6 +4023,11 @@ get
 )
 )
 ;
+if
+(
+mainThread
+)
+{
 mainThread
 -
 >
@@ -4033,6 +4041,9 @@ TimeStamp
 )
 )
 ;
+}
+#
+endif
 uint32_t
 totalSuspended
 =
@@ -4592,6 +4603,11 @@ ifdef
 MOZ_GECKO_PROFILER
 if
 (
+mainThread
+)
+{
+if
+(
 task
 -
 >
@@ -4636,6 +4652,7 @@ mInsertionTime
 now
 )
 ;
+}
 }
 #
 endif
