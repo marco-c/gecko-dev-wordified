@@ -3054,9 +3054,8 @@ helper
 for
 gViewController
 .
-replaceView
+resetView
 (
-defaultViewId
 )
 .
 This
