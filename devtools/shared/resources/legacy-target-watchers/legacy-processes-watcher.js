@@ -87,14 +87,6 @@ rootFront
 ;
 this
 .
-target
-=
-targetList
-.
-targetFront
-;
-this
-.
 onTargetAvailable
 =
 onTargetAvailable

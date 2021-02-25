@@ -3740,6 +3740,8 @@ new
 ToolboxHostManager
 (
 target
+.
+descriptorFront
 hostType
 hostOptions
 )

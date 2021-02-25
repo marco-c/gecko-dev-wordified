@@ -105,13 +105,6 @@ getTargetForTab
 tab
 )
 ;
-const
-{
-client
-}
-=
-target
-;
 /
 /
 Avoid
@@ -177,10 +170,9 @@ targetList
 new
 TargetList
 (
-client
-.
-mainRoot
 target
+.
+descriptorFront
 )
 ;
 await

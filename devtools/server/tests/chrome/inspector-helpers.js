@@ -867,6 +867,7 @@ ex
 ;
 }
 }
+async
 function
 createResourceWatcher
 (
@@ -881,10 +882,14 @@ TargetList
 (
 target
 .
-client
+descriptorFront
+)
+;
+await
+targetList
 .
-mainRoot
-target
+startListening
+(
 )
 ;
 return
