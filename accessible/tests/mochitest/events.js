@@ -3657,7 +3657,7 @@ an
 error
 if
 we
-hanlded
+handled
 not
 expected
 event
@@ -8412,7 +8412,7 @@ return
 open
 combobox
 (
-atl
+alt
 +
 down
 arrow
