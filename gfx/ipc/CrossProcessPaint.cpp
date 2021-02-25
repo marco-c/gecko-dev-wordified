@@ -3124,7 +3124,7 @@ fragment
 =
 mReceivedFragments
 .
-GetAndRemove
+Extract
 (
 aTabId
 )

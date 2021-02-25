@@ -2317,7 +2317,7 @@ query
 =
 mPendingQueries
 .
-GetAndRemove
+Extract
 (
 aMetadata
 .

@@ -661,7 +661,7 @@ const
 ;
 nsScriptObjectTracer
 *
-GetAndRemove
+Extract
 (
 void
 *

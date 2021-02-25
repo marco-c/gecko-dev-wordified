@@ -4157,7 +4157,7 @@ nsScriptObjectTracer
 JSHolderMap
 :
 :
-GetAndRemove
+Extract
 (
 void
 *
@@ -10026,7 +10026,7 @@ tracer
 =
 mJSHolders
 .
-GetAndRemove
+Extract
 (
 aHolder
 )

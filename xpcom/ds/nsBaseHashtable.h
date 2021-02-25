@@ -1747,7 +1747,7 @@ single
 argument
 Remove
 or
-GetAndRemove
+Extract
 with
 non
 -
@@ -2054,7 +2054,7 @@ Maybe
 <
 DataType
 >
-GetAndRemove
+Extract
 (
 KeyType
 aKey

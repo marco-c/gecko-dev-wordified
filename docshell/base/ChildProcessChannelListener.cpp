@@ -177,7 +177,7 @@ args
 =
 mChannelArgs
 .
-GetAndRemove
+Extract
 (
 aIdentifier
 )
@@ -269,7 +269,7 @@ callback
 =
 mCallbacks
 .
-GetAndRemove
+Extract
 (
 aIdentifier
 )

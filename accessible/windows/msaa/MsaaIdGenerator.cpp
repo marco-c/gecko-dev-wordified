@@ -1450,7 +1450,7 @@ mapping
 sContentParentIdMap
 -
 >
-GetAndRemove
+Extract
 (
 aIPCContentProcessID
 )
