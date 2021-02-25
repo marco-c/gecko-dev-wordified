@@ -12124,7 +12124,7 @@ gRemoteControl
 "
 devtools
 -
-listening
+socket
 "
 )
 ;
@@ -16076,7 +16076,7 @@ gRemoteControl
 "
 devtools
 -
-listening
+socket
 "
 )
 ;
