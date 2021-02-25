@@ -168,10 +168,6 @@ libXt
 -
 devel
 "
-        
-"
-yasm
-"
     
 ]
     

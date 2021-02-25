@@ -226,10 +226,6 @@ pulseaudio
 "
 v4l_compat
 "
-            
-"
-yasm
-"
         
 ]
         

@@ -252,10 +252,6 @@ xvfb
 "
         
 "
-yasm
-"
-        
-"
 gst
 -
 libav

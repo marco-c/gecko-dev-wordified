@@ -296,14 +296,6 @@ newuse
 "
 dev
 -
-lang
-/
-yasm
-"
-                
-"
-dev
--
 libs
 /
 dbus

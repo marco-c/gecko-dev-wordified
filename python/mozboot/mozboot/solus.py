@@ -252,10 +252,6 @@ server
 -
 xvfb
 "
-        
-"
-yasm
-"
     
 ]
     
