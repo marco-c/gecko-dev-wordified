@@ -4807,10 +4807,11 @@ parent
 proxy
 -
 >
-Parent
+RemoteParent
 (
 )
 )
+{
 return
 parent
 -
@@ -4820,6 +4821,7 @@ IndexOfEmbeddedChild
 proxy
 )
 ;
+}
 if
 (
 proxy
@@ -4829,9 +4831,11 @@ OuterDocOfRemoteBrowser
 (
 )
 )
+{
 return
 0
 ;
+}
 return
 -
 1

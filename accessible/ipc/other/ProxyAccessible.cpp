@@ -4668,7 +4668,7 @@ ProxyAccessible
 *
 child
 =
-FirstChild
+RemoteFirstChild
 (
 )
 ;
@@ -4955,7 +4955,7 @@ childDoc
 target
 -
 >
-ChildAt
+RemoteChildAt
 (
 0
 )

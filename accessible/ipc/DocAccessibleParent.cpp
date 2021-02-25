@@ -699,7 +699,7 @@ target
 parent
 -
 >
-ChildAt
+RemoteChildAt
 (
 newChildIdx
 )
@@ -1325,7 +1325,7 @@ parent
 root
 -
 >
-Parent
+RemoteParent
 (
 )
 ;
@@ -1388,7 +1388,7 @@ next
 root
 -
 >
-NextSibling
+RemoteNextSibling
 (
 )
 ;
@@ -1412,7 +1412,7 @@ prev
 root
 -
 >
-PrevSibling
+RemotePrevSibling
 (
 )
 ;
@@ -3731,7 +3731,7 @@ ChildrenCount
 outerDoc
 -
 >
-ChildAt
+RemoteChildAt
 (
 0
 )
@@ -3781,7 +3781,7 @@ MOZ_ASSERT
 outerDoc
 -
 >
-ChildAt
+RemoteChildAt
 (
 0
 )
@@ -3795,7 +3795,7 @@ AsDoc
 outerDoc
 -
 >
-ChildAt
+RemoteChildAt
 (
 0
 )

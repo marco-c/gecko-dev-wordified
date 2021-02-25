@@ -391,7 +391,7 @@ ToXPC
 proxy
 -
 >
-NextSibling
+RemoteNextSibling
 (
 )
 )
@@ -510,7 +510,7 @@ ToXPC
 proxy
 -
 >
-PrevSibling
+RemotePrevSibling
 (
 )
 )

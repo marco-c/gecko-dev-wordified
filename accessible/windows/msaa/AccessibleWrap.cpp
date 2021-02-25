@@ -5705,7 +5705,7 @@ Proxy
 )
 -
 >
-FirstChild
+RemoteFirstChild
 (
 )
 )
@@ -5767,7 +5767,7 @@ Proxy
 )
 -
 >
-LastChild
+RemoteLastChild
 (
 )
 )
@@ -5812,7 +5812,7 @@ Proxy
 )
 -
 >
-NextSibling
+RemoteNextSibling
 (
 )
 )
@@ -5839,7 +5839,7 @@ Proxy
 )
 -
 >
-PrevSibling
+RemotePrevSibling
 (
 )
 )

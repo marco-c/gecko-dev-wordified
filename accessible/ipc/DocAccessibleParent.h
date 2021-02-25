@@ -1213,7 +1213,7 @@ parent
 aChildDoc
 -
 >
-Parent
+RemoteParent
 (
 )
 ;
@@ -1230,7 +1230,7 @@ parent
 aChildDoc
 -
 >
-Parent
+RemoteParent
 (
 )
 -
