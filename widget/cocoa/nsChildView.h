@@ -2820,7 +2820,10 @@ LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
-uint32_t
+nsIWidget
+:
+:
+Modifiers
 aModifierFlags
 nsIObserver
 *
@@ -2845,7 +2848,13 @@ SynthesizeNativeMouseEvent
 (
 aPoint
 NSEventTypeMouseMoved
-0
+nsIWidget
+:
+:
+Modifiers
+:
+:
+NO_MODIFIERS
 aObserver
 )
 ;
