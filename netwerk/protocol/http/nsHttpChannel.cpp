@@ -31555,10 +31555,13 @@ nsIStreamTransportService
 >
 sts
 (
-services
+components
 :
 :
-GetStreamTransportService
+StreamTransport
+:
+:
+Service
 (
 )
 )
