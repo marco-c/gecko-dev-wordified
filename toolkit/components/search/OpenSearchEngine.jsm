@@ -831,6 +831,16 @@ SearchUtils
 LoadListener
 (
 chan
+/
+(
+^
+text
+\
+/
+|
+xml
+)
+/
 this
 .
 _onLoad
