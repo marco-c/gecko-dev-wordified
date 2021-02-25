@@ -8851,6 +8851,15 @@ surface
 .
 rect
 )
+&
+&
+transform_kind
+=
+=
+TransformedRectKind
+:
+:
+AxisAligned
 ;
 match
 raster_config
