@@ -1900,13 +1900,6 @@ dc
 )
 ;
 bool
-WidgetTypePrefersSoftwareWebRender
-(
-)
-const
-override
-;
-bool
 WidgetTypeSupportsAcceleration
 (
 )
