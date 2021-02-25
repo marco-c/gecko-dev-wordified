@@ -3581,7 +3581,7 @@ a
 module
 compile
 .
-UniquePtr
+RefPtr
 <
 StencilModuleMetadata
 >
@@ -4280,7 +4280,7 @@ SystemAllocPolicy
 >
 objLiteralData
 ;
-UniquePtr
+RefPtr
 <
 StencilModuleMetadata
 >
