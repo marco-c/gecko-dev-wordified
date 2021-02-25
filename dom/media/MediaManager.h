@@ -1841,8 +1841,9 @@ MgrPromise
 >
 EnumerateDevicesImpl
 (
-uint64_t
-aWindowId
+nsPIDOMWindowInner
+*
+aWindow
 dom
 :
 :
