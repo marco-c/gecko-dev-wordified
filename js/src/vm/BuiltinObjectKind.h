@@ -216,10 +216,10 @@ Built
 -
 in
 Intl
-constructors
+prototypes
 .
-DateTimeFormat
-NumberFormat
+DateTimeFormatPrototype
+NumberFormatPrototype
 /
 /
 Invalid
