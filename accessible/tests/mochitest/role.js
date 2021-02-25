@@ -732,6 +732,13 @@ nsIAccessibleRole
 ROLE_MENUPOPUP
 ;
 const
+ROLE_METER
+=
+nsIAccessibleRole
+.
+ROLE_METER
+;
+const
 ROLE_NAVIGATION
 =
 nsIAccessibleRole
