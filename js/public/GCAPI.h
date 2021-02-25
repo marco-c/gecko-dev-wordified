@@ -2109,7 +2109,7 @@ milliseconds
 *
 Default
 :
-2000
+5000
 *
 Pref
 :
