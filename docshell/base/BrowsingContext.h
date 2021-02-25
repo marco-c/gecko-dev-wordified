@@ -1755,6 +1755,13 @@ GetLog
 (
 )
 ;
+static
+LogModule
+*
+GetSyncLog
+(
+)
+;
 /
 /
 Look
@@ -6223,6 +6230,14 @@ uint64_t
 aEpoch
 )
 ;
+using
+CanSetResult
+=
+syncedcontext
+:
+:
+CanSetResult
+;
 /
 /
 Ensure
@@ -6576,7 +6591,7 @@ ContentParent
 aSource
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
