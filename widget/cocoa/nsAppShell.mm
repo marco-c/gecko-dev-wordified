@@ -1024,6 +1024,9 @@ nsObjCExceptionLog
 aException
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 MOZ_CRASH
 (
 "
@@ -1041,6 +1044,8 @@ reportException
 "
 )
 ;
+#
+endif
 }
 -
 (
