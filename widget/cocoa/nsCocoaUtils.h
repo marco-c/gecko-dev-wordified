@@ -341,13 +341,14 @@ nsAutoRetainCocoaObject
 (
 )
 {
-NS_OBJC_TRY_ABORT
-(
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mObject
 release
 ]
-)
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 private
