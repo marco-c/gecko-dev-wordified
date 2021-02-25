@@ -347,7 +347,10 @@ rs
 JS
 :
 :
-TranscodeResult_Ok
+TranscodeResult
+:
+:
+Ok
 )
 {
 return
@@ -388,7 +391,10 @@ rs
 JS
 :
 :
-TranscodeResult_Ok
+TranscodeResult
+:
+:
+Ok
 )
 {
 return

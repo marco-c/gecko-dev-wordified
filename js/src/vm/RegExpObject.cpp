@@ -6411,7 +6411,10 @@ fail
 JS
 :
 :
-TranscodeResult_Throw
+TranscodeResult
+:
+:
+Throw
 )
 ;
 }

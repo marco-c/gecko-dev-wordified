@@ -955,7 +955,10 @@ res
 JS
 :
 :
-TranscodeResult_Ok
+TranscodeResult
+:
+:
+Ok
 )
 ;
 CHECK
@@ -1162,7 +1165,10 @@ res
 JS
 :
 :
-TranscodeResult_Ok
+TranscodeResult
+:
+:
+Ok
 )
 ;
 /

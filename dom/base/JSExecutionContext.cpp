@@ -1310,7 +1310,10 @@ tr
 JS
 :
 :
-TranscodeResult_Failure_BadBuildId
+TranscodeResult
+:
+:
+Failure_BadBuildId
 &
 &
 tr
@@ -1319,7 +1322,10 @@ tr
 JS
 :
 :
-TranscodeResult_Failure_WrongCompileOption
+TranscodeResult
+:
+:
+Failure_WrongCompileOption
 )
 ;
 if
@@ -1330,7 +1336,10 @@ tr
 JS
 :
 :
-TranscodeResult_Ok
+TranscodeResult
+:
+:
+Ok
 )
 {
 mSkip
