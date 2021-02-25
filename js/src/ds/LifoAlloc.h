@@ -2664,6 +2664,7 @@ chunk
 bool
 contains
 (
+const
 void
 *
 ptr
@@ -5844,6 +5845,7 @@ DEBUG
 bool
 contains
 (
+const
 void
 *
 ptr
