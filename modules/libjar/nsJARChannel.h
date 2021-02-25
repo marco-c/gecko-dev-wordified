@@ -452,7 +452,11 @@ mSpec
 bool
 mOpened
 ;
+Atomic
+<
 bool
+ReleaseAcquire
+>
 mCanceled
 ;
 bool
@@ -532,7 +536,11 @@ mContentLength
 uint32_t
 mLoadFlags
 ;
+Atomic
+<
 nsresult
+ReleaseAcquire
+>
 mStatus
 ;
 bool
