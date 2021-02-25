@@ -2235,9 +2235,6 @@ this
 traits
 =
 {
-reconfigure
-:
-true
 /
 /
 Supports
