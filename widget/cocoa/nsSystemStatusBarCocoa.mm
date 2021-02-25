@@ -159,8 +159,6 @@ Element
 aElement
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 RefPtr
 <
 nsStandaloneNativeMenu
@@ -223,8 +221,6 @@ menu
 return
 NS_OK
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
-;
 }
 NS_IMETHODIMP
 nsSystemStatusBarCocoa
@@ -237,8 +233,6 @@ Element
 aElement
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 mItems
 .
 Remove
@@ -248,8 +242,6 @@ aElement
 ;
 return
 NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 nsSystemStatusBarCocoa
@@ -270,6 +262,8 @@ mMenu
 aMenu
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 MOZ_COUNT_CTOR
 (
 nsSystemStatusBarCocoa
@@ -393,6 +387,8 @@ SetContainerStatusBarItem
 mStatusItem
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 nsSystemStatusBarCocoa
 :
@@ -405,6 +401,8 @@ StatusItem
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mMenu
 -
 >
@@ -439,5 +437,7 @@ nsSystemStatusBarCocoa
 :
 StatusItem
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }

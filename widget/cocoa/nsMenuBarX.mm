@@ -429,8 +429,6 @@ nsMenuBarX
 )
 aApplicationMenu
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 if
 (
 (
@@ -450,8 +448,6 @@ aApplicationMenu
 }
 return
 self
-;
-NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -749,6 +745,8 @@ Element
 aContent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -848,6 +846,8 @@ this
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -964,6 +964,8 @@ ConstructFallbackNativeMenus
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 sApplicationMenu
@@ -1233,6 +1235,8 @@ quitMenuItem
 sApplicationMenuIsFallback
 =
 YES
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 uint32_t
@@ -1876,6 +1880,8 @@ nsAString
 indexString
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSString
 *
 locationString
@@ -2269,6 +2275,8 @@ break
 }
 }
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -2568,6 +2576,8 @@ SetSystemHelpMenu
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 nsMenuX
 *
 xulHelpMenu
@@ -2610,6 +2620,8 @@ helpMenu
 ;
 }
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 nsresult
 nsMenuBarX
@@ -2802,6 +2814,8 @@ ResetNativeApplicationMenu
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 sApplicationMenu
 removeAllItems
@@ -2819,6 +2833,8 @@ nil
 sApplicationMenuIsFallback
 =
 NO
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -5583,8 +5599,6 @@ id
 )
 sender
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
-;
 if
 (
 !
@@ -6044,8 +6058,6 @@ DoCommand
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
-;
 }
 end
 /

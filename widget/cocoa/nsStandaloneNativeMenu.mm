@@ -489,6 +489,8 @@ void
 aVoidPointer
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mMenu
@@ -530,6 +532,8 @@ nullptr
 ;
 return
 NS_ERROR_NOT_INITIALIZED
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 NS_IMETHODIMP
@@ -735,6 +739,8 @@ nsAString
 indexString
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -999,6 +1005,8 @@ break
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsStandaloneNativeMenu
@@ -1008,6 +1016,8 @@ IconUpdated
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mContainerStatusBarItem
@@ -1048,6 +1058,8 @@ menuImage
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsStandaloneNativeMenu
