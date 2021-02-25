@@ -8127,7 +8127,7 @@ id
 )
 ;
 AttachDecision
-tryAttachTypedArrayLength
+tryAttachTypedArray
 (
 HandleObject
 obj
