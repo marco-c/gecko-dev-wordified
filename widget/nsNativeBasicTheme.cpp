@@ -523,7 +523,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-widget_non_native_use_theme_accent
+widget_non_native_theme_use_theme_accent
 (
 )
 )
@@ -766,7 +766,7 @@ if
 StaticPrefs
 :
 :
-widget_non_native_use_theme_accent
+widget_non_native_theme_use_theme_accent
 (
 )
 )
