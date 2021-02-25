@@ -647,9 +647,7 @@ feature
 featureId
 :
 "
-test
--
-feature
+aboutwelcome
 "
 enabled
 :
@@ -765,9 +763,7 @@ feature
 featureId
 :
 "
-test
--
-feature
+aboutwelcome
 "
 enabled
 :
@@ -792,9 +788,7 @@ feature
 featureId
 :
 "
-test
--
-feature
+aboutwelcome
 "
 enabled
 :
