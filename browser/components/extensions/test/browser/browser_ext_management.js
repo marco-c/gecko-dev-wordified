@@ -663,6 +663,16 @@ getComputedStyle
 document
 .
 documentElement
+.
+querySelector
+(
+"
+#
+navigator
+-
+toolbox
+"
+)
 )
 ;
 is
