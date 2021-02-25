@@ -1222,15 +1222,6 @@ LayoutDeviceIntPoint
 aPoint
 )
 ;
-protected
-:
-void
-RegUnregAccessKey
-(
-bool
-aDoReg
-)
-;
 private
 :
 void
