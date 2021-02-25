@@ -571,7 +571,7 @@ constexpr
 int
 kMaximumPendingQueries
 =
-200
+500
 ;
 Vector
 <
