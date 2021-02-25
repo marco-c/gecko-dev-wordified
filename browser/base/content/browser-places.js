@@ -1418,7 +1418,7 @@ editBookmarkPanelTitle
 "
 )
 .
-textContent
+value
 =
 this
 .
