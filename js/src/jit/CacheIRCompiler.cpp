@@ -20547,7 +20547,7 @@ bool
 CacheIRCompiler
 :
 :
-emitLoadTypedArrayLengthInt32Result
+emitLoadArrayBufferViewLengthInt32Result
 (
 ObjOperandId
 objId
@@ -20649,7 +20649,7 @@ bool
 CacheIRCompiler
 :
 :
-emitLoadTypedArrayLengthDoubleResult
+emitLoadArrayBufferViewLengthDoubleResult
 (
 ObjOperandId
 objId
@@ -25316,7 +25316,7 @@ bool
 CacheIRCompiler
 :
 :
-emitTypedArrayByteOffsetInt32Result
+emitArrayBufferViewByteOffsetInt32Result
 (
 ObjOperandId
 objId
@@ -25418,7 +25418,7 @@ bool
 CacheIRCompiler
 :
 :
-emitTypedArrayByteOffsetDoubleResult
+emitArrayBufferViewByteOffsetDoubleResult
 (
 ObjOperandId
 objId

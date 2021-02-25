@@ -11866,7 +11866,7 @@ INT32_MAX
 {
 writer
 .
-loadTypedArrayLengthInt32Result
+loadArrayBufferViewLengthInt32Result
 (
 objId
 )
@@ -11876,7 +11876,7 @@ else
 {
 writer
 .
-loadTypedArrayLengthDoubleResult
+loadArrayBufferViewLengthDoubleResult
 (
 objId
 )
@@ -11911,7 +11911,7 @@ INT32_MAX
 {
 writer
 .
-typedArrayByteOffsetInt32Result
+arrayBufferViewByteOffsetInt32Result
 (
 objId
 )
@@ -11921,7 +11921,7 @@ else
 {
 writer
 .
-typedArrayByteOffsetDoubleResult
+arrayBufferViewByteOffsetDoubleResult
 (
 objId
 )
@@ -49224,7 +49224,7 @@ INT32_MAX
 {
 writer
 .
-typedArrayByteOffsetInt32Result
+arrayBufferViewByteOffsetInt32Result
 (
 objArgId
 )
@@ -49234,7 +49234,7 @@ else
 {
 writer
 .
-typedArrayByteOffsetDoubleResult
+arrayBufferViewByteOffsetDoubleResult
 (
 objArgId
 )
@@ -49625,7 +49625,7 @@ INT32_MAX
 {
 writer
 .
-loadTypedArrayLengthInt32Result
+loadArrayBufferViewLengthInt32Result
 (
 objArgId
 )
@@ -49635,7 +49635,7 @@ else
 {
 writer
 .
-loadTypedArrayLengthDoubleResult
+loadArrayBufferViewLengthDoubleResult
 (
 objArgId
 )
