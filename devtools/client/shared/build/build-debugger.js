@@ -1783,15 +1783,6 @@ filePath
 return
 [
 "
-transform
--
-flow
--
-strip
--
-types
-"
-"
 proposal
 -
 optional

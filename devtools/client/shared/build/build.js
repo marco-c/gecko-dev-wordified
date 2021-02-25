@@ -141,15 +141,6 @@ defaultPlugins
 =
 [
 "
-transform
--
-flow
--
-strip
--
-types
-"
-"
 proposal
 -
 class
