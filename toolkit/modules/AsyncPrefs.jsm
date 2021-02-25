@@ -357,11 +357,6 @@ pdfjs
 disableStream
 "
 "
-pdfjs
-.
-enableScripting
-"
-"
 reader
 .
 font_size
