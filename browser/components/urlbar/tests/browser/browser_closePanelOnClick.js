@@ -194,9 +194,16 @@ window
 >
 EventUtils
 .
-synthesizeNativeMouseClickAtCenter
+synthesizeNativeMouseClick
 (
+{
+target
+:
 elt
+atCenter
+:
+true
+}
 )
 )
 ;
