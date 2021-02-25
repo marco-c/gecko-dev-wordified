@@ -377,7 +377,7 @@ menu_devToolbox
 l10nKey
 :
 "
-devToolboxMenuItem
+webDeveloperToolsMenu
 "
 async
 oncommand
@@ -899,12 +899,12 @@ devToolsEndSeparator
 id
 :
 "
-getMoreDevtools
+extensionsForDevelopers
 "
 l10nKey
 :
 "
-getMoreDevtoolsCmd
+extensionsForDevelopersCmd
 "
 oncommand
 (
