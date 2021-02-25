@@ -876,6 +876,7 @@ IsDefunct
 (
 )
 )
+{
 mHangingChildDocuments
 [
 idx
@@ -886,6 +887,7 @@ Shutdown
 (
 )
 ;
+}
 }
 mHangingChildDocuments
 .
@@ -3367,10 +3369,12 @@ notifications
 "
 )
 )
+{
 mObservingState
 =
 eRefreshObserving
 ;
+}
 }
 }
 /

@@ -215,6 +215,7 @@ roleRule
 =
 kUseMapRole
 )
+{
 return
 ARIATransformRole
 (
@@ -223,6 +224,7 @@ NativeRole
 )
 )
 ;
+}
 return
 ARIATransformRole
 (
@@ -380,6 +382,7 @@ roleRule
 =
 kUseMapRole
 )
+{
 return
 mozilla
 :
@@ -392,6 +395,7 @@ roles
 :
 NOTHING
 ;
+}
 return
 ARIATransformRole
 (
@@ -605,6 +609,7 @@ valueRule
 =
 eHasValueMinMaxIfFocusable
 )
+{
 return
 InteractiveState
 (
@@ -615,6 +620,7 @@ states
 :
 FOCUSABLE
 ;
+}
 return
 true
 ;

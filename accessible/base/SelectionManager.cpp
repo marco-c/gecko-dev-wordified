@@ -1126,6 +1126,7 @@ logging
 eSelection
 )
 )
+{
 logging
 :
 :
@@ -1136,6 +1137,7 @@ document
 aReason
 )
 ;
+}
 #
 endif
 if

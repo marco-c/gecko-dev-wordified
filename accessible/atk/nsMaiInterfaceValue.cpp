@@ -586,6 +586,7 @@ IsNaN
 accValue
 )
 )
+{
 accValue
 =
 0
@@ -599,6 +600,7 @@ minimum
 increment
 is
 undefined
+}
 g_value_init
 (
 minimumIncrement

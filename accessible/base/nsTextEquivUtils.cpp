@@ -1394,6 +1394,7 @@ text
 =
 eNameFromTooltip
 )
+{
 isEmptyTextEquiv
 =
 !
@@ -1403,6 +1404,7 @@ aString
 text
 )
 ;
+}
 /
 /
 Implementation
@@ -1581,9 +1583,11 @@ Role
 =
 eNameFromValueRule
 )
+{
 return
 NS_OK_NO_NAME_CLAUSE_HANDLED
 ;
+}
 /
 /
 Implementation
@@ -2057,6 +2061,7 @@ Last
 )
 )
 )
+{
 aString
 -
 >
@@ -2069,6 +2074,7 @@ char16_t
 )
 )
 ;
+}
 aString
 -
 >
@@ -2093,6 +2099,7 @@ Last
 )
 )
 )
+{
 aString
 -
 >
@@ -2105,6 +2112,7 @@ char16_t
 )
 )
 ;
+}
 return
 true
 ;

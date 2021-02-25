@@ -169,11 +169,13 @@ states
 :
 SELECTABLE
 )
+{
 return
 eMatch
 |
 eSkipSubtree
 ;
+}
 return
 eSkip
 ;

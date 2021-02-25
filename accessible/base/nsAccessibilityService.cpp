@@ -7421,6 +7421,7 @@ markupMap
 >
 new_func
 )
+{
 newAcc
 =
 markupMap
@@ -7437,11 +7438,13 @@ AsElement
 aContext
 )
 ;
+}
 if
 (
 !
 newAcc
 )
+{
 /
 /
 try
@@ -7459,6 +7462,7 @@ content
 aContext
 )
 ;
+}
 }
 /
 /
@@ -7525,6 +7529,7 @@ IsTableRow
 (
 )
 )
+{
 newAcc
 =
 new
@@ -7534,6 +7539,7 @@ content
 document
 )
 ;
+}
 }
 else
 if
@@ -7689,6 +7695,7 @@ IsOfType
 eTable
 )
 )
+{
 roleMapEntry
 =
 &
@@ -7697,6 +7704,7 @@ aria
 :
 gEmptyRoleMap
 ;
+}
 }
 else
 if
@@ -7793,6 +7801,7 @@ IsOfType
 eList
 )
 )
+{
 roleMapEntry
 =
 &
@@ -7801,6 +7810,7 @@ aria
 :
 gEmptyRoleMap
 ;
+}
 }
 }
 }
@@ -8285,6 +8295,7 @@ markupMap
 >
 new_func
 )
+{
 newAcc
 =
 markupMap
@@ -8301,6 +8312,7 @@ AsElement
 aContext
 )
 ;
+}
 /
 /
 Fall
@@ -8881,6 +8893,7 @@ i
 +
 +
 )
+{
 mHTMLMarkupMap
 .
 Put
@@ -8898,6 +8911,7 @@ i
 ]
 )
 ;
+}
 #
 ifdef
 MOZ_XUL
@@ -8919,6 +8933,7 @@ i
 +
 +
 )
+{
 mXULMarkupMap
 .
 Put
@@ -8936,6 +8951,7 @@ i
 ]
 )
 ;
+}
 #
 endif
 #
@@ -9807,6 +9823,7 @@ nsGkAtoms
 table
 )
 )
+{
 newAcc
 =
 new
@@ -9816,7 +9833,9 @@ aContent
 document
 )
 ;
+}
 else
+{
 newAcc
 =
 new
@@ -9826,6 +9845,7 @@ aContent
 document
 )
 ;
+}
 break
 ;
 case
@@ -9903,6 +9923,7 @@ IsHTMLTable
 (
 )
 )
+{
 newAcc
 =
 new
@@ -9912,7 +9933,9 @@ aContent
 document
 )
 ;
+}
 else
+{
 newAcc
 =
 new
@@ -9922,6 +9945,7 @@ aContent
 document
 )
 ;
+}
 break
 ;
 case
@@ -10518,6 +10542,7 @@ IsEmpty
 (
 )
 )
+{
 nsAccUtils
 :
 :
@@ -10531,6 +10556,7 @@ name
 value
 )
 ;
+}
 continue
 ;
 }

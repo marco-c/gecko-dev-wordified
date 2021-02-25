@@ -700,6 +700,7 @@ if
 !
 hyperTextElm
 )
+{
 return
 ;
 /
@@ -718,6 +719,7 @@ document
 with
 no
 body
+}
 nsIFrame
 *
 rootFrame
@@ -1063,6 +1065,7 @@ idx
 +
 +
 )
+{
 attrArray
 [
 idx
@@ -1075,6 +1078,7 @@ aAttributes
 mIncludeDefAttrs
 )
 ;
+}
 }
 /
 /
@@ -1093,6 +1097,7 @@ if
 (
 mOffsetAcc
 )
+{
 GetRange
 (
 attrArray
@@ -1104,6 +1109,7 @@ aStartOffset
 aEndOffset
 )
 ;
+}
 }
 void
 TextAttrsMgr
@@ -5311,6 +5317,7 @@ if
 (
 aAccessible
 )
+{
 mIsDefined
 =
 mNativeValue
@@ -5348,6 +5355,7 @@ LISTITEM_MARKER
 )
 )
 ;
+}
 }
 bool
 TextAttrsMgr

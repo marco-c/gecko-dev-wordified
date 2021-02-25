@@ -1352,9 +1352,11 @@ nsGkAtoms
 accesskey
 )
 )
+{
 return
 0
 ;
+}
 nsPresContext
 *
 presContext
@@ -2258,6 +2260,7 @@ if
 (
 baseWindow
 )
+{
 baseWindow
 -
 >
@@ -2278,6 +2281,7 @@ y
 in
 device
 pixels
+}
 return
 coords
 ;
@@ -2845,6 +2849,7 @@ aLanguage
 )
 )
 )
+{
 walkUp
 =
 walkUp
@@ -2854,6 +2859,7 @@ GetParent
 (
 )
 ;
+}
 }
 XULTreeElement
 *

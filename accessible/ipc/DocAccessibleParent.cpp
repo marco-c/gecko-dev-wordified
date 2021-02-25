@@ -5015,6 +5015,7 @@ ParentDoc
 (
 )
 )
+{
 parentDoc
 -
 >
@@ -5023,6 +5024,7 @@ RemoveChildDoc
 thisDoc
 )
 ;
+}
 else
 if
 (
@@ -5030,6 +5032,7 @@ IsTopLevel
 (
 )
 )
+{
 GetAccService
 (
 )
@@ -5040,6 +5043,7 @@ RemoteDocShutdown
 this
 )
 ;
+}
 }
 DocAccessibleParent
 *

@@ -490,6 +490,7 @@ i
 +
 +
 )
+{
 if
 (
 ProxyAccessible
@@ -507,6 +508,7 @@ i
 ]
 )
 )
+{
 targets
 .
 AppendElement
@@ -514,6 +516,8 @@ AppendElement
 proxy
 )
 ;
+}
+}
 return
 targets
 ;
@@ -673,6 +677,7 @@ j
 +
 +
 )
+{
 if
 (
 ProxyAccessible
@@ -697,6 +702,7 @@ j
 ]
 )
 )
+{
 targets
 .
 AppendElement
@@ -704,6 +710,8 @@ AppendElement
 proxy
 )
 ;
+}
+}
 if
 (
 targets

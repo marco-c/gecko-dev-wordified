@@ -1419,6 +1419,7 @@ IsNull
 (
 )
 )
+{
 nsAccUtils
 :
 :
@@ -1432,6 +1433,7 @@ aState
 aExtraState
 )
 ;
+}
 else
 if
 (
@@ -1439,6 +1441,7 @@ Intl
 (
 )
 )
+{
 nsAccUtils
 :
 :
@@ -1456,7 +1459,9 @@ aState
 aExtraState
 )
 ;
+}
 else
+{
 nsAccUtils
 :
 :
@@ -1478,6 +1483,7 @@ aState
 aExtraState
 )
 ;
+}
 return
 NS_OK
 ;

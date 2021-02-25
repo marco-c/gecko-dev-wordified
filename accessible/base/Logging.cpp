@@ -2297,6 +2297,7 @@ nsIChannel
 :
 LOAD_RETARGETED_DOCUMENT_URI
 )
+{
 printf
 (
 "
@@ -2307,6 +2308,7 @@ uri
 "
 )
 ;
+}
 if
 (
 loadFlags
@@ -2333,6 +2335,7 @@ nsIChannel
 :
 LOAD_INITIAL_DOCUMENT_URI
 )
+{
 printf
 (
 "
@@ -2343,6 +2346,7 @@ uri
 "
 )
 ;
+}
 if
 (
 loadFlags
@@ -2369,6 +2373,7 @@ nsIChannel
 :
 LOAD_CALL_CONTENT_SNIFFERS
 )
+{
 printf
 (
 "
@@ -2379,6 +2384,7 @@ sniffers
 "
 )
 ;
+}
 if
 (
 loadFlags
@@ -2445,6 +2451,7 @@ DocAccessible
 eCompletelyLoaded
 )
 )
+{
 printf
 (
 "
@@ -2454,6 +2461,7 @@ loaded
 "
 )
 ;
+}
 else
 if
 (
@@ -2468,6 +2476,7 @@ DocAccessible
 eReady
 )
 )
+{
 printf
 (
 "
@@ -2476,6 +2485,7 @@ ready
 "
 )
 ;
+}
 else
 if
 (
@@ -2490,6 +2500,7 @@ DocAccessible
 eDOMLoaded
 )
 )
+{
 printf
 (
 "
@@ -2499,6 +2510,7 @@ loaded
 "
 )
 ;
+}
 else
 if
 (
@@ -2513,6 +2525,7 @@ DocAccessible
 eTreeConstructed
 )
 )
+{
 printf
 (
 "
@@ -2522,6 +2535,7 @@ constructed
 "
 )
 ;
+}
 }
 static
 void
@@ -2667,6 +2681,7 @@ IsStateEnabled
 (
 )
 )
+{
 aEventType
 .
 AppendLiteral
@@ -2676,7 +2691,9 @@ true
 "
 )
 ;
+}
 else
+{
 aEventType
 .
 AppendLiteral
@@ -2686,6 +2703,7 @@ false
 "
 )
 ;
+}
 }
 }
 }
@@ -4015,13 +4033,16 @@ if
 (
 targetNode
 )
+{
 AccessibleNNode
 (
 aTargetDescr
 targetNode
 )
 ;
+}
 else
+{
 printf
 (
 "
@@ -4045,6 +4066,7 @@ aTargetThing
 )
 )
 ;
+}
 }
 MsgEnd
 (
@@ -4258,12 +4280,14 @@ SelectionType
 :
 eNormal
 )
+{
 strType
 =
 "
 normal
 "
 ;
+}
 else
 if
 (
@@ -4275,19 +4299,23 @@ SelectionType
 :
 eSpellCheck
 )
+{
 strType
 =
 "
 spellcheck
 "
 ;
+}
 else
+{
 strType
 =
 "
 unknown
 "
 ;
+}
 bool
 isIgnored
 =
@@ -6635,6 +6663,7 @@ idx
 mStr
 )
 )
+{
 return
 sModules
 &
@@ -6645,6 +6674,7 @@ idx
 .
 mModule
 ;
+}
 }
 return
 false

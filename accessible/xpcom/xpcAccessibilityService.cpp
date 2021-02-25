@@ -321,11 +321,13 @@ nsAutoRefCnt
 :
 isThreadSafe
 )
+{
 NS_ASSERT_OWNINGTHREAD
 (
 xpcAccessibilityService
 )
 ;
+}
 nsrefcnt
 count
 =

@@ -2289,12 +2289,14 @@ GetVisibility
 =
 nsViewVisibility_kHide
 )
+{
 return
 states
 :
 :
 INVISIBLE
 ;
+}
 if
 (
 nsLayoutUtils
@@ -2380,12 +2382,14 @@ nsGkAtoms
 tabpanels
 )
 )
+{
 return
 states
 :
 :
 OFFSCREEN
 ;
+}
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -2862,6 +2866,7 @@ HasState
 NS_EVENT_STATE_REQUIRED
 )
 )
+{
 state
 |
 =
@@ -2870,6 +2875,7 @@ states
 :
 REQUIRED
 ;
+}
 state
 |
 =
@@ -3051,6 +3057,7 @@ StyleBoxOrient
 :
 Vertical
 )
+{
 state
 |
 =
@@ -3059,7 +3066,9 @@ states
 :
 VERTICAL
 ;
+}
 else
+{
 state
 |
 =
@@ -3068,6 +3077,7 @@ states
 :
 HORIZONTAL
 ;
+}
 }
 }
 }
@@ -3121,6 +3131,7 @@ nsGkAtoms
 popup
 )
 )
+{
 state
 |
 =
@@ -3129,6 +3140,7 @@ states
 :
 HASPOPUP
 ;
+}
 /
 /
 Bypass
@@ -3175,6 +3187,7 @@ roles
 :
 LINK
 )
+{
 state
 |
 =
@@ -3182,6 +3195,7 @@ NativeLinkState
 (
 )
 ;
+}
 return
 state
 ;
@@ -3468,6 +3482,7 @@ MustPrune
 this
 )
 )
+{
 /
 /
 Do
@@ -3478,6 +3493,7 @@ further
 return
 fallbackAnswer
 ;
+}
 /
 /
 Search
@@ -3794,6 +3810,7 @@ popupChild
 =
 popupAcc
 )
+{
 popupChild
 =
 popupChild
@@ -3803,6 +3820,7 @@ LocalParent
 (
 )
 ;
+}
 if
 (
 popupChild
@@ -3911,9 +3929,11 @@ GetContent
 )
 )
 )
+{
 return
 fallbackAnswer
 ;
+}
 /
 /
 Get
@@ -4310,6 +4330,7 @@ aWhichChild
 =
 eDeepestChild
 )
+{
 return
 child
 -
@@ -4321,6 +4342,7 @@ aY
 eDeepestChild
 )
 ;
+}
 return
 child
 ;
@@ -5936,6 +5958,7 @@ IsApplication
 (
 )
 )
+{
 ipcDoc
 -
 >
@@ -5950,6 +5973,7 @@ GetEventType
 )
 )
 ;
+}
 break
 ;
 case
@@ -6924,6 +6948,7 @@ name
 value
 )
 )
+{
 attributes
 -
 >
@@ -6937,6 +6962,7 @@ value
 unused
 )
 ;
+}
 /
 /
 If
@@ -7052,6 +7078,7 @@ liveAttRule
 live
 )
 )
+{
 nsAccUtils
 :
 :
@@ -7065,6 +7092,7 @@ live
 live
 )
 ;
+}
 }
 }
 return
@@ -7542,6 +7570,7 @@ mContent
 id
 )
 )
+{
 attributes
 -
 >
@@ -7555,6 +7584,7 @@ id
 unused
 )
 ;
+}
 /
 /
 Expose
@@ -7590,6 +7620,7 @@ _class
 _class
 )
 )
+{
 nsAccUtils
 :
 :
@@ -7603,6 +7634,7 @@ _class
 _class
 )
 ;
+}
 /
 /
 Expose
@@ -8616,6 +8648,7 @@ IsFocusWithin
 relTarget
 )
 )
+{
 state
 |
 =
@@ -8624,6 +8657,7 @@ states
 :
 SELECTED
 ;
+}
 }
 }
 }
@@ -8915,6 +8949,7 @@ states
 EXPANDED
 )
 )
+{
 state
 |
 =
@@ -8923,6 +8958,7 @@ states
 :
 EXPANDABLE
 ;
+}
 /
 /
 For
@@ -9545,6 +9581,7 @@ IsMenuButton
 (
 )
 )
+{
 aria
 :
 :
@@ -9558,6 +9595,7 @@ element
 aState
 )
 ;
+}
 if
 (
 !
@@ -9617,6 +9655,7 @@ element
 aState
 )
 )
+{
 aria
 :
 :
@@ -9630,6 +9669,7 @@ element
 aState
 )
 ;
+}
 /
 /
 ARIA
@@ -10833,6 +10873,7 @@ Next
 )
 )
 )
+{
 if
 (
 targetAcc
@@ -10848,6 +10889,7 @@ roles
 :
 COMBOBOX_LIST
 ;
+}
 }
 }
 else
@@ -10880,12 +10922,14 @@ roles
 :
 COMBOBOX_LIST
 )
+{
 return
 roles
 :
 :
 COMBOBOX_OPTION
 ;
+}
 }
 else
 if
@@ -11251,6 +11295,7 @@ states
 :
 CHECKED
 )
+{
 aName
 .
 AssignLiteral
@@ -11260,6 +11305,7 @@ uncheck
 "
 )
 ;
+}
 else
 if
 (
@@ -11270,6 +11316,7 @@ states
 :
 MIXED
 )
+{
 aName
 .
 AssignLiteral
@@ -11279,7 +11326,9 @@ cycle
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -11289,6 +11338,7 @@ check
 "
 )
 ;
+}
 return
 ;
 }
@@ -11320,6 +11370,7 @@ states
 :
 COLLAPSED
 )
+{
 aName
 .
 AssignLiteral
@@ -11329,7 +11380,9 @@ open
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -11339,6 +11392,7 @@ close
 "
 )
 ;
+}
 return
 ;
 case
@@ -11397,6 +11451,7 @@ states
 :
 COLLAPSED
 )
+{
 aName
 .
 AssignLiteral
@@ -11406,7 +11461,9 @@ expand
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -11416,6 +11473,7 @@ collapse
 "
 )
 ;
+}
 return
 ;
 }
@@ -11517,6 +11575,7 @@ atomic
 )
 )
 )
+{
 loopContent
 =
 loopContent
@@ -11526,6 +11585,7 @@ GetParent
 (
 )
 ;
+}
 return
 atomic
 .
@@ -11700,6 +11760,7 @@ nsGkAtoms
 label
 )
 )
+{
 rel
 .
 AppendIter
@@ -11716,6 +11777,7 @@ control
 )
 )
 ;
+}
 return
 rel
 ;
@@ -11751,6 +11813,7 @@ IsXULElement
 (
 )
 )
+{
 rel
 .
 AppendIter
@@ -11765,6 +11828,7 @@ mContent
 )
 )
 ;
+}
 return
 rel
 ;
@@ -11838,6 +11902,7 @@ nsGkAtoms
 description
 )
 )
+{
 rel
 .
 AppendIter
@@ -11854,6 +11919,7 @@ control
 )
 )
 ;
+}
 return
 rel
 ;
@@ -12221,6 +12287,7 @@ GetParent
 (
 )
 )
+{
 rel
 .
 AppendTarget
@@ -12230,6 +12297,7 @@ LocalParent
 )
 )
 ;
+}
 }
 }
 return
@@ -13856,6 +13924,7 @@ GetParent
 )
 )
 )
+{
 nsCoreUtils
 :
 :
@@ -13866,6 +13935,7 @@ frame
 coords
 )
 ;
+}
 }
 void
 Accessible
@@ -14183,6 +14253,7 @@ nullptr
 =
 this
 )
+{
 SelectionMgr
 (
 )
@@ -14192,6 +14263,7 @@ ResetCaretOffset
 (
 )
 ;
+}
 }
 /
 /
@@ -16400,6 +16472,7 @@ if
 !
 mEmbeddedObjCollector
 )
+{
 mEmbeddedObjCollector
 .
 reset
@@ -16411,6 +16484,7 @@ this
 )
 )
 ;
+}
 return
 mEmbeddedObjCollector
 -
@@ -16449,6 +16523,7 @@ if
 !
 mEmbeddedObjCollector
 )
+{
 mEmbeddedObjCollector
 .
 reset
@@ -16460,6 +16535,7 @@ this
 )
 )
 ;
+}
 return
 mEmbeddedObjCollector
 .
@@ -16508,6 +16584,7 @@ if
 !
 mEmbeddedObjCollector
 )
+{
 mEmbeddedObjCollector
 .
 reset
@@ -16519,6 +16596,7 @@ this
 )
 )
 ;
+}
 return
 mEmbeddedObjCollector
 .
@@ -17834,6 +17912,7 @@ roles
 :
 ENTRY
 )
+{
 return
 FocusMgr
 (
@@ -17850,6 +17929,7 @@ GetContent
 )
 )
 ;
+}
 }
 }
 return
@@ -18586,6 +18666,7 @@ valueRule
 =
 eNoValue
 )
+{
 return
 UnspecifiedNaN
 <
@@ -18594,6 +18675,7 @@ double
 (
 )
 ;
+}
 nsAutoString
 attrValue
 ;
@@ -18624,6 +18706,7 @@ aAttr
 attrValue
 )
 )
+{
 return
 UnspecifiedNaN
 <
@@ -18632,6 +18715,7 @@ double
 (
 )
 ;
+}
 nsresult
 error
 =
@@ -18692,9 +18776,11 @@ states
 UNAVAILABLE
 )
 )
+{
 return
 eNoAction
 ;
+}
 /
 /
 Return
@@ -18720,6 +18806,7 @@ IsXULElement
 (
 )
 )
+{
 if
 (
 mContent
@@ -18739,9 +18826,12 @@ nsGkAtoms
 popup
 )
 )
+{
 return
 eClickAction
 ;
+}
+}
 /
 /
 Has
@@ -18802,12 +18892,14 @@ actionRule
 =
 eNoAction
 )
+{
 return
 roleMapEntry
 -
 >
 actionRule
 ;
+}
 /
 /
 Get
@@ -18832,9 +18924,11 @@ nsGkAtoms
 aria_expanded
 )
 )
+{
 return
 eExpandAction
 ;
+}
 return
 eNoAction
 ;
@@ -19341,10 +19435,12 @@ roles
 :
 LISTITEM
 )
+{
 +
 +
 level
 ;
+}
 else
 if
 (
@@ -19365,8 +19461,10 @@ roles
 :
 GROUPING
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -19488,9 +19586,11 @@ roles
 :
 GROUPING
 )
+{
 return
 1
 ;
+}
 }
 }
 }
@@ -19908,6 +20008,7 @@ if
 (
 stringBundleService
 )
+{
 stringBundleService
 -
 >
@@ -19934,6 +20035,7 @@ keyStringBundle
 )
 )
 ;
+}
 if
 (
 !

@@ -524,6 +524,7 @@ HasState
 NS_EVENT_STATE_VISITED
 )
 )
+{
 return
 states
 :
@@ -535,6 +536,7 @@ states
 :
 TRAVERSED
 ;
+}
 /
 /
 This
@@ -675,6 +677,7 @@ nsGkAtoms
 name
 )
 )
+{
 state
 |
 =
@@ -683,6 +686,7 @@ states
 :
 SELECTABLE
 ;
+}
 return
 state
 ;
@@ -721,6 +725,7 @@ IsEmpty
 (
 )
 )
+{
 nsContentUtils
 :
 :
@@ -735,6 +740,7 @@ AsElement
 aValue
 )
 ;
+}
 }
 uint8_t
 HTMLLinkAccessible

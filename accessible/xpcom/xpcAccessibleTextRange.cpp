@@ -455,6 +455,7 @@ idx
 +
 +
 )
+{
 xpcList
 -
 >
@@ -476,6 +477,7 @@ idx
 )
 )
 ;
+}
 xpcList
 .
 forget
@@ -641,12 +643,15 @@ p
 =
 otherPoint
 )
+{
 *
 aResult
 =
 0
 ;
+}
 else
+{
 *
 aResult
 =
@@ -659,6 +664,7 @@ otherPoint
 :
 1
 ;
+}
 return
 NS_OK
 ;

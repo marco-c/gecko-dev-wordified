@@ -1525,6 +1525,7 @@ tailSCEvent
 >
 mIsEnabled
 )
+{
 tailEvent
 -
 >
@@ -1535,6 +1536,7 @@ AccEvent
 :
 eDoNotEmit
 ;
+}
 }
 }
 }
@@ -1695,6 +1697,7 @@ tailEvent
 >
 mAccessible
 )
+{
 thisEvent
 -
 >
@@ -1705,6 +1708,7 @@ AccEvent
 :
 eDoNotEmit
 ;
+}
 }
 }
 break
@@ -2029,6 +2033,7 @@ aTailEvent
 >
 mWidget
 )
+{
 prevSelChangeEvent
 -
 >
@@ -2039,6 +2044,7 @@ AccEvent
 :
 eDoNotEmit
 ;
+}
 }
 }
 }
@@ -2361,6 +2367,7 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION
 )
+{
 aTailEvent
 -
 >
@@ -2371,6 +2378,7 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION_ADD
 ;
+}
 }
 /
 /

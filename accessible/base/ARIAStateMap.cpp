@@ -1348,6 +1348,7 @@ nsGkAtoms
 aria_valuetext
 )
 )
+{
 *
 aState
 |
@@ -1357,6 +1358,7 @@ states
 :
 MIXED
 ;
+}
 return
 true
 ;
@@ -1398,6 +1400,7 @@ _false
 eCaseMatters
 )
 )
+{
 *
 aState
 |
@@ -1407,6 +1410,7 @@ states
 :
 FOCUSABLE
 ;
+}
 return
 true
 ;
@@ -1592,6 +1596,7 @@ mType
 &
 eMixedType
 )
+{
 *
 aState
 |
@@ -1605,7 +1610,9 @@ states
 :
 MIXED
 ;
+}
 else
+{
 /
 /
 unsupported
@@ -1630,6 +1637,7 @@ aData
 .
 mFalseState
 ;
+}
 return
 ;
 }
@@ -1690,6 +1698,7 @@ mType
 &
 eDefinedIfAbsent
 )
+{
 *
 aState
 |
@@ -1702,4 +1711,5 @@ aData
 .
 mFalseState
 ;
+}
 }

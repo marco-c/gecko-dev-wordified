@@ -916,6 +916,7 @@ IsEmpty
 (
 )
 )
+{
 mContent
 -
 >
@@ -934,6 +935,7 @@ abbr
 abbrText
 )
 ;
+}
 if
 (
 !
@@ -943,6 +945,7 @@ IsEmpty
 (
 )
 )
+{
 nsAccUtils
 :
 :
@@ -956,6 +959,7 @@ abbr
 abbrText
 )
 ;
+}
 /
 /
 axis
@@ -990,6 +994,7 @@ IsEmpty
 (
 )
 )
+{
 nsAccUtils
 :
 :
@@ -1003,6 +1008,7 @@ axis
 axisText
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -1594,6 +1600,7 @@ ColIdx
 (
 )
 )
+{
 aCells
 -
 >
@@ -1602,6 +1609,7 @@ AppendElement
 cell
 )
 ;
+}
 }
 }
 if
@@ -1755,6 +1763,7 @@ RowIdx
 (
 )
 )
+{
 aCells
 -
 >
@@ -1763,6 +1772,7 @@ AppendElement
 cell
 )
 ;
+}
 }
 }
 if
@@ -2462,12 +2472,14 @@ GetContent
 )
 )
 )
+{
 return
 roles
 :
 :
 ROWHEADER
 ;
+}
 /
 /
 If
@@ -2533,12 +2545,14 @@ GetContent
 )
 )
 )
+{
 return
 roles
 :
 :
 COLUMNHEADER
 ;
+}
 /
 /
 Otherwise
@@ -4120,6 +4134,7 @@ colIdx
 +
 +
 )
+{
 if
 (
 IsColSelected
@@ -4131,6 +4146,7 @@ count
 +
 +
 ;
+}
 return
 count
 ;
@@ -4168,6 +4184,7 @@ rowIdx
 +
 +
 )
+{
 if
 (
 IsRowSelected
@@ -4179,6 +4196,7 @@ count
 +
 +
 ;
+}
 return
 count
 ;
@@ -4484,6 +4502,7 @@ startCol
 =
 colIdx
 )
+{
 aCells
 -
 >
@@ -4496,6 +4515,7 @@ colIdx
 )
 )
 ;
+}
 }
 }
 }
@@ -4535,6 +4555,7 @@ colIdx
 +
 +
 )
+{
 if
 (
 IsColSelected
@@ -4550,6 +4571,7 @@ AppendElement
 colIdx
 )
 ;
+}
 }
 void
 HTMLTableAccessible
@@ -4587,6 +4609,7 @@ rowIdx
 +
 +
 )
+{
 if
 (
 IsRowSelected
@@ -4602,6 +4625,7 @@ AppendElement
 rowIdx
 )
 ;
+}
 }
 Accessible
 *
@@ -5866,19 +5890,23 @@ if
 (
 doSelectRow
 )
+{
 count
 =
 ColCount
 (
 )
 ;
+}
 else
+{
 count
 =
 RowCount
 (
 )
 ;
+}
 PresShell
 *
 presShell
@@ -6130,6 +6158,7 @@ if
 (
 aIsOuter
 )
+{
 return
 tableSelection
 -
@@ -6143,6 +6172,7 @@ endRowIdx
 endColIdx
 )
 ;
+}
 return
 tableSelection
 -

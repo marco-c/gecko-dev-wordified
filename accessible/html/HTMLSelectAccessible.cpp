@@ -536,6 +536,7 @@ nsGkAtoms
 multiple
 )
 )
+{
 state
 |
 =
@@ -549,6 +550,7 @@ states
 :
 EXTSELECTABLE
 ;
+}
 return
 state
 ;
@@ -1967,6 +1969,7 @@ roles
 :
 HEADING
 )
+{
 level
 =
 0
@@ -1982,6 +1985,7 @@ the
 level
 is
 irrelevant
+}
 return
 level
 ;
@@ -2026,6 +2030,7 @@ states
 COLLAPSED
 )
 )
+{
 return
 combobox
 -
@@ -2035,6 +2040,7 @@ RelativeBounds
 aBoundingFrame
 )
 ;
+}
 return
 HyperTextAccessibleWrap
 :
@@ -3096,6 +3102,7 @@ IsDroppedDown
 (
 )
 )
+{
 state
 |
 =
@@ -3104,7 +3111,9 @@ states
 :
 EXPANDED
 ;
+}
 else
+{
 state
 |
 =
@@ -3113,6 +3122,7 @@ states
 :
 COLLAPSED
 ;
+}
 state
 |
 =
@@ -3354,6 +3364,7 @@ IsDroppedDown
 (
 )
 )
+{
 aName
 .
 AssignLiteral
@@ -3363,7 +3374,9 @@ close
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -3373,6 +3386,7 @@ open
 "
 )
 ;
+}
 }
 bool
 HTMLComboboxAccessible
@@ -4173,6 +4187,7 @@ IsDroppedDown
 (
 )
 )
+{
 state
 |
 =
@@ -4181,7 +4196,9 @@ states
 :
 FLOATING
 ;
+}
 else
+{
 state
 |
 =
@@ -4190,6 +4207,7 @@ states
 :
 INVISIBLE
 ;
+}
 return
 state
 ;

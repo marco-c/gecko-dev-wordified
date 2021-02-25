@@ -226,6 +226,7 @@ if
 !
 sQuark_gecko_acc_obj
 )
+{
 sQuark_gecko_acc_obj
 =
 g_quark_from_static_string
@@ -235,6 +236,7 @@ GeckoAccObj
 "
 )
 ;
+}
 if
 (
 nsAccessibilityService

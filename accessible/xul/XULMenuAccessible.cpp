@@ -509,6 +509,7 @@ nsGkAtoms
 open
 )
 )
+{
 state
 |
 =
@@ -517,7 +518,9 @@ states
 :
 EXPANDED
 ;
+}
 else
+{
 state
 |
 =
@@ -526,6 +529,7 @@ states
 :
 COLLAPSED
 ;
+}
 }
 /
 /
@@ -622,6 +626,7 @@ _true
 eCaseMatters
 )
 )
+{
 state
 |
 =
@@ -630,6 +635,7 @@ states
 :
 CHECKED
 ;
+}
 }
 /
 /
@@ -1792,12 +1798,14 @@ radio
 eCaseMatters
 )
 )
+{
 return
 roles
 :
 :
 RADIO_MENU_ITEM
 ;
+}
 if
 (
 mContent
@@ -1822,12 +1830,14 @@ checkbox
 eCaseMatters
 )
 )
+{
 return
 roles
 :
 :
 CHECK_MENU_ITEM
 ;
+}
 return
 roles
 :
@@ -3281,12 +3291,14 @@ IsAutoComplete
 (
 )
 )
+{
 return
 roles
 :
 :
 COMBOBOX_LIST
 ;
+}
 if
 (
 mParent
@@ -3341,12 +3353,14 @@ IsAutoComplete
 (
 )
 )
+{
 return
 roles
 :
 :
 COMBOBOX_LIST
 ;
+}
 }
 }
 /
@@ -3617,6 +3631,7 @@ if
 !
 menuPopup
 )
+{
 /
 /
 shouldn
@@ -3629,6 +3644,7 @@ case
 return
 nullptr
 ;
+}
 nsMenuFrame
 *
 menuFrame
@@ -3648,6 +3664,7 @@ if
 !
 menuFrame
 )
+{
 /
 /
 context
@@ -3657,6 +3674,7 @@ popups
 return
 nullptr
 ;
+}
 nsMenuParent
 *
 menuParent
@@ -3673,6 +3691,7 @@ if
 !
 menuParent
 )
+{
 /
 /
 menulist
@@ -3686,6 +3705,7 @@ LocalParent
 (
 )
 ;
+}
 if
 (
 menuParent

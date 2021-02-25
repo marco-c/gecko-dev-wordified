@@ -902,7 +902,9 @@ ownedChild
 =
 child
 )
+{
 ;
+}
 MOZ_ASSERT
 (
 ownedChild

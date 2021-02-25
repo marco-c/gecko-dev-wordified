@@ -721,11 +721,13 @@ nsIAccessibleText
 :
 TEXT_OFFSET_END_OF_TEXT
 )
+{
 return
 CharacterCount
 (
 )
 ;
+}
 if
 (
 aOffset

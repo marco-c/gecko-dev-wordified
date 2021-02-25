@@ -3888,6 +3888,7 @@ i
 +
 +
 )
+{
 if
 (
 gWAIUnivAttrMap
@@ -3900,6 +3901,7 @@ attributeName
 =
 aAtom
 )
+{
 return
 gWAIUnivAttrMap
 [
@@ -3908,6 +3910,8 @@ i
 .
 characteristics
 ;
+}
+}
 return
 0
 ;
@@ -4187,6 +4191,7 @@ attrFlags
 &
 ATTR_BYPASSOBJ
 )
+{
 continue
 ;
 /
@@ -4200,6 +4205,7 @@ as
 obj
 attribute
 here
+}
 if
 (
 (
@@ -4219,6 +4225,7 @@ mElement
 attrAtom
 )
 )
+{
 continue
 ;
 /
@@ -4232,6 +4239,7 @@ if
 they
 are
 defined
+}
 if
 (
 (

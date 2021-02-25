@@ -1660,12 +1660,14 @@ nsIDocShellTreeItem
 :
 typeChrome
 )
+{
 return
 roles
 :
 :
 CHROME_WINDOW
 ;
+}
 if
 (
 itemType
@@ -2174,6 +2176,7 @@ name
 value
 )
 )
+{
 attributes
 -
 >
@@ -2187,6 +2190,7 @@ value
 unused
 )
 ;
+}
 return
 attributes
 .
@@ -2387,9 +2391,11 @@ NODE_IS_EDITABLE
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -2779,6 +2785,7 @@ logging
 eDocCreate
 )
 )
+{
 logging
 :
 :
@@ -2792,6 +2799,7 @@ mDocumentNode
 this
 )
 ;
+}
 #
 endif
 /
@@ -2866,11 +2874,13 @@ Document
 :
 READYSTATE_COMPLETE
 )
+{
 mLoadState
 |
 =
 eDOMLoaded
 ;
+}
 AddEventListeners
 (
 )
@@ -2913,6 +2923,7 @@ logging
 eDocDestroy
 )
 )
+{
 logging
 :
 :
@@ -2926,6 +2937,7 @@ mDocumentNode
 this
 )
 ;
+}
 #
 endif
 /
@@ -3147,6 +3159,7 @@ idx
 -
 -
 )
+{
 mChildDocuments
 [
 idx
@@ -3157,6 +3170,7 @@ Shutdown
 (
 )
 ;
+}
 mChildDocuments
 .
 Clear
@@ -3761,6 +3775,7 @@ if
 (
 commandManager
 )
+{
 commandManager
 -
 >
@@ -3772,6 +3787,7 @@ obs_documentCreated
 "
 )
 ;
+}
 }
 SelectionMgr
 (
@@ -4882,12 +4898,14 @@ MutationEvent_Binding
 :
 ADDITION
 )
+{
 RemoveDependentIDsFor
 (
 accessible
 aAttribute
 )
 ;
+}
 if
 (
 aAttribute
@@ -6858,6 +6876,7 @@ nsGkAtoms
 aria_describedby
 )
 )
+{
 FireDelayedEvent
 (
 nsIAccessibleEvent
@@ -6867,6 +6886,7 @@ EVENT_DESCRIPTION_CHANGE
 aAccessible
 )
 ;
+}
 return
 ;
 }
@@ -7343,6 +7363,7 @@ IsProgress
 (
 )
 )
+{
 FireDelayedEvent
 (
 nsIAccessibleEvent
@@ -7352,6 +7373,7 @@ EVENT_VALUE_CHANGE
 aAccessible
 )
 ;
+}
 return
 ;
 }
@@ -8369,6 +8391,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -8382,6 +8405,7 @@ changed
 activeDescendant
 )
 ;
+}
 #
 endif
 return
@@ -9037,6 +9061,7 @@ logging
 eDocLoad
 )
 )
+{
 logging
 :
 :
@@ -9045,6 +9070,7 @@ DocLoadEventHandled
 aEvent
 )
 ;
+}
 return
 HyperTextAccessible
 :
@@ -9968,6 +9994,7 @@ IsNodeMapEntry
 (
 )
 )
+{
 mNodeToAccessibleMap
 .
 Put
@@ -9981,6 +10008,7 @@ GetNode
 aAccessible
 )
 ;
+}
 /
 /
 Put
@@ -10171,6 +10199,7 @@ logging
 eFocus
 )
 )
+{
 logging
 :
 :
@@ -10183,6 +10212,7 @@ shutdown
 aAccessible
 )
 ;
+}
 #
 endif
 }
@@ -10228,6 +10258,7 @@ GetNode
 =
 aAccessible
 )
+{
 mNodeToAccessibleMap
 .
 Remove
@@ -10240,6 +10271,7 @@ GetNode
 )
 )
 ;
+}
 aAccessible
 -
 >
@@ -12047,12 +12079,14 @@ nsGkAtoms
 area
 )
 )
+{
 return
 GetAccessible
 (
 aNode
 )
 ;
+}
 /
 /
 XXX
@@ -13004,6 +13038,7 @@ logging
 eDocLoad
 )
 )
+{
 logging
 :
 :
@@ -13015,6 +13050,7 @@ IsLoadEventTarget
 )
 )
 ;
+}
 #
 endif
 /
@@ -13269,8 +13305,10 @@ nsGkAtoms
 output
 )
 )
+{
 continue
 ;
+}
 }
 else
 if
@@ -13302,8 +13340,10 @@ nsGkAtoms
 description
 )
 )
+{
 continue
 ;
+}
 }
 IDRefsIterator
 iter
@@ -13375,8 +13415,10 @@ dependentContent
 )
 )
 )
+{
 continue
 ;
+}
 AttrRelProviders
 *
 providers
@@ -18279,11 +18321,13 @@ GetContent
 )
 )
 )
+{
 *
 aFocusedAcc
 =
 aRoot
 ;
+}
 Accessible
 *
 root
@@ -18706,6 +18750,7 @@ GetNode
 =
 aRoot
 )
+{
 mNodeToAccessibleMap
 .
 Remove
@@ -18718,6 +18763,7 @@ GetNode
 )
 )
 ;
+}
 }
 void
 DocAccessible

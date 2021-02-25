@@ -465,6 +465,7 @@ if
 (
 isOpen
 )
+{
 state
 |
 =
@@ -473,7 +474,9 @@ states
 :
 EXPANDED
 ;
+}
 else
+{
 state
 |
 =
@@ -482,6 +485,7 @@ states
 :
 COLLAPSED
 ;
+}
 }
 return
 state
@@ -829,6 +833,7 @@ if
 (
 isDroppedDown
 )
+{
 aName
 .
 AssignLiteral
@@ -838,7 +843,9 @@ close
 "
 )
 ;
+}
 else
+{
 aName
 .
 AssignLiteral
@@ -848,6 +855,7 @@ open
 "
 )
 ;
+}
 }
 /
 /
@@ -1015,6 +1023,7 @@ roles
 :
 ENTRY
 )
+{
 return
 FocusMgr
 (
@@ -1031,6 +1040,7 @@ GetContent
 )
 )
 ;
+}
 }
 return
 false

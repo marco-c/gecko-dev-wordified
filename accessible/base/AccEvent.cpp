@@ -531,6 +531,7 @@ aIsFromUserInput
 =
 eAutoDetect
 )
+{
 mIsFromUserInput
 =
 dom
@@ -543,7 +544,9 @@ IsHandlingUserInput
 (
 )
 ;
+}
 else
+{
 mIsFromUserInput
 =
 aIsFromUserInput
@@ -555,6 +558,7 @@ true
 :
 false
 ;
+}
 }
 /
 /
@@ -2147,6 +2151,7 @@ GetSelectedItem
 1
 )
 )
+{
 mEventType
 =
 nsIAccessibleEvent
@@ -2154,7 +2159,9 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION_ADD
 ;
+}
 else
+{
 mEventType
 =
 nsIAccessibleEvent
@@ -2162,6 +2169,7 @@ nsIAccessibleEvent
 :
 EVENT_SELECTION
 ;
+}
 }
 else
 {

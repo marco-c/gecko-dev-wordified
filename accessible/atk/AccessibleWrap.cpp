@@ -1742,6 +1742,7 @@ MustPrune
 this
 )
 )
+{
 interfacesBits
 |
 =
@@ -1750,6 +1751,7 @@ interfacesBits
 <
 MAI_INTERFACE_HYPERTEXT
 ;
+}
 }
 /
 /
@@ -2754,6 +2756,7 @@ parent_class
 >
 initialize
 )
+{
 ATK_OBJECT_CLASS
 (
 parent_class
@@ -2766,6 +2769,7 @@ aAtkObj
 aData
 )
 ;
+}
 /
 *
 initialize
@@ -2858,6 +2862,7 @@ parent_class
 >
 finalize
 )
+{
 G_OBJECT_CLASS
 (
 parent_class
@@ -2869,6 +2874,7 @@ finalize
 aObj
 )
 ;
+}
 }
 const
 gchar
@@ -2896,6 +2902,7 @@ if
 (
 accWrap
 )
+{
 accWrap
 -
 >
@@ -2904,6 +2911,7 @@ Name
 name
 )
 ;
+}
 else
 if
 (
@@ -2916,6 +2924,7 @@ GetProxy
 aAtkObj
 )
 )
+{
 proxy
 -
 >
@@ -2924,10 +2933,13 @@ Name
 name
 )
 ;
+}
 else
+{
 return
 nullptr
 ;
+}
 /
 /
 XXX
@@ -3257,6 +3269,7 @@ Equals
 objDesc
 )
 )
+{
 atk_object_set_description
 (
 aAtkObj
@@ -3270,6 +3283,7 @@ get
 )
 )
 ;
+}
 return
 aAtkObj
 -
@@ -3443,6 +3457,7 @@ IsAtkVersionAtLeast
 1
 )
 )
+{
 aAtkObj
 -
 >
@@ -3450,6 +3465,7 @@ role
 =
 ATK_ROLE_LIST
 ;
+}
 else
 if
 (
@@ -3469,6 +3485,7 @@ IsAtkVersionAtLeast
 1
 )
 )
+{
 aAtkObj
 -
 >
@@ -3476,6 +3493,7 @@ role
 =
 ATK_ROLE_LIST_ITEM
 ;
+}
 else
 if
 (
@@ -3495,6 +3513,7 @@ IsAtkVersionAtLeast
 12
 )
 )
+{
 aAtkObj
 -
 >
@@ -3502,6 +3521,7 @@ role
 =
 ATK_ROLE_SECTION
 ;
+}
 else
 if
 (
@@ -3521,6 +3541,7 @@ IsAtkVersionAtLeast
 12
 )
 )
+{
 aAtkObj
 -
 >
@@ -3528,6 +3549,7 @@ role
 =
 ATK_ROLE_SECTION
 ;
+}
 else
 if
 (
@@ -3547,6 +3569,7 @@ IsAtkVersionAtLeast
 12
 )
 )
+{
 aAtkObj
 -
 >
@@ -3554,6 +3577,7 @@ role
 =
 ATK_ROLE_SECTION
 ;
+}
 else
 if
 (
@@ -3574,6 +3598,7 @@ IsAtkVersionAtLeast
 2
 )
 )
+{
 aAtkObj
 -
 >
@@ -3581,6 +3606,7 @@ role
 =
 ATK_ROLE_SECTION
 ;
+}
 else
 if
 (
@@ -3600,6 +3626,7 @@ IsAtkVersionAtLeast
 16
 )
 )
+{
 aAtkObj
 -
 >
@@ -3607,6 +3634,7 @@ role
 =
 ATK_ROLE_TEXT
 ;
+}
 else
 if
 (
@@ -3637,6 +3665,7 @@ IsAtkVersionAtLeast
 16
 )
 )
+{
 aAtkObj
 -
 >
@@ -3644,6 +3673,7 @@ role
 =
 ATK_ROLE_SECTION
 ;
+}
 else
 if
 (
@@ -4739,12 +4769,14 @@ childAtkObj
 >
 accessible_parent
 )
+{
 atk_object_set_parent
 (
 childAtkObj
 aAtkObj
 )
 ;
+}
 return
 childAtkObj
 ;
@@ -5288,6 +5320,7 @@ Next
 )
 )
 )
+{
 targets
 .
 AppendElement
@@ -5301,6 +5334,7 @@ tempAcc
 )
 )
 ;
+}
 if
 (
 aType
@@ -5527,8 +5561,10 @@ i
 =
 ATK_RELATION_NULL
 )
+{
 continue
 ;
+}
 size_t
 targetCount
 =
@@ -5564,6 +5600,7 @@ j
 +
 +
 )
+{
 wrappers
 .
 AppendElement
@@ -5580,6 +5617,7 @@ j
 )
 )
 ;
+}
 AtkRelationType
 atkType
 =
@@ -6012,6 +6050,7 @@ Interfaces
 :
 HYPERTEXT
 )
+{
 interfaces
 |
 =
@@ -6036,6 +6075,7 @@ MAI_INTERFACE_TEXT
 MAI_INTERFACE_EDITABLE_TEXT
 )
 ;
+}
 if
 (
 aInterfaces
@@ -6045,6 +6085,7 @@ Interfaces
 :
 HYPERLINK
 )
+{
 interfaces
 |
 =
@@ -6053,6 +6094,7 @@ interfaces
 <
 MAI_INTERFACE_HYPERLINK_IMPL
 ;
+}
 if
 (
 aInterfaces
@@ -6096,6 +6138,7 @@ Interfaces
 :
 TABLECELL
 )
+{
 interfaces
 |
 =
@@ -6104,6 +6147,7 @@ interfaces
 <
 MAI_INTERFACE_TABLE_CELL
 ;
+}
 if
 (
 aInterfaces
@@ -6130,6 +6174,7 @@ Interfaces
 :
 DOCUMENT
 )
+{
 interfaces
 |
 =
@@ -6138,6 +6183,7 @@ interfaces
 <
 MAI_INTERFACE_DOCUMENT
 ;
+}
 if
 (
 aInterfaces
@@ -8635,6 +8681,7 @@ gAvailableAtkSignals
 =
 eUnknown
 )
+{
 gAvailableAtkSignals
 =
 g_signal_lookup
@@ -8654,6 +8701,7 @@ eHaveNewAtkTextSignals
 :
 eNoNewAtkSignals
 ;
+}
 if
 (
 gAvailableAtkSignals

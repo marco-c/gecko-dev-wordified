@@ -346,6 +346,7 @@ mIndexOfEmbeddedChild
 -
 1
 )
+{
 return
 aAccessible
 -
@@ -354,6 +355,7 @@ mInt
 .
 mIndexOfEmbeddedChild
 ;
+}
 return
 !
 aAccessible

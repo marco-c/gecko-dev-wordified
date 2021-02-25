@@ -185,6 +185,7 @@ Next
 )
 )
 )
+{
 mTargets
 -
 >
@@ -203,6 +204,7 @@ targetAcc
 )
 )
 ;
+}
 }
 nsAccessibleRelation
 :

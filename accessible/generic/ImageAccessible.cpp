@@ -563,6 +563,7 @@ if
 (
 content
 )
+{
 content
 -
 >
@@ -578,6 +579,7 @@ imageRequest
 )
 )
 ;
+}
 if
 (
 imageRequest
@@ -1076,6 +1078,7 @@ HasLongDesc
 (
 )
 )
+{
 aName
 .
 AssignLiteral
@@ -1085,7 +1088,9 @@ showlongdesc
 "
 )
 ;
+}
 else
+{
 LinkableAccessible
 :
 :
@@ -1095,6 +1100,7 @@ aIndex
 aName
 )
 ;
+}
 }
 bool
 ImageAccessible

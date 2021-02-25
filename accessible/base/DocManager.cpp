@@ -1508,6 +1508,7 @@ if
 (
 progress
 )
+{
 progress
 -
 >
@@ -1523,6 +1524,7 @@ this
 )
 )
 ;
+}
 ClearDocCache
 (
 )
@@ -1758,9 +1760,11 @@ STATE_STOP
 =
 0
 )
+{
 return
 NS_OK
 ;
+}
 nsCOMPtr
 <
 mozIDOMWindowProxy
@@ -1847,6 +1851,7 @@ logging
 eDocLoad
 )
 )
+{
 logging
 :
 :
@@ -1861,6 +1866,7 @@ aRequest
 aStateFlags
 )
 ;
+}
 #
 endif
 /
@@ -1936,6 +1942,7 @@ IsContentDocument
 document
 )
 )
+{
 eventType
 =
 nsIAccessibleEvent
@@ -1943,6 +1950,7 @@ nsIAccessibleEvent
 :
 EVENT_DOCUMENT_LOAD_COMPLETE
 ;
+}
 /
 /
 If
@@ -2050,6 +2058,7 @@ logging
 eDocLoad
 )
 )
+{
 logging
 :
 :
@@ -2065,6 +2074,7 @@ aRequest
 aStateFlags
 )
 ;
+}
 #
 endif
 DocAccessible
@@ -2584,6 +2594,7 @@ logging
 eDocDestroy
 )
 )
+{
 logging
 :
 :
@@ -2599,6 +2610,7 @@ event
 document
 )
 ;
+}
 #
 endif
 /
@@ -2738,6 +2750,7 @@ logging
 eDocLoad
 )
 )
+{
 logging
 :
 :
@@ -2753,6 +2766,7 @@ event
 document
 )
 ;
+}
 #
 endif
 HandleDOMDocumentLoad
@@ -3015,6 +3029,7 @@ logging
 eDocCreate
 )
 )
+{
 logging
 :
 :
@@ -3029,6 +3044,7 @@ listener
 "
 )
 ;
+}
 #
 endif
 if
@@ -3068,6 +3084,7 @@ logging
 eDocCreate
 )
 )
+{
 logging
 :
 :
@@ -3082,6 +3099,7 @@ listener
 "
 )
 ;
+}
 #
 endif
 }

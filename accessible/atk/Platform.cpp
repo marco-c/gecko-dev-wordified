@@ -594,6 +594,7 @@ loc2
 <
 0
 )
+{
 subLen
 =
 libPath
@@ -604,13 +605,16 @@ Length
 -
 loc1
 ;
+}
 else
+{
 subLen
 =
 loc2
 -
 loc1
 ;
+}
 nsAutoCString
 sub
 (
@@ -811,12 +815,14 @@ if
 (
 pfn_atk_hyperlink_impl_get_type
 )
+{
 g_atk_hyperlink_impl_type
 =
 pfn_atk_hyperlink_impl_get_type
 (
 )
 ;
+}
 AtkGetTypeType
 pfn_atk_socket_get_type
 =
@@ -991,6 +997,7 @@ atkMinorVersion
 =
 0L
 )
+{
 atkMicroVersion
 =
 strtol
@@ -1003,6 +1010,7 @@ endPtr
 10
 )
 ;
+}
 }
 }
 }
@@ -1695,9 +1703,11 @@ reply
 DBUS_TYPE_VARIANT_AS_STRING
 )
 )
+{
 goto
 dbus_done
 ;
+}
 DBusMessageIter
 iter
 iter_variant

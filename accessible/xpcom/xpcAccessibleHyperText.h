@@ -207,11 +207,13 @@ IsTextRole
 (
 )
 )
+{
 mSupportedIfaces
 |
 =
 eText
 ;
+}
 }
 xpcAccessibleHyperText
 (
