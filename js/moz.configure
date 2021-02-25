@@ -1374,9 +1374,13 @@ sim_cpu
 return
 namespace
 (
+*
+*
+{
 sim_cpu
-=
+:
 True
+}
 )
 set_config
 (
