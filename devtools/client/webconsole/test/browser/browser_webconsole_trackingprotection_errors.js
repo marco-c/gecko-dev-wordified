@@ -1352,7 +1352,8 @@ third
 party
 context
 and
-storage
+dynamic
+state
 partitioning
 is
 enabled

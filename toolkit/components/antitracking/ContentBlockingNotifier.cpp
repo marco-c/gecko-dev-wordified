@@ -1025,7 +1025,7 @@ STATE_COOKIES_PARTITIONED_FOREIGN
 message
 =
 "
-CookiePartitionedForeign
+CookiePartitionedForeign2
 "
 ;
 category
