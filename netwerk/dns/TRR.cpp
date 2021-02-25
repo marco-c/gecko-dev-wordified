@@ -1084,11 +1084,11 @@ Accumulate
 Telemetry
 :
 :
-DNS_TRR_BLACKLISTED2
+DNS_TRR_BLACKLISTED3
 TRRService
 :
 :
-AutoDetectedKey
+ProviderKey
 (
 )
 true
@@ -1164,11 +1164,11 @@ Accumulate
 Telemetry
 :
 :
-DNS_TRR_BLACKLISTED2
+DNS_TRR_BLACKLISTED3
 TRRService
 :
 :
-AutoDetectedKey
+ProviderKey
 (
 )
 false
