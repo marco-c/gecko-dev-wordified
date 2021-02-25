@@ -2073,8 +2073,6 @@ override
 bool
 SupportsExternalCompositing
 (
-WebRenderBackend
-aBackend
 )
 override
 ;
@@ -2412,8 +2410,6 @@ override
 bool
 SupportsExternalCompositing
 (
-WebRenderBackend
-aBackend
 )
 override
 ;

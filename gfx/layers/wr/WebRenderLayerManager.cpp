@@ -2214,14 +2214,6 @@ WrBridge
 GetPipeline
 (
 )
-WrBridge
-(
-)
--
->
-WebRenderBackend
-(
-)
 preallocate
 &
 mDisplayItemCache
