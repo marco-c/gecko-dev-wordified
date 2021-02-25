@@ -443,14 +443,14 @@ EnsureUseCocoaDockAPI
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 GeckoNSApplication
 sharedApplication
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -587,7 +587,7 @@ SetupMacApplicationDelegate
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -753,7 +753,7 @@ setDelegate
 delegate
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -1108,7 +1108,7 @@ void
 )
 dealloc
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NSAppleEventManager
 *
@@ -1159,7 +1159,7 @@ super
 dealloc
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /

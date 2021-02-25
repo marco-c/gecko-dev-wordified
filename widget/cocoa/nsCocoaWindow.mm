@@ -1188,7 +1188,7 @@ DestroyNativeWindow
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -1251,7 +1251,7 @@ mDelegate
 autorelease
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsCocoaWindow
@@ -1262,7 +1262,7 @@ nsCocoaWindow
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -1517,7 +1517,7 @@ modality
 )
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -4547,7 +4547,7 @@ bool
 aState
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -5119,7 +5119,7 @@ NSNormalWindowLevel
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -5174,7 +5174,7 @@ bool
 bState
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -5965,7 +5965,7 @@ bmo
 bug
 470864
 .
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 [
@@ -5984,7 +5984,7 @@ orderFront
 nil
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 SendSetZLevelEvent
 (
@@ -6189,7 +6189,7 @@ NSWindowAbove
 }
 else
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -6337,7 +6337,7 @@ nil
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 SendSetZLevelEvent
 (
@@ -6900,7 +6900,7 @@ a
 real
 window
 .
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 sheetParent
@@ -6909,7 +6909,7 @@ makeKeyAndOrderFront
 nil
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 SendSetZLevelEvent
@@ -7078,7 +7078,7 @@ setBeingShown
 NO
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -7500,7 +7500,7 @@ AdjustWindowShadow
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -7583,7 +7583,7 @@ params
 flags
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -7601,7 +7601,7 @@ SetWindowBackgroundBlur
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -7677,7 +7677,7 @@ windowNumber
 kWindowBackgroundBlurRadius
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsresult
@@ -7805,7 +7805,7 @@ nsTransparencyMode
 aMode
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -7884,7 +7884,7 @@ whiteColor
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -7931,7 +7931,7 @@ int32_t
 aY
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -8321,7 +8321,7 @@ height
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -8336,7 +8336,7 @@ SizeConstraints
 aConstraints
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -8618,7 +8618,7 @@ SetSizeConstraints
 c
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -8639,7 +8639,7 @@ double
 aY
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -8758,7 +8758,7 @@ coord
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -8771,7 +8771,7 @@ nsSizeMode
 aMode
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -8945,7 +8945,7 @@ true
 )
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -9377,7 +9377,7 @@ GetWorkspaceID
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -9576,7 +9576,7 @@ cid
 return
 sid
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -9591,7 +9591,7 @@ nsAString
 workspaceIDStr
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -10035,7 +10035,7 @@ currentSpace
 ]
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -10155,7 +10155,7 @@ bool
 aShouldHide
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -10472,7 +10472,7 @@ mIsAnimationSuppressed
 wasAnimationSuppressed
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 class
@@ -11609,7 +11609,7 @@ bool
 aConstrainToCurrentScreen
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -11968,7 +11968,7 @@ display
 YES
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -13993,7 +13993,7 @@ ReportMoveEvent
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -14167,7 +14167,7 @@ mInReportMoveEvent
 =
 false
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -14382,7 +14382,7 @@ ReportSizeEvent
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 UpdateBounds
 (
@@ -14415,7 +14415,7 @@ height
 )
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -15352,7 +15352,7 @@ bool
 aDoCapture
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 gRollupListener
 =
@@ -15719,7 +15719,7 @@ NSModalPanelWindowLevel
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsresult
@@ -15777,7 +15777,7 @@ StyleWindowShadow
 aStyle
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -15845,7 +15845,7 @@ SetWindowBackgroundBlur
 (
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -15858,7 +15858,7 @@ float
 aOpacity
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -15879,7 +15879,7 @@ CGFloat
 aOpacity
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -15966,7 +15966,7 @@ Matrix
 aTransform
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -16482,7 +16482,7 @@ mWindowTransformIsIdentity
 =
 isIdentity
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -16548,7 +16548,7 @@ bool
 aShow
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -16561,7 +16561,7 @@ setShowsToolbarButton
 aShow
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -16574,7 +16574,7 @@ bool
 aSupportsNativeFullscreen
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -16701,7 +16701,7 @@ newBehavior
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -16732,7 +16732,7 @@ bool
 aDrawTitle
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -16783,7 +16783,7 @@ aDrawTitle
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsresult
@@ -16828,7 +16828,7 @@ bool
 aState
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -16841,7 +16841,7 @@ setDrawsContentsIntoWindowFrame
 aState
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 NS_IMETHODIMP
@@ -16996,7 +16996,7 @@ bool
 aShouldLock
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -17099,7 +17099,7 @@ mAspectRatioLocked
 false
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -17117,7 +17117,7 @@ ThemeGeometry
 aThemeGeometries
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -17134,7 +17134,7 @@ aThemeGeometries
 )
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -17257,13 +17257,13 @@ InputContextAction
 aAction
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 mInputContext
 =
 aContext
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 bool
@@ -17532,7 +17532,7 @@ NSWindow
 )
 aWindow
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -17804,7 +17804,7 @@ release
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -18763,7 +18763,7 @@ NSNotification
 )
 aNotification
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 RollUpPopups
 (
@@ -18866,7 +18866,7 @@ windowMainStateChanged
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -19031,7 +19031,7 @@ NSNotification
 )
 aNotification
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 RollUpPopups
 (
@@ -19128,7 +19128,7 @@ EnsureSecureEventInputDisabled
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -19143,7 +19143,7 @@ NSNotification
 )
 aNotification
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 RollUpPopups
 (
@@ -19213,7 +19213,7 @@ EnsureSecureEventInputDisabled
 (
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 -
@@ -19503,7 +19503,7 @@ NSNotification
 )
 aNotification
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NSWindow
 *
@@ -19569,7 +19569,7 @@ BackingScaleFactorChanged
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -25119,7 +25119,7 @@ id
 )
 sender
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 RollUpPopups
 (
@@ -25193,7 +25193,7 @@ OSToolbarButtonPressed
 )
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /

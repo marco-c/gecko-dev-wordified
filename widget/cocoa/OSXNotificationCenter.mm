@@ -994,7 +994,7 @@ nsAString
 alertCookie
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NS_ASSERTION
 (
@@ -1029,7 +1029,7 @@ mPendingNotification
 =
 nil
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 OSXNotificationInfo
@@ -1040,7 +1040,7 @@ OSXNotificationInfo
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 mName
@@ -1052,7 +1052,7 @@ mPendingNotification
 release
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -1100,7 +1100,7 @@ OSXNotificationCenter
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 mDelegate
 =
@@ -1126,7 +1126,7 @@ mSuppressForScreenSharing
 =
 false
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 OSXNotificationCenter
@@ -1137,7 +1137,7 @@ OSXNotificationCenter
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 GetNotificationCenter
@@ -1151,7 +1151,7 @@ mDelegate
 release
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 NS_IMPL_ISUPPORTS
@@ -2419,7 +2419,7 @@ NSString
 aAlertName
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -2622,7 +2622,7 @@ break
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -2642,7 +2642,7 @@ long
 aAdditionalActionIndex
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -2837,7 +2837,7 @@ return
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -2851,7 +2851,7 @@ OSXNotificationInfo
 osxni
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -2996,7 +2996,7 @@ mPendingNotification
 =
 nil
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 NS_IMETHODIMP

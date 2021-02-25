@@ -800,7 +800,7 @@ InitializeVersionNumbers
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -852,7 +852,7 @@ minor
 bugfix
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /

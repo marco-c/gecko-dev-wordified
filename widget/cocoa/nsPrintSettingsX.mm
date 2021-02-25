@@ -177,7 +177,7 @@ nsPrintSettingsX
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 mDestination
 =
@@ -249,7 +249,7 @@ mSaveOnCancel
 =
 false
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 already_AddRefed
@@ -1602,7 +1602,7 @@ bool
 aAdoptPrintInfo
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -2353,6 +2353,6 @@ SetIsInitializedFromPrinter
 true
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }

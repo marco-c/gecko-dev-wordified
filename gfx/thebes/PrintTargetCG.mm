@@ -184,7 +184,7 @@ mPrintSettings
 aPrintSettings
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 MOZ_ASSERT
 (
@@ -244,7 +244,7 @@ gfxQuartzSurface
 )
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 PrintTargetCG
@@ -255,7 +255,7 @@ PrintTargetCG
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 :
 :
@@ -278,7 +278,7 @@ PMRelease
 mPrintSettings
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /

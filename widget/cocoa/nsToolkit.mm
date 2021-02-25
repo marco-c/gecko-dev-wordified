@@ -427,7 +427,7 @@ void
 messageArgument
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 switch
 (
@@ -567,7 +567,7 @@ NS_WIDGET_WAKE_OBSERVER_TOPIC
 break
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsresult
@@ -670,7 +670,7 @@ RemoveSleepWakeNotifications
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -703,7 +703,7 @@ mSleepWakeNotificationRLS
 nullptr
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -810,7 +810,7 @@ MonitorAllProcessMouseEvents
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 /
 /
@@ -1023,7 +1023,7 @@ nullptr
 ]
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -1034,7 +1034,7 @@ StopMonitoringAllProcessMouseEvents
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -1056,7 +1056,7 @@ mAllProcessMouseMonitor
 nil
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /

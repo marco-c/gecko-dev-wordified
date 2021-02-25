@@ -514,7 +514,7 @@ mApplicationMenuDelegate
 nil
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 mNativeMenu
 =
@@ -530,7 +530,7 @@ MainMenuBar
 "
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsMenuBarX
@@ -541,7 +541,7 @@ nsMenuBarX
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -735,7 +735,7 @@ mNativeMenu
 release
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsresult
@@ -1583,7 +1583,7 @@ uint32_t
 aIndex
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -1707,7 +1707,7 @@ RemoveElementAt
 aIndex
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -5601,7 +5601,7 @@ id
 )
 sender
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -6062,7 +6062,7 @@ DoCommand
 ;
 }
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 end

@@ -2845,7 +2845,7 @@ nsNativeThemeCocoa
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 kMaxFocusRingWidth
 =
@@ -3185,7 +3185,7 @@ alloc
 init
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsNativeThemeCocoa
@@ -3196,7 +3196,7 @@ nsNativeThemeCocoa
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 mMeterBarCell
@@ -3258,7 +3258,7 @@ mCellDrawView
 release
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 /
@@ -3818,7 +3818,7 @@ BOOL
 mirrorHorizontal
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NSRect
 drawRect
@@ -4736,7 +4736,7 @@ destRect
 ;
 #
 endif
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 struct
@@ -5344,7 +5344,7 @@ snapTolerance
 0f
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 const
 float
@@ -5813,7 +5813,7 @@ view
 mirrorHorizontal
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 interface
@@ -6634,7 +6634,7 @@ CheckboxOrRadioParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NSButtonCell
 *
@@ -6789,7 +6789,7 @@ mCellDrawView
 NO
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -7144,7 +7144,7 @@ SearchFieldParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NSSearchFieldCell
 *
@@ -7227,7 +7227,7 @@ aParams
 rtl
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -7527,7 +7527,7 @@ MenuIconParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NSSize
 size
@@ -7787,7 +7787,7 @@ drawRect
 ;
 #
 endif
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsNativeThemeCocoa
@@ -8555,7 +8555,7 @@ ControlParams
 aControlParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 ApplyControlParamsToNSCell
 (
@@ -8588,7 +8588,7 @@ rtl
 0f
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -8607,7 +8607,7 @@ ControlParams
 aControlParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 ApplyControlParamsToNSCell
 (
@@ -8641,7 +8641,7 @@ aControlParams
 rtl
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -8660,7 +8660,7 @@ ControlParams
 aControlParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 ApplyControlParamsToNSCell
 (
@@ -8691,7 +8691,7 @@ icon
 in
 RTL
 .
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -8712,7 +8712,7 @@ NSCellStateValue
 aCellState
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 ApplyControlParamsToNSCell
 (
@@ -8750,7 +8750,7 @@ icon
 in
 RTL
 .
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -8767,7 +8767,7 @@ HIRect
 inBoxRect
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NSGraphicsContext
 *
@@ -8823,7 +8823,7 @@ setCurrentContext
 savedContext
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 typedef
@@ -9445,7 +9445,7 @@ ControlParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 HIThemeButtonDrawInfo
 bdi
@@ -9578,7 +9578,7 @@ inBoxRect
 ;
 #
 endif
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -10031,7 +10031,7 @@ TreeHeaderCellParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 HIThemeButtonDrawInfo
 bdi
@@ -10316,7 +10316,7 @@ inBoxRect
 ;
 #
 endif
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -10589,7 +10589,7 @@ DropdownParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 [
 mDropdownCell
@@ -10688,7 +10688,7 @@ controlParams
 rtl
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -10967,7 +10967,7 @@ SpinButtonParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 HIThemeButtonDrawInfo
 bdi
@@ -10989,7 +10989,7 @@ HITHEME_ORIENTATION
 NULL
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -11012,7 +11012,7 @@ SpinButtonParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 HIThemeButtonDrawInfo
 bdi
@@ -11193,7 +11193,7 @@ CGContextRestoreGState
 cgContext
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -11212,7 +11212,7 @@ TextBoxParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 SetCGContextFillColor
 (
@@ -11455,7 +11455,7 @@ cgContext
 HITHEME_ORIENTATION
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -11974,7 +11974,7 @@ ProgressParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 NSProgressBarCell
 *
@@ -12061,7 +12061,7 @@ aParams
 rtl
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
@@ -12370,7 +12370,7 @@ MeterParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 NSLevelIndicatorCell
 *
 cell
@@ -12858,7 +12858,7 @@ CGContextRestoreGState
 cgContext
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 }
 void
 nsNativeThemeCocoa
@@ -12876,7 +12876,7 @@ bool
 aIsInsideActiveWindow
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 HIThemeTabPaneDrawInfo
 tpdi
@@ -12925,7 +12925,7 @@ cgContext
 HITHEME_ORIENTATION
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 Maybe
@@ -13111,7 +13111,7 @@ ScaleParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 HIThemeTrackDrawInfo
 tdi
@@ -13267,7 +13267,7 @@ cgContext
 HITHEME_ORIENTATION
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 nsIFrame
@@ -15126,7 +15126,7 @@ UnifiedToolbarParams
 aParams
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 CGContextSaveGState
 (
@@ -15201,7 +15201,7 @@ CGContextRestoreGState
 cgContext
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -15220,7 +15220,7 @@ bool
 aIsMain
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 if
 (
@@ -15399,7 +15399,7 @@ CGContextRestoreGState
 cgContext
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 void
@@ -15527,7 +15527,7 @@ bool
 aIsRTL
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
 ;
 HIThemeGrowBoxDrawInfo
 drawInfo
@@ -15574,7 +15574,7 @@ drawInfo
 aIsRTL
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 static
