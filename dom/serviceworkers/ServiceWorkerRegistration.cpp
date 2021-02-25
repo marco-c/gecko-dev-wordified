@@ -479,12 +479,6 @@ aDescriptor
 )
 ;
 }
-NS_ENSURE_TRUE
-(
-inner
-nullptr
-)
-;
 RefPtr
 <
 ServiceWorkerRegistration
@@ -636,12 +630,6 @@ aDescriptor
 )
 ;
 }
-NS_ENSURE_TRUE
-(
-inner
-nullptr
-)
-;
 RefPtr
 <
 ServiceWorkerRegistration

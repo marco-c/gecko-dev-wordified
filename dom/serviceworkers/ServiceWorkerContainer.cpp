@@ -753,12 +753,6 @@ ServiceWorkerContainerImpl
 )
 ;
 }
-NS_ENSURE_TRUE
-(
-inner
-nullptr
-)
-;
 RefPtr
 <
 ServiceWorkerContainer
