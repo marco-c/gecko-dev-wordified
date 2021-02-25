@@ -1317,11 +1317,11 @@ get
 "
 timeout
 "
-7200
+600
 )
 #
-2
-hours
+10
+minutes
 default
             
 if
