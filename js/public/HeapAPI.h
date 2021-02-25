@@ -665,11 +665,9 @@ public
 :
 /
 *
-List
-of
-free
-committed
+Free
 arenas
+are
 linked
 together
 with
