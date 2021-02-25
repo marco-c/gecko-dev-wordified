@@ -23230,12 +23230,7 @@ void
 IncLazyLoadImageCount
 (
 )
-{
-+
-+
-mLazyLoadImageCount
 ;
-}
 void
 DecLazyLoadImageCount
 (
