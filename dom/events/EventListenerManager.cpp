@@ -6493,12 +6493,6 @@ NodePrincipal
 )
 )
 ;
-NS_ENSURE_TRUE
-(
-fetchOptions
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 RefPtr
 <
 EventScript
@@ -6510,12 +6504,6 @@ EventScript
 (
 fetchOptions
 uri
-)
-;
-NS_ENSURE_TRUE
-(
-eventScript
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 JS
