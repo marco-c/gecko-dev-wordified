@@ -1637,6 +1637,7 @@ cx
 CompilationInput
 &
 input
+const
 CompilationStencil
 &
 stencil
@@ -1780,6 +1781,7 @@ cx
 CompilationInput
 &
 input
+const
 CompilationStencil
 &
 stencil
@@ -5830,6 +5832,7 @@ cx
 CompilationInput
 &
 input
+const
 CompilationStencil
 &
 stencil
