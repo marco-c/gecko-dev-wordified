@@ -3252,7 +3252,7 @@ obj
 )
 -
 >
-isProxy
+isProxyObject
 (
 )
 ;

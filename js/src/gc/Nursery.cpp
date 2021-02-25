@@ -2470,7 +2470,7 @@ clasp
 clasp
 -
 >
-isProxy
+isProxyObject
 (
 )
 )

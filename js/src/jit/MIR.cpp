@@ -36965,7 +36965,7 @@ object
 )
 -
 >
-isProxy
+isProxyObject
 (
 )
 )
