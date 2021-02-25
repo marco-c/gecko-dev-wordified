@@ -690,14 +690,17 @@ box
 param
 aRatioDetermingSize
 The
+content
+-
+box
 size
 on
 the
 ratio
 determining
+*
 axis
 .
-*
 Basically
 we
 use
@@ -707,8 +710,8 @@ and
 |
 mRatio
 |
-to
 *
+to
 compute
 the
 size
@@ -717,6 +720,7 @@ the
 ratio
 -
 dependent
+*
 axis
 .
 *
