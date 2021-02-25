@@ -6818,7 +6818,7 @@ newRRSet
 newRRSet
 -
 >
-IsTRR
+TRRType
 (
 )
 =
