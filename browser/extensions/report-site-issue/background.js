@@ -133,9 +133,9 @@ webcompat
 ;
 browser
 .
-pageAction
+helpMenu
 .
-onClicked
+onHelpMenuCommand
 .
 addListener
 (
