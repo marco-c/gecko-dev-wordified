@@ -40410,6 +40410,14 @@ Exists
 )
 )
 ;
+AUTO_PROFILER_LABEL
+(
+"
+profiler_capture_backtrace
+"
+PROFILER
+)
+;
 /
 /
 Quick
