@@ -1667,13 +1667,6 @@ dropRawBuffer
 ;
 }
 ;
-bool
-IsSharedArrayBuffer
-(
-HandleValue
-v
-)
-;
 using
 RootedSharedArrayBufferObject
 =

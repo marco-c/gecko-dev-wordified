@@ -1121,9 +1121,14 @@ value
 .
 MOZ_ASSERT_IF
 (
-IsArrayBuffer
-(
 buffer
+-
+>
+is
+<
+ArrayBufferObject
+>
+(
 )
 buffer
 -
