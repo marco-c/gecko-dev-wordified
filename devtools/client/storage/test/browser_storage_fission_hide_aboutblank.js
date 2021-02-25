@@ -223,11 +223,6 @@ doc
 "
 localStorage
 "
-"
-about
-:
-blank
-"
 ]
 true
 )
