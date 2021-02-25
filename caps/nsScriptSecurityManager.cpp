@@ -781,10 +781,13 @@ bundleService
 mozilla
 :
 :
-services
+components
 :
 :
-GetStringBundleService
+StringBundle
+:
+:
+Service
 (
 )
 ;

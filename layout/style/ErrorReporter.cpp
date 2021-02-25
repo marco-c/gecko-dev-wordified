@@ -188,7 +188,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -573,10 +573,13 @@ nsIStringBundleService
 >
 sbs
 =
-services
+components
 :
 :
-GetStringBundleService
+StringBundle
+:
+:
+Service
 (
 )
 ;

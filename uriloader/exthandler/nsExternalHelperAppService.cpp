@@ -14170,10 +14170,13 @@ stringService
 mozilla
 :
 :
-services
+components
 :
 :
-GetStringBundleService
+StringBundle
+:
+:
+Service
 (
 )
 ;

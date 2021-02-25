@@ -129,7 +129,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -834,10 +834,13 @@ bundleService
 mozilla
 :
 :
-services
+components
 :
 :
-GetStringBundleService
+StringBundle
+:
+:
+Service
 (
 )
 ;
