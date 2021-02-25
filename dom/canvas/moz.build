@@ -477,6 +477,11 @@ QueueParamTraits
 h
 "
 "
+SanitizeRenderer
+.
+h
+"
+"
 TextMetrics
 .
 h
@@ -999,6 +1004,14 @@ IPDL_SOURCES
 PWebGL
 .
 ipdl
+"
+]
+TEST_DIRS
++
+=
+[
+"
+gtest
 "
 ]
 #
