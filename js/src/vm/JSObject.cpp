@@ -6343,11 +6343,6 @@ allocKind
 =
 NewObjectGCKind
 (
-&
-PlainObject
-:
-:
-class_
 )
 ;
 NewObjectKind
@@ -6442,7 +6437,6 @@ kind
 =
 NewObjectGCKind
 (
-newclasp
 )
 ;
 return

@@ -423,11 +423,6 @@ allocKind
 =
 NewObjectGCKind
 (
-&
-PlainObject
-:
-:
-class_
 )
 ;
 res
