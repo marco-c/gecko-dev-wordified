@@ -29597,10 +29597,13 @@ swm
 mozilla
 :
 :
-services
+components
 :
 :
-GetServiceWorkerManager
+ServiceWorkerManager
+:
+:
+Service
 (
 )
 ;

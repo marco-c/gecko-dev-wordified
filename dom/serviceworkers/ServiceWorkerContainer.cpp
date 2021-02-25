@@ -193,7 +193,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -3734,10 +3734,13 @@ swm
 mozilla
 :
 :
-services
+components
 :
 :
-GetServiceWorkerManager
+ServiceWorkerManager
+:
+:
+Service
 (
 )
 ;
