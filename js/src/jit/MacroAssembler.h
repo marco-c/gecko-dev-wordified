@@ -1579,7 +1579,7 @@ class
 CompileZone
 ;
 class
-NativeTemplateObject
+TemplateNativeObject
 ;
 class
 TemplateObject
@@ -30184,7 +30184,7 @@ copySlotsFromTemplate
 Register
 obj
 const
-NativeTemplateObject
+TemplateNativeObject
 &
 templateObj
 uint32_t
@@ -30244,7 +30244,7 @@ obj
 Register
 temp
 const
-NativeTemplateObject
+TemplateNativeObject
 &
 templateObj
 bool
