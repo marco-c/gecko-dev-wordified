@@ -9,10 +9,6 @@ os
 import
 sys
 from
-configparser
-import
-ConfigParser
-from
 mozlog
 import
 structuredlog
@@ -29,6 +25,18 @@ mozlog
 formatters
 import
 MachFormatter
+from
+six
+import
+iteritems
+from
+six
+.
+moves
+.
+configparser
+import
+ConfigParser
 from
 wptrunner
 import
@@ -645,10 +653,9 @@ for
 name
 value
 in
-settings
-.
-items
+iteritems
 (
+settings
 )
 :
         
@@ -822,15 +829,14 @@ for
 product
 product_settings
 in
+iteritems
+(
 config
 [
 "
 products
 "
 ]
-.
-items
-(
 )
 :
         

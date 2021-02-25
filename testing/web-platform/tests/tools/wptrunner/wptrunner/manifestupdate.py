@@ -5,6 +5,10 @@ print_function
 import
 os
 from
+six
+.
+moves
+.
 urllib
 .
 parse
@@ -21,6 +25,15 @@ from
 math
 import
 ceil
+from
+six
+import
+integer_types
+iterkeys
+itervalues
+iteritems
+string_types
+text_type
 from
 .
 wptmanifest
@@ -423,12 +436,11 @@ self
 for
 name
 in
+iterkeys
+(
 self
 .
 _classes
-.
-keys
-(
 )
 :
             
@@ -2033,10 +2045,9 @@ for
 run_info
 values
 in
-results
-.
-items
+iteritems
 (
+results
 )
 :
         
@@ -2044,10 +2055,9 @@ for
 value
 count
 in
-values
-.
-items
+iteritems
 (
+values
 )
 :
             
@@ -2678,7 +2688,11 @@ if
 isinstance
 (
 disable_intermittent
-str
+string_types
++
+(
+text_type
+)
 )
 else
 "
@@ -3531,10 +3545,9 @@ run_info
 node
 )
 in
-run_info_index
-.
-items
+iteritems
 (
+run_info_index
 )
                             
 if
@@ -3615,10 +3628,9 @@ top_level_props
 for
 item
 in
-dependent_props
-.
-values
+itervalues
 (
+dependent_props
 )
 :
                 
@@ -4897,10 +4909,9 @@ for
 status
 count
 in
-new
-.
-items
+iteritems
 (
+new
 )
 :
             
@@ -5050,10 +5061,9 @@ sorted_new
 =
 sorted
 (
-counts
-.
-items
+iteritems
 (
+counts
 )
 key
 =
@@ -5068,7 +5078,7 @@ x
 [
 1
 ]
-                                                        
+                                                           
 status_priority
 .
 get
@@ -5077,7 +5087,7 @@ x
 [
 0
 ]
-                                                        
+                                                           
 len
 (
 status_priority
@@ -5494,7 +5504,7 @@ elif
 isinstance
 (
 item
-str
+text_type
 )
 :
                 
@@ -5787,10 +5797,9 @@ item
 in
 sorted
 (
-data
-.
-items
+iteritems
 (
+data
 )
 )
 ]
@@ -6259,8 +6268,9 @@ if
 isinstance
 (
 value
+integer_types
++
 (
-int
 float
 )
 )
@@ -6277,7 +6287,7 @@ elif
 isinstance
 (
 value
-str
+text_type
 )
 :
         
@@ -6285,7 +6295,7 @@ node
 =
 StringNode
 (
-str
+text_type
 (
 value
 )
@@ -6336,8 +6346,9 @@ if
 isinstance
 (
 value
+integer_types
++
 (
-int
 float
 )
 )
@@ -6354,7 +6365,7 @@ elif
 isinstance
 (
 value
-str
+text_type
 )
 :
         
@@ -6362,7 +6373,7 @@ node
 =
 ValueNode
 (
-str
+text_type
 (
 value
 )

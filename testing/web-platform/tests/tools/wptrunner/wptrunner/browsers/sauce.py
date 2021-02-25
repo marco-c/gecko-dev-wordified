@@ -70,8 +70,12 @@ time
 import
 requests
 from
-io
+six
+.
+moves
 import
+cStringIO
+as
 StringIO
 from
 .

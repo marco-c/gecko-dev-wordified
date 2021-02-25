@@ -22,12 +22,22 @@ import
 ABCMeta
 abstractmethod
 from
-http
+six
+import
+text_type
+from
+six
 .
-client
+moves
+.
+http_client
 import
 HTTPConnection
 from
+six
+.
+moves
+.
 urllib
 .
 parse
@@ -2444,7 +2454,7 @@ ERROR
         
 message
 =
-str
+text_type
 (
 getattr
 (

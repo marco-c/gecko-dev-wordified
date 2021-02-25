@@ -1,4 +1,16 @@
 #
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+#
 run
 this
 with
@@ -21,6 +33,9 @@ test_function
 pass
 class
 TestClass
+(
+object
+)
 :
     
 def
