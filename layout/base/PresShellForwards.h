@@ -1181,12 +1181,6 @@ UseHighQualityScaling
 <
 <
 7
-ResetViewportScrolling
-=
-1
-<
-<
-8
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
