@@ -6283,6 +6283,15 @@ decommitAllArenas
 (
 )
 ;
+#
+ifdef
+DEBUG
+verify
+(
+)
+;
+#
+endif
 /
 *
 The
