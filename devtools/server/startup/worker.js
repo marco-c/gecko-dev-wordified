@@ -341,6 +341,11 @@ id
 )
 ;
 }
+.
+bind
+(
+this
+)
 ;
 loadSubScript
 (
