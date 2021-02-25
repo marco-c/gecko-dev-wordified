@@ -2588,7 +2588,7 @@ hud
 .
 targetList
 .
-targetFront
+descriptorFront
 .
 isLocalTab
 ;

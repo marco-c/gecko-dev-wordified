@@ -271,7 +271,7 @@ toolbox
 {
 let
 {
-target
+descriptorFront
 }
 =
 toolbox
@@ -279,7 +279,7 @@ toolbox
 if
 (
 !
-target
+descriptorFront
 .
 isLocalTab
 )
@@ -307,7 +307,7 @@ supported
 let
 parentWindow
 =
-target
+descriptorFront
 .
 localTab
 .
@@ -324,7 +324,7 @@ gBrowser
 .
 getTabForBrowser
 (
-target
+descriptorFront
 .
 localTab
 .
@@ -1328,7 +1328,7 @@ canAccessWindow
 (
 toolbox
 .
-target
+descriptorFront
 .
 localTab
 .
@@ -1571,8 +1571,6 @@ target
 {
 toolbox
 .
-target
-.
 descriptorFront
 .
 url
@@ -1740,7 +1738,7 @@ if
 !
 toolbox
 .
-target
+descriptorFront
 .
 isLocalTab
 |
@@ -1754,7 +1752,7 @@ canAccessWindow
 (
 toolbox
 .
-target
+descriptorFront
 .
 localTab
 .
@@ -2494,7 +2492,7 @@ if
 !
 toolbox
 .
-target
+descriptorFront
 .
 isLocalTab
 |
@@ -2508,7 +2506,7 @@ canAccessWindow
 (
 toolbox
 .
-target
+descriptorFront
 .
 localTab
 .
@@ -2674,7 +2672,7 @@ if
 !
 toolbox
 .
-target
+descriptorFront
 .
 isLocalTab
 )

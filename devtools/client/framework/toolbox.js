@@ -10835,7 +10835,7 @@ if
 !
 this
 .
-target
+descriptorFront
 .
 isLocalTab
 )
@@ -20550,7 +20550,7 @@ hostType
 !
 this
 .
-target
+descriptorFront
 .
 isLocalTab
 )

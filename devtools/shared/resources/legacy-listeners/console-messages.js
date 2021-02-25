@@ -145,7 +145,7 @@ listenForFrames
 =
 targetList
 .
-targetFront
+descriptorFront
 .
 isLocalTab
 ;
