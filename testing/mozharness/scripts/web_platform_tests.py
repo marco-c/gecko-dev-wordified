@@ -2349,6 +2349,16 @@ self
 is_android
             
 or
+mozinfo
+.
+info
+[
+"
+tsan
+"
+]
+            
+or
 "
 wdspec
 "
