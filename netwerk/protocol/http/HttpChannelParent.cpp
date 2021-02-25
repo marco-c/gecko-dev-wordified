@@ -259,6 +259,15 @@ include
 "
 mozilla
 /
+ProfilerLabels
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StoragePrincipalHelper
 .
 h

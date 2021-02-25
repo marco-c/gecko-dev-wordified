@@ -179,6 +179,15 @@ Types
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerLabels
+.
+h
+"
 namespace
 mozilla
 {

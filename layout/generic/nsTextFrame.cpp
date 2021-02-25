@@ -680,7 +680,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerLabels
 .
 h
 "

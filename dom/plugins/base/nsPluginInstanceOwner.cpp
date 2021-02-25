@@ -392,6 +392,15 @@ include
 "
 mozilla
 /
+ProfilerLabels
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEvents
 .
 h

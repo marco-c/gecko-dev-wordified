@@ -218,7 +218,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+MemoryReporting
 .
 h
 "
@@ -227,7 +229,7 @@ include
 "
 mozilla
 /
-MemoryReporting
+ProfilerLabels
 .
 h
 "

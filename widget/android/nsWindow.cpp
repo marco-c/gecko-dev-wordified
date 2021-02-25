@@ -842,14 +842,12 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerLabels
 .
 h
 "
-/
-/
-For
-AUTO_PROFILER_LABEL
 #
 include
 "

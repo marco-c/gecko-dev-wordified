@@ -320,7 +320,9 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerLabels
 .
 h
 "

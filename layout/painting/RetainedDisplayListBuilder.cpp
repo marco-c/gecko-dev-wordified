@@ -206,6 +206,15 @@ PresShell
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerLabels
+.
+h
+"
 /
 *
 *

@@ -266,7 +266,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+PresShell
 .
 h
 "
@@ -275,7 +277,7 @@ include
 "
 mozilla
 /
-PresShell
+ProfilerLabels
 .
 h
 "

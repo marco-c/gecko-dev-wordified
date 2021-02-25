@@ -448,6 +448,15 @@ RenderRootStateManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerLabels
+.
+h
+"
 using
 namespace
 mozilla

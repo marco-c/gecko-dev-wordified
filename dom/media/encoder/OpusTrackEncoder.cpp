@@ -110,7 +110,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+CheckedInt
 .
 h
 "
@@ -119,7 +121,7 @@ include
 "
 mozilla
 /
-CheckedInt
+ProfilerLabels
 .
 h
 "
