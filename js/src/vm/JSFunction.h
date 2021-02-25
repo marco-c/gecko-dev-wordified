@@ -1304,7 +1304,7 @@ isInterpreted
 ;
 }
 bool
-isNative
+isNativeFun
 (
 )
 const
@@ -1312,7 +1312,7 @@ const
 return
 flags_
 .
-isNative
+isNativeFun
 (
 )
 ;
@@ -3701,7 +3701,7 @@ const
 {
 MOZ_ASSERT
 (
-isNative
+isNativeFun
 (
 )
 )
@@ -3772,7 +3772,7 @@ jitInfo
 {
 MOZ_ASSERT
 (
-isNative
+isNativeFun
 (
 )
 )

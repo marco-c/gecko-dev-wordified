@@ -11574,7 +11574,7 @@ if
 f
 -
 >
-isNative
+isNativeFun
 (
 )
 |

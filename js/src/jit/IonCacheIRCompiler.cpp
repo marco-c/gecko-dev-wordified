@@ -6347,7 +6347,7 @@ MOZ_ASSERT
 target
 -
 >
-isNative
+isNativeFun
 (
 )
 )
@@ -9639,7 +9639,7 @@ MOZ_ASSERT
 target
 -
 >
-isNative
+isNativeFun
 (
 )
 )

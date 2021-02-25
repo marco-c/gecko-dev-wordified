@@ -15782,7 +15782,7 @@ if
 getter
 -
 >
-isNative
+isNativeFun
 (
 )
 )

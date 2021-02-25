@@ -3856,7 +3856,7 @@ if
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )
@@ -4344,7 +4344,7 @@ JSFunction
 (
 )
 .
-isNative
+isNativeFun
 (
 )
 |
@@ -4755,7 +4755,7 @@ if
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )
@@ -29479,7 +29479,7 @@ if
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )

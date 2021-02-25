@@ -1144,7 +1144,7 @@ SELFHOSTLAZY
 ;
 }
 bool
-isNative
+isNativeFun
 (
 )
 const
@@ -1237,7 +1237,7 @@ kind
 =
 =
 AsmJS
-isNative
+isNativeFun
 (
 )
 )
@@ -1265,7 +1265,7 @@ kind
 =
 =
 Wasm
-isNative
+isNativeFun
 (
 )
 )
@@ -1315,7 +1315,7 @@ MOZ_ASSERT_IF
 hasJitEntry
 (
 )
-isNative
+isNativeFun
 (
 )
 )
@@ -1334,7 +1334,7 @@ isBuiltinNative
 const
 {
 return
-isNative
+isNativeFun
 (
 )
 &
@@ -1805,7 +1805,7 @@ isSelfHostedOrIntrinsic
 &
 &
 !
-isNative
+isNativeFun
 (
 )
 ;
@@ -1822,7 +1822,7 @@ isSelfHostedOrIntrinsic
 )
 &
 &
-isNative
+isNativeFun
 (
 )
 ;
@@ -1988,7 +1988,7 @@ setIsIntrinsic
 {
 MOZ_ASSERT
 (
-isNative
+isNativeFun
 (
 )
 )

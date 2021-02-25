@@ -767,7 +767,7 @@ MOZ_ASSERT_IF
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 IsAsmJSModuleNative

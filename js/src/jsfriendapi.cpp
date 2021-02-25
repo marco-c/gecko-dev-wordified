@@ -3084,7 +3084,7 @@ JSFunction
 (
 )
 .
-isNative
+isNativeFun
 (
 )
 )
@@ -3136,7 +3136,7 @@ JSFunction
 (
 )
 .
-isNative
+isNativeFun
 (
 )
 )
@@ -3208,7 +3208,7 @@ JSFunction
 (
 )
 .
-isNative
+isNativeFun
 (
 )
 )

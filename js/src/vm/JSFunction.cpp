@@ -8221,7 +8221,7 @@ if
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )
@@ -12813,7 +12813,7 @@ const
 {
 if
 (
-isNative
+isNativeFun
 (
 )
 )
@@ -12919,7 +12919,7 @@ const
 {
 if
 (
-isNative
+isNativeFun
 (
 )
 )
@@ -13502,7 +13502,7 @@ MOZ_ASSERT
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )
@@ -14750,7 +14750,7 @@ MOZ_ASSERT
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )
@@ -14882,7 +14882,7 @@ MOZ_ASSERT
 fun
 -
 >
-isNative
+isNativeFun
 (
 )
 )
