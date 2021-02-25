@@ -65,7 +65,7 @@ Library
 dummy
 "
 )
-USE_YASM
+USE_NASM
 =
 True
 SOURCES
