@@ -4308,7 +4308,7 @@ NSEvent
 aEvent
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSEvent
 *
@@ -4375,7 +4375,10 @@ keyCode
 return
 newEvent
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 /
@@ -4399,7 +4402,7 @@ NSGraphicsContext
 aContext
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSEventType
 eventType
@@ -4640,7 +4643,10 @@ code
 not
 currently
 needed
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 /
@@ -6774,7 +6780,7 @@ CGFloat
 aBackingScaleFactor
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 NSString
 *
 nsstr
@@ -6977,7 +6983,10 @@ length
 return
 attrStr
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 }
 TimeStamp
 nsCocoaUtils

@@ -475,7 +475,7 @@ NSPoint
 aDragPoint
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 CGFloat
 scaleFactor
@@ -688,7 +688,10 @@ nil
 return
 image
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 NSImage
@@ -715,7 +718,7 @@ LayoutDeviceIntRect
 aDragRect
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 CGFloat
 scaleFactor
@@ -1304,7 +1307,10 @@ image
 autorelease
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 bool
@@ -1434,7 +1440,7 @@ bool
 allowFileURL
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSString
 *
@@ -1483,7 +1489,10 @@ availableType
 return
 nil
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 NSString
@@ -1498,7 +1507,7 @@ NSPasteboardItem
 item
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSString
 *
@@ -1548,7 +1557,10 @@ lastPathComponent
 return
 nil
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 NSString
@@ -1563,7 +1575,7 @@ NSPasteboardItem
 item
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 NSString
 *
@@ -1617,7 +1629,10 @@ path
 return
 nil
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+NS_OBJC_END_TRY_BLOCK_RETURN
+(
+nil
+)
 ;
 }
 nsresult
