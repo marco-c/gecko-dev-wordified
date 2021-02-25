@@ -4790,8 +4790,7 @@ bootstrap_search_path
 (
 "
 clang
-"
-"
+/
 bin
 "
 )
@@ -4801,8 +4800,7 @@ bootstrap_search_path
 (
 "
 rustc
-"
-"
+/
 bin
 "
 when
