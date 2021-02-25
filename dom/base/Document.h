@@ -785,13 +785,6 @@ h
 #
 include
 "
-nsStubMutationObserver
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -2964,8 +2957,6 @@ public
 nsIScriptObjectPrincipal
 public
 nsIApplicationCacheContainer
-public
-nsStubMutationObserver
 public
 DispatcherTrait
 public
