@@ -860,6 +860,14 @@ kind
 )
 const
 ;
+void
+adjustTruncatedInputs
+(
+MDefinition
+*
+def
+)
+;
 /
 /
 Any
