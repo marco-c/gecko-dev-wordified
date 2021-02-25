@@ -243,7 +243,7 @@ const
 double
 kWholePagePixelSize
 =
-1000
+550
 .
 0
 ;
@@ -272,7 +272,7 @@ kSwipeSuccessVelocityContribution
 =
 0
 .
-3
+05
 ;
 namespace
 mozilla
