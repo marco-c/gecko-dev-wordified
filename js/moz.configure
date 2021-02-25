@@ -1270,11 +1270,6 @@ enable
 simulator
 "
 target
-"
--
--
-help
-"
 )
 def
 simulator
@@ -1282,7 +1277,6 @@ simulator
 jit_enabled
 simulator_enabled
 target
-_
 )
 :
 if
@@ -1380,13 +1374,9 @@ sim_cpu
 return
 namespace
 (
-*
-*
-{
 sim_cpu
-:
+=
 True
-}
 )
 set_config
 (

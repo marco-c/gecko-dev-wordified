@@ -1219,6 +1219,18 @@ BUILTINS
                         
 continue
                     
+if
+instr
+.
+argval
+in
+"
+namespace
+"
+:
+                        
+continue
+                    
 return
 True
         

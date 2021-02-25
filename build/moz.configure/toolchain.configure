@@ -184,17 +184,11 @@ enable
 -
 optimize
 "
-"
--
--
-help
-"
 )
 def
 moz_optimize
 (
 option
-_
 )
 :
 flags

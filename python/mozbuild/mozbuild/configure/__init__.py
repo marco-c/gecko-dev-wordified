@@ -9419,6 +9419,10 @@ log
 self
 .
 log_impl
+            
+namespace
+=
+ReadOnlyNamespace
         
 )
         
