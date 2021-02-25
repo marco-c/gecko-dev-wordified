@@ -2305,6 +2305,10 @@ gdk_screen_get_monitor_workarea
 )
 STUB
 (
+gdk_window_get_frame_clock
+)
+STUB
+(
 gdk_window_get_type
 )
 STUB
