@@ -646,7 +646,7 @@ caption
 thisacc
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -1147,7 +1147,7 @@ ChildCount
 cell
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 -
@@ -1587,7 +1587,7 @@ child
 thisacc
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )

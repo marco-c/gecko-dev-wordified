@@ -1808,7 +1808,7 @@ Accessible
 *
 listAcc
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -2251,7 +2251,7 @@ Accessible
 *
 parent
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -2267,15 +2267,17 @@ IsHTMLOptGroup
 (
 )
 )
+{
 parent
 =
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
+}
 return
 parent
 &
@@ -4214,7 +4216,7 @@ Accessible
 *
 comboAcc
 =
-Parent
+LocalParent
 (
 )
 ;

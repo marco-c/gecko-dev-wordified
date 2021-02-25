@@ -570,7 +570,7 @@ currAcc
 mHyperTextAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -629,7 +629,7 @@ currAcc
 mHyperTextAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -1164,7 +1164,7 @@ currAcc
 mHyperTextAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -1343,7 +1343,7 @@ currAcc
 mHyperTextAcc
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )

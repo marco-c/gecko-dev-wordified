@@ -7561,7 +7561,7 @@ IsTable
 aContext
 -
 >
-Parent
+LocalParent
 (
 )
 &
@@ -7569,7 +7569,7 @@ Parent
 aContext
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -9984,7 +9984,7 @@ table
 aContext
 -
 >
-Parent
+LocalParent
 (
 )
 &
@@ -9992,7 +9992,7 @@ Parent
 aContext
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -10001,15 +10001,17 @@ IsTable
 (
 )
 )
+{
 table
 =
 aContext
 -
 >
-Parent
+LocalParent
 (
 )
 ;
+}
 if
 (
 table

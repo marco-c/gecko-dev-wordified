@@ -2174,7 +2174,7 @@ Accessible
 *
 child
 =
-GetChildAt
+LocalChildAt
 (
 startChildIdx
 )
@@ -2218,7 +2218,7 @@ Accessible
 *
 startChild
 =
-GetChildAt
+LocalChildAt
 (
 startChildIdx
 )
@@ -2256,7 +2256,7 @@ Accessible
 *
 child
 =
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -2292,7 +2292,7 @@ Accessible
 *
 endChild
 =
-GetChildAt
+LocalChildAt
 (
 endChildIdx
 )
@@ -2985,7 +2985,7 @@ parent
 descendant
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -3197,7 +3197,7 @@ IsHTMLListItem
 descendant
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 &
@@ -3205,7 +3205,7 @@ PrevSibling
 descendant
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 -
@@ -3218,7 +3218,7 @@ GetFrame
 descendant
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 -
@@ -3422,7 +3422,7 @@ Accessible
 *
 child
 =
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -3832,7 +3832,7 @@ child
 text
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -9316,7 +9316,7 @@ Accessible
 *
 parent
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -9501,7 +9501,7 @@ flags
 if
 (
 !
-PrevSibling
+LocalPrevSibling
 (
 )
 )
@@ -9527,7 +9527,7 @@ else
 if
 (
 !
-NextSibling
+LocalNextSibling
 (
 )
 )
@@ -11132,7 +11132,7 @@ nsIFrame
 *
 frame
 =
-GetChildAt
+LocalChildAt
 (
 childIdx
 +
@@ -11454,7 +11454,7 @@ Accessible
 *
 ancestor
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -11513,7 +11513,7 @@ ancestor
 ancestor
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -14537,7 +14537,7 @@ parent
 child
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -14555,10 +14555,12 @@ AsHyperText
 )
 )
 )
+{
 child
 =
 parent
 ;
+}
 /
 /
 If
@@ -14699,7 +14701,7 @@ parent
 child
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -14713,10 +14715,12 @@ IsHyperText
 (
 )
 )
+{
 child
 =
 parent
 ;
+}
 /
 /
 Return
@@ -15224,7 +15228,7 @@ Accessible
 *
 parent
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -15315,7 +15319,7 @@ Accessible
 *
 base
 =
-GetChildAt
+LocalChildAt
 (
 0
 )
@@ -15324,7 +15328,7 @@ Accessible
 *
 index
 =
-GetChildAt
+LocalChildAt
 (
 1
 )
@@ -16090,7 +16094,7 @@ Accessible
 *
 child
 =
-GetChildAt
+LocalChildAt
 (
 mOffsets
 .

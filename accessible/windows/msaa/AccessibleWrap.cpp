@@ -1834,7 +1834,7 @@ Accessible
 *
 xpParentAcc
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -3113,7 +3113,7 @@ Accessible
 *
 xpParent
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -5727,7 +5727,7 @@ this
 )
 navAccessible
 =
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -5789,7 +5789,7 @@ this
 )
 navAccessible
 =
-LastChild
+LocalLastChild
 (
 )
 ;
@@ -5817,7 +5817,7 @@ NextSibling
 )
 )
 :
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -5844,7 +5844,7 @@ PrevSibling
 )
 )
 :
-PrevSibling
+LocalPrevSibling
 (
 )
 ;
@@ -8519,7 +8519,7 @@ AccessibleWrap
 *
 >
 (
-Parent
+LocalParent
 (
 )
 )
@@ -9074,7 +9074,7 @@ Accessible
 *
 xpAcc
 =
-GetChildAt
+LocalChildAt
 (
 varChild
 .
@@ -9372,7 +9372,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 ;

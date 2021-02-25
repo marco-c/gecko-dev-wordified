@@ -990,7 +990,7 @@ Accessible
 *
 item
 =
-GetChildAt
+LocalChildAt
 (
 aIndex
 )
@@ -1144,7 +1144,7 @@ Accessible
 *
 item
 =
-GetChildAt
+LocalChildAt
 (
 aIndex
 )
@@ -1294,7 +1294,7 @@ Accessible
 *
 item
 =
-GetChildAt
+LocalChildAt
 (
 aIndex
 )

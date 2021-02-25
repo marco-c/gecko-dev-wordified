@@ -1367,7 +1367,7 @@ xpParent
 acc
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -3247,7 +3247,7 @@ child
 child
 -
 >
-Parent
+LocalParent
 (
 )
 ;

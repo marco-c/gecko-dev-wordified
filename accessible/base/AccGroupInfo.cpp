@@ -161,7 +161,7 @@ parent
 mItem
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -279,7 +279,7 @@ sibling
 parent
 -
 >
-GetChildAt
+LocalChildAt
 (
 idx
 )
@@ -607,7 +607,7 @@ sibling
 parent
 -
 >
-GetChildAt
+LocalChildAt
 (
 idx
 )
@@ -972,7 +972,7 @@ parentPrevSibling
 parent
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 ;
@@ -1076,7 +1076,7 @@ grandParent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1165,7 +1165,7 @@ item
 aContainer
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -1203,7 +1203,7 @@ item
 item
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -1275,7 +1275,7 @@ item
 aContainer
 -
 >
-LastChild
+LocalLastChild
 (
 )
 ;
@@ -1328,7 +1328,7 @@ item
 item
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -1391,7 +1391,7 @@ item
 aContainer
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -1682,7 +1682,7 @@ childItem
 aContainer
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -1720,7 +1720,7 @@ childItem
 childItem
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -1851,7 +1851,7 @@ parent
 aItem
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1895,7 +1895,7 @@ nextItem
 parent
 -
 >
-GetChildAt
+LocalChildAt
 (
 idx
 )

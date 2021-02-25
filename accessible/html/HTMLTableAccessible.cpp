@@ -860,7 +860,7 @@ Accessible
 *
 abbr
 =
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -1240,7 +1240,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 )
@@ -6613,15 +6613,17 @@ RelationType
 :
 LABEL_FOR
 )
+{
 rel
 .
 AppendTarget
 (
-Parent
+LocalParent
 (
 )
 )
 ;
+}
 return
 rel
 ;

@@ -1416,7 +1416,7 @@ mNextSibling
 mAccessible
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -1425,7 +1425,7 @@ mPrevSibling
 mAccessible
 -
 >
-PrevSibling
+LocalPrevSibling
 (
 )
 ;

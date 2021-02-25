@@ -1320,7 +1320,7 @@ Accessible
 *
 child
 =
-GetChildAt
+LocalChildAt
 (
 childIdx
 )
@@ -1811,7 +1811,7 @@ aOffset
 const
 {
 return
-GetChildAt
+LocalChildAt
 (
 GetChildIndexAtOffset
 (

@@ -770,7 +770,7 @@ aRefChild
 aRefChild
 -
 >
-Parent
+LocalParent
 (
 )
 !
@@ -804,7 +804,7 @@ parent
 aRefChild
 -
 >
-Parent
+LocalParent
 (
 )
 "

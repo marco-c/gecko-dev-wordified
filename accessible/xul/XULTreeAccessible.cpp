@@ -2601,7 +2601,7 @@ Accessible
 XULTreeAccessible
 :
 :
-GetChildAt
+LocalChildAt
 (
 uint32_t
 aIndex
@@ -2624,15 +2624,17 @@ aIndex
 <
 childCount
 )
+{
 return
 Accessible
 :
 :
-GetChildAt
+LocalChildAt
 (
 aIndex
 )
 ;
+}
 return
 GetTreeItemAccessible
 (
@@ -6329,7 +6331,7 @@ return
 mParent
 -
 >
-GetChildAt
+LocalChildAt
 (
 IndexInParent
 (
@@ -7732,7 +7734,7 @@ XULTreeAccessible
 *
 treeAcc
 =
-Parent
+LocalParent
 (
 )
 -

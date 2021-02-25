@@ -495,7 +495,7 @@ child
 child
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -565,7 +565,7 @@ child
 focus
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -589,7 +589,7 @@ child
 child
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -606,7 +606,7 @@ child
 aAccessible
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -630,7 +630,7 @@ child
 child
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1914,7 +1914,7 @@ parent
 target
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -1925,7 +1925,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 )

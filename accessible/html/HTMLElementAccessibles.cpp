@@ -1711,7 +1711,7 @@ child
 details
 -
 >
-GetChildAt
+LocalChildAt
 (
 i
 )

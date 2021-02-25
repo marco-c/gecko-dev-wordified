@@ -542,7 +542,7 @@ child
 child
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -560,7 +560,7 @@ bullet
 child
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -572,7 +572,7 @@ IsHTMLListItem
 child
 -
 >
-Parent
+LocalParent
 (
 )
 -
@@ -594,7 +594,7 @@ child
 bullet
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 ;
@@ -637,7 +637,7 @@ parent
 aAccessible
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -689,7 +689,7 @@ child
 aAccessible
 -
 >
-FirstChild
+LocalFirstChild
 (
 )
 ;
@@ -700,7 +700,7 @@ child
 child
 -
 >
-NextSibling
+LocalNextSibling
 (
 )
 )

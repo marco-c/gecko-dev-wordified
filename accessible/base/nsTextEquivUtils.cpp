@@ -1195,7 +1195,7 @@ child
 aAccessible
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )

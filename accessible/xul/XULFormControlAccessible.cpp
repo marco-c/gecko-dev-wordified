@@ -2204,7 +2204,7 @@ Accessible
 *
 childAcc
 =
-GetChildAt
+LocalChildAt
 (
 0
 )
@@ -3678,7 +3678,7 @@ Accessible
 *
 parent
 =
-Parent
+LocalParent
 (
 )
 ;
@@ -3722,7 +3722,7 @@ child
 parent
 -
 >
-GetChildAt
+LocalChildAt
 (
 childIdx
 )

@@ -2550,7 +2550,7 @@ IsTextLeaf
 newAnchor
 =
 =
-Parent
+LocalParent
 (
 )
 )
@@ -5792,7 +5792,7 @@ AccessibleWrap
 *
 >
 (
-GetChildAt
+LocalChildAt
 (
 i
 )
@@ -6197,7 +6197,7 @@ parent
 parent
 -
 >
-Parent
+LocalParent
 (
 )
 )

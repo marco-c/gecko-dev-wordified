@@ -268,7 +268,7 @@ override
 virtual
 Accessible
 *
-GetChildAt
+LocalChildAt
 (
 uint32_t
 aIndex

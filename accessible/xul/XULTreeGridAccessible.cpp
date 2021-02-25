@@ -883,7 +883,7 @@ treeColumns
 Accessible
 :
 :
-GetChildAt
+LocalChildAt
 (
 0
 )
@@ -900,7 +900,7 @@ treeColumnItem
 treeColumns
 -
 >
-GetChildAt
+LocalChildAt
 (
 aColIdx
 )
@@ -2211,7 +2211,7 @@ Accessible
 XULTreeGridRowAccessible
 :
 :
-GetChildAt
+LocalChildAt
 (
 uint32_t
 aIndex
@@ -3872,7 +3872,7 @@ grandParent
 mParent
 -
 >
-Parent
+LocalParent
 (
 )
 ;
@@ -4941,7 +4941,7 @@ rowAcc
 =
 do_QueryObject
 (
-Parent
+LocalParent
 (
 )
 )

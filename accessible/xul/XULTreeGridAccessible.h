@@ -448,7 +448,7 @@ using
 Accessible
 :
 :
-GetChildAt
+LocalChildAt
 ;
 XULTreeGridRowAccessible
 (
@@ -535,7 +535,7 @@ override
 virtual
 Accessible
 *
-GetChildAt
+LocalChildAt
 (
 uint32_t
 aIndex
