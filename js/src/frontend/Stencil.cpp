@@ -9829,9 +9829,9 @@ frontendAllocScope
 CompilationInput
 &
 input
-CompilationStencil
+LifoAlloc
 &
-stencil
+stencilAlloc
 )
 :
 directives
@@ -9864,9 +9864,7 @@ cx
 runtime
 (
 )
-stencil
-.
-alloc
+stencilAlloc
 )
 {
 }

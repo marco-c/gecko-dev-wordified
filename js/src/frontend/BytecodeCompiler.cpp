@@ -734,6 +734,8 @@ cx
 allocScope
 input
 stencil
+.
+alloc
 )
 {
 MOZ_ASSERT
@@ -5496,6 +5498,8 @@ cx
 allocScope
 input
 stencil
+.
+alloc
 )
 ;
 if
