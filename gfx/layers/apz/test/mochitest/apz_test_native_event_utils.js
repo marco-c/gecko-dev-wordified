@@ -4656,6 +4656,9 @@ X
 offset
 in
 target
+in
+CSS
+Pixels
 offsetY
 /
 /
@@ -4663,6 +4666,9 @@ Y
 offset
 in
 target
+in
+CSS
+pixels
 atCenter
 /
 /
@@ -4685,6 +4691,9 @@ X
 offset
 in
 screen
+in
+device
+pixels
 offsetX
 /
 Y
@@ -4705,6 +4714,9 @@ Y
 offset
 in
 screen
+in
+device
+pixels
 offsetX
 /
 Y
