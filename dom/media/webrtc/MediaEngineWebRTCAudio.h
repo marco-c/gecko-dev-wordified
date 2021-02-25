@@ -1293,6 +1293,15 @@ End
 (
 )
 ;
+TrackTime
+NumBufferedFrames
+(
+MediaTrackGraphImpl
+*
+aGraph
+)
+const
+;
 private
 :
 ~
