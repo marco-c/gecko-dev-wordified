@@ -2297,6 +2297,11 @@ this
 .
 conn
 window
+{
+isTopLevelTarget
+:
+true
+}
 )
 ;
 actor

@@ -1995,10 +1995,12 @@ new
 FrameTargetActor
 (
 connection
+{
+docShell
+:
 this
 .
 docShell
-{
 followWindowGlobalLifeCycle
 :
 true
