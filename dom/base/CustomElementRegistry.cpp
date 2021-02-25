@@ -2240,7 +2240,7 @@ aTypeAtom
 ;
 mElementCreationCallbacksUpgradeCandidatesMap
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aTypeAtom
 )
@@ -2600,7 +2600,7 @@ unresolved
 =
 mCandidatesMap
 .
-LookupOrAdd
+GetOrInsertNew
 (
 typeName
 )

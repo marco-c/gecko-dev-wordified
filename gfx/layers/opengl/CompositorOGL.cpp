@@ -15356,7 +15356,7 @@ textureIds
 =
 texturesIdsToUnlockByPid
 .
-LookupOrAdd
+GetOrInsertNew
 (
 pid
 )

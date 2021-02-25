@@ -1837,7 +1837,7 @@ prefixString
 =
 prefixes
 .
-LookupOrAdd
+GetOrInsertNew
 (
 len
 )
@@ -3476,7 +3476,7 @@ prefixString
 =
 aPrefixMap
 .
-LookupOrAdd
+GetOrInsertNew
 (
 iter
 .

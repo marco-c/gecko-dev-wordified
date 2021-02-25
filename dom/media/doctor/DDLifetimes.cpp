@@ -334,7 +334,7 @@ lifetimes
 =
 mLifetimes
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aObject
 1

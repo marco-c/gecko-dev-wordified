@@ -3295,7 +3295,7 @@ IsEmpty
 {
 mContentInsertions
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aContainer
 )
@@ -5670,7 +5670,7 @@ list
 =
 mContentInsertions
 .
-LookupOrAdd
+GetOrInsertNew
 (
 container
 )

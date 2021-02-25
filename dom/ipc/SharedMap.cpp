@@ -2736,7 +2736,7 @@ entry
 =
 mEntries
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aName
 *

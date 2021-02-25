@@ -21629,7 +21629,7 @@ newID
 ;
 mPendingAnonymousTemporaryFiles
 .
-LookupOrAdd
+GetOrInsertNew
 (
 newID
 aCallback

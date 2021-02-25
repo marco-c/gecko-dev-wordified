@@ -9335,7 +9335,7 @@ data
 =
 mCoalescedMouseData
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aEvent
 .

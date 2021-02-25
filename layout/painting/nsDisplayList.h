@@ -6045,7 +6045,7 @@ geometries
 =
 mThemeGeometries
 .
-LookupOrAdd
+GetOrInsertNew
 (
 aItem
 )

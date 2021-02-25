@@ -1259,7 +1259,7 @@ currentSlots
 *
 mSlotMap
 .
-LookupOrAdd
+GetOrInsertNew
 (
 name
 )

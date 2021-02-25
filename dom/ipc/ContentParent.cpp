@@ -4835,7 +4835,7 @@ return
 sBrowserContentParents
 -
 >
-LookupOrAdd
+GetOrInsertNew
 (
 aContentProcessType
 )

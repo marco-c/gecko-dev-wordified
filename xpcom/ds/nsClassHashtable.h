@@ -454,7 +454,7 @@ typename
 Args
 >
 UserDataType
-LookupOrAdd
+GetOrInsertNew
 (
 KeyType
 aKey
@@ -668,7 +668,7 @@ T
 >
 :
 :
-LookupOrAdd
+GetOrInsertNew
 (
 KeyType
 aKey

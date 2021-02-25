@@ -7518,7 +7518,7 @@ aliasData
 =
 mAliasTable
 .
-LookupOrAdd
+GetOrInsertNew
 (
 key
 )
@@ -13132,7 +13132,7 @@ aliasData
 =
 mAliasTable
 .
-LookupOrAdd
+GetOrInsertNew
 (
 key
 )

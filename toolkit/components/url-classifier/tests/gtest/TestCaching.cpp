@@ -338,7 +338,7 @@ response
 =
 map
 .
-LookupOrAdd
+GetOrInsertNew
 (
 prefix
 .
@@ -1866,7 +1866,7 @@ response
 =
 map
 .
-LookupOrAdd
+GetOrInsertNew
 (
 prefix
 .

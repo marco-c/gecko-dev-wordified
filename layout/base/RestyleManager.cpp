@@ -21579,7 +21579,7 @@ snapshot
 =
 mSnapshots
 .
-LookupOrAdd
+GetOrInsertNew
 (
 &
 aElement

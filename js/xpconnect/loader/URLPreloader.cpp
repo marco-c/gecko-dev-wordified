@@ -2012,7 +2012,7 @@ entry
 =
 mCachedURLs
 .
-LookupOrAdd
+GetOrInsertNew
 (
 key
 key
@@ -2913,7 +2913,7 @@ entry
 =
 mCachedURLs
 .
-LookupOrAdd
+GetOrInsertNew
 (
 key
 key

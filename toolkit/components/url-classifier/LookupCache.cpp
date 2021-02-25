@@ -6033,7 +6033,7 @@ response
 =
 mFullHashCache
 .
-LookupOrAdd
+GetOrInsertNew
 (
 add
 .
@@ -6083,7 +6083,7 @@ response
 =
 mFullHashCache
 .
-LookupOrAdd
+GetOrInsertNew
 (
 prefix
 .

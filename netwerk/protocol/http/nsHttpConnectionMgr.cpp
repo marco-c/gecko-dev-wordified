@@ -18315,7 +18315,7 @@ mActiveTransactions
 throttled
 ]
 .
-LookupOrAdd
+GetOrInsertNew
 (
 tabId
 )

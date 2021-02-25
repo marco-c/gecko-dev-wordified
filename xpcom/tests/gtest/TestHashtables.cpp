@@ -8613,7 +8613,7 @@ Count
 TEST
 (
 Hashtables
-ClassHashtable_LookupOrAdd_Present
+ClassHashtable_GetOrInsertNew_Present
 )
 {
 nsClassHashtable
@@ -8667,7 +8667,7 @@ entry
 =
 EntToUniClass
 .
-LookupOrAdd
+GetOrInsertNew
 (
 "
 uml
@@ -8691,7 +8691,7 @@ GetChar
 TEST
 (
 Hashtables
-ClassHashtable_LookupOrAdd_NotPresent
+ClassHashtable_GetOrInsertNew_NotPresent
 )
 {
 nsClassHashtable
@@ -8720,7 +8720,7 @@ entry
 =
 EntToUniClass
 .
-LookupOrAdd
+GetOrInsertNew
 (
 "
 uml
