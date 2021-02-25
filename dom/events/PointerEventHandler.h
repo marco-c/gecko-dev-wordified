@@ -1276,6 +1276,15 @@ nsPresContext
 aPresContext
 )
 ;
+static
+bool
+IsDragAndDropEnabled
+(
+WidgetMouseEvent
+&
+aEvent
+)
+;
 private
 :
 /
