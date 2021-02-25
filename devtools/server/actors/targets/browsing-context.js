@@ -129,9 +129,6 @@ extended
 by
 FrameTargetActor
 ParentProcessTargetActor
-and
-*
-ChromeWindowTargetActor
 .
 *
 *
