@@ -59,14 +59,6 @@ info
 |
 Terminal
 symbols
-of
-the
-lexical
-RegExp
-and
-numeric
-string
-grammars
 are
 shown
 in
