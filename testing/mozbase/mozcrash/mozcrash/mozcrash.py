@@ -937,10 +937,6 @@ None
 dump_save_path
 =
 None
-    
-quiet
-=
-False
 )
 :
     
@@ -987,11 +983,6 @@ crash_count
 =
 1
         
-if
-not
-quiet
-:
-            
 kwargs
 =
 info
@@ -999,7 +990,7 @@ info
 _asdict
 (
 )
-            
+        
 kwargs
 .
 pop
@@ -1008,7 +999,7 @@ pop
 extra
 "
 )
-            
+        
 logger
 .
 crash
