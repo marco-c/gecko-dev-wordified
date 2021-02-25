@@ -1645,8 +1645,10 @@ mPrefixesMap
 Put
 (
 aSize
-new
+MakeUnique
+<
 nsCString
+>
 (
 aPrefixes
 )

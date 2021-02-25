@@ -208,8 +208,13 @@ mItems
 Put
 (
 keyPtr
-new
+mozilla
+:
+:
+MakeUnique
+<
 StatusItem
+>
 (
 menu
 )
