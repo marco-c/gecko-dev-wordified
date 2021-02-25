@@ -361,6 +361,12 @@ HasMP3
 ;
 private
 :
+WMFDecoderModule
+(
+)
+=
+default
+;
 virtual
 ~
 WMFDecoderModule
