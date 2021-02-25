@@ -306,8 +306,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 static
@@ -2972,9 +2972,7 @@ NS_OK
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

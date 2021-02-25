@@ -803,10 +803,9 @@ aAttributes
 mIsAttributesSet
 =
 aAttributes
-?
-true
-:
-false
+!
+=
+nullptr
 ;
 return
 NS_OK

@@ -1430,8 +1430,6 @@ return
 LOOKUP_OK
 ;
 }
-else
-{
 /
 /
 no
@@ -1622,7 +1620,6 @@ MapNAT64IPs
 newRRSet
 )
 ;
-}
 }
 if
 (

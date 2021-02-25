@@ -137,7 +137,9 @@ between
 firstCharacterInRange
 lastCharacterInRange
 }
-typedef
+using
+BlocklistRange
+=
 std
 :
 :
@@ -146,7 +148,6 @@ pair
 char16_t
 char16_t
 >
-BlocklistRange
 ;
 /
 /

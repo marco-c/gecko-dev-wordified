@@ -7171,7 +7171,7 @@ rawConfig
 get
 (
 )
-NULL
+nullptr
 )
 )
 ;
@@ -9334,7 +9334,7 @@ aSalt
 >
 data
 :
-NULL
+nullptr
 ;
 params
 .
