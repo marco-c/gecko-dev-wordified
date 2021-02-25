@@ -2144,12 +2144,12 @@ ReflowSVG
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 SVGUtils
 :
 :
-OuterSVGIsCallingReflowSVG
+AnyOuterSVGIsCallingReflowSVG
 (
 this
 )
