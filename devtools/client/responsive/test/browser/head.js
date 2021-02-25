@@ -3453,15 +3453,6 @@ browsingContext
 sessionHistory
 ;
 const
-userContextId
-=
-browsingContext
-.
-originAttributes
-.
-userContextId
-;
-const
 body
 =
 ContentTask
@@ -3555,7 +3546,6 @@ collectFromParent
 uri
 body
 history
-userContextId
 )
 ;
 /
