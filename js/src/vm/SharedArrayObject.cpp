@@ -1831,7 +1831,7 @@ return
 false
 ;
 }
-setReservedSlot
+setFixedSlot
 (
 RAWBUF_SLOT
 PrivateValue
@@ -1840,7 +1840,7 @@ buffer
 )
 )
 ;
-setReservedSlot
+setFixedSlot
 (
 LENGTH_SLOT
 PrivateValue
@@ -1896,7 +1896,7 @@ MemoryUse
 SharedArrayRawBuffer
 )
 ;
-setReservedSlot
+setFixedSlot
 (
 RAWBUF_SLOT
 UndefinedValue
@@ -1918,7 +1918,7 @@ const
 Value
 v
 =
-getReservedSlot
+getFixedSlot
 (
 RAWBUF_SLOT
 )
@@ -2039,7 +2039,7 @@ v
 =
 buf
 .
-getReservedSlot
+getFixedSlot
 (
 RAWBUF_SLOT
 )
