@@ -988,7 +988,7 @@ TYPES
 CONSOLE_MESSAGE
 ]
 :
-true
+hasBrowserElement
 [
 Resources
 .
@@ -1006,7 +1006,7 @@ TYPES
 CSS_MESSAGE
 ]
 :
-true
+hasBrowserElement
 [
 Resources
 .
@@ -1024,7 +1024,7 @@ TYPES
 ERROR_MESSAGE
 ]
 :
-true
+hasBrowserElement
 [
 Resources
 .
