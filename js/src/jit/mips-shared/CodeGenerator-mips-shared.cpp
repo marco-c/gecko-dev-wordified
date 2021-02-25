@@ -2212,7 +2212,7 @@ isConstant
 {
 masm
 .
-ma_addTestOverflow
+ma_add32TestOverflow
 (
 ToRegister
 (
@@ -2238,7 +2238,7 @@ else
 {
 masm
 .
-ma_addTestOverflow
+ma_add32TestOverflow
 (
 ToRegister
 (
@@ -2534,7 +2534,7 @@ isConstant
 {
 masm
 .
-ma_subTestOverflow
+ma_sub32TestOverflow
 (
 ToRegister
 (
@@ -2560,7 +2560,7 @@ else
 {
 masm
 .
-ma_subTestOverflow
+ma_sub32TestOverflow
 (
 ToRegister
 (
@@ -2967,7 +2967,7 @@ mulTwoOverflow
 ;
 masm
 .
-ma_addTestOverflow
+ma_add32TestOverflow
 (
 dest
 src
@@ -3397,7 +3397,7 @@ mulConstOverflow
 ;
 masm
 .
-ma_mul_branch_overflow
+ma_mul32TestOverflow
 (
 dest
 ToRegister
@@ -3467,7 +3467,7 @@ canOverflow
 {
 masm
 .
-ma_mul_branch_overflow
+ma_mul32TestOverflow
 (
 dest
 ToRegister
@@ -15450,7 +15450,7 @@ ok
 ;
 masm
 .
-ma_addTestCarry
+ma_add32TestCarry
 (
 Assembler
 :
