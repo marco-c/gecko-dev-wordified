@@ -4020,10 +4020,6 @@ EXPANDED
 true
 )
 ;
-if
-(
-event
-)
 nsEventShell
 :
 :
