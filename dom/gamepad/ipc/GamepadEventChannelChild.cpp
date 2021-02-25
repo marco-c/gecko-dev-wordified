@@ -335,7 +335,7 @@ MOZ_ASSERT
 !
 mPromiseList
 .
-Get
+Contains
 (
 aID
 nullptr

@@ -1233,7 +1233,7 @@ MOZ_ASSERT
 !
 mGamepads
 .
-Get
+Contains
 (
 aHandle
 nullptr
