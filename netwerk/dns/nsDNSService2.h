@@ -577,6 +577,11 @@ mResCacheGrace
 bool
 mResolverPrefsUpdated
 ;
+bool
+mODoHActivated
+=
+false
+;
 nsClassHashtable
 <
 nsCStringHashKey
