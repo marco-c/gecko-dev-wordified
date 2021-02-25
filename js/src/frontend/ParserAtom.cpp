@@ -1658,6 +1658,7 @@ commonParserNames
 )
 alloc_
 (
+&
 alloc
 )
 {
@@ -1850,6 +1851,7 @@ AtomCharT
 >
 (
 cx
+*
 alloc_
 seq
 length
