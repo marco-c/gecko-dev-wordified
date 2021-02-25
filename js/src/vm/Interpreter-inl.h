@@ -1145,7 +1145,10 @@ if
 receiver
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 |
@@ -1154,7 +1157,10 @@ isNative
 holder
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )
@@ -1403,7 +1409,10 @@ prop
 pobj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )
@@ -1701,7 +1710,10 @@ if
 obj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 &

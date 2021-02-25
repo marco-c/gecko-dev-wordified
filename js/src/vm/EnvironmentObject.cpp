@@ -24298,7 +24298,10 @@ if
 varObj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 &
@@ -25652,7 +25655,10 @@ MOZ_ASSERT
 varObj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 |

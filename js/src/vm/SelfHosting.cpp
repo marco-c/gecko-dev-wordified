@@ -15186,7 +15186,10 @@ if
 from
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 &
@@ -21869,7 +21872,10 @@ MOZ_ASSERT
 selfHostedObject
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )

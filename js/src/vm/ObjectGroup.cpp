@@ -704,7 +704,10 @@ toObject
 )
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 proto_

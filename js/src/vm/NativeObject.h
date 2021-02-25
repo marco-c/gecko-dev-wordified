@@ -11291,6 +11291,11 @@ NativeObject
 const
 {
 return
+getClass
+(
+)
+-
+>
 isNative
 (
 )

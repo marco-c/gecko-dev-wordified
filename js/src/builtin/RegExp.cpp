@@ -11677,7 +11677,10 @@ if
 proto
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )
@@ -13155,7 +13158,10 @@ if
 obj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )

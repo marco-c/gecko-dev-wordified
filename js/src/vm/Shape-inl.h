@@ -1827,7 +1827,10 @@ MOZ_ASSERT
 obj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )

@@ -13549,7 +13549,10 @@ if
 srcObj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 )
@@ -13717,7 +13720,10 @@ MOZ_ASSERT_IF
 dstObj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 !
@@ -13864,7 +13870,10 @@ srcObj
 srcObj
 -
 >
-isNative
+is
+<
+NativeObject
+>
 (
 )
 |

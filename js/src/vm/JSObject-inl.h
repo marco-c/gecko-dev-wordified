@@ -1999,7 +1999,13 @@ const
 {
 if
 (
-isNative
+is
+<
+js
+:
+:
+NativeObject
+>
 (
 )
 )

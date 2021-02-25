@@ -16065,7 +16065,10 @@ toObject
 (
 )
 .
-isNative
+is
+<
+NativeObject
+>
 (
 )
 |
