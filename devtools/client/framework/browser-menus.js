@@ -1622,7 +1622,7 @@ expected
 position
 .
 const
-pageSource
+pageSourceMenu
 =
 doc
 .
@@ -1634,14 +1634,14 @@ menu_pageSource
 )
 ;
 const
-endSeparator
+extensionsForDevelopersMenu
 =
 doc
 .
 getElementById
 (
 "
-devToolsEndSeparator
+menu_extensionsForDevelopers
 "
 )
 ;
@@ -1649,8 +1649,8 @@ menu
 .
 insertBefore
 (
-pageSource
-endSeparator
+pageSourceMenu
+extensionsForDevelopersMenu
 )
 ;
 }
