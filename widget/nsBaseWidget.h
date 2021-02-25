@@ -1904,6 +1904,13 @@ ComputeShouldAccelerate
 ;
 virtual
 bool
+WidgetTypePrefersSoftwareWebRender
+(
+)
+const
+;
+virtual
+bool
 WidgetTypeSupportsAcceleration
 (
 )
