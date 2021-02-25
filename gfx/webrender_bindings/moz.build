@@ -135,6 +135,11 @@ RenderCompositorEGL
 h
 "
 "
+RenderCompositorLayersSWGL
+.
+h
+"
+"
 RenderCompositorOGL
 .
 h
@@ -236,6 +241,11 @@ cpp
 "
 "
 RenderCompositorEGL
+.
+cpp
+"
+"
+RenderCompositorLayersSWGL
 .
 cpp
 "
