@@ -124,11 +124,7 @@ resource
 :
 /
 /
-messaging
--
-system
-/
-experiments
+nimbus
 /
 ExperimentAPI
 .

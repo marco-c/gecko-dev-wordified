@@ -123,9 +123,7 @@ resource
 :
 /
 /
-messaging
--
-system
+nimbus
 /
 lib
 /

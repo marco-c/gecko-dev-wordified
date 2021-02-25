@@ -98,11 +98,9 @@ resource
 :
 /
 /
-messaging
--
-system
+nimbus
 /
-experiments
+lib
 /
 ExperimentManager
 .

@@ -46,11 +46,9 @@ resource
 :
 /
 /
-messaging
--
-system
+nimbus
 /
-experiments
+lib
 /
 ExperimentStore
 .

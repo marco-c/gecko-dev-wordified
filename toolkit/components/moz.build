@@ -577,6 +577,9 @@ DIRS
 normandy
 "
 "
+nimbus
+"
+"
 messaging
 -
 system
