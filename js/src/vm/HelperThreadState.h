@@ -2788,10 +2788,6 @@ The
 output
 of
 the
-module
-compilation
-task
-and
 decode
 task
 .
@@ -2811,6 +2807,8 @@ output
 of
 the
 script
+/
+module
 compilation
 task
 .
