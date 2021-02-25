@@ -256,7 +256,8 @@ getBeginLoc
 "
 %
 1
-cannot
+must
+not
 be
 called
 on
@@ -264,8 +265,15 @@ the
 return
 value
 of
+'
 %
 0
+'
+which
+is
+marked
+with
+MOZ_NO_ADDREF_RELEASE_ON_RETURN
 "
 DiagnosticIDs
 :
@@ -275,6 +283,11 @@ Error
 <
 <
 Callee
+-
+>
+getQualifiedNameAsString
+(
+)
 <
 <
 dyn_cast
