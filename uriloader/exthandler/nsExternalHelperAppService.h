@@ -477,6 +477,8 @@ dom
 BrowsingContext
 *
 aBrowsingContext
+bool
+aWasTriggeredExternally
 )
 override
 ;

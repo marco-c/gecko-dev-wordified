@@ -82861,6 +82861,12 @@ URI
 )
 triggeringPrincipal
 mBrowsingContext
+/
+*
+aTriggeredExternally
+*
+/
+false
 )
 ;
 }

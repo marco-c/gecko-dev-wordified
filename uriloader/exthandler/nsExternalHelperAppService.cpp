@@ -7114,6 +7114,8 @@ aTriggeringPrincipal
 BrowsingContext
 *
 aBrowsingContext
+bool
+aTriggeredExternally
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -7147,6 +7149,7 @@ SendLoadURIExternal
 aURI
 aTriggeringPrincipal
 aBrowsingContext
+aTriggeredExternally
 )
 ;
 return
@@ -7874,6 +7877,7 @@ handler
 uri
 aTriggeringPrincipal
 aBrowsingContext
+aTriggeredExternally
 )
 ;
 }
