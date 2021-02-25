@@ -8149,6 +8149,17 @@ id
 )
 ;
 AttachDecision
+tryAttachArrayBufferMaybeShared
+(
+HandleObject
+obj
+ObjOperandId
+objId
+HandleId
+id
+)
+;
+AttachDecision
 tryAttachModuleNamespace
 (
 HandleObject
