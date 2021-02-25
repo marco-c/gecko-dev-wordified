@@ -5436,7 +5436,7 @@ declaration
 Some
 (
 ref
-_computed_values
+computed_values
 )
 )
 =
@@ -5451,6 +5451,9 @@ substitute_variables
 declaration
 .
 id
+computed_values
+.
+writing_mode
 custom_properties
 .
 as_ref
