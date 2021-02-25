@@ -1262,7 +1262,7 @@ exponentially
 This
 number
 (
-1MB
+2MB
 )
 is
 somewhat
@@ -1275,9 +1275,9 @@ no
 /
 /
 /
-sane
+reasonable
 page
-would
+should
 hit
 it
 .
@@ -1321,6 +1321,8 @@ MAX_VALUE_LENGTH_IN_BYTES
 :
 usize
 =
+2
+*
 1024
 *
 1024
