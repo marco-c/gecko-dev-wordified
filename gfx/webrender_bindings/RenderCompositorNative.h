@@ -528,6 +528,12 @@ aImageRendering
 )
 override
 ;
+CompositorCapabilities
+GetCompositorCapabilities
+(
+)
+override
+;
 struct
 TileKey
 {

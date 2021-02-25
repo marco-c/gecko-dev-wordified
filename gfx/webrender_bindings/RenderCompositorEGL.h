@@ -262,6 +262,12 @@ GetBufferSize
 )
 override
 ;
+CompositorCapabilities
+GetCompositorCapabilities
+(
+)
+override
+;
 /
 /
 Interface

@@ -371,12 +371,9 @@ wr
 :
 :
 Compositor
-void
+CompositorCapabilities
 GetCompositorCapabilities
 (
-CompositorCapabilities
-*
-aCaps
 )
 override
 ;
