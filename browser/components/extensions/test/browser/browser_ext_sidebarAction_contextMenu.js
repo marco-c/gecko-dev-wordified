@@ -318,14 +318,6 @@ viewsource
 "
 "
 "
-context
--
-viewinfo
-"
-:
-"
-"
-"
 inspect
 -
 separator

@@ -1017,12 +1017,6 @@ context
 viewsource
 "
 true
-"
-context
--
-viewinfo
-"
-true
 ]
 {
 /
