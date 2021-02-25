@@ -5120,7 +5120,7 @@ MOZ_LIKELY
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 )
@@ -5311,7 +5311,7 @@ GenericObject
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 &
@@ -5629,7 +5629,7 @@ GenericObject
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 ;
@@ -6046,7 +6046,7 @@ clasp
 )
 -
 >
-isNative
+isNativeObject
 (
 )
 |
@@ -25962,7 +25962,7 @@ if
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 )
@@ -27291,7 +27291,7 @@ if
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 )

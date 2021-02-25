@@ -4262,6 +4262,17 @@ clasp
 ;
 MOZ_ASSERT
 (
+!
+clasp
+-
+>
+isNativeObject
+(
+)
+)
+;
+MOZ_ASSERT
+(
 :
 :
 IsTypedObjectClass

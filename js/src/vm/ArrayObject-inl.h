@@ -260,6 +260,16 @@ ArrayObject
 class_
 )
 ;
+MOZ_ASSERT
+(
+clasp
+-
+>
+isNativeObject
+(
+)
+)
+;
 MOZ_ASSERT_IF
 (
 clasp

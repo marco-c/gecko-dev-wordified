@@ -3087,7 +3087,7 @@ MOZ_ASSERT
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 )

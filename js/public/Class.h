@@ -5526,7 +5526,7 @@ NON_NATIVE
 JSCLASS_INTERNAL_FLAG2
 ;
 bool
-isNative
+isNativeObject
 (
 )
 const

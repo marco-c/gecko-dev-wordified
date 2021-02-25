@@ -547,7 +547,7 @@ if
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 )

@@ -13015,7 +13015,7 @@ if
 clasp
 -
 >
-isNative
+isNativeObject
 (
 )
 |

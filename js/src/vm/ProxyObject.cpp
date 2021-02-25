@@ -547,6 +547,17 @@ proto_
 ;
 MOZ_ASSERT
 (
+!
+clasp
+-
+>
+isNativeObject
+(
+)
+)
+;
+MOZ_ASSERT
+(
 clasp
 -
 >
