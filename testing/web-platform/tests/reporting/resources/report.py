@@ -22,6 +22,9 @@ default_value
 min_count
 =
 None
+retain
+=
+False
 )
 :
   
@@ -183,7 +186,10 @@ value
 is
 not
 None
-and
+:
+        
+have_sufficient_reports
+=
 (
 min_count
 is
@@ -197,8 +203,14 @@ value
 =
 min_count
 )
-:
         
+if
+retain
+or
+not
+have_sufficient_reports
+:
+          
 request
 .
 server
@@ -215,6 +227,10 @@ value
 value
 )
         
+if
+have_sufficient_reports
+:
+          
 #
 If
 the
@@ -230,7 +246,7 @@ report
 uri
 report
 then
-        
+          
 #
 extract
 it
@@ -248,7 +264,7 @@ is
 until
 the
 CSP
-        
+          
 #
 tests
 are
@@ -265,7 +281,7 @@ all
 cases
 .
 )
-        
+          
 if
 isinstance
 (
@@ -285,7 +301,7 @@ value
 1
 ]
 :
-          
+            
 value
 =
 value
@@ -293,7 +309,7 @@ value
 -
 1
 ]
-        
+          
 return
 json
 .
@@ -664,6 +680,19 @@ min_count
 =
 1
     
+retain
+=
+(
+b
+"
+retain
+"
+in
+request
+.
+GET
+)
+    
 op
 =
 request
@@ -723,6 +752,7 @@ u
 ]
 '
 min_count
+retain
 )
     
 if
