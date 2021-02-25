@@ -326,7 +326,7 @@ equal
 (
 bookmarkPanelTitle
 .
-value
+textContent
 gNavigatorBundle
 .
 getString

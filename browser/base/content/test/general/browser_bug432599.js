@@ -474,7 +474,7 @@ initialValue
 =
 titleElement
 .
-value
+textContent
 ;
 initialRemoveHidden
 =
@@ -497,7 +497,7 @@ equal
 (
 titleElement
 .
-value
+textContent
 initialValue
 "
 The
