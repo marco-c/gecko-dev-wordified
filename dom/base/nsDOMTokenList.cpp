@@ -499,7 +499,7 @@ eAtomArray
 return
 ;
 }
-CountingBloomFilter
+BitBloomFilter
 <
 8
 nsAtom

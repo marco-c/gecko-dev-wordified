@@ -12290,7 +12290,7 @@ static
 mozilla
 :
 :
-CountingBloomFilter
+BitBloomFilter
 <
 12
 nsAtom
