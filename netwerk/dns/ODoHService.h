@@ -212,6 +212,14 @@ ODoH
 aRequest
 )
 ;
+bool
+RemovePendingODoHRequest
+(
+ODoH
+*
+aRequest
+)
+;
 void
 GetRequestURI
 (
