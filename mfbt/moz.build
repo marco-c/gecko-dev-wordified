@@ -342,6 +342,11 @@ InitializedOnce
 h
 "
 "
+IntegerPrintfMacros
+.
+h
+"
+"
 IntegerRange
 .
 h
@@ -558,6 +563,11 @@ h
 "
 "
 SplayTree
+.
+h
+"
+"
+Sprintf
 .
 h
 "
