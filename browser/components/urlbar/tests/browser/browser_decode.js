@@ -364,7 +364,9 @@ gURLBar
 .
 setValueFromResult
 (
+{
 result
+}
 )
 ;
 /

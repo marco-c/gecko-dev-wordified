@@ -5931,8 +5931,6 @@ contains
 "
 urlbarView
 -
-tip
--
 help
 "
 )

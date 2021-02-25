@@ -376,8 +376,6 @@ contains
 "
 urlbarView
 -
-tip
--
 help
 "
 )
@@ -635,8 +633,6 @@ contains
 (
 "
 urlbarView
--
-tip
 -
 help
 "
@@ -952,8 +948,6 @@ contains
 "
 urlbarView
 -
-tip
--
 help
 "
 )
@@ -1050,8 +1044,6 @@ contains
 (
 "
 urlbarView
--
-tip
 -
 help
 "

@@ -1508,8 +1508,6 @@ querySelector
 .
 urlbarView
 -
-tip
--
 help
 "
 )
