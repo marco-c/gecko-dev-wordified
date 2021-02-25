@@ -252,6 +252,9 @@ nsHostRecord
 :
 TRRSkippedReason
 aReason
+TRR
+*
+aTRRRequest
 )
 override
 ;

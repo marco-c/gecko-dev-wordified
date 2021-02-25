@@ -5264,6 +5264,7 @@ rec
 -
 >
 mTRRTRRSkippedReason
+nullptr
 )
 ;
 }
@@ -13010,6 +13011,15 @@ nsHostRecord
 :
 TRRSkippedReason
 aReason
+mozilla
+:
+:
+net
+:
+:
+TRR
+*
+aTRRRequest
 )
 {
 MutexAutoLock
@@ -15641,6 +15651,7 @@ rec
 -
 >
 mTRRTRRSkippedReason
+nullptr
 )
 )
 {

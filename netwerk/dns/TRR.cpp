@@ -3963,6 +3963,7 @@ AddrHostRecord
 :
 :
 TRR_OK
+this
 )
 ;
 }
@@ -4240,6 +4241,7 @@ AddrHostRecord
 :
 :
 TRR_OK
+this
 )
 ;
 }
@@ -4497,6 +4499,7 @@ ai
 mPB
 mOriginSuffix
 mTRRSkippedReason
+this
 )
 ;
 mHostResolver
@@ -4676,6 +4679,7 @@ ai
 mPB
 mOriginSuffix
 mTRRSkippedReason
+this
 )
 ;
 }
@@ -5583,6 +5587,10 @@ swap
 (
 mChannel
 )
+;
+mChannelStatus
+=
+aStatusCode
 ;
 {
 /
