@@ -15,15 +15,6 @@ traceback
 import
 uuid
 from
-six
-import
-iteritems
-iterkeys
-from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -5097,8 +5088,6 @@ prefs
 for
 name
 in
-iterkeys
-(
 old_environment
 .
 get
@@ -5109,6 +5098,9 @@ prefs
 {
 }
 )
+.
+keys
+(
 )
 :
             
@@ -5155,8 +5147,6 @@ for
 name
 value
 in
-iteritems
-(
 new_environment
 .
 get
@@ -5167,6 +5157,9 @@ prefs
 {
 }
 )
+.
+items
+(
 )
 :
             
@@ -7619,9 +7612,6 @@ for
 key
 value
 in
-iteritems
-(
-                                    
 self
 .
 executor
@@ -7636,6 +7626,9 @@ url_count
 {
 }
 )
+.
+items
+(
 )
                                 
 if
