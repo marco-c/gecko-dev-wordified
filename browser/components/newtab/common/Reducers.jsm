@@ -287,6 +287,10 @@ false
 values
 :
 {
+featureConfig
+:
+{
+}
 }
 }
 Dialog
