@@ -655,7 +655,10 @@ vpextrw
 (
 lane
 input
+Operand
+(
 output
+)
 )
 ;
 if
@@ -697,7 +700,10 @@ vpextrb
 (
 lane
 input
+Operand
+(
 output
+)
 )
 ;
 if
