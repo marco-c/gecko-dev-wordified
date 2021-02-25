@@ -10707,7 +10707,7 @@ uint32_t
 aUniqueId
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 if
 (
@@ -12033,7 +12033,7 @@ IsDefaultPrevented
 (
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 false
 )
@@ -14174,10 +14174,7 @@ windowNumber
 ]
 context
 :
-[
-aNativeEvent
-context
-]
+nil
 characters
 :
 "
@@ -16388,7 +16385,7 @@ Command
 aCommand
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 if
 (
@@ -19274,7 +19271,7 @@ true
 return
 false
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 false
 )
@@ -23554,7 +23551,7 @@ NSAttributedString
 aAttrString
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 /
 /
@@ -23692,7 +23689,7 @@ count
 return
 count
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 0
 )
@@ -24504,7 +24501,7 @@ NSRange
 aSelectedRange
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
@@ -24938,7 +24935,7 @@ webapp
 return
 mIsIMEComposing
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 false
 )
@@ -24956,7 +24953,7 @@ nsAString
 aCommitString
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
@@ -25356,7 +25353,7 @@ false
 return
 true
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 false
 )
@@ -25863,7 +25860,7 @@ false
 return
 true
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 false
 )
@@ -28300,7 +28297,7 @@ SelectedRange
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
@@ -28507,7 +28504,7 @@ mRangeForWritingMode
 return
 mRangeForWritingMode
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 mSelectedRange
 )
@@ -28523,7 +28520,7 @@ uint32_t
 aCharIndex
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 if
 (
@@ -28713,7 +28710,7 @@ IsVertical
 (
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 false
 )
@@ -28733,7 +28730,7 @@ NSRange
 aActualRange
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
@@ -29484,7 +29481,7 @@ length
 return
 rect
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 NSMakeRect
 (
@@ -29515,7 +29512,7 @@ NSPoint
 aPoint
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
@@ -29714,7 +29711,7 @@ StartOffset
 (
 )
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 NSNotFound
 )
@@ -31224,7 +31221,7 @@ sharedApplication
 isActive
 ]
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 false
 )
@@ -32824,10 +32821,7 @@ windowNumber
 windowNumber
 context
 :
-[
-NSGraphicsContext
-currentContext
-]
+nil
 characters
 :
 nsCocoaUtils
@@ -32960,7 +32954,7 @@ GetWindowLevel
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 MOZ_LOG
 (
@@ -33141,7 +33135,7 @@ windowLevel
 return
 windowLevel
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 NSNormalWindowLevel
 )
@@ -34302,10 +34296,7 @@ windowNumber
 ]
 context
 :
-[
-mKeyEvent
-context
-]
+nil
 characters
 :
 unhandledNSString

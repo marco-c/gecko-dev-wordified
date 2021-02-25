@@ -557,7 +557,7 @@ bool
 aWithScaling
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
 /
 /
@@ -1583,7 +1583,7 @@ applySetting
 return
 printInfo
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+NS_OBJC_END_TRY_BLOCK_RETURN
 (
 nullptr
 )
