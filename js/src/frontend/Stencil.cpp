@@ -8449,6 +8449,9 @@ get
 initFromLazy
 (
 lazy
+input
+.
+source
 )
 ;
 delazificationInput
