@@ -530,8 +530,10 @@ aEvent
 -
 >
 pointerId
-new
+MakeUnique
+<
 PointerInfo
+>
 (
 false
 aEvent
@@ -631,8 +633,10 @@ pointerEvent
 -
 >
 pointerId
-new
+MakeUnique
+<
 PointerInfo
+>
 (
 true
 pointerEvent
@@ -767,8 +771,10 @@ pointerEvent
 -
 >
 pointerId
-new
+MakeUnique
+<
 PointerInfo
+>
 (
 false
 pointerEvent

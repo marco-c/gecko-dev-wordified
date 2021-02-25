@@ -12147,7 +12147,13 @@ void
 *
 )
 mPluginHWND
+UniquePtr
+<
+PluginInstanceParent
+>
+(
 this
+)
 )
 ;
 return
