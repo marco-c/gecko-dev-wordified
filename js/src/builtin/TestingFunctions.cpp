@@ -32373,11 +32373,7 @@ frontend
 CompilationStencil
 stencil
 (
-input
-.
-get
-(
-)
+nullptr
 )
 ;
 /

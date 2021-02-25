@@ -1513,6 +1513,8 @@ CompilationStencil
 >
 (
 input
+.
+source
 )
 ;
 if
@@ -1874,6 +1876,8 @@ CompilationStencil
 >
 (
 input
+.
+source
 )
 ;
 if
@@ -5505,6 +5509,8 @@ CompilationStencil
 >
 (
 input
+.
+source
 )
 ;
 if
