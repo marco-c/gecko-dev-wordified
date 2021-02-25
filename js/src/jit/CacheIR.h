@@ -8138,6 +8138,17 @@ id
 )
 ;
 AttachDecision
+tryAttachDataView
+(
+HandleObject
+obj
+ObjOperandId
+objId
+HandleId
+id
+)
+;
+AttachDecision
 tryAttachModuleNamespace
 (
 HandleObject
