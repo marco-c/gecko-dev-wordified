@@ -153,7 +153,7 @@ a11y
 :
 ProxyCreated
 (
-ProxyAccessible
+RemoteAccessible
 *
 uint32_t
 )
@@ -165,7 +165,7 @@ a11y
 :
 ProxyDestroyed
 (
-ProxyAccessible
+RemoteAccessible
 *
 )
 {
@@ -176,7 +176,7 @@ a11y
 :
 ProxyEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 uint32_t
 )
@@ -188,7 +188,7 @@ a11y
 :
 ProxyStateChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 uint64_t
 bool
@@ -201,7 +201,7 @@ a11y
 :
 ProxyCaretMoveEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 int32_t
@@ -217,7 +217,7 @@ a11y
 :
 ProxyTextChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 const
 nsString
@@ -235,9 +235,9 @@ a11y
 :
 ProxyShowHideEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 *
 bool
 bool
@@ -250,9 +250,9 @@ a11y
 :
 ProxySelectionEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 *
 uint32_t
 )

@@ -152,7 +152,7 @@ class
 AccessibleWrap
 ;
 class
-ProxyAccessible
+RemoteAccessible
 ;
 class
 RootAccessibleWrap
@@ -279,7 +279,7 @@ SessionAccessibility
 >
 GetInstanceFor
 (
-ProxyAccessible
+RemoteAccessible
 *
 aAccessible
 )

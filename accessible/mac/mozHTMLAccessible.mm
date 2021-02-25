@@ -213,7 +213,7 @@ rv
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -278,7 +278,7 @@ GroupPosition
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -360,7 +360,7 @@ value
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

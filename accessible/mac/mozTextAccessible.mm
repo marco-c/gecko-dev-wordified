@@ -684,7 +684,7 @@ invalidStr
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1053,7 +1053,7 @@ AsAccessible
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1518,7 +1518,7 @@ start
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

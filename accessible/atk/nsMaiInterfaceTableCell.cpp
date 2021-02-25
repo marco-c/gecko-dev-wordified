@@ -165,7 +165,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -239,7 +239,7 @@ ColExtent
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -307,7 +307,7 @@ RowExtent
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -410,7 +410,7 @@ true
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -563,7 +563,7 @@ true
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -713,7 +713,7 @@ nullptr
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -726,7 +726,7 @@ aTableCell
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 table
 =
@@ -864,7 +864,7 @@ atkHeaders
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -879,7 +879,7 @@ aCell
 {
 AutoTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 10
 >
@@ -922,7 +922,7 @@ Length
 ;
 for
 (
-ProxyAccessible
+RemoteAccessible
 *
 header
 :
@@ -1070,7 +1070,7 @@ atkHeaders
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1085,7 +1085,7 @@ aCell
 {
 AutoTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 10
 >
@@ -1128,7 +1128,7 @@ Length
 ;
 for
 (
-ProxyAccessible
+RemoteAccessible
 *
 header
 :

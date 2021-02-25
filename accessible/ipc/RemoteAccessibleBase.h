@@ -113,10 +113,10 @@ MPL
 /
 #
 ifndef
-mozilla_a11y_ProxyAccessibleBase_h
+mozilla_a11y_RemoteAccessibleBase_h
 #
 define
-mozilla_a11y_ProxyAccessibleBase_h
+mozilla_a11y_RemoteAccessibleBase_h
 #
 include
 "
@@ -193,7 +193,7 @@ class
 DocAccessibleParent
 ;
 class
-ProxyAccessible
+RemoteAccessible
 ;
 enum
 class
@@ -261,12 +261,12 @@ class
 Derived
 >
 class
-ProxyAccessibleBase
+RemoteAccessibleBase
 {
 public
 :
 ~
-ProxyAccessibleBase
+RemoteAccessibleBase
 (
 )
 {
@@ -1028,7 +1028,7 @@ MATHML_CELL
 }
 protected
 :
-ProxyAccessibleBase
+RemoteAccessibleBase
 (
 uint64_t
 aID
@@ -1116,7 +1116,7 @@ SELECTION
 {
 }
 explicit
-ProxyAccessibleBase
+RemoteAccessibleBase
 (
 DocAccessibleParent
 *
@@ -1282,9 +1282,9 @@ mIsSelection
 extern
 template
 class
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
-ProxyAccessible
+RemoteAccessible
 >
 ;
 }

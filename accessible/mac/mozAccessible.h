@@ -121,7 +121,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -284,7 +284,7 @@ return
 native
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

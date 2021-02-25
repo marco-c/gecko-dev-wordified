@@ -157,7 +157,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -1119,7 +1119,7 @@ None
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1408,7 +1408,7 @@ autoStr
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1581,7 +1581,7 @@ autoStr
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1707,7 +1707,7 @@ aOffset
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1855,7 +1855,7 @@ autoStr
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1984,7 +1984,7 @@ CaretOffset
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2138,7 +2138,7 @@ attributes
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2276,7 +2276,7 @@ attributes
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2475,7 +2475,7 @@ geckoCoordType
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2678,7 +2678,7 @@ geckoCoordType
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2813,7 +2813,7 @@ CharacterCount
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2937,7 +2937,7 @@ COORDTYPE_WINDOW_RELATIVE
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3055,7 +3055,7 @@ SelectionCount
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3189,7 +3189,7 @@ aEndOffset
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3336,7 +3336,7 @@ aEndOffset
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3434,7 +3434,7 @@ aSelectionNum
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3537,7 +3537,7 @@ aEndOffset
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3648,7 +3648,7 @@ TRUE
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3770,7 +3770,7 @@ return
 TRUE
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -3901,7 +3901,7 @@ return
 TRUE
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

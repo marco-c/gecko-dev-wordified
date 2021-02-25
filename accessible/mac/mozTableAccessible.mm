@@ -422,7 +422,7 @@ nativeCell
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -462,7 +462,7 @@ j
 +
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 cell
 =
@@ -1123,7 +1123,7 @@ IsProbablyLayoutTable
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2097,7 +2097,7 @@ RowExtent
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2197,7 +2197,7 @@ ColExtent
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2301,7 +2301,7 @@ headerCells
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2313,7 +2313,7 @@ AsProxy
 ;
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 headerCells
@@ -2408,7 +2408,7 @@ headerCells
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -2420,7 +2420,7 @@ AsProxy
 ;
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 headerCells
@@ -3311,7 +3311,7 @@ GroupPosition
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

@@ -216,7 +216,7 @@ aType
 const
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *

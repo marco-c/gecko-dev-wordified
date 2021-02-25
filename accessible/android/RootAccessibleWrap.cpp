@@ -133,7 +133,7 @@ h
 #
 include
 "
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 .
 h
 "
@@ -207,7 +207,7 @@ GetContentAccessible
 {
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -380,7 +380,7 @@ FindAccessibleById
 (
 static_cast
 <
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 >
 (
@@ -417,7 +417,7 @@ RootAccessibleWrap
 :
 FindAccessibleById
 (
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 aDoc
 int32_t
@@ -452,7 +452,7 @@ child
 =
 static_cast
 <
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 >
 (

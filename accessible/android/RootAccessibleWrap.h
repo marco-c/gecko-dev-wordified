@@ -116,7 +116,7 @@ namespace
 a11y
 {
 class
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 ;
 class
 RootAccessibleWrap
@@ -201,7 +201,7 @@ AccessibleWrap
 *
 FindAccessibleById
 (
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 aDocument
 int32_t

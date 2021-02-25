@@ -721,11 +721,11 @@ i
 e
 .
 not
-ProxyAccessible
+RemoteAccessible
 )
 in
-the
 *
+the
 same
 document
 as

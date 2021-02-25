@@ -173,7 +173,7 @@ IndexInParent
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -271,7 +271,7 @@ LocalParent
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -291,7 +291,7 @@ nullptr
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 parent
 =
@@ -371,7 +371,7 @@ aWhichChild
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 childDoc
 =
@@ -515,7 +515,7 @@ can
 t
 traverse
 into
-ProxyAccessibles
+RemoteAccessibles
 .
 Continue
 the
@@ -539,7 +539,7 @@ return
 target
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 AccessibleOrProxy
 :

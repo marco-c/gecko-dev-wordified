@@ -137,7 +137,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -279,7 +279,7 @@ PlatformShutdown
 void
 ProxyCreated
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t
@@ -389,7 +389,7 @@ that
 we
 can
 use
-ProxyAccessible
+RemoteAccessible
 :
 :
 IsTable
@@ -538,7 +538,7 @@ mozWrapper
 void
 ProxyDestroyed
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -592,7 +592,7 @@ aProxy
 void
 ProxyEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t
@@ -745,7 +745,7 @@ aEventType
 void
 ProxyStateChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint64_t
@@ -783,7 +783,7 @@ aEnabled
 void
 ProxyCaretMoveEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 int32_t
@@ -911,7 +911,7 @@ EVENT_TEXT_CARET_MOVED
 void
 ProxyTextChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -928,7 +928,7 @@ bool
 aFromUser
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 acc
 =
@@ -1021,9 +1021,9 @@ aStart
 void
 ProxyShowHideEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 *
 bool
 bool
@@ -1033,10 +1033,10 @@ bool
 void
 ProxySelectionEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 aWidget
 uint32_t
@@ -1069,7 +1069,7 @@ aEventType
 void
 ProxyTextSelectionChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -1117,7 +1117,7 @@ Document
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 startContainer
 =
@@ -1136,7 +1136,7 @@ StartID
 )
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 endContainer
 =
@@ -1221,7 +1221,7 @@ EVENT_TEXT_SELECTION_CHANGED
 void
 ProxyRoleChangedEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const

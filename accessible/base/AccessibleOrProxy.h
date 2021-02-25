@@ -135,7 +135,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -175,7 +175,7 @@ LocalAccessible
 *
 or
 a
-ProxyAccessible
+RemoteAccessible
 *
 in
 a
@@ -220,7 +220,7 @@ aAcc
 MOZ_IMPLICIT
 AccessibleOrProxy
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -283,7 +283,7 @@ mBits
 IS_PROXY
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 AsProxy
 (
@@ -300,7 +300,7 @@ IsProxy
 return
 reinterpret_cast
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 (
@@ -495,7 +495,7 @@ aIdx
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 childDoc
 =
@@ -565,7 +565,7 @@ RemoteFirstChild
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 childDoc
 =
@@ -628,7 +628,7 @@ RemoteLastChild
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 childDoc
 =
@@ -906,7 +906,7 @@ document
 .
 *
 /
-ProxyAccessible
+RemoteAccessible
 *
 RemoteChildDoc
 (

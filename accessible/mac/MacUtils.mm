@@ -305,7 +305,7 @@ ConvertToNSArray
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 &
@@ -361,7 +361,7 @@ i
 +
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 curAccessible
 =
@@ -524,7 +524,7 @@ result
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

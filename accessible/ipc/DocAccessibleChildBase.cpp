@@ -129,7 +129,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "

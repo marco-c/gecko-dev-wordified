@@ -5333,7 +5333,7 @@ endCol
 }
 #
 endif
-ProxyAccessible
+RemoteAccessible
 *
 RootAccessible
 :

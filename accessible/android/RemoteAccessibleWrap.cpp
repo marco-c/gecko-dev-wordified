@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 .
 h
 "
@@ -132,12 +132,12 @@ mozilla
 :
 a11y
 ;
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -205,7 +205,7 @@ doc
 =
 reinterpret_cast
 <
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 >
 (
@@ -247,7 +247,7 @@ this
 }
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 Shutdown
@@ -259,7 +259,7 @@ doc
 =
 reinterpret_cast
 <
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 >
 (
@@ -323,7 +323,7 @@ already_AddRefed
 <
 nsIPersistentProperties
 >
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 Attributes
@@ -356,7 +356,7 @@ attrs
 ;
 }
 uint32_t
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 ChildCount
@@ -377,7 +377,7 @@ ChildrenCount
 }
 LocalAccessible
 *
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 LocalChildAt
@@ -387,7 +387,7 @@ aIndex
 )
 const
 {
-ProxyAccessible
+RemoteAccessible
 *
 child
 =
@@ -413,7 +413,7 @@ nullptr
 ;
 }
 ENameValueFlag
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 Name
@@ -439,7 +439,7 @@ eNameOK
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 Value
@@ -462,7 +462,7 @@ aValue
 ;
 }
 uint64_t
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 State
@@ -481,7 +481,7 @@ State
 ;
 }
 nsIntRect
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 Bounds
@@ -501,7 +501,7 @@ Bounds
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 ScrollTo
@@ -523,7 +523,7 @@ aHow
 ;
 }
 uint8_t
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 ActionCount
@@ -543,7 +543,7 @@ ActionCount
 ;
 }
 bool
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 DoAction
@@ -569,7 +569,7 @@ aIndex
 /
 Other
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 SetTextContents
@@ -595,7 +595,7 @@ aText
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 GetTextContents
@@ -630,7 +630,7 @@ text
 ;
 }
 bool
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 GetSelectionBounds
@@ -662,7 +662,7 @@ aEndOffset
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 PivotTo
@@ -710,7 +710,7 @@ aInclusive
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 ExploreByTouch
@@ -755,7 +755,7 @@ aY
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 NavigateText
@@ -809,7 +809,7 @@ aSelect
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 SetSelection
@@ -854,7 +854,7 @@ aEnd
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 Cut
@@ -893,7 +893,7 @@ ID
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 Copy
@@ -932,7 +932,7 @@ ID
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 Paste
@@ -971,7 +971,7 @@ ID
 ;
 }
 role
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 WrapperRole
@@ -991,7 +991,7 @@ Role
 }
 AccessibleWrap
 *
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 WrapperParent
@@ -1024,7 +1024,7 @@ nullptr
 ;
 }
 bool
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 WrapperRangeInfo
@@ -1050,7 +1050,7 @@ HasNumericValue
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1107,7 +1107,7 @@ false
 ;
 }
 void
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 :
 :
 WrapperDOMNodeID

@@ -317,12 +317,12 @@ DocAccessibleParent
 h
 "
 "
-ProxyAccessibleBase
+RemoteAccessibleBase
 .
 h
 "
 "
-ProxyAccessibleShared
+RemoteAccessibleShared
 .
 h
 "
@@ -342,7 +342,7 @@ DocAccessibleParent
 cpp
 "
 "
-ProxyAccessibleBase
+RemoteAccessibleBase
 .
 cpp
 "

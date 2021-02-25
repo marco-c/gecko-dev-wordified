@@ -253,7 +253,7 @@ eHyperLink
 }
 xpcAccessibleGeneric
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint8_t

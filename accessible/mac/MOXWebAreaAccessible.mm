@@ -680,7 +680,7 @@ url
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

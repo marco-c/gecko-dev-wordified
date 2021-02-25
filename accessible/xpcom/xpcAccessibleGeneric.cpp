@@ -352,7 +352,7 @@ acc
 }
 else
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

@@ -132,7 +132,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -1026,7 +1026,7 @@ anchor
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 anchor
 =

@@ -245,7 +245,7 @@ any
 .
 *
 /
-ProxyAccessible
+RemoteAccessible
 *
 GetPrimaryRemoteTopLevelContentDoc
 (

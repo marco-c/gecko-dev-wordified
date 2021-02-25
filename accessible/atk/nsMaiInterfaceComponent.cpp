@@ -182,7 +182,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -318,7 +318,7 @@ return
 TRUE
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -399,7 +399,7 @@ return
 TRUE
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -486,7 +486,7 @@ return
 TRUE
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -1035,7 +1035,7 @@ return
 }
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

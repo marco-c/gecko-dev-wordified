@@ -1033,7 +1033,7 @@ newVal
 else
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

@@ -143,7 +143,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -193,7 +193,7 @@ aType
 const
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *

@@ -135,7 +135,7 @@ h
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -185,7 +185,7 @@ GValue
 value
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -292,7 +292,7 @@ GValue
 value
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -399,7 +399,7 @@ GValue
 value
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -506,7 +506,7 @@ GValue
 minimumIncrement
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -627,7 +627,7 @@ GValue
 value
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =

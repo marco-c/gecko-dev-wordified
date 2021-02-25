@@ -197,7 +197,7 @@ ConvertToNSArray
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 &

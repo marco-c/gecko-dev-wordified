@@ -188,7 +188,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -304,7 +304,7 @@ namespace
 a11y
 {
 class
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 ;
 class
 AccessibleWrap
@@ -1491,7 +1491,7 @@ static
 void
 UpdateSystemCaretFor
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 const
@@ -1872,7 +1872,7 @@ proxy
 .
 *
 /
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 DocProxyWrapper
 (
@@ -2158,7 +2158,7 @@ AccessibleWrap
 WrapperFor
 (
 const
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )

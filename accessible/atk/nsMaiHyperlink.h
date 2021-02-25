@@ -250,7 +250,7 @@ return
 link
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
 Proxy
 (

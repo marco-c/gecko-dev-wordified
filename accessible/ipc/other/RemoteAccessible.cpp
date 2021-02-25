@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -214,7 +214,7 @@ namespace
 a11y
 {
 uint64_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 State
@@ -245,7 +245,7 @@ state
 ;
 }
 uint64_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 NativeState
@@ -276,7 +276,7 @@ state
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 Name
@@ -310,7 +310,7 @@ flag
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Value
@@ -336,7 +336,7 @@ aValue
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Help
@@ -362,7 +362,7 @@ aHelp
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Description
@@ -388,7 +388,7 @@ aDesc
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Attributes
@@ -417,10 +417,10 @@ aAttrs
 }
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
-ProxyAccessible
+RemoteAccessible
 :
 :
 RelationByType
@@ -467,7 +467,7 @@ Length
 ;
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 targets
@@ -493,7 +493,7 @@ i
 {
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -523,7 +523,7 @@ targets
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Relations
@@ -538,7 +538,7 @@ nsTArray
 <
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 >
@@ -654,7 +654,7 @@ Length
 ;
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 targets
@@ -680,7 +680,7 @@ j
 {
 if
 (
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -753,7 +753,7 @@ type
 }
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 IsSearchbox
@@ -785,7 +785,7 @@ retVal
 }
 nsAtom
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 LandmarkRole
@@ -818,7 +818,7 @@ landmark
 }
 nsStaticAtom
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 ARIARoleAtom
@@ -850,7 +850,7 @@ role
 ;
 }
 GroupPos
-ProxyAccessible
+RemoteAccessible
 :
 :
 GroupPosition
@@ -888,7 +888,7 @@ groupPos
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ScrollTo
@@ -911,7 +911,7 @@ aScrollType
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ScrollToPoint
@@ -940,7 +940,7 @@ aY
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Announce
@@ -968,7 +968,7 @@ aPriority
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 CaretLineNumber
@@ -999,7 +999,7 @@ line
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 CaretOffset
@@ -1029,7 +1029,7 @@ offset
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 SetCaretOffset
@@ -1052,7 +1052,7 @@ aOffset
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 CharacterCount
@@ -1082,7 +1082,7 @@ count
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 SelectionCount
@@ -1112,7 +1112,7 @@ count
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 TextSubstring
@@ -1152,7 +1152,7 @@ valid
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetTextAfterOffset
@@ -1191,7 +1191,7 @@ aEndOffset
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetTextAtOffset
@@ -1230,7 +1230,7 @@ aEndOffset
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetTextBeforeOffset
@@ -1269,7 +1269,7 @@ aEndOffset
 ;
 }
 char16_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 CharAt
@@ -1308,7 +1308,7 @@ retval
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TextAttributes
@@ -1349,7 +1349,7 @@ aEndOffset
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 DefaultTextAttributes
@@ -1376,7 +1376,7 @@ aAttrs
 ;
 }
 nsIntRect
-ProxyAccessible
+RemoteAccessible
 :
 :
 TextBounds
@@ -1413,7 +1413,7 @@ rect
 ;
 }
 nsIntRect
-ProxyAccessible
+RemoteAccessible
 :
 :
 CharBounds
@@ -1447,7 +1447,7 @@ rect
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 OffsetAtPoint
@@ -1487,7 +1487,7 @@ retVal
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 SelectionBoundsAt
@@ -1533,7 +1533,7 @@ retVal
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 SetSelectionBoundsAt
@@ -1572,7 +1572,7 @@ retVal
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 AddToSelection
@@ -1608,7 +1608,7 @@ retVal
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 RemoveFromSelection
@@ -1641,7 +1641,7 @@ retVal
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ScrollSubstringTo
@@ -1670,7 +1670,7 @@ aScrollType
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ScrollSubstringToPoint
@@ -1705,7 +1705,7 @@ aY
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Text
@@ -1729,7 +1729,7 @@ aText
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ReplaceText
@@ -1754,7 +1754,7 @@ aText
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 InsertText
@@ -1790,7 +1790,7 @@ valid
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 CopyText
@@ -1824,7 +1824,7 @@ valid
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 CutText
@@ -1858,7 +1858,7 @@ valid
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 DeleteText
@@ -1892,7 +1892,7 @@ valid
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 PasteText
@@ -1923,7 +1923,7 @@ valid
 ;
 }
 nsIntPoint
-ProxyAccessible
+RemoteAccessible
 :
 :
 ImagePosition
@@ -1954,7 +1954,7 @@ retVal
 ;
 }
 nsIntSize
-ProxyAccessible
+RemoteAccessible
 :
 :
 ImageSize
@@ -1982,7 +1982,7 @@ retVal
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 StartOffset
@@ -2016,7 +2016,7 @@ retVal
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 EndOffset
@@ -2050,7 +2050,7 @@ retVal
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 IsLinkValid
@@ -2080,7 +2080,7 @@ retVal
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 AnchorCount
@@ -2114,7 +2114,7 @@ retVal
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 AnchorURIAt
@@ -2145,9 +2145,9 @@ aOk
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 AnchorAt
@@ -2197,7 +2197,7 @@ nullptr
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 LinkCount
@@ -2226,9 +2226,9 @@ return
 retVal
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 LinkAt
@@ -2280,12 +2280,12 @@ nullptr
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 LinkIndexOf
 (
-ProxyAccessible
+RemoteAccessible
 *
 aLink
 )
@@ -2326,7 +2326,7 @@ retVal
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 LinkIndexAtOffset
@@ -2359,9 +2359,9 @@ return
 retVal
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableOfACell
@@ -2408,7 +2408,7 @@ nullptr
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 ColIdx
@@ -2438,7 +2438,7 @@ index
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 RowIdx
@@ -2468,7 +2468,7 @@ index
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetColRowExtents
@@ -2504,7 +2504,7 @@ aRowExtent
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetPosition
@@ -2532,7 +2532,7 @@ aRowIdx
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 ColExtent
@@ -2562,7 +2562,7 @@ extent
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 RowExtent
@@ -2592,14 +2592,14 @@ extent
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ColHeaderCells
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *
@@ -2670,14 +2670,14 @@ i
 }
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 RowHeaderCells
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *
@@ -2748,7 +2748,7 @@ i
 }
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 IsCellSelected
@@ -2777,9 +2777,9 @@ return
 selected
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableCaption
@@ -2826,7 +2826,7 @@ nullptr
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSummary
@@ -2851,7 +2851,7 @@ aSummary
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableColumnCount
@@ -2881,7 +2881,7 @@ count
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableRowCount
@@ -2910,9 +2910,9 @@ return
 count
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableCellAt
@@ -2965,7 +2965,7 @@ nullptr
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableCellIndexAt
@@ -3001,7 +3001,7 @@ index
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableColumnIndexAt
@@ -3034,7 +3034,7 @@ index
 ;
 }
 int32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableRowIndexAt
@@ -3067,7 +3067,7 @@ index
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableRowAndColumnIndicesAt
@@ -3098,7 +3098,7 @@ aCol
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableColumnExtentAt
@@ -3134,7 +3134,7 @@ extent
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableRowExtentAt
@@ -3170,7 +3170,7 @@ extent
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableColumnDescription
@@ -3198,7 +3198,7 @@ aDescription
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableRowDescription
@@ -3226,7 +3226,7 @@ aDescription
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableColumnSelected
@@ -3259,7 +3259,7 @@ selected
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableRowSelected
@@ -3292,7 +3292,7 @@ selected
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableCellSelected
@@ -3328,7 +3328,7 @@ selected
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectedCellCount
@@ -3358,7 +3358,7 @@ count
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectedColumnCount
@@ -3388,7 +3388,7 @@ count
 ;
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectedRowCount
@@ -3418,14 +3418,14 @@ count
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectedCells
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *
@@ -3504,7 +3504,7 @@ i
 }
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectedCellIndices
@@ -3531,7 +3531,7 @@ aCellIndices
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectedColumnIndices
@@ -3558,7 +3558,7 @@ aColumnIndices
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectedRowIndices
@@ -3585,7 +3585,7 @@ aRowIndices
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectColumn
@@ -3608,7 +3608,7 @@ aCol
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableSelectRow
@@ -3631,7 +3631,7 @@ aRow
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableUnselectColumn
@@ -3654,7 +3654,7 @@ aCol
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableUnselectRow
@@ -3677,7 +3677,7 @@ aRow
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 TableIsProbablyForLayout
@@ -3706,9 +3706,9 @@ return
 forLayout
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 AtkTableColumnHeader
@@ -3757,9 +3757,9 @@ headerID
 nullptr
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 AtkTableRowHeader
@@ -3809,14 +3809,14 @@ nullptr
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 SelectedItems
 (
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 *
@@ -3895,7 +3895,7 @@ i
 }
 }
 uint32_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 SelectedItemCount
@@ -3924,9 +3924,9 @@ return
 count
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 GetSelectedItem
@@ -3976,7 +3976,7 @@ nullptr
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 IsItemSelected
@@ -4009,7 +4009,7 @@ selected
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 AddItemToSelection
@@ -4042,7 +4042,7 @@ success
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 RemoveItemFromSelection
@@ -4075,7 +4075,7 @@ success
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 SelectAll
@@ -4105,7 +4105,7 @@ success
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 UnselectAll
@@ -4135,7 +4135,7 @@ success
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TakeSelection
@@ -4155,7 +4155,7 @@ mID
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 SetSelected
@@ -4178,7 +4178,7 @@ aSelect
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 DoAction
@@ -4211,7 +4211,7 @@ success
 ;
 }
 uint8_t
-ProxyAccessible
+RemoteAccessible
 :
 :
 ActionCount
@@ -4241,7 +4241,7 @@ count
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ActionDescriptionAt
@@ -4269,7 +4269,7 @@ aDescription
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 ActionNameAt
@@ -4297,7 +4297,7 @@ aName
 ;
 }
 KeyBinding
-ProxyAccessible
+RemoteAccessible
 :
 :
 AccessKey
@@ -4338,7 +4338,7 @@ modifierMask
 ;
 }
 KeyBinding
-ProxyAccessible
+RemoteAccessible
 :
 :
 KeyboardShortcut
@@ -4379,7 +4379,7 @@ modifierMask
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 AtkKeyBinding
@@ -4404,7 +4404,7 @@ aBinding
 ;
 }
 double
-ProxyAccessible
+RemoteAccessible
 :
 :
 CurValue
@@ -4439,7 +4439,7 @@ val
 ;
 }
 bool
-ProxyAccessible
+RemoteAccessible
 :
 :
 SetCurValue
@@ -4472,7 +4472,7 @@ success
 ;
 }
 double
-ProxyAccessible
+RemoteAccessible
 :
 :
 MinValue
@@ -4507,7 +4507,7 @@ val
 ;
 }
 double
-ProxyAccessible
+RemoteAccessible
 :
 :
 MaxValue
@@ -4542,7 +4542,7 @@ val
 ;
 }
 double
-ProxyAccessible
+RemoteAccessible
 :
 :
 Step
@@ -4577,7 +4577,7 @@ step
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 TakeFocus
@@ -4596,9 +4596,9 @@ mID
 )
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 FocusedChild
@@ -4672,7 +4672,7 @@ ChildrenCount
 1
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 child
 =
@@ -4909,9 +4909,9 @@ resultID
 nullptr
 ;
 }
-ProxyAccessible
+RemoteAccessible
 *
-ProxyAccessible
+RemoteAccessible
 :
 :
 ChildAtPoint
@@ -4927,7 +4927,7 @@ EWhichChildAtPoint
 aWhichChild
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 target
 =
@@ -5197,7 +5197,7 @@ target
 ;
 }
 nsIntRect
-ProxyAccessible
+RemoteAccessible
 :
 :
 Bounds
@@ -5248,7 +5248,7 @@ rect
 ;
 }
 nsIntRect
-ProxyAccessible
+RemoteAccessible
 :
 :
 BoundsInCSSPixels
@@ -5290,7 +5290,7 @@ rect
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Language
@@ -5315,7 +5315,7 @@ aLocale
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 DocType
@@ -5340,7 +5340,7 @@ aType
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Title
@@ -5365,7 +5365,7 @@ aTitle
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 URL
@@ -5390,7 +5390,7 @@ aURL
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 MimeType
@@ -5414,7 +5414,7 @@ aMime
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 URLDocTypeMimeType
@@ -5449,7 +5449,7 @@ aMimeType
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 Extents
@@ -5488,7 +5488,7 @@ aHeight
 ;
 }
 void
-ProxyAccessible
+RemoteAccessible
 :
 :
 DOMNodeID

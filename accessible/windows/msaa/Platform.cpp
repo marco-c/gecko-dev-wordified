@@ -160,7 +160,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -529,7 +529,7 @@ a11y
 :
 ProxyCreated
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t
@@ -555,7 +555,7 @@ DOCUMENT
 wrapper
 =
 new
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 (
 aProxy
 )
@@ -575,7 +575,7 @@ HYPERTEXT
 wrapper
 =
 new
-HyperTextProxyAccessibleWrap
+HyperTextRemoteAccessibleWrap
 (
 aProxy
 )
@@ -586,7 +586,7 @@ else
 wrapper
 =
 new
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 (
 aProxy
 )
@@ -628,7 +628,7 @@ a11y
 :
 ProxyDestroyed
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )
@@ -747,7 +747,7 @@ a11y
 :
 ProxyEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint32_t
@@ -773,7 +773,7 @@ a11y
 :
 ProxyStateChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint64_t
@@ -802,7 +802,7 @@ a11y
 :
 ProxyFocusEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -969,7 +969,7 @@ a11y
 :
 ProxyCaretMoveEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -1009,7 +1009,7 @@ a11y
 :
 ProxyTextChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aText
 const
@@ -1158,10 +1158,10 @@ a11y
 :
 ProxyShowHideEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 bool
 aInsert
@@ -1208,10 +1208,10 @@ a11y
 :
 ProxySelectionEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 uint32_t
 aType

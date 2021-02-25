@@ -142,7 +142,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -227,7 +227,7 @@ class
 DocAccessibleParent
 :
 public
-ProxyAccessible
+RemoteAccessible
 public
 PDocAccessibleParent
 {
@@ -242,7 +242,7 @@ DocAccessibleParent
 (
 )
 :
-ProxyAccessible
+RemoteAccessible
 (
 this
 )
@@ -1206,7 +1206,7 @@ DocAccessibleParent
 aChildDoc
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 parent
 =
@@ -1273,7 +1273,7 @@ result
 void
 RemoveAccessible
 (
-ProxyAccessible
+RemoteAccessible
 *
 aAccessible
 )
@@ -1319,7 +1319,7 @@ id
 .
 *
 /
-ProxyAccessible
+RemoteAccessible
 *
 GetAccessible
 (
@@ -1358,7 +1358,7 @@ nullptr
 ;
 }
 const
-ProxyAccessible
+RemoteAccessible
 *
 GetAccessible
 (
@@ -1521,7 +1521,7 @@ it
 may
 be
 a
-ProxyAccessibleWrap
+RemoteAccessibleWrap
 or
 similar
 .
@@ -1868,7 +1868,7 @@ ALLOW_MEMMOVE
 true
 }
 ;
-ProxyAccessible
+RemoteAccessible
 *
 mProxy
 ;
@@ -1877,7 +1877,7 @@ mProxy
 uint32_t
 AddSubtree
 (
-ProxyAccessible
+RemoteAccessible
 *
 aParent
 const
@@ -1908,7 +1908,7 @@ xpcAccessibleGeneric
 *
 GetXPCAccessible
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )

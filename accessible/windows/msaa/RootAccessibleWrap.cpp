@@ -1025,7 +1025,7 @@ the
 active
 tab
 .
-ProxyAccessible
+RemoteAccessible
 *
 docProxy
 =
@@ -1289,7 +1289,7 @@ the
 active
 tab
 .
-ProxyAccessible
+RemoteAccessible
 *
 docProxy
 =

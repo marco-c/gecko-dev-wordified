@@ -664,7 +664,7 @@ containerID
 offset
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 container
 =
@@ -1648,7 +1648,7 @@ nextContainerID
 nextOffset
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 nextContainer
 =
@@ -1826,7 +1826,7 @@ prevContainerID
 prevOffset
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 prevContainer
 =
@@ -3699,7 +3699,7 @@ TextAttributes
 (
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 container
 =

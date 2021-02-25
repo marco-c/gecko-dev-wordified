@@ -191,7 +191,7 @@ namespace
 a11y
 {
 class
-ProxyAccessible
+RemoteAccessible
 ;
 enum
 EPlatformDisabledState
@@ -435,7 +435,7 @@ called
 when
 a
 new
-ProxyAccessible
+RemoteAccessible
 is
 created
 so
@@ -458,7 +458,7 @@ action
 void
 ProxyCreated
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 uint32_t
@@ -473,7 +473,7 @@ Called
 just
 before
 a
-ProxyAccessible
+RemoteAccessible
 is
 destroyed
 so
@@ -494,7 +494,7 @@ taken
 void
 ProxyDestroyed
 (
-ProxyAccessible
+RemoteAccessible
 *
 )
 ;
@@ -518,7 +518,7 @@ accessible
 void
 ProxyEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint32_t
@@ -528,7 +528,7 @@ aEventType
 void
 ProxyStateChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint64_t
@@ -546,7 +546,7 @@ XP_WIN
 void
 ProxyFocusEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -558,7 +558,7 @@ aCaretRect
 void
 ProxyCaretMoveEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -572,7 +572,7 @@ else
 void
 ProxyCaretMoveEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 int32_t
@@ -586,7 +586,7 @@ endif
 void
 ProxyTextChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -606,10 +606,10 @@ aFromUser
 void
 ProxyShowHideEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 aParent
 bool
@@ -621,10 +621,10 @@ aFromUser
 void
 ProxySelectionEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 aWidget
 uint32_t
@@ -641,17 +641,17 @@ MOZ_CAN_RUN_SCRIPT
 void
 ProxyVirtualCursorChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
-ProxyAccessible
+RemoteAccessible
 *
 aOldPosition
 int32_t
 aOldStartOffset
 int32_t
 aOldEndOffset
-ProxyAccessible
+RemoteAccessible
 *
 aNewPosition
 int32_t
@@ -669,7 +669,7 @@ aFromUser
 void
 ProxyScrollingEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 uint32_t
@@ -687,7 +687,7 @@ aMaxScrollY
 void
 ProxyAnnouncementEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -704,7 +704,7 @@ BatchData
 void
 ProxyBatch
 (
-ProxyAccessible
+RemoteAccessible
 *
 aDocument
 const
@@ -713,7 +713,7 @@ aBatchType
 const
 nsTArray
 <
-ProxyAccessible
+RemoteAccessible
 *
 >
 &
@@ -764,7 +764,7 @@ TextRangeData
 void
 ProxyTextSelectionChangeEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const
@@ -779,7 +779,7 @@ aSelection
 void
 ProxyRoleChangedEvent
 (
-ProxyAccessible
+RemoteAccessible
 *
 aTarget
 const

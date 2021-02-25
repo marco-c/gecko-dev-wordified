@@ -163,7 +163,7 @@ namespace
 a11y
 {
 class
-ProxyAccessible
+RemoteAccessible
 ;
 }
 }
@@ -466,7 +466,7 @@ mozilla
 a11y
 :
 :
-ProxyAccessible
+RemoteAccessible
 *
 GetProxy
 (
@@ -499,7 +499,7 @@ mozilla
 a11y
 :
 :
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 )

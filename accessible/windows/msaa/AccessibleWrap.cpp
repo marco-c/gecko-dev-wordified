@@ -210,7 +210,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -7176,7 +7176,7 @@ return
 NS_OK
 ;
 }
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 AccessibleWrap
 :
@@ -7193,7 +7193,7 @@ IsProxy
 )
 )
 ;
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -7238,7 +7238,7 @@ IsDoc
 return
 static_cast
 <
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 >
 (
@@ -7592,7 +7592,7 @@ IsProxy
 )
 )
 {
-ProxyAccessible
+RemoteAccessible
 *
 proxy
 =
@@ -8221,7 +8221,7 @@ wrapper
 =
 static_cast
 <
-DocProxyAccessibleWrap
+DocRemoteAccessibleWrap
 *
 >
 (
@@ -10314,7 +10314,7 @@ AccessibleWrap
 :
 UpdateSystemCaretFor
 (
-ProxyAccessible
+RemoteAccessible
 *
 aProxy
 const

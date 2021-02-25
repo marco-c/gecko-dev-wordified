@@ -158,7 +158,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessibleBase
+RemoteAccessibleBase
 .
 h
 "
@@ -169,7 +169,7 @@ mozilla
 /
 a11y
 /
-ProxyAccessible
+RemoteAccessible
 .
 h
 "
@@ -241,7 +241,7 @@ class
 Derived
 >
 void
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -452,7 +452,7 @@ class
 Derived
 >
 void
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -500,7 +500,7 @@ class
 Derived
 >
 void
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -609,7 +609,7 @@ class
 Derived
 >
 uint32_t
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -677,7 +677,7 @@ class
 Derived
 >
 int32_t
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -765,7 +765,7 @@ Derived
 >
 Derived
 *
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -853,7 +853,7 @@ Derived
 >
 LocalAccessible
 *
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -957,7 +957,7 @@ class
 Derived
 >
 void
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -1026,7 +1026,7 @@ Derived
 >
 Derived
 *
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
 Derived
 >
@@ -1208,9 +1208,9 @@ mParent
 }
 template
 class
-ProxyAccessibleBase
+RemoteAccessibleBase
 <
-ProxyAccessible
+RemoteAccessible
 >
 ;
 }
