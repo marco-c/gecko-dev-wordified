@@ -2385,6 +2385,22 @@ reduced
 "
 )
         
+handler
+=
+logging
+.
+StreamHandler
+(
+out
+)
+        
+logger
+.
+addHandler
+(
+handler
+)
+        
 #
 If
 this
@@ -2432,14 +2448,6 @@ mach
 help
 "
 ]
-            
-stdout
-=
-out
-            
-stderr
-=
-out
             
 logger
 =
