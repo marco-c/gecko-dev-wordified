@@ -175,7 +175,7 @@ public
 explicit
 xpcAccessibleHyperText
 (
-Accessible
+LocalAccessible
 *
 aIntl
 )
@@ -259,7 +259,7 @@ Intl
 {
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =

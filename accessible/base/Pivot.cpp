@@ -110,7 +110,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -1031,7 +1031,7 @@ Pivot
 :
 SearchForText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 bool
@@ -1052,7 +1052,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -1063,7 +1063,7 @@ while
 true
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1118,13 +1118,13 @@ AsHyperText
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 sibling
 =
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 temp
 =
@@ -1458,14 +1458,14 @@ work
 for
 proxy
 accessibles
-Accessible
+LocalAccessible
 *
 Pivot
 :
 :
 NextText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 int32_t
@@ -1502,7 +1502,7 @@ tempEnd
 *
 aEndOffset
 ;
-Accessible
+LocalAccessible
 *
 tempPosition
 =
@@ -1634,7 +1634,7 @@ MOZ_ASSERT
 tempPosition
 )
 ;
-Accessible
+LocalAccessible
 *
 curPosition
 =
@@ -1940,7 +1940,7 @@ the
 subtree
 )
 .
-Accessible
+LocalAccessible
 *
 sibling
 =
@@ -2227,7 +2227,7 @@ embedded
 /
 character
 .
-Accessible
+LocalAccessible
 *
 childAtOffset
 =
@@ -2396,14 +2396,14 @@ work
 for
 proxy
 accessibles
-Accessible
+LocalAccessible
 *
 Pivot
 :
 :
 PrevText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 int32_t
@@ -2440,7 +2440,7 @@ tempEnd
 *
 aEndOffset
 ;
-Accessible
+LocalAccessible
 *
 tempPosition
 =
@@ -2578,7 +2578,7 @@ MOZ_ASSERT
 tempPosition
 )
 ;
-Accessible
+LocalAccessible
 *
 curPosition
 =
@@ -2907,7 +2907,7 @@ the
 subtree
 )
 .
-Accessible
+LocalAccessible
 *
 sibling
 =
@@ -3266,7 +3266,7 @@ embedded
 /
 character
 .
-Accessible
+LocalAccessible
 *
 childAtOffset
 =
@@ -3473,7 +3473,7 @@ ChildAtPoint
 (
 aX
 aY
-Accessible
+LocalAccessible
 :
 :
 eDeepestChild
@@ -3899,7 +3899,7 @@ AccessibleOrProxy
 aAccOrProxy
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =

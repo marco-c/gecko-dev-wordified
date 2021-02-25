@@ -103,7 +103,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -353,7 +353,7 @@ NativeState
 const
 {
 return
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -514,7 +514,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULAlertAccessible
 :

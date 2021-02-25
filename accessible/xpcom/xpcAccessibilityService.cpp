@@ -1044,7 +1044,7 @@ the
 document
 cache
 .
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -1134,7 +1134,7 @@ aPivot
 =
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 accessibleRoot
 =

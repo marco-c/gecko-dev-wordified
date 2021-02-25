@@ -452,7 +452,7 @@ false
 /
 HTMLImageMapAccessible
 :
-Accessible
+LocalAccessible
 public
 role
 HTMLImageMapAccessible
@@ -569,7 +569,7 @@ ChildCount
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLImageMapAccessible
 :
@@ -601,7 +601,7 @@ aAnchorIndex
 )
 const
 {
-Accessible
+LocalAccessible
 *
 area
 =
@@ -838,7 +838,7 @@ childIdx
 -
 )
 {
-Accessible
+LocalAccessible
 *
 area
 =
@@ -925,7 +925,7 @@ GetAreaAt
 idx
 )
 ;
-Accessible
+LocalAccessible
 *
 area
 =
@@ -955,7 +955,7 @@ areaContent
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 area
 =
@@ -1023,7 +1023,7 @@ Done
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLImageMapAccessible
 :
@@ -1062,7 +1062,7 @@ i
 +
 )
 {
-Accessible
+LocalAccessible
 *
 area
 =
@@ -1384,7 +1384,7 @@ eNotNodeMapEntry
 /
 HTMLAreaAccessible
 :
-Accessible
+LocalAccessible
 ENameValueFlag
 HTMLAreaAccessible
 :
@@ -1400,7 +1400,7 @@ const
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -1598,9 +1598,9 @@ aDescription
 /
 HTMLAreaAccessible
 :
-Accessible
+LocalAccessible
 public
-Accessible
+LocalAccessible
 *
 HTMLAreaAccessible
 :
@@ -1739,7 +1739,7 @@ StartOffset
 EndOffset
 implementations
 of
-Accessible
+LocalAccessible
 doesn
 '
 t

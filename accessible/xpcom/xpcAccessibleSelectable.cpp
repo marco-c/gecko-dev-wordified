@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -216,7 +216,7 @@ widget
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >

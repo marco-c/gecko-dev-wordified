@@ -181,7 +181,7 @@ _nsAccCache_H_
 /
 /
 /
-Accessible
+LocalAccessible
 cache
 utils
 /

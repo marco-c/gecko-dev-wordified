@@ -28813,7 +28813,7 @@ NS_ERROR_NOT_IMPLEMENTED
 *
 Note
 :
-Accessible
+LocalAccessible
 must
 be
 refcountable
@@ -28823,8 +28823,8 @@ not
 implement
 directly
 on
-your
 *
+your
 frame
 Use
 a

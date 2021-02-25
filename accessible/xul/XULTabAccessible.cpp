@@ -458,7 +458,7 @@ aDoc
 /
 XULTabAccessible
 :
-Accessible
+LocalAccessible
 uint8_t
 XULTabAccessible
 :
@@ -658,7 +658,7 @@ false
 /
 XULTabAccessible
 :
-Accessible
+LocalAccessible
 role
 XULTabAccessible
 :
@@ -832,7 +832,7 @@ const
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeInteractiveState
@@ -1547,7 +1547,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1586,7 +1586,7 @@ aItems
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 XULTabsAccessible
 :

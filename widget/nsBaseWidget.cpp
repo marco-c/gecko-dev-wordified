@@ -13202,7 +13202,7 @@ ACCESSIBILITY
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 nsBaseWidget
 :
@@ -13286,7 +13286,7 @@ nullptr
 ;
 /
 /
-Accessible
+LocalAccessible
 creation
 might
 be

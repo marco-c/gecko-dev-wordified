@@ -189,7 +189,7 @@ namespace
 a11y
 {
 inline
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -223,7 +223,7 @@ containing
 all
 options
 .
-Accessible
+LocalAccessible
 *
 container
 =
@@ -454,7 +454,7 @@ FireDelayedEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -719,7 +719,7 @@ DocAccessible
 :
 MaybeNotifyOfValueChange
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -774,7 +774,7 @@ aAccessible
 }
 }
 inline
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -787,7 +787,7 @@ aNode
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -814,7 +814,7 @@ DocAccessible
 :
 CreateSubtree
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -881,7 +881,7 @@ by
 this
 one
 .
-Accessible
+LocalAccessible
 *
 focusedAcc
 =

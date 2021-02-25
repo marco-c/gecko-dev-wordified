@@ -135,7 +135,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -609,7 +609,7 @@ accessible
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 rootAcc
 =
@@ -670,7 +670,7 @@ just
 use
 the
 regular
-Accessible
+LocalAccessible
 :
 :
 GetNativeInterface
@@ -1722,7 +1722,7 @@ ResolveRootAccWrap
 (
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =

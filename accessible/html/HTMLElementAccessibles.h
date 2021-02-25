@@ -151,7 +151,7 @@ aDoc
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -213,7 +213,7 @@ eText
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -237,7 +237,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -295,7 +295,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 Relation
 RelationByType
@@ -405,7 +405,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 Relation
 RelationByType
@@ -471,7 +471,7 @@ Check
 that
 the
 given
-Accessible
+LocalAccessible
 belongs
 to
 a
@@ -503,14 +503,14 @@ HTMLSummaryAccessible
 *
 FromDetails
 (
-Accessible
+LocalAccessible
 *
 aDetails
 )
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 uint64_t
 NativeState
@@ -611,7 +611,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 nsAtom
 *
@@ -687,7 +687,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 nsAtom
 *

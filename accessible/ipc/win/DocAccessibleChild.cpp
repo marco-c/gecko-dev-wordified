@@ -128,7 +128,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -935,7 +935,7 @@ uint64_t
 aID
 )
 {
-Accessible
+LocalAccessible
 *
 target
 ;
@@ -948,7 +948,7 @@ target
 =
 reinterpret_cast
 <
-Accessible
+LocalAccessible
 *
 >
 (

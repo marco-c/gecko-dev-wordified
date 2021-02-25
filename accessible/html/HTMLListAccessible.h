@@ -196,7 +196,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -275,7 +275,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -316,7 +316,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -328,7 +328,7 @@ RelocateChild
 (
 uint32_t
 aNewIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -420,7 +420,7 @@ HTMLListBulletAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 nsIFrame
 *
@@ -511,7 +511,7 @@ const
 inline
 HTMLLIAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsHTMLListItem

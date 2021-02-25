@@ -1360,7 +1360,7 @@ roles
 ROW
 )
 {
-Accessible
+LocalAccessible
 *
 xpParent
 =
@@ -3181,7 +3181,7 @@ caretOffset
 -
 1
 ;
-Accessible
+LocalAccessible
 *
 accWithCaret
 =
@@ -3220,7 +3220,7 @@ Document
 return
 S_FALSE
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -3434,7 +3434,7 @@ CO_E_OBJNOTCONNECTED
 ;
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 targets
@@ -3462,7 +3462,7 @@ RelationByType
 relationType
 )
 ;
-Accessible
+LocalAccessible
 *
 target
 =

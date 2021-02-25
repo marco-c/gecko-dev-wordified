@@ -143,7 +143,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 DocAccessible
@@ -233,7 +233,7 @@ children
 explicit
 TreeWalker
 (
-Accessible
+LocalAccessible
 *
 aContext
 )
@@ -303,7 +303,7 @@ above
 /
 TreeWalker
 (
-Accessible
+LocalAccessible
 *
 aContext
 nsIContent
@@ -379,7 +379,7 @@ itself
 .
 *
 /
-Accessible
+LocalAccessible
 *
 Scope
 (
@@ -494,19 +494,19 @@ document
 .
 *
 /
-Accessible
+LocalAccessible
 *
 Next
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 Prev
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 Context
 (
@@ -567,7 +567,7 @@ any
 .
 *
 /
-Accessible
+LocalAccessible
 *
 AccessibleFor
 (
@@ -716,7 +716,7 @@ DocAccessible
 *
 mDoc
 ;
-Accessible
+LocalAccessible
 *
 mContext
 ;

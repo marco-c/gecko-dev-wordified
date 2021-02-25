@@ -5252,7 +5252,7 @@ not
 exist
 yet
 .
-Accessible
+LocalAccessible
 *
 outerDoc
 =
@@ -5640,7 +5640,7 @@ DocAccessibleParent
 :
 SendParentCOMProxy
 (
-Accessible
+LocalAccessible
 *
 aOuterDoc
 )

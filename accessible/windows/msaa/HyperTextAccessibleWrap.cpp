@@ -119,7 +119,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -344,7 +344,7 @@ nsIAccessibleEvent
 EVENT_TEXT_INSERTED
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =

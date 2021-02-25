@@ -106,7 +106,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -369,7 +369,7 @@ int32_t
 GetDefaultLevel
 (
 const
-Accessible
+LocalAccessible
 *
 aAcc
 )
@@ -403,7 +403,7 @@ int32_t
 GetARIAOrDefaultLevel
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -785,11 +785,11 @@ accessible
 *
 /
 static
-Accessible
+LocalAccessible
 *
 GetSelectableContainer
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 uint64_t
@@ -823,11 +823,11 @@ aNode
 )
 ;
 static
-Accessible
+LocalAccessible
 *
 TableFor
 (
-Accessible
+LocalAccessible
 *
 aRow
 )
@@ -866,7 +866,7 @@ bool
 IsDOMAttrTrue
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAtom
@@ -906,7 +906,7 @@ bool
 IsARIASelected
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -954,7 +954,7 @@ bool
 IsARIAMultiSelectable
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1051,7 +1051,7 @@ int32_t
 aY
 uint32_t
 aCoordinateType
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1139,7 +1139,7 @@ int32_t
 aY
 uint32_t
 aCoordinateType
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1175,7 +1175,7 @@ static
 nsIntPoint
 GetScreenCoordsForParent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1286,7 +1286,7 @@ static
 bool
 IsTextInterfaceSupportCorrect
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1315,7 +1315,7 @@ static
 uint32_t
 TextLength
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1556,7 +1556,7 @@ bool
 IsARIALive
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )

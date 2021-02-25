@@ -162,7 +162,7 @@ public
 explicit
 xpcAccessibleTableCell
 (
-Accessible
+LocalAccessible
 *
 aIntl
 )
@@ -287,7 +287,7 @@ Intl
 {
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =

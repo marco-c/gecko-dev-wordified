@@ -103,7 +103,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -496,7 +496,7 @@ eSelect
 /
 HTMLSelectListAccessible
 :
-Accessible
+LocalAccessible
 public
 uint64_t
 HTMLSelectListAccessible
@@ -860,7 +860,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLSelectListAccessible
 :
@@ -938,7 +938,7 @@ HTMLSelectListAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -1285,7 +1285,7 @@ aDoc
 /
 HTMLSelectOptionAccessible
 :
-Accessible
+LocalAccessible
 public
 role
 HTMLSelectOptionAccessible
@@ -1497,7 +1497,7 @@ OFFSCREEN
 /
 Upcall
 to
-Accessible
+LocalAccessible
 but
 skip
 HyperTextAccessible
@@ -1516,14 +1516,14 @@ SELECTABLE_TEXT
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 select
 =
@@ -1769,7 +1769,7 @@ don
 t
 rely
 on
-Accessible
+LocalAccessible
 '
 s
 general
@@ -1806,7 +1806,7 @@ bounds
 to
 calculate
 OFFSCREEN
-Accessible
+LocalAccessible
 *
 listAcc
 =
@@ -2003,7 +2003,7 @@ aBoundingFrame
 )
 const
 {
-Accessible
+LocalAccessible
 *
 combobox
 =
@@ -2243,7 +2243,7 @@ aSelect
 HTMLSelectOptionAccessible
 :
 Widgets
-Accessible
+LocalAccessible
 *
 HTMLSelectOptionAccessible
 :
@@ -2253,7 +2253,7 @@ ContainerWidget
 )
 const
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -2923,7 +2923,7 @@ mListAccessible
 /
 HTMLComboboxAccessible
 :
-Accessible
+LocalAccessible
 role
 HTMLComboboxAccessible
 :
@@ -2946,7 +2946,7 @@ HTMLComboboxAccessible
 :
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -3072,7 +3072,7 @@ class
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -3179,7 +3179,7 @@ via
 aria
 -
 describedby
-Accessible
+LocalAccessible
 :
 :
 Description
@@ -3207,7 +3207,7 @@ of
 selected
 option
 .
-Accessible
+LocalAccessible
 *
 option
 =
@@ -3249,7 +3249,7 @@ of
 selected
 option
 .
-Accessible
+LocalAccessible
 *
 option
 =
@@ -3555,7 +3555,7 @@ IsDroppedDown
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 HTMLComboboxAccessible
 :
@@ -3587,7 +3587,7 @@ HTMLComboboxAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -3692,7 +3692,7 @@ aItem
 HTMLComboboxAccessible
 :
 protected
-Accessible
+LocalAccessible
 *
 HTMLComboboxAccessible
 :
@@ -3944,7 +3944,7 @@ HTMLComboboxListAccessible
 :
 HTMLComboboxListAccessible
 (
-Accessible
+LocalAccessible
 *
 aParent
 nsIContent
@@ -4051,7 +4051,7 @@ eSharedNode
 /
 HTMLComboboxAccessible
 :
-Accessible
+LocalAccessible
 nsIFrame
 *
 HTMLComboboxListAccessible
@@ -4154,7 +4154,7 @@ class
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -4230,7 +4230,7 @@ aBoundingFrame
 =
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 comboAcc
 =

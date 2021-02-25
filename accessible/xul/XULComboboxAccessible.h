@@ -157,7 +157,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Description

@@ -670,7 +670,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -46473,7 +46473,7 @@ it
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 acc
 =

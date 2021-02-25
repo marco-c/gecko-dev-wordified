@@ -551,7 +551,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 }
 /
@@ -4001,7 +4001,7 @@ static
 a11y
 :
 :
-Accessible
+LocalAccessible
 *
 GetRootAccessibleForHWND
 (

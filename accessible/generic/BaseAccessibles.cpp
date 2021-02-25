@@ -103,7 +103,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -437,9 +437,9 @@ eNoKidsFromDOM
 /
 LeafAccessible
 :
-Accessible
+LocalAccessible
 public
-Accessible
+LocalAccessible
 *
 LeafAccessible
 :
@@ -476,7 +476,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -503,7 +503,7 @@ LeafAccessible
 :
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -808,7 +808,7 @@ const
 if
 (
 const
-Accessible
+LocalAccessible
 *
 actionAcc
 =
@@ -849,7 +849,7 @@ bool
 isLink
 ;
 const
-Accessible
+LocalAccessible
 *
 actionAcc
 =
@@ -907,7 +907,7 @@ Truncate
 (
 )
 ;
-Accessible
+LocalAccessible
 :
 :
 Value
@@ -932,7 +932,7 @@ bool
 isLink
 ;
 const
-Accessible
+LocalAccessible
 *
 actionAcc
 =
@@ -998,7 +998,7 @@ isLabelWithControl
 ;
 }
 const
-Accessible
+LocalAccessible
 *
 LinkableAccessible
 :
@@ -1113,7 +1113,7 @@ is
 traversed
 .
 const
-Accessible
+LocalAccessible
 *
 walkUpAcc
 =
@@ -1355,7 +1355,7 @@ false
 if
 (
 const
-Accessible
+LocalAccessible
 *
 actionAcc
 =
@@ -1396,7 +1396,7 @@ const
 if
 (
 const
-Accessible
+LocalAccessible
 *
 actionAcc
 =
@@ -1425,7 +1425,7 @@ AccessKey
 ;
 }
 return
-Accessible
+LocalAccessible
 :
 :
 AccessKey
@@ -1536,7 +1536,7 @@ bool
 isLink
 ;
 const
-Accessible
+LocalAccessible
 *
 actionAcc
 =

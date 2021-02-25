@@ -348,7 +348,7 @@ xpcAccessibleGeneric
 *
 GetAccessible
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -388,7 +388,7 @@ Intl
 {
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -415,7 +415,7 @@ nullptr
 void
 NotifyOfShutdown
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -645,7 +645,7 @@ xpcAccessibleGeneric
 *
 ToXPC
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

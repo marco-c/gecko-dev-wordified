@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -745,13 +745,13 @@ a
 document
 to
 the
-Accessible
+LocalAccessible
 constructor
 so
 that
+/
+/
 we
-/
-/
 don
 '
 t
@@ -768,9 +768,9 @@ If
 we
 set
 mDoc
+/
+/
 before
-/
-/
 setting
 up
 the
@@ -778,17 +778,17 @@ vtable
 we
 will
 call
-Accessible
+LocalAccessible
 :
 :
 AddRef
 (
 )
+/
+/
 but
 not
 the
-/
-/
 overrides
 of
 it
@@ -800,9 +800,9 @@ is
 important
 to
 call
+/
+/
 those
-/
-/
 overrides
 to
 avoid
@@ -1023,7 +1023,7 @@ DocAccessible
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 DocAccessible
-Accessible
+LocalAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -1220,7 +1220,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -1282,7 +1282,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 DocAccessible
-Accessible
+LocalAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -1519,7 +1519,7 @@ labelledby
 or
 title
 attribute
-Accessible
+LocalAccessible
 :
 :
 Name
@@ -1576,7 +1576,7 @@ eNameOK
 }
 /
 /
-Accessible
+LocalAccessible
 public
 method
 role
@@ -1773,7 +1773,7 @@ aDescription
 }
 /
 /
-Accessible
+LocalAccessible
 public
 method
 uint64_t
@@ -2010,7 +2010,7 @@ false
 }
 /
 /
-Accessible
+LocalAccessible
 public
 method
 void
@@ -2037,7 +2037,7 @@ if
 (
 mContent
 )
-Accessible
+LocalAccessible
 :
 :
 ApplyARIAState
@@ -2199,7 +2199,7 @@ forget
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -2760,7 +2760,7 @@ aType
 /
 /
 /
-Accessible
+LocalAccessible
 void
 DocAccessible
 :
@@ -3275,7 +3275,7 @@ Next
 )
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -4824,7 +4824,7 @@ int32_t
 aModType
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -5455,7 +5455,7 @@ of
 the
 content
 .
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -5673,7 +5673,7 @@ DocAccessible
 :
 AttributeChangedImpl
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 int32_t
@@ -6475,7 +6475,7 @@ aria_describedby
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 target
 =
@@ -6521,7 +6521,7 @@ rule
 )
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -6668,7 +6668,7 @@ aria_labelledby
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 target
 =
@@ -6714,7 +6714,7 @@ rule
 )
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -7173,7 +7173,7 @@ nsGkAtoms
 aria_selected
 )
 {
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -7520,7 +7520,7 @@ DocAccessible
 :
 ARIAAttributeChanged
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAtom
@@ -7726,7 +7726,7 @@ mNotificationController
 ScheduleNotification
 <
 DocAccessible
-Accessible
+LocalAccessible
 >
 (
 this
@@ -8268,7 +8268,7 @@ DocAccessible
 :
 ARIAActiveDescendantChanged
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -8350,7 +8350,7 @@ if
 activeDescendantElm
 )
 {
-Accessible
+LocalAccessible
 *
 activeDescendant
 =
@@ -8516,7 +8516,7 @@ EventStates
 aStateMask
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -8542,7 +8542,7 @@ NS_EVENT_STATE_CHECKED
 )
 )
 {
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -9033,7 +9033,7 @@ aContent
 /
 /
 /
-Accessible
+LocalAccessible
 #
 ifdef
 A11Y_LOG
@@ -9259,7 +9259,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -9271,7 +9271,7 @@ void
 aUniqueID
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -9345,7 +9345,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -9729,7 +9729,7 @@ nullptr
 }
 if
 (
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -9748,7 +9748,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -9761,7 +9761,7 @@ aNode
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9895,7 +9895,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -9968,7 +9968,7 @@ DocAccessible
 :
 BindToDocument
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 const
@@ -10112,7 +10112,7 @@ DocAccessible
 :
 UnbindFromDocument
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -10464,7 +10464,7 @@ parent
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 container
 =
@@ -10818,7 +10818,7 @@ it
 in
 place
 .
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -10844,7 +10844,7 @@ GetContent
 (
 )
 "
-Accessible
+LocalAccessible
 has
 differing
 content
@@ -10939,7 +10939,7 @@ GetFrame
 ;
 /
 /
-Accessible
+LocalAccessible
 has
 no
 frame
@@ -11172,7 +11172,7 @@ need
 to
 recreate
 the
-Accessible
+LocalAccessible
 .
 This
 can
@@ -11180,9 +11180,9 @@ happen
 for
 embed
 or
+/
+/
 object
-/
-/
 elements
 if
 their
@@ -11575,7 +11575,7 @@ true
 }
 if
 (
-Accessible
+LocalAccessible
 *
 container
 =
@@ -11887,7 +11887,7 @@ HasID
 )
 )
 {
-Accessible
+LocalAccessible
 *
 container
 =
@@ -12038,7 +12038,7 @@ Clear
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 DocAccessible
 :
@@ -12131,7 +12131,7 @@ if
 imageFrame
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -12150,7 +12150,7 @@ if
 parent
 )
 {
-Accessible
+LocalAccessible
 *
 area
 =
@@ -13210,7 +13210,7 @@ DocAccessible
 :
 AddDependentIDsFor
 (
-Accessible
+LocalAccessible
 *
 aRelProvider
 nsAtom
@@ -13588,7 +13588,7 @@ DocAccessible
 :
 RemoveDependentIDsFor
 (
-Accessible
+LocalAccessible
 *
 aRelProvider
 nsAtom
@@ -14129,7 +14129,7 @@ public
 :
 InsertIterator
 (
-Accessible
+LocalAccessible
 *
 aContext
 const
@@ -14198,7 +14198,7 @@ MOZ_COUNTED_DTOR
 (
 InsertIterator
 )
-Accessible
+LocalAccessible
 *
 Context
 (
@@ -14213,7 +14213,7 @@ Context
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 Child
 (
@@ -14224,7 +14224,7 @@ return
 mChild
 ;
 }
-Accessible
+LocalAccessible
 *
 ChildBefore
 (
@@ -14287,11 +14287,11 @@ nullptr
 }
 private
 :
-Accessible
+LocalAccessible
 *
 mChild
 ;
-Accessible
+LocalAccessible
 *
 mChildBefore
 ;
@@ -14368,7 +14368,7 @@ its
 next
 sibling
 .
-Accessible
+LocalAccessible
 *
 nextChild
 =
@@ -14474,7 +14474,7 @@ node
 continue
 ;
 }
-Accessible
+LocalAccessible
 *
 container
 =
@@ -14749,7 +14749,7 @@ the
 walker
 next
 .
-Accessible
+LocalAccessible
 *
 nextChild
 =
@@ -14878,7 +14878,7 @@ DocAccessible
 :
 ProcessContentInserted
 (
-Accessible
+LocalAccessible
 *
 aContainer
 const
@@ -14996,7 +14996,7 @@ aContainer
 ;
 do
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -15016,7 +15016,7 @@ if
 parent
 )
 {
-Accessible
+LocalAccessible
 *
 previousSibling
 =
@@ -15328,7 +15328,7 @@ DocAccessible
 :
 ProcessContentInserted
 (
-Accessible
+LocalAccessible
 *
 aContainer
 nsIContent
@@ -15427,7 +15427,7 @@ aNode
 )
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -15541,7 +15541,7 @@ DocAccessible
 :
 FireEventsOnInsertion
 (
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -15585,7 +15585,7 @@ IsInsideAlert
 )
 )
 {
-Accessible
+LocalAccessible
 *
 ancestor
 =
@@ -15638,12 +15638,12 @@ DocAccessible
 :
 ContentRemoved
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -15703,7 +15703,7 @@ kill
 us
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 kungFuDeathGripChild
 (
@@ -15784,7 +15784,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -15903,7 +15903,7 @@ its
 accessible
 children
 .
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -16201,7 +16201,7 @@ nsGkAtoms
 aria_owns
 )
 {
-Accessible
+LocalAccessible
 *
 owner
 =
@@ -16249,7 +16249,7 @@ DocAccessible
 :
 DoARIAOwnsRelocation
 (
-Accessible
+LocalAccessible
 *
 aOwner
 )
@@ -16316,7 +16316,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -16363,7 +16363,7 @@ NextElem
 )
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -16962,7 +16962,7 @@ IsRelocated
 continue
 ;
 }
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -17127,7 +17127,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -17175,7 +17175,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -17209,7 +17209,7 @@ child
 from
 the
 owner
-Accessible
+LocalAccessible
 *
 owner
 =
@@ -17316,7 +17316,7 @@ idxInParent
 -
 1
 ;
-Accessible
+LocalAccessible
 *
 origContainer
 =
@@ -17351,7 +17351,7 @@ content
 )
 )
 {
-Accessible
+LocalAccessible
 *
 prevChild
 =
@@ -17743,10 +17743,10 @@ DocAccessible
 :
 MoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
-Accessible
+LocalAccessible
 *
 aNewParent
 int32_t
@@ -17825,7 +17825,7 @@ child
 "
 )
 ;
-Accessible
+LocalAccessible
 *
 curParent
 =
@@ -17937,7 +17937,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -18267,10 +18267,10 @@ DocAccessible
 :
 CacheChildrenInSubtree
 (
-Accessible
+LocalAccessible
 *
 aRoot
-Accessible
+LocalAccessible
 *
 *
 aFocusedAcc
@@ -18328,7 +18328,7 @@ aFocusedAcc
 aRoot
 ;
 }
-Accessible
+LocalAccessible
 *
 root
 =
@@ -18376,7 +18376,7 @@ root
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 child
 =
@@ -18548,7 +18548,7 @@ DocAccessible
 :
 UncacheChildrenInSubtree
 (
-Accessible
+LocalAccessible
 *
 aRoot
 )
@@ -18570,7 +18570,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 *
@@ -18609,7 +18609,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -18771,7 +18771,7 @@ DocAccessible
 :
 ShutdownChildrenInSubtree
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -18865,7 +18865,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -19203,7 +19203,7 @@ uint32_t
 aEventType
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -19658,7 +19658,7 @@ has
 probably
 changed
 .
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -19716,7 +19716,7 @@ mNotificationController
 ScheduleNotification
 <
 DocAccessible
-Accessible
+LocalAccessible
 >
 (
 this
@@ -19873,7 +19873,7 @@ nullptr
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 DocAccessible
 :

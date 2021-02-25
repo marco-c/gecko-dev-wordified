@@ -137,7 +137,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 /
 *
@@ -276,7 +276,7 @@ xpcAccessibleSelectable
 =
 delete
 ;
-Accessible
+LocalAccessible
 *
 Intl
 (

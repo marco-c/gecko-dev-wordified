@@ -224,7 +224,7 @@ AccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -348,7 +348,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -362,7 +362,7 @@ aWhichChild
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 FocusedChild
 (
@@ -547,9 +547,9 @@ ApplicationAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
-Accessible
+LocalAccessible
 *
 GetSiblingAtOffset
 (
@@ -577,7 +577,7 @@ mAppInfo
 inline
 ApplicationAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsApplication

@@ -162,7 +162,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -215,7 +215,7 @@ class
 AccessibleWrap
 :
 public
-Accessible
+LocalAccessible
 {
 public
 :

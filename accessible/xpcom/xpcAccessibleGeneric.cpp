@@ -293,7 +293,7 @@ IsAccessible
 )
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -484,7 +484,7 @@ proxy
 /
 /
 nsIAccessible
-Accessible
+LocalAccessible
 *
 xpcAccessibleGeneric
 :

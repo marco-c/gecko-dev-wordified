@@ -103,7 +103,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -1017,7 +1017,7 @@ eTable
 /
 XULListboxAccessible
 :
-Accessible
+LocalAccessible
 uint64_t
 XULListboxAccessible
 :
@@ -1055,7 +1055,7 @@ class
 uint64_t
 states
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -1344,7 +1344,7 @@ return
 itemCount
 ;
 }
-Accessible
+LocalAccessible
 *
 XULListboxAccessible
 :
@@ -1407,7 +1407,7 @@ element
 return
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 row
 =
@@ -1881,7 +1881,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1978,7 +1978,7 @@ Item
 index
 )
 ;
-Accessible
+LocalAccessible
 *
 item
 =
@@ -2021,7 +2021,7 @@ cellIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2961,7 +2961,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULListboxAccessible
 :
@@ -3096,7 +3096,7 @@ if
 inputElm
 )
 {
-Accessible
+LocalAccessible
 *
 input
 =
@@ -3347,7 +3347,7 @@ XULListitemAccessible
 )
 {
 }
-Accessible
+LocalAccessible
 *
 XULListitemAccessible
 :
@@ -3510,7 +3510,7 @@ listElement
 /
 /
 XULListitemAccessible
-Accessible
+LocalAccessible
 void
 XULListitemAccessible
 :
@@ -3615,7 +3615,7 @@ aDesc
 /
 XULListitemAccessible
 :
-Accessible
+LocalAccessible
 /
 *
 *
@@ -3641,7 +3641,7 @@ aName
 const
 {
 return
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -3659,7 +3659,7 @@ NativeRole
 )
 const
 {
-Accessible
+LocalAccessible
 *
 list
 =
@@ -4047,7 +4047,7 @@ check
 XULListitemAccessible
 :
 Widgets
-Accessible
+LocalAccessible
 *
 XULListitemAccessible
 :

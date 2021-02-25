@@ -112,7 +112,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -569,7 +569,7 @@ eTableCell
 /
 HTMLTableCellAccessible
 :
-Accessible
+LocalAccessible
 implementation
 role
 HTMLTableCellAccessible
@@ -856,7 +856,7 @@ ChildCount
 1
 )
 {
-Accessible
+LocalAccessible
 *
 abbr
 =
@@ -1225,7 +1225,7 @@ Table
 )
 const
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -1475,7 +1475,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1495,7 +1495,7 @@ headers
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1638,7 +1638,7 @@ RowHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1658,7 +1658,7 @@ headers
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2278,7 +2278,7 @@ aDoc
 /
 HTMLTableHeaderCellAccessible
 :
-Accessible
+LocalAccessible
 implementation
 role
 HTMLTableHeaderCellAccessible
@@ -2436,7 +2436,7 @@ ColIdx
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -2857,7 +2857,7 @@ index
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 table
 =
@@ -2929,7 +2929,7 @@ GroupPosition
 }
 /
 /
-Accessible
+LocalAccessible
 protected
 ENameValueFlag
 HTMLTableRowAccessible
@@ -3237,7 +3237,7 @@ HTMLTableAccessible
 /
 HTMLTableAccessible
 :
-Accessible
+LocalAccessible
 bool
 HTMLTableAccessible
 :
@@ -3246,7 +3246,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -3299,7 +3299,7 @@ actually
 visible
 .
 return
-Accessible
+LocalAccessible
 :
 :
 InsertChildAt
@@ -3365,7 +3365,7 @@ NativeState
 const
 {
 return
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -3393,7 +3393,7 @@ const
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -3422,7 +3422,7 @@ as
 a
 name
 .
-Accessible
+LocalAccessible
 *
 caption
 =
@@ -3682,7 +3682,7 @@ forget
 /
 HTMLTableAccessible
 :
-Accessible
+LocalAccessible
 Relation
 HTMLTableAccessible
 :
@@ -3813,7 +3813,7 @@ rel
 HTMLTableAccessible
 :
 Table
-Accessible
+LocalAccessible
 *
 HTMLTableAccessible
 :
@@ -3823,7 +3823,7 @@ Caption
 )
 const
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -4209,7 +4209,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -4339,7 +4339,7 @@ colIdx
 )
 continue
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -4627,7 +4627,7 @@ rowIdx
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 HTMLTableAccessible
 :
@@ -4669,7 +4669,7 @@ aRowIdx
 aColIdx
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -4907,7 +4907,7 @@ aRowIdx
 aColIdx
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -5352,7 +5352,7 @@ aRowIdx
 aColIdx
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -6214,7 +6214,7 @@ Truncate
 (
 )
 ;
-Accessible
+LocalAccessible
 :
 :
 Description
@@ -6262,7 +6262,7 @@ NameInternal
 (
 )
 .
-Accessible
+LocalAccessible
 *
 caption
 =

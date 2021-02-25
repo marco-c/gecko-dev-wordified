@@ -121,7 +121,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -153,7 +153,7 @@ RowHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -216,7 +216,7 @@ curColIdx
 -
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -341,7 +341,7 @@ cell
 }
 }
 }
-Accessible
+LocalAccessible
 *
 TableCellAccessible
 :
@@ -387,7 +387,7 @@ inCache
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 cachedHeader
 =
@@ -490,7 +490,7 @@ curRowIdx
 -
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -786,7 +786,7 @@ Put
 this
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 (
 cachedHeader
@@ -865,7 +865,7 @@ Put
 this
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 (
 cell
@@ -895,7 +895,7 @@ Put
 this
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 (
 nullptr
@@ -914,7 +914,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -923,7 +923,7 @@ aCells
 {
 for
 (
-Accessible
+LocalAccessible
 *
 cell
 =

@@ -194,7 +194,7 @@ override
 void
 QueueNewLiveRegion
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

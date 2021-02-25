@@ -121,7 +121,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -666,7 +666,7 @@ NS_ERROR_FAILURE
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -788,7 +788,7 @@ NS_ERROR_FAILURE
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >

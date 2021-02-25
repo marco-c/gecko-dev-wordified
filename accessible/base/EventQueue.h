@@ -197,7 +197,7 @@ needed
 bool
 PushNameOrDescriptionChange
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )

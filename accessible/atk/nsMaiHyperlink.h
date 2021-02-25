@@ -127,7 +127,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -188,7 +188,7 @@ return
 mMaiAtkHyperlink
 ;
 }
-Accessible
+LocalAccessible
 *
 GetAccHyperlink
 (
@@ -206,7 +206,7 @@ IsAccessible
 return
 nullptr
 ;
-Accessible
+LocalAccessible
 *
 link
 =

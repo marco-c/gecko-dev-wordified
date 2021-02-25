@@ -156,7 +156,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -206,7 +206,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -244,7 +244,7 @@ mValueTextLeaf
 inline
 XULLabelAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsXULLabel
@@ -340,7 +340,7 @@ XULLabelTextLeafAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -394,7 +394,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -436,7 +436,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Value
@@ -548,7 +548,7 @@ XULLinkAccessible
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName

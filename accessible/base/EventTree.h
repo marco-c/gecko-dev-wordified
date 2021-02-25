@@ -109,7 +109,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -225,7 +225,7 @@ true
 explicit
 TreeMutation
 (
-Accessible
+LocalAccessible
 *
 aParent
 bool
@@ -242,7 +242,7 @@ TreeMutation
 void
 AfterInsertion
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -250,7 +250,7 @@ aChild
 void
 BeforeRemoval
 (
-Accessible
+LocalAccessible
 *
 aChild
 bool
@@ -305,13 +305,13 @@ PrefixLog
 void
 *
 aData
-Accessible
+LocalAccessible
 *
 )
 ;
 #
 endif
-Accessible
+LocalAccessible
 *
 mParent
 ;
@@ -390,7 +390,7 @@ false
 explicit
 EventTree
 (
-Accessible
+LocalAccessible
 *
 aContainer
 bool
@@ -428,7 +428,7 @@ Clear
 void
 Shown
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -436,7 +436,7 @@ aTarget
 void
 Hidden
 (
-Accessible
+LocalAccessible
 *
 bool
 )
@@ -463,7 +463,7 @@ EventTree
 Find
 (
 const
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -554,7 +554,7 @@ EventTree
 *
 FindOrInsert
 (
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -576,7 +576,7 @@ EventTree
 >
 mNext
 ;
-Accessible
+LocalAccessible
 *
 mContainer
 ;
@@ -597,7 +597,7 @@ NotificationController
 *
 Controller
 (
-Accessible
+LocalAccessible
 *
 aAcc
 )

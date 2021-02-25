@@ -163,7 +163,7 @@ ImageAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -186,7 +186,7 @@ AnchorCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AnchorAt
 (
@@ -243,7 +243,7 @@ node
 .
 *
 /
-Accessible
+LocalAccessible
 *
 GetChildAccessibleFor
 (
@@ -304,7 +304,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Description
@@ -316,7 +316,7 @@ aDescription
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -377,7 +377,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -473,13 +473,13 @@ override
 /
 /
 /
-Accessible
+LocalAccessible
 downcasting
 method
 inline
 HTMLImageMapAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsImageMap

@@ -190,7 +190,7 @@ eIgnoreDOMUIEvent
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -292,7 +292,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :

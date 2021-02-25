@@ -184,7 +184,7 @@ a11y
 :
 :
 role
-Accessible
+LocalAccessible
 :
 :
 Role
@@ -237,7 +237,7 @@ role
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 HasARIARole
@@ -257,7 +257,7 @@ NO_ROLE_MAP_ENTRY_INDEX
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 IsARIARole
@@ -292,7 +292,7 @@ aARIARole
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 HasStrongARIARole
@@ -326,7 +326,7 @@ inline
 const
 nsRoleMapEntry
 *
-Accessible
+LocalAccessible
 :
 :
 ARIARoleMap
@@ -352,7 +352,7 @@ a11y
 :
 :
 role
-Accessible
+LocalAccessible
 :
 :
 ARIARole
@@ -408,7 +408,7 @@ role
 }
 inline
 void
-Accessible
+LocalAccessible
 :
 :
 SetRoleMapEntry
@@ -432,7 +432,7 @@ aRoleMapEntry
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 IsSearchbox
@@ -506,7 +506,7 @@ eCaseMatters
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 HasGenericType
@@ -549,7 +549,7 @@ aType
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 NativeHasNumericValue
@@ -565,7 +565,7 @@ eHasNumericValue
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 ARIAHasNumericValue
@@ -627,7 +627,7 @@ true
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 HasNumericValue
@@ -648,7 +648,7 @@ ARIAHasNumericValue
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 IsDefunct
@@ -693,7 +693,7 @@ eIsDefunct
 }
 inline
 void
-Accessible
+LocalAccessible
 :
 :
 ScrollTo
@@ -743,15 +743,15 @@ aHow
 }
 inline
 bool
-Accessible
+LocalAccessible
 :
 :
 InsertAfter
 (
-Accessible
+LocalAccessible
 *
 aNewChild
-Accessible
+LocalAccessible
 *
 aRefChild
 )

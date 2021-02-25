@@ -232,7 +232,7 @@ defined
 (
 XP_WIN
 )
-Accessible
+LocalAccessible
 *
 RemoteChildDocAccessible
 (
@@ -327,7 +327,7 @@ aBridge
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -350,7 +350,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -369,7 +369,7 @@ InsertChildAt
 (
 uint32_t
 aIdx
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -379,7 +379,7 @@ virtual
 bool
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -411,7 +411,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 LocalChildAt
 (
@@ -443,7 +443,7 @@ override
 inline
 OuterDocAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsOuterDoc

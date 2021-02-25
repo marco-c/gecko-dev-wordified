@@ -430,7 +430,7 @@ mNativeAccessible
 /
 HTMLWin32ObjectOwnerAccessible
 :
-Accessible
+LocalAccessible
 implementation
 void
 HTMLWin32ObjectOwnerAccessible

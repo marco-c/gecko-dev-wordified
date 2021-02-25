@@ -491,7 +491,7 @@ ImageAccessible
 /
 /
 /
-Accessible
+LocalAccessible
 public
 uint64_t
 ImageAccessible
@@ -828,7 +828,7 @@ eNameOK
 ENameValueFlag
 nameFlag
 =
-Accessible
+LocalAccessible
 :
 :
 NativeName
@@ -898,7 +898,7 @@ image
 see
 /
 /
-Accessible
+LocalAccessible
 :
 :
 Name
@@ -1015,7 +1015,7 @@ GRAPHIC
 /
 /
 /
-Accessible
+LocalAccessible
 uint8_t
 ImageAccessible
 :
@@ -1410,7 +1410,7 @@ Size
 }
 /
 /
-Accessible
+LocalAccessible
 already_AddRefed
 <
 nsIPersistentProperties

@@ -186,7 +186,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -250,7 +250,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -365,7 +365,7 @@ RowCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CellAt
 (
@@ -432,7 +432,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -498,7 +498,7 @@ aRowIdx
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -511,7 +511,7 @@ this
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 TableAccessible
 *
@@ -571,7 +571,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -648,7 +648,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Description
@@ -705,7 +705,7 @@ override
 /
 Widgets
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -723,7 +723,7 @@ XULListitemAccessible
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -751,7 +751,7 @@ listitem
 .
 *
 /
-Accessible
+LocalAccessible
 *
 GetListAccessible
 (

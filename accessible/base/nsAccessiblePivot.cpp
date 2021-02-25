@@ -360,7 +360,7 @@ nsAccessiblePivot
 :
 nsAccessiblePivot
 (
-Accessible
+LocalAccessible
 *
 aRoot
 )
@@ -682,7 +682,7 @@ aPosition
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 position
 =
@@ -823,7 +823,7 @@ nsIAccessible
 aModalRoot
 )
 {
-Accessible
+LocalAccessible
 *
 modalRoot
 =
@@ -1023,7 +1023,7 @@ xpcAcc
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 acc
 =
@@ -1200,7 +1200,7 @@ aResult
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 anchor
 =
@@ -1430,7 +1430,7 @@ aResult
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 anchor
 =
@@ -1650,7 +1650,7 @@ NS_ENSURE_ARG
 aRule
 )
 ;
-Accessible
+LocalAccessible
 *
 root
 =
@@ -1822,7 +1822,7 @@ NS_ENSURE_ARG
 aRule
 )
 ;
-Accessible
+LocalAccessible
 *
 root
 =
@@ -2007,7 +2007,7 @@ newEnd
 =
 mEndOffset
 ;
-Accessible
+LocalAccessible
 *
 newPos
 =
@@ -2041,7 +2041,7 @@ oldEnd
 =
 mEndOffset
 ;
-Accessible
+LocalAccessible
 *
 oldPos
 =
@@ -2128,7 +2128,7 @@ newEnd
 =
 mEndOffset
 ;
-Accessible
+LocalAccessible
 *
 newPos
 =
@@ -2162,7 +2162,7 @@ oldEnd
 =
 mEndOffset
 ;
-Accessible
+LocalAccessible
 *
 oldPos
 =
@@ -2245,7 +2245,7 @@ aResult
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 root
 =
@@ -2476,10 +2476,10 @@ nsAccessiblePivot
 :
 IsDescendantOf
 (
-Accessible
+LocalAccessible
 *
 aAccessible
-Accessible
+LocalAccessible
 *
 aAncestor
 )
@@ -2516,7 +2516,7 @@ by
 bug
 759875
 .
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -2559,7 +2559,7 @@ nsAccessiblePivot
 :
 MovePivotInternal
 (
-Accessible
+LocalAccessible
 *
 aPosition
 PivotMoveReason
@@ -2570,7 +2570,7 @@ aIsFromUserInput
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 oldPosition
 =
@@ -2622,7 +2622,7 @@ nsAccessiblePivot
 :
 NotifyOfPivotChange
 (
-Accessible
+LocalAccessible
 *
 aOldPosition
 int32_t

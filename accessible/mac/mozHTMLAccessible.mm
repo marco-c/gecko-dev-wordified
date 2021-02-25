@@ -121,7 +121,7 @@ h
 #
 import
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -162,7 +162,7 @@ title
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -254,7 +254,7 @@ groupPos
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -337,7 +337,7 @@ value
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =

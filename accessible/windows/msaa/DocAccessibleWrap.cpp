@@ -1243,7 +1243,7 @@ E_OUTOFMEMORY
 /
 /
 /
-Accessible
+LocalAccessible
 void
 DocAccessibleWrap
 :

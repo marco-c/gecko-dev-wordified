@@ -121,7 +121,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -661,7 +661,7 @@ implementation
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeAccessible
-Accessible
+LocalAccessible
 mTree
 mAccessibleCache
 )
@@ -671,17 +671,17 @@ XULTreeAccessible
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-Accessible
+LocalAccessible
 )
 NS_IMPL_ADDREF_INHERITED
 (
 XULTreeAccessible
-Accessible
+LocalAccessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
 XULTreeAccessible
-Accessible
+LocalAccessible
 )
 /
 /
@@ -767,7 +767,7 @@ Accessible
 /
 XULTreeAccessible
 :
-Accessible
+LocalAccessible
 implementation
 uint64_t
 XULTreeAccessible
@@ -790,7 +790,7 @@ class
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -1093,7 +1093,7 @@ aValue
 /
 XULTreeAccessible
 :
-Accessible
+LocalAccessible
 implementation
 void
 XULTreeAccessible
@@ -1370,7 +1370,7 @@ LIST
 /
 XULTreeAccessible
 :
-Accessible
+LocalAccessible
 implementation
 (
 DON
@@ -1380,7 +1380,7 @@ put
 methods
 here
 )
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -1565,7 +1565,7 @@ aWhichChild
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1610,7 +1610,7 @@ do_QueryObject
 child
 )
 ;
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1722,7 +1722,7 @@ child
 XULTreeAccessible
 :
 SelectAccessible
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -1802,7 +1802,7 @@ XULTreeAccessible
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -1828,7 +1828,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1934,7 +1934,7 @@ rowIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 item
 =
@@ -2284,7 +2284,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -2596,9 +2596,9 @@ false
 /
 XULTreeAccessible
 :
-Accessible
+LocalAccessible
 implementation
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -2613,7 +2613,7 @@ const
 uint32_t
 childCount
 =
-Accessible
+LocalAccessible
 :
 :
 ChildCount
@@ -2628,7 +2628,7 @@ childCount
 )
 {
 return
-Accessible
+LocalAccessible
 :
 :
 LocalChildAt
@@ -2672,7 +2672,7 @@ count
 uint32_t
 childCount
 =
-Accessible
+LocalAccessible
 :
 :
 ChildCount
@@ -2758,7 +2758,7 @@ Relation
 ;
 }
 return
-Accessible
+LocalAccessible
 :
 :
 RelationByType
@@ -2993,7 +2993,7 @@ return
 true
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -3128,7 +3128,7 @@ if
 inputElm
 )
 {
-Accessible
+LocalAccessible
 *
 input
 =
@@ -3245,7 +3245,7 @@ XULTreeAccessible
 :
 public
 implementation
-Accessible
+LocalAccessible
 *
 XULTreeAccessible
 :
@@ -3324,7 +3324,7 @@ aRow
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 cachedTreeItem
 =
@@ -3344,7 +3344,7 @@ cachedTreeItem
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 treeItem
 =
@@ -3500,7 +3500,7 @@ rowIdx
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 treeItem
 =
@@ -3672,7 +3672,7 @@ rowIdx
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 treeItem
 =
@@ -3916,7 +3916,7 @@ rowIdx
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -4063,7 +4063,7 @@ mTreeView
 =
 aView
 ;
-Accessible
+LocalAccessible
 *
 item
 =
@@ -4177,7 +4177,7 @@ protected
 implementation
 already_AddRefed
 <
-Accessible
+LocalAccessible
 >
 XULTreeAccessible
 :
@@ -4191,7 +4191,7 @@ const
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 accessible
 =
@@ -4395,7 +4395,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -4537,13 +4537,13 @@ implementation
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessibleBase
-Accessible
+LocalAccessible
 mTree
 )
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessibleBase
-Accessible
+LocalAccessible
 XULTreeItemAccessibleBase
 )
 /
@@ -4630,8 +4630,8 @@ XULTreeItemAccessibleBase
 /
 XULTreeItemAccessibleBase
 :
-Accessible
-Accessible
+LocalAccessible
+LocalAccessible
 *
 XULTreeItemAccessibleBase
 :
@@ -5026,7 +5026,7 @@ will
 be
 fired
 here
-Accessible
+LocalAccessible
 :
 :
 TakeFocus
@@ -5487,7 +5487,7 @@ true
 /
 XULTreeItemAccessibleBase
 :
-Accessible
+LocalAccessible
 implementation
 void
 XULTreeItemAccessibleBase
@@ -6069,7 +6069,7 @@ mRow
 XULTreeItemAccessibleBase
 :
 Widgets
-Accessible
+LocalAccessible
 *
 XULTreeItemAccessibleBase
 :
@@ -6167,7 +6167,7 @@ mParent
 /
 XULTreeItemAccessibleBase
 :
-Accessible
+LocalAccessible
 protected
 methods
 void
@@ -6317,7 +6317,7 @@ pseudoElm
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 XULTreeItemAccessibleBase
 :
@@ -6855,7 +6855,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -7224,7 +7224,7 @@ eNameOK
 /
 XULTreeItemAccessible
 :
-Accessible
+LocalAccessible
 implementation
 void
 XULTreeItemAccessible
@@ -7635,7 +7635,7 @@ aDoc
 )
 {
 }
-Accessible
+LocalAccessible
 *
 XULTreeColumAccessible
 :

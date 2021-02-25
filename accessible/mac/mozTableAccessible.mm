@@ -149,7 +149,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -309,7 +309,7 @@ init
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -375,7 +375,7 @@ j
 +
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -1095,7 +1095,7 @@ tableGuess
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1449,7 +1449,7 @@ numCols
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1604,7 +1604,7 @@ nullptr
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -2274,7 +2274,7 @@ AsTableCell
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -2381,7 +2381,7 @@ AsTableCell
 ;
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -2607,7 +2607,7 @@ moxColumns
 {
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -2711,7 +2711,7 @@ our
 col
 array
 .
-Accessible
+LocalAccessible
 *
 treeColumns
 =
@@ -2754,7 +2754,7 @@ i
 +
 )
 {
-Accessible
+LocalAccessible
 *
 treeColumnItem
 =
@@ -3287,7 +3287,7 @@ groupPos
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -3631,7 +3631,7 @@ title
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =

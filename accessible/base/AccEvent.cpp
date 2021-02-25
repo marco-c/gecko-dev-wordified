@@ -502,7 +502,7 @@ AccEvent
 (
 uint32_t
 aEventType
-Accessible
+LocalAccessible
 *
 aAccessible
 EIsFromUserInput
@@ -1115,7 +1115,7 @@ AccTextChangeEvent
 :
 AccTextChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 int32_t
@@ -1393,7 +1393,7 @@ AccHideEvent
 :
 AccHideEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 bool
@@ -1602,7 +1602,7 @@ AccShowEvent
 :
 AccShowEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -2095,10 +2095,10 @@ AccSelChangeEvent
 :
 AccSelChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aWidget
-Accessible
+LocalAccessible
 *
 aItem
 SelChangeType
@@ -2350,7 +2350,7 @@ AccTableChangeEvent
 :
 AccTableChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 uint32_t
@@ -2544,17 +2544,17 @@ AccVCChangeEvent
 :
 AccVCChangeEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
-Accessible
+LocalAccessible
 *
 aOldAccessible
 int32_t
 aOldStart
 int32_t
 aOldEnd
-Accessible
+LocalAccessible
 *
 aNewAccessible
 int32_t
@@ -2639,7 +2639,7 @@ Document
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =

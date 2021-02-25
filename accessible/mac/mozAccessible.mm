@@ -156,7 +156,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -457,7 +457,7 @@ parent
 {
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -675,7 +675,7 @@ state
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1271,7 +1271,7 @@ IsNull
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1302,7 +1302,7 @@ if
 acc
 )
 {
-Accessible
+LocalAccessible
 *
 focusedGeckoChild
 =
@@ -1662,7 +1662,7 @@ x
 geckoPoint
 .
 y
-Accessible
+LocalAccessible
 :
 :
 eDeepestChild
@@ -2332,7 +2332,7 @@ IsNull
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -2434,7 +2434,7 @@ IsNull
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -3485,7 +3485,7 @@ return
 nil
 ;
 }
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -3710,7 +3710,7 @@ title
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -3773,7 +3773,7 @@ value
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -3866,7 +3866,7 @@ helpText
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -3955,7 +3955,7 @@ nullptr
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -3988,7 +3988,7 @@ AsProxy
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 outerDoc
 =
@@ -4364,7 +4364,7 @@ id
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -5228,7 +5228,7 @@ of
 MOZ_CAN_RUN_SCRIPT
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 acc
 =
@@ -5355,7 +5355,7 @@ FromUnknownRect
 bounds
 )
 ;
-Accessible
+LocalAccessible
 *
 rootAcc
 =
@@ -5621,7 +5621,7 @@ relationType
 {
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -5661,7 +5661,7 @@ relationType
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 relAcc
 =

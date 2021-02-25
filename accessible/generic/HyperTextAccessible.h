@@ -313,7 +313,7 @@ AccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 nsAtom
 *
@@ -373,7 +373,7 @@ virtual
 bool
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -385,7 +385,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -575,7 +575,7 @@ index
 .
 *
 /
-Accessible
+LocalAccessible
 *
 LinkAt
 (
@@ -607,7 +607,7 @@ accessible
 int32_t
 LinkIndexOf
 (
-Accessible
+LocalAccessible
 *
 aLink
 )
@@ -641,7 +641,7 @@ uint32_t
 aOffset
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1020,7 +1020,7 @@ hypertext
 uint32_t
 TransformOffset
 (
-Accessible
+LocalAccessible
 *
 aDescendant
 uint32_t
@@ -1316,7 +1316,7 @@ childIdx
 return
 false
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1679,7 +1679,7 @@ int32_t
 GetChildOffset
 (
 const
-Accessible
+LocalAccessible
 *
 aChild
 bool
@@ -1801,7 +1801,7 @@ text
 offset
 *
 /
-Accessible
+LocalAccessible
 *
 GetChildAtOffset
 (
@@ -2425,7 +2425,7 @@ accessible
 void
 RangeByChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 TextRange
@@ -2673,7 +2673,7 @@ HyperTextAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -3179,7 +3179,7 @@ nsIFrame
 aFrame
 int32_t
 aOffset
-Accessible
+LocalAccessible
 *
 aAccessible
 mozilla
@@ -3461,13 +3461,13 @@ mOffsets
 /
 /
 /
-Accessible
+LocalAccessible
 downcasting
 method
 inline
 HyperTextAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsHyperText

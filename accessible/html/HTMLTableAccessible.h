@@ -187,7 +187,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 TableCellAccessible
 *
@@ -300,7 +300,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -314,7 +314,7 @@ RowHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -451,7 +451,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -522,7 +522,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -558,7 +558,7 @@ HTMLTableRowAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -669,7 +669,7 @@ HyperTextAccessibleWrap
 /
 TableAccessible
 virtual
-Accessible
+LocalAccessible
 *
 Caption
 (
@@ -703,7 +703,7 @@ RowCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CellAt
 (
@@ -836,7 +836,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -920,7 +920,7 @@ aRowIdx
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -933,7 +933,7 @@ this
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 TableAccessible
 *
@@ -1001,7 +1001,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -1018,7 +1018,7 @@ HTMLTableAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -1259,7 +1259,7 @@ eHTMLCaptionType
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :

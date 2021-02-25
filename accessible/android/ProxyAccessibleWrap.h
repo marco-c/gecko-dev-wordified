@@ -154,8 +154,8 @@ methods
 here
 should
 be
-overriden
 *
+overriden
 from
 AccessibleWrap
 or
@@ -163,11 +163,11 @@ its
 super
 classes
 .
-*
 This
 gives
 us
 an
+*
 abstraction
 layer
 so
@@ -176,17 +176,16 @@ doesn
 '
 t
 have
-*
 to
 distinguish
 between
+*
 a
 local
 or
 remote
 accessibles
 .
-*
 NOTE
 :
 This
@@ -198,6 +197,7 @@ regarded
 as
 a
 full
+*
 Accessible
 implementation
 .
@@ -228,7 +228,7 @@ override
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 already_AddRefed
 <
@@ -248,7 +248,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 LocalChildAt
 (

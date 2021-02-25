@@ -118,7 +118,7 @@ _NS_ACCESSIBLE_RELATION_WRAP_H
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -180,7 +180,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 &
@@ -427,7 +427,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 mTargets

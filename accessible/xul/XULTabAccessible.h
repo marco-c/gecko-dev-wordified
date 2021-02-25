@@ -173,7 +173,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -293,7 +293,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Value
@@ -347,7 +347,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -363,7 +363,7 @@ SelectedItemCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 GetSelectedItem
 (
@@ -385,7 +385,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -446,7 +446,7 @@ eXULTabpanelsType
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -532,7 +532,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :

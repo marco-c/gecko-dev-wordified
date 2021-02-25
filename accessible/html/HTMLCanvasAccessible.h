@@ -155,7 +155,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :

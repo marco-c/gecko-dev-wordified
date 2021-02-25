@@ -291,7 +291,7 @@ SessionAccessibility
 >
 GetInstanceFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

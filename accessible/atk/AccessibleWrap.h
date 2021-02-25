@@ -127,7 +127,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -227,7 +227,7 @@ class
 AccessibleWrap
 :
 public
-Accessible
+LocalAccessible
 {
 public
 :
@@ -301,7 +301,7 @@ AtkObject
 *
 GetAtkObject
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -344,7 +344,7 @@ static
 void
 GetKeyBinding
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -353,7 +353,7 @@ aResult
 )
 ;
 static
-Accessible
+LocalAccessible
 *
 GetColumnHeader
 (
@@ -365,7 +365,7 @@ aColIdx
 )
 ;
 static
-Accessible
+LocalAccessible
 *
 GetRowHeader
 (

@@ -162,7 +162,7 @@ public
 explicit
 xpcAccessibleTable
 (
-Accessible
+LocalAccessible
 *
 aIntl
 )

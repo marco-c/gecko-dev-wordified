@@ -182,7 +182,7 @@ nsIPersistentProperties
 aProperties
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 &
@@ -288,7 +288,7 @@ aPrevOffset
 void
 RangeOfChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 int32_t
@@ -299,7 +299,7 @@ int32_t
 aEndOffset
 )
 ;
-Accessible
+LocalAccessible
 *
 LeafAtOffset
 (

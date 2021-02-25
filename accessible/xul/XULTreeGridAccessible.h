@@ -204,7 +204,7 @@ RowCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CellAt
 (
@@ -283,7 +283,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -349,7 +349,7 @@ aRowIdx
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -362,7 +362,7 @@ this
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 TableAccessible
 *
@@ -400,7 +400,7 @@ XULTreeAccessible
 virtual
 already_AddRefed
 <
-Accessible
+LocalAccessible
 >
 CreateTreeItemAccessible
 (
@@ -445,7 +445,7 @@ XULTreeItemAccessibleBase
 public
 :
 using
-Accessible
+LocalAccessible
 :
 :
 LocalChildAt
@@ -458,7 +458,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -488,7 +488,7 @@ XULTreeItemAccessibleBase
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -519,7 +519,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -533,7 +533,7 @@ aWhichChild
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 LocalChildAt
 (
@@ -673,7 +673,7 @@ LeafAccessible
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -721,7 +721,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 FocusedChild
 (
@@ -850,7 +850,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -864,7 +864,7 @@ RowHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -925,9 +925,9 @@ XULTreeGridCellAccessible
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
-Accessible
+LocalAccessible
 *
 GetSiblingAtOffset
 (

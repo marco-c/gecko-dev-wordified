@@ -134,7 +134,7 @@ CreateEventA
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -691,7 +691,7 @@ RootAccessible
 /
 /
 /
-Accessible
+LocalAccessible
 ENameValueFlag
 RootAccessible
 :
@@ -717,7 +717,7 @@ ARIARoleMap
 )
 )
 {
-Accessible
+LocalAccessible
 :
 :
 Name
@@ -2256,7 +2256,7 @@ GetNextSibling
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -2544,7 +2544,7 @@ accEvent
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 treeItemAcc
 =
@@ -3169,7 +3169,7 @@ for
 tree
 accessible
 .
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -3362,7 +3362,7 @@ menuitem
 is
 set
 .
-Accessible
+LocalAccessible
 *
 activeItem
 =
@@ -3660,7 +3660,7 @@ endif
 /
 /
 /
-Accessible
+LocalAccessible
 void
 RootAccessible
 :
@@ -3675,7 +3675,7 @@ Called
 manually
 or
 by
-Accessible
+LocalAccessible
 :
 :
 LastRelease
@@ -3904,7 +3904,7 @@ RootAccessible
 :
 HandlePopupShownEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -3985,7 +3985,7 @@ comboboxes
 and
 autocompeletes
 .
-Accessible
+LocalAccessible
 *
 combobox
 =
@@ -4125,7 +4125,7 @@ aria_activedescendant
 )
 )
 {
-Accessible
+LocalAccessible
 *
 activeDescendant
 =
@@ -4285,7 +4285,7 @@ is
 autocomplete
 popups
 .
-Accessible
+LocalAccessible
 *
 popup
 =
@@ -4303,7 +4303,7 @@ if
 popup
 )
 {
-Accessible
+LocalAccessible
 *
 popupContainer
 =
@@ -4348,7 +4348,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -4557,7 +4557,7 @@ the
 former
 case
 .
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -4730,7 +4730,7 @@ part
 of
 autocomplete
 .
-Accessible
+LocalAccessible
 *
 compositeWidget
 =

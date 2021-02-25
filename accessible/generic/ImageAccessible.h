@@ -114,7 +114,7 @@ a11y
 {
 /
 *
-Accessible
+LocalAccessible
 for
 supporting
 images
@@ -153,7 +153,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -241,7 +241,7 @@ ImageAccessible
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -495,13 +495,13 @@ const
 /
 /
 /
-Accessible
+LocalAccessible
 downcasting
 method
 inline
 ImageAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsImage

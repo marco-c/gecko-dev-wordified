@@ -135,7 +135,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 DocAccessible
@@ -246,7 +246,7 @@ id
 .
 *
 /
-Accessible
+LocalAccessible
 *
 FindAccessibleInCache
 (

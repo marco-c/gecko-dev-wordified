@@ -101,7 +101,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -1049,7 +1049,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 chromeDoc
 =
@@ -1083,7 +1083,7 @@ SessionAccessibility
 :
 GetInstanceFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

@@ -169,7 +169,7 @@ kDefaultTreeCacheLength
 *
 *
 *
-Accessible
+LocalAccessible
 class
 for
 XUL
@@ -209,11 +209,11 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 XULTreeAccessible
-Accessible
+LocalAccessible
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -252,7 +252,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ChildAtPoint
 (
@@ -266,7 +266,7 @@ aWhichChild
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 LocalChildAt
 (
@@ -303,7 +303,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -319,7 +319,7 @@ SelectedItemCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 GetSelectedItem
 (
@@ -397,7 +397,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -410,14 +410,14 @@ void
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -470,7 +470,7 @@ row
 index
 *
 /
-Accessible
+LocalAccessible
 *
 GetTreeItemAccessible
 (
@@ -681,7 +681,7 @@ index
 virtual
 already_AddRefed
 <
-Accessible
+LocalAccessible
 >
 CreateTreeItemAccessible
 (
@@ -774,7 +774,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -804,7 +804,7 @@ AccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -871,7 +871,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 FocusedChild
 (
@@ -932,7 +932,7 @@ override
 /
 Widgets
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -1062,7 +1062,7 @@ eAction_Expand
 ;
 /
 /
-Accessible
+LocalAccessible
 MOZ_CAN_RUN_SCRIPT
 virtual
 void
@@ -1078,7 +1078,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 GetSiblingAtOffset
 (
@@ -1176,7 +1176,7 @@ XULTREEITEMBASEACCESSIBLE_IMPL_CID
 *
 *
 *
-Accessible
+LocalAccessible
 class
 for
 items
@@ -1202,7 +1202,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aParent
 dom
@@ -1232,7 +1232,7 @@ XULTreeItemAccessibleBase
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -1302,7 +1302,7 @@ mCachedName
 *
 *
 *
-Accessible
+LocalAccessible
 class
 for
 columns
@@ -1335,9 +1335,9 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
-Accessible
+LocalAccessible
 *
 GetSiblingAtOffset
 (
@@ -1436,13 +1436,13 @@ override
 /
 /
 /
-Accessible
+LocalAccessible
 downcasting
 method
 inline
 XULTreeAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsXULTree

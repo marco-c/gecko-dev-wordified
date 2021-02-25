@@ -138,7 +138,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 HyperTextAccessible
@@ -458,11 +458,11 @@ the
 boundary
 type
 .
-Accessible
+LocalAccessible
 *
 NextText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 int32_t
@@ -489,11 +489,11 @@ the
 boundary
 type
 .
-Accessible
+LocalAccessible
 *
 PrevText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 int32_t
@@ -623,7 +623,7 @@ HyperTextAccessible
 *
 SearchForText
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 bool
@@ -714,7 +714,7 @@ rule
 matches
 any
 local
-Accessible
+LocalAccessible
 (
 i
 .

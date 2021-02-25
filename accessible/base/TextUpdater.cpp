@@ -103,7 +103,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -307,7 +307,7 @@ uint32_t
 aSkipStart
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =

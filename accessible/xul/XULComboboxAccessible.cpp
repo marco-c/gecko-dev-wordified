@@ -103,7 +103,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -420,7 +420,7 @@ class
 uint64_t
 state
 =
-Accessible
+LocalAccessible
 :
 :
 NativeState
@@ -571,7 +571,7 @@ focusedOptionItem
 mDoc
 )
 {
-Accessible
+LocalAccessible
 *
 focusedOptionAcc
 =
@@ -999,7 +999,7 @@ idx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =

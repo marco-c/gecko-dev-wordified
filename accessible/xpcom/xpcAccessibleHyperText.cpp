@@ -121,7 +121,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -2836,7 +2836,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -3872,7 +3872,7 @@ aLink
 ;
 if
 (
-Accessible
+LocalAccessible
 *
 accLink
 =

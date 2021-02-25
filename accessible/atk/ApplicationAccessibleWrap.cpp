@@ -363,7 +363,7 @@ to
 app
 accessible
 tree
-Accessible
+LocalAccessible
 *
 windowAcc
 =
@@ -402,13 +402,13 @@ Deattach
 the
 dialog
 accessible
-Accessible
+LocalAccessible
 *
 windowAcc
 =
 reinterpret_cast
 <
-Accessible
+LocalAccessible
 *
 >
 (
@@ -700,7 +700,7 @@ InsertChildAt
 (
 uint32_t
 aIdx
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -839,7 +839,7 @@ ApplicationAccessibleWrap
 :
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 )

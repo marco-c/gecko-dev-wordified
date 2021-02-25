@@ -585,7 +585,7 @@ GroupPos
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 ApplicationAccessible
 :
@@ -604,7 +604,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 ApplicationAccessible
 :
@@ -613,7 +613,7 @@ FocusedChild
 (
 )
 {
-Accessible
+LocalAccessible
 *
 focus
 =
@@ -779,7 +779,7 @@ nsRect
 /
 /
 /
-Accessible
+LocalAccessible
 public
 methods
 void
@@ -1032,7 +1032,7 @@ creation
 }
 }
 }
-Accessible
+LocalAccessible
 *
 ApplicationAccessible
 :

@@ -120,7 +120,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -2972,7 +2972,7 @@ mozilla
 a11y
 :
 :
-Accessible
+LocalAccessible
 >
 GetDocumentAccessible
 (

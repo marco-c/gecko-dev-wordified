@@ -151,7 +151,7 @@ TextLeafAccessible
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -313,13 +313,13 @@ mText
 /
 /
 /
-Accessible
+LocalAccessible
 downcast
 method
 inline
 TextLeafAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsTextLeaf

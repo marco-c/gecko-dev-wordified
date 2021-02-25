@@ -127,7 +127,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 .
 h
 "
@@ -310,7 +310,7 @@ class
 AccessibleWrap
 :
 public
-Accessible
+LocalAccessible
 public
 ia2Accessible
 public
@@ -1368,7 +1368,7 @@ override
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 nsresult
 HandleAccEvent
@@ -1394,7 +1394,7 @@ static
 int32_t
 GetChildIDFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1403,7 +1403,7 @@ static
 HWND
 GetHWNDFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1412,7 +1412,7 @@ static
 void
 FireWinEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 uint32_t
@@ -1482,7 +1482,7 @@ caret
 void
 UpdateSystemCaretFor
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1510,7 +1510,7 @@ COM
 object
 with
 this
-Accessible
+LocalAccessible
 so
 it
 will
@@ -1522,7 +1522,7 @@ remote
 clients
 when
 this
-Accessible
+LocalAccessible
 shuts
 down
 .
@@ -1690,7 +1690,7 @@ IDispatch
 *
 NativeAccessible
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

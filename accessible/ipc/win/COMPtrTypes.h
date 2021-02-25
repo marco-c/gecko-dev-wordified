@@ -364,14 +364,14 @@ IID_IDispatch
 IDispatchHolder
 ;
 class
-Accessible
+LocalAccessible
 ;
 IAccessibleHolder
 CreateHolderFromAccessible
 (
 NotNull
 <
-Accessible
+LocalAccessible
 *
 >
 aAccToWrap

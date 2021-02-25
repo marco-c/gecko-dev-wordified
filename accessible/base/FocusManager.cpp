@@ -66,7 +66,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -210,7 +210,7 @@ FocusManager
 )
 {
 }
-Accessible
+LocalAccessible
 *
 FocusManager
 :
@@ -284,7 +284,7 @@ FocusManager
 IsFocused
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -461,13 +461,13 @@ FocusManager
 IsFocusWithin
 (
 const
-Accessible
+LocalAccessible
 *
 aContainer
 )
 const
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -514,13 +514,13 @@ FocusManager
 IsInOrContainsFocus
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
 const
 {
-Accessible
+LocalAccessible
 *
 focus
 =
@@ -558,7 +558,7 @@ contains
 the
 focus
 .
-Accessible
+LocalAccessible
 *
 child
 =
@@ -646,7 +646,7 @@ FocusManager
 WasLastFocused
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -1005,7 +1005,7 @@ FocusManager
 :
 ActiveItemChanged
 (
-Accessible
+LocalAccessible
 *
 aItem
 bool
@@ -1084,7 +1084,7 @@ aItem
 aCheckIfActive
 )
 {
-Accessible
+LocalAccessible
 *
 widget
 =
@@ -1296,7 +1296,7 @@ having
 DOM
 focus
 .
-Accessible
+LocalAccessible
 *
 target
 =
@@ -1397,7 +1397,7 @@ DispatchFocusEvent
 DocAccessible
 *
 aDocument
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -1554,7 +1554,7 @@ document
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 target
 =
@@ -1614,7 +1614,7 @@ focusedNode
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 DOMFocus
 =
@@ -1635,7 +1635,7 @@ DOMFocus
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 activeItem
 =
@@ -1736,7 +1736,7 @@ emit
 focus
 event
 .
-Accessible
+LocalAccessible
 *
 target
 =
@@ -1820,7 +1820,7 @@ focusedNode
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 DOMFocus
 =
@@ -1841,7 +1841,7 @@ DOMFocus
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 activeItem
 =
@@ -1913,7 +1913,7 @@ moved
 into
 menu
 .
-Accessible
+LocalAccessible
 *
 ARIAMenubar
 =
@@ -1921,7 +1921,7 @@ nullptr
 ;
 for
 (
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -2373,7 +2373,7 @@ MOZ_ASSERT
 targetDocument
 )
 ;
-Accessible
+LocalAccessible
 *
 anchorJump
 =

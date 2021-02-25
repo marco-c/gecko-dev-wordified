@@ -123,7 +123,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -480,7 +480,7 @@ public
 explicit
 ParagraphBoundaryRule
 (
-Accessible
+LocalAccessible
 *
 aAnchor
 uint32_t
@@ -535,7 +535,7 @@ IsAccessible
 )
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -993,7 +993,7 @@ mLastMatchTextOffset
 }
 private
 :
-Accessible
+LocalAccessible
 *
 mAnchor
 ;
@@ -2170,7 +2170,7 @@ childOffset
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -2214,7 +2214,7 @@ startChildOffset
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 startChild
 =
@@ -2252,7 +2252,7 @@ childIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -2288,7 +2288,7 @@ endChildOffset
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 endChild
 =
@@ -2770,7 +2770,7 @@ depth
 first
 search
 )
-Accessible
+LocalAccessible
 *
 descendant
 =
@@ -2868,7 +2868,7 @@ IsContent
 )
 )
 {
-Accessible
+LocalAccessible
 *
 container
 =
@@ -2936,7 +2936,7 @@ HyperTextAccessible
 :
 TransformOffset
 (
-Accessible
+LocalAccessible
 *
 aDescendant
 uint32_t
@@ -2967,7 +2967,7 @@ offset
 =
 aOffset
 ;
-Accessible
+LocalAccessible
 *
 descendant
 =
@@ -2978,7 +2978,7 @@ while
 descendant
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -3418,7 +3418,7 @@ DOMPoint
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -3720,7 +3720,7 @@ text
 =
 this
 ;
-Accessible
+LocalAccessible
 *
 child
 =
@@ -4518,7 +4518,7 @@ hyperTextOffset
 0
 )
 {
-Accessible
+LocalAccessible
 *
 prevOffsetChild
 =
@@ -4727,7 +4727,7 @@ back
 too
 far
 .
-Accessible
+LocalAccessible
 *
 child
 =
@@ -6489,7 +6489,7 @@ start
 offset
 instead
 .
-Accessible
+LocalAccessible
 *
 child
 =
@@ -7029,7 +7029,7 @@ end
 offset
 instead
 .
-Accessible
+LocalAccessible
 *
 child
 =
@@ -7202,7 +7202,7 @@ adjust
 end
 offset
 .
-Accessible
+LocalAccessible
 *
 matchAcc
 =
@@ -8998,7 +8998,7 @@ nsPersistentProperties
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 accAtOffset
 =
@@ -9336,7 +9336,7 @@ inside
 the
 parent
 .
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -10730,7 +10730,7 @@ childIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 childAcc
 =
@@ -11476,7 +11476,7 @@ s
 /
 /
 editor
-Accessible
+LocalAccessible
 *
 ancestor
 =
@@ -14514,7 +14514,7 @@ HyperTextAccessible
 :
 RangeByChild
 (
-Accessible
+LocalAccessible
 *
 aChild
 a11y
@@ -14561,13 +14561,13 @@ CharacterCount
 return
 ;
 }
-Accessible
+LocalAccessible
 *
 child
 =
 aChild
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -14710,7 +14710,7 @@ aRange
 )
 const
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -14731,7 +14731,7 @@ child
 )
 return
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -14897,11 +14897,11 @@ offset
 /
 /
 /
-Accessible
+LocalAccessible
 public
 /
 /
-Accessible
+LocalAccessible
 protected
 ENameValueFlag
 HyperTextAccessible
@@ -15111,7 +15111,7 @@ HyperTextAccessible
 :
 RemoveChild
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -15181,7 +15181,7 @@ InsertChildAt
 (
 uint32_t
 aIndex
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -15236,7 +15236,7 @@ const
 Relation
 rel
 =
-Accessible
+LocalAccessible
 :
 :
 RelationByType
@@ -15270,7 +15270,7 @@ IsMathMLElement
 )
 )
 {
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -15361,7 +15361,7 @@ mroot_
 )
 )
 {
-Accessible
+LocalAccessible
 *
 base
 =
@@ -15370,7 +15370,7 @@ LocalChildAt
 0
 )
 ;
-Accessible
+LocalAccessible
 *
 index
 =
@@ -15979,7 +15979,7 @@ Length
 aChildIndex
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -16136,7 +16136,7 @@ Length
 childCount
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -16299,7 +16299,7 @@ nsIFrame
 aFrame
 int32_t
 aOffset
-Accessible
+LocalAccessible
 *
 aAccessible
 DOMPoint

@@ -500,7 +500,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -559,7 +559,7 @@ colIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -785,7 +785,7 @@ rowIdx
 ;
 }
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridAccessible
 :
@@ -798,7 +798,7 @@ uint32_t
 aColumnIndex
 )
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -886,11 +886,11 @@ Truncate
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 treeColumns
 =
-Accessible
+LocalAccessible
 :
 :
 LocalChildAt
@@ -903,7 +903,7 @@ if
 treeColumns
 )
 {
-Accessible
+LocalAccessible
 *
 treeColumnItem
 =
@@ -1250,7 +1250,7 @@ aRowIdx
 /
 XULTreeGridAccessible
 :
-Accessible
+LocalAccessible
 implementation
 role
 XULTreeGridAccessible
@@ -1412,7 +1412,7 @@ XULTreeAccessible
 implementation
 already_AddRefed
 <
-Accessible
+LocalAccessible
 >
 XULTreeGridAccessible
 :
@@ -1426,7 +1426,7 @@ const
 {
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 accessible
 =
@@ -1630,7 +1630,7 @@ aContent
 DocAccessible
 *
 aDoc
-Accessible
+LocalAccessible
 *
 aTreeAcc
 dom
@@ -1877,7 +1877,7 @@ XULTreeItemAccessibleBase
 /
 XULTreeGridRowAccessible
 :
-Accessible
+LocalAccessible
 implementation
 void
 XULTreeGridRowAccessible
@@ -2037,7 +2037,7 @@ return
 eNameOK
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridRowAccessible
 :
@@ -2216,7 +2216,7 @@ mCol
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridRowAccessible
 :
@@ -3090,7 +3090,7 @@ LeafAccessible
 /
 XULTreeGridCellAccessible
 :
-Accessible
+LocalAccessible
 void
 XULTreeGridCellAccessible
 :
@@ -3141,7 +3141,7 @@ Shutdown
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 XULTreeGridCellAccessible
 :
@@ -3887,7 +3887,7 @@ Table
 )
 const
 {
-Accessible
+LocalAccessible
 *
 grandParent
 =
@@ -3979,7 +3979,7 @@ ColHeaderCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -4000,7 +4000,7 @@ Element
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 headerCell
 =
@@ -4162,7 +4162,7 @@ selected
 /
 XULTreeGridCellAccessible
 :
-Accessible
+LocalAccessible
 public
 implementation
 already_AddRefed
@@ -4823,10 +4823,10 @@ false
 /
 XULTreeGridCellAccessible
 :
-Accessible
+LocalAccessible
 protected
 implementation
-Accessible
+LocalAccessible
 *
 XULTreeGridCellAccessible
 :

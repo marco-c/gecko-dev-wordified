@@ -168,7 +168,7 @@ mozilla
 /
 a11y
 /
-Accessible
+LocalAccessible
 .
 h
 "
@@ -261,7 +261,7 @@ CreateHolderFromAccessible
 (
 NotNull
 <
-Accessible
+LocalAccessible
 *
 >
 aAccToWrap

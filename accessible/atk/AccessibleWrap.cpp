@@ -121,7 +121,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -1299,7 +1299,7 @@ DocAccessible
 aDoc
 )
 :
-Accessible
+LocalAccessible
 (
 aContent
 aDoc
@@ -1402,7 +1402,7 @@ ShutdownAtkObject
 (
 )
 ;
-Accessible
+LocalAccessible
 :
 :
 Shutdown
@@ -1573,7 +1573,7 @@ atkObj
 Get
 AtkObject
 from
-Accessible
+LocalAccessible
 interface
 /
 *
@@ -1587,7 +1587,7 @@ AccessibleWrap
 :
 GetAtkObject
 (
-Accessible
+LocalAccessible
 *
 acc
 )
@@ -4024,7 +4024,7 @@ AtkAttributeSet
 *
 GetAttributeSet
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -4606,7 +4606,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 accChild
 =
@@ -4796,7 +4796,7 @@ don
 '
 t
 use
-Accessible
+LocalAccessible
 :
 :
 IndexInParent
@@ -4893,7 +4893,7 @@ return
 1
 ;
 }
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -5244,7 +5244,7 @@ UpdateAtkRelation
 (
 RelationType
 aType
-Accessible
+LocalAccessible
 *
 aAcc
 AtkRelationType
@@ -5302,7 +5302,7 @@ AtkObject
 >
 targets
 ;
-Accessible
+LocalAccessible
 *
 tempAcc
 =
@@ -5796,7 +5796,7 @@ if
 isMAIObject
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -6422,7 +6422,7 @@ aEvent
 nsresult
 rv
 =
-Accessible
+LocalAccessible
 :
 :
 HandleAccEvent
@@ -6447,7 +6447,7 @@ return
 NS_OK
 ;
 }
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -7394,7 +7394,7 @@ downcast_accEvent
 aEvent
 )
 ;
-Accessible
+LocalAccessible
 *
 parentAcc
 =
@@ -7539,7 +7539,7 @@ downcast_accEvent
 aEvent
 )
 ;
-Accessible
+LocalAccessible
 *
 parentAcc
 =
@@ -8978,7 +8978,7 @@ AccessibleWrap
 :
 GetKeyBinding
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -9039,7 +9039,7 @@ KeyBinding
 eAtkFormat
 )
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -9317,7 +9317,7 @@ keyBindingsStr
 /
 /
 static
-Accessible
+LocalAccessible
 *
 AccessibleWrap
 :
@@ -9341,7 +9341,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -9445,7 +9445,7 @@ nullptr
 }
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -9483,7 +9483,7 @@ headerCells
 /
 /
 static
-Accessible
+LocalAccessible
 *
 AccessibleWrap
 :
@@ -9507,7 +9507,7 @@ return
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -9611,7 +9611,7 @@ nullptr
 }
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >

@@ -1614,7 +1614,7 @@ HTMLSummaryAccessible
 :
 FromDetails
 (
-Accessible
+LocalAccessible
 *
 details
 )
@@ -1706,7 +1706,7 @@ created
 with
 one
 .
-Accessible
+LocalAccessible
 *
 child
 =

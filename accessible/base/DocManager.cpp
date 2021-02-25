@@ -724,7 +724,7 @@ GetDocument
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 DocManager
 :
@@ -795,7 +795,7 @@ if
 docAccessible
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =

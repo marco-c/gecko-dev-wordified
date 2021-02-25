@@ -166,7 +166,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -219,7 +219,7 @@ RowCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CellAt
 (
@@ -286,7 +286,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -370,7 +370,7 @@ aRowIdx
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -456,7 +456,7 @@ internally
 nsresult
 SetARIASelected
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 bool
@@ -505,7 +505,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -541,7 +541,7 @@ ARIARowAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -597,7 +597,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -675,14 +675,14 @@ row
 .
 *
 /
-Accessible
+LocalAccessible
 *
 Row
 (
 )
 const
 {
-Accessible
+LocalAccessible
 *
 row
 =
@@ -729,7 +729,7 @@ error
 int32_t
 RowIndexFor
 (
-Accessible
+LocalAccessible
 *
 aRow
 )

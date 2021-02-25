@@ -222,7 +222,7 @@ eIgnoreDOMUIEvent
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 uint64_t
 NativeState
@@ -328,7 +328,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -406,7 +406,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -440,8 +440,8 @@ type
 password
 "
 textarea
-and
 *
+and
 other
 HTML
 text
@@ -496,7 +496,7 @@ override
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Value
@@ -596,7 +596,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -615,7 +615,7 @@ HTMLTextFieldAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -749,7 +749,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -775,7 +775,7 @@ aAccEvent
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -834,7 +834,7 @@ eHasNumericValue
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -951,7 +951,7 @@ eHasNumericValue
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Value
@@ -1066,7 +1066,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -1095,7 +1095,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -1151,7 +1151,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 Relation
 RelationByType
@@ -1196,7 +1196,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 Relation
 RelationByType
@@ -1211,7 +1211,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -1267,7 +1267,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 Relation
 RelationByType
@@ -1324,7 +1324,7 @@ HyperTextAccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 nsAtom
 *
@@ -1425,7 +1425,7 @@ eProgressType
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Value
@@ -1593,7 +1593,7 @@ eProgressType
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Value
@@ -1731,7 +1731,7 @@ AccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :

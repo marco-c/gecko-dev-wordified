@@ -159,7 +159,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 /
 *
@@ -193,7 +193,7 @@ table
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 Caption
 (
@@ -305,7 +305,7 @@ indices
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 CellAt
 (
@@ -822,7 +822,7 @@ SelectedCells
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1053,7 +1053,7 @@ Accessible
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 AsAccessible
 (
@@ -1069,7 +1069,7 @@ nsPtrHashKey
 const
 TableCellAccessible
 >
-Accessible
+LocalAccessible
 >
 HeaderCache
 ;
@@ -1149,7 +1149,7 @@ index
 .
 *
 /
-Accessible
+LocalAccessible
 *
 RowAt
 (
@@ -1175,11 +1175,11 @@ row
 .
 *
 /
-Accessible
+LocalAccessible
 *
 CellInRowAt
 (
-Accessible
+LocalAccessible
 *
 aRow
 int32_t

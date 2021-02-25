@@ -1530,7 +1530,7 @@ similar
 void
 SendParentCOMProxy
 (
-Accessible
+LocalAccessible
 *
 aOuterDoc
 )

@@ -159,7 +159,7 @@ nsIDOMEventListener
 NS_DECL_NSIDOMEVENTLISTENER
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -333,7 +333,7 @@ HandleEvent
 void
 HandlePopupShownEvent
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -407,7 +407,7 @@ endif
 inline
 RootAccessible
 *
-Accessible
+LocalAccessible
 :
 :
 AsRoot

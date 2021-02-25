@@ -128,7 +128,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -237,7 +237,7 @@ mozilla
 namespace
 a11y
 {
-Accessible
+LocalAccessible
 *
 DocAccessibleChild
 :
@@ -284,7 +284,7 @@ aID
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 DocAccessibleChild
 :
@@ -298,7 +298,7 @@ aID
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -323,7 +323,7 @@ acc
 nullptr
 ;
 }
-Accessible
+LocalAccessible
 *
 DocAccessibleChild
 :
@@ -337,7 +337,7 @@ aID
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -376,7 +376,7 @@ aID
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -420,7 +420,7 @@ aID
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -464,7 +464,7 @@ aID
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -510,7 +510,7 @@ aID
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -556,7 +556,7 @@ aID
 )
 const
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -609,7 +609,7 @@ uint64_t
 aState
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -675,7 +675,7 @@ uint64_t
 aState
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -744,7 +744,7 @@ uint32_t
 aFlag
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -802,7 +802,7 @@ nsString
 aValue
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -859,7 +859,7 @@ nsString
 aHelp
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -916,7 +916,7 @@ nsString
 aDesc
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -974,7 +974,7 @@ Attribute
 aAttributes
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1060,7 +1060,7 @@ uint64_t
 aTargets
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1103,7 +1103,7 @@ type
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 target
 =
@@ -1144,7 +1144,7 @@ static
 void
 AddRelation
 (
-Accessible
+LocalAccessible
 *
 aAcc
 RelationType
@@ -1176,7 +1176,7 @@ targets
 ;
 while
 (
-Accessible
+LocalAccessible
 *
 target
 =
@@ -1284,7 +1284,7 @@ RelationTargets
 aRelations
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1361,7 +1361,7 @@ bool
 aRetVal
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1417,7 +1417,7 @@ nsString
 aLandmark
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1489,7 +1489,7 @@ nsString
 aRole
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1581,7 +1581,7 @@ int32_t
 aPositionInGroup
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1655,7 +1655,7 @@ uint32_t
 aScrollType
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1747,7 +1747,7 @@ int32_t
 aY
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1804,7 +1804,7 @@ uint16_t
 aPriority
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -2150,7 +2150,7 @@ bool
 aValid
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -4126,7 +4126,7 @@ bool
 aOk
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -4199,7 +4199,7 @@ bool
 aOk
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -4269,7 +4269,7 @@ bool
 aRetVal
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -4332,7 +4332,7 @@ bool
 aOk
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -4409,7 +4409,7 @@ bool
 aOk
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -4507,7 +4507,7 @@ aOk
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -4521,7 +4521,7 @@ if
 acc
 )
 {
-Accessible
+LocalAccessible
 *
 anchor
 =
@@ -4669,7 +4669,7 @@ if
 acc
 )
 {
-Accessible
+LocalAccessible
 *
 link
 =
@@ -4749,7 +4749,7 @@ IdToHyperTextAccessible
 aID
 )
 ;
-Accessible
+LocalAccessible
 *
 link
 =
@@ -5398,7 +5398,7 @@ acc
 {
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -5515,7 +5515,7 @@ acc
 {
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -5689,7 +5689,7 @@ if
 acc
 )
 {
-Accessible
+LocalAccessible
 *
 caption
 =
@@ -5955,7 +5955,7 @@ if
 acc
 )
 {
-Accessible
+LocalAccessible
 *
 cell
 =
@@ -6915,7 +6915,7 @@ acc
 {
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 30
 >
@@ -7467,7 +7467,7 @@ if
 acc
 )
 {
-Accessible
+LocalAccessible
 *
 header
 =
@@ -7571,7 +7571,7 @@ if
 acc
 )
 {
-Accessible
+LocalAccessible
 *
 header
 =
@@ -7644,7 +7644,7 @@ uint64_t
 aSelectedItemIDs
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -7660,7 +7660,7 @@ acc
 {
 AutoTArray
 <
-Accessible
+LocalAccessible
 *
 10
 >
@@ -7763,7 +7763,7 @@ aCount
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -7832,7 +7832,7 @@ aOk
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -7846,7 +7846,7 @@ if
 acc
 )
 {
-Accessible
+LocalAccessible
 *
 item
 =
@@ -7922,7 +7922,7 @@ aSelected
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -7984,7 +7984,7 @@ aSuccess
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8046,7 +8046,7 @@ aSuccess
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8104,7 +8104,7 @@ aSuccess
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8161,7 +8161,7 @@ aSuccess
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8210,7 +8210,7 @@ uint64_t
 aID
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8260,7 +8260,7 @@ bool
 aSelect
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8319,7 +8319,7 @@ aSuccess
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8377,7 +8377,7 @@ aCount
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8433,7 +8433,7 @@ nsString
 aDescription
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8489,7 +8489,7 @@ nsString
 aName
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8554,7 +8554,7 @@ aModifierMask
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8637,7 +8637,7 @@ aModifierMask
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8710,7 +8710,7 @@ aResult
 #
 ifdef
 MOZ_ACCESSIBILITY_ATK
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8774,7 +8774,7 @@ double
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8835,7 +8835,7 @@ aRetVal
 =
 false
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8898,7 +8898,7 @@ double
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -8960,7 +8960,7 @@ double
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9022,7 +9022,7 @@ double
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9071,7 +9071,7 @@ uint64_t
 aID
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9134,7 +9134,7 @@ aResultID
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9155,7 +9155,7 @@ IPC_OK
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 result
 =
@@ -9173,19 +9173,19 @@ result
 {
 /
 /
-Accessible
+LocalAccessible
 :
 :
 FocusedChild
 can
 return
-an
-Accessible
+a
+LocalAccessible
 from
 any
+/
+/
 document
-/
-/
 not
 just
 a
@@ -9197,11 +9197,11 @@ caller
 s
 document
 .
-/
-/
 Check
 that
 it
+/
+/
 is
 really
 a
@@ -9433,7 +9433,7 @@ nsString
 aLocale
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9484,7 +9484,7 @@ nsString
 aType
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9548,7 +9548,7 @@ nsString
 aTitle
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9611,7 +9611,7 @@ nsString
 aURL
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9675,7 +9675,7 @@ nsString
 aMime
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9745,7 +9745,7 @@ nsString
 aMimeType
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9859,7 +9859,7 @@ aResultID
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -9892,7 +9892,7 @@ y
 =
 aY
 ;
-Accessible
+LocalAccessible
 *
 result
 =
@@ -9905,7 +9905,7 @@ x
 y
 static_cast
 <
-Accessible
+LocalAccessible
 :
 :
 EWhichChildAtPoint
@@ -9922,19 +9922,19 @@ result
 {
 /
 /
-Accessible
+LocalAccessible
 :
 :
 ChildAtPoint
 can
 return
-an
-Accessible
+a
+LocalAccessible
 from
 a
+/
+/
 descendant
-/
-/
 document
 .
 DocAccessibleChild
@@ -10145,7 +10145,7 @@ aHeight
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -10314,7 +10314,7 @@ aHeight
 =
 0
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -10414,7 +10414,7 @@ nsString
 aDOMNodeID
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =

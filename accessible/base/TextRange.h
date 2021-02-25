@@ -167,7 +167,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 class
 HyperTextAccessible
@@ -595,7 +595,7 @@ points
 .
 *
 /
-Accessible
+LocalAccessible
 *
 Container
 (
@@ -632,7 +632,7 @@ EmbeddedChildren
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -836,7 +836,7 @@ successfully
 bool
 Crop
 (
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -1322,7 +1322,7 @@ TextInternal
 nsAString
 &
 aText
-Accessible
+LocalAccessible
 *
 aCurrent
 uint32_t
@@ -1373,19 +1373,19 @@ elements
 .
 *
 /
-Accessible
+LocalAccessible
 *
 CommonParent
 (
-Accessible
+LocalAccessible
 *
 aAcc1
-Accessible
+LocalAccessible
 *
 aAcc2
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -1395,7 +1395,7 @@ uint32_t
 aPos1
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *

@@ -101,7 +101,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -318,7 +318,7 @@ eIsDefunct
 }
 /
 /
-Accessible
+LocalAccessible
 already_AddRefed
 <
 nsIPersistentProperties
@@ -375,7 +375,7 @@ ChildrenCount
 )
 ;
 }
-Accessible
+LocalAccessible
 *
 ProxyAccessibleWrap
 :

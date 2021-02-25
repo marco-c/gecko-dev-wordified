@@ -851,7 +851,7 @@ template
 class
 Derived
 >
-Accessible
+LocalAccessible
 *
 ProxyAccessibleBase
 <

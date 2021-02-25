@@ -174,7 +174,7 @@ XULSelectControlAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -191,7 +191,7 @@ SelectedItems
 (
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 *
@@ -207,7 +207,7 @@ SelectedItemCount
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 GetSelectedItem
 (
@@ -261,7 +261,7 @@ override
 /
 Widgets
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -274,7 +274,7 @@ void
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )

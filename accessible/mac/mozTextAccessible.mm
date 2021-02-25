@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -546,7 +546,7 @@ return
 .
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1043,7 +1043,7 @@ roles
 ENTRY
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =

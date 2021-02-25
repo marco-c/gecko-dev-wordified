@@ -119,7 +119,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -206,7 +206,7 @@ guide
 /
 static
 const
-Accessible
+LocalAccessible
 *
 sInitiatorAcc
 =
@@ -305,7 +305,7 @@ nsTextEquivUtils
 GetNameFromSubtree
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -420,7 +420,7 @@ nsTextEquivUtils
 GetTextEquivFromIDRefs
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAtom
@@ -532,7 +532,7 @@ nsTextEquivUtils
 AppendTextEquivFromContent
 (
 const
-Accessible
+LocalAccessible
 *
 aInitiatorAcc
 nsIContent
@@ -645,7 +645,7 @@ if
 isVisible
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -1208,7 +1208,7 @@ nsTextEquivUtils
 AppendFromAccessibleChildren
 (
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -1247,7 +1247,7 @@ childIdx
 +
 )
 {
-Accessible
+LocalAccessible
 *
 child
 =
@@ -1284,7 +1284,7 @@ nsTextEquivUtils
 :
 AppendFromAccessible
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -1560,7 +1560,7 @@ nsTextEquivUtils
 :
 AppendFromValue
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 nsAString
@@ -2187,7 +2187,7 @@ nsTextEquivUtils
 :
 ShouldIncludeInSubtreeCalculation
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -2284,7 +2284,7 @@ null
 when
 for
 example
-Accessible
+LocalAccessible
 :
 :
 Value

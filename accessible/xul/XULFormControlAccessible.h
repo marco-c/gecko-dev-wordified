@@ -211,7 +211,7 @@ AccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -295,7 +295,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -372,7 +372,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -473,7 +473,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -502,7 +502,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -552,7 +552,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 uint64_t
 NativeState
@@ -573,7 +573,7 @@ override
 /
 Widgets
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -615,7 +615,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -666,7 +666,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -679,7 +679,7 @@ void
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -719,7 +719,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -768,7 +768,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 GetPositionAndSizeInternal
@@ -789,7 +789,7 @@ static
 bool
 IsSeparator
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -842,7 +842,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -861,7 +861,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -907,7 +907,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :

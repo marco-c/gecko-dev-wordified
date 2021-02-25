@@ -3789,7 +3789,7 @@ texts
 ;
 nsTArray
 <
-Accessible
+LocalAccessible
 *
 >
 containers

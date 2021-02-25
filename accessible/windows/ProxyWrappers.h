@@ -383,7 +383,7 @@ child
 .
 /
 /
-Accessible
+LocalAccessible
 :
 :
 ChildAtPoint
@@ -394,9 +394,9 @@ might
 retrieve
 this
 proxy
+/
+/
 and
-/
-/
 call
 Bounds
 (
@@ -415,9 +415,9 @@ we
 override
 it
 to
+/
+/
 do
-/
-/
 nothing
 here
 .
@@ -690,7 +690,7 @@ a
 /
 child
 .
-Accessible
+LocalAccessible
 :
 :
 ChildAtPoint
@@ -700,9 +700,9 @@ ancestor
 might
 retrieve
 this
+/
+/
 proxy
-/
-/
 and
 call
 Bounds
@@ -720,9 +720,9 @@ proxy
 so
 we
 override
+/
+/
 it
-/
-/
 to
 do
 nothing

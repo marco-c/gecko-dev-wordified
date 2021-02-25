@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -903,7 +903,7 @@ content
 continue
 ;
 }
-Accessible
+LocalAccessible
 *
 visibleAcc
 =
@@ -926,7 +926,7 @@ continue
 }
 for
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1047,7 +1047,7 @@ Next
 )
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -1321,7 +1321,7 @@ SessionAccessibility
 HTML_GRANULARITY_DEFAULT
 )
 ;
-Accessible
+LocalAccessible
 *
 first
 =
@@ -1336,7 +1336,7 @@ AsAccessible
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 last
 =
@@ -2130,7 +2130,7 @@ Next
 )
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =
@@ -2312,7 +2312,7 @@ Next
 )
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =

@@ -174,7 +174,7 @@ AccIterable
 {
 }
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -230,7 +230,7 @@ public
 AccIterator
 (
 const
-Accessible
+LocalAccessible
 *
 aRoot
 filters
@@ -271,7 +271,7 @@ time
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -308,7 +308,7 @@ explicit
 IteratorState
 (
 const
-Accessible
+LocalAccessible
 *
 aParent
 IteratorState
@@ -319,7 +319,7 @@ nullptr
 )
 ;
 const
-Accessible
+LocalAccessible
 *
 mParent
 ;
@@ -471,7 +471,7 @@ accessible
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -560,7 +560,7 @@ DocAccessible
 *
 aDocument
 const
-Accessible
+LocalAccessible
 *
 aAccessible
 LabelFilter
@@ -593,7 +593,7 @@ element
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -626,7 +626,7 @@ HTMLLabelIterator
 bool
 IsLabel
 (
-Accessible
+LocalAccessible
 *
 aLabel
 )
@@ -666,7 +666,7 @@ is
 short
 .
 const
-Accessible
+LocalAccessible
 *
 mAcc
 ;
@@ -735,7 +735,7 @@ element
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -830,7 +830,7 @@ element
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -925,7 +925,7 @@ element
 *
 /
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -1106,7 +1106,7 @@ aID
 /
 AccIterable
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -1190,7 +1190,7 @@ public
 explicit
 SingleAccIterator
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -1209,7 +1209,7 @@ SingleAccIterator
 {
 }
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -1241,7 +1241,7 @@ SingleAccIterator
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mAcc
 ;
@@ -1275,7 +1275,7 @@ explicit
 ItemIterator
 (
 const
-Accessible
+LocalAccessible
 *
 aItemContainer
 )
@@ -1298,7 +1298,7 @@ ItemIterator
 {
 }
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (
@@ -1335,11 +1335,11 @@ ItemIterator
 delete
 ;
 const
-Accessible
+LocalAccessible
 *
 mContainer
 ;
-Accessible
+LocalAccessible
 *
 mAnchor
 ;
@@ -1392,7 +1392,7 @@ XULTreeItemIterator
 {
 }
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (

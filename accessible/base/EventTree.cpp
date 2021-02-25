@@ -103,7 +103,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -276,7 +276,7 @@ TreeMutation
 :
 TreeMutation
 (
-Accessible
+LocalAccessible
 *
 aParent
 bool
@@ -433,7 +433,7 @@ mParent
 mStateFlags
 |
 =
-Accessible
+LocalAccessible
 :
 :
 eKidsMutating
@@ -468,7 +468,7 @@ TreeMutation
 :
 AfterInsertion
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -569,7 +569,7 @@ TreeMutation
 :
 BeforeRemoval
 (
-Accessible
+LocalAccessible
 *
 aChild
 bool
@@ -674,7 +674,7 @@ mParent
 >
 mStateFlags
 &
-Accessible
+LocalAccessible
 :
 :
 eKidsMutating
@@ -687,7 +687,7 @@ mStateFlags
 &
 =
 ~
-Accessible
+LocalAccessible
 :
 :
 eKidsMutating
@@ -820,7 +820,7 @@ idx
 mStateFlags
 |
 =
-Accessible
+LocalAccessible
 :
 :
 eGroupInfoDirty
@@ -841,7 +841,7 @@ mStateFlags
 =
 mStateFlagsCopy
 &
-Accessible
+LocalAccessible
 :
 :
 eKidsMutating
@@ -940,7 +940,7 @@ PrefixLog
 void
 *
 aData
-Accessible
+LocalAccessible
 *
 aAcc
 )
@@ -1105,7 +1105,7 @@ EventTree
 :
 Shown
 (
-Accessible
+LocalAccessible
 *
 aChild
 )
@@ -1149,7 +1149,7 @@ EventTree
 :
 Hidden
 (
-Accessible
+LocalAccessible
 *
 aChild
 bool
@@ -1792,7 +1792,7 @@ EventTree
 :
 FindOrInsert
 (
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -1927,7 +1927,7 @@ by
 a
 current
 node
-Accessible
+LocalAccessible
 *
 top
 =
@@ -1942,7 +1942,7 @@ Document
 (
 )
 ;
-Accessible
+LocalAccessible
 *
 parent
 =
@@ -2284,7 +2284,7 @@ show
 and
 hide
 events
-Accessible
+LocalAccessible
 *
 curParent
 =
@@ -2507,7 +2507,7 @@ while
 node
 )
 {
-Accessible
+LocalAccessible
 *
 curParent
 =
@@ -2897,7 +2897,7 @@ EventTree
 Find
 (
 const
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -3373,7 +3373,7 @@ while
 node
 )
 {
-Accessible
+LocalAccessible
 *
 cntr
 =

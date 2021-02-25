@@ -90,7 +90,7 @@ namespace
 a11y
 {
 class
-Accessible
+LocalAccessible
 ;
 namespace
 filters
@@ -132,7 +132,7 @@ uint32_t
 FilterFuncPtr
 )
 (
-Accessible
+LocalAccessible
 *
 )
 ;
@@ -153,7 +153,7 @@ subtree
 uint32_t
 GetSelected
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -161,7 +161,7 @@ aAccessible
 uint32_t
 GetSelectable
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -181,7 +181,7 @@ subtree
 uint32_t
 GetRow
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -201,7 +201,7 @@ children
 uint32_t
 GetCell
 (
-Accessible
+LocalAccessible
 *
 aAccessible
 )

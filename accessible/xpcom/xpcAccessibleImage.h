@@ -150,7 +150,7 @@ public
 explicit
 xpcAccessibleImage
 (
-Accessible
+LocalAccessible
 *
 aIntl
 )

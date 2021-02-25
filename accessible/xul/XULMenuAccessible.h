@@ -159,7 +159,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Description
@@ -273,7 +273,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -285,7 +285,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -331,7 +331,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -388,7 +388,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -435,7 +435,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -483,7 +483,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
@@ -495,7 +495,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName
@@ -541,7 +541,7 @@ aDoc
 ;
 /
 /
-Accessible
+LocalAccessible
 virtual
 a11y
 :
@@ -573,7 +573,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 CurrentItem
 (
@@ -586,7 +586,7 @@ void
 SetCurrentItem
 (
 const
-Accessible
+LocalAccessible
 *
 aItem
 )
@@ -596,7 +596,7 @@ protected
 :
 /
 /
-Accessible
+LocalAccessible
 virtual
 ENameValueFlag
 NativeName

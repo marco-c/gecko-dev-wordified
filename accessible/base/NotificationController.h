@@ -639,7 +639,7 @@ EventTree
 *
 QueueMutation
 (
-Accessible
+LocalAccessible
 *
 aContainer
 )
@@ -993,7 +993,7 @@ insertion
 void
 ScheduleContentInsertion
 (
-Accessible
+LocalAccessible
 *
 aContainer
 nsTArray
@@ -1022,7 +1022,7 @@ relocation
 void
 ScheduleRelocation
 (
-Accessible
+LocalAccessible
 *
 aOwner
 )
@@ -1931,7 +1931,7 @@ nsClassHashtable
 <
 nsRefPtrHashKey
 <
-Accessible
+LocalAccessible
 >
 nsTArray
 <
@@ -2180,7 +2180,7 @@ nsTArray
 <
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 >
 mRelocations
@@ -2347,7 +2347,7 @@ AccTreeMutationEvent
 *
 GetEvent
 (
-Accessible
+LocalAccessible
 *
 aTarget
 EventType

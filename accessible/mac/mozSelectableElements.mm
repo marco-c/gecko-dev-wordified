@@ -135,7 +135,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -534,7 +534,7 @@ return
 }
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1238,7 +1238,7 @@ bindings
 {
 if
 (
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -1749,7 +1749,7 @@ NSString
 )
 moxMenuItemMarkChar
 {
-Accessible
+LocalAccessible
 *
 acc
 =

@@ -256,7 +256,7 @@ HTMLWin32ObjectOwnerAccessible
 }
 /
 /
-Accessible
+LocalAccessible
 virtual
 void
 Shutdown
@@ -292,7 +292,7 @@ mHwnd
 ;
 RefPtr
 <
-Accessible
+LocalAccessible
 >
 mNativeAccessible
 ;
@@ -346,8 +346,8 @@ node
 .
 We
 need
-only
 *
+only
 a
 limited
 portion

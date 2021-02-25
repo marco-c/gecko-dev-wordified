@@ -121,7 +121,7 @@ h
 #
 include
 "
-Accessible
+LocalAccessible
 -
 inl
 .
@@ -3917,7 +3917,7 @@ const
 char
 *
 aTargetDescr
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -4083,7 +4083,7 @@ const
 char
 *
 aCause
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -4125,7 +4125,7 @@ logging
 :
 ActiveWidget
 (
-Accessible
+LocalAccessible
 *
 aWidget
 )
@@ -4211,7 +4211,7 @@ logging
 :
 FocusDispatched
 (
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -4429,14 +4429,14 @@ if
 descr
 )
 {
-Accessible
+LocalAccessible
 *
 acc
 =
 va_arg
 (
 vl
-Accessible
+LocalAccessible
 *
 )
 ;
@@ -4494,7 +4494,7 @@ descr
 va_arg
 (
 vl
-Accessible
+LocalAccessible
 *
 )
 )
@@ -4555,7 +4555,7 @@ const
 char
 *
 aMsg1
-Accessible
+LocalAccessible
 *
 aAcc
 const
@@ -4613,7 +4613,7 @@ aMsg1
 aAcc
 )
 ;
-Accessible
+LocalAccessible
 *
 acc
 =
@@ -4673,7 +4673,7 @@ char
 aMsg
 uint32_t
 aExtraFlags
-Accessible
+LocalAccessible
 *
 aParent
 )
@@ -4778,7 +4778,7 @@ const
 char
 *
 aMsgText
-Accessible
+LocalAccessible
 *
 aRoot
 GetTreePrefix
@@ -4804,7 +4804,7 @@ aMsgText
 nsAutoString
 level
 ;
-Accessible
+LocalAccessible
 *
 root
 =
@@ -5560,7 +5560,7 @@ const
 char
 *
 aDescr
-Accessible
+LocalAccessible
 *
 aAcc
 )
@@ -5863,7 +5863,7 @@ const
 char
 *
 aDescr
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -6109,7 +6109,7 @@ const
 char
 *
 aDescr
-Accessible
+LocalAccessible
 *
 aAccessible
 )
@@ -6287,7 +6287,7 @@ if
 document
 )
 {
-Accessible
+LocalAccessible
 *
 accessible
 =

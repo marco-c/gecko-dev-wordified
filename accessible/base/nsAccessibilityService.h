@@ -302,7 +302,7 @@ XPCApplicationAcc
 )
 ;
 typedef
-Accessible
+LocalAccessible
 *
 (
 New_Accessible
@@ -317,7 +317,7 @@ dom
 Element
 *
 aElement
-Accessible
+LocalAccessible
 *
 aContext
 )
@@ -499,8 +499,8 @@ mozilla
 a11y
 :
 :
-Accessible
-Accessible
+LocalAccessible
+LocalAccessible
 ;
 typedef
 mozilla
@@ -535,7 +535,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIOBSERVER
-Accessible
+LocalAccessible
 *
 GetRootDocumentAccessible
 (
@@ -576,7 +576,7 @@ accessible
 .
 *
 /
-Accessible
+LocalAccessible
 *
 AddNativeRootAccessible
 (
@@ -588,7 +588,7 @@ aAtkAccessible
 void
 RemoveNativeRootAccessible
 (
-Accessible
+LocalAccessible
 *
 aRootAccessible
 )
@@ -1145,7 +1145,7 @@ FireAccessibleEvent
 (
 uint32_t
 aEvent
-Accessible
+LocalAccessible
 *
 aTarget
 )
@@ -1303,14 +1303,14 @@ is
 hidden
 *
 /
-Accessible
+LocalAccessible
 *
 CreateAccessible
 (
 nsINode
 *
 aNode
-Accessible
+LocalAccessible
 *
 aContext
 bool
@@ -1743,7 +1743,7 @@ frame
 /
 already_AddRefed
 <
-Accessible
+LocalAccessible
 >
 CreateAccessibleByFrameType
 (
@@ -1753,7 +1753,7 @@ aFrame
 nsIContent
 *
 aContent
-Accessible
+LocalAccessible
 *
 aContext
 )

@@ -116,7 +116,7 @@ a11y
 *
 *
 *
-Accessible
+LocalAccessible
 for
 supporting
 XUL
@@ -149,7 +149,7 @@ AccessibleWrap
 )
 /
 /
-Accessible
+LocalAccessible
 virtual
 mozilla
 :
@@ -198,7 +198,7 @@ const
 override
 ;
 virtual
-Accessible
+LocalAccessible
 *
 ContainerWidget
 (
