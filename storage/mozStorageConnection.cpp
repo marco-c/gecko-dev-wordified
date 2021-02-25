@@ -13543,10 +13543,9 @@ NS_ENSURE_FALSE
 (
 mFunctions
 .
-Get
+Contains
 (
 aFunctionName
-nullptr
 )
 NS_ERROR_FAILURE
 )
