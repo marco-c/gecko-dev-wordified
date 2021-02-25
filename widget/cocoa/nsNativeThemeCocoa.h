@@ -215,7 +215,6 @@ eThemeGeometryTypeUnknown
 eThemeGeometryTypeToolbar
 eThemeGeometryTypeToolbox
 eThemeGeometryTypeWindowButtons
-eThemeGeometryTypeFullscreenButton
 eThemeGeometryTypeMenu
 eThemeGeometryTypeHighlightedMenuItem
 eThemeGeometryTypeVibrancyLight
