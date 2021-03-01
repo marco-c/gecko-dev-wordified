@@ -825,10 +825,6 @@ uv_rect
 :
 DeviceIntRect
 pub
-texture_layer
-:
-i32
-pub
 user_data
 :
 [
@@ -873,9 +869,6 @@ DeviceIntRect
 zero
 (
 )
-texture_layer
-:
-0
 user_data
 :
 [

@@ -15460,9 +15460,7 @@ info
 has_depth
 }
 )
-info
-.
-layer_count
+1
 )
 ;
 if

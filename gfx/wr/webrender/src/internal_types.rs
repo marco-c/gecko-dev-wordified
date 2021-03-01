@@ -2588,10 +2588,6 @@ height
 :
 i32
 pub
-layer_count
-:
-i32
-pub
 format
 :
 ImageFormat
@@ -2742,10 +2738,6 @@ i32
 >
 pub
 offset
-:
-i32
-pub
-layer_index
 :
 i32
 pub
@@ -3135,9 +3127,6 @@ i32
 height
 :
 i32
-layer_index
-:
-usize
 )
 {
 let
@@ -3178,11 +3167,6 @@ None
 offset
 :
 0
-layer_index
-:
-layer_index
-as
-i32
 format_override
 :
 None
