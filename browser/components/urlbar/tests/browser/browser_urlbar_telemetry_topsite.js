@@ -582,13 +582,6 @@ test
 (
 )
 {
-UrlbarTestUtils
-.
-init
-(
-this
-)
-;
 await
 BrowserTestUtils
 .

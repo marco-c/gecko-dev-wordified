@@ -858,13 +858,6 @@ REMOTE_TAB
 )
 )
 ;
-UrlbarTestUtils
-.
-init
-(
-this
-)
-;
 /
 /
 Make

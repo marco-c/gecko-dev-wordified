@@ -1539,16 +1539,6 @@ tags
 [
 ]
 ;
-details
-.
-isSponsored
-=
-result
-.
-payload
-.
-isSponsored
-;
 let
 actions
 =

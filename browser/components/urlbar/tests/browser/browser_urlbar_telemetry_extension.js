@@ -588,13 +588,6 @@ eraseEverything
 (
 )
 ;
-UrlbarTestUtils
-.
-init
-(
-this
-)
-;
 /
 /
 Make

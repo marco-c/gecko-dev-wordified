@@ -230,13 +230,6 @@ test
 (
 )
 {
-UrlbarTestUtils
-.
-init
-(
-this
-)
-;
 /
 /
 Add
