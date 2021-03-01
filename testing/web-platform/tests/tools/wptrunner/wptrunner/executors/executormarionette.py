@@ -4078,6 +4078,9 @@ oneRealm
 =
 one_realm
         
+try
+:
+            
 self
 .
 marionette
@@ -4090,6 +4093,23 @@ WebDriver
 SetPermission
 "
 body
+)
+        
+except
+errors
+.
+UnsupportedOperationException
+:
+            
+raise
+NotImplementedError
+(
+"
+set_permission
+not
+yet
+implemented
+"
 )
 class
 MarionettePrintProtocolPart
