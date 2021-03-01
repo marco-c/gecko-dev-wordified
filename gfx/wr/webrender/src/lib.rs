@@ -737,9 +737,6 @@ mod
 frame_builder
 ;
 mod
-frame_graph
-;
-mod
 freelist
 ;
 #

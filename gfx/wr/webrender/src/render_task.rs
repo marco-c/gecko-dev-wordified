@@ -135,15 +135,6 @@ use
 crate
 :
 :
-frame_graph
-:
-:
-PassId
-;
-use
-crate
-:
-:
 gpu_cache
 :
 :
@@ -285,6 +276,7 @@ render_task_graph
 :
 :
 {
+PassId
 RenderTaskId
 RenderTaskGraphBuilder
 }
