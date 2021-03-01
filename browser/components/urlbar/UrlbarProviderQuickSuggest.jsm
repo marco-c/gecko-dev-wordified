@@ -740,7 +740,7 @@ query
 (
 queryContext
 .
-searchString
+trimmedSearchString
 )
 ;
 if
