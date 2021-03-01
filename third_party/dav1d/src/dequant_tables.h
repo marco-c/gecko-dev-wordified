@@ -270,6 +270,7 @@ const
 uint16_t
 dav1d_dq_tbl
 [
+3
 ]
 [
 QINDEX_RANGE

@@ -319,6 +319,10 @@ DAV1D_MAX_FRAME_THREADS
 define
 DAV1D_MAX_TILE_THREADS
 64
+#
+define
+DAV1D_MAX_POSTFILTER_THREADS
+256
 typedef
 struct
 Dav1dLogger
@@ -494,10 +498,13 @@ logger
 Logger
 callback
 .
+int
+n_postfilter_threads
+;
 uint8_t
 reserved
 [
-32
+28
 ]
 ;
 /

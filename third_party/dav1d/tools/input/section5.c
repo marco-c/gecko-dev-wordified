@@ -1215,6 +1215,10 @@ read
 =
 section5_read
 .
+seek
+=
+NULL
+.
 close
 =
 section5_close

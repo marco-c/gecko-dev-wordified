@@ -16,9 +16,9 @@ DAV1D_VERSION
 .
 8
 .
-1
+2
 -
 0
 -
-g6ed5faf
+gf06148e
 "

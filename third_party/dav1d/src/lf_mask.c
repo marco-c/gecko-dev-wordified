@@ -897,16 +897,16 @@ int
 y
 x
 ;
+ALIGN_STK_16
+(
 uint8_t
 txa
-[
 2
 /
 *
 edge
 *
 /
-]
 [
 2
 /
@@ -932,6 +932,7 @@ x
 *
 /
 ]
+)
 ;
 for
 (

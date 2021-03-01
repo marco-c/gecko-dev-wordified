@@ -1301,13 +1301,6 @@ seq_skip
 )
 ;
 }
-/
-/
-getc
-(
-stdin
-)
-;
 if
 (
 cli_settings

@@ -274,9 +274,6 @@ dav1d_scans
 [
 N_RECT_TX_SIZES
 ]
-[
-3
-]
 ;
 #
 endif
