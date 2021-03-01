@@ -916,16 +916,6 @@ TEXTURE_2D
 ImageBufferKind
 :
 :
-Texture2DArray
-=
->
-gl
-:
-:
-TEXTURE_2D_ARRAY
-ImageBufferKind
-:
-:
 TextureRect
 =
 >

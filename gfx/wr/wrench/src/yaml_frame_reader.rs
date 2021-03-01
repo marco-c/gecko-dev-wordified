@@ -5507,15 +5507,6 @@ ImageBufferKind
 :
 Texture2D
 "
-array
-"
-=
->
-ImageBufferKind
-:
-:
-Texture2DArray
-"
 rect
 "
 =
