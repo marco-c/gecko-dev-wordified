@@ -365,7 +365,6 @@ label
 =
 '
 Stop
-It
 '
 ]
 "
