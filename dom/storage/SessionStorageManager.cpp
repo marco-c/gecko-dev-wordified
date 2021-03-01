@@ -3230,7 +3230,7 @@ return
 ShutdownPhase
 :
 :
-Shutdown
+XPCOMShutdown
 )
 ;
 }

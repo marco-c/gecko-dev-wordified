@@ -1452,7 +1452,7 @@ KillClearOnShutdown
 ShutdownPhase
 :
 :
-ShutdownFinal
+XPCOMShutdownFinal
 )
 ;
 AbstractThread
