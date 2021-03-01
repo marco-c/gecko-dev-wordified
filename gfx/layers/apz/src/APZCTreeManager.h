@@ -4663,15 +4663,6 @@ HitTestResult
 =
 default
 ;
-Maybe
-<
-APZHandledResult
->
-HandledByRoot
-(
-)
-const
-;
 }
 ;
 /
