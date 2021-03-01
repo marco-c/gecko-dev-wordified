@@ -175,11 +175,13 @@ isWebRender
 utils
 .
 layerManagerType
-=
-=
+.
+startsWith
+(
 "
 WebRender
 "
+)
 ;
 /
 /

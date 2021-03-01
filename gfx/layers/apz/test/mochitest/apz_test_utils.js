@@ -5823,11 +5823,13 @@ isWebRender
 utils
 .
 layerManagerType
-=
-=
+.
+startsWith
+(
 "
 WebRender
 "
+)
 ;
 var
 isWindows
