@@ -1514,7 +1514,7 @@ gHttpHandler
 ShutdownPhase
 :
 :
-ShutdownPostLastCycleCollection
+CCPostLastCycleCollection
 )
 ;
 }

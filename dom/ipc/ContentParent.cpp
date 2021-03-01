@@ -18509,7 +18509,7 @@ PastShutdownPhase
 ShutdownPhase
 :
 :
-Shutdown
+XPCOMShutdown
 )
 )
 {

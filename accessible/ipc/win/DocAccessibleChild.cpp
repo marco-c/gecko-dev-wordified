@@ -222,7 +222,7 @@ sPlatformChild
 ShutdownPhase
 :
 :
-Shutdown
+XPCOMShutdown
 )
 ;
 }

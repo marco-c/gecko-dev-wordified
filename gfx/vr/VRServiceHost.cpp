@@ -1459,7 +1459,7 @@ PastShutdownPhase
 ShutdownPhase
 :
 :
-ShutdownFinal
+XPCOMShutdownFinal
 )
 )
 )
