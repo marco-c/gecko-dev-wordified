@@ -288,8 +288,8 @@ WeakAtom
 [
 derive
 (
-Hash
 Deref
+Hash
 )
 ]
 pub

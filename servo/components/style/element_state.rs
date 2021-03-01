@@ -1788,9 +1788,6 @@ org
 /
 multipage
 /
-interaction
-.
-html
 #
 inert
 -

@@ -1605,10 +1605,12 @@ PlainTextDocument
 )
 =
 >
+{
 GeckoDocumentMatchingFunction
 :
 :
 PlainTextDocument
+}
 DocumentMatchingFunction
 :
 :
@@ -1619,10 +1621,12 @@ UnobservableDocument
 )
 =
 >
+{
 GeckoDocumentMatchingFunction
 :
 :
 UnobservableDocument
+}
 }
 ;
 let

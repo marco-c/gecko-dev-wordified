@@ -547,8 +547,8 @@ it
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 Eq
 MallocSizeOf

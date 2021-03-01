@@ -7924,7 +7924,6 @@ selectors
 )
 =
 >
-{
 selectors
 .
 iter
@@ -7956,7 +7955,6 @@ maybe_allowed_after_pseudo_element
 )
 }
 )
-}
 _
 =
 >
@@ -8075,7 +8073,6 @@ selectors
 )
 =
 >
-{
 !
 selectors
 .
@@ -8108,7 +8105,6 @@ matches_for_stateless_pseudo_element
 )
 }
 )
-}
 Component
 :
 :

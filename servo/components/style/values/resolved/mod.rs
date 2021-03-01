@@ -531,6 +531,18 @@ Atom
 trivial_to_resolved_value
 !
 (
+crate
+:
+:
+values
+:
+:
+AtomIdent
+)
+;
+trivial_to_resolved_value
+!
+(
 app_units
 :
 :
@@ -586,7 +598,7 @@ servo
 trivial_to_resolved_value
 !
 (
-html5ever
+crate
 :
 :
 Namespace
@@ -606,7 +618,7 @@ servo
 trivial_to_resolved_value
 !
 (
-html5ever
+crate
 :
 :
 Prefix

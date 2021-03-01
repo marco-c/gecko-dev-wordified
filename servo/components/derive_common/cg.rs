@@ -1767,7 +1767,6 @@ data
 )
 =
 >
-{
 GenericArgument
 :
 :
@@ -1781,7 +1780,6 @@ self_type
 f
 )
 )
-}
 &
 GenericArgument
 :
