@@ -90,8 +90,9 @@ MakeIndicesArray
 S
 indices
 groupNames
+hasGroups
 )
-11
+13
 .
 For
 each
@@ -144,6 +145,7 @@ b
 c
 )
 /
+d
 .
 exec
 (

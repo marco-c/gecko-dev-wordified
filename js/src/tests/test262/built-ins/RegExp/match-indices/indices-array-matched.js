@@ -100,6 +100,7 @@ MakeIndicesArray
 S
 indices
 groupNames
+hasIndices
 )
 4
 .
@@ -116,7 +117,7 @@ _indices_
 .
 .
 .
-6
+8
 .
 Set
 _A_
@@ -130,7 +131,7 @@ _n_
 .
 .
 .
-11
+13
 .
 For
 each
@@ -230,6 +231,7 @@ b
 c
 )
 /
+d
 .
 exec
 (

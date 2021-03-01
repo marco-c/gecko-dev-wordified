@@ -95,6 +95,7 @@ MakeIndicesArray
 S
 indices
 groupNames
+hasGroups
 )
 11
 .
@@ -116,16 +117,15 @@ do
 e
 .
 If
-_groupNames_
-is
-not
-*
-undfined
-*
+_i_
+>
+0
 and
 _groupNames_
 [
 _i_
+-
+1
 ]
 is
 not
@@ -143,6 +143,8 @@ _groups_
 _groupNames_
 [
 _i_
+-
+1
 ]
 _matchIndicesArray_
 )
@@ -173,6 +175,7 @@ x
 x
 )
 /
+d
 ;
 const
 result

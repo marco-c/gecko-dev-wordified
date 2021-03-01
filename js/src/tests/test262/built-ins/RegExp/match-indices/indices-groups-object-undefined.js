@@ -91,15 +91,15 @@ MakeIndicesArray
 S
 indices
 groupNames
+hasGroups
 )
-8
+10
 .
 If
-_groupNames_
+_hasGroups_
 is
-not
 *
-undefined
+true
 *
 then
 a
@@ -115,7 +115,7 @@ null
 *
 )
 .
-9
+11
 .
 Else
 a
@@ -127,7 +127,7 @@ be
 undefined
 *
 .
-10
+12
 .
 Perform
 !
@@ -151,6 +151,7 @@ re
 /
 .
 /
+d
 ;
 const
 indices

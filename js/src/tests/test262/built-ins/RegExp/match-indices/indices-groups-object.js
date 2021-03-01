@@ -94,15 +94,15 @@ MakeIndicesArray
 S
 indices
 groupNames
+hasIndices
 )
-8
+10
 .
 If
-_groupNames_
+_hasIndices_
 is
-not
 *
-undefined
+true
 *
 then
 a
@@ -118,7 +118,7 @@ null
 *
 )
 .
-9
+11
 .
 Else
 a
@@ -130,7 +130,7 @@ be
 undefined
 *
 .
-10
+12
 .
 Perform
 !
@@ -198,6 +198,7 @@ x
 .
 )
 /
+d
 .
 exec
 (
@@ -294,6 +295,7 @@ __proto__
 .
 )
 /
+d
 .
 exec
 (

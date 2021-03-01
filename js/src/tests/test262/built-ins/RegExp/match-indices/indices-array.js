@@ -79,6 +79,7 @@ MakeIndicesArray
 S
 indices
 groupNames
+hasGroups
 )
 6
 .
@@ -102,6 +103,7 @@ match
 /
 a
 /
+d
 .
 exec
 (
