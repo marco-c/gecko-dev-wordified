@@ -61,17 +61,7 @@ load
 libdir
 +
 "
-.
-.
-/
-.
-.
-/
-tests
-/
 non262
-/
-shell
 .
 js
 "
