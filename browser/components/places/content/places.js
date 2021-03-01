@@ -1530,7 +1530,7 @@ true
 remove
 the
 "
-Edit
+Properties
 "
 context
 -
@@ -1538,8 +1538,7 @@ menu
 item
 we
 '
-re
-in
+ve
 our
 own
 details

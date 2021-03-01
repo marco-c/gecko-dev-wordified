@@ -1339,14 +1339,14 @@ popup
 )
 ;
 let
-deleteMenuBookmark
+deleteMenuItem
 =
 document
 .
 getElementById
 (
 "
-placesContext_deleteBookmark
+placesContext_delete
 "
 )
 ;
@@ -1354,7 +1354,7 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-deleteMenuBookmark
+deleteMenuItem
 {
 }
 )
