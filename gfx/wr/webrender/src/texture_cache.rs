@@ -888,7 +888,7 @@ user_data
 [
 f32
 ;
-3
+4
 ]
 /
 /
@@ -1270,11 +1270,6 @@ size
 to_f32
 (
 )
-unused
-:
-0
-.
-0
 user_data
 :
 self
@@ -3881,7 +3876,7 @@ user_data
 .
 0
 ;
-3
+4
 ]
 last_access
 :
@@ -4518,7 +4513,7 @@ user_data
 [
 f32
 ;
-3
+4
 ]
 uv_rect_kind
 :
@@ -7273,7 +7268,7 @@ user_data
 [
 f32
 ;
-3
+4
 ]
 mut
 dirty_rect
@@ -8153,7 +8148,7 @@ GpuCacheHandle
 [
 f32
 ;
-3
+4
 ]
 )
 {
@@ -12812,7 +12807,7 @@ None
 .
 0
 ;
-3
+4
 ]
 DirtyRect
 :

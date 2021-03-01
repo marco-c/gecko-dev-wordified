@@ -537,7 +537,7 @@ Option
 [
 f32
 ;
-3
+4
 ]
 >
 target_kind
@@ -1255,7 +1255,7 @@ unwrap_or
 .
 0
 ;
-3
+4
 ]
 )
 DirtyRect
@@ -1407,7 +1407,7 @@ Option
 [
 f32
 ;
-3
+4
 ]
 >
 is_opaque

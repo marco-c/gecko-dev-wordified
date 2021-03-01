@@ -8726,11 +8726,6 @@ ImageSource
 {
 p0
 p1
-unused
-:
-0
-.
-0
 user_data
 :
 [
@@ -8738,7 +8733,7 @@ user_data
 .
 0
 ;
-3
+4
 ]
 uv_rect_kind
 :
