@@ -685,10 +685,6 @@ pub
 source_rect
 :
 DeviceIntRect
-pub
-source_layer
-:
-i32
 }
 #
 [
