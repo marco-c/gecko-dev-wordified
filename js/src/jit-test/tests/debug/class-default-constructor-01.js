@@ -84,15 +84,7 @@ use
 a
 different
 script
-from
-the
-self
--
-hosted
-compartment
 so
-/
-/
 check
 those
 too

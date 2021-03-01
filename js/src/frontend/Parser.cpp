@@ -46715,7 +46715,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-args
+dotArgs
 (
 )
 synthesizedBodyPos
@@ -46958,7 +46958,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-args
+dotArgs
 (
 )
 synthesizedBodyPos
@@ -46987,7 +46987,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-args
+dotArgs
 (
 )
 )
