@@ -144,6 +144,13 @@ addTabTarget
 pageUrl
 )
 ;
+await
+target
+.
+attach
+(
+)
+;
 const
 {
 client

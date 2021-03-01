@@ -116,16 +116,12 @@ WeakMap
 Functions
 for
 creating
-(
-local
-)
-Tab
 Targets
 *
 /
 exports
 .
-TabTargetFactory
+TargetFactory
 =
 {
 /

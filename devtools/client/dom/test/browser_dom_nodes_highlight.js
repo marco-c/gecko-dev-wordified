@@ -82,7 +82,6 @@ started
 const
 {
 panel
-tab
 }
 =
 await
@@ -94,12 +93,13 @@ TEST_PAGE_URL
 const
 toolbox
 =
-await
 gDevTools
 .
-getToolboxForTab
+getToolbox
 (
-tab
+panel
+.
+currentTarget
 )
 ;
 const

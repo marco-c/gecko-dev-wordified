@@ -183,7 +183,7 @@ const
 target
 =
 await
-TabTargetFactory
+TargetFactory
 .
 forTab
 (
@@ -196,7 +196,7 @@ DevToolsServer
 .
 initialized
 "
-TabTargetFactory
+TargetFactory
 .
 forTab
 will
@@ -215,7 +215,7 @@ assertServerInitialized
 browser
 true
 "
-TabTargetFactory
+TargetFactory
 .
 forTab
 will
@@ -386,7 +386,7 @@ const
 target
 =
 await
-TabTargetFactory
+TargetFactory
 .
 forTab
 (
@@ -504,7 +504,7 @@ const
 newTarget
 =
 await
-TabTargetFactory
+TargetFactory
 .
 forTab
 (

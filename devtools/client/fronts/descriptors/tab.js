@@ -1122,7 +1122,7 @@ few
 tests
 are
 using
-TabTargetFactory
+TargetFactory
 .
 forTab
 but

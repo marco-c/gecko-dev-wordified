@@ -37,7 +37,7 @@ jsm
 ;
 const
 {
-TabTargetFactory
+TargetFactory
 }
 =
 require
@@ -49,11 +49,7 @@ client
 /
 framework
 /
-tab
--
 target
--
-factory
 "
 )
 ;
@@ -196,7 +192,7 @@ browser
 )
 ;
 return
-TabTargetFactory
+TargetFactory
 .
 forTab
 (

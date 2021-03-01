@@ -117,6 +117,9 @@ true
 synthesizeKeyFromKeyTag
 :
 true
+TargetFactory
+:
+true
 waitForTick
 :
 true
