@@ -21939,6 +21939,26 @@ False
 )
                 
 "
+swgl
+"
+:
+self
+.
+extraPrefs
+.
+get
+(
+"
+gfx
+.
+webrender
+.
+software
+"
+False
+)
+                
+"
 verify
 "
 :
