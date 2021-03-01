@@ -5985,9 +5985,6 @@ SECONDARY_CONFIG_DESCRIPTION
 "
 secondary
 config
-(
-readonly
-)
 "
     
 ABSOLUTE_KEYS
@@ -6214,10 +6211,21 @@ self
 _strip_prefix
 (
                 
+self
+.
+_strip_prefix
+(
 line
 self
 .
 SECONDARY_CONFIG_DESCRIPTION
+)
+                
+"
+(
+readonly
+)
+"
             
 )
         
