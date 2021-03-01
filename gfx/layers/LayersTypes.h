@@ -2533,7 +2533,7 @@ eHorizontal
 ;
 constexpr
 ScrollDirections
-VerticalScollDirection
+VerticalScrollDirection
 (
 ScrollDirection
 :
