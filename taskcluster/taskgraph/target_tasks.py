@@ -6250,36 +6250,15 @@ else
 :
                 
 #
-Run
+Don
+'
+t
+run
+tp6
+raptor
 tests
-on
-all
-chrome
-variants
                 
 if
-(
-                    
-"
-linux
-"
-in
-platform
-or
-"
-macos
-"
-in
-platform
-or
-"
-windows
-"
-in
-platform
-                
-)
-and
 "
 tp6
 "
@@ -6289,6 +6268,18 @@ try_name
                     
 return
 False
+                
+#
+Run
+raptor
+-
+webext
+benchmark
+tests
+on
+chrome
+/
+chromium
                 
 if
 "
