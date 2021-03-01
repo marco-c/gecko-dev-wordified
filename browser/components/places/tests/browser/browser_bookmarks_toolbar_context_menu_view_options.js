@@ -284,7 +284,6 @@ that
 the
 submenu
 is
-not
 visible
 let
 bookmarkItem
@@ -339,6 +338,7 @@ bookmarkItem
 ;
 ok
 (
+!
 popup
 .
 target
@@ -357,7 +357,6 @@ Bookmarks
 toolbar
 submenu
 should
-not
 appear
 on
 a

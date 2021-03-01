@@ -10388,6 +10388,8 @@ selectiontype
 "
 "
 none
+|
+single
 "
 )
 ;
