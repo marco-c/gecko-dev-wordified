@@ -226,7 +226,7 @@ aDoc
 ;
 sDelegates
 .
-Put
+InsertOrUpdate
 (
 aDoc
 .

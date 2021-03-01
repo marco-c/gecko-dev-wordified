@@ -5471,7 +5471,7 @@ sNextID
 ;
 mCompositables
 .
-Put
+InsertOrUpdate
 (
 id
 aCompositable

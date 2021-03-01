@@ -17995,7 +17995,7 @@ Id
 ;
 mDirectoryLockIdTable
 .
-Put
+InsertOrUpdate
 (
 aLock
 .
@@ -44759,7 +44759,7 @@ lastAccessed
 ;
 mOriginUsagesIndex
 .
-Put
+InsertOrUpdate
 (
 aOrigin
 index

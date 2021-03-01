@@ -993,7 +993,7 @@ IsValid
 {
 mHyphenators
 .
-Put
+InsertOrUpdate
 (
 aLocale
 RefPtr
@@ -1675,7 +1675,7 @@ locale
 ;
 mPatternFiles
 .
-Put
+InsertOrUpdate
 (
 localeAtom
 uri
@@ -1934,7 +1934,7 @@ get
 endif
 mPatternFiles
 .
-Put
+InsertOrUpdate
 (
 localeAtom
 uri
@@ -2085,7 +2085,7 @@ value
 ;
 mHyphAliases
 .
-Put
+InsertOrUpdate
 (
 aliasAtom
 std

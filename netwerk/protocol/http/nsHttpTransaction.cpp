@@ -7845,7 +7845,7 @@ existed
 {
 mEchRetryCounterMap
 .
-Put
+InsertOrUpdate
 (
 id
 +
@@ -21281,7 +21281,7 @@ IsEmpty
 {
 mEchRetryCounterMap
 .
-Put
+InsertOrUpdate
 (
 Telemetry
 :
@@ -21292,7 +21292,7 @@ TRANSACTION_ECH_RETRY_WITH_ECH_COUNT
 ;
 mEchRetryCounterMap
 .
-Put
+InsertOrUpdate
 (
 Telemetry
 :
@@ -21303,7 +21303,7 @@ TRANSACTION_ECH_RETRY_WITHOUT_ECH_COUNT
 ;
 mEchRetryCounterMap
 .
-Put
+InsertOrUpdate
 (
 Telemetry
 :
@@ -21314,7 +21314,7 @@ TRANSACTION_ECH_RETRY_ECH_FAILED_COUNT
 ;
 mEchRetryCounterMap
 .
-Put
+InsertOrUpdate
 (
 Telemetry
 :

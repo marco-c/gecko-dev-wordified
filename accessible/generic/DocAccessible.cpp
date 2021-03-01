@@ -4245,7 +4245,7 @@ EVENT_SCROLLING
 }
 mLastScrollingDispatch
 .
-Put
+InsertOrUpdate
 (
 aTarget
 now
@@ -9997,7 +9997,7 @@ IsNodeMapEntry
 {
 mNodeToAccessibleMap
 .
-Put
+InsertOrUpdate
 (
 aAccessible
 -
@@ -10019,7 +10019,7 @@ cache
 .
 mAccessibleCache
 .
-Put
+InsertOrUpdate
 (
 aAccessible
 -

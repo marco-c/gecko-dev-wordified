@@ -1623,7 +1623,7 @@ Name
 ;
 mEntries
 .
-Put
+InsertOrUpdate
 (
 name
 std

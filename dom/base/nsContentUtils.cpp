@@ -6582,7 +6582,7 @@ h
 sAtomEventTable
 -
 >
-Put
+InsertOrUpdate
 (
 eventArray
 [
@@ -6610,7 +6610,7 @@ i
 sStringEventTable
 -
 >
-Put
+InsertOrUpdate
 (
 Substring
 (
@@ -6762,7 +6762,7 @@ i
 sAtomEventTable
 -
 >
-Put
+InsertOrUpdate
 (
 touchEventArray
 [
@@ -6779,7 +6779,7 @@ i
 sStringEventTable
 -
 >
-Put
+InsertOrUpdate
 (
 Substring
 (
@@ -25261,7 +25261,7 @@ eUnidentifiedEvent
 sStringEventTable
 -
 >
-Put
+InsertOrUpdate
 (
 aName
 mapping
@@ -29336,7 +29336,7 @@ NODE_KEEPS_DOMARENA
 sDOMArenaHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 aNode
 RefPtr

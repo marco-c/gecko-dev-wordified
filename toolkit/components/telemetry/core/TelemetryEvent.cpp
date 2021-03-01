@@ -4017,7 +4017,7 @@ Length
 ;
 gEventNameIDMap
 .
-Put
+InsertOrUpdate
 (
 eventName
 UniquePtr
@@ -5527,7 +5527,7 @@ kExpiredEventId
 }
 gEventNameIDMap
 .
-Put
+InsertOrUpdate
 (
 UniqueEventName
 (
@@ -9162,7 +9162,7 @@ leftovers
 {
 gEventRecords
 .
-Put
+InsertOrUpdate
 (
 pair
 .

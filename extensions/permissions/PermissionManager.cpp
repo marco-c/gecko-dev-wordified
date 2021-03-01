@@ -19229,7 +19229,7 @@ return
 }
 mPermissionKeyPromiseMap
 .
-Put
+InsertOrUpdate
 (
 aPermissionKey
 RefPtr
@@ -20456,7 +20456,7 @@ __func__
 ;
 mPermissionKeyPromiseMap
 .
-Put
+InsertOrUpdate
 (
 pair
 .

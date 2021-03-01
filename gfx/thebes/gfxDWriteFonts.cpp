@@ -3286,7 +3286,7 @@ aGID
 mGlyphWidths
 -
 >
-Put
+InsertOrUpdate
 (
 aGID
 width

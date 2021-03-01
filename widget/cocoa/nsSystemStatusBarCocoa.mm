@@ -203,7 +203,7 @@ aElement
 ;
 mItems
 .
-Put
+InsertOrUpdate
 (
 keyPtr
 mozilla

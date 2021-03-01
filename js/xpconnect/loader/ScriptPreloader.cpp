@@ -4049,7 +4049,7 @@ mCachePath
 ;
 mScripts
 .
-Put
+InsertOrUpdate
 (
 cachePath
 std

@@ -8310,7 +8310,7 @@ nullptr
 sJSPluginContentParents
 -
 >
-Put
+InsertOrUpdate
 (
 aPluginID
 p
@@ -38925,7 +38925,7 @@ IPC_OK
 }
 mGetFilesPendingRequests
 .
-Put
+InsertOrUpdate
 (
 aUUID
 std

@@ -1264,7 +1264,7 @@ type
 ;
 mExtToTypeMap
 .
-Put
+InsertOrUpdate
 (
 nsCString
 (

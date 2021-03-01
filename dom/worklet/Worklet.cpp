@@ -2817,7 +2817,7 @@ NS_IsMainThread
 ;
 mImportHandlers
 .
-Put
+InsertOrUpdate
 (
 aURI
 RefPtr

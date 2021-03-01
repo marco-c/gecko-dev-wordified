@@ -9931,7 +9931,7 @@ psname
 ;
 mLocalNameTable
 .
-Put
+InsertOrUpdate
 (
 psname
 fontlist
@@ -9983,7 +9983,7 @@ psname
 {
 mLocalNameTable
 .
-Put
+InsertOrUpdate
 (
 fullname
 fontlist
@@ -12209,7 +12209,7 @@ SetBadUnderlineFamily
 }
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 name
 RefPtr
@@ -12802,7 +12802,7 @@ true
 {
 mSubstitutions
 .
-Put
+InsertOrUpdate
 (
 substituteName
 MakeUnique
@@ -12828,7 +12828,7 @@ actualFontName
 {
 mSubstitutions
 .
-Put
+InsertOrUpdate
 (
 substituteName
 MakeUnique
@@ -12888,7 +12888,7 @@ actualFontName
 {
 mFontSubstitutes
 .
-Put
+InsertOrUpdate
 (
 substituteName
 RefPtr
@@ -13138,7 +13138,7 @@ true
 {
 mSubstitutions
 .
-Put
+InsertOrUpdate
 (
 substituteName
 MakeUnique
@@ -13237,7 +13237,7 @@ actualFontName
 {
 mFontSubstitutes
 .
-Put
+InsertOrUpdate
 (
 substituteName
 RefPtr
@@ -15345,7 +15345,7 @@ haveData
 {
 mFontFaceData
 .
-Put
+InsertOrUpdate
 (
 fullID
 fontData

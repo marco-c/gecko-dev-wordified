@@ -290,7 +290,7 @@ else
 {
 mWriteInfos
 .
-Put
+InsertOrUpdate
 (
 aKey
 MakeUnique

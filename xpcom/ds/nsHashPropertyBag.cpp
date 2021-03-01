@@ -411,7 +411,7 @@ NS_ERROR_INVALID_ARG
 }
 mPropertyHash
 .
-Put
+InsertOrUpdate
 (
 aName
 aValue

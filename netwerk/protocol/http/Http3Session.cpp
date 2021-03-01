@@ -4919,7 +4919,7 @@ this
 ;
 mStreamTransactionHash
 .
-Put
+InsertOrUpdate
 (
 aHttpTransaction
 RefPtr
@@ -5827,7 +5827,7 @@ aStreamId
 }
 mStreamIdHash
 .
-Put
+InsertOrUpdate
 (
 *
 aStreamId
@@ -10261,7 +10261,7 @@ joinedReturn
 ;
 mJoinConnectionCache
 .
-Put
+InsertOrUpdate
 (
 key
 joinedReturn
@@ -10331,7 +10331,7 @@ key2
 {
 mJoinConnectionCache
 .
-Put
+InsertOrUpdate
 (
 key2
 joinedReturn

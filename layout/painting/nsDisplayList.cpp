@@ -4460,7 +4460,7 @@ mRootAGR
 ;
 mFrameToAnimatedGeometryRootMap
 .
-Put
+InsertOrUpdate
 (
 mReferenceFrame
 mRootAGR
@@ -5278,7 +5278,7 @@ IsRetainingDisplayList
 ;
 mFrameToAnimatedGeometryRootMap
 .
-Put
+InsertOrUpdate
 (
 aAnimatedGeometryRoot
 result
@@ -5431,7 +5431,7 @@ isAsync
 ;
 mFrameToAnimatedGeometryRootMap
 .
-Put
+InsertOrUpdate
 (
 aFrame
 result
@@ -12583,7 +12583,7 @@ cost
 ;
 mFrameWillChangeBudgets
 .
-Put
+InsertOrUpdate
 (
 aFrame
 FrameWillChangeBudget

@@ -1692,7 +1692,7 @@ numResultsRequired
 ;
 mAggregatedResults
 .
-Put
+InsertOrUpdate
 (
 uuid
 std

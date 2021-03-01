@@ -1736,7 +1736,7 @@ gMutex
 ;
 gBoolScalars
 .
-Put
+InsertOrUpdate
 (
 aName
 aValue
@@ -1769,7 +1769,7 @@ gMutex
 ;
 gStringScalars
 .
-Put
+InsertOrUpdate
 (
 aName
 aValue
@@ -1800,7 +1800,7 @@ gMutex
 ;
 gUintScalars
 .
-Put
+InsertOrUpdate
 (
 aName
 aValue

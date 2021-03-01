@@ -3418,7 +3418,7 @@ mURI
 ;
 mFetchingModules
 .
-Put
+InsertOrUpdate
 (
 aRequest
 -
@@ -3605,7 +3605,7 @@ moduleScript
 ;
 mFetchedModules
 .
-Put
+InsertOrUpdate
 (
 aRequest
 -

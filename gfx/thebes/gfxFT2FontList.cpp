@@ -4685,7 +4685,7 @@ faceList
 =
 mFaceInitData
 .
-Put
+InsertOrUpdate
 (
 key
 MakeUnique
@@ -4818,7 +4818,7 @@ psname
 ;
 mLocalNameTable
 .
-Put
+InsertOrUpdate
 (
 psname
 fontlist
@@ -4864,7 +4864,7 @@ psname
 {
 mLocalNameTable
 .
-Put
+InsertOrUpdate
 (
 fullname
 fontlist
@@ -9117,7 +9117,7 @@ visibility
 ;
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 familyKey
 RefPtr
@@ -11237,7 +11237,7 @@ visibility
 ;
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 key
 RefPtr

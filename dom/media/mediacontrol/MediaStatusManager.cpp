@@ -464,7 +464,7 @@ aBrowsingContextId
 ;
 mMediaSessionInfoMap
 .
-Put
+InsertOrUpdate
 (
 aBrowsingContextId
 MediaSessionInfo

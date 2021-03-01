@@ -2677,7 +2677,7 @@ voice
 ;
 mUriVoiceMap
 .
-Put
+InsertOrUpdate
 (
 aUri
 std

@@ -2837,7 +2837,7 @@ terminators
 gOriginToIndexMap
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentCString
 (
@@ -2852,7 +2852,7 @@ i
 gHashToIndexMap
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentCString
 (
@@ -2882,7 +2882,7 @@ origins
 gOriginToIndexMap
 -
 >
-Put
+InsertOrUpdate
 (
 kUnknownOrigin
 gOriginHashesList
@@ -3566,7 +3566,7 @@ Next
 {
 bag
 .
-Put
+InsertOrUpdate
 (
 originIt
 .

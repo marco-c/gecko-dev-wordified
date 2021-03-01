@@ -3038,7 +3038,7 @@ Clear
 }
 mPatternCache
 .
-Put
+InsertOrUpdate
 (
 key
 pattern

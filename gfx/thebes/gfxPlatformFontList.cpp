@@ -2647,7 +2647,7 @@ fontFamilyName
 ;
 mFontFamilies
 .
-Put
+InsertOrUpdate
 (
 fontFamilyName
 std
@@ -3146,7 +3146,7 @@ directly
 here
 mOtherFamilyNames
 .
-Put
+InsertOrUpdate
 (
 key
 RefPtr
@@ -10959,7 +10959,7 @@ key
 {
 mOtherFamilyNames
 .
-Put
+InsertOrUpdate
 (
 key
 RefPtr
@@ -11064,7 +11064,7 @@ mExtraNames
 >
 mFullnames
 .
-Put
+InsertOrUpdate
 (
 aFullname
 RefPtr
@@ -11147,7 +11147,7 @@ mExtraNames
 >
 mPostscriptNames
 .
-Put
+InsertOrUpdate
 (
 aPostscriptName
 RefPtr

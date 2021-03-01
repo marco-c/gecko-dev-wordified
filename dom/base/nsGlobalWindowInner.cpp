@@ -6543,7 +6543,7 @@ sInnerWindowsById
 sInnerWindowsById
 -
 >
-Put
+InsertOrUpdate
 (
 mWindowID
 this
@@ -40944,7 +40944,7 @@ index
 ;
 mGamepads
 .
-Put
+InsertOrUpdate
 (
 aHandle
 RefPtr

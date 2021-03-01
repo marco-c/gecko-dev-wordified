@@ -524,7 +524,7 @@ pointers
 sActivePointersIds
 -
 >
-Put
+InsertOrUpdate
 (
 aEvent
 -
@@ -627,7 +627,7 @@ usage
 sActivePointersIds
 -
 >
-Put
+InsertOrUpdate
 (
 pointerEvent
 -
@@ -765,7 +765,7 @@ MOZ_SOURCE_TOUCH
 sActivePointersIds
 -
 >
-Put
+InsertOrUpdate
 (
 pointerEvent
 -
@@ -1302,7 +1302,7 @@ false
 sPointerCaptureRemoteTargetTable
 -
 >
-Put
+InsertOrUpdate
 (
 aPointerId
 aBrowserParent

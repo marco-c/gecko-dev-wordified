@@ -3270,7 +3270,7 @@ glyph
 mGlyphIDs
 -
 >
-Put
+InsertOrUpdate
 (
 aUnicode
 glyph
@@ -3408,7 +3408,7 @@ devWidth
 mGlyphWidths
 -
 >
-Put
+InsertOrUpdate
 (
 aGID
 width

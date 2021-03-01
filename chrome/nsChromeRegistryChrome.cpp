@@ -3809,7 +3809,7 @@ return
 }
 mOverrideTable
 .
-Put
+InsertOrUpdate
 (
 chromeuri
 resolveduri

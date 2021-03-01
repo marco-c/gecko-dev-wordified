@@ -405,7 +405,7 @@ aTargetTopContextId
 sManagers
 -
 >
-Put
+InsertOrUpdate
 (
 aTargetTopContextId
 std
@@ -510,7 +510,7 @@ table
 =
 mOATable
 .
-Put
+InsertOrUpdate
 (
 aOriginAttrs
 MakeUnique
@@ -602,7 +602,7 @@ originRecord
 table
 -
 >
-Put
+InsertOrUpdate
 (
 aOriginKey
 std

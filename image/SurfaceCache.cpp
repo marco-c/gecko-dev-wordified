@@ -2181,7 +2181,7 @@ image
 return
 mSurfaces
 .
-Put
+InsertOrUpdate
 (
 aSurface
 -
@@ -6121,7 +6121,7 @@ if
 !
 mImageCaches
 .
-Put
+InsertOrUpdate
 (
 aProvider
 -
@@ -7928,7 +7928,7 @@ aImageKey
 ;
 mImageCaches
 .
-Put
+InsertOrUpdate
 (
 aImageKey
 RefPtr

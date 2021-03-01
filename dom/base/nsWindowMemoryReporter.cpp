@@ -1521,7 +1521,7 @@ WindowID
 aTopWindowPaths
 -
 >
-Put
+InsertOrUpdate
 (
 aWindow
 -
@@ -1687,7 +1687,7 @@ later
 aWindowPaths
 -
 >
-Put
+InsertOrUpdate
 (
 aWindow
 -
@@ -5180,7 +5180,7 @@ return
 }
 mDetachedWindows
 .
-Put
+InsertOrUpdate
 (
 weakWindow
 TimeStamp

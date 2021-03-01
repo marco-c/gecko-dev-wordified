@@ -410,7 +410,7 @@ AssertCurrentThreadOwns
 ;
 mLiveSet
 .
-Put
+InsertOrUpdate
 (
 aKey
 RefPtr

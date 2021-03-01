@@ -826,7 +826,7 @@ Next
 {
 mMap
 .
-Put
+InsertOrUpdate
 (
 iter
 .
@@ -1308,7 +1308,7 @@ aPerms
 ;
 mMap
 .
-Put
+InsertOrUpdate
 (
 path
 perms
@@ -1829,7 +1829,7 @@ newPerms
 }
 mMap
 .
-Put
+InsertOrUpdate
 (
 aPath
 newPerms
@@ -2574,7 +2574,7 @@ newPerms
 }
 mMap
 .
-Put
+InsertOrUpdate
 (
 path
 newPerms
@@ -6749,7 +6749,7 @@ get
 }
 mSymlinkMap
 .
-Put
+InsertOrUpdate
 (
 xlat
 orig
@@ -6882,7 +6882,7 @@ get
 }
 mSymlinkMap
 .
-Put
+InsertOrUpdate
 (
 resolvedXlat
 orig

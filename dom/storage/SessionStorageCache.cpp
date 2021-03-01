@@ -1033,7 +1033,7 @@ dataSet
 >
 mKeys
 .
-Put
+InsertOrUpdate
 (
 aKey
 nsString
@@ -1335,7 +1335,7 @@ mDefaultSet
 .
 mKeys
 .
-Put
+InsertOrUpdate
 (
 iter
 .
@@ -1416,7 +1416,7 @@ mSessionSet
 .
 mKeys
 .
-Put
+InsertOrUpdate
 (
 iter
 .

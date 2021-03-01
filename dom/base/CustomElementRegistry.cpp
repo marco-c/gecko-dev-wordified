@@ -3486,7 +3486,7 @@ get
 ;
 mCandidates
 .
-Put
+InsertOrUpdate
 (
 key
 elem
@@ -6317,7 +6317,7 @@ get
 ;
 mCustomDefinitions
 .
-Put
+InsertOrUpdate
 (
 nameAtom
 std
@@ -6697,7 +6697,7 @@ aCallback
 ;
 mElementCreationCallbacks
 .
-Put
+InsertOrUpdate
 (
 nameAtom
 std

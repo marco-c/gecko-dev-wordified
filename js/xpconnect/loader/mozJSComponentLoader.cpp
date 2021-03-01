@@ -2567,7 +2567,7 @@ for
 later
 mModules
 .
-Put
+InsertOrUpdate
 (
 spec
 entry
@@ -7848,7 +7848,7 @@ NS_ERROR_UNEXPECTED
 }
 mLocations
 .
-Put
+InsertOrUpdate
 (
 newEntry
 -
@@ -7876,7 +7876,7 @@ aCx
 {
 mInProgressImports
 .
-Put
+InsertOrUpdate
 (
 info
 .
@@ -8199,7 +8199,7 @@ newEntry
 {
 mImports
 .
-Put
+InsertOrUpdate
 (
 info
 .

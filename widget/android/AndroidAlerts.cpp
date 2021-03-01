@@ -571,7 +571,7 @@ name
 sListenerMap
 -
 >
-Put
+InsertOrUpdate
 (
 name
 aAlertListener
@@ -641,7 +641,7 @@ notification
 }
 mNotificationsMap
 .
-Put
+InsertOrUpdate
 (
 name
 notification

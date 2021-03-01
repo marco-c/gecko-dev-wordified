@@ -2989,7 +2989,7 @@ filter
 ;
 imageTable
 .
-Put
+InsertOrUpdate
 (
 str
 primitiveDescrIndex

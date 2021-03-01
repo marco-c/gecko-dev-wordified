@@ -7017,7 +7017,7 @@ len
 ;
 mCachedData
 .
-Put
+InsertOrUpdate
 (
 flavor
 std
@@ -7056,7 +7056,7 @@ mTargetDragDataLen
 ;
 mCachedData
 .
-Put
+InsertOrUpdate
 (
 flavor
 nsTArray

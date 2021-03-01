@@ -5115,7 +5115,7 @@ SetAutoShutdown
 ;
 mCustomOfflineDevices
 .
-Put
+InsertOrUpdate
 (
 profilePath
 RefPtr

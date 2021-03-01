@@ -528,7 +528,7 @@ aRes
 ;
 mStates
 .
-Put
+InsertOrUpdate
 (
 nsCString
 (
@@ -566,7 +566,7 @@ aState
 {
 mStates
 .
-Put
+InsertOrUpdate
 (
 aStateKey
 std

@@ -9194,7 +9194,7 @@ data
 =
 mRegistrationInfos
 .
-Put
+InsertOrUpdate
 (
 aKey
 MakeUnique
@@ -10990,7 +10990,7 @@ data
 >
 mInfos
 .
-Put
+InsertOrUpdate
 (
 aScope
 RefPtr

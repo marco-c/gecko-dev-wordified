@@ -2960,7 +2960,7 @@ AssertInvariant
 ;
 mTLSIntoleranceInfo
 .
-Put
+InsertOrUpdate
 (
 key
 entry
@@ -3038,7 +3038,7 @@ AssertInvariant
 ;
 mTLSIntoleranceInfo
 .
-Put
+InsertOrUpdate
 (
 key
 entry
@@ -3293,7 +3293,7 @@ AssertInvariant
 ;
 mTLSIntoleranceInfo
 .
-Put
+InsertOrUpdate
 (
 key
 entry

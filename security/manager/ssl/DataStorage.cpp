@@ -823,7 +823,7 @@ aFilename
 sDataStorages
 -
 >
-Put
+InsertOrUpdate
 (
 aFilename
 RefPtr
@@ -3295,7 +3295,7 @@ mDataStorage
 >
 mPersistentDataTable
 .
-Put
+InsertOrUpdate
 (
 key
 entry
@@ -5334,7 +5334,7 @@ aProofOfLock
 ;
 table
 .
-Put
+InsertOrUpdate
 (
 aKey
 aEntry

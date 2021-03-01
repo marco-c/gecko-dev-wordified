@@ -1176,7 +1176,7 @@ mLock
 ;
 mOrdering
 .
-Put
+InsertOrUpdate
 (
 aResource
 MakeUnique

@@ -1210,7 +1210,7 @@ aForm
 gOperatorTable
 -
 >
-Put
+InsertOrUpdate
 (
 value
 aOperatorData

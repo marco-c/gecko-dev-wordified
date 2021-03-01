@@ -1327,7 +1327,7 @@ blobImpl
 ;
 refCounts
 .
-Put
+InsertOrUpdate
 (
 blobImpl
 refCounts
@@ -3284,7 +3284,7 @@ get
 gDataTable
 -
 >
-Put
+InsertOrUpdate
 (
 aURI
 std

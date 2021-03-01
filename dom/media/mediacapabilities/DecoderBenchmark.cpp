@@ -1409,7 +1409,7 @@ is
 *
 decoderVersionTable
 .
-Put
+InsertOrUpdate
 (
 "
 video

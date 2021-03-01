@@ -506,7 +506,7 @@ skin
 ;
 mPackagesHash
 .
-Put
+InsertOrUpdate
 (
 aPackage
 .
@@ -746,7 +746,7 @@ return
 ;
 mOverrideTable
 .
-Put
+InsertOrUpdate
 (
 chromeURI
 overrideURI

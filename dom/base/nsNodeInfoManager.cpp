@@ -878,7 +878,7 @@ don
 '
 t
 use
-LookupForAdd
+WithEntryHandle
 here
 as
 that
@@ -887,9 +887,9 @@ end
 up
 storing
 the
+/
+/
 temporary
-/
-/
 key
 instead
 of
@@ -949,7 +949,7 @@ this
 ;
 mNodeInfoHash
 .
-Put
+InsertOrUpdate
 (
 &
 nodeInfo
@@ -1182,7 +1182,7 @@ this
 ;
 mNodeInfoHash
 .
-Put
+InsertOrUpdate
 (
 &
 nodeInfo

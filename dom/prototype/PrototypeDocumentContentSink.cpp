@@ -7259,7 +7259,7 @@ mDocument
 >
 mL10nProtoElements
 .
-Put
+InsertOrUpdate
 (
 result
 RefPtr

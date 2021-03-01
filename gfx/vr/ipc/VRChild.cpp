@@ -240,7 +240,7 @@ aPath
 {
 mManifest
 .
-Put
+InsertOrUpdate
 (
 static_cast
 <

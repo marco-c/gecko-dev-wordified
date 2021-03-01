@@ -221,7 +221,7 @@ else
 {
 mCallbacks
 .
-Put
+InsertOrUpdate
 (
 aIdentifier
 std
@@ -304,7 +304,7 @@ else
 {
 mChannelArgs
 .
-Put
+InsertOrUpdate
 (
 aIdentifier
 CallbackArgs

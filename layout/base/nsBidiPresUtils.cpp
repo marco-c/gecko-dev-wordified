@@ -2762,7 +2762,7 @@ aContent
 {
 mContentToFrameIndex
 .
-Put
+InsertOrUpdate
 (
 aContent
 FrameCount

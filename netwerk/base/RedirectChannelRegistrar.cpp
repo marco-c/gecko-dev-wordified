@@ -214,7 +214,7 @@ mLock
 ;
 mRealChannels
 .
-Put
+InsertOrUpdate
 (
 id
 channel
@@ -301,7 +301,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 mParentChannels
 .
-Put
+InsertOrUpdate
 (
 id
 channel

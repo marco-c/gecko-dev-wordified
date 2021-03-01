@@ -437,7 +437,7 @@ mNextState
 mTransitionTable
 -
 >
-Put
+InsertOrUpdate
 (
 transition
 currState
@@ -515,7 +515,7 @@ mNextState
 mTransitionTable
 -
 >
-Put
+InsertOrUpdate
 (
 transition
 currState
@@ -822,7 +822,7 @@ get
 mCache
 -
 >
-Put
+InsertOrUpdate
 (
 currState
 std

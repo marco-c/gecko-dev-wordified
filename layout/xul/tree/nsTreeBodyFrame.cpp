@@ -12428,7 +12428,7 @@ imgNotificationObserver
 ;
 mImageCache
 .
-Put
+InsertOrUpdate
 (
 imageSrc
 cacheEntry

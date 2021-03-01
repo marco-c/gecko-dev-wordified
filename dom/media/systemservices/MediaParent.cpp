@@ -507,7 +507,7 @@ key
 =
 mKeys
 .
-Put
+InsertOrUpdate
 (
 principalString
 MakeUnique
@@ -1593,7 +1593,7 @@ continue
 }
 mKeys
 .
-Put
+InsertOrUpdate
 (
 origin
 MakeUnique

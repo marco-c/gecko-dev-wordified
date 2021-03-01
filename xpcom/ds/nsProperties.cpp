@@ -310,7 +310,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-Put
+InsertOrUpdate
 (
 prop
 value

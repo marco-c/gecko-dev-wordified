@@ -1168,7 +1168,7 @@ old
 value
 mPrototypeTable
 .
-Put
+InsertOrUpdate
 (
 uri
 RefPtr
@@ -1233,7 +1233,7 @@ GetSheetURI
 ;
 mStyleSheetTable
 .
-Put
+InsertOrUpdate
 (
 uri
 std
@@ -1712,7 +1712,7 @@ rv
 ;
 mInputStreamTable
 .
-Put
+InsertOrUpdate
 (
 uri
 ois
@@ -1891,7 +1891,7 @@ rv
 ;
 mOutputStreamTable
 .
-Put
+InsertOrUpdate
 (
 uri
 storageStream

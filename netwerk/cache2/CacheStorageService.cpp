@@ -6106,7 +6106,7 @@ aEntry
 aEntries
 -
 >
-Put
+InsertOrUpdate
 (
 aKey
 RefPtr
@@ -6618,7 +6618,7 @@ entries
 sGlobalEntryTables
 -
 >
-Put
+InsertOrUpdate
 (
 memoryStorageID
 MakeUnique
@@ -6927,7 +6927,7 @@ aSecondsToTheFuture
 ;
 mForcedValidEntries
 .
-Put
+InsertOrUpdate
 (
 aContextKey
 +
@@ -9247,7 +9247,7 @@ aPin
 entries
 -
 >
-Put
+InsertOrUpdate
 (
 entryKey
 RefPtr
@@ -12735,7 +12735,7 @@ now
 ;
 mPurgeTimeStamps
 .
-Put
+InsertOrUpdate
 (
 key
 now

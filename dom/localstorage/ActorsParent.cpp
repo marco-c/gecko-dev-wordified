@@ -16570,7 +16570,7 @@ NS_ERROR_FAILURE
 archivedOrigins
 -
 >
-Put
+InsertOrUpdate
 (
 hashKey
 MakeUnique
@@ -24308,7 +24308,7 @@ aDatabaseWasNotAvailable
 ;
 mConnections
 .
-Put
+InsertOrUpdate
 (
 aOriginMetadata
 .
@@ -27118,7 +27118,7 @@ isNewItem
 ;
 mValues
 .
-Put
+InsertOrUpdate
 (
 aKey
 aValue
@@ -40772,7 +40772,7 @@ Origin
 gDatastores
 -
 >
-Put
+InsertOrUpdate
 (
 Origin
 (
@@ -40840,7 +40840,7 @@ mDatastore
 gPrivateDatastores
 -
 >
-Put
+InsertOrUpdate
 (
 Origin
 (
@@ -40890,7 +40890,7 @@ preparedDatastore
 gPreparedDatastores
 -
 >
-Put
+InsertOrUpdate
 (
 mDatastoreId
 MakeUnique
@@ -41850,7 +41850,7 @@ mPrepareDatastoreOp
 >
 mValues
 .
-Put
+InsertOrUpdate
 (
 key
 value
@@ -42916,7 +42916,7 @@ PreparedObserverHashtable
 gPreparedObsevers
 -
 >
-Put
+InsertOrUpdate
 (
 observerId
 std

@@ -5345,7 +5345,7 @@ return
 }
 mAddonEntries
 .
-Put
+InsertOrUpdate
 (
 aAddon
 .

@@ -10963,7 +10963,7 @@ entry
 ;
 mScriptableObjects
 .
-Put
+InsertOrUpdate
 (
 aObject
 aActor
@@ -12140,7 +12140,7 @@ shutdown
 sPluginInstanceList
 -
 >
-Put
+InsertOrUpdate
 (
 (
 void

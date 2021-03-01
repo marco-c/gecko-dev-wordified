@@ -762,7 +762,7 @@ aId
 ;
 mAnimatedValues
 .
-Put
+InsertOrUpdate
 (
 aId
 MakeUnique
@@ -874,7 +874,7 @@ aId
 ;
 mAnimatedValues
 .
-Put
+InsertOrUpdate
 (
 aId
 MakeUnique
@@ -966,7 +966,7 @@ aId
 ;
 mAnimatedValues
 .
-Put
+InsertOrUpdate
 (
 aId
 MakeUnique
@@ -1054,7 +1054,7 @@ aId
 ;
 mAnimatedValues
 .
-Put
+InsertOrUpdate
 (
 aId
 MakeUnique

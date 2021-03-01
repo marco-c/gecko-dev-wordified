@@ -447,7 +447,7 @@ found
 {
 mChannels
 .
-Put
+InsertOrUpdate
 (
 aKey
 RefPtr
@@ -524,7 +524,7 @@ found
 {
 mBgChannels
 .
-Put
+InsertOrUpdate
 (
 aKey
 RefPtr

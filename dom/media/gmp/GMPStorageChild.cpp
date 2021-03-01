@@ -579,7 +579,7 @@ aClient
 ;
 mRecords
 .
-Put
+InsertOrUpdate
 (
 aRecordName
 RefPtr

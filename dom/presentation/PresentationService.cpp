@@ -2693,7 +2693,7 @@ rv
 }
 mSessionInfoAtReceiver
 .
-Put
+InsertOrUpdate
 (
 sessionId
 RefPtr
@@ -3947,7 +3947,7 @@ aSessionId
 ;
 mSessionInfoAtController
 .
-Put
+InsertOrUpdate
 (
 aSessionId
 RefPtr
@@ -5440,7 +5440,7 @@ id
 }
 mRespondingListeners
 .
-Put
+InsertOrUpdate
 (
 aWindowId
 RefPtr

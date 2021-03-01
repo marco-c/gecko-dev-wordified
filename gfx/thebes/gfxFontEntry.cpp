@@ -5618,7 +5618,7 @@ face
 mSupportedFeatures
 -
 >
-Put
+InsertOrUpdate
 (
 scriptFeature
 result
@@ -5965,7 +5965,7 @@ face
 mFeatureInputs
 -
 >
-Put
+InsertOrUpdate
 (
 scriptFeature
 inputGlyphs
@@ -6248,7 +6248,7 @@ face
 mSupportedFeatures
 -
 >
-Put
+InsertOrUpdate
 (
 scriptFeature
 result

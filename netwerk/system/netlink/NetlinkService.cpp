@@ -5120,7 +5120,7 @@ linkInfo
 =
 mLinks
 .
-Put
+InsertOrUpdate
 (
 linkIndex
 MakeUnique
@@ -7354,7 +7354,7 @@ linkInfo
 >
 mNeighbors
 .
-Put
+InsertOrUpdate
 (
 key
 std

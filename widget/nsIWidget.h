@@ -1667,7 +1667,7 @@ sObserverId
 ;
 sSavedObservers
 .
-Put
+InsertOrUpdate
 (
 observerId
 mObserver

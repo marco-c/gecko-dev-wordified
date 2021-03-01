@@ -2087,7 +2087,7 @@ nullptr
 }
 mPatternCache
 .
-Put
+InsertOrUpdate
 (
 aOpacity
 RefPtr

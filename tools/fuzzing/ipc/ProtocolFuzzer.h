@@ -237,7 +237,7 @@ aProtocol
 >
 mShmemMap
 .
-Put
+InsertOrUpdate
 (
 aId
 aSegment

@@ -4240,7 +4240,7 @@ GetContentMap
 (
 )
 .
-Put
+InsertOrUpdate
 (
 scrollId
 aContent
@@ -50724,7 +50724,7 @@ mMatchType
 ;
 aFontFaces
 .
-Put
+InsertOrUpdate
 (
 fe
 fontFace

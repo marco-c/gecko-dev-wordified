@@ -3388,7 +3388,7 @@ aMsgName
 ;
 warnings
 .
-Put
+InsertOrUpdate
 (
 aMsgName
 true

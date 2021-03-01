@@ -1039,7 +1039,7 @@ sInstance
 >
 mSurfaces
 .
-Put
+InsertOrUpdate
 (
 id
 std
@@ -1466,7 +1466,7 @@ sInstance
 >
 mSurfaces
 .
-Put
+InsertOrUpdate
 (
 id
 std

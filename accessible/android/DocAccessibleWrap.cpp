@@ -975,7 +975,7 @@ break
 }
 inViewAccs
 .
-Put
+InsertOrUpdate
 (
 acc
 -
@@ -1934,7 +1934,7 @@ attributes
 ;
 mFocusPath
 .
-Put
+InsertOrUpdate
 (
 acc
 -
@@ -2031,7 +2031,7 @@ acc
 ;
 mFocusPath
 .
-Put
+InsertOrUpdate
 (
 acc
 -

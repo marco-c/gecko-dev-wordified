@@ -4567,7 +4567,7 @@ ID
 ;
 mEventTargetMap
 .
-Put
+InsertOrUpdate
 (
 id
 target
@@ -4630,7 +4630,7 @@ ID
 ;
 mActorMap
 .
-Put
+InsertOrUpdate
 (
 aId
 aRouted
@@ -4963,7 +4963,7 @@ ID
 ;
 mShmemMap
 .
-Put
+InsertOrUpdate
 (
 *
 aId
@@ -5330,7 +5330,7 @@ ID
 ;
 mShmemMap
 .
-Put
+InsertOrUpdate
 (
 id
 rawmem
@@ -5633,7 +5633,7 @@ DEBUG
 /
 mEventTargetMap
 .
-Put
+InsertOrUpdate
 (
 handle
 .
@@ -5926,7 +5926,7 @@ mapped
 .
 mEventTargetMap
 .
-Put
+InsertOrUpdate
 (
 id
 aEventTarget
@@ -6027,7 +6027,7 @@ ID
 ;
 mEventTargetMap
 .
-Put
+InsertOrUpdate
 (
 id
 aEventTarget

@@ -5202,7 +5202,7 @@ null
 ;
 mObserversHash
 .
-Put
+InsertOrUpdate
 (
 aObserverKey
 aObserver

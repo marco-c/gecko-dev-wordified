@@ -1036,7 +1036,7 @@ return
 }
 mHashEntries
 .
-Put
+InsertOrUpdate
 (
 aValue
 -

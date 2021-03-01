@@ -11849,7 +11849,7 @@ isWorthCaching
 {
 mInlineSheets
 .
-Put
+InsertOrUpdate
 (
 aBuffer
 std

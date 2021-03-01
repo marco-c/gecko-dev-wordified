@@ -1322,7 +1322,7 @@ listener
 {
 mSessionListeners
 .
-Put
+InsertOrUpdate
 (
 aSessionId
 RefPtr
@@ -1337,7 +1337,7 @@ NS_OK
 }
 mSessionListeners
 .
-Put
+InsertOrUpdate
 (
 aSessionId
 RefPtr
@@ -1460,7 +1460,7 @@ NS_IsMainThread
 ;
 mRespondingListeners
 .
-Put
+InsertOrUpdate
 (
 aWindowId
 RefPtr
@@ -1609,7 +1609,7 @@ ROLE_CONTROLLER
 {
 mSessionInfoAtController
 .
-Put
+InsertOrUpdate
 (
 aSessionId
 std
@@ -1626,7 +1626,7 @@ else
 {
 mSessionInfoAtReceiver
 .
-Put
+InsertOrUpdate
 (
 aSessionId
 std

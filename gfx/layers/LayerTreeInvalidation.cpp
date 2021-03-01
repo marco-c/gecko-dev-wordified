@@ -2934,7 +2934,7 @@ CheckCanary
 ;
 oldIndexMap
 .
-Put
+InsertOrUpdate
 (
 mChildren
 [

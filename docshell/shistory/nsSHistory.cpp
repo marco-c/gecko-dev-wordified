@@ -6113,7 +6113,7 @@ BCHistoryLength
 }
 aHashtable
 .
-Put
+InsertOrUpdate
 (
 aEntry
 -
@@ -12811,7 +12811,7 @@ aEntry
 {
 aHashtable
 .
-Put
+InsertOrUpdate
 (
 aEntry
 -

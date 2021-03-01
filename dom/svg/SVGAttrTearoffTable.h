@@ -502,7 +502,7 @@ return
 mTable
 -
 >
-Put
+InsertOrUpdate
 (
 aSimple
 aTearoff

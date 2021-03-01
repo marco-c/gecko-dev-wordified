@@ -1675,7 +1675,7 @@ popup
 ;
 mPopups
 .
-Put
+InsertOrUpdate
 (
 aDocument
 popup
@@ -1842,7 +1842,7 @@ NS_OK
 }
 mPwmgrInputs
 .
-Put
+InsertOrUpdate
 (
 aInput
 true
@@ -2008,7 +2008,7 @@ NS_OK
 }
 mAutofillInputs
 .
-Put
+InsertOrUpdate
 (
 aInput
 true

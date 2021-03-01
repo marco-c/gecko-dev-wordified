@@ -11011,7 +11011,7 @@ PR_Now
 ;
 mRecentlyVisitedURIs
 .
-Put
+InsertOrUpdate
 (
 aURI
 RecentURIVisit

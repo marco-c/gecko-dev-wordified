@@ -325,7 +325,7 @@ entryName
 ;
 mHash
 .
-Put
+InsertOrUpdate
 (
 entryName
 service
@@ -829,7 +829,7 @@ service
 {
 mHash
 .
-Put
+InsertOrUpdate
 (
 str
 service

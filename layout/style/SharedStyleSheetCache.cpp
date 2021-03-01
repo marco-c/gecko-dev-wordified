@@ -1931,7 +1931,7 @@ true
 ;
 mPendingDatas
 .
-Put
+InsertOrUpdate
 (
 aKey
 RefPtr
@@ -2006,7 +2006,7 @@ true
 ;
 mLoadingDatas
 .
-Put
+InsertOrUpdate
 (
 aKey
 &
@@ -3679,7 +3679,7 @@ get
 }
 mCompleteSheets
 .
-Put
+InsertOrUpdate
 (
 key
 CompleteSheet

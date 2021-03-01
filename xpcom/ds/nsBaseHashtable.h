@@ -1575,7 +1575,7 @@ U
 >
 DataType
 &
-Put
+InsertOrUpdate
 (
 KeyType
 aKey
@@ -1634,7 +1634,7 @@ nodiscard
 ]
 ]
 bool
-Put
+InsertOrUpdate
 (
 KeyType
 aKey

@@ -1724,7 +1724,7 @@ aCommandStr
 sCommandHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 #
 aCommandStr
@@ -8504,7 +8504,7 @@ i
 sKeyNameIndexHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentString
 (
@@ -8599,7 +8599,7 @@ i
 sCodeNameIndexHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentString
 (
@@ -12010,7 +12010,7 @@ i
 sInputTypeHashtable
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentString
 (

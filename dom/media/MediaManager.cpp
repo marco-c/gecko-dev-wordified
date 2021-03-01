@@ -18802,7 +18802,7 @@ self
 >
 mActiveCallbacks
 .
-Put
+InsertOrUpdate
 (
 callID
 std
@@ -22628,7 +22628,7 @@ GetActiveWindows
 )
 -
 >
-Put
+InsertOrUpdate
 (
 aWindowId
 std

@@ -582,7 +582,7 @@ aAlertName
 ;
 mActiveListeners
 .
-Put
+InsertOrUpdate
 (
 aAlertName
 aListener

@@ -10526,7 +10526,7 @@ sOuterWindowsById
 sOuterWindowsById
 -
 >
-Put
+InsertOrUpdate
 (
 mWindowID
 this

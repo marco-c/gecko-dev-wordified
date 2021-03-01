@@ -3703,7 +3703,7 @@ nullptr
 ;
 mGamepadPromiseList
 .
-Put
+InsertOrUpdate
 (
 aID
 RefPtr

@@ -13454,7 +13454,7 @@ aReporter
 mStrongReporters
 -
 >
-Put
+InsertOrUpdate
 (
 aReporter
 aIsAsync
@@ -13560,7 +13560,7 @@ NS_ERROR_XPC_BAD_CONVERT_JS
 mWeakReporters
 -
 >
-Put
+InsertOrUpdate
 (
 aReporter
 aIsAsync

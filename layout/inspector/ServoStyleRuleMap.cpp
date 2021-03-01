@@ -732,7 +732,7 @@ aRule
 ;
 mTable
 .
-Put
+InsertOrUpdate
 (
 rule
 .

@@ -343,7 +343,7 @@ aID
 ;
 mPromiseList
 .
-Put
+InsertOrUpdate
 (
 aID
 RefPtr

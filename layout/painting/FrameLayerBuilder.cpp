@@ -20854,7 +20854,7 @@ node
 ;
 mNodes
 .
-Put
+InsertOrUpdate
 (
 aAnimatedGeometryRoot
 node
@@ -36590,7 +36590,7 @@ type
 ;
 mRecycledMaskImageLayers
 .
-Put
+InsertOrUpdate
 (
 MaskLayerKey
 (
@@ -36672,7 +36672,7 @@ type
 ;
 mRecycledMaskImageLayers
 .
-Put
+InsertOrUpdate
 (
 MaskLayerKey
 (

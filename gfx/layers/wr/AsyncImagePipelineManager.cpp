@@ -991,7 +991,7 @@ aImageHost
 ;
 mAsyncImagePipelines
 .
-Put
+InsertOrUpdate
 (
 id
 std

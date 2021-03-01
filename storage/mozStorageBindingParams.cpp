@@ -1857,7 +1857,7 @@ NS_ERROR_UNEXPECTED
 ;
 mNamedParameters
 .
-Put
+InsertOrUpdate
 (
 aName
 nsCOMPtr

@@ -1965,7 +1965,7 @@ later
 .
 objMap
 .
-Put
+InsertOrUpdate
 (
 curHandle
 .

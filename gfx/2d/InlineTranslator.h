@@ -580,7 +580,7 @@ final
 {
 mDrawTargets
 .
-Put
+InsertOrUpdate
 (
 aRefPtr
 RefPtr
@@ -603,7 +603,7 @@ final
 {
 mPaths
 .
-Put
+InsertOrUpdate
 (
 aRefPtr
 RefPtr
@@ -626,7 +626,7 @@ final
 {
 mSourceSurfaces
 .
-Put
+InsertOrUpdate
 (
 aRefPtr
 RefPtr
@@ -649,7 +649,7 @@ final
 {
 mFilterNodes
 .
-Put
+InsertOrUpdate
 (
 aRefPtr
 RefPtr
@@ -672,7 +672,7 @@ final
 {
 mGradientStops
 .
-Put
+InsertOrUpdate
 (
 aRefPtr
 RefPtr
@@ -695,7 +695,7 @@ final
 {
 mScaledFonts
 .
-Put
+InsertOrUpdate
 (
 aRefPtr
 RefPtr
@@ -718,7 +718,7 @@ final
 {
 mUnscaledFonts
 .
-Put
+InsertOrUpdate
 (
 aRefPtr
 RefPtr
@@ -741,7 +741,7 @@ final
 {
 mNativeFontResources
 .
-Put
+InsertOrUpdate
 (
 aKey
 RefPtr

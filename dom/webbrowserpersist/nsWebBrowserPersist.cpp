@@ -3507,7 +3507,7 @@ destChannel
 ;
 mUploadList
 .
-Put
+InsertOrUpdate
 (
 keyPtr
 MakeUnique
@@ -10031,7 +10031,7 @@ aChannel
 ;
 mOutputMap
 .
-Put
+InsertOrUpdate
 (
 keyPtr
 MakeUnique
@@ -15734,7 +15734,7 @@ aNewChannel
 ;
 mOutputMap
 .
-Put
+InsertOrUpdate
 (
 keyPtr
 std
@@ -17532,7 +17532,7 @@ mCurrentThingsToPersist
 ;
 mURIMap
 .
-Put
+InsertOrUpdate
 (
 spec
 UniquePtr

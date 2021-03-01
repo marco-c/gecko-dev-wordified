@@ -7484,7 +7484,7 @@ mTags
 tags
 -
 >
-Put
+InsertOrUpdate
 (
 tag
 .
@@ -7712,7 +7712,7 @@ mTags
 tags
 -
 >
-Put
+InsertOrUpdate
 (
 tag
 .

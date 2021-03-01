@@ -2701,7 +2701,7 @@ Clear
 }
 DashedCornerCache
 .
-Put
+InsertOrUpdate
 (
 key
 BestDashLength

@@ -2550,7 +2550,7 @@ NS_ERROR_FAILURE
 }
 mListeners
 .
-Put
+InsertOrUpdate
 (
 canonical
 aListener

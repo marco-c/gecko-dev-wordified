@@ -2051,7 +2051,7 @@ data
 .
 mKeys
 .
-Put
+InsertOrUpdate
 (
 aKey
 aValue
@@ -3056,7 +3056,7 @@ data
 .
 mKeys
 .
-Put
+InsertOrUpdate
 (
 aKey
 aValue

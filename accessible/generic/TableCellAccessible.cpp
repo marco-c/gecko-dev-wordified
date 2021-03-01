@@ -781,7 +781,7 @@ cell
 .
 cache
 .
-Put
+InsertOrUpdate
 (
 this
 RefPtr
@@ -860,7 +860,7 @@ found
 .
 cache
 .
-Put
+InsertOrUpdate
 (
 this
 RefPtr
@@ -890,7 +890,7 @@ fact
 .
 cache
 .
-Put
+InsertOrUpdate
 (
 this
 RefPtr

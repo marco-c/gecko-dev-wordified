@@ -3293,7 +3293,7 @@ mSubstitutionsLock
 ;
 mSubstitutions
 .
-Put
+InsertOrUpdate
 (
 root
 SubstitutionEntry
@@ -3388,7 +3388,7 @@ mSubstitutionsLock
 ;
 mSubstitutions
 .
-Put
+InsertOrUpdate
 (
 root
 SubstitutionEntry

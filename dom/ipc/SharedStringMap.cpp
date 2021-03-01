@@ -564,7 +564,7 @@ aValue
 {
 mEntries
 .
-Put
+InsertOrUpdate
 (
 aKey
 Entry

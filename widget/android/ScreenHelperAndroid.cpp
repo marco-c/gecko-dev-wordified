@@ -631,7 +631,7 @@ screen
 {
 mScreens
 .
-Put
+InsertOrUpdate
 (
 0
 screen
@@ -765,7 +765,7 @@ CSSToLayoutDeviceScale
 ;
 mScreens
 .
-Put
+InsertOrUpdate
 (
 aScreenId
 screen

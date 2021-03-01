@@ -2497,7 +2497,7 @@ NS_WARN_IF
 !
 mActivities
 .
-Put
+InsertOrUpdate
 (
 aLocation
 activity

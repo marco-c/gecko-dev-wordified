@@ -9926,7 +9926,7 @@ cache
 table
 mStyles
 .
-Put
+InsertOrUpdate
 (
 nsGkAtoms
 :
@@ -9939,7 +9939,7 @@ GetNoneStyle
 ;
 mStyles
 .
-Put
+InsertOrUpdate
 (
 nsGkAtoms
 :
@@ -9952,7 +9952,7 @@ GetDecimalStyle
 ;
 mStyles
 .
-Put
+InsertOrUpdate
 (
 nsGkAtoms
 :
@@ -10350,7 +10350,7 @@ GetDecimalStyle
 }
 mStyles
 .
-Put
+InsertOrUpdate
 (
 aName
 data

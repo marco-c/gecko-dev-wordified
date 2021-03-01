@@ -291,7 +291,7 @@ s
 sQuotesForLang
 -
 >
-Put
+InsertOrUpdate
 (
 nsDependentCString
 (

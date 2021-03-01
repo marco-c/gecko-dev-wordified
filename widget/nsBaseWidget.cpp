@@ -15035,7 +15035,7 @@ sPluginWidgetList
 sPluginWidgetList
 -
 >
-Put
+InsertOrUpdate
 (
 id
 RefPtr

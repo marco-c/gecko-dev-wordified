@@ -326,7 +326,7 @@ Init
 .
 mFileInfos
 .
-Put
+InsertOrUpdate
 (
 id
 MakeNotNull

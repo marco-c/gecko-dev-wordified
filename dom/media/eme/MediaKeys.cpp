@@ -932,7 +932,7 @@ here
 ?
 keySessions
 .
-Put
+InsertOrUpdate
 (
 session
 -
@@ -1656,7 +1656,7 @@ aPromise
 endif
 mPromises
 .
-Put
+InsertOrUpdate
 (
 id
 RefPtr
@@ -1695,7 +1695,7 @@ GenerateRequest
 .
 mPromiseIdToken
 .
-Put
+InsertOrUpdate
 (
 aId
 aToken
@@ -2324,7 +2324,7 @@ return
 }
 mKeySessions
 .
-Put
+InsertOrUpdate
 (
 aSession
 -
@@ -2578,7 +2578,7 @@ return
 }
 mKeySessions
 .
-Put
+InsertOrUpdate
 (
 session
 -
@@ -4612,7 +4612,7 @@ Token
 ;
 mPendingSessions
 .
-Put
+InsertOrUpdate
 (
 session
 -

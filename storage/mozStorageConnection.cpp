@@ -13597,7 +13597,7 @@ aNumArguments
 ;
 mFunctions
 .
-Put
+InsertOrUpdate
 (
 aFunctionName
 info

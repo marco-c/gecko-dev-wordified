@@ -6232,7 +6232,7 @@ aUpdate
 {
 mEffectsUpdates
 .
-Put
+InsertOrUpdate
 (
 aBrowser
 aUpdate

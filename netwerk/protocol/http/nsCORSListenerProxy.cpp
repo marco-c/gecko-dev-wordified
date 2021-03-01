@@ -2032,7 +2032,7 @@ newEntryWeakRef
 =
 mTable
 .
-Put
+InsertOrUpdate
 (
 key
 std

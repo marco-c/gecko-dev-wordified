@@ -1769,7 +1769,7 @@ ref
 }
 mFontInstanceKeys
 .
-Put
+InsertOrUpdate
 (
 aScaledFont
 instanceKey
@@ -2012,7 +2012,7 @@ ref
 }
 mFontKeys
 .
-Put
+InsertOrUpdate
 (
 aUnscaled
 fontKey
@@ -2342,7 +2342,7 @@ sNextID
 ;
 mCompositables
 .
-Put
+InsertOrUpdate
 (
 id
 aCompositable

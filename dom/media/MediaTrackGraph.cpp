@@ -21545,7 +21545,7 @@ aOutputDeviceID
 ;
 gGraphs
 .
-Put
+InsertOrUpdate
 (
 hashkey
 graph

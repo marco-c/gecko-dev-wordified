@@ -856,7 +856,7 @@ textClickable
 ;
 mActiveHandlers
 .
-Put
+InsertOrUpdate
 (
 name
 RefPtr
