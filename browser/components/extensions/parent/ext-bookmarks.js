@@ -755,6 +755,16 @@ this
 )
 ;
 }
+onBeginUpdateBatch
+(
+)
+{
+}
+onEndUpdateBatch
+(
+)
+{
+}
 handlePlacesEvents
 (
 events

@@ -290,6 +290,16 @@ resolve
 }
 }
 }
+onBeginUpdateBatch
+(
+)
+{
+}
+onEndUpdateBatch
+(
+)
+{
+}
 onItemMoved
 (
 )

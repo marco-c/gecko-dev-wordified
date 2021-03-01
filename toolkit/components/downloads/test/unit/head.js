@@ -1120,11 +1120,9 @@ aTime
 aTransitionType
 ]
 from
-page
--
-visited
-places
-event
+nsINavHistoryObserver
+.
+onVisit
 .
 *
 rejects
