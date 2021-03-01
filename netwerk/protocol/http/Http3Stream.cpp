@@ -225,15 +225,6 @@ mRequestBodyLenRemaining
 (
 0
 )
-mSocketTransport
-(
-session
--
->
-SocketTransport
-(
-)
-)
 mTotalSent
 (
 0
@@ -1151,7 +1142,7 @@ mTransaction
 >
 OnTransportStatus
 (
-mSocketTransport
+nullptr
 NS_NET_STATUS_SENDING_TO
 mTotalSent
 )
@@ -1173,7 +1164,7 @@ mTransaction
 >
 OnTransportStatus
 (
-mSocketTransport
+nullptr
 NS_NET_STATUS_WAITING_FOR
 0
 )
@@ -1319,7 +1310,7 @@ mTransaction
 >
 OnTransportStatus
 (
-mSocketTransport
+nullptr
 NS_NET_STATUS_WAITING_FOR
 0
 )
@@ -1394,7 +1385,7 @@ mTransaction
 >
 OnTransportStatus
 (
-mSocketTransport
+nullptr
 NS_NET_STATUS_WAITING_FOR
 0
 )
@@ -1734,7 +1725,7 @@ mTransaction
 >
 OnTransportStatus
 (
-mSocketTransport
+nullptr
 NS_NET_STATUS_RECEIVING_FROM
 mTotalRead
 )
@@ -1817,7 +1808,7 @@ mTransaction
 >
 OnTransportStatus
 (
-mSocketTransport
+nullptr
 NS_NET_STATUS_RECEIVING_FROM
 mTotalRead
 )
