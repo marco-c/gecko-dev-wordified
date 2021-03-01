@@ -1092,6 +1092,13 @@ status
 )
 ;
 async
+FlushMemory
+(
+nsString
+reason
+)
+;
+async
 AddMemoryReport
 (
 MemoryReport
