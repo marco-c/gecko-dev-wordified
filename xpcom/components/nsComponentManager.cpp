@@ -4844,7 +4844,7 @@ km
 =
 mKnownModules
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 hash
 [

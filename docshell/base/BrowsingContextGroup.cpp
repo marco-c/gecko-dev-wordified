@@ -299,7 +299,7 @@ group
 sBrowsingContextGroups
 -
 >
-GetOrInsertWith
+LookupOrInsertWith
 (
 aId
 [
@@ -2524,7 +2524,7 @@ docGroup
 =
 mDocGroups
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aKey
 [

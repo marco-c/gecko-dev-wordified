@@ -2141,7 +2141,7 @@ entry
 gWindowContexts
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 mInnerWindowId
 )

@@ -1025,7 +1025,7 @@ key
 ;
 mPendingRequests
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 key
 [

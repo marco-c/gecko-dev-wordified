@@ -10900,7 +10900,7 @@ aFamily
 return
 mFontEntries
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aFace
 [

@@ -8639,12 +8639,9 @@ eSourceType_URL
 continue
 ;
 }
-Unused
-<
-<
 mAllowedFontLoads
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 &
 src

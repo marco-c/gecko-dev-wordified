@@ -537,7 +537,7 @@ commandObservers
 =
 mObserversTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aCommandToObserve
 [

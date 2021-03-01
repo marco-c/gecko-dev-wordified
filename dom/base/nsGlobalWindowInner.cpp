@@ -44209,7 +44209,7 @@ mChromeFields
 .
 mGroupMessageManagers
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aGroup
 [

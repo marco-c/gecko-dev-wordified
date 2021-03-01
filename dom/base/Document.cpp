@@ -5891,7 +5891,7 @@ loadEntry
 =
 mPendingLoads
 .
-GetOrInsert
+LookupOrInsert
 (
 clone
 )

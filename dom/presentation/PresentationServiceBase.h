@@ -462,7 +462,7 @@ return
 }
 mRespondingSessionIds
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aWindowId
 [
@@ -808,7 +808,7 @@ entry
 =
 mAvailabilityUrlTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 url
 [
@@ -1290,7 +1290,7 @@ i
 ;
 availabilityListenerTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 listener
 [

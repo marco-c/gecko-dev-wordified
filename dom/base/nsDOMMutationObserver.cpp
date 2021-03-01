@@ -2071,7 +2071,7 @@ Observer
 >
 mTransientReceivers
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aChild
 [
@@ -6620,7 +6620,7 @@ ob
 >
 mTransientReceivers
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 removed
 [

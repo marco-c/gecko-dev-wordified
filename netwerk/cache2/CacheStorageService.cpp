@@ -8871,7 +8871,7 @@ entries
 sGlobalEntryTables
 -
 >
-GetOrInsertWith
+LookupOrInsertWith
 (
 aContextKey
 [

@@ -1876,7 +1876,7 @@ mCountListeners
 ;
 mWindows
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aInnerWindowID
 [

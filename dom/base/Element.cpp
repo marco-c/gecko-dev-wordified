@@ -26001,13 +26001,10 @@ aObserver
 >
 mThresholds
 .
-Unused
-<
-<
 observers
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 aObserver
 eUninitialized

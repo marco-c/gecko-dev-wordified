@@ -1316,8 +1316,8 @@ to
 provide
 consider
 using
-GetOrInsertWith
 *
+LookupOrInsertWith
 instead
 .
 *
@@ -1332,7 +1332,7 @@ Args
 >
 DataType
 &
-GetOrInsert
+LookupOrInsert
 (
 const
 KeyType
@@ -1437,7 +1437,7 @@ F
 >
 DataType
 &
-GetOrInsertWith
+LookupOrInsertWith
 (
 const
 KeyType

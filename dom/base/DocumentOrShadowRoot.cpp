@@ -1683,7 +1683,7 @@ clone
 clonedSheetMap
 -
 >
-GetOrInsertWith
+LookupOrInsertWith
 (
 sheet
 [
@@ -4855,7 +4855,7 @@ aName
 return
 mRadioGroups
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aName
 [

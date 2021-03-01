@@ -7965,7 +7965,7 @@ LocalStorageCacheParentHashtable
 gLocalStorageCacheParents
 -
 >
-GetOrInsertWith
+LookupOrInsertWith
 (
 aOriginKey
 [

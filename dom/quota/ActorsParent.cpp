@@ -18078,7 +18078,7 @@ uint32_t
 ?
 directoryLockTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aLock
 .
@@ -23911,7 +23911,7 @@ originInfo
 >
 mQuotaObjects
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 path
 [
@@ -32727,7 +32727,7 @@ info
 =
 mOriginInitializationInfos
 .
-GetOrInsert
+LookupOrInsert
 (
 aOriginMetadata
 .
@@ -33072,7 +33072,7 @@ info
 =
 mOriginInitializationInfos
 .
-GetOrInsert
+LookupOrInsert
 (
 aOriginMetadata
 .
@@ -36057,7 +36057,7 @@ pair
 =
 mGroupInfoPairs
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aGroup
 [
@@ -37517,7 +37517,7 @@ it
 return
 mValidOrigins
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aSanitizedOrigin
 [

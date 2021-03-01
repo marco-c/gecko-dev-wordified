@@ -1038,7 +1038,7 @@ listener
 =
 mWindows
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aInnerWindowID
 [

@@ -3191,7 +3191,7 @@ aId
 gMetricToOriginBag
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 aId
 )
@@ -3218,14 +3218,14 @@ originBag
 gMetricToOriginBag
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 aId
 )
 ;
 originBag
 .
-GetOrInsert
+LookupOrInsert
 (
 origin
 )
@@ -3525,7 +3525,7 @@ bag
 =
 copy
 .
-GetOrInsert
+LookupOrInsert
 (
 iter
 .

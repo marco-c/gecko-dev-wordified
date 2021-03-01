@@ -2033,7 +2033,7 @@ kExpectedAddRefCnt_MaybeGet
 static
 constexpr
 uint32_t
-kExpectedAddRefCnt_GetOrInsert
+kExpectedAddRefCnt_LookupOrInsert
 =
 1
 ;
@@ -3729,7 +3729,7 @@ GetChar
 TYPED_TEST_P
 (
 BaseHashtableTest
-GetOrInsert_Default
+LookupOrInsert_Default
 )
 {
 if
@@ -3768,7 +3768,7 @@ data
 =
 table
 .
-GetOrInsert
+LookupOrInsert
 (
 1
 )
@@ -3800,7 +3800,7 @@ TestUniCharRefCounted
 TypeParam
 :
 :
-kExpectedAddRefCnt_GetOrInsert
+kExpectedAddRefCnt_LookupOrInsert
 )
 )
 ;
@@ -3809,7 +3809,7 @@ kExpectedAddRefCnt_GetOrInsert
 TYPED_TEST_P
 (
 BaseHashtableTest
-GetOrInsert_NonDefault
+LookupOrInsert_NonDefault
 )
 {
 auto
@@ -3832,7 +3832,7 @@ data
 =
 table
 .
-GetOrInsert
+LookupOrInsert
 (
 1
 typename
@@ -3865,7 +3865,7 @@ nullptr
 TYPED_TEST_P
 (
 BaseHashtableTest
-GetOrInsert_NonDefault_AlreadyPresent
+LookupOrInsert_NonDefault_AlreadyPresent
 )
 {
 auto
@@ -3888,7 +3888,7 @@ data1
 =
 table
 .
-GetOrInsert
+LookupOrInsert
 (
 1
 typename
@@ -3928,7 +3928,7 @@ data2
 =
 table
 .
-GetOrInsert
+LookupOrInsert
 (
 1
 typename
@@ -3970,7 +3970,7 @@ CharRef
 TYPED_TEST_P
 (
 BaseHashtableTest
-GetOrInsertWith
+LookupOrInsertWith
 )
 {
 auto
@@ -3993,7 +3993,7 @@ data
 =
 table
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 1
 [
@@ -4032,7 +4032,7 @@ nullptr
 TYPED_TEST_P
 (
 BaseHashtableTest
-GetOrInsertWith_AlreadyPresent
+LookupOrInsertWith_AlreadyPresent
 )
 {
 auto
@@ -4047,7 +4047,7 @@ TypeParam
 ;
 table
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 1
 [
@@ -4074,7 +4074,7 @@ TestUniCharRefCounted
 ;
 table
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 1
 [
@@ -5616,11 +5616,11 @@ IsEmpty
 Get_OutputParam
 Get
 MaybeGet
-GetOrInsert_Default
-GetOrInsert_NonDefault
-GetOrInsert_NonDefault_AlreadyPresent
-GetOrInsertWith
-GetOrInsertWith_AlreadyPresent
+LookupOrInsert_Default
+LookupOrInsert_NonDefault
+LookupOrInsert_NonDefault_AlreadyPresent
+LookupOrInsertWith
+LookupOrInsertWith_AlreadyPresent
 Put
 Put_Fallible
 Put_Rvalue
@@ -8744,7 +8744,7 @@ GetChar
 TEST
 (
 Hashtables
-ClassHashtable_GetOrInsertWith_Present
+ClassHashtable_LookupOrInsertWith_Present
 )
 {
 nsClassHashtable
@@ -8799,7 +8799,7 @@ entry
 =
 EntToUniClass
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 "
 uml
@@ -8838,7 +8838,7 @@ GetChar
 TEST
 (
 Hashtables
-ClassHashtable_GetOrInsertWith_NotPresent
+ClassHashtable_LookupOrInsertWith_NotPresent
 )
 {
 nsClassHashtable
@@ -8868,7 +8868,7 @@ entry
 =
 EntToUniClass
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 "
 uml

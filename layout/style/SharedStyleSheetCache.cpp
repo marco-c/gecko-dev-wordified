@@ -4365,7 +4365,7 @@ GetDocument
 ;
 mLoaderPrincipalRefCnt
 .
-GetOrInsert
+LookupOrInsert
 (
 aLoader
 .

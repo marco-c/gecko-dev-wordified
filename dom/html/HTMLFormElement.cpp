@@ -13636,7 +13636,7 @@ value
 =
 mRequiredRadioButtonCounts
 .
-GetOrInsert
+LookupOrInsert
 (
 aName
 0

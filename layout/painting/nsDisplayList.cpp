@@ -12552,7 +12552,7 @@ documentBudget
 =
 mDocumentWillChangeBudgets
 .
-GetOrInsert
+LookupOrInsert
 (
 presContext
 )

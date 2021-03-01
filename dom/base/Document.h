@@ -9415,7 +9415,7 @@ NS_IsMainThread
 return
 mTable
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aSelector
 std

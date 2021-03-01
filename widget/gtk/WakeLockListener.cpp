@@ -2330,7 +2330,7 @@ topicLock
 =
 mTopics
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 topic
 [

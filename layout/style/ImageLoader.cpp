@@ -1278,7 +1278,7 @@ frameSet
 =
 mRequestToFrameMap
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aRequest
 [
@@ -1400,7 +1400,7 @@ requestSet
 =
 mFrameToRequestMap
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aFrame
 [
@@ -2911,7 +2911,7 @@ nullptr
 sImages
 -
 >
-GetOrInsertWith
+LookupOrInsertWith
 (
 request
 [

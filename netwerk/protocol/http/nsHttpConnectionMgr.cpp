@@ -5357,7 +5357,7 @@ get
 ;
 mCoalescingHash
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 ent
 -
@@ -22933,7 +22933,7 @@ port
 ;
 mCoalescingHash
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 newKey
 [

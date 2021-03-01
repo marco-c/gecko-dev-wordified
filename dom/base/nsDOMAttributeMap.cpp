@@ -872,7 +872,7 @@ NameAtom
 return
 mAttributeCache
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 attr
 [

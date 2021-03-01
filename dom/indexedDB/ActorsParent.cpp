@@ -40812,7 +40812,7 @@ WrapNotNull
 (
 mFileInfoEntries
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 id
 [
@@ -90697,7 +90697,7 @@ else
 XXX
 Maybe
 use
-GetOrInsertWith
+LookupOrInsertWith
 above
 to
 avoid

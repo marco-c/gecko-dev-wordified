@@ -6031,7 +6031,7 @@ entry
 =
 aAdditionalRecords
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 qname
 [

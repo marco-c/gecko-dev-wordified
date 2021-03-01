@@ -6225,7 +6225,7 @@ rec
 =
 mRecordDB
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 key
 [
@@ -7194,7 +7194,7 @@ rec
 =
 mRecordDB
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 key
 [

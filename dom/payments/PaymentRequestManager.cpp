@@ -2357,7 +2357,7 @@ aResponseExpected
 +
 mActivePayments
 .
-GetOrInsert
+LookupOrInsert
 (
 aRequest
 0

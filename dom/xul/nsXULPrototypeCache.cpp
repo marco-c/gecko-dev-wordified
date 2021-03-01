@@ -1366,7 +1366,7 @@ get
 endif
 mScriptTable
 .
-GetOrInsert
+LookupOrInsert
 (
 aURI
 )

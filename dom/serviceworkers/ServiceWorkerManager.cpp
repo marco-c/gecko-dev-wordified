@@ -9218,7 +9218,7 @@ data
 >
 mJobQueues
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aScope
 [
@@ -10954,7 +10954,7 @@ swm
 >
 mRegistrationInfos
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 scopeKey
 [

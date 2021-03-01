@@ -8055,7 +8055,7 @@ count
 gAccessCounts
 -
 >
-GetOrInsert
+LookupOrInsert
 (
 aPrefName
 )

@@ -71992,7 +71992,7 @@ counter
 =
 mCounts
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 aName
 [
@@ -72066,7 +72066,7 @@ counter
 =
 mIndiFrameCounts
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 key
 [

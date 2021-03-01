@@ -2927,7 +2927,7 @@ processType
 return
 gEventRecords
 .
-GetOrInsertWith
+LookupOrInsertWith
 (
 uint32_t
 (
