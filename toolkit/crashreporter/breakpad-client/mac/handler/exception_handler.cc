@@ -2745,6 +2745,14 @@ void
 exception_handler_class
 )
 {
+pthread_setname_np
+(
+"
+Breakpad
+ExceptionHandler
+"
+)
+;
 ExceptionHandler
 *
 self
