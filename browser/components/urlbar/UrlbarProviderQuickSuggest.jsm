@@ -345,7 +345,7 @@ UrlbarUtils
 .
 PROVIDER_TYPE
 .
-PROFILE
+NETWORK
 ;
 }
 /
@@ -776,7 +776,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-OTHER_NETWORK
+SEARCH
 payload
 )
 ;
