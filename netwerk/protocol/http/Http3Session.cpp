@@ -8837,15 +8837,6 @@ StreamId
 mFirstStreamIdReuseIdleConnection
 )
 {
-/
-/
-TODO
-:
-investigate
-why
-this
-is
-failing
 MOZ_ASSERT
 (
 mConnectionIdleStart
