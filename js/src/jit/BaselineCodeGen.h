@@ -1332,10 +1332,6 @@ JSOp
 :
 :
 NewObject
-JSOp
-:
-:
-NewObjectWithGroup
 and
 JSOp
 :
