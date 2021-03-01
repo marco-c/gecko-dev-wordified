@@ -1766,8 +1766,11 @@ parameter
 .
 *
 /
-nscoord
-InnerTableShrinkWrapISize
+mozilla
+:
+:
+LogicalSize
+InnerTableShrinkWrapSize
 (
 gfxContext
 *
@@ -1804,8 +1807,11 @@ aFlag
 )
 const
 ;
-nscoord
-CaptionShrinkWrapISize
+mozilla
+:
+:
+LogicalSize
+CaptionShrinkWrapSize
 (
 gfxContext
 *
