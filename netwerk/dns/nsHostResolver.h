@@ -915,6 +915,11 @@ mozilla
 TimeStamp
 mGraceStart
 ;
+uint32_t
+mTtl
+=
+0
+;
 /
 /
 The
