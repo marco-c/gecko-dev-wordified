@@ -1934,9 +1934,6 @@ createDescriptorForTab
 createWebExtensionInspectedWindowFront
 "
 "
-getTargetForTab
-"
-"
 getTheme
 "
 "
