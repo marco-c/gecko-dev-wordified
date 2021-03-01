@@ -4718,6 +4718,8 @@ virtual
 bool
 SupportsExternalCompositing
 (
+WebRenderBackend
+aBackend
 )
 {
 return

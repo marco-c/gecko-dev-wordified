@@ -1542,6 +1542,15 @@ create
 new
 ones
 .
+auto
+backend
+=
+aSceneBuilderTxn
+.
+GetBackendType
+(
+)
+;
 bool
 canUpdate
 =
@@ -1603,6 +1612,7 @@ previousTexture
 >
 SupportsExternalCompositing
 (
+backend
 )
 =
 =
@@ -1611,6 +1621,7 @@ texture
 >
 SupportsExternalCompositing
 (
+backend
 )
 &
 &
@@ -2640,6 +2651,12 @@ DisplayListBuilder
 builder
 (
 aPipelineId
+mApi
+-
+>
+GetBackendType
+(
+)
 )
 ;
 float
@@ -3213,6 +3230,7 @@ wr
 TransactionBuilder
 fastTxn
 (
+mApi
 /
 *
 aUseSceneBuilderThread
@@ -3500,6 +3518,12 @@ DisplayListBuilder
 builder
 (
 aPipelineId
+mApi
+-
+>
+GetBackendType
+(
+)
 )
 ;
 wr
