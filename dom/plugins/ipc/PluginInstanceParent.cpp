@@ -10949,10 +10949,9 @@ NS_ASSERTION
 !
 mScriptableObjects
 .
-Get
+Contains
 (
 aObject
-nullptr
 )
 "
 Duplicate
@@ -10998,10 +10997,9 @@ NS_ASSERTION
 (
 mScriptableObjects
 .
-Get
+Contains
 (
 aObject
-nullptr
 )
 "
 Unknown
