@@ -2642,7 +2642,11 @@ automation
 -
 jitflags
 =
-all
+%
+(
+jittest_flags
+)
+s
 "
                 
 "
