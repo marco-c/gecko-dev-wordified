@@ -3916,6 +3916,9 @@ task
 content_origin
 .
 y
+0
+.
+0
 ]
 }
 RenderTaskKind
@@ -3949,6 +3952,9 @@ actual_rect
 origin
 .
 y
+0
+.
+0
 ]
 }
 RenderTaskKind
@@ -3966,6 +3972,9 @@ task
 task
 .
 device_pixel_scale
+.
+0
+0
 .
 0
 0
@@ -4014,6 +4023,9 @@ blur_region
 height
 as
 f32
+0
+.
+0
 ]
 }
 RenderTaskKind
@@ -4095,7 +4107,7 @@ Blit
 .
 0
 ;
-3
+4
 ]
 }
 RenderTaskKind
@@ -4131,6 +4143,9 @@ opacity
 0
 .
 0
+0
+.
+0
 ]
 SvgFilterInfo
 :
@@ -4151,6 +4166,9 @@ y
 0
 .
 0
+0
+.
+0
 ]
 _
 =
@@ -4160,7 +4178,7 @@ _
 .
 0
 ;
-3
+4
 ]
 }
 }
@@ -4187,7 +4205,7 @@ Test
 .
 0
 ;
-3
+4
 ]
 }
 }
@@ -4225,9 +4243,6 @@ size
 height
 as
 f32
-0
-.
-0
 data
 [
 0
@@ -4239,6 +4254,10 @@ data
 data
 [
 2
+]
+data
+[
+3
 ]
 ]
 }
