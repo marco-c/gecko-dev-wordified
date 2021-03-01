@@ -187,6 +187,13 @@ StaticPtr
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 ifdef
 DEBUG
 #
