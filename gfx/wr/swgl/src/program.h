@@ -496,14 +496,11 @@ in
 a
 step
 .
-enum
-:
+constexpr
 int32_t
-{
 swgl_StepSize
 =
 4
-}
 ;
 struct
 FragmentShaderImpl
