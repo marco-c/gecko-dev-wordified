@@ -6555,7 +6555,7 @@ MOZ_ASSERT
 sAtomEventTable
 -
 >
-Lookup
+Contains
 (
 eventArray
 [
