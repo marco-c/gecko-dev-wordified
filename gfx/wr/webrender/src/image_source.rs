@@ -486,9 +486,6 @@ descriptor
 .
 size
 )
-texture_layer
-:
-0
 user_data
 :
 [

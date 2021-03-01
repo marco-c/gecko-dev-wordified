@@ -2053,10 +2053,7 @@ ROOT_SPATIAL_NODE_INDEX
 }
 ;
 let
-(
 target_rect
-_
-)
 =
 task
 .
@@ -2758,8 +2755,6 @@ task
 get_target_rect
 (
 )
-.
-0
 ;
 self
 .
@@ -3120,10 +3115,7 @@ task_id
 ]
 ;
 let
-(
 target_rect
-_
-)
 =
 task
 .
@@ -3860,8 +3852,6 @@ clears
 push
 (
 target_rect
-.
-0
 )
 ;
 self
@@ -3875,8 +3865,6 @@ LineDecorationJob
 task_rect
 :
 target_rect
-.
-0
 .
 to_f32
 (
@@ -4005,10 +3993,6 @@ task_info
 .
 source
 target_rect
-:
-target_rect
-.
-0
 }
 )
 ;
@@ -4031,16 +4015,12 @@ clears
 push
 (
 target_rect
-.
-0
 )
 ;
 let
 task_origin
 =
 target_rect
-.
-0
 .
 origin
 .
@@ -4326,8 +4306,6 @@ task_rect
 :
 target_rect
 .
-0
-.
 to_f32
 (
 )
@@ -4592,8 +4570,6 @@ get_target_rect
 (
 )
 .
-0
-.
 inner_rect
 (
 task
@@ -4619,10 +4595,7 @@ get_texture_source
 )
 ;
 let
-(
 source_rect
-source_layer
-)
 =
 source_task
 .
@@ -4630,9 +4603,7 @@ unwrap
 (
 )
 .
-location
-.
-to_source_rect
+get_target_rect
 (
 )
 ;
@@ -4661,9 +4632,7 @@ target_rect
 source_rect
 source_layer
 :
-source_layer
-as
-i32
+0
 }
 )
 ;

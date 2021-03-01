@@ -4577,10 +4577,7 @@ if
 appropriate
 .
 let
-(
 target_rect
-target_index
-)
 =
 task
 .
@@ -4593,7 +4590,6 @@ task
 write_gpu_blocks
 (
 target_rect
-target_index
 gpu_cache
 )
 ;
@@ -4610,7 +4606,6 @@ kind
 write_task_data
 (
 target_rect
-target_index
 )
 )
 ;
