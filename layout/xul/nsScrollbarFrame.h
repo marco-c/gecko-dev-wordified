@@ -139,6 +139,15 @@ h
 #
 include
 "
+mozilla
+/
+ScrollTypes
+.
+h
+"
+#
+include
+"
 nsIAnonymousContentCreator
 .
 h
