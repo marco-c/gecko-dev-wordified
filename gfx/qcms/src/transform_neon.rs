@@ -125,10 +125,6 @@ v7
 )
 ]
 unsafe
-extern
-"
-C
-"
 fn
 qcms_transform_data_template_lut_neon
 <
@@ -1289,10 +1285,6 @@ v7
 ]
 pub
 unsafe
-extern
-"
-C
-"
 fn
 qcms_transform_data_rgb_out_lut_neon
 (
@@ -1365,10 +1357,6 @@ v7
 ]
 pub
 unsafe
-extern
-"
-C
-"
 fn
 qcms_transform_data_rgba_out_lut_neon
 (
@@ -1441,10 +1429,6 @@ v7
 ]
 pub
 unsafe
-extern
-"
-C
-"
 fn
 qcms_transform_data_bgra_out_lut_neon
 (
