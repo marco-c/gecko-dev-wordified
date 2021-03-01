@@ -8517,6 +8517,9 @@ get
 False
 )
             
+try
+:
+                
 callback
 (
 line
@@ -8525,14 +8528,37 @@ rstrip
 (
 )
 )
+            
+except
+Exception
+:
+                
+traceback
+.
+print_exc
+(
+)
         
 if
 timed_out
 :
             
+try
+:
+                
 self
 .
 timeout_callback
+(
+)
+            
+except
+Exception
+:
+                
+traceback
+.
+print_exc
 (
 )
         
@@ -8561,9 +8587,22 @@ not
 timed_out
 :
             
+try
+:
+                
 self
 .
 finished_callback
+(
+)
+            
+except
+Exception
+:
+                
+traceback
+.
+print_exc
 (
 )
         
