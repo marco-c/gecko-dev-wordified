@@ -1622,6 +1622,21 @@ sessionHistoryInParent
 "
 )
 )
+          
+"
+swgl
+"
+:
+get_bool_pref
+(
+"
+gfx
+.
+webrender
+.
+software
+"
+)
 }
     
 #
@@ -1857,6 +1872,9 @@ e10s
 "
 "
 processor
+"
+"
+swgl
 "
 ]
             
