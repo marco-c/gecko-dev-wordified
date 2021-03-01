@@ -1187,6 +1187,11 @@ PlacesObservers
 h
 "
 "
+PlacesPurgeCaches
+.
+h
+"
+"
 PlacesRanking
 .
 h
