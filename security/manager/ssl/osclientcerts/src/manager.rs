@@ -4113,6 +4113,7 @@ fn
 get_signature_length
 (
 &
+mut
 self
 session
 :
@@ -4182,7 +4183,7 @@ self
 .
 objects
 .
-get
+get_mut
 (
 &
 key_handle
@@ -4328,7 +4329,7 @@ self
 .
 objects
 .
-get
+get_mut
 (
 &
 key_handle
