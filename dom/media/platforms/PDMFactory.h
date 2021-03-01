@@ -479,6 +479,12 @@ MediaCodecsSupported
 aSupported
 )
 ;
+static
+bool
+AllDecodersAreRemote
+(
+)
+;
 private
 :
 virtual
