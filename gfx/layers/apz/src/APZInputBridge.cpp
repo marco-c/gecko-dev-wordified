@@ -1310,11 +1310,15 @@ aEvent
 mLayersId
 )
 ;
+MOZ_ASSERT
+(
 result
 .
 mStatus
 =
+=
 nsEventStatus_eIgnore
+)
 ;
 return
 result
