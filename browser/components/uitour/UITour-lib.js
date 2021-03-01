@@ -614,9 +614,6 @@ backForward
 bookmarks
 *
 -
-customize
-*
--
 devtools
 *
 -
@@ -630,9 +627,6 @@ home
 *
 -
 library
-*
--
-pageActionButton
 *
 -
 pageAction
