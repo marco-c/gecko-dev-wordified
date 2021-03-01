@@ -239,14 +239,11 @@ AsyncDragMetrics
 class
 QueuedInput
 ;
-enum
-class
-APZHandledResult
-:
-uint8_t
-;
 struct
 APZEventResult
+;
+struct
+APZHandledResult
 ;
 /
 *
