@@ -1260,13 +1260,6 @@ percentages
 .
 #
 [
-css
-(
-comma
-)
-]
-#
-[
 derive
 (
 Clone
@@ -1275,6 +1268,13 @@ Eq
 PartialEq
 ToCss
 ToShmem
+)
+]
+#
+[
+css
+(
+comma
 )
 ]
 pub
