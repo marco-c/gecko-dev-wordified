@@ -5790,11 +5790,6 @@ WorkerNavigator
 webidl
 "
 "
-WorkerTestUtils
-.
-webidl
-"
-"
 Worklet
 .
 webidl
