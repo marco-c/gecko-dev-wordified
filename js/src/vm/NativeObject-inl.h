@@ -4294,7 +4294,7 @@ allowGC
 static
 MOZ_ALWAYS_INLINE
 bool
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 (
 JSContext
 *
@@ -4695,14 +4695,14 @@ true
 Simplified
 version
 of
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 that
 doesn
 '
 t
 call
-resolve
 *
+resolve
 hooks
 .
 *
@@ -4945,7 +4945,7 @@ allowGC
 static
 MOZ_ALWAYS_INLINE
 bool
-LookupPropertyInline
+NativeLookupPropertyInline
 (
 JSContext
 *
@@ -5033,7 +5033,7 @@ true
 if
 (
 !
-LookupOwnPropertyInline
+NativeLookupOwnPropertyInline
 <
 allowGC
 >
