@@ -25877,7 +25877,20 @@ ptype
 for
 friend
 in
+sorted
+(
 friends
+key
+=
+lambda
+f
+:
+f
+.
+fullname
+(
+)
+)
 :
             
 self
