@@ -327,6 +327,12 @@ StyleSize
 >
 mStyleBSize
 ;
+Maybe
+<
+AspectRatio
+>
+mAspectRatio
+;
 bool
 HasAnyOverrides
 (
