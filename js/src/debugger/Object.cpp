@@ -14559,6 +14559,10 @@ false
 if
 (
 prop
+.
+isFound
+(
+)
 )
 {
 MOZ_ASSERT

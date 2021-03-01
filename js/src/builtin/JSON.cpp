@@ -3369,9 +3369,6 @@ false
 MOZ_ASSERT
 (
 prop
-&
-&
-prop
 .
 isNativeProperty
 (

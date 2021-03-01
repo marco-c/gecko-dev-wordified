@@ -4749,6 +4749,10 @@ true
 if
 (
 propp
+.
+isFound
+(
+)
 )
 {
 *
@@ -5146,6 +5150,10 @@ done
 if
 (
 propp
+.
+isFound
+(
+)
 )
 {
 objp

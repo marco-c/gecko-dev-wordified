@@ -2424,8 +2424,11 @@ prop
 ;
 MOZ_ASSERT
 (
-!
 prop
+.
+isNotFound
+(
+)
 )
 ;
 #
@@ -2464,8 +2467,11 @@ false
 ;
 }
 return
-!
 prop
+.
+isNotFound
+(
+)
 ;
 }
 extern

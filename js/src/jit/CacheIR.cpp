@@ -20743,8 +20743,11 @@ NoAction
 }
 if
 (
-!
 prop
+.
+isNotFound
+(
+)
 )
 {
 return
@@ -28543,6 +28546,10 @@ false
 if
 (
 prop
+.
+isFound
+(
+)
 )
 {
 return
@@ -29106,8 +29113,11 @@ NoAction
 }
 if
 (
-!
 prop
+.
+isNotFound
+(
+)
 )
 {
 return
