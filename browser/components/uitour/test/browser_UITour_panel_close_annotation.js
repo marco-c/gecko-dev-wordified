@@ -170,7 +170,7 @@ gContentAPI
 showHighlight
 (
 "
-customize
+addons
 "
 )
 ;
@@ -346,7 +346,7 @@ gContentAPI
 showHighlight
 (
 "
-customize
+addons
 "
 )
 ;
@@ -717,11 +717,11 @@ gContentAPI
 showInfo
 (
 "
-customize
+addons
 "
 "
-customize
-me
+Add
+addons
 !
 "
 "
@@ -905,7 +905,7 @@ gContentAPI
 showHighlight
 (
 "
-customize
+addons
 "
 )
 ;
@@ -1114,11 +1114,11 @@ gContentAPI
 showInfo
 (
 "
-customize
+addons
 "
 "
-customize
-me
+Add
+addons
 !
 "
 "
