@@ -6703,7 +6703,7 @@ return
 aApzc
 -
 >
-CanScrollDownwardsWithDynamicToolbar
+CanVerticalScrollWithDynamicToolbar
 (
 )
 ?
