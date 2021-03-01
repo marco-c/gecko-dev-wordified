@@ -1745,7 +1745,6 @@ host
 *
 /
 [
-noscript
 must_use
 ]
 readonly
