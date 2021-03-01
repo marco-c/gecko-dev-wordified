@@ -1746,13 +1746,6 @@ wantUntrusted
 :
 true
 }
-AboutLoginsImportReportReady
-:
-{
-wantUntrusted
-:
-true
-}
 AboutLoginsInit
 :
 {
