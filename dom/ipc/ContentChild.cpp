@@ -3780,7 +3780,7 @@ sShutdownCanary
 ShutdownPhase
 :
 :
-XPCOMShutdown
+Shutdown
 )
 ;
 }

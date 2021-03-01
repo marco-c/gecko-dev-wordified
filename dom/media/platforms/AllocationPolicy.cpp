@@ -649,7 +649,7 @@ sAudioPolicy
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+ShutdownThreads
 )
 ;
 }
@@ -723,7 +723,7 @@ sVideoPolicy
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+ShutdownThreads
 )
 ;
 }

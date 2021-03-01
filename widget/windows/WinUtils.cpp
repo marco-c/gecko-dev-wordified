@@ -13062,7 +13062,7 @@ clear
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 ;
 }

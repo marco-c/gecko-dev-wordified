@@ -825,7 +825,7 @@ ptr
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+ShutdownThreads
 )
 ;
 }

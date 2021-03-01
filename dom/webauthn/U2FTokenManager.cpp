@@ -896,7 +896,7 @@ gPrefManager
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+ShutdownThreads
 )
 ;
 }

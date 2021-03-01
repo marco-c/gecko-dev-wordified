@@ -1607,7 +1607,7 @@ sThread
 ShutdownPhase
 :
 :
-XPCOMShutdownLoaders
+ShutdownLoaders
 )
 ;
 }

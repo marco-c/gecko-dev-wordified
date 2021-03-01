@@ -266,7 +266,7 @@ sInstance
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+ShutdownThreads
 )
 ;
 }

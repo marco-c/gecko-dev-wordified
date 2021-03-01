@@ -194,13 +194,12 @@ ClearOnShutdown
 SmartPtr
 *
 aPtr
-*
 aPhase
 =
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 *
 *
@@ -424,7 +423,7 @@ aPhase
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 *
 *
@@ -751,7 +750,7 @@ aPhase
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 {
 using
@@ -809,7 +808,7 @@ aPhase
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 )
 {
 using

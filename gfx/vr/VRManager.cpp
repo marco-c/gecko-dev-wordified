@@ -1035,7 +1035,7 @@ on
 ShutdownPhase
 :
 :
-XPCOMShutdownFinal
+ShutdownFinal
 potentially
 before
 VRManager
