@@ -2859,16 +2859,6 @@ aItemId
 ;
 }
 }
-onBeginUpdateBatch
-(
-)
-{
-}
-onEndUpdateBatch
-(
-)
-{
-}
 /
 /
 nsISupports

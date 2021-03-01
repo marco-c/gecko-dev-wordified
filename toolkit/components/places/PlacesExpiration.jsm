@@ -6024,9 +6024,6 @@ generateQI
 nsIObserver
 "
 "
-nsINavHistoryObserver
-"
-"
 nsITimerCallback
 "
 "

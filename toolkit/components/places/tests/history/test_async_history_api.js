@@ -6933,7 +6933,7 @@ is
 an
 /
 /
-nsINavHistoryObserver
+PlacesObservers
 and
 the
 other
