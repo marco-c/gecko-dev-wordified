@@ -4140,6 +4140,11 @@ ErrorResult
 aRv
 )
 ;
+void
+SetAudioSinkFailedStartup
+(
+)
+;
 /
 /
 Synchronously
