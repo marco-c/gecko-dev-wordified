@@ -138,7 +138,7 @@ test
 does
 not
 use
-TargetFactory
+TabTargetFactory
 so
 it
 has

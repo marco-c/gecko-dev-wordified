@@ -101,7 +101,7 @@ const
 target
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (
