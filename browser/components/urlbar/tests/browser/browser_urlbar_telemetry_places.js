@@ -686,6 +686,13 @@ s
 }
 )
 ;
+UrlbarTestUtils
+.
+init
+(
+this
+)
+;
 /
 /
 Make

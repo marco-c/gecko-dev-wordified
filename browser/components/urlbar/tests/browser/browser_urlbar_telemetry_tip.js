@@ -351,6 +351,13 @@ eraseEverything
 (
 )
 ;
+UrlbarTestUtils
+.
+init
+(
+this
+)
+;
 }
 )
 ;
