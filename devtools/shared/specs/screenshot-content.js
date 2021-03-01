@@ -165,17 +165,6 @@ json
 )
 }
 }
-captureDone
-:
-{
-request
-:
-{
-}
-oneway
-:
-true
-}
 }
 }
 )
