@@ -1059,16 +1059,6 @@ newIndex
 )
 ;
 }
-onBeginUpdateBatch
-(
-)
-{
-}
-onEndUpdateBatch
-(
-)
-{
-}
 onItemChanged
 (
 itemId

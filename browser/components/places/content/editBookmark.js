@@ -8373,16 +8373,6 @@ title
 )
 ;
 }
-onBeginUpdateBatch
-(
-)
-{
-}
-onEndUpdateBatch
-(
-)
-{
-}
 }
 ;
 XPCOMUtils

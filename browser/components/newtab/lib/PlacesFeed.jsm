@@ -334,16 +334,6 @@ to
 make
 xpconnect
 happy
-onBeginUpdateBatch
-(
-)
-{
-}
-onEndUpdateBatch
-(
-)
-{
-}
 onItemMoved
 (
 )
