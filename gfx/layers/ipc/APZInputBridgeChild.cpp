@@ -509,9 +509,9 @@ type
 ;
 res
 .
-mStatus
-=
-nsEventStatus_eConsumeNoDefault
+SetStatusAsConsumeNoDefault
+(
+)
 ;
 return
 res

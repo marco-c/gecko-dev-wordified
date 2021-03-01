@@ -359,7 +359,9 @@ if
 (
 result
 .
-mStatus
+GetStatus
+(
+)
 !
 =
 nsEventStatus_eConsumeNoDefault

@@ -2640,7 +2640,9 @@ that
 APZEventResult
 :
 :
-mHandledResult
+GetHandledResult
+(
+)
 is
 correctly
 /
@@ -2896,7 +2898,9 @@ EXPECT_EQ
 (
 result
 .
-mHandledResult
+GetHandledResult
+(
+)
 Some
 (
 APZHandledResult
@@ -2973,7 +2977,9 @@ EXPECT_EQ
 (
 result
 .
-mHandledResult
+GetHandledResult
+(
+)
 Nothing
 (
 )
@@ -3195,7 +3201,9 @@ EXPECT_EQ
 (
 result
 .
-mHandledResult
+GetHandledResult
+(
+)
 Nothing
 (
 )
@@ -3404,7 +3412,9 @@ EXPECT_EQ
 (
 result
 .
-mHandledResult
+GetHandledResult
+(
+)
 Nothing
 (
 )

@@ -12353,7 +12353,9 @@ if
 (
 result
 .
-mStatus
+GetStatus
+(
+)
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -12362,7 +12364,9 @@ nsEventStatus_eConsumeNoDefault
 return
 result
 .
-mStatus
+GetStatus
+(
+)
 ;
 }
 if
@@ -12406,7 +12410,9 @@ result
 return
 result
 .
-mStatus
+GetStatus
+(
+)
 ;
 }
 void
@@ -12549,7 +12555,9 @@ if
 (
 result
 .
-mStatus
+GetStatus
+(
+)
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -12614,7 +12622,9 @@ if
 (
 result
 .
-mStatus
+GetStatus
+(
+)
 =
 =
 nsEventStatus_eIgnore
@@ -12916,7 +12926,9 @@ if
 (
 result
 .
-mStatus
+GetStatus
+(
+)
 =
 =
 nsEventStatus_eConsumeNoDefault
