@@ -1076,6 +1076,7 @@ parentBrowser
 parentWindow
 .
 gBrowser
+?
 .
 selectedBrowser
 ;
@@ -1165,6 +1166,7 @@ subject
 ownerGlobal
 .
 gBrowser
+?
 .
 selectedBrowser
 ;
@@ -1218,6 +1220,9 @@ matches
 .
 if
 (
+browser
+&
+&
 modalType
 =
 =
