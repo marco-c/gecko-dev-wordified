@@ -2600,9 +2600,7 @@ layout_css_touch_action_enabled
 &
 result
 .
-GetStatus
-(
-)
+mStatus
 !
 =
 nsEventStatus_eConsumeNoDefault

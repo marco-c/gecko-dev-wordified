@@ -1147,6 +1147,7 @@ Time
 (
 )
 )
+nullptr
 )
 ;
 mcc
@@ -1235,6 +1236,7 @@ Time
 (
 )
 )
+nullptr
 )
 ;
 mcc
@@ -1306,6 +1308,7 @@ Time
 (
 )
 )
+nullptr
 )
 ;
 mcc
@@ -1396,6 +1399,7 @@ Time
 (
 )
 )
+nullptr
 )
 ;
 FrameMetrics
@@ -3916,6 +3920,7 @@ apzc
 ReceiveInputEvent
 (
 mtiStart
+nullptr
 )
 ;
 mcc
@@ -4003,6 +4008,7 @@ apzc
 ReceiveInputEvent
 (
 mtiMove1
+nullptr
 )
 ;
 mcc
@@ -4085,6 +4091,7 @@ apzc
 ReceiveInputEvent
 (
 mtiMove2
+nullptr
 )
 ;
 mcc
@@ -4148,6 +4155,7 @@ apzc
 ReceiveInputEvent
 (
 mtiEnd
+nullptr
 )
 ;
 /
@@ -4392,6 +4400,7 @@ Time
 (
 )
 )
+nullptr
 )
 ;
 apzc
@@ -4408,7 +4417,7 @@ PINCHGESTURE_SCALE
 aSecondFocus
 10
 .
-0f
+0
 *
 aScale
 10
@@ -4421,6 +4430,7 @@ Time
 (
 )
 )
+nullptr
 )
 ;
 }

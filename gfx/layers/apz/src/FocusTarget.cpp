@@ -1325,7 +1325,7 @@ selectedContent
 get
 (
 )
-VerticalScrollDirection
+VerticalScollDirection
 )
 ;
 /

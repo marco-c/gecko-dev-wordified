@@ -7735,9 +7735,7 @@ mTargetGuid
 inputBlockId
 aApzResult
 .
-GetStatus
-(
-)
+mStatus
 )
 ;
 /
@@ -8086,9 +8084,7 @@ targetGuid
 inputBlockId
 aApzResult
 .
-GetStatus
-(
-)
+mStatus
 status
 std
 :
@@ -8452,9 +8448,7 @@ if
 (
 result
 .
-GetStatus
-(
-)
+mStatus
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -8572,9 +8566,7 @@ if
 (
 result
 .
-GetStatus
-(
-)
+mStatus
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -8678,9 +8670,7 @@ if
 (
 result
 .
-GetStatus
-(
-)
+mStatus
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -8784,9 +8774,7 @@ if
 (
 result
 .
-GetStatus
-(
-)
+mStatus
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -8891,9 +8879,7 @@ if
 (
 result
 .
-GetStatus
-(
-)
+mStatus
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -8902,9 +8888,7 @@ nsEventStatus_eConsumeNoDefault
 return
 result
 .
-GetStatus
-(
-)
+mStatus
 ;
 }
 return

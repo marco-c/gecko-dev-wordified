@@ -1121,7 +1121,7 @@ i
 ]
 -
 >
-CanVerticalScrollWithDynamicToolbar
+CanScrollDownwardsWithDynamicToolbar
 (
 )
 ;

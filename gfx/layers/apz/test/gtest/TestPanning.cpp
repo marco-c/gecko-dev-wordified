@@ -1184,9 +1184,7 @@ if
 (
 result
 .
-GetStatus
-(
-)
+mStatus
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -1218,6 +1216,8 @@ AdvanceByMillis
 )
 ;
 result
+.
+mStatus
 =
 TouchMove
 (
@@ -1244,6 +1244,8 @@ AdvanceByMillis
 )
 ;
 result
+.
+mStatus
 =
 TouchMove
 (
@@ -1270,6 +1272,8 @@ AdvanceByMillis
 )
 ;
 result
+.
+mStatus
 =
 TouchMove
 (
@@ -1296,6 +1300,8 @@ AdvanceByMillis
 )
 ;
 result
+.
+mStatus
 =
 TouchMove
 (
@@ -1314,6 +1320,8 @@ Time
 )
 ;
 result
+.
+mStatus
 =
 TouchUp
 (
@@ -1385,9 +1393,7 @@ if
 (
 result
 .
-GetStatus
-(
-)
+mStatus
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -1419,6 +1425,8 @@ AdvanceByMillis
 )
 ;
 result
+.
+mStatus
 =
 TouchMove
 (
@@ -1445,6 +1453,8 @@ AdvanceByMillis
 )
 ;
 result
+.
+mStatus
 =
 TouchMove
 (
@@ -1463,6 +1473,8 @@ Time
 )
 ;
 result
+.
+mStatus
 =
 TouchUp
 (
@@ -1537,9 +1549,7 @@ if
 (
 result
 .
-GetStatus
-(
-)
+mStatus
 !
 =
 nsEventStatus_eConsumeNoDefault
@@ -1571,6 +1581,8 @@ AdvanceByMillis
 )
 ;
 result
+.
+mStatus
 =
 TouchMove
 (
@@ -1722,6 +1734,8 @@ singleTouchData
 )
 ;
 result
+.
+mStatus
 =
 apzc
 -
@@ -1730,8 +1744,12 @@ ReceiveInputEvent
 (
 mti
 )
+.
+mStatus
 ;
 result
+.
+mStatus
 =
 TouchUp
 (
