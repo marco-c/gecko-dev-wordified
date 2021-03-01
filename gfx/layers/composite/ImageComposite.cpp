@@ -142,6 +142,13 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+nsPrintfCString
+.
+h
+"
 namespace
 mozilla
 {
