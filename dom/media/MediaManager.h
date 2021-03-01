@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -738,6 +745,8 @@ final
 public
 nsIMediaManagerService
 public
+nsIMemoryReporter
+public
 nsIObserver
 {
 friend
@@ -924,6 +933,7 @@ aWindow
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
+NS_DECL_NSIMEMORYREPORTER
 NS_DECL_NSIMEDIAMANAGERSERVICE
 media
 :
@@ -1997,6 +2007,11 @@ aWindowID
 void
 DeviceListChanged
 (
+)
+;
+MOZ_DEFINE_MALLOC_SIZE_OF
+(
+MallocSizeOf
 )
 ;
 struct
