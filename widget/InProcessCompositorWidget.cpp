@@ -457,6 +457,7 @@ InProcessCompositorWidget
 :
 StartRemoteDrawingInRegion
 (
+const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
