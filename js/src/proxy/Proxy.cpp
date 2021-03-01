@@ -5555,7 +5555,7 @@ found
 {
 propp
 .
-setNonNativeProperty
+setProxyProperty
 (
 )
 ;
