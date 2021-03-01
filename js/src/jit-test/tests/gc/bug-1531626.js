@@ -68,6 +68,16 @@ chunkBytes
 /
 1024
 ;
+const
+pageSizeKB
+=
+gcparam
+(
+'
+systemPageSizeKB
+'
+)
+;
 var
 testSizesKB
 =
@@ -389,7 +399,7 @@ chunkSizeKB
 ?
 chunkSizeKB
 :
-4
+pageSizeKB
 ;
 return
 round
