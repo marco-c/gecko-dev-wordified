@@ -5922,12 +5922,6 @@ avatarURL
 state
 .
 avatarIsDefault
-&
-&
-!
-PanelUI
-.
-protonAppMenuEnabled
 )
 {
 /
