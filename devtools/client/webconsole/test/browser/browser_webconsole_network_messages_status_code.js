@@ -313,6 +313,10 @@ findMessage
 (
 hud
 xhrUrl
+"
+.
+network
+"
 )
 )
 ;
