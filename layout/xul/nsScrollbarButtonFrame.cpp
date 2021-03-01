@@ -1076,6 +1076,13 @@ sb
 >
 MoveToNewPosition
 (
+nsScrollbarFrame
+:
+:
+ImplementsScrollByUnit
+:
+:
+No
 )
 ;
 if
@@ -1315,6 +1322,13 @@ sb
 >
 MoveToNewPosition
 (
+nsScrollbarFrame
+:
+:
+ImplementsScrollByUnit
+:
+:
+No
 )
 ;
 }
