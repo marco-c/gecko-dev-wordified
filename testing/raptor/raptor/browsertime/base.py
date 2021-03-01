@@ -3187,14 +3187,9 @@ browsertime_failure
 =
 msg
                     
-#
-Raising
-this
-kills
-mozprocess
-                    
-raise
-Exception
+LOG
+.
+error
 (
 "
 Browsertime
@@ -3202,6 +3197,12 @@ failed
 to
 run
 "
+)
+                    
+proc
+.
+kill
+(
 )
                 
 elif
