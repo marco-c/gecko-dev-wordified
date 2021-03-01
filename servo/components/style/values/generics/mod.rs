@@ -134,13 +134,6 @@ style_traits
 {
 KeywordsCollectFn
 ParseError
-}
-;
-use
-style_traits
-:
-:
-{
 SpecifiedValueInfo
 StyleParseErrorKind
 }
@@ -226,6 +219,10 @@ page
 pub
 mod
 position
+;
+pub
+mod
+ratio
 ;
 pub
 mod

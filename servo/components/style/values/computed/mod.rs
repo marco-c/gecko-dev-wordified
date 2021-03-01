@@ -864,6 +864,16 @@ use
 self
 :
 :
+ratio
+:
+:
+Ratio
+;
+pub
+use
+self
+:
+:
 rect
 :
 :
@@ -1209,6 +1219,10 @@ percentage
 pub
 mod
 position
+;
+pub
+mod
+ratio
 ;
 pub
 mod

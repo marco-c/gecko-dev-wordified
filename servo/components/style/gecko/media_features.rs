@@ -150,10 +150,7 @@ values
 computed
 :
 :
-position
-:
-:
-Ratio
+CSSPixelLength
 ;
 use
 crate
@@ -165,7 +162,7 @@ values
 computed
 :
 :
-CSSPixelLength
+Ratio
 ;
 use
 crate
