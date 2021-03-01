@@ -306,6 +306,8 @@ void
 void
 DNSConfigChanged
 (
+uint32_t
+aDelayMs
 )
 ;
 void
