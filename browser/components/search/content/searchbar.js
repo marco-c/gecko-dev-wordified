@@ -5153,10 +5153,6 @@ cmd_delete
 /
 >
 <
-menuseparator
-/
->
-<
 menuitem
 data
 -
