@@ -3716,9 +3716,6 @@ rec
 -
 url
 "
-min_score
-:
-0
 score
 :
 1
@@ -4081,9 +4078,6 @@ hostname
 "
 domain
 "
-min_score
-:
-0
 score
 :
 1
@@ -12444,9 +12438,6 @@ rec
 -
 url
 "
-min_score
-:
-0
 score
 :
 0
@@ -12925,9 +12916,6 @@ undefined
 image
 :
 undefined
-min_score
-:
-0
 referrer
 :
 "
