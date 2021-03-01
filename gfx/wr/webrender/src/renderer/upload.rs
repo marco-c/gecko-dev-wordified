@@ -3335,9 +3335,6 @@ PremultipliedColorF
 :
 :
 WHITE
-0
-.
-0
 ZBufferId
 (
 0
