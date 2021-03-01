@@ -11862,13 +11862,13 @@ FailedBoundsCheck
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-failedShapeGuard
-FailedShapeGuard
+hadLICMInvalidation
+HadLICMInvalidation
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-hadLICMInvalidation
-HadLICMInvalidation
+hadReorderingBailout
+HadReorderingBailout
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
