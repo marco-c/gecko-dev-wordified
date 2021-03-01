@@ -27702,15 +27702,11 @@ thread
 uint32_t
 rv
 =
-0
-;
 mTunnelHash
 .
 Get
 (
 aHashKey
-&
-rv
 )
 ;
 return

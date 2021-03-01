@@ -336,6 +336,11 @@ nsBaseHashtable
 Get
 *
 /
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 Interface
@@ -399,6 +404,11 @@ pointer
 !
 *
 /
+[
+[
+nodiscard
+]
+]
 Interface
 *
 GetWeak

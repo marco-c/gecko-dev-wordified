@@ -298,6 +298,7 @@ doesn
 '
 t
 exist
+*
 aData
 will
 be
@@ -329,6 +330,11 @@ nsBaseHashtable
 Get
 *
 /
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 PtrType
@@ -392,6 +398,11 @@ pointer
 !
 *
 /
+[
+[
+nodiscard
+]
+]
 PtrType
 *
 GetWeak

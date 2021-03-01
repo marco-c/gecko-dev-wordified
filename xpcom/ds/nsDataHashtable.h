@@ -307,6 +307,11 @@ key
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 DataType
 *
 GetValue

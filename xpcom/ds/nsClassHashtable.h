@@ -527,6 +527,11 @@ present
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 UserDataType
 Get
 (
