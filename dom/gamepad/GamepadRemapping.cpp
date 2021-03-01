@@ -204,16 +204,6 @@ GamepadPlatformService
 .
 h
 "
-#
-include
-<
-vector
->
-#
-include
-<
-unordered_map
->
 namespace
 mozilla
 :
