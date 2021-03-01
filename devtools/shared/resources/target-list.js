@@ -232,7 +232,7 @@ lazyRequireGetter
 (
 this
 "
-TargetFactory
+TabTargetFactory
 "
 "
 devtools
@@ -241,7 +241,11 @@ client
 /
 framework
 /
+tab
+-
 target
+-
+factory
 "
 true
 )
@@ -3698,7 +3702,7 @@ be
 destroyed
 so
 that
-TargetFactory
+TabTargetFactory
 clears
 its
 memoized
@@ -3742,7 +3746,7 @@ const
 newTarget
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (

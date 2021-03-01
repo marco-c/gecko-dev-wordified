@@ -113,7 +113,7 @@ lazyRequireGetter
 (
 this
 "
-TargetFactory
+TabTargetFactory
 "
 "
 devtools
@@ -122,7 +122,11 @@ client
 /
 framework
 /
+tab
+-
 target
+-
+factory
 "
 true
 )
@@ -3454,7 +3458,7 @@ const
 target
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (
@@ -4291,7 +4295,7 @@ const
 target
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (
@@ -4319,7 +4323,7 @@ const
 target
 =
 await
-TargetFactory
+TabTargetFactory
 .
 forTab
 (
@@ -4397,7 +4401,7 @@ tab
 )
 {
 return
-TargetFactory
+TabTargetFactory
 .
 createDescriptorForTab
 (
