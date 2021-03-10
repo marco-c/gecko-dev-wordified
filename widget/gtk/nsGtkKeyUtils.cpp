@@ -208,13 +208,6 @@ h
 #
 include
 "
-WidgetUtilsGtk
-.
-h
-"
-#
-include
-"
 keysym2ucs
 .
 h
@@ -11696,7 +11689,7 @@ aGdkKeyEvent
 is_modifier
 &
 &
-GdkIsX11Display
+GDK_IS_X11_DISPLAY
 (
 gdkDisplay
 )
