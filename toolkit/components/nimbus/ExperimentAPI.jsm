@@ -460,6 +460,13 @@ EXPOSURE_EVENT_METHOD
 expose
 "
 ;
+const
+EXPOSURE_EVENT_OBJECT
+=
+"
+nimbus_experiment
+"
+;
 function
 parseJSON
 (
@@ -729,6 +736,7 @@ this
 activateBranch
 (
 {
+slug
 featureId
 sendExposureEvent
 }
@@ -1703,9 +1711,7 @@ recordEvent
 (
 EXPOSURE_EVENT_CATEGORY
 EXPOSURE_EVENT_METHOD
-"
-feature_study
-"
+EXPOSURE_EVENT_OBJECT
 experimentSlug
 {
 branchSlug

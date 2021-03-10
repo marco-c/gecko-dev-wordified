@@ -1353,7 +1353,7 @@ normandy
 #
 expose
 #
-feature_study
+nimbus_experiment
 "
 1
 )

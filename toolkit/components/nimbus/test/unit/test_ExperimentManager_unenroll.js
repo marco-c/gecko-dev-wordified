@@ -394,7 +394,7 @@ args
 unenroll
 "
 "
-preference_study
+nimbus_experiment
 "
 experiment
 .
@@ -641,16 +641,8 @@ args
 unenroll
 "
 "
-preference_study
+nimbus_experiment
 "
-/
-/
-This
-needs
-to
-be
-updated
-eventually
 "
 foo
 "

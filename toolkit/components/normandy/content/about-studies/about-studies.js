@@ -1143,7 +1143,7 @@ type
 =
 =
 "
-messaging_experiment
+nimbus
 "
 )
 {
@@ -1257,7 +1257,7 @@ experimentType
 =
 =
 "
-messaging_experiment
+nimbus
 "
 )
 {
@@ -1418,8 +1418,7 @@ userFacingDescription
 |
 |
 "
-Messaging
-System
+Nimbus
 experiment
 .
 "
@@ -1437,9 +1436,7 @@ classnames
 (
 "
 study
-messaging
--
-system
+nimbus
 "
 {
 disabled
