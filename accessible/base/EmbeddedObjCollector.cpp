@@ -338,8 +338,6 @@ if
 aAccessible
 -
 >
-mInt
-.
 mIndexOfEmbeddedChild
 !
 =
@@ -351,8 +349,6 @@ return
 aAccessible
 -
 >
-mInt
-.
 mIndexOfEmbeddedChild
 ;
 }
@@ -399,8 +395,6 @@ IsProxy
 aAccessible
 -
 >
-mInt
-.
 mIndexOfEmbeddedChild
 =
 mObjects

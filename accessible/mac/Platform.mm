@@ -282,7 +282,6 @@ ProxyCreated
 RemoteAccessible
 *
 aProxy
-uint32_t
 )
 {
 if

@@ -149,6 +149,16 @@ Accessible
 (
 )
 ;
+Accessible
+(
+AccType
+aType
+AccGenericType
+aGenericTypes
+uint8_t
+aRoleMapEntryIndex
+)
+;
 public
 :
 virtual
@@ -1114,6 +1124,10 @@ kGenericTypesBits
 ;
 uint8_t
 mRoleMapEntryIndex
+;
+friend
+class
+DocAccessibleChildBase
 ;
 }
 ;

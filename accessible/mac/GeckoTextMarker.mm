@@ -2443,7 +2443,9 @@ AsProxy
 )
 -
 >
-mIsHyperText
+IsHyperText
+(
+)
 )
 )
 {

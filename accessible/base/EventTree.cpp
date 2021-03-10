@@ -784,8 +784,6 @@ idx
 ]
 -
 >
-mInt
-.
 mIndexOfEmbeddedChild
 =
 -

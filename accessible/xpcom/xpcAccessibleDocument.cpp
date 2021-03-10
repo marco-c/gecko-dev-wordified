@@ -1278,6 +1278,14 @@ exposing
 optional
 interfaces
 .
+/
+/
+XXX
+support
+exposing
+optional
+interfaces
+.
 uint8_t
 interfaces
 =
@@ -1288,7 +1296,9 @@ if
 aProxy
 -
 >
-mHasValue
+HasNumericValue
+(
+)
 )
 {
 interfaces
@@ -1302,7 +1312,9 @@ if
 aProxy
 -
 >
-mIsHyperLink
+IsLink
+(
+)
 )
 {
 interfaces
@@ -1316,7 +1328,9 @@ if
 aProxy
 -
 >
-mIsHyperText
+IsHyperText
+(
+)
 )
 {
 interfaces
