@@ -4720,6 +4720,11 @@ this
 contentLength
 data
 done
+filename
+:
+this
+.
+contentDispositionFilename
 }
 PDF_VIEWER_ORIGIN
 )
@@ -5046,6 +5051,11 @@ complete
 "
 data
 errorCode
+filename
+:
+this
+.
+contentDispositionFilename
 }
 PDF_VIEWER_ORIGIN
 )
