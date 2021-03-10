@@ -4822,6 +4822,8 @@ menu
 -
 help
 -
+more
+-
 troubleshooting
 -
 info
@@ -4838,6 +4840,8 @@ id
 appmenu
 -
 help
+-
+more
 -
 troubleshooting
 -
