@@ -6453,8 +6453,6 @@ interp_outs
 Texture
 &
 colortex
-int
-layer
 Texture
 &
 depthtex
@@ -7749,7 +7747,6 @@ int
 (
 y
 )
-layer
 )
 ;
 DepthRun
@@ -9344,8 +9341,6 @@ interp_outs
 Texture
 &
 colortex
-int
-layer
 Texture
 &
 depthtex
@@ -10398,7 +10393,6 @@ int
 (
 y
 )
-layer
 )
 ;
 DepthRun
@@ -13102,8 +13096,6 @@ interp_clip
 Texture
 &
 colortex
-int
-layer
 Texture
 &
 depthtex
@@ -13173,7 +13165,6 @@ nump
 p_clip
 interp_clip
 colortex
-layer
 depthtex
 clipRect
 )
@@ -13199,7 +13190,6 @@ nump
 p_clip
 interp_clip
 colortex
-layer
 depthtex
 clipRect
 )
@@ -13388,8 +13378,6 @@ interp_outs
 Texture
 &
 colortex
-int
-layer
 Texture
 &
 depthtex
@@ -13690,7 +13678,6 @@ nump
 p
 interp_outs
 colortex
-layer
 depthtex
 )
 ;
@@ -14425,7 +14412,6 @@ nump
 p_clip
 interp_clip
 colortex
-layer
 depthtex
 )
 ;
@@ -14440,8 +14426,6 @@ nump
 Texture
 &
 colortex
-int
-layer
 Texture
 &
 depthtex
@@ -14560,7 +14544,6 @@ draw_perspective
 nump
 interp_outs
 colortex
-layer
 depthtex
 )
 ;
@@ -15299,7 +15282,6 @@ p
 z
 interp_outs
 colortex
-layer
 depthtex
 clipRect
 )
@@ -15326,7 +15308,6 @@ p
 z
 interp_outs
 colortex
-layer
 depthtex
 clipRect
 )
@@ -15363,8 +15344,6 @@ v
 Texture
 &
 colortex
-int
-layer
 Texture
 &
 depthtex
@@ -15631,7 +15610,6 @@ draw_quad
 (
 4
 colortex
-layer
 depthtex
 )
 ;
@@ -15671,7 +15649,6 @@ draw_quad
 (
 4
 colortex
-layer
 depthtex
 )
 ;
@@ -15832,7 +15809,6 @@ draw_quad
 (
 4
 colortex
-layer
 depthtex
 )
 ;
@@ -15864,7 +15840,6 @@ draw_quad
 (
 3
 colortex
-layer
 depthtex
 )
 ;
