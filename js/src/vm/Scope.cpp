@@ -708,6 +708,12 @@ getInitialShape
 (
 cx
 cls
+cx
+-
+>
+realm
+(
+)
 TaggedProto
 (
 nullptr
@@ -3457,7 +3463,7 @@ cloning
 into
 a
 different
-zone
+realm
 .
 Shape
 *
@@ -3475,7 +3481,7 @@ shape
 shape
 -
 >
-zoneFromAnyThread
+realm
 (
 )
 !
@@ -3483,7 +3489,7 @@ zoneFromAnyThread
 cx
 -
 >
-zone
+realm
 (
 )
 )

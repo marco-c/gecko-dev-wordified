@@ -4074,6 +4074,12 @@ getInitialShape
 (
 cx
 clasp
+cx
+-
+>
+realm
+(
+)
 TaggedProto
 (
 nullptr

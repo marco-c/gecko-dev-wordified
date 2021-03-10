@@ -47439,7 +47439,7 @@ ImmGCPtr
 templateObject
 -
 >
-group
+shape
 (
 )
 )
@@ -47475,13 +47475,13 @@ ArrayObject
 JSContext
 *
 uint32_t
-HandleObjectGroup
+HandleShape
 )
 ;
 callVM
 <
 Fn
-NewArrayWithGroup
+NewArrayWithShape
 >
 (
 lir
