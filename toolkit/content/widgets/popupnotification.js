@@ -115,6 +115,7 @@ icon
 class
 =
 iconclass
+hasicon
 "
 "
 .
