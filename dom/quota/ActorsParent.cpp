@@ -22575,7 +22575,7 @@ origin
 Note
 that
 calling
-GetDirectoryMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 /
 /
 below
@@ -22769,7 +22769,7 @@ NS_ERROR_FAILURE
 /
 /
 Calling
-GetDirectoryMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 might
 update
 the
@@ -22806,7 +22806,7 @@ const
 auto
 &
 metadata
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 directory
 )
@@ -24850,7 +24850,7 @@ nsresult
 QuotaManager
 :
 :
-GetDirectoryMetadataWithOriginMetadata2
+LoadFullOriginMetadata
 (
 nsIFile
 *
@@ -25120,7 +25120,7 @@ nsresult
 QuotaManager
 :
 :
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 nsIFile
 *
@@ -25241,7 +25241,7 @@ nsresult
 {
 QM_TRY_RETURN
 (
-GetDirectoryMetadataWithOriginMetadata2
+LoadFullOriginMetadata
 (
 aDirectory
 persistenceType
@@ -25285,7 +25285,7 @@ aDirectory
 ;
 QM_TRY_RETURN
 (
-GetDirectoryMetadataWithOriginMetadata2
+LoadFullOriginMetadata
 (
 aDirectory
 persistenceType
@@ -25562,7 +25562,7 @@ QM_TRY_UNWRAP
 (
 auto
 metadata
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 childDirectory
 )
@@ -33057,7 +33057,7 @@ const
 auto
 &
 metadata
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 directory
 )
@@ -33375,7 +33375,7 @@ t
 call
 /
 /
-GetDirectoryMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 for
 it
 (
@@ -33443,7 +33443,7 @@ accessed
 so
 /
 /
-GetDirectoryMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 will
 be
 called
@@ -45307,7 +45307,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 &
 aOriginDir
@@ -47932,7 +47932,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 file
 )
@@ -49462,7 +49462,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 directory
 )
@@ -49826,7 +49826,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 directory
 )
@@ -50502,7 +50502,7 @@ auto
 metadata
 aQuotaManager
 .
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 &
 aOriginDir

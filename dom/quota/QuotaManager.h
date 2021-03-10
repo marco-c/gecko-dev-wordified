@@ -1317,7 +1317,7 @@ Result
 FullOriginMetadata
 nsresult
 >
-GetDirectoryMetadataWithOriginMetadata2
+LoadFullOriginMetadata
 (
 nsIFile
 *
@@ -1331,7 +1331,7 @@ Result
 FullOriginMetadata
 nsresult
 >
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 nsIFile
 *
