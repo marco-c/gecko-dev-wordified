@@ -2213,6 +2213,13 @@ tm
 .
 spinEventLoopUntil
 (
+"
+GeckoViewNavigation
+.
+jsm
+:
+handleNewSession
+"
 (
 )
 =

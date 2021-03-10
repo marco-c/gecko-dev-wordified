@@ -503,6 +503,13 @@ tm
 .
 spinEventLoopUntil
 (
+"
+GeckoViewPrompter
+.
+jsm
+:
+showPrompt
+"
 (
 )
 =

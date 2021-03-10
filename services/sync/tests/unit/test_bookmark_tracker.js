@@ -341,6 +341,16 @@ tm
 .
 spinEventLoopUntil
 (
+"
+Test
+(
+test_bookmark_tracker
+.
+js
+:
+promiseSpinningly
+)
+"
 (
 )
 =

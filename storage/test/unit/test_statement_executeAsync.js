@@ -1035,6 +1035,16 @@ tm
 .
 spinEventLoopUntil
 (
+"
+Test
+(
+test_statement_executeAsync
+.
+js
+:
+execAsync
+)
+"
 (
 )
 =

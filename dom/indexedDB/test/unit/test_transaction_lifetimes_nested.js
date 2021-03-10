@@ -192,6 +192,16 @@ tm
 .
 spinEventLoopUntil
 (
+"
+Test
+(
+test_transaction_lifetimes_nested
+.
+js
+:
+testSteps
+)
+"
 (
 )
 =

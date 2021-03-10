@@ -60,6 +60,16 @@ tm
 .
 spinEventLoopUntil
 (
+"
+Test
+(
+crasher_subprocess_tail
+.
+js
+:
+shouldDelay
+)
+"
 (
 )
 =
