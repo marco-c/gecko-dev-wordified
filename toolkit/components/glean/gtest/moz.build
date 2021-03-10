@@ -86,10 +86,11 @@ MPL
 /
 .
 if
+not
 CONFIG
 [
 "
-MOZ_GLEAN
+MOZ_GLEAN_ANDROID
 "
 ]
 :

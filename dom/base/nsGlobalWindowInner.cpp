@@ -8044,9 +8044,6 @@ nullptr
 ;
 #
 endif
-#
-ifdef
-MOZ_GLEAN
 mGlean
 =
 nullptr
@@ -8055,8 +8052,6 @@ mGleanPings
 =
 nullptr
 ;
-#
-endif
 mParentTarget
 =
 nullptr
@@ -8628,9 +8623,6 @@ mSpeechSynthesis
 )
 #
 endif
-#
-ifdef
-MOZ_GLEAN
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mGlean
@@ -8639,8 +8631,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mGleanPings
 )
-#
-endif
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mOuterWindow
@@ -9029,9 +9019,6 @@ mSpeechSynthesis
 )
 #
 endif
-#
-ifdef
-MOZ_GLEAN
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mGlean
@@ -9040,8 +9027,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mGleanPings
 )
-#
-endif
 if
 (
 tmp
@@ -17462,9 +17447,6 @@ false
 }
 #
 endif
-#
-ifdef
-MOZ_GLEAN
 mozilla
 :
 :
@@ -17543,8 +17525,6 @@ return
 mGleanPings
 ;
 }
-#
-endif
 Nullable
 <
 WindowProxyHolder

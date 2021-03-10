@@ -166,13 +166,6 @@ jsm
 "
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_GLEAN
-)
-{
 Cu
 .
 importGlobalProperties
@@ -184,7 +177,6 @@ Glean
 ]
 )
 ;
-}
 const
 LOGGER_NAME
 =
@@ -2945,13 +2937,6 @@ _clientID
 =
 id
 ;
-if
-(
-AppConstants
-.
-MOZ_GLEAN
-)
-{
 Glean
 .
 fogValidation
@@ -2965,7 +2950,6 @@ this
 _clientID
 )
 ;
-}
 this
 .
 _clientIDHash

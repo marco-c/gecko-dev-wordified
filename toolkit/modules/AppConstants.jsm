@@ -1120,11 +1120,11 @@ else
 true
 #
 endif
-MOZ_GLEAN
+MOZ_GLEAN_ANDROID
 :
 #
 ifdef
-MOZ_GLEAN
+MOZ_GLEAN_ANDROID
 true
 #
 else

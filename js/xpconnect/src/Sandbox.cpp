@@ -807,9 +807,6 @@ nsCSPContext
 h
 "
 #
-ifdef
-MOZ_GLEAN
-#
 include
 "
 mozilla
@@ -835,8 +832,6 @@ GleanPings
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -6617,9 +6612,6 @@ isSecureContext
 =
 true
 ;
-#
-ifdef
-MOZ_GLEAN
 }
 else
 if
@@ -6654,8 +6646,6 @@ gleanPings
 =
 true
 ;
-#
-endif
 #
 ifdef
 MOZ_WEBRTC
@@ -7705,9 +7695,6 @@ obj
 return
 false
 ;
-#
-ifdef
-MOZ_GLEAN
 if
 (
 glean
@@ -7758,8 +7745,6 @@ return
 false
 ;
 }
-#
-endif
 return
 Define
 (

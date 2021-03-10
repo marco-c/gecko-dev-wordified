@@ -317,13 +317,6 @@ jsm
 "
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_GLEAN
-)
-{
 Cu
 .
 importGlobalProperties
@@ -335,7 +328,6 @@ Glean
 ]
 )
 ;
-}
 /
 /
 AttributionCode
@@ -6233,13 +6225,6 @@ do_get_profile
 (
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_GLEAN
-)
-{
 /
 /
 We
@@ -6290,7 +6275,6 @@ initializeFOG
 (
 )
 ;
-}
 /
 /
 The
@@ -14788,13 +14772,6 @@ type
 }
 if
 (
-AppConstants
-.
-MOZ_GLEAN
-)
-{
-if
-(
 data
 .
 system
@@ -14862,7 +14839,6 @@ Glean
 "
 )
 ;
-}
 }
 }
 )
