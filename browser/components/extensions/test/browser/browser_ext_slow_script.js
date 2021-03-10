@@ -190,6 +190,16 @@ reportProcessHangs
 "
 true
 ]
+[
+"
+dom
+.
+max_script_run_time
+.
+require_critical_input
+"
+false
+]
 ]
 }
 )
