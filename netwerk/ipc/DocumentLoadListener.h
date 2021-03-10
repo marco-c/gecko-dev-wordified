@@ -1401,6 +1401,11 @@ DocumentLoadListener
 aListener
 uint64_t
 aLoadIdent
+Maybe
+<
+uint64_t
+>
+aChannelId
 )
 ;
 /
@@ -3012,6 +3017,12 @@ nsCOMPtr
 nsIChannel
 >
 mChannel
+;
+Maybe
+<
+uint64_t
+>
+mDocumentChannelId
 ;
 /
 /
