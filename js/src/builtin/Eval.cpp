@@ -3180,7 +3180,8 @@ nullptr
 /
 /
 Force
-LexicalEnvironmentObject
+the
+NonSyntacticLexicalEnvironmentObject
 to
 be
 created
@@ -3393,7 +3394,7 @@ JSMEnvironment
 )
 /
 /
-LexicalEnvironmentObject
+NonSyntacticLexicalEnvironmentObject
 [
 this
 =
@@ -3409,7 +3410,7 @@ targetObj
 ]
 /
 /
-LexicalEnvironmentObject
+NonSyntacticLexicalEnvironmentObject
 [
 this
 =

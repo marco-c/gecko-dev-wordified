@@ -354,13 +354,13 @@ class
 GlobalObject
 ;
 class
-LexicalEnvironmentObject
-;
-class
 GlobalLexicalEnvironmentObject
 ;
 class
 MapObject
+;
+class
+NonSyntacticLexicalEnvironmentObject
 ;
 class
 ScriptSourceObject
@@ -2025,7 +2025,7 @@ obj
 js
 :
 :
-LexicalEnvironmentObject
+NonSyntacticLexicalEnvironmentObject
 *
 getOrCreateNonSyntacticLexicalEnvironment
 (
@@ -2042,7 +2042,7 @@ enclosing
 js
 :
 :
-LexicalEnvironmentObject
+NonSyntacticLexicalEnvironmentObject
 *
 getOrCreateNonSyntacticLexicalEnvironment
 (
@@ -2069,7 +2069,7 @@ thisv
 js
 :
 :
-LexicalEnvironmentObject
+NonSyntacticLexicalEnvironmentObject
 *
 getNonSyntacticLexicalEnvironment
 (
