@@ -8939,17 +8939,6 @@ tm
 .
 spinEventLoopUntilOrShutdown
 (
-"
-browser
--
-custom
--
-element
-.
-js
-:
-permitUnload
-"
 (
 )
 =

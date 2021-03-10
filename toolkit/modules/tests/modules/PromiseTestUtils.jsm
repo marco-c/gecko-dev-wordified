@@ -831,16 +831,6 @@ tm
 .
 spinEventLoopUntil
 (
-"
-Test
-(
-PromiseTestUtils
-.
-jsm
-:
-ensureDOMPromiseRejectionsProcessed
-)
-"
 (
 )
 =

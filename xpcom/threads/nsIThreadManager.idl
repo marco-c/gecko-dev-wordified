@@ -943,9 +943,6 @@ void
 spinEventLoopUntil
 (
 in
-ACString
-aVeryGoodReasonToDoThis
-in
 nsINestedEventLoopCondition
 condition
 )
@@ -998,9 +995,6 @@ SpinEventLoopUntil
 void
 spinEventLoopUntilOrShutdown
 (
-in
-ACString
-aVeryGoodReasonToDoThis
 in
 nsINestedEventLoopCondition
 condition

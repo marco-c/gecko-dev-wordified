@@ -963,16 +963,6 @@ tm
 .
 spinEventLoopUntil
 (
-"
-Test
-(
-test_promises_run_to_completion
-.
-js
-:
-force_microtask_checkpoint
-)
-"
 (
 )
 =
