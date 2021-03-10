@@ -2296,6 +2296,8 @@ WrReferenceFrameKind
 :
 :
 Transform
+false
+false
 nullptr
 /
 *
