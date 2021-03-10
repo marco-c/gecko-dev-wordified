@@ -4980,12 +4980,6 @@ const
 char
 *
 aWhere
-layers
-:
-:
-CompositorBridgeParent
-*
-aBridge
 GLenum
 aReason
 )
@@ -5333,7 +5327,6 @@ HandleDeviceReset
 "
 SimulateDeviceReset
 "
-nullptr
 LOCAL_GL_NO_ERROR
 )
 ;

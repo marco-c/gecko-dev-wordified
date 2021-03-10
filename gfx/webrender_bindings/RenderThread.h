@@ -1893,12 +1893,6 @@ const
 char
 *
 aWhere
-layers
-:
-:
-CompositorBridgeParent
-*
-aBridge
 GLenum
 aReason
 )

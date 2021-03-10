@@ -3245,7 +3245,6 @@ HandleDeviceReset
 "
 SyncObject
 "
-nullptr
 LOCAL_GL_UNKNOWN_CONTEXT_RESET_ARB
 )
 ;

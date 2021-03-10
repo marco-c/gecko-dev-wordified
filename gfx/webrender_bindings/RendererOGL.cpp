@@ -1699,7 +1699,6 @@ Get
 HandleDeviceReset
 (
 aCaller
-mBridge
 reason
 )
 ;
