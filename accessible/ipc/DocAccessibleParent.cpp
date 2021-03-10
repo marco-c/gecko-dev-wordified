@@ -5183,7 +5183,7 @@ return
 doc
 -
 >
-GetAccessible
+GetXPCAccessible
 (
 aProxy
 )

@@ -169,7 +169,7 @@ public
 explicit
 xpcAccessibleApplication
 (
-Accessible
+LocalAccessible
 *
 aIntl
 )
@@ -243,9 +243,8 @@ Intl
 {
 return
 mIntl
--
->
-AsLocal
+.
+AsAccessible
 (
 )
 -
