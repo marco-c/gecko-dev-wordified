@@ -4,9 +4,6 @@ from
 six
 import
 ensure_text
-iteritems
-iterkeys
-text_type
 from
 .
 .
@@ -2036,7 +2033,7 @@ append
 (
 ValueNode
 (
-text_type
+str
 (
 item
 )
@@ -2050,7 +2047,7 @@ value_node
 =
 ValueNode
 (
-text_type
+str
 (
 value
 )
@@ -2548,11 +2545,12 @@ for
 name
 value
 in
-iteritems
-(
 node
 .
 _data
+.
+items
+(
 )
 :
                 
@@ -2583,13 +2581,14 @@ self
 for
 item
 in
-iteritems
-(
 self
 .
 _flatten
 (
 )
+.
+items
+(
 )
 :
             
@@ -2606,13 +2605,14 @@ self
 for
 item
 in
-iterkeys
-(
 self
 .
 _flatten
 (
 )
+.
+keys
+(
 )
 :
             

@@ -27,9 +27,6 @@ from
 six
 import
 ensure_text
-iterkeys
-itervalues
-iteritems
 from
 .
 import
@@ -76,10 +73,6 @@ path
 :
     
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -5206,9 +5199,10 @@ for
 section
 values
 in
-iteritems
-(
 keys
+.
+items
+(
 )
 :
         
@@ -5571,9 +5565,10 @@ OrderedDict
 for
 section
 in
-iterkeys
-(
 config
+.
+keys
+(
 )
 :
         
@@ -5730,14 +5725,15 @@ kwargs
 for
 test_paths
 in
-itervalues
-(
 kwargs
 [
 "
 test_paths
 "
 ]
+.
+values
+(
 )
 :
         
@@ -5823,9 +5819,10 @@ for
 key
 path
 in
-iteritems
-(
 test_paths
+.
+items
+(
 )
 :
             

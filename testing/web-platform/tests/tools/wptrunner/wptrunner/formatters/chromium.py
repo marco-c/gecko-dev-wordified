@@ -2,8 +2,6 @@ import
 json
 import
 time
-import
-six
 from
 collections
 import
@@ -809,9 +807,7 @@ assert
 isinstance
 (
 artifact_value
-six
-.
-string_types
+str
 )
 "
 artifact_value
