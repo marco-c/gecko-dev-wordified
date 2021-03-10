@@ -315,6 +315,7 @@ setupOnAvailableFunction
 (
 targetList
 receivedMessages
+false
 )
 ;
 await
@@ -805,6 +806,7 @@ setupOnAvailableFunction
 (
 targetList
 receivedMessages
+true
 )
 ;
 await
@@ -867,6 +869,7 @@ setupOnAvailableFunction
 (
 targetList
 receivedMessages
+isAlreadyExistingResource
 )
 {
 /
@@ -954,6 +957,7 @@ cssSelectors
 "
 html
 "
+isAlreadyExistingResource
 }
 {
 pageError
@@ -994,6 +998,7 @@ warning
 :
 true
 }
+isAlreadyExistingResource
 }
 {
 pageError
@@ -1034,6 +1039,7 @@ warning
 :
 true
 }
+isAlreadyExistingResource
 }
 ]
 ;
@@ -1143,7 +1149,7 @@ receivedMessages
 .
 push
 (
-pageError
+resource
 )
 ;
 info

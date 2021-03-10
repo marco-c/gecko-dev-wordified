@@ -320,6 +320,11 @@ cssSelectors
 "
 p
 "
+"
+isAlreadyExistingResource
+"
+:
+false
 }
 )
 ;
@@ -496,6 +501,11 @@ cssSelectors
 "
 p
 "
+"
+isAlreadyExistingResource
+"
+:
+false
 }
 )
 ;
