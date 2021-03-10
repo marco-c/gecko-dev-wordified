@@ -26089,15 +26089,6 @@ MIRType
 :
 :
 Shape
-|
-|
-type
-=
-=
-MIRType
-:
-:
-ObjectGroup
 )
 ;
 loadPtr
