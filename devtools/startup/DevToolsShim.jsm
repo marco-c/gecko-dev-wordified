@@ -115,7 +115,7 @@ defineLazyGetter
 (
 this
 "
-DevtoolsStartup
+DevToolsStartup
 "
 (
 )
@@ -1201,7 +1201,7 @@ isDevToolsUser
 )
 {
 return
-DevtoolsStartup
+DevToolsStartup
 .
 isDevToolsUser
 (
@@ -1336,7 +1336,7 @@ isDisabledByPolicy
 )
 )
 {
-DevtoolsStartup
+DevToolsStartup
 .
 openInstallPage
 (
@@ -1393,7 +1393,7 @@ e
 .
 especially
 take
-DevtoolsStartup
+DevToolsStartup
 .
 initDevTools
 into
@@ -1557,7 +1557,7 @@ isDisabledByPolicy
 )
 )
 {
-DevtoolsStartup
+DevToolsStartup
 .
 openInstallPage
 (
@@ -1614,7 +1614,7 @@ e
 .
 especially
 take
-DevtoolsStartup
+DevToolsStartup
 .
 initDevTools
 into
@@ -1739,7 +1739,7 @@ it
 *
 explicitly
 via
-DevtoolsStartup
+DevToolsStartup
 .
 openInstallPage
 (
@@ -1886,7 +1886,7 @@ isInitialized
 )
 )
 {
-DevtoolsStartup
+DevToolsStartup
 .
 initDevTools
 (
