@@ -3718,14 +3718,13 @@ is
 room
 to
 scroll
-downwards
 along
 with
 moving
 the
-/
-/
 dynamic
+/
+/
 toolbar
 .
 /
@@ -3747,7 +3746,7 @@ content
 APZC
 .
 bool
-CanScrollDownwardsWithDynamicToolbar
+CanVerticalScrollWithDynamicToolbar
 (
 )
 const

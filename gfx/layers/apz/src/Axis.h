@@ -2498,7 +2498,7 @@ aSide
 const
 ;
 bool
-CanScrollDownwardsWithDynamicToolbar
+CanVerticalScrollWithDynamicToolbar
 (
 )
 const
