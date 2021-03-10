@@ -959,7 +959,7 @@ is
 nice
 .
 static
-const
+constexpr
 CSSCoord
 kCheckboxRadioBorderWidth
 =
@@ -2247,6 +2247,9 @@ float
 aArrowPolygonY
 [
 ]
+const
+float
+aArrowPolygonSize
 const
 int32_t
 aArrowNumPoints
