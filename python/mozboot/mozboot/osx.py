@@ -106,6 +106,8 @@ import
 which
 HOMEBREW_BOOTSTRAP
 =
+(
+    
 "
 https
 :
@@ -124,7 +126,10 @@ install
 master
 /
 install
+.
+sh
 "
+)
 XCODE_APP_STORE
 =
 "
@@ -3126,7 +3131,7 @@ check_call
 (
 [
 "
-ruby
+bash
 "
 tf
 .
