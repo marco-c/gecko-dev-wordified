@@ -383,13 +383,6 @@ gtests
 gfxPlatform
 :
 :
-GetCMSMode
-(
-)
-;
-gfxPlatform
-:
-:
 SetCMSModeOverride
 (
 CMSMode
