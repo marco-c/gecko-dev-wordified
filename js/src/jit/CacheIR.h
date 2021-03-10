@@ -7975,6 +7975,8 @@ emitIdGuard
 (
 ValOperandId
 valId
+HandleValue
+idVal
 jsid
 id
 )
