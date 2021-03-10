@@ -107,6 +107,12 @@ RegExp
 :
 :
 kInternalRegExpRetry
+FALLBACK_TO_EXPERIMENTAL
+=
+RegExp
+:
+:
+kInternalRegExpFallbackToExperimental
 }
 ;
 /

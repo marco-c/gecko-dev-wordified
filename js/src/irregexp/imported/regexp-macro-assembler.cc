@@ -205,7 +205,7 @@ on
 the
 stack
 .
-DisallowHeapAllocation
+DisallowGarbageCollection
 no_gc
 ;
 DCHECK_EQ
@@ -374,7 +374,7 @@ on
 the
 stack
 .
-DisallowHeapAllocation
+DisallowGarbageCollection
 no_gc
 ;
 DCHECK_EQ
@@ -391,9 +391,10 @@ V8_INTL_SUPPORT
 int32_t
 length
 =
-(
+static_cast
+<
 int32_t
-)
+>
 (
 byte_length
 >
@@ -1014,7 +1015,7 @@ byte
 input_end
 )
 {
-DisallowHeapAllocation
+DisallowGarbageCollection
 no_gc
 ;
 Address
@@ -1282,12 +1283,16 @@ return_value
 =
 0
 ;
+{
+DisableGCMole
+no_gc_mole
+;
 if
 (
 js_has_overflowed
 )
 {
-AllowHeapAllocation
+AllowGarbageCollection
 yes_gc
 ;
 isolate
@@ -1312,7 +1317,7 @@ InterruptRequested
 )
 )
 {
-AllowHeapAllocation
+AllowGarbageCollection
 yes_gc
 ;
 Object
@@ -1418,6 +1423,7 @@ new_pc
 0
 )
 ;
+}
 }
 /
 /
@@ -1645,7 +1651,7 @@ t
 use
 /
 /
-DisallowHeapAllocation
+DisallowGarbageCollection
 since
 regexps
 might
@@ -1891,7 +1897,7 @@ is_one_byte
 :
 1
 ;
-DisallowHeapAllocation
+DisallowGarbageCollection
 no_gc
 ;
 const
@@ -2195,12 +2201,10 @@ ptr
 )
 )
 ;
-DCHECK
+DCHECK_GE
 (
 result
->
-=
-RETRY
+SMALLEST_REGEXP_RESULT
 )
 ;
 if
@@ -2275,7 +2279,7 @@ to
 return
 anyway
 .
-AllowHeapAllocation
+AllowGarbageCollection
 allow_allocation
 ;
 isolate

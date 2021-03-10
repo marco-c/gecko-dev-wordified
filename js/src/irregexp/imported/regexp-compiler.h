@@ -744,10 +744,10 @@ false
 )
 {
 }
-uc16
+uc32
 mask
 ;
-uc16
+uc32
 value
 ;
 bool
