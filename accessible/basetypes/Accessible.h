@@ -161,6 +161,15 @@ const
 =
 0
 ;
+virtual
+role
+Role
+(
+)
+const
+=
+0
+;
 /
 *
 *

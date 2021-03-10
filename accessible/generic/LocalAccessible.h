@@ -139,17 +139,6 @@ mozilla
 /
 a11y
 /
-Role
-.
-h
-"
-#
-include
-"
-mozilla
-/
-a11y
-/
 States
 .
 h
@@ -1186,6 +1175,7 @@ h
 .
 *
 /
+virtual
 mozilla
 :
 :
@@ -1197,6 +1187,7 @@ Role
 (
 )
 const
+override
 ;
 /
 *
