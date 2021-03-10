@@ -4436,6 +4436,14 @@ theme
 .
 if
 (
+!
+Services
+.
+startup
+.
+showedPreXULSkeletonUI
+&
+&
 Services
 .
 prefs

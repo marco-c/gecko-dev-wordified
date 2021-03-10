@@ -733,6 +733,12 @@ argv
 )
 ;
 MFBT_API
+bool
+GetPreXULSkeletonUIWasShown
+(
+)
+;
+MFBT_API
 HWND
 ConsumePreXULSkeletonUIHandle
 (
