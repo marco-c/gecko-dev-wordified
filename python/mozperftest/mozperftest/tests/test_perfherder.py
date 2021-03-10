@@ -332,7 +332,7 @@ name
 =
 =
 "
-browsertime
+mozperftest
 "
     
 assert
@@ -638,7 +638,7 @@ name
 =
 =
 "
-browsertime
+mozperftest
 "
     
 #
@@ -1196,7 +1196,7 @@ name
 =
 =
 "
-browsertime
+mozperftest
 "
     
 #
@@ -2940,7 +2940,7 @@ name
 =
 =
 "
-browsertime
+mozperftest
 "
     
 #

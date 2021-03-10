@@ -1903,7 +1903,7 @@ name
 "
 :
 "
-browsertime
+mozperftest
 "
 }
         
