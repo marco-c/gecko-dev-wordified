@@ -249,6 +249,10 @@ nsIContent
 aNode
 )
 :
+mContent
+(
+aNode
+)
 mType
 (
 aItemType
@@ -268,10 +272,6 @@ MOZ_COUNT_CTOR
 (
 nsMenuItemX
 )
-;
-mContent
-=
-aNode
 ;
 NS_ASSERTION
 (

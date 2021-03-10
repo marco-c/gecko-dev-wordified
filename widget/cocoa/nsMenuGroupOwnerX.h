@@ -252,6 +252,12 @@ nsIContent
 aContent
 )
 ;
+RefPtr
+<
+nsIContent
+>
+mContent
+;
 uint32_t
 mCurrentCommandID
 ;
