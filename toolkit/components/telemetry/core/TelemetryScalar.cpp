@@ -26187,6 +26187,7 @@ Next
 )
 )
 {
+const
 PersistedScalarArray
 &
 processScalars
@@ -27361,6 +27362,7 @@ Next
 )
 )
 {
+const
 PersistedKeyedScalarArray
 &
 processScalars

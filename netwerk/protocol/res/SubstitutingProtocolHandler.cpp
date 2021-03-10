@@ -1508,6 +1508,7 @@ Next
 )
 )
 {
+const
 SubstitutionEntry
 &
 entry
