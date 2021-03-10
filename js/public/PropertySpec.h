@@ -1011,8 +1011,21 @@ name
 ;
 private
 :
+/
+/
+JSPROP_
+*
+property
+attributes
+as
+defined
+in
+PropertyDescriptor
+.
+h
+.
 uint8_t
-flags_
+attributes_
 ;
 /
 /
@@ -1050,7 +1063,7 @@ char
 *
 name
 uint8_t
-flags
+attributes
 bool
 isAccessor
 AccessorsOrValue
@@ -1061,9 +1074,9 @@ name
 (
 name
 )
-flags_
+attributes_
 (
-flags
+attributes
 )
 isAccessor_
 (
@@ -1084,7 +1097,7 @@ JS
 SymbolCode
 name
 uint8_t
-flags
+attributes
 bool
 isAccessor
 AccessorsOrValue
@@ -1095,9 +1108,9 @@ name
 (
 name
 )
-flags_
+attributes_
 (
-flags
+attributes
 )
 isAccessor_
 (
@@ -1131,7 +1144,7 @@ char
 *
 name
 uint8_t
-flags
+attributes
 JSNative
 getter
 const
@@ -1154,7 +1167,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 /
 *
 isAccessor
@@ -1204,7 +1217,7 @@ JS
 SymbolCode
 name
 uint8_t
-flags
+attributes
 JSNative
 getter
 const
@@ -1227,7 +1240,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 /
 *
 isAccessor
@@ -1276,7 +1289,7 @@ char
 *
 name
 uint8_t
-flags
+attributes
 const
 char
 *
@@ -1293,7 +1306,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 |
 JSPROP_GETTER
 |
@@ -1363,7 +1376,7 @@ JS
 SymbolCode
 name
 uint8_t
-flags
+attributes
 const
 char
 *
@@ -1380,7 +1393,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 |
 JSPROP_GETTER
 |
@@ -1449,7 +1462,7 @@ char
 *
 name
 uint8_t
-flags
+attributes
 int32_t
 n
 )
@@ -1458,7 +1471,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 /
 *
 isAccessor
@@ -1496,7 +1509,7 @@ JS
 SymbolCode
 name
 uint8_t
-flags
+attributes
 int32_t
 n
 )
@@ -1505,7 +1518,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 /
 *
 isAccessor
@@ -1542,7 +1555,7 @@ char
 *
 name
 uint8_t
-flags
+attributes
 const
 char
 *
@@ -1553,7 +1566,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 /
 *
 isAccessor
@@ -1591,7 +1604,7 @@ JS
 SymbolCode
 name
 uint8_t
-flags
+attributes
 const
 char
 *
@@ -1602,7 +1615,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 /
 *
 isAccessor
@@ -1639,7 +1652,7 @@ char
 *
 name
 uint8_t
-flags
+attributes
 double
 d
 )
@@ -1648,7 +1661,7 @@ return
 JSPropertySpec
 (
 name
-flags
+attributes
 /
 *
 isAccessor
@@ -1721,18 +1734,6 @@ noAccessor
 )
 ;
 }
-/
-/
-JSPROP_
-*
-property
-attributes
-as
-defined
-in
-PropertyDescriptor
-.
-h
 unsigned
 attributes
 (
@@ -1740,7 +1741,7 @@ attributes
 const
 {
 return
-flags_
+attributes_
 ;
 }
 bool
@@ -1803,7 +1804,7 @@ flag
 .
 if
 (
-flags_
+attributes_
 &
 JSPROP_GETTER
 )
@@ -1824,7 +1825,7 @@ checkAccessorsAreNative
 endif
 return
 (
-flags_
+attributes_
 &
 JSPROP_GETTER
 )
@@ -2069,7 +2070,7 @@ word
 /
 /
 -
-flags_
+attributes_
 +
 isAccessor_
 (
@@ -2112,7 +2113,7 @@ uintptr_t
 define
 JS_CHECK_ACCESSOR_FLAGS
 (
-flags
+attributes
 )
 \
 (
@@ -2123,16 +2124,16 @@ std
 :
 enable_if_t
 <
+\
 (
 (
-flags
+attributes
 )
 &
 ~
 (
 JSPROP_ENUMERATE
 |
-\
 JSPROP_PERMANENT
 )
 )
@@ -2146,7 +2147,7 @@ JSPROP_PERMANENT
 )
 \
 (
-flags
+attributes
 )
 )
 #
@@ -2155,7 +2156,7 @@ JS_PSG
 (
 name
 getter
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2166,7 +2167,7 @@ nativeAccessors
 name
 JS_CHECK_ACCESSOR_FLAGS
 (
-flags
+attributes
 )
 \
 getter
@@ -2179,7 +2180,7 @@ JS_PSGS
 name
 getter
 setter
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2190,7 +2191,7 @@ nativeAccessors
 name
 JS_CHECK_ACCESSOR_FLAGS
 (
-flags
+attributes
 )
 \
 getter
@@ -2204,7 +2205,7 @@ JS_SYM_GET
 (
 symbol
 getter
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2224,7 +2225,7 @@ symbol
 \
 JS_CHECK_ACCESSOR_FLAGS
 (
-flags
+attributes
 )
 getter
 \
@@ -2236,7 +2237,7 @@ JS_SELF_HOSTED_GET
 (
 name
 getterName
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2244,12 +2245,12 @@ JSPropertySpec
 :
 selfHostedAccessors
 (
+\
 name
 JS_CHECK_ACCESSOR_FLAGS
 (
-flags
+attributes
 )
-\
 getterName
 )
 #
@@ -2259,7 +2260,7 @@ JS_SELF_HOSTED_GETSET
 name
 getterName
 setterName
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2267,12 +2268,12 @@ JSPropertySpec
 :
 selfHostedAccessors
 (
+\
 name
 JS_CHECK_ACCESSOR_FLAGS
 (
-flags
+attributes
 )
-\
 getterName
 setterName
 )
@@ -2282,7 +2283,7 @@ JS_SELF_HOSTED_SYM_GET
 (
 symbol
 getterName
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2290,7 +2291,6 @@ JSPropertySpec
 :
 selfHostedAccessors
 (
-\
 :
 :
 JS
@@ -2300,10 +2300,12 @@ SymbolCode
 :
 :
 symbol
+\
 JS_CHECK_ACCESSOR_FLAGS
 (
-flags
+attributes
 )
+\
 getterName
 )
 #
@@ -2312,7 +2314,7 @@ JS_STRING_PS
 (
 name
 string
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2321,7 +2323,7 @@ JSPropertySpec
 stringValue
 (
 name
-flags
+attributes
 string
 )
 #
@@ -2330,7 +2332,7 @@ JS_STRING_SYM_PS
 (
 symbol
 string
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2347,7 +2349,7 @@ SymbolCode
 :
 :
 symbol
-flags
+attributes
 string
 )
 #
@@ -2356,7 +2358,7 @@ JS_INT32_PS
 (
 name
 value
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2365,7 +2367,7 @@ JSPropertySpec
 int32Value
 (
 name
-flags
+attributes
 value
 )
 #
@@ -2374,7 +2376,7 @@ JS_DOUBLE_PS
 (
 name
 value
-flags
+attributes
 )
 \
 JSPropertySpec
@@ -2383,7 +2385,7 @@ JSPropertySpec
 doubleValue
 (
 name
-flags
+attributes
 value
 )
 #
