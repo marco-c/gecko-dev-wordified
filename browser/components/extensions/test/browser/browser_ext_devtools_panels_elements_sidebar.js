@@ -991,7 +991,10 @@ startup
 )
 ;
 const
+{
 toolbox
+target
+}
 =
 await
 openToolboxForTab
@@ -1727,8 +1730,6 @@ removed
 await
 expectNoSuchActorIDs
 (
-toolbox
-.
 target
 .
 client
