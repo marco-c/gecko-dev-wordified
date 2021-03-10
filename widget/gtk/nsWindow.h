@@ -1579,6 +1579,14 @@ GetFocusedWindow
 (
 )
 ;
+void
+WaylandDragWorkaround
+(
+GdkEventButton
+*
+aEvent
+)
+;
 #
 endif
 RefPtr
