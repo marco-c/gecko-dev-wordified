@@ -5205,16 +5205,6 @@ aURI
 aLoadInfo
 )
 ;
-if
-(
-!
-channel
-)
-{
-return
-NS_ERROR_NOT_INITIALIZED
-;
-}
 channel
 .
 forget
