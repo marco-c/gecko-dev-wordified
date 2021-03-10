@@ -794,6 +794,10 @@ excluded
 [
         
 "
+DIR_METADATA
+"
+        
+"
 OWNERS
 "
         
