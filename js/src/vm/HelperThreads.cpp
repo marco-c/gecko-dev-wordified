@@ -4199,13 +4199,6 @@ trace
 trc
 )
 ;
-gcOutputForDelazification_
-.
-trace
-(
-trc
-)
-;
 }
 size_t
 ParseTask
@@ -4316,13 +4309,6 @@ stencilSize
 extensibleStencilSize
 +
 gcOutput_
-.
-sizeOfExcludingThis
-(
-mallocSizeOf
-)
-+
-gcOutputForDelazification_
 .
 sizeOfExcludingThis
 (
@@ -4916,8 +4902,6 @@ stencilInput_
 *
 stencil_
 gcOutput_
-&
-gcOutputForDelazification_
 )
 ;
 }
@@ -4945,8 +4929,6 @@ cx
 stencilInput_
 borrowingStencil
 gcOutput_
-&
-gcOutputForDelazification_
 )
 ;
 }
@@ -5534,8 +5516,6 @@ stencilInput_
 *
 stencil_
 gcOutput_
-&
-gcOutputForDelazification_
 )
 )
 {

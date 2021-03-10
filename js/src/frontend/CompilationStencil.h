@@ -3984,11 +3984,6 @@ stencil
 CompilationGCOutput
 &
 gcOutput
-CompilationGCOutput
-*
-gcOutputForDelazification
-=
-nullptr
 )
 ;
 [
@@ -4013,11 +4008,6 @@ stencil
 CompilationGCOutput
 &
 gcOutput
-CompilationGCOutput
-*
-gcOutputForDelazification
-=
-nullptr
 )
 ;
 [
