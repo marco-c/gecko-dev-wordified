@@ -2420,7 +2420,6 @@ DrawTarget
 from_texture
 (
 texture
-0
 false
 )
 )
@@ -3523,7 +3522,6 @@ ReadTarget
 from_texture
 (
 texture
-0
 )
 )
 ;
