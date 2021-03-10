@@ -2415,8 +2415,7 @@ Finally
 open
 the
 channel
-rv
-=
+return
 channel
 -
 >
@@ -2424,9 +2423,6 @@ AsyncOpen
 (
 listener
 )
-;
-return
-NS_OK
 ;
 }
 void
