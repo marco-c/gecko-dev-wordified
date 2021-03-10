@@ -682,7 +682,7 @@ sym
 ;
 void
 *
-ProvisionalJitEntryStub
+ProvisionalLazyJitEntryStub
 (
 )
 ;

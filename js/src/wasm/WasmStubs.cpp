@@ -21700,7 +21700,7 @@ bool
 wasm
 :
 :
-GenerateProvisionalJitEntryStub
+GenerateProvisionalLazyJitEntryStub
 (
 MacroAssembler
 &
