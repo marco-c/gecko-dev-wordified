@@ -16377,7 +16377,7 @@ world_rect
 :
 &
 WorldRect
-device_pixel_scale
+global_device_pixel_scale
 :
 DevicePixelScale
 common
@@ -16615,7 +16615,7 @@ world_device_rect
 =
 world_clip_rect
 *
-device_pixel_scale
+global_device_pixel_scale
 ;
 let
 x_tiles
@@ -17062,7 +17062,10 @@ world_rect
 :
 &
 WorldRect
-device_pixel_scale
+surface_device_pixel_scale
+:
+DevicePixelScale
+global_device_pixel_scale
 :
 DevicePixelScale
 task_origin
@@ -17164,7 +17167,7 @@ task_origin
 screen_origin
 device_pixel_scale
 :
-device_pixel_scale
+surface_device_pixel_scale
 .
 0
 clip_transform_id
@@ -17467,7 +17470,7 @@ tile_device_rect
 =
 tile_world_rect
 *
-device_pixel_scale
+global_device_pixel_scale
 ;
 tile_device_rect
 .
@@ -17782,7 +17785,7 @@ clip_instance
 spatial_node_index
 spatial_tree
 world_rect
-device_pixel_scale
+global_device_pixel_scale
 &
 common
 is_first_clip
