@@ -276,9 +276,6 @@ class
 GamepadServiceTest
 ;
 class
-GamepadTestHelper
-;
-class
 XRInputSource
 ;
 /
@@ -517,16 +514,6 @@ dom
 :
 :
 GamepadServiceTest
-;
-friend
-class
-mozilla
-:
-:
-dom
-:
-:
-GamepadTestHelper
 ;
 friend
 class
