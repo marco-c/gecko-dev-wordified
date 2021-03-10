@@ -5144,8 +5144,7 @@ a
 GlobalObject
 and
 its
-global
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 on
 /
 /
