@@ -1428,6 +1428,11 @@ testing
 /
 withTestMock
 (
+)
+{
+return
+function
+(
 testFunction
 )
 {
@@ -1546,6 +1551,8 @@ d
 )
 ;
 }
+}
+;
 }
 ;
 }

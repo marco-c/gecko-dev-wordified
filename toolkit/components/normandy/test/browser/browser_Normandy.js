@@ -212,6 +212,11 @@ initExperimentPrefs4
 function
 withStubInits
 (
+)
+{
+return
+function
+(
 testFunction
 )
 {
@@ -268,6 +273,8 @@ testFunction
 (
 )
 )
+;
+}
 ;
 }
 decorate_task
@@ -1219,6 +1226,8 @@ branch
 decorate_task
 (
 withStubInits
+(
+)
 async
 function
 testStartup
@@ -1305,6 +1314,8 @@ initObserved
 decorate_task
 (
 withStubInits
+(
+)
 async
 function
 testStartupPrefInitFail
@@ -1428,6 +1439,8 @@ init
 decorate_task
 (
 withStubInits
+(
+)
 async
 function
 testStartupAddonStudiesInitFail
@@ -1551,6 +1564,8 @@ init
 decorate_task
 (
 withStubInits
+(
+)
 async
 function
 testStartupTelemetryEventsInitFail
@@ -1674,6 +1689,8 @@ init
 decorate_task
 (
 withStubInits
+(
+)
 async
 function
 testStartupPreferenceRolloutsInitFail
@@ -1859,6 +1876,8 @@ withTestMock
 AddonRollouts
 .
 withTestMock
+(
+)
 async
 function
 disablingTelemetryClearsEnrollmentIds
