@@ -8993,9 +8993,6 @@ transforms
 .
 if
 requested_frame
-|
-|
-has_built_scene
 {
 if
 let
