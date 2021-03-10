@@ -420,13 +420,7 @@ constructCertFromFile
 "
 test_sanctions
 /
-gspe72
--
-4
--
-ssl
--
-ls
+cds
 -
 apple
 -
