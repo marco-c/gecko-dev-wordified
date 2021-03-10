@@ -75697,7 +75697,13 @@ scriptObject
 /
 /
 aEventObject
+IsHTMLDocument
+(
+)
+?
 DocumentFlavorHTML
+:
+DocumentFlavorXML
 )
 ;
 NS_ENSURE_SUCCESS
