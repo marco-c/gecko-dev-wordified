@@ -492,6 +492,13 @@ BaseProfilerMarkerTypes
 h
 "
 #
+include
+"
+GeckoProfiler
+.
+h
+"
+#
 endif
 namespace
 mozilla

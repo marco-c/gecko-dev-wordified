@@ -80,6 +80,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 IOActivityMonitor
 .
 h
