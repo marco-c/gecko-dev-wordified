@@ -6428,14 +6428,12 @@ message
 =
 gBrowserBundle
 .
-formatStringFromName
+GetStringFromName
 (
 "
 midi
 .
 shareSysexWithFile
-.
-message
 "
 )
 ;
@@ -6446,14 +6444,12 @@ message
 =
 gBrowserBundle
 .
-formatStringFromName
+GetStringFromName
 (
 "
 midi
 .
 shareWithFile
-.
-message
 "
 )
 ;
@@ -6477,8 +6473,6 @@ formatStringFromName
 midi
 .
 shareSysexWithSite
-.
-message
 "
 [
 "
@@ -6501,8 +6495,6 @@ formatStringFromName
 midi
 .
 shareWithSite
-.
-message
 "
 [
 "
@@ -6534,7 +6526,7 @@ GetStringFromName
 "
 midi
 .
-Allow
+allow
 .
 label
 "
@@ -6548,7 +6540,7 @@ GetStringFromName
 "
 midi
 .
-Allow
+allow
 .
 accesskey
 "
@@ -6571,7 +6563,7 @@ GetStringFromName
 "
 midi
 .
-DontAllow
+block
 .
 label
 "
@@ -6585,7 +6577,7 @@ GetStringFromName
 "
 midi
 .
-DontAllow
+block
 .
 accesskey
 "
