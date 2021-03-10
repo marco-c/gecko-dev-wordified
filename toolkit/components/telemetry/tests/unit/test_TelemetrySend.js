@@ -772,6 +772,7 @@ a
 profile
 directory
 .
+await
 loadAddonManager
 (
 "

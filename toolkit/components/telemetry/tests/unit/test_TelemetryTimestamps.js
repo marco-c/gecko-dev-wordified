@@ -219,6 +219,7 @@ needs
 the
 AddonManager
 .
+await
 loadAddonManager
 (
 )
