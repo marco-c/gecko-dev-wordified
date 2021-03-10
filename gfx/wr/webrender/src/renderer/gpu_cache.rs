@@ -2337,7 +2337,6 @@ upload
 device
 texture
 rect
-0
 None
 None
 blocks
