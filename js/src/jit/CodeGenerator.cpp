@@ -50772,7 +50772,6 @@ JSObject
 JSContext
 *
 HandleShape
-HandleObjectGroup
 )
 ;
 OutOfLineCode
@@ -50794,15 +50793,6 @@ templateObj
 -
 >
 lastProperty
-(
-)
-)
-ImmGCPtr
-(
-templateObj
--
->
-group
 (
 )
 )

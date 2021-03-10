@@ -3106,16 +3106,10 @@ js
 :
 HandleShape
 shape
-js
-:
-:
-HandleObjectGroup
-group
 )
 {
 debugCheckNewObject
 (
-group
 shape
 kind
 heap
@@ -3231,7 +3225,7 @@ nobj
 >
 initGroup
 (
-group
+nullptr
 )
 ;
 nobj
