@@ -7165,15 +7165,6 @@ Shape
 *
 >
 ;
-using
-CompilerObjectGroup
-=
-CompilerGCPointer
-<
-ObjectGroup
-*
->
-;
 /
 /
 An
