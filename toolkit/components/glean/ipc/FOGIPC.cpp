@@ -260,6 +260,9 @@ ByteBuf
 aResolver
 )
 {
+#
+ifndef
+MOZ_GLEAN_ANDROID
 ByteBuf
 buf
 ;
@@ -330,6 +333,8 @@ buf
 )
 )
 ;
+#
+endif
 }
 /
 *
@@ -399,6 +404,9 @@ ByteBuf
 aResolver
 )
 {
+#
+ifndef
+MOZ_GLEAN_ANDROID
 nsTArray
 <
 ContentParent
@@ -619,6 +627,8 @@ results
 }
 )
 ;
+#
+endif
 }
 /
 *
@@ -664,6 +674,9 @@ ByteBuf
 buf
 )
 {
+#
+ifndef
+MOZ_GLEAN_ANDROID
 impl
 :
 :
@@ -677,6 +690,8 @@ buf
 mLen
 )
 ;
+#
+endif
 }
 /
 *
@@ -728,6 +743,9 @@ ByteBuf
 buf
 )
 {
+#
+ifndef
+MOZ_GLEAN_ANDROID
 switch
 (
 XRE_GetProcessType
@@ -777,6 +795,8 @@ type
 )
 ;
 }
+#
+endif
 }
 }
 /
