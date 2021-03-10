@@ -4985,6 +4985,15 @@ eReplaced
 aFrame
 -
 >
+IsFieldSetFrame
+(
+)
+&
+&
+!
+aFrame
+-
+>
 IsBlockFrame
 (
 )
