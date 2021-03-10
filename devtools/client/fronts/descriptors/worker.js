@@ -656,13 +656,8 @@ detach
 (
 )
 {
-let
-response
-;
 try
 {
-response
-=
 await
 super
 .
@@ -743,9 +738,6 @@ worker
 )
 ;
 }
-return
-response
-;
 }
 async
 _getRegistrationIfActive

@@ -117,12 +117,8 @@ request
 }
 response
 :
-RetVal
-(
-"
-json
-"
-)
+{
+}
 }
 getTarget
 :
