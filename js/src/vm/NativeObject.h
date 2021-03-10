@@ -4366,11 +4366,6 @@ js
 :
 HandleShape
 shape
-js
-:
-:
-HandleObjectGroup
-group
 )
 ;
 #

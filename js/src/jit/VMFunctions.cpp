@@ -6278,8 +6278,6 @@ JSContext
 cx
 HandleShape
 shape
-HandleObjectGroup
-group
 )
 {
 JSObject
@@ -6293,7 +6291,6 @@ create
 (
 cx
 shape
-group
 )
 ;
 if
@@ -8840,7 +8837,7 @@ MOZ_ASSERT
 arrRes
 -
 >
-group
+shape
 (
 )
 =
@@ -8848,7 +8845,7 @@ group
 templateObj
 -
 >
-group
+shape
 (
 )
 )
