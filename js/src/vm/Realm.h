@@ -759,7 +759,7 @@ entry
 group
 -
 >
-proto
+protoDeprecated
 (
 )
 =
