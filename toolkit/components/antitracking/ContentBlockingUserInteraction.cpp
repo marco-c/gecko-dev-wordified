@@ -199,6 +199,14 @@ if
 (
 !
 aPrincipal
+|
+|
+aPrincipal
+-
+>
+IsSystemPrincipal
+(
+)
 )
 {
 /
