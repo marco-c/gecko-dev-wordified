@@ -785,14 +785,6 @@ equal
 false
 MarionettePrefs
 .
-enabled
-)
-;
-equal
-(
-false
-MarionettePrefs
-.
 clickToStart
 )
 ;
