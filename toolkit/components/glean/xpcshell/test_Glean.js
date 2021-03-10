@@ -476,7 +476,7 @@ version
 .
 3
 "
-arc
+arch
 :
 "
 x64

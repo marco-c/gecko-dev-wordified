@@ -106,6 +106,13 @@ nsIFOG
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 namespace
 mozilla
 {
@@ -115,9 +122,12 @@ final
 :
 public
 nsIFOG
+public
+nsIObserver
 {
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIFOG
+NS_DECL_NSIOBSERVER
 public
 :
 FOG
