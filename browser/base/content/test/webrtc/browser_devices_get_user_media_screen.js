@@ -978,7 +978,7 @@ getElementById
 "
 webRTC
 -
-previewWarning
+previewWarningBox
 "
 )
 .
@@ -2220,7 +2220,7 @@ getElementById
 "
 webRTC
 -
-previewWarning
+previewWarningBox
 "
 )
 .
@@ -2472,7 +2472,7 @@ getElementById
 "
 webRTC
 -
-previewWarning
+previewWarningBox
 "
 )
 .
@@ -3007,7 +3007,7 @@ getElementById
 "
 webRTC
 -
-previewWarning
+previewWarningBox
 "
 )
 .
