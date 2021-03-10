@@ -2232,6 +2232,15 @@ cfg_file
 =
 os
 .
+environ
+.
+get
+(
+"
+MACHRC
+"
+os
+.
 path
 .
 join
@@ -2240,6 +2249,7 @@ state_dir
 "
 machrc
 "
+)
 )
             
 if
