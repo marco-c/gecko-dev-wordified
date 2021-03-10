@@ -706,13 +706,13 @@ installer
 "
     
 import
-urllib2
+requests
     
-f
+r
 =
-urllib2
+requests
 .
-urlopen
+get
 (
 RUSTUP_MANIFEST
 )
@@ -784,8 +784,25 @@ version
 for
 line
 in
-f
+r
+.
+iter_lines
+(
+)
 :
+        
+line
+=
+line
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
         
 key
 value
@@ -799,7 +816,6 @@ line
 .
 split
 (
-b
 "
 =
 "
@@ -976,6 +992,9 @@ end
 =
 "
 "
+flush
+=
+True
 )
         
 else
@@ -997,6 +1016,9 @@ end
 =
 "
 "
+flush
+=
+True
 )
         
 checksum
@@ -1101,55 +1123,6 @@ checksums
 "
 "
 "
-    
-#
-Unbuffer
-stdout
-so
-our
-two
--
-part
-'
-Checking
-.
-.
-.
-'
-messages
-print
-correctly
-    
-#
-even
-if
-there
-'
-s
-network
-delay
-.
-    
-sys
-.
-stdout
-=
-os
-.
-fdopen
-(
-sys
-.
-stdout
-.
-fileno
-(
-)
-"
-w
-"
-0
-)
     
 #
 Hook
@@ -1308,6 +1281,9 @@ end
 =
 "
 "
+flush
+=
+True
 )
     
 version
