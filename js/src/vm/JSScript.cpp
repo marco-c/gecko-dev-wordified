@@ -8046,7 +8046,7 @@ frontend
 StencilXDR
 :
 :
-codeSharedData
+SharedData
 <
 mode
 >
@@ -17671,6 +17671,7 @@ MakeUnique
 XDRIncrementalStencilEncoder
 >
 (
+cx
 )
 ;
 if
@@ -17734,7 +17735,6 @@ xdrEncoder_
 >
 setInitial
 (
-cx
 options
 std
 :
@@ -17880,7 +17880,6 @@ xdrEncoder_
 >
 addDelazification
 (
-cx
 stencil
 )
 ;
@@ -18008,7 +18007,6 @@ xdrEncoder_
 >
 linearize
 (
-cx
 buffer
 this
 )
