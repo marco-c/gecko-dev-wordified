@@ -2,6 +2,8 @@ from
 mod_pywebsocket
 import
 msgutil
+import
+six
 def
 web_socket_do_extra_handshake
 (
@@ -46,6 +48,15 @@ expected_messages
 )
 :
         
+expected_message
+=
+six
+.
+b
+(
+expected_message
+)
+        
 message
 =
 msgutil
@@ -56,14 +67,6 @@ request
 )
         
 if
-type
-(
-message
-)
-=
-=
-str
-and
 message
 =
 =
