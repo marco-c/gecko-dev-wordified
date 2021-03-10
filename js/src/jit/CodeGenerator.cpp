@@ -28348,7 +28348,7 @@ scope
 using
 Fn
 =
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 (
 *
@@ -28371,7 +28371,7 @@ InitialHeap
 callVM
 <
 Fn
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 :
 :
 create

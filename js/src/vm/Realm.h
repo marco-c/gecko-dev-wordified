@@ -354,13 +354,10 @@ class
 GlobalObject
 ;
 class
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 ;
 class
 MapObject
-;
-class
-NonSyntacticLexicalEnvironmentObject
 ;
 class
 ScriptSourceObject
@@ -2025,7 +2022,7 @@ obj
 js
 :
 :
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 getOrCreateNonSyntacticLexicalEnvironment
 (
@@ -2042,7 +2039,7 @@ enclosing
 js
 :
 :
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 getOrCreateNonSyntacticLexicalEnvironment
 (
@@ -2069,7 +2066,7 @@ thisv
 js
 :
 :
-NonSyntacticLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 getNonSyntacticLexicalEnvironment
 (
@@ -2223,7 +2220,7 @@ WeakHeapPtr
 js
 :
 :
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 >
 lexicalEnv_
@@ -3726,7 +3723,7 @@ inline
 js
 :
 :
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 unbarrieredLexicalEnvironment
 (
@@ -3793,7 +3790,7 @@ global
 js
 :
 :
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 &
 lexicalEnv
 )

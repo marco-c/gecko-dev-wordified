@@ -56996,7 +56996,7 @@ None
 Allocate
 a
 new
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 .
 class
 MNewLexicalEnvironmentObject
@@ -57104,12 +57104,10 @@ None
 Allocate
 a
 new
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 from
-an
 existing
 one
-.
 class
 MCopyLexicalEnvironmentObject
 :
@@ -63114,7 +63112,7 @@ MNullaryInstruction
 {
 CompilerGCPointer
 <
-NamedLambdaObject
+LexicalEnvironmentObject
 *
 >
 templateObj_
@@ -63122,7 +63120,7 @@ templateObj_
 explicit
 MNewNamedLambdaObject
 (
-NamedLambdaObject
+LexicalEnvironmentObject
 *
 templateObj
 )
@@ -63152,7 +63150,7 @@ INSTRUCTION_HEADER
 NewNamedLambdaObject
 )
 TRIVIAL_NEW_WRAPPERS
-NamedLambdaObject
+LexicalEnvironmentObject
 *
 templateObj
 (

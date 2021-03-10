@@ -701,7 +701,7 @@ template
 struct
 TypeToDataType
 <
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 >
 {
@@ -8740,7 +8740,7 @@ copySlots
 {
 Handle
 <
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 >
 lexicalEnv
@@ -8749,7 +8749,7 @@ env
 .
 as
 <
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 )
@@ -8760,7 +8760,7 @@ copySlots
 )
 {
 return
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 :
 :
 clone
@@ -8771,7 +8771,7 @@ lexicalEnv
 ;
 }
 return
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 :
 :
 recreate
@@ -9381,7 +9381,7 @@ frame
 >
 popOffEnvironmentChain
 <
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 )
@@ -9419,7 +9419,7 @@ frame
 >
 popOffEnvironmentChain
 <
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 )

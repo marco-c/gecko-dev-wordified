@@ -298,16 +298,13 @@ class
 EnvironmentObject
 ;
 class
-BlockLexicalEnvironmentObject
-;
-class
-ExtensibleLexicalEnvironmentObject
-;
-class
 GeckoProfilerRuntime
 ;
 class
 InterpreterFrame
+;
+class
+LexicalEnvironmentObject
 ;
 class
 EnvironmentIter
@@ -3702,7 +3699,7 @@ callObj
 const
 ;
 inline
-ExtensibleLexicalEnvironmentObject
+LexicalEnvironmentObject
 &
 extensibleLexicalEnvironment
 (
@@ -3738,7 +3735,7 @@ inline
 void
 replaceInnermostEnvironment
 (
-BlockLexicalEnvironmentObject
+EnvironmentObject
 &
 env
 )

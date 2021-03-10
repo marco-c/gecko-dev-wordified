@@ -5303,7 +5303,7 @@ PrepareScopeData
 <
 LexicalScope
 AtomT
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 cx
@@ -14762,7 +14762,7 @@ ScopeStencil
 createSpecificScope
 <
 LexicalScope
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 JSContext

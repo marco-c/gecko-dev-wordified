@@ -6734,7 +6734,7 @@ initialFrame
 .
 popOffEnvironmentChain
 <
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 )
@@ -23449,7 +23449,7 @@ CASE
 InitGLexical
 )
 {
-ExtensibleLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 lexicalEnv
 ;
@@ -26389,7 +26389,7 @@ fp
 >
 popOffEnvironmentChain
 <
-BlockLexicalEnvironmentObject
+LexicalEnvironmentObject
 >
 (
 )

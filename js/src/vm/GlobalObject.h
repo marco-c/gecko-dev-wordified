@@ -385,7 +385,7 @@ class
 GlobalScope
 ;
 class
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 ;
 class
 PlainObject
@@ -927,7 +927,7 @@ key
 }
 public
 :
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 &
 lexicalEnvironment
 (

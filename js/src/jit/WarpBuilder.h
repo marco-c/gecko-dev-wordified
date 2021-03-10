@@ -2043,7 +2043,7 @@ callee
 MDefinition
 *
 env
-NamedLambdaObject
+LexicalEnvironmentObject
 *
 templateObj
 )

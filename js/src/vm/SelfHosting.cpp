@@ -21524,7 +21524,7 @@ global
 ;
 Rooted
 <
-GlobalLexicalEnvironmentObject
+LexicalEnvironmentObject
 *
 >
 globalLexical
