@@ -872,6 +872,17 @@ mozilla
 /
 dom
 /
+AutoEntryScript
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMJSClass
 .
 h

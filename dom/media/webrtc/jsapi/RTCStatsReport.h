@@ -151,13 +151,10 @@ mozilla
 /
 dom
 /
-ScriptSettings
+AutoEntryScript
 .
 h
 "
-/
-/
-AutoEntryScript
 #
 include
 "

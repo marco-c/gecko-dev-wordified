@@ -375,6 +375,17 @@ mozilla
 /
 dom
 /
+AutoEntryScript
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 CDATASection
 .
 h

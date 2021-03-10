@@ -226,6 +226,17 @@ mozilla
 /
 dom
 /
+AutoEntryScript
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BindingUtils
 .
 h

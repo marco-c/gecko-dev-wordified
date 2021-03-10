@@ -632,15 +632,6 @@ using
 namespace
 JS
 ;
-using
-mozilla
-:
-:
-dom
-:
-:
-AutoEntryScript
-;
 /
 /
 The
