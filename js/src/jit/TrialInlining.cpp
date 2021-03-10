@@ -3307,7 +3307,7 @@ if
 targetScript
 -
 >
-needsArgsObj
+argumentsHasVarBinding
 (
 )
 &
