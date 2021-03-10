@@ -352,7 +352,13 @@ shown
 triggerSecondaryCommand
 (
 this
-1
+/
+*
+remember
+=
+*
+/
+true
 )
 ;
 }
