@@ -1185,6 +1185,8 @@ evaluated
 decorate_task
 (
 withMockNormandyApi
+(
+)
 withStub
 (
 ClientEnvironment

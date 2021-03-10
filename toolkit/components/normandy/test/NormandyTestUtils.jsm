@@ -1059,8 +1059,12 @@ decorate_task
 (
 *
 withMockPreferences
+(
+)
 *
 withMockNormandyApi
+(
+)
 *
 async
 function

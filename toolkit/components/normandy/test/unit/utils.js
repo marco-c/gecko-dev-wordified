@@ -232,6 +232,11 @@ mochitests
 function
 withMockPreferences
 (
+)
+{
+return
+function
+(
 testFunction
 )
 {
@@ -276,6 +281,8 @@ cleanup
 )
 ;
 }
+}
+;
 }
 ;
 }
@@ -502,7 +509,12 @@ function
 withServer
 (
 server
-task
+)
+{
+return
+function
+(
+testFunction
 )
 {
 return
@@ -653,7 +665,7 @@ clearIndexCache
 try
 {
 await
-task
+testFunction
 (
 serverUrl
 preferences
@@ -681,6 +693,8 @@ resolve
 }
 }
 )
+;
+}
 ;
 }
 function
@@ -738,7 +752,6 @@ function
 withScriptServer
 (
 scriptPath
-task
 )
 {
 return
@@ -748,7 +761,6 @@ makeScriptServer
 (
 scriptPath
 )
-task
 )
 ;
 }
@@ -968,7 +980,11 @@ server
 function
 withMockApiServer
 (
-task
+apiName
+=
+"
+mock_api
+"
 )
 {
 return
@@ -978,12 +994,9 @@ makeMockApiServer
 (
 do_get_file
 (
-"
-mock_api
-"
+apiName
 )
 )
-task
 )
 ;
 }

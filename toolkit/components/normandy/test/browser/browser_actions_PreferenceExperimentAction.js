@@ -441,6 +441,8 @@ args
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 Uptake
@@ -534,6 +536,8 @@ RECIPE_SUCCESS
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 Uptake
@@ -799,6 +803,8 @@ ACTION_SUCCESS
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1043,6 +1049,8 @@ browser_actions_PreferenceExperimentAction
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1138,6 +1146,8 @@ test
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1234,6 +1244,8 @@ called
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1311,6 +1323,8 @@ called
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1447,6 +1461,8 @@ _finalize
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1568,6 +1584,8 @@ experiments
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1759,6 +1777,8 @@ thrown
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1846,6 +1866,8 @@ exp
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 PreferenceExperiments
@@ -1935,6 +1957,8 @@ highpop
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withStub
 (
 Sampling
@@ -2126,7 +2150,11 @@ branches
 decorate_task
 (
 withStudiesEnabled
+(
+)
 withMockPreferences
+(
+)
 PreferenceExperiments
 .
 withMockExperiments
@@ -2513,6 +2541,8 @@ errors
 decorate_task
 (
 withStudiesEnabled
+(
+)
 async
 function
 test_temporary_errors_set_deadline
@@ -2988,6 +3018,8 @@ it
 decorate_task
 (
 withStudiesEnabled
+(
+)
 PreferenceExperiments
 .
 withMockExperiments
@@ -3248,6 +3280,8 @@ experiment
 decorate_task
 (
 withStudiesEnabled
+(
+)
 async
 function
 test_temporary_errors_hit_deadline
@@ -3506,6 +3540,8 @@ deadline
 decorate_task
 (
 withStudiesEnabled
+(
+)
 PreferenceExperiments
 .
 withMockExperiments
@@ -3789,6 +3825,8 @@ reset
 decorate_task
 (
 withStudiesEnabled
+(
+)
 PreferenceExperiments
 .
 withMockExperiments
