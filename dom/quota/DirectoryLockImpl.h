@@ -1130,6 +1130,9 @@ Origin
 (
 )
 )
+GetPersistenceType
+(
+)
 }
 ;
 }
