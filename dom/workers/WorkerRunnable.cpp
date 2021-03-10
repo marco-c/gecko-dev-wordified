@@ -4240,16 +4240,6 @@ ThreadSafeWorkerRef
 strongRef
 )
 ;
-if
-(
-!
-mSender
-)
-{
-return
-false
-;
-}
 }
 return
 WorkerRunnable
