@@ -88704,6 +88704,7 @@ Document
 GetUnretargetedFullScreenElement
 (
 )
+const
 {
 for
 (
