@@ -129,6 +129,8 @@ import
 os
 import
 sys
+import
+six
 from
 mozpack
 .
@@ -1511,6 +1513,15 @@ sha256
 hexdigest
 (
 )
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
         
 yield
@@ -1641,27 +1652,15 @@ file
 "
 "
     
-if
-isinstance
-(
-prefix
-unicode
-)
-:
-#
-noqa
-Special
-case
-for
-Python
-2
-        
 prefix
 =
-prefix
+six
 .
-encode
+ensure_binary
 (
+prefix
+encoding
+=
 "
 utf
 -
