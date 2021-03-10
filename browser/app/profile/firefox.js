@@ -20683,9 +20683,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Enable
@@ -20724,8 +20721,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 State
