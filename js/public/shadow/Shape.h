@@ -198,7 +198,7 @@ BaseShape
 const
 JSClass
 *
-clasp_
+clasp
 ;
 }
 ;

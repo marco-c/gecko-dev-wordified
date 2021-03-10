@@ -4532,8 +4532,6 @@ friend
 struct
 StackShape
 ;
-private
-:
 /
 *
 Class
@@ -4561,6 +4559,8 @@ headerPtr
 )
 ;
 }
+private
+:
 /
 /
 Temporary
@@ -4698,6 +4698,19 @@ JSTracer
 trc
 )
 ;
+static
+constexpr
+size_t
+offsetOfClasp
+(
+)
+{
+return
+offsetOfHeaderPtr
+(
+)
+;
+}
 private
 :
 static
@@ -4722,7 +4735,7 @@ shadow
 :
 :
 BaseShape
-clasp_
+clasp
 )
 )
 ;
