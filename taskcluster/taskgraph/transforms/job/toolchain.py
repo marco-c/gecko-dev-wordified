@@ -987,7 +987,7 @@ tree
 "
 :
 "
-deb8
+deb10
 -
 toolchain
 -
