@@ -11995,16 +11995,6 @@ KeyedScalar
 info
 )
 ;
-if
-(
-!
-scalar
-)
-{
-return
-NS_ERROR_INVALID_ARG
-;
-}
 scalarStorage
 -
 >
