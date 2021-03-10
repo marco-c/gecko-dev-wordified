@@ -2300,18 +2300,11 @@ ignore
 "
             
 "
-gcc
 *
-"
-            
-"
--
--
-ignore
-"
-            
-"
-vs2017_
+*
+/
+fetches
+/
 *
 "
             
