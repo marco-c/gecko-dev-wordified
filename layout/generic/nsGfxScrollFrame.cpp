@@ -7515,9 +7515,6 @@ ScrollableOverflow
 )
 )
 ;
-nsRect
-scrolledArea
-;
 /
 /
 Preserve
@@ -7556,11 +7553,13 @@ ScrollableOverflow
 portSize
 )
 ;
+nsRect
 scrolledArea
-.
-UnionRectEdges
-(
+=
 scrolledRect
+.
+UnionEdges
+(
 nsRect
 (
 nsPoint

@@ -21949,10 +21949,11 @@ floor
 .
 )
 aRect
-.
-UnionRectEdges
-(
+=
 aRect
+.
+UnionEdges
+(
 transformedBounds
 )
 ;

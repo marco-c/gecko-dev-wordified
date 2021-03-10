@@ -18262,12 +18262,13 @@ GetOffsetTo
 anchorFrame
 )
 ;
+*
 aRect
--
->
-UnionRectEdges
-(
+=
 anchorRect
+.
+UnionEdges
+(
 focusRect
 )
 ;
