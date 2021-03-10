@@ -440,10 +440,16 @@ exports
 [
 export_name
 ]
+{
+tier
+:
 "
 ion
 "
+asString
+:
 true
+}
 )
 ;
 if

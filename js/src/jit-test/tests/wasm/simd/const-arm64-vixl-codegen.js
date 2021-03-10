@@ -804,10 +804,16 @@ ins
 exports
 .
 f
+{
+tier
+:
 "
 baseline
 "
+asString
+:
 true
+}
 )
 ;
 assertEq
