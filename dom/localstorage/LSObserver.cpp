@@ -232,7 +232,7 @@ MOZ_ASSERT
 gLSObservers
 -
 >
-Get
+Contains
 (
 mOrigin
 )
