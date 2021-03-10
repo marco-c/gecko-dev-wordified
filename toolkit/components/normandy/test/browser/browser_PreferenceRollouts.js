@@ -959,7 +959,9 @@ async
 function
 testRecordOriginalValuesGraduates
 (
+{
 sendEventSpy
+}
 )
 {
 await
@@ -1240,7 +1242,9 @@ async
 function
 testInitTelemetry
 (
+{
 setExperimentActiveStub
+}
 )
 {
 await
@@ -1550,8 +1554,10 @@ async
 function
 testInitGraduationSet
 (
+{
 setExperimentActiveStub
 sendEventSpy
+}
 )
 {
 await

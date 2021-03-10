@@ -679,7 +679,9 @@ async
 function
 testInitTelemetry
 (
+{
 setExperimentActiveStub
+}
 )
 {
 await
