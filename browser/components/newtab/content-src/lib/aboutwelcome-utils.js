@@ -1111,7 +1111,7 @@ primary
 -
 button
 -
-label
+label2
 "
 }
 action
