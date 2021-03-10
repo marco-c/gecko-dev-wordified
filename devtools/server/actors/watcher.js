@@ -1109,6 +1109,15 @@ THREAD_STATE
 ]
 :
 hasBrowserElement
+[
+Resources
+.
+TYPES
+.
+SERVER_SENT_EVENT
+]
+:
+hasBrowserElement
 }
 /
 /
