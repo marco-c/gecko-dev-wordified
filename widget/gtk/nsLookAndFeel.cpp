@@ -197,6 +197,15 @@ include
 "
 mozilla
 /
+Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RelativeLuminanceUtils
 .
 h

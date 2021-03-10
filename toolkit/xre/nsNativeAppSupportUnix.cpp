@@ -217,6 +217,15 @@ include
 "
 mozilla
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
