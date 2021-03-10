@@ -5306,11 +5306,6 @@ isInAutomation
 {
 printers
 =
-await
-Promise
-.
-resolve
-(
 window
 .
 _mockPrinters
@@ -5318,7 +5313,6 @@ _mockPrinters
 |
 [
 ]
-)
 ;
 }
 else
