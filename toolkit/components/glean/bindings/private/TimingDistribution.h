@@ -329,6 +329,7 @@ ids
 void
 StopAndAccumulate
 (
+const
 TimerId
 &
 &
@@ -386,6 +387,7 @@ abort
 void
 Cancel
 (
+const
 TimerId
 &
 &
