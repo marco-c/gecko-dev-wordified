@@ -4060,16 +4060,6 @@ mSuspendedProgressEvents
 true
 ;
 }
-void
-ResumeProgressEvents
-(
-)
-{
-mSuspendedProgressEvents
-=
-false
-;
-}
 bool
 CanCancelContentJS
 (

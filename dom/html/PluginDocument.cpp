@@ -301,10 +301,6 @@ aNewRequest
 uint16_t
 &
 aBFCacheStatus
-bool
-aIncludeSubdocuments
-=
-true
 )
 override
 ;
@@ -766,8 +762,6 @@ aNewRequest
 uint16_t
 &
 aBFCacheStatus
-bool
-aIncludeSubdocuments
 )
 {
 /

@@ -4186,10 +4186,6 @@ animations
 void
 Freeze
 (
-bool
-aIncludeSubDocuments
-=
-true
 )
 ;
 bool
@@ -4234,10 +4230,6 @@ area
 void
 Thaw
 (
-bool
-aIncludeSubDocuments
-=
-true
 )
 ;
 void

@@ -6427,13 +6427,6 @@ bool
 aSkipCheckingDynEntries
 )
 ;
-void
-FirePageHideShowNonRecursive
-(
-bool
-aShow
-)
-;
 nsresult
 Dispatch
 (

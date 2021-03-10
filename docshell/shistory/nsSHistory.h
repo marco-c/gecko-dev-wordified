@@ -1152,15 +1152,6 @@ LoadEntryResult
 aLoadResults
 )
 ;
-static
-void
-LoadURIOrBFCache
-(
-LoadEntryResult
-&
-aLoadEntry
-)
-;
 /
 /
 If
