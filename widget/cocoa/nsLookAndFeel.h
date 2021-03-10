@@ -325,9 +325,6 @@ mColorMenuHoverText
 nscolor
 mColorButtonText
 ;
-bool
-mHasColorButtonText
-;
 nscolor
 mColorButtonHoverText
 ;
