@@ -79,12 +79,8 @@ import
 logging
 import
 os
-from
-six
 import
-text_type
-import
-six
+re
 import
 sys
 import
@@ -92,22 +88,20 @@ time
 import
 traceback
 import
-re
+six
+from
+six
+import
+text_type
 from
 mach
 .
 decorators
 import
-(
-    
-CommandArgument
-    
-CommandProvider
-    
 Command
-    
+CommandArgument
+CommandProvider
 SubCommand
-)
 from
 mozbuild
 .
@@ -2895,12 +2889,12 @@ options
 import
 taskgraph
 .
-parameters
+actions
         
 import
 taskgraph
 .
-actions
+parameters
         
 from
 taskgraph
@@ -3314,8 +3308,6 @@ options
         
 import
 taskgraph
-.
-parameters
         
 import
 taskgraph
@@ -3324,6 +3316,8 @@ generator
         
 import
 taskgraph
+.
+parameters
         
 if
 options
@@ -3819,8 +3813,11 @@ options
         
 import
 taskgraph
+        
+import
+taskgraph
 .
-parameters
+actions
         
 import
 taskgraph
@@ -3829,11 +3826,8 @@ generator
         
 import
 taskgraph
-        
-import
-taskgraph
 .
-actions
+parameters
         
 try
 :
@@ -4419,8 +4413,8 @@ taskgraph
 .
 docker
 import
-build_image
 build_context
+build_image
         
 try
 :
