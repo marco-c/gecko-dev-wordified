@@ -389,7 +389,7 @@ h
 /
 /
 for
-IsWaylandDisabled
+IsWaylandEnabled
 on
 IsX11EGLEnabled
 #
@@ -7149,8 +7149,7 @@ ifdef
 MOZ_WAYLAND
 if
 (
-!
-IsWaylandDisabled
+IsWaylandEnabled
 (
 )
 )
