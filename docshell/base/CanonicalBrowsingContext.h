@@ -284,7 +284,7 @@ WindowGlobalParent
 ;
 /
 /
-RemotenessChangeState
+RemotenessChangeOptions
 is
 passed
 through
@@ -303,7 +303,7 @@ remoteness
 change
 .
 struct
-RemotenessChangeState
+RemotenessChangeOptions
 {
 nsCString
 mRemoteType
@@ -1434,9 +1434,9 @@ RemotenessPromise
 ChangeRemoteness
 (
 const
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 uint64_t
 aPendingSwitchId
 )
@@ -1752,9 +1752,9 @@ CanonicalBrowsingContext
 *
 aNewContext
 const
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aRemotenessOptions
 )
 ;
 bool
@@ -1916,9 +1916,9 @@ aPromise
 uint64_t
 aPendingSwitchId
 const
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 )
 ;
 void
@@ -1990,8 +1990,8 @@ mSpecificGroup
 uint64_t
 mPendingSwitchId
 ;
-RemotenessChangeState
-mState
+RemotenessChangeOptions
+mOptions
 ;
 }
 ;

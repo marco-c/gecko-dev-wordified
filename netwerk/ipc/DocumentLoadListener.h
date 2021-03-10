@@ -269,7 +269,7 @@ class
 CanonicalBrowsingContext
 ;
 struct
-RemotenessChangeState
+RemotenessChangeOptions
 ;
 }
 /
@@ -2168,9 +2168,9 @@ const
 dom
 :
 :
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 )
 ;
 /

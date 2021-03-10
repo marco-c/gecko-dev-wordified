@@ -1031,9 +1031,9 @@ CanonicalBrowsingContext
 *
 aNewContext
 const
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aRemotenessOptions
 )
 {
 MOZ_ASSERT
@@ -1172,7 +1172,7 @@ cleared
 .
 if
 (
-aState
+aRemotenessOptions
 .
 mTryUseBFCache
 )
@@ -7215,7 +7215,7 @@ frameLoaderOwner
 ChangeRemotenessToProcess
 (
 mContentParent
-mState
+mOptions
 mSpecificGroup
 error
 )
@@ -7852,7 +7852,7 @@ Destroy
 MOZ_ASSERT
 (
 !
-mState
+mOptions
 .
 mReplaceBrowsingContext
 "
@@ -8346,9 +8346,9 @@ aPromise
 uint64_t
 aPendingSwitchId
 const
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 )
 :
 mTarget
@@ -8363,9 +8363,9 @@ mPendingSwitchId
 (
 aPendingSwitchId
 )
-mState
+mOptions
 (
-aState
+aOptions
 )
 {
 }
@@ -8466,9 +8466,9 @@ CanonicalBrowsingContext
 ChangeRemoteness
 (
 const
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 uint64_t
 aPendingSwitchId
 )
@@ -8516,7 +8516,7 @@ process
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-aState
+aOptions
 .
 mReplaceBrowsingContext
 |
@@ -8535,7 +8535,7 @@ subframes
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aState
+aOptions
 .
 mSpecificGroupId
 =
@@ -8543,7 +8543,7 @@ mSpecificGroupId
 0
 |
 |
-aState
+aOptions
 .
 mReplaceBrowsingContext
 "
@@ -8697,7 +8697,7 @@ __func__
 }
 if
 (
-aState
+aOptions
 .
 mRemoteType
 .
@@ -8807,7 +8807,7 @@ if
 embedderBrowser
 &
 &
-aState
+aOptions
 .
 mRemoteType
 =
@@ -8974,7 +8974,7 @@ owner
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-aState
+aOptions
 .
 mReplaceBrowsingContext
 )
@@ -8982,7 +8982,7 @@ mReplaceBrowsingContext
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-aState
+aOptions
 .
 mRemoteType
 .
@@ -9070,7 +9070,7 @@ PendingRemotenessChange
 this
 promise
 aPendingSwitchId
-aState
+aOptions
 )
 ;
 mPendingRemotenessChange
@@ -9106,7 +9106,7 @@ completed
 .
 if
 (
-aState
+aOptions
 .
 mSpecificGroupId
 )
@@ -9121,7 +9121,7 @@ BrowsingContextGroup
 :
 GetOrCreate
 (
-aState
+aOptions
 .
 mSpecificGroupId
 )
@@ -9265,7 +9265,7 @@ blocker
 }
 if
 (
-aState
+aOptions
 .
 mRemoteType
 .
@@ -9389,7 +9389,7 @@ BrowsingContextGroup
 *
 finalGroup
 =
-aState
+aOptions
 .
 mReplaceBrowsingContext
 ?
@@ -9422,7 +9422,7 @@ aRemoteType
 =
 *
 /
-aState
+aOptions
 .
 mRemoteType
 /
