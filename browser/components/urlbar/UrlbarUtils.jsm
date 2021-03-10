@@ -7654,6 +7654,15 @@ type
 boolean
 "
 }
+qsSuggestion
+:
+{
+type
+:
+"
+string
+"
+}
 sendAttributionRequest
 :
 {
