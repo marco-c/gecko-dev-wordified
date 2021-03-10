@@ -104,6 +104,11 @@ TestFlatten
 cpp
 "
 "
+TestPersistenceType
+.
+cpp
+"
+"
 TestQuotaCommon
 .
 cpp
