@@ -3383,7 +3383,10 @@ nscoord
 aBEndEdgeOfChildren
 )
 ;
-void
+mozilla
+:
+:
+OverflowAreas
 ComputeOverflowAreas
 (
 const
@@ -3396,12 +3399,6 @@ nsStyleDisplay
 aDisplay
 nscoord
 aBEndEdgeOfChildren
-mozilla
-:
-:
-OverflowAreas
-&
-aOverflowAreas
 )
 ;
 /

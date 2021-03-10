@@ -10849,6 +10849,10 @@ Height
 )
 )
 ;
+aMetrics
+.
+mOverflowAreas
+=
 ComputeOverflowAreas
 (
 areaBounds
@@ -10857,9 +10861,6 @@ reflowInput
 >
 mStyleDisplay
 blockEndEdgeOfChildren
-aMetrics
-.
-mOverflowAreas
 )
 ;
 /
@@ -15706,7 +15707,7 @@ y
 }
 }
 }
-void
+OverflowAreas
 nsBlockFrame
 :
 :
@@ -15722,9 +15723,6 @@ nsStyleDisplay
 aDisplay
 nscoord
 aBEndEdgeOfChildren
-OverflowAreas
-&
-aOverflowAreas
 )
 {
 /
@@ -16099,8 +16097,7 @@ c_str
 ;
 #
 endif
-aOverflowAreas
-=
+return
 areas
 ;
 }
