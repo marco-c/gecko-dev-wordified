@@ -1520,8 +1520,16 @@ if
 walker
 .
 currentNode
-instanceof
+.
+constructor
+.
+name
+=
+=
+=
+"
 HTMLTemplateElement
+"
 )
 {
 buf
