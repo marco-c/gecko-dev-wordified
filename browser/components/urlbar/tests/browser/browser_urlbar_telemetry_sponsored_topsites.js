@@ -314,6 +314,16 @@ browser
 .
 urlbar
 .
+sponsoredTopSites
+"
+true
+]
+[
+"
+browser
+.
+urlbar
+.
 suggest
 .
 topsites
