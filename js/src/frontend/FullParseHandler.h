@@ -6481,9 +6481,6 @@ isArgumentsName
 (
 Node
 node
-JSContext
-*
-cx
 )
 {
 return
@@ -6530,9 +6527,6 @@ isEvalName
 (
 Node
 node
-JSContext
-*
-cx
 )
 {
 return
@@ -6579,9 +6573,6 @@ isAsyncKeyword
 (
 Node
 node
-JSContext
-*
-cx
 )
 {
 return
