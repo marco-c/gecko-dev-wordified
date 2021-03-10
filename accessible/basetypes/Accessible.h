@@ -658,6 +658,15 @@ eCombobox
 )
 ;
 }
+virtual
+bool
+IsLink
+(
+)
+const
+=
+0
+;
 /
 *
 *
