@@ -1947,7 +1947,7 @@ env
 >
 as
 <
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 >
 (
 )
@@ -3378,7 +3378,7 @@ GlobalObject
 BackstagePass
 /
 /
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 [
 this
 =

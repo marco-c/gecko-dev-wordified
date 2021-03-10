@@ -198,7 +198,7 @@ global
 js
 :
 :
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 &
 lexicalEnv
 )
@@ -275,7 +275,7 @@ global_
 js
 :
 :
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 *
 JS
 :

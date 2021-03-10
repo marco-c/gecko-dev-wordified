@@ -3246,7 +3246,7 @@ snapshot
 .
 WarpGCPtr
 <
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 *
 >
 globalLexicalEnv_
@@ -3397,7 +3397,7 @@ return
 scriptSnapshots_
 ;
 }
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 *
 globalLexicalEnv
 (

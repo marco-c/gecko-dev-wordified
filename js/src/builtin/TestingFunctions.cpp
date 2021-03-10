@@ -38862,7 +38862,7 @@ vp
 ;
 Rooted
 <
-LexicalEnvironmentObject
+GlobalLexicalEnvironmentObject
 *
 >
 globalLexical
