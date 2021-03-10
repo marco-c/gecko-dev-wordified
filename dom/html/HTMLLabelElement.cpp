@@ -1225,12 +1225,9 @@ true
 ;
 DispatchClickEvent
 (
-MOZ_KnownLive
-(
 aVisitor
 .
 mPresContext
-)
 mouseEvent
 content
 false

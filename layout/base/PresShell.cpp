@@ -3980,12 +3980,9 @@ frame
 >
 HandleEvent
 (
-MOZ_KnownLive
-(
 aVisitor
 .
 mPresContext
-)
 aVisitor
 .
 mEvent
