@@ -314,9 +314,6 @@ nscolor
 mColorHighlight
 ;
 nscolor
-mColorMenuHover
-;
-nscolor
 mColorTextSelectForeground
 ;
 nscolor
