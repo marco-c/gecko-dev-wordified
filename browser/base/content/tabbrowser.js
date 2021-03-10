@@ -29768,7 +29768,7 @@ title
 ;
 title
 .
-value
+textContent
 =
 label
 ;
