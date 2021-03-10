@@ -5854,17 +5854,6 @@ if
 (
 !
 blankProto
-|
-|
-!
-JSObject
-:
-:
-setDelegate
-(
-cx
-blankProto
-)
 )
 {
 return
