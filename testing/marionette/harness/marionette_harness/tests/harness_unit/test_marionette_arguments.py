@@ -146,6 +146,7 @@ return
 True
         
 except
+ValueError
 :
             
 return
