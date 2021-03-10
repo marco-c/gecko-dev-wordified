@@ -191,17 +191,6 @@ mozilla
 /
 dom
 /
-BindingDeclarations
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 CanvasRenderingContextHelper
 .
 h
