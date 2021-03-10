@@ -743,10 +743,10 @@ group
 &
 entry
 .
-group
+shape
 -
 >
-clasp
+getObjectClass
 (
 )
 =

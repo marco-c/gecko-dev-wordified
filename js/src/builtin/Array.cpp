@@ -25164,7 +25164,11 @@ allocKind
 GetInitialHeap
 (
 newKind
-group
+&
+ArrayObject
+:
+:
+class_
 )
 shape
 group
@@ -25729,7 +25733,11 @@ heap
 GetInitialHeap
 (
 GenericObject
-group
+&
+ArrayObject
+:
+:
+class_
 )
 ;
 Rooted
