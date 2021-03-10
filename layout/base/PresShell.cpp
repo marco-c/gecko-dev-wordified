@@ -62068,6 +62068,8 @@ PresShell
 :
 Freeze
 (
+bool
+aIncludeSubDocuments
 )
 {
 mUpdateApproximateFrameVisibilityEvent
@@ -62097,6 +62099,9 @@ true
 ;
 if
 (
+aIncludeSubDocuments
+&
+&
 mDocument
 )
 {
@@ -62318,6 +62323,8 @@ PresShell
 :
 Thaw
 (
+bool
+aIncludeSubDocuments
 )
 {
 nsPresContext
@@ -62364,6 +62371,9 @@ Thaw
 }
 if
 (
+aIncludeSubDocuments
+&
+&
 mDocument
 )
 {
