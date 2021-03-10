@@ -2178,7 +2178,7 @@ testing
 /
 withMockExperiments
 (
-mockExperiments
+prefExperiments
 =
 [
 ]
@@ -2196,9 +2196,6 @@ async
 function
 wrappedTestFunction
 (
-.
-.
-.
 args
 )
 {
@@ -2213,7 +2210,7 @@ for
 const
 exp
 of
-mockExperiments
+prefExperiments
 )
 {
 if
@@ -2307,11 +2304,13 @@ try
 await
 testFunction
 (
+{
 .
 .
 .
 args
-mockExperiments
+prefExperiments
+}
 )
 ;
 }

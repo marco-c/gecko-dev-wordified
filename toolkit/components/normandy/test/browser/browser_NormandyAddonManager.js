@@ -54,6 +54,8 @@ jsm
 decorate_task
 (
 ensureAddonCleanup
+(
+)
 async
 function
 download_and_install
@@ -240,6 +242,8 @@ uninstall
 decorate_task
 (
 ensureAddonCleanup
+(
+)
 async
 function
 id_mismatch
@@ -489,6 +493,8 @@ installed
 decorate_task
 (
 ensureAddonCleanup
+(
+)
 async
 function
 version_mismatch
@@ -739,6 +745,8 @@ installed
 decorate_task
 (
 ensureAddonCleanup
+(
+)
 async
 function
 download_failure

@@ -986,7 +986,7 @@ param
 Array
 }
 [
-studies
+addonStudies
 =
 [
 ]
@@ -995,7 +995,7 @@ studies
 /
 withStudies
 (
-studies
+addonStudies
 =
 [
 ]
@@ -1013,9 +1013,6 @@ async
 function
 wrappedTestFunction
 (
-.
-.
-.
 args
 )
 {
@@ -1060,7 +1057,7 @@ Promise
 .
 all
 (
-studies
+addonStudies
 .
 map
 (
@@ -1081,11 +1078,13 @@ try
 await
 testFunction
 (
+{
 .
 .
 .
 args
-studies
+addonStudies
+}
 )
 ;
 }

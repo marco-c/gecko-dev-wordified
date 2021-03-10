@@ -1374,6 +1374,8 @@ Set
 (
 )
 rollouts
+:
+prefRollouts
 =
 [
 ]
@@ -1390,12 +1392,7 @@ testFunction
 {
 return
 async
-(
-.
-.
-.
 args
-)
 =
 >
 {
@@ -1441,7 +1438,7 @@ Promise
 .
 all
 (
-rollouts
+prefRollouts
 .
 map
 (
@@ -1475,11 +1472,13 @@ try
 await
 testFunction
 (
+{
 .
 .
 .
 args
-rollouts
+prefRollouts
+}
 )
 ;
 }

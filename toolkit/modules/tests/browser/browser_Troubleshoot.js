@@ -1314,9 +1314,11 @@ async
 function
 testNormandyInfoInTroubleshooting
 (
-prefStudies
+{
+prefExperiments
 addonStudies
 prefRollouts
+}
 )
 {
 await
@@ -1366,11 +1368,11 @@ info
 .
 prefStudies
 [
-prefStudies
+prefExperiments
 [
 1
 ]
-prefStudies
+prefExperiments
 [
 0
 ]
