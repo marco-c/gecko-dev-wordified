@@ -971,8 +971,6 @@ browser
 .
 proton
 .
-appmenu
-.
 enabled
 "
 false
