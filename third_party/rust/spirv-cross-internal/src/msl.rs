@@ -378,6 +378,10 @@ pub
 sampler_id
 :
 u32
+pub
+count
+:
+u32
 }
 /
 /
@@ -1167,6 +1171,10 @@ Eq
 PartialEq
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 Version
@@ -1177,6 +1185,7 @@ V1_2
 V2_0
 V2_1
 V2_2
+V2_3
 }
 impl
 Version
@@ -1226,6 +1235,10 @@ V2_2
 =
 >
 20200
+V2_3
+=
+>
+20300
 }
 }
 }
@@ -2290,6 +2303,11 @@ msl_sampler
 res
 .
 sampler_id
+count
+:
+res
+.
+count
 }
 }
 )

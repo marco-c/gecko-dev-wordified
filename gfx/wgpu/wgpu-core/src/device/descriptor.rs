@@ -182,8 +182,6 @@ Self
 {
 DescriptorAllocator
 (
-unsafe
-{
 gpu_descriptor
 :
 :
@@ -194,7 +192,6 @@ new
 (
 0
 )
-}
 )
 }
 pub
@@ -240,6 +237,8 @@ B
 DeviceError
 >
 {
+unsafe
+{
 self
 .
 0
@@ -269,6 +268,7 @@ empty
 layout_descriptor_count
 count
 )
+}
 .
 map_err
 (
@@ -367,6 +367,8 @@ B
 Device
 )
 {
+unsafe
+{
 self
 .
 0
@@ -384,6 +386,7 @@ B
 device
 )
 )
+}
 }
 }
 impl
@@ -919,6 +922,10 @@ max_sets
 as
 usize
 ranges
+.
+into_iter
+(
+)
 hal
 :
 :
@@ -935,8 +942,6 @@ flags
 bits
 (
 )
-as
-u32
 )
 )
 {
@@ -1059,7 +1064,7 @@ DescriptorPool
 layouts
 :
 impl
-Iterator
+ExactSizeIterator
 <
 Item
 =

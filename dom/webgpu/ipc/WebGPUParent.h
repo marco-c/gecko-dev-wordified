@@ -199,12 +199,12 @@ RecvAdapterRequestDevice
 RawId
 aSelfId
 const
-dom
+ipc
 :
 :
-GPUDeviceDescriptor
+ByteBuf
 &
-aDesc
+aByteBuf
 RawId
 aNewId
 )
