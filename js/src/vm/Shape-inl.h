@@ -1773,18 +1773,6 @@ with
 that
 shape
 .
-RootedObject
-proto
-(
-cx
-obj
--
->
-staticPrototype
-(
-)
-)
-;
 EmptyShape
 :
 :
@@ -1792,7 +1780,6 @@ insertInitialShape
 (
 cx
 shape
-proto
 )
 ;
 return

@@ -1074,8 +1074,6 @@ an
 object
 with
 shape
-/
-proto
 .
 *
 /
@@ -1085,9 +1083,6 @@ invalidateEntriesForShape
 Shape
 *
 shape
-JSObject
-*
-proto
 )
 ;
 private

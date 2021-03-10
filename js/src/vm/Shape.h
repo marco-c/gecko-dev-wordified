@@ -9246,8 +9246,6 @@ JSContext
 cx
 HandleShape
 shape
-HandleObject
-proto
 )
 ;
 /
