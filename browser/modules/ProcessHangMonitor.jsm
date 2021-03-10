@@ -3917,7 +3917,7 @@ win
 .
 gHighPriorityNotificationBox
 .
-PRIORITY_WARNING_HIGH
+PRIORITY_INFO_HIGH
 buttons
 event
 =
