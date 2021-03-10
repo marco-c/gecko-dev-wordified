@@ -3690,6 +3690,7 @@ checkTabsPage
 "
 Show
 More
+Tabs
 "
 )
 ;
