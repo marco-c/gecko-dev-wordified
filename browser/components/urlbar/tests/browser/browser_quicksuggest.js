@@ -396,7 +396,7 @@ e
 .
 "
 Firefox
-Suggests
+Suggest
 "
 )
 .
@@ -617,7 +617,7 @@ actionText
 =
 "
 Firefox
-Suggests
+Suggest
 "
 ;
 }

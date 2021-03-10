@@ -233,7 +233,7 @@ should
 show
 "
 Firefox
-Suggests
+Suggest
 "
 instead
 of
