@@ -153,6 +153,7 @@ testing
 /
 class
 GeckoMVMContext
+final
 :
 public
 MVMContext
