@@ -2279,7 +2279,7 @@ atom_
 /
 Index
 into
-CompilationStencil
+BaseCompilationStencil
 :
 :
 scriptData
