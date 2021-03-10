@@ -10593,7 +10593,7 @@ NativeObject
 a
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 a
@@ -10625,7 +10625,7 @@ NativeObject
 b
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 b
@@ -12196,7 +12196,7 @@ object
 is
 not
 marked
-Delegate
+IsUsedAsPrototype
 .
 This
 is
@@ -12204,9 +12204,9 @@ the
 common
 case
 .
+/
+/
 Because
-/
-/
 shape
 implies
 proto
@@ -12217,13 +12217,13 @@ the
 caller
 changing
 the
+/
+/
 object
 '
 s
 shape
 .
-/
-/
 The
 JIT
 guards
@@ -12236,12 +12236,12 @@ shape
 or
 prototype
 so
+/
+/
 there
 '
 s
 nothing
-/
-/
 we
 have
 to
@@ -12265,7 +12265,7 @@ The
 object
 is
 marked
-Delegate
+IsUsedAsPrototype
 .
 This
 implies
@@ -12387,7 +12387,7 @@ if
 obj
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )
@@ -12542,7 +12542,7 @@ if
 JSObject
 :
 :
-setDelegate
+setIsUsedAsPrototype
 (
 cx
 protoObj
@@ -21882,19 +21882,21 @@ if
 obj
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )
+{
 out
 .
 put
 (
 "
-delegate
+used_as_prototype
 "
 )
 ;
+}
 if
 (
 !
@@ -21917,6 +21919,7 @@ nonProxyIsExtensible
 (
 )
 )
+{
 out
 .
 put
@@ -21926,6 +21929,7 @@ not_extensible
 "
 )
 ;
+}
 if
 (
 obj
@@ -21935,6 +21939,7 @@ maybeHasInterestingSymbolProperty
 (
 )
 )
+{
 out
 .
 put
@@ -21944,6 +21949,7 @@ maybe_has_interesting_symbol
 "
 )
 ;
+}
 if
 (
 obj
@@ -21953,6 +21959,7 @@ isBoundFunction
 (
 )
 )
+{
 out
 .
 put
@@ -21962,6 +21969,7 @@ bound_function
 "
 )
 ;
+}
 if
 (
 obj
@@ -21971,6 +21979,7 @@ isQualifiedVarObj
 (
 )
 )
+{
 out
 .
 put
@@ -21980,6 +21989,7 @@ varobj
 "
 )
 ;
+}
 if
 (
 obj
@@ -21989,6 +21999,7 @@ isUnqualifiedVarObj
 (
 )
 )
+{
 out
 .
 put
@@ -21998,6 +22009,7 @@ unqualified_varobj
 "
 )
 ;
+}
 if
 (
 obj
@@ -22007,6 +22019,7 @@ hasUncacheableProto
 (
 )
 )
+{
 out
 .
 put
@@ -22016,6 +22029,7 @@ has_uncacheable_proto
 "
 )
 ;
+}
 if
 (
 obj

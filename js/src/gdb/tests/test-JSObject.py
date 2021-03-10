@@ -142,7 +142,7 @@ JSObject
 object
 Object
 ]
-delegate
+used_as_prototype
 "
 )
 assert_pretty

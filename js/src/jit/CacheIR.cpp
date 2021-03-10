@@ -4318,7 +4318,7 @@ MOZ_ASSERT
 obj
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )
@@ -5024,7 +5024,7 @@ MOZ_ASSERT
 pobj
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )

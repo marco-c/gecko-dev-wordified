@@ -9390,7 +9390,7 @@ toObject
 )
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )
@@ -9940,7 +9940,7 @@ toObject
 )
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )
@@ -13419,7 +13419,7 @@ toObject
 )
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )
@@ -13441,7 +13441,7 @@ if
 JSObject
 :
 :
-setDelegate
+setIsUsedAsPrototype
 (
 cx
 protoObj

@@ -128,7 +128,7 @@ ObjectFlag
         
 self
 .
-objectflag_Delegate
+objectflag_IsUsedAsPrototype
 =
 prettyprinters
 .
@@ -143,7 +143,7 @@ js
 ObjectFlag
 :
 :
-Delegate
+IsUsedAsPrototype
 "
         
 )
@@ -527,7 +527,7 @@ flags_
 "
 ]
             
-is_delegate
+used_as_prototype
 =
 bool
 (
@@ -537,7 +537,7 @@ self
 .
 otc
 .
-objectflag_Delegate
+objectflag_IsUsedAsPrototype
 )
             
 name
@@ -655,10 +655,10 @@ else
 "
                 
 "
-delegate
+used_as_prototype
 "
 if
-is_delegate
+used_as_prototype
 else
 "
 "

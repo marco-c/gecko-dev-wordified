@@ -6620,11 +6620,14 @@ false
 }
 /
 /
-Mark
+Set
 the
-prototype
+used
+-
 as
-delegate
+-
+prototype
+flag
 here
 because
 we
@@ -6657,7 +6660,7 @@ return
 JSObject
 :
 :
-setDelegate
+setIsUsedAsPrototype
 (
 cx
 proto

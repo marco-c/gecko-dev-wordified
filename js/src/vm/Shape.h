@@ -4370,7 +4370,7 @@ ObjectFlag
 :
 uint16_t
 {
-Delegate
+IsUsedAsPrototype
 =
 1
 <

@@ -52028,7 +52028,7 @@ MOZ_ASSERT
 targetProto
 -
 >
-isDelegate
+isUsedAsPrototype
 (
 )
 )
