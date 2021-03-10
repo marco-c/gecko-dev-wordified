@@ -4763,6 +4763,13 @@ tm
 .
 spinEventLoopUntilOrShutdown
 (
+"
+LoginManagerAuthPrompter
+.
+jsm
+:
+promptAuth
+"
 (
 )
 =

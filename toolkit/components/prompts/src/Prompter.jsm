@@ -8588,6 +8588,15 @@ tm
 .
 spinEventLoopUntilOrShutdown
 (
+"
+prompts
+/
+Prompter
+.
+jsm
+:
+openPromptSync
+"
 (
 )
 =
