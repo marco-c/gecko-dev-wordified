@@ -366,6 +366,7 @@ secondarybuttonaccesskey
 hidden
 =
 secondarybuttonhidden
+dropmarkerhidden
 "
 "
 .
