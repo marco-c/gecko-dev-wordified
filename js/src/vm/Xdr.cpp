@@ -3051,13 +3051,6 @@ resultCode
 ;
 #
 endif
-stencilAlloc_
-=
-&
-stencil
-.
-alloc
-;
 MOZ_TRY
 (
 XDRStencilHeader
