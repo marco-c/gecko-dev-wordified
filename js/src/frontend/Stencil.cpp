@@ -6144,6 +6144,12 @@ JSFunction
 :
 :
 class_
+cx
+-
+>
+realm
+(
+)
 TaggedProto
 (
 proto
