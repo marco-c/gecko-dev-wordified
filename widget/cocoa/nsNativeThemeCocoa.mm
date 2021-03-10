@@ -368,6 +368,13 @@ h
 #
 include
 "
+MacThemeGeometryType
+.
+h
+"
+#
+include
+"
 VibrancyManager
 .
 h
