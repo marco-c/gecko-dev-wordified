@@ -1547,6 +1547,10 @@ return
 NS_OK
 ;
 }
+FlushTags
+(
+)
+;
 DidBuildModelImpl
 (
 aTerminated
