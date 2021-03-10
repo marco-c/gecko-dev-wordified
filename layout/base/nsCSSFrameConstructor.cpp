@@ -10128,7 +10128,7 @@ items
 0
 ]
 .
-IsUrl
+IsImage
 (
 )
 ;
@@ -10918,7 +10918,7 @@ case
 Type
 :
 :
-Url
+Image
 :
 return
 GeneratedImageContent
