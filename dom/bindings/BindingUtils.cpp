@@ -5620,6 +5620,19 @@ constructorClass
 wantsInterfaceHasInstance
 )
 {
+if
+(
+isChrome
+|
+|
+StaticPrefs
+:
+:
+dom_webidl_crosscontext_hasinstance_enabled
+(
+)
+)
+{
 JS
 :
 :
@@ -5680,6 +5693,7 @@ JSPROP_PERMANENT
 return
 nullptr
 ;
+}
 }
 if
 (
