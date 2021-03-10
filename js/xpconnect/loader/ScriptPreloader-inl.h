@@ -455,10 +455,7 @@ ElemType
 *
 matcher_
 ;
-Maybe
-<
 Iterator
->
 iter_
 ;
 public
@@ -487,15 +484,7 @@ matcher_
 (
 matcher
 )
-{
 iter_
-.
-emplace
-(
-std
-:
-:
-move
 (
 hash
 .
@@ -503,8 +492,7 @@ Iter
 (
 )
 )
-)
-;
+{
 }
 class
 Elem
@@ -559,10 +547,6 @@ return
 iter_
 .
 iter_
-.
-ref
-(
-)
 ;
 }
 void
@@ -820,8 +804,7 @@ Elem
 *
 this
 iter_
--
->
+.
 Done
 (
 )
