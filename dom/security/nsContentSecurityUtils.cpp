@@ -3776,6 +3776,7 @@ xpinstallSignatures
 ;
 if
 (
+!
 xpinstallSignatures
 )
 {
@@ -7400,6 +7401,7 @@ xpinstallSignatures
 ;
 if
 (
+!
 xpinstallSignatures
 )
 {
