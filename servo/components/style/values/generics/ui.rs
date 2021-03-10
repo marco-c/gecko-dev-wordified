@@ -360,6 +360,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToResolvedValue
 ToShmem
@@ -376,7 +377,7 @@ pub
 struct
 GenericCursorImage
 <
-Image
+ImageUrl
 Number
 >
 {
@@ -391,9 +392,9 @@ images
 from
 .
 pub
-image
+url
 :
-Image
+ImageUrl
 /
 /
 /
@@ -444,7 +445,7 @@ CursorImage
 ;
 impl
 <
-Image
+ImageUrl
 :
 ToCss
 Number
@@ -455,7 +456,7 @@ ToCss
 for
 CursorImage
 <
-Image
+ImageUrl
 Number
 >
 {
@@ -489,7 +490,7 @@ Write
 {
 self
 .
-image
+url
 .
 to_css
 (

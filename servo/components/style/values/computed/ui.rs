@@ -89,10 +89,10 @@ values
 computed
 :
 :
-image
+url
 :
 :
-Image
+ComputedImageUrl
 ;
 use
 crate
@@ -199,7 +199,7 @@ generics
 :
 GenericCursorImage
 <
-Image
+ComputedImageUrl
 Number
 >
 ;
