@@ -1214,6 +1214,17 @@ destroy
 {
 this
 .
+emit
+(
+"
+descriptor
+-
+destroyed
+"
+)
+;
+this
+.
 _browser
 =
 null

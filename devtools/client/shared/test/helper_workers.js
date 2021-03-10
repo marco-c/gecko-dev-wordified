@@ -815,7 +815,9 @@ workerDescriptorFront
 once
 (
 "
-close
+descriptor
+-
+destroyed
 "
 )
 ;
