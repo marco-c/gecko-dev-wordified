@@ -941,9 +941,9 @@ sObserverId
 static
 *
 /
-nsDataHashtable
+nsTHashMap
 <
-nsUint64HashKey
+uint64_t
 nsCOMPtr
 <
 nsIObserver
