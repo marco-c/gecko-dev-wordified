@@ -3999,7 +3999,6 @@ has_depth
 false
 }
 )
-1
 )
 }
 /

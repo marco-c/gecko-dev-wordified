@@ -3444,7 +3444,6 @@ TextureFilter
 :
 Linear
 None
-1
 )
 ;
 device
@@ -6666,7 +6665,6 @@ TextureFilter
 :
 Nearest
 None
-1
 )
 ;
 device
@@ -15459,7 +15457,6 @@ info
 has_depth
 }
 )
-1
 )
 ;
 if
@@ -29071,7 +29068,6 @@ has_depth
 false
 }
 )
-1
 )
 ;
 self
@@ -34805,11 +34801,6 @@ plain
 .
 filter
 rt_info
-plain
-.
-size
-.
-1
 )
 ;
 device

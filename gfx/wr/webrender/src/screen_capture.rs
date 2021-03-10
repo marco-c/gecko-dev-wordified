@@ -1624,7 +1624,6 @@ has_depth
 false
 }
 )
-1
 )
 ;
 if
