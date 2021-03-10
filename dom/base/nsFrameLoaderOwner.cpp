@@ -2216,7 +2216,7 @@ void
 nsFrameLoaderOwner
 :
 :
-DeattachFrameLoader
+DetachFrameLoader
 (
 nsFrameLoader
 *
@@ -2313,7 +2313,7 @@ Destroy
 }
 else
 {
-DeattachFrameLoader
+DetachFrameLoader
 (
 aFrameLoader
 )
