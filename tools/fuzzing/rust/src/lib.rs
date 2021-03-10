@@ -1569,7 +1569,6 @@ Ok
 )
 }
 }
-;
 fn
 maybe_commit
 <
@@ -1662,7 +1661,6 @@ Ok
 )
 }
 }
-;
 fn
 get_static_data
 <
@@ -1739,7 +1737,6 @@ unwrap
 }
 )
 }
-;
 fn
 get_fuzz_data
 <
@@ -1816,7 +1813,6 @@ collect
 }
 )
 }
-;
 fn
 get_any_data
 <
@@ -1911,7 +1907,6 @@ _
 None
 }
 }
-;
 fn
 store_put
 <
@@ -2529,7 +2524,6 @@ e
 1MiB
 .
 }
-;
 let
 root
 =
