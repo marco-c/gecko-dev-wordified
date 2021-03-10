@@ -170,17 +170,6 @@ mozilla
 /
 dom
 /
-AutoEntryScript
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ClonedErrorHolder
 .
 h

@@ -142,11 +142,6 @@ dom
 =
 [
 "
-AutoEntryScript
-.
-h
-"
-"
 LoadedScript
 .
 h
@@ -186,11 +181,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-AutoEntryScript
-.
-cpp
-"
 "
 LoadedScript
 .
