@@ -6673,6 +6673,7 @@ gcOutput
 cx
 )
 ;
+{
 BorrowingCompilationStencil
 borrowingStencil
 (
@@ -6701,6 +6702,7 @@ get
 return
 false
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -6802,10 +6804,10 @@ input
 source
 -
 >
-xdrEncodeFunctionStencil
+addDelazificationToIncrementalEncoding
 (
 cx
-borrowingStencil
+compilationState
 )
 )
 {
