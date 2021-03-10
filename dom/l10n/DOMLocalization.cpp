@@ -180,17 +180,6 @@ mozilla
 /
 dom
 /
-AutoEntryScript
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Element
 .
 h

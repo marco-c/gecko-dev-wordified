@@ -153,17 +153,6 @@ mozilla
 /
 dom
 /
-AutoEntryScript
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DOMException
 .
 h
