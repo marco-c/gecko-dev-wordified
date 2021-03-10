@@ -8590,7 +8590,7 @@ True
 set_config
 (
 "
-ENABLE_GECKODRIVER
+MOZ_GECKODRIVER
 "
 geckodriver
 )
