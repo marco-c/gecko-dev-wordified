@@ -8261,9 +8261,6 @@ stencil
 CompilationGCOutput
 &
 gcOutput
-CompilationGCOutput
-*
-gcOutputForDelazification
 )
 {
 if
@@ -8275,7 +8272,6 @@ cx
 input
 stencil
 gcOutput
-gcOutputForDelazification
 )
 )
 {
@@ -8835,9 +8831,6 @@ stencil
 CompilationGCOutput
 &
 gcOutput
-CompilationGCOutput
-*
-gcOutputForDelazification
 )
 {
 /
