@@ -1689,9 +1689,6 @@ sharingState
 "
 title
 "
-"
-url
-"
 ]
 )
 ;
