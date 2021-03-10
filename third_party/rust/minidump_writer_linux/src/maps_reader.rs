@@ -1229,6 +1229,7 @@ as_deref
 )
 &
 &
+(
 offset
 =
 =
@@ -1239,6 +1240,7 @@ offset
 =
 =
 module_end_address
+)
 &
 &
 perms
@@ -3397,7 +3399,8 @@ so
 7efd96d8c000
 -
 7efd96d92000
-rw
+-
+-
 -
 p
 00000000
