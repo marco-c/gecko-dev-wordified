@@ -1069,9 +1069,6 @@ not
 in
 [
 "
-win
-"
-"
 android
 "
 ]
