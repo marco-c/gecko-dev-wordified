@@ -1521,15 +1521,6 @@ return
 NodeGeneric
 ;
 }
-Node
-newElision
-(
-)
-{
-return
-NodeGeneric
-;
-}
 UnaryNodeType
 newDelete
 (
