@@ -1016,6 +1016,11 @@ js
 :
 HandleShape
 shape
+js
+:
+:
+HandleObjectGroup
+group
 )
 ;
 uint32_t

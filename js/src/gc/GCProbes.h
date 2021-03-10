@@ -164,6 +164,9 @@ h
 namespace
 js
 {
+class
+ObjectGroup
+;
 namespace
 gc
 {
