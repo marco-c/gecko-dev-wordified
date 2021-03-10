@@ -42532,6 +42532,7 @@ CanSavePresentation
 (
 aNewRequest
 bfCacheCombo
+true
 )
 ;
 MOZ_ASSERT_IF
