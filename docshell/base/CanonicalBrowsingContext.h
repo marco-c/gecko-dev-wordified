@@ -745,6 +745,14 @@ GetActiveSessionHistoryEntry
 (
 )
 ;
+void
+SetActiveSessionHistoryEntry
+(
+SessionHistoryEntry
+*
+aEntry
+)
+;
 UniquePtr
 <
 LoadingSessionHistoryInfo
