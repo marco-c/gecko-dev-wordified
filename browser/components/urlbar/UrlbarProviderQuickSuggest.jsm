@@ -486,9 +486,9 @@ baseURL
 )
 +
 "
-sponsored
+firefox
 -
-search
+suggest
 "
 )
 ;
