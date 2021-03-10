@@ -247,12 +247,6 @@ position
 :
 absolute
 ;
-top
-:
-0
-.
-3em
-;
 inset
 -
 inline
@@ -260,6 +254,12 @@ inline
 end
 :
 2em
+;
+align
+-
+self
+:
+center
 ;
 font
 -
