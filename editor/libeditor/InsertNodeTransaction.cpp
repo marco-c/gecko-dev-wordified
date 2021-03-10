@@ -1197,8 +1197,14 @@ contentToInsert
 error
 )
 ;
-NS_WARNING
+NS_WARNING_ASSERTION
 (
+!
+error
+.
+Failed
+(
+)
 "
 nsINode
 :
