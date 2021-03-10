@@ -25239,7 +25239,6 @@ insertInitialShape
 (
 cx
 shape
-proto
 )
 ;
 }
