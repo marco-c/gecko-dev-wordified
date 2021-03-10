@@ -4704,15 +4704,9 @@ document
 getElementById
 (
 "
-fill
+passwordmgr
 -
-login
--
-and
--
-generated
--
-password
+items
 -
 separator
 "
