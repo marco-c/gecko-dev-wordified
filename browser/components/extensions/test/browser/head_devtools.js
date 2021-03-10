@@ -402,14 +402,7 @@ outerWindowID
 )
 ;
 return
-{
 toolbox
-target
-:
-toolbox
-.
-target
-}
 ;
 }
 async

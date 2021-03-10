@@ -1218,9 +1218,7 @@ Open
 the
 Toolbox
 const
-{
 toolbox
-}
 =
 await
 openToolboxForTab
@@ -1568,9 +1566,7 @@ Open
 the
 Toolbox
 const
-{
 toolbox
-}
 =
 await
 openToolboxForTab
