@@ -73552,7 +73552,6 @@ quotaManager
 GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 originDir
-persistent
 )
 /
 /
