@@ -510,13 +510,12 @@ bool
 aIsEnabled
 )
 ;
-void
+already_AddRefed
+<
+nsIContent
+>
 GetMenuPopupContent
 (
-nsIContent
-*
-*
-aResult
 )
 ;
 bool
