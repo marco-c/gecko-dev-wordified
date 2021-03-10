@@ -10023,15 +10023,6 @@ native
 DNS
 add_task
 (
-{
-skip_if
-:
-(
-)
-=
->
-true
-}
 async
 function
 test25e
