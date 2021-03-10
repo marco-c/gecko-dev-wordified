@@ -88,6 +88,13 @@ MPL
 DevToolsModules
 (
 "
+descriptor
+-
+mixin
+.
+js
+"
+"
 process
 .
 js
