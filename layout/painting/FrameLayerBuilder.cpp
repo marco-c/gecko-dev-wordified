@@ -570,6 +570,13 @@ nsTransitionManager
 .
 h
 "
+#
+include
+"
+nsTHashMap
+.
+h
+"
 using
 namespace
 mozilla
@@ -10692,7 +10699,7 @@ mAncestorIndex
 ;
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsGenericHashKey
 <
@@ -36599,6 +36606,8 @@ Nothing
 (
 )
 )
+RefPtr
+{
 static_cast
 <
 ImageLayer
@@ -36607,6 +36616,7 @@ ImageLayer
 (
 maskLayer
 )
+}
 )
 ;
 }
@@ -36682,6 +36692,8 @@ Some
 i
 )
 )
+RefPtr
+{
 static_cast
 <
 ImageLayer
@@ -36690,6 +36702,7 @@ ImageLayer
 (
 maskLayer
 )
+}
 )
 ;
 }

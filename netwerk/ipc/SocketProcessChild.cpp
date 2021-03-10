@@ -2593,7 +2593,10 @@ mBackgroundDataBridgeMap
 InsertOrUpdate
 (
 aChannelId
+RefPtr
+{
 aActor
+}
 )
 ;
 }

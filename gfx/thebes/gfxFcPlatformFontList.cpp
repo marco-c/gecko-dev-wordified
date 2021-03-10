@@ -8950,7 +8950,10 @@ mLocalNames
 InsertOrUpdate
 (
 psname
+RefPtr
+{
 aFont
+}
 )
 ;
 }
@@ -8974,7 +8977,10 @@ mLocalNames
 InsertOrUpdate
 (
 fullname
+RefPtr
+{
 aFont
+}
 )
 ;
 }
@@ -12645,13 +12651,13 @@ the
 global
 list
 done
-FcPattern
-*
+const
+auto
 fontPattern
 =
 mLocalNames
 .
-Get
+Lookup
 (
 keyName
 )
@@ -12671,6 +12677,7 @@ new
 gfxFontconfigFontEntry
 (
 aFontName
+*
 fontPattern
 aWeightForEntry
 aStretchForEntry

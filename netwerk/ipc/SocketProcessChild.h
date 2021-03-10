@@ -137,6 +137,13 @@ nsRefPtrHashtable
 .
 h
 "
+#
+include
+"
+nsTHashMap
+.
+h
+"
 namespace
 mozilla
 {
@@ -942,9 +949,9 @@ below
 Mutex
 mMutex
 ;
-nsDataHashtable
+nsTHashMap
 <
-nsUint64HashKey
+uint64_t
 RefPtr
 <
 BackgroundDataBridgeParent

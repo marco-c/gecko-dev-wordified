@@ -167,7 +167,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -528,7 +528,7 @@ nsIMutableArray
 >
 mPendingListenerChanges
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsISupportsHashKey
 RefPtr

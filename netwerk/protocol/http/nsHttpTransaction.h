@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsTHashMap
+.
+h
+"
+#
+include
+"
 TimingStruct
 .
 h
@@ -3346,9 +3353,9 @@ mProxyConnectResponseCode
 OnPushCallback
 mOnPushCallback
 ;
-nsDataHashtable
+nsTHashMap
 <
-nsUint32HashKey
+uint32_t
 RefPtr
 <
 Http2PushedStreamWrapper
