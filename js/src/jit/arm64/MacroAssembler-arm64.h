@@ -7424,14 +7424,6 @@ t
 ;
 inline
 void
-andStackPtrTo
-(
-Register
-dest
-)
-;
-inline
-void
 moveToStackPtr
 (
 Register
