@@ -24314,6 +24314,11 @@ grabbing
 help
 "
 "
+image
+-
+set
+"
+"
 inherit
 "
 "
@@ -24399,6 +24404,9 @@ text
 "
 "
 unset
+"
+"
+url
 "
 "
 vertical
