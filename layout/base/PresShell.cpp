@@ -15515,7 +15515,7 @@ do_QueryFrame
 (
 GetScrollableFrameToScroll
 (
-VerticalScollDirection
+VerticalScrollDirection
 )
 )
 ;
@@ -15651,7 +15651,7 @@ scrollFrame
 =
 GetScrollableFrameToScroll
 (
-VerticalScollDirection
+VerticalScrollDirection
 )
 ;
 if
@@ -15745,7 +15745,7 @@ scrollFrame
 =
 GetScrollableFrameToScroll
 (
-VerticalScollDirection
+VerticalScrollDirection
 )
 ;
 if
@@ -15969,7 +15969,7 @@ scrollFrame
 =
 GetScrollableFrameToScroll
 (
-VerticalScollDirection
+VerticalScrollDirection
 )
 ;
 if
