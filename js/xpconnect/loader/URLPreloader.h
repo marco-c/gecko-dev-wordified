@@ -1137,6 +1137,7 @@ char
 TypeString
 (
 )
+const
 {
 switch
 (
