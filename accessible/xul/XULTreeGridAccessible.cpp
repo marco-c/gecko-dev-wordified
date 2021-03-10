@@ -2042,7 +2042,7 @@ LocalAccessible
 XULTreeGridRowAccessible
 :
 :
-ChildAtPoint
+LocalChildAtPoint
 (
 int32_t
 aX

@@ -761,7 +761,7 @@ LocalAccessible
 OuterDocAccessible
 :
 :
-ChildAtPoint
+LocalChildAtPoint
 (
 int32_t
 aX
@@ -913,7 +913,7 @@ return
 child
 -
 >
-ChildAtPoint
+LocalChildAtPoint
 (
 aX
 aY

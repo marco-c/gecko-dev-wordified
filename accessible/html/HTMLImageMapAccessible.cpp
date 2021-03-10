@@ -1605,7 +1605,7 @@ LocalAccessible
 HTMLAreaAccessible
 :
 :
-ChildAtPoint
+LocalChildAtPoint
 (
 int32_t
 aX
