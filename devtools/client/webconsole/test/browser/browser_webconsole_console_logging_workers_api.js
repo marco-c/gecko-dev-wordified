@@ -525,9 +525,10 @@ waitFor
 findMessage
 (
 hud
-"
+'
 Symbol
 (
+"
 logged
 -
 symbol
@@ -535,8 +536,9 @@ symbol
 from
 -
 worker
-)
 "
+)
+'
 )
 )
 ;
