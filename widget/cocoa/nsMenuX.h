@@ -690,7 +690,12 @@ mIsEnabled
 true
 ;
 bool
-mDestroyHandlerCalled
+mDidFirePopupHiding
+=
+false
+;
+bool
+mDidFirePopupHidden
 =
 false
 ;
