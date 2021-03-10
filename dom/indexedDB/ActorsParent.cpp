@@ -26613,9 +26613,9 @@ final
 InitializedOnce
 <
 const
-FullOriginMetadata
+OriginMetadata
 >
-mFullOriginMetadata
+mOriginMetadata
 ;
 InitializedOnce
 <
@@ -26635,8 +26635,8 @@ DirectoryInfo
 (
 PersistenceType
 aPersistenceType
-FullOriginMetadata
-aFullOriginMetadata
+OriginMetadata
+aOriginMetadata
 nsTArray
 <
 nsString
@@ -27478,8 +27478,8 @@ DirectoryInfo
 (
 PersistenceType
 aPersistenceType
-FullOriginMetadata
-aFullOriginMetadata
+OriginMetadata
+aOriginMetadata
 nsTArray
 <
 nsString
@@ -27489,14 +27489,14 @@ nsString
 aDatabasePaths
 )
 :
-mFullOriginMetadata
+mOriginMetadata
 (
 std
 :
 :
 move
 (
-aFullOriginMetadata
+aOriginMetadata
 )
 )
 mDatabasePaths
@@ -27525,7 +27525,7 @@ PERSISTENCE_TYPE_INVALID
 MOZ_ASSERT
 (
 !
-mFullOriginMetadata
+mOriginMetadata
 -
 >
 mGroup
@@ -27538,7 +27538,7 @@ IsEmpty
 MOZ_ASSERT
 (
 !
-mFullOriginMetadata
+mOriginMetadata
 -
 >
 mOrigin
@@ -73526,7 +73526,7 @@ origin
 /
 /
 (
-LoadFullOriginMetadataWithRestore
+GetDirectoryMetadata2WithRestore
 also
 checks
 if
@@ -73549,7 +73549,7 @@ metadata
 quotaManager
 -
 >
-LoadFullOriginMetadataWithRestore
+GetDirectoryMetadataWithOriginMetadata2WithRestore
 (
 originDir
 )
@@ -73596,6 +73596,8 @@ OriginAttributes
 IsPrivateBrowsing
 (
 metadata
+.
+mOriginMetadata
 .
 mOrigin
 )
@@ -73684,6 +73686,8 @@ quotaManager
 EnsurePersistentOriginIsInitialized
 (
 metadata
+.
+mOriginMetadata
 )
 .
 map
@@ -74029,6 +74033,8 @@ EmplaceBack
 (
 persistenceType
 metadata
+.
+mOriginMetadata
 std
 :
 :
@@ -74401,7 +74407,7 @@ mPersistenceType
 *
 directoryInfo
 .
-mFullOriginMetadata
+mOriginMetadata
 Client
 :
 :
@@ -74463,7 +74469,7 @@ mPersistenceType
 *
 directoryInfo
 .
-mFullOriginMetadata
+mOriginMetadata
 databasePath
 Nothing
 {
