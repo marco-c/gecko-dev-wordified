@@ -350,11 +350,6 @@ nsInterfaceHashtable
 h
 "
 "
-nsJSThingHashtable
-.
-h
-"
-"
 nsMathUtils
 .
 h
