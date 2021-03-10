@@ -1884,7 +1884,11 @@ id
 menuitem
 -
 _tab_context_viewType_moz
-menuseparator
+page
+-
+menu
+-
+separator
 topLevels
 [
 0
@@ -2678,7 +2682,11 @@ id
 menuitem
 -
 _bookmark_context_viewType_moz
-menuseparator
+page
+-
+menu
+-
+separator
 topLevels
 [
 0
