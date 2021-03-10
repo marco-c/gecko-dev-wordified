@@ -4124,7 +4124,7 @@ AddImageURL
 (
 image
 .
-url
+image
 aURLs
 )
 ;

@@ -24401,9 +24401,6 @@ text
 unset
 "
 "
-url
-"
-"
 vertical
 -
 text
