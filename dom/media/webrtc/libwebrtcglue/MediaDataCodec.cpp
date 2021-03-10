@@ -347,12 +347,6 @@ pdm
 SupportsMimeType
 (
 codec
-nullptr
-/
-*
-dddoctor
-*
-/
 )
 )
 {

@@ -1526,7 +1526,6 @@ audioInfo
 -
 >
 mMimeType
-nullptr
 )
 )
 {

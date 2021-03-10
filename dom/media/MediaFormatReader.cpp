@@ -7415,7 +7415,6 @@ videoInfo
 -
 >
 mMimeType
-nullptr
 )
 )
 {
@@ -7661,7 +7660,6 @@ audioInfo
 -
 >
 mMimeType
-nullptr
 )
 )
 ;
