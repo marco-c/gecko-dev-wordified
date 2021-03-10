@@ -609,7 +609,6 @@ Assert
 .
 ok
 (
-!
 notification
 .
 hasAttribute
@@ -619,6 +618,7 @@ warninghidden
 "
 )
 "
+No
 warning
 message
 is
