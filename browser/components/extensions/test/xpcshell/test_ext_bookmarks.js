@@ -2589,8 +2589,6 @@ create
 title
 :
 "
-M
-zill
 "
 url
 :
@@ -2949,8 +2947,6 @@ bookmarkGuids
 unfiledGuid
 0
 "
-M
-zill
 "
 "
 http
@@ -4722,8 +4718,6 @@ bookmarks
 search
 (
 "
-M
-ZILL
 "
 )
 ;
@@ -4767,8 +4761,6 @@ test
 assertEq
 (
 "
-M
-zill
 "
 results
 [
