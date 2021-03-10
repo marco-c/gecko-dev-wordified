@@ -612,7 +612,7 @@ void
 ObjectGroup
 :
 :
-setProtoUnchecked
+setProtoUncheckedDeprecated
 (
 TaggedProto
 proto
@@ -1005,7 +1005,15 @@ group
 )
 ;
 return
-true
+JSObject
+:
+:
+setProtoUnchecked
+(
+cx
+global
+proto
+)
 ;
 }
 /
@@ -1266,7 +1274,7 @@ unbarrieredGet
 )
 -
 >
-proto
+protoDeprecated
 (
 )
 )
@@ -1450,7 +1458,7 @@ unbarrieredGet
 )
 -
 >
-proto
+protoDeprecated
 (
 )
 ;
@@ -1604,7 +1612,7 @@ group_
 group_
 -
 >
-proto
+protoDeprecated
 (
 )
 =
@@ -1856,7 +1864,7 @@ MOZ_ASSERT
 group
 -
 >
-proto
+protoDeprecated
 (
 )
 =
@@ -2453,7 +2461,7 @@ proto
 group
 -
 >
-proto
+protoDeprecated
 (
 )
 ;
@@ -2522,7 +2530,7 @@ updated
 group
 -
 >
-proto
+protoDeprecated
 (
 )
 =
@@ -2640,7 +2648,7 @@ unbarrieredGet
 )
 -
 >
-proto
+protoDeprecated
 (
 )
 ;
