@@ -6130,13 +6130,9 @@ nfixed
 *
 /
 0
-/
-*
-objectFlags
-=
-*
-/
-0
+ObjectFlags
+(
+)
 )
 )
 ;

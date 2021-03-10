@@ -3946,7 +3946,7 @@ shape
 /
 has
 the
-UNCACHEABLE_PROTO
+UncacheableProto
 flag
 set
 .
@@ -4275,7 +4275,7 @@ If
 receiver
 was
 marked
-UNCACHEABLE_PROTO
+UncacheableProto
 the
 previous
 shape
@@ -4498,7 +4498,7 @@ not
 /
 /
 marked
-UNCACHEABLE_PROTO
+UncacheableProto
 .
 See
 :
@@ -5011,7 +5011,7 @@ additional
 wrinkle
 is
 the
-UNCACHEABLE_PROTO
+UncacheableProto
 shape
 flag
 .
@@ -5057,7 +5057,7 @@ holder
 inclusive
 )
 is
-UNCACHEABLE_PROTO
+UncacheableProto
 /
 /
 we
@@ -5098,7 +5098,7 @@ holder
 /
 /
 Only
-DELEGATE
+Delegate
 objects
 participate
 in
@@ -8621,7 +8621,10 @@ holder
 {
 /
 /
-UNCACHEABLE_PROTO
+ObjectFlag
+:
+:
+UncacheableProto
 may
 result
 in

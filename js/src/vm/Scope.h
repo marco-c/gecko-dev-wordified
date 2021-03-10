@@ -9208,8 +9208,8 @@ JSClass
 cls
 uint32_t
 numSlots
-uint32_t
-baseShapeFlags
+ObjectFlags
+objectFlags
 )
 ;
 template
@@ -9242,7 +9242,7 @@ RESERVED_SLOTS
 T
 :
 :
-BASESHAPE_FLAGS
+OBJECT_FLAGS
 )
 ;
 }
@@ -10262,8 +10262,8 @@ JSClass
 cls
 uint32_t
 numSlots
-uint32_t
-baseShapeFlags
+ObjectFlags
+objectFlags
 )
 ;
 Shape
@@ -10294,8 +10294,8 @@ JSClass
 cls
 uint32_t
 numSlots
-uint32_t
-baseShapeFlags
+ObjectFlags
+objectFlags
 )
 ;
 Shape
@@ -10311,8 +10311,8 @@ JSClass
 cls
 uint32_t
 numSlots
-uint32_t
-baseShapeFlags
+ObjectFlags
+objectFlags
 )
 ;
 static

@@ -112,7 +112,7 @@ cache
 )
 :
         
-baseshape_flags
+object_flag
 =
 gdb
 .
@@ -122,31 +122,28 @@ lookup_type
 js
 :
 :
-BaseShape
-:
-:
-Flag
+ObjectFlag
 "
 )
         
 self
 .
-flag_DELEGATE
+objectflag_Delegate
 =
 prettyprinters
 .
 enum_value
 (
             
-baseshape_flags
+object_flag
 "
 js
 :
 :
-BaseShape
+ObjectFlag
 :
 :
-DELEGATE
+Delegate
 "
         
 )
@@ -591,6 +588,11 @@ baseshape
 flags
 "
 ]
+[
+"
+flags_
+"
+]
             
 is_delegate
 =
@@ -602,7 +604,7 @@ self
 .
 otc
 .
-flag_DELEGATE
+objectflag_Delegate
 )
             
 name
