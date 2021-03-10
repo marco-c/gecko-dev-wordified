@@ -2232,7 +2232,7 @@ hold
 the
 members
 array
-int
+size_t
 size
 =
 sizeof
