@@ -1,19 +1,9 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 import
 json
+from
+pathlib
 import
-py
+Path
 import
 requests
 issues_url
@@ -204,11 +194,7 @@ args
     
 cachefile
 =
-py
-.
-path
-.
-local
+Path
 (
 args
 .
@@ -236,7 +222,7 @@ get_issues
         
 cachefile
 .
-write
+write_text
 (
 json
 .
@@ -244,6 +230,11 @@ dumps
 (
 issues
 )
+"
+utf
+-
+8
+"
 )
     
 else
@@ -257,8 +248,13 @@ loads
 (
 cachefile
 .
-read
+read_text
 (
+"
+utf
+-
+8
+"
 )
 )
     
@@ -315,14 +311,14 @@ issue
 labels
 =
 [
-l
+label
 [
 "
 name
 "
 ]
 for
-l
+label
 in
 issue
 [

@@ -1,22 +1,53 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
+from
+typing
+import
+List
+from
+typing
+import
+Optional
 import
 pytest
+from
+_pytest
+import
+nodes
+from
+_pytest
+.
+config
+import
+Config
+from
+_pytest
+.
+config
+.
+argparsing
+import
+Parser
+from
+_pytest
+.
+main
+import
+Session
+from
+_pytest
+.
+reports
+import
+TestReport
 def
 pytest_addoption
 (
 parser
+:
+Parser
 )
+-
+>
+None
 :
     
 group
@@ -128,7 +159,12 @@ def
 pytest_configure
 (
 config
+:
+Config
 )
+-
+>
+None
 :
     
 config
@@ -154,7 +190,12 @@ __init__
 (
 self
 config
+:
+Config
 )
+-
+>
+None
 :
         
 self
@@ -181,6 +222,13 @@ self
 session
 =
 None
+#
+type
+:
+Optional
+[
+Session
+]
         
 self
 .
@@ -194,6 +242,14 @@ self
 .
 active
 :
+            
+assert
+config
+.
+cache
+is
+not
+None
             
 self
 .
@@ -231,7 +287,12 @@ pytest_sessionstart
 (
 self
 session
+:
+Session
 )
+-
+>
+None
 :
         
 self
@@ -243,11 +304,27 @@ session
 def
 pytest_collection_modifyitems
 (
+        
 self
 session
+:
+Session
 config
+:
+Config
 items
+:
+List
+[
+nodes
+.
+Item
+]
+    
 )
+-
+>
+None
 :
         
 if
@@ -445,7 +522,12 @@ pytest_runtest_logreport
 (
 self
 report
+:
+TestReport
 )
+-
+>
+None
 :
         
 if
@@ -548,6 +630,14 @@ report
 .
 nodeid
                 
+assert
+self
+.
+session
+is
+not
+None
+                
 self
 .
 session
@@ -629,6 +719,12 @@ pytest_report_collectionfinish
 (
 self
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 if
@@ -666,14 +762,32 @@ s
 self
 .
 report_status
+        
+return
+None
     
 def
 pytest_sessionfinish
 (
 self
 session
-)
 :
+Session
+)
+-
+>
+None
+:
+        
+assert
+self
+.
+config
+.
+cache
+is
+not
+None
         
 if
 self
