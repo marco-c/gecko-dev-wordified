@@ -6308,8 +6308,6 @@ set
 data
 -
 >
-slotInfo
-.
 length
 |
 /
@@ -6469,8 +6467,6 @@ MOZ_ASSERT
 data
 -
 >
-slotInfo
-.
 length
 =
 =
@@ -6571,8 +6567,6 @@ count
 data
 -
 >
-slotInfo
-.
 length
 =
 count

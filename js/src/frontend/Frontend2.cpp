@@ -1214,8 +1214,6 @@ const_start
 data
 -
 >
-slotInfo
-.
 length
 =
 numBindings
@@ -1340,8 +1338,6 @@ createForVarScope
 data
 -
 >
-slotInfo
-.
 length
 =
 numBindings
@@ -1503,8 +1499,6 @@ const_start
 data
 -
 >
-slotInfo
-.
 length
 =
 numBindings
@@ -1691,8 +1685,6 @@ var_start
 data
 -
 >
-slotInfo
-.
 length
 =
 numBindings
