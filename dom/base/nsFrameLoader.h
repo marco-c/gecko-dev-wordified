@@ -455,6 +455,9 @@ RemoteBrowser
 struct
 RemotenessOptions
 ;
+struct
+RemotenessChangeState
+;
 namespace
 ipc
 {
@@ -703,6 +706,16 @@ aContext
 BrowsingContextGroup
 *
 aGroup
+const
+mozilla
+:
+:
+dom
+:
+:
+RemotenessChangeState
+&
+aState
 bool
 aIsRemote
 bool
