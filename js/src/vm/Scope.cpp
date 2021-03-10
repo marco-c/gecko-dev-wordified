@@ -3108,8 +3108,8 @@ MemoryUse
 ScopeData
 )
 ;
-data_
-=
+setHeaderPtr
+(
 data
 .
 get
@@ -3118,6 +3118,7 @@ get
 .
 release
 (
+)
 )
 ;
 }
