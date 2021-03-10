@@ -165,6 +165,9 @@ CompilationStencil
 .
 h
 "
+/
+/
+CompilationStencil
 #
 include
 "
@@ -461,7 +464,7 @@ CompilationInput
 &
 input
 const
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 CompilationGCOutput

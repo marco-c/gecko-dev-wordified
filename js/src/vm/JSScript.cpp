@@ -318,7 +318,7 @@ h
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 #
 include
 "
@@ -23893,7 +23893,7 @@ js
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 js
@@ -24464,7 +24464,7 @@ js
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 frontend
@@ -24915,10 +24915,6 @@ immutableFlags
 =
 stencil
 .
-asCompilationStencil
-(
-)
-.
 scriptExtra
 [
 scriptIndex
@@ -25012,10 +25008,6 @@ MemberInitializers
 initializers
 (
 stencil
-.
-asCompilationStencil
-(
-)
 .
 scriptExtra
 [

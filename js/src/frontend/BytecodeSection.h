@@ -996,7 +996,7 @@ CompilationInput
 &
 input
 const
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 CompilationGCOutput
