@@ -487,6 +487,12 @@ IsRDDProcessLaunching
 )
 ;
 bool
+IsRDDProcessDestroyed
+(
+)
+const
+;
+bool
 CreateVideoBridge
 (
 )
