@@ -1,35 +1,11 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-division
-from
-__future__
-import
-print_function
 import
 argparse
 import
-distutils
-.
-spawn
-import
 os
+import
+shlex
+import
+subprocess
 import
 sys
 import
@@ -59,6 +35,11 @@ def
 parser
 (
 )
+-
+>
+parseopt
+.
+Parser
 :
     
 return
@@ -69,9 +50,6 @@ Parser
 )
 class
 TestParser
-(
-object
-)
 :
     
 def
@@ -79,6 +57,9 @@ test_no_help_by_default
 (
 self
 )
+-
+>
+None
 :
         
 parser
@@ -119,7 +100,14 @@ test_custom_prog
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 "
@@ -194,6 +182,9 @@ test_argument
 (
 self
 )
+-
+>
+None
 :
         
 with
@@ -397,6 +388,9 @@ test_argument_type
 (
 self
 )
+-
+>
+None
 :
         
 argument
@@ -564,6 +558,9 @@ test_argument_processopt
 (
 self
 )
+-
+>
+None
 :
         
 argument
@@ -632,7 +629,14 @@ test_group_add_and_get
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 group
@@ -676,7 +680,14 @@ test_getgroup_simple
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 group
@@ -736,7 +747,14 @@ test_group_ordering
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -805,6 +823,9 @@ test_group_addoption
 (
 self
 )
+-
+>
+None
 :
         
 group
@@ -864,6 +885,9 @@ test_group_addoption_conflict
 (
 self
 )
+-
+>
+None
 :
         
 group
@@ -959,7 +983,14 @@ test_group_shortopt_lowercase
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 group
@@ -1039,7 +1070,14 @@ test_parser_addoption
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 group
@@ -1097,7 +1135,14 @@ test_parse
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -1164,7 +1209,14 @@ test_parse2
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 args
@@ -1210,7 +1262,14 @@ test_parse_known_args
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -1292,7 +1351,14 @@ test_parse_known_and_unknown_args
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -1377,7 +1443,14 @@ test_parse_will_set_default
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -1455,7 +1528,14 @@ test_parse_setoption
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -1498,18 +1578,11 @@ default
 42
 )
         
-class
-A
-(
-object
-)
-:
-            
-pass
-        
 option
 =
-A
+argparse
+.
+Namespace
 (
 )
         
@@ -1559,7 +1632,14 @@ test_parse_special_destination
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -1611,7 +1691,14 @@ test_parse_split_positional_arguments
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -1810,6 +1897,9 @@ test_parse_defaultgetter
 (
 self
 )
+-
+>
+None
 :
         
 def
@@ -1982,6 +2072,9 @@ test_drop_short_helper
 (
 self
 )
+-
+>
+None
 :
         
 parser
@@ -1996,6 +2089,9 @@ formatter_class
 parseopt
 .
 DropShorterLongHelpFormatter
+allow_abbrev
+=
+False
         
 )
         
@@ -2037,20 +2133,6 @@ foo
 "
         
 )
-.
-map_long_option
-=
-{
-"
-two
-"
-:
-"
-two
--
-word
-"
-}
         
 #
 throws
@@ -2095,20 +2177,6 @@ foo
 "
         
 )
-.
-map_long_option
-=
-{
-"
-deux
-"
-:
-"
-deux
--
-mots
-"
-}
         
 parser
 .
@@ -2296,22 +2364,6 @@ spam
 "
         
 )
-.
-map_long_option
-=
-{
-"
-exitfirst
-"
-:
-"
-exit
--
-on
--
-first
-"
-}
         
 parser
 .
@@ -2472,7 +2524,14 @@ test_drop_short_0
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -2541,8 +2600,15 @@ store_true
 "
 )
         
-args
-=
+with
+pytest
+.
+raises
+(
+UsageError
+)
+:
+            
 parser
 .
 parse
@@ -2560,34 +2626,20 @@ k
 "
 ]
 )
-        
-assert
-args
-.
-funcarg
-is
-True
-        
-assert
-args
-.
-abc_def
-is
-False
-        
-assert
-args
-.
-klm_hij
-is
-True
     
 def
 test_drop_short_2
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -2640,7 +2692,14 @@ test_drop_short_3
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -2708,8 +2767,14 @@ test_drop_short_help0
 (
 self
 parser
-capsys
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 parser
@@ -2789,8 +2854,14 @@ test_drop_short_help1
 (
 self
 parser
-capsys
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 group
@@ -2914,7 +2985,14 @@ test_multiple_metavar_help
 (
 self
 parser
+:
+parseopt
+.
+Parser
 )
+-
+>
+None
 :
         
 "
@@ -3060,19 +3138,62 @@ test_argcomplete
 testdir
 monkeypatch
 )
+-
+>
+None
 :
     
-if
-not
-distutils
+try
+:
+        
+bash_version
+=
+subprocess
 .
-spawn
-.
-find_executable
+run
 (
+            
+[
 "
 bash
 "
+"
+-
+-
+version
+"
+]
+            
+stdout
+=
+subprocess
+.
+PIPE
+            
+stderr
+=
+subprocess
+.
+DEVNULL
+            
+check
+=
+True
+            
+universal_newlines
+=
+True
+        
+)
+.
+stdout
+    
+except
+(
+OSError
+subprocess
+.
+CalledProcessError
 )
 :
         
@@ -3082,8 +3203,37 @@ skip
 (
 "
 bash
+is
 not
 available
+"
+)
+    
+if
+"
+GNU
+bash
+"
+not
+in
+bash_version
+:
+        
+#
+See
+#
+7518
+.
+        
+pytest
+.
+skip
+(
+"
+not
+a
+real
+bash
 "
 )
     
@@ -3156,13 +3306,15 @@ fp
 .
 write
 (
+            
 '
 COMP_WORDBREAKS
 =
 "
 COMP_WORDBREAKS
 "
-python
+{
+}
 -
 m
 pytest
@@ -3175,13 +3327,28 @@ pytest
 &
 2
 '
+.
+format
+(
+                
+shlex
+.
+quote
+(
+sys
+.
+executable
+)
+            
+)
+        
 )
     
 #
 alternative
 would
 be
-exteneded
+extended
 Testdir
 .
 {
