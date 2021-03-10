@@ -3910,6 +3910,10 @@ TextSelectBackground
 ColorID
 :
 :
+TextSelectBackgroundDisabled
+ColorID
+:
+:
 TextSelectForeground
 ColorID
 :
@@ -4323,6 +4327,15 @@ TextSelectBackground
 :
 return
 mColorTextSelectBackground
+;
+case
+ColorID
+:
+:
+TextSelectBackgroundDisabled
+:
+return
+mColorTextSelectBackgroundDisabled
 ;
 case
 ColorID
