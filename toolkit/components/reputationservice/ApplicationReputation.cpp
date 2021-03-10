@@ -14915,11 +14915,6 @@ aCallback
 )
 )
 ;
-NS_ENSURE_STATE
-(
-lookup
-)
-;
 /
 /
 Add
