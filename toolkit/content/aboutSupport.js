@@ -12446,7 +12446,7 @@ cache
 -
 dialog
 -
-title
+title2
 "
 }
 {
@@ -12459,7 +12459,7 @@ cache
 -
 dialog
 -
-body
+body2
 "
 }
 {
@@ -12519,6 +12519,12 @@ prompt
 confirmEx
 (
 window
+.
+docShell
+.
+chromeEventHandler
+.
+ownerGlobal
 promptTitle
 promptBody
 buttonFlags
