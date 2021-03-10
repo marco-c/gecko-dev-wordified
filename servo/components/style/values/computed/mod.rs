@@ -708,7 +708,6 @@ length
 :
 {
 CSSPixelLength
-ExtremumLength
 NonNegativeLength
 }
 ;
