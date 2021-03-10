@@ -823,6 +823,8 @@ JSFunction
 target
 HandleScript
 caller
+BytecodeLocation
+loc
 )
 ;
 private
