@@ -389,7 +389,7 @@ AsProxy
 )
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 ;

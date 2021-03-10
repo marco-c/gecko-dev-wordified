@@ -499,7 +499,7 @@ newChildIdx
 parent
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 )
@@ -1068,7 +1068,7 @@ isOuterDoc
 newProxy
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 =
@@ -1148,7 +1148,7 @@ kids
 newProxy
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 =
@@ -3708,7 +3708,7 @@ if
 outerDoc
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 >
@@ -3719,7 +3719,7 @@ ChildrenCount
 outerDoc
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 =
@@ -3768,7 +3768,7 @@ if
 outerDoc
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 =

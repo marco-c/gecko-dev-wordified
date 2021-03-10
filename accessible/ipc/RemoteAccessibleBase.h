@@ -297,7 +297,7 @@ aChild
 ;
 }
 uint32_t
-ChildrenCount
+ChildCount
 (
 )
 const

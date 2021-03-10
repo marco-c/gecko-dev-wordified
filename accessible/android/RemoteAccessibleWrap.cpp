@@ -370,7 +370,7 @@ Proxy
 )
 -
 >
-ChildrenCount
+ChildCount
 (
 )
 ;
