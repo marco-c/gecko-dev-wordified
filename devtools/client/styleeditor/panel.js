@@ -165,6 +165,7 @@ StyleEditorPanel
 (
 panelWin
 toolbox
+commands
 )
 {
 EventEmitter
@@ -179,6 +180,12 @@ this
 _toolbox
 =
 toolbox
+;
+this
+.
+_commands
+=
+commands
 ;
 this
 .

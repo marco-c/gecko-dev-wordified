@@ -337,6 +337,7 @@ owner
 constructor
 (
 target
+commands
 iframeWindow
 chromeWindow
 )
@@ -344,6 +345,7 @@ chromeWindow
 super
 (
 null
+commands
 iframeWindow
 chromeWindow
 true
@@ -354,6 +356,14 @@ this
 _browserConsoleTarget
 =
 target
+;
+this
+.
+_descriptorFront
+=
+target
+.
+descriptorFront
 ;
 this
 .

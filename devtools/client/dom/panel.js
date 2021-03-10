@@ -143,6 +143,7 @@ DomPanel
 (
 iframeWindow
 toolbox
+commands
 )
 {
 this
@@ -156,6 +157,12 @@ this
 _toolbox
 =
 toolbox
+;
+this
+.
+_commands
+=
+commands
 ;
 this
 .

@@ -231,6 +231,7 @@ constructor
 (
 iframeWindow
 toolbox
+commands
 )
 {
 this
@@ -252,6 +253,12 @@ this
 toolbox
 =
 toolbox
+;
+this
+.
+commands
+=
+commands
 ;
 }
 async

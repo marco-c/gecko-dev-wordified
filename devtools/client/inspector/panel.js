@@ -66,6 +66,7 @@ InspectorPanel
 (
 iframeWindow
 toolbox
+commands
 )
 {
 this
@@ -78,6 +79,7 @@ iframeWindow
 Inspector
 (
 toolbox
+commands
 )
 ;
 }
