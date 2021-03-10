@@ -5,10 +5,6 @@ json
 import
 os
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -20,10 +16,6 @@ import
 ABCMeta
 abstractmethod
 from
-six
-.
-moves
-.
 queue
 import
 Empty
@@ -36,13 +28,6 @@ from
 six
 import
 ensure_binary
-iteritems
-from
-six
-.
-moves
-import
-range
 from
 .
 import
@@ -214,11 +199,12 @@ for
 group
 test_ids
 in
-iteritems
-(
 self
 .
 _data
+.
+items
+(
 )
 :
             
@@ -1051,11 +1037,12 @@ for
 url_base
 paths
 in
-iteritems
-(
 self
 .
 test_paths
+.
+items
+(
 )
 :
             
@@ -3090,9 +3077,10 @@ for
 group_name
 test_ids
 in
-iteritems
-(
 tests_by_group
+.
+items
+(
 )
 :
             

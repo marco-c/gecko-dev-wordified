@@ -6,11 +6,6 @@ from
 collections
 import
 defaultdict
-from
-six
-import
-iteritems
-itervalues
 class
 Node
 (
@@ -202,9 +197,10 @@ results
 for
 values
 in
-itervalues
-(
 results
+.
+values
+(
 )
 :
         
@@ -253,9 +249,10 @@ entropy_sum
 for
 count
 in
-itervalues
-(
 result_counts
+.
+values
+(
 )
 :
         
@@ -331,9 +328,10 @@ for
 run_info
 value
 in
-iteritems
-(
 results
+.
+items
+(
 )
 :
         
@@ -522,9 +520,10 @@ int
 for
 result_values
 in
-itervalues
-(
 results
+.
+values
+(
 )
 :
         
@@ -532,9 +531,10 @@ for
 result_value
 count
 in
-iteritems
-(
 result_values
+.
+items
+(
 )
 :
             
@@ -574,9 +574,10 @@ for
 value
 count
 in
-iteritems
-(
 all_results
+.
+items
+(
 )
 :
             
@@ -687,9 +688,10 @@ for
 prop_value
 result_set
 in
-iteritems
-(
 result_sets
+.
+items
+(
 )
 :
             
@@ -767,9 +769,10 @@ for
 value
 count
 in
-iteritems
-(
 all_results
+.
+items
+(
 )
 :
             

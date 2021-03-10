@@ -9,10 +9,6 @@ collections
 import
 defaultdict
 from
-six
-.
-moves
-.
 urllib
 .
 parse
@@ -20,10 +16,6 @@ import
 quote
 unquote
 urljoin
-from
-six
-import
-iteritems
 from
 .
 constants
@@ -3714,9 +3706,10 @@ for
 k
 v
 in
-iteritems
-(
 headers
+.
+items
+(
 )
 :
             

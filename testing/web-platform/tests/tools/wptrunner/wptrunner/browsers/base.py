@@ -14,10 +14,6 @@ copy
 import
 deepcopy
 from
-six
-import
-iteritems
-from
 .
 .
 wptcommandline
@@ -1322,9 +1318,10 @@ for
 k
 v
 in
-iteritems
-(
 kwargs
+.
+items
+(
 )
 :
             
