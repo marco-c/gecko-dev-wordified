@@ -9558,8 +9558,8 @@ preferredRemoteType
 currentRemoteType
 )
 ;
-RemotenessChangeState
-changeState
+RemotenessChangeOptions
+options
 ;
 /
 /
@@ -9688,7 +9688,7 @@ browser
 )
 )
 ;
-changeState
+options
 .
 mReplaceBrowsingContext
 =
@@ -9750,7 +9750,7 @@ HasCrossOriginOpenerPolicyMismatch
 (
 )
 ;
-changeState
+options
 .
 mReplaceBrowsingContext
 |
@@ -10035,7 +10035,7 @@ preferredRemoteType
 =
 LARGE_ALLOCATION_REMOTE_TYPE
 ;
-changeState
+options
 .
 mReplaceBrowsingContext
 =
@@ -10055,7 +10055,7 @@ preferredRemoteType
 =
 DEFAULT_REMOTE_TYPE
 ;
-changeState
+options
 .
 mReplaceBrowsingContext
 =
@@ -10178,13 +10178,13 @@ GetBrowsingContextGroupId
 )
 )
 {
-changeState
+options
 .
 mReplaceBrowsingContext
 =
 true
 ;
-changeState
+options
 .
 mSpecificGroupId
 =
@@ -10392,7 +10392,7 @@ UseRemoteSubframes
 preferredRemoteType
 currentPrincipal
 parentWindow
-changeState
+options
 .
 mRemoteType
 )
@@ -10478,7 +10478,7 @@ parentWindow
 currentRemoteType
 !
 =
-changeState
+options
 .
 mRemoteType
 &
@@ -10489,7 +10489,7 @@ currentRemoteType
 EXTENSION_REMOTE_TYPE
 )
 {
-changeState
+options
 .
 mReplaceBrowsingContext
 =
@@ -10558,7 +10558,7 @@ Length
 &
 &
 !
-changeState
+options
 .
 mRemoteType
 .
@@ -10581,13 +10581,13 @@ mLoadStateLoadType
 LOAD_ERROR_PAGE
 )
 {
-changeState
+options
 .
 mReplaceBrowsingContext
 =
 true
 ;
-changeState
+options
 .
 mTryUseBFCache
 =
@@ -10615,7 +10615,7 @@ currentRemoteType
 get
 (
 )
-changeState
+options
 .
 mRemoteType
 .
@@ -10640,13 +10640,13 @@ if
 currentRemoteType
 =
 =
-changeState
+options
 .
 mRemoteType
 &
 &
 !
-changeState
+options
 .
 mReplaceBrowsingContext
 )
@@ -10667,7 +10667,7 @@ s
 is
 compatible
 "
-changeState
+options
 .
 mRemoteType
 .
@@ -10688,7 +10688,7 @@ NS_WARN_IF
 parentWindow
 &
 &
-changeState
+options
 .
 mRemoteType
 .
@@ -10725,7 +10725,7 @@ false
 aWillSwitchToRemote
 =
 !
-changeState
+options
 .
 mRemoteType
 .
@@ -10760,7 +10760,7 @@ mIsDocumentLoad
 {
 if
 (
-changeState
+options
 .
 mTryUseBFCache
 &
@@ -10872,7 +10872,7 @@ RefPtr
 this
 }
 browsingContext
-changeState
+options
 ]
 (
 const
@@ -10920,7 +10920,7 @@ canSave
 )
 )
 ;
-changeState
+options
 .
 mTryUseBFCache
 =
@@ -10932,7 +10932,7 @@ self
 TriggerProcessSwitch
 (
 browsingContext
-changeState
+options
 )
 ;
 }
@@ -10944,7 +10944,7 @@ RefPtr
 this
 }
 browsingContext
-changeState
+options
 ]
 (
 ipc
@@ -10979,7 +10979,7 @@ presentation
 )
 )
 ;
-changeState
+options
 .
 mTryUseBFCache
 =
@@ -10991,7 +10991,7 @@ self
 TriggerProcessSwitch
 (
 browsingContext
-changeState
+options
 )
 ;
 }
@@ -11002,7 +11002,7 @@ true
 ;
 }
 }
-changeState
+options
 .
 mTryUseBFCache
 =
@@ -11011,7 +11011,7 @@ false
 TriggerProcessSwitch
 (
 browsingContext
-changeState
+options
 )
 ;
 return
@@ -11140,7 +11140,7 @@ RefPtr
 {
 this
 }
-changeState
+options
 wgp
 ]
 (
@@ -11228,7 +11228,7 @@ self
 TriggerProcessSwitch
 (
 aBrowsingContext
-changeState
+options
 )
 ;
 }
@@ -11284,9 +11284,9 @@ CanonicalBrowsingContext
 *
 aContext
 const
-RemotenessChangeState
+RemotenessChangeOptions
 &
-aState
+aOptions
 )
 {
 nsAutoCString
@@ -11359,7 +11359,7 @@ currentRemoteType
 get
 (
 )
-aState
+aOptions
 .
 mRemoteType
 .
@@ -11511,7 +11511,7 @@ aContext
 >
 ChangeRemoteness
 (
-aState
+aOptions
 mLoadIdentifier
 )
 -
