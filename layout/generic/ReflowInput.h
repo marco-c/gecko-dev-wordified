@@ -2957,12 +2957,6 @@ mStyleText
 =
 nullptr
 ;
-bool
-IsFloating
-(
-)
-const
-;
 /
 /
 a
