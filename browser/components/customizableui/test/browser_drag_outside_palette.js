@@ -106,14 +106,16 @@ the
 navbar
 :
 let
-homeButton
+stopReloadButton
 =
 document
 .
 getElementById
 (
 "
-home
+stop
+-
+reload
 -
 button
 "
@@ -135,7 +137,7 @@ bar
 ;
 simulateItemDrag
 (
-homeButton
+stopReloadButton
 panelContainer
 )
 ;
@@ -155,7 +157,9 @@ w
 !
 =
 "
-home
+stop
+-
+reload
 -
 button
 "
@@ -164,7 +168,7 @@ button
 ;
 ok
 (
-homeButton
+stopReloadButton
 .
 closest
 (
@@ -214,7 +218,7 @@ panelHolder
 ;
 simulateItemDrag
 (
-homeButton
+stopReloadButton
 panelHolder
 )
 ;
@@ -225,7 +229,9 @@ CustomizableUI
 AREA_FIXED_OVERFLOW_PANEL
 [
 "
-home
+stop
+-
+reload
 -
 button
 "
@@ -234,7 +240,7 @@ button
 ;
 simulateItemDrag
 (
-homeButton
+stopReloadButton
 panelContainer
 )
 ;
@@ -249,7 +255,7 @@ AREA_FIXED_OVERFLOW_PANEL
 ;
 ok
 (
-homeButton
+stopReloadButton
 .
 closest
 (
@@ -321,7 +327,9 @@ w
 !
 =
 "
-home
+stop
+-
+reload
 -
 button
 "

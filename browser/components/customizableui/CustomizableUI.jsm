@@ -30325,6 +30325,15 @@ aElement
 )
 ;
 }
+get
+protonToolbarEnabled
+(
+)
+{
+return
+gProtonToolbarEnabled
+;
+}
 }
 ;
 Object

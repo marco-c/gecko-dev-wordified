@@ -70,7 +70,9 @@ window
 then
 move
 the
-home
+stop
+/
+reload
 button
 to
 the
@@ -130,14 +132,16 @@ handlerCalledCount
 }
 ;
 let
-homeButton
+stopReloadButton
 =
 document
 .
 getElementById
 (
 "
-home
+stop
+-
+reload
 -
 button
 "
@@ -168,7 +172,7 @@ gCustomizeMode
 .
 addToPanel
 (
-homeButton
+stopReloadButton
 )
 ;
 is
@@ -194,7 +198,7 @@ gCustomizeMode
 .
 addToToolbar
 (
-homeButton
+stopReloadButton
 )
 ;
 is

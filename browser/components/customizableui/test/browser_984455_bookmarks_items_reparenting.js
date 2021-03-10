@@ -1451,6 +1451,13 @@ button
 "
 )
 ;
+if
+(
+CustomizableUI
+.
+protonToolbarEnabled
+)
+{
 CustomizableUI
 .
 removeWidgetFromArea
@@ -1465,6 +1472,7 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
+}
 CustomizableUI
 .
 addWidgetToArea
