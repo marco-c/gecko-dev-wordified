@@ -9010,10 +9010,6 @@ XDRStencilDecoder
 decoder
 (
 cx
-&
-input
-.
-options
 range
 )
 ;
@@ -22067,8 +22063,6 @@ XDRStencilDecoder
 decoder
 (
 cx
-&
-options
 range
 )
 ;
