@@ -44617,7 +44617,7 @@ getFormattedString
 "
 offlineApps
 .
-available2
+available3
 "
 [
 host
@@ -44651,7 +44651,7 @@ getString
 "
 offlineApps
 .
-allowStoring
+allow
 .
 label
 "
@@ -44665,7 +44665,7 @@ getString
 "
 offlineApps
 .
-allowStoring
+allow
 .
 accesskey
 "
@@ -44704,7 +44704,7 @@ getString
 "
 offlineApps
 .
-dontAllow
+block
 .
 label
 "
@@ -44718,7 +44718,7 @@ getString
 "
 offlineApps
 .
-dontAllow
+block
 .
 accesskey
 "
