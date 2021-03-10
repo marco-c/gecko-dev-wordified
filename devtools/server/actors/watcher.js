@@ -1021,6 +1021,15 @@ Resources
 .
 TYPES
 .
+CACHE_STORAGE
+]
+:
+hasBrowserElement
+[
+Resources
+.
+TYPES
+.
 ERROR_MESSAGE
 ]
 :
