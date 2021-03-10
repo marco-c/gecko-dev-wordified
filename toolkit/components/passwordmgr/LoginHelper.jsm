@@ -231,9 +231,6 @@ mandatoryFields
 origin
 "
 "
-username
-"
-"
 password
 "
 ]
