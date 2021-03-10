@@ -10501,15 +10501,7 @@ if
 mozilla
 :
 :
-SessionHistoryInParent
-(
-)
-&
-&
-StaticPrefs
-:
-:
-fission_bfcacheInParent
+BFCacheInParent
 (
 )
 &
