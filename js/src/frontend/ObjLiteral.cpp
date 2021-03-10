@@ -169,7 +169,10 @@ h
 frontend
 :
 :
+{
+CompilationStencil
 CompilationAtomCache
+}
 #
 include
 "
@@ -1617,7 +1620,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 mozilla
@@ -2092,7 +2095,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -2133,7 +2136,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -2201,7 +2204,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )
@@ -2242,7 +2245,7 @@ const
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 *
 stencil
 )

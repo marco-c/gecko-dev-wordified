@@ -224,7 +224,6 @@ frontend
 :
 :
 {
-BaseCompilationStencil
 CompilationStencil
 ExtensibleCompilationStencil
 CompilationStencilMerger
@@ -2060,7 +2059,7 @@ xdr
 frontend
 :
 :
-BaseCompilationStencil
+CompilationStencil
 &
 stencil
 )
