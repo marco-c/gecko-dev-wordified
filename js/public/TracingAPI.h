@@ -360,6 +360,7 @@ tracer
 .
 UnmarkGray
 VerifyTraceProtoAndIface
+Barrier
 }
 ;
 enum

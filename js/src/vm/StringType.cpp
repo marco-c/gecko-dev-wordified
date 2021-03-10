@@ -5512,7 +5512,7 @@ WithIncrementalBarrier
 gc
 :
 :
-PreWriteBarrier
+PreWriteBarrierDuringFlattening
 (
 str
 -
@@ -5529,7 +5529,7 @@ left
 gc
 :
 :
-PreWriteBarrier
+PreWriteBarrierDuringFlattening
 (
 str
 -
@@ -5621,7 +5621,7 @@ WithIncrementalBarrier
 gc
 :
 :
-PreWriteBarrier
+PreWriteBarrierDuringFlattening
 (
 str
 -
@@ -5638,7 +5638,7 @@ left
 gc
 :
 :
-PreWriteBarrier
+PreWriteBarrierDuringFlattening
 (
 str
 -
@@ -5907,7 +5907,7 @@ WithIncrementalBarrier
 gc
 :
 :
-PreWriteBarrier
+PreWriteBarrierDuringFlattening
 (
 str
 -
@@ -5924,7 +5924,7 @@ left
 gc
 :
 :
-PreWriteBarrier
+PreWriteBarrierDuringFlattening
 (
 str
 -
