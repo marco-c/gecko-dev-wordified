@@ -80,8 +80,6 @@ decorate_task
 AddonRollouts
 .
 withTestMock
-(
-)
 async
 function
 testGetMissing
@@ -129,8 +127,6 @@ decorate_task
 AddonRollouts
 .
 withTestMock
-(
-)
 async
 function
 testAddUpdateAndGet
@@ -252,8 +248,6 @@ decorate_task
 AddonRollouts
 .
 withTestMock
-(
-)
 async
 function
 testCantUpdateNonexistent
@@ -348,8 +342,6 @@ decorate_task
 AddonRollouts
 .
 withTestMock
-(
-)
 async
 function
 testGetAll
@@ -465,8 +457,6 @@ decorate_task
 AddonRollouts
 .
 withTestMock
-(
-)
 async
 function
 testGetAllActive
@@ -565,8 +555,6 @@ decorate_task
 AddonRollouts
 .
 withTestMock
-(
-)
 async
 function
 testHas
@@ -666,8 +654,6 @@ decorate_task
 AddonRollouts
 .
 withTestMock
-(
-)
 withStub
 (
 TelemetryEnvironment
@@ -679,9 +665,7 @@ async
 function
 testInitTelemetry
 (
-{
 setExperimentActiveStub
-}
 )
 {
 await

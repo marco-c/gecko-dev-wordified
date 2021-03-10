@@ -479,9 +479,7 @@ reportRecipe
 async
 function
 (
-{
 reportRecipeStub
-}
 )
 {
 const
@@ -563,9 +561,7 @@ reportAction
 async
 function
 (
-{
 reportActionStub
-}
 )
 {
 const
@@ -657,9 +653,7 @@ reportRecipe
 async
 function
 (
-{
 reportRecipeStub
-}
 )
 {
 const
@@ -804,10 +798,8 @@ reportAction
 async
 function
 (
-{
 reportRecipeStub
 reportActionStub
-}
 )
 {
 const
@@ -1096,10 +1088,8 @@ reportAction
 async
 function
 (
-{
 reportRecipeStub
 reportActionStub
-}
 )
 {
 const
@@ -1279,10 +1269,8 @@ reportAction
 async
 function
 (
-{
 reportRecipeStub
 reportActionStub
-}
 )
 {
 const
@@ -1398,10 +1386,8 @@ reportAction
 async
 function
 (
-{
 reportRecipeStub
 reportActionStub
-}
 )
 {
 const
