@@ -2082,7 +2082,7 @@ case
 nsDataHashtable
 <
 nsCStringHashKey
-CopyableTArray
+nsTArray
 <
 FamilyAndGeneric
 >
