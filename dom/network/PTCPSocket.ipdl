@@ -155,6 +155,9 @@ name
 nsString
 message
 ;
+nsresult
+errorCode
+;
 }
 ;
 union

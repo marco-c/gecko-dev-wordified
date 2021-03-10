@@ -888,6 +888,11 @@ err
 message
 (
 )
+err
+.
+errorCode
+(
+)
 )
 ;
 }
