@@ -2273,8 +2273,12 @@ mWindow
 void
 SetMenuBar
 (
+RefPtr
+<
 nsMenuBarX
-*
+>
+&
+&
 aMenuBar
 )
 ;
