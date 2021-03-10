@@ -1727,10 +1727,9 @@ if
 (
 mSections
 .
-Get
+Contains
 (
 aNewName
-nullptr
 )
 )
 {
