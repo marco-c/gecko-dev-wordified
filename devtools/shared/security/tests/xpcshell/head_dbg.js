@@ -35,7 +35,6 @@ strict
 /
 *
 exported
-defer
 DevToolsClient
 initTestDevToolsServer
 *
