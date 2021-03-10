@@ -134,10 +134,10 @@ namespace
 a11y
 {
 class
-LocalAccessible
+Accessible
 ;
 class
-AccessibleOrProxy
+LocalAccessible
 ;
 /
 *
@@ -647,7 +647,8 @@ Intl
 (
 )
 ;
-AccessibleOrProxy
+Accessible
+*
 IntlGeneric
 (
 )
