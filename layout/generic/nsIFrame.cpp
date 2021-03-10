@@ -3771,10 +3771,10 @@ frameType
 |
 |
 (
-aFrame
+aStyleDisplay
 -
 >
-IsFloating
+IsFloatingStyle
 (
 )
 &
