@@ -301,7 +301,7 @@ if
 zone
 -
 >
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -316,8 +316,8 @@ crash
 (
 "
 clearing
-ephemeron
-edges
+weak
+keys
 table
 "
 )
@@ -328,7 +328,7 @@ MOZ_ASSERT
 zone
 -
 >
-gcNurseryEphemeronEdges
+gcNurseryWeakKeys
 (
 )
 .

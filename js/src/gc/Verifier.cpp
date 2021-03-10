@@ -3410,8 +3410,8 @@ restoring
 gc
 :
 :
-EphemeronEdgeTable
-savedEphemeronEdges
+WeakKeyTable
+savedWeakKeys
 (
 SystemAllocPolicy
 (
@@ -3427,7 +3427,7 @@ randomHashCodeScrambler
 if
 (
 !
-savedEphemeronEdges
+savedWeakKeys
 .
 init
 (
@@ -3483,7 +3483,7 @@ for
 gc
 :
 :
-EphemeronEdgeTable
+WeakKeyTable
 :
 :
 Range
@@ -3492,7 +3492,7 @@ r
 zone
 -
 >
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -3540,7 +3540,7 @@ zone
 if
 (
 !
-savedEphemeronEdges
+savedWeakKeys
 .
 put
 (
@@ -3589,7 +3589,7 @@ if
 zone
 -
 >
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -4292,7 +4292,7 @@ if
 zone
 -
 >
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
@@ -4330,13 +4330,13 @@ for
 gc
 :
 :
-EphemeronEdgeTable
+WeakKeyTable
 :
 :
 Range
 r
 =
-savedEphemeronEdges
+savedWeakKeys
 .
 all
 (
@@ -4386,7 +4386,7 @@ if
 zone
 -
 >
-gcEphemeronEdges
+gcWeakKeys
 (
 )
 .
