@@ -185,6 +185,12 @@ aNodeInfo
 )
 {
 }
+NS_IMPL_FROMNODE_HTML_WITH_TAG
+(
+HTMLMarqueeElement
+marquee
+)
+;
 nsresult
 BindToTree
 (
