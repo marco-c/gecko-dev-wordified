@@ -244,6 +244,9 @@ namespace
 js
 {
 class
+DebugScriptMap
+;
+class
 RegExpZone
 ;
 class
@@ -1658,12 +1661,13 @@ scriptLCovMap
 js
 :
 :
-UniquePtr
+MainThreadData
 <
 js
 :
 :
 DebugScriptMap
+*
 >
 debugScriptMap
 ;

@@ -9579,12 +9579,13 @@ frameObj
 if
 (
 !
-frameObj
--
->
+DebuggerFrame
+:
+:
 setGeneratorInfo
 (
 cx
+frameObj
 genObj
 )
 )

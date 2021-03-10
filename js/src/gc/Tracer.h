@@ -1481,7 +1481,8 @@ TraceRoot
 JSTracer
 *
 trc
-WeakHeapPtr
+const
+HeapPtr
 <
 T
 >
