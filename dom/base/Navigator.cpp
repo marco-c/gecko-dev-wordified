@@ -713,12 +713,17 @@ nsIHttpChannel
 h
 "
 #
+ifdef
+ENABLE_MARIONETTE
+#
 include
 "
 nsIMarionette
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -13557,6 +13562,9 @@ marionetteRunning
 =
 false
 ;
+#
+ifdef
+ENABLE_MARIONETTE
 nsCOMPtr
 <
 nsIMarionette
@@ -13583,6 +13591,8 @@ marionetteRunning
 )
 ;
 }
+#
+endif
 return
 marionetteRunning
 ;
