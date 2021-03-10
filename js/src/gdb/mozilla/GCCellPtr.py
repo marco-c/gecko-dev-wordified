@@ -356,14 +356,14 @@ Shape
 "
             
 "
-ObjectGroup
+BaseShape
 "
 :
 "
 js
 :
 :
-ObjectGroup
+BaseShape
 "
             
 "
@@ -385,17 +385,6 @@ of
 line
 types
 .
-            
-"
-BaseShape
-"
-:
-"
-js
-:
-:
-BaseShape
-"
             
 "
 JitCode
@@ -464,14 +453,6 @@ types
 alloc_map
 =
 {
-            
-"
-BASE_SHAPE
-"
-:
-"
-BaseShape
-"
             
 "
 JITCODE

@@ -1499,16 +1499,6 @@ bi
 )
 override
 ;
-ObjectGroup
-*
-onObjectGroupEdge
-(
-ObjectGroup
-*
-group
-)
-override
-;
 JS
 :
 :

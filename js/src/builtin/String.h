@@ -148,9 +148,6 @@ ArrayObject
 class
 GlobalObject
 ;
-class
-ObjectGroup
-;
 /
 *
 Initialize
