@@ -1066,28 +1066,6 @@ id
 )
 )
         
-#
-set
-default
-value
-to
-None
-so
-that
-we
-can
-test
-for
-perferences
-where
-we
-forgot
-to
-set
-the
-default
-value
-        
 feature
 .
 setdefault
@@ -1095,7 +1073,7 @@ setdefault
 "
 defaultValue
 "
-None
+False
 )
     
 elif
