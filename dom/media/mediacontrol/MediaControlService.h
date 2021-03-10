@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

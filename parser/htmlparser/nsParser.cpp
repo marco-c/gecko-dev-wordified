@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsXPCOMCIDInternal
 .
 h

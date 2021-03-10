@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ReentrantMonitor

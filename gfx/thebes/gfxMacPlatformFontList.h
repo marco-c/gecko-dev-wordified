@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsRefPtrHashtable
 .
 h

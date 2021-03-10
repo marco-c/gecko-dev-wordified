@@ -211,13 +211,6 @@ nsIHTMLCollection
 .
 h
 "
-#
-include
-"
-nsDataHashtable
-.
-h
-"
 class
 ContentUnbinder
 ;

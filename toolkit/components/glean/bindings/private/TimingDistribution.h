@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsIGleanMetrics
 .
 h

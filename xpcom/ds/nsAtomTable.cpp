@@ -228,13 +228,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

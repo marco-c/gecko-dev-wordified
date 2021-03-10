@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsURIHashKey
 .
 h

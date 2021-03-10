@@ -149,13 +149,6 @@ CSSRuleList
 .
 h
 "
-#
-include
-"
-nsDataHashtable
-.
-h
-"
 namespace
 mozilla
 {

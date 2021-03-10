@@ -459,13 +459,6 @@ h
 "
 #
 include
-"
-nsDataHashtable
-.
-h
-"
-#
-include
 <
 new
 >
