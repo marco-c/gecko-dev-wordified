@@ -4274,7 +4274,7 @@ fontList
 >
 mFontFamilies
 .
-Contains
+GetWeak
 (
 key
 )
