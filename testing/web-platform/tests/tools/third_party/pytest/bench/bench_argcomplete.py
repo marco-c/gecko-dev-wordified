@@ -1,4 +1,16 @@
 #
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+#
 10000
 iterations
 just

@@ -15,6 +15,11 @@ datetime
 import
 datetime
 timedelta
+from
+six
+import
+iteritems
+PY2
 #
 Amount
 of
@@ -100,6 +105,21 @@ str
 return
 s
     
+if
+PY2
+:
+        
+return
+s
+.
+encode
+(
+encoding
+)
+    
+else
+:
+        
 return
 s
 .
@@ -567,12 +587,11 @@ for
 k
 v
 in
+iteritems
+(
 os
 .
 environ
-.
-items
-(
 )
 :
             

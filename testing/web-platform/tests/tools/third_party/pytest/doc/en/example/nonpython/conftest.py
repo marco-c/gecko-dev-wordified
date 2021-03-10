@@ -1,4 +1,16 @@
 #
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
+#
 content
 of
 conftest
@@ -22,7 +34,7 @@ ext
 =
 "
 .
-yaml
+yml
 "
 and
 path
@@ -39,13 +51,9 @@ test
         
 return
 YamlFile
-.
-from_parent
 (
-parent
-fspath
-=
 path
+parent
 )
 class
 YamlFile
@@ -63,8 +71,10 @@ self
 )
 :
         
+import
+yaml
 #
-We
+we
 need
 a
 yaml
@@ -74,10 +84,6 @@ e
 g
 .
 PyYAML
-.
-        
-import
-yaml
         
 raw
 =
@@ -110,15 +116,9 @@ items
             
 yield
 YamlItem
-.
-from_parent
 (
+name
 self
-name
-=
-name
-spec
-=
 spec
 )
 class
@@ -142,6 +142,8 @@ spec
         
 super
 (
+YamlItem
+self
 )
 .
 __init__
@@ -180,7 +182,7 @@ items
 :
             
 #
-Some
+some
 custom
 test
 execution
@@ -189,7 +191,6 @@ dumb
 example
 follows
 )
-.
             
 if
 name
@@ -217,7 +218,7 @@ excinfo
 "
 "
 "
-Called
+called
 when
 self
 .
@@ -263,28 +264,23 @@ failed
 spec
 failed
 :
-{
-1
-!
+%
 r
-}
 :
-{
-2
-!
+%
 r
-}
 "
-.
-format
-(
-*
+%
 excinfo
 .
 value
 .
 args
-)
+[
+1
+:
+3
+]
                     
 "
 no
@@ -316,16 +312,13 @@ fspath
 "
 usecase
 :
-{
-}
+%
+s
 "
-.
-format
-(
+%
 self
 .
 name
-)
 class
 YamlException
 (
@@ -336,7 +329,7 @@ Exception
 "
 "
 "
-Custom
+custom
 exception
 for
 error

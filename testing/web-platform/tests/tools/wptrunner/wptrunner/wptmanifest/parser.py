@@ -56,9 +56,18 @@ __future__
 import
 unicode_literals
 from
-io
+six
 import
+binary_type
+text_type
 BytesIO
+unichr
+from
+six
+.
+moves
+import
+range
 from
 .
 node
@@ -271,7 +280,7 @@ assert
 isinstance
 (
 s
-str
+text_type
 )
     
 return
@@ -445,7 +454,7 @@ not
 isinstance
 (
 stream
-str
+text_type
 )
         
 if
@@ -514,7 +523,7 @@ assert
 isinstance
 (
 line
-bytes
+binary_type
 )
             
 self
@@ -583,7 +592,7 @@ isinstance
 self
 .
 line
-str
+text_type
 )
             
 while
@@ -3511,7 +3520,7 @@ consume
 )
         
 return
-chr
+unichr
 (
 value
 )
