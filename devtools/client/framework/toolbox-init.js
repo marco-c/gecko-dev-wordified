@@ -1141,7 +1141,9 @@ target
 off
 (
 "
-close
+target
+-
+destroyed
 "
 onTargetDestroyed
 )
@@ -1201,7 +1203,9 @@ target
 on
 (
 "
-close
+target
+-
+destroyed
 "
 onTargetDestroyed
 )
