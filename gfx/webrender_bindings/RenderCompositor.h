@@ -209,6 +209,9 @@ namespace
 wr
 {
 class
+RenderCompositorLayersSWGL
+;
+class
 RenderCompositorD3D11SWGL
 ;
 class
@@ -574,6 +577,17 @@ virtual
 RenderCompositorD3D11SWGL
 *
 AsRenderCompositorD3D11SWGL
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderCompositorLayersSWGL
+*
+AsRenderCompositorLayersSWGL
 (
 )
 {
