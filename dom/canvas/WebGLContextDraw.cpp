@@ -398,7 +398,7 @@ srcBase
 =
 tex
 .
-BaseMipmapLevel
+Es3_level_base
 (
 )
 ;
