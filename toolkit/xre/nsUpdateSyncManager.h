@@ -295,8 +295,14 @@ nsIObserver
 {
 public
 :
+explicit
 nsUpdateSyncManager
 (
+nsIFile
+*
+anAppFile
+=
+nullptr
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -361,6 +367,11 @@ delete
 nsresult
 OpenLock
 (
+nsIFile
+*
+anAppFile
+=
+nullptr
 )
 ;
 void
