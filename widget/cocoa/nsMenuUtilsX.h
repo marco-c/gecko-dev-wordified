@@ -217,7 +217,7 @@ NodeIsHiddenOrCollapsed
 (
 nsIContent
 *
-aContent
+inContent
 )
 ;
 int
