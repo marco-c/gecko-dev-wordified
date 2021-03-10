@@ -11339,12 +11339,6 @@ frame
 .
 render_tasks
 &
-rendered_document
-.
-frame
-.
-passes
-&
 mut
 render_tasks_file
 )
