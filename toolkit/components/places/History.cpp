@@ -11890,11 +11890,8 @@ PR_Now
 )
 -
 entry
-.
-Data
-(
-)
-.
+-
+>
 mTime
 )
 <
@@ -11905,11 +11902,8 @@ bool
 wasHidden
 =
 entry
-.
-Data
-(
-)
-.
+-
+>
 mHidden
 ;
 /

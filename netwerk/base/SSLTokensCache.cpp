@@ -1235,11 +1235,8 @@ Reset
 }
 return
 entry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )

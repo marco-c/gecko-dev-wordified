@@ -1337,11 +1337,8 @@ INIValue
 v
 =
 entry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )

@@ -5212,11 +5212,8 @@ entry
 {
 return
 entry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )

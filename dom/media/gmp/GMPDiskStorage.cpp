@@ -982,11 +982,8 @@ get
 }
 return
 entry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )

@@ -19822,11 +19822,8 @@ WriteInfo
 writeInfo
 =
 entry
-.
-Data
-(
-)
-.
+-
+>
 get
 (
 )
