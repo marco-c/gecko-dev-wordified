@@ -24749,8 +24749,6 @@ BrowsingContext
 &
 aContext
 bool
-aCheckPermission
-bool
 aIsVisible
 )
 {
@@ -24825,7 +24823,7 @@ aContext
 get
 (
 )
-aCheckPermission
+false
 aIsVisible
 )
 ;

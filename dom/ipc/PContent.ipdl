@@ -10948,8 +10948,6 @@ AdjustWindowFocus
 MaybeDiscardedBrowsingContext
 aContext
 bool
-aCheckPermission
-bool
 aIsVisible
 )
 ;

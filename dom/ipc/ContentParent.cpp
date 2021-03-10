@@ -44301,8 +44301,6 @@ BrowsingContext
 &
 aContext
 bool
-aCheckPermission
-bool
 aIsVisible
 )
 {
@@ -44435,7 +44433,6 @@ cp
 SendAdjustWindowFocus
 (
 context
-aCheckPermission
 aIsVisible
 )
 ;

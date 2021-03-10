@@ -3937,8 +3937,6 @@ BrowsingContext
 &
 aContext
 bool
-aCheckPermission
-bool
 aIsVisible
 )
 ;

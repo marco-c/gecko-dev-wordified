@@ -12468,7 +12468,6 @@ contentChild
 SendAdjustWindowFocus
 (
 bc
-false
 aIsVisible
 )
 ;
