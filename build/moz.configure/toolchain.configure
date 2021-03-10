@@ -13960,7 +13960,6 @@ depends
 (
 target
 c_compiler
-vc_path
 check_build_environment
 when
 =
@@ -13996,7 +13995,6 @@ coverage_cflags
 (
 target
 c_compiler
-vc_path
 build_env
 )
 :
