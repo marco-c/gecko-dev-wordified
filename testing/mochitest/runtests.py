@@ -231,7 +231,9 @@ import
 Addons
     
 from
-marionette_harness
+marionette_driver
+.
+marionette
 import
 Marionette
 except
