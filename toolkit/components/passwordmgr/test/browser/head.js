@@ -4174,6 +4174,9 @@ null
 browsingContext
 =
 null
+openFillMenu
+=
+null
 )
 {
 const
@@ -4388,6 +4391,11 @@ return
 ;
 }
 }
+if
+(
+openFillMenu
+)
+{
 /
 /
 Synthesize
@@ -4453,6 +4461,7 @@ ownerGlobal
 await
 popupShownPromise
 ;
+}
 }
 /
 *

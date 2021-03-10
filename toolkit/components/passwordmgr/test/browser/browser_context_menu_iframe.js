@@ -266,6 +266,7 @@ children
 [
 0
 ]
+true
 )
 ;
 let
