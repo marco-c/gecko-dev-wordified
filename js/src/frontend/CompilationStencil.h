@@ -5197,6 +5197,14 @@ cursor
 )
 ;
 bool
+appendScriptStencilAndData
+(
+JSContext
+*
+cx
+)
+;
+bool
 appendGCThings
 (
 JSContext
