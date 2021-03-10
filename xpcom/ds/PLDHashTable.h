@@ -6404,9 +6404,6 @@ matchEntry
 PLDHashMoveEntry
 moveEntry
 ;
-PLDHashClearEntry
-clearEntry
-;
 /
 /
 Optional
@@ -6421,6 +6418,9 @@ are
 not
 called
 .
+PLDHashClearEntry
+clearEntry
+;
 PLDHashInitEntry
 initEntry
 ;
