@@ -365,6 +365,8 @@ WidgetWheelEvent
 &
 double
 aDelta
+nscoord
+aLineOrPageAmount
 CallerType
 )
 ;
