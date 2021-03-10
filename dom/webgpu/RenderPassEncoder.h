@@ -363,13 +363,6 @@ const
 Buffer
 &
 aBuffer
-const
-dom
-:
-:
-GPUIndexFormat
-&
-aIndexFormat
 uint64_t
 aOffset
 uint64_t

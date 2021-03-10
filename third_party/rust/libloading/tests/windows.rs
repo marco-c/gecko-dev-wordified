@@ -189,8 +189,6 @@ load_ordinal_lib
 >
 Library
 {
-unsafe
-{
 Library
 :
 :
@@ -213,7 +211,6 @@ nagisa32
 dll
 "
 )
-}
 }
 #
 [
@@ -234,8 +231,6 @@ load_ordinal_lib
 >
 Library
 {
-unsafe
-{
 Library
 :
 :
@@ -258,7 +253,6 @@ nagisa64
 dll
 "
 )
-}
 }
 #
 [
@@ -474,8 +468,6 @@ test_new_kernel23
 (
 )
 {
-unsafe
-{
 Library
 :
 :
@@ -495,7 +487,6 @@ unwrap
 )
 ;
 }
-}
 #
 [
 test
@@ -504,8 +495,6 @@ fn
 test_new_kernel32_no_ext
 (
 )
-{
-unsafe
 {
 Library
 :
@@ -521,5 +510,4 @@ unwrap
 (
 )
 ;
-}
 }

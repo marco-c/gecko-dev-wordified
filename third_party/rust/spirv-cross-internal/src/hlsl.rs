@@ -119,10 +119,6 @@ Eq
 PartialEq
 )
 ]
-#
-[
-non_exhaustive
-]
 pub
 enum
 ShaderModel

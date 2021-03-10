@@ -743,7 +743,6 @@ self
 memory
 :
 &
-mut
 M
 offset
 :
@@ -815,7 +814,6 @@ self
 memory
 :
 &
-mut
 M
 )
 ;

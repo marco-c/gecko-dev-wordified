@@ -568,7 +568,7 @@ seq
 aExtentFFI
 -
 >
-depth_or_array_layers
+depth
 =
 seq
 .
@@ -628,11 +628,11 @@ mHeight
 aExtentFFI
 -
 >
-depth_or_array_layers
+depth
 =
 dict
 .
-mDepthOrArrayLayers
+mDepth
 ;
 }
 else

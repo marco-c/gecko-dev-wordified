@@ -264,7 +264,7 @@ u16
 /
 /
 Memory
-now
+not
 contains
 elements
 [
@@ -381,7 +381,7 @@ u16
 /
 /
 Memory
-now
+not
 contains
 elements
 [
