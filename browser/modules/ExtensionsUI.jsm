@@ -2144,7 +2144,7 @@ GetStringFromName
 "
 webextPerms
 .
-learnMore
+learnMore2
 "
 )
 ;

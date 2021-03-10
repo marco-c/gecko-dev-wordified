@@ -11040,7 +11040,7 @@ GetStringFromName
 "
 webextPerms
 .
-listIntro
+listIntro2
 "
 )
 ;
