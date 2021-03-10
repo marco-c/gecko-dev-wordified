@@ -1581,7 +1581,10 @@ if
 aWhichChild
 =
 =
-eDeepestChild
+EWhichChildAtPoint
+:
+:
+DeepestChild
 &
 &
 child

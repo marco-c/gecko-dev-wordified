@@ -1662,10 +1662,13 @@ x
 geckoPoint
 .
 y
-LocalAccessible
+Accessible
 :
 :
-eDeepestChild
+EWhichChildAtPoint
+:
+:
+DeepestChild
 )
 ;
 if

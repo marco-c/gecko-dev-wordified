@@ -4134,7 +4134,7 @@ kChildIdSelf
 )
 ;
 }
-RemoteAccessible
+Accessible
 *
 RemoteAccessible
 :
@@ -4145,7 +4145,7 @@ int32_t
 aX
 int32_t
 aY
-LocalAccessible
+Accessible
 :
 :
 EWhichChildAtPoint
@@ -4407,10 +4407,13 @@ if
 aWhichChild
 =
 =
-LocalAccessible
+Accessible
 :
 :
-eDirectChild
+EWhichChildAtPoint
+:
+:
+DirectChild
 )
 {
 break
