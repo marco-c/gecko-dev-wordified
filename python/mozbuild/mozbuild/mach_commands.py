@@ -10596,6 +10596,25 @@ enable_run_as
 =
 True
 )
+            
+if
+not
+use_existing_process
+:
+                
+device
+.
+shell
+(
+"
+am
+clear
+-
+debug
+-
+app
+"
+)
     
 def
 _run_jsshell
