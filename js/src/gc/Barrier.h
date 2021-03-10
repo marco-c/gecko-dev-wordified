@@ -8426,9 +8426,6 @@ class
 BaseShape
 ;
 class
-UnownedBaseShape
-;
-class
 WasmInstanceObject
 ;
 class
@@ -8557,15 +8554,6 @@ GCPtrShape
 GCPtr
 <
 Shape
-*
->
-;
-using
-GCPtrUnownedBaseShape
-=
-GCPtr
-<
-UnownedBaseShape
 *
 >
 ;
