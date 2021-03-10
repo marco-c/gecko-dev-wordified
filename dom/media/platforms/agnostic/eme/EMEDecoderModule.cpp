@@ -1024,6 +1024,11 @@ __func__
 return
 ;
 }
+const
+auto
+&
+decrypt
+=
 mDecrypts
 .
 InsertOrUpdate
@@ -1067,12 +1072,7 @@ Decrypted
 Track
 (
 *
-mDecrypts
-.
-Get
-(
-aSample
-)
+decrypt
 )
 ;
 }
