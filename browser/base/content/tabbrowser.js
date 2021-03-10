@@ -535,7 +535,7 @@ tooltip
 ;
 if
 (
-gProtonTabs
+gProtonPlacesTooltip
 )
 {
 tabTooltip
@@ -29729,7 +29729,7 @@ tab
 if
 (
 !
-gProtonTabs
+gProtonPlacesTooltip
 )
 {
 event
