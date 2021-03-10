@@ -6284,7 +6284,7 @@ gcOutput
 /
 /
 Merge
-ExtensibleCompilationStencil
+CompilationStencil
 for
 delazification
 into
@@ -6404,7 +6404,7 @@ ScriptIndex
 getInitialScriptIndexFor
 (
 const
-ExtensibleCompilationStencil
+CompilationStencil
 &
 delazification
 )
@@ -6451,7 +6451,7 @@ JSContext
 *
 cx
 const
-ExtensibleCompilationStencil
+CompilationStencil
 &
 delazification
 AtomIndexMap
@@ -6521,7 +6521,7 @@ JSContext
 *
 cx
 const
-ExtensibleCompilationStencil
+CompilationStencil
 &
 delazification
 )

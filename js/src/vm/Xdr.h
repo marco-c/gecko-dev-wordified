@@ -3993,7 +3993,7 @@ const
 frontend
 :
 :
-ExtensibleCompilationStencil
+CompilationStencil
 &
 delazification
 )
