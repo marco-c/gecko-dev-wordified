@@ -20652,6 +20652,16 @@ GetSystemPrincipal
 )
 ;
 }
+if
+(
+mozilla
+:
+:
+SessionHistoryInParent
+(
+)
+)
+{
 mActiveEntry
 =
 MakeUnique
@@ -20701,6 +20711,7 @@ aUpdatedCacheKey
 0
 )
 ;
+}
 if
 (
 DisplayLoadError
