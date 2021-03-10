@@ -6689,7 +6689,6 @@ return
 false
 ;
 }
-}
 MOZ_ASSERT
 (
 lazyFlags
@@ -6793,13 +6792,14 @@ source
 addDelazificationToIncrementalEncoding
 (
 cx
-compilationState
+borrowingStencil
 )
 )
 {
 return
 false
 ;
+}
 }
 }
 assertException

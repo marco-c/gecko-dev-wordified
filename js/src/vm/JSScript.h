@@ -6810,10 +6810,11 @@ addDelazificationToIncrementalEncoding
 JSContext
 *
 cx
+const
 frontend
 :
 :
-ExtensibleCompilationStencil
+CompilationStencil
 &
 stencil
 )
