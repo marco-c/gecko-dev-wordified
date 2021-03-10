@@ -564,14 +564,6 @@ obj
 nobj
 -
 >
-initGroup
-(
-nullptr
-)
-;
-nobj
--
->
 initShape
 (
 shape

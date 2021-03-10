@@ -25216,12 +25216,10 @@ JSTracer
 trc
 )
 {
-TraceEdge
+TraceCellHeaderEdge
 (
 trc
-shapePtr
-(
-)
+this
 "
 shape
 "
