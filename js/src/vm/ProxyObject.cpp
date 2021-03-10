@@ -917,14 +917,6 @@ obj
 proxy
 -
 >
-initGroup
-(
-nullptr
-)
-;
-proxy
--
->
 initShape
 (
 shape
