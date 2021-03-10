@@ -10587,7 +10587,7 @@ raster_space
 RasterizationSpace
 :
 :
-Screen
+Local
 opacity
 :
 1
