@@ -2280,9 +2280,7 @@ target
 on
 (
 "
-target
--
-destroyed
+close
 "
 (
 )

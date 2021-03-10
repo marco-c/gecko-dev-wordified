@@ -62,9 +62,7 @@ target
 on
 (
 "
-target
--
-destroyed
+close
 "
 (
 )
@@ -77,7 +75,7 @@ true
 "
 Target
 was
-destroyed
+closed
 "
 )
 ;
