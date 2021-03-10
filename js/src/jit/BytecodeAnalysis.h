@@ -329,9 +329,6 @@ JitAllocPolicy
 >
 infos_
 ;
-bool
-hasTryFinally_
-;
 public
 :
 explicit
@@ -435,16 +432,6 @@ pcOffset
 }
 return
 nullptr
-;
-}
-bool
-hasTryFinally
-(
-)
-const
-{
-return
-hasTryFinally_
 ;
 }
 void
