@@ -1394,7 +1394,7 @@ tree
 "
 :
 "
-debian8
+debian10
 -
 amd64
 -
