@@ -577,12 +577,6 @@ a
 separate
 flag
 .
-DEALLOCATE_MAIN_THREAD
-=
-1
-<
-<
-8
 /
 /
 After
