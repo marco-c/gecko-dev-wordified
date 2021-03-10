@@ -8697,13 +8697,12 @@ IsInServoTraversal
 )
 )
 {
-bool
-*
+auto
 entry
 =
 mAllowedFontLoads
 .
-GetValue
+Lookup
 (
 &
 aSrc

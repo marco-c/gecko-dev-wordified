@@ -2345,7 +2345,7 @@ MOZ_ASSERT
 !
 mReceivedFragments
 .
-GetValue
+Contains
 (
 surfaceId
 )
@@ -2376,7 +2376,7 @@ mPendingFragments
 |
 mReceivedFragments
 .
-GetValue
+Contains
 (
 surfaceId
 )
@@ -2803,7 +2803,7 @@ MOZ_ASSERT
 !
 mReceivedFragments
 .
-GetValue
+Contains
 (
 GetTabId
 (

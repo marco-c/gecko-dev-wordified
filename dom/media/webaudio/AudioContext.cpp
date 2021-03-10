@@ -7873,7 +7873,7 @@ MOZ_ASSERT
 !
 mWorkletParamDescriptors
 .
-GetValue
+Contains
 (
 aName
 )
