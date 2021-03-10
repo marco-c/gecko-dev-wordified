@@ -10512,7 +10512,7 @@ return
 PaintRoundedRectWithRadius
 (
 aPaintData
-aRect
+rect
 sRGBColor
 :
 :
