@@ -1636,7 +1636,7 @@ CharsToNewUTF8CharsZ
 (
 JSContext
 *
-maybeCx
+cx
 const
 mozilla
 :

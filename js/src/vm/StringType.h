@@ -10526,7 +10526,7 @@ StringToNewUTF8CharsZ
 (
 JSContext
 *
-maybecx
+cx
 JSString
 &
 str
@@ -10546,7 +10546,7 @@ str
 .
 ensureLinear
 (
-maybecx
+cx
 )
 ;
 if
@@ -10574,7 +10574,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-maybecx
+cx
 linear
 -
 >
@@ -10593,7 +10593,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-maybecx
+cx
 linear
 -
 >
