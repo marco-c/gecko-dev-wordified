@@ -7328,9 +7328,6 @@ PrintUtils
 .
 startPrintWindow
 (
-"
-ext_tabs_print
-"
 activeTab
 .
 linkedBrowser
@@ -7369,9 +7366,6 @@ PrintUtils
 .
 printPreview
 (
-"
-ext_tabs_printpreview
-"
 PrintPreviewListener
 )
 ;
