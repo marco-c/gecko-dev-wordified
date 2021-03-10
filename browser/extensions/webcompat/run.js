@@ -71,7 +71,6 @@ AVAILABLE_PIP_OVERRIDES
 AVAILABLE_UA_OVERRIDES
 CUSTOM_FUNCTIONS
 Injections
-PictureInPictureOverrides
 Shims
 UAOverrides
 *
@@ -93,15 +92,6 @@ new
 UAOverrides
 (
 AVAILABLE_UA_OVERRIDES
-)
-;
-const
-pipOverrides
-=
-new
-PictureInPictureOverrides
-(
-AVAILABLE_PIP_OVERRIDES
 )
 ;
 const
@@ -138,12 +128,6 @@ bootup
 )
 ;
 uaOverrides
-.
-bootup
-(
-)
-;
-pipOverrides
 .
 bootup
 (

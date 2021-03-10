@@ -120,7 +120,7 @@ _checkGlobalPref
 await
 browser
 .
-aboutConfigPrefs
+aboutConfigPipPrefs
 .
 getPref
 (
@@ -164,7 +164,7 @@ undefined
 {
 browser
 .
-aboutConfigPrefs
+aboutConfigPipPrefs
 .
 setPref
 (
@@ -199,7 +199,7 @@ isDisabled
 await
 browser
 .
-aboutConfigPrefs
+aboutConfigPipPrefs
 .
 getPref
 (
@@ -268,7 +268,7 @@ _onAvailableOverridesChanged
 ;
 browser
 .
-aboutConfigPrefs
+aboutConfigPipPrefs
 .
 onPrefChange
 .
@@ -343,7 +343,7 @@ _onAvailableOverridesChanged
 ;
 browser
 .
-aboutConfigPrefs
+aboutConfigPipPrefs
 .
 onPrefChange
 .
