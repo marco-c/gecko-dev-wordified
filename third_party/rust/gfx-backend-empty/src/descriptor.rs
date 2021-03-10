@@ -44,7 +44,7 @@ DescriptorPool
 {
 unsafe
 fn
-allocate_set
+allocate_one
 (
 &
 mut
@@ -97,7 +97,7 @@ I
 where
 I
 :
-IntoIterator
+Iterator
 <
 Item
 =

@@ -391,8 +391,6 @@ unreachable_unchecked
 )
 }
 }
-/
-/
 pub
 fn
 get
@@ -408,8 +406,6 @@ usize
 &
 T
 {
-/
-/
 match
 self
 .
@@ -420,8 +416,6 @@ get
 index
 )
 {
-/
-/
 Some
 (
 Entry
@@ -435,8 +429,6 @@ value
 =
 >
 value
-/
-/
 _
 =
 >
@@ -448,11 +440,7 @@ Invalid
 index
 "
 )
-/
-/
 }
-/
-/
 }
 pub
 fn
