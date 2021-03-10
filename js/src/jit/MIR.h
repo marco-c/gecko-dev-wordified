@@ -56996,7 +56996,7 @@ None
 Allocate
 a
 new
-LexicalEnvironmentObject
+BlockLexicalEnvironmentObject
 .
 class
 MNewLexicalEnvironmentObject
@@ -57104,10 +57104,12 @@ None
 Allocate
 a
 new
-LexicalEnvironmentObject
+BlockLexicalEnvironmentObject
 from
+an
 existing
 one
+.
 class
 MCopyLexicalEnvironmentObject
 :

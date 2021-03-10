@@ -23849,7 +23849,7 @@ shape
 of
 the
 new
-LexicalEnvironmentObject
+BlockLexicalEnvironmentObject
 .
 All
 bindings
@@ -24488,7 +24488,7 @@ environment
 must
 be
 a
-LexicalEnvironmentObject
+BlockLexicalEnvironmentObject
 .
 *
 *
@@ -24672,16 +24672,16 @@ rather
 *
 than
 a
-LexicalEnvironmentObject
+BlockLexicalEnvironmentObject
 .
 The
 difference
 is
 that
+*
 non
 -
 strict
-*
 direct
 eval
 can
@@ -24693,9 +24693,9 @@ var
 environment
 ;
 see
+*
 VarScope
 in
-*
 Scope
 .
 h
