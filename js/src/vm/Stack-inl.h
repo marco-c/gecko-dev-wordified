@@ -1128,7 +1128,7 @@ InterpreterFrame
 :
 replaceInnermostEnvironment
 (
-EnvironmentObject
+BlockLexicalEnvironmentObject
 &
 env
 )
@@ -1147,7 +1147,7 @@ envChain_
 >
 as
 <
-EnvironmentObject
+BlockLexicalEnvironmentObject
 >
 (
 )

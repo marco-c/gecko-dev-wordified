@@ -6734,7 +6734,7 @@ initialFrame
 .
 popOffEnvironmentChain
 <
-LexicalEnvironmentObject
+BlockLexicalEnvironmentObject
 >
 (
 )
@@ -26389,7 +26389,7 @@ fp
 >
 popOffEnvironmentChain
 <
-LexicalEnvironmentObject
+BlockLexicalEnvironmentObject
 >
 (
 )
