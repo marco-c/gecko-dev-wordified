@@ -402,7 +402,7 @@ targets
 /
 /
 -
-targetFromURL
+descriptorFromURL
 (
 )
 for
