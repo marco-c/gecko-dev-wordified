@@ -799,6 +799,12 @@ shape
 base
 (
 )
+shape
+-
+>
+objectFlags
+(
+)
 id
 slot
 attrs
