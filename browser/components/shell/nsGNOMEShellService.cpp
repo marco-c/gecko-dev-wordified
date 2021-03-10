@@ -393,12 +393,6 @@ true
 }
 {
 "
-ftp
-"
-false
-}
-{
-"
 chrome
 "
 false
