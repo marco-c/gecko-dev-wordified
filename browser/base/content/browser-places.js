@@ -12664,9 +12664,9 @@ menu
 -
 bookmark
 -
-this
+current
 -
-page
+tab
 "
 ;
 let

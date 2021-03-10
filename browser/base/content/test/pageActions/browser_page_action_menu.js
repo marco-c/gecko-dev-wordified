@@ -600,8 +600,8 @@ should
 read
 "
 Bookmark
-This
-Page
+Current
+Tab
 "
 and
 not
@@ -633,8 +633,8 @@ bookmarkButton
 label
 "
 Bookmark
-This
-Page
+Current
+Tab
 "
 )
 ;
@@ -1052,8 +1052,8 @@ should
 read
 "
 Bookmark
-This
-Page
+Current
+Tab
 "
 and
 not
@@ -1069,8 +1069,8 @@ bookmarkButton
 label
 "
 Bookmark
-This
-Page
+Current
+Tab
 "
 )
 ;
