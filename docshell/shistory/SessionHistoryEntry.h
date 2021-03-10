@@ -732,6 +732,13 @@ return
 mLoadType
 ;
 }
+void
+SetSaveLayoutStateFlag
+(
+bool
+aSaveLayoutStateFlag
+)
+;
 private
 :
 friend
