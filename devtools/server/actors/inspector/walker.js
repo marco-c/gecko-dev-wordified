@@ -12890,11 +12890,11 @@ origFlag
 =
 rawDoc
 .
-dontWarnAboutMutationEventsAndAllowSlowDOMMutations
+devToolsWatchingDOMMutations
 ;
 rawDoc
 .
-dontWarnAboutMutationEventsAndAllowSlowDOMMutations
+devToolsWatchingDOMMutations
 =
 true
 ;
@@ -13077,7 +13077,7 @@ capture
 }
 rawDoc
 .
-dontWarnAboutMutationEventsAndAllowSlowDOMMutations
+devToolsWatchingDOMMutations
 =
 origFlag
 ;
