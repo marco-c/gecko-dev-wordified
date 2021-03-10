@@ -9760,8 +9760,6 @@ flags
 src
 .
 flags
-|
-OWNED_SHAPE
 ;
 }
 inline
