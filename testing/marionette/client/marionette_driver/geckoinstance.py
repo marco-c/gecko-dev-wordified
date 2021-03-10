@@ -2149,18 +2149,6 @@ jsdebugger
 "
 devtools
 .
-debugger
-.
-remote
--
-enabled
-"
-:
-True
-                    
-"
-devtools
-.
 chrome
 .
 enabled
@@ -2181,11 +2169,13 @@ connection
 False
                     
 "
-marionette
+devtools
 .
-debugging
+debugger
 .
-clicktostart
+remote
+-
+enabled
 "
 :
 True
