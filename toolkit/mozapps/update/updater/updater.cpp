@@ -2960,16 +2960,6 @@ lenrelpath
 2
 ]
 ;
-if
-(
-!
-s
-)
-{
-return
-nullptr
-;
-}
 NS_tchar
 *
 c

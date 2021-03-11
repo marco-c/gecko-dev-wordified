@@ -5416,16 +5416,6 @@ NS_tchar
 bufferSize
 )
 ;
-if
-(
-!
-result
-)
-{
-return
-false
-;
-}
 /
 /
 Now
