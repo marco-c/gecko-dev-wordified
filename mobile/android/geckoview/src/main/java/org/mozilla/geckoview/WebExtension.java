@@ -3876,7 +3876,9 @@ session
 return
 GeckoResult
 .
-DENY
+deny
+(
+)
 ;
 }
 /
@@ -4091,7 +4093,9 @@ details
 return
 GeckoResult
 .
-DENY
+deny
+(
+)
 ;
 }
 }

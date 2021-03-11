@@ -1179,7 +1179,9 @@ AllowOrDeny
 return
 GeckoResult
 .
-ALLOW
+allow
+(
+)
 }
 }
 )
