@@ -672,7 +672,7 @@ offset
 wasm
 :
 :
-ValType
+FieldType
 *
 type
 )
@@ -698,7 +698,7 @@ offset
 wasm
 :
 :
-ValType
+FieldType
 type
 ;
 return
@@ -979,7 +979,7 @@ offset
 wasm
 :
 :
-ValType
+FieldType
 type
 MutableHandleValue
 vp

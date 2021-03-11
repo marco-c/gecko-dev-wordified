@@ -2449,7 +2449,7 @@ id
 uint32_t
 *
 offset
-ValType
+FieldType
 *
 type
 )
@@ -2888,7 +2888,7 @@ TypedObject
 uint32_t
 offset
 ;
-ValType
+FieldType
 type
 ;
 if
@@ -3120,7 +3120,7 @@ TypedObject
 uint32_t
 offset
 ;
-ValType
+FieldType
 type
 ;
 if
@@ -3436,7 +3436,7 @@ JSContext
 cx
 size_t
 offset
-ValType
+FieldType
 type
 MutableHandleValue
 vp

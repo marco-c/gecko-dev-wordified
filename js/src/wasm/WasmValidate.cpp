@@ -12002,6 +12002,11 @@ SystemAllocPolicy
 >
 TypeStateVector
 ;
+template
+<
+class
+T
+>
 static
 bool
 ValidateTypeState
@@ -12012,7 +12017,7 @@ d
 TypeStateVector
 *
 typeState
-ValType
+T
 type
 )
 {
@@ -12701,7 +12706,7 @@ if
 !
 d
 .
-readValType
+readPackedType
 (
 env
 -
