@@ -11850,7 +11850,14 @@ AspectRatioUsage
 :
 :
 ToComputeBSize
-unintentionally
+unconditionally
+for
+"
+"
+auto
+block
+-
+size
 "
 )
 ;
