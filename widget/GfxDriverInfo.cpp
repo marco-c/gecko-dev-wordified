@@ -3619,9 +3619,6 @@ APPEND_DEVICE
 0x0126
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 ivybridge
@@ -3652,8 +3649,6 @@ APPEND_DEVICE
 0x0157
 )
 ;
-#
-endif
 /
 /
 ivybridge
