@@ -73526,7 +73526,7 @@ origin
 /
 /
 (
-GetDirectoryMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 also
 checks
 if
@@ -73549,7 +73549,7 @@ metadata
 quotaManager
 -
 >
-GetDirectoryMetadataWithOriginMetadata2WithRestore
+LoadFullOriginMetadataWithRestore
 (
 originDir
 )
