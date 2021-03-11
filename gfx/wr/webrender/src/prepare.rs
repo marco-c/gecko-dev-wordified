@@ -287,6 +287,7 @@ gradient
 GRADIENT_FP_STOPS
 GradientCacheKey
 GradientStopKey
+CachedGradientSegment
 }
 ;
 use
