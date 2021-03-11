@@ -114,7 +114,7 @@ client
 waitForRequestsToSettle
 (
 )
-waitForRequestsToSettle
+waitForAboutDebuggingRequests
 (
 win
 .

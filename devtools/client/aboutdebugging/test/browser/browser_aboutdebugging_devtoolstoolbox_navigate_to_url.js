@@ -349,7 +349,7 @@ document
 )
 ;
 await
-waitForRequestsToSettle
+waitForAboutDebuggingRequests
 (
 window
 .

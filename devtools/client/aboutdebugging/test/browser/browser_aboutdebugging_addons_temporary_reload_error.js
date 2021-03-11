@@ -222,7 +222,7 @@ extension
 const
 waitForError
 =
-waitForDispatch
+aboutDebugging_waitForDispatch
 (
 window
 .
@@ -312,7 +312,7 @@ extension
 const
 waitForSuccess
 =
-waitForDispatch
+aboutDebugging_waitForDispatch
 (
 window
 .

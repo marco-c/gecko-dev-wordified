@@ -347,7 +347,7 @@ document
 )
 ;
 await
-waitForRequestsToSettle
+waitForAboutDebuggingRequests
 (
 AboutDebugging
 .
@@ -761,7 +761,7 @@ document
 )
 ;
 await
-waitForRequestsToSettle
+waitForAboutDebuggingRequests
 (
 AboutDebugging
 .
