@@ -3507,8 +3507,6 @@ uint8_t
 data
 size_t
 length
-uint16_t
-num_glyphs
 )
 {
 /
@@ -7191,7 +7189,6 @@ i
 ]
 .
 length
-num_glyphs
 )
 )
 {

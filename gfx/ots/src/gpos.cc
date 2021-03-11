@@ -1218,9 +1218,6 @@ data
 const
 size_t
 length
-const
-uint16_t
-class_count
 )
 {
 ots
@@ -4627,7 +4624,6 @@ offset_mark_array
 length
 -
 offset_mark_array
-class_count
 )
 )
 {
