@@ -8392,11 +8392,6 @@ mAllowKeywordFixup
 1
 ;
 bool
-mIsOffScreenBrowser
-:
-1
-;
-bool
 mDisableMetaRefreshWhenInactive
 :
 1
