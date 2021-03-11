@@ -470,6 +470,16 @@ SASigGetLocalExceptionIndex
 ;
 #
 endif
+extern
+const
+SymbolicAddressSignature
+SASigRefTest
+;
+extern
+const
+SymbolicAddressSignature
+SASigRttSub
+;
 /
 /
 A
