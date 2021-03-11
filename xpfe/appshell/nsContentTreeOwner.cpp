@@ -218,13 +218,6 @@ h
 #
 include
 "
-nsIExternalURLHandlerService
-.
-h
-"
-#
-include
-"
 nsIMIMEInfo
 .
 h
