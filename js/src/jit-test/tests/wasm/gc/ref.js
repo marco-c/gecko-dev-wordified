@@ -1576,12 +1576,11 @@ WebAssembly
 .
 CompileError
 /
-ref
 does
 not
 reference
 a
-struct
+gc
 type
 /
 )
@@ -1631,7 +1630,7 @@ does
 not
 reference
 a
-struct
+gc
 type
 /
 )

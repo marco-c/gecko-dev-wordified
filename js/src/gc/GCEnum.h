@@ -631,11 +631,6 @@ TypedArrayElements
 \
 _
 (
-RttValueTraceList
-)
-\
-_
-(
 NativeIterator
 )
 \

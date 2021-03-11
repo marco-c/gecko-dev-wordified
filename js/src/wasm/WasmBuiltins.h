@@ -468,6 +468,11 @@ endif
 extern
 const
 SymbolicAddressSignature
+SASigArrayNew
+;
+extern
+const
+SymbolicAddressSignature
 SASigRefTest
 ;
 extern
