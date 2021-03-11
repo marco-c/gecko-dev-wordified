@@ -2114,7 +2114,6 @@ developer
 default
 is
 (
-jcenter
 maven
 .
 google
@@ -2154,11 +2153,15 @@ https
 :
 /
 /
-jcenter
+repo
 .
-bintray
+maven
 .
-com
+apache
+.
+org
+/
+maven2
 /
 "
 "
