@@ -12513,7 +12513,7 @@ other
 ]
 addEngineWithDetails
 :
-testengine
+example
 tests
 .
 mozilla
@@ -12653,7 +12653,7 @@ other
 ]
 addEngineWithDetails
 :
-testengine
+example
 tests
 .
 mozilla
