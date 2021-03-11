@@ -1735,7 +1735,7 @@ good
 enough
 /
 /
-apporximation
+approximation
 .
 if
 let
@@ -1774,7 +1774,7 @@ rect
 area
 (
 )
->
+<
 union
 .
 area
