@@ -447,8 +447,12 @@ an
 empty
 string
 .
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 nsresult
 GetKey
 (

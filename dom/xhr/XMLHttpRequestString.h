@@ -295,7 +295,11 @@ not
 completed
 yet
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 GetAsString
 (
@@ -639,7 +643,11 @@ return
 mLength
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 GetAsString
 (

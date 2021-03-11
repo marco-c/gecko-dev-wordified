@@ -989,7 +989,11 @@ aResult
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 AppendTextTo
 (
@@ -1322,7 +1326,11 @@ equality
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 TextEquals
 (

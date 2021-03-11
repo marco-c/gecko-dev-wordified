@@ -3924,7 +3924,11 @@ its
 initial
 state
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 GetScriptSource
 (

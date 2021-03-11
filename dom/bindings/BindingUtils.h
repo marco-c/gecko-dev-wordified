@@ -13965,7 +13965,11 @@ result
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 NormalizeUSVString
 (
@@ -13974,7 +13978,11 @@ nsAString
 aString
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 NormalizeUSVString
 (

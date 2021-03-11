@@ -156,7 +156,11 @@ false
 >
 BrowsingContextCallbackReceivedPromise
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 RefPtr
 <
 ClientOpPromise

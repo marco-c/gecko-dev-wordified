@@ -2038,7 +2038,11 @@ must
 be
 ASCII
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 MaybeSetPendingException
 (

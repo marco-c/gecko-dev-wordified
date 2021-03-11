@@ -366,7 +366,11 @@ has
 been
 done
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 InitialSetupHasBeenDone
 (

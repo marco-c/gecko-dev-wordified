@@ -272,7 +272,11 @@ override
 ;
 protected
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 virtual
 bool
 SerializeHTMLAttributes
@@ -312,7 +316,11 @@ nsAString
 aStr
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 virtual
 bool
 AppendAndTranslateEntities

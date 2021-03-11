@@ -13528,7 +13528,11 @@ nodeName
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 GetBaseURI
 (

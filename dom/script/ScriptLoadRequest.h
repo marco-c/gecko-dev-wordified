@@ -2268,7 +2268,6 @@ aElem
 )
 ;
 }
-MOZ_MUST_USE
 already_AddRefed
 <
 ScriptLoadRequest
@@ -2296,7 +2295,6 @@ aElem
 )
 ;
 }
-MOZ_MUST_USE
 already_AddRefed
 <
 ScriptLoadRequest

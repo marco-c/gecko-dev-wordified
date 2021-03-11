@@ -989,7 +989,11 @@ aError
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 bool
 ToJSValue
@@ -11643,7 +11647,11 @@ mLength
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ToJSValue
 (

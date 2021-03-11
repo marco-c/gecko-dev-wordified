@@ -575,7 +575,11 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 NS_IMETHOD
 Read
 (
@@ -592,7 +596,11 @@ aStream
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 NS_IMETHOD
 SetBase
 (

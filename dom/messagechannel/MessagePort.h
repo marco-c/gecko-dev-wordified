@@ -373,7 +373,11 @@ ForceClose
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 MessagePortIdentifier
 release
 (
