@@ -4429,6 +4429,8 @@ BrowsingContext
 >
 &
 aActiveBrowsingContext
+uint64_t
+aActionId
 )
 ;
 mozilla
@@ -4440,6 +4442,8 @@ ipc
 IPCResult
 RecvReviseActiveBrowsingContext
 (
+uint64_t
+aOldActionId
 const
 MaybeDiscarded
 <
@@ -4448,7 +4452,7 @@ BrowsingContext
 &
 aActiveBrowsingContext
 uint64_t
-aActionId
+aNewActionId
 )
 ;
 mozilla

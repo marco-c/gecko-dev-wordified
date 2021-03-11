@@ -5336,6 +5336,8 @@ dom
 BrowsingContext
 *
 aContext
+uint64_t
+aActionId
 )
 ;
 /
@@ -5385,6 +5387,8 @@ dom
 BrowsingContext
 *
 aContext
+uint64_t
+aActionId
 )
 ;
 /
@@ -5426,7 +5430,7 @@ context
 is
 instead
 the
-first
+second
 argument
 of
 /
@@ -5441,7 +5445,7 @@ be
 ignored
 if
 the
-second
+first
 argument
 /
 /
@@ -5479,6 +5483,8 @@ late
 void
 ReviseActiveBrowsingContext
 (
+uint64_t
+aOldActionId
 mozilla
 :
 :
@@ -5489,7 +5495,7 @@ BrowsingContext
 *
 aContext
 uint64_t
-aActionId
+aNewActionId
 )
 ;
 /
@@ -5608,6 +5614,12 @@ BrowsingContext
 GetActiveBrowsingContextInChrome
 (
 )
+;
+uint64_t
+GetActionIdForActiveBrowsingContextInChrome
+(
+)
+const
 ;
 static
 uint64_t
@@ -5893,6 +5905,9 @@ arrives
 .
 uint64_t
 mActionIdForActiveBrowsingContextInContent
+;
+uint64_t
+mActionIdForActiveBrowsingContextInChrome
 ;
 /
 /
