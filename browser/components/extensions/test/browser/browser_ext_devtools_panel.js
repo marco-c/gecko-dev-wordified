@@ -430,6 +430,7 @@ if
 createPanel
 )
 {
+await
 browser
 .
 devtools
