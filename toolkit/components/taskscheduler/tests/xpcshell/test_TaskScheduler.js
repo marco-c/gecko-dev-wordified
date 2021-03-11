@@ -169,13 +169,11 @@ jsm
 ;
 registerCleanupFunction
 (
-async
 (
 )
 =
 >
 {
-await
 TaskScheduler
 .
 deleteAllTasks
@@ -193,7 +191,6 @@ test_gen
 (
 )
 {
-await
 TaskScheduler
 .
 registerTask
@@ -214,7 +211,6 @@ true
 }
 )
 ;
-await
 TaskScheduler
 .
 deleteTask
@@ -224,11 +220,14 @@ FOO
 "
 )
 ;
-await
 Assert
 .
-rejects
+throws
 (
+(
+)
+=
+>
 TaskScheduler
 .
 registerTask
