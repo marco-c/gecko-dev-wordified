@@ -12695,6 +12695,7 @@ w
 )
 {
 }
+ALWAYS_INLINE
 Float
 &
 select
@@ -12738,6 +12739,7 @@ UNREACHABLE
 ;
 }
 }
+ALWAYS_INLINE
 Float
 &
 sel
@@ -12753,6 +12755,7 @@ c1
 )
 ;
 }
+ALWAYS_INLINE
 vec2
 sel
 (
@@ -12776,6 +12779,7 @@ c2
 )
 ;
 }
+ALWAYS_INLINE
 vec3
 sel
 (
@@ -12805,6 +12809,7 @@ c3
 )
 ;
 }
+ALWAYS_INLINE
 vec3_ref
 lsel
 (
@@ -12834,6 +12839,7 @@ c3
 )
 ;
 }
+ALWAYS_INLINE
 vec2_ref
 lsel
 (
@@ -12857,6 +12863,7 @@ c2
 )
 ;
 }
+ALWAYS_INLINE
 vec4
 sel
 (
@@ -12892,6 +12899,7 @@ c4
 )
 ;
 }
+ALWAYS_INLINE
 vec4_ref
 lsel
 (
