@@ -1374,6 +1374,12 @@ case
 ValType
 :
 :
+Rtt
+:
+case
+ValType
+:
+:
 Ref
 :
 ins
@@ -9770,6 +9776,15 @@ fpr
 ;
 break
 ;
+case
+wasm
+:
+:
+ValType
+:
+:
+Rtt
+:
 case
 wasm
 :
@@ -31846,7 +31861,7 @@ uint32_t
 GcOp
 :
 :
-StructNew
+StructNewWithRtt
 )
 :
 case

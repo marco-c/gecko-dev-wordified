@@ -2602,14 +2602,18 @@ valType
 )
 {
 return
-UnpackTypeCodeType
-(
 PackedTypeCode
+:
+:
+fromBits
 (
 valType
 .
 packed
 )
+.
+typeCode
+(
 )
 ;
 }
@@ -2672,8 +2676,6 @@ index
 )
 {
 return
-UnpackTypeCodeType
-(
 env
 -
 >
@@ -2691,6 +2693,9 @@ elemType
 packed
 (
 )
+.
+typeCode
+(
 )
 ;
 }
@@ -4631,8 +4636,6 @@ global
 )
 {
 return
-UnpackTypeCodeType
-(
 global
 -
 >
@@ -4643,6 +4646,9 @@ type
 packed
 (
 )
+.
+typeCode
+(
 )
 ;
 }
@@ -4736,8 +4742,6 @@ table
 )
 {
 return
-UnpackTypeCodeType
-(
 table
 -
 >
@@ -4746,6 +4750,9 @@ elemType
 packed
 (
 )
+.
+typeCode
+(
 )
 ;
 }

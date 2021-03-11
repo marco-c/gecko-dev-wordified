@@ -7770,6 +7770,12 @@ case
 ValType
 :
 :
+Rtt
+:
+case
+ValType
+:
+:
 Ref
 :
 {

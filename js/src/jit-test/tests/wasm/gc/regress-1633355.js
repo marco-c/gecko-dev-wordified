@@ -183,7 +183,7 @@ i32
 (
 struct
 .
-new
+new_with_rtt
 wabbit
 (
 local
@@ -201,6 +201,12 @@ wabbit
 ref
 .
 null
+wabbit
+)
+(
+rtt
+.
+canon
 wabbit
 )
 )
