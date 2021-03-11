@@ -20475,14 +20475,7 @@ UnionWith
 aChildFrame
 -
 >
-GetOverflowAreas
-(
-)
-+
-aChildFrame
--
->
-GetPosition
+GetOverflowAreasRelativeToParent
 (
 )
 )
