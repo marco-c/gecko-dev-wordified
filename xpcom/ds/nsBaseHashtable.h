@@ -1074,12 +1074,12 @@ sub
 -
 class
 templates
-nsDataHashtable
 nsInterfaceHashtable
-*
 nsClassHashtable
-and
+*
 nsRefPtrHashtable
+and
+nsTHashMap
 .
 *
 *

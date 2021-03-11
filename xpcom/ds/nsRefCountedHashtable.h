@@ -186,8 +186,8 @@ being
 wrapped
 *
 see
-nsDataHashtable
 nsClassHashtable
+nsTHashMap
 *
 /
 template

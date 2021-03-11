@@ -310,11 +310,6 @@ nsCRT
 h
 "
 "
-nsDataHashtable
-.
-h
-"
-"
 nsDeque
 .
 h

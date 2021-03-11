@@ -1156,10 +1156,10 @@ see
 nsInterfaceHashtable
 *
 see
-nsDataHashtable
+nsClassHashtable
 *
 see
-nsClassHashtable
+nsTHashMap
 *
 author
 "
