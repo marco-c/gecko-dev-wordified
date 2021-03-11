@@ -33301,14 +33301,6 @@ ScopedXPCOMStartup
 (
 )
 ;
-if
-(
-!
-mScopedXPCOM
-)
-return
-1
-;
 rv
 =
 mScopedXPCOM
