@@ -445,11 +445,6 @@ const
 SymbolicAddressSignature
 SASigStructNew
 ;
-extern
-const
-SymbolicAddressSignature
-SASigStructNarrow
-;
 #
 ifdef
 ENABLE_WASM_EXCEPTIONS

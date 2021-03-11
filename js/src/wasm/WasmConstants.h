@@ -1866,9 +1866,6 @@ StructGet
 StructSet
 =
 0x06
-StructNarrow
-=
-0x07
 /
 /
 Rtt

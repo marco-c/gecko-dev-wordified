@@ -1142,14 +1142,6 @@ StructSet
 /
 /
 UNOFFICIAL
-const
-StructNarrow
-=
-0x07
-;
-/
-/
-UNOFFICIAL
 /
 /
 DefinitionKind
