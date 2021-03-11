@@ -204,6 +204,11 @@ WorkerStatus
 .
 h
 "
+"
+WorkerTestUtils
+.
+h
+"
 ]
 #
 Private
@@ -366,6 +371,11 @@ cpp
 "
 "
 WorkerScope
+.
+cpp
+"
+"
+WorkerTestUtils
 .
 cpp
 "
