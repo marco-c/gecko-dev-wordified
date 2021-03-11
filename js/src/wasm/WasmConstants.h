@@ -1860,6 +1860,9 @@ operations
 StructNewWithRtt
 =
 0x1
+StructNewDefaultWithRtt
+=
+0x2
 StructGet
 =
 0x03
