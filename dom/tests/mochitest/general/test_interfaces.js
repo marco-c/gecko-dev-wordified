@@ -15541,9 +15541,6 @@ VisualViewport
 insecureContext
 :
 true
-android
-:
-true
 }
 /
 /
