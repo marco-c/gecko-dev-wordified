@@ -511,7 +511,7 @@ in
 cs_line_decoration
 "
 "
-cs_gradient
+cs_fast_linear_gradient
 "
 "
 cs_border_segment
