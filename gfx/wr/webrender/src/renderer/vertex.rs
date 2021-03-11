@@ -460,7 +460,7 @@ F32
 ;
 pub
 const
-GRADIENT
+FAST_LINEAR_GRADIENT
 :
 VertexDescriptor
 =
@@ -2405,7 +2405,7 @@ VectorCover
 Border
 Scale
 LineDecoration
-Gradient
+FastLinearGradient
 Resolve
 SvgFilter
 Composite
@@ -3774,7 +3774,7 @@ VAO
 scale_vao
 :
 VAO
-gradient_vao
+fast_linear_gradient_vao
 :
 VAO
 resolve_vao
@@ -4191,7 +4191,7 @@ LINE
 &
 prim_vao
 )
-gradient_vao
+fast_linear_gradient_vao
 :
 device
 .
@@ -4201,7 +4201,7 @@ create_vao_with_new_instances
 desc
 :
 :
-GRADIENT
+FAST_LINEAR_GRADIENT
 &
 prim_vao
 )
@@ -4327,7 +4327,7 @@ delete_vao
 (
 self
 .
-gradient_vao
+fast_linear_gradient_vao
 )
 ;
 device
@@ -4526,13 +4526,13 @@ line_vao
 VertexArrayKind
 :
 :
-Gradient
+FastLinearGradient
 =
 >
 &
 self
 .
-gradient_vao
+fast_linear_gradient_vao
 VertexArrayKind
 :
 :

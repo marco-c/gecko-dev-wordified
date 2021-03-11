@@ -1265,14 +1265,14 @@ LINE
 VertexArrayKind
 :
 :
-Gradient
+FastLinearGradient
 =
 >
 &
 desc
 :
 :
-GRADIENT
+FAST_LINEAR_GRADIENT
 VertexArrayKind
 :
 :
@@ -4886,7 +4886,7 @@ Cache
 VertexArrayKind
 :
 :
-Gradient
+FastLinearGradient
 )
 "
 cs_fast_linear_gradient

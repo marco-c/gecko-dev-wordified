@@ -2000,7 +2000,8 @@ fast
 path
 linear
 gradient
-segment
+render
+task
 .
 /
 /
@@ -2011,7 +2012,7 @@ segment
 Must
 match
 the
-GRADIENT
+FAST_LINEAR_GRADIENT
 instance
 description
 in
@@ -2068,7 +2069,7 @@ Debug
 ]
 pub
 struct
-GradientJob
+FastLinearGradientInstance
 {
 pub
 task_rect
