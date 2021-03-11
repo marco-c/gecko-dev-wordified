@@ -200,7 +200,7 @@ aResult
 const
 override
 ;
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLMapElement
 nsGenericHTMLElement
@@ -252,14 +252,12 @@ Areas
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
