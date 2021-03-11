@@ -414,6 +414,8 @@ disabled
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -443,6 +445,8 @@ enabled
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "

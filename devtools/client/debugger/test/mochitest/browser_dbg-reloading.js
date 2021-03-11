@@ -187,6 +187,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_SOURCES
 "
@@ -229,6 +231,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_SOURCES
 "

@@ -186,6 +186,8 @@ onRemoved
 waitForDispatch
 (
 dbg
+.
+store
 "
 REMOVE_BREAKPOINT
 "

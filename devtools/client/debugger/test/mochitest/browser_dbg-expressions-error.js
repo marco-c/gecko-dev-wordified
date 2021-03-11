@@ -358,6 +358,8 @@ evaluation
 waitForDispatch
 (
 dbg
+.
+store
 "
 EVALUATE_EXPRESSION
 "

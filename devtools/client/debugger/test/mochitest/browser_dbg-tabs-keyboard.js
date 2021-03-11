@@ -132,6 +132,8 @@ close
 waitForDispatch
 (
 dbg
+.
+store
 "
 CLOSE_TAB
 "
@@ -157,6 +159,8 @@ close
 waitForDispatch
 (
 dbg
+.
+store
 "
 CLOSE_TAB
 "

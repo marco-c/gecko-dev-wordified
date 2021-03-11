@@ -338,6 +338,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -524,6 +526,8 @@ wait
 waitForDispatch
 (
 dbg
+.
+store
 "
 TOGGLE_SKIP_PAUSING
 "
@@ -590,6 +594,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_INLINE_PREVIEW
 "
@@ -715,6 +721,8 @@ disabled
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "

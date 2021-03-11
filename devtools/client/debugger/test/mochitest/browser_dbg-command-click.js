@@ -215,6 +215,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 HIGHLIGHT_CALLS
 "
@@ -267,6 +269,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 RESUME
 "

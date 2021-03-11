@@ -359,6 +359,8 @@ dispatched
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -455,6 +457,8 @@ dispatched
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -527,6 +531,8 @@ dispatched
 waitForDispatch
 (
 dbg
+.
+store
 "
 SET_BREAKPOINT
 "
@@ -617,6 +623,8 @@ dispatched
 waitForDispatch
 (
 dbg
+.
+store
 "
 REMOVE_BREAKPOINT
 "

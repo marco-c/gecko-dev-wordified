@@ -187,6 +187,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 HIGHLIGHT_CALLS
 "

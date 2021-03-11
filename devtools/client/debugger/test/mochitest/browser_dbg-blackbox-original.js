@@ -213,6 +213,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 SHOW_SOURCE
 "
@@ -231,6 +233,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 BLACKBOX
 "
@@ -372,6 +376,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 BLACKBOX
 "

@@ -241,6 +241,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 LOAD_SOURCE_TEXT
 "
@@ -256,6 +258,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_INLINE_PREVIEW
 "

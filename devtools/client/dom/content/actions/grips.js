@@ -166,7 +166,7 @@ FETCH_PROPERTIES
 status
 :
 "
-end
+done
 "
 response
 :

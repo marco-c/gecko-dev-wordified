@@ -145,6 +145,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 BLACKBOX
 "

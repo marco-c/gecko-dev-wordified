@@ -191,6 +191,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_INLINE_PREVIEW
 "
@@ -235,6 +237,8 @@ dispatched
 waitForDispatch
 (
 dbg
+.
+store
 "
 ADD_INLINE_PREVIEW
 "

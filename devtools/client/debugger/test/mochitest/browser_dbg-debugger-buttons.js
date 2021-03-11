@@ -269,6 +269,8 @@ resumeFired
 waitForDispatch
 (
 dbg
+.
+store
 "
 COMMAND
 "

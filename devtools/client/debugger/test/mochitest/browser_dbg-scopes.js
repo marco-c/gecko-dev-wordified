@@ -132,6 +132,8 @@ node
 waitForDispatch
 (
 dbg
+.
+store
 "
 MAP_FRAMES
 "

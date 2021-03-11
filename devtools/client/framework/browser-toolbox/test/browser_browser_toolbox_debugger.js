@@ -621,6 +621,7 @@ registerCleanupFunction
 >
 {
 }
+waitForDispatch
 waitUntil
 }
 )

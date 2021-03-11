@@ -157,6 +157,8 @@ await
 waitForDispatch
 (
 dbg
+.
+store
 "
 NAVIGATE
 "
