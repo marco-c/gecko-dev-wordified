@@ -5230,7 +5230,7 @@ c
 &
 &
 !
-IsMathSymbol
+IsMathOrMusicSymbol
 (
 prevChar
 )

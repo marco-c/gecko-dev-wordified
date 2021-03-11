@@ -1471,7 +1471,7 @@ py
 .
 inline
 bool
-IsMathSymbol
+IsMathOrMusicSymbol
 (
 uint32_t
 aCh
@@ -1485,6 +1485,15 @@ aCh
 =
 =
 U_MATH_SYMBOL
+|
+|
+u_charType
+(
+aCh
+)
+=
+=
+U_OTHER_SYMBOL
 ;
 }
 /
