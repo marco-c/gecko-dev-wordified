@@ -4643,7 +4643,7 @@ point
 .
 *
 param
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 *
 Nearest
 editable
@@ -4660,6 +4660,7 @@ is
 Otherwise
 inline
 editing
+*
 host
 .
 *
@@ -4701,9 +4702,12 @@ EditorDOMPointType
 &
 aPoint
 const
-nsIContent
+dom
+:
+:
+Element
 &
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 const
 dom
 :
@@ -4776,7 +4780,7 @@ point
 .
 *
 param
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 *
 Nearest
 editable
@@ -4793,6 +4797,7 @@ is
 Otherwise
 inline
 editing
+*
 host
 .
 *
@@ -4834,9 +4839,12 @@ EditorDOMPointType
 &
 aPoint
 const
-nsIContent
+dom
+:
+:
+Element
 &
-aEditableBlockParentOrTopmostEditableInlineContent
+aEditableBlockParentOrTopmostEditableInlineElement
 const
 dom
 :
