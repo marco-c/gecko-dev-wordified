@@ -976,6 +976,7 @@ text
 :
 {
 OverflowWrap
+RubyPosition
 TextOverflow
 WordBreak
 WordSpacing

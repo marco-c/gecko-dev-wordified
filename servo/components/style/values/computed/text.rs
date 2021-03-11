@@ -282,6 +282,7 @@ specified
 {
 LineBreak
 OverflowWrap
+RubyPosition
 WordBreak
 }
 ;
