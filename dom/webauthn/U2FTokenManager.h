@@ -149,15 +149,6 @@ PWebAuthnTransaction
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Tainting
-.
-h
-"
 /
 *
 *
@@ -309,10 +300,7 @@ PWebAuthnTransactionParent
 *
 aTransactionParent
 const
-Tainted
-<
 uint64_t
->
 &
 aTransactionId
 )
