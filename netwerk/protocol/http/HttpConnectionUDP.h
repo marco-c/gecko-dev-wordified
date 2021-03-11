@@ -751,6 +751,9 @@ Http3Session
 >
 mHttp3Session
 ;
+nsCString
+mAlpnToken
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

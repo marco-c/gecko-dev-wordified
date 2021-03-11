@@ -579,17 +579,6 @@ nsIUDPSocket
 socket
 )
 ;
-const
-nsCString
-&
-GetAlpnToken
-(
-)
-{
-return
-mAlpnToken
-;
-}
 void
 ReportHttp3Connection
 (
@@ -1016,9 +1005,6 @@ RefPtr
 QuicSocketControl
 >
 mSocketControl
-;
-nsCString
-mAlpnToken
 ;
 uint64_t
 mTransactionCount
