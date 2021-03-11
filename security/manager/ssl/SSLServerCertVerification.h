@@ -344,6 +344,8 @@ uint32_t
 aCollectedErrors
 bool
 aIsBuiltCertChainRootBuiltInRoot
+uint32_t
+aProviderFlags
 )
 =
 0
@@ -472,6 +474,8 @@ uint32_t
 aCollectedErrors
 bool
 aIsBuiltCertChainRootBuiltInRoot
+uint32_t
+aProviderFlags
 )
 override
 ;
@@ -532,6 +536,9 @@ mCollectedErrors
 ;
 bool
 mIsBuiltCertChainRootBuiltInRoot
+;
+uint32_t
+mProviderFlags
 ;
 }
 ;

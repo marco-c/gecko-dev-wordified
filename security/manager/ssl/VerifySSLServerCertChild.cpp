@@ -196,6 +196,8 @@ uint8_t
 &
 &
 aPeerCertChain
+uint32_t
+aProviderFlags
 )
 :
 mCert
@@ -222,6 +224,10 @@ move
 (
 aPeerCertChain
 )
+)
+mProviderFlags
+(
+aProviderFlags
 )
 {
 }
@@ -363,6 +369,7 @@ true
 0
 0
 aIsBuiltCertChainRootBuiltInRoot
+mProviderFlags
 )
 ;
 return
@@ -479,6 +486,7 @@ false
 aFinalError
 aCollectedErrors
 false
+mProviderFlags
 )
 ;
 return
@@ -791,6 +799,7 @@ move
 (
 aPeerCertChain
 )
+aProviderFlags
 )
 ;
 if

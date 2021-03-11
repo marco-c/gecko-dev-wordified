@@ -225,6 +225,8 @@ uint8_t
 &
 &
 aPeerCertChain
+uint32_t
+aProviderFlags
 )
 ;
 ipc
@@ -296,6 +298,9 @@ uint8_t
 >
 >
 mPeerCertChain
+;
+uint32_t
+mProviderFlags
 ;
 }
 ;
