@@ -4076,7 +4076,7 @@ both
 the
 shape
 and
-TypeDescr
+RttValue
 .
 Longer
 -
@@ -4092,7 +4092,7 @@ this
 by
 moving
 the
-TypeDescr
+RttValue
 into
 TypedObjectShape
 .
@@ -4111,7 +4111,7 @@ shape
 ;
 writer
 .
-guardTypeDescr
+guardRttValue
 (
 objId
 &
@@ -4125,7 +4125,7 @@ TypedObject
 (
 )
 .
-typeDescr
+rttValue
 (
 )
 )

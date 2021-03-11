@@ -24262,7 +24262,7 @@ the
 prototype
 '
 s
-TypeDescr
+RttValue
 .
 /
 /
@@ -24288,7 +24288,7 @@ check
 forwarding
 pointers
 .
-TypeDescr
+RttValue
 &
 descr
 =
@@ -24299,7 +24299,7 @@ InlineTypedObject
 (
 )
 .
-typeDescr
+rttValue
 (
 )
 ;
@@ -24317,7 +24317,7 @@ return
 InlineTypedObject
 :
 :
-allocKindForTypeDescriptor
+allocKindForRttValue
 (
 &
 descr

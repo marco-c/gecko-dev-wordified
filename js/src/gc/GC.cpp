@@ -16574,7 +16574,7 @@ void
 GCRuntime
 :
 :
-updateTypeDescrObjects
+updateRttValueObjects
 (
 MovingTracer
 *
@@ -16643,7 +16643,7 @@ objects
 zone
 -
 >
-typeDescrObjects
+rttValueObjects
 (
 )
 .
@@ -16660,7 +16660,7 @@ r
 zone
 -
 >
-typeDescrObjects
+rttValueObjects
 (
 )
 .
@@ -16682,14 +16682,14 @@ popFront
 )
 )
 {
-TypeDescr
+RttValue
 *
 obj
 =
 &
 MaybeForwardedObjectAs
 <
-TypeDescr
+RttValue
 >
 (
 r
@@ -16714,7 +16714,7 @@ i
 ;
 i
 <
-TypeDescr
+RttValue
 :
 :
 SlotCount
@@ -17296,7 +17296,7 @@ UpdatePhaseOne
 UpdatePhaseTwo
 :
 Update
-TypeDescrs
+RttValues
 before
 all
 other
@@ -17314,7 +17314,7 @@ we
 trace
 them
 .
-updateTypeDescrObjects
+updateRttValueObjects
 (
 trc
 zone
@@ -24488,7 +24488,7 @@ MOZ_ASSERT
 zone
 -
 >
-typeDescrObjects
+rttValueObjects
 (
 )
 .

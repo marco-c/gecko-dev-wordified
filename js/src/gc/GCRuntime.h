@@ -5104,7 +5104,7 @@ sliceBudget
 )
 ;
 void
-updateTypeDescrObjects
+updateRttValueObjects
 (
 MovingTracer
 *

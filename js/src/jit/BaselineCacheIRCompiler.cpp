@@ -1440,7 +1440,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitGuardTypeDescr
+emitGuardRttValue
 (
 ObjOperandId
 objId
@@ -1520,7 +1520,7 @@ scratch1
 ;
 masm
 .
-branchTestObjTypeDescr
+branchTestObjRttValue
 (
 Assembler
 :

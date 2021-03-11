@@ -13056,7 +13056,7 @@ TypedObject
 (
 )
 .
-typeDescr
+rttValue
 (
 )
 .

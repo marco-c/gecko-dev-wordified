@@ -4487,7 +4487,7 @@ bool
 IonCacheIRCompiler
 :
 :
-emitGuardTypeDescr
+emitGuardRttValue
 (
 ObjOperandId
 objId
@@ -4523,9 +4523,9 @@ allocator
 masm
 )
 ;
-TypeDescr
+RttValue
 *
-descr
+rttValue
 =
 &
 objectStubField
@@ -4536,7 +4536,7 @@ descrOffset
 >
 as
 <
-TypeDescr
+RttValue
 >
 (
 )
@@ -4561,14 +4561,14 @@ false
 }
 masm
 .
-branchTestObjTypeDescr
+branchTestObjRttValue
 (
 Assembler
 :
 :
 NotEqual
 obj
-descr
+rttValue
 scratch
 obj
 failure
