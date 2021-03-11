@@ -1944,12 +1944,6 @@ _format_metadata
         
 cls
         
-provider
-        
-section
-        
-option
-        
 type_cls
         
 description
@@ -1984,48 +1978,7 @@ must
 have
 :
             
-section
--
--
-str
-section
-to
-which
-the
-setting
-belongs
-.
-This
-is
-how
-                
-settings
-are
-grouped
-.
-            
-option
--
--
-str
-id
-for
-the
-setting
-.
-This
-must
-be
-unique
-within
-the
-                
-section
-it
-appears
-.
-            
-type
+type_cls
 -
 -
 a
@@ -2309,9 +2262,6 @@ self
 .
 _format_metadata
 (
-provider
-section
-option
 *
 setting
 [
