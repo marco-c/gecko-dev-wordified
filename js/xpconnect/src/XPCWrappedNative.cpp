@@ -1725,7 +1725,7 @@ GetJSProtoObject
 bool
 success
 =
-JS_SplicePrototype
+JS_SetPrototype
 (
 cx
 global
