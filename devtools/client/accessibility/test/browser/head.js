@@ -5104,7 +5104,7 @@ selectedTab
 {
 if
 (
-TabTargetFactory
+TabDescriptorFactory
 .
 isKnownTab
 (
