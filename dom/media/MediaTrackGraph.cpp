@@ -473,7 +473,7 @@ WindowToHash
 *
 /
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 MediaTrackGraphImpl

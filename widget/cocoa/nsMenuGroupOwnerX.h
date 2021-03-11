@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -289,7 +289,7 @@ for
 content
 change
 notification
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -310,7 +310,7 @@ IDs
 to
 menu
 objects
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 nsMenuItemX

@@ -262,14 +262,14 @@ etc
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
 /
 /
 for
-nsDataHashtable
+nsTHashMap
 #
 include
 "
@@ -2885,7 +2885,7 @@ be
 worth
 it
 .
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

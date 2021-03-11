@@ -106,7 +106,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -5659,7 +5659,7 @@ AliasData
 >
 mAliasTable
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 mozilla

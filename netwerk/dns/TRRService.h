@@ -828,7 +828,7 @@ thread
 .
 DataMutex
 <
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int32_t

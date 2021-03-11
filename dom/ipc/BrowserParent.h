@@ -4616,7 +4616,7 @@ dispatch
 events
 .
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 BrowserParent

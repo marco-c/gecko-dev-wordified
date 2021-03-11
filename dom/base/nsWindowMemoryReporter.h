@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1250,7 +1250,7 @@ runs
 )
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsISupportsHashKey
 mozilla

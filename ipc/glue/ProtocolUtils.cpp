@@ -4570,7 +4570,13 @@ mEventTargetMap
 InsertOrUpdate
 (
 id
+std
+:
+:
+move
+(
 target
+)
 )
 ;
 }
@@ -5638,7 +5644,10 @@ InsertOrUpdate
 handle
 .
 mId
+nsCOMPtr
+{
 target
+}
 )
 ;
 }
@@ -5929,7 +5938,10 @@ mEventTargetMap
 InsertOrUpdate
 (
 id
+nsCOMPtr
+{
 aEventTarget
+}
 )
 ;
 }
@@ -6030,7 +6042,10 @@ mEventTargetMap
 InsertOrUpdate
 (
 id
+nsCOMPtr
+{
 aEventTarget
+}
 )
 ;
 }

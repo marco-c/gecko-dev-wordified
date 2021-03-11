@@ -283,7 +283,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3126,7 +3126,7 @@ mNow
 using
 CountTable
 =
-nsDataHashtable
+nsTHashMap
 <
 nsDepCharHashKey
 ChannelCounts

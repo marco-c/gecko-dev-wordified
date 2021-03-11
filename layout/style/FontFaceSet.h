@@ -2270,7 +2270,7 @@ loads
 we
 should
 .
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

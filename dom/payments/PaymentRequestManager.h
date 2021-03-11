@@ -599,7 +599,7 @@ to
 the
 parent
 .
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <

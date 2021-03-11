@@ -5508,7 +5508,7 @@ FlushThrottledAnimations
 using
 ElementsToRestyleIterType
 =
-nsDataHashtable
+nsTHashMap
 <
 PseudoElementHashEntry
 bool

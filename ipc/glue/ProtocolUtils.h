@@ -291,7 +291,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3503,7 +3503,7 @@ T
 using
 IDMap
 =
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 T

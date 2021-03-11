@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -319,7 +319,7 @@ SimpleType
 using
 TearoffTable
 =
-nsDataHashtable
+nsTHashMap
 <
 SimpleTypePtrKey
 TearoffType

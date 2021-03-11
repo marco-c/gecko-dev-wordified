@@ -233,7 +233,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -310,7 +310,7 @@ xpcom
 shutdown
 "
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 LSDatabase

@@ -120,7 +120,7 @@ A11Y_AOM_ACCESSIBLENODE_H
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -565,7 +565,7 @@ type
 defVal
 )
 \
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 type
@@ -1452,7 +1452,7 @@ AccessibleNode
 >
 mRelationProperties
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 nsString

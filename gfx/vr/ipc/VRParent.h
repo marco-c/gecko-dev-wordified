@@ -395,7 +395,7 @@ private
 nsCString
 mOpenVRControllerAction
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 nsCString

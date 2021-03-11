@@ -554,7 +554,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -9306,7 +9306,7 @@ RawServoSelectorList
 using
 Table
 =
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 SelectorList
@@ -26014,7 +26014,7 @@ internal
 command
 .
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsStringCaseInsensitiveHashKey
 InternalCommandData
@@ -29959,7 +29959,7 @@ of
 the
 preloader
 .
-nsDataHashtable
+nsTHashMap
 <
 nsURIHashKey
 bool

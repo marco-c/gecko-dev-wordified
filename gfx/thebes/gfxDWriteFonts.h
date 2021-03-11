@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -523,7 +523,7 @@ mozilla
 :
 UniquePtr
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 int32_t

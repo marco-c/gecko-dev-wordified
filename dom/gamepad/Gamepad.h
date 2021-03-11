@@ -225,7 +225,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -877,7 +877,7 @@ GamepadTouch
 >
 mTouchEvents
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 uint32_t

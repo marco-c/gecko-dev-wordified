@@ -1205,7 +1205,7 @@ return
 NS_OK
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

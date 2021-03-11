@@ -123,7 +123,7 @@ nsNameSpaceManager_h___
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -544,7 +544,7 @@ nsNameSpaceManager
 =
 default
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <
@@ -554,7 +554,7 @@ int32_t
 >
 mURIToIDTable
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <

@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -457,7 +457,7 @@ const
 ;
 private
 :
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <

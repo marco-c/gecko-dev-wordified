@@ -107,7 +107,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -578,7 +578,7 @@ a
 pruned
 hashtable
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 TimeStamp
@@ -2084,7 +2084,7 @@ the
 management
 thread
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 mozilla

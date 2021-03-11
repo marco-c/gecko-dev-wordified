@@ -139,7 +139,7 @@ window
 ID
 .
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 nsCString

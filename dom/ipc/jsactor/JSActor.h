@@ -166,7 +166,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -974,7 +974,7 @@ mWrappedJS
 nsCString
 mName
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 PendingQuery

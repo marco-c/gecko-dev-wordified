@@ -157,7 +157,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2422,14 +2422,14 @@ the
 owner
 thread
 .
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 DOMHighResTimeStamp
 >
 mTimerRegistry
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 uint32_t

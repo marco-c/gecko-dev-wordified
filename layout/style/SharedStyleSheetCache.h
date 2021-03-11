@@ -247,7 +247,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -905,7 +905,7 @@ SheetLoadData
 &
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 SheetLoadDataHashKey
 CompleteSheet
@@ -974,7 +974,7 @@ to
 be
 cacheable
 .
-nsDataHashtable
+nsTHashMap
 <
 SheetLoadDataHashKey
 WeakPtr
@@ -1017,7 +1017,7 @@ RegisterLoader
 /
 UnregisterLoader
 .
-nsDataHashtable
+nsTHashMap
 <
 PrincipalHashKey
 uint32_t

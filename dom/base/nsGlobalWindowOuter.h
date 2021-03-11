@@ -180,7 +180,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1083,7 +1083,7 @@ PRCListStr
 public
 :
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 nsGlobalWindowOuter

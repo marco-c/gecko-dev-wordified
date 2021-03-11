@@ -95,7 +95,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1281,7 +1281,7 @@ process
 void
 SetLocalNames
 (
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 LocalFaceRec

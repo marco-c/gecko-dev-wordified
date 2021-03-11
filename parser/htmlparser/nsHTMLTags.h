@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -328,7 +328,7 @@ public
 using
 TagStringHash
 =
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsHTMLTag
@@ -337,7 +337,7 @@ nsHTMLTag
 using
 TagAtomHash
 =
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

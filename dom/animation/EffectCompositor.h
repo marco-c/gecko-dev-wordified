@@ -218,7 +218,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2074,7 +2074,7 @@ CascadeLevel
 (
 kCascadeLevelCount
 )
-nsDataHashtable
+nsTHashMap
 <
 PseudoElementHashEntry
 bool

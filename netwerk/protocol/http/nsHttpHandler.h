@@ -218,7 +218,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -4763,7 +4763,7 @@ pointer
 of
 nsHttpChannel
 .
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 nsWeakPtr

@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -645,7 +645,7 @@ mFlags
 RWLock
 mSubstitutionsLock
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 SubstitutionEntry

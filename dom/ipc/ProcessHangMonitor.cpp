@@ -1862,7 +1862,7 @@ by
 /
 mBrowserCrashDumpHashLock
 .
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 nsString

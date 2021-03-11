@@ -1699,7 +1699,7 @@ keyed
 histograms
 .
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 HistogramSnapshotData

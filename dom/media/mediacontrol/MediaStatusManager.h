@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1853,7 +1853,7 @@ MediaSessionPlaybackState
 :
 None
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 MediaSessionInfo

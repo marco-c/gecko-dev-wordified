@@ -191,7 +191,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1674,7 +1674,7 @@ mEntry
 }
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 Entry

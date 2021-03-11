@@ -1914,7 +1914,7 @@ static
 uint32_t
 gConsumers
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -1936,7 +1936,7 @@ mHTMLMarkupMap
 #
 ifdef
 MOZ_XUL
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

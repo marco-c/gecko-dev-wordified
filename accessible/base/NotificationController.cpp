@@ -4029,7 +4029,7 @@ of
 their
 target
 .
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

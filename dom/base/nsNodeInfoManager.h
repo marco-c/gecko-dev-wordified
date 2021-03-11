@@ -209,7 +209,7 @@ NS_DECL_CYCLE_
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1026,7 +1026,7 @@ mInner
 }
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 NodeInfoInnerKey
 mozilla

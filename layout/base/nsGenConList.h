@@ -1047,7 +1047,7 @@ in
 the
 list
 .
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

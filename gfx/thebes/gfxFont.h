@@ -267,7 +267,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -14131,7 +14131,7 @@ space
 contextual
 lookups
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 Script

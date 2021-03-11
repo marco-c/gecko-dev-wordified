@@ -2222,7 +2222,7 @@ FilterPrimitiveDescription
 &
 aPrimitiveDescrs
 const
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 int32_t
@@ -2638,7 +2638,7 @@ to
 source
 index
 .
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 int32_t

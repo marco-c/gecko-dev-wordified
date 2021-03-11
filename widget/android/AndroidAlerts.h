@@ -103,7 +103,7 @@ mozilla_widget_AndroidAlerts_h__
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -202,7 +202,7 @@ aCookie
 )
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 mozilla

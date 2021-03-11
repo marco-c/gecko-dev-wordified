@@ -1178,7 +1178,7 @@ FrameInfo
 >
 mLogicalFrames
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

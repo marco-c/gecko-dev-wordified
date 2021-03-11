@@ -123,7 +123,7 @@ mozilla_dom_StorageActivityService_h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -333,7 +333,7 @@ origin
 OriginAttributes
 )
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 PRTime

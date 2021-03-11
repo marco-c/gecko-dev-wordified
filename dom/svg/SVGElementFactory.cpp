@@ -180,7 +180,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -219,7 +219,7 @@ SVGContentCreatorFunction
 using
 TagAtomTable
 =
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

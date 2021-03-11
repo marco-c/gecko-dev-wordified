@@ -1415,7 +1415,7 @@ aOffset
 )
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString
@@ -2356,7 +2356,7 @@ mCollation
 recent
 events
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int64_t

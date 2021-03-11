@@ -167,7 +167,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2685,7 +2685,7 @@ sharedDBMutex
 .
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 FunctionInfo

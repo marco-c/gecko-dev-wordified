@@ -86,7 +86,7 @@ mozilla_glean_DistributionData_h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -103,7 +103,7 @@ final
 uint64_t
 sum
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 uint64_t

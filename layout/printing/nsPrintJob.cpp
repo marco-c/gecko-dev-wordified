@@ -16319,7 +16319,7 @@ so
 far
 )
 .
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

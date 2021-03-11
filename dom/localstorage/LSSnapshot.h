@@ -174,7 +174,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -643,7 +643,7 @@ nsStringHashKey
 >
 mUnknownItems
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsString

@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3339,7 +3339,7 @@ accessible
 AccessibleHashtable
 mAccessibleCache
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -3361,7 +3361,7 @@ nsITimer
 >
 mScrollWatchTimer
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

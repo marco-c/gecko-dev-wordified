@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1766,7 +1766,7 @@ intolerant
 }
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 IntoleranceEntry

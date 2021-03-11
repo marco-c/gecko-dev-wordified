@@ -150,7 +150,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -764,7 +764,7 @@ mLastFileId
 =
 0
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 NotNull

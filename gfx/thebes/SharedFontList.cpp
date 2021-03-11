@@ -6964,7 +6964,7 @@ FontList
 :
 SetLocalNames
 (
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 LocalFaceRec

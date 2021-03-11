@@ -645,7 +645,7 @@ per
 -
 face
 data
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 FontFaceData
@@ -665,7 +665,7 @@ of
 localized
 family
 names
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 CopyableTArray

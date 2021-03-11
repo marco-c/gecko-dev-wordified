@@ -6209,7 +6209,7 @@ ClearRetainedWindowRegions
 )
 ;
 const
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -11272,7 +11272,7 @@ typedef
 uint32_t
 DocumentWillChangeBudget
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -11306,7 +11306,7 @@ in
 -
 budget
 .
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -11351,7 +11351,7 @@ nsIFrame
 >
 mAGRBudgetSet
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

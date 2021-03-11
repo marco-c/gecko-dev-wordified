@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1013,7 +1013,7 @@ persistently
 on
 disk
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool

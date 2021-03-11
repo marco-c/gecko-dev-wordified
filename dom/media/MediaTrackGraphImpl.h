@@ -5081,7 +5081,7 @@ the
 graph
 thread
 .
-nsDataHashtable
+nsTHashMap
 <
 nsVoidPtrHashKey
 nsTArray

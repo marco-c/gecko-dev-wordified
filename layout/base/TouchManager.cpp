@@ -190,7 +190,7 @@ dom
 namespace
 mozilla
 {
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 TouchManager
@@ -242,7 +242,7 @@ times
 sCaptureTouchList
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 TouchManager

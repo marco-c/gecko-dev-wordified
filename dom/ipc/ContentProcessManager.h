@@ -163,7 +163,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -515,7 +515,7 @@ ContentProcessManager
 >
 sSingleton
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 ContentParent
@@ -523,7 +523,7 @@ ContentParent
 >
 mContentParentMap
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 BrowserParent

@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1198,7 +1198,7 @@ OriginHashesList
 gOriginHashesList
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 size_t
@@ -1212,7 +1212,7 @@ OriginToIndexMap
 gOriginToIndexMap
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 size_t
@@ -1226,7 +1226,7 @@ HashToIndexMap
 gHashToIndexMap
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t
@@ -1234,7 +1234,7 @@ uint32_t
 OriginBag
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 OriginMetricIDHashKey
 OriginBag

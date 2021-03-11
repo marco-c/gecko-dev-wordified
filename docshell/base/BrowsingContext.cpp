@@ -1114,7 +1114,7 @@ BrowsingContextSync
 )
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 BrowsingContext

@@ -8013,7 +8013,7 @@ root
 .
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

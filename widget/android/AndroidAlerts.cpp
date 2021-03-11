@@ -160,7 +160,7 @@ AndroidAlerts
 :
 sListenerMap
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 java

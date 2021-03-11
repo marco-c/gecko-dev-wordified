@@ -178,7 +178,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -383,7 +383,7 @@ and
 samples
 .
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsTArray
@@ -410,7 +410,7 @@ their
 values
 .
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool
@@ -421,7 +421,7 @@ BoolScalarBatch
 gBoolScalars
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString
@@ -432,7 +432,7 @@ StringScalarBatch
 gStringScalars
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t

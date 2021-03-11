@@ -196,7 +196,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3332,7 +3332,7 @@ GetExtantDoc
 (
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCharPtrHashKey
 bool

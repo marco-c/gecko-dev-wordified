@@ -159,7 +159,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -498,7 +498,7 @@ with
 casts
 .
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int
@@ -1166,7 +1166,7 @@ nsCString
 mContentTempPath
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString

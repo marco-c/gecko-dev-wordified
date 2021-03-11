@@ -442,7 +442,7 @@ Clear
 nsCString
 mAction
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 nsCString

@@ -5167,7 +5167,7 @@ mSupportedFeatures
 =
 MakeUnique
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 bool
@@ -5629,7 +5629,7 @@ mFeatureInputs
 =
 MakeUnique
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 hb_set_t
@@ -5972,7 +5972,7 @@ mSupportedFeatures
 =
 MakeUnique
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 bool

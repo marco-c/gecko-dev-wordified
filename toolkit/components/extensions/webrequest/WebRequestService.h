@@ -170,7 +170,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -335,7 +335,7 @@ default
 friend
 ChannelEntry
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 ChannelEntry

@@ -483,7 +483,7 @@ aFrame
 }
 private
 :
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

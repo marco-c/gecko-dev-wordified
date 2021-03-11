@@ -135,7 +135,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -284,7 +284,7 @@ index
 .
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 uint32_t

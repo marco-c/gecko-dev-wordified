@@ -160,7 +160,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1430,7 +1430,7 @@ nsUint32HashKey
 >
 nonSectionObjTypes
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsVoidPtrHashKey
 DWORD

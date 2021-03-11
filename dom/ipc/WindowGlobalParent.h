@@ -225,7 +225,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1872,7 +1872,7 @@ Accumulate
 (
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int32_t

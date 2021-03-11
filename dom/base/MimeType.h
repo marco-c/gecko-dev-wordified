@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -239,7 +239,7 @@ char_type
 >
 mSubtype
 ;
-nsDataHashtable
+nsTHashMap
 <
 typename
 HashKeyType

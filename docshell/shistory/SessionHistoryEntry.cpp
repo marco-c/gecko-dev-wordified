@@ -2077,7 +2077,7 @@ gLoadingSessionHistoryInfoLoadId
 =
 0
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 SessionHistoryEntry
@@ -2295,7 +2295,7 @@ sLoadIdToEntry
 sLoadIdToEntry
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 SessionHistoryEntry

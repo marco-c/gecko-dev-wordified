@@ -1890,7 +1890,7 @@ defined
 (
 XP_WIN
 )
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

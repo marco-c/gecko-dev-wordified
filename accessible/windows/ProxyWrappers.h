@@ -446,7 +446,7 @@ objects
 .
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 AccessibleWrap

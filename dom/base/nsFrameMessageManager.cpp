@@ -691,7 +691,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -6166,7 +6166,7 @@ nsString
 >
 mSuspectMessages
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 uint32_t
@@ -7099,7 +7099,7 @@ return
 NS_OK
 ;
 }
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsMessageManagerScriptHolder
@@ -7139,7 +7139,7 @@ sCachedScripts
 sCachedScripts
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsMessageManagerScriptHolder

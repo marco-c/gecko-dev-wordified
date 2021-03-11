@@ -428,7 +428,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -751,7 +751,7 @@ ReferrerPolicy
 uint8_t
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsRefPtrHashKey
 <

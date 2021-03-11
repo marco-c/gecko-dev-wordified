@@ -122,7 +122,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -221,7 +221,7 @@ GMPTimerChild
 (
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 GMPTask

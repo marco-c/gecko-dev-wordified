@@ -387,7 +387,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -4381,7 +4381,7 @@ sPrivateContent
 static
 UniquePtr
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 ContentParent

@@ -260,7 +260,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -7401,7 +7401,7 @@ ScalarDataTuple
 ScalarTupleArray
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 ProcessIDHashKey
 ScalarTupleArray
@@ -7436,7 +7436,7 @@ KeyedScalarDataTuple
 KeyedScalarTupleArray
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 ProcessIDHashKey
 KeyedScalarTupleArray
@@ -25390,7 +25390,7 @@ PersistedScalarPair
 PersistedScalarArray
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 ProcessIDHashKey
 PersistedScalarArray
@@ -26378,7 +26378,7 @@ PersistedKeyedScalarTuple
 PersistedKeyedScalarArray
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 ProcessIDHashKey
 PersistedKeyedScalarArray

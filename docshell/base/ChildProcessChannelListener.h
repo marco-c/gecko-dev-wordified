@@ -157,7 +157,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -333,14 +333,14 @@ mResolver
 TODO
 Backtrack
 .
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 Callback
 >
 mCallbacks
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 CallbackArgs

@@ -181,7 +181,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -637,7 +637,7 @@ nsString
 >
 mRespondingSessionIds
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 uint64_t

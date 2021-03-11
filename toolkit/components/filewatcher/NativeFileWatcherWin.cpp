@@ -168,7 +168,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1639,7 +1639,7 @@ WatchedResourceDescriptor
 >
 mWatchedResourcesByPath
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsVoidPtrHashKey
 WatchedResourceDescriptor

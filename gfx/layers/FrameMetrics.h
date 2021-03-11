@@ -318,14 +318,14 @@ TimeStamp
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
 /
 /
 for
-nsDataHashtable
+nsTHashMap
 #
 include
 "
@@ -7352,7 +7352,7 @@ comment
 }
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 ScrollableLayerGuid
 :

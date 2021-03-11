@@ -235,7 +235,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3558,7 +3558,7 @@ each
 group
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsStringCaseInsensitiveHashKey
 uint32_t
@@ -3577,7 +3577,7 @@ each
 group
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsStringCaseInsensitiveHashKey
 bool

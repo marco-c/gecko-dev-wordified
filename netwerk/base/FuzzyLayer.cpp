@@ -122,7 +122,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -311,7 +311,7 @@ currently
 open
 .
 static
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

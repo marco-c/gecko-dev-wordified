@@ -197,7 +197,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3617,7 +3617,7 @@ to
 an
 imgIRequest
 .
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsTreeImageCacheEntry

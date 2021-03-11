@@ -142,7 +142,7 @@ mozilla_dom_ImageTracker
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -438,7 +438,7 @@ ImageTracker
 (
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

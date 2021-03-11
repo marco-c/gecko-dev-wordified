@@ -214,7 +214,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -336,7 +336,7 @@ lookup
 by
 UUID
 .
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 ClientSourceParent
@@ -361,7 +361,7 @@ to
 be
 created
 .
-nsDataHashtable
+nsTHashMap
 <
 nsIDHashKey
 nsTArray

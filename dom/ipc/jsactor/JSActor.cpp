@@ -502,7 +502,7 @@ additions
 or
 removals
 .
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 PendingQuery

@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -256,7 +256,7 @@ gOperatorArray
 nullptr
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 OperatorData
@@ -2193,7 +2193,7 @@ NS_ERROR_OUT_OF_MEMORY
 gOperatorTable
 =
 new
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 OperatorData

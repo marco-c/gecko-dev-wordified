@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -152,7 +152,7 @@ namespace
 widget
 {
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

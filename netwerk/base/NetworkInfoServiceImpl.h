@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -135,7 +135,7 @@ namespace
 net
 {
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsCString

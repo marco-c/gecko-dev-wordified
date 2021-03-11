@@ -107,7 +107,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -283,7 +283,7 @@ nsZipQueueItem
 >
 mQueue
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int32_t

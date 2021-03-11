@@ -917,7 +917,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -9281,7 +9281,7 @@ lookup
 .
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 LSValue
@@ -9401,7 +9401,7 @@ QuotaObject
 &
 &
 aQuotaObject
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 LSValue
@@ -11502,7 +11502,7 @@ notifications
 .
 *
 /
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 LSValue
@@ -13246,7 +13246,7 @@ LoadDataOp
 *
 mLoadDataOp
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 LSValue
@@ -16207,7 +16207,7 @@ kDefaultClientValidation
 )
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 int64_t
@@ -24533,7 +24533,7 @@ QuotaObject
 &
 &
 aQuotaObject
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 LSValue

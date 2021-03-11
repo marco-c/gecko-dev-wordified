@@ -1480,7 +1480,7 @@ aOut
 )
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 KeyboardHashKey
 const

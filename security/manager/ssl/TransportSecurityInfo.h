@@ -181,7 +181,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -1071,7 +1071,7 @@ mIsUntrusted
 ;
 }
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 CertStateBits

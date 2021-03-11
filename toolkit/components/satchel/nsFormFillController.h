@@ -167,7 +167,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -733,7 +733,7 @@ mLastFormAutoComplete
 nsString
 mLastSearchString
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <
@@ -744,7 +744,7 @@ bool
 >
 mPwmgrInputs
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

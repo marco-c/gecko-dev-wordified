@@ -167,7 +167,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -244,7 +244,7 @@ processes
 }
 ;
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 LockCount

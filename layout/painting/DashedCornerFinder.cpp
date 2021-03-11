@@ -209,7 +209,7 @@ DashedCornerCacheSize
 =
 256
 ;
-nsDataHashtable
+nsTHashMap
 <
 FourFloatsHashKey
 BestDashLength

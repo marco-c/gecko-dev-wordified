@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -542,7 +542,7 @@ nsCString
 mLocale
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 UDateFormat

@@ -237,7 +237,7 @@ DottedCornerCacheSize
 =
 256
 ;
-nsDataHashtable
+nsTHashMap
 <
 FourFloatsHashKey
 BestOverlap

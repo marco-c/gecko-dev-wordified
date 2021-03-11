@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -189,7 +189,7 @@ nsAlertsIconListener
 aListener
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsAlertsIconListener

@@ -143,7 +143,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -484,7 +484,7 @@ int64_t
 aDelta
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsStringHashKey
 nsString

@@ -207,7 +207,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -928,7 +928,7 @@ but
 still
 cleared
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 ModuleEntry
@@ -943,7 +943,7 @@ ModuleEntry
 >
 mImports
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 ModuleEntry

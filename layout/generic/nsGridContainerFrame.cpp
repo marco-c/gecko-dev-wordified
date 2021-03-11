@@ -304,7 +304,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -36265,7 +36265,7 @@ sparse
 {
 Maybe
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 uint32_t

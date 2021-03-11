@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -383,7 +383,7 @@ nsACString
 aHashKey
 )
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bundleCacheEntry_t

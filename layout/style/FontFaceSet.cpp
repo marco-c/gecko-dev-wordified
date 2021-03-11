@@ -4085,7 +4085,7 @@ mapped
 to
 rules
 already
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

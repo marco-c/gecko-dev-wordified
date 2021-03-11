@@ -291,7 +291,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -3181,7 +3181,7 @@ protected
 by
 mQuotaMutex
 .
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 NotNull
@@ -3295,7 +3295,7 @@ the
 IO
 thread
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 bool
@@ -3357,7 +3357,7 @@ the
 IO
 thread
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 OriginInitializationInfo

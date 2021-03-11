@@ -3081,7 +3081,7 @@ mGlyphIDs
 =
 MakeUnique
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 uint32_t
@@ -3300,7 +3300,7 @@ mGlyphWidths
 =
 MakeUnique
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 int32_t

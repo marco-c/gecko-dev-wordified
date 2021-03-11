@@ -143,7 +143,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -435,13 +435,13 @@ destroyed
 *
 ObserverTable
 subclasses
-nsDataHashtable
+nsTHashMap
 to
 add
 reference
 counting
-support
 *
+support
 and
 a
 copy
@@ -454,6 +454,7 @@ needed
 for
 use
 with
+*
 CopyOnWrite
 <
 T
@@ -465,7 +466,7 @@ class
 ObserverTable
 :
 public
-nsDataHashtable
+nsTHashMap
 <
 nsPtrHashKey
 <

@@ -139,7 +139,7 @@ class
 ModuleLoadCounter
 final
 {
-nsDataHashtable
+nsTHashMap
 <
 nsStringCaseInsensitiveHashKey
 int

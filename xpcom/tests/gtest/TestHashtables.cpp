@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -5684,7 +5684,7 @@ a
 data
 -
 hashtable
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -5890,7 +5890,7 @@ mozilla
 :
 Unused
 ;
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -5933,7 +5933,7 @@ from
 iterator
 to
 const_iterator
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -6278,7 +6278,7 @@ entity
 const_cast
 <
 const
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -6425,7 +6425,7 @@ a
 data
 -
 hashtable
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const
@@ -6987,7 +6987,7 @@ with
 an
 interface
 key
-nsDataHashtable
+nsTHashMap
 <
 nsISupportsHashKey
 uint32_t
@@ -7535,7 +7535,7 @@ check
 WithEntryHandle
 /
 OrInsertWith
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 const

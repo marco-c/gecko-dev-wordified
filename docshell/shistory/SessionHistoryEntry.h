@@ -160,7 +160,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -2038,7 +2038,7 @@ HistoryEntryCounterForBrowsingContext
 mBCHistoryLength
 ;
 static
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 SessionHistoryEntry

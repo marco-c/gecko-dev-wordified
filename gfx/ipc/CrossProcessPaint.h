@@ -203,7 +203,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTHashMap
 .
 h
 "
@@ -879,7 +879,7 @@ aWGP
 private
 :
 typedef
-nsDataHashtable
+nsTHashMap
 <
 nsUint64HashKey
 PaintFragment

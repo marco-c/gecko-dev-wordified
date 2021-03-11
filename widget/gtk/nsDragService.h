@@ -754,7 +754,7 @@ be
 very
 slow
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsTArray

@@ -2084,7 +2084,7 @@ in
 this
 case
 .
-nsDataHashtable
+nsTHashMap
 <
 nsCStringHashKey
 nsTArray

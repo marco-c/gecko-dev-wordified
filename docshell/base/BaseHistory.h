@@ -394,7 +394,7 @@ or
 unvisited
 already
 .
-nsDataHashtable
+nsTHashMap
 <
 nsURIHashKey
 ObservingLinks

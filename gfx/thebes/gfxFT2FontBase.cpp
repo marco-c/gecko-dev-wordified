@@ -5206,7 +5206,7 @@ mozilla
 :
 MakeUnique
 <
-nsDataHashtable
+nsTHashMap
 <
 nsUint32HashKey
 GlyphMetrics
