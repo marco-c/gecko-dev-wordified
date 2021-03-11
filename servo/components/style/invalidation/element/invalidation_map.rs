@@ -1518,6 +1518,7 @@ selectors
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )

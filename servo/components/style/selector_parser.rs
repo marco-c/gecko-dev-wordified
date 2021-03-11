@@ -1013,6 +1013,7 @@ T
 [
 derive
 (
+Clone
 MallocSizeOf
 )
 ]

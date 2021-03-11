@@ -853,6 +853,7 @@ HashMap
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )
@@ -3985,6 +3986,7 @@ mode
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )

@@ -2787,7 +2787,6 @@ collection_for
 (
 &
 sheet
-guard
 )
 ;
 collection
@@ -2872,7 +2871,6 @@ collection_for
 (
 &
 sheet
-guard
 )
 ;
 collection
@@ -2953,7 +2951,6 @@ collection_for
 (
 &
 sheet
-guard
 )
 ;
 collection
@@ -3286,7 +3283,6 @@ collection_for
 (
 &
 sheet
-guard
 )
 ;
 collection
@@ -3366,10 +3362,6 @@ sheet
 :
 &
 S
-guard
-:
-&
-SharedRwLockReadGuard
 )
 -
 >
@@ -3385,10 +3377,11 @@ origin
 =
 sheet
 .
-origin
+contents
 (
-guard
 )
+.
+origin
 ;
 self
 .
@@ -4290,10 +4283,6 @@ _sheet
 :
 &
 S
-_guard
-:
-&
-SharedRwLockReadGuard
 )
 -
 >

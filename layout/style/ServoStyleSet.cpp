@@ -7539,6 +7539,15 @@ get
 }
 )
 ;
+Servo_StyleSet_RemoveUniqueEntriesFromAuthorStylesCache
+(
+mRawSet
+.
+get
+(
+)
+)
+;
 }
 mStylistState
 =
