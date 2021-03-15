@@ -2246,6 +2246,9 @@ leaf
 stackwalk
 "
 "
+cpu
+"
+"
 threads
 "
 "
