@@ -25,9 +25,11 @@ github
 .
 io
 /
-cors
+private
 -
-rfc1918
+network
+-
+access
 /
 #
 integration
