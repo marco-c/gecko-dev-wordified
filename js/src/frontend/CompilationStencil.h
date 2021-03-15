@@ -993,7 +993,7 @@ name
 )
 ;
 NameLocation
-searchInDelazificationEnclosingScope
+searchInEnclosingScope
 (
 JSContext
 *
