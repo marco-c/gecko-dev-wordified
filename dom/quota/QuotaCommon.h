@@ -7116,6 +7116,10 @@ Maybe
 nsresult
 >
 aRv
+bool
+aIsWarning
+=
+false
 )
 ;
 #
