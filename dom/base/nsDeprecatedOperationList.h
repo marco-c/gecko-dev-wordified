@@ -276,6 +276,10 @@ CreateImageBitmapCanvasRenderingContext2D
 )
 DEPRECATED_OPERATION
 (
+DrawWindowCanvasRenderingContext2D
+)
+DEPRECATED_OPERATION
+(
 MozRequestFullScreenDeprecatedPrefix
 )
 DEPRECATED_OPERATION

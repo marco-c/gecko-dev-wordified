@@ -2495,6 +2495,9 @@ nsACString
 aBgColor
 uint32_t
 aFlags
+nsIPrincipal
+&
+aSubjectPrincipal
 mozilla
 :
 :
