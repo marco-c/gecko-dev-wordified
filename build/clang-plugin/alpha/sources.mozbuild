@@ -95,6 +95,11 @@ AlphaChecker
 .
 cpp
 '
+"
+NonStdMoveChecker
+.
+cpp
+"
 '
 TempRefPtrChecker
 .
