@@ -231,7 +231,7 @@ dom
 /
 quota
 /
-InitializationTypes
+CommonMetadata
 .
 h
 "
@@ -244,7 +244,7 @@ dom
 /
 quota
 /
-OriginMetadata
+InitializationTypes
 .
 h
 "

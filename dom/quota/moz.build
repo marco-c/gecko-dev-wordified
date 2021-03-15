@@ -200,6 +200,11 @@ ClientImpl
 h
 "
 "
+CommonMetadata
+.
+h
+"
+"
 DecryptingInputStream
 .
 h
@@ -251,11 +256,6 @@ h
 "
 "
 MemoryOutputStream
-.
-h
-"
-"
-OriginMetadata
 .
 h
 "
