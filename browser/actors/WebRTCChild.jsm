@@ -1181,6 +1181,8 @@ getActorForWindow
 window
 )
 {
+try
+{
 let
 windowGlobal
 =
@@ -1188,8 +1190,6 @@ window
 .
 windowGlobalChild
 ;
-try
-{
 if
 (
 windowGlobal
@@ -1226,6 +1226,19 @@ parent
 process
 chrome
 URL
+/
+/
+and
+we
+may
+not
+even
+be
+allowed
+to
+access
+its
+windowGlobalChild
 .
 }
 return
