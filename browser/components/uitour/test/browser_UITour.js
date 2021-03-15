@@ -1122,7 +1122,7 @@ gContentAPI
 showHighlight
 (
 "
-backForward
+home
 "
 )
 ;

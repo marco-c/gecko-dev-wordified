@@ -3294,7 +3294,7 @@ document
 getElementById
 (
 "
-back
+home
 -
 button
 "
