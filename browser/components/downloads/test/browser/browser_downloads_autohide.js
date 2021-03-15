@@ -3098,7 +3098,7 @@ document
 getElementById
 (
 "
-home
+reload
 -
 button
 "
