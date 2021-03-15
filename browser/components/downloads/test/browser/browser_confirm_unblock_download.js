@@ -89,6 +89,14 @@ confirmUnblockDownload
 args
 )
 expectedResult
+Expect
+{
+expectedResult
+}
+from
+{
+buttonToClick
+}
 )
 ;
 await

@@ -1479,12 +1479,6 @@ null
 ;
 this
 .
-_isClosing
-=
-false
-;
-this
-.
 _resolveClosePromise
 (
 )
@@ -1622,11 +1616,11 @@ window
 can
 unload
 .
-this
+Services
 .
-_window
+tm
 .
-setTimeout
+dispatchToMainThread
 (
 (
 )
@@ -1642,7 +1636,6 @@ remove
 )
 ;
 }
-0
 )
 ;
 }
