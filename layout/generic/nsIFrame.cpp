@@ -25975,6 +25975,13 @@ GetParent
 toOuterReferenceFrame
 )
 ;
+toOuterReferenceFrame
++
+=
+GetPosition
+(
+)
+;
 buildingDisplayList
 .
 SetReferenceFrameAndCurrentOffset
