@@ -2544,6 +2544,14 @@ args
 =
 [
             
+sys
+.
+executable
+            
+"
+-
+m
+"
 "
 glean_parser
 "
