@@ -5398,7 +5398,7 @@ MOZ_ASSERT
 newURI
 )
 ;
-AntiTrackingRedirectHeuristic
+PrepareForAntiTrackingRedirectHeuristic
 (
 oldChan
 oldURI
