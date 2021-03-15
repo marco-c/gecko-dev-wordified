@@ -363,7 +363,9 @@ headers
             
 ret
 =
-headers
+b
+'
+'
 ;
         
 #
