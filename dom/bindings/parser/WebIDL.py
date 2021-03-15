@@ -2419,13 +2419,6 @@ name
 __
 "
 and
-name
-!
-=
-"
-__content
-"
-and
 not
 allowDoubleUnderscore
 :
