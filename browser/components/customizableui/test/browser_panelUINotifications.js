@@ -649,7 +649,7 @@ openMainMenu
 (
 )
 ;
-isnot
+is
 (
 PanelUI
 .
@@ -671,7 +671,7 @@ manual
 "
 Badge
 is
-hidden
+displaying
 on
 PanelUI
 button
@@ -999,7 +999,7 @@ openMainMenu
 (
 )
 ;
-isnot
+is
 (
 PanelUI
 .
@@ -1022,7 +1022,7 @@ downloading
 Downloading
 badge
 is
-hidden
+displaying
 on
 PanelUI
 button
@@ -1555,7 +1555,7 @@ openMainMenu
 (
 )
 ;
-isnot
+is
 (
 PanelUI
 .
@@ -1577,7 +1577,7 @@ manual
 "
 Badge
 is
-hidden
+displaying
 on
 PanelUI
 button
@@ -2917,7 +2917,7 @@ openMainMenu
 (
 )
 ;
-isnot
+is
 (
 PanelUI
 .
@@ -2942,7 +2942,7 @@ update
 restart
 badge
 is
-hidden
+displaying
 on
 PanelUI
 button
@@ -3095,7 +3095,7 @@ openMainMenu
 (
 )
 ;
-isnot
+is
 (
 PanelUI
 .
@@ -3120,7 +3120,7 @@ update
 manual
 badge
 is
-hidden
+displaying
 on
 PanelUI
 button
