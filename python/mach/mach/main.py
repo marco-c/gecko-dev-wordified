@@ -2378,12 +2378,8 @@ else
                 
 sentry
 =
-register_sentry
+NoopErrorReporter
 (
-argv
-self
-.
-settings
 )
             
 if
