@@ -114,6 +114,15 @@ jstypes
 .
 h
 "
+#
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
 namespace
 mozilla
 {

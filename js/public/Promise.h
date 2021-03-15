@@ -126,7 +126,7 @@ h
 #
 include
 "
-jspubtd
+jstypes
 .
 h
 "

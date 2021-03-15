@@ -116,10 +116,15 @@ define
 js_AllocationRecording_h
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
-js
-/
-TypeDecls
+jstypes
 .
 h
 "
@@ -128,7 +133,7 @@ include
 "
 js
 /
-Utility
+TypeDecls
 .
 h
 "

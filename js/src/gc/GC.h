@@ -155,6 +155,15 @@ include
 "
 js
 /
+GCAPI
+.
+h
+"
+#
+include
+"
+js
+/
 TraceKind
 .
 h

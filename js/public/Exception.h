@@ -126,7 +126,7 @@ h
 #
 include
 "
-jspubtd
+jstypes
 .
 h
 "
@@ -148,6 +148,15 @@ JS
 Handle
 Rooted
 }
+#
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
 #
 include
 "

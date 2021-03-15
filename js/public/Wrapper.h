@@ -135,6 +135,9 @@ h
 namespace
 js
 {
+struct
+CompartmentFilter
+;
 /
 *
 *
