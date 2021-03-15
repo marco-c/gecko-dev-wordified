@@ -1644,7 +1644,12 @@ eval
 /
 /
 Evaluate
-v
+call
+.
+argv
+[
+2
+]
 if
 it
 is
@@ -1698,10 +1703,9 @@ env
 /
 must
 be
-the
+a
 global
-lexical
-environment
+object
 .
 /
 /
