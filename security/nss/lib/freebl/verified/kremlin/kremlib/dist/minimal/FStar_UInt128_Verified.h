@@ -25,6 +25,12 @@ License
 *
 /
 #
+ifndef
+__FStar_UInt128_Verified_H
+#
+define
+__FStar_UInt128_Verified_H
+#
 include
 <
 inttypes
@@ -60,12 +66,6 @@ target
 .
 h
 "
-#
-ifndef
-__FStar_UInt128_Verified_H
-#
-define
-__FStar_UInt128_Verified_H
 #
 include
 "

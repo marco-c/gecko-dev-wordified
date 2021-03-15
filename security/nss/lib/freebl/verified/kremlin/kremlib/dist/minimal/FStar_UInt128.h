@@ -25,6 +25,12 @@ License
 *
 /
 #
+ifndef
+__FStar_UInt128_H
+#
+define
+__FStar_UInt128_H
+#
 include
 <
 inttypes
@@ -80,12 +86,6 @@ target
 .
 h
 "
-#
-ifndef
-__FStar_UInt128_H
-#
-define
-__FStar_UInt128_H
 static
 inline
 FStar_UInt128_uint128

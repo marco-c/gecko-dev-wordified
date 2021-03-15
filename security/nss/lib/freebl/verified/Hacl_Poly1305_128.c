@@ -262,7 +262,7 @@ Lib_IntVector_Intrinsics_vec128_zero
 Lib_IntVector_Intrinsics_vec128
 b1
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load64_le
 (
 b
 )
@@ -270,7 +270,7 @@ b
 Lib_IntVector_Intrinsics_vec128
 b2
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load64_le
 (
 b
 +
@@ -4560,7 +4560,7 @@ Lib_IntVector_Intrinsics_vec128_zero
 Lib_IntVector_Intrinsics_vec128
 b1
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load64_le
 (
 block
 )
@@ -4568,7 +4568,7 @@ block
 Lib_IntVector_Intrinsics_vec128
 b2
 =
-Lib_IntVector_Intrinsics_vec128_load_le
+Lib_IntVector_Intrinsics_vec128_load64_le
 (
 block
 +
@@ -6992,10 +6992,7 @@ rem
 *
 sizeof
 (
-last
-[
-0U
-]
+uint8_t
 )
 )
 ;

@@ -2772,10 +2772,7 @@ rem
 *
 sizeof
 (
-last
-[
-0U
-]
+uint8_t
 )
 )
 ;
