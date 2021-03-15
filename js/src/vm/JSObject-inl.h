@@ -2311,7 +2311,7 @@ holder
 #
 ifdef
 DEBUG
-JSObject
+NativeObject
 *
 pobj
 ;
@@ -2350,7 +2350,7 @@ return
 true
 ;
 }
-JSObject
+NativeObject
 *
 pobj
 ;
