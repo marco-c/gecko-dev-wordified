@@ -3654,10 +3654,10 @@ IsCacheableNoProperty
 JSContext
 *
 cx
-JSObject
+NativeObject
 *
 obj
-JSObject
+NativeObject
 *
 holder
 Shape
@@ -4135,7 +4135,7 @@ ProtoChainSupportsTeleporting
 JSObject
 *
 obj
-JSObject
+NativeObject
 *
 holder
 )
@@ -4269,7 +4269,7 @@ writer
 JSObject
 *
 obj
-JSObject
+NativeObject
 *
 holder
 ObjOperandId
@@ -6489,7 +6489,7 @@ JSJitInfo
 :
 OpType
 type
-JSObject
+NativeObject
 *
 obj
 HandleShape
