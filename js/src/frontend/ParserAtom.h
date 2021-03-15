@@ -4045,7 +4045,13 @@ ParserAtomSpan
 &
 entries
 )
-;
+:
+entries_
+(
+entries
+)
+{
+}
 bool
 allocate
 (
