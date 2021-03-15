@@ -1487,6 +1487,8 @@ bool
 aDocumentHasUserInteracted
 bool
 aAllowListFutureDocumentsCreatedFromThisRedirectChain
+bool
+aNeedForCheckingAntiTrackingHeuristic
 const
 nsAString
 &
@@ -2069,6 +2071,11 @@ false
 ;
 bool
 mAllowListFutureDocumentsCreatedFromThisRedirectChain
+=
+false
+;
+bool
+mNeedForCheckingAntiTrackingHeuristic
 =
 false
 ;

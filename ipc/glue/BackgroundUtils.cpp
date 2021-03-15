@@ -3185,6 +3185,12 @@ aLoadInfo
 GetAllowListFutureDocumentsCreatedFromThisRedirectChain
 (
 )
+aLoadInfo
+-
+>
+GetNeedForCheckingAntiTrackingHeuristic
+(
+)
 cspNonce
 aLoadInfo
 -
@@ -4739,6 +4745,11 @@ documentHasUserInteracted
 loadInfoArgs
 .
 allowListFutureDocumentsCreatedFromThisRedirectChain
+(
+)
+loadInfoArgs
+.
+needForCheckingAntiTrackingHeuristic
 (
 )
 loadInfoArgs
