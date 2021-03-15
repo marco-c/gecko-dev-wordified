@@ -2717,6 +2717,16 @@ nsHtml5TreeOpExecutor
 :
 BackgroundFlushCallback
 "
+0
+/
+/
+Start
+looking
+for
+idle
+time
+immediately
+.
 250
 /
 /

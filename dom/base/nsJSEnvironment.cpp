@@ -9827,6 +9827,7 @@ GCTimerFired
 :
 InterSliceGCRunnerFired
 "
+0
 StaticPrefs
 :
 :
@@ -10248,6 +10249,7 @@ EnsureCCRunner
 :
 CCRunnerFired
 "
+0
 aDelay
 .
 ToMilliseconds
@@ -11837,6 +11839,7 @@ DOMGCSliceCallback
 :
 InterSliceGCRunnerFired
 "
+0
 StaticPrefs
 :
 :
