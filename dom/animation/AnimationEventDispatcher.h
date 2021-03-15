@@ -379,6 +379,9 @@ aTarget
 mPseudoType
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 aMessage
@@ -430,6 +433,8 @@ markerText
 )
 ;
 }
+#
+endif
 }
 /
 /
@@ -546,6 +551,9 @@ aTarget
 mPseudoType
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 if
 (
 (
@@ -630,6 +638,8 @@ markerText
 )
 ;
 }
+#
+endif
 }
 /
 /
