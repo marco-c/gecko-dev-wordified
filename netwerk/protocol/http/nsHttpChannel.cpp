@@ -54698,6 +54698,17 @@ GetPriority
 priority
 )
 ;
+uint64_t
+size
+=
+0
+;
+GetEncodedBodySize
+(
+&
+size
+)
+;
 nsAutoCString
 contentType
 ;
@@ -54732,7 +54743,7 @@ TimeStamp
 Now
 (
 )
-mLogicalOffset
+size
 mCacheDisposition
 mLoadInfo
 -
