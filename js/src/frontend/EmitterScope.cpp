@@ -1490,7 +1490,7 @@ bool
 EmitterScope
 :
 :
-internScopeCreationData
+internScopeStencil
 (
 BytecodeEmitter
 *
@@ -1547,7 +1547,7 @@ bool
 EmitterScope
 :
 :
-internBodyScopeCreationData
+internBodyScopeStencil
 (
 BytecodeEmitter
 *
@@ -1603,7 +1603,7 @@ length
 )
 ;
 return
-internScopeCreationData
+internScopeStencil
 (
 bce
 scopeIndex
@@ -2675,7 +2675,7 @@ false
 if
 (
 !
-internScopeCreationData
+internScopeStencil
 (
 bce
 scopeIndex
@@ -3066,7 +3066,7 @@ false
 if
 (
 !
-internScopeCreationData
+internScopeStencil
 (
 bce
 scopeIndex
@@ -3765,7 +3765,7 @@ false
 if
 (
 !
-internBodyScopeCreationData
+internBodyScopeStencil
 (
 bce
 scopeIndex
@@ -4260,7 +4260,7 @@ false
 if
 (
 !
-internScopeCreationData
+internScopeStencil
 (
 bce
 scopeIndex
@@ -4576,7 +4576,7 @@ false
 if
 (
 !
-internBodyScopeCreationData
+internBodyScopeStencil
 (
 bce
 scopeIndex
@@ -4973,7 +4973,7 @@ false
 if
 (
 !
-internBodyScopeCreationData
+internBodyScopeStencil
 (
 bce
 scopeIndex
@@ -5482,7 +5482,7 @@ false
 if
 (
 !
-internBodyScopeCreationData
+internBodyScopeStencil
 (
 bce
 scopeIndex
@@ -5596,7 +5596,7 @@ false
 if
 (
 !
-internScopeCreationData
+internScopeStencil
 (
 bce
 scopeIndex
