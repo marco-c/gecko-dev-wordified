@@ -26544,14 +26544,6 @@ return
 1
 ;
 }
-gdk_display_manager_set_default_display
-(
-gdk_display_manager_get
-(
-)
-mGdkDisplay
-)
-;
 if
 (
 saveDisplayArg
