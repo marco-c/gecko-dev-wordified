@@ -1205,10 +1205,13 @@ output_count
 1
 )
 {
-assert_not_equals
+assert_equals
 (
+typeof
 config
-null
+"
+object
+"
 )
 ;
 decoder_config
@@ -1221,7 +1224,7 @@ else
 assert_equals
 (
 config
-null
+undefined
 )
 ;
 }
