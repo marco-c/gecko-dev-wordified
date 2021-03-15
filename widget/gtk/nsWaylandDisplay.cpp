@@ -159,6 +159,13 @@ StaticPrefs_widget
 .
 h
 "
+#
+include
+"
+WidgetUtilsGtk
+.
+h
+"
 namespace
 mozilla
 {
@@ -489,10 +496,7 @@ gdk_display_get_default
 if
 (
 !
-aGdkDisplay
-|
-|
-GDK_IS_X11_DISPLAY
+GdkIsWaylandDisplay
 (
 aGdkDisplay
 )

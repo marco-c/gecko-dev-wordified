@@ -2325,14 +2325,6 @@ gdk_x11_window_get_xid
 )
 STUB
 (
-gdk_x11_display_get_type
-)
-STUB
-(
-gdk_wayland_display_get_type
-)
-STUB
-(
 gdk_wayland_display_get_wl_compositor
 )
 STUB
