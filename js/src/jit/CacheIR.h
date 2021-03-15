@@ -244,7 +244,7 @@ include
 "
 wasm
 /
-TypedObject
+WasmTypes
 .
 h
 "
