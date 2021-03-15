@@ -85,7 +85,7 @@ server
 /
 /
 See
-AnyWorkerHandler
+ClassicWorkerHandler
 in
 /
 /
@@ -357,7 +357,7 @@ server
 /
 /
 See
-AnyWorkerHandler
+ClassicWorkerHandler
 in
 /
 /
