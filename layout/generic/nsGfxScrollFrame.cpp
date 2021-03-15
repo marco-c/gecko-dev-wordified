@@ -37225,6 +37225,11 @@ cv
 )
 )
 ;
+if
+(
+cv
+)
+{
 loadCompleted
 =
 cv
@@ -37243,6 +37248,7 @@ GetIsStopped
 (
 )
 ;
+}
 }
 return
 loadCompleted
