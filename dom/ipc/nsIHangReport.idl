@@ -563,9 +563,16 @@ given
 /
 /
 frameloader
+or
+any
+descendents
+in
+its
+BrowsingContext
+tree
 .
 bool
-isReportForBrowser
+isReportForBrowserOrChildren
 (
 in
 FrameLoader

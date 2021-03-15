@@ -485,7 +485,7 @@ TEST_ACTION_TERMGLOBAL
 )
 ;
 }
-isReportForBrowser
+isReportForBrowserOrChildren
 (
 aFrameLoader
 )
