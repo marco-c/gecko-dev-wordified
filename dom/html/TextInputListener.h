@@ -172,6 +172,9 @@ TextControlElement
 class
 TextControlState
 ;
+class
+TextEditor
+;
 namespace
 dom
 {
@@ -270,11 +273,6 @@ lazily
 void
 HandleValueChanged
 (
-nsTextControlFrame
-*
-aFrame
-=
-nullptr
 )
 ;
 /
