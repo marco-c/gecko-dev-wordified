@@ -1737,8 +1737,6 @@ thread
 )
 {
 return
-!
-!
 getThreadPauseState
 (
 state
@@ -1747,7 +1745,7 @@ pause
 thread
 )
 .
-frames
+isPaused
 ;
 }
 export
@@ -1758,18 +1756,14 @@ state
 )
 {
 return
-getThreadPauseState
+getIsPaused
 (
 state
-.
-pause
 getCurrentThread
 (
 state
 )
 )
-.
-isPaused
 ;
 }
 export
