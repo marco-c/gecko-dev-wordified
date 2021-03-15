@@ -369,6 +369,15 @@ h
 #
 include
 "
+mozilla
+/
+TypeInState
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h
@@ -3662,6 +3671,10 @@ AnchorRef
 )
 nullptr
 nullptr
+SpecifiedStyle
+:
+:
+Preserve
 )
 ;
 if
