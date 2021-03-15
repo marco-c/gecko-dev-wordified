@@ -579,7 +579,6 @@ element
 ;
 }
 }
-async
 function
 run
 (
@@ -698,6 +697,9 @@ last_changedTouches
 =
 {
 }
+;
+var
+actions_promise
 ;
 on_event
 (
@@ -3713,8 +3715,17 @@ length
 =
 0
 )
+actions_promise
+.
+then
+(
+(
+)
+=
+>
 done
 (
+)
 )
 ;
 }
@@ -3845,7 +3856,8 @@ done
 }
 )
 ;
-await
+actions_promise
+=
 new
 test_driver
 .
