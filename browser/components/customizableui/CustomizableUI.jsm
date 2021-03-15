@@ -380,6 +380,8 @@ browser
 .
 proton
 .
+toolbar
+.
 enabled
 "
 false

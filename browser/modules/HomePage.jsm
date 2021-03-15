@@ -268,6 +268,8 @@ browser
 .
 proton
 .
+toolbar
+.
 enabled
 "
 ;
