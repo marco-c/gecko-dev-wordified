@@ -384,12 +384,6 @@ RefPtr
 <
 Element
 >
-mOuterWrapper
-;
-RefPtr
-<
-Element
->
 mClearButton
 ;
 }
