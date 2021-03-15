@@ -2065,6 +2065,9 @@ run
 "
 "
         
+try
+:
+            
 if
 test
 .
@@ -2075,7 +2078,7 @@ self
 .
 last_environment
 :
-            
+                
 self
 .
 on_environment_change
@@ -2084,9 +2087,6 @@ test
 .
 environment
 )
-        
-try
-:
             
 result
 =
