@@ -3731,12 +3731,6 @@ return
 gBrowserTabsRemoteAutostart
 ;
 }
-}
-/
-/
-namespace
-mozilla
-static
 bool
 FissionExperimentEnrolled
 (
@@ -3768,6 +3762,11 @@ nsIXULRuntime
 eExperimentStatusTreatment
 ;
 }
+}
+/
+/
+namespace
+mozilla
 static
 void
 FissionExperimentDisqualify
