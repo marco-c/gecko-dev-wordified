@@ -302,6 +302,15 @@ completed
 "
 )
 ;
+mockTransferCallback
+=
+(
+)
+=
+>
+{
+}
+;
 resolve
 (
 )
