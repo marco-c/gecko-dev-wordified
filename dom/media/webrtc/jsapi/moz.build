@@ -151,6 +151,17 @@ webrtc
 "
 "
 /
+netwerk
+/
+dns
+"
+#
+For
+nsDNSService2
+.
+h
+"
+/
 third_party
 /
 libsrtp
