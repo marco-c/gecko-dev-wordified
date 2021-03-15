@@ -463,6 +463,11 @@ const
 SymbolicAddressSignature
 SASigGetLocalExceptionIndex
 ;
+extern
+const
+SymbolicAddressSignature
+SASigPushRefIntoExn
+;
 #
 endif
 extern

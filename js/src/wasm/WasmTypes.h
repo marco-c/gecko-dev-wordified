@@ -22925,6 +22925,7 @@ ENABLE_WASM_EXCEPTIONS
 ExceptionNew
 ThrowException
 GetLocalExceptionIndex
+PushRefIntoExn
 #
 endif
 ArrayNew
