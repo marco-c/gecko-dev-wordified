@@ -2882,13 +2882,6 @@ JSTracer
 trc
 )
 {
-atomTable_
-.
-trace
-(
-trc
-)
-;
 }
 XDRResult
 XDRStencilDecoder
