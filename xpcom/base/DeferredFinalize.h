@@ -269,6 +269,7 @@ void
 aThing
 )
 ;
+MOZ_NEVER_INLINE
 void
 DeferredFinalize
 (
