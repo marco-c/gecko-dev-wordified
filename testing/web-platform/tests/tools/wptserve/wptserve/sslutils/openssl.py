@@ -2176,6 +2176,13 @@ in
 cert_path
 )
 .
+decode
+(
+"
+utf8
+"
+)
+.
 split
 (
 "
