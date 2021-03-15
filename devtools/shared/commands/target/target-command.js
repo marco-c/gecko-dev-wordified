@@ -211,7 +211,7 @@ watcher
 )
 ;
 class
-TargetList
+TargetCommand
 extends
 EventEmitter
 {
@@ -379,7 +379,9 @@ descriptor
 /
 constructor
 (
+{
 descriptorFront
+}
 )
 {
 super
@@ -913,7 +915,7 @@ already
 registered
 in
 the
-TargetList
+TargetCommand
 "
 targetFront
 .
@@ -982,7 +984,7 @@ that
 is
 passed
 to
-TargetList
+TargetCommand
 constructor
 .
 if
@@ -1775,7 +1777,7 @@ in
 any
 function
 in
-TargetList
+TargetCommand
 or
 ResourceWatcher
 after
@@ -1870,7 +1872,7 @@ fissionBrowserToolboxEnabled
 {
 types
 =
-TargetList
+TargetCommand
 .
 ALL_TYPES
 ;
@@ -1889,7 +1891,7 @@ isLocalTab
 types
 =
 [
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1909,7 +1911,7 @@ types
 .
 includes
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1921,7 +1923,7 @@ types
 .
 push
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1941,7 +1943,7 @@ types
 .
 includes
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1953,7 +1955,7 @@ types
 .
 push
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1973,7 +1975,7 @@ types
 .
 includes
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -1985,7 +1987,7 @@ types
 .
 push
 (
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -2346,7 +2348,7 @@ for
 const
 type
 of
-TargetList
+TargetCommand
 .
 ALL_TYPES
 )
@@ -2557,7 +2559,7 @@ browsingContextTarget
 )
 {
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -2583,7 +2585,7 @@ parentProcessTarget
 )
 {
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -2616,7 +2618,7 @@ isSharedWorker
 )
 {
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -2631,7 +2633,7 @@ isServiceWorker
 )
 {
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -2639,7 +2641,7 @@ SERVICE_WORKER
 ;
 }
 return
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -2720,7 +2722,7 @@ for
 .
 Constant
 of
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -2846,7 +2848,7 @@ new
 Error
 (
 "
-TargetList
+TargetCommand
 .
 watchTargets
 expects
@@ -3273,7 +3275,7 @@ new
 Error
 (
 "
-TargetList
+TargetCommand
 .
 unwatchTargets
 expects
@@ -3366,7 +3368,7 @@ retrieve
 .
 Array
 of
-TargetList
+TargetCommand
 .
 TYPES
 *
@@ -3504,7 +3506,7 @@ over
 .
 Constant
 of
-TargetList
+TargetCommand
 .
 TYPES
 .
@@ -3945,7 +3947,7 @@ is
 temporarily
 on
 the
-TargetList
+TargetCommand
 but
 should
 move
@@ -4057,7 +4059,7 @@ is
 temporarily
 on
 the
-TargetList
+TargetCommand
 but
 should
 move
@@ -4284,11 +4286,11 @@ target
 :
 *
 /
-TargetList
+TargetCommand
 .
 TYPES
 =
-TargetList
+TargetCommand
 .
 prototype
 .
@@ -4322,11 +4324,11 @@ service_worker
 "
 }
 ;
-TargetList
+TargetCommand
 .
 ALL_TYPES
 =
-TargetList
+TargetCommand
 .
 prototype
 .
@@ -4336,7 +4338,7 @@ Object
 .
 values
 (
-TargetList
+TargetCommand
 .
 TYPES
 )
@@ -4345,7 +4347,5 @@ module
 .
 exports
 =
-{
-TargetList
-}
+TargetCommand
 ;
