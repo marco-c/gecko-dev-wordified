@@ -17413,6 +17413,7 @@ AttachDecision
 NoAction
 ;
 }
+static
 bool
 CanAttachGlobalName
 (
@@ -44626,6 +44627,7 @@ AttachDecision
 Attach
 ;
 }
+static
 StringOperandId
 EmitToStringGuard
 (
