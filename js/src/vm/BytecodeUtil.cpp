@@ -3807,7 +3807,7 @@ GetDefCount
 pc
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 stackDepth
 >
@@ -3820,7 +3820,7 @@ stackDepth
 =
 nuses
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 stackDepth
 +
@@ -5057,7 +5057,7 @@ uint32_t
 stackDepth
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 offset
 <
@@ -5065,6 +5065,16 @@ script_
 -
 >
 length
+(
+)
+)
+;
+MOZ_RELEASE_ASSERT
+(
+stackDepth
+<
+=
+maximumStackDepth
 (
 )
 )
@@ -5493,7 +5503,7 @@ GetBytecodeLength
 pc
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 *
 pc
