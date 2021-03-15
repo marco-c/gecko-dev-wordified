@@ -2506,18 +2506,30 @@ keys
             
 ]
             
-prompt
+choices
 =
-APPLICATION_CHOICE
-%
+[
 "
-\
-n
+{
+}
+[
+default
+]
 "
 .
-join
+format
 (
-                
+labels
+[
+0
+]
+)
+]
+            
+choices
++
+=
+[
 "
 {
 }
@@ -2531,7 +2543,24 @@ for
 label
 in
 labels
+[
+1
+:
+]
+]
             
+prompt
+=
+APPLICATION_CHOICE
+%
+"
+\
+n
+"
+.
+join
+(
+choices
 )
             
 prompt_choice
@@ -2546,9 +2575,11 @@ prompt_int
 prompt
 =
 prompt
+                
 low
 =
 1
+                
 high
 =
 len
@@ -3014,10 +3045,6 @@ checkout_type
 hg
 "
 :
-            
-configure_hg
-=
-False
             
 if
 not

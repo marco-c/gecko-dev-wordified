@@ -155,6 +155,19 @@ commands
         
 self
 .
+is_interactive
+=
+None
+#
+Filled
+in
+after
+args
+are
+parsed
+        
+self
+.
 telemetry
 =
 telemetry

@@ -185,9 +185,9 @@ modern
 Mercurial
 via
 pip
-(
-recommended
-)
+[
+default
+]
   
 2
 .
