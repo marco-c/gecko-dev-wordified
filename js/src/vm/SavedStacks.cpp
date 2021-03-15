@@ -7305,7 +7305,7 @@ StackFormat
 :
 Default
 :
-MOZ_MAKE_COMPILER_ASSUME_IS_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected

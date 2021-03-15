@@ -2991,7 +2991,7 @@ SetupABIArguments
 endif
 default
 :
-MOZ_MAKE_COMPILER_ASSUME_IS_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -3345,7 +3345,7 @@ break
 }
 default
 :
-MOZ_MAKE_COMPILER_ASSUME_IS_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
