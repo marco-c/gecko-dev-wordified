@@ -4531,9 +4531,31 @@ path
 )
         
 #
-start
+Start
 the
 process
+.
+Ignore
+stderr
+so
+that
+exceptions
+from
+the
+server
+        
+#
+are
+not
+treated
+as
+failures
+when
+parsing
+the
+test
+log
+.
         
 self
 .
@@ -4543,13 +4565,24 @@ mozprocess
 .
 ProcessHandler
 (
+            
 cmd
+            
 cwd
 =
 SCRIPT_DIR
+            
 env
 =
 env
+            
+processStderrLine
+=
+lambda
+_
+:
+None
+        
 )
         
 self
