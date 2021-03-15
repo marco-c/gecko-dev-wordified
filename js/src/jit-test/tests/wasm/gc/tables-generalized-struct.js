@@ -185,8 +185,6 @@ get
 ref
 .
 cast
-eq
-dummy
 (
 local
 .

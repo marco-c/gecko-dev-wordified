@@ -1864,8 +1864,6 @@ set
 ref
 .
 cast
-eq
-big
 (
 local
 .
@@ -1921,8 +1919,6 @@ big
 ref
 .
 cast
-eq
-big
 (
 local
 .
@@ -1975,8 +1971,6 @@ big
 ref
 .
 cast
-eq
-big
 (
 local
 .
@@ -2028,8 +2022,6 @@ big
 ref
 .
 cast
-eq
-big
 (
 local
 .
@@ -3222,8 +3214,6 @@ eqref
 ref
 .
 cast
-eq
-Node
 (
 local
 .

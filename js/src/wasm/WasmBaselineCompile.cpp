@@ -88674,6 +88674,9 @@ Nothing
 nothing
 ;
 uint32_t
+rttTypeIndex
+;
+uint32_t
 rttDepth
 ;
 if
@@ -88685,6 +88688,8 @@ readRefTest
 (
 &
 nothing
+&
+rttTypeIndex
 &
 rttDepth
 &
@@ -88732,6 +88737,9 @@ Nothing
 nothing
 ;
 uint32_t
+rttTypeIndex
+;
+uint32_t
 rttDepth
 ;
 if
@@ -88743,6 +88751,8 @@ readRefCast
 (
 &
 nothing
+&
+rttTypeIndex
 &
 rttDepth
 &
@@ -88902,11 +88912,14 @@ relativeDepth
 Nothing
 unused
 ;
-uint32_t
-rttDepth
-;
 NothingVector
 unused_values
+;
+uint32_t
+rttTypeIndex
+;
+uint32_t
+rttDepth
 ;
 ResultType
 type
@@ -88922,6 +88935,8 @@ readBrOnCast
 relativeDepth
 &
 unused
+&
+rttTypeIndex
 &
 rttDepth
 &

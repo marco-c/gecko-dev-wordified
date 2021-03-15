@@ -857,8 +857,6 @@ q
 ref
 .
 test
-eq
-q
 )
 (
 func
@@ -882,8 +880,6 @@ p
 ref
 .
 test
-eq
-p
 )
 (
 func
