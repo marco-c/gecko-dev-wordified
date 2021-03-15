@@ -323,6 +323,7 @@ check
 "
 disabled
 checked
+native
 "
 "
 .
@@ -336,6 +337,7 @@ text
 =
 label
 accesskey
+native
 "
 "
 .
@@ -346,6 +348,7 @@ icon
 :
 "
 src
+native
 "
 }
 ;
