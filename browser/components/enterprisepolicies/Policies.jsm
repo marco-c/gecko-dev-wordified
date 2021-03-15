@@ -10640,7 +10640,7 @@ SkipOnboarding
 "
 )
 {
-setAndLockPref
+setDefaultPref
 (
 "
 browser
@@ -10649,7 +10649,11 @@ aboutwelcome
 .
 enabled
 "
-false
+!
+param
+.
+SkipOnboarding
+locked
 )
 ;
 }
