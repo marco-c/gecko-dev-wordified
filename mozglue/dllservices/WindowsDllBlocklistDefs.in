@@ -1282,6 +1282,9 @@ ALL_VERSIONS
 K7TotalSecurity
 bug
 1339083
+and
+bug
+1694489
 .
 DllBlocklistEntry
 (
@@ -1294,7 +1297,7 @@ dll
 15
 2
 2
-95
+102
 )
 )
 #
