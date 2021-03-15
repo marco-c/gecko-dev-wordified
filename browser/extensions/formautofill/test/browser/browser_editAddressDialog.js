@@ -4696,7 +4696,7 @@ content
 -
 border
 -
-focus
+active
 "
 borderColorFocused
 )
