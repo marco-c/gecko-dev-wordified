@@ -539,13 +539,6 @@ this
 .
 targetActor
 .
-exited
-|
-|
-this
-.
-targetActor
-.
 isDestroyed
 (
 )
