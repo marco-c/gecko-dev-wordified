@@ -2678,7 +2678,7 @@ metrics_paths
         
 subprocess
 .
-check_output
+check_call
 (
 args
 )
