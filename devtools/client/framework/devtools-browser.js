@@ -2419,12 +2419,15 @@ gDevTools
 showToolbox
 (
 descriptor
-null
+{
+hostType
+:
 Toolbox
 .
 HostType
 .
 WINDOW
+}
 )
 ;
 /
