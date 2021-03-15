@@ -71,7 +71,7 @@ const
 file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -96,7 +96,7 @@ close
 )
 ;
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -199,7 +199,7 @@ fileName
 const
 file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -221,7 +221,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (

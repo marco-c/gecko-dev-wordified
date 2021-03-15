@@ -36,7 +36,7 @@ testCase
 const
 file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -54,7 +54,7 @@ close
 const
 fileNamesBeforeRename
 =
-nativeIO
+storageFoundation
 .
 getAllSync
 (
@@ -68,7 +68,7 @@ test_file
 fileNamesBeforeRename
 )
 ;
-nativeIO
+storageFoundation
 .
 renameSync
 (
@@ -95,7 +95,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -104,7 +104,7 @@ test_file
 '
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -119,7 +119,7 @@ renamed_test_file
 const
 fileNamesAfterRename
 =
-nativeIO
+storageFoundation
 .
 getAllSync
 (
@@ -149,7 +149,7 @@ fileNamesAfterRename
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 getAllSync
 returns
@@ -160,7 +160,7 @@ renamed
 +
 '
 by
-nativeIOFile
+storageFoundation
 .
 renameSync
 with

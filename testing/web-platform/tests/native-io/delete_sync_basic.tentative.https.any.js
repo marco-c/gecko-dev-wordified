@@ -36,7 +36,7 @@ testCase
 const
 file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -54,7 +54,7 @@ add_cleanup
 =
 >
 {
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -75,7 +75,7 @@ close
 const
 fileNamesBeforeDelete
 =
-nativeIO
+storageFoundation
 .
 getAllSync
 (
@@ -89,7 +89,7 @@ test_file
 fileNamesBeforeDelete
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -101,7 +101,7 @@ test_file
 const
 fileNames
 =
-nativeIO
+storageFoundation
 .
 getAllSync
 (
@@ -123,7 +123,7 @@ test_file
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 getAllSync
 does
@@ -132,7 +132,10 @@ return
 file
 deleted
 by
-nativeIO
+'
++
+'
+storageFoundation
 .
 deleteSync
 '
@@ -144,7 +147,7 @@ testCase
 =
 >
 {
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -168,7 +171,7 @@ the
 first
 delete
 .
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -179,7 +182,7 @@ test_file
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 deleteSync
 does
@@ -188,6 +191,9 @@ fail
 when
 deleting
 a
+'
++
+'
 non
 -
 existing

@@ -46,7 +46,7 @@ testCase
 const
 file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -70,7 +70,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -196,7 +196,7 @@ testCase
 const
 file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -220,7 +220,7 @@ close
 (
 )
 ;
-nativeIO
+storageFoundation
 .
 deleteSync
 (

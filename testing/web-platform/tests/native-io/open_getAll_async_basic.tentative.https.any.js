@@ -38,7 +38,7 @@ const
 file
 =
 await
-nativeIO
+storageFoundation
 .
 open
 (
@@ -58,7 +58,7 @@ async
 >
 {
 await
-nativeIO
+storageFoundation
 .
 delete
 (
@@ -81,7 +81,7 @@ const
 fileNames
 =
 await
-nativeIO
+storageFoundation
 .
 getAll
 (
@@ -97,14 +97,14 @@ fileNames
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 getAll
 returns
 file
 created
 by
-nativeIO
+storageFoundation
 .
 open
 '

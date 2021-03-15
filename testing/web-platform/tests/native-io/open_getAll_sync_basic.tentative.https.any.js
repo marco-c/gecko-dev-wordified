@@ -36,7 +36,7 @@ testCase
 const
 file
 =
-nativeIO
+storageFoundation
 .
 openSync
 (
@@ -54,7 +54,7 @@ add_cleanup
 =
 >
 {
-nativeIO
+storageFoundation
 .
 deleteSync
 (
@@ -75,7 +75,7 @@ close
 const
 fileNames
 =
-nativeIO
+storageFoundation
 .
 getAllSync
 (
@@ -91,14 +91,17 @@ fileNames
 ;
 }
 '
-nativeIO
+storageFoundation
 .
 getAllSync
 returns
 file
 created
 by
-nativeIO
+'
++
+'
+storageFoundation
 .
 openSync
 '
