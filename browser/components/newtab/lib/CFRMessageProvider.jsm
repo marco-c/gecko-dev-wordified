@@ -5687,13 +5687,15 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
-preferences
+icons
 /
 search
+-
+glass
 .
 svg
 "
