@@ -681,14 +681,10 @@ ws
 if
 sys
 .
-version
+hexversion
 >
 =
-'
-3
-.
-6
-'
+0x030600f0
 :
             
 self
