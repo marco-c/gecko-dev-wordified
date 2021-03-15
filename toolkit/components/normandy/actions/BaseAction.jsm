@@ -1328,7 +1328,6 @@ seen
 async
 finalize
 (
-options
 )
 {
 /
@@ -1418,7 +1417,6 @@ this
 .
 _finalize
 (
-options
 )
 ;
 status
@@ -1721,10 +1719,6 @@ processed
 async
 _finalize
 (
-_options
-=
-{
-}
 )
 {
 /
