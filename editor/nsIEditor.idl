@@ -2333,6 +2333,9 @@ BlueGriffon
 .
 *
 /
+[
+can_run_script
+]
 boolean
 canCut
 (
@@ -2437,6 +2440,9 @@ BlueGriffon
 .
 *
 /
+[
+can_run_script
+]
 boolean
 canCopy
 (
