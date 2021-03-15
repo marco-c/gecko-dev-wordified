@@ -7737,7 +7737,7 @@ const
 Value
 &
 expandoVal
-JSObject
+NativeObject
 *
 expandoObj
 )
