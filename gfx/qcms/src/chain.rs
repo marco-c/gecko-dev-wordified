@@ -354,9 +354,6 @@ f32
 ;
 3
 ]
-output_clut_table_length
-:
-u16
 output_gamma_lut_r
 :
 Option
@@ -7640,14 +7637,6 @@ to_vec
 (
 )
 )
-;
-transform
-.
-output_clut_table_length
-=
-lut
-.
-num_output_table_entries
 ;
 transform
 .
