@@ -511,6 +511,8 @@ mShutdownPipe
 [
 2
 ]
+{
+}
 ;
 /
 /
@@ -530,10 +532,14 @@ traffic
 struct
 in_addr
 mRouteCheckIPv4
+{
+}
 ;
 struct
 in6_addr
 mRouteCheckIPv6
+{
+}
 ;
 pid_t
 mPid
