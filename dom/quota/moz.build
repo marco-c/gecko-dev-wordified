@@ -260,6 +260,11 @@ MemoryOutputStream
 h
 "
 "
+NSSCipherStrategy
+.
+h
+"
+"
 OriginScope
 .
 h
@@ -361,6 +366,11 @@ cpp
 "
 "
 nsIndexedDBProtocolHandler
+.
+cpp
+"
+"
+NSSCipherStrategy
 .
 cpp
 "
