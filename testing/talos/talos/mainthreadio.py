@@ -111,7 +111,7 @@ utils
 from
 talos
 import
-whitelist
+allowlist
 from
 collections
 import
@@ -467,7 +467,7 @@ TUPLE_EVENT_SOURCE_INDEX
 TUPLE_FILENAME_INDEX
 =
 2
-WHITELIST_FILENAME
+ALLOWLIST_FILENAME
 =
 os
 .
@@ -479,7 +479,7 @@ SCRIPT_DIR
 "
 mtio
 -
-whitelist
+allowlist
 .
 json
 "
@@ -1148,9 +1148,9 @@ return
     
 wl
 =
-whitelist
+allowlist
 .
-Whitelist
+Allowlist
 (
         
 test_name
@@ -1198,7 +1198,7 @@ wl
 .
 load
 (
-WHITELIST_FILENAME
+ALLOWLIST_FILENAME
 )
 :
         
@@ -1208,7 +1208,7 @@ print
 Failed
 to
 load
-whitelist
+allowlist
 "
 )
         

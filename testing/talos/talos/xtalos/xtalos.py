@@ -718,7 +718,7 @@ w
 "
 -
 -
-whitelist
+allowlist
 -
 file
 "
@@ -726,7 +726,7 @@ file
 dest
 =
 "
-whitelist_file
+allowlist_file
 "
             
 help
@@ -734,7 +734,7 @@ help
 "
 Name
 of
-whitelist
+allowlist
 file
 "
         
@@ -743,7 +743,7 @@ file
 defaults
 [
 "
-whitelist_file
+allowlist_file
 "
 ]
 =

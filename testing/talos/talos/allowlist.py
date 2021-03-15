@@ -125,7 +125,7 @@ DEFAULT_DURATION
 .
 0
 class
-Whitelist
+Allowlist
 :
     
 #
@@ -284,7 +284,7 @@ fHandle
 )
             
 for
-whitelist_name
+allowlist_name
 in
 temp
 :
@@ -293,7 +293,7 @@ self
 .
 listmap
 [
-whitelist_name
+allowlist_name
 .
 lower
 (
@@ -302,7 +302,7 @@ lower
 =
 temp
 [
-whitelist_name
+allowlist_name
 ]
         
 except
@@ -1266,7 +1266,7 @@ cleaner
 Since
 a
 baseline
-whitelist
+allowlist
 should
 not
 include
