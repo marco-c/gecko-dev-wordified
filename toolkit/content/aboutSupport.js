@@ -8314,13 +8314,7 @@ skin
 /
 icons
 /
-find
--
-file
--
-in
--
-folder
+findFile
 .
 svg
 "
