@@ -47,6 +47,12 @@ testCase
 =
 >
 {
+await
+reserveAndCleanupCapacity
+(
+testCase
+)
+;
 const
 file
 =
@@ -129,6 +135,12 @@ testCase
 =
 >
 {
+await
+reserveAndCleanupCapacity
+(
+testCase
+)
+;
 const
 file
 =
