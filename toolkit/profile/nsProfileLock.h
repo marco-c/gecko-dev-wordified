@@ -446,6 +446,12 @@ LockWithFcntl
 nsIFile
 *
 aLockFile
+nsIProfileUnlocker
+*
+*
+aUnlocker
+=
+nullptr
 )
 ;
 /
