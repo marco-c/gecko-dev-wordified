@@ -140,8 +140,7 @@ source
 import
 {
 getPrettySource
-getIsPaused
-getCurrentThread
+getIsCurrentThreadPaused
 getThreadContext
 isSourceWithMap
 }
@@ -312,13 +311,9 @@ state
 )
 isPaused
 :
-getIsPaused
+getIsCurrentThreadPaused
 (
 state
-getCurrentThread
-(
-state
-)
 )
 hasMappedLocation
 :
