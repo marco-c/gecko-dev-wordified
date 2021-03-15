@@ -240,15 +240,6 @@ h
 #
 include
 "
-wasm
-/
-TypedObject
-.
-h
-"
-#
-include
-"
 gc
 /
 Heap
