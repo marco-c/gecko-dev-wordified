@@ -16087,7 +16087,7 @@ window
 .
 SitePermissions
 .
-clearTemporaryPermissions
+clearTemporaryBlockPermissions
 (
 browser
 )

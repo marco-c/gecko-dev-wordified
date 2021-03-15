@@ -24458,7 +24458,7 @@ reload
 .
 SitePermissions
 .
-clearTemporaryPermissions
+clearTemporaryBlockPermissions
 (
 browser
 )

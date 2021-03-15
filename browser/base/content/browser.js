@@ -21639,7 +21639,7 @@ unchangedRemoteness
 {
 SitePermissions
 .
-clearTemporaryPermissions
+clearTemporaryBlockPermissions
 (
 tab
 .
