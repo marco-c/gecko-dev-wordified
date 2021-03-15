@@ -9085,7 +9085,7 @@ keyId
 AttachDecision
 tryAttachNative
 (
-JSObject
+NativeObject
 *
 obj
 ObjOperandId
@@ -9096,7 +9096,7 @@ ValOperandId
 keyId
 PropertyResult
 prop
-JSObject
+NativeObject
 *
 holder
 )
