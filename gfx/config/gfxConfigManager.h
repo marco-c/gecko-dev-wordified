@@ -199,6 +199,10 @@ mFeatureD3D11HwAngle
 (
 nullptr
 )
+mFeatureD3D11Compositing
+(
+nullptr
+)
 mFeatureGPUProcess
 (
 nullptr
@@ -268,6 +272,10 @@ mDisableHwCompositingNoWr
 false
 )
 mIsNightly
+(
+false
+)
+mIsEarlyBetaOrEarlier
 (
 false
 )
@@ -376,6 +384,10 @@ mFeatureD3D11HwAngle
 ;
 FeatureState
 *
+mFeatureD3D11Compositing
+;
+FeatureState
+*
 mFeatureGPUProcess
 ;
 /
@@ -460,6 +472,9 @@ mDisableHwCompositingNoWr
 ;
 bool
 mIsNightly
+;
+bool
+mIsEarlyBetaOrEarlier
 ;
 bool
 mSafeMode
