@@ -10967,6 +10967,8 @@ SetFocusedBrowsingContext
 (
 MaybeDiscardedBrowsingContext
 aContext
+uint64_t
+aActionId
 )
 ;
 async
@@ -11061,6 +11063,8 @@ SetupFocusedAndActive
 (
 MaybeDiscardedBrowsingContext
 aFocusedBrowsingContext
+uint64_t
+aActionIdForFocused
 MaybeDiscardedBrowsingContext
 aActiveBrowsingContext
 uint64_t
@@ -11074,6 +11078,17 @@ uint64_t
 aOldActionId
 MaybeDiscardedBrowsingContext
 aActiveBrowsingContext
+uint64_t
+aNewActionId
+)
+;
+async
+ReviseFocusedBrowsingContext
+(
+uint64_t
+aOldActionId
+MaybeDiscardedBrowsingContext
+aFocusedBrowsingContext
 uint64_t
 aNewActionId
 )
