@@ -9104,7 +9104,7 @@ holder
 AttachDecision
 tryAttachSlotDoesNotExist
 (
-JSObject
+NativeObject
 *
 obj
 ObjOperandId
