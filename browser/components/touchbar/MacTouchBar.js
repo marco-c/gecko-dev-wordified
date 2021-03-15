@@ -946,7 +946,9 @@ browser
 /
 skin
 /
-readerMode
+reader
+-
+mode
 .
 svg
 "
