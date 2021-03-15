@@ -1701,10 +1701,10 @@ sidebarPanelContent
 {
 expectedDOMNodes
 :
-1
+2
 expectedOpenInspectors
 :
-1
+2
 }
 )
 ;
