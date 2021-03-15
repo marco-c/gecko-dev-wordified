@@ -266,6 +266,15 @@ nsWrapperCache
 namespace
 mozilla
 {
+class
+ErrorResult
+;
+class
+OOMReporter
+;
+class
+CopyableErrorResult
+;
 namespace
 dom
 {
