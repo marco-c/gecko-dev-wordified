@@ -2046,17 +2046,6 @@ default
         
 elif
 extra
-and
-handler
-.
-cls
-.
-__name__
-!
-=
-"
-DeprecatedCommands
-"
 :
             
 raise
@@ -3515,27 +3504,12 @@ command
 )
 :
         
-#
-Make
-sure
-we
-don
-'
-t
-suggest
-any
-deprecated
-commands
-.
-        
 names
 =
 [
-            
 h
 .
 name
-            
 for
 h
 in
@@ -3548,19 +3522,6 @@ command_handlers
 values
 (
 )
-            
-if
-h
-.
-cls
-.
-__name__
-!
-=
-"
-DeprecatedCommands
-"
-        
 ]
         
 #
