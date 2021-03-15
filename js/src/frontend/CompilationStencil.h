@@ -5589,7 +5589,7 @@ GCVector
 <
 JSFunction
 *
-0
+1
 js
 :
 :
@@ -5629,7 +5629,7 @@ js
 :
 Scope
 *
-0
+1
 js
 :
 :
