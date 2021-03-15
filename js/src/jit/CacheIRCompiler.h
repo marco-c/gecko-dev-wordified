@@ -4664,7 +4664,7 @@ pointless
 return
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 &
 &
 !

@@ -3920,7 +3920,7 @@ if
 (
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 )
 {
 spectreZeroRegister
@@ -4100,7 +4100,7 @@ if
 (
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 )
 {
 spectreZeroRegister
@@ -4289,7 +4289,7 @@ if
 (
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 )
 {
 spectreZeroRegister
@@ -4344,7 +4344,7 @@ if
 (
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 )
 {
 move32
@@ -4381,7 +4381,7 @@ if
 (
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 )
 {
 spectreMovePtr
@@ -4482,7 +4482,7 @@ if
 (
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 )
 {
 move32
@@ -4516,7 +4516,7 @@ if
 (
 JitOptions
 .
-spectreObjectMitigations
+spectreObjectMitigationsMisc
 )
 {
 spectreMovePtr

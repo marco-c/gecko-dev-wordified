@@ -500,7 +500,10 @@ bool
 spectreIndexMasking
 ;
 bool
-spectreObjectMitigations
+spectreObjectMitigationsBarriers
+;
+bool
+spectreObjectMitigationsMisc
 ;
 bool
 spectreStringMitigations
