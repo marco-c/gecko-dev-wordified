@@ -60931,7 +60931,7 @@ gfx_webrender_software_unaccelerated_widget_allow
 )
 |
 |
-gfxPlatorm
+gfxPlatform
 :
 :
 DoesFissionForceWebRender
