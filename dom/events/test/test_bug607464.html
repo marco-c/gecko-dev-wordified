@@ -537,7 +537,12 @@ finish
 true
 )
 ;
-flushApzRepaints
+promiseApzRepaintsFlushed
+(
+win
+)
+.
+then
 (
 function
 (
@@ -549,7 +554,6 @@ scrollbox
 )
 ;
 }
-win
 )
 ;
 }
