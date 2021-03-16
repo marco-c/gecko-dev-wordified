@@ -4187,6 +4187,19 @@ null
 ;
 final
 String
+userSerialNumber
+=
+System
+.
+getenv
+(
+"
+MOZ_ANDROID_USER_SERIAL_NUMBER
+"
+)
+;
+final
+String
 crashHandler
 =
 GeckoAppShell
@@ -4223,6 +4236,7 @@ mInstanceId
 args
 extras
 flags
+userSerialNumber
 crashHandler
 prefsPfd
 prefMapPfd

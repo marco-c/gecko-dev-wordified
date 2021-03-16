@@ -489,6 +489,9 @@ int
 flags
 final
 String
+userSerialNumber
+final
+String
 crashHandlerService
 final
 ParcelFileDescriptor
@@ -862,6 +865,12 @@ info
 crashAnnotationFd
 =
 crashAnnotationFd
+;
+info
+.
+userSerialNumber
+=
+userSerialNumber
 ;
 if
 (
