@@ -1664,7 +1664,7 @@ SystemColor
 StyleSystemColor
 :
 :
-TextBackground
+Buttonface
 )
 ;
 sRGBColor
@@ -1717,6 +1717,8 @@ isIndeterminate
 )
 {
 backgroundColor
+=
+borderColor
 =
 SystemColor
 (
@@ -1889,7 +1891,7 @@ SystemColor
 StyleSystemColor
 :
 :
-TextBackground
+Highlighttext
 )
 ;
 }
@@ -2651,7 +2653,7 @@ SystemColorPair
 StyleSystemColor
 :
 :
-Highlight
+Highlighttext
 StyleSystemColor
 :
 :
@@ -2836,7 +2838,7 @@ SystemColorPair
 StyleSystemColor
 :
 :
-TextBackground
+Buttonface
 StyleSystemColor
 :
 :
