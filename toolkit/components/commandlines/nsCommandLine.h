@@ -192,7 +192,11 @@ char
 arg
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 resolveShortcutURL
 (
