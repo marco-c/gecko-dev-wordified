@@ -515,7 +515,11 @@ data
 there
 already
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 CoalesceLoad
 (
