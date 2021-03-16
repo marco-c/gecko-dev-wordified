@@ -713,16 +713,6 @@ lastDailyNotification
 -
 1
         
-"
-javascript
-.
-options
-.
-showInConsole
-"
-:
-True
-        
 #
 Disable
 recommended
