@@ -31922,7 +31922,11 @@ specific
 #
 endif
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 RegPtr
 popPtr
 (

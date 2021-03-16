@@ -968,7 +968,11 @@ return
 rttValue_
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 isRuntimeSubtype
 (
