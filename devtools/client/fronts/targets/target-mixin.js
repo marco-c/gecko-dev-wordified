@@ -3136,7 +3136,7 @@ return
 /
 Avoid
 attaching
-the
+any
 thread
 actor
 in
@@ -3159,9 +3159,9 @@ if
 (
 targetList
 .
-targetFront
+descriptorFront
 .
-isBrowserConsoleTarget
+createdForBrowserConsole
 )
 {
 return
