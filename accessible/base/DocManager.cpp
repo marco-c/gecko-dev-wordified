@@ -1174,15 +1174,6 @@ new
 xpcAccessibleDocument
 (
 aDoc
-Interfaces
-:
-:
-DOCUMENT
-|
-Interfaces
-:
-:
-HYPERTEXT
 )
 ;
 sRemoteXPCDocumentCache
