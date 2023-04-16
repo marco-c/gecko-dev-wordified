@@ -538,6 +538,15 @@ version
 QuicVersion
 :
 :
+Version1
+=
+>
+"
+h3
+"
+QuicVersion
+:
+:
 Draft27
 =
 >
@@ -762,6 +771,9 @@ http3_parameters
 :
 &
 Http3Parameters
+now
+:
+Instant
 )
 -
 >
@@ -798,6 +810,7 @@ cid_manager
 local_addr
 remote_addr
 conn_params
+now
 )
 ?
 http3_parameters
@@ -5496,6 +5509,9 @@ max_concurrent_push_streams
 :
 5
 }
+now
+(
+)
 )
 .
 expect
@@ -30308,7 +30324,6 @@ any_data_event
 |
 e
 |
-{
 matches
 !
 (
@@ -30322,7 +30337,6 @@ DataReadable
 .
 }
 )
-}
 ;
 client
 .
@@ -30354,7 +30368,6 @@ any_event
 |
 e
 |
-{
 matches
 !
 (
@@ -30368,7 +30381,6 @@ HeaderReady
 .
 }
 )
-}
 ;
 client
 .
