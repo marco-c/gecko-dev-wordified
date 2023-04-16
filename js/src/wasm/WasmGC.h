@@ -1698,6 +1698,7 @@ return
 explicit
 Comparator
 (
+const
 uint8_t
 *
 aTarget

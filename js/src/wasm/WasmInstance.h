@@ -950,6 +950,7 @@ null
 bool
 memoryAccessInGuardRegion
 (
+const
 uint8_t
 *
 addr
@@ -961,6 +962,7 @@ const
 bool
 memoryAccessInBounds
 (
+const
 uint8_t
 *
 addr
