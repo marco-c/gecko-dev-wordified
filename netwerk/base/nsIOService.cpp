@@ -1879,7 +1879,7 @@ PrefsChanged
 ;
 mSocketProcessTopicBlackList
 .
-PutEntry
+Insert
 (
 nsLiteralCString
 (
@@ -1889,7 +1889,7 @@ NS_XPCOM_WILL_SHUTDOWN_OBSERVER_ID
 ;
 mSocketProcessTopicBlackList
 .
-PutEntry
+Insert
 (
 nsLiteralCString
 (
@@ -1899,7 +1899,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 ;
 mSocketProcessTopicBlackList
 .
-PutEntry
+Insert
 (
 "
 xpcom
@@ -1913,7 +1913,7 @@ _ns
 ;
 mSocketProcessTopicBlackList
 .
-PutEntry
+Insert
 (
 "
 profile
@@ -2196,7 +2196,7 @@ NS_ERROR_FAILURE
 }
 mObserverTopicForSocketProcess
 .
-PutEntry
+Insert
 (
 topic
 )

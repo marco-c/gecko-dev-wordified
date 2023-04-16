@@ -2708,7 +2708,7 @@ get
 ;
 mExcludedDomains
 .
-PutEntry
+Insert
 (
 token
 )
@@ -2901,7 +2901,7 @@ get
 ;
 mEtcHostsDomains
 .
-PutEntry
+Insert
 (
 item
 )
@@ -4288,7 +4288,7 @@ get
 ;
 mDNSSuffixDomains
 .
-PutEntry
+Insert
 (
 item
 )
@@ -6010,7 +6010,7 @@ if
 (
 mExcludedDomains
 .
-GetEntry
+Contains
 (
 subdomain
 )
@@ -6061,7 +6061,7 @@ if
 (
 mDNSSuffixDomains
 .
-GetEntry
+Contains
 (
 subdomain
 )
@@ -6112,7 +6112,7 @@ if
 (
 mEtcHostsDomains
 .
-GetEntry
+Contains
 (
 subdomain
 )

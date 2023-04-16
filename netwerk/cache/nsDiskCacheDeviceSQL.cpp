@@ -8101,7 +8101,7 @@ clientID
 ;
 mActiveCaches
 .
-PutEntry
+Insert
 (
 clientID
 )
@@ -13175,7 +13175,7 @@ mLock
 return
 mLockedEntries
 .
-GetEntry
+Contains
 (
 key
 )
@@ -13201,7 +13201,7 @@ mLock
 ;
 mLockedEntries
 .
-PutEntry
+Insert
 (
 key
 )
@@ -13227,7 +13227,7 @@ mLock
 ;
 mLockedEntries
 .
-RemoveEntry
+Remove
 (
 key
 )
@@ -13833,7 +13833,7 @@ active
 {
 mActiveCaches
 .
-RemoveEntry
+Remove
 (
 *
 active
@@ -15444,7 +15444,7 @@ entry
 {
 mActiveCaches
 .
-RemoveEntry
+Remove
 (
 *
 entry
@@ -15473,7 +15473,7 @@ IsEmpty
 {
 mActiveCaches
 .
-PutEntry
+Insert
 (
 clientID
 )

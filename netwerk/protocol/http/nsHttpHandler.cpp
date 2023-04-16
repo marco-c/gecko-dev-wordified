@@ -19598,7 +19598,7 @@ mHttpExclusionLock
 ;
 mExcludedHttp2Origins
 .
-PutEntry
+Insert
 (
 ci
 -
@@ -19699,7 +19699,7 @@ mHttpExclusionLock
 ;
 mExcludedHttp3Origins
 .
-PutEntry
+Insert
 (
 ci
 -
@@ -20639,7 +20639,7 @@ NS_IsMainThread
 ;
 mExcludedHostsForHTTPSRRUpgrade
 .
-PutEntry
+Insert
 (
 aHost
 )

@@ -4891,7 +4891,7 @@ ToRange
 {
 mLocalDomains
 .
-PutEntry
+Insert
 (
 token
 )
@@ -5999,7 +5999,7 @@ localDomain
 =
 mLocalDomains
 .
-GetEntry
+Contains
 (
 aHostname
 )
@@ -6417,7 +6417,7 @@ localDomain
 =
 mLocalDomains
 .
-GetEntry
+Contains
 (
 aHostname
 )
@@ -7051,7 +7051,7 @@ localDomain
 =
 mLocalDomains
 .
-GetEntry
+Contains
 (
 aHostname
 )

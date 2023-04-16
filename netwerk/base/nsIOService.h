@@ -227,6 +227,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
@@ -1625,9 +1632,9 @@ to
 socket
 process
 .
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mObserverTopicForSocketProcess
 ;
@@ -1658,9 +1665,9 @@ the
 notifications
 again
 .
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mSocketProcessTopicBlackList
 ;
