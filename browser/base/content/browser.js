@@ -6700,7 +6700,7 @@ over
 -
 5gb
 -
-message
+message2
 "
 }
 ]
@@ -6726,7 +6726,7 @@ over
 -
 5gb
 -
-pref
+settings
 -
 button
 "

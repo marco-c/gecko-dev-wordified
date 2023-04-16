@@ -539,7 +539,7 @@ prefsButton
 "
 containers
 -
-preferences
+settings
 -
 button
 "
