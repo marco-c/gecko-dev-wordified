@@ -469,6 +469,8 @@ nsRange
 >
 mNoCheckRange
 ;
+private
+:
 /
 /
 Indicates
@@ -639,8 +641,6 @@ HandleNavigationEvent
 int32_t
 mNewNavigationPositionOffset
 ;
-protected
-:
 nsresult
 FinishNavigationEvent
 (
