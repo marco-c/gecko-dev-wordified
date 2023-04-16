@@ -829,11 +829,9 @@ origin
 =
 this
 .
-browsingContext
+manager
 .
-top
-.
-currentWindowGlobal
+topWindowContext
 .
 documentPrincipal
 .
@@ -855,11 +853,9 @@ shouldDelegatePermission
 ?
 this
 .
-browsingContext
+manager
 .
-top
-.
-currentWindowGlobal
+topWindowContext
 .
 documentPrincipal
 .
