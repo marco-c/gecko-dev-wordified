@@ -19,6 +19,10 @@ largeArrayBufferEnabled
 large
 -
 arraybuffers
+;
+allow
+-
+oom
 var
 pagesz
 =
