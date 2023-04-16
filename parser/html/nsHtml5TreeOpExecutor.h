@@ -156,7 +156,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -334,9 +334,9 @@ preloading
 .
 *
 /
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mPreloadedURLs
 ;
