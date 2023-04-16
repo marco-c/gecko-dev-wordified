@@ -421,6 +421,12 @@ const
 StaticXREAppData
 &
 aAppData
+bool
+xpcshell
+const
+char
+*
+outFilePath
 )
 override
 {
@@ -432,6 +438,8 @@ aEnv
 argv
 argc
 aAppData
+xpcshell
+outFilePath
 )
 ;
 }
