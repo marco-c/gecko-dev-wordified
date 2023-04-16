@@ -15259,11 +15259,11 @@ SetThemeRegion
 (
 )
 ;
+}
 ResizeDirectManipulationViewport
 (
 )
 ;
-}
 }
 if
 (
@@ -15832,11 +15832,11 @@ SetThemeRegion
 (
 )
 ;
+}
 ResizeDirectManipulationViewport
 (
 )
 ;
-}
 }
 if
 (
