@@ -1978,6 +1978,10 @@ Shutdown
 (
 )
 ;
+mSignalProxy
+=
+nullptr
+;
 }
 mWorkerRef
 =
