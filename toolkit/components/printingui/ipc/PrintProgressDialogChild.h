@@ -76,6 +76,13 @@ h
 #
 include
 "
+nsIPrintProgressParams
+.
+h
+"
+#
+include
+"
 nsIPrintSettings
 .
 h

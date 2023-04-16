@@ -226,6 +226,13 @@ EventInfo
 .
 h
 "
+#
+include
+"
+nsITelemetry
+.
+h
+"
 namespace
 {
 "

@@ -143,6 +143,9 @@ nsIStreamListener
 .
 h
 "
+class
+nsILoadInfo
+;
 /
 *
 *

@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsHttp
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

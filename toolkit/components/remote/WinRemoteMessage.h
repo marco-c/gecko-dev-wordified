@@ -120,6 +120,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 /
 /
 This

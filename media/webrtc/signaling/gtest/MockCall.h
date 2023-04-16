@@ -64,6 +64,15 @@ define
 MOCK_CALL_H_
 #
 include
+"
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
 <
 webrtc
 /

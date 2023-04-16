@@ -111,6 +111,17 @@ h
 #
 include
 "
+mozilla
+/
+webgpu
+/
+WebGPUTypes
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

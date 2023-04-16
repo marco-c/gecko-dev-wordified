@@ -75,6 +75,13 @@ h
 #
 include
 "
+expat_config
+.
+h
+"
+#
+include
+"
 expat_external
 .
 h

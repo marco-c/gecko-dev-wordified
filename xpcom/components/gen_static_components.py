@@ -6422,6 +6422,13 @@ StaticComponentData_h
 #
 define
 StaticComponentData_h
+#
+include
+<
+stddef
+.
+h
+>
 namespace
 mozilla
 {

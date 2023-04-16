@@ -109,7 +109,7 @@ h
 #
 include
 "
-txNodeSet
+txExpandedNameMap
 .
 h
 "
@@ -117,6 +117,13 @@ h
 include
 "
 txList
+.
+h
+"
+#
+include
+"
+txNodeSet
 .
 h
 "

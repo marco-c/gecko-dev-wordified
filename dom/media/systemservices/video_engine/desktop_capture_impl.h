@@ -140,6 +140,17 @@ modules
 /
 video_capture
 /
+video_capture
+.
+h
+"
+#
+include
+"
+modules
+/
+video_capture
+/
 video_capture_config
 .
 h

@@ -102,6 +102,17 @@ GPU_SAMPLER_H_
 #
 include
 "
+mozilla
+/
+webgpu
+/
+WebGPUTypes
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

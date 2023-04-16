@@ -71,6 +71,15 @@ ashmem
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Types
+.
+h
+"
 namespace
 mozilla
 {

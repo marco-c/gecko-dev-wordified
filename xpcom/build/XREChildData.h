@@ -156,9 +156,16 @@ namespace
 sandbox
 {
 class
+BrokerServices
+;
+class
 TargetServices
 ;
 }
+/
+/
+namespace
+sandbox
 #
 endif
 /

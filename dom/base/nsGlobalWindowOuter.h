@@ -441,6 +441,13 @@ BrowsingContext
 .
 h
 "
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 class
 nsDocShell
 ;

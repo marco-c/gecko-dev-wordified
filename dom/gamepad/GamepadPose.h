@@ -151,6 +151,13 @@ GamepadPoseState
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 namespace
 mozilla
 {

@@ -175,6 +175,15 @@ HashTable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
 /
 /
 This

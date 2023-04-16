@@ -357,6 +357,13 @@ h
 #
 include
 "
+nsThreadPool
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_network

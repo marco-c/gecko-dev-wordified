@@ -151,6 +151,15 @@ h
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

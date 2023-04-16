@@ -129,6 +129,16 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
+namespace
+dom
+{
+struct
+GPUComputePassDescriptor
+;
+}
 namespace
 webgpu
 {

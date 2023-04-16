@@ -135,6 +135,13 @@ h
 #
 ifdef
 XP_WIN
+#
+include
+<
+windows
+.
+h
+>
 typedef
 WCHAR
 NS_tchar

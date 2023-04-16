@@ -256,6 +256,9 @@ mozilla
 namespace
 dom
 {
+class
+GamepadHapticActuator
+;
 /
 /
 Per
