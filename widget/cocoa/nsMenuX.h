@@ -557,11 +557,6 @@ OnOpen
 )
 ;
 void
-OnClose
-(
-)
-;
-void
 AddMenuItem
 (
 mozilla
