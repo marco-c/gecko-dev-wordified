@@ -276,7 +276,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -5087,12 +5087,10 @@ ConsoleListener
 >
 mConsoleListener
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 nsIObserver
->
+*
 >
 mIdleObservers
 ;

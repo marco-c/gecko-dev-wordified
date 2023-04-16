@@ -394,6 +394,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 nsPluginTags
 .
 h
@@ -9591,9 +9598,9 @@ GetFilesHelper
 >
 mGetFilesPendingRequests
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mActivePermissionKeys
 ;
@@ -9829,9 +9836,9 @@ sEarlySandboxInit
 ;
 #
 endif
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 BrowsingContextGroup
 >

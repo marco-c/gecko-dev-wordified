@@ -17714,7 +17714,7 @@ aIdleTimeInS
 ;
 mIdleObservers
 .
-PutEntry
+Insert
 (
 aObserver
 )
@@ -17764,7 +17764,7 @@ Release
 ;
 mIdleObservers
 .
-RemoveEntry
+Remove
 (
 aObserver
 )
