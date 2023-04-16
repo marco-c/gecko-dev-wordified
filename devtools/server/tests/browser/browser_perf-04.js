@@ -203,7 +203,7 @@ browser
 )
 ;
 const
-activeBrowsingContextID
+activeTabID
 =
 win
 .
@@ -229,7 +229,7 @@ entries
 interval
 features
 duration
-activeBCID
+activeTID
 )
 =
 >
@@ -293,8 +293,8 @@ startProfiler
 ;
 is
 (
-activeBCID
-activeBrowsingContextID
+activeTID
+activeTabID
 "
 Should
 apply

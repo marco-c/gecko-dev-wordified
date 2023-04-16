@@ -2135,7 +2135,7 @@ RecordingUtils
 )
 ;
 const
-activeBrowsingContextID
+activeTabID
 =
 getActiveBrowsingContextID
 (
@@ -2151,7 +2151,7 @@ entries
 interval
 features
 threads
-activeBrowsingContextID
+activeTabID
 duration
 )
 ;

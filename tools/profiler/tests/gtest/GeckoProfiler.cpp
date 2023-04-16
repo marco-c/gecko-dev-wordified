@@ -2223,7 +2223,7 @@ StrVec
 filters
 ;
 uint64_t
-activeBrowsingContextID
+activeTabID
 ;
 ASSERT_TRUE
 (
@@ -2270,7 +2270,7 @@ features
 &
 filters
 &
-activeBrowsingContextID
+activeTabID
 )
 ;
 ASSERT_TRUE
@@ -2318,7 +2318,7 @@ empty
 ;
 ASSERT_TRUE
 (
-activeBrowsingContextID
+activeTabID
 =
 =
 0
@@ -2343,7 +2343,7 @@ aFilters
 size_t
 aFiltersLen
 uint64_t
-aActiveBrowsingContextID
+aActiveTabID
 const
 Maybe
 <
@@ -2376,7 +2376,7 @@ StrVec
 filters
 ;
 uint64_t
-activeBrowsingContextID
+activeTabID
 ;
 profiler_get_start_params
 (
@@ -2391,7 +2391,7 @@ features
 &
 filters
 &
-activeBrowsingContextID
+activeTabID
 )
 ;
 ASSERT_TRUE
@@ -2440,10 +2440,10 @@ aFiltersLen
 ;
 ASSERT_TRUE
 (
-activeBrowsingContextID
+activeTabID
 =
 =
-aActiveBrowsingContextID
+aActiveTabID
 )
 ;
 for

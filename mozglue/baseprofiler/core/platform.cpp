@@ -24674,7 +24674,7 @@ void
 profiler_register_page
 (
 uint64_t
-aBrowsingContextID
+aTabID
 uint64_t
 aInnerWindowID
 const
@@ -24709,7 +24709,7 @@ PRIu64
 "
 )
 "
-aBrowsingContextID
+aTabID
 aInnerWindowID
 aUrl
 .
@@ -24788,7 +24788,7 @@ pageInfo
 new
 PageInformation
 (
-aBrowsingContextID
+aTabID
 aInnerWindowID
 aUrl
 aEmbedderInnerWindowID

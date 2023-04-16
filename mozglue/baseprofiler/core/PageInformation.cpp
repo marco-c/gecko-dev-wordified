@@ -149,7 +149,7 @@ PageInformation
 PageInformation
 (
 uint64_t
-aBrowsingContextID
+aTabID
 uint64_t
 aInnerWindowID
 const
@@ -163,9 +163,9 @@ uint64_t
 aEmbedderInnerWindowID
 )
 :
-mBrowsingContextID
+mTabID
 (
-aBrowsingContextID
+aTabID
 )
 mInnerWindowID
 (
@@ -226,8 +226,8 @@ t
 have
 to
 check
-browsing
-context
+the
+tab
 ID
 or
 url
@@ -275,8 +275,7 @@ to
 double
 .
 Both
-Browsing
-Context
+tab
 and
 Inner
 /
@@ -284,7 +283,7 @@ Inner
 Window
 IDs
 are
-creating
+created
 using
 nsContentUtils
 :
@@ -327,7 +326,7 @@ DoubleProperty
 "
 browsingContextID
 "
-BrowsingContextID
+TabID
 (
 )
 )

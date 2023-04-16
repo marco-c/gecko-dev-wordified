@@ -198,7 +198,7 @@ nsCString
 &
 aFilters
 uint64_t
-aActiveBrowsingContextID
+aActiveTabID
 )
 ;
 private
@@ -234,7 +234,7 @@ nsCString
 mFilters
 ;
 uint64_t
-mActiveBrowsingContextID
+mActiveTabID
 ;
 }
 ;

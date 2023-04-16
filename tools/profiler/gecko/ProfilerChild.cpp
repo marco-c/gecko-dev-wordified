@@ -1176,7 +1176,7 @@ Length
 )
 params
 .
-activeBrowsingContextID
+activeTabID
 (
 )
 params
@@ -1297,7 +1297,7 @@ Length
 )
 params
 .
-activeBrowsingContextID
+activeTabID
 (
 )
 params
