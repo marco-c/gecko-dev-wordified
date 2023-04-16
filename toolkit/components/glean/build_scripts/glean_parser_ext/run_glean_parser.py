@@ -375,7 +375,8 @@ exit
 1
 )
     
-if
+nits
+=
 lint
 .
 lint_metrics
@@ -384,6 +385,28 @@ all_objs
 .
 value
 options
+)
+    
+if
+nits
+is
+not
+None
+and
+any
+(
+nit
+.
+check_name
+!
+=
+"
+EXPIRED
+"
+for
+nit
+in
+nits
 )
 :
         
@@ -394,6 +417,26 @@ as
 Errors
 in
 FOG
+.
+        
+#
+But
+don
+'
+t
+fail
+the
+whole
+build
+on
+expired
+metrics
+(
+it
+blocks
+testing
+)
+.
         
 sys
 .
