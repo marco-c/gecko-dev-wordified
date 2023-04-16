@@ -239,7 +239,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -1592,9 +1592,9 @@ aPinned
 )
 ;
 static
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 *
 AllowedDomains
@@ -1623,9 +1623,9 @@ nsOfflineCacheUpdate
 mUpdates
 ;
 static
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 *
 mAllowedDomains
