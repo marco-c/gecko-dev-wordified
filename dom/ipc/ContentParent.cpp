@@ -35189,12 +35189,6 @@ if
 ValidatePrincipal
 (
 aTriggeringPrincipal
-{
-ValidatePrincipalOptions
-:
-:
-AllowSystem
-}
 )
 )
 {
