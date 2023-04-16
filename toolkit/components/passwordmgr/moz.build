@@ -277,6 +277,11 @@ LoginRecipes
 jsm
 "
 "
+LoginRelatedRealms
+.
+jsm
+"
+"
 NewPasswordModel
 .
 jsm
