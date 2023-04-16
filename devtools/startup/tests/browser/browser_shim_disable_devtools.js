@@ -821,7 +821,15 @@ obs
 removeObserver
 (
 observer
-topic
+"
+browser
+-
+delayed
+-
+startup
+-
+finished
+"
 )
 ;
 resolve
