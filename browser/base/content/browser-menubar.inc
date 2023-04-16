@@ -4876,7 +4876,7 @@ enter
 -
 troubleshoot
 -
-mode
+mode2
 "
 appmenu
 -
@@ -4895,7 +4895,7 @@ enter
 -
 troubleshoot
 -
-mode
+mode2
 "
 /
 >
