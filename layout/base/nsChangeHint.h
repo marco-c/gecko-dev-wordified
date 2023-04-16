@@ -3050,6 +3050,8 @@ nsChangeHint_UpdateTransformLayer
 nsChangeHint_UpdateUsesOpacity
 |
 \
+nsChangeHint_UpdateBackgroundPosition
+|
 nsChangeHint_VisibilityChange
 )
 /
