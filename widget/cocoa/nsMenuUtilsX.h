@@ -135,6 +135,9 @@ nsIContent
 class
 nsMenuBarX
 ;
+class
+nsMenuX
+;
 /
 /
 Namespace
@@ -226,7 +229,7 @@ CalculateNativeInsertionPoint
 nsMenuObjectX
 *
 aParent
-nsMenuObjectX
+nsMenuX
 *
 aChild
 )
