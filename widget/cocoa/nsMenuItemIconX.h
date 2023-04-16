@@ -178,9 +178,6 @@ nsMenuItemIconX
 nsMenuObjectX
 *
 aMenuItem
-nsIContent
-*
-aContent
 NSMenuItem
 *
 aNativeMenuItem
@@ -230,6 +227,9 @@ succeeds
 nsresult
 SetupIcon
 (
+nsIContent
+*
+aContent
 )
 ;
 /
@@ -290,6 +290,9 @@ nsIURI
 >
 GetIconURI
 (
+nsIContent
+*
+aContent
 )
 ;
 nsCOMPtr
