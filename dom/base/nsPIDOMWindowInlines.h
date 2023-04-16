@@ -445,7 +445,7 @@ bool
 nsPIDOMWindowOuter
 :
 :
-FocusedElementShowedOutline
+UnknownFocusMethodShouldShowOutline
 (
 )
 const
@@ -457,7 +457,7 @@ mInnerWindow
 mInnerWindow
 -
 >
-FocusedElementShowedOutline
+UnknownFocusMethodShouldShowOutline
 (
 )
 ;
