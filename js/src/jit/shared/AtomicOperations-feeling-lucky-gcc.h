@@ -654,6 +654,13 @@ defined
 (
 JS_SIMULATOR_ARM
 )
+|
+|
+\
+defined
+(
+JS_SIMULATOR_MIPS64
+)
 /
 /
 On
