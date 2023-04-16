@@ -6136,7 +6136,7 @@ slot
 toPlain
 -
 >
-setSlot
+initSlot
 (
 slot
 fromPlain

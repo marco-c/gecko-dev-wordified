@@ -9316,7 +9316,7 @@ false
 obj
 -
 >
-setSlot
+initSlot
 (
 shape
 -
