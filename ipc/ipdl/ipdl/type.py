@@ -4460,6 +4460,10 @@ None
 progname
 =
 None
+attributes
+=
+{
+}
 )
 :
         
@@ -4493,6 +4497,12 @@ d
 fullname
 =
 fullname
+        
+d
+.
+attributes
+=
+attributes
         
 self
 .
@@ -7966,6 +7976,11 @@ progname
 param
 .
 name
+attributes
+=
+param
+.
+attributes
 )
         
 for
