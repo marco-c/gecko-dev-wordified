@@ -877,6 +877,7 @@ return
 false
 ;
 }
+final
 List
 <
 T
@@ -890,6 +891,7 @@ get
 key
 )
 ;
+final
 boolean
 wasPresent
 =

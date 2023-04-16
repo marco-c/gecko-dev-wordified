@@ -1512,6 +1512,7 @@ click
 virtualViewId
 )
 ;
+final
 GeckoBundle
 nodeInfo
 =
@@ -1947,6 +1948,7 @@ FAKE_GRANULARITY_CHANGE_SHIFTER
 =
 -
 4
+final
 int
 granularity
 =
@@ -2002,6 +2004,7 @@ granularity
 0
 )
 {
+final
 boolean
 extendSelection
 =
@@ -2014,6 +2017,7 @@ AccessibilityNodeInfo
 ACTION_ARGUMENT_EXTEND_SELECTION_BOOLEAN
 )
 ;
+final
 boolean
 next
 =
@@ -2114,6 +2118,7 @@ return
 false
 ;
 }
+final
 int
 selectionStart
 =
@@ -2126,6 +2131,7 @@ AccessibilityNodeInfo
 ACTION_ARGUMENT_SELECTION_START_INT
 )
 ;
+final
 int
 selectionEnd
 =
@@ -2330,6 +2336,7 @@ int
 virtualViewId
 )
 {
+final
 AccessibilityNodeInfo
 node
 =
@@ -2380,6 +2387,7 @@ null
 ;
 for
 (
+final
 SparseArray
 <
 GeckoBundle
@@ -2389,6 +2397,7 @@ cache
 mCaches
 )
 {
+final
 GeckoBundle
 bundle
 =
@@ -2511,6 +2520,7 @@ id
 "
 )
 ;
+final
 boolean
 isRoot
 =
@@ -3005,6 +3015,7 @@ id
 /
 /
 Bounds
+final
 int
 [
 ]
@@ -3146,6 +3157,7 @@ parentBounds
 /
 /
 Children
+final
 int
 [
 ]
@@ -3180,6 +3192,7 @@ null
 {
 for
 (
+final
 int
 childId
 :
@@ -3395,6 +3408,7 @@ like
 role
 and
 hint
+final
 Bundle
 bundle
 =
@@ -3580,6 +3594,7 @@ sHtmlGranularities
 /
 Set
 RangeInfo
+final
 GeckoBundle
 rangeBundle
 =
@@ -3670,6 +3685,7 @@ rangeInfo
 /
 Set
 CollectionItemInfo
+final
 GeckoBundle
 collectionItemBundle
 =
@@ -3745,6 +3761,7 @@ collectionItemInfo
 /
 Set
 CollectionInfo
+final
 GeckoBundle
 collectionBundle
 =
@@ -4597,6 +4614,7 @@ getApplicationContext
 (
 )
 ;
+final
 AccessibilityManager
 accessibilityManager
 =
@@ -4649,6 +4667,7 @@ updateAccessibilitySettings
 )
 ;
 }
+final
 PrefsHelper
 .
 PrefHandler
@@ -5150,6 +5169,7 @@ false
 return
 ;
 }
+final
 GeckoBundle
 cachedBundle
 =
@@ -5999,6 +6019,7 @@ mStartOffset
 =
 0
 ;
+final
 CharSequence
 text
 =
@@ -6075,6 +6096,7 @@ s
 just
 spaces
 .
+final
 CharSequence
 afterText
 =
@@ -6130,6 +6152,7 @@ event
 }
 catch
 (
+final
 IllegalStateException
 ex
 )
@@ -6177,6 +6200,7 @@ int
 virtualViewId
 )
 {
+final
 Iterator
 <
 SparseArray
@@ -6201,6 +6225,7 @@ hasNext
 )
 )
 {
+final
 GeckoBundle
 bundle
 =
@@ -6697,6 +6722,7 @@ clear
 ;
 for
 (
+final
 GeckoBundle
 bundle
 :
@@ -6780,6 +6806,7 @@ clear
 ;
 for
 (
+final
 GeckoBundle
 bundle
 :
@@ -6857,12 +6884,14 @@ this
 {
 for
 (
+final
 GeckoBundle
 bundle
 :
 bundles
 )
 {
+final
 GeckoBundle
 cachedBundle
 =

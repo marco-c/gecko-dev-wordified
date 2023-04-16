@@ -467,6 +467,7 @@ Parcel
 in
 )
 {
+final
 Bundle
 bundle
 =
@@ -881,6 +882,7 @@ toBundle
 (
 )
 {
+final
 Bundle
 bundle
 =
@@ -1049,6 +1051,7 @@ KEY_CONFIG_0
 )
 )
 {
+final
 ByteBuffer
 bytes
 =
@@ -1089,6 +1092,7 @@ KEY_CONFIG_1
 )
 )
 {
+final
 ByteBuffer
 bytes
 =

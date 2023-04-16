@@ -464,6 +464,7 @@ filename
 )
 )
 {
+final
 File
 f
 =
@@ -572,12 +573,14 @@ return
 }
 for
 (
+final
 String
 file
 :
 files
 )
 {
+final
 File
 f
 =
@@ -660,10 +663,11 @@ contents
 of
 the
 dir
+final
 String
-files
 [
 ]
+files
 =
 file
 .
@@ -673,12 +677,14 @@ list
 ;
 for
 (
+final
 String
 temp
 :
 files
 )
 {
+final
 File
 fileDelete
 =
@@ -699,6 +705,7 @@ fileDelete
 }
 catch
 (
+final
 IOException
 ex
 )
@@ -2000,6 +2007,7 @@ tempDirectory
 null
 )
 {
+final
 String
 tmpDir
 =
@@ -2031,6 +2039,7 @@ tmpDir
 File
 result
 ;
+final
 Random
 random
 =
@@ -2243,6 +2252,7 @@ null
 ;
 try
 (
+final
 Cursor
 metaCursor
 =
@@ -2281,6 +2291,7 @@ getString
 }
 catch
 (
+final
 Exception
 e
 )
@@ -2317,6 +2328,7 @@ dstFile
 {
 try
 (
+final
 InputStream
 inputStream
 =
@@ -2331,6 +2343,7 @@ openInputStream
 srcUri
 )
 ;
+final
 OutputStream
 outputStream
 =
@@ -2352,6 +2365,7 @@ outputStream
 }
 catch
 (
+final
 Exception
 e
 )
@@ -2678,6 +2692,7 @@ API19
 and
 up
 .
+final
 File
 [
 ]
@@ -2690,6 +2705,7 @@ getExternalFilesDirs
 null
 )
 ;
+final
 String
 uuidDir
 =
@@ -2725,6 +2741,7 @@ null
 ;
 for
 (
+final
 File
 externalStorage
 :
@@ -3126,6 +3143,7 @@ path
 }
 else
 {
+final
 String
 absPath
 =

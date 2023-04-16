@@ -367,6 +367,7 @@ s
 }
 catch
 (
+final
 NoSuchMethodException
 |
 IOException
@@ -482,6 +483,7 @@ clear
 {
 for
 (
+final
 Sample
 s
 :
@@ -502,6 +504,7 @@ clear
 ;
 for
 (
+final
 SampleBuffer
 b
 :
@@ -702,6 +705,7 @@ int
 size
 )
 {
+final
 Sample
 input
 =
@@ -743,6 +747,7 @@ BufferInfo
 info
 )
 {
+final
 Sample
 output
 =

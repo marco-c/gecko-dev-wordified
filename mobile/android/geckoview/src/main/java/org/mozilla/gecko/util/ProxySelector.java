@@ -266,6 +266,7 @@ uri
 throws
 IOException
 {
+final
 java
 .
 net
@@ -298,6 +299,7 @@ ps
 null
 )
 {
+final
 List
 <
 Proxy
@@ -815,6 +817,7 @@ int
 defaultValue
 )
 {
+final
 String
 string
 =
@@ -846,6 +849,7 @@ string
 }
 catch
 (
+final
 NumberFormatException
 ignored
 )
@@ -916,6 +920,7 @@ false
 /
 construct
 pattern
+final
 StringBuilder
 patternBuilder
 =
@@ -944,6 +949,7 @@ i
 +
 )
 {
+final
 char
 c
 =
@@ -1015,6 +1021,7 @@ is
 the
 nonProxyHosts
 .
+final
 String
 pattern
 =

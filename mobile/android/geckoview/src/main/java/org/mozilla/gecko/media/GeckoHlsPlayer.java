@@ -2836,6 +2836,7 @@ trackSelections
 "
 )
 ;
+final
 MappedTrackInfo
 mappedTrackInfo
 =
@@ -2905,6 +2906,7 @@ rendererIndex
 +
 )
 {
+final
 TrackGroupArray
 rendererTrackGroups
 =
@@ -2915,6 +2917,7 @@ getTrackGroups
 rendererIndex
 )
 ;
+final
 TrackSelection
 trackSelection
 =
@@ -2969,6 +2972,7 @@ groupIndex
 +
 )
 {
+final
 TrackGroup
 trackGroup
 =
@@ -2979,6 +2983,7 @@ get
 groupIndex
 )
 ;
+final
 String
 adaptiveSupport
 =
@@ -3039,6 +3044,7 @@ trackIndex
 +
 )
 {
+final
 String
 status
 =
@@ -3049,6 +3055,7 @@ trackGroup
 trackIndex
 )
 ;
+final
 String
 formatSupport
 =
@@ -3138,6 +3145,7 @@ with
 a
 renderer
 .
+final
 TrackGroupArray
 unassociatedTrackGroups
 =
@@ -3204,6 +3212,7 @@ groupIndex
 "
 )
 ;
+final
 TrackGroup
 trackGroup
 =
@@ -3232,6 +3241,7 @@ trackIndex
 +
 )
 {
+final
 String
 status
 =
@@ -3240,6 +3250,7 @@ getTrackStatusString
 false
 )
 ;
+final
 String
 formatSupport
 =
@@ -3358,6 +3369,7 @@ j
 +
 )
 {
+final
 TrackGroup
 tg
 =
@@ -3386,6 +3398,7 @@ i
 +
 )
 {
+final
 Format
 fmt
 =
@@ -3588,6 +3601,7 @@ for
 further
 information
 .
+final
 Timeline
 .
 Window
@@ -3627,6 +3641,7 @@ window
 .
 isDynamic
 ;
+final
 int
 periodCount
 =
@@ -3636,6 +3651,7 @@ getPeriodCount
 (
 )
 ;
+final
 int
 windowCount
 =
@@ -3673,6 +3689,7 @@ windowCount
 )
 ;
 }
+final
 Timeline
 .
 Period
@@ -4163,6 +4180,7 @@ isPlayerThread
 )
 )
 ;
+final
 Context
 ctx
 =
@@ -4194,6 +4212,7 @@ mDurationUs
 /
 Prepare
 trackSelector
+final
 TrackSelection
 .
 Factory
@@ -4258,6 +4277,7 @@ mRenderers
 =
 mARenderer
 ;
+final
 DefaultLoadControl
 dlc
 =
@@ -4337,6 +4357,7 @@ addListener
 this
 )
 ;
+final
 Uri
 uri
 =
@@ -4992,6 +5013,7 @@ is
 in
 milliseconds
 .
+final
 long
 bufferedPos
 =
@@ -5146,6 +5168,7 @@ int
 index
 )
 {
+final
 Format
 fmt
 ;
@@ -5239,6 +5262,7 @@ null
 ;
 }
 }
+final
 GeckoVideoInfo
 vInfo
 =
@@ -5295,6 +5319,7 @@ int
 index
 )
 {
+final
 Format
 fmt
 ;
@@ -5499,6 +5524,7 @@ csd
 is
 enough
 .
+final
 byte
 [
 ]
@@ -5523,6 +5549,7 @@ get
 0
 )
 ;
+final
 GeckoAudioInfo
 aInfo
 =
@@ -5763,6 +5790,7 @@ MAX_VALUE
 ;
 for
 (
+final
 GeckoHlsRendererBase
 r
 :
@@ -5911,6 +5939,7 @@ startTime
 }
 catch
 (
+final
 Exception
 e
 )
@@ -5964,6 +5993,7 @@ getNextKeyFrameTime
 (
 )
 {
+final
 long
 nextKeyFrameTime
 =
@@ -6623,6 +6653,7 @@ isPlayerThread
 ;
 try
 {
+final
 FutureTask
 <
 T
@@ -6655,6 +6686,7 @@ get
 }
 catch
 (
+final
 Exception
 e
 )

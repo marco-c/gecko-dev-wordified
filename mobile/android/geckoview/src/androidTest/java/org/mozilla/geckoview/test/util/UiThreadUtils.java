@@ -211,6 +211,7 @@ true
 }
 catch
 (
+final
 NoSuchMethodException
 e
 )
@@ -503,11 +504,13 @@ T
 waitForResult
 (
 NonNull
+final
 GeckoResult
 <
 T
 >
 result
+final
 long
 timeout
 )
@@ -586,6 +589,7 @@ isComplete
 public
 ResultHolder
 (
+final
 GeckoResult
 <
 T
@@ -655,6 +659,7 @@ long
 timeout
 )
 {
+final
 AtomicBoolean
 idle
 =
@@ -759,6 +764,7 @@ static
 void
 waitForCondition
 (
+final
 Condition
 condition
 final

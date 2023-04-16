@@ -9070,9 +9070,11 @@ void
 onContentBlocked
 (
 NonNull
+final
 GeckoSession
 session
 NonNull
+final
 BlockEvent
 event
 )
@@ -9122,9 +9124,11 @@ void
 onContentLoaded
 (
 NonNull
+final
 GeckoSession
 session
 NonNull
+final
 BlockEvent
 event
 )
@@ -9414,6 +9418,7 @@ int
 cat
 )
 {
+final
 StringBuilder
 builder
 =
@@ -9645,6 +9650,7 @@ int
 cat
 )
 {
+final
 StringBuilder
 builder
 =
@@ -9726,6 +9732,7 @@ int
 cat
 )
 {
+final
 StringBuilder
 builder
 =
@@ -9867,6 +9874,7 @@ int
 cat
 )
 {
+final
 StringBuilder
 builder
 =

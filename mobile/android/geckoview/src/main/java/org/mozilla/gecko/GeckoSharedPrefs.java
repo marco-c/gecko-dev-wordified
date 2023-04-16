@@ -1125,6 +1125,7 @@ so
 .
 try
 (
+final
 StrictModeContext
 unused
 =
@@ -1283,6 +1284,7 @@ context
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1587,6 +1589,7 @@ context
 ;
 for
 (
+final
 Map
 .
 Entry
@@ -1759,6 +1762,7 @@ settings
 ;
 for
 (
+final
 Map
 .
 Entry

@@ -4427,6 +4427,7 @@ mError
 }
 catch
 (
+final
 Throwable
 e
 )
@@ -5717,6 +5718,7 @@ size
 i
 )
 {
+final
 Dispatcher
 dispatcher
 =
@@ -5727,6 +5729,7 @@ keyAt
 i
 )
 ;
+final
 ArrayList
 <
 Runnable
@@ -6268,6 +6271,7 @@ remaining
 }
 catch
 (
+final
 InterruptedException
 e
 )
@@ -7459,6 +7463,7 @@ CancellationException
 }
 catch
 (
+final
 IllegalStateException
 e
 )

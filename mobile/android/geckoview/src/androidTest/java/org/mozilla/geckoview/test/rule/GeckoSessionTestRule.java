@@ -1765,6 +1765,7 @@ mType
 )
 )
 {
+final
 Method
 method
 =
@@ -1832,6 +1833,7 @@ mType
 )
 )
 {
+final
 Method
 method
 =
@@ -1928,6 +1930,7 @@ mType
 )
 )
 {
+final
 Method
 method
 =
@@ -1990,6 +1993,7 @@ getSimpleName
 }
 catch
 (
+final
 NoSuchMethodException
 |
 IllegalAccessException
@@ -3652,6 +3656,7 @@ public
 boolean
 equals
 (
+final
 Object
 obj
 )
@@ -5717,6 +5722,7 @@ public
 void
 setTelemetryDelegate
 (
+final
 RuntimeTelemetry
 .
 Delegate
@@ -7554,6 +7560,7 @@ mCallbackProxy
 }
 catch
 (
+final
 NoSuchMethodException
 |
 IllegalAccessException
@@ -8130,6 +8137,7 @@ deleteCrashDumps
 (
 )
 {
+final
 File
 dumpDir
 =
@@ -8177,6 +8185,7 @@ cleanupExtensions
 throws
 Throwable
 {
+final
 WebExtensionController
 controller
 =
@@ -8188,6 +8197,7 @@ getWebExtensionController
 (
 )
 ;
+final
 List
 <
 WebExtension
@@ -8218,6 +8228,7 @@ over
 extensions
 for
 (
+final
 WebExtension
 extension
 :
@@ -8679,6 +8690,7 @@ performTestEndCheck
 }
 catch
 (
+final
 Throwable
 t
 )
@@ -8719,6 +8731,7 @@ cleanupStatement
 }
 catch
 (
+final
 Throwable
 t
 )
@@ -8749,6 +8762,7 @@ description
 }
 )
 ;
+final
 Throwable
 throwable
 =
@@ -10573,6 +10587,7 @@ index
 =
 mLastWaitEnd
 ;
+final
 long
 startTime
 =
@@ -12276,15 +12291,18 @@ void
 onPortMessage
 (
 NonNull
+final
 Object
 message
 NonNull
+final
 WebExtension
 .
 Port
 port
 )
 {
+final
 JSONObject
 response
 =
@@ -12310,6 +12328,7 @@ id
 "
 )
 ;
+final
 EvalJSResult
 result
 =
@@ -12389,6 +12408,7 @@ result
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -12694,6 +12714,7 @@ js
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -12835,6 +12856,7 @@ i
 }
 catch
 (
+final
 JSONException
 e
 )
@@ -12918,6 +12940,7 @@ private
 Object
 waitForMessage
 (
+final
 String
 id
 )
@@ -13016,6 +13039,7 @@ nextValue
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -13523,6 +13547,7 @@ T
 T
 forEachCall
 (
+final
 T
 .
 .
@@ -13912,6 +13937,7 @@ getRequestedLocales
 {
 try
 {
+final
 JSONArray
 locales
 =
@@ -13926,6 +13952,7 @@ GetRequestedLocales
 null
 )
 ;
+final
 List
 <
 String
@@ -13978,6 +14005,7 @@ result
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -14500,6 +14528,7 @@ args
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -15499,6 +15528,7 @@ T
 waitForResult
 (
 NonNull
+final
 GeckoResult
 <
 T

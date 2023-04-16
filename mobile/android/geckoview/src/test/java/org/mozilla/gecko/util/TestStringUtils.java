@@ -1073,6 +1073,7 @@ testIsSearchQuery
 (
 )
 {
+final
 boolean
 any
 =

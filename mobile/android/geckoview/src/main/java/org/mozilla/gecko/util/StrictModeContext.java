@@ -315,6 +315,7 @@ allowAllVmPolicies
 (
 )
 {
+final
 StrictMode
 .
 VmPolicy
@@ -378,6 +379,7 @@ allowDiskWrites
 (
 )
 {
+final
 StrictMode
 .
 ThreadPolicy
@@ -426,6 +428,7 @@ allowDiskReads
 (
 )
 {
+final
 StrictMode
 .
 ThreadPolicy
@@ -473,6 +476,7 @@ allowSlowCalls
 (
 )
 {
+final
 StrictMode
 .
 ThreadPolicy

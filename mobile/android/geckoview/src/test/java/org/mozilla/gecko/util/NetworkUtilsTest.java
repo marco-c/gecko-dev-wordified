@@ -651,6 +651,7 @@ connectivityManager
 2G
 mobile
 types
+final
 int
 [
 ]
@@ -740,6 +741,7 @@ connectivityManager
 3G
 mobile
 types
+final
 int
 [
 ]

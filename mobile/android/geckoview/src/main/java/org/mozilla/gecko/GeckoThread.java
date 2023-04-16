@@ -788,6 +788,7 @@ assertOnUiThread
 (
 )
 ;
+final
 long
 nextDelay
 =
@@ -1577,6 +1578,7 @@ setDefault
 mappedLocale
 )
 ;
+final
 Configuration
 config
 =
@@ -2157,6 +2159,7 @@ ArrayList
 )
 ;
 }
+final
 ArrayList
 <
 String
@@ -2341,6 +2344,7 @@ ThreadUtils
 .
 sGeckoHandler
 ;
+final
 Message
 idleMsg
 =
@@ -3104,6 +3108,7 @@ MOZ_DEBUG_CHILD_WAIT_FOR_JAVA_DEBUGGER
 )
 )
 {
+final
 String
 filter
 =
@@ -3546,6 +3551,7 @@ it
 s
 positive
 .
+final
 String
 value
 =
@@ -3675,6 +3681,7 @@ environment
 variable
 if
 present
+final
 String
 value
 =
@@ -3691,6 +3698,7 @@ length
 ;
 try
 {
+final
 int
 intValue
 =
@@ -3714,6 +3722,7 @@ interval
 }
 catch
 (
+final
 NumberFormatException
 err
 )
@@ -3755,6 +3764,7 @@ environment
 variable
 if
 present
+final
 String
 value
 =
@@ -3771,6 +3781,7 @@ length
 ;
 try
 {
+final
 int
 intValue
 =
@@ -3807,6 +3818,7 @@ minCapacity
 }
 catch
 (
+final
 NumberFormatException
 err
 )
@@ -3895,6 +3907,7 @@ can
 return
 null
 .
+final
 List
 <
 ActivityManager
@@ -3923,6 +3936,7 @@ null
 }
 for
 (
+final
 ActivityManager
 .
 RunningAppProcessInfo

@@ -470,6 +470,7 @@ mCallbacksFwd
 }
 catch
 (
+final
 Exception
 e
 )
@@ -543,6 +544,7 @@ initData
 }
 catch
 (
+final
 Exception
 e
 )
@@ -629,6 +631,7 @@ response
 }
 catch
 (
+final
 Exception
 e
 )
@@ -709,6 +712,7 @@ sessionId
 }
 catch
 (
+final
 Exception
 e
 )
@@ -781,6 +785,7 @@ release
 }
 catch
 (
+final
 Exception
 e
 )
@@ -885,6 +890,7 @@ cert
 }
 catch
 (
+final
 Exception
 e
 )

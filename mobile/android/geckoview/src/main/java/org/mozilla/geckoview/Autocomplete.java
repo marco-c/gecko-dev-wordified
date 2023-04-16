@@ -1634,6 +1634,7 @@ toString
 (
 )
 {
+final
 StringBuilder
 builder
 =
@@ -2502,6 +2503,7 @@ LoginEntry
 onLoginFetch
 (
 NonNull
+final
 String
 domain
 )
@@ -2568,6 +2570,7 @@ void
 onLoginSave
 (
 NonNull
+final
 LoginEntry
 login
 )
@@ -2656,9 +2659,11 @@ void
 onLoginUsed
 (
 NonNull
+final
 LoginEntry
 login
 LSUsedField
+final
 int
 usedFields
 )

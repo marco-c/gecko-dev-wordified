@@ -1357,6 +1357,7 @@ ImageResource
 image
 )
 {
+final
 int
 index
 =

@@ -278,6 +278,7 @@ callback
 }
 catch
 (
+final
 Exception
 e
 )

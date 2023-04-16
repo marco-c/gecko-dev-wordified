@@ -314,6 +314,7 @@ hasPrimaryClip
 )
 )
 {
+final
 ClipData
 clip
 =
@@ -345,6 +346,7 @@ return
 null
 ;
 }
+final
 ClipDescription
 description
 =
@@ -374,6 +376,7 @@ MIMETYPE_TEXT_HTML
 )
 )
 {
+final
 CharSequence
 data
 =
@@ -714,6 +717,7 @@ clipData
 }
 catch
 (
+final
 NullPointerException
 e
 )
@@ -767,6 +771,7 @@ clipboard
 }
 catch
 (
+final
 RuntimeException
 e
 )

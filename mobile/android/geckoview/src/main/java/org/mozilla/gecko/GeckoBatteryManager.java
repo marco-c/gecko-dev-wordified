@@ -530,6 +530,7 @@ intent
 return
 ;
 }
+final
 boolean
 previousCharging
 =
@@ -537,6 +538,7 @@ isCharging
 (
 )
 ;
+final
 double
 previousLevel
 =
@@ -671,6 +673,7 @@ Nexus
 )
 )
 {
+final
 int
 plugged
 =
@@ -812,6 +815,7 @@ is
 a
 double
 .
+final
 double
 current
 =
@@ -826,6 +830,7 @@ EXTRA_LEVEL
 1
 )
 ;
+final
 double
 max
 =
@@ -942,6 +947,7 @@ across
 device
 sleeps
 .
+final
 long
 currentTime
 =
@@ -951,6 +957,7 @@ elapsedRealtime
 (
 )
 ;
+final
 long
 dt
 =
@@ -962,6 +969,7 @@ sLastLevelChange
 /
 1000
 ;
+final
 double
 dLevel
 =

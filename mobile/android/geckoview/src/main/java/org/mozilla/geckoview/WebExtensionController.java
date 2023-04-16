@@ -1579,17 +1579,21 @@ AllowOrDeny
 onUpdatePrompt
 (
 NonNull
+final
 WebExtension
 currentlyInstalled
 NonNull
+final
 WebExtension
 updatedExtension
 NonNull
+final
 String
 [
 ]
 newPermissions
 NonNull
+final
 String
 [
 ]
@@ -4075,6 +4079,7 @@ length
 ;
 for
 (
+final
 GeckoBundle
 bundle
 :
@@ -5271,6 +5276,7 @@ toJSONObject
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -6202,6 +6208,7 @@ options
 "
 )
 ;
+final
 WebExtension
 .
 DownloadRequest
@@ -6216,6 +6223,7 @@ fromBundle
 optionsBundle
 )
 ;
+final
 GeckoResult
 <
 WebExtension
@@ -6310,6 +6318,7 @@ supported
 )
 ;
 }
+final
 GeckoBundle
 returnMessage
 =
@@ -7084,6 +7093,7 @@ WebExtension
 MessageSender
 .
 EnvType
+final
 int
 environmentType
 ;
@@ -7207,6 +7217,7 @@ url
 "
 )
 ;
+final
 boolean
 isTopLevel
 ;
@@ -7926,6 +7937,7 @@ data
 }
 catch
 (
+final
 JSONException
 ex
 )
@@ -8432,6 +8444,7 @@ exists
 }
 else
 {
+final
 WebExtension
 .
 Download

@@ -1610,6 +1610,7 @@ toString
 (
 )
 {
+final
 StringBuilder
 builder
 =
@@ -3098,6 +3099,7 @@ toString
 (
 )
 {
+final
 StringBuilder
 builder
 =
@@ -5117,12 +5119,15 @@ void
 onAutofill
 (
 NonNull
+final
 GeckoSession
 session
 AutofillNotify
+final
 int
 notification
 Nullable
+final
 Node
 node
 )

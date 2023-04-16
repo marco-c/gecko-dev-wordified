@@ -735,6 +735,7 @@ machineType
 }
 catch
 (
+final
 FileNotFoundException
 e
 )
@@ -769,6 +770,7 @@ ELF_MACHINE_UNKNOWN
 }
 catch
 (
+final
 IOException
 e
 )

@@ -445,6 +445,7 @@ warning
 .
 try
 (
+final
 StrictModeContext
 unused
 =
@@ -547,6 +548,7 @@ length
 }
 catch
 (
+final
 Exception
 e
 )

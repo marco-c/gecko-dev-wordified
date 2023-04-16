@@ -916,6 +916,7 @@ FEATURE_TunneledPlayback
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1106,6 +1107,7 @@ BUFFER_FLAG_KEY_FRAME
 0
 )
 {
+final
 Bundle
 params
 =

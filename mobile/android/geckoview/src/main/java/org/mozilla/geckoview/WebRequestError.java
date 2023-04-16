@@ -1467,6 +1467,7 @@ byte
 certificateBytes
 )
 {
+final
 int
 code
 =
@@ -1477,6 +1478,7 @@ geckoErrorModule
 geckoErrorClass
 )
 ;
+final
 int
 category
 =
@@ -1535,6 +1537,7 @@ certificateBytes
 }
 catch
 (
+final
 CertificateException
 e
 )

@@ -926,6 +926,7 @@ profileName
 null
 )
 {
+final
 GeckoProfile
 profile
 =
@@ -1531,6 +1532,7 @@ profileDir
 }
 catch
 (
+final
 NoMozillaDirectoryException
 e
 )
@@ -2122,6 +2124,7 @@ write
 }
 catch
 (
+final
 IOException
 e
 )
@@ -2172,6 +2175,7 @@ close
 }
 catch
 (
+final
 IOException
 e
 )
@@ -2450,6 +2454,7 @@ mProfileDir
 }
 catch
 (
+final
 NoSuchProfileException
 noSuchProfile
 )
@@ -2490,6 +2495,7 @@ mProfileDir
 }
 catch
 (
+final
 IOException
 ioe
 )
@@ -2519,6 +2525,7 @@ String
 aFile
 )
 {
+final
 File
 f
 =
@@ -2884,6 +2891,7 @@ String
 data
 )
 {
+final
 File
 file
 =
@@ -2926,6 +2934,7 @@ data
 }
 catch
 (
+final
 IOException
 e
 )
@@ -2968,6 +2977,7 @@ close
 }
 catch
 (
+final
 IOException
 e
 )
@@ -3207,6 +3217,7 @@ return
 mProfileDir
 ;
 }
+final
 INIParser
 parser
 =
@@ -3462,6 +3473,7 @@ General
 null
 )
 {
+final
 INISection
 generalSection
 =
@@ -3557,6 +3569,7 @@ nsToolkitProfileService
 .
 try
 {
+final
 FileOutputStream
 stream
 =
@@ -3576,6 +3589,7 @@ separator
 TIMES_PATH
 )
 ;
+final
 OutputStreamWriter
 writer
 =
@@ -3637,6 +3651,7 @@ close
 }
 catch
 (
+final
 Exception
 e
 )

@@ -572,6 +572,7 @@ buffer
 length
 )
 {
+final
 int
 newBufferSize
 =
@@ -579,6 +580,7 @@ bufferSize
 *
 2
 ;
+final
 byte
 [
 ]
@@ -636,6 +638,7 @@ buffer
 }
 catch
 (
+final
 IOException
 e
 )
@@ -721,6 +724,7 @@ int
 length
 )
 {
+final
 byte
 [
 ]
@@ -775,6 +779,7 @@ close
 }
 catch
 (
+final
 IOException
 e
 )
@@ -796,6 +801,7 @@ out
 throws
 IOException
 {
+final
 byte
 [
 ]

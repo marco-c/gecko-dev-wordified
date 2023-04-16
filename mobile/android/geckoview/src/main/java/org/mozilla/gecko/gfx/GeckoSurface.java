@@ -651,6 +651,7 @@ release
 (
 )
 ;
+final
 GeckoSurfaceTexture
 gst
 =
@@ -839,6 +840,7 @@ use
 )
 ;
 }
+final
 GeckoSurfaceTexture
 texture
 =

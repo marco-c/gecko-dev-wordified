@@ -1967,6 +1967,7 @@ assertOnGeckoThread
 (
 )
 ;
+final
 StringBuilder
 sb
 =

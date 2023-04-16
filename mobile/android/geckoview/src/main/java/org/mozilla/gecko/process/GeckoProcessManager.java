@@ -2546,6 +2546,7 @@ GeckoProcessType
 CONTENT
 )
 {
+final
 int
 pid
 =
@@ -3307,6 +3308,7 @@ crash
 }
 catch
 (
+final
 RemoteException
 e
 )

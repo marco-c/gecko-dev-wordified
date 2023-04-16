@@ -5069,6 +5069,7 @@ computeAcceptLanguages
 (
 )
 {
+final
 ArrayList
 <
 String
@@ -5103,6 +5104,7 @@ null
 {
 for
 (
+final
 String
 locale
 :
@@ -5134,6 +5136,7 @@ second
 :
 for
 (
+final
 String
 locale
 :
@@ -5142,7 +5145,9 @@ getDefaultLocales
 )
 )
 {
-locale
+final
+String
+localeLowerCase
 =
 locale
 .
@@ -5160,7 +5165,7 @@ locales
 .
 contains
 (
-locale
+localeLowerCase
 )
 )
 {
@@ -5168,7 +5173,7 @@ locales
 .
 add
 (
-locale
+localeLowerCase
 )
 ;
 }
@@ -5213,6 +5218,7 @@ getDefault
 (
 )
 ;
+final
 String
 [
 ]
@@ -5269,6 +5275,7 @@ return
 locales
 ;
 }
+final
 String
 [
 ]
@@ -7546,6 +7553,7 @@ getAllowInsecureConnections
 (
 )
 {
+final
 boolean
 httpsOnly
 =
@@ -7555,6 +7563,7 @@ get
 (
 )
 ;
+final
 boolean
 httpsOnlyPrivate
 =
@@ -8002,6 +8011,7 @@ handler
 }
 catch
 (
+final
 ClassNotFoundException
 e
 )

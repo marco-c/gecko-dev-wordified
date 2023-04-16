@@ -193,6 +193,7 @@ void
 handleMessage
 (
 NonNull
+final
 Message
 msg
 )
@@ -279,6 +280,7 @@ message
 }
 catch
 (
+final
 RemoteException
 ex
 )
@@ -298,8 +300,10 @@ void
 onPageStop
 (
 NonNull
+final
 GeckoSession
 session
+final
 boolean
 success
 )
@@ -328,6 +332,7 @@ message
 }
 catch
 (
+final
 RemoteException
 ex
 )
@@ -384,6 +389,7 @@ public
 IBinder
 onBind
 (
+final
 Intent
 intent
 )
@@ -433,6 +439,7 @@ clients
 )
 ;
 }
+final
 GeckoRuntimeSettings
 settings
 =

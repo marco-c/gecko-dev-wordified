@@ -151,6 +151,7 @@ EOS
 ;
 static
 {
+final
 BufferInfo
 eosInfo
 =
@@ -276,6 +277,7 @@ Parcel
 in
 )
 {
+final
 int
 offset
 =
@@ -285,6 +287,7 @@ readInt
 (
 )
 ;
+final
 int
 size
 =
@@ -294,6 +297,7 @@ readInt
 (
 )
 ;
+final
 long
 pts
 =
@@ -303,6 +307,7 @@ readLong
 (
 )
 ;
+final
 int
 flags
 =
@@ -332,6 +337,7 @@ Parcel
 in
 )
 {
+final
 int
 hasCryptoInfo
 =
@@ -356,6 +362,7 @@ null
 return
 ;
 }
+final
 byte
 [
 ]
@@ -367,6 +374,7 @@ createByteArray
 (
 )
 ;
+final
 byte
 [
 ]
@@ -378,6 +386,7 @@ createByteArray
 (
 )
 ;
+final
 int
 mode
 =
@@ -387,6 +396,7 @@ readInt
 (
 )
 ;
+final
 int
 [
 ]
@@ -398,6 +408,7 @@ createIntArray
 (
 )
 ;
+final
 int
 [
 ]
@@ -409,6 +420,7 @@ createIntArray
 (
 )
 ;
+final
 int
 numSubSamples
 =
@@ -798,6 +810,7 @@ Parcel
 in
 )
 {
+final
 Sample
 s
 =
@@ -1111,6 +1124,7 @@ array
 )
 ;
 }
+final
 int
 length
 =
@@ -1130,6 +1144,7 @@ capacity
 -
 offset
 ;
+final
 byte
 [
 ]
@@ -1180,6 +1195,7 @@ sample
 "
 ;
 }
+final
 StringBuilder
 str
 =

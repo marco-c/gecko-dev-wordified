@@ -1223,6 +1223,7 @@ present
 }
 for
 (
+final
 String
 key
 :
@@ -1532,6 +1533,7 @@ POST
 "
 )
 ;
+final
 String
 boundary
 =
@@ -1583,6 +1585,7 @@ gzip
 "
 )
 ;
+final
 OutputStream
 os
 =
@@ -1677,6 +1680,7 @@ getInputStream
 )
 )
 ;
+final
 HashMap
 <
 String
@@ -1703,6 +1707,7 @@ HttpURLConnection
 HTTP_OK
 )
 {
+final
 String
 crashid
 =
@@ -1794,6 +1799,7 @@ getResponseCode
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1840,6 +1846,7 @@ close
 }
 catch
 (
+final
 IOException
 e
 )
@@ -1868,6 +1875,7 @@ e
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1947,6 +1955,7 @@ md
 =
 null
 ;
+final
 FileInputStream
 stream
 =
@@ -1971,6 +1980,7 @@ SHA
 "
 )
 ;
+final
 byte
 [
 ]
@@ -2016,6 +2026,7 @@ readBytes
 }
 catch
 (
+final
 NoSuchAlgorithmException
 e
 )
@@ -2037,6 +2048,7 @@ close
 )
 ;
 }
+final
 byte
 [
 ]
@@ -2048,6 +2060,7 @@ digest
 (
 )
 ;
+final
 StringBuilder
 hash
 =
@@ -2142,6 +2155,7 @@ IOException
 String
 line
 ;
+final
 HashMap
 <
 String
@@ -2198,6 +2212,7 @@ indexOf
 1
 )
 {
+final
 String
 key
 =
@@ -2209,6 +2224,7 @@ substring
 equalsPos
 )
 ;
+final
 String
 val
 =
@@ -2251,6 +2267,7 @@ throws
 IOException
 JSONException
 {
+final
 byte
 [
 ]
@@ -2262,6 +2279,7 @@ byte
 4096
 ]
 ;
+final
 FileInputStream
 inputStream
 =
@@ -2271,6 +2289,7 @@ FileInputStream
 filePath
 )
 ;
+final
 ByteArrayOutputStream
 outputStream
 =
@@ -2312,6 +2331,7 @@ bytesRead
 )
 ;
 }
+final
 String
 contents
 =
@@ -2411,6 +2431,7 @@ hash
 }
 catch
 (
+final
 Exception
 e
 )
@@ -2588,6 +2609,7 @@ HARDWARE
 }
 catch
 (
+final
 Exception
 ex
 )
@@ -2644,6 +2666,7 @@ annotations
 }
 catch
 (
+final
 JSONException
 e
 )
@@ -2675,6 +2698,7 @@ fill
 out
 the
 boundary
+final
 int
 r0
 =
@@ -2693,6 +2717,7 @@ random
 )
 )
 ;
+final
 int
 r1
 =
@@ -2998,6 +3023,7 @@ getBytes
 )
 )
 ;
+final
 FileChannel
 fc
 =

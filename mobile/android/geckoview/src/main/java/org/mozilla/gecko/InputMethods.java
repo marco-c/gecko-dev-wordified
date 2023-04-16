@@ -507,6 +507,7 @@ Context
 context
 )
 {
+final
 String
 inputMethod
 =
@@ -551,6 +552,7 @@ String
 inputMethod
 )
 {
+final
 InputMethodManager
 imm
 =
@@ -559,6 +561,7 @@ getInputMethodManager
 context
 )
 ;
+final
 Collection
 <
 InputMethodInfo
@@ -573,6 +576,7 @@ getEnabledInputMethodList
 ;
 for
 (
+final
 InputMethodInfo
 info
 :
@@ -871,6 +875,7 @@ Context
 context
 )
 {
+final
 String
 inputMethod
 =

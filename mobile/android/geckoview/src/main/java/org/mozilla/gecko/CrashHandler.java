@@ -522,6 +522,7 @@ Throwable
 exc
 )
 {
+final
 StringWriter
 sw
 =
@@ -530,6 +531,7 @@ StringWriter
 (
 )
 ;
+final
 PrintWriter
 pw
 =
@@ -1096,6 +1098,7 @@ stack
 ;
 for
 (
+final
 StackTraceElement
 ste
 :
@@ -1437,6 +1440,7 @@ in
 most
 cases
 .
+final
 String
 processName
 =
@@ -2694,6 +2698,7 @@ ServerURL
 url
 )
 ;
+final
 JSONObject
 json
 =
@@ -2704,6 +2709,7 @@ JSONObject
 ;
 for
 (
+final
 String
 key
 :

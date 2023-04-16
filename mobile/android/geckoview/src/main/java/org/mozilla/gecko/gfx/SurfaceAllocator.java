@@ -219,6 +219,7 @@ SurfaceAllocatorConnection
 (
 )
 ;
+final
 Intent
 intent
 =
@@ -336,6 +337,7 @@ return
 null
 ;
 }
+final
 ISurfaceAllocator
 allocator
 =
@@ -345,6 +347,7 @@ getAllocator
 (
 )
 ;
+final
 GeckoSurface
 surface
 =
@@ -393,6 +396,7 @@ surface
 }
 catch
 (
+final
 Exception
 e
 )
@@ -436,6 +440,7 @@ ensureConnection
 }
 catch
 (
+final
 Exception
 e
 )
@@ -487,6 +492,7 @@ getHandle
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -524,6 +530,7 @@ release
 }
 catch
 (
+final
 Exception
 e
 )
@@ -563,6 +570,7 @@ ensureConnection
 }
 catch
 (
+final
 Exception
 e
 )
@@ -610,6 +618,7 @@ upstream
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -668,6 +677,7 @@ wait
 }
 catch
 (
+final
 InterruptedException
 e
 )

@@ -4828,6 +4828,7 @@ VIRTUAL_KEYBOARD
 }
 catch
 (
+final
 Exception
 e
 )
@@ -4873,6 +4874,7 @@ return
 null
 ;
 }
+final
 KeyEvent
 [
 ]
@@ -5001,6 +5003,7 @@ spans
 return
 ;
 }
+final
 KeyEvent
 [
 ]
@@ -5026,6 +5029,7 @@ return
 }
 for
 (
+final
 KeyEvent
 event
 :
@@ -5426,6 +5430,7 @@ obj
 }
 catch
 (
+final
 Exception
 e
 )
@@ -5791,6 +5796,7 @@ set
 .
 for
 (
+final
 Object
 span
 :
@@ -6227,6 +6233,7 @@ rangeStart
 =
 composingStart
 ;
+final
 TextPaint
 tp
 =
@@ -6235,6 +6242,7 @@ TextPaint
 (
 )
 ;
+final
 TextPaint
 emptyTp
 =
@@ -6285,11 +6293,16 @@ setColor
 ;
 do
 {
+final
 int
 rangeType
+;
+int
 rangeStyles
 =
 0
+;
+int
 rangeLineStyle
 =
 IME_RANGE_LINE_NONE
@@ -6359,6 +6372,7 @@ rangeEnd
 selEnd
 ;
 }
+final
 CharacterStyle
 [
 ]
@@ -6467,6 +6481,7 @@ emptyTp
 ;
 for
 (
+final
 CharacterStyle
 span
 :
@@ -6799,6 +6814,7 @@ getInstance
 (
 )
 ;
+final
 KeyEvent
 translatedEvent
 =
@@ -10547,6 +10563,7 @@ week
 as
 well
 .
+final
 int
 state
 ;
@@ -12860,6 +12877,7 @@ if
 DEBUG
 )
 {
+final
 StringBuilder
 sb
 =
@@ -13468,6 +13486,7 @@ if
 DEBUG
 )
 {
+final
 StringBuilder
 sb
 =
@@ -13818,6 +13837,7 @@ value
 {
 for
 (
+final
 Field
 fld
 :
@@ -13868,6 +13888,7 @@ getName
 }
 catch
 (
+final
 IllegalAccessException
 e
 )
@@ -14281,6 +14302,7 @@ args
 throws
 Throwable
 {
+final
 Object
 target
 ;
@@ -14390,6 +14412,7 @@ if
 DEBUG
 )
 {
+final
 StringBuilder
 log
 =
@@ -14422,6 +14445,7 @@ null
 {
 for
 (
+final
 Object
 arg
 :

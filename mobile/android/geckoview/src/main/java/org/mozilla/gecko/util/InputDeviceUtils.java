@@ -119,6 +119,7 @@ InputDevice
 inputDevice
 )
 {
+final
 int
 sources
 =

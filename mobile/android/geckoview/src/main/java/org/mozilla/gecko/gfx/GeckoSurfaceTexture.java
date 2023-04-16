@@ -606,6 +606,7 @@ onUpdateTexImage
 }
 catch
 (
+final
 Exception
 e
 )
@@ -677,6 +678,7 @@ mHandle
 }
 catch
 (
+final
 Exception
 e
 )
@@ -741,6 +743,7 @@ onReleaseTexImage
 }
 catch
 (
+final
 Exception
 e
 )
@@ -820,6 +823,7 @@ decrementUse
 (
 )
 {
+final
 int
 useCount
 =
@@ -936,6 +940,7 @@ long
 context
 )
 {
+final
 LinkedList
 <
 GeckoSurfaceTexture
@@ -970,6 +975,7 @@ return
 }
 for
 (
+final
 GeckoSurfaceTexture
 tex
 :
@@ -1050,6 +1056,7 @@ finalize
 }
 catch
 (
+final
 Throwable
 t
 )
@@ -1072,6 +1079,7 @@ t
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1449,6 +1457,7 @@ int
 height
 )
 {
+final
 NativeGLBlitHelper
 helper
 =

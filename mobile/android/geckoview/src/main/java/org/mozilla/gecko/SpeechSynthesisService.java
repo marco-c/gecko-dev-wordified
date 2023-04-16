@@ -426,6 +426,7 @@ run
 (
 )
 {
+final
 TextToSpeech
 tss
 =
@@ -433,6 +434,7 @@ getTTS
 (
 )
 ;
+final
 Locale
 defaultLocale
 =
@@ -463,6 +465,7 @@ getLanguage
 ;
 for
 (
+final
 Locale
 locale
 :
@@ -485,6 +488,7 @@ getFeatures
 locale
 )
 ;
+final
 boolean
 isLocal
 =
@@ -505,6 +509,7 @@ Engine
 KEY_FEATURE_EMBEDDED_SYNTHESIS
 )
 ;
+final
 String
 localeStr
 =
@@ -623,6 +628,7 @@ getAvailableLanguages
 )
 ;
 }
+final
 Set
 <
 Locale
@@ -639,6 +645,7 @@ Locale
 ;
 for
 (
+final
 Locale
 locale
 :
@@ -759,6 +766,7 @@ float
 volume
 )
 {
+final
 AtomicBoolean
 result
 =
@@ -875,6 +883,7 @@ initialized
 return
 ;
 }
+final
 HashMap
 <
 String
@@ -920,6 +929,7 @@ KEY_PARAM_UTTERANCE_ID
 utteranceId
 )
 ;
+final
 TextToSpeech
 tss
 =
@@ -969,6 +979,7 @@ setPitch
 pitch
 )
 ;
+final
 int
 speakRes
 =

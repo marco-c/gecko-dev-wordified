@@ -1494,6 +1494,7 @@ mServiceWorkerDelegate
 null
 )
 {
+final
 GeckoResult
 <
 String
@@ -1862,6 +1863,7 @@ getApplicationContext
 (
 )
 ;
+final
 Intent
 i
 =
@@ -2202,6 +2204,7 @@ FLAG_ENABLE_NATIVE_CRASHREPORTER
 }
 catch
 (
+final
 PackageManager
 .
 NameNotFoundException
@@ -2637,6 +2640,7 @@ info
 }
 catch
 (
+final
 DebugConfig
 .
 ConfigException
@@ -2665,6 +2669,7 @@ e
 }
 catch
 (
+final
 FileNotFoundException
 e
 )

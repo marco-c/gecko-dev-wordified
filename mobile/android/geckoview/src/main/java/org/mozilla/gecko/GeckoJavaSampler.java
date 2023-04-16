@@ -2069,6 +2069,7 @@ int
 aSampleId
 )
 {
+final
 Sample
 sample
 =
@@ -2138,6 +2139,7 @@ int
 aFrameId
 )
 {
+final
 Sample
 sample
 =
@@ -2163,6 +2165,7 @@ mFrames
 length
 )
 {
+final
 Frame
 frame
 =
@@ -2311,6 +2314,7 @@ String
 aText
 )
 {
+final
 Queue
 <
 Marker
@@ -2431,6 +2435,7 @@ markers
 )
 ;
 }
+final
 Marker
 newMarker
 =
@@ -2495,6 +2500,7 @@ pollNextMarker
 (
 )
 {
+final
 Queue
 <
 Marker
@@ -2637,6 +2643,7 @@ allocating
 too
 much
 .
+final
 int
 limitedEntryCount
 =
@@ -2823,6 +2830,7 @@ MILLISECONDS
 }
 catch
 (
+final
 InterruptedException
 e
 )

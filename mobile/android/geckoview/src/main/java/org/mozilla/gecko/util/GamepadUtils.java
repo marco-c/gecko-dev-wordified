@@ -342,6 +342,7 @@ int
 axis
 )
 {
+final
 float
 threshold
 ;
@@ -360,6 +361,7 @@ sDeadZoneThresholdOverride
 }
 else
 {
+final
 InputDevice
 .
 MotionRange
@@ -391,6 +393,7 @@ getFuzz
 )
 ;
 }
+final
 float
 value
 =
@@ -610,6 +613,7 @@ mapped
 to
 the
 keys
+final
 boolean
 areKeysSwapped
 =
@@ -835,6 +839,7 @@ swapped
 =
 false
 ;
+final
 int
 [
 ]
@@ -870,6 +875,7 @@ i
 +
 )
 {
+final
 KeyCharacterMap
 keyCharacterMap
 =

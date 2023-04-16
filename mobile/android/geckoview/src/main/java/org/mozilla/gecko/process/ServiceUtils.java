@@ -632,6 +632,7 @@ flags
 }
 catch
 (
+final
 PackageManager
 .
 NameNotFoundException
@@ -707,6 +708,7 @@ GET_SERVICES
 }
 catch
 (
+final
 PackageManager
 .
 NameNotFoundException

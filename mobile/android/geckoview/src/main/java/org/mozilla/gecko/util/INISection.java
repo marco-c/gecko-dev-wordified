@@ -352,6 +352,7 @@ String
 key
 )
 {
+final
 Object
 val
 =
@@ -415,6 +416,7 @@ String
 key
 )
 {
+final
 Object
 val
 =
@@ -481,6 +483,7 @@ parse
 }
 catch
 (
+final
 IOException
 e
 )
@@ -683,6 +686,7 @@ null
 {
 for
 (
+final
 Enumeration
 <
 String
@@ -703,6 +707,7 @@ hasMoreElements
 ;
 )
 {
+final
 String
 key
 =
@@ -781,6 +786,7 @@ newLine
 }
 catch
 (
+final
 IOException
 e
 )

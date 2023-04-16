@@ -573,6 +573,7 @@ isCanceled
 return
 ;
 }
+final
 Message
 msg
 =
@@ -655,6 +656,7 @@ isCanceled
 return
 ;
 }
+final
 Message
 msg
 =
@@ -1129,6 +1131,7 @@ false
 }
 catch
 (
+final
 IllegalStateException
 e
 )
@@ -1157,6 +1160,7 @@ pollInputBuffer
 (
 )
 {
+final
 int
 result
 =
@@ -1226,6 +1230,7 @@ dequeueMoreBuffer
 =
 true
 ;
+final
 MediaCodec
 .
 BufferInfo
@@ -1238,6 +1243,7 @@ BufferInfo
 (
 )
 ;
+final
 int
 result
 =
@@ -1511,6 +1517,7 @@ initialized
 return
 ;
 }
+final
 HandlerThread
 thread
 =
@@ -1815,6 +1822,7 @@ FEATURE_TunneledPlayback
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1969,6 +1977,7 @@ SDK_INT
 19
 )
 {
+final
 Bundle
 params
 =
@@ -2070,6 +2079,7 @@ BUFFER_FLAG_KEY_FRAME
 )
 )
 {
+final
 Bundle
 params
 =
@@ -2112,6 +2122,7 @@ flags
 }
 catch
 (
+final
 IllegalStateException
 e
 )
@@ -2209,6 +2220,7 @@ flags
 }
 catch
 (
+final
 IllegalStateException
 e
 )

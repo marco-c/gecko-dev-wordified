@@ -2319,6 +2319,7 @@ bufferLen
 ;
 try
 (
+final
 InputStreamReader
 reader
 =
@@ -2392,6 +2393,7 @@ IOException
 {
 try
 (
+final
 OutputStreamWriter
 writer
 =
@@ -2906,6 +2908,7 @@ testCreateTempDir
 throws
 Exception
 {
+final
 String
 prefix
 =
@@ -2913,6 +2916,7 @@ prefix
 tmp
 "
 ;
+final
 File
 directory
 =
@@ -2922,6 +2926,7 @@ newFolder
 (
 )
 ;
+final
 File
 tempDir1
 =
@@ -2933,6 +2938,7 @@ directory
 prefix
 )
 ;
+final
 File
 tempDir2
 =

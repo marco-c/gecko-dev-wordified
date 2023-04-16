@@ -747,6 +747,7 @@ byte
 transports
 )
 {
+final
 ArrayList
 <
 Transport
@@ -921,6 +922,7 @@ list
 )
 ;
 }
+final
 ArrayList
 <
 WebAuthnPublicCredential
@@ -935,6 +937,7 @@ WebAuthnPublicCredential
 (
 )
 ;
+final
 byte
 [
 ]
@@ -987,6 +990,7 @@ idObjectList
 i
 ]
 ;
+final
 byte
 [
 ]
@@ -1214,6 +1218,7 @@ NOT_SUPPORTED_ERR
 )
 ;
 }
+final
 PublicKeyCredentialCreationOptions
 .
 Builder
@@ -1226,6 +1231,7 @@ Builder
 (
 )
 ;
+final
 List
 <
 PublicKeyCredentialParameters
@@ -1248,6 +1254,7 @@ more
 algorithms
 for
 (
+final
 Algorithm
 algo
 :
@@ -1277,6 +1284,7 @@ getAlgoValue
 )
 ;
 }
+final
 PublicKeyCredentialUserEntity
 user
 =
@@ -1323,6 +1331,7 @@ AttestationConveyancePreference
 .
 NONE
 ;
+final
 String
 attestationPreference
 =
@@ -1385,6 +1394,7 @@ AttestationConveyancePreference
 INDIRECT
 ;
 }
+final
 AuthenticatorSelectionCriteria
 .
 Builder
@@ -1435,6 +1445,7 @@ PLATFORM
 ;
 }
 }
+final
 AuthenticatorSelectionCriteria
 sel
 =
@@ -1444,6 +1455,7 @@ build
 (
 )
 ;
+final
 AuthenticationExtensions
 .
 Builder
@@ -1487,6 +1499,7 @@ fidoAppId
 )
 ;
 }
+final
 AuthenticationExtensions
 ext
 =
@@ -1511,6 +1524,7 @@ Android
 '
 s
 API
+final
 List
 <
 PublicKeyCredentialDescriptor
@@ -1527,6 +1541,7 @@ PublicKeyCredentialDescriptor
 ;
 for
 (
+final
 WebAuthnTokenManager
 .
 WebAuthnPublicCredential
@@ -1562,6 +1577,7 @@ transports
 )
 ;
 }
+final
 PublicKeyCredentialRpEntity
 rp
 =
@@ -1598,6 +1614,7 @@ rpIcon
 )
 )
 ;
+final
 PublicKeyCredentialCreationOptions
 requestOptions
 =
@@ -1663,6 +1680,7 @@ build
 (
 )
 ;
+final
 Uri
 origin
 =
@@ -1680,6 +1698,7 @@ origin
 )
 )
 ;
+final
 BrowserPublicKeyCredentialCreationOptions
 browserOptions
 =
@@ -1704,6 +1723,7 @@ build
 (
 )
 ;
+final
 Task
 <
 PendingIntent
@@ -1761,6 +1781,7 @@ get
 whitelisted
 themselves
 .
+final
 Fido2PrivilegedApiClient
 fidoClient
 =
@@ -1878,6 +1899,7 @@ the
 FIDO2
 API
 .
+final
 Fido2ApiClient
 fidoClient
 =
@@ -1902,6 +1924,7 @@ requestOptions
 )
 ;
 }
+final
 GeckoResult
 <
 MakeCredentialResponse
@@ -1940,6 +1963,7 @@ intent
 -
 >
 {
+final
 WebAuthnTokenManager
 .
 Exception
@@ -1968,6 +1992,7 @@ error
 return
 ;
 }
+final
 byte
 [
 ]
@@ -1990,6 +2015,7 @@ rspData
 null
 )
 {
+final
 AuthenticatorAttestationResponse
 responseData
 =
@@ -2244,6 +2270,7 @@ GeckoBundle
 extensions
 )
 {
+final
 ArrayList
 <
 WebAuthnPublicCredential
@@ -2260,6 +2287,7 @@ GeckoResult
 instead
 Bug
 1550116
+final
 byte
 [
 ]
@@ -2275,6 +2303,7 @@ remaining
 )
 ]
 ;
+final
 byte
 [
 ]
@@ -2319,6 +2348,7 @@ transportList
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -2353,6 +2383,7 @@ return
 }
 try
 {
+final
 GeckoResult
 <
 MakeCredentialResponse
@@ -2419,6 +2450,7 @@ getMessage
 }
 catch
 (
+final
 Exception
 e
 )
@@ -2690,6 +2722,7 @@ return
 null
 ;
 }
+final
 byte
 [
 ]
@@ -2704,6 +2737,7 @@ Fido
 FIDO2_KEY_ERROR_EXTRA
 )
 ;
+final
 AuthenticatorErrorResponse
 responseData
 =
@@ -2842,6 +2876,7 @@ NOT_SUPPORTED_ERR
 )
 ;
 }
+final
 List
 <
 PublicKeyCredentialDescriptor
@@ -2858,6 +2893,7 @@ PublicKeyCredentialDescriptor
 ;
 for
 (
+final
 WebAuthnTokenManager
 .
 WebAuthnPublicCredential
@@ -2893,6 +2929,7 @@ transports
 )
 ;
 }
+final
 AuthenticationExtensions
 .
 Builder
@@ -2936,6 +2973,7 @@ fidoAppId
 )
 ;
 }
+final
 AuthenticationExtensions
 ext
 =
@@ -2945,6 +2983,7 @@ build
 (
 )
 ;
+final
 PublicKeyCredentialRequestOptions
 requestOptions
 =
@@ -3002,6 +3041,7 @@ build
 (
 )
 ;
+final
 Uri
 origin
 =
@@ -3019,6 +3059,7 @@ origin
 )
 )
 ;
+final
 BrowserPublicKeyCredentialRequestOptions
 browserOptions
 =
@@ -3043,6 +3084,7 @@ build
 (
 )
 ;
+final
 Task
 <
 PendingIntent
@@ -3070,6 +3112,7 @@ BuildConfig
 MOZILLA_OFFICIAL
 )
 {
+final
 Fido2PrivilegedApiClient
 fidoClient
 =
@@ -3096,6 +3139,7 @@ browserOptions
 }
 else
 {
+final
 Fido2ApiClient
 fidoClient
 =
@@ -3120,6 +3164,7 @@ requestOptions
 )
 ;
 }
+final
 GeckoResult
 <
 GetAssertionResponse
@@ -3158,6 +3203,7 @@ intent
 -
 >
 {
+final
 WebAuthnTokenManager
 .
 Exception
@@ -3198,6 +3244,7 @@ FIDO2_KEY_RESPONSE_EXTRA
 )
 )
 {
+final
 byte
 [
 ]
@@ -3212,6 +3259,7 @@ Fido
 FIDO2_KEY_RESPONSE_EXTRA
 )
 ;
+final
 AuthenticatorAssertionResponse
 responseData
 =
@@ -3467,6 +3515,7 @@ GeckoBundle
 extensions
 )
 {
+final
 ArrayList
 <
 WebAuthnPublicCredential
@@ -3483,6 +3532,7 @@ GeckoResult
 instead
 Bug
 1550116
+final
 byte
 [
 ]
@@ -3520,6 +3570,7 @@ transportList
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -3616,6 +3667,7 @@ getMessage
 }
 catch
 (
+final
 java
 .
 lang

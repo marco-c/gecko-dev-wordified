@@ -190,6 +190,7 @@ boolean
 singleBufferMode
 )
 {
+final
 GeckoSurfaceTexture
 gst
 =

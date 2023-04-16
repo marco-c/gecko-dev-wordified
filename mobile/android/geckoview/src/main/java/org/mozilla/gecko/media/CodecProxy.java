@@ -575,6 +575,7 @@ dispose
 return
 ;
 }
+final
 SampleBuffer
 buffer
 =
@@ -893,6 +894,7 @@ start
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -944,6 +946,7 @@ true
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1007,6 +1010,7 @@ isAdaptivePlaybackSupported
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1070,6 +1074,7 @@ isHardwareAccelerated
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1133,6 +1138,7 @@ isTunneledPlaybackSupported
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1193,6 +1199,7 @@ return
 INVALID_SESSION
 ;
 }
+final
 boolean
 eos
 =
@@ -1221,6 +1228,7 @@ EOS
 }
 try
 {
+final
 Sample
 s
 =
@@ -1268,6 +1276,7 @@ cryptoInfo
 }
 catch
 (
+final
 RemoteException
 |
 NullPointerException
@@ -1292,6 +1301,7 @@ e
 }
 catch
 (
+final
 IOException
 e
 )
@@ -1434,6 +1444,7 @@ capacity
 size
 )
 {
+final
 IOException
 e
 =
@@ -1529,6 +1540,7 @@ false
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1638,6 +1650,7 @@ true
 }
 catch
 (
+final
 DeadObjectException
 e
 )
@@ -1648,6 +1661,7 @@ false
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1674,6 +1688,7 @@ resetBuffers
 {
 for
 (
+final
 SampleBuffer
 b
 :
@@ -1699,6 +1714,7 @@ clear
 ;
 for
 (
+final
 SampleBuffer
 b
 :
@@ -1850,6 +1866,7 @@ try
 {
 for
 (
+final
 Sample
 s
 :
@@ -1868,6 +1885,7 @@ true
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -1906,6 +1924,7 @@ this
 }
 catch
 (
+final
 DeadObjectException
 e
 )
@@ -1916,6 +1935,7 @@ false
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -2043,6 +2063,7 @@ bps
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -2205,6 +2226,7 @@ render
 }
 catch
 (
+final
 RemoteException
 e
 )
@@ -2368,6 +2390,7 @@ id
 }
 catch
 (
+final
 Exception
 e
 )

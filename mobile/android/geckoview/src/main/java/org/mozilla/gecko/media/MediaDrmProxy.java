@@ -1290,6 +1290,7 @@ Callbacks
 nativeCallbacks
 )
 {
+final
 MediaDrmProxy
 proxy
 =
@@ -1343,6 +1344,7 @@ toString
 (
 )
 ;
+final
 IMediaDrmBridge
 remoteBridge
 =
@@ -1388,6 +1390,7 @@ this
 }
 catch
 (
+final
 Exception
 e
 )
@@ -1613,6 +1616,7 @@ true
 }
 catch
 (
+final
 RuntimeException
 e
 )
@@ -1659,6 +1663,7 @@ stubId
 {
 for
 (
+final
 MediaDrmProxy
 proxy
 :

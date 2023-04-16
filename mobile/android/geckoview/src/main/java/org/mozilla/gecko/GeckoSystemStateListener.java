@@ -351,6 +351,7 @@ sApplicationContext
 =
 context
 ;
+final
 ContentResolver
 contentResolver
 =
@@ -360,6 +361,7 @@ getContentResolver
 (
 )
 ;
+final
 Uri
 animationSetting
 =
@@ -509,6 +511,7 @@ unregisterInputDeviceListener
 listenerInstance
 )
 ;
+final
 ContentResolver
 contentResolver
 =
@@ -612,6 +615,7 @@ return
 false
 ;
 }
+final
 ContentResolver
 contentResolver
 =
@@ -678,6 +682,7 @@ int
 newUIMode
 )
 {
+final
 boolean
 isNightMode
 =
@@ -796,6 +801,7 @@ int
 deviceId
 )
 {
+final
 InputDevice
 device
 =

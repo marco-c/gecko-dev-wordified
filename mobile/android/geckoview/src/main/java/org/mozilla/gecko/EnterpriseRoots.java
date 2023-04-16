@@ -283,6 +283,7 @@ re
 interested
 in
 .
+final
 KeyStore
 ks
 ;
@@ -302,6 +303,7 @@ AndroidCAStore
 }
 catch
 (
+final
 KeyStoreException
 kse
 )
@@ -343,6 +345,7 @@ null
 }
 catch
 (
+final
 CertificateException
 ce
 )
@@ -374,6 +377,7 @@ byte
 }
 catch
 (
+final
 IOException
 ioe
 )
@@ -405,6 +409,7 @@ byte
 }
 catch
 (
+final
 NoSuchAlgorithmException
 nsae
 )
@@ -505,6 +510,7 @@ arrays
 and
 return
 .
+final
 Enumeration
 <
 String
@@ -524,6 +530,7 @@ aliases
 }
 catch
 (
+final
 KeyStoreException
 kse
 )
@@ -553,6 +560,7 @@ byte
 ]
 ;
 }
+final
 ArrayList
 <
 byte
@@ -580,6 +588,7 @@ hasMoreElements
 )
 )
 {
+final
 String
 alias
 =
@@ -589,6 +598,7 @@ nextElement
 (
 )
 ;
+final
 boolean
 isCertificate
 ;
@@ -606,6 +616,7 @@ alias
 }
 catch
 (
+final
 KeyStoreException
 kse
 )
@@ -702,6 +713,7 @@ user
 )
 )
 {
+final
 Certificate
 certificate
 ;
@@ -719,6 +731,7 @@ alias
 }
 catch
 (
+final
 KeyStoreException
 kse
 )
@@ -756,6 +769,7 @@ getEncoded
 }
 catch
 (
+final
 CertificateEncodingException
 cee
 )

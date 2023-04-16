@@ -302,6 +302,7 @@ f
 }
 catch
 (
+final
 IOException
 e1
 )
@@ -333,6 +334,7 @@ writer
 }
 catch
 (
+final
 IOException
 e
 )
@@ -384,6 +386,7 @@ null
 {
 for
 (
+final
 Enumeration
 <
 INISection
@@ -404,6 +407,7 @@ hasMoreElements
 ;
 )
 {
+final
 INISection
 section
 =
@@ -466,6 +470,7 @@ parse
 }
 catch
 (
+final
 IOException
 e
 )
@@ -585,6 +590,7 @@ f
 }
 catch
 (
+final
 FileNotFoundException
 e1
 )
@@ -605,6 +611,7 @@ return
 return
 ;
 }
+final
 BufferedReader
 buf
 =
@@ -799,6 +806,7 @@ property
 line
 )
 ;
+final
 String
 [
 ]
@@ -824,6 +832,7 @@ length
 )
 continue
 ;
+final
 String
 key
 =
@@ -836,6 +845,7 @@ trim
 (
 )
 ;
+final
 String
 value
 =
@@ -1068,6 +1078,7 @@ remove
 newName
 )
 ;
+final
 INISection
 section
 =

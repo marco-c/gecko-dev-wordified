@@ -729,6 +729,7 @@ getParams
 }
 catch
 (
+final
 NoSuchAlgorithmException
 e
 )
@@ -743,6 +744,7 @@ e
 }
 catch
 (
+final
 InvalidAlgorithmParameterException
 e
 )
@@ -1111,6 +1113,7 @@ key
 }
 catch
 (
+final
 NoSuchAlgorithmException
 e
 )
@@ -1125,6 +1128,7 @@ e
 }
 catch
 (
+final
 InvalidKeySpecException
 e
 )

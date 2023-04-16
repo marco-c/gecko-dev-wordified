@@ -310,9 +310,11 @@ WebPushSubscription
 onSubscribe
 (
 NonNull
+final
 String
 scope
 Nullable
+final
 byte
 [
 ]
@@ -415,6 +417,7 @@ WebPushSubscription
 onGetSubscription
 (
 NonNull
+final
 String
 scope
 )
@@ -526,6 +529,7 @@ Void
 onUnsubscribe
 (
 NonNull
+final
 String
 scope
 )

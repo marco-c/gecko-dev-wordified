@@ -179,6 +179,7 @@ the
 system
 notification
 bar
+final
 Window
 window
 =
@@ -427,6 +428,7 @@ Context
 context
 )
 {
+final
 Intent
 intent
 =
