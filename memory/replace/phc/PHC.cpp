@@ -2383,13 +2383,6 @@ StackBase
 FramePointerStackWalk
 (
 StackWalkCallback
-/
-*
-aSkipFrames
-=
-*
-/
-0
 kMaxFrames
 this
 fp
@@ -2523,13 +2516,6 @@ pthread_self
 FramePointerStackWalk
 (
 StackWalkCallback
-/
-*
-skipFrames
-=
-*
-/
-0
 kMaxFrames
 this
 fp

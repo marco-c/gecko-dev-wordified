@@ -482,16 +482,6 @@ MozStackWalk
 .
 *
 param
-aSkipFrames
-Same
-as
-for
-MozStackWalk
-(
-)
-.
-*
-param
 aMaxFrames
 Same
 as
@@ -573,8 +563,6 @@ MozStackWalkThread
 (
 MozWalkStackCallback
 aCallback
-uint32_t
-aSkipFrames
 uint32_t
 aMaxFrames
 void
@@ -1215,8 +1203,6 @@ FramePointerStackWalk
 (
 MozWalkStackCallback
 aCallback
-uint32_t
-aSkipFrames
 uint32_t
 aMaxFrames
 void
