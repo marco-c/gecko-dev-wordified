@@ -23866,6 +23866,7 @@ the
 /
 /
 target
+descriptor
 .
 const
 onceDestroyed
@@ -24113,7 +24114,7 @@ destroy
 return
 this
 .
-target
+descriptorFront
 .
 destroy
 (
