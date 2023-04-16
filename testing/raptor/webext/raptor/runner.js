@@ -224,9 +224,6 @@ ANDROID_BROWSERS
 =
 [
 "
-fennec
-"
-"
 fenix
 "
 "

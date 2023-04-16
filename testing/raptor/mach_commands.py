@@ -168,9 +168,6 @@ ANDROID_BROWSERS
 =
 [
 "
-fennec
-"
-"
 geckoview
 "
 "

@@ -1653,9 +1653,6 @@ firefox
 geckoview
 "
 "
-fennec
-"
-"
 refbrow
 "
 "
