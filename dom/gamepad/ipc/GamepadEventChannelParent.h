@@ -206,10 +206,7 @@ double
 &
 aDuration
 const
-Tainted
-<
 uint32_t
->
 &
 aPromiseID
 )
@@ -277,10 +274,7 @@ uint8_t
 &
 aBlue
 const
-Tainted
-<
 uint32_t
->
 &
 aPromiseID
 )
