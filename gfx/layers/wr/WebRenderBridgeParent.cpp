@@ -15557,6 +15557,13 @@ Destroy
 (
 )
 ;
+mApi
+-
+>
+DestroyRenderer
+(
+)
+;
 }
 mCompositorScheduler
 =
