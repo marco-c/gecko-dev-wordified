@@ -1860,10 +1860,6 @@ apply_local_clip_rect
 :
 bool
 pub
-is_passthrough
-:
-bool
-pub
 surface_spatial_node_index
 :
 SpatialNodeIndex
