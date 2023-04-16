@@ -346,6 +346,15 @@ cell
 ;
 extern
 void
+PerformIncrementalBarrierDuringFlattening
+(
+JSString
+*
+str
+)
+;
+extern
+void
 UnmarkGrayGCThingRecursively
 (
 TenuredCell
