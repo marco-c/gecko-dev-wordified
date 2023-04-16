@@ -162,7 +162,7 @@ automation
 BENCHMARK_REVISION
 =
 "
-e19a0865c946ae2f9a64dd25614b1c275a3996b2
+54c3c3d9d3f651f0d8ebb809d25232f72b5b06f2
 "
 ANDROID_BROWSERS
 =
@@ -706,23 +706,6 @@ BENCHMARK_REPOSITORY
 )
 )
         
-print
-(
-"
-Cloning
-the
-benchmarks
-to
-{
-}
-"
-.
-format
-(
-external_repo_path
-)
-)
-        
 try
 :
             
@@ -790,6 +773,23 @@ isdir
 external_repo_path
 )
 :
+            
+print
+(
+"
+Cloning
+the
+benchmarks
+to
+{
+}
+"
+.
+format
+(
+external_repo_path
+)
+)
             
 subprocess
 .

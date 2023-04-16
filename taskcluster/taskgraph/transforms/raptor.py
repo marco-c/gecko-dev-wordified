@@ -245,6 +245,14 @@ optionally_keyed_by
 "
 app
 "
+"
+subtest
+"
+"
+test
+-
+platform
+"
 test_description_schema
 [
 "
