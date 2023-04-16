@@ -303,13 +303,9 @@ toolbox
 "
 -
 -
-lwt
+toolbarseparator
 -
-toolbar
--
-vertical
--
-separator
+color
 "
 {
 lwtProperty
@@ -385,8 +381,6 @@ icon_attention_color
 "
 -
 -
-lwt
--
 toolbarbutton
 -
 hover
@@ -404,8 +398,6 @@ button_background_hover
 [
 "
 -
--
-lwt
 -
 toolbarbutton
 -
