@@ -3841,9 +3841,12 @@ Methods
 -
 -
 -
-nsIContent
+dom
+:
+:
+Element
 *
-GetFocusedContent
+GetFocusedElement
 (
 )
 ;
