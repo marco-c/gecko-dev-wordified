@@ -2790,11 +2790,10 @@ UseHTTPSRRAsAltSvcEnabled
 &
 &
 !
-mConnInfo
--
->
-UsingConnect
 (
+mCaps
+&
+NS_HTTP_DISALLOW_HTTPS_RR
 )
 )
 {
