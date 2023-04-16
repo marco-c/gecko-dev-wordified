@@ -3984,10 +3984,10 @@ GetIconImage
 ;
 if
 (
-mParent
+mIconListener
 )
 {
-mParent
+mIconListener
 -
 >
 IconUpdated
