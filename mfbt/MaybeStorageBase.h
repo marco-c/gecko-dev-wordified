@@ -217,11 +217,6 @@ T
 struct
 MaybeStorageBase
 ;
-struct
-Dummy
-{
-}
-;
 template
 <
 typename
@@ -610,7 +605,7 @@ aArgs
 NonConstT
 val
 ;
-Dummy
+char
 dummy
 ;
 }
