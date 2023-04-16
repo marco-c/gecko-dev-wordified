@@ -62,8 +62,6 @@ opener
 -
 policy
 /
-reporting
-/
 resources
 /
 dispatcher
