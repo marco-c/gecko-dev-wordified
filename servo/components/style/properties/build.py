@@ -259,10 +259,6 @@ outline
 "
     
 "
-page
-"
-    
-"
 padding
 "
     
