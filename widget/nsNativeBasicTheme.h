@@ -2588,6 +2588,14 @@ sRGBColor
 sAccentColorDarker
 ;
 static
+CSSIntCoord
+sHorizontalScrollbarHeight
+;
+static
+CSSIntCoord
+sVerticalScrollbarWidth
+;
+static
 void
 PrefChangedCallback
 (
@@ -2598,7 +2606,7 @@ void
 *
 )
 {
-RecomputeAccentColors
+LookAndFeelChanged
 (
 )
 ;
@@ -2606,6 +2614,12 @@ RecomputeAccentColors
 static
 void
 RecomputeAccentColors
+(
+)
+;
+static
+void
+RecomputeScrollbarSizes
 (
 )
 ;
