@@ -11174,13 +11174,6 @@ WindowGlobalParent
 aWindow
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-IsTop
-(
-)
-)
-;
 if
 (
 IsDiscarded
