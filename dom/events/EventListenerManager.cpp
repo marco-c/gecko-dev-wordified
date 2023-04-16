@@ -6567,7 +6567,6 @@ OwnerDoc
 NodePrincipal
 (
 )
-nullptr
 )
 ;
 RefPtr
