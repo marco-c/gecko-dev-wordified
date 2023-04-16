@@ -317,10 +317,7 @@ RefPtr
 <
 nsMenuX
 >
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 nsMenuItemX
 >
@@ -600,10 +597,7 @@ OnOpen
 void
 AddMenuItem
 (
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 nsMenuItemX
 >
