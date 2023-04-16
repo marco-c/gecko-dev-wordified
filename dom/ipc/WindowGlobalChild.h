@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PWindowGlobalChild
@@ -234,6 +243,8 @@ public
 nsWrapperCache
 public
 PWindowGlobalChild
+public
+SupportsWeakPtr
 {
 friend
 class

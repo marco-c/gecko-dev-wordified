@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Span
 .
 h
@@ -855,7 +864,7 @@ IsInProcess
 const
 {
 return
-mWindowGlobalChild
+mIsInProcess
 ;
 }
 bool
@@ -909,11 +918,7 @@ GetWindowGlobalChild
 (
 )
 const
-{
-return
-mWindowGlobalChild
 ;
-}
 /
 /
 Get
@@ -1887,7 +1892,7 @@ BrowsingContext
 >
 mBrowsingContext
 ;
-RefPtr
+WeakPtr
 <
 WindowGlobalChild
 >
@@ -1949,6 +1954,11 @@ mChildren
 ;
 bool
 mIsDiscarded
+=
+false
+;
+bool
+mIsInProcess
 =
 false
 ;
