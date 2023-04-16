@@ -797,6 +797,7 @@ nsMenuX
 *
 aChild
 )
+override
 ;
 /
 /
@@ -819,6 +820,7 @@ nsMenuX
 *
 aChild
 )
+override
 ;
 protected
 :
