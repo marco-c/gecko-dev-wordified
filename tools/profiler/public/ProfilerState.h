@@ -1038,6 +1038,7 @@ return
 false
 ;
 }
+inline
 bool
 profiler_is_locked_on_current_thread
 (
