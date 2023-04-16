@@ -2990,6 +2990,12 @@ xpcshell
 "
             
 "
+install
+"
+:
+False
+            
+"
 options
 "
 :
@@ -3141,14 +3147,6 @@ plugin
 path
 =
 none
-"
-                
-"
--
--
-threads
-=
-4
 "
                 
 "
