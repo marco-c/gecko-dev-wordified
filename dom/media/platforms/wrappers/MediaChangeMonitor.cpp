@@ -1036,10 +1036,13 @@ mCurrentConfig
 .
 mColorSpace
 =
+Some
+(
 spsdata
 .
 ColorSpace
 (
+)
 )
 ;
 mCurrentConfig
@@ -1609,10 +1612,13 @@ mCurrentConfig
 .
 mColorSpace
 =
+Some
+(
 info
 .
 ColorSpace
 (
+)
 )
 ;
 mCurrentConfig

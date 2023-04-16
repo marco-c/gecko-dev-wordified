@@ -230,7 +230,7 @@ gfx
 ColorDepth
 :
 :
-UNKNOWN
+COLOR_8
 ;
 }
 virtual
@@ -250,7 +250,7 @@ gfx
 YUVColorSpace
 :
 :
-UNKNOWN
+Default
 ;
 }
 struct

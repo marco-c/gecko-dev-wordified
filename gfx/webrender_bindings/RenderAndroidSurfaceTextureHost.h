@@ -346,7 +346,7 @@ gfx
 YUVColorSpace
 :
 :
-UNKNOWN
+Default
 ;
 }
 RenderAndroidSurfaceTextureHost
