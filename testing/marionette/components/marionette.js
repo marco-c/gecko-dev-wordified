@@ -2432,10 +2432,16 @@ enabled
 =
 env
 .
-exists
+get
 (
 ENV_ENABLED
 )
+=
+=
+=
+"
+1
+"
 ;
 Services
 .
