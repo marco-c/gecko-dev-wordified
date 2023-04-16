@@ -2316,12 +2316,6 @@ strings
 msgs
 .
 length
-|
-|
-!
-strings
-.
-listIntro
 ;
 let
 listInfoEl
