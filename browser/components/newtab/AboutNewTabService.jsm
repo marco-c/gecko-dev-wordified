@@ -2770,6 +2770,9 @@ isEnabled
 defaultValue
 :
 true
+sendExposureEvent
+:
+true
 }
 )
 )
