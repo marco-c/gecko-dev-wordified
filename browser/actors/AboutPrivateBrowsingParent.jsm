@@ -471,7 +471,7 @@ this
 sendAsyncMessage
 (
 "
-HideSearch
+DisableSearch
 "
 )
 ;

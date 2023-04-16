@@ -11564,11 +11564,11 @@ it
 "
 should
 set
-hide
+disable
 to
 true
 on
-HIDE_SEARCH
+DISABLE_SEARCH
 "
 (
 )
@@ -11585,7 +11585,7 @@ undefined
 type
 :
 "
-HIDE_SEARCH
+DISABLE_SEARCH
 "
 }
 )
@@ -11596,7 +11596,7 @@ propertyVal
 (
 nextState
 "
-hide
+disable
 "
 true
 )
@@ -11656,7 +11656,7 @@ should
 set
 focus
 and
-hide
+disable
 to
 false
 on
@@ -11699,7 +11699,7 @@ propertyVal
 (
 nextState
 "
-hide
+disable
 "
 false
 )

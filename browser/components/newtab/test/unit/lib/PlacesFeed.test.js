@@ -4372,7 +4372,7 @@ toTarget
 type
 :
 "
-HIDE_SEARCH
+DISABLE_SEARCH
 "
 }
 )
