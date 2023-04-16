@@ -64,9 +64,11 @@ idl_test
 (
 [
 '
-cors
+private
 -
-rfc1918
+network
+-
+access
 '
 ]
 [
