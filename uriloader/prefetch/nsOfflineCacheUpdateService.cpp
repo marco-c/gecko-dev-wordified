@@ -340,9 +340,9 @@ gOfflineCacheUpdateService
 =
 nullptr
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 *
 nsOfflineCacheUpdateService
@@ -352,9 +352,9 @@ mAllowedDomains
 =
 nullptr
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 *
 nsOfflineCacheUpdateService
@@ -372,9 +372,9 @@ mAllowedDomains
 mAllowedDomains
 =
 new
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 (
 )
@@ -4350,7 +4350,7 @@ AllowedDomains
 )
 -
 >
-PutEntry
+Insert
 (
 domain
 )
