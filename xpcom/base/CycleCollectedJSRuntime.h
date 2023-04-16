@@ -237,7 +237,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -2120,7 +2120,7 @@ aZone
 {
 mZonesWaitingForGC
 .
-PutEntry
+Insert
 (
 aZone
 )
@@ -2366,15 +2366,13 @@ InfallibleAllocPolicy
 >
 mPreservedNurseryObjects
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 JS
 :
 :
 Zone
->
+*
 >
 mZonesWaitingForGC
 ;
