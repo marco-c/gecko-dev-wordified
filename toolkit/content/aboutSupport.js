@@ -8333,13 +8333,9 @@ skin
 /
 icons
 /
-connection
+security
 -
-mixed
--
-active
--
-loaded
+broken
 .
 svg
 "

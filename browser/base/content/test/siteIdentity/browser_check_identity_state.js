@@ -3304,13 +3304,9 @@ skin
 /
 icons
 /
-connection
+security
 -
-mixed
--
-passive
--
-loaded
+warning
 .
 svg
 "
