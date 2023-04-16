@@ -4526,7 +4526,9 @@ NON_NATIVE
 |
 JSCLASS_DELAY_METADATA_BUILDER
 |
+(
 Flags
+)
 \
 &
 Name
