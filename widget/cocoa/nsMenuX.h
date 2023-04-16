@@ -332,6 +332,12 @@ nsMenuItemX
 >
 >
 ;
+/
+/
+aParent
+is
+optional
+.
 nsMenuX
 (
 nsMenuObjectX

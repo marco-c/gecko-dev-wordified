@@ -221,13 +221,6 @@ DetachFromGroupOwnerRecursive
 mMenu
 -
 >
-DetachFromParent
-(
-)
-;
-mMenu
--
->
 ClearIconListener
 (
 )
@@ -307,7 +300,7 @@ MakeRefPtr
 nsMenuX
 >
 (
-this
+nullptr
 mMenuGroupOwner
 aElement
 )
