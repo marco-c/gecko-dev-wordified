@@ -3257,9 +3257,6 @@ actions
 idsInUrlbar
 =
 [
-"
-pocket
-"
 ACTION_ID_BOOKMARK
 ]
 ;
@@ -7794,9 +7791,6 @@ builtInIDs
 =
 [
 "
-pocket
-"
-"
 screenshots_mozilla_org
 "
 ]
@@ -7889,8 +7883,6 @@ only
 necessary
 so
 that
-Pocket
-and
 the
 test
 can

@@ -2442,6 +2442,10 @@ openTabWithUrl
 return
 ;
 }
+closePanel
+(
+)
+;
 /
 /
 If
@@ -2951,15 +2955,15 @@ panel
 ;
 }
 var
-photonPageActionPanelFrame
+toolbarPanelFrame
 ;
 function
-setPhotonPageActionPanelFrame
+setToolbarPanelFrame
 (
 frame
 )
 {
-photonPageActionPanelFrame
+toolbarPanelFrame
 =
 frame
 ;
@@ -2970,7 +2974,7 @@ getPanelFrame
 )
 {
 return
-photonPageActionPanelFrame
+toolbarPanelFrame
 ;
 }
 function
@@ -3077,7 +3081,7 @@ functions
 /
 return
 {
-setPhotonPageActionPanelFrame
+setToolbarPanelFrame
 getPanelFrame
 initPrefs
 openTabWithUrl

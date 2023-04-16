@@ -231,6 +231,10 @@ checkElementsShown
 true
 [
 "
+save
+-
+to
+-
 pocket
 -
 button
@@ -350,6 +354,10 @@ context
 savelinktopocket
 "
 "
+save
+-
+to
+-
 pocket
 -
 button

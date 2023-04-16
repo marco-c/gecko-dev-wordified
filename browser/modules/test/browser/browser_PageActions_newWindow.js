@@ -970,9 +970,6 @@ PageActions
 .
 ACTION_ID_BOOKMARK
 "
-pocket
-"
-"
 copyURL
 "
 ]
@@ -1123,9 +1120,6 @@ let
 orderedIDs
 =
 [
-"
-pocket
-"
 "
 copyURL
 "
