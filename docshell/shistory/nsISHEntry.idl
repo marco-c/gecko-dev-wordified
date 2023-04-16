@@ -2326,16 +2326,7 @@ history
 type
 load
 .
-As
-*
-nsIDocShellLoadInfo
-and
-its
-LoadType
-enum
-were
-removed
-this
+This
 is
 the
 *
@@ -2355,6 +2346,7 @@ loadType
 in
 js
 but
+is
 easier
 to
 maintain
