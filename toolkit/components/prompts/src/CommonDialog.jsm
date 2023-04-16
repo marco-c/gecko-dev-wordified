@@ -2241,6 +2241,11 @@ button
 .
 focus
 (
+{
+preventFocusRing
+:
+true
+}
 )
 ;
 }
