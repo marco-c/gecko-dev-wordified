@@ -2809,7 +2809,11 @@ del
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 Pointer
 release
 (
@@ -3702,7 +3706,11 @@ second
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 Pointer
 release
 (

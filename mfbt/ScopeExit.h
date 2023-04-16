@@ -746,7 +746,11 @@ template
 typename
 ExitFunction
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 ScopeExit
 <
 ExitFunction

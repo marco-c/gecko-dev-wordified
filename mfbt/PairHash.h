@@ -220,7 +220,11 @@ U
 typename
 V
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 HashNumber
 HashPair
@@ -267,7 +271,11 @@ U
 typename
 V
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 HashNumber
 HashCompactPair

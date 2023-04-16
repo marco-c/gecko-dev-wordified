@@ -1242,7 +1242,11 @@ take
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 T
 *
 take

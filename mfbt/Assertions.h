@@ -4304,7 +4304,11 @@ expr
 /
 *
 Silence
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 .
 *
 /

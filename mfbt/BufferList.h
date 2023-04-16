@@ -2173,8 +2173,12 @@ increased
 by
 aSize
 .
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 WriteBytes
 (
@@ -2928,7 +2932,11 @@ template
 typename
 AllocPolicy
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 BufferList
 <

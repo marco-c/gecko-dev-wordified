@@ -328,7 +328,11 @@ marked
 with
 /
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 .
 But
 we
