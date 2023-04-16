@@ -1973,7 +1973,8 @@ trackingTable
 this
 .
 PREF_TRACKING_TABLE
-false
+"
+"
 )
 ;
 XPCOMUtils
@@ -1987,7 +1988,8 @@ trackingAnnotationTable
 this
 .
 PREF_TRACKING_ANNOTATION_TABLE
-false
+"
+"
 )
 ;
 XPCOMUtils
@@ -5830,7 +5832,7 @@ rejectTrackingCookies
 this
 .
 PREF_COOKIE_BEHAVIOR
-false
+null
 this
 .
 updateCategoryItem
@@ -8064,8 +8066,10 @@ milestone
 .
 milestones
 "
+"
 [
 ]
+"
 (
 )
 =
@@ -8142,7 +8146,9 @@ shown
 -
 time
 "
+"
 0
+"
 null
 val
 =

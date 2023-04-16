@@ -215,7 +215,8 @@ remote
 .
 separatedMozillaDomains
 "
-false
+"
+"
 false
 val
 =
