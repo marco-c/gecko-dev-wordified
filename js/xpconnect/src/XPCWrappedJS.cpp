@@ -2041,7 +2041,7 @@ and
 we
 can
 let
-outselves
+ourselves
 be
 /
 /
