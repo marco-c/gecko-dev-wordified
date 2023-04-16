@@ -64,13 +64,6 @@ promiseStartupManager
 =
 AddonTestUtils
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 let
 extension
 ;
@@ -163,6 +156,9 @@ SearchTestUtils
 .
 installSearchExtension
 (
+{
+}
+true
 )
 ;
 await

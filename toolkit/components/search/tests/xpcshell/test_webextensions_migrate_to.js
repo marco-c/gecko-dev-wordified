@@ -47,13 +47,6 @@ use
 strict
 "
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 const
 kExtensionID
 =
@@ -65,9 +58,6 @@ mozilla
 .
 org
 "
-;
-let
-extension
 ;
 add_task
 (
@@ -220,8 +210,6 @@ a
 valid
 item
 .
-extension
-=
 await
 SearchTestUtils
 .
@@ -251,9 +239,6 @@ example
 com
 /
 "
-skipWaitForSearchEngine
-:
-true
 }
 )
 ;
@@ -479,13 +464,6 @@ as
 default
 .
 "
-)
-;
-await
-extension
-.
-unload
-(
 )
 ;
 }

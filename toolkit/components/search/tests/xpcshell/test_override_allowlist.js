@@ -71,13 +71,6 @@ Simple
 Engine
 "
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 const
 whitelist
 =

@@ -33,13 +33,6 @@ use
 strict
 "
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 const
 prefix
 =

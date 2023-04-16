@@ -80,13 +80,6 @@ promiseStartupManager
 =
 AddonTestUtils
 ;
-SearchTestUtils
-.
-initXPCShellAddonManager
-(
-this
-)
-;
 async
 function
 getEngineNames
@@ -273,6 +266,7 @@ windows
 1252
 "
 }
+true
 )
 ;
 Assert
@@ -422,6 +416,7 @@ com
 plain
 "
 }
+true
 )
 ;
 let
@@ -497,13 +492,6 @@ User
 uninstalls
 their
 engine
-await
-extension
-.
-awaitStartup
-(
-)
-;
 await
 extension
 .
