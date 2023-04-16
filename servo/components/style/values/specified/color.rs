@@ -1911,8 +1911,6 @@ moz
 appearance
 names
 .
-MozMacVibrancyLight
-MozMacVibrancyDark
 MozMacVibrantTitlebarLight
 MozMacVibrantTitlebarDark
 MozMacMenupopup

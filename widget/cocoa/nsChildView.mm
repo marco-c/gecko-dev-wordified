@@ -10687,9 +10687,6 @@ aThemeGeometryType
 )
 {
 case
-eThemeGeometryTypeVibrancyLight
-:
-case
 eThemeGeometryTypeVibrantTitlebarLight
 :
 return
@@ -10701,9 +10698,6 @@ VibrancyType
 LIGHT
 )
 ;
-case
-eThemeGeometryTypeVibrancyDark
-:
 case
 eThemeGeometryTypeVibrantTitlebarDark
 :
