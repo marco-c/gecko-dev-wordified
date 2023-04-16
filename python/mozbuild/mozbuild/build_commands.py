@@ -170,11 +170,6 @@ strip
 (
 )
 CommandProvider
-(
-metrics_path
-=
-MOZBUILD_METRICS_PATH
-)
 class
 Build
 (
@@ -197,14 +192,17 @@ tree
     
 Command
 (
+        
 "
 build
 "
+        
 category
 =
 "
 build
 "
+        
 description
 =
 "
@@ -213,6 +211,11 @@ the
 tree
 .
 "
+        
+metrics_path
+=
+MOZBUILD_METRICS_PATH
+    
 )
     
 CommandArgument
@@ -1055,6 +1058,10 @@ status
 )
 .
 "
+        
+metrics_path
+=
+MOZBUILD_METRICS_PATH
     
 )
     
