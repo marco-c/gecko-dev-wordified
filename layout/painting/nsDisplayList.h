@@ -495,7 +495,7 @@ h
 #
 include
 "
-nsTHashSet
+nsTHashtable
 .
 h
 "
@@ -10478,10 +10478,12 @@ mFrame
 ;
 }
 ;
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 void
-*
+>
 >
 mFrameSet
 ;
@@ -10529,7 +10531,7 @@ return
 }
 mFrameSet
 .
-Insert
+PutEntry
 (
 aFrame
 )
@@ -11318,10 +11320,12 @@ already
 counted
 in
 budget
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 nsIFrame
-*
+>
 >
 mAGRBudgetSet
 ;

@@ -2119,9 +2119,9 @@ nsAnimationManager
 CSSAnimationCollection
 *
 aCollection
-nsTHashSet
+nsTHashtable
 <
-RefPtr
+nsRefPtrHashKey
 <
 nsAtom
 >
@@ -2250,7 +2250,7 @@ continue
 }
 aReferencedAnimations
 .
-Insert
+PutEntry
 (
 name
 )

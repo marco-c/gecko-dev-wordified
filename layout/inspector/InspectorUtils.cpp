@@ -654,10 +654,12 @@ include
 adopted
 stylesheets
 .
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 StyleSheet
-*
+>
 >
 sheetSet
 ;

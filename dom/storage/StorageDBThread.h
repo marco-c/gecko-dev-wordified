@@ -248,13 +248,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsTHashSet
-.
-h
-"
 class
 mozIStorageConnection
 ;
@@ -2493,9 +2486,9 @@ for
 optimization
 purposes
 only
-nsTHashSet
+nsTHashtable
 <
-nsCString
+nsCStringHashKey
 >
 mOriginsHavingData
 ;

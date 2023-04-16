@@ -2496,6 +2496,16 @@ NotifySelectionListenersAfterRangeSet
 (
 )
 ;
+typedef
+nsTHashtable
+<
+nsPtrHashKey
+<
+nsRange
+>
+>
+RangeHashTable
+;
 protected
 :
 /

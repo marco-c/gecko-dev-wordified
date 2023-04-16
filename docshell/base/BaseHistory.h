@@ -80,13 +80,6 @@ ContentParent
 .
 h
 "
-#
-include
-"
-nsTHashSet
-.
-h
-"
 /
 *
 A
@@ -270,7 +263,7 @@ aMallocSizeOf
 using
 PendingVisitedQueries
 =
-nsTHashSet
+nsTHashtable
 <
 nsURIHashKey
 >

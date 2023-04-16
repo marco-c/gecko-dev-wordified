@@ -1197,9 +1197,9 @@ return
 storageChild
 ;
 }
-nsTHashSet
+nsTHashtable
 <
-nsCString
+nsCStringHashKey
 >
 &
 StorageDBChild
@@ -1219,9 +1219,9 @@ mOriginsHavingData
 =
 MakeUnique
 <
-nsTHashSet
+nsTHashtable
 <
-nsCString
+nsCStringHashKey
 >
 >
 (
@@ -1499,7 +1499,7 @@ object
 .
 mLoadingCaches
 .
-Insert
+PutEntry
 (
 aCache
 )
@@ -1835,7 +1835,7 @@ OriginsHavingData
 (
 )
 .
-Insert
+PutEntry
 (
 aCache
 -
@@ -1912,7 +1912,7 @@ OriginsHavingData
 (
 )
 .
-Insert
+PutEntry
 (
 aCache
 -
@@ -2028,7 +2028,7 @@ OriginsHavingData
 (
 )
 .
-Remove
+RemoveEntry
 (
 aCache
 -
@@ -2256,7 +2256,7 @@ OriginsHavingData
 (
 )
 .
-Insert
+PutEntry
 (
 aOrigins
 [
@@ -2404,7 +2404,7 @@ done
 .
 mLoadingCaches
 .
-Remove
+RemoveEntry
 (
 static_cast
 <

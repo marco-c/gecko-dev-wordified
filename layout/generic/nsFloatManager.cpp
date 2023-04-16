@@ -2589,10 +2589,12 @@ html
 crashes
 .
 )
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 nsIFrame
-*
+>
 >
 frameSet
 (
@@ -2621,7 +2623,7 @@ GetNextSibling
 {
 frameSet
 .
-Insert
+PutEntry
 (
 f
 )

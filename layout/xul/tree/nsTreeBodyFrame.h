@@ -204,13 +204,6 @@ h
 #
 include
 "
-nsTHashSet
-.
-h
-"
-#
-include
-"
 imgIRequest
 .
 h
@@ -3947,7 +3940,7 @@ mCheckingOverflow
 /
 /
 Hash
-set
+table
 to
 keep
 track
@@ -3965,10 +3958,12 @@ pointers
 to
 us
 .
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 nsTreeImageListener
-*
+>
 >
 mCreatedListeners
 ;

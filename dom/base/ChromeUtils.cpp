@@ -6313,7 +6313,7 @@ for
 const
 auto
 &
-browserParentWrapperKey
+browserParentWrapper
 :
 contentParent
 -
@@ -6328,9 +6328,13 @@ for
 const
 auto
 &
-windowGlobalParentWrapperKey
+windowGlobalParentWrapper
 :
-browserParentWrapperKey
+browserParentWrapper
+.
+GetKey
+(
+)
 -
 >
 ManagedPWindowGlobalParent
@@ -6361,7 +6365,11 @@ WindowGlobalParent
 *
 >
 (
-windowGlobalParentWrapperKey
+windowGlobalParentWrapper
+.
+GetKey
+(
+)
 )
 ;
 nsString

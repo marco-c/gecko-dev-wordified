@@ -1052,7 +1052,7 @@ if
 (
 aSetOfFrames
 .
-Contains
+GetEntry
 (
 f
 )
@@ -2692,7 +2692,7 @@ overflowIEnd
 aFramesToHide
 -
 >
-Insert
+PutEntry
 (
 aFrame
 )
@@ -3175,7 +3175,7 @@ else
 aFramesToHide
 -
 >
-Insert
+PutEntry
 (
 aFrame
 )
@@ -3226,7 +3226,7 @@ aFrameType
 aFramesToHide
 -
 >
-Insert
+PutEntry
 (
 aFrame
 )

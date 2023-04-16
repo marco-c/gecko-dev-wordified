@@ -3689,10 +3689,12 @@ OrderRowGroups
 rowGroups
 )
 ;
-nsTHashSet
+nsTHashtable
+<
+nsPtrHashKey
 <
 nsTableRowGroupFrame
-*
+>
 >
 excludeRowGroups
 ;
@@ -3717,7 +3719,7 @@ AtEnd
 {
 excludeRowGroups
 .
-Insert
+PutEntry
 (
 static_cast
 <
@@ -3922,7 +3924,7 @@ if
 !
 excludeRowGroups
 .
-Contains
+GetEntry
 (
 rgFrame
 )

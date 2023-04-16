@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsTHashSet
+nsTHashtable
 .
 h
 "
@@ -500,9 +500,9 @@ GetEnabledDisabledCommandsForControllers
 nsIControllers
 *
 aControllers
-nsTHashSet
+nsTHashtable
 <
-nsCString
+nsCStringHashKey
 >
 &
 aCommandsHandled
@@ -606,9 +606,9 @@ level
 window
 .
 typedef
-nsTHashSet
+nsTHashtable
 <
-RefPtr
+nsRefPtrHashKey
 <
 nsIWeakReference
 >
