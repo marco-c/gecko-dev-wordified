@@ -2269,6 +2269,11 @@ StoreWindowNameToSHEntries
 )
 ;
 void
+MaybeRestoreTabContent
+(
+)
+;
+void
 SetWillChangeProcess
 (
 )

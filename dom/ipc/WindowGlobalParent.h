@@ -1646,6 +1646,17 @@ UseCounters
 aUseCounters
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvRequestRestoreTabContent
+(
+)
+;
 private
 :
 WindowGlobalParent
