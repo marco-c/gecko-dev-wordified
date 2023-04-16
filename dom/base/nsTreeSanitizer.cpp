@@ -9983,7 +9983,7 @@ i
 sElementsHTML
 -
 >
-PutEntry
+Insert
 (
 kElementsHTML
 [
@@ -10023,7 +10023,7 @@ i
 sAttributesHTML
 -
 >
-PutEntry
+Insert
 (
 kAttributesHTML
 [
@@ -10063,7 +10063,7 @@ i
 sPresAttributesHTML
 -
 >
-PutEntry
+Insert
 (
 kPresAttributesHTML
 [
@@ -10103,7 +10103,7 @@ i
 sElementsSVG
 -
 >
-PutEntry
+Insert
 (
 kElementsSVG
 [
@@ -10143,7 +10143,7 @@ i
 sAttributesSVG
 -
 >
-PutEntry
+Insert
 (
 kAttributesSVG
 [
@@ -10183,7 +10183,7 @@ i
 sElementsMathML
 -
 >
-PutEntry
+Insert
 (
 kElementsMathML
 [
@@ -10223,7 +10223,7 @@ i
 sAttributesMathML
 -
 >
-PutEntry
+Insert
 (
 kAttributesMathML
 [

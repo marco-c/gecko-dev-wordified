@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -992,9 +992,9 @@ ThrottledEventQueue
 >
 mIframePostMessageQueue
 ;
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 mIframesUsedPostMessageQueue
 ;
