@@ -360,6 +360,9 @@ Blob
 ChromeUtils
 "
 "
+crypto
+"
+"
 CSS
 "
 "
@@ -411,6 +414,7 @@ atob
 btoa
 Blob
 ChromeUtils
+crypto
 CSS
 CSSRule
 DOMParser
@@ -1401,6 +1405,7 @@ Blob
 btoa
 BrowsingContext
 console
+crypto
 CSS
 CSSRule
 DOMParser

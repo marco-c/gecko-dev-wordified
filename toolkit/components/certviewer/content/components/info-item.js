@@ -64,7 +64,6 @@ normalizeToKebabCase
 from
 "
 .
-.
 /
 utils
 .
