@@ -223,6 +223,15 @@ include
 "
 mozilla
 /
+TelemetryComms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Tokenizer
 .
 h

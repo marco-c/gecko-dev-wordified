@@ -335,7 +335,7 @@ class
 AltSvcMapping
 ;
 class
-TRR
+DNSUtils
 ;
 class
 TRRServiceChannel
@@ -3271,12 +3271,14 @@ MaybeEnableSpeculativeConnect
 We
 only
 allow
-TRR
+DNSUtils
 and
 TRRServiceChannel
 itself
 to
 create
+/
+/
 TRRServiceChannel
 .
 friend
@@ -3285,7 +3287,7 @@ TRRServiceChannel
 ;
 friend
 class
-TRR
+DNSUtils
 ;
 nsresult
 CreateTRRServiceChannel

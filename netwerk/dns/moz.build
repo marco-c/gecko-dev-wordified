@@ -373,6 +373,11 @@ DNSResolverInfo
 cpp
 "
 "
+DNSUtils
+.
+cpp
+"
+"
 HTTPSSVC
 .
 cpp
