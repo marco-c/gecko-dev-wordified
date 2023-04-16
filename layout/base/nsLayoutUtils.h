@@ -559,6 +559,12 @@ uint8_t
 ;
 enum
 class
+StyleSystemFont
+:
+uint8_t
+;
+enum
+class
 StyleScrollbarWidth
 :
 uint8_t
@@ -20984,10 +20990,7 @@ aSystemFont
 mozilla
 :
 :
-LookAndFeel
-:
-:
-FontID
+StyleSystemFont
 aFontID
 const
 nsFont
