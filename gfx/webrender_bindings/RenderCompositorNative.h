@@ -317,6 +317,16 @@ GetMaxUpdateRects
 )
 override
 ;
+bool
+SurfaceOriginIsTopLeft
+(
+)
+override
+{
+return
+true
+;
+}
 /
 /
 Does
