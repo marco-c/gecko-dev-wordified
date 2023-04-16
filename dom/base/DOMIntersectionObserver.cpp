@@ -2363,7 +2363,7 @@ containerFrame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 target
 )
@@ -2652,7 +2652,7 @@ containerFrame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 containerFrame
 )
