@@ -1507,6 +1507,8 @@ bool
 aParserCreatedScript
 bool
 aHasStoragePermission
+bool
+aIsMetaRefresh
 uint32_t
 aRequestBlockingReason
 nsINode
@@ -2117,6 +2119,11 @@ false
 ;
 bool
 mHasStoragePermission
+=
+false
+;
+bool
+mIsMetaRefresh
 =
 false
 ;

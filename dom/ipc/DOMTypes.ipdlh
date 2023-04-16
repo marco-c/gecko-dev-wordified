@@ -1433,6 +1433,9 @@ LoadingSessionHistoryInfo
 ?
 loadingSessionHistoryInfo
 ;
+bool
+IsMetaRefresh
+;
 }
 ;
 struct
