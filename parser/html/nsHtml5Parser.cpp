@@ -577,6 +577,8 @@ Encoding
 aEncoding
 int32_t
 aCharsetSource
+bool
+aChannelHadCharset
 )
 {
 MOZ_ASSERT
@@ -625,6 +627,7 @@ SetDocumentCharset
 (
 aEncoding
 aCharsetSource
+aChannelHadCharset
 )
 ;
 mExecutor

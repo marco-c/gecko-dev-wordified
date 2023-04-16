@@ -711,6 +711,15 @@ of
 the
 chares
 *
+param
+aChannelHadCharset
+-
+whether
+the
+channel
+had
+charset
+*
 return
 nada
 *
@@ -728,6 +737,10 @@ Encoding
 aCharset
 int32_t
 aSource
+bool
+aChannelHadCharset
+=
+false
 )
 =
 0

@@ -826,6 +826,11 @@ of
 the
 charset
 *
+param
+aChannelHadCharset
+-
+ignored
+*
 return
 nada
 *
@@ -843,6 +848,8 @@ Encoding
 aCharset
 int32_t
 aSource
+bool
+aChannelHadCharset
 )
 override
 ;

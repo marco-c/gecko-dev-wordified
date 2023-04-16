@@ -1812,6 +1812,8 @@ Encoding
 aCharset
 int32_t
 aCharsetSource
+bool
+aChannelHadCharset
 )
 {
 mCharset
@@ -8545,6 +8547,7 @@ SetDocumentCharset
 (
 preferred
 source
+false
 )
 ;
 pws
