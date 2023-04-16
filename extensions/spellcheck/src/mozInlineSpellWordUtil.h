@@ -1453,6 +1453,7 @@ aHint
 bool
 aSearchForward
 )
+const
 ;
 /
 /

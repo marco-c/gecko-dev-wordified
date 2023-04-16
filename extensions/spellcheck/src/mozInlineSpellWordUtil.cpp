@@ -7276,6 +7276,7 @@ aHint
 bool
 aSearchForward
 )
+const
 {
 NS_ASSERTION
 (
