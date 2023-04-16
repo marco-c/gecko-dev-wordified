@@ -5,7 +5,8 @@ META
 global
 =
 window
-worker
+dedicatedworker
+sharedworker
 for
 (
 const
