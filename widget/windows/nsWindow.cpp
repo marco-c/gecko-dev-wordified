@@ -11540,7 +11540,7 @@ mWnd
 WM_CHANGEUISTATE
 MAKEWPARAM
 (
-UIS_INITIALIZE
+UIS_SET
 UISF_HIDEFOCUS
 |
 UISF_HIDEACCEL
@@ -12182,7 +12182,7 @@ eWindowType_dialog
 {
 /
 /
-when
+When
 a
 toplevel
 window
@@ -12202,7 +12202,7 @@ mWnd
 WM_CHANGEUISTATE
 MAKEWPARAM
 (
-UIS_INITIALIZE
+UIS_SET
 UISF_HIDEFOCUS
 |
 UISF_HIDEACCEL
@@ -43849,6 +43849,7 @@ flags
 &
 UISF_HIDEFOCUS
 )
+{
 showFocusRings
 =
 (
@@ -43862,6 +43863,7 @@ UIStateChangeType_Clear
 :
 UIStateChangeType_Set
 ;
+}
 NotifyUIStateChanged
 (
 showFocusRings
