@@ -673,6 +673,11 @@ forget
 (
 )
 aDocGroup
+-
+>
+GetPerformanceCounter
+(
+)
 )
 ;
 return
