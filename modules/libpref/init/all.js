@@ -8034,16 +8034,6 @@ usetexttospeech
 "
 )
 ;
-pref
-(
-"
-accessibility
-.
-mouse_focuses_formcontrol
-"
-true
-)
-;
 /
 /
 Type
