@@ -2692,8 +2692,7 @@ the
 "
 Saved
 to
-Library
-!
+bookmarks
 "
 hint
 in
@@ -2902,7 +2901,7 @@ show
 (
 anchor
 "
-pageBookmarked
+pageBookmarked2
 "
 )
 ;
