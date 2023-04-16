@@ -36518,6 +36518,12 @@ ja
 Osaka
 -
 Mono
+Hiragino
+Kaku
+Gothic
+ProN
+Hiragino
+Sans
 "
 )
 ;
