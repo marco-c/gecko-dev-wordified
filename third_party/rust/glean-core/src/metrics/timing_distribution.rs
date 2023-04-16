@@ -350,6 +350,15 @@ start_time
 /
 /
 /
+Multiple
+timers
+can
+run
+simultaneously
+.
+/
+/
+/
 /
 /
 /
@@ -2166,7 +2175,7 @@ DistributionData
 match
 StorageManager
 .
-snapshot_metric
+snapshot_metric_for_test
 (
 glean
 .

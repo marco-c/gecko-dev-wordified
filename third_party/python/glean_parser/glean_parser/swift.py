@@ -1113,7 +1113,7 @@ extra_args
 =
 util
 .
-extra_metric_args
+metric_args
                 
 namespace
 =
