@@ -4034,6 +4034,8 @@ close
 await
 ui
 .
+commands
+.
 client
 .
 once
