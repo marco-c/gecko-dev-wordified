@@ -8968,11 +8968,6 @@ return
 args
 ;
 }
-if
-(
-IS_CONTENT
-)
-{
 args
 .
 promptPrincipal
@@ -8988,6 +8983,11 @@ document
 .
 nodePrincipal
 ;
+if
+(
+IS_CONTENT
+)
+{
 let
 docShell
 =
