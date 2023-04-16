@@ -391,6 +391,7 @@ SurfaceDescriptor
 aOutDescriptor
 )
 {
+return
 mSurface
 -
 >
@@ -398,9 +399,6 @@ Serialize
 (
 aOutDescriptor
 )
-;
-return
-true
 ;
 }
 void
