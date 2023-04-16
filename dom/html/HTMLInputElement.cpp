@@ -32064,6 +32064,10 @@ MapImageSizeAttributesInto
 (
 aAttributes
 aDecls
+MapAspectRatio
+:
+:
+Yes
 )
 ;
 /
