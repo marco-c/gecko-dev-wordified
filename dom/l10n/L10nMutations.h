@@ -137,7 +137,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -371,9 +371,9 @@ lookups
 into
 mPendingElements
 .
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 Element
 >
