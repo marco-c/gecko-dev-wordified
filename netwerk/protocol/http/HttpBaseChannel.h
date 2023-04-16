@@ -5216,6 +5216,9 @@ bool
 mCachedOpaqueResponseBlockingPref
 ;
 bool
+mBlockOpaqueResponseAfterSniff
+;
+bool
 mCheckIsOpaqueResponseAllowedAfterSniff
 ;
 /
