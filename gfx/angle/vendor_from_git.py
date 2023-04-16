@@ -361,13 +361,16 @@ run_checked
 "
 git
 "
+            
 "
 show
 "
+            
 "
 -
 s
 "
+            
 "
 -
 -
@@ -379,7 +382,9 @@ H
 %
 cd
 "
+            
 merge_base
+            
 stdout
 =
 subprocess
