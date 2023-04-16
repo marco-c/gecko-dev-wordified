@@ -451,7 +451,7 @@ window
 .
 wrappedJSObject
 .
-promiseApzRepaintsFlushed
+promiseOnlyApzControllerFlushed
 (
 content
 .

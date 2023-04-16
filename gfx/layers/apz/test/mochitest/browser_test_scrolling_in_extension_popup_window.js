@@ -160,7 +160,7 @@ simplified
 combined
 version
 of
-promiseApzRepaintsFlushed
+promiseOnlyApzControllerFlushed
 and
 /
 /
