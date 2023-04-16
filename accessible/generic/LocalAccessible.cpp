@@ -2528,7 +2528,7 @@ parentFrame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 curFrame
 )
