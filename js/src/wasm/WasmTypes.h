@@ -17242,6 +17242,7 @@ TypeDef
 &
 td
 )
+noexcept
 :
 kind_
 (
@@ -17418,6 +17419,7 @@ TypeDef
 &
 that
 )
+noexcept
 {
 MOZ_ASSERT
 (
@@ -18687,8 +18689,9 @@ public
 TypeCache
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Mark
