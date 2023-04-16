@@ -1496,6 +1496,9 @@ Set
 bookmarkmenu
 "
 "
+handoff
+"
+"
 keywordoffer
 "
 "

@@ -1456,7 +1456,7 @@ aliasEngine
 searchModeEntry
 :
 "
-topsites_urlbar
+handoff
 "
 }
 )
@@ -1496,7 +1496,7 @@ name
 entry
 :
 "
-topsites_urlbar
+handoff
 "
 }
 )
