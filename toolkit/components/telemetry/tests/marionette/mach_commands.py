@@ -244,7 +244,7 @@ v
 in
 kwargs
 .
-iteritems
+items
 (
 )
 :
