@@ -338,10 +338,7 @@ nscolor
 mColorGrayText
 ;
 nscolor
-mColorInactiveBorder
-;
-nscolor
-mColorInactiveCaption
+mColorControlBackground
 ;
 nscolor
 mColorScrollbar
