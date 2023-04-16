@@ -370,6 +370,11 @@ NullHttpTransaction
 h
 "
 "
+OpaqueResponseUtils
+.
+h
+"
+"
 ParentChannelListener
 .
 h
@@ -729,6 +734,11 @@ cpp
 "
 "
 NullHttpTransaction
+.
+cpp
+"
+"
+OpaqueResponseUtils
 .
 cpp
 "
