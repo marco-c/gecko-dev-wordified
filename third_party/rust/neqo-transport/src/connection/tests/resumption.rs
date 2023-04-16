@@ -350,7 +350,7 @@ assert_eq
 (
 client
 .
-paths
+loss_recovery
 .
 rtt
 (
@@ -405,7 +405,7 @@ assert_eq
 (
 client
 .
-paths
+loss_recovery
 .
 rtt
 (
@@ -437,7 +437,7 @@ assert_eq
 (
 client
 .
-paths
+loss_recovery
 .
 rtt
 (
@@ -1014,7 +1014,7 @@ now
 *
 client
 .
-pto
+get_pto
 (
 )
 ;
@@ -1085,7 +1085,7 @@ now
 *
 client
 .
-pto
+get_pto
 (
 )
 ;
@@ -1157,7 +1157,7 @@ now
 *
 client
 .
-pto
+get_pto
 (
 )
 ;

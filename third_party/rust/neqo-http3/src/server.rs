@@ -1787,7 +1787,6 @@ connected
 |
 e
 |
-{
 matches
 !
 (
@@ -1807,7 +1806,6 @@ Connected
 .
 }
 )
-}
 ;
 assert
 !

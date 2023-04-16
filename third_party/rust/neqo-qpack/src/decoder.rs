@@ -1857,9 +1857,7 @@ May
 return
 WrongStreamCount
 if
-HTTP
-/
-3
+Http3
 has
 received
 multiple
