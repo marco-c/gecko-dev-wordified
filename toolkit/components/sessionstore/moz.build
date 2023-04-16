@@ -154,6 +154,16 @@ SessionStoreFunctions
 idl
 "
 ]
+IPDL_SOURCES
++
+=
+[
+"
+SessionStoreTypes
+.
+ipdlh
+"
+]
 include
 (
 "
