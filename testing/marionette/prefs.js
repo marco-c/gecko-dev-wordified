@@ -69,6 +69,9 @@ EXPORTED_SYMBOLS
 Branch
 "
 "
+EnvironmentPrefs
+"
+"
 MarionettePrefs
 "
 ]
