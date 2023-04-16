@@ -1417,7 +1417,6 @@ AboutWelcomeDefaults
 .
 getDefaults
 (
-featureConfig
 )
 ;
 /
