@@ -227,15 +227,8 @@ mMenuGroupOwner
 new
 nsMenuGroupOwnerX
 (
-nullptr
-)
-;
-mMenuGroupOwner
--
->
-Create
-(
 aElement
+nullptr
 )
 ;
 mMenu
