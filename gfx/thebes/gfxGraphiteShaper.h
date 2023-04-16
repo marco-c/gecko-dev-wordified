@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 ThebesRLBoxTypes
 .
 h
@@ -457,9 +464,9 @@ aLang
 )
 ;
 static
-nsTHashtable
+nsTHashSet
 <
-nsUint32HashKey
+uint32_t
 >
 *
 sLanguageTags

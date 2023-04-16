@@ -119,6 +119,13 @@ gfxPlatformFontList
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 namespace
 mozilla
 {
@@ -758,9 +765,9 @@ UnscaledFontFreeType
 >
 mUnscaledFont
 ;
-nsTHashtable
+nsTHashSet
 <
-nsUint32HashKey
+uint32_t
 >
 mAvailableTables
 ;
@@ -1316,9 +1323,9 @@ nullptr
 )
 override
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mSkipSpaceLookupCheckFamilies
 ;

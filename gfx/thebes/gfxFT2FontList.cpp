@@ -3585,7 +3585,7 @@ Count
 return
 mAvailableTables
 .
-GetEntry
+Contains
 (
 aTableTag
 )
@@ -3743,7 +3743,7 @@ count
 {
 mAvailableTables
 .
-PutEntry
+Insert
 (
 tags
 [
@@ -3807,7 +3807,7 @@ here
 .
 mAvailableTables
 .
-PutEntry
+Insert
 (
 uint32_t
 (
@@ -3820,7 +3820,7 @@ uint32_t
 return
 mAvailableTables
 .
-GetEntry
+Contains
 (
 aTableTag
 )
@@ -11378,9 +11378,9 @@ static
 void
 LoadSkipSpaceLookupCheck
 (
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 &
 aSkipSpaceLookupCheck
@@ -11443,7 +11443,7 @@ i
 ;
 aSkipSpaceLookupCheck
 .
-PutEntry
+Insert
 (
 skiplist
 [

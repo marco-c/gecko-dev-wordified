@@ -216,6 +216,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 nsTextFrameUtils
 .
 h
@@ -6630,9 +6637,9 @@ or
 not
 )
 .
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 mFamilyNames
 ;
