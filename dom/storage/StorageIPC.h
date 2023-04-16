@@ -283,7 +283,7 @@ h
 #
 include
 "
-nsClassHashtable
+nsTHashSet
 .
 h
 "
@@ -997,9 +997,9 @@ aRv
 )
 override
 ;
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 &
 OriginsHavingData
@@ -1035,9 +1035,9 @@ purposes
 only
 UniquePtr
 <
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 >
 mOriginsHavingData
@@ -1069,9 +1069,9 @@ of
 the
 preload
 .
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 LocalStorageCacheBridge
 >
