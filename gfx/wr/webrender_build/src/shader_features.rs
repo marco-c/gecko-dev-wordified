@@ -558,6 +558,9 @@ in
 "
 cs_radial_gradient
 "
+"
+cs_conic_gradient
+"
 ]
 {
 let
