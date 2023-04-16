@@ -452,14 +452,7 @@ subframe
 )
 ;
 await
-new
-Promise
-(
-resolve
-=
->
-{
-synthesizeNativeWheelAndWaitForScrollEvent
+promiseNativeWheelAndWaitForScrollEvent
 (
 subframe
 100
@@ -467,10 +460,6 @@ subframe
 0
 -
 10
-resolve
-)
-;
-}
 )
 ;
 is
