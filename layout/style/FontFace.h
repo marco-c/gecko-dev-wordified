@@ -318,6 +318,12 @@ StyleFontDisplay
 aFontDisplay
 RangeFlags
 aRangeFlags
+float
+aAscentOverride
+float
+aDescentOverride
+float
+aLineGapOverride
 )
 :
 gfxUserFontEntry
@@ -333,6 +339,9 @@ aLanguageOverride
 aUnicodeRanges
 aFontDisplay
 aRangeFlags
+aAscentOverride
+aDescentOverride
+aLineGapOverride
 )
 {
 }
