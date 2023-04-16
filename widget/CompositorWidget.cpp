@@ -531,6 +531,14 @@ GetTransparencyMode
 !
 =
 eTransparencyOpaque
+|
+|
+widget
+-
+>
+WidgetPaintsBackground
+(
+)
 )
 {
 return
