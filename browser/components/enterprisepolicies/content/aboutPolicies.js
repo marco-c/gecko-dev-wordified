@@ -1884,6 +1884,11 @@ Permissions
 "
 Permissions2
 "
+BackgroundAppUpdate
+:
+"
+BackgroundAppUpdate2
+"
 }
 ;
 for
