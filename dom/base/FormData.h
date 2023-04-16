@@ -236,6 +236,9 @@ FormDataTuple
 nsString
 name
 ;
+bool
+wasNullBlob
+;
 OwningBlobOrDirectoryOrUSVString
 value
 ;
@@ -289,6 +292,10 @@ const
 nsAString
 &
 aValue
+bool
+aWasNullBlob
+=
+false
 )
 ;
 void
@@ -646,7 +653,7 @@ NS_OK
 }
 virtual
 nsresult
-AddNameBlobPair
+AddNameBlobOrNullPair
 (
 const
 nsAString
