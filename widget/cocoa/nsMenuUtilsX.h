@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsMenuBaseX
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h

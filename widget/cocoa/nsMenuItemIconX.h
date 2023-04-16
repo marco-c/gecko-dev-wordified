@@ -144,7 +144,7 @@ class
 imgRequestProxy
 ;
 class
-nsMenuObjectX
+nsMenuParentX
 ;
 #
 import
@@ -216,7 +216,7 @@ has
 loaded
 /
 /
-nsMenuObjectX
+nsMenuParentX
 :
 :
 IconUpdated

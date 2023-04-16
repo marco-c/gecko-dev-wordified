@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsMenuBaseX
-.
-h
-"
-#
-include
-"
 nsIMutationObserver
 .
 h
