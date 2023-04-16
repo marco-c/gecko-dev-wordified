@@ -173,7 +173,10 @@ ffi
 typedef
 MozPromise
 <
-RawId
+ipc
+:
+:
+ByteBuf
 Maybe
 <
 ipc
@@ -183,7 +186,7 @@ ResponseRejectReason
 >
 true
 >
-RawIdPromise
+AdapterPromise
 ;
 ffi
 :
@@ -245,7 +248,7 @@ mIPCOpen
 }
 RefPtr
 <
-RawIdPromise
+AdapterPromise
 >
 InstanceRequestAdapter
 (

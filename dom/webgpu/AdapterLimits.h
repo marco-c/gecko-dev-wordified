@@ -263,8 +263,6 @@ MaxVertexBufferArrayStride
 )
 const
 ;
-private
-:
 AdapterLimits
 (
 Adapter
@@ -280,6 +278,8 @@ WGPULimits
 aLimits
 )
 ;
+private
+:
 ~
 AdapterLimits
 (
