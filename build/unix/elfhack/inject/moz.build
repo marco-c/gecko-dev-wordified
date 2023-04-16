@@ -265,6 +265,14 @@ isystem
 "
 )
 )
+or
+flag
+=
+=
+"
+-
+fPIC
+"
 :
 flags
 .
