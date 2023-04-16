@@ -242,6 +242,12 @@ mozilla
 StaticXREAppData
 &
 aAppData
+bool
+xpcshell
+const
+char
+*
+outFilePath
 )
 ;
 #
@@ -729,6 +735,12 @@ const
 StaticXREAppData
 &
 aAppData
+bool
+xpcshell
+const
+char
+*
+outFilePath
 )
 =
 0
