@@ -138,6 +138,13 @@ h
 "
 #
 include
+"
+nsTHashSet
+.
+h
+"
+#
+include
 <
 utility
 >
@@ -966,7 +973,7 @@ visible
 ;
 mTextHash
 .
-PutEntry
+Insert
 (
 aTextNode
 )
@@ -2118,7 +2125,7 @@ changes
 .
 *
 /
-nsTHashtable
+nsTHashSet
 <
 nsCOMPtrHashKey
 <

@@ -124,6 +124,13 @@ DocAccessible
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 namespace
 mozilla
 {
@@ -215,9 +222,10 @@ override
 ;
 private
 :
-nsTHashtable
+nsTHashSet
 <
-nsVoidPtrHashKey
+void
+*
 >
 mNewLiveRegions
 ;

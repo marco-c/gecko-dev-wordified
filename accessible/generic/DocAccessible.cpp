@@ -356,6 +356,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -14422,7 +14429,7 @@ nsIContent
 *
 mNodes
 ;
-nsTHashtable
+nsTHashSet
 <
 nsPtrHashKey
 <
