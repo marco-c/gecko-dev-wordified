@@ -7359,6 +7359,14 @@ index
 =
 UINT32_MAX
 ;
+/
+/
+Initialize
+this
+to
+appease
+Valgrind
+.
 if
 (
 !
