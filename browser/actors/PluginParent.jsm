@@ -4227,7 +4227,7 @@ global
 /
 skin
 /
-icons
+plugins
 /
 plugin
 .
