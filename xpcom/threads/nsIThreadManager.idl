@@ -877,6 +877,8 @@ loop
 terminates
 when
 the
+quit
+application
 shutting
 down
 starts
@@ -903,7 +905,7 @@ SpinEventLoopUntil
 *
 /
 void
-spinEventLoopUntilOrShutdown
+spinEventLoopUntilOrQuit
 (
 in
 ACString

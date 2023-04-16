@@ -8586,7 +8586,7 @@ Services
 .
 tm
 .
-spinEventLoopUntilOrShutdown
+spinEventLoopUntilOrQuit
 (
 "
 prompts

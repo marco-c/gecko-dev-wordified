@@ -4761,7 +4761,7 @@ Services
 .
 tm
 .
-spinEventLoopUntilOrShutdown
+spinEventLoopUntilOrQuit
 (
 "
 LoginManagerAuthPrompter

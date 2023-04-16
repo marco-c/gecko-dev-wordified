@@ -154,6 +154,12 @@ IsShuttingDown
 (
 )
 ;
+static
+ShutdownPhase
+GetCurrentShutdownPhase
+(
+)
+;
 /
 *
 *
