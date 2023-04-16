@@ -865,6 +865,7 @@ call
 foreign
 catch
 exn
+catch_all
 end
 )
 )
