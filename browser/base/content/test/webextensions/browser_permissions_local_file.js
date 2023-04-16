@@ -138,14 +138,9 @@ install
 .
 .
 await
-BrowserTestUtils
-.
-waitForEvent
+waitAboutAddonsViewLoaded
 (
 document
-"
-ViewChanged
-"
 )
 ;
 let

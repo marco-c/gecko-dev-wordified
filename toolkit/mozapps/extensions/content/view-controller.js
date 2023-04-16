@@ -1434,7 +1434,9 @@ new
 CustomEvent
 (
 "
-ViewChanged
+view
+-
+loaded
 "
 )
 )
