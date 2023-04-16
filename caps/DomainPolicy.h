@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -211,7 +211,7 @@ DomainSet
 )
 {
 }
-nsTHashtable
+nsTHashSet
 <
 nsURIHashKey
 >
