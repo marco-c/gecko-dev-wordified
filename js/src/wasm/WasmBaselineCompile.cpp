@@ -67507,6 +67507,8 @@ results
 ;
 NothingVector
 unused_thenValues
+{
+}
 ;
 if
 (
@@ -68099,6 +68101,8 @@ type
 ;
 NothingVector
 unused_values
+{
+}
 ;
 if
 (
@@ -68362,6 +68366,8 @@ type
 ;
 NothingVector
 unused_values
+{
+}
 ;
 if
 (
@@ -68498,6 +68504,8 @@ type
 ;
 NothingVector
 unused_values
+{
+}
 ;
 Nothing
 unused_condition
@@ -68611,6 +68619,8 @@ type
 ;
 NothingVector
 unused_values
+{
+}
 ;
 Nothing
 unused_condition
@@ -68773,6 +68783,8 @@ branchParams
 ;
 NothingVector
 unused_values
+{
+}
 ;
 Nothing
 unused_index
@@ -69715,6 +69727,8 @@ resultType
 ;
 NothingVector
 unused_tryValues
+{
+}
 ;
 if
 (
@@ -71127,6 +71141,8 @@ exnIndex
 ;
 NothingVector
 unused_argValues
+{
+}
 ;
 if
 (
@@ -71895,6 +71911,8 @@ emitReturn
 {
 NothingVector
 unused_values
+{
+}
 ;
 if
 (
@@ -73076,6 +73094,8 @@ funcIndex
 ;
 NothingVector
 args_
+{
+}
 ;
 if
 (
@@ -73348,6 +73368,8 @@ callee_
 ;
 NothingVector
 args_
+{
+}
 ;
 if
 (
@@ -80489,6 +80511,8 @@ addr
 ;
 Nothing
 unused
+{
+}
 ;
 if
 (
@@ -86426,6 +86450,8 @@ rtt
 ;
 NothingVector
 args
+{
+}
 ;
 if
 (
@@ -89439,9 +89465,13 @@ relativeDepth
 ;
 Nothing
 unused
+{
+}
 ;
 NothingVector
 unused_values
+{
+}
 ;
 uint32_t
 rttTypeIndex

@@ -2962,6 +2962,8 @@ nothing
 ;
 NothingVector
 nothings
+{
+}
 ;
 ResultType
 unusedType
@@ -3086,6 +3088,8 @@ unusedIndex
 ;
 NothingVector
 unusedArgs
+{
+}
 ;
 CHECK
 (
@@ -3117,6 +3121,8 @@ unusedIndex2
 ;
 NothingVector
 unusedArgs
+{
+}
 ;
 CHECK
 (
@@ -6168,6 +6174,8 @@ unusedUint
 ;
 NothingVector
 unusedArgs
+{
+}
 ;
 CHECK
 (
