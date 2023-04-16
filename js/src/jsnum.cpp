@@ -5329,7 +5329,7 @@ si
 str
 -
 >
-maybeInitializeIndexValue
+maybeInitializeIndex
 (
 si
 )
@@ -10562,7 +10562,7 @@ i
 s
 -
 >
-maybeInitializeIndexValue
+maybeInitializeIndex
 (
 i
 )

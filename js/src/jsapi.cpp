@@ -32395,6 +32395,9 @@ false
 #
 ifdef
 DEBUG
+uint32_t
+dummy
+;
 MOZ_ASSERT
 (
 !
@@ -32403,6 +32406,8 @@ atom
 >
 isIndex
 (
+&
+dummy
 )
 "
 API
