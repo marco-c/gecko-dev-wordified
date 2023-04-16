@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -322,12 +322,10 @@ ServiceWorkerManagerService
 (
 )
 ;
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 ServiceWorkerManagerParent
->
+*
 >
 mAgents
 ;
