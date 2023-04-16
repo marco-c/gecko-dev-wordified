@@ -1578,6 +1578,9 @@ GdkIsX11Display
 (
 gdkDisplay
 )
+&
+&
+aWindow
 )
 {
 auto
