@@ -3231,6 +3231,7 @@ nsRect
 aDirtyRect
 *
 /
+DrawOverflow
 )
 {
 DrawTarget

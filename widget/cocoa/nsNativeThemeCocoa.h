@@ -1652,6 +1652,7 @@ const
 nsRect
 &
 aDirtyRect
+DrawOverflow
 )
 override
 ;

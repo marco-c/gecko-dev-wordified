@@ -9156,6 +9156,7 @@ const
 nsRect
 &
 aDirtyRect
+DrawOverflow
 )
 {
 if

@@ -963,6 +963,7 @@ const
 nsRect
 &
 aDirtyRect
+DrawOverflow
 )
 override
 ;
@@ -1113,7 +1114,7 @@ StyleAppearance
 const
 nsRect
 &
-aRect
+DrawOverflow
 )
 ;
 [
