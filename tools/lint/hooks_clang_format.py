@@ -129,6 +129,14 @@ mozbase
 /
 mozfile
 "
+    
+"
+third_party
+/
+python
+/
+jsmin
+"
 )
 sys
 .
