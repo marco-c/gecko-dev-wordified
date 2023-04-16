@@ -10695,7 +10695,7 @@ Some
 VibrancyType
 :
 :
-LIGHT
+TITLEBAR_LIGHT
 )
 ;
 case
@@ -10707,7 +10707,7 @@ Some
 VibrancyType
 :
 :
-DARK
+TITLEBAR_DARK
 )
 ;
 case
@@ -11034,7 +11034,7 @@ aThemeGeometries
 )
 {
 LayoutDeviceIntRegion
-vibrantLightRegion
+vibrantTitlebarLightRegion
 =
 GatherVibrantRegion
 (
@@ -11042,11 +11042,11 @@ aThemeGeometries
 VibrancyType
 :
 :
-LIGHT
+TITLEBAR_LIGHT
 )
 ;
 LayoutDeviceIntRegion
-vibrantDarkRegion
+vibrantTitlebarDarkRegion
 =
 GatherVibrantRegion
 (
@@ -11054,7 +11054,7 @@ aThemeGeometries
 VibrancyType
 :
 :
-DARK
+TITLEBAR_DARK
 )
 ;
 LayoutDeviceIntRegion
@@ -11131,8 +11131,8 @@ ACTIVE_SOURCE_LIST_SELECTION
 ;
 MakeRegionsNonOverlapping
 (
-vibrantLightRegion
-vibrantDarkRegion
+vibrantTitlebarLightRegion
+vibrantTitlebarDarkRegion
 menuRegion
 tooltipRegion
 highlightedMenuItemRegion
@@ -11164,8 +11164,8 @@ UpdateVibrantRegion
 VibrancyType
 :
 :
-LIGHT
-vibrantLightRegion
+TITLEBAR_LIGHT
+vibrantTitlebarLightRegion
 )
 ;
 changed
@@ -11178,8 +11178,8 @@ UpdateVibrantRegion
 VibrancyType
 :
 :
-DARK
-vibrantDarkRegion
+TITLEBAR_DARK
+vibrantTitlebarDarkRegion
 )
 ;
 changed
