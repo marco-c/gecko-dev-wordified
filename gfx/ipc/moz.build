@@ -447,6 +447,17 @@ CONFIG
 TK_CFLAGS
 "
 ]
+CXXFLAGS
++
+=
+[
+"
+-
+Werror
+=
+switch
+"
+]
 LOCAL_INCLUDES
 +
 =
