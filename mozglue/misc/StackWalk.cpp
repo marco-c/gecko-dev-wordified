@@ -6022,7 +6022,7 @@ mozilla
 #
 endif
 MFBT_API
-void
+int
 MozFormatCodeAddressDetails
 (
 char
@@ -6041,6 +6041,7 @@ MozCodeAddressDetails
 aDetails
 )
 {
+return
 MozFormatCodeAddress
 (
 aBuffer
@@ -6071,7 +6072,7 @@ lineno
 ;
 }
 MFBT_API
-void
+int
 MozFormatCodeAddress
 (
 char
@@ -6152,6 +6153,7 @@ number
 Use
 them
 .
+return
 SprintfBuf
 (
 aBuffer
@@ -6229,6 +6231,7 @@ post
 -
 process
 .
+return
 SprintfBuf
 (
 aBuffer
@@ -6300,6 +6303,7 @@ warning
 sigh
 .
 )
+return
 SprintfBuf
 (
 aBuffer
