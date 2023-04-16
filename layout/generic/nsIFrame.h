@@ -7902,6 +7902,12 @@ GetContentRectRelativeToSelf
 const
 ;
 nsRect
+GetMarginRect
+(
+)
+const
+;
+nsRect
 GetMarginRectRelativeToSelf
 (
 )
