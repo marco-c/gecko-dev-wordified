@@ -171,7 +171,7 @@ threads
 ]
 ;
 const
-activeBrowsingContextID
+activeTabID
 =
 123
 ;
@@ -185,7 +185,7 @@ entries
 interval
 features
 threads
-activeBrowsingContextID
+activeTabID
 )
 ;
 info
@@ -214,7 +214,7 @@ expectedConfiguration
 interval
 threads
 features
-activeBrowsingContextID
+activeTabID
 /
 /
 The
@@ -364,7 +364,7 @@ threads
 ]
 ;
 const
-activeBrowsingContextID
+activeTabID
 =
 111
 ;
@@ -397,7 +397,7 @@ entries
 interval
 features
 threads
-activeBrowsingContextID
+activeTabID
 /
 /
 Also
@@ -439,7 +439,7 @@ expectedConfiguration
 interval
 threads
 features
-activeBrowsingContextID
+activeTabID
 duration
 /
 /

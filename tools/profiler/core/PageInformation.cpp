@@ -304,7 +304,7 @@ aWriter
 DoubleProperty
 (
 "
-browsingContextID
+tabID
 "
 TabID
 (

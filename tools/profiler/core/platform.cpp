@@ -7211,7 +7211,7 @@ aWriter
 DoubleProperty
 (
 "
-activeBrowsingContextID
+activeTabID
 "
 sInstance
 -
@@ -18562,7 +18562,7 @@ IntProperty
 "
 version
 "
-22
+23
 )
 ;
 /
