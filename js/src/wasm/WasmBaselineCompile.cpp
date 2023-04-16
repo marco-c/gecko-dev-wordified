@@ -68552,6 +68552,9 @@ jumps
 to
 it
 .
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
 if
 (
 !
@@ -68564,6 +68567,8 @@ return
 false
 ;
 }
+#
+endif
 iter_
 .
 popEnd

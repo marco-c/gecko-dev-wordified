@@ -4303,9 +4303,6 @@ MaxGlobals
 =
 1000000
 ;
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 static
 const
 unsigned
@@ -4324,8 +4321,6 @@ the
 shared
 limits
 spec
-#
-endif
 static
 const
 unsigned
