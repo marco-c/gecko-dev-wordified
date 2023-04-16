@@ -443,7 +443,7 @@ cx
 const
 TableDesc
 &
-td
+desc
 HandleWasmTableObject
 maybeObject
 UniqueFuncRefArray
@@ -458,7 +458,7 @@ cx
 const
 TableDesc
 &
-td
+desc
 HandleWasmTableObject
 maybeObject
 TableAnyRefVector

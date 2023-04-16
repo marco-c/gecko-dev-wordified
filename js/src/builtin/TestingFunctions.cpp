@@ -6310,13 +6310,13 @@ ReportSimdAnalysis
 const
 char
 *
-v
+data
 )
 {
 strncpy
 (
 lastAnalysisResult
-v
+data
 sizeof
 (
 lastAnalysisResult

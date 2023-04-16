@@ -1674,7 +1674,7 @@ funcExportIndex
 const
 FuncExport
 &
-funcExport
+fe
 const
 Maybe
 <

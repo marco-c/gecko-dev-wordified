@@ -2269,9 +2269,9 @@ bool
 checkIsSubtypeOf
 (
 ValType
-lhs
+actual
 ValType
-rhs
+expected
 )
 ;
 inline
@@ -2912,7 +2912,7 @@ uint32_t
 defaultDepth
 ResultType
 *
-defaultBranchValueType
+defaultBranchType
 ValueVector
 *
 branchValues
@@ -3426,7 +3426,7 @@ readCall
 (
 uint32_t
 *
-calleeIndex
+funcTypeIndex
 ValueVector
 *
 argValues
@@ -3466,7 +3466,7 @@ uint32_t
 numFuncImports
 uint32_t
 *
-funcIndex
+funcTypeIndex
 ValueVector
 *
 argValues
@@ -3525,7 +3525,7 @@ Value
 *
 addr
 ValType
-resultType
+valueType
 uint32_t
 byteSize
 Value
@@ -4262,7 +4262,7 @@ readV128Const
 (
 V128
 *
-f64
+value
 )
 ;
 [
@@ -9479,7 +9479,7 @@ uint32_t
 *
 relativeDepth
 ResultType
-prevType
+prevBranchType
 ResultType
 *
 type
@@ -9544,7 +9544,7 @@ branchTargetType
 ;
 if
 (
-prevType
+prevBranchType
 !
 =
 ResultType
@@ -9554,7 +9554,7 @@ ResultType
 {
 if
 (
-prevType
+prevBranchType
 .
 length
 (

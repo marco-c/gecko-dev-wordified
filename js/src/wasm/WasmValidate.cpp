@@ -1940,7 +1940,7 @@ Decoder
 finishNameSubsection
 (
 uint32_t
-expected
+endOffset
 )
 {
 uint32_t
@@ -1952,7 +1952,7 @@ currentOffset
 ;
 if
 (
-expected
+endOffset
 !
 =
 actual
@@ -1967,7 +1967,7 @@ name
 subsection
 length
 (
-expected
+endOffset
 :
 %
 "
@@ -1981,7 +1981,7 @@ PRIu32
 "
 )
 "
-expected
+endOffset
 actual
 )
 ;

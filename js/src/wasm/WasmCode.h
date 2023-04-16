@@ -1043,7 +1043,7 @@ bool
 initialize
 (
 IsTier2
-compileMode
+isTier2
 const
 CodeTier
 &
@@ -5160,7 +5160,7 @@ Metadata
 metadata
 SharedCode
 *
-code
+out
 )
 ;
 }

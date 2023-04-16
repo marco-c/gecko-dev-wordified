@@ -6514,7 +6514,7 @@ EncodeLocalEntries
 (
 Encoder
 &
-d
+e
 const
 ValTypeVector
 &
@@ -6702,7 +6702,7 @@ uint8_t
 end
 SectionRange
 *
-range
+codeSection
 )
 ;
 /

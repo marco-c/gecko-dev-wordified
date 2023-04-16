@@ -818,7 +818,7 @@ JSContext
 *
 cx
 HandleRttValue
-typeObj
+rtt
 gc
 :
 :
@@ -855,7 +855,7 @@ JSContext
 *
 cx
 HandleRttValue
-typeObj
+rtt
 uint32_t
 length
 gc
@@ -1067,7 +1067,7 @@ JSContext
 *
 cx
 HandleRttValue
-type
+rtt
 size_t
 byteLength
 gc
@@ -1226,7 +1226,7 @@ obj_trace
 (
 JSTracer
 *
-trace
+trc
 JSObject
 *
 object
@@ -1458,7 +1458,7 @@ obj_trace
 (
 JSTracer
 *
-trace
+trc
 JSObject
 *
 object
