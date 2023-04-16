@@ -825,6 +825,16 @@ log_file
 /
 /
 ^
+print
+[
+.
+]
+.
+*
+print_to_filename
+/
+/
+^
 network
 [
 .
