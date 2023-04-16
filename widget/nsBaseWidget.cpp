@@ -9438,6 +9438,14 @@ enableSWWR
 if
 (
 supportsAcceleration
+|
+|
+StaticPrefs
+:
+:
+gfx_webrender_unaccelerated_widget_force
+(
+)
 )
 {
 enableWR
