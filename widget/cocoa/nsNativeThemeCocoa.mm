@@ -8595,7 +8595,7 @@ void
 nsNativeThemeCocoa
 :
 :
-DrawRoundedBezelPushButton
+DrawPushButton
 (
 CGContextRef
 cgContext
@@ -9717,13 +9717,7 @@ ButtonType
 :
 eDefaultPushButton
 :
-case
-ButtonType
-:
-:
-eRoundedBezelPushButton
-:
-DrawRoundedBezelPushButton
+DrawPushButton
 (
 cgContext
 inBoxRect
@@ -16603,7 +16597,7 @@ eventState
 ButtonType
 :
 :
-eRoundedBezelPushButton
+eRegularPushButton
 }
 )
 )
