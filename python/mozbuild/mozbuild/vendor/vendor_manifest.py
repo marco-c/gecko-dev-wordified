@@ -489,7 +489,31 @@ self
 .
 update_moz_build
 (
+            
+self
+.
+manifest
+[
+"
+vendoring
+"
+]
+[
+"
+vendor
+-
+directory
+"
+]
+os
+.
+path
+.
+dirname
+(
 yaml_file
+)
+        
 )
         
 self
@@ -2031,32 +2055,23 @@ def
 update_moz_build
 (
 self
-yaml_file
+vendoring_dir
+moz_yaml_dir
 )
 :
         
-def
-load_file_into_list
-(
-path
-)
+if
+vendoring_dir
+=
+=
+moz_yaml_dir
 :
             
-from
-runpy
-import
-run_path
-            
-return
-run_path
-(
-path
-)
-[
-"
-sources
-"
-]
+vendoring_dir
+=
+moz_yaml_dir
+=
+None
         
 source_suffixes
 =
@@ -2233,6 +2248,8 @@ try
 add_file_to_moz_build_file
 (
 f
+moz_yaml_dir
+vendoring_dir
 )
             
 except
@@ -2290,6 +2307,8 @@ try
 remove_file_from_moz_build_file
 (
 f
+moz_yaml_dir
+vendoring_dir
 )
             
 except
