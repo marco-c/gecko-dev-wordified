@@ -592,12 +592,6 @@ StyleFontDisplay
 aFontDisplay
 RangeFlags
 aRangeFlags
-float
-aAscentOverride
-float
-aDescentOverride
-float
-aLineGapOverride
 )
 override
 ;
