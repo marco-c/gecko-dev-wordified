@@ -26084,8 +26084,9 @@ viewport
 relative
 to
 the
-visual
-viewport
+scrollable
+rect
+origin
 )
 .
 if
