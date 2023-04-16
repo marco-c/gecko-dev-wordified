@@ -6092,6 +6092,10 @@ auto
 entry
 :
 mMap
+.
+Values
+(
+)
 )
 {
 if
@@ -6101,10 +6105,6 @@ Document
 doc
 =
 entry
-.
-GetData
-(
-)
 -
 >
 mDocument
