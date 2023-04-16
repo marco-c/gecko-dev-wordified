@@ -247,16 +247,6 @@ ThemeSupportsScrollbarButtons
 )
 override
 ;
-ScrollbarSizes
-GetScrollbarSizes
-(
-nsPresContext
-*
-StyleScrollbarWidth
-Overlay
-)
-override
-;
 protected
 :
 virtual
