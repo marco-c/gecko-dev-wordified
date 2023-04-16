@@ -119,6 +119,10 @@ pub
 mod
 event
 ;
+pub
+mod
+hrtime
+;
 mod
 incrdecoder
 ;
