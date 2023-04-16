@@ -547,9 +547,7 @@ aCommitHook
 )
 )
 ;
-QM_TRY
-(
-QM_OR_ELSE_WARN
+CACHE_TRY
 (
 ToResult
 (
@@ -558,6 +556,8 @@ LockedDirectoryPaddingFinalizeWrite
 aBaseDir
 )
 )
+.
+orElse
 (
 [
 &
@@ -608,9 +608,9 @@ the
 padding
 file
 to
-/
-/
 be
+/
+/
 restored
 .
 MOZ_ASSERT
@@ -637,10 +637,10 @@ header
 have
 been
 stored
-/
-/
 in
 the
+/
+/
 file
 -
 system
@@ -650,11 +650,11 @@ the
 action
 be
 resolve
-/
-/
 and
 let
 the
+/
+/
 padding
 file
 be
@@ -662,8 +662,6 @@ restored
 in
 the
 next
-/
-/
 action
 .
 return
@@ -672,7 +670,6 @@ Ok
 }
 ;
 }
-)
 )
 )
 ;
