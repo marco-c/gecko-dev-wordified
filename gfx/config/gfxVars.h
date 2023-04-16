@@ -628,6 +628,13 @@ nsCString
 (
 )
 )
+\
+_
+(
+UseDMABuf
+bool
+false
+)
 /
 *
 Add
