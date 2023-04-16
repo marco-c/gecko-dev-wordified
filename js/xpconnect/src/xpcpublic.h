@@ -898,6 +898,14 @@ JSObject
 obj
 )
 ;
+bool
+IsWebExtensionContentScriptSandbox
+(
+JSObject
+*
+obj
+)
+;
 /
 /
 The
