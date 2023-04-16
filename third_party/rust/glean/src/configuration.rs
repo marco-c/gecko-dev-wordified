@@ -65,15 +65,6 @@ net
 :
 PingUploader
 ;
-use
-std
-:
-:
-path
-:
-:
-PathBuf
-;
 /
 /
 /
@@ -172,7 +163,7 @@ in
 pub
 data_path
 :
-PathBuf
+String
 /
 /
 /

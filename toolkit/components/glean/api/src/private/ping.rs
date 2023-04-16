@@ -118,6 +118,7 @@ html
 derive
 (
 Clone
+Debug
 )
 ]
 pub
@@ -436,6 +437,10 @@ Unable
 to
 submit
 ping
+{
+:
+?
+}
 in
 non
 -
@@ -445,6 +450,7 @@ process
 Ignoring
 .
 "
+self
 )
 ;
 /

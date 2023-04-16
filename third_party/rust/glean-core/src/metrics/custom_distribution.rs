@@ -907,7 +907,7 @@ DistributionData
 match
 StorageManager
 .
-snapshot_metric_for_test
+snapshot_metric
 (
 glean
 .
