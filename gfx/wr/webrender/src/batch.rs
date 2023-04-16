@@ -622,7 +622,6 @@ ColorDepth
 YuvColorSpace
 ColorRange
 )
-ConicGradient
 LinearGradient
 Opacity
 }
