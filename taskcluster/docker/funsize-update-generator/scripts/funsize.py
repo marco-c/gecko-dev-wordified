@@ -1284,6 +1284,11 @@ in
 %
 s
 seconds
+:
+sha256
+:
+%
+s
 "
                 
 url
@@ -1295,6 +1300,16 @@ int
 end
 -
 start
+)
+                
+get_hash
+(
+dest
+hash_alg
+=
+"
+sha256
+"
 )
             
 )
