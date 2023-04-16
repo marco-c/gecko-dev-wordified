@@ -7142,6 +7142,14 @@ SameDocumentNavigationState
 aState
 )
 ;
+uint32_t
+GetSameDocumentNavigationFlags
+(
+nsIURI
+*
+aNewURI
+)
+;
 /
 /
 Called
