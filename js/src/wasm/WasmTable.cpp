@@ -2310,6 +2310,7 @@ break
 if
 (
 auto
+*
 object
 =
 maybeObject_
@@ -2343,6 +2344,7 @@ value
 if
 (
 auto
+*
 object
 =
 maybeObject_
