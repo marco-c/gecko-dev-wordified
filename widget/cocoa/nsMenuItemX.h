@@ -322,6 +322,12 @@ return
 eMenuItemObjectType
 ;
 }
+void
+IconUpdated
+(
+)
+override
+;
 /
 /
 nsMenuItemX
