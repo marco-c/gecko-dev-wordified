@@ -28863,6 +28863,10 @@ recording
 panel
 in
 Nightly
+and
+Beta
+/
+DevEdition
 builds
 .
 #
@@ -28870,6 +28874,12 @@ if
 defined
 (
 NIGHTLY_BUILD
+)
+|
+|
+defined
+(
+MOZ_DEV_EDITION
 )
 pref
 (
