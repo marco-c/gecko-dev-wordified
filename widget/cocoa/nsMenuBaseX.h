@@ -213,15 +213,6 @@ MenuObjectType
 =
 0
 ;
-virtual
-void
-*
-NativeData
-(
-)
-=
-0
-;
 /
 *
 *

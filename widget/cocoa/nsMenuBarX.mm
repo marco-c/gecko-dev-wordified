@@ -1466,7 +1466,7 @@ insertItem
 menu
 -
 >
-NativeMenuItem
+NativeNSMenuItem
 (
 )
 atIndex
@@ -1574,7 +1574,7 @@ aIndex
 ]
 -
 >
-NativeMenuItem
+NativeNSMenuItem
 (
 )
 ;
@@ -2532,14 +2532,10 @@ NSMenu
 *
 helpMenu
 =
-(
-NSMenu
-*
-)
 xulHelpMenu
 -
 >
-NativeData
+NativeNSMenu
 (
 )
 ;
