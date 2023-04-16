@@ -145,6 +145,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+ErrorList
+.
+h
+"
 namespace
 mozilla
 {
