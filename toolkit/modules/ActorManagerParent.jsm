@@ -1334,6 +1334,10 @@ jsm
 events
 :
 {
+DOMDocFetchSuccess
+:
+{
+}
 DOMFormBeforeSubmit
 :
 {
