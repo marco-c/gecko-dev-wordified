@@ -599,6 +599,10 @@ open
 }
 )
 ;
+assertNoPendingCreatedNavigationTargetData
+(
+)
+;
 BrowserTestUtils
 .
 removeTab
