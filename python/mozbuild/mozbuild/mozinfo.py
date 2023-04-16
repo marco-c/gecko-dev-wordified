@@ -1059,12 +1059,7 @@ non_native_theme
 "
 ]
 =
-d
-[
-"
-nightly_build
-"
-]
+True
     
 def
 guess_platform
