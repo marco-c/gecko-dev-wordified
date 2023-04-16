@@ -3985,6 +3985,12 @@ return
 ins
 ;
 }
+#
+if
+defined
+(
+JS_CODEGEN_ARM
+)
 MDefinition
 *
 truncateWithTls
@@ -4039,6 +4045,8 @@ return
 ins
 ;
 }
+#
+endif
 MDefinition
 *
 compare
