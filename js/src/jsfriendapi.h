@@ -1105,15 +1105,15 @@ Governed
 *
 by
 the
-JS_GC_POISONING
+JS_GC_ALLOW_EXTRA_POISONING
 #
 ifdef
 as
 well
 as
 the
-JSGC_DISABLE_POISONING
 *
+JSGC_EXTRA_POISONING
 environment
 variable
 .
