@@ -208,11 +208,8 @@ prefers
 reduced
 -
 motion
-Services
-.
-prefs
-.
-setIntPref
+await
+pushPref
 (
 "
 ui
