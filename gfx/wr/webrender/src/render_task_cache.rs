@@ -169,7 +169,10 @@ prim_store
 gradient
 :
 :
+{
 FastLinearGradientCacheKey
+RadialGradientCacheKey
+}
 ;
 use
 crate
@@ -433,6 +436,10 @@ LineDecorationCacheKey
 FastLinearGradient
 (
 FastLinearGradientCacheKey
+)
+RadialGradient
+(
+RadialGradientCacheKey
 )
 }
 #
