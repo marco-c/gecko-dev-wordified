@@ -99,6 +99,7 @@ window_manager
 import
 WindowManagerMixin
 from
+telemetry_harness
 .
 ping_server
 import
