@@ -191,10 +191,6 @@ drag
 "
     
 "
-size
-"
-    
-"
 -
 webkit
 -
