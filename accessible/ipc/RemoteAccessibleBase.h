@@ -1128,6 +1128,8 @@ false
 mGenericTypes
 =
 eDocument
+|
+eHyperText
 ;
 }
 protected
