@@ -607,7 +607,7 @@ Deserialize
 ]
 pub
 struct
-GradientCacheKey
+FastLinearGradientCacheKey
 {
 pub
 orientation
