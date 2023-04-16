@@ -19380,11 +19380,6 @@ PGO_CFLAGS
 "
 "
 (
-DSO_PIC_CFLAGS
-)
-"
-"
-(
 DSO_LDOPTS
 )
 "
