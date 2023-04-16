@@ -10105,6 +10105,7 @@ ExtensionCommon
 MatchGlob
 MatchPattern
 MatchPatternSet
+Services
 StructuredCloneHolder
 XPCOMUtils
 extensions
