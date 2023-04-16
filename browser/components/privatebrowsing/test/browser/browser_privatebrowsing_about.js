@@ -870,7 +870,7 @@ classList
 contains
 (
 "
-hidden
+disabled
 "
 )
 "
@@ -879,7 +879,7 @@ in
 content
 search
 is
-hidden
+disabled
 "
 )
 ;
@@ -1004,7 +1004,7 @@ classList
 contains
 (
 "
-hidden
+disabled
 "
 )
 "
@@ -1014,7 +1014,7 @@ content
 search
 is
 not
-hidden
+disabled
 "
 )
 ;

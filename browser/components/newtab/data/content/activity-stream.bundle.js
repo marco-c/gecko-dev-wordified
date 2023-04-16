@@ -2660,6 +2660,9 @@ DIALOG_CANCEL
 DIALOG_OPEN
 "
 "
+DISABLE_SEARCH
+"
+"
 DISCOVERY_STREAM_COLLECTION_DISMISSIBLE_TOGGLE
 "
 "
@@ -2757,9 +2760,6 @@ HANDOFF_SEARCH_TO_AWESOMEBAR
 "
 "
 HIDE_PRIVACY_INFO
-"
-"
-HIDE_SEARCH
 "
 "
 INIT
@@ -83397,7 +83397,7 @@ actionTypes
 "
 ]
 .
-HIDE_SEARCH
+DISABLE_SEARCH
 }
 )
 ;
@@ -83978,13 +83978,13 @@ this
 .
 props
 .
-hide
+disable
 &
 &
 "
 search
 -
-hidden
+disabled
 "
 this
 .
@@ -118892,7 +118892,7 @@ actionTypes
 "
 ]
 .
-HIDE_SEARCH
+DISABLE_SEARCH
 :
 return
 Object
@@ -118904,7 +118904,7 @@ assign
 .
 .
 prevState
-hide
+disable
 :
 true
 }
@@ -118956,7 +118956,7 @@ assign
 .
 .
 prevState
-hide
+disable
 :
 false
 fakeFocus
