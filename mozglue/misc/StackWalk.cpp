@@ -197,6 +197,15 @@ h
 endif
 #
 include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
 <
 string
 .
@@ -6143,7 +6152,7 @@ number
 Use
 them
 .
-snprintf
+SprintfBuf
 (
 aBuffer
 aBufferSize
@@ -6220,7 +6229,7 @@ post
 -
 process
 .
-snprintf
+SprintfBuf
 (
 aBuffer
 aBufferSize
@@ -6291,7 +6300,7 @@ warning
 sigh
 .
 )
-snprintf
+SprintfBuf
 (
 aBuffer
 aBufferSize
