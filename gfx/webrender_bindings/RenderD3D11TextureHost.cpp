@@ -360,7 +360,7 @@ mGL
 {
 /
 /
-SharedGL
+SingletonGL
 is
 always
 used
@@ -379,7 +379,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 )
 ;

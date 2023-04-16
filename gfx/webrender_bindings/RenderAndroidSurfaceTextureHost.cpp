@@ -368,7 +368,7 @@ happen
 .
 On
 android
-SharedGL
+SingletonGL
 is
 used
 .
@@ -650,7 +650,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 )
 ;
@@ -1307,7 +1307,7 @@ Get
 )
 -
 >
-SharedGL
+SingletonGL
 (
 )
 ;
