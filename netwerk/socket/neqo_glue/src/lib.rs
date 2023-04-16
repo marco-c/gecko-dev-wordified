@@ -628,10 +628,6 @@ quic_version
 (
 quic_version
 )
-.
-disable_preferred_address
-(
-)
 &
 http3_settings
 )
