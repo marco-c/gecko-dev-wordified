@@ -403,9 +403,6 @@ weak
 nsIntRect
 mImageRegionRect
 ;
-bool
-mSetIcon
-;
 NSImage
 *
 mIconImage
