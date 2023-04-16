@@ -4694,11 +4694,9 @@ in
 -
 content
 -
-focus
+border
 -
-outline
--
-color
+active
 "
 borderColorFocused
 )
