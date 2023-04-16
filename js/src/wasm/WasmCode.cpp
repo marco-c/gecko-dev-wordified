@@ -4542,9 +4542,11 @@ codePtr
 interpRangeIndex
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 executableCopy
@@ -8256,6 +8258,7 @@ target
 match
 )
 )
+{
 return
 &
 metadata
@@ -8268,6 +8271,7 @@ callSites
 match
 ]
 ;
+}
 }
 return
 nullptr
