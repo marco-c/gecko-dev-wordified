@@ -16445,7 +16445,7 @@ fParent
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 *
 agr
@@ -27889,7 +27889,7 @@ if
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 mContainerFrame
 )
