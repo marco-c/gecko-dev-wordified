@@ -393,6 +393,7 @@ size_t
 .
 BIndexes
 >
+constexpr
 CompactPairHelper
 (
 std
@@ -502,6 +503,7 @@ AArg
 typename
 BArg
 >
+constexpr
 CompactPairHelper
 (
 AArg
@@ -542,6 +544,7 @@ aB
 )
 {
 }
+constexpr
 A
 &
 first
@@ -552,6 +555,7 @@ return
 mFirstA
 ;
 }
+constexpr
 const
 A
 &
@@ -564,6 +568,7 @@ return
 mFirstA
 ;
 }
+constexpr
 B
 &
 second
@@ -574,6 +579,7 @@ return
 mSecondB
 ;
 }
+constexpr
 const
 B
 &
@@ -677,6 +683,7 @@ size_t
 .
 BIndexes
 >
+constexpr
 CompactPairHelper
 (
 std
@@ -786,6 +793,7 @@ AArg
 typename
 BArg
 >
+constexpr
 CompactPairHelper
 (
 AArg
@@ -826,6 +834,7 @@ aA
 )
 {
 }
+constexpr
 A
 &
 first
@@ -836,6 +845,7 @@ return
 mFirstA
 ;
 }
+constexpr
 const
 A
 &
@@ -848,6 +858,7 @@ return
 mFirstA
 ;
 }
+constexpr
 B
 &
 second
@@ -859,6 +870,7 @@ return
 this
 ;
 }
+constexpr
 const
 B
 &
@@ -973,6 +985,7 @@ size_t
 .
 BIndexes
 >
+constexpr
 CompactPairHelper
 (
 std
@@ -1082,6 +1095,7 @@ AArg
 typename
 BArg
 >
+constexpr
 CompactPairHelper
 (
 AArg
@@ -1122,6 +1136,7 @@ aB
 )
 {
 }
+constexpr
 A
 &
 first
@@ -1133,6 +1148,7 @@ return
 this
 ;
 }
+constexpr
 const
 A
 &
@@ -1146,6 +1162,7 @@ return
 this
 ;
 }
+constexpr
 B
 &
 second
@@ -1156,6 +1173,7 @@ return
 mSecondB
 ;
 }
+constexpr
 const
 B
 &
@@ -1271,6 +1289,7 @@ size_t
 .
 BIndexes
 >
+constexpr
 CompactPairHelper
 (
 std
@@ -1380,6 +1399,7 @@ AArg
 typename
 BArg
 >
+constexpr
 CompactPairHelper
 (
 AArg
@@ -1420,6 +1440,7 @@ aB
 )
 {
 }
+constexpr
 A
 &
 first
@@ -1438,6 +1459,7 @@ this
 )
 ;
 }
+constexpr
 const
 A
 &
@@ -1458,6 +1480,7 @@ this
 )
 ;
 }
+constexpr
 B
 &
 second
@@ -1476,6 +1499,7 @@ this
 )
 ;
 }
+constexpr
 const
 B
 &
@@ -1759,6 +1783,7 @@ typename
 .
 BArgs
 >
+constexpr
 CompactPair
 (
 std
