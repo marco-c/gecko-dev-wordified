@@ -245,6 +245,19 @@ State
 CONFIRM_OK
 ;
 }
+uint32_t
+ConfirmationState
+(
+)
+{
+return
+mConfirmation
+.
+State
+(
+)
+;
+}
 bool
 DisableIPv6
 (
@@ -1757,6 +1770,7 @@ nsresult
 aChannelStatus
 )
 ;
+enum
 ConfirmationState
 State
 (
@@ -1770,6 +1784,7 @@ private
 :
 Atomic
 <
+enum
 ConfirmationState
 Relaxed
 >
