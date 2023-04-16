@@ -178,7 +178,7 @@ h
 namespace
 js
 {
-inline
+MOZ_ALWAYS_INLINE
 jsid
 AtomToId
 (
