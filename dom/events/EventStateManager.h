@@ -1046,7 +1046,7 @@ will
 be
 notified
 via
-nsIContent
+Element
 :
 :
 PerformAccesskey
@@ -3362,7 +3362,7 @@ If
 there
 is
 registered
-content
+element
 for
 the
 accesskey
@@ -3377,7 +3377,7 @@ modifier
 mask
 then
 call
-content
+element
 .
 PerformAccesskey
 (
