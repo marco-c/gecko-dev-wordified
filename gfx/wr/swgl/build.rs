@@ -800,7 +800,10 @@ flag
 (
 "
 /
-u
+clang
+:
+-
+undef
 "
 )
 ;
