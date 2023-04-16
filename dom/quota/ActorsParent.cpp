@@ -22821,7 +22821,7 @@ lastAccessTime
 =
 metadata
 .
-mTimestamp
+mLastAccessTime
 )
 Err
 (
@@ -24901,7 +24901,7 @@ QM_TRY_UNWRAP
 (
 fullOriginMetadata
 .
-mTimestamp
+mLastAccessTime
 MOZ_TO_RESULT_INVOKE
 (
 binaryStream
@@ -25099,7 +25099,7 @@ CreateDirectoryMetadata2
 aDirectory
 fullOriginMetadata
 .
-mTimestamp
+mLastAccessTime
 fullOriginMetadata
 .
 mPersisted
@@ -25724,11 +25724,11 @@ _ns
 {
 const
 int64_t
-timestamp
+lastAccessTime
 =
 metadata
 .
-mTimestamp
+mLastAccessTime
 ;
 const
 bool
@@ -25758,7 +25758,7 @@ move
 (
 metadata
 )
-timestamp
+lastAccessTime
 persisted
 }
 )
@@ -25824,7 +25824,7 @@ aPersistenceType
 metadata
 metadata
 .
-mTimestamp
+mLastAccessTime
 metadata
 .
 mPersisted
@@ -33079,7 +33079,7 @@ MOZ_ASSERT
 (
 metadata
 .
-mTimestamp
+mLastAccessTime
 <
 =
 PR_Now
@@ -33090,7 +33090,7 @@ PR_Now
 return
 metadata
 .
-mTimestamp
+mLastAccessTime
 ;
 }
 (
@@ -45350,7 +45350,7 @@ metadata
 mOrigin
 metadata
 .
-mTimestamp
+mLastAccessTime
 metadata
 .
 mPersisted
