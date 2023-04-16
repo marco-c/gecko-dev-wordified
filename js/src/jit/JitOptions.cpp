@@ -800,7 +800,7 @@ analysis
 SET_DEFAULT
 (
 scalarReplaceArguments
-false
+true
 )
 ;
 /
