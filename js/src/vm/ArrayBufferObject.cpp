@@ -4721,10 +4721,10 @@ memory
 Note
 that
 this
-must
+will
 correspond
 with
-MaxMemory32Bytes
+MaxMemory32BoundsCheckLimit
 (
 )
 .

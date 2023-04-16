@@ -412,7 +412,7 @@ return
 SymbolicAddress
 :
 :
-MemCopy
+MemCopy32
 ;
 case
 BD_SymbolicAddress
@@ -424,7 +424,7 @@ return
 SymbolicAddress
 :
 :
-MemCopyShared
+MemCopyShared32
 ;
 case
 BD_SymbolicAddress
@@ -448,7 +448,7 @@ return
 SymbolicAddress
 :
 :
-MemFill
+MemFill32
 ;
 case
 BD_SymbolicAddress
@@ -460,7 +460,7 @@ return
 SymbolicAddress
 :
 :
-MemFillShared
+MemFillShared32
 ;
 case
 BD_SymbolicAddress
@@ -472,7 +472,7 @@ return
 SymbolicAddress
 :
 :
-MemInit
+MemInit32
 ;
 case
 BD_SymbolicAddress

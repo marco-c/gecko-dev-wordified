@@ -82515,9 +82515,9 @@ usesSharedMemory
 (
 )
 ?
-SASigMemCopyShared
+SASigMemCopyShared32
 :
-SASigMemCopy
+SASigMemCopy32
 /
 *
 pushReturnedValue
@@ -83819,9 +83819,9 @@ usesSharedMemory
 (
 )
 ?
-SASigMemFillShared
+SASigMemFillShared32
 :
-SASigMemFill
+SASigMemFill32
 /
 *
 pushReturnedValue
@@ -84557,7 +84557,7 @@ if
 emitInstanceCall
 (
 lineOrBytecode
-SASigMemInit
+SASigMemInit32
 /
 *
 pushReturnedValue

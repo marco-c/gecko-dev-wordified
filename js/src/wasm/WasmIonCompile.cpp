@@ -21478,9 +21478,9 @@ usesSharedMemory
 (
 )
 ?
-SASigMemCopyShared
+SASigMemCopyShared32
 :
-SASigMemCopy
+SASigMemCopy32
 )
 ;
 CallCompileState
@@ -23071,9 +23071,9 @@ usesSharedMemory
 (
 )
 ?
-SASigMemFillShared
+SASigMemFillShared32
 :
-SASigMemFill
+SASigMemFill32
 ;
 CallCompileState
 args
@@ -24010,7 +24010,7 @@ callee
 =
 isMem
 ?
-SASigMemInit
+SASigMemInit32
 :
 SASigTableInit
 ;
