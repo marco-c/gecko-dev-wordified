@@ -186,7 +186,7 @@ nsMenuBarX
 aMenuBarIfMenuBar
 )
 ;
-nsresult
+void
 Create
 (
 mozilla
