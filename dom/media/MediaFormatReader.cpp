@@ -303,6 +303,13 @@ nsPrintfCString
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 using
 namespace
 mozilla
@@ -590,9 +597,9 @@ Private
 >
 mOnShutdownComplete
 ;
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 ShutdownPromise
 >
@@ -686,7 +693,7 @@ aPromise
 ;
 mPromises
 .
-PutEntry
+Insert
 (
 aPromise
 )
@@ -722,7 +729,7 @@ aPromise
 ;
 mPromises
 .
-RemoveEntry
+Remove
 (
 aPromise
 )

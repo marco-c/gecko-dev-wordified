@@ -173,14 +173,7 @@ h
 #
 include
 "
-nsHashKeys
-.
-h
-"
-#
-include
-"
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -701,9 +694,9 @@ shutdown
 case
 )
 .
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 MediaDecoder
 >

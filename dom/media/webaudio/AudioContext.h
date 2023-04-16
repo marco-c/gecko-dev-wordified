@@ -257,7 +257,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -2458,9 +2458,9 @@ window
 remains
 alive
 .
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 AudioNode
 >
@@ -2483,12 +2483,10 @@ for
 this
 AudioContext
 .
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 AudioNode
->
+*
 >
 mAllNodes
 ;

@@ -245,7 +245,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -1548,9 +1548,9 @@ To
 check
 for
 duplicates
-nsTHashtable
+nsTHashSet
 <
-nsStringHashKey
+nsString
 >
 namesSet
 ;
@@ -1772,7 +1772,7 @@ if
 !
 namesSet
 .
-PutEntry
+Insert
 (
 descriptor
 .
