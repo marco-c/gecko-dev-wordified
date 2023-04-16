@@ -511,6 +511,12 @@ bogus
 ]
 }
 ]
+flags
+:
+2
+/
+/
+SERVFAIL
 }
 )
 ;
