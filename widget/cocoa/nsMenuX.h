@@ -499,6 +499,14 @@ return
 mNativeMenu
 ;
 }
+void
+Dump
+(
+uint32_t
+aIndent
+)
+const
+;
 static
 bool
 IsXULHelpMenu
