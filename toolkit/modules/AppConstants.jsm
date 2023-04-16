@@ -194,6 +194,17 @@ else
 false
 #
 endif
+FENNEC_NIGHTLY
+:
+#
+ifdef
+FENNEC_NIGHTLY
+true
+#
+else
+false
+#
+endif
 RELEASE_OR_BETA
 :
 #
