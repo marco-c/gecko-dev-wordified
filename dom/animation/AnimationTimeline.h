@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -770,7 +770,7 @@ is
 difficult
 .
 typedef
-nsTHashtable
+nsTHashSet
 <
 nsRefPtrHashKey
 <

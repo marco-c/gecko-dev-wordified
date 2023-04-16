@@ -150,7 +150,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -576,7 +576,7 @@ EnsurePaintIsScheduled
 )
 ;
 typedef
-nsTHashtable
+nsTHashSet
 <
 nsRefPtrHashKey
 <
