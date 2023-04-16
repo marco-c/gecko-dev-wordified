@@ -1046,6 +1046,42 @@ fetch_perfdocs_tree
 (
 )
     
+expected
+=
+"
+Found
+1
+perfdocs
+directories
+"
+    
+args
+_
+=
+logger
+.
+log
+.
+call_args
+    
+assert
+expected
+in
+args
+[
+0
+]
+    
+assert
+logger
+.
+log
+.
+call_count
+=
+=
+1
+    
 assert
 gatherer
 .
@@ -1974,12 +2010,19 @@ name
 ?
 "
         
+os
+.
+path
+.
+realpath
+(
 perfdocs_sample
 [
 "
 config
 "
 ]
+)
     
 )
     
