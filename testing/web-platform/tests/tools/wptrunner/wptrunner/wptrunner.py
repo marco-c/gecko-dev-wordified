@@ -1364,6 +1364,10 @@ unexpected_total
 =
 0
         
+unexpected_pass_total
+=
+0
+        
 if
 len
 (
@@ -1787,6 +1791,10 @@ test_count
 0
                 
 unexpected_count
+=
+0
+                
+unexpected_pass_count
 =
 0
                 
@@ -2379,6 +2387,15 @@ manager_group
 unexpected_count
 (
 )
+                        
+unexpected_pass_count
++
+=
+manager_group
+.
+unexpected_pass_count
+(
+)
                 
 recording
 .
@@ -2403,6 +2420,11 @@ unexpected_total
 =
 unexpected_count
                 
+unexpected_pass_total
++
+=
+unexpected_pass_count
+                
 logger
 .
 info
@@ -2413,9 +2435,18 @@ Got
 i
 unexpected
 results
+with
+%
+i
+unexpected
+passes
 "
 %
+                            
+(
 unexpected_count
+unexpected_pass_count
+)
 )
                 
 logger
@@ -2547,6 +2578,53 @@ results
 "
 %
 unexpected_total
+)
+        
+return
+True
+    
+all_unexpected_passed
+=
+(
+unexpected_total
+and
+                             
+unexpected_total
+=
+=
+unexpected_pass_total
+)
+    
+if
+all_unexpected_passed
+and
+not
+kwargs
+[
+"
+fail_on_unexpected_pass
+"
+]
+:
+        
+logger
+.
+info
+(
+"
+Tolerating
+%
+i
+unexpected
+results
+because
+they
+all
+PASS
+"
+%
+                    
+unexpected_pass_total
 )
         
 return
