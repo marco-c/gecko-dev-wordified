@@ -1826,6 +1826,11 @@ nsIWebProgressListener
 .
 LOCATION_CHANGE_SAME_DOCUMENT
 )
+&
+&
+webProgress
+.
+isTopLevel
 )
 {
 /
