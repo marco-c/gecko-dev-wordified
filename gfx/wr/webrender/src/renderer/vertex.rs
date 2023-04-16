@@ -938,7 +938,7 @@ kind
 VertexAttributeKind
 :
 :
-I32
+F32
 }
 ]
 }

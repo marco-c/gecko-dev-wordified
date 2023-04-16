@@ -693,7 +693,7 @@ DeviceRect
 pub
 source_rect
 :
-DeviceIntRect
+DeviceRect
 }
 #
 [

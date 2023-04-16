@@ -3188,6 +3188,7 @@ renderer
 device
 &
 projection
+None
 &
 mut
 renderer
