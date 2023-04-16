@@ -38464,7 +38464,6 @@ quotaManager
 >
 EnsureQuotaForOrigin
 (
-PERSISTENCE_TYPE_DEFAULT
 mOriginMetadata
 )
 ;

@@ -916,8 +916,6 @@ QuotaObject
 void
 EnsureQuotaForOrigin
 (
-PersistenceType
-aPersistenceType
 const
 OriginMetadata
 &

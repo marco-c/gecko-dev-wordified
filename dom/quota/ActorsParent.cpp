@@ -21356,8 +21356,6 @@ QuotaManager
 :
 EnsureQuotaForOrigin
 (
-PersistenceType
-aPersistenceType
 const
 OriginMetadata
 &
@@ -21370,10 +21368,12 @@ AssertIsOnIOThread
 ;
 MOZ_ASSERT
 (
-aPersistenceType
-!
-=
-PERSISTENCE_TYPE_PERSISTENT
+IsBestEffortPersistenceType
+(
+aOriginMetadata
+.
+mPersistenceType
+)
 )
 ;
 MutexAutoLock
@@ -21390,7 +21390,9 @@ groupInfo
 =
 LockedGetOrCreateGroupInfo
 (
-aPersistenceType
+aOriginMetadata
+.
+mPersistenceType
 aOriginMetadata
 .
 mSuffix
