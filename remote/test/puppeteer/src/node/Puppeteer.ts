@@ -166,7 +166,7 @@ js
 import
 {
 LaunchOptions
-ChromeArgOptions
+BrowserLaunchArgumentOptions
 }
 from
 '
@@ -179,7 +179,7 @@ js
 ;
 import
 {
-BrowserOptions
+BrowserConnectOptions
 }
 from
 '
@@ -1104,9 +1104,9 @@ options
 :
 LaunchOptions
 &
-ChromeArgOptions
+BrowserLaunchArgumentOptions
 &
-BrowserOptions
+BrowserConnectOptions
 &
 {
 product
@@ -1463,7 +1463,7 @@ defaultArgs
 (
 options
 :
-ChromeArgOptions
+BrowserLaunchArgumentOptions
 =
 {
 }

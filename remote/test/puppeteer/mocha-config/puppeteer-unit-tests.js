@@ -177,6 +177,15 @@ utils
 .
 ts
 '
+'
+source
+-
+map
+-
+support
+/
+register
+'
 ]
 spec
 :

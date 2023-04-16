@@ -172,6 +172,11 @@ spec
 js
 '
 ]
+browserStartTimeout
+:
+60
+*
+1000
 browsers
 :
 [
