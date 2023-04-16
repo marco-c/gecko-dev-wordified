@@ -1172,15 +1172,6 @@ SourceSurface
 >
 mSnapshot
 ;
-RefPtr
-<
-gfx
-:
-:
-SourceSurface
->
-mPreviousSnapshot
-;
 size_t
 mMaxAllowedTextures
 =
