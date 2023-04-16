@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
@@ -1069,9 +1076,9 @@ report
 void
 CheckForGhostWindows
 (
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 *
 aOutGhostIDs

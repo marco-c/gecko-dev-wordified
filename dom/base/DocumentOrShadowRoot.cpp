@@ -1101,7 +1101,7 @@ commonPrefix
 ;
 set
 .
-PutEntry
+Insert
 (
 mAdoptedStyleSheets
 [
