@@ -3801,6 +3801,17 @@ FloatRegister
 output
 )
 ;
+void
+popcntInt8x16
+(
+FloatRegister
+src
+FloatRegister
+temp
+FloatRegister
+output
+)
+;
 /
 /
 SIMD

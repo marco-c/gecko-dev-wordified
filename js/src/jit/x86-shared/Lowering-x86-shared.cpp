@@ -10245,6 +10245,15 @@ SimdOp
 :
 I32x4TruncSatF64x2UZero
 :
+case
+wasm
+:
+:
+SimdOp
+:
+:
+I8x16Popcnt
+:
 tempReg
 =
 tempSimd128
