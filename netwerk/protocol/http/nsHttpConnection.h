@@ -2290,6 +2290,8 @@ mThroughCaptivePortal
 ;
 int64_t
 mTotalBytesWritten
+=
+0
 ;
 /
 /
