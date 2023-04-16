@@ -12523,14 +12523,15 @@ ForwardGc
 Func
 }
 ;
-typedef
+using
+TypeStateVector
+=
 Vector
 <
 TypeState
 0
 SystemAllocPolicy
 >
-TypeStateVector
 ;
 template
 <
@@ -18728,7 +18729,9 @@ event
 }
 #
 endif
-typedef
+using
+CStringSet
+=
 HashSet
 <
 const
@@ -18740,7 +18743,6 @@ mozilla
 CStringHasher
 SystemAllocPolicy
 >
-CStringSet
 ;
 static
 UniqueChars

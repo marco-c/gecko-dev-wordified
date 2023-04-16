@@ -1174,9 +1174,10 @@ return
 0
 ;
 }
-typedef
-uint32_t
+using
 ArrayLength
+=
+uint32_t
 ;
 uint8_t
 *

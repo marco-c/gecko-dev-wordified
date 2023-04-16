@@ -474,7 +474,9 @@ uint32_t
 class
 FuncTypeIdSet
 {
-typedef
+using
+Map
+=
 HashMap
 <
 const
@@ -484,7 +486,6 @@ uint32_t
 FuncTypeHashPolicy
 SystemAllocPolicy
 >
-Map
 ;
 Map
 map_

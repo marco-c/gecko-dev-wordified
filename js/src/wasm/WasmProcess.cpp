@@ -393,7 +393,9 @@ wide
 map
 instead
 .
-typedef
+using
+CodeSegmentVector
+=
 Vector
 <
 const
@@ -402,7 +404,6 @@ CodeSegment
 0
 SystemAllocPolicy
 >
-CodeSegmentVector
 ;
 Atomic
 <

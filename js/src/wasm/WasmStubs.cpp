@@ -317,7 +317,9 @@ js
 :
 wasm
 ;
-typedef
+using
+MIRTypeVector
+=
 Vector
 <
 jit
@@ -327,7 +329,6 @@ MIRType
 8
 SystemAllocPolicy
 >
-MIRTypeVector
 ;
 using
 ABIArgMIRTypeIter
