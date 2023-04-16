@@ -3203,6 +3203,12 @@ case
 SimdOp
 :
 :
+I64x2Abs
+:
+case
+SimdOp
+:
+:
 F32x4Ceil
 :
 case

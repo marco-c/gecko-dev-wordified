@@ -2628,9 +2628,7 @@ I32x4ExtMulLowUI16x8
 I32x4ExtMulHighUI16x8
 =
 0xbf
-/
-/
-Unused
+I64x2Abs
 =
 0xc0
 I64x2Neg
