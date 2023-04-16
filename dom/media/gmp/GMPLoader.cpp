@@ -234,11 +234,11 @@ ifdef
 XP_WIN
 #
 include
-"
+<
 windows
 .
 h
-"
+>
 #
 endif
 namespace

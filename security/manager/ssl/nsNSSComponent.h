@@ -199,11 +199,11 @@ ifdef
 XP_WIN
 #
 include
-"
+<
 windows
 .
 h
-"
+>
 /
 /
 this
@@ -216,11 +216,11 @@ following
 includes
 #
 include
-"
+<
 wincrypt
 .
 h
-"
+>
 #
 endif
 /
