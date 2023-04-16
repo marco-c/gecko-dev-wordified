@@ -351,7 +351,6 @@ AsyncPanZoomController
 aTarget
 TargetConfirmationFlags
 aFlags
-const
 InputData
 &
 aEvent
@@ -1316,7 +1315,6 @@ AsyncPanZoomController
 aTarget
 TargetConfirmationFlags
 aFlags
-const
 MouseInput
 &
 aEvent
