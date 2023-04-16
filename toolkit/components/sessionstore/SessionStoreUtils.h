@@ -515,16 +515,12 @@ aData
 )
 ;
 static
-bool
+void
 RestoreFormData
 (
 Document
 &
 aDocument
-const
-nsCString
-&
-aFormUrl
 const
 nsString
 &
