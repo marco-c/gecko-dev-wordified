@@ -573,6 +573,10 @@ nicname
 #
 domain
         
+69
+#
+tftp
+        
 77
 #
 priv
@@ -653,13 +657,25 @@ srv
 /
 epmap
         
+137
+#
+netbios
+-
+ns
+        
 139
 #
 netbios
+-
+ssn
         
 143
 #
 imap2
+        
+161
+#
+snmp
         
 179
 #
@@ -770,6 +786,10 @@ pop3
 +
 ssl
         
+1719
+#
+h323gatestat
+        
 1720
 #
 h323hostcall
@@ -803,6 +823,12 @@ sips
 6000
 #
 x11
+        
+6566
+#
+sane
+-
+port
         
 6665
 #
