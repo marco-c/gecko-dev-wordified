@@ -237,13 +237,13 @@ chrome
 :
 /
 /
-global
+devtools
 /
 skin
 /
-icons
+images
 /
-warning
+alert
 .
 svg
 "
