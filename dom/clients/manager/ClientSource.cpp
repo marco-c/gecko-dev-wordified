@@ -2014,6 +2014,11 @@ if
 outer
 -
 >
+GetBrowsingContext
+(
+)
+-
+>
 HadOriginalOpener
 (
 )
@@ -2297,6 +2302,11 @@ else
 if
 (
 outer
+-
+>
+GetBrowsingContext
+(
+)
 -
 >
 HadOriginalOpener
