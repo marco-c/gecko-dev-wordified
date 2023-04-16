@@ -792,6 +792,9 @@ foreground_app
 =
 foreground_app
             
+try
+:
+                
 super
 (
 MyHandler
@@ -806,6 +809,12 @@ args
 *
 kwargs
 )
+            
+except
+ValueError
+:
+                
+pass
         
 def
 log_request
