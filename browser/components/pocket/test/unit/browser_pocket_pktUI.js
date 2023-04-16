@@ -133,7 +133,7 @@ test_runner
 (
 async
 function
-test_main_getAndShowRecsForItem_on
+test_pktUI_getAndShowRecsForItem_on
 (
 {
 sandbox
@@ -238,7 +238,7 @@ test_runner
 (
 async
 function
-test_main_getAndShowRecsForItem_off
+test_pktUI_getAndShowRecsForItem_off
 (
 {
 sandbox
@@ -323,7 +323,7 @@ test_runner
 (
 async
 function
-test_main_getAndShowRecsForItem_locale
+test_pktUI_getAndShowRecsForItem_locale
 (
 {
 sandbox
