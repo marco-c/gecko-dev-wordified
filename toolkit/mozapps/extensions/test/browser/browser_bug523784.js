@@ -132,7 +132,7 @@ global
 /
 skin
 /
-plugins
+icons
 /
 plugin
 .
@@ -745,7 +745,7 @@ global
 /
 skin
 /
-plugins
+icons
 /
 plugin
 .
@@ -805,7 +805,7 @@ global
 /
 skin
 /
-plugins
+icons
 /
 plugin
 .
