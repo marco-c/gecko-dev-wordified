@@ -1289,8 +1289,7 @@ the
 *
 ID
 of
-BrowsingContext
-of
+the
 active
 tab
 .
@@ -1298,7 +1297,7 @@ tab
 /
 export
 type
-GetActiveBrowsingContextID
+GetActiveBrowserID
 =
 (
 )

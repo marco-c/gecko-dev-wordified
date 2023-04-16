@@ -270,9 +270,9 @@ perf
 "
 )
 .
-GetActiveBrowsingContextID
+GetActiveBrowserID
 }
-GetActiveBrowsingContextID
+GetActiveBrowserID
 *
 typedef
 {

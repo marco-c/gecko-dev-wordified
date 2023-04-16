@@ -124,9 +124,9 @@ perf
 "
 )
 .
-GetActiveBrowsingContextID
+GetActiveBrowserID
 }
-GetActiveBrowsingContextID
+GetActiveBrowserID
 *
 /
 /
@@ -275,7 +275,7 @@ the
 ID
 of
 active
-BrowsingContext
+tab
 from
 the
 browser
@@ -284,12 +284,12 @@ browser
 *
 type
 {
-GetActiveBrowsingContextID
+GetActiveBrowserID
 }
 *
 /
 function
-getActiveBrowsingContextID
+getActiveBrowserID
 (
 )
 {
@@ -332,7 +332,7 @@ selectedBrowser
 browsingContext
 ?
 .
-id
+browserId
 )
 {
 return
@@ -344,7 +344,7 @@ selectedBrowser
 .
 browsingContext
 .
-id
+browserId
 ;
 }
 console
@@ -357,8 +357,7 @@ to
 get
 the
 active
-BrowsingContext
-ID
+browserId
 while
 starting
 the
@@ -378,8 +377,7 @@ to
 ge
 the
 active
-BrowsingContext
-ID
+browserId
 and
 it
 '
@@ -403,6 +401,6 @@ module
 exports
 =
 {
-getActiveBrowsingContextID
+getActiveBrowserID
 }
 ;

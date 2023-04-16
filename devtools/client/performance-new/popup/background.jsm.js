@@ -2118,14 +2118,14 @@ GetFeatures
 Get
 the
 active
-BrowsingContext
+Browser
 ID
 from
 browser
 .
 const
 {
-getActiveBrowsingContextID
+getActiveBrowserID
 }
 =
 lazy
@@ -2137,7 +2137,7 @@ RecordingUtils
 const
 activeTabID
 =
-getActiveBrowsingContextID
+getActiveBrowserID
 (
 )
 ;

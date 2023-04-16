@@ -700,7 +700,7 @@ activeTabID
 :
 RecordingUtils
 .
-getActiveBrowsingContextID
+getActiveBrowserID
 (
 )
 }

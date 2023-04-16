@@ -173,7 +173,7 @@ yet
 Getting
 the
 active
-BrowsingContext
+Browser
 ID
 to
 assert
@@ -213,7 +213,7 @@ selectedBrowser
 .
 browsingContext
 .
-id
+browserId
 ;
 front
 .
@@ -299,8 +299,7 @@ activeTabID
 Should
 apply
 active
-browsing
-context
+browser
 ID
 by
 startProfiler
