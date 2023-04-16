@@ -1116,6 +1116,9 @@ SCALE
 vol1
 =
 (
+LONG_SAMPLETYPE
+)
+(
 SCALE
 -
 iFract

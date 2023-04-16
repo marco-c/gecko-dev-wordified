@@ -513,12 +513,6 @@ TransposerBase
 protected
 :
 virtual
-void
-resetRegisters
-(
-)
-;
-virtual
 int
 transposeMono
 (
@@ -572,6 +566,12 @@ fract
 public
 :
 InterpolateCubic
+(
+)
+;
+virtual
+void
+resetRegisters
 (
 )
 ;

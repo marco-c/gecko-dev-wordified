@@ -565,11 +565,6 @@ TransposerBase
 {
 protected
 :
-void
-resetRegisters
-(
-)
-;
 int
 transposeMono
 (
@@ -621,6 +616,11 @@ fract
 public
 :
 InterpolateShannon
+(
+)
+;
+void
+resetRegisters
 (
 )
 ;
