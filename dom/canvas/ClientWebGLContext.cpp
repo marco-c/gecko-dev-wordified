@@ -32970,11 +32970,12 @@ return
 ;
 if
 (
+!
 prog
 .
 mActiveTfos
 .
-size
+empty
 (
 )
 )
