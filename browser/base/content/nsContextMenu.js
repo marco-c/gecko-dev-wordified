@@ -8168,10 +8168,11 @@ notifyObservers
 (
 null
 "
-contextmenu
+menuitem
 -
 screenshot
 "
+true
 )
 ;
 }
