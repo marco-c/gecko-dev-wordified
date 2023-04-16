@@ -623,8 +623,6 @@ uint64_t
 aInnerWindowId
 uint64_t
 aOuterWindowId
-bool
-aInProcess
 FieldValues
 &
 &
@@ -636,7 +634,6 @@ WindowContext
 aBrowsingContext
 aInnerWindowId
 aOuterWindowId
-aInProcess
 std
 :
 :
@@ -696,8 +693,6 @@ const
 WindowGlobalInit
 &
 aInit
-bool
-aInProcess
 )
 {
 RefPtr
@@ -793,7 +788,6 @@ context
 )
 .
 mOuterWindowId
-aInProcess
 std
 :
 :

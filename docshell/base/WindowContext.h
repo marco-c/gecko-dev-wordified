@@ -855,7 +855,7 @@ IsInProcess
 const
 {
 return
-mInProcess
+mWindowGlobalChild
 ;
 }
 bool
@@ -909,7 +909,11 @@ GetWindowGlobalChild
 (
 )
 const
+{
+return
+mWindowGlobalChild
 ;
+}
 /
 /
 Get
@@ -1276,8 +1280,6 @@ uint64_t
 aInnerWindowId
 uint64_t
 aOuterWindowId
-bool
-aInProcess
 FieldValues
 &
 &
@@ -1885,6 +1887,12 @@ BrowsingContext
 >
 mBrowsingContext
 ;
+RefPtr
+<
+WindowGlobalChild
+>
+mWindowGlobalChild
+;
 /
 /
 -
@@ -1941,11 +1949,6 @@ mChildren
 ;
 bool
 mIsDiscarded
-=
-false
-;
-bool
-mInProcess
 =
 false
 ;
