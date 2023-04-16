@@ -2509,6 +2509,8 @@ BrowserTestUtils
 waitForEvent
 (
 gManagerWindow
+.
+document
 "
 ViewChanged
 "
