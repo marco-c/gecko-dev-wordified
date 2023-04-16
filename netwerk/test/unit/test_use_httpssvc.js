@@ -2034,6 +2034,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -2069,6 +2072,7 @@ data
 "
 }
 ]
+}
 )
 ;
 /
@@ -2101,6 +2105,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -2155,6 +2162,7 @@ value
 }
 }
 ]
+}
 )
 ;
 let

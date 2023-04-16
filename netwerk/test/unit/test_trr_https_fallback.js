@@ -1374,6 +1374,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -1682,6 +1685,7 @@ value
 }
 }
 ]
+}
 )
 ;
 let
@@ -1941,6 +1945,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -2165,6 +2172,7 @@ value
 }
 }
 ]
+}
 )
 ;
 await
@@ -2182,6 +2190,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -2217,6 +2228,7 @@ data
 "
 }
 ]
+}
 )
 ;
 let
@@ -2503,6 +2515,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -2727,6 +2742,7 @@ value
 }
 }
 ]
+}
 )
 ;
 let
@@ -2958,6 +2974,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -3078,6 +3097,7 @@ h3
 }
 }
 ]
+}
 )
 ;
 let
@@ -3200,6 +3220,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -3235,6 +3258,7 @@ data
 "
 }
 ]
+}
 )
 ;
 chan
@@ -3389,6 +3413,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -3422,6 +3449,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await
@@ -3437,6 +3465,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -3634,6 +3665,7 @@ h3
 }
 }
 ]
+}
 )
 ;
 let
@@ -3849,6 +3881,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -4009,6 +4044,7 @@ value
 }
 }
 ]
+}
 )
 ;
 let
@@ -4203,6 +4239,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -4238,6 +4277,7 @@ data
 "
 }
 ]
+}
 )
 ;
 Services
@@ -4461,6 +4501,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -4544,6 +4587,7 @@ value
 }
 }
 ]
+}
 )
 ;
 await
@@ -4561,6 +4605,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -4596,6 +4643,7 @@ data
 "
 }
 ]
+}
 )
 ;
 let
@@ -4881,6 +4929,9 @@ com
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -5043,6 +5094,7 @@ value
 }
 }
 ]
+}
 )
 ;
 await
@@ -5060,6 +5112,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -5095,6 +5150,7 @@ data
 "
 }
 ]
+}
 )
 ;
 let
@@ -5481,6 +5537,9 @@ org
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -5564,6 +5623,7 @@ value
 }
 }
 ]
+}
 )
 ;
 let
@@ -5935,6 +5995,9 @@ org
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -6069,6 +6132,7 @@ h3Port
 }
 }
 ]
+}
 )
 ;
 let
@@ -6383,6 +6447,9 @@ org
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -6418,6 +6485,7 @@ data
 "
 }
 ]
+}
 )
 ;
 /
@@ -6640,6 +6708,9 @@ org
 "
 HTTPS
 "
+{
+answers
+:
 [
 {
 name
@@ -6804,6 +6875,7 @@ value
 }
 }
 ]
+}
 )
 ;
 let
@@ -6954,6 +7026,9 @@ org
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -6989,6 +7064,7 @@ data
 "
 }
 ]
+}
 )
 ;
 /

@@ -373,6 +373,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -487,6 +490,7 @@ data
 "
 }
 ]
+}
 )
 ;
 let
@@ -557,6 +561,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -586,6 +593,7 @@ foo
 "
 }
 ]
+}
 )
 ;
 await
@@ -601,6 +609,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -634,6 +645,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await

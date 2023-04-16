@@ -527,6 +527,9 @@ com
 "
 NS
 "
+{
+answers
+:
 [
 {
 name
@@ -558,6 +561,7 @@ com
 "
 }
 ]
+}
 )
 ;
 await
@@ -573,6 +577,9 @@ com
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -606,6 +613,7 @@ data
 "
 }
 ]
+}
 )
 ;
 Services
@@ -728,6 +736,9 @@ com
 "
 NS
 "
+{
+answers
+:
 [
 {
 name
@@ -759,9 +770,10 @@ com
 "
 }
 ]
-[
-]
+delay
+:
 500
+}
 )
 ;
 /

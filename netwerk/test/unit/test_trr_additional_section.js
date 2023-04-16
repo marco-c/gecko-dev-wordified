@@ -384,6 +384,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -417,6 +420,8 @@ data
 "
 }
 ]
+additionals
+:
 [
 {
 name
@@ -450,6 +455,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await
@@ -513,6 +519,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -546,6 +555,8 @@ data
 "
 }
 ]
+additionals
+:
 [
 {
 name
@@ -579,6 +590,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await
@@ -594,6 +606,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -627,6 +642,7 @@ data
 "
 }
 ]
+}
 )
 ;
 let
@@ -799,6 +815,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -832,6 +851,8 @@ data
 "
 }
 ]
+additionals
+:
 [
 {
 name
@@ -867,6 +888,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await
@@ -936,6 +958,9 @@ foo
 "
 AAAA
 "
+{
+answers
+:
 [
 {
 name
@@ -972,6 +997,8 @@ d
 "
 }
 ]
+additionals
+:
 [
 {
 name
@@ -1007,6 +1034,7 @@ d
 "
 }
 ]
+}
 )
 ;
 await
@@ -1079,6 +1107,9 @@ foo
 "
 AAAA
 "
+{
+answers
+:
 [
 {
 name
@@ -1115,6 +1146,8 @@ d
 "
 }
 ]
+additionals
+:
 [
 {
 name
@@ -1148,6 +1181,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await
@@ -1222,6 +1256,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -1255,6 +1292,8 @@ data
 "
 }
 ]
+additionals
+:
 [
 {
 /
@@ -1412,6 +1451,7 @@ data
 "
 }
 ]
+}
 )
 ;
 let
@@ -1640,6 +1680,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -1673,6 +1716,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await
@@ -1712,6 +1756,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -1745,6 +1792,8 @@ data
 "
 }
 ]
+additionals
+:
 [
 {
 name
@@ -1778,6 +1827,7 @@ data
 "
 }
 ]
+}
 )
 ;
 await

@@ -643,6 +643,9 @@ foo
 "
 A
 "
+{
+answers
+:
 [
 {
 name
@@ -676,6 +679,7 @@ data
 "
 }
 ]
+}
 )
 ;
 let
