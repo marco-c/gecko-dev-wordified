@@ -1285,6 +1285,9 @@ SceneBuilder
 "
 WrWorker
 "
+"
+CanvasWorkers
+"
 ]
 duration
 :
