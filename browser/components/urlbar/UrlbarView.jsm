@@ -5998,10 +5998,7 @@ if
 (
 result
 .
-suggestedIndex
->
-=
-0
+hasSuggestedIndex
 )
 {
 /
@@ -6088,10 +6085,7 @@ row
 .
 result
 .
-suggestedIndex
->
-=
-0
+hasSuggestedIndex
 )
 {
 /

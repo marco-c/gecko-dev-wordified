@@ -2196,13 +2196,10 @@ every
 r
 =
 >
+!
 r
 .
-suggestedIndex
-=
-=
--
-1
+hasSuggestedIndex
 )
 )
 ;
