@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 ImageTypes
 .
 h
@@ -341,9 +348,9 @@ WebRenderUserData
 public
 :
 typedef
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 WebRenderUserData
 >

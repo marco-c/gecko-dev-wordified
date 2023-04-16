@@ -600,7 +600,7 @@ RemoveFromTable
 mTable
 -
 >
-RemoveEntry
+Remove
 (
 this
 )

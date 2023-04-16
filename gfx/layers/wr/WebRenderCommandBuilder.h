@@ -216,6 +216,13 @@ h
 #
 include
 "
+nsTHashSet
+.
+h
+"
+#
+include
+"
 DisplayItemCache
 .
 h
@@ -261,9 +268,9 @@ WebRenderCommandBuilder
 final
 {
 typedef
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 WebRenderUserData
 >
@@ -271,9 +278,9 @@ WebRenderUserData
 WebRenderUserDataRefTable
 ;
 typedef
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 WebRenderCanvasData
 >
@@ -281,9 +288,9 @@ WebRenderCanvasData
 CanvasDataSet
 ;
 typedef
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 WebRenderLocalCanvasData
 >
@@ -891,7 +898,7 @@ aItem
 ;
 mWebRenderUserDatas
 .
-PutEntry
+Insert
 (
 data
 )
@@ -988,7 +995,7 @@ eCanvas
 :
 mLastCanvasDatas
 .
-PutEntry
+Insert
 (
 data
 -
@@ -1011,7 +1018,7 @@ eLocalCanvas
 :
 mLastLocalCanvasDatas
 .
-PutEntry
+Insert
 (
 data
 -
