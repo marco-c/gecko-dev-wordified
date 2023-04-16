@@ -787,6 +787,15 @@ TelemetryArchiveTesting
 .
 jsm
 "
+"
+tests
+/
+unit
+/
+TelemetryEnvironmentTesting
+.
+jsm
+"
 ]
 PYTHON_UNITTEST_MANIFESTS
 +
