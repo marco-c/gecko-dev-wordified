@@ -1555,8 +1555,6 @@ from_percentage
 (
 percentage
 .
-0
-.
 get
 (
 )
