@@ -105,9 +105,6 @@ environment
 globals
 :
 {
-gDevTools
-:
-true
 waitForTick
 :
 true
