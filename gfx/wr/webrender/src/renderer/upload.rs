@@ -346,7 +346,10 @@ crate
 composite
 :
 :
+{
+CompositeFeatures
 CompositeSurfaceFormat
+}
 ;
 use
 crate
@@ -3168,6 +3171,12 @@ ImageBufferKind
 :
 :
 Texture2D
+CompositeFeatures
+:
+:
+empty
+(
+)
 )
 .
 bind
