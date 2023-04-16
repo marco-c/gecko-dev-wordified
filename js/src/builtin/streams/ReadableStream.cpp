@@ -3653,8 +3653,8 @@ JS_FN
 cancel
 "
 ReadableStream_cancel
-1
 0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -3663,7 +3663,7 @@ getReader
 "
 ReadableStream_getReader
 0
-0
+JSPROP_ENUMERATE
 )
 /
 /
@@ -3693,7 +3693,7 @@ tee
 "
 ReadableStream_tee
 0
-0
+JSPROP_ENUMERATE
 )
 JS_FS_END
 }
@@ -3712,7 +3712,15 @@ JS_PSG
 locked
 "
 ReadableStream_locked
-0
+JSPROP_ENUMERATE
+)
+JS_STRING_SYM_PS
+(
+toStringTag
+"
+ReadableStream
+"
+JSPROP_READONLY
 )
 JS_PS_END
 }
@@ -3852,6 +3860,8 @@ pipeTo
 ReadableStream_pipeTo
 2
 JSPROP_RESOLVING
+|
+JSPROP_ENUMERATE
 )
 )
 {
@@ -3881,7 +3891,7 @@ ReadableStream
 :
 :
 constructor
-2
+0
 js
 :
 :
