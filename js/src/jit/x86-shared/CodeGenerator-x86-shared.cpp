@@ -18226,7 +18226,6 @@ swizzleInt8x16
 (
 rhs
 lhsDest
-temp1
 )
 ;
 break
