@@ -907,9 +907,6 @@ mLoader
 GetFetchedModule
 (
 mURI
-GetWebExtGlobal
-(
-)
 )
 ;
 if
