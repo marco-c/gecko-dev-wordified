@@ -751,10 +751,7 @@ ConstructFallbackNativeMenus
 void
 InsertMenuAtIndex
 (
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 nsMenuX
 >
@@ -834,10 +831,7 @@ aMenu
 ;
 nsTArray
 <
-mozilla
-:
-:
-UniquePtr
+RefPtr
 <
 nsMenuX
 >
