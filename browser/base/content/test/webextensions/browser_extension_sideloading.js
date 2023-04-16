@@ -77,6 +77,11 @@ hookAMTelemetryEvents
 (
 )
 ;
+const
+kSideloaded
+=
+true
+;
 async
 function
 createWebExtension
@@ -1102,6 +1107,7 @@ history
 "
 ]
 ]
+kSideloaded
 )
 ;
 panel
@@ -1400,6 +1406,7 @@ allUrls
 "
 ]
 ]
+kSideloaded
 )
 ;
 /
@@ -1818,6 +1825,7 @@ allUrls
 "
 ]
 ]
+kSideloaded
 )
 ;
 /
