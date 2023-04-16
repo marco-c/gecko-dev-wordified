@@ -164,6 +164,13 @@ nsGridContainerFrame
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 namespace
 mozilla
 :
@@ -298,9 +305,9 @@ the
 same
 name
 .
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >
@@ -368,7 +375,7 @@ value
 ;
 namesSeen
 .
-PutEntry
+Insert
 (
 areaInfo
 .
