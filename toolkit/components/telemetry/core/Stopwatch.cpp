@@ -2421,9 +2421,13 @@ delta
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
+if
+(
+profiler_can_accept_markers
+(
+)
+)
+{
 nsCString
 markerText
 =
@@ -2480,8 +2484,7 @@ StartTime
 markerText
 )
 ;
-#
-endif
+}
 if
 (
 NS_FAILED
@@ -3352,9 +3355,6 @@ return
 false
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -3425,8 +3425,6 @@ markerText
 )
 ;
 }
-#
-endif
 /
 /
 The

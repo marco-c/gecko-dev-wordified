@@ -3350,9 +3350,6 @@ if
 observer
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 nsPrintfCString
 profilerStr
 (
@@ -3401,8 +3398,6 @@ OTHER
 profilerStr
 )
 ;
-#
-endif
 observer
 -
 >

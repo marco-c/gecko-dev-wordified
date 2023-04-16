@@ -218,9 +218,6 @@ IsEnabled
 (
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 return
 profiler_feature_active
 (
@@ -230,13 +227,6 @@ ProfilerFeature
 Screenshots
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 void
 ProfilerScreenshots

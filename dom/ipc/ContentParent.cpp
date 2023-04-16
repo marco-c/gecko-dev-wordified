@@ -6227,9 +6227,6 @@ aContentParents
 index
 ]
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_thread_is_being_profiled
@@ -6270,8 +6267,6 @@ marker
 )
 ;
 }
-#
-endif
 MOZ_LOG
 (
 ContentParent
@@ -6561,9 +6556,6 @@ StopRecycling
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_thread_is_being_profiled
@@ -6613,8 +6605,6 @@ marker
 )
 ;
 }
-#
-endif
 MOZ_LOG
 (
 ContentParent
@@ -6729,9 +6719,6 @@ AssertAlive
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_thread_is_being_profiled
@@ -6773,8 +6760,6 @@ marker
 )
 ;
 }
-#
-endif
 MOZ_LOG
 (
 ContentParent
@@ -16989,9 +16974,6 @@ Now
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_thread_is_being_profiled
@@ -17063,8 +17045,6 @@ marker
 )
 ;
 }
-#
-endif
 if
 (
 !

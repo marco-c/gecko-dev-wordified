@@ -128,7 +128,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerMarkers
 .
 h
 "
@@ -173,9 +175,6 @@ MessagePhase
 aPhase
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 aMessage
@@ -297,6 +296,11 @@ the
 IPCMarker
 payload
 .
+[
+[
+maybe_unused
+]
+]
 const
 mozilla
 :
@@ -361,8 +365,6 @@ is_sync
 )
 ;
 }
-#
-endif
 }
 }
 /

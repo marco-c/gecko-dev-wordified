@@ -1228,9 +1228,6 @@ CompositorEndFrame
 (
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_thread_is_being_profiled
@@ -1245,6 +1242,11 @@ GetBufferSize
 (
 )
 ;
+[
+[
+maybe_unused
+]
+]
 uint64_t
 windowPixelCount
 =
@@ -1404,8 +1406,6 @@ windowPixelCount
 )
 ;
 }
-#
-endif
 mDrawnPixelCount
 =
 0

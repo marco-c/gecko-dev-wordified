@@ -131,7 +131,9 @@ h
 #
 include
 "
-GeckoProfiler
+mozilla
+/
+ProfilerMarkers
 .
 h
 "
@@ -315,9 +317,6 @@ TimeStamp
 (
 )
 ;
-#
-if
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -384,8 +383,6 @@ str
 )
 ;
 }
-#
-endif
 if
 (
 compositedImageTime
@@ -1460,9 +1457,6 @@ aNewImages
 ]
 )
 ;
-#
-if
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -1576,8 +1570,6 @@ str
 )
 ;
 }
-#
-endif
 }
 mImages
 =
@@ -1673,9 +1665,6 @@ composition
 "
 )
 ;
-#
-if
-MOZ_GECKO_PROFILER
 nsCString
 descr
 ;
@@ -1904,8 +1893,6 @@ GRAPHICS
 descr
 )
 ;
-#
-endif
 if
 (
 mLastFrameID
@@ -2034,9 +2021,6 @@ mDroppedFrames
 =
 dropped
 ;
-#
-if
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -2115,8 +2099,6 @@ text
 )
 ;
 }
-#
-endif
 }
 mLastFrameID
 =
@@ -2612,9 +2594,6 @@ TimedImage
 aNewImage
 )
 {
-#
-if
-MOZ_GECKO_PROFILER
 if
 (
 !
@@ -2825,8 +2804,6 @@ text
 )
 ;
 }
-#
-endif
 }
 }
 /

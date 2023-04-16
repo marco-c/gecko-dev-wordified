@@ -26764,9 +26764,6 @@ called
 "
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 AUTO_PROFILER_MARKER_TEXT
 (
 "
@@ -26815,8 +26812,6 @@ flushType
 ]
 )
 ;
-#
-endif
 #
 ifdef
 ACCESSIBILITY
@@ -62908,9 +62903,11 @@ OverflowChangedTracker
 aOverflowTracker
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
+[
+[
+maybe_unused
+]
+]
 nsIURI
 *
 uri
@@ -62945,8 +62942,6 @@ A
 _ns
 )
 ;
-#
-endif
 LAYOUT_TELEMETRY_RECORD_BASE
 (
 Reflow

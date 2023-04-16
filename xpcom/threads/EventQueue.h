@@ -692,9 +692,6 @@ ShallowSizeOfExcludingThis
 aMallocSizeOf
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 size
 +
 =
@@ -705,8 +702,6 @@ ShallowSizeOfExcludingThis
 aMallocSizeOf
 )
 ;
-#
-endif
 return
 size
 ;
@@ -726,9 +721,6 @@ ItemsPerPage
 >
 mQueue
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 This
@@ -759,8 +751,6 @@ mDispatchTimes
 TimeDuration
 mLastEventDelay
 ;
-#
-endif
 /
 /
 This

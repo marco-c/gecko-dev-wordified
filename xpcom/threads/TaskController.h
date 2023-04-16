@@ -1810,9 +1810,6 @@ mPriorityModifier
 =
 0
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 Time
@@ -1839,8 +1836,6 @@ mozilla
 TimeStamp
 mInsertionTime
 ;
-#
-endif
 }
 ;
 struct

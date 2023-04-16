@@ -2597,9 +2597,6 @@ aCx
 ;
 }
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 AUTO_PROFILER_MARKER_TEXT
 (
 "
@@ -2648,8 +2645,6 @@ nsAutoCString
 }
 )
 ;
-#
-endif
 workerinternals
 :
 :

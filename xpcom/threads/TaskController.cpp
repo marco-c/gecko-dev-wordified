@@ -418,12 +418,6 @@ numCores
 if
 defined
 (
-MOZ_GECKO_PROFILER
-)
-&
-&
-defined
-(
 MOZ_COLLECTING_RUNNABLE_TELEMETRY
 )
 #
@@ -2023,9 +2017,6 @@ manager
 mCurrentPriorityModifier
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 task
 -
 >
@@ -2038,8 +2029,6 @@ Now
 (
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -3989,9 +3978,6 @@ MutexAutoLock
 aProofOfLock
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 nsCOMPtr
 <
 nsIThread
@@ -4042,8 +4028,6 @@ TimeStamp
 )
 ;
 }
-#
-endif
 uint32_t
 totalSuspended
 =
@@ -4598,9 +4582,6 @@ Now
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 mainThread
@@ -4654,8 +4635,6 @@ now
 ;
 }
 }
-#
-endif
 PerformanceCounterState
 :
 :
