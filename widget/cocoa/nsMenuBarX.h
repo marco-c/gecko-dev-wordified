@@ -760,12 +760,12 @@ given
 child
 .
 This
-will
-not
-count
+counts
 the
 application
 menu
+if
+present
 .
 NSInteger
 CalculateNativeInsertionPoint
