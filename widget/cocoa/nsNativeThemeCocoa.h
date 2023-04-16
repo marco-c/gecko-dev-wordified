@@ -2302,6 +2302,8 @@ const
 HIRect
 &
 inBoxRect
+ButtonType
+aButtonType
 ControlParams
 aControlParams
 )
