@@ -388,13 +388,6 @@ h
 #
 include
 "
-nsTHashtable
-.
-h
-"
-#
-include
-"
 nsTStringRepr
 .
 h
@@ -1186,7 +1179,7 @@ IsVoid
 {
 mLoadedItems
 .
-PutEntry
+Insert
 (
 itemInfo
 .
@@ -1235,7 +1228,7 @@ addKeyToUnknownItems
 {
 mUnknownItems
 .
-PutEntry
+Insert
 (
 aKey
 )
@@ -3151,7 +3144,7 @@ if
 (
 mLoadedItems
 .
-GetEntry
+Contains
 (
 aKey
 )
@@ -3159,7 +3152,7 @@ aKey
 |
 mUnknownItems
 .
-GetEntry
+Contains
 (
 aKey
 )
@@ -3229,7 +3222,7 @@ IsVoid
 {
 mUnknownItems
 .
-PutEntry
+Insert
 (
 aKey
 )
@@ -3239,7 +3232,7 @@ else
 {
 mLoadedItems
 .
-PutEntry
+Insert
 (
 aKey
 )
@@ -3299,7 +3292,7 @@ i
 ;
 mLoadedItems
 .
-PutEntry
+Insert
 (
 itemInfo
 .
@@ -3511,7 +3504,7 @@ IsVoid
 ;
 mLoadedItems
 .
-PutEntry
+Insert
 (
 aKey
 )
@@ -3570,7 +3563,7 @@ i
 ;
 mLoadedItems
 .
-PutEntry
+Insert
 (
 itemInfo
 .
