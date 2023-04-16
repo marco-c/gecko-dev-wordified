@@ -7938,6 +7938,15 @@ mArchivedOriginScope
 ConnectionWriteOptimizer
 mWriteOptimizer
 ;
+/
+/
+XXX
+Consider
+changing
+this
+to
+ClientMetadata
+.
 const
 OriginMetadata
 mOriginMetadata

@@ -216,6 +216,14 @@ Rename
 to
 OriginMetadata
 .
+/
+/
+XXX
+Consider
+inheritance
+from
+ClientMetadata
+.
 struct
 QuotaInfo
 :

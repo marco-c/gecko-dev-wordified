@@ -2121,6 +2121,15 @@ nsIFileStream
 >
 mFileStream
 ;
+/
+/
+XXX
+Consider
+changing
+this
+to
+ClientMetadata
+.
 quota
 :
 :
