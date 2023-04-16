@@ -1154,15 +1154,6 @@ available
 )
 ;
 }
-if
-data_path_str
-.
-len
-(
-)
->
-0
-{
 glean
 :
 :
@@ -1207,7 +1198,6 @@ stop
 (
 )
 ;
-}
 NS_OK
 }
 #
