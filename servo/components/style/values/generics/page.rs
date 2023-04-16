@@ -341,7 +341,7 @@ u8
 ]
 pub
 enum
-GenericPageSize
+PageSize
 <
 S
 >
@@ -406,15 +406,6 @@ value
 .
 Auto
 }
-pub
-use
-self
-:
-:
-GenericPageSize
-as
-PageSize
-;
 impl
 <
 S
