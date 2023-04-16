@@ -909,6 +909,7 @@ discoverystreamfeed
 ;
 return
 feed
+?
 .
 loaded
 ;
