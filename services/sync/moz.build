@@ -178,13 +178,6 @@ js
 "
 modules
 /
-browserid_identity
-.
-js
-"
-"
-modules
-/
 collection_validator
 .
 js
@@ -256,6 +249,13 @@ js
 modules
 /
 status
+.
+js
+"
+"
+modules
+/
+sync_auth
 .
 js
 "

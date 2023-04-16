@@ -4246,7 +4246,7 @@ from
 *
 TokenServerClient
 .
-getTokenFromBrowserIDAssertion
+getTokenUsingOAuth
 is
 accepted
 .

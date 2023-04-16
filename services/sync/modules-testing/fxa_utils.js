@@ -120,7 +120,7 @@ js
 ;
 const
 {
-BrowserIDManager
+SyncAuthManager
 }
 =
 ChromeUtils
@@ -136,7 +136,7 @@ services
 -
 sync
 /
-browserid_identity
+sync_auth
 .
 js
 "
@@ -199,7 +199,7 @@ js
 Create
 a
 new
-browserid_identity
+sync_auth
 object
 and
 initialize
@@ -419,7 +419,7 @@ the
 same
 observerPrefix
 as
-browserid_identity
+sync_auth
 uses
 .
 MockTSC
@@ -454,12 +454,12 @@ Service
 identity
 =
 new
-BrowserIDManager
+SyncAuthManager
 (
 )
 ;
 let
-browseridManager
+syncAuthManager
 =
 Weave
 .
@@ -476,9 +476,9 @@ if
 (
 !
 (
-browseridManager
+syncAuthManager
 instanceof
-BrowserIDManager
+SyncAuthManager
 )
 )
 {
@@ -492,8 +492,9 @@ isn
 '
 t
 configured
-for
-browserid_identity
+to
+use
+sync_auth
 "
 )
 ;
@@ -508,10 +509,10 @@ MockTSC
 ;
 configureFxAccountIdentity
 (
-browseridManager
+syncAuthManager
 )
 ;
-browseridManager
+syncAuthManager
 .
 _tokenServerClient
 =

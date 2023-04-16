@@ -632,11 +632,6 @@ lcip
 .
 org
 "
-assertion
-:
-"
-foobar
-"
 sessionToken
 :
 "
