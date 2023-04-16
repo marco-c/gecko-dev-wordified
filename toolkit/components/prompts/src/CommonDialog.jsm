@@ -2241,11 +2241,6 @@ button
 .
 focus
 (
-{
-preventFocusRing
-:
-true
-}
 )
 ;
 }
