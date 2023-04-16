@@ -3821,7 +3821,7 @@ RefPtr
 <
 Element
 >
-content
+element
 (
 this
 )
@@ -3877,7 +3877,7 @@ in
 case
 /
 /
-content
+element
 is
 in
 Shadow
@@ -3889,7 +3889,7 @@ Document
 >
 document
 =
-content
+element
 -
 >
 GetUncomposedDoc
@@ -3906,7 +3906,7 @@ return
 false
 ;
 }
-content
+element
 =
 document
 -
@@ -3919,7 +3919,7 @@ control
 if
 (
 !
-content
+element
 )
 {
 return
@@ -3931,7 +3931,7 @@ nsIFrame
 *
 frame
 =
-content
+element
 -
 >
 GetPrimaryFrame
@@ -3962,18 +3962,16 @@ focused
 =
 false
 ;
+if
+(
 nsXULElement
 *
 elm
 =
 FromNode
 (
-content
+element
 )
-;
-if
-(
-elm
 )
 {
 /
@@ -3990,7 +3988,7 @@ element
 if
 (
 !
-content
+elm
 -
 >
 IsXULElement
@@ -4035,7 +4033,7 @@ radiogroup
 instead
 if
 (
-content
+elm
 -
 >
 IsXULElement
@@ -4053,7 +4051,7 @@ nsIDOMXULSelectControlItemElement
 >
 controlItem
 =
-content
+elm
 -
 >
 AsXULSelectControlItem
@@ -4101,7 +4099,7 @@ else
 {
 elementToFocus
 =
-content
+elm
 ;
 }
 if
@@ -4167,7 +4165,7 @@ aKeyCausesActivation
 &
 &
 !
-content
+elm
 -
 >
 IsXULElement
@@ -4196,7 +4194,7 @@ aIsTrustedEvent
 else
 {
 return
-content
+element
 -
 >
 PerformAccesskey
