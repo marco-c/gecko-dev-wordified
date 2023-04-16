@@ -225,10 +225,6 @@ nsMenuBarX
 aMenuBarIfMenuBar
 )
 :
-mCurrentCommandID
-(
-eCommand_ID_Last
-)
 mMenuBar
 (
 aMenuBarIfMenuBar
