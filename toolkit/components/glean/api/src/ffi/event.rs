@@ -158,7 +158,7 @@ if
 metric_maps
 :
 :
-event_record_wrapper
+record_event_by_id
 (
 id
 Default
@@ -279,7 +279,7 @@ match
 metric_maps
 :
 :
-event_record_wrapper
+record_event_by_id
 (
 id
 extra
@@ -400,7 +400,7 @@ if
 metric_maps
 :
 :
-event_record_wrapper_str
+record_event_by_id_with_strings
 (
 id
 Default
@@ -524,7 +524,7 @@ match
 metric_maps
 :
 :
-event_record_wrapper_str
+record_event_by_id_with_strings
 (
 id
 extra
