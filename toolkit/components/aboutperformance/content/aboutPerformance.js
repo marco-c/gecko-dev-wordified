@@ -2135,11 +2135,11 @@ chrome
 :
 /
 /
-mozapps
+global
 /
 skin
 /
-places
+icons
 /
 defaultFavicon
 .
