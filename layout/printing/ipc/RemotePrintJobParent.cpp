@@ -791,9 +791,9 @@ IPC_OK
 )
 ;
 }
-nsTHashtable
+nsTHashSet
 <
-nsUint64HashKey
+uint64_t
 >
 deps
 ;
@@ -807,7 +807,7 @@ aDeps
 {
 deps
 .
-PutEntry
+Insert
 (
 i
 )
