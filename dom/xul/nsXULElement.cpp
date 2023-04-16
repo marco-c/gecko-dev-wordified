@@ -4201,6 +4201,9 @@ window
 GetFocusedElement
 (
 )
+=
+=
+elementToFocus
 )
 ;
 }
