@@ -21927,9 +21927,7 @@ big
 )
 ;
 }
-if
-(
-!
+return
 ValidateFunctionBody
 (
 env
@@ -21937,14 +21935,6 @@ funcIndex
 bodySize
 d
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 static

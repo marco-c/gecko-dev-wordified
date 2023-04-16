@@ -111022,9 +111022,7 @@ funcType
 )
 )
 ;
-if
-(
-!
+return
 fr
 .
 setupLocals
@@ -111039,14 +111037,6 @@ debugEnabled
 &
 localInfo_
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 FuncOffsets

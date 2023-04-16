@@ -5738,9 +5738,7 @@ return
 true
 ;
 }
-if
-(
-!
+return
 readVarU32
 (
 &
@@ -5749,14 +5747,6 @@ op
 >
 b1
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 /
