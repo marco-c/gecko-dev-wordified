@@ -1987,6 +1987,14 @@ width
 CaretAspectRatio
 /
 /
+GTK
+text
+scale
+factor
+.
+TextScaleFactor
+/
+/
 Not
 an
 ID
