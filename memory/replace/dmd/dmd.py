@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 This
@@ -90,9 +90,13 @@ argparse
 import
 collections
 import
+functools
+import
 gzip
 import
 json
+import
+io
 import
 os
 import
@@ -321,6 +325,26 @@ above
 ?
 "
 ]
+def
+cmp
+(
+a
+b
+)
+:
+    
+return
+(
+a
+>
+b
+)
+-
+(
+a
+<
+b
+)
 class
 Record
 (
@@ -1943,6 +1967,11 @@ gzip
 .
 GzipFile
 (
+mode
+=
+"
+wb
+"
 filename
 =
 "
@@ -2516,17 +2545,13 @@ args
 max_frames
 :
             
-traceTable
-[
-traceKey
-]
-=
+del
 frameKeys
 [
-:
 args
 .
 max_frames
+:
 ]
     
 def
@@ -3412,6 +3437,8 @@ recordKeyPart
 str
 (
                 
+list
+(
 map
 (
 lambda
@@ -3425,6 +3452,7 @@ traceTable
 [
 traceKey
 ]
+)
 )
             
 )
@@ -3762,10 +3790,13 @@ record
 .
 reportedAtDescs
 =
+list
+(
 map
 (
 f
 reportedAtTraceKeys
+)
 )
         
 record
@@ -4609,17 +4640,24 @@ sortedRecords
 =
 sorted
 (
+            
 records
 .
 values
 (
 )
-cmp
+key
 =
+functools
+.
+cmp_to_key
+(
 cmpRecords
+)
 reverse
 =
 True
+        
 )
         
 kindBlocks
@@ -6149,7 +6187,7 @@ traceTable
 "
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -6242,7 +6280,7 @@ frameTable
 "
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -7575,7 +7613,19 @@ tmpFile
     
 prettyPrintDmdJson
 (
+io
+.
+TextIOWrapper
+(
 tmpFile
+encoding
+=
+"
+utf
+-
+8
+"
+)
 j
 )
     
