@@ -519,6 +519,11 @@ uint16_t
 aInputSource
 )
 ;
+void
+PreventClickEvent
+(
+)
+;
 protected
 :
 ~
