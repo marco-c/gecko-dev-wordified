@@ -653,6 +653,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestFileNTFSSpecialPaths
+.
+cpp
+"
+"
 TestFilePreferencesWin
 .
 cpp
