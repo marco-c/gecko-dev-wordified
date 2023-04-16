@@ -500,11 +500,12 @@ platform
 =
 build_platform
 .
-split
+rsplit
 (
 "
 -
 "
+1
 )
 [
 0
