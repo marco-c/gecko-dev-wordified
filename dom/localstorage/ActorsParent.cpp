@@ -28895,7 +28895,8 @@ quotaManager
 >
 ResetUsageForClient
 (
-PERSISTENCE_TYPE_DEFAULT
+ClientMetadata
+{
 mOriginMetadata
 mozilla
 :
@@ -28910,6 +28911,7 @@ Client
 :
 :
 LS
+}
 )
 ;
 }
