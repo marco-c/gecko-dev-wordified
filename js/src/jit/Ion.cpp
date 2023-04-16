@@ -7096,7 +7096,7 @@ if
 !
 JitOptions
 .
-disablePgo
+disablePruning
 &
 &
 !

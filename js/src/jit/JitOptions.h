@@ -273,7 +273,7 @@ bool
 disableLicm
 ;
 bool
-disablePgo
+disablePruning
 ;
 bool
 disableInstructionReordering

@@ -9,7 +9,7 @@ test
 -
 ion
 -
-pgo
+pruning
 =
 off
 ;

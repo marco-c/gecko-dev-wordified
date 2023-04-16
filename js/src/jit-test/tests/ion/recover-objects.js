@@ -15,7 +15,7 @@ ion
 -
 ion
 -
-pgo
+pruning
 =
 on
 /
