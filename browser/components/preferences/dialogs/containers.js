@@ -144,6 +144,8 @@ containers
 window
 -
 update
+-
+settings
 "
 {
 name
