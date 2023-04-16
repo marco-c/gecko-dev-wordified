@@ -2127,7 +2127,7 @@ rv
 }
 mExploredDirectories
 .
-PutEntry
+Insert
 (
 path
 )
