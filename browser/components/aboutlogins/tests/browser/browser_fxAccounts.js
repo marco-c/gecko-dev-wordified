@@ -511,7 +511,7 @@ let
 notification
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -730,7 +730,7 @@ button
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
