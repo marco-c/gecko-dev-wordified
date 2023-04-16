@@ -3184,18 +3184,25 @@ optionally_keyed_by
 (
             
 "
+app
+"
+            
+"
 test
 -
 platform
 "
+            
 "
 test
 -
 name
 "
+            
 "
 variant
 "
+            
 Any
 (
 [
