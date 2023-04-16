@@ -9759,11 +9759,9 @@ skin
 /
 icons
 /
-question
--
-64
+help
 .
-png
+svg
 "
 win
 .
