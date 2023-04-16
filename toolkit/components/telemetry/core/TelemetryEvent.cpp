@@ -2372,9 +2372,9 @@ The
 CategoryName
 set
 .
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 gCategoryNames
 ;
@@ -2393,9 +2393,9 @@ recording
 is
 enabled
 .
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 gEnabledCategories
 ;
@@ -2986,9 +2986,9 @@ ExtraArray
 extra
 )
 {
-nsTHashtable
+nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 validExtraKeys
 ;
@@ -3034,7 +3034,7 @@ i
 {
 validExtraKeys
 .
-PutEntry
+Insert
 (
 common
 .
@@ -3094,7 +3094,7 @@ i
 {
 validExtraKeys
 .
-PutEntry
+Insert
 (
 info
 .
@@ -3131,7 +3131,7 @@ if
 !
 validExtraKeys
 .
-GetEntry
+Contains
 (
 extra
 [
@@ -3515,7 +3515,7 @@ if
 !
 gEnabledCategories
 .
-GetEntry
+Contains
 (
 GetCategory
 (
@@ -4037,7 +4037,7 @@ aBuiltin
 {
 gCategoryNames
 .
-PutEntry
+Insert
 (
 category
 )
@@ -4072,7 +4072,7 @@ builtin
 .
 gEnabledCategories
 .
-PutEntry
+Insert
 (
 category
 )
@@ -5526,7 +5526,7 @@ false
 ;
 gCategoryNames
 .
-PutEntry
+Insert
 (
 info
 .
@@ -5549,7 +5549,7 @@ is
 fixed
 gEnabledCategories
 .
-PutEntry
+Insert
 (
 "
 avif
@@ -9389,7 +9389,7 @@ enabled
 {
 gEnabledCategories
 .
-PutEntry
+Insert
 (
 category
 )
@@ -9399,7 +9399,7 @@ else
 {
 gEnabledCategories
 .
-RemoveEntry
+Remove
 (
 category
 )
