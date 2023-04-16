@@ -504,9 +504,6 @@ nsMenuBarX
 (
 )
 :
-nsMenuGroupOwnerX
-(
-)
 mNeedsRebuild
 (
 false
@@ -517,6 +514,14 @@ nil
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
+mMenuGroupOwner
+=
+new
+nsMenuGroupOwnerX
+(
+this
+)
 ;
 mNativeMenu
 =
@@ -651,6 +656,9 @@ if
 mContent
 )
 {
+mMenuGroupOwner
+-
+>
 UnregisterForContentChanges
 (
 mContent
@@ -729,9 +737,9 @@ AquifyMenuBar
 nsresult
 rv
 =
-nsMenuGroupOwnerX
-:
-:
+mMenuGroupOwner
+-
+>
 Create
 (
 aContent
@@ -749,6 +757,9 @@ return
 rv
 ;
 }
+mMenuGroupOwner
+-
+>
 RegisterForContentChanges
 (
 mContent
@@ -828,7 +839,7 @@ nsMenuX
 >
 (
 this
-this
+mMenuGroupOwner
 menuContent
 -
 >
@@ -1664,7 +1675,7 @@ nsMenuX
 >
 (
 this
-this
+mMenuGroupOwner
 aChild
 )
 aContainer
@@ -3824,6 +3835,9 @@ newMenuItem
 .
 representedObject
 =
+mMenuGroupOwner
+-
+>
 GetRepresentedObject
 (
 )
