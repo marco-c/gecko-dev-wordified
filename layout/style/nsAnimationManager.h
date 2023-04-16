@@ -172,6 +172,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 struct
 nsStyleDisplay
 ;
@@ -643,9 +650,9 @@ for
 style
 invalidation
 .
-nsTHashtable
+nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >

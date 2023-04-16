@@ -43503,7 +43503,7 @@ Frame
 ;
 pushedItems
 .
-PutEntry
+Insert
 (
 item
 .
@@ -43597,7 +43597,7 @@ IsIncomplete
 {
 incompleteItems
 .
-PutEntry
+Insert
 (
 item
 .
@@ -43619,7 +43619,7 @@ IsOverflowIncomplete
 {
 overflowIncompleteItems
 .
-PutEntry
+Insert
 (
 item
 .
