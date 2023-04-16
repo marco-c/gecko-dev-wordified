@@ -133,7 +133,7 @@ open
 "
 README
 .
-rst
+md
 "
 encoding
 =
@@ -158,9 +158,9 @@ with
 open
 (
 "
-HISTORY
+CHANGELOG
 .
-rst
+md
 "
 encoding
 =
@@ -461,6 +461,14 @@ n
 "
 +
 history
+    
+long_description_content_type
+=
+"
+text
+/
+markdown
+"
     
 include_package_data
 =
