@@ -21,7 +21,7 @@ uuid
 from
 io
 import
-StringIO
+BytesIO
 try
 :
     
@@ -4108,7 +4108,7 @@ gzip
     
 out
 =
-StringIO
+BytesIO
 (
 )
     
