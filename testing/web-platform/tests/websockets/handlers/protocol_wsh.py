@@ -29,11 +29,11 @@ headers_in
 get
 (
 '
-Sec
+sec
 -
-WebSocket
+websocket
 -
-Protocol
+protocol
 '
 )
 #
