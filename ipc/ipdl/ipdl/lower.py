@@ -7466,6 +7466,8 @@ sems
 :
             
 if
+(
+                
 self
 .
 decl
@@ -7473,15 +7475,17 @@ decl
 type
 .
 tainted
+                
 and
-'
+"
 NoTaint
-'
+"
 not
 in
 d
 .
 attributes
+                
 and
 direction
 =
@@ -7489,6 +7493,8 @@ direction
 "
 recv
 "
+            
+)
 :
                 
 #
@@ -35511,9 +35517,9 @@ type
 .
 tainted
 and
-'
+"
 NoTaint
-'
+"
 not
 in
 p

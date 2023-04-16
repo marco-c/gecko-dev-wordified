@@ -4448,6 +4448,7 @@ builtinUsing
 def
 declare
 (
+        
 self
 loc
 type
@@ -4464,6 +4465,7 @@ attributes
 =
 {
 }
+    
 )
 :
         
@@ -7804,6 +7806,58 @@ attributes
                 
 {
                     
+#
+Passback
+indicates
+that
+the
+argument
+is
+unused
+by
+the
+Parent
+and
+is
+                    
+#
+merely
+returned
+to
+the
+Child
+later
+.
+                    
+#
+AllValid
+indicates
+that
+the
+entire
+span
+of
+values
+representable
+by
+                    
+#
+the
+type
+are
+acceptable
+.
+e
+.
+g
+.
+0
+-
+255
+in
+a
+uint8
+                    
 "
 NoTaint
 "
@@ -7811,6 +7865,9 @@ NoTaint
 (
 "
 passback
+"
+"
+allvalid
 "
 )
                 
@@ -7837,17 +7894,17 @@ typespec
 loc
             
 if
-'
+"
 NoTaint
-'
+"
 in
 param
 .
 attributes
 and
-'
+"
 Tainted
-'
+"
 not
 in
 md
@@ -7965,6 +8022,7 @@ self
 .
 declare
 (
+                
 loc
 =
 ploc
@@ -7981,6 +8039,7 @@ attributes
 param
 .
 attributes
+            
 )
         
 for
