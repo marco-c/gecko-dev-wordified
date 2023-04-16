@@ -116,10 +116,6 @@ MPL
 /
 include
 protocol
-PExtensions
-;
-include
-protocol
 PWindowGlobal
 ;
 include
@@ -208,9 +204,6 @@ refcounted
 protocol
 PInProcess
 {
-manages
-PExtensions
-;
 manages
 PWindowGlobal
 ;
