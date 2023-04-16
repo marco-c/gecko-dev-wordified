@@ -294,6 +294,13 @@ the
 helper
 .
 await
+TestUtils
+.
+waitForTick
+(
+)
+;
+await
 helper
 .
 closeDialog
