@@ -12507,7 +12507,7 @@ titleL10nId
 "
 sidebar
 -
-settings
+preferences
 -
 button
 -
@@ -12516,11 +12516,7 @@ title
 labelL10nId
 :
 "
-addons
--
-settings
--
-button
+preferences
 "
 onClick
 :
