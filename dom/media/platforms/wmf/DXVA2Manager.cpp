@@ -3971,6 +3971,14 @@ gfx
 :
 YUVColorSpace
 mYUVColorSpace
+=
+gfx
+:
+:
+YUVColorSpace
+:
+:
+UNKNOWN
 ;
 gfx
 :

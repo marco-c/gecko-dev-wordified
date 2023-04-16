@@ -701,7 +701,7 @@ gfx
 YUVColorSpace
 :
 :
-Default
+UNKNOWN
 ;
 }
 }

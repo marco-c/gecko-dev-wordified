@@ -1509,17 +1509,6 @@ CONFIG
 MOZ_CAIRO_CFLAGS
 "
 ]
-CXXFLAGS
-+
-=
-[
-"
--
-Werror
-=
-switch
-"
-]
 if
 CONFIG
 [

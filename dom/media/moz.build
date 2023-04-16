@@ -2053,17 +2053,6 @@ error
 shadow
 "
 ]
-CXXFLAGS
-+
-=
-[
-"
--
-Werror
-=
-switch
-"
-]
 FINAL_LIBRARY
 =
 "

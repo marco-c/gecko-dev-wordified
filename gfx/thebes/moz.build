@@ -1583,14 +1583,3 @@ implicit
 fallthrough
 "
 ]
-CXXFLAGS
-+
-=
-[
-"
--
-Werror
-=
-switch
-"
-]

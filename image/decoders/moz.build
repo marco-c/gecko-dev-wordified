@@ -382,17 +382,6 @@ error
 shadow
 "
 ]
-CXXFLAGS
-+
-=
-[
-"
--
-Werror
-=
-switch
-"
-]
 #
 Add
 libFuzzer

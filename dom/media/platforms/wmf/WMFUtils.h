@@ -284,13 +284,10 @@ uint32_t
 aOutStride
 )
 ;
-Maybe
-<
 gfx
 :
 :
 YUVColorSpace
->
 GetYUVColorSpace
 (
 IMFMediaType

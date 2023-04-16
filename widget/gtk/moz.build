@@ -1007,14 +1007,3 @@ error
 shadow
 "
 ]
-CXXFLAGS
-+
-=
-[
-"
--
-Werror
-=
-switch
-"
-]

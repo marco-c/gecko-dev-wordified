@@ -917,17 +917,6 @@ CONFIG
 TK_CFLAGS
 "
 ]
-CXXFLAGS
-+
-=
-[
-"
--
-Werror
-=
-switch
-"
-]
 if
 CONFIG
 [

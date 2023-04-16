@@ -1303,7 +1303,7 @@ gfx
 YUVColorSpace
 :
 :
-Default
+UNKNOWN
 ;
 }
 }
