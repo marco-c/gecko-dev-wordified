@@ -5463,11 +5463,11 @@ chrome
 :
 /
 /
-mozapps
+global
 /
 skin
 /
-plugins
+icons
 /
 plugin
 .

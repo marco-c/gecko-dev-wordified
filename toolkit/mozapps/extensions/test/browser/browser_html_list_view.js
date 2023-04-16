@@ -5627,7 +5627,7 @@ global
 /
 skin
 /
-plugins
+icons
 /
 plugin
 .
