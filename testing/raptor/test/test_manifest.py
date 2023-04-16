@@ -1393,17 +1393,10 @@ args
 =
 create_args
 (
-        
 test
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
 gecko_profile
 =
@@ -1411,7 +1404,6 @@ True
 browser_cycles
 =
 1
-    
 )
     
 test_list
@@ -1446,13 +1438,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
     
 assert
@@ -1533,13 +1519,7 @@ create_args
 test
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
         
 gecko_profile
@@ -1600,13 +1580,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
     
 assert
@@ -1684,13 +1658,7 @@ create_args
 test
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
         
 gecko_profile
@@ -1751,13 +1719,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
     
 assert
@@ -1834,13 +1796,7 @@ create_args
 test
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
         
 gecko_profile
@@ -1901,13 +1857,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
     
 assert
@@ -1980,17 +1930,10 @@ args
 =
 create_args
 (
-        
 test
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
 debug_mode
 =
@@ -1998,7 +1941,6 @@ True
 browser_cycles
 =
 1
-    
 )
     
 test_list
@@ -2033,13 +1975,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
     
 assert
@@ -2079,17 +2015,10 @@ args
 =
 create_args
 (
-        
 test
 =
 "
-raptor
--
-tp6
--
 amazon
--
-firefox
 "
 live_sites
 =
@@ -2097,7 +2026,6 @@ True
 browser_cycles
 =
 1
-    
 )
     
 test_list
@@ -2132,13 +2060,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
 amazon
--
-firefox
 "
     
 assert
@@ -2180,17 +2102,10 @@ args
 =
 create_args
 (
-        
 test
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
 page_cycles
 =
@@ -2198,7 +2113,6 @@ page_cycles
 browser_cycles
 =
 1
-    
 )
     
 test_list
@@ -2233,13 +2147,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
     
 assert
@@ -2266,17 +2174,10 @@ args
 =
 create_args
 (
-        
 test
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
 page_timeout
 =
@@ -2284,7 +2185,6 @@ page_timeout
 browser_cycles
 =
 1
-    
 )
     
 test_list
@@ -2319,13 +2219,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
     
 assert
@@ -2352,17 +2246,10 @@ args
 =
 create_args
 (
-        
 test
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
 test_url_params
 =
@@ -2374,7 +2261,6 @@ c
 browser_cycles
 =
 1
-    
 )
     
 test_list
@@ -2409,13 +2295,7 @@ name
 =
 =
 "
-raptor
--
-tp6
--
-google
--
-firefox
+amazon
 "
     
 query_params
