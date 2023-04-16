@@ -89,6 +89,23 @@ six
 import
 StringIO
 string_types
+import
+six
+if
+six
+.
+PY3
+:
+    
+def
+unicode
+(
+input
+)
+:
+        
+return
+input
 __all__
 =
 (
@@ -1700,9 +1717,12 @@ _prefs
             
 print
 (
+unicode
+(
 pref_string
 %
 _pref
+)
 file
 =
 f
