@@ -1521,7 +1521,7 @@ NS_OK
 }
 /
 /
-mozInlineSpellStatis
+mozInlineSpellStatus
 :
 :
 InitForNavigation
