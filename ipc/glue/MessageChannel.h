@@ -346,6 +346,7 @@ SendError
 ChannelClosed
 HandlerRejected
 ActorDestroyed
+ResolverDestroyed
 EndGuard_
 }
 ;
