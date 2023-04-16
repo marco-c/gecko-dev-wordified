@@ -25507,9 +25507,12 @@ asm
 js
 or
 WebAssembly
+32
+-
+bit
+/
+/
 memory
-/
-/
 unconditionally
 allocates
 a

@@ -254,6 +254,15 @@ include
 "
 wasm
 /
+WasmJS
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmStubs
 .
 h
