@@ -34857,6 +34857,15 @@ window
 }
 if
 (
+!
+StaticPrefs
+:
+:
+print_tab_modal_enabled
+(
+)
+&
+&
 ShouldPromptToBlockDialogs
 (
 )
