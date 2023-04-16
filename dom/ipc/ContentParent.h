@@ -7065,6 +7065,17 @@ CreateAudioIPCConnectionResolver
 aResolver
 )
 ;
+already_AddRefed
+<
+extensions
+:
+:
+PExtensionsParent
+>
+AllocPExtensionsParent
+(
+)
+;
 PFileDescriptorSetParent
 *
 AllocPFileDescriptorSetParent
