@@ -908,7 +908,6 @@ undefined
 var
 focusOnMouse
 =
-(
 navigator
 .
 platform
@@ -922,6 +921,17 @@ Mac
 !
 =
 0
+|
+|
+SpecialPowers
+.
+getBoolPref
+(
+"
+accessibility
+.
+mouse_focuses_formcontrol
+"
 )
 ;
 compareSnapshots_
