@@ -298,6 +298,12 @@ nsIContent
 >
 mContent
 ;
+/
+/
+always
+non
+-
+null
 nsMenuObjectX
 *
 mMenuObject
