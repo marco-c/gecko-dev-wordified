@@ -3518,6 +3518,15 @@ StoreAfterOnStartRequestBegun
 true
 )
 ;
+StoreHasHTTPSRR
+(
+aArgs
+.
+hasHTTPSRR
+(
+)
+)
+;
 AutoEventEnqueuer
 ensureSerialDispatch
 (

@@ -50379,6 +50379,11 @@ mStatus
 )
 )
 ;
+StoreHasHTTPSRR
+(
+true
+)
+;
 }
 }
 /
