@@ -2175,6 +2175,8 @@ virtual
 nsresult
 FireDelayedDOMEvents
 (
+bool
+aIncludeSubWindows
 )
 override
 ;

@@ -36265,6 +36265,8 @@ nsGlobalWindowInner
 :
 FireDelayedDOMEvents
 (
+bool
+aIncludeSubWindows
 )
 {
 if
@@ -36308,6 +36310,16 @@ FireOfflineStatusEventIfChanged
 (
 )
 ;
+if
+(
+!
+aIncludeSubWindows
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -36465,6 +36477,7 @@ win
 >
 FireDelayedDOMEvents
 (
+true
 )
 ;
 }

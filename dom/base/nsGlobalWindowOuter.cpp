@@ -45836,12 +45836,15 @@ nsGlobalWindowOuter
 :
 FireDelayedDOMEvents
 (
+bool
+aIncludeSubWindows
 )
 {
 FORWARD_TO_INNER
 (
 FireDelayedDOMEvents
 (
+aIncludeSubWindows
 )
 NS_ERROR_UNEXPECTED
 )
