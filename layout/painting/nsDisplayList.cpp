@@ -12125,7 +12125,7 @@ length
 .
 mFrameSet
 .
-RemoveEntry
+Remove
 (
 wrapper
 .
@@ -13015,7 +13015,7 @@ cost
 ;
 mAGRBudgetSet
 .
-PutEntry
+Insert
 (
 aFrame
 )

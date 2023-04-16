@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsTHashtable
+nsTHashSet
 .
 h
 "
@@ -550,12 +550,10 @@ aBlockFrame
 )
 ;
 typedef
-nsTHashtable
-<
-nsPtrHashKey
+nsTHashSet
 <
 nsIFrame
->
+*
 >
 FrameHashtable
 ;

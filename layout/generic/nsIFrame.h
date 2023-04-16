@@ -844,6 +844,13 @@ nsPresContext
 h
 "
 #
+include
+"
+nsTHashSet
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -39034,9 +39041,11 @@ ListTextRuns
 FILE
 *
 out
-nsTHashtable
+nsTHashSet
 <
-nsVoidPtrHashKey
+const
+void
+*
 >
 &
 aSeen

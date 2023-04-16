@@ -877,7 +877,7 @@ i
 mFrames
 -
 >
-RemoveEntry
+Remove
 (
 f
 )
@@ -1106,7 +1106,7 @@ aFromLine
 mFrames
 -
 >
-RemoveEntry
+Remove
 (
 f
 )
@@ -1181,7 +1181,7 @@ aFromLine
 mFrames
 -
 >
-RemoveEntry
+Remove
 (
 f
 )

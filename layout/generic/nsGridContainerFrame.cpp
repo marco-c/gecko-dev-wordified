@@ -29981,9 +29981,9 @@ kMaxLine
 )
 )
 ;
-nsTHashtable
+nsTHashSet
 <
-nsStringHashKey
+nsString
 >
 currentStarts
 ;
@@ -61197,7 +61197,7 @@ aEndRow
 {
 pushedItems
 .
-PutEntry
+Insert
 (
 child
 )
@@ -62280,7 +62280,7 @@ IsIncomplete
 {
 incompleteItems
 .
-PutEntry
+Insert
 (
 child
 )
@@ -62299,7 +62299,7 @@ IsFullyComplete
 {
 overflowIncompleteItems
 .
-PutEntry
+Insert
 (
 child
 )
@@ -64885,7 +64885,7 @@ SetIncomplete
 ;
 pushedItems
 .
-PutEntry
+Insert
 (
 child
 )
@@ -64915,7 +64915,7 @@ SetIncomplete
 ;
 incompleteItems
 .
-PutEntry
+Insert
 (
 child
 )
@@ -64940,7 +64940,7 @@ gridAxis
 ;
 overflowIncompleteItems
 .
-PutEntry
+Insert
 (
 child
 )
