@@ -934,6 +934,12 @@ nsAppShell
 (
 )
 ;
+NS_IMETHOD
+Exit
+(
+)
+override
+;
 nsresult
 AddObserver
 (
