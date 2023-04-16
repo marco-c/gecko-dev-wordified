@@ -764,7 +764,9 @@ m3
 )
 )
 ;
-CACHE_TRY
+QM_TRY
+(
+QM_OR_ELSE_WARN
 (
 ToResult
 (
@@ -780,13 +782,9 @@ DIRECTORY_TYPE
 0755
 )
 )
-.
-orElse
-(
 ErrToDefaultOkOrErr
 <
 NS_ERROR_FILE_ALREADY_EXISTS
-Ok
 >
 )
 )
@@ -829,7 +827,9 @@ kMorgueDirectory
 )
 )
 ;
-CACHE_TRY
+QM_TRY
+(
+QM_OR_ELSE_WARN
 (
 ToResult
 (
@@ -845,13 +845,9 @@ DIRECTORY_TYPE
 0755
 )
 )
-.
-orElse
-(
 ErrToDefaultOkOrErr
 <
 NS_ERROR_FILE_ALREADY_EXISTS
-Ok
 >
 )
 )
@@ -1158,7 +1154,7 @@ nsISupports
 aCopyContext
 )
 {
-CACHE_TRY
+QM_WARNONLY_TRY
 (
 NS_CancelAsyncCopy
 (
@@ -1166,7 +1162,6 @@ NS_CancelAsyncCopy
 aCopyContext
 NS_ERROR_ABORT
 )
-QM_VOID
 )
 ;
 /
@@ -2642,7 +2637,9 @@ aQuotaInfo
 )
 )
 ;
-CACHE_TRY
+QM_TRY
+(
+QM_OR_ELSE_WARN
 (
 ToResult
 (
@@ -2658,9 +2655,6 @@ NORMAL_FILE_TYPE
 0644
 )
 )
-.
-orElse
-(
 MapAlreadyExistsToDefault
 )
 )
@@ -3085,6 +3079,8 @@ const
 auto
 &
 maybeFileSize
+QM_OR_ELSE_WARN
+(
 MOZ_TO_RESULT_INVOKE
 (
 aFile
@@ -3098,9 +3094,6 @@ Some
 int64_t
 >
 )
-.
-orElse
-(
 MapNotFoundToDefault
 <
 Maybe
@@ -3127,7 +3120,9 @@ fileSize
 maybeFileSize
 ;
 }
-CACHE_TRY
+QM_TRY
+(
+QM_OR_ELSE_WARN
 (
 ToResult
 (
@@ -3143,9 +3138,6 @@ recursive
 false
 )
 )
-.
-orElse
-(
 MapNotFoundToDefault
 <
 >
@@ -3471,6 +3463,8 @@ aBaseDir
 {
 CACHE_TRY_RETURN
 (
+QM_OR_ELSE_WARN
+(
 LockedDirectoryPaddingGet
 (
 aBaseDir
@@ -3483,9 +3477,6 @@ Some
 int64_t
 >
 )
-.
-orElse
-(
 MapNotFoundToDefault
 <
 Maybe
@@ -4133,7 +4124,9 @@ PADDING_FILE_NAME
 )
 )
 ;
-CACHE_TRY
+QM_TRY
+(
+QM_OR_ELSE_WARN
 (
 ToResult
 (
@@ -4150,9 +4143,6 @@ recursive
 false
 )
 )
-.
-orElse
-(
 MapNotFoundToDefault
 <
 >

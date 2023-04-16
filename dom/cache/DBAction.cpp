@@ -1194,6 +1194,8 @@ CACHE_TRY_UNWRAP
 (
 auto
 conn
+QM_OR_ELSE_WARN
+(
 MOZ_TO_RESULT_INVOKE_TYPED
 (
 nsCOMPtr
@@ -1207,8 +1209,6 @@ dbFileUrl
 "
 _ns
 )
-.
-orElse
 (
 [
 &
@@ -1319,6 +1319,7 @@ rv
 )
 ;
 }
+)
 )
 )
 ;
