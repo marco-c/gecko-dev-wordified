@@ -720,6 +720,16 @@ GeckoView
 :
 ClearHostData
 "
+"
+GeckoView
+:
+GetAllPermissions
+"
+"
+GeckoView
+:
+GetPermissionsByURI
+"
 ]
 }
 )

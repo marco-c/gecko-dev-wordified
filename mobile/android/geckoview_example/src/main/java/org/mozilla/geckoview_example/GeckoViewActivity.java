@@ -10708,6 +10708,16 @@ session
 final
 String
 url
+final
+List
+<
+GeckoSession
+.
+PermissionDelegate
+.
+ContentPermission
+>
+perms
 )
 {
 mToolbarView
