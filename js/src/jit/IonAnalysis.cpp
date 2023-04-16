@@ -17702,6 +17702,15 @@ MIRGraph
 graph
 )
 {
+MOZ_ASSERT
+(
+graph
+.
+canBuildDominators
+(
+)
+)
+;
 ComputeImmediateDominators
 (
 graph
