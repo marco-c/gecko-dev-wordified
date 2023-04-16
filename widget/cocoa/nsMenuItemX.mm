@@ -862,6 +862,8 @@ nsMenuItemX
 :
 DoCommand
 (
+NSEventModifierFlags
+aModifierFlags
 )
 {
 /
@@ -967,6 +969,7 @@ nsMenuUtilsX
 DispatchCommandTo
 (
 mContent
+aModifierFlags
 )
 ;
 }

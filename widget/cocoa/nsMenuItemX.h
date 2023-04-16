@@ -430,6 +430,8 @@ GetMenuItemType
 void
 DoCommand
 (
+NSEventModifierFlags
+aModifierFlags
 )
 ;
 nsresult
