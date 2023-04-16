@@ -3958,6 +3958,13 @@ let
 item
 ;
 await
+new
+Promise
+(
+requestAnimationFrame
+)
+;
+await
 TestUtils
 .
 waitForCondition
