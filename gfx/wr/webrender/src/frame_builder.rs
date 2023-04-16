@@ -4561,6 +4561,7 @@ add_task
 *
 task_id
 render_tasks
+gpu_cache
 )
 ;
 }
