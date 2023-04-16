@@ -203,7 +203,7 @@ gEnv
 get
 (
 "
-PYTHON3
+PYTHON
 "
 )
 ;
