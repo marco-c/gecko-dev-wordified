@@ -6232,13 +6232,6 @@ args
 u
 "
 -
-no
--
-remote
-"
-u
-"
--
 P
 "
 wideName
