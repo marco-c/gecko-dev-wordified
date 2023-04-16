@@ -149,6 +149,23 @@ false
 }
 )
 ;
+/
+/
+Ensure
+initial
+state
+.
+UrlbarTestUtils
+.
+getOneOffSearchButtons
+(
+window
+)
+.
+invalidateCache
+(
+)
+;
 }
 )
 ;
@@ -241,6 +258,7 @@ window
 value
 :
 "
+test
 "
 }
 )
@@ -378,6 +396,7 @@ window
 value
 :
 "
+test
 "
 }
 )
@@ -856,6 +875,7 @@ window
 value
 :
 "
+test
 "
 }
 )
@@ -996,6 +1016,7 @@ window
 value
 :
 "
+test
 "
 }
 )
