@@ -1955,8 +1955,9 @@ cwd
 )
     
 def
-setup
+setup_browsertime
 (
+        
 self
 command_context
 should_clobber
@@ -1966,6 +1967,7 @@ new_upstream_url
 =
 "
 "
+    
 )
 :
         
@@ -5102,12 +5104,14 @@ update_upstream_url
 return
 self
 .
-setup
+setup_browsertime
 (
+                
 command_context
 new_upstream_url
 =
 update_upstream_url
+            
 )
         
 elif
@@ -5117,7 +5121,7 @@ setup
 return
 self
 .
-setup
+setup_browsertime
 (
 command_context
 should_clobber
