@@ -768,8 +768,6 @@ caller
 It
 can
 be
-ftp
-:
 http
 :
 or
@@ -1321,12 +1319,10 @@ default
 :
 /
 /
-ftp
-:
-or
-any
+Any
 other
 protocol
+that
 is
 supported
 by
