@@ -7012,6 +7012,8 @@ textRangeData
 break
 ;
 }
+#
+endif
 case
 nsIAccessibleEvent
 :
@@ -7134,8 +7136,6 @@ GetEventType
 break
 ;
 }
-#
-endif
 default
 :
 ipcDoc
