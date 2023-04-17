@@ -230,11 +230,7 @@ trr
 .
 mode
 "
-Ci
-.
-nsIDNSService
-.
-MODE_TRRFIRST
+3
 )
 ;
 }
