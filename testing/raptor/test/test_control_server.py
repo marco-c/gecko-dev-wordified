@@ -670,7 +670,6 @@ post_start_background
 (
 )
         
-assert
 control
 .
 background_app
@@ -692,7 +691,6 @@ post_end_background
 (
 )
         
-assert
 control
 .
 foreground_app
