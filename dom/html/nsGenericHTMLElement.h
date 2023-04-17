@@ -288,9 +288,10 @@ dom
 /
 namespace
 mozilla
-typedef
-nsMappedAttributeElement
+using
 nsGenericHTMLElementBase
+=
+nsMappedAttributeElement
 ;
 /
 *
@@ -7645,12 +7646,13 @@ mozilla
 namespace
 dom
 {
-typedef
+using
+HTMLContentCreatorFunction
+=
 nsGenericHTMLElement
 *
 (
 *
-HTMLContentCreatorFunction
 )
 (
 already_AddRefed
@@ -7672,7 +7674,6 @@ dom
 :
 :
 FromParser
-aFromParser
 )
 ;
 }
