@@ -158,6 +158,7 @@ Fields
 PrivateDoubleInit
 MissingPrivateOnGet
 MissingPrivateOnSet
+AssignToPrivateMethod
 }
 ;
 JSErrNum
@@ -180,7 +181,7 @@ uint8_t
 {
 ThrowHas
 ThrowHasNot
-NoThrow
+OnlyCheckRhs
 }
 ;
 }
