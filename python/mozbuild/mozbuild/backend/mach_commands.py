@@ -391,7 +391,7 @@ configure
 the
 tree
             
-builder
+build_commands
 =
 Build
 (
@@ -403,7 +403,7 @@ None
             
 rc
 =
-builder
+build_commands
 .
 configure
 (
@@ -433,7 +433,7 @@ manifests
             
 rc
 =
-builder
+command_context
 .
 _run_make
 (
@@ -512,7 +512,7 @@ compile
                 
 rc
 =
-builder
+command_context
 .
 _run_make
 (
