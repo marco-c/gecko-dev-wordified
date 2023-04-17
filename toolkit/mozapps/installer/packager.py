@@ -125,12 +125,6 @@ mozpack
 files
 import
 ExecutableFile
-from
-mozpack
-.
-mozjar
-import
-JAR_BROTLI
 import
 mozpack
 .
@@ -1088,9 +1082,6 @@ none
 "
 deflate
 "
-"
-brotli
-"
 )
         
 default
@@ -1294,12 +1285,6 @@ deflate
 "
 :
 True
-        
-"
-brotli
-"
-:
-JAR_BROTLI
     
 }
 [
