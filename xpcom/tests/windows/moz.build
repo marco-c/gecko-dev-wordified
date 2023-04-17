@@ -99,6 +99,11 @@ TestNtPathToDosPath
 .
 cpp
 "
+"
+TestPoisonIOInterposer
+.
+cpp
+"
 ]
 OS_LIBS
 +
