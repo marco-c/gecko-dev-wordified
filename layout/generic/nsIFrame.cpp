@@ -43907,6 +43907,7 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 styleISize
+aSizeOverrides
 aFlags
 )
 ;
@@ -44593,6 +44594,7 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 maxISizeCoord
+aSizeOverrides
 aFlags
 )
 .
@@ -44660,6 +44662,7 @@ aCBSize
 boxSizingAdjust
 boxSizingToMarginEdgeISize
 minISizeCoord
+aSizeOverrides
 aFlags
 )
 .
@@ -46357,6 +46360,10 @@ const
 LogicalSize
 &
 aContentEdgeToBoxSizing
+const
+StyleSizeOverrides
+&
+aSizeOverrides
 ComputeSizeFlags
 aFlags
 )
@@ -46395,6 +46402,15 @@ const
 AspectRatio
 aspectRatio
 =
+aSizeOverrides
+.
+mAspectRatio
+?
+*
+aSizeOverrides
+.
+mAspectRatio
+:
 StylePosition
 (
 )
@@ -46430,6 +46446,15 @@ StyleSize
 &
 styleBSize
 =
+aSizeOverrides
+.
+mStyleBSize
+?
+*
+aSizeOverrides
+.
+mStyleBSize
+:
 StylePosition
 (
 )
@@ -46555,6 +46580,10 @@ nscoord
 aBoxSizingToMarginEdge
 ExtremumLength
 aSize
+const
+StyleSizeOverrides
+&
+aSizeOverrides
 ComputeSizeFlags
 aFlags
 )
@@ -46672,6 +46701,7 @@ ComputeInlineSizeFromAspectRatio
 aWM
 aContainingBlockSize
 aContentEdgeToBoxSizing
+aSizeOverrides
 aFlags
 )
 ;
