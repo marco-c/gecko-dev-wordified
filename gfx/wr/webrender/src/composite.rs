@@ -3572,6 +3572,14 @@ DeferredResolve
 >
 )
 {
+for
+sub_slice
+in
+&
+tile_cache
+.
+sub_slices
+{
 let
 mut
 visible_opaque_tile_count
@@ -3620,7 +3628,7 @@ zero
 for
 tile
 in
-tile_cache
+sub_slice
 .
 tiles
 .
@@ -4283,7 +4291,7 @@ CompositeSurfaceDescriptor
 {
 surface_id
 :
-tile_cache
+sub_slice
 .
 native_surface
 .
@@ -4813,7 +4821,7 @@ CompositeSurfaceDescriptor
 {
 surface_id
 :
-tile_cache
+sub_slice
 .
 native_surface
 .
@@ -4876,6 +4884,7 @@ alpha_tile_descriptors
 }
 )
 ;
+}
 }
 }
 fn
