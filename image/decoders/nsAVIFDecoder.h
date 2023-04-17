@@ -197,19 +197,6 @@ aOnResume
 )
 override
 ;
-Maybe
-<
-Telemetry
-:
-:
-HistogramID
->
-SpeedHistogram
-(
-)
-const
-override
-;
 private
 :
 friend
@@ -278,6 +265,7 @@ NonDecoderResult
 {
 NeedMoreData
 MetadataOk
+ParseError
 NoPrimaryItem
 SizeOverflow
 OutOfMemory
@@ -285,8 +273,6 @@ PipeInitError
 WriteBufferError
 AlphaYSizeMismatch
 AlphaYColorDepthMismatch
-MetadataImageSizeMismatch
-InvalidCICP
 }
 ;
 using
@@ -294,7 +280,6 @@ DecodeResult
 =
 Variant
 <
-Mp4parseStatus
 NonDecoderResult
 Dav1dResult
 AOMResult
