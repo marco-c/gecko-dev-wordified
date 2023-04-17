@@ -2422,12 +2422,11 @@ mTransformPtr
 =
 nullptr
 ;
-Maybe
-<
 nsDisplayTransform
 *
->
 mDeferredTransformItem
+=
+nullptr
 ;
 /
 /

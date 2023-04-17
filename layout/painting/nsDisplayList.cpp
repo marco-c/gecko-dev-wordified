@@ -52494,12 +52494,11 @@ Transform
 animationsId
 }
 ;
-Maybe
-<
 nsDisplayTransform
 *
->
 deferredTransformItem
+=
+nullptr
 ;
 if
 (
@@ -52569,10 +52568,7 @@ nsDisplayTransform
 .
 deferredTransformItem
 =
-Some
-(
 this
-)
 ;
 }
 /

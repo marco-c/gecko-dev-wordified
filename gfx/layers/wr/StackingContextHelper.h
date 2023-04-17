@@ -382,13 +382,8 @@ return
 mSnappingSurfaceTransform
 ;
 }
-const
-Maybe
-<
 nsDisplayTransform
 *
->
-&
 GetDeferredTransformItem
 (
 )
@@ -937,9 +932,7 @@ if
 /
 mDeferredTransformItem
 is
-Nothing
-(
-)
+nullptr
 mDeferredAncestorTransform
 will
 also
@@ -1081,11 +1074,8 @@ WebRenderCommandBuilder
 :
 CreateWebRenderCommandsFromDisplayList
 .
-Maybe
-<
 nsDisplayTransform
 *
->
 mDeferredTransformItem
 ;
 Maybe
