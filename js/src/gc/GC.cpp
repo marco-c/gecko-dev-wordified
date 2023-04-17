@@ -31894,15 +31894,6 @@ ZoneComponentFinder
 finder
 (
 cx
--
->
-nativeStackLimit
-[
-JS
-:
-:
-StackForSystemCode
-]
 )
 ;
 if
