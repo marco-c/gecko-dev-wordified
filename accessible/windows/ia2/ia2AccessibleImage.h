@@ -129,9 +129,6 @@ namespace
 a11y
 {
 class
-ImageAccessible
-;
-class
 ia2AccessibleImage
 :
 public
@@ -263,14 +260,6 @@ out
 long
 *
 width
-)
-;
-private
-:
-ImageAccessible
-*
-ImageAcc
-(
 )
 ;
 }

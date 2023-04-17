@@ -143,9 +143,6 @@ namespace
 a11y
 {
 class
-HyperTextAccessibleWrap
-;
-class
 ia2AccessibleHypertext
 :
 public
@@ -308,14 +305,6 @@ retval
 long
 *
 nHyperlinks
-)
-;
-private
-:
-HyperTextAccessibleWrap
-*
-TextAcc
-(
 )
 ;
 }

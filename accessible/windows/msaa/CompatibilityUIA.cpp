@@ -160,15 +160,6 @@ h
 #
 include
 "
-nspr
-/
-prenv
-.
-h
-"
-#
-include
-"
 nsTHashMap
 .
 h
