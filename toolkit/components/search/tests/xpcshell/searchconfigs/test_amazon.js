@@ -455,15 +455,6 @@ au
 ]
 }
 ]
-searchUrlCode
-:
-"
-tag
-=
-mozillaaust0c
--
-22
-"
 suggestionUrlBase
 :
 "
