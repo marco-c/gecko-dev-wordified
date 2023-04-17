@@ -132,6 +132,11 @@ nsIURLDecorationAnnotationsService
 .
 idl
 "
+"
+nsIURLQueryStrippingListService
+.
+idl
+"
 ]
 XPIDL_MODULE
 =
@@ -174,6 +179,11 @@ jsm
 "
 "
 URLDecorationAnnotationsService
+.
+jsm
+"
+"
+URLQueryStrippingListService
 .
 jsm
 "
