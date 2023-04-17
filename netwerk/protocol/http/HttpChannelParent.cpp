@@ -1052,6 +1052,11 @@ beConservative
 )
 a
 .
+bypassProxy
+(
+)
+a
+.
 tlsFlags
 (
 )
@@ -2864,6 +2869,10 @@ const
 bool
 &
 beConservative
+const
+bool
+&
+bypassProxy
 const
 uint32_t
 &

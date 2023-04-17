@@ -2101,6 +2101,9 @@ allowAltSvc
 bool
 beConservative
 ;
+bool
+bypassProxy
+;
 uint32_t
 tlsFlags
 ;
@@ -2301,6 +2304,9 @@ noSpdy
 ;
 bool
 beConservative
+;
+bool
+bypassProxy
 ;
 bool
 anonymousAllowClientCert
