@@ -1312,7 +1312,7 @@ SPSCData
 >
 mSPSCQueue
 {
-20
+40
 }
 ;
 /
