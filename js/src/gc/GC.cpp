@@ -12161,6 +12161,9 @@ ref
 )
 )
 ;
+AutoLockHelperThreadState
+lock
+;
 HelperThreadState
 (
 )
@@ -12168,10 +12171,8 @@ HelperThreadState
 ensureThreadCount
 (
 helperThreadCount
-)
-;
-AutoLockHelperThreadState
 lock
+)
 ;
 HelperThreadState
 (
