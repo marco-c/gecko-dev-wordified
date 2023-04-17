@@ -76,7 +76,7 @@ mozharness
 configuration
 such
 as
-androidarm
+androidarm_4_3
 .
 py
 or

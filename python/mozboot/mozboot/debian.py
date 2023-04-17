@@ -690,6 +690,39 @@ True
 )
     
 def
+install_mobile_android_packages
+(
+self
+mozconfig_builder
+)
+:
+        
+self
+.
+ensure_mobile_android_packages
+(
+mozconfig_builder
+)
+    
+def
+install_mobile_android_artifact_mode_packages
+(
+self
+mozconfig_builder
+)
+:
+        
+self
+.
+ensure_mobile_android_packages
+(
+mozconfig_builder
+artifact_mode
+=
+True
+)
+    
+def
 ensure_browser_packages
 (
 self
@@ -745,7 +778,7 @@ nasm
 )
     
 def
-install_mobile_android_packages
+ensure_mobile_android_packages
 (
 self
 mozconfig_builder
@@ -818,7 +851,7 @@ super
 (
 )
 .
-install_mobile_android_packages
+ensure_mobile_android_packages
 (
 artifact_mode
 =
