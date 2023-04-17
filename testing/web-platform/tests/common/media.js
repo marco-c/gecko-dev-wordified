@@ -273,7 +273,7 @@ ogv
 "
 :
 "
-video
+application
 /
 ogg
 "
@@ -291,7 +291,7 @@ oga
 "
 :
 "
-audio
+application
 /
 ogg
 "
