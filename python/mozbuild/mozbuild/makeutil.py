@@ -67,8 +67,6 @@ import
 six
 from
 collections
-.
-abc
 import
 Iterable
 class

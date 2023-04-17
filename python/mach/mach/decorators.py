@@ -968,8 +968,6 @@ command
 conditions
 collections
 .
-abc
-.
 Iterable
 )
 :

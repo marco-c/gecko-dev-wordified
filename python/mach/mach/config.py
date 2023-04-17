@@ -732,8 +732,6 @@ ConfigSettings
 (
 collections
 .
-abc
-.
 Mapping
 )
 :
@@ -1071,8 +1069,6 @@ class
 ConfigSection
 (
 collections
-.
-abc
 .
 MutableMapping
 object
@@ -1945,15 +1941,21 @@ classmethod
 def
 _format_metadata
 (
+        
 cls
+        
 type_cls
+        
 description
+        
 default
 =
 DefaultValue
+        
 extra
 =
 None
+    
 )
 :
         
@@ -2083,16 +2085,19 @@ type_cls
 meta
 =
 {
+            
 "
 description
 "
 :
 description
+            
 "
 type_cls
 "
 :
 type_cls
+        
 }
         
 if

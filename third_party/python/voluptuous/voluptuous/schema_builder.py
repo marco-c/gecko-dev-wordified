@@ -83,33 +83,6 @@ d
 iteritems
 (
 )
-if
-sys
-.
-version_info
->
-=
-(
-3
-3
-)
-:
-    
-_Mapping
-=
-collections
-.
-abc
-.
-Mapping
-else
-:
-    
-_Mapping
-=
-collections
-.
-Mapping
 "
 "
 "
@@ -1903,7 +1876,9 @@ if
 isinstance
 (
 schema
-_Mapping
+collections
+.
+Mapping
 )
 :
             
@@ -4620,7 +4595,7 @@ path
 Empty
 seq
 schema
-reject
+allow
 any
 data
 .
@@ -4651,12 +4626,14 @@ a
 valid
 value
 '
-path
-if
-path
-else
-data
+[
+value
+]
 )
+for
+value
+in
+data
                     
 ]
 )
@@ -5497,8 +5474,7 @@ have
 been
 passed
 as
-an
-argument
+arugment
 to
 Marker
 constructor
@@ -5786,13 +5762,6 @@ send
 old
 object
         
-result_cls
-=
-type
-(
-self
-)
-        
 result_required
 =
 (
@@ -5824,7 +5793,7 @@ extra
 )
         
 return
-result_cls
+Schema
 (
 result
 required
@@ -6069,6 +6038,8 @@ data
             
 except
 ValueError
+as
+e
 :
                 
 raise
@@ -8569,16 +8540,9 @@ __init__
 self
 schema
 group_of_inclusion
-                 
 msg
 =
 None
-description
-=
-None
-default
-=
-UNDEFINED
 )
 :
         
@@ -8594,14 +8558,6 @@ schema
 msg
 =
 msg
-                                        
-default
-=
-default
-                                        
-description
-=
-description
 )
         
 self
