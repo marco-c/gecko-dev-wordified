@@ -10178,13 +10178,10 @@ ownerDoc
 CSSLoader
 (
 )
-dom
+StyleCssRuleType
 :
 :
-CSSRule_Binding
-:
-:
-STYLE_RULE
+Style
 )
 ;
 if

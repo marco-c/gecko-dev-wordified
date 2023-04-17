@@ -892,7 +892,7 @@ css
 Loader
 *
 aLoader
-uint16_t
+StyleCssRuleType
 aRuleType
 )
 {
@@ -952,7 +952,7 @@ css
 Loader
 *
 aLoader
-uint16_t
+StyleCssRuleType
 aRuleType
 )
 {

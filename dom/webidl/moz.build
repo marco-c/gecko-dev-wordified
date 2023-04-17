@@ -3309,6 +3309,11 @@ CSSKeyframesRule
 webidl
 "
 "
+CSSLayerRule
+.
+webidl
+"
+"
 CSSMediaRule
 .
 webidl

@@ -223,6 +223,9 @@ class
 nsIPrincipal
 ;
 class
+nsITimer
+;
+class
 nsFontFaceLoader
 final
 :

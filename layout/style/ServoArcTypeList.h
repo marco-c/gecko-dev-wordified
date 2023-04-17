@@ -358,6 +358,11 @@ RawServoKeyframesRule
 )
 SERVO_ARC_TYPE
 (
+LayerRule
+RawServoLayerRule
+)
+SERVO_ARC_TYPE
+(
 MediaList
 RawServoMediaList
 )

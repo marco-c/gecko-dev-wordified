@@ -8237,10 +8237,10 @@ GetCompatibilityMode
 (
 )
 mLoader
-CSSRule_Binding
+StyleCssRuleType
 :
 :
-STYLE_RULE
+Style
 {
 }
 )

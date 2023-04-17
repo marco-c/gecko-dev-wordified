@@ -763,6 +763,11 @@ CSSKeyframesRule
 h
 "
 "
+CSSLayerRule
+.
+h
+"
+"
 CSSMediaRule
 .
 h
@@ -953,6 +958,11 @@ cpp
 "
 "
 CSSKeyframesRule
+.
+cpp
+"
+"
+CSSLayerRule
 .
 cpp
 "

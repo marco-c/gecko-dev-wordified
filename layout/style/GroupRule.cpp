@@ -172,8 +172,8 @@ dom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 css
 {
 GroupRule
@@ -787,9 +787,7 @@ return
 /
 /
 namespace
-css
-}
-/
-/
-namespace
 mozilla
+:
+:
+css

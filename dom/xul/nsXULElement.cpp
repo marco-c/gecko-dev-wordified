@@ -11261,10 +11261,10 @@ aValue
 data
 eCompatibility_FullStandards
 nullptr
-CSSRule_Binding
+StyleCssRuleType
 :
 :
-STYLE_RULE
+Style
 )
 ;
 if

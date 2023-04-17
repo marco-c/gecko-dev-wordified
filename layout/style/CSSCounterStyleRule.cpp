@@ -254,7 +254,7 @@ get
 }
 #
 endif
-uint16_t
+StyleCssRuleType
 CSSCounterStyleRule
 :
 :
@@ -264,10 +264,10 @@ Type
 const
 {
 return
-CSSRule_Binding
+StyleCssRuleType
 :
 :
-COUNTER_STYLE_RULE
+CounterStyle
 ;
 }
 void

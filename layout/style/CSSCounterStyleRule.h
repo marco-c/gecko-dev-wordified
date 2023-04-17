@@ -145,8 +145,8 @@ RawServoCounterStyleRule
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -294,7 +294,7 @@ endif
 /
 WebIDL
 interface
-uint16_t
+StyleCssRuleType
 Type
 (
 )
@@ -411,12 +411,10 @@ mRawRule
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /

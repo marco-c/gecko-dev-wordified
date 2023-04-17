@@ -149,8 +149,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -437,7 +437,7 @@ RawServoFontFaceRule
 /
 WebIDL
 interface
-uint16_t
+StyleCssRuleType
 Type
 (
 )
@@ -627,12 +627,10 @@ mDecl
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
