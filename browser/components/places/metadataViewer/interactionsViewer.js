@@ -1302,8 +1302,7 @@ TableViewer
 title
 =
 "
-Page
-Metadata
+Interactions
 "
 ;
 cssGridTemplateColumns
