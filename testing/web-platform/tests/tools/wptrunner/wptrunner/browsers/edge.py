@@ -15,6 +15,15 @@ ExecutorBrowser
 require_arg
 from
 .
+base
+import
+NullBrowser
+#
+noqa
+:
+F401
+from
+.
 .
 webdriver_server
 import
@@ -82,9 +91,21 @@ check_args
 browser
 "
 :
+{
+None
+:
 "
 EdgeBrowser
 "
+                             
+"
+wdspec
+"
+:
+"
+NullBrowser
+"
+}
                  
 "
 executor
