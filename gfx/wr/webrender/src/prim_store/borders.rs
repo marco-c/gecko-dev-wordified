@@ -885,9 +885,6 @@ _
 &
 mut
 PrimitiveStore
-_reference_frame_relative_offset
-:
-LayoutVector2D
 )
 -
 >
@@ -1827,9 +1824,6 @@ _
 &
 mut
 PrimitiveStore
-_reference_frame_relative_offset
-:
-LayoutVector2D
 )
 -
 >
