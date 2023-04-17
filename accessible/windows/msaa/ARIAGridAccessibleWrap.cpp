@@ -298,7 +298,7 @@ ARIAGridAccessible
 IMPL_IUNKNOWN_INHERITED2
 (
 ARIAGridAccessibleWrap
-AccessibleWrap
+MsaaAccessible
 HyperTextAccessibleWrap
 ia2AccessibleTable
 )

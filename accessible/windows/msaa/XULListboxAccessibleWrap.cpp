@@ -304,7 +304,7 @@ IsMulticolumn
 ;
 IMPL_IUNKNOWN_QUERY_CLASS
 (
-AccessibleWrap
+MsaaAccessible
 )
 IMPL_IUNKNOWN_QUERY_TAIL
 void

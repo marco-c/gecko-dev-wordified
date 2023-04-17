@@ -195,5 +195,5 @@ S_OK
 }
 IMPL_IUNKNOWN_QUERY_TAIL_INHERITED
 (
-AccessibleWrap
+MsaaAccessible
 )

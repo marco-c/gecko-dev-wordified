@@ -135,6 +135,6 @@ ImageAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 ImageAccessibleWrap
-AccessibleWrap
+MsaaAccessible
 ia2AccessibleImage
 )
