@@ -4515,6 +4515,9 @@ aPreservesPitch
 if
 (
 mData
+&
+&
+mData
 -
 >
 mAudioTrack
