@@ -25869,6 +25869,7 @@ arm
 arm64
 x64
 x86
+mips64
 )
 ;
 void
@@ -25895,6 +25896,7 @@ arm
 arm64
 x64
 x86
+mips64
 )
 ;
 /
@@ -26122,6 +26124,7 @@ arm
 arm64
 x64
 x86
+mips64
 )
 ;
 void
@@ -26146,6 +26149,7 @@ arm
 arm64
 x64
 x86
+mips64
 )
 ;
 /
@@ -26567,6 +26571,7 @@ DEFINED_ON
 arm
 arm64
 x64
+mips64
 )
 ;
 void
@@ -26621,6 +26626,7 @@ DEFINED_ON
 arm
 arm64
 x64
+mips64
 )
 ;
 void
@@ -26738,6 +26744,7 @@ DEFINED_ON
 (
 arm
 arm64
+mips64
 )
 ;
 void
@@ -26783,6 +26790,7 @@ DEFINED_ON
 (
 arm
 arm64
+mips64
 )
 ;
 /
