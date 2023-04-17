@@ -1517,6 +1517,13 @@ eBasicEventClass
 )
 EVENT
 (
+securitypolicyviolation
+eSecurityPolicyViolation
+EventNameType_All
+eBasicEventClass
+)
+EVENT
+(
 seeked
 eSeeked
 EventNameType_HTML

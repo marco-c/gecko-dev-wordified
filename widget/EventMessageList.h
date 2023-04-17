@@ -2553,6 +2553,15 @@ eVisibilityChange
 )
 /
 /
+security
+policy
+events
+NS_EVENT_MESSAGE
+(
+eSecurityPolicyViolation
+)
+/
+/
 Details
 element
 events
