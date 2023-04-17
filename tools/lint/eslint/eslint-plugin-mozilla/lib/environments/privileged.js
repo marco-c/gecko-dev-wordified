@@ -1379,6 +1379,9 @@ false
 PlacesBookmarkRemoved
 :
 false
+PlacesBookmarkTitle
+:
+false
 PlacesEvent
 :
 false
