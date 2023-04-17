@@ -929,11 +929,11 @@ NotifyCloseAll
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
+Unused
+<
+<
 SendCloseAll
 (
-)
 )
 ;
 }
