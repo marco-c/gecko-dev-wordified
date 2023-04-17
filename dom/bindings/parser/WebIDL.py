@@ -1949,7 +1949,7 @@ to
 merge
 overloads
 of
-NamedConstructors
+LegacyFactoryFunctions
 and
 we
 need
@@ -1975,7 +1975,7 @@ IDLInterface
 addExtendedAttributes
 for
 "
-NamedConstructor
+LegacyFactoryFunction
 "
 .
         
@@ -3907,7 +3907,7 @@ identifier
 =
 =
 "
-NamedConstructor
+LegacyFactoryFunction
 "
 :
                 
@@ -5993,7 +5993,7 @@ them
         
 self
 .
-namedConstructors
+legacyFactoryFunctions
 =
 list
 (
@@ -7682,7 +7682,7 @@ ctor
 in
 self
 .
-namedConstructors
+legacyFactoryFunctions
 :
             
 if
@@ -7702,8 +7702,9 @@ t
 have
 both
 a
-named
-constructor
+legacy
+factory
+function
 and
 [
 Global
@@ -9982,7 +9983,7 @@ namedCtor
 in
 self
 .
-namedConstructors
+legacyFactoryFunctions
 :
             
 namedCtor
@@ -12135,7 +12136,7 @@ identifier
 =
 =
 "
-NamedConstructor
+LegacyFactoryFunction
 "
 :
                 
@@ -12153,7 +12154,7 @@ WebIDLError
 (
                         
 "
-NamedConstructor
+LegacyFactoryFunction
 must
 either
 take
@@ -12278,7 +12279,7 @@ to
 detect
 conflicts
 for
-NamedConstructors
+LegacyFactoryFunctions
 across
                 
 #
@@ -12297,7 +12298,7 @@ which
 will
 merge
 all
-NamedConstructors
+LegacyFactoryFunctions
 with
 the
 same
@@ -12371,7 +12372,7 @@ we
 ve
 encountered
 a
-NamedConstructor
+LegacyFactoryFunction
 with
 that
 identifier
@@ -12420,7 +12421,7 @@ our
 existing
                 
 #
-NamedConstructors
+LegacyFactoryFunctions
 .
                 
 newMethod
@@ -12445,7 +12446,7 @@ method
                     
 self
 .
-namedConstructors
+legacyFactoryFunctions
 .
 append
 (
@@ -12458,7 +12459,7 @@ not
 in
 self
 .
-namedConstructors
+legacyFactoryFunctions
 :
                     
 raise
@@ -12466,14 +12467,14 @@ WebIDLError
 (
                         
 "
-NamedConstructor
+LegacyFactoryFunction
 conflicts
 with
 a
 "
                         
 "
-NamedConstructor
+LegacyFactoryFunction
 of
 a
 different
@@ -43146,8 +43147,9 @@ end
 up
 here
 for
-named
-constructors
+legacy
+factory
+functions
 .
             
 assert

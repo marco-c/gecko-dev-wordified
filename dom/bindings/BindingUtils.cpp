@@ -5421,7 +5421,7 @@ constructorClass
 unsigned
 ctorNargs
 const
-NamedConstructor
+LegacyFactoryFunction
 *
 namedConstructors
 JS
@@ -6623,7 +6623,7 @@ constructorClass
 unsigned
 ctorNargs
 const
-NamedConstructor
+LegacyFactoryFunction
 *
 namedConstructors
 JS

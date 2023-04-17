@@ -6822,7 +6822,7 @@ descriptor
 .
 interface
 .
-namedConstructors
+legacyFactoryFunctions
 )
     
 signatures

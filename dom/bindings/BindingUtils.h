@@ -5167,7 +5167,7 @@ mPropertyHooks
 }
 ;
 struct
-NamedConstructor
+LegacyFactoryFunction
 {
 const
 char
@@ -5812,7 +5812,7 @@ constructorClass
 unsigned
 ctorNargs
 const
-NamedConstructor
+LegacyFactoryFunction
 *
 namedConstructors
 JS
@@ -17271,7 +17271,7 @@ Constructor
 {
 /
 /
-NamedConstructor
+LegacyFactoryFunction
 like
 Image
 return
