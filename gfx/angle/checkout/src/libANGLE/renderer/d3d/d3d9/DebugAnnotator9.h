@@ -99,7 +99,7 @@ gl
 Context
 *
 context
-angle
+gl
 :
 :
 EntryPoint
@@ -128,7 +128,7 @@ const
 char
 *
 eventName
-angle
+gl
 :
 :
 EntryPoint

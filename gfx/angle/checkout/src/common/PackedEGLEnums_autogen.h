@@ -26,7 +26,7 @@ json
 /
 /
 Copyright
-2017
+2020
 The
 ANGLE
 Project
@@ -109,6 +109,13 @@ include
 EGL
 /
 eglext
+.
+h
+>
+#
+include
+<
+angle_gl
 .
 h
 >

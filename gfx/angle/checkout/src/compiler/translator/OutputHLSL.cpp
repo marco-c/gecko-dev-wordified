@@ -226,8 +226,6 @@ translator
 /
 tree_ops
 /
-d3d
-/
 RemoveSwitchFallThrough
 .
 h
@@ -1776,7 +1774,7 @@ TInterfaceBlock
 *
 >
 &
-uniformBlockOptimizedMap
+uniformBlocksTranslatedToStructuredBuffers
 const
 std
 :
@@ -1832,9 +1830,9 @@ mInsideMain
 (
 false
 )
-mUniformBlockOptimizedMap
+mUniformBlocksTranslatedToStructuredBuffers
 (
-uniformBlockOptimizedMap
+uniformBlocksTranslatedToStructuredBuffers
 )
 mNumRenderTargets
 (
@@ -2029,6 +2027,7 @@ int
 firstUniformRegister
 =
 (
+(
 compileOptions
 &
 SH_SKIP_D3D_CONSTANT_REGISTER_ZERO
@@ -2036,6 +2035,7 @@ SH_SKIP_D3D_CONSTANT_REGISTER_ZERO
 !
 =
 0
+)
 ?
 1u
 :
@@ -2136,6 +2136,7 @@ new
 ShaderStorageBlockOutputHLSL
 (
 this
+symbolTable
 mResourcesHLSL
 shaderStorageBlocks
 )
@@ -3800,7 +3801,7 @@ mResourcesHLSL
 uniformBlocksHeader
 (
 mReferencedUniformBlocks
-mUniformBlockOptimizedMap
+mUniformBlocksTranslatedToStructuredBuffers
 )
 ;
 mSSBOOutputHLSL
@@ -9433,7 +9434,7 @@ if
 interfaceBlock
 &
 &
-mUniformBlockOptimizedMap
+mUniformBlocksTranslatedToStructuredBuffers
 .
 count
 (
@@ -9692,7 +9693,7 @@ if
 interfaceBlock
 &
 &
-mUniformBlockOptimizedMap
+mUniformBlocksTranslatedToStructuredBuffers
 .
 count
 (
@@ -10242,7 +10243,7 @@ if
 structInStd140UniformBlock
 |
 |
-mUniformBlockOptimizedMap
+mUniformBlocksTranslatedToStructuredBuffers
 .
 count
 (
@@ -19059,14 +19060,13 @@ mCompileOptions
 &
 SH_LINE_DIRECTIVES
 )
-!
-=
-0
 &
 &
+(
 line
 >
 0
+)
 )
 {
 out

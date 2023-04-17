@@ -290,10 +290,10 @@ ResourceType
 using
 HashMap
 =
-angle
+std
 :
 :
-HashMap
+unordered_map
 <
 GLuint
 ResourceType

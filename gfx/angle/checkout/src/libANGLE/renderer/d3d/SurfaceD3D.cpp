@@ -574,7 +574,6 @@ nullptr
 nullptr
 &
 mColorFormat
-nullptr
 )
 )
 ;
