@@ -120,8 +120,8 @@ path
 :
 :
 {
-PathBuf
 Path
+PathBuf
 }
 ;
 use
