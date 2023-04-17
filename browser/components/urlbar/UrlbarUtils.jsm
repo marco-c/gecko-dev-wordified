@@ -1032,9 +1032,11 @@ chrome
 :
 /
 /
-browser
+mozapps
 /
-content
+skin
+/
+extensions
 /
 extension
 .
