@@ -1044,7 +1044,7 @@ mRDDChild
 >
 Open
 (
-TakeChannel
+TakeInitialPort
 (
 )
 base
