@@ -401,6 +401,9 @@ EGL_ANGLE_platform_angle
 "
 EGL_ANGLE_platform_angle_d3d
 "
+"
+EGL_EXT_device_query
+"
 }
 ;
 /
@@ -467,9 +470,6 @@ EGL_KHR_stream
 "
 "
 EGL_KHR_stream_consumer_gltexture
-"
-"
-EGL_EXT_device_query
 "
 "
 EGL_NV_stream_consumer_gltexture_yuv

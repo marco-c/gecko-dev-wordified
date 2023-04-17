@@ -704,12 +704,15 @@ egl
 egl
 -
 >
+mLib
+-
+>
 IsExtensionSupported
 (
 gl
 :
 :
-EGLExtension
+EGLLibExtension
 :
 :
 EXT_device_query
