@@ -1352,6 +1352,11 @@ global
 ;
 /
 *
+TODO
+:
+bug
+1705289
+*
 If
 the
 relevant
@@ -1405,7 +1410,7 @@ wc
 wc
 -
 >
-HasValidTransientUserGestureActivation
+HasBeenUserGestureActivated
 (
 )
 )
