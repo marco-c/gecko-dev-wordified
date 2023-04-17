@@ -381,7 +381,7 @@ CHECK
 desc
 -
 >
-hasGetterObject
+hasGetter
 (
 )
 )
@@ -391,7 +391,7 @@ CHECK
 desc
 -
 >
-hasSetterObject
+hasSetter
 (
 )
 )

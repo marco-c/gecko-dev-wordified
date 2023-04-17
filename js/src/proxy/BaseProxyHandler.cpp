@@ -1541,7 +1541,7 @@ if
 (
 ownDesc
 .
-hasSetterObject
+hasSetter
 (
 )
 )

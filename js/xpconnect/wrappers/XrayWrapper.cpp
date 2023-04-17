@@ -13068,7 +13068,7 @@ getterWasWaived
 orig
 -
 >
-hasGetterObject
+hasGetter
 (
 )
 &
@@ -13100,7 +13100,7 @@ setterWasWaived
 orig
 -
 >
-hasSetterObject
+hasSetter
 (
 )
 &

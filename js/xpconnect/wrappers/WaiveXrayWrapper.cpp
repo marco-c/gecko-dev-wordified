@@ -247,7 +247,7 @@ if
 (
 desc_
 .
-hasGetterObject
+hasGetter
 (
 )
 &
@@ -312,7 +312,7 @@ if
 (
 desc_
 .
-hasSetterObject
+hasSetter
 (
 )
 &

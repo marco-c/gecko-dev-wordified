@@ -3225,7 +3225,7 @@ if
 desc
 -
 >
-hasGetterObject
+hasGetter
 (
 )
 &
@@ -3275,7 +3275,7 @@ if
 desc
 -
 >
-hasSetterObject
+hasSetter
 (
 )
 &
