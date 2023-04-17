@@ -319,7 +319,7 @@ let
 notification
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
