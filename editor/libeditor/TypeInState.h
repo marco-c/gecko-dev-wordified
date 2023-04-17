@@ -551,7 +551,7 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
 )
 ;

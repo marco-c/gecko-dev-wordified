@@ -20561,14 +20561,10 @@ Failed
 )
 )
 ;
-MOZ_KnownLive
-(
-SelectionRefPtr
+SelectionRef
 (
 )
-)
--
->
+.
 CollapseInLimiter
 (
 aPoint
