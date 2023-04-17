@@ -1125,6 +1125,9 @@ self
 sig
 =
 None
+timeout
+=
+None
 )
 :
         
@@ -1150,6 +1153,29 @@ process
 defaults
 to
 SIGKILL
+                    
+(
+has
+no
+effect
+on
+Windows
+)
+.
+        
+:
+param
+timeout
+:
+Maximum
+time
+to
+wait
+for
+the
+processs
+to
+exit
                     
 (
 has
@@ -1283,6 +1309,9 @@ kill
 sig
 =
 sig
+timeout
+=
+timeout
 )
         
 return
