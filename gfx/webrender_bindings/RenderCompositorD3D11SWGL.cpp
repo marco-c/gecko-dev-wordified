@@ -2054,6 +2054,14 @@ D3D11_MAP_READ_WRITE
 mappedSubresource
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+SUCCEEDED
+(
+hr
+)
+)
+;
 }
 }
 MOZ_RELEASE_ASSERT
