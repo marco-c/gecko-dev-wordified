@@ -1229,8 +1229,10 @@ useDefaultItem
 Should
 have
 selected
-always
-ask
+'
+use
+default
+'
 item
 (
 "
