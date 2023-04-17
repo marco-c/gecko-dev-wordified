@@ -382,6 +382,10 @@ aStyle
 const
 EventStates
 &
+aElementState
+const
+EventStates
+&
 aDocumentState
 UseSystemColors
 DPIRatio
@@ -423,6 +427,10 @@ const
 ComputedStyle
 &
 aStyle
+const
+EventStates
+&
+aElementState
 const
 EventStates
 &

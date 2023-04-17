@@ -2340,6 +2340,10 @@ ComputedStyle
 const
 EventStates
 &
+aElementState
+const
+EventStates
+&
 aDocumentState
 UseSystemColors
 DPIRatio
@@ -2361,6 +2365,10 @@ nsIFrame
 const
 ComputedStyle
 &
+const
+EventStates
+&
+aElementState
 const
 EventStates
 &
@@ -2389,6 +2397,10 @@ nsIFrame
 const
 ComputedStyle
 &
+const
+EventStates
+&
+aElementState
 const
 EventStates
 &
@@ -2597,6 +2609,10 @@ CSSIntCoord
 sVerticalScrollbarWidth
 ;
 static
+bool
+sOverlayScrollbars
+;
+static
 void
 PrefChangedCallback
 (
@@ -2620,7 +2636,7 @@ RecomputeAccentColors
 ;
 static
 void
-RecomputeScrollbarSizes
+RecomputeScrollbarParams
 (
 )
 ;
