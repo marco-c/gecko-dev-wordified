@@ -9289,6 +9289,8 @@ endswith
 esr
 "
 )
+or
+None
 app_version
 =
 app_version
@@ -9353,7 +9355,7 @@ is_release_or_beta
 set_config
 (
 "
-ESR
+MOZ_ESR
 "
 milestone
 .
@@ -9362,7 +9364,7 @@ is_esr
 set_define
 (
 "
-ESR
+MOZ_ESR
 "
 milestone
 .

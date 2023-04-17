@@ -828,14 +828,7 @@ if
 (
 AppConstants
 .
-MOZ_APP_VERSION_DISPLAY
-.
-endsWith
-(
-"
-esr
-"
-)
+IS_ESR
 )
 {
 document
