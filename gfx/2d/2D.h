@@ -10170,6 +10170,15 @@ empty
 )
 .
 *
+aRect
+is
+a
+rectangle
+in
+user
+space
+.
+*
 /
 virtual
 RefPtr
