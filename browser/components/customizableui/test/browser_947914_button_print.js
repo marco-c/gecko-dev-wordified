@@ -204,6 +204,8 @@ opened
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -303,6 +305,8 @@ click
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -340,6 +344,8 @@ exitPrintPreview
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (

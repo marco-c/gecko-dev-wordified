@@ -497,6 +497,8 @@ click
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (

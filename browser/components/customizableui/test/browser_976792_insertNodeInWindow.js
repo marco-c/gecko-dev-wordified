@@ -535,6 +535,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -733,6 +735,8 @@ resetCustomization
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -945,6 +949,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -1152,6 +1158,8 @@ resetCustomization
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -1366,6 +1374,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -1578,6 +1588,8 @@ resetCustomization
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -1920,6 +1932,8 @@ has
 settled
 "
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -2174,6 +2188,8 @@ resetCustomization
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -2467,6 +2483,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -2645,6 +2663,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -2936,6 +2956,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -3035,6 +3057,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -3346,6 +3370,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -3480,6 +3506,8 @@ outerHeight
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
