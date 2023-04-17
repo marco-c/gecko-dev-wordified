@@ -8859,6 +8859,11 @@ downloadsHistory
 .
 focus
 (
+{
+preventFocusRing
+:
+true
+}
 )
 ;
 }
