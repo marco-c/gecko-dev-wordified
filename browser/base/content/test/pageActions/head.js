@@ -69,7 +69,7 @@ window
 windowUtils
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -811,7 +811,7 @@ window
 windowUtils
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
