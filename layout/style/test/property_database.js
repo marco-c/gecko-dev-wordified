@@ -41943,9 +41943,6 @@ field
 highlight
 "
 "
-highlighttext
-"
-"
 graytext
 "
 /
