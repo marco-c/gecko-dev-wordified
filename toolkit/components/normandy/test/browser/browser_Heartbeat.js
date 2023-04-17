@@ -553,8 +553,6 @@ browser
 .
 proton
 .
-infobars
-.
 enabled
 "
 protonEnabled
