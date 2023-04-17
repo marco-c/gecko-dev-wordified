@@ -31706,10 +31706,12 @@ writer
 ObjLiteralFlags
 flags
 (
+{
 ObjLiteralFlag
 :
 :
 Array
+}
 )
 ;
 writer
@@ -58540,7 +58542,7 @@ singleton
 =
 flags
 .
-contains
+hasFlag
 (
 ObjLiteralFlag
 :
@@ -59277,6 +59279,7 @@ writer
 ObjLiteralFlags
 flags
 (
+{
 ObjLiteralFlag
 :
 :
@@ -59285,6 +59288,7 @@ ObjLiteralFlag
 :
 :
 Singleton
+}
 )
 ;
 writer
@@ -64026,12 +64030,14 @@ or
 2
 .
 flags
-+
-=
+.
+setFlag
+(
 ObjLiteralFlag
 :
 :
 Singleton
+)
 ;
 }
 else
