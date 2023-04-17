@@ -8024,7 +8024,12 @@ matcher
 =
 argument
 [
-std_match
+GetBuiltinSymbol
+(
+"
+match
+"
+)
 ]
 ;
 /

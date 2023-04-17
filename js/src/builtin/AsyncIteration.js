@@ -395,7 +395,12 @@ at
 runtime
 .
 [
-std_asyncIterator
+GetBuiltinSymbol
+(
+"
+asyncIterator
+"
+)
 ]
 :
 function
@@ -2328,7 +2333,12 @@ iterated
 =
 {
 [
-std_asyncIterator
+GetBuiltinSymbol
+(
+"
+asyncIterator
+"
+)
 ]
 :
 (

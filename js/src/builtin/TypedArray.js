@@ -662,7 +662,12 @@ s
 =
 ctor
 [
-std_species
+GetBuiltinSymbol
+(
+"
+species
+"
+)
 ]
 ;
 /
@@ -9030,7 +9035,12 @@ usingIterator
 =
 source
 [
-std_iterator
+GetBuiltinSymbol
+(
+"
+iterator
+"
+)
 ]
 ;
 /
