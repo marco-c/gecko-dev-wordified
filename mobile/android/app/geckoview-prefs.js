@@ -704,3 +704,15 @@ kinto
 true
 )
 ;
+pref
+(
+"
+browser
+.
+formfill
+.
+enable
+"
+true
+)
+;

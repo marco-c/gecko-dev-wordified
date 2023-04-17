@@ -1914,7 +1914,7 @@ via
 link
 Autocomplete
 .
-LoginStorageDelegate
+StorageDelegate
 #
 onLoginFetch
 onLoginFetch
@@ -7633,7 +7633,7 @@ via
 link
 Autocomplete
 .
-LoginStorageDelegate
+StorageDelegate
 #
 onLoginFetch
 onLoginFetch
