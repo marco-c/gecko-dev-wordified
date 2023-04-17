@@ -769,7 +769,9 @@ avd
 "
 mozemulator
 -
-arm
+4
+.
+3
 "
     
 adb_path
