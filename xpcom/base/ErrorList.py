@@ -8547,24 +8547,6 @@ FAILURE
 )
     
 #
-Editing
-command
-errors
-.
-    
-errors
-[
-"
-NS_ERROR_DOM_INVALID_STATE_DOCUMENT_QUERY_COMMAND_VALUE
-"
-]
-=
-FAILURE
-(
-1035
-)
-    
-#
 Used
 to
 indicate
