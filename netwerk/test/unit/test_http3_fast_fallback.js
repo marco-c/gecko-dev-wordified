@@ -3517,7 +3517,7 @@ httpssvc
 .
 http3_fast_fallback_timeout
 "
-1000
+50
 )
 ;
 await
@@ -4144,7 +4144,7 @@ httpssvc
 .
 http3_fast_fallback_timeout
 "
-1000
+50
 )
 ;
 await
@@ -4547,7 +4547,7 @@ httpssvc
 .
 http3_fast_fallback_timeout
 "
-1000
+50
 )
 ;
 await
