@@ -188,11 +188,6 @@ TestStandardURL
 cpp
 "
 "
-TestSupportAlpn
-.
-cpp
-"
-"
 TestUDPSocket
 .
 cpp

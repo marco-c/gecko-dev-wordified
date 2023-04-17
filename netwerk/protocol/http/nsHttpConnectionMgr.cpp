@@ -11810,6 +11810,12 @@ gHttpHandler
 >
 EchConfigEnabled
 (
+ci
+-
+>
+IsHttp3
+(
+)
 )
 )
 {

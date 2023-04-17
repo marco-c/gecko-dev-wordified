@@ -3026,6 +3026,10 @@ const
 bool
 EchConfigEnabled
 (
+bool
+aIsHttp3
+=
+false
 )
 const
 ;
