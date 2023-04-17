@@ -1975,7 +1975,7 @@ clear
 #
 endif
 size_t
-sizeOfExcludingThis
+sizeOfIncludingThis
 (
 mozilla
 :
@@ -1983,6 +1983,7 @@ mozilla
 MallocSizeOf
 mallocSizeOf
 )
+const
 ;
 }
 ;
