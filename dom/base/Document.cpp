@@ -99325,6 +99325,7 @@ Document
 HasValidTransientUserGestureActivation
 (
 )
+const
 {
 RefPtr
 <

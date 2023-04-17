@@ -22777,6 +22777,7 @@ bool
 HasValidTransientUserGestureActivation
 (
 )
+const
 ;
 /
 /
