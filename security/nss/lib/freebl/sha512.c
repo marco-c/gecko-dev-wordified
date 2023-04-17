@@ -1289,13 +1289,6 @@ defined
 (
 USE_HW_SHA2
 )
-|
-|
-!
-defined
-(
-IS_LITTLE_ENDIAN
-)
 void
 SHA256_Compress_Native
 (
