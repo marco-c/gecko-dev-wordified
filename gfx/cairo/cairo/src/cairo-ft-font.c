@@ -19422,6 +19422,9 @@ FT_Face
 face
 int
 load_flags
+unsigned
+int
+synth_flags
 )
 {
 cairo_ft_unscaled_font_t
@@ -19472,7 +19475,7 @@ ft_options
 .
 synth_flags
 =
-0
+synth_flags
 ;
 _cairo_font_options_init_default
 (
