@@ -6,6 +6,11 @@ global
 =
 window
 worker
+"
+use
+strict
+"
+;
 var
 log
 =

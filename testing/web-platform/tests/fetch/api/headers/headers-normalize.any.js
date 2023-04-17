@@ -15,6 +15,11 @@ global
 =
 window
 worker
+"
+use
+strict
+"
+;
 var
 headerDictWS
 =
@@ -104,6 +109,7 @@ headerDictWS
 ;
 for
 (
+const
 name
 in
 headerDictWS
@@ -175,6 +181,7 @@ Headers
 ;
 for
 (
+const
 name
 in
 headerDictWS
@@ -259,6 +266,7 @@ Headers
 ;
 for
 (
+const
 name
 in
 headerDictWS

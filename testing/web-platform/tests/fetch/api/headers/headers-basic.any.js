@@ -14,6 +14,11 @@ global
 =
 window
 worker
+"
+use
+strict
+"
+;
 test
 (
 function
@@ -1150,6 +1155,7 @@ function
 key
 )
 {
+const
 entry
 =
 actual
@@ -1200,6 +1206,7 @@ done
 ;
 for
 (
+const
 key
 of
 headers
@@ -1268,6 +1275,7 @@ function
 key
 )
 {
+const
 entry
 =
 actual
@@ -1321,6 +1329,7 @@ done
 ;
 for
 (
+const
 value
 of
 headers
@@ -1389,6 +1398,7 @@ function
 key
 )
 {
+const
 entry
 =
 actual
@@ -1456,6 +1466,7 @@ done
 ;
 for
 (
+const
 entry
 of
 headers
@@ -1523,6 +1534,7 @@ function
 key
 )
 {
+const
 entry
 =
 actual
@@ -1642,6 +1654,7 @@ headers
 container
 )
 ;
+const
 entry
 =
 reference

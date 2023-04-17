@@ -23,6 +23,11 @@ META
 timeout
 =
 long
+"
+use
+strict
+"
+;
 for
 (
 let

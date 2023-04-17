@@ -22,6 +22,11 @@ META
 timeout
 =
 long
+"
+use
+strict
+"
+;
 /
 /
 Invalid
