@@ -594,9 +594,9 @@ NimbusFeatures
 .
 urlbar
 .
-_didSendExposureEvent
+_sendExposureEventOnce
 =
-false
+true
 ;
 }
 )
