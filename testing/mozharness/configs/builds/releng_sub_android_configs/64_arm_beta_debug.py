@@ -64,9 +64,9 @@ stage_platform
 "
 android
 -
-api
+arm
 -
-16
+debug
 "
     
 "
@@ -84,12 +84,16 @@ mozconfigs
 /
 android
 -
-api
--
-16
+arm
 /
-profile
+debug
 -
-generate
+beta
 "
+    
+"
+debug_build
+"
+:
+True
 }

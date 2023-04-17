@@ -319,9 +319,7 @@ _GV_BUILDS
     
 +
 "
-api
--
-16
+arm
 -
 opt
 /
