@@ -3223,9 +3223,9 @@ getString
 "
 processHang
 .
-button_stop
+button_stop2
 .
-label2
+label
 "
 )
 accessKey
@@ -3237,7 +3237,7 @@ getString
 "
 processHang
 .
-button_stop
+button_stop2
 .
 accessKey
 "
