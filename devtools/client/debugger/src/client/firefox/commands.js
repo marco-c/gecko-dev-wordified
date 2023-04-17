@@ -1200,11 +1200,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-set
--
-breakpoints
-"
 )
 ;
 if
@@ -1346,11 +1341,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-set
--
-breakpoints
-"
 )
 ;
 if
