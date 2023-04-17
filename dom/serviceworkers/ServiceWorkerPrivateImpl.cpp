@@ -969,6 +969,7 @@ CookieJarSettings
 :
 Create
 (
+principal
 )
 ;
 MOZ_ASSERT
