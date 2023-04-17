@@ -263,7 +263,7 @@ _captivePortalNotification
 )
 {
 return
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -2014,7 +2014,7 @@ this
 ;
 }
 ;
-gHighPriorityNotificationBox
+gNotificationBox
 .
 appendNotification
 (
@@ -2024,7 +2024,7 @@ this
 PORTAL_NOTIFICATION_VALUE
 "
 "
-gHighPriorityNotificationBox
+gNotificationBox
 .
 PRIORITY_INFO_MEDIUM
 buttons

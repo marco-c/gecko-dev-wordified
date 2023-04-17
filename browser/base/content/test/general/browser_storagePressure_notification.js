@@ -357,7 +357,7 @@ waitForCondition
 >
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -376,7 +376,7 @@ notification
 =
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -423,7 +423,7 @@ notification
 =
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -489,7 +489,7 @@ waitForCondition
 >
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -507,7 +507,7 @@ notification
 =
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -682,7 +682,7 @@ waitForCondition
 >
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -701,7 +701,7 @@ notification
 =
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 getNotificationWithValue
 (
@@ -946,7 +946,7 @@ allNotifications
 =
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 allNotifications
 ;
@@ -1013,7 +1013,7 @@ one
 ;
 win
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 removeAllNotifications
 (

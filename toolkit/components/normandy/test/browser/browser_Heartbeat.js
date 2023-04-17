@@ -614,7 +614,7 @@ notificationBox
 =
 targetWindow
 .
-gHighPriorityNotificationBox
+gNotificationBox
 ;
 const
 preCount
@@ -1073,7 +1073,7 @@ notificationBox
 =
 targetWindow
 .
-gHighPriorityNotificationBox
+gNotificationBox
 ;
 const
 hb

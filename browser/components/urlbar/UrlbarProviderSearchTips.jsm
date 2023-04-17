@@ -3442,7 +3442,7 @@ isOpen
 |
 window
 .
-gHighPriorityNotificationBox
+gNotificationBox
 .
 currentNotification
 |
