@@ -3603,6 +3603,11 @@ WaylandPopupHierarchyCalculatePositions
 )
 ;
 bool
+IsTooltipWithNegativeRelativePositionRemoved
+(
+)
+;
+bool
 IsInPopupHierarchy
 (
 )
