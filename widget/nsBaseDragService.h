@@ -876,6 +876,9 @@ mDoingDrag
 bool
 mSessionIsSynthesizedForTests
 ;
+bool
+mIsDraggingTextInTextControl
+;
 /
 /
 true
