@@ -613,6 +613,11 @@ evaluateExpressions
 inputs
 {
 frameId
+threadId
+:
+cx
+.
+thread
 }
 )
 ;

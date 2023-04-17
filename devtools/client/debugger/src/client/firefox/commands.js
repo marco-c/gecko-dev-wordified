@@ -1476,6 +1476,7 @@ evaluate
 script
 {
 frameId
+threadId
 }
 =
 {
@@ -1502,6 +1503,18 @@ null
 }
 ;
 }
+const
+selectedTargetFront
+=
+threadId
+?
+lookupTarget
+(
+threadId
+)
+:
+null
+;
 return
 commands
 .
@@ -1514,6 +1527,7 @@ script
 frameActor
 :
 frameId
+selectedTargetFront
 }
 )
 ;
