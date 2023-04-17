@@ -179,8 +179,6 @@ Rc
 derive
 (
 Debug
-PartialOrd
-Ord
 PartialEq
 Eq
 Clone
@@ -397,7 +395,7 @@ error
 /
 Most
 common
-dase
+case
 are
 malformed
 response

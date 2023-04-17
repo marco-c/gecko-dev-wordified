@@ -291,6 +291,9 @@ mod
 close
 ;
 mod
+datagram
+;
+mod
 fuzzing
 ;
 mod
