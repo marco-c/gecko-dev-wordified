@@ -1054,7 +1054,6 @@ supportedFeatures
 )
 presets
 supportedFeatures
-openAboutProfiling
 pageContext
 :
 "
@@ -1168,6 +1167,11 @@ getSymbolTableCallback
 ;
 }
 ;
+const
+onEditSettingsLinkClicked
+=
+openAboutProfiling
+;
 ReactDOM
 .
 render
@@ -1203,6 +1207,7 @@ DevToolsPanel
 (
 {
 onProfileReceived
+onEditSettingsLinkClicked
 }
 )
 )

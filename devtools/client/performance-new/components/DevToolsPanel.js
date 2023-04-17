@@ -136,6 +136,16 @@ OnProfileReceived
 }
 onProfileReceived
 *
+property
+{
+(
+)
+=
+>
+void
+}
+onEditSettingsLinkClicked
+*
 /
 /
 *
@@ -394,6 +404,7 @@ const
 {
 isSupportedPlatform
 onProfileReceived
+onEditSettingsLinkClicked
 }
 =
 this
@@ -471,6 +482,9 @@ hr
 )
 DevToolsPresetSelection
 (
+{
+onEditSettingsLinkClicked
+}
 )
 )
 ;
