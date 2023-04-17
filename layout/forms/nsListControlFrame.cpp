@@ -1760,7 +1760,7 @@ color
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 lastItemIsSelected
 ?
@@ -1779,6 +1779,7 @@ ColorID
 :
 :
 WidgetSelectBackground
+this
 )
 ;
 nsCSSRendering

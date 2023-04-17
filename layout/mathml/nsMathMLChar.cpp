@@ -13397,7 +13397,7 @@ bgColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -13406,12 +13406,7 @@ ColorID
 :
 :
 TextSelectBackground
-NS_RGB
-(
-0
-0
-0
-)
+mFrame
 )
 ;
 drawTarget
@@ -14309,7 +14304,7 @@ fgColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -14318,6 +14313,7 @@ ColorID
 :
 :
 TextSelectForeground
+aForFrame
 fgColor
 )
 ;

@@ -3117,9 +3117,10 @@ ApplyTransparencyIfNecessary
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 colorID
+mFrame
 NS_RGB
 (
 255
