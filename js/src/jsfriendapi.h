@@ -311,7 +311,7 @@ JS
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_SetGrayGCRootsTracer
 (
@@ -326,7 +326,7 @@ data
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_FindCompilationScope
@@ -342,7 +342,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 JS_GetObjectFunction
@@ -399,7 +399,7 @@ them
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewObjectWithoutMetadata
@@ -423,7 +423,7 @@ proto
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_NondeterministicGetWeakMapKeys
 (
@@ -443,7 +443,7 @@ ret
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_NondeterministicGetWeakSetKeys
 (
@@ -479,7 +479,7 @@ signal
 handler
 .
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 unsigned
 JS_PCToLineNumber
 (
@@ -551,7 +551,7 @@ property
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_IsDeadWrapper
 (
@@ -621,7 +621,7 @@ wrapper
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_NewDeadWrapper
@@ -719,7 +719,7 @@ objects
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -769,7 +769,7 @@ space
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_TraceShapeCycleCollectorChildren
 (
@@ -787,7 +787,7 @@ shape
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_TraceObjectGroupCycleCollectorChildren
 (
@@ -805,7 +805,7 @@ group
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSPrincipals
 *
 JS_GetScriptPrincipals
@@ -816,7 +816,7 @@ script
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_ScriptHasMutedErrors
 (
@@ -826,7 +826,7 @@ script
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS_CloneObject
@@ -978,7 +978,7 @@ any
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_InitializePropertiesFromCompatibleNativeObject
 (
@@ -1000,7 +1000,7 @@ src
 namespace
 js
 {
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsArgumentsObject
 (
@@ -1011,7 +1011,7 @@ HandleObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AddRawValueRoot
 (
@@ -1030,7 +1030,7 @@ char
 name
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 RemoveRawValueRoot
 (
@@ -1085,7 +1085,7 @@ otherwise
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ForceLexicalInitialization
 (
@@ -1131,14 +1131,14 @@ variable
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 int
 IsGCPoisoning
 (
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSPrincipals
 *
 GetRealmPrincipals
@@ -1152,7 +1152,7 @@ realm
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetRealmPrincipals
 (
@@ -1168,7 +1168,7 @@ principals
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetIsSecureContext
 (
@@ -1256,7 +1256,7 @@ cx
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_CopyOwnPropertiesAndPrivateFields
 (
@@ -1276,7 +1276,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_WrapPropertyDescriptor
 (
@@ -1297,7 +1297,7 @@ desc
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_WrapPropertyDescriptor
 (
@@ -1434,7 +1434,7 @@ nullptr
 nullptr
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_DefineFunctionsWithHelp
 (
@@ -1578,7 +1578,7 @@ completion
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 UseInternalJobQueues
 (
@@ -1627,7 +1627,7 @@ stack
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 EnqueueJob
 (
@@ -1690,7 +1690,7 @@ on
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 StopDrainingJobQueue
 (
@@ -1700,7 +1700,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 RunJobs
 (
@@ -1710,7 +1710,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -1757,7 +1757,7 @@ HandleObject
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSystemRealm
 (
@@ -1770,7 +1770,7 @@ realm
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSystemCompartment
 (
@@ -1783,7 +1783,7 @@ comp
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSystemZone
 (
@@ -1914,7 +1914,7 @@ value
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 TraceWeakMaps
 (
@@ -1924,7 +1924,7 @@ trc
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AreGCGrayBitsValid
 (
@@ -1934,7 +1934,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ZoneGlobalsAreAllGray
 (
@@ -1947,7 +1947,7 @@ zone
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsCompartmentZoneSweepingOrCompacting
 (
@@ -1982,7 +1982,7 @@ AutoRequireNoGC
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 TraceGrayWrapperTargets
 (
@@ -2015,7 +2015,7 @@ zone
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 IterateGrayObjects
 (
@@ -2101,7 +2101,7 @@ handled
 separately
 .
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 CheckGrayMarkingState
 (
@@ -2129,7 +2129,7 @@ atoms
 zone
 .
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -2185,7 +2185,7 @@ the
 GC
 .
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetFirstGlobalInCompartment
@@ -2220,7 +2220,7 @@ being
 collected
 .
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 CompartmentHasLiveGlobal
 (
@@ -2266,7 +2266,7 @@ Realm
 in
 .
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSharableCompartment
 (
@@ -2314,14 +2314,14 @@ JSObject
 h
 .
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
 const
 ObjectClassPtr
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 JSClass
 *
@@ -2497,7 +2497,7 @@ return
 JSProto_Object
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ShouldIgnorePropertyDefinition
 (
@@ -2510,7 +2510,7 @@ jsid
 id
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsFunctionObject
 (
@@ -2519,7 +2519,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 UninlinedIsCrossCompartmentWrapper
 (
@@ -2608,7 +2608,7 @@ base
 realm
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertSameCompartment
 (
@@ -2620,7 +2620,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertSameCompartment
 (
@@ -2637,7 +2637,7 @@ v
 #
 ifdef
 JS_DEBUG
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertSameCompartment
 (
@@ -2666,7 +2666,7 @@ objB
 }
 #
 endif
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 NotifyAnimationActivity
 (
@@ -2675,7 +2675,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 DefineFunctionWithReserved
@@ -2698,7 +2698,7 @@ unsigned
 attrs
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 NewFunctionWithReserved
@@ -2718,7 +2718,7 @@ char
 name
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSFunction
 *
 NewFunctionByIdWithReserved
@@ -2736,7 +2736,7 @@ jsid
 id
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 JS
 :
@@ -2752,7 +2752,7 @@ size_t
 which
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetFunctionNativeReserved
 (
@@ -2770,7 +2770,7 @@ Value
 val
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 FunctionHasNativeReserved
 (
@@ -2779,7 +2779,7 @@ JSObject
 fun
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetObjectProto
 (
@@ -2799,7 +2799,7 @@ proto
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetStaticPrototype
@@ -2809,7 +2809,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetRealmOriginalEval
 (
@@ -2981,7 +2981,7 @@ ownKeys
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetPropertyKeys
 (
@@ -3002,7 +3002,7 @@ MutableHandleIdVector
 props
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AppendUnique
 (
@@ -3085,7 +3085,7 @@ indexp
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 StringIsArrayIndex
 (
@@ -3124,7 +3124,7 @@ version
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 StringIsArrayIndex
 (
@@ -3139,7 +3139,7 @@ uint32_t
 indexp
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetPreserveWrapperCallbacks
 (
@@ -3152,7 +3152,7 @@ HasReleasedWrapperCallback
 hasReleasedWrapper
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsObjectInContextCompartment
 (
@@ -3285,7 +3285,7 @@ await
 of
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 StartPCCountProfiling
 (
@@ -3294,7 +3294,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 StopPCCountProfiling
 (
@@ -3303,7 +3303,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 PurgePCCounts
 (
@@ -3312,7 +3312,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 GetPCCountScriptCount
 (
@@ -3321,7 +3321,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSString
 *
 GetPCCountScriptSummary
@@ -3333,7 +3333,7 @@ size_t
 script
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSString
 *
 GetPCCountScriptContents
@@ -3375,7 +3375,7 @@ struct
 JSDOMCallbacks
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetDOMCallbacks
 (
@@ -3389,7 +3389,7 @@ callbacks
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 DOMCallbacks
 *
@@ -3401,7 +3401,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetTestingFunctions
@@ -3446,7 +3446,7 @@ JSEXN_INTERNALERR
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSLinearString
 *
 GetErrorTypeName
@@ -3615,7 +3615,7 @@ ours
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 NukeCrossCompartmentWrappers
 (
@@ -3639,7 +3639,7 @@ nukeReferencesFromTarget
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AllowNewWrapper
 (
@@ -3655,7 +3655,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 NukedObjectRealm
 (
@@ -3689,7 +3689,7 @@ NaN
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 DateIsValid
 (
@@ -3707,7 +3707,7 @@ isValid
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 DateGetMsecSinceEpoch
 (
@@ -3747,7 +3747,7 @@ cpp
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint64_t
 GetSCOffset
 (
@@ -4271,7 +4271,7 @@ closure
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 PrepareScriptEnvironmentAndInvoke
 (
@@ -4291,7 +4291,7 @@ Closure
 closure
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetScriptEnvironmentPreparer
 (
@@ -4455,7 +4455,7 @@ object
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetAllocationMetadataBuilder
 (
@@ -4481,7 +4481,7 @@ object
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetAllocationMetadata
@@ -4491,7 +4491,7 @@ JSObject
 obj
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 GetElementsWithAdder
 (
@@ -4520,7 +4520,7 @@ ElementAdder
 adder
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ForwardToNative
 (
@@ -4709,7 +4709,7 @@ cpp
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 SetPropertyIgnoringNamedGetter
 (
@@ -4784,7 +4784,7 @@ anything
 else
 !
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ExecuteInFrameScriptEnvironment
 (
@@ -4809,7 +4809,7 @@ scope
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsSavedFrame
 (
@@ -5122,7 +5122,7 @@ process
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetJitExceptionHandler
 (
@@ -5133,7 +5133,7 @@ handler
 #
 endif
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ReportIsNotFunction
 (
@@ -5149,7 +5149,7 @@ v
 ;
 class
 MOZ_STACK_CLASS
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoAssertNoContentJS
 {
 public
@@ -5203,7 +5203,7 @@ things
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 uint64_t
 GetGCHeapUsageForObjectZone
 (
@@ -5213,7 +5213,7 @@ obj
 )
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 CompartmentTransplantCallback
 {
 public
@@ -5344,7 +5344,7 @@ passed
 in
 .
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 RemapRemoteWindowProxies
 (
@@ -5362,7 +5362,7 @@ newTarget
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :

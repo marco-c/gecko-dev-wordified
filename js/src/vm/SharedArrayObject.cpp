@@ -2786,7 +2786,7 @@ JS_NULL_CLASS_OPS
 SharedArrayBufferObjectClassSpec
 }
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 JS
 :
@@ -2825,7 +2825,7 @@ byteLength
 0
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :
@@ -2912,7 +2912,7 @@ isSharedMemory
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 JS
@@ -2988,7 +2988,7 @@ nullptr
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -3012,7 +3012,7 @@ SharedArrayBufferObject
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 uint8_t
 *
 JS

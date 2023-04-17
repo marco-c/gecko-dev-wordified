@@ -160,7 +160,7 @@ JS_PUBLIC_API
 JSTracer
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 ProfilingStack
 ;
 /
@@ -2821,7 +2821,7 @@ GeckoProfiler
 .
 cpp
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 jsbytecode
 *
 pc
@@ -2908,7 +2908,7 @@ NullPCOffset
 ;
 }
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetContextProfilingStack
 (
@@ -2935,7 +2935,7 @@ RootingAPI
 .
 h
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 EnableContextProfilingStack
 (
@@ -2946,7 +2946,7 @@ bool
 enabled
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 RegisterContextProfilingEventMarker
 (
@@ -3023,7 +3023,7 @@ any
 locking
 mechanism
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetProfilingThreadCallbacks
 (
@@ -3247,7 +3247,7 @@ atomic
 /
 /
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 ProfilingStack
 final
 {

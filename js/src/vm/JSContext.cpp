@@ -1615,7 +1615,7 @@ suppressed
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2026,7 +2026,7 @@ true
 endif
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -4146,7 +4146,7 @@ clearPendingException
 }
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -4321,7 +4321,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -4363,7 +4363,7 @@ nullptr
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -4398,7 +4398,7 @@ interrupt
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :

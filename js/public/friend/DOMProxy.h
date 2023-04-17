@@ -190,7 +190,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 #
 include
 "
@@ -579,7 +579,7 @@ PropertyKey
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetDOMProxyInformation
 (

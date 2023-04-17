@@ -212,7 +212,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 #
 include
 "
@@ -397,7 +397,7 @@ GC
 /
 class
 MOZ_STACK_CLASS
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoStableStringChars
 final
 {

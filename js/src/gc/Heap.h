@@ -1310,7 +1310,7 @@ ArenaSize
 Arena
 {
 static
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 uint8_t
 ThingSizes
@@ -1318,7 +1318,7 @@ ThingSizes
 ]
 ;
 static
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 uint8_t
 FirstThingOffsets
@@ -1326,7 +1326,7 @@ FirstThingOffsets
 ]
 ;
 static
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 uint8_t
 ThingsPerArena

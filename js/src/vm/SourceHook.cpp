@@ -154,7 +154,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 #
 include
 "
@@ -179,7 +179,7 @@ h
 /
 /
 JSRuntime
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -222,7 +222,7 @@ hook
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 mozilla
 :
 :

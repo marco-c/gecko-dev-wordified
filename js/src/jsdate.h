@@ -286,7 +286,7 @@ in
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 NewDateObject

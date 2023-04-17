@@ -348,7 +348,6 @@ h
 "
 /
 /
-JS_FRIEND_API
 JS_PUBLIC_API
 #
 include
@@ -432,7 +431,7 @@ below
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetWindowProxyClass
 (
@@ -473,7 +472,7 @@ SetWindowProxyClass
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetWindowProxy
 (
@@ -504,7 +503,7 @@ namespace
 detail
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsWindowSlow
 (
@@ -514,7 +513,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 ToWindowProxyIfWindowSlow
@@ -610,7 +609,7 @@ SetWindowProxyClass
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsWindowProxy
 (
@@ -742,7 +741,7 @@ nullptr
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 ToWindowIfWindowProxy

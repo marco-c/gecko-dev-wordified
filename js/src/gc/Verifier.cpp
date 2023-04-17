@@ -6460,7 +6460,7 @@ failures
 0
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :

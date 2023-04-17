@@ -825,7 +825,7 @@ undef
 INIT_FUNC
 }
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 JSClass
 *

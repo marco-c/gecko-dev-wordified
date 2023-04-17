@@ -7144,7 +7144,7 @@ skeptically
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -7266,7 +7266,7 @@ return
 ok
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -16043,7 +16043,7 @@ scriptAndCountsVector
 nullptr
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -16109,7 +16109,7 @@ profilingScripts
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -16301,7 +16301,7 @@ scriptAndCountsVector
 vec
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -16351,7 +16351,7 @@ rt
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 js
 :
@@ -16455,7 +16455,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSString
 *
 js
@@ -17647,7 +17647,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSString
 *
 js
@@ -18475,7 +18475,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 UniqueChars
 js
 :
@@ -18584,7 +18584,7 @@ length
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 UniqueChars
 js
 :

@@ -171,7 +171,6 @@ h
 "
 /
 /
-JS_FRIEND_API
 JS_PUBLIC_API
 #
 include
@@ -438,7 +437,7 @@ loading
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 NewJSMEnvironment
@@ -511,7 +510,7 @@ reused
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ExecuteInJSMEnvironment
 (
@@ -585,7 +584,7 @@ CloneAndExecuteScript
 .
 )
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 ExecuteInJSMEnvironment
 (
@@ -685,7 +684,7 @@ if
 needed
 .
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetJSMEnvironmentOfScriptedCaller
@@ -735,7 +734,7 @@ compartment
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsJSMEnvironment
 (

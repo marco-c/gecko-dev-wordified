@@ -1954,7 +1954,7 @@ stack
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSLinearString
 *
 js

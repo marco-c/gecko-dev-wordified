@@ -3980,7 +3980,7 @@ next
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 *
 JSRuntime
@@ -4818,7 +4818,7 @@ isCollecting
 }
 #
 endif
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :
@@ -4846,7 +4846,7 @@ rangeStart
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS
 :
@@ -4881,7 +4881,7 @@ enabled
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :
@@ -4930,7 +4930,7 @@ callback
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS
 :

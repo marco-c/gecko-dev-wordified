@@ -4498,7 +4498,7 @@ skippedAsync
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetFirstSubsumedSavedFrame

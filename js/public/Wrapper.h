@@ -305,7 +305,7 @@ private
 slot
 .
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 ForwardingProxyHandler
 :
 public
@@ -1120,7 +1120,7 @@ comment
 *
 /
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 Wrapper
 :
 public
@@ -1424,7 +1424,7 @@ handlers
 *
 /
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 CrossCompartmentWrapper
 :
 public
@@ -2093,7 +2093,7 @@ singletonWithPrototype
 }
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 OpaqueCrossCompartmentWrapper
 :
 public
@@ -2779,7 +2779,7 @@ class
 Base
 >
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 SecurityWrapper
 :
 public
@@ -3373,7 +3373,7 @@ the
 main
 thread
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UncheckedUnwrap
@@ -3604,7 +3604,7 @@ the
 main
 thread
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 CheckedUnwrapStatic
@@ -3642,7 +3642,7 @@ Wrapper
 :
 wrappedObject
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapOneCheckedStatic
@@ -3936,7 +3936,7 @@ require
 a
 Handle
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 CheckedUnwrapDynamic
@@ -3981,7 +3981,7 @@ Wrapper
 :
 wrappedObject
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UnwrapOneCheckedDynamic
@@ -4051,7 +4051,7 @@ the
 main
 thread
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 UncheckedUnwrapWithoutExpose
@@ -4069,7 +4069,7 @@ JSContext
 cx
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 NukeCrossCompartmentWrapper
 (
@@ -4097,7 +4097,7 @@ exists
 nuke
 it
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 NukeCrossCompartmentWrapperIfExists
 (
@@ -4147,7 +4147,7 @@ HandleObject
 newTarget
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 RemapAllWrappersForObject
 (
@@ -4187,7 +4187,7 @@ the
 given
 filters
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 RecomputeWrappers
 (

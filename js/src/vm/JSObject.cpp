@@ -6925,7 +6925,7 @@ desc_
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_CopyOwnPropertiesAndPrivateFields
 (
@@ -8317,7 +8317,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 JS_InitializePropertiesFromCompatibleNativeObject
 (
@@ -17346,7 +17346,7 @@ preference
 is
 off
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -21221,7 +21221,7 @@ in
 the
 cpp
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpValue
 (
@@ -21240,7 +21240,7 @@ GenericPrinter
 out
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpId
 (
@@ -21254,7 +21254,7 @@ GenericPrinter
 out
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpInterpreterFrame
 (
@@ -21279,7 +21279,7 @@ nullptr
 /
 namespace
 js
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -21315,7 +21315,7 @@ n
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -23208,7 +23208,7 @@ n
 ;
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -23859,7 +23859,7 @@ in
 the
 cpp
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DumpBacktrace
 (
@@ -23879,7 +23879,7 @@ out
 /
 namespace
 js
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -23910,7 +23910,7 @@ out
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -24166,7 +24166,7 @@ pc
 }
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :

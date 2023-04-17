@@ -250,7 +250,7 @@ js
 class
 NurseryDecommitTask
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 CurrentThreadCanAccessZone
 (
@@ -1918,7 +1918,7 @@ type
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertGCThingHasType
 (
@@ -2447,7 +2447,7 @@ thing
 *
 /
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 GCCellPtr
 {
 public
@@ -4886,7 +4886,7 @@ unmarked
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 UnmarkGrayGCThingRecursively
 (

@@ -218,7 +218,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 struct
 JSErrorFormatString
 ;
@@ -314,7 +314,7 @@ behavior
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 JSErrorFormatString
 *

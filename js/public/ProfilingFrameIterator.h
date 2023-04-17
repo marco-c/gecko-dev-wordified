@@ -998,7 +998,7 @@ iteratorDone
 }
 JS_HAZ_GC_INVALIDATED
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 IsProfilingEnabledForContext
 (
@@ -1067,7 +1067,7 @@ for
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetJSContextProfilerSampleBufferRangeStart
 (

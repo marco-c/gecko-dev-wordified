@@ -123,7 +123,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 /
 /
 The
@@ -351,7 +351,7 @@ mLabel
 ;
 }
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 ProfilingCategoryPairInfo
 &

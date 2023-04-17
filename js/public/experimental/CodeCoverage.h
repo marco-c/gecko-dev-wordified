@@ -123,7 +123,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 #
 include
 "
@@ -179,7 +179,7 @@ GetCodeCoverageSummary
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 EnableCodeCoverage
 (
@@ -276,7 +276,7 @@ failure
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :
@@ -292,7 +292,7 @@ length
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JS
 :
 :

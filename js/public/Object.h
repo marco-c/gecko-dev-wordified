@@ -805,7 +805,7 @@ namespace
 detail
 {
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetReservedSlotWithBarrier
 (

@@ -127,7 +127,6 @@ h
 "
 /
 /
-JS_FRIEND_API
 JS_PUBLIC_API
 #
 include
@@ -1058,7 +1057,7 @@ here
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 GetFirstSubsumedSavedFrame

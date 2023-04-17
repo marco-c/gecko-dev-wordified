@@ -123,7 +123,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 #
 include
 "
@@ -308,7 +308,7 @@ exception
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AddMozDateTimeFormatConstructor
 (
@@ -391,7 +391,7 @@ exception
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 AddMozDisplayNamesConstructor
 (

@@ -3880,7 +3880,7 @@ obj
 ;
 }
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 uint64_t
 js
 :

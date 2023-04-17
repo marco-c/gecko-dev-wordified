@@ -143,7 +143,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 struct
 JS_PUBLIC_API
 JSContext
@@ -425,7 +425,7 @@ char
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_SetAccumulateTelemetryCallback
 (
@@ -509,7 +509,7 @@ JSUseCounter
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 JS_SetSetUseCounterCallback
 (

@@ -3268,7 +3268,7 @@ function
 nullptr
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 jsbytecode
 *
 ProfilingStackFrame
@@ -3411,7 +3411,7 @@ pc
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -3454,7 +3454,7 @@ enabled
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -3498,7 +3498,7 @@ enabled
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -3820,7 +3820,7 @@ clang
 -
 format
 on
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 ProfilingCategoryPairInfo
 &

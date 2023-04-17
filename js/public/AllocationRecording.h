@@ -450,7 +450,7 @@ setting
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 EnableRecordingAllocations
 (
@@ -499,7 +499,7 @@ setting
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 DisableRecordingAllocations
 (

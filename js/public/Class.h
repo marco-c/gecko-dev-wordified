@@ -291,7 +291,7 @@ jsfun
 h
 .
 extern
-JS_FRIEND_DATA
+JS_PUBLIC_DATA
 const
 JSClass
 *
@@ -2709,7 +2709,7 @@ result
 )
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 ElementAdder
 {
 public
@@ -5570,7 +5570,7 @@ vp
 #
 ifdef
 DEBUG
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 HasObjectMovedOp
 (

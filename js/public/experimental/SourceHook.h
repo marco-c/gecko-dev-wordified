@@ -477,7 +477,7 @@ h
 "
 /
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 struct
 JS_PUBLIC_API
 JSContext
@@ -884,7 +884,7 @@ set
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 SetSourceHook
 (
@@ -926,7 +926,7 @@ hook
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 mozilla
 :
 :

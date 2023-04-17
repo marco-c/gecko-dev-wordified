@@ -2465,7 +2465,7 @@ singleton
 0u
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2532,7 +2532,7 @@ wrapper
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -2769,7 +2769,7 @@ object
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -3320,7 +3320,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -3454,7 +3454,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -4410,7 +4410,7 @@ wrappers
 are
 recomputed
 .
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -4548,7 +4548,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :

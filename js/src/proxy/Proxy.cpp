@@ -1179,7 +1179,7 @@ prev
 ;
 }
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 js
 :
@@ -1937,7 +1937,7 @@ result
 )
 ;
 }
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 js
 :
@@ -6745,7 +6745,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 ProxyClassSpec
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 JSObject
 *
 js

@@ -1689,7 +1689,7 @@ js
 namespace
 JS
 {
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 HeapObjectPostWriteBarrier
 (
@@ -1705,7 +1705,7 @@ JSObject
 next
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 HeapStringPostWriteBarrier
 (
@@ -1721,7 +1721,7 @@ JSString
 next
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 HeapBigIntPostWriteBarrier
 (
@@ -1746,7 +1746,7 @@ BigInt
 next
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 HeapObjectWriteBarriers
 (
@@ -1762,7 +1762,7 @@ JSObject
 next
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 HeapStringWriteBarriers
 (
@@ -1778,7 +1778,7 @@ JSString
 next
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 HeapBigIntWriteBarriers
 (
@@ -1803,7 +1803,7 @@ BigInt
 next
 )
 ;
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 HeapScriptWriteBarriers
 (
@@ -2140,7 +2140,7 @@ nursery
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertGCThingMustBeTenured
 (
@@ -2150,7 +2150,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 void
 AssertGCThingIsNotNurseryAllocable
 (

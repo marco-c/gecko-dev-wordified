@@ -343,7 +343,7 @@ namespace
 JS
 {
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 AutoStableStringChars
 ;
 }

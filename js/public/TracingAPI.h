@@ -183,7 +183,7 @@ kind
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 const
 char
 *
@@ -217,7 +217,7 @@ kind
 .
 *
 /
-JS_FRIEND_API
+JS_PUBLIC_API
 size_t
 GCTraceKindSize
 (
@@ -3861,7 +3861,7 @@ assertions
 *
 /
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 bool
 RuntimeIsBeingDestroyed
 (
