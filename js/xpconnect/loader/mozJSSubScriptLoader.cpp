@@ -1005,10 +1005,7 @@ targetObj
 if
 (
 !
-JS
-:
-:
-CloneAndExecuteScript
+JS_ExecuteScript
 (
 cx
 script
@@ -1226,10 +1223,7 @@ endif
 if
 (
 !
-JS
-:
-:
-CloneAndExecuteScript
+JS_ExecuteScript
 (
 cx
 envChain
@@ -1255,10 +1249,7 @@ loadScope
 if
 (
 !
-JS
-:
-:
-CloneAndExecuteScript
+JS_ExecuteScript
 (
 cx
 envChain
