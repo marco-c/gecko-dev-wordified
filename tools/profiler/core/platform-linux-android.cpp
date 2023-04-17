@@ -1907,6 +1907,11 @@ r
 0
 )
 ;
+(
+void
+)
+r
+;
 }
 ~
 SigHandlerCoordinator
@@ -1947,6 +1952,11 @@ r
 =
 0
 )
+;
+(
+void
+)
+r
 ;
 }
 sem_t
