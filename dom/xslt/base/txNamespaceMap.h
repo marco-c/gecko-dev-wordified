@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsCOMArray
 .
 h
 "

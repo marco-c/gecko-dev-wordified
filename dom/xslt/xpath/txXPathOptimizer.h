@@ -150,7 +150,7 @@ expression
 .
 *
 /
-void
+nsresult
 optimize
 (
 Expr
@@ -172,7 +172,7 @@ for
 optimizing
 specific
 classes
-void
+nsresult
 optimizeStep
 (
 Expr
@@ -184,7 +184,7 @@ Expr
 aOutExpr
 )
 ;
-void
+nsresult
 optimizePath
 (
 Expr
@@ -196,7 +196,7 @@ Expr
 aOutExpr
 )
 ;
-void
+nsresult
 optimizeUnion
 (
 Expr

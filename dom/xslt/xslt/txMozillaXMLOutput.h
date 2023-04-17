@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsTArray
+nsCOMArray
 .
 h
 "
@@ -241,7 +241,7 @@ nsITransformObserver
 aObserver
 )
 ;
-void
+nsresult
 AddScriptElement
 (
 nsIScriptElement
@@ -316,12 +316,9 @@ nsITransformObserver
 >
 mObserver
 ;
-nsTArray
-<
-nsCOMPtr
+nsCOMArray
 <
 nsIScriptElement
->
 >
 mScriptElements
 ;
@@ -422,7 +419,7 @@ bool
 aXHTML
 )
 ;
-void
+nsresult
 endHTMLElement
 (
 nsIContent
@@ -571,12 +568,9 @@ nsNodeInfoManager
 >
 mNodeInfoManager
 ;
-nsTArray
-<
-nsCOMPtr
+nsCOMArray
 <
 nsINode
->
 >
 mCurrentNodeStack
 ;

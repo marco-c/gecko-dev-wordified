@@ -155,7 +155,7 @@ aState
 using
 HandleEndFn
 =
-void
+nsresult
 (
 *
 )

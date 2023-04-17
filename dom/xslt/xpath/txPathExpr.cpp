@@ -206,7 +206,7 @@ PathExpr
 *
 *
 /
-void
+nsresult
 PathExpr
 :
 :
@@ -255,6 +255,16 @@ AppendElement
 (
 )
 ;
+if
+(
+!
+pxi
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
+;
+}
 pxi
 -
 >
@@ -271,6 +281,9 @@ pxi
 pathOp
 =
 aPathOp
+;
+return
+NS_OK
 ;
 }
 /

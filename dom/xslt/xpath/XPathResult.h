@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
+nsCOMArray
 .
 h
 "
@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsTArray
+nsCycleCollectionParticipant
 .
 h
 "
@@ -599,7 +599,7 @@ nullptr
 return
 mResultNodes
 .
-SafeElementAt
+SafeObjectAt
 (
 0
 )
@@ -660,7 +660,7 @@ uint32_t
 )
 mResultNodes
 .
-Length
+Count
 (
 )
 ;
@@ -714,7 +714,7 @@ nullptr
 return
 mResultNodes
 .
-SafeElementAt
+SafeObjectAt
 (
 aIndex
 )
@@ -897,12 +897,9 @@ txAExprResult
 >
 mResult
 ;
-nsTArray
-<
-nsCOMPtr
+nsCOMArray
 <
 nsINode
->
 >
 mResultNodes
 ;
