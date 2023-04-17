@@ -933,37 +933,6 @@ self
 )
 :
         
-#
-The
-base
-method
-will
-either
-be
-no
--
-op
-(
-and
-return
-the
-existing
-        
-#
-remote
-path
-)
-or
-return
-a
-path
-to
-a
-new
-local
-file
-.
-        
 testPrefsFile
 =
 xpcshell
@@ -1001,7 +970,7 @@ on
 the
             
 #
-device
+devide
 and
 so
 there
@@ -4106,7 +4075,6 @@ chmod
 remotePrefsFile
 )
         
-#
 os
 .
 remove
@@ -4115,32 +4083,6 @@ self
 .
 prefsFile
 )
-is
-not
-called
-despite
-having
-pushed
-the
-        
-#
-file
-to
-the
-device
-because
-the
-local
-file
-is
-relied
-upon
-by
-the
-        
-#
-updateTestPrefsFile
-method
         
 self
 .
