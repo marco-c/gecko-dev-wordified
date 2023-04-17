@@ -705,11 +705,6 @@ wr_compositor_start_compositing
 void
 *
 aCompositor
-wr
-:
-:
-ColorF
-aClearColor
 const
 wr
 :
@@ -748,7 +743,6 @@ compositor
 >
 StartCompositing
 (
-aClearColor
 aDirtyRects
 aNumDirtyRects
 aOpaqueRects

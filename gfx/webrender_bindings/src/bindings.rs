@@ -3583,7 +3583,10 @@ renderer
 .
 set_clear_color
 (
+Some
+(
 color
+)
 )
 ;
 }
@@ -7131,9 +7134,6 @@ compositor
 *
 mut
 c_void
-clear_color
-:
-ColorF
 dirty_rects
 :
 *
@@ -7592,9 +7592,6 @@ start_compositing
 &
 mut
 self
-clear_color
-:
-ColorF
 dirty_rects
 :
 &
@@ -7616,7 +7613,6 @@ wr_compositor_start_compositing
 self
 .
 0
-clear_color
 dirty_rects
 .
 as_ptr
@@ -9051,7 +9047,10 @@ than
 this
 clear_color
 :
+Some
+(
 color
+)
 precache_flags
 namespace_alloc_by_client
 :

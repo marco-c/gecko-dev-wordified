@@ -948,11 +948,6 @@ virtual
 void
 StartCompositing
 (
-wr
-:
-:
-ColorF
-aClearColor
 const
 wr
 :
