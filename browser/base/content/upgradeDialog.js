@@ -1783,11 +1783,6 @@ primary
 .
 focus
 (
-{
-preventFocusRing
-:
-true
-}
 )
 ;
 /
