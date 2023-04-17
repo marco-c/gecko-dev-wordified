@@ -207,6 +207,16 @@ preference
 is
 enabled
 *
+param
+aFromPrivateWindow
+true
+if
+executing
+in
+private
+browsing
+mode
+*
 return
 true
 if
@@ -222,6 +232,8 @@ static
 bool
 IsHttpsFirstModeEnabled
 (
+bool
+aFromPrivateWindow
 )
 ;
 /
