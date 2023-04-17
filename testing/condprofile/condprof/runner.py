@@ -75,6 +75,8 @@ import
 shutil
 import
 asyncio
+import
+mozversion
 from
 condprof
 .
@@ -111,7 +113,6 @@ condprof
 util
 import
 logger
-get_version
 get_current_platform
 extract_from_dmg
 from
@@ -592,28 +593,13 @@ self
 firefox
 )
             
-version
-=
+mozversion
+.
 get_version
 (
 self
 .
 firefox
-)
-            
-logger
-.
-info
-(
-"
-Working
-with
-Firefox
-%
-s
-"
-%
-version
 )
         
 logger
