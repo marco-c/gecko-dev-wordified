@@ -134,13 +134,6 @@ defined
 (
 XP_DARWIN
 )
-&
-&
-!
-defined
-(
-__wasi__
-)
 #
 include
 "
