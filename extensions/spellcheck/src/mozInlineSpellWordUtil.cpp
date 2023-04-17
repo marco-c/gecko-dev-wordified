@@ -2543,6 +2543,7 @@ nsRange
 *
 aRange
 )
+const
 {
 NS_ENSURE_ARG_POINTER
 (
