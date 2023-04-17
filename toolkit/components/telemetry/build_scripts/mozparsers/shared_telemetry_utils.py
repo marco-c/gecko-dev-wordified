@@ -1150,9 +1150,10 @@ filename
 :
 "
 +
+str
+(
 e
-.
-message
+)
 )
     
 except
@@ -1164,7 +1165,6 @@ e
 raise
 ParserError
 (
-            
 "
 Error
 parsing
@@ -1181,8 +1181,5 @@ format
 (
 filename
 e
-.
-message
 )
-        
 )

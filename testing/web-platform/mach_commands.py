@@ -1442,8 +1442,6 @@ e
 print
 (
 e
-.
-message
 file
 =
 sys
