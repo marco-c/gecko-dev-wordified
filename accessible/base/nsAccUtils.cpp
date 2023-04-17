@@ -2302,6 +2302,9 @@ childIdx
 if
 (
 child
+&
+&
+child
 -
 >
 IsText
