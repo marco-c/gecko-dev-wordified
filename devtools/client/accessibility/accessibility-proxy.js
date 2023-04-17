@@ -1108,6 +1108,7 @@ targetCommand
 .
 getAllFronts
 (
+[
 this
 .
 commands
@@ -1117,6 +1118,7 @@ targetCommand
 TYPES
 .
 FRAME
+]
 "
 accessibility
 "
