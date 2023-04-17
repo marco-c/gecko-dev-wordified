@@ -93,7 +93,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 legacy
 -
@@ -112,12 +114,12 @@ exports
 makeStorageLegacyListener
 (
 "
-Cache
+indexedDB
 "
 ResourceWatcher
 .
 TYPES
 .
-CACHE_STORAGE
+INDEXED_DB
 )
 ;

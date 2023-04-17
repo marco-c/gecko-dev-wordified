@@ -83,9 +83,6 @@ watcher
 ;
 const
 {
-/
-/
-getFilteredStorageEvents
 makeStorageLegacyListener
 }
 =
@@ -96,7 +93,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 legacy
 -
@@ -115,12 +114,12 @@ exports
 makeStorageLegacyListener
 (
 "
-indexedDB
+localStorage
 "
 ResourceWatcher
 .
 TYPES
 .
-INDEXED_DB
+LOCAL_STORAGE
 )
 ;
