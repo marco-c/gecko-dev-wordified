@@ -2025,6 +2025,10 @@ isVisible
 mIsVisible
 )
 {
+mIsVisible
+=
+isVisible
+;
 RefPtr
 <
 nsMenuItemX
@@ -2047,10 +2051,6 @@ self
 )
 isVisible
 )
-;
-mIsVisible
-=
-isVisible
 ;
 if
 (

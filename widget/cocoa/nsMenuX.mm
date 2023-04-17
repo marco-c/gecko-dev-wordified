@@ -5235,6 +5235,10 @@ mVisible
 return
 ;
 }
+mVisible
+=
+newVisible
+;
 if
 (
 mParent
@@ -5271,10 +5275,6 @@ SetupIcon
 )
 ;
 }
-mVisible
-=
-newVisible
-;
 }
 else
 if
