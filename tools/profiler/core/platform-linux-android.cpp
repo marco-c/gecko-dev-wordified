@@ -4992,9 +4992,6 @@ Exists
 ;
 PSAutoLock
 lock
-(
-gPSMutex
-)
 ;
 if
 (
@@ -5068,9 +5065,6 @@ Exists
 ;
 PSAutoLock
 lock
-(
-gPSMutex
-)
 ;
 if
 (
