@@ -1046,7 +1046,7 @@ selectedBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1070,7 +1070,7 @@ toggleSidebarAction
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1100,7 +1100,7 @@ selectedBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
