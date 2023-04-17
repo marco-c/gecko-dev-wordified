@@ -2302,16 +2302,6 @@ pref
 "
 extensions
 .
-webextPermissionPrompts
-"
-true
-)
-;
-pref
-(
-"
-extensions
-.
 webextOptionalPermissionPrompts
 "
 true
