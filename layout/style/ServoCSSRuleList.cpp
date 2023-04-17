@@ -346,6 +346,11 @@ mRawRules
 aRawRules
 )
 {
+if
+(
+mRawRules
+)
+{
 Servo_CssRules_ListTypes
 (
 mRawRules
@@ -353,6 +358,7 @@ mRawRules
 mRules
 )
 ;
+}
 }
 /
 /
@@ -1179,6 +1185,10 @@ stylesheet
 ;
 if
 (
+!
+mRawRules
+|
+|
 IsReadOnly
 (
 )
@@ -1390,6 +1400,10 @@ aIndex
 {
 if
 (
+!
+mRawRules
+|
+|
 IsReadOnly
 (
 )
