@@ -454,8 +454,8 @@ BaseHistory
 void
 StartPendingVisitedQueries
 (
-const
 PendingVisitedQueries
+&
 &
 )
 final
