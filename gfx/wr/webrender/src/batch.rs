@@ -114,6 +114,7 @@ spatial_tree
 SpatialTree
 SpatialNodeIndex
 CoordinateSystemId
+SpatialNodeContainer
 }
 ;
 use

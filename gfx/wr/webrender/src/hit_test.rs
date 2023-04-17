@@ -141,6 +141,7 @@ spatial_tree
 {
 SpatialNodeIndex
 SpatialTree
+get_external_scroll_offset
 }
 ;
 use
@@ -2147,10 +2148,9 @@ into_fast_transform
 )
 external_scroll_offset
 :
-spatial_tree
-.
-external_scroll_offset
+get_external_scroll_offset
 (
+spatial_tree
 index
 )
 }
