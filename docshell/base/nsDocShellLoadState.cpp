@@ -3510,6 +3510,12 @@ strippedURI
 )
 )
 {
+mUnstrippedURI
+=
+URI
+(
+)
+;
 SetURI
 (
 strippedURI
