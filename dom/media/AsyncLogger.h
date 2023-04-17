@@ -1598,7 +1598,7 @@ this
 (
 )
 {
-PROFILER_REGISTER_THREAD
+AUTO_PROFILER_REGISTER_THREAD
 (
 "
 AsyncLogger
@@ -1887,10 +1887,6 @@ Sleep
 )
 ;
 }
-PROFILER_UNREGISTER_THREAD
-(
-)
-;
 }
 )
 )
