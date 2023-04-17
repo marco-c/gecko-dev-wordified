@@ -334,6 +334,15 @@ aIndex
 )
 const
 ;
+void
+SetRawAfterClone
+(
+RefPtr
+<
+ServoCssRules
+>
+)
+;
 private
 :
 virtual
