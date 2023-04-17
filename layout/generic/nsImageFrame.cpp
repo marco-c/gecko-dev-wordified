@@ -1544,7 +1544,7 @@ nsIFrame
 ExtremumLength
 :
 :
-MozFitContent
+FitContent
 :
 case
 nsIFrame

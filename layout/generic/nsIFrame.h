@@ -22824,7 +22824,7 @@ GetWritingMode
 return
 bSize
 .
-IsMozFitContent
+IsFitContent
 (
 )
 |
@@ -34598,7 +34598,7 @@ ExtremumLength
 MinContent
 MaxContent
 MozAvailable
-MozFitContent
+FitContent
 FitContentFunction
 }
 ;
@@ -34697,7 +34697,7 @@ SizeOrMaxSize
 Tag
 :
 :
-MozFitContent
+FitContent
 :
 return
 mozilla
@@ -34708,7 +34708,7 @@ Some
 ExtremumLength
 :
 :
-MozFitContent
+FitContent
 )
 ;
 case

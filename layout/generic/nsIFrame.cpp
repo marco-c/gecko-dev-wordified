@@ -16409,7 +16409,7 @@ IsMinContent
 |
 aSize
 .
-IsMozFitContent
+IsFitContent
 (
 )
 |
@@ -47895,7 +47895,7 @@ case
 ExtremumLength
 :
 :
-MozFitContent
+FitContent
 :
 {
 nscoord

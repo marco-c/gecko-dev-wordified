@@ -9556,6 +9556,12 @@ gecko
 )
 ]
 "
+fit
+-
+content
+"
+|
+"
 -
 moz
 -
@@ -9568,7 +9574,7 @@ content
 size
 :
 :
-MozFitContent
+FitContent
 #
 [
 cfg

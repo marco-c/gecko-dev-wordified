@@ -14453,7 +14453,7 @@ nsIFrame
 ExtremumLength
 :
 :
-MozFitContent
+FitContent
 :
 return
 aValue
@@ -14462,9 +14462,6 @@ aValue
 SetString
 (
 "
--
-moz
--
 fit
 -
 content
@@ -14569,12 +14566,10 @@ fitContentStr
 .
 Append
 (
-char16_t
-(
+u
 '
 )
 '
-)
 )
 ;
 aValue
