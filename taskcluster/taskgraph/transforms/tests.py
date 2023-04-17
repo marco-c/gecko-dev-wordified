@@ -5683,6 +5683,7 @@ fields
             
 resolve_keyed_by
 (
+                
 task
 field
 item_name
@@ -5695,6 +5696,10 @@ test
 name
 "
 ]
+enforce_single_match
+=
+False
+            
 )
         
 yield
@@ -6411,6 +6416,10 @@ test
 name
 "
 ]
+            
+enforce_single_match
+=
+False
             
 *
 *
@@ -7414,6 +7423,7 @@ task
             
 resolve_keyed_by
 (
+                
 task
 "
 target
@@ -7428,6 +7438,10 @@ test
 name
 "
 ]
+enforce_single_match
+=
+False
+            
 )
             
 target
@@ -8740,6 +8754,10 @@ defer
 variant
 "
 ]
+                
+enforce_single_match
+=
+False
                 
 project
 =
@@ -10869,6 +10887,10 @@ name
 "
 ]
                 
+enforce_single_match
+=
+False
+                
 variant
 =
 task
@@ -12087,6 +12109,7 @@ task
             
 resolve_keyed_by
 (
+                
 task
 "
 tier
@@ -12101,6 +12124,10 @@ test
 name
 "
 ]
+enforce_single_match
+=
+False
+            
 )
         
 #
