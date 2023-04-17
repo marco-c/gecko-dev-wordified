@@ -542,6 +542,12 @@ DestroyProcess
 (
 )
 ;
+bool
+IsShutdown
+(
+)
+const
+;
 DISALLOW_COPY_AND_ASSIGN
 (
 RDDProcessManager
