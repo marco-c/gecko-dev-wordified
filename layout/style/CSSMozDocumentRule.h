@@ -248,6 +248,15 @@ return
 mRawRule
 ;
 }
+void
+SetRawAfterClone
+(
+RefPtr
+<
+RawServoMozDocumentRule
+>
+)
+;
 /
 /
 WebIDL

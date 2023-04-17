@@ -733,9 +733,7 @@ sheet
 Clone
 (
 nullptr
-nullptr
 this
-nullptr
 )
 ;
 if
