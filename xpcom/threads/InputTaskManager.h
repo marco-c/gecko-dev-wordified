@@ -316,12 +316,6 @@ return
 mInputQueueState
 =
 =
-STATE_DISABLED
-|
-|
-mInputQueueState
-=
-=
 STATE_SUSPEND
 |
 |
