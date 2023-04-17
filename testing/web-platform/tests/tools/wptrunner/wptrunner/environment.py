@@ -477,6 +477,9 @@ env_extras
 enable_quic
 =
 False
+enable_webtransport
+=
+False
 mojojs_path
 =
 None
@@ -634,6 +637,12 @@ self
 enable_quic
 =
 enable_quic
+        
+self
+.
+enable_webtransport
+=
+enable_webtransport
         
 self
 .
@@ -1137,6 +1146,25 @@ transport
 =
 [
 10000
+]
+        
+if
+self
+.
+enable_webtransport
+:
+            
+ports
+[
+"
+webtransport
+-
+h3
+"
+]
+=
+[
+11000
 ]
         
 config
@@ -2022,10 +2050,30 @@ items
 )
 :
                 
+if
+scheme
+=
+=
+"
+quic
+-
+transport
+"
+or
+scheme
+=
+=
+"
+webtransport
+-
+h3
+"
+:
+                    
 #
 TODO
 (
-Hexcles
+bashi
 )
 :
 Find
@@ -2039,17 +2087,6 @@ s
 UDP
 port
 .
-                
-if
-scheme
-=
-=
-"
-quic
--
-transport
-"
-:
                     
 continue
                 

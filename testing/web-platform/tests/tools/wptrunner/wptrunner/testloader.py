@@ -1345,6 +1345,10 @@ include_quic
 =
 False
                  
+include_webtransport_h3
+=
+False
+                 
 skip_timeout
 =
 False
@@ -1420,6 +1424,12 @@ self
 include_quic
 =
 include_quic
+        
+self
+.
+include_webtransport_h3
+=
+include_webtransport_h3
         
 self
 .
