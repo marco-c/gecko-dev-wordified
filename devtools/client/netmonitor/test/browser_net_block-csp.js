@@ -74,8 +74,8 @@ document
 await
 testRequestsBlockedByCSP
 (
-EXAMPLE_URL
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 html_csp
@@ -134,8 +134,8 @@ frames
 await
 testRequestsBlockedByCSP
 (
-EXAMPLE_ORG_URL
-EXAMPLE_URL
+HTTPS_EXAMPLE_ORG_URL
+HTTPS_EXAMPLE_URL
 +
 "
 html_csp

@@ -161,7 +161,7 @@ urls
 :
 [
 "
-http
+https
 :
 /
 /
@@ -243,7 +243,7 @@ monitor
 await
 initNetMonitor
 (
-SINGLE_GET_URL
+HTTPS_SINGLE_GET_URL
 {
 requestCount
 :
