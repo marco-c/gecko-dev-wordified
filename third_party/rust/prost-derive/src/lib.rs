@@ -872,9 +872,16 @@ quote
 tag
 )
 )
-.
+;
+let
+tags
+=
+Itertools
+:
+:
 intersperse
 (
+tags
 quote
 !
 (
