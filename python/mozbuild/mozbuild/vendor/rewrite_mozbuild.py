@@ -7291,10 +7291,16 @@ normalized_mozbuild_filename
         
 for
 key
-normalized_source_filename_list
 in
 source_assignments
 :
+            
+normalized_source_filename_list
+=
+source_assignments
+[
+key
+]
             
 if
 normalized_filename_to_remove
@@ -7325,6 +7331,17 @@ return
 normalized_filename_to_remove
 =
 original_normalized_filename_to_remove
+    
+raise
+Exception
+(
+"
+Could
+not
+remove
+file
+"
+)
 def
 add_file_to_moz_build_file
 (
