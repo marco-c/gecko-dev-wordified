@@ -164,7 +164,7 @@ namespace
 widget
 {
 static
-const
+constexpr
 gfx
 :
 :
@@ -183,7 +183,7 @@ OpaqueWhite
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -205,7 +205,7 @@ White
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -227,7 +227,7 @@ White
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -246,7 +246,7 @@ OpaqueBlack
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -266,7 +266,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -286,7 +286,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -306,7 +306,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -326,7 +326,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -346,7 +346,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -366,7 +366,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -386,7 +386,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -406,7 +406,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -426,7 +426,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -446,7 +446,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -466,7 +466,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -486,7 +486,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -506,7 +506,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -526,7 +526,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -546,7 +546,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -566,7 +566,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -586,7 +586,7 @@ UnusualFromARGB
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
@@ -611,7 +611,7 @@ sRGBColor
 )
 ;
 static
-const
+constexpr
 gfx
 :
 :
