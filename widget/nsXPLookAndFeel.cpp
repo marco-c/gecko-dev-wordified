@@ -2722,16 +2722,6 @@ browser
 .
 proton
 .
-modals
-.
-enabled
-"
-_ns
-"
-browser
-.
-proton
-.
 places
 -
 tooltip
