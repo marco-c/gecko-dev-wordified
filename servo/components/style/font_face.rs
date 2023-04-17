@@ -2761,13 +2761,7 @@ b
 >
 {
 type
-PreludeNoBlock
-=
-(
-)
-;
-type
-PreludeBlock
+Prelude
 =
 (
 )
