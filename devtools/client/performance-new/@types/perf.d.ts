@@ -765,12 +765,6 @@ recordingSettings
 :
 RecordingSettings
 ;
-profilerViewMode
-:
-ProfilerViewMode
-|
-undefined
-;
 initializedValues
 :
 InitializedValues
@@ -1176,11 +1170,6 @@ OnProfileReceived
 profile
 :
 MinimallyTypedGeckoProfile
-profilerViewMode
-:
-ProfilerViewMode
-|
-undefined
 )
 =
 >
