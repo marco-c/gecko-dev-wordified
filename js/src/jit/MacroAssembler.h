@@ -11991,10 +11991,8 @@ PER_ARCH
 ;
 /
 /
-On
-x86
-and
-x64
+Only
+the
 NotEqual
 and
 Equal
@@ -12011,13 +12009,6 @@ with
 Address
 as
 lhs
-.
-On
-others
-only
-the
-NotEqual
-condition
 .
 inline
 void
