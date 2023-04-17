@@ -14455,7 +14455,7 @@ gQuotaManagerInitialized
 ;
 #
 ifdef
-QM_ENABLE_SCOPED_LOG_EXTRA_INFO
+QM_SCOPED_LOG_EXTRA_INFO_ENABLED
 ScopedLogExtraInfo
 :
 :
