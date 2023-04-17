@@ -2787,15 +2787,6 @@ fun
 )
 ;
 void
-initFromScriptStencilExtra
-(
-const
-ScriptStencilExtra
-&
-extra
-)
-;
-void
 initStandalone
 (
 ScopeContext
