@@ -3499,6 +3499,10 @@ ClipStore
 :
 new
 (
+&
+stats
+.
+clip_store_stats
 )
 interners
 rf_mapper
