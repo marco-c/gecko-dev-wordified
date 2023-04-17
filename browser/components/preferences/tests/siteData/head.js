@@ -1409,7 +1409,7 @@ url
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1486,7 +1486,7 @@ promiseServiceWorkersCleared
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1548,7 +1548,7 @@ url
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
