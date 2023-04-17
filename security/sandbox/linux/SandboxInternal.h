@@ -183,6 +183,9 @@ siginfo_t
 *
 void
 *
+const
+void
+*
 )
 ;
 extern
