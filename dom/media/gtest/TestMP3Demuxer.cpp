@@ -3185,6 +3185,12 @@ mNumSamples
 numSamples
 )
 ;
+EXPECT_GE
+(
+numSamples
+0
+)
+;
 /
 /
 There
