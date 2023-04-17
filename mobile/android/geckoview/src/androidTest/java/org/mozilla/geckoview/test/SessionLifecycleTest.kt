@@ -1079,7 +1079,7 @@ second
 rafRate
 greaterThan
 (
-500
+450
 .
 0
 )
