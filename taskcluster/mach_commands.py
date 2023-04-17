@@ -105,11 +105,11 @@ SettingsProvider
 SubCommand
 )
 import
-taskgraph
+gecko_taskgraph
 .
 main
 from
-taskgraph
+gecko_taskgraph
 .
 main
 import
@@ -1328,7 +1328,7 @@ the
 terminal
 .
     
-taskgraph
+gecko_taskgraph
 .
 main
 .
@@ -2226,20 +2226,20 @@ options
 :
     
 import
-taskgraph
+gecko_taskgraph
     
 import
-taskgraph
+gecko_taskgraph
 .
 actions
     
 import
-taskgraph
+gecko_taskgraph
 .
 generator
     
 import
-taskgraph
+gecko_taskgraph
 .
 parameters
     
@@ -2271,7 +2271,7 @@ verbose
         
 parameters
 =
-taskgraph
+gecko_taskgraph
 .
 parameters
 .
@@ -2287,7 +2287,7 @@ parameters
         
 tgg
 =
-taskgraph
+gecko_taskgraph
 .
 generator
 .
@@ -2313,7 +2313,7 @@ parameters
         
 actions
 =
-taskgraph
+gecko_taskgraph
 .
 actions
 .
@@ -2723,7 +2723,7 @@ branch
 :
     
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .

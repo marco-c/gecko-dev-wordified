@@ -102,7 +102,7 @@ base
 import
 FailedCommandError
 from
-taskgraph
+gecko_taskgraph
 import
 GECKO
 logger

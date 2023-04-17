@@ -112,7 +112,7 @@ PYTHON_UNITTEST_MANIFESTS
 =
 [
 "
-taskgraph
+gecko_taskgraph
 /
 test
 /
@@ -144,7 +144,7 @@ SPHINX_PYTHON_PACKAGE_DIRS
 =
 [
 "
-taskgraph
+gecko_taskgraph
 "
 ]
 with

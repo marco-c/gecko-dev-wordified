@@ -54,7 +54,7 @@ MPL
 /
 .
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
@@ -82,7 +82,7 @@ optimize_strategies
 "
 :
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :
@@ -235,7 +235,7 @@ of
 "
 taskcluster
 /
-taskgraph
+gecko_taskgraph
 /
 optimize
 /
@@ -416,7 +416,7 @@ args
 strategy
 =
 "
-taskgraph
+gecko_taskgraph
 .
 optimize
 :
@@ -428,9 +428,11 @@ tryselect
 .
 format
 (
+                    
 args
 .
 strategy
+                
 )
             
 try

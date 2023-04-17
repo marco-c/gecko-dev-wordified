@@ -1710,7 +1710,7 @@ import
 time
     
 from
-taskgraph
+gecko_taskgraph
 .
 util
 .
@@ -2448,7 +2448,7 @@ return
 1
         
 from
-taskgraph
+gecko_taskgraph
 .
 optimize
 .

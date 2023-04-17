@@ -92,15 +92,15 @@ TestResolver
 TestManifestLoader
 get_suite_definition
 import
-taskgraph
+gecko_taskgraph
 from
-taskgraph
+gecko_taskgraph
 .
 generator
 import
 TaskGraphGenerator
 from
-taskgraph
+gecko_taskgraph
 .
 parameters
 import
@@ -111,7 +111,7 @@ ParameterMismatch
 parameters_loader
 )
 from
-taskgraph
+gecko_taskgraph
 .
 taskgraph
 import
@@ -539,7 +539,7 @@ ci
 "
 )
     
-taskgraph
+gecko_taskgraph
 .
 fast
 =
