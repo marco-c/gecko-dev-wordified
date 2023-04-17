@@ -58,6 +58,12 @@ MPL
 /
 /
 *
+globals
+browser
+*
+/
+/
+*
 *
 For
 use
