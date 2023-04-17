@@ -2573,12 +2573,13 @@ the
 self
 -
 hosting
-stencil
+global
+compartment
 .
 rt
 -
 >
-traceSelfHostingStencil
+traceSelfHostingGlobal
 (
 trc
 )
@@ -3258,6 +3259,10 @@ rt
 finishSelfHosting
 (
 )
+;
+selfHostingZoneFrozen
+=
+false
 ;
 for
 (

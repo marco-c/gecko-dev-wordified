@@ -209,6 +209,7 @@ uint8_t
 {
 NormalZone
 AtomsZone
+SelfHostingZone
 SystemZone
 }
 ;
@@ -545,6 +546,19 @@ kind_
 =
 =
 AtomsZone
+;
+}
+bool
+isSelfHostingZone
+(
+)
+const
+{
+return
+kind_
+=
+=
+SelfHostingZone
 ;
 }
 bool

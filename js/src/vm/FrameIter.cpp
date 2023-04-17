@@ -5161,6 +5161,14 @@ InlineFrameIterator
 findNextFrame
 (
 )
+/
+/
+js
+:
+:
+CloneFunctionAndScript
+(
+)
 if
 (
 currentCallee

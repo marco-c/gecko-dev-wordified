@@ -26930,17 +26930,6 @@ isForEval
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-script
--
->
-selfHosted
-(
-)
-)
-;
 RootedObject
 varObj
 (
