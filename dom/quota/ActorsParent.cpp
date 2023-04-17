@@ -12955,11 +12955,11 @@ without
 checking
 if
 the
-file
+directory
 already
+/
+/
 exists
-/
-/
 (
 idempotent
 usage
@@ -12973,9 +12973,9 @@ here
 since
 we
 want
+/
+/
 to
-/
-/
 ignore
 NS_ERROR_FILE_ALREADY_EXISTS
 completely
