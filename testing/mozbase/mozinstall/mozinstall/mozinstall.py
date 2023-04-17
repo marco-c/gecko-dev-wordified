@@ -85,7 +85,6 @@ requests
 from
 six
 import
-PY3
 reraise
 import
 mozfile
@@ -235,10 +234,6 @@ path
 )
 :
     
-if
-PY3
-:
-        
 with
 open
 (
@@ -250,21 +245,13 @@ rb
 as
 fp
 :
-            
+        
 return
 plistlib
 .
 load
 (
 fp
-)
-    
-return
-plistlib
-.
-readPlist
-(
-path
 )
 def
 get_binary
