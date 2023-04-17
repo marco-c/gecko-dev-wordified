@@ -604,7 +604,12 @@ aResourceIds
 )
 ;
 void
-Upgrade
+SetAsync
+(
+)
+;
+bool
+IsSync
 (
 )
 ;
@@ -713,9 +718,6 @@ ffi
 LocalizationRc
 >
 mRaw
-;
-bool
-mIsSync
 ;
 }
 ;
