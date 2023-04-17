@@ -10292,6 +10292,12 @@ init
 (
 )
 ;
+UrlbarPrefs
+.
+maybeEnableOfflineQuickSuggest
+(
+)
+;
 /
 /
 A
