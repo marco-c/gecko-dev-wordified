@@ -136,7 +136,7 @@ detail
 static
 *
 /
-void
+nsresult
 ProxyReleaseChooser
 <
 true
@@ -159,6 +159,7 @@ bool
 aAlwaysProxy
 )
 {
+return
 :
 :
 detail
