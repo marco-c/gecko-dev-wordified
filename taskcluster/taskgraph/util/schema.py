@@ -66,6 +66,10 @@ pprint
 import
 collections
 import
+collections
+.
+abc
+import
 voluptuous
 from
 six
@@ -1367,6 +1371,8 @@ isinstance
 (
 sch
 collections
+.
+abc
 .
 Mapping
 )

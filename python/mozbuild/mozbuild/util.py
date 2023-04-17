@@ -81,6 +81,10 @@ argparse
 import
 collections
 import
+collections
+.
+abc
+import
 ctypes
 import
 difflib
@@ -5581,6 +5585,8 @@ class
 StringListAdaptor
 (
 collections
+.
+abc
 .
 Sequence
 )

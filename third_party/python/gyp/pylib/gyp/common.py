@@ -42,6 +42,10 @@ with_statement
 import
 collections
 import
+collections
+.
+abc
+import
 errno
 import
 filecmp
@@ -3924,6 +3928,8 @@ class
 OrderedSet
 (
 collections
+.
+abc
 .
 MutableSet
 )
