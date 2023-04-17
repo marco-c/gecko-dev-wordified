@@ -881,7 +881,7 @@ GetLog
 *
 Create
 a
-subprocess
+ContentParent
 suitable
 for
 use
@@ -894,11 +894,11 @@ process
 *
 /
 static
-RefPtr
+already_AddRefed
 <
-LaunchPromise
+ContentParent
 >
-PreallocateProcess
+MakePreallocProcess
 (
 )
 ;
@@ -8703,6 +8703,8 @@ uint32_t
 aMaxContentParents
 bool
 aPreferUsed
+ProcessPriority
+aPriority
 )
 ;
 void
