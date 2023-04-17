@@ -279,6 +279,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsIFormAutoComplete
 .
 h

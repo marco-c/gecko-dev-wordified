@@ -282,7 +282,6 @@ htmlEditor
 >
 PreDestroy
 (
-false
 )
 ;
 }
@@ -367,7 +366,6 @@ htmlEditor
 >
 PreDestroy
 (
-false
 )
 ;
 }
@@ -509,7 +507,6 @@ htmlEditor
 >
 PreDestroy
 (
-false
 )
 ;
 MOZ_ASSERT
