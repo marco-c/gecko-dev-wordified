@@ -13707,6 +13707,8 @@ aCtx
 mFrame
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 rect
 computedStyle
@@ -13725,6 +13727,8 @@ aCtx
 mFrame
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 rect
 computedStyle

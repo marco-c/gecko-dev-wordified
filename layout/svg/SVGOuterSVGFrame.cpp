@@ -5062,6 +5062,8 @@ clipRect
 =
 GetPaintRect
 (
+aBuilder
+aContext
 )
 .
 Intersect

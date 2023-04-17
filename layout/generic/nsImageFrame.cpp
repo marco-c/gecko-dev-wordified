@@ -1074,6 +1074,8 @@ TopLeft
 )
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 dest
 .
@@ -10536,6 +10538,8 @@ DisplayAltFeedback
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 ToReferenceFrame
 (
@@ -14030,6 +14034,8 @@ ToReferenceFrame
 )
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 mImage
 flags
@@ -14108,6 +14114,8 @@ ToReferenceFrame
 )
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 mPrevImage
 flags

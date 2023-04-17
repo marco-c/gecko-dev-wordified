@@ -10713,6 +10713,8 @@ NSRectToSnappedRect
 (
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 appUnitsPerDevPixel
 *

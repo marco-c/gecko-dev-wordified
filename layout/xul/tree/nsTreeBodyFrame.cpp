@@ -16415,6 +16415,8 @@ PaintTreeBody
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 ToReferenceFrame
 (

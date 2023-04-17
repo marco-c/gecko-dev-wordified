@@ -468,6 +468,8 @@ mBorderRenderers
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 ToReferenceFrame
 (

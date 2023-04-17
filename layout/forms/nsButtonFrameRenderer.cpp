@@ -1489,6 +1489,8 @@ mFrame
 frameRect
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 )
 ;
@@ -2583,6 +2585,8 @@ pc
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 r
 )
@@ -2947,6 +2951,8 @@ PresContext
 aCtx
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 r
 )

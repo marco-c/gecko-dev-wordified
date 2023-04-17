@@ -2218,6 +2218,8 @@ aCtx
 mFrame
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 bounds
 styleBorder
