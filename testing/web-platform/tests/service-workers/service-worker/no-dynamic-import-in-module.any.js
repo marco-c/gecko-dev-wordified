@@ -44,6 +44,8 @@ import
 '
 .
 /
+resources
+/
 basic
 -
 module
