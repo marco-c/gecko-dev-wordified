@@ -915,12 +915,13 @@ HTML_TAG
 #
 undef
 HTML_OTHER
-typedef
+using
+constructorGetterCallback
+=
 JSObject
 *
 (
 *
-constructorGetterCallback
 )
 (
 JSContext
