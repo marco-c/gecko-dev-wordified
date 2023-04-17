@@ -13636,6 +13636,16 @@ about
 :
 privatebrowsing
 "
+|
+|
+this
+.
+getTabToAdopt
+(
+)
+?
+.
+isEmpty
 )
 {
 gURLBar
