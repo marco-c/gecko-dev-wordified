@@ -124,6 +124,11 @@ TestQuotaManager
 cpp
 "
 "
+TestScopedLogExtraInfo
+.
+cpp
+"
+"
 TestUsageInfo
 .
 cpp
