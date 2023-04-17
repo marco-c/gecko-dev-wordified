@@ -163,6 +163,13 @@ h
 #
 include
 "
+IndexedDatabaseInlines
+.
+h
+"
+#
+include
+"
 IndexedDBCommon
 .
 h
