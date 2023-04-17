@@ -143,8 +143,6 @@ TimeDuration
 ocspHardTimeout
 uint32_t
 certShortLifetimeInDays
-PinningMode
-pinningMode
 SHA1Mode
 sha1Mode
 BRNameMatchingPolicy
@@ -182,7 +180,6 @@ osc
 ocspSoftTimeout
 ocspHardTimeout
 certShortLifetimeInDays
-pinningMode
 sha1Mode
 nameMatchingMode
 netscapeStepUpPolicy
