@@ -242,7 +242,7 @@ Open
 frame
 submenu
 const
-menuPopup
+frameItem
 =
 contextMenu
 .
@@ -253,6 +253,11 @@ querySelector
 frame
 "
 )
+;
+const
+menuPopup
+=
+frameItem
 .
 menupopup
 ;
@@ -269,10 +274,11 @@ popupshown
 "
 )
 ;
-menuPopup
+frameItem
 .
-openPopup
+openMenu
 (
+true
 )
 ;
 await
