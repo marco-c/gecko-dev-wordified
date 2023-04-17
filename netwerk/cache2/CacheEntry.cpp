@@ -3068,7 +3068,10 @@ mUseDisk
 aMemoryOnly
 mSkipSizeCheck
 mPinned
-true
+nsICacheStorage
+:
+:
+OPEN_TRUNCATE
 /
 /
 truncate

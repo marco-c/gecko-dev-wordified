@@ -1204,8 +1204,8 @@ const
 nsACString
 &
 aIdExtension
-bool
-aReplace
+uint32_t
+aFlags
 CacheEntryHandle
 *
 *
@@ -1665,8 +1665,8 @@ bool
 aSkipSizeCheck
 bool
 aPin
-bool
-aReplace
+uint32_t
+aFlags
 CacheEntryHandle
 *
 *
