@@ -31612,9 +31612,12 @@ quota
 .
 QM_TRY_RETURN
 (
+MOZ_TO_RESULT
+(
 DeleteFilesNoQuota
 (
 file
+)
 )
 )
 ;
@@ -31630,6 +31633,8 @@ quota
 .
 QM_TRY_RETURN
 (
+MOZ_TO_RESULT
+(
 DeleteFile
 (
 file
@@ -31640,6 +31645,7 @@ Idempotency
 :
 :
 Yes
+)
 )
 )
 ;
@@ -31688,14 +31694,19 @@ isDirectory
 {
 QM_TRY_RETURN
 (
+MOZ_TO_RESULT
+(
 DeleteFilesNoQuota
 (
 file
 )
 )
+)
 ;
 }
 QM_TRY_RETURN
+(
+MOZ_TO_RESULT
 (
 DeleteFile
 (
@@ -31715,6 +31726,7 @@ Idempotency
 :
 :
 Yes
+)
 )
 )
 ;

@@ -53768,6 +53768,8 @@ exists
 {
 QM_TRY_RETURN
 (
+MOZ_TO_RESULT
+(
 aOriginProps
 .
 mDirectory
@@ -53783,9 +53785,12 @@ recursive
 true
 )
 )
+)
 ;
 }
 QM_TRY_RETURN
+(
+MOZ_TO_RESULT
 (
 aOriginProps
 .
@@ -53796,6 +53801,7 @@ RenameTo
 (
 nullptr
 newLeafName
+)
 )
 )
 ;
