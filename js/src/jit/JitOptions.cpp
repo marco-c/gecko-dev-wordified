@@ -659,7 +659,7 @@ disabled
 SET_DEFAULT
 (
 disablePruning
-true
+false
 )
 ;
 /
