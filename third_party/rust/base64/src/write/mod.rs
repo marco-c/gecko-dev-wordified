@@ -15,6 +15,9 @@ base64
 mod
 encoder
 ;
+mod
+encoder_string_writer
+;
 pub
 use
 self
@@ -24,6 +27,16 @@ encoder
 :
 :
 EncoderWriter
+;
+pub
+use
+self
+:
+:
+encoder_string_writer
+:
+:
+EncoderStringWriter
 ;
 #
 [

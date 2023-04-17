@@ -1037,6 +1037,11 @@ Self
 :
 :
 Add
+|
+Self
+:
+:
+Subtract
 =
 >
 "

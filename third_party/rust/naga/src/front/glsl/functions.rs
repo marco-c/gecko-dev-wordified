@@ -3505,6 +3505,12 @@ emit_flush
 body
 )
 ;
+ctx
+.
+emit_start
+(
+)
+;
 body
 .
 push
@@ -3524,12 +3530,6 @@ meta
 as_span
 (
 )
-)
-;
-ctx
-.
-emit_start
-(
 )
 ;
 }

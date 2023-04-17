@@ -283,10 +283,6 @@ all
 )
 }
 }
-#
-[
-must_use
-]
 bitflags
 :
 :
@@ -300,6 +296,10 @@ Allowed
 IR
 capabilities
 .
+#
+[
+must_use
+]
 #
 [
 derive

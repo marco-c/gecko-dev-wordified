@@ -3070,6 +3070,9 @@ errors
 }
 }
 }
+let
+_
+=
 stream_encoder
 .
 finish
@@ -3483,6 +3486,9 @@ bytes_consumed
 input_len
 ;
 }
+let
+_
+=
 stream_encoder
 .
 finish

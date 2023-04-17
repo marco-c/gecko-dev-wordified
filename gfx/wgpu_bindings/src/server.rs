@@ -2890,7 +2890,7 @@ err
 CommandEncoderAction
 :
 :
-ClearImage
+ClearTexture
 {
 dst
 ref
@@ -2908,7 +2908,7 @@ err
 =
 self
 .
-command_encoder_clear_image
+command_encoder_clear_texture
 :
 :
 <

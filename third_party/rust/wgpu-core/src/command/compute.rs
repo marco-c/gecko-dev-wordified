@@ -2255,6 +2255,10 @@ validate_dynamic_bindings
 (
 &
 temp_offsets
+&
+cmd_buf
+.
+limits
 )
 .
 map_pass_err

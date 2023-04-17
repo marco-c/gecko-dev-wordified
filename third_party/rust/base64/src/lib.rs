@@ -1636,6 +1636,7 @@ new
 Config
 .
 pub
+const
 fn
 new
 (
@@ -1672,6 +1673,7 @@ with
 characters
 .
 pub
+const
 fn
 pad
 (
@@ -1747,6 +1749,7 @@ decode
 )
 .
 pub
+const
 fn
 decode_allow_trailing_bits
 (
@@ -2014,4 +2017,14 @@ decode_allow_trailing_bits
 :
 false
 }
+;
+const
+PAD_BYTE
+:
+u8
+=
+b
+'
+=
+'
 ;
