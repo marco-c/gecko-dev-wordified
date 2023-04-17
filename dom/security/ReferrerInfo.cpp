@@ -1671,6 +1671,16 @@ EqualsIgnoreCase
 http
 "
 )
+|
+|
+scheme
+.
+EqualsIgnoreCase
+(
+"
+ftp
+"
+)
 ;
 }
 /
@@ -6918,6 +6928,7 @@ allowlist
 only
 http
 https
+ftp
 scheme
 are
 allowed
