@@ -219,6 +219,7 @@ tree
 /
 class
 TextEditor
+final
 :
 public
 EditorBase
@@ -537,7 +538,7 @@ int32_t
 *
 aCount
 )
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
@@ -546,7 +547,7 @@ Paste
 int32_t
 aClipboardType
 )
-override
+final
 {
 const
 nsresult
@@ -628,7 +629,6 @@ Overrides
 of
 EditorBase
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 Init
 (
@@ -648,14 +648,14 @@ nsAString
 &
 aValue
 )
-override
+final
 ;
 bool
 IsEmpty
 (
 )
 const
-override
+final
 ;
 bool
 CanPaste
@@ -664,7 +664,7 @@ int32_t
 aClipboardType
 )
 const
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -679,9 +679,8 @@ aPrincipal
 =
 nullptr
 )
-override
+final
 ;
-virtual
 bool
 CanPasteTransferable
 (
@@ -689,10 +688,9 @@ nsITransferable
 *
 aTransferable
 )
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 HandleKeyPressEvent
 (
@@ -700,9 +698,8 @@ WidgetKeyboardEvent
 *
 aKeyboardEvent
 )
-override
+final
 ;
-virtual
 dom
 :
 :
@@ -712,7 +709,7 @@ GetDOMEventTarget
 (
 )
 const
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -728,7 +725,7 @@ aPrincipal
 =
 nullptr
 )
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -744,7 +741,7 @@ aPrincipal
 =
 nullptr
 )
-override
+final
 ;
 /
 *
@@ -902,7 +899,7 @@ aPrincipal
 =
 nullptr
 )
-override
+final
 ;
 /
 *
@@ -1457,7 +1454,6 @@ Overrides
 of
 EditorBase
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 RemoveAttributeOrEquivalent
 (
@@ -1470,10 +1466,9 @@ aAttribute
 bool
 aSuppressTransaction
 )
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 SetAttributeOrEquivalent
 (
@@ -1490,7 +1485,7 @@ aValue
 bool
 aSuppressTransaction
 )
-override
+final
 ;
 using
 EditorBase
@@ -2532,7 +2527,7 @@ nsAString
 &
 aInsertionString
 )
-override
+final
 ;
 [
 [
@@ -2563,7 +2558,7 @@ Document
 *
 aSrcDocument
 )
-override
+final
 ;
 /
 *
@@ -2698,7 +2693,7 @@ nsIEditor
 EStripWrappers
 aStripWrappers
 )
-override
+final
 ;
 /
 *
@@ -2906,7 +2901,6 @@ helper
 classes
 .
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 OnStartToHandleTopLevelEditSubAction
 (
@@ -2921,15 +2915,14 @@ ErrorResult
 &
 aRv
 )
-override
+final
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 OnEndHandlingTopLevelEditSubAction
 (
 )
-override
+final
 ;
 /
 *
@@ -3147,12 +3140,11 @@ document
 *
 /
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 SelectEntireDocument
 (
 )
-override
+final
 ;
 [
 [
@@ -3168,7 +3160,7 @@ nsAString
 &
 aQuotedText
 )
-override
+final
 ;
 [
 [
@@ -3191,7 +3183,6 @@ IsCopyToClipboardAllowedInternal
 const
 final
 ;
-virtual
 already_AddRefed
 <
 Element
@@ -3200,7 +3191,7 @@ GetInputEventTargetElement
 (
 )
 const
-override
+final
 ;
 /
 *
