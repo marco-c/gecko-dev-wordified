@@ -3420,6 +3420,19 @@ self
 .
 artifact_dir
         
+self
+.
+config
+[
+"
+page_count
+"
+]
+=
+self
+.
+page_count
+        
 res
 =
 self
