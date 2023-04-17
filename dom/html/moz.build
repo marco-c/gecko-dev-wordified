@@ -361,6 +361,11 @@ HTMLDNSPrefetch
 h
 "
 "
+HTMLElement
+.
+h
+"
+"
 HTMLEmbedElement
 .
 h
