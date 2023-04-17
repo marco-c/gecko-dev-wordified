@@ -2659,7 +2659,7 @@ self
 assertRaisesFromLine
 (
 ConfigureError
-4
+3
 )
 as
 e
@@ -2715,6 +2715,7 @@ bool
 x
 )
 )
+\
                        
 help
 =
@@ -2786,7 +2787,7 @@ self
 assertRaisesFromLine
 (
 ConfigureError
-376
+375
 )
 :
             
@@ -2857,6 +2858,7 @@ bool
 x
 )
 )
+\
                        
 help
 =
