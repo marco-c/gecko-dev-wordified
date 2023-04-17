@@ -1124,6 +1124,12 @@ tab
 =
 null
 ;
+this
+.
+frameRegsPending
+=
+0
+;
 }
 /
 *
