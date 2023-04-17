@@ -2962,11 +2962,10 @@ ABI
 assumption
 that
 is
-*
 not
-*
 /
 /
+necessarily
 the
 same
 as
@@ -2979,7 +2978,9 @@ correct
 not
 to
 use
-that
+/
+/
+ReturnReg64
 here
 .
 masm
