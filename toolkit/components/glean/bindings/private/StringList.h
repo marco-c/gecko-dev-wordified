@@ -453,16 +453,12 @@ value
 .
 *
 /
-Result
-<
 Maybe
 <
 nsTArray
 <
 nsCString
 >
->
-nsCString
 >
 TestGetValue
 (

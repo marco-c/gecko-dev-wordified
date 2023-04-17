@@ -308,13 +308,9 @@ metric
 .
 *
 /
-Result
-<
 Maybe
 <
 int64_t
->
-nsCString
 >
 TestGetValue
 (

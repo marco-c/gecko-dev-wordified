@@ -565,7 +565,7 @@ void
 add
 (
 in
-int32_t
+uint32_t
 amount
 )
 ;
