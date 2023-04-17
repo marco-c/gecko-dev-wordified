@@ -4590,11 +4590,6 @@ bool
 aCloneSHChildren
 )
 ;
-void
-RecordSingleChannelId
-(
-)
-;
 public
 :
 /
@@ -5725,6 +5720,7 @@ Document
 aNewDocument
 )
 ;
+static
 void
 ReportBFCacheComboTelemetry
 (
@@ -7398,6 +7394,11 @@ aLinkURI
 nsIContent
 *
 aContent
+)
+;
+void
+RecordSingleChannelId
+(
 )
 ;
 private

@@ -42966,6 +42966,11 @@ doc
 canSavePresentation
 ;
 }
+/
+*
+static
+*
+/
 void
 nsDocShell
 :
