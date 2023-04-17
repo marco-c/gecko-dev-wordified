@@ -113,16 +113,6 @@ editor
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 shortSource
 prettifyCSS
@@ -2841,7 +2831,7 @@ _isDestroyed
 )
 {
 return
-promise
+Promise
 .
 reject
 (
