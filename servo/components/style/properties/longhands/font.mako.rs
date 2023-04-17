@@ -1690,6 +1690,9 @@ enabled_in
 =
 "
 "
+has_effect_on_gecko_scrollbars
+=
+False
 spec
 =
 "
@@ -1753,6 +1756,9 @@ enabled_in
 =
 "
 "
+has_effect_on_gecko_scrollbars
+=
+False
 spec
 =
 "
@@ -2020,6 +2026,9 @@ enabled_in
 =
 "
 "
+has_effect_on_gecko_scrollbars
+=
+False
 needs_conversion
 =
 True
@@ -2068,6 +2077,9 @@ enabled_in
 =
 "
 "
+has_effect_on_gecko_scrollbars
+=
+False
 gecko_ffi_name
 =
 "
@@ -2125,6 +2137,9 @@ enabled_in
 =
 "
 "
+has_effect_on_gecko_scrollbars
+=
+False
 spec
 =
 "
