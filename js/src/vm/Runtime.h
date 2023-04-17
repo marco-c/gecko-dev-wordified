@@ -723,6 +723,9 @@ h
 struct
 JSClass
 ;
+struct
+JSErrorInterceptor
+;
 namespace
 js
 {
