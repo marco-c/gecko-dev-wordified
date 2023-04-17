@@ -680,12 +680,13 @@ origin
 >
 cache
 map
-typedef
+using
+CacheOriginHashtable
+=
 nsTHashtable
 <
 LocalStorageCacheHashKey
 >
-CacheOriginHashtable
 ;
 nsClassHashtable
 <

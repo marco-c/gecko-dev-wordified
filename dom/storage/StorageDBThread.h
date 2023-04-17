@@ -273,7 +273,9 @@ StorageUsageBridge
 class
 StorageUsage
 ;
-typedef
+using
+StatementCache
+=
 mozilla
 :
 :
@@ -284,7 +286,6 @@ StatementCache
 <
 mozIStorageStatement
 >
-StatementCache
 ;
 /
 /
@@ -961,8 +962,8 @@ DBOperation
 {
 public
 :
-typedef
 enum
+OperationType
 {
 /
 /
@@ -1070,7 +1071,6 @@ a
 domain
 opClearMatchingOriginAttributes
 }
-OperationType
 ;
 explicit
 DBOperation
