@@ -14724,7 +14724,7 @@ auto
 *
 sameValue
 =
-MSameValue
+MSameValueDouble
 :
 :
 New

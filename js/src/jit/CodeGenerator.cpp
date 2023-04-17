@@ -71944,9 +71944,9 @@ void
 CodeGenerator
 :
 :
-visitSameValueD
+visitSameValueDouble
 (
-LSameValueD
+LSameValueDouble
 *
 lir
 )
