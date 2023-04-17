@@ -1463,10 +1463,10 @@ doh
 rollout
 .
 uri
-mURIPrefHasUserValue
+mURIPref
 will
 be
-false
+empty
 /
 /
 (
@@ -1478,7 +1478,12 @@ OnTRRURIChange
 )
 if
 (
-mURIPrefHasUserValue
+!
+mURIPref
+.
+IsEmpty
+(
+)
 )
 {
 LOG

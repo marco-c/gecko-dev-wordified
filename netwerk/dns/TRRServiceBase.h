@@ -341,11 +341,6 @@ the
 main
 thread
 .
-bool
-mURIPrefHasUserValue
-=
-false
-;
 nsCString
 mURIPref
 ;
