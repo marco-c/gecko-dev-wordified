@@ -4247,8 +4247,6 @@ skin
 fxa
 /
 avatar
--
-confirm
 .
 svg
 "
@@ -4297,8 +4295,6 @@ skin
 fxa
 /
 avatar
--
-alert
 .
 svg
 "
