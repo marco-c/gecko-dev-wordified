@@ -572,7 +572,11 @@ preferAlternativeDataType
 altContentType
 "
 "
-true
+Ci
+.
+nsICacheInfoChannel
+.
+ASYNC
 )
 ;
 chan
@@ -770,7 +774,11 @@ preferAlternativeDataType
 altContentType
 "
 "
-true
+Ci
+.
+nsICacheInfoChannel
+.
+ASYNC
 )
 ;
 chan
