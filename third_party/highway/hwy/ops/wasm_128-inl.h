@@ -201,87 +201,6 @@ inl
 .
 h
 "
-#
-ifdef
-HWY_WASM_OLD_NAMES
-#
-define
-wasm_i8x16_shuffle
-wasm_v8x16_shuffle
-#
-define
-wasm_i16x8_shuffle
-wasm_v16x8_shuffle
-#
-define
-wasm_i32x4_shuffle
-wasm_v32x4_shuffle
-#
-define
-wasm_i64x2_shuffle
-wasm_v64x2_shuffle
-#
-define
-wasm_u16x8_extend_low_u8x16
-wasm_i16x8_widen_low_u8x16
-#
-define
-wasm_u32x4_extend_low_u16x8
-wasm_i32x4_widen_low_u16x8
-#
-define
-wasm_i32x4_extend_low_i16x8
-wasm_i32x4_widen_low_i16x8
-#
-define
-wasm_i16x8_extend_low_i8x16
-wasm_i16x8_widen_low_i8x16
-#
-define
-wasm_u32x4_extend_high_u16x8
-wasm_i32x4_widen_high_u16x8
-#
-define
-wasm_i32x4_extend_high_i16x8
-wasm_i32x4_widen_high_i16x8
-#
-define
-wasm_i32x4_trunc_sat_f32x4
-wasm_i32x4_trunc_saturate_f32x4
-#
-define
-wasm_u8x16_add_sat
-wasm_u8x16_add_saturate
-#
-define
-wasm_u8x16_sub_sat
-wasm_u8x16_sub_saturate
-#
-define
-wasm_u16x8_add_sat
-wasm_u16x8_add_saturate
-#
-define
-wasm_u16x8_sub_sat
-wasm_u16x8_sub_saturate
-#
-define
-wasm_i8x16_add_sat
-wasm_i8x16_add_saturate
-#
-define
-wasm_i8x16_sub_sat
-wasm_i8x16_sub_saturate
-#
-define
-wasm_i16x8_add_sat
-wasm_i16x8_add_saturate
-#
-define
-wasm_i16x8_sub_sat
-wasm_i16x8_sub_saturate
-#
-endif
 HWY_BEFORE_NAMESPACE
 (
 )
@@ -2518,7 +2437,7 @@ uint8_t
 N
 >
 {
-wasm_u8x16_add_sat
+wasm_u8x16_add_saturate
 (
 a
 .
@@ -2566,7 +2485,7 @@ uint16_t
 N
 >
 {
-wasm_u16x8_add_sat
+wasm_u16x8_add_saturate
 (
 a
 .
@@ -2617,7 +2536,7 @@ int8_t
 N
 >
 {
-wasm_i8x16_add_sat
+wasm_i8x16_add_saturate
 (
 a
 .
@@ -2665,7 +2584,7 @@ int16_t
 N
 >
 {
-wasm_i16x8_add_sat
+wasm_i16x8_add_saturate
 (
 a
 .
@@ -2762,7 +2681,7 @@ uint8_t
 N
 >
 {
-wasm_u8x16_sub_sat
+wasm_u8x16_sub_saturate
 (
 a
 .
@@ -2810,7 +2729,7 @@ uint16_t
 N
 >
 {
-wasm_u16x8_sub_sat
+wasm_u16x8_sub_saturate
 (
 a
 .
@@ -2861,7 +2780,7 @@ int8_t
 N
 >
 {
-wasm_i8x16_sub_sat
+wasm_i8x16_sub_saturate
 (
 a
 .
@@ -2909,7 +2828,7 @@ int16_t
 N
 >
 {
-wasm_i16x8_sub_sat
+wasm_i16x8_sub_saturate
 (
 a
 .
@@ -6234,7 +6153,7 @@ const
 auto
 al
 =
-wasm_u32x4_extend_low_u16x8
+wasm_i32x4_widen_low_u16x8
 (
 a
 .
@@ -6245,7 +6164,7 @@ const
 auto
 ah
 =
-wasm_u32x4_extend_high_u16x8
+wasm_i32x4_widen_high_u16x8
 (
 a
 .
@@ -6256,7 +6175,7 @@ const
 auto
 bl
 =
-wasm_u32x4_extend_low_u16x8
+wasm_i32x4_widen_low_u16x8
 (
 b
 .
@@ -6267,7 +6186,7 @@ const
 auto
 bh
 =
-wasm_u32x4_extend_high_u16x8
+wasm_i32x4_widen_high_u16x8
 (
 b
 .
@@ -6314,7 +6233,7 @@ uint16_t
 N
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 l
 h
@@ -6376,7 +6295,7 @@ const
 auto
 al
 =
-wasm_i32x4_extend_low_i16x8
+wasm_i32x4_widen_low_i16x8
 (
 a
 .
@@ -6387,7 +6306,7 @@ const
 auto
 ah
 =
-wasm_i32x4_extend_high_i16x8
+wasm_i32x4_widen_high_i16x8
 (
 a
 .
@@ -6398,7 +6317,7 @@ const
 auto
 bl
 =
-wasm_i32x4_extend_low_i16x8
+wasm_i32x4_widen_low_i16x8
 (
 b
 .
@@ -6409,7 +6328,7 @@ const
 auto
 bh
 =
-wasm_i32x4_extend_high_i16x8
+wasm_i32x4_widen_high_i16x8
 (
 b
 .
@@ -6456,7 +6375,7 @@ int16_t
 N
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 l
 h
@@ -9259,7 +9178,7 @@ const
 auto
 lo_in_hi
 =
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 m_gt
 m_gt
@@ -9309,7 +9228,7 @@ int64_t
 N
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 gt
 gt
@@ -14380,7 +14299,7 @@ T
 )
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -14431,7 +14350,7 @@ float
 2
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -14569,7 +14488,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14603,7 +14522,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14637,7 +14556,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14671,7 +14590,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14705,7 +14624,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14739,7 +14658,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14773,7 +14692,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14807,7 +14726,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14841,7 +14760,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14875,7 +14794,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14909,7 +14828,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14943,7 +14862,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -14977,7 +14896,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15011,7 +14930,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15045,7 +14964,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15235,7 +15154,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15269,7 +15188,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15303,7 +15222,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15337,7 +15256,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15371,7 +15290,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15405,7 +15324,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15439,7 +15358,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15473,7 +15392,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15507,7 +15426,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15541,7 +15460,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15575,7 +15494,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15609,7 +15528,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15643,7 +15562,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15677,7 +15596,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15711,7 +15630,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 v
 .
@@ -15942,7 +15861,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -15978,7 +15897,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16014,7 +15933,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16050,7 +15969,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16086,7 +16005,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16122,7 +16041,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16158,7 +16077,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16194,7 +16113,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16230,7 +16149,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16266,7 +16185,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16302,7 +16221,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16338,7 +16257,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16374,7 +16293,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16410,7 +16329,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16446,7 +16365,7 @@ Vec128
 T
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 lo
 .
@@ -16566,7 +16485,7 @@ uint16_t
 N
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 v
 .
@@ -16634,7 +16553,7 @@ uint32_t
 N
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -16701,7 +16620,7 @@ int16_t
 N
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 v
 .
@@ -16769,7 +16688,7 @@ int32_t
 N
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -16836,7 +16755,7 @@ float
 N
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17039,7 +16958,7 @@ T
 N
 >
 {
-wasm_i8x16_swizzle
+wasm_v8x16_swizzle
 (
 bytes
 .
@@ -17288,7 +17207,7 @@ Vec128
 uint32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17325,7 +17244,7 @@ Vec128
 int32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17362,7 +17281,7 @@ Vec128
 float
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17406,7 +17325,7 @@ Vec128
 uint32_t
 >
 {
-wasm_i64x2_shuffle
+wasm_v64x2_shuffle
 (
 v
 .
@@ -17441,7 +17360,7 @@ Vec128
 int32_t
 >
 {
-wasm_i64x2_shuffle
+wasm_v64x2_shuffle
 (
 v
 .
@@ -17476,7 +17395,7 @@ Vec128
 float
 >
 {
-wasm_i64x2_shuffle
+wasm_v64x2_shuffle
 (
 v
 .
@@ -17517,7 +17436,7 @@ Vec128
 uint32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17554,7 +17473,7 @@ Vec128
 int32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17591,7 +17510,7 @@ Vec128
 float
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17634,7 +17553,7 @@ Vec128
 uint32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17671,7 +17590,7 @@ Vec128
 int32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17708,7 +17627,7 @@ Vec128
 float
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17748,7 +17667,7 @@ Vec128
 uint32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17785,7 +17704,7 @@ Vec128
 int32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -17822,7 +17741,7 @@ Vec128
 float
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 v
 .
@@ -18371,7 +18290,7 @@ N
 2
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 a
 .
@@ -18447,7 +18366,7 @@ N
 2
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 a
 .
@@ -18515,7 +18434,7 @@ N
 2
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 a
 .
@@ -18591,7 +18510,7 @@ N
 2
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 a
 .
@@ -18651,7 +18570,7 @@ N
 2
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 a
 .
@@ -18719,7 +18638,7 @@ N
 2
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 a
 .
@@ -18779,7 +18698,7 @@ N
 2
 >
 {
-wasm_i8x16_shuffle
+wasm_v8x16_shuffle
 (
 a
 .
@@ -18847,7 +18766,7 @@ N
 2
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 a
 .
@@ -19031,7 +18950,7 @@ Vec128
 uint32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 a
 .
@@ -19080,7 +18999,7 @@ Vec128
 int32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 a
 .
@@ -19129,7 +19048,7 @@ Vec128
 float
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 a
 .
@@ -19220,7 +19139,7 @@ Vec128
 uint32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 a
 .
@@ -19269,7 +19188,7 @@ Vec128
 int32_t
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 a
 .
@@ -19318,7 +19237,7 @@ Vec128
 float
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 a
 .
@@ -19415,7 +19334,7 @@ Vec128
 T
 >
 {
-wasm_i64x2_shuffle
+wasm_v64x2_shuffle
 (
 lo
 .
@@ -19477,7 +19396,7 @@ Vec128
 T
 >
 {
-wasm_i64x2_shuffle
+wasm_v64x2_shuffle
 (
 lo
 .
@@ -19592,7 +19511,7 @@ Vec128
 T
 >
 {
-wasm_i64x2_shuffle
+wasm_v64x2_shuffle
 (
 lo
 .
@@ -19790,7 +19709,7 @@ Vec128
 T
 >
 {
-wasm_i16x8_shuffle
+wasm_v16x8_shuffle
 (
 a
 .
@@ -19854,7 +19773,7 @@ Vec128
 T
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 a
 .
@@ -20006,7 +19925,7 @@ Vec128
 float
 >
 {
-wasm_i32x4_shuffle
+wasm_v32x4_shuffle
 (
 a
 .
@@ -20165,7 +20084,7 @@ uint16_t
 N
 >
 {
-wasm_u16x8_extend_low_u8x16
+wasm_i16x8_widen_low_u8x16
 (
 v
 .
@@ -20213,9 +20132,9 @@ uint32_t
 N
 >
 {
-wasm_u32x4_extend_low_u16x8
+wasm_i32x4_widen_low_u16x8
 (
-wasm_u16x8_extend_low_u8x16
+wasm_i16x8_widen_low_u8x16
 (
 v
 .
@@ -20264,7 +20183,7 @@ int16_t
 N
 >
 {
-wasm_u16x8_extend_low_u8x16
+wasm_i16x8_widen_low_u8x16
 (
 v
 .
@@ -20312,9 +20231,9 @@ int32_t
 N
 >
 {
-wasm_u32x4_extend_low_u16x8
+wasm_i32x4_widen_low_u16x8
 (
-wasm_u16x8_extend_low_u8x16
+wasm_i16x8_widen_low_u8x16
 (
 v
 .
@@ -20363,7 +20282,7 @@ uint32_t
 N
 >
 {
-wasm_u32x4_extend_low_u16x8
+wasm_i32x4_widen_low_u16x8
 (
 v
 .
@@ -20411,7 +20330,7 @@ int32_t
 N
 >
 {
-wasm_u32x4_extend_low_u16x8
+wasm_i32x4_widen_low_u16x8
 (
 v
 .
@@ -20467,7 +20386,7 @@ int16_t
 N
 >
 {
-wasm_i16x8_extend_low_i8x16
+wasm_i16x8_widen_low_i8x16
 (
 v
 .
@@ -20515,9 +20434,9 @@ int32_t
 N
 >
 {
-wasm_i32x4_extend_low_i16x8
+wasm_i32x4_widen_low_i16x8
 (
-wasm_i16x8_extend_low_i8x16
+wasm_i16x8_widen_low_i8x16
 (
 v
 .
@@ -20566,7 +20485,7 @@ int32_t
 N
 >
 {
-wasm_i32x4_extend_low_i16x8
+wasm_i32x4_widen_low_i16x8
 (
 v
 .
@@ -21951,7 +21870,7 @@ int32_t
 N
 >
 {
-wasm_i32x4_trunc_sat_f32x4
+wasm_i32x4_trunc_saturate_f32x4
 (
 v
 .

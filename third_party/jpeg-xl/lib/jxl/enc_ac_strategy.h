@@ -242,9 +242,6 @@ float
 info_loss_multiplier
 ;
 float
-info_loss_multiplier2
-;
-float
 *
 JXL_RESTRICT
 quant_field_row
@@ -489,6 +486,17 @@ config
 PassesEncoderState
 *
 enc_state
+;
+float
+entropy_adjust
+[
+2
+*
+AcStrategy
+:
+:
+kNumValidStrategies
+]
 ;
 }
 ;

@@ -280,7 +280,7 @@ ReadBits
 (
 1
 )
-1u
+1
 )
 <
 <
@@ -346,7 +346,7 @@ PeekBits
 (
 i
 )
-0u
+0
 )
 <
 <
@@ -913,7 +913,7 @@ i
 {
 EXPECT_EQ
 (
-1u
+1
 reader1
 .
 ReadBits
@@ -924,7 +924,7 @@ ReadBits
 ;
 EXPECT_EQ
 (
-1u
+1
 reader2
 .
 ReadBits
@@ -969,7 +969,7 @@ i
 {
 EXPECT_EQ
 (
-0u
+0
 reader2
 .
 ReadBits
@@ -1023,7 +1023,7 @@ bits
 .
 EXPECT_EQ
 (
-5u
+5
 reader1
 .
 ReadBits
@@ -1034,7 +1034,7 @@ ReadBits
 ;
 EXPECT_EQ
 (
-5u
+5
 reader2
 .
 ReadBits
@@ -1221,7 +1221,7 @@ GetSpan
 ;
 EXPECT_EQ
 (
-0x1Fu
+0x1F
 reader
 .
 ReadFixedBits
@@ -1234,7 +1234,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-0xFCu
+0xFC
 reader
 .
 ReadFixedBits
@@ -1327,7 +1327,7 @@ GetSpan
 ;
 EXPECT_EQ
 (
-0xF8u
+0xF8
 reader
 .
 ReadFixedBits
@@ -1340,7 +1340,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-0x3Fu
+0x3F
 reader
 .
 ReadFixedBits
@@ -1423,7 +1423,7 @@ GetSpan
 ;
 EXPECT_EQ
 (
-0x3Fu
+0x3F
 reader
 .
 ReadFixedBits
@@ -1436,7 +1436,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-0xF8u
+0xF8
 reader
 .
 ReadFixedBits
@@ -1541,7 +1541,7 @@ GetSpan
 ;
 EXPECT_EQ
 (
-0xBDu
+0xBD
 reader
 .
 ReadFixedBits
@@ -1554,7 +1554,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-0x8Du
+0x8D
 reader
 .
 ReadFixedBits
@@ -1627,7 +1627,7 @@ TotalBytes
 ;
 EXPECT_EQ
 (
-0u
+0
 reader
 .
 TotalBitsConsumed
@@ -1646,7 +1646,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-1u
+1
 reader
 .
 TotalBitsConsumed
@@ -1665,7 +1665,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-11u
+11
 reader
 .
 TotalBitsConsumed
@@ -1684,7 +1684,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-15u
+15
 reader
 .
 TotalBitsConsumed
@@ -1703,7 +1703,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-16u
+16
 reader
 .
 TotalBitsConsumed
@@ -1722,7 +1722,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-32u
+32
 reader
 .
 TotalBitsConsumed
@@ -1782,7 +1782,7 @@ buf
 ;
 EXPECT_EQ
 (
-0u
+0
 reader1
 .
 TotalBitsConsumed
@@ -1801,7 +1801,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-16u
+16
 reader1
 .
 TotalBitsConsumed
@@ -1852,7 +1852,7 @@ reader1
 }
 EXPECT_EQ
 (
-16u
+16
 reader2
 .
 TotalBitsConsumed
@@ -1875,7 +1875,7 @@ ReadFixedBits
 ;
 EXPECT_EQ
 (
-24u
+24
 reader2
 .
 TotalBitsConsumed

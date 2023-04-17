@@ -279,7 +279,6 @@ JXL_UNLIKELY
 (
 scaled_x
 >
-=
 kScaleNumerator
 )
 )
@@ -287,12 +286,6 @@ kScaleNumerator
 floor_x
 =
 kScaleNumerator
--
-1
-;
-frac_x
-=
-1
 ;
 }
 return

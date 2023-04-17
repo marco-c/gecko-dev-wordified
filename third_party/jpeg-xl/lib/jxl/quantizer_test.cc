@@ -220,14 +220,14 @@ total_bits
 ;
 EXPECT_EQ
 (
-0u
+0
 extension_bits
 )
 ;
 EXPECT_GE
 (
 total_bits
-4u
+4
 )
 ;
 }

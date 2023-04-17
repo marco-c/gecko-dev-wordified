@@ -312,7 +312,7 @@ bitfield
 if
 (
 speed
->
+=
 =
 SpeedTier
 :

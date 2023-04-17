@@ -123,9 +123,6 @@ namespace
 jxl
 {
 namespace
-extras
-{
-namespace
 {
 namespace
 OpenEXR
@@ -814,10 +811,6 @@ const
 uint8_t
 >
 bytes
-const
-ColorHints
-&
-color_hints
 ThreadPool
 *
 pool
@@ -2922,11 +2915,6 @@ return
 true
 ;
 }
-}
-/
-/
-namespace
-extras
 }
 /
 /

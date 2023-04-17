@@ -44,10 +44,10 @@ file
 .
 #
 ifndef
-LIB_EXTRAS_TIME_H_
+LIB_JXL_BASE_TIME_H_
 #
 define
-LIB_EXTRAS_TIME_H_
+LIB_JXL_BASE_TIME_H_
 /
 /
 OS
@@ -100,4 +100,4 @@ jxl
 endif
 /
 /
-LIB_EXTRAS_TIME_H_
+LIB_JXL_BASE_TIME_H_

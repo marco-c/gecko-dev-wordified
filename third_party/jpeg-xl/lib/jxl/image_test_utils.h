@@ -343,7 +343,7 @@ ADD_FAILURE
 <
 <
 "
-requested
+requsted
 rectangle
 is
 not

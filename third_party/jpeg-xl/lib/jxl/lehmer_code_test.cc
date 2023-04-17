@@ -526,7 +526,7 @@ end
 {
 ASSERT_NE
 (
-0u
+0
 begin
 )
 ;

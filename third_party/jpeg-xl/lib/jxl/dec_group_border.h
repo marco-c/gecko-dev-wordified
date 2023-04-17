@@ -285,7 +285,6 @@ the
 X
 axis
 .
-static
 size_t
 PaddingX
 (

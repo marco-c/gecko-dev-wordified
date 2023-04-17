@@ -1193,7 +1193,7 @@ compressed
 size
 (
 )
-240000u
+240000
 )
 ;
 float
@@ -1219,9 +1219,9 @@ target_butteraugli
 2
 ]
 =
-16
+14
 .
-0f
+5f
 ;
 target_butteraugli
 [
@@ -1557,7 +1557,7 @@ compressed
 size
 (
 )
-220000u
+220000
 )
 ;
 float
@@ -2011,7 +2011,7 @@ compressed
 size
 (
 )
-10000u
+10000
 )
 ;
 DecompressParams
@@ -2100,7 +2100,7 @@ EXPECT_LE
 butteraugli_distance_down2_full
 3
 .
-2f
+0f
 )
 ;
 EXPECT_GE
@@ -2323,7 +2323,7 @@ compressed
 size
 (
 )
-220000u
+220000
 )
 ;
 DecompressParams

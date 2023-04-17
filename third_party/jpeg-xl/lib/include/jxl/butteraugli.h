@@ -44,11 +44,6 @@ file
 /
 *
 *
-addtogroup
-libjxl_butteraugli
-*
-{
-*
 file
 butteraugli
 .
@@ -878,11 +873,5 @@ endif
 /
 *
 JXL_BUTTERAUGLI_H_
-*
-/
-/
-*
-*
-}
 *
 /

@@ -142,7 +142,7 @@ i
 EXPECT_LT
 (
 packed
-63u
+63
 )
 ;
 int32_t

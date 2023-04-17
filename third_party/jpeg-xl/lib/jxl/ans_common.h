@@ -730,10 +730,10 @@ stores
 the
 number
 of
-occurrences
-/
-/
+occurences
 of
+/
+/
 i
 "
 before
@@ -782,9 +782,9 @@ stores
 the
 number
 of
+occurences
 /
 /
-occurrences
 of
 right_value
 "
@@ -796,10 +796,10 @@ minus
 the
 cutoff
 value
-/
-/
 the
 input
+/
+/
 offset
 is
 then

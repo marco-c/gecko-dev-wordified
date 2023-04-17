@@ -44,11 +44,6 @@ file
 /
 *
 *
-addtogroup
-libjxl_threads
-*
-{
-*
 file
 thread_parallel_runner
 .
@@ -458,11 +453,5 @@ endif
 /
 *
 JXL_THREAD_PARALLEL_RUNNER_H_
-*
-/
-/
-*
-*
-}
 *
 /
