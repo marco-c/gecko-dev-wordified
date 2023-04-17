@@ -11687,8 +11687,6 @@ getTemp
 1
 )
 )
-InvalidReg
-InvalidReg
 )
 ;
 }

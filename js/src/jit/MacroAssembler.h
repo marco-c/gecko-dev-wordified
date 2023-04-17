@@ -25519,10 +25519,6 @@ FloatRegister
 output
 Register
 tmp1
-Register
-tmp2
-Register
-tmp3
 )
 DEFINED_ON
 (
