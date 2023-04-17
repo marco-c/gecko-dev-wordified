@@ -617,7 +617,7 @@ resourceWatcher
 =
 this
 .
-targetFront
+parentFront
 .
 resourceWatcher
 ;
