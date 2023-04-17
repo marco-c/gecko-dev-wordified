@@ -120,7 +120,9 @@ sampleRate
 format
 :
 '
-FLTP
+f32
+-
+planar
 '
 }
 let
@@ -209,7 +211,9 @@ data
 .
 format
 '
-FLTP
+f32
+-
+planar
 '
 '
 format
@@ -261,7 +265,9 @@ small_data
 /
 /
 Creating
-FLTP
+f32
+-
+planar
 AudioData
 from
 Int16

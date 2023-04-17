@@ -120,7 +120,7 @@ format
 =
 =
 '
-FLT
+f32
 '
 |
 |
@@ -130,7 +130,9 @@ format
 =
 =
 '
-FLTP
+f32
+-
+planar
 '
 )
 ;
@@ -142,7 +144,7 @@ format
 =
 =
 '
-FLT
+f32
 '
 )
 return
@@ -1741,7 +1743,9 @@ base_input
 .
 format
 "
-FLTP
+f32
+-
+planar
 "
 )
 ;
@@ -1751,7 +1755,7 @@ base_output
 .
 format
 "
-FLT
+f32
 "
 )
 ;
