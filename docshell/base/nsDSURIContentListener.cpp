@@ -754,6 +754,14 @@ mDocShell
 NS_ERROR_FAILURE
 )
 ;
+RefPtr
+<
+nsDocShell
+>
+docShell
+=
+mDocShell
+;
 *
 aAbortProcess
 =
@@ -942,7 +950,7 @@ the
 content
 too
 ?
-mDocShell
+docShell
 -
 >
 Stop
@@ -953,7 +961,13 @@ nsIWebNavigation
 STOP_NETWORK
 )
 ;
+NS_ENSURE_TRUE
+(
 mDocShell
+NS_ERROR_FAILURE
+)
+;
+docShell
 -
 >
 SetLoadType
@@ -1097,7 +1111,7 @@ else
 {
 rv
 =
-mDocShell
+docShell
 -
 >
 CreateContentViewer
