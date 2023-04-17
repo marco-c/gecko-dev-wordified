@@ -3856,6 +3856,14 @@ GdkRectangle
 aSize
 )
 ;
+bool
+WaylandPopupFitsParentWindow
+(
+GdkRectangle
+*
+aSize
+)
+;
 nsWindow
 *
 WaylandPopupFindLast
