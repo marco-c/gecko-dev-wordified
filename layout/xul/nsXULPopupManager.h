@@ -2101,6 +2101,13 @@ GetRollupWidget
 )
 override
 ;
+virtual
+bool
+RollupNativeMenu
+(
+)
+override
+;
 /
 /
 NativeMenu
