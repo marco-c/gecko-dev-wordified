@@ -101,7 +101,7 @@ BUG_COMPONENT
 Toolkit
 "
 "
-General
+FeatureGate
 "
 )
 SPHINX_TREES
