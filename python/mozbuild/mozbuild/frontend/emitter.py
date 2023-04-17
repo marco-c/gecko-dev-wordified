@@ -2362,21 +2362,12 @@ target
 "
 MOZ_LIBSTDCXX_TARGET_VERSION
 "
-        
-"
-wasm
-"
-:
-"
-MOZ_LIBSTDCXX_TARGET_VERSION
-"
     
 }
     
 STDCXXCOMPAT_NAME
 =
 {
-        
 "
 host
 "
@@ -2387,7 +2378,6 @@ host_stdc
 +
 compat
 "
-        
 "
 target
 "
@@ -2398,18 +2388,6 @@ stdc
 +
 compat
 "
-        
-"
-wasm
-"
-:
-"
-stdc
-+
-+
-compat
-"
-    
 }
     
 def
@@ -2648,11 +2626,13 @@ get
 self
 .
 LIBSTDCXX_VAR
-[
+.
+get
+(
 obj
 .
 KIND
-]
+)
 )
 :
                 
@@ -10249,35 +10229,29 @@ files
 :
                     
 if
-(
-                        
 var
-                        
 in
 (
-                            
+                        
 "
 FINAL_TARGET_PP_FILES
 "
-                            
+                        
 "
 OBJDIR_PP_FILES
 "
-                            
+                        
 "
 LOCALIZED_PP_FILES
 "
-                        
+                    
 )
-                        
 and
 not
 isinstance
 (
 f
 SourcePath
-)
-                    
 )
 :
                         
