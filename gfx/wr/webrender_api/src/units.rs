@@ -333,6 +333,16 @@ DevicePixel
 ;
 pub
 type
+DeviceBox2D
+=
+Box2D
+<
+f32
+DevicePixel
+>
+;
+pub
+type
 DevicePoint
 =
 Point2D
