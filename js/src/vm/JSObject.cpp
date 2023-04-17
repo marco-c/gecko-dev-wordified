@@ -26301,6 +26301,17 @@ MOZ_ASSERT
 shape
 -
 >
+isDictionary
+(
+)
+)
+;
+MOZ_ASSERT
+(
+!
+shape
+-
+>
 realm
 (
 )
