@@ -109,10 +109,10 @@ num_integer
 :
 :
 {
-div_rem
 div_floor
-mod_floor
 div_mod_floor
+div_rem
+mod_floor
 }
 ;
 #
@@ -130,8 +130,8 @@ super
 :
 :
 {
-mod_floor
 div_mod_floor
+mod_floor
 }
 ;
 #

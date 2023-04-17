@@ -996,8 +996,9 @@ ISO
 week
 w
 is
+the
 same
-to
+as
 /
 /
 /
@@ -1450,8 +1451,8 @@ naive
 :
 {
 internals
-MIN_DATE
 MAX_DATE
+MIN_DATE
 }
 ;
 use
