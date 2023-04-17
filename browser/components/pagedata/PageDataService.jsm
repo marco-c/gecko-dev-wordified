@@ -568,6 +568,7 @@ tab
 linkedBrowser
 .
 browsingContext
+?
 .
 currentWindowGlobal
 .
