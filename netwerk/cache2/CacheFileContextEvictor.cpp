@@ -216,15 +216,6 @@ CacheFileContextEvictor
 CacheFileContextEvictor
 (
 )
-:
-mEvicting
-(
-false
-)
-mIndexIsUpToDate
-(
-false
-)
 {
 LOG
 (

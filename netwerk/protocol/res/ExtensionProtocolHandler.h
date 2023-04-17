@@ -1563,6 +1563,9 @@ mDevRepo
 .
 bool
 mAlreadyCheckedDevRepo
+{
+false
+}
 ;
 #
 endif
@@ -1783,6 +1786,9 @@ mAppDir
 .
 bool
 mAlreadyCheckedAppDir
+{
+false
+}
 ;
 #
 endif

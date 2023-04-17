@@ -976,6 +976,9 @@ mProfilerController
 endif
 bool
 mShuttingDown
+{
+false
+}
 ;
 /
 /
@@ -986,6 +989,14 @@ below
 .
 Mutex
 mMutex
+{
+"
+SocketProcessChild
+:
+:
+mMutex
+"
+}
 ;
 nsTHashMap
 <

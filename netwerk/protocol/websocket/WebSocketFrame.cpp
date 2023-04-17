@@ -454,10 +454,6 @@ WebSocketFrameData
 (
 )
 :
-mTimeStamp
-(
-0
-)
 mFinBit
 (
 false
@@ -477,14 +473,6 @@ false
 mMaskBit
 (
 false
-)
-mOpCode
-(
-0
-)
-mMask
-(
-0
 )
 {
 MOZ_COUNT_CTOR
