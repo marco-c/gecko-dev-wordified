@@ -309,6 +309,16 @@ nsParserUtils
 .
 h
 "
+"
+rlbox_expat
+.
+h
+"
+"
+rlbox_expat_types
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
