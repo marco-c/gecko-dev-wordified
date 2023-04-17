@@ -6032,7 +6032,7 @@ GetReferenceFrame
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 aFrame
 )
