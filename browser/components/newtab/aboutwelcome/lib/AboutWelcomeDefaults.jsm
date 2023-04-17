@@ -918,6 +918,9 @@ template
 "
 multistage
 "
+transitions
+:
+true
 background_url
 :
 "
