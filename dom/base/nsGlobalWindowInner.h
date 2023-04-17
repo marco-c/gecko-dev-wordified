@@ -2179,6 +2179,15 @@ aDescriptor
 )
 override
 ;
+mozilla
+:
+:
+StorageAccess
+GetStorageAccess
+(
+)
+final
+;
 void
 NoteCalledRegisterForServiceWorkerScope
 (
