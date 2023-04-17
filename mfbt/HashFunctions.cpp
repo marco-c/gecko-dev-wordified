@@ -256,10 +256,6 @@ AddToHash
 (
 hash
 data
-sizeof
-(
-data
-)
 )
 ;
 }
