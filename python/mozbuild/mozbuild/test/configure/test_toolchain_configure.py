@@ -90,12 +90,14 @@ mozbuild
 .
 util
 import
-(
-    
 memoize
-    
 ReadOnlyNamespace
-)
+from
+mozboot
+.
+util
+import
+MINIMUM_RUST_VERSION
 from
 mozpack
 import
@@ -105,18 +107,12 @@ mozpath
 from
 test_toolchain_helpers
 import
-(
-    
 FakeCompiler
-    
 CompilerResult
-    
 PrependFlags
-)
 DEFAULT_C99
 =
 {
-    
 "
 __STDC_VERSION__
 "
@@ -128,7 +124,6 @@ __STDC_VERSION__
 DEFAULT_C11
 =
 {
-    
 "
 __STDC_VERSION__
 "
@@ -140,7 +135,6 @@ __STDC_VERSION__
 DEFAULT_CXX_97
 =
 {
-    
 "
 __cplusplus
 "
@@ -152,7 +146,6 @@ __cplusplus
 DEFAULT_CXX_11
 =
 {
-    
 "
 __cplusplus
 "
@@ -164,7 +157,6 @@ __cplusplus
 DRAFT_CXX_14
 =
 {
-    
 "
 __cplusplus
 "
@@ -176,7 +168,6 @@ __cplusplus
 DEFAULT_CXX_14
 =
 {
-    
 "
 __cplusplus
 "
@@ -188,7 +179,6 @@ __cplusplus
 DRAFT_CXX17_201500
 =
 {
-    
 "
 __cplusplus
 "
@@ -200,7 +190,6 @@ __cplusplus
 DRAFT_CXX17_201406
 =
 {
-    
 "
 __cplusplus
 "
@@ -212,7 +201,6 @@ __cplusplus
 DEFAULT_CXX_17
 =
 {
-    
 "
 __cplusplus
 "
@@ -224,7 +212,6 @@ __cplusplus
 SUPPORTS_GNU99
 =
 {
-    
 "
 -
 std
@@ -237,7 +224,6 @@ DEFAULT_C99
 SUPPORTS_GNUXX11
 =
 {
-    
 "
 -
 std
@@ -253,7 +239,6 @@ DEFAULT_CXX_11
 SUPPORTS_GNUXX14
 =
 {
-    
 "
 -
 std
@@ -269,7 +254,6 @@ DEFAULT_CXX_14
 SUPPORTS_CXX14
 =
 {
-    
 "
 -
 std
@@ -285,7 +269,6 @@ DEFAULT_CXX_14
 SUPPORTS_GNUXX17
 =
 {
-    
 "
 -
 std
@@ -301,7 +284,6 @@ DEFAULT_CXX_17
 SUPPORTS_CXX17
 =
 {
-    
 "
 -
 std
@@ -403,7 +385,6 @@ SUPPORTS_GNUXX11
 SUPPORTS_DRAFT_CXX14_VERSION
 =
 {
-    
 "
 -
 std
@@ -419,7 +400,6 @@ DRAFT_CXX_14
 SUPPORTS_GNUXX1Z
 =
 {
-    
 "
 -
 std
@@ -435,7 +415,6 @@ DRAFT_CXX17_201406
 SUPPORTS_DRAFT_CXX17_201500_VERSION
 =
 {
-    
 "
 -
 std
@@ -666,13 +645,11 @@ GCC_PLATFORM_LITTLE_ENDIAN
 None
 :
 {
-        
 "
 __i386__
 "
 :
 1
-    
 }
     
 "
@@ -681,19 +658,16 @@ m64
 "
 :
 {
-        
 "
 __i386__
 "
 :
 False
-        
 "
 __x86_64__
 "
 :
 1
-    
 }
 }
 GCC_PLATFORM_X86_64
@@ -708,13 +682,11 @@ GCC_PLATFORM_LITTLE_ENDIAN
 None
 :
 {
-        
 "
 __x86_64__
 "
 :
 1
-    
 }
     
 "
@@ -723,19 +695,16 @@ m32
 "
 :
 {
-        
 "
 __x86_64__
 "
 :
 False
-        
 "
 __i386__
 "
 :
 1
-    
 }
 }
 GCC_PLATFORM_ARM
@@ -746,7 +715,6 @@ GCC_PLATFORM_LITTLE_ENDIAN
 )
 +
 {
-    
 "
 __arm__
 "
@@ -756,7 +724,6 @@ __arm__
 GCC_PLATFORM_LINUX
 =
 {
-    
 "
 __linux__
 "
@@ -766,7 +733,6 @@ __linux__
 GCC_PLATFORM_DARWIN
 =
 {
-    
 "
 __APPLE__
 "
@@ -776,13 +742,11 @@ __APPLE__
 GCC_PLATFORM_WIN
 =
 {
-    
 "
 _WIN32
 "
 :
 1
-    
 "
 WINNT
 "
@@ -792,7 +756,6 @@ WINNT
 GCC_PLATFORM_OPENBSD
 =
 {
-    
 "
 __OpenBSD__
 "
@@ -1108,7 +1071,6 @@ CLANGXX
 )
 +
 {
-    
 "
 __apple_build_version__
 "
@@ -1119,8 +1081,6 @@ __apple_build_version__
 }
 XCODE_CLANG_4_0
 =
-(
-    
 CLANG
 (
 "
@@ -1131,13 +1091,10 @@ CLANG
 0
 "
 )
-    
 +
 DEFAULT_C11
-    
 +
 {
-        
 "
 __apple_build_version__
 "
@@ -1145,9 +1102,7 @@ __apple_build_version__
 "
 1
 "
-    
 }
-)
 XCODE_CLANGXX_4_0
 =
 (
@@ -1162,13 +1117,10 @@ CLANGXX
 0
 "
 )
-    
 +
 SUPPORTS_GNUXX1Z
-    
 +
 {
-        
 "
 __apple_build_version__
 "
@@ -1176,13 +1128,10 @@ __apple_build_version__
 "
 1
 "
-    
 }
 )
 XCODE_CLANG_5_0
 =
-(
-    
 CLANG
 (
 "
@@ -1193,13 +1142,10 @@ CLANG
 0
 "
 )
-    
 +
 DEFAULT_C11
-    
 +
 {
-        
 "
 __apple_build_version__
 "
@@ -1207,9 +1153,7 @@ __apple_build_version__
 "
 1
 "
-    
 }
-)
 XCODE_CLANGXX_5_0
 =
 (
@@ -1224,13 +1168,10 @@ CLANGXX
 0
 "
 )
-    
 +
 SUPPORTS_GNUXX17
-    
 +
 {
-        
 "
 __apple_build_version__
 "
@@ -1238,7 +1179,6 @@ __apple_build_version__
 "
 1
 "
-    
 }
 )
 DEFAULT_CLANG
@@ -1528,13 +1468,11 @@ VS
 VS_PLATFORM_X86
 =
 {
-    
 "
 _M_IX86
 "
 :
 600
-    
 "
 _WIN32
 "
@@ -1544,19 +1482,16 @@ _WIN32
 VS_PLATFORM_X86_64
 =
 {
-    
 "
 _M_X64
 "
 :
 100
-    
 "
 _WIN32
 "
 :
 1
-    
 "
 _WIN64
 "
@@ -1585,7 +1520,6 @@ bit
 MINGW32
 =
 {
-    
 "
 __MINGW32__
 "
@@ -1655,7 +1589,6 @@ SUPPORTS_CXX14
 )
 +
 {
-    
 "
 *
 .
@@ -1663,13 +1596,11 @@ cpp
 "
 :
 {
-        
 "
 __STDC_VERSION__
 "
 :
 False
-        
 "
 __cplusplus
 "
@@ -1677,7 +1608,6 @@ __cplusplus
 "
 201103L
 "
-    
 }
 }
 CLANG_CL_8_0
@@ -1724,7 +1654,6 @@ SUPPORTS_CXX17
 )
 +
 {
-    
 "
 *
 .
@@ -1732,13 +1661,11 @@ cpp
 "
 :
 {
-        
 "
 __STDC_VERSION__
 "
 :
 False
-        
 "
 __cplusplus
 "
@@ -1746,7 +1673,6 @@ __cplusplus
 "
 201103L
 "
-    
 }
 }
 CLANG_CL_PLATFORM_X86
@@ -3922,7 +3848,6 @@ DEFAULT_GXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -3930,7 +3855,6 @@ CC
 "
 gcc
 "
-                
 "
 CXX
 "
@@ -3940,7 +3864,6 @@ g
 +
 +
 "
-            
 }
         
 )
@@ -3962,7 +3885,6 @@ self
 PATHS
             
 {
-                
 "
 c_compiler
 "
@@ -3970,13 +3892,11 @@ c_compiler
 self
 .
 GCC_4_9_RESULT
-            
 }
             
 environ
 =
 {
-                
 "
 CC
 "
@@ -3988,7 +3908,6 @@ gcc
 .
 9
 "
-                
 "
 CXX
 "
@@ -4002,7 +3921,6 @@ g
 .
 9
 "
-            
 }
         
 )
@@ -4051,7 +3969,6 @@ GXX_4_9_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -4059,7 +3976,6 @@ CC
 "
 gcc
 "
-                
 "
 CXX
 "
@@ -4073,7 +3989,6 @@ g
 .
 9
 "
-            
 }
         
 )
@@ -4095,7 +4010,6 @@ self
 PATHS
             
 {
-                
 "
 c_compiler
 "
@@ -4103,7 +4017,6 @@ c_compiler
 self
 .
 GCC_7_RESULT
-                
 "
 cxx_compiler
 "
@@ -4111,13 +4024,11 @@ cxx_compiler
 self
 .
 GXX_7_RESULT
-            
 }
             
 environ
 =
 {
-                
 "
 CC
 "
@@ -4127,7 +4038,6 @@ gcc
 -
 7
 "
-                
 "
 CXX
 "
@@ -4139,7 +4049,6 @@ g
 -
 7
 "
-            
 }
         
 )
@@ -4174,7 +4083,6 @@ self
 PATHS
             
 {
-                
 "
 c_compiler
 "
@@ -4182,7 +4090,6 @@ c_compiler
 self
 .
 GCC_7_RESULT
-                
 "
 cxx_compiler
 "
@@ -4190,13 +4097,11 @@ cxx_compiler
 self
 .
 GXX_7_RESULT
-            
 }
             
 environ
 =
 {
-                
 "
 CC
 "
@@ -4206,7 +4111,6 @@ gcc
 -
 7
 "
-            
 }
         
 )
@@ -4293,7 +4197,6 @@ version
 environ
 =
 {
-                
 "
 CC
 "
@@ -4301,7 +4204,6 @@ CC
 "
 gcc
 "
-                
 "
 CXX
 "
@@ -4313,7 +4215,6 @@ g
 -
 8
 "
-            
 }
         
 )
@@ -4409,7 +4310,6 @@ version
 environ
 =
 {
-                
 "
 CC
 "
@@ -4417,7 +4317,6 @@ CC
 "
 gcc
 "
-                
 "
 HOST_CXX
 "
@@ -4429,7 +4328,6 @@ g
 -
 8
 "
-            
 }
         
 )
@@ -4503,7 +4401,6 @@ suite
 environ
 =
 {
-                
 "
 CXX
 "
@@ -4513,7 +4410,6 @@ g
 +
 +
 "
-            
 }
         
 )
@@ -4596,7 +4492,6 @@ suite
 environ
 =
 {
-                
 "
 HOST_CXX
 "
@@ -4606,7 +4501,6 @@ g
 +
 +
 "
-            
 }
         
 )
@@ -4659,7 +4553,6 @@ g
 environ
 =
 {
-                
 "
 CC
 "
@@ -4669,7 +4562,6 @@ g
 +
 +
 "
-            
 }
         
 )
@@ -4730,7 +4622,6 @@ clang
 environ
 =
 {
-                
 "
 CXX
 "
@@ -4738,7 +4629,6 @@ CXX
 "
 clang
 "
-            
 }
         
 )
@@ -4907,7 +4797,6 @@ CLANGXX_5_0_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -4919,7 +4808,6 @@ clang
 .
 0
 "
-            
 }
         
 )
@@ -4963,7 +4851,6 @@ CLANGXX_3_3_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -4975,7 +4862,6 @@ clang
 .
 3
 "
-                
 "
 CXX
 "
@@ -4989,7 +4875,6 @@ clang
 .
 3
 "
-            
 }
         
 )
@@ -5026,7 +4911,6 @@ CLANGXX_4_0_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -5038,7 +4922,6 @@ clang
 .
 0
 "
-                
 "
 CXX
 "
@@ -5052,7 +4935,6 @@ clang
 .
 0
 "
-            
 }
         
 )
@@ -5159,9 +5041,7 @@ do_toolchain_test
 (
             
 paths
-            
 {
-                
 "
 c_compiler
 "
@@ -5174,7 +5054,6 @@ target
 C
 compiler
 "
-            
 }
         
 )
@@ -5270,7 +5149,6 @@ DEFAULT_CLANG_RESULT
             
 +
 {
-                
 "
 compiler
 "
@@ -5285,7 +5163,6 @@ bin
 /
 clang
 "
-            
 }
             
 "
@@ -5298,7 +5175,6 @@ DEFAULT_CLANGXX_RESULT
             
 +
 {
-                
 "
 compiler
 "
@@ -5315,7 +5191,6 @@ clang
 +
 +
 "
-            
 }
         
 }
@@ -5332,7 +5207,6 @@ result
 environ
 =
 {
-                
 "
 CC
 "
@@ -5347,7 +5221,6 @@ bin
 /
 clang
 "
-                
 "
 CXX
 "
@@ -5364,7 +5237,6 @@ clang
 +
 +
 "
-            
 }
         
 )
@@ -5380,15 +5252,11 @@ self
 .
 do_toolchain_test
 (
-            
 paths
-            
 result
-            
 environ
 =
 {
-                
 "
 CC
 "
@@ -5403,9 +5271,7 @@ bin
 /
 clang
 "
-            
 }
-        
 )
     
 def
@@ -5508,7 +5374,6 @@ DEFAULT_CLANG_RESULT
                 
 +
 {
-                    
 "
 compiler
 "
@@ -5525,7 +5390,6 @@ clang
 -
 fast
 "
-                
 }
                 
 "
@@ -5538,7 +5402,6 @@ DEFAULT_CLANGXX_RESULT
                 
 +
 {
-                    
 "
 compiler
 "
@@ -5557,7 +5420,6 @@ fast
 +
 +
 "
-                
 }
             
 }
@@ -5565,7 +5427,6 @@ fast
 environ
 =
 {
-                
 "
 CC
 "
@@ -5577,7 +5438,6 @@ clang
 -
 fast
 "
-                
 "
 CXX
 "
@@ -5591,7 +5451,6 @@ fast
 +
 +
 "
-            
 }
         
 )
@@ -5651,7 +5510,6 @@ DEFAULT_GXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -5659,7 +5517,6 @@ CC
 "
 clang
 "
-                
 "
 HOST_CC
 "
@@ -5667,7 +5524,6 @@ HOST_CC
 "
 gcc
 "
-            
 }
         
 )
@@ -5720,7 +5576,6 @@ DEFAULT_GXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -5728,7 +5583,6 @@ CC
 "
 clang
 "
-                
 "
 CXX
 "
@@ -5738,7 +5592,6 @@ clang
 +
 +
 "
-                
 "
 HOST_CC
 "
@@ -5746,7 +5599,6 @@ HOST_CC
 "
 gcc
 "
-            
 }
         
 )
@@ -6168,7 +6020,6 @@ DEFAULT_GXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -6176,7 +6027,6 @@ CC
 "
 gcc
 "
-            
 }
         
 )
@@ -6970,9 +6820,7 @@ do_toolchain_test
 (
             
 paths
-            
 {
-                
 "
 c_compiler
 "
@@ -6985,7 +6833,6 @@ target
 C
 compiler
 "
-            
 }
         
 )
@@ -7029,7 +6876,6 @@ CLANGXX_3_3_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -7041,7 +6887,6 @@ clang
 .
 3
 "
-                
 "
 CXX
 "
@@ -7055,7 +6900,6 @@ clang
 .
 3
 "
-            
 }
         
 )
@@ -7104,7 +6948,6 @@ CLANGXX_4_0_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -7116,7 +6959,6 @@ clang
 .
 0
 "
-                
 "
 CXX
 "
@@ -7130,7 +6972,6 @@ clang
 .
 0
 "
-            
 }
         
 )
@@ -7196,7 +7037,6 @@ SYSROOT_FLAGS
 environ
 =
 {
-                
 "
 CC
 "
@@ -7206,7 +7046,6 @@ gcc
 -
 7
 "
-                
 "
 CXX
 "
@@ -7218,7 +7057,6 @@ g
 -
 7
 "
-            
 }
         
 )
@@ -7240,7 +7078,6 @@ self
 PATHS
             
 {
-                
 "
 c_compiler
 "
@@ -7248,13 +7085,11 @@ c_compiler
 self
 .
 GCC_5_RESULT
-            
 }
             
 environ
 =
 {
-                
 "
 CC
 "
@@ -7264,7 +7099,6 @@ gcc
 -
 5
 "
-                
 "
 CXX
 "
@@ -7276,7 +7110,6 @@ g
 -
 5
 "
-            
 }
         
 )
@@ -8002,7 +7835,6 @@ supported
 environ
 =
 {
-                
 "
 CC
 "
@@ -8015,7 +7847,6 @@ bin
 /
 cl
 "
-            
 }
         
 )
@@ -8037,7 +7868,6 @@ self
 PATHS
             
 {
-                
 "
 c_compiler
 "
@@ -8045,13 +7875,11 @@ c_compiler
 self
 .
 CLANG_CL_3_9_RESULT
-            
 }
             
 environ
 =
 {
-                
 "
 CC
 "
@@ -8070,7 +7898,6 @@ cl
 .
 9
 "
-            
 }
         
 )
@@ -8268,7 +8095,6 @@ self
 PATHS
             
 {
-                
 "
 c_compiler
 "
@@ -8282,13 +8108,11 @@ not
 supported
 .
 "
-            
 }
             
 environ
 =
 {
-                
 "
 CC
 "
@@ -8298,7 +8122,6 @@ gcc
 -
 7
 "
-                
 "
 CXX
 "
@@ -8310,7 +8133,6 @@ g
 -
 7
 "
-            
 }
         
 )
@@ -8332,7 +8154,6 @@ self
 PATHS
             
 {
-                
 "
 c_compiler
 "
@@ -8346,13 +8167,11 @@ not
 supported
 .
 "
-            
 }
             
 environ
 =
 {
-                
 "
 CC
 "
@@ -8362,7 +8181,6 @@ gcc
 -
 5
 "
-                
 "
 CXX
 "
@@ -8374,7 +8192,6 @@ g
 -
 5
 "
-            
 }
         
 )
@@ -8535,7 +8352,6 @@ CLANGXX_3_3_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -8547,7 +8363,6 @@ clang
 .
 3
 "
-                
 "
 CXX
 "
@@ -8561,7 +8376,6 @@ clang
 .
 3
 "
-            
 }
         
 )
@@ -9423,16 +9237,13 @@ gnu
 "
 :
 little_endian
-        
 +
 {
-            
 "
 __aarch64__
 "
 :
 1
-        
 }
         
 "
@@ -9446,16 +9257,13 @@ gnu
 "
 :
 little_endian
-        
 +
 {
-            
 "
 __ia64__
 "
 :
 1
-        
 }
         
 "
@@ -9469,22 +9277,18 @@ gnu
 "
 :
 big_endian
-        
 +
 {
-            
 "
 __s390x__
 "
 :
 1
-            
 "
 __s390__
 "
 :
 1
-        
 }
         
 "
@@ -9498,16 +9302,13 @@ gnu
 "
 :
 big_endian
-        
 +
 {
-            
 "
 __s390__
 "
 :
 1
-        
 }
         
 "
@@ -9528,19 +9329,16 @@ big_endian
 None
 :
 {
-                
 "
 __powerpc64__
 "
 :
 1
-                
 "
 __powerpc__
 "
 :
 1
-            
 }
             
 "
@@ -9549,13 +9347,11 @@ m32
 "
 :
 {
-                
 "
 __powerpc64__
 "
 :
 False
-            
 }
         
 }
@@ -9574,34 +9370,27 @@ big_endian
         
 +
 {
-            
 None
 :
 {
-                
 "
 __powerpc__
 "
 :
 1
-            
 }
-            
 "
 -
 m64
 "
 :
 {
-                
 "
 __powerpc64__
 "
 :
 1
-            
 }
-        
 }
         
 "
@@ -9615,16 +9404,13 @@ gnu
 "
 :
 little_endian
-        
 +
 {
-            
 "
 __alpha__
 "
 :
 1
-        
 }
         
 "
@@ -9638,16 +9424,13 @@ gnu
 "
 :
 big_endian
-        
 +
 {
-            
 "
 __hppa__
 "
 :
 1
-        
 }
         
 "
@@ -9664,40 +9447,32 @@ big_endian
         
 +
 {
-            
 None
 :
 {
-                
 "
 __arch64__
 "
 :
 1
-                
 "
 __sparc__
 "
 :
 1
-            
 }
-            
 "
 -
 m32
 "
 :
 {
-                
 "
 __arch64__
 "
 :
 False
-            
 }
-        
 }
         
 "
@@ -9714,34 +9489,27 @@ big_endian
         
 +
 {
-            
 None
 :
 {
-                
 "
 __sparc__
 "
 :
 1
-            
 }
-            
 "
 -
 m64
 "
 :
 {
-                
 "
 __arch64__
 "
 :
 1
-            
 }
-        
 }
         
 "
@@ -9755,16 +9523,13 @@ gnu
 "
 :
 big_endian
-        
 +
 {
-            
 "
 __m68k__
 "
 :
 1
-        
 }
         
 "
@@ -9778,22 +9543,18 @@ gnuabi64
 "
 :
 big_endian
-        
 +
 {
-            
 "
 __mips64
 "
 :
 1
-            
 "
 __mips__
 "
 :
 1
-        
 }
         
 "
@@ -9807,16 +9568,13 @@ gnu
 "
 :
 big_endian
-        
 +
 {
-            
 "
 __mips__
 "
 :
 1
-        
 }
         
 "
@@ -9830,22 +9588,18 @@ gnu
 "
 :
 little_endian
-        
 +
 {
-            
 "
 __riscv
 "
 :
 1
-            
 "
 __riscv_xlen
 "
 :
 64
-        
 }
         
 "
@@ -9859,16 +9613,13 @@ gnu
 "
 :
 little_endian
-        
 +
 {
-            
 "
 __sh__
 "
 :
 1
-        
 }
     
 }
@@ -10531,7 +10282,6 @@ DEFAULT_GCC_RESULT
                 
 +
 {
-                    
 "
 compiler
 "
@@ -10544,7 +10294,6 @@ gcc
 "
 %
 toolchain_prefix
-                
 }
                 
 "
@@ -10557,7 +10306,6 @@ DEFAULT_GXX_RESULT
                 
 +
 {
-                    
 "
 compiler
 "
@@ -10572,7 +10320,6 @@ g
 "
 %
 toolchain_prefix
-                
 }
                 
 "
@@ -10848,7 +10595,6 @@ DEFAULT_GXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -10864,7 +10610,6 @@ gcc
 -
 7
 "
-                
 "
 CXX
 "
@@ -10882,7 +10627,6 @@ g
 -
 7
 "
-            
 }
         
 )
@@ -10904,7 +10648,6 @@ self
 PATHS
             
 {
-                
 "
 c_compiler
 "
@@ -10912,13 +10655,11 @@ c_compiler
 self
 .
 ARM_GCC_4_9_RESULT
-            
 }
             
 environ
 =
 {
-                
 "
 CC
 "
@@ -10936,7 +10677,6 @@ gcc
 .
 9
 "
-                
 "
 CXX
 "
@@ -10956,7 +10696,6 @@ g
 .
 9
 "
-            
 }
         
 )
@@ -11029,7 +10768,6 @@ DEFAULT_GXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -11045,7 +10783,6 @@ gcc
 -
 7
 "
-            
 }
         
 )
@@ -11098,7 +10835,6 @@ DEFAULT_CLANGXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -11112,7 +10848,6 @@ gnu
 -
 gcc
 "
-                
 "
 HOST_CC
 "
@@ -11120,7 +10855,6 @@ HOST_CC
 "
 clang
 "
-            
 }
         
 )
@@ -11323,7 +11057,6 @@ DEFAULT_CLANGXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -11331,7 +11064,6 @@ CC
 "
 clang
 "
-                
 "
 HOST_CC
 "
@@ -11339,7 +11071,6 @@ HOST_CC
 "
 clang
 "
-            
 }
         
 )
@@ -11388,7 +11119,6 @@ DEFAULT_CLANGXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -11396,7 +11126,6 @@ CC
 "
 clang
 "
-            
 }
         
 )
@@ -11552,10 +11281,8 @@ c_compiler
 "
 :
 afl_clang_result
-                
 +
 {
-                    
 "
 flags
 "
@@ -11573,7 +11300,6 @@ linux
 gnu
 "
 ]
-                
 }
                 
 "
@@ -11584,7 +11310,6 @@ afl_clangxx_result
                 
 +
 {
-                    
 "
 flags
 "
@@ -11602,7 +11327,6 @@ linux
 gnu
 "
 ]
-                
 }
                 
 "
@@ -11622,7 +11346,6 @@ afl_clangxx_result
 environ
 =
 {
-                
 "
 CC
 "
@@ -11634,7 +11357,6 @@ clang
 -
 fast
 "
-                
 "
 CXX
 "
@@ -11648,7 +11370,6 @@ fast
 +
 +
 "
-            
 }
         
 )
@@ -11863,7 +11584,6 @@ SYSROOT_FLAGS
                 
 +
 {
-                    
 "
 flags
 "
@@ -11885,7 +11605,6 @@ darwin11
 0
 "
 ]
-                
 }
                 
 "
@@ -11903,7 +11622,6 @@ SYSROOT_FLAGS
                 
 +
 {
-                    
 "
 flags
 "
@@ -11925,7 +11643,6 @@ darwin11
 0
 "
 ]
-                
 }
                 
 "
@@ -11949,7 +11666,6 @@ DEFAULT_CLANGXX_RESULT
 environ
 =
 {
-                
 "
 CC
 "
@@ -11957,7 +11673,6 @@ CC
 "
 clang
 "
-            
 }
             
 args
@@ -12042,7 +11757,6 @@ Darwin
 environ
 =
 {
-                
 "
 CC
 "
@@ -12050,7 +11764,6 @@ CC
 "
 gcc
 "
-            
 }
             
 args
@@ -12122,7 +11835,6 @@ self
 paths
 =
 {
-            
 "
 /
 usr
@@ -12137,7 +11849,6 @@ cl
 CLANG_CL_8_0
 +
 CLANG_CL_PLATFORM_X86_64
-        
 }
         
 paths
@@ -13815,13 +13526,11 @@ rust_targets
 +
 =
 [
-                    
 "
 wasm32
 -
 wasi
 "
-                
 ]
                 
 rust_targets
@@ -13878,7 +13587,6 @@ rust_targets
 +
 =
 [
-                    
 "
 x86_64
 -
@@ -13886,7 +13594,6 @@ pc
 -
 solaris
 "
-                
 ]
             
 #
@@ -14337,13 +14044,7 @@ gcc
 "
 version
 =
-"
-1
-.
-47
-.
-0
-"
+MINIMUM_RUST_VERSION
 arm_target
 =
 None
@@ -14532,18 +14233,19 @@ __value_for_depends
 "
 )
 [
-            
 (
 dep
 )
-        
 ]
 =
+(
+            
 arm_target
+            
 or
 ReadOnlyNamespace
 (
-            
+                
 arm_arch
 =
 7
@@ -14560,6 +14262,8 @@ float_abi
 "
 softfp
 "
+            
+)
         
 )
         
