@@ -11,14 +11,6 @@ enable
 -
 private
 -
-fields
-;
--
--
-enable
--
-private
--
 methods
 ;
 load
