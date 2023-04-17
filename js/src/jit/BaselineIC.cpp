@@ -6546,11 +6546,7 @@ ReportInNotObjectError
 (
 cx
 key
--
-2
 objValue
--
-1
 )
 ;
 return
