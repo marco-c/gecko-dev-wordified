@@ -988,6 +988,11 @@ kConfigUpdateTopic
 )
 ;
 }
+{
+once
+:
+true
+}
 )
 ;
 }

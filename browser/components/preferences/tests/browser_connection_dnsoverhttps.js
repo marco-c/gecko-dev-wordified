@@ -415,11 +415,13 @@ res
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
 >
 {
+await
 resetPrefs
 (
 )
