@@ -1813,7 +1813,8 @@ Update
 )
 on
 the
-main
+media
+cache
 thread
 .
 void
@@ -1866,7 +1867,8 @@ state
 asynchronously
 on
 the
-main
+media
+cache
 thread
 :
 /
