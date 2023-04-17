@@ -4064,17 +4064,6 @@ ipc
 :
 :
 IPCResult
-RecvRemotePaintIsReady
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvRemoteIsReadyToHandleInputEvents
 (
 )

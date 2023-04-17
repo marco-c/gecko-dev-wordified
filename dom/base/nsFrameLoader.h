@@ -1305,11 +1305,6 @@ aRv
 )
 ;
 void
-RequestNotifyAfterRemotePaint
-(
-)
-;
-void
 RequestUpdatePosition
 (
 mozilla
