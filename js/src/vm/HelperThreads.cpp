@@ -3719,15 +3719,6 @@ setHelperThread
 lock
 )
 ;
-cx
--
->
-nativeStackBase
-=
-GetNativeStackBase
-(
-)
-;
 /
 /
 When

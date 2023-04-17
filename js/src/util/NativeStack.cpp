@@ -612,6 +612,7 @@ may
 not
 be
 mounted
+.
 if
 (
 gettid
