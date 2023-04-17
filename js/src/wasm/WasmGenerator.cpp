@@ -1762,7 +1762,8 @@ moduleEnv_
 -
 >
 types
-.
+-
+>
 length
 (
 )
@@ -1777,10 +1778,13 @@ TypeDef
 &
 typeDef
 =
+(
+*
 moduleEnv_
 -
 >
 types
+)
 [
 typeIndex
 ]
@@ -1983,7 +1987,8 @@ moduleEnv_
 -
 >
 types
-.
+-
+>
 length
 (
 )
@@ -2010,7 +2015,8 @@ moduleEnv_
 -
 >
 types
-.
+-
+>
 length
 (
 )
@@ -2025,10 +2031,13 @@ TypeDef
 &
 typeDef
 =
+(
+*
 moduleEnv_
 -
 >
 types
+)
 [
 srcIndex
 ]

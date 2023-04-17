@@ -7802,7 +7802,8 @@ x
 env_
 .
 types
-.
+-
+>
 length
 (
 )
@@ -7827,7 +7828,8 @@ if
 env_
 .
 types
-.
+-
+>
 isFuncType
 (
 x
@@ -7861,7 +7863,8 @@ Func
 env_
 .
 types
-.
+-
+>
 funcType
 (
 x
@@ -8402,6 +8405,7 @@ d_
 .
 readValType
 (
+*
 env_
 .
 types
@@ -8439,6 +8443,7 @@ d_
 .
 readHeapType
 (
+*
 env_
 .
 types
@@ -14357,6 +14362,7 @@ d_
 .
 readRefNull
 (
+*
 env_
 .
 types
@@ -15158,7 +15164,8 @@ if
 env_
 .
 types
-.
+-
+>
 isFuncType
 (
 *
@@ -15185,7 +15192,8 @@ funcType
 env_
 .
 types
-.
+-
+>
 funcType
 (
 *
@@ -15534,7 +15542,8 @@ if
 env_
 .
 types
-.
+-
+>
 isFuncType
 (
 *
@@ -15561,7 +15570,8 @@ funcType
 env_
 .
 types
-.
+-
+>
 funcType
 (
 *
@@ -17995,7 +18005,8 @@ typeIndex
 env_
 .
 types
-.
+-
+>
 length
 (
 )
@@ -18020,7 +18031,8 @@ if
 env_
 .
 types
-.
+-
+>
 isStructType
 (
 *
@@ -18032,7 +18044,8 @@ typeIndex
 env_
 .
 types
-.
+-
+>
 isArrayType
 (
 *
@@ -18107,7 +18120,8 @@ typeIndex
 env_
 .
 types
-.
+-
+>
 length
 (
 )
@@ -18132,7 +18146,8 @@ if
 env_
 .
 types
-.
+-
+>
 isStructType
 (
 *
@@ -18207,7 +18222,8 @@ typeIndex
 env_
 .
 types
-.
+-
+>
 length
 (
 )
@@ -18232,7 +18248,8 @@ if
 env_
 .
 types
-.
+-
+>
 isArrayType
 (
 *
@@ -18398,7 +18415,8 @@ str
 env_
 .
 types
-.
+-
+>
 structType
 (
 *
@@ -18600,7 +18618,8 @@ str
 env_
 .
 types
-.
+-
+>
 structType
 (
 *
@@ -18743,7 +18762,8 @@ structType
 env_
 .
 types
-.
+-
+>
 structType
 (
 *
@@ -18950,7 +18970,8 @@ structType
 env_
 .
 types
-.
+-
+>
 structType
 (
 *
@@ -19113,7 +19134,8 @@ arr
 env_
 .
 types
-.
+-
+>
 arrayType
 (
 *
@@ -19261,7 +19283,8 @@ arr
 env_
 .
 types
-.
+-
+>
 arrayType
 (
 *
@@ -19415,7 +19438,8 @@ arrayType
 env_
 .
 types
-.
+-
+>
 arrayType
 (
 *
@@ -19611,7 +19635,8 @@ arrayType
 env_
 .
 types
-.
+-
+>
 arrayType
 (
 *

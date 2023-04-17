@@ -316,10 +316,7 @@ global
 type
 context
 .
-UniquePtr
-<
-TypeContext
->
+MutableTypeContext
 typeContext
 ;
 /
