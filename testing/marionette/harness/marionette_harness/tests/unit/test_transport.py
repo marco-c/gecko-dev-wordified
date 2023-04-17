@@ -519,22 +519,13 @@ params
 "
 ]
         
-payload
-=
-json
-.
-dumps
-(
-msg
-)
-        
 cmd
 =
 Command
 .
 from_msg
 (
-payload
+msg
 )
         
 self
@@ -865,22 +856,13 @@ result
 "
 ]
         
-payload
-=
-json
-.
-dumps
-(
-msg
-)
-        
 resp
 =
 Response
 .
 from_msg
 (
-payload
+msg
 )
         
 self
