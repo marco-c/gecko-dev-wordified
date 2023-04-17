@@ -1008,7 +1008,7 @@ constexpr
 impl
 :
 :
-RateMetric
+NumeratorMetric
 rate_with_external_denominator
 (
 21
@@ -1043,7 +1043,7 @@ constexpr
 impl
 :
 :
-CounterMetric
+DenominatorMetric
 external_denominator
 (
 22

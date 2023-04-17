@@ -180,9 +180,7 @@ glean_parser
 from
 glean_parser
 import
-lint
 parser
-util
 def
 test_all_metric_types
 (
@@ -304,33 +302,13 @@ yaml
 ]
     
 all_objs
+options
 =
-parser
+run_glean_parser
 .
-parse_objects
+parse_with_options
 (
 input_files
-options
-)
-    
-assert
-not
-util
-.
-report_validation_errors
-(
-all_objs
-)
-    
-assert
-not
-lint
-.
-lint_metrics
-(
-all_objs
-.
-value
 options
 )
     
@@ -347,8 +325,6 @@ rust
 output_rust
 (
 all_objs
-.
-value
 output_fd
 options
 )
@@ -492,33 +468,13 @@ yaml
 ]
     
 all_objs
+options
 =
-parser
+run_glean_parser
 .
-parse_objects
+parse_with_options
 (
 input_files
-options
-)
-    
-assert
-not
-util
-.
-report_validation_errors
-(
-all_objs
-)
-    
-assert
-not
-lint
-.
-lint_metrics
-(
-all_objs
-.
-value
 options
 )
     
@@ -535,8 +491,6 @@ rust
 output_rust
 (
 all_objs
-.
-value
 output_fd
 options
 )
@@ -669,40 +623,18 @@ yaml
 ]
     
 all_objs
+options
 =
-parser
+run_glean_parser
 .
-parse_objects
+parse_with_options
 (
 input_files
 options
 )
     
 assert
-not
-util
-.
-report_validation_errors
-(
 all_objs
-)
-    
-assert
-not
-lint
-.
-lint_metrics
-(
-all_objs
-.
-value
-options
-)
-    
-assert
-all_objs
-.
-value
 [
 "
 test
@@ -720,8 +652,6 @@ True
     
 assert
 all_objs
-.
-value
 [
 "
 test
@@ -739,8 +669,6 @@ True
     
 assert
 all_objs
-.
-value
 [
 "
 test
