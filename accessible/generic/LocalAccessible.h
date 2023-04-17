@@ -5858,6 +5858,15 @@ nullptr
 )
 const
 ;
+void
+ModifySubtreeContextFlags
+(
+uint32_t
+aContextFlags
+bool
+aAdd
+)
+;
 /
 *
 *
