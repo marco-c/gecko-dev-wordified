@@ -3239,7 +3239,7 @@ fmFlags
 nsFocusManager
 :
 :
-FocusOptionsToFocusManagerFlags
+ProgrammaticFocusFlags
 (
 aOptions
 )

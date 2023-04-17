@@ -448,12 +448,6 @@ FocusOptions
 &
 aOptions
 const
-mozilla
-:
-:
-dom
-:
-:
 CallerType
 aCallerType
 ErrorResult
@@ -570,7 +564,7 @@ FLAG_NOPARENTFRAME
 nsFocusManager
 :
 :
-FocusOptionsToFocusManagerFlags
+ProgrammaticFocusFlags
 (
 aOptions
 )
