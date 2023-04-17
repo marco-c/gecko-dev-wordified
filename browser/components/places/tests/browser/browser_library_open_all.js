@@ -250,7 +250,7 @@ document
 getElementById
 (
 "
-placesContext_openLinks
+placesContext_openBookmarkLinks
 :
 tabs
 "
