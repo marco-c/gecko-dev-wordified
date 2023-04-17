@@ -936,7 +936,7 @@ formElm
 formControlNode
 -
 >
-GetFormElement
+GetForm
 (
 )
 )
@@ -3508,7 +3508,7 @@ formElement
 input
 -
 >
-GetFormElement
+GetForm
 (
 )
 ;
