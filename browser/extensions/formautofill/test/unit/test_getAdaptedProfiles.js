@@ -44,7 +44,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillHandler
 .

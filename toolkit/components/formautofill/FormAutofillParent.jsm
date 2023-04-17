@@ -257,7 +257,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofill
 .
@@ -307,7 +307,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillPreferences
 .
@@ -320,7 +320,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillDoorhanger
 .
@@ -333,7 +333,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillUtils
 .
@@ -1423,7 +1423,7 @@ resource
 :
 /
 /
-formautofill
+autofill
 /
 FormAutofillStorage
 .
