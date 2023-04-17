@@ -6629,7 +6629,7 @@ this
 )
 ;
 }
-void
+nsresult
 nsIFrame
 :
 :
@@ -6651,6 +6651,9 @@ aStart
 aEnd
 =
 0
+;
+return
+NS_OK
 ;
 }
 static
