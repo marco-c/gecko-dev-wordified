@@ -562,13 +562,6 @@ MPL
 raw
 :
 true
-exclude
-:
-/
-\
-.
-css
-/
 }
 )
 new
