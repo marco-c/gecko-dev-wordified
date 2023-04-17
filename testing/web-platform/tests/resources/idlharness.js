@@ -8538,7 +8538,7 @@ type
 {
 case
 "
-void
+undefined
 "
 :
 assert_equals
