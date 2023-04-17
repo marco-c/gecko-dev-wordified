@@ -238,7 +238,7 @@ we
 need
 to
 make
-it
+them
 available
 .
             
@@ -254,6 +254,25 @@ third_party
 python
 /
 Click
+\
+n
+"
+)
+            
+file
+.
+write
+(
+"
+pth
+:
+third_party
+/
+python
+/
+pip_tools
+\
+n
 "
 )
         
