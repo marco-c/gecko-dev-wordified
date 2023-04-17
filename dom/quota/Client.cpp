@@ -1252,11 +1252,7 @@ AssertIsOnBackgroundThread
 QuotaManager
 :
 :
-GetRef
-(
-)
-.
-MaybeRecordShutdownStep
+MaybeRecordQuotaClientShutdownStep
 (
 GetType
 (
@@ -1288,11 +1284,7 @@ FinalizeShutdownWorkThreads
 QuotaManager
 :
 :
-GetRef
-(
-)
-.
-MaybeRecordShutdownStep
+MaybeRecordQuotaClientShutdownStep
 (
 GetType
 (
