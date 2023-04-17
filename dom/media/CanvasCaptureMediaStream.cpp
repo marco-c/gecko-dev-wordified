@@ -341,6 +341,9 @@ NS_IsMainThread
 TRACE_COMMENT
 (
 "
+OutputStreamDriverSetImage
+"
+"
 SourceMediaTrack
 %
 p

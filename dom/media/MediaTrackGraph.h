@@ -286,6 +286,8 @@ dom
 enum
 class
 AudioContextOperation
+:
+uint8_t
 ;
 enum
 class

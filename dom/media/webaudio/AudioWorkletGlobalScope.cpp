@@ -538,7 +538,12 @@ aRv
 TRACE_COMMENT
 (
 "
+AudioWorkletGlobalScope
+:
+:
 RegisterProcessor
+"
+"
 %
 s
 "
@@ -1982,8 +1987,11 @@ TRACE_COMMENT
 (
 "
 AudioWorkletProcessor
-ctor
 :
+:
+ConstructProcessor
+"
+"
 %
 s
 "

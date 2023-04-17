@@ -1080,6 +1080,12 @@ TRACE_COMMENT
 (
 "
 ForwardedInputTrack
+:
+:
+ProcessInput
+"
+"
+ForwardedInputTrack
 %
 p
 "

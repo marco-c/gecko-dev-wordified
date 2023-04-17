@@ -433,6 +433,12 @@ IterationResult
 {
 TRACE
 (
+"
+GraphRunner
+:
+:
+OneIteration
+"
 )
 ;
 MonitorAutoLock
@@ -885,6 +891,12 @@ isSome
 ;
 TRACE
 (
+"
+GraphRunner
+:
+:
+Run
+"
 )
 ;
 mIterationResult
