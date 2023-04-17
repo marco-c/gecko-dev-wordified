@@ -287,7 +287,10 @@ true
 }
 setIcon
 :
+(
 isActive
+windowId
+)
 =
 >
 {
@@ -297,7 +300,14 @@ obs
 .
 notifyObservers
 (
-null
+Services
+.
+wm
+.
+getOuterWindowWithId
+(
+windowId
+)
 "
 toggle
 -
