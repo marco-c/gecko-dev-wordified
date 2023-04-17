@@ -1436,7 +1436,7 @@ mozilla
 gfx
 ;
 LazyLogModule
-gRenderThreadLog
+gWebRenderBridgeParentLog
 (
 "
 WebRenderBridgeParent
@@ -1451,9 +1451,10 @@ LOG
 .
 .
 )
+\
 MOZ_LOG
 (
-gRenderThreadLog
+gWebRenderBridgeParentLog
 LogLevel
 :
 :
