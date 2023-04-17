@@ -191,7 +191,7 @@ include
 "
 mozilla
 /
-ProfilerThreadState
+ProfilerState
 .
 h
 "
