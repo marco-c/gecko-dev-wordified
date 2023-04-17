@@ -10842,6 +10842,7 @@ jsm
 "
 E10SUtils
 "
+fallible
 )
 ;
 if
