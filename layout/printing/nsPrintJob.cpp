@@ -223,6 +223,17 @@ mozilla
 /
 dom
 /
+ShadowRoot
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 CustomEvent
 .
 h
