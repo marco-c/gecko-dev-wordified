@@ -131,13 +131,6 @@ setupHomeButton
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 /
 /
 Put
@@ -187,7 +180,6 @@ position
 1
 )
 ;
-}
 }
 )
 ;

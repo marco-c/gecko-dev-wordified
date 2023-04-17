@@ -36,13 +36,6 @@ setupHomeButton
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 /
 /
 Put
@@ -108,7 +101,6 @@ bar
 "
 )
 ;
-}
 registerCleanupFunction
 (
 async

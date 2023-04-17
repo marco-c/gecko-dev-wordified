@@ -89,13 +89,6 @@ ready
 "
 )
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -130,7 +123,6 @@ button
 )
 )
 ;
-}
 document
 .
 getElementById

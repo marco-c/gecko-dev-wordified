@@ -82,13 +82,6 @@ PersonalToolbar
 false
 )
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 removeWidgetFromArea
@@ -100,7 +93,6 @@ button
 "
 )
 ;
-}
 SidebarUI
 .
 hide
@@ -239,13 +231,6 @@ test_enable_toolbar
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -262,7 +247,6 @@ bar
 "
 )
 ;
-}
 await
 openBookmarkingPanelInLibraryToolbarButton
 (

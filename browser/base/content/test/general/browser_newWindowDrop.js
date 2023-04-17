@@ -287,13 +287,6 @@ button
 )
 ;
 }
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -328,7 +321,6 @@ button
 )
 )
 ;
-}
 }
 )
 ;

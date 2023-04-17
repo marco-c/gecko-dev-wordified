@@ -52,13 +52,6 @@ test
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 /
 /
 Put
@@ -126,7 +119,6 @@ reset
 }
 )
 ;
-}
 waitForExplicitFinish
 (
 )

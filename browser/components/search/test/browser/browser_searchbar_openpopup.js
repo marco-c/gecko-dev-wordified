@@ -3581,13 +3581,6 @@ drop_opens_popup
 (
 )
 {
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 addWidgetToArea
@@ -3604,7 +3597,6 @@ bar
 "
 )
 ;
-}
 /
 /
 The
@@ -3841,13 +3833,6 @@ value
 "
 "
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 removeWidgetFromArea
@@ -3859,7 +3844,6 @@ button
 "
 )
 ;
-}
 }
 )
 ;
