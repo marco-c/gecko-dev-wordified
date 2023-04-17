@@ -349,12 +349,6 @@ UninitializedAzimuth
 -
 1
 ;
-const
-unsigned
-RenderingQuantum
-=
-WEBAUDIO_BLOCK_SIZE
-;
 HRTFPanner
 :
 :
