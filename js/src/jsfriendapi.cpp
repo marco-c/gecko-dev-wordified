@@ -5261,7 +5261,7 @@ ScriptSourceObject
 (
 )
 .
-canonicalPrivate
+getPrivate
 (
 )
 ;

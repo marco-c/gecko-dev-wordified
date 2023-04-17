@@ -789,7 +789,7 @@ scriptSourceObject
 )
 -
 >
-canonicalPrivate
+getPrivate
 (
 )
 ;
