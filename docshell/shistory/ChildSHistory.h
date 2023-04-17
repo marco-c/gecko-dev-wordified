@@ -647,8 +647,6 @@ virtual
 ChildSHistory
 (
 )
-=
-default
 ;
 class
 PendingAsyncHistoryNavigation
