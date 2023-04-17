@@ -249,7 +249,7 @@ TInterfaceBlock
 *
 >
 &
-uniformBlocksTranslatedToStructuredBuffers
+uniformBlockOptimizedMap
 const
 std
 :
@@ -1147,7 +1147,7 @@ const
 TInterfaceBlock
 *
 >
-mUniformBlocksTranslatedToStructuredBuffers
+mUniformBlockOptimizedMap
 ;
 ReferencedVariables
 mReferencedAttributes

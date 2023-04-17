@@ -809,7 +809,7 @@ it
 .
 friend
 class
-RegenerateStructNames
+RegenerateStructNamesTraverser
 ;
 void
 setName

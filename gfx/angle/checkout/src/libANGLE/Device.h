@@ -178,6 +178,7 @@ Display
 getOwningDisplay
 (
 )
+const
 {
 return
 mOwningDisplay
@@ -187,6 +188,7 @@ EGLint
 getType
 (
 )
+const
 ;
 const
 DeviceExtensions
