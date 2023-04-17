@@ -4095,6 +4095,9 @@ aSize
 Nothing
 (
 )
+Nothing
+(
+)
 aWhichFrame
 aFlags
 )
@@ -4141,6 +4144,13 @@ SVGImageContext
 >
 &
 aSVGContext
+const
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 uint32_t
 aWhichFrame
 uint32_t
@@ -4865,6 +4875,9 @@ ToUnknownSize
 Nothing
 (
 )
+Nothing
+(
+)
 flags
 getter_AddRefs
 (
@@ -5076,6 +5089,13 @@ SVGImageContext
 >
 &
 aSVGContext
+const
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 uint32_t
 aFlags
 layers
@@ -5129,6 +5149,9 @@ GetImageContainerImpl
 (
 aManager
 aSize
+Nothing
+(
+)
 Nothing
 (
 )

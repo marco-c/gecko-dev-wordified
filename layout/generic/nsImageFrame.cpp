@@ -659,6 +659,13 @@ h
 #
 include
 "
+ImageRegion
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
@@ -11494,6 +11501,12 @@ SVGImageContext
 >
 svgContext
 ;
+Maybe
+<
+ImageIntRegion
+>
+region
+;
 IntSize
 decodeSize
 =
@@ -11505,9 +11518,11 @@ ComputeImageContainerDrawingParameters
 imgCon
 this
 destRect
+destRect
 aSc
 aFlags
 svgContext
+region
 )
 ;
 RefPtr
@@ -11531,6 +11546,7 @@ LayerManager
 )
 decodeSize
 svgContext
+region
 aFlags
 getter_AddRefs
 (
@@ -13916,6 +13932,12 @@ SVGImageContext
 >
 svgContext
 ;
+Maybe
+<
+ImageIntRegion
+>
+region
+;
 IntSize
 decodeSize
 =
@@ -13927,9 +13949,11 @@ ComputeImageContainerDrawingParameters
 mImage
 mFrame
 destRect
+destRect
 aSc
 flags
 svgContext
+region
 )
 ;
 RefPtr
@@ -13957,6 +13981,7 @@ LayerManager
 )
 decodeSize
 svgContext
+region
 flags
 getter_AddRefs
 (
@@ -14154,6 +14179,7 @@ LayerManager
 )
 decodeSize
 svgContext
+region
 prevFlags
 getter_AddRefs
 (

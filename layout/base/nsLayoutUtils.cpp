@@ -44334,6 +44334,10 @@ LayoutDeviceRect
 &
 aDestRect
 const
+LayoutDeviceRect
+&
+aFillRect
+const
 StackingContextHelper
 &
 aSc
@@ -44345,6 +44349,12 @@ SVGImageContext
 >
 &
 aSVGContext
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 )
 {
 MOZ_ASSERT

@@ -2456,6 +2456,13 @@ SVGImageContext
 >
 &
 aSVGContext
+const
+Maybe
+<
+ImageIntRegion
+>
+&
+aRegion
 uint32_t
 aWhichFrame
 uint32_t
