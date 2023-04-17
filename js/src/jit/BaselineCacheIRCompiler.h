@@ -473,6 +473,17 @@ StringCode
 stringCode
 )
 ;
+void
+emitAtomizeString
+(
+Register
+str
+Register
+temp
+LiveGeneralRegisterSet
+save
+)
+;
 bool
 emitCallScriptedGetterShared
 (
