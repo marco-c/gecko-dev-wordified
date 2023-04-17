@@ -7715,13 +7715,6 @@ same
 variant
 #
 [
-repr
-(
-C
-)
-]
-#
-[
 derive
 (
 Clone
@@ -9337,13 +9330,6 @@ to
 the
 same
 variant
-#
-[
-repr
-(
-C
-)
-]
 #
 [
 derive
