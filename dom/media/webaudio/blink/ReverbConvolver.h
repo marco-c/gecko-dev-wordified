@@ -460,6 +460,9 @@ size_t
 convolverRenderPhase
 bool
 useBackgroundThreads
+bool
+*
+aAllocationFailure
 )
 ;
 ~
