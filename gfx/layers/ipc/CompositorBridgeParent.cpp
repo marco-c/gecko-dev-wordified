@@ -5107,7 +5107,6 @@ resolve
 (
 mCompositionManager
 this
-nullptr
 )
 ;
 if
