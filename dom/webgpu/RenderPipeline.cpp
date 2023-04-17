@@ -252,6 +252,11 @@ SendRenderPipelineDestroy
 mId
 )
 ;
+if
+(
+mImplicitPipelineLayoutId
+)
+{
 bridge
 -
 >
@@ -261,6 +266,7 @@ mImplicitPipelineLayoutId
 mImplicitBindGroupLayoutIds
 )
 ;
+}
 }
 }
 }
