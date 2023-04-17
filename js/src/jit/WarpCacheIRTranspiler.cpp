@@ -2829,7 +2829,7 @@ objId
 uint32_t
 idOffset
 uint32_t
-shapeOffset
+getterSetterOffset
 )
 {
 MDefinition
@@ -2849,13 +2849,13 @@ idStubField
 idOffset
 )
 ;
-Shape
+GetterSetter
 *
-shape
+gs
 =
-shapeStubField
+getterSetterStubField
 (
-shapeOffset
+getterSetterOffset
 )
 ;
 auto
@@ -2872,7 +2872,7 @@ alloc
 )
 obj
 id
-shape
+gs
 )
 ;
 add

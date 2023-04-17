@@ -3816,12 +3816,12 @@ JSContext
 cx
 JSObject
 *
-obj
+objArg
 jsid
 id
-Shape
+GetterSetter
 *
-propShape
+getterSetter
 )
 ;
 JSString

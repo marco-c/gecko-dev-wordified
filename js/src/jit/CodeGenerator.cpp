@@ -109690,7 +109690,7 @@ mir
 )
 -
 >
-shape
+getterSetter
 (
 )
 )
@@ -109713,9 +109713,9 @@ JSObject
 obj
 jsid
 id
-Shape
+GetterSetter
 *
-propShape
+getterSetter
 )
 ;
 masm
