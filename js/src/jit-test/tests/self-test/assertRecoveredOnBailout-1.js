@@ -19,6 +19,16 @@ getBuildConfiguration
 tsan
 '
 ]
+|
+|
+getBuildConfiguration
+(
+)
+[
+'
+wasi
+'
+]
 setJitCompilerOption
 (
 "
