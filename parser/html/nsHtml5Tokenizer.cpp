@@ -21687,10 +21687,7 @@ clearStrBufAfterUse
 ;
 doctypeName
 =
-nsGkAtoms
-:
-:
-_empty
+nullptr
 ;
 if
 (
@@ -22474,10 +22471,7 @@ errEofInDoctype
 ;
 doctypeName
 =
-nsGkAtoms
-:
-:
-_empty
+nullptr
 ;
 if
 (

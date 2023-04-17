@@ -33906,8 +33906,7 @@ clearStrBufAfterUse
 ;
 doctypeName
 =
-"
-"
+null
 ;
 if
 (
@@ -35538,8 +35537,7 @@ on
 /
 doctypeName
 =
-"
-"
+null
 ;
 if
 (
