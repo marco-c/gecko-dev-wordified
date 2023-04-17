@@ -2028,9 +2028,9 @@ ClippedImage
 :
 GetImageContainer
 (
-WindowRenderer
+LayerManager
 *
-aRenderer
+aManager
 uint32_t
 aFlags
 )
@@ -2122,7 +2122,7 @@ InnerImage
 >
 GetImageContainer
 (
-aRenderer
+aManager
 aFlags
 )
 ;
@@ -2186,9 +2186,12 @@ ClippedImage
 :
 GetImageContainerAtSize
 (
-WindowRenderer
+layers
+:
+:
+LayerManager
 *
-aRenderer
+aManager
 const
 gfx
 :
@@ -2308,7 +2311,7 @@ InnerImage
 >
 GetImageContainerAtSize
 (
-aRenderer
+aManager
 aSize
 aSVGContext
 aRegion
