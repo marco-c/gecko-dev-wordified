@@ -270,9 +270,7 @@ return
 NSAppearance
 appearanceNamed
 :
-"
 NSAppearanceNameDarkAqua
-"
 ]
 ;
 case
