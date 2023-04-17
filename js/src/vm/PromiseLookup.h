@@ -903,6 +903,9 @@ isAccessorPropertyNative
 JSContext
 *
 cx
+NativeObject
+*
+holder
 Shape
 *
 shape
