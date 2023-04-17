@@ -3713,6 +3713,23 @@ aState
 aX
 aY
 aObserver
+{
+pressure
+=
+1
+twist
+=
+0
+tiltX
+=
+0
+tiltY
+=
+0
+}
+=
+{
+}
 )
 {
 switch
@@ -3733,7 +3750,7 @@ aId
 aState
 aX
 aY
-1
+pressure
 90
 aObserver
 )
@@ -3753,10 +3770,10 @@ aId
 aState
 aX
 aY
-1
-0
-0
-0
+pressure
+twist
+tiltX
+tiltY
 aObserver
 )
 ;
@@ -4027,6 +4044,7 @@ aPointerIds
 [
 0
 ]
+options
 )
 {
 /
@@ -4629,6 +4647,7 @@ j
 .
 y
 observer
+options
 )
 ;
 currentPositions
@@ -4674,6 +4693,7 @@ j
 .
 y
 null
+options
 )
 ;
 currentPositions
@@ -4738,6 +4758,7 @@ null
 aPointerId
 =
 0
+options
 )
 {
 var
@@ -4871,6 +4892,7 @@ aObserver
 [
 aPointerId
 ]
+options
 )
 ;
 }
@@ -4963,6 +4985,7 @@ aDeltaY
 aPointerId
 =
 0
+options
 )
 {
 return
@@ -4988,6 +5011,7 @@ aDeltaX
 aDeltaY
 resolve
 aPointerId
+options
 )
 ;
 }
