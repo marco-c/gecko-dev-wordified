@@ -2879,11 +2879,12 @@ MakeScopeExit
 &
 ]
 {
-bridge
--
->
-SendBeginDestroy
+BrowserBridgeChild
+:
+:
+Send__delete__
 (
+bridge
 )
 ;
 }
