@@ -457,11 +457,12 @@ recording_file
         
 add_option
 (
+            
 env
 "
 browsertime
 .
-url
+test_url
 "
 test_site
 .
@@ -474,6 +475,25 @@ test_url
 overwrite
 =
 True
+        
+)
+        
+add_option
+(
+env
+"
+browsertime
+.
+secondary_url
+"
+test_site
+.
+get
+(
+"
+secondary_url
+"
+)
 )
         
 add_option
