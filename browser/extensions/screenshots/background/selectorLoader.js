@@ -59,6 +59,7 @@ MPL
 /
 *
 globals
+browser
 catcher
 communication
 log
@@ -512,9 +513,7 @@ scripts
 .
 forEach
 (
-(
 file
-)
 =
 >
 {
@@ -549,9 +548,7 @@ document_start
 .
 catch
 (
-(
 error
-)
 =
 >
 {
@@ -617,9 +614,7 @@ join
 )
 ;
 }
-(
 error
-)
 =
 >
 {
@@ -676,9 +671,7 @@ allScripts
 .
 map
 (
-(
 filename
-)
 =
 >
 filename
