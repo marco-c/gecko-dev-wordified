@@ -25811,9 +25811,9 @@ public
 MOZ_CAN_RUN_SCRIPT
 AutoEditorCommandTarget
 (
-nsPresContext
-*
-aPresContext
+Document
+&
+aDocument
 const
 InternalCommandData
 &
