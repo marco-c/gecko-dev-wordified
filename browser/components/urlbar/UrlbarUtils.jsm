@@ -1081,13 +1081,11 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
 /
-icons
-/
-lightbulb
+tip
 .
 svg
 "
