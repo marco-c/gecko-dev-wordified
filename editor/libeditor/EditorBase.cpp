@@ -18060,7 +18060,7 @@ nsIContent
 EditorBase
 :
 :
-GetPreviousNodeInternal
+GetPreviousContent
 (
 const
 nsINode
@@ -18102,7 +18102,7 @@ nsIContent
 EditorBase
 :
 :
-GetPreviousNodeInternal
+GetPreviousContent
 (
 const
 EditorRawDOMPoint
@@ -18140,7 +18140,7 @@ IsInTextNode
 (
 )
 "
-GetPreviousNodeInternal
+GetPreviousContent
 (
 )
 doesn
@@ -18262,7 +18262,7 @@ nullptr
 ;
 }
 return
-GetPreviousNodeInternal
+GetPreviousContent
 (
 *
 aPoint
@@ -18295,7 +18295,7 @@ GetChild
 )
 {
 return
-GetPreviousNodeInternal
+GetPreviousContent
 (
 *
 aPoint
@@ -18456,7 +18456,7 @@ we
 just
 found
 return
-GetPreviousNodeInternal
+GetPreviousContent
 (
 *
 lastLeafContent
@@ -18469,7 +18469,7 @@ nsIContent
 EditorBase
 :
 :
-GetNextNodeInternal
+GetNextContent
 (
 const
 nsINode
@@ -18511,7 +18511,7 @@ nsIContent
 EditorBase
 :
 :
-GetNextNodeInternal
+GetNextContent
 (
 const
 EditorRawDOMPoint
@@ -18549,7 +18549,7 @@ IsInTextNode
 (
 )
 "
-GetNextNodeInternal
+GetNextContent
 (
 )
 doesn
@@ -18810,7 +18810,7 @@ we
 just
 found
 return
-GetNextNodeInternal
+GetNextContent
 (
 *
 firstLeafContent
@@ -18894,7 +18894,7 @@ nullptr
 ;
 }
 return
-GetNextNodeInternal
+GetNextContent
 (
 *
 point
