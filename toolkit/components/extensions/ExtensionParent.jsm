@@ -10671,12 +10671,12 @@ e
 {
 if
 (
-typeof
-e
 !
-=
-=
+(
+e
+instanceof
 DOMException
+)
 |
 |
 e
