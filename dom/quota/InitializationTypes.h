@@ -436,7 +436,7 @@ aInitialization
 ;
 }
 void
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 const
 Initialization

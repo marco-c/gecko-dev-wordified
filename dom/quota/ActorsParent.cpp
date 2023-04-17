@@ -23269,7 +23269,7 @@ type
 ;
 mInitializationInfo
 .
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 type
 =
@@ -27378,7 +27378,7 @@ NS_OK
 ;
 mInitializationInfo
 .
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 Initialization
 :
@@ -27722,7 +27722,7 @@ NS_OK
 ;
 mInitializationInfo
 .
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 Initialization
 :
@@ -27961,7 +27961,7 @@ NS_OK
 ;
 mInitializationInfo
 .
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 Initialization
 :
@@ -28615,7 +28615,7 @@ NS_OK
 ;
 mInitializationInfo
 .
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 Initialization
 :
@@ -28720,7 +28720,7 @@ NS_OK
 ;
 mInitializationInfo
 .
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 Initialization
 :
@@ -28826,7 +28826,7 @@ NS_OK
 ;
 mInitializationInfo
 .
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 Initialization
 :
@@ -28990,7 +28990,7 @@ NS_OK
 ;
 mInitializationInfo
 .
-RecordFirstInitializationAttempt
+MaybeRecordFirstInitializationAttempt
 (
 Initialization
 :
