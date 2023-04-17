@@ -6996,6 +6996,15 @@ Shape
 *
 >
 ;
+using
+CompilerGetterSetter
+=
+CompilerGCPointer
+<
+GetterSetter
+*
+>
+;
 /
 /
 An

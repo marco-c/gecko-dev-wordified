@@ -616,6 +616,20 @@ writeShapeField
 )
     
 "
+GetterSetterField
+"
+:
+(
+"
+GetterSetter
+*
+"
+"
+writeGetterSetterField
+"
+)
+    
+"
 ObjectField
 "
 :
@@ -1696,6 +1710,26 @@ stubOffset
 )
     
 "
+GetterSetterField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
 ObjectField
 "
 :
@@ -2662,6 +2696,14 @@ spewRawOperandId
     
 "
 ShapeField
+"
+:
+"
+spewField
+"
+    
+"
+GetterSetterField
 "
 :
 "
@@ -3708,6 +3750,12 @@ RawId
     
 "
 ShapeField
+"
+:
+1
+    
+"
+GetterSetterField
 "
 :
 1
