@@ -2990,7 +2990,7 @@ if
 StaticPrefs
 :
 :
-gfx_webrender_debug_blob_paint_flashing
+gfx_webrender_blob_paint_flashing
 (
 )
 )
