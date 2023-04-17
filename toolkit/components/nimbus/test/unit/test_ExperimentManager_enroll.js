@@ -765,8 +765,9 @@ slug
 "
 treatment
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -781,6 +782,7 @@ value
 {
 }
 }
+]
 }
 ;
 const
@@ -792,8 +794,9 @@ slug
 "
 treatment
 "
-feature
+features
 :
+[
 {
 featureId
 :
@@ -808,6 +811,7 @@ value
 {
 }
 }
+]
 }
 ;
 /
@@ -1389,8 +1393,9 @@ slug
 ratio
 :
 1
-feature
+features
 :
+[
 {
 value
 :
@@ -1404,6 +1409,7 @@ featureId
 aboutwelcome
 "
 }
+]
 }
 )
 )
@@ -1710,8 +1716,9 @@ treatment
 ratio
 :
 1
-feature
+features
 :
+[
 {
 featureId
 :
@@ -1728,6 +1735,7 @@ value
 {
 }
 }
+]
 }
 ]
 }
@@ -1756,8 +1764,9 @@ treatment
 ratio
 :
 1
-feature
+features
 :
+[
 {
 featureId
 :
@@ -1774,6 +1783,7 @@ value
 {
 }
 }
+]
 }
 ]
 }
@@ -1985,8 +1995,9 @@ control
 ratio
 :
 1
-feature
+features
 :
+[
 {
 featureId
 :
@@ -2003,6 +2014,7 @@ link
 "
 }
 }
+]
 }
 ]
 }
@@ -2120,8 +2132,9 @@ control
 ratio
 :
 1
-feature
+features
 :
+[
 {
 featureId
 :
@@ -2138,6 +2151,7 @@ bar
 "
 }
 }
+]
 }
 }
 )
