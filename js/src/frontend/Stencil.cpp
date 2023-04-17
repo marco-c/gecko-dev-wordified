@@ -480,6 +480,7 @@ h
 /
 /
 JSObject
+TenuredObject
 #
 include
 "
@@ -508,18 +509,6 @@ h
 /
 BaseScript
 JSScript
-#
-include
-"
-vm
-/
-ObjectGroup
-.
-h
-"
-/
-/
-TenuredObject
 #
 include
 "
