@@ -98,7 +98,7 @@ newWindow
 await
 BrowserTestUtils
 .
-openNewWindowWithFlushedXULCacheForMozSupports
+openNewWindowWithFlushedCacheForMozSupports
 (
 )
 ;
@@ -231,7 +231,7 @@ newWindow
 await
 BrowserTestUtils
 .
-openNewWindowWithFlushedXULCacheForMozSupports
+openNewWindowWithFlushedCacheForMozSupports
 (
 )
 ;

@@ -47,7 +47,7 @@ newWin
 await
 BrowserTestUtils
 .
-openNewWindowWithFlushedXULCacheForMozSupports
+openNewBrowserWindow
 (
 )
 ;
