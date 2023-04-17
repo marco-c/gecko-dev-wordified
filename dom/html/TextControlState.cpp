@@ -17664,7 +17664,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 ReplaceTextAsAction
