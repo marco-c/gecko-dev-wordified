@@ -2122,7 +2122,7 @@ isTargetSwitching
 We
 put
 the
-resourceWatcher
+resourceCommand
 on
 the
 targetFront
@@ -2157,7 +2157,7 @@ we
 /
 turn
 the
-resourceWatcher
+resourceCommand
 into
 a
 Command
@@ -2174,7 +2174,7 @@ anywhere
 else
 targetFront
 .
-resourceWatcher
+resourceCommand
 =
 this
 ;
@@ -3040,7 +3040,7 @@ before
 /
 the
 resource
-watcher
+command
 started
 watching
 for

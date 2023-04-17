@@ -1053,7 +1053,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -1062,7 +1062,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -1088,7 +1088,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -1097,7 +1097,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -1783,7 +1783,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 getAllResources
 (
@@ -1791,7 +1791,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -2087,7 +2087,7 @@ is
 received
 from
 resource
-watcher
+command
 .
 *
 return
@@ -2611,7 +2611,7 @@ is
 received
 from
 resource
-watcher
+command
 .
 *
 return
@@ -7283,7 +7283,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -7643,7 +7643,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -7845,7 +7845,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -7854,7 +7854,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -7863,7 +7863,7 @@ this
 .
 _toolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

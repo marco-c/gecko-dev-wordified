@@ -194,7 +194,7 @@ FISSION_TEST_URL
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -367,7 +367,7 @@ is
 resource
 .
 resourceType
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -461,12 +461,12 @@ runtimeDoneResolve
 }
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -649,7 +649,7 @@ FISSION_TEST_URL
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -692,12 +692,12 @@ availableResources
 ]
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

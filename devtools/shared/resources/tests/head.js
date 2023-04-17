@@ -226,11 +226,12 @@ startListening
 ;
 /
 /
-TODO
+Bug
+1709065
 :
 Stop
 exporting
-resourceWatcher
+resourceCommand
 and
 use
 commands
@@ -251,7 +252,7 @@ commands
 .
 client
 commands
-resourceWatcher
+resourceCommand
 :
 commands
 .
@@ -317,7 +318,7 @@ ResourceCommand
 }
 object
 .
-resourceWatcher
+resourceCommand
 *
 The
 underlying
@@ -435,7 +436,7 @@ ResourceCommand
 }
 object
 .
-resourceWatcher
+resourceCommand
 *
 The
 underlying

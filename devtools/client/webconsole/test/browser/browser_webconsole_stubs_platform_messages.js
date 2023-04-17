@@ -344,7 +344,7 @@ startListening
 )
 ;
 const
-resourceWatcher
+resourceCommand
 =
 commands
 .
@@ -424,12 +424,12 @@ resource
 }
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

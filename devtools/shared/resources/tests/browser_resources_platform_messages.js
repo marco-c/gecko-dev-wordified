@@ -131,7 +131,7 @@ testPlatformMessagesResources
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -434,12 +434,12 @@ done
 }
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -560,7 +560,7 @@ testPlatformMessagesResourcesWithIgnoreExistingResources
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -635,12 +635,12 @@ availableResources
 ]
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

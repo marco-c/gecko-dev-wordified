@@ -130,7 +130,7 @@ FISSION_TEST_URL
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -345,12 +345,12 @@ resource
 }
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

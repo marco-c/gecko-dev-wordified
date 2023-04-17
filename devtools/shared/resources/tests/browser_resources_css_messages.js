@@ -269,7 +269,7 @@ TEST_URI
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -299,12 +299,12 @@ false
 )
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -761,7 +761,7 @@ messages
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -790,12 +790,12 @@ true
 )
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

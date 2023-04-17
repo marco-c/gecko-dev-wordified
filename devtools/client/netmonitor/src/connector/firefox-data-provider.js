@@ -249,7 +249,7 @@ param
 {
 Object
 }
-resourceWatcher
+resourceCommand
 enables
 checking
 for
@@ -263,7 +263,7 @@ constructor
 webConsoleFront
 actions
 owner
-resourceWatcher
+resourceCommand
 }
 )
 {
@@ -300,9 +300,9 @@ owner
 ;
 this
 .
-resourceWatcher
+resourceCommand
 =
-resourceWatcher
+resourceCommand
 ;
 /
 /
@@ -3100,13 +3100,13 @@ getStackTrace
 &
 this
 .
-resourceWatcher
+resourceCommand
 .
 hasResourceCommandSupport
 (
 this
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

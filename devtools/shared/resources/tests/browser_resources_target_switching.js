@@ -97,7 +97,7 @@ TEST_URI
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -113,7 +113,7 @@ CONSOLE_MESSAGE
 SOURCE
 }
 =
-resourceWatcher
+resourceCommand
 .
 TYPES
 ;
@@ -133,7 +133,7 @@ initial
 ;
 is
 (
-resourceWatcher
+resourceCommand
 .
 getAllResources
 (
@@ -255,7 +255,7 @@ r
 }
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -321,7 +321,7 @@ listener
 otherwise
 the
 resource
-watcher
+command
 stop
 watching
 for
@@ -337,7 +337,7 @@ onSourceAvailable
 }
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -371,7 +371,7 @@ messages
 "
 )
 ;
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -543,7 +543,7 @@ notified
 ;
 is
 (
-resourceWatcher
+resourceCommand
 .
 getAllResources
 (
@@ -570,7 +570,7 @@ any
 "
 )
 ;
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (

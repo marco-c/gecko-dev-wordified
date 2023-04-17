@@ -549,7 +549,7 @@ NOTE
 :
 the
 resource
-watcher
+command
 needs
 this
 attribute

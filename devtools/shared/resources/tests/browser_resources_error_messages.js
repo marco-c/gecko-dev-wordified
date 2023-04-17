@@ -236,7 +236,7 @@ TEST_URI
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -531,12 +531,12 @@ done
 }
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -682,7 +682,7 @@ TEST_URI
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -722,12 +722,12 @@ availableResources
 ]
 ;
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

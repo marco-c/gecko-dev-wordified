@@ -106,7 +106,7 @@ TEST_URI
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -122,7 +122,7 @@ CONSOLE_MESSAGE
 ROOT_NODE
 }
 =
-resourceWatcher
+resourceCommand
 .
 TYPES
 ;
@@ -205,7 +205,7 @@ messages1
 const
 onWatcher1Ready
 =
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -219,7 +219,7 @@ onAvailable1
 }
 )
 ;
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -289,7 +289,7 @@ messages2
 const
 onWatcher2Ready
 =
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -304,7 +304,7 @@ onAvailable2
 }
 )
 ;
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -364,7 +364,7 @@ messages3
 const
 onWatcher3Ready
 =
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -672,7 +672,7 @@ text
 /
 All
 resource
-watcher
+command
 callbacks
 share
 the

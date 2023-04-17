@@ -77,7 +77,7 @@ Test
 const
 {
 client
-resourceWatcher
+resourceCommand
 targetCommand
 }
 =
@@ -122,12 +122,12 @@ op
 function
 .
 await
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
