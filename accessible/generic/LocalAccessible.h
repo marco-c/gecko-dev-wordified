@@ -5522,6 +5522,7 @@ after
 .
 *
 /
+virtual
 bool
 AttributeChangesState
 (
