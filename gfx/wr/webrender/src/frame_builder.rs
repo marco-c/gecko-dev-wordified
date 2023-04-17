@@ -3993,9 +3993,6 @@ tile_cache
 device_clip_rect
 ctx
 .
-global_device_pixel_scale
-ctx
-.
 resource_cache
 gpu_cache
 deferred_resolves
