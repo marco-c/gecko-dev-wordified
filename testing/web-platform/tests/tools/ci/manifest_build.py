@@ -1475,6 +1475,10 @@ code
 main
 (
 )
+#
+type
+:
+ignore
     
 assert
 isinstance

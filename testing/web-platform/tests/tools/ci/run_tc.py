@@ -404,6 +404,10 @@ wpt
 utils
 import
 get_download_to_descriptor
+#
+type
+:
+ignore
 root
 =
 os
@@ -3928,3 +3932,7 @@ __main__
 main
 (
 )
+#
+type
+:
+ignore
