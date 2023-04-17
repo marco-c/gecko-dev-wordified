@@ -303,6 +303,12 @@ Shutdown
 (
 )
 ;
+static
+void
+ClearCache
+(
+)
+;
 [
 [
 nodiscard
