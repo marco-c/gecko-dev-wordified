@@ -328,6 +328,7 @@ in
 the
 store
 .
+await
 FormAutofillStatus
 .
 updateSavedFieldNames
@@ -490,6 +491,7 @@ timesUsed
 }
 ]
 ;
+await
 FormAutofillStatus
 .
 updateSavedFieldNames
