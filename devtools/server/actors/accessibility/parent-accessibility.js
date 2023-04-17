@@ -959,7 +959,7 @@ disabling
 *
 *
 Destroy
-thie
+the
 helper
 class
 remove
@@ -983,6 +983,12 @@ destroy
 (
 )
 {
+this
+.
+disable
+(
+)
+;
 Actor
 .
 prototype
@@ -1019,12 +1025,6 @@ removeObserver
 PREF_ACCESSIBILITY_FORCE_DISABLED
 this
 )
-;
-this
-.
-accService
-=
-null
 ;
 }
 }
