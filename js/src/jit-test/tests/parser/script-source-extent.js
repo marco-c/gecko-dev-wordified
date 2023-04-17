@@ -5,15 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-class
--
-static
--
-blocks
 /
 /
 Test

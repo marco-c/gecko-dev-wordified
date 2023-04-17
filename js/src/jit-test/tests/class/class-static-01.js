@@ -5,16 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-class
--
-static
--
-blocks
-;
 load
 (
 libdir
