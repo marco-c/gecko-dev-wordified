@@ -674,7 +674,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 aDpiRatio
 )
@@ -735,7 +737,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 aDpiRatio
 )
@@ -902,7 +906,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 aDpiRatio
 )
@@ -958,7 +964,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 aDpiRatio
 )
@@ -1120,7 +1128,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 aDpiRatio
 )
@@ -1173,7 +1183,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 aDpiRatio
 )

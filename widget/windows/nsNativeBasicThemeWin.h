@@ -123,9 +123,7 @@ GetWidgetTransparency
 (
 nsIFrame
 *
-aFrame
 StyleAppearance
-aAppearance
 )
 override
 ;

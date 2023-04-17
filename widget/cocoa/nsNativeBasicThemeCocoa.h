@@ -240,7 +240,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 )
 override
@@ -271,7 +273,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 )
 override
@@ -329,7 +333,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 )
 override
@@ -356,7 +362,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 )
 override
@@ -387,7 +395,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 )
 override
@@ -435,7 +445,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 )
 override
@@ -506,7 +518,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 aDpiRatio
 )
@@ -532,7 +546,9 @@ const
 EventStates
 &
 aDocumentState
-UseSystemColors
+const
+Colors
+&
 DPIRatio
 aDpiRatio
 )
