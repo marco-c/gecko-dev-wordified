@@ -4915,6 +4915,7 @@ false
 Whether
 Firefox
 Suggest
+group
 labels
 are
 shown
@@ -4930,13 +4931,11 @@ browser
 .
 urlbar
 .
-experimental
-.
-firefoxSuggestLabels
+groupLabels
 .
 enabled
 "
-false
+true
 )
 ;
 pref
