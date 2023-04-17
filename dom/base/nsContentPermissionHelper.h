@@ -712,6 +712,7 @@ PromptResult
 CheckPromptPrefs
 (
 )
+const
 ;
 /
 /
@@ -801,9 +802,11 @@ PermissionDelegateHandler
 >
 mPermissionHandler
 ;
+const
 nsCString
 mPrefName
 ;
+const
 nsCString
 mType
 ;
