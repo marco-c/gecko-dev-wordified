@@ -635,13 +635,6 @@ UseDMABuf
 bool
 false
 )
-\
-_
-(
-WebRenderRequiresHardwareDriver
-bool
-false
-)
 /
 *
 Add
