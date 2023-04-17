@@ -15539,7 +15539,7 @@ False
         
 self
 .
-treatNullAsEmpty
+legacyNullToEmptyString
 =
 False
         
@@ -15614,7 +15614,7 @@ hash
 (
 self
 .
-treatNullAsEmpty
+legacyNullToEmptyString
 )
             
 +
@@ -15687,12 +15687,12 @@ hasEnforceRange
 and
 self
 .
-treatNullAsEmpty
+legacyNullToEmptyString
 =
 =
 other
 .
-treatNullAsEmpty
+legacyNullToEmptyString
             
 and
 self
@@ -17800,7 +17800,7 @@ self
 .
 inner
 .
-treatNullAsEmpty
+legacyNullToEmptyString
 :
                 
 raise
@@ -17809,7 +17809,7 @@ WebIDLError
                     
 "
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 not
 allowed
@@ -23038,7 +23038,7 @@ enforceRange
 =
 False
         
-treatNullAsEmpty
+legacyNullToEmptyString
 =
 False
         
@@ -23065,7 +23065,7 @@ clamp
 /
 enforceRange
 /
-treatNullAsEmpty
+legacyNullToEmptyString
 /
 allowShared
 arguments
@@ -23095,7 +23095,7 @@ rangeEnforced
 (
 )
 .
-withTreatNullAs
+withLegacyNullToEmptyString
 (
 )
 and
@@ -23159,7 +23159,7 @@ None
         
 self
 .
-_withTreatNullAs
+_withLegacyNullToEmptyString
 =
 None
         
@@ -23287,12 +23287,12 @@ isUTF8String
 :
             
 if
-treatNullAsEmpty
+legacyNullToEmptyString
 :
                 
 self
 .
-treatNullAsEmpty
+legacyNullToEmptyString
 =
 True
                 
@@ -23313,23 +23313,20 @@ self
 _extendedAttrDict
 [
 "
-TreatNullAs
+LegacyNullToEmptyString
 "
 ]
 =
-[
-"
-EmptyString
-"
-]
+True
         
 elif
-treatNullAsEmpty
+legacyNullToEmptyString
 :
             
 raise
 WebIDLError
 (
+                
 "
 Non
 -
@@ -23338,10 +23335,11 @@ types
 cannot
 be
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 "
 attrLocation
+            
 )
         
 if
@@ -23556,7 +23554,7 @@ self
 _rangeEnforced
     
 def
-withTreatNullAs
+withLegacyNullToEmptyString
 (
 self
 attrLocation
@@ -23567,12 +23565,12 @@ if
 not
 self
 .
-_withTreatNullAs
+_withLegacyNullToEmptyString
 :
             
 self
 .
-_withTreatNullAs
+_withLegacyNullToEmptyString
 =
 IDLBuiltinType
 (
@@ -23589,7 +23587,7 @@ self
 .
 _typeTag
                 
-treatNullAsEmpty
+legacyNullToEmptyString
 =
 True
                 
@@ -23602,7 +23600,7 @@ attrLocation
 return
 self
 .
-_withTreatNullAs
+_withLegacyNullToEmptyString
     
 def
 withAllowShared
@@ -25060,7 +25058,7 @@ identifier
 =
 =
 "
-TreatNullAs
+LegacyNullToEmptyString
 "
 :
                 
@@ -25087,7 +25085,7 @@ WebIDLError
                         
 "
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 only
 allowed
@@ -25117,7 +25115,6 @@ nullable
 )
                 
 if
-not
 attribute
 .
 hasValue
@@ -25131,66 +25128,14 @@ WebIDLError
                         
 "
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 must
 take
-an
+no
 identifier
 argument
 "
-                        
-[
-attribute
-.
-location
-]
-                    
-)
-                
-value
-=
-attribute
-.
-value
-(
-)
-                
-if
-value
-!
-=
-"
-EmptyString
-"
-:
-                    
-raise
-WebIDLError
-(
-                        
-"
-[
-TreatNullAs
-]
-must
-take
-the
-identifier
-"
-                        
-"
-'
-EmptyString
-'
-not
-'
-%
-s
-'
-"
-%
-value
                         
 [
 attribute
@@ -25204,8 +25149,9 @@ ret
 =
 self
 .
-withTreatNullAs
+withLegacyNullToEmptyString
 (
+                    
 [
 self
 .
@@ -25214,6 +25160,7 @@ attribute
 .
 location
 ]
+                
 )
             
 elif
@@ -27628,11 +27575,11 @@ isDOMString
 and
 type
 .
-treatNullAsEmpty
+legacyNullToEmptyString
 :
             
 #
-TreatNullAsEmpty
+LegacyNullToEmptyString
 is
 a
 different
@@ -32985,7 +32932,7 @@ self
 .
 type
 .
-treatNullAsEmpty
+legacyNullToEmptyString
         
 )
 :
@@ -36941,7 +36888,7 @@ identifier
 =
 =
 "
-TreatNullAs
+LegacyNullToEmptyString
 "
                 
 or
@@ -37335,7 +37282,7 @@ self
 .
 type
 .
-treatNullAsEmpty
+legacyNullToEmptyString
 :
             
 raise
@@ -37348,9 +37295,10 @@ members
 cannot
 be
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 "
+                
 [
 self
 .

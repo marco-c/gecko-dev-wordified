@@ -409,9 +409,7 @@ void
 setParameter
 (
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 namespaceURI
@@ -478,9 +476,7 @@ nsIVariant
 getParameter
 (
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 namespaceURI
@@ -547,9 +543,7 @@ void
 removeParameter
 (
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 namespaceURI

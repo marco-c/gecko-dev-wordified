@@ -938,9 +938,7 @@ A
 {
               
 [
-TreatNullAs
-=
-EmptyString
+LegacyNullToEmptyString
 ]
 DOMString
 foo
@@ -974,18 +972,20 @@ harness
 .
 ok
 (
+        
 threw
 "
 Should
 not
 allow
 [
-TreatNullAs
+LegacyNullToEmptyString
 ]
 on
 dictionary
 members
 "
+    
 )
     
 parser

@@ -48636,7 +48636,7 @@ eStringify
 if
 type
 .
-treatNullAsEmpty
+legacyNullToEmptyString
 :
                 
 treatNullAs
