@@ -245,6 +245,13 @@ override
 ;
 virtual
 void
+Unmap
+(
+)
+override
+;
+virtual
+void
 CloseHandle
 (
 )
@@ -353,11 +360,6 @@ private
 :
 ~
 SharedMemoryBasic
-(
-)
-;
-void
-Unmap
 (
 )
 ;
