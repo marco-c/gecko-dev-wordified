@@ -2984,9 +2984,7 @@ origin
 :
 window
 .
-location
-.
-href
+origin
 name
 :
 contextName

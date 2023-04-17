@@ -514,7 +514,7 @@ is
 createdTopContext
 .
 origin
-FRAMESET_SINGLE_URL
+BASE_ORIGIN
 "
 The
 execution
@@ -559,7 +559,7 @@ is
 createdFrameContext
 .
 origin
-PAGE_FRAME_URL
+BASE_ORIGIN
 "
 The
 frame
@@ -764,7 +764,7 @@ is
 contextCreated
 .
 origin
-PAGE_FRAME_URL
+BASE_ORIGIN
 "
 The
 execution
@@ -837,16 +837,7 @@ executionContextCreated
 await
 loadURL
 (
-toDataURL
-(
-"
-other
--
-test
--
-page
-"
-)
+PAGE_URL
 )
 ;
 const

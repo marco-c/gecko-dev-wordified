@@ -754,10 +754,7 @@ auxData
 type
 }
 +
-\
-n
-\
-turl
+(
 {
 payload
 .
@@ -765,6 +762,7 @@ context
 .
 origin
 }
+)
 )
 ;
 if

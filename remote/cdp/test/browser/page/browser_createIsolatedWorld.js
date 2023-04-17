@@ -879,7 +879,7 @@ is
 defaultContext
 .
 origin
-PAGE_URL
+BASE_ORIGIN
 "
 Default
 context
