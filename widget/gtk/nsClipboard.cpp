@@ -5293,7 +5293,6 @@ return
 true
 ;
 }
-else
 if
 (
 charset
@@ -5314,8 +5313,6 @@ return
 false
 ;
 }
-else
-{
 /
 /
 app
@@ -5660,7 +5657,6 @@ true
 if
 valid
 length
-}
 return
 false
 ;
