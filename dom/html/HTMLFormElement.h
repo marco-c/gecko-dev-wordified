@@ -1370,7 +1370,7 @@ Check
 whether
 a
 given
-nsIFormControl
+nsGenericHTMLFormElement
 is
 the
 default
@@ -1407,7 +1407,7 @@ up
 to
 date
 .
-aControl
+aElement
 *
 is
 expected
@@ -1422,9 +1422,9 @@ bool
 IsDefaultSubmitElement
 (
 const
-nsIFormControl
+nsGenericHTMLFormElement
 *
-aControl
+aElement
 )
 const
 ;
