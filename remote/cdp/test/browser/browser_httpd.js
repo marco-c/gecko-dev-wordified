@@ -218,6 +218,8 @@ json
 webSocketDebuggerUrl
 RemoteAgent
 .
+cdp
+.
 targetList
 .
 getMainProcessTarget

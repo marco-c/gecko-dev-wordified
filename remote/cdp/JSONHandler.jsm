@@ -208,14 +208,14 @@ JSONHandler
 {
 constructor
 (
-agent
+cdp
 )
 {
 this
 .
-agent
+cdp
 =
-agent
+cdp
 ;
 this
 .
@@ -279,7 +279,7 @@ mainProcessTarget
 =
 this
 .
-agent
+cdp
 .
 targetList
 .
@@ -410,7 +410,7 @@ return
 .
 this
 .
-agent
+cdp
 .
 targetList
 ]

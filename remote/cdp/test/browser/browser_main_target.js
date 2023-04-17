@@ -58,6 +58,8 @@ mainProcessTarget
 =
 RemoteAgent
 .
+cdp
+.
 targetList
 ;
 ok
