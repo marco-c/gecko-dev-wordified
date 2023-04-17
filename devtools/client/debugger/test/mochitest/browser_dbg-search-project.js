@@ -61,6 +61,7 @@ MPL
 /
 /
 Testing
+basic
 project
 search
 add_task
@@ -220,6 +221,18 @@ switching
 }
 )
 ;
+/
+/
+Test
+expanding
+search
+matches
+to
+reveal
+the
+search
+results
+.
 add_task
 (
 async
@@ -461,7 +474,7 @@ findAllElements
 (
 dbg
 "
-projectSerchExpandedResults
+projectSearchExpandedResults
 "
 )
 .
