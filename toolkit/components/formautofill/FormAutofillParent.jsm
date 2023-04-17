@@ -1187,6 +1187,7 @@ onCloseWindow
 )
 {
 }
+async
 observe
 (
 subject
@@ -1336,6 +1337,7 @@ notifyUsed
 break
 ;
 }
+await
 this
 .
 updateSavedFieldNames
