@@ -3636,9 +3636,8 @@ LINEAR_FILTER_DOWNSCALE
 {
 inside
 =
-min
+clamp
 (
-inside
 int
 (
 insideDist
@@ -3658,6 +3657,8 @@ swgl_StepSize
 -
 1
 )
+0
+inside
 )
 ;
 blendTextureLinearDownscale
@@ -3686,9 +3687,8 @@ LINEAR_FILTER_UPSCALE
 {
 inside
 =
-min
+clamp
 (
-inside
 int
 (
 insideDist
@@ -3699,6 +3699,8 @@ x
 )
 *
 swgl_StepSize
+0
+inside
 )
 ;
 blendTextureLinearUpscale
@@ -3721,9 +3723,8 @@ else
 {
 inside
 =
-min
+clamp
 (
-inside
 int
 (
 insideDist
@@ -3743,6 +3744,8 @@ swgl_StepSize
 -
 1
 )
+0
+inside
 )
 ;
 blendTextureLinearFast
