@@ -468,6 +468,17 @@ h
 #
 include
 "
+gc
+/
+ObjectKind
+-
+inl
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler
