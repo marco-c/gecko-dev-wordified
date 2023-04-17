@@ -528,13 +528,6 @@ h
 #
 include
 "
-nsMediaFeatures
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h
@@ -2261,13 +2254,6 @@ FlushUserFontSet
 )
 ;
 ResolveMappedAttrDeclarationBlocks
-(
-)
-;
-nsMediaFeatures
-:
-:
-InitSystemMetrics
 (
 )
 ;

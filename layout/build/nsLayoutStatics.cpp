@@ -396,13 +396,6 @@ h
 #
 include
 "
-nsMediaFeatures
-.
-h
-"
-#
-include
-"
 nsCORSListenerProxy
 .
 h
@@ -1957,13 +1950,6 @@ Shutdown
 )
 ;
 HTMLEditorController
-:
-:
-Shutdown
-(
-)
-;
-nsMediaFeatures
 :
 :
 Shutdown

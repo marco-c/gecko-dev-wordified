@@ -421,11 +421,6 @@ nsICSSLoaderObserver
 h
 "
 "
-nsMediaFeatures
-.
-h
-"
-"
 nsStyleAutoArray
 .
 h
