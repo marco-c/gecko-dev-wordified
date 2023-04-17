@@ -1341,7 +1341,7 @@ info
 (
 )
 .
-hasFunMaybeLazy
+funMaybeLazy
 (
 )
 )
@@ -3103,7 +3103,7 @@ info
 (
 )
 .
-hasFunMaybeLazy
+funMaybeLazy
 (
 )
 )
@@ -12293,7 +12293,7 @@ info
 (
 )
 .
-hasFunMaybeLazy
+funMaybeLazy
 (
 )
 )
@@ -17407,7 +17407,7 @@ info
 (
 )
 .
-hasFunMaybeLazy
+funMaybeLazy
 (
 )
 )
