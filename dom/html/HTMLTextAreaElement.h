@@ -403,11 +403,6 @@ SetLastValueChangeWasInteractive
 bool
 )
 ;
-void
-ValueChangedOrLastValueChangeWasInteractiveChanged
-(
-)
-;
 /
 /
 TextControlElement
