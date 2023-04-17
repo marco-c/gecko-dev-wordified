@@ -3455,9 +3455,6 @@ not
 passing
 any
 timestamp
-shouldBeIgnoredAsRedundantWithTargetAvailable
-:
-false
 isFrameSwitching
 newURI
 :

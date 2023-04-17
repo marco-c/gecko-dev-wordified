@@ -200,18 +200,6 @@ time
 /
 /
 This
-is
-only
-passed
-for
-dom
--
-loading
-event
-shouldBeIgnoredAsRedundantWithTargetAvailable
-/
-/
-This
 will
 be
 true
@@ -356,7 +344,6 @@ resourceType
 DOCUMENT_EVENT
 name
 time
-shouldBeIgnoredAsRedundantWithTargetAvailable
 isFrameSwitching
 /
 /
