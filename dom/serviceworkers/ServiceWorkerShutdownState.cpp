@@ -817,13 +817,6 @@ aShutdownCompleted
 {
 if
 (
-!
-ServiceWorkerParentInterceptEnabled
-(
-)
-|
-|
-(
 XRE_IsParentProcess
 (
 )
@@ -832,7 +825,6 @@ XRE_IsParentProcess
 !
 XRE_IsE10sParentProcess
 (
-)
 )
 )
 {

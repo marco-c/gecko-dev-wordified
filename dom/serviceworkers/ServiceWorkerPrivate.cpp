@@ -794,13 +794,6 @@ MOZ_ASSERT
 mIdleWorkerTimer
 )
 ;
-if
-(
-ServiceWorkerParentInterceptEnabled
-(
-)
-)
-{
 RefPtr
 <
 ServiceWorkerPrivateImpl
@@ -871,7 +864,6 @@ move
 inner
 )
 ;
-}
 }
 ServiceWorkerPrivate
 :
