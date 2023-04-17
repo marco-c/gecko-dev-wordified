@@ -2334,6 +2334,13 @@ IsToplevelWindowTransparent
 (
 )
 ;
+static
+nsWindow
+*
+GetFocusedWindow
+(
+)
+;
 #
 ifdef
 MOZ_WAYLAND
@@ -2355,13 +2362,6 @@ const
 LayoutDeviceIntSize
 &
 aEGLWindowSize
-)
-;
-static
-nsWindow
-*
-GetFocusedWindow
-(
 )
 ;
 void
