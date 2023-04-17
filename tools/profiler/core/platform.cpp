@@ -35169,6 +35169,13 @@ aExitProfile
 {
 MOZ_RELEASE_ASSERT
 (
+NS_IsMainThread
+(
+)
+)
+;
+MOZ_RELEASE_ASSERT
+(
 CorePS
 :
 :
