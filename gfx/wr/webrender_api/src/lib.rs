@@ -354,9 +354,6 @@ pub
 mod
 units
 ;
-mod
-util
-;
 pub
 use
 crate
@@ -426,16 +423,6 @@ image
 :
 :
 *
-;
-pub
-use
-crate
-:
-:
-util
-:
-:
-ScaleOffset
 ;
 use
 crate
