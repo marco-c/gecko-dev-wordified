@@ -2946,6 +2946,8 @@ true
 }
 aDialogArgs
 )
+.
+closedPromise
 ;
 }
 /

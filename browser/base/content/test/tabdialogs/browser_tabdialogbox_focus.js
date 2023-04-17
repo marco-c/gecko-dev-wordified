@@ -532,6 +532,8 @@ testCustomFocusHandler
 true
 }
 )
+.
+closedPromise
 ;
 let
 dialogBClose
@@ -542,6 +544,8 @@ open
 (
 TEST_DIALOG_PATH
 )
+.
+closedPromise
 ;
 let
 dialogCClose
@@ -559,6 +563,8 @@ testCustomFocusHandler
 true
 }
 )
+.
+closedPromise
 ;
 let
 dialogs

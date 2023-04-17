@@ -197,6 +197,8 @@ keepOpenSameOriginNav
 true
 }
 )
+.
+closedPromise
 ;
 let
 dialogs
@@ -413,6 +415,8 @@ keepOpenSameOriginNav
 true
 }
 )
+.
+closedPromise
 ;
 let
 dialogs

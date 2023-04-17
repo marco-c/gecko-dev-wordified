@@ -1903,6 +1903,8 @@ allowFocusCheckbox
 }
 bag
 )
+.
+closedPromise
 ;
 }
 else
