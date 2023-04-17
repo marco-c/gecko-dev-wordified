@@ -2339,29 +2339,6 @@ __name__
 )
     
 def
-ensure_dump_syms_packages
-(
-self
-state_dir
-checkout_root
-)
-:
-        
-"
-"
-"
-        
-Install
-dump_syms
-.
-        
-"
-"
-"
-        
-pass
-    
-def
 ensure_fix_stacks_packages
 (
 self
@@ -4427,15 +4404,12 @@ None
 modern
 =
 {
-            
 2
 :
 MODERN_PYTHON2_VERSION
-            
 3
 :
 MODERN_PYTHON3_VERSION
-        
 }
         
 return
@@ -5168,26 +5142,20 @@ cargo_bin
         
 print
 (
-            
 template
-            
 %
 {
-                
 "
 cargo_bin
 "
 :
 cargo_bin
-                
 "
 cmd
 "
 :
 cmd
-            
 }
-        
 )
     
 def
