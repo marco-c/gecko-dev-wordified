@@ -235,7 +235,9 @@ i1
 )
 ;
 await
-invokeContentTask
+SpecialPowers
+.
+spawn
 (
 browser
 [
@@ -301,7 +303,9 @@ p1
 )
 ;
 await
-invokeContentTask
+SpecialPowers
+.
+spawn
 (
 browser
 [
