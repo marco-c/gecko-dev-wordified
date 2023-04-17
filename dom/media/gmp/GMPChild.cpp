@@ -1193,9 +1193,6 @@ void
 *
 *
 aPluginAPI
-const
-nsCString
-aKeySystem
 )
 {
 if
@@ -1217,7 +1214,6 @@ GetAPI
 aAPIName
 aHostAPI
 aPluginAPI
-aKeySystem
 )
 ;
 }

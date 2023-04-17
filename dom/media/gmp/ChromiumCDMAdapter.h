@@ -399,10 +399,6 @@ void
 *
 *
 aPluginAPI
-const
-nsCString
-&
-aKeySystem
 )
 override
 ;
