@@ -17224,7 +17224,13 @@ d
 .
 Rooted
 <
+mozilla
+:
+:
+Maybe
+<
 PropertyDescriptor
+>
 >
 desc
 (
@@ -17250,11 +17256,9 @@ false
 }
 existing
 =
-!
-!
 desc
 .
-object
+isSome
 (
 )
 ;
@@ -17282,7 +17286,8 @@ i
 if
 (
 desc
-.
+-
+>
 isAccessorDescriptor
 (
 )
@@ -17310,7 +17315,8 @@ if
 (
 !
 desc
-.
+-
+>
 writable
 (
 )
