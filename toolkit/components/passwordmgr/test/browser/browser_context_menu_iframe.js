@@ -450,14 +450,11 @@ an
 input
 "
 event
-await
-EventUtils
+popupMenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 firstLoginItem
-{
-}
 )
 ;
 let
