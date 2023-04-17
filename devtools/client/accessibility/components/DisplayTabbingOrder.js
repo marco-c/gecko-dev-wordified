@@ -206,11 +206,6 @@ propTypes
 {
 return
 {
-describedby
-:
-PropTypes
-.
-string
 dispatch
 :
 PropTypes
@@ -316,7 +311,6 @@ render
 {
 const
 {
-describedby
 tabbingOrderDisplayed
 }
 =
@@ -420,13 +414,6 @@ onChange
 this
 .
 onChange
-"
-aria
--
-describedby
-"
-:
-describedby
 }
 )
 L10N
