@@ -390,13 +390,7 @@ if
 !
 gToolbox
 .
-component
-.
-state
-.
-highlightedTools
-.
-has
+isHighlighted
 (
 "
 jsdebugger
