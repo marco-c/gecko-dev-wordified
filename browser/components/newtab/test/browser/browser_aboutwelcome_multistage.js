@@ -5028,6 +5028,11 @@ main
 .
 AW_STEP3
 "
+"
+nav
+.
+steps
+"
 ]
 )
 ;
@@ -5223,6 +5228,11 @@ section
 -
 main
 "
+"
+nav
+.
+steps
+"
 ]
 /
 /
@@ -5311,6 +5321,11 @@ tiles
 theme
 -
 container
+"
+"
+nav
+.
+steps
 "
 ]
 /

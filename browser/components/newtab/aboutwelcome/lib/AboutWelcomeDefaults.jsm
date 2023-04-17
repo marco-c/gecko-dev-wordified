@@ -969,7 +969,7 @@ Moqadam
 Metal
 drummer
 Firefox
-aficionado
+fan
 "
 }
 primary_button
