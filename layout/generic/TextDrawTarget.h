@@ -692,7 +692,13 @@ false
 ;
 SetPermitSubpixelAA
 (
-true
+!
+aItem
+-
+>
+IsSubpixelAADisabled
+(
+)
 )
 ;
 /
