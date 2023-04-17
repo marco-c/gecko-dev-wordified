@@ -876,12 +876,13 @@ new
 enough
 SDK
 .
-typedef
+using
+XInputEnable_func
+=
 void
 (
 WINAPI
 *
-XInputEnable_func
 )
 (
 BOOL
