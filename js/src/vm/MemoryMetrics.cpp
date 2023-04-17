@@ -3681,7 +3681,7 @@ if
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )

@@ -3486,7 +3486,7 @@ MOZ_ASSERT
 newShape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )
@@ -3633,7 +3633,7 @@ MOZ_ASSERT
 newShape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )

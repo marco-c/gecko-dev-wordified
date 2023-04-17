@@ -380,7 +380,7 @@ MOZ_ASSERT
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )
@@ -6433,7 +6433,7 @@ MOZ_ASSERT
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )
@@ -6663,7 +6663,7 @@ MOZ_ASSERT
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )

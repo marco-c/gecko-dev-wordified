@@ -29490,7 +29490,7 @@ if
 newShape
 -
 >
-inDictionary
+isDictionary
 (
 )
 |

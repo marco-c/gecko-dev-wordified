@@ -364,7 +364,7 @@ MOZ_ASSERT
 shape
 -
 >
-inDictionary
+isDictionary
 (
 )
 )
