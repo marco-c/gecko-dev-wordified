@@ -4562,12 +4562,6 @@ NodePrincipal
 GetReferrerInfo
 (
 )
-/
-*
-aRequestingNode
-*
-/
-nullptr
 )
 ;
 /
