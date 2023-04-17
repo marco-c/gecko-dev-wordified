@@ -735,12 +735,6 @@ Create
 .
 if
 (
-!
-ServiceWorkerParentInterceptEnabled
-(
-)
-|
-|
 XRE_IsParentProcess
 (
 )
