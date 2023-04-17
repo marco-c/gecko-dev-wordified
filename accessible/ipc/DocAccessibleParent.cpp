@@ -971,6 +971,11 @@ newProxy
 )
 -
 >
+GetMsaa
+(
+)
+-
+>
 SetID
 (
 newChild

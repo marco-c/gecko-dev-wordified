@@ -418,6 +418,16 @@ aID
 )
 ;
 }
+static
+MsaaDocAccessible
+*
+GetFrom
+(
+DocAccessible
+*
+aDoc
+)
+;
 protected
 :
 /

@@ -7313,6 +7313,11 @@ doc
 )
 -
 >
+GetMsaa
+(
+)
+-
+>
 SetID
 (
 aMsaaID
@@ -7503,6 +7508,11 @@ wrapper
 )
 ;
 wrapper
+-
+>
+GetMsaa
+(
+)
 -
 >
 SetID
@@ -7730,6 +7740,11 @@ a11y
 WrapperFor
 (
 doc
+)
+-
+>
+GetMsaa
+(
 )
 -
 >
