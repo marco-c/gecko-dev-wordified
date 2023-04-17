@@ -3114,7 +3114,7 @@ conditions
 [
 conditions
 .
-iss_firefox_or_android
+is_firefox_or_android
 ]
         
 description
