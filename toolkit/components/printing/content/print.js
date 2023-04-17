@@ -2686,7 +2686,7 @@ aBrowsingContext
 .
 print
 (
-settings
+aSettings
 )
 ;
 }
