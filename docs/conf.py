@@ -415,7 +415,7 @@ uitour
 .
 .
 /
-remote
+testing
 /
 marionette
 "
