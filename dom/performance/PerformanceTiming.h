@@ -2586,7 +2586,9 @@ dom
 PerformanceTimingData
 >
 {
-typedef
+using
+paramType
+=
 mozilla
 :
 :
@@ -2594,7 +2596,6 @@ dom
 :
 :
 PerformanceTimingData
-paramType
 ;
 static
 void
@@ -3497,12 +3498,13 @@ nsIServerTiming
 >
 >
 {
-typedef
+using
+paramType
+=
 nsCOMPtr
 <
 nsIServerTiming
 >
-paramType
 ;
 static
 void
