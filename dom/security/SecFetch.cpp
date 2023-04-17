@@ -555,12 +555,6 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_FONT_PRELOAD
 :
-case
-nsIContentPolicy
-:
-:
-TYPE_UA_FONT
-:
 return
 "
 font
