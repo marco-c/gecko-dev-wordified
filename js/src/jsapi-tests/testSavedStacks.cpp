@@ -187,6 +187,15 @@ Text
 #
 include
 "
+js
+/
+Stack
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

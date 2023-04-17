@@ -428,6 +428,15 @@ JS_GetProperty
 #
 include
 "
+js
+/
+Stack
+.
+h
+"
+#
+include
+"
 util
 /
 DiagnosticAssertions
