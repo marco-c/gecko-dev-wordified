@@ -397,6 +397,17 @@ IntrinsicState
 const
 override
 ;
+void
+SetLastValueChangeWasInteractive
+(
+bool
+)
+;
+void
+ValueChangedOrLastValueChangeWasInteractiveChanged
+(
+)
+;
 /
 /
 TextControlElement
