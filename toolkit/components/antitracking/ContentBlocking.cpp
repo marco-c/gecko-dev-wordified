@@ -8126,9 +8126,15 @@ allowed
 loadInfo
 -
 >
-GetHasStoragePermission
+GetStoragePermission
 (
 )
+!
+=
+nsILoadInfo
+:
+:
+NoStoragePermission
 ;
 if
 (
