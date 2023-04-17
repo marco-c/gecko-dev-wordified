@@ -3091,11 +3091,13 @@ env
 env
 -
 >
-validForRefFunc
-.
-getBit
-(
+funcs
+[
 index
+]
+.
+canRefFunc
+(
 )
 ;
 }
