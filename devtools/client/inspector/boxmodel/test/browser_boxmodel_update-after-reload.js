@@ -55,6 +55,9 @@ function
 (
 )
 {
+const
+tab
+=
 await
 addTab
 (
@@ -66,6 +69,13 @@ doc_boxmodel_iframe1
 html
 "
 )
+;
+const
+browser
+=
+tab
+.
+linkedBrowser
 ;
 const
 {
@@ -101,7 +111,7 @@ assertBoxModelView
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 info
@@ -153,7 +163,7 @@ assertBoxModelView
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 }
@@ -165,7 +175,7 @@ assertBoxModelView
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 await
@@ -253,7 +263,7 @@ inspector
 await
 setStyle
 (
-testActor
+browser
 "
 p
 "

@@ -157,6 +157,9 @@ function
 (
 )
 {
+const
+tab
+=
 await
 addTab
 (
@@ -178,7 +181,6 @@ const
 {
 inspector
 boxmodel
-testActor
 }
 =
 await
@@ -186,12 +188,19 @@ openLayoutView
 (
 )
 ;
+const
+browser
+=
+tab
+.
+linkedBrowser
+;
 await
 testEditing
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -199,7 +208,7 @@ testEditingAndCanceling
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -207,7 +216,7 @@ testDeleting
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 await
@@ -215,7 +224,7 @@ testDeletingAndCanceling
 (
 inspector
 boxmodel
-testActor
+browser
 )
 ;
 }
@@ -227,7 +236,7 @@ testEditing
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -251,7 +260,7 @@ work
 await
 setStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -425,7 +434,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -469,7 +478,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -509,7 +518,7 @@ testEditingAndCanceling
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -541,7 +550,7 @@ work
 await
 setStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -715,7 +724,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -765,7 +774,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -805,7 +814,7 @@ testDeleting
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -980,7 +989,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1023,7 +1032,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1062,7 +1071,7 @@ testDeletingAndCanceling
 (
 inspector
 boxmodel
-testActor
+browser
 )
 {
 info
@@ -1091,7 +1100,7 @@ work
 await
 setStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1264,7 +1273,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
@@ -1313,7 +1322,7 @@ is
 await
 getStyle
 (
-testActor
+browser
 "
 #
 div1
