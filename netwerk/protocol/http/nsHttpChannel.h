@@ -1673,6 +1673,9 @@ ChildEndpointPromise
 =
 MozPromise
 <
+mozilla
+:
+:
 ipc
 :
 :
