@@ -87,6 +87,11 @@ const
 init
 =
 {
+format
+:
+'
+I420
+'
 timestamp
 :
 0
@@ -102,9 +107,6 @@ return
 new
 VideoFrame
 (
-'
-I420
-'
 planes
 init
 )
@@ -159,6 +161,11 @@ const
 init
 =
 {
+format
+:
+'
+ABGR
+'
 timestamp
 :
 0
@@ -192,9 +199,6 @@ return
 new
 VideoFrame
 (
-'
-ABGR
-'
 planes
 init
 )
