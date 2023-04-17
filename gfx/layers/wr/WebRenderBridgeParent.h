@@ -541,7 +541,7 @@ UpdateMultithreading
 )
 ;
 void
-UpdateBatchingParameters
+UpdateParameters
 (
 )
 ;
@@ -3070,6 +3070,9 @@ mScreenPixelsTarget
 ;
 #
 endif
+uint16_t
+mBlobTileSize
+;
 bool
 mDestroyed
 ;

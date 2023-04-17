@@ -3780,8 +3780,8 @@ UpdateWebRenderMultithreading
 Notify
 the
 compositor
+some
 webrender
-batching
 parameters
 have
 been
@@ -3791,7 +3791,7 @@ updated
 /
 static
 void
-UpdateWebRenderBatchingParameters
+UpdateWebRenderParameters
 (
 )
 ;

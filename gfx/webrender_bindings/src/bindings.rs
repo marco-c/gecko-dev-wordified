@@ -11163,6 +11163,9 @@ descriptor
 :
 &
 WrImageDescriptor
+tile_size
+:
+u16
 bytes
 :
 &
@@ -11208,7 +11211,7 @@ BGRA8
 {
 Some
 (
-256
+tile_size
 )
 }
 else

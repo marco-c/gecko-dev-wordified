@@ -478,6 +478,13 @@ int32_t
 \
 _
 (
+WebRenderBlobTileSize
+int32_t
+256
+)
+\
+_
+(
 UseSoftwareWebRender
 bool
 false
