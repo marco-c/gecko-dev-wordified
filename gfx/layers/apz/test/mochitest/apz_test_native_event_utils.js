@@ -8582,7 +8582,7 @@ an
 accurate
 resolution
 await
-promiseOnlyApzControllerFlushed
+promiseApzFlushedRepaints
 (
 )
 ;
