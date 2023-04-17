@@ -2216,13 +2216,8 @@ audioSegment
 .
 AppendAndConsumeChunk
 (
-std
-:
-:
-move
-(
+&
 tmp
-)
 )
 ;
 *

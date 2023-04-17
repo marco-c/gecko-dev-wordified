@@ -3820,13 +3820,8 @@ tmpSegment
 .
 AppendAndConsumeChunk
 (
-std
-:
-:
-move
-(
+&
 copyChunk
-)
 )
 ;
 for
