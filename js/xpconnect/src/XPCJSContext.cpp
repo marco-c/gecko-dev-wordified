@@ -367,6 +367,15 @@ include
 "
 js
 /
+HelperThreadAPI
+.
+h
+"
+#
+include
+"
+js
+/
 Initialization
 .
 h
