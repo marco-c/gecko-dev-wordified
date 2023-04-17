@@ -6812,13 +6812,7 @@ return
 }
 mSecondaryVideoContainer
 =
-std
-:
-:
-move
-(
 aSecondaryVideoContainer
-)
 ;
 UpdateVideoDecodeMode
 (
