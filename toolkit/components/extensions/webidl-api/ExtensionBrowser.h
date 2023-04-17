@@ -156,6 +156,9 @@ extensions
 class
 ExtensionMockAPI
 ;
+class
+ExtensionTest
+;
 bool
 ExtensionAPIAllowed
 (
@@ -187,6 +190,12 @@ RefPtr
 ExtensionMockAPI
 >
 mExtensionMockAPI
+;
+RefPtr
+<
+ExtensionTest
+>
+mExtensionTest
 ;
 ~
 ExtensionBrowser
@@ -244,6 +253,12 @@ const
 ExtensionMockAPI
 *
 GetExtensionMockAPI
+(
+)
+;
+ExtensionTest
+*
+GetExtensionTest
 (
 )
 ;
