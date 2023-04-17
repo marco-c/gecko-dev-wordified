@@ -378,7 +378,7 @@ sourceTreeFolderNodeEls
 ]
 )
 ;
-selectContextMenuItem
+openContextMenuSubmenu
 (
 dbg
 NODE_SELECTORS
@@ -535,7 +535,7 @@ sourceTreeFolderNodeEls
 ]
 )
 ;
-selectContextMenuItem
+openContextMenuSubmenu
 (
 dbg
 NODE_SELECTORS
