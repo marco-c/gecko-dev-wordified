@@ -359,11 +359,6 @@ evaluateExpressions
 inputs
 {
 frameId
-thread
-:
-cx
-.
-thread
 }
 )
 ;

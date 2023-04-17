@@ -166,15 +166,6 @@ async
 >
 {
 }
-evaluateInFrame
-:
-async
-(
-)
-=
->
-{
-}
 evaluateExpressions
 :
 async

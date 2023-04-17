@@ -103,7 +103,7 @@ const
 mockThreadFront
 =
 {
-evaluateInFrame
+evaluate
 :
 (
 script

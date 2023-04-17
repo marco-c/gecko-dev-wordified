@@ -613,11 +613,6 @@ evaluateExpressions
 inputs
 {
 frameId
-thread
-:
-cx
-.
-thread
 }
 )
 ;
@@ -818,7 +813,7 @@ PROMISE
 :
 client
 .
-evaluateInFrame
+evaluate
 (
 wrapExpression
 (
@@ -826,11 +821,6 @@ input
 )
 {
 frameId
-thread
-:
-cx
-.
-thread
 }
 )
 }

@@ -570,13 +570,13 @@ toolbox
 this
 .
 toolbox
-client
+commands
 :
 this
 .
-webConsoleUI
+hud
 .
-_consoleCommands
+commands
 }
 }
 )

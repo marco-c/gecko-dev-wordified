@@ -408,7 +408,7 @@ dispatch
 toolbox
 webConsoleUI
 hud
-client
+commands
 }
 )
 =
@@ -569,9 +569,11 @@ const
 response
 =
 await
-client
+commands
 .
-evaluateJSAsync
+scriptCommand
+.
+execute
 (
 expression
 {
@@ -1889,7 +1891,7 @@ dispatch
 webConsoleUI
 hud
 toolbox
-client
+commands
 getState
 }
 )
@@ -2080,9 +2082,11 @@ const
 response
 =
 await
-client
+commands
 .
-evaluateJSAsync
+scriptCommand
+.
+execute
 (
 expression
 {
