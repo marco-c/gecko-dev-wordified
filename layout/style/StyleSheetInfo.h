@@ -167,6 +167,9 @@ nsIURI
 struct
 RawServoStyleSheetContents
 ;
+struct
+StyleUseCounters
+;
 namespace
 mozilla
 {
@@ -621,6 +624,12 @@ const
 RawServoStyleSheetContents
 >
 mContents
+;
+UniquePtr
+<
+StyleUseCounters
+>
+mUseCounters
 ;
 /
 /

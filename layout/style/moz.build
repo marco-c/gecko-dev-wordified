@@ -679,6 +679,11 @@ SharedStyleSheetCache
 h
 "
 "
+SharedSubResourceCache
+.
+h
+"
+"
 StyleAnimationValue
 .
 h
