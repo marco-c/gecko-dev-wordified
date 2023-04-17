@@ -1040,12 +1040,6 @@ ScrollSnap
 <
 <
 5
-IgnoreMarginAndPadding
-=
-1
-<
-<
-6
 /
 /
 ScrollOverflowHidden

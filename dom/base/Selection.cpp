@@ -11856,7 +11856,7 @@ ScrollAxis
 ScrollFlags
 :
 :
-IgnoreMarginAndPadding
+None
 )
 ;
 if
@@ -19320,13 +19320,13 @@ mOnlyIfPerceivedScrollableDirection
 =
 true
 ;
-ScrollFlags
+auto
 scrollFlags
 =
 ScrollFlags
 :
 :
-IgnoreMarginAndPadding
+None
 ;
 if
 (
