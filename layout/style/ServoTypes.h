@@ -1022,9 +1022,6 @@ mAffectsDocumentRules
 bool
 mAffectsNonDocumentRules
 ;
-bool
-mUsesViewportUnits
-;
 }
 ;
 }
