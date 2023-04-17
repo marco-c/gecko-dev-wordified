@@ -3207,6 +3207,9 @@ placesCmd_paste
 "
 placesCmd_delete
 "
+"
+placesCmd_showInFolder
+"
 ]
 )
 {
