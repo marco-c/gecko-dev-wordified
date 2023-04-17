@@ -7448,6 +7448,11 @@ aBrowsingContext
 aBrowsingContext
 .
 top
+&
+&
+aBrowsingContext
+.
+sessionHistory
 )
 {
 if
