@@ -5085,13 +5085,13 @@ handle
 >
 {
 let
-cache_item
+texture
 =
 resource_cache
 .
 texture_cache
 .
-get
+get_picture_texture
 (
 handle
 )
@@ -5102,10 +5102,6 @@ ResolvedSurfaceTexture
 TextureCache
 {
 texture
-:
-cache_item
-.
-texture_id
 }
 }
 SurfaceTextureDescriptor
@@ -34368,7 +34364,7 @@ resource_cache
 .
 texture_cache
 .
-is_allocated
+picture_tile_is_allocated
 (
 handle
 )
@@ -34869,7 +34865,7 @@ resource_cache
 .
 texture_cache
 .
-is_allocated
+picture_tile_is_allocated
 (
 handle
 )
