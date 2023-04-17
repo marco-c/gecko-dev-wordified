@@ -464,16 +464,6 @@ aResult
 }
 #
 endif
-nsRect
-CalculateColumnRuleBounds
-(
-const
-nsPoint
-&
-aOffset
-)
-const
-;
 void
 CreateBorderRenderers
 (
