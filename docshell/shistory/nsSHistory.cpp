@@ -7768,7 +7768,7 @@ SetActiveSessionHistoryEntry
 nullptr
 )
 ;
-NavigationIsolationOptions
+RemotenessChangeOptions
 options
 ;
 aBrowsingContext

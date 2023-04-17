@@ -196,7 +196,7 @@ prealloc
 _ns
 #
 define
-WEB_REMOTE_TYPE
+DEFAULT_REMOTE_TYPE
 "
 web
 "
@@ -229,10 +229,6 @@ PRIVILEGEDMOZILLA_REMOTE_TYPE
 privilegedmozilla
 "
 _ns
-#
-define
-DEFAULT_REMOTE_TYPE
-WEB_REMOTE_TYPE
 /
 /
 These
@@ -240,7 +236,7 @@ must
 start
 with
 the
-WEB_REMOTE_TYPE
+DEFAULT_REMOTE_TYPE
 above
 .
 #
@@ -248,15 +244,6 @@ define
 FISSION_WEB_REMOTE_TYPE
 "
 webIsolated
-"
-_ns
-#
-define
-WITH_COOP_COEP_REMOTE_TYPE
-"
-webCOOP
-+
-COEP
 "
 _ns
 #
