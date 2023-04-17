@@ -420,6 +420,12 @@ Overlay
 )
 override
 ;
+bool
+ThemeSupportsScrollbarButtons
+(
+)
+override
+;
 nsNativeThemeGTK
 (
 )
