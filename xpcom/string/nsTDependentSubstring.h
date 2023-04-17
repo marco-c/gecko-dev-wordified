@@ -639,6 +639,15 @@ copy
 ctor
 ?
 )
+nsTDependentSubstring
+(
+const
+nsTDependentSubstring
+&
+)
+=
+default
+;
 private
 :
 /
