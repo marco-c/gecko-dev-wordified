@@ -179,6 +179,10 @@ datetime
 "
 quantity
 "
+        
+"
+rate
+"
     
 ]
 }
