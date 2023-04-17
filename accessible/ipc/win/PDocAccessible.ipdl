@@ -302,17 +302,6 @@ EventSuppressed
 ;
 }
 ;
-struct
-Attribute
-{
-nsCString
-Name
-;
-nsString
-Value
-;
-}
-;
 sync
 protocol
 PDocAccessible

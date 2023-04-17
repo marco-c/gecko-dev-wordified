@@ -197,6 +197,7 @@ IPC
 ParamTraits
 <
 AccAttributes
+*
 >
 ;
 using

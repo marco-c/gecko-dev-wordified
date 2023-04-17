@@ -329,10 +329,9 @@ Attributes
 (
 )
 {
-AutoTArray
+RefPtr
 <
-Attribute
-10
+AccAttributes
 >
 attrs
 ;
@@ -348,9 +347,10 @@ attrs
 )
 ;
 return
-AttributeArrayToProperties
-(
 attrs
+.
+forget
+(
 )
 ;
 }
