@@ -111,6 +111,12 @@ if
 aData
 =
 =
+PRELOAD_STATE_FILE_NAME
+|
+|
+aData
+=
+=
 CLIENT_AUTH_FILE_NAME
 )
 {
@@ -357,6 +363,12 @@ aData
 {
 if
 (
+aData
+=
+=
+PRELOAD_STATE_FILE_NAME
+|
+|
 aData
 =
 =

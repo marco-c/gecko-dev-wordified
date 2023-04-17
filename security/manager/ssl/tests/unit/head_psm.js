@@ -371,6 +371,15 @@ txt
 "
 ;
 const
+PRELOAD_STATE_FILE_NAME
+=
+"
+SecurityPreloadState
+.
+txt
+"
+;
+const
 CERT_OVERRIDE_FILE_NAME
 =
 "
