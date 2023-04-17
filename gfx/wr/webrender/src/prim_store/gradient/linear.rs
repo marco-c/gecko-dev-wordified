@@ -3337,6 +3337,11 @@ into
 collect
 (
 )
+reversed_stops
+:
+self
+.
+reverse_stops
 }
 ;
 frame_state
@@ -4330,4 +4335,8 @@ Vec
 <
 GradientStopKey
 >
+pub
+reversed_stops
+:
+bool
 }
