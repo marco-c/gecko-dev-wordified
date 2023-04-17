@@ -4994,7 +4994,7 @@ stream
 ParseStrictness
 :
 :
-Normal
+Strict
 )
 {
 Err
@@ -5208,7 +5208,7 @@ stream
 ParseStrictness
 :
 :
-Normal
+Strict
 )
 {
 Err
