@@ -10652,7 +10652,7 @@ postLayerization
 postLayerization
 -
 >
-TryRegister
+Register
 (
 )
 ;
@@ -10909,7 +10909,7 @@ postLayerization
 postLayerization
 -
 >
-TryRegister
+Register
 (
 )
 ;
@@ -11573,7 +11573,7 @@ postLayerization
 postLayerization
 -
 >
-TryRegister
+Register
 (
 )
 ;

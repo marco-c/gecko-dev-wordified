@@ -161,6 +161,9 @@ nsIScrollableFrame
 class
 nsIWidget
 ;
+class
+nsPresContext
+;
 template
 <
 class
@@ -239,9 +242,8 @@ DisplayportSetListener
 nsIWidget
 *
 aWidget
-PresShell
+nsPresContext
 *
-aPresShell
 const
 uint64_t
 &
@@ -262,7 +264,7 @@ DisplayportSetListener
 )
 ;
 void
-TryRegister
+Register
 (
 )
 ;

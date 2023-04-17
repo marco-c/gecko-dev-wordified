@@ -7400,8 +7400,6 @@ GetPresContext
 )
 )
 {
-waitForRefresh
-=
 presContext
 -
 >
@@ -7410,7 +7408,7 @@ RegisterManagedPostRefreshObserver
 new
 ManagedPostRefreshObserver
 (
-presShell
+presContext
 [
 widget
 =
@@ -7455,6 +7453,10 @@ Yes
 }
 )
 )
+;
+waitForRefresh
+=
+true
 ;
 }
 }

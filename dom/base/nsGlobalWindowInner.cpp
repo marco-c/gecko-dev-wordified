@@ -43876,6 +43876,10 @@ return
 false
 ;
 }
+mObservingRefresh
+=
+true
+;
 auto
 observer
 =
@@ -43885,11 +43889,6 @@ ManagedPostRefreshObserver
 >
 (
 pc
--
->
-PresShell
-(
-)
 [
 win
 =
@@ -43949,8 +43948,6 @@ Yes
 }
 )
 ;
-mObservingRefresh
-=
 pc
 -
 >
