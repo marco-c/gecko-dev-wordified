@@ -9430,6 +9430,9 @@ render
 const
 {
 content
+totalNumberOfScreens
+:
+total
 }
 =
 this
@@ -10200,6 +10203,11 @@ handleAction
 null
 !
 isWelcomeScreen
+&
+&
+total
+>
+1
 ?
 /
 *
@@ -10260,12 +10268,6 @@ props
 .
 order
 total
-:
-this
-.
-props
-.
-totalNumberOfScreens
 }
 )
 }
@@ -10333,11 +10335,7 @@ order
 1
 totalNumberOfScreens
 :
-this
-.
-props
-.
-totalNumberOfScreens
+total
 }
 )
 )

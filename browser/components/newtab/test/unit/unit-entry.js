@@ -503,6 +503,14 @@ MOZ_APP_VERSION
 .
 0a1
 "
+isPlatformAndVersionAtMost
+(
+)
+{
+return
+false
+;
+}
 platform
 :
 "
