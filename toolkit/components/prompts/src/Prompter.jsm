@@ -8497,6 +8497,17 @@ browsingContext
 ?
 .
 isContent
+&
+&
+this
+.
+browsingContext
+?
+.
+associatedWindow
+?
+.
+gDialogBox
 )
 {
 modalType
