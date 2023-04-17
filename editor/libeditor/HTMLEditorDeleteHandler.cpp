@@ -32926,9 +32926,11 @@ nextContentOfEmptyBlock
 =
 aHTMLEditor
 .
-GetNextNode
+GetNextContent
 (
 afterEmptyBlock
+{
+}
 )
 )
 {
