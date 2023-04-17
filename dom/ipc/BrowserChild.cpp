@@ -15141,6 +15141,10 @@ if
 aCallback
 )
 {
+/
+/
+signal
+error
 aCallback
 (
 PrintPreviewResultInfo
@@ -15150,13 +15154,11 @@ PrintPreviewResultInfo
 false
 false
 false
+{
+}
 )
 )
 ;
-/
-/
-signal
-error
 }
 }
 )
