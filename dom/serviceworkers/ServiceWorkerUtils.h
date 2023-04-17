@@ -207,6 +207,15 @@ false
 ServiceWorkerRegistrationListPromise
 ;
 typedef
+MozPromise
+<
+IPCNavigationPreloadState
+CopyableErrorResult
+false
+>
+NavigationPreloadStatePromise
+;
+typedef
 std
 :
 :
