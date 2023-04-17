@@ -352,7 +352,7 @@ toString
 )
 -
 >
-isAtom
+isLinear
 (
 )
 )

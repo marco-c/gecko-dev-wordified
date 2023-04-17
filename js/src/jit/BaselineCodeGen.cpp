@@ -15841,7 +15841,7 @@ script
 )
 -
 >
-getAtom
+getString
 (
 handler
 .
@@ -15890,7 +15890,7 @@ loadScriptGCThing
 ScriptGCThingType
 :
 :
-Atom
+String
 scratch1
 scratch2
 )

@@ -6445,7 +6445,7 @@ op
 )
 =
 =
-JOF_ATOM
+JOF_STRING
 )
 ;
 return

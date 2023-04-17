@@ -12191,7 +12191,7 @@ String
 return
 quote
 (
-loadAtom
+loadString
 (
 pc
 )
