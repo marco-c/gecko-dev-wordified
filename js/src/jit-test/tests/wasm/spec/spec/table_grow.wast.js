@@ -2077,7 +2077,7 @@ null
 value
 (
 "
-funcref
+anyfunc
 "
 null
 )
@@ -2158,7 +2158,7 @@ null
 value
 (
 "
-funcref
+anyfunc
 "
 null
 )

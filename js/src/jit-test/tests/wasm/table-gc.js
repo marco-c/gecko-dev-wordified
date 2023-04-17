@@ -890,7 +890,7 @@ initial
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )
@@ -1045,7 +1045,7 @@ initial
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )
@@ -1344,7 +1344,7 @@ initial
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )
@@ -1584,7 +1584,7 @@ N
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )

@@ -484,7 +484,7 @@ initial
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )
@@ -2008,7 +2008,7 @@ Table
 element
 :
 "
-funcref
+anyfunc
 "
 initial
 :
@@ -2398,7 +2398,7 @@ maximum
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )
