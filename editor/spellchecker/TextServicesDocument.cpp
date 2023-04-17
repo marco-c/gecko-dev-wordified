@@ -6584,6 +6584,11 @@ selection
 CollapseInLimiter
 (
 node
+AssertedCast
+<
+uint32_t
+>
+(
 itEntry
 -
 >
@@ -6593,6 +6598,7 @@ itEntry
 -
 >
 mLength
+)
 )
 ;
 if
@@ -9878,7 +9884,13 @@ selection
 CollapseInLimiter
 (
 startNode
+AssertedCast
+<
+uint32_t
+>
+(
 startNodeOffset
+)
 )
 ;
 if
@@ -10132,7 +10144,13 @@ selection
 CollapseInLimiter
 (
 startNode
+AssertedCast
+<
+uint32_t
+>
+(
 startNodeOffset
+)
 )
 ;
 NS_WARNING_ASSERTION

@@ -1198,7 +1198,7 @@ CollapseInLimiter
 nsINode
 *
 aContainer
-int32_t
+uint32_t
 aOffset
 )
 {
@@ -2976,7 +2976,7 @@ be
 set
 *
 param
-offset
+aOffset
 Where
 in
 given

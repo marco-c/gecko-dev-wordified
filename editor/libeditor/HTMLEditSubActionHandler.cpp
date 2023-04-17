@@ -6990,7 +6990,7 @@ pos
 &
 pos
 <
-static_cast
+AssertedCast
 <
 int32_t
 >
@@ -7451,7 +7451,7 @@ pos
 &
 pos
 <
-static_cast
+AssertedCast
 <
 int32_t
 >
@@ -32391,8 +32391,7 @@ dir
 *
 newEmptyTextNode
 0
--
-1
+UINT32_MAX
 )
 ;
 if
@@ -39256,7 +39255,7 @@ newlinePos
 {
 if
 (
-static_cast
+AssertedCast
 <
 uint32_t
 >
@@ -44224,7 +44223,7 @@ aHeader
 nsINode
 &
 aNode
-int32_t
+uint32_t
 aOffset
 )
 {
@@ -44779,9 +44778,15 @@ EditorDOMPoint
 nextToHeader
 (
 headerParent
+AssertedCast
+<
+uint32_t
+>
+(
 offset
 +
 1
+)
 )
 ;
 Result
@@ -46800,7 +46805,7 @@ GetContainer
 (
 )
 ;
-int32_t
+uint32_t
 selOffset
 =
 aStartOfRightNode
@@ -47543,7 +47548,7 @@ aListItem
 nsINode
 &
 aNode
-int32_t
+uint32_t
 aOffset
 )
 {
@@ -48617,9 +48622,15 @@ aListItem
 GetNextSibling
 (
 )
+AssertedCast
+<
+uint32_t
+>
+(
 itemOffset
 +
 1
+)
 )
 ;
 Result

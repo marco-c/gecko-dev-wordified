@@ -777,7 +777,7 @@ const
 ContainerType
 *
 aContainer
-int32_t
+uint32_t
 aOffset
 )
 :
@@ -879,7 +879,7 @@ ContainerType
 >
 &
 aContainer
-int32_t
+uint32_t
 aOffset
 )
 :
@@ -1030,7 +1030,7 @@ aContainer
 nsIContent
 *
 aPointedNode
-int32_t
+uint32_t
 aOffset
 )
 :
@@ -3276,7 +3276,7 @@ Set
 ContainerType
 *
 aContainer
-int32_t
+uint32_t
 aOffset
 )
 {
@@ -3353,7 +3353,7 @@ ContainerType
 >
 &
 aContainer
-int32_t
+uint32_t
 aOffset
 )
 {

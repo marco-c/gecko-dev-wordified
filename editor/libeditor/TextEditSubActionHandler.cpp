@@ -4730,10 +4730,10 @@ default
 break
 ;
 }
-int32_t
+uint32_t
 currentLength
 =
-INT32_MAX
+UINT32_MAX
 ;
 nsresult
 rv
@@ -4876,7 +4876,7 @@ if
 kNewLength
 >
 =
-static_cast
+AssertedCast
 <
 uint32_t
 >
@@ -4918,7 +4918,7 @@ Length
 kNewLength
 <
 =
-static_cast
+AssertedCast
 <
 uint32_t
 >

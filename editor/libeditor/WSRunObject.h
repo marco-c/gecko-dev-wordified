@@ -4693,7 +4693,7 @@ dom
 Text
 *
 aTextNode
-int32_t
+uint32_t
 aOffset
 )
 const
@@ -9093,7 +9093,7 @@ nsINode
 >
 *
 aSplitNode
-int32_t
+uint32_t
 *
 aSplitOffset
 )

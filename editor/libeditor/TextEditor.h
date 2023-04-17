@@ -821,7 +821,7 @@ nsIEditor
 NS_IMETHOD
 GetTextLength
 (
-int32_t
+uint32_t
 *
 aCount
 )
