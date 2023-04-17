@@ -2683,11 +2683,8 @@ sitecustomize
 =
 sitecustomize
 )
-                
-return
-True
             
-if
+elif
 package
 [
 0
@@ -2719,7 +2716,6 @@ populate_local_paths
 :
                     
 return
-True
                 
 path
 =
@@ -2829,11 +2825,8 @@ path
 python_lib
 )
 )
-                
-return
-True
             
-if
+elif
 package
 [
 0
@@ -2849,7 +2842,6 @@ if
 is_thunderbird
 :
                     
-return
 handle_package
 (
 package
@@ -2858,14 +2850,8 @@ package
 :
 ]
 )
-                
-else
-:
-                    
-return
-True
             
-if
+elif
 package
 [
 0
@@ -2915,7 +2901,6 @@ is_win
 for_win
 :
                     
-return
 handle_package
 (
 package
@@ -2924,11 +2909,8 @@ package
 :
 ]
 )
-                
-return
-True
             
-if
+elif
 package
 [
 0
@@ -2965,7 +2947,6 @@ PY3
 for_python3
 :
                     
-return
 handle_package
 (
 package
@@ -2974,10 +2955,10 @@ package
 :
 ]
 )
-                
-return
-True
             
+else
+:
+                
 raise
 Exception
 (
