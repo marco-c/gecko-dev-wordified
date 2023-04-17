@@ -4412,10 +4412,8 @@ aPresShell
 true
 )
 ;
-bool
-defaultPrevented
-=
-false
+PreventDefaultResult
+preventDefaultResult
 ;
 nsContentUtils
 :
@@ -4449,7 +4447,7 @@ aInputSourceArg
 aPointerId
 false
 &
-defaultPrevented
+preventDefaultResult
 false
 /
 *
@@ -4461,7 +4459,13 @@ false
 )
 ;
 return
-defaultPrevented
+preventDefaultResult
+!
+=
+PreventDefaultResult
+:
+:
+No
 ;
 }
 void
