@@ -352,6 +352,13 @@ mService
 mService
 -
 >
+Init
+(
+)
+;
+mService
+-
+>
 RegisterAndRunObserver
 (
 this
