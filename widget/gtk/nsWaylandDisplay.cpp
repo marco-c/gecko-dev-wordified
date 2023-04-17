@@ -116,6 +116,13 @@ h
 "
 #
 include
+<
+dlfcn
+.
+h
+>
+#
+include
 "
 base
 /
