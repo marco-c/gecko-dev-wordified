@@ -289,14 +289,6 @@ Intl
 .
 DateTimeFormat
 -
-dayPeriod
-"
-        
-"
-Intl
-.
-DateTimeFormat
--
 formatRange
 "
     
