@@ -123,7 +123,6 @@ env
 ;
 const
 {
-testActor
 inspector
 }
 =
@@ -151,7 +150,6 @@ config
 inspector
 view
 highlighters
-testActor
 helper
 }
 ;
@@ -175,7 +173,6 @@ const
 {
 inspector
 view
-testActor
 helper
 }
 =
@@ -394,9 +391,7 @@ up
 )
 ;
 await
-testActor
-.
-reflow
+reflowContentPage
 (
 )
 ;
@@ -510,9 +505,7 @@ up
 )
 ;
 await
-testActor
-.
-reflow
+reflowContentPage
 (
 )
 ;

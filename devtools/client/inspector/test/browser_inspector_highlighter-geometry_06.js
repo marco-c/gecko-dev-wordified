@@ -757,7 +757,6 @@ by
 const
 {
 mouse
-reflow
 highlightedNode
 }
 =
@@ -836,7 +835,7 @@ up
 )
 ;
 await
-reflow
+reflowContentPage
 (
 )
 ;
