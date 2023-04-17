@@ -1729,14 +1729,13 @@ MaybeRejectWithInvalidStateError
 (
 "
 getDisplayMedia
-must
-be
-called
+requires
+transient
+activation
 from
 a
 user
 gesture
-handler
 .
 "
 )
