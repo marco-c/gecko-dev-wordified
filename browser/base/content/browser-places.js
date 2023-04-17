@@ -5628,6 +5628,9 @@ false
 }
 if
 (
+gProtonPlacesTooltip
+&
+&
 tooltipNode
 &
 &
