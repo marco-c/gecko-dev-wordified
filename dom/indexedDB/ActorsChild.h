@@ -775,7 +775,9 @@ BackgroundRequestChildBase
 public
 PBackgroundIDBFactoryRequestChild
 {
-typedef
+using
+PersistenceType
+=
 mozilla
 :
 :
@@ -785,7 +787,6 @@ dom
 quota
 :
 :
-PersistenceType
 PersistenceType
 ;
 friend

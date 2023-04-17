@@ -299,7 +299,9 @@ final
 public
 DOMEventTargetHelper
 {
-typedef
+using
+DatabaseSpec
+=
 mozilla
 :
 :
@@ -310,9 +312,10 @@ indexedDB
 :
 :
 DatabaseSpec
-DatabaseSpec
 ;
-typedef
+using
+StorageType
+=
 mozilla
 :
 :
@@ -320,9 +323,10 @@ dom
 :
 :
 StorageType
-StorageType
 ;
-typedef
+using
+PersistenceType
+=
 mozilla
 :
 :
@@ -332,7 +336,6 @@ dom
 quota
 :
 :
-PersistenceType
 PersistenceType
 ;
 class
