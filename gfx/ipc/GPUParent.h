@@ -268,7 +268,7 @@ if
 necessary
 .
 static
-bool
+void
 MaybeFlushMemory
 (
 )
