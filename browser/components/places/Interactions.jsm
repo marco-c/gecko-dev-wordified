@@ -1204,11 +1204,6 @@ InteractionsChild
 .
 jsm
 "
-group
-:
-"
-browsers
-"
 events
 :
 {
@@ -1225,6 +1220,13 @@ true
 }
 }
 }
+messageManagerGroups
+:
+[
+"
+browsers
+"
+]
 }
 )
 ;
