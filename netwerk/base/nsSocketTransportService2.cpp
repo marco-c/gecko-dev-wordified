@@ -9894,6 +9894,10 @@ PR_IntervalNow
 (
 )
 ;
+mNotTrustedMitmDetected
+=
+false
+;
 }
 return
 NS_OK
