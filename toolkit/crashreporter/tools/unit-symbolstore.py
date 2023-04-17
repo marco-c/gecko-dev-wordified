@@ -62,6 +62,8 @@ MPL
 0
 /
 .
+from
+unittest
 import
 mock
 import
@@ -83,6 +85,8 @@ unittest
 import
 buildconfig
 from
+unittest
+.
 mock
 import
 patch

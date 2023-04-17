@@ -60,6 +60,8 @@ absolute_import
 print_function
 unicode_literals
 from
+unittest
+.
 mock
 import
 patch
@@ -78,23 +80,15 @@ unittest
 from
 mozunit
 import
-(
-    
 main
-    
 MockedOpen
-)
 from
 mozbuild
 .
 configure
 import
-(
-    
 ConfigureError
-    
 ConfigureSandbox
-)
 from
 mozbuild
 .
@@ -122,14 +116,9 @@ topsrcdir
 from
 common
 import
-(
-    
 ConfigureTestSandbox
-    
 ensure_exe_extension
-    
 fake_short_path
-)
 class
 TestChecksConfigure
 (
@@ -893,25 +882,21 @@ StringIO
 paths
 =
 {
-            
 self
 .
 KNOWN_A
 :
 None
-            
 self
 .
 KNOWN_B
 :
 None
-            
 self
 .
 KNOWN_C
 :
 None
-        
 }
         
 if
@@ -5174,25 +5159,19 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 JAVA
 "
 :
 java
-                
 "
 MOZ_JAVA_CODE_COVERAGE
 "
 :
 False
-            
 }
-        
 )
         
 self
@@ -5344,25 +5323,19 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 JAVA
 "
 :
 alt_java
-                
 "
 MOZ_JAVA_CODE_COVERAGE
 "
 :
 False
-            
 }
-        
 )
         
 self
@@ -5483,25 +5456,19 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 JAVA
 "
 :
 alt_java
-                
 "
 MOZ_JAVA_CODE_COVERAGE
 "
 :
 False
-            
 }
-        
 )
         
 self
@@ -5644,25 +5611,19 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 JAVA
 "
 :
 alt_java
-                
 "
 MOZ_JAVA_CODE_COVERAGE
 "
 :
 False
-            
 }
-        
 )
         
 self
@@ -5779,25 +5740,19 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 JAVA
 "
 :
 java
-                
 "
 MOZ_JAVA_CODE_COVERAGE
 "
 :
 True
-            
 }
-        
 )
         
 #
@@ -6470,11 +6425,9 @@ includes
 extra_paths
 =
 {
-            
 mock_pkg_config_path
 :
 mock_pkg_config
-        
 }
         
 config
@@ -6888,19 +6841,14 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 PKG_CONFIG
 "
 :
 mock_pkg_config_path
-            
 }
-        
 )
         
 config
@@ -7026,19 +6974,14 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 PKG_CONFIG
 "
 :
 mock_pkg_config_path
-            
 }
-        
 )
         
 #
@@ -7231,19 +7174,14 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 PKG_CONFIG
 "
 :
 mock_pkg_config_path
-            
 }
-        
 )
         
 config
@@ -7359,11 +7297,9 @@ args
 extra_paths
 =
 {
-            
 mock_pkg_config_path
 :
 mock_old_pkg_config
-        
 }
         
 config
@@ -7576,11 +7512,8 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
 "
 MOZ_MOZILLA_API_KEY
 "
@@ -7594,9 +7527,7 @@ api
 -
 key
 "
-            
 }
-        
 )
         
 config
@@ -7955,11 +7886,8 @@ self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
 "
 MOZ_MOZILLA_API_KEY
 "
@@ -7969,9 +7897,7 @@ fake
 -
 key
 "
-                
 }
-            
 )
         
 with
@@ -8070,11 +7996,8 @@ self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
 "
 MOZ_MOZILLA_API_KEY
 "
@@ -8084,9 +8007,7 @@ default
 -
 key
 "
-                
 }
-            
 )
         
 with
@@ -8196,11 +8117,8 @@ self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
 "
 MOZ_MOZILLA_API_KEY
 "
@@ -8210,9 +8128,7 @@ fake
 -
 key
 "
-                
 }
-            
 )
     
 def
@@ -8714,7 +8630,6 @@ assertEqual
 config
                 
 {
-                    
 "
 MOZ_BING_API_CLIENTID
 "
@@ -8724,7 +8639,6 @@ fake
 -
 id
 "
-                    
 "
 MOZ_BING_API_KEY
 "
@@ -8734,7 +8648,6 @@ fake
 -
 key
 "
-                
 }
             
 )
@@ -9141,7 +9054,6 @@ assertEqual
 config
                 
 {
-                    
 "
 MOZ_BING_API_CLIENTID
 "
@@ -9151,7 +9063,6 @@ fake
 -
 id
 "
-                    
 "
 MOZ_BING_API_KEY
 "
@@ -9161,7 +9072,6 @@ fake
 -
 key
 "
-                
 }
             
 )

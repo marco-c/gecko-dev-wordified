@@ -61,6 +61,8 @@ absolute_import
 import
 sys
 from
+unittest
+.
 mock
 import
 Mock
@@ -263,9 +265,7 @@ invocation
 def
 __init__
 (
-        
 self
-    
 )
 :
         
