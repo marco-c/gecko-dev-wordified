@@ -661,9 +661,6 @@ for
 border
 -
 radius
-outline
--
-radius
 and
 inset
 (

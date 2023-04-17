@@ -4351,12 +4351,6 @@ aNewData
 )
 const
 ;
-mozilla
-:
-:
-StyleBorderRadius
-mOutlineRadius
-;
 /
 /
 This
