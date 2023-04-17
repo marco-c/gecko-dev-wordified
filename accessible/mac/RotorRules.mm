@@ -864,6 +864,12 @@ roles
 :
 PASSWORD_TEXT
 :
+case
+roles
+:
+:
+BUTTONMENU
+:
 return
 result
 ;
