@@ -251,6 +251,10 @@ RecvPChromiumCDMConstructor
 PChromiumCDMChild
 *
 aActor
+const
+nsCString
+&
+aKeySystem
 )
 override
 ;
@@ -276,6 +280,10 @@ PChromiumCDMChild
 >
 AllocPChromiumCDMChild
 (
+const
+nsCString
+&
+aKeySystem
 )
 ;
 #

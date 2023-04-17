@@ -1384,6 +1384,12 @@ __func__
 [
 rawHolder
 helper
+keySystem
+=
+nsCString
+{
+aKeySystem
+}
 ]
 (
 RefPtr
@@ -1448,6 +1454,7 @@ parent
 >
 GetChromiumCDM
 (
+keySystem
 )
 ;
 if

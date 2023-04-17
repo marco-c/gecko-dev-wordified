@@ -368,6 +368,14 @@ void
 *
 *
 aPluginAPI
+const
+nsCString
+&
+/
+*
+aKeySystem
+*
+/
 )
 override
 {
@@ -721,6 +729,10 @@ void
 *
 *
 aPluginAPI
+const
+nsCString
+&
+aKeySystem
 )
 {
 return
@@ -732,6 +744,7 @@ GMPGetAPI
 aAPIName
 aHostAPI
 aPluginAPI
+aKeySystem
 )
 ;
 }
