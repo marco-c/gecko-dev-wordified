@@ -646,6 +646,15 @@ nsCString
 aResponse
 )
 ;
+void
+HandleResponse
+(
+const
+GetFullOriginMetadataResponse
+&
+aResponse
+)
+;
 /
 /
 IPDL
