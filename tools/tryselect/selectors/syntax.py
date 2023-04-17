@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 import
@@ -75,8 +69,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 moztest
 .
@@ -1278,9 +1270,6 @@ opts
 )
 class
 TryArgumentTokenizer
-(
-object
-)
 :
     
 symbols
@@ -1299,6 +1288,7 @@ separator
 "
 list_start
 "
+r
 "
 \
 [
@@ -1309,6 +1299,7 @@ list_start
 "
 list_end
 "
+r
 "
 \
 ]
@@ -1319,6 +1310,7 @@ list_end
 "
 item
 "
+r
 "
 (
 [
@@ -1346,6 +1338,7 @@ s
 "
 space
 "
+r
 "
 \
 s
@@ -1443,9 +1436,6 @@ symbol
 data
 class
 TryArgumentParser
-(
-object
-)
 :
     
 "
@@ -2051,9 +2041,6 @@ arg
 )
 class
 AutoTry
-(
-object
-)
 :
     
 #
@@ -3083,11 +3070,10 @@ for
 flavor
 flavor_tests
 in
-six
-.
-iteritems
-(
 paths_by_flavor
+.
+items
+(
 )
 :
             
@@ -3138,13 +3124,14 @@ paths
 add
 (
 "
-%
-s
+{
+}
 :
-%
-s
+{
+}
 "
-%
+.
+format
 (
 flavor
 test
@@ -3551,12 +3538,13 @@ join
 (
                     
 "
-%
-s
-%
-s
+{
+}
+{
+}
 "
-%
+.
+format
 (
 k
 "
@@ -3623,12 +3611,13 @@ join
 (
                     
 "
-%
-s
-%
-s
+{
+}
+{
+}
 "
-%
+.
+format
 (
 k
 "
@@ -3787,11 +3776,10 @@ for
 dest
 value
 in
-six
-.
-iteritems
-(
 extras
+.
+items
+(
 )
 :
             
@@ -3937,11 +3925,10 @@ for
 key
 values
 in
-six
-.
-iteritems
-(
 parsed
+.
+items
+(
 )
 :
                 
@@ -3972,11 +3959,10 @@ item
 for
 item
 in
-six
-.
-itervalues
-(
 rv
+.
+values
+(
 )
 )
 :
@@ -4258,16 +4244,17 @@ parsing
 u
 argument
 (
-%
-s
+{
+}
 )
 :
 \
 n
-%
-s
+{
+}
 "
-%
+.
+format
 (
 kwargs
 [
@@ -5145,24 +5132,24 @@ for
 flavor
 paths
 in
-six
-.
-iteritems
-(
 paths_by_flavor
+.
+items
+(
 )
 :
                 
 print
 (
 "
-%
-s
+{
+}
 :
-%
-s
+{
+}
 "
-%
+.
+format
 (
 flavor
 "

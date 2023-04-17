@@ -73,11 +73,6 @@ formatter
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
 import
 argparse
 import
@@ -340,9 +335,6 @@ with
 open
 (
 taskfile
-"
-r
-"
 )
 as
 f
@@ -406,9 +398,6 @@ with
 open
 (
 taskfile
-"
-r
-"
 )
 as
 f

@@ -87,12 +87,6 @@ transforms
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 import
@@ -165,9 +159,6 @@ here
 )
 class
 TryConfig
-(
-object
-)
 :
     
 __metaclass__
@@ -374,8 +365,6 @@ add_mutually_exclusive_group
 return
 super
 (
-Artifact
-self
 )
 .
 add_arguments
@@ -631,8 +620,6 @@ add_mutually_exclusive_group
 return
 super
 (
-Pernosco
-self
 )
 .
 add_arguments
@@ -1457,8 +1444,6 @@ max
         
 super
 (
-RangeAction
-self
 )
 .
 __init__
