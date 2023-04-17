@@ -3524,8 +3524,8 @@ n
 ;
 info
 (
-Load
-document
+Navigating
+to
 "
 {
 uri
