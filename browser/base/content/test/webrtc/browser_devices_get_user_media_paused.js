@@ -1750,7 +1750,7 @@ panel
 if
 (
 !
-gProtonDoorhangers
+gProton
 )
 {
 let

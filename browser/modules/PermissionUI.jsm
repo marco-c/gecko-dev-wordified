@@ -653,12 +653,10 @@ defineLazyPreferenceGetter
 (
 this
 "
-protonDoorhangersEnabled
+protonEnabled
 "
 "
 browser
-.
-proton
 .
 doorhangers
 .
@@ -3548,7 +3546,7 @@ true
 }
 if
 (
-protonDoorhangersEnabled
+protonEnabled
 &
 &
 !

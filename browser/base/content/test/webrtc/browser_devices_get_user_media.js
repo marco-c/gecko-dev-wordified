@@ -203,7 +203,7 @@ panel
 if
 (
 !
-gProtonDoorhangers
+gProton
 )
 {
 let
@@ -469,7 +469,7 @@ panel
 if
 (
 !
-gProtonDoorhangers
+gProton
 )
 {
 let
@@ -729,7 +729,7 @@ panel
 if
 (
 !
-gProtonDoorhangers
+gProton
 )
 {
 let

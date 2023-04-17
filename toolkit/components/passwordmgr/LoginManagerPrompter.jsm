@@ -242,14 +242,12 @@ defineLazyPreferenceGetter
 (
 this
 "
-gProtonDoorhangersEnabled
+gProtonEnabled
 "
 "
 browser
 .
 proton
-.
-doorhangers
 .
 enabled
 "
@@ -4559,7 +4557,7 @@ showOptions
 ;
 if
 (
-gProtonDoorhangersEnabled
+gProtonEnabled
 )
 {
 mainAction
