@@ -2737,6 +2737,12 @@ BrowsingContextWebProgress
 >
 mWebProgress
 ;
+nsCOMPtr
+<
+nsIWebProgressListener
+>
+mDocShellProgressBridge
+;
 RefPtr
 <
 nsBrowserStatusFilter
