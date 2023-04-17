@@ -41132,7 +41132,7 @@ not
 safe
 to
 call
-IsRootContentDocument
+IsRootContentDocumentInProcess
 (
 )
 if
@@ -65099,7 +65099,7 @@ AssumeAllFramesVisible
 mPresContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentInProcess
 (
 )
 )
