@@ -704,7 +704,7 @@ Modifiers
 ConvertModifiers
 (
 const
-ActivateMenuItemOptions
+ActivateMenuItemModifiers
 &
 aModifiers
 )
@@ -780,9 +780,9 @@ Element
 &
 aItemElement
 const
-ActivateMenuItemOptions
+ActivateMenuItemModifiers
 &
-aOptions
+aModifiers
 ErrorResult
 &
 aRv
@@ -821,7 +821,7 @@ modifiers
 =
 ConvertModifiers
 (
-aOptions
+aModifiers
 )
 ;
 /
@@ -865,9 +865,6 @@ ActivateNativeMenuItem
 &
 aItemElement
 modifiers
-aOptions
-.
-mButton
 aRv
 )
 )
@@ -992,9 +989,6 @@ itemFrame
 ActivateItem
 (
 modifiers
-aOptions
-.
-mButton
 )
 ;
 }

@@ -13755,7 +13755,6 @@ shiftKey
 event
 .
 metaKey
-0
 null
 0
 )

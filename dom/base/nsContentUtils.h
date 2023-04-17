@@ -15082,10 +15082,6 @@ MouseEvent_Binding
 MOZ_SOURCE_UNKNOWN
 *
 /
-int16_t
-aButton
-=
-0
 )
 ;
 static

@@ -30380,7 +30380,6 @@ shiftKey
 event
 .
 metaKey
-0
 event
 .
 sourceEvent

@@ -6961,11 +6961,6 @@ MouseEvent_Binding
 :
 MOZ_SOURCE_UNKNOWN
 ;
-int16_t
-button
-=
-0
-;
 while
 (
 event
@@ -7017,15 +7012,6 @@ commandEvent
 -
 >
 InputSource
-(
-)
-;
-button
-=
-commandEvent
--
->
-Button
 (
 )
 ;
@@ -7095,7 +7081,6 @@ IsMeta
 (
 )
 inputSource
-button
 )
 ;
 }

@@ -38483,8 +38483,6 @@ bool
 aMeta
 uint16_t
 aInputSource
-int16_t
-aButton
 )
 {
 NS_ENSURE_STATE
@@ -38557,7 +38555,6 @@ aCtrl
 aAlt
 aShift
 aMeta
-aButton
 aSourceEvent
 aInputSource
 IgnoreErrors

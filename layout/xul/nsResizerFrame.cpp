@@ -3543,10 +3543,6 @@ aEvent
 -
 >
 mInputSource
-aEvent
--
->
-mButton
 )
 ;
 }

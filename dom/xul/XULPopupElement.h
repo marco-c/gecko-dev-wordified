@@ -182,7 +182,7 @@ class
 StringOrOpenPopupOptions
 ;
 struct
-ActivateMenuItemOptions
+ActivateMenuItemModifiers
 ;
 nsXULElement
 *
@@ -422,9 +422,9 @@ Element
 &
 aItemElement
 const
-ActivateMenuItemOptions
+ActivateMenuItemModifiers
 &
-aOptions
+aModifiers
 ErrorResult
 &
 aRv
