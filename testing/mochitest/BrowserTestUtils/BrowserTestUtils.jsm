@@ -6242,8 +6242,12 @@ openNewWindowWithFlushedXULCacheForMozSupports
 options
 )
 {
-/
-/
+ChromeUtils
+.
+clearStyleSheetCache
+(
+)
+;
 Services
 .
 obs
