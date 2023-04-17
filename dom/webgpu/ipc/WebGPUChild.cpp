@@ -1563,7 +1563,7 @@ if
 (
 aDesc
 .
-mNonGuaranteedLimits
+mRequiredLimits
 .
 WasPassed
 (
@@ -1579,7 +1579,7 @@ entry
 :
 aDesc
 .
-mNonGuaranteedLimits
+mRequiredLimits
 .
 Value
 (

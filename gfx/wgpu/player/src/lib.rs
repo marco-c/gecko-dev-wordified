@@ -694,6 +694,7 @@ B
 (
 encoder
 dst
+&
 subresource_range
 )
 .

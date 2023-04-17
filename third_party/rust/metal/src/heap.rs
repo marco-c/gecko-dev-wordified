@@ -90,15 +90,6 @@ super
 :
 *
 ;
-use
-cocoa_foundation
-:
-:
-foundation
-:
-:
-NSUInteger
-;
 /
 /
 /
