@@ -16964,7 +16964,7 @@ nullptr
 {
 MOZ_ASSERT
 (
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 aAncestor
 .
