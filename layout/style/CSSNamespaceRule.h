@@ -318,6 +318,15 @@ get
 ;
 }
 void
+SetRawAfterClone
+(
+RefPtr
+<
+RawServoNamespaceRule
+>
+)
+;
+void
 GetNamespaceURI
 (
 nsString

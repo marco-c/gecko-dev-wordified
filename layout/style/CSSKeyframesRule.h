@@ -263,6 +263,15 @@ get
 ;
 }
 void
+SetRawAfterClone
+(
+RefPtr
+<
+RawServoKeyframesRule
+>
+)
+;
+void
 GetCssText
 (
 nsACString
