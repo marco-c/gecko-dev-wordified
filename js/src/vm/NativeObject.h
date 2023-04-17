@@ -9937,6 +9937,17 @@ HandleNativeObject
 obj
 )
 ;
+static
+bool
+densifySparseElements
+(
+JSContext
+*
+cx
+HandleNativeObject
+obj
+)
+;
 inline
 HeapSlot
 *
