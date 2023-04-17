@@ -8967,6 +8967,7 @@ enum
 ImageRendering
 {
 Auto
+Smooth
 #
 [
 parse
@@ -8984,6 +8985,7 @@ edges
 )
 ]
 CrispEdges
+Pixelated
 /
 /
 From
@@ -9049,18 +9051,8 @@ use
 /
 them
 .
+/
+/
 Optimizespeed
 Optimizequality
-#
-[
-cfg
-(
-feature
-=
-"
-servo
-"
-)
-]
-Pixelated
 }
