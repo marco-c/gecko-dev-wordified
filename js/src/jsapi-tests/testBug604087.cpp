@@ -144,6 +144,15 @@ h
 #
 include
 "
+js
+/
+WrapperCallbacks
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
