@@ -365,6 +365,17 @@ Android
 mobile_android
 "
 )
+        
+(
+"
+SpiderMonkey
+JavaScript
+engine
+"
+"
+js
+"
+)
     
 ]
 )
