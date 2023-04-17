@@ -1,14 +1,3 @@
-/
-/
-|
-reftest
-|
-skip
--
-if
-(
-release_or_beta
-)
 assertEq
 (
 typeof

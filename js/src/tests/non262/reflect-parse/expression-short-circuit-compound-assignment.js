@@ -11,9 +11,6 @@ if
 xulRuntime
 .
 shell
-|
-|
-release_or_beta
 )
 function
 test
