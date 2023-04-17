@@ -395,13 +395,9 @@ value
 .
 *
 /
-Result
-<
 Maybe
 <
 DistributionData
->
-nsCString
 >
 TestGetValue
 (
