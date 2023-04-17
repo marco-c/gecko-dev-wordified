@@ -309,7 +309,7 @@ mApzc
 .
 mX
 .
-IsOverscrolled
+IsOverscrollAnimationRunning
 (
 )
 &
@@ -330,7 +330,7 @@ mApzc
 .
 mY
 .
-IsOverscrolled
+IsOverscrollAnimationRunning
 (
 )
 &
