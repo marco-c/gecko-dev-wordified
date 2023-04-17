@@ -3983,8 +3983,6 @@ BrowsingContext
 >
 &
 aContext
-uint64_t
-aActionId
 )
 ;
 mozilla
