@@ -212,14 +212,15 @@ ipc
 :
 ProcessChild
 {
-typedef
+using
+ProcessChild
+=
 mozilla
 :
 :
 ipc
 :
 :
-ProcessChild
 ProcessChild
 ;
 public

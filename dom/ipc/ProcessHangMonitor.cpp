@@ -754,11 +754,12 @@ PProcessHangMonitorChild
 aEndpoint
 )
 ;
-typedef
+using
+SlowScriptAction
+=
 ProcessHangMonitor
 :
 :
-SlowScriptAction
 SlowScriptAction
 ;
 SlowScriptAction

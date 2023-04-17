@@ -1503,7 +1503,9 @@ MemoryTraits
 BorrowMemory
 >
 {
-typedef
+using
+ClonedMessageType
+=
 const
 mozilla
 :
@@ -1512,7 +1514,6 @@ dom
 :
 :
 ClonedMessageData
-ClonedMessageType
 ;
 static
 void
@@ -1559,7 +1560,9 @@ MemoryTraits
 CopyMemory
 >
 {
-typedef
+using
+ClonedMessageType
+=
 const
 mozilla
 :
@@ -1568,7 +1571,6 @@ dom
 :
 :
 ClonedMessageData
-ClonedMessageType
 ;
 static
 void
@@ -1622,7 +1624,9 @@ note
 not
 const
 !
-typedef
+using
+ClonedMessageType
+=
 mozilla
 :
 :
@@ -1630,7 +1634,6 @@ dom
 :
 :
 ClonedMessageData
-ClonedMessageType
 ;
 static
 void
