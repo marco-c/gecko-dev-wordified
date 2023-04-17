@@ -1166,6 +1166,7 @@ blocklist
 MesaLLVMPipe
 MesaSoftPipe
 MesaSWRast
+MesaSWUnknown
 /
 /
 AMD
