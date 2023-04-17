@@ -6332,16 +6332,6 @@ LastPointRef
 )
 ;
 }
-bool
-IsWhiteSpaceCollapsible
-(
-)
-const
-{
-return
-mIsWhiteSpaceCollapsible
-;
-}
 template
 <
 typename
