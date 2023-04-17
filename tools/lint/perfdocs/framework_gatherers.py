@@ -1859,9 +1859,6 @@ in
 "
 playback_pageset_manifest
 "
-"
-playback_recordings
-"
 ]
 :
                     
