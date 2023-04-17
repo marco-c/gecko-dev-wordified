@@ -109,6 +109,11 @@ UNIFIED_SOURCES
 =
 [
 "
+ExtensionAPIBase
+.
+cpp
+"
+"
 ExtensionBrowser
 .
 cpp
@@ -122,6 +127,11 @@ extensions
 +
 =
 [
+"
+ExtensionAPIBase
+.
+h
+"
 "
 ExtensionBrowser
 .
