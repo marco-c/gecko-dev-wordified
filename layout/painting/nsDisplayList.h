@@ -35300,6 +35300,9 @@ mFrame
 nsRect
 mEffectsBounds
 ;
+nsRect
+mVisibleRect
+;
 }
 ;
 /
