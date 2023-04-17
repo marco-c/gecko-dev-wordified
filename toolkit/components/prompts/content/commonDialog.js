@@ -579,6 +579,16 @@ getElementById
 password1Label
 "
 )
+infoRow
+:
+document
+.
+getElementById
+(
+"
+infoRow
+"
+)
 infoBody
 :
 document
