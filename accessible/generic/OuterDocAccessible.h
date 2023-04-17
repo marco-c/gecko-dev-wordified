@@ -396,6 +396,12 @@ aEl
 const
 override
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 virtual
 uint32_t
 ChildCount
@@ -404,12 +410,6 @@ ChildCount
 const
 override
 ;
-#
-if
-defined
-(
-XP_WIN
-)
 virtual
 LocalAccessible
 *
