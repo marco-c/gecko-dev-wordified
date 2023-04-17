@@ -769,6 +769,16 @@ RacyFeatures
 "
 )
 .
+rustified_enum
+(
+"
+mozilla
+:
+:
+StackCaptureOptions
+"
+)
+.
 raw_line
 (
 "
