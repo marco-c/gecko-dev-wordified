@@ -241,14 +241,8 @@ sSuspected
 =
 0
 ;
-inline
+static
 uint32_t
-mozilla
-:
-:
-CCGCScheduler
-:
-:
 SuspectedCCObjects
 (
 )
@@ -433,6 +427,9 @@ IsCCNeeded
 Now
 (
 )
+SuspectedCCObjects
+(
+)
 )
 ;
 mScheduler
@@ -527,6 +524,9 @@ mScheduler
 IsCCNeeded
 (
 Now
+(
+)
+SuspectedCCObjects
 (
 )
 )
@@ -704,6 +704,9 @@ ShouldScheduleCC
 Now
 (
 )
+SuspectedCCObjects
+(
+)
 )
 )
 ;
@@ -775,6 +778,9 @@ AdvanceCCRunner
 (
 idleDeadline
 Now
+(
+)
+SuspectedCCObjects
 (
 )
 )
@@ -856,6 +862,9 @@ idleDeadline
 Now
 (
 )
+SuspectedCCObjects
+(
+)
 )
 ;
 }
@@ -901,6 +910,9 @@ idleDeadline
 Now
 (
 )
+SuspectedCCObjects
+(
+)
 )
 ;
 EXPECT_EQ
@@ -922,6 +934,9 @@ AdvanceCCRunner
 (
 idleDeadline
 Now
+(
+)
+SuspectedCCObjects
 (
 )
 )
@@ -1016,6 +1031,9 @@ Now
 (
 )
 suspectedBefore
+SuspectedCCObjects
+(
+)
 )
 ;
 }
@@ -1280,6 +1298,9 @@ idleDeadline
 Now
 (
 )
+SuspectedCCObjects
+(
+)
 )
 ;
 EXPECT_EQ
@@ -1514,6 +1535,9 @@ AdvanceCCRunner
 (
 nullDeadline
 Now
+(
+)
+SuspectedCCObjects
 (
 )
 )
@@ -1982,6 +2006,9 @@ IsCCNeeded
 Now
 (
 )
+SuspectedCCObjects
+(
+)
 )
 )
 ;
@@ -2001,6 +2028,9 @@ aScheduler
 ShouldScheduleCC
 (
 Now
+(
+)
+SuspectedCCObjects
 (
 )
 )
@@ -2043,6 +2073,9 @@ IsCCNeeded
 Now
 (
 )
+SuspectedCCObjects
+(
+)
 )
 )
 ;
@@ -2053,6 +2086,9 @@ aScheduler
 ShouldScheduleCC
 (
 Now
+(
+)
+SuspectedCCObjects
 (
 )
 )
@@ -2089,6 +2125,9 @@ ShouldScheduleCC
 Now
 (
 )
+SuspectedCCObjects
+(
+)
 )
 )
 ;
@@ -2120,6 +2159,9 @@ aScheduler
 ShouldScheduleCC
 (
 Now
+(
+)
+SuspectedCCObjects
 (
 )
 )
@@ -2204,6 +2246,9 @@ scheduler
 ShouldScheduleCC
 (
 Now
+(
+)
+SuspectedCCObjects
 (
 )
 )
