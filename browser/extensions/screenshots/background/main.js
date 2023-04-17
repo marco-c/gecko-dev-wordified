@@ -71,7 +71,6 @@ auth
 senderror
 startBackground
 blobConverters
-buildSettings
 startSelectionWithOnboarding
 *
 /
@@ -94,6 +93,11 @@ exports
 =
 {
 }
+;
+const
+pngToJpegCutoff
+=
+2500000
 ;
 const
 {
@@ -1289,17 +1293,10 @@ toDataURL
 ;
 if
 (
-buildSettings
-.
-pngToJpegCutoff
-&
-&
 dataUrl
 .
 length
 >
-buildSettings
-.
 pngToJpegCutoff
 )
 {

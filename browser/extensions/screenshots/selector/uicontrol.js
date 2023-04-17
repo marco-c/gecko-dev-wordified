@@ -74,7 +74,6 @@ shooter
 callBackground
 selectorLoader
 assertIsTrusted
-buildSettings
 selection
 *
 /
@@ -400,16 +399,12 @@ catcher
 const
 MAX_PAGE_HEIGHT
 =
-buildSettings
-.
-maxImageHeight
+10000
 ;
 const
 MAX_PAGE_WIDTH
 =
-buildSettings
-.
-maxImageWidth
+10000
 ;
 /
 /

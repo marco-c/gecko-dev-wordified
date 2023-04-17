@@ -165,9 +165,9 @@ extensions
 /
 screenshots
 /
-build
+selector
 /
-buildSettings
+uicontrol
 .
 js
 const

@@ -67,7 +67,6 @@ inlineSelectionCss
 callBackground
 assertIsTrusted
 assertIsBlankDocument
-buildSettings
 blobConverters
 *
 /

@@ -71,7 +71,6 @@ catcher
 /
 *
 globals
-buildSettings
 domainFromUrl
 randomString
 shot

@@ -130,13 +130,6 @@ standardScripts
 =
 [
 "
-build
-/
-buildSettings
-.
-js
-"
-"
 log
 .
 js

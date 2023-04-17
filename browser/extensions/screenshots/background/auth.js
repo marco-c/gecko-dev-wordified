@@ -70,7 +70,6 @@ makeUuid
 deviceInfo
 analytics
 catcher
-buildSettings
 communication
 browser
 *
@@ -1232,11 +1231,6 @@ function
 {
 return
 sentryPublicDSN
-|
-|
-buildSettings
-.
-defaultSentryDsn
 ;
 }
 ;
