@@ -98241,9 +98241,10 @@ pref
 )
 &
 &
-JSID_IS_ATOM
-(
 id
+.
+isAtom
+(
 )
 )
 {
@@ -99334,9 +99335,10 @@ pref
 )
 &
 &
-JSID_IS_ATOM
-(
 id
+.
+isAtom
+(
 )
 )
 ;
