@@ -181,9 +181,6 @@ namespace
 js
 {
 class
-AccessorShape
-;
-class
 FatInlineAtom
 ;
 class
