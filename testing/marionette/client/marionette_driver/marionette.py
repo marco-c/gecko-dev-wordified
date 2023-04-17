@@ -3416,6 +3416,12 @@ is_shutting_down
 =
 False
         
+self
+.
+cleanup_ran
+=
+False
+        
 if
 socket_timeout
 is
@@ -3894,6 +3900,12 @@ times
 "
                 
 )
+        
+self
+.
+cleanup_ran
+=
+True
     
 def
 __del__
@@ -3902,6 +3914,13 @@ self
 )
 :
         
+if
+not
+self
+.
+cleanup_ran
+:
+            
 self
 .
 cleanup
@@ -8780,6 +8799,12 @@ resp
 capabilities
 "
 ]
+        
+self
+.
+cleanup_ran
+=
+False
         
 #
 fallback
