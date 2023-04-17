@@ -7300,7 +7300,7 @@ return
 ;
 NS_ASSERTION
 (
-GetLayerManager
+GetWindowRenderer
 (
 )
 -
@@ -8226,7 +8226,7 @@ mView
 ;
 if
 (
-GetLayerManager
+GetWindowRenderer
 (
 )
 -
@@ -8265,7 +8265,7 @@ aRegion
 }
 if
 (
-GetLayerManager
+GetWindowRenderer
 (
 )
 -
@@ -8599,7 +8599,7 @@ WillPaintWindow
 ;
 if
 (
-GetLayerManager
+GetWindowRenderer
 (
 )
 -

@@ -320,7 +320,7 @@ using
 nsBaseWidget
 :
 :
-GetLayerManager
+GetWindowRenderer
 ;
 nsWindow
 (
@@ -1152,9 +1152,9 @@ GetInputContext
 )
 override
 ;
-LayerManager
+WindowRenderer
 *
-GetLayerManager
+GetWindowRenderer
 (
 )
 override

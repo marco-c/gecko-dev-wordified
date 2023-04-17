@@ -677,9 +677,9 @@ mInputContext
 ;
 }
 virtual
-LayerManager
+WindowRenderer
 *
-GetLayerManager
+GetWindowRenderer
 (
 )
 override

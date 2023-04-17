@@ -5498,8 +5498,8 @@ const
 *
 Get
 the
-layer
-manager
+window
+renderer
 for
 the
 widget
@@ -5515,9 +5515,9 @@ one
 .
 *
 /
-LayerManager
+WindowRenderer
 *
-GetLayerManager
+GetWindowRenderer
 (
 )
 ;

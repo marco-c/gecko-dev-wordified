@@ -1598,12 +1598,12 @@ TopLeft
 )
 ;
 }
-LayerManager
+WindowRenderer
 *
 HeadlessWidget
 :
 :
-GetLayerManager
+GetWindowRenderer
 (
 )
 {
@@ -1611,7 +1611,7 @@ return
 nsBaseWidget
 :
 :
-GetLayerManager
+GetWindowRenderer
 (
 )
 ;

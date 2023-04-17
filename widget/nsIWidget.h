@@ -486,6 +486,9 @@ uint32_t
 /
 namespace
 dom
+class
+WindowRenderer
+;
 namespace
 layers
 {
@@ -1949,6 +1952,13 @@ layers
 :
 LayerManager
 LayerManager
+;
+typedef
+mozilla
+:
+:
+WindowRenderer
+WindowRenderer
 ;
 typedef
 mozilla
@@ -8024,9 +8034,9 @@ widget
 *
 /
 virtual
-LayerManager
+WindowRenderer
 *
-GetLayerManager
+GetWindowRenderer
 (
 )
 =

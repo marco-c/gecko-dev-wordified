@@ -204,6 +204,11 @@ TransformClipNode
 .
 h
 "
+"
+WindowRenderer
+.
+h
+"
 ]
 EXPORTS
 .
@@ -303,6 +308,11 @@ cpp
 "
 "
 RetainedDisplayListBuilder
+.
+cpp
+"
+"
+WindowRenderer
 .
 cpp
 "
