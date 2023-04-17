@@ -255,6 +255,15 @@ BuildIdCharVector
 #
 include
 "
+js
+/
+OffThreadScriptCompilation
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext
