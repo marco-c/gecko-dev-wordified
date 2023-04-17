@@ -1260,6 +1260,10 @@ bool
 aSameEpoch
 =
 false
+bool
+aUserActivation
+=
+false
 )
 ;
 void
@@ -1585,6 +1589,8 @@ LoadEntryResult
 >
 &
 aLoadResults
+bool
+aUserActivation
 )
 ;
 void
@@ -1610,6 +1616,8 @@ LoadEntryResult
 >
 &
 aLoadResult
+bool
+aUserActivation
 )
 ;
 nsresult
@@ -1629,6 +1637,10 @@ LoadEntryResult
 aLoadResults
 bool
 aSameEpoch
+=
+false
+bool
+aUserActivation
 =
 false
 )
@@ -1783,6 +1795,8 @@ LoadEntryResult
 >
 &
 aLoadResults
+bool
+aUserActivation
 )
 ;
 /

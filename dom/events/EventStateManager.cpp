@@ -15750,6 +15750,7 @@ StaticPrefs
 browser_navigation_requireUserInteraction
 (
 )
+true
 )
 ;
 else
@@ -15764,6 +15765,7 @@ StaticPrefs
 browser_navigation_requireUserInteraction
 (
 )
+true
 )
 ;
 }

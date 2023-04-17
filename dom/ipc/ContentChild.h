@@ -4695,6 +4695,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 ;
 mozilla
@@ -4722,6 +4724,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 ;
 mozilla
@@ -4751,6 +4755,8 @@ int32_t
 >
 &
 aCancelContentJSEpoch
+bool
+aUserActivation
 )
 ;
 mozilla

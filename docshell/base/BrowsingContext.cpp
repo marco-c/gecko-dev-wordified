@@ -21481,6 +21481,8 @@ uint64_t
 aHistoryEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 std
 :
 :
@@ -21519,6 +21521,7 @@ this
 aOffset
 aHistoryEpoch
 aRequireUserInteraction
+aUserActivation
 std
 :
 :
@@ -21564,6 +21567,7 @@ HistoryGo
 aOffset
 aHistoryEpoch
 aRequireUserInteraction
+aUserActivation
 Canonical
 (
 )

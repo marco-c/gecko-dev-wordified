@@ -774,6 +774,8 @@ int32_t
 aOffset
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 ErrorResult
 &
 aRv
@@ -1001,6 +1003,7 @@ value
 )
 aOffset
 aRequireUserInteraction
+aUserActivation
 aRv
 )
 ;
@@ -1015,6 +1018,8 @@ int32_t
 aOffset
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 CallerType
 aCallerType
 ErrorResult
@@ -1119,6 +1124,7 @@ PendingAsyncHistoryNavigation
 this
 aOffset
 aRequireUserInteraction
+aUserActivation
 )
 ;
 mPendingNavigations
@@ -1150,6 +1156,8 @@ int32_t
 aOffset
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 ErrorResult
 &
 aRv
@@ -1259,6 +1267,7 @@ HistoryGo
 aOffset
 mHistoryEpoch
 aRequireUserInteraction
+aUserActivation
 [
 shistory
 ]
@@ -1310,6 +1319,7 @@ mHistory
 GotoIndex
 (
 aIndex
+aUserActivation
 )
 ;
 }

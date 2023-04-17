@@ -346,6 +346,7 @@ goBack
 (
 cancelContentJSEpoch
 requireUserInteraction
+true
 )
 ;
 }
@@ -380,6 +381,7 @@ goForward
 (
 cancelContentJSEpoch
 requireUserInteraction
+true
 )
 ;
 }
@@ -417,6 +419,7 @@ goToIndex
 (
 aIndex
 cancelContentJSEpoch
+true
 )
 ;
 }

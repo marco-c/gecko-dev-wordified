@@ -8353,6 +8353,18 @@ mIndex
 loadType
 HIST_CMD_RELOAD
 aLoadResults
+/
+*
+aSameEpoch
+*
+/
+false
+aReloadFlags
+&
+nsIWebNavigation
+:
+:
+LOAD_FLAGS_USER_ACTIVATION
 )
 ;
 if
@@ -12102,6 +12114,8 @@ GotoIndex
 (
 int32_t
 aIndex
+bool
+aUserActivation
 )
 {
 nsTArray
@@ -12117,6 +12131,13 @@ GotoIndex
 (
 aIndex
 loadResults
+/
+*
+aSameEpoch
+*
+/
+false
+aUserActivation
 )
 ;
 NS_ENSURE_SUCCESS
@@ -12204,6 +12225,8 @@ LoadEntryResult
 aLoadResults
 bool
 aSameEpoch
+bool
+aUserActivation
 )
 {
 return
@@ -12214,6 +12237,7 @@ LOAD_HISTORY
 HIST_CMD_GOTOINDEX
 aLoadResults
 aSameEpoch
+aUserActivation
 )
 ;
 }
@@ -12282,6 +12306,8 @@ LoadEntryResult
 >
 &
 aLoadResults
+bool
+aUserActivation
 )
 {
 mRequestedIndex
@@ -12305,6 +12331,13 @@ aNewIndex
 aLoadType
 aHistCmd
 aLoadResults
+/
+*
+aSameEpoch
+*
+/
+false
+aUserActivation
 )
 ;
 }
@@ -12324,6 +12357,13 @@ aNewIndex
 aLoadType
 aHistCmd
 aLoadResults
+/
+*
+aSameEpoch
+*
+/
+false
+aUserActivation
 )
 ;
 }
@@ -12351,6 +12391,8 @@ LoadEntryResult
 aLoadResults
 bool
 aSameEpoch
+bool
+aUserActivation
 )
 {
 MOZ_LOG
@@ -12850,6 +12892,7 @@ nextEntry
 mRootBC
 aLoadType
 aLoadResults
+aUserActivation
 )
 ;
 return
@@ -12873,6 +12916,7 @@ nextEntry
 mRootBC
 aLoadType
 aLoadResults
+aUserActivation
 )
 ;
 if
@@ -12903,6 +12947,7 @@ aIndex
 aLoadType
 aHistCmd
 aLoadResults
+aUserActivation
 )
 ;
 }
@@ -12933,6 +12978,8 @@ LoadEntryResult
 >
 &
 aLoadResults
+bool
+aUserActivation
 )
 {
 MOZ_ASSERT
@@ -13017,6 +13064,7 @@ aNextEntry
 aParent
 aLoadType
 aLoadResults
+aUserActivation
 )
 ;
 return
@@ -13363,6 +13411,7 @@ nChild
 bcChild
 aLoadType
 aLoadResults
+aUserActivation
 )
 )
 {
@@ -13396,6 +13445,8 @@ LoadEntryResult
 >
 &
 aLoadResults
+bool
+aUserActivation
 )
 {
 MOZ_ASSERT
@@ -13446,6 +13497,14 @@ new
 nsDocShellLoadState
 (
 newURI
+)
+;
+loadState
+-
+>
+SetHasValidUserGestureActivation
+(
+aUserActivation
 )
 ;
 /

@@ -28202,6 +28202,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 {
 if
@@ -28270,6 +28272,7 @@ docShell
 GoBack
 (
 aRequireUserInteraction
+aUserActivation
 )
 ;
 if
@@ -28330,6 +28333,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 {
 if
@@ -28398,6 +28403,7 @@ docShell
 GoForward
 (
 aRequireUserInteraction
+aUserActivation
 )
 ;
 if
@@ -28460,6 +28466,8 @@ int32_t
 >
 &
 aCancelContentJSEpoch
+bool
+aUserActivation
 )
 {
 if
@@ -28528,6 +28536,7 @@ docShell
 GotoIndex
 (
 aIndex
+aUserActivation
 )
 ;
 if

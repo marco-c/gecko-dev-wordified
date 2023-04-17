@@ -1043,6 +1043,8 @@ uint64_t
 aHistoryEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 Maybe
 <
 ContentParentId
@@ -1323,6 +1325,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 ;
 void
@@ -1337,6 +1341,8 @@ int32_t
 aCancelContentJSEpoch
 bool
 aRequireUserInteraction
+bool
+aUserActivation
 )
 ;
 void
@@ -1351,6 +1357,8 @@ int32_t
 >
 &
 aCancelContentJSEpoch
+bool
+aUserActivation
 )
 ;
 void
