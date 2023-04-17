@@ -50872,6 +50872,8 @@ DispatchInputEvent
 &
 event
 )
+.
+mContentStatus
 ;
 }
 else

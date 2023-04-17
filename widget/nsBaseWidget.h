@@ -2062,7 +2062,7 @@ routed
 through
 APZ
 .
-nsEventStatus
+ContentAndAPZEventStatus
 DispatchInputEvent
 (
 mozilla

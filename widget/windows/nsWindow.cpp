@@ -32142,6 +32142,8 @@ DispatchInputEvent
 (
 event
 )
+.
+mContentStatus
 ;
 return
 ConvertStatus
@@ -32200,6 +32202,8 @@ AsInputEvent
 (
 )
 )
+.
+mContentStatus
 ;
 return
 ConvertStatus
@@ -34356,6 +34360,8 @@ DispatchInputEvent
 &
 event
 )
+.
+mContentStatus
 )
 ;
 /
