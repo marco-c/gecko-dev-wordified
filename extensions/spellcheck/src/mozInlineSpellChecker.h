@@ -510,6 +510,13 @@ nullptr
 /
 /
 param
+aOp
+see
+mOp
+.
+/
+/
+param
 aForceNavigationWordCheck
 see
 mForceNavigationWordCheck
@@ -527,6 +534,8 @@ mozInlineSpellStatus
 mozInlineSpellChecker
 *
 aSpellChecker
+Operation
+aOp
 bool
 aForceNavigationWordCheck
 int32_t
@@ -542,6 +551,7 @@ previously
 started
 check
 .
+const
 Operation
 mOp
 ;
