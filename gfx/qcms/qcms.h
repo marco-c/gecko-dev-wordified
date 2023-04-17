@@ -4,6 +4,14 @@ QCMS_H
 #
 define
 QCMS_H
+/
+*
+clang
+-
+format
+off
+*
+/
 #
 ifdef
 __cplusplus
