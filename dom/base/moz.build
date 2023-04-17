@@ -1509,11 +1509,6 @@ BorrowedAttrInfo
 cpp
 "
 "
-CCGCScheduler
-.
-cpp
-"
-"
 CharacterData
 .
 cpp
