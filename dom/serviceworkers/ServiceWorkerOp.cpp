@@ -3514,8 +3514,14 @@ get_ServiceWorkerPushEventOpArgs
 (
 )
 ;
+RootedDictionary
+<
 PushEventInit
+>
 pushEventInit
+(
+aCx
+)
 ;
 if
 (

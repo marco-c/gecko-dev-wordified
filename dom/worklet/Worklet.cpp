@@ -917,8 +917,14 @@ ShareOrDependUpon
 aModuleURL
 )
 ;
+RootedDictionary
+<
 RequestInit
+>
 requestInit
+(
+aCx
+)
 ;
 requestInit
 .
