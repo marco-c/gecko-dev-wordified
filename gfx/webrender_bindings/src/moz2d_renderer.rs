@@ -6663,7 +6663,6 @@ font_key
 match
 template
 {
-&
 FontTemplate
 :
 :
@@ -6699,7 +6698,6 @@ data
 )
 ;
 }
-&
 FontTemplate
 :
 :
