@@ -3188,16 +3188,13 @@ One
 of
 '
 :
-:
 marker
 '
 '
 :
-:
 before
 '
 '
-:
 :
 after
 '
@@ -3244,7 +3241,6 @@ pseudo
 =
 "
 :
-:
 marker
 "
 ;
@@ -3272,7 +3268,6 @@ pseudo
 =
 "
 :
-:
 before
 "
 ;
@@ -3299,7 +3294,6 @@ parentNode
 pseudo
 =
 "
-:
 :
 after
 "

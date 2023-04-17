@@ -4642,20 +4642,17 @@ pseudo
 case
 "
 :
-:
 after
 "
 :
 case
 "
 :
-:
 before
 "
 :
 case
 "
-:
 :
 first
 -
@@ -4665,7 +4662,6 @@ letter
 case
 "
 :
-:
 first
 -
 line
@@ -4673,7 +4669,6 @@ line
 :
 case
 "
-:
 :
 selection
 "
@@ -4683,7 +4678,6 @@ true
 ;
 case
 "
-:
 :
 marker
 "
@@ -4698,7 +4692,6 @@ node
 ;
 case
 "
-:
 :
 backdrop
 "
@@ -4717,7 +4710,6 @@ fullscreen
 case
 "
 :
-:
 cue
 "
 :
@@ -4733,7 +4725,6 @@ VIDEO
 ;
 case
 "
-:
 :
 file
 -
@@ -4765,13 +4756,11 @@ file
 case
 "
 :
-:
 placeholder
 "
 :
 case
 "
-:
 :
 -
 moz
@@ -4789,7 +4778,6 @@ node
 ;
 case
 "
-:
 :
 -
 moz
@@ -4809,7 +4797,6 @@ node
 ;
 case
 "
-:
 :
 -
 moz
@@ -4832,7 +4819,6 @@ METER
 case
 "
 :
-:
 -
 moz
 -
@@ -4853,7 +4839,6 @@ PROGRESS
 ;
 case
 "
-:
 :
 -
 moz
@@ -4886,7 +4871,6 @@ color
 case
 "
 :
-:
 -
 moz
 -
@@ -4898,7 +4882,6 @@ progress
 case
 "
 :
-:
 -
 moz
 -
@@ -4909,7 +4892,6 @@ thumb
 :
 case
 "
-:
 :
 -
 moz
