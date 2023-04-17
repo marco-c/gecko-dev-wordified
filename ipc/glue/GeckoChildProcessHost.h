@@ -262,13 +262,6 @@ h
 #
 include
 "
-nsExceptionHandler
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h
@@ -1595,12 +1588,6 @@ InitWindowsGroupID
 ;
 nsString
 mGroupId
-;
-CrashReporter
-:
-:
-WindowsErrorReportingData
-mWerData
 ;
 #
 ifdef
