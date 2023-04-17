@@ -12816,12 +12816,10 @@ titlebar
 Atom
 (
 "
-titlebar_max_button
+titlebar_button
 "
 "
 titlebar
--
-max
 -
 btn
 "
