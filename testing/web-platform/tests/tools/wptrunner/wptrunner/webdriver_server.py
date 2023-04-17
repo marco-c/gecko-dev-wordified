@@ -12,6 +12,11 @@ import
 time
 import
 traceback
+from
+typing
+import
+ClassVar
+Type
 import
 mozprocess
 from
@@ -80,6 +85,16 @@ default_base_path
 output_handler_cls
 =
 OutputHandler
+#
+type
+:
+ClassVar
+[
+Type
+[
+OutputHandler
+]
+]
     
 def
 __init__

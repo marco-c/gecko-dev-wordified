@@ -89,6 +89,10 @@ tc
 github_checks_output
 import
 get_gh_checks_outputter
+#
+type
+:
+ignore
 from
 wpt
 .
@@ -96,6 +100,10 @@ markdown
 import
 markdown_adjust
 table
+#
+type
+:
+ignore
 #
 If
 a
@@ -135,6 +143,10 @@ LogActionFilter
 BaseHandler
 )
 :
+#
+type
+:
+ignore
     
 "
 "
@@ -291,6 +303,10 @@ reader
 LogHandler
 )
 :
+#
+type
+:
+ignore
     
 "
 "

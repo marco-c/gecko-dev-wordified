@@ -33,6 +33,10 @@ WptscreenshotFormatter
 BaseFormatter
 )
 :
+#
+type
+:
+ignore
     
 "
 "
