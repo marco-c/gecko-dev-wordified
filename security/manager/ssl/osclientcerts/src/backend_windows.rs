@@ -2168,9 +2168,12 @@ extracted
 first
 .
 let
+(
+_
 hash_bytes
+)
 =
-read_digest
+read_digest_info
 (
 data
 )
