@@ -6149,10 +6149,6 @@ AppendElement
 remotePrintJob
 )
 ;
-remotePrintJobListening
-=
-true
-;
 }
 }
 }
