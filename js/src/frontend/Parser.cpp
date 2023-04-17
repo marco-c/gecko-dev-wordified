@@ -4065,6 +4065,12 @@ DeclarationKind
 :
 Synthetic
 :
+case
+DeclarationKind
+:
+:
+PrivateMethod
+:
 {
 ParseContext
 :
