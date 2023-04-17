@@ -93,39 +93,57 @@ mozlog
 import
 get_default_logger
 #
-ExpectedFailure
-and
-UnexpectedSuccess
-are
-adapted
-from
-the
+With
 Python
-2
-#
-private
-classes
-_ExpectedFailure
+3
+both
+expectedFailure
 and
-_UnexpectedSuccess
-in
+unexpectedSuccess
+are
 #
+available
+in
 unittest
 /
 case
 .
 py
-which
-are
-no
-longer
-available
+but
+won
+'
+t
+work
+here
+because
+both
+#
+do
+not
+inherit
+from
+BaseException
+.
+And
+that
+'
+s
+currently
+needed
+#
 in
-Python
-3
+our
+custom
+test
+status
+handling
+in
+run
+(
+)
 .
 class
-ExpectedFailure
+expectedFailure
 (
 Exception
 )
@@ -167,7 +185,7 @@ exc_info
         
 super
 (
-ExpectedFailure
+expectedFailure
 self
 )
 .
@@ -181,7 +199,7 @@ exc_info
 =
 exc_info
 class
-UnexpectedSuccess
+unexpectedSuccess
 (
 Exception
 )
@@ -209,65 +227,6 @@ t
 "
     
 pass
-try
-:
-    
-#
-Since
-these
-errors
-can
-be
-thrown
-during
-execution
-under
-Python
-2
-    
-#
-we
-must
-support
-them
-until
-Marionette
-completes
-its
-transition
-    
-#
-from
-Python
-2
-to
-Python
-3
-.
-    
-from
-unittest
-.
-case
-import
-(
-        
-_ExpectedFailure
-        
-_UnexpectedSuccess
-    
-)
-except
-ImportError
-:
-    
-_ExpectedFailure
-=
-ExpectedFailure
-    
-_UnexpectedSuccess
-=
-UnexpectedSuccess
 def
 _wraps_parameterized
 (
@@ -1101,7 +1060,7 @@ Exception
 :
                         
 raise
-_ExpectedFailure
+expectedFailure
 (
 sys
 .
@@ -1146,7 +1105,7 @@ UnresponsiveInstanceException
 raise
             
 except
-_ExpectedFailure
+expectedFailure
 as
 e
 :
@@ -1210,7 +1169,7 @@ Exception
 :
                             
 raise
-_ExpectedFailure
+expectedFailure
 (
 sys
 .
@@ -1220,7 +1179,7 @@ exc_info
 )
                         
 raise
-_UnexpectedSuccess
+unexpectedSuccess
                     
 else
 :
@@ -1263,7 +1222,7 @@ UnresponsiveInstanceException
 raise
                 
 except
-_ExpectedFailure
+expectedFailure
 as
 e
 :
@@ -1277,7 +1236,7 @@ exc_info
 )
                 
 except
-_UnexpectedSuccess
+unexpectedSuccess
 :
                     
 addUnexpectedSuccess
@@ -1415,7 +1374,7 @@ Exception
 :
                             
 raise
-_ExpectedFailure
+expectedFailure
 (
 sys
 .
@@ -1443,7 +1402,7 @@ UnresponsiveInstanceException
 raise
                 
 except
-_ExpectedFailure
+expectedFailure
 as
 e
 :
