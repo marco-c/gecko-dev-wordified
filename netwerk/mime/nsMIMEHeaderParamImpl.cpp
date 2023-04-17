@@ -4932,7 +4932,7 @@ CRLF
 .
 if
 (
-PL_strstr
+strstr
 (
 aHeaderVal
 "
@@ -7861,7 +7861,7 @@ while
 (
 p
 =
-PL_strstr
+strstr
 (
 begin
 "

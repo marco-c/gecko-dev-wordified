@@ -18002,7 +18002,7 @@ result
 path
 resultPath
 =
-PL_strstr
+strstr
 (
 result
 "

@@ -169,13 +169,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -1680,11 +1673,12 @@ forgiving
 ;
 -
 )
+const
 char
 *
 p
 =
-PL_strstr
+strstr
 (
 block
 "
@@ -1734,7 +1728,7 @@ break
 ;
 p
 =
-PL_strstr
+strstr
 (
 block
 "
@@ -1886,7 +1880,7 @@ break
 ;
 p
 =
-PL_strstr
+strstr
 (
 block
 "

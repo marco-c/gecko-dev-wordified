@@ -5908,6 +5908,7 @@ lineStart
 nsAutoCString
 buf
 ;
+const
 char
 *
 endOfLine
@@ -5917,7 +5918,7 @@ while
 (
 endOfLine
 =
-PL_strstr
+strstr
 (
 lineStart
 "

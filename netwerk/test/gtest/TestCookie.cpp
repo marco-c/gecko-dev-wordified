@@ -1138,7 +1138,7 @@ case
 MUST_CONTAIN
 :
 return
-PL_strstr
+strstr
 (
 aLhs
 aRhs
@@ -1151,7 +1151,7 @@ case
 MUST_NOT_CONTAIN
 :
 return
-PL_strstr
+strstr
 (
 aLhs
 aRhs

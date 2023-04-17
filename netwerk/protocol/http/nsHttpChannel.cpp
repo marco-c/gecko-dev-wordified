@@ -13447,7 +13447,7 @@ IsEmpty
 {
 if
 (
-PL_strstr
+strstr
 (
 alt_service
 .
@@ -13469,7 +13469,7 @@ saw_quic
 else
 if
 (
-PL_strstr
+strstr
 (
 alt_service
 .

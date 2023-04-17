@@ -19587,7 +19587,7 @@ _ns
 ;
 if
 (
-PL_strstr
+strstr
 (
 altSvc
 .
