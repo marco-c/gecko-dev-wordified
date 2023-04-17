@@ -6490,7 +6490,7 @@ are
 similar
 to
 *
-EditorBase
+HTMLEditUtils
 :
 :
 GetPreviousContent
@@ -6502,8 +6502,8 @@ WalkTreeOption
 IgnoreNonEditableNode
 }
 )
-but
 *
+but
 this
 won
 '
@@ -6939,7 +6939,7 @@ are
 similar
 to
 *
-EditorBase
+HTMLEditUtils
 :
 :
 GetNextContent
