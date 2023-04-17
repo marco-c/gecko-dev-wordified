@@ -227,7 +227,11 @@ aError
 override
 ;
 virtual
+Result
+<
 bool
+nsresult
+>
 PerformAccesskey
 (
 bool
