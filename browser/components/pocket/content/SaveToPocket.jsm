@@ -329,9 +329,9 @@ panels
 if
 you
 change
-location
+tabs
 .
-locationSpecific
+tabSpecific
 :
 true
 onViewShowing
