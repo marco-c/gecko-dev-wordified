@@ -6244,6 +6244,14 @@ sandboxSettings
 .
 effectiveContentSandboxLevel
 ;
+data
+.
+contentWin32kLockdownState
+=
+sandboxSettings
+.
+contentWin32kLockdownStateString
+;
 }
 done
 (
