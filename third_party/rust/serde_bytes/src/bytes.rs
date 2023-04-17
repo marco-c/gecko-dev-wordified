@@ -139,7 +139,6 @@ Serializer
 /
 Wrapper
 around
-&
 [
 u8
 ]

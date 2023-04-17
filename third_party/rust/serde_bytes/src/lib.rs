@@ -311,7 +311,7 @@ serde_bytes
 .
 11
 .
-2
+5
 "
 )
 ]
@@ -337,6 +337,17 @@ no_std
 deny
 (
 missing_docs
+)
+]
+#
+!
+[
+allow
+(
+clippy
+:
+:
+needless_doctest_main
 )
 ]
 mod
