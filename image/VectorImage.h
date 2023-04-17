@@ -942,16 +942,6 @@ finished
 loading
 ?
 bool
-mIsDrawing
-;
-/
-/
-Are
-we
-currently
-drawing
-?
-bool
 mHaveAnimations
 ;
 /
