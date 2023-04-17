@@ -6022,7 +6022,7 @@ open
 (
 CERT_FILE
 "
-wt
+wb
 "
 )
 .
@@ -6043,7 +6043,7 @@ open
 (
 KEY_FILE
 "
-wt
+wb
 "
 )
 .
