@@ -1023,6 +1023,12 @@ gutter
 index
 )
 ;
+await
+waitForContextMenu
+(
+dbg
+)
+;
 selectContextMenuItem
 (
 dbg
