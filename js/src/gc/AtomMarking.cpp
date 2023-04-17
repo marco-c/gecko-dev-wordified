@@ -728,12 +728,9 @@ out
 of
 memory
 .
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 freeArenaIndexes
 .
 ref
