@@ -2461,7 +2461,7 @@ favicons
 for
 error
 pages
-either
+too
 .
 if
 (
@@ -2474,16 +2474,6 @@ Equals
 page
 .
 spec
-)
-|
-|
-icon
-.
-spec
-.
-EqualsLiteral
-(
-FAVICON_CERTERRORPAGE_URL
 )
 |
 |
