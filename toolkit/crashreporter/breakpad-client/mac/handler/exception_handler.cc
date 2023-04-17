@@ -856,6 +856,8 @@ EXC_MASK_ARITHMETIC
 EXC_MASK_BREAKPOINT
 |
 EXC_MASK_RESOURCE
+|
+EXC_MASK_GUARD
 ;
 kern_return_t
 ForwardException
@@ -3671,6 +3673,9 @@ EXC_BAD_ACCESS
 :
 case
 EXC_RESOURCE
+:
+case
+EXC_GUARD
 :
 subcode
 =
