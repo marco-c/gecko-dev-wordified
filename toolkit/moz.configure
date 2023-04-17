@@ -8099,6 +8099,8 @@ build_project
 enable
 for
 Firefox
+and
+Thunderbird
 only
 return
 build_project
@@ -8106,6 +8108,11 @@ in
 (
 "
 browser
+"
+"
+comm
+/
+mail
 "
 "
 mobile
