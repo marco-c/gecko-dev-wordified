@@ -811,7 +811,9 @@ new
 (
 prefs
 .
-mDefaultColor
+mColors
+.
+mDefault
 as
 usize
 )
@@ -2464,7 +2466,9 @@ pref_sheet_prefs
 (
 )
 .
-mDefaultBackgroundColor
+mColors
+.
+mDefaultBackground
 )
 }
 /
@@ -2495,7 +2499,9 @@ pref_sheet_prefs
 (
 )
 .
-mDefaultColor
+mColors
+.
+mDefault
 )
 }
 /
