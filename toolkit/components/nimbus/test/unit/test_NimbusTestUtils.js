@@ -333,12 +333,13 @@ featureId
 "
 enrollWithFeatureConfig
 "
+value
+:
+{
 enabled
 :
 true
-value
-:
-null
+}
 }
 {
 manager

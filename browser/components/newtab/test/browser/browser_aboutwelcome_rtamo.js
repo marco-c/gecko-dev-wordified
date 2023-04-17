@@ -1140,7 +1140,7 @@ add_task
 (
 async
 function
-test_rtamo_over_experimnts
+test_rtamo_over_experiments
 (
 )
 {
@@ -1158,9 +1158,6 @@ featureId
 "
 aboutwelcome
 "
-enabled
-:
-true
 value
 :
 {
@@ -1168,6 +1165,9 @@ screens
 :
 [
 ]
+enabled
+:
+true
 }
 }
 )
