@@ -703,6 +703,8 @@ L10nRegistry
 nsIGlobalObject
 *
 aGlobal
+bool
+aUseIsolating
 )
 :
 mGlobal
@@ -718,6 +720,7 @@ ffi
 :
 l10nregistry_new
 (
+aUseIsolating
 )
 )
 )
@@ -776,6 +779,10 @@ const
 GlobalObject
 &
 aGlobal
+const
+L10nRegistryOptions
+&
+aOptions
 )
 {
 nsCOMPtr
@@ -800,6 +807,11 @@ L10nRegistry
 >
 (
 global
+aOptions
+.
+mBundleOptions
+.
+mUseIsolating
 )
 ;
 }
