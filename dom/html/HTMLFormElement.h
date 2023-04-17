@@ -3088,8 +3088,6 @@ const
 nsAString
 &
 aName
-bool
-aFlushContent
 )
 ;
 /
