@@ -3809,17 +3809,6 @@ false
 /
 Test
 deleteSurroundingText
-Ignore
-/
-/
-disable
-test
-for
-frequent
-failures
-in
-bug
-1655896
 WithDisplay
 (
 width
