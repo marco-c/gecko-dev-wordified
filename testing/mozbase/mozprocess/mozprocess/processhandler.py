@@ -8513,6 +8513,11 @@ write
 ensure
 (
 line
+errors
+=
+"
+ignore
+"
 )
 +
 ensure
