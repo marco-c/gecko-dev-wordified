@@ -1378,7 +1378,6 @@ meta
 )
 .
 name
-&
 label
 )
 )
@@ -1784,7 +1783,6 @@ lifetime
 store
 Some
 (
-&
 prefix
 )
 &
