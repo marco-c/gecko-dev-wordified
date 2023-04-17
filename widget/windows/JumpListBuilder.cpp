@@ -630,7 +630,7 @@ mscom
 EnsureMTA
 (
 [
-&
+this
 ]
 (
 )
