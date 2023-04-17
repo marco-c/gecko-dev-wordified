@@ -2513,11 +2513,13 @@ chrome
 :
 /
 /
-browser
+mozapps
 /
-content
+skin
 /
-extension
+extensions
+/
+extensionGeneric
 .
 svg
 "
