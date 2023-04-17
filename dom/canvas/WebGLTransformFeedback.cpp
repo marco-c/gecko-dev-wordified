@@ -174,13 +174,9 @@ tf
 mIndexedBindings
 (
 webgl
--
->
-Limits
-(
-)
-.
-maxTransformFeedbackSeparateAttribs
+:
+:
+kMaxTransformFeedbackSeparateAttribs
 )
 mIsPaused
 (

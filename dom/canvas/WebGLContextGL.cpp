@@ -8159,10 +8159,7 @@ GLsizei
 (
 limits
 .
-maxViewportDims
-[
-0
-]
+maxViewportDim
 )
 )
 ;
@@ -8181,10 +8178,7 @@ GLsizei
 (
 limits
 .
-maxViewportDims
-[
-1
-]
+maxViewportDim
 )
 )
 ;
