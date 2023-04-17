@@ -1489,6 +1489,7 @@ Cu
 .
 cloneInto
 (
+await
 AboutWelcomeDefaults
 .
 prepareContentForReact
