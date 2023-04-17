@@ -507,7 +507,7 @@ typename
 U
 >
 static
-QueueStatus
+bool
 Write
 (
 ProducerView
@@ -630,7 +630,7 @@ typename
 U
 >
 static
-QueueStatus
+bool
 Read
 (
 ConsumerView
@@ -682,10 +682,7 @@ out
 }
 ;
 return
-QueueStatus
-:
-:
-kSuccess
+true
 ;
 }
 uint8_t
@@ -740,10 +737,7 @@ temp
 )
 ;
 return
-QueueStatus
-:
-:
-kSuccess
+true
 ;
 }
 auto
@@ -766,10 +760,7 @@ if
 data
 )
 return
-QueueStatus
-:
-:
-kTooSmall
+false
 ;
 *
 out
@@ -790,10 +781,7 @@ data
 )
 ;
 return
-QueueStatus
-:
-:
-kSuccess
+true
 ;
 }
 }
@@ -867,7 +855,7 @@ typename
 U
 >
 static
-QueueStatus
+bool
 Write
 (
 ProducerView
@@ -955,7 +943,7 @@ typename
 U
 >
 static
-QueueStatus
+bool
 Read
 (
 ConsumerView
@@ -1071,7 +1059,7 @@ typename
 U
 >
 static
-QueueStatus
+bool
 Write
 (
 ProducerView
@@ -1145,7 +1133,7 @@ typename
 U
 >
 static
-QueueStatus
+bool
 Read
 (
 ConsumerView
@@ -1202,10 +1190,7 @@ if
 view
 )
 return
-QueueStatus
-:
-:
-kFatalError
+false
 ;
 aArg
 -
@@ -1265,7 +1250,7 @@ typename
 V
 >
 static
-QueueStatus
+bool
 Write
 (
 ProducerView
@@ -1340,7 +1325,7 @@ typename
 V
 >
 static
-QueueStatus
+bool
 Read
 (
 ConsumerView
@@ -1464,7 +1449,7 @@ typename
 U
 >
 static
-QueueStatus
+bool
 Write
 (
 ProducerView
@@ -1523,7 +1508,7 @@ typename
 U
 >
 static
-QueueStatus
+bool
 Read
 (
 ConsumerView

@@ -364,6 +364,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScopeExit
 .
 h
