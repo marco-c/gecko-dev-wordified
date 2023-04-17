@@ -3260,7 +3260,7 @@ report
 )
     
 def
-list
+list_warnings
 (
 self
 command_context
