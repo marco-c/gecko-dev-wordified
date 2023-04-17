@@ -121,6 +121,13 @@ nsAttrValueOrString
 .
 h
 "
+#
+include
+"
+nsAttrValueInlines
+.
+h
+"
 const
 nsAString
 &

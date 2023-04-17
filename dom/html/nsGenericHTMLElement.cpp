@@ -627,6 +627,17 @@ mozilla
 /
 dom
 /
+DocumentInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ElementInlines
 .
 h

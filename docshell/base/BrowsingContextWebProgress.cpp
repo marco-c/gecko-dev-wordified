@@ -79,6 +79,15 @@ include
 "
 mozilla
 /
+ErrorNames
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h

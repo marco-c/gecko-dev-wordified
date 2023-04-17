@@ -164,6 +164,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

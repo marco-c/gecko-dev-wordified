@@ -167,6 +167,15 @@ include
 "
 mozilla
 /
+StyleColorInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Components
 .
 h

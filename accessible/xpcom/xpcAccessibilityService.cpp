@@ -66,6 +66,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
 nsAccessiblePivot
 .
 h

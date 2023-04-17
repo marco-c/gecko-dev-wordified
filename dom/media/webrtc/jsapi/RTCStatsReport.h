@@ -246,6 +246,17 @@ h
 /
 /
 RTCStatsCollection
+#
+include
+"
+mozilla
+/
+dom
+/
+ToJSValue
+.
+h
+"
 namespace
 mozilla
 {

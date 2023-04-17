@@ -519,6 +519,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h

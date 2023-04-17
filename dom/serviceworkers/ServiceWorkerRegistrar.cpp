@@ -157,6 +157,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
 nsIEventTarget
 .
 h

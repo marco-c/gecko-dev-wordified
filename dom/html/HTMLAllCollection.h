@@ -123,9 +123,11 @@ mozilla_dom_HTMLAllCollection_h
 #
 include
 "
-js
+mozilla
 /
-RootingAPI
+dom
+/
+Document
 .
 h
 "
