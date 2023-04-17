@@ -234,6 +234,15 @@ include
 "
 jit
 /
+ShuffleAnalysis
+.
+h
+"
+#
+include
+"
+jit
+/
 TypeData
 .
 h
