@@ -886,9 +886,6 @@ aCx
 aResult
 )
 ;
-return
-NS_OK
-;
 }
 bool
 xpcAccessibleMacInterface
