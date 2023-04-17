@@ -148,6 +148,10 @@ priv_key
 ScopedSECKEYPublicKey
 *
 pub_key
+bool
+sensitive
+=
+true
 )
 const
 ;

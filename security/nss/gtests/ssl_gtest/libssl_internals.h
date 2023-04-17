@@ -444,6 +444,17 @@ size_t
 len
 )
 ;
+PRBool
+SSLInt_IsIp
+(
+PRUint8
+*
+s
+unsigned
+int
+len
+)
+;
 #
 endif
 /

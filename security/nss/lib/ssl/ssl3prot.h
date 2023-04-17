@@ -164,7 +164,7 @@ draft
 #
 define
 DTLS_1_3_DRAFT_VERSION
-38
+43
 typedef
 PRUint16
 ssl3CipherSuite

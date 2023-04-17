@@ -261,9 +261,7 @@ A
 status
 code
 .
-Status
-'
-s
+Statuses
 are
 used
 by
@@ -366,7 +364,7 @@ for
 procedures
 that
 return
-comparision
+comparison
 *
 *
 values
