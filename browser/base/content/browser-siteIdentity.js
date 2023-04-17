@@ -2392,6 +2392,8 @@ browser
 .
 proton
 .
+doorhangers
+.
 enabled
 "
 false

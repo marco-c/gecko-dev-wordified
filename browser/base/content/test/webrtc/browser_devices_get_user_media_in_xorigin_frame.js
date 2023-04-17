@@ -686,7 +686,7 @@ panel
 if
 (
 !
-gProton
+gProtonDoorhangers
 )
 {
 const
@@ -1556,7 +1556,7 @@ panel
 if
 (
 !
-gProton
+gProtonDoorhangers
 )
 {
 const

@@ -334,6 +334,8 @@ browser
 .
 proton
 .
+doorhangers
+.
 enabled
 "
 /
