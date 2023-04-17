@@ -3057,6 +3057,9 @@ remaining
 =
 0
 ;
+mozilla
+:
+:
 DebugOnly
 <
 nsresult

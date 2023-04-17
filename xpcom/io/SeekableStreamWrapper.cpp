@@ -135,6 +135,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+InputStreamUtils
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h

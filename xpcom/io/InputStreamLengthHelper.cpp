@@ -160,13 +160,6 @@ nsServiceManagerUtils
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kStreamTransportServiceCID
-NS_STREAMTRANSPORTSERVICE_CID
-)
-;
 namespace
 mozilla
 {
