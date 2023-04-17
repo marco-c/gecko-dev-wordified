@@ -2807,7 +2807,7 @@ break
 if
 (
 !
-mIsHandlingUserInput
+mHasValidTransientUserGestureActivation
 &
 &
 !
@@ -3254,7 +3254,7 @@ gesture
 if
 (
 !
-mIsHandlingUserInput
+mHasValidTransientUserGestureActivation
 &
 &
 StaticPrefs

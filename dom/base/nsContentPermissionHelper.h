@@ -477,7 +477,7 @@ nsIPrincipal
 aTopLevelPrincipal
 const
 bool
-aIsHandlingUserInput
+aHasValidTransientUserGestureActivation
 const
 bool
 aIsRequestDelegatedToUnsafeThirdParty
@@ -654,11 +654,11 @@ aElement
 override
 ;
 NS_IMETHOD
-GetIsHandlingUserInput
+GetHasValidTransientUserGestureActivation
 (
 bool
 *
-aIsHandlingUserInput
+aHasValidTransientUserGestureActivation
 )
 override
 ;
@@ -919,7 +919,7 @@ nsCString
 mType
 ;
 bool
-mIsHandlingUserInput
+mHasValidTransientUserGestureActivation
 ;
 /
 /

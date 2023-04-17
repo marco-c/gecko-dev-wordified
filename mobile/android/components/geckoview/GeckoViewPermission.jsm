@@ -1349,7 +1349,7 @@ notification
 !
 aRequest
 .
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 &
 &
 Services

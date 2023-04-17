@@ -1185,7 +1185,7 @@ unless
 *
 request
 .
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 is
 true
 .
@@ -2555,7 +2555,7 @@ this
 .
 request
 .
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 )
 {
 if

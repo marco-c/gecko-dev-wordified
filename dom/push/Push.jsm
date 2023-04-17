@@ -452,7 +452,7 @@ askPermission
 )
 ;
 let
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 =
 this
 .
@@ -542,7 +542,7 @@ this
 .
 _requestPermission
 (
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 resolve
 permissionDenied
 )
@@ -1070,7 +1070,7 @@ permission
 }
 _requestPermission
 (
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 allowCallback
 cancelCallback
 )
@@ -1174,7 +1174,7 @@ principal
 this
 .
 _principal
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 topLevelPrincipal
 :
 this
