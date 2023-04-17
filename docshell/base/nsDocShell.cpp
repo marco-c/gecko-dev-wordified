@@ -8199,6 +8199,14 @@ if
 doc
 )
 {
+doc
+-
+>
+SetContainer
+(
+this
+)
+;
 RefPtr
 <
 nsGlobalWindowInner
