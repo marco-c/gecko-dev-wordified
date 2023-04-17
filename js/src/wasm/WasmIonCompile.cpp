@@ -643,7 +643,7 @@ SystemAllocPolicy
 >
 ;
 using
-ControlFlowPatchsVector
+ControlFlowPatchVectorVector
 =
 Vector
 <
@@ -703,7 +703,7 @@ loopDepth_
 uint32_t
 blockDepth_
 ;
-ControlFlowPatchsVector
+ControlFlowPatchVectorVector
 blockPatches_
 ;
 /
