@@ -793,6 +793,9 @@ inspectorFront
 {
 isDestroyCodepath
 }
+=
+{
+}
 )
 {
 this
