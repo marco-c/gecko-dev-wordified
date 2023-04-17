@@ -124,7 +124,7 @@ h
 #
 include
 "
-FileInfoTImpl
+FileInfoImpl
 .
 h
 "
@@ -139,7 +139,7 @@ indexedDB
 {
 template
 class
-FileInfoT
+FileInfo
 <
 DatabaseFileManager
 >

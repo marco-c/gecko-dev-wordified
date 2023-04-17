@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-FileInfoTImpl
+FileInfoImpl
 .
 h
 "
@@ -129,7 +129,7 @@ SimpleFileManager
 using
 SimpleFileInfo
 =
-FileInfoT
+FileInfo
 <
 SimpleFileManager
 >

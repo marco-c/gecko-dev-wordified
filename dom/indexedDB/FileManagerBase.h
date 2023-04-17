@@ -171,7 +171,7 @@ h
 #
 include
 "
-FileInfoT
+FileInfo
 .
 h
 "
@@ -202,9 +202,9 @@ FileManagerBase
 public
 :
 using
-FileInfo
+FileInfoType
 =
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -215,7 +215,7 @@ MutexType
 StaticMutex
 ;
 using
-AutoLock
+AutoLockType
 =
 mozilla
 :
@@ -236,7 +236,7 @@ nodiscard
 ]
 SafeRefPtr
 <
-FileInfo
+FileInfoType
 >
 GetFileInfo
 (
@@ -272,7 +272,7 @@ nodiscard
 ]
 SafeRefPtr
 <
-FileInfo
+FileInfoType
 >
 CreateFileInfo
 (
@@ -298,7 +298,7 @@ fileInfo
 =
 MakeNotNull
 <
-FileInfo
+FileInfoType
 *
 >
 (
@@ -347,7 +347,7 @@ const
 int64_t
 aId
 const
-AutoLock
+AutoLockType
 &
 aFileMutexLock
 )
@@ -382,7 +382,7 @@ Invalidate
 (
 )
 {
-AutoLock
+AutoLockType
 lock
 (
 FileManager
@@ -412,7 +412,7 @@ auto
 iter
 )
 {
-FileInfo
+FileInfoType
 *
 info
 =
@@ -519,7 +519,7 @@ nodiscard
 ]
 SafeRefPtr
 <
-FileInfo
+FileInfoType
 >
 AcquireFileInfo
 (
@@ -591,10 +591,10 @@ aFileInfoTableOp
 >
 RefPtr
 <
-FileInfo
+FileInfoType
 >
 {
-AutoLock
+AutoLockType
 lock
 (
 FileManager
@@ -768,7 +768,7 @@ nsTHashMap
 nsUint64HashKey
 NotNull
 <
-FileInfo
+FileInfoType
 *
 >
 >
