@@ -438,7 +438,7 @@ const
 key
 value
 ]
-in
+of
 Object
 .
 entries
