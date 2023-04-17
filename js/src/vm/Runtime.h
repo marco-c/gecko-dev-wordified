@@ -2012,9 +2012,9 @@ js
 :
 MainThreadData
 <
-JSGetElementCallback
+JSSourceElementCallback
 >
-getElementCallback
+sourceElementCallback
 ;
 public
 :
@@ -2098,12 +2098,12 @@ callback
 )
 ;
 void
-setElementCallback
+setSourceElementCallback
 (
 JSRuntime
 *
 rt
-JSGetElementCallback
+JSSourceElementCallback
 callback
 )
 ;

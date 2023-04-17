@@ -2982,12 +2982,12 @@ void
 JS
 :
 :
-SetGetElementCallback
+SetSourceElementCallback
 (
 JSContext
 *
 cx
-JSGetElementCallback
+JSSourceElementCallback
 callback
 )
 {
@@ -3009,7 +3009,7 @@ runtime
 )
 -
 >
-setElementCallback
+setSourceElementCallback
 (
 cx
 -
