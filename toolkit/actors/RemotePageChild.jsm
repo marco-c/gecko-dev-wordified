@@ -535,7 +535,7 @@ Do
 nothing
 .
 The
-DOMWindowCreated
+DOMDocElementInserted
 event
 is
 just
