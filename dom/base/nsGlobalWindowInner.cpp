@@ -283,6 +283,17 @@ include
 "
 js
 /
+friend
+/
+PerformanceHint
+.
+h
+"
+#
+include
+"
+js
+/
 Id
 .
 h

@@ -144,6 +144,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

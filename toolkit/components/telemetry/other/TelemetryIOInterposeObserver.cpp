@@ -160,6 +160,15 @@ JS_DefineUCProperty
 #
 include
 "
+js
+/
+ValueArray
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h

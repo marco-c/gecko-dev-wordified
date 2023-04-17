@@ -134,6 +134,15 @@ include
 "
 js
 /
+OffThreadScriptCompilation
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h

@@ -159,6 +159,15 @@ JS_DefineProperty
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 mozilla
 /
 HangAnnotations

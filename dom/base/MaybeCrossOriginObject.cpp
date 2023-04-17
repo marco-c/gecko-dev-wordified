@@ -266,6 +266,15 @@ include
 "
 js
 /
+WeakMap
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h

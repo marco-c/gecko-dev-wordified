@@ -150,6 +150,15 @@ h
 #
 include
 "
+js
+/
+String
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
