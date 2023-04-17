@@ -472,7 +472,7 @@ open
 (
 depname
 "
-r
+rb
 "
 )
 .
