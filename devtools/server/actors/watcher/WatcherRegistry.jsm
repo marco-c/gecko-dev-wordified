@@ -1821,6 +1821,12 @@ watcher
 actorID
 )
 ;
+this
+.
+maybeUnregisteringJSWindowActor
+(
+)
+;
 }
 /
 *
