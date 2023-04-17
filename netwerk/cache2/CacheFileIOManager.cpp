@@ -11383,7 +11383,7 @@ limit
 )
 ;
 return
-NS_ERROR_FILE_DISK_FULL
+NS_ERROR_FILE_NO_DEVICE_SPACE
 ;
 }
 int64_t
@@ -11535,7 +11535,7 @@ limit
 )
 ;
 return
-NS_ERROR_FILE_DISK_FULL
+NS_ERROR_FILE_NO_DEVICE_SPACE
 ;
 }
 }
@@ -14408,7 +14408,7 @@ limit
 )
 ;
 return
-NS_ERROR_FILE_DISK_FULL
+NS_ERROR_FILE_NO_DEVICE_SPACE
 ;
 }
 int64_t
@@ -14558,7 +14558,7 @@ limit
 )
 ;
 return
-NS_ERROR_FILE_DISK_FULL
+NS_ERROR_FILE_NO_DEVICE_SPACE
 ;
 }
 }

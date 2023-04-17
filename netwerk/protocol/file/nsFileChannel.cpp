@@ -793,10 +793,6 @@ uint32_t
 num
 )
 {
-rv
-=
-NS_ERROR_FILE_DISK_FULL
-;
 /
 /
 stopped
@@ -807,6 +803,10 @@ of
 disk
 space
 )
+rv
+=
+NS_ERROR_FILE_NO_DEVICE_SPACE
+;
 break
 ;
 }
