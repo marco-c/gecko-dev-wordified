@@ -433,6 +433,13 @@ mIndexOnSheet
 aIndexOnSheet
 ;
 }
+ComputeTransformFunction
+GetTransformGetter
+(
+)
+const
+override
+;
 protected
 :
 explicit
