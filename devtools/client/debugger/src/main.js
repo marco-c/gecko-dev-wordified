@@ -442,7 +442,7 @@ store
 actions
 selectors
 workers
-targetList
+targetCommand
 :
 commands
 .
