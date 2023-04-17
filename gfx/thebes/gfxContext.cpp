@@ -161,13 +161,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxPattern
 .
 h
