@@ -1474,11 +1474,6 @@ RepaintRequest
 h
 "
 "
-RotatedBuffer
-.
-h
-"
-"
 SampleTime
 .
 h
@@ -3078,11 +3073,6 @@ cpp
 "
 "
 RepaintRequest
-.
-cpp
-"
-"
-RotatedBuffer
 .
 cpp
 "
