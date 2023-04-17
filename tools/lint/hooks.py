@@ -212,22 +212,6 @@ replace
 "
 )
     
-#
--
--
-quiet
-prevents
-warnings
-on
-eslint
-it
-will
-be
-ignored
-by
-other
-linters
-    
 python
 =
 find_executable
@@ -286,11 +270,6 @@ mach
 )
 "
 lint
-"
-"
--
--
-quiet
 "
 ]
     
