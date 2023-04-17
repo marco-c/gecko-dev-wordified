@@ -13458,9 +13458,6 @@ y
 ;
 }
 }
-#
-ifdef
-MOZ_WAYLAND
 static
 GdkGravity
 PopupAlignmentToGdkGravity
@@ -13551,8 +13548,6 @@ return
 GDK_GRAVITY_STATIC
 ;
 }
-#
-endif
 void
 nsWindow
 :
