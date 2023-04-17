@@ -11675,6 +11675,12 @@ mozilla
 :
 :
 StyleColorOrAuto
+mAccentColor
+;
+mozilla
+:
+:
+StyleCaretColor
 mCaretColor
 ;
 mozilla

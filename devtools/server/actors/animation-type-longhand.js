@@ -1491,6 +1491,11 @@ top
 color
 "
 "
+accent
+-
+color
+"
+"
 caret
 -
 color
