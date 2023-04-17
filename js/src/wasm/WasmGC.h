@@ -208,15 +208,6 @@ ABIArgIter
 #
 include
 "
-jit
-/
-Label
-.
-h
-"
-#
-include
-"
 js
 /
 AllocPolicy
@@ -256,6 +247,9 @@ js
 namespace
 jit
 {
+class
+Label
+;
 class
 MacroAssembler
 ;
