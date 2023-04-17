@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 import
 argparse
 import
@@ -19,6 +19,11 @@ def
 get_args
 (
 )
+-
+>
+argparse
+.
+ArgumentParser
 :
     
 parser
@@ -137,34 +142,15 @@ REMAINDER
 return
 parser
 def
-iter_range
-(
-n
-)
-:
-    
-i
-=
-0
-    
-while
-i
-<
-n
-:
-        
-yield
-i
-        
-i
-+
-=
-1
-def
 log
 (
 value
+:
+str
 )
+-
+>
+None
 :
     
 print
@@ -183,6 +169,9 @@ def
 main
 (
 )
+-
+>
+None
 :
     
 args
@@ -225,7 +214,7 @@ None
 for
 n
 in
-iter_range
+range
 (
 args
 .
