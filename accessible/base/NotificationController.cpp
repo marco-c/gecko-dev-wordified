@@ -2620,6 +2620,9 @@ LocalParent
 if
 (
 parent
+&
+&
+parent
 -
 >
 ReorderEventTarget
