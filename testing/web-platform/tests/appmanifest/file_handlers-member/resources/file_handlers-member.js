@@ -117,8 +117,6 @@ file_handlers
 -
 member
 -
-manual
--
 service
 -
 worker
