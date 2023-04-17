@@ -373,11 +373,14 @@ final
 :
 public
 nsIObserver
+public
+nsINamed
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
+NS_DECL_NSINAMED
 static
 void
 Create
