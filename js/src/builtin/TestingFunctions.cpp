@@ -46309,9 +46309,6 @@ return
 false
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 str
 =
 intl
@@ -46348,8 +46345,6 @@ return
 false
 ;
 }
-#
-endif
 #
 endif
 args
