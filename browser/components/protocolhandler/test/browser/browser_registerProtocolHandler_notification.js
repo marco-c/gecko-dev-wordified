@@ -359,6 +359,8 @@ skin
 icons
 /
 info
+-
+filled
 .
 svg
 "
