@@ -1642,7 +1642,7 @@ spellInfo
 {
 this
 .
-spellSuggesions
+spellSuggestions
 =
 this
 .
@@ -4750,7 +4750,7 @@ parentNode
 suggestionsSeparator
 this
 .
-spellSuggesions
+spellSuggestions
 )
 ;
 this
