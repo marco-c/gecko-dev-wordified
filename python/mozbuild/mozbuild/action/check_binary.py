@@ -490,6 +490,11 @@ readelf
 "
 -
 -
+wide
+"
+"
+-
+-
 syms
 "
 if
