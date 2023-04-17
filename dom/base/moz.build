@@ -526,6 +526,11 @@ nsMappedAttributeElement
 h
 "
 "
+nsMappedAttributes
+.
+h
+"
+"
 nsNameSpaceManager
 .
 h
