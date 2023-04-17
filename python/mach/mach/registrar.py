@@ -678,6 +678,7 @@ pdb
 runcall
 (
 fn
+instance
 *
 *
 kwargs
@@ -690,6 +691,7 @@ result
 =
 fn
 (
+instance
 *
 *
 kwargs

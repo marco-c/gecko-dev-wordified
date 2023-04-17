@@ -1697,6 +1697,7 @@ def
 run_xpcshell_test
 (
 self
+command_context
 test_objects
 =
 None

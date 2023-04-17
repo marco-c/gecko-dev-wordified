@@ -271,6 +271,7 @@ def
 reference
 (
 self
+command_context
 symbol
 name_only
 =
@@ -595,6 +596,7 @@ def
 file_info
 (
 self
+command_context
 )
 :
         
@@ -767,6 +769,7 @@ def
 file_info_bugzilla
 (
 self
+command_context
 paths
 rev
 =
@@ -1178,6 +1181,7 @@ def
 file_info_missing_bugzilla
 (
 self
+command_context
 paths
 rev
 =
@@ -1371,6 +1375,7 @@ def
 bugzilla_automation
 (
 self
+command_context
 out_dir
 )
 :
@@ -2459,6 +2464,7 @@ def
 file_info_schedules
 (
 self
+command_context
 paths
 )
 :

@@ -2146,6 +2146,7 @@ def
 run_awsy_test
 (
 self
+command_context
 tests
 *
 *

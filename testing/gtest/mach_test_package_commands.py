@@ -798,6 +798,7 @@ def
 gtest
 (
 self
+command_context
 *
 *
 kwargs
