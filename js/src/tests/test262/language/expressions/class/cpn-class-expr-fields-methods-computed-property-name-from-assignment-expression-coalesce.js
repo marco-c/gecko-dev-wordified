@@ -90,6 +90,11 @@ computed
 property
 -
 names
+logical
+-
+assignment
+-
+operators
 class
 -
 fields

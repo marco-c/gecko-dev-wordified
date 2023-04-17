@@ -89,6 +89,11 @@ computed
 property
 -
 names
+logical
+-
+assignment
+-
+operators
 ]
 flags
 :
