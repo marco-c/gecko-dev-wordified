@@ -38109,7 +38109,7 @@ SPI_SETFONTSMOOTHINGTYPE
 gfxDWriteFont
 :
 :
-UpdateSystemTextQuality
+UpdateSystemTextVars
 (
 )
 ;
@@ -39516,7 +39516,7 @@ that
 gfxDWriteFont
 :
 :
-UpdateSystemTextQuality
+UpdateSystemTextVars
 (
 )
 ;
