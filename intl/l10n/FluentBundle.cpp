@@ -1833,6 +1833,8 @@ mBuffer
 }
 buffer
 ;
+if
+(
 nf
 -
 >
@@ -1841,7 +1843,12 @@ format
 input
 buffer
 )
-;
+.
+isOk
+(
+)
+)
+{
 *
 aOutCount
 =
@@ -1864,6 +1871,10 @@ mBuffer
 release
 (
 )
+;
+}
+return
+nullptr
 ;
 }
 void
