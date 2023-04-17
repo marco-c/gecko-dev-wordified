@@ -2615,12 +2615,17 @@ CKM_SKIPJACK_CBC64
 if
 (
 symKey
+&
+&
+(
+symKey
 -
 >
 origin
 =
 =
 PK11_OriginFortezzaHack
+)
 )
 {
 context

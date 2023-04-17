@@ -29399,6 +29399,7 @@ sftk_VerifyDH_Prime
 (
 &
 prime
+isFIPS
 )
 ;
 if
@@ -46844,6 +46845,7 @@ sftk_VerifyDH_Prime
 (
 &
 dhPrime
+isFIPS
 )
 ;
 if
