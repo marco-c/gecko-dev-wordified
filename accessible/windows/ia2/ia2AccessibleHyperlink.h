@@ -143,6 +143,9 @@ namespace
 a11y
 {
 class
+AccessibleWrap
+;
+class
 ia2AccessibleHyperlink
 :
 public
@@ -322,6 +325,14 @@ out
 boolean
 *
 valid
+)
+;
+private
+:
+AccessibleWrap
+*
+LocalAcc
+(
 )
 ;
 }
