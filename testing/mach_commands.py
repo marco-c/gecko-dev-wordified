@@ -1454,7 +1454,7 @@ creator
 =
 creator_cls
 (
-self
+command_context
 .
 topsrcdir
 test
@@ -2618,7 +2618,7 @@ TEST_SUITES
         
 resolver
 =
-self
+command_context
 .
 _spawn
 (
@@ -2749,7 +2749,7 @@ format_args
 level
 "
 :
-self
+command_context
 .
 _mach_context
 .
@@ -2799,7 +2799,7 @@ False
         
 default_format
 =
-self
+command_context
 .
 _mach_context
 .
@@ -2918,7 +2918,7 @@ suite
                 
 res
 =
-self
+command_context
 .
 _mach_context
 .
@@ -2933,12 +2933,15 @@ suite
 mach_command
 "
 ]
-self
+                    
+command_context
 .
 _mach_context
+                    
 argv
 =
 extra_args
+                    
 *
 *
 kwargs
@@ -3101,7 +3104,7 @@ None
             
 res
 =
-self
+command_context
 .
 _mach_context
 .
@@ -3117,7 +3120,7 @@ mach_command
 "
 ]
                 
-self
+command_context
 .
 _mach_context
                 
@@ -3357,7 +3360,7 @@ path
 .
 join
 (
-self
+command_context
 .
 distdir
 "
@@ -3418,7 +3421,7 @@ path
 .
 join
 (
-self
+command_context
 .
 distdir
 "
@@ -3435,7 +3438,8 @@ path
 .
 join
 (
-self
+                
+command_context
 .
 topsrcdir
 "
@@ -3446,6 +3450,7 @@ cppunittest
 .
 ini
 "
+            
 )
         
 else
@@ -3457,7 +3462,7 @@ None
         
 utility_path
 =
-self
+command_context
 .
 bindir
         
@@ -3466,7 +3471,7 @@ conditions
 .
 is_android
 (
-self
+command_context
 )
 :
             
@@ -3487,7 +3492,7 @@ InstallIntent
             
 verify_android_device
 (
-self
+command_context
 install
 =
 InstallIntent
@@ -3523,12 +3528,15 @@ log
 def
 run_desktop_test
 (
+        
 self
+command_context
 tests
 symbols_path
 manifest_path
 utility_path
 log
+    
 )
 :
         
@@ -3588,7 +3596,7 @@ options
 .
 xre_path
 =
-self
+command_context
 .
 bindir
         
@@ -3649,11 +3657,14 @@ else
 def
 run_android_test
 (
+        
 self
+command_context
 tests
 symbols_path
 manifest_path
 log
+    
 )
 :
         
@@ -3713,7 +3724,7 @@ adb_path
 =
 get_adb_path
 (
-self
+command_context
 )
         
 options
@@ -3732,7 +3743,7 @@ options
 .
 xre_path
 =
-self
+command_context
 .
 bindir
         
@@ -3740,7 +3751,7 @@ options
 .
 local_lib
 =
-self
+command_context
 .
 bindir
 .
@@ -3767,7 +3778,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topobjdir
 "
@@ -3808,13 +3819,15 @@ path
 .
 join
 (
-self
+                    
+command_context
 .
 topobjdir
 "
 dist
 "
 file
+                
 )
                 
 log
@@ -4012,7 +4025,7 @@ params
 import
 subprocess
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -4022,7 +4035,7 @@ ensure
         
 python
 =
-self
+command_context
 .
 virtualenv_manager
 .
@@ -4038,7 +4051,7 @@ path
 .
 join
 (
-self
+command_context
 .
 bindir
 executable_name
@@ -4061,7 +4074,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -4230,7 +4243,7 @@ params
 import
 subprocess
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -4240,7 +4253,7 @@ ensure
         
 python
 =
-self
+command_context
 .
 virtualenv_manager
 .
@@ -4256,7 +4269,7 @@ path
 .
 join
 (
-self
+command_context
 .
 bindir
 executable_name
@@ -4279,7 +4292,8 @@ path
 .
 join
 (
-self
+                
+command_context
 .
 topsrcdir
 "
@@ -4298,6 +4312,7 @@ jit_test
 .
 py
 "
+            
 )
             
 js
@@ -4433,13 +4448,14 @@ subprocess
 jsapi_tests_cmd
 =
 [
+            
 os
 .
 path
 .
 join
 (
-self
+command_context
 .
 bindir
 executable_name
@@ -4451,6 +4467,7 @@ tests
 "
 )
 )
+        
 ]
         
 if
@@ -4481,7 +4498,7 @@ TOPSRCDIR
 "
 ]
 =
-self
+command_context
 .
 topsrcdir
         
@@ -4500,13 +4517,14 @@ def
 run_check_js_msg
 (
 self
+command_context
 )
 :
         
 import
 subprocess
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -4516,7 +4534,7 @@ ensure
         
 python
 =
-self
+command_context
 .
 virtualenv_manager
 .
@@ -4534,7 +4552,8 @@ path
 .
 join
 (
-self
+                
+command_context
 .
 topsrcdir
 "
@@ -4545,6 +4564,7 @@ check_js_msg_encoding
 .
 py
 "
+            
 )
         
 ]
@@ -4626,7 +4646,7 @@ kwargs
 )
 :
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -4810,7 +4830,7 @@ None
 )
 :
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -4839,7 +4859,7 @@ TestResolver
             
 resolver
 =
-self
+command_context
 .
 _spawn
 (
@@ -4926,7 +4946,7 @@ paths
 .
 "
             
-self
+command_context
 .
 log
 (
@@ -4977,7 +4997,7 @@ info
         
 python
 =
-self
+command_context
 .
 virtualenv_manager
 .
@@ -5019,7 +5039,7 @@ call
 cmd
 cwd
 =
-self
+command_context
 .
 topsrcdir
 )
@@ -5901,7 +5921,7 @@ Build
 try
 :
             
-self
+command_context
 .
 config_environment
         
@@ -5932,7 +5952,7 @@ builder
 =
 Build
 (
-self
+command_context
 .
 _mach_context
 None
@@ -6236,7 +6256,7 @@ kwargs
 :
         
 return
-self
+command_context
 .
 _mach_context
 .
@@ -6249,7 +6269,7 @@ dispatch
 build
 "
             
-self
+command_context
 .
 _mach_context
             
@@ -6357,7 +6377,7 @@ test_paths
 [
 ]
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -6406,7 +6426,7 @@ issues
 ]
 :
                     
-self
+command_context
 .
 log
 (
@@ -6503,7 +6523,7 @@ as
 e
 :
                 
-self
+command_context
 .
 log
 (
@@ -6561,7 +6581,7 @@ fmt
 .
 prepare_object_dir
 (
-self
+command_context
 )
         
 for
@@ -6577,7 +6597,7 @@ fmt
 .
 test_migration
 (
-self
+command_context
 obj_dir
 *
 *

@@ -98,6 +98,10 @@ as
 ET
 import
 yaml
+from
+types
+import
+SimpleNamespace
 import
 six
 from
@@ -150,7 +154,7 @@ mozbuild
 .
 util
 import
-memoized_property
+memoize
 from
 mozversioncontrol
 import
@@ -1180,6 +1184,58 @@ _cov_config
 =
 None
     
+#
+(
+TOOLS
+)
+Function
+return
+codes
+    
+TOOLS_SUCCESS
+=
+0
+    
+TOOLS_FAILED_DOWNLOAD
+=
+1
+    
+TOOLS_UNSUPORTED_PLATFORM
+=
+2
+    
+TOOLS_CHECKER_NO_TEST_FILE
+=
+3
+    
+TOOLS_CHECKER_RETURNED_NO_ISSUES
+=
+4
+    
+TOOLS_CHECKER_RESULT_FILE_NOT_FOUND
+=
+5
+    
+TOOLS_CHECKER_DIFF_FAILED
+=
+6
+    
+TOOLS_CHECKER_NOT_FOUND
+=
+7
+    
+TOOLS_CHECKER_FAILED_FILE
+=
+8
+    
+TOOLS_CHECKER_LIST_EMPTY
+=
+9
+    
+TOOLS_GRADLE_FAILED
+=
+10
+    
 Command
 (
         
@@ -1295,7 +1351,7 @@ topdir
 :
                 
 return
-self
+command_context
 .
 topsrcdir
         
@@ -1913,20 +1969,20 @@ StaticAnalysisOutputManager
         
 )
         
-self
+command_context
 .
 _set_log_level
 (
 verbose
 )
         
-self
+command_context
 .
 activate_virtualenv
 (
 )
         
-self
+command_context
 .
 log_manager
 .
@@ -1935,11 +1991,13 @@ enable_unstructured
 )
         
 rc
+clang_paths
 =
 self
 .
 _get_clang_tools
 (
+command_context
 verbose
 =
 verbose
@@ -1961,6 +2019,8 @@ self
 .
 _is_version_eligible
 (
+command_context
+clang_paths
 )
 :
             
@@ -1968,14 +2028,19 @@ return
 1
         
 rc
+_compile_db
+compilation_commands_path
 =
 self
 .
 _build_compile_db
 (
+            
+command_context
 verbose
 =
 verbose
+        
 )
         
 rc
@@ -1986,6 +2051,7 @@ self
 .
 _build_export
 (
+command_context
 jobs
 =
 jobs
@@ -2021,7 +2087,7 @@ repo
 =
 get_repository_object
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -2040,6 +2106,7 @@ self
 .
 get_abspath_files
 (
+command_context
 files
 )
         
@@ -2069,8 +2136,6 @@ loads
 (
 open
 (
-self
-.
 _compile_db
 "
 r
@@ -2201,6 +2266,7 @@ self
 .
 _generate_path_list
 (
+command_context
 source
 verbose
 =
@@ -2215,7 +2281,7 @@ not
 source
 :
             
-self
+command_context
 .
 log
 (
@@ -2296,7 +2362,7 @@ source
         
 cwd
 =
-self
+command_context
 .
 topobjdir
         
@@ -2305,17 +2371,20 @@ monitor
 StaticAnalysisMonitor
 (
             
-self
+command_context
 .
 topsrcdir
             
-self
+command_context
 .
 topobjdir
             
 self
 .
 get_clang_tidy_config
+(
+command_context
+)
 .
 checks_with_data
             
@@ -2327,7 +2396,7 @@ footer
 =
 StaticAnalysisFooter
 (
-self
+command_context
 .
 log_manager
 .
@@ -2339,7 +2408,7 @@ with
 StaticAnalysisOutputManager
 (
             
-self
+command_context
 .
 log_manager
 monitor
@@ -2400,6 +2469,12 @@ self
 _get_clang_tidy_command
 (
                     
+command_context
+                    
+clang_paths
+                    
+compilation_commands_path
+                    
 checks
 =
 checks
@@ -2433,7 +2508,7 @@ fix
                 
 rc
 =
-self
+command_context
 .
 run_process
 (
@@ -2458,7 +2533,7 @@ cwd
                 
 )
             
-self
+command_context
 .
 log
 (
@@ -2548,7 +2623,7 @@ code
 base
         
 if
-self
+command_context
 .
 substs
 [
@@ -2571,6 +2646,8 @@ self
 .
 check_java
 (
+                
+command_context
 source
 jobs
 strip
@@ -2578,6 +2655,7 @@ verbose
 skip_export
 =
 True
+            
 )
         
 return
@@ -2897,20 +2975,20 @@ False
 )
 :
         
-self
+command_context
 .
 _set_log_level
 (
 verbose
 )
         
-self
+command_context
 .
 activate_virtualenv
 (
 )
         
-self
+command_context
 .
 log_manager
 .
@@ -2929,7 +3007,7 @@ os
 environ
 :
             
-self
+command_context
 .
 log
 (
@@ -2971,7 +3049,7 @@ and
 outgoing
 :
             
-self
+command_context
 .
 log
 (
@@ -3022,7 +3100,7 @@ repo
 =
 get_repository_object
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -3041,6 +3119,7 @@ self
 .
 get_abspath_files
 (
+command_context
 files
 )
         
@@ -3074,7 +3153,7 @@ not
 full_build
 :
             
-self
+command_context
 .
 log
 (
@@ -3162,22 +3241,23 @@ services
 side
 .
         
-self
-.
-_cov_config
+cov_config
 =
 self
 .
 _get_cov_config
 (
+command_context
 )
         
 rc
+cov
 =
 self
 .
 setup_coverity
 (
+command_context
 )
         
 if
@@ -3227,7 +3307,7 @@ build
 cmd
 =
 [
-self
+cov
 .
 cov_run_desktop
 "
@@ -3242,8 +3322,9 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
-self
+cov
 .
 cov_path
 )
@@ -3314,7 +3395,7 @@ langs
 cmd
 =
 [
-self
+cov
 .
 cov_configure
 "
@@ -3335,6 +3416,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 )
 :
@@ -3384,14 +3466,14 @@ cpp
 cmd
 =
 [
-self
+cov
 .
 cov_make_library
 "
 -
 sf
 "
-self
+cov
 .
 cov_lic_path
 model_path
@@ -3402,6 +3484,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 )
 :
@@ -3425,7 +3508,7 @@ command
 cmd
 =
 [
-self
+cov
 .
 cov_build
 "
@@ -3475,11 +3558,10 @@ format
 (
 path
 )
-                
 for
 path
 in
-self
+cov
 .
 cov_capture_search
             
@@ -3547,6 +3629,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 )
 :
@@ -3570,7 +3653,7 @@ cmd
 =
 [
                 
-self
+cov
 .
 cov_analyze
                 
@@ -3613,7 +3696,7 @@ path
 .
 format
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -3623,7 +3706,7 @@ topsrcdir
 sf
 "
                 
-self
+cov
 .
 cov_lic_path
             
@@ -3652,9 +3735,7 @@ for
 key
 checker
 in
-self
-.
-_cov_config
+cov_config
 [
 "
 coverity_checkers
@@ -3685,6 +3766,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 )
 :
@@ -3708,7 +3790,7 @@ protocol
 https
 "
 if
-self
+cov
 .
 cov_server_ssl
 else
@@ -3737,10 +3819,10 @@ server_url
 format
 (
 protocol
-self
+cov
 .
 cov_url
-self
+cov
 .
 cov_port
 )
@@ -3749,7 +3831,7 @@ cmd
 =
 [
                 
-self
+cov
 .
 cov_commit_defects
                 
@@ -3763,7 +3845,7 @@ key
 file
 "
                 
-self
+cov
 .
 cov_auth_path
                 
@@ -3773,7 +3855,7 @@ cov_auth_path
 stream
 "
                 
-self
+cov
 .
 cov_stream
                 
@@ -3802,7 +3884,7 @@ server_url
 sf
 "
                 
-self
+cov
 .
 cov_lic_path
             
@@ -3813,6 +3895,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 )
 :
@@ -3835,7 +3918,7 @@ cmd
 =
 [
             
-self
+cov
 .
 cov_configure
             
@@ -3872,6 +3955,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 )
 :
@@ -3883,7 +3967,7 @@ cmd
 =
 [
             
-self
+cov
 .
 cov_configure
             
@@ -3920,6 +4004,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 )
 :
@@ -3931,7 +4016,7 @@ cmd
 =
 [
             
-self
+cov
 .
 cov_configure
             
@@ -4003,6 +4088,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 )
 :
@@ -4018,14 +4104,19 @@ Case
 00847671
         
 rc
+compile_db
+compilation_commands_path
 =
 self
 .
 _build_compile_db
 (
+            
+command_context
 verbose
 =
 verbose
+        
 )
         
 rc
@@ -4036,6 +4127,7 @@ self
 .
 _build_export
 (
+command_context
 jobs
 =
 2
@@ -4060,7 +4152,11 @@ self
 .
 get_files_with_commands
 (
+            
+command_context
+compile_db
 source
+        
 )
         
 if
@@ -4073,7 +4169,7 @@ commands_list
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -4224,7 +4320,7 @@ split
 cmd
 =
 [
-self
+cov
 .
 cov_translate
 "
@@ -4232,7 +4328,7 @@ cov_translate
 -
 dir
 "
-self
+cov
 .
 cov_idir_path
 ]
@@ -4249,6 +4345,7 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
 element
 [
@@ -4274,7 +4371,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_state_path
 "
@@ -4325,7 +4422,7 @@ cmd
 =
 [
             
-self
+cov
 .
 cov_run_desktop
             
@@ -4358,8 +4455,9 @@ self
 .
 run_cov_command
 (
+command_context
 cmd
-self
+cov
 .
 cov_state_path
 )
@@ -4379,15 +4477,20 @@ self
 .
 dump_cov_artifact
 (
+                
+command_context
+cov_config
 cov_result
 source
 output
+            
 )
     
 def
 get_abspath_files
 (
 self
+command_context
 files
 )
 :
@@ -4398,7 +4501,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 f
@@ -4413,6 +4516,7 @@ def
 run_cov_command
 (
 self
+command_context
 cmd
 path
 =
@@ -4437,14 +4541,15 @@ topsrcdir
             
 path
 =
-self
+command_context
 .
 topsrcdir
         
-self
+command_context
 .
 log
 (
+            
 logging
 .
 INFO
@@ -4466,11 +4571,12 @@ join
 (
 cmd
 )
+        
 )
         
 rc
 =
-self
+command_context
 .
 run_process
 (
@@ -4497,7 +4603,7 @@ rc
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -4545,20 +4651,22 @@ return
 def
 get_reliability_index_for_cov_checker
 (
+        
 self
+command_context
+cov_config
 checker_name
+    
 )
 :
         
 if
-self
-.
-_cov_config
+cov_config
 is
 None
 :
             
-self
+command_context
 .
 log
 (
@@ -4617,9 +4725,7 @@ medium
         
 checkers
 =
-self
-.
-_cov_config
+cov_config
 [
 "
 coverity_checkers
@@ -4633,7 +4739,7 @@ in
 checkers
 :
             
-self
+command_context
 .
 log
 (
@@ -4719,7 +4825,7 @@ a
 reliability
 index
             
-self
+command_context
 .
 log
 (
@@ -4811,10 +4917,14 @@ reliability
 def
 dump_cov_artifact
 (
+        
 self
+command_context
+cov_config
 cov_results
 source
 output
+    
 )
 :
         
@@ -4965,6 +5075,8 @@ self
 get_reliability_index_for_cov_checker
 (
                         
+command_context
+cov_config
 issue
 [
 "
@@ -5067,7 +5179,7 @@ event
 strippedFilePathname
 "
 ]
-self
+command_context
 .
 topsrcdir
                             
@@ -5135,7 +5247,7 @@ issue
 strippedMainEventFilePathname
 "
 ]
-self
+command_context
 .
 topsrcdir
                 
@@ -5184,7 +5296,7 @@ should
 log
 it
                     
-self
+command_context
 .
 log
 (
@@ -5328,6 +5440,7 @@ def
 get_coverity_secrets
 (
 self
+command_context
 )
 :
         
@@ -5375,7 +5488,7 @@ True
 secret_name
 )
         
-self
+command_context
 .
 log
 (
@@ -5461,13 +5574,19 @@ secret
 else
 None
         
+cov
+=
+SimpleNamespace
+(
+)
+        
 if
 cov_config
 is
 None
 :
             
-self
+command_context
 .
 log
 (
@@ -5503,8 +5622,9 @@ analysis
             
 return
 1
+cov
         
-self
+cov
 .
 cov_analysis_url
 =
@@ -5517,7 +5637,7 @@ package_url
 "
 )
         
-self
+cov
 .
 cov_package_name
 =
@@ -5530,7 +5650,7 @@ package_name
 "
 )
         
-self
+cov
 .
 cov_url
 =
@@ -5543,7 +5663,7 @@ server_url
 "
 )
         
-self
+cov
 .
 cov_server_ssl
 =
@@ -5584,7 +5704,7 @@ coverity
 deployment
 .
         
-self
+cov
 .
 cov_port
 =
@@ -5598,7 +5718,7 @@ server_port
 8443
 )
         
-self
+cov
 .
 cov_auth
 =
@@ -5611,7 +5731,7 @@ auth_key
 "
 )
         
-self
+cov
 .
 cov_package_ver
 =
@@ -5624,7 +5744,7 @@ package_ver
 "
 )
         
-self
+cov
 .
 cov_lic_name
 =
@@ -5637,7 +5757,7 @@ lic_name
 "
 )
         
-self
+cov
 .
 cov_capture_search
 =
@@ -5651,7 +5771,7 @@ fs_capture_search
 None
 )
         
-self
+cov
 .
 cov_full_stack
 =
@@ -5665,7 +5785,7 @@ full_stack
 False
 )
         
-self
+cov
 .
 cov_stream
 =
@@ -5681,39 +5801,42 @@ False
         
 return
 0
+cov
     
 def
 download_coverity
 (
 self
+command_context
+cov
 )
 :
         
 if
 (
             
-self
+cov
 .
 cov_url
 is
 None
             
 or
-self
+cov
 .
 cov_port
 is
 None
             
 or
-self
+cov
 .
 cov_analysis_url
 is
 None
             
 or
-self
+cov
 .
 cov_auth
 is
@@ -5722,7 +5845,7 @@ None
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -5881,7 +6004,7 @@ and
 auth
 files
         
-self
+cov
 .
 cov_auth_path
 =
@@ -5889,7 +6012,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_state_path
 "
@@ -5903,7 +6026,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_state_path
 "
@@ -5918,13 +6041,13 @@ cov_conf
 COVERITY_CONFIG
 %
 (
-self
+cov
 .
 cov_url
-self
+cov
 .
 cov_port
-self
+cov
 .
 cov_auth_path
 )
@@ -5940,7 +6063,7 @@ target
 import
 requests
             
-self
+command_context
 .
 log_manager
 .
@@ -5963,7 +6086,7 @@ stream
 True
 )
             
-self
+command_context
 .
 log_manager
 .
@@ -6012,10 +6135,10 @@ target
         
 download
 (
-self
+cov
 .
 cov_analysis_url
-self
+cov
 .
 cov_state_path
 )
@@ -6023,7 +6146,7 @@ cov_state_path
 with
 open
 (
-self
+cov
 .
 cov_auth_path
 "
@@ -6038,7 +6161,7 @@ f
 .
 write
 (
-self
+cov
 .
 cov_auth
 )
@@ -6056,7 +6179,7 @@ os
 .
 chmod
 (
-self
+cov
 .
 cov_auth_path
 0o600
@@ -6085,6 +6208,7 @@ def
 setup_coverity
 (
 self
+command_context
 force_download
 =
 True
@@ -6099,9 +6223,11 @@ self
 .
 _get_config_environment
 (
+command_context
 )
         
 rc
+cov
 =
 rc
 or
@@ -6109,6 +6235,7 @@ self
 .
 get_coverity_secrets
 (
+command_context
 )
         
 if
@@ -6120,6 +6247,7 @@ rc
             
 return
 rc
+cov
         
 #
 Create
@@ -6132,7 +6260,7 @@ we
 setup
 coverity
         
-self
+cov
 .
 cov_state_path
 =
@@ -6140,7 +6268,8 @@ mozpath
 .
 join
 (
-self
+            
+command_context
 .
 _mach_context
 .
@@ -6148,6 +6277,7 @@ state_dir
 "
 coverity
 "
+        
 )
         
 if
@@ -6161,7 +6291,7 @@ path
 .
 exists
 (
-self
+cov
 .
 cov_state_path
 )
@@ -6171,7 +6301,7 @@ shutil
 .
 rmtree
 (
-self
+cov
 .
 cov_state_path
 )
@@ -6180,7 +6310,7 @@ os
 .
 mkdir
 (
-self
+cov
 .
 cov_state_path
 )
@@ -6202,9 +6332,11 @@ self
 .
 download_coverity
 (
+command_context
+cov
 )
         
-self
+cov
 .
 cov_path
 =
@@ -6212,15 +6344,15 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_state_path
-self
+cov
 .
 cov_package_name
 )
         
-self
+cov
 .
 cov_run_desktop
 =
@@ -6228,7 +6360,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_path
 "
@@ -6243,7 +6375,7 @@ desktop
 "
 )
         
-self
+cov
 .
 cov_configure
 =
@@ -6251,7 +6383,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_path
 "
@@ -6264,7 +6396,7 @@ configure
 "
 )
         
-self
+cov
 .
 cov_make_library
 =
@@ -6272,7 +6404,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_path
 "
@@ -6287,7 +6419,7 @@ library
 "
 )
         
-self
+cov
 .
 cov_build
 =
@@ -6295,7 +6427,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_path
 "
@@ -6308,7 +6440,7 @@ build
 "
 )
         
-self
+cov
 .
 cov_analyze
 =
@@ -6316,7 +6448,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_path
 "
@@ -6329,7 +6461,7 @@ analyze
 "
 )
         
-self
+cov
 .
 cov_commit_defects
 =
@@ -6337,8 +6469,7 @@ mozpath
 .
 join
 (
-            
-self
+cov
 .
 cov_path
 "
@@ -6351,10 +6482,9 @@ commit
 -
 defects
 "
-        
 )
         
-self
+cov
 .
 cov_translate
 =
@@ -6362,7 +6492,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_path
 "
@@ -6375,7 +6505,7 @@ translate
 "
 )
         
-self
+cov
 .
 cov_configure
 =
@@ -6383,7 +6513,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_path
 "
@@ -6396,7 +6526,7 @@ configure
 "
 )
         
-self
+cov
 .
 cov_work_path
 =
@@ -6404,7 +6534,7 @@ mozpath
 .
 join
 (
-self
+cov
 .
 cov_state_path
 "
@@ -6414,7 +6544,7 @@ coverity
 "
 )
         
-self
+cov
 .
 cov_idir_path
 =
@@ -6422,20 +6552,18 @@ mozpath
 .
 join
 (
-            
-self
+cov
 .
 cov_work_path
-self
+cov
 .
 cov_package_ver
 "
 idir
 "
-        
 )
         
-self
+cov
 .
 cov_lic_path
 =
@@ -6444,16 +6572,16 @@ mozpath
 join
 (
             
-self
+cov
 .
 cov_work_path
-self
+cov
 .
 cov_package_ver
 "
 lic
 "
-self
+cov
 .
 cov_lic_name
         
@@ -6467,13 +6595,13 @@ path
 .
 exists
 (
-self
+cov
 .
 cov_path
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -6503,7 +6631,7 @@ in
 .
 format
 (
-self
+cov
 .
 cov_path
 )
@@ -6512,14 +6640,18 @@ cov_path
             
 return
 1
+cov
         
 return
 0
+cov
     
 def
 get_files_with_commands
 (
 self
+command_context
+compile_db
 source
 )
 :
@@ -6551,9 +6683,7 @@ load
 (
 open
 (
-self
-.
-_compile_db
+compile_db
 "
 r
 "
@@ -6608,10 +6738,11 @@ self
 _format_include_extensions
 :
                 
-self
+command_context
 .
 log
 (
+                    
 logging
 .
 INFO
@@ -6632,6 +6763,7 @@ format
 (
 f
 )
+                
 )
                 
 continue
@@ -6644,7 +6776,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 f
@@ -7066,20 +7198,20 @@ None
 )
 :
         
-self
+command_context
 .
 _set_log_level
 (
 verbose
 )
         
-self
+command_context
 .
 activate_virtualenv
 (
 )
         
-self
+command_context
 .
 log_manager
 .
@@ -7088,7 +7220,7 @@ enable_unstructured
 )
         
 if
-self
+command_context
 .
 substs
 [
@@ -7105,7 +7237,7 @@ android
 "
 :
             
-self
+command_context
 .
 log
 (
@@ -7149,6 +7281,7 @@ self
 .
 _check_for_java
 (
+command_context
 )
         
 if
@@ -7198,7 +7331,7 @@ output
 )
 :
                 
-self
+command_context
 .
 log
 (
@@ -7308,7 +7441,7 @@ repo
 =
 get_repository_object
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -7319,11 +7452,14 @@ self
 .
 _get_java_files
 (
+                
+command_context
 repo
 .
 get_outgoing_files
 (
 )
+            
 )
             
 if
@@ -7331,7 +7467,7 @@ not
 java_sources
 :
                 
-self
+command_context
 .
 log
 (
@@ -7374,6 +7510,7 @@ self
 .
 _get_java_files
 (
+command_context
 source
 )
             
@@ -7396,6 +7533,7 @@ self
 .
 _build_export
 (
+command_context
 jobs
 =
 jobs
@@ -7415,11 +7553,13 @@ return
 rc
         
 rc
+infer_path
 =
 self
 .
 _get_infer
 (
+command_context
 verbose
 =
 verbose
@@ -7432,7 +7572,7 @@ rc
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -7485,6 +7625,9 @@ self
 .
 _get_infer_config
 (
+            
+command_context
+        
 )
         
 checkers
@@ -7511,11 +7654,14 @@ self
 .
 _gradle
 (
+            
+command_context
 [
 "
 clean
 "
 ]
+        
 )
 #
 clean
@@ -7533,9 +7679,7 @@ command
 capture_cmd
 =
 [
-self
-.
-_infer_path
+infer_path
 "
 capture
 "
@@ -7558,6 +7702,8 @@ self
 .
 _gradle
 (
+            
+command_context
 [
 task
 ]
@@ -7567,6 +7713,7 @@ capture_cmd
 verbose
 =
 verbose
+        
 )
         
 tmp_file
@@ -7587,9 +7734,7 @@ command
 analysis_cmd
 =
 [
-self
-.
-_infer_path
+infer_path
 "
 analyze
 "
@@ -7610,7 +7755,7 @@ rc
 =
 rc
 or
-self
+command_context
 .
 run_process
 (
@@ -7620,7 +7765,7 @@ args
 analysis_cmd
 cwd
 =
-self
+command_context
 .
 topsrcdir
 pass_thru
@@ -7653,7 +7798,8 @@ path
 .
 join
 (
-self
+            
+command_context
 .
 topsrcdir
 "
@@ -7666,6 +7812,7 @@ report
 .
 json
 "
+        
 )
         
 if
@@ -7692,7 +7839,7 @@ report_path
 output
 )
             
-self
+command_context
 .
 log
 (
@@ -7732,6 +7879,7 @@ def
 _get_java_files
 (
 self
+command_context
 sources
 )
 :
@@ -7753,7 +7901,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 i
@@ -7967,6 +8115,7 @@ def
 _get_infer_config
 (
 self
+command_context
 )
 :
         
@@ -7996,11 +8145,12 @@ tp_path
 with
 open
 (
+            
 mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -8015,6 +8165,7 @@ config
 yaml
 "
 )
+        
 )
 as
 f
@@ -8070,7 +8221,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 config
@@ -8087,7 +8238,8 @@ mozpath
 .
 join
 (
-self
+                    
+command_context
 .
 topsrcdir
 config
@@ -8096,6 +8248,7 @@ config
 generated
 "
 ]
+                
 )
             
 except
@@ -8276,12 +8429,13 @@ return
 checkers
 excludes
     
-memoized_property
+memoize
     
 def
 get_clang_tidy_config
 (
 self
+command_context
 )
 :
         
@@ -8297,7 +8451,7 @@ ClangTidyConfig
 return
 ClangTidyConfig
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -8306,6 +8460,7 @@ def
 _get_cov_config
 (
 self
+command_context
 )
 :
         
@@ -8321,7 +8476,8 @@ mozpath
 .
 join
 (
-self
+                    
+command_context
 .
 topsrcdir
 "
@@ -8335,6 +8491,7 @@ config
 .
 yaml
 "
+                
 )
             
 )
@@ -8352,7 +8509,7 @@ except
 Exception
 :
             
-self
+command_context
 .
 log
 (
@@ -8414,6 +8571,7 @@ def
 _get_required_version
 (
 self
+command_context
 )
 :
         
@@ -8422,6 +8580,9 @@ version
 self
 .
 get_clang_tidy_config
+(
+command_context
+)
 .
 version
         
@@ -8431,7 +8592,7 @@ is
 None
 :
             
-self
+command_context
 .
 log
 (
@@ -8473,6 +8634,8 @@ def
 _get_current_version
 (
 self
+command_context
+clang_paths
 )
 :
         
@@ -8537,7 +8700,7 @@ format
 cmd
 =
 [
-self
+clang_paths
 .
 _clang_format_path
 "
@@ -8605,7 +8768,7 @@ in
 the
 CI
                 
-self
+command_context
 .
 log
 (
@@ -8634,10 +8797,12 @@ Version
 .
 format
 (
-self
+                        
+clang_paths
 .
 _clang_format_path
 version_info
+                    
 )
                 
 )
@@ -8650,7 +8815,7 @@ as
 e
 :
             
-self
+command_context
 .
 log
 (
@@ -8710,6 +8875,8 @@ def
 _is_version_eligible
 (
 self
+command_context
+clang_paths
 )
 :
         
@@ -8719,6 +8886,7 @@ self
 .
 _get_required_version
 (
+command_context
 )
         
 if
@@ -8736,6 +8904,8 @@ self
 .
 _get_current_version
 (
+command_context
+clang_paths
 )
         
 if
@@ -8767,7 +8937,7 @@ current_version
 return
 True
         
-self
+command_context
 .
 log
 (
@@ -8845,11 +9015,15 @@ self
 .
 _get_current_version
 (
+command_context
+clang_paths
 )
+                
 self
 .
 _get_required_version
 (
+command_context
 )
             
 )
@@ -8862,12 +9036,25 @@ False
 def
 _get_clang_tidy_command
 (
+        
 self
+        
+command_context
+        
+clang_paths
+        
+compilation_commands_path
+        
 checks
+        
 header_filter
+        
 sources
+        
 jobs
+        
 fix
+    
 )
 :
         
@@ -8891,6 +9078,9 @@ join
 self
 .
 get_clang_tidy_config
+(
+command_context
+)
 .
 checks
 )
@@ -8908,7 +9098,7 @@ tidy
 binary
 "
             
-self
+clang_paths
 .
 _clang_tidy_path
             
@@ -8923,7 +9113,7 @@ replacements
 binary
 "
             
-self
+clang_paths
 .
 _clang_apply_replacements
             
@@ -9100,6 +9290,9 @@ cfg
 self
 .
 get_clang_tidy_config
+(
+command_context
+)
 .
 checks_config
         
@@ -9146,13 +9339,13 @@ return
             
 [
                 
-self
+command_context
 .
 virtualenv_manager
 .
 python_path
                 
-self
+clang_paths
 .
 _run_clang_tidy_path
                 
@@ -9171,9 +9364,7 @@ jobs
 p
 "
                 
-self
-.
-_compilation_commands_path
+compilation_commands_path
             
 ]
             
@@ -9189,6 +9380,7 @@ def
 _check_for_java
 (
 self
+command_context
 )
 :
         
@@ -9213,7 +9405,7 @@ spawn
         
 java
 =
-self
+command_context
 .
 substs
 .
@@ -9324,7 +9516,7 @@ not
 java
 :
             
-self
+command_context
 .
 log
 (
@@ -9354,16 +9546,23 @@ _gradle
 (
         
 self
+        
+command_context
+        
 args
+        
 infer_args
 =
 None
+        
 verbose
 =
 False
+        
 autotest
 =
 False
+        
 suppress_output
 =
 True
@@ -9388,7 +9587,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -9419,7 +9618,7 @@ else
             
 gradle
 =
-self
+command_context
 .
 substs
 [
@@ -9430,7 +9629,7 @@ GRADLE
             
 cwd
 =
-self
+command_context
 .
 topsrcdir
         
@@ -9542,7 +9741,7 @@ True
 )
         
 return
-self
+command_context
 .
 run_process
 (
@@ -9860,102 +10059,27 @@ tidy
 package
 .
         
-self
+command_context
 .
 _set_log_level
 (
 verbose
 )
         
-self
+command_context
 .
 activate_virtualenv
 (
 )
         
-self
-.
-_dump_results
+dump_results
 =
 dump_results
         
 force_download
 =
 not
-self
-.
-_dump_results
-        
-#
-Function
-return
-codes
-        
-self
-.
-TOOLS_SUCCESS
-=
-0
-        
-self
-.
-TOOLS_FAILED_DOWNLOAD
-=
-1
-        
-self
-.
-TOOLS_UNSUPORTED_PLATFORM
-=
-2
-        
-self
-.
-TOOLS_CHECKER_NO_TEST_FILE
-=
-3
-        
-self
-.
-TOOLS_CHECKER_RETURNED_NO_ISSUES
-=
-4
-        
-self
-.
-TOOLS_CHECKER_RESULT_FILE_NOT_FOUND
-=
-5
-        
-self
-.
-TOOLS_CHECKER_DIFF_FAILED
-=
-6
-        
-self
-.
-TOOLS_CHECKER_NOT_FOUND
-=
-7
-        
-self
-.
-TOOLS_CHECKER_FAILED_FILE
-=
-8
-        
-self
-.
-TOOLS_CHECKER_LIST_EMPTY
-=
-9
-        
-self
-.
-TOOLS_GRADLE_FAILED
-=
-10
+dump_results
         
 #
 Configure
@@ -9979,6 +10103,12 @@ if
 intree_tool
 :
             
+clang_paths
+=
+SimpleNamespace
+(
+)
+            
 if
 "
 MOZ_AUTOMATION
@@ -9990,7 +10120,7 @@ os
 environ
 :
                 
-self
+command_context
 .
 log
 (
@@ -10042,7 +10172,7 @@ os
 environ
 :
                 
-self
+command_context
 .
 log
 (
@@ -10084,6 +10214,7 @@ self
 .
 _get_config_environment
 (
+command_context
 )
             
 clang_tools_path
@@ -10097,7 +10228,7 @@ MOZ_FETCHES_DIR
 "
 ]
             
-self
+clang_paths
 .
 _clang_tidy_path
 =
@@ -10139,7 +10270,7 @@ BIN_SUFFIX
             
 )
             
-self
+clang_paths
 .
 _clang_format_path
 =
@@ -10181,7 +10312,7 @@ BIN_SUFFIX
             
 )
             
-self
+clang_paths
 .
 _clang_apply_replacements
 =
@@ -10225,7 +10356,7 @@ BIN_SUFFIX
             
 )
             
-self
+clang_paths
 .
 _run_clang_tidy_path
 =
@@ -10258,7 +10389,7 @@ py
             
 )
             
-self
+clang_paths
 .
 _clang_format_diff
 =
@@ -10309,7 +10440,7 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _clang_tidy_path
 )
@@ -10318,17 +10449,21 @@ else
 :
             
 rc
+clang_paths
 =
 self
 .
 _get_clang_tools
 (
+                
+command_context
 force
 =
 force_download
 verbose
 =
 verbose
+            
 )
         
 if
@@ -10338,7 +10473,7 @@ rc
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -10378,7 +10513,7 @@ self
 .
 TOOLS_FAILED_DOWNLOAD
         
-self
+clang_paths
 .
 _clang_tidy_base_path
 =
@@ -10386,7 +10521,8 @@ mozpath
 .
 join
 (
-self
+            
+command_context
 .
 topsrcdir
 "
@@ -10397,6 +10533,7 @@ clang
 -
 tidy
 "
+        
 )
         
 #
@@ -10409,7 +10546,7 @@ it
 platform
 _
 =
-self
+command_context
 .
 platform
         
@@ -10420,11 +10557,14 @@ in
 self
 .
 get_clang_tidy_config
+(
+command_context
+)
 .
 platforms
 :
             
-self
+command_context
 .
 log
 (
@@ -10482,7 +10622,7 @@ cpu_count
 (
 )
         
-self
+command_context
 .
 log
 (
@@ -10539,7 +10679,7 @@ checkers
 cmd
 =
 [
-self
+clang_paths
 .
 _clang_tidy_path
 "
@@ -10597,9 +10737,7 @@ n
 :
 ]
         
-self
-.
-_clang_tidy_checks
+clang_tidy_checks
 =
 [
 c
@@ -10623,14 +10761,13 @@ compile_commands
 .
 json
         
-self
-.
-_compilation_commands_path
+compilation_commands_path
 =
 self
 .
 _create_temp_compilation_db
 (
+command_context
 )
         
 checkers_test_batch
@@ -10669,6 +10806,9 @@ in
 self
 .
 get_clang_tidy_config
+(
+command_context
+)
 .
 checks_with_data
 :
@@ -10878,11 +11018,25 @@ executor
 .
 submit
 (
+                        
 self
 .
 _verify_checker
+                        
+command_context
+                        
+clang_paths
+                        
+compilation_commands_path
+                        
+dump_results
+                        
+clang_tidy_checks
+                        
 item
+                        
 checkers_results
+                    
 )
                 
 )
@@ -10979,7 +11133,7 @@ self
 TOOLS_SUCCESS
 :
                 
-self
+command_context
 .
 log
 (
@@ -11346,9 +11500,7 @@ shutil
 .
 rmtree
 (
-self
-.
-_compilation_commands_path
+compilation_commands_path
 )
                 
 return
@@ -11377,9 +11529,7 @@ results
             
 if
 not
-self
-.
-_dump_results
+dump_results
 :
                 
 ret_val
@@ -11388,7 +11538,15 @@ self
 .
 _run_analysis_batch
 (
+                    
+command_context
+                    
+clang_paths
+                    
+compilation_commands_path
+                    
 checkers_test_batch
+                
 )
                 
 if
@@ -11404,15 +11562,13 @@ shutil
 .
 rmtree
 (
-self
-.
-_compilation_commands_path
+compilation_commands_path
 )
                     
 return
 ret_val
         
-self
+command_context
 .
 log
 (
@@ -11452,9 +11608,7 @@ shutil
 .
 rmtree
 (
-self
-.
-_compilation_commands_path
+compilation_commands_path
 )
         
 return
@@ -11462,9 +11616,13 @@ self
 .
 _autotest_infer
 (
+            
+command_context
+dump_results
 intree_tool
 force_download
 verbose
+        
 )
     
 def
@@ -11472,15 +11630,27 @@ _run_analysis
 (
         
 self
+        
+command_context
+        
+clang_paths
+        
+compilation_commands_path
+        
 checks
+        
 header_filter
+        
 sources
+        
 jobs
 =
 1
+        
 fix
 =
 False
+        
 print_out
 =
 False
@@ -11494,6 +11664,12 @@ self
 .
 _get_clang_tidy_command
 (
+            
+command_context
+            
+clang_paths
+            
+compilation_commands_path
             
 checks
 =
@@ -11568,6 +11744,7 @@ self
 .
 _parse_issues
 (
+command_context
 clang_output
 )
 clang_output
@@ -11575,12 +11752,17 @@ clang_output
 def
 _run_analysis_batch
 (
+        
 self
+command_context
+clang_paths
+compilation_commands_path
 items
+    
 )
 :
         
-self
+command_context
 .
 log
 (
@@ -11620,7 +11802,7 @@ items
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -11666,6 +11848,12 @@ self
 _run_analysis
 (
             
+command_context
+            
+clang_paths
+            
+compilation_commands_path
+            
 checks
 =
 "
@@ -11694,7 +11882,7 @@ mozpath
 .
 join
 (
-self
+clang_paths
 .
 _clang_tidy_base_path
 "
@@ -11702,6 +11890,7 @@ test
 "
 checker
 )
+                
 +
 "
 .
@@ -11756,7 +11945,7 @@ mozpath
 .
 join
 (
-self
+clang_paths
 .
 _clang_tidy_base_path
 "
@@ -11764,6 +11953,7 @@ test
 "
 checker
 )
+                
 +
 "
 .
@@ -11870,7 +12060,7 @@ failed_checks
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -12009,6 +12199,7 @@ def
 _create_temp_compilation_db
 (
 self
+command_context
 )
 :
         
@@ -12060,7 +12251,8 @@ mozpath
 .
 join
 (
-self
+                
+command_context
 .
 topsrcdir
 "
@@ -12074,6 +12266,7 @@ tidy
 "
 test
 "
+            
 )
             
 for
@@ -12082,6 +12275,9 @@ in
 self
 .
 get_clang_tidy_config
+(
+command_context
+)
 .
 checks
 :
@@ -12182,10 +12378,14 @@ directory
 def
 _autotest_infer
 (
+        
 self
+command_context
+dump_results
 intree_tool
 force_download
 verbose
+    
 )
 :
         
@@ -12210,7 +12410,7 @@ being
 installed
         
 if
-self
+command_context
 .
 platform
 [
@@ -12229,6 +12429,7 @@ self
 .
 _check_for_java
 (
+command_context
 )
             
 if
@@ -12242,18 +12443,23 @@ return
 1
             
 rc
+infer_path
 =
 self
 .
 _get_infer
 (
                 
+command_context
+                
 force
 =
 force_download
+                
 verbose
 =
 verbose
+                
 intree_tool
 =
 intree_tool
@@ -12267,7 +12473,7 @@ rc
 0
 :
                 
-self
+command_context
 .
 log
 (
@@ -12305,15 +12511,13 @@ self
 .
 TOOLS_FAILED_DOWNLOAD
             
-self
-.
-__infer_tool
+infer_tool
 =
 mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -12324,17 +12528,13 @@ infer
 "
 )
             
-self
-.
-__infer_test_folder
+infer_test_folder
 =
 mozpath
 .
 join
 (
-self
-.
-__infer_tool
+infer_tool
 "
 test
 "
@@ -12348,7 +12548,7 @@ cpu_count
 (
 )
             
-self
+command_context
 .
 log
 (
@@ -12387,7 +12587,7 @@ workers
 format
 (
                     
-self
+command_context
 .
 platform
 [
@@ -12413,6 +12613,7 @@ self
 .
 _gradle
 (
+command_context
 [
 "
 autotest
@@ -12445,9 +12646,7 @@ mozpath
 .
 join
 (
-self
-.
-__infer_tool
+infer_tool
 "
 config
 .
@@ -12519,10 +12718,23 @@ executor
 .
 submit
 (
+                                
 self
 .
 _verify_infer_checker
+                                
+command_context
+                                
+infer_path
+                                
+dump_results
+                                
+infer_tool
+                                
+infer_test_folder
+                                
 item
+                            
 )
                         
 )
@@ -12552,9 +12764,21 @@ executor
 .
 submit
 (
+                        
 self
 .
 _verify_infer_checker
+                        
+command_context
+                        
+infer_path
+                        
+dump_results
+                        
+infer_tool
+                        
+infer_test_folder
+                        
 {
 "
 name
@@ -12564,6 +12788,7 @@ name
 checkers
 "
 }
+                    
 )
                 
 )
@@ -12601,7 +12826,7 @@ TOOLS_SUCCESS
 return
 ret_val
             
-self
+command_context
 .
 log
 (
@@ -12631,7 +12856,7 @@ passed
 else
 :
             
-self
+command_context
 .
 log
 (
@@ -12673,8 +12898,21 @@ TOOLS_SUCCESS
 def
 _verify_infer_checker
 (
+        
 self
+        
+command_context
+        
+infer_path
+        
+dump_results
+        
+infer_tool
+        
+infer_test_folder
+        
 item
+    
 )
 :
         
@@ -12812,30 +13050,22 @@ mozpath
 join
 (
             
-self
-.
-__infer_tool
-            
+infer_tool
 "
 test
 "
-            
 "
 autotest
 "
-            
 "
 src
 "
-            
 "
 main
 "
-            
 "
 java
 "
-            
 to_camelcase
 (
 check
@@ -12861,7 +13091,7 @@ test_file_path
 json
 "
         
-self
+command_context
 .
 log
 (
@@ -12919,7 +13149,7 @@ test_file_path_java
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -12981,10 +13211,7 @@ mozpath
 .
 join
 (
-            
-self
-.
-__infer_test_folder
+infer_test_folder
 "
 test
 -
@@ -12998,7 +13225,6 @@ format
 (
 check
 )
-        
 )
         
 if
@@ -13046,9 +13272,7 @@ check
 infer_args
 =
 [
-self
-.
-_infer_path
+infer_path
 "
 run
 "
@@ -13094,6 +13318,8 @@ self
 .
 _gradle
 (
+            
+command_context
 gradle_args
 infer_args
 =
@@ -13101,6 +13327,7 @@ infer_args
 autotest
 =
 True
+        
 )
         
 if
@@ -13110,7 +13337,7 @@ rc
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -13215,7 +13442,7 @@ not
 issues
 :
             
-self
+command_context
 .
 log
 (
@@ -13272,9 +13499,7 @@ self
 TOOLS_CHECKER_RETURNED_NO_ISSUES
         
 if
-self
-.
-_dump_results
+dump_results
 :
             
 self
@@ -13317,7 +13542,7 @@ regenerate
 it
 ?
                 
-self
+command_context
 .
 log
 (
@@ -13516,7 +13741,7 @@ indent
 2
 )
                 
-self
+command_context
 .
 log
 (
@@ -13839,7 +14064,7 @@ False
 )
 :
         
-self
+command_context
 .
 _set_log_level
 (
@@ -13847,21 +14072,27 @@ verbose
 )
         
 rc
+clang_paths
 =
 self
 .
 _get_clang_tools
 (
             
+command_context
+            
 force
 =
 force
+            
 skip_cache
 =
 skip_cache
+            
 source
 =
 source
+            
 verbose
 =
 verbose
@@ -13906,6 +14137,8 @@ self
 .
 _get_infer
 (
+                
+command_context
 force
 =
 force
@@ -13915,6 +14148,7 @@ skip_cache
 verbose
 =
 verbose
+            
 )
         
 return
@@ -13961,7 +14195,7 @@ False
 )
 :
         
-self
+command_context
 .
 _set_log_level
 (
@@ -13969,21 +14203,27 @@ verbose
 )
         
 rc
+clang_paths
 =
 self
 .
 _get_clang_tools
 (
             
+command_context
+            
 force
 =
 True
+            
 download_if_needed
 =
 True
+            
 skip_cache
 =
 True
+            
 verbose
 =
 verbose
@@ -14003,7 +14243,7 @@ rc
 job
 _
 =
-self
+command_context
 .
 platform
         
@@ -14017,21 +14257,27 @@ linux64
 :
             
 rc
+infer_path
 =
 self
 .
 _get_infer
 (
                 
+command_context
+                
 force
 =
 True
+                
 download_if_needed
 =
 True
+                
 skip_cache
 =
 True
+                
 verbose
 =
 verbose
@@ -14048,10 +14294,24 @@ rc
 return
 rc
         
-return
-self
+from
+mozbuild
 .
-_artifact_manager
+atifact_commands
+import
+PackageFrontend
+        
+artifact_manager
+=
+PackageFrontend
+(
+command_context
+.
+_mach_context
+)
+        
+return
+artifact_manager
 .
 artifact_clear_cache
 (
@@ -14100,7 +14360,7 @@ False
 )
 :
         
-self
+command_context
 .
 _set_log_level
 (
@@ -14108,11 +14368,13 @@ verbose
 )
         
 rc
+clang_paths
 =
 self
 .
 _get_clang_tools
 (
+command_context
 verbose
 =
 verbose
@@ -14132,7 +14394,7 @@ args
 =
 [
             
-self
+clang_paths
 .
 _clang_tidy_path
             
@@ -14154,6 +14416,9 @@ s
 self
 .
 get_clang_tidy_config
+(
+command_context
+)
 .
 checks
         
@@ -14161,7 +14426,7 @@ checks
         
 rc
 =
-self
+command_context
 .
 run_process
 (
@@ -14186,7 +14451,7 @@ rc
 job
 _
 =
-self
+command_context
 .
 platform
         
@@ -14203,11 +14468,13 @@ return
 0
         
 rc
+infer_path
 =
 self
 .
 _get_infer
 (
+command_context
 verbose
 =
 verbose
@@ -14231,6 +14498,7 @@ self
 .
 _get_infer_config
 (
+command_context
 )
         
 print
@@ -14442,7 +14710,7 @@ path
 join
 (
             
-self
+command_context
 .
 topsrcdir
 "
@@ -14469,7 +14737,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 path
@@ -14509,13 +14777,14 @@ path
 .
 dirname
 (
+            
 os
 .
 path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 assume_filename
@@ -14523,6 +14792,7 @@ assume_filename
 0
 ]
 )
+        
 )
         
 assume_filename
@@ -14738,14 +15008,14 @@ False
 )
 :
         
-self
+command_context
 .
 _set_log_level
 (
 verbose
 )
         
-self
+command_context
 .
 log_manager
 .
@@ -14772,7 +15042,7 @@ source
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -14809,14 +15079,19 @@ checked
 return
         
 rc
+_compile_db
+compilation_commands_path
 =
 self
 .
 _build_compile_db
 (
+            
+command_context
 verbose
 =
 verbose
+        
 )
         
 if
@@ -14826,7 +15101,7 @@ rc
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -14868,6 +15143,7 @@ self
 .
 _build_export
 (
+command_context
 jobs
 =
 2
@@ -14883,7 +15159,7 @@ rc
 0
 :
             
-self
+command_context
 .
 log
 (
@@ -14929,6 +15205,7 @@ self
 .
 _generate_path_list
 (
+command_context
 source
 )
         
@@ -14940,8 +15217,6 @@ load
 (
 open
 (
-self
-.
 _compile_db
 "
 r
@@ -14955,7 +15230,7 @@ is
 None
 :
             
-self
+command_context
 .
 log
 (
@@ -14983,8 +15258,6 @@ Loading
 .
 format
 (
-self
-.
 _compile_db
 )
             
@@ -15073,7 +15346,7 @@ self
 _check_syntax_include_extensions
 :
                 
-self
+command_context
 .
 log
 (
@@ -15109,7 +15382,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 file
@@ -15316,7 +15589,7 @@ executor
 submit
 (
                         
-self
+command_context
 .
 run_process
                         
@@ -15326,7 +15599,7 @@ command
                         
 cwd
 =
-self
+command_context
 .
 topsrcdir
                         
@@ -15935,7 +16208,7 @@ repo
 =
 get_repository_object
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -15973,7 +16246,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 f_name
@@ -15991,7 +16264,7 @@ os
 .
 chdir
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -16149,11 +16422,13 @@ assume_filename
 :
             
 rc
+clang_paths
 =
 self
 .
 _set_clang_tools_paths
 (
+command_context
 )
             
 if
@@ -16192,6 +16467,7 @@ self
 .
 _do_clang_tools_exist
 (
+clang_paths
 )
 :
                 
@@ -16221,11 +16497,13 @@ else
 :
             
 rc
+clang_paths
 =
 self
 .
 _get_clang_tools
 (
+command_context
 verbose
 =
 verbose
@@ -16247,6 +16525,8 @@ self
 .
 _is_version_eligible
 (
+command_context
+clang_paths
 )
 :
             
@@ -16265,13 +16545,18 @@ self
 _run_clang_format_diff
 (
                 
-self
+command_context
+                
+clang_paths
 .
 _clang_format_diff
-self
+                
+clang_paths
 .
 _clang_format_path
+                
 commit
+                
 output
             
 )
@@ -16286,7 +16571,8 @@ self
 _run_clang_format_in_console
 (
                 
-self
+command_context
+clang_paths
 .
 _clang_format_path
 path
@@ -16300,7 +16586,8 @@ self
 _run_clang_format_path
 (
             
-self
+command_context
+clang_paths
 .
 _clang_format_path
 path
@@ -16312,9 +16599,23 @@ output_format
 def
 _verify_checker
 (
+        
 self
+        
+command_context
+        
+clang_paths
+        
+compilation_commands_path
+        
+dump_results
+        
+clang_tidy_checks
+        
 item
+        
 checkers_results
+    
 )
 :
         
@@ -16333,7 +16634,7 @@ mozpath
 .
 join
 (
-self
+clang_paths
 .
 _clang_tidy_base_path
 "
@@ -16360,7 +16661,7 @@ test_file_path
 json
 "
         
-self
+command_context
 .
 log
 (
@@ -16462,9 +16763,7 @@ if
 check
 not
 in
-self
-.
-_clang_tidy_checks
+clang_tidy_checks
 :
             
 checker_error
@@ -16548,6 +16847,12 @@ self
 _run_analysis
 (
             
+command_context
+            
+clang_paths
+            
+compilation_commands_path
+            
 checks
 =
 "
@@ -16556,10 +16861,12 @@ checks
 "
 +
 check
+            
 header_filter
 =
 "
 "
+            
 sources
 =
 [
@@ -16663,9 +16970,7 @@ reliability
 )
         
 if
-self
-.
-_dump_results
+dump_results
 :
             
 self
@@ -16879,6 +17184,7 @@ def
 _parse_issues
 (
 self
+command_context
 clang_output
 )
 :
@@ -16957,7 +17263,7 @@ start
 platform
 _
 =
-self
+command_context
 .
 platform
         
@@ -17237,6 +17543,7 @@ def
 _get_config_environment
 (
 self
+command_context
 )
 :
         
@@ -17252,7 +17559,7 @@ builder
 =
 Build
 (
-self
+command_context
 .
 _mach_context
 None
@@ -17263,7 +17570,7 @@ try
             
 config
 =
-self
+command_context
 .
 config_environment
         
@@ -17271,7 +17578,7 @@ except
 Exception
 :
             
-self
+command_context
 .
 log
 (
@@ -17311,10 +17618,10 @@ clobber
 =
 Clobberer
 (
-self
+command_context
 .
 topsrcdir
-self
+command_context
 .
 topobjdir
 )
@@ -17359,7 +17666,7 @@ not
 choice
 :
                     
-self
+command_context
 .
 log
 (
@@ -17417,7 +17724,7 @@ builder
 .
 configure
 (
-self
+command_context
 )
             
 if
@@ -17443,7 +17750,7 @@ try
                 
 config
 =
-self
+command_context
 .
 config_environment
             
@@ -17464,22 +17771,21 @@ def
 _build_compile_db
 (
 self
+command_context
 verbose
 =
 False
 )
 :
         
-self
-.
-_compilation_commands_path
+compilation_commands_path
 =
 mozpath
 .
 join
 (
             
-self
+command_context
 .
 topobjdir
 "
@@ -17490,24 +17796,18 @@ analysis
         
 )
         
-self
-.
-_compile_db
+compile_db
 =
 mozpath
 .
 join
 (
-            
-self
-.
-_compilation_commands_path
+compilation_commands_path
 "
 compile_commands
 .
 json
 "
-        
 )
         
 if
@@ -17517,14 +17817,14 @@ path
 .
 exists
 (
-self
-.
-_compile_db
+compile_db
 )
 :
             
 return
 0
+compile_db
+compilation_commands_path
         
 rc
 config
@@ -17534,6 +17834,7 @@ self
 .
 _get_config_environment
 (
+command_context
 )
         
 if
@@ -17545,6 +17846,8 @@ rc
             
 return
 rc
+compile_db
+compilation_commands_path
         
 if
 ran_configure
@@ -17590,6 +17893,7 @@ self
 .
 _build_compile_db
 (
+command_context
 verbose
 =
 verbose
@@ -17631,7 +17935,7 @@ builder
 =
 Build
 (
-self
+command_context
 .
 _mach_context
 None
@@ -17644,9 +17948,7 @@ builder
 build_backend
 (
                 
-self
-.
-_mach_context
+command_context
 [
 "
 StaticAnalysis
@@ -17667,6 +17969,8 @@ rc
                 
 return
 rc
+compile_db
+compilation_commands_path
             
 assert
 os
@@ -17675,18 +17979,19 @@ path
 .
 exists
 (
-self
-.
-_compile_db
+compile_db
 )
             
 return
 0
+compile_db
+compilation_commands_path
     
 def
 _build_export
 (
 self
+command_context
 jobs
 verbose
 =
@@ -17701,7 +18006,7 @@ line
 )
 :
             
-self
+command_context
 .
 log
 (
@@ -17729,7 +18034,7 @@ builder
 =
 Build
 (
-self
+command_context
 .
 _mach_context
 None
@@ -17755,7 +18060,7 @@ _run_make
             
 directory
 =
-self
+command_context
 .
 topobjdir
             
@@ -17839,7 +18144,7 @@ _run_make
                 
 directory
 =
-self
+command_context
 .
 topobjdir
                 
@@ -17879,6 +18184,7 @@ def
 _set_clang_tools_paths
 (
 self
+command_context
 )
 :
         
@@ -17889,6 +18195,13 @@ _
 self
 .
 _get_config_environment
+(
+command_context
+)
+        
+clang_paths
+=
+SimpleNamespace
 (
 )
         
@@ -17901,8 +18214,9 @@ rc
             
 return
 rc
+clang_paths
         
-self
+clang_paths
 .
 _clang_tools_path
 =
@@ -17911,7 +18225,7 @@ mozpath
 join
 (
             
-self
+command_context
 .
 _mach_context
 .
@@ -17924,7 +18238,7 @@ tools
         
 )
         
-self
+clang_paths
 .
 _clang_tidy_path
 =
@@ -17933,7 +18247,7 @@ mozpath
 join
 (
             
-self
+clang_paths
 .
 _clang_tools_path
             
@@ -17968,7 +18282,7 @@ BIN_SUFFIX
         
 )
         
-self
+clang_paths
 .
 _clang_format_path
 =
@@ -17977,7 +18291,7 @@ mozpath
 join
 (
             
-self
+clang_paths
 .
 _clang_tools_path
             
@@ -18012,7 +18326,7 @@ BIN_SUFFIX
         
 )
         
-self
+clang_paths
 .
 _clang_apply_replacements
 =
@@ -18021,7 +18335,7 @@ mozpath
 join
 (
             
-self
+clang_paths
 .
 _clang_tools_path
             
@@ -18058,7 +18372,7 @@ BIN_SUFFIX
         
 )
         
-self
+clang_paths
 .
 _run_clang_tidy_path
 =
@@ -18067,20 +18381,24 @@ mozpath
 join
 (
             
-self
+clang_paths
 .
 _clang_tools_path
+            
 "
 clang
 -
 tidy
 "
+            
 "
 share
 "
+            
 "
 clang
 "
+            
 "
 run
 -
@@ -18093,7 +18411,7 @@ py
         
 )
         
-self
+clang_paths
 .
 _clang_format_diff
 =
@@ -18102,7 +18420,7 @@ mozpath
 join
 (
             
-self
+clang_paths
 .
 _clang_tools_path
             
@@ -18134,11 +18452,13 @@ py
         
 return
 0
+clang_paths
     
 def
 _do_clang_tools_exist
 (
 self
+clang_paths
 )
 :
         
@@ -18151,7 +18471,7 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _clang_tidy_path
 )
@@ -18163,7 +18483,7 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _clang_format_path
 )
@@ -18175,7 +18495,7 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _clang_apply_replacements
 )
@@ -18187,7 +18507,7 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _run_clang_tidy_path
 )
@@ -18199,6 +18519,8 @@ _get_clang_tools
 (
         
 self
+        
+command_context
         
 force
 =
@@ -18224,11 +18546,13 @@ False
 :
         
 rc
+clang_paths
 =
 self
 .
 _set_clang_tools_paths
 (
+command_context
 )
         
 if
@@ -18240,12 +18564,14 @@ rc
             
 return
 rc
+clang_paths
         
 if
 self
 .
 _do_clang_tools_exist
 (
+clang_paths
 )
 and
 not
@@ -18254,6 +18580,7 @@ force
             
 return
 0
+clang_paths
         
 if
 os
@@ -18262,7 +18589,7 @@ path
 .
 isdir
 (
-self
+clang_paths
 .
 _clang_tools_path
 )
@@ -18294,7 +18621,7 @@ shutil
 .
 rmtree
 (
-self
+clang_paths
 .
 _clang_tools_path
 )
@@ -18304,6 +18631,8 @@ self
 .
 _get_clang_tools
 (
+                
+command_context
                 
 force
 =
@@ -18341,7 +18670,7 @@ os
 .
 mkdir
 (
-self
+clang_paths
 .
 _clang_tools_path
 )
@@ -18355,7 +18684,11 @@ self
 .
 _get_clang_tools_from_source
 (
+                
+command_context
+clang_paths
 source
+            
 )
         
 from
@@ -18365,13 +18698,11 @@ artifact_commands
 import
 PackageFrontend
         
-self
-.
-_artifact_manager
+artifact_manager
 =
 PackageFrontend
 (
-self
+command_context
 .
 _mach_context
 )
@@ -18383,11 +18714,12 @@ download_if_needed
             
 return
 0
+clang_paths
         
 job
 _
 =
-self
+command_context
 .
 platform
         
@@ -18471,21 +18803,19 @@ os
 .
 chdir
 (
-self
+clang_paths
 .
 _clang_tools_path
 )
         
 rc
 =
-self
-.
-_artifact_manager
+artifact_manager
 .
 artifact_toolchain
 (
             
-self
+command_context
             
 verbose
 =
@@ -18526,11 +18856,14 @@ currentWorkingDir
         
 return
 rc
+clang_paths
     
 def
 _get_clang_tools_from_source
 (
 self
+command_context
+clang_paths
 filename
 )
 :
@@ -18550,7 +18883,8 @@ mozpath
 .
 join
 (
-self
+            
+command_context
 .
 _mach_context
 .
@@ -18560,6 +18894,7 @@ clang
 -
 tools
 "
+        
 )
         
 currentWorkingDir
@@ -18648,7 +18983,7 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _clang_tidy_path
 )
@@ -18660,7 +18995,7 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _clang_format_path
 )
@@ -18672,7 +19007,7 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _clang_apply_replacements
 )
@@ -18684,24 +19019,26 @@ path
 .
 exists
 (
-self
+clang_paths
 .
 _run_clang_tidy_path
 )
         
 return
 0
+clang_paths
     
 def
 _get_clang_format_diff_command
 (
 self
+command_context
 commit
 )
 :
         
 if
-self
+command_context
 .
 repository
 .
@@ -19117,6 +19454,8 @@ _get_infer
         
 self
         
+command_context
+        
 force
 =
 False
@@ -19148,6 +19487,7 @@ self
 .
 _get_config_environment
 (
+command_context
 )
         
 if
@@ -19159,6 +19499,8 @@ rc
             
 return
 rc
+"
+"
         
 infer_path
 =
@@ -19181,7 +19523,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 _mach_context
 .
@@ -19193,8 +19535,6 @@ infer
         
 )
         
-self
-.
 _infer_path
 =
 mozpath
@@ -19233,6 +19573,7 @@ intree_tool
 :
             
 return
+(
 not
 os
 .
@@ -19240,10 +19581,10 @@ path
 .
 exists
 (
-self
-.
 _infer_path
 )
+)
+_infer_path
         
 if
 os
@@ -19252,8 +19593,6 @@ path
 .
 exists
 (
-self
-.
 _infer_path
 )
 and
@@ -19263,6 +19602,7 @@ force
             
 return
 0
+_infer_path
         
 if
 os
@@ -19310,6 +19650,8 @@ self
 _get_infer
 (
                 
+command_context
+                
 force
 =
 force
@@ -19342,13 +19684,11 @@ artifact_commands
 import
 PackageFrontend
         
-self
-.
-_artifact_manager
+artifact_manager
 =
 PackageFrontend
 (
-self
+command_context
 .
 _mach_context
 )
@@ -19360,11 +19700,12 @@ download_if_needed
             
 return
 0
+_infer_path
         
 job
 _
 =
-self
+command_context
 .
 platform
         
@@ -19380,6 +19721,7 @@ linux64
 return
 -
 1
+_infer_path
         
 else
 :
@@ -19421,14 +19763,12 @@ infer_path
         
 rc
 =
-self
-.
-_artifact_manager
+artifact_manager
 .
 artifact_toolchain
 (
             
-self
+command_context
             
 verbose
 =
@@ -19469,12 +19809,14 @@ currentWorkingDir
         
 return
 rc
+_infer_path
     
 def
 _run_clang_format_diff
 (
         
 self
+command_context
 clang_format_diff
 clang_format
 commit
@@ -19515,15 +19857,18 @@ diff_process
 =
 Popen
 (
+            
 self
 .
 _get_clang_format_diff_command
 (
+command_context
 commit
 )
 stdout
 =
 PIPE
+        
 )
         
 args
@@ -19642,6 +19987,7 @@ def
 _is_ignored_path
 (
 self
+command_context
 ignored_dir_re
 f
 )
@@ -19660,7 +20006,7 @@ root
         
 root_dir
 =
-self
+command_context
 .
 topsrcdir
 +
@@ -19721,6 +20067,7 @@ def
 _generate_path_list
 (
 self
+command_context
 paths
 verbose
 =
@@ -19736,12 +20083,14 @@ path
 .
 join
 (
-self
+            
+command_context
 .
 topsrcdir
 self
 .
 _format_ignore_file
+        
 )
         
 ignored_dir
@@ -19881,6 +20230,7 @@ self
 .
 _is_ignored_path
 (
+command_context
 ignored_dir_re
 f
 )
@@ -20001,6 +20351,7 @@ self
 _is_ignored_path
 (
                             
+command_context
 ignored_dir_re
 f_in_dir
                         
@@ -20069,10 +20420,13 @@ path_list
 def
 _run_clang_format_in_console
 (
+        
 self
+command_context
 clang_format
 paths
 assume_filename
+    
 )
 :
         
@@ -20082,6 +20436,7 @@ self
 .
 _generate_path_list
 (
+command_context
 assume_filename
 False
 )
@@ -20226,6 +20581,7 @@ def
 _get_clang_format_cfg
 (
 self
+command_context
 current_dir
 )
 :
@@ -20273,7 +20629,7 @@ if
 current_dir
 !
 =
-self
+command_context
 .
 topsrcdir
 :
@@ -20289,6 +20645,8 @@ self
 .
 _get_clang_format_cfg
 (
+                
+command_context
 os
 .
 path
@@ -20300,13 +20658,14 @@ current_dir
 [
 0
 ]
+            
 )
         
 #
 We
 have
 reached
-self
+command_context
 .
 topsrcdir
 so
@@ -20321,6 +20680,7 @@ _copy_clang_format_for_show_diff
 (
         
 self
+command_context
 current_dir
 cached_clang_format_cfg
 tmpdir
@@ -20367,6 +20727,7 @@ self
 .
 _get_clang_format_cfg
 (
+command_context
 current_dir
 )
             
@@ -20387,7 +20748,7 @@ format
 from
             
 #
-self
+command_context
 .
 topsrcdir
 but
@@ -20470,11 +20831,14 @@ return
 def
 _run_clang_format_path
 (
+        
 self
+command_context
 clang_format
 paths
 output_file
 output_format
+    
 )
 :
         
@@ -20569,7 +20933,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topobjdir
 "
@@ -20602,6 +20966,7 @@ self
 .
 _generate_path_list
 (
+command_context
 paths
 )
         
@@ -20794,6 +21159,7 @@ self
 _copy_clang_format_for_show_diff
 (
                     
+command_context
 current_dir
 cached_clang_format_cfg
 faketmpdir
@@ -20860,10 +21226,12 @@ path
 .
 relpath
 (
+                            
 original_path
-self
+command_context
 .
 topsrcdir
+                        
 )
                         
 patches
@@ -21028,7 +21396,7 @@ relpath
 (
                                 
 original_path
-self
+command_context
 .
 topsrcdir
                             

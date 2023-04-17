@@ -1220,6 +1220,7 @@ def
 artifact_cache_path
 (
 self
+command_context
 )
 :
         
@@ -1254,7 +1255,8 @@ mozpath
 .
 join
 (
-self
+            
+command_context
 .
 _mach_context
 .
@@ -1265,12 +1267,14 @@ cache
 "
 browsertime
 "
+        
 )
     
 def
 state_path
 (
 self
+command_context
 )
 :
         
@@ -1303,7 +1307,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 _mach_context
 .
@@ -1317,6 +1321,7 @@ def
 setup_prerequisites
 (
 self
+command_context
 )
 :
         
@@ -1525,12 +1530,15 @@ self
 .
 artifact_cache_path
 (
+command_context
 )
+            
 log
 =
-self
+command_context
 .
 log
+            
 skip_cache
 =
 False
@@ -1617,6 +1625,7 @@ self
 .
 state_path
 (
+command_context
 )
 )
                     
@@ -1628,10 +1637,11 @@ self
 .
 state_path
 (
+command_context
 )
 )
                     
-self
+command_context
 .
 log
 (
@@ -1717,16 +1727,19 @@ os
 .
 chdir
 (
+                            
 os
 .
 path
 .
 join
 (
+                                
 self
 .
 state_path
 (
+command_context
 )
 fetch
 .
@@ -1736,7 +1749,9 @@ get
 path
 "
 )
+                            
 )
+                        
 )
                         
 unpack_file
@@ -1752,6 +1767,7 @@ self
 .
 state_path
 (
+command_context
 )
 )
                     
@@ -1781,10 +1797,12 @@ path
 .
 join
 (
+                        
 self
 .
 state_path
 (
+command_context
 )
 fetch
 .
@@ -1794,6 +1812,7 @@ get
 path
 "
 )
+                    
 )
                     
 if
@@ -1997,6 +2016,7 @@ def
 setup
 (
 self
+command_context
 should_clobber
 =
 False
@@ -2035,11 +2055,12 @@ path
 .
 append
 (
+            
 mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -2052,6 +2073,7 @@ lint
 eslint
 "
 )
+        
 )
         
 import
@@ -2066,6 +2088,7 @@ self
 .
 setup_prerequisites
 (
+command_context
 )
         
 if
@@ -2088,7 +2111,7 @@ json
 "
 )
             
-self
+command_context
 .
 log
 (
@@ -2380,7 +2403,7 @@ GECKODRIVER_SKIP_DOWNLOAD
 true
 "
         
-self
+command_context
 .
 log
 (
@@ -2478,12 +2501,14 @@ self
 .
 check
 (
+command_context
 )
     
 def
 node
 (
 self
+command_context
 args
 )
 :
@@ -2507,7 +2532,7 @@ arguments
 "
         
 return
-self
+command_context
 .
 run_process
 (
@@ -2526,6 +2551,7 @@ self
 .
 append_env
 (
+command_context
 )
             
 pass_thru
@@ -2562,7 +2588,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -2573,6 +2599,7 @@ def
 append_env
 (
 self
+command_context
 append_path
 =
 True
@@ -2676,10 +2703,12 @@ mozpath
 .
 join
 (
+            
 self
 .
 state_path
 (
+command_context
 )
 fetches
 [
@@ -2692,6 +2721,7 @@ ffmpeg
 path
 "
 ]
+        
 )
         
 path_to_imagemagick
@@ -2717,6 +2747,7 @@ self
 .
 state_path
 (
+command_context
 )
 fetches
 [
@@ -2774,6 +2805,7 @@ self
 .
 state_path
 (
+command_context
 )
                 
 if
@@ -3263,7 +3295,7 @@ use
 PYTHON
 "
 :
-self
+command_context
 .
 virtualenv_manager
 .
@@ -3351,6 +3383,7 @@ def
 _need_install
 (
 self
+command_context
 package
 )
 :
@@ -3408,7 +3441,7 @@ path
 .
 join
 (
-self
+command_context
 .
 virtualenv_manager
 .
@@ -3449,9 +3482,10 @@ venv_site_lib
 )
     
 def
-activate_virtualenv
+activate_browsertime_virtualenv
 (
 self
+command_context
 *
 args
 *
@@ -3500,7 +3534,7 @@ MachCommandBase
 .
 activate_virtualenv
 (
-self
+command_context
 *
 args
 *
@@ -3546,11 +3580,12 @@ self
 .
 _need_install
 (
+command_context
 dep
 )
 :
                 
-self
+command_context
 .
 virtualenv_manager
 .
@@ -3568,6 +3603,7 @@ def
 check
 (
 self
+command_context
 )
 :
         
@@ -3587,7 +3623,7 @@ check
 "
 "
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -3605,13 +3641,13 @@ check
         
 status
 =
-self
+command_context
 .
 run_process
 (
             
 [
-self
+command_context
 .
 virtualenv_manager
 .
@@ -3620,6 +3656,7 @@ visualmetrics_path
 (
 )
 ]
+            
 +
 args
             
@@ -3663,6 +3700,8 @@ self
 .
 append_env
 (
+                
+command_context
 append_path
 =
 host_platform
@@ -3675,6 +3714,7 @@ startswith
 linux
 "
 )
+            
 )
             
 pass_thru
@@ -3703,7 +3743,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -3747,7 +3787,7 @@ environment
 )
 .
         
-self
+command_context
 .
 log_manager
 .
@@ -3794,6 +3834,7 @@ self
 .
 node
 (
+command_context
 [
 browsertime_path
 (
@@ -3813,6 +3854,7 @@ def
 extra_default_args
 (
 self
+command_context
 args
 =
 [
@@ -4276,6 +4318,7 @@ extra_args
 .
 extend
 (
+                        
 (
 "
 -
@@ -4284,12 +4327,13 @@ firefox
 .
 binaryPath
 "
-self
+command_context
 .
 get_binary_path
 (
 )
 )
+                    
 )
                 
 except
@@ -4298,7 +4342,7 @@ as
 e
 :
                     
-self
+command_context
 .
 log
 (
@@ -4332,7 +4376,7 @@ error
                     
 )
                     
-self
+command_context
 .
 log
 (
@@ -4383,7 +4427,7 @@ if
 extra_args
 :
             
-self
+command_context
 .
 log
 (
@@ -4426,6 +4470,7 @@ def
 _verify_node_install
 (
 self
+command_context
 )
 :
         
@@ -4442,11 +4487,12 @@ path
 .
 append
 (
+            
 mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -4459,6 +4505,7 @@ lint
 eslint
 "
 )
+        
 )
         
 import
@@ -4861,7 +4908,7 @@ False
 )
 :
         
-self
+command_context
 .
 _set_log_level
 (
@@ -4917,7 +4964,7 @@ this
 message
 .
         
-self
+command_context
 .
 log
 (
@@ -5115,6 +5162,7 @@ self
 .
 setup
 (
+command_context
 new_upstream_url
 =
 update_upstream_url
@@ -5129,6 +5177,7 @@ self
 .
 setup
 (
+command_context
 should_clobber
 =
 clobber
@@ -5143,6 +5192,7 @@ self
 .
 _verify_node_install
 (
+command_context
 )
 :
                 
@@ -5158,6 +5208,7 @@ self
 .
 check
 (
+command_context
 )
         
 if
@@ -5177,8 +5228,9 @@ help
         
 self
 .
-activate_virtualenv
+activate_browsertime_virtualenv
 (
+command_context
 )
         
 default_args
@@ -5187,6 +5239,7 @@ self
 .
 extra_default_args
 (
+command_context
 args
 )
         
@@ -5205,6 +5258,7 @@ self
 .
 node
 (
+command_context
 [
 browsertime_path
 (
