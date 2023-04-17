@@ -41039,10 +41039,16 @@ block
 if
 (
 !
+HTMLEditUtils
+:
+:
 IsVisibleTextNode
 (
 *
 text
+GetActiveEditingHost
+(
+)
 )
 )
 {
