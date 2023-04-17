@@ -62,8 +62,6 @@ import
 os
 import
 sys
-import
-six
 from
 mock
 import
@@ -525,11 +523,6 @@ normpath
         
 get_mach_virtualenv_binary
 (
-py2
-=
-six
-.
-PY2
 )
     
 )
