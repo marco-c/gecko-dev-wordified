@@ -53640,7 +53640,7 @@ PrecedenceTable
 ParseNodeKind
 :
 :
-PipeLine
+Coalesce
 *
 /
 2
@@ -53649,7 +53649,7 @@ PipeLine
 ParseNodeKind
 :
 :
-Coalesce
+Or
 *
 /
 3
@@ -53658,7 +53658,7 @@ Coalesce
 ParseNodeKind
 :
 :
-Or
+And
 *
 /
 4
@@ -53667,7 +53667,7 @@ Or
 ParseNodeKind
 :
 :
-And
+BitOr
 *
 /
 5
@@ -53676,7 +53676,7 @@ And
 ParseNodeKind
 :
 :
-BitOr
+BitXor
 *
 /
 6
@@ -53685,7 +53685,7 @@ BitOr
 ParseNodeKind
 :
 :
-BitXor
+BitAnd
 *
 /
 7
@@ -53694,19 +53694,10 @@ BitXor
 ParseNodeKind
 :
 :
-BitAnd
-*
-/
-8
-/
-*
-ParseNodeKind
-:
-:
 StrictEq
 *
 /
-8
+7
 /
 *
 ParseNodeKind
@@ -53715,7 +53706,7 @@ ParseNodeKind
 Eq
 *
 /
-8
+7
 /
 *
 ParseNodeKind
@@ -53724,7 +53715,7 @@ ParseNodeKind
 StrictNe
 *
 /
-8
+7
 /
 *
 ParseNodeKind
@@ -53733,7 +53724,7 @@ ParseNodeKind
 Ne
 *
 /
-9
+8
 /
 *
 ParseNodeKind
@@ -53742,7 +53733,7 @@ ParseNodeKind
 Lt
 *
 /
-9
+8
 /
 *
 ParseNodeKind
@@ -53751,7 +53742,7 @@ ParseNodeKind
 Le
 *
 /
-9
+8
 /
 *
 ParseNodeKind
@@ -53760,7 +53751,7 @@ ParseNodeKind
 Gt
 *
 /
-9
+8
 /
 *
 ParseNodeKind
@@ -53769,7 +53760,7 @@ ParseNodeKind
 Ge
 *
 /
-9
+8
 /
 *
 ParseNodeKind
@@ -53778,7 +53769,7 @@ ParseNodeKind
 InstanceOf
 *
 /
-9
+8
 /
 *
 ParseNodeKind
@@ -53787,7 +53778,7 @@ ParseNodeKind
 In
 *
 /
-9
+8
 /
 *
 ParseNodeKind
@@ -53796,7 +53787,7 @@ ParseNodeKind
 PrivateIn
 *
 /
-10
+9
 /
 *
 ParseNodeKind
@@ -53805,7 +53796,7 @@ ParseNodeKind
 Lsh
 *
 /
-10
+9
 /
 *
 ParseNodeKind
@@ -53814,7 +53805,7 @@ ParseNodeKind
 Rsh
 *
 /
-10
+9
 /
 *
 ParseNodeKind
@@ -53823,7 +53814,7 @@ ParseNodeKind
 Ursh
 *
 /
-11
+10
 /
 *
 ParseNodeKind
@@ -53832,7 +53823,7 @@ ParseNodeKind
 Add
 *
 /
-11
+10
 /
 *
 ParseNodeKind
@@ -53841,7 +53832,7 @@ ParseNodeKind
 Sub
 *
 /
-12
+11
 /
 *
 ParseNodeKind
@@ -53850,7 +53841,7 @@ ParseNodeKind
 Star
 *
 /
-12
+11
 /
 *
 ParseNodeKind
@@ -53859,7 +53850,7 @@ ParseNodeKind
 Div
 *
 /
-12
+11
 /
 *
 ParseNodeKind
@@ -53868,7 +53859,7 @@ ParseNodeKind
 Mod
 *
 /
-13
+12
 /
 *
 ParseNodeKind
@@ -53884,7 +53875,7 @@ const
 int
 PRECEDENCE_CLASSES
 =
-13
+12
 ;
 static
 int
