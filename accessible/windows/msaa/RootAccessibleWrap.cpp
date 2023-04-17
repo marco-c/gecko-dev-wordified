@@ -139,6 +139,13 @@ nsWinUtils
 .
 h
 "
+#
+include
+"
+Relation
+.
+h
+"
 using
 namespace
 mozilla
