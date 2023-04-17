@@ -3169,6 +3169,16 @@ ShouldResistFingerprinting
 )
 const
 {
+if
+(
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+)
+)
+{
 bool
 resist
 =
@@ -3205,6 +3215,10 @@ GetDocShell
 }
 return
 resist
+;
+}
+return
+false
 ;
 }
 NS_IMPL_ISUPPORTS
