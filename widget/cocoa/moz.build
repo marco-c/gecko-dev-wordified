@@ -240,11 +240,6 @@ MOZIconHelper
 mm
 "
 "
-MOZMenuOpeningCoordinator
-.
-mm
-"
-"
 NativeKeyBindings
 .
 mm
