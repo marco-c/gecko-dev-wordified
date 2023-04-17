@@ -34522,6 +34522,7 @@ aClosure
 )
 {
 auto
+*
 decoder
 =
 static_cast
