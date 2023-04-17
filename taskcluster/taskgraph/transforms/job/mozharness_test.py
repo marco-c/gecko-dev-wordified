@@ -153,6 +153,14 @@ lite
 "
     
 "
+shippable
+-
+lite
+-
+qr
+"
+    
+"
 devedition
 "
     
@@ -385,6 +393,13 @@ qr
 shippable
 -
 lite
+"
+"
+shippable
+-
+lite
+-
+qr
 "
 )
     
