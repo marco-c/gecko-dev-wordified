@@ -1122,6 +1122,10 @@ task_size
 :
 task_size
 .
+ceil
+(
+)
+.
 to_i32
 (
 )

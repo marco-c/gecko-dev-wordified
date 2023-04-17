@@ -7002,6 +7002,18 @@ prim_key_kind
 if
 !
 optimized
+&
+&
+!
+tile_size
+.
+ceil
+(
+)
+.
+is_empty
+(
+)
 {
 if
 let
@@ -7288,7 +7300,7 @@ if
 !
 tile_size
 .
-to_i32
+ceil
 (
 )
 .
@@ -7491,7 +7503,7 @@ if
 !
 tile_size
 .
-to_i32
+ceil
 (
 )
 .
