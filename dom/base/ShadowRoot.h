@@ -309,6 +309,8 @@ Element
 aElement
 ShadowRootMode
 aMode
+bool
+aDelegatesFocus
 SlotAssignmentMode
 aSlotAssignment
 already_AddRefed
@@ -482,6 +484,16 @@ const
 {
 return
 mMode
+;
+}
+bool
+DelegatesFocus
+(
+)
+const
+{
+return
+mDelegatesFocus
 ;
 }
 SlotAssignmentMode
@@ -1659,6 +1671,9 @@ ShadowRoot
 const
 ShadowRootMode
 mMode
+;
+bool
+mDelegatesFocus
 ;
 const
 SlotAssignmentMode
