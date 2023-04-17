@@ -2539,6 +2539,10 @@ NS_EVENT_MESSAGE
 (
 eSelectionChange
 )
+NS_EVENT_MESSAGE
+(
+eSlotChange
+)
 /
 /
 visibility

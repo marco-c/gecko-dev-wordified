@@ -9586,6 +9586,16 @@ onshow
 Atom
 (
 "
+onslotchange
+"
+"
+onslotchange
+"
+)
+    
+Atom
+(
+"
 onsqueeze
 "
 "
