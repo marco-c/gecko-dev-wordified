@@ -249,7 +249,7 @@ h
 "
 /
 /
-js
+JS
 :
 :
 Scalar
@@ -396,11 +396,13 @@ it
 /
 Name
 -
+a
+name
 usable
 as
 both
 a
-js
+JS
 :
 :
 Scalar
@@ -412,7 +414,7 @@ value
 eg
 /
 /
-js
+JS
 :
 :
 Scalar
@@ -420,7 +422,7 @@ Scalar
 :
 Uint8Clamped
 )
-and
+or
 the
 stem
 of
@@ -435,7 +437,6 @@ eg
 /
 Uint8ClampedArray
 )
-.
 /
 /
 #
@@ -1355,7 +1356,7 @@ succeed
 /
 extern
 JS_PUBLIC_API
-js
+JS
 :
 :
 Scalar
@@ -2122,7 +2123,7 @@ specialization
 .
 template
 <
-js
+JS
 :
 :
 Scalar
@@ -2152,7 +2153,7 @@ template
 struct
 ExternalTypeOf
 <
-js
+JS
 :
 :
 Scalar
@@ -2179,7 +2180,7 @@ undef
 DEFINE_ELEMENT_TYPES
 template
 <
-js
+JS
 :
 :
 Scalar
@@ -2311,7 +2312,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -3026,7 +3027,7 @@ maybeWrapped
 ;
 template
 <
-js
+JS
 :
 :
 Scalar
@@ -3073,7 +3074,7 @@ TypedArrayElementType
 ;
 static
 constexpr
-js
+JS
 :
 :
 Scalar
@@ -3938,7 +3939,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -4074,7 +4075,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -4088,7 +4089,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -4139,7 +4140,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -4153,7 +4154,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -4205,7 +4206,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -4219,7 +4220,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar

@@ -347,7 +347,7 @@ h
 "
 /
 /
-js
+JS
 :
 :
 Scalar
@@ -17381,7 +17381,7 @@ JS
 :
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -17791,7 +17791,7 @@ isSharedMemory
 ;
 }
 JS_PUBLIC_API
-js
+JS
 :
 :
 Scalar
@@ -17934,7 +17934,7 @@ template
 class
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -18134,7 +18134,7 @@ APIs
 .
 template
 <
-js
+JS
 :
 :
 Scalar
@@ -18358,7 +18358,7 @@ template
 typename
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
@@ -18373,7 +18373,7 @@ DataType
 \
 TypedArray
 <
-js
+JS
 :
 :
 Scalar
