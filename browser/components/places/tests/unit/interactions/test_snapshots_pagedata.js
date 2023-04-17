@@ -51,6 +51,22 @@ defineLazyModuleGetters
 (
 this
 {
+PageDataCollector
+:
+"
+resource
+:
+/
+/
+/
+modules
+/
+pagedata
+/
+PageDataCollector
+.
+jsm
+"
 PageDataService
 :
 "
@@ -138,7 +154,7 @@ TEST_URL1
 {
 type
 :
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .
@@ -183,7 +199,7 @@ TEST_URL2
 {
 type
 :
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .
@@ -391,7 +407,7 @@ pageData
 .
 get
 (
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .
@@ -462,7 +478,7 @@ pageData
 .
 get
 (
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .
@@ -561,7 +577,7 @@ GENERIC
 {
 type
 :
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .
@@ -725,7 +741,7 @@ pageData
 .
 get
 (
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .

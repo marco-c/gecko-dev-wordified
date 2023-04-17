@@ -250,7 +250,7 @@ type
 of
 data
 see
-Snapshots
+PageDataCollector
 .
 DATA_TYPE
 .
