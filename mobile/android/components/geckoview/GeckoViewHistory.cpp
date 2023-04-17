@@ -1131,7 +1131,6 @@ uri
 }
 for
 (
-const
 NewURIEntry
 &
 entry
@@ -2192,7 +2191,6 @@ GetVisitedCallback
 GeckoViewHistory
 *
 aHistory
-const
 nsTArray
 <
 RefPtr
@@ -2200,6 +2198,7 @@ RefPtr
 nsIURI
 >
 >
+&
 &
 aURIs
 )
@@ -2210,10 +2209,12 @@ aHistory
 )
 mURIs
 (
-aURIs
-.
-Clone
+std
+:
+:
+move
 (
+aURIs
 )
 )
 {
@@ -2731,7 +2732,6 @@ QueryVisitedState
 nsIWidget
 *
 aWidget
-const
 nsTArray
 <
 RefPtr
@@ -3072,7 +3072,13 @@ new
 GetVisitedCallback
 (
 this
+std
+:
+:
+move
+(
 aURIs
+)
 )
 ;
 Unused

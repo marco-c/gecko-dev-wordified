@@ -4207,7 +4207,6 @@ ipc
 IPCResult
 RecvQueryVisitedState
 (
-const
 nsTArray
 <
 RefPtr

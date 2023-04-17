@@ -219,7 +219,6 @@ QueryVisitedState
 nsIWidget
 *
 aWidget
-const
 nsTArray
 <
 RefPtr
