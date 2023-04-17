@@ -1423,6 +1423,17 @@ dialog
 {
 if
 (
+!
+this
+.
+currentSession
+)
+{
+return
+;
+}
+if
+(
 action
 =
 =
