@@ -3271,12 +3271,6 @@ expr
 auto
 tryResult
 =
-:
-:
-mozilla
-:
-:
-ToResult
 (
 expr
 )
