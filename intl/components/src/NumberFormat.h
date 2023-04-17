@@ -2262,8 +2262,8 @@ Formats
 a
 string
 encoded
-big
-integer
+decimal
+number
 to
 a
 utf
@@ -2367,8 +2367,8 @@ Formats
 a
 string
 encoded
-big
-integer
+decimal
+number
 to
 a
 utf
@@ -2508,8 +2508,8 @@ Formats
 a
 string
 encoded
-big
-integer
+decimal
+number
 to
 the
 provider
