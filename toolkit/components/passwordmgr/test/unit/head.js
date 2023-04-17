@@ -346,6 +346,17 @@ relatedRealms
 enabled
 "
 ;
+const
+IMPROVED_PASSWORD_RULES_PREF
+=
+"
+signon
+.
+improvedPasswordRules
+.
+enabled
+"
+;
 /
 *
 *

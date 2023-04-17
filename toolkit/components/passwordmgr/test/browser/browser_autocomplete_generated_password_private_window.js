@@ -151,6 +151,7 @@ LoginManager
 "
 )
 ;
+await
 lmp
 .
 getGeneratedPassword
