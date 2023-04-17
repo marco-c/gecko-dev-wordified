@@ -914,6 +914,14 @@ ColorDepth
 :
 COLOR_8
 ;
+dstData
+.
+mColorRange
+=
+aData
+.
+mColorRange
+;
 size_t
 ySize
 =
@@ -1445,6 +1453,9 @@ yuvtype
 srcData
 .
 mYUVColorSpace
+srcData
+.
+mColorRange
 )
 ;
 }
