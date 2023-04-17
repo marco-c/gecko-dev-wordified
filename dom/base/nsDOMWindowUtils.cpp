@@ -2660,6 +2660,11 @@ GetBounds
 PaintFlags
 :
 :
+PaintLayers
+|
+PaintFlags
+:
+:
 PaintSyncDecodeImages
 )
 ;
