@@ -85,17 +85,6 @@ mozilla
 /
 layers
 /
-LayerMetricsWrapper
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 CompositorBridgeParent
 .
 h
