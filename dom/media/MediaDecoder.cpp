@@ -3478,7 +3478,6 @@ PrevSyncPoint
 return
 ;
 }
-else
 if
 (
 mPlayState
