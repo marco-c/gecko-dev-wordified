@@ -344,6 +344,7 @@ restorePrompter
 }
 ;
 }
+async
 function
 stubGeneratedPasswordForBrowsingContextId
 (
@@ -451,6 +452,26 @@ com
 userContextId
 =
 6
+"
+)
+documentURI
+:
+Services
+.
+io
+.
+newURI
+(
+"
+https
+:
+/
+/
+www
+.
+example
+.
+com
 "
 )
 }
@@ -592,6 +613,7 @@ stub
 let
 generatedPassword
 =
+await
 LMP
 .
 getGeneratedPassword
@@ -856,6 +878,7 @@ msg
 )
 ;
 }
+async
 function
 startTestConditions
 (
@@ -884,6 +907,7 @@ exists
 ;
 equal
 (
+await
 LMP
 .
 getGeneratedPassword
@@ -1095,6 +1119,15 @@ enabled
 true
 )
 ;
+await
+LoginTestUtils
+.
+remoteSettings
+.
+setupImprovedPasswordRules
+(
+)
+;
 }
 )
 ;
@@ -1106,6 +1139,7 @@ test_onPasswordEditedOrGenerated_generatedPassword
 (
 )
 {
+await
 startTestConditions
 (
 99
@@ -1116,6 +1150,7 @@ let
 generatedPassword
 }
 =
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99
@@ -1926,6 +1961,7 @@ test_onPasswordEditedOrGenerated_editToEmpty_generatedPassword
 (
 )
 {
+await
 startTestConditions
 (
 99
@@ -1936,6 +1972,7 @@ let
 generatedPassword
 }
 =
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99
@@ -2423,6 +2460,7 @@ test_addUsernameBeforeAutoSaveEdit
 (
 )
 {
+await
 startTestConditions
 (
 99
@@ -2433,6 +2471,7 @@ let
 generatedPassword
 }
 =
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99
@@ -3599,11 +3638,13 @@ test_editUsernameOfFilledSavedLogin
 (
 )
 {
+await
 startTestConditions
 (
 99
 )
 ;
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99
@@ -4289,6 +4330,7 @@ test_onPasswordEditedOrGenerated_generatedPassword_withDisabledLogin
 (
 )
 {
+await
 startTestConditions
 (
 99
@@ -4299,6 +4341,7 @@ let
 generatedPassword
 }
 =
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99
@@ -4510,6 +4553,7 @@ test_onPasswordEditedOrGenerated_generatedPassword_withSavedEmptyUsername
 (
 )
 {
+await
 startTestConditions
 (
 99
@@ -4599,6 +4643,7 @@ generatedPassword
 password1
 }
 =
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99
@@ -5082,6 +5127,7 @@ username
 field
 value
 .
+await
 startTestConditions
 (
 99
@@ -5171,6 +5217,7 @@ generatedPassword
 password1
 }
 =
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99
@@ -5754,6 +5801,7 @@ test_onPasswordEditedOrGenerated_generatedPassword_withEmptyUsernameDifferentFor
 (
 )
 {
+await
 startTestConditions
 (
 99
@@ -5797,6 +5845,7 @@ generatedPassword
 password1
 }
 =
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99
@@ -6065,6 +6114,7 @@ test_onPasswordEditedOrGenerated_generatedPassword_withSavedUsername
 (
 )
 {
+await
 startTestConditions
 (
 99
@@ -6109,6 +6159,7 @@ generatedPassword
 password1
 }
 =
+await
 stubGeneratedPasswordForBrowsingContextId
 (
 99

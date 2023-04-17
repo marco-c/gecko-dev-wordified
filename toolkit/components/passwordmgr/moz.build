@@ -297,6 +297,11 @@ PasswordGenerator
 jsm
 "
 "
+PasswordRulesManager
+.
+jsm
+"
+"
 PasswordRulesParser
 .
 jsm
