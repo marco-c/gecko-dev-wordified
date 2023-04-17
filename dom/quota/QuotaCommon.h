@@ -8979,7 +8979,7 @@ Maybe
 <
 nsresult
 >
-aResult
+aMaybeRv
 const
 nsACString
 &
