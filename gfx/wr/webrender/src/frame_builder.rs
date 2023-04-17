@@ -3692,6 +3692,12 @@ record
 composite_state
 )
 ;
+composite_state
+.
+end_frame
+(
+)
+;
 Frame
 {
 device_rect
