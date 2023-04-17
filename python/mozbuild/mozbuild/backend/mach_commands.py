@@ -2346,16 +2346,7 @@ mozbuild
 .
 artifact_commands
 import
-PackageFrontend
-    
-_artifact_manager
-=
-PackageFrontend
-(
-command_context
-.
-_mach_context
-)
+artifact_toolchain
     
 job
 _
@@ -2464,8 +2455,6 @@ clang_tools_path
     
 rc
 =
-_artifact_manager
-.
 artifact_toolchain
 (
         
