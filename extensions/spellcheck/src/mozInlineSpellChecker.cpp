@@ -9247,6 +9247,7 @@ word
 .
 nsINode
 *
+const
 beginNode
 =
 word
@@ -9263,6 +9264,7 @@ Node
 ;
 nsINode
 *
+const
 endNode
 =
 word
@@ -9277,6 +9279,7 @@ Node
 (
 )
 ;
+const
 int32_t
 beginOffset
 =
@@ -9292,6 +9295,7 @@ Offset
 (
 )
 ;
+const
 int32_t
 endOffset
 =
