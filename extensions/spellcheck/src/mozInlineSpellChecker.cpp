@@ -2640,7 +2640,7 @@ editor
 is
 gone
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 mAnchorRange
 "
@@ -4840,7 +4840,7 @@ EditorSpellCheckInited
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPendingSpellCheck
 "
@@ -5011,7 +5011,7 @@ mNumPendingSpellChecks
 =
 aDelta
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mNumPendingSpellChecks
 >
@@ -10142,7 +10142,7 @@ re
 actually
 firing
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFullSpellCheckScheduled
 "
@@ -12094,7 +12094,7 @@ mNumPendingUpdateCurrentDictionary
 -
 -
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mNumPendingUpdateCurrentDictionary
 >
