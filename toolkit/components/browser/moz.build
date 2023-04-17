@@ -122,6 +122,11 @@ nsIEmbeddingSiteWindow
 idl
 "
 "
+nsITopLevelNavigationDelegate
+.
+idl
+"
+"
 nsIWebBrowser
 .
 idl
