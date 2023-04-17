@@ -2516,11 +2516,6 @@ AllocKind
 allocKind
 NewObjectKind
 newKind
-ObjectFlags
-objectFlags
-=
-{
-}
 )
 ;
 template

@@ -4691,11 +4691,6 @@ AllocKind
 kind
 NewObjectKind
 newKind
-ObjectFlags
-objectFlags
-=
-{
-}
 )
 {
 MOZ_ASSERT
@@ -4858,7 +4853,9 @@ realm
 )
 proto
 nfixed
-objectFlags
+ObjectFlags
+(
+)
 )
 )
 ;
@@ -4948,8 +4945,6 @@ AllocKind
 allocKind
 NewObjectKind
 newKind
-ObjectFlags
-objectFlags
 )
 {
 return
@@ -4960,7 +4955,6 @@ proto
 clasp
 allocKind
 newKind
-objectFlags
 )
 ;
 }
