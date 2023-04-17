@@ -11179,7 +11179,7 @@ return
 }
 /
 /
-set
+Set
 the
 presentation
 context
@@ -11190,6 +11190,7 @@ in
 the
 print
 settings
+.
 mDrawColorBackground
 =
 mPrintSettings

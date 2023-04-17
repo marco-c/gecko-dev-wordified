@@ -288,6 +288,9 @@ include
 IPCStream
 ;
 include
+PPrintingTypes
+;
+include
 PTabContext
 ;
 include
@@ -2889,6 +2892,17 @@ MaybeDiscardedBrowsingContext
 aSourceBc
 MaybeDiscardedBrowsingContext
 aTargetBc
+PrintData
+aPrintData
+)
+;
+async
+UpdateRemotePrintSettings
+(
+MaybeDiscardedBrowsingContext
+aBc
+PrintData
+aPrintData
 )
 ;
 async
