@@ -879,7 +879,7 @@ InputTaskManager
 InputPriorityController
 :
 :
-DidVsync
+WillRunVsync
 (
 )
 {
