@@ -475,9 +475,6 @@ ContentHost
 class
 ContentHostTexture
 ;
-class
-HostLayerManager
-;
 struct
 EffectChain
 ;
@@ -1700,13 +1697,6 @@ return
 }
 protected
 :
-HostLayerManager
-*
-GetLayerManager
-(
-)
-const
-;
 protected
 :
 TextureInfo

@@ -167,9 +167,6 @@ class
 LayerManager
 ;
 class
-LayerManagerComposite
-;
-class
 NativeLayerRoot
 ;
 }

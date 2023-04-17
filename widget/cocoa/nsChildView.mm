@@ -495,17 +495,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-LayerManagerComposite
-.
-h
-"
-#
-include
-"
 GfxTexturesReporter
 .
 h

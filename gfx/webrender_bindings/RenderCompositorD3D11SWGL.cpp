@@ -150,17 +150,6 @@ include
 "
 mozilla
 /
-layers
-/
-LayerManagerComposite
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webrender
 /
 RenderD3D11TextureHost

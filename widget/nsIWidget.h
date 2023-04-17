@@ -505,9 +505,6 @@ class
 LayerManager
 ;
 class
-LayerManagerComposite
-;
-class
 WebRenderBridgeChild
 ;
 }
@@ -1953,16 +1950,6 @@ mozilla
 :
 WindowRenderer
 WindowRenderer
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-LayerManagerComposite
-LayerManagerComposite
 ;
 typedef
 mozilla

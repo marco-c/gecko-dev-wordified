@@ -267,11 +267,6 @@ UNIFIED_SOURCES
 =
 [
 "
-TestCompositor
-.
-cpp
-"
-"
 TestRect
 .
 cpp
