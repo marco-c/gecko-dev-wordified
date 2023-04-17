@@ -220,7 +220,11 @@ viewFullZoomMenu
 pageStyleMenu
 "
 "
-charsetMenu
+repair
+-
+text
+-
+encoding
 "
 "
 View
