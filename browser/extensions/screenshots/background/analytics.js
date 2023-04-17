@@ -337,15 +337,6 @@ getBackend
 event
 ;
 const
-deviceId
-=
-auth
-.
-getDeviceId
-(
-)
-;
-const
 sendTime
 =
 Date
@@ -422,7 +413,6 @@ JSON
 stringify
 (
 {
-deviceId
 events
 :
 pendingEvents
@@ -490,15 +480,6 @@ getBackend
 timing
 ;
 const
-deviceId
-=
-auth
-.
-getDeviceId
-(
-)
-;
-const
 body
 =
 JSON
@@ -506,7 +487,6 @@ JSON
 stringify
 (
 {
-deviceId
 timings
 :
 pendingTimings

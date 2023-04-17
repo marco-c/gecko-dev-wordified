@@ -626,11 +626,6 @@ login
 successful
 "
 {
-deviceId
-:
-info
-.
-deviceId
 accountId
 :
 info
