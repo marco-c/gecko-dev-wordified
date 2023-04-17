@@ -25573,7 +25573,9 @@ showHighlight
 win
 historyMenu
 "
-color
+focus
+-
+outline
 "
 {
 autohide

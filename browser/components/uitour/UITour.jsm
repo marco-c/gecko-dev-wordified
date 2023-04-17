@@ -668,6 +668,11 @@ zoom
 "
 color
 "
+"
+focus
+-
+outline
+"
 ]
 targets
 :
