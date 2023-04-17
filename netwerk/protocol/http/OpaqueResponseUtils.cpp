@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsHttpResponseHead
 .
 h
