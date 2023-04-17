@@ -1116,6 +1116,13 @@ HitTestKind
 aHitTestKind
 )
 ;
+static
+mozilla
+:
+:
+LazyLogModule
+sLog
+;
 void
 SetSampler
 (
