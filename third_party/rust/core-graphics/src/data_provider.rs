@@ -656,6 +656,10 @@ Arc
 from_raw
 (
 info
+as
+*
+mut
+T
 )
 )
 }
@@ -1310,8 +1314,9 @@ clone
 (
 )
 ;
-drop
-(
+let
+dp
+=
 CGDataProvider
 :
 :
@@ -1319,6 +1324,10 @@ from_buffer
 (
 l
 )
+;
+drop
+(
+m
 )
 ;
 assert
@@ -1335,7 +1344,7 @@ SeqCst
 ;
 drop
 (
-m
+dp
 )
 ;
 assert
