@@ -11948,7 +11948,7 @@ if
 StaticPrefs
 :
 :
-browser_download_improvements_to_download_panel
+browser_download_enable_spam_prevention
 (
 )
 &
