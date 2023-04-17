@@ -3829,7 +3829,7 @@ MaxHelperThreads
 ;
 /
 *
-JSGC_URGENT_THRESHOLD_BYTES
+JSGC_URGENT_THRESHOLD_MB
 *
 /
 static
@@ -4583,7 +4583,7 @@ mallocThresholdBase_
 /
 *
 *
-JSGC_URGENT_THRESHOLD_BYTES
+JSGC_URGENT_THRESHOLD_MB
 *
 *
 The
