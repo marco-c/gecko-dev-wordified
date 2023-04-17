@@ -484,9 +484,9 @@ set
 "
 SNAP_NAME
 "
-"
-firefox
-"
+AppConstants
+.
+MOZ_APP_NAME
 )
 ;
 gIsLegacy
