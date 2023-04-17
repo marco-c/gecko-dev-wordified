@@ -8287,10 +8287,10 @@ UpdateDebugFlags
 gfxVars
 :
 :
-SetUseWebRenderMultithreadingListener
+SetWebRenderBoolParametersListener
 (
 &
-UpdateWebRenderMultithreading
+UpdateWebRenderBoolParameters
 )
 ;
 gfxVars
@@ -8562,7 +8562,7 @@ void
 CompositorBridgeParent
 :
 :
-UpdateWebRenderMultithreading
+UpdateWebRenderBoolParameters
 (
 )
 {
@@ -8597,13 +8597,13 @@ NewRunnableFunction
 CompositorBridgeParent
 :
 :
-UpdateWebRenderMultithreading
+UpdateWebRenderBoolParameters
 "
 &
 CompositorBridgeParent
 :
 :
-UpdateWebRenderMultithreading
+UpdateWebRenderBoolParameters
 )
 )
 ;
@@ -8635,7 +8635,7 @@ void
 wrBridge
 -
 >
-UpdateMultithreading
+UpdateBoolParameters
 (
 )
 ;

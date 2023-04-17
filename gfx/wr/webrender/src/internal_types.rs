@@ -65,6 +65,7 @@ ColorF
 DocumentId
 ExternalImageId
 PrimitiveFlags
+Parameter
 }
 ;
 use
@@ -3926,6 +3927,10 @@ Vec
 <
 NotificationRequest
 >
+)
+SetParameter
+(
+Parameter
 )
 ForceRedraw
 }

@@ -420,13 +420,6 @@ false
 \
 _
 (
-UseWebRenderMultithreading
-bool
-false
-)
-\
-_
-(
 UseWebRenderScissoredCacheClears
 bool
 true
@@ -465,6 +458,13 @@ int32_t
 _
 (
 WebRenderDebugFlags
+int32_t
+0
+)
+\
+_
+(
+WebRenderBoolParameters
 int32_t
 0
 )

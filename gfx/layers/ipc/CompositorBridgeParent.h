@@ -3758,9 +3758,9 @@ UpdateDebugFlags
 Notify
 the
 compositor
-the
-debug
-flags
+some
+webrender
+parameters
 have
 been
 updated
@@ -3769,7 +3769,7 @@ updated
 /
 static
 void
-UpdateWebRenderMultithreading
+UpdateWebRenderParameters
 (
 )
 ;
@@ -3791,7 +3791,7 @@ updated
 /
 static
 void
-UpdateWebRenderParameters
+UpdateWebRenderBoolParameters
 (
 )
 ;
