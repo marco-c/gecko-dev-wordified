@@ -73,6 +73,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+3
+)
+;
 add_task
 (
 async
