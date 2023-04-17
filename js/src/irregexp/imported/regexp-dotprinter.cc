@@ -144,9 +144,6 @@ Dot
 /
 dotty
 output
-#
-ifdef
-DEBUG
 class
 DotPrinterImpl
 :
@@ -2186,11 +2183,6 @@ successor
 )
 ;
 }
-#
-endif
-/
-/
-DEBUG
 void
 DotPrinter
 :
@@ -2206,9 +2198,6 @@ RegExpNode
 node
 )
 {
-#
-ifdef
-DEBUG
 StdoutStream
 os
 ;
@@ -2226,11 +2215,6 @@ label
 node
 )
 ;
-#
-endif
-/
-/
-DEBUG
 }
 }
 /
