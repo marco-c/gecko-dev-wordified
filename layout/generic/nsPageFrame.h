@@ -448,6 +448,13 @@ nsPageContentFrame
 PageContentFrame
 (
 )
+const
+;
+nsSize
+ComputePageSize
+(
+)
+const
 ;
 protected
 :
