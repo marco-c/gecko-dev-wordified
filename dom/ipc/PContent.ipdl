@@ -9470,11 +9470,6 @@ aReport
 )
 ;
 async
-MaybeReloadPlugins
-(
-)
-;
-async
 BHRThreadHang
 (
 HangDetails

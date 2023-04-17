@@ -229,7 +229,7 @@ mozilla
 /
 layers
 /
-CompositorOptions
+LayersMessageUtils
 .
 h
 "

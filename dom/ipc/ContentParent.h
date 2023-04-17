@@ -1954,17 +1954,6 @@ ipc
 :
 :
 IPCResult
-RecvMaybeReloadPlugins
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvUngrabPointer
 (
 const
