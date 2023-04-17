@@ -955,9 +955,6 @@ JSString
 *
 KeywordToString
 (
-JSContext
-*
-cx
 mozilla
 :
 :
@@ -969,6 +966,9 @@ PluralRules
 :
 Keyword
 keyword
+JSContext
+*
+cx
 )
 {
 using
@@ -1904,12 +1904,12 @@ str
 =
 KeywordToString
 (
-cx
 keywordResult
 .
 unwrap
 (
 )
+cx
 )
 ;
 MOZ_ASSERT
@@ -2142,8 +2142,8 @@ str
 =
 KeywordToString
 (
-cx
 keyword
+cx
 )
 ;
 MOZ_ASSERT
