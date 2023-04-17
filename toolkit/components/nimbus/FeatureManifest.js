@@ -1245,6 +1245,9 @@ values
 are
 :
 top
+below
+-
+search
 bottom
 .
 Default
@@ -1256,6 +1259,11 @@ enum
 [
 "
 top
+"
+"
+below
+-
+search
 "
 "
 bottom
