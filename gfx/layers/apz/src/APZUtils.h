@@ -411,16 +411,6 @@ ScrollSource
 {
 /
 /
-scrollTo
-(
-)
-or
-something
-similar
-.
-DOM
-/
-/
 Touch
 -
 screen
