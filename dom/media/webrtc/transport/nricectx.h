@@ -1223,6 +1223,15 @@ ENDPOINT_INDEPENDENT
 "
 _ns
 ;
+nsCString
+mRedirectAddress
+;
+CopyableTArray
+<
+nsCString
+>
+mRedirectTargets
+;
 }
 ;
 struct
