@@ -2894,6 +2894,13 @@ promise
 }
 )
 ;
+promise_test
+(
+function
+(
+)
+{
+return
 Promise
 .
 all
@@ -2926,7 +2933,11 @@ done
 ;
 }
 )
-return
+}
+"
+setup
+"
+)
 ;
 /
 /
