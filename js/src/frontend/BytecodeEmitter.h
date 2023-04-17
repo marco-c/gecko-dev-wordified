@@ -1567,12 +1567,14 @@ for
 details
 around
 brandLoc
-.
-NameLocation
+bool
 lookupPrivate
 (
 TaggedParserAtomIndex
 name
+NameLocation
+&
+loc
 mozilla
 :
 :
