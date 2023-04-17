@@ -1227,6 +1227,11 @@ RenderCompositorSWGL
 :
 StartCompositing
 (
+wr
+:
+:
+ColorF
+aClearColor
 const
 wr
 :

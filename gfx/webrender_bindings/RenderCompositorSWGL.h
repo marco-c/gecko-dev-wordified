@@ -247,6 +247,11 @@ final
 void
 StartCompositing
 (
+wr
+:
+:
+ColorF
+aClearColor
 const
 wr
 :

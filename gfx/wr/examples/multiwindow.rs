@@ -597,11 +597,6 @@ webrender
 RendererOptions
 {
 clear_color
-:
-Some
-(
-clear_color
-)
 .
 .
 webrender

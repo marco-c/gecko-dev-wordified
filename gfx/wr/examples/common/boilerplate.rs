@@ -1120,8 +1120,6 @@ E
 PRECACHE_SHADER_FLAGS
 clear_color
 :
-Some
-(
 ColorF
 :
 :
@@ -1139,7 +1137,6 @@ new
 1
 .
 0
-)
 )
 debug_flags
 /
