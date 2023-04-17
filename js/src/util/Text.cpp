@@ -380,7 +380,13 @@ f
 )
 =
 =
+static_cast
+<
+wint_t
+>
+(
 WEOF
+)
 )
 {
 return
