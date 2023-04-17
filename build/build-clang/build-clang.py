@@ -2853,20 +2853,6 @@ and
 android_targets
 :
         
-cmake_args
-+
-=
-[
-            
-"
--
-DLLVM_LIBDIR_SUFFIX
-=
-64
-"
-        
-]
-        
 android_link_flags
 =
 "
