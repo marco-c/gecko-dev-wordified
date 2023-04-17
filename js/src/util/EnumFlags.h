@@ -116,6 +116,15 @@ define
 util_EnumFlags_h
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 initializer_list
 >
