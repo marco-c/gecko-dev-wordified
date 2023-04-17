@@ -672,7 +672,8 @@ h
 /
 XDRMode
 XDRResult
-XDREncoder
+XDRStencilEncoder
+XDRStencilDecoder
 #
 include
 "
