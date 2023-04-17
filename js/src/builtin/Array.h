@@ -448,6 +448,14 @@ NewObjectKind
 newKind
 =
 GenericObject
+gc
+:
+:
+AllocSite
+*
+site
+=
+nullptr
 )
 ;
 /

@@ -960,6 +960,14 @@ gc
 :
 InitialHeap
 heap
+gc
+:
+:
+AllocSite
+*
+site
+=
+nullptr
 )
 ;
 /

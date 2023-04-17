@@ -211,6 +211,12 @@ HandleShape
 shape
 AutoSetNewObjectMetadata
 &
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 const
@@ -342,6 +348,7 @@ kind
 nDynamicSlots
 heap
 clasp
+site
 )
 ;
 if
@@ -528,6 +535,12 @@ length
 AutoSetNewObjectMetadata
 &
 metadata
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 ArrayObject
@@ -541,6 +554,7 @@ kind
 heap
 shape
 metadata
+site
 )
 ;
 if

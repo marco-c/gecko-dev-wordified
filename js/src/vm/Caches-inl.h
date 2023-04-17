@@ -330,6 +330,12 @@ gc
 :
 InitialHeap
 heap
+gc
+:
+:
+AllocSite
+*
+site
 )
 {
 MOZ_ASSERT
@@ -502,6 +508,7 @@ nDynamicSlots
 0
 heap
 clasp
+site
 )
 )
 ;
