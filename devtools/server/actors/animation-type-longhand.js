@@ -281,6 +281,11 @@ interpolation
 filters
 "
 "
+color
+-
+scheme
+"
+"
 column
 -
 fill
