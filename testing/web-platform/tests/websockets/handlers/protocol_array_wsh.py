@@ -10,7 +10,6 @@ from
 mod_pywebsocket
 import
 msgutil
-util
 def
 web_socket_do_extra_handshake
 (

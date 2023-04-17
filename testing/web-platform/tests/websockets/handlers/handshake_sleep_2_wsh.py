@@ -6,10 +6,6 @@ usr
 bin
 /
 python
-from
-mod_pywebsocket
-import
-msgutil
 import
 time
 def

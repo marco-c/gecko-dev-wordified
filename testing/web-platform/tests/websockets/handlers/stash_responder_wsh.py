@@ -13,15 +13,7 @@ urllib
 from
 mod_pywebsocket
 import
-common
 msgutil
-util
-from
-mod_pywebsocket
-.
-handshake
-import
-hybi
 from
 wptserve
 import
