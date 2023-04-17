@@ -490,6 +490,11 @@ setting
 -
 button
 "
+pack
+=
+"
+start
+"
 data
 -
 l10n
