@@ -635,6 +635,10 @@ mDidInitialDocumentSetup
 false
 )
 {
+mCompatMode
+=
+eCompatibility_FullStandards
+;
 }
 MediaDocument
 :
