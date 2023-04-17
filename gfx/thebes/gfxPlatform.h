@@ -255,9 +255,6 @@ class
 nsIObserver
 ;
 class
-nsPresContext
-;
-class
 SRGBOverrideObserver
 ;
 class
@@ -2574,9 +2571,6 @@ gfxFontGroup
 *
 CreateFontGroup
 (
-nsPresContext
-*
-aPresContext
 const
 mozilla
 :
@@ -2662,9 +2656,6 @@ gfxFontEntry
 *
 LookupLocalFont
 (
-nsPresContext
-*
-aPresContext
 const
 nsACString
 &

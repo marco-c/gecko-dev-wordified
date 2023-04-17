@@ -6520,9 +6520,6 @@ the
 languageAtomService
 gfxFontGroup
 (
-nsPresContext
-*
-aPresContext
 const
 mozilla
 :
@@ -9025,12 +9022,6 @@ mHasFontEntry
 1
 ;
 }
-;
-nsPresContext
-*
-mPresContext
-=
-nullptr
 ;
 /
 /

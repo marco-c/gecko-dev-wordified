@@ -13168,9 +13168,6 @@ gfxFcPlatformFontList
 :
 GetDefaultFontForPlatform
 (
-nsPresContext
-*
-aPresContext
 const
 gfxFontStyle
 *
@@ -13213,7 +13210,6 @@ prefFonts
 =
 FindGenericFamilies
 (
-aPresContext
 "
 -
 moz
@@ -13280,9 +13276,6 @@ gfxFcPlatformFontList
 :
 LookupLocalFont
 (
-nsPresContext
-*
-aPresContext
 const
 nsACString
 &
@@ -13316,7 +13309,6 @@ SharedFontList
 return
 LookupInSharedFaceNameList
 (
-aPresContext
 aFontName
 aWeightForEntry
 aStretchForEntry
@@ -13454,9 +13446,6 @@ gfxFcPlatformFontList
 :
 FindAndAddFamilies
 (
-nsPresContext
-*
-aPresContext
 StyleGenericFontFamily
 aGeneric
 const
@@ -13627,7 +13616,6 @@ prefFonts
 =
 FindGenericFamilies
 (
-aPresContext
 familyName
 aLanguage
 )
@@ -14052,7 +14040,6 @@ gfxPlatformFontList
 :
 FindAndAddFamilies
 (
-aPresContext
 aGeneric
 nsDependentCString
 (
@@ -14758,9 +14745,6 @@ gfxFcPlatformFontList
 :
 AddGenericFonts
 (
-nsPresContext
-*
-aPresContext
 StyleGenericFontFamily
 aGenericType
 nsAtom
@@ -15121,7 +15105,6 @@ gfxPlatformFontList
 :
 AddGenericFonts
 (
-aPresContext
 aGenericType
 aLanguage
 aFamilyList
@@ -15143,7 +15126,6 @@ prefFonts
 =
 FindGenericFamilies
 (
-aPresContext
 genericToLookup
 aLanguage
 )
@@ -15236,9 +15218,6 @@ gfxFcPlatformFontList
 :
 FindGenericFamilies
 (
-nsPresContext
-*
-aPresContext
 const
 nsCString
 &
@@ -15614,7 +15593,6 @@ gfxPlatformFontList
 :
 FindAndAddFamilies
 (
-aPresContext
 StyleGenericFontFamily
 :
 :

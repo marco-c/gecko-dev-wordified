@@ -12558,9 +12558,6 @@ T
 bool
 InitFakeSmallCapsRun
 (
-nsPresContext
-*
-aPresContext
 DrawTarget
 *
 aDrawTarget
