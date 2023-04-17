@@ -897,7 +897,7 @@ appMenu
 -
 help
 -
-button
+button2
 "
 }
 ]
