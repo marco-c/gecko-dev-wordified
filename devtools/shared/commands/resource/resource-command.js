@@ -2347,7 +2347,6 @@ resourceType
 )
 )
 {
-await
 this
 .
 _stopListening
