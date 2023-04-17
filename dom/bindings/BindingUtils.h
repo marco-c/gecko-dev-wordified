@@ -6004,6 +6004,7 @@ chromeOnlyProperties
 *
 Define
 the
+legacy
 unforgeable
 methods
 on
@@ -6013,7 +6014,7 @@ object
 *
 /
 bool
-DefineUnforgeableMethods
+DefineLegacyUnforgeableMethods
 (
 JSContext
 *
@@ -6042,6 +6043,7 @@ props
 *
 Define
 the
+legacy
 unforgeable
 attributes
 on
@@ -6051,7 +6053,7 @@ object
 *
 /
 bool
-DefineUnforgeableAttributes
+DefineLegacyUnforgeableAttributes
 (
 JSContext
 *

@@ -4925,7 +4925,7 @@ true
 ;
 }
 bool
-DefineUnforgeableMethods
+DefineLegacyUnforgeableMethods
 (
 JSContext
 *
@@ -4959,7 +4959,7 @@ props
 ;
 }
 bool
-DefineUnforgeableAttributes
+DefineLegacyUnforgeableAttributes
 (
 JSContext
 *

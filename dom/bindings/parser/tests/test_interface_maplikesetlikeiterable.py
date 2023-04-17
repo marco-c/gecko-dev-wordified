@@ -3719,7 +3719,7 @@ Foo1
 {
                
 [
-Unforgeable
+LegacyUnforgeable
 ]
                
 attribute
@@ -3780,7 +3780,7 @@ Foo1
 {
                
 [
-Unforgeable
+LegacyUnforgeable
 ]
                
 attribute

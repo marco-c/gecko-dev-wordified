@@ -120,7 +120,7 @@ getAllTypes
     
 Descriptor
     
-MemberIsUnforgeable
+MemberIsLegacyUnforgeable
     
 iteratorNativeType
 )
@@ -5756,11 +5756,14 @@ holder
 .
         
 if
+(
+            
 self
 .
 descriptor
 .
-hasUnforgeableMembers
+hasLegacyUnforgeableMembers
+            
 and
 not
 self
@@ -5769,6 +5772,8 @@ descriptor
 .
 isGlobal
 (
+)
+        
 )
 :
             
@@ -18899,7 +18904,7 @@ isStatic
 static
                 
 and
-MemberIsUnforgeable
+MemberIsLegacyUnforgeable
 (
 m
 descriptor
@@ -19667,7 +19672,7 @@ and
 unforgeable
 =
 =
-MemberIsUnforgeable
+MemberIsLegacyUnforgeable
 (
                 
 stringifier
@@ -19767,9 +19772,11 @@ interface
 .
 getExtendedAttribute
 (
+                
 "
-Unforgeable
+LegacyUnforgeable
 "
+            
 )
 :
                 
@@ -20801,7 +20808,7 @@ isStatic
 static
                 
 and
-MemberIsUnforgeable
+MemberIsLegacyUnforgeable
 (
 m
 descriptor
@@ -26022,11 +26029,14 @@ holder
 .
         
 if
+(
+            
 self
 .
 descriptor
 .
-hasUnforgeableMembers
+hasLegacyUnforgeableMembers
+            
 and
 not
 self
@@ -26035,6 +26045,8 @@ descriptor
 .
 isGlobal
 (
+)
+        
 )
 :
             
@@ -29324,7 +29336,7 @@ fill
 if
 (
 !
-DefineUnforgeableAttributes
+DefineLegacyUnforgeableAttributes
 (
 aCx
 {
@@ -29369,7 +29381,7 @@ fill
 if
 (
 !
-DefineUnforgeableMethods
+DefineLegacyUnforgeableMethods
 (
 aCx
 {
@@ -29506,7 +29518,7 @@ interface
 getExtendedAttribute
 (
 "
-Unforgeable
+LegacyUnforgeable
 "
 )
 :
@@ -29694,7 +29706,7 @@ if
 not
 descriptor
 .
-hasUnforgeableMembers
+hasLegacyUnforgeableMembers
 :
         
 return
@@ -32137,7 +32149,7 @@ self
 .
 descriptor
 .
-hasUnforgeableMembers
+hasLegacyUnforgeableMembers
 :
             
 unforgeable
@@ -100732,7 +100744,7 @@ self
 .
 descriptor
 .
-hasUnforgeableMembers
+hasLegacyUnforgeableMembers
 :
                 
 raise
@@ -101262,7 +101274,7 @@ None
 if
 descriptor
 .
-hasUnforgeableMembers
+hasLegacyUnforgeableMembers
 :
             
 raise
@@ -105485,7 +105497,7 @@ self
 .
 descriptor
 .
-hasUnforgeableMembers
+hasLegacyUnforgeableMembers
 :
                 
 raise

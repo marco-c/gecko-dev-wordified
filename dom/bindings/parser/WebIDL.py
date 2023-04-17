@@ -8006,7 +8006,7 @@ with
 interfaces
 marked
 [
-Unforgeable
+LegacyUnforgeable
 ]
 now
 that
@@ -8052,7 +8052,7 @@ self
 getExtendedAttribute
 (
 "
-Unforgeable
+LegacyUnforgeable
 "
 )
 :
@@ -8119,7 +8119,7 @@ WebIDLError
 (
                     
 "
-Unforgeable
+LegacyUnforgeable
 interface
 %
 s
@@ -8173,7 +8173,7 @@ WebIDLError
 (
                         
 "
-Unforgeable
+LegacyUnforgeable
 interface
 %
 s
@@ -8241,7 +8241,7 @@ WebIDLError
 (
                         
 "
-Unforgeable
+LegacyUnforgeable
 interface
 %
 s
@@ -8313,7 +8313,7 @@ isMethod
 and
 member
 .
-isUnforgeable
+isLegacyUnforgeable
 (
 )
                 
@@ -8663,7 +8663,7 @@ any
 of
 the
 [
-Unforgeable
+LegacyUnforgeable
 ]
 attributes
 on
@@ -8764,10 +8764,11 @@ isMethod
 (
 )
 )
+                
 and
 member
 .
-isUnforgeable
+isLegacyUnforgeable
 (
 )
             
@@ -8864,7 +8865,7 @@ Interface
 s
 shadows
 [
-Unforgeable
+LegacyUnforgeable
 ]
 "
                         
@@ -9892,7 +9893,7 @@ self
 getExtendedAttribute
 (
 "
-Unforgeable
+LegacyUnforgeable
 "
 )
 and
@@ -10659,7 +10660,7 @@ location
 if
 member
 .
-isUnforgeable
+isLegacyUnforgeable
 (
 )
 :
@@ -10679,9 +10680,10 @@ used
 on
 an
 "
+                            
 "
 [
-Unforgeable
+LegacyUnforgeable
 ]
 operation
 "
@@ -12919,7 +12921,7 @@ identifier
 =
 =
 "
-Unforgeable
+LegacyUnforgeable
 "
                 
 or
@@ -32693,7 +32695,7 @@ False
         
 self
 .
-_unforgeable
+_legacyUnforgeable
 =
 False
         
@@ -34493,7 +34495,7 @@ identifier
 =
 =
 "
-Unforgeable
+LegacyUnforgeable
 "
 :
             
@@ -34511,7 +34513,7 @@ WebIDLError
                     
 "
 [
-Unforgeable
+LegacyUnforgeable
 ]
 is
 only
@@ -34538,7 +34540,7 @@ location
             
 self
 .
-_unforgeable
+_legacyUnforgeable
 =
 True
         
@@ -36419,7 +36421,7 @@ not
 None
     
 def
-isUnforgeable
+isLegacyUnforgeable
 (
 self
 )
@@ -36428,7 +36430,7 @@ self
 return
 self
 .
-_unforgeable
+_legacyUnforgeable
     
 def
 _getDependentObjects
@@ -38622,7 +38624,7 @@ specialType
         
 self
 .
-_unforgeable
+_legacyUnforgeable
 =
 False
         
@@ -41670,7 +41672,7 @@ identifier
 =
 =
 "
-Unforgeable
+LegacyUnforgeable
 "
 :
             
@@ -41688,7 +41690,7 @@ WebIDLError
                     
 "
 [
-Unforgeable
+LegacyUnforgeable
 ]
 is
 only
@@ -41715,7 +41717,7 @@ location
             
 self
 .
-_unforgeable
+_legacyUnforgeable
 =
 True
         
@@ -42849,7 +42851,7 @@ isPromise
 )
     
 def
-isUnforgeable
+isLegacyUnforgeable
 (
 self
 )
@@ -42858,7 +42860,7 @@ self
 return
 self
 .
-_unforgeable
+_legacyUnforgeable
     
 def
 _getDependentObjects
