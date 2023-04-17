@@ -1152,6 +1152,9 @@ script
 currency
 "
 "
+calendar
+"
+"
 dateTimeField
 "
 "
@@ -1196,6 +1199,9 @@ script
 "
 "
 currency
+"
+"
+calendar
 "
 "
 dateTimeField
