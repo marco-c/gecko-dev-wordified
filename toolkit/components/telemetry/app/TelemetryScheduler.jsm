@@ -68,6 +68,9 @@ EXPORTED_SYMBOLS
 "
 TelemetryScheduler
 "
+"
+Policy
+"
 ]
 ;
 const

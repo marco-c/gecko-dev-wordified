@@ -88,6 +88,9 @@ EXPORTED_SYMBOLS
 "
 TelemetryHealthPing
 "
+"
+Policy
+"
 ]
 ;
 ChromeUtils

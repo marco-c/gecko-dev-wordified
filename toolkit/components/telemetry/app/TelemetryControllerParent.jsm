@@ -776,6 +776,9 @@ EXPORTED_SYMBOLS
 "
 TelemetryController
 "
+"
+Policy
+"
 ]
 ;
 var
