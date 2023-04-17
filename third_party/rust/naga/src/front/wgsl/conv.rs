@@ -2,7 +2,10 @@ use
 super
 :
 :
+{
 Error
+Span
+}
 ;
 pub
 fn
@@ -12,6 +15,9 @@ word
 :
 &
 str
+span
+:
+Span
 )
 -
 >
@@ -45,6 +51,21 @@ StorageClass
 :
 :
 Private
+)
+"
+workgroup
+"
+=
+>
+Ok
+(
+crate
+:
+:
+StorageClass
+:
+:
+WorkGroup
 )
 "
 uniform
@@ -101,7 +122,7 @@ Error
 :
 UnknownStorageClass
 (
-word
+span
 )
 )
 }
@@ -114,6 +135,9 @@ word
 :
 &
 str
+span
+:
+Span
 )
 -
 >
@@ -299,7 +323,7 @@ Error
 :
 UnknownBuiltin
 (
-word
+span
 )
 )
 }
@@ -313,6 +337,9 @@ word
 :
 &
 str
+span
+:
+Span
 )
 -
 >
@@ -387,7 +414,7 @@ Error
 :
 UnknownShaderStage
 (
-word
+span
 )
 )
 }
@@ -400,6 +427,9 @@ word
 :
 &
 str
+span
+:
+Span
 )
 -
 >
@@ -474,7 +504,7 @@ Error
 :
 UnknownAttribute
 (
-word
+span
 )
 )
 }
@@ -487,6 +517,9 @@ word
 :
 &
 str
+span
+:
+Span
 )
 -
 >
@@ -546,7 +579,7 @@ Error
 :
 UnknownAttribute
 (
-word
+span
 )
 )
 }
@@ -559,6 +592,9 @@ word
 :
 &
 str
+span
+:
+Span
 )
 -
 >
@@ -887,7 +923,7 @@ Error
 :
 UnknownStorageFormat
 (
-word
+span
 )
 )
 }
@@ -1199,7 +1235,7 @@ DerivativeAxis
 Y
 )
 "
-dwidth
+fwidth
 "
 =
 >
@@ -1820,6 +1856,9 @@ word
 :
 &
 str
+span
+:
+Span
 )
 -
 >
@@ -1893,7 +1932,7 @@ Error
 :
 UnknownConservativeDepth
 (
-word
+span
 )
 )
 }

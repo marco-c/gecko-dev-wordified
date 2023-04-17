@@ -85,10 +85,7 @@ those
 terms
 .
 use
-cocoa_foundation
-:
-:
-foundation
+super
 :
 :
 NSUInteger
