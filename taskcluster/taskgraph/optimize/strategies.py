@@ -263,7 +263,13 @@ task_id
                 
 if
 status
-not
+.
+get
+(
+"
+state
+"
+)
 in
 (
 "
@@ -275,6 +281,8 @@ failed
 )
 :
                     
+continue
+                
 return
 task_id
             
