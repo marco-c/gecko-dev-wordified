@@ -1257,6 +1257,11 @@ urlbar
 .
 recordExposureEvent
 (
+{
+once
+:
+true
+}
 )
 )
 ;
