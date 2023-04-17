@@ -436,12 +436,6 @@ Get
 (
 )
 ;
-static
-bool
-ChildProcessHasCompositorBridge
-(
-)
-;
 /
 /
 Returns
