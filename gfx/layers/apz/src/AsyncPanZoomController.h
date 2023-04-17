@@ -469,6 +469,9 @@ AndroidSpecificState
 struct
 KeyboardScrollAction
 ;
+struct
+ZoomTarget
+;
 /
 /
 Base
@@ -1607,8 +1610,10 @@ up
 void
 ZoomToRect
 (
-CSSRect
-aRect
+const
+ZoomTarget
+&
+aZoomTarget
 const
 uint32_t
 aFlags

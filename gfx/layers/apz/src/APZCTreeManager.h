@@ -526,6 +526,9 @@ AncestorTransform
 struct
 ScrollThumbData
 ;
+struct
+ZoomTarget
+;
 /
 *
 *
@@ -1907,9 +1910,9 @@ ScrollableLayerGuid
 &
 aGuid
 const
-CSSRect
+ZoomTarget
 &
-aRect
+aZoomTarget
 const
 uint32_t
 aFlags

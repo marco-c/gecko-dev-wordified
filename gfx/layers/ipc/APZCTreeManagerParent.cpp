@@ -383,9 +383,9 @@ ScrollableLayerGuid
 &
 aGuid
 const
-CSSRect
+ZoomTarget
 &
-aRect
+aZoomTarget
 const
 uint32_t
 &
@@ -419,7 +419,7 @@ mLayersId
 NewRunnableMethod
 <
 ScrollableLayerGuid
-CSSRect
+ZoomTarget
 uint32_t
 >
 (
@@ -439,7 +439,7 @@ IAPZCTreeManager
 :
 ZoomToRect
 aGuid
-aRect
+aZoomTarget
 aFlags
 )
 )

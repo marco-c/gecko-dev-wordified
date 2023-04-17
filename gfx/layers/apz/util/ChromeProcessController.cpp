@@ -882,8 +882,8 @@ get
 return
 ;
 }
-CSSRect
-zoomToRect
+ZoomTarget
+zoomTarget
 =
 CalculateRectToZoomTo
 (
@@ -928,7 +928,7 @@ RunOnControllerThread
 NewRunnableMethod
 <
 ScrollableLayerGuid
-CSSRect
+ZoomTarget
 uint32_t
 >
 (
@@ -952,7 +952,7 @@ mLayersId
 presShellId
 viewId
 )
-zoomToRect
+zoomTarget
 ZoomToRectBehavior
 :
 :

@@ -13355,7 +13355,7 @@ RunOnControllerThread
 NewRunnableMethod
 <
 ScrollableLayerGuid
-CSSRect
+ZoomTarget
 uint32_t
 >
 (
@@ -13380,7 +13380,13 @@ layerId
 aPresShellId
 aViewId
 )
+ZoomTarget
+{
 aRect
+Nothing
+(
+)
+}
 aFlags
 )
 )
