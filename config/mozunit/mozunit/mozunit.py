@@ -1074,6 +1074,7 @@ files
 def
 __call__
 (
+        
 self
 name
 mode
@@ -1090,6 +1091,10 @@ None
 newline
 =
 None
+errors
+=
+None
+    
 )
 :
         
@@ -1160,18 +1165,26 @@ open
 (
                 
 name
+                
 mode
 =
 mode
+                
 buffering
 =
 buffering
+                
 encoding
 =
 encoding
+                
 newline
 =
 newline
+                
+errors
+=
+errors
             
 )
         
