@@ -421,4 +421,17 @@ endif
 namespace
 mozilla
 #
+define
+QM_TO_RESULT
+(
+expr
+)
+ToResult
+(
+ToQMResult
+(
+expr
+)
+)
+#
 endif
