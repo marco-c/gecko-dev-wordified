@@ -102,6 +102,11 @@ AutoProfilerLabel
 h
 "
 "
+AwakeTimeStamp
+.
+h
+"
+"
 decimal
 /
 Decimal
@@ -231,6 +236,11 @@ SOURCES
 [
 "
 AutoProfilerLabel
+.
+cpp
+"
+"
+AwakeTimeStamp
 .
 cpp
 "
