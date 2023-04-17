@@ -370,9 +370,6 @@ OS_LIBS
 "
 dbghelp
 "
-"
-ntdll
-"
 ]
 TEST_DIRS
 +
