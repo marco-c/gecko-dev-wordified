@@ -19876,7 +19876,6 @@ aScrollableFrame
 >
 IsScrollingActive
 (
-aBuilder
 )
 ;
 }

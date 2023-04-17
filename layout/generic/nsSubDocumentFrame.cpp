@@ -2912,7 +2912,6 @@ sf
 >
 IsScrollingActive
 (
-aBuilder
 )
 )
 )
