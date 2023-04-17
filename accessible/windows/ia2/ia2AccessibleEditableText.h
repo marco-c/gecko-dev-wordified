@@ -136,6 +136,9 @@ namespace
 a11y
 {
 class
+HyperTextAccessibleWrap
+;
+class
 ia2AccessibleEditableText
 :
 public
@@ -332,6 +335,14 @@ in
 BSTR
 *
 attributes
+)
+;
+private
+:
+HyperTextAccessibleWrap
+*
+TextAcc
+(
 )
 ;
 }
