@@ -1561,6 +1561,7 @@ pseudoElement
 =
 "
 :
+:
 first
 -
 line
@@ -1584,6 +1585,7 @@ pseudoElement
 =
 =
 "
+:
 :
 first
 -
@@ -1609,6 +1611,7 @@ pseudoElement
 =
 "
 :
+:
 selection
 "
 )
@@ -1630,6 +1633,7 @@ pseudoElement
 =
 =
 "
+:
 :
 marker
 "
@@ -1653,6 +1657,7 @@ pseudoElement
 =
 "
 :
+:
 before
 "
 )
@@ -1674,6 +1679,7 @@ pseudoElement
 =
 =
 "
+:
 :
 after
 "
@@ -1724,6 +1730,7 @@ correct
 number
 of
 :
+:
 first
 -
 line
@@ -1749,6 +1756,7 @@ the
 correct
 number
 of
+:
 :
 first
 -
@@ -1776,6 +1784,7 @@ correct
 number
 of
 :
+:
 selection
 rules
 "
@@ -1799,6 +1808,7 @@ the
 correct
 number
 of
+:
 :
 marker
 rules
@@ -1824,6 +1834,7 @@ correct
 number
 of
 :
+:
 before
 rules
 "
@@ -1847,6 +1858,7 @@ the
 correct
 number
 of
+:
 :
 after
 rules
