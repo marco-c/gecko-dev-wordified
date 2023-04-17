@@ -206,7 +206,7 @@ PathExpr
 *
 *
 /
-nsresult
+void
 PathExpr
 :
 :
@@ -271,9 +271,6 @@ pxi
 pathOp
 =
 aPathOp
-;
-return
-NS_OK
 ;
 }
 /

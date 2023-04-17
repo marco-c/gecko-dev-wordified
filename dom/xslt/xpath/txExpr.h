@@ -3628,15 +3628,8 @@ to
 this
 PathExpr
 *
-return
-nsresult
-indicating
-out
-of
-memory
-*
 /
-nsresult
+void
 addExpr
 (
 Expr
