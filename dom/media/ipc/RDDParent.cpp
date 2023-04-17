@@ -342,17 +342,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ChildProfilerController
 .
 h
 "
-#
-endif
 #
 if
 defined
@@ -1227,9 +1222,6 @@ PProfilerChild
 aEndpoint
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 mProfilerController
 =
 ChildProfilerController
@@ -1246,8 +1238,6 @@ aEndpoint
 )
 )
 ;
-#
-endif
 return
 IPC_OK
 (
@@ -1974,9 +1964,6 @@ defined
 (
 XP_WIN
 )
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 mProfilerController
@@ -1994,8 +1981,6 @@ mProfilerController
 nullptr
 ;
 }
-#
-endif
 RemoteDecoderManagerParent
 :
 :

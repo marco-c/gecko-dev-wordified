@@ -483,17 +483,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ChildProfilerController
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_WEBRTC
@@ -1105,9 +1100,6 @@ QuickExit
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 mProfilerController
@@ -1125,8 +1117,6 @@ mProfilerController
 nullptr
 ;
 }
-#
-endif
 CrashReporterClient
 :
 :
@@ -1746,9 +1736,6 @@ PProfilerChild
 aEndpoint
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 mProfilerController
 =
 mozilla
@@ -1768,8 +1755,6 @@ aEndpoint
 )
 )
 ;
-#
-endif
 return
 IPC_OK
 (

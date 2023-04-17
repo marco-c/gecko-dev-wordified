@@ -5355,17 +5355,12 @@ SharedMap
 >
 mSharedData
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 RefPtr
 <
 ChildProfilerController
 >
 mProfilerController
 ;
-#
-endif
 #
 if
 defined
