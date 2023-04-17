@@ -1135,6 +1135,13 @@ panic_hook
 "
     
 "
+mozglue_static
+:
+:
+panic_hook
+"
+    
+"
 intentional_panic
 "
     
@@ -1161,6 +1168,23 @@ const
 char
 *
 )
+"
+    
+"
+std
+:
+:
+sys_common
+:
+:
+backtrace
+:
+:
+__rust_end_short_backtrace
+"
+    
+"
+rust_begin_unwind
 "
 )
 #
@@ -1220,6 +1244,15 @@ core
 :
 :
 panic
+:
+:
+"
+    
+"
+core
+:
+:
+panicking
 :
 :
 "
