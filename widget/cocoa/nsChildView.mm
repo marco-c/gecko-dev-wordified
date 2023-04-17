@@ -6359,6 +6359,10 @@ Now
 (
 )
 aPoint
+-
+WidgetToScreenOffset
+(
+)
 static_cast
 <
 Modifiers
