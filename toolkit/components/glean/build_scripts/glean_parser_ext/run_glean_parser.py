@@ -104,6 +104,28 @@ typing
 import
 Any
 Dict
+class
+ParserError
+(
+Exception
+)
+:
+    
+"
+"
+"
+Thrown
+from
+parse
+if
+something
+goes
+wrong
+"
+"
+"
+    
+pass
 GIFFT_TYPES
 =
 {
@@ -379,6 +401,27 @@ in
 yaml_array
 ]
     
+options
+=
+get_parser_options
+(
+moz_app_version
+)
+    
+return
+parse_with_options
+(
+input_files
+options
+)
+def
+parse_with_options
+(
+input_files
+options
+)
+:
+    
 #
 Derived
 heavily
@@ -408,13 +451,6 @@ not
 dates
 .
     
-options
-=
-get_parser_options
-(
-moz_app_version
-)
-    
 #
 Lint
 the
@@ -443,11 +479,14 @@ Warnings
 are
 Errors
         
-sys
-.
-exit
+raise
+ParserError
 (
-1
+"
+linter
+found
+problems
+"
 )
     
 all_objs
@@ -469,11 +508,16 @@ all_objs
 )
 :
         
-sys
-.
-exit
+raise
+ParserError
 (
-1
+"
+found
+validation
+errors
+during
+parse
+"
 )
     
 nits
@@ -539,11 +583,16 @@ testing
 )
 .
         
-sys
-.
-exit
+raise
+ParserError
 (
-1
+"
+glinter
+nits
+found
+during
+parse
+"
 )
     
 objects
@@ -728,11 +777,17 @@ stderr
             
 )
             
-sys
-.
-exit
+raise
+ParserError
 (
-1
+"
+rate
+couldn
+'
+t
+find
+denominator
+"
 )
         
 counters
