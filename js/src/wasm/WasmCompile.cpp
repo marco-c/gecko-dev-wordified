@@ -781,6 +781,14 @@ v128
 true
 ;
 }
+features
+.
+intrinsics
+=
+options
+.
+intrinsics
+;
 return
 features
 ;

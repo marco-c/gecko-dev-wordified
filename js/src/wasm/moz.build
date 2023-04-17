@@ -236,6 +236,11 @@ WasmInstance
 cpp
 "
 "
+WasmIntrinsic
+.
+cpp
+"
+"
 WasmIonCompile
 .
 cpp
