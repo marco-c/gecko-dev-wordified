@@ -61,7 +61,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -105,7 +105,7 @@ MIME_WARNING_MSG
 The
 script
 from
-http
+https
 :
 /
 /

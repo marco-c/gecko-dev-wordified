@@ -102,7 +102,7 @@ const
 TEST_URI1
 =
 "
-http
+https
 :
 /
 /
@@ -118,7 +118,7 @@ const
 TEST_URI2
 =
 "
-http
+https
 :
 /
 /

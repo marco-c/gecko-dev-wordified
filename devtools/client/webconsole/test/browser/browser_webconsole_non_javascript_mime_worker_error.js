@@ -87,7 +87,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -130,7 +130,7 @@ const
 JS_URI
 =
 "
-http
+https
 :
 /
 /

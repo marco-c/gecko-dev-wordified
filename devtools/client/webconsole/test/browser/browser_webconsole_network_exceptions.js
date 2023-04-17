@@ -86,7 +86,7 @@ const
 TEST_URI2
 =
 "
-http
+https
 :
 /
 /
