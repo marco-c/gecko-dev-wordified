@@ -1167,12 +1167,6 @@ ready
 )
 ;
 await
-toggleBookmarksToolbar
-(
-true
-)
-;
-await
 ext
 .
 startup
@@ -1187,6 +1181,12 @@ awaitMessage
 "
 ready
 "
+)
+;
+await
+toggleBookmarksToolbar
+(
+true
 )
 ;
 let
