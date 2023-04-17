@@ -150,9 +150,6 @@ nsString
 h
 "
 #
-ifdef
-USE_SKIA
-#
 include
 "
 skia
@@ -166,11 +163,6 @@ SkTypeface_win
 h
 "
 #
-endif
-#
-ifdef
-USE_CAIRO_SCALED_FONT
-#
 include
 "
 cairo
@@ -179,8 +171,6 @@ win32
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -739,9 +729,6 @@ GetSystemDefaultAAMode
 )
 ;
 }
-#
-ifdef
-USE_SKIA
 SkTypeface
 *
 ScaledFontWin
@@ -758,11 +745,6 @@ mLogFont
 )
 ;
 }
-#
-endif
-#
-ifdef
-USE_CAIRO_SCALED_FONT
 cairo_font_face_t
 *
 ScaledFontWin
@@ -800,8 +782,6 @@ mLogFont
 )
 ;
 }
-#
-endif
 }
 /
 /

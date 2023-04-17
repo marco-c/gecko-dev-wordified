@@ -7303,13 +7303,6 @@ Graphics
 =
 =
 =
-set_define
-(
-"
-USE_SKIA
-"
-True
-)
 depends
 (
 target

@@ -313,9 +313,6 @@ h
 #
 endif
 #
-ifdef
-USE_SKIA
-#
 include
 "
 PathSkia
@@ -362,15 +359,10 @@ SkTypeface_win
 h
 "
 #
-endif
-#
 include
 <
 vector
 >
-#
-ifdef
-USE_CAIRO_SCALED_FONT
 #
 include
 "
@@ -380,8 +372,6 @@ win32
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1073,9 +1063,6 @@ Finish
 )
 ;
 }
-#
-ifdef
-USE_SKIA
 SkTypeface
 *
 ScaledFontDWrite
@@ -1303,8 +1290,6 @@ true
 ;
 }
 }
-#
-endif
 void
 ScaledFontDWrite
 :
@@ -4533,9 +4518,6 @@ return
 defaultMode
 ;
 }
-#
-ifdef
-USE_CAIRO_SCALED_FONT
 cairo_font_face_t
 *
 ScaledFontDWrite
@@ -4593,8 +4575,6 @@ true
 ;
 }
 }
-#
-endif
 already_AddRefed
 <
 UnscaledFont

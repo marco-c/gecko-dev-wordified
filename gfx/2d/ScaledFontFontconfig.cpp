@@ -163,9 +163,6 @@ WebRenderTypes
 h
 "
 #
-ifdef
-USE_SKIA
-#
 include
 "
 skia
@@ -185,8 +182,6 @@ HelpersSkia
 .
 h
 "
-#
-endif
 #
 include
 <
@@ -382,9 +377,6 @@ gfx_text_subpixel_position_force_enabled_AtStartup
 )
 ;
 }
-#
-ifdef
-USE_SKIA
 SkTypeface
 *
 ScaledFontFontconfig
@@ -550,11 +542,6 @@ mHinting
 )
 ;
 }
-#
-endif
-#
-ifdef
-USE_CAIRO_SCALED_FONT
 cairo_font_face_t
 *
 ScaledFontFontconfig
@@ -604,8 +591,6 @@ get
 )
 ;
 }
-#
-endif
 AntialiasMode
 ScaledFontFontconfig
 :
