@@ -615,6 +615,12 @@ includes
 (
 keyword
 )
+&
+&
+!
+e
+.
+hidden
 )
 ;
 }
