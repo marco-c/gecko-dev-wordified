@@ -78,16 +78,6 @@ emitter
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 Services
 =
 require
@@ -699,7 +689,7 @@ null
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -1197,7 +1187,7 @@ frame
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -1912,7 +1902,7 @@ close
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -2088,7 +2078,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -2184,7 +2174,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -2231,7 +2221,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
