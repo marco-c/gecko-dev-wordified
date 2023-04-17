@@ -189,7 +189,7 @@ disk
 .
 const
 size_t
-MPSC_MSG_RESERVERD
+MPSC_MSG_RESERVED
 =
 sizeof
 (
