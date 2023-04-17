@@ -215,6 +215,12 @@ dbg
 gutterEl
 )
 ;
+await
+waitForContextMenu
+(
+dbg
+)
+;
 selectContextMenuItem
 (
 dbg

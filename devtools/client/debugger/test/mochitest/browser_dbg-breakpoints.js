@@ -324,6 +324,12 @@ breakpointItem
 2
 )
 ;
+await
+waitForContextMenu
+(
+dbg
+)
+;
 const
 disableBreakpointDispatch
 =
@@ -407,6 +413,12 @@ dbg
 breakpointItem
 "
 2
+)
+;
+await
+waitForContextMenu
+(
+dbg
 )
 ;
 const

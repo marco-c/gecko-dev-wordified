@@ -190,6 +190,12 @@ frameEls
 ]
 )
 ;
+await
+waitForContextMenu
+(
+dbg
+)
+;
 selectContextMenuItem
 (
 dbg

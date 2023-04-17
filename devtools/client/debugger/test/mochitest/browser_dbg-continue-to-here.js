@@ -244,6 +244,12 @@ gutter
 line
 )
 ;
+await
+waitForContextMenu
+(
+dbg
+)
+;
 selectContextMenuItem
 (
 dbg
@@ -291,6 +297,12 @@ rightClickAtPos
 (
 dbg
 pos
+)
+;
+await
+waitForContextMenu
+(
+dbg
 )
 ;
 selectContextMenuItem
