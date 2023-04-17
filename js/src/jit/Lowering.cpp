@@ -2580,7 +2580,7 @@ useRegister
 ins
 -
 >
-getArgsObject
+argsObject
 (
 )
 )
@@ -2629,7 +2629,7 @@ useRegister
 ins
 -
 >
-getArgsObject
+argsObject
 (
 )
 )
@@ -2652,7 +2652,7 @@ useBox
 ins
 -
 >
-getValue
+value
 (
 )
 )
@@ -2868,7 +2868,7 @@ argsObj
 ins
 -
 >
-getArgsObject
+argsObject
 (
 )
 ;

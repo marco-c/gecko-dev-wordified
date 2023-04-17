@@ -3161,8 +3161,8 @@ alloc
 (
 )
 obj
-id
 rhs
+id
 strict
 )
 ;
@@ -4017,8 +4017,8 @@ alloc
 (
 )
 obj
-name
 rhs
+name
 )
 ;
 addEffectful
@@ -19592,9 +19592,9 @@ New
 alloc
 (
 )
+length
 templateObj
 heap
-length
 )
 ;
 addEffectful
@@ -19773,9 +19773,9 @@ New
 alloc
 (
 )
+length
 templateObj
 heap
-length
 )
 ;
 addEffectful
@@ -19879,11 +19879,11 @@ New
 alloc
 (
 )
-templateObj
-heap
 buffer
 byteOffset
 length
+templateObj
+heap
 )
 ;
 addEffectful
@@ -19965,9 +19965,9 @@ New
 alloc
 (
 )
+array
 templateObj
 heap
-array
 )
 ;
 addEffectful
