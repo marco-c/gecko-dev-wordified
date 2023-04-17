@@ -1895,6 +1895,7 @@ EditorDOMPointType
 >
 WSRunScanner
 (
+const
 dom
 :
 :
@@ -1913,7 +1914,17 @@ aScanStartPoint
 )
 mEditingHost
 (
+const_cast
+<
+dom
+:
+:
+Element
+*
+>
+(
 aEditingHost
+)
 )
 mTextFragmentDataAtStart
 (
@@ -2000,6 +2011,7 @@ static
 WSScanResult
 ScanNextVisibleNodeOrBlockBoundary
 (
+const
 dom
 :
 :
@@ -2107,6 +2119,7 @@ static
 WSScanResult
 ScanPreviousVisibleNodeOrBlockBoundary
 (
+const
 dom
 :
 :
