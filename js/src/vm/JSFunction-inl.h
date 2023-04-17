@@ -639,7 +639,12 @@ atom_
 .
 init
 (
-nullptr
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 ;
 if
