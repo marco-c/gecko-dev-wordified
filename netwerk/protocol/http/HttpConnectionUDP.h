@@ -202,6 +202,13 @@ h
 #
 include
 "
+nsISupportsPriority
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h

@@ -264,6 +264,16 @@ aIsLocal
 )
 override
 ;
+virtual
+nsresult
+GetRemoteAddr
+(
+NetAddr
+*
+addr
+)
+override
+;
 uint64_t
 ByteCountSent
 (
