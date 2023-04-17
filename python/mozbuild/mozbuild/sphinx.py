@@ -1024,7 +1024,7 @@ app
 :
     
 from
-mach
+mozbuild
 .
 virtualenv
 import
