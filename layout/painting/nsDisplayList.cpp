@@ -475,6 +475,13 @@ h
 #
 include
 "
+Layers
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -497,13 +504,6 @@ h
 include
 "
 nsViewManager
-.
-h
-"
-#
-include
-"
-ImageLayers
 .
 h
 "
