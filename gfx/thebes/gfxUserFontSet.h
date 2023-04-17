@@ -3957,6 +3957,14 @@ mLoader
 =
 nullptr
 ;
+mSrcIndex
+=
+0
+;
+mSeenLocalSource
+=
+false
+;
 }
 /
 /
@@ -4937,6 +4945,9 @@ fallback
 ;
 FontDataLoadingState
 mFontDataLoadingState
+;
+bool
+mSeenLocalSource
 ;
 bool
 mUnsupportedFormat
