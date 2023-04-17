@@ -17616,7 +17616,7 @@ functions
 JS_FN
 (
 "
-regexp_construct_raw_flags
+RegExpConstructRaw
 "
 regexp_construct_raw_flags
 2
