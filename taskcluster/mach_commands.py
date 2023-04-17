@@ -3970,9 +3970,17 @@ name
                         
 ]
                         
-capture_output
+stdout
 =
-True
+subprocess
+.
+PIPE
+                        
+stderr
+=
+subprocess
+.
+PIPE
                         
 universal_newlines
 =
