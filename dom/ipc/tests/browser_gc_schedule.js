@@ -990,6 +990,9 @@ windowUtils
 .
 pokeGC
 (
+"
+PAGE_HIDE
+"
 )
 ;
 content
@@ -998,6 +1001,9 @@ windowUtils
 .
 runNextCollectorTimer
 (
+"
+PAGE_HIDE
+"
 )
 ;
 }
