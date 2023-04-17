@@ -1491,13 +1491,14 @@ job
 treeherder
 "
 ]
-[
+.
+setdefault
+(
 "
 platform
 "
-]
-=
 platform
+)
         
 if
 "
