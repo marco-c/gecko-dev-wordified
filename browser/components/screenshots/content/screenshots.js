@@ -64,7 +64,7 @@ strict
 class
 ScreenshotsUI
 extends
-MozXULElement
+HTMLElement
 {
 constructor
 (
