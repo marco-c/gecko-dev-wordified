@@ -49961,7 +49961,7 @@ f
 nsLayoutUtils
 :
 :
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 &
