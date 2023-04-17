@@ -21520,7 +21520,7 @@ comment
 above
 /
 /
-popMemoryAccess
+popMemory32Access
 (
 )
 below
@@ -46394,30 +46394,14 @@ wrapping
 .
 if
 (
-(
+!
 moduleEnv_
 .
-maxMemoryLength
-(
-)
-.
-isNothing
-(
-)
-|
-|
-moduleEnv_
-.
-maxMemoryLength
-(
-)
-.
-value
-(
-)
+memory
+-
 >
-=
-0x100000000
+boundsCheckLimitIs32Bits
+(
 )
 &
 &
@@ -55111,7 +55095,7 @@ rd
 ;
 }
 RegI32
-popMemoryAccess
+popMemory32Access
 (
 MemoryAccessDesc
 *
@@ -78895,7 +78879,7 @@ RegI32
 BaseCompiler
 :
 :
-popMemoryAccess
+popMemory32Access
 (
 MemoryAccessDesc
 *
@@ -78985,7 +78969,10 @@ limit
 =
 moduleEnv_
 .
-minMemoryLength
+memory
+-
+>
+initialLength32
 (
 )
 +
@@ -79387,7 +79374,7 @@ I32
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -79503,7 +79490,7 @@ rv
 ;
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -79514,7 +79501,7 @@ check
 else
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -79583,7 +79570,7 @@ F32
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -79651,7 +79638,7 @@ F64
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -79722,7 +79709,7 @@ V128
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -79954,7 +79941,7 @@ popI32
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -80020,7 +80007,7 @@ popI64
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -80086,7 +80073,7 @@ popF32
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -80152,7 +80139,7 @@ popF64
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -80221,7 +80208,7 @@ popV128
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
@@ -82506,7 +82493,7 @@ check
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 &
 access
@@ -82625,7 +82612,7 @@ check
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 &
 access
@@ -82887,7 +82874,7 @@ check
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 &
 access
@@ -83108,7 +83095,7 @@ check
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 &
 access
@@ -83229,7 +83216,7 @@ check
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 &
 access
@@ -83644,7 +83631,7 @@ viewType
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 &
 access
@@ -83790,7 +83777,7 @@ check
 RegI32
 rp
 =
-popMemoryAccess
+popMemory32Access
 (
 access
 &
