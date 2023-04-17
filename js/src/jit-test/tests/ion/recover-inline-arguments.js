@@ -7,14 +7,6 @@ test
 |
 -
 -
-scalar
--
-replace
--
-arguments
-;
--
--
 inlining
 -
 entry

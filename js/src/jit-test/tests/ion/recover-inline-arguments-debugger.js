@@ -10,14 +10,6 @@ test
 fast
 -
 warmup
-;
--
--
-scalar
--
-replace
--
-arguments
 g13
 =
 newGlobal

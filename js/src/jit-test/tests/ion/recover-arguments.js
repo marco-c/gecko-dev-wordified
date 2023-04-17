@@ -1,17 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
--
--
-scalar
--
-replace
--
-arguments
 setJitCompilerOption
 (
 "
