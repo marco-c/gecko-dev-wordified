@@ -236,7 +236,6 @@ EnterprisePolicyTesting
 .
 jsm
 "
-null
 )
 ;
 requestLongerTimeout

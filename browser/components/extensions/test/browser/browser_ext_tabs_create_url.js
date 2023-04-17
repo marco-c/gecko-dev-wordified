@@ -78,7 +78,6 @@ EnterprisePolicyTesting
 .
 jsm
 "
-null
 )
 ;
 PoliciesPrefTracker

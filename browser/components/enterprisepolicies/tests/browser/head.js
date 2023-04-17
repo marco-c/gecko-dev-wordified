@@ -84,7 +84,6 @@ EnterprisePolicyTesting
 .
 jsm
 "
-null
 )
 ;
 const
@@ -109,7 +108,6 @@ TestUtils
 .
 jsm
 "
-null
 )
 ;
 ChromeUtils
