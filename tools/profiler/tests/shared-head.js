@@ -290,6 +290,9 @@ threads
 "
 nostacksampling
 "
+"
+js
+"
 ]
 threads
 :
