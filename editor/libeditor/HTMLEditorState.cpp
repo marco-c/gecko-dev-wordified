@@ -2359,6 +2359,7 @@ arrayOfContents
 ]
 ;
 }
+const
 RefPtr
 <
 dom
@@ -2366,15 +2367,19 @@ dom
 :
 Element
 >
-blockElementAtEditTarget
+maybeNonEditableBlockElement
 =
 HTMLEditUtils
 :
 :
-GetInclusiveAncestorBlockElement
+GetInclusiveAncestorElement
 (
 *
 editTargetContent
+HTMLEditUtils
+:
+:
+ClosestBlockElement
 )
 ;
 if
@@ -2382,7 +2387,7 @@ if
 NS_WARN_IF
 (
 !
-blockElementAtEditTarget
+maybeNonEditableBlockElement
 )
 )
 {
@@ -2410,7 +2415,7 @@ CSSEditUtils
 :
 IsCSSEditableProperty
 (
-blockElementAtEditTarget
+maybeNonEditableBlockElement
 nullptr
 nsGkAtoms
 :
@@ -2474,7 +2479,7 @@ CSSEditUtils
 GetComputedCSSEquivalentToHTMLInlineStyleSet
 (
 *
-blockElementAtEditTarget
+maybeNonEditableBlockElement
 nullptr
 nsGkAtoms
 :
