@@ -291,10 +291,6 @@ mIsWin10OrLater
 (
 false
 )
-mHasWrSoftwareBlocklist
-(
-false
-)
 {
 }
 void
@@ -499,9 +495,6 @@ mSafeMode
 ;
 bool
 mIsWin10OrLater
-;
-bool
-mHasWrSoftwareBlocklist
 ;
 }
 ;
