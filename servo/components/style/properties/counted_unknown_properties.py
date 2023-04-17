@@ -235,12 +235,6 @@ after
 "
     
 "
-tab
--
-size
-"
-    
-"
 -
 webkit
 -

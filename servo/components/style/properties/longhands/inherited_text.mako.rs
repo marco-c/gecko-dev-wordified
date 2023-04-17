@@ -1693,9 +1693,6 @@ helpers
 predefined_type
 (
 "
--
-moz
--
 tab
 -
 size
@@ -1761,6 +1758,16 @@ tab
 size
 -
 property
+"
+aliases
+=
+"
+-
+moz
+-
+tab
+-
+size
 "
 )
 }

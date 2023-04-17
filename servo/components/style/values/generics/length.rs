@@ -1188,9 +1188,6 @@ number
 value
 for
 the
--
-moz
--
 tab
 -
 size

@@ -6181,7 +6181,7 @@ mozilla
 :
 :
 StyleNonNegativeLengthOrNumber
-mMozTabSize
+mTabSize
 ;
 mozilla
 :

@@ -20207,7 +20207,7 @@ CurrentColor
 (
 )
 )
-mMozTabSize
+mTabSize
 (
 StyleNonNegativeLengthOrNumber
 :
@@ -20458,11 +20458,11 @@ aSource
 .
 mWebkitTextStrokeColor
 )
-mMozTabSize
+mTabSize
 (
 aSource
 .
-mMozTabSize
+mTabSize
 )
 mWordSpacing
 (
@@ -20771,12 +20771,12 @@ mWordSpacing
 |
 |
 (
-mMozTabSize
+mTabSize
 !
 =
 aNewData
 .
-mMozTabSize
+mTabSize
 )
 )
 {

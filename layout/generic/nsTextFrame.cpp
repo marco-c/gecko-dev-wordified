@@ -24312,7 +24312,7 @@ StyleText
 )
 -
 >
-mMozTabSize
+mTabSize
 ;
 if
 (

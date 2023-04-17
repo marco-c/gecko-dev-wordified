@@ -4908,9 +4908,6 @@ props
 remove
 (
 "
--
-moz
--
 tab
 -
 size

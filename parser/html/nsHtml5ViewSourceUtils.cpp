@@ -245,9 +245,6 @@ style
 AssignLiteral
 (
 "
--
-moz
--
 tab
 -
 size
