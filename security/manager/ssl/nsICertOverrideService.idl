@@ -1289,5 +1289,10 @@ boolean
 aDisable
 )
 ;
+readonly
+attribute
+boolean
+securityCheckDisabled
+;
 }
 ;

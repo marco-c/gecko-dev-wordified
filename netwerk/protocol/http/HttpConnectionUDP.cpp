@@ -610,9 +610,10 @@ callbacks
 false
 )
 ;
+return
+mErrorBeforeConnect
+;
 }
-else
-{
 nsCOMPtr
 <
 nsIDNSAddrRecord
@@ -1194,7 +1195,6 @@ nullptr
 return
 rv
 ;
-}
 }
 return
 NS_OK
