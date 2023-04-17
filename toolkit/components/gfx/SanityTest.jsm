@@ -2095,8 +2095,6 @@ VERSION_PREF
 buildId
 REASON_FIREFOX_CHANGED
 )
-&
-&
 )
 {
 return
