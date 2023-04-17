@@ -410,7 +410,7 @@ type
 "
 Metric
 <
-uint32_t
+NoExtraKeys
 >
 "
             
