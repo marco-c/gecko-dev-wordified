@@ -210,6 +210,12 @@ VideoBridgeSource
 aSource
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 TextureHost
 *
 LookupTexture
@@ -423,6 +429,11 @@ ActorDealloc
 (
 )
 override
+;
+void
+ReleaseCompositorThread
+(
+)
 ;
 /
 /
