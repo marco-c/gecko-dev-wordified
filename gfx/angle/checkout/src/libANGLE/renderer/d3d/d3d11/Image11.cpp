@@ -1566,6 +1566,14 @@ size
 height
 |
 |
+mDepth
+!
+=
+size
+.
+depth
+|
+|
 mInternalFormat
 !
 =

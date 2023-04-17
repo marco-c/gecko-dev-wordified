@@ -651,8 +651,13 @@ in
 moz_yaml_contents
 :
             
+def
 prefix
-=
+(
+)
+:
+                
+return
 line
 [
 0
@@ -687,6 +692,8 @@ f
 write
 (
 prefix
+(
+)
 +
 base_merge_base_from
 .
@@ -715,6 +722,8 @@ f
 write
 (
 prefix
+(
+)
 +
 merge_base_readable
 .
@@ -743,6 +752,8 @@ f
 write
 (
 prefix
+(
+)
 +
 merge_base
 .
