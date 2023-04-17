@@ -818,7 +818,7 @@ dst
 wgt
 :
 :
-TextureCopyView
+ImageCopyTexture
 <
 id
 :
@@ -830,7 +830,7 @@ layout
 wgt
 :
 :
-TextureDataLayout
+ImageDataLayout
 size
 :
 wgt
