@@ -3851,11 +3851,11 @@ IsEditActionDataAvailable
 ;
 if
 (
-SelectionRef
-(
-)
-.
-IsCollapsed
+!
+EditorBase
+:
+:
+IsCopyToClipboardAllowedInternal
 (
 )
 )
