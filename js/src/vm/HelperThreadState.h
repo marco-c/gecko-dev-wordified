@@ -3405,13 +3405,7 @@ None
 upon
 completion
 .
-mozilla
-:
-:
-Maybe
-<
 SharedImmutableString
->
 resultString_
 ;
 public
