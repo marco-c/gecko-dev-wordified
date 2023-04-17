@@ -1544,12 +1544,13 @@ StopBlinking
 void
 CreateMenuCommandEvent
 (
+bool
+aIsTrusted
 mozilla
 :
 :
-WidgetGUIEvent
-*
-aEvent
+Modifiers
+aModifiers
 )
 ;
 void
