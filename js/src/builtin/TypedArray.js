@@ -555,7 +555,7 @@ avoid
 calling
 /
 /
-_ConstructorForTypedArray
+ConstructorForTypedArray
 a
 non
 -
@@ -620,7 +620,7 @@ ctor
 undefined
 )
 return
-_ConstructorForTypedArray
+ConstructorForTypedArray
 (
 obj
 )
@@ -691,7 +691,7 @@ s
 null
 )
 return
-_ConstructorForTypedArray
+ConstructorForTypedArray
 (
 obj
 )
@@ -8504,7 +8504,7 @@ the
 original
 name
 in
-_SetCanonicalName
+SetCanonicalName
 .
 function
 TypedArrayValues
@@ -8555,7 +8555,7 @@ ITEM_KIND_VALUE
 )
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 TypedArrayValues
 "
@@ -9905,7 +9905,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 TypedArraySpecies
 "
@@ -10122,7 +10122,7 @@ done
 )
 break
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 values
 i
@@ -10630,7 +10630,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ArrayBufferSpecies
 "
@@ -10669,7 +10669,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 SharedArrayBufferSpecies
 "

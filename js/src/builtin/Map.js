@@ -340,7 +340,7 @@ iteratorTemp
 .
 mapIterationResultPair
 =
-_CreateMapIterationResultPair
+CreateMapIterationResultPair
 (
 )
 ;
@@ -353,7 +353,7 @@ true
 var
 done
 =
-_GetNextMapEntryForIterator
+GetNextMapEntryForIterator
 (
 entries
 mapIterationResultPair
@@ -478,7 +478,7 @@ Steps
 (
 implemented
 in
-_GetNextMapEntryForIterator
+GetNextMapEntryForIterator
 )
 .
 /
@@ -510,7 +510,7 @@ iteratorTemp
 .
 mapIterationResultPair
 =
-_CreateMapIterationResultPair
+CreateMapIterationResultPair
 (
 )
 ;
@@ -538,7 +538,7 @@ a
 var
 done
 =
-_GetNextMapEntryForIterator
+GetNextMapEntryForIterator
 (
 O
 mapIterationResultPair
@@ -736,7 +736,7 @@ the
 original
 name
 in
-_SetCanonicalName
+SetCanonicalName
 .
 function
 MapSpecies
@@ -752,7 +752,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 MapSpecies
 "

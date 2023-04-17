@@ -3290,7 +3290,7 @@ from
 )
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 String_substring
 )
@@ -3562,7 +3562,7 @@ resultLength
 )
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 String_substr
 )
@@ -4076,7 +4076,7 @@ span
 )
 ;
 }
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 String_slice
 )

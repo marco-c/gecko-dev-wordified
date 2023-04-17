@@ -717,7 +717,7 @@ the
 callback
 function
 .
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayEvery
 )
@@ -950,7 +950,7 @@ the
 callback
 function
 .
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArraySome
 )
@@ -1451,7 +1451,7 @@ the
 callback
 function
 .
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayForEach
 )
@@ -1692,7 +1692,7 @@ k
 O
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 A
 k
@@ -1723,7 +1723,7 @@ the
 callback
 function
 .
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayMap
 )
@@ -2001,7 +2001,7 @@ if
 (
 selected
 )
-_DefineDataProperty
+DefineDataProperty
 (
 A
 to
@@ -4495,7 +4495,7 @@ the
 result
 object
 .
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayIteratorNext
 )
@@ -4519,7 +4519,7 @@ the
 original
 name
 in
-_SetCanonicalName
+SetCanonicalName
 .
 function
 ArrayValues
@@ -4534,7 +4534,7 @@ ITEM_KIND_VALUE
 )
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ArrayValues
 "
@@ -4827,7 +4827,7 @@ on
 normal
 array
 since
-_DefineDataProperty
+DefineDataProperty
 will
 throw
 before
@@ -4852,7 +4852,7 @@ ignores
 /
 /
 |
-_DefineDataProperty
+DefineDataProperty
 |
 but
 it
@@ -4922,7 +4922,7 @@ e
 .
 viii
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 k
@@ -5116,7 +5116,7 @@ f
 -
 g
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 k
@@ -5725,7 +5725,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ArraySpecies
 "
@@ -6391,7 +6391,7 @@ is
 always
 true
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -6476,7 +6476,7 @@ k
 in
 E
 )
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -6536,7 +6536,7 @@ d
 .
 ii
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -7207,7 +7207,7 @@ vi
 .
 2
 .
-_DefineDataProperty
+DefineDataProperty
 (
 target
 targetIndex
@@ -7396,7 +7396,7 @@ for
 normal
 inlining
 .
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 (
 ArrayAt
 )

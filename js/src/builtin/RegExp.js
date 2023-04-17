@@ -122,7 +122,7 @@ the
 original
 name
 in
-_SetCanonicalName
+SetCanonicalName
 .
 function
 RegExpFlagsGetter
@@ -325,7 +325,7 @@ return
 result
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 RegExpFlagsGetter
 "
@@ -444,7 +444,7 @@ pattern
 flags
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 RegExpToString
 "
@@ -1041,7 +1041,7 @@ iii
 .
 2
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -1309,7 +1309,7 @@ iii
 .
 2
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 n
@@ -2103,7 +2103,7 @@ c
 .
 i
 .
-_DefineDataProperty
+DefineDataProperty
 (
 results
 nResults
@@ -2713,7 +2713,7 @@ i
 reordered
 )
 .
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -2804,7 +2804,7 @@ i
 .
 iii
 .
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -2980,7 +2980,7 @@ ii
 -
 v
 .
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -2989,7 +2989,7 @@ capturesLength
 position
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -3007,7 +3007,7 @@ namedCaptures
 undefined
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 capturesLength
@@ -3391,7 +3391,7 @@ undefined
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 n
@@ -3411,7 +3411,7 @@ k
 .
 iii
 .
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 nCaptures
@@ -3420,7 +3420,7 @@ nCaptures
 position
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 nCaptures
@@ -3447,7 +3447,7 @@ namedCaptures
 undefined
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 captures
 nCaptures
@@ -5183,7 +5183,7 @@ Step
 .
 d
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 0
@@ -5459,7 +5459,7 @@ iv
 -
 3
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 lengthA
@@ -5604,7 +5604,7 @@ a
 -
 b
 .
-_DefineDataProperty
+DefineDataProperty
 (
 A
 lengthA
@@ -5703,7 +5703,7 @@ p
 =
 size
 )
-_DefineDataProperty
+DefineDataProperty
 (
 A
 lengthA
@@ -5712,7 +5712,7 @@ lengthA
 )
 ;
 else
-_DefineDataProperty
+DefineDataProperty
 (
 A
 lengthA
@@ -6620,7 +6620,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 RegExpSpecies
 "

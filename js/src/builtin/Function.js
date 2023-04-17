@@ -211,7 +211,7 @@ Steps
 -
 11
 .
-_FinishBoundFunctionInit
+FinishBoundFunctionInit
 (
 F
 target
@@ -536,7 +536,7 @@ newTarget
 ;
 if
 (
-_IsConstructing
+IsConstructing
 (
 )
 )
@@ -845,7 +845,7 @@ newTarget
 ;
 if
 (
-_IsConstructing
+IsConstructing
 (
 )
 )
@@ -1102,7 +1102,7 @@ std_Array
 callArgsCount
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 args
 0
@@ -1124,7 +1124,7 @@ i
 +
 +
 )
-_DefineDataProperty
+DefineDataProperty
 (
 args
 i
@@ -1250,7 +1250,7 @@ newTarget
 ;
 if
 (
-_IsConstructing
+IsConstructing
 (
 )
 )
@@ -1519,14 +1519,14 @@ std_Array
 callArgsCount
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 args
 0
 bound1
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 args
 1
@@ -1548,7 +1548,7 @@ i
 +
 +
 )
-_DefineDataProperty
+DefineDataProperty
 (
 args
 i
@@ -1651,7 +1651,7 @@ newTarget
 ;
 if
 (
-_IsConstructing
+IsConstructing
 (
 )
 )
@@ -1765,7 +1765,7 @@ i
 +
 +
 )
-_DefineDataProperty
+DefineDataProperty
 (
 args
 i
@@ -1790,7 +1790,7 @@ i
 +
 +
 )
-_DefineDataProperty
+DefineDataProperty
 (
 args
 i
@@ -1880,7 +1880,7 @@ i
 +
 +
 )
-_DefineDataProperty
+DefineDataProperty
 (
 args
 i
@@ -2287,7 +2287,7 @@ caller
 )
 ;
 return
-_ConstructFunction
+ConstructFunction
 (
 fun
 newTarget

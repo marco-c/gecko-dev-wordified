@@ -2386,7 +2386,7 @@ iterated
 Step
 d
 .
-_DefineDataProperty
+DefineDataProperty
 (
 items
 index

@@ -298,7 +298,7 @@ setIteratorTemp
 .
 setIterationResult
 =
-_CreateSetIterationResult
+CreateSetIterationResult
 (
 )
 ;
@@ -310,7 +310,7 @@ true
 var
 done
 =
-_GetNextSetEntryForIterator
+GetNextSetEntryForIterator
 (
 values
 setIterationResult
@@ -380,7 +380,7 @@ the
 original
 name
 in
-_SetCanonicalName
+SetCanonicalName
 .
 function
 SetSpecies
@@ -396,7 +396,7 @@ return
 this
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 SetSpecies
 "
@@ -481,7 +481,7 @@ Steps
 (
 implemented
 in
-_GetNextSetEntryForIterator
+GetNextSetEntryForIterator
 )
 .
 /
@@ -512,7 +512,7 @@ setIteratorTemp
 .
 setIterationResult
 =
-_CreateSetIterationResult
+CreateSetIterationResult
 (
 )
 ;
@@ -539,7 +539,7 @@ a
 var
 done
 =
-_GetNextSetEntryForIterator
+GetNextSetEntryForIterator
 (
 O
 setIterationResult

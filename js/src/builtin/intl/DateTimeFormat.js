@@ -3205,7 +3205,7 @@ thisValue
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 thisValue
 intlFallbackSymbol
@@ -5506,7 +5506,7 @@ a
 new
 object
 .
-_DefineDataProperty
+DefineDataProperty
 (
 options
 "
@@ -5517,7 +5517,7 @@ numeric
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 options
 "
@@ -5528,7 +5528,7 @@ numeric
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 options
 "
@@ -5578,7 +5578,7 @@ for
 step
 7
 .
-_DefineDataProperty
+DefineDataProperty
 (
 options
 "
@@ -5589,7 +5589,7 @@ numeric
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 options
 "
@@ -5600,7 +5600,7 @@ numeric
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 options
 "
@@ -6104,7 +6104,7 @@ the
 original
 name
 in
-_SetCanonicalName
+SetCanonicalName
 .
 function
 Intl_DateTimeFormat_format_get
@@ -6219,7 +6219,7 @@ internals
 boundFormat
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 Intl_DateTimeFormat_format_get
 "
@@ -6945,7 +6945,7 @@ patternOption
 undefined
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7043,7 +7043,7 @@ if
 hasDateStyle
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7060,7 +7060,7 @@ if
 hasTimeStyle
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7863,7 +7863,7 @@ if
 hourCycle
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7872,7 +7872,7 @@ hourCycle
 hourCycle
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7911,7 +7911,7 @@ if
 weekday
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7926,7 +7926,7 @@ if
 era
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7941,7 +7941,7 @@ if
 year
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7956,7 +7956,7 @@ if
 month
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7971,7 +7971,7 @@ if
 day
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -7986,7 +7986,7 @@ if
 dayPeriod
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -8001,7 +8001,7 @@ if
 hour
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -8016,7 +8016,7 @@ if
 minute
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -8031,7 +8031,7 @@ if
 second
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -8046,7 +8046,7 @@ if
 fractionalSecondDigits
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -8061,7 +8061,7 @@ if
 timeZoneName
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "

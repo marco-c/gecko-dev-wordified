@@ -2289,7 +2289,7 @@ Check
 invariants
 for
 inlined
-_GetNextMapEntryForIterator
+GetNextMapEntryForIterator
 .
 /
 /

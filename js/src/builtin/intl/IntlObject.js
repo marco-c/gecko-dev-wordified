@@ -436,7 +436,7 @@ r
 locale
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -447,7 +447,7 @@ r
 ca
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 result
 "
@@ -1182,7 +1182,7 @@ i
 processedKey
 )
 .
-_DefineDataProperty
+DefineDataProperty
 (
 processedKeys
 i
@@ -1401,7 +1401,7 @@ key
 name
 )
 .
-_DefineDataProperty
+DefineDataProperty
 (
 values
 key

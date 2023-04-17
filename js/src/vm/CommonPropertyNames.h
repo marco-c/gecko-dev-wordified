@@ -3704,7 +3704,7 @@ MACRO_
 SetCanonicalName
 SetCanonicalName
 "
-_SetCanonicalName
+SetCanonicalName
 "
 )
 \
@@ -3723,7 +3723,7 @@ SetIsInlinableLargeFunction
 SetIsInlinableLargeFunction
 \
 "
-_SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
 "
 )
 \
@@ -4835,7 +4835,7 @@ defineDataPropertyIntrinsic
 defineDataPropertyIntrinsic
 \
 "
-_DefineDataProperty
+DefineDataProperty
 "
 )
 #

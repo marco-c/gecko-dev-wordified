@@ -2294,7 +2294,7 @@ the
 original
 name
 in
-_SetCanonicalName
+SetCanonicalName
 .
 function
 Intl_Collator_compare_get
@@ -2404,7 +2404,7 @@ internals
 boundCompare
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 Intl_Collator_compare_get
 "

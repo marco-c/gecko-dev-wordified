@@ -1290,7 +1290,7 @@ key
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 target
 key
@@ -1500,7 +1500,7 @@ from
 key
 )
 )
-_DefineDataProperty
+DefineDataProperty
 (
 target
 key

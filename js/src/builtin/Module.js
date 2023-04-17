@@ -221,7 +221,7 @@ return
 /
 Step
 5
-_DefineDataProperty
+DefineDataProperty
 (
 exportStarSet
 exportStarSet
@@ -282,7 +282,7 @@ localExportEntries
 i
 ]
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 exportedNames
 namesCount
@@ -331,7 +331,7 @@ indirectExportEntries
 i
 ]
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 exportedNames
 namesCount
@@ -449,7 +449,7 @@ exportedNames
 n
 )
 )
-_DefineDataProperty
+DefineDataProperty
 (
 exportedNames
 namesCount
@@ -820,7 +820,7 @@ null
 /
 Step
 5
-_DefineDataProperty
+DefineDataProperty
 (
 resolveSet
 resolveSet
@@ -1394,7 +1394,7 @@ IsResolvedBinding
 resolution
 )
 )
-_DefineDataProperty
+DefineDataProperty
 (
 unambiguousNames
 unambiguousNames
@@ -2482,7 +2482,7 @@ module
 to
 stack
 .
-_DefineDataProperty
+DefineDataProperty
 (
 stack
 stack
@@ -4371,7 +4371,7 @@ index
 /
 Step
 9
-_DefineDataProperty
+DefineDataProperty
 (
 stack
 stack

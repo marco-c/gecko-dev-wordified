@@ -1170,7 +1170,7 @@ b
 .
 iii
 .
-_DefineDataProperty
+DefineDataProperty
 (
 list
 list

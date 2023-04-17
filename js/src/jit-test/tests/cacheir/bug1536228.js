@@ -139,7 +139,7 @@ will
 be
 created
 through
-_DefineDataProperty
+DefineDataProperty
 /
 /
 which

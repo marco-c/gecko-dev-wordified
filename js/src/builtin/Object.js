@@ -175,7 +175,7 @@ desc
 undefined
 "
 )
-_DefineDataProperty
+DefineDataProperty
 (
 descriptors
 key
@@ -434,7 +434,7 @@ this
 )
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ObjectProtoGetter
 "
@@ -482,7 +482,7 @@ proto
 )
 ;
 }
-_SetCanonicalName
+SetCanonicalName
 (
 ObjectProtoSetter
 "
@@ -567,7 +567,7 @@ Steps
 3
 5
 .
-_DefineProperty
+DefineProperty
 (
 object
 key
@@ -666,7 +666,7 @@ Steps
 3
 5
 .
-_DefineProperty
+DefineProperty
 (
 object
 key
@@ -1670,7 +1670,7 @@ property
 )
 .
 return
-_DefineProperty
+DefineProperty
 (
 obj
 propertyKey
@@ -1703,7 +1703,7 @@ hasValue
 Use
 the
 inlinable
-_DefineDataProperty
+DefineDataProperty
 function
 when
 possible
@@ -1738,7 +1738,7 @@ ATTR_WRITABLE
 )
 )
 {
-_DefineDataProperty
+DefineDataProperty
 (
 obj
 propertyKey
@@ -1771,7 +1771,7 @@ is
 present
 .
 return
-_DefineProperty
+DefineProperty
 (
 obj
 propertyKey
@@ -1798,7 +1798,7 @@ value
 )
 .
 return
-_DefineProperty
+DefineProperty
 (
 obj
 propertyKey
@@ -2035,7 +2035,7 @@ fromEntries
 "
 )
 ;
-_DefineDataProperty
+DefineDataProperty
 (
 obj
 pair
