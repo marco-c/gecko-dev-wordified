@@ -14147,6 +14147,14 @@ callerBC
 canFocus
 =
 (
+callerBC
+?
+callerBC
+:
+this
+)
+-
+>
 RevisePopupAbuseLevel
 (
 PopupBlocker
@@ -14161,7 +14169,6 @@ PopupBlocker
 :
 :
 openBlocked
-)
 ;
 }
 bool
