@@ -364,6 +364,7 @@ importFunctions
 (
 {
 getNodeFront
+getNodeFrontInFrames
 selectNode
 /
 /
@@ -371,8 +372,8 @@ selectNodeInFrames
 depends
 on
 selectNode
-and
 getNodeFront
+getNodeFrontInFrames
 .
 selectNodeInFrames
 }
