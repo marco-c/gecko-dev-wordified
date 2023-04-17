@@ -143,7 +143,9 @@ ClientManagerService
 class
 ClientSourceParent
 ;
-typedef
+using
+SourcePromise
+=
 MozPromise
 <
 bool
@@ -156,7 +158,6 @@ IsExclusive
 /
 false
 >
-SourcePromise
 ;
 class
 ClientHandleParent
