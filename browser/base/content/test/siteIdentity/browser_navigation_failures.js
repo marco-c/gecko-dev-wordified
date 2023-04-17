@@ -313,7 +313,8 @@ is
 (
 newIdentityMode
 "
-unknownIdentity
+certErrorPage
+notSecureText
 "
 "
 identity
@@ -1105,7 +1106,8 @@ is
 (
 identityMode
 "
-unknownIdentity
+certErrorPage
+notSecureText
 "
 "
 identity
