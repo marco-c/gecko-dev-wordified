@@ -285,6 +285,11 @@ WasmValType
 .
 cpp
 "
+"
+WasmValue
+.
+cpp
+"
 ]
 #
 We
