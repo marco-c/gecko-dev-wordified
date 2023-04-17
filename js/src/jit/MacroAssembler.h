@@ -33199,6 +33199,17 @@ Register
 temp
 )
 ;
+void
+prepareHashString
+(
+Register
+str
+Register
+result
+Register
+temp
+)
+;
 private
 :
 enum
