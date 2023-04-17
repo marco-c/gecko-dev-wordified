@@ -2023,6 +2023,12 @@ move
 (
 aProxyDecoder
 )
+do_AddRef
+(
+GetCurrentSerialEventTarget
+(
+)
+)
 )
 mThread
 (
