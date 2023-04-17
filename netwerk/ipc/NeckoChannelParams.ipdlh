@@ -1230,6 +1230,9 @@ isMetaRefresh
 CrossOriginEmbedderPolicy
 loadingEmbedderPolicy
 ;
+nsIURI
+unstrippedURI
+;
 }
 ;
 /
@@ -1628,6 +1631,9 @@ isThirdPartyContextToTopWindow
 ;
 bool
 isInThirdPartyContext
+;
+nsIURI
+unstrippedURI
 ;
 /
 /
