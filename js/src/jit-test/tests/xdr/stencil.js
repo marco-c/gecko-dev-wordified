@@ -519,7 +519,7 @@ eval
 const
 bytes
 =
-compileStencilXDR
+compileToStencilXDR
 (
 script_str
 )

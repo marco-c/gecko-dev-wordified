@@ -38353,7 +38353,7 @@ true
 endif
 static
 bool
-CompileStencilXDR
+CompileToStencilXDR
 (
 JSContext
 *
@@ -38383,7 +38383,7 @@ requireAtLeast
 (
 cx
 "
-compileStencilXDR
+compileToStencilXDR
 "
 1
 )
@@ -38440,7 +38440,7 @@ char
 filename
 =
 "
-compileStencilXDR
+compileToStencilXDR
 -
 DATA
 .
@@ -38910,7 +38910,7 @@ char
 filename
 =
 "
-compileStencilXDR
+compileToStencilXDR
 -
 DATA
 .
@@ -56772,13 +56772,13 @@ tag
 JS_FN_HELP
 (
 "
-compileStencilXDR
+compileToStencilXDR
 "
-CompileStencilXDR
+CompileToStencilXDR
 1
 0
 "
-compileStencilXDR
+compileToStencilXDR
 (
 string
 )
