@@ -2224,9 +2224,14 @@ kNoise
 }
 if
 (
-cparams
+enc_state
+-
+>
+shared
 .
-resampling
+frame_header
+.
+upsampling
 !
 =
 1

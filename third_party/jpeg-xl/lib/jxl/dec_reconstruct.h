@@ -406,7 +406,7 @@ skip_blending
 /
 Renders
 the
-output_rect
+frame_rect
 portion
 of
 the
@@ -426,7 +426,7 @@ upsampled
 in
 which
 case
-output_rect
+frame_rect
 is
 scaled
 /
@@ -453,7 +453,7 @@ non
 padded
 pixels
 .
-output_rect
+frame_rect
 .
 x0
 (
@@ -472,7 +472,7 @@ GroupBorderAssigner
 :
 kPaddingRoundX
 .
-output_rect
+frame_rect
 .
 xsize
 (
@@ -494,13 +494,13 @@ such
 that
 /
 /
-output_rect
+frame_rect
 .
 x0
 (
 )
 +
-output_rect
+frame_rect
 .
 xsize
 (
@@ -522,7 +522,7 @@ adding
 padding
 .
 If
-output_rect
+frame_rect
 is
 on
 an
@@ -565,7 +565,6 @@ std
 :
 pair
 <
-const
 ImageF
 *
 Rect
@@ -585,7 +584,7 @@ output_image
 const
 Rect
 &
-output_rect
+frame_rect
 )
 ;
 /

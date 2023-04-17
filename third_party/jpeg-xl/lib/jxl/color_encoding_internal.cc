@@ -5469,9 +5469,12 @@ float
 9
 )
 ;
+JXL_RETURN_IF_ERROR
+(
 Inv3x3Matrix
 (
 primaries_inv
+)
 )
 ;
 float

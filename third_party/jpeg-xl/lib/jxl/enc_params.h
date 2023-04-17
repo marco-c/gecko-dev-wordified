@@ -1686,6 +1686,11 @@ resampling
 =
 1
 ;
+size_t
+ec_resampling
+=
+1
+;
 }
 ;
 static

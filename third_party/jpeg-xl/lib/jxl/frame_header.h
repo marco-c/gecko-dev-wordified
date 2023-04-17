@@ -1910,10 +1910,10 @@ kReplace
 uint32_t
 source
 ;
-bool
-nonserialized_has_multiple_extra_channels
+size_t
+nonserialized_num_extra_channels
 =
-false
+0
 ;
 bool
 nonserialized_is_partial_frame

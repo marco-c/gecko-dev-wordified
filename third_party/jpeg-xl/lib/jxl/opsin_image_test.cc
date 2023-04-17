@@ -764,9 +764,12 @@ i
 ]
 ;
 }
+EXPECT_TRUE
+(
 Inv3x3Matrix
 (
 matrix
+)
 )
 ;
 for

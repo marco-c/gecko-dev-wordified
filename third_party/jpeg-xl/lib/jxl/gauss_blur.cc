@@ -5013,9 +5013,12 @@ zeta_35
 1
 }
 ;
+JXL_CHECK
+(
 Inv3x3Matrix
 (
 A
+)
 )
 ;
 const
