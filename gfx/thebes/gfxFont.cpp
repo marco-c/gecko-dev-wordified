@@ -4099,6 +4099,12 @@ extendCluster
 ;
 }
 }
+const
+char16_t
+kIdeographicSpace
+=
+0x3000
+;
 while
 (
 !
@@ -4120,6 +4126,13 @@ char16_t
 '
 '
 )
+|
+|
+*
+iter
+=
+=
+kIdeographicSpace
 )
 {
 glyphs
