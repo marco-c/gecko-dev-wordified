@@ -8306,7 +8306,7 @@ typename
 Wrapper
 >
 class
-HeapBase
+HeapOperations
 <
 JS
 :
