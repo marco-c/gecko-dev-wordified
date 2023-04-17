@@ -1080,10 +1080,6 @@ mRole
 (
 aRole
 )
-mOuterDoc
-(
-false
-)
 {
 }
 explicit
@@ -1119,10 +1115,6 @@ roles
 :
 :
 DOCUMENT
-)
-mOuterDoc
-(
-false
 )
 {
 mGenericTypes
@@ -1197,13 +1189,6 @@ role
 mRole
 :
 27
-;
-private
-:
-bool
-mOuterDoc
-:
-1
 ;
 }
 ;
