@@ -29055,6 +29055,7 @@ GetParent
 {
 if
 (
+const
 Element
 *
 blockElement
@@ -29062,7 +29063,7 @@ blockElement
 HTMLEditUtils
 :
 :
-GetInclusiveAncestorBlockElement
+GetInclusiveAncestorElement
 (
 *
 childContent
@@ -29071,6 +29072,10 @@ childContent
 GetParent
 (
 )
+HTMLEditUtils
+:
+:
+ClosestBlockElement
 )
 )
 {
