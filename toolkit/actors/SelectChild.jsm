@@ -2129,6 +2129,17 @@ transitionend
 :
 if
 (
+this
+.
+element
+=
+=
+=
+event
+.
+target
+&
+&
 SUPPORTED_SELECT_PROPERTIES
 .
 includes
