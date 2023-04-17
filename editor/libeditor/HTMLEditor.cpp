@@ -6728,14 +6728,6 @@ InsertLineBreak
 (
 )
 {
-MOZ_ASSERT
-(
-!
-IsSingleLineEditor
-(
-)
-)
-;
 /
 /
 XPCOM
