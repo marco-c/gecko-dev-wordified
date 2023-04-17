@@ -251,12 +251,6 @@ no
 -
 accel
 "
-            
-"
-reftest
--
-snapshot
-"
         
 ]
     

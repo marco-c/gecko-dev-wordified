@@ -587,12 +587,6 @@ undefined
 /
 /
 bool
-useDrawSnapshot
-:
-undefined
-/
-/
-bool
 canvas1
 :
 undefined
