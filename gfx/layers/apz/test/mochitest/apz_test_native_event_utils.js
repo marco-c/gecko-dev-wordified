@@ -2438,7 +2438,7 @@ positionInScreenCoords
 =
 utils
 .
-toScreenRect
+toScreenRectInCSSUnits
 (
 rect
 .
