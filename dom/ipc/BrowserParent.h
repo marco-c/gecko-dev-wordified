@@ -5627,7 +5627,7 @@ is
 inactive
 .
 bool
-mPreserveLayers
+mIsPreservingLayers
 :
 1
 ;
