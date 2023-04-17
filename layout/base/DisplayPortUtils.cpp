@@ -2257,6 +2257,8 @@ AppUnitsPerDevPixel
 ;
 LayoutDeviceToScreenScale2D
 res
+=
+LayoutDeviceToParentLayerScale
 (
 presContext
 -
@@ -2269,14 +2271,14 @@ PresShell
 GetCumulativeResolution
 (
 )
+)
 *
 nsLayoutUtils
 :
 :
-GetTransformToAncestorScale
+GetTransformToAncestorScaleCrossProcessForFrameMetrics
 (
 frame
-)
 )
 ;
 /
