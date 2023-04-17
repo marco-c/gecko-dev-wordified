@@ -2180,6 +2180,13 @@ catch
 ex
 )
 {
+Cu
+.
+reportError
+(
+ex
+)
+;
 /
 /
 Either
