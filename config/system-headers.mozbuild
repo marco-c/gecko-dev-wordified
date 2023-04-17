@@ -3381,13 +3381,6 @@ h
 '
 pango
 /
-pangocairo
-.
-h
-'
-'
-pango
-/
 pangofc
 -
 decoder
