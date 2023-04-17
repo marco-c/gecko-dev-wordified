@@ -433,7 +433,7 @@ raw
 =
 promptPrincipal
 .
-origin
+originNoSuffix
 ;
 }
 /
