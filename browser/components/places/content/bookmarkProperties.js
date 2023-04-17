@@ -1137,7 +1137,7 @@ _strings
 getString
 (
 "
-dialogTitleAddBookmarksFolder
+dialogTitleAddBookmarkFolder
 "
 )
 ;
@@ -1168,16 +1168,11 @@ this
 .
 _strings
 .
-getFormattedString
+getString
 (
 "
-dialogTitleEditBookmark
+dialogTitleEditBookmark2
 "
-[
-this
-.
-_title
-]
 )
 ;
 }
@@ -1189,7 +1184,7 @@ _strings
 getString
 (
 "
-dialogTitleEditBookmarksFolder
+dialogTitleEditBookmarkFolder
 "
 )
 ;
