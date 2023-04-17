@@ -2076,8 +2076,6 @@ already_validated
 =
 0
 {
-&
-mut
 (
 handle
 .
@@ -3058,8 +3056,6 @@ after
 setting
 length
 .
-&
-mut
 (
 handle
 .
