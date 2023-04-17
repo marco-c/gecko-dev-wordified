@@ -171,7 +171,7 @@ namespace
 a11y
 {
 class
-RootAccessibleWrap
+MsaaRootAccessible
 ;
 /
 *
@@ -713,9 +713,9 @@ ResolveDispatch
 (
 )
 ;
-RootAccessibleWrap
+MsaaRootAccessible
 *
-ResolveRootAccWrap
+ResolveMsaaRoot
 (
 )
 ;
@@ -816,9 +816,9 @@ cycle
 .
 *
 /
-RootAccessibleWrap
+MsaaRootAccessible
 *
-mWeakRootAccWrap
+mWeakMsaaRoot
 ;
 IAccessible
 *
