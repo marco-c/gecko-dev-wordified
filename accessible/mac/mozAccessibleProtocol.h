@@ -195,6 +195,9 @@ id
 /
 protocol
 mozAccessible
+<
+NSObject
+>
 /
 /
 returns
