@@ -2849,7 +2849,7 @@ ctypes
 .
 windll
 .
-kernel32
+psapi
 .
 GetProcessImageFileNameA
 (
@@ -2892,11 +2892,13 @@ value
 endswith
 (
 (
+b
 "
 firefox
 .
 exe
 "
+b
 "
 plugin
 -
