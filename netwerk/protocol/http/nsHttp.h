@@ -1061,8 +1061,8 @@ pending
 queue
 until
 the
-HTTPSSVC
-record
+HTTPS
+RR
 is
 /
 /
@@ -1070,7 +1070,7 @@ available
 .
 #
 define
-NS_HTTP_WAIT_HTTPSSVC_RESULT
+NS_HTTP_FORCE_WAIT_HTTP_RR
 (
 1
 <
