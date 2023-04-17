@@ -3103,7 +3103,7 @@ check_call_noisy
 (
 [
 "
-gtar
+tar
 "
 "
 -
@@ -3144,7 +3144,7 @@ check_call_noisy
 (
 [
 "
-gtar
+tar
 "
 "
 -
@@ -3237,7 +3237,7 @@ check_call_noisy
 (
 [
 "
-gtar
+tar
 "
 "
 -
