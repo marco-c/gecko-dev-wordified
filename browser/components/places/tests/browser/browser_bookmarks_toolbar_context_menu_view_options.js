@@ -457,13 +457,11 @@ menupopup
 "
 )
 ;
-EventUtils
-.
-synthesizeMouseAtCenter
-(
 bookmarksToolbarMenu
-{
-}
+.
+openMenu
+(
+true
 )
 ;
 await
