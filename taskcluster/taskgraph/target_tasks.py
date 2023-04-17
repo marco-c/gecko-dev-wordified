@@ -240,6 +240,8 @@ r
 windows10
 -
 aarch64
+-
+qr
 "
     
 #
