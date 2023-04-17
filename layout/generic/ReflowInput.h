@@ -7149,8 +7149,6 @@ CalculateAbsoluteSizeWithResolvedAutoBlockSize
 (
 nscoord
 aAutoBSize
-bool
-aNeedsComputeInlineSizeByAspectRatio
 const
 LogicalSize
 &
