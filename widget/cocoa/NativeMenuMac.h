@@ -171,7 +171,7 @@ aElement
 /
 /
 NativeMenu
-bool
+void
 ShowAsContextMenu
 (
 const
