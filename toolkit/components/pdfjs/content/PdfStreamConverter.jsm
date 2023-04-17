@@ -6295,6 +6295,17 @@ triggeringPrincipal
 ?
 .
 isSystemPrincipal
+|
+|
+triggeringPrincipal
+?
+.
+schemeIs
+(
+"
+file
+"
+)
 )
 {
 return
