@@ -711,11 +711,6 @@ testWindowNonConfigurable
 .
 cpp
 "
-"
-testXDR
-.
-cpp
-"
 ]
 SOURCES
 +
