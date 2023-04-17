@@ -69,10 +69,10 @@ EXPORTED_SYMBOLS
 ExperimentAPI
 "
 "
-ExperimentFeature
-"
-"
 NimbusFeatures
+"
+"
+_ExperimentFeature
 "
 ]
 ;
@@ -1626,7 +1626,7 @@ holds
 lazy
 references
 to
-ExperimentFeature
+_ExperimentFeature
 instances
 *
 defined
@@ -1660,7 +1660,7 @@ feature
 =
 >
 new
-ExperimentFeature
+_ExperimentFeature
 (
 feature
 )
@@ -1668,7 +1668,7 @@ feature
 ;
 }
 class
-ExperimentFeature
+_ExperimentFeature
 {
 constructor
 (

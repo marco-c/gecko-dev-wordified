@@ -60,6 +60,8 @@ js
 ;
 const
 {
+_ExperimentFeature
+:
 ExperimentFeature
 NimbusFeatures
 ExperimentAPI
