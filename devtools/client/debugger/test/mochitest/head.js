@@ -243,7 +243,7 @@ const
 EXAMPLE_URL
 =
 "
-http
+https
 :
 /
 /
@@ -303,13 +303,13 @@ const
 EXAMPLE_REMOTE_URL
 =
 "
-http
+https
 :
 /
 /
 example
 .
-net
+org
 /
 browser
 /

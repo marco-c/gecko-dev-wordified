@@ -143,7 +143,7 @@ const
 DMB_TEST_URL
 =
 "
-http
+https
 :
 /
 /

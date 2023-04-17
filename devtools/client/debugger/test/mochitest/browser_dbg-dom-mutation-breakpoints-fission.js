@@ -207,7 +207,7 @@ attribute
 const
 TEST_COM_URI
 =
-http
+https
 :
 /
 /
@@ -283,7 +283,7 @@ iframe
 const
 TEST_URI
 =
-http
+https
 :
 /
 /
