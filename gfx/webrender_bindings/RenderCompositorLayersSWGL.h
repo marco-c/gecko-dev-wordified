@@ -202,6 +202,7 @@ RenderCompositor
 >
 Create
 (
+const
 RefPtr
 <
 widget
@@ -209,7 +210,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -225,6 +225,7 @@ layers
 Compositor
 *
 aCompositor
+const
 RefPtr
 <
 widget
@@ -232,7 +233,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 void

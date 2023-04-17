@@ -572,6 +572,7 @@ protected
 explicit
 RenderCompositorNative
 (
+const
 RefPtr
 <
 widget
@@ -579,7 +580,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 gl
@@ -1025,6 +1025,7 @@ RenderCompositor
 >
 Create
 (
+const
 RefPtr
 <
 widget
@@ -1032,7 +1033,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -1042,6 +1042,7 @@ aError
 ;
 RenderCompositorNativeOGL
 (
+const
 RefPtr
 <
 widget
@@ -1049,7 +1050,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 RefPtr
@@ -1232,6 +1232,7 @@ RenderCompositor
 >
 Create
 (
+const
 RefPtr
 <
 widget
@@ -1239,7 +1240,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -1249,6 +1249,7 @@ aError
 ;
 RenderCompositorNativeSWGL
 (
+const
 RefPtr
 <
 widget
@@ -1256,7 +1257,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 void

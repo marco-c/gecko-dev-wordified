@@ -167,6 +167,7 @@ RenderCompositorSWGL
 :
 Create
 (
+const
 RefPtr
 <
 widget
@@ -174,7 +175,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -218,13 +218,7 @@ MakeUnique
 RenderCompositorSWGL
 >
 (
-std
-:
-:
-move
-(
 aWidget
-)
 ctx
 )
 ;
@@ -234,6 +228,7 @@ RenderCompositorSWGL
 :
 RenderCompositorSWGL
 (
+const
 RefPtr
 <
 widget
@@ -241,7 +236,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 void
@@ -251,13 +245,7 @@ aContext
 :
 RenderCompositor
 (
-std
-:
-:
-move
-(
 aWidget
-)
 )
 mContext
 (

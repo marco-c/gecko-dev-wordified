@@ -314,6 +314,7 @@ RenderCompositorEGL
 :
 Create
 (
+const
 RefPtr
 <
 widget
@@ -321,6 +322,7 @@ widget
 :
 CompositorWidget
 >
+&
 aWidget
 nsACString
 &
@@ -461,6 +463,7 @@ RenderCompositorEGL
 :
 RenderCompositorEGL
 (
+const
 RefPtr
 <
 widget
@@ -468,18 +471,13 @@ widget
 :
 CompositorWidget
 >
+&
 aWidget
 )
 :
 RenderCompositor
 (
-std
-:
-:
-move
-(
 aWidget
-)
 )
 mEGLSurface
 (

@@ -457,8 +457,8 @@ WebRenderRendererMallocSizeOf
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 wr
 {
 static
@@ -2347,7 +2347,9 @@ wr
 :
 WindowId
 aWindowId
+const
 nsCString
+&
 aUI
 )
 {
@@ -2542,11 +2544,13 @@ layers
 CompositorBridgeParent
 *
 aBridge
+const
 RefPtr
 <
 const
 WebRenderPipelineInfo
 >
+&
 aInfo
 VsyncId
 aCompositeStartId
@@ -5524,6 +5528,7 @@ nsAutoCString
 err
 ;
 auto
+*
 gl
 =
 SingletonGL
@@ -6348,12 +6353,10 @@ mProgramCache
 /
 /
 namespace
-wr
-}
-/
-/
-namespace
 mozilla
+:
+:
+wr
 #
 ifdef
 XP_WIN
@@ -7464,6 +7467,7 @@ wr
 :
 WrWindowId
 aWindowId
+const
 RefPtr
 <
 const
@@ -7472,6 +7476,7 @@ wr
 :
 WebRenderPipelineInfo
 >
+&
 aInfo
 )
 {
@@ -7535,7 +7540,7 @@ wr
 :
 WrPipelineInfo
 *
-aInfo
+aPipelineInfo
 )
 {
 RefPtr
@@ -7568,7 +7573,7 @@ std
 move
 (
 *
-aInfo
+aPipelineInfo
 )
 ;
 layers

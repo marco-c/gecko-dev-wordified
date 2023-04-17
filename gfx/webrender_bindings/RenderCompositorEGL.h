@@ -159,6 +159,7 @@ RenderCompositor
 >
 Create
 (
+const
 RefPtr
 <
 widget
@@ -166,6 +167,7 @@ widget
 :
 CompositorWidget
 >
+&
 aWidget
 nsACString
 &
@@ -175,6 +177,7 @@ aError
 explicit
 RenderCompositorEGL
 (
+const
 RefPtr
 <
 widget
@@ -182,6 +185,7 @@ widget
 :
 CompositorWidget
 >
+&
 aWidget
 )
 ;

@@ -389,6 +389,7 @@ RenderCompositorANGLE
 :
 Create
 (
+const
 RefPtr
 <
 widget
@@ -396,7 +397,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -483,13 +483,7 @@ MakeUnique
 RenderCompositorANGLE
 >
 (
-std
-:
-:
-move
-(
 aWidget
-)
 )
 ;
 if
@@ -517,6 +511,7 @@ RenderCompositorANGLE
 :
 RenderCompositorANGLE
 (
+const
 RefPtr
 <
 widget
@@ -525,19 +520,12 @@ widget
 CompositorWidget
 >
 &
-&
 aWidget
 )
 :
 RenderCompositor
 (
-std
-:
-:
-move
-(
 aWidget
-)
 )
 mEGLConfig
 (

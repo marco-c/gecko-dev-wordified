@@ -250,6 +250,7 @@ RenderCompositorD3D11SWGL
 :
 Create
 (
+const
 RefPtr
 <
 widget
@@ -257,7 +258,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -402,13 +402,7 @@ RenderCompositorD3D11SWGL
 >
 (
 compositor
-std
-:
-:
-move
-(
 aWidget
-)
 ctx
 )
 ;
@@ -421,6 +415,7 @@ RenderCompositorD3D11SWGL
 CompositorD3D11
 *
 aCompositor
+const
 RefPtr
 <
 widget
@@ -428,7 +423,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 void
@@ -439,13 +433,7 @@ aContext
 RenderCompositorLayersSWGL
 (
 aCompositor
-std
-:
-:
-move
-(
 aWidget
-)
 aContext
 )
 {

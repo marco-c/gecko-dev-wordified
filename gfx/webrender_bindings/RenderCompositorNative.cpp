@@ -257,6 +257,7 @@ RenderCompositorNative
 :
 RenderCompositorNative
 (
+const
 RefPtr
 <
 widget
@@ -264,7 +265,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 gl
@@ -277,13 +277,7 @@ aGL
 :
 RenderCompositor
 (
-std
-:
-:
-move
-(
 aWidget
-)
 )
 mNativeLayerRoot
 (
@@ -2730,6 +2724,7 @@ RenderCompositorNativeOGL
 :
 Create
 (
+const
 RefPtr
 <
 widget
@@ -2737,7 +2732,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -2857,13 +2851,7 @@ MakeUnique
 RenderCompositorNativeOGL
 >
 (
-std
-:
-:
-move
-(
 aWidget
-)
 std
 :
 :
@@ -2879,6 +2867,7 @@ RenderCompositorNativeOGL
 :
 RenderCompositorNativeOGL
 (
+const
 RefPtr
 <
 widget
@@ -2886,7 +2875,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 RefPtr
@@ -2903,13 +2891,7 @@ aGL
 :
 RenderCompositorNative
 (
-std
-:
-:
-move
-(
 aWidget
-)
 aGL
 )
 mGL
@@ -3404,6 +3386,7 @@ RenderCompositorNativeSWGL
 :
 Create
 (
+const
 RefPtr
 <
 widget
@@ -3411,7 +3394,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 nsACString
@@ -3455,13 +3437,7 @@ MakeUnique
 RenderCompositorNativeSWGL
 >
 (
-std
-:
-:
-move
-(
 aWidget
-)
 ctx
 )
 ;
@@ -3471,6 +3447,7 @@ RenderCompositorNativeSWGL
 :
 RenderCompositorNativeSWGL
 (
+const
 RefPtr
 <
 widget
@@ -3478,7 +3455,6 @@ widget
 :
 CompositorWidget
 >
-&
 &
 aWidget
 void
@@ -3488,13 +3464,7 @@ aContext
 :
 RenderCompositorNative
 (
-std
-:
-:
-move
-(
 aWidget
-)
 )
 mContext
 (
