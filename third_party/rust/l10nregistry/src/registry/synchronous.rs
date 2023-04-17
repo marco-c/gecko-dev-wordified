@@ -811,7 +811,12 @@ fetch_file_sync
 (
 locale
 res
-false
+/
+*
+overload
+*
+/
+true
 )
 .
 is_some
