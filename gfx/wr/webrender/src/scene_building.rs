@@ -8955,6 +8955,9 @@ clip_id
 self
 .
 clip_store
+self
+.
+interners
 )
 ;
 }
