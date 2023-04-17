@@ -500,7 +500,9 @@ locale
 calendar
 *
 style
+languageDisplay
 fallback
+*
 type
 code
 )
