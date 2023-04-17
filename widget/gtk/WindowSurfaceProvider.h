@@ -305,9 +305,6 @@ used
 void
 Initialize
 (
-Display
-*
-aDisplay
 Window
 aWindow
 Visual
@@ -356,12 +353,6 @@ rid
 *
 of
 resources
-before
-we
-close
-the
-display
-connection
 .
 *
 /
@@ -425,10 +416,6 @@ X
 ?
 bool
 mIsX11Display
-;
-Display
-*
-mXDisplay
 ;
 Window
 mXWindow
