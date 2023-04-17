@@ -100,6 +100,13 @@ mozilla_glean_Common_h
 #
 define
 mozilla_glean_Common_h
+#
+include
+"
+nsIScriptError
+.
+h
+"
 namespace
 mozilla
 :
