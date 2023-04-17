@@ -5005,6 +5005,9 @@ TouchDeviceSupportPresent
 :
 aResult
 =
+widget
+:
+:
 WidgetUtilsGTK
 :
 :

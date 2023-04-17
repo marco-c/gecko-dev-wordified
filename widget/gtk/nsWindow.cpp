@@ -934,13 +934,6 @@ WindowSurfaceX11SHM
 h
 "
 #
-include
-"
-WindowSurfaceXRender
-.
-h
-"
-#
 endif
 #
 ifdef

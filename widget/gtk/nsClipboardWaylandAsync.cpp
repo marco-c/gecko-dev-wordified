@@ -332,7 +332,7 @@ mDataType
 ;
 static
 void
-wayland_clipboard_contents_received
+wayland_clipboard_contents_received_async
 (
 GtkClipboard
 *
@@ -348,7 +348,7 @@ LOGCLIP
 (
 (
 "
-wayland_clipboard_contents_received
+wayland_clipboard_contents_received_async
 (
 )
 selection_data
@@ -1078,7 +1078,7 @@ TARGETS
 "
 FALSE
 )
-wayland_clipboard_contents_received
+wayland_clipboard_contents_received_async
 new
 AsyncClipboardData
 (
@@ -1296,7 +1296,7 @@ gdk_atom_intern
 aMimeType
 FALSE
 )
-wayland_clipboard_contents_received
+wayland_clipboard_contents_received_async
 new
 AsyncClipboardData
 (
