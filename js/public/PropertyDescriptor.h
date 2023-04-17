@@ -1751,7 +1751,7 @@ hasGetter_
 }
 JSObject
 *
-getterObject
+getter
 (
 )
 const
@@ -1804,7 +1804,7 @@ hasSetter_
 }
 JSObject
 *
-setterObject
+setter
 (
 )
 const
@@ -2459,7 +2459,7 @@ Handle
 JSObject
 *
 >
-getterObject
+getter
 (
 )
 const
@@ -2518,7 +2518,7 @@ Handle
 JSObject
 *
 >
-setterObject
+setter
 (
 )
 const
@@ -2827,7 +2827,7 @@ MutableHandle
 JSObject
 *
 >
-getterObject
+getter
 (
 )
 {
@@ -2873,7 +2873,7 @@ MutableHandle
 JSObject
 *
 >
-setterObject
+setter
 (
 )
 {

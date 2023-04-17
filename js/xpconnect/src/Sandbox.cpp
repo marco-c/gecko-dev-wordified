@@ -5143,7 +5143,7 @@ WrapAccessorFunction
 cx
 desc
 .
-getterObject
+getter
 (
 )
 proxy
@@ -5169,7 +5169,7 @@ WrapAccessorFunction
 cx
 desc
 .
-setterObject
+setter
 (
 )
 proxy
@@ -5727,7 +5727,7 @@ cx
 desc
 -
 >
-getterObject
+getter
 (
 )
 )

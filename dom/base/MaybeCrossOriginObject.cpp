@@ -1520,7 +1520,7 @@ getter
 desc
 -
 >
-getterObject
+getter
 (
 )
 )
@@ -1953,7 +1953,7 @@ setter
 desc
 -
 >
-setterObject
+setter
 (
 )
 )

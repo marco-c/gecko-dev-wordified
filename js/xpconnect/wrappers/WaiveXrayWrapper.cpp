@@ -254,7 +254,7 @@ hasGetter
 &
 desc_
 .
-getterObject
+getter
 (
 )
 )
@@ -271,7 +271,7 @@ ObjectValue
 *
 desc_
 .
-getterObject
+getter
 (
 )
 )
@@ -319,7 +319,7 @@ hasSetter
 &
 desc_
 .
-setterObject
+setter
 (
 )
 )
@@ -336,7 +336,7 @@ ObjectValue
 *
 desc_
 .
-setterObject
+setter
 (
 )
 )

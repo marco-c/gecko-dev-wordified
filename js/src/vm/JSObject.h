@@ -6307,11 +6307,11 @@ TypeError
 if
 desc
 .
-getterObject
+getter
 (
 )
 or
-setterObject
+setter
 (
 )
 is

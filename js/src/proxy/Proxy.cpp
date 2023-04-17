@@ -756,7 +756,7 @@ ObjectValue
 desc
 -
 >
-getterObject
+getter
 (
 )
 )

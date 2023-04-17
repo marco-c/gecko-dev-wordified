@@ -3233,7 +3233,7 @@ hasGetter
 desc
 -
 >
-getterObject
+getter
 (
 )
 )
@@ -3246,7 +3246,7 @@ setObject
 desc
 -
 >
-getterObject
+getter
 (
 )
 )
@@ -3283,7 +3283,7 @@ hasSetter
 desc
 -
 >
-setterObject
+setter
 (
 )
 )
@@ -3296,7 +3296,7 @@ setObject
 desc
 -
 >
-setterObject
+setter
 (
 )
 )
@@ -8749,7 +8749,7 @@ get
 desc
 -
 >
-getterObject
+getter
 (
 )
 )
@@ -8791,7 +8791,7 @@ set
 desc
 -
 >
-setterObject
+setter
 (
 )
 )

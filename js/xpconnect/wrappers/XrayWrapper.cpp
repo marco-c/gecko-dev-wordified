@@ -13076,7 +13076,7 @@ hasGetter
 orig
 -
 >
-getterObject
+getter
 (
 )
 &
@@ -13089,7 +13089,7 @@ HasWaiveXrayFlag
 orig
 -
 >
-getterObject
+getter
 (
 )
 )
@@ -13108,7 +13108,7 @@ hasSetter
 orig
 -
 >
-setterObject
+setter
 (
 )
 &
@@ -13121,7 +13121,7 @@ HasWaiveXrayFlag
 orig
 -
 >
-setterObject
+setter
 (
 )
 )
@@ -13251,7 +13251,7 @@ IsCrossCompartmentWrapper
 (
 wrapped
 .
-getterObject
+getter
 (
 )
 )
@@ -13278,7 +13278,7 @@ CheckedUnwrapStatic
 (
 wrapped
 .
-getterObject
+getter
 (
 )
 )
@@ -13294,7 +13294,7 @@ WaiveXray
 cx
 wrapped
 .
-getterObject
+getter
 (
 )
 )
@@ -13323,7 +13323,7 @@ IsCrossCompartmentWrapper
 (
 wrapped
 .
-setterObject
+setter
 (
 )
 )
@@ -13350,7 +13350,7 @@ CheckedUnwrapStatic
 (
 wrapped
 .
-setterObject
+setter
 (
 )
 )
@@ -13366,7 +13366,7 @@ WaiveXray
 cx
 wrapped
 .
-setterObject
+setter
 (
 )
 )
@@ -14378,7 +14378,7 @@ cx
 desc
 -
 >
-getterObject
+getter
 (
 )
 )

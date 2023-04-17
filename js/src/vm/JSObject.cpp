@@ -1430,7 +1430,7 @@ get
 =
 desc
 .
-getterObject
+getter
 (
 )
 )
@@ -1494,7 +1494,7 @@ set
 =
 desc
 .
-setterObject
+setter
 (
 )
 )
@@ -2753,7 +2753,7 @@ CheckCallable
 cx
 desc
 .
-getterObject
+getter
 (
 )
 js_getter_str
@@ -2777,7 +2777,7 @@ CheckCallable
 cx
 desc
 .
-setterObject
+setter
 (
 )
 js_setter_str

@@ -12979,7 +12979,7 @@ ObjectOrNullValue
 (
 desc
 .
-getterObject
+getter
 (
 )
 )
@@ -13032,7 +13032,7 @@ ObjectOrNullValue
 (
 desc
 .
-setterObject
+setter
 (
 )
 )
