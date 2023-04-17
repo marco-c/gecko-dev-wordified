@@ -2298,6 +2298,9 @@ beConservative
 bool
 anonymousAllowClientCert
 ;
+bool
+fallbackConnection
+;
 uint32_t
 tlsFlags
 ;

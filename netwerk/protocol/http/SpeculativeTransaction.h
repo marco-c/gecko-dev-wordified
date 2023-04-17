@@ -347,6 +347,11 @@ aCountRead
 )
 override
 ;
+void
+InvokeCallback
+(
+)
+;
 protected
 :
 virtual
