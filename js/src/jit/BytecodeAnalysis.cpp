@@ -1872,12 +1872,6 @@ JSOp
 :
 StrictSetGName
 :
-case
-JSOp
-:
-:
-GImplicitThis
-:
 if
 (
 script
