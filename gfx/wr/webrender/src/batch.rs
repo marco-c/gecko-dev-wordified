@@ -17939,7 +17939,7 @@ to_vector
 )
 )
 /
-global_device_pixel_scale
+surface_device_pixel_scale
 ;
 let
 (
@@ -18243,7 +18243,7 @@ tile_device_rect
 =
 tile_world_rect
 *
-global_device_pixel_scale
+surface_device_pixel_scale
 ;
 tile_device_rect
 .
@@ -18411,7 +18411,7 @@ aligned
 "
 )
 *
-global_device_pixel_scale
+surface_device_pixel_scale
 )
 .
 contains_rect
