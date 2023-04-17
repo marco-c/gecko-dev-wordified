@@ -1704,9 +1704,6 @@ NotifyWait
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 When
@@ -2015,8 +2012,6 @@ nullptr
 ;
 }
 }
-#
-endif
 }
 /
 /

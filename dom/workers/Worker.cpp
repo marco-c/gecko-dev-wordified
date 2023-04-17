@@ -696,9 +696,6 @@ Failed
 return
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 NS_ConvertUTF16toUTF8
 nameOrScriptURL
 (
@@ -812,8 +809,6 @@ DOM
 flags
 )
 ;
-#
-endif
 RefPtr
 <
 MessageEventRunnable

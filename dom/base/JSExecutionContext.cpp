@@ -445,9 +445,6 @@ JSScript
 aDebuggerIntroductionScript
 )
 :
-#
-ifdef
-MOZ_GECKO_PROFILER
 mAutoProfilerLabel
 (
 "
@@ -467,8 +464,6 @@ ProfilingCategoryPair
 :
 JS
 )
-#
-endif
 mCx
 (
 aCx

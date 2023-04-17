@@ -484,9 +484,6 @@ cx
 (
 )
 )
-#
-ifdef
-MOZ_GECKO_PROFILER
 mAutoProfilerLabel
 (
 "
@@ -513,8 +510,6 @@ Flags
 RELEVANT_FOR_JS
 )
 )
-#
-endif
 mJSThreadExecution
 (
 aGlobalObject

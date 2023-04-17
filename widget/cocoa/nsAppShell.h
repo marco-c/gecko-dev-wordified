@@ -332,9 +332,6 @@ state
 CFRunLoopObserverRef
 mCFRunLoopObserver
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 Non
@@ -360,8 +357,6 @@ mProfilingStackOwnerWhileWaiting
 =
 nullptr
 ;
-#
-endif
 bool
 mRunningEventLoop
 ;
