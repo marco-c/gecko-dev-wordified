@@ -52,6 +52,8 @@ browser
 .
 proton
 .
+urlbar
+.
 enabled
 "
 ;

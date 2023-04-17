@@ -1258,6 +1258,8 @@ browser
 .
 proton
 .
+urlbar
+.
 enabled
 "
 false
