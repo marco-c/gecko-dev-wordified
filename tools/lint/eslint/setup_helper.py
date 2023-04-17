@@ -131,12 +131,6 @@ NPM_MIN_VERSION
 NODE_MIN_VERSION
 )
 from
-mozbuild
-.
-util
-import
-ensure_subprocess_env
-from
 mozfile
 .
 mozfile
@@ -1086,10 +1080,6 @@ cmd
 cwd
 =
 None
-append_env
-=
-{
-}
 )
 :
     
@@ -1100,16 +1090,6 @@ dict
 os
 .
 environ
-)
-    
-env
-.
-update
-(
-ensure_subprocess_env
-(
-append_env
-)
 )
     
 try
