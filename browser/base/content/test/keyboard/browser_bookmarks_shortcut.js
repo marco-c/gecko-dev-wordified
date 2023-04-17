@@ -746,7 +746,7 @@ load
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
