@@ -4002,11 +4002,10 @@ tab
 await
 linkedBrowser
 .
+browsingContext
+.
 print
 (
-linkedBrowser
-.
-outerWindowID
 printSettings
 )
 ;
