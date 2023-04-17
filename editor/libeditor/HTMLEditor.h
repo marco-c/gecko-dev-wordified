@@ -6126,16 +6126,6 @@ const
 ;
 nsIContent
 *
-GetLastEditableChild
-(
-nsINode
-&
-aNode
-)
-const
-;
-nsIContent
-*
 GetFirstEditableLeaf
 (
 nsINode

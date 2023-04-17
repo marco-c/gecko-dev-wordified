@@ -10549,7 +10549,10 @@ nsIContent
 *
 lastEditableChild
 =
-GetLastEditableChild
+HTMLEditUtils
+:
+:
+GetLastChild
 (
 *
 aPoint
@@ -10557,6 +10560,12 @@ aPoint
 GetContainer
 (
 )
+{
+WalkTreeOption
+:
+:
+IgnoreNonEditableNode
+}
 )
 ;
 if
