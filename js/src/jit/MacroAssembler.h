@@ -31593,11 +31593,11 @@ Register
 dest
 Register
 temp
+bool
+attemptNursery
 Label
 *
 fail
-bool
-attemptNursery
 )
 ;
 /
@@ -33628,11 +33628,11 @@ Register
 result
 Register
 temp
+bool
+attemptNursery
 Label
 *
 fail
-bool
-attemptNursery
 )
 ;
 /

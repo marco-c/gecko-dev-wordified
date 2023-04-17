@@ -4979,11 +4979,11 @@ Register
 result
 Register
 temp
+bool
+attemptNursery
 Label
 *
 fail
-bool
-attemptNursery
 )
 {
 checkAllocatorState
@@ -10948,11 +10948,11 @@ Register
 dest
 Register
 temp
+bool
+attemptNursery
 Label
 *
 fail
-bool
-attemptNursery
 )
 {
 branch32
@@ -10990,8 +10990,8 @@ newGCBigInt
 (
 dest
 temp
-fail
 attemptNursery
+fail
 )
 ;
 /
