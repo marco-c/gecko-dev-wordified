@@ -462,6 +462,12 @@ class
 nsCSSFrameConstructor
 ;
 class
+nsDisplayList
+;
+class
+nsDisplayListBuilder
+;
+class
 nsDocShell
 ;
 class
@@ -538,12 +544,6 @@ nsCallbackEventRequest
 namespace
 mozilla
 {
-class
-nsDisplayList
-;
-class
-nsDisplayListBuilder
-;
 class
 AccessibleCaretEventHub
 ;

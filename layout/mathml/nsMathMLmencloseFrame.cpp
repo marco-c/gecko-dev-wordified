@@ -4614,9 +4614,6 @@ Style
 /
 /
 /
-namespace
-mozilla
-{
 class
 nsDisplayNotation
 final
@@ -5354,11 +5351,6 @@ nsDisplayNotation
 ;
 }
 }
-}
-/
-/
-namespace
-mozilla
 void
 nsMathMLmencloseFrame
 :

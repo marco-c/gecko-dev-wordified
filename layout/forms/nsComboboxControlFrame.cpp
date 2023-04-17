@@ -10724,9 +10724,6 @@ return
 index
 ;
 }
-namespace
-mozilla
-{
 class
 nsDisplayComboboxFocus
 :
@@ -10821,11 +10818,6 @@ ToReferenceFrame
 )
 ;
 }
-}
-/
-/
-namespace
-mozilla
 void
 nsComboboxControlFrame
 :

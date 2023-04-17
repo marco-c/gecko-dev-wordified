@@ -142,9 +142,6 @@ nsTableFrame
 .
 h
 "
-namespace
-mozilla
-{
 nsDisplayItemGeometry
 :
 :
@@ -782,8 +779,3 @@ aFrameOffsetToViewport
 )
 {
 }
-}
-/
-/
-namespace
-mozilla

@@ -167,9 +167,6 @@ h
 struct
 BCPaintBorderAction
 ;
-struct
-BCPropertyData
-;
 class
 nsTableCellFrame
 ;
@@ -213,6 +210,14 @@ class
 StackingContextHelper
 ;
 }
+}
+/
+/
+namespace
+mozilla
+struct
+BCPropertyData
+;
 class
 nsDisplayTableItem
 :
@@ -625,11 +630,6 @@ mDirtyRect
 ;
 }
 ;
-}
-/
-/
-namespace
-mozilla
 /
 *
 =

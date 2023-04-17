@@ -350,13 +350,6 @@ h
 #
 include
 "
-nsDisplayList
-.
-h
-"
-#
-include
-"
 nsHTMLDocument
 .
 h

@@ -149,12 +149,12 @@ nsIFrame
 class
 nsIScrollableFrame
 ;
-namespace
-mozilla
-{
 class
 nsDisplayListBuilder
 ;
+namespace
+mozilla
+{
 /
 *
 *

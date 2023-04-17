@@ -150,12 +150,12 @@ WebRenderAPI
 .
 h
 "
-namespace
-mozilla
-{
 class
 nsDisplayItem
 ;
+namespace
+mozilla
+{
 struct
 ActiveScrolledRoot
 ;

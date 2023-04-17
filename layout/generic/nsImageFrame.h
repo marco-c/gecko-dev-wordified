@@ -221,6 +221,9 @@ class
 nsILoadGroup
 ;
 class
+nsDisplayImage
+;
+class
 nsPresContext
 ;
 class
@@ -235,9 +238,6 @@ nsImageLoadingContent
 namespace
 mozilla
 {
-class
-nsDisplayImage
-;
 class
 PresShell
 ;
@@ -2500,9 +2500,6 @@ gIconLoad
 ;
 friend
 class
-mozilla
-:
-:
 nsDisplayImage
 ;
 friend
@@ -2511,9 +2508,6 @@ nsDisplayGradient
 ;
 }
 ;
-namespace
-mozilla
-{
 /
 *
 *
@@ -2896,11 +2890,6 @@ mPrevImage
 ;
 }
 ;
-}
-/
-/
-namespace
-mozilla
 #
 endif
 /

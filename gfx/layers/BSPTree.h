@@ -166,6 +166,9 @@ nsTArray
 .
 h
 "
+class
+nsDisplayTransform
+;
 namespace
 mozilla
 {

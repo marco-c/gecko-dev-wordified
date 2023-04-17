@@ -1137,9 +1137,6 @@ mCallingShow
 ;
 }
 ;
-namespace
-mozilla
-{
 /
 *
 *
@@ -1436,11 +1433,6 @@ mEventRegionsOverride
 ;
 }
 ;
-}
-/
-/
-namespace
-mozilla
 #
 endif
 /

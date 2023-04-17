@@ -4000,9 +4000,6 @@ return
 NS_OK
 ;
 }
-namespace
-mozilla
-{
 class
 nsDisplayMathMLSlash
 :
@@ -4344,11 +4341,6 @@ color
 )
 ;
 }
-}
-/
-/
-namespace
-mozilla
 void
 nsMathMLmfracFrame
 :

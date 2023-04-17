@@ -1469,9 +1469,6 @@ return
 rv
 ;
 }
-namespace
-mozilla
-{
 /
 /
 Draw
@@ -2306,11 +2303,6 @@ aCtx
 )
 ;
 }
-}
-/
-/
-namespace
-mozilla
 void
 nsSliderFrame
 :

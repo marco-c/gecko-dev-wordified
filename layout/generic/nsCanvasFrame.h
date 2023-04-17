@@ -764,9 +764,6 @@ mTooltipContent
 ;
 }
 ;
-namespace
-mozilla
-{
 /
 *
 *
@@ -1286,11 +1283,6 @@ TYPE_CANVAS_THEMED_BACKGROUND
 )
 }
 ;
-}
-/
-/
-namespace
-mozilla
 #
 endif
 /

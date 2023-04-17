@@ -138,9 +138,6 @@ nsTArray
 .
 h
 "
-namespace
-mozilla
-{
 class
 nsDisplayList
 ;
@@ -150,6 +147,9 @@ nsDisplayListBuilder
 class
 nsPaintedDisplayItem
 ;
+namespace
+mozilla
+{
 namespace
 wr
 {
