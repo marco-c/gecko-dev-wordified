@@ -5201,10 +5201,6 @@ has
 been
 cancelled
 .
-mWorkerRef
-=
-nullptr
-;
 CleanProperties
 (
 )
