@@ -25406,6 +25406,7 @@ aTotalSize
 }
 onCheckComplete
 :
+async
 (
 request
 updates
@@ -25465,6 +25466,7 @@ updates
 }
 onError
 :
+async
 (
 request
 update

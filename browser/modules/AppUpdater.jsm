@@ -1515,6 +1515,7 @@ idl
 /
 onCheckComplete
 :
+async
 (
 aRequest
 aUpdates
@@ -1692,6 +1693,7 @@ idl
 /
 onError
 :
+async
 (
 aRequest
 aUpdate

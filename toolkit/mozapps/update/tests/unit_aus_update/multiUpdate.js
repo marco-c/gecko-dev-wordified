@@ -829,6 +829,7 @@ listener
 {
 onCheckComplete
 :
+async
 (
 request
 results
@@ -844,6 +845,7 @@ results
 }
 onError
 :
+async
 (
 request
 update
