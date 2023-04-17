@@ -326,9 +326,8 @@ CompositorOptions
 aCompositorOptions
 )
 ;
-LayerManager
-*
-AttachLayerManager
+bool
+AttachWindowRenderer
 (
 )
 ;
@@ -484,9 +483,9 @@ mBrowserParent
 ;
 RefPtr
 <
-LayerManager
+WindowRenderer
 >
-mLayerManager
+mWindowRenderer
 ;
 bool
 mInitialized

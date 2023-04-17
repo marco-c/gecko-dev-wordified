@@ -2545,7 +2545,7 @@ InitRendering
 )
 ;
 bool
-AttachLayerManager
+AttachWindowRenderer
 (
 )
 ;
