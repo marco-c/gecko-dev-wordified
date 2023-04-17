@@ -359,9 +359,7 @@ document
 )
 ;
 await
-testActor
-.
-setProperty
+setContentPageElementProperty
 (
 "
 iframe

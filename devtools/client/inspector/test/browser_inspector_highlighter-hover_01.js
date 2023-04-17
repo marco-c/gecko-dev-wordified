@@ -229,9 +229,7 @@ selected
 )
 ;
 await
-testActor
-.
-setProperty
+setContentPageElementProperty
 (
 "
 p
