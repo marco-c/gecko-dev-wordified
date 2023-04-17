@@ -966,6 +966,12 @@ doc
 SetLoadedAsData
 (
 aLoadedAsData
+/
+*
+aConsiderForMemoryReporting
+*
+/
+true
 )
 ;
 doc

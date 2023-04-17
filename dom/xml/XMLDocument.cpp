@@ -1168,6 +1168,12 @@ d
 SetLoadedAsData
 (
 aLoadedAsData
+/
+*
+aConsiderForMemoryReporting
+*
+/
+true
 )
 ;
 d
@@ -1589,6 +1595,12 @@ doc
 SetLoadedAsData
 (
 aLoadedAsData
+/
+*
+aConsiderForMemoryReporting
+*
+/
+true
 )
 ;
 doc
