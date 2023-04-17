@@ -686,13 +686,10 @@ this
 .
 document
 .
-querySelector
+getElementById
 (
 "
-button
-[
-autofocus
-]
+warningButton
 "
 )
 ;

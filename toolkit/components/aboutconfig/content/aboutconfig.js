@@ -3025,6 +3025,17 @@ click
 onWarningButtonClick
 )
 ;
+warningButton
+.
+focus
+(
+{
+preventFocusRing
+:
+true
+}
+)
+;
 }
 )
 ;
