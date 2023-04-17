@@ -4045,6 +4045,8 @@ BrowsingContext
 >
 &
 aContext
+bool
+aDoDiscard
 DiscardBrowsingContextResolver
 &
 &
