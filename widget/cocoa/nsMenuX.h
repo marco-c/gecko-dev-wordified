@@ -1440,11 +1440,6 @@ aMenuTitle
 )
 ;
 void
-UnregisterCommands
-(
-)
-;
-void
 DidFirePopupShowing
 (
 )
