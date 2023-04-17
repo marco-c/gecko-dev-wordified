@@ -443,15 +443,10 @@ EventDispatcher
 {
 }
 void
-ShutdownFromJava
-(
-)
-{
 Shutdown
 (
 )
 ;
-}
 struct
 ListenersList
 {
