@@ -238,6 +238,14 @@ object
 .
 html
     
+assert
+"
+"
+not
+in
+name
+name
+    
 split
 =
 name
@@ -901,28 +909,20 @@ lineNum
 =
 1
             
-line
+curLine
 =
 line
 .
-rstrip
+strip
 (
 )
             
 if
 not
-line
+curLine
 :
                 
 continue
-            
-curLine
-=
-line
-.
-lstrip
-(
-)
             
 if
 curLine
@@ -959,8 +959,19 @@ webgl2
 =
 allowWebGL2
             
-while
+parts
+=
 curLine
+.
+split
+(
+)
+            
+while
+parts
+[
+0
+]
 .
 startswith
 (
@@ -987,18 +998,13 @@ foo
 html
 '
                 
-(
 flag
-curLine
-)
 =
-curLine
+parts
 .
-split
+pop
 (
-"
-"
-1
+0
 )
                 
 if
@@ -1014,18 +1020,13 @@ version
 "
 :
                     
-(
 minVersion
-curLine
-)
 =
-curLine
+parts
 .
-split
+pop
 (
-"
-"
-1
+0
 )
                     
 if
@@ -1070,18 +1071,13 @@ version
 "
 :
                     
-(
 maxVersion
-curLine
-)
 =
-curLine
+parts
 .
-split
+pop
 (
-"
-"
-1
+0
 )
                     
 if
@@ -1163,9 +1159,26 @@ webgl1
 or
 webgl2
             
+assert
+len
+(
+parts
+)
+=
+=
+1
+parts
+            
+testOrManifest
+=
+parts
+[
+0
+]
+            
 split
 =
-curLine
+testOrManifest
 .
 rsplit
 (
@@ -1217,7 +1230,7 @@ pathStr
 /
 "
 +
-curLine
+testOrManifest
                 
 entry
 =
@@ -1256,7 +1269,7 @@ line
             
 split
 =
-curLine
+testOrManifest
 .
 rsplit
 (
@@ -2872,9 +2885,8 @@ compile
 (
 r
 "
+\
 [
-[
-]
 (
 [
 ^
@@ -2882,8 +2894,7 @@ r
 ]
 *
 )
-[
-]
+\
 ]
 "
 )
