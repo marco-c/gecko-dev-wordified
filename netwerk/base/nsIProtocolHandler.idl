@@ -786,7 +786,6 @@ relative
 URIs
 (
 http
-ftp
 .
 .
 .
@@ -969,7 +968,6 @@ g
 .
 http
 *
-ftp
 etc
 .
 )
