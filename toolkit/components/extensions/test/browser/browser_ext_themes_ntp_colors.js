@@ -695,6 +695,7 @@ running
 the
 test
 .
+await
 SpecialPowers
 .
 setBoolPref
@@ -754,11 +755,6 @@ newtab
 about
 :
 home
-"
-"
-about
-:
-welcome
 "
 ]
 )
