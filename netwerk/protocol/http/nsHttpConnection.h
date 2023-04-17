@@ -1549,12 +1549,6 @@ nodiscard
 bool
 EnsureNPNComplete
 (
-nsresult
-&
-aOut0RTTWriteHandshakeValue
-uint32_t
-&
-aOut0RTTBytesWritten
 )
 ;
 void
