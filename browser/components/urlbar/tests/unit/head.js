@@ -5071,8 +5071,7 @@ iconUri
 providerName
 tags
 =
-[
-]
+null
 heuristic
 =
 false
@@ -5161,8 +5160,8 @@ if
 (
 !
 heuristic
-&
-&
+|
+|
 tags
 )
 {
@@ -5172,6 +5171,10 @@ tags
 =
 [
 tags
+|
+|
+[
+]
 UrlbarUtils
 .
 HIGHLIGHT
