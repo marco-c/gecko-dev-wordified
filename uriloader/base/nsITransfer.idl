@@ -115,6 +115,9 @@ nsIMIMEInfo
 interface
 nsIFile
 ;
+interface
+nsIReferrerInfo
+;
 webidl
 BrowsingContext
 ;
@@ -442,7 +445,7 @@ aDownloadClassification
 Indicates
 wheter
 the
-dowload
+download
 is
 unwanted
 *
@@ -453,6 +456,16 @@ dangerous
 or
 insecure
 .
+*
+param
+aReferrerInfo
+The
+Referrer
+this
+download
+is
+started
+with
 *
 /
 void
@@ -485,6 +498,9 @@ aIsPrivate
 in
 long
 aDownloadClassification
+in
+nsIReferrerInfo
+aReferrerInfo
 )
 ;
 /
@@ -573,6 +589,9 @@ aIsPrivate
 in
 long
 aDownloadClassification
+in
+nsIReferrerInfo
+aReferrerInfo
 in
 BrowsingContext
 aBrowsingContext
