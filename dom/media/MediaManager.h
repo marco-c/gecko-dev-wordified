@@ -495,8 +495,11 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
-bool
-aIsChrome
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 nsresult
@@ -1911,8 +1914,11 @@ dom
 MediaStreamConstraints
 &
 aConstraints
-bool
-aIsChrome
+dom
+:
+:
+CallerType
+aCallerType
 const
 RefPtr
 <
