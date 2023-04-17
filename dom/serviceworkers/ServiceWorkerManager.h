@@ -983,17 +983,6 @@ nsIPrincipal
 aPrincipal
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
-IPCNavigationPreloadState
-aNavigationPreloadState
-=
-IPCNavigationPreloadState
-(
-false
-"
-true
-"
-_ns
-)
 )
 ;
 void
