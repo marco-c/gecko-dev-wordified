@@ -682,7 +682,7 @@ aX
 +
 0
 .
-5
+5f
 )
 )
 int32_t
@@ -693,7 +693,7 @@ aY
 +
 0
 .
-5
+5f
 )
 )
 )
@@ -717,14 +717,14 @@ IntPointTyped
 (
 int32_t
 (
-ceil
+ceilf
 (
 aX
 )
 )
 int32_t
 (
-ceil
+ceilf
 (
 aY
 )
