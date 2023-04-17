@@ -1223,7 +1223,7 @@ bool
 mIsListeningToEditSubActions
 ;
 class
-SpellCheckerTimeSlice
+SpellCheckerSlice
 ;
 public
 :
