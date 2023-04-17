@@ -280,6 +280,11 @@ WasmValidate
 .
 cpp
 "
+"
+WasmValType
+.
+cpp
+"
 ]
 #
 We
