@@ -326,7 +326,7 @@ entry
 uint64_t
 AddThreadIdEntry
 (
-int
+BaseProfilerThreadId
 aThreadId
 )
 ;
@@ -470,13 +470,13 @@ s
 or
 0
 .
-int
+BaseProfilerThreadId
 StreamSamplesToJSON
 (
 SpliceableJSONWriter
 &
 aWriter
-int
+BaseProfilerThreadId
 aThreadId
 double
 aSinceTime
@@ -492,7 +492,7 @@ StreamMarkersToJSON
 SpliceableJSONWriter
 &
 aWriter
-int
+BaseProfilerThreadId
 aThreadId
 const
 TimeStamp
@@ -606,7 +606,7 @@ successful
 bool
 DuplicateLastSample
 (
-int
+BaseProfilerThreadId
 aThreadId
 const
 TimeStamp
@@ -773,7 +773,7 @@ AddThreadIdEntry
 ProfileChunkedBuffer
 &
 aProfileChunkedBuffer
-int
+BaseProfilerThreadId
 aThreadId
 )
 ;

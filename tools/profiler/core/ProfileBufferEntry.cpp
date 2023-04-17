@@ -8149,7 +8149,13 @@ DeserializeAfterKindAndStream
 (
 aER
 aWriter
+ProfilerThreadId
+:
+:
+FromNumber
+(
 aThreadId
+)
 [
 &
 ]

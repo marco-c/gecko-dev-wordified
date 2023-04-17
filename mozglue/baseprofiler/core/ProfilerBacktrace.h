@@ -519,7 +519,7 @@ profile
 s
 tables
 .
-int
+BaseProfilerThreadId
 StreamJSON
 (
 SpliceableJSONWriter

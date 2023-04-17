@@ -822,14 +822,14 @@ none
 was
 present
 .
-int
+BaseProfilerThreadId
 StreamSamplesAndMarkers
 (
 const
 char
 *
 aName
-int
+BaseProfilerThreadId
 aThreadId
 const
 ProfileBuffer
