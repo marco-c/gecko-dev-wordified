@@ -872,6 +872,7 @@ See
 /
 /
 !
+<
 https
 :
 /
@@ -887,6 +888,7 @@ cranelift
 issues
 /
 1084
+>
 for
 benchmarks
 against
@@ -1489,6 +1491,7 @@ sorted
 !
 array
 see
+<
 https
 :
 /
@@ -1504,6 +1507,7 @@ cranelift
 issues
 /
 1084
+>
 for
 details
 .

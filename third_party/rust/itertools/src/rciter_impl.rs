@@ -8,7 +8,7 @@ iter
 IntoIterator
 ;
 use
-std
+alloc
 :
 :
 rc
@@ -583,7 +583,10 @@ self
 >
 Option
 <
-A
+Self
+:
+:
+Item
 >
 {
 self
@@ -665,12 +668,8 @@ under
 our
 feet
 .
-let
 (
-_
-hi
-)
-=
+0
 self
 .
 rciter
@@ -682,10 +681,8 @@ borrow
 size_hint
 (
 )
-;
-(
-0
-hi
+.
+1
 )
 }
 }
@@ -719,7 +716,7 @@ self
 >
 Option
 <
-I
+Self
 :
 :
 Item

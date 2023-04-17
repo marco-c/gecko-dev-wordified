@@ -352,6 +352,10 @@ E
 F
 G
 H
+I
+J
+K
+L
 )
 ;
 /
@@ -522,12 +526,15 @@ I
 ConsTuples
 <
 I
+:
+:
+IntoIter
 J
 >
 where
 I
 :
-Iterator
+IntoIterator
 <
 Item
 =

@@ -20,7 +20,7 @@ cfg
 feature
 =
 "
-use_std
+use_alloc
 "
 )
 ]
@@ -394,7 +394,7 @@ cfg
 feature
 =
 "
-use_std
+use_alloc
 "
 )
 ]
@@ -715,12 +715,8 @@ usize
 >
 )
 {
-let
 (
-_
-hi
-)
-=
+0
 self
 .
 iter
@@ -728,10 +724,8 @@ iter
 size_hint
 (
 )
-;
-(
-0
-hi
+.
+1
 )
 }
 }
@@ -1035,7 +1029,7 @@ cfg
 feature
 =
 "
-use_std
+use_alloc
 "
 )
 ]
@@ -1047,9 +1041,7 @@ peeking_next_by_clone
 a
 T
 ]
-:
-:
-std
+alloc
 :
 :
 collections
@@ -1072,7 +1064,7 @@ cfg
 feature
 =
 "
-use_std
+use_alloc
 "
 )
 ]
@@ -1084,9 +1076,7 @@ peeking_next_by_clone
 a
 T
 ]
-:
-:
-std
+alloc
 :
 :
 collections

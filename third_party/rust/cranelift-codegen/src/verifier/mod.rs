@@ -12782,9 +12782,6 @@ std
 panic
 !
 (
-format
-!
-(
 "
 '
 {
@@ -12802,7 +12799,6 @@ substring
 "
 message
 msg
-)
 )
 ;
 #

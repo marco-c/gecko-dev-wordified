@@ -1710,9 +1710,6 @@ self
 format
 .
 num_value_operands
-format
-!
-(
 "
 missing
 operand
@@ -1735,7 +1732,6 @@ self
 format
 .
 name
-)
 )
 ;
 }

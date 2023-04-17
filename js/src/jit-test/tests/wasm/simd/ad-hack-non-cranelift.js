@@ -112,7 +112,7 @@ mul
 (
 iMxN
 .
-widen_
+extend_
 {
 high
 low
@@ -129,7 +129,7 @@ A
 (
 iMxN
 .
-widen_
+extend_
 {
 high
 low
@@ -177,7 +177,7 @@ yet
 have
 i64x2
 .
-widen_
+extend_
 *
 so
 we
@@ -216,7 +216,7 @@ call
 {
 wide
 }
-_widen_
+_extend_
 {
 part
 }
@@ -393,7 +393,7 @@ mem
 )
 (
 func
-i64x2_widen_low_i32x4_s
+i64x2_extend_low_i32x4_s
 (
 param
 v128
@@ -453,7 +453,7 @@ const
 )
 (
 func
-i64x2_widen_high_i32x4_s
+i64x2_extend_high_i32x4_s
 (
 param
 v128
@@ -513,7 +513,7 @@ const
 )
 (
 func
-i64x2_widen_low_i32x4_u
+i64x2_extend_low_i32x4_u
 (
 param
 v128
@@ -562,7 +562,7 @@ i32x4
 )
 (
 func
-i64x2_widen_high_i32x4_u
+i64x2_extend_high_i32x4_u
 (
 param
 v128
@@ -1371,7 +1371,7 @@ func
 (
 export
 "
-widen_low_i32x4_s
+extend_low_i32x4_s
 "
 )
 (
@@ -1407,7 +1407,7 @@ func
 (
 export
 "
-widen_high_i32x4_s
+extend_high_i32x4_s
 "
 )
 (
@@ -1443,7 +1443,7 @@ func
 (
 export
 "
-widen_low_i32x4_u
+extend_low_i32x4_u
 "
 )
 (
@@ -1479,7 +1479,7 @@ func
 (
 export
 "
-widen_high_i32x4_u
+extend_high_i32x4_u
 "
 )
 (
@@ -1592,7 +1592,7 @@ ins
 .
 exports
 .
-widen_low_i32x4_s
+extend_low_i32x4_s
 (
 )
 ;
@@ -1629,7 +1629,7 @@ ins
 .
 exports
 .
-widen_high_i32x4_s
+extend_high_i32x4_s
 (
 )
 ;
@@ -1669,7 +1669,7 @@ ins
 .
 exports
 .
-widen_low_i32x4_u
+extend_low_i32x4_u
 (
 )
 ;
@@ -1711,7 +1711,7 @@ ins
 .
 exports
 .
-widen_high_i32x4_u
+extend_high_i32x4_u
 (
 )
 ;

@@ -2844,6 +2844,13 @@ bits
 see
 EvexContext
 .
+#
+[
+allow
+(
+dead_code
+)
+]
 enum
 EvexVectorLength
 {
@@ -2939,6 +2946,13 @@ bits
 see
 EvexContext
 .
+#
+[
+allow
+(
+dead_code
+)
+]
 enum
 EvexRoundingControl
 {

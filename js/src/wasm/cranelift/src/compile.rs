@@ -1210,6 +1210,9 @@ false
 multi_memory
 :
 false
+exceptions
+:
+false
 }
 ;
 let

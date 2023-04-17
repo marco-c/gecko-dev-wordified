@@ -2207,17 +2207,6 @@ State
 =
 EmitState
 ;
-type
-UnwindInfo
-=
-super
-:
-:
-unwind
-:
-:
-Arm32UnwindInfo
-;
 fn
 emit
 (

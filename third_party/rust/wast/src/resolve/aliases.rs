@@ -905,6 +905,7 @@ DataKind
 Active
 {
 memory
+offset
 .
 .
 }
@@ -920,6 +921,13 @@ self
 expand
 (
 memory
+)
+;
+self
+.
+expand_expr
+(
+offset
 )
 ;
 }

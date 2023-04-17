@@ -458,9 +458,6 @@ var_index
 is_input
 (
 )
-format
-!
-(
 "
 '
 {
@@ -482,7 +479,6 @@ get
 var_index
 )
 )
-)
 ;
 }
 assert
@@ -496,9 +492,6 @@ len
 =
 =
 num_src_inputs
-format
-!
-(
 "
 extra
 input
@@ -547,7 +540,6 @@ _
 >
 >
 (
-)
 )
 )
 ;
@@ -918,9 +910,6 @@ defined_var
 is_output
 (
 )
-format
-!
-(
 "
 {
 :
@@ -934,7 +923,6 @@ destination
 pattern
 "
 defined_var
-)
 )
 ;
 }
@@ -1480,9 +1468,6 @@ position
 is_some
 (
 )
-format
-!
-(
 "
 {
 :
@@ -1496,7 +1481,6 @@ and
 def
 "
 var
-)
 )
 ;
 args
@@ -2576,9 +2560,6 @@ func_name
 is_none
 (
 )
-format
-!
-(
 "
 custom
 legalization
@@ -2592,7 +2573,6 @@ twice
 inst
 .
 name
-)
 )
 ;
 }
@@ -2796,9 +2776,6 @@ name
 new_group
 .
 name
-format
-!
-(
 "
 trying
 to
@@ -2813,7 +2790,6 @@ time
 new_group
 .
 name
-)
 )
 ;
 }
@@ -2912,9 +2888,6 @@ group
 panic
 !
 (
-format
-!
-(
 "
 transform
 group
@@ -2926,7 +2899,6 @@ not
 found
 "
 name
-)
 )
 ;
 }

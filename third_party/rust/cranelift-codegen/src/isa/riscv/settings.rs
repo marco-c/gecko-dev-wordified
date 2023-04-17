@@ -17,6 +17,7 @@ settings
 self
 detail
 Builder
+Value
 }
 ;
 use
