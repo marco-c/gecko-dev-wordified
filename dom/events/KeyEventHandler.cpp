@@ -3225,16 +3225,6 @@ cControl
 cControlMask
 ;
 }
-return
-cControl
-|
-cControlMask
-;
-/
-/
-for
-warning
-avoidance
 }
 /
 /
