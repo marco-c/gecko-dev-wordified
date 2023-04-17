@@ -3198,7 +3198,7 @@ aUri
 ;
 const
 [
-manifest
+extensionVersion
 extension
 ]
 =
@@ -3210,7 +3210,7 @@ all
 [
 extensionData
 .
-loadManifest
+getExtensionVersionWithoutValidation
 (
 )
 this
@@ -3228,9 +3228,7 @@ if
 extension
 |
 |
-manifest
-.
-version
+extensionVersion
 !
 =
 extension
