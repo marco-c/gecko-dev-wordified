@@ -432,6 +432,13 @@ cairo_xlib_display_t
 display
 )
 {
+display
+-
+>
+shm
+=
+NULL
+;
 }
 cairo_surface_t
 *
