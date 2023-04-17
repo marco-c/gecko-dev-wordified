@@ -60283,6 +60283,15 @@ GetCompositionSizeWithoutDynamicToolbar
 ;
 }
 }
+metrics
+.
+SetCompositionBoundsWidthIgnoringScrollbars
+(
+frameBounds
+.
+width
+)
+;
 nsMargin
 sizes
 =
