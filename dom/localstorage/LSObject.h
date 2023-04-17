@@ -966,6 +966,12 @@ GetOriginQuotaUsage
 const
 override
 ;
+void
+Disconnect
+(
+)
+override
+;
 uint32_t
 GetLength
 (

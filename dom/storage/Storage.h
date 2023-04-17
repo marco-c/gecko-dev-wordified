@@ -274,6 +274,13 @@ const
 =
 0
 ;
+virtual
+void
+Disconnect
+(
+)
+{
+}
 nsIPrincipal
 *
 Principal
