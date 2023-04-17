@@ -1415,6 +1415,7 @@ signature
 .
 .
 )
+static
 bool
 ShouldSpellCheckNode
 (
@@ -1428,7 +1429,6 @@ nsINode
 *
 aNode
 )
-const
 ;
 /
 /

@@ -7006,6 +7006,9 @@ for
 these
 cases
 .
+/
+/
+static
 bool
 mozInlineSpellChecker
 :
@@ -7019,7 +7022,6 @@ nsINode
 *
 aNode
 )
-const
 {
 MOZ_ASSERT
 (
@@ -9661,8 +9663,9 @@ spellcheck
 if
 (
 !
-mInlineSpellChecker
-.
+mozInlineSpellChecker
+:
+:
 ShouldSpellCheckNode
 (
 textEditor
