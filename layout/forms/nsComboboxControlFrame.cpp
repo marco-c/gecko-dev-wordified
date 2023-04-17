@@ -2828,12 +2828,11 @@ default
 ;
 public
 :
-virtual
 bool
 ReflowFinished
 (
 )
-override
+final
 {
 Run
 (
@@ -2847,12 +2846,11 @@ return
 false
 ;
 }
-virtual
 void
 ReflowCallbackCanceled
 (
 )
-override
+final
 {
 NS_RELEASE_THIS
 (
@@ -2863,7 +2861,7 @@ NS_IMETHOD
 Run
 (
 )
-override
+final
 {
 if
 (
@@ -9118,7 +9116,7 @@ nsAString
 aResult
 )
 const
-override
+final
 {
 return
 MakeFrameName
@@ -9134,7 +9132,6 @@ aResult
 }
 #
 endif
-virtual
 bool
 IsFrameOfType
 (
@@ -9142,7 +9139,7 @@ uint32_t
 aFlags
 )
 const
-override
+final
 {
 return
 nsBlockFrame
@@ -9162,7 +9159,6 @@ eReplacedContainsBlock
 )
 ;
 }
-virtual
 void
 Reflow
 (
@@ -9180,9 +9176,8 @@ nsReflowStatus
 &
 aStatus
 )
-override
+final
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -9194,7 +9189,7 @@ nsDisplayListSet
 &
 aLists
 )
-override
+final
 ;
 protected
 :
