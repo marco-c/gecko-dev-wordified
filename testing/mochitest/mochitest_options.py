@@ -8309,23 +8309,6 @@ autostart
 true
 "
 )
-            
-options
-.
-extraPrefs
-.
-append
-(
-"
-dom
-.
-serviceWorkers
-.
-parent_intercept
-=
-true
-"
-)
         
 options
 .

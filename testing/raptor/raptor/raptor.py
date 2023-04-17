@@ -255,16 +255,6 @@ autostart
 "
 :
 True
-                
-"
-dom
-.
-serviceWorkers
-.
-parent_intercept
-"
-:
-True
             
 }
         

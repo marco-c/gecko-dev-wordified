@@ -22237,23 +22237,7 @@ setpref
 serviceworker_e10s
 "
 :
-self
-.
-extraPrefs
-.
-get
-(
-                    
-"
-dom
-.
-serviceWorkers
-.
-parent_intercept
-"
 True
-                
-)
                 
 "
 sessionHistoryInParent
