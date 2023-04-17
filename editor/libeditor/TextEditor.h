@@ -646,7 +646,7 @@ aFlags
 const
 nsAString
 &
-aValue
+aInitialValue
 )
 override
 ;
