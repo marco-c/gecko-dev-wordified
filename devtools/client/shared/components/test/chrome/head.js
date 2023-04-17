@@ -183,16 +183,6 @@ js
 )
 ;
 var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-var
 Services
 =
 require

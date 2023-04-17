@@ -667,12 +667,6 @@ tab
 ;
 let
 onceDestroyed
-=
-promise
-.
-resolve
-(
-)
 ;
 if
 (

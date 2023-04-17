@@ -223,7 +223,7 @@ nbOfTimesShown
 +
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -250,7 +250,7 @@ isShown
 false
 ;
 return
-promise
+Promise
 .
 resolve
 (

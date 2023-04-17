@@ -479,7 +479,7 @@ first
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -587,7 +587,7 @@ name
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (

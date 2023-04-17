@@ -191,7 +191,7 @@ browser
 "
 )
 ;
-promise
+Promise
 .
 resolve
 (

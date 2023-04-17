@@ -826,7 +826,7 @@ false
 )
 ;
 return
-promise
+Promise
 .
 all
 (

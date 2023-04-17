@@ -265,7 +265,7 @@ updateObjectSidebar
 ;
 }
 await
-promise
+Promise
 .
 all
 (

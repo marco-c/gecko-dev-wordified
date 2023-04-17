@@ -955,7 +955,7 @@ index
 )
 {
 return
-promise
+Promise
 .
 reject
 (

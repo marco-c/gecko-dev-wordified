@@ -413,7 +413,7 @@ args
 )
 ;
 return
-promise
+Promise
 .
 all
 (
