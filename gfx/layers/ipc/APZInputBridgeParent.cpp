@@ -634,6 +634,13 @@ const
 EventMessage
 &
 aEventMessage
+const
+Maybe
+<
+ScrollableLayerGuid
+>
+&
+aTargetGuid
 )
 {
 mTreeManager
@@ -648,6 +655,7 @@ UpdateWheelTransaction
 (
 aRefPoint
 aEventMessage
+aTargetGuid
 )
 ;
 return
