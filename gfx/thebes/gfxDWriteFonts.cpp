@@ -1791,6 +1791,7 @@ PlatformFontList
 >
 FindFontForFamily
 (
+nullptr
 "
 Arial
 "
