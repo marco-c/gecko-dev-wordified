@@ -366,9 +366,6 @@ gfxASurface
 :
 Init
 :
-#
-ifdef
-MOZ_TREE_CAIRO
 if
 (
 mCairoSurface
@@ -390,8 +387,6 @@ CAIRO_SUBPIXEL_ANTIALIASING_DISABLED
 )
 ;
 }
-#
-endif
 }
 PrintTarget
 :

@@ -141,14 +141,6 @@ Graphics
 WebRender
 "
 )
-if
-CONFIG
-[
-"
-MOZ_TREE_CAIRO
-"
-]
-:
 DIRS
 +
 =
@@ -156,11 +148,6 @@ DIRS
 "
 cairo
 "
-]
-DIRS
-+
-=
-[
 "
 2d
 "

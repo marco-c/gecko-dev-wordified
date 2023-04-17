@@ -17465,15 +17465,9 @@ is
 the
 tree
 cairo
-if
-*
-MOZ_TREE_CAIRO
 .
 *
 /
-#
-if
-MOZ_TREE_CAIRO
 /
 /
 Tree
@@ -17669,8 +17663,6 @@ cairo_subpixel_order_t
 )
 ;
 }
-#
-endif
 void
 gfxFcPlatformFontList
 :
