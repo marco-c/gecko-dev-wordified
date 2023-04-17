@@ -253,6 +253,9 @@ endif
 HWY_COMPILER_MSVC
 #
 endif
+/
+/
+HWY_ARCH_X86
 namespace
 hwy
 {
@@ -945,6 +948,9 @@ kAVX512BW
 ;
 #
 endif
+/
+/
+HWY_ARCH_X86
 }
 /
 /
