@@ -5931,7 +5931,7 @@ mWindowRenderer
 mWindowRenderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 &
@@ -5944,7 +5944,7 @@ XRE_IsContentProcess
 mWindowRenderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 -

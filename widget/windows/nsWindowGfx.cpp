@@ -1807,14 +1807,14 @@ AsKnowsCompositor
 (
 )
 ;
-LayerManager
+WebRenderLayerManager
 *
 layerManager
 =
 renderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 ;

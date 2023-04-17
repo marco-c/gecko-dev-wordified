@@ -2987,11 +2987,6 @@ gint
 aRootY
 )
 ;
-void
-ClearCachedResources
-(
-)
-;
 nsIWidgetListener
 *
 GetListener
