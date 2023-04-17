@@ -769,7 +769,7 @@ CubebUtils
 :
 AudioDeviceID
 aOutputDeviceID
-AbstractThread
+nsISerialEventTarget
 *
 aWindow
 )
@@ -6459,9 +6459,9 @@ mTrackOrderDirty
 const
 RefPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
-mAbstractMainThread
+mMainThread
 ;
 /
 /

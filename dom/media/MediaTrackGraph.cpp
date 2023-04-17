@@ -6522,7 +6522,7 @@ MediaTrackGraphImpl
 DeviceChanged
 )
 ;
-mAbstractMainThread
+mMainThread
 -
 >
 Dispatch
@@ -12072,7 +12072,7 @@ MediaTrackGraphShutDownRunnable
 this
 )
 ;
-mAbstractMainThread
+mMainThread
 -
 >
 Dispatch
@@ -12493,7 +12493,7 @@ MediaTrackGraphShutDownRunnable
 this
 )
 ;
-mAbstractMainThread
+mMainThread
 -
 >
 Dispatch
@@ -12729,7 +12729,7 @@ this
 true
 )
 ;
-mAbstractMainThread
+mMainThread
 -
 >
 Dispatch
@@ -13051,7 +13051,7 @@ nsIRunnable
 aRunnable
 )
 {
-mAbstractMainThread
+mMainThread
 -
 >
 Dispatch
@@ -20652,7 +20652,7 @@ CubebUtils
 :
 AudioDeviceID
 aOutputDeviceID
-AbstractThread
+nsISerialEventTarget
 *
 aMainThread
 )
@@ -20754,7 +20754,7 @@ mTrackOrderDirty
 (
 false
 )
-mAbstractMainThread
+mMainThread
 (
 aMainThread
 )
@@ -21237,7 +21237,7 @@ if
 graph
 )
 {
-AbstractThread
+nsISerialEventTarget
 *
 mainThread
 ;
@@ -21281,10 +21281,7 @@ webspeech
 .
 mainThread
 =
-AbstractThread
-:
-:
-MainThread
+GetMainThreadSerialEventTarget
 (
 )
 ;
@@ -21475,14 +21472,11 @@ only
 "
 )
 ;
-AbstractThread
+nsISerialEventTarget
 *
 mainThread
 =
-AbstractThread
-:
-:
-MainThread
+GetMainThreadSerialEventTarget
 (
 )
 ;
@@ -22066,7 +22060,7 @@ usage
 ;
 }
 }
-mAbstractMainThread
+mMainThread
 -
 >
 Dispatch
