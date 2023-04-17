@@ -11033,7 +11033,7 @@ get
 Step
 16
 .
-uint32_t
+uint64_t
 srcLength
 ;
 if
@@ -11126,6 +11126,14 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+srcLength
+<
+=
+targetLength
+)
+;
 /
 /
 Steps
