@@ -176,7 +176,7 @@ preview
 )
 ;
 await
-hoverOnToken
+tryHovering
 (
 dbg
 5
