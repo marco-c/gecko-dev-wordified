@@ -310,7 +310,7 @@ h
 js
 :
 :
-CheckRecursionLimit
+AutoCheckRecursionLimit
 #
 include
 "
@@ -4532,6 +4532,7 @@ Trap
 :
 StackOverflow
 :
+{
 /
 /
 TlsData
@@ -4605,10 +4606,18 @@ possibly
 resume
 execution
 .
+AutoCheckRecursionLimit
+recursion
+(
+cx
+)
+;
 if
 (
 !
-CheckRecursionLimit
+recursion
+.
+check
 (
 cx
 )
@@ -4648,6 +4657,7 @@ cx
 JSMSG_OVER_RECURSED
 )
 ;
+}
 case
 Trap
 :
