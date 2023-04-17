@@ -46,15 +46,6 @@ jsm
 "
 )
 ;
-const
-{
-generateUUID
-}
-=
-Services
-.
-uuid
-;
 function
 AboutPage
 (
@@ -83,6 +74,10 @@ Components
 .
 ID
 (
+Services
+.
+uuid
+.
 generateUUID
 (
 )

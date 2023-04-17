@@ -226,15 +226,10 @@ generateUuid
 (
 )
 {
-var
-uuidGenerator
-=
+return
 Services
 .
 uuid
-;
-return
-uuidGenerator
 .
 generateUUID
 (

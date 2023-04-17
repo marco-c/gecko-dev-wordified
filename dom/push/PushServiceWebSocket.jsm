@@ -4934,13 +4934,6 @@ _generateID
 (
 )
 {
-let
-uuidGenerator
-=
-Services
-.
-uuid
-;
 /
 /
 generateUUID
@@ -4961,7 +4954,9 @@ them
 off
 .
 return
-uuidGenerator
+Services
+.
+uuid
 .
 generateUUID
 (
