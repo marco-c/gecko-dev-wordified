@@ -62,12 +62,6 @@ ServoWebDriverRefTestExecutor
 noqa
 :
 F401
-from
-.
-.
-process
-import
-cast_env
 here
 =
 os
@@ -874,10 +868,7 @@ on_output
                                        
 env
 =
-cast_env
-(
 env
-)
                                        
 storeOutput
 =
@@ -908,10 +899,7 @@ self
 command
 env
 =
-cast_env
-(
 env
-)
 )
         
 self
