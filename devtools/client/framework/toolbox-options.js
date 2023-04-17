@@ -402,6 +402,7 @@ OptionsPanel
 (
 iframeWindow
 toolbox
+commands
 )
 {
 this
@@ -423,6 +424,12 @@ this
 toolbox
 =
 toolbox
+;
+this
+.
+commands
+=
+commands
 ;
 this
 .
@@ -3973,8 +3980,6 @@ isJavascriptEnabled
 await
 this
 .
-toolbox
-.
 commands
 .
 targetConfigurationCommand
@@ -4326,8 +4331,6 @@ target
 checked
 ;
 this
-.
-toolbox
 .
 commands
 .
