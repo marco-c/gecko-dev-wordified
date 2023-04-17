@@ -10393,6 +10393,12 @@ mut
 self
 )
 {
+self
+.
+reset_overlaps
+(
+)
+;
 if
 self
 .
