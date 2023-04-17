@@ -201,7 +201,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -236,7 +235,6 @@ await
 testEscapeCancels
 (
 inspector
-testActor
 )
 ;
 info
@@ -255,7 +253,6 @@ await
 testF2Commits
 (
 inspector
-testActor
 )
 ;
 info
@@ -280,7 +277,6 @@ await
 testBody
 (
 inspector
-testActor
 )
 ;
 info
@@ -305,7 +301,6 @@ await
 testHead
 (
 inspector
-testActor
 )
 ;
 info
@@ -330,7 +325,6 @@ await
 testDocumentElement
 (
 inspector
-testActor
 )
 ;
 info
@@ -358,7 +352,6 @@ await
 testDocumentElement2
 (
 inspector
-testActor
 )
 ;
 }
@@ -369,7 +362,6 @@ function
 testEscapeCancels
 (
 inspector
-testActor
 )
 {
 await
@@ -433,9 +425,7 @@ visible
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 SELECTOR
 "
@@ -526,9 +516,7 @@ visible
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 SELECTOR
 "
@@ -549,7 +537,6 @@ function
 testF2Commits
 (
 inspector
-testActor
 )
 {
 const
@@ -620,9 +607,7 @@ visible
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 SELECTOR
 "
@@ -708,9 +693,7 @@ visible
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 SELECTOR
 "
@@ -738,16 +721,13 @@ function
 testBody
 (
 inspector
-testActor
 )
 {
 const
 currentBodyHTML
 =
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 body
@@ -844,9 +824,7 @@ const
 newBodyHTML
 =
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 body
@@ -905,7 +883,6 @@ function
 testHead
 (
 inspector
-testActor
 )
 {
 await
@@ -921,9 +898,7 @@ const
 currentHeadHTML
 =
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 head
@@ -1074,9 +1049,7 @@ executed
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 head
@@ -1126,7 +1099,6 @@ function
 testDocumentElement
 (
 inspector
-testActor
 )
 {
 const
@@ -1385,9 +1357,7 @@ updated
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 html
@@ -1457,9 +1427,7 @@ added
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 body
@@ -1489,7 +1457,6 @@ function
 testDocumentElement2
 (
 inspector
-testActor
 )
 {
 const
@@ -1750,9 +1717,7 @@ removed
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 html
@@ -1822,9 +1787,7 @@ added
 is
 (
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 "
 body

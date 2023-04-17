@@ -165,7 +165,6 @@ clipboard
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -185,9 +184,7 @@ const
 oldHTML
 =
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 refSelector
 "
@@ -243,9 +240,7 @@ const
 html
 =
 await
-testActor
-.
-getProperty
+getContentPageElementProperty
 (
 refSelector
 "
