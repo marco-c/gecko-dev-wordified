@@ -396,7 +396,7 @@ timeout
     
 subprocess
 .
-kill
+stop
 (
 )
     

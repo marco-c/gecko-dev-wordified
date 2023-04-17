@@ -1,3 +1,5 @@
+import
+logging
 from
 os
 .
@@ -74,6 +76,13 @@ do_delayed_imports
 (
 None
 test_paths
+)
+logger
+=
+logging
+.
+getLogger
+(
 )
 active_products
 (
@@ -376,6 +385,8 @@ False
 with
 ConfigBuilder
 (
+logger
+                       
 browser_host
 =
 "
