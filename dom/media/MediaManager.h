@@ -106,6 +106,13 @@ h
 #
 include
 "
+nsIMediaDevice
+.
+h
+"
+#
+include
+"
 nsIMediaManager
 .
 h
@@ -142,13 +149,6 @@ h
 include
 "
 nsIObserver
-.
-h
-"
-#
-include
-"
-nsIDOMNavigatorUserMedia
 .
 h
 "

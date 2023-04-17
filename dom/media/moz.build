@@ -572,7 +572,7 @@ nsIAudioDeviceInfo
 idl
 "
 "
-nsIDOMNavigatorUserMedia
+nsIMediaDevice
 .
 idl
 "
