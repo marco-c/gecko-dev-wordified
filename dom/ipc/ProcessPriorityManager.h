@@ -129,6 +129,9 @@ HalTypes
 .
 h
 "
+class
+nsFrameLoader
+;
 namespace
 mozilla
 {
@@ -556,6 +559,15 @@ BrowserParent
 aBrowserParent
 bool
 aIsActive
+)
+;
+static
+void
+RemoteBrowserFrameShown
+(
+nsFrameLoader
+*
+aFrameLoader
 )
 ;
 private
