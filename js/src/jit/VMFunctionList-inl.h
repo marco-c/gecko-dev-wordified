@@ -2405,15 +2405,6 @@ RegExpTesterRaw
 \
 _
 (
-SameValue
-js
-:
-:
-SameValue
-)
-\
-_
-(
 SetArrayLength
 js
 :
