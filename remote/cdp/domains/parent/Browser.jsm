@@ -226,9 +226,11 @@ Headless
 "
 )
 +
-"
-Firefox
-"
+Services
+.
+appinfo
+.
+name
 revision
 :
 "

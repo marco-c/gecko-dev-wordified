@@ -155,9 +155,11 @@ Headless
 Firefox
 "
 :
-"
-Firefox
-"
+Services
+.
+appinfo
+.
+name
 "
 Browser
 .
