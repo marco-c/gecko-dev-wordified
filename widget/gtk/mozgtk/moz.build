@@ -101,6 +101,15 @@ mozgtk
 c
 "
 ]
+CFLAGS
++
+=
+CONFIG
+[
+"
+XCFLAGS
+"
+]
 #
 If
 LDFLAGS
