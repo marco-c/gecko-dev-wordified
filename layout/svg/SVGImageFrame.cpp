@@ -4374,7 +4374,7 @@ ComputeImageContainerDrawingParameters
 mImageContainer
 this
 destRect
-destRect
+clipRect
 aSc
 flags
 svgContext
