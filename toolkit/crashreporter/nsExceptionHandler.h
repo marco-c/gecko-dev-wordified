@@ -823,6 +823,16 @@ SetMinidumpAnalysisAllThreads
 (
 )
 ;
+void
+ClearInactiveStateStart
+(
+)
+;
+void
+SetInactiveStateStart
+(
+)
+;
 nsresult
 SetRestartArgs
 (
