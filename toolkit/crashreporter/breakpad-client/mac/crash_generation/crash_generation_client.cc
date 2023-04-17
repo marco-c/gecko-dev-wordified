@@ -472,14 +472,6 @@ info
 )
 )
 ;
-const
-mach_msg_timeout_t
-kSendTimeoutMs
-=
-2
-*
-1000
-;
 kern_return_t
 result
 =
@@ -488,7 +480,7 @@ sender_
 SendMessage
 (
 message
-kSendTimeoutMs
+MACH_MSG_TIMEOUT_NONE
 )
 ;
 if
@@ -524,14 +516,6 @@ write
 the
 minidump
 .
-const
-mach_msg_timeout_t
-kReceiveTimeoutMs
-=
-5
-*
-1000
-;
 MachReceiveMessage
 acknowledge_message
 ;
@@ -543,7 +527,7 @@ WaitForMessage
 (
 &
 acknowledge_message
-kReceiveTimeoutMs
+MACH_MSG_TIMEOUT_NONE
 )
 ;
 return
