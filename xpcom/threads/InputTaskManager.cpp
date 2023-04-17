@@ -1062,8 +1062,9 @@ return
 ;
 default
 :
-MOZ_CRASH
+MOZ_DIAGNOSTIC_ASSERT
 (
+false
 "
 Shouldn
 '
