@@ -485,6 +485,15 @@ include
 "
 js
 /
+ScriptPrivate
+.
+h
+"
+#
+include
+"
+js
+/
 Stack
 .
 h

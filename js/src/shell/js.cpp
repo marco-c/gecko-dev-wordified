@@ -1395,6 +1395,15 @@ include
 "
 js
 /
+ScriptPrivate
+.
+h
+"
+#
+include
+"
+js
+/
 SourceText
 .
 h
