@@ -24946,6 +24946,7 @@ a
 ChannelMediaDecoder
 .
 auto
+*
 decoder
 =
 static_cast
