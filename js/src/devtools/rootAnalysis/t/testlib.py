@@ -6,6 +6,8 @@ import
 re
 import
 subprocess
+import
+sys
 from
 sixgill
 import
@@ -669,6 +671,10 @@ sixgill_bin
 cmd
 =
 [
+            
+sys
+.
+executable
             
 os
 .
