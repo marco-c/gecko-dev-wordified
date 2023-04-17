@@ -1432,6 +1432,9 @@ gfx
 Size
 mScale
 ;
+float
+mOpacity
+;
 protected
 :
 void
