@@ -1512,6 +1512,7 @@ HTMLEditUtils
 :
 IsFormatNode
 (
+const
 nsINode
 *
 aNode
