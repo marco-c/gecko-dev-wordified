@@ -193,15 +193,6 @@ caller
 )
 CHECK
 (
-MustUseChecker
-"
-must
--
-use
-"
-)
-CHECK
-(
 NaNExprChecker
 "
 nan

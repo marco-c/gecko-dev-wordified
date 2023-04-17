@@ -177,11 +177,6 @@ TestMustReturnFromCaller
 cpp
 "
 "
-TestMustUse
-.
-cpp
-"
-"
 TestNANTestingExpr
 .
 cpp

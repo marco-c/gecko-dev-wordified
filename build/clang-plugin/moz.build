@@ -174,11 +174,6 @@ MustReturnFromCallerChecker
 cpp
 "
 "
-MustUseChecker
-.
-cpp
-"
-"
 NaNExprChecker
 .
 cpp
@@ -311,7 +306,7 @@ compile
 time
 choices
 wrt
-checkes
+checks
 .
 bug
 1617153
