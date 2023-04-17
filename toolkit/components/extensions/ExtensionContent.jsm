@@ -4241,9 +4241,6 @@ XMLHttpRequest
 "
 fetch
 "
-"
-WebSocket
-"
 ]
 originAttributes
 :
@@ -4784,9 +4781,6 @@ XMLHttpRequest
 "
 fetch
 "
-"
-WebSocket
-"
 ]
 originAttributes
 :
@@ -4928,11 +4922,6 @@ bind
 (
 window
 )
-WebSocket
-:
-window
-.
-WebSocket
 }
 ;
 window
@@ -4952,12 +4941,6 @@ window
 fetch
 =
 fetch
-;
-window
-.
-WebSocket
-=
-WebSocket
 ;
 this
 .
