@@ -658,6 +658,8 @@ guard
     
 movable
     
+folds_to
+    
 congruent_to
     
 alias_set
@@ -906,15 +908,6 @@ operands
 current_oper_num
 =
 0
-        
-print
-(
-"
-{
-}
-"
-name
-)
         
 for
 oper_name
@@ -1363,6 +1356,30 @@ n
 )
     
 if
+folds_to
+:
+        
+code
++
+=
+"
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
+\
+\
+\
+n
+"
+    
+if
 congruent_to
 :
         
@@ -1722,6 +1739,30 @@ None
 or
 True
             
+folds_to
+=
+op
+.
+get
+(
+"
+folds_to
+"
+None
+)
+            
+assert
+folds_to
+is
+None
+or
+folds_to
+=
+=
+"
+custom
+"
+            
 congruent_to
 =
 op
@@ -1819,6 +1860,8 @@ result
 guard
                 
 movable
+                
+folds_to
                 
 congruent_to
                 
