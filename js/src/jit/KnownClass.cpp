@@ -625,7 +625,10 @@ Function
 :
 return
 &
-FunctionClass
+JSFunction
+:
+:
+class_
 ;
 case
 KnownClass
