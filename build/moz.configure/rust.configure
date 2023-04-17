@@ -1160,7 +1160,6 @@ depends
 (
 rustc_info
 cargo_info
-build_project
 )
 imports
 (
@@ -1195,7 +1194,6 @@ rust_compiler
 (
 rustc_info
 cargo_info
-build_project
 )
 :
 if
