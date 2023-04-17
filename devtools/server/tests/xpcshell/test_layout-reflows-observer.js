@@ -569,7 +569,7 @@ observer
 for
 the
 same
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 the
 instance
 is

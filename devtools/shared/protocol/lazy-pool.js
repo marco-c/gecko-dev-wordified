@@ -103,7 +103,7 @@ Pool
 for
 RootActor
 and
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 which
 allows
 lazy

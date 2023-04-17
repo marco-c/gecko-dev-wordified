@@ -267,7 +267,7 @@ DevToolsFrameChild
 to
 spawn
 the
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 /
 /
 If

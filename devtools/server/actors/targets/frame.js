@@ -89,7 +89,7 @@ lives
 This
 actor
 extends
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 *
 *
@@ -113,7 +113,7 @@ details
 /
 const
 {
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 }
 =
 require
@@ -127,9 +127,9 @@ actors
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -248,7 +248,7 @@ maintain
 the
 properties
 of
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 *
@@ -274,7 +274,7 @@ extend
 (
 {
 }
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 )
 ;
 Object

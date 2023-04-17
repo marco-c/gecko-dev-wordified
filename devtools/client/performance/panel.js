@@ -647,7 +647,7 @@ be
 a
 instance
 of
-BrowsingContextTarget
+WindowGlobalTarget
 .
 *
 /

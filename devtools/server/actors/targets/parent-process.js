@@ -77,7 +77,7 @@ process
 This
 actor
 extends
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 *
 This
@@ -150,8 +150,8 @@ server
 const
 {
 getChildDocShells
-BrowsingContextTargetActor
-browsingContextTargetPrototype
+WindowGlobalTargetActor
+windowGlobalTargetPrototype
 }
 =
 require
@@ -165,9 +165,9 @@ actors
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -308,7 +308,7 @@ maintain
 the
 properties
 of
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 *
@@ -320,7 +320,7 @@ extend
 (
 {
 }
-browsingContextTargetPrototype
+windowGlobalTargetPrototype
 )
 ;
 /
@@ -350,7 +350,7 @@ implementation
 is
 inherited
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 *
 ParentProcessTargetActor
@@ -385,7 +385,7 @@ form
 )
 request
 like
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 *
 *
@@ -643,7 +643,7 @@ appShell
 hiddenDOMWindow
 ;
 }
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -834,7 +834,7 @@ topic
 data
 )
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -934,7 +934,7 @@ return
 false
 ;
 }
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .
@@ -1143,7 +1143,7 @@ docShell
 ;
 }
 return
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 .

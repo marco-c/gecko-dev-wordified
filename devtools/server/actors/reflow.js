@@ -609,7 +609,7 @@ windows
 *
 param
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 }
 targetActor
 *
@@ -1411,7 +1411,7 @@ occured
 *
 param
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 }
 targetActor
 *
@@ -2247,7 +2247,7 @@ window
 *
 param
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 }
 targetActor
 *
@@ -2394,7 +2394,7 @@ destroyed
 *
 param
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 }
 targetActor
 *
@@ -2483,7 +2483,7 @@ Observable
 *
 param
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 }
 targetActor
 *
@@ -2673,7 +2673,7 @@ Observable
 *
 param
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 }
 targetActor
 *

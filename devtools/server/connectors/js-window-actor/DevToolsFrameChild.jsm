@@ -815,7 +815,7 @@ enabled
 .
 Instead
 the
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 /
 /
 will
@@ -1476,7 +1476,7 @@ a
 /
 /
 new
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 as
 one
 such
@@ -1720,7 +1720,7 @@ is
 already
 an
 existing
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 which
 wasn
 '
@@ -3936,7 +3936,7 @@ context
 *
 returns
 {
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 |
 null
 }
@@ -5150,7 +5150,7 @@ the
 /
 /
 same
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 The
 actor

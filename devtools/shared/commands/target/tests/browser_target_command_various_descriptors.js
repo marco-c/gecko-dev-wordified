@@ -381,7 +381,7 @@ because
 it
 inherits
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 "
 )
 ;
@@ -1137,7 +1137,7 @@ because
 it
 inherits
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 "
 )
 ;

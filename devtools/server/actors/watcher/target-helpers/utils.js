@@ -348,7 +348,7 @@ debugged
 by
 one
 dedicated
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 (
 bug
 1685500

@@ -95,7 +95,7 @@ extend
 ;
 const
 {
-browsingContextTargetSpecPrototype
+windowGlobalTargetSpecPrototype
 }
 =
 require
@@ -109,9 +109,9 @@ specs
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -120,7 +120,7 @@ parentProcessTargetSpecPrototype
 =
 extend
 (
-browsingContextTargetSpecPrototype
+windowGlobalTargetSpecPrototype
 {
 typeName
 :

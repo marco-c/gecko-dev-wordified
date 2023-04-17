@@ -421,7 +421,7 @@ numbers
 constructor
 *
 param
-BrowsingContextTarget
+WindowGlobalTarget
 targetActor
 *
 /

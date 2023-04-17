@@ -2921,7 +2921,7 @@ typically
 composed
 of
 a
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 or
 ContentProcessTargetFront
 .

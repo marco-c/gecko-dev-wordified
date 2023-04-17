@@ -3003,7 +3003,7 @@ this
 .
 targetFront
 .
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 this
 .

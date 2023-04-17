@@ -19768,7 +19768,7 @@ not
 targetting
 a
 regular
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 /
 /
 it

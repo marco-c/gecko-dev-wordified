@@ -3521,7 +3521,7 @@ _tabDescriptorActorPool
 /
 Iterate
 over
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 instances
 to
 also

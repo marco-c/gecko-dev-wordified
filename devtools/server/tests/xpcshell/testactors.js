@@ -187,7 +187,7 @@ protocol
 ;
 const
 {
-browsingContextTargetSpec
+windowGlobalTargetSpec
 }
 =
 require
@@ -201,9 +201,9 @@ specs
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -884,7 +884,7 @@ protocol
 .
 ActorClassWithSpec
 (
-browsingContextTargetSpec
+windowGlobalTargetSpec
 {
 initialize
 :

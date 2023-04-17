@@ -2073,7 +2073,7 @@ Note
 if
 any
 the
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 returned
 here
 is
@@ -2556,7 +2556,7 @@ target
 which
 inherits
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 )
 *
 -

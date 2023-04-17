@@ -337,7 +337,7 @@ maintain
 the
 properties
 of
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 prototype
 *
@@ -399,7 +399,7 @@ its
 implementation
 *
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 )
 .
 *
@@ -494,7 +494,7 @@ regular
 *
 ParentProcessTargetActor
 or
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 *
 *
@@ -512,7 +512,7 @@ used
 to
 not
 inherit
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 because
 of
 the
@@ -987,7 +987,7 @@ in
 the
 /
 /
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 to
 lazily
 create
@@ -1553,7 +1553,7 @@ _searchFallbackWindow
 Customized
 ParentProcessTargetActor
 /
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 hooks
 .
 webExtensionTargetPrototype
@@ -1760,7 +1760,7 @@ ParentProcessTargetActor
 onAttach
 or
 the
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 will
 not
 be

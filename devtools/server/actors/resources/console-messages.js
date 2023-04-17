@@ -466,7 +466,7 @@ ParentProcess
 which
 inherits
 from
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 )
 /
 /

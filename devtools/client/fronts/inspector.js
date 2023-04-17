@@ -1477,7 +1477,7 @@ the
 walker
 of
 the
-BrowsingContextTarget
+WindowGlobalTarget
 .
 /
 /
@@ -1551,7 +1551,7 @@ target
 await
 watcherFront
 .
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 browsingContextId
 )

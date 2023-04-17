@@ -467,7 +467,7 @@ _parent
 Note
 that
 only
-BrowsingContextTarget
+WindowGlobalTarget
 actor
 support
 resource

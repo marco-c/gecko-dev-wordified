@@ -1118,7 +1118,7 @@ events
 similarly
 to
 the
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 .
 *
 *
@@ -1129,7 +1129,7 @@ initialized
 either
 from
 a
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 (
 which
 is
@@ -1739,7 +1739,7 @@ was
 initialized
 from
 a
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 *
 *
 and

@@ -5244,7 +5244,7 @@ created
 *
 return
 {
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 }
 The
 attached

@@ -2746,7 +2746,7 @@ typically
 composed
 of
 a
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 or
 ContentProcessTargetFront
 .
@@ -5683,7 +5683,7 @@ this
 .
 watcherFront
 .
-getBrowsingContextTarget
+getWindowGlobalTarget
 (
 browsingContextID
 )

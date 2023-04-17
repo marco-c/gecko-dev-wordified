@@ -117,7 +117,7 @@ lazyRequireGetter
 (
 this
 "
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 "
 "
 devtools
@@ -128,9 +128,9 @@ fronts
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 true
 )
@@ -1040,7 +1040,7 @@ const
 front
 =
 new
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 (
 this
 .

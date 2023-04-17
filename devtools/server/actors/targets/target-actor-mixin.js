@@ -570,7 +570,7 @@ TARGET_CONFIGURATION
 /
 /
 Only
-BrowsingContextTargetActor
+WindowGlobalTargetActor
 implements
 updateTargetConfiguration
 /

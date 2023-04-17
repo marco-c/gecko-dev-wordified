@@ -88,13 +88,6 @@ MPL
 DevToolsModules
 (
 "
-browsing
--
-context
-.
-js
-"
-"
 content
 -
 process
@@ -115,6 +108,13 @@ js
 "
 "
 webextension
+.
+js
+"
+"
+window
+-
+global
 .
 js
 "

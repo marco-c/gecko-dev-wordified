@@ -83,7 +83,7 @@ process
 ;
 const
 {
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 }
 =
 require
@@ -97,9 +97,9 @@ fronts
 /
 targets
 /
-browsing
+window
 -
-context
+global
 "
 )
 ;
@@ -342,7 +342,7 @@ it
 uses
 /
 /
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 on
 the
 client
@@ -351,7 +351,7 @@ side
 front
 =
 new
-BrowsingContextTargetFront
+WindowGlobalTargetFront
 (
 this
 .
