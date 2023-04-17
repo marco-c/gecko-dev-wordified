@@ -80,7 +80,9 @@ mozharness
 configuration
 such
 as
-androidx86_7_0
+android
+-
+x86_64
 .
 py
 android_hw

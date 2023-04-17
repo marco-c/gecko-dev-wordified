@@ -93,23 +93,21 @@ config
 {
     
 "
-tooltool_manifest_path
+emulator_package
 "
 :
 "
-testing
-/
-config
-/
-tooltool
+system
 -
-manifests
-/
-androidx86_7_0
-/
-releng
-.
-manifest
+images
+;
+android
+-
+24
+;
+default
+;
+x86_64
 "
     
 "
@@ -117,9 +115,9 @@ emulator_avd_name
 "
 :
 "
-test
+mozemulator
 -
-1
+x86_64
 "
     
 "
