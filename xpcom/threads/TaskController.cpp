@@ -418,8 +418,6 @@ int32_t
 >
 (
 numCores
--
-1
 kMinimumPoolThreadCount
 kMaximumPoolThreadCount
 )
