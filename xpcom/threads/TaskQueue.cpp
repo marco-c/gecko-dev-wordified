@@ -446,7 +446,7 @@ aRunnable
 ;
 mTasks
 .
-push
+Push
 (
 {
 std
@@ -616,7 +616,7 @@ mIsRunning
 |
 mTasks
 .
-empty
+IsEmpty
 (
 )
 )
@@ -1081,7 +1081,7 @@ mQueueMonitor
 return
 mTasks
 .
-empty
+IsEmpty
 (
 )
 ;
@@ -1148,7 +1148,7 @@ mQueue
 >
 mTasks
 .
-empty
+IsEmpty
 (
 )
 )
@@ -1189,7 +1189,7 @@ mQueue
 >
 mTasks
 .
-front
+FirstElement
 (
 )
 )
@@ -1199,7 +1199,7 @@ mQueue
 >
 mTasks
 .
-pop
+Pop
 (
 )
 ;
@@ -1419,7 +1419,7 @@ mQueue
 >
 mTasks
 .
-empty
+IsEmpty
 (
 )
 )
@@ -1577,7 +1577,7 @@ mQueue
 >
 mTasks
 .
-front
+FirstElement
 (
 )
 .
