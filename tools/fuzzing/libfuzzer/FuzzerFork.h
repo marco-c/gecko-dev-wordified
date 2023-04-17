@@ -212,7 +212,7 @@ string
 namespace
 fuzzer
 {
-void
+int
 FuzzWithFork
 (
 Random
