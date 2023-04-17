@@ -43304,6 +43304,10 @@ tempFixed
 (
 CallTempReg1
 )
+tempFixed
+(
+CallTempReg2
+)
 )
 ;
 assignSnapshot

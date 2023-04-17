@@ -2770,6 +2770,8 @@ emitGuardHasGetterSetter
 ObjOperandId
 objId
 uint32_t
+idOffset
+uint32_t
 shapeOffset
 )
 {
@@ -2780,6 +2782,14 @@ obj
 getOperand
 (
 objId
+)
+;
+jsid
+id
+=
+idStubField
+(
+idOffset
 )
 ;
 Shape
@@ -2804,6 +2814,7 @@ alloc
 (
 )
 obj
+id
 shape
 )
 ;

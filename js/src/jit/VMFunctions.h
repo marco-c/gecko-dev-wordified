@@ -3817,6 +3817,8 @@ cx
 JSObject
 *
 obj
+jsid
+id
 Shape
 *
 propShape
