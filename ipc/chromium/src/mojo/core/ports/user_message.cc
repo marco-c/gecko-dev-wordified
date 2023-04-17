@@ -91,6 +91,8 @@ UserMessage
 :
 WillBeRoutedExternally
 (
+UserMessageEvent
+&
 )
 {
 return
