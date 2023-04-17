@@ -1289,6 +1289,9 @@ ExperimentFakes
 enrollWithFeatureConfig
 (
 {
+enabled
+:
+false
 featureId
 :
 "
@@ -1296,11 +1299,7 @@ aboutwelcome
 "
 value
 :
-{
-enabled
-:
-false
-}
+null
 }
 )
 ;
@@ -1475,6 +1474,9 @@ ExperimentFakes
 enrollWithFeatureConfig
 (
 {
+enabled
+:
+true
 featureId
 :
 "
@@ -1492,9 +1494,6 @@ mochitest
 -
 experiment
 "
-enabled
-:
-true
 screens
 :
 TEST_MULTISTAGE_CONTENT
@@ -2265,6 +2264,9 @@ ExperimentFakes
 enrollWithFeatureConfig
 (
 {
+enabled
+:
+true
 featureId
 :
 "
@@ -2282,9 +2284,6 @@ mochitest
 -
 experiment
 "
-enabled
-:
-true
 screens
 :
 TEST_PROTON_CONTENT
@@ -2573,6 +2572,9 @@ ExperimentFakes
 enrollWithFeatureConfig
 (
 {
+enabled
+:
+true
 featureId
 :
 "
@@ -2590,9 +2592,6 @@ mochitest
 -
 experiment
 "
-enabled
-:
-true
 screens
 :
 TEST_PROTON_CONTENT
