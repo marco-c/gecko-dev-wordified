@@ -50,7 +50,6 @@ lock
 '
 granted
 '
-false
 )
 ;
 const

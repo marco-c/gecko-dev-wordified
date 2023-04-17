@@ -160,7 +160,6 @@ lock
 '
 granted
 '
-false
 )
 ;
 self
