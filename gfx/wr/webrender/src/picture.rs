@@ -21796,7 +21796,7 @@ ClipChainInstance
 prim_spatial_node_index
 :
 SpatialNodeIndex
-on_picture_surface
+is_root_tile_cache
 :
 bool
 sub_slice_index
@@ -21945,10 +21945,7 @@ If
 not
 on
 the
-same
-surface
-as
-the
+root
 picture
 cache
 it
@@ -21977,7 +21974,7 @@ transform
 .
 if
 !
-on_picture_surface
+is_root_tile_cache
 {
 return
 SurfacePromotionResult
@@ -23598,7 +23595,7 @@ the
 current
 slice
 .
-debug_assert
+assert
 !
 (
 sub_slice_index
@@ -23775,6 +23772,9 @@ gpu_cache
 &
 mut
 GpuCache
+is_root_tile_cache
+:
+bool
 )
 {
 /
@@ -25076,7 +25076,7 @@ common
 flags
 prim_clip_chain
 prim_spatial_node_index
-on_picture_surface
+is_root_tile_cache
 sub_slice_index
 frame_context
 )
@@ -25366,7 +25366,7 @@ common
 flags
 prim_clip_chain
 prim_spatial_node_index
-on_picture_surface
+is_root_tile_cache
 sub_slice_index
 frame_context
 )
