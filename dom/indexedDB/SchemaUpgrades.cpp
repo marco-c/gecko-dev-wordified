@@ -135,7 +135,7 @@ h
 #
 include
 "
-DatabaseFileInfoFwd
+DatabaseFileInfo
 .
 h
 "
