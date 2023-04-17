@@ -188,6 +188,10 @@ image_name
 )
 ]
     
+deadline
+=
+None
+    
 task_id
 =
 IndexSearch
@@ -200,6 +204,7 @@ should_replace_task
 task
 {
 }
+deadline
 task
 .
 optimization
