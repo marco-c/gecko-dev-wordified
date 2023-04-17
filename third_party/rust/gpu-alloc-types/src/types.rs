@@ -377,7 +377,7 @@ u32
 /
 /
 /
-Propety
+Property
 flags
 of
 the

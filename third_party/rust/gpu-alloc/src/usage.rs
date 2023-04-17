@@ -816,8 +816,8 @@ index
 ;
 MemoryForOneUsage
 {
-types
 mask
+types
 types_count
 }
 }
@@ -953,7 +953,7 @@ MemoryPropertyFlags
 ;
 /
 /
-Higly
+Highly
 prefer
 device
 local
@@ -1148,7 +1148,7 @@ false
 if
 flags
 are
-prefered
+preferred
 .
 device_local
 as
