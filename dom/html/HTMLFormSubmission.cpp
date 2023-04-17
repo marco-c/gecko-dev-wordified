@@ -131,14 +131,14 @@ h
 #
 include
 "
-nsCOMPtr
+HTMLFormSubmissionConstants
 .
 h
 "
 #
 include
 "
-nsIForm
+nsCOMPtr
 .
 h
 "

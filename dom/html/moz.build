@@ -235,11 +235,6 @@ nsIConstraintValidation
 h
 "
 "
-nsIForm
-.
-h
-"
-"
 nsIFormControl
 .
 h

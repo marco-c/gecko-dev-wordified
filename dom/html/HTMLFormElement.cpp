@@ -990,7 +990,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLFormElement
 nsGenericHTMLElement
-nsIForm
 nsIRadioGroupContainer
 )
 /
@@ -6656,9 +6655,6 @@ return
 UTF_8_ENCODING
 ;
 }
-/
-/
-nsIForm
 Element
 *
 HTMLFormElement
@@ -11045,11 +11041,8 @@ return
 rv
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFormControl
 *
-)
 HTMLFormElement
 :
 :
@@ -12987,10 +12980,7 @@ true
 )
 ;
 }
-NS_IMETHODIMP_
-(
 int32_t
-)
 HTMLFormElement
 :
 :
