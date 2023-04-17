@@ -6111,10 +6111,15 @@ block
 "
 PRIu64
 "
+preventDefault
+=
+%
+d
 \
 n
 "
 aInputBlockId
+aPreventDefault
 )
 ;
 bool
