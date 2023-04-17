@@ -4194,6 +4194,21 @@ if
 binary
 :
                 
+logger
+.
+info
+(
+"
+Using
+Edge
+binary
+%
+s
+"
+%
+binary
+)
+                
 kwargs
 [
 "
