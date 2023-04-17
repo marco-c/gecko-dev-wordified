@@ -269,30 +269,6 @@ isinstance
 obj
 metrics
 .
-Jwe
-)
-:
-        
-extra_info
-.
-append
-(
-(
-"
-decrypted_name
-"
-obj
-.
-decrypted_name
-)
-)
-    
-if
-isinstance
-(
-obj
-metrics
-.
 Quantity
 )
 :
@@ -1746,6 +1722,17 @@ project
 "
 )
     
+introduction_extra
+=
+options
+.
+get
+(
+"
+introduction_extra
+"
+)
+    
 template
 =
 util
@@ -1936,9 +1923,14 @@ render
 metrics_by_pings
 =
 metrics_by_pings
+                
 project_title
 =
 project_title
+                
+introduction_extra
+=
+introduction_extra
             
 )
         
