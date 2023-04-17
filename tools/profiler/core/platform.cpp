@@ -2890,6 +2890,17 @@ aMallocSizeOf
 sInstance
 )
 ;
+aProfSize
++
+=
+ThreadRegistry
+:
+:
+SizeOfIncludingThis
+(
+aMallocSizeOf
+)
+;
 for
 (
 auto
