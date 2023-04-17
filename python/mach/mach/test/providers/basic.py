@@ -70,24 +70,8 @@ import
     
 CommandArgument
     
-CommandProvider
-    
 Command
 )
-from
-mozbuild
-.
-base
-import
-MachCommandBase
-CommandProvider
-class
-ConditionsProvider
-(
-MachCommandBase
-)
-:
-    
 Command
 (
 "
@@ -99,17 +83,14 @@ category
 testing
 "
 )
-    
 def
 run_foo
 (
-self
 command_context
 )
 :
-        
-pass
     
+pass
 Command
 (
 "
@@ -121,7 +102,6 @@ category
 testing
 "
 )
-    
 CommandArgument
 (
 "
@@ -142,16 +122,14 @@ with
 baz
 "
 )
-    
 def
 run_bar
 (
-self
 command_context
 baz
 =
 None
 )
 :
-        
+    
 pass

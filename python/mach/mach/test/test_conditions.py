@@ -278,7 +278,7 @@ _run
 (
 [
 "
-cmd_foo
+cmd_condition_true
 "
 ]
 )
@@ -367,10 +367,10 @@ name
 in
 (
 "
-cmd_bar
+cmd_condition_false
 "
 "
-cmd_foobar
+cmd_condition_true_and_false
 "
 )
 :
@@ -616,7 +616,7 @@ self
 assertIn
 (
 "
-cmd_foo
+cmd_condition_true
 "
 stdout
 )
@@ -626,7 +626,7 @@ self
 assertNotIn
 (
 "
-cmd_bar
+cmd_condition_false
 "
 stdout
 )
@@ -636,7 +636,7 @@ self
 assertNotIn
 (
 "
-cmd_foobar
+cmd_condition_true_and_false
 "
 stdout
 )
