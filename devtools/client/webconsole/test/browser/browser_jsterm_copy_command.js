@@ -398,6 +398,7 @@ expectedResult
 return
 waitForClipboardPromise
 (
+async
 (
 )
 =
@@ -438,10 +439,18 @@ command
 "
 )
 ;
-execute
+await
+executeAndWaitForMessage
 (
 hud
 command
+"
+String
+was
+copied
+to
+clipboard
+"
 )
 ;
 }
