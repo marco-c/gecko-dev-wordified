@@ -7179,14 +7179,10 @@ virtual
 void
 CloseAudioInput
 (
-Maybe
-<
 CubebUtils
 :
 :
 AudioDeviceID
->
-&
 aID
 AudioDataListener
 *
