@@ -1399,6 +1399,16 @@ nsGkAtoms
 :
 :
 id
+#
+ifdef
+MOZ_THUNDERBIRD
+u
+"
+tabpanelcontainer
+"
+_ns
+#
+else
 u
 "
 tabbrowser
@@ -1406,6 +1416,8 @@ tabbrowser
 tabpanels
 "
 _ns
+#
+endif
 eCaseMatters
 )
 )
