@@ -6915,7 +6915,7 @@ rect
 FramebufferIntRect
 :
 :
-new
+from_origin_and_size
 (
 FramebufferIntPoint
 :
