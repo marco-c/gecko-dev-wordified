@@ -7436,6 +7436,11 @@ aContent
 void
 RecordSingleChannelId
 (
+bool
+aStartRequest
+nsIRequest
+*
+aRequest
 )
 ;
 void
@@ -8598,6 +8603,11 @@ Maybe
 uint64_t
 >
 mSingleChannelId
+;
+uint32_t
+mRequestForBlockingFromBFCacheCount
+=
+0
 ;
 uint64_t
 mChannelToDisconnectOnPageHide
