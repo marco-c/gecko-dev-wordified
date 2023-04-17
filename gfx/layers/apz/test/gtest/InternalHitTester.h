@@ -123,6 +123,10 @@ mozilla_layers_InternalHitTester_h
 #
 include
 "
+apz
+/
+src
+/
 IAPZHitTester
 .
 h

@@ -2278,13 +2278,6 @@ new
 APZCTreeManager
 (
 mRootLayerTreeID
-APZCTreeManager
-:
-:
-HitTestKind
-:
-:
-WebRender
 )
 ;
 mApzSampler
