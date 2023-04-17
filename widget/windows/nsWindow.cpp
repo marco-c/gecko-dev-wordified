@@ -42153,6 +42153,9 @@ wParam
 =
 =
 HTMAXBUTTON
+&
+&
+mCustomNonClient
 )
 {
 DispatchMouseEvent
