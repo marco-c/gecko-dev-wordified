@@ -4259,6 +4259,11 @@ waitForCondition
 aboutDialog
 .
 gAppUpdater
+&
+&
+aboutDialog
+.
+gAppUpdater
 .
 selectedPanel
 ?
