@@ -2162,6 +2162,8 @@ bool
 aUserInput
 bool
 aFlipChecked
+int16_t
+aButton
 )
 :
 mozilla
@@ -2180,6 +2182,10 @@ aMenu
 mModifiers
 (
 aModifiers
+)
+mButton
+(
+aButton
 )
 mIsTrusted
 (
@@ -2250,6 +2256,9 @@ mozilla
 :
 Modifiers
 mModifiers
+;
+int16_t
+mButton
 ;
 bool
 mIsTrusted
