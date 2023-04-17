@@ -5053,6 +5053,15 @@ alloc
 StackMacroAssembler
 masm
 ;
+AutoCreatedBy
+acb
+(
+masm
+"
+InitializeJittedAtomics
+"
+)
+;
 uint32_t
 fenceSeqCst
 =
