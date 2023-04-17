@@ -3626,6 +3626,14 @@ addon
 .
 url
 ;
+this
+.
+taarRecommended
+=
+details
+.
+is_recommendation
+;
 }
 }
 /
@@ -24132,6 +24140,11 @@ source
 "
 disco
 "
+taarRecommended
+:
+addon
+.
+taarRecommended
 }
 }
 )
