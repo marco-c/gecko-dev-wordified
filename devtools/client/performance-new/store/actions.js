@@ -320,7 +320,7 @@ recordingState
 param
 {
 {
-didRecordingUnexpectedlyStopped
+recordingUnexpectedlyStopped
 :
 boolean
 }
@@ -346,7 +346,7 @@ state
 options
 =
 {
-didRecordingUnexpectedlyStopped
+recordingUnexpectedlyStopped
 :
 false
 }
@@ -361,11 +361,11 @@ type
 CHANGE_RECORDING_STATE
 "
 state
-didRecordingUnexpectedlyStopped
+recordingUnexpectedlyStopped
 :
 options
 .
-didRecordingUnexpectedlyStopped
+recordingUnexpectedlyStopped
 }
 )
 )

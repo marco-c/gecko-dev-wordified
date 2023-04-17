@@ -1676,7 +1676,7 @@ state
 :
 RecordingState
 ;
-didRecordingUnexpectedlyStopped
+recordingUnexpectedlyStopped
 :
 boolean
 ;

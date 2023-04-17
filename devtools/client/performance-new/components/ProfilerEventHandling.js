@@ -1226,7 +1226,7 @@ to
 record
 "
 {
-didRecordingUnexpectedlyStopped
+recordingUnexpectedlyStopped
 :
 true
 }
@@ -1420,7 +1420,7 @@ private
 browsing
 "
 {
-didRecordingUnexpectedlyStopped
+recordingUnexpectedlyStopped
 :
 false
 }
