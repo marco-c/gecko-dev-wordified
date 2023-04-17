@@ -1344,7 +1344,7 @@ blur_radius
 blur_radius
 )
 .
-contains_rect
+contains_box
 (
 &
 prim_info

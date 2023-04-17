@@ -1226,14 +1226,8 @@ bounds
 LayoutRect
 :
 :
-new
+from_size
 (
-LayoutPoint
-:
-:
-zero
-(
-)
 layout_size
 )
 ;
@@ -1243,7 +1237,7 @@ push_simple_stacking_context
 (
 bounds
 .
-origin
+min
 space_and_clip
 .
 spatial_id
@@ -1266,7 +1260,7 @@ new
 LayoutRect
 :
 :
-new
+from_origin_and_size
 (
 LayoutPoint
 :
@@ -1298,7 +1292,7 @@ space_and_clip
 LayoutRect
 :
 :
-new
+from_origin_and_size
 (
 LayoutPoint
 :
@@ -1351,7 +1345,7 @@ text_bounds
 LayoutRect
 :
 :
-new
+from_origin_and_size
 (
 LayoutPoint
 :

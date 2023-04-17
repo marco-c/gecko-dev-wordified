@@ -465,8 +465,6 @@ descriptor
 .
 rect
 .
-size
-.
 area
 (
 )
@@ -569,10 +567,6 @@ to_subrect_of
 descriptor
 .
 rect
-.
-to_box2d
-(
-)
 )
 ;
 /
@@ -603,7 +597,7 @@ descriptor
 .
 rect
 .
-origin
+min
 .
 to_vector
 (
@@ -699,7 +693,7 @@ descriptor
 .
 rect
 .
-origin
+min
 .
 x
 ;
@@ -712,7 +706,7 @@ descriptor
 .
 rect
 .
-origin
+min
 .
 y
 ;
@@ -818,9 +812,9 @@ descriptor
 .
 rect
 .
-size
-.
 width
+(
+)
 +
 x
 )
@@ -913,9 +907,9 @@ descriptor
 .
 rect
 .
-size
-.
 width
+(
+)
 +
 x
 )
