@@ -474,9 +474,6 @@ options
 ssl_config
 env_extras
                  
-enable_quic
-=
-False
 enable_webtransport
 =
 False
@@ -631,12 +628,6 @@ self
 ssl_config
 =
 ssl_config
-        
-self
-.
-enable_quic
-=
-enable_quic
         
 self
 .
@@ -1128,25 +1119,6 @@ h2
 ]
         
 }
-        
-if
-self
-.
-enable_quic
-:
-            
-ports
-[
-"
-quic
--
-transport
-"
-]
-=
-[
-10000
-]
         
 if
 self
@@ -2055,15 +2027,6 @@ scheme
 =
 =
 "
-quic
--
-transport
-"
-or
-scheme
-=
-=
-"
 webtransport
 -
 h3
@@ -2081,7 +2044,14 @@ a
 way
 to
 test
-QUIC
+WebTransport
+over
+HTTP
+/
+3
+                    
+#
+server
 '
 s
 UDP

@@ -1082,10 +1082,6 @@ http
 subdomain
 =
 False
-                 
-quic
-=
-False
 )
 :
         
@@ -1170,12 +1166,6 @@ prefs
 self
 .
 prefs
-                            
-"
-quic
-"
-:
-quic
 }
     
 def
@@ -2463,9 +2453,6 @@ None
 subdomain
 =
 False
-quic
-=
-False
 )
 :
         
@@ -2484,7 +2471,6 @@ timeout
 path
 protocol
 subdomain
-quic
 )
         
 self
@@ -2567,22 +2553,6 @@ hasattr
 manifest_item
 "
 jsshell
-"
-)
-else
-False
-        
-quic
-=
-manifest_item
-.
-quic
-if
-hasattr
-(
-manifest_item
-"
-quic
 "
 )
 else
@@ -2681,10 +2651,6 @@ subdomain
 manifest_item
 .
 subdomain
-                   
-quic
-=
-quic
 )
     
 property
@@ -2892,9 +2858,6 @@ http
 subdomain
 =
 False
-quic
-=
-False
 )
 :
         
@@ -2913,7 +2876,6 @@ timeout
 path
 protocol
 subdomain
-quic
 )
         
 for
@@ -3056,22 +3018,6 @@ cls
 .
 default_timeout
         
-quic
-=
-manifest_test
-.
-quic
-if
-hasattr
-(
-manifest_test
-"
-quic
-"
-)
-else
-False
-        
 url
 =
 manifest_test
@@ -3116,10 +3062,6 @@ subdomain
 manifest_test
 .
 subdomain
-                   
-quic
-=
-quic
                    
 *
 *
@@ -3902,9 +3844,6 @@ http
 subdomain
 =
 False
-quic
-=
-False
 )
 :
         
@@ -3933,9 +3872,6 @@ protocol
 subdomain
 =
 subdomain
-quic
-=
-quic
 )
         
 self
