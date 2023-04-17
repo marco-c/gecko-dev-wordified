@@ -1337,11 +1337,6 @@ SourceSurfaceSharedData
 h
 "
 "
-SourceSurfaceVolatileData
-.
-h
-"
-"
 SurfacePool
 .
 h
@@ -2719,11 +2714,6 @@ cpp
 "
 "
 SourceSurfaceSharedData
-.
-cpp
-"
-"
-SourceSurfaceVolatileData
 .
 cpp
 "
