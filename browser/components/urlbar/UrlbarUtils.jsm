@@ -8306,15 +8306,6 @@ type
 string
 "
 }
-sponsoredL10nId
-:
-{
-type
-:
-"
-string
-"
-}
 sponsoredTileId
 :
 {
