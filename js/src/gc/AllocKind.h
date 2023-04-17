@@ -343,7 +343,7 @@ D
 FUNCTION
 Object
 JSObject
-JSFunction
+JSObject_Slots4
 true
 true
 true
@@ -354,7 +354,7 @@ D
 FUNCTION_EXTENDED
 Object
 JSObject
-FunctionExtended
+JSObject_Slots6
 true
 true
 true
