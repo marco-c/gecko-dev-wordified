@@ -35241,16 +35241,6 @@ nsAString
 aString
 )
 {
-/
-/
-TODO
-:
-Move
-this
-method
-to
-EditorBase
-.
 if
 (
 aString
