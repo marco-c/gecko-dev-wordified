@@ -93,6 +93,13 @@ gl
 ProgramMergedVaryings
 &
 mergedVaryings
+const
+gl
+:
+:
+ProgramVaryingPacking
+&
+varyingPacking
 )
 {
 return

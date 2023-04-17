@@ -103,13 +103,15 @@ export
 .
 h
 >
-namespace
-gl
+extern
+"
+C
+"
 {
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BeginQuery
+GL_BeginQuery
 (
 GLenum
 target
@@ -120,7 +122,7 @@ id
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BeginTransformFeedback
+GL_BeginTransformFeedback
 (
 GLenum
 primitiveMode
@@ -129,7 +131,7 @@ primitiveMode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindBufferBase
+GL_BindBufferBase
 (
 GLenum
 target
@@ -142,7 +144,7 @@ buffer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindBufferRange
+GL_BindBufferRange
 (
 GLenum
 target
@@ -159,7 +161,7 @@ size
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindSampler
+GL_BindSampler
 (
 GLuint
 unit
@@ -170,7 +172,7 @@ sampler
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindTransformFeedback
+GL_BindTransformFeedback
 (
 GLenum
 target
@@ -181,7 +183,7 @@ id
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BindVertexArray
+GL_BindVertexArray
 (
 GLuint
 array
@@ -190,7 +192,7 @@ array
 ANGLE_EXPORT
 void
 GL_APIENTRY
-BlitFramebuffer
+GL_BlitFramebuffer
 (
 GLint
 srcX0
@@ -217,7 +219,7 @@ filter
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ClearBufferfi
+GL_ClearBufferfi
 (
 GLenum
 buffer
@@ -232,7 +234,7 @@ stencil
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ClearBufferfv
+GL_ClearBufferfv
 (
 GLenum
 buffer
@@ -247,7 +249,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ClearBufferiv
+GL_ClearBufferiv
 (
 GLenum
 buffer
@@ -262,7 +264,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ClearBufferuiv
+GL_ClearBufferuiv
 (
 GLenum
 buffer
@@ -277,7 +279,7 @@ value
 ANGLE_EXPORT
 GLenum
 GL_APIENTRY
-ClientWaitSync
+GL_ClientWaitSync
 (
 GLsync
 sync
@@ -290,7 +292,7 @@ timeout
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CompressedTexImage3D
+GL_CompressedTexImage3D
 (
 GLenum
 target
@@ -317,7 +319,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CompressedTexSubImage3D
+GL_CompressedTexSubImage3D
 (
 GLenum
 target
@@ -348,7 +350,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CopyBufferSubData
+GL_CopyBufferSubData
 (
 GLenum
 readTarget
@@ -365,7 +367,7 @@ size
 ANGLE_EXPORT
 void
 GL_APIENTRY
-CopyTexSubImage3D
+GL_CopyTexSubImage3D
 (
 GLenum
 target
@@ -390,7 +392,7 @@ height
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteQueries
+GL_DeleteQueries
 (
 GLsizei
 n
@@ -403,7 +405,7 @@ ids
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteSamplers
+GL_DeleteSamplers
 (
 GLsizei
 count
@@ -416,7 +418,7 @@ samplers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteSync
+GL_DeleteSync
 (
 GLsync
 sync
@@ -425,7 +427,7 @@ sync
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteTransformFeedbacks
+GL_DeleteTransformFeedbacks
 (
 GLsizei
 n
@@ -438,7 +440,7 @@ ids
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DeleteVertexArrays
+GL_DeleteVertexArrays
 (
 GLsizei
 n
@@ -451,7 +453,7 @@ arrays
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawArraysInstanced
+GL_DrawArraysInstanced
 (
 GLenum
 mode
@@ -466,7 +468,7 @@ instancecount
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawBuffers
+GL_DrawBuffers
 (
 GLsizei
 n
@@ -479,7 +481,7 @@ bufs
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawElementsInstanced
+GL_DrawElementsInstanced
 (
 GLenum
 mode
@@ -498,7 +500,7 @@ instancecount
 ANGLE_EXPORT
 void
 GL_APIENTRY
-DrawRangeElements
+GL_DrawRangeElements
 (
 GLenum
 mode
@@ -519,7 +521,7 @@ indices
 ANGLE_EXPORT
 void
 GL_APIENTRY
-EndQuery
+GL_EndQuery
 (
 GLenum
 target
@@ -528,14 +530,14 @@ target
 ANGLE_EXPORT
 void
 GL_APIENTRY
-EndTransformFeedback
+GL_EndTransformFeedback
 (
 )
 ;
 ANGLE_EXPORT
 GLsync
 GL_APIENTRY
-FenceSync
+GL_FenceSync
 (
 GLenum
 condition
@@ -546,7 +548,7 @@ flags
 ANGLE_EXPORT
 void
 GL_APIENTRY
-FlushMappedBufferRange
+GL_FlushMappedBufferRange
 (
 GLenum
 target
@@ -559,7 +561,7 @@ length
 ANGLE_EXPORT
 void
 GL_APIENTRY
-FramebufferTextureLayer
+GL_FramebufferTextureLayer
 (
 GLenum
 target
@@ -576,7 +578,7 @@ layer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenQueries
+GL_GenQueries
 (
 GLsizei
 n
@@ -588,7 +590,7 @@ ids
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenSamplers
+GL_GenSamplers
 (
 GLsizei
 count
@@ -600,7 +602,7 @@ samplers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenTransformFeedbacks
+GL_GenTransformFeedbacks
 (
 GLsizei
 n
@@ -612,7 +614,7 @@ ids
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GenVertexArrays
+GL_GenVertexArrays
 (
 GLsizei
 n
@@ -624,7 +626,7 @@ arrays
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetActiveUniformBlockName
+GL_GetActiveUniformBlockName
 (
 GLuint
 program
@@ -643,7 +645,7 @@ uniformBlockName
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetActiveUniformBlockiv
+GL_GetActiveUniformBlockiv
 (
 GLuint
 program
@@ -659,7 +661,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetActiveUniformsiv
+GL_GetActiveUniformsiv
 (
 GLuint
 program
@@ -679,7 +681,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetBufferParameteri64v
+GL_GetBufferParameteri64v
 (
 GLenum
 target
@@ -693,7 +695,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetBufferPointerv
+GL_GetBufferPointerv
 (
 GLenum
 target
@@ -708,7 +710,7 @@ params
 ANGLE_EXPORT
 GLint
 GL_APIENTRY
-GetFragDataLocation
+GL_GetFragDataLocation
 (
 GLuint
 program
@@ -721,7 +723,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetInteger64i_v
+GL_GetInteger64i_v
 (
 GLenum
 target
@@ -735,7 +737,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetInteger64v
+GL_GetInteger64v
 (
 GLenum
 pname
@@ -747,7 +749,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetIntegeri_v
+GL_GetIntegeri_v
 (
 GLenum
 target
@@ -761,7 +763,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetInternalformativ
+GL_GetInternalformativ
 (
 GLenum
 target
@@ -779,7 +781,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetProgramBinary
+GL_GetProgramBinary
 (
 GLuint
 program
@@ -799,7 +801,7 @@ binary
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetQueryObjectuiv
+GL_GetQueryObjectuiv
 (
 GLuint
 id
@@ -813,7 +815,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetQueryiv
+GL_GetQueryiv
 (
 GLenum
 target
@@ -827,7 +829,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetSamplerParameterfv
+GL_GetSamplerParameterfv
 (
 GLuint
 sampler
@@ -841,7 +843,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetSamplerParameteriv
+GL_GetSamplerParameteriv
 (
 GLuint
 sampler
@@ -857,7 +859,7 @@ const
 GLubyte
 *
 GL_APIENTRY
-GetStringi
+GL_GetStringi
 (
 GLenum
 name
@@ -868,7 +870,7 @@ index
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetSynciv
+GL_GetSynciv
 (
 GLsync
 sync
@@ -887,7 +889,7 @@ values
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetTransformFeedbackVarying
+GL_GetTransformFeedbackVarying
 (
 GLuint
 program
@@ -912,7 +914,7 @@ name
 ANGLE_EXPORT
 GLuint
 GL_APIENTRY
-GetUniformBlockIndex
+GL_GetUniformBlockIndex
 (
 GLuint
 program
@@ -925,7 +927,7 @@ uniformBlockName
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetUniformIndices
+GL_GetUniformIndices
 (
 GLuint
 program
@@ -945,7 +947,7 @@ uniformIndices
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetUniformuiv
+GL_GetUniformuiv
 (
 GLuint
 program
@@ -959,7 +961,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetVertexAttribIiv
+GL_GetVertexAttribIiv
 (
 GLuint
 index
@@ -973,7 +975,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GetVertexAttribIuiv
+GL_GetVertexAttribIuiv
 (
 GLuint
 index
@@ -987,7 +989,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-InvalidateFramebuffer
+GL_InvalidateFramebuffer
 (
 GLenum
 target
@@ -1002,7 +1004,7 @@ attachments
 ANGLE_EXPORT
 void
 GL_APIENTRY
-InvalidateSubFramebuffer
+GL_InvalidateSubFramebuffer
 (
 GLenum
 target
@@ -1025,7 +1027,7 @@ height
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsQuery
+GL_IsQuery
 (
 GLuint
 id
@@ -1034,7 +1036,7 @@ id
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsSampler
+GL_IsSampler
 (
 GLuint
 sampler
@@ -1043,7 +1045,7 @@ sampler
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsSync
+GL_IsSync
 (
 GLsync
 sync
@@ -1052,7 +1054,7 @@ sync
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsTransformFeedback
+GL_IsTransformFeedback
 (
 GLuint
 id
@@ -1061,7 +1063,7 @@ id
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-IsVertexArray
+GL_IsVertexArray
 (
 GLuint
 array
@@ -1071,7 +1073,7 @@ ANGLE_EXPORT
 void
 *
 GL_APIENTRY
-MapBufferRange
+GL_MapBufferRange
 (
 GLenum
 target
@@ -1086,14 +1088,14 @@ access
 ANGLE_EXPORT
 void
 GL_APIENTRY
-PauseTransformFeedback
+GL_PauseTransformFeedback
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ProgramBinary
+GL_ProgramBinary
 (
 GLuint
 program
@@ -1110,7 +1112,7 @@ length
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ProgramParameteri
+GL_ProgramParameteri
 (
 GLuint
 program
@@ -1123,7 +1125,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ReadBuffer
+GL_ReadBuffer
 (
 GLenum
 src
@@ -1132,7 +1134,7 @@ src
 ANGLE_EXPORT
 void
 GL_APIENTRY
-RenderbufferStorageMultisample
+GL_RenderbufferStorageMultisample
 (
 GLenum
 target
@@ -1149,14 +1151,14 @@ height
 ANGLE_EXPORT
 void
 GL_APIENTRY
-ResumeTransformFeedback
+GL_ResumeTransformFeedback
 (
 )
 ;
 ANGLE_EXPORT
 void
 GL_APIENTRY
-SamplerParameterf
+GL_SamplerParameterf
 (
 GLuint
 sampler
@@ -1169,7 +1171,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-SamplerParameterfv
+GL_SamplerParameterfv
 (
 GLuint
 sampler
@@ -1184,7 +1186,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-SamplerParameteri
+GL_SamplerParameteri
 (
 GLuint
 sampler
@@ -1197,7 +1199,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-SamplerParameteriv
+GL_SamplerParameteriv
 (
 GLuint
 sampler
@@ -1212,7 +1214,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexImage3D
+GL_TexImage3D
 (
 GLenum
 target
@@ -1241,7 +1243,7 @@ pixels
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexStorage2D
+GL_TexStorage2D
 (
 GLenum
 target
@@ -1258,7 +1260,7 @@ height
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexStorage3D
+GL_TexStorage3D
 (
 GLenum
 target
@@ -1277,7 +1279,7 @@ depth
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TexSubImage3D
+GL_TexSubImage3D
 (
 GLenum
 target
@@ -1308,7 +1310,7 @@ pixels
 ANGLE_EXPORT
 void
 GL_APIENTRY
-TransformFeedbackVaryings
+GL_TransformFeedbackVaryings
 (
 GLuint
 program
@@ -1327,7 +1329,7 @@ bufferMode
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform1ui
+GL_Uniform1ui
 (
 GLint
 location
@@ -1338,7 +1340,7 @@ v0
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform1uiv
+GL_Uniform1uiv
 (
 GLint
 location
@@ -1353,7 +1355,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform2ui
+GL_Uniform2ui
 (
 GLint
 location
@@ -1366,7 +1368,7 @@ v1
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform2uiv
+GL_Uniform2uiv
 (
 GLint
 location
@@ -1381,7 +1383,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform3ui
+GL_Uniform3ui
 (
 GLint
 location
@@ -1396,7 +1398,7 @@ v2
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform3uiv
+GL_Uniform3uiv
 (
 GLint
 location
@@ -1411,7 +1413,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform4ui
+GL_Uniform4ui
 (
 GLint
 location
@@ -1428,7 +1430,7 @@ v3
 ANGLE_EXPORT
 void
 GL_APIENTRY
-Uniform4uiv
+GL_Uniform4uiv
 (
 GLint
 location
@@ -1443,7 +1445,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformBlockBinding
+GL_UniformBlockBinding
 (
 GLuint
 program
@@ -1456,7 +1458,7 @@ uniformBlockBinding
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformMatrix2x3fv
+GL_UniformMatrix2x3fv
 (
 GLint
 location
@@ -1473,7 +1475,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformMatrix2x4fv
+GL_UniformMatrix2x4fv
 (
 GLint
 location
@@ -1490,7 +1492,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformMatrix3x2fv
+GL_UniformMatrix3x2fv
 (
 GLint
 location
@@ -1507,7 +1509,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformMatrix3x4fv
+GL_UniformMatrix3x4fv
 (
 GLint
 location
@@ -1524,7 +1526,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformMatrix4x2fv
+GL_UniformMatrix4x2fv
 (
 GLint
 location
@@ -1541,7 +1543,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-UniformMatrix4x3fv
+GL_UniformMatrix4x3fv
 (
 GLint
 location
@@ -1558,7 +1560,7 @@ value
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-UnmapBuffer
+GL_UnmapBuffer
 (
 GLenum
 target
@@ -1567,7 +1569,7 @@ target
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttribDivisor
+GL_VertexAttribDivisor
 (
 GLuint
 index
@@ -1578,7 +1580,7 @@ divisor
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttribI4i
+GL_VertexAttribI4i
 (
 GLuint
 index
@@ -1595,7 +1597,7 @@ w
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttribI4iv
+GL_VertexAttribI4iv
 (
 GLuint
 index
@@ -1608,7 +1610,7 @@ v
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttribI4ui
+GL_VertexAttribI4ui
 (
 GLuint
 index
@@ -1625,7 +1627,7 @@ w
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttribI4uiv
+GL_VertexAttribI4uiv
 (
 GLuint
 index
@@ -1638,7 +1640,7 @@ v
 ANGLE_EXPORT
 void
 GL_APIENTRY
-VertexAttribIPointer
+GL_VertexAttribIPointer
 (
 GLuint
 index
@@ -1657,7 +1659,7 @@ pointer
 ANGLE_EXPORT
 void
 GL_APIENTRY
-WaitSync
+GL_WaitSync
 (
 GLsync
 sync
@@ -1670,8 +1672,10 @@ timeout
 }
 /
 /
-namespace
-gl
+extern
+"
+C
+"
 #
 endif
 /

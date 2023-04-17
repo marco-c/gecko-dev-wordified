@@ -1193,6 +1193,9 @@ destArea
 height
 )
 ;
+if
+(
+!
 gl
 :
 :
@@ -1203,7 +1206,11 @@ clipRect
 &
 clippedDestArea
 )
+)
+{
+return
 ;
+}
 /
 /
 Determine
