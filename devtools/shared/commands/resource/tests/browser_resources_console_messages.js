@@ -705,8 +705,15 @@ expectedTargetFront
 executeInIframe
 &
 &
+(
 isFissionEnabled
 (
+)
+|
+|
+isEveryFrameTargetEnabled
+(
+)
 )
 ?
 targetCommand

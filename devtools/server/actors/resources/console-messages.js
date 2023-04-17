@@ -554,6 +554,11 @@ onConsoleAPICall
 excludeMessagesBoundToWindow
 :
 isTargetActorContentProcess
+matchExactWindow
+:
+targetActor
+.
+ignoreSubFrames
 .
 .
 .
