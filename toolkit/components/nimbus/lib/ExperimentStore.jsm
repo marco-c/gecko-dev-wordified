@@ -572,6 +572,16 @@ ExperimentStore
 extends
 SharedDataMap
 {
+static
+SYNC_DATA_PREF_BRANCH
+=
+SYNC_DATA_PREF_BRANCH
+;
+static
+SYNC_DEFAULTS_PREF_BRANCH
+=
+SYNC_DEFAULTS_PREF_BRANCH
+;
 constructor
 (
 sharedDataKey
