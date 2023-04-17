@@ -487,6 +487,12 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+void
+Shutdown
+(
+)
+override
+;
 protected
 :
 ~
