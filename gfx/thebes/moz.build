@@ -614,11 +614,6 @@ gfxFT2FontBase
 h
 "
 "
-gfxGdkNativeRenderer
-.
-h
-"
-"
 gfxPlatformGtk
 .
 h
@@ -663,11 +658,6 @@ gfxFT2Utils
 cpp
 "
 "
-gfxGdkNativeRenderer
-.
-cpp
-"
-"
 gfxPlatformGtk
 .
 cpp
@@ -696,11 +686,6 @@ EXPORTS
 =
 [
 "
-gfxXlibNativeRenderer
-.
-h
-"
-"
 gfxXlibSurface
 .
 h
@@ -724,11 +709,6 @@ SOURCES
 +
 =
 [
-"
-gfxXlibNativeRenderer
-.
-cpp
-"
 "
 gfxXlibSurface
 .
