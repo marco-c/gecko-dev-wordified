@@ -19993,10 +19993,6 @@ TypedArrayObject
 length
 (
 )
-.
-get
-(
-)
 )
 {
 auto

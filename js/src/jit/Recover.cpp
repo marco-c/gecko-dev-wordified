@@ -9715,10 +9715,6 @@ TypedArrayObject
 length
 (
 )
-.
-get
-(
-)
 ;
 MOZ_ASSERT
 (

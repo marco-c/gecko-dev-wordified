@@ -1698,10 +1698,6 @@ TypedArrayObject
 length
 (
 )
-.
-get
-(
-)
 ;
 /
 /

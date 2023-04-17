@@ -776,10 +776,6 @@ typedArray
 length
 (
 )
-.
-get
-(
-)
 ;
 /
 /
@@ -4322,10 +4318,6 @@ unwrappedTypedArray
 byteOffset
 (
 )
-.
-get
-(
-)
 ;
 /
 /
@@ -5449,10 +5441,6 @@ unwrappedTypedArray
 -
 >
 byteOffset
-(
-)
-.
-get
 (
 )
 ;

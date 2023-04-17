@@ -22732,10 +22732,6 @@ tarray
 byteLength
 (
 )
-.
-get
-(
-)
 ;
 }
 }

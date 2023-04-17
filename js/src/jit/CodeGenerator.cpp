@@ -48838,10 +48838,6 @@ ttemplate
 length
 (
 )
-.
-get
-(
-)
 ;
 MOZ_ASSERT
 (

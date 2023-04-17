@@ -329,10 +329,6 @@ buffer
 byteLength
 (
 )
-.
-get
-(
-)
 ;
 *
 data
@@ -378,10 +374,6 @@ buffer
 -
 >
 byteLength
-(
-)
-.
-get
 (
 )
 ;
@@ -561,10 +553,6 @@ ArrayBufferObject
 byteLength
 (
 )
-.
-get
-(
-)
 :
 obj
 -
@@ -577,10 +565,6 @@ SharedArrayBufferObject
 )
 .
 byteLength
-(
-)
-.
-get
 (
 )
 ;

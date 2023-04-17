@@ -476,9 +476,9 @@ cx
 ArrayBufferObjectMaybeShared
 *
 buffer
-BufferSize
+size_t
 byteOffset
-BufferSize
+size_t
 length
 uint32_t
 bytesPerElement
@@ -963,15 +963,13 @@ isDetached
 )
 ;
 }
-BufferSize
+size_t
 byteOffset
 (
 )
 const
 {
 return
-BufferSize
-(
 size_t
 (
 getFixedSlot
@@ -981,7 +979,6 @@ BYTEOFFSET_SLOT
 .
 toPrivate
 (
-)
 )
 )
 ;
@@ -996,10 +993,6 @@ size_t
 offset
 =
 byteOffset
-(
-)
-.
-get
 (
 )
 ;

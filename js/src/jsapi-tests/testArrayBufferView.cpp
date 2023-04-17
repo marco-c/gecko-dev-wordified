@@ -959,10 +959,6 @@ ArrayBufferObject
 byteLength
 (
 )
-.
-get
-(
-)
 =
 =
 8

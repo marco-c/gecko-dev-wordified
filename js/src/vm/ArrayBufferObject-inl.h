@@ -269,7 +269,7 @@ false
 ;
 }
 inline
-BufferSize
+size_t
 ArrayBufferObjectMaybeShared
 :
 :

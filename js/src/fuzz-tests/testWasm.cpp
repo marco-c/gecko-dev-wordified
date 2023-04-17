@@ -2563,10 +2563,6 @@ memory
 volatileMemoryLength
 (
 )
-.
-get
-(
-)
 ;
 if
 (

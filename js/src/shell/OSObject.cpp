@@ -3190,10 +3190,6 @@ obj
 length
 (
 )
-.
-get
-(
-)
 ;
 if
 (
