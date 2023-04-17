@@ -2397,11 +2397,9 @@ frames
 .
 location
 ;
-ok
+is
 (
 sourceId
-=
-=
 expectedSourceId
 "
 Frame
