@@ -937,6 +937,13 @@ null
 matchBrackets
 :
 true
+highlightSelectionMatches
+:
+{
+wordsOnly
+:
+true
+}
 extraKeys
 :
 {
