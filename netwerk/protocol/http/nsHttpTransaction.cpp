@@ -3780,7 +3780,7 @@ to
 send
 TE
 :
-Trailers
+trailers
 to
 be
 /
@@ -3910,7 +3910,7 @@ nsHttp
 :
 TE
 "
-Trailers
+trailers
 "
 _ns
 )
