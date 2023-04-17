@@ -137,6 +137,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h
