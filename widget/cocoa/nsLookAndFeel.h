@@ -237,6 +237,9 @@ nscolor
 mColorHighlight
 ;
 nscolor
+mColorTextSelectForeground
+;
+nscolor
 mColorAlternateSelectedControlText
 ;
 nscolor
