@@ -196,7 +196,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -427,9 +426,7 @@ ok
 !
 (
 await
-testActor
-.
-hasNode
+hasMatchingElementInContentPage
 (
 outerHTMLSelector
 )
@@ -661,9 +658,7 @@ HTML
 ok
 (
 await
-testActor
-.
-hasNode
+hasMatchingElementInContentPage
 (
 innerHTMLSelector
 )

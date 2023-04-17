@@ -69,7 +69,6 @@ const
 {
 inspector
 toolbox
-testActor
 }
 =
 await
@@ -433,9 +432,7 @@ ok
 !
 (
 await
-testActor
-.
-hasNode
+hasMatchingElementInContentPage
 (
 "
 #

@@ -64,7 +64,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -195,9 +194,8 @@ onMutation
 const
 hasAttribute
 =
-testActor
-.
-hasNode
+await
+hasMatchingElementInContentPage
 (
 "
 #
@@ -553,9 +551,7 @@ const
 isAttributeChanged
 =
 await
-testActor
-.
-hasNode
+hasMatchingElementInContentPage
 (
 "
 #
@@ -684,9 +680,7 @@ const
 hasAttribute
 =
 await
-testActor
-.
-hasNode
+hasMatchingElementInContentPage
 (
 "
 #
