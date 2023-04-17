@@ -663,7 +663,7 @@ matches
 :
 [
 "
-http
+https
 :
 /
 /
@@ -715,7 +715,7 @@ matches
 :
 [
 "
-http
+https
 :
 /
 /
@@ -746,7 +746,7 @@ permissions
 :
 [
 "
-http
+https
 :
 /
 /
@@ -840,7 +840,7 @@ ExtensionTestUtils
 loadContentPage
 (
 "
-http
+https
 :
 /
 /
