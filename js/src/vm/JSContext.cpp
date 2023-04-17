@@ -7308,13 +7308,6 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-wasm_
-.
-sizeOfExcludingThis
-(
-mallocSizeOf
-)
-+
 irregexp
 :
 :
