@@ -586,6 +586,14 @@ Count
 )
 ;
 }
+void
+Update
+(
+AccAttributes
+*
+aOther
+)
+;
 /
 /
 An
@@ -821,6 +829,10 @@ const
 AttrValueType
 *
 mValue
+;
+friend
+class
+AccAttributes
 ;
 }
 ;
