@@ -4109,9 +4109,6 @@ ElementInternals
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
