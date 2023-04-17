@@ -20,16 +20,6 @@ this
 ;
 -
 -
-enable
--
-top
--
-level
--
-await
-;
--
--
 fast
 -
 warmup

@@ -1,5 +1,13 @@
 /
 /
+|
+jit
+-
+test
+|
+module
+/
+/
 Test
 shell
 ModuleObject
@@ -9,7 +17,6 @@ s
 accessors
 and
 methods
-.
 load
 (
 libdir
@@ -450,6 +457,7 @@ declarationInstantiation
 ;
 try
 {
+await
 d
 .
 evaluation

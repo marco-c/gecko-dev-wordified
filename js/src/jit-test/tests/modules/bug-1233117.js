@@ -7,15 +7,6 @@ test
 |
 module
 ;
--
--
-enable
--
-top
--
-level
--
-await
 eval
 (
 "

@@ -5,16 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-top
--
-level
--
-await
-;
 dbgGlobal
 =
 newGlobal
