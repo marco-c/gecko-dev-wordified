@@ -178,9 +178,7 @@ page
 html
 "
 async
-(
 browser
-)
 =
 >
 {
@@ -280,6 +278,7 @@ resolve
 (
 arg
 )
+;
 }
 content
 )
