@@ -58,7 +58,6 @@ MPL
 /
 const
 {
-gBrowser
 PrintUtils
 Services
 AppConstants
@@ -1787,7 +1786,7 @@ embedderElement
 let
 dialogBoxManager
 =
-gBrowser
+PrintUtils
 .
 getTabDialogBox
 (
