@@ -22905,7 +22905,7 @@ webrtc
 .
 deviceGracePeriodTimeoutMs
 "
-50000
+3600000
 )
 ;
 /
