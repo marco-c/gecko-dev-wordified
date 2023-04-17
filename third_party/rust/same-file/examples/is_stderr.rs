@@ -1,7 +1,3 @@
-extern
-crate
-same_file
-;
 use
 std
 :
@@ -77,6 +73,9 @@ Run
 with
 cargo
 run
+-
+-
+example
 is_stderr
 2
 >
