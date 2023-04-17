@@ -944,12 +944,15 @@ Clone
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 resultFile
 -
 >
 Append
 (
 aPathElement
+)
 )
 )
 ;

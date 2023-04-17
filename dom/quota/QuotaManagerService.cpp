@@ -3085,11 +3085,14 @@ principalInfo
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 PrincipalToPrincipalInfo
 (
 aPrincipal
 &
 principalInfo
+)
 )
 )
 ;
@@ -3154,9 +3157,12 @@ params
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 InitiateRequest
 (
 info
+)
 )
 )
 ;
