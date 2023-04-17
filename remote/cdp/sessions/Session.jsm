@@ -544,7 +544,7 @@ this
 .
 connection
 .
-onEvent
+sendEvent
 (
 eventName
 params

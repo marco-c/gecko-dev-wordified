@@ -730,7 +730,7 @@ this
 .
 connection
 .
-onEvent
+sendEvent
 (
 event
 .
