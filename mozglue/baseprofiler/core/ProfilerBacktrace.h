@@ -125,7 +125,16 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
+ProfileChunkedBuffer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -137,9 +146,6 @@ string
 namespace
 mozilla
 {
-class
-ProfileChunkedBuffer
-;
 class
 TimeStamp
 ;

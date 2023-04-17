@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+ProfilerState
+.
+h
+"
+#
+include
+"
 platform
 .
 h
