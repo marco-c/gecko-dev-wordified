@@ -1433,12 +1433,6 @@ Map
 *
 param
 {
-PageContext
-}
-pageContext
-*
-param
-{
 string
 }
 debugName
@@ -1454,7 +1448,6 @@ async
 function
 getSymbolsFromThisBrowser
 (
-pageContext
 debugName
 breakpadId
 )
@@ -1633,10 +1626,8 @@ objdirs
 =
 getObjdirPrefValue
 (
-getPrefPostfix
-(
-pageContext
-)
+"
+"
 )
 ;
 const
@@ -2038,7 +2029,6 @@ breakpadId
 return
 getSymbolsFromThisBrowser
 (
-pageContext
 debugName
 breakpadId
 )
@@ -3995,7 +3985,6 @@ stopProfiler
 restartProfiler
 toggleProfiler
 platform
-getSymbolsFromThisBrowser
 getRecordingSettings
 setRecordingSettings
 revertRecordingSettings
