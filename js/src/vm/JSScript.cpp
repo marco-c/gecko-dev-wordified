@@ -32253,7 +32253,7 @@ mayReadFrameArgsDirectly
 )
 {
 return
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 |

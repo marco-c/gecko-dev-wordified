@@ -3518,7 +3518,7 @@ if
 script
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 )
@@ -4620,7 +4620,7 @@ script
 )
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 ?
@@ -5138,7 +5138,7 @@ script
 )
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 )

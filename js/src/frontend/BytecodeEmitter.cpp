@@ -66332,7 +66332,7 @@ if
 funbox
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 )

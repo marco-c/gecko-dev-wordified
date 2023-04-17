@@ -3115,7 +3115,7 @@ if
 script
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 &
