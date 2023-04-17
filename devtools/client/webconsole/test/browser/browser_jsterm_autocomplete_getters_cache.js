@@ -723,7 +723,7 @@ closed
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

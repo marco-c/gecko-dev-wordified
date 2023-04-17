@@ -283,7 +283,7 @@ page
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

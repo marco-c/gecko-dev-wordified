@@ -133,7 +133,7 @@ JSMSG_NOT_FUNCTION
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

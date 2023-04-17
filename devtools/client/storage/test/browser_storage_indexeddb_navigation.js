@@ -484,7 +484,7 @@ and
 check
 again
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

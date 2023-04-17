@@ -279,7 +279,7 @@ closed
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

@@ -251,7 +251,7 @@ click
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;
@@ -325,7 +325,7 @@ destroy
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

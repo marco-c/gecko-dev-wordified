@@ -199,7 +199,7 @@ selectedTab
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

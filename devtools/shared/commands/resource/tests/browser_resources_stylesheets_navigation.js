@@ -1066,7 +1066,7 @@ reloading
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

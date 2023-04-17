@@ -806,7 +806,7 @@ navigation
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

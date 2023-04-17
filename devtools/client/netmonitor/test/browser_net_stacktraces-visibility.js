@@ -105,7 +105,6 @@ request_0
 ;
 const
 {
-tab
 monitor
 }
 =
@@ -204,9 +203,8 @@ length
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
-tab
 )
 ;
 await

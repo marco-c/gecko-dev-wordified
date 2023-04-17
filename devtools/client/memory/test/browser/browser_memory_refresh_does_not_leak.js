@@ -467,7 +467,7 @@ length
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

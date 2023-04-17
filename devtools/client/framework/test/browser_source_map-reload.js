@@ -277,7 +277,7 @@ JS_URL
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

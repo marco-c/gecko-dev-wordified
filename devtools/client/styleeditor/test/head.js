@@ -481,7 +481,7 @@ clear
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

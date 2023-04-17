@@ -440,11 +440,8 @@ content
 "
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;
@@ -514,6 +511,7 @@ hidden
 "
 )
 ;
+await
 navigateTo
 (
 data

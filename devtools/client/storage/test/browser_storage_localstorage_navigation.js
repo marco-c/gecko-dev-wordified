@@ -459,7 +459,7 @@ and
 check
 data
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

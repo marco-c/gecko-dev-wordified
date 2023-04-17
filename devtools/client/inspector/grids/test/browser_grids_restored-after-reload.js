@@ -529,7 +529,7 @@ reloaded
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

@@ -1046,7 +1046,7 @@ disabled
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

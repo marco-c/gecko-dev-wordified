@@ -137,7 +137,7 @@ inspector
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;

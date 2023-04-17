@@ -443,7 +443,7 @@ navigation
 )
 ;
 await
-refreshTab
+reloadBrowser
 (
 )
 ;
