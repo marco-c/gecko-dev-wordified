@@ -1261,7 +1261,7 @@ in
 zoneInfo
 by
 calling
-auxillary
+auxiliary
 functions
 that
 creates

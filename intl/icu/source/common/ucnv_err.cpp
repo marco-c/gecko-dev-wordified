@@ -2198,7 +2198,7 @@ Always
 add
 space
 character
-becase
+because
 the
 next
 character

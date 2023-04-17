@@ -1227,7 +1227,7 @@ public
 *
 *
 *
-Contructor
+Constructor
 *
 param
 status

@@ -1255,7 +1255,7 @@ greater
 )
 /
 /
-concatentated
+concatenated
 together
 into
 one

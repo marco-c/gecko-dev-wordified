@@ -4554,7 +4554,7 @@ is
 usually
 the
 match
-chafacter
+character
 for
 the
 end
@@ -7640,9 +7640,9 @@ transliterations
 clients
 should
 call
+*
 {
 link
-*
 #
 finishTransliteration
 }
@@ -8152,7 +8152,6 @@ see
 *
 {
 link
-*
 #
 transliterate
 (
@@ -8318,7 +8317,6 @@ passed
 to
 {
 link
-*
 #
 transliterate
 }
@@ -9494,7 +9492,7 @@ and
 postpone
 processing
 to
-accomodate
+accommodate
 future
 incoming
 *
@@ -9706,7 +9704,7 @@ and
 postpone
 processing
 to
-accomodate
+accommodate
 future
 incoming
 *
@@ -10066,10 +10064,10 @@ locale
 See
 {
 link
-*
 #
 getDisplayName
 }
+*
 for
 details
 .
@@ -11704,9 +11702,9 @@ Some
 subclasses
 may
 override
+*
 {
 link
-*
 #
 handleGetSourceSet
 }

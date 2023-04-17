@@ -561,9 +561,6 @@ ULocMatchDemotion
 ;
 #
 endif
-#
-ifndef
-U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -727,7 +724,7 @@ setDirection
 ULocMatchDirection
 )
 *
-draft
+stable
 ICU
 67
 *
@@ -756,7 +753,7 @@ default
 )
 *
 *
-draft
+stable
 ICU
 67
 *
@@ -791,7 +788,7 @@ matches
 .
 *
 *
-draft
+stable
 ICU
 67
 *
@@ -809,11 +806,6 @@ ULocMatchDirection
 ;
 #
 endif
-#
-endif
-/
-/
-U_FORCE_HIDE_DRAFT_API
 struct
 UHashtable
 ;
@@ -2994,9 +2986,6 @@ ULocMatchDemotion
 demotion
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3040,7 +3029,7 @@ this
 Builder
 object
 *
-draft
+stable
 ICU
 67
 *
@@ -3071,11 +3060,6 @@ return
 this
 ;
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 ifndef
 U_HIDE_DRAFT_API
@@ -4858,17 +4842,6 @@ Map
 LSR
 Integer
 >
-stores
-index
-+
-1
-because
-0
-is
-"
-not
-found
-"
 /
 /
 Array

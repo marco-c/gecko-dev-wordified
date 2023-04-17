@@ -1723,7 +1723,7 @@ is
 an
 alias
 of
-canoncal
+canonical
 legacy
 type
 if

@@ -26867,7 +26867,7 @@ index
 over
 any
 combining
-charcters
+characters
 .
 mLimit
 =

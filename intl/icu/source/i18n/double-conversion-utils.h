@@ -938,6 +938,12 @@ __nios2__
 )
 |
 |
+defined
+(
+__ghs
+)
+|
+|
 \
 defined
 (

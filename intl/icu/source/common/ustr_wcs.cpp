@@ -2121,7 +2121,7 @@ the
 *
 chunk
 from
-begining
+beginning
 of
 non
 -
@@ -2265,7 +2265,7 @@ _STACK_BUFFER_CAPACITY
 *
 Should
 rarely
-occcur
+occur
 *
 /
 /

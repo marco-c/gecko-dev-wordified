@@ -7731,6 +7731,11 @@ if
 (
 !
 readToken
+&
+&
+isVerbose
+(
+)
 )
 {
 warning

@@ -364,7 +364,7 @@ numbers
 years
 since
 the
-begining
+beginning
 of
 SAKA
 ERA

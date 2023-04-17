@@ -740,7 +740,7 @@ numInvalid
 /
 /
 Probably
-corruput
+corrupt
 utf
 -
 8

@@ -3680,7 +3680,10 @@ data
 >
 appendSpanInfo
 (
+UFIELD_CATEGORY_LIST_SPAN
 0
+-
+1
 start
 .
 length
@@ -3924,7 +3927,10 @@ data
 >
 appendSpanInfo
 (
+UFIELD_CATEGORY_LIST_SPAN
 position
+-
+1
 next
 .
 length
@@ -4053,7 +4059,10 @@ data
 >
 prependSpanInfo
 (
+UFIELD_CATEGORY_LIST_SPAN
 position
+-
+1
 next
 .
 length

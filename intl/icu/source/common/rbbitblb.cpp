@@ -1201,7 +1201,7 @@ tree
 /
 See
 the
-alogrithm
+algorithm
 description
 in
 Aho

@@ -4066,7 +4066,7 @@ implement
 the
 /
 /
-computatinally
+computationally
 cleaner
 proleptic
 calendar

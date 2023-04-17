@@ -637,7 +637,7 @@ not
 be
 null
 .
-Attemps
+Attempts
 to
 remove
 a

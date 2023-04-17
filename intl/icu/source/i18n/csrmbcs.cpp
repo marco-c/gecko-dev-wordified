@@ -1448,7 +1448,7 @@ byte
 non
 -
 ASCII
-charcters
+characters
 would
 probably
 help

@@ -1721,8 +1721,8 @@ zone
 param
 tzID
 The
-canoical
-tiem
+canonical
+time
 zone
 ID
 .
