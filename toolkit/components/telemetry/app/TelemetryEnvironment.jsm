@@ -12961,6 +12961,15 @@ appleModelId
 "
 null
 )
+hasWinPackageId
+:
+getSysinfoProperty
+(
+"
+hasWinPackageId
+"
+null
+)
 }
 ;
 if
