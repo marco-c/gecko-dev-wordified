@@ -506,9 +506,9 @@ placesContext_deleteBookmark
 "
 )
 ;
-EventUtils
+placesContext
 .
-synthesizeMouseAtCenter
+activateItem
 (
 placesContextDelete
 {

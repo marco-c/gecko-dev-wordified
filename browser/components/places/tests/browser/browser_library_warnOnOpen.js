@@ -822,14 +822,13 @@ cancel
 "
 )
 ;
-EventUtils
+placesContext
 .
-synthesizeMouseAtCenter
+activateItem
 (
 openTabs
 {
 }
-gLibrary
 )
 ;
 await
