@@ -30547,6 +30547,14 @@ return
 true
 ;
 }
+#
+ifdef
+__wasi__
+return
+false
+;
+#
+endif
 auto
 interval
 =
@@ -74357,10 +74365,6 @@ cx
 OptionParser
 *
 op
-char
-*
-*
-envp
 )
 {
 if
@@ -75779,10 +75783,6 @@ char
 *
 *
 argv
-char
-*
-*
-envp
 )
 {
 PreInit
@@ -83423,7 +83423,6 @@ Shell
 cx
 &
 op
-envp
 )
 ;
 #

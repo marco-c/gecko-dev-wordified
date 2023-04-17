@@ -968,6 +968,12 @@ defined
 (
 __OpenBSD__
 )
+|
+|
+defined
+(
+__wasi__
+)
 void
 JSONPrinter
 :
