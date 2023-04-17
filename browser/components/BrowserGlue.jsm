@@ -2252,6 +2252,14 @@ pocket
 signup
 *
 "
+"
+about
+:
+pocket
+-
+home
+*
+"
 ]
 }
 AboutPrivateBrowsing
