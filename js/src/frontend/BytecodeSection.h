@@ -300,6 +300,7 @@ h
 /
 ParserAtomsTable
 TaggedParserAtomIndex
+ParserAtom
 #
 include
 "
@@ -558,6 +559,11 @@ append
 (
 TaggedParserAtomIndex
 atom
+ParserAtom
+:
+:
+Atomize
+atomize
 GCThingIndex
 *
 index
@@ -582,6 +588,7 @@ parserAtoms
 markUsedByStencil
 (
 atom
+atomize
 )
 ;
 if
@@ -950,6 +957,14 @@ Maybe
 ScopeIndex
 >
 getScopeIndex
+(
+size_t
+index
+)
+const
+;
+TaggedParserAtomIndex
+getAtom
 (
 size_t
 index
