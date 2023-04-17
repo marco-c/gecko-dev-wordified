@@ -2967,7 +2967,7 @@ hasDevice
 {
 const
 {
-reloadNeeded
+reloadTriggered
 }
 =
 await
@@ -2975,7 +2975,7 @@ deviceRemoved
 ;
 if
 (
-reloadNeeded
+reloadTriggered
 )
 {
 await
@@ -3596,7 +3596,7 @@ value
 ;
 const
 {
-reloadNeeded
+reloadTriggered
 }
 =
 await
@@ -3604,7 +3604,7 @@ onDeviceChanged
 ;
 if
 (
-reloadNeeded
+reloadTriggered
 )
 {
 await
