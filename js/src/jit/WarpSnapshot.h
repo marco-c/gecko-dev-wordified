@@ -434,13 +434,7 @@ T
 const
 {
 return
-static_cast
-<
-T
->
-(
 ptr_
-)
 ;
 }
 T
@@ -452,13 +446,7 @@ operator
 const
 {
 return
-static_cast
-<
-T
->
-(
 ptr_
-)
 ;
 }
 private
