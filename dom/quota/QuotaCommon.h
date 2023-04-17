@@ -6493,7 +6493,7 @@ QM_OR_ELSE_REPORT
 (
 severity
 expr
-orElseFunc
+fallback
 )
 \
 (
@@ -6545,7 +6545,7 @@ severity
 ;
 \
 return
-orElseFunc
+fallback
 (
 firstRes
 )
@@ -6559,7 +6559,7 @@ firstRes
 QM_OR_ELSE_WARN
 (
 expr
-orElse
+fallback
 )
 evaluates
 expr
@@ -6588,8 +6588,7 @@ calls
 HandleError
 and
 a
-custom
-orElse
+fallback
 function
 (
 passed
@@ -6613,7 +6612,7 @@ essentially
 wraps
 the
 *
-orElse
+fallback
 function
 with
 a
@@ -6628,8 +6627,8 @@ macro
 and
 is
 intended
-to
 *
+to
 be
 used
 along
