@@ -12242,7 +12242,7 @@ the
 <
 engine
 >
-suggestions
+Suggestions
 "
 label
 if
@@ -12304,7 +12304,7 @@ return
 engineName
 +
 "
-suggestions
+Suggestions
 "
 ;
 }
