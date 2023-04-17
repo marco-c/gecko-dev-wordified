@@ -4394,16 +4394,6 @@ cancel
 (
 )
         
-self
-.
-browser
-.
-browser
-.
-maybe_parse_tombstone
-(
-)
-        
 #
 Write
 the
