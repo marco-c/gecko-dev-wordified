@@ -2715,6 +2715,11 @@ Released
 "
 )
 ;
+RegisterEncodeCompleteCallback
+(
+nullptr
+)
+;
 if
 (
 mGMPThread
