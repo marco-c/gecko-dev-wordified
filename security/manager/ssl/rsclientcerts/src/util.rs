@@ -101,6 +101,12 @@ use
 crate
 :
 :
+error_here
+;
+use
+crate
+:
+:
 error
 :
 :
@@ -212,6 +218,10 @@ silence
 the
 compiler
 .
+#
+[
+macro_export
+]
 macro_rules
 !
 unsafe_packed_field_access

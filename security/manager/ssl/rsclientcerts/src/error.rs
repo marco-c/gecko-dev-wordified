@@ -115,6 +115,10 @@ as
 a
 String
 .
+#
+[
+macro_export
+]
 macro_rules
 !
 error_here
