@@ -39448,8 +39448,6 @@ code
 -
 >
 stackMaps
-&
-d
 )
 )
 {
