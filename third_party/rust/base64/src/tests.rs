@@ -437,6 +437,10 @@ CharacterSet
 :
 :
 ImapMutf7
+CharacterSet
+:
+:
+BinHex
 ]
 ;
 let
