@@ -3647,6 +3647,12 @@ ColorID
 :
 MozButtonhoverface
 :
+case
+ColorID
+:
+:
+MozButtonactiveface
+:
 aColor
 =
 mButtonHoverFace
@@ -3669,7 +3675,7 @@ case
 ColorID
 :
 :
-MozGtkButtonactivetext
+MozButtonactivetext
 :
 aColor
 =

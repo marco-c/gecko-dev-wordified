@@ -1004,6 +1004,12 @@ ColorID
 :
 MozButtonhoverface
 :
+case
+ColorID
+:
+:
+MozButtonactiveface
+:
 idx
 =
 COLOR_BTNFACE
@@ -1045,6 +1051,12 @@ ColorID
 :
 :
 MozButtonhovertext
+:
+case
+ColorID
+:
+:
+MozButtonactivetext
 :
 idx
 =
