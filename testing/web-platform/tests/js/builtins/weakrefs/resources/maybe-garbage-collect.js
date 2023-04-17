@@ -216,6 +216,8 @@ collect
 )
 ;
 }
+else
+{
 /
 *
 eslint
@@ -272,6 +274,7 @@ no
 console
 *
 /
+}
 }
 /
 *
