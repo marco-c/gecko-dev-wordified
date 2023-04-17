@@ -24644,7 +24644,7 @@ shape
 arr
 -
 >
-lastProperty
+shape
 (
 )
 ;
@@ -25175,7 +25175,7 @@ cx
 templateObject
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -26091,7 +26091,7 @@ IsInsideNursery
 arrayCtor
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -26114,7 +26114,7 @@ IsInsideNursery
 arrayProto
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -26140,7 +26140,7 @@ arrayConstructorShape_
 arrayCtor
 -
 >
-lastProperty
+shape
 (
 )
 ;
@@ -26157,7 +26157,7 @@ arrayProtoShape_
 arrayProto
 -
 >
-lastProperty
+shape
 (
 )
 ;
@@ -26245,7 +26245,7 @@ if
 arrayProto_
 -
 >
-lastProperty
+shape
 (
 )
 !
@@ -26313,7 +26313,7 @@ if
 arrayConstructor_
 -
 >
-lastProperty
+shape
 (
 )
 !

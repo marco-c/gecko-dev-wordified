@@ -12444,7 +12444,7 @@ shape
 nproto
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -12963,7 +12963,7 @@ setOptimizableRegExpPrototypeShape
 nproto
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -13125,7 +13125,7 @@ shape
 rx
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -13197,7 +13197,7 @@ setOptimizableRegExpInstanceShape
 rx
 -
 >
-lastProperty
+shape
 (
 )
 )

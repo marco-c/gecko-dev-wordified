@@ -4524,7 +4524,7 @@ objectFlags
 obj
 -
 >
-lastProperty
+shape
 (
 )
 -

@@ -1162,7 +1162,7 @@ return
 arrayIteratorProto_
 -
 >
-lastProperty
+shape
 (
 )
 =

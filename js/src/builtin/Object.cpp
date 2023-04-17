@@ -5804,7 +5804,7 @@ cx
 fromPlain
 -
 >
-lastProperty
+shape
 (
 )
 )
@@ -6207,7 +6207,7 @@ MOZ_ASSERT
 fromPlain
 -
 >
-lastProperty
+shape
 (
 )
 =

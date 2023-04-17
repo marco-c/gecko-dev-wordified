@@ -4154,26 +4154,6 @@ endif
 }
 public
 :
-Shape
-*
-lastProperty
-(
-)
-const
-{
-MOZ_ASSERT
-(
-shape
-(
-)
-)
-;
-return
-shape
-(
-)
-;
-}
 PropertyInfoWithKey
 getLastProperty
 (
@@ -4380,13 +4360,13 @@ canReuseShapeForNewProperties
 (
 Shape
 *
-shape
+newShape
 )
 const
 {
 if
 (
-lastProperty
+shape
 (
 )
 -
@@ -4396,7 +4376,7 @@ numFixedSlots
 )
 !
 =
-shape
+newShape
 -
 >
 numFixedSlots
@@ -4410,7 +4390,7 @@ false
 }
 if
 (
-lastProperty
+shape
 (
 )
 -
@@ -4420,7 +4400,7 @@ isDictionary
 )
 |
 |
-shape
+newShape
 -
 >
 isDictionary
@@ -4434,7 +4414,7 @@ false
 }
 if
 (
-lastProperty
+shape
 (
 )
 -
@@ -4444,7 +4424,7 @@ base
 )
 !
 =
-shape
+newShape
 -
 >
 base
@@ -4458,7 +4438,7 @@ false
 }
 MOZ_ASSERT
 (
-lastProperty
+shape
 (
 )
 -
@@ -4468,7 +4448,7 @@ getObjectClass
 )
 =
 =
-shape
+newShape
 -
 >
 getObjectClass
@@ -4478,7 +4458,7 @@ getObjectClass
 ;
 MOZ_ASSERT
 (
-lastProperty
+shape
 (
 )
 -
@@ -4488,7 +4468,7 @@ proto
 )
 =
 =
-shape
+newShape
 -
 >
 proto
@@ -4498,7 +4478,7 @@ proto
 ;
 MOZ_ASSERT
 (
-lastProperty
+shape
 (
 )
 -
@@ -4508,7 +4488,7 @@ realm
 )
 =
 =
-shape
+newShape
 -
 >
 realm
@@ -4517,7 +4497,7 @@ realm
 )
 ;
 return
-lastProperty
+shape
 (
 )
 -
@@ -4527,7 +4507,7 @@ objectFlags
 )
 =
 =
-shape
+newShape
 -
 >
 objectFlags
@@ -5621,7 +5601,7 @@ const
 uint32_t
 nslots
 =
-lastProperty
+shape
 (
 )
 -
@@ -5678,7 +5658,7 @@ dictionarySlotSpan
 )
 ;
 return
-lastProperty
+shape
 (
 )
 -

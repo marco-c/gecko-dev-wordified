@@ -7385,7 +7385,7 @@ MOZ_ASSERT
 dst
 -
 >
-lastProperty
+shape
 (
 )
 -
@@ -7587,7 +7587,7 @@ shape
 src
 -
 >
-lastProperty
+shape
 (
 )
 ;

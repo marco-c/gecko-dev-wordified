@@ -1733,7 +1733,7 @@ gc
 :
 IsForwarded
 (
-lastProperty
+shape
 (
 )
 )

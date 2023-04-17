@@ -51739,7 +51739,7 @@ ImmGCPtr
 templateObj
 -
 >
-lastProperty
+shape
 (
 )
 )

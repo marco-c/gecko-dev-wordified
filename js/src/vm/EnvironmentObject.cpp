@@ -3320,12 +3320,7 @@ MOZ_ASSERT
 env
 -
 >
-lastProperty
-(
-)
--
->
-hasObjectFlag
+hasFlag
 (
 ObjectFlag
 :
