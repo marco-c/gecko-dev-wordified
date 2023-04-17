@@ -8,8 +8,6 @@ import
 signal
 import
 subprocess
-import
-sys
 from
 abc
 import
@@ -5288,25 +5286,6 @@ in
 env
 else
 certutil_dir
-)
-.
-encode
-(
-                            
-sys
-.
-getfilesystemencoding
-(
-)
-or
-'
-utf
--
-8
-'
-'
-replace
-'
 )
         
 def
