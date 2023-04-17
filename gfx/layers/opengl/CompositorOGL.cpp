@@ -1758,7 +1758,7 @@ CreateForCompositorWidget
 mWidget
 /
 *
-aWebRender
+aHardwareWebRender
 *
 /
 false
@@ -1856,7 +1856,7 @@ CreateForCompositorWidget
 mWidget
 /
 *
-aWebRender
+aHardwareWebRender
 *
 /
 false

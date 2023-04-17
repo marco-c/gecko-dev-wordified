@@ -261,7 +261,7 @@ CreateForCompositorWidget
 aWidget
 /
 *
-aWebRender
+aHardwareWebRender
 *
 /
 true

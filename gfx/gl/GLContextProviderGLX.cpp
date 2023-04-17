@@ -4310,7 +4310,7 @@ aXDisplay
 Window
 aXWindow
 bool
-aWebRender
+aHardwareWebRender
 bool
 aForceAccelerated
 )
@@ -4466,7 +4466,7 @@ cfgs
 config
 &
 visid
-aWebRender
+aHardwareWebRender
 )
 )
 {
@@ -4479,7 +4479,7 @@ flags
 ;
 if
 (
-aWebRender
+aHardwareWebRender
 )
 {
 flags
@@ -4541,7 +4541,7 @@ CompositorWidget
 *
 aCompositorWidget
 bool
-aWebRender
+aHardwareWebRender
 bool
 aForceAccelerated
 )
@@ -4592,7 +4592,7 @@ compWidget
 XWindow
 (
 )
-aWebRender
+aHardwareWebRender
 aForceAccelerated
 )
 ;

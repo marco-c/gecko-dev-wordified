@@ -1403,7 +1403,7 @@ Create
 EGLNativeWindowType
 aWindow
 bool
-aWebRender
+aHardwareWebRender
 int32_t
 aDepth
 )
@@ -1418,7 +1418,7 @@ CreateImpl
 EGLNativeWindowType
 aWindow
 bool
-aWebRender
+aHardwareWebRender
 bool
 aUseGles
 int32_t
@@ -1454,7 +1454,7 @@ CreateImpl
 EGLNativeWindowType
 aWindow
 bool
-aWebRender
+aHardwareWebRender
 bool
 aUseGles
 int32_t
@@ -1655,7 +1655,7 @@ config
 ;
 if
 (
-aWebRender
+aHardwareWebRender
 &
 &
 egl
@@ -1748,7 +1748,7 @@ egl
 &
 config
 aDepth
-aWebRender
+aHardwareWebRender
 aUseGles
 visualID
 )
@@ -1790,7 +1790,7 @@ config
 aEnableDepthBuffer
 *
 /
-aWebRender
+aHardwareWebRender
 aUseGles
 visualID
 )
@@ -1860,7 +1860,7 @@ NONE
 ;
 if
 (
-aWebRender
+aHardwareWebRender
 &
 &
 StaticPrefs
@@ -1882,7 +1882,7 @@ PREFER_ROBUSTNESS
 }
 if
 (
-aWebRender
+aHardwareWebRender
 &
 &
 aUseGles
@@ -1900,7 +1900,7 @@ PREFER_ES3
 if
 (
 !
-aWebRender
+aHardwareWebRender
 )
 {
 flags
@@ -2054,7 +2054,7 @@ fSwapInterval
 endif
 if
 (
-aWebRender
+aHardwareWebRender
 &
 &
 egl
@@ -2102,7 +2102,7 @@ Create
 EGLNativeWindowType
 aWindow
 bool
-aWebRender
+aHardwareWebRender
 int32_t
 aDepth
 )
@@ -2125,7 +2125,7 @@ glContext
 CreateImpl
 (
 aWindow
-aWebRender
+aHardwareWebRender
 /
 *
 aUseGles
@@ -2155,7 +2155,7 @@ glContext
 CreateImpl
 (
 aWindow
-aWebRender
+aHardwareWebRender
 /
 *
 aUseGles
@@ -5861,7 +5861,7 @@ CompositorWidget
 *
 aCompositorWidget
 bool
-aWebRender
+aHardwareWebRender
 bool
 /
 *
@@ -5937,7 +5937,7 @@ GLContextEGLFactory
 Create
 (
 window
-aWebRender
+aHardwareWebRender
 depth
 )
 ;
