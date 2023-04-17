@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -349,8 +358,7 @@ aSuccess
 {
 MOZ_ASSERT
 (
-!
-InitializationAttempted
+FirstInitializationAttemptPending
 (
 aInitialization
 )
