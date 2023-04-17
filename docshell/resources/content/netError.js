@@ -1422,6 +1422,7 @@ domain
 mismatch
 see
 if
+*
 we
 can
 hyperlink
@@ -1437,6 +1438,7 @@ don
 '
 t
 want
+*
 to
 do
 this
@@ -1448,6 +1450,7 @@ MitM
 attacks
 to
 redirect
+*
 users
 to
 a
@@ -1459,6 +1462,7 @@ but
 in
 certain
 cases
+*
 it
 is
 safe
@@ -2110,6 +2114,7 @@ frame
 ;
 otherwise
 we
+*
 don
 '
 t
@@ -2124,6 +2129,7 @@ The
 key
 part
 is
+*
 that
 autofocus
 happens
@@ -2134,6 +2140,7 @@ the
 tree
 so
 we
+*
 can
 remove
 the
@@ -2143,6 +2150,7 @@ autofocus
 and
 reinsert
 the
+*
 button
 .
 *
@@ -2151,11 +2159,6 @@ function
 addAutofocus
 (
 buttonId
-position
-=
-"
-afterbegin
-"
 )
 {
 if
@@ -2168,7 +2171,7 @@ top
 window
 )
 {
-var
+let
 button
 =
 document
@@ -2178,7 +2181,14 @@ getElementById
 buttonId
 )
 ;
-var
+let
+nextSibling
+=
+button
+.
+nextSibling
+;
+let
 parent
 =
 button
@@ -2205,10 +2215,10 @@ true
 ;
 parent
 .
-insertAdjacentElement
+insertBefore
 (
-position
 button
+nextSibling
 )
 ;
 }
