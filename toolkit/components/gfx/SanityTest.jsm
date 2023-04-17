@@ -566,7 +566,7 @@ crashReporter
 annotateCrashReport
 (
 "
-GraphicsSanityTest
+TestKey
 "
 "
 1
@@ -621,7 +621,7 @@ crashReporter
 removeCrashReportAnnotation
 (
 "
-GraphicsSanityTest
+TestKey
 "
 )
 ;
