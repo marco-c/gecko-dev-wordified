@@ -8233,9 +8233,9 @@ void
 LIRGenerator
 :
 :
-visitSameValue
+visitSameValueDouble
 (
-MSameValue
+MSameValueDouble
 *
 ins
 )
@@ -8304,7 +8304,7 @@ alloc
 (
 )
 )
-LSameValueD
+LSameValueDouble
 (
 useRegister
 (

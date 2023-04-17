@@ -18962,7 +18962,7 @@ jsop
 }
 ;
 class
-MSameValue
+MSameValueDouble
 :
 public
 MBinaryInstruction
@@ -18972,7 +18972,7 @@ AllDoublePolicy
 :
 Data
 {
-MSameValue
+MSameValueDouble
 (
 MDefinition
 *
@@ -19006,7 +19006,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-SameValue
+SameValueDouble
 )
 TRIVIAL_NEW_WRAPPERS
 bool
@@ -19045,7 +19045,7 @@ None
 }
 ALLOW_CLONE
 (
-MSameValue
+MSameValueDouble
 )
 }
 ;
