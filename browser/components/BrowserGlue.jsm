@@ -3337,6 +3337,13 @@ jsm
 events
 :
 {
+pageshow
+:
+{
+mozSystemGroup
+:
+true
+}
 DOMContentLoaded
 :
 {
