@@ -172,8 +172,10 @@ WindowContext
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 nsITransportSecurityInfo
 from
@@ -221,6 +223,9 @@ process
 .
 nsIPrincipal
 principal
+;
+nsIPrincipal
+storagePrincipal
 ;
 nsIURI
 documentURI

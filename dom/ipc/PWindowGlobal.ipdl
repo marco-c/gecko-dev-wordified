@@ -850,6 +850,8 @@ UpdateDocumentPrincipal
 (
 nsIPrincipal
 aPrincipal
+nsIPrincipal
+aStoragePrincipal
 )
 ;
 /
