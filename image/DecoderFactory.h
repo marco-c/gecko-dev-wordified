@@ -158,8 +158,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 image
 {
 class
@@ -221,7 +221,6 @@ ICO
 ICON
 WEBP
 AVIF
-JXL
 UNKNOWN
 }
 ;
@@ -1444,10 +1443,12 @@ aIsRedecode
 /
 /
 namespace
-mozilla
-:
-:
 image
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
