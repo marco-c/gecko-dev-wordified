@@ -138,6 +138,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx

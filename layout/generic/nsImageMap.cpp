@@ -268,13 +268,6 @@ nsLayoutUtils
 h
 "
 #
-include
-"
-ImageLayers
-.
-h
-"
-#
 ifdef
 ACCESSIBILITY
 #

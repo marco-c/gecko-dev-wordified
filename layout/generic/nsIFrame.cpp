@@ -694,13 +694,6 @@ h
 #
 include
 "
-ImageLayers
-.
-h
-"
-#
-include
-"
 nsBidiPresUtils
 .
 h
