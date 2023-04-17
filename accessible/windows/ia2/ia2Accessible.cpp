@@ -2346,7 +2346,7 @@ this
 *
 aUniqueID
 =
-AccessibleWrap
+MsaaAccessible
 :
 :
 GetChildIDFor

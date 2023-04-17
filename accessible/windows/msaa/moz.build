@@ -204,6 +204,11 @@ IUnknownImpl
 cpp
 "
 "
+MsaaAccessible
+.
+cpp
+"
+"
 MsaaIdGenerator
 .
 cpp

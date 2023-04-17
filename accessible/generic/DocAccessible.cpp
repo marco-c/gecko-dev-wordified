@@ -12765,7 +12765,7 @@ IsNull
 int32_t
 childID
 =
-AccessibleWrap
+MsaaAccessible
 :
 :
 GetChildIDFor

@@ -269,7 +269,7 @@ isSome
 )
 )
 {
-AccessibleWrap
+MsaaAccessible
 :
 :
 ReleaseChildID
@@ -758,7 +758,7 @@ accessible
 *
 aUniqueID
 =
-AccessibleWrap
+MsaaAccessible
 :
 :
 GetChildIDFor
@@ -778,7 +778,7 @@ isNothing
 )
 )
 {
-AccessibleWrap
+MsaaAccessible
 :
 :
 AssignChildIDTo

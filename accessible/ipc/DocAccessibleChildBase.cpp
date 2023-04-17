@@ -195,7 +195,7 @@ XP_WIN
 int32_t
 msaaId
 =
-AccessibleWrap
+MsaaAccessible
 :
 :
 GetChildIDFor

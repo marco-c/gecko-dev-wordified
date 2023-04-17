@@ -157,7 +157,7 @@ namespace
 a11y
 {
 class
-AccessibleWrap
+MsaaAccessible
 ;
 class
 sdnAccessible
@@ -278,10 +278,10 @@ ReleaseID
 (
 NotNull
 <
-AccessibleWrap
+MsaaAccessible
 *
 >
-aAccWrap
+aMsaaAcc
 )
 ;
 void

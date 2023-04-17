@@ -6887,7 +6887,7 @@ ConstructChildDocInParentProcess
 (
 ipcDoc
 id
-AccessibleWrap
+MsaaAccessible
 :
 :
 GetChildIDFor
