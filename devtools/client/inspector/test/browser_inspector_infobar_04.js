@@ -155,10 +155,7 @@ level
 "
 )
 ;
-await
-testActor
-.
-zoomPageTo
+setContentPageZoomLevel
 (
 2
 )
