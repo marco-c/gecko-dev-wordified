@@ -5677,11 +5677,13 @@ return
 false
 ;
 }
-static
 LookAndFeel
 :
 :
 ColorScheme
+LookAndFeel
+:
+:
 ColorSchemeForDocument
 (
 const
