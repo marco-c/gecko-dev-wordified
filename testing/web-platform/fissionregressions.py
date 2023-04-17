@@ -402,6 +402,12 @@ swgl
 "
 :
 False
+        
+"
+win10_2004
+"
+:
+False
     
 }
     
@@ -733,6 +739,12 @@ False
         
 "
 swgl
+"
+:
+False
+        
+"
+win10_2004
 "
 :
 False
@@ -1071,6 +1083,12 @@ False
         
 "
 swgl
+"
+:
+False
+        
+"
+win10_2004
 "
 :
 False
