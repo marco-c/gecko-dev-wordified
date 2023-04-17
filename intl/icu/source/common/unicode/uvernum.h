@@ -641,7 +641,7 @@ ICU
 #
 define
 U_ICU_VERSION_MAJOR_NUM
-69
+68
 /
 *
 *
@@ -676,7 +676,7 @@ ICU
 #
 define
 U_ICU_VERSION_MINOR_NUM
-1
+2
 /
 *
 *
@@ -787,7 +787,7 @@ ICU
 #
 define
 U_ICU_VERSION_SUFFIX
-_69
+_68
 /
 *
 *
@@ -1108,9 +1108,9 @@ ICU
 define
 U_ICU_VERSION
 "
-69
+68
 .
-1
+2
 "
 /
 *
@@ -1231,7 +1231,7 @@ ICU
 define
 U_ICU_VERSION_SHORT
 "
-69
+68
 "
 #
 ifndef
@@ -1260,9 +1260,9 @@ Only
 define
 U_ICU_DATA_VERSION
 "
-69
+68
 .
-1
+2
 "
 #
 endif

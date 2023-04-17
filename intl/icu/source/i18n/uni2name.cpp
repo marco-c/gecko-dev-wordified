@@ -663,7 +663,7 @@ return
 }
 /
 /
-Accommodate
+Accomodate
 the
 longest
 possible

@@ -7193,7 +7193,7 @@ listed
 in
 the
 first
-array
+arrray
 .
 <
 /
@@ -8278,7 +8278,7 @@ The
 selector
 *
 code
-chose
+choosed
 among
 three
 possible

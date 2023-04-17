@@ -3976,6 +3976,9 @@ const
 if
 !
 UCONFIG_NO_FORMATTING
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -4058,7 +4061,7 @@ hour
 cycle
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -4072,6 +4075,13 @@ status
 )
 const
 ;
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 #
 endif
 /

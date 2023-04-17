@@ -536,6 +536,9 @@ str
 )
 ;
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 if
 defined
 (
@@ -574,7 +577,7 @@ char8_t
 *
 pointer
 *
-stable
+draft
 ICU
 67
 *
@@ -627,7 +630,7 @@ param
 p
 nullptr
 *
-stable
+draft
 ICU
 67
 *
@@ -651,6 +654,11 @@ length_
 )
 {
 }
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -707,6 +715,9 @@ size
 {
 }
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 if
 defined
 (
@@ -731,7 +742,7 @@ std
 u8string
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -781,6 +792,11 @@ size
 }
 #
 endif
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -1124,6 +1140,9 @@ len
 {
 }
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 if
 defined
 (
@@ -1180,7 +1199,7 @@ non
 -
 negative
 *
-stable
+draft
 ICU
 67
 *
@@ -1212,6 +1231,11 @@ len
 }
 #
 endif
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -1702,6 +1726,9 @@ str
 )
 ;
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 if
 defined
 (
@@ -1752,7 +1779,7 @@ the
 new
 data
 *
-stable
+draft
 ICU
 67
 *
@@ -1810,7 +1837,7 @@ terminated
 string
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -1841,6 +1868,11 @@ str
 }
 #
 endif
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -1988,6 +2020,9 @@ length_
 }
 }
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -2044,7 +2079,7 @@ not
 found
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -2117,7 +2152,7 @@ this
 other
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -2129,6 +2164,11 @@ StringPiece
 other
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *

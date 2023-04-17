@@ -13642,7 +13642,7 @@ of
 all
 available
 converters
-contained
+contaied
 in
 the
 alias
@@ -13682,7 +13682,7 @@ TT
 0
 .
 .
-ucnv_countAvailable
+ucnv_countAvaiable
 (
 )
 ]

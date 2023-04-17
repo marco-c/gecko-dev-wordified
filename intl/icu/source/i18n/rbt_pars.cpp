@@ -7510,7 +7510,7 @@ of
 rule
 is
 a
-comment
+commnet
 }
 continue
 ;
@@ -8893,7 +8893,7 @@ FALSE
 .
 This
 is
-necessary
+neccesary
 to
 ensure
 that

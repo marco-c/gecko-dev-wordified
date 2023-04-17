@@ -1432,7 +1432,7 @@ return
 value
 int32_t
 or
-compatible
+comatible
 type
 .
 *

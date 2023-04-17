@@ -657,13 +657,6 @@ for
 backwards
 compatibility
 only
-and
-has
-much
-more
-limited
-*
-capabilities
 .
 *
 *

@@ -2976,7 +2976,7 @@ that
 pattern
 stored
 in
-currency
+currecy
 info
 .
 Internal

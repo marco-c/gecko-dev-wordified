@@ -573,7 +573,7 @@ is
 contained
 across
 buffer
-boundaries
+boundries
 works
 even
 for

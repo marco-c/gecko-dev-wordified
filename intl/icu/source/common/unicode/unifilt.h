@@ -452,9 +452,9 @@ conjunction
 with
 classes
 like
-*
 {
 link
+*
 Transliterator
 }
 to

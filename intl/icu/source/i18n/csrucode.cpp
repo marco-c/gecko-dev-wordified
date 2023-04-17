@@ -1142,7 +1142,7 @@ numInvalid
 /
 /
 Probably
-corrupt
+corruput
 UTF
 -
 32BE

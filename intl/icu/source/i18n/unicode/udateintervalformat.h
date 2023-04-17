@@ -1915,6 +1915,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -2000,7 +2003,7 @@ any
 errors
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -2111,7 +2114,7 @@ any
 errors
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -2139,6 +2142,13 @@ UErrorCode
 status
 )
 ;
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 #
 ifndef
 U_HIDE_DRAFT_API

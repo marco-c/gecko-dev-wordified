@@ -2227,7 +2227,7 @@ perform
 *
 a
 valid
-comparison
+comparision
 we
 need
 to
@@ -3620,7 +3620,7 @@ the
 vector
 assuming
 it
-contains
+constains
 ints
 .
 *

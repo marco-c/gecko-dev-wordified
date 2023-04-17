@@ -876,7 +876,7 @@ emptyString
 ;
 /
 /
-Mapping
+Mappping
 from
 source
 to

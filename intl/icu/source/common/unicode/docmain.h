@@ -173,8 +173,7 @@ documentation
 for
 Doxygen
 and
-does
-not
+doesnot
 have
 *
 any
@@ -961,16 +960,8 @@ h
 utf16
 .
 h
-icu
-:
-:
-StringPiece
 UText
 UCharIterator
-icu
-:
-:
-ByteSink
 <
 /
 td
@@ -1492,9 +1483,6 @@ tr
 td
 >
 Calendars
-and
-Time
-Zones
 <
 /
 td
@@ -1518,10 +1506,6 @@ icu
 :
 :
 Calendar
-icu
-:
-:
-TimeZone
 <
 /
 td

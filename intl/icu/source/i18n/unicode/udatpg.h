@@ -4782,6 +4782,9 @@ pLength
 if
 !
 UCONFIG_NO_FORMATTING
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -4866,7 +4869,7 @@ hour
 cycle
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -4885,6 +4888,13 @@ UErrorCode
 pErrorCode
 )
 ;
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 #
 endif
 /

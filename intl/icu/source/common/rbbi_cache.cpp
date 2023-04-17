@@ -1692,7 +1692,7 @@ position
 is
 between
 two
-boundaries
+bounaries
 .
 /
 /

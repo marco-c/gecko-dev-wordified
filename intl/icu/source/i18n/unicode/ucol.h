@@ -743,7 +743,7 @@ containing
 attribute
 values
 for
-controlling
+controling
 collation
 behavior
 .

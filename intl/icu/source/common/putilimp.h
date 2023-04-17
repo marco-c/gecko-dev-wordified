@@ -4172,7 +4172,7 @@ according
 to
 the
 machine
-architecture
+arcitecture
 (
 AS
 /

@@ -473,7 +473,7 @@ Unicode
 *
 If
 *
-codepage
+codepoge
 is
 NULL
 on

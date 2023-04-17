@@ -515,12 +515,12 @@ because
 the
 strings
 are
-indexed
+index
 at
 16
 -
 bit
-boundaries
+boundries
 by
 a
 16

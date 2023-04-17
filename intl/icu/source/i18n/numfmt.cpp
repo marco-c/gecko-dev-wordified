@@ -263,7 +263,7 @@ Enlarged
 MAX_INTEGER_DIGITS
 to
 fully
-accommodate
+accomodate
 the
 *
 largest

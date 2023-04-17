@@ -2748,7 +2748,7 @@ return
 Address
 the
 chunk
-containing
+containg
 the
 position
 preceding
@@ -6515,7 +6515,7 @@ bufNativeStart
 to
 /
 /
-corresponding
+correspoding
 offset
 in
 filled
@@ -11228,7 +11228,7 @@ native
 index
 to
 the
-corresponding
+corrsponding
 chunk
 offset
 /

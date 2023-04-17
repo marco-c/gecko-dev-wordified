@@ -2163,6 +2163,9 @@ UErrorCode
 ec
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -2537,6 +2540,11 @@ UErrorCode
 ec
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
