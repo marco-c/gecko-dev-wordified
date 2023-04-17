@@ -459,6 +459,25 @@ enabled
 False
         
 #
+Disable
+dialog
+abuse
+if
+alerts
+are
+triggered
+too
+quickly
+        
+"
+dom
+.
+successive_dialog_time_limit
+"
+:
+0
+        
+#
 Only
 load
 extensions
