@@ -7633,6 +7633,13 @@ TRR
 aTRRRequest
 )
 {
+{
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 /
 /
 Ignore
@@ -7715,13 +7722,6 @@ aTRRRequest
 ChannelStatus
 (
 )
-)
-;
-{
-MutexAutoLock
-lock
-(
-mLock
 )
 ;
 MOZ_ASSERT
