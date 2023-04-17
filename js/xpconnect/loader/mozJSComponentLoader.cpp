@@ -355,13 +355,6 @@ h
 #
 include
 "
-nsExceptionHandler
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h

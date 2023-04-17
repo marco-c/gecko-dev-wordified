@@ -531,13 +531,6 @@ h
 #
 include
 "
-nsExceptionHandler
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StaticPrefs_network
