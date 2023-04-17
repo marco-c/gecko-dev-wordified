@@ -3665,6 +3665,15 @@ setBigUint64
 \
 MACRO_
 (
+SetCanonicalName
+SetCanonicalName
+"
+_SetCanonicalName
+"
+)
+\
+MACRO_
+(
 SetConstructorInit
 SetConstructorInit
 "
