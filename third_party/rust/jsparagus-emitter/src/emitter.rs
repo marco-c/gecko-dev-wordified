@@ -2807,7 +2807,7 @@ new_object
 &
 mut
 self
-baseobj_index
+shape_index
 :
 GCThingIndex
 )
@@ -2826,7 +2826,7 @@ self
 .
 write_g_c_thing_index
 (
-baseobj_index
+shape_index
 )
 ;
 }
