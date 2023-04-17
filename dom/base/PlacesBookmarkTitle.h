@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-PlacesBookmark
+PlacesBookmarkChanged
 .
 h
 "
@@ -142,7 +142,7 @@ PlacesBookmarkTitle
 final
 :
 public
-PlacesBookmark
+PlacesBookmarkChanged
 {
 public
 :
@@ -151,7 +151,7 @@ PlacesBookmarkTitle
 (
 )
 :
-PlacesBookmark
+PlacesBookmarkChanged
 (
 PlacesEventType
 :
@@ -335,20 +335,8 @@ aTitle
 mTitle
 ;
 }
-uint64_t
-LastModified
-(
-)
-{
-return
-mLastModified
-;
-}
 nsString
 mTitle
-;
-uint64_t
-mLastModified
 ;
 private
 :
