@@ -1288,6 +1288,15 @@ return
 mSingleChannelId
 ;
 }
+uint16_t
+GetBFCacheStatus
+(
+)
+{
+return
+mBFCacheStatus
+;
+}
 protected
 :
 already_AddRefed
