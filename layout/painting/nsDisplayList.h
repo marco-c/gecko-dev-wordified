@@ -30622,12 +30622,6 @@ override
 ;
 private
 :
-nsRect
-GetInnerRect
-(
-)
-const
-;
 bool
 IsThemedOutline
 (

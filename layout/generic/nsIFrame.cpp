@@ -67513,10 +67513,11 @@ code
 in
 sync
 with
-nsDisplayOutline
-:
-:
-GetInnerRect
+GetOutlineInnerRect
+in
+nsCSSRendering
+.
+cpp
 .
 SetOrUpdateRectValuedProperty
 (

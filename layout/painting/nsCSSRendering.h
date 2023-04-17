@@ -1261,14 +1261,14 @@ Maybe
 <
 nsCSSBorderRenderer
 >
-CreateBorderRendererForNonThemedOutline
+CreateBorderRendererForOutline
 (
 nsPresContext
 *
 aPresContext
-DrawTarget
+gfxContext
 *
-aDrawTarget
+aRenderingContext
 nsIFrame
 *
 aForFrame
@@ -1279,7 +1279,7 @@ aDirtyRect
 const
 nsRect
 &
-aInnerRect
+aBorderArea
 mozilla
 :
 :
@@ -1466,6 +1466,7 @@ using
 css
 rendering
 rules
+*
 for
 borders
 .
@@ -1473,7 +1474,7 @@ borders
 /
 static
 void
-PaintNonThemedOutline
+PaintOutline
 (
 nsPresContext
 *
@@ -1491,7 +1492,7 @@ aDirtyRect
 const
 nsRect
 &
-aInnerRect
+aBorderArea
 mozilla
 :
 :
