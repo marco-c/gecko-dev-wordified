@@ -3,7 +3,7 @@
 See
 .
 /
-pinned_drop
+unsafe_unpin
 -
 expanded
 .
@@ -38,7 +38,7 @@ UnsafeUnpin
 ]
 pub
 struct
-Foo
+Struct
 <
 T
 U
@@ -65,7 +65,7 @@ U
 >
 UnsafeUnpin
 for
-Foo
+Struct
 <
 T
 U

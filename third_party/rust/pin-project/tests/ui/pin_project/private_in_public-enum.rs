@@ -24,6 +24,11 @@ Variant
 (
 PrivateEnum
 )
+/
+/
+~
+ERROR
+E0446
 }
 enum
 PrivateEnum
@@ -47,6 +52,11 @@ Variant
 (
 PrivateEnum
 )
+/
+/
+~
+ERROR
+E0446
 }
 enum
 PrivateEnum

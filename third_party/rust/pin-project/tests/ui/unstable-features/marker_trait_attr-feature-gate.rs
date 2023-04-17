@@ -43,7 +43,7 @@ pin_project
 ERROR
 E0119
 struct
-Foo
+Struct
 <
 T
 >
@@ -67,7 +67,7 @@ T
 >
 Unpin
 for
-Foo
+Struct
 <
 T
 >
@@ -93,7 +93,7 @@ is_unpin
 :
 :
 <
-Foo
+Struct
 <
 PhantomPinned
 >

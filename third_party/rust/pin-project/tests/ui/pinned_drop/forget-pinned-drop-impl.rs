@@ -16,7 +16,6 @@ PinnedDrop
 ~
 ERROR
 E0277
-pub
 struct
 Struct
 {

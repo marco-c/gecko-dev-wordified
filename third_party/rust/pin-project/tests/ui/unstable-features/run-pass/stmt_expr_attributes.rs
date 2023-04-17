@@ -22,6 +22,14 @@ the
 same
 time
 .
+#
+!
+[
+allow
+(
+deprecated
+)
+]
 /
 /
 proc_macro_hygiene
