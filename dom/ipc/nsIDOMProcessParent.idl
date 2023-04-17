@@ -314,6 +314,14 @@ ACString
 name
 )
 ;
+JSProcessActorParent
+getExistingActor
+(
+in
+ACString
+name
+)
+;
 /
 *
 *
