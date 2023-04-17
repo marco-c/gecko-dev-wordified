@@ -6749,7 +6749,8 @@ or
 /
 /
 Adwaita
-Dark
+-
+dark
 .
 g_object_set
 (
@@ -6771,7 +6772,8 @@ Adwaita
 :
 "
 Adwaita
-Dark
+-
+dark
 "
 nullptr
 )
