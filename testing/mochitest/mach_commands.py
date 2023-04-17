@@ -587,7 +587,7 @@ def
 run_desktop_test
 (
 self
-context
+command_context
 tests
 =
 None
@@ -1009,7 +1009,7 @@ def
 run_android_test
 (
 self
-context
+command_context
 tests
 *
 *
@@ -3399,17 +3399,13 @@ result
 =
 run_mochitest
 (
-                
 command_context
-.
-_mach_context
 tests
 =
 tests
 *
 *
 harness_args
-            
 )
             
 if
