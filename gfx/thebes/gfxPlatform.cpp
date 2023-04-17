@@ -12091,9 +12091,6 @@ aExplicitLanguage
 gfxTextPerfMetrics
 *
 aTextPerf
-FontMatchingStats
-*
-aFontMatchingStats
 gfxUserFontSet
 *
 aUserFontSet
@@ -12111,7 +12108,6 @@ aStyle
 aLanguage
 aExplicitLanguage
 aTextPerf
-aFontMatchingStats
 aUserFontSet
 aDevToCssSize
 )

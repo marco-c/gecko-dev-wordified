@@ -243,9 +243,6 @@ nsAtom
 struct
 nsBoundingMetrics
 ;
-struct
-FontMatchingStats
-;
 namespace
 mozilla
 {
@@ -502,12 +499,6 @@ nullptr
 gfxTextPerfMetrics
 *
 textPerf
-=
-nullptr
-;
-FontMatchingStats
-*
-fontStats
 =
 nullptr
 ;

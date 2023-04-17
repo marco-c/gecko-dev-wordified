@@ -1550,9 +1550,6 @@ aStyle
 FontVisibility
 *
 aVisibility
-FontMatchingStats
-*
-aFontMatchingStats
 )
 ;
 /
@@ -4533,9 +4530,6 @@ aCmapCount
 FontFamily
 &
 aMatchedFamily
-FontMatchingStats
-*
-aFontMatchingStats
 )
 ;
 /
