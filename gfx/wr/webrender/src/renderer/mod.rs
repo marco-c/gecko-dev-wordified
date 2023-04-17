@@ -1262,6 +1262,10 @@ collections
 :
 VecDeque
 f32
+ffi
+:
+:
+c_void
 mem
 num
 :
@@ -31304,6 +31308,11 @@ report_memory
 (
 &
 self
+swgl
+:
+*
+mut
+c_void
 )
 -
 >
@@ -31530,6 +31539,7 @@ as_ref
 unwrap
 (
 )
+swgl
 )
 ;
 report

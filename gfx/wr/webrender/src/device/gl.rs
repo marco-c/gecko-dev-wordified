@@ -24878,6 +24878,11 @@ size_op_funs
 :
 &
 MallocSizeOfOps
+swgl
+:
+*
+mut
+c_void
 )
 -
 >
@@ -24927,6 +24932,13 @@ sw_compositor
 "
 )
 ]
+if
+!
+swgl
+.
+is_null
+(
+)
 {
 report
 .
@@ -24939,6 +24951,11 @@ swgl
 Context
 :
 :
+from
+(
+swgl
+)
+.
 report_memory
 (
 size_op_funs
