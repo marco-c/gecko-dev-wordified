@@ -12919,6 +12919,15 @@ cx
 desc_
 )
 ;
+if
+(
+desc
+.
+hasValue
+(
+)
+)
+{
 /
 /
 Rewrap
@@ -12951,6 +12960,7 @@ value
 return
 false
 ;
+}
 }
 if
 (

@@ -205,6 +205,13 @@ const
 {
 if
 (
+desc
+.
+hasValue
+(
+)
+&
+&
 !
 AccessCheck
 :
