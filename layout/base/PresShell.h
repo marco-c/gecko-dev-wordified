@@ -7743,6 +7743,14 @@ PaintFlags
 aFlags
 )
 ;
+bool
+Composite
+(
+nsView
+*
+aViewToPaint
+)
+;
 /
 *
 *
