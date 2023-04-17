@@ -5529,6 +5529,12 @@ sSuppressNeutering
 =
 false
 ;
+#
+if
+defined
+(
+ACCESSIBILITY
+)
 static
 DWORD
 WaitForSingleObjectExWrapper
@@ -5616,12 +5622,6 @@ return
 WAIT_FAILED
 ;
 }
-#
-if
-defined
-(
-ACCESSIBILITY
-)
 bool
 MessageChannel
 :
