@@ -3998,9 +3998,11 @@ absolute
 ;
 }
 .
-webconsole
+jsterm
 -
-app
+input
+-
+container
 .
 CodeMirror
 -
