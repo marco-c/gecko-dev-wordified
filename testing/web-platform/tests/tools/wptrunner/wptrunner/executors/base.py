@@ -4500,6 +4500,26 @@ else
         
 self
 .
+output_handler_kwargs
+=
+None
+        
+self
+.
+output_handler_start_kwargs
+=
+None
+    
+def
+setup
+(
+self
+runner
+)
+:
+        
+self
+.
 protocol
 =
 self
@@ -4507,7 +4527,18 @@ self
 protocol_cls
 (
 self
+self
+.
 browser
+)
+        
+super
+(
+)
+.
+setup
+(
+runner
 )
     
 def
@@ -5144,6 +5175,22 @@ executor
 .
 environ
 )
+        
+self
+.
+output_handler_kwargs
+=
+executor
+.
+output_handler_kwargs
+        
+self
+.
+output_handler_start_kwargs
+=
+executor
+.
+output_handler_start_kwargs
     
 def
 connect
@@ -5208,6 +5255,18 @@ start
 block
 =
 False
+                          
+output_handler_kwargs
+=
+self
+.
+output_handler_kwargs
+                          
+output_handler_start_kwargs
+=
+self
+.
+output_handler_start_kwargs
 )
         
 self
