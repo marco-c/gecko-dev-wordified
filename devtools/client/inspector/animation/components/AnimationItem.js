@@ -223,13 +223,6 @@ PropTypes
 func
 .
 isRequired
-emitEventForTest
-:
-PropTypes
-.
-func
-.
-isRequired
 getAnimatedPropertyMap
 :
 PropTypes
@@ -441,7 +434,6 @@ const
 {
 animation
 dispatch
-emitEventForTest
 getAnimatedPropertyMap
 getNodeFromActor
 isDisplayable
@@ -503,7 +495,6 @@ AnimationTarget
 {
 animation
 dispatch
-emitEventForTest
 getNodeFromActor
 setHighlightedNode
 setSelectedNode
@@ -513,7 +504,6 @@ SummaryGraph
 (
 {
 animation
-emitEventForTest
 getAnimatedPropertyMap
 selectAnimation
 simulateAnimation

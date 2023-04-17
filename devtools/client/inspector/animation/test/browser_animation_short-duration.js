@@ -79,7 +79,8 @@ openAnimationInspector
 const
 animationItemEl
 =
-findAnimationItemElementsByTargetSelector
+await
+findAnimationItemByTargetSelector
 (
 panel
 "

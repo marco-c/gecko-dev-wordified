@@ -188,13 +188,6 @@ PropTypes
 object
 .
 isRequired
-emitEventForTest
-:
-PropTypes
-.
-func
-.
-isRequired
 getAnimatedPropertyMap
 :
 PropTypes
@@ -256,7 +249,6 @@ const
 animations
 dispatch
 displayableRange
-emitEventForTest
 getAnimatedPropertyMap
 getNodeFromActor
 selectAnimation
@@ -307,7 +299,6 @@ AnimationItem
 {
 animation
 dispatch
-emitEventForTest
 getAnimatedPropertyMap
 getNodeFromActor
 isDisplayable
