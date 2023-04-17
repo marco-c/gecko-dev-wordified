@@ -512,11 +512,6 @@ environment
 "
 devtools
 -
-splitter
-"
-"
-devtools
--
 utils
 "
 "
