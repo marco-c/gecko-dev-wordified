@@ -9374,6 +9374,9 @@ snapshotContext
 target
 rect
 background
+resetScrollPosition
+=
+false
 )
 {
 let
@@ -9398,6 +9401,7 @@ Snapshot
 browsingContext
 rect
 background
+resetScrollPosition
 }
 )
 .

@@ -279,6 +279,12 @@ rect
 =
 rectangle
 ;
+options
+.
+resetScrollPosition
+=
+true
+;
 /
 /
 To
