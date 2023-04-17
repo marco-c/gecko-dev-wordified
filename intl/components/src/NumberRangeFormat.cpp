@@ -155,7 +155,7 @@ std
 string_view
 aLocale
 const
-NumberFormatOptions
+NumberRangeFormatOptions
 &
 aOptions
 )
@@ -239,7 +239,7 @@ std
 string_view
 aLocale
 const
-NumberFormatOptions
+NumberRangeFormatOptions
 &
 aOptions
 )
@@ -257,6 +257,12 @@ skeleton
 toRangeFormatter
 (
 aLocale
+aOptions
+.
+mRangeCollapse
+aOptions
+.
+mRangeIdentityFallback
 )
 ;
 if

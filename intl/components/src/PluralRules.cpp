@@ -293,7 +293,7 @@ TryCreate
 aLocale
 aOptions
 .
-ToNumberFormatOptions
+ToNumberRangeFormatOptions
 (
 )
 )
