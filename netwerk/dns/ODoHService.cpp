@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsICancelable
+.
+h
+"
+#
+include
+"
 nsIDNSService
 .
 h
