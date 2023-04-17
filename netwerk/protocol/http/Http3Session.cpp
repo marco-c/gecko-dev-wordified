@@ -2802,7 +2802,7 @@ this
 )
 )
 ;
-continue
+break
 ;
 }
 stream
