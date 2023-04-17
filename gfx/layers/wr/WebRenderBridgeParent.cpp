@@ -2239,6 +2239,10 @@ UpdateProfilerUI
 (
 )
 ;
+UpdateParameters
+(
+)
+;
 }
 WebRenderBridgeParent
 :
