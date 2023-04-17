@@ -41448,6 +41448,9 @@ aFlags
 void
 Collect3DTransformLeaves
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsTArray
 <
 nsDisplayTransform
@@ -43432,11 +43435,16 @@ GetNextItem
 (
 )
 {
-MOZ_ASSERT
+if
 (
+!
 mNext
 )
+{
+return
+nullptr
 ;
+}
 nsDisplayItem
 *
 next
