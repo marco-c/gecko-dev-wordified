@@ -964,7 +964,7 @@ SetExceptionInformation
 (
 int
 type
-int
+int64_t
 code
 int64_t
 subcode
@@ -1547,7 +1547,7 @@ information
 int
 exception_type_
 ;
-int
+int64_t
 exception_code_
 ;
 int64_t
