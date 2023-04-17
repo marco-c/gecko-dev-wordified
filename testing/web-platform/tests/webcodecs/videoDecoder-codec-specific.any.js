@@ -80,10 +80,10 @@ codedHeight
 visibleRect
 :
 {
-left
+x
 :
 0
-top
+y
 :
 0
 width
@@ -214,10 +214,10 @@ codedHeight
 visibleRect
 :
 {
-left
+x
 :
 0
-top
+y
 :
 0
 width
