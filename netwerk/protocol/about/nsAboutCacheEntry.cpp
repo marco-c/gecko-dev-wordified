@@ -2037,9 +2037,6 @@ OnCacheEntryCheck
 nsICacheEntry
 *
 aEntry
-nsIApplicationCache
-*
-aApplicationCache
 uint32_t
 *
 result
@@ -2071,9 +2068,6 @@ nsICacheEntry
 entry
 bool
 isNew
-nsIApplicationCache
-*
-aApplicationCache
 nsresult
 status
 )

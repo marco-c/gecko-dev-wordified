@@ -2726,7 +2726,6 @@ checkCacheListener
 onCacheEntryCheck
 (
 entry
-appCache
 )
 {
 return
@@ -2741,7 +2740,6 @@ onCacheEntryAvailable
 (
 entry
 isNew
-appCache
 status
 )
 {

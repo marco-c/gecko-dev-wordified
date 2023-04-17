@@ -200,7 +200,6 @@ function
 (
 desc
 isnew
-applicationCache
 status
 )
 {
@@ -1207,7 +1206,6 @@ function
 (
 entry
 isnew
-applicationCache
 status
 )
 {

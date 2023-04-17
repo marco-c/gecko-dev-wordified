@@ -160,7 +160,6 @@ onCacheEntryAvailable
 (
 entry
 true
-null
 Cr
 .
 NS_OK

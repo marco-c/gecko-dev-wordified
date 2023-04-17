@@ -990,7 +990,6 @@ storeCacheListener
 onCacheEntryCheck
 (
 entry
-appcache
 )
 {
 return
@@ -1005,7 +1004,6 @@ onCacheEntryAvailable
 (
 entry
 isnew
-appcache
 status
 )
 {
@@ -1199,7 +1197,6 @@ onCacheEntryAvailable
 (
 entry
 isnew
-appcache
 status
 )
 {

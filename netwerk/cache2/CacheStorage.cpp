@@ -270,7 +270,6 @@ OnCacheEntryAvailable
 (
 nullptr
 false
-nullptr
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -311,7 +310,6 @@ OnCacheEntryAvailable
 (
 nullptr
 false
-nullptr
 NS_ERROR_NOT_AVAILABLE
 )
 ;

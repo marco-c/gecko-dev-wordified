@@ -765,7 +765,6 @@ nsICacheEntryOpenCallback
 onCacheEntryCheck
 (
 entry
-appCache
 )
 {
 LOG_C2
@@ -1070,7 +1069,6 @@ onCacheEntryAvailable
 (
 entry
 isnew
-appCache
 status
 )
 {

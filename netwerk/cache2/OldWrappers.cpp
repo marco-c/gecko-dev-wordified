@@ -4083,7 +4083,6 @@ OnCacheEntryAvailable
 (
 entry
 mNew
-mAppCache
 mStatus
 )
 ;
@@ -4361,7 +4360,6 @@ mCallback
 OnCacheEntryCheck
 (
 mCacheEntry
-mAppCache
 &
 result
 )
