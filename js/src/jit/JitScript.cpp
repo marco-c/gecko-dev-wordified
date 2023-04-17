@@ -2649,6 +2649,10 @@ reset
 (
 )
 ;
+hasPurgedStubs_
+=
+true
+;
 #
 endif
 }

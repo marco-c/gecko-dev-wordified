@@ -1284,9 +1284,15 @@ ignore
 cases
 involving
 OOM
-or
 stack
 overflow
+or
+/
+/
+stubs
+purged
+by
+GC
 .
 HashNumber
 hash
