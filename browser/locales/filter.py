@@ -136,14 +136,6 @@ browser
 /
 extensions
 /
-fxmonitor
-"
-        
-"
-browser
-/
-extensions
-/
 report
 -
 site
