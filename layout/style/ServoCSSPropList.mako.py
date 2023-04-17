@@ -770,6 +770,22 @@ prop
 :
     
 if
+"
+Style
+"
+not
+in
+prop
+.
+rule_types_allowed_names
+(
+)
+:
+        
+return
+False
+    
+if
 prop
 .
 type
