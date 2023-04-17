@@ -290,12 +290,19 @@ self
         
 return
 "
-\
-n
 "
 .
 join
 (
+line
++
+"
+\
+n
+"
+for
+line
+in
 self
 .
 _lines
