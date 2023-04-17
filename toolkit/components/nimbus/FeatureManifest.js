@@ -1176,9 +1176,6 @@ values
 are
 :
 top
-below
--
-search
 bottom
 .
 Default
