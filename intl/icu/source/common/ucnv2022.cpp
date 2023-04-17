@@ -6435,7 +6435,7 @@ escape
 sequence
 -
 codepage
-correspondance
+correspondence
 *
 /
 static
@@ -10888,7 +10888,7 @@ ISO
 -
 7
 :
-alisas
+alias
 to
 ibm
 -
@@ -17029,7 +17029,7 @@ file
 *
 at
 the
-begining
+beginning
 of
 a
 line

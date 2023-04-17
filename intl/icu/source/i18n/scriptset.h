@@ -653,7 +653,7 @@ least
 one
 script
 in
-commmon
+common
 .
 UBool
 contains

@@ -2245,7 +2245,7 @@ of
 /
 *
 the
-correspnding
+corresponding
 bit
 in
 newstatus

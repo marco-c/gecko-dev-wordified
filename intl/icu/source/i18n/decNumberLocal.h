@@ -2079,7 +2079,7 @@ uInt
 *
 Definitions
 for
-arbitary
+arbitrary
 -
 precision
 modules

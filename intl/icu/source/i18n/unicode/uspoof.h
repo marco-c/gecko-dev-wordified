@@ -4756,7 +4756,7 @@ Enable
 the
 return
 of
-auxillary
+auxiliary
 (
 non
 -

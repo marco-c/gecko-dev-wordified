@@ -505,9 +505,6 @@ n
 =
 0
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -606,7 +603,7 @@ non
 -
 negative
 *
-draft
+stable
 ICU
 67
 *
@@ -747,7 +744,7 @@ non
 -
 negative
 *
-draft
+stable
 ICU
 67
 *
@@ -781,11 +778,6 @@ n
 }
 #
 endif
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

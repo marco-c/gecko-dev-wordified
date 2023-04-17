@@ -1882,7 +1882,7 @@ Test
 only
 the
 specified
-fucntion
+function
 for
 (
 int

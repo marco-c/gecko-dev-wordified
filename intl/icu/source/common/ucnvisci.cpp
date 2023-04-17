@@ -8491,7 +8491,7 @@ Make
 sure
 Tippi
 is
-converterd
+converted
 to
 Bindi
 .
@@ -9571,7 +9571,7 @@ currentMaskToUnicode
 Vocallic
 RR
 is
-assigne
+assigned
 in
 ISCII
 Telugu
@@ -10555,7 +10555,7 @@ targetUniChar
 replace
 with
 space
-accoding
+according
 to
 Indic
 FAQ

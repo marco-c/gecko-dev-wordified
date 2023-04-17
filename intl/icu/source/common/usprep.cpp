@@ -3593,7 +3593,7 @@ consume
 the
 codepoint
 and
-contine
+continue
 continue
 ;
 }

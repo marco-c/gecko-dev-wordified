@@ -3646,7 +3646,7 @@ if
 at
 the
 *
-begining
+beginning
 of
 buffer
 and
@@ -3697,7 +3697,7 @@ if
 not
 at
 the
-begining
+beginning
 of
 buffer
 *
@@ -4988,7 +4988,7 @@ NULL
 /
 *
 *
-Accoding
+According
 to
 TR
 13

@@ -6234,7 +6234,7 @@ printable
 US
 -
 ASCII
-chararacters
+characters
 can
 be
 *

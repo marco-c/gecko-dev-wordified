@@ -2183,7 +2183,7 @@ NULL
 /
 the
 first
-calender
+calendar
 type
 is
 the
@@ -17302,7 +17302,7 @@ start
 millis
 .
 This
-accomodates
+accommodates
 /
 /
 operations

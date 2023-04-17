@@ -849,7 +849,7 @@ skipping
 over
 them
 specifically
-occcurences
+occurrences
 /
 /
 of
@@ -2386,7 +2386,7 @@ regex
 that
 parsed
 the
-attribue
+attribute
 which
 couldn
 '
@@ -4044,7 +4044,7 @@ regex
 that
 parsed
 the
-attribue
+attribute
 which
 couldn
 '
@@ -5297,7 +5297,7 @@ fNames
 puti
 (
 s
-0
+1
 errorCode
 )
 ;

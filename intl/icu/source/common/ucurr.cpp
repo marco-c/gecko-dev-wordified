@@ -5853,7 +5853,7 @@ a
 endif
 /
 /
-Comparason
+Comparison
 function
 used
 in
@@ -10820,7 +10820,7 @@ case
 in
 -
 sensitive
-comparision
+comparison
 against
 currency
 names
