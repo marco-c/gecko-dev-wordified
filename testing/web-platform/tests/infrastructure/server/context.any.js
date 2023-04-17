@@ -8,6 +8,15 @@ window
 dedicatedworker
 sharedworker
 serviceworker
+dedicatedworker
+-
+module
+sharedworker
+-
+module
+serviceworker
+-
+module
 test
 (
 t

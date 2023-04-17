@@ -1036,6 +1036,16 @@ in
 self
 .
 _flags
+or
+"
+serviceworker
+-
+module
+"
+in
+self
+.
+_flags
     
 property
     
