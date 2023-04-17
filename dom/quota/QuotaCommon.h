@@ -5418,7 +5418,7 @@ details
 of
 QM_WARNONLY_TRY
 /
-QM_NOTEONLY_TRY
+QM_INFOONLY_TRY
 and
 /
 /
@@ -5441,7 +5441,7 @@ only
 a
 warning
 /
-note
+info
 is
 reported
 .
@@ -5868,7 +5868,7 @@ __VA_ARGS__
 *
 *
 *
-QM_NOTEONLY_TRY
+QM_INFOONLY_TRY
 is
 like
 QM_WARNONLY_TRY
@@ -5900,7 +5900,7 @@ QM_WARNONLY_TRY
 /
 #
 define
-QM_NOTEONLY_TRY
+QM_INFOONLY_TRY
 (
 .
 .
@@ -5908,7 +5908,7 @@ QM_NOTEONLY_TRY
 )
 QM_REPORTONLY_TRY_GLUE
 (
-Note
+Info
 __VA_ARGS__
 )
 /
@@ -5927,7 +5927,7 @@ of
 /
 QM_WARNONLY_TRY_UNWRAP
 /
-QM_NOTEONLY_TRY_UNWRAP
+QM_INFOONLY_TRY_UNWRAP
 and
 shouldn
 '
@@ -5950,7 +5950,7 @@ only
 a
 warning
 /
-note
+info
 is
 reported
 .
@@ -6391,10 +6391,10 @@ sense
 *
 *
 *
-QM_NOTEONLY_TRY_UNWRAP
+QM_INFOONLY_TRY_UNWRAP
 is
 like
-QM_WARN_CHECK_UNWRAP
+QM_WARNONLY_TRY_UNWRAP
 .
 The
 only
@@ -6417,13 +6417,13 @@ to
 failures
 reported
 by
-QM_WARN_CHECK_UNWRAP
+QM_WARNONLY_TRY_UNWRAP
 .
 *
 /
 #
 define
-QM_NOTEONLY_TRY_UNWRAP
+QM_INFOONLY_TRY_UNWRAP
 (
 .
 .
@@ -6432,12 +6432,12 @@ QM_NOTEONLY_TRY_UNWRAP
 \
 QM_REPORTONLY_TRY_ASSIGN_GLUE
 (
-Note
+Info
 __VA_ARGS__
 )
 /
 /
-QM_NOTEONLY_TRY_INSPECT
+QM_INFOONLY_TRY_INSPECT
 doesn
 '
 t
@@ -6457,7 +6457,7 @@ of
 /
 QM_OR_ELSE_WARN
 /
-QM_OR_ELSE_NOTE
+QM_OR_ELSE_INFO
 /
 QM_OR_ELSE_LOG_VERBOSE
 and
@@ -6658,7 +6658,7 @@ __VA_ARGS__
 *
 *
 *
-QM_OR_ELSE_NOTE
+QM_OR_ELSE_INFO
 is
 like
 QM_OR_ELSE_WARN
@@ -6690,7 +6690,7 @@ QM_OR_ELSE_WARN
 /
 #
 define
-QM_OR_ELSE_NOTE
+QM_OR_ELSE_INFO
 (
 .
 .
@@ -6698,7 +6698,7 @@ QM_OR_ELSE_NOTE
 )
 QM_OR_ELSE_REPORT
 (
-Note
+Info
 __VA_ARGS__
 )
 /
@@ -6949,7 +6949,7 @@ of
 /
 QM_OR_ELSE_WARN_IF
 /
-QM_OR_ELSE_NOTE_IF
+QM_OR_ELSE_INFO_IF
 /
 QM_OR_ELSE_LOG_VERBOSE_IF
 and
@@ -7230,7 +7230,7 @@ __VA_ARGS__
 *
 *
 *
-QM_OR_ELSE_NOTE_IF
+QM_OR_ELSE_INFO_IF
 is
 like
 QM_OR_ELSE_WARN_IF
@@ -7262,7 +7262,7 @@ QM_OR_ELSE_WARN_IF
 /
 #
 define
-QM_OR_ELSE_NOTE_IF
+QM_OR_ELSE_INFO_IF
 (
 .
 .
@@ -7270,7 +7270,7 @@ QM_OR_ELSE_NOTE_IF
 )
 QM_OR_ELSE_REPORT_IF
 (
-Note
+Info
 __VA_ARGS__
 )
 /
@@ -9680,7 +9680,7 @@ Severity
 {
 Error
 Warning
-Note
+Info
 Verbose
 }
 ;
