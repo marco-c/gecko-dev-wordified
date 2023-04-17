@@ -7286,6 +7286,9 @@ Length
 fantasy
 :
 Length
+system_ui
+:
+Length
 }
 impl
 DefaultFontSizes
@@ -7360,6 +7363,15 @@ Fantasy
 self
 .
 fantasy
+GenericFontFamily
+:
+:
+SystemUi
+=
+>
+self
+.
+system_ui
 GenericFontFamily
 :
 :
