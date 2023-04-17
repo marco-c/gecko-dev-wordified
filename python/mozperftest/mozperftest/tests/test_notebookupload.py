@@ -121,9 +121,7 @@ metadata
 .
 add_result
 (
-        
 {
-            
 "
 results
 "
@@ -132,7 +130,6 @@ str
 (
 BT_DATA
 )
-            
 "
 name
 "
@@ -140,21 +137,7 @@ name
 "
 browsertime
 "
-            
-"
-binary
-"
-:
-"
-example
--
-path
-/
-firefox
-"
-        
 }
-    
 )
     
 return

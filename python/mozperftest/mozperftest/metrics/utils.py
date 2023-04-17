@@ -187,37 +187,25 @@ set
     
 set
 (
-        
 [
-            
 "
 results
 "
-            
 "
 transformer
 "
-            
 "
 transformer
 -
 options
 "
-            
 "
 extraOptions
 "
-            
 "
 framework
 "
-            
-"
-binary
-"
-        
 ]
-    
 )
     
 |
