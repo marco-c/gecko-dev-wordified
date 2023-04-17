@@ -878,7 +878,7 @@ results
 ]
 .
 column
-=
+>
 =
 9
     
@@ -1059,7 +1059,7 @@ results
 ]
 .
 column
-=
+>
 =
 9
     
