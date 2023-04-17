@@ -2407,8 +2407,7 @@ to
 allow
 it
 .
-No
-use
+Uses
 of
 check_prog
 #
@@ -5892,6 +5891,11 @@ makensis
 "
 makensis
 "
+"
+makensis
+.
+exe
+"
 ]
 #
 Look
@@ -6003,6 +6007,13 @@ check_prog
 MAKENSISU
 "
 makensis_progs
+bootstrap
+=
+"
+nsis
+/
+bin
+"
 allow_missing
 =
 True
