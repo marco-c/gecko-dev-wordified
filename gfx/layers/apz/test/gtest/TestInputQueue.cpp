@@ -191,15 +191,6 @@ UpdateHitTestingTree
 (
 )
 ;
-WebRenderLayerScrollData
-*
-root
-=
-scrollData
-[
-0
-]
-;
 RefPtr
 <
 TestAsyncPanZoomController

@@ -411,7 +411,7 @@ i
 ;
 i
 <
-scrollData
+layers
 .
 GetLayerCount
 (
@@ -430,7 +430,7 @@ apzc
 =
 ApzcOf
 (
-scrollData
+layers
 [
 i
 ]
@@ -516,7 +516,7 @@ GetScrollMetadataMut
 (
 *
 aLayer
-scrollData
+layers
 0
 )
 ;
@@ -563,7 +563,7 @@ WebRenderScrollDataWrapper
 *
 updater
 &
-scrollData
+layers
 }
 /
 *
@@ -606,7 +606,7 @@ aTransforms
 nullptr
 )
 {
-scrollData
+layers
 =
 TestWRScrollData
 :
@@ -619,6 +619,13 @@ updater
 aVisibleRegions
 aTransforms
 )
+;
+root
+=
+layers
+[
+0
+]
 ;
 }
 RefPtr
@@ -640,7 +647,13 @@ APZUpdater
 updater
 ;
 TestWRScrollData
-scrollData
+layers
+;
+WebRenderLayerScrollData
+*
+root
+=
+nullptr
 ;
 SCOPED_GFX_VAR_MAYBE_TYPE
 (
@@ -806,7 +819,7 @@ aLayer
 >
 GetScrollMetadata
 (
-scrollData
+layers
 0
 )
 .
@@ -1022,7 +1035,7 @@ aLayer
 >
 AppendScrollMetadata
 (
-scrollData
+layers
 aMetadata
 )
 ;
@@ -1143,7 +1156,7 @@ aLayer
 >
 AppendScrollMetadata
 (
-scrollData
+layers
 metadata
 )
 ;
@@ -1278,7 +1291,7 @@ aLayer
 >
 GetScrollMetadata
 (
-scrollData
+layers
 i
 )
 .
@@ -1334,7 +1347,7 @@ aParent
 >
 GetScrollMetadata
 (
-scrollData
+layers
 0
 )
 .
@@ -1444,7 +1457,7 @@ aLayer
 >
 GetScrollMetadata
 (
-scrollData
+layers
 aIndex
 )
 .
@@ -1509,7 +1522,7 @@ layerVisibleRegion
 ;
 SetScrollableFrameMetrics
 (
-scrollData
+layers
 [
 0
 ]
