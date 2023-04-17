@@ -1366,13 +1366,6 @@ namespace
 mozilla
 :
 :
-docshell
-;
-using
-namespace
-mozilla
-:
-:
 widget
 ;
 using
