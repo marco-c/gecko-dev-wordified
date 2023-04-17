@@ -306,8 +306,6 @@ prettier
 )
 "
 prettier
-/
-react
 "
 /
 /

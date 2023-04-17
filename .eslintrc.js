@@ -505,8 +505,10 @@ parser
 :
 "
 babel
--
+/
 eslint
+-
+parser
 "
 parserOptions
 :
