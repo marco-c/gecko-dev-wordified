@@ -1710,7 +1710,7 @@ name
 )
 ;
 }
-NameLocation
+bool
 BytecodeEmitter
 :
 :
@@ -1718,6 +1718,9 @@ lookupPrivate
 (
 TaggedParserAtomIndex
 name
+NameLocation
+&
+loc
 Maybe
 <
 NameLocation
@@ -1736,6 +1739,7 @@ lookupPrivate
 (
 this
 name
+loc
 brandLoc
 )
 ;
