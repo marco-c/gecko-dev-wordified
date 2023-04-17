@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 {
 memchr
 memchr2
@@ -297,6 +300,10 @@ u8
 -
 >
 Memchr
+<
+'
+_
+>
 {
 Memchr
 {
@@ -544,6 +551,10 @@ u8
 -
 >
 Memchr2
+<
+'
+_
+>
 {
 Memchr2
 {
@@ -806,6 +817,10 @@ u8
 -
 >
 Memchr3
+<
+'
+_
+>
 {
 Memchr3
 {
