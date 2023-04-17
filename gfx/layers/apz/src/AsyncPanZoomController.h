@@ -11745,6 +11745,16 @@ IsOverscrolled
 )
 const
 ;
+private
+:
+bool
+IsInInvalidOverscroll
+(
+)
+const
+;
+public
+:
 bool
 IsInPanningState
 (
