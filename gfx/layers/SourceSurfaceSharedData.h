@@ -673,7 +673,7 @@ GetDataLength
 )
 ;
 }
-void
+bool
 EnsureMapped
 (
 size_t
