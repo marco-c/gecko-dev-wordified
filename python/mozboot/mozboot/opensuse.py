@@ -389,8 +389,6 @@ self
 :
         
 self
-.
-run_as_root
 (
 [
 "
@@ -407,12 +405,15 @@ upgrade
 "
 pip
 "
+"
+-
+-
+user
+"
 ]
 )
         
 self
-.
-run_as_root
 (
 [
 "
@@ -428,6 +429,11 @@ upgrade
 "
 "
 Mercurial
+"
+"
+-
+-
+user
 "
 ]
 )
@@ -710,8 +716,6 @@ current
 :
         
 self
-.
-run_as_root
 (
 [
 "
@@ -728,12 +732,15 @@ upgrade
 "
 pip
 "
+"
+-
+-
+user
+"
 ]
 )
         
 self
-.
-run_as_root
 (
 [
 "
@@ -749,6 +756,11 @@ upgrade
 "
 "
 Mercurial
+"
+"
+-
+-
+user
 "
 ]
 )
