@@ -4155,7 +4155,7 @@ txNodeTest
 {
 public
 :
-nsresult
+void
 addNodeTest
 (
 txNodeTest
@@ -4169,9 +4169,6 @@ AppendElement
 (
 aNodeTest
 )
-;
-return
-NS_OK
 ;
 }
 TX_DECL_NODE_TEST
