@@ -3059,6 +3059,14 @@ ToResolvedValue
 ToShmem
 )
 ]
+#
+[
+repr
+(
+C
+u8
+)
+]
 pub
 enum
 TimelineOrKeyframesName

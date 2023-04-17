@@ -7882,6 +7882,9 @@ float
 )
 means
 infinite
+StyleAnimationTimeline
+mTimeline
+;
 }
 ;
 }
@@ -8065,6 +8068,9 @@ mAnimationPlayStateCount
 ;
 uint32_t
 mAnimationIterationCountCount
+;
+uint32_t
+mAnimationTimelineCount
 ;
 mozilla
 :
