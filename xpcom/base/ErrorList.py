@@ -8440,26 +8440,6 @@ NOQA
 :
 E501
     
-errors
-[
-        
-"
-NS_ERROR_DOM_INVALID_ACCESS_XHR_TIMEOUT_AND_RESPONSETYPE_UNSUPPORTED_FOR_SYNC
-"
-    
-]
-=
-FAILURE
-(
-        
-1025
-    
-)
-#
-NOQA
-:
-E501
-    
 #
 When
 manipulating
