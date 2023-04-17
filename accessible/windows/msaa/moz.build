@@ -184,11 +184,6 @@ HTMLTableAccessibleWrap
 cpp
 "
 "
-HTMLWin32ObjectAccessible
-.
-cpp
-"
-"
 HyperTextAccessibleWrap
 .
 cpp

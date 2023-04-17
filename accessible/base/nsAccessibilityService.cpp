@@ -377,13 +377,6 @@ h
 #
 include
 "
-HTMLWin32ObjectAccessible
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StaticPtr
