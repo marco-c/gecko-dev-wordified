@@ -145,12 +145,6 @@ use
 crate
 :
 :
-error_here
-;
-use
-crate
-:
-:
 error
 :
 :
@@ -158,6 +152,12 @@ error
 Error
 ErrorType
 }
+;
+use
+crate
+:
+:
+error_here
 ;
 use
 crate
