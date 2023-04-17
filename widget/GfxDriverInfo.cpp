@@ -4574,6 +4574,14 @@ APPEND_DEVICE
 ;
 /
 /
+Cezanne
+APPEND_DEVICE
+(
+0x1638
+)
+;
+/
+/
 Evergreen
 APPEND_RANGE
 (
