@@ -13802,6 +13802,11 @@ MozDragOver
 NonTSPseudoClass
 :
 :
+MozDevtoolsHighlighted
+|
+NonTSPseudoClass
+:
+:
 MozStyleeditorTransitioning
 |
 NonTSPseudoClass
