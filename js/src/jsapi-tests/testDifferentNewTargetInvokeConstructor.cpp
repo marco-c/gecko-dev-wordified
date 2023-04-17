@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 CallAndConstruct

@@ -41,6 +41,15 @@ NewArrayObject
 #
 include
 "
+js
+/
+ValueArray
+.
+h
+"
+#
+include
+"
 vm
 /
 JSFunction

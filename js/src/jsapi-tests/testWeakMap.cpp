@@ -150,6 +150,15 @@ JS_DefineProperty
 #
 include
 "
+js
+/
+WeakMap
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

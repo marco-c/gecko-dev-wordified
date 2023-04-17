@@ -159,6 +159,15 @@ h
 #
 include
 "
+js
+/
+WeakMap
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

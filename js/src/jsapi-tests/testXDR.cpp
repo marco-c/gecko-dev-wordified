@@ -126,13 +126,6 @@ Utf8Unit
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 js
 /
 BuildId

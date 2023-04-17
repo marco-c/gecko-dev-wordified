@@ -56,13 +56,6 @@ tw
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 js
 /
 ArrayBuffer

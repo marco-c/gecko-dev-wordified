@@ -82,13 +82,6 @@ cstring
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 js
 /
 CharacterEncoding
