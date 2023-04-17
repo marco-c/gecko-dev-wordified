@@ -397,6 +397,14 @@ should_snap
 :
 false
 }
+SpatialTreeItemKey
+:
+:
+new
+(
+0
+0
+)
 )
 ;
 builder
