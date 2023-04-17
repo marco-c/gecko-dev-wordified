@@ -35,7 +35,7 @@ faster
 .
 requestLongerTimeout
 (
-4
+6
 )
 ;
 const
