@@ -486,6 +486,17 @@ SDK
 and
 NDK
 .
+        
+"
+libncurses5
+"
+#
+For
+native
+debugging
+in
+Android
+Studio
     
 ]
     
