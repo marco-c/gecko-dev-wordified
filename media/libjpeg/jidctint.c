@@ -37,7 +37,7 @@ Modification
 developed
 2002
 -
-2009
+2018
 by
 Guido
 Vollbeding
@@ -3966,6 +3966,9 @@ coefficients
 *
 producing
 a
+reduced
+-
+size
 7x7
 output
 block
@@ -11445,7 +11448,7 @@ of
 coefficients
 *
 producing
-a
+an
 11x11
 output
 block
@@ -23264,7 +23267,7 @@ descale
 tmp0
 +
 =
-1
+ONE
 <
 <
 (

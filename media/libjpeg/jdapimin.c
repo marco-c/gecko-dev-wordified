@@ -188,6 +188,13 @@ jdmaster
 .
 h
 "
+#
+include
+"
+jconfigint
+.
+h
+"
 /
 *
 *
@@ -2078,6 +2085,7 @@ global_state
 =
 DSTATE_INHEADER
 ;
+FALLTHROUGH
 /
 *
 FALLTHROUGH

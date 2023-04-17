@@ -149,6 +149,13 @@ jdmainct
 .
 h
 "
+#
+include
+"
+jconfigint
+.
+h
+"
 /
 *
 *
@@ -3123,6 +3130,7 @@ output
 buf
 *
 /
+FALLTHROUGH
 /
 *
 FALLTHROUGH
@@ -3228,6 +3236,7 @@ context_state
 =
 CTX_PROCESS_IMCU
 ;
+FALLTHROUGH
 /
 *
 FALLTHROUGH

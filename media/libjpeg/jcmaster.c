@@ -3813,6 +3813,7 @@ pass_number
 ;
 #
 endif
+FALLTHROUGH
 /
 *
 FALLTHROUGH
