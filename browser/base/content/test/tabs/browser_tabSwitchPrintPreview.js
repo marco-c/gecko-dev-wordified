@@ -165,7 +165,7 @@ selectedTab
 tab
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -293,7 +293,7 @@ exitPrintPreview
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
