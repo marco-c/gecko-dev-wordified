@@ -17322,12 +17322,11 @@ ALERT
 &
 &
 !
-nsCoreUtils
-:
-:
+mDocumentNode
+-
+>
 IsContentDocument
 (
-mDocumentNode
 )
 )
 )

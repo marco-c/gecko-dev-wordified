@@ -1858,12 +1858,11 @@ aStatus
 |
 |
 !
-nsCoreUtils
-:
-:
+document
+-
+>
 IsContentDocument
 (
-document
 )
 )
 {

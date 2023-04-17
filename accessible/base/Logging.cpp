@@ -977,12 +977,11 @@ IsActive
 bool
 isContent
 =
-nsCoreUtils
-:
-:
+aDocumentNode
+-
+>
 IsContentDocument
 (
-aDocumentNode
 )
 ;
 printf
