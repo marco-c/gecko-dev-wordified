@@ -385,16 +385,6 @@ USE_LIBS
 jsoncpp
 "
 ]
-TEST_DIRS
-+
-=
-[
-"
-parse
--
-ftp
-"
-]
 LOCAL_INCLUDES
 +
 =

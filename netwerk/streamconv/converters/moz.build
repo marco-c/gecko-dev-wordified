@@ -130,11 +130,6 @@ nsDirIndexParser
 cpp
 "
 "
-nsFTPDirListingConv
-.
-cpp
-"
-"
 nsHTTPCompressConv
 .
 cpp
@@ -151,11 +146,6 @@ cpp
 "
 "
 nsUnknownDecoder
-.
-cpp
-"
-"
-ParseFTPList
 .
 cpp
 "

@@ -206,6 +206,15 @@ nsIRequest
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
 /
 /
 brotli
