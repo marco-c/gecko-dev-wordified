@@ -412,9 +412,9 @@ fallbackPref
 "
 browser
 .
-proton
+aboutwelcome
 .
-enabled
+protonDesign
 "
 }
 skipFocus
