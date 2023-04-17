@@ -1534,14 +1534,6 @@ ShouldBlink
 void
 StartBlinking
 (
-mozilla
-:
-:
-WidgetGUIEvent
-*
-aEvent
-bool
-aFlipChecked
 )
 ;
 void
@@ -1558,8 +1550,6 @@ mozilla
 WidgetGUIEvent
 *
 aEvent
-bool
-aFlipChecked
 )
 ;
 void
