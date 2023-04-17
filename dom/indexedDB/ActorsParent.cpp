@@ -239,7 +239,7 @@ h
 #
 include
 "
-FileInfoT
+FileInfo
 .
 h
 "

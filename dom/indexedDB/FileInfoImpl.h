@@ -116,14 +116,14 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_fileinfotimpl_h__
+DOM_INDEXEDDB_FILEINFOIMPL_H_
 #
 define
-mozilla_dom_indexeddb_fileinfotimpl_h__
+DOM_INDEXEDDB_FILEINFOIMPL_H_
 #
 include
 "
-FileInfoT
+FileInfo
 .
 h
 "
@@ -170,13 +170,13 @@ template
 typename
 FileManager
 >
-FileInfoT
+FileInfo
 <
 FileManager
 >
 :
 :
-FileInfoT
+FileInfo
 (
 const
 typename
@@ -237,7 +237,7 @@ typename
 FileManager
 >
 void
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -269,7 +269,7 @@ typename
 FileManager
 >
 void
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -297,7 +297,7 @@ typename
 FileManager
 >
 void
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -322,7 +322,7 @@ typename
 FileManager
 >
 void
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -381,7 +381,7 @@ FileManager
 >
 FileManager
 &
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -403,7 +403,7 @@ typename
 FileManager
 >
 int64_t
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -424,7 +424,7 @@ typename
 FileManager
 >
 void
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -591,7 +591,7 @@ typename
 FileManager
 >
 void
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -623,7 +623,7 @@ typename
 FileManager
 >
 bool
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -721,7 +721,7 @@ typename
 FileManager
 >
 void
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -754,7 +754,7 @@ nsCOMPtr
 <
 nsIFile
 >
-FileInfoT
+FileInfo
 <
 FileManager
 >
@@ -846,4 +846,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_indexeddb_fileinfotimpl_h__
+DOM_INDEXEDDB_FILEINFOIMPL_H_
