@@ -18183,6 +18183,11 @@ rtStats
 gcHeapGCThings
 )
 ;
+(
+void
+)
+gcThingTotal
+;
 /
 /
 Report
