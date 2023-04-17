@@ -1668,7 +1668,12 @@ MozNativehyperlinktext
 :
 aColor
 =
-NS_SAME_AS_FOREGROUND_COLOR
+NS_RGB
+(
+0
+0
+0xee
+)
 ;
 break
 ;
