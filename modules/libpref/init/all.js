@@ -3965,9 +3965,9 @@ pref
 "
 pdfjs
 .
-renderInteractiveForms
+annotationMode
 "
-true
+2
 )
 ;
 /
