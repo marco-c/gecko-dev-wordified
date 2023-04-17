@@ -85,7 +85,7 @@ test_null_parameter_value
 (
 session
 http
-inline
+get_shadow_page
 )
 :
     
@@ -93,7 +93,7 @@ session
 .
 url
 =
-inline
+get_shadow_page
 (
 "
 <
@@ -475,6 +475,7 @@ shadow_root
 id
 "
 css
+selector
 "
 "
 input
@@ -574,6 +575,7 @@ shadow_root
 id
 "
 css
+selector
 "
 "
 input
@@ -963,22 +965,6 @@ document
 )
 )
     
-element
-=
-session
-.
-find
-.
-css
-(
-"
-div
-"
-all
-=
-False
-)
-    
 custom_element
 =
 session
@@ -1330,22 +1316,6 @@ format
 (
 document
 )
-)
-    
-element
-=
-session
-.
-find
-.
-css
-(
-"
-div
-"
-all
-=
-False
 )
     
 custom_element
