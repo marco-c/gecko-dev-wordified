@@ -198,8 +198,6 @@ GMPVideoDecoderParent
 *
 *
 aGMPVD
-uint32_t
-aDecryptorId
 )
 ;
 void

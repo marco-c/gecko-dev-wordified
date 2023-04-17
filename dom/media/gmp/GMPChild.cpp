@@ -1193,8 +1193,6 @@ void
 *
 *
 aPluginAPI
-uint32_t
-aDecryptorId
 )
 {
 if
@@ -1216,7 +1214,6 @@ GetAPI
 aAPIName
 aHostAPI
 aPluginAPI
-aDecryptorId
 )
 ;
 }

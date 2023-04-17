@@ -1226,8 +1226,6 @@ GMPVideoDecoderParent
 *
 *
 aGMPVD
-uint32_t
-aDecryptorId
 )
 {
 GMP_LOG_DEBUG
@@ -1265,7 +1263,6 @@ if
 SendPGMPVideoDecoderConstructor
 (
 vdp
-aDecryptorId
 )
 )
 {

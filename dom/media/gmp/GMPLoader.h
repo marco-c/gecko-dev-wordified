@@ -305,8 +305,6 @@ void
 *
 *
 aPluginAPI
-uint32_t
-aDecryptorId
 )
 =
 0
@@ -465,8 +463,6 @@ void
 *
 *
 aPluginAPI
-uint32_t
-aDecryptorId
 )
 ;
 /

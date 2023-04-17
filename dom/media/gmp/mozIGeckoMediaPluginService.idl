@@ -704,9 +704,6 @@ nodeId
 in
 GetGMPVideoDecoderCallback
 callback
-in
-uint32_t
-decryptorId
 )
 ;
 /

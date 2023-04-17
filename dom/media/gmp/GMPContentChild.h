@@ -221,10 +221,6 @@ RecvPGMPVideoDecoderConstructor
 PGMPVideoDecoderChild
 *
 aActor
-const
-uint32_t
-&
-aDecryptorId
 )
 override
 ;
@@ -264,10 +260,6 @@ PGMPVideoDecoderChild
 >
 AllocPGMPVideoDecoderChild
 (
-const
-uint32_t
-&
-aDecryptorId
 )
 ;
 already_AddRefed
