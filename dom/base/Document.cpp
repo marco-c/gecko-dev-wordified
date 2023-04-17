@@ -72880,6 +72880,13 @@ mPartitionedPrincipal
 clone
 -
 >
+mIsSrcdocDocument
+=
+mIsSrcdocDocument
+;
+clone
+-
+>
 SetContainer
 (
 mDocumentContainer
