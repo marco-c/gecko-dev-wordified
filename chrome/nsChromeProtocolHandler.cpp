@@ -578,15 +578,6 @@ nsIURI
 >
 surl
 ;
-nsCOMPtr
-<
-nsIURI
->
-base
-(
-aBaseURI
-)
-;
 rv
 =
 NS_MutateURI
@@ -619,10 +610,7 @@ nsIStandardURL
 URLTYPE_STANDARD
 -
 1
-nsCString
-(
 aSpec
-)
 aCharset
 aBaseURI
 nullptr
