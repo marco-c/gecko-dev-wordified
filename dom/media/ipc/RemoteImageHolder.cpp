@@ -638,6 +638,16 @@ yUVColorSpace
 ;
 pData
 .
+mColorRange
+=
+descriptor
+.
+colorRange
+(
+)
+;
+pData
+.
 mYChannel
 =
 ImageDataSerializer
