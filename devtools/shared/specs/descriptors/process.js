@@ -129,7 +129,7 @@ watcher
 "
 )
 }
-reloadBrowsingContext
+reloadDescriptor
 :
 {
 request

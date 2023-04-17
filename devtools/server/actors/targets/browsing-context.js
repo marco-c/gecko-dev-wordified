@@ -7020,7 +7020,7 @@ use
 Descriptor
 :
 :
-reloadBrowsingContext
+reloadDescriptor
 instead
 .
 *

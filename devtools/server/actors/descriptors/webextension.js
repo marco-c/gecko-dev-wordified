@@ -669,7 +669,7 @@ temporarilyInstalled
 traits
 :
 {
-supportsReloadBrowsingContext
+supportsReloadDescriptor
 :
 true
 }
@@ -988,7 +988,7 @@ _form
 *
 Note
 that
-reloadBrowsingContext
+reloadDescriptor
 is
 the
 common
@@ -1034,7 +1034,7 @@ reloads
 .
 *
 /
-reloadBrowsingContext
+reloadDescriptor
 (
 {
 bypassCache

@@ -5331,7 +5331,7 @@ descriptorFront
 .
 traits
 .
-supportsReloadBrowsingContext
+supportsReloadDescriptor
 /
 /
 instead
@@ -5508,7 +5508,7 @@ descriptorFront
 .
 traits
 .
-supportsReloadBrowsingContext
+supportsReloadDescriptor
 )
 {
 await
@@ -5516,7 +5516,7 @@ this
 .
 descriptorFront
 .
-reloadBrowsingContext
+reloadDescriptor
 (
 {
 bypassCache

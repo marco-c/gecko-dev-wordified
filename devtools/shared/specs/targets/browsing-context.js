@@ -302,7 +302,7 @@ use
 Descriptor
 :
 :
-reloadBrowsingContext
+reloadDescriptor
 instead
 .
 types
@@ -547,7 +547,7 @@ use
 Descriptor
 :
 :
-reloadBrowsingContext
+reloadDescriptor
 instead
 .
 reload
