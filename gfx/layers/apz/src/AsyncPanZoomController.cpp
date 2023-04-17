@@ -6423,10 +6423,6 @@ mTestAttributeAppliers
 (
 0
 )
-mAsyncTransformAppliedToContent
-(
-false
-)
 mTestHasAsyncKeyScrolled
 (
 false
@@ -31209,10 +31205,6 @@ schedule
 a
 composite
 .
-mAsyncTransformAppliedToContent
-=
-false
-;
 bool
 requestAnimationFrame
 =
