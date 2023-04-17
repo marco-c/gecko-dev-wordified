@@ -2223,6 +2223,7 @@ HTMLEditUtils
 :
 IsAnyListElement
 (
+const
 nsINode
 *
 aNode
