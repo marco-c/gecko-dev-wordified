@@ -1030,6 +1030,16 @@ moxSelected
 override
 -
 (
+NSNumber
+*
+)
+moxExpanded
+;
+/
+/
+override
+-
+(
 NSValue
 *
 )
