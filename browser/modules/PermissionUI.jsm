@@ -2458,7 +2458,7 @@ this
 .
 request
 .
-maybeUnsafePermissionDelegate
+isRequestDelegatedToUnsafeThirdParty
 )
 {
 this
@@ -4206,7 +4206,7 @@ this
 .
 request
 .
-maybeUnsafePermissionDelegate
+isRequestDelegatedToUnsafeThirdParty
 )
 {
 /
@@ -4340,7 +4340,7 @@ this
 .
 request
 .
-maybeUnsafePermissionDelegate
+isRequestDelegatedToUnsafeThirdParty
 )
 {
 return
