@@ -1039,6 +1039,13 @@ Stop
 )
 )
 ;
+MediaStatusManager
+:
+:
+ClearActiveMediaSessionContextIdIfNeeded
+(
+)
+;
 }
 uint64_t
 MediaController
