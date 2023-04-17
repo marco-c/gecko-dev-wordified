@@ -62,6 +62,15 @@ strict
 "
 ;
 const
+kExtensionModuleName
+=
+"
+TestShellEx
+.
+dll
+"
+;
+const
 kATP
 =
 Cc
