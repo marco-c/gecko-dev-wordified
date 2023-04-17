@@ -570,6 +570,14 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsXULPrototypeDocument
 )
+void
+TraceProtos
+(
+JSTracer
+*
+aTrc
+)
+;
 bool
 WasL10nCached
 (
@@ -662,6 +670,9 @@ mNodeInfoManager
 ;
 uint32_t
 mCCGeneration
+;
+uint32_t
+mGCNumber
 ;
 nsXULPrototypeDocument
 (
