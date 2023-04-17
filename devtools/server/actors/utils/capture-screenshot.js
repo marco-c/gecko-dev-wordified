@@ -1381,14 +1381,10 @@ padStart
 const
 dayString
 =
-(
 date
 .
 getDate
 (
-)
-+
-1
 )
 .
 toString
