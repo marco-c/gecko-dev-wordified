@@ -161,6 +161,9 @@ class
 GetterSetter
 ;
 class
+PropMap
+;
+class
 RegExpShared
 ;
 class
@@ -407,6 +410,7 @@ Script
 Scope
 RegExpShared
 GetterSetter
+PropMap
 }
 ;
 /
@@ -747,6 +751,17 @@ js
 GetterSetter
 true
 true
+)
+\
+D
+(
+PropMap
+js
+:
+:
+PropMap
+false
+false
 )
 /
 /

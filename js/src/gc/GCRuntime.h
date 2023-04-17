@@ -1479,6 +1479,16 @@ gs
 )
 override
 ;
+PropMap
+*
+onPropMapEdge
+(
+PropMap
+*
+map
+)
+override
+;
 Scope
 *
 onScopeEdge
