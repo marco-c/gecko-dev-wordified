@@ -55,8 +55,8 @@ function
 {
 const
 {
-tab
 monitor
+tab
 }
 =
 await
@@ -762,11 +762,8 @@ monitor
 1
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

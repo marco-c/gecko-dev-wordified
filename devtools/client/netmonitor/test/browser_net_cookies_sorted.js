@@ -62,7 +62,6 @@ function
 {
 const
 {
-tab
 monitor
 }
 =
@@ -131,14 +130,6 @@ false
 )
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
-(
-)
-;
 let
 wait
 =
@@ -146,6 +137,11 @@ waitForNetworkEvents
 (
 monitor
 1
+)
+;
+await
+reloadBrowser
+(
 )
 ;
 await

@@ -74,7 +74,6 @@ function
 {
 const
 {
-tab
 monitor
 }
 =
@@ -503,12 +502,9 @@ for
 GET
 requests
 .
-Race
--
-free
-.
 *
 /
+async
 function
 reloadAndWait
 (
@@ -523,11 +519,8 @@ monitor
 2
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

@@ -310,11 +310,8 @@ tab
 linkedBrowser
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

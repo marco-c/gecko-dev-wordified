@@ -174,11 +174,8 @@ inspector
 }
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

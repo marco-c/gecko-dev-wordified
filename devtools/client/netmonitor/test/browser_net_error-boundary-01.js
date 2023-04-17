@@ -60,7 +60,6 @@ function
 {
 const
 {
-tab
 monitor
 }
 =
@@ -147,11 +146,8 @@ columns
 =
 null
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

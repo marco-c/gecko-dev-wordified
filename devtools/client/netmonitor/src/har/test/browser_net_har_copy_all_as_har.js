@@ -785,11 +785,8 @@ toolbox
 commands
 )
 ;
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;

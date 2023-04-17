@@ -1478,13 +1478,8 @@ monitor
 1
 )
 ;
-newMonitor
-.
-tab
-.
-linkedBrowser
-.
-reload
+await
+reloadBrowser
 (
 )
 ;
