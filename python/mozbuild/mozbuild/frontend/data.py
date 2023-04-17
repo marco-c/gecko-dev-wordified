@@ -4580,10 +4580,6 @@ features
 "
         
 "
-target_dir
-"
-        
-"
 output_category
 "
         
@@ -4610,8 +4606,6 @@ crate_type
 dependencies
         
 features
-        
-target_dir
         
 is_gkrust
     
@@ -4756,12 +4750,6 @@ features
         
 self
 .
-target_dir
-=
-target_dir
-        
-self
-.
 output_category
 =
 context
@@ -4857,7 +4845,12 @@ mozpath
 join
 (
             
-target_dir
+context
+.
+config
+.
+topobjdir
+            
 cargo_output_directory
 (
 context
@@ -4967,8 +4960,6 @@ dependencies
         
 features
         
-target_dir
-        
 is_gkrust
 =
 False
@@ -5040,8 +5031,6 @@ crate_type
 dependencies
             
 features
-            
-target_dir
             
 is_gkrust
         
@@ -5914,8 +5903,6 @@ dependencies
         
 features
         
-target_dir
-        
 is_gkrust
     
 )
@@ -5948,8 +5935,6 @@ crate_type
 dependencies
             
 features
-            
-target_dir
             
 is_gkrust
         

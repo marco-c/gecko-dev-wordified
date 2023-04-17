@@ -4277,14 +4277,6 @@ context
             
 )
         
-cargo_target_dir
-=
-context
-.
-config
-.
-topobjdir
-        
 dependencies
 =
 set
@@ -4382,8 +4374,6 @@ crate_type
 dependencies
             
 features
-            
-cargo_target_dir
             
 is_gkrust
             
