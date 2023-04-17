@@ -10,6 +10,10 @@ import
 pytest
 import
 localpaths
+#
+type
+:
+ignore
 from
 .
 import

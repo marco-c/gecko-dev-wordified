@@ -97,6 +97,10 @@ serve
 ServerProc
 =
 ServerProcSpy
+#
+type
+:
+ignore
 pytest
 .
 fixture
