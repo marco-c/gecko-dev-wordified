@@ -7830,6 +7830,10 @@ mLastPrefFont
 =
 nullptr
 ;
+mDefaultFont
+=
+nullptr
+;
 mFonts
 .
 Clear
