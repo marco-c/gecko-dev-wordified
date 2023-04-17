@@ -33338,6 +33338,7 @@ when
 '
 offset
 >
+=
 string_data_size
 '
 .
@@ -33372,20 +33373,10 @@ i
 =
 1
 ;
-(
 i
 <
 =
 5
-)
-&
-&
-(
-string_data
-!
-=
-nullptr
-)
 ;
 +
 +
@@ -33487,6 +33478,7 @@ if
 (
 offset
 >
+=
 string_data_size
 )
 {
