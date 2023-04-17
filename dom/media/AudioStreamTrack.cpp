@@ -371,7 +371,9 @@ do_AddRef
 new
 AudioStreamTrack
 (
-mWindow
+GetOwner
+(
+)
 mInputTrack
 mSource
 ReadyState
@@ -530,7 +532,9 @@ Connect
 (
 this
 aSink
-mWindow
+GetOwner
+(
+)
 )
 ;
 if

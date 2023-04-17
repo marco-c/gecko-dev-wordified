@@ -217,6 +217,12 @@ if
 Ended
 (
 )
+|
+|
+!
+GetOwner
+(
+)
 )
 {
 return
@@ -236,7 +242,7 @@ nsGlobalWindowInner
 :
 Cast
 (
-GetParentObject
+GetOwner
 (
 )
 )
@@ -502,7 +508,9 @@ do_AddRef
 new
 VideoStreamTrack
 (
-mWindow
+GetOwner
+(
+)
 mInputTrack
 mSource
 ReadyState
