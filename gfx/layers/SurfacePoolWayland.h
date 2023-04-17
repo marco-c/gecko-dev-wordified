@@ -498,6 +498,12 @@ nsWaylandDisplay
 >
 mWaylandDisplay
 ;
+wl_callback
+*
+mCallback
+=
+nullptr
+;
 wp_viewport
 *
 mViewport
@@ -552,11 +558,6 @@ CallbackMultiplexHelper
 >
 >
 mCallbackMultiplexHelpers
-;
-bool
-mCallbackRequested
-=
-false
 ;
 }
 ;
