@@ -3672,17 +3672,6 @@ JSMSG_CANT_REPORT_W_AS_NW
 Step
 18
 .
-resultDesc
-.
-object
-(
-)
-.
-set
-(
-proxy
-)
-;
 desc
 .
 set

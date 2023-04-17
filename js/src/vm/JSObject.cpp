@@ -16343,7 +16343,6 @@ desc
 .
 initFields
 (
-nullptr
 UndefinedHandleValue
 attrs
 getter
@@ -16438,7 +16437,6 @@ desc
 .
 initFields
 (
-nullptr
 value
 attrs
 nullptr
@@ -17050,12 +17048,7 @@ holder
 .
 set
 (
-desc
--
->
-objectDoNotUse
-(
-)
+pobj
 )
 ;
 return

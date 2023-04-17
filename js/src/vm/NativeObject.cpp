@@ -12377,7 +12377,6 @@ desc
 .
 initFields
 (
-nullptr
 value
 attrs
 nullptr
@@ -12429,7 +12428,6 @@ desc
 .
 initFields
 (
-nullptr
 UndefinedHandleValue
 attrs
 getter
@@ -14704,17 +14702,6 @@ false
 }
 }
 }
-desc
-.
-object
-(
-)
-.
-set
-(
-obj
-)
-;
 desc
 .
 assertComplete
@@ -17987,7 +17974,6 @@ desc
 .
 initFields
 (
-nullptr
 v
 JSPROP_ENUMERATE
 nullptr
