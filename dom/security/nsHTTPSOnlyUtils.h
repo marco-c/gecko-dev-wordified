@@ -864,7 +864,7 @@ that
 *
 aHTTPSchemeURI
 uses
-and
+an
 http
 scheme
 .
