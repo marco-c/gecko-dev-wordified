@@ -184,11 +184,13 @@ remote
 /
 content
 /
-marionette
+shared
 /
-error
+webdriver
+/
+Errors
 .
-js
+jsm
 "
 evaluate
 :
