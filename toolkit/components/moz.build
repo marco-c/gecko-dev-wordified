@@ -523,9 +523,6 @@ DIRS
 =
 [
 "
-aboutthirdparty
-"
-"
 gfx
 "
 ]
