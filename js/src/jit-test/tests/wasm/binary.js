@@ -3592,6 +3592,14 @@ enabled
 )
 |
 (
+Exceptions
+support
+is
+not
+enabled
+)
+|
+(
 Unexpected
 EOF
 )
