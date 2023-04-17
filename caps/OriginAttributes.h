@@ -521,7 +521,7 @@ e
 /
 /
 |
-!
+^
 key1
 =
 value1
@@ -629,7 +629,7 @@ like
 /
 |
 uri
-!
+^
 key1
 =
 value1
