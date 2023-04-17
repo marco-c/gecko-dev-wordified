@@ -565,8 +565,6 @@ new
 CDP
 (
 this
-.
-server
 )
 ;
 }
