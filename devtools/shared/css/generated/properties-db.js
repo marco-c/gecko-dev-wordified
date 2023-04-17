@@ -28862,7 +28862,13 @@ optimizequality
 optimizespeed
 "
 "
+pixelated
+"
+"
 revert
+"
+"
+smooth
 "
 "
 unset
