@@ -801,6 +801,7 @@ methods
 *
 /
 class
+JS_HAZ_ROOTED
 nsWrapperCache
 {
 public
