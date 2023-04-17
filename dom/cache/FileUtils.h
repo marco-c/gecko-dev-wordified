@@ -204,6 +204,7 @@ padding
 tmp
 "
 enum
+class
 DirPaddingFile
 {
 FILE
