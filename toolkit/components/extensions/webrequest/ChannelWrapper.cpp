@@ -1990,7 +1990,7 @@ mozilla
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;

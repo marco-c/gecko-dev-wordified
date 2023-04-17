@@ -1040,7 +1040,7 @@ mTimestamp
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -1367,7 +1367,7 @@ mTimestamp
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -1908,7 +1908,7 @@ base
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -1917,7 +1917,7 @@ return
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 -

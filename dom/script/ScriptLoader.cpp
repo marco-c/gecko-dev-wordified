@@ -16950,7 +16950,7 @@ mOffThreadParseStopTime
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -17423,7 +17423,7 @@ mOffThreadParseStartTime
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;

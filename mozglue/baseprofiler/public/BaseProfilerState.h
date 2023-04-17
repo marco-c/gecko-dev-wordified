@@ -595,7 +595,7 @@ DurationNs
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 -
@@ -804,7 +804,7 @@ mStart
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 )

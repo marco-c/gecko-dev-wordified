@@ -5089,7 +5089,7 @@ streamingStart
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 ;
@@ -5435,7 +5435,7 @@ uint32_t
 TimeStamp
 :
 :
-NowUnfuzzed
+Now
 (
 )
 -
