@@ -432,6 +432,11 @@ mIsDeviceChangeListenerSetUp
 =
 false
 ;
+bool
+mCanExposeMicrophoneInfo
+=
+false
+;
 void
 RecordAccessTelemetry
 (
