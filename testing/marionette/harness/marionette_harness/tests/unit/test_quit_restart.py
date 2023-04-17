@@ -183,9 +183,6 @@ flags
 )
 }
         
-try
-:
-            
 resp
 =
 self
@@ -202,9 +199,6 @@ Quit
 body
 )
         
-finally
-:
-            
 self
 .
 marionette
@@ -212,7 +206,7 @@ marionette
 session_id
 =
 None
-            
+        
 self
 .
 marionette
@@ -220,7 +214,7 @@ marionette
 session
 =
 None
-            
+        
 self
 .
 marionette
@@ -228,7 +222,7 @@ marionette
 process_id
 =
 None
-            
+        
 self
 .
 marionette
@@ -236,7 +230,7 @@ marionette
 profile
 =
 None
-            
+        
 self
 .
 marionette

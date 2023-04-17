@@ -6718,6 +6718,14 @@ self
 .
 test_page_insecure
         
+self
+.
+marionette
+.
+delete_session
+(
+)
+        
 print
 (
 "
