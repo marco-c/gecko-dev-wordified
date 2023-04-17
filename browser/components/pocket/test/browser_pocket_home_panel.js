@@ -190,14 +190,14 @@ panel
 )
 ;
 let
-pocketFrame
+pocketIframe
 =
 pocketPanel
 .
 querySelector
 (
 "
-browser
+iframe
 "
 )
 ;
@@ -210,7 +210,7 @@ waitForCondition
 )
 =
 >
-pocketFrame
+pocketIframe
 .
 src
 .
