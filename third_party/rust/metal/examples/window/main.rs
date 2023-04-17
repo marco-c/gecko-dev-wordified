@@ -108,15 +108,6 @@ cocoa_id
 }
 ;
 use
-core_graphics_types
-:
-:
-geometry
-:
-:
-CGSize
-;
-use
 metal
 :
 :

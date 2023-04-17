@@ -5697,9 +5697,15 @@ TypeInner
 :
 Struct
 {
-top_level
+level
 :
-true
+naga
+:
+:
+StructLevel
+:
+:
+Root
 members
 :
 _

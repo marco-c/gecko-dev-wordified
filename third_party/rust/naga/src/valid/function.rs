@@ -3767,11 +3767,6 @@ TypeFlags
 :
 :
 DATA
-|
-TypeFlags
-:
-:
-SIZED
 )
 {
 return

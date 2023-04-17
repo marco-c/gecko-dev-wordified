@@ -3443,15 +3443,6 @@ crate
 struct
 DynamicDescriptor
 {
-/
-/
-TODO
-:
-just
-store
-DynamicBuffer
-here
-?
 pub
 content
 :
