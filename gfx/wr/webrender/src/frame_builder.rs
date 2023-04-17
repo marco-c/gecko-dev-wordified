@@ -2444,6 +2444,7 @@ scene
 .
 clip_store
 data_stores
+tile_caches
 )
 ;
 }
