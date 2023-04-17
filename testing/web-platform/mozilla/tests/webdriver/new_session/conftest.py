@@ -261,6 +261,9 @@ body
 delete_existing_session
 =
 False
+headers
+=
+None
 )
 :
         
@@ -328,6 +331,9 @@ POST
 session
 "
 body
+headers
+=
+headers
 )
         
 if
