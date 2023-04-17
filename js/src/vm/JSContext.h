@@ -2845,7 +2845,6 @@ V
 *
 resultToPtr
 (
-const
 JS
 :
 :
