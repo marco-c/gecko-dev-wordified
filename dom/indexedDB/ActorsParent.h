@@ -192,6 +192,9 @@ namespace
 indexedDB
 {
 class
+FileManager
+;
+class
 LoggingInfo
 ;
 class

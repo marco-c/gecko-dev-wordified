@@ -128,14 +128,18 @@ includes
 #
 include
 "
-DatabaseFileInfo
+DatabaseFileInfoFwd
 .
 h
 "
+/
+/
+for
+DatabaseFileInfo
 #
 include
 "
-DatabaseFileManager
+FileManager
 .
 h
 "
@@ -652,7 +656,7 @@ nsresult
 DeserializeStructuredCloneFile
 (
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
@@ -1998,7 +2002,7 @@ aBlobData
 uint32_t
 aBlobDataLength
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
@@ -2234,7 +2238,7 @@ GetStructuredCloneReadInfoFromExternalBlob
 uint64_t
 aIntData
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
@@ -2608,7 +2612,7 @@ aDataIndex
 uint32_t
 aFileIdsIndex
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
@@ -3940,7 +3944,7 @@ aDataIndex
 uint32_t
 aFileIdsIndex
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
@@ -3978,7 +3982,7 @@ aDataIndex
 uint32_t
 aFileIdsIndex
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
@@ -4012,7 +4016,7 @@ nsresult
 DeserializeStructuredCloneFiles
 (
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const

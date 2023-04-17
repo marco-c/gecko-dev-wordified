@@ -278,7 +278,7 @@ namespace
 indexedDB
 {
 class
-DatabaseFileManager
+FileManager
 ;
 struct
 StructuredCloneFileParent
@@ -675,7 +675,7 @@ aDataIndex
 uint32_t
 aFileIdsIndex
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
@@ -702,7 +702,7 @@ aDataIndex
 uint32_t
 aFileIdsIndex
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
@@ -725,7 +725,7 @@ nsresult
 DeserializeStructuredCloneFiles
 (
 const
-DatabaseFileManager
+FileManager
 &
 aFileManager
 const
