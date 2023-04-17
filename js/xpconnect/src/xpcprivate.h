@@ -15927,6 +15927,11 @@ can
 expose
 .
 bool
+AbortController
+:
+1
+;
+bool
 Blob
 :
 1
