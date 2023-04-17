@@ -3591,9 +3591,6 @@ however
 .
 *
 /
-class
-Shape
-;
 /
 /
 Flags
@@ -3964,14 +3961,6 @@ JSClass
 {
 public
 :
-friend
-class
-Shape
-;
-friend
-struct
-StackShape
-;
 /
 *
 Class
