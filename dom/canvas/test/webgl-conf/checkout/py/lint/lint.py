@@ -514,7 +514,7 @@ return
 [
 ]
 def
-parse_whitelist_file
+parse_allowlist_file
 (
 filename
 )
@@ -654,7 +654,7 @@ errors
 )
 :
         
-whitelisted
+allowlisted
 =
 [
 False
@@ -672,7 +672,7 @@ errors
         
 for
 file_match
-whitelist_errors
+allowlist_errors
 in
 data
 .
@@ -710,10 +710,10 @@ if
 *
 "
 in
-whitelist_errors
+allowlist_errors
 :
                         
-whitelisted
+allowlisted
 [
 i
 ]
@@ -723,12 +723,12 @@ True
 elif
 error_type
 in
-whitelist_errors
+allowlist_errors
 :
                         
 allowed_lines
 =
-whitelist_errors
+allowlist_errors
 [
 error_type
 ]
@@ -743,7 +743,7 @@ in
 allowed_lines
 :
                             
-whitelisted
+allowlisted
 [
 i
 ]
@@ -763,7 +763,7 @@ errors
 )
 if
 not
-whitelisted
+allowlisted
 [
 i
 ]
@@ -771,11 +771,11 @@ i
     
 return
 inner
-_whitelist_fn
+_allowlist_fn
 =
 None
 def
-whitelist_errors
+allowlist_errors
 (
 path
 errors
@@ -783,17 +783,17 @@ errors
 :
     
 global
-_whitelist_fn
+_allowlist_fn
     
 if
-_whitelist_fn
+_allowlist_fn
 is
 None
 :
         
-_whitelist_fn
+_allowlist_fn
 =
-parse_whitelist_file
+parse_allowlist_file
 (
 os
 .
@@ -805,13 +805,13 @@ lint_root
 "
 lint
 .
-whitelist
+allowlist
 "
 )
 )
     
 return
-_whitelist_fn
+_allowlist_fn
 (
 path
 errors
@@ -1454,7 +1454,7 @@ args
         
 errors
 =
-whitelist_errors
+allowlist_errors
 (
 path
 fn
