@@ -329,16 +329,13 @@ override
 void
 ReadSystemFontList
 (
-nsTArray
-<
 mozilla
 :
 :
 dom
 :
 :
-SystemFontListEntry
->
+SystemFontList
 *
 aFontList
 )

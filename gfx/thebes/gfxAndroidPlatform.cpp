@@ -1675,10 +1675,13 @@ gfxAndroidPlatform
 :
 ReadSystemFontList
 (
-nsTArray
-<
-SystemFontListEntry
->
+mozilla
+:
+:
+dom
+:
+:
+SystemFontList
 *
 aFontList
 )

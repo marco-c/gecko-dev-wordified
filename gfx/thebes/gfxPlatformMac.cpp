@@ -324,7 +324,7 @@ mozilla
 dom
 :
 :
-SystemFontListEntry
+SystemFontList
 ;
 /
 /
@@ -1502,10 +1502,7 @@ gfxPlatformMac
 :
 ReadSystemFontList
 (
-nsTArray
-<
-SystemFontListEntry
->
+SystemFontList
 *
 aFontList
 )

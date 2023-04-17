@@ -18780,10 +18780,7 @@ Linux
 at
 present
 .
-nsTArray
-<
-SystemFontListEntry
->
+SystemFontList
 fontList
 ;
 gfxPlatform
@@ -32369,10 +32366,7 @@ aFullRebuild
 return
 ;
 }
-nsTArray
-<
-SystemFontListEntry
->
+SystemFontList
 fontList
 ;
 gfxPlatform
