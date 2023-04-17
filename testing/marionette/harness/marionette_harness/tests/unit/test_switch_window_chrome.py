@@ -149,6 +149,23 @@ tearDown
 (
 )
     
+def
+test_switch_to_unloaded_tab
+(
+self
+)
+:
+        
+#
+Can
+only
+run
+in
+content
+context
+        
+pass
+    
 skipIf
 (
         
