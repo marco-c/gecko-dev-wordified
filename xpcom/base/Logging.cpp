@@ -4015,9 +4015,6 @@ buffToWrite
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 mAddProfilerMarker
@@ -4239,8 +4236,6 @@ buffToWrite
 )
 ;
 }
-#
-endif
 /
 /
 Determine

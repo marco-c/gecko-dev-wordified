@@ -27539,9 +27539,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 static
 nsCString
 PrefValueToString
@@ -27651,8 +27648,6 @@ s
 )
 ;
 }
-#
-endif
 /
 /
 These
@@ -27720,9 +27715,6 @@ members
 struct
 Internals
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 struct
 PreferenceReadMarker
 {
@@ -28069,11 +28061,6 @@ Unknown
 }
 }
 ;
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 template
 <
 typename
@@ -28145,9 +28132,6 @@ aResult
 )
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_feature_active
@@ -28200,8 +28184,6 @@ aResult
 )
 ;
 }
-#
-endif
 }
 return
 rv
@@ -28258,9 +28240,6 @@ User
 aResult
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_feature_active
@@ -28318,8 +28297,6 @@ aResult
 )
 ;
 }
-#
-endif
 }
 return
 rv

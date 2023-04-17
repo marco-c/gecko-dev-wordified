@@ -916,12 +916,6 @@ Layer
 aLayer
 )
 {
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 if
 (
 !
@@ -1275,8 +1269,6 @@ aLayer
 translation
 )
 ;
-#
-endif
 }
 static
 Maybe

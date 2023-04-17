@@ -9237,9 +9237,6 @@ mLastLongTaskEnd
 =
 aNow
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_thread_is_being_profiled
@@ -9388,8 +9385,6 @@ LongTaskMarker
 )
 ;
 }
-#
-endif
 }
 }
 }

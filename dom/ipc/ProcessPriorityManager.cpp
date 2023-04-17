@@ -3268,9 +3268,6 @@ ParticularProcessPriorityManager
 "
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 Our
@@ -3395,11 +3392,6 @@ aProfilingState
 self
 )
 ;
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 }
 void
 ParticularProcessPriorityManager
@@ -3578,9 +3570,6 @@ ParticularProcessPriorityManager
 "
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 profiler_remove_state_change_callback
 (
 reinterpret_cast
@@ -3592,11 +3581,6 @@ this
 )
 )
 ;
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 ShutDown
 (
 )

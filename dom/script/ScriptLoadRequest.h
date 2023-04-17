@@ -595,17 +595,12 @@ AsModuleRequest
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 TimeStamp
 mOffThreadParseStartTime
 ;
 TimeStamp
 mOffThreadParseStopTime
 ;
-#
-endif
 void
 FireScriptAvailable
 (

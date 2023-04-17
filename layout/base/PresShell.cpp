@@ -966,17 +966,12 @@ nsAutoLayoutPhase
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 AutoProfilerStyleMarker
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_REFLOW_PERF
@@ -27291,9 +27286,6 @@ mIsDestroying
 nsAutoScriptBlocker
 scriptBlocker
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 Maybe
 <
 uint64_t
@@ -27340,8 +27332,6 @@ mStyleCause
 innerWindowID
 )
 ;
-#
-endif
 PerfStats
 :
 :
@@ -27477,9 +27467,6 @@ mIsDestroying
 nsAutoScriptBlocker
 scriptBlocker
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 Maybe
 <
 uint64_t
@@ -27526,8 +27513,6 @@ mStyleCause
 innerWindowID
 )
 ;
-#
-endif
 PerfStats
 :
 :
@@ -62800,9 +62785,6 @@ START
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 Maybe
 <
 uint64_t
@@ -62866,8 +62848,6 @@ mReflowCause
 =
 nullptr
 ;
-#
-endif
 FlushPendingScrollAnchorSelections
 (
 )

@@ -13012,12 +13012,6 @@ forget
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 static
 void
 InsertVsyncProfilerMarker
@@ -13166,8 +13160,6 @@ VsyncMarker
 ;
 }
 }
-#
-endif
 /
 *
 static
@@ -13183,12 +13175,6 @@ TimeStamp
 aVsyncTimestamp
 )
 {
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 /
 /
 Called
@@ -13229,8 +13215,6 @@ aVsyncTimestamp
 )
 ;
 }
-#
-endif
 }
 widget
 :
@@ -15461,9 +15445,6 @@ latencyNorm
 0
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -15576,8 +15557,6 @@ ContentFrameMarker
 )
 ;
 }
-#
-endif
 Telemetry
 :
 :

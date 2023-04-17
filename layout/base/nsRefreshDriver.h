@@ -2762,17 +2762,12 @@ mozilla
 TimeStamp
 mRegisterTime
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 mozilla
 :
 :
 MarkerInnerWindowId
 mInnerWindowId
 ;
-#
-endif
 mozilla
 :
 :

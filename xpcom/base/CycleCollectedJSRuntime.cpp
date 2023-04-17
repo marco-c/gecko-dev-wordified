@@ -7020,9 +7020,6 @@ Context
 aContext
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_thread_is_being_profiled
@@ -7546,8 +7543,6 @@ get
 ;
 }
 }
-#
-endif
 if
 (
 aProgress
@@ -8026,9 +8021,6 @@ Now
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 else
 if
 (
@@ -8294,8 +8286,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 self

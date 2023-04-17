@@ -6873,9 +6873,6 @@ mPath
 &
 chain
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_is_active
@@ -7434,8 +7431,6 @@ mTimeStamp
 ;
 }
 else
-#
-endif
 {
 EventTargetChainItem
 :
