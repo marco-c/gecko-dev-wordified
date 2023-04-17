@@ -636,13 +636,6 @@ other
 )
 }
 }
-#
-[
-deny
-(
-unreachable_patterns
-)
-]
 box_database
 !
 (
@@ -786,7 +779,7 @@ ItemPropertyAssociationBox
 "
 ipma
 "
-ColorInformationBox
+ColourInformationBox
 0x636f_6c72
 /
 /
