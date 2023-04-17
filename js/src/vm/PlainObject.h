@@ -283,6 +283,8 @@ const
 ;
 #
 endif
+public
+:
 static
 inline
 js
@@ -306,8 +308,6 @@ Shape
 shape
 )
 ;
-public
-:
 static
 inline
 PlainObject
