@@ -563,12 +563,6 @@ The
 top
 level
 target
-isn
-'
-t
-a
-BrowsingContext
-and
 doesn
 '
 t
