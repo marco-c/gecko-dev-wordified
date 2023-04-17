@@ -736,6 +736,17 @@ moxWindow
 ;
 /
 /
+AXFrame
+-
+(
+NSValue
+*
+_Nullable
+)
+moxFrame
+;
+/
+/
 AXTitleUIElement
 -
 (
