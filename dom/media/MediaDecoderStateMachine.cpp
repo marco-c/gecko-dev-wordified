@@ -10652,6 +10652,13 @@ DoSeek
 )
 override
 {
+mMaster
+-
+>
+StopMediaSink
+(
+)
+;
 auto
 currentTime
 =
