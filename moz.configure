@@ -1736,16 +1736,6 @@ path_parts
 [
 0
 ]
-.
-replace
-(
-"
-_
-"
-"
--
-"
-)
 )
 task
 =
