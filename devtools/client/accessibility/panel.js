@@ -660,7 +660,7 @@ AccessibilityProxy
 (
 this
 .
-_toolbox
+_commands
 )
 ;
 this
