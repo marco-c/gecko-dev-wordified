@@ -1365,7 +1365,7 @@ final
 *
 *
 *
-PasteNoFormatting
+PasteNoFormattingAsAction
 (
 )
 pastes
