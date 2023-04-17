@@ -4004,7 +4004,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 PasteAsAction
