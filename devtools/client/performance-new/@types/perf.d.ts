@@ -1073,6 +1073,15 @@ SymbolTableAsTuple
 >
 ;
 export
+interface
+SymbolicationService
+{
+getSymbolTable
+:
+GetSymbolTableCallback
+;
+}
+export
 type
 ReceiveProfile
 =
