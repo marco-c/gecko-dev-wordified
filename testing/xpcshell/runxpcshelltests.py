@@ -3091,7 +3091,7 @@ Manifest
 file
 has
 some
-additiona
+additional
 prefs
 merge
 the
@@ -3234,6 +3234,18 @@ restore
 =
 False
 )
+            
+#
+_rootTempDir
+contains
+a
+user
+.
+js
+file
+generated
+by
+buildPrefsFile
             
 profile
 .
@@ -3414,6 +3426,16 @@ other
 prefs
 to
 merge
+.
+        
+#
+This
+is
+the
+path
+set
+by
+buildPrefsFile
 .
         
 return
