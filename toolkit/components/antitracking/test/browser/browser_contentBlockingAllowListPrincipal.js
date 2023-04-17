@@ -724,6 +724,16 @@ window_open
 "
 false
 ]
+[
+"
+dom
+.
+security
+.
+https_first_pbm
+"
+false
+]
 ]
 }
 )
