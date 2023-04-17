@@ -14144,7 +14144,7 @@ rv
 media
 :
 :
-GetShutdownBarrier
+MustGetShutdownBarrier
 (
 )
 -
@@ -24784,7 +24784,7 @@ blocker
 media
 :
 :
-GetShutdownBarrier
+MustGetShutdownBarrier
 (
 )
 -
