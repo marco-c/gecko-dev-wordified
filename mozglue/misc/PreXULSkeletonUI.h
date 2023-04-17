@@ -812,6 +812,16 @@ ThemeMode
 theme
 )
 ;
+MFBT_API
+Result
+<
+Ok
+PreXULSkeletonUIError
+>
+NotePreXULSkeletonUIRestarting
+(
+)
+;
 }
 /
 /
