@@ -9608,7 +9608,7 @@ ParseContext
 Scope
 &
 scope
-Node
+ListNodeType
 body
 )
 {
@@ -9655,7 +9655,7 @@ ParseContext
 Scope
 &
 scope
-ParseNode
+ListNode
 *
 body
 )
