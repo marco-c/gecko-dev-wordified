@@ -20024,7 +20024,7 @@ Symbol
 (
 JSContext
 *
-HandlePropertyName
+HandleAtom
 )
 ;
 if

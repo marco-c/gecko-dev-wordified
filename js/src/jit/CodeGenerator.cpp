@@ -90764,7 +90764,7 @@ Symbol
 (
 JSContext
 *
-HandlePropertyName
+HandleAtom
 )
 ;
 callVM
