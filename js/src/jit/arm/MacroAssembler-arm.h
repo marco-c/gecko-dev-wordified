@@ -1324,6 +1324,15 @@ c
 Always
 )
 ;
+void
+ma_neg
+(
+Register64
+src
+Register64
+dest
+)
+;
 /
 /
 And
