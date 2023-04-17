@@ -131,17 +131,6 @@ line
 /
 >
 <
-hbox
-class
-=
-"
-tab
--
-line
-"
-/
->
-<
 spacer
 flex
 =
