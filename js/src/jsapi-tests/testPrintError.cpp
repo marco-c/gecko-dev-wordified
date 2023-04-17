@@ -411,7 +411,6 @@ JS
 :
 PrintError
 (
-cx
 buf
 .
 stream
@@ -515,7 +514,6 @@ JS
 :
 PrintError
 (
-cx
 buf
 .
 stream
@@ -610,7 +608,6 @@ JS
 :
 PrintError
 (
-cx
 buf
 .
 stream
@@ -774,7 +771,6 @@ JS
 :
 PrintError
 (
-cx
 buf
 .
 stream

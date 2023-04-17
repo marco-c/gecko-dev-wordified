@@ -2145,9 +2145,6 @@ JS_PUBLIC_API
 void
 PrintError
 (
-JSContext
-*
-cx
 FILE
 *
 file
@@ -2163,9 +2160,6 @@ JS_PUBLIC_API
 void
 PrintError
 (
-JSContext
-*
-cx
 FILE
 *
 file

@@ -2679,9 +2679,6 @@ static
 void
 PrintSingleError
 (
-JSContext
-*
-cx
 FILE
 *
 file
@@ -3020,9 +3017,6 @@ static
 void
 PrintErrorImpl
 (
-JSContext
-*
-cx
 FILE
 *
 file
@@ -3097,7 +3091,6 @@ Warning
 }
 PrintSingleError
 (
-cx
 file
 toStringResult
 report
@@ -3128,7 +3121,6 @@ notes
 {
 PrintSingleError
 (
-cx
 file
 JS
 :
@@ -3157,9 +3149,6 @@ JS
 :
 PrintError
 (
-JSContext
-*
-cx
 FILE
 *
 file
@@ -3172,7 +3161,6 @@ reportWarnings
 {
 PrintErrorImpl
 (
-cx
 file
 JS
 :
@@ -3192,9 +3180,6 @@ JS
 :
 PrintError
 (
-JSContext
-*
-cx
 FILE
 *
 file
@@ -3211,7 +3196,6 @@ reportWarnings
 {
 PrintErrorImpl
 (
-cx
 file
 builder
 .
