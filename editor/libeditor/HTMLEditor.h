@@ -14722,7 +14722,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 aPoint
@@ -14819,7 +14819,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 aPoint

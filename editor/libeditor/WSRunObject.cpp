@@ -4998,7 +4998,7 @@ IsCharASCIISpace
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atNextCharOfInsertionPoint
@@ -7543,7 +7543,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atPreviousCharOfStart
@@ -7974,7 +7974,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atNextCharOfStart
@@ -9491,9 +9491,9 @@ mEditingHost
 (
 aEditingHost
 )
-mIsPreformatted
+mIsWhiteSpaceCollapsible
 (
-false
+true
 )
 {
 if
@@ -9831,27 +9831,30 @@ is
 also
 preformatted
 .
-mIsPreformatted
+mIsWhiteSpaceCollapsible
 =
+!
 mStart
 .
 AcrossPreformattedCharacter
 (
 )
-|
-|
+&
+&
+!
 mEnd
 .
 AcrossPreformattedCharacter
 (
 )
-|
-|
+&
+&
+!
 (
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 mScanStartPoint
@@ -9941,7 +9944,7 @@ MOZ_DIAGNOSTIC_ASSERT
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 aPoint
@@ -10206,7 +10209,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 aPoint
@@ -10624,7 +10627,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 previousLeafContentOrBlock
@@ -10864,7 +10867,7 @@ MOZ_DIAGNOSTIC_ASSERT
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 aPoint
@@ -11120,7 +11123,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 aPoint
@@ -11559,7 +11562,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 nextLeafContentOrBlock
@@ -12641,7 +12644,7 @@ ref
 }
 if
 (
-IsPreformattedOrSurrondedByVisibleContent
+IsWhiteSpaceNotCollapsibleOrSurrondedByVisibleContent
 (
 )
 )
@@ -14507,7 +14510,8 @@ _ns
 }
 if
 (
-IsPreformatted
+!
+IsWhiteSpaceCollapsible
 (
 )
 )
@@ -14712,7 +14716,7 @@ IsCharASCIISpace
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 nextCharOfStartOfEnd
@@ -14944,7 +14948,8 @@ _ns
 }
 if
 (
-IsPreformatted
+!
+IsWhiteSpaceCollapsible
 (
 )
 )
@@ -15158,7 +15163,7 @@ IsCharASCIISpace
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atPreviousCharOfStart
@@ -15501,7 +15506,7 @@ IsCharASCIISpace
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atNextCharOfStart
@@ -15718,7 +15723,7 @@ IsCharASCIISpace
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atPreviousCharOfStart
@@ -16874,7 +16879,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 aTextNode
 )
@@ -17023,7 +17028,7 @@ if
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 aTextNode
 )
@@ -17178,7 +17183,7 @@ NS_ASSERTION
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 aPointAtASCIIWhiteSpace
@@ -17470,7 +17475,7 @@ IsCharASCIISpace
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atStartOfNextTextNode
@@ -17618,7 +17623,7 @@ NS_ASSERTION
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 aPointAtASCIIWhiteSpace
@@ -17888,7 +17893,7 @@ IsCharASCIISpace
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atLastCharOfNextTextNode
@@ -19643,7 +19648,7 @@ followedByVisibleContentOrBRElement
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atPreviousCharOfPreviousCharOfEndOfVisibleWhiteSpaces
@@ -20570,7 +20575,7 @@ IsCharNBSP
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atPreviousChar
@@ -20648,7 +20653,7 @@ ContainerAsText
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atPreviousCharOfPreviousChar
@@ -20987,7 +20992,7 @@ IsCharNBSP
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atNextChar
@@ -21069,7 +21074,7 @@ ContainerAsText
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 atNextCharOfNextCharOfNBSP
@@ -22695,9 +22700,10 @@ character
 .
 if
 (
+!
 textFragmentDataAtCaret
 .
-IsPreformatted
+IsWhiteSpaceCollapsible
 (
 )
 )
@@ -23288,9 +23294,10 @@ character
 .
 if
 (
+!
 textFragmentDataAtCaret
 .
-IsPreformatted
+IsWhiteSpaceCollapsible
 (
 )
 )

@@ -8899,7 +8899,7 @@ aContent
 *
 *
 *
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 )
 checks
@@ -8926,8 +8926,9 @@ layout
 /
 static
 bool
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
+const
 nsIContent
 &
 aContent

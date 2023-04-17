@@ -7109,13 +7109,15 @@ to
 handle
 tabs
 .
+const
 bool
-isPRE
+isWhiteSpaceCollapsible
 =
+!
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 pointToInsert
@@ -7279,7 +7281,8 @@ newlines
 .
 if
 (
-isPRE
+!
+isWhiteSpaceCollapsible
 |
 |
 IsInPlaintextMode
@@ -14517,7 +14520,7 @@ IsCharASCIISpaceOrNBSP
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 precedingCharPoint
@@ -14576,7 +14579,7 @@ IsCharASCIISpaceOrNBSP
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 followingCharPoint
@@ -39538,7 +39541,7 @@ IsText
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
 *
 nextEditableContent

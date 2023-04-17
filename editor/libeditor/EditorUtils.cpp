@@ -4175,8 +4175,9 @@ bool
 EditorUtils
 :
 :
-IsContentPreformatted
+IsWhiteSpacePreformatted
 (
+const
 nsIContent
 &
 aContent
