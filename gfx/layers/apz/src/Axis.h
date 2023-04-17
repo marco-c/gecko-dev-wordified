@@ -2036,12 +2036,6 @@ OverscrollBehaviorAllowsOverscrollEffect
 )
 const
 ;
-bool
-AllowOverscroll
-(
-)
-const
-;
 virtual
 CSSToParentLayerScale
 GetAxisScale
