@@ -167,7 +167,7 @@ freeze
 {
 update
 (
-browser
+permanentKey
 data
 )
 {
@@ -175,7 +175,7 @@ TabStateInternal
 .
 update
 (
-browser
+permanentKey
 data
 )
 ;
@@ -214,7 +214,7 @@ extData
 }
 copyFromCache
 (
-browser
+permanentKey
 tabData
 options
 )
@@ -223,7 +223,7 @@ TabStateInternal
 .
 copyFromCache
 (
-browser
+permanentKey
 tabData
 options
 )
@@ -254,7 +254,7 @@ script
 /
 update
 (
-browser
+permanentKey
 {
 data
 }
@@ -264,7 +264,7 @@ TabStateCache
 .
 update
 (
-browser
+permanentKey
 data
 )
 ;
@@ -702,6 +702,8 @@ this
 copyFromCache
 (
 browser
+.
+permanentKey
 tabData
 options
 )
@@ -1009,11 +1011,9 @@ tabData
 *
 *
 param
-browser
+permanentKey
 (
-xul
-:
-browser
+object
 )
 *
 The
@@ -1066,7 +1066,7 @@ data
 /
 copyFromCache
 (
-browser
+permanentKey
 tabData
 options
 =
@@ -1081,7 +1081,7 @@ TabStateCache
 .
 get
 (
-browser
+permanentKey
 )
 ;
 if
