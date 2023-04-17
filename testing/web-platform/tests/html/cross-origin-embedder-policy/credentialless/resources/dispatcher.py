@@ -274,6 +274,12 @@ stash
 take
 (
 uuid
+'
+/
+coep
+-
+credentialless
+'
 )
 or
 [
@@ -461,6 +467,12 @@ put
 (
 uuid
 queue
+'
+/
+coep
+-
+credentialless
+'
 )
     
 return
