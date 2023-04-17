@@ -6677,7 +6677,7 @@ enableGeneration
 ;
 this
 .
-showItem
+setItemAttr
 (
 "
 passwordmgr
@@ -6686,6 +6686,9 @@ items
 -
 separator
 "
+"
+ensureHidden
+"
 showUseSavedLogin
 |
 |
@@ -6693,6 +6696,10 @@ showGenerate
 |
 |
 showManage
+?
+null
+:
+true
 )
 ;
 }
