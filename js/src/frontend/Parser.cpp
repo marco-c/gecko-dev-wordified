@@ -1188,7 +1188,7 @@ alloc_
 (
 compilationState
 .
-allocScope
+parserAllocScope
 .
 alloc
 (
@@ -1425,7 +1425,7 @@ handler_
 cx
 compilationState
 .
-allocScope
+parserAllocScope
 .
 alloc
 (
@@ -64124,7 +64124,7 @@ skip
 this
 .
 LifoAllocScope
-allocScope
+parserAllocScope
 (
 &
 cx_
@@ -64413,7 +64413,7 @@ length
 ;
 {
 LifoAllocScope
-scopeAlloc
+regExpAllocScope
 (
 &
 alloc_

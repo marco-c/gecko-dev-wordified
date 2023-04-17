@@ -2165,7 +2165,7 @@ Unit
 newRegExp
 .
 LifoAllocScope
-allocScope
+regExpAllocScope
 (
 &
 cx
@@ -3749,7 +3749,7 @@ false
 ;
 }
 LifoAllocScope
-allocScope
+parserAllocScope
 (
 &
 cx
@@ -3773,7 +3773,7 @@ CompilationState
 compilationState
 (
 cx
-allocScope
+parserAllocScope
 input
 )
 ;
