@@ -67,6 +67,7 @@ exported
 getNativeInterface
 waitForMacEventWithInfo
 waitForMacEvent
+waitForStateChange
 NSRange
 NSDictionary
 stringForRange
