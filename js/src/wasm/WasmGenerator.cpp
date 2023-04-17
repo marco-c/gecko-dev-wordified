@@ -6813,16 +6813,6 @@ hugeMemoryEnabled
 (
 )
 ;
-metadata_
--
->
-usesDuplicateImports
-=
-moduleEnv_
--
->
-usesDuplicateImports
-;
 /
 /
 Copy

@@ -440,9 +440,6 @@ elemSegments
 MaybeSectionRange
 codeSection
 ;
-bool
-usesDuplicateImports
-;
 /
 /
 Fields
@@ -510,10 +507,6 @@ features
 TypeDefVector
 (
 )
-)
-usesDuplicateImports
-(
-false
 )
 {
 }
