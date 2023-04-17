@@ -3845,6 +3845,17 @@ WaylandPopupRemoveClosedPopups
 (
 )
 ;
+void
+WaylandPopupSetDirectPosition
+(
+GdkPoint
+*
+aPosition
+GdkRectangle
+*
+aSize
+)
+;
 nsWindow
 *
 WaylandPopupFindLast
