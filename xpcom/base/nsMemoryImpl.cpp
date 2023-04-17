@@ -209,16 +209,6 @@ equivalent
 threshold
 defined
 in
-/
-/
-mobile
-/
-android
-/
-base
-/
-util
-/
 HardwareUtils
 .
 java

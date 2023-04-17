@@ -137,13 +137,6 @@ mobile
 mobile
 /
 android
-/
-base
-"
-"
-mobile
-/
-android
 "
 )
 :
