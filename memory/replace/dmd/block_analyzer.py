@@ -325,6 +325,45 @@ malloc
 (
 "
     
+"
+mozilla
+:
+:
+dmd
+:
+:
+StackTrace
+:
+:
+Get
+(
+"
+    
+"
+mozilla
+:
+:
+dmd
+:
+:
+AllocCallback
+(
+"
+    
+"
+mozilla
+:
+:
+dom
+:
+:
+DOMArena
+:
+:
+Allocate
+(
+"
+    
 #
 This
 one
@@ -581,7 +620,7 @@ int
     
 default
 =
-150
+300
     
 help
 =
@@ -1116,6 +1155,8 @@ r
 )
             
 print
+(
+)
             
 print_trace_segment
 (
@@ -1128,6 +1169,8 @@ r
 )
             
 print
+(
+)
         
 if
 args
