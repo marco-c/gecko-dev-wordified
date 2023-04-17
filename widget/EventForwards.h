@@ -2285,6 +2285,9 @@ Typically
 forward
 "
 button
+eEraser
+=
+5
 }
 ;
 enum
@@ -2362,6 +2365,9 @@ Events
 e5thFlag
 =
 0x10
+eEraserFlag
+=
+0x20
 }
 ;
 enum
