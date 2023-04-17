@@ -1535,6 +1535,15 @@ container_lock
 =
 nullptr
 ;
+container
+-
+>
+initial_draw_cbs
+.
+clear
+(
+)
+;
 }
 void
 moz_container_wayland_add_initial_draw_callback
