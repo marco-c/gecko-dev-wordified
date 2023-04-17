@@ -10249,29 +10249,35 @@ files
 :
                     
 if
-var
-in
 (
                         
+var
+                        
+in
+(
+                            
 "
 FINAL_TARGET_PP_FILES
 "
-                        
+                            
 "
 OBJDIR_PP_FILES
 "
-                        
+                            
 "
 LOCALIZED_PP_FILES
 "
-                    
+                        
 )
+                        
 and
 not
 isinstance
 (
 f
 SourcePath
+)
+                    
 )
 :
                         
