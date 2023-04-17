@@ -257,7 +257,7 @@ code_analysis
 .
 mach_commands
 import
-StaticAnalysis
+_is_ignored_path
         
 config
 =
@@ -282,13 +282,6 @@ cwd
 config
 .
 topsrcdir
-        
-cmd
-=
-StaticAnalysis
-(
-context
-)
         
 command_context
 =
@@ -357,8 +350,6 @@ self
 assertTrue
 (
             
-cmd
-.
 _is_ignored_path
 (
 command_context
@@ -427,8 +418,6 @@ self
 assertTrue
 (
                 
-cmd
-.
 _is_ignored_path
 (
 command_context
@@ -456,8 +445,6 @@ self
 assertTrue
 (
             
-cmd
-.
 _is_ignored_path
 (
 command_context
@@ -485,7 +472,7 @@ code_analysis
 .
 mach_commands
 import
-StaticAnalysis
+get_abspath_files
         
 config
 =
@@ -510,13 +497,6 @@ cwd
 config
 .
 topsrcdir
-        
-cmd
-=
-StaticAnalysis
-(
-context
-)
         
 command_context
 =
@@ -545,8 +525,6 @@ dir
         
 source
 =
-cmd
-.
 get_abspath_files
 (
             
