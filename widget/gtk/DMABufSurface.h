@@ -174,6 +174,13 @@ namespace
 mozilla
 {
 namespace
+gfx
+{
+class
+SourceSurface
+;
+}
+namespace
 layers
 {
 class
@@ -512,7 +519,7 @@ mSurfaceType
 }
 ;
 virtual
-uint32_t
+int
 GetTextureCount
 (
 )
@@ -1465,7 +1472,7 @@ mWlBuffer
 ;
 }
 ;
-uint32_t
+int
 GetTextureCount
 (
 )
@@ -1794,7 +1801,7 @@ aPlane
 ;
 }
 ;
-uint32_t
+int
 GetTextureCount
 (
 )
