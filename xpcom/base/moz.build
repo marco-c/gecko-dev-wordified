@@ -90,6 +90,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIAvailableMemoryWatcherBase
+.
+idl
+"
+"
 nsIConsoleListener
 .
 idl
@@ -784,6 +789,11 @@ cpp
 "
 "
 AvailableMemoryTracker
+.
+cpp
+"
+"
+AvailableMemoryWatcher
 .
 cpp
 "
