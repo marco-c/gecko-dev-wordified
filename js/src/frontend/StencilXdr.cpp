@@ -2219,9 +2219,7 @@ isd
 }
 if
 (
-size
 !
-=
 sisd
 -
 >
@@ -2230,8 +2228,9 @@ get
 )
 -
 >
-computedSize
+validateLayout
 (
+size
 )
 )
 {
