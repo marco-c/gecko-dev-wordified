@@ -209,7 +209,7 @@ page
 *
 property
 {
-string
+number
 }
 type
 *
@@ -217,7 +217,12 @@ The
 type
 of
 data
+see
+Snapshots
 .
+DATA_TYPE
+.
+*
 *
 property
 {
