@@ -5548,7 +5548,7 @@ MinorGC
 %
 6zu
 %
-12p
+14p
 %
 10
 .
@@ -5559,15 +5559,15 @@ MinorGC
 .
 20s
 %
-4
+5
 .
 1f
 %
 %
 %
-5zu
+6zu
 %
-5zu
+6zu
 %
 6
 "
@@ -5653,8 +5653,6 @@ PRate
 "
 "
 OldSz
-"
-"
 NewSz
 Dedup
 "
@@ -5672,6 +5670,9 @@ fprintf
 stderr
 "
 %
+-
+6
+.
 6s
 "
 text
@@ -5777,7 +5778,7 @@ MinorGC
 %
 6zu
 %
-12p
+14p
 TOTALS
 :
 %
