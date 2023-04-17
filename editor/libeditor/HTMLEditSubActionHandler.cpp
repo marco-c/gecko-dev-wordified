@@ -46245,6 +46245,9 @@ ignored
 if
 (
 splitAfterNewBR
+&
+&
+brContent
 )
 {
 /
