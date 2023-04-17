@@ -792,7 +792,7 @@ nr_ip4_port_to_transport_addr
 (
 INADDR_ANY
 0
-IPPROTO_UDP
+IPPROTO_TCP
 &
 sock
 -
@@ -3788,7 +3788,7 @@ nr_ip4_port_to_transport_addr
 (
 INADDR_ANY
 0
-IPPROTO_UDP
+IPPROTO_TCP
 &
 sock
 -
