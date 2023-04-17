@@ -144,6 +144,13 @@ h
 "
 src
 /
+NumberFormatFields
+.
+h
+"
+"
+src
+/
 NumberRangeFormat
 .
 h
@@ -206,6 +213,13 @@ cpp
 src
 /
 NumberFormatFields
+.
+cpp
+"
+"
+src
+/
+NumberFormatFieldsUtil
 .
 cpp
 "
