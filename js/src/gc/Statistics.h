@@ -1229,6 +1229,8 @@ JS
 :
 GCReason
 reason
+bool
+budgetWasIncreased
 )
 ;
 void
@@ -2879,6 +2881,8 @@ JS
 :
 GCReason
 reason
+bool
+budgetWasIncreased
 )
 :
 stats
@@ -2894,6 +2898,7 @@ zoneStats
 options
 budget
 reason
+budgetWasIncreased
 )
 ;
 }

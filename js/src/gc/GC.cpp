@@ -24145,6 +24145,7 @@ gcOptions
 )
 budget
 reason
+budgetWasIncreased
 )
 ;
 IncrementalResult
