@@ -4775,13 +4775,6 @@ static
 bool
 gVerifyReflowEnabled
 ;
-extern
-mozilla
-:
-:
-LazyLogModule
-sApzMvmLog
-;
 bool
 PresShell
 :
@@ -75820,7 +75813,10 @@ MOZ_UNLIKELY
 (
 MOZ_LOG_TEST
 (
-sApzMvmLog
+MobileViewportManager
+:
+:
+gLog
 LogLevel
 :
 :
@@ -75842,7 +75838,10 @@ GetDocumentURI
 ;
 MOZ_LOG
 (
-sApzMvmLog
+MobileViewportManager
+:
+:
+gLog
 LogLevel
 :
 :

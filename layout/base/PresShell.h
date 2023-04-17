@@ -212,6 +212,15 @@ include
 "
 mozilla
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
