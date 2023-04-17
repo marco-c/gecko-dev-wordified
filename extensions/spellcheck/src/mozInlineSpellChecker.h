@@ -1907,11 +1907,11 @@ dom
 Selection
 *
 aSpellCheckSelection
+const
 nsTArray
 <
 nsString
 >
-&
 &
 aWords
 nsTArray
