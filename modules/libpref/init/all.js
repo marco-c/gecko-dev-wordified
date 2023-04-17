@@ -4001,9 +4001,6 @@ the
 PDF
 viewer
 .
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -4014,8 +4011,6 @@ enableXfa
 true
 )
 ;
-#
-endif
 /
 /
 Disable
