@@ -250,11 +250,6 @@ nsHtml5StreamParserPtr
 h
 "
 "
-nsHtml5StreamParserReleaser
-.
-h
-"
-"
 nsHtml5String
 .
 h
