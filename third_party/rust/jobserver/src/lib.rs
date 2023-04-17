@@ -2081,8 +2081,11 @@ CARGO_MAKEFLAGS
 "
 )
 .
-or
+or_else
 (
+|
+_
+|
 env
 :
 :
@@ -2094,8 +2097,11 @@ MAKEFLAGS
 )
 )
 .
-or
+or_else
 (
+|
+_
+|
 env
 :
 :
@@ -2445,8 +2451,6 @@ clone
 (
 )
 data
-:
-data
 disabled
 :
 false
@@ -2706,6 +2710,8 @@ format
 !
 (
 "
+-
+j
 -
 -
 jobserver
