@@ -156,11 +156,6 @@ GMPProvider
 .
 jsm
 "
-"
-PluginProvider
-.
-jsm
-"
 ]
 TESTING_JS_MODULES
 +
