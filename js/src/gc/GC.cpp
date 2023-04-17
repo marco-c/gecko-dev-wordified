@@ -55481,14 +55481,11 @@ checkUniqueIdTableAfterMovingGC
 zone
 -
 >
-checkInitialShapesTableAfterMovingGC
+shapeZone
 (
 )
-;
-zone
--
->
-checkBaseShapeTableAfterMovingGC
+.
+checkTablesAfterMovingGC
 (
 )
 ;
