@@ -140,6 +140,11 @@ FetchEventOpProxyParent
 h
 "
 "
+NavigationPreloadManager
+.
+h
+"
+"
 ServiceWorker
 .
 h
@@ -291,6 +296,11 @@ cpp
 "
 "
 FetchEventOpProxyParent
+.
+cpp
+"
+"
+NavigationPreloadManager
 .
 cpp
 "
