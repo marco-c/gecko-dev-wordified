@@ -1004,6 +1004,12 @@ message
 /
 IDX_MESSAGE
 "
+cause
+"
+/
+/
+IDX_CAUSE
+"
 errors
 "
 /
