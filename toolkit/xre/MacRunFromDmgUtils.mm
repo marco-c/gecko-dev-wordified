@@ -263,12 +263,17 @@ nsString
 h
 "
 #
+ifdef
+MOZ_UPDATER
+#
 include
 "
 nsUpdateDriver
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1574,6 +1579,9 @@ arguments
 )
 ;
 }
+#
+ifdef
+MOZ_UPDATER
 bool
 LaunchElevatedDmgInstall
 (
@@ -1722,6 +1730,8 @@ return
 didSucceed
 ;
 }
+#
+endif
 /
 /
 Note
@@ -1804,6 +1814,9 @@ installSuccessful
 true
 ;
 }
+#
+ifdef
+MOZ_UPDATER
 /
 /
 The
@@ -1996,6 +2009,8 @@ aDestPath
 ]
 ;
 }
+#
+endif
 if
 (
 !
