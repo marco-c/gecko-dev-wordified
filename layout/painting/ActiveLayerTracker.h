@@ -137,14 +137,14 @@ class
 nsCSSPropertyIDSet
 ;
 class
-nsDisplayListBuilder
-;
-class
 nsDOMCSSDeclaration
 ;
 namespace
 mozilla
 {
+class
+nsDisplayListBuilder
+;
 /
 *
 *

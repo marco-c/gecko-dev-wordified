@@ -148,6 +148,9 @@ h
 class
 nsWindowSizes
 ;
+namespace
+mozilla
+{
 /
 *
 *
@@ -1456,6 +1459,11 @@ mMetrics
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -1641,6 +1641,9 @@ aFontSizeInflation
 )
 ;
 }
+namespace
+mozilla
+{
 #
 if
 defined
@@ -2071,6 +2074,11 @@ color
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
 void
 nsMathMLFrame
 :

@@ -265,9 +265,6 @@ nsPresContext
 class
 nsIContent
 ;
-class
-nsDisplayListBuilder
-;
 namespace
 mozilla
 {
@@ -276,6 +273,9 @@ ContainerLayerParameters
 ;
 class
 DisplayItemClip
+;
+class
+nsDisplayListBuilder
 ;
 namespace
 layers
@@ -4041,6 +4041,9 @@ virtual
 bool
 DecideScrollableLayer
 (
+mozilla
+:
+:
 nsDisplayListBuilder
 *
 aBuilder

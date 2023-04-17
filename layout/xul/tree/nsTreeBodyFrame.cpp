@@ -16151,6 +16151,9 @@ return
 NS_OK
 ;
 }
+namespace
+mozilla
+{
 class
 nsDisplayTreeBody
 final
@@ -16461,6 +16464,11 @@ snap
 }
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 ifdef
 XP_MACOSX
