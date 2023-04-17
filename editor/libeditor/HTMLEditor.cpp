@@ -626,12 +626,6 @@ HTMLEditUtils
 :
 WalkTreeOption
 ;
-const
-char16_t
-kNBSP
-=
-160
-;
 /
 /
 Some
@@ -33910,8 +33904,10 @@ existingValue
 .
 Append
 (
-'
-'
+HTMLEditUtils
+:
+:
+kSpace
 )
 ;
 existingValue
