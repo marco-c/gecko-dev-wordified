@@ -190,20 +190,9 @@ nsServiceManagerUtils
 .
 h
 "
-/
-/
-avoid
-redefined
-macro
-in
-unified
-build
-#
-undef
-LOG
 #
 define
-LOG
+LOGMPRIS
 (
 msg
 .
@@ -1549,7 +1538,7 @@ gchar
 aName
 )
 {
-LOG
+LOGMPRIS
 (
 "
 OnNameAcquired
@@ -1580,7 +1569,7 @@ gchar
 aName
 )
 {
-LOG
+LOGMPRIS
 (
 "
 OnNameLost
@@ -1653,7 +1642,7 @@ _can_
 return
 false
 .
-LOG
+LOGMPRIS
 (
 "
 Unable
@@ -1727,7 +1716,7 @@ _can_
 return
 false
 .
-LOG
+LOGMPRIS
 (
 "
 Unable
@@ -1764,7 +1753,7 @@ error
 =
 nullptr
 ;
-LOG
+LOGMPRIS
 (
 "
 OnBusAcquired
@@ -1821,7 +1810,7 @@ mRootRegistrationId
 0
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -1905,7 +1894,7 @@ mPlayerRegistrationId
 0
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -2056,7 +2045,7 @@ if
 mIntrospectionData
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -2433,7 +2422,7 @@ aKey
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 %
@@ -2452,7 +2441,7 @@ return
 false
 ;
 }
-LOG
+LOGMPRIS
 (
 "
 Press
@@ -2487,7 +2476,7 @@ MediaSessionPlaybackState
 aState
 )
 {
-LOG
+LOGMPRIS
 (
 "
 SetPlaybackState
@@ -2575,7 +2564,7 @@ builder
 nullptr
 )
 ;
-LOG
+LOGMPRIS
 (
 "
 Emitting
@@ -2847,7 +2836,7 @@ mFetchingUrl
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 No
@@ -2937,7 +2926,7 @@ mCurrentImageUrl
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 No
@@ -3063,7 +3052,7 @@ builder
 nullptr
 )
 ;
-LOG
+LOGMPRIS
 (
 "
 Emit
@@ -3208,7 +3197,7 @@ Length
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Stop
@@ -3267,7 +3256,7 @@ mSrc
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Skip
@@ -3363,7 +3352,7 @@ imgIContainer
 aImage
 )
 {
-LOG
+LOGMPRIS
 (
 "
 The
@@ -3451,7 +3440,7 @@ size
 data
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -3491,7 +3480,7 @@ mCurrentImageUrl
 =
 mFetchingUrl
 ;
-LOG
+LOGMPRIS
 (
 "
 The
@@ -3520,7 +3509,7 @@ get
 }
 else
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -3554,7 +3543,7 @@ self
 bool
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -3658,7 +3647,7 @@ NativePath
 )
 )
 ;
-LOG
+LOGMPRIS
 (
 "
 The
@@ -3720,7 +3709,7 @@ InitLocalImageFile
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -3792,7 +3781,7 @@ written
 aDataSize
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -3903,7 +3892,7 @@ rv
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -4097,7 +4086,7 @@ rv
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -4135,7 +4124,7 @@ rv
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -4207,7 +4196,7 @@ rv
 mLocalImageFolder
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -4272,7 +4261,7 @@ rv
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -4318,7 +4307,7 @@ rv
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -4420,7 +4409,7 @@ closing
 the
 MPRIS
 .
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -4431,7 +4420,7 @@ images
 )
 ;
 }
-LOG
+LOGMPRIS
 (
 "
 Abandon
@@ -4976,7 +4965,7 @@ mSupportedKeys
 supportedKeys
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Supported
@@ -5045,7 +5034,7 @@ keyWasSupported
 keyIsSupported
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Emit
@@ -5160,7 +5149,7 @@ end
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 No
@@ -5260,7 +5249,7 @@ builder
 nullptr
 )
 ;
-LOG
+LOGMPRIS
 (
 "
 Emit
@@ -5315,7 +5304,7 @@ if
 mConnection
 )
 {
-LOG
+LOGMPRIS
 (
 "
 No
@@ -5368,7 +5357,7 @@ error
 )
 )
 {
-LOG
+LOGMPRIS
 (
 "
 Failed
@@ -5413,6 +5402,9 @@ return
 true
 ;
 }
+#
+undef
+LOGMPRIS
 }
 /
 /

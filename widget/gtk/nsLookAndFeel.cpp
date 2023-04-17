@@ -370,9 +370,6 @@ mozilla
 LookAndFeel
 ;
 #
-undef
-LOG
-#
 ifdef
 MOZ_LOGGING
 #
@@ -407,7 +404,7 @@ gWidgetLog
 ;
 #
 define
-LOG
+LOGLNF
 (
 args
 )
@@ -427,7 +424,7 @@ args
 else
 #
 define
-LOG
+LOGLNF
 (
 args
 )
@@ -6239,7 +6236,7 @@ first
 .
 .
 .
-LOG
+LOGLNF
 (
 (
 "
@@ -7360,7 +7357,7 @@ mAltTheme
 mSystemTheme
 ;
 }
-LOG
+LOGLNF
 (
 (
 "
@@ -10087,3 +10084,6 @@ MOZ_GTK_SCROLLBAR_THUMB_VERTICAL
 )
 ;
 }
+#
+undef
+LOGLNF

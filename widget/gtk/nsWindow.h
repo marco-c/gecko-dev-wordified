@@ -317,9 +317,6 @@ h
 #
 endif
 #
-undef
-LOG
-#
 ifdef
 MOZ_LOGGING
 #

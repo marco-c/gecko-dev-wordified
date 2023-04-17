@@ -552,9 +552,6 @@ MOZ_GTK_DRAG_RESULT_ERROR
 }
 ;
 #
-undef
-LOG
-#
 ifdef
 MOZ_LOGGING
 extern
@@ -566,10 +563,11 @@ gWidgetDragLog
 ;
 #
 define
-LOG
+LOGDRAGSERVICE
 (
 args
 )
+\
 MOZ_LOG
 (
 gWidgetDragLog
@@ -586,7 +584,7 @@ args
 else
 #
 define
-LOG
+LOGDRAGSERVICE
 (
 args
 )
@@ -1036,7 +1034,7 @@ up
 our
 logging
 module
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -1073,7 +1071,7 @@ nsDragService
 (
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -1220,7 +1218,7 @@ application
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -2106,7 +2104,7 @@ nsIContentPolicy
 TYPE_OTHER
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -3047,7 +3045,7 @@ StartDragSession
 (
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -3080,7 +3078,7 @@ uint32_t
 aKeyModifiers
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -3209,7 +3207,7 @@ bool
 aCanDrop
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -3243,7 +3241,7 @@ bool
 aCanDrop
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -3889,7 +3887,7 @@ uint32_t
 aNumItems
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -3907,7 +3905,7 @@ if
 mTargetWidget
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4028,7 +4026,7 @@ aNumItems
 1
 ;
 }
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4058,7 +4056,7 @@ uint32_t
 aItemIndex
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4096,7 +4094,7 @@ if
 mTargetWidget
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4194,7 +4192,7 @@ if
 isList
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4245,7 +4243,7 @@ flavors
 i
 ]
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4298,7 +4296,7 @@ nsISupports
 >
 data
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4347,7 +4345,7 @@ rv
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4362,7 +4360,7 @@ n
 continue
 ;
 }
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4397,7 +4395,7 @@ rv
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4524,7 +4522,7 @@ get
 FALSE
 )
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4572,7 +4570,7 @@ if
 mTargetDragData
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4592,7 +4590,7 @@ true
 }
 else
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4939,7 +4937,7 @@ kUnicodeMime
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -4989,7 +4987,7 @@ if
 mTargetDragData
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5045,7 +5043,7 @@ if
 convertedText
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5107,7 +5105,7 @@ clipboard
 }
 else
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5152,7 +5150,7 @@ if
 mTargetDragData
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5205,7 +5203,7 @@ if
 convertedText
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5338,7 +5336,7 @@ kURLMime
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5389,7 +5387,7 @@ if
 mTargetDragData
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5447,7 +5445,7 @@ if
 convertedText
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5496,7 +5494,7 @@ true
 }
 else
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5522,7 +5520,7 @@ if
 dataFound
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5569,7 +5567,7 @@ if
 mTargetDragData
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5622,7 +5620,7 @@ if
 convertedText
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5672,7 +5670,7 @@ true
 }
 else
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5812,7 +5810,7 @@ of
 this
 loop
 !
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5849,7 +5847,7 @@ bool
 _retval
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5907,7 +5905,7 @@ if
 mTargetWidget
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -5981,7 +5979,7 @@ if
 isList
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6115,7 +6113,7 @@ Length
 i
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6153,7 +6151,7 @@ aDataFlavor
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6281,7 +6279,7 @@ gdk_atom_name
 atom
 )
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6316,7 +6314,7 @@ aDataFlavor
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6398,7 +6396,7 @@ kFileMime
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6490,7 +6488,7 @@ kURLMime
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6590,7 +6588,7 @@ kFileMime
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6693,7 +6691,7 @@ GdkDragContext
 aDragContext
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6797,7 +6795,7 @@ nsWaylandDragContext
 aDragContext
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -6915,7 +6913,7 @@ guint32
 aTime
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -7058,7 +7056,7 @@ copy
 }
 else
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -7390,7 +7388,7 @@ GdkAtom
 aFlavor
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -7406,7 +7404,7 @@ aFlavor
 )
 )
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -7530,7 +7528,7 @@ Length
 (
 )
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -7594,7 +7592,7 @@ aFlavor
 mTargetTime
 )
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -7631,7 +7629,7 @@ the
 number
 of
 iterations
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -7712,7 +7710,7 @@ true
 }
 #
 endif
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -7941,7 +7939,7 @@ flags
 =
 0
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -8108,7 +8106,7 @@ flags
 =
 0
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -8251,7 +8249,7 @@ flags
 =
 0
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -8335,7 +8333,7 @@ flags
 =
 0
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -8445,7 +8443,7 @@ flags
 =
 0
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -8504,7 +8502,7 @@ flags
 =
 0
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -8608,7 +8606,7 @@ flags
 =
 0
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -8682,7 +8680,7 @@ flags
 =
 0
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -8945,7 +8943,7 @@ gint
 aResult
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -9120,7 +9118,7 @@ scale
 )
 )
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -9369,7 +9367,7 @@ aResult
 MOZ_GTK_DRAG_RESULT_NO_TARGET
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -9759,7 +9757,7 @@ guint32
 aTime
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -9794,7 +9792,7 @@ if
 typeName
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -9813,7 +9811,7 @@ n
 return
 ;
 }
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -9868,7 +9866,7 @@ if
 mSourceDataItems
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -10245,7 +10243,7 @@ g_free
 gfullpath
 )
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -10349,7 +10347,7 @@ hostname
 )
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -11379,7 +11377,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -11436,7 +11434,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -11645,7 +11643,7 @@ aResult
 =
 MOZ_GTK_DRAG_RESULT_NO_TARGET
 ;
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -11667,7 +11665,7 @@ break
 }
 #
 endif
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -11804,7 +11802,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -12955,7 +12953,7 @@ mTargetWindow
 mPendingWindow
 )
 {
-LOG
+LOGDRAGSERVICE
 (
 (
 "
@@ -14467,3 +14465,6 @@ ComputeCurrentKeyModifiers
 )
 ;
 }
+#
+undef
+LOGDRAGSERVICE

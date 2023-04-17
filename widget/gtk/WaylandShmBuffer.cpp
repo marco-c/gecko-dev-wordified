@@ -178,9 +178,6 @@ h
 For
 PR_GetEnv
 #
-undef
-LOG
-#
 ifdef
 MOZ_LOGGING
 #

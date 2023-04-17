@@ -743,9 +743,6 @@ nsWaylandDisplay
 h
 "
 #
-undef
-LOG
-#
 ifdef
 MOZ_LOGGING
 #
