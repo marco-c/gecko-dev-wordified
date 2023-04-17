@@ -19779,7 +19779,6 @@ dump_buffered
                 
 msg
 =
-(
 "
 application
 terminated
@@ -19791,7 +19790,6 @@ s
 "
 %
 status
-)
                 
 #
 self
@@ -19962,7 +19960,28 @@ log
 .
 error
 (
+                        
+"
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+%
+s
+|
+%
+s
+"
+%
+(
+self
+.
+lastTestSeen
 msg
+)
+                    
 )
             
 else
