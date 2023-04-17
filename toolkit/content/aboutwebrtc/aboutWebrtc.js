@@ -4745,7 +4745,7 @@ label
 {
 packets
 :
-packetsReceived
+packetsLost
 }
 )
 )
