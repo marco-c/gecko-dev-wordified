@@ -867,10 +867,10 @@ reset
 ;
 if
 (
-!
-JSID_IS_STRING
-(
 aId
+.
+isSymbol
+(
 )
 )
 {
@@ -969,9 +969,7 @@ we
 re
 resolving
 another
-non
--
-string
+symbol
 property
 .
 return
@@ -1018,10 +1016,7 @@ str
 init
 (
 aCx
-JSID_TO_STRING
-(
 aId
-)
 )
 )
 {
