@@ -2097,6 +2097,15 @@ source
 url
 }
 ;
+if
+(
+source
+.
+actor
+instanceof
+JSWindowActorParent
+)
+{
 let
 browser
 =
@@ -2158,6 +2167,7 @@ convert
 (
 )
 ;
+}
 }
 return
 sender
