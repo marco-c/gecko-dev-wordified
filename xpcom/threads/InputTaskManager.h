@@ -145,6 +145,13 @@ StaticPrefs_dom
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 namespace
 mozilla
 {
