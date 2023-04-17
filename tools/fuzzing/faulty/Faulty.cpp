@@ -4403,10 +4403,8 @@ headerSize
 aMsg
 -
 >
-HeaderSizeFromData
+HeaderSize
 (
-nullptr
-nullptr
 )
 ;
 if
