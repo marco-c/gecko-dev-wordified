@@ -6,9 +6,11 @@ script
 =
 constants
 .
-sub
-.
 js
+?
+pipe
+=
+sub
 async_test
 (
 t
