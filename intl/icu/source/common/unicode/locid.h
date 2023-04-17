@@ -4874,6 +4874,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -4896,7 +4899,7 @@ the
 status
 code
 *
-stable
+draft
 ICU
 67
 *
@@ -4912,6 +4915,11 @@ UErrorCode
 status
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *

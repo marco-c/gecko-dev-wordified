@@ -2528,7 +2528,7 @@ function
 s
 /
 /
-counterpart
+cunterpart
 on
 DateFormat
 return

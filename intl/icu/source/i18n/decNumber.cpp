@@ -27661,7 +27661,7 @@ invbuff
 ;
 /
 *
-assume
+asssume
 use
 fixed
 buffer
@@ -64395,7 +64395,7 @@ loop
 *
 iterations
 by
-approximately
+appoximately
 a
 third
 with

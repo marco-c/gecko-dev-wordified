@@ -485,7 +485,7 @@ status
 /
 *
 *
-Convenient
+Conveninent
 method
 returning
 CLDR

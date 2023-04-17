@@ -1148,7 +1148,7 @@ for
 this
 time
 zone
-applicable
+applicalbe
 *
 for
 dates
@@ -1240,7 +1240,7 @@ Writes
 RFC2445
 VTIMEZONE
 data
-applicable
+applicalbe
 for
 the
 specified

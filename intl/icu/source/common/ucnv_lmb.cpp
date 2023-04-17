@@ -715,7 +715,7 @@ size
 of
 a
 LMBCS
-character
+chjaracter
 is
 3
 bytes
@@ -1487,7 +1487,7 @@ of
 add
 the
 control
-character
+chaarcter
 value
 as
 the

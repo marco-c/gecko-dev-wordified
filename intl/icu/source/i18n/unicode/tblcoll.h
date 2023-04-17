@@ -1015,7 +1015,6 @@ Collator
 class
 U_I18N_API
 RuleBasedCollator
-U_FINAL
 :
 public
 Collator

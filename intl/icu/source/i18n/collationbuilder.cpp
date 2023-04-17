@@ -5310,7 +5310,7 @@ prefix
 and
 the
 string
-begin
+beging
 with
 NFC
 boundaries

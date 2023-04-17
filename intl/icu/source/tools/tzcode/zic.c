@@ -17364,7 +17364,7 @@ shift
 at
 the
 *
-beginning
+begining
 of
 the
 year

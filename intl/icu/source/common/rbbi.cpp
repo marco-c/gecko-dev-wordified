@@ -6588,7 +6588,7 @@ endif
 /
 /
 handleNext
-always
+alway
 sets
 the
 break

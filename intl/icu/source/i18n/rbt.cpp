@@ -764,7 +764,7 @@ status
 *
 *
 *
-Convenience
+Covenience
 constructor
 with
 no
@@ -818,7 +818,7 @@ status
 *
 *
 *
-Convenience
+Covenience
 constructor
 with
 no
@@ -873,7 +873,7 @@ status
 *
 *
 *
-Convenience
+Covenience
 constructor
 with
 FORWARD

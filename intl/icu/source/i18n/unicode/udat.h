@@ -6916,6 +6916,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -6924,7 +6927,7 @@ Hour
 Cycle
 .
 *
-stable
+draft
 ICU
 67
 *
@@ -6948,7 +6951,7 @@ pm
 11
 )
 *
-stable
+draft
 ICU
 67
 *
@@ -6969,7 +6972,7 @@ pm
 12
 )
 *
-stable
+draft
 ICU
 67
 *
@@ -6988,7 +6991,7 @@ day
 23
 )
 *
-stable
+draft
 ICU
 67
 *
@@ -7007,7 +7010,7 @@ day
 24
 )
 *
-stable
+draft
 ICU
 67
 *
@@ -7016,6 +7019,13 @@ UDAT_HOUR_CYCLE_24
 }
 UDateFormatHourCycle
 ;
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 #
 if
 U_SHOW_CPLUSPLUS_API

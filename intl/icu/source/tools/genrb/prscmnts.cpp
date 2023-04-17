@@ -712,7 +712,7 @@ like
 "
 at
 the
-beginning
+begining
 of
 the
 line

@@ -331,7 +331,7 @@ KEY_SPACE_SIZE
 65536
 #
 define
-RESLIST_INT_VECTOR_INIT_SIZE
+RESLIST_MAX_INT_VECTOR
 2048
 #
 include
@@ -2878,11 +2878,8 @@ byteOffset
 TODO
 :
 UVector32
-size_t
+uint32_t
 fCount
-;
-size_t
-fSize
 ;
 uint32_t
 *

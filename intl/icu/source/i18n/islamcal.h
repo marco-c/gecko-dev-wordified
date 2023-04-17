@@ -873,7 +873,7 @@ approximations
 of
 the
 true
-astronomical
+astronical
 *
 calculations
 .

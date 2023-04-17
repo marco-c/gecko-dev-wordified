@@ -2969,7 +2969,7 @@ effect
 annually
 .
 The
-calendar
+calenday
 system
 used
 for
