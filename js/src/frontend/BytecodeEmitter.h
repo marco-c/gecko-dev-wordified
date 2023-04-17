@@ -2780,7 +2780,7 @@ for
 details
 around
 brandLoc
-bool
+void
 lookupPrivate
 (
 TaggedParserAtomIndex

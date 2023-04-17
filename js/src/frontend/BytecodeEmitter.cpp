@@ -1750,7 +1750,7 @@ name
 )
 ;
 }
-bool
+void
 BytecodeEmitter
 :
 :
@@ -1769,7 +1769,6 @@ NameLocation
 brandLoc
 )
 {
-return
 innermostEmitterScope
 (
 )

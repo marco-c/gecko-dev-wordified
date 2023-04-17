@@ -6703,7 +6703,7 @@ return
 environments
 ;
 }
-bool
+void
 EmitterScope
 :
 :
@@ -7231,7 +7231,6 @@ Nothing
 ;
 }
 return
-true
 ;
 }
 if
@@ -7378,9 +7377,6 @@ Nothing
 )
 ;
 }
-return
-true
-;
 }
 Maybe
 <
