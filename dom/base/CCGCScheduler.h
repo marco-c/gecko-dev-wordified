@@ -848,7 +848,7 @@ aReason
 JSObject
 *
 aObj
-uint32_t
+TimeDuration
 aDelay
 =
 0
@@ -942,7 +942,7 @@ javascript_options_gc_delay_interslice
 void
 EnsureGCRunner
 (
-uint32_t
+TimeDuration
 aDelay
 )
 ;
