@@ -7246,6 +7246,8 @@ aLoadFlags
 void
 SetTitleOnHistoryEntry
 (
+bool
+aUpdateEntryInSessionHistory
 )
 ;
 void
