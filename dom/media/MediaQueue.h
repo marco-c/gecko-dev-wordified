@@ -740,6 +740,7 @@ int64_t
 Duration
 (
 )
+const
 {
 RecursiveMutexAutoLock
 lock
