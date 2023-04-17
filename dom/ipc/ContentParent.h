@@ -1529,16 +1529,6 @@ BroadcastFontListChanged
 ;
 static
 void
-BroadcastShmBlockAdded
-(
-uint32_t
-aGeneration
-uint32_t
-aIndex
-)
-;
-static
-void
 BroadcastThemeUpdate
 (
 widget
