@@ -1137,11 +1137,8 @@ mHandlesFetch
 Unknown
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-ServiceWorkerParentInterceptEnabled
-(
-)
 XRE_GetProcessType
 (
 )
