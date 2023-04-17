@@ -3243,7 +3243,7 @@ UpdateGlass
 )
 ;
 bool
-WithinDraggableRegion
+IsSimulatedClientArea
 (
 int32_t
 clientX
@@ -3555,7 +3555,7 @@ bool
 mMousePresent
 ;
 bool
-mMouseInDraggableArea
+mSimulatedClientArea
 ;
 bool
 mDestroyCalled
