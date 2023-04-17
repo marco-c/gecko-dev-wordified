@@ -5505,11 +5505,6 @@ in
 try_name
 :
                     
-#
-See
-bug
-1704092
-                    
 if
 "
 tp6
@@ -5518,7 +5513,7 @@ in
 try_name
 and
 "
-macosx
+macosx1014
 "
 in
 platform
@@ -5538,11 +5533,6 @@ in
 try_name
 :
                     
-#
-See
-bug
-1704092
-                    
 if
 "
 tp6
@@ -5551,7 +5541,7 @@ in
 try_name
 and
 "
-macosx
+macosx1014
 "
 in
 platform
