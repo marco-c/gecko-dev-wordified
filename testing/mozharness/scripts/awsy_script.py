@@ -216,16 +216,6 @@ CodeCoverageMixin
     
 code_coverage_config_options
 )
-PY2
-=
-sys
-.
-version_info
-.
-major
-=
-=
-2
 scripts_path
 =
 os
@@ -1753,12 +1743,6 @@ runtime_testvars_file
 open
 (
 runtime_testvars_path
-"
-wb
-"
-if
-PY2
-else
 "
 w
 "
