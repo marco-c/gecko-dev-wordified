@@ -193,6 +193,12 @@ kwargs
         
 self
 .
+browsertime
+=
+True
+        
+self
+.
 browsertime_failure
 =
 "
