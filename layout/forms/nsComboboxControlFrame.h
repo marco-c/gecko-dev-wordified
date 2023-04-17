@@ -1623,17 +1623,6 @@ mDropdownFrame
 dropdown
 list
 frame
-nsListControlFrame
-*
-mListControlFrame
-;
-/
-/
-ListControl
-for
-the
-dropdown
-frame
 /
 /
 The
