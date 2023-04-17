@@ -311,6 +311,11 @@ TextAttrs
 cpp
 "
 "
+TextLeafRange
+.
+cpp
+"
+"
 TextRange
 .
 cpp
