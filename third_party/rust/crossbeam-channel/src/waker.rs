@@ -81,6 +81,9 @@ channel
 operation
 .
 pub
+(
+crate
+)
 struct
 Entry
 {
@@ -91,6 +94,9 @@ The
 operation
 .
 pub
+(
+crate
+)
 oper
 :
 Operation
@@ -101,6 +107,9 @@ Optional
 packet
 .
 pub
+(
+crate
+)
 packet
 :
 usize
@@ -117,6 +126,9 @@ this
 operation
 .
 pub
+(
+crate
+)
 cx
 :
 Context
@@ -164,6 +176,9 @@ becomes
 ready
 .
 pub
+(
+crate
+)
 struct
 Waker
 {
@@ -217,6 +232,9 @@ Waker
 inline
 ]
 pub
+(
+crate
+)
 fn
 new
 (
@@ -258,6 +276,9 @@ operation
 inline
 ]
 pub
+(
+crate
+)
 fn
 register
 (
@@ -299,6 +320,9 @@ packet
 inline
 ]
 pub
+(
+crate
+)
 fn
 register_with_packet
 (
@@ -351,6 +375,9 @@ operation
 inline
 ]
 pub
+(
+crate
+)
 fn
 unregister
 (
@@ -453,6 +480,9 @@ up
 inline
 ]
 pub
+(
+crate
+)
 fn
 try_select
 (
@@ -692,6 +722,9 @@ thread
 inline
 ]
 pub
+(
+crate
+)
 fn
 can_select
 (
@@ -781,6 +814,9 @@ ready
 inline
 ]
 pub
+(
+crate
+)
 fn
 watch
 (
@@ -835,6 +871,9 @@ ready
 inline
 ]
 pub
+(
+crate
+)
 fn
 unwatch
 (
@@ -880,6 +919,9 @@ ready
 inline
 ]
 pub
+(
+crate
+)
 fn
 notify
 (
@@ -952,6 +994,9 @@ disconnected
 inline
 ]
 pub
+(
+crate
+)
 fn
 disconnect
 (
@@ -1139,6 +1184,9 @@ for
 synchronization
 .
 pub
+(
+crate
+)
 struct
 SyncWaker
 {
@@ -1185,6 +1233,9 @@ SyncWaker
 inline
 ]
 pub
+(
+crate
+)
 fn
 new
 (
@@ -1236,6 +1287,9 @@ operation
 inline
 ]
 pub
+(
+crate
+)
 fn
 register
 (
@@ -1317,6 +1371,9 @@ thread
 inline
 ]
 pub
+(
+crate
+)
 fn
 unregister
 (
@@ -1412,6 +1469,9 @@ up
 inline
 ]
 pub
+(
+crate
+)
 fn
 notify
 (
@@ -1518,6 +1578,9 @@ ready
 inline
 ]
 pub
+(
+crate
+)
 fn
 watch
 (
@@ -1597,6 +1660,9 @@ ready
 inline
 ]
 pub
+(
+crate
+)
 fn
 unwatch
 (
@@ -1672,6 +1738,9 @@ disconnected
 inline
 ]
 pub
+(
+crate
+)
 fn
 disconnect
 (

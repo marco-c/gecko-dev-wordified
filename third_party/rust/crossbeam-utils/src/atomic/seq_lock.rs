@@ -35,6 +35,9 @@ stamped
 lock
 .
 pub
+(
+crate
+)
 struct
 SeqLock
 {
@@ -92,6 +95,9 @@ impl
 SeqLock
 {
 pub
+(
+crate
+)
 const
 fn
 new
@@ -145,6 +151,9 @@ reads
 inline
 ]
 pub
+(
+crate
+)
 fn
 optimistic_read
 (
@@ -245,6 +254,9 @@ optimistic_read
 inline
 ]
 pub
+(
+crate
+)
 fn
 validate_read
 (
@@ -298,6 +310,9 @@ writing
 inline
 ]
 pub
+(
+crate
+)
 fn
 write
 (
@@ -394,6 +409,9 @@ when
 dropped
 .
 pub
+(
+crate
+)
 struct
 SeqLockWriteGuard
 {
@@ -441,6 +459,9 @@ stamp
 inline
 ]
 pub
+(
+crate
+)
 fn
 abort
 (

@@ -128,6 +128,9 @@ reference
 counter
 .
 pub
+(
+crate
+)
 fn
 new
 <
@@ -227,6 +230,9 @@ sending
 side
 .
 pub
+(
+crate
+)
 struct
 Sender
 <
@@ -291,6 +297,9 @@ sender
 reference
 .
 pub
+(
+crate
+)
 fn
 acquire
 (
@@ -425,6 +434,9 @@ sender
 reference
 .
 pub
+(
+crate
+)
 unsafe
 fn
 release
@@ -602,6 +614,9 @@ receiving
 side
 .
 pub
+(
+crate
+)
 struct
 Receiver
 <
@@ -666,6 +681,9 @@ receiver
 reference
 .
 pub
+(
+crate
+)
 fn
 acquire
 (
@@ -800,6 +818,9 @@ receiver
 reference
 .
 pub
+(
+crate
+)
 unsafe
 fn
 release

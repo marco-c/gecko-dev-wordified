@@ -85,6 +85,9 @@ a
 slice
 .
 pub
+(
+crate
+)
 fn
 shuffle
 <
@@ -362,6 +365,9 @@ t
 specified
 .
 pub
+(
+crate
+)
 fn
 sleep_until
 (
@@ -442,6 +448,9 @@ simple
 spinlock
 .
 pub
+(
+crate
+)
 struct
 Spinlock
 <
@@ -479,6 +488,9 @@ with
 value
 .
 pub
+(
+crate
+)
 fn
 new
 (
@@ -523,6 +535,9 @@ the
 spinlock
 .
 pub
+(
+crate
+)
 fn
 lock
 (
@@ -588,6 +603,9 @@ spinlock
 locked
 .
 pub
+(
+crate
+)
 struct
 SpinlockGuard
 <
