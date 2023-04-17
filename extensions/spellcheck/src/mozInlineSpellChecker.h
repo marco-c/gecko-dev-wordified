@@ -514,6 +514,13 @@ aForceNavigationWordCheck
 see
 mForceNavigationWordCheck
 .
+/
+/
+param
+aNewNavigationPositionOffset
+see
+mNewNavigationPositionOffset
+.
 explicit
 mozInlineSpellStatus
 (
@@ -522,6 +529,8 @@ mozInlineSpellChecker
 aSpellChecker
 bool
 aForceNavigationWordCheck
+int32_t
+aNewNavigationPositionOffset
 )
 ;
 /
@@ -769,6 +778,7 @@ passed
 in
 to
 HandleNavigationEvent
+const
 int32_t
 mNewNavigationPositionOffset
 ;
