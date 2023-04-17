@@ -219,7 +219,7 @@ verifies
 that
 as
 we
-switching
+switch
 between
 *
 different
@@ -272,7 +272,7 @@ add_task
 (
 async
 function
-test_accented_works
+test_pseudo_works
 (
 )
 {
@@ -486,6 +486,7 @@ value
 includes
 (
 "
+[
 i
 i
 aa
@@ -494,6 +495,7 @@ ee
 ee
 aa
 ee
+]
 "
 )
 )
@@ -520,11 +522,13 @@ value
 includes
 (
 "
+[
 i
 i
 aa
 oooo
 i
+]
 "
 )
 )

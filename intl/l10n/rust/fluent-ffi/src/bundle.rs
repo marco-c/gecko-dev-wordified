@@ -226,6 +226,7 @@ transform_dom
 s
 false
 true
+true
 )
 }
 fn
@@ -246,6 +247,7 @@ str
 transform_dom
 (
 s
+false
 false
 false
 )
