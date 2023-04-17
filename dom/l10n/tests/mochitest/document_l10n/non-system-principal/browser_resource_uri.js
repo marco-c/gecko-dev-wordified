@@ -336,12 +336,6 @@ Ci
 .
 nsIAboutModule
 .
-URI_CONTENT_LINKABLE
-|
-Ci
-.
-nsIAboutModule
-.
 ALLOW_SCRIPT
 )
 ]
