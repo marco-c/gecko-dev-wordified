@@ -468,9 +468,6 @@ function
 (
 )
 {
-const
-tab
-=
 await
 addTab
 (
@@ -567,11 +564,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-tab
-.
-linkedBrowser
 "
 div
 "

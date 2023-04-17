@@ -199,11 +199,8 @@ refreshed
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-gBrowser
-.
-selectedBrowser
 "
 #
 testdiv

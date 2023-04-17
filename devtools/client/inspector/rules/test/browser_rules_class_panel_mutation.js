@@ -49,9 +49,6 @@ function
 (
 )
 {
-const
-tab
-=
 await
 addTab
 (
@@ -78,13 +75,6 @@ c2
 >
 "
 )
-;
-const
-browser
-=
-tab
-.
-linkedBrowser
 ;
 const
 {
@@ -155,9 +145,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 "
 div
 "
@@ -245,9 +234,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 "
 body
 "
@@ -334,9 +322,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 "
 div
 "
@@ -490,9 +477,8 @@ markupmutation
 )
 ;
 await
-setAttributeInBrowser
+setContentPageElementAttribute
 (
-browser
 "
 div
 "

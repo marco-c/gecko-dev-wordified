@@ -565,11 +565,8 @@ const
 className
 =
 await
-getAttributeInBrowser
+getContentPageElementAttribute
 (
-gBrowser
-.
-selectedBrowser
 "
 body
 "
