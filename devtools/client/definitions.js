@@ -504,7 +504,7 @@ lazyRequireGetter
 (
 this
 "
-DevToolsFissionPrefs
+DevToolsExperimentalPrefs
 "
 "
 devtools
@@ -513,7 +513,7 @@ client
 /
 devtools
 -
-fission
+experimental
 -
 prefs
 "
@@ -3220,7 +3220,7 @@ command
 -
 button
 -
-fission
+experimental
 -
 prefs
 "
@@ -3228,7 +3228,7 @@ description
 :
 "
 DevTools
-Fission
+Experimental
 preferences
 "
 isTargetSupported
@@ -3248,7 +3248,7 @@ toolbox
 )
 =
 >
-DevToolsFissionPrefs
+DevToolsExperimentalPrefs
 .
 showTooltip
 (
@@ -3260,7 +3260,7 @@ isChecked
 )
 =
 >
-DevToolsFissionPrefs
+DevToolsExperimentalPrefs
 .
 isAnyPreferenceEnabled
 (
