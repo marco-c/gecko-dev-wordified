@@ -8073,14 +8073,6 @@ jobs
 =
 =
 0
-and
-"
-make_extra
-"
-in
-self
-.
-mozconfig
 :
                 
 for
@@ -8089,10 +8081,15 @@ in
 self
 .
 mozconfig
-[
+.
+get
+(
 "
 make_extra
 "
+)
+or
+[
 ]
 :
                     
