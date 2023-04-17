@@ -392,6 +392,8 @@ aCallback
 ;
 notification
 .
+buttonContainer
+.
 querySelector
 (
 "
@@ -399,7 +401,7 @@ button
 "
 )
 .
-doCommand
+click
 (
 )
 ;

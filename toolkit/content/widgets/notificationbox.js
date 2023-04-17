@@ -2685,6 +2685,15 @@ spacer
 spacer
 "
 ]
+[
+"
+buttonContainer
+"
+"
+.
+messageDetails
+"
+]
 ]
 )
 {
