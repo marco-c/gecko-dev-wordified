@@ -11621,6 +11621,11 @@ IMMUTABLE_FLAG_GETTER
 hasMappedArgsObj
 HasMappedArgsObj
 )
+IMMUTABLE_FLAG_GETTER
+(
+isInlinableLargeFunction
+IsInlinableLargeFunction
+)
 MUTABLE_FLAG_GETTER_SETTER
 (
 hasRunOnce
@@ -11703,11 +11708,6 @@ MUTABLE_FLAG_GETTER_SETTER
 (
 hadSpeculativePhiBailout
 HadSpeculativePhiBailout
-)
-MUTABLE_FLAG_GETTER_SETTER
-(
-isInlinableLargeFunction
-IsInlinableLargeFunction
 )
 #
 undef

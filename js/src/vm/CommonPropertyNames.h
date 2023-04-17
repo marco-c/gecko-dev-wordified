@@ -3664,6 +3664,16 @@ SetConstructorInit
 \
 MACRO_
 (
+SetIsInlinableLargeFunction
+SetIsInlinableLargeFunction
+\
+"
+_SetIsInlinableLargeFunction
+"
+)
+\
+MACRO_
+(
 SetIterator
 SetIterator
 "
