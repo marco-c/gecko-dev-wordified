@@ -144,6 +144,15 @@ else
 /
 __cplusplus
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 MOZ_CONSTEXPR
 constexpr
