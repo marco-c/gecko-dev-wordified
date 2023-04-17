@@ -877,7 +877,9 @@ HttpConnectionMgrChild
 :
 RecvSpeculativeConnect
 (
+const
 HttpConnectionInfoCloneArgs
+&
 aConnInfo
 Maybe
 <

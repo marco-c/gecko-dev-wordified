@@ -197,13 +197,14 @@ mozilla
 namespace
 net
 {
-typedef
+using
+nsFailedProxyTable
+=
 nsTHashMap
 <
 nsCStringHashKey
 uint32_t
 >
-nsFailedProxyTable
 ;
 class
 nsPACMan
@@ -451,11 +452,11 @@ PrefsChanged
 (
 nsIPrefBranch
 *
-prefs
+prefBranch
 const
 char
 *
-name
+pref
 )
 ;
 /
@@ -586,7 +587,7 @@ ExtractProxyInfo
 const
 char
 *
-proxy
+start
 uint32_t
 aResolveFlags
 nsProxyInfo
@@ -628,7 +629,7 @@ ConfigureFromPAC
 const
 nsCString
 &
-pacURI
+spec
 bool
 forceReload
 )
@@ -776,7 +777,7 @@ nsProxyInfo
 pi
 nsCString
 &
-result
+key
 )
 ;
 /
@@ -1002,7 +1003,7 @@ nsIURI
 uri
 nsProtocolInfo
 *
-result
+info
 )
 ;
 /
@@ -1203,7 +1204,7 @@ uint32_t
 timeout
 nsIProxyInfo
 *
-next
+aFailoverProxy
 uint32_t
 aResolveFlags
 nsIProxyInfo
@@ -1465,7 +1466,7 @@ nsCOMPtr
 <
 nsIProxyInfo
 >
-proxyInfo
+list
 nsIProxyProtocolFilterResult
 *
 callback
@@ -1534,7 +1535,7 @@ info
 nsIProxyInfo
 *
 *
-proxyInfo
+list
 )
 ;
 /
@@ -1644,7 +1645,7 @@ LoadHostFilters
 const
 nsACString
 &
-hostFilters
+aFilters
 )
 ;
 /
@@ -1892,6 +1893,8 @@ union
 {
 HostInfoIP
 ip
+{
+}
 ;
 HostInfoName
 name

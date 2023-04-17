@@ -1095,7 +1095,7 @@ nsTArray
 nsCString
 >
 &
-aCustomHeaders
+aHeaders
 )
 ;
 nsCString
@@ -1853,6 +1853,7 @@ Next
 )
 {
 auto
+*
 entry
 =
 iter

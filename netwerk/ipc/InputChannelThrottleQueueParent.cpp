@@ -200,8 +200,9 @@ release
 if
 (
 !
-mRefCnt
-.
+nsAutoRefCnt
+:
+:
 isThreadSafe
 )
 {
@@ -238,8 +239,9 @@ count
 if
 (
 !
-mRefCnt
-.
+nsAutoRefCnt
+:
+:
 isThreadSafe
 )
 {

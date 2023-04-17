@@ -383,7 +383,7 @@ nsILoadContext
 *
 aLoadContext
 PBOverrideStatus
-aStatus
+aOverrideStatus
 )
 ;
 [
@@ -397,7 +397,7 @@ Init
 const
 HttpChannelCreationArgs
 &
-aOpenArgs
+aArgs
 )
 ;
 /
@@ -761,7 +761,7 @@ ConnectChannel
 const
 uint32_t
 &
-channelId
+registrarId
 )
 ;
 [
@@ -799,7 +799,7 @@ Maybe
 URIParams
 >
 &
-internalRedirectUri
+aAPIRedirectToURI
 const
 Maybe
 <
@@ -954,7 +954,7 @@ aPreferredAlternativeTypes
 const
 uint64_t
 &
-aTopLevelOuterContentWindowId
+aTopBrowsingContextId
 const
 TimeStamp
 &

@@ -273,6 +273,9 @@ mFormat
 [
 8
 ]
+{
+0
+}
 ;
 nsresult
 ProcessData
@@ -291,7 +294,7 @@ ParseFormat
 const
 char
 *
-buf
+aFormatStr
 )
 ;
 void

@@ -86,8 +86,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 CacheIndexContextIterator
@@ -219,9 +219,7 @@ i
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

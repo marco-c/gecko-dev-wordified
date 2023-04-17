@@ -405,6 +405,8 @@ mKey
 ;
 PRUint32
 mExpirationTime
+=
+0
 ;
 nsTArray
 <

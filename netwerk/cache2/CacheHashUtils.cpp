@@ -99,8 +99,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 /
@@ -1570,9 +1570,7 @@ hash
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

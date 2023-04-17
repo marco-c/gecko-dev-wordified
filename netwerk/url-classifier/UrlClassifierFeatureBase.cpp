@@ -162,6 +162,7 @@ aArray
 )
 {
 auto
+*
 array
 =
 static_cast

@@ -208,7 +208,7 @@ GetFeatureByName
 const
 nsACString
 &
-aFeatureName
+aName
 )
 ;
 static

@@ -232,7 +232,7 @@ aDir
 nsIInputStream
 *
 *
-aStreamResult
+aResult
 )
 ;
 /

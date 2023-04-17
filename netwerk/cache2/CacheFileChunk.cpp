@@ -95,8 +95,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 #
@@ -4918,9 +4918,7 @@ chunksMemoryUsage
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

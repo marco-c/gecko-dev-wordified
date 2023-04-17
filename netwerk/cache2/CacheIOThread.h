@@ -210,7 +210,9 @@ CacheIOThread
 (
 )
 ;
-typedef
+using
+EventQueue
+=
 nsTArray
 <
 nsCOMPtr
@@ -218,7 +220,6 @@ nsCOMPtr
 nsIRunnable
 >
 >
-EventQueue
 ;
 enum
 ELevel

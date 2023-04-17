@@ -1959,7 +1959,6 @@ rest
 break
 ;
 }
-else
 if
 (
 !

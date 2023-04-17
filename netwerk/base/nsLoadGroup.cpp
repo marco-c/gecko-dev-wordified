@@ -1166,15 +1166,9 @@ aResult
 *
 aResult
 =
-(
 mForegroundCount
 >
 0
-)
-?
-true
-:
-false
 ;
 return
 NS_OK
@@ -1201,6 +1195,7 @@ mStatus
 &
 mDefaultLoadRequest
 )
+{
 return
 mDefaultLoadRequest
 -
@@ -1210,6 +1205,7 @@ GetStatus
 status
 )
 ;
+}
 *
 status
 =
@@ -1262,6 +1258,7 @@ Next
 )
 {
 auto
+*
 e
 =
 static_cast
@@ -3124,6 +3121,7 @@ requests
 /
 /
 auto
+*
 entry
 =
 static_cast
@@ -3677,6 +3675,7 @@ up
 /
 /
 auto
+*
 entry
 =
 static_cast
@@ -4275,6 +4274,7 @@ Next
 )
 {
 auto
+*
 e
 =
 static_cast
@@ -4973,6 +4973,7 @@ Next
 )
 {
 auto
+*
 e
 =
 static_cast

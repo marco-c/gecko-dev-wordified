@@ -347,10 +347,16 @@ mThisStream
 ;
 nsWriteSegmentFun
 mWriter
+{
+nullptr
+}
 ;
 void
 *
 mClosure
+{
+nullptr
+}
 ;
 }
 ;

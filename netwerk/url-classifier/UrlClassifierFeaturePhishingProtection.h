@@ -154,7 +154,7 @@ nsTArray
 nsCString
 >
 &
-aNames
+aArray
 )
 ;
 static

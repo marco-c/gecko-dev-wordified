@@ -3952,6 +3952,7 @@ IsEmpty
 (
 )
 )
+{
 rv
 =
 baseURI
@@ -3962,7 +3963,9 @@ GetSpec
 result
 )
 ;
+}
 else
+{
 rv
 =
 baseURI
@@ -3974,6 +3977,7 @@ spec
 result
 )
 ;
+}
 return
 rv
 ;
@@ -4111,6 +4115,7 @@ IsEmpty
 (
 )
 )
+{
 rv
 =
 baseURI
@@ -4121,7 +4126,9 @@ GetSpec
 resultBuf
 )
 ;
+}
 else
+{
 rv
 =
 baseURI
@@ -4136,6 +4143,7 @@ spec
 resultBuf
 )
 ;
+}
 if
 (
 NS_SUCCEEDED
@@ -4424,18 +4432,11 @@ idn
 result
 )
 ;
-if
-(
-NS_FAILED
+return
+NS_SUCCEEDED
 (
 rv
 )
-)
-return
-false
-;
-return
-true
 ;
 }
 int32_t
@@ -6700,6 +6701,7 @@ port
 -
 1
 )
+{
 /
 /
 port
@@ -6711,6 +6713,7 @@ valued
 return
 NS_OK
 ;
+}
 nsAutoCString
 scheme
 ;
@@ -6778,6 +6781,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 rv
 =
 pps
@@ -6800,6 +6804,7 @@ nullptr
 result
 )
 ;
+}
 return
 rv
 ;
@@ -13259,6 +13264,7 @@ scheme
 )
 )
 )
+{
 schemeHash
 =
 mozilla
@@ -13269,6 +13275,7 @@ HashString
 scheme
 )
 ;
+}
 /
 /
 TODO
@@ -13398,6 +13405,7 @@ host
 )
 )
 )
+{
 hostHash
 =
 mozilla
@@ -13408,6 +13416,7 @@ HashString
 host
 )
 ;
+}
 return
 mozilla
 :
@@ -15537,12 +15546,14 @@ filename
 "
 )
 )
+{
 return
 nsIChannel
 :
 :
 DISPOSITION_INLINE
 ;
+}
 return
 nsIChannel
 :
@@ -15651,12 +15662,14 @@ rv
 =
 NS_ERROR_FIRST_HEADER_FIELD_COMPONENT_EMPTY
 )
+{
 return
 nsIChannel
 :
 :
 DISPOSITION_INLINE
 ;
+}
 return
 nsIChannel
 :
@@ -16044,6 +16057,7 @@ scopeIdPos
 -
 1
 )
+{
 hostLine
 .
 Append
@@ -16051,6 +16065,7 @@ Append
 host
 )
 ;
+}
 else
 if
 (
@@ -16058,6 +16073,7 @@ scopeIdPos
 >
 0
 )
+{
 hostLine
 .
 Append
@@ -16070,10 +16086,13 @@ scopeIdPos
 )
 )
 ;
+}
 else
+{
 return
 NS_ERROR_MALFORMED_URI
 ;
+}
 hostLine
 .
 Append
@@ -16085,6 +16104,7 @@ Append
 ;
 }
 else
+{
 hostLine
 .
 Assign
@@ -16092,6 +16112,7 @@ Assign
 host
 )
 ;
+}
 if
 (
 port
@@ -16143,12 +16164,13 @@ nsACString
 aSniffedType
 )
 {
-typedef
+using
+ContentSnifferCache
+=
 nsCategoryCache
 <
 nsIContentSniffer
 >
-ContentSnifferCache
 ;
 extern
 ContentSnifferCache
@@ -19064,7 +19086,8 @@ level
 /
 load
 .
-if
+return
+!
 (
 loadInfo
 -
@@ -19087,13 +19110,6 @@ TYPE_DOCUMENT
 =
 type
 )
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 namespace

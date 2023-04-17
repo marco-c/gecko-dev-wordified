@@ -3479,7 +3479,7 @@ uint32_t
 aFlag
 )
 {
-if
+return
 (
 aFlag
 &
@@ -3491,13 +3491,9 @@ ClassificationFlags
 :
 CLASSIFIED_ANY_SOCIAL_TRACKING
 )
-{
-return
-true
-;
-}
-return
-false
+!
+=
+0
 ;
 }
 /

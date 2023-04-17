@@ -377,6 +377,7 @@ if
 (
 mEventTarget
 )
+{
 rv
 =
 NS_NewInputStreamTeeAsync
@@ -390,7 +391,9 @@ mSink
 mEventTarget
 )
 ;
+}
 else
+{
 rv
 =
 NS_NewInputStreamTee
@@ -403,6 +406,7 @@ input
 mSink
 )
 ;
+}
 if
 (
 NS_FAILED

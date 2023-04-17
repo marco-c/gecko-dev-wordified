@@ -485,7 +485,9 @@ Shutdown
 (
 )
 ;
-typedef
+using
+WindowListeners
+=
 nsTArray
 <
 nsCOMPtr
@@ -493,7 +495,6 @@ nsCOMPtr
 nsIWebSocketEventListener
 >
 >
-WindowListeners
 ;
 nsTHashMap
 <

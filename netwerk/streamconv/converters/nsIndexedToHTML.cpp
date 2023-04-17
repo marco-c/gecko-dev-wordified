@@ -5489,6 +5489,7 @@ char16_t
 '
 )
 )
+{
 pushBuffer
 .
 AppendLiteral
@@ -5506,6 +5507,7 @@ object
 "
 )
 ;
+}
 pushBuffer
 .
 AppendLiteral

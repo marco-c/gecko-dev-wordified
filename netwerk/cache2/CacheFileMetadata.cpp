@@ -178,8 +178,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 #
@@ -257,9 +257,11 @@ bytes
 #
 define
 kMaxElementsSize
+(
 64
 *
 1024
+)
 #
 define
 NOW_SECONDS
@@ -425,6 +427,8 @@ DebugOnly
 nsresult
 >
 rv
+{
+}
 ;
 rv
 =
@@ -607,6 +611,8 @@ DebugOnly
 nsresult
 >
 rv
+{
+}
 ;
 rv
 =
@@ -2980,7 +2986,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-else
 if
 (
 aIndex
@@ -6228,9 +6233,7 @@ mallocSizeOf
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

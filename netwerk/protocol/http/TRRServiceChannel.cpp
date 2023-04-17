@@ -2795,6 +2795,7 @@ close
 "
 )
 )
+{
 mCaps
 &
 =
@@ -2803,6 +2804,7 @@ mCaps
 NS_HTTP_ALLOW_KEEPALIVE
 )
 ;
+}
 if
 (
 gHttpHandler
@@ -3077,9 +3079,11 @@ Origin
 )
 )
 )
+{
 return
 NS_ERROR_UNKNOWN_HOST
 ;
+}
 if
 (
 LoadIsTRRServiceChannel
@@ -4990,6 +4994,7 @@ HasContentCharset
 (
 )
 )
+{
 mResponseHead
 -
 >
@@ -4998,6 +5003,7 @@ SetContentCharset
 mContentCharsetHint
 )
 ;
+}
 LOG
 (
 (
@@ -7976,12 +7982,15 @@ if
 !
 mConnectionInfo
 )
+{
 *
 result
 =
 mProxyInfo
 ;
+}
 else
+{
 *
 result
 =
@@ -7992,6 +8001,7 @@ ProxyInfo
 (
 )
 ;
+}
 NS_IF_ADDREF
 (
 *
@@ -8442,6 +8452,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8452,7 +8463,9 @@ GetDomainLookupStart
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8460,6 +8473,7 @@ mTransactionTimings
 .
 domainLookupStart
 ;
+}
 return
 NS_OK
 ;
@@ -8479,6 +8493,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8489,7 +8504,9 @@ GetDomainLookupEnd
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8497,6 +8514,7 @@ mTransactionTimings
 .
 domainLookupEnd
 ;
+}
 return
 NS_OK
 ;
@@ -8516,6 +8534,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8526,7 +8545,9 @@ GetConnectStart
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8534,6 +8555,7 @@ mTransactionTimings
 .
 connectStart
 ;
+}
 return
 NS_OK
 ;
@@ -8553,6 +8575,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8563,7 +8586,9 @@ GetTcpConnectEnd
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8571,6 +8596,7 @@ mTransactionTimings
 .
 tcpConnectEnd
 ;
+}
 return
 NS_OK
 ;
@@ -8590,6 +8616,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8600,7 +8627,9 @@ GetSecureConnectionStart
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8608,6 +8637,7 @@ mTransactionTimings
 .
 secureConnectionStart
 ;
+}
 return
 NS_OK
 ;
@@ -8627,6 +8657,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8637,7 +8668,9 @@ GetConnectEnd
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8645,6 +8678,7 @@ mTransactionTimings
 .
 connectEnd
 ;
+}
 return
 NS_OK
 ;
@@ -8664,6 +8698,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8674,7 +8709,9 @@ GetRequestStart
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8682,6 +8719,7 @@ mTransactionTimings
 .
 requestStart
 ;
+}
 return
 NS_OK
 ;
@@ -8701,6 +8739,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8711,7 +8750,9 @@ GetResponseStart
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8719,6 +8760,7 @@ mTransactionTimings
 .
 responseStart
 ;
+}
 return
 NS_OK
 ;
@@ -8738,6 +8780,7 @@ if
 (
 mTransaction
 )
+{
 *
 _retval
 =
@@ -8748,7 +8791,9 @@ GetResponseEnd
 (
 )
 ;
+}
 else
+{
 *
 _retval
 =
@@ -8756,6 +8801,7 @@ mTransactionTimings
 .
 responseEnd
 ;
+}
 return
 NS_OK
 ;

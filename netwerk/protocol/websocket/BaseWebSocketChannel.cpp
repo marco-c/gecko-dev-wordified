@@ -1700,6 +1700,7 @@ if
 (
 mEncrypted
 )
+{
 aScheme
 .
 AssignLiteral
@@ -1709,7 +1710,9 @@ wss
 "
 )
 ;
+}
 else
+{
 aScheme
 .
 AssignLiteral
@@ -1719,6 +1722,7 @@ ws
 "
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1757,17 +1761,21 @@ if
 (
 mEncrypted
 )
+{
 *
 aDefaultPort
 =
 kDefaultWSSPort
 ;
+}
 else
+{
 *
 aDefaultPort
 =
 kDefaultWSPort
 ;
+}
 return
 NS_OK
 ;
