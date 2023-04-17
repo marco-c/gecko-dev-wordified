@@ -1783,7 +1783,7 @@ wrapList
 =
 MakeDisplayItemWithIndex
 <
-nsDisplayWrapList
+nsDisplayWrapper
 >
 (
 aBuilder
