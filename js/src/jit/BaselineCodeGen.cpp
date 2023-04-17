@@ -13027,7 +13027,8 @@ Register
 scratch
 )
 {
-return
+if
+(
 handler
 .
 script
@@ -13039,11 +13040,15 @@ hasFlag
 (
 flag
 )
-?
+)
+{
+return
 ifSet
 (
 )
-:
+;
+}
+return
 ifNotSet
 (
 )
