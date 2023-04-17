@@ -92,10 +92,6 @@ h
 #
 include
 "
-mozilla
-/
-intl
-/
 NumberFormatFields
 .
 h
