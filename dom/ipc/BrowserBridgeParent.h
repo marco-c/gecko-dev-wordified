@@ -538,6 +538,17 @@ ipc
 :
 :
 IPCResult
+RecvBeginDestroy
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvDispatchSynthesizedMouseEvent
 (
 const

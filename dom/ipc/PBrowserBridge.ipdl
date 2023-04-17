@@ -623,8 +623,6 @@ AspectRatio
 aIntrinsicRatio
 )
 ;
-parent
-:
 /
 /
 Destroy
@@ -641,6 +639,13 @@ away
 .
 async
 __delete__
+(
+)
+;
+parent
+:
+async
+BeginDestroy
 (
 )
 ;
