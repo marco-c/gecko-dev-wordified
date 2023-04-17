@@ -5739,7 +5739,7 @@ okay
 gTRRService
 -
 >
-TRRIsOkay
+RecordTRRStatus
 (
 aStatusCode
 )
