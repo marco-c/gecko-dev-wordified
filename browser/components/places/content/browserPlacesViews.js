@@ -866,6 +866,15 @@ selectedNode
 ;
 }
 get
+singleClickOpens
+(
+)
+{
+return
+true
+;
+}
+get
 removableSelectionRanges
 (
 )
