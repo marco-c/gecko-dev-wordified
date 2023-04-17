@@ -273,13 +273,11 @@ button
 await
 popupShownPromise
 ;
-EventUtils
+contextMenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 menuItemOpenANewTab
-{
-}
 )
 ;
 let
