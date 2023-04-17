@@ -210,7 +210,9 @@ onetwoundefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

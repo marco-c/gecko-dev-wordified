@@ -84,7 +84,9 @@ UTC
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -116,7 +118,9 @@ UTC
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

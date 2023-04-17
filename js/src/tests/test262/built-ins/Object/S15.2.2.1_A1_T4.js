@@ -189,7 +189,9 @@ obj
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -227,7 +229,9 @@ constructor
 Object
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -268,7 +272,9 @@ obj
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -339,7 +345,9 @@ toString
 to_string_result
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -401,7 +409,9 @@ toString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

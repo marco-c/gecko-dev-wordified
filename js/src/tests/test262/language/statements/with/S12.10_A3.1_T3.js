@@ -249,7 +249,9 @@ result
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -448,7 +450,9 @@ p1
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -651,7 +655,9 @@ a
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

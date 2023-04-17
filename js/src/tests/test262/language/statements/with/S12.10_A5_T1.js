@@ -196,7 +196,9 @@ a
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -389,7 +391,9 @@ p1
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -593,7 +597,9 @@ del
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -797,7 +803,9 @@ p1
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

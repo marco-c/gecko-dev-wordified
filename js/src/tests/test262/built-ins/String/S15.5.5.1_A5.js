@@ -183,7 +183,9 @@ length
 6
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -434,7 +436,9 @@ ed
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -680,7 +684,9 @@ length
 6
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

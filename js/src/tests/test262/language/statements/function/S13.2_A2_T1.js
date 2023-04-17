@@ -180,7 +180,9 @@ __JEDI
 __JEDI
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

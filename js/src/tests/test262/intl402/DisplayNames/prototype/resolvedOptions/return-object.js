@@ -246,6 +246,15 @@ Fallback
 "
 fallback
 "
+[
+[
+LanguageDisplay
+]
+]
+:
+"
+languageDisplay
+"
 Intl
 .
 DisplayNames
@@ -509,6 +518,8 @@ features
 Intl
 .
 DisplayNames
+-
+v2
 Reflect
 ]
 includes
@@ -646,6 +657,9 @@ type
 '
 '
 fallback
+'
+'
+languageDisplay
 '
 ]
 '
@@ -807,6 +821,9 @@ type
 '
 '
 fallback
+'
+'
+languageDisplay
 '
 ]
 '

@@ -196,7 +196,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -414,7 +416,9 @@ Question
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

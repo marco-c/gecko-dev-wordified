@@ -88,7 +88,9 @@ getHours
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -130,7 +132,9 @@ getHours
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -97,7 +97,9 @@ multiline
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -146,7 +148,9 @@ multiline
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -193,7 +197,9 @@ multiline
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

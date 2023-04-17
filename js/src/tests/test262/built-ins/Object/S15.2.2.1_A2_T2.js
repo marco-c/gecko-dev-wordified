@@ -119,7 +119,9 @@ n_obj
 func
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -161,7 +163,9 @@ n_obj
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 When

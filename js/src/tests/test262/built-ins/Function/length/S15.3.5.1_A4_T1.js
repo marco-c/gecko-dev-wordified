@@ -110,7 +110,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -161,7 +163,9 @@ if
 lengthenumed
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

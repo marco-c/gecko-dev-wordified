@@ -234,7 +234,9 @@ __obj
 __obj2
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -276,7 +278,9 @@ intointeger
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

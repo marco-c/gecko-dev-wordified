@@ -75,7 +75,9 @@ instanceof
 String
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -107,7 +109,9 @@ instanceof
 String
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -143,7 +147,9 @@ String
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

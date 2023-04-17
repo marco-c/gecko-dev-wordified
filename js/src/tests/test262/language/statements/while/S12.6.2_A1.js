@@ -191,7 +191,9 @@ __in__do
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -385,7 +387,9 @@ __in__do
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -580,7 +584,9 @@ __in__do
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -775,7 +781,9 @@ __in__do
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -969,7 +977,9 @@ __in__do
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -76,7 +76,9 @@ prototype
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -114,7 +116,9 @@ prototype
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -196,7 +196,9 @@ cube
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -426,7 +428,9 @@ cube
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -662,7 +666,9 @@ five
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -896,7 +902,9 @@ five
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -1128,7 +1136,9 @@ six
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -1362,7 +1372,9 @@ six
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

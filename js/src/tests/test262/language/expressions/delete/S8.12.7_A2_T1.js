@@ -191,7 +191,9 @@ red
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -401,7 +403,9 @@ green
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -620,7 +624,9 @@ blue
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

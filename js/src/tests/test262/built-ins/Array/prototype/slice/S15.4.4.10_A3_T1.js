@@ -114,7 +114,9 @@ slice
 4294967296
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -195,7 +197,9 @@ RangeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

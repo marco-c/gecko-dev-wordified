@@ -111,7 +111,9 @@ prototype
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -163,7 +165,9 @@ prototype
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -221,7 +225,9 @@ prototype
 fproto
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

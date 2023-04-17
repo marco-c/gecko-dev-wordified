@@ -101,7 +101,9 @@ Number
 9
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +154,9 @@ if
 9
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -203,7 +207,9 @@ Number
 9
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

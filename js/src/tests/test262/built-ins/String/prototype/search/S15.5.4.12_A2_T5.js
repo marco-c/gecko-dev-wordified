@@ -192,7 +192,9 @@ regExp
 14
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

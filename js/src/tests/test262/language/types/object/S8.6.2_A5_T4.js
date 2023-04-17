@@ -203,7 +203,9 @@ __count
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -430,7 +432,9 @@ __count
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

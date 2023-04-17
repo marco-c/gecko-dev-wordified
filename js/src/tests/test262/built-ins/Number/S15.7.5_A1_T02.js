@@ -91,7 +91,9 @@ toString
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -136,7 +138,9 @@ prototype
 toString
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -78,7 +78,9 @@ prototype
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -123,7 +125,9 @@ prototype
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -173,7 +177,9 @@ toString
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -224,7 +230,9 @@ toString
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -278,7 +286,9 @@ length
 number
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -329,7 +339,9 @@ length
 number
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -383,7 +395,9 @@ valueOf
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -434,7 +448,9 @@ valueOf
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

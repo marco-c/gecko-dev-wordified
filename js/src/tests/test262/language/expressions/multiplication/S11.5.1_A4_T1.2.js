@@ -102,7 +102,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -154,7 +156,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -208,7 +212,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -263,7 +269,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -316,7 +324,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -371,7 +381,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -428,7 +440,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -483,7 +497,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

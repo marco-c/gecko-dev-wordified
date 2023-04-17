@@ -95,7 +95,9 @@ if
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -149,7 +151,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -204,7 +208,9 @@ if
 4294967295
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -260,7 +266,9 @@ if
 4294967295
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -314,7 +322,9 @@ if
 4294967294
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -368,7 +378,9 @@ if
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

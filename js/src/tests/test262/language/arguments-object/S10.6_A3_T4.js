@@ -115,7 +115,9 @@ callee
 str
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -139,7 +141,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -192,7 +196,9 @@ callee
 str
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -216,7 +222,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

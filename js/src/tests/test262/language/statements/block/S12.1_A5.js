@@ -160,7 +160,9 @@ throw
 throw
 3
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 1
@@ -191,7 +193,9 @@ e
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -394,7 +398,9 @@ throw
 throw
 3
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -426,7 +432,9 @@ e
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -629,7 +637,9 @@ throw
 3
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -661,7 +671,9 @@ e
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

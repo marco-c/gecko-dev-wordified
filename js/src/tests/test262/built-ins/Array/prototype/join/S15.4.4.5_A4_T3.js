@@ -133,7 +133,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -235,7 +237,9 @@ length
 4294967294
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

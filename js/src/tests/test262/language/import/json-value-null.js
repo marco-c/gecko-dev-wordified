@@ -10,6 +10,9 @@ module
 import
 -
 assertions
+json
+-
+modules
 is
 not
 supported

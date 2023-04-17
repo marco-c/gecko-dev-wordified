@@ -83,7 +83,9 @@ x
 true
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -137,7 +139,9 @@ ReferenceError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -190,7 +194,9 @@ y
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

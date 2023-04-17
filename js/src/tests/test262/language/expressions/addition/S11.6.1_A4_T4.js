@@ -101,7 +101,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -148,7 +150,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -196,7 +200,9 @@ Number
 NEGATIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -246,7 +252,9 @@ Number
 NEGATIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -299,7 +307,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -352,7 +362,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -406,7 +418,9 @@ Number
 NEGATIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -462,7 +476,9 @@ Number
 NEGATIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

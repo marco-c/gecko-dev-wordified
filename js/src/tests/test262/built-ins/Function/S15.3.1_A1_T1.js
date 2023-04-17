@@ -107,7 +107,9 @@ Function
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -137,7 +139,9 @@ f
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -186,7 +190,9 @@ Function
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -220,7 +226,9 @@ A
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -266,7 +274,9 @@ A
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

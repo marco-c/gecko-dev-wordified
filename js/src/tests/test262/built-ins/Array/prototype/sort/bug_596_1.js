@@ -132,7 +132,9 @@ element
 at
 least
 once
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

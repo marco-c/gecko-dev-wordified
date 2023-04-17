@@ -212,7 +212,9 @@ null
 0x69
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

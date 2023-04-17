@@ -99,7 +99,9 @@ ignoreCase
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -150,7 +152,9 @@ ignoreCase
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -220,7 +224,9 @@ count
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -125,7 +125,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Should
@@ -154,7 +156,9 @@ arg
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

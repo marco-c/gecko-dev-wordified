@@ -109,7 +109,9 @@ f
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -144,7 +146,9 @@ mars
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

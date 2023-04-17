@@ -89,7 +89,9 @@ undefined
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -129,7 +131,9 @@ undefined
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -175,7 +179,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -220,7 +226,9 @@ null
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -260,7 +268,9 @@ void
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -300,7 +310,9 @@ null
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

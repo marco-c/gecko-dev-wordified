@@ -173,7 +173,9 @@ __in__do
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -384,7 +386,9 @@ __in__do
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -596,7 +600,9 @@ __in__do
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

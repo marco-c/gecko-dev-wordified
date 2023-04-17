@@ -154,7 +154,9 @@ break
 "
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 First
@@ -166,7 +168,9 @@ complete
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 "
 Iteration

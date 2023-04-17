@@ -128,7 +128,9 @@ if
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -174,7 +176,9 @@ Number
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -228,7 +232,9 @@ Number
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -286,7 +292,9 @@ Number
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

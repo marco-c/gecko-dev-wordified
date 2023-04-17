@@ -127,7 +127,9 @@ constructor
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -42,11 +42,14 @@ sta
 js
 will
 expose
-two
+three
 functions
 :
 Test262Error
-ERROR
+Test262Error
+.
+thrower
+DONOTEVALUATE
 -
 -
 -
@@ -83,7 +86,9 @@ function
 assert
 (
 typeof
-ERROR
+Test262Error
+.
+thrower
 =
 =
 =

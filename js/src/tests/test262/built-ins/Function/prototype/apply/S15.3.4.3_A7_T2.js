@@ -155,7 +155,9 @@ shifted
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

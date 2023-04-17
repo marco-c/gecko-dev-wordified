@@ -258,7 +258,9 @@ String
 __obj
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -308,7 +310,9 @@ invalueof
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

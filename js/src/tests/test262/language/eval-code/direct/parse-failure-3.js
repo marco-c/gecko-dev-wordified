@@ -100,7 +100,9 @@ continue
 "
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -147,7 +149,9 @@ SyntaxError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -221,7 +225,9 @@ continue
 ;
 }
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -268,7 +274,9 @@ SyntaxError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -175,7 +175,9 @@ string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -385,7 +387,9 @@ null
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -207,7 +207,9 @@ Statement
 "
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -250,7 +252,9 @@ NoInExpression
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

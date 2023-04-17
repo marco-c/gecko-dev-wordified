@@ -84,7 +84,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -131,7 +133,9 @@ Boolean
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -429,7 +429,9 @@ return
 null
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -452,7 +454,9 @@ of
 iterable
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -510,7 +514,9 @@ return
 23
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

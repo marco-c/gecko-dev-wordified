@@ -157,7 +157,9 @@ prop
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -197,7 +199,9 @@ prop
 1001
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected

@@ -80,7 +80,9 @@ obj
 thisobj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Object

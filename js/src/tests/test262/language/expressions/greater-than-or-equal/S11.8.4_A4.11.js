@@ -87,7 +87,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -133,7 +135,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -179,7 +183,9 @@ ab
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -227,7 +233,9 @@ abcd
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -280,7 +288,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -338,7 +348,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -396,7 +408,9 @@ u0000
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -449,7 +463,9 @@ x
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -107,7 +107,9 @@ str2
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -192,7 +194,9 @@ str2
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -276,7 +280,9 @@ str2
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

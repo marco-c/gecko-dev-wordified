@@ -76,7 +76,9 @@ object
 1
 ]
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -122,7 +124,9 @@ ReferenceError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -159,7 +163,9 @@ object
 .
 prop
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -203,7 +209,9 @@ ReferenceError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

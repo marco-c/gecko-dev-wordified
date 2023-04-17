@@ -196,7 +196,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -302,7 +304,9 @@ nails
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -366,7 +370,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -137,7 +137,9 @@ f
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -172,7 +174,9 @@ mars
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -198,7 +202,9 @@ g
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -234,7 +240,9 @@ red
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

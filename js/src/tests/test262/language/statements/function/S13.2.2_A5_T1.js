@@ -314,7 +314,9 @@ color
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -518,7 +520,9 @@ volume
 __VOLUME
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -722,7 +726,9 @@ bottom
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -926,7 +932,9 @@ id
 __ID
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -1130,7 +1138,9 @@ left
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -1334,7 +1344,9 @@ top
 __TOP
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

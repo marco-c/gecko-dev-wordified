@@ -280,7 +280,9 @@ __replaced
 __expected
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

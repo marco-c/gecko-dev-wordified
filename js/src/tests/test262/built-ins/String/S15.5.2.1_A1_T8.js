@@ -259,7 +259,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -476,7 +478,9 @@ constructor
 String
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -693,7 +697,9 @@ SHIFTED
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

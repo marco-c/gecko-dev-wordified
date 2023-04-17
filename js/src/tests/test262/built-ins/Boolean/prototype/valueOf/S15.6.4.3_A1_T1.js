@@ -82,7 +82,9 @@ valueOf
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -126,7 +128,9 @@ valueOf
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -174,7 +178,9 @@ valueOf
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -224,7 +230,9 @@ valueOf
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -274,7 +282,9 @@ valueOf
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -326,7 +336,9 @@ valueOf
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

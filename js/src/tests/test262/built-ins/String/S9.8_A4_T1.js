@@ -93,7 +93,9 @@ x1
 x1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -153,7 +155,9 @@ typeof
 x2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

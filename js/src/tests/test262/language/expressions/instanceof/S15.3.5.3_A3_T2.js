@@ -223,7 +223,9 @@ instanceof
 FAKEFACTORY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -284,7 +286,9 @@ FAKEFACTORY
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

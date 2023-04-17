@@ -107,7 +107,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -158,7 +160,9 @@ Object
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -204,7 +208,9 @@ prototype
 toString
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -262,7 +268,9 @@ prop
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -307,7 +315,9 @@ prop
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

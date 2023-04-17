@@ -154,7 +154,9 @@ undefined
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -388,7 +390,9 @@ arg
 6
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

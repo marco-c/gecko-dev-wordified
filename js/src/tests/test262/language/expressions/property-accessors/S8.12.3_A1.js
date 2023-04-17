@@ -220,7 +220,9 @@ some
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -450,7 +452,9 @@ some
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

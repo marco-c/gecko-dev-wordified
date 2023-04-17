@@ -120,7 +120,9 @@ f1
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

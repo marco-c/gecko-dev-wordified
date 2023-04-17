@@ -93,7 +93,9 @@ charCodeAt
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -166,7 +168,9 @@ charCodeAt
 65531
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

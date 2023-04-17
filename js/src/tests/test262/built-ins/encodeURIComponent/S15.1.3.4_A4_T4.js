@@ -71,7 +71,9 @@ encodeURIComponent
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -118,7 +120,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -218,7 +222,9 @@ html
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -315,7 +321,9 @@ org
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

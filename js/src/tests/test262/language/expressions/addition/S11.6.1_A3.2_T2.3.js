@@ -143,7 +143,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -195,7 +197,9 @@ undefined1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -251,7 +255,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -315,7 +321,9 @@ undefined1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

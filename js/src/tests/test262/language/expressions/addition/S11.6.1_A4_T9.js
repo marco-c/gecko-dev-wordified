@@ -136,7 +136,9 @@ Number
 MAX_VALUE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -233,7 +235,9 @@ MAX_VALUE
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -322,7 +326,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -394,7 +400,9 @@ if
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

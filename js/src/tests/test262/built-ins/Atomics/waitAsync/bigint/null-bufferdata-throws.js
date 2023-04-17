@@ -289,7 +289,9 @@ catch
 error
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 An
 unexpected

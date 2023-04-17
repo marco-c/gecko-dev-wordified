@@ -72,7 +72,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -112,7 +114,9 @@ if
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -117,7 +117,9 @@ RegExp
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -165,7 +167,9 @@ constructor
 RegExp
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

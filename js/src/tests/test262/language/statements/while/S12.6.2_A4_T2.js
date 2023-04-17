@@ -248,7 +248,9 @@ __in__do__after__break
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

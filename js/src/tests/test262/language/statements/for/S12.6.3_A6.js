@@ -201,7 +201,9 @@ reached
 "
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -243,7 +245,9 @@ SecondExpression
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -444,7 +448,9 @@ reached
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

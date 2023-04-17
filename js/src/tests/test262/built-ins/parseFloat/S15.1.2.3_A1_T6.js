@@ -88,7 +88,9 @@ parseFloat
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -170,7 +172,9 @@ Infinity
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -243,7 +247,9 @@ NaN
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -325,7 +331,9 @@ parseFloat
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -407,7 +415,9 @@ NaN
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -81,7 +81,9 @@ constructor
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ constructor
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

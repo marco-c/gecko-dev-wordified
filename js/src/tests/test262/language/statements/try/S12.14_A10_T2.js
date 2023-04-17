@@ -134,7 +134,9 @@ fin
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -224,7 +226,9 @@ fin2
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -313,7 +317,9 @@ fin3
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -393,7 +399,9 @@ fin4
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -467,7 +475,9 @@ c5
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -543,7 +553,9 @@ fin6
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -571,7 +583,9 @@ c6
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

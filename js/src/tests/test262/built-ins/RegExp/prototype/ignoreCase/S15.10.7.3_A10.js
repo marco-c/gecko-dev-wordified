@@ -103,7 +103,9 @@ ignoreCase
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -181,7 +183,9 @@ ignoreCase
 __obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

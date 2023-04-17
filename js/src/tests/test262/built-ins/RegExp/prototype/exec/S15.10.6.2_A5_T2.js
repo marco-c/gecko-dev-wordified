@@ -167,7 +167,9 @@ if
 __executed
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -232,7 +234,9 @@ lastIndex
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

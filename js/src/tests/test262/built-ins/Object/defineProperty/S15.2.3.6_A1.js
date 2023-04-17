@@ -237,7 +237,9 @@ get
 getter
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Getter

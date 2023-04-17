@@ -91,7 +91,9 @@ catch
 err
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -138,7 +140,9 @@ x1
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -214,7 +218,9 @@ x2
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -283,7 +289,9 @@ x3
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -354,7 +362,9 @@ myFunction4
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -393,7 +403,9 @@ ex1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -429,7 +441,9 @@ ex2
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -89,7 +89,9 @@ fromCharCode
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -136,7 +138,9 @@ fromCharCode
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -185,7 +189,9 @@ fromCharCode
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -228,7 +234,9 @@ if
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -270,7 +278,9 @@ if
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

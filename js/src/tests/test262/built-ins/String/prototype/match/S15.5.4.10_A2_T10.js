@@ -278,7 +278,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -498,7 +500,9 @@ lastIndexOf
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -740,7 +744,9 @@ mi
 ]
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

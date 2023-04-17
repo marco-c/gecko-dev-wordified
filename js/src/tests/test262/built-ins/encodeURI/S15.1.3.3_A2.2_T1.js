@@ -242,7 +242,9 @@ decimalToHexString
 indexO
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -271,7 +273,9 @@ decimalToHexString
 indexP
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -335,7 +339,9 @@ decimalToHexString
 indexO
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -364,7 +370,9 @@ decimalToHexString
 indexP
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -377,7 +385,9 @@ hexP
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 Total

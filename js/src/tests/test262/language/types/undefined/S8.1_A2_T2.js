@@ -91,7 +91,9 @@ void
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -153,7 +155,9 @@ void
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

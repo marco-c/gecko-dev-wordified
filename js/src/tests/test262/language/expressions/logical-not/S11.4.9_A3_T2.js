@@ -83,7 +83,9 @@ if
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -123,7 +125,9 @@ Number
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -161,7 +165,9 @@ NaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -196,7 +202,9 @@ NaN
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -231,7 +239,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -266,7 +276,9 @@ Number
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -301,7 +313,9 @@ Infinity
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

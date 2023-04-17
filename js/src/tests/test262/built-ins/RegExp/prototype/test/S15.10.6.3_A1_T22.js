@@ -161,7 +161,9 @@ if
 __executed
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -227,7 +229,9 @@ lastIndex
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -317,7 +321,9 @@ if
 __executed
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -401,7 +407,9 @@ lastIndex
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

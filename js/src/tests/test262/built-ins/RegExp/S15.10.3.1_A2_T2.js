@@ -131,7 +131,9 @@ CHECK
 1
 try
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -198,7 +200,9 @@ SyntaxError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -118,7 +118,9 @@ result
 arg
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 expected

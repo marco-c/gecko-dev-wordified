@@ -140,7 +140,9 @@ Array
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -203,7 +205,9 @@ length
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -267,7 +271,9 @@ length
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -332,7 +338,9 @@ x
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -399,7 +407,9 @@ x
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -466,7 +476,9 @@ x
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -533,7 +545,9 @@ x
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

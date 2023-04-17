@@ -100,7 +100,9 @@ if
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -150,7 +152,9 @@ String
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

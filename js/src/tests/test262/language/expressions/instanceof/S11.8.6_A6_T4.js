@@ -104,7 +104,9 @@ MyFunct
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -144,7 +146,9 @@ instanceof
 Function
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -187,7 +191,9 @@ Object
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -226,7 +232,9 @@ __my__funct
 instanceof
 __my__funct
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -270,7 +278,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

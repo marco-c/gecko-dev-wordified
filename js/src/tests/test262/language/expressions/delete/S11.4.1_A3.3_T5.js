@@ -114,7 +114,9 @@ prop
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

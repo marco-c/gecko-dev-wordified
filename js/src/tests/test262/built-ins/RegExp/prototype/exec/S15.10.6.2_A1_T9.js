@@ -134,7 +134,9 @@ __string
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -156,7 +156,9 @@ __func
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -196,7 +198,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -415,7 +419,9 @@ ONE
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -635,7 +641,9 @@ TWO
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

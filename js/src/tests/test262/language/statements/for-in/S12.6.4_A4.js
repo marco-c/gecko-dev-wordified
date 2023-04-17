@@ -283,7 +283,9 @@ d
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -528,7 +530,9 @@ __str
 __evaluated
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -90,7 +90,9 @@ getDay
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -126,7 +128,9 @@ getDay
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

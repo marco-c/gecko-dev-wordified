@@ -321,7 +321,9 @@ localOffset
 expectedMs
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -13486,7 +13488,9 @@ catch
 unused
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Conforms
@@ -13648,7 +13652,9 @@ i
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 (
 message
@@ -15252,7 +15258,9 @@ test
 code
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 "
 Async

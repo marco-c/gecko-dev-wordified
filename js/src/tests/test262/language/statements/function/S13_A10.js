@@ -174,7 +174,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -388,7 +390,9 @@ stardust
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

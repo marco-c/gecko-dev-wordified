@@ -96,7 +96,9 @@ u0020
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -163,7 +165,9 @@ ing
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

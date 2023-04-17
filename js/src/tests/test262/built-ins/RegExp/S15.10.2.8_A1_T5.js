@@ -187,7 +187,9 @@ if
 __executed
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

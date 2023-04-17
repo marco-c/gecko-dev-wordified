@@ -230,7 +230,9 @@ get
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -272,7 +274,9 @@ value
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -315,7 +319,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -353,7 +359,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected

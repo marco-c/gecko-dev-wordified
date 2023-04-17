@@ -180,7 +180,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -378,7 +380,9 @@ key
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -139,7 +139,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -175,7 +177,9 @@ hasOwnProperty
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

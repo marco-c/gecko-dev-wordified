@@ -102,7 +102,9 @@ undefined
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -165,7 +167,9 @@ n_obj
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -206,7 +210,9 @@ undefined
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

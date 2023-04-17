@@ -136,7 +136,9 @@ constructor
 RegExp
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -195,7 +197,9 @@ source
 __re
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

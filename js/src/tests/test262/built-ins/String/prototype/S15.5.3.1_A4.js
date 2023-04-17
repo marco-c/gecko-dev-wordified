@@ -172,7 +172,9 @@ prototype
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -406,7 +408,9 @@ prototype
 __obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

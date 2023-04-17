@@ -108,7 +108,9 @@ null
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -162,7 +164,9 @@ null
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -220,7 +224,9 @@ null
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -286,7 +292,9 @@ String
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

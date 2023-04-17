@@ -101,7 +101,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -141,7 +143,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -191,7 +195,9 @@ p
 length
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

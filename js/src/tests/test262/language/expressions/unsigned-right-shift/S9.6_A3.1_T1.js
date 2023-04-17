@@ -80,7 +80,9 @@ true
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -142,7 +144,9 @@ false
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

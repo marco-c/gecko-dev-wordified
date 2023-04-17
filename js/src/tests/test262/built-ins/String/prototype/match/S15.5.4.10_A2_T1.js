@@ -175,7 +175,9 @@ match
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -398,7 +400,9 @@ length
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -617,7 +621,9 @@ index
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -836,7 +842,9 @@ input
 __string
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

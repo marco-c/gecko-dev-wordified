@@ -181,7 +181,9 @@ string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -391,7 +393,9 @@ __str
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -607,7 +611,9 @@ string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -818,7 +824,9 @@ __str
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

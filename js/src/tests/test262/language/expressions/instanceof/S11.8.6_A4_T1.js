@@ -74,7 +74,9 @@ instanceof
 Boolean
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -104,7 +106,9 @@ instanceof
 Boolean
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -139,7 +143,9 @@ Boolean
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

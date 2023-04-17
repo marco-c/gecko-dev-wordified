@@ -82,7 +82,9 @@ getUTCMilliseconds
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -118,7 +120,9 @@ getUTCMilliseconds
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

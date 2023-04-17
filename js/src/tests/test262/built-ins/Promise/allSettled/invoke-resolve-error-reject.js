@@ -185,7 +185,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 The
@@ -213,7 +215,9 @@ reason
 thrown
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 The

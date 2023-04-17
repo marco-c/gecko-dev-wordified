@@ -273,7 +273,9 @@ alert
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -475,7 +477,9 @@ napravo
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -683,7 +687,9 @@ w1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -891,7 +897,9 @@ getRight
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -1101,7 +1109,9 @@ w1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

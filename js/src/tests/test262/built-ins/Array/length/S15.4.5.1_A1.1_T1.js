@@ -109,7 +109,9 @@ length
 =
 4294967296
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -166,7 +168,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -217,7 +221,9 @@ length
 -
 1
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -275,7 +281,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -328,7 +336,9 @@ length
 .
 5
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -387,7 +397,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -84,7 +84,9 @@ x00
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

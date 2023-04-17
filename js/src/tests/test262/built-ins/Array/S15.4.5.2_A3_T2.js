@@ -142,7 +142,9 @@ length
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -217,7 +219,9 @@ x
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -294,7 +298,9 @@ x
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -381,7 +387,9 @@ x
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -474,7 +482,9 @@ x
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -573,7 +583,9 @@ x
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

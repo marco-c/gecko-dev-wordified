@@ -91,7 +91,9 @@ valueOf
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -136,7 +138,9 @@ prototype
 valueOf
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

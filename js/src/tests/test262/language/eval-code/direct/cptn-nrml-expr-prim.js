@@ -105,7 +105,9 @@ x
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -160,7 +162,9 @@ eval
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -215,7 +219,9 @@ eval
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -282,7 +288,9 @@ x
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

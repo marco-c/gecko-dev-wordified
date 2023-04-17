@@ -197,7 +197,9 @@ x
 0x6C
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

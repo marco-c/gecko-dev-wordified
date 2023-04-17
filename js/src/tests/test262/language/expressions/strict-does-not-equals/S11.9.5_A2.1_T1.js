@@ -81,7 +81,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -115,7 +117,9 @@ x
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -154,7 +158,9 @@ if
 y
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -198,7 +204,9 @@ x
 y
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -269,7 +277,9 @@ objecty
 prop
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

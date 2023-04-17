@@ -109,7 +109,9 @@ e
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -155,7 +157,9 @@ if
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

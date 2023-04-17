@@ -75,7 +75,9 @@ MAX_VALUE
 in
 Number
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -119,7 +121,9 @@ ReferenceError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

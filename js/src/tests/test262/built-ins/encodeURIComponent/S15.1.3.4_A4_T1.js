@@ -91,7 +91,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -131,7 +133,9 @@ aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -188,7 +192,9 @@ encodeURIComponent
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

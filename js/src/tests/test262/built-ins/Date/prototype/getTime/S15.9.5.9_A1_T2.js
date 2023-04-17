@@ -81,7 +81,9 @@ getTime
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ getTime
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

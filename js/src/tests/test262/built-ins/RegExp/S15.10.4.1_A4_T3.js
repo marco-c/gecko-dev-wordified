@@ -100,7 +100,9 @@ multiline
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -157,7 +159,9 @@ global
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -214,7 +218,9 @@ ignoreCase
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

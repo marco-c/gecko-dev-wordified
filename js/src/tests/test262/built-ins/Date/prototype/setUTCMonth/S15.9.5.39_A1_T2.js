@@ -81,7 +81,9 @@ setUTCMonth
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ setUTCMonth
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

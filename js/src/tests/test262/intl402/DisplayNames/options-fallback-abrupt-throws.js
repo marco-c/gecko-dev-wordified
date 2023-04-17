@@ -235,7 +235,6 @@ features
 Intl
 .
 DisplayNames
-Symbol
 ]
 locale
 :

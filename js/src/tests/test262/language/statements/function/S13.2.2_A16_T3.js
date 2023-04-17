@@ -183,7 +183,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -404,7 +406,9 @@ prop
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -608,7 +612,9 @@ feat
 6
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -813,7 +819,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -203,7 +203,9 @@ INNER_SPACE
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -408,7 +410,9 @@ OUT
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -650,7 +654,9 @@ INNERED
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -855,7 +861,9 @@ INNERED
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -172,7 +172,9 @@ __func
 =
 __func
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -422,7 +424,9 @@ TrueBranch
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -618,7 +622,9 @@ __func
 =
 __func
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

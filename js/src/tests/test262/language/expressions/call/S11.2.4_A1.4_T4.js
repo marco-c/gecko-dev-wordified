@@ -153,7 +153,9 @@ y
 )
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -251,7 +253,9 @@ y
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -285,7 +289,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

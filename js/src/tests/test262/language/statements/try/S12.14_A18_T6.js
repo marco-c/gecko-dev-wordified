@@ -194,7 +194,9 @@ p1
 a
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -242,7 +244,9 @@ value
 myObj_value
 '
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -294,7 +298,9 @@ eval
 obj_eval
 '
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -367,7 +373,9 @@ i
 =
 6
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -421,7 +429,9 @@ i
 =
 10
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

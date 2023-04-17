@@ -109,7 +109,9 @@ throw
 ex1
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -129,7 +131,9 @@ exception
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -170,7 +174,9 @@ er1
 ex1
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -224,7 +230,9 @@ throw
 ex1
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -258,7 +266,9 @@ er1
 ex1
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

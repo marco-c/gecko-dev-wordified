@@ -88,7 +88,9 @@ b
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -111,7 +113,9 @@ f
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -134,7 +138,9 @@ n
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -157,7 +163,9 @@ r
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -180,7 +188,9 @@ t
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -203,7 +213,9 @@ v
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

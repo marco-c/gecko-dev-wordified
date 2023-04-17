@@ -127,7 +127,9 @@ length
 =
 5
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -196,7 +198,9 @@ f1
 =
 4
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -270,7 +274,9 @@ x
 =
 true
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -299,7 +305,9 @@ x
 =
 4
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

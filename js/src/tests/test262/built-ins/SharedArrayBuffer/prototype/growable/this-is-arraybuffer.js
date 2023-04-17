@@ -70,7 +70,7 @@ when
 this
 is
 an
-SharedArrayBuffer
+ArrayBuffer
 info
 :
 |
@@ -161,7 +161,7 @@ var
 ab
 =
 new
-SharedArrayBuffer
+ArrayBuffer
 (
 4
 )
@@ -199,7 +199,7 @@ this
 cannot
 be
 an
-SharedArrayBuffer
+ArrayBuffer
 "
 )
 ;
@@ -234,7 +234,7 @@ this
 cannot
 be
 an
-SharedArrayBuffer
+ArrayBuffer
 "
 )
 ;

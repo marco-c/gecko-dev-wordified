@@ -109,7 +109,9 @@ undefined
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -164,7 +166,9 @@ undefined
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -223,7 +227,9 @@ undefined
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -290,7 +296,9 @@ String
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

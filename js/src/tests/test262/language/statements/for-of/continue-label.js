@@ -124,7 +124,9 @@ i
 continue
 outer
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -142,7 +144,9 @@ of
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

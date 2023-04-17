@@ -108,7 +108,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -157,7 +159,9 @@ null
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -211,7 +215,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -272,7 +278,9 @@ String
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

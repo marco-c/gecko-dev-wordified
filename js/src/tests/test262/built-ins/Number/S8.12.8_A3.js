@@ -131,7 +131,9 @@ __obj
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -197,7 +199,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

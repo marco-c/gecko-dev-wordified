@@ -189,7 +189,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -223,7 +225,9 @@ deleted
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

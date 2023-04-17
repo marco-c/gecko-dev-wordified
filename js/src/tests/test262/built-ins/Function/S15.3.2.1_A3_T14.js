@@ -226,7 +226,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -258,7 +260,9 @@ constructor
 Function
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -305,7 +309,9 @@ f
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

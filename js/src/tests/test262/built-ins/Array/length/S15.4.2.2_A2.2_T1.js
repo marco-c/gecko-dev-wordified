@@ -105,7 +105,9 @@ Array
 1
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -155,7 +157,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -196,7 +200,9 @@ Array
 4294967296
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -244,7 +250,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -284,7 +292,9 @@ Array
 4294967297
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -332,7 +342,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

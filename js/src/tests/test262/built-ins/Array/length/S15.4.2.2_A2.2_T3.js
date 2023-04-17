@@ -111,7 +111,9 @@ Array
 5
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -163,7 +165,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -207,7 +211,9 @@ Number
 MAX_VALUE
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -259,7 +265,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -303,7 +311,9 @@ Number
 MIN_VALUE
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -355,7 +365,9 @@ RangeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

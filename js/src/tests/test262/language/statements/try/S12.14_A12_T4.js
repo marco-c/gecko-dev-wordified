@@ -182,7 +182,9 @@ fin
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -210,7 +212,9 @@ c1
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -306,7 +310,9 @@ fin2
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -334,7 +340,9 @@ c2
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

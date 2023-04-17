@@ -258,7 +258,9 @@ configurable
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -289,7 +291,9 @@ writable
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -320,7 +324,9 @@ configurable
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -351,7 +357,9 @@ writable
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected

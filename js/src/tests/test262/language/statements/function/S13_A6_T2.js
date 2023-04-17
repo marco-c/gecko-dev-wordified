@@ -163,7 +163,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -195,7 +197,9 @@ SECOND
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -415,7 +419,9 @@ SECOND
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

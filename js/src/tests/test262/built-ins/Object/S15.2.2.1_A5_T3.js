@@ -98,7 +98,9 @@ number
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -138,7 +140,9 @@ constructor
 Number
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -179,7 +183,9 @@ object
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -216,7 +222,9 @@ n_obj
 num
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -254,7 +262,9 @@ n_obj
 num
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

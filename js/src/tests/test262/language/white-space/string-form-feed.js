@@ -101,7 +101,9 @@ u000C
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -176,7 +178,9 @@ f
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

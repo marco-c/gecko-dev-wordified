@@ -95,7 +95,9 @@ MIN_VALUE
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

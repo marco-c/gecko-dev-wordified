@@ -80,7 +80,9 @@ MAX_VALUE
 Number
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -138,7 +140,9 @@ ReferenceError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

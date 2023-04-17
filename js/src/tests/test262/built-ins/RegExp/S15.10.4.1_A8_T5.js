@@ -140,7 +140,9 @@ ignoreCase
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -208,7 +210,9 @@ multiline
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -276,7 +280,9 @@ global
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -344,7 +350,9 @@ lastIndex
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -415,7 +423,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

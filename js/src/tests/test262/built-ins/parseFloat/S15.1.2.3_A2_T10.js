@@ -246,7 +246,9 @@ parseFloat
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -306,7 +308,9 @@ parseFloat
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -350,7 +354,9 @@ n
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -398,7 +404,9 @@ errorCount
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Total

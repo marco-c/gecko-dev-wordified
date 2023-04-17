@@ -109,7 +109,9 @@ myproperty
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -164,7 +166,9 @@ myproperty
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

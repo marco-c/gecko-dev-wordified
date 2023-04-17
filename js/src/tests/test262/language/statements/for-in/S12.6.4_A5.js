@@ -454,7 +454,9 @@ dd4
 )
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

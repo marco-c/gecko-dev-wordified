@@ -117,7 +117,9 @@ u0000
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -215,7 +217,9 @@ u0001
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -313,7 +317,9 @@ u000A
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -411,7 +417,9 @@ u00FF
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -509,7 +517,9 @@ u0FFF
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -607,7 +617,9 @@ uFFFF
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

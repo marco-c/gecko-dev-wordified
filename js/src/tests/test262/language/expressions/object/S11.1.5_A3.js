@@ -121,7 +121,9 @@ object
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -192,7 +194,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -267,7 +271,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -108,7 +108,9 @@ toString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -184,7 +186,9 @@ toString
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -258,7 +262,9 @@ true
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -338,7 +344,9 @@ Object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

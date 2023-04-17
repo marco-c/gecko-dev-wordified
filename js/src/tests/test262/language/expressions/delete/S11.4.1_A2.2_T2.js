@@ -108,7 +108,9 @@ prop
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -166,7 +168,9 @@ prop
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

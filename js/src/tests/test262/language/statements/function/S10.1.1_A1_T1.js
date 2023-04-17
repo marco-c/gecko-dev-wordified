@@ -110,7 +110,9 @@ f1
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

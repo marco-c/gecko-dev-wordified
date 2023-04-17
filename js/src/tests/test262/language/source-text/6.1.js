@@ -80,7 +80,9 @@ length
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 A
@@ -117,7 +119,9 @@ charCodeAt
 0xD801
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 First
@@ -149,7 +153,9 @@ charCodeAt
 0xDCA0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Second

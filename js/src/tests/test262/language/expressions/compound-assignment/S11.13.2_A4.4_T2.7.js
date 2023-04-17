@@ -126,7 +126,9 @@ true1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -188,7 +190,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -254,7 +258,9 @@ true1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -324,7 +330,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -394,7 +402,9 @@ true1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -464,7 +474,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -538,7 +550,9 @@ true1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -616,7 +630,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

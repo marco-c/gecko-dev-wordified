@@ -89,7 +89,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -130,7 +132,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -173,7 +177,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -215,7 +221,9 @@ undefined
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -255,7 +263,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -294,7 +304,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -335,7 +347,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -377,7 +391,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

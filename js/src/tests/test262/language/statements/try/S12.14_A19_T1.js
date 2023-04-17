@@ -99,7 +99,9 @@ Error
 hello
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -169,7 +171,9 @@ Error
 hello
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -239,7 +243,9 @@ EvalError
 1
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -304,7 +310,9 @@ RangeError
 1
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -369,7 +377,9 @@ ReferenceError
 1
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -439,7 +449,9 @@ TypeError
 1
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -512,7 +524,9 @@ URIError
 message
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

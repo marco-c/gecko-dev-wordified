@@ -170,7 +170,9 @@ strObj
 constructor
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -336,7 +338,9 @@ strObj_
 constructor
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -495,7 +499,9 @@ str
 strObj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -661,7 +667,9 @@ str
 strObj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -826,7 +834,9 @@ str
 strObj_
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -990,7 +1000,9 @@ str
 strObj_
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

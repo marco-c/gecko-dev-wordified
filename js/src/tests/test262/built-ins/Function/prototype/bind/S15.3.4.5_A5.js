@@ -140,7 +140,9 @@ Date
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Using

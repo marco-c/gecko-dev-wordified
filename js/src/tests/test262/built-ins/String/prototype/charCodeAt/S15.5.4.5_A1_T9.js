@@ -201,7 +201,9 @@ function
 0x34
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

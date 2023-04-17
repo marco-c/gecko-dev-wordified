@@ -140,7 +140,9 @@ x
 __func
 (
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -180,7 +182,9 @@ Can
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

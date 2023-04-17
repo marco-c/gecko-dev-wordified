@@ -97,7 +97,9 @@ e
 =
 1
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -166,7 +168,9 @@ i
 =
 1
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -231,7 +235,9 @@ i
 =
 1
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -297,7 +303,9 @@ e
 =
 2
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

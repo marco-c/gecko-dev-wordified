@@ -232,7 +232,9 @@ __obj
 __obj2
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -272,7 +274,9 @@ inend
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

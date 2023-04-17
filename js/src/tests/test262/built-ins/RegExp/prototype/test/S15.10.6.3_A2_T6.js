@@ -119,7 +119,9 @@ CHECK
 1
 try
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -201,7 +203,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

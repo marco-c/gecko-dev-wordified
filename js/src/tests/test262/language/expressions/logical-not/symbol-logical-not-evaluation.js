@@ -110,7 +110,9 @@ if
 sym
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 ToBoolean
@@ -144,7 +146,9 @@ true
 }
 else
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 ToBoolean

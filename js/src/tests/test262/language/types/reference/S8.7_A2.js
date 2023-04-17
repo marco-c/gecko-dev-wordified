@@ -242,7 +242,9 @@ length
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -551,7 +553,9 @@ duo
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -60,6 +60,7 @@ prototype
 fields
 description
 :
+>
 Temporal
 .
 Calendar
@@ -167,7 +168,17 @@ fieldNames
 features
 :
 [
+Symbol
+Symbol
+.
+iterator
 Temporal
+computed
+-
+property
+-
+names
+generators
 ]
 includes
 :

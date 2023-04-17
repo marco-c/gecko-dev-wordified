@@ -109,7 +109,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -170,7 +172,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -231,7 +235,9 @@ x
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -289,7 +295,9 @@ x
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

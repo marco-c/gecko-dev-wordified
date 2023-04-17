@@ -187,7 +187,9 @@ null
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

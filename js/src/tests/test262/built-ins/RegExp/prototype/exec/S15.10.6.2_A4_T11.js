@@ -172,7 +172,9 @@ __expected
 length
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -248,7 +250,9 @@ __expected
 index
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -324,7 +328,9 @@ __expected
 input
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -420,7 +426,9 @@ index
 ]
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -517,7 +525,9 @@ CHECK
 5
 try
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -596,7 +606,9 @@ intoint
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

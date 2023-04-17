@@ -103,7 +103,9 @@ CHECK
 1
 try
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -199,7 +201,9 @@ invalof
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

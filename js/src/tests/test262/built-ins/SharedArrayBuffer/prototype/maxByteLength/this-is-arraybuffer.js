@@ -207,7 +207,7 @@ Object
 .
 defineProperties
 (
-sab
+ab
 {
 maxByteLength
 :

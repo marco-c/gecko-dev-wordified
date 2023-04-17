@@ -225,7 +225,9 @@ def34
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

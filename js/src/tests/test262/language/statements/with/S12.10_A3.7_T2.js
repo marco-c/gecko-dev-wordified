@@ -251,7 +251,9 @@ p1
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -449,7 +451,9 @@ myObj_value
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -651,7 +655,9 @@ x1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

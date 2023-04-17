@@ -99,7 +99,9 @@ Boolean
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -147,7 +149,9 @@ Boolean
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -196,7 +200,9 @@ NaN
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -103,7 +103,9 @@ global
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -179,7 +181,9 @@ global
 __obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

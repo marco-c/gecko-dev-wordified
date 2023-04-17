@@ -90,7 +90,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -133,7 +135,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -166,7 +170,9 @@ valueOf
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

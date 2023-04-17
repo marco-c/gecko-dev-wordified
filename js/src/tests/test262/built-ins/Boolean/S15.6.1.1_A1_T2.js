@@ -96,7 +96,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -143,7 +145,9 @@ Boolean
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -190,7 +194,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -240,7 +246,9 @@ Boolean
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -289,7 +297,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -339,7 +349,9 @@ Infinity
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -387,7 +399,9 @@ boolean
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -434,7 +448,9 @@ NaN
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

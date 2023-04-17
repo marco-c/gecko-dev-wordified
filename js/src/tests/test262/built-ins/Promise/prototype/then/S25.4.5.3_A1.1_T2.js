@@ -94,7 +94,9 @@ Function
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -122,7 +124,9 @@ length
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

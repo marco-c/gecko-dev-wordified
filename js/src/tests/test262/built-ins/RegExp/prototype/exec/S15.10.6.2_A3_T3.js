@@ -1821,7 +1821,9 @@ __matched
 NEVERMORE_AND_EVERMORE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

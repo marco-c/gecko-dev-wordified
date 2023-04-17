@@ -93,7 +93,9 @@ POSITIVE_INFINITY
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -129,7 +131,9 @@ POSITIVE_INFINITY
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

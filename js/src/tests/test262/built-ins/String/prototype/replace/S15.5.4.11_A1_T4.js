@@ -210,7 +210,9 @@ g1una
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

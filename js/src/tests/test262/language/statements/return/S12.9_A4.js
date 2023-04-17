@@ -282,7 +282,9 @@ PI
 00001
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

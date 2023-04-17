@@ -79,7 +79,9 @@ setSeconds
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -121,7 +123,9 @@ setSeconds
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

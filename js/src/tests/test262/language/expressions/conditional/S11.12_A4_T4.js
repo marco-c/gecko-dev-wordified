@@ -89,7 +89,9 @@ true
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -130,7 +132,9 @@ true
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

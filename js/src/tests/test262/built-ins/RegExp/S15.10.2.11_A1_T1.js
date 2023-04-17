@@ -131,7 +131,9 @@ u0000
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -236,7 +238,9 @@ u0000
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

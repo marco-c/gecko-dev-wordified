@@ -287,7 +287,9 @@ first
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -491,7 +493,9 @@ second
 __SCND
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

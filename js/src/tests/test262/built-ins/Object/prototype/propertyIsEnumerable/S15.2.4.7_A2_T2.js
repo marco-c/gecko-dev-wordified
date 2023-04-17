@@ -147,7 +147,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -189,7 +191,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -223,7 +227,9 @@ the_property
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -278,7 +284,9 @@ the_property
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

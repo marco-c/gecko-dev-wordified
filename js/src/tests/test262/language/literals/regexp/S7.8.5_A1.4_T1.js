@@ -112,7 +112,9 @@ source
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -148,7 +150,9 @@ source
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

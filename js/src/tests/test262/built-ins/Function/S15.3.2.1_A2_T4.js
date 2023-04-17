@@ -144,7 +144,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -171,7 +173,9 @@ Function
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -223,7 +227,9 @@ QUESTION
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

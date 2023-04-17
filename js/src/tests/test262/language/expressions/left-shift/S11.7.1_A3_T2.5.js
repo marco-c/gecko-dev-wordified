@@ -114,7 +114,9 @@ true
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -165,7 +167,9 @@ true
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -220,7 +224,9 @@ true
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -283,7 +289,9 @@ true
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -346,7 +354,9 @@ String
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -409,7 +419,9 @@ true
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -476,7 +488,9 @@ String
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -551,7 +565,9 @@ true
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

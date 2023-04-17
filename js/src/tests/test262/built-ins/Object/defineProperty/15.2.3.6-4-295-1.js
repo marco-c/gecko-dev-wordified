@@ -200,7 +200,9 @@ false
 }
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -226,7 +228,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -280,7 +284,9 @@ a
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected

@@ -73,7 +73,9 @@ parse
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -111,7 +113,9 @@ parse
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

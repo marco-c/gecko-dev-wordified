@@ -143,7 +143,9 @@ b
 _
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 The
@@ -213,7 +215,9 @@ c
 _
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 The
@@ -238,7 +242,9 @@ c
 _
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 The
@@ -316,7 +322,9 @@ d
 _
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 The

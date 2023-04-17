@@ -136,7 +136,9 @@ toString
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -174,7 +176,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -236,7 +240,9 @@ myToString
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -274,7 +280,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

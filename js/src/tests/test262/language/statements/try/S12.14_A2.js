@@ -87,7 +87,9 @@ throw
 catchme
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -130,7 +132,9 @@ throw
 exc
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -172,7 +176,9 @@ c2
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -209,7 +215,9 @@ throw
 exc
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -256,7 +264,9 @@ x3
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -284,7 +294,9 @@ c3
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

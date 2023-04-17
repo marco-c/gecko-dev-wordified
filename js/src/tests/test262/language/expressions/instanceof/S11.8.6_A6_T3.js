@@ -95,7 +95,9 @@ instanceof
 MyFunct
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -136,7 +138,9 @@ Function
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -177,7 +181,9 @@ Object
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -142,7 +142,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 right
@@ -197,7 +199,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 property
@@ -216,7 +220,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 right

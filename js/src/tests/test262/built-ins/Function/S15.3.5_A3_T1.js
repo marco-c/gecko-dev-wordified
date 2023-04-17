@@ -134,7 +134,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -171,7 +173,9 @@ constructor
 FACTORY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -208,7 +212,9 @@ y
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

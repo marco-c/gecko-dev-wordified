@@ -185,7 +185,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -439,7 +441,9 @@ length
 __obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

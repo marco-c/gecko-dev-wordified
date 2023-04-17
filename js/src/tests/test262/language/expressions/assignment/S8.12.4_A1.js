@@ -102,7 +102,9 @@ E
 __e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

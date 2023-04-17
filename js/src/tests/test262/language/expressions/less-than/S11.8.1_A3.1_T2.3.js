@@ -136,7 +136,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -169,7 +171,9 @@ null
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -206,7 +210,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -247,7 +253,9 @@ Number
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

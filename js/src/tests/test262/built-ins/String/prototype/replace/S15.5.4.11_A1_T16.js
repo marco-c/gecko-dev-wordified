@@ -246,7 +246,9 @@ __obj
 007z7001
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -294,7 +296,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

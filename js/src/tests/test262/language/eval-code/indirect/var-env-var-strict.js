@@ -100,7 +100,9 @@ in
 this
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Strict

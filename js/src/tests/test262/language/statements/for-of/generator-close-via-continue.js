@@ -212,7 +212,9 @@ try
 {
 yield
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -236,7 +238,9 @@ finallyCount
 1
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

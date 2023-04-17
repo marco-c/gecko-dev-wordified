@@ -102,7 +102,9 @@ name
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -136,7 +138,9 @@ toString
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

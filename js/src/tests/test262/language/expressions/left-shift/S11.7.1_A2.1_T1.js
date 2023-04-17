@@ -83,7 +83,9 @@ if
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -133,7 +135,9 @@ x
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -188,7 +192,9 @@ y
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -248,7 +254,9 @@ y
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -335,7 +343,9 @@ prop
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

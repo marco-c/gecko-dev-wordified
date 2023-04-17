@@ -210,7 +210,9 @@ getFunc2
 }
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -235,7 +237,9 @@ a
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -288,7 +292,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

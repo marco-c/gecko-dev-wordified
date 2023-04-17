@@ -206,7 +206,9 @@ e
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -401,7 +403,9 @@ __in__for
 101
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

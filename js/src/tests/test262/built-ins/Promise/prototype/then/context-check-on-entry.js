@@ -108,7 +108,9 @@ constructor
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 get

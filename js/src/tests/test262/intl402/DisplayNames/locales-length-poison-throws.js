@@ -222,7 +222,6 @@ features
 Intl
 .
 DisplayNames
-Symbol
 ]
 -
 -

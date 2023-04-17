@@ -79,7 +79,9 @@ prototype
 object
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -124,7 +126,9 @@ prototype
 object
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -172,7 +176,9 @@ toString
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -217,7 +223,9 @@ toString
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -265,7 +273,9 @@ valueOf
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -310,7 +320,9 @@ valueOf
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -358,7 +370,9 @@ constructor
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -403,7 +417,9 @@ constructor
 function
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

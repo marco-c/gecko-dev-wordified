@@ -149,7 +149,9 @@ x
 =
 6
 )
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

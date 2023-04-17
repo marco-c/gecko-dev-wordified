@@ -92,7 +92,9 @@ c1
 ;
 y
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -131,7 +133,9 @@ c1
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -192,7 +196,9 @@ c2
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -263,7 +269,9 @@ c3
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -341,7 +349,9 @@ c4
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

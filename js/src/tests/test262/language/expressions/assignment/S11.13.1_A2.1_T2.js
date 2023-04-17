@@ -77,7 +77,9 @@ x
 =
 y
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -121,7 +123,9 @@ ReferenceError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

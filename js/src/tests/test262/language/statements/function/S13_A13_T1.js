@@ -85,7 +85,9 @@ arguments
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -204,7 +206,9 @@ __func
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

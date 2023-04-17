@@ -123,7 +123,9 @@ Number
 1234567890
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -184,7 +186,9 @@ Number
 1234567000
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -245,7 +249,9 @@ if
 123456
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -292,7 +298,9 @@ Number
 123456789012345678
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -353,7 +361,9 @@ Number
 123456789012345678
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -71,7 +71,9 @@ decodeURI
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -118,7 +120,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -217,7 +221,9 @@ html
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -312,7 +318,9 @@ UTF
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 %

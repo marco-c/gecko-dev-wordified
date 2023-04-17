@@ -82,7 +82,9 @@ parseFloat
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -146,7 +148,9 @@ Infinity
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -201,7 +205,9 @@ NaN
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -265,7 +271,9 @@ parseFloat
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -325,7 +333,9 @@ parseFloat
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -374,7 +384,9 @@ Number
 POSITIVE_INFINITY
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

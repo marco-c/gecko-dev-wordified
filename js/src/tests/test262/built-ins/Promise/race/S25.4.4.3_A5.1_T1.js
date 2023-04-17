@@ -83,7 +83,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Never
@@ -97,7 +99,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Never

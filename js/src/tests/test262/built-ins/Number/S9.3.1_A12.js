@@ -151,7 +151,9 @@ Number
 1e6
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -208,7 +210,9 @@ Number
 6
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

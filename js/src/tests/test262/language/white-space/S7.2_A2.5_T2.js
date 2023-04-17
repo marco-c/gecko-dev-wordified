@@ -90,7 +90,9 @@ u00A0
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -146,7 +146,9 @@ shift
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -228,7 +230,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -323,7 +327,9 @@ shift
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -411,7 +417,9 @@ length
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -518,7 +526,9 @@ shift
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -618,7 +628,9 @@ length
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -255,7 +255,9 @@ A
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -463,7 +465,9 @@ A
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -671,7 +675,9 @@ prop
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

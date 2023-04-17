@@ -86,7 +86,9 @@ u000C
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

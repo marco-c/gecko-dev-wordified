@@ -133,7 +133,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -263,7 +265,9 @@ __rose
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -295,7 +299,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

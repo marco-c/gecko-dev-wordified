@@ -190,7 +190,9 @@ __obj
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -441,7 +443,9 @@ obj__
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -511,7 +515,9 @@ obj__
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -578,7 +584,9 @@ obj__
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -654,7 +662,9 @@ obj__
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -902,7 +912,9 @@ __foo
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -984,7 +996,9 @@ __foo
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -1064,7 +1078,9 @@ __foo
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

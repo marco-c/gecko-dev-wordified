@@ -215,7 +215,9 @@ arr
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -253,7 +255,9 @@ verifySetter
 101
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected

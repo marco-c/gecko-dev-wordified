@@ -106,7 +106,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Should
@@ -137,7 +139,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

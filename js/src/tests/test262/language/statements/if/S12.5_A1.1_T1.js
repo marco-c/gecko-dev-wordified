@@ -157,7 +157,9 @@ if
 (
 0
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -340,7 +342,9 @@ if
 (
 false
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -523,7 +527,9 @@ if
 (
 null
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -706,7 +712,9 @@ if
 (
 undefined
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -890,7 +898,9 @@ if
 "
 "
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -1074,7 +1084,9 @@ if
 (
 NaN
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

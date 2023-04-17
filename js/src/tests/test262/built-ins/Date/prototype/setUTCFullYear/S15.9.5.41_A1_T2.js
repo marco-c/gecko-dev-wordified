@@ -81,7 +81,9 @@ setUTCFullYear
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ setUTCFullYear
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

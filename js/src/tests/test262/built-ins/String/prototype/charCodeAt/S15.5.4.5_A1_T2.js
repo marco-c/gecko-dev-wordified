@@ -182,7 +182,9 @@ false
 0x66
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -404,7 +406,9 @@ true
 0x61
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -628,7 +632,9 @@ true
 0x6C
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

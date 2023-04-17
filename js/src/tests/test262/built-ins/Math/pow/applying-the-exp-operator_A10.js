@@ -172,7 +172,9 @@ exponent
 Infinity
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

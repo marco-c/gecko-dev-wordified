@@ -126,7 +126,9 @@ f
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -161,7 +163,9 @@ mars
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -182,7 +186,9 @@ g
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -206,7 +212,9 @@ instanceof
 ReferenceError
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -244,7 +252,9 @@ red
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

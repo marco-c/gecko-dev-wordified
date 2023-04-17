@@ -230,7 +230,9 @@ __obj
 notexist
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -274,7 +276,9 @@ intostring
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

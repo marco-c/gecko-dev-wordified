@@ -176,7 +176,9 @@ __mFunc
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

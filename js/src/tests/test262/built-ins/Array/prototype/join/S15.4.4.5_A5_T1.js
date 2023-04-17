@@ -129,7 +129,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -241,7 +243,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

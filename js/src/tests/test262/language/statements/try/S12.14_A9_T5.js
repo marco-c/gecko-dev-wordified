@@ -120,7 +120,9 @@ throw
 ex1
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -159,7 +161,9 @@ throw
 ex2
 "
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -192,7 +196,9 @@ c
 ;
 continue
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -240,7 +246,9 @@ fin
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

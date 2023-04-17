@@ -88,7 +88,9 @@ length
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -146,7 +148,9 @@ f_arg
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -93,7 +93,9 @@ nabout
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +154,9 @@ vabout
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -211,7 +215,9 @@ fabout
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -270,7 +276,9 @@ rabout
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

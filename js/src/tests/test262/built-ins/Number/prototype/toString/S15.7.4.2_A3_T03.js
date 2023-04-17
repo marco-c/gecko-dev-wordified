@@ -85,7 +85,9 @@ toString
 null
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -135,7 +137,9 @@ toString
 null
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -189,7 +193,9 @@ toString
 null
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -245,7 +251,9 @@ toString
 null
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -301,7 +309,9 @@ toString
 null
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -358,7 +368,9 @@ toString
 null
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -417,7 +429,9 @@ toString
 null
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -476,7 +490,9 @@ toString
 null
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

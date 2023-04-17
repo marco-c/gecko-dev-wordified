@@ -81,7 +81,9 @@ toLocaleString
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ toLocaleString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -81,7 +81,9 @@ if
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -128,7 +130,9 @@ x
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -180,7 +184,9 @@ y
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -237,7 +243,9 @@ y
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -321,7 +329,9 @@ prop
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -218,7 +218,9 @@ __matched
 length
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -308,7 +310,9 @@ index
 ]
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -271,7 +271,9 @@ items
 itemsRef
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

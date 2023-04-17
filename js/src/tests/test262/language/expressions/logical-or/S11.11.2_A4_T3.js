@@ -99,7 +99,9 @@ if
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -155,7 +157,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -219,7 +223,9 @@ String
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -291,7 +297,9 @@ String
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -364,7 +372,9 @@ x
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -435,7 +445,9 @@ NaN
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -204,7 +204,9 @@ count
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -434,7 +436,9 @@ count
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

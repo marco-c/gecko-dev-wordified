@@ -170,7 +170,9 @@ set_Func
 }
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected
@@ -231,7 +233,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -269,7 +273,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Expected

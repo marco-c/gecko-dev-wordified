@@ -136,7 +136,9 @@ b
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 The
@@ -206,7 +208,9 @@ c
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 The
@@ -231,7 +235,9 @@ c
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 The
@@ -305,7 +311,9 @@ d
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 The

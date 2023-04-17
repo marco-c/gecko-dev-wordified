@@ -209,7 +209,9 @@ __obj2
 7
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

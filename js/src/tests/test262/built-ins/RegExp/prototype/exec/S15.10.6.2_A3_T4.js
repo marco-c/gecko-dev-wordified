@@ -1852,7 +1852,9 @@ __matched
 ALL_THE_HOPELESS_MORE
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

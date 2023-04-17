@@ -150,7 +150,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -183,7 +185,9 @@ propertyIsEnumerable
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

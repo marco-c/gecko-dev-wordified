@@ -236,7 +236,9 @@ length
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -543,7 +545,9 @@ __matches
 ]
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

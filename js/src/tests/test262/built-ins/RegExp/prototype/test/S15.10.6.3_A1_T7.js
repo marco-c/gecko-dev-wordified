@@ -99,7 +99,9 @@ CHECK
 1
 try
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -187,7 +189,9 @@ intostr
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

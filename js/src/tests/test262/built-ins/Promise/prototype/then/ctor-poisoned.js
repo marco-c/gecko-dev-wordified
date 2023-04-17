@@ -146,7 +146,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Should
@@ -162,7 +164,9 @@ function
 (
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 Should

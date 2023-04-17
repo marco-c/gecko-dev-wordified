@@ -87,7 +87,9 @@ MIN_VALUE
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ MIN_VALUE
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

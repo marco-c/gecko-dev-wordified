@@ -101,7 +101,9 @@ z
 z
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

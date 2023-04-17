@@ -225,7 +225,9 @@ __evaluated
 7
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -439,7 +441,9 @@ __evaluated
 11
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

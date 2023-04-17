@@ -194,7 +194,9 @@ if
 resultSetFun
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -251,7 +253,9 @@ desc1
 writable
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected
@@ -307,7 +311,9 @@ desc2
 writable
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected

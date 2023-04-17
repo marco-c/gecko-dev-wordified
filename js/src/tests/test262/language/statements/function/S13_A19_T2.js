@@ -184,7 +184,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -402,7 +404,9 @@ __decl
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -198,7 +198,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -416,7 +418,9 @@ malder
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -688,7 +692,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -906,7 +912,9 @@ lennon
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

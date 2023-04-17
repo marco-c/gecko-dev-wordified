@@ -101,7 +101,9 @@ Number
 7
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +154,9 @@ Number
 7
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -203,7 +207,9 @@ if
 7
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

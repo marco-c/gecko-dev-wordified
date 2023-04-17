@@ -86,7 +86,9 @@ if
 Infinity
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +154,9 @@ pow
 Infinity
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

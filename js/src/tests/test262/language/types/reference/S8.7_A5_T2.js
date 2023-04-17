@@ -164,7 +164,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -384,7 +386,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -589,7 +593,9 @@ __ref
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -802,7 +808,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -1024,7 +1032,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

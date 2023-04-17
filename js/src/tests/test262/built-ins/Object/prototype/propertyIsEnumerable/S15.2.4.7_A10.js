@@ -108,7 +108,9 @@ length
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -181,7 +183,9 @@ length
 obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -108,7 +108,9 @@ p1
 call
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -151,7 +153,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

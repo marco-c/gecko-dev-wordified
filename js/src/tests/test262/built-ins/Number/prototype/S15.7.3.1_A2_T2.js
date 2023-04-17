@@ -94,7 +94,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -146,7 +148,9 @@ Number
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

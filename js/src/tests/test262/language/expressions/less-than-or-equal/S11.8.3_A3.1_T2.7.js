@@ -140,7 +140,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -179,7 +181,9 @@ null
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -222,7 +226,9 @@ null
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -269,7 +275,9 @@ String
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

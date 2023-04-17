@@ -95,7 +95,9 @@ slice
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -149,7 +151,9 @@ TypeError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

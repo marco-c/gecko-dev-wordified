@@ -76,7 +76,9 @@ values
 yield
 1
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -146,7 +148,9 @@ i
 throw
 error
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -163,7 +167,9 @@ statement
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

@@ -85,7 +85,9 @@ if
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -140,7 +142,9 @@ return
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

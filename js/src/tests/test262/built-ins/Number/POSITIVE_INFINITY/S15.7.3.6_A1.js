@@ -82,7 +82,9 @@ POSITIVE_INFINITY
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -120,7 +122,9 @@ POSITIVE_INFINITY
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

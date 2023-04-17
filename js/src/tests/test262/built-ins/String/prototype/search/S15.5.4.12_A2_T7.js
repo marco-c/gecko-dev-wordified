@@ -179,7 +179,9 @@ pro
 5
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

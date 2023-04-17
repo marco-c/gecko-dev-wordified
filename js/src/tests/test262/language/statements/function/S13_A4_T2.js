@@ -186,7 +186,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -390,7 +392,9 @@ __func
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

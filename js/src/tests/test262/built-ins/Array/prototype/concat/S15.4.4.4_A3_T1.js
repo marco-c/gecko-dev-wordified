@@ -143,7 +143,9 @@ arr
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -218,7 +220,9 @@ arr
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -297,7 +301,9 @@ hasOwnProperty
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -428,7 +434,9 @@ arr
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -519,7 +527,9 @@ arr
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -614,7 +624,9 @@ hasOwnProperty
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

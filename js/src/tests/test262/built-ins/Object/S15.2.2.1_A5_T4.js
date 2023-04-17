@@ -120,7 +120,9 @@ constructor
 Number
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -161,7 +163,9 @@ object
 '
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -198,7 +202,9 @@ n_obj
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -236,7 +242,9 @@ n_obj
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

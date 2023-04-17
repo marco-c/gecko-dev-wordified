@@ -246,7 +246,9 @@ ca3
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -468,7 +470,9 @@ ba2
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

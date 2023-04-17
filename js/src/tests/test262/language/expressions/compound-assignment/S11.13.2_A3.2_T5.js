@@ -97,7 +97,9 @@ x1
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -171,7 +173,9 @@ y1
 2
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

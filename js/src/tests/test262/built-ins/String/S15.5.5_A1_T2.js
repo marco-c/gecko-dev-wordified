@@ -170,7 +170,9 @@ b
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -209,7 +211,9 @@ TypeError
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

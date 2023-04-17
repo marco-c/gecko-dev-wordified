@@ -289,7 +289,9 @@ foo
 __FOO
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -493,7 +495,9 @@ bar
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

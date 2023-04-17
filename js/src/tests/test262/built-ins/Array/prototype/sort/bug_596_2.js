@@ -122,7 +122,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -168,7 +170,9 @@ hasOwnProperty
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -219,7 +223,9 @@ hasOwnProperty
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -270,7 +276,9 @@ hasOwnProperty
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -322,7 +330,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -368,7 +378,9 @@ hasOwnProperty
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -419,7 +431,9 @@ hasOwnProperty
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -470,7 +484,9 @@ hasOwnProperty
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

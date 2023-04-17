@@ -192,7 +192,9 @@ one
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -410,7 +412,9 @@ constructor
 String
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -637,7 +641,9 @@ __instance
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -887,7 +893,9 @@ toString
 __to_string_result
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

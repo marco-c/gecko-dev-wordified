@@ -91,7 +91,9 @@ parseFloat
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -171,7 +173,9 @@ parseFloat
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -90,7 +90,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -128,7 +130,9 @@ function
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -159,7 +163,9 @@ valueOf
 obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

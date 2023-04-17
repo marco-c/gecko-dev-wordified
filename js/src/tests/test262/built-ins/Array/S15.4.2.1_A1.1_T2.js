@@ -143,7 +143,9 @@ Array
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -256,7 +258,9 @@ Array
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -209,7 +209,9 @@ x
 =
 x
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -421,7 +423,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -622,7 +626,9 @@ __x
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -818,7 +824,9 @@ x
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

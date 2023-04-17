@@ -100,7 +100,9 @@ if
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -143,7 +145,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -188,7 +192,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -235,7 +241,9 @@ if
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -280,7 +288,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -324,7 +334,9 @@ if
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -372,7 +384,9 @@ MAX_VALUE
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -423,7 +437,9 @@ MIN_VALUE
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

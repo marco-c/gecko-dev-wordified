@@ -101,7 +101,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -139,7 +141,9 @@ Number
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -182,7 +186,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -225,7 +231,9 @@ x4
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -264,7 +272,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -304,7 +314,9 @@ Number
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -349,7 +361,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -394,7 +408,9 @@ x8
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 "
 #

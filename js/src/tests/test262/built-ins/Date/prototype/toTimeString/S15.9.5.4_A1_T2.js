@@ -81,7 +81,9 @@ toTimeString
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ toTimeString
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -91,7 +91,9 @@ toFixed
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -136,7 +138,9 @@ prototype
 toFixed
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

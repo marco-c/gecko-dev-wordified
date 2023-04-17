@@ -181,7 +181,9 @@ search
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -231,7 +233,9 @@ search
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -121,7 +121,9 @@ Array
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -186,7 +188,9 @@ length
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -253,7 +257,9 @@ arr
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

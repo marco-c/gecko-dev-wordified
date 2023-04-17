@@ -81,7 +81,9 @@ setMilliseconds
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -117,7 +119,9 @@ setMilliseconds
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -130,7 +130,9 @@ i
 ;
 continue
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -147,7 +149,9 @@ statement
 )
 ;
 }
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

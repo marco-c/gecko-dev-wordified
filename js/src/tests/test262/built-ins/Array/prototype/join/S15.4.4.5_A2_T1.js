@@ -107,7 +107,9 @@ length
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -160,7 +162,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -223,7 +227,9 @@ length
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -297,7 +303,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -365,7 +373,9 @@ length
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -443,7 +453,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -512,7 +524,9 @@ length
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

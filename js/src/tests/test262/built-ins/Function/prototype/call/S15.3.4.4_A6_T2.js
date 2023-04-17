@@ -146,7 +146,9 @@ length
 3
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -246,7 +248,9 @@ shifted
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

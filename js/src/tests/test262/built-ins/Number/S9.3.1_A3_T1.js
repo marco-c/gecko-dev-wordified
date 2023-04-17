@@ -144,7 +144,9 @@ Number
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -358,7 +360,9 @@ Number
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -647,7 +651,9 @@ Infinity
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -938,7 +944,9 @@ Infinity
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

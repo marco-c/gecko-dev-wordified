@@ -159,7 +159,9 @@ if
 1
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -189,7 +191,9 @@ c
 =
 1
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -375,7 +379,9 @@ if
 true
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -405,7 +411,9 @@ c
 =
 2
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -593,7 +601,9 @@ if
 "
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -625,7 +635,9 @@ c
 =
 3
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -813,7 +825,9 @@ A
 "
 )
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -845,7 +859,9 @@ c
 =
 4
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

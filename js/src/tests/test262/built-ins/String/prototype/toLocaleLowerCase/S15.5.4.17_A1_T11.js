@@ -193,7 +193,9 @@ toLocaleLowerCase
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -233,7 +235,9 @@ intostr
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

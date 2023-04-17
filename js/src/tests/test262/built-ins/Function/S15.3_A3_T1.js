@@ -164,7 +164,9 @@ about_mars
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -212,7 +214,9 @@ godname
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

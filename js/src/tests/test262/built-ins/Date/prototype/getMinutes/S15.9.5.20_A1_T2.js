@@ -90,7 +90,9 @@ getMinutes
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -126,7 +128,9 @@ getMinutes
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

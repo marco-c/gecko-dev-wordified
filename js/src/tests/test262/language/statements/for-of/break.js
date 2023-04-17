@@ -79,7 +79,9 @@ values
 yield
 1
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This
@@ -122,7 +124,9 @@ i
 ;
 break
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 This

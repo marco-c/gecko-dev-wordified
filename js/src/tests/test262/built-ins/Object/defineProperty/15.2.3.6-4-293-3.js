@@ -206,7 +206,9 @@ a
 10
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 Expected

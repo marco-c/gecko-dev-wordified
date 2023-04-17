@@ -96,7 +96,9 @@ if
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -152,7 +154,9 @@ y
 y
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

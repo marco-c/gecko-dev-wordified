@@ -122,7 +122,9 @@ n_obj
 arr
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -166,7 +168,9 @@ n_obj
 4
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

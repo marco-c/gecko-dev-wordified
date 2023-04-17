@@ -89,7 +89,9 @@ Array
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -128,7 +130,9 @@ constructor
 Array
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -85,7 +85,9 @@ x
 x
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -134,7 +136,9 @@ eval
 1
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -179,7 +183,9 @@ true
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -224,7 +230,9 @@ null
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -269,7 +277,9 @@ undefined
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

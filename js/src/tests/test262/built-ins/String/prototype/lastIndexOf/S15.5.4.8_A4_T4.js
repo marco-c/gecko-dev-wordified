@@ -250,7 +250,9 @@ __obj
 __obj2
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -290,7 +292,9 @@ intostr
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

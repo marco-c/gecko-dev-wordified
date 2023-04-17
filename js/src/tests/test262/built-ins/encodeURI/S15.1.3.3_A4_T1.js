@@ -89,7 +89,9 @@ ru
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -129,7 +131,9 @@ aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -227,7 +231,9 @@ tT9uU8vV7wW6xX5yY4zZ
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

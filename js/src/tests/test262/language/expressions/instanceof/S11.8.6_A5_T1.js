@@ -160,7 +160,9 @@ Error
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -351,7 +353,9 @@ instanceof
 TypeError
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -555,7 +559,9 @@ Error
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -746,7 +752,9 @@ instanceof
 TypeError
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

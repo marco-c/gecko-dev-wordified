@@ -113,7 +113,9 @@ u000A
 "
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -182,7 +184,9 @@ SyntaxError
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

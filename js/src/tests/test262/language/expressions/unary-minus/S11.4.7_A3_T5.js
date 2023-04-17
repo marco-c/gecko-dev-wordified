@@ -85,7 +85,9 @@ isNaN
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -139,7 +141,9 @@ return
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

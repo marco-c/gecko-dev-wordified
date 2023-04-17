@@ -137,7 +137,9 @@ if
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -199,7 +201,9 @@ String
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -269,7 +273,9 @@ String
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -343,7 +349,9 @@ String
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -417,7 +425,9 @@ x1
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -475,7 +485,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

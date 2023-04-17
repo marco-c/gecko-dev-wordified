@@ -103,7 +103,9 @@ multiline
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -178,7 +180,9 @@ multiline
 __obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

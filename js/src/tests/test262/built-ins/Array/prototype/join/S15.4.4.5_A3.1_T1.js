@@ -108,7 +108,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -199,7 +201,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -288,7 +292,9 @@ join
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -364,7 +370,9 @@ true
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -430,7 +438,9 @@ Infinity
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -496,7 +506,9 @@ null
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -565,7 +577,9 @@ undefined
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -634,7 +648,9 @@ NaN
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -114,7 +114,9 @@ Number
 15
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -165,7 +167,9 @@ Number
 15
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -216,7 +220,9 @@ if
 15
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -267,7 +273,9 @@ Number
 15
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

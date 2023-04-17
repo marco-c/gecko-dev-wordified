@@ -194,7 +194,9 @@ instatement
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -219,7 +221,9 @@ instatement
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -443,7 +447,9 @@ missbranch
 (
 )
 ;
-ERROR
+throw
+new
+Test262Error
 (
 "
 #
@@ -468,7 +474,9 @@ missbranch
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

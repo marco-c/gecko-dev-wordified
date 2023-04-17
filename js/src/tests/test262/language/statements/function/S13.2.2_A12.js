@@ -215,7 +215,9 @@ catch
 e
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -421,7 +423,9 @@ id_string
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -244,7 +244,9 @@ Number
 1e9
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -335,7 +337,9 @@ Number
 9
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

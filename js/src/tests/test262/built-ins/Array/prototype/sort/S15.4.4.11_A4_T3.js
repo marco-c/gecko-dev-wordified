@@ -130,7 +130,9 @@ sort
 obj
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -227,7 +229,9 @@ length
 4294967294
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -329,7 +333,9 @@ z
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -434,7 +440,9 @@ y
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -539,7 +547,9 @@ x
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

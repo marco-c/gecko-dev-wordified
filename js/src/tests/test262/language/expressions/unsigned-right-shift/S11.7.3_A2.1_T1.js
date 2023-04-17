@@ -86,7 +86,9 @@ if
 2147483646
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -142,7 +144,9 @@ x
 2147483646
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -202,7 +206,9 @@ y
 2147483646
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -268,7 +274,9 @@ y
 2147483646
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -360,7 +368,9 @@ prop
 2147483646
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -95,7 +95,9 @@ x1
 =
 2
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -158,7 +160,9 @@ x2
 =
 2
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -221,7 +225,9 @@ myfunc3
 =
 undefined
 )
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

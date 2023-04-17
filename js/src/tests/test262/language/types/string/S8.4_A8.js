@@ -154,7 +154,9 @@ str
 undefined
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -314,7 +316,9 @@ str
 null
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -474,7 +478,9 @@ str
 0
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -639,7 +645,9 @@ str
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

@@ -111,7 +111,9 @@ Object
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -157,7 +159,9 @@ true
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -203,7 +207,9 @@ false
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -251,7 +257,9 @@ Object
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -303,7 +311,9 @@ x
 y
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -352,7 +362,9 @@ Number
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -401,7 +413,9 @@ String
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -453,7 +467,9 @@ true
 )
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #

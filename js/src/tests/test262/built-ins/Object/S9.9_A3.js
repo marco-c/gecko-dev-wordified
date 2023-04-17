@@ -99,7 +99,9 @@ valueOf
 true
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -155,7 +157,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -210,7 +214,9 @@ Boolean
 prototype
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -269,7 +275,9 @@ valueOf
 false
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -325,7 +333,9 @@ object
 "
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
@@ -380,7 +390,9 @@ Boolean
 prototype
 )
 {
-ERROR
+throw
+new
+Test262Error
 (
 '
 #
