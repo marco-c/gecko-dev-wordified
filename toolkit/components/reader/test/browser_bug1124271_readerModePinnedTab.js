@@ -113,7 +113,7 @@ mochitests
 content
 "
 "
-http
+https
 :
 /
 /

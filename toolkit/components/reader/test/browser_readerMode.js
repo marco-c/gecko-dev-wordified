@@ -119,7 +119,7 @@ mochitests
 content
 "
 "
-http
+https
 :
 /
 /
@@ -643,18 +643,6 @@ gURLBar
 .
 value
 url
-.
-substring
-(
-"
-http
-:
-/
-/
-"
-.
-length
-)
 "
 gURLBar
 is
@@ -1222,7 +1210,7 @@ let
 url
 =
 "
-http
+https
 :
 /
 /
@@ -1321,7 +1309,7 @@ let
 badUrl
 =
 "
-http
+https
 :
 /
 /
