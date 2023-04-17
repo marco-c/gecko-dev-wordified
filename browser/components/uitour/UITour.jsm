@@ -2271,6 +2271,9 @@ page
 :
 "
 action
+aEvent
+.
+pageVisibilityState
 )
 ;
 return

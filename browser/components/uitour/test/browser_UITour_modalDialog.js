@@ -24,9 +24,6 @@ var
 gContentAPI
 ;
 var
-gContentWindow
-;
-var
 handleDialog
 ;
 /

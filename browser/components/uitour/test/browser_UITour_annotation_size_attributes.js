@@ -34,9 +34,6 @@ var
 gContentAPI
 ;
 var
-gContentWindow
-;
-var
 highlight
 =
 UITour

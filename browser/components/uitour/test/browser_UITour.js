@@ -39,9 +39,6 @@ gTestTab
 var
 gContentAPI
 ;
-var
-gContentWindow
-;
 const
 {
 TelemetryArchiveTesting
