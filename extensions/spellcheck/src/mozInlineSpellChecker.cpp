@@ -3387,7 +3387,9 @@ mStatus
 mSpellChecker
 -
 >
-mDisabledAsyncToken
+GetDisabledAsyncToken
+(
+)
 )
 {
 mStatus
@@ -9764,7 +9766,9 @@ token
 self
 -
 >
-mDisabledAsyncToken
+GetDisabledAsyncToken
+(
+)
 )
 {
 /
@@ -9947,7 +9951,9 @@ token
 self
 -
 >
-mDisabledAsyncToken
+GetDisabledAsyncToken
+(
+)
 )
 {
 /
@@ -11893,7 +11899,9 @@ return
 mSpellChecker
 -
 >
-mDisabledAsyncToken
+GetDisabledAsyncToken
+(
+)
 >
 mDisabledAsyncToken
 ?
