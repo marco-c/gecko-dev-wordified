@@ -11442,7 +11442,7 @@ return
 icScript
 -
 >
-fallbackStubSpace
+jitScriptStubSpace
 (
 )
 ;
