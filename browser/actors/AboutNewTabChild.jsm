@@ -722,7 +722,7 @@ this
 sendAsyncMessage
 (
 "
-DefaultBrowserNotification
+AboutNewTabVisible
 "
 )
 ;
