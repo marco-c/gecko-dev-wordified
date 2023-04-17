@@ -2173,10 +2173,6 @@ ipc
 IPCResult
 RecvUpdateSHistory
 (
-const
-bool
-&
-aImmediately
 )
 ;
 mozilla

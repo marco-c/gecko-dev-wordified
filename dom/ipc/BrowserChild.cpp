@@ -12158,10 +12158,6 @@ BrowserChild
 :
 RecvUpdateSHistory
 (
-const
-bool
-&
-aImmediately
 )
 {
 if
@@ -12174,7 +12170,6 @@ mSessionStoreListener
 >
 UpdateSHistoryChanges
 (
-aImmediately
 )
 ;
 }

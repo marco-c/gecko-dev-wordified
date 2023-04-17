@@ -21252,8 +21252,6 @@ nsFrameLoader
 :
 RequestSHistoryUpdate
 (
-bool
-aImmediately
 )
 {
 if
@@ -21266,7 +21264,6 @@ mSessionStoreListener
 >
 UpdateSHistoryChanges
 (
-aImmediately
 )
 ;
 return
@@ -21305,7 +21302,6 @@ browserParent
 >
 SendUpdateSHistory
 (
-aImmediately
 )
 ;
 }
