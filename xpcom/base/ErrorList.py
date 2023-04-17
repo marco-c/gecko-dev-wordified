@@ -8346,26 +8346,6 @@ FAILURE
 1020
 )
     
-errors
-[
-        
-"
-NS_ERROR_DOM_INVALID_STATE_XHR_MUST_NOT_BE_LOADING_OR_DONE_RESPONSE_TYPE
-"
-    
-]
-=
-FAILURE
-(
-        
-1021
-    
-)
-#
-NOQA
-:
-E501
-    
 #
 When
 manipulating
