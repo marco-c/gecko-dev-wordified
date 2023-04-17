@@ -442,11 +442,11 @@ const
 char
 *
 aRunnableName
-uint32_t
+TimeDuration
 aStartDelay
-uint32_t
+TimeDuration
 aMaxDelay
-int64_t
+TimeDuration
 aMinimumUsefulBudget
 bool
 aRepeating
@@ -504,7 +504,7 @@ aDeadline
 void
 SetTimer
 (
-uint32_t
+TimeDuration
 aDelay
 nsIEventTarget
 *
@@ -569,11 +569,11 @@ const
 char
 *
 aRunnableName
-uint32_t
+TimeDuration
 aStartDelay
-uint32_t
+TimeDuration
 aMaxDelay
-int64_t
+TimeDuration
 aMinimumUsefulBudget
 bool
 aRepeating
@@ -596,7 +596,7 @@ CancelTimer
 void
 SetTimerInternal
 (
-uint32_t
+TimeDuration
 aDelay
 )
 ;
@@ -652,7 +652,7 @@ idle
 /
 callback
 .
-uint32_t
+TimeDuration
 mMaxDelay
 ;
 /
