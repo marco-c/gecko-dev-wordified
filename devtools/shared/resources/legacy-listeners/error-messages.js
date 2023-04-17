@@ -105,7 +105,7 @@ async
 function
 (
 {
-targetList
+targetCommand
 targetFront
 onAvailable
 }
@@ -176,7 +176,7 @@ bug
 const
 listenForFrames
 =
-targetList
+targetCommand
 .
 descriptorFront
 .
@@ -196,7 +196,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
@@ -210,7 +210,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .

@@ -89,7 +89,7 @@ async
 function
 (
 {
-targetList
+targetCommand
 targetFront
 onAvailable
 }
@@ -143,7 +143,7 @@ targets
 const
 listenForFrames
 =
-targetList
+targetCommand
 .
 descriptorFront
 .
@@ -168,7 +168,7 @@ const
 listenForWorkers
 =
 !
-targetList
+targetCommand
 .
 rootFront
 .
@@ -190,7 +190,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
@@ -204,7 +204,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
@@ -222,7 +222,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .

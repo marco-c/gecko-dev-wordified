@@ -89,7 +89,7 @@ async
 function
 (
 {
-targetList
+targetCommand
 targetFront
 onAvailable
 }
@@ -98,7 +98,7 @@ onAvailable
 const
 isBrowserToolbox
 =
-targetList
+targetCommand
 .
 targetFront
 .
@@ -119,7 +119,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
