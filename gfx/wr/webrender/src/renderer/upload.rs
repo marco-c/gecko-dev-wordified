@@ -3235,11 +3235,6 @@ mut
 renderer
 .
 renderer_errors
-&
-mut
-renderer
-.
-profile
 )
 ;
 prev_dst
