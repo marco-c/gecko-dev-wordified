@@ -4095,7 +4095,7 @@ item
 "
 places
 -
-remove
+delete
 -
 bookmark
 "
@@ -4132,7 +4132,7 @@ item
 "
 places
 -
-remove
+delete
 -
 folder
 "
