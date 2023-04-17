@@ -8123,6 +8123,17 @@ Type
 type
 )
 ;
+StringOperandId
+emitToStringGuard
+(
+ValOperandId
+id
+const
+Value
+&
+v
+)
+;
 friend
 class
 CacheIRSpewer
