@@ -52,6 +52,12 @@ sjs
 html
 =
 <
+meta
+charset
+=
+utf8
+>
+<
 iframe
 srcdoc
 =
@@ -88,6 +94,12 @@ sjs
 ?
 html
 =
+<
+meta
+charset
+=
+utf8
+>
 <
 div
 id
