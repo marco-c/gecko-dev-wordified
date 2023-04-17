@@ -156,6 +156,12 @@ using
 mozilla
 :
 :
+JSHolderMap
+;
+using
+mozilla
+:
+:
 Maybe
 ;
 using
@@ -822,6 +828,9 @@ holders
 .
 emplaceBack
 (
+mozilla
+:
+:
 MakeUnique
 <
 MyHolder
@@ -1010,6 +1019,9 @@ holders
 .
 emplaceBack
 (
+mozilla
+:
+:
 MakeUnique
 <
 MyHolder

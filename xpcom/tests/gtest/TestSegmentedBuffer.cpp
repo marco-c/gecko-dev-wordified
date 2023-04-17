@@ -80,6 +80,13 @@ nsSegmentedBuffer
 .
 h
 "
+#
+include
+"
+nsIEventTarget
+.
+h
+"
 using
 namespace
 mozilla
