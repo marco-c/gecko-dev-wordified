@@ -72,6 +72,17 @@ include
 "
 mozilla
 /
+intl
+/
+NumberFormat
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Vector
 .
 h
@@ -91,9 +102,6 @@ mozilla
 namespace
 intl
 {
-struct
-NumberFormatOptions
-;
 /
 *
 *
