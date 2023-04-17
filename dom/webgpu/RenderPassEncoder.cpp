@@ -313,7 +313,7 @@ return
 ffi
 :
 :
-WGPUStoreOp_Clear
+WGPUStoreOp_Discard
 ;
 default
 :

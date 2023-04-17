@@ -73,7 +73,6 @@ DeviceAction
 DropAction
 QueueWriteAction
 RawString
-ShaderModuleSource
 TextureAction
 }
 ;
@@ -440,10 +439,18 @@ factory
 wgt
 :
 :
-BackendBit
+Backends
 :
 :
 PRIMARY
+|
+wgt
+:
+:
+Backends
+:
+:
+GL
 )
 )
 ;
@@ -1574,7 +1581,7 @@ GlobalExt
 fn
 device_action
 <
-B
+A
 :
 wgc
 :
@@ -1582,7 +1589,7 @@ wgc
 hub
 :
 :
-GfxBackend
+HalApi
 >
 (
 &
@@ -1604,7 +1611,7 @@ ErrorBuffer
 fn
 texture_action
 <
-B
+A
 :
 wgc
 :
@@ -1612,7 +1619,7 @@ wgc
 hub
 :
 :
-GfxBackend
+HalApi
 >
 (
 &
@@ -1634,7 +1641,7 @@ ErrorBuffer
 fn
 command_encoder_action
 <
-B
+A
 :
 wgc
 :
@@ -1642,7 +1649,7 @@ wgc
 hub
 :
 :
-GfxBackend
+HalApi
 >
 (
 &
@@ -1670,7 +1677,7 @@ Global
 fn
 device_action
 <
-B
+A
 :
 wgc
 :
@@ -1678,7 +1685,7 @@ wgc
 hub
 :
 :
-GfxBackend
+HalApi
 >
 (
 &
@@ -1724,7 +1731,7 @@ device_create_buffer
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -1774,7 +1781,7 @@ device_create_texture
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -1824,7 +1831,7 @@ device_create_sampler
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -1874,7 +1881,7 @@ device_create_bind_group_layout
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -1924,7 +1931,7 @@ device_create_pipeline_layout
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -1974,7 +1981,7 @@ device_create_bind_group
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2008,7 +2015,7 @@ CreateShaderModule
 (
 id
 desc
-source
+code
 )
 =
 >
@@ -2016,42 +2023,6 @@ source
 let
 source
 =
-match
-source
-{
-ShaderModuleSource
-:
-:
-SpirV
-(
-data
-)
-=
->
-{
-wgc
-:
-:
-pipeline
-:
-:
-ShaderModuleSource
-:
-:
-SpirV
-(
-data
-)
-}
-ShaderModuleSource
-:
-:
-Wgsl
-(
-data
-)
-=
->
 wgc
 :
 :
@@ -2063,9 +2034,8 @@ ShaderModuleSource
 :
 Wgsl
 (
-data
+code
 )
-}
 ;
 let
 (
@@ -2079,7 +2049,7 @@ device_create_shader_module
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2167,7 +2137,7 @@ device_create_compute_pipeline
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2255,7 +2225,7 @@ device_create_render_pipeline
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2307,7 +2277,7 @@ render_bundle_encoder_finish
 :
 :
 <
-B
+A
 >
 (
 encoder
@@ -2357,7 +2327,7 @@ device_create_command_encoder
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2389,7 +2359,7 @@ err
 fn
 texture_action
 <
-B
+A
 :
 wgc
 :
@@ -2397,7 +2367,7 @@ wgc
 hub
 :
 :
-GfxBackend
+HalApi
 >
 (
 &
@@ -2443,7 +2413,7 @@ texture_create_view
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2475,7 +2445,7 @@ err
 fn
 command_encoder_action
 <
-B
+A
 :
 wgc
 :
@@ -2483,7 +2453,7 @@ wgc
 hub
 :
 :
-GfxBackend
+HalApi
 >
 (
 &
@@ -2533,7 +2503,7 @@ command_encoder_copy_buffer_to_buffer
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2578,7 +2548,7 @@ command_encoder_copy_buffer_to_texture
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2624,7 +2594,7 @@ command_encoder_copy_texture_to_buffer
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2670,7 +2640,7 @@ command_encoder_copy_texture_to_texture
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2714,7 +2684,7 @@ command_encoder_run_compute_pass_impl
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2758,7 +2728,7 @@ command_encoder_write_timestamp
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2802,7 +2772,7 @@ command_encoder_resolve_query_set
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2847,7 +2817,7 @@ command_encoder_run_render_pass_impl
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2899,7 +2869,7 @@ command_encoder_clear_buffer
 :
 :
 <
-B
+A
 >
 (
 self_id
@@ -2942,7 +2912,7 @@ command_encoder_clear_image
 :
 :
 <
-B
+A
 >
 (
 self_id

@@ -55,7 +55,9 @@ slice
 /
 /
 /
+[
 Align
+]
 handles
 dynamic
 alignment
@@ -169,10 +171,12 @@ bytes
 /
 /
 /
+[
 Align
 :
 :
 copy_from_slice
+]
 will
 copy
 a

@@ -126,6 +126,7 @@ in
 /
 /
 /
+<
 https
 :
 /
@@ -141,6 +142,7 @@ gpuweb
 issues
 /
 1393
+>
 #
 [
 derive
@@ -574,6 +576,16 @@ Ti
 :
 :
 Scalar
+{
+width
+.
+.
+}
+|
+Ti
+:
+:
+Atomic
 {
 width
 .

@@ -186,6 +186,9 @@ visible
 "
 as_type
 "
+"
+this
+"
 /
 /
 qualifiers

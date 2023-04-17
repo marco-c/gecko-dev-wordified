@@ -531,6 +531,63 @@ GpaSqShaderStageFlags
 Flags
 )
 ;
+/
+/
+ignore
+clippy
+:
+:
+use_self
+false
+positives
+/
+/
+changing
+GpaSqShaderStageFlags
+:
+:
+PS
+.
+0
+to
+Self
+:
+:
+PS
+.
+0
+as
+suggested
+by
+clippy
+generates
+:
+/
+/
+error
+[
+E0401
+]
+:
+can
+'
+t
+use
+generic
+parameters
+from
+outer
+function
+#
+[
+allow
+(
+clippy
+:
+:
+use_self
+)
+]
 impl
 fmt
 :
@@ -672,7 +729,7 @@ PS
 :
 Self
 =
-GpaSqShaderStageFlags
+Self
 (
 0b1
 )
@@ -683,7 +740,7 @@ VS
 :
 Self
 =
-GpaSqShaderStageFlags
+Self
 (
 0b10
 )
@@ -694,7 +751,7 @@ GS
 :
 Self
 =
-GpaSqShaderStageFlags
+Self
 (
 0b100
 )
@@ -705,7 +762,7 @@ ES
 :
 Self
 =
-GpaSqShaderStageFlags
+Self
 (
 0b1000
 )
@@ -716,7 +773,7 @@ HS
 :
 Self
 =
-GpaSqShaderStageFlags
+Self
 (
 0b10000
 )
@@ -727,7 +784,7 @@ LS
 :
 Self
 =
-GpaSqShaderStageFlags
+Self
 (
 0b100000
 )
@@ -738,7 +795,7 @@ CS
 :
 Self
 =
-GpaSqShaderStageFlags
+Self
 (
 0b1000000
 )
@@ -753,7 +810,7 @@ PHYSICAL_DEVICE_GPA_FEATURES_AMD
 :
 Self
 =
-StructureType
+Self
 (
 1000133000
 )
@@ -764,7 +821,7 @@ PHYSICAL_DEVICE_GPA_PROPERTIES_AMD
 :
 Self
 =
-StructureType
+Self
 (
 1000133001
 )
@@ -775,7 +832,7 @@ GPA_SAMPLE_BEGIN_INFO_AMD
 :
 Self
 =
-StructureType
+Self
 (
 1000133002
 )
@@ -786,7 +843,7 @@ GPA_SESSION_CREATE_INFO_AMD
 :
 Self
 =
-StructureType
+Self
 (
 1000133003
 )
@@ -797,7 +854,7 @@ GPA_DEVICE_CLOCK_MODE_INFO_AMD
 :
 Self
 =
-StructureType
+Self
 (
 1000133004
 )
@@ -851,7 +908,7 @@ i32
 >
 Self
 {
-GpaDeviceClockModeAmd
+Self
 (
 x
 )
@@ -880,7 +937,7 @@ DEFAULT
 :
 Self
 =
-GpaDeviceClockModeAmd
+Self
 (
 0
 )
@@ -891,7 +948,7 @@ QUERY
 :
 Self
 =
-GpaDeviceClockModeAmd
+Self
 (
 1
 )
@@ -902,7 +959,7 @@ PROFILING
 :
 Self
 =
-GpaDeviceClockModeAmd
+Self
 (
 2
 )
@@ -913,7 +970,7 @@ MIN_MEMORY
 :
 Self
 =
-GpaDeviceClockModeAmd
+Self
 (
 3
 )
@@ -924,7 +981,7 @@ MIN_ENGINE
 :
 Self
 =
-GpaDeviceClockModeAmd
+Self
 (
 4
 )
@@ -935,7 +992,7 @@ PEAK
 :
 Self
 =
-GpaDeviceClockModeAmd
+Self
 (
 5
 )
@@ -989,7 +1046,7 @@ i32
 >
 Self
 {
-GpaPerfBlockAmd
+Self
 (
 x
 )
@@ -1018,7 +1075,7 @@ CPF
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 0
 )
@@ -1029,7 +1086,7 @@ IA
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 1
 )
@@ -1040,7 +1097,7 @@ VGT
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 2
 )
@@ -1051,7 +1108,7 @@ PA
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 3
 )
@@ -1062,7 +1119,7 @@ SC
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 4
 )
@@ -1073,7 +1130,7 @@ SPI
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 5
 )
@@ -1084,7 +1141,7 @@ SQ
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 6
 )
@@ -1095,7 +1152,7 @@ SX
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 7
 )
@@ -1106,7 +1163,7 @@ TA
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 8
 )
@@ -1117,7 +1174,7 @@ TD
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 9
 )
@@ -1128,7 +1185,7 @@ TCP
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 10
 )
@@ -1139,7 +1196,7 @@ TCC
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 11
 )
@@ -1150,7 +1207,7 @@ TCA
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 12
 )
@@ -1161,7 +1218,7 @@ DB
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 13
 )
@@ -1172,7 +1229,7 @@ CB
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 14
 )
@@ -1183,7 +1240,7 @@ GDS
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 15
 )
@@ -1194,7 +1251,7 @@ SRBM
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 16
 )
@@ -1205,7 +1262,7 @@ GRBM
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 17
 )
@@ -1216,7 +1273,7 @@ GRBM_SE
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 18
 )
@@ -1227,7 +1284,7 @@ RLC
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 19
 )
@@ -1238,7 +1295,7 @@ DMA
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 20
 )
@@ -1249,7 +1306,7 @@ MC
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 21
 )
@@ -1260,7 +1317,7 @@ CPG
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 22
 )
@@ -1271,7 +1328,7 @@ CPC
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 23
 )
@@ -1282,7 +1339,7 @@ WD
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 24
 )
@@ -1293,7 +1350,7 @@ TCS
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 25
 )
@@ -1304,7 +1361,7 @@ ATC
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 26
 )
@@ -1315,7 +1372,7 @@ ATC_L2
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 27
 )
@@ -1326,7 +1383,7 @@ MC_VM_L2
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 28
 )
@@ -1337,7 +1394,7 @@ EA
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 29
 )
@@ -1348,7 +1405,7 @@ RPB
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 30
 )
@@ -1359,7 +1416,7 @@ RMI
 :
 Self
 =
-GpaPerfBlockAmd
+Self
 (
 31
 )
@@ -1413,7 +1470,7 @@ i32
 >
 Self
 {
-GpaSampleTypeAmd
+Self
 (
 x
 )
@@ -1442,7 +1499,7 @@ CUMULATIVE
 :
 Self
 =
-GpaSampleTypeAmd
+Self
 (
 0
 )
@@ -1453,7 +1510,7 @@ TRACE
 :
 Self
 =
-GpaSampleTypeAmd
+Self
 (
 1
 )
@@ -1464,7 +1521,7 @@ TIMING
 :
 Self
 =
-GpaSampleTypeAmd
+Self
 (
 2
 )
@@ -1680,9 +1737,9 @@ default
 )
 -
 >
-PhysicalDeviceGpaPropertiesAmd
+Self
 {
-PhysicalDeviceGpaPropertiesAmd
+Self
 {
 s_type
 :
@@ -1775,7 +1832,7 @@ PhysicalDeviceGpaPropertiesAmdBuilder
 {
 inner
 :
-PhysicalDeviceGpaPropertiesAmd
+Self
 :
 :
 default
@@ -2561,7 +2618,7 @@ self
 >
 Self
 {
-AmdGpaInterfaceFn
+Self
 {
 create_gpa_session
 :
@@ -2661,7 +2718,7 @@ CStr
 const
 c_void
 {
-AmdGpaInterfaceFn
+Self
 {
 create_gpa_session
 :
@@ -3978,7 +4035,7 @@ WAVE_LIMIT_AMD
 :
 Self
 =
-StructureType
+Self
 (
 1000045000
 )
@@ -3989,7 +4046,7 @@ PHYSICAL_DEVICE_WAVE_LIMIT_PROPERTIES_AMD
 :
 Self
 =
-StructureType
+Self
 (
 1000045001
 )
@@ -4053,9 +4110,9 @@ default
 )
 -
 >
-PhysicalDeviceWaveLimitPropertiesAmd
+Self
 {
-PhysicalDeviceWaveLimitPropertiesAmd
+Self
 {
 s_type
 :
@@ -4119,7 +4176,7 @@ PhysicalDeviceWaveLimitPropertiesAmdBuilder
 {
 inner
 :
-PhysicalDeviceWaveLimitPropertiesAmd
+Self
 :
 :
 default
