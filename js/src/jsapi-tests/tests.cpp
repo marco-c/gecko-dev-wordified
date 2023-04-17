@@ -281,14 +281,6 @@ UseInternalJobQueues
 cx
 )
 ;
-JS
-:
-:
-SetLargeArrayBuffersEnabled
-(
-true
-)
-;
 if
 (
 !

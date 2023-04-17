@@ -1204,7 +1204,7 @@ ArrayBufferObject
 :
 supportLargeBuffers
 =
-false
+true
 ;
 [
 [

@@ -14,12 +14,6 @@ largeArrayBufferEnabled
 (
 )
 ;
--
--
-large
--
-arraybuffers
-;
 allow
 -
 oom

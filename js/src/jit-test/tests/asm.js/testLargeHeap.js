@@ -13,12 +13,6 @@ if
 largeArrayBufferEnabled
 (
 )
-;
--
--
-large
--
-arraybuffers
 load
 (
 libdir

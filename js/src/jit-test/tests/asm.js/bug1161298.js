@@ -13,6 +13,11 @@ if
 this
 .
 SharedArrayBuffer
+|
+|
+largeArrayBufferEnabled
+(
+)
 /
 /
 The

@@ -8,6 +8,14 @@ test
 error
 :
 RangeError
+;
+skip
+-
+if
+:
+largeArrayBufferEnabled
+(
+)
 setJitCompilerOption
 (
 "
