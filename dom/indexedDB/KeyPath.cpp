@@ -1783,7 +1783,10 @@ keyPath
 .
 SetType
 (
-STRING
+KeyPathType
+:
+:
+String
 )
 ;
 if
@@ -1840,7 +1843,10 @@ keyPath
 .
 SetType
 (
-ARRAY
+KeyPathType
+:
+:
+Array
 )
 ;
 for
@@ -2927,7 +2933,10 @@ keyPath
 .
 SetType
 (
-ARRAY
+KeyPathType
+:
+:
+Array
 )
 ;
 /
@@ -3082,7 +3091,10 @@ keyPath
 .
 SetType
 (
-STRING
+KeyPathType
+:
+:
+String
 )
 ;
 keyPath

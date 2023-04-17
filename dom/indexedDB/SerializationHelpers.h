@@ -414,7 +414,10 @@ indexedDB
 KeyPath
 :
 :
-NONEXISTENT
+KeyPathType
+:
+:
+NonExistent
 mozilla
 :
 :
@@ -427,7 +430,10 @@ indexedDB
 KeyPath
 :
 :
-ENDGUARD
+KeyPathType
+:
+:
+EndGuard
 >
 {
 }
