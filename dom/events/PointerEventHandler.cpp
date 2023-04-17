@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsRFPService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PresShell

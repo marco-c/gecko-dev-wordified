@@ -130,11 +130,6 @@ DisplayListClipState
 h
 "
 "
-FrameLayerBuilder
-.
-h
-"
-"
 HitTestInfo
 .
 h
@@ -253,11 +248,6 @@ cpp
 "
 "
 DottedCornerFinder
-.
-cpp
-"
-"
-FrameLayerBuilder
 .
 cpp
 "
