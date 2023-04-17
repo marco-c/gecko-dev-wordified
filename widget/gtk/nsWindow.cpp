@@ -46053,7 +46053,6 @@ modifierState
 )
 ;
 }
-static
 gboolean
 WindowDragMotionHandler
 (
@@ -46063,6 +46062,9 @@ aWidget
 GdkDragContext
 *
 aDragContext
+nsWaylandDragContext
+*
+aWaylandDragContext
 gint
 aX
 gint
@@ -46209,6 +46211,7 @@ ScheduleMotionEvent
 (
 innerMostWindow
 aDragContext
+aWaylandDragContext
 point
 aTime
 )
@@ -46239,13 +46242,13 @@ WindowDragMotionHandler
 (
 aWidget
 aDragContext
+nullptr
 aX
 aY
 aTime
 )
 ;
 }
-static
 void
 WindowDragLeaveHandler
 (
@@ -46557,7 +46560,6 @@ aWidget
 )
 ;
 }
-static
 gboolean
 WindowDragDropHandler
 (
@@ -46567,6 +46569,9 @@ aWidget
 GdkDragContext
 *
 aDragContext
+nsWaylandDragContext
+*
+aWaylandDragContext
 gint
 aX
 gint
@@ -46711,6 +46716,7 @@ ScheduleDropEvent
 (
 innerMostWindow
 aDragContext
+aWaylandDragContext
 point
 aTime
 )
@@ -46741,6 +46747,7 @@ WindowDragDropHandler
 (
 aWidget
 aDragContext
+nullptr
 aX
 aY
 aTime
