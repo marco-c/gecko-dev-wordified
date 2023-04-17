@@ -1583,6 +1583,10 @@ http
 https
 :
 "
+"
+ftp
+:
+"
 ]
 ;
 function

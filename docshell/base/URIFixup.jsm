@@ -503,6 +503,9 @@ http
 https
 "
 "
+ftp
+"
+"
 file
 "
 ]
