@@ -34990,7 +34990,7 @@ identifier
 =
 =
 "
-LenientSetter
+LegacyLenientSetter
 "
 :
             
@@ -35009,7 +35009,7 @@ WebIDLError
                     
 "
 [
-LenientSetter
+LegacyLenientSetter
 ]
 must
 take
@@ -35037,7 +35037,7 @@ WebIDLError
                     
 "
 [
-LenientSetter
+LegacyLenientSetter
 ]
 is
 only
@@ -35076,13 +35076,14 @@ WebIDLError
                     
 "
 [
-LenientSetter
+LegacyLenientSetter
 ]
 is
 not
 allowed
 on
 "
+                    
 "
 Promise
 -
@@ -35115,7 +35116,7 @@ WebIDLError
                     
 "
 [
-LenientSetter
+LegacyLenientSetter
 ]
 is
 only
@@ -35160,7 +35161,7 @@ WebIDLError
                     
 "
 [
-LenientSetter
+LegacyLenientSetter
 ]
 and
 [
@@ -35211,7 +35212,7 @@ WebIDLError
                     
 "
 [
-LenientSetter
+LegacyLenientSetter
 ]
 and
 [
@@ -41778,7 +41779,7 @@ identifier
 =
 =
 "
-LenientSetter
+LegacyLenientSetter
 "
 :
             
@@ -41791,7 +41792,7 @@ Only
 attributes
 support
 [
-LenientSetter
+LegacyLenientSetter
 ]
 "
                 

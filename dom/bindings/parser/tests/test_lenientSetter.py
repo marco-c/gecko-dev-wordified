@@ -125,7 +125,7 @@ harness
 #
 The
 [
-LenientSetter
+LegacyLenientSetter
 ]
 extended
 attribute
@@ -156,7 +156,7 @@ I
 {
           
 [
-LenientSetter
+LegacyLenientSetter
 =
 X
 ]
@@ -181,7 +181,7 @@ attribute
 with
 the
 [
-LenientSetter
+LegacyLenientSetter
 ]
 extended
 attribute
@@ -224,7 +224,7 @@ I
 PutForwards
 =
 B
-LenientSetter
+LegacyLenientSetter
 ]
 readonly
 attribute
@@ -259,7 +259,7 @@ attribute
 with
 the
 [
-LenientSetter
+LegacyLenientSetter
 ]
 extended
 attribute
@@ -300,7 +300,7 @@ I
           
 [
 Replaceable
-LenientSetter
+LegacyLenientSetter
 ]
 readonly
 attribute
@@ -320,7 +320,7 @@ A
 #
 The
 [
-LenientSetter
+LegacyLenientSetter
 ]
 extended
 attribute
@@ -361,7 +361,7 @@ I
 {
           
 [
-LenientSetter
+LegacyLenientSetter
 ]
 attribute
 long
@@ -380,7 +380,7 @@ A
 #
 The
 [
-LenientSetter
+LegacyLenientSetter
 ]
 extended
 attribute
@@ -417,7 +417,7 @@ I
 {
           
 [
-LenientSetter
+LegacyLenientSetter
 ]
 static
 readonly
