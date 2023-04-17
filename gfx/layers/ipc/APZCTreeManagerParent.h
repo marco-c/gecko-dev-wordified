@@ -321,7 +321,10 @@ ScrollableLayerGuid
 &
 aGuid
 const
-MaybeZoomConstraints
+Maybe
+<
+ZoomConstraints
+>
 &
 aConstraints
 )

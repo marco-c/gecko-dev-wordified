@@ -376,13 +376,6 @@ z
 ;
 }
 ;
-typedef
-Maybe
-<
-ZoomConstraints
->
-MaybeZoomConstraints
-;
 }
 /
 /
