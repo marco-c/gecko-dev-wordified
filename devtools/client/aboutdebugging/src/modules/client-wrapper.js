@@ -1028,6 +1028,7 @@ perf
 "
 )
 ;
+await
 win
 .
 gInit
@@ -1087,6 +1088,7 @@ perf
 "
 )
 ;
+await
 win
 .
 gInit

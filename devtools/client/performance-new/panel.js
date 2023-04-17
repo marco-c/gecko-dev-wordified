@@ -449,6 +449,7 @@ perf
 "
 )
 ;
+await
 this
 .
 panelWin
