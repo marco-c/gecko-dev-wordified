@@ -9248,18 +9248,6 @@ RTL
 rtl_flag
 ]
 )
-            
-computed_wasm_flags
-.
-resolve_flags
-(
-"
-RTL
-"
-[
-rtl_flag
-]
-)
         
 generated_files
 =
