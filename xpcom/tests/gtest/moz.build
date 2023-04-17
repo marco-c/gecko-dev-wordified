@@ -668,6 +668,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestAvailableMemoryWatcherWin
+.
+cpp
+"
+"
 TestFileNTFSSpecialPaths
 .
 cpp
