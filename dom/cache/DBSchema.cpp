@@ -4337,6 +4337,8 @@ transaction
 .
 QM_TRY
 (
+QM_OR_ELSE_WARN
+(
 ToResult
 (
 aConn
@@ -4349,8 +4351,6 @@ VACUUM
 _ns
 )
 )
-.
-orElse
 (
 [
 &
@@ -4393,6 +4393,7 @@ rv
 )
 ;
 }
+)
 )
 )
 ;
