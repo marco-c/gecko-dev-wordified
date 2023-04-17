@@ -6898,6 +6898,12 @@ nsIPrintSettings
 :
 :
 kInitSaveAll
+&
+~
+nsIPrintSettings
+:
+:
+kInitSaveToFileName
 )
 ;
 printSettingsService
