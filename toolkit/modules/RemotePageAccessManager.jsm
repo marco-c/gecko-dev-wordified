@@ -314,6 +314,9 @@ Browser
 :
 ResetEnterpriseRootsPref
 "
+"
+DisplayOfflineSupportPage
+"
 ]
 RPMRecordTelemetryEvent
 :
@@ -557,6 +560,9 @@ ResetEnterpriseRootsPref
 "
 "
 ReportBlockingError
+"
+"
+DisplayOfflineSupportPage
 "
 ]
 RPMAddMessageListener
