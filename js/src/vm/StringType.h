@@ -1893,7 +1893,7 @@ left
 JSRope
 *
 /
-JSString
+JSRope
 *
 parent
 ;
@@ -5408,9 +5408,9 @@ static
 void
 ropeBarrierDuringFlattening
 (
-JSString
+JSRope
 *
-str
+rope
 )
 ;
 void
