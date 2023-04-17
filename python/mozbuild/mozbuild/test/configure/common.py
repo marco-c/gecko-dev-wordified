@@ -254,7 +254,9 @@ topsrcdir
 topobjdir
 tempfile
 .
-tempdir
+gettempdir
+(
+)
 ]
 )
     
