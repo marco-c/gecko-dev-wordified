@@ -2040,7 +2040,7 @@ mappedSubresource
 ;
 }
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 SUCCEEDED
 (
