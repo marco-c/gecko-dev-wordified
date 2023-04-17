@@ -954,13 +954,6 @@ nullptr
 ;
 }
 }
-MOZ_DIAGNOSTIC_ASSERT
-(
-options
-.
-useStencilXDR
-)
-;
 if
 (
 !
