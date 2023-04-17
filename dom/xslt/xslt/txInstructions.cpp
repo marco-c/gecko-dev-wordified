@@ -3553,7 +3553,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 txPushNewContext
 :
 :
@@ -3679,9 +3679,6 @@ move
 (
 aCaseOrderExpr
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
