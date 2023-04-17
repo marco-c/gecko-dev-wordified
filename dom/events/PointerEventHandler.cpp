@@ -3481,10 +3481,10 @@ aPointerEvent
 >
 mInputSource
 =
-MouseEvent_Binding
-:
-:
-MOZ_SOURCE_TOUCH
+aTouchEvent
+-
+>
+mInputSource
 ;
 aPointerEvent
 -

@@ -61482,6 +61482,10 @@ touchData
 DispatchTouchInput
 (
 touchInput
+MouseEvent_Binding
+:
+:
+MOZ_SOURCE_PEN
 )
 ;
 return
