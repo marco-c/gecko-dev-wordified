@@ -150,8 +150,11 @@ globals
 set
 (
 "
-aboutNewTabFeature
+NimbusFeatures
 "
+{
+newtab
+:
 {
 getValue
 :
@@ -160,6 +163,7 @@ sandbox
 stub
 (
 )
+}
 }
 )
 ;

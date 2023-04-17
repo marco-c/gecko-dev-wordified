@@ -370,7 +370,10 @@ true
 Services
 :
 ServicesStub
-aboutNewTabFeature
+NimbusFeatures
+:
+{
+newtab
 :
 new
 global
@@ -378,6 +381,7 @@ global
 ExperimentFeature
 (
 )
+}
 }
 )
 ;
@@ -658,7 +662,9 @@ stub
 (
 global
 .
-aboutNewTabFeature
+NimbusFeatures
+.
+newtab
 "
 getValue
 "
@@ -778,7 +784,9 @@ stub
 (
 global
 .
-aboutNewTabFeature
+NimbusFeatures
+.
+newtab
 "
 getValue
 "
@@ -1263,7 +1271,9 @@ stub
 (
 global
 .
-aboutNewTabFeature
+NimbusFeatures
+.
+newtab
 "
 getValue
 "

@@ -283,7 +283,10 @@ fakeServices
 PlacesUtils
 :
 fakePlacesUtils
-aboutNewTabFeature
+NimbusFeatures
+:
+{
+newtab
 :
 {
 getValue
@@ -293,6 +296,7 @@ sandbox
 stub
 (
 )
+}
 }
 }
 )
@@ -3764,8 +3768,11 @@ globals
 set
 (
 "
-aboutNewTabFeature
+NimbusFeatures
 "
+{
+newtab
+:
 {
 getValue
 :
@@ -3774,6 +3781,7 @@ sandbox
 stub
 (
 )
+}
 }
 )
 ;
