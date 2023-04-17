@@ -646,12 +646,6 @@ setWalker
 (
 )
 ;
-this
-.
-_nodeFront
-=
-null
-;
 }
 setWalker
 :

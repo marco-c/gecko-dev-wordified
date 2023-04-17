@@ -3720,11 +3720,6 @@ targetFront
 }
 )
 {
-delete
-targetFront
-.
-resourceCommand
-;
 /
 /
 Clear

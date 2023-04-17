@@ -5651,11 +5651,6 @@ removeEventListener
 click
 "
 this
-{
-capture
-:
-true
-}
 )
 ;
 this
