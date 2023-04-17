@@ -1040,8 +1040,7 @@ Step
 var
 opt
 =
-new
-Record
+new_Record
 (
 )
 ;

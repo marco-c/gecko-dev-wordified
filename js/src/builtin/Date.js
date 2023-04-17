@@ -343,8 +343,7 @@ it
 var
 dateTimeFormatCache
 =
-new
-Record
+new_Record
 (
 )
 ;
@@ -486,8 +485,7 @@ dateTimeFormatCache
 .
 formatters
 =
-new
-Record
+new_Record
 (
 )
 ;

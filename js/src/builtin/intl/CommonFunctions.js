@@ -1772,8 +1772,7 @@ Step
 var
 result
 =
-new
-Record
+new_Record
 (
 )
 ;
@@ -2600,8 +2599,7 @@ Step
 var
 result
 =
-new
-Record
+new_Record
 (
 )
 ;

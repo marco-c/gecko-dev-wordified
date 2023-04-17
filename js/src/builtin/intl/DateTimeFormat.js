@@ -2042,8 +2042,7 @@ Step
 var
 localeOpt
 =
-new
-Record
+new_Record
 (
 )
 ;
@@ -2405,8 +2404,7 @@ Step
 var
 formatOpt
 =
-new
-Record
+new_Record
 (
 )
 ;

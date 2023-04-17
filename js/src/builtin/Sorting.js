@@ -3618,8 +3618,7 @@ boost
 var
 stack
 =
-new
-List
+new_List
 (
 )
 ;
