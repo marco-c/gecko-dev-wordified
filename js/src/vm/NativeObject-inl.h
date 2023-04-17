@@ -984,6 +984,11 @@ getDenseCapacity
 ;
 MOZ_ASSERT
 (
+src
+)
+;
+MOZ_ASSERT
+(
 isExtensible
 (
 )
