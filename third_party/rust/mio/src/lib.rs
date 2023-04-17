@@ -1039,17 +1039,6 @@ winapi
 ;
 #
 [
-cfg
-(
-windows
-)
-]
-extern
-crate
-kernel32
-;
-#
-[
 macro_use
 ]
 extern
