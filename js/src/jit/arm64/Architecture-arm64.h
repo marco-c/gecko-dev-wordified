@@ -3795,6 +3795,13 @@ ShadowStackSpace
 =
 0
 ;
+static
+const
+uint32_t
+SizeOfReturnAddressAfterCall
+=
+0u
+;
 /
 /
 When
