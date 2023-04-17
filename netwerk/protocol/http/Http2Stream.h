@@ -1143,8 +1143,10 @@ up
 the
 stack
 .
+RefPtr
+<
 nsAHttpSegmentReader
-*
+>
 mSegmentReader
 ;
 nsAHttpSegmentWriter
