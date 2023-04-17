@@ -204,13 +204,6 @@ h
 #
 include
 "
-nsIAuthPromptProvider
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -342,8 +335,6 @@ nsIParentRedirectingChannel
 public
 nsIProgressEventSink
 public
-nsIAuthPromptProvider
-public
 nsIDeprecationWarner
 public
 HttpChannelSecurityWarningReporter
@@ -371,7 +362,6 @@ NS_DECL_NSIPARENTCHANNEL
 NS_DECL_NSIPARENTREDIRECTINGCHANNEL
 NS_DECL_NSIPROGRESSEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
-NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSIDEPRECATIONWARNER
 NS_DECL_NSIASYNCVERIFYREDIRECTREADYCALLBACK
 NS_DECL_NSICHANNELEVENTSINK
