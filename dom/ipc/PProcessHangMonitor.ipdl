@@ -210,13 +210,6 @@ duration
 ;
 }
 ;
-union
-HangData
-{
-SlowScriptData
-;
-}
-;
 protocol
 PProcessHangMonitor
 {
@@ -225,7 +218,7 @@ parent
 async
 HangEvidence
 (
-HangData
+SlowScriptData
 data
 )
 ;
