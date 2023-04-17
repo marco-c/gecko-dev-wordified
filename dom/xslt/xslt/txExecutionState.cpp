@@ -1793,7 +1793,7 @@ return
 prev
 ;
 }
-nsresult
+void
 txExecutionState
 :
 :
@@ -1809,9 +1809,6 @@ AppendElement
 (
 aBool
 )
-;
-return
-NS_OK
 ;
 }
 bool
