@@ -56,6 +56,7 @@ MPL
 .
 *
 /
+async
 function
 run_test
 (
@@ -213,6 +214,7 @@ during
 /
 shutdown
 .
+await
 gAUS
 .
 stopDownload

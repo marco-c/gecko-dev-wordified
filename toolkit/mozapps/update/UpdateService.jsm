@@ -10654,6 +10654,7 @@ update
 .
 *
 /
+async
 function
 handleFallbackToCompleteUpdate
 (
@@ -10863,6 +10864,7 @@ to
 return
 ;
 }
+await
 aus
 .
 stopDownload
@@ -16573,6 +16575,7 @@ up
 any
 extant
 updates
+await
 this
 .
 _postUpdateProcessing
@@ -16906,6 +16909,7 @@ _downloader
 usingBits
 )
 {
+await
 this
 .
 stopDownload
@@ -17175,6 +17179,7 @@ complexity
 /
 _postUpdateProcessing
 :
+async
 function
 AUS__postUpdateProcessing
 (
@@ -19332,6 +19337,7 @@ patch
 application
 process
 .
+await
 handleFallbackToCompleteUpdate
 (
 false
@@ -24524,6 +24530,7 @@ idl
 /
 stopDownload
 :
+async
 function
 AUS_stopDownload
 (
@@ -24536,6 +24543,7 @@ this
 isDownloading
 )
 {
+await
 this
 .
 _downloader
@@ -24602,6 +24610,7 @@ this
 _downloader
 )
 {
+await
 this
 .
 _downloader
@@ -27595,6 +27604,7 @@ parts
 )
 )
 {
+await
 handleFallbackToCompleteUpdate
 (
 true
@@ -27711,18 +27721,12 @@ langpacks
 have
 staged
 .
+await
 promiseLangPacksUpdated
 (
 update
 )
-.
-then
-(
-(
-)
-=
->
-{
+;
 LOG
 (
 "
@@ -27770,9 +27774,6 @@ staged
 update
 .
 state
-)
-;
-}
 )
 ;
 }
