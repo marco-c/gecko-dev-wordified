@@ -314,6 +314,7 @@ JSObject
 *
 >
 reobj
+const
 char16_t
 *
 chars
