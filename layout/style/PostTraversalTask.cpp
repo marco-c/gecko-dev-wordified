@@ -370,6 +370,13 @@ pc
 >
 ForceReflowForFontInfoUpdate
 (
+/
+*
+aNeedsReframe
+=
+*
+/
+false
 )
 ;
 }

@@ -841,6 +841,13 @@ gfxPlatform
 :
 ForceGlobalReflow
 (
+gfxPlatform
+:
+:
+NeedsReframe
+:
+:
+No
 )
 ;
 }

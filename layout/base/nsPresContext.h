@@ -6615,6 +6615,8 @@ layout
 void
 ForceReflowForFontInfoUpdate
 (
+bool
+aNeedsReframe
 )
 ;
 /
