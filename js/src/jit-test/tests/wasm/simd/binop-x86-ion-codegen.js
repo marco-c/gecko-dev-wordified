@@ -37,6 +37,13 @@ getBuildConfiguration
 )
 .
 x86
+|
+|
+getBuildConfiguration
+(
+)
+.
+simulator
 ;
 include
 :

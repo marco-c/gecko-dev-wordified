@@ -37,6 +37,13 @@ getBuildConfiguration
 )
 .
 x64
+|
+|
+getBuildConfiguration
+(
+)
+.
+simulator
 ;
 include
 :
