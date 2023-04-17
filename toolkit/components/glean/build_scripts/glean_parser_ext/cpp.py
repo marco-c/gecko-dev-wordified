@@ -110,7 +110,9 @@ Jinja2
 filter
 that
 renders
-Rust
+C
++
++
 literals
 .
     
