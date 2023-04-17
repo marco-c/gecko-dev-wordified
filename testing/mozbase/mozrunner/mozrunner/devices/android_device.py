@@ -567,10 +567,6 @@ AVD_DICT
     
 "
 arm
--
-4
-.
-3
 "
 :
 AvdInfo
@@ -637,11 +633,7 @@ False
 )
     
 "
-x86
--
-7
-.
-0
+x86_64
 "
 :
 AvdInfo
@@ -6515,11 +6507,7 @@ arm
                 
 return
 "
-x86
--
-7
-.
-0
+x86_64
 "
             
 else
@@ -6528,19 +6516,11 @@ else
 return
 "
 arm
--
-4
-.
-3
 "
         
 return
 "
-x86
--
-7
-.
-0
+x86_64
 "
 def
 _find_sdk_exe
