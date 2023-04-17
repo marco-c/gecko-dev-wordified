@@ -337,7 +337,6 @@ part
 =
 "
 arrowscrollbox
-content
 "
 >
 <
@@ -3746,7 +3745,6 @@ part
 =
 "
 arrowscrollbox
-content
 "
 >
 <
