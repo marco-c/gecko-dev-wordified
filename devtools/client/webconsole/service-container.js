@@ -407,7 +407,9 @@ type
 )
 =
 >
-webConsoleWrapper
+webConsoleUI
+.
+networkDataProvider
 .
 requestData
 (

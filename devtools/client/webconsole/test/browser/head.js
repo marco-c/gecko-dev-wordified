@@ -11090,9 +11090,7 @@ toolbox
 )
 {
 const
-{
-wrapper
-}
+ui
 =
 toolbox
 .
@@ -11115,7 +11113,7 @@ waitUntil
 return
 (
 !
-wrapper
+ui
 .
 networkDataProvider
 .
@@ -11146,6 +11144,8 @@ data
 requests
 .
 !
+ui
+.
 wrapper
 .
 queuedRequestUpdates
