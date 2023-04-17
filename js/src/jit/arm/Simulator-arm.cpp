@@ -9276,7 +9276,13 @@ I
 -
 cache
 .
+mozilla
+:
+:
+DebugOnly
+<
 int
+>
 cmpret
 =
 memcmp
@@ -9309,11 +9315,6 @@ cmpret
 =
 0
 )
-;
-(
-void
-)
-cmpret
 ;
 }
 else
