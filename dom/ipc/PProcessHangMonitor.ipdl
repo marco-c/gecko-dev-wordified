@@ -252,8 +252,6 @@ child
 async
 TerminateScript
 (
-bool
-aTerminateGlobal
 )
 ;
 async
