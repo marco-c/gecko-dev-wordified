@@ -15517,8 +15517,6 @@ import
 VirtualenvManager
         
 if
-(
-            
 sys
 .
 platform
@@ -15529,7 +15527,6 @@ startswith
 darwin
 "
 )
-            
 and
 not
 os
@@ -15538,10 +15535,10 @@ environ
 .
 get
 (
+            
 "
 MACH_I_DO_WANT_TO_USE_ROSETTA
 "
-)
         
 )
 :
