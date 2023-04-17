@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 Services
 =
 require
@@ -5935,7 +5925,7 @@ _destroyed
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -6004,7 +5994,7 @@ this
 _handleRejectionIfNotDestroyed
 )
 ;
-promise
+Promise
 .
 all
 (
@@ -9590,7 +9580,7 @@ _destroyed
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -9912,7 +9902,7 @@ nextSibling
 ;
 }
 return
-promise
+Promise
 .
 all
 (
@@ -11046,7 +11036,7 @@ container
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -11232,7 +11222,7 @@ container
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -11418,7 +11408,7 @@ container
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -12850,7 +12840,7 @@ isSlotted
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -12957,7 +12947,7 @@ childrenDirty
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -13129,7 +13119,7 @@ childrenDirty
 false
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -13179,7 +13169,7 @@ false
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -13247,7 +13237,7 @@ expand
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -13367,7 +13357,7 @@ _containers
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -13811,7 +13801,7 @@ _queuedChildUpdates
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -13820,7 +13810,7 @@ undefined
 ;
 }
 return
-promise
+Promise
 .
 all
 (
