@@ -188,6 +188,15 @@ include
 "
 mozilla
 /
+ShutdownPhase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -400,6 +409,10 @@ gFOG
 nullptr
 ;
 }
+ShutdownPhase
+:
+:
+XPCOMShutdown
 )
 ;
 return
