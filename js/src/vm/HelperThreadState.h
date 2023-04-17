@@ -1184,6 +1184,9 @@ lock
 void
 finish
 (
+AutoLockHelperThreadState
+&
+lock
 )
 ;
 void
