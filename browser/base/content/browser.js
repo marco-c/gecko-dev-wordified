@@ -19334,6 +19334,9 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+skipLoad
+:
+true
 }
 )
 ;
