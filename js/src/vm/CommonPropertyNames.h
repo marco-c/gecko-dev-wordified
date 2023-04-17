@@ -306,6 +306,15 @@ apply
 \
 MACRO_
 (
+approximatelySign
+approximatelySign
+"
+approximatelySign
+"
+)
+\
+MACRO_
+(
 arguments
 arguments
 "
