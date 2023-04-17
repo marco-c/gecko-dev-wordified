@@ -180,7 +180,7 @@ selector
 "
 )
 ]
-CSS
+Css
 #
 [
 serde
@@ -1808,7 +1808,7 @@ assert_ser_de
 Selector
 :
 :
-CSS
+Css
 json
 !
 (
@@ -2240,7 +2240,7 @@ using
 Selector
 :
 :
-CSS
+Css
 value
 :
 "
