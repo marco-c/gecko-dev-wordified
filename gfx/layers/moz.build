@@ -169,6 +169,13 @@ BasicPaintedLayer
 h
 "
 "
+client
+/
+ClientLayerManager
+.
+h
+"
+"
 composite
 /
 CompositableHost

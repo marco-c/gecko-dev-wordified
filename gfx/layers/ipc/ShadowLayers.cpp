@@ -143,6 +143,17 @@ vector
 #
 include
 "
+ClientLayerManager
+.
+h
+"
+/
+/
+for
+ClientLayerManager
+#
+include
+"
 IPDLActor
 .
 h

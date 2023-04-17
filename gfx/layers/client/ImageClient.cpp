@@ -135,6 +135,17 @@ uint32_t
 #
 include
 "
+ClientLayerManager
+.
+h
+"
+/
+/
+for
+ClientLayer
+#
+include
+"
 ImageContainer
 .
 h
