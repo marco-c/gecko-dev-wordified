@@ -98,7 +98,7 @@ nullable
 :
 boolean
 "
-IgnoreCaughtExceptions
+ignoreCaughtExceptions
 :
 "
 nullable
