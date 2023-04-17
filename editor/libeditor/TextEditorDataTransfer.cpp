@@ -349,8 +349,7 @@ IsEditActionDataAvailable
 ;
 MOZ_ASSERT
 (
-!
-AsHTMLEditor
+IsTextEditor
 (
 )
 )

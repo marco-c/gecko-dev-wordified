@@ -79006,7 +79006,7 @@ aEditor
 aEditor
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
 :

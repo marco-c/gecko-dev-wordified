@@ -416,8 +416,7 @@ IsEditActionDataAvailable
 ;
 MOZ_ASSERT
 (
-!
-AsHTMLEditor
+IsTextEditor
 (
 )
 )
@@ -694,8 +693,7 @@ IsTopLevelEditSubActionDataAvailable
 ;
 MOZ_ASSERT
 (
-!
-AsHTMLEditor
+IsTextEditor
 (
 )
 )
@@ -3857,15 +3855,7 @@ IsEditActionDataAvailable
 ;
 MOZ_ASSERT
 (
-!
-AsHTMLEditor
-(
-)
-)
-;
-MOZ_ASSERT
-(
-IsPlaintextEditor
+IsTextEditor
 (
 )
 )

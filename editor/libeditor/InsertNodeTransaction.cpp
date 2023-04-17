@@ -1057,11 +1057,10 @@ StealNSResult
 }
 if
 (
-!
 editorBase
 -
 >
-AsHTMLEditor
+IsTextEditor
 (
 )
 &
@@ -1341,11 +1340,10 @@ NS_ERROR_NOT_INITIALIZED
 }
 if
 (
-!
 mEditorBase
 -
 >
-AsHTMLEditor
+IsTextEditor
 (
 )
 &

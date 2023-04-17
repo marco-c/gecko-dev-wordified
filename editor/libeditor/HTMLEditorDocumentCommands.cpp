@@ -583,7 +583,7 @@ aEditorBase
 aEditorBase
 -
 >
-AsHTMLEditor
+IsHTMLEditor
 (
 )
 ;
@@ -1780,7 +1780,7 @@ htmlEditor
 aEditorBase
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
 ;
@@ -1848,7 +1848,7 @@ htmlEditor
 aEditorBase
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
 ;
@@ -1959,7 +1959,7 @@ htmlEditor
 aEditorBase
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
 ;
@@ -2167,7 +2167,7 @@ htmlEditor
 aEditorBase
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
 ;
@@ -2277,7 +2277,7 @@ htmlEditor
 aEditorBase
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
 ;
@@ -2387,7 +2387,7 @@ htmlEditor
 aEditorBase
 -
 >
-AsHTMLEditor
+GetAsHTMLEditor
 (
 )
 ;
