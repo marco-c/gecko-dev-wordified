@@ -233,13 +233,6 @@ algorithm
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 builtin
 /
 AtomicsObject
