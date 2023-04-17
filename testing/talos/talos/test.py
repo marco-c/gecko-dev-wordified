@@ -3014,7 +3014,7 @@ tppagecycles
     
 timeout
 =
-600
+900
     
 gecko_profile_entries
 =
