@@ -666,10 +666,10 @@ extension
 url
 availability
 is
-also
 /
 /
 conditioned
+only
 by
 the
 extensions

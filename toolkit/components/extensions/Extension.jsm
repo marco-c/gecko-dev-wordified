@@ -2672,11 +2672,15 @@ false
 Clear
 any
 IndexedDB
+and
+Cache
+API
 storage
 created
 by
 the
 extension
+.
 /
 /
 If
