@@ -144,6 +144,9 @@ include
 DOMTypes
 ;
 include
+ProtocolTypes
+;
+include
 "
 mozilla
 /
@@ -905,10 +908,6 @@ principalToInheritInfo
 ;
 PrincipalInfo
 ?
-sandboxedLoadingPrincipalInfo
-;
-PrincipalInfo
-?
 topLevelPrincipalInfo
 ;
 PrincipalInfo
@@ -918,6 +917,9 @@ topLevelStorageAreaPrincipalInfo
 URIParams
 ?
 resultPrincipalURI
+;
+nsID
+sandboxedNullPrincipalID
 ;
 uint32_t
 securityFlags
