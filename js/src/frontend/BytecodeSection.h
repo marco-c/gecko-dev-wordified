@@ -237,6 +237,7 @@ h
 /
 CompilationStencil
 CompilationGCOutput
+CompilationAtomCache
 #
 include
 "
@@ -992,9 +993,9 @@ JSContext
 *
 cx
 const
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &

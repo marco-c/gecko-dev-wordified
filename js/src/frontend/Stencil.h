@@ -532,6 +532,9 @@ namespace
 frontend
 {
 struct
+CompilationInput
+;
+struct
 CompilationStencil
 ;
 struct
