@@ -264,7 +264,6 @@ MediaList
 GetMedia
 (
 )
-const
 ;
 StyleSheet
 *
@@ -277,6 +276,12 @@ return
 mChildSheet
 ;
 }
+StyleSheet
+*
+GetStyleSheetForBindings
+(
+)
+;
 /
 /
 Clear
@@ -330,6 +335,15 @@ get
 )
 ;
 }
+void
+SetRawAfterClone
+(
+RefPtr
+<
+RawServoImportRule
+>
+)
+;
 private
 :
 ~
