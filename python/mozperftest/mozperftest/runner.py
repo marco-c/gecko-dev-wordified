@@ -413,8 +413,6 @@ third_party
 python
 /
 attrs
-/
-src
 "
     
 "
@@ -545,8 +543,6 @@ third_party
 python
 /
 typing_extensions
-/
-src_py3
 "
     
 "
@@ -555,8 +551,6 @@ third_party
 python
 /
 urllib3
-/
-src
 "
     
 "
