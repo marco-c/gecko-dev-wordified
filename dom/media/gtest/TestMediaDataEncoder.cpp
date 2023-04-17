@@ -1410,8 +1410,6 @@ true
 ;
 }
 [
-&
-result
 ]
 (
 )
@@ -1428,13 +1426,6 @@ never
 be
 rejected
 "
-;
-result
-=
-Some
-(
-false
-)
 ;
 }
 )
