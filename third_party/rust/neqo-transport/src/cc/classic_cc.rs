@@ -1443,6 +1443,14 @@ min_rtt
 now
 )
 ;
+debug_assert
+!
+(
+bytes_for_increase
+>
+0
+)
+;
 /
 /
 If
