@@ -4248,6 +4248,19 @@ self
 .
 remoteBinDir
         
+self
+.
+env
+[
+"
+MOZ_IN_AUTOMATION
+"
+]
+=
+"
+1
+"
+        
 #
 Guard
 against
