@@ -2052,9 +2052,9 @@ win
 openPreferences
 (
 "
-search
+privacy
 -
-quickSuggest
+locationBar
 "
 )
 ;

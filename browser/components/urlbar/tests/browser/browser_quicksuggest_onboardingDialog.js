@@ -617,7 +617,7 @@ about
 :
 preferences
 #
-search
+privacy
 "
 "
 Current
@@ -627,7 +627,7 @@ about
 :
 preferences
 #
-search
+privacy
 "
 )
 ;
