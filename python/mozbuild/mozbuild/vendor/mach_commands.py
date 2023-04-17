@@ -513,6 +513,11 @@ logging
 .
 disable
 (
+level
+=
+logging
+.
+CRITICAL
 )
         
 try
