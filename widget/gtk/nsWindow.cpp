@@ -5234,6 +5234,11 @@ eWindowType_popup
 )
 {
 return
+HasRemoteContent
+(
+)
+&
+&
 mCompositedScreen
 ;
 }
