@@ -224,6 +224,12 @@ BorrowDrawTarget
 )
 final
 ;
+void
+EndDraw
+(
+)
+final
+;
 already_AddRefed
 <
 gfx
