@@ -4587,9 +4587,14 @@ false
 }
 if
 (
-Shape
-*
-shape
+mozilla
+:
+:
+Maybe
+<
+ShapeProperty
+>
+prop
 =
 holder
 -
@@ -4610,7 +4615,7 @@ holder
 >
 getSlot
 (
-shape
+prop
 -
 >
 slot
