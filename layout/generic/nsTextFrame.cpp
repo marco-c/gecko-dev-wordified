@@ -58034,11 +58034,14 @@ is
 not
 a
 letter
-or
 number
+or
+symbol
 there
 is
 no
+/
+/
 first
 -
 letter
@@ -58068,7 +58071,7 @@ if
 nsContentUtils
 :
 :
-IsAlphanumericAt
+IsAlphanumericOrSymbolAt
 (
 aFrag
 aOffset
