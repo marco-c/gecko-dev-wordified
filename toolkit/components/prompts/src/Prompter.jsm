@@ -8635,6 +8635,12 @@ a
 window
 prompt
 .
+args
+.
+modalType
+=
+MODAL_TYPE_WINDOW
+;
 this
 .
 openWindowPrompt
