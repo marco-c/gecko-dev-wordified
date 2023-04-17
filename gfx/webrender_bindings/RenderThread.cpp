@@ -5698,6 +5698,9 @@ if
 mSingletonGL
 &
 &
+mSingletonGLIsForHardwareWebRender
+&
+&
 !
 mShaders
 )
