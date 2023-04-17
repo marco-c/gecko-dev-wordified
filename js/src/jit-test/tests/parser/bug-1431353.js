@@ -95,7 +95,7 @@ entry
 global
 :
 global
-saveBytecode
+saveIncrementalBytecode
 :
 true
 }

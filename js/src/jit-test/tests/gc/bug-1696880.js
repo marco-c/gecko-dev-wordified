@@ -43,7 +43,7 @@ evaluate
 (
 c
 {
-saveBytecode
+saveIncrementalBytecode
 :
 true
 }

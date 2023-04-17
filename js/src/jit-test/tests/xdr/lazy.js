@@ -1125,10 +1125,7 @@ code
 global
 :
 g1
-compileAndGo
-:
-true
-saveBytecode
+saveIncrementalBytecode
 :
 {
 value

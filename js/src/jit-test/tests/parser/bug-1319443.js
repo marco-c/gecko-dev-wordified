@@ -45,7 +45,7 @@ evaluate
 code
 {
 global
-saveBytecode
+saveIncrementalBytecode
 :
 true
 }
@@ -56,7 +56,7 @@ evaluate
 code
 {
 global
-saveBytecode
+saveIncrementalBytecode
 :
 true
 }
