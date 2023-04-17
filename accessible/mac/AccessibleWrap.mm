@@ -1657,6 +1657,12 @@ case
 nsIAccessibleEvent
 :
 :
+EVENT_ALERT
+:
+case
+nsIAccessibleEvent
+:
+:
 EVENT_FOCUS
 :
 case
