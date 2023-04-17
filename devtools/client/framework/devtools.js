@@ -4415,6 +4415,11 @@ CommandsFactory
 forTab
 (
 tab
+{
+isWebExtension
+:
+true
+}
 )
 ;
 }
