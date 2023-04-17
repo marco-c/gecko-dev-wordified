@@ -1136,6 +1136,13 @@ uint32_t
 funcIndex
 CallArgs
 args
+CoercionLevel
+level
+=
+CoercionLevel
+:
+:
+Spec
 )
 ;
 /
@@ -1869,6 +1876,13 @@ char
 stackResultsLoc
 MutableHandleValue
 rval
+CoercionLevel
+level
+=
+CoercionLevel
+:
+:
+Spec
 )
 ;
 }
