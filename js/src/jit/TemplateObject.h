@@ -522,13 +522,6 @@ getDenseElements
 const
 ;
 inline
-bool
-hasPrivate
-(
-)
-const
-;
-inline
 gc
 :
 :
