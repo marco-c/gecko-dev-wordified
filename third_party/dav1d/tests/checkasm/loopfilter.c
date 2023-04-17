@@ -294,8 +294,6 @@ int
 E
 int
 I
-int
-H
 const
 int
 bitdepth_max
@@ -328,12 +326,6 @@ E
 bitdepth_min_8
 ;
 I
-<
-<
-=
-bitdepth_min_8
-;
-H
 <
 <
 =
@@ -1657,10 +1649,6 @@ i
 [
 L
 ]
-L
->
->
-4
 bitdepth_max
 )
 ;

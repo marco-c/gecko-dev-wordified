@@ -1848,12 +1848,6 @@ DAV1D_X86_CPU_FLAG_SSSE3
 )
 return
 ;
-#
-if
-BITDEPTH
-=
-=
-8
 c
 -
 >
@@ -1882,6 +1876,12 @@ dav1d_wiener_filter5
 ssse3
 )
 ;
+#
+if
+BITDEPTH
+=
+=
+8
 c
 -
 >
