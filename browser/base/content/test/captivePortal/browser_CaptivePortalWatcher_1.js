@@ -280,6 +280,8 @@ button
 =
 notification
 .
+buttonContainer
+.
 querySelector
 (
 "

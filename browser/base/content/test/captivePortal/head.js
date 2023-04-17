@@ -963,6 +963,8 @@ showLoginPageButton
 =
 notification
 .
+buttonContainer
+.
 querySelector
 (
 "
