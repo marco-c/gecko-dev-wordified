@@ -1539,7 +1539,7 @@ mMimeType
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 conf
 .
@@ -1608,7 +1608,7 @@ mMimeType
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 conf
 .
