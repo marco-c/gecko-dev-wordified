@@ -42588,6 +42588,14 @@ identifier
 "
 Unexposed
 "
+            
+or
+identifier
+=
+=
+"
+WebExtensionStub
+"
         
 )
 :
