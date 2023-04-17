@@ -1176,16 +1176,6 @@ fieldKeys
 \
 MACRO_
 (
-dotPrivateBrand
-dotPrivateBrand
-"
-.
-privateBrand
-"
-)
-\
-MACRO_
-(
 dotStaticInitializers
 dotStaticInitializers
 "

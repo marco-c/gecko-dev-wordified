@@ -9345,12 +9345,6 @@ case
 JSOp
 :
 :
-PushClassBodyEnv
-:
-case
-JSOp
-:
-:
 Iter
 :
 case
