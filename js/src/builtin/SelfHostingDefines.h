@@ -617,7 +617,7 @@ function
 in
 which
 the
-original
+canonical
 /
 /
 name
@@ -633,7 +633,7 @@ _SetCanonicalName
 .
 #
 define
-ORIGINAL_FUNCTION_NAME_SLOT
+CANONICAL_FUNCTION_NAME_SLOT
 0
 /
 /
