@@ -105,6 +105,9 @@ SiteDataTestUtils
 .
 addToCookies
 (
+{
+origin
+:
 "
 https
 :
@@ -114,6 +117,7 @@ example
 .
 com
 "
+}
 )
 ;
 PermissionTestUtils
