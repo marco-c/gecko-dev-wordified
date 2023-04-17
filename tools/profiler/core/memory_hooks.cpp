@@ -4582,7 +4582,8 @@ Initialization
 -
 -
 -
-void
+BaseProfilerCount
+*
 install_memory_hooks
 (
 )
@@ -4662,6 +4663,9 @@ jemalloc_replace_dynamic
 (
 replace_init
 )
+;
+return
+sCounter
 ;
 }
 /
