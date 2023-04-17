@@ -2104,7 +2104,14 @@ path
 if
 self
 .
-using_condprof
+config
+.
+get
+(
+"
+conditioned_profile
+"
+)
 :
             
 self

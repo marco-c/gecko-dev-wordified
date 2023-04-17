@@ -459,10 +459,6 @@ results_handler_class
 =
 RaptorResultsHandler
         
-no_conditioned_profile
-=
-False
-        
 device_name
 =
 None
@@ -471,11 +467,9 @@ disable_perf_tuning
 =
 False
         
-conditioned_profile_scenario
+conditioned_profile
 =
-"
-settled
-"
+None
         
 chimera
 =
@@ -693,12 +687,6 @@ enable_webrender
 enable_webrender
             
 "
-no_conditioned_profile
-"
-:
-no_conditioned_profile
-            
-"
 device_name
 "
 :
@@ -727,10 +715,10 @@ disable_perf_tuning
 disable_perf_tuning
             
 "
-conditioned_profile_scenario
+conditioned_profile
 "
 :
-conditioned_profile_scenario
+conditioned_profile
             
 "
 chimera
@@ -805,14 +793,9 @@ created
 see
 1606767
         
-self
-.
-using_condprof
-=
-not
+if
 (
             
-(
 self
 .
 config
@@ -840,8 +823,8 @@ processor
 "
 aarch64
 "
+        
 )
-            
 or
 self
 .
@@ -864,23 +847,28 @@ browser
 .
 raptor
 "
+:
             
-or
 self
 .
 config
 [
 "
-no_conditioned_profile
+conditioned_profile
 "
 ]
-        
-)
+=
+None
         
 if
 self
 .
-using_condprof
+config
+[
+"
+conditioned_profile
+"
+]
 :
             
 LOG
@@ -911,19 +899,6 @@ profile
 .
 "
 )
-        
-self
-.
-config
-[
-"
-using_condprof
-"
-]
-=
-self
-.
-using_condprof
         
 #
 To
@@ -1195,7 +1170,14 @@ profiles
 if
 self
 .
-using_condprof
+config
+.
+get
+(
+"
+conditioned_profile
+"
+)
 and
 not
 self
@@ -1878,10 +1860,7 @@ config
 get
 (
 "
-conditioned_profile_scenario
-"
-"
-settled
+conditioned_profile
 "
 )
         
@@ -2083,11 +2062,8 @@ self
 :
         
 if
-not
-self
-.
-using_condprof
-or
+(
+            
 self
 .
 config
@@ -2098,22 +2074,34 @@ app
 ]
 in
 [
-            
 "
 chrome
 "
-            
 "
 chromium
 "
-            
 "
 chrome
 -
 m
 "
-        
 ]
+            
+or
+self
+.
+config
+.
+get
+(
+"
+conditioned_profile
+"
+)
+is
+None
+        
+)
 :
             
 self
