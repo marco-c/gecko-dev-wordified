@@ -2662,6 +2662,9 @@ mWindowScaleFactor
 bool
 mCompositedScreen
 ;
+bool
+mIsAccelerated
+;
 private
 :
 void
