@@ -648,7 +648,7 @@ topLevelDocument
 aDocument
 -
 >
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 ;

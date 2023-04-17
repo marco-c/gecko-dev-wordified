@@ -4375,7 +4375,7 @@ the
 top
 level
 principal
-nsCOMPtr
+RefPtr
 <
 Document
 >
@@ -4384,7 +4384,7 @@ topLevelDoc
 doc
 -
 >
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 ;

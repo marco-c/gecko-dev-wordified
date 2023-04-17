@@ -26079,7 +26079,7 @@ topInProcessContentDoc
 =
 aDocument
 .
-GetTopLevelContentDocument
+GetTopLevelContentDocumentIfSameProcess
 (
 )
 ;
