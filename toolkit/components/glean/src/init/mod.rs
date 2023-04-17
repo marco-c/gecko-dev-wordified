@@ -532,6 +532,12 @@ SERVER
 }
 ;
 let
+mut
+use_core_mps
+=
+false
+;
+let
 application_id
 =
 if
@@ -541,6 +547,10 @@ is_empty
 (
 )
 {
+use_core_mps
+=
+true
+;
 "
 firefox
 .
@@ -633,8 +643,6 @@ PingUploader
 >
 )
 use_core_mps
-:
-true
 }
 ;
 log
