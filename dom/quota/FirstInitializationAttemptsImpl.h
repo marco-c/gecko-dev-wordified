@@ -197,7 +197,8 @@ aRv
 {
 MOZ_ASSERT
 (
-FirstInitializationAttemptPending
+!
+FirstInitializationAttemptRecorded
 (
 aInitialization
 )
