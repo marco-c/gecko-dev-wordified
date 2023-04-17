@@ -3005,6 +3005,9 @@ month
 day
 "
 "
+dayPeriod
+"
+"
 hour
 "
 "
