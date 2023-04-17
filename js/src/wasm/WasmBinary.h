@@ -3344,6 +3344,16 @@ cur_
 ;
 }
 size_t
+beginOffset
+(
+)
+const
+{
+return
+offsetInModule_
+;
+}
+size_t
 currentOffset
 (
 )
