@@ -23828,9 +23828,9 @@ void
 CodeGenerator
 :
 :
-visitWasmBitselectSimd128
+visitWasmTernarySimd128
 (
-LWasmBitselectSimd128
+LWasmTernarySimd128
 *
 ins
 )
