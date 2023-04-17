@@ -258,6 +258,13 @@ RawAccessRef
 (
 )
 ;
+frame
+-
+>
+SetRawAccessOnly
+(
+)
+;
 /
 /
 Normally
