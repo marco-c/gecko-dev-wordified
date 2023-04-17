@@ -157,7 +157,7 @@ await
 sendTestBroadcastCommand
 (
 "
-TestOnlyInWindowGlobalModule
+commandwindowglobalonly
 "
 "
 testBroadcastWithParameter

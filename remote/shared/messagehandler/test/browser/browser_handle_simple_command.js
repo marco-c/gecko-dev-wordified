@@ -138,7 +138,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :
@@ -250,7 +250,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :
@@ -361,7 +361,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :
@@ -505,7 +505,7 @@ handleCommand
 moduleName
 :
 "
-TestOnlyInWindowGlobalModule
+commandwindowglobalonly
 "
 commandName
 :
@@ -673,7 +673,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :
@@ -722,7 +722,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :
@@ -763,7 +763,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :
@@ -816,7 +816,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :
@@ -957,7 +957,7 @@ handleCommand
 moduleName
 :
 "
-TestModule
+command
 "
 commandName
 :

@@ -138,7 +138,7 @@ handleCommand
 moduleName
 :
 "
-TestOnlyInWindowGlobalModule
+commandwindowglobalonly
 "
 commandName
 :
@@ -306,7 +306,7 @@ handleCommand
 moduleName
 :
 "
-TestOnlyInWindowGlobalModule
+commandwindowglobalonly
 "
 commandName
 :
