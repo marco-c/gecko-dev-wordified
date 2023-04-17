@@ -416,6 +416,9 @@ nsCString
 aKeys
 )
 {
+mozilla
+:
+:
 AppendToArray
 (
 aKeys
