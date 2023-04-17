@@ -5518,7 +5518,7 @@ to
 work
 backwards
 from
-mSoftStart
+mSoftBegin
 to
 find
 a
