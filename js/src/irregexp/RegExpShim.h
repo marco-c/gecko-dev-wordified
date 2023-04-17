@@ -8688,10 +8688,9 @@ JsHasOverflowed
 {
 return
 !
-js
-:
-:
-CheckRecursionLimitConservativeDontReport
+recursion_
+.
+checkConservativeDontReport
 (
 cx_
 )
