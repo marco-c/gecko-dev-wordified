@@ -6035,7 +6035,7 @@ WantsRepaints
 override
 {
 return
-false
+true
 ;
 }
 private
