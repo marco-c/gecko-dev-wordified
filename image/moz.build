@@ -167,6 +167,15 @@ browser
 .
 ini
 "
+"
+test
+/
+browser
+/
+browser_sandbox_headless
+.
+ini
+"
 ]
 MOCHITEST_MANIFESTS
 +
