@@ -247,11 +247,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-target
--
-configuration
-"
 )
 ;
 }
