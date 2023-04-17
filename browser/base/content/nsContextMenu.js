@@ -8299,9 +8299,7 @@ screenshot
 -
 extension
 "
-"
-contextMenu
-"
+true
 )
 ;
 }
