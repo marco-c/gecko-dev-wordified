@@ -52962,8 +52962,7 @@ aType
 )
 ;
 }
-Layer
-*
+void
 nsIFrame
 :
 :
@@ -53064,7 +53063,6 @@ return
 nullptr
 .
 return
-nullptr
 ;
 }
 if
@@ -53081,7 +53079,6 @@ IsEmpty
 )
 {
 return
-nullptr
 ;
 }
 /
@@ -53191,9 +53188,6 @@ displayItemKey
 )
 ;
 }
-return
-nullptr
-;
 }
 static
 nsRect

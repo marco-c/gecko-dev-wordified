@@ -26341,8 +26341,7 @@ UPDATE_IS_ASYNC
 0
 }
 ;
-Layer
-*
+void
 InvalidateLayer
 (
 DisplayItemType
