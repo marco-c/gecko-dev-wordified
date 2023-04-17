@@ -631,6 +631,13 @@ h
 t
 '
 )
+/
+*
+<
+private
+>
+*
+/
 _HB_STYLE_TAG_MAX_VALUE
 =
 HB_TAG_MAX_SIGNED

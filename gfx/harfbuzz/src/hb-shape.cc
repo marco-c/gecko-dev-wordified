@@ -641,9 +641,7 @@ length
 num_features
 )
 (
-allow
--
-none
+nullable
 )
 :
 an
@@ -677,9 +675,7 @@ terminated
 1
 )
 (
-allow
--
-none
+nullable
 )
 :
 a
@@ -863,9 +859,7 @@ length
 num_features
 )
 (
-allow
--
-none
+nullable
 )
 :
 an

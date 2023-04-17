@@ -927,7 +927,7 @@ FromGlyphs
 \
 /
 *
-ASSERT_STATIC_EXPR_ZERO
+static_assert_expr
 (
 len
 (
@@ -995,7 +995,7 @@ FirstGlyphs
 \
 /
 *
-ASSERT_STATIC_EXPR_ZERO
+static_assert_expr
 (
 len
 (

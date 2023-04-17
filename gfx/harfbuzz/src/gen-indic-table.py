@@ -1657,7 +1657,7 @@ print
 "
 static
 const
-INDIC_TABLE_ELEMENT_TYPE
+uint16_t
 indic_table
 [
 ]
@@ -1927,7 +1927,7 @@ print
 print
 (
 "
-INDIC_TABLE_ELEMENT_TYPE
+uint16_t
 "
 )
 print

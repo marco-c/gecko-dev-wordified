@@ -601,7 +601,7 @@ set
 destroy
 :
 (
-optional
+nullable
 )
 :
 A
@@ -819,6 +819,7 @@ true
 if
 allocation
 succeeded
+%
 false
 otherwise
 *
@@ -890,6 +891,18 @@ hb_set_t
 set
 )
 {
+if
+(
+unlikely
+(
+hb_object_is_immutable
+(
+set
+)
+)
+)
+return
+;
 set
 -
 >
@@ -1004,6 +1017,7 @@ codepoint
 is
 in
 set
+%
 false
 otherwise
 *
@@ -1358,7 +1372,7 @@ Return
 value
 :
 %
-TRUE
+true
 if
 the
 two
@@ -1366,7 +1380,7 @@ sets
 are
 equal
 %
-FALSE
+false
 otherwise
 .
 *
@@ -1437,7 +1451,7 @@ Return
 value
 :
 %
-TRUE
+true
 if
 the
 set
@@ -1452,7 +1466,7 @@ to
 )
 larger_set
 %
-FALSE
+false
 otherwise
 .
 *
@@ -1941,7 +1955,7 @@ minimum
 of
 set
 or
-%
+#
 HB_SET_VALUE_INVALID
 if
 set
@@ -2008,7 +2022,7 @@ maximum
 of
 set
 or
-%
+#
 HB_SET_VALUE_INVALID
 if
 set
@@ -2097,7 +2111,7 @@ codepoint
 Set
 codepoint
 to
-%
+#
 HB_SET_VALUE_INVALID
 to
 get
@@ -2116,6 +2130,7 @@ was
 a
 next
 value
+%
 false
 otherwise
 *
@@ -2204,7 +2219,7 @@ codepoint
 Set
 codepoint
 to
-%
+#
 HB_SET_VALUE_INVALID
 to
 get
@@ -2223,6 +2238,7 @@ was
 a
 previous
 value
+%
 false
 otherwise
 *
@@ -2337,7 +2353,7 @@ last
 Set
 last
 to
-%
+#
 HB_SET_VALUE_INVALID
 to
 get
@@ -2356,6 +2372,7 @@ was
 a
 next
 range
+%
 false
 otherwise
 *
@@ -2474,7 +2491,7 @@ last
 Set
 first
 to
-%
+#
 HB_SET_VALUE_INVALID
 to
 get
@@ -2493,6 +2510,7 @@ was
 a
 previous
 range
+%
 false
 otherwise
 *

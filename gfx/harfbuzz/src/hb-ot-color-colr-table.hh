@@ -1318,6 +1318,9 @@ BaseGlyphRecord
 ;
 BaseGlyphRecord
 new_record
+=
+{
+}
 ;
 new_record
 .

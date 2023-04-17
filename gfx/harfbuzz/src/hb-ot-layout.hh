@@ -1875,6 +1875,17 @@ info
 static
 inline
 bool
+_hb_glyph_info_substituted
+(
+const
+hb_glyph_info_t
+*
+info
+)
+;
+static
+inline
+bool
 _hb_glyph_info_is_default_ignorable
 (
 const
@@ -1897,7 +1908,7 @@ UPROPS_MASK_IGNORABLE
 &
 &
 !
-_hb_glyph_info_ligated
+_hb_glyph_info_substituted
 (
 info
 )

@@ -291,9 +291,7 @@ num_entries
 out
 )
 (
-allow
--
-none
+optional
 )
 :
 number
@@ -962,9 +960,7 @@ text_size
 inout
 )
 (
-allow
--
-none
+optional
 )
 :
 input
@@ -1161,9 +1157,7 @@ text_size
 inout
 )
 (
-allow
--
-none
+optional
 )
 :
 input
@@ -1353,9 +1347,7 @@ text_size
 inout
 )
 (
-allow
--
-none
+optional
 )
 :
 input

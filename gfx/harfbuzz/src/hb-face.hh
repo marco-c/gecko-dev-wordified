@@ -460,7 +460,6 @@ return
 blob
 ;
 }
-HB_PURE_FUNC
 unsigned
 int
 get_upem

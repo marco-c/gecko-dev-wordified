@@ -1057,7 +1057,9 @@ i
 )
 if
 (
-!
+hb_equal
+(
+x
 this
 -
 >
@@ -1065,10 +1067,6 @@ arrayZ
 [
 i
 ]
-.
-cmp
-(
-x
 )
 )
 {

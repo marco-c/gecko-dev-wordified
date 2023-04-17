@@ -275,9 +275,7 @@ entries_count
 inout
 )
 (
-allow
--
-none
+optional
 )
 :
 buffer
@@ -307,6 +305,14 @@ entries_count
 entries
 tags
 buffer
+*
+*
+Fetches
+all
+available
+feature
+types
+.
 *
 *
 Return

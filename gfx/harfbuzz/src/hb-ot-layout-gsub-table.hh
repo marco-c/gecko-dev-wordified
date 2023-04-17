@@ -2302,7 +2302,7 @@ c
 plan
 -
 >
-glyphset
+glyphset_gsub
 (
 )
 ;
@@ -2919,7 +2919,7 @@ c
 plan
 -
 >
-glyphset
+glyphset_gsub
 (
 )
 ;
@@ -3798,7 +3798,7 @@ c
 plan
 -
 >
-glyphset
+glyphset_gsub
 (
 )
 ;
@@ -4481,7 +4481,7 @@ c
 plan
 -
 >
-glyphset
+glyphset_gsub
 (
 )
 ;
@@ -5392,7 +5392,7 @@ c
 plan
 -
 >
-glyphset
+glyphset_gsub
 (
 )
 ;
@@ -6748,7 +6748,7 @@ c
 plan
 -
 >
-glyphset
+glyphset_gsub
 (
 )
 ;

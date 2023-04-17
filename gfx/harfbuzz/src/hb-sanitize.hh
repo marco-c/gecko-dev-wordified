@@ -601,6 +601,7 @@ of
 the
 object
 and
+%
 false
 otherwise
 .
@@ -995,10 +996,10 @@ HB_SANITIZE_MAX_OPS_MAX
 endif
 #
 ifndef
-HB_SANITIZE_MAX_SUTABLES
+HB_SANITIZE_MAX_SUBTABLES
 #
 define
-HB_SANITIZE_MAX_SUTABLES
+HB_SANITIZE_MAX_SUBTABLES
 0x4000
 #
 endif
@@ -1147,7 +1148,7 @@ count
 return
 max_subtables
 <
-HB_SANITIZE_MAX_SUTABLES
+HB_SANITIZE_MAX_SUBTABLES
 ;
 }
 private

@@ -603,7 +603,7 @@ set
 destroy
 :
 (
-optional
+nullable
 )
 :
 A
@@ -821,6 +821,7 @@ true
 if
 allocation
 succeeded
+%
 false
 otherwise
 *
@@ -1089,6 +1090,7 @@ is
 found
 in
 map
+%
 false
 otherwise
 *
@@ -1164,6 +1166,18 @@ hb_map_t
 map
 )
 {
+if
+(
+unlikely
+(
+hb_object_is_immutable
+(
+map
+)
+)
+)
+return
+;
 return
 map
 -

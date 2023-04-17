@@ -1351,7 +1351,7 @@ data
 destroy
 :
 (
-optional
+nullable
 )
 :
 A
@@ -1646,6 +1646,7 @@ if
 ufuncs
 is
 immutable
+%
 false
 otherwise
 *
@@ -2054,6 +2055,7 @@ a
 and
 b
 composed
+%
 false
 otherwise
 *
@@ -2187,6 +2189,7 @@ if
 ab
 was
 decomposed
+%
 false
 otherwise
 *
@@ -2284,6 +2287,10 @@ Deprecated
 Return
 value
 :
+length
+of
+decomposed
+.
 *
 *
 Since

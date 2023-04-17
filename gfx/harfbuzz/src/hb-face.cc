@@ -558,19 +558,13 @@ destroy
 index
 *
 /
-HB_ATOMIC_INT_INIT
-(
 1000
-)
 /
 *
 upem
 *
 /
-HB_ATOMIC_INT_INIT
-(
 0
-)
 /
 *
 num_glyphs
@@ -628,7 +622,7 @@ data
 destroy
 :
 (
-optional
+nullable
 )
 :
 A
@@ -1301,6 +1295,7 @@ value
 transfer
 full
 )
+:
 The
 empty
 face
@@ -1600,7 +1595,7 @@ data
 destroy
 :
 (
-optional
+nullable
 )
 :
 A
@@ -1873,11 +1868,13 @@ immutable
 Return
 value
 :
-True
+%
+true
 is
 face
 is
 immutable
+%
 false
 otherwise
 *
@@ -3882,6 +3879,8 @@ push
 ;
 if
 (
+unlikely
+(
 data
 -
 >
@@ -3889,6 +3888,7 @@ tables
 .
 in_error
 (
+)
 )
 )
 return
