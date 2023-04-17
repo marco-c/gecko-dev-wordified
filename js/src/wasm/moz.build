@@ -256,6 +256,11 @@ WasmJS
 cpp
 "
 "
+WasmLog
+.
+cpp
+"
+"
 WasmMemory
 .
 cpp
