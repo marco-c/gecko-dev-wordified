@@ -1643,6 +1643,7 @@ imgIContainer
 :
 :
 FRAME_FIRST
+nullptr
 &
 cursorImage
 scaleFactor

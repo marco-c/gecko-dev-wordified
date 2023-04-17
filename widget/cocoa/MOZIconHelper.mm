@@ -192,6 +192,17 @@ withSize
 NSSize
 )
 aSize
+computedStyle
+:
+(
+const
+mozilla
+:
+:
+ComputedStyle
+*
+)
+aComputedStyle
 subrect
 :
 (
@@ -243,6 +254,7 @@ imgIContainer
 :
 :
 FRAME_CURRENT
+aComputedStyle
 &
 retainedImage
 aScaleFactor
@@ -265,6 +277,7 @@ imgIContainer
 :
 :
 FRAME_CURRENT
+aComputedStyle
 &
 retainedImage
 &
