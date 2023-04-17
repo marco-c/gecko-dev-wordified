@@ -783,7 +783,7 @@ memory
 =
 childProcInfo
 .
-residentUniqueSize
+memory
 ;
 }
 }
