@@ -2177,7 +2177,7 @@ date_time
 .
 pattern_override
 .
-date_time_short
+connector_short
 "
 value
 )
