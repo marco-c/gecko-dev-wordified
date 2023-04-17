@@ -627,6 +627,9 @@ let
 context
 =
 {
+manifestVersion
+:
+2
 cloneScope
 :
 global

@@ -2657,6 +2657,14 @@ extension
 ;
 this
 .
+manifestVersion
+=
+extension
+.
+manifestVersion
+;
+this
+.
 jsonSandbox
 =
 null

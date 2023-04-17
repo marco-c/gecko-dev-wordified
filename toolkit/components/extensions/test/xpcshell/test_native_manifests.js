@@ -684,6 +684,9 @@ mozilla
 org
 "
 }
+manifestVersion
+:
+2
 envType
 :
 "
@@ -761,6 +764,9 @@ fakeExtension
 id
 :
 extensionId
+manifestVersion
+:
+2
 }
 ;
 super
