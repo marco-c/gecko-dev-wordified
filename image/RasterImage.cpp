@@ -4056,6 +4056,12 @@ uint32_t
 aFlags
 )
 {
+AutoProfilerImagePaintMarker
+PROFILER_RAII
+(
+this
+)
+;
 #
 ifdef
 DEBUG
@@ -9492,6 +9498,12 @@ aSurface
 >
 IsFinished
 (
+)
+;
+AutoProfilerImagePaintMarker
+PROFILER_RAII
+(
+this
 )
 ;
 #

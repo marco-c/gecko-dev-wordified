@@ -5219,6 +5219,12 @@ uint32_t
 aFlags
 )
 {
+AutoProfilerImagePaintMarker
+PROFILER_RAII
+(
+this
+)
+;
 #
 ifdef
 DEBUG
@@ -8815,6 +8821,12 @@ aParams
 .
 opacity
 false
+)
+;
+AutoProfilerImagePaintMarker
+PROFILER_RAII
+(
+this
 )
 ;
 #
