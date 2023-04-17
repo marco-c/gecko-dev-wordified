@@ -916,11 +916,12 @@ if
 addr
 )
 {
-perror
+os_print_last_error
 (
 "
-mmap
+os_mmap
 failed
+.
 "
 )
 ;
