@@ -470,6 +470,11 @@ ContentProcessTargetActor
 this
 .
 conn
+{
+isXpcShellTarget
+:
+true
+}
 )
 ;
 }

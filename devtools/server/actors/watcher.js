@@ -1957,7 +1957,9 @@ browserElement
 is
 null
 )
-.
+including
+xpcshell
+tests
 *
 *
 See
@@ -1993,11 +1995,13 @@ _getTargetActorInParentProcess
 (
 )
 {
-return
+if
+(
 this
 .
 browserElement
-?
+)
+{
 /
 /
 Note
@@ -2024,6 +2028,7 @@ the
 parent
 process
 .
+return
 TargetActorRegistry
 .
 getTargetActor
@@ -2032,7 +2037,9 @@ this
 .
 browserId
 )
-:
+;
+}
+return
 TargetActorRegistry
 .
 getParentProcessTargetActor
