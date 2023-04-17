@@ -1852,7 +1852,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_RGBA8_GLYPHS_PIXELS
+INTERNED_POLYGONS
 :
 usize
 =
@@ -1860,7 +1860,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_RGBA8_GLYPHS_TEXTURES
+TEXTURE_CACHE_RGBA8_GLYPHS_PIXELS
 :
 usize
 =
@@ -1868,7 +1868,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_A8_GLYPHS_PIXELS
+TEXTURE_CACHE_RGBA8_GLYPHS_TEXTURES
 :
 usize
 =
@@ -1876,7 +1876,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_A8_GLYPHS_TEXTURES
+TEXTURE_CACHE_A8_GLYPHS_PIXELS
 :
 usize
 =
@@ -1884,7 +1884,7 @@ usize
 ;
 pub
 const
-CPU_TEXTURE_ALLOCATION_TIME
+TEXTURE_CACHE_A8_GLYPHS_TEXTURES
 :
 usize
 =
@@ -1892,7 +1892,7 @@ usize
 ;
 pub
 const
-STAGING_TEXTURE_ALLOCATION_TIME
+CPU_TEXTURE_ALLOCATION_TIME
 :
 usize
 =
@@ -1900,7 +1900,7 @@ usize
 ;
 pub
 const
-UPLOAD_CPU_COPY_TIME
+STAGING_TEXTURE_ALLOCATION_TIME
 :
 usize
 =
@@ -1908,7 +1908,7 @@ usize
 ;
 pub
 const
-UPLOAD_GPU_COPY_TIME
+UPLOAD_CPU_COPY_TIME
 :
 usize
 =
@@ -1916,7 +1916,7 @@ usize
 ;
 pub
 const
-UPLOAD_TIME
+UPLOAD_GPU_COPY_TIME
 :
 usize
 =
@@ -1924,7 +1924,7 @@ usize
 ;
 pub
 const
-UPLOAD_NUM_COPY_BATCHES
+UPLOAD_TIME
 :
 usize
 =
@@ -1932,7 +1932,7 @@ usize
 ;
 pub
 const
-TOTAL_UPLOAD_TIME
+UPLOAD_NUM_COPY_BATCHES
 :
 usize
 =
@@ -1940,7 +1940,7 @@ usize
 ;
 pub
 const
-CREATE_CACHE_TEXTURE_TIME
+TOTAL_UPLOAD_TIME
 :
 usize
 =
@@ -1948,7 +1948,7 @@ usize
 ;
 pub
 const
-DELETE_CACHE_TEXTURE_TIME
+CREATE_CACHE_TEXTURE_TIME
 :
 usize
 =
@@ -1956,7 +1956,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_COLOR8_LINEAR_PRESSURE
+DELETE_CACHE_TEXTURE_TIME
 :
 usize
 =
@@ -1964,7 +1964,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_COLOR8_NEAREST_PRESSURE
+TEXTURE_CACHE_COLOR8_LINEAR_PRESSURE
 :
 usize
 =
@@ -1972,7 +1972,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_COLOR8_GLYPHS_PRESSURE
+TEXTURE_CACHE_COLOR8_NEAREST_PRESSURE
 :
 usize
 =
@@ -1980,7 +1980,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_ALPHA8_PRESSURE
+TEXTURE_CACHE_COLOR8_GLYPHS_PRESSURE
 :
 usize
 =
@@ -1988,7 +1988,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_ALPHA8_GLYPHS_PRESSURE
+TEXTURE_CACHE_ALPHA8_PRESSURE
 :
 usize
 =
@@ -1996,7 +1996,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_ALPHA16_PRESSURE
+TEXTURE_CACHE_ALPHA8_GLYPHS_PRESSURE
 :
 usize
 =
@@ -2004,7 +2004,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_STANDALONE_PRESSURE
+TEXTURE_CACHE_ALPHA16_PRESSURE
 :
 usize
 =
@@ -2012,7 +2012,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_EVICTION_COUNT
+TEXTURE_CACHE_STANDALONE_PRESSURE
 :
 usize
 =
@@ -2020,7 +2020,7 @@ usize
 ;
 pub
 const
-TEXTURE_CACHE_YOUNGEST_EVICTION
+TEXTURE_CACHE_EVICTION_COUNT
 :
 usize
 =
@@ -2028,11 +2028,19 @@ usize
 ;
 pub
 const
-NUM_PROFILER_EVENTS
+TEXTURE_CACHE_YOUNGEST_EVICTION
 :
 usize
 =
 96
+;
+pub
+const
+NUM_PROFILER_EVENTS
+:
+usize
+=
+97
 ;
 pub
 struct
@@ -3831,6 +3839,22 @@ backdrops
 "
 "
 INTERNED_BACKDROPS
+Expected
+:
+:
+none
+(
+)
+)
+int
+(
+"
+Interned
+polygons
+"
+"
+"
+INTERNED_POLYGONS
 Expected
 :
 :
