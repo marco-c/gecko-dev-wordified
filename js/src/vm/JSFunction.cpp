@@ -5229,7 +5229,7 @@ nativeReserved
 )
 ;
 }
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
