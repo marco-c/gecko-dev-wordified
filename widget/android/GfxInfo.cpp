@@ -3970,9 +3970,9 @@ return
 NS_OK
 ;
 }
-}
 #
 endif
+}
 return
 GfxInfoBase
 :
