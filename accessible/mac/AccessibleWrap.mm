@@ -523,7 +523,7 @@ aContent
 nsGkAtoms
 :
 :
-live
+aria_live
 )
 )
 {

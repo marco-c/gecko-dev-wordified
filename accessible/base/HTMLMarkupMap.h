@@ -2032,7 +2032,7 @@ roles
 STATUSBAR
 Attr
 (
-live
+aria_live
 polite
 )
 )

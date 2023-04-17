@@ -553,7 +553,7 @@ aElement
 nsGkAtoms
 :
 :
-live
+aria_live
 )
 )
 {
