@@ -594,6 +594,11 @@ promises
 [
 ]
 ;
+if
+(
+request
+)
+{
 updateTypes
 .
 forEach
@@ -688,6 +693,7 @@ updateType
 }
 )
 ;
+}
 return
 Promise
 .
