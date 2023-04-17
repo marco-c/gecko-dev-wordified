@@ -1876,11 +1876,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-thread
--
-configuration
-"
 )
 )
 {
