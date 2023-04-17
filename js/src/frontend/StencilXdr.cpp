@@ -1541,7 +1541,7 @@ MOZ_TRY
 xdr
 -
 >
-peekRawUint32
+peekUint32
 (
 &
 length

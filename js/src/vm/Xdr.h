@@ -1578,14 +1578,9 @@ Ok
 Peek
 uint32_t
 data
-without
-handling
-endian
--
-ness
 .
 XDRResult
-peekRawUint32
+peekUint32
 (
 uint32_t
 *
