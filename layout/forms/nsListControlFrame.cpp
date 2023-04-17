@@ -744,7 +744,7 @@ mFrame
 -
 -
 -
-nsContainerFrame
+nsListControlFrame
 *
 NS_NewListControlFrame
 (
