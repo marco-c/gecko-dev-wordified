@@ -5805,16 +5805,6 @@ res
 }
 ;
 }
-if
-(
-!
-res
-.
-shmem
-)
-return
-nullptr
-;
 const
 auto
 &
@@ -5835,10 +5825,6 @@ child
 res
 .
 shmem
-.
-ref
-(
-)
 }
 ;
 const

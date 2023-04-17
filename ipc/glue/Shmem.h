@@ -1119,7 +1119,6 @@ RevokeRights
 (
 PrivateIPDLCaller
 )
-const
 {
 }
 #
@@ -1129,7 +1128,6 @@ RevokeRights
 (
 PrivateIPDLCaller
 )
-const
 ;
 #
 endif

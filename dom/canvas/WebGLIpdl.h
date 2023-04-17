@@ -700,7 +700,6 @@ msg
 IProtocol
 *
 actor
-const
 T
 &
 in
@@ -718,9 +717,15 @@ WriteIPDLParam
 (
 msg
 actor
+std
+:
+:
+move
+(
 in
 .
 shmem
+)
 )
 ;
 }
@@ -821,7 +826,6 @@ msg
 IProtocol
 *
 actor
-const
 T
 &
 in
@@ -847,9 +851,15 @@ WriteIPDLParam
 (
 msg
 actor
+std
+:
+:
+move
+(
 in
 .
 shmem
+)
 )
 ;
 }
