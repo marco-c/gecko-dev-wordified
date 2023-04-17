@@ -1455,7 +1455,7 @@ we
 checked
 the
 [
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 ]
 case
 already
@@ -37926,7 +37926,7 @@ TreatNonCallableAsNull
 and
     
 [
-TreatNonObjectAsNull
+LegacyTreatNonObjectAsNull
 ]
 extended
 attributes
