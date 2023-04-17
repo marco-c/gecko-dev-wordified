@@ -2822,10 +2822,7 @@ RootedPlainObject
 result
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -3024,10 +3021,7 @@ RootedObject
 segment
 (
 cx
-NewObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr
@@ -7149,10 +7143,7 @@ isAsmJS
 {
 exportObj
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -7162,10 +7153,7 @@ else
 {
 exportObj
 =
-NewObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr

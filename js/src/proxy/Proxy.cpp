@@ -970,10 +970,7 @@ expando
 {
 expando
 =
-NewObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr

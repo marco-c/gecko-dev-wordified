@@ -6246,10 +6246,7 @@ toObjectOrNull
 )
 ;
 return
-NewObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 proto
@@ -32075,13 +32072,9 @@ NewInit
 )
 ;
 return
-NewBuiltinClassInstanceWithKind
-<
-PlainObject
->
+NewPlainObject
 (
 cx
-GenericObject
 )
 ;
 }

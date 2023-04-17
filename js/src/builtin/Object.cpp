@@ -14304,13 +14304,11 @@ RootedPlainObject
 objectProto
 (
 cx
-NewTenuredObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr
+TenuredObject
 )
 )
 ;

@@ -1037,10 +1037,7 @@ JSObject
 *
 source
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

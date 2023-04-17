@@ -2815,13 +2815,11 @@ RootedPlainObject
 proto
 (
 cx
-NewTenuredObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 objProto
+TenuredObject
 )
 )
 ;

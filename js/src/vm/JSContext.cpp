@@ -4086,10 +4086,7 @@ RootedPlainObject
 noteObj
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

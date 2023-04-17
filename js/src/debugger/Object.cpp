@@ -8379,10 +8379,7 @@ RootedPlainObject
 record
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

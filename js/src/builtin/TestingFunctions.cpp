@@ -24804,10 +24804,7 @@ RootedObject
 inlineFrameInfo
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -25252,10 +25249,7 @@ RootedObject
 obj
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -35312,10 +35306,7 @@ RootedObject
 obj
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -36824,10 +36815,7 @@ RootedPlainObject
 part
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

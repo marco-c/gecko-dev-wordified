@@ -1737,10 +1737,7 @@ RootedObject
 measurementUnits
 (
 cx
-NewObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr
@@ -7566,10 +7563,7 @@ endIndex
 ;
 singlePart
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )
@@ -8749,10 +8743,7 @@ endIndex
 ;
 singlePart
 =
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 cx
 )

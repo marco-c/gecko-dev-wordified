@@ -428,10 +428,7 @@ inDictionaryMode
 )
 {
 return
-NewObjectWithGivenProto
-<
-PlainObject
->
+NewPlainObjectWithProto
 (
 cx
 nullptr

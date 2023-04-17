@@ -16730,10 +16730,7 @@ data
 JSObject
 *
 )
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObject
 (
 context
 (
