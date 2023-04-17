@@ -7493,10 +7493,13 @@ c_int
 =
 2
 ;
-f
+safe_f
 !
 {
 pub
+{
+const
+}
 fn
 WEXITSTATUS
 (
@@ -7522,6 +7525,9 @@ status
 0xff
 }
 pub
+{
+const
+}
 fn
 WIFEXITED
 (
@@ -7545,6 +7551,9 @@ status
 0
 }
 pub
+{
+const
+}
 fn
 WTERMSIG
 (
