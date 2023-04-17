@@ -279,12 +279,6 @@ js
 :
 frontend
 ;
-using
-mozilla
-:
-:
-Maybe
-;
 bool
 SwitchEmitter
 :
@@ -765,12 +759,7 @@ SwitchEmitter
 :
 emitDiscriminant
 (
-const
-Maybe
-<
 uint32_t
->
-&
 switchPos
 )
 {
@@ -789,11 +778,6 @@ switchPos_
 =
 switchPos
 ;
-if
-(
-switchPos_
-)
-{
 /
 /
 Ensure
@@ -816,7 +800,6 @@ bce_
 >
 updateSourceCoordNotes
 (
-*
 switchPos_
 )
 )
@@ -824,7 +807,6 @@ switchPos_
 return
 false
 ;
-}
 }
 state_
 =

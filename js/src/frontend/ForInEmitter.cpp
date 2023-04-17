@@ -189,12 +189,6 @@ using
 mozilla
 :
 :
-Maybe
-;
-using
-mozilla
-:
-:
 Nothing
 ;
 ForInEmitter
@@ -747,12 +741,7 @@ ForInEmitter
 :
 emitEnd
 (
-const
-Maybe
-<
 uint32_t
->
-&
 forPos
 )
 {
@@ -767,11 +756,6 @@ State
 Body
 )
 ;
-if
-(
-forPos
-)
-{
 /
 /
 Make
@@ -794,7 +778,6 @@ bce_
 >
 updateSourceCoordNotes
 (
-*
 forPos
 )
 )
@@ -802,7 +785,6 @@ forPos
 return
 false
 ;
-}
 }
 if
 (

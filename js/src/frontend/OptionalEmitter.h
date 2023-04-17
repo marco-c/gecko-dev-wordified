@@ -656,10 +656,7 @@ cone
 emitEnd
 (
 1
-Some
-(
 offset_of_callee
-)
 )
 ;
 /
@@ -796,10 +793,7 @@ cone
 emitEnd
 (
 2
-Some
-(
 offset_of_callee
-)
 )
 ;
 /
@@ -930,10 +924,7 @@ cone
 emitEnd
 (
 1
-Some
-(
 offset_of_callee
-)
 )
 ;
 /
@@ -1056,10 +1047,7 @@ cone
 emitEnd
 (
 1
-Some
-(
 offset_of_callee
-)
 )
 ;
 /
@@ -1192,10 +1180,7 @@ cone
 emitEnd
 (
 1
-Some
-(
 offset_of_callee
-)
 )
 ;
 /
