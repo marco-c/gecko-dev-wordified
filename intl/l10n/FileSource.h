@@ -234,6 +234,10 @@ nsACString
 &
 aName
 const
+nsACString
+&
+aMetaSource
+const
 nsTArray
 <
 nsCString
@@ -290,6 +294,10 @@ const
 nsACString
 &
 aName
+const
+nsACString
+&
+aMetaSource
 const
 nsTArray
 <
@@ -348,6 +356,14 @@ override
 ;
 void
 GetName
+(
+nsCString
+&
+aRetVal
+)
+;
+void
+GetMetaSource
 (
 nsCString
 &
