@@ -348,9 +348,6 @@ namespace
 layers
 {
 class
-ClientTiledLayerBuffer
-;
-class
 Compositor
 ;
 /

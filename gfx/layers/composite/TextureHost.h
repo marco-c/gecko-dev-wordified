@@ -4969,10 +4969,6 @@ TextureParent
 ;
 friend
 class
-TiledLayerBufferComposite
-;
-friend
-class
 TextureSourceProvider
 ;
 friend

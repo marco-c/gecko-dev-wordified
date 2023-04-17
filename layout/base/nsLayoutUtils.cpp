@@ -1343,17 +1343,6 @@ h
 #
 include
 "
-TiledLayerBuffer
-.
-h
-"
-/
-/
-For
-TILEDLAYERBUFFER_TILE_SIZE
-#
-include
-"
 UnitTransforms
 .
 h
