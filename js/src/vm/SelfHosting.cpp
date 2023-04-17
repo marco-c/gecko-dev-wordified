@@ -17343,7 +17343,7 @@ JS_FN
 intl_FormatNumber
 "
 intl_FormatNumber
-3
+2
 0
 )
 JS_FN
