@@ -186,7 +186,7 @@ drop
 dragover
 "
 "
-dragexit
+dragleave
 "
 "
 dragend
@@ -3209,7 +3209,7 @@ stopPropagation
 )
 ;
 }
-on_dragexit
+on_dragleave
 (
 event
 )

@@ -7624,7 +7624,7 @@ aTarget
 addEventListener
 (
 "
-dragexit
+dragleave
 "
 this
 true
@@ -7775,7 +7775,7 @@ aTarget
 removeEventListener
 (
 "
-dragexit
+dragleave
 "
 this
 true
@@ -10655,12 +10655,12 @@ break
 ;
 case
 "
-dragexit
+dragleave
 "
 :
 this
 .
-_onDragExit
+_onDragLeave
 (
 aEvent
 )
@@ -13949,7 +13949,7 @@ parentNode
 ;
 }
 }
-_onDragExit
+_onDragLeave
 (
 aEvent
 )
@@ -14013,7 +14013,7 @@ don
 t
 care
 about
-dragexit
+dragleave
 events
 fired
 on

@@ -263,7 +263,7 @@ this
 addEventListener
 (
 "
-dragexit
+dragleave
 "
 this
 )
@@ -5800,7 +5800,7 @@ stopPropagation
 )
 ;
 }
-on_dragexit
+on_dragleave
 (
 event
 )
