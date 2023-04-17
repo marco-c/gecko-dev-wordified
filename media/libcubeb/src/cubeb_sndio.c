@@ -3967,7 +3967,16 @@ device
 >
 max_channels
 =
-16
+(
+type
+=
+=
+CUBEB_DEVICE_TYPE_INPUT
+)
+?
+2
+:
+8
 ;
 device
 -
