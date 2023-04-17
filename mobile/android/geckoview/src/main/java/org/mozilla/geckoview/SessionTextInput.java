@@ -791,6 +791,13 @@ IME_FLAG_USER_ACTION
 =
 2
 ;
+WrapForJNI
+final
+int
+IME_FOCUS_NOT_CHANGED
+=
+4
+;
 void
 notifyIME
 (
