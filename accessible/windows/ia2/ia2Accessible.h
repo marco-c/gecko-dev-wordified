@@ -151,6 +151,9 @@ class
 Attribute
 ;
 class
+Accessible
+;
+class
 AccessibleWrap
 ;
 class
@@ -986,6 +989,12 @@ private
 AccessibleWrap
 *
 LocalAcc
+(
+)
+;
+Accessible
+*
+Acc
 (
 )
 ;

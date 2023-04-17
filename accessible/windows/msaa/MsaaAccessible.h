@@ -225,6 +225,16 @@ Accessible
 aAcc
 )
 ;
+Accessible
+*
+Acc
+(
+)
+{
+return
+mAcc
+;
+}
 AccessibleWrap
 *
 LocalAcc
