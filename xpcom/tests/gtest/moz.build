@@ -200,6 +200,11 @@ TestLogging
 cpp
 "
 "
+TestMemoryPressure
+.
+cpp
+"
+"
 TestMoveString
 .
 cpp
