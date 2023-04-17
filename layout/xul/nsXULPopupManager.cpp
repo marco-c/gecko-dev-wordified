@@ -20469,6 +20469,8 @@ MODIFIER_SHIFT
 mModifiers
 &
 MODIFIER_META
+0
+mButton
 )
 ;
 }
