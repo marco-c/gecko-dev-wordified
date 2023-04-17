@@ -261,6 +261,13 @@ nsLiteralString
 .
 h
 "
+#
+include
+<
+string
+.
+h
+>
 namespace
 mozilla
 {
@@ -5985,11 +5992,11 @@ char
 *
 p
 =
-PL_strchr
+strchr
 (
 buf
 .
-get
+BeginWriting
 (
 )
 '

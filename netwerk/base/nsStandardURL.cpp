@@ -309,6 +309,13 @@ nsIClassInfoImpl
 .
 h
 "
+#
+include
+<
+string
+.
+h
+>
 /
 /
 /
@@ -18012,7 +18019,7 @@ resultPath
 {
 resultPath
 =
-PL_strchr
+strchr
 (
 resultPath
 +
