@@ -9069,6 +9069,7 @@ words
 yet
 )
 .
+const
 int32_t
 originalRangeCount
 =
@@ -9542,9 +9543,6 @@ checking
 )
 )
 ;
-ErrorResult
-erv
-;
 /
 /
 see
@@ -9596,6 +9594,9 @@ originalRangeCount
 0
 )
 {
+ErrorResult
+erv
+;
 /
 /
 likewise
