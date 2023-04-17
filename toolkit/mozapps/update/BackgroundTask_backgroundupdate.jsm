@@ -712,12 +712,15 @@ isOtherInstanceRunning
 )
 {
 reasons
-=
+.
+push
+(
 BackgroundUpdate
 .
 REASON
 .
 OTHER_INSTANCE
+)
 ;
 }
 }
@@ -1996,7 +1999,7 @@ update
 task
 in
 the
-fast
+face
 of
 continuous
 persistent
