@@ -31608,6 +31608,16 @@ ScrollByAndClamp
 mTestAsyncScrollOffset
 )
 ;
+if
+(
+StaticPrefs
+:
+:
+apz_overscroll_test_async_scroll_offset_enabled
+(
+)
+)
+{
 ParentLayerPoint
 overscroll
 =
@@ -31626,6 +31636,7 @@ OverscrollBy
 overscroll
 )
 ;
+}
 ResampleCompositedAsyncTransform
 (
 aProofOfLock
