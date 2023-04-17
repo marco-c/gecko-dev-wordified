@@ -1180,6 +1180,13 @@ js
 "
 shims
 /
+moat
+.
+js
+"
+"
+shims
+/
 mochitest
 -
 shim
