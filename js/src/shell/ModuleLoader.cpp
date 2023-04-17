@@ -2821,6 +2821,7 @@ JSLinearString
 components
 (
 cx
+cx
 )
 ;
 size_t
