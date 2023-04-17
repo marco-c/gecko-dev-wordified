@@ -145,6 +145,16 @@ dom
 :
 :
 AutoJSAPI
+#
+include
+"
+FuzzerRegistry
+.
+h
+"
+/
+/
+LibFuzzerDriver
 /
 /
 This
@@ -182,6 +192,7 @@ char
 *
 *
 argv
+LibFuzzerDriver
 )
 ;
 /
