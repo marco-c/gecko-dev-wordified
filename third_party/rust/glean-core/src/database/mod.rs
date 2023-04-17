@@ -1486,6 +1486,7 @@ files
 ;
 delete_lmdb_database
 (
+&
 path
 )
 ;
@@ -2520,6 +2521,7 @@ rkv
 =
 rkv_new
 (
+&
 path
 )
 ?

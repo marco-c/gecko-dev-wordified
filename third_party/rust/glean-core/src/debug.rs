@@ -1972,6 +1972,7 @@ x
 |
 validate_tag
 (
+&
 x
 )
 )

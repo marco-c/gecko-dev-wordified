@@ -574,6 +574,7 @@ get_last_sent_time_metric
 .
 set
 (
+&
 glean
 Some
 (
@@ -792,6 +793,7 @@ GleanMetricsPingScheduler
 ;
 schedule_internal
 (
+&
 glean
 submitter
 scheduler
@@ -926,6 +928,7 @@ last_sent_build_metric
 .
 get_value
 (
+&
 glean
 INTERNAL_STORAGE
 )
@@ -1001,6 +1004,7 @@ last_sent_build_metric
 .
 set
 (
+&
 glean
 &
 glean
@@ -1031,6 +1035,7 @@ submitter
 .
 submit_metrics_ping
 (
+&
 glean
 Some
 (
@@ -1066,6 +1071,7 @@ get_last_sent_time_metric
 .
 get_value
 (
+&
 glean
 INTERNAL_STORAGE
 )
@@ -1328,6 +1334,7 @@ submitter
 .
 submit_metrics_ping
 (
+&
 glean
 Some
 (

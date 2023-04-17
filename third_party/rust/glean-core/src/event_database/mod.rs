@@ -1761,6 +1761,7 @@ stores_to_submit
 .
 push
 (
+&
 store_name
 )
 ;
@@ -2984,6 +2985,7 @@ EventDatabase
 :
 new
 (
+&
 t
 .
 path
@@ -3083,6 +3085,7 @@ EventDatabase
 :
 new
 (
+&
 t
 .
 path
@@ -3509,6 +3512,7 @@ serde_json
 :
 from_str
 (
+&
 event_empty_json
 )
 .
@@ -3526,6 +3530,7 @@ serde_json
 :
 from_str
 (
+&
 event_data_json
 )
 .

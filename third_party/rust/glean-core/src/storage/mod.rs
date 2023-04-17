@@ -751,6 +751,7 @@ mut
 snapshot
 &
 metric_id
+&
 metric
 )
 ;
@@ -806,6 +807,7 @@ Lifetime
 :
 :
 Ping
+&
 store_name
 None
 &
@@ -821,6 +823,7 @@ Lifetime
 :
 :
 Application
+&
 store_name
 None
 &
@@ -836,6 +839,7 @@ Lifetime
 :
 :
 User
+&
 store_name
 None
 &
@@ -1088,6 +1092,7 @@ storage
 iter_store_from
 (
 metric_lifetime
+&
 store_name
 None
 &
