@@ -497,6 +497,12 @@ end
 )
 ;
 }
+title
+.
+shouldUseMaskFade
+=
+true
+;
 root
 .
 setAttribute
