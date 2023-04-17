@@ -97,6 +97,14 @@ self
 enabled
 =
 enabled
+        
+self
+.
+env
+=
+options
+.
+env
     
 classmethod
     
