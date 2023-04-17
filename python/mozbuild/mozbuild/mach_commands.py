@@ -1416,17 +1416,14 @@ topsrcdir
 self
 .
 topsrcdir
-            
 topobjdir
 =
 self
 .
 topobjdir
-            
 fix
 =
 fix
-            
 verbose
 =
 verbose
@@ -1501,6 +1498,9 @@ default
 "
 objdir
 "
+"
+python
+"
 ]
         
 nargs
@@ -1531,6 +1531,8 @@ default
         
 "
 objdir
+and
+python
 )
 .
 "
@@ -1739,7 +1741,9 @@ command
 clobbers
 the
 objdir
-target
+and
+python
+targets
 .
         
 "
@@ -2059,30 +2063,24 @@ self
 cmd
 =
 [
-                    
 "
 git
 "
-                    
 "
 clean
 "
-                    
 "
 -
 d
 "
-                    
 "
 -
 f
 "
-                    
 "
 -
 x
 "
-                    
 "
 *
 .
@@ -2091,7 +2089,6 @@ py
 cdo
 ]
 "
-                    
 "
 *
 /
@@ -2099,7 +2096,6 @@ __pycache__
 /
 *
 "
-                
 ]
             
 else
@@ -3782,13 +3778,11 @@ list
 -
 tests
 "
-        
 action
 =
 "
 store_true
 "
-        
 help
 =
 "
@@ -10776,7 +10770,6 @@ params
 extra_env
 =
 {
-            
 "
 RUST_BACKTRACE
 "
@@ -10784,7 +10777,6 @@ RUST_BACKTRACE
 "
 full
 "
-        
 }
         
 if
@@ -14510,17 +14502,12 @@ repackage_mar
 self
 .
 topsrcdir
-            
 input
-            
 mar
-            
 output
-            
 arch
 =
 arch
-            
 mar_channel_id
 =
 mar_channel_id
@@ -15163,11 +15150,9 @@ self
 .
 log
 (
-                
 logging
 .
 INFO
-                
 "
 package
 -
@@ -15175,15 +15160,12 @@ multi
 -
 locale
 "
-                
 {
 }
-                
 "
 Repackaging
 browser
 "
-            
 )
             
 self
