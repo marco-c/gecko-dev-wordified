@@ -815,7 +815,7 @@ GetParentActor
 windowParent
 -
 >
-WriteFormDataAndScrollToSessionStore
+UpdateSessionStore
 (
 maybeFormData
 maybeScroll

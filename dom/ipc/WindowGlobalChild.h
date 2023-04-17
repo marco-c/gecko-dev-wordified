@@ -443,9 +443,6 @@ SetDocumentPrincipal
 nsIPrincipal
 *
 aNewDocumentPrincipal
-nsIPrincipal
-*
-aNewDocumentStoragePrincipal
 )
 ;
 nsIPrincipal

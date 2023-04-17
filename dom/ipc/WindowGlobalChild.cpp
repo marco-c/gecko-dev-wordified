@@ -1440,12 +1440,6 @@ aDocument
 NodePrincipal
 (
 )
-aDocument
--
->
-EffectiveStoragePrincipal
-(
-)
 )
 ;
 nsCOMPtr
@@ -4120,9 +4114,6 @@ SetDocumentPrincipal
 nsIPrincipal
 *
 aNewDocumentPrincipal
-nsIPrincipal
-*
-aNewDocumentStoragePrincipal
 )
 {
 MOZ_ASSERT
@@ -4143,7 +4134,6 @@ aNewDocumentPrincipal
 SendUpdateDocumentPrincipal
 (
 aNewDocumentPrincipal
-aNewDocumentStoragePrincipal
 )
 ;
 }
