@@ -201,15 +201,6 @@ mozilla
 :
 :
 TimeStamp
-sStartupTime
-=
-sNow
-;
-static
-mozilla
-:
-:
-TimeStamp
 AdvanceTime
 (
 TimeDuration
