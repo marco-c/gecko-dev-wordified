@@ -24463,6 +24463,16 @@ we
 are
 pannable
 .
+if
+(
+ScrollSourceAllowsOverscroll
+(
+aOverscrollHandoffState
+.
+mScrollSource
+)
+)
+{
 APZC_LOG
 (
 "
@@ -24597,6 +24607,7 @@ visualOverscrollChange
 aEndPoint
 )
 ;
+}
 }
 aStartPoint
 =
