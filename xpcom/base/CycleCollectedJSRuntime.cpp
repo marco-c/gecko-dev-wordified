@@ -6866,7 +6866,7 @@ aTracer
 static
 *
 /
-void
+bool
 CycleCollectedJSRuntime
 :
 :
@@ -6875,6 +6875,12 @@ TraceGrayJS
 JSTracer
 *
 aTracer
+js
+:
+:
+SliceBudget
+&
+budget
 void
 *
 aData
@@ -6962,6 +6968,9 @@ TraceNativeGrayRoots
 aTracer
 which
 )
+;
+return
+true
 ;
 }
 /
