@@ -192,6 +192,7 @@ topLevelBaseDomain
 }
 originAttributes
 )
+;
 let
 uri
 =
