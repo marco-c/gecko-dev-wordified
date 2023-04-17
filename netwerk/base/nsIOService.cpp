@@ -1506,6 +1506,17 @@ mirrors
 -
 connectivity
 "
+"
+network
+.
+disable
+-
+localhost
+-
+when
+-
+offline
+"
 nullptr
 }
 ;
