@@ -9,7 +9,6 @@ from
 .
 base
 import
-NullBrowser
 get_timeout_multiplier
 #
 noqa
@@ -84,21 +83,9 @@ check_args
 browser
 "
 :
-{
-None
-:
 "
 ChromeiOSBrowser
 "
-                             
-"
-wdspec
-"
-:
-"
-NullBrowser
-"
-}
                  
 "
 executor
@@ -222,7 +209,8 @@ executor_kwargs
 (
 logger
 test_type
-test_environment
+server_config
+cache_manager
 run_info_data
                     
 *
@@ -236,7 +224,8 @@ executor_kwargs
 base_executor_kwargs
 (
 test_type
-test_environment
+server_config
+cache_manager
 run_info_data
                                            
 *
