@@ -1724,6 +1724,8 @@ mOptions
 Glyph
 *
 mGlyphs
+=
+nullptr
 ;
 uint32_t
 mNumGlyphs
@@ -4054,6 +4056,8 @@ mRefPtr
 uint8_t
 *
 mData
+=
+nullptr
 ;
 int32_t
 mStride
@@ -4779,6 +4783,8 @@ mRefPtr
 GradientStop
 *
 mStops
+=
+nullptr
 ;
 uint32_t
 mNumStops
@@ -5432,10 +5438,6 @@ GetType
 (
 )
 )
-mData
-(
-nullptr
-)
 mFontDetails
 (
 )
@@ -5559,6 +5561,8 @@ mType
 uint8_t
 *
 mData
+=
+nullptr
 ;
 RecordedFontDetails
 mFontDetails
@@ -18603,10 +18607,6 @@ FontType
 :
 :
 UNKNOWN
-)
-mData
-(
-nullptr
 )
 {
 ReadElementConstrained
