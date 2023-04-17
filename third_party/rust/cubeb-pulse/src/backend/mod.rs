@@ -39,10 +39,10 @@ mod
 cork_state
 ;
 mod
-stream
+intern
 ;
 mod
-intern
+stream
 ;
 pub
 use
