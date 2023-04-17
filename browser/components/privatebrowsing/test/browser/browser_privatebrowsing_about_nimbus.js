@@ -826,10 +826,11 @@ promoLink
 .
 textContent
 "
-Need
-more
-privacy
-?
+Stay
+private
+with
+Mozilla
+VPN
 "
 "
 should
