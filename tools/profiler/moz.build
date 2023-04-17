@@ -1004,6 +1004,13 @@ cpp
 "
 core
 /
+ProfilerThreadRegistrationData
+.
+cpp
+"
+"
+core
+/
 ProfilerUtils
 .
 cpp
@@ -1156,6 +1163,13 @@ h
 public
 /
 ProfilerThreadPlatformData
+.
+h
+"
+"
+public
+/
+ProfilerThreadRegistrationData
 .
 h
 "
