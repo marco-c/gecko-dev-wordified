@@ -153,6 +153,8 @@ const
 aParent
 RawId
 aId
+bool
+aOwning
 )
 :
 ChildOf
@@ -162,6 +164,10 @@ aParent
 mId
 (
 aId
+)
+mOwning
+(
+aOwning
 )
 {
 }
@@ -210,6 +216,9 @@ GetBridge
 ;
 if
 (
+mOwning
+&
+&
 bridge
 &
 &

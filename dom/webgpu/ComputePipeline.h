@@ -156,6 +156,10 @@ Device
 >
 {
 const
+RawId
+mImplicitPipelineLayoutId
+;
+const
 nsTArray
 <
 RawId
@@ -184,6 +188,8 @@ const
 aParent
 RawId
 aId
+RawId
+aImplicitPipelineLayoutId
 nsTArray
 <
 RawId

@@ -1268,6 +1268,7 @@ BindGroupLayout
 (
 this
 id
+true
 )
 ;
 return
@@ -1464,6 +1465,11 @@ RawId
 implicitBindGroupLayoutIds
 ;
 RawId
+implicitPipelineLayoutId
+=
+0
+;
+RawId
 id
 =
 mBridge
@@ -1473,6 +1479,8 @@ DeviceCreateComputePipeline
 (
 mId
 aDesc
+&
+implicitPipelineLayoutId
 &
 implicitBindGroupLayoutIds
 )
@@ -1488,6 +1496,7 @@ ComputePipeline
 (
 this
 id
+implicitPipelineLayoutId
 std
 :
 :
@@ -1530,6 +1539,11 @@ RawId
 implicitBindGroupLayoutIds
 ;
 RawId
+implicitPipelineLayoutId
+=
+0
+;
+RawId
 id
 =
 mBridge
@@ -1539,6 +1553,8 @@ DeviceCreateRenderPipeline
 (
 mId
 aDesc
+&
+implicitPipelineLayoutId
 &
 implicitBindGroupLayoutIds
 )
@@ -1554,6 +1570,7 @@ RenderPipeline
 (
 this
 id
+implicitPipelineLayoutId
 std
 :
 :

@@ -536,6 +536,17 @@ selfId
 )
 ;
 async
+ImplicitLayoutDestroy
+(
+RawId
+implicitPlId
+RawId
+[
+]
+implicitBglIds
+)
+;
+async
 DeviceCreateSwapChain
 (
 RawId
