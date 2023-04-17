@@ -29277,7 +29277,7 @@ currentEventDelay
 TimeDuration
 currentEventRunning
 ;
-registeredThread
+lockedThreadData
 -
 >
 GetRunningEventDelay
