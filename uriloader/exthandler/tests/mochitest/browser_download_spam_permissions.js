@@ -231,7 +231,7 @@ browser
 .
 download
 .
-enable_spam_prevention
+improvements_to_download_panel
 "
 true
 ]
