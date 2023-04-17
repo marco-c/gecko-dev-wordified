@@ -1410,6 +1410,10 @@ scaled_font
 glyphs
 num_glyphs
 overlap
+surface
+-
+>
+permit_subpixel_antialiasing
 )
 ;
 compositor
