@@ -544,6 +544,16 @@ output
 get
 (
 )
+?
+output
+.
+get
+(
+)
+:
+"
+null
+"
 expect
 file
 line
