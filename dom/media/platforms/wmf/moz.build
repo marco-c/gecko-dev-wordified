@@ -179,11 +179,11 @@ WMFMediaDataDecoder
 .
 cpp
 "
-'
+"
 WMFMediaDataEncoder
 .
 cpp
-'
+"
 "
 WMFVideoMFTManager
 .
