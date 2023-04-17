@@ -1900,6 +1900,17 @@ focus
 ;
 }
 }
+resetHoveredNodeReference
+(
+)
+{
+this
+.
+_hoveredNode
+=
+null
+;
+}
 destroy
 (
 )
