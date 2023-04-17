@@ -1989,7 +1989,7 @@ nsACString
 aSourceFilePath
 const
 int32_t
-aSourceLine
+aSourceFileLine
 const
 Severity
 aSeverity
@@ -2358,7 +2358,7 @@ sourceFileRelativePath
 get
 (
 )
-aSourceLine
+aSourceFileLine
 )
 ;
 #
@@ -2431,7 +2431,7 @@ _ns
 +
 IntToCString
 (
-aSourceLine
+aSourceFileLine
 )
 +
 extraInfosString
@@ -2642,7 +2642,7 @@ source_line
 _ns
 IntToCString
 (
-aSourceLine
+aSourceFileLine
 )
 }
 )
@@ -2883,7 +2883,7 @@ char
 aSourceFilePath
 const
 int32_t
-aSourceLine
+aSourceFileLine
 )
 {
 nsString
@@ -3107,7 +3107,7 @@ get
 )
 nullptr
 aSourceFilePath
-aSourceLine
+aSourceFileLine
 )
 ;
 return

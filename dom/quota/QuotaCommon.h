@@ -8672,7 +8672,7 @@ nsACString
 &
 aSourceFilePath
 int32_t
-aSourceLine
+aSourceFileLine
 Severity
 aSeverity
 )
@@ -8695,7 +8695,7 @@ char
 *
 aSourceFilePath
 int32_t
-aSourceLine
+aSourceFileLine
 )
 ;
 #
@@ -9166,7 +9166,7 @@ char
 *
 aSourceFilePath
 int32_t
-aSourceLine
+aSourceFileLine
 const
 Severity
 aSeverity
@@ -9208,7 +9208,7 @@ nsDependentCString
 (
 aSourceFilePath
 )
-aSourceLine
+aSourceFileLine
 aSeverity
 )
 ;
@@ -9237,7 +9237,7 @@ nsDependentCString
 (
 aSourceFilePath
 )
-aSourceLine
+aSourceFileLine
 aSeverity
 )
 ;
@@ -9268,7 +9268,7 @@ char
 *
 aSourceFilePath
 int32_t
-aSourceLine
+aSourceFileLine
 const
 Severity
 aSeverity
@@ -9298,7 +9298,7 @@ char
 *
 aSourceFilePath
 int32_t
-aSourceLine
+aSourceFileLine
 const
 Severity
 aSeverity
@@ -9309,7 +9309,7 @@ HandleError
 aExpr
 aRv
 aSourceFilePath
-aSourceLine
+aSourceFileLine
 aSeverity
 )
 ;
@@ -9342,7 +9342,7 @@ char
 *
 aSourceFilePath
 int32_t
-aSourceLine
+aSourceFileLine
 const
 Severity
 aSeverity
@@ -9357,7 +9357,7 @@ HandleError
 aExpr
 aRv
 aSourceFilePath
-aSourceLine
+aSourceFileLine
 aSeverity
 )
 ;
