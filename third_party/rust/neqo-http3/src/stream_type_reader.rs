@@ -819,9 +819,10 @@ ReceiveOutput
 NoOutput
 )
 ;
-assert_eq
+assert
 !
 (
+!
 self
 .
 decoder
@@ -829,7 +830,6 @@ decoder
 done
 (
 )
-false
 )
 ;
 }
