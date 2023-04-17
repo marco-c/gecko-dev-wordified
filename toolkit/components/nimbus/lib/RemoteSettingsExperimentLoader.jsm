@@ -1302,7 +1302,7 @@ context
 let
 result
 =
-false
+null
 ;
 try
 {
