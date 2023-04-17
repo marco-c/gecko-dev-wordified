@@ -350,6 +350,10 @@ RenderCompositorNative
 (
 )
 {
+Pause
+(
+)
+;
 mProfilerScreenshotGrabber
 .
 Destroy
