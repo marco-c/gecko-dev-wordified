@@ -355,9 +355,13 @@ IoVec
 ;
 #
 [
-allow
+derive
 (
-missing_debug_implementations
+Clone
+Debug
+Eq
+Hash
+PartialEq
 )
 ]
 struct

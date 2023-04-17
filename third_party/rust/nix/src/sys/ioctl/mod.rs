@@ -3373,6 +3373,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -3768,6 +3771,9 @@ request_code_
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -4102,6 +4108,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -4467,6 +4476,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -4791,6 +4803,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -5159,6 +5174,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -5532,6 +5550,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -5916,6 +5937,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -6337,6 +6361,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -6661,6 +6688,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -6950,6 +6980,9 @@ ioctl_readwrite_bad
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -7222,6 +7255,9 @@ ioctl_read_buf
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -7612,6 +7648,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -7917,6 +7956,9 @@ readwrite_buf
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !

@@ -402,6 +402,9 @@ main
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -515,6 +518,9 @@ directly
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -683,6 +689,9 @@ writing
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -833,6 +842,9 @@ reading
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
@@ -950,6 +962,9 @@ directly
 #
 [
 macro_export
+(
+local_inner_macros
+)
 ]
 macro_rules
 !
