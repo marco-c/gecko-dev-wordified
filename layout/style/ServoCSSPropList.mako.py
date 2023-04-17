@@ -346,17 +346,6 @@ context
 -
 properties
 "
-        
-"
--
-moz
--
-control
--
-character
--
-visibility
-"
     
 ]
     
