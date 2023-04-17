@@ -1348,6 +1348,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 /
 /
@@ -1455,6 +1456,7 @@ in
 /
 selection
 .
+static
 nsresult
 IsPointInSelection
 (
@@ -1605,6 +1607,7 @@ nsRange
 *
 aRange
 )
+const
 ;
 /
 /

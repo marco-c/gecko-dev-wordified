@@ -6314,6 +6314,7 @@ nsRange
 *
 aRange
 )
+const
 {
 nsresult
 rv
@@ -6837,6 +6838,7 @@ nsINode
 *
 aNode
 )
+const
 {
 MOZ_ASSERT
 (
@@ -10542,6 +10544,9 @@ will
 be
 nullptr
 .
+/
+/
+static
 nsresult
 mozInlineSpellChecker
 :
