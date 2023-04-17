@@ -764,6 +764,11 @@ make_dir
 (
 outroot
 )
+failed
+=
+set
+(
+)
 for
 name
 in
@@ -948,6 +953,13 @@ s
 %
 name
 )
+        
+failed
+.
+add
+(
+name
+)
     
 except
 AssertionError
@@ -964,6 +976,13 @@ FAILED
 s
 "
 %
+name
+)
+        
+failed
+.
+add
+(
 name
 )
         
@@ -984,4 +1003,25 @@ s
 "
 %
 name
+)
+if
+failed
+:
+    
+raise
+Exception
+(
+"
+Failed
+tests
+:
+"
++
+"
+"
+.
+join
+(
+failed
+)
 )
