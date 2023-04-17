@@ -1373,6 +1373,9 @@ false
 PlacesBookmarkAddition
 :
 false
+PlacesBookmarkGuid
+:
+false
 PlacesBookmarkMoved
 :
 false
