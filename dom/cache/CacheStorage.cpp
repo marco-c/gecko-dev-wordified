@@ -936,6 +936,8 @@ authLen
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 urlParser
 -
 >
@@ -957,6 +959,7 @@ authPos
 authLen
 nullptr
 nullptr
+)
 )
 /
 /
@@ -1023,6 +1026,8 @@ hostLen
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 urlParser
 -
 >
@@ -1049,6 +1054,7 @@ hostPos
 &
 hostLen
 nullptr
+)
 )
 /
 /

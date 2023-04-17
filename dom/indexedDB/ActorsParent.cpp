@@ -66900,6 +66900,8 @@ else
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 journalDirectory
 -
 >
@@ -66910,6 +66912,7 @@ nsIFile
 :
 DIRECTORY_TYPE
 0755
+)
 )
 nullptr
 )
@@ -69952,10 +69955,13 @@ initialization
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DeleteFilesNoQuota
 (
 directory
 subdirName
+)
 )
 Err
 (
@@ -70019,6 +70025,8 @@ bug
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 RemoveDatabaseFilesAndDirectory
 (
 *
@@ -70031,6 +70039,7 @@ u
 "
 "
 _ns
+)
 )
 Err
 (
@@ -70216,10 +70225,13 @@ DeleteFilesNoQuota
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DeleteFilesNoQuota
 (
 directory
 subdirName
+)
 )
 Err
 (
@@ -73563,6 +73575,8 @@ DirectoryWorkOpen
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 quotaManager
 -
 >
@@ -73575,6 +73589,7 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
+)
 )
 NS_ERROR_FAILURE
 )
@@ -73802,11 +73817,14 @@ quotaManager
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 quotaManager
 -
 >
 EnsureTemporaryStorageIsInitialized
 (
+)
 )
 true
 )
@@ -107924,6 +107942,8 @@ failed
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 Transaction
 (
 )
@@ -107940,6 +107960,7 @@ SyncDeleteFile
 (
 file
 journalFile
+)
 )
 QM_VOID
 )

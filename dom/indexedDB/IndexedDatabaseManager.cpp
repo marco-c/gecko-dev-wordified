@@ -1683,11 +1683,14 @@ IndexedDatabaseManager
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 instance
 -
 >
 Init
 (
+)
 )
 nullptr
 )

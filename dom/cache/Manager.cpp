@@ -3001,8 +3001,11 @@ AssertIsOnBackgroundThread
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 MaybeCreateInstance
 (
+)
 )
 nullptr
 )
@@ -6039,10 +6042,13 @@ TRANSACTION_IMMEDIATE
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 trans
 .
 Start
 (
+)
 )
 QM_VOID
 )
