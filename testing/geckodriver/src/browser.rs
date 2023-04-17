@@ -209,7 +209,7 @@ fn
 close
 (
 self
-force
+wait_for_shutdown
 :
 bool
 )
@@ -237,7 +237,7 @@ x
 .
 close
 (
-force
+wait_for_shutdown
 )
 Browser
 :
@@ -687,7 +687,7 @@ close
 (
 mut
 self
-force
+wait_for_shutdown
 :
 bool
 )
@@ -700,8 +700,7 @@ WebDriverResult
 >
 {
 if
-!
-force
+wait_for_shutdown
 {
 /
 /
