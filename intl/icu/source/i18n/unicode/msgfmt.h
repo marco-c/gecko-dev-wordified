@@ -1360,7 +1360,7 @@ apostrophe
 A
 double
 ASCII
-apostrohpe
+apostrophe
 inside
 or
 outside

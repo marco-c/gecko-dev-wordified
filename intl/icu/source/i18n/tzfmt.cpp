@@ -11651,7 +11651,7 @@ skip
 the
 leading
 space
-charcters
+characters
 .
 if
 (

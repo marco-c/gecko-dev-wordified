@@ -1546,7 +1546,7 @@ _didn
 '
 t_
 delete
-aything
+anything
 from
 the
 vector
@@ -4489,7 +4489,7 @@ that
 matched
 the
 most
-charcters
+characters
 *
 in
 the

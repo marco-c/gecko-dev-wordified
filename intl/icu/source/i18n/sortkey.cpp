@@ -368,7 +368,7 @@ readable
 /
 98
 erm
-Canged
+Changed
 to
 use
 byte

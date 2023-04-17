@@ -1374,7 +1374,7 @@ just
 *
 remember
 to
-chck
+check
 getDynamicClassID
 (
 )

@@ -7653,7 +7653,7 @@ for
 the
 hash
 table
-containind
+containing
 DummyFormat
 .
 if
@@ -10189,7 +10189,7 @@ for
 the
 hash
 table
-containind
+containing
 DummyFormat
 .
 /

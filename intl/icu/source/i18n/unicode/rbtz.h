@@ -874,7 +874,7 @@ handle
 actual
 timezone
 *
-calcuation
+calculation
 APIs
 .
 This
@@ -2685,6 +2685,9 @@ status
 )
 const
 ;
+#
+ifndef
+U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -2699,7 +2702,9 @@ wall
 time
 .
 *
-internal
+draft
+ICU
+69
 *
 /
 virtual
@@ -2708,9 +2713,9 @@ getOffsetFromLocal
 (
 UDate
 date
-int32_t
+UTimeZoneLocalOption
 nonExistingTimeOpt
-int32_t
+UTimeZoneLocalOption
 duplicatedTimeOpt
 int32_t
 &
@@ -2724,6 +2729,13 @@ status
 )
 const
 ;
+#
+endif
+/
+*
+U_FORCE_HIDE_DRAFT_API
+*
+/
 private
 :
 void

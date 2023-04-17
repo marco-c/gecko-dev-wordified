@@ -521,7 +521,7 @@ to
 29
 days
 to
-accomodate
+accommodate
 rules
 with
 that
@@ -4279,9 +4279,9 @@ getOffsetFromLocal
 (
 UDate
 date
-int32_t
+UTimeZoneLocalOption
 nonExistingTimeOpt
-int32_t
+UTimeZoneLocalOption
 duplicatedTimeOpt
 int32_t
 &

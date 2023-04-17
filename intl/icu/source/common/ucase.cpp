@@ -6086,7 +6086,7 @@ D
 (
 This
 third
-criterium
+criterion
 does
 not
 add

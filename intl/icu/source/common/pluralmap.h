@@ -362,7 +362,7 @@ but
 rather
 represents
 the
-absense
+absence
 of
 a
 plural

@@ -921,7 +921,7 @@ return
 }
 /
 /
-Accomodate
+Accommodate
 the
 longest
 possible

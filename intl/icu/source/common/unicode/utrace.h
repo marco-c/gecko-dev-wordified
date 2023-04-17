@@ -1057,9 +1057,6 @@ endif
 /
 /
 U_HIDE_INTERNAL_API
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1071,7 +1068,7 @@ iterator
 location
 .
 *
-draft
+stable
 ICU
 67
 *
@@ -1096,7 +1093,7 @@ created
 .
 *
 *
-draft
+stable
 ICU
 67
 *
@@ -1121,7 +1118,7 @@ created
 .
 *
 *
-draft
+stable
 ICU
 67
 *
@@ -1174,7 +1171,7 @@ normal
 .
 *
 *
-draft
+stable
 ICU
 67
 *
@@ -1197,7 +1194,7 @@ created
 .
 *
 *
-draft
+stable
 ICU
 67
 *
@@ -1220,7 +1217,7 @@ created
 .
 *
 *
-draft
+stable
 ICU
 67
 *
@@ -1282,17 +1279,12 @@ Thai
 .
 *
 *
-draft
+stable
 ICU
 67
 *
 /
 UTRACE_UBRK_CREATE_BREAK_ENGINE
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 ifndef
 U_HIDE_INTERNAL_API
