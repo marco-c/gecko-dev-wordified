@@ -4999,6 +4999,10 @@ mIsPrimary
 (
 true
 )
+mFromTouchEvent
+(
+false
+)
 {
 }
 public
@@ -5046,6 +5050,10 @@ mIsPrimary
 (
 true
 )
+mFromTouchEvent
+(
+false
+)
 {
 }
 explicit
@@ -5072,6 +5080,10 @@ mHeight
 mIsPrimary
 (
 true
+)
+mFromTouchEvent
+(
+false
 )
 {
 mClass
@@ -5160,6 +5172,9 @@ mHeight
 bool
 mIsPrimary
 ;
+bool
+mFromTouchEvent
+;
 /
 /
 XXX
@@ -5203,6 +5218,12 @@ mIsPrimary
 aEvent
 .
 mIsPrimary
+;
+mFromTouchEvent
+=
+aEvent
+.
+mFromTouchEvent
 ;
 }
 }
