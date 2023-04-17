@@ -267,6 +267,10 @@ parseSecurityInfo
 null
 {
 }
+new
+Map
+(
+)
 )
 ;
 equal
@@ -357,6 +361,10 @@ parseSecurityInfo
 MockSecurityInfo
 {
 }
+new
+Map
+(
+)
 )
 ;
 equal
@@ -438,6 +446,10 @@ parseSecurityInfo
 MockSecurityInfo
 {
 }
+new
+Map
+(
+)
 )
 ;
 equal
@@ -512,6 +524,10 @@ parseSecurityInfo
 MockSecurityInfo
 {
 }
+new
+Map
+(
+)
 )
 ;
 equal
@@ -576,6 +592,10 @@ parseSecurityInfo
 MockSecurityInfo
 {
 }
+new
+Map
+(
+)
 )
 ;
 equal

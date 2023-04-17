@@ -330,6 +330,10 @@ parseSecurityInfo
 (
 MockSecurityInfo
 MockHttpInfo
+new
+Map
+(
+)
 )
 ;
 equal

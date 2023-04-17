@@ -266,6 +266,10 @@ NetworkHelper
 parseCertificateInfo
 (
 DUMMY_CERT
+new
+Map
+(
+)
 )
 ;
 /

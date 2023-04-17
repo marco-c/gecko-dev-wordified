@@ -288,6 +288,10 @@ parseSecurityInfo
 MockSecurityInfo
 {
 }
+new
+Map
+(
+)
 )
 ;
 equal
@@ -353,6 +357,10 @@ NetworkHelper
 parseCertificateInfo
 (
 MockCertificate
+new
+Map
+(
+)
 )
 "
 Certificate
