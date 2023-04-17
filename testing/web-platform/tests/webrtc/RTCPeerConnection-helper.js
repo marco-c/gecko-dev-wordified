@@ -2894,7 +2894,11 @@ fillRect
 (
 xpos
 ypos
+xpos
++
 20
+ypos
++
 20
 )
 ;
@@ -2938,7 +2942,11 @@ fillRect
 (
 xpos2
 ypos2
+xpos2
++
 20
+ypos2
++
 20
 )
 ;
