@@ -1988,7 +1988,7 @@ available
         
 self
 .
-start_mitmproxy_playback
+start_mitmproxy
 (
 self
 .
@@ -2075,7 +2075,7 @@ True
 raise
     
 def
-start_mitmproxy_playback
+start_mitmproxy
 (
 self
 mitmdump_path
@@ -2217,6 +2217,38 @@ command
 [
 mitmdump_path
 ]
+        
+if
+self
+.
+config
+.
+get
+(
+"
+verbose
+"
+False
+)
+:
+            
+#
+Generate
+mitmproxy
+verbose
+logs
+            
+command
+.
+extend
+(
+[
+"
+-
+v
+"
+]
+)
         
 #
 add
@@ -2380,6 +2412,27 @@ extend
 (
 args
 )
+            
+self
+.
+recording
+.
+set_metadata
+(
+                
+"
+proxy_version
+"
+self
+.
+config
+[
+"
+playback_version
+"
+]
+            
+)
         
 else
 :
@@ -2464,14 +2517,6 @@ in
 args
 =
 [
-                        
-"
--
-v
-"
-#
-Verbose
-mode
                         
 "
 -

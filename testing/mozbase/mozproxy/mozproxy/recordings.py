@@ -1336,6 +1336,12 @@ self
 .
 _metadata
 metadata_file
+sort_keys
+=
+True
+indent
+=
+4
 )
         
 with
