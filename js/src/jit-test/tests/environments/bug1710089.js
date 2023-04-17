@@ -28,7 +28,7 @@ top_level_var
 ;
 /
 /
-let
+var
 x3
 =
 0
@@ -42,7 +42,7 @@ f2
 {
 /
 /
-let
+var
 x2
 =
 x3
@@ -56,7 +56,7 @@ f1
 {
 /
 /
-let
+var
 x1
 =
 x2
@@ -70,7 +70,7 @@ f0
 {
 /
 /
-let
+var
 x0
 =
 x1
@@ -145,7 +145,7 @@ var
 def
 =
 "
-let
+var
 x
 "
 +
@@ -202,7 +202,7 @@ i
 src
 =
 "
-let
+var
 x
 "
 +
