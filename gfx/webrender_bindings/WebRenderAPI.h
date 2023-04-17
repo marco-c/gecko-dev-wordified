@@ -661,15 +661,6 @@ uint8_t
 >
 &
 dl_cache_data
-wr
-:
-:
-Vec
-<
-uint8_t
->
-&
-dl_spatial_tree
 )
 ;
 void
