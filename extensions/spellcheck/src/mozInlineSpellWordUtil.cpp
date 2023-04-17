@@ -6783,7 +6783,9 @@ int32_t
 (
 mSoftText
 .
-mDOMMapping
+GetDOMMapping
+(
+)
 .
 Length
 (
@@ -6802,7 +6804,9 @@ map
 =
 mSoftText
 .
-mDOMMapping
+GetDOMMapping
+(
+)
 [
 i
 ]
@@ -7190,7 +7194,9 @@ FindLastNongreaterOffset
 (
 mSoftText
 .
-mDOMMapping
+GetDOMMapping
+(
+)
 aSoftTextOffset
 &
 index
@@ -7282,7 +7288,9 @@ map
 =
 mSoftText
 .
-mDOMMapping
+GetDOMMapping
+(
+)
 [
 index
 -
@@ -7383,7 +7391,9 @@ map
 =
 mSoftText
 .
-mDOMMapping
+GetDOMMapping
+(
+)
 [
 index
 ]
