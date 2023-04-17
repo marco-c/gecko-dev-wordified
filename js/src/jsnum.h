@@ -503,7 +503,6 @@ nodiscard
 ]
 extern
 bool
-JS_FASTCALL
 NumberValueToStringBuffer
 (
 JSContext

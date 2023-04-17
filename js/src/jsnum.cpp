@@ -11171,7 +11171,6 @@ str
 ;
 }
 bool
-JS_FASTCALL
 js
 :
 :

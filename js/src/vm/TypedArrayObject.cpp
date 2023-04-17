@@ -2084,7 +2084,6 @@ type
 *
 /
 uint32_t
-JS_FASTCALL
 js
 :
 :

@@ -303,7 +303,6 @@ heap
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewDenseEmptyArray
 (
 JSContext
@@ -339,7 +338,6 @@ heap
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewTenuredDenseEmptyArray
 (
 JSContext
@@ -388,7 +386,6 @@ user
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewDenseUnallocatedArray
 (
 JSContext
@@ -432,7 +429,6 @@ to
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewDenseFullyAllocatedArray
 (
 JSContext

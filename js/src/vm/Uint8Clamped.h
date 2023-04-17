@@ -133,7 +133,6 @@ js
 {
 extern
 uint32_t
-JS_FASTCALL
 ClampDoubleToUint8
 (
 const
