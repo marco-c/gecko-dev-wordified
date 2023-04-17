@@ -25097,7 +25097,7 @@ offsetOfFlagsAndArgCount
 ;
 masm
 .
-storePtr
+storePrivateValue
 (
 ImmGCPtr
 (
@@ -25111,7 +25111,7 @@ output
 JSFunction
 :
 :
-offsetOfBaseScript
+offsetOfJitInfoOrScript
 (
 )
 )
@@ -33598,7 +33598,7 @@ function
 JSFunction
 :
 :
-offsetOfBaseScript
+offsetOfJitInfoOrScript
 (
 )
 )
