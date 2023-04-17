@@ -317,7 +317,7 @@ match
 (
 /
 ^
-http
+https
 :
 \
 /
@@ -325,7 +325,7 @@ http
 /
 example
 .
-org
+com
 \
 /
 /
@@ -411,13 +411,13 @@ win
 .
 gBrowser
 "
-http
+https
 :
 /
 /
 example
 .
-org
+com
 "
 )
 ;
