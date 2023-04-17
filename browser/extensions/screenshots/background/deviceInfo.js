@@ -60,6 +60,8 @@ MPL
 *
 globals
 catcher
+browser
+navigator
 *
 /
 "
@@ -107,9 +109,7 @@ getPlatformInfo
 .
 then
 (
-(
 info
-)
 =
 >
 {
