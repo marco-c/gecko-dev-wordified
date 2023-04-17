@@ -3444,6 +3444,13 @@ source_
 source
 )
 {
+source
+-
+>
+noteSourceCompressionTask
+(
+)
+;
 }
 virtual
 ~
