@@ -235,6 +235,7 @@ SVGImageContext
 >
 &
 aContext
+const
 ComputedStyle
 *
 aFromComputedStyle
