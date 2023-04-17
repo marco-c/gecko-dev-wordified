@@ -402,7 +402,7 @@ unset
 )
 ;
 await
-ensureNoTRRModeChange
+ensureTRRMode
 (
 2
 )
