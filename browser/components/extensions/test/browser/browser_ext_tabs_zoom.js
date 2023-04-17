@@ -1873,7 +1873,7 @@ let
 url
 =
 "
-http
+https
 :
 /
 /
@@ -1911,7 +1911,7 @@ http
 /
 example
 .
-net
+org
 /
 "
 )
