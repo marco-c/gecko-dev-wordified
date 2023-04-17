@@ -9823,7 +9823,7 @@ mIsWhiteSpaceCollapsible
 !
 mStart
 .
-AcrossPreformattedCharacter
+AcrossPreformattedWhiteSpaceOrNonCollapsibleCharacter
 (
 )
 &
@@ -9831,7 +9831,7 @@ AcrossPreformattedCharacter
 !
 mEnd
 .
-AcrossPreformattedCharacter
+AcrossPreformattedWhiteSpaceOrNonCollapsibleCharacter
 (
 )
 &
@@ -10082,7 +10082,7 @@ WSType
 :
 :
 NonCollapsibleCharacters
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -10221,7 +10221,7 @@ WSType
 :
 :
 NonCollapsibleCharacters
-Preformatted
+WhiteSpacePreformatted
 :
 :
 Yes
@@ -10405,7 +10405,7 @@ WSType
 :
 :
 CurrentBlockBoundary
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -10434,7 +10434,7 @@ WSType
 :
 :
 OtherBlockBoundary
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -10523,7 +10523,7 @@ WSType
 :
 :
 SpecialContent
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -10699,7 +10699,7 @@ WSType
 :
 :
 NonCollapsibleCharacters
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -10996,7 +10996,7 @@ WSType
 :
 :
 NonCollapsibleCharacters
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -11135,7 +11135,7 @@ WSType
 :
 :
 NonCollapsibleCharacters
-Preformatted
+WhiteSpacePreformatted
 :
 :
 Yes
@@ -11322,7 +11322,7 @@ WSType
 :
 :
 CurrentBlockBoundary
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -11364,7 +11364,7 @@ WSType
 :
 :
 OtherBlockBoundary
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -11454,7 +11454,7 @@ WSType
 :
 :
 SpecialContent
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
@@ -11631,7 +11631,7 @@ WSType
 :
 :
 NonCollapsibleCharacters
-Preformatted
+WhiteSpacePreformatted
 :
 :
 No
