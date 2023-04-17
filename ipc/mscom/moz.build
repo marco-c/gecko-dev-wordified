@@ -119,11 +119,6 @@ COMPtrHolder
 h
 "
 "
-COMWrappers
-.
-h
-"
-"
 EnsureMTA
 .
 h
@@ -188,11 +183,6 @@ UNIFIED_SOURCES
 [
 "
 AgileReference
-.
-cpp
-"
-"
-COMWrappers
 .
 cpp
 "
