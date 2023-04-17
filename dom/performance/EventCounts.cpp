@@ -383,7 +383,7 @@ MaplikeHelpers
 Set
 (
 this
-NS_ConvertUTF8toUTF16
+nsDependentString
 (
 Event
 :

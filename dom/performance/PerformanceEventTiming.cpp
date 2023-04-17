@@ -648,7 +648,7 @@ GetPerformance
 )
 {
 const
-char
+char16_t
 *
 eventName
 =
@@ -691,7 +691,7 @@ new
 PerformanceEventTiming
 (
 performance
-NS_ConvertUTF8toUTF16
+nsDependentString
 (
 eventName
 )

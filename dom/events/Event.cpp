@@ -4135,7 +4135,7 @@ events
 /
 static
 const
-char
+char16_t
 *
 Event
 :
@@ -4166,6 +4166,9 @@ _message
 :
 \
 return
+u
+"
+"
 #
 name_
 ;
@@ -5047,7 +5050,7 @@ return
 ;
 }
 const
-char
+char16_t
 *
 name
 =
@@ -5064,16 +5067,11 @@ if
 name
 )
 {
-CopyASCIItoUTF16
-(
-mozilla
-:
-:
-MakeStringSpan
+aType
+.
+Assign
 (
 name
-)
-aType
 )
 ;
 return

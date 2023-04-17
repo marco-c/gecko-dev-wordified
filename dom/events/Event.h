@@ -940,7 +940,7 @@ aGlobal
 ;
 static
 const
-char
+char16_t
 *
 GetEventName
 (
