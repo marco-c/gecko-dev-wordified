@@ -1547,7 +1547,7 @@ Value
 >
 aMessage
 const
-PostMessageOptions
+StructuredSerializeOptions
 &
 aOptions
 ErrorResult

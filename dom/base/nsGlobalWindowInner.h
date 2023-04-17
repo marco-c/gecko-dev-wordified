@@ -6466,7 +6466,7 @@ mozilla
 dom
 :
 :
-PostMessageOptions
+StructuredSerializeOptions
 &
 aOptions
 JS
