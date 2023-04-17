@@ -4419,6 +4419,12 @@ JSOp
 :
 Try
 :
+case
+JSOp
+:
+:
+NewPrivateName
+:
 /
 /
 Supported

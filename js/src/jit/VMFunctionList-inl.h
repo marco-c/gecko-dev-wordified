@@ -2178,6 +2178,15 @@ NewPlainObjectOptimizedFallback
 \
 _
 (
+NewPrivateName
+js
+:
+:
+NewPrivateName
+)
+\
+_
+(
 NewRegExpStringIterator
 js
 :
