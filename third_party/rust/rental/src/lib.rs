@@ -8,7 +8,7 @@ generate
 safe
 self
 -
-referntial
+referential
 structs
 plus
 premade
