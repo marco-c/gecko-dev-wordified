@@ -1524,8 +1524,12 @@ build
 mSoftText
 and
 mSoftTextDOMMapping
+and
+adjust
+mSoftBegin
+.
 void
-BuildSoftText
+AdjustSoftBeginAndBuildSoftText
 (
 )
 ;
