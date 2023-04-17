@@ -52715,7 +52715,7 @@ GetContentEnd
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 (
 mIsSelected
@@ -52732,6 +52732,14 @@ Selected
 =
 =
 isReallySelected
+"
+Should
+have
+called
+InvalidateSelectionState
+(
+)
+"
 )
 ;
 #
