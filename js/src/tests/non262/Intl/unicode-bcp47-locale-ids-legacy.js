@@ -29,11 +29,11 @@ don
 t
 support
 irregular
-grandfathered
+legacy
 tags
 .
 var
-irregularGrandfathered
+irregularLegacy
 =
 [
 "
@@ -143,7 +143,7 @@ don
 t
 support
 regular
-grandfathered
+legacy
 tags
 /
 /
@@ -156,7 +156,7 @@ like
 subtag
 .
 var
-regularGrandfatheredWithExtlangLike
+regularLegacyWithExtlangLike
 =
 [
 "
@@ -193,7 +193,7 @@ identifiers
 do
 support
 regular
-grandfathered
+legacy
 tags
 /
 /
@@ -206,7 +206,7 @@ like
 subtag
 .
 var
-regularGrandfatheredWithVariantLike
+regularLegacyWithVariantLike
 =
 {
 "
@@ -226,12 +226,6 @@ gaulish
 :
 "
 xtg
--
-x
--
-cel
--
-gaulish
 "
 "
 zh
@@ -271,11 +265,11 @@ of
 .
 .
 .
-irregularGrandfathered
+irregularLegacy
 .
 .
 .
-regularGrandfatheredWithExtlangLike
+regularLegacyWithExtlangLike
 ]
 )
 {
@@ -307,7 +301,7 @@ Object
 .
 entries
 (
-regularGrandfatheredWithVariantLike
+regularLegacyWithVariantLike
 )
 )
 {
