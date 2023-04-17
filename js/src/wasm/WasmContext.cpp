@@ -191,7 +191,16 @@ include
 "
 wasm
 /
-WasmTypes
+WasmCompileArgs
+.
+h
+"
+#
+include
+"
+wasm
+/
+WasmTypeDef
 .
 h
 "

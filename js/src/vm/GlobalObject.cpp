@@ -714,6 +714,15 @@ h
 #
 include
 "
+wasm
+/
+WasmJS
+.
+h
+"
+#
+include
+"
 gc
 /
 FreeOp

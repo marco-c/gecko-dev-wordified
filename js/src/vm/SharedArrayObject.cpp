@@ -238,7 +238,7 @@ include
 "
 wasm
 /
-WasmSignalHandlers
+WasmMemory
 .
 h
 "
@@ -247,7 +247,7 @@ include
 "
 wasm
 /
-WasmTypes
+WasmSignalHandlers
 .
 h
 "

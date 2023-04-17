@@ -416,7 +416,7 @@ include
 "
 wasm
 /
-WasmFrame
+WasmCodegenTypes
 .
 h
 "
@@ -425,7 +425,7 @@ include
 "
 wasm
 /
-WasmTypes
+WasmFrame
 .
 h
 "

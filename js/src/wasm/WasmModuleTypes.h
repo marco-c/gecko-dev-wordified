@@ -242,6 +242,15 @@ include
 "
 wasm
 /
+WasmExprType
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmInitExpr
 .
 h

@@ -260,6 +260,15 @@ include
 "
 wasm
 /
+WasmLog
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmProcess
 .
 h

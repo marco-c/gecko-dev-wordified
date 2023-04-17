@@ -1297,7 +1297,16 @@ include
 "
 wasm
 /
-WasmTypes
+WasmValType
+.
+h
+"
+#
+include
+"
+wasm
+/
+WasmValue
 .
 h
 "

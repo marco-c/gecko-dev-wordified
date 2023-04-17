@@ -215,6 +215,15 @@ include
 "
 wasm
 /
+WasmException
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmJS
 .
 h

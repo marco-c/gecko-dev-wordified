@@ -171,15 +171,6 @@ MIRGenerator
 .
 h
 "
-#
-include
-"
-wasm
-/
-WasmTypes
-.
-h
-"
 using
 namespace
 js

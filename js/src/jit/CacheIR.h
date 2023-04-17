@@ -253,7 +253,16 @@ include
 "
 wasm
 /
-WasmTypes
+WasmConstants
+.
+h
+"
+#
+include
+"
+wasm
+/
+WasmValType
 .
 h
 "
