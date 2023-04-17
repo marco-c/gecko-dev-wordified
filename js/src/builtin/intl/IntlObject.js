@@ -274,11 +274,11 @@ the
 range
 1
 =
-Sunday
+Monday
 to
 7
 =
-Saturday
+Sunday
 .
 *
 /
