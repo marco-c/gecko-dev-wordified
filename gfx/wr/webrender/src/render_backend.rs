@@ -854,10 +854,6 @@ device_pixel_ratio
 :
 f32
 pub
-page_zoom_factor
-:
-f32
-pub
 quality_settings
 :
 QualitySettings
@@ -884,10 +880,6 @@ new
 self
 .
 device_pixel_ratio
-*
-self
-.
-page_zoom_factor
 )
 }
 }
@@ -976,12 +968,6 @@ self
 scene
 .
 device_pixel_ratio
-*
-self
-.
-scene
-.
-page_zoom_factor
 *
 self
 .
@@ -3322,11 +3308,6 @@ size
 into
 (
 )
-page_zoom_factor
-:
-1
-.
-0
 device_pixel_ratio
 :
 default_device_pixel_ratio
