@@ -1966,6 +1966,12 @@ an
 [
 FfiStr
 ]
+[
+crate
+:
+:
+FfiStr
+]
 #
 [
 inline
