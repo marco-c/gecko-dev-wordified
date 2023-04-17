@@ -172,8 +172,6 @@ h
 "
 /
 /
-JS_ClearPendingException
-JS_IsExceptionPending
 JS_SetProperty
 #
 include
@@ -265,6 +263,18 @@ h
 /
 JS_GetUint8ClampedArrayData
 JS_NewUint8ClampedArray
+#
+include
+"
+js
+/
+PropertyAndElement
+.
+h
+"
+/
+/
+JS_SetProperty
 #
 include
 "
