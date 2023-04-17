@@ -231,6 +231,10 @@ ChromiumCDMParent
 >
 GetChromiumCDM
 (
+const
+nsCString
+&
+aKeySystem
 )
 ;
 void
