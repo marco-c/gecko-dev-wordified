@@ -929,9 +929,6 @@ false
 HeapSnapshot
 :
 false
-HiddenPluginEvent
-:
-false
 History
 :
 false
