@@ -328,6 +328,11 @@ PNecko
 .
 ipdl
 "
+"
+PSocketProcess
+.
+ipdl
+"
 ]
 IPDL_SOURCES
 =
@@ -364,11 +369,6 @@ ipdl
 "
 "
 PSimpleChannel
-.
-ipdl
-"
-"
-PSocketProcess
 .
 ipdl
 "
