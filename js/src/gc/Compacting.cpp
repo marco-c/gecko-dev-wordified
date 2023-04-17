@@ -280,6 +280,17 @@ h
 #
 include
 "
+gc
+/
+Zone
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 GeckoProfiler
