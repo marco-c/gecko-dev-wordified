@@ -1280,9 +1280,6 @@ end
 bool
 mValidMoof
 ;
-bool
-mHeader
-;
 int8_t
 mAudioProfile
 ;
@@ -1317,8 +1314,6 @@ moofOffset
 /
 validMoof
 ?
-hasHeader
-?
 audio_profile
 {
 "
@@ -1338,7 +1333,6 @@ false
 1
 false
 152
-false
 false
 0
 }
@@ -1366,7 +1360,6 @@ true
 true
 0
 false
-false
 2
 }
 {
@@ -1388,7 +1381,6 @@ false
 false
 0
 false
-false
 0
 }
 {
@@ -1408,7 +1400,6 @@ false
 1
 false
 0
-false
 false
 0
 }
@@ -1431,7 +1422,6 @@ false
 false
 0
 false
-false
 0
 }
 {
@@ -1450,7 +1440,6 @@ true
 5
 false
 0
-false
 false
 2
 }
@@ -1471,7 +1460,6 @@ true
 1
 false
 0
-false
 false
 0
 }
@@ -1494,7 +1482,6 @@ false
 false
 0
 false
-false
 0
 }
 {
@@ -1514,7 +1501,6 @@ true
 1
 false
 0
-false
 false
 0
 }
@@ -1536,7 +1522,6 @@ false
 1
 false
 152
-false
 false
 0
 }
@@ -1566,7 +1551,6 @@ false
 false
 0
 false
-false
 0
 }
 {
@@ -1585,7 +1569,6 @@ true
 5589333
 true
 0
-true
 true
 2
 }
@@ -1606,7 +1589,6 @@ false
 100079991719000000
 false
 0
-false
 false
 2
 }
@@ -1629,7 +1611,6 @@ false
 97391548639
 false
 0
-false
 false
 2
 }
@@ -1655,7 +1636,6 @@ false
 false
 0
 false
-false
 2
 }
 {
@@ -1677,7 +1657,6 @@ false
 209146758205328
 false
 0
-false
 false
 2
 }
@@ -1702,7 +1681,6 @@ false
 9223372036854775804
 false
 0
-false
 false
 2
 }
@@ -1753,7 +1731,6 @@ false
 /
 /
 false
-false
 2
 /
 /
@@ -1779,7 +1756,6 @@ false
 false
 0
 false
-false
 0
 }
 {
@@ -1803,7 +1779,6 @@ false
 false
 0
 false
-false
 0
 }
 {
@@ -1826,7 +1801,6 @@ false
 false
 0
 false
-false
 2
 }
 {
@@ -1846,7 +1820,6 @@ false
 234567981
 false
 0
-false
 false
 2
 }
@@ -1869,7 +1842,6 @@ false
 false
 0
 true
-true
 0
 }
 {
@@ -1888,7 +1860,6 @@ true
 5589333
 true
 0
-true
 true
 2
 }
@@ -1909,7 +1880,6 @@ false
 false
 0
 false
-false
 2
 }
 {
@@ -1928,7 +1898,6 @@ true
 477460
 false
 0
-false
 false
 2
 }
@@ -1950,7 +1919,6 @@ false
 false
 0
 false
-false
 2
 }
 {
@@ -1970,7 +1938,6 @@ false
 false
 0
 false
-false
 0
 }
 {
@@ -1989,7 +1956,6 @@ false
 0
 false
 955100
-true
 true
 2
 }
@@ -2025,7 +1991,6 @@ true
 true
 0
 false
-false
 0
 }
 {
@@ -2055,7 +2020,6 @@ true
 1
 false
 0
-false
 false
 0
 }
@@ -2096,7 +2060,6 @@ true
 false
 0
 true
-true
 2
 }
 {
@@ -2123,7 +2086,6 @@ true
 10032000
 false
 0
-true
 true
 2
 }
@@ -2217,7 +2179,6 @@ true
 0
 true
 0
-false
 false
 0
 }
@@ -4102,6 +4063,24 @@ test
 .
 mFilename
 ;
+/
+/
+If
+we
+expect
+a
+valid
+moof
+we
+should
+have
+that
+moof
+'
+s
+range
+stored
+.
 EXPECT_EQ
 (
 tests
@@ -4109,7 +4088,7 @@ tests
 test
 ]
 .
-mHeader
+mValidMoof
 !
 parser
 .
