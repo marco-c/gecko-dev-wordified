@@ -833,7 +833,6 @@ NS_DECL_ISUPPORTS
 /
 nsIWidget
 interface
-virtual
 void
 CaptureMouse
 (
@@ -843,7 +842,6 @@ aCapture
 override
 {
 }
-virtual
 void
 CaptureRollupEvents
 (
@@ -856,7 +854,6 @@ aDoCapture
 override
 {
 }
-virtual
 nsIWidgetListener
 *
 GetWidgetListener
@@ -864,7 +861,6 @@ GetWidgetListener
 )
 override
 ;
-virtual
 void
 SetWidgetListener
 (
@@ -874,14 +870,12 @@ alistener
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 void
 SetParent
 (
@@ -893,16 +887,13 @@ override
 {
 }
 ;
-virtual
 nsIWidget
 *
 GetParent
 (
-void
 )
 override
 ;
-virtual
 nsIWidget
 *
 GetTopLevelWidget
@@ -910,7 +901,6 @@ GetTopLevelWidget
 )
 override
 ;
-virtual
 nsIWidget
 *
 GetSheetWindowParent
@@ -919,14 +909,12 @@ void
 )
 override
 ;
-virtual
 float
 GetDPI
 (
 )
 override
 ;
-virtual
 void
 AddChild
 (
@@ -936,7 +924,6 @@ aChild
 )
 override
 ;
-virtual
 void
 RemoveChild
 (
@@ -954,7 +941,6 @@ aZIndex
 )
 override
 ;
-virtual
 void
 PlaceBehind
 (
@@ -969,7 +955,6 @@ aActivate
 override
 {
 }
-virtual
 void
 SetSizeMode
 (
@@ -978,7 +963,6 @@ aMode
 )
 override
 ;
-virtual
 nsSizeMode
 SizeMode
 (
@@ -989,7 +973,6 @@ return
 mSizeMode
 ;
 }
-virtual
 void
 GetWorkspaceID
 (
@@ -999,7 +982,6 @@ workspaceID
 )
 override
 ;
-virtual
 void
 MoveToWorkspace
 (
@@ -1010,7 +992,6 @@ workspaceID
 )
 override
 ;
-virtual
 bool
 IsTiled
 (
@@ -1022,7 +1003,6 @@ return
 mIsTiled
 ;
 }
-virtual
 bool
 IsFullyOccluded
 (
@@ -1034,7 +1014,6 @@ return
 mIsFullyOccluded
 ;
 }
-virtual
 void
 SetCursor
 (
@@ -1044,7 +1023,6 @@ Cursor
 )
 override
 ;
-virtual
 void
 ClearCachedCursor
 (
@@ -1061,7 +1039,6 @@ mUpdateCursor
 true
 ;
 }
-virtual
 void
 SetTransparencyMode
 (
@@ -1070,14 +1047,12 @@ aMode
 )
 override
 ;
-virtual
 nsTransparencyMode
 GetTransparencyMode
 (
 )
 override
 ;
-virtual
 void
 GetWindowClipRegion
 (
@@ -1090,7 +1065,6 @@ aRects
 )
 override
 ;
-virtual
 void
 SetWindowShadowStyle
 (
@@ -1103,7 +1077,6 @@ aStyle
 override
 {
 }
-virtual
 void
 SetShowsToolbarButton
 (
@@ -1113,7 +1086,6 @@ aShow
 override
 {
 }
-virtual
 void
 SetSupportsNativeFullscreen
 (
@@ -1123,7 +1095,6 @@ aSupportsNativeFullscreen
 override
 {
 }
-virtual
 void
 SetWindowAnimationType
 (
@@ -1133,7 +1104,6 @@ aType
 override
 {
 }
-virtual
 void
 HideWindowChrome
 (
@@ -1143,7 +1113,6 @@ aShouldHide
 override
 {
 }
-virtual
 bool
 PrepareForFullscreenTransition
 (
@@ -1158,7 +1127,6 @@ return
 false
 ;
 }
-virtual
 void
 PerformFullscreenTransition
 (
@@ -1175,7 +1143,6 @@ aCallback
 )
 override
 ;
-virtual
 void
 CleanupFullscreenTransition
 (
@@ -1183,8 +1150,6 @@ CleanupFullscreenTransition
 override
 {
 }
-;
-virtual
 already_AddRefed
 <
 nsIScreen
@@ -1194,7 +1159,6 @@ GetWidgetScreen
 )
 override
 ;
-virtual
 nsresult
 MakeFullScreen
 (
@@ -1220,7 +1184,6 @@ aScreen
 nullptr
 )
 ;
-virtual
 LayerManager
 *
 GetLayerManager
@@ -1334,19 +1297,16 @@ GetCompositorVsyncDispatcher
 (
 )
 ;
-virtual
 void
 CreateCompositorVsyncDispatcher
 (
 )
 ;
-virtual
 void
 CreateCompositor
 (
 )
 ;
-virtual
 void
 CreateCompositor
 (
@@ -1356,17 +1316,14 @@ int
 aHeight
 )
 ;
-virtual
 void
 SetCompositorWidgetDelegate
 (
 CompositorWidgetDelegate
 *
-delegate
 )
 {
 }
-virtual
 void
 PrepareWindowEffects
 (
@@ -1374,7 +1331,6 @@ PrepareWindowEffects
 override
 {
 }
-virtual
 void
 UpdateThemeGeometries
 (
@@ -1389,7 +1345,6 @@ aThemeGeometries
 override
 {
 }
-virtual
 void
 SetModal
 (
@@ -1399,7 +1354,6 @@ aModal
 override
 {
 }
-virtual
 uint32_t
 GetMaxTouchPoints
 (
@@ -1407,7 +1361,6 @@ GetMaxTouchPoints
 const
 override
 ;
-virtual
 void
 SetWindowClass
 (
@@ -1419,7 +1372,6 @@ xulWinType
 override
 {
 }
-virtual
 nsresult
 SetWindowClipRegion
 (
@@ -1612,7 +1564,6 @@ GetDesktopToDeviceScaleByScreen
 )
 override
 ;
-virtual
 void
 ConstrainPosition
 (
@@ -1628,7 +1579,6 @@ aY
 override
 {
 }
-virtual
 void
 MoveClient
 (
@@ -1639,7 +1589,6 @@ aOffset
 )
 override
 ;
-virtual
 void
 ResizeClient
 (
@@ -1652,7 +1601,6 @@ aRepaint
 )
 override
 ;
-virtual
 void
 ResizeClient
 (
@@ -1665,21 +1613,18 @@ aRepaint
 )
 override
 ;
-virtual
 LayoutDeviceIntRect
 GetBounds
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntRect
 GetClientBounds
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntRect
 GetScreenBounds
 (
@@ -1691,7 +1636,6 @@ override
 nodiscard
 ]
 ]
-virtual
 nsresult
 GetRestoredBounds
 (
@@ -1701,7 +1645,6 @@ aRect
 )
 override
 ;
-virtual
 nsresult
 SetNonClientMargins
 (
@@ -1711,14 +1654,12 @@ aMargins
 )
 override
 ;
-virtual
 LayoutDeviceIntPoint
 GetClientOffset
 (
 )
 override
 ;
-virtual
 void
 EnableDragDrop
 (
@@ -1729,7 +1670,6 @@ override
 {
 }
 ;
-virtual
 nsresult
 AsyncEnableDragDrop
 (
@@ -1743,7 +1683,6 @@ override
 nodiscard
 ]
 ]
-virtual
 nsresult
 GetAttention
 (
@@ -1756,14 +1695,12 @@ return
 NS_OK
 ;
 }
-virtual
 bool
 HasPendingInputEvent
 (
 )
 override
 ;
-virtual
 void
 SetIcon
 (
@@ -1775,7 +1712,6 @@ aIconSpec
 override
 {
 }
-virtual
 void
 SetDrawsInTitlebar
 (
@@ -1785,7 +1721,6 @@ aState
 override
 {
 }
-virtual
 bool
 ShowsResizeIndicator
 (
@@ -1795,7 +1730,6 @@ aResizerRect
 )
 override
 ;
-virtual
 void
 FreeNativeData
 (
@@ -1813,7 +1747,6 @@ override
 nodiscard
 ]
 ]
-virtual
 nsresult
 BeginResizeDrag
 (
@@ -1834,7 +1767,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
 nsresult
 ActivateNativeMenuItemAt
 (
@@ -1849,7 +1781,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
 nsresult
 ForceUpdateNativeMenuAt
 (
@@ -1879,7 +1810,6 @@ final
 nodiscard
 ]
 ]
-virtual
 nsresult
 AttachNativeKeyEvent
 (
@@ -1916,7 +1846,6 @@ true
 nodiscard
 ]
 ]
-virtual
 nsresult
 OnDefaultButtonLoaded
 (
@@ -1931,7 +1860,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
 already_AddRefed
 <
 nsIWidget
@@ -1954,7 +1882,6 @@ false
 )
 override
 ;
-virtual
 void
 AttachViewToTopLevel
 (
@@ -1963,7 +1890,6 @@ aUseAttachedEvents
 )
 override
 ;
-virtual
 nsIWidgetListener
 *
 GetAttachedWidgetListener
@@ -1971,7 +1897,6 @@ GetAttachedWidgetListener
 )
 override
 ;
-virtual
 void
 SetAttachedWidgetListener
 (
@@ -1981,7 +1906,6 @@ aListener
 )
 override
 ;
-virtual
 nsIWidgetListener
 *
 GetPreviouslyAttachedWidgetListener
@@ -1989,17 +1913,14 @@ GetPreviouslyAttachedWidgetListener
 )
 override
 ;
-virtual
 void
 SetPreviouslyAttachedWidgetListener
 (
 nsIWidgetListener
 *
-aListener
 )
 override
 ;
-virtual
 NativeIMEContext
 GetNativeIMEContext
 (
@@ -2013,7 +1934,6 @@ GetTextEventDispatcher
 )
 final
 ;
-virtual
 TextEventDispatcherListener
 *
 GetNativeTextEventDispatcherListener
@@ -2021,7 +1941,6 @@ GetNativeTextEventDispatcherListener
 )
 override
 ;
-virtual
 void
 ZoomToRect
 (
@@ -2165,21 +2084,18 @@ updates
 from
 the
 compositor
-virtual
 void
 RegisterPluginWindowForRemoteUpdates
 (
 )
 override
 ;
-virtual
 void
 UnregisterPluginWindowForRemoteUpdates
 (
 )
 override
 ;
-virtual
 void
 SetNativeData
 (
@@ -2191,7 +2107,6 @@ aVal
 override
 {
 }
-;
 /
 /
 Should
@@ -2291,7 +2206,6 @@ return
 mPopupLevel
 ;
 }
-virtual
 LayoutDeviceIntSize
 ClientToWindowSize
 (
@@ -2346,7 +2260,6 @@ eBorderStyle_title
 )
 ;
 }
-virtual
 void
 ReparentNativeWidget
 (
@@ -2357,7 +2270,6 @@ aNewParent
 override
 {
 }
-virtual
 const
 SizeConstraints
 GetSizeConstraints
@@ -2365,7 +2277,6 @@ GetSizeConstraints
 )
 override
 ;
-virtual
 void
 SetSizeConstraints
 (
@@ -2376,7 +2287,6 @@ aConstraints
 )
 override
 ;
-virtual
 void
 StartAsyncScrollbarDrag
 (
@@ -2387,7 +2297,6 @@ aDragMetrics
 )
 override
 ;
-virtual
 bool
 StartAsyncAutoscroll
 (
@@ -2402,7 +2311,6 @@ aGuid
 )
 override
 ;
-virtual
 void
 StopAsyncAutoscroll
 (
@@ -3038,7 +2946,6 @@ LayoutDeviceIntRect
 aRects
 )
 ;
-virtual
 nsresult
 SynthesizeNativeKeyEvent
 (
@@ -3081,7 +2988,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
@@ -3124,7 +3030,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-virtual
 nsresult
 SynthesizeNativeMouseMove
 (
@@ -3155,7 +3060,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
@@ -3198,7 +3102,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-virtual
 nsresult
 SynthesizeNativeTouchPoint
 (
@@ -3237,7 +3140,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-virtual
 nsresult
 SynthesizeNativeTouchPadPinch
 (
@@ -3272,7 +3174,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-virtual
 nsresult
 SynthesizeNativePenInput
 (
@@ -3316,7 +3217,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-virtual
 nsresult
 SynthesizeNativeTouchpadDoubleTap
 (
@@ -3629,7 +3529,6 @@ aHeight
 )
 ;
 }
-virtual
 CompositorBridgeChild
 *
 GetRemoteRenderer
@@ -3637,7 +3536,6 @@ GetRemoteRenderer
 )
 override
 ;
-virtual
 void
 ClearCachedWebrenderResources
 (
