@@ -9551,17 +9551,6 @@ Intl_getCalendarInfo
 1
 0
 )
-JS_SELF_HOSTED_FN
-(
-"
-getDisplayNames
-"
-"
-Intl_getDisplayNames
-"
-2
-0
-)
 JS_FS_END
 }
 ;
