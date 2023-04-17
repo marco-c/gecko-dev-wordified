@@ -4622,9 +4622,6 @@ environment
 usesTiling
 "
 "
-contentUsesTiling
-"
-"
 targetFrameRate
 "
 ]

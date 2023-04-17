@@ -2790,15 +2790,6 @@ type
 boolean
 "
 }
-contentUsesTiling
-:
-{
-type
-:
-"
-boolean
-"
-}
 clearTypeParameters
 :
 {
