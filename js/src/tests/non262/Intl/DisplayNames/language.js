@@ -306,7 +306,7 @@ GB
 Englisch
 (
 Traditionell
-GB
+UK
 )
 "
 "
