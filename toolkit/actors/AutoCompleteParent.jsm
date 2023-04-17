@@ -1361,9 +1361,15 @@ this
 .
 openedPopup
 .
-setAttribute
+style
+.
+setProperty
 (
 "
+-
+-
+panel
+-
 width
 "
 Math
@@ -1375,6 +1381,10 @@ rect
 .
 width
 )
++
+"
+px
+"
 )
 ;
 this
