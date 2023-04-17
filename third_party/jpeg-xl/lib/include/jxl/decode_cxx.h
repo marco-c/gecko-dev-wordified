@@ -45,6 +45,18 @@ file
 /
 /
 /
+addtogroup
+libjxl_decoder
+/
+/
+/
+{
+/
+/
+/
+/
+/
+/
 file
 decode_cxx
 .
@@ -398,3 +410,7 @@ endif
 /
 /
 JXL_DECODE_CXX_H_
+/
+/
+/
+}

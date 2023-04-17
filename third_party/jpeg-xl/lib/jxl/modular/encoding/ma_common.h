@@ -94,7 +94,7 @@ kMaxTreeSize
 1
 <
 <
-26
+22
 ;
 }
 /

@@ -44,6 +44,15 @@ file
 /
 *
 *
+addtogroup
+libjxl_common
+*
+{
+*
+/
+/
+*
+*
 *
 file
 parallel_runner
@@ -1175,5 +1184,11 @@ endif
 /
 *
 JXL_PARALLEL_RUNNER_H_
+*
+/
+/
+*
+*
+}
 *
 /

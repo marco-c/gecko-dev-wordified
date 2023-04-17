@@ -250,7 +250,7 @@ pool
 &
 io2
 )
-8000
+8000u
 )
 ;
 VerifyRelativeError
@@ -370,7 +370,7 @@ pool
 &
 io2
 )
-14000
+14000u
 )
 ;
 /

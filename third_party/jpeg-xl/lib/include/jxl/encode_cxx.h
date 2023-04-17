@@ -45,6 +45,18 @@ file
 /
 /
 /
+addtogroup
+libjxl_encoder
+/
+/
+/
+{
+/
+/
+/
+/
+/
+/
 file
 encode_cxx
 .
@@ -398,3 +410,7 @@ endif
 /
 /
 JXL_ENCODE_CXX_H_
+/
+/
+/
+}

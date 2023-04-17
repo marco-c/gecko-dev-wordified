@@ -2184,7 +2184,7 @@ veluca
 consider
 removing
 the
-temprorary
+temporary
 memory
 here
 (

@@ -812,7 +812,7 @@ opt
 size
 (
 )
-3
+3u
 )
 ;
 static

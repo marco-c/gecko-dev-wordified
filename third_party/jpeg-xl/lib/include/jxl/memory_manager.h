@@ -44,6 +44,11 @@ file
 /
 *
 *
+addtogroup
+libjxl_common
+*
+{
+*
 file
 memory_manager
 .
@@ -437,5 +442,11 @@ endif
 /
 *
 JXL_MEMORY_MANAGER_H_
+*
+/
+/
+*
+*
+}
 *
 /

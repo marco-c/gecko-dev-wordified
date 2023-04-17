@@ -1706,7 +1706,7 @@ lane
 EXPECT_LE
 (
 num_zero
-1
+1u
 )
 ;
 }

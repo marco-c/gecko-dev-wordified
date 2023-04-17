@@ -489,6 +489,9 @@ if
 print_bundles_
 )
 {
+#
+if
+JXL_IS_DEBUG_BUILD
 Trace
 (
 "
@@ -510,6 +513,11 @@ Name
 "
 )
 ;
+#
+endif
+/
+/
+JXL_IS_DEBUG_BUILD
 }
 depth_
 +
