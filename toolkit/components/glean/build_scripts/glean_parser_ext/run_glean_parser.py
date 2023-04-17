@@ -1161,12 +1161,28 @@ probe_type
 :
                     
 if
-info
+any
+(
+                        
+metric
+.
+telemetry_mirror
+=
+=
+value
+[
+0
+]
+                        
+for
+value
 in
 ids_to_probes
 .
 values
 (
+)
+                    
 )
 :
                         

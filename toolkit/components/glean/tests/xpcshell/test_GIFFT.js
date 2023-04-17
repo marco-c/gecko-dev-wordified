@@ -901,7 +901,7 @@ Telemetry
 getHistogramById
 (
 "
-TELEMETRY_TEST_LINEAR
+TELEMETRY_TEST_MIRROR_FOR_CUSTOM
 "
 )
 .
@@ -914,7 +914,7 @@ Telemetry
 getHistogramById
 (
 "
-TELEMETRY_TEST_LINEAR
+TELEMETRY_TEST_MIRROR_FOR_CUSTOM
 "
 )
 .
