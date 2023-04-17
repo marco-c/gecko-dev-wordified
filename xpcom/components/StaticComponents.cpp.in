@@ -264,6 +264,13 @@ h
 #
 include
 "
+xptdata
+.
+h
+"
+#
+include
+"
 xptinfo
 .
 h

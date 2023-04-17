@@ -228,13 +228,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-xptdata
-.
-h
-"
 /
 /
 Forward
@@ -275,6 +268,12 @@ nsXPTConstantInfo
 ;
 struct
 nsXPTDOMObjectInfo
+;
+enum
+class
+nsXPTInterface
+:
+uint16_t
 ;
 /
 /

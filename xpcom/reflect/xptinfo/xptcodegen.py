@@ -4290,6 +4290,12 @@ write
 "
 "
 "
+#
+ifndef
+xptdata_h
+#
+define
+xptdata_h
 enum
 class
 nsXPTInterface
@@ -4339,6 +4345,8 @@ write
 "
 }
 ;
+#
+endif
 "
 "
 "
