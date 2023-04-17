@@ -1971,8 +1971,6 @@ ArrowRight
 star
 -
 button
--
-box
 "
 )
 ;
