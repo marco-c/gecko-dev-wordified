@@ -6998,6 +6998,7 @@ if
 (
 !
 node
+?
 .
 bookmarkGuid
 |
