@@ -674,17 +674,6 @@ v
 attrs
 )
 ;
-desc
-.
-object
-(
-)
-.
-set
-(
-aProxy
-)
-;
 aDesc
 .
 set

@@ -9134,17 +9134,6 @@ funVal
 JSPROP_ENUMERATE
 )
 ;
-pd
-.
-object
-(
-)
-.
-set
-(
-proxy
-)
-;
 desc
 .
 set
