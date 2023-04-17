@@ -232,7 +232,8 @@ com
 ]
 )
 ;
-checkStorageData
+await
+waitForStorageData
 (
 "
 foo
@@ -261,7 +262,8 @@ net
 ]
 )
 ;
-checkStorageData
+await
+waitForStorageData
 (
 "
 lorem
@@ -392,7 +394,8 @@ com
 ]
 )
 ;
-checkStorageData
+await
+waitForStorageData
 (
 "
 foo2
@@ -421,7 +424,8 @@ net
 ]
 )
 ;
-checkStorageData
+await
+waitForStorageData
 (
 "
 lorem2
