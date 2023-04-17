@@ -21345,6 +21345,8 @@ nz
 sg
 my
 gb
+de
+fr
 "
 )
 ;
@@ -21372,6 +21374,8 @@ vpn_platforms
 "
 "
 win
+mac
+linux
 "
 )
 ;
