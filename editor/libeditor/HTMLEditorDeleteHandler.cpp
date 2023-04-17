@@ -32028,6 +32028,12 @@ IsEditActionDataAvailable
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+mEmptyInclusiveAncestorBlockElement
+)
+;
 /
 /
 If
