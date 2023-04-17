@@ -512,14 +512,6 @@ zoom
 -
 moz
 -
-context
--
-properties
-"
-"
--
-moz
--
 default
 -
 appearance

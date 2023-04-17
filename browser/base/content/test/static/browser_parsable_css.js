@@ -352,6 +352,16 @@ ua
 forms
 |
 svg
+|
+manageDialog
+|
+autocomplete
+-
+item
+-
+shared
+|
+formautofill
 )
 \
 .
