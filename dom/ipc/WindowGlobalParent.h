@@ -1301,6 +1301,14 @@ uint32_t
 aEpoch
 )
 ;
+void
+NotifySessionStoreUpdatesComplete
+(
+Element
+*
+aEmbedder
+)
+;
 Maybe
 <
 uint64_t

@@ -164,11 +164,11 @@ in
 uint32_t
 aEpoch
 in
-jsval
-aData
-in
 boolean
 aCollectSHistory
+in
+jsval
+aData
 )
 ;
 void

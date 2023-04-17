@@ -18393,10 +18393,6 @@ const
 bool
 aNeedCollectSHistory
 const
-bool
-&
-aIsFinal
-const
 uint32_t
 &
 aEpoch
@@ -18566,8 +18562,8 @@ UpdateSessionStore
 mFrameElement
 mBrowsingContext
 aEpoch
-dataVal
 aNeedCollectSHistory
+dataVal
 )
 ;
 NS_ENSURE_SUCCESS

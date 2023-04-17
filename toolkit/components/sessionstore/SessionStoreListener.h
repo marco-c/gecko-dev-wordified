@@ -474,8 +474,6 @@ process
 bool
 ForceFlushFromParent
 (
-bool
-aIsFinal
 )
 ;
 void
@@ -568,10 +566,6 @@ UpdateSessionStore
 (
 bool
 aIsFlush
-=
-false
-bool
-aIsFinal
 =
 false
 )

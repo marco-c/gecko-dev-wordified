@@ -133,8 +133,8 @@ UpdateSessionStore
 aBrowser
 aBrowsingContext
 aEpoch
-aData
 aCollectSHistory
+aData
 )
 {
 return
@@ -145,8 +145,8 @@ updateSessionStore
 aBrowser
 aBrowsingContext
 aEpoch
-aData
 aCollectSHistory
+aData
 )
 ;
 }
@@ -219,8 +219,8 @@ SSF_updateSessionStore
 aBrowser
 aBrowsingContext
 aEpoch
-aData
 aCollectSHistory
+aData
 )
 {
 let

@@ -2932,7 +2932,7 @@ InvokeBrowsingContextReadyCallback
 )
 ;
 void
-RequestTabStateFlush
+RequestFinalTabStateFlush
 (
 )
 ;
