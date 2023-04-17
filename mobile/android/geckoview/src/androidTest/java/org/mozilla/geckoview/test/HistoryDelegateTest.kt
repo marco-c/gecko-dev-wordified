@@ -91,6 +91,16 @@ mozilla
 .
 geckoview
 .
+GeckoSession
+.
+HistoryDelegate
+import
+org
+.
+mozilla
+.
+geckoview
+.
 test
 .
 rule
@@ -148,18 +158,6 @@ junit
 runner
 .
 RunWith
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-util
-.
-Callbacks
 import
 org
 .
@@ -702,8 +700,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 HistoryDelegate
 {
 AssertCalled
@@ -799,8 +795,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 HistoryDelegate
 {
 AssertCalled
@@ -895,8 +889,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 HistoryDelegate
 {
 AssertCalled
@@ -991,8 +983,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 HistoryDelegate
 {
 AssertCalled
@@ -1088,8 +1078,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 HistoryDelegate
 {
 AssertCalled
@@ -1185,8 +1173,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 HistoryDelegate
 {
 AssertCalled
@@ -1325,8 +1311,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 HistoryDelegate
 {
 AssertCalled
@@ -1422,8 +1406,6 @@ waitUntilCalled
 (
 object
 :
-Callbacks
-.
 HistoryDelegate
 {
 AssertCalled
