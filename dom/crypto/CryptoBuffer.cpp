@@ -448,7 +448,6 @@ GetAsArrayBufferView
 )
 ;
 }
-else
 if
 (
 aData
@@ -526,7 +525,6 @@ GetAsArrayBufferView
 )
 ;
 }
-else
 if
 (
 aData
