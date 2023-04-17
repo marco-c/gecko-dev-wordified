@@ -568,6 +568,8 @@ selectedBrowser
 ;
 notification
 .
+buttonContainer
+.
 querySelector
 (
 "
