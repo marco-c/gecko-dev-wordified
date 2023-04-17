@@ -160,6 +160,15 @@ json
 "
 schemas
 /
+ExperimentFeatureRemote
+.
+schema
+.
+json
+"
+"
+schemas
+/
 NimbusExperiment
 .
 schema
