@@ -37330,6 +37330,10 @@ mGtkWindowAppName
 =
 res_name
 ;
+mGtkWindowRoleName
+=
+role
+;
 free
 (
 res_name
