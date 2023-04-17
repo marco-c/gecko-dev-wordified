@@ -135,7 +135,7 @@ mozilla
 /
 layers
 /
-ShadowLayers
+TextureClient
 .
 h
 "
@@ -146,7 +146,7 @@ mozilla
 /
 layers
 /
-TextureClient
+TextureForwarder
 .
 h
 "
