@@ -1832,14 +1832,22 @@ parameters
 )
 :
     
-if
-not
+try_config
+=
 parameters
-[
+.
+get
+(
 "
 try_task_config
 "
-]
+{
+}
+)
+    
+if
+not
+try_config
 .
 get
 (
@@ -1855,7 +1863,7 @@ False
 :
         
 return
-False
+True
     
 supports_artifact_builds
 =
@@ -1876,7 +1884,6 @@ True
 )
     
 return
-not
 supports_artifact_builds
 def
 filter_out_shippable
