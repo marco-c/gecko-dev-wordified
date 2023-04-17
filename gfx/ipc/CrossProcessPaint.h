@@ -254,6 +254,9 @@ namespace
 dom
 {
 class
+CanonicalBrowsingContext
+;
+class
 DOMRect
 ;
 class
@@ -947,6 +950,17 @@ CrossProcessPaintFlags
 :
 :
 DrawView
+)
+;
+void
+QueuePaint
+(
+dom
+:
+:
+CanonicalBrowsingContext
+*
+aBc
 )
 ;
 /
