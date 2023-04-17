@@ -140,25 +140,6 @@ data
 for
 all
 tests
-.
-Note
-that
-any
-None
-here
-will
-end
-up
-converted
-to
-    
-#
-an
-empty
-string
-in
-useBaseTestDefaults
-.
     
 basetest
 =
@@ -339,14 +320,6 @@ gecko_profile_interval
     
 "
 gecko_profile_entries
-"
-    
-"
-gecko_profile_features
-"
-    
-"
-gecko_profile_threads
 "
     
 "
