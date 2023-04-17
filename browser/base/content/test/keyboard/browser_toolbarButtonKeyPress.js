@@ -37,9 +37,11 @@ const
 kDevPanelID
 =
 "
-appmenu
+PanelUI
 -
-moreTools
+developer
+-
+tools
 "
 ;
 /
