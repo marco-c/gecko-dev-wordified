@@ -428,7 +428,7 @@ false
 }
 static
 bool
-SupportsFastUnalignedAccesses
+SupportsFastUnalignedFPAccesses
 (
 )
 {
