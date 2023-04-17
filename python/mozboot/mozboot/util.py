@@ -1310,12 +1310,22 @@ jdk
 :
                 
 return
+os
+.
+path
+.
+join
+(
 java_home_item
 [
 "
 JVMHomePath
 "
 ]
+"
+bin
+"
+)
         
 #
 Fall
