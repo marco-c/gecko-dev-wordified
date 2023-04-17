@@ -15449,13 +15449,6 @@ defined
 (
 EARLY_BETA_OR_EARLIER
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 pref
 (
 "
