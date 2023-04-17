@@ -1275,6 +1275,7 @@ assert_equals
 data
 .
 report_count
++
 reportCount
 "
 Report
