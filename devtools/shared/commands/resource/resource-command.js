@@ -5482,9 +5482,9 @@ this
 .
 targetCommand
 .
-targetFront
+descriptorFront
 .
-isParentProcess
+isParentProcessDescriptor
 &
 &
 !

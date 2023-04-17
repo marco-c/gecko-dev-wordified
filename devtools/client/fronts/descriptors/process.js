@@ -466,6 +466,17 @@ front
 ;
 }
 get
+isParentProcessDescriptor
+(
+)
+{
+return
+this
+.
+isParent
+;
+}
+get
 isProcessDescriptor
 (
 )

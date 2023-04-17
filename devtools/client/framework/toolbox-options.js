@@ -2901,9 +2901,9 @@ if
 (
 this
 .
-target
+toolbox
 .
-isParentProcess
+isBrowserToolbox
 )
 {
 /
@@ -3037,8 +3037,6 @@ this
 toolbox
 .
 isBrowserToolbox
-(
-)
 )
 {
 /
