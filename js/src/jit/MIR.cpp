@@ -15442,6 +15442,14 @@ if
 def
 -
 >
+isGuard
+(
+)
+|
+|
+def
+-
+>
 isGuardRangeBailouts
 (
 )
