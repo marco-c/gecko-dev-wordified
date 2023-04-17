@@ -786,7 +786,7 @@ SpanEnumeration
 <
 char
 >
-InternalError
+ICUError
 >
 GetLegacyKeywordValuesForLocale
 (
@@ -872,7 +872,7 @@ static
 Result
 <
 Bcp47IdentifierEnumeration
-InternalError
+ICUError
 >
 GetBcp47KeywordValuesForLocale
 (

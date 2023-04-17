@@ -1492,7 +1492,7 @@ Collator
 :
 :
 Bcp47ExtEnumeration
-InternalError
+ICUError
 >
 Collator
 :
@@ -1548,9 +1548,10 @@ enumeration
 return
 Err
 (
-InternalError
-{
-}
+ToICUError
+(
+status
+)
 )
 ;
 }

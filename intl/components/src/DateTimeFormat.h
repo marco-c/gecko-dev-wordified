@@ -3486,7 +3486,7 @@ UniquePtr
 <
 Calendar
 >
-InternalError
+ICUError
 >
 CloneCalendar
 (

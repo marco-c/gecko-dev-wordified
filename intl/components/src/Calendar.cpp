@@ -407,7 +407,7 @@ SpanEnumeration
 <
 char
 >
-InternalError
+ICUError
 >
 Calendar
 :
@@ -466,9 +466,10 @@ enumeration
 return
 Err
 (
-InternalError
-{
-}
+ToICUError
+(
+status
+)
 )
 ;
 }
@@ -554,7 +555,7 @@ Calendar
 :
 :
 Bcp47IdentifierEnumeration
-InternalError
+ICUError
 >
 Calendar
 :
@@ -610,9 +611,10 @@ enumeration
 return
 Err
 (
-InternalError
-{
-}
+ToICUError
+(
+status
+)
 )
 ;
 }

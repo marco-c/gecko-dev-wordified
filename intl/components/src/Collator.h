@@ -1051,7 +1051,7 @@ static
 Result
 <
 Bcp47ExtEnumeration
-InternalError
+ICUError
 >
 GetBcp47KeywordValuesForLocale
 (
