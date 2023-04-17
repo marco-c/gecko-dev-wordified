@@ -4148,14 +4148,6 @@ aOperation
 const
 ;
 void
-OnChannelConnected
-(
-int32_t
-pid
-)
-override
-;
-void
 ActorDestroy
 (
 ActorDestroyReason
