@@ -7733,6 +7733,8 @@ has
 is
 value
 .
+if
+(
 CustomElementData
 *
 ceData
@@ -7740,18 +7742,6 @@ ceData
 GetCustomElementData
 (
 )
-;
-if
-(
-StaticPrefs
-:
-:
-dom_webcomponents_formAssociatedCustomElement_enabled
-(
-)
-&
-&
-ceData
 )
 {
 CustomElementDefinition
