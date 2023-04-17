@@ -1060,7 +1060,7 @@ composite
 [
 Priority
 =
-mediumhigh
+control
 ]
 async
 DidComposite
