@@ -230,6 +230,13 @@ algorithm
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 ds
 /
 IdValuePair
