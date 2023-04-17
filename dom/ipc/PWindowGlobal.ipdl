@@ -1441,11 +1441,6 @@ Destroy
 (
 )
 ;
-async
-ReloadWithHttpsOnlyException
-(
-)
-;
 }
 ;
 }

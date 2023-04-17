@@ -21807,13 +21807,6 @@ TLS
 is
 allowed
 *
--
-document
-.
-reloadWithHttpsOnlyException
-(
-)
-*
 see
 <
 a

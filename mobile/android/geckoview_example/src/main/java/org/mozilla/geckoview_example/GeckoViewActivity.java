@@ -11459,16 +11459,6 @@ return
 ERROR_CORRUPTED_CONTENT
 "
 ;
-case
-WebRequestError
-.
-ERROR_HTTPS_ONLY
-:
-return
-"
-ERROR_HTTPS_ONLY
-"
-;
 default
 :
 return
