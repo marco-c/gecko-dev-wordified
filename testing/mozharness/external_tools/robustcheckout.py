@@ -190,6 +190,15 @@ b
 5
 .
 5
+5
+.
+6
+5
+.
+7
+5
+.
+8
 "
 minimumhgversion
 =
@@ -5498,7 +5507,23 @@ n
 "
 )
         
-purgeext
+purge
+=
+getattr
+(
+commands
+"
+purge
+"
+None
+)
+        
+if
+not
+purge
+:
+            
+purge
 =
 extensions
 .
@@ -5509,6 +5534,8 @@ b
 purge
 "
 )
+.
+purge
         
 #
 Mercurial
@@ -5668,8 +5695,6 @@ purge
 :
                 
 if
-purgeext
-.
 purge
 (
                     
