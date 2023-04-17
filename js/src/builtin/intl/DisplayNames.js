@@ -69,7 +69,7 @@ properties
 *
 /
 function
-displayNamesInternalProperties_localeFn
+displayNamesLocaleData
 (
 )
 {
@@ -97,7 +97,7 @@ displayNamesInternalProperties
 {
 localeData
 :
-displayNamesInternalProperties_localeFn
+displayNamesLocaleData
 relevantExtensionKeys
 :
 [
@@ -105,7 +105,7 @@ relevantExtensionKeys
 }
 ;
 function
-mozDisplayNamesInternalProperties_localeFn
+mozDisplayNamesLocaleData
 (
 )
 {
@@ -130,7 +130,7 @@ mozDisplayNamesInternalProperties
 {
 localeData
 :
-mozDisplayNamesInternalProperties_localeFn
+mozDisplayNamesLocaleData
 relevantExtensionKeys
 :
 [

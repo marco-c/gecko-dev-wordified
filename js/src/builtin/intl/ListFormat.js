@@ -67,7 +67,7 @@ properties
 *
 /
 function
-listFormatInternalProperties_localeData
+listFormatLocaleData
 (
 )
 {
@@ -93,7 +93,7 @@ listFormatInternalProperties
 {
 localeData
 :
-listFormatInternalProperties_localeData
+listFormatLocaleData
 relevantExtensionKeys
 :
 [
