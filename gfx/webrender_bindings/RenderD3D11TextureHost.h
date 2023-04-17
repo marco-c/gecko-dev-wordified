@@ -400,7 +400,7 @@ override
 gfx
 :
 :
-YUVRangedColorSpace
+YUVColorSpace
 GetYUVColorSpace
 (
 )
@@ -408,13 +408,7 @@ const
 override
 {
 return
-ToYUVRangedColorSpace
-(
 mYUVColorSpace
-GetColorRange
-(
-)
-)
 ;
 }
 bool
@@ -871,7 +865,7 @@ override
 gfx
 :
 :
-YUVRangedColorSpace
+YUVColorSpace
 GetYUVColorSpace
 (
 )
@@ -879,13 +873,7 @@ const
 override
 {
 return
-ToYUVRangedColorSpace
-(
 mYUVColorSpace
-GetColorRange
-(
-)
-)
 ;
 }
 bool

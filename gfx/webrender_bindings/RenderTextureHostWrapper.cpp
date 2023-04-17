@@ -593,7 +593,7 @@ COLOR_8
 gfx
 :
 :
-YUVRangedColorSpace
+YUVColorSpace
 RenderTextureHostWrapper
 :
 :
@@ -626,7 +626,7 @@ return
 gfx
 :
 :
-YUVRangedColorSpace
+YUVColorSpace
 :
 :
 Default
