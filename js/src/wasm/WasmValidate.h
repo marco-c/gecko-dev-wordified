@@ -230,6 +230,12 @@ js
 namespace
 wasm
 {
+using
+mozilla
+:
+:
+Some
+;
 /
 /
 ModuleEnvironment

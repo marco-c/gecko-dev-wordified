@@ -276,6 +276,11 @@ WasmModule
 cpp
 "
 "
+WasmModuleTypes
+.
+cpp
+"
+"
 WasmOpIter
 .
 cpp
@@ -307,11 +312,6 @@ cpp
 "
 "
 WasmTypeDef
-.
-cpp
-"
-"
-WasmTypes
 .
 cpp
 "

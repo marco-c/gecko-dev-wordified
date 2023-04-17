@@ -307,6 +307,12 @@ mozilla
 Nothing
 ;
 using
+mozilla
+:
+:
+Some
+;
+using
 namespace
 js
 ;
