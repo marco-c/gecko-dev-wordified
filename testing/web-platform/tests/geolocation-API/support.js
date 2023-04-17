@@ -31,7 +31,7 @@ permission
 before
 /
 /
-beggining
+beginning
 the
 position
 acquisition
