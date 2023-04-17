@@ -2088,11 +2088,6 @@ GLContext
 aGLContext
 )
 ;
-void
-CheckInactiveRenderers
-(
-)
-;
 private
 :
 enum
