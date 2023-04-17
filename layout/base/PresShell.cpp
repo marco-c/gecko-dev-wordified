@@ -34229,6 +34229,9 @@ nsDisplayList
 :
 :
 PAINT_DEFAULT
+Nothing
+(
+)
 )
 ;
 aArea
@@ -43532,6 +43535,7 @@ wrFilters
 )
 &
 data
+0
 )
 ;
 return
