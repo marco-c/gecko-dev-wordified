@@ -499,7 +499,13 @@ rlbox_noop_sandbox
 (
 *
 /
+/
+Func
+ptr
+/
 *
+param
+:
 expensive_sandbox_finder
 *
 /
@@ -543,7 +549,13 @@ rlbox_noop_sandbox
 (
 *
 /
+/
+Func
+ptr
+/
 *
+param
+:
 expensive_sandbox_finder
 *
 /
