@@ -338,14 +338,12 @@ level
 )
 ;
 await
-testActor
-.
 isNodeCorrectlyHighlighted
 (
+testActor
 "
 div
 "
-is
 )
 ;
 info

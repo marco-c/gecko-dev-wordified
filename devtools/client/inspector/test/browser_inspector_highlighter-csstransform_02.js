@@ -250,9 +250,7 @@ const
 data
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 "
 #

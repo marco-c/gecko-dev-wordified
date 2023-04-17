@@ -424,9 +424,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 selector
 )
@@ -740,9 +738,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 selector
 )
@@ -1185,9 +1181,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 selector
 )
@@ -1561,9 +1555,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 selector
 )
@@ -1905,9 +1897,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 "
 #
@@ -2390,9 +2380,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 selector
 )

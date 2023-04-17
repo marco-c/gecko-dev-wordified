@@ -1304,9 +1304,7 @@ const
 quads
 =
 await
-testActor
-.
-getAllAdjustedQuads
+getAllAdjustedQuadsForContentPageElement
 (
 selector
 )
