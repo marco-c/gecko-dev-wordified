@@ -48,7 +48,7 @@ FISSION_TEST_URL
 URL_ROOT_SSL
 +
 "
-fission_document
+fission_document_workers
 .
 html
 "
@@ -68,7 +68,7 @@ IFRAME_FILE
 {
 URL_ROOT_ORG_SSL
 }
-fission_iframe
+fission_iframe_workers
 .
 html
 ;
