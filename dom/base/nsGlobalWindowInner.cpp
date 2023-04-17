@@ -20326,13 +20326,6 @@ NodePrincipal
 this
 )
 ;
-applicationCache
--
->
-Init
-(
-)
-;
 mApplicationCache
 =
 applicationCache
