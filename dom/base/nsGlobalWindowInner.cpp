@@ -46238,7 +46238,7 @@ Value
 >
 aValue
 const
-PostMessageOptions
+StructuredSerializeOptions
 &
 aOptions
 JS
