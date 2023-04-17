@@ -17900,6 +17900,11 @@ aboutwelcome
 infobar
 \
 "
+\
+"
+spotlight
+\
+"
 ]
 \
 "
