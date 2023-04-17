@@ -1013,14 +1013,6 @@ layer
 }
 ;
 struct
-OpCreateColorLayer
-{
-LayerHandle
-layer
-;
-}
-;
-struct
 OpCreateRefLayer
 {
 LayerHandle
