@@ -3797,7 +3797,15 @@ s
 n
 "
 %
+pycompat
+.
+bytestr
+(
+str
+(
 e
+)
+)
 )
             
 handlenetworkfailure
@@ -3850,9 +3858,12 @@ pycompat
 .
 bytestr
 (
+str
+(
 e
 .
 reason
+)
 )
 )
                 
@@ -3892,6 +3903,11 @@ n
                     
 %
 (
+                        
+pycompat
+.
+bytestr
+(
 e
 .
 reason
@@ -3899,9 +3915,20 @@ reason
 __class__
 .
 __name__
+)
+                        
+pycompat
+.
+bytestr
+(
+str
+(
 e
 .
 reason
+)
+)
+                    
 )
                 
 )
@@ -3938,14 +3965,28 @@ s
 \
 n
 "
+                
 %
+(
+pycompat
+.
+bytestr
 (
 e
 .
 __class__
 .
 __name__
+)
+pycompat
+.
+bytestr
+(
+str
+(
 e
+)
+)
 )
             
 )
