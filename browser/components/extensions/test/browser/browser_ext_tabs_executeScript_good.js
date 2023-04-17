@@ -1044,15 +1044,11 @@ activeTab
 "
 )
 ;
-await
-EventUtils
+contextMenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 item
-{
-}
-window
 )
 ;
 await
