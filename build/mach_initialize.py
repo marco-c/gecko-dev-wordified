@@ -1526,7 +1526,7 @@ strip
 (
 )
 def
-bootstrap
+initialize
 (
 topsrcdir
 )

@@ -430,7 +430,7 @@ here
 rather
 than
 '
-mach_bootstrap
+mach_initialize
 .
 py
 '
