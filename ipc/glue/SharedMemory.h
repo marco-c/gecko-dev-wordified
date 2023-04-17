@@ -332,6 +332,14 @@ nullptr
 ;
 virtual
 void
+Unmap
+(
+)
+=
+0
+;
+virtual
+void
 CloseHandle
 (
 )
