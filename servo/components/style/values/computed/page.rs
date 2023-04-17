@@ -348,7 +348,7 @@ ctx
 Self
 :
 :
-PaperSizeAndOrientation
+PaperSize
 (
 p
 Orientation
@@ -394,7 +394,7 @@ ctx
 Self
 :
 :
-PaperSizeAndOrientation
+PaperSize
 (
 p
 Orientation
@@ -402,17 +402,8 @@ Orientation
 :
 Portrait
 )
-|
-Self
-:
-:
-PaperSize
-(
-p
-)
 =
 >
-{
 PageSize
 :
 :
@@ -446,7 +437,6 @@ ctx
 )
 }
 )
-}
 Self
 :
 :
