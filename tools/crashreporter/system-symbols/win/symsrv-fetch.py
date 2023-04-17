@@ -2044,6 +2044,11 @@ id
 {
 code_id
 }
+-
+-
+check
+-
+cfi
 "
             
 f
@@ -2095,6 +2100,11 @@ id
 {
 debug_id
 }
+-
+-
+check
+-
+cfi
 "
             
 f
@@ -2621,7 +2631,7 @@ limit
 100
 limit_per_host
 =
-1
+4
 )
     
 async
