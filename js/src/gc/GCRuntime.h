@@ -5363,7 +5363,7 @@ finishCollection
 )
 ;
 void
-maybeStopStringPretenuring
+maybeStopPretenuring
 (
 )
 ;

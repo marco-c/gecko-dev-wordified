@@ -3059,6 +3059,15 @@ JSScript
 script
 )
 ;
+bool
+resetAllocSites
+(
+bool
+resetNurserySites
+bool
+resetPretenuredSites
+)
+;
 private
 :
 /
