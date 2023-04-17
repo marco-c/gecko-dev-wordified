@@ -161,8 +161,6 @@ explicit
 HttpConnectionMgrParent
 (
 )
-=
-default
 ;
 private
 :
@@ -176,9 +174,6 @@ default
 ;
 bool
 mShutDown
-{
-false
-}
 ;
 }
 ;

@@ -266,15 +266,9 @@ mTimingAllowOriginHeader
 ;
 bool
 mAllRedirectsSameOrigin
-{
-false
-}
 ;
 bool
 mAllRedirectsPassTimingAllowCheck
-{
-false
-}
 ;
 }
 ;

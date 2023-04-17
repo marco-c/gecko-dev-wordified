@@ -97,9 +97,13 @@ NS_DECL_NSISTREAMLISTENER
 nsDownloader
 (
 )
-=
-default
-;
+:
+mLocationIsTemp
+(
+false
+)
+{
+}
 protected
 :
 virtual
@@ -151,9 +155,6 @@ mSink
 ;
 bool
 mLocationIsTemp
-{
-false
-}
 ;
 }
 ;

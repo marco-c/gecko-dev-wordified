@@ -97,9 +97,13 @@ NS_DECL_NSIHTTPAUTHENTICATOR
 nsHttpNTLMAuth
 (
 )
-=
-default
-;
+:
+mUseNative
+(
+false
+)
+{
+}
 static
 already_AddRefed
 <
@@ -141,9 +145,6 @@ one
 .
 bool
 mUseNative
-{
-false
-}
 ;
 static
 StaticRefPtr

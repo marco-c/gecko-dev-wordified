@@ -210,15 +210,9 @@ mTable
 ;
 uint32_t
 mRCIDNamespace
-{
-0
-}
 ;
 uint32_t
 mNextRCID
-{
-1
-}
 ;
 }
 ;

@@ -2487,7 +2487,6 @@ curpath
 =
 0
 )
-{
 return
 NS_OK
 ;
@@ -2499,7 +2498,6 @@ exists
 in
 the
 list
-}
 tempPtr
 =
 tempPtr
@@ -2573,7 +2571,6 @@ if
 !
 mRoot
 )
-{
 mRoot
 =
 newAuthPath
@@ -2582,9 +2579,7 @@ newAuthPath
 /
 first
 entry
-}
 else
-{
 mTail
 -
 >
@@ -2596,7 +2591,6 @@ newAuthPath
 /
 Append
 newAuthPath
-}
 /
 /
 update

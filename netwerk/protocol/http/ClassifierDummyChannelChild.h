@@ -203,15 +203,11 @@ only
 ClassifierDummyChannelChild
 (
 )
-=
-default
 ;
 ~
 ClassifierDummyChannelChild
 (
 )
-=
-default
 ;
 private
 :
@@ -282,9 +278,6 @@ mCallback
 ;
 bool
 mIsThirdParty
-{
-false
-}
 ;
 }
 ;

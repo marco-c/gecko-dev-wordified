@@ -830,9 +830,6 @@ mTransaction
 ;
 uint32_t
 mPushedStreamId
-{
-0
-}
 ;
 RefPtr
 <

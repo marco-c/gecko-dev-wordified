@@ -646,6 +646,10 @@ mHostResolver
 (
 aResolver
 )
+mType
+(
+TRRTYPE_A
+)
 mPB
 (
 aPB

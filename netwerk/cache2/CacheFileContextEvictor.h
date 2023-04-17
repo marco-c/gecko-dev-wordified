@@ -543,9 +543,6 @@ in
 progress
 bool
 mEvicting
-{
-false
-}
 ;
 /
 /
@@ -604,9 +601,6 @@ finishes
 .
 bool
 mIndexIsUpToDate
-{
-false
-}
 ;
 /
 /

@@ -2127,6 +2127,10 @@ mMon
 IOThreadSuspender
 "
 )
+mSignaled
+(
+false
+)
 {
 }
 void
@@ -2155,9 +2159,6 @@ mMon
 ;
 bool
 mSignaled
-{
-false
-}
 ;
 }
 ;

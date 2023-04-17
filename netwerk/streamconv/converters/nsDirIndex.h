@@ -143,8 +143,6 @@ public
 nsDirIndex
 (
 )
-=
-default
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDIRINDEX
@@ -152,9 +150,6 @@ protected
 :
 uint32_t
 mType
-{
-TYPE_UNKNOWN
-}
 ;
 nsCString
 mContentType
@@ -167,16 +162,9 @@ mDescription
 ;
 int64_t
 mSize
-{
-INT64_MAX
-}
 ;
 PRTime
 mLastModified
-{
--
-1LL
-}
 ;
 }
 ;

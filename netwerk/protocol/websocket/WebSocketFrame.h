@@ -279,9 +279,6 @@ aIter
 ;
 DOMHighResTimeStamp
 mTimeStamp
-{
-0
-}
 ;
 bool
 mFinBit
@@ -310,15 +307,9 @@ mMaskBit
 ;
 uint8_t
 mOpCode
-{
-0
-}
 ;
 uint32_t
 mMask
-{
-0
-}
 ;
 nsCString
 mPayload

@@ -822,13 +822,6 @@ mozilla
 :
 Mutex
 mLock
-{
-"
-BackgroundFileSaver
-.
-mLock
-"
-}
 ;
 /
 *
@@ -853,9 +846,6 @@ state
 /
 bool
 mWorkerThreadAttentionRequested
-{
-false
-}
 ;
 /
 *
@@ -876,9 +866,6 @@ possibile
 /
 bool
 mFinishRequested
-{
-false
-}
 ;
 /
 *
@@ -899,9 +886,6 @@ failure
 /
 bool
 mComplete
-{
-false
-}
 ;
 /
 *
@@ -961,9 +945,6 @@ canceled
 /
 nsresult
 mStatus
-{
-NS_OK
-}
 ;
 /
 *
@@ -990,9 +971,6 @@ it
 /
 bool
 mAppend
-{
-false
-}
 ;
 /
 *
@@ -1105,9 +1083,6 @@ canceled
 /
 bool
 mInitialTargetKeepPartial
-{
-false
-}
 ;
 /
 *
@@ -1248,9 +1223,6 @@ canceled
 /
 bool
 mRenamedTargetKeepPartial
-{
-false
-}
 ;
 /
 *
@@ -1358,9 +1330,6 @@ called
 /
 bool
 mSha256Enabled
-{
-false
-}
 ;
 /
 *
@@ -1414,9 +1383,6 @@ called
 /
 bool
 mSignatureInfoEnabled
-{
-false
-}
 ;
 /
 /
@@ -1559,9 +1525,6 @@ canceled
 /
 bool
 mActualTargetKeepPartial
-{
-false
-}
 ;
 /
 *
@@ -2270,8 +2233,6 @@ NS_DECL_NSISTREAMLISTENER
 BackgroundFileSaverStreamListener
 (
 )
-=
-default
 ;
 protected
 :
@@ -2321,13 +2282,6 @@ mozilla
 :
 Mutex
 mSuspensionLock
-{
-"
-BackgroundFileSaverStreamListener
-.
-mSuspensionLock
-"
-}
 ;
 /
 *
@@ -2350,9 +2304,6 @@ data
 /
 bool
 mReceivedTooMuchData
-{
-false
-}
 ;
 /
 *
@@ -2402,9 +2353,6 @@ suspended
 /
 bool
 mRequestSuspended
-{
-false
-}
 ;
 /
 *

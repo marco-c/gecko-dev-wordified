@@ -640,6 +640,11 @@ SSLTokensCache
 SSLTokensCache
 (
 )
+:
+mCacheSize
+(
+0
+)
 {
 LOG
 (

@@ -178,6 +178,10 @@ aConnInfo
 aCallbacks
 aCaps
 )
+mTriedToWrite
+(
+false
+)
 mCloseCallback
 (
 std
