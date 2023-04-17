@@ -351,7 +351,7 @@ nsIFormControl
 aControl
 )
 ;
-nsIFormControl
+nsGenericHTMLFormElement
 *
 GetDefaultSubmitElement
 (

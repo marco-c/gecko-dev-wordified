@@ -11041,7 +11041,7 @@ return
 rv
 ;
 }
-nsIFormControl
+nsGenericHTMLFormElement
 *
 HTMLFormElement
 :
