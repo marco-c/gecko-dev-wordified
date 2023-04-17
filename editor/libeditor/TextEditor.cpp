@@ -2191,15 +2191,6 @@ IsEmpty
 )
 const
 {
-if
-(
-mPaddingBRElementForEmptyEditor
-)
-{
-return
-true
-;
-}
 /
 /
 Even
