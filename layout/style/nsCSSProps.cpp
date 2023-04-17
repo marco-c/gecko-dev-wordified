@@ -1148,8 +1148,6 @@ aFontDescID
 )
 ;
 }
-else
-{
 static
 nsDependentCString
 sNullStr
@@ -1161,7 +1159,6 @@ sNullStr
 return
 sNullStr
 ;
-}
 }
 const
 nsCString
@@ -1205,8 +1202,6 @@ aCounterDesc
 )
 ;
 }
-else
-{
 static
 nsDependentCString
 sNullStr
@@ -1218,7 +1213,6 @@ sNullStr
 return
 sNullStr
 ;
-}
 }
 const
 CSSPropFlags
