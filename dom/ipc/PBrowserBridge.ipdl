@@ -131,6 +131,9 @@ include
 DOMTypes
 ;
 include
+PPrintingTypes
+;
+include
 "
 mozilla
 /
@@ -323,8 +326,10 @@ TabMessageTypes
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 nsDocShellLoadState
 from
@@ -677,6 +682,11 @@ ScrollbarPreference
 pref
 )
 ;
+[
+Compress
+=
+all
+]
 async
 UpdateDimensions
 (
@@ -685,7 +695,6 @@ rect
 ScreenIntSize
 size
 )
-compressall
 ;
 async
 RenderLayers
@@ -701,6 +710,13 @@ UpdateEffects
 (
 EffectsInfo
 aEffects
+)
+;
+async
+UpdateRemotePrintSettings
+(
+PrintData
+aPrintData
 )
 ;
 /
