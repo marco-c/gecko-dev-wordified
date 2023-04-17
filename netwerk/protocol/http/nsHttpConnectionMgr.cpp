@@ -22301,7 +22301,6 @@ if
 prohibitWildCard
 &
 &
-!
 aNoHttp3
 )
 {
