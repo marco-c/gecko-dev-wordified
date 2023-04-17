@@ -18432,6 +18432,15 @@ frame
 return
 nullptr
 ;
+nsFrameSelection
+:
+:
+AdjustFrameForLineStart
+(
+frame
+frameOffset
+)
+;
 /
 /
 Figure
