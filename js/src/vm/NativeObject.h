@@ -6965,7 +6965,7 @@ JSContext
 cx
 HandleNativeObject
 obj
-jsid
+HandleId
 id
 )
 ;
