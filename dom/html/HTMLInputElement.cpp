@@ -36176,7 +36176,7 @@ return
 res
 ;
 }
-NS_IMETHODIMP
+void
 HTMLInputElement
 :
 :
@@ -36218,7 +36218,6 @@ state
 )
 {
 return
-NS_OK
 ;
 }
 state
@@ -36265,7 +36264,6 @@ state
 )
 {
 return
-NS_OK
 ;
 }
 state
@@ -36369,7 +36367,6 @@ state
 )
 {
 return
-NS_OK
 ;
 }
 nsAutoString
@@ -36391,11 +36388,10 @@ IsSingleLineTextControl
 (
 false
 )
-)
-{
-nsresult
-rv
-=
+&
+&
+NS_FAILED
+(
 nsLinebreakConverter
 :
 :
@@ -36411,12 +36407,6 @@ nsLinebreakConverter
 :
 eLinebreakContent
 )
-;
-if
-(
-NS_FAILED
-(
-rv
 )
 )
 {
@@ -36431,9 +36421,7 @@ failed
 )
 ;
 return
-rv
 ;
-}
 }
 state
 -
@@ -36520,9 +36508,6 @@ true
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 HTMLInputElement

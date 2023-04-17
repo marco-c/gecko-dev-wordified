@@ -2294,7 +2294,7 @@ aNotify
 )
 ;
 }
-NS_IMETHODIMP
+void
 HTMLButtonElement
 :
 :
@@ -2309,7 +2309,6 @@ mDisabledChanged
 )
 {
 return
-NS_OK
 ;
 }
 PresState
@@ -2370,9 +2369,6 @@ disabledSet
 true
 ;
 }
-return
-NS_OK
-;
 }
 bool
 HTMLButtonElement
