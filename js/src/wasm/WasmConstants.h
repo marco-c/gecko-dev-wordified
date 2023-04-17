@@ -267,17 +267,6 @@ Event
 13
 #
 endif
-GcFeatureOptIn
-=
-42
-/
-/
-Arbitrary
-but
-fits
-in
-7
-bits
 }
 ;
 /
