@@ -412,6 +412,9 @@ DebugFrame
 "
 )
 ;
+#
+ifndef
+JS_CODEGEN_NONE
 static_assert
 (
 (
@@ -439,6 +442,8 @@ DebugFrame
 "
 )
 ;
+#
+endif
 #
 ifdef
 JS_CODEGEN_ARM64
