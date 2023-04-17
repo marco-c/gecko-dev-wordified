@@ -122,7 +122,7 @@ include
 "
 gc
 /
-GC
+Heap
 .
 h
 "
@@ -131,7 +131,7 @@ include
 "
 gc
 /
-Heap
+Zone
 .
 h
 "
@@ -159,8 +159,6 @@ include
 vm
 /
 Realm
--
-inl
 .
 h
 "

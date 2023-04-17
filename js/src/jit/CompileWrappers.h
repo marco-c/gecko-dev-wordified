@@ -197,9 +197,6 @@ AllocKind
 uint8_t
 ;
 class
-AllocSite
-;
-class
 FreeSpan
 ;
 }

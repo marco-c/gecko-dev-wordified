@@ -132,7 +132,7 @@ include
 "
 vm
 /
-JSFunction
+JSScript
 .
 h
 "

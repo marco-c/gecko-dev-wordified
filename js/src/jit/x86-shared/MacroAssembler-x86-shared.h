@@ -115,15 +115,6 @@ jit_x86_shared_MacroAssembler_x86_shared_h
 define
 jit_x86_shared_MacroAssembler_x86_shared_h
 #
-include
-"
-mozilla
-/
-Casting
-.
-h
-"
-#
 if
 defined
 (

@@ -119,15 +119,6 @@ include
 "
 jit
 /
-MoveResolver
-.
-h
-"
-#
-include
-"
-jit
-/
 x86
 -
 shared

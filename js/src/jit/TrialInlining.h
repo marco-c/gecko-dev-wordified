@@ -132,15 +132,6 @@ ICStubSpace
 .
 h
 "
-#
-include
-"
-vm
-/
-BytecodeLocation
-.
-h
-"
 /
 *
 *
@@ -339,6 +330,9 @@ recursively
 namespace
 js
 {
+class
+BytecodeLocation
+;
 namespace
 jit
 {
