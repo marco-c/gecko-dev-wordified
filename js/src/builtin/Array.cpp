@@ -25918,12 +25918,8 @@ arrayCtor
 >
 hasGetter
 (
+*
 speciesProp
--
->
-shapeDeprecated
-(
-)
 )
 )
 {

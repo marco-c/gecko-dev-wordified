@@ -1066,12 +1066,8 @@ promiseCtor
 >
 hasGetter
 (
+*
 speciesProp
--
->
-shapeDeprecated
-(
-)
 )
 )
 {
