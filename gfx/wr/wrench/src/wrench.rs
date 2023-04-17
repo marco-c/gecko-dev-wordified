@@ -3531,6 +3531,10 @@ txn
 generate_frame
 (
 0
+RenderReasons
+:
+:
+TESTING
 )
 ;
 self
@@ -3666,6 +3670,10 @@ txn
 generate_frame
 (
 0
+RenderReasons
+:
+:
+TESTING
 )
 ;
 self

@@ -1977,6 +1977,13 @@ renderer
 >
 FlushRendering
 (
+wr
+:
+:
+RenderReasons
+:
+:
+WIDGET
 )
 ;
 }

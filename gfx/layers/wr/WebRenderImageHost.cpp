@@ -617,6 +617,13 @@ CompositorScheduler
 >
 ScheduleComposition
 (
+wr
+:
+:
+RenderReasons
+:
+:
+ASYNC_IMAGE
 )
 ;
 }

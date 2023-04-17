@@ -807,6 +807,13 @@ id
 bool
 SendFlushRendering
 (
+const
+wr
+:
+:
+RenderReasons
+&
+aReasons
 )
 ;
 bool

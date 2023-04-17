@@ -2682,6 +2682,13 @@ CompositorBridgeChild
 :
 SendFlushRendering
 (
+const
+wr
+:
+:
+RenderReasons
+&
+aReasons
 )
 {
 if
@@ -2700,6 +2707,7 @@ PCompositorBridgeChild
 :
 SendFlushRendering
 (
+aReasons
 )
 ;
 }

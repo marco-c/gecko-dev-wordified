@@ -1746,6 +1746,11 @@ const
 VsyncId
 &
 aVsyncId
+wr
+:
+:
+RenderReasons
+aReasons
 )
 {
 wr_transaction_generate_frame
@@ -1754,6 +1759,7 @@ mTxn
 aVsyncId
 .
 mId
+aReasons
 )
 ;
 }
@@ -1763,11 +1769,17 @@ TransactionBuilder
 :
 InvalidateRenderedFrame
 (
+wr
+:
+:
+RenderReasons
+aReasons
 )
 {
 wr_transaction_invalidate_rendered_frame
 (
 mTxn
+aReasons
 )
 ;
 }

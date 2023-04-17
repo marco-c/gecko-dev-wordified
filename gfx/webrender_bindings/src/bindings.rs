@@ -3210,6 +3210,9 @@ wr_schedule_render
 window_id
 :
 WrWindowId
+reasons
+:
+RenderReasons
 )
 ;
 /
@@ -5685,6 +5688,10 @@ wr_schedule_render
 self
 .
 window_id
+RenderReasons
+:
+:
+POST_RESOURCE_UPDATES_HOOK
 )
 }
 unsafe
@@ -10549,6 +10556,9 @@ Transaction
 id
 :
 u64
+reasons
+:
+RenderReasons
 )
 {
 txn
@@ -10556,6 +10566,7 @@ txn
 generate_frame
 (
 id
+reasons
 )
 ;
 }
@@ -10576,12 +10587,16 @@ txn
 &
 mut
 Transaction
+reasons
+:
+RenderReasons
 )
 {
 txn
 .
 invalidate_rendered_frame
 (
+reasons
 )
 ;
 }
