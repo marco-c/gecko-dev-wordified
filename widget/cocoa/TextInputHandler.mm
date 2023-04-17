@@ -19987,7 +19987,7 @@ strcmp
 (
 aSelector
 "
-cancelOperatiorn
+cancelOperation
 :
 "
 )
