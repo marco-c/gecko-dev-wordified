@@ -678,6 +678,7 @@ aDefaultValue
 bool
 ValidateEvent
 (
+const
 AudioTimelineEvent
 &
 aEvent
@@ -685,6 +686,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 MOZ_ASSERT
 (
