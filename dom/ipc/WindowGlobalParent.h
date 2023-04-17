@@ -1869,6 +1869,17 @@ nsIURI
 aDomain
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvReloadWithHttpsOnlyException
+(
+)
+;
 private
 :
 WindowGlobalParent

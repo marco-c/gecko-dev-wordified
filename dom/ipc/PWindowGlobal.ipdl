@@ -1441,6 +1441,11 @@ Destroy
 (
 )
 ;
+async
+ReloadWithHttpsOnlyException
+(
+)
+;
 }
 ;
 }
