@@ -318,7 +318,11 @@ icon
 ;
 checkDeviceSelectors
 (
-true
+[
+"
+microphone
+"
+]
 )
 ;
 let
@@ -847,8 +851,11 @@ icon
 ;
 checkDeviceSelectors
 (
-false
-true
+[
+"
+camera
+"
+]
 )
 ;
 let

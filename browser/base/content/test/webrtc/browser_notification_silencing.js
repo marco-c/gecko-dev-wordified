@@ -400,9 +400,11 @@ observerPromise
 ;
 checkDeviceSelectors
 (
-false
-false
-true
+[
+"
+screen
+"
+]
 window
 )
 ;
