@@ -130,12 +130,7 @@ NativeInit
 (
 )
 final
-{
-RecordTelemetry
-(
-)
 ;
-}
 nsresult
 NativeGetColor
 (
