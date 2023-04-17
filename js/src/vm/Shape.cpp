@@ -3928,13 +3928,6 @@ our
 arguments
 .
 RootedShape
-shape
-(
-cx
-)
-;
-{
-RootedShape
 last
 (
 cx
@@ -3979,6 +3972,8 @@ attrs
 )
 )
 ;
+Shape
+*
 shape
 =
 getChildProperty
@@ -3999,7 +3994,6 @@ shape
 return
 false
 ;
-}
 }
 MOZ_ASSERT
 (
