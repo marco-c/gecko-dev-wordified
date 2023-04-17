@@ -635,6 +635,16 @@ aPopupElement
 )
 override
 ;
+bool
+IsVisible
+(
+)
+const
+{
+return
+mVisible
+;
+}
 /
 /
 Unregisters
