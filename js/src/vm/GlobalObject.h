@@ -117,6 +117,15 @@ vm_GlobalObject_h
 #
 include
 "
+js
+/
+GlobalObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions

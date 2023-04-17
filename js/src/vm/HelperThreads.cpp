@@ -288,6 +288,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 HelperThreadAPI
 .
 h

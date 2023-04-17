@@ -43,6 +43,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 ValueArray
 .
 h

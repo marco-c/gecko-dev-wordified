@@ -59,6 +59,15 @@ MPL
 #
 include
 "
+js
+/
+GlobalObject
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

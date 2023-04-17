@@ -155,6 +155,15 @@ include
 "
 js
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h

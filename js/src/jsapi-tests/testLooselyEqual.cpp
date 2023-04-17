@@ -86,6 +86,15 @@ LooselyEqual
 #
 include
 "
+js
+/
+GlobalObject
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
