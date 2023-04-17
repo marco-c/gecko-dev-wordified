@@ -239,7 +239,7 @@ InitializationInfo
 final
 {
 Initialization
-mInitializationAttempts
+mFirstInitializationAttempts
 =
 Initialization
 :
@@ -381,7 +381,7 @@ static_cast
 bool
 >
 (
-mInitializationAttempts
+mFirstInitializationAttempts
 &
 aInitialization
 )
@@ -399,7 +399,7 @@ const
 return
 !
 (
-mInitializationAttempts
+mFirstInitializationAttempts
 &
 aInitialization
 )
@@ -449,7 +449,7 @@ ResetFirstInitializationAttempts
 (
 )
 {
-mInitializationAttempts
+mFirstInitializationAttempts
 =
 Initialization
 :
