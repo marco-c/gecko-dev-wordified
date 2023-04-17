@@ -699,7 +699,7 @@ spaceAndClip
 space
 .
 id
-Stringify
+ToString
 (
 aSpatialId
 .
@@ -850,7 +850,7 @@ spaceAndClip
 space
 .
 id
-Stringify
+ToString
 (
 it
 -
@@ -971,7 +971,7 @@ n
 aSpatialId
 .
 id
-Stringify
+ToString
 (
 it
 -
