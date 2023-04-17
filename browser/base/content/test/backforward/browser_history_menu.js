@@ -823,9 +823,11 @@ com
 "
 )
 ;
-EventUtils
+popupEvent
 .
-synthesizeMouseAtCenter
+target
+.
+activateItem
 (
 popupEvent
 .
