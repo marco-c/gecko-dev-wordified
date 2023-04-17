@@ -110,6 +110,15 @@ include
 "
 mozilla
 /
+AntiTrackingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ContentBlocking
 .
 h
@@ -938,10 +947,10 @@ image
 .
 if
 (
-nsContentUtils
+AntiTrackingUtils
 :
 :
-IsThirdPartyWindowOrChannel
+IsThirdPartyWindow
 (
 aDocument
 -
@@ -949,7 +958,6 @@ aDocument
 GetInnerWindow
 (
 )
-nullptr
 nullptr
 )
 )

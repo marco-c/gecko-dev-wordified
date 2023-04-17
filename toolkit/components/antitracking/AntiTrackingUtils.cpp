@@ -3747,11 +3747,6 @@ MOZ_ASSERT
 aWindow
 )
 ;
-MOZ_ASSERT
-(
-aURI
-)
-;
 /
 /
 We

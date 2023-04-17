@@ -48084,13 +48084,12 @@ window
 if
 (
 !
-nsContentUtils
+AntiTrackingUtils
 :
 :
-IsThirdPartyWindowOrChannel
+IsThirdPartyWindow
 (
 inner
-nullptr
 aURI
 )
 )
