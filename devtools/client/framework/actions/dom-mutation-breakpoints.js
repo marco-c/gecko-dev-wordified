@@ -117,6 +117,15 @@ store
 walker
 )
 {
+if
+(
+!
+walker
+)
+{
+return
+;
+}
 walker
 .
 on
