@@ -7541,7 +7541,7 @@ n
 )
 )
 ;
-wl_surface_damage
+wl_surface_damage_buffer
 (
 waylandSurface
 0

@@ -256,6 +256,11 @@ wl_callback
 *
 frame_callback_handler
 ;
+struct
+wp_viewport
+*
+viewport
+;
 gboolean
 opaque_region_needs_updates
 ;
@@ -396,7 +401,7 @@ moz_container_wayland_get_egl_window
 MozContainer
 *
 container
-int
+double
 scale
 )
 ;
