@@ -294,7 +294,7 @@ heading
 -
 logged
 -
-out
+out2
 "
 ;
 document
