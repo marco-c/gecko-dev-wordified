@@ -80,10 +80,7 @@ mozpack
 .
 manifests
 import
-(
-    
 InstallManifest
-)
 from
 mozunit
 import
@@ -95,12 +92,8 @@ backend
 .
 recursivemake
 import
-(
-    
 RecursiveMakeBackend
-    
 RecursiveMakeTraversal
-)
 from
 mozbuild
 .
@@ -2551,11 +2544,8 @@ self
 .
 assertEqual
 (
-            
 lines
-            
 [
-                
 "
 DIRS
 :
@@ -2563,9 +2553,7 @@ DIRS
 dir1
 dir2
 "
-            
 ]
-        
 )
         
 #
@@ -2663,11 +2651,8 @@ self
 .
 assertEqual
 (
-            
 lines
-            
 [
-                
 "
 DIRS
 :
@@ -2676,9 +2661,7 @@ dir1
 dir2
 dir3
 "
-            
 ]
-        
 )
     
 def
@@ -2927,19 +2910,14 @@ self
 .
 assertEqual
 (
-            
 lines
-            
 [
-                
 "
 TEST
 =
 foo
 "
-            
 ]
-        
 )
     
 def
@@ -3153,7 +3131,6 @@ RCFILE
 "
 :
 [
-                
 "
 RCFILE
 :
@@ -3166,7 +3143,6 @@ foo
 .
 rc
 "
-            
 ]
             
 "
@@ -3174,7 +3150,6 @@ RCINCLUDE
 "
 :
 [
-                
 "
 RCINCLUDE
 :
@@ -3187,7 +3162,6 @@ bar
 .
 rc
 "
-            
 ]
             
 "
@@ -3195,7 +3169,6 @@ WIN32_EXE_LDFLAGS
 "
 :
 [
-                
 "
 WIN32_EXE_LDFLAGS
 +
@@ -3205,7 +3178,6 @@ subsystem
 :
 console
 "
-            
 ]
         
 }
@@ -3350,7 +3322,6 @@ ASFILES
 "
 :
 [
-                
 "
 ASFILES
 +
@@ -3363,7 +3334,6 @@ bar
 .
 s
 "
-                
 "
 ASFILES
 +
@@ -3376,7 +3346,6 @@ foo
 .
 asm
 "
-            
 ]
             
 "
@@ -3384,7 +3353,6 @@ CMMSRCS
 "
 :
 [
-                
 "
 CMMSRCS
 +
@@ -3397,7 +3365,6 @@ bar
 .
 mm
 "
-                
 "
 CMMSRCS
 +
@@ -3410,7 +3377,6 @@ foo
 .
 mm
 "
-            
 ]
             
 "
@@ -3418,7 +3384,6 @@ CSRCS
 "
 :
 [
-                
 "
 CSRCS
 +
@@ -3431,7 +3396,6 @@ bar
 .
 c
 "
-                
 "
 CSRCS
 +
@@ -3444,7 +3408,6 @@ foo
 .
 c
 "
-            
 ]
             
 "
@@ -3520,7 +3483,6 @@ SSRCS
 "
 :
 [
-                
 "
 SSRCS
 +
@@ -3533,7 +3495,6 @@ baz
 .
 S
 "
-                
 "
 SSRCS
 +
@@ -3546,7 +3507,6 @@ foo
 .
 S
 "
-            
 ]
             
 "
@@ -3554,7 +3514,6 @@ WASM_CSRCS
 "
 :
 [
-                
 "
 WASM_CSRCS
 +
@@ -3567,35 +3526,6 @@ bar
 .
 c
 "
-                
-(
-                    
-"
-WASM_CSRCS
-+
-=
-(
-srcdir
-)
-/
-third_party
-/
-rust
-/
-rlbox_lucet_sandbox
-/
-"
-                    
-"
-c_src
-/
-lucet_sandbox_wrapper
-.
-c
-"
-                
-)
-            
 ]
             
 "
@@ -3603,7 +3533,6 @@ WASM_CPPSRCS
 "
 :
 [
-                
 "
 WASM_CPPSRCS
 +
@@ -3616,7 +3545,6 @@ bar
 .
 cpp
 "
-            
 ]
         
 }
@@ -10729,7 +10657,6 @@ readlines
 )
             
 [
-                
 "
 #
 ifdef
@@ -10737,20 +10664,17 @@ foo
 \
 n
 "
-                
 "
 bar
 baz
 \
 n
 "
-                
 "
 bar
 \
 n
 "
-            
 ]
         
 )
@@ -11739,7 +11663,6 @@ list
 "
 :
 [
-                
 "
 baz
 /
@@ -11747,7 +11670,6 @@ baz1
 .
 o
 "
-            
 ]
         
 }

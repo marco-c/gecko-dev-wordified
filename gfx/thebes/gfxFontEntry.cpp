@@ -3833,7 +3833,7 @@ mozilla
 ipc
 :
 :
-GetSandboxedGraphitePath
+GetSandboxedRLBoxPath
 (
 )
 .

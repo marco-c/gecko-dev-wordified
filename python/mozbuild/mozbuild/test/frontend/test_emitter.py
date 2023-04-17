@@ -76,12 +76,8 @@ frontend
 .
 context
 import
-(
-    
 ObjDirPath
-    
 Path
-)
 from
 mozbuild
 .
@@ -1340,11 +1336,9 @@ compile
 -
 flags
 "
-            
 extra_substs
 =
 {
-                
 "
 WARNINGS_AS_ERRORS
 "
@@ -1353,7 +1347,6 @@ WARNINGS_AS_ERRORS
 -
 Werror
 "
-            
 }
         
 )
@@ -1513,15 +1506,12 @@ self
 .
 reader
 (
-            
 "
 asflags
 "
-            
 extra_substs
 =
 {
-                
 "
 ASFLAGS
 "
@@ -1532,9 +1522,7 @@ ASFLAGS
 safeseh
 "
 ]
-            
 }
-        
 )
         
 as_sources
@@ -1630,7 +1618,6 @@ flags
 extra_substs
 =
 {
-                
 "
 MOZ_DEBUG_FLAGS
 "
@@ -1639,7 +1626,6 @@ MOZ_DEBUG_FLAGS
 -
 g
 "
-                
 "
 MOZ_DEBUG_SYMBOLS
 "
@@ -1647,7 +1633,6 @@ MOZ_DEBUG_SYMBOLS
 "
 1
 "
-            
 }
         
 )
@@ -1715,7 +1700,6 @@ flags
 extra_substs
 =
 {
-                
 "
 MOZ_DEBUG_FLAGS
 "
@@ -1724,14 +1708,12 @@ MOZ_DEBUG_FLAGS
 -
 g
 "
-                
 "
 MOZ_DEBUG_SYMBOLS
 "
 :
 "
 "
-            
 }
         
 )
@@ -2568,14 +2550,12 @@ flags
 extra_substs
 =
 {
-                
 "
 MOZ_OPTIMIZE
 "
 :
 "
 "
-                
 "
 MOZ_OPTIMIZE_FLAGS
 "
@@ -2586,7 +2566,6 @@ MOZ_OPTIMIZE_FLAGS
 O2
 "
 ]
-            
 }
         
 )
@@ -2653,7 +2632,6 @@ flags
 extra_substs
 =
 {
-                
 "
 MOZ_OPTIMIZE
 "
@@ -2661,7 +2639,6 @@ MOZ_OPTIMIZE
 "
 1
 "
-                
 "
 MOZ_OPTIMIZE_FLAGS
 "
@@ -2672,7 +2649,6 @@ MOZ_OPTIMIZE_FLAGS
 O2
 "
 ]
-            
 }
         
 )
@@ -2848,11 +2824,9 @@ compile
 -
 flags
 "
-            
 extra_substs
 =
 {
-                
 "
 OS_ARCH
 "
@@ -2860,7 +2834,6 @@ OS_ARCH
 "
 WINNT
 "
-                
 "
 MOZ_DEBUG
 "
@@ -2868,7 +2841,6 @@ MOZ_DEBUG
 "
 1
 "
-            
 }
         
 )
@@ -3678,11 +3650,9 @@ compiler
 -
 warnings
 "
-            
 extra_substs
 =
 {
-                
 "
 WARNINGS_AS_ERRORS
 "
@@ -3691,7 +3661,6 @@ WARNINGS_AS_ERRORS
 -
 Werror
 "
-            
 }
         
 )
@@ -3745,11 +3714,9 @@ compiler
 -
 warnings
 "
-            
 extra_substs
 =
 {
-                
 "
 WARNINGS_CFLAGS
 "
@@ -3758,7 +3725,6 @@ WARNINGS_CFLAGS
 -
 Wall
 "
-            
 }
         
 )
@@ -3869,25 +3835,21 @@ use
 -
 nasm
 "
-            
 extra_substs
 =
 dict
 (
-                
 NASM
 =
 "
 nasm
 "
-                
 NASM_ASFLAGS
 =
 "
 -
 foo
 "
-            
 )
         
 )
@@ -4090,19 +4052,16 @@ force
 expected
 =
 [
-            
 "
 bar
 .
 c
 "
-            
 "
 foo
 .
 c
 "
-            
 (
 "
 xpidllex
@@ -4115,7 +4074,6 @@ xpidlyacc
 py
 "
 )
-        
 ]
         
 for
@@ -4326,13 +4284,11 @@ localized
 expected
 =
 [
-            
 "
 abc
 .
 ini
 "
-            
 (
 "
 bar
@@ -4341,7 +4297,6 @@ bar
 baz
 "
 )
-        
 ]
         
 for
@@ -7656,7 +7611,6 @@ installs
 "
 :
 {
-                    
 "
 a11y
 .
@@ -7664,7 +7618,6 @@ ini
 "
 :
 False
-                    
 "
 test_a11y
 .
@@ -7672,7 +7625,6 @@ js
 "
 :
 True
-                
 }
                 
 "
@@ -7762,7 +7714,6 @@ installs
 "
 :
 {
-                    
 "
 mochitest
 .
@@ -7770,7 +7721,6 @@ ini
 "
 :
 False
-                    
 "
 test_mochitest
 .
@@ -7778,7 +7728,6 @@ js
 "
 :
 True
-                
 }
                 
 "
@@ -7786,15 +7735,12 @@ external
 "
 :
 {
-                    
 "
 external1
 "
-                    
 "
 external2
 "
-                
 }
             
 }
@@ -7820,7 +7766,6 @@ installs
 "
 :
 {
-                    
 "
 chrome
 .
@@ -7828,7 +7773,6 @@ ini
 "
 :
 False
-                    
 "
 test_chrome
 .
@@ -7836,7 +7780,6 @@ js
 "
 :
 True
-                
 }
             
 }
@@ -7908,7 +7851,6 @@ list
 "
 :
 {
-                
 "
 flavor
 "
@@ -7916,14 +7858,12 @@ flavor
 "
 reftest
 "
-                
 "
 installs
 "
 :
 {
 }
-            
 }
             
 "
@@ -7933,7 +7873,6 @@ list
 "
 :
 {
-                
 "
 flavor
 "
@@ -7941,14 +7880,12 @@ flavor
 "
 crashtest
 "
-                
 "
 installs
 "
 :
 {
 }
-            
 }
             
 "
@@ -7958,7 +7895,6 @@ ini
 "
 :
 {
-                
 "
 flavor
 "
@@ -7966,13 +7902,11 @@ flavor
 "
 python
 "
-                
 "
 installs
 "
 :
 {
-                    
 "
 python
 .
@@ -7980,9 +7914,7 @@ ini
 "
 :
 False
-                
 }
-            
 }
         
 }
@@ -8677,7 +8609,6 @@ set
 (
             
 [
-                
 "
 bar
 /
@@ -8685,7 +8616,6 @@ bar
 .
 ipdl
 "
-                
 "
 bar
 /
@@ -8693,7 +8623,6 @@ bar2
 .
 ipdlh
 "
-                
 "
 foo
 /
@@ -8701,7 +8630,6 @@ foo
 .
 ipdl
 "
-                
 "
 foo
 /
@@ -8709,7 +8637,6 @@ foo2
 .
 ipdlh
 "
-            
 ]
         
 )
@@ -8752,9 +8679,7 @@ expected
 =
 set
 (
-            
 [
-                
 "
 bar
 /
@@ -8762,7 +8687,6 @@ bar1
 .
 ipdl
 "
-                
 "
 foo
 /
@@ -8770,9 +8694,7 @@ foo1
 .
 ipdl
 "
-            
 ]
-        
 )
         
 self
@@ -8959,18 +8881,15 @@ LocalInclude
 expected
 =
 [
-            
 "
 /
 bar
 /
 baz
 "
-            
 "
 foo
 "
-        
 ]
         
 self
@@ -9304,7 +9223,6 @@ LocalInclude
 expected
 =
 [
-            
 "
 !
 /
@@ -9312,12 +9230,10 @@ bar
 /
 baz
 "
-            
 "
 !
 foo
 "
-        
 ]
         
 self
@@ -11584,7 +11500,6 @@ suffix_map
 expected
 =
 {
-            
 "
 .
 cpp
@@ -11607,7 +11522,6 @@ c
 cxx
 "
 ]
-            
 "
 .
 c
@@ -11620,7 +11534,6 @@ d
 c
 "
 ]
-        
 }
         
 for
@@ -11649,7 +11562,6 @@ assertEqual
 sources
 .
 files
-                
 [
 mozpath
 .
@@ -11667,55 +11579,6 @@ f
 in
 files
 ]
-                
-+
-(
-                    
-[
-                        
-mozpath
-.
-join
-(
-                            
-reader
-.
-config
-.
-topsrcdir
-                            
-"
-third_party
-/
-rust
-/
-rlbox_lucet_sandbox
-/
-c_src
-/
-lucet_sandbox_wrapper
-.
-c
-"
-                        
-)
-                    
-]
-                    
-if
-suffix
-=
-=
-"
-.
-c
-"
-                    
-else
-[
-]
-                
-)
             
 )
             

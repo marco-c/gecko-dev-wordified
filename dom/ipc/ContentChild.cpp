@@ -10853,7 +10853,7 @@ mozilla
 ipc
 :
 :
-PreloadSandboxedDynamicLibraries
+PreloadSandboxedDynamicLibrary
 (
 )
 ;

@@ -771,7 +771,7 @@ mozilla
 ipc
 :
 :
-GetSandboxedOggPath
+GetSandboxedRLBoxPath
 (
 )
 .
