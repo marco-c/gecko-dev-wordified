@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 NETWORK_EVENT_STACKTRACE
@@ -160,7 +160,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

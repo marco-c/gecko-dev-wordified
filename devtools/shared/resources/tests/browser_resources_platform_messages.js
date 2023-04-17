@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 PLATFORM_MESSAGE
@@ -136,7 +136,7 @@ targetCommand
 }
 =
 await
-initMultiProcessResourceWatcher
+initMultiProcessResourceCommand
 (
 )
 ;
@@ -210,7 +210,7 @@ messages
 before
 *
 calling
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 in
@@ -462,7 +462,7 @@ after
 the
 call
 to
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 and
@@ -565,7 +565,7 @@ targetCommand
 }
 =
 await
-initMultiProcessResourceWatcher
+initMultiProcessResourceCommand
 (
 )
 ;

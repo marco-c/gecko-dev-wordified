@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 SERVER
@@ -198,7 +198,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

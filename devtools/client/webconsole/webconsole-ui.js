@@ -1886,7 +1886,7 @@ which
 is
 used
 by
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 .

@@ -38,7 +38,7 @@ Test
 the
 behavior
 of
-ResourceWatcher
+ResourceCommand
 when
 the
 top
@@ -102,7 +102,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

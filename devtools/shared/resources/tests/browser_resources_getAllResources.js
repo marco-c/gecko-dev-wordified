@@ -39,7 +39,7 @@ getAllResources
 function
 of
 the
-ResourceWatcher
+ResourceCommand
 .
 const
 TEST_URI
@@ -84,7 +84,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

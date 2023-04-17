@@ -375,7 +375,7 @@ if
 resourceWatcher
 ?
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 (
 resourceWatcher
 .

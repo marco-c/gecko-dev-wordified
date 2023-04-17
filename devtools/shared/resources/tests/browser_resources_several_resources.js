@@ -162,7 +162,7 @@ targetCommand
 }
 =
 await
-initMultiProcessResourceWatcher
+initMultiProcessResourceCommand
 (
 )
 ;
@@ -198,7 +198,7 @@ here
 to
 test
 the
-ResourceWatcher
+ResourceCommand
 :
 :
 unwatchResources

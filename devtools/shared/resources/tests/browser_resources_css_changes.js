@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 CSS_CHANGE
@@ -94,7 +94,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -227,7 +227,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 catches
 CSS
 change
@@ -334,7 +334,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 catches
 CSS
 change
@@ -423,7 +423,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 catches
 CSS
 change
@@ -494,7 +494,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 catches
 CSS
 change
@@ -568,7 +568,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 sends
 all
 resources

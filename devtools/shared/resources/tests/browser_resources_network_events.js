@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 NETWORK_EVENT
@@ -407,7 +407,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -422,7 +422,7 @@ requests
 before
 *
 calling
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 in
@@ -476,7 +476,7 @@ the
 cache
 .
 const
-waitOnRequestForResourceWatcherCache
+waitOnRequestForResourceCommandCache
 =
 new
 Promise
@@ -629,7 +629,7 @@ cachedRequest
 )
 ;
 await
-waitOnRequestForResourceWatcherCache
+waitOnRequestForResourceCommandCache
 ;
 const
 actualResourcesOnAvailable
@@ -850,7 +850,7 @@ requests
 after
 *
 calling
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 in
@@ -1296,7 +1296,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

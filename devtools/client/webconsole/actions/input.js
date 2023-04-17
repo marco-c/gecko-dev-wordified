@@ -958,13 +958,13 @@ helperResult
 rawOutput
 ;
 const
-hasNetworkResourceWatcherSupport
+hasNetworkResourceCommandSupport
 =
 hud
 .
 resourceWatcher
 .
-hasResourceWatcherSupport
+hasResourceCommandSupport
 (
 hud
 .
@@ -996,7 +996,7 @@ watcher
 support
 if
 (
-hasNetworkResourceWatcherSupport
+hasNetworkResourceCommandSupport
 )
 {
 networkFront
@@ -1461,7 +1461,7 @@ watcher
 support
 if
 (
-hasNetworkResourceWatcherSupport
+hasNetworkResourceCommandSupport
 &
 &
 networkFront
@@ -1577,7 +1577,7 @@ url
 above
 if
 (
-hasNetworkResourceWatcherSupport
+hasNetworkResourceCommandSupport
 &
 &
 networkFront

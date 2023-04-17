@@ -625,7 +625,7 @@ is
 used
 by
 the
-ResourceWatcher
+ResourceCommand
 on
 the
 client

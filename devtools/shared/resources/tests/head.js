@@ -185,7 +185,7 @@ server
 ;
 async
 function
-_initResourceWatcherFromCommands
+_initResourceCommandFromCommands
 (
 commands
 {
@@ -266,7 +266,7 @@ targetCommand
 *
 Instantiate
 a
-ResourceWatcher
+ResourceCommand
 for
 the
 given
@@ -313,7 +313,7 @@ object
 *
 return
 {
-ResourceWatcher
+ResourceCommand
 }
 object
 .
@@ -322,7 +322,7 @@ resourceWatcher
 The
 underlying
 resource
-watcher
+command
 interface
 .
 *
@@ -380,7 +380,7 @@ instance
 /
 async
 function
-initResourceWatcher
+initResourceCommand
 (
 tab
 options
@@ -398,7 +398,7 @@ tab
 )
 ;
 return
-_initResourceWatcherFromCommands
+_initResourceCommandFromCommands
 (
 commands
 options
@@ -414,7 +414,7 @@ a
 multi
 -
 process
-ResourceWatcher
+ResourceCommand
 watching
 all
 type
@@ -431,7 +431,7 @@ object
 *
 return
 {
-ResourceWatcher
+ResourceCommand
 }
 object
 .
@@ -440,7 +440,7 @@ resourceWatcher
 The
 underlying
 resource
-watcher
+command
 interface
 .
 *
@@ -498,7 +498,7 @@ instance
 /
 async
 function
-initMultiProcessResourceWatcher
+initMultiProcessResourceCommand
 (
 )
 {
@@ -513,7 +513,7 @@ forMainProcess
 )
 ;
 return
-_initResourceWatcherFromCommands
+_initResourceCommandFromCommands
 (
 commands
 )

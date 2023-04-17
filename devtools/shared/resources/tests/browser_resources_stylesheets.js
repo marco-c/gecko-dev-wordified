@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 STYLESHEET
@@ -564,7 +564,7 @@ available
 feature
 of
 the
-ResourceWatcher
+ResourceCommand
 "
 )
 ;
@@ -585,7 +585,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -595,7 +595,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 gets
 existing
 stylesheet
@@ -742,7 +742,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 gets
 additonal
 stylesheet
@@ -840,7 +840,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 gets
 additonal
 stylesheet
@@ -940,7 +940,7 @@ update
 feature
 of
 the
-ResourceWatcher
+ResourceCommand
 "
 )
 ;
@@ -961,7 +961,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -1628,7 +1628,7 @@ update
 feature
 of
 the
-ResourceWatcher
+ResourceCommand
 "
 )
 ;
@@ -1683,7 +1683,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

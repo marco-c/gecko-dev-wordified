@@ -1745,7 +1745,7 @@ same
 stylesheet
 resources
 from
-ResourceWatcher
+ResourceCommand
 but
 _addStyleSheet
 will

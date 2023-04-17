@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 CONSOLE_MESSAGE
@@ -135,7 +135,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 {
@@ -519,7 +519,7 @@ after
 the
 call
 to
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 and

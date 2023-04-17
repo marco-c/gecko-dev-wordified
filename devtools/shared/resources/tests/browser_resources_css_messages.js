@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 CSS_MESSAGE
@@ -274,7 +274,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -328,7 +328,7 @@ after
 the
 call
 to
-ResourceWatcher
+ResourceCommand
 .
 watchResources
 and
@@ -766,7 +766,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

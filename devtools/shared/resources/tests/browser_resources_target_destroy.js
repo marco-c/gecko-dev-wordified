@@ -38,7 +38,7 @@ Test
 that
 the
 server
-ResourceWatcher
+ResourceCommand
 are
 destroyed
 when
@@ -82,7 +82,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )

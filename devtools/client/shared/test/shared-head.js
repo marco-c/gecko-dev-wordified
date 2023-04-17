@@ -8204,12 +8204,12 @@ resourceType
 *
 param
 {
-ResourceWatcher
+ResourceCommand
 }
 resourceWatcher
 *
 The
-ResourceWatcher
+ResourceCommand
 instance
 that
 should
@@ -8227,7 +8227,7 @@ resourceType
 *
 One
 of
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 type

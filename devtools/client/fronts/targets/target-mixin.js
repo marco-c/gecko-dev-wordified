@@ -437,7 +437,7 @@ target
 actors
 before
 the
-ResourceWatcher
+ResourceCommand
 could
 add
 event
@@ -454,7 +454,7 @@ those
 events
 until
 the
-ResourceWatcher
+ResourceCommand
 has
 /
 /

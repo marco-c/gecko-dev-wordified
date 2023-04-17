@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-ResourceWatcher
+ResourceCommand
 API
 around
 THREAD_STATE
@@ -243,7 +243,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 gets
 existing
 breakpoint
@@ -272,7 +272,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -648,7 +648,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 gets
 breakpoint
 hit
@@ -675,7 +675,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -993,7 +993,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 gets
 breakpoint
 set
@@ -1028,7 +1028,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -1411,7 +1411,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 gets
 breakpoint
 for
@@ -1467,7 +1467,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -1833,7 +1833,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
@@ -2325,7 +2325,7 @@ info
 "
 Check
 whether
-ResourceWatcher
+ResourceCommand
 gets
 breakpoint
 for
@@ -2353,7 +2353,7 @@ targetCommand
 }
 =
 await
-initResourceWatcher
+initResourceCommand
 (
 tab
 )
