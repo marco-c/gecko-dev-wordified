@@ -964,16 +964,6 @@ override
 /
 nsIHttpChannelInternal
 NS_IMETHOD
-SetupFallbackChannel
-(
-const
-char
-*
-aFallbackKey
-)
-override
-;
-NS_IMETHOD
 GetIsAuthChannel
 (
 bool
