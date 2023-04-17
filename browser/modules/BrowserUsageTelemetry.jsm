@@ -2322,6 +2322,9 @@ updateTrackingStatus
 (
 browser
 uriSpec
+webProgress
+.
+loadType
 )
 ;
 }
