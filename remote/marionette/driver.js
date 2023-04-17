@@ -13681,7 +13681,6 @@ prototype
 .
 deleteSession
 =
-async
 function
 (
 )
@@ -13799,14 +13798,8 @@ unregisterCommandsActor
 (
 )
 ;
-await
 unregisterEventsActor
 (
-this
-.
-getBrowsingContext
-(
-)
 )
 ;
 if
@@ -17032,7 +17025,6 @@ acceptConnections
 =
 false
 ;
-await
 this
 .
 deleteSession

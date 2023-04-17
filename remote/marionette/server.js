@@ -835,7 +835,6 @@ alive
 false
 ;
 }
-async
 onSocketAccepted
 (
 serverSocket
@@ -981,7 +980,6 @@ connections
 are
 allowed
 .
-await
 transport
 .
 close
@@ -1294,12 +1292,10 @@ closed
 .
 *
 /
-async
 onClosed
 (
 )
 {
-await
 this
 .
 driver
