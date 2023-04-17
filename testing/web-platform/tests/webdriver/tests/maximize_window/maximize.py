@@ -467,6 +467,17 @@ size
     
 session
 .
+window
+.
+size
+=
+(
+800
+600
+)
+    
+session
+.
 end
 (
 )
@@ -559,12 +570,16 @@ maximize
 (
 )
     
-assert
+after
+=
 session
 .
 window
 .
 size
+    
+assert
+after
 =
 =
 before
