@@ -2224,6 +2224,16 @@ mTxn
 aTxn
 )
 {
+MOZ_ASSERT
+(
+mApi
+)
+;
+MOZ_ASSERT
+(
+aTxn
+)
+;
 }
 ~
 AutoTransactionSender
