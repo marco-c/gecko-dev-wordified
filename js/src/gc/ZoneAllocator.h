@@ -452,8 +452,11 @@ gc
 GCRuntime
 &
 gc
-JSGCInvocationKind
-invocationKind
+JS
+:
+:
+GCOptions
+options
 const
 js
 :

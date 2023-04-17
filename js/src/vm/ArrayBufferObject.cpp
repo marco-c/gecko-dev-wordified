@@ -5408,7 +5408,13 @@ JS
 NonIncrementalGC
 (
 cx
-GC_NORMAL
+JS
+:
+:
+GCOptions
+:
+:
+Normal
 JS
 :
 :
