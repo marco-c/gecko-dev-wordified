@@ -8259,6 +8259,8 @@ isCustomDataProperty
 )
 ;
 }
+private
+:
 bool
 isCustomDataProperty
 (
@@ -8271,6 +8273,8 @@ attrs
 JSPROP_CUSTOM_DATA_PROP
 ;
 }
+public
+:
 bool
 isEmptyShape
 (
