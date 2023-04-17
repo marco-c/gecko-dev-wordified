@@ -2177,9 +2177,6 @@ forceMainDocumentChannel
 TimeStamp
 navigationStartTimeStamp
 ;
-bool
-hasNonEmptySandboxingFlag
-;
 }
 ;
 struct

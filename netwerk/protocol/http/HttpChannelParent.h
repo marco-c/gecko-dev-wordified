@@ -1005,10 +1005,6 @@ const
 TimeStamp
 &
 aNavigationStartTimeStamp
-const
-bool
-&
-hasNonEmptySandboxingFlag
 )
 ;
 virtual
