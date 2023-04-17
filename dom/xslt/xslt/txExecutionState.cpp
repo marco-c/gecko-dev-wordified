@@ -1739,7 +1739,7 @@ XXX
 implement
 me
 }
-nsresult
+void
 txExecutionState
 :
 :
@@ -1760,9 +1760,6 @@ mEvalContext
 mEvalContext
 =
 aContext
-;
-return
-NS_OK
 ;
 }
 txIEvalContext
