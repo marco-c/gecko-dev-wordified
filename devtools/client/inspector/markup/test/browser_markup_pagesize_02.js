@@ -219,7 +219,6 @@ await
 assertAllNodesAreVisible
 (
 inspector
-testActor
 )
 ;
 }
@@ -309,7 +308,6 @@ function
 assertAllNodesAreVisible
 (
 inspector
-testActor
 )
 {
 const
@@ -353,9 +351,7 @@ const
 numItems
 =
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 ul

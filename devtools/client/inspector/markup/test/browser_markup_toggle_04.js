@@ -64,7 +64,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -208,9 +207,7 @@ const
 numLi
 =
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 li

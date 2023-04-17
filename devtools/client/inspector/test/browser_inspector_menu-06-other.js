@@ -144,9 +144,7 @@ inspector
 is
 (
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 .
@@ -255,9 +253,7 @@ updated
 is
 (
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 .

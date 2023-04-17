@@ -128,8 +128,6 @@ async
 function
 (
 {
-pageNodeFront
-selectedNodeFront
 testActor
 }
 )
@@ -172,9 +170,7 @@ const
 num
 =
 await
-testActor
-.
-getNumberOfElementMatches
+getNumberOfMatchingElementsInContentPage
 (
 "
 #
