@@ -4391,12 +4391,6 @@ we
 use
 it
 in
-AssertLinkThread
-(
-)
-and
-/
-/
 AssertWorkerThread
 (
 )
@@ -6489,10 +6483,6 @@ Message
 aMsg
 )
 {
-AssertLinkThread
-(
-)
-;
 mMonitor
 -
 >
@@ -7132,10 +7122,6 @@ Message
 aMsg
 )
 {
-AssertLinkThread
-(
-)
-;
 mMonitor
 -
 >
@@ -7150,8 +7136,10 @@ MaybeInterceptSpecialIOMessage
 aMsg
 )
 )
+{
 return
 ;
+}
 mListener
 -
 >
@@ -7823,9 +7811,8 @@ IPC_LOG
 (
 "
 Receive
-on
+from
 link
-thread
 ;
 seqno
 =
@@ -14666,7 +14653,6 @@ t
 because
 the
 link
-thread
 /
 /
 could
@@ -15560,10 +15546,6 @@ OnChannelErrorFromLink
 (
 )
 {
-AssertLinkThread
-(
-)
-;
 mMonitor
 -
 >
