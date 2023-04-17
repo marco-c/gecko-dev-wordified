@@ -806,7 +806,7 @@ WINDOW_PROXY
 GLOBAL_THIS_RESOLVED
 INSTRUMENTATION
 SOURCE_URLS
-REALM_WEAK_MAP_KEY
+REALM_KEY_OBJECT
 /
 *
 Total
@@ -5470,12 +5470,12 @@ UndefinedValue
 /
 /
 Returns
-a
-key
-for
-a
-weak
-map
+an
+object
+that
+represents
+the
+realm
 used
 by
 embedder
@@ -5483,7 +5483,7 @@ embedder
 static
 JSObject
 *
-getOrCreateRealmWeakMapKey
+getOrCreateRealmKeyObject
 (
 JSContext
 *

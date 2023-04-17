@@ -4914,7 +4914,7 @@ JSObject
 JS
 :
 :
-GetRealmWeakMapKey
+GetRealmKeyObject
 (
 JSContext
 *
@@ -4925,7 +4925,7 @@ return
 GlobalObject
 :
 :
-getOrCreateRealmWeakMapKey
+getOrCreateRealmKeyObject
 (
 cx
 cx

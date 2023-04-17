@@ -2783,7 +2783,7 @@ cx
 JS
 :
 :
-GetRealmWeakMapKey
+GetRealmKeyObject
 (
 cx
 )
