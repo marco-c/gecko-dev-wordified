@@ -124,9 +124,6 @@ mod
 timing_distribution
 ;
 mod
-url
-;
-mod
 uuid
 ;
 pub
@@ -263,11 +260,4 @@ timing_distribution
 :
 :
 TimingDistributionMetric
-;
-pub
-use
-url
-:
-:
-UrlMetric
 ;

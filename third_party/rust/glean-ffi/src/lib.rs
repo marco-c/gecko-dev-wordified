@@ -61,9 +61,6 @@ MPL
 [
 deny
 (
-rustdoc
-:
-:
 broken_intra_doc_links
 )
 ]
@@ -268,9 +265,6 @@ timing_distribution
 pub
 mod
 upload
-;
-mod
-url
 ;
 mod
 uuid
