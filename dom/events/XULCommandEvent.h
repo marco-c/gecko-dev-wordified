@@ -269,6 +269,15 @@ InputSource
 (
 )
 ;
+int16_t
+Button
+(
+)
+{
+return
+mButton
+;
+}
 already_AddRefed
 <
 Event
@@ -317,6 +326,8 @@ bool
 aShiftKey
 bool
 aMetaKey
+int16_t
+aButton
 Event
 *
 aSourceEvent
@@ -344,6 +355,11 @@ mSourceEvent
 ;
 uint16_t
 mInputSource
+;
+int16_t
+mButton
+=
+0
 ;
 }
 ;
