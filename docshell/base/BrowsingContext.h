@@ -3219,6 +3219,7 @@ WindowContext
 GetTopWindowContext
 (
 )
+const
 ;
 already_AddRefed
 <
@@ -6093,11 +6094,7 @@ IsInBFCache
 (
 )
 const
-{
-return
-mIsInBFCache
 ;
-}
 bool
 AllowJavascript
 (

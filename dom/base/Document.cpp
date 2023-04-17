@@ -41861,6 +41861,14 @@ true
 }
 if
 (
+mozilla
+:
+:
+SessionHistoryInParent
+(
+)
+&
+&
 XRE_IsContentProcess
 (
 )

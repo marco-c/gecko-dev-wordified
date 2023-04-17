@@ -1458,6 +1458,14 @@ IsTop
 ;
 if
 (
+mozilla
+:
+:
+SessionHistoryInParent
+(
+)
+&
+&
 shell
 -
 >
