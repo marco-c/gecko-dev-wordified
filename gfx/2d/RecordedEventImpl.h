@@ -17034,12 +17034,7 @@ src
 aTranslator
 -
 >
-GetReferenceDrawTarget
-(
-)
--
->
-CreateGradientStops
+GetOrCreateGradientStops
 (
 mStops
 mNumStops
