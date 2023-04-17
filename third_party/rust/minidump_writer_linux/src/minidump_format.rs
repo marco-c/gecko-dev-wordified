@@ -1348,6 +1348,13 @@ specific
 otherwise
 *
 /
+_padding
+:
+[
+u32
+;
+4
+]
 }
 #
 [
@@ -1385,6 +1392,13 @@ cpuid
 :
 [
 u64
+;
+2
+]
+_padding
+:
+[
+u32
 ;
 2
 ]

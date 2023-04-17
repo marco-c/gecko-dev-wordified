@@ -29,6 +29,8 @@ imp
 {
 MD_CONTEXT_ARM_FULL
 MD_CONTEXT_ARM_GPR_COUNT
+MD_FLOATINGSAVEAREA_ARM_FPEXTRA_COUNT
+MD_FLOATINGSAVEAREA_ARM_FPR_COUNT
 }
 ;
 use
@@ -39,12 +41,6 @@ minidump_cpu
 :
 :
 RawContextCPU
-;
-use
-crate
-:
-:
-Result
 ;
 use
 libc
@@ -645,7 +641,10 @@ self
 fpregs
 .
 fpsr
+as
+u64
 |
+(
 (
 self
 .
@@ -658,6 +657,7 @@ u64
 <
 <
 32
+)
 ;
 out
 .
