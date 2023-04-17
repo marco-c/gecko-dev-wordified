@@ -165,7 +165,7 @@ ctx
 .
 fontKerning
 "
-Auto
+auto
 "
 "
 ctx
@@ -175,7 +175,7 @@ fontKerning
 "
 \
 "
-Auto
+auto
 \
 "
 "
@@ -186,7 +186,7 @@ ctx
 fontKerning
 =
 "
-Normal
+normal
 "
 ;
 _assertSame
@@ -195,7 +195,7 @@ ctx
 .
 fontKerning
 "
-Normal
+normal
 "
 "
 ctx
@@ -205,7 +205,7 @@ fontKerning
 "
 \
 "
-Normal
+normal
 \
 "
 "
@@ -229,7 +229,7 @@ ctx
 fontKerning
 =
 "
-None
+none
 "
 ;
 _assertSame
@@ -238,7 +238,7 @@ ctx
 .
 fontKerning
 "
-None
+none
 "
 "
 ctx
@@ -248,7 +248,7 @@ fontKerning
 "
 \
 "
-None
+none
 \
 "
 "

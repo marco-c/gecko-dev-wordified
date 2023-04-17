@@ -169,7 +169,7 @@ ctx
 .
 fontKerning
 "
-Auto
+auto
 "
 "
 ctx
@@ -179,7 +179,7 @@ fontKerning
 "
 \
 "
-Auto
+auto
 \
 "
 "
@@ -199,7 +199,7 @@ ctx
 .
 fontKerning
 "
-Normal
+normal
 "
 "
 ctx
@@ -209,7 +209,7 @@ fontKerning
 "
 \
 "
-Normal
+normal
 \
 "
 "
@@ -220,7 +220,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -237,7 +237,7 @@ ctx
 .
 fontKerning
 "
-Normal
+normal
 "
 "
 ctx
@@ -247,7 +247,7 @@ fontKerning
 "
 \
 "
-Normal
+normal
 \
 "
 "
@@ -258,7 +258,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -275,7 +275,7 @@ ctx
 .
 fontKerning
 "
-Normal
+normal
 "
 "
 ctx
@@ -285,7 +285,7 @@ fontKerning
 "
 \
 "
-Normal
+normal
 \
 "
 "
@@ -296,7 +296,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -313,7 +313,7 @@ ctx
 .
 fontKerning
 "
-Normal
+normal
 "
 "
 ctx
@@ -323,7 +323,7 @@ fontKerning
 "
 \
 "
-Normal
+normal
 \
 "
 "
@@ -334,7 +334,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -351,7 +351,7 @@ ctx
 .
 fontKerning
 "
-Normal
+normal
 "
 "
 ctx
@@ -361,7 +361,7 @@ fontKerning
 "
 \
 "
-Normal
+normal
 \
 "
 "
@@ -381,7 +381,7 @@ ctx
 .
 fontKerning
 "
-None
+none
 "
 "
 ctx
@@ -391,7 +391,7 @@ fontKerning
 "
 \
 "
-None
+none
 \
 "
 "
@@ -402,7 +402,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -419,7 +419,7 @@ ctx
 .
 fontKerning
 "
-None
+none
 "
 "
 ctx
@@ -429,7 +429,7 @@ fontKerning
 "
 \
 "
-None
+none
 \
 "
 "
@@ -440,7 +440,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -457,7 +457,7 @@ ctx
 .
 fontKerning
 "
-None
+none
 "
 "
 ctx
@@ -467,7 +467,7 @@ fontKerning
 "
 \
 "
-None
+none
 \
 "
 "
@@ -478,7 +478,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -495,7 +495,7 @@ ctx
 .
 fontKerning
 "
-None
+none
 "
 "
 ctx
@@ -505,7 +505,7 @@ fontKerning
 "
 \
 "
-None
+none
 \
 "
 "
@@ -516,7 +516,7 @@ ctx
 fontKerning
 =
 "
-Auto
+auto
 "
 ;
 ctx
@@ -533,7 +533,7 @@ ctx
 .
 fontKerning
 "
-None
+none
 "
 "
 ctx
@@ -543,7 +543,7 @@ fontKerning
 "
 \
 "
-None
+none
 \
 "
 "

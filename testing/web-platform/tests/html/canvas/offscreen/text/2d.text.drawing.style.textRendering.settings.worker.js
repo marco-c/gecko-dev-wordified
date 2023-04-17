@@ -174,7 +174,7 @@ ctx
 .
 textRendering
 "
-Auto
+auto
 "
 "
 ctx
@@ -184,7 +184,7 @@ textRendering
 "
 \
 "
-Auto
+auto
 \
 "
 "
@@ -204,7 +204,7 @@ ctx
 .
 textRendering
 "
-Auto
+auto
 "
 "
 ctx
@@ -214,7 +214,7 @@ textRendering
 "
 \
 "
-Auto
+auto
 \
 "
 "
@@ -234,7 +234,7 @@ ctx
 .
 textRendering
 "
-OptimizeSpeed
+optimizeSpeed
 "
 "
 ctx
@@ -244,7 +244,7 @@ textRendering
 "
 \
 "
-OptimizeSpeed
+optimizeSpeed
 \
 "
 "
@@ -264,7 +264,7 @@ ctx
 .
 textRendering
 "
-OptimizeLegibility
+optimizeLegibility
 "
 "
 ctx
@@ -274,7 +274,7 @@ textRendering
 "
 \
 "
-OptimizeLegibility
+optimizeLegibility
 \
 "
 "
@@ -294,7 +294,7 @@ ctx
 .
 textRendering
 "
-GeometricPrecision
+geometricPrecision
 "
 "
 ctx
@@ -304,7 +304,7 @@ textRendering
 "
 \
 "
-GeometricPrecision
+geometricPrecision
 \
 "
 "
@@ -336,7 +336,7 @@ ctx
 .
 textRendering
 "
-Auto
+auto
 "
 "
 ctx
@@ -346,7 +346,7 @@ textRendering
 "
 \
 "
-Auto
+auto
 \
 "
 "
@@ -366,7 +366,7 @@ ctx
 .
 textRendering
 "
-OptimizeSpeed
+optimizeSpeed
 "
 "
 ctx
@@ -376,7 +376,7 @@ textRendering
 "
 \
 "
-OptimizeSpeed
+optimizeSpeed
 \
 "
 "
@@ -396,7 +396,7 @@ ctx
 .
 textRendering
 "
-OptimizeLegibility
+optimizeLegibility
 "
 "
 ctx
@@ -406,7 +406,7 @@ textRendering
 "
 \
 "
-OptimizeLegibility
+optimizeLegibility
 \
 "
 "
@@ -426,7 +426,7 @@ ctx
 .
 textRendering
 "
-GeometricPrecision
+geometricPrecision
 "
 "
 ctx
@@ -436,7 +436,7 @@ textRendering
 "
 \
 "
-GeometricPrecision
+geometricPrecision
 \
 "
 "
@@ -467,7 +467,7 @@ ctx
 .
 textRendering
 "
-GeometricPrecision
+geometricPrecision
 "
 "
 ctx
@@ -477,7 +477,7 @@ textRendering
 "
 \
 "
-GeometricPrecision
+geometricPrecision
 \
 "
 "
