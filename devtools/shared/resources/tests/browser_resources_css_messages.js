@@ -290,7 +290,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -313,7 +313,7 @@ onAllMessagesReceived
 =
 setupOnAvailableFunction
 (
-targetList
+targetCommand
 receivedMessages
 false
 )
@@ -488,7 +488,7 @@ reset
 (
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -782,7 +782,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -804,7 +804,7 @@ onAvailable
 =
 setupOnAvailableFunction
 (
-targetList
+targetCommand
 receivedMessages
 true
 )
@@ -850,7 +850,7 @@ reset
 (
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -867,7 +867,7 @@ close
 function
 setupOnAvailableFunction
 (
-targetList
+targetCommand
 receivedMessages
 isAlreadyExistingResource
 )
@@ -1089,7 +1089,7 @@ is
 resource
 .
 targetFront
-targetList
+targetCommand
 .
 targetFront
 "

@@ -118,7 +118,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -527,7 +527,7 @@ message
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

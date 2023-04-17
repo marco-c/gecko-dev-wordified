@@ -178,7 +178,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -807,7 +807,7 @@ anymore
 /
 /
 Cleanup
-targetList
+targetCommand
 .
 destroy
 (

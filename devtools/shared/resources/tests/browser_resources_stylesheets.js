@@ -581,7 +581,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -856,7 +856,7 @@ const
 styleSheetsFront
 =
 await
-targetList
+targetCommand
 .
 targetFront
 .
@@ -911,7 +911,7 @@ length
 ADDITIONAL_FROM_ACTOR_RESOURCE
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -957,7 +957,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -1598,7 +1598,7 @@ mediaRules
 expectedMediaRules
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -1679,7 +1679,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -2174,7 +2174,7 @@ originalWindowWidth
 originalWindowHeight
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

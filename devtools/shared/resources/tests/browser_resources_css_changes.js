@@ -110,7 +110,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -175,7 +175,7 @@ walker
 }
 =
 await
-targetList
+targetCommand
 .
 targetFront
 .
@@ -723,7 +723,7 @@ correct
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

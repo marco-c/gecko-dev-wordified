@@ -257,7 +257,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -401,7 +401,7 @@ is
 resource
 .
 targetFront
-targetList
+targetCommand
 .
 targetFront
 "
@@ -659,7 +659,7 @@ reset
 (
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -703,7 +703,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -922,7 +922,7 @@ reset
 (
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

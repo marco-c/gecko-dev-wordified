@@ -151,7 +151,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -238,12 +238,12 @@ resolve
 }
 }
 ;
-targetList
+targetCommand
 .
 watchTargets
 (
 [
-targetList
+targetCommand
 .
 TYPES
 .
@@ -1391,7 +1391,7 @@ iframe
 }
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

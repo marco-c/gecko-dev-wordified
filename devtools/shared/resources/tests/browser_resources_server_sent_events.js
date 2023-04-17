@@ -194,7 +194,7 @@ const
 {
 client
 resourceWatcher
-targetList
+targetCommand
 }
 =
 await
@@ -418,7 +418,7 @@ onResourceAvailable
 )
 ;
 await
-targetList
+targetCommand
 .
 destroy
 (

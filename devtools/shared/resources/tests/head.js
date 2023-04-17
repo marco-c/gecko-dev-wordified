@@ -219,7 +219,7 @@ watcher
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -230,7 +230,7 @@ if
 listenForWorkers
 )
 {
-targetList
+targetCommand
 .
 listenForWorkers
 =
@@ -238,7 +238,7 @@ true
 ;
 }
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -256,7 +256,7 @@ resourceWatcher
 new
 ResourceWatcher
 (
-targetList
+targetCommand
 )
 ;
 return
@@ -268,7 +268,7 @@ commands
 client
 commands
 resourceWatcher
-targetList
+targetCommand
 }
 ;
 }
@@ -376,11 +376,11 @@ instance
 *
 return
 {
-DevToolsClient
+TargetCommand
 }
 object
 .
-targetList
+targetCommand
 *
 The
 underlying
@@ -498,7 +498,7 @@ DevToolsClient
 }
 object
 .
-targetList
+targetCommand
 *
 The
 underlying
