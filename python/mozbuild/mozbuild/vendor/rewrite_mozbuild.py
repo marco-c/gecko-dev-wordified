@@ -2366,7 +2366,26 @@ node
 )
 :
     
+caller
+=
+inspect
+.
+stack
+(
+)
+[
+1
+]
+    
 if
+"
+sphinx
+"
+in
+caller
+.
+filename
+or
 (
         
 not
@@ -2400,27 +2419,16 @@ version_info
 return
 ast
 .
-get_source_segment
+original_get_source_segment
 (
 code
 node
 )
     
-caller
-=
-inspect
-.
-stack
-(
-)
-[
-1
-]
-.
-function
-    
 if
 caller
+.
+function
 =
 =
 "
@@ -2479,6 +2487,14 @@ version_info
 =
 8
 :
+    
+ast
+.
+original_get_source_segment
+=
+ast
+.
+get_source_segment
     
 ast
 .
