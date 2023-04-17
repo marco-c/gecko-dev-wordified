@@ -150,7 +150,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 (
 )
@@ -231,7 +231,7 @@ reportError
 this
 )
 ;
-log
+logger
 .
 error
 (
@@ -639,7 +639,7 @@ notify
 (
 )
 {
-log
+logger
 .
 fatal
 (

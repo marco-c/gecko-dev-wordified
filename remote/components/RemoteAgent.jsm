@@ -238,7 +238,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 (
 )
@@ -567,7 +567,7 @@ k
 )
 )
 {
-log
+logger
 .
 debug
 (
@@ -803,7 +803,7 @@ close
 (
 )
 ;
-log
+logger
 .
 error
 (
@@ -839,7 +839,7 @@ this
 alteredPrefs
 )
 {
-log
+logger
 .
 debug
 (
@@ -929,7 +929,7 @@ function
 must
 never
 fail
-log
+logger
 .
 error
 (
