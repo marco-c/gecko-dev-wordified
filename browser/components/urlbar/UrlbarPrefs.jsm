@@ -2395,15 +2395,6 @@ UrlbarUtils
 .
 RESULT_GROUP
 .
-HEURISTIC_UNIFIED_COMPLETE
-}
-{
-group
-:
-UrlbarUtils
-.
-RESULT_GROUP
-.
 HEURISTIC_AUTOFILL
 }
 {

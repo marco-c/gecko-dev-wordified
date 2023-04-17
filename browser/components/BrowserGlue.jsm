@@ -19152,7 +19152,7 @@ number
 const
 UI_VERSION
 =
-115
+116
 ;
 const
 BROWSER_DOCURL
@@ -23611,7 +23611,7 @@ if
 (
 currentUIVersion
 <
-115
+116
 )
 {
 /
@@ -23694,6 +23694,17 @@ group
 and
 rename
 properties
+/
+/
+116
+(
+bug
+1717509
+)
+:
+Remove
+HEURISTIC_UNIFIED_COMPLETE
+group
 UrlbarPrefs
 .
 migrateResultBuckets
