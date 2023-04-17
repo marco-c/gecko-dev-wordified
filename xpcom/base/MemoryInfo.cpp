@@ -135,7 +135,12 @@ h
 #
 include
 <
-winbase
+algorithm
+>
+#
+include
+<
+windows
 .
 h
 >
