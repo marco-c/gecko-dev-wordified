@@ -799,13 +799,15 @@ command
 event
 on
 aItem
-and
-closes
+after
 the
+root
 menu
+has
+closed
 .
 void
-ActivateItemAndClose
+ActivateItemAfterClosing
 (
 RefPtr
 <
@@ -1969,7 +1971,7 @@ during
 automated
 tests
 via
-ActivateItemAndClose
+ActivateItemAfterClosing
 .
 /
 /
