@@ -4211,6 +4211,16 @@ ReadUnlock
 (
 )
 ;
+void
+SetUpdated
+(
+)
+{
+mUpdated
+=
+true
+;
+}
 bool
 OnForwardedToHost
 (
