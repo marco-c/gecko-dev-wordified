@@ -2946,6 +2946,17 @@ mDLCache
 >
 mCapacity
 ;
+mLastDisplayListSize
+.
+spatial_tree_size
+=
+dlData
+.
+mDLSpatialTree
+-
+>
+mCapacity
+;
 resourceUpdates
 .
 Flush
