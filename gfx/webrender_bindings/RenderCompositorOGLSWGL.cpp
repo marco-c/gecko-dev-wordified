@@ -2798,6 +2798,13 @@ LOCAL_GL_PIXEL_UNPACK_BUFFER
 }
 else
 {
+mSurface
+-
+>
+Unmap
+(
+)
+;
 mTexture
 -
 >
