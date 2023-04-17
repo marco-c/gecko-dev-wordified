@@ -698,6 +698,10 @@ Now
 (
 )
 )
+mUsedAV
+(
+false
+)
 {
 }
 ;
@@ -709,6 +713,8 @@ RegisterConnection
 void
 UnregisterConnection
 (
+bool
+aContainedAV
 )
 ;
 bool
@@ -723,6 +729,9 @@ mRefCnt
 ;
 TimeStamp
 mStart
+;
+bool
+mUsedAV
 ;
 }
 ;
