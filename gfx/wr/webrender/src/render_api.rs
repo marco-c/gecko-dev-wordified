@@ -3198,8 +3198,9 @@ ResetDynamicProperties
 /
 /
 /
-Supply
-a
+Add
+to
+the
 list
 of
 animated
@@ -3223,7 +3224,7 @@ list
 .
 pub
 fn
-update_dynamic_properties
+append_dynamic_properties
 (
 &
 mut
@@ -3242,7 +3243,7 @@ push
 FrameMsg
 :
 :
-UpdateDynamicProperties
+AppendDynamicProperties
 (
 properties
 )
@@ -5838,7 +5839,7 @@ ResetDynamicProperties
 /
 /
 /
-UpdateDynamicProperties
+AppendDynamicProperties
 (
 DynamicProperties
 )
@@ -6133,7 +6134,7 @@ ResetDynamicProperties
 FrameMsg
 :
 :
-UpdateDynamicProperties
+AppendDynamicProperties
 (
 .
 .
@@ -6144,7 +6145,7 @@ UpdateDynamicProperties
 FrameMsg
 :
 :
-UpdateDynamicProperties
+AppendDynamicProperties
 "
 FrameMsg
 :

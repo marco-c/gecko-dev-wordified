@@ -1129,7 +1129,13 @@ new
 ;
 txn
 .
-update_dynamic_properties
+reset_dynamic_properties
+(
+)
+;
+txn
+.
+append_dynamic_properties
 (
 DynamicProperties
 {
