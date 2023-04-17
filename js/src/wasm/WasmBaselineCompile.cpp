@@ -8108,6 +8108,10 @@ index_
 (
 0
 )
+frameSize_
+(
+0
+)
 nextFrameSize_
 (
 debugEnabled
@@ -15682,6 +15686,8 @@ bytes
 ;
 }
 bits
+{
+}
 ;
 static_assert
 (
@@ -21815,6 +21821,10 @@ deadThenBranch
 (
 false
 )
+tryNoteIndex
+(
+0
+)
 {
 }
 }
@@ -22869,6 +22879,7 @@ generateOutOfLineCode
 for
 (
 auto
+*
 ool
 :
 outOfLine_
@@ -65956,6 +65967,8 @@ false
 }
 OpBytes
 op
+{
+}
 ;
 iter_
 .
@@ -66055,6 +66068,8 @@ reset
 ;
 OpBytes
 op
+{
+}
 ;
 iter_
 .
@@ -71491,6 +71506,8 @@ resultType
 ;
 NothingVector
 unused_tryValues
+{
+}
 ;
 if
 (
@@ -71801,6 +71818,8 @@ resultType
 ;
 NothingVector
 unused_tryValues
+{
+}
 ;
 if
 (
@@ -98938,6 +98957,8 @@ MaxPushesPerOpcode
 ;
 OpBytes
 op
+{
+}
 ;
 CHECK
 (
