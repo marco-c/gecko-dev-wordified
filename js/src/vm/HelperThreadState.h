@@ -1163,6 +1163,9 @@ finish
 void
 finishThreads
 (
+AutoLockHelperThreadState
+&
+lock
 )
 ;
 void
