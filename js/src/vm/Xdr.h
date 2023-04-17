@@ -1046,10 +1046,6 @@ endian
 except
 *
 bytecode
-and
-object
-literal
-code
 .
 *
 /
