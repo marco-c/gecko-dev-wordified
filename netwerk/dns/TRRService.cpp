@@ -2010,6 +2010,8 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIStandardURLMutator
 :
@@ -2024,6 +2026,7 @@ newURI
 nullptr
 nullptr
 nullptr
+)
 )
 .
 Finalize
@@ -5586,6 +5589,8 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIStandardURLMutator
 :
@@ -5600,6 +5605,7 @@ mPrivateURI
 nullptr
 nullptr
 nullptr
+)
 )
 .
 Finalize

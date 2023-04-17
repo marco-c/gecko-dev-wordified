@@ -1601,12 +1601,15 @@ Mutator
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIFileURLMutator
 :
 :
 SetFile
 file
+)
 )
 .
 Finalize

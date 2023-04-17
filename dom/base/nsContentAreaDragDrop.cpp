@@ -2922,6 +2922,8 @@ imgUrl
 .
 Apply
 (
+NS_MutatorMethod
+(
 &
 nsIURLMutator
 :
@@ -2929,6 +2931,7 @@ nsIURLMutator
 SetFileExtension
 primaryExtension
 nullptr
+)
 )
 .
 Finalize
