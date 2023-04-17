@@ -358,7 +358,7 @@ class
 MediaManager
 ;
 class
-SourceListener
+DeviceListener
 ;
 class
 MediaDevice
@@ -750,7 +750,7 @@ public
 nsIObserver
 {
 friend
-SourceListener
+DeviceListener
 ;
 public
 :
