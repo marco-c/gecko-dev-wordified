@@ -282,6 +282,11 @@ ParallelWorker
 GCRuntime
 *
 gc
+gcstats
+:
+:
+PhaseKind
+phaseKind
 WorkFunc
 func
 WorkItemIterator
@@ -299,6 +304,7 @@ lock
 GCParallelTask
 (
 gc
+phaseKind
 )
 func_
 (
@@ -711,6 +717,7 @@ i
 emplace
 (
 gc
+phaseKind
 func
 work
 budget
@@ -727,7 +734,6 @@ tasks
 [
 i
 ]
-phaseKind
 lock
 )
 ;
@@ -774,7 +780,6 @@ tasks
 [
 i
 ]
-phaseKind
 lock
 )
 ;
