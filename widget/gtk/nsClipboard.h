@@ -213,6 +213,14 @@ endif
 MOZ_LOGGING
 *
 /
+enum
+ClipboardDataType
+{
+CLIPBOARD_DATA
+CLIPBOARD_TEXT
+CLIPBOARD_TARGETS
+}
+;
 class
 nsRetrievalContext
 {

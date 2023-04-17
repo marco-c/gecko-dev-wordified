@@ -477,6 +477,8 @@ aPrimaryDataOffer
 void
 TransferFastTrackClipboard
 (
+ClipboardDataType
+aDataType
 int
 aClipboardRequestNumber
 GtkSelectionData
