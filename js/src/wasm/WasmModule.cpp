@@ -4938,7 +4938,7 @@ create
 cx
 ed
 .
-type
+argTypes
 proto
 )
 )
