@@ -3424,6 +3424,14 @@ return
 1
 ;
 }
+#
+ifndef
+WIN32
+/
+/
+failure
+on
+windows10x32
 if
 (
 stricmp
@@ -3474,6 +3482,8 @@ return
 1
 ;
 }
+#
+endif
 PEHeaders
 ntdllheaders
 (
