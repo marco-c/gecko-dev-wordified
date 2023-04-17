@@ -1706,7 +1706,7 @@ type
 EqualsLiteral
 (
 "
-DOMMouseScroll
+wheel
 "
 )
 |
@@ -2926,7 +2926,7 @@ mousedown
 mouseup
 keydown
 and
-DOMMouseScroll
+mouse
 events
 at
 /
@@ -3013,7 +3013,7 @@ AddSystemEventListener
 (
 u
 "
-DOMMouseScroll
+wheel
 "
 _ns
 this
@@ -4320,7 +4320,7 @@ RemoveSystemEventListener
 (
 u
 "
-DOMMouseScroll
+wheel
 "
 _ns
 this
