@@ -16598,7 +16598,7 @@ paginated
 if
 (
 !
-IsPaginated
+IsRootPaginatedDocument
 (
 )
 )
