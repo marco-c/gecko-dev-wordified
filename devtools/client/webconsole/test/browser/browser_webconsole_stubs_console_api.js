@@ -265,6 +265,9 @@ packet
 sortKeys
 :
 true
+replaceActorIds
+:
+true
 }
 )
 ;
@@ -283,6 +286,9 @@ key
 )
 {
 sortKeys
+:
+true
+replaceActorIds
 :
 true
 }
