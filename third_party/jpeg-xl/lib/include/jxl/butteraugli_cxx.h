@@ -45,6 +45,18 @@ file
 /
 /
 /
+addtogroup
+libjxl_butteraugli
+/
+/
+/
+{
+/
+/
+/
+/
+/
+/
 file
 butteraugli_cxx
 .
@@ -385,3 +397,7 @@ endif
 /
 /
 JXL_BUTTERAUGLI_CXX_H_
+/
+/
+/
+}

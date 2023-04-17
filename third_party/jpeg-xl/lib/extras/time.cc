@@ -47,9 +47,7 @@ include
 "
 lib
 /
-jxl
-/
-base
+extras
 /
 time
 .

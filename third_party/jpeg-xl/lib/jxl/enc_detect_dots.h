@@ -118,6 +118,17 @@ lib
 /
 jxl
 /
+enc_patch_dictionary
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 image
 .
 h

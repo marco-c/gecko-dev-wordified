@@ -502,7 +502,7 @@ pool
 ;
 EXPECT_EQ
 (
-0
+0u
 io2
 .
 preview_frame

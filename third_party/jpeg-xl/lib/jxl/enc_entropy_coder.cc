@@ -604,6 +604,7 @@ neg_sum_zero
 =
 VecFromMask
 (
+di
 coef
 =
 =
@@ -685,6 +686,7 @@ neg_sum_zero
 =
 VecFromMask
 (
+di
 coef
 =
 =
@@ -996,6 +998,7 @@ neg_sum_zero
 =
 VecFromMask
 (
+di
 coef
 =
 =
@@ -1070,6 +1073,7 @@ neg_sum_zero
 =
 VecFromMask
 (
+di
 coef
 =
 =
