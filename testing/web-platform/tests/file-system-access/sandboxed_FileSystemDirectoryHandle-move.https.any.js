@@ -38,7 +38,7 @@ script
 -
 tests
 /
-FileSystemBaseHandle
+FileSystemDirectoryHandle
 -
 move
 .
