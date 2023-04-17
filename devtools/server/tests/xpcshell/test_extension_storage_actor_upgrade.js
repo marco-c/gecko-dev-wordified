@@ -113,7 +113,9 @@ resource
 /
 test
 /
-helper_test_extension_storage_actor
+webextension
+-
+helpers
 .
 js
 "
