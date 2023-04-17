@@ -2092,7 +2092,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 UndoAsAction
@@ -2388,7 +2388,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 RedoAsAction
