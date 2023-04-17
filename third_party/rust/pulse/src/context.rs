@@ -31,11 +31,6 @@ for
 details
 .
 use
-:
-:
-*
-;
-use
 ffi
 ;
 use
@@ -85,6 +80,9 @@ util
 :
 :
 UnwrapCStr
+;
+use
+*
 ;
 /
 /
@@ -572,6 +570,7 @@ o
 }
 }
 }
+;
 }
 #
 [

@@ -31,12 +31,6 @@ for
 details
 .
 use
-ErrorCode
-;
-use
-Result
-;
-use
 ffi
 ;
 use
@@ -47,6 +41,12 @@ mainloop_api
 :
 :
 MainloopApi
+;
+use
+ErrorCode
+;
+use
+Result
 ;
 #
 [

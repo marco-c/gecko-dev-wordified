@@ -71,10 +71,7 @@ vec
 :
 Vec
 <
-Box
-<
 CString
->
 >
 }
 impl
@@ -170,16 +167,10 @@ vec
 .
 push
 (
-Box
-:
-:
-new
-(
 string
 .
 to_owned
 (
-)
 )
 )
 ;
