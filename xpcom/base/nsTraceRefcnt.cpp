@@ -1620,10 +1620,7 @@ empty
 ;
 mClassName
 =
-PL_strdup
-(
 aClassName
-)
 ;
 mStats
 .
@@ -1640,13 +1637,9 @@ mTotalLeaked
 BloatEntry
 (
 )
-{
-PL_strfree
-(
-mClassName
-)
+=
+default
 ;
-}
 uint32_t
 GetClassSize
 (
@@ -2080,6 +2073,7 @@ NumLeaked
 }
 protected
 :
+const
 char
 *
 mClassName
