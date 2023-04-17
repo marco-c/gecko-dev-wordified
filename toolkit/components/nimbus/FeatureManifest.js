@@ -366,6 +366,9 @@ about
 welcome
 page
 "
+isEarlyStartup
+:
+true
 enabledFallbackPref
 :
 "
@@ -455,6 +458,9 @@ about
 newtab
 page
 "
+isEarlyStartup
+:
+true
 variables
 :
 {
@@ -563,6 +569,9 @@ for
 major
 upgrades
 "
+isEarlyStartup
+:
+true
 enabledFallbackPref
 :
 "
