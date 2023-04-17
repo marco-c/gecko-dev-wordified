@@ -188,6 +188,15 @@ include
 "
 wasm
 /
+WasmCodegenTypes
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmCompileArgs
 .
 h
