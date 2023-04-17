@@ -216,6 +216,13 @@ nsThreadManager
 h
 "
 #
+include
+"
+TaskController
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

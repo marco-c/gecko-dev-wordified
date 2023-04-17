@@ -312,16 +312,6 @@ kMaxTimerThreadBound
 /
 /
 milliseconds
-static
-const
-uint32_t
-kMaxTimerThreadBoundClamp
-=
-15
-;
-/
-/
-milliseconds
 namespace
 mozilla
 {
