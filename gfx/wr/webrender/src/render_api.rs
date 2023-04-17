@@ -2643,6 +2643,8 @@ window_size_sanity_check
 device_rect
 .
 size
+(
+)
 )
 ;
 self
