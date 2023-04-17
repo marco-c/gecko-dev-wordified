@@ -3857,8 +3857,7 @@ WSRunScanner
 :
 ScanNextVisibleNodeOrBlockBoundary
 (
-*
-this
+editingHost
 pointToPutCaret
 )
 ;
@@ -6756,8 +6755,9 @@ WSRunScanner
 :
 ScanNextVisibleNodeOrBlockBoundary
 (
-*
-this
+GetActiveEditingHost
+(
+)
 afterBRElement
 )
 .
@@ -33991,8 +33991,9 @@ WSRunScanner
 :
 ScanNextVisibleNodeOrBlockBoundary
 (
-*
-this
+GetActiveEditingHost
+(
+)
 EditorRawDOMPoint
 (
 &

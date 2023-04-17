@@ -23811,7 +23811,11 @@ WSRunScanner
 :
 ScanNextVisibleNodeOrBlockBoundary
 (
-aHTMLEditor
+wsScannerForPoint
+.
+GetEditingHost
+(
+)
 EditorRawDOMPoint
 :
 :
@@ -33682,7 +33686,7 @@ WSRunScanner
 :
 ScanPreviousVisibleNodeOrBlockBoundary
 (
-aHTMLEditor
+editingHost
 atStart
 )
 ;
