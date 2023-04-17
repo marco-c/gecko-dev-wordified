@@ -251,7 +251,6 @@ storage
 >
 Init
 (
-nullptr
 )
 ;
 }
