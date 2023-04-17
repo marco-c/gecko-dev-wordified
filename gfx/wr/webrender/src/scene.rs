@@ -1801,6 +1801,7 @@ SpatialTree
 :
 new
 (
+&
 SceneSpatialTree
 :
 :

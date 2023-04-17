@@ -3380,6 +3380,7 @@ SpatialTree
 :
 new
 (
+&
 builder
 .
 spatial_tree
@@ -10647,7 +10648,7 @@ self
 .
 spatial_tree
 .
-get_spatial_node
+get_node_info
 (
 stacking_context
 .
