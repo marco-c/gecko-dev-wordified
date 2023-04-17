@@ -579,7 +579,7 @@ status
 if
 (
 !
-FillUTF8Buffer
+FillBuffer
 (
 u16Vec
 aBuffer

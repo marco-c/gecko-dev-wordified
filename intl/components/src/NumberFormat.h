@@ -3107,7 +3107,7 @@ value
 if
 (
 !
-FillUTF8Buffer
+FillBuffer
 (
 Span
 (
