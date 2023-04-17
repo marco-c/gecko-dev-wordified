@@ -690,6 +690,8 @@ directory
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 cacheDir
 -
 >
@@ -703,6 +705,7 @@ m3
 [
 7
 ]
+)
 )
 )
 )
@@ -942,11 +945,14 @@ kMorgueDirectory
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 RemoveNsIFileRecursively
 (
 aQuotaInfo
 *
 bodyDir
+)
 )
 )
 ;
@@ -1035,6 +1041,8 @@ id
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 idGen
 -
 >
@@ -1042,6 +1050,7 @@ GenerateUUIDInPlace
 (
 &
 id
+)
 )
 )
 ;
@@ -1160,6 +1169,8 @@ copyContext
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 NS_AsyncCopy
 (
 &
@@ -1184,6 +1195,7 @@ streams
 getter_AddRefs
 (
 copyContext
+)
 )
 )
 )
@@ -1293,12 +1305,15 @@ finalFileName
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 finalFile
 -
 >
 GetLeafName
 (
 finalFileName
+)
 )
 )
 ;
@@ -1343,6 +1358,8 @@ time
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 tmpFile
 -
 >
@@ -1350,6 +1367,7 @@ RenameTo
 (
 nullptr
 finalFileName
+)
 )
 )
 ;
@@ -1810,6 +1828,8 @@ false
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 BodyTraverseFiles
 (
 aQuotaInfo
@@ -1828,6 +1848,7 @@ aTrackQuota
 *
 /
 true
+)
 )
 )
 ;
@@ -1927,12 +1948,15 @@ tmp
 }
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 bodyFile
 -
 >
 Append
 (
 fileName
+)
 )
 )
 ;
@@ -2127,12 +2151,15 @@ outputStream
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 objectStream
 -
 >
 Write64
 (
 aPaddingSize
+)
 )
 )
 ;
@@ -2654,6 +2681,8 @@ _ns
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 marker
 -
 >
@@ -2666,6 +2695,7 @@ context_open
 marker
 "
 _ns
+)
 )
 )
 ;
@@ -3238,12 +3268,15 @@ nsresult
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 RemoveNsIFileRecursively
 (
 aQuotaInfo
 *
 file
 aTrackQuota
+)
 )
 )
 ;
@@ -3266,6 +3299,8 @@ the
 folder
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aFile
 .
 Remove
@@ -3276,6 +3311,7 @@ recursive
 *
 /
 false
+)
 )
 )
 ;
@@ -3689,6 +3725,8 @@ aBaseDir
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingWrite
 (
 aBaseDir
@@ -3697,6 +3735,7 @@ DirPaddingFile
 :
 FILE
 0
+)
 )
 )
 ;
@@ -3882,6 +3921,8 @@ anyway
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingDeleteFile
 (
 aBaseDir
@@ -3889,6 +3930,7 @@ DirPaddingFile
 :
 :
 FILE
+)
 )
 )
 ;
@@ -4054,6 +4096,8 @@ lines
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingDeleteFile
 (
 aBaseDir
@@ -4061,6 +4105,7 @@ DirPaddingFile
 :
 :
 FILE
+)
 )
 )
 ;
@@ -4212,6 +4257,8 @@ currentPaddingSize
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingWrite
 (
 aBaseDir
@@ -4220,6 +4267,7 @@ DirPaddingFile
 :
 TMP_FILE
 currentPaddingSize
+)
 )
 )
 ;
@@ -4265,6 +4313,8 @@ PADDING_TMP_FILE_NAME
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 file
 -
 >
@@ -4274,6 +4324,7 @@ nullptr
 nsLiteralString
 (
 PADDING_FILE_NAME
+)
 )
 )
 )
@@ -4316,6 +4367,8 @@ here
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingDeleteFile
 (
 aBaseDir
@@ -4323,6 +4376,7 @@ DirPaddingFile
 :
 :
 FILE
+)
 )
 )
 ;
@@ -4384,6 +4438,8 @@ paddingSize
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryPaddingDeleteFile
 (
 aBaseDir
@@ -4391,6 +4447,7 @@ DirPaddingFile
 :
 :
 TMP_FILE
+)
 )
 )
 ;

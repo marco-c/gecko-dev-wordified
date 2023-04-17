@@ -480,8 +480,11 @@ size
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aCommitHook
 (
+)
 )
 )
 ;
@@ -518,6 +521,8 @@ size
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 UpdateDirectoryPaddingFile
 (
 aBaseDir
@@ -525,6 +530,7 @@ aConn
 aIncreaseSize
 aDecreaseSize
 temporaryPaddingFileExist
+)
 )
 )
 ;
@@ -557,8 +563,11 @@ size
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aCommitHook
 (
+)
 )
 )
 ;

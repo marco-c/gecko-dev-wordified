@@ -2935,6 +2935,8 @@ quotaManager
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 quotaManager
 -
 >
@@ -2942,14 +2944,18 @@ EnsureStorageIsInitialized
 (
 )
 )
+)
 ;
 QM_TRY
+(
+MOZ_TO_RESULT
 (
 quotaManager
 -
 >
 EnsureTemporaryStorageIsInitialized
 (
+)
 )
 )
 ;
