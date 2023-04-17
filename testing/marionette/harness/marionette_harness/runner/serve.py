@@ -419,9 +419,6 @@ server
 .
 start
 (
-block
-=
-False
 )
             
 self
