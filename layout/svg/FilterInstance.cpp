@@ -302,13 +302,6 @@ h
 #
 include
 "
-SVGFilterPaintCallback
-.
-h
-"
-#
-include
-"
 SVGIntegrationUtils
 .
 h
@@ -482,8 +475,9 @@ aFilteredFrame
 gfxContext
 *
 aCtx
+const
 SVGFilterPaintCallback
-*
+&
 aPaintCallback
 const
 nsRegion
@@ -3423,8 +3417,9 @@ StyleFilter
 aFilterChain
 bool
 aFilterInputIsTainted
+const
 SVGFilterPaintCallback
-*
+&
 aPaintCallback
 const
 gfxMatrix
@@ -5074,9 +5069,6 @@ imageFlags
 )
 ;
 mPaintCallback
--
->
-Paint
 (
 *
 ctx
