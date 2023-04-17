@@ -547,7 +547,7 @@ include
 "
 e_rem_pio2
 .
-c
+cpp
 "
 double
 tan
