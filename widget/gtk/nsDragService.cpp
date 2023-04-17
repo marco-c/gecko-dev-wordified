@@ -312,6 +312,15 @@ h
 #
 include
 "
+mozilla
+/
+WidgetUtilsGtk
+.
+h
+"
+#
+include
+"
 GRefPtr
 .
 h
@@ -11543,6 +11552,9 @@ Bug
 1527976
 if
 (
+widget
+:
+:
 GdkIsWaylandDisplay
 (
 )
