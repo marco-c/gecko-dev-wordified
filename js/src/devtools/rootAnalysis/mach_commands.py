@@ -376,8 +376,6 @@ MachCommandBase
 )
 :
     
-property
-    
 def
 state_dir
 (
@@ -409,8 +407,6 @@ mozbuild
 "
 )
 )
-    
-property
     
 def
 tools_dir
@@ -522,14 +518,14 @@ join
 self
 .
 state_dir
+(
+)
 "
 hazard
 -
 tools
 "
 )
-    
-property
     
 def
 sixgill_dir
@@ -548,12 +544,12 @@ join
 self
 .
 tools_dir
+(
+)
 "
 sixgill
 "
 )
-    
-property
     
 def
 gcc_dir
@@ -572,12 +568,12 @@ join
 self
 .
 tools_dir
+(
+)
 "
 gcc
 "
 )
-    
-property
     
 def
 script_dir
@@ -697,6 +693,8 @@ join
 self
 .
 gcc_dir
+(
+)
 "
 bin
 "
@@ -775,6 +773,8 @@ sixgill_dir
 self
 .
 sixgill_dir
+(
+)
 gccbin
 =
 gccbin
@@ -808,6 +808,8 @@ format
 self
 .
 gcc_dir
+(
+)
 )
     
 Command
@@ -951,6 +953,8 @@ ensure_dir_exists
 self
 .
 tools_dir
+(
+)
 )
 )
         
@@ -1910,6 +1914,8 @@ script_dir
 self
 .
 script_dir
+(
+)
                 
 objdir
 =
@@ -1926,12 +1932,16 @@ sixgill_dir
 self
 .
 sixgill_dir
+(
+)
                 
 gcc_dir
 =
 self
 .
 gcc_dir
+(
+)
             
 )
             
@@ -2000,6 +2010,8 @@ join
 self
 .
 script_dir
+(
+)
 "
 analyze
 .
@@ -2521,6 +2533,8 @@ MOZBUILD_STATE_PATH
 self
 .
 state_dir
+(
+)
         
 #
 Suppress
@@ -2758,6 +2772,8 @@ join
 self
 .
 script_dir
+(
+)
 "
 analyze
 .
@@ -2949,6 +2965,8 @@ join
 self
 .
 script_dir
+(
+)
 "
 run
 -
@@ -2986,6 +3004,8 @@ join
 self
 .
 tools_dir
+(
+)
 "
 sixgill
 "
@@ -3000,6 +3020,8 @@ gccdir
 self
 .
 gcc_dir
+(
+)
         
 ]
         
