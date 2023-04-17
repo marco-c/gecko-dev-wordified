@@ -163,6 +163,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -1045,7 +1054,10 @@ thread
 TimeStamp
 mPreviousSampleTime
 ;
+Atomic
+<
 bool
+>
 mIsInTestMode
 ;
 }
