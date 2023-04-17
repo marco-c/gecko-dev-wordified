@@ -35308,17 +35308,6 @@ GetIsRDMTouchSimulationActive
 ;
 mScrollMetadata
 .
-SetPrefersReducedMotion
-(
-aScrollMetadata
-.
-PrefersReducedMotion
-(
-)
-)
-;
-mScrollMetadata
-.
 SetDisregardedDirection
 (
 aScrollMetadata
