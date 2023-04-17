@@ -851,10 +851,6 @@ jitRuntime_
 (
 nullptr
 )
-selfHostingGlobal_
-(
-nullptr
-)
 gc
 (
 thisFromCtor
