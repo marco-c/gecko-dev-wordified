@@ -348,7 +348,7 @@ editBMPanel_folderMenuList
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -527,7 +527,7 @@ folder
 picker
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -647,7 +647,7 @@ bookmark
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -2535,7 +2535,7 @@ to
 start
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3258,7 +3258,7 @@ before
 continuing
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

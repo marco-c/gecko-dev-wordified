@@ -356,7 +356,7 @@ status
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

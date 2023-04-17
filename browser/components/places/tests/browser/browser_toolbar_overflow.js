@@ -939,7 +939,7 @@ PlacesToolbarItems
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

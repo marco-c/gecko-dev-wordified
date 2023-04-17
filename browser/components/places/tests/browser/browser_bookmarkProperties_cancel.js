@@ -406,7 +406,7 @@ accept
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -622,7 +622,7 @@ accept
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -725,7 +725,7 @@ promiseAsyncUpdates
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -338,7 +338,7 @@ to
 start
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -460,7 +460,7 @@ await
 renameObserver
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

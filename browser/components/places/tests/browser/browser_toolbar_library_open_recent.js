@@ -180,7 +180,7 @@ let
 bookmarksButton
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -552,7 +552,7 @@ exists
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -327,7 +327,7 @@ com
 ]
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

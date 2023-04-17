@@ -391,6 +391,8 @@ editBMPanel_tagsField
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -699,6 +701,8 @@ false
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (
@@ -968,6 +972,8 @@ false
 )
 ;
 await
+TestUtils
+.
 waitForCondition
 (
 (

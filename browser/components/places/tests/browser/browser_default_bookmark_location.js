@@ -775,7 +775,7 @@ folder
 picker
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
