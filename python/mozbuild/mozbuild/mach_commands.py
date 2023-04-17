@@ -14633,6 +14633,8 @@ constant
 default
 =
 "
+CN
+=
 Mozilla
 Corporation
 "
@@ -14662,7 +14664,7 @@ It
 must
 match
 the
-CN
+subject
 on
 the
 certificate
