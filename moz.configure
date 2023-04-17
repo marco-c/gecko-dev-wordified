@@ -1116,15 +1116,6 @@ False
 if
 host
 .
-cpu
-=
-=
-"
-aarch64
-"
-and
-host
-.
 os
 =
 =
