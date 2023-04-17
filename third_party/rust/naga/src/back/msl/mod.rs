@@ -669,6 +669,9 @@ in
 order
 of
 [
+crate
+:
+:
 GlobalVariable
 ]
 declarations
