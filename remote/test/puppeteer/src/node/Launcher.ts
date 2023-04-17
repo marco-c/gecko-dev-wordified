@@ -748,6 +748,9 @@ runner
 new
 BrowserRunner
 (
+this
+.
+product
 chromeExecutable
 chromeArguments
 temporaryUserDataDir
@@ -1682,6 +1685,9 @@ runner
 new
 BrowserRunner
 (
+this
+.
+product
 firefoxExecutable
 firefoxArguments
 temporaryUserDataDir
