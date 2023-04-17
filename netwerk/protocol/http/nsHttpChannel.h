@@ -2406,6 +2406,11 @@ redirectFlags
 )
 override
 ;
+void
+HandleAsyncRedirectToUnstrippedURI
+(
+)
+;
 /
 /
 proxy
