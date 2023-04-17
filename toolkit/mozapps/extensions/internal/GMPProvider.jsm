@@ -2485,16 +2485,6 @@ _updateTask
 ;
 }
 get
-pluginMimeTypes
-(
-)
-{
-return
-[
-]
-;
-}
-get
 pluginLibraries
 (
 )
