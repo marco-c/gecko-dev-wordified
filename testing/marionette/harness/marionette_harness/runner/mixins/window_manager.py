@@ -726,13 +726,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-window
--
-manager
+WindowManager
 .
-js
+jsm
 "
 )
 ;

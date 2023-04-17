@@ -189,7 +189,7 @@ TabSession
 .
 jsm
 "
-WindowManager
+windowManager
 :
 "
 chrome
@@ -774,9 +774,9 @@ the
 corresponding
 tab
 await
-WindowManager
+windowManager
 .
-focus
+focusWindow
 (
 window
 )
