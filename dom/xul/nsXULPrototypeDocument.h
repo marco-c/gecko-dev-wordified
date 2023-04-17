@@ -244,7 +244,9 @@ nsISerializable
 {
 public
 :
-typedef
+using
+Callback
+=
 std
 :
 :
@@ -254,7 +256,6 @@ void
 (
 )
 >
-Callback
 ;
 /
 /
