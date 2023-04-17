@@ -3185,13 +3185,6 @@ const
 nsIFrame
 *
 aContainerReferenceFrame
-const
-mozilla
-:
-:
-DisplayItemClip
-*
-aClip
 )
 const
 ;
@@ -7219,13 +7212,6 @@ const
 nsIFrame
 *
 aContainerReferenceFrame
-const
-mozilla
-:
-:
-DisplayItemClip
-*
-aClip
 )
 const
 final
@@ -7237,7 +7223,6 @@ ComputeScrollMetadata
 (
 aLayerManager
 aContainerReferenceFrame
-aClip
 )
 ;
 }
@@ -9987,13 +9972,6 @@ const
 nsIFrame
 *
 aContainerReferenceFrame
-const
-mozilla
-:
-:
-DisplayItemClip
-*
-aClip
 )
 const
 final
@@ -10005,7 +9983,6 @@ ComputeScrollMetadata
 (
 aLayerManager
 aContainerReferenceFrame
-aClip
 )
 ;
 }

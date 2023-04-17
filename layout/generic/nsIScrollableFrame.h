@@ -3566,13 +3566,6 @@ const
 nsIFrame
 *
 aContainerReferenceFrame
-const
-mozilla
-:
-:
-DisplayItemClip
-*
-aClip
 )
 const
 =
