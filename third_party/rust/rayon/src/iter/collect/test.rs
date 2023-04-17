@@ -210,6 +210,8 @@ consume
 )
 ;
 folder
+=
+folder
 .
 consume
 (

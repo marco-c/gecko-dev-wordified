@@ -1808,7 +1808,7 @@ paper
 pdf
 ]
 :
-http
+https
 :
 /
 /
@@ -6081,6 +6081,8 @@ test_heapsort
 )
 {
 let
+ref
+mut
 rng
 =
 thread_rng
