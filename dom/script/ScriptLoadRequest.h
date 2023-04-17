@@ -484,12 +484,13 @@ LinkedListElement
 ScriptLoadRequest
 >
 {
-typedef
+using
+super
+=
 LinkedListElement
 <
 ScriptLoadRequest
 >
-super
 ;
 /
 /
@@ -2166,7 +2167,9 @@ LinkedList
 ScriptLoadRequest
 >
 {
-typedef
+using
+super
+=
 mozilla
 :
 :
@@ -2174,7 +2177,6 @@ LinkedList
 <
 ScriptLoadRequest
 >
-super
 ;
 public
 :
