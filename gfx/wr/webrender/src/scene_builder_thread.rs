@@ -189,7 +189,10 @@ crate
 clip
 :
 :
+{
 ClipIntern
+PolygonIntern
+}
 ;
 use
 crate
