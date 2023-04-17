@@ -223,13 +223,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 MediaEncryptedEvent
 Event
 )
-tmp
--
->
-mInitData
-=
-nullptr
-;
 mozilla
 :
 :
@@ -281,10 +274,6 @@ MediaEncryptedEvent
 (
 )
 {
-mInitData
-=
-nullptr
-;
 mozilla
 :
 :

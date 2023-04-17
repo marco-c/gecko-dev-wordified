@@ -1129,12 +1129,6 @@ aVp
 =
 mThrownJSVal
 ;
-mThrownJSVal
-.
-setNull
-(
-)
-;
 mozilla
 :
 :

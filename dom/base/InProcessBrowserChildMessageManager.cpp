@@ -754,12 +754,6 @@ this
 )
 ;
 }
-mAnonymousGlobalScopes
-.
-Clear
-(
-)
-;
 mozilla
 :
 :

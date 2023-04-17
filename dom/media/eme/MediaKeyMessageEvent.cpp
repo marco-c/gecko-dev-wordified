@@ -262,13 +262,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 MediaKeyMessageEvent
 Event
 )
-tmp
--
->
-mMessage
-=
-nullptr
-;
 mozilla
 :
 :
@@ -330,10 +323,6 @@ MediaKeyMessageEvent
 (
 )
 {
-mMessage
-=
-nullptr
-;
 mozilla
 :
 :

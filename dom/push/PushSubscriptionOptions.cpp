@@ -274,10 +274,6 @@ PushSubscriptionOptions
 (
 )
 {
-mAppServerKey
-=
-nullptr
-;
 mozilla
 :
 :

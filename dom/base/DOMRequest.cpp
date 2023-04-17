@@ -329,12 +329,6 @@ DOMRequest
 (
 )
 {
-mResult
-.
-setUndefined
-(
-)
-;
 mozilla
 :
 :

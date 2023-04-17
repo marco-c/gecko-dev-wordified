@@ -328,12 +328,6 @@ MessageEvent
 (
 )
 {
-mData
-.
-setUndefined
-(
-)
-;
 DropJSObjects
 (
 this

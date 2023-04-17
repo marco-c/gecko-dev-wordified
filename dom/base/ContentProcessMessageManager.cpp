@@ -249,12 +249,6 @@ ContentProcessMessageManager
 (
 )
 {
-mAnonymousGlobalScopes
-.
-Clear
-(
-)
-;
 mozilla
 :
 :

@@ -730,6 +730,7 @@ ComputeWorkerPrivateId
 ;
 class
 WorkerPrivate
+final
 :
 public
 RelativeTimeline

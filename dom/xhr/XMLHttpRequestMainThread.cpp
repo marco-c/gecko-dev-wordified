@@ -1769,16 +1769,6 @@ mFlagSyncLooping
 =
 false
 ;
-mResultJSON
-.
-setUndefined
-(
-)
-;
-mResultArrayBuffer
-=
-nullptr
-;
 mozilla
 :
 :
