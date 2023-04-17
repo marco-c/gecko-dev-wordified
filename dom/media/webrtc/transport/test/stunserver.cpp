@@ -1879,7 +1879,6 @@ STUN
 server
 "
 )
-send_sock_
 &
 stun_server_
 )

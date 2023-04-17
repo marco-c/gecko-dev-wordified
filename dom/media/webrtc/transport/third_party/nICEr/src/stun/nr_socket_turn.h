@@ -304,9 +304,6 @@ nr_socket_turn_create
 (
 nr_socket
 *
-sock
-nr_socket
-*
 *
 sockp
 )

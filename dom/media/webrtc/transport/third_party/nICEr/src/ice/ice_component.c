@@ -1156,9 +1156,6 @@ component
 nr_ice_socket
 *
 isock
-nr_socket
-*
-sock
 nr_transport_addr
 *
 addr
@@ -1219,7 +1216,6 @@ r
 nr_stun_server_ctx_create
 (
 label
-sock
 &
 isock
 -
@@ -2321,7 +2317,6 @@ r
 =
 nr_socket_turn_create
 (
-sock
 &
 turn_sock
 )
@@ -2463,7 +2458,6 @@ nr_ice_component_create_stun_server_ctx
 (
 component
 isock
-sock
 &
 addrs
 [
@@ -2847,10 +2841,6 @@ nr_ice_component_create_stun_server_ctx
 (
 component
 isock_tmp
-isock_tmp
--
->
-sock
 &
 addr
 lufrag
@@ -4174,7 +4164,6 @@ r
 =
 nr_socket_turn_create
 (
-buffered_sock
 &
 turn_sock
 )
@@ -4379,7 +4368,6 @@ nr_ice_component_create_stun_server_ctx
 (
 component
 turn_isock
-local_sock
 &
 addr
 lufrag
