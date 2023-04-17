@@ -54818,11 +54818,6 @@ wasm
 :
 :
 MaxArgsForJitInlineCall
-|
-|
-argc_
->
-ArgumentKindArgIndexLimit
 )
 {
 return
