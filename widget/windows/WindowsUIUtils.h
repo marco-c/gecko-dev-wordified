@@ -122,9 +122,7 @@ MozPromise
 .
 h
 "
-using
-SharePromise
-=
+typedef
 mozilla
 :
 :
@@ -139,6 +137,7 @@ IsExclusive
 /
 true
 >
+SharePromise
 ;
 enum
 TabletModeState
