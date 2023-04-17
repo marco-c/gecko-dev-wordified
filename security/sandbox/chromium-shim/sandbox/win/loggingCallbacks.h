@@ -348,12 +348,10 @@ bool
 aShouldLogStackTrace
 =
 false
-const
-void
-*
-aFirstFramePC
+uint32_t
+aFramesToSkip
 =
-nullptr
+0
 )
 {
 std
@@ -473,7 +471,7 @@ Trace
 MozStackWalk
 (
 StackFrameToOStringStream
-aFirstFramePC
+aFramesToSkip
 stackTraceDepth
 &
 msgStream

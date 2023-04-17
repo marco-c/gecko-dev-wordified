@@ -2527,7 +2527,13 @@ else
 MozStackWalk
 (
 StackWalkCallback
-nullptr
+/
+*
+aSkipFrames
+=
+*
+/
+0
 kMaxFrames
 this
 )

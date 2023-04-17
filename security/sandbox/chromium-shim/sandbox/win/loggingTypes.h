@@ -181,10 +181,8 @@ aContext
 const
 bool
 aShouldLogStackTrace
-const
-void
-*
-aFirstFramePC
+uint32_t
+aFramesToSkip
 )
 ;
 typedef
