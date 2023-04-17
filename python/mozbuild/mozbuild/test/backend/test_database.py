@@ -338,7 +338,7 @@ limit
 {
 }
 /
-bar
+baz
 .
 cpp
 "
@@ -358,7 +358,7 @@ file
 {
 }
 /
-bar
+baz
 .
 cpp
 "
@@ -403,7 +403,7 @@ limit
 {
 }
 /
-foo
+qux
 .
 cpp
 "
@@ -423,7 +423,7 @@ file
 {
 }
 /
-foo
+qux
 .
 cpp
 "
