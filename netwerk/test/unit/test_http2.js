@@ -8143,7 +8143,6 @@ continue_test_http2_disk_cache_push
 (
 status
 entry
-appCache
 )
 {
 /
