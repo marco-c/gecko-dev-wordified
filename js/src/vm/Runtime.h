@@ -4501,7 +4501,10 @@ js
 GeneratorKind
 getSelfHostedFunctionGeneratorKind
 (
-JSAtom
+js
+:
+:
+PropertyName
 *
 name
 )
