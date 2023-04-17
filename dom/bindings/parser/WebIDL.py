@@ -9564,7 +9564,7 @@ we
 re
 not
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
             
 if
@@ -9573,7 +9573,7 @@ self
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -9593,7 +9593,7 @@ has
 "
 "
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
 "
                     
@@ -9641,7 +9641,7 @@ an
 interface
 with
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
                 
 if
@@ -9650,7 +9650,7 @@ parent
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -9673,7 +9673,7 @@ from
 interface
 with
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
 "
                         
@@ -12905,7 +12905,7 @@ identifier
 =
 =
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
                 
 or

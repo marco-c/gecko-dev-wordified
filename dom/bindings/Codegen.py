@@ -14631,7 +14631,7 @@ interface
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -28965,7 +28965,7 @@ interface
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -99770,7 +99770,7 @@ interface
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -102349,9 +102349,11 @@ interface
 .
 getExtendedAttribute
 (
+                
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
+            
 )
 :
                 
@@ -103023,7 +103025,7 @@ interface
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -103876,9 +103878,11 @@ interface
 .
 getExtendedAttribute
 (
+                
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
+            
 )
 :
                 
@@ -105083,7 +105087,7 @@ interface
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
@@ -105388,7 +105392,7 @@ a
 NamedSetter
 and
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
         
 #
@@ -105432,7 +105436,7 @@ getExtendedAttribute
 (
             
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
         
 )
@@ -105482,7 +105486,7 @@ t
 cope
 with
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
 and
 an
@@ -105529,7 +105533,7 @@ t
 cope
 with
 [
-OverrideBuiltins
+LegacyOverrideBuiltIns
 ]
 and
 unforgeable
@@ -108872,7 +108876,7 @@ interface
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
         
@@ -109047,7 +109051,7 @@ interface
 getExtendedAttribute
 (
 "
-OverrideBuiltins
+LegacyOverrideBuiltIns
 "
 )
 :
