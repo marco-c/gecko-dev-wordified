@@ -7175,11 +7175,6 @@ fm
 aPresContext
 -
 >
-DeviceContext
-(
-)
--
->
 GetMetricsFor
 (
 font
@@ -10944,11 +10939,6 @@ nsFontMetrics
 fm
 =
 presContext
--
->
-DeviceContext
-(
-)
 -
 >
 GetMetricsFor

@@ -235,7 +235,7 @@ class
 gfxTextPerfMetrics
 ;
 class
-nsDeviceContext
+nsPresContext
 ;
 class
 nsAtom
@@ -330,7 +330,7 @@ by
 asking
 the
 *
-device
+pres
 context
 to
 cough
@@ -529,7 +529,7 @@ const
 Params
 &
 aParams
-nsDeviceContext
+nsPresContext
 *
 aContext
 )
@@ -563,7 +563,7 @@ font
 metrics
 and
 the
-device
+pres
 context
 .
 *
@@ -1508,7 +1508,7 @@ mLanguage
 Pointer
 to
 the
-device
+pres
 context
 for
 which
@@ -1520,10 +1520,10 @@ was
 /
 created
 .
-nsDeviceContext
+nsPresContext
 *
 MOZ_NON_OWNING_REF
-mDeviceContext
+mPresContext
 ;
 int32_t
 mP2A

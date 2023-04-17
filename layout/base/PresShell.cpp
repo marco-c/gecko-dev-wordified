@@ -6508,11 +6508,6 @@ this
 mPresContext
 -
 >
-DeviceContext
-(
-)
--
->
 InitFontCache
 (
 )
@@ -72576,11 +72571,6 @@ nsFontMetrics
 fm
 =
 aPresContext
--
->
-DeviceContext
-(
-)
 -
 >
 GetMetricsFor
