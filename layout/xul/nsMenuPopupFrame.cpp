@@ -6120,16 +6120,8 @@ aTriggerContent
 ;
 mPopupState
 =
-ePopupClosed
+ePopupShowing
 ;
-/
-/
-Treat
-native
-popups
-as
-closed
-.
 mAnchorContent
 =
 nullptr
