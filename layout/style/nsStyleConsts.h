@@ -2798,6 +2798,16 @@ Default
 Menu
 Tooltip
 Sheet
+Cliprounded
+/
+/
+clip
+border
+to
+popup
+border
+-
+radius
 }
 ;
 /

@@ -442,6 +442,7 @@ none
 menu
 tooltip
 sheet
+cliprounded
 "
 engines
 =
