@@ -1065,6 +1065,8 @@ mozilla
 :
 Modifiers
 aModifiers
+int16_t
+aButton
 )
 ;
 /
