@@ -3573,7 +3573,10 @@ BlobURLs
 for
 /
 /
-aPrincipal
+aURI
+'
+s
+principal
 that
 were
 previously
@@ -3583,10 +3586,10 @@ transmitted
 This
 allows
 for
+/
+/
 opening
 a
-/
-/
 locally
 created
 BlobURL
@@ -3656,9 +3659,6 @@ TransmitBlobDataIfBlobURL
 nsIURI
 *
 aURI
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 void
