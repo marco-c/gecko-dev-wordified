@@ -168,14 +168,6 @@ metrics
 .
 yaml
 "
-    
-"
-gfx
-/
-metrics
-.
-yaml
-"
 ]
 #
 The
