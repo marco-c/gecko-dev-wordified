@@ -10282,7 +10282,9 @@ case
 .
 if
 (
-mPaddingBRElementForEmptyEditor
+IsEmpty
+(
+)
 )
 {
 aOutputString
