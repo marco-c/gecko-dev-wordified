@@ -6312,7 +6312,7 @@ lambda
 None
 )
                 
-target_sysroot
+target_sysroot_path
 =
 depends
 (
