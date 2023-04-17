@@ -1227,6 +1227,18 @@ src
 /
 common
 /
+system_utils_apple
+.
+cpp
+"
+    
+"
+/
+/
+src
+/
+common
+/
 system_utils_linux
 .
 cpp
@@ -2915,6 +2927,15 @@ WINNT
 '
             
 elif
+b
+.
+endswith
+(
+"
+_apple
+"
+)
+or
 b
 .
 endswith
