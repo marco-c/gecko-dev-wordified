@@ -171,14 +171,15 @@ ipc
 :
 BackgroundParentImpl
 ;
-typedef
+using
+PrincipalInfo
+=
 mozilla
 :
 :
 ipc
 :
 :
-PrincipalInfo
 PrincipalInfo
 ;
 private
