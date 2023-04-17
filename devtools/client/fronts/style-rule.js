@@ -624,6 +624,16 @@ resourceWatcher
 if
 (
 resourceWatcher
+?
+.
+hasResourceWatcherSupport
+(
+resourceWatcher
+.
+TYPES
+.
+STYLESHEET
+)
 )
 {
 return
