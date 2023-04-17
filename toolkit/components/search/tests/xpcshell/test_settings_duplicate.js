@@ -590,11 +590,9 @@ appInfo
 version
 ;
 await
-OS
+IOUtils
 .
-File
-.
-writeAtomic
+write
 (
 OS
 .
@@ -626,11 +624,9 @@ enginesSettings
 )
 )
 {
-compression
+compress
 :
-"
-lz4
-"
+true
 }
 )
 ;
