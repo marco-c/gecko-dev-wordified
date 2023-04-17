@@ -315,7 +315,7 @@ delimiters
 Return
 a
 regular
-expression
+expresssion
 object
 (
 re
