@@ -7143,7 +7143,7 @@ wasm_sandbox_wasi_data
 wasi_data
 u32
 clock_id
-u64
+u32
 precision
 u32
 out
