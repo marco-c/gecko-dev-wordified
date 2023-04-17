@@ -804,6 +804,11 @@ CHECK
 notArray
 )
 ;
+JS_ClearPendingException
+(
+cx
+)
+;
 }
 RootedObject
 array
@@ -1145,6 +1150,11 @@ CHECK
 (
 !
 notArray
+)
+;
+JS_ClearPendingException
+(
+cx
 )
 ;
 }
