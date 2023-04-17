@@ -18074,9 +18074,6 @@ isOutermostOfCurrentCompile
 )
 )
 ;
-ScriptIndex
-cachedScriptIndex
-=
 handler_
 .
 nextLazyInnerFunction
@@ -18092,7 +18089,6 @@ handler_
 .
 cachedScriptData
 (
-cachedScriptIndex
 )
 ;
 const
@@ -18104,7 +18100,6 @@ handler_
 .
 cachedScriptExtra
 (
-cachedScriptIndex
 )
 ;
 MOZ_ASSERT
