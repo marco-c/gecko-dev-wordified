@@ -1575,7 +1575,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -1624,7 +1624,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -1862,7 +1862,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -1911,7 +1911,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -2057,7 +2057,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -2106,7 +2106,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -2412,7 +2412,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -2605,7 +2605,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -2751,7 +2751,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -2800,7 +2800,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -2941,7 +2941,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -2986,7 +2986,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -3031,7 +3031,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -3076,7 +3076,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -3116,7 +3116,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -3157,7 +3157,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -3206,7 +3206,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -3255,7 +3255,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -3401,7 +3401,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -3450,7 +3450,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -3598,7 +3598,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -3647,7 +3647,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -3795,7 +3795,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -3844,7 +3844,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -3992,7 +3992,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -4041,7 +4041,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -4584,7 +4584,7 @@ Infinity
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -4629,7 +4629,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -4669,7 +4669,7 @@ Infinity
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -4718,7 +4718,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -4855,7 +4855,7 @@ Infinity
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -4900,7 +4900,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -4940,7 +4940,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -4985,7 +4985,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -5025,7 +5025,7 @@ Infinity
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -5074,7 +5074,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -5114,7 +5114,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -5155,7 +5155,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -11167,7 +11167,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -11212,7 +11212,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -11257,7 +11257,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -11302,7 +11302,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -11530,7 +11530,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -11571,7 +11571,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -11620,7 +11620,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -11669,7 +11669,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -12000,7 +12000,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -12045,7 +12045,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -12090,7 +12090,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -12135,7 +12135,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -12363,7 +12363,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -12404,7 +12404,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -12453,7 +12453,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -12502,7 +12502,7 @@ f64
 ]
 )
 [
-f64_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -18620,7 +18620,7 @@ f32
 ]
 )
 [
-f32_arithmetic_nan
+arithmetic_nan
 ]
 )
 ;
@@ -53660,7 +53660,7 @@ Infinity
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -53701,7 +53701,7 @@ Infinity
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -53834,7 +53834,7 @@ Infinity
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -53875,7 +53875,7 @@ Infinity
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -57885,7 +57885,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -58170,7 +58170,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -58580,7 +58580,7 @@ f32
 ]
 )
 [
-f32_canonical_nan
+canonical_nan
 ]
 )
 ;
@@ -58861,7 +58861,7 @@ f64
 ]
 )
 [
-f64_canonical_nan
+canonical_nan
 ]
 )
 ;

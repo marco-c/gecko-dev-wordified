@@ -2905,7 +2905,7 @@ format
 !
 (
 "
-f32_canonical_nan
+canonical_nan
 "
 )
 ArithmeticNan
@@ -2915,7 +2915,7 @@ format
 !
 (
 "
-f32_arithmetic_nan
+arithmetic_nan
 "
 )
 Value
@@ -2970,7 +2970,7 @@ format
 !
 (
 "
-f64_canonical_nan
+canonical_nan
 "
 )
 ArithmeticNan
@@ -2980,7 +2980,7 @@ format
 !
 (
 "
-f64_arithmetic_nan
+arithmetic_nan
 "
 )
 Value
