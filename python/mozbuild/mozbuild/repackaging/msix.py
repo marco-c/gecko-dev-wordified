@@ -1192,9 +1192,7 @@ None
     
 vendor
 =
-"
-Mozilla
-"
+None
     
 displayname
 =
@@ -1210,11 +1208,18 @@ identity
 =
 None
     
-arch
+publisher
 =
 None
     
-publisher
+publisher_display_name
+=
+"
+Mozilla
+Corporation
+"
+    
+arch
 =
 None
     
@@ -1522,6 +1527,20 @@ App
 value
 =
 "
+Vendor
+"
+)
+        
+dict
+(
+section
+=
+"
+App
+"
+value
+=
+"
 Version
 "
 )
@@ -1553,7 +1572,29 @@ displayname
 =
 displayname
 or
+"
+Mozilla
+{
+}
+"
+.
+format
+(
 first
+)
+    
+second
+=
+next
+(
+values
+)
+    
+vendor
+=
+vendor
+or
+second
     
 if
 not
@@ -2051,49 +2092,17 @@ displayname
 )
     
 #
-Microsoft
-names
-its
-packages
+The
+standard
+package
+name
+is
 like
 "
-Microsoft
+CompanyNoSpaces
 .
-VCLibs
-.
-140
-.
-00
-.
-UWPDesktop
+ProductNoSpaces
 "
-.
-    
-#
-Hyphenated
-(
-kebab
-)
-names
-seem
-to
-install
-correctly
-but
-Remove
--
-AppPackage
-    
-#
-kebab
--
-name
-seems
-to
-fail
-in
-some
-cases
 .
     
 identity
@@ -2112,15 +2121,14 @@ format
 (
 vendor
 displayname
+)
 .
 replace
 (
 "
 "
 "
-.
 "
-)
 )
     
 #
@@ -2159,9 +2167,7 @@ like
 #
 Mozilla
 .
-Firefox
-.
-Nightly_89
+MozillaFirefoxNightly_89
 .
 0
 .
@@ -3411,6 +3417,12 @@ APPX_PUBLISHER
 publisher
         
 "
+APPX_PUBLISHER_DISPLAY_NAME
+"
+:
+publisher_display_name
+        
+"
 APPX_RESOURCE_LANGUAGE_LIST
 "
 :
@@ -3433,12 +3445,6 @@ MOZ_APP_NAME
 "
 :
 app_name
-        
-"
-MOZ_APP_VENDOR
-"
-:
-vendor
         
 "
 MOZ_IGECKOBACKCHANNEL_IID
@@ -5478,9 +5484,8 @@ AppPackage
 name
 Mozilla
 .
-Firefox
+MozillaFirefox
 (
-.
 Beta
 .
 .
