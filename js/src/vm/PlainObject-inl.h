@@ -364,6 +364,8 @@ Shape
 *
 >
 shape
+NewObjectKind
+newKind
 )
 {
 MOZ_ASSERT
@@ -391,7 +393,7 @@ heap
 =
 GetInitialHeap
 (
-GenericObject
+newKind
 &
 PlainObject
 :

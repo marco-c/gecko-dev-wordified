@@ -306,6 +306,10 @@ Shape
 *
 >
 shape
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 static
