@@ -39297,6 +39297,10 @@ aCtx
 nsDisplayListBuilder
 *
 aBuilder
+const
+nsRect
+&
+aVisibleRect
 bool
 aIsRecording
 =
@@ -39623,6 +39627,9 @@ private
 :
 nsRect
 mBounds
+;
+nsRect
+mVisibleRect
 ;
 float
 mOpacity
