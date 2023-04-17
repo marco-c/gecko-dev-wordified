@@ -1381,6 +1381,7 @@ data
 let
 defaults
 =
+await
 AboutWelcomeDefaults
 .
 getDefaults
