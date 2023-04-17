@@ -1136,13 +1136,10 @@ countKey
 ;
 browser
 .
-setAttribute
+removeAttribute
 (
 "
 preloadedState
-"
-"
-consumed
 "
 )
 ;
