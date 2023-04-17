@@ -516,7 +516,6 @@ page
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -612,6 +611,17 @@ is
 highlighted
 .
 "
+)
+;
+const
+testActor
+=
+await
+getTestActor
+(
+inspector
+.
+toolbox
 )
 ;
 is
