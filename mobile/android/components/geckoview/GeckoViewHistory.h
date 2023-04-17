@@ -203,8 +203,8 @@ GetSingleton
 void
 StartPendingVisitedQueries
 (
+const
 PendingVisitedQueries
-&
 &
 )
 final
@@ -219,15 +219,6 @@ QueryVisitedState
 nsIWidget
 *
 aWidget
-mozilla
-:
-:
-dom
-:
-:
-ContentParent
-*
-aInterestedProcess
 nsTArray
 <
 RefPtr
@@ -250,9 +241,6 @@ VisitedURI
 >
 &
 aVisitedURIs
-ContentParentSet
-*
-aInterestedProcesses
 )
 ;
 private
