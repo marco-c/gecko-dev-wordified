@@ -5031,7 +5031,7 @@ NS_RGBA
 nsDisplayListBuilderMode
 :
 :
-Painting
+PaintForPrinting
 nsLayoutUtils
 :
 :
