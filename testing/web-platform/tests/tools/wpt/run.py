@@ -12,6 +12,11 @@ distutils
 spawn
 import
 find_executable
+from
+typing
+import
+ClassVar
+Type
 wpt_root
 =
 os
@@ -1262,10 +1267,29 @@ object
 name
 =
 None
+#
+type
+:
+ClassVar
+[
+str
+]
     
 browser_cls
 =
 None
+#
+type
+:
+ClassVar
+[
+Type
+[
+browser
+.
+Browser
+]
+]
     
 def
 __init__
@@ -6555,6 +6579,10 @@ try
 main
 (
 )
+#
+type
+:
+ignore
     
 except
 Exception
