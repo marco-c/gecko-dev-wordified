@@ -20535,6 +20535,9 @@ lsStream
 if
 (
 aManager
+&
+&
+aManager
 -
 >
 GetRoot
@@ -23436,6 +23439,9 @@ StaticPrefs
 layers_dump_client_layers
 (
 )
+&
+&
+layerManager
 )
 {
 std

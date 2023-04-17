@@ -23231,7 +23231,7 @@ newItem
 =
 MakeDisplayItemWithIndex
 <
-nsDisplayWrapList
+nsDisplayWrapper
 >
 (
 aBuilder
