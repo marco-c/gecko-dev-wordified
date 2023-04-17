@@ -663,6 +663,8 @@ override
 double
 GetAspect
 (
+uint8_t
+aSizeAdjustBasis
 )
 ;
 protected
@@ -838,9 +840,6 @@ mHasVariations
 ;
 bool
 mHasVariationsInitialized
-;
-double
-mAspect
 ;
 class
 UnscaledFontCache
