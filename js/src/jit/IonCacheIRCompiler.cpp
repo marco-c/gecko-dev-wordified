@@ -12949,6 +12949,8 @@ uint32_t
 arrayLength
 uint32_t
 shapeOffset
+uint32_t
+siteOffset
 )
 {
 MOZ_CRASH
@@ -12981,6 +12983,8 @@ AllocKind
 allocKind
 uint32_t
 shapeOffset
+uint32_t
+siteOffset
 )
 {
 MOZ_CRASH

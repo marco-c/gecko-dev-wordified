@@ -786,6 +786,23 @@ writeRawInt64Field
 )
     
 "
+AllocSiteField
+"
+:
+(
+"
+gc
+:
+:
+AllocSite
+*
+"
+"
+writeAllocSiteField
+"
+)
+    
+"
 JSOpImm
 "
 :
@@ -1966,6 +1983,26 @@ stubOffset
 )
     
 "
+AllocSiteField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
 JSOpImm
 "
 :
@@ -2830,6 +2867,14 @@ spewField
     
 "
 RawInt64Field
+"
+:
+"
+spewField
+"
+    
+"
+AllocSiteField
 "
 :
 "
@@ -3868,6 +3913,12 @@ IdField
     
 "
 ValueField
+"
+:
+1
+    
+"
+AllocSiteField
 "
 :
 1

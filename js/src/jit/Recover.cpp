@@ -9782,7 +9782,7 @@ JSObject
 *
 resultObject
 =
-NewPlainObject
+NewPlainObjectOptimizedFallback
 (
 cx
 shape

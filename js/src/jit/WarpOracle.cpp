@@ -6961,6 +6961,15 @@ Type
 :
 RawInt64
 :
+case
+StubField
+:
+:
+Type
+:
+:
+AllocSite
+:
 break
 ;
 case
