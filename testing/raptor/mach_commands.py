@@ -2724,6 +2724,7 @@ self
 .
 run_raptor
 (
+command_context
 *
 *
 kwargs
