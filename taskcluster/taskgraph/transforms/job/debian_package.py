@@ -668,6 +668,12 @@ buster
 "
 :
 10
+        
+"
+bullseye
+"
+:
+11
     
 }
 [
@@ -1591,6 +1597,10 @@ dependencies
         
 "
 (
+cd
+.
+.
+;
 mk
 -
 build
@@ -1600,6 +1610,10 @@ deps
 i
 -
 r
+{
+package
+}
+/
 debian
 /
 control
