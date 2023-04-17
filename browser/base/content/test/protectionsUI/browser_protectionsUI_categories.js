@@ -1136,9 +1136,7 @@ popup
 -
 category
 -
-tracking
--
-protection
+trackers
 "
 "
 protections
@@ -1496,9 +1494,7 @@ popup
 -
 category
 -
-tracking
--
-protection
+trackers
 "
 "
 protections

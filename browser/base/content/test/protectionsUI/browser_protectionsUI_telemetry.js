@@ -240,6 +240,10 @@ gBrowser
 .
 ownerGlobal
 .
+gProtectionsHandler
+.
+blockers
+.
 TrackingProtection
 ;
 ok

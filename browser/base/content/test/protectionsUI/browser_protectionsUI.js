@@ -3469,9 +3469,7 @@ popup
 -
 category
 -
-tracking
--
-protection
+trackers
 "
 "
 trackers
