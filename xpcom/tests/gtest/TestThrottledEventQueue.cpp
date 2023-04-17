@@ -226,6 +226,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
