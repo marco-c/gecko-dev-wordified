@@ -1541,7 +1541,7 @@ NS_ERROR_FAILURE
 if
 (
 !
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 &
@@ -5747,7 +5747,7 @@ NS_VK_TAB
 {
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -33688,7 +33688,7 @@ CommitComposition
 ?
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )

@@ -1541,7 +1541,7 @@ CommitComposition
 ?
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -13485,7 +13485,7 @@ CommitComposition
 ?
 if
 (
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )

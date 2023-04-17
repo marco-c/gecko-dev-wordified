@@ -18292,7 +18292,7 @@ if
 !
 aHTMLEditor
 .
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -18917,7 +18917,7 @@ if
 !
 aHTMLEditor
 .
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )

@@ -3840,7 +3840,7 @@ mShouldSwitchTextDirection
 editorBase
 -
 >
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 )
@@ -6427,7 +6427,7 @@ kMozTextInternal
 mEditorBase
 -
 >
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 &

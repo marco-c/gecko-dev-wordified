@@ -21138,7 +21138,7 @@ t
 be
 called
 when
-IsPlaintextEditor
+IsInPlaintextMode
 (
 )
 is
