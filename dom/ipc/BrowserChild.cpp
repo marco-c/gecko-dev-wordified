@@ -18331,7 +18331,7 @@ aPreserve
 {
 mIsPreservingLayers
 =
-true
+aPreserve
 ;
 PresShellActivenessMaybeChanged
 (
