@@ -2310,7 +2310,8 @@ JSOp
 :
 Arguments
 :
-if
+{
+MOZ_ASSERT
 (
 script_
 -
@@ -2319,7 +2320,7 @@ needsArgsObj
 (
 )
 )
-{
+;
 bool
 mapped
 =
@@ -2372,9 +2373,9 @@ Alloc
 )
 ;
 }
-}
 break
 ;
+}
 case
 JSOp
 :
