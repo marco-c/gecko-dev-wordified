@@ -833,6 +833,7 @@ aNode
 uint32_t
 aOffset
 )
+const
 ;
 }
 ;
