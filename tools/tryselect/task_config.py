@@ -2324,15 +2324,9 @@ not
 all
 (
             
-kwargs
-.
-get
-(
 s
-)
 is
 None
-            
 for
 s
 in
