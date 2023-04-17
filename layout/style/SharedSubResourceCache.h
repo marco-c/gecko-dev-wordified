@@ -2971,7 +2971,10 @@ n
 =
 aMallocSizeOf
 (
-this
+&
+AsDerived
+(
+)
 )
 ;
 n
