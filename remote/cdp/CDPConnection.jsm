@@ -223,7 +223,7 @@ wrap
 *
 param
 {
-HttpServer
+Connection
 }
 httpdConnection
 *

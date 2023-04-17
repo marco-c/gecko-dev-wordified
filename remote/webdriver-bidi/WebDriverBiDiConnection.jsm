@@ -222,7 +222,7 @@ wrap
 *
 param
 {
-HttpServer
+Connection
 }
 httpdConnection
 *
@@ -263,6 +263,7 @@ has
 only
 a
 single
+associated
 WebDriver
 session
 .
