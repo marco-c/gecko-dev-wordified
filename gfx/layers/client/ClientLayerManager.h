@@ -2044,6 +2044,13 @@ mTransactionIdAllocator
 TransactionId
 mLatestTransactionId
 ;
+AutoTArray
+<
+TransactionId
+3
+>
+mPendingTransactions
+;
 TimeDuration
 mLastPaintTime
 ;
