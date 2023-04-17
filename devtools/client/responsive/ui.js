@@ -3414,13 +3414,16 @@ by
 tests
 this
 .
-emit
+emitForTests
 (
 "
 device
 -
 changed
 "
+{
+reloadNeeded
+}
 )
 ;
 }
@@ -3739,7 +3742,7 @@ by
 tests
 this
 .
-emit
+emitForTests
 (
 "
 device
@@ -3748,6 +3751,9 @@ association
 -
 removed
 "
+{
+reloadNeeded
+}
 )
 ;
 }
