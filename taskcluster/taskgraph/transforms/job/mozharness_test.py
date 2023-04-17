@@ -762,7 +762,6 @@ path
 public
 /
 logs
-/
 "
 "
 {
@@ -812,7 +811,6 @@ run
 public
 /
 test_info
-/
 "
             
 "
