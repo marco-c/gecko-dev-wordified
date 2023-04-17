@@ -196,10 +196,13 @@ nativeArray
 =
 [
 [
+[
 NSMutableArray
 alloc
 ]
 init
+]
+autorelease
 ]
 ;
 /
@@ -318,10 +321,13 @@ nativeArray
 =
 [
 [
+[
 NSMutableArray
 alloc
 ]
 init
+]
+autorelease
 ]
 ;
 /

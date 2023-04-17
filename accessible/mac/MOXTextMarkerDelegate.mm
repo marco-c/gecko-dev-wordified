@@ -632,6 +632,7 @@ NSMutableDictionary
 info
 =
 [
+[
 {
 "
 AXSelectedTextMarkerRange
@@ -658,6 +659,8 @@ stateChangeType
 )
 }
 mutableCopy
+]
+autorelease
 ]
 ;
 GeckoTextMarker
