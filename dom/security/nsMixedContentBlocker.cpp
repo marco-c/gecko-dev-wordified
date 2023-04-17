@@ -4013,6 +4013,12 @@ ExtContentPolicy
 :
 TYPE_SPECULATIVE
 :
+case
+ExtContentPolicy
+:
+:
+TYPE_PROXIED_WEBRTC_MEDIA
+:
 break
 ;
 case
