@@ -6306,6 +6306,10 @@ const
 uint32_t
 &
 aSizeLimit
+const
+bool
+&
+aCancelSessionStoreTimer
 GetSessionStorageManagerDataResolver
 &
 &
@@ -6355,6 +6359,7 @@ RecvGetSessionStorageData
 (
 aTopContextId
 aSizeLimit
+aCancelSessionStoreTimer
 std
 :
 :
