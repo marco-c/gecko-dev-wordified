@@ -1422,9 +1422,6 @@ NativeAudioCallback
 PacerThread
 "
 "
-RemVidChild
-"
-"
 RenderBackend
 "
 "
