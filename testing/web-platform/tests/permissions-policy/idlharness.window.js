@@ -86,7 +86,7 @@ Document
 document
 '
 ]
-HTMLIframeElement
+HTMLIFrameElement
 :
 [
 '
