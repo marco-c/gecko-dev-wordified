@@ -168,6 +168,12 @@ extension
 "
 w
 "
+newline
+=
+"
+\
+n
+"
 )
 as
 f

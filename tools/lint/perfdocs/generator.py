@@ -677,9 +677,10 @@ r
 documentation
 }
 "
-os
-.
-linesep
+"
+\
+n
+"
 .
 join
 (
@@ -1165,13 +1166,13 @@ True
         
 fmt_frameworks
 =
-os
-.
-linesep
+"
+\
+n
+"
 .
 join
 (
-            
 [
 "
 *
@@ -1188,7 +1189,6 @@ name
 in
 frameworks
 ]
-        
 )
         
 fmt_mainpage
