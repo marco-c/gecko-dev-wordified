@@ -11767,9 +11767,10 @@ isAtom
 )
 |
 |
-JSID_IS_SYMBOL
-(
 id
+.
+isSymbol
+(
 )
 )
 ;
@@ -11908,9 +11909,10 @@ isAtom
 )
 |
 |
-JSID_IS_SYMBOL
-(
 id
+.
+isSymbol
+(
 )
 )
 ;
