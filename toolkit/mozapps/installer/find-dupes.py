@@ -288,7 +288,7 @@ True
 )
 :
     
-md5_chunk_size
+chunk_size
 =
 1024
 *
@@ -301,7 +301,7 @@ set
 allowed_dupes
 )
     
-md5s
+checksums
 =
 OrderedDict
 (
@@ -317,11 +317,11 @@ source
 )
 :
         
-md5
+checksum
 =
 hashlib
 .
-md5
+sha1
 (
 )
         
@@ -345,7 +345,7 @@ open
 )
 .
 read
-md5_chunk_size
+chunk_size
 )
 b
 "
@@ -353,7 +353,7 @@ b
 )
 :
             
-md5
+checksum
 .
 update
 (
@@ -380,7 +380,7 @@ buf
         
 m
 =
-md5
+checksum
 .
 digest
 (
@@ -390,7 +390,7 @@ if
 m
 not
 in
-md5s
+checksums
 :
             
 if
@@ -416,7 +416,7 @@ compressed
 =
 content_size
             
-md5s
+checksums
 [
 m
 ]
@@ -428,7 +428,7 @@ compressed
 ]
 )
         
-md5s
+checksums
 [
 m
 ]
@@ -473,7 +473,7 @@ six
 .
 iteritems
 (
-md5s
+checksums
 )
 key
 =
