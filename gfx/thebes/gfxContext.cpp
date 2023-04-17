@@ -202,17 +202,6 @@ include
 "
 mozilla
 /
-gfx
-/
-DrawTargetTiled
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ProfilerLabels
 .
 h
