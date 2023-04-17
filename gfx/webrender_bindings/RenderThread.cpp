@@ -6795,6 +6795,12 @@ defined
 (
 MOZ_WAYLAND
 )
+|
+|
+defined
+(
+MOZ_X11
+)
 static
 already_AddRefed
 <
@@ -7038,6 +7044,12 @@ elif
 defined
 (
 MOZ_WAYLAND
+)
+|
+|
+defined
+(
+MOZ_X11
 )
 if
 (
