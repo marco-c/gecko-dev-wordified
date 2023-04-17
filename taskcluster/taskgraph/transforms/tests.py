@@ -588,7 +588,7 @@ hw
 }
     
 "
-windows7
+windows10
 -
 32
 -
@@ -604,9 +604,9 @@ virtual
 "
 t
 -
-win7
+win10
 -
-32
+64
 "
         
 "
@@ -620,11 +620,13 @@ gpu
 "
 t
 -
-win7
+win10
 -
-32
+64
 -
 gpu
+-
+s
 "
         
 "
