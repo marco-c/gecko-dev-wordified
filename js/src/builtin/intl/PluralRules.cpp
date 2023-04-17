@@ -958,7 +958,6 @@ KeywordToString
 JSContext
 *
 cx
-const
 mozilla
 :
 :
@@ -2124,7 +2123,6 @@ false
 }
 for
 (
-const
 PluralRules
 :
 :
