@@ -4317,6 +4317,16 @@ Location
 webidl
 "
 "
+Lock
+.
+webidl
+"
+"
+LockManager
+.
+webidl
+"
+"
 MathMLElement
 .
 webidl
