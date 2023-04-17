@@ -4686,7 +4686,7 @@ Gamepad
 "
 insecureContext
 :
-false
+true
 }
 /
 /
@@ -4712,7 +4712,7 @@ GamepadAxisMoveEvent
 "
 insecureContext
 :
-false
+true
 }
 /
 /
@@ -4738,7 +4738,7 @@ GamepadButtonEvent
 "
 insecureContext
 :
-false
+true
 }
 /
 /
@@ -4764,7 +4764,7 @@ GamepadButton
 "
 insecureContext
 :
-false
+true
 }
 /
 /
@@ -4790,7 +4790,7 @@ GamepadEvent
 "
 insecureContext
 :
-false
+true
 }
 /
 /
@@ -4816,7 +4816,7 @@ GamepadHapticActuator
 "
 insecureContext
 :
-false
+true
 }
 /
 /
@@ -4871,7 +4871,7 @@ GamepadPose
 "
 insecureContext
 :
-false
+true
 }
 /
 /
