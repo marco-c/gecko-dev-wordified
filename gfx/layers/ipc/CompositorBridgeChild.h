@@ -1186,11 +1186,6 @@ PAPZChild
 aActor
 )
 ;
-void
-WillEndTransaction
-(
-)
-;
 PWebRenderBridgeChild
 *
 AllocPWebRenderBridgeChild
