@@ -565,7 +565,7 @@ void
 AddResourceId
 (
 const
-nsAString
+nsACString
 &
 aResourceId
 )
@@ -574,7 +574,7 @@ uint32_t
 RemoveResourceId
 (
 const
-nsAString
+nsACString
 &
 aResourceId
 )
@@ -585,7 +585,7 @@ AddResourceIds
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aResourceIds
@@ -597,7 +597,7 @@ RemoveResourceIds
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aResourceIds
