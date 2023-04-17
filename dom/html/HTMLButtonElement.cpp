@@ -470,13 +470,9 @@ false
 )
 mInhibitStateRestoration
 (
-!
-!
-(
 aFromParser
 &
 FROM_PARSER_FRAGMENT
-)
 )
 {
 /
