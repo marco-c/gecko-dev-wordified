@@ -262,14 +262,15 @@ hal
 :
 BatteryObserver
 {
-typedef
+using
+PBackgroundChild
+=
 mozilla
 :
 :
 ipc
 :
 :
-PBackgroundChild
 PBackgroundChild
 ;
 class

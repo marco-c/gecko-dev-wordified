@@ -10945,7 +10945,9 @@ thread
 TimeStamp
 gLastOSWake
 ;
-typedef
+using
+NormalOriginOpArray
+=
 nsTArray
 <
 CheckedUnsafePtr
@@ -10953,7 +10955,6 @@ CheckedUnsafePtr
 NormalOriginOperationBase
 >
 >
-NormalOriginOpArray
 ;
 StaticAutoPtr
 <
