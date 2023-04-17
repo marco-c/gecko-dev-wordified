@@ -967,30 +967,7 @@ OpenSSL
 .
 2
 +
-(
-and
-Python
-3
 .
-6
-+
-but
-WPT
-    
-#
-requires
-that
-anyway
-so
-we
-don
-'
-t
-check
-that
-here
-.
-)
     
 #
     

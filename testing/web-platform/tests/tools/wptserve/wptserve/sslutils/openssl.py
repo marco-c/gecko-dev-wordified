@@ -549,13 +549,6 @@ keys
 values
 being
 str
-(
-on
-both
-Py2
-/
-3
-)
 .
         
 env

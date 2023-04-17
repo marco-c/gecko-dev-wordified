@@ -5245,19 +5245,6 @@ compatible
                          
 '
 Requires
-Python
-2
-.
-7
-.
-10
-+
-or
-3
-.
-6
-+
-and
 OpenSSL
 1
 .
