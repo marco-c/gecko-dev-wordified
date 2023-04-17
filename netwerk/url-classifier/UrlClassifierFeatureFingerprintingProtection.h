@@ -141,7 +141,7 @@ UrlClassifierFeatureFingerprintingProtection
 final
 :
 public
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 {
 public
 :

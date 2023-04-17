@@ -141,7 +141,7 @@ UrlClassifierFeatureCryptominingAnnotation
 final
 :
 public
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 {
 public
 :

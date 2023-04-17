@@ -282,7 +282,7 @@ UrlClassifierFeatureSocialTrackingProtection
 (
 )
 :
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 (
 nsLiteralCString
 (

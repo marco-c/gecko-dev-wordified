@@ -287,7 +287,7 @@ UrlClassifierFeatureSocialTrackingAnnotation
 (
 )
 :
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 (
 nsLiteralCString
 (

@@ -276,7 +276,7 @@ UrlClassifierFeatureTrackingProtection
 (
 )
 :
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 (
 nsLiteralCString
 (

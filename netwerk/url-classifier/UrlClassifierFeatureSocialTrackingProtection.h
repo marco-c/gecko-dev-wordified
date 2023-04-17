@@ -141,7 +141,7 @@ UrlClassifierFeatureSocialTrackingProtection
 final
 :
 public
-UrlClassifierFeatureBase
+UrlClassifierFeatureAntiTrackingBase
 {
 public
 :
