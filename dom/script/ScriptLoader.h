@@ -4308,6 +4308,9 @@ ScriptLoadRequest
 >
 mParserBlockingRequest
 ;
+ScriptLoadRequestList
+mOffThreadCompilingRequests
+;
 /
 /
 List
