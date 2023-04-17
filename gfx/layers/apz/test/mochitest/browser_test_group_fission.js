@@ -468,6 +468,15 @@ helper_fission_checkerboard_severity
 html
 "
 }
+{
+file
+:
+"
+helper_fission_setResolution
+.
+html
+"
+}
 /
 /
 add
