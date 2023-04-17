@@ -1395,7 +1395,7 @@ const
 #
 define
 ODOH_VERSION
-0xff04
+0xff06
 static
 const
 char
@@ -1424,13 +1424,13 @@ id
 static
 const
 char
-kODoHSecret
+kODoHResponse
 [
 ]
 =
 "
 odoh
-secret
+response
 "
 ;
 static
