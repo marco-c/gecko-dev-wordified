@@ -3423,7 +3423,7 @@ to
 aPrimarySheet
 .
 void
-FixUpAfterInnerClone
+BuildChildListAfterInnerClone
 (
 )
 ;

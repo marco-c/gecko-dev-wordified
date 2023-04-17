@@ -237,15 +237,6 @@ return
 mRaw
 ;
 }
-void
-SetRawAfterClone
-(
-RefPtr
-<
-RawServoKeyframe
->
-)
-;
 /
 /
 WebIDL

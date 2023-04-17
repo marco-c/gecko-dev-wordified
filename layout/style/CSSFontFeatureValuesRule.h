@@ -228,16 +228,6 @@ return
 mRawRule
 ;
 }
-void
-SetRawAfterClone
-(
-RefPtr
-<
-RawServoFontFeatureValuesRule
->
-aRaw
-)
-;
 /
 /
 WebIDL
