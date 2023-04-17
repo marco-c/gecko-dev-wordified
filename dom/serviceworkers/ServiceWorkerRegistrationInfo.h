@@ -1428,6 +1428,11 @@ ServiceWorkerInfo
 )
 )
 ;
+void
+CheckQuotaUsage
+(
+)
+;
 }
 ;
 }
