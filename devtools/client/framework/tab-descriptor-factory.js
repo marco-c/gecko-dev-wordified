@@ -220,7 +220,7 @@ request
 to
 retrieve
 the
-FrameTargetActor
+WindowGlobalTargetActor
 '
 s
 form

@@ -79,7 +79,7 @@ It
 *
 launches
 a
-FrameTargetActor
+WindowGlobalTargetActor
 in
 the
 content
@@ -302,7 +302,7 @@ that
 connects
 to
 a
-FrameTargetActor
+WindowGlobalTargetActor
 in
 a
 remote

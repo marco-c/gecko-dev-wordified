@@ -993,7 +993,7 @@ itself
 actor
 :
 the
-FrameTargetActor
+WindowGlobalTargetActor
 instance
 this
 .
@@ -2623,7 +2623,7 @@ call
 In
 theory
 the
-FrameTargetActor
+WindowGlobalTargetActor
 may
 emit
 events
@@ -2969,7 +2969,7 @@ server
 ;
 const
 {
-FrameTargetActor
+WindowGlobalTargetActor
 }
 =
 this
@@ -2987,7 +2987,9 @@ actors
 /
 targets
 /
-frame
+window
+-
+global
 "
 )
 ;
@@ -3023,7 +3025,7 @@ going
 to
 spawn
 a
-FrameTargetActor
+WindowGlobalTargetActor
 instance
 in
 the
@@ -3091,7 +3093,7 @@ const
 targetActor
 =
 new
-FrameTargetActor
+WindowGlobalTargetActor
 (
 connection
 {

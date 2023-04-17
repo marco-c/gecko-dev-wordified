@@ -669,7 +669,7 @@ an
 instance
 *
 of
-FrameTargetActor
+WindowGlobalTargetActor
 but
 that
 isn

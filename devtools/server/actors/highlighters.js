@@ -1789,7 +1789,7 @@ the
 targetActor
 is
 a
-FrameTargetActor
+WindowGlobalTargetActor
 and
 we
 use

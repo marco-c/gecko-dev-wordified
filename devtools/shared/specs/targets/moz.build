@@ -95,11 +95,6 @@ process
 js
 "
 "
-frame
-.
-js
-"
-"
 parent
 -
 process

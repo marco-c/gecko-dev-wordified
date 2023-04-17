@@ -2685,7 +2685,7 @@ the
 target
 is
 a
-FrameTargetActor
+WindowGlobalTargetActor
 /
 /
 which
@@ -2744,7 +2744,7 @@ TabDescriptor
 expose
 a
 pure
-FrameTargetActor
+WindowGlobalTargetActor
 ?
 ?
 (

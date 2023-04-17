@@ -127,8 +127,12 @@ class
 is
 extended
 by
-FrameTargetActor
 ParentProcessTargetActor
+itself
+being
+extented
+by
+WebExtensionTargetActor
 .
 *
 *
@@ -1842,7 +1846,7 @@ class
 is
 subclassed
 by
-FrameTargetActor
+ParentProcessTargetActor
 and
 others
 .
@@ -2008,7 +2012,7 @@ local
 tab
 toolbox
 the
-FrameTargetActor
+WindowGlobalTargetActor
 for
 the
 content
@@ -3335,7 +3339,7 @@ this
 .
 contentDocument
 .
-contentTitle
+title
 ;
 }
 /

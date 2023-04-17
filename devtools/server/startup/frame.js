@@ -379,7 +379,7 @@ going
 to
 spawn
 a
-FrameTargetActor
+WindowGlobalTargetActor
 instance
 in
 the
@@ -656,7 +656,7 @@ else
 {
 const
 {
-FrameTargetActor
+WindowGlobalTargetActor
 }
 =
 require
@@ -670,7 +670,9 @@ actors
 /
 targets
 /
-frame
+window
+-
+global
 "
 )
 ;
@@ -702,7 +704,7 @@ manager
 /
 /
 All
-FrameTarget
+WindowGlobalTarget
 actors
 created
 via
@@ -720,7 +722,7 @@ Non
 top
 -
 level
-FrameTarget
+WindowGlobalTarget
 actors
 are
 all
@@ -735,7 +737,7 @@ actor
 actor
 =
 new
-FrameTargetActor
+WindowGlobalTargetActor
 (
 conn
 {
