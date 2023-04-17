@@ -2215,6 +2215,10 @@ eDeviceMotion
 )
 NS_EVENT_MESSAGE
 (
+eUserProximity
+)
+NS_EVENT_MESSAGE
+(
 eDeviceLight
 )
 #

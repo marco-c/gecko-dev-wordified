@@ -19828,6 +19828,16 @@ onmozorientationchange
 "
 )
     
+Atom
+(
+"
+onuserproximity
+"
+"
+onuserproximity
+"
+)
+    
 #
 light
 sensor
