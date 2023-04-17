@@ -597,6 +597,8 @@ data
 :
 blob
 :
+chrome
+:
 ;
 style
 -
