@@ -442,7 +442,6 @@ TEST_STRINGS
 {
 info
 (
-"
 Input
 the
 value
@@ -450,7 +449,11 @@ normally
 and
 Enter
 .
-"
+Value
+:
+{
+value
+}
 )
 ;
 let
