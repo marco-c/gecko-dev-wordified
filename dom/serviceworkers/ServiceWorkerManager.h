@@ -1958,6 +1958,14 @@ aRegistration
 )
 ;
 void
+NotifyListenersOnQuotaUsageCheckFinish
+(
+nsIServiceWorkerRegistrationInfo
+*
+aRegistration
+)
+;
+void
 ScheduleUpdateTimer
 (
 nsIPrincipal
