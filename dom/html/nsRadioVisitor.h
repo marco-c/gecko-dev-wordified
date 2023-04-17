@@ -136,8 +136,14 @@ nsIRadioVisitor
 .
 h
 "
-class
-nsIFormControl
+using
+mozilla
+:
+:
+dom
+:
+:
+HTMLInputElement
 ;
 /
 *
@@ -189,7 +195,7 @@ virtual
 bool
 Visit
 (
-nsIFormControl
+HTMLInputElement
 *
 aRadio
 )
@@ -263,7 +269,7 @@ virtual
 bool
 Visit
 (
-nsIFormControl
+HTMLInputElement
 *
 aRadio
 )
@@ -327,7 +333,7 @@ nsRadioGetCheckedChangedVisitor
 bool
 *
 aCheckedChanged
-nsIFormControl
+HTMLInputElement
 *
 aExcludeElement
 )
@@ -346,7 +352,7 @@ virtual
 bool
 Visit
 (
-nsIFormControl
+HTMLInputElement
 *
 aRadio
 )
@@ -358,7 +364,7 @@ bool
 *
 mCheckedChanged
 ;
-nsIFormControl
+HTMLInputElement
 *
 mExcludeElement
 ;
@@ -406,7 +412,7 @@ public
 :
 nsRadioSetValueMissingState
 (
-nsIFormControl
+HTMLInputElement
 *
 aExcludeElement
 bool
@@ -427,7 +433,7 @@ virtual
 bool
 Visit
 (
-nsIFormControl
+HTMLInputElement
 *
 aRadio
 )
@@ -435,7 +441,7 @@ override
 ;
 protected
 :
-nsIFormControl
+HTMLInputElement
 *
 mExcludeElement
 ;
@@ -455,7 +461,7 @@ public
 explicit
 nsRadioUpdateStateVisitor
 (
-nsIFormControl
+HTMLInputElement
 *
 aExcludeElement
 )
@@ -470,7 +476,7 @@ virtual
 bool
 Visit
 (
-nsIFormControl
+HTMLInputElement
 *
 aRadio
 )
@@ -478,7 +484,7 @@ override
 ;
 protected
 :
-nsIFormControl
+HTMLInputElement
 *
 mExcludeElement
 ;
