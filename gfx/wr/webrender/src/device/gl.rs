@@ -14922,6 +14922,15 @@ Result
 ShaderError
 >
 {
+profile_scope
+!
+(
+"
+compile
+shader
+"
+)
+;
 let
 _guard
 =
