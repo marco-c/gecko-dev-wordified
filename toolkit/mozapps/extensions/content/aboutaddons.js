@@ -73,13 +73,6 @@ error
 /
 /
 *
-exported
-initializeView
-showView
-*
-/
-/
-*
 import
 -
 globals
