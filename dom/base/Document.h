@@ -17759,6 +17759,16 @@ null
 .
 *
 param
+aPrintSettings
+The
+print
+settings
+for
+this
+clone
+.
+*
+param
 aOutHasInProcessPrintCallbacks
 Self
 -
@@ -17778,6 +17788,9 @@ aCloneContainer
 nsIContentViewer
 *
 aContentViewer
+nsIPrintSettings
+*
+aPrintSettings
 bool
 *
 aOutHasInProcessPrintCallbacks

@@ -79961,6 +79961,9 @@ aCloneContainer
 nsIContentViewer
 *
 aViewer
+nsIPrintSettings
+*
+aPrintSettings
 bool
 *
 aOutHasInProcessPrintCallbacks
@@ -80608,6 +80611,7 @@ FinishStaticClone
 clone
 .
 mStaticCloneOf
+aPrintSettings
 aOutHasInProcessPrintCallbacks
 )
 ;
