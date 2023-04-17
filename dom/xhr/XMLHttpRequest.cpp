@@ -330,6 +330,12 @@ CookieJarSettings
 :
 Create
 (
+principal
+-
+>
+GetPrincipal
+(
+)
 )
 ;
 }
