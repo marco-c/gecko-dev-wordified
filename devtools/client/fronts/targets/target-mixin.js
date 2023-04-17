@@ -605,6 +605,11 @@ if
 this
 .
 _offResourceEvent
+&
+&
+this
+.
+_offResourceEvent
 .
 has
 (
