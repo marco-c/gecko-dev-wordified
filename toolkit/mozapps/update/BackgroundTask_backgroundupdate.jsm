@@ -1026,6 +1026,13 @@ STATUS
 DOWNLOADING
 &
 &
+(
+UpdateService
+.
+onlyDownloadUpdatesThisSession
+|
+|
+(
 progress
 !
 =
@@ -1038,6 +1045,8 @@ progressMax
 =
 =
 undefined
+)
+)
 )
 {
 /
@@ -1123,6 +1132,11 @@ yet
 .
 if
 (
+UpdateService
+.
+onlyDownloadUpdatesThisSession
+|
+|
 progressMax
 <
 0
@@ -1132,11 +1146,6 @@ progress
 !
 =
 progressMax
-|
-|
-UpdateService
-.
-onlyDownloadUpdatesThisSession
 )
 {
 log
