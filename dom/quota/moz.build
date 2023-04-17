@@ -154,6 +154,11 @@ dom
 =
 [
 "
+QMResult
+.
+h
+"
+"
 StorageManager
 .
 h
@@ -376,6 +381,11 @@ cpp
 "
 "
 PersistenceType
+.
+cpp
+"
+"
+QMResult
 .
 cpp
 "
