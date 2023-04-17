@@ -312,14 +312,13 @@ bookmark
 "
 )
 ;
-EventUtils
+placesContext
 .
-synthesizeMouseAtCenter
+activateItem
 (
 properties
 {
 }
-library
 )
 ;
 }
