@@ -677,8 +677,8 @@ console
 .
 *
 param
-aError
-Error
+aStatus
+Status
 code
 *
 param
@@ -707,7 +707,7 @@ nsIChannel
 *
 aChannel
 nsresult
-aError
+aStatus
 )
 ;
 /
