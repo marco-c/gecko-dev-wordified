@@ -355,12 +355,6 @@ client
 ;
 this
 .
-isPanelReady
-=
-true
-;
-this
-.
 panelWin
 .
 document
