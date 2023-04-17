@@ -2244,7 +2244,7 @@ documentElement
 setAttribute
 (
 "
-OSXLionFullscreen
+macOSNativeFullscreen
 "
 true
 )
@@ -2280,7 +2280,7 @@ documentElement
 removeAttribute
 (
 "
-OSXLionFullscreen
+macOSNativeFullscreen
 "
 )
 ;
