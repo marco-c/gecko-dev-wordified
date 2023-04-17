@@ -1271,8 +1271,6 @@ chrome
 test
 =
 "
-raptor
--
 speedometer
 "
 browser_cycles
@@ -1312,11 +1310,7 @@ name
 =
 =
 "
-raptor
--
 speedometer
--
-chrome
 "
 def
 test_get_raptor_test_list_geckoview
