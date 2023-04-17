@@ -4591,7 +4591,7 @@ compWidget
 aCompositorWidget
 -
 >
-AsX11
+AsGTK
 (
 )
 ;

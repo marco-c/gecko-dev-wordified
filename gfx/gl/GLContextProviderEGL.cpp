@@ -129,7 +129,7 @@ aWidget
 aWidget
 -
 >
-AsX11
+AsGTK
 (
 )
 -
@@ -5903,7 +5903,7 @@ depth
 aCompositorWidget
 -
 >
-AsX11
+AsGTK
 (
 )
 -

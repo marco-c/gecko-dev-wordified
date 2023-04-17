@@ -305,7 +305,7 @@ override
 ;
 GtkCompositorWidget
 *
-AsX11
+AsGTK
 (
 )
 override
