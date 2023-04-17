@@ -268,7 +268,7 @@ Start
 Elem
 Code
 Data
-Tag
+Event
 }
 impl
 <
@@ -1136,7 +1136,7 @@ peek
 kw
 :
 :
-tag
+event
 >
 (
 )
@@ -1150,7 +1150,7 @@ parse
 kw
 :
 :
-tag
+event
 >
 (
 )
@@ -1162,7 +1162,7 @@ Ok
 CustomPlaceAnchor
 :
 :
-Tag
+Event
 )
 ;
 }
