@@ -1266,7 +1266,7 @@ aResult
 mWorkerPrivate
 -
 >
-Type
+Kind
 (
 )
 ;

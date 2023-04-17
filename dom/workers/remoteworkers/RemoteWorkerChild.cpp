@@ -2630,9 +2630,9 @@ originalScriptURL
 false
 mIsServiceWorker
 ?
-WorkerTypeService
+WorkerKindService
 :
-WorkerTypeShared
+WorkerKindShared
 aData
 .
 name

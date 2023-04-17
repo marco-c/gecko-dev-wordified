@@ -173,7 +173,7 @@ h
 "
 /
 /
-WorkerType
+WorkerKind
 enum
 #
 include
@@ -370,8 +370,8 @@ nsIPrincipal
 >
 &
 aPrincipal
-WorkerType
-aWorkerType
+WorkerKind
+aWorkerKind
 )
 ;
 /

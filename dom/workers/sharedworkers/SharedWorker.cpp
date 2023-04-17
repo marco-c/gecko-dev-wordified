@@ -755,7 +755,7 @@ WorkerPrivate
 :
 :
 OverrideLoadGroup
-WorkerTypeShared
+WorkerKindShared
 &
 loadInfo
 )
@@ -1308,10 +1308,10 @@ GetRemoteType
 loadInfo
 .
 mPrincipal
-WorkerType
+WorkerKind
 :
 :
-WorkerTypeShared
+WorkerKindShared
 )
 ;
 if

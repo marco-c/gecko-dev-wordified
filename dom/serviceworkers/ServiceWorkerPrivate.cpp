@@ -9980,7 +9980,7 @@ cx
 )
 scriptSpec
 false
-WorkerTypeService
+WorkerKindService
 VoidString
 (
 )

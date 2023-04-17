@@ -340,7 +340,7 @@ false
 aIsChromeWorker
 *
 /
-WorkerTypeDedicated
+WorkerKindDedicated
 aOptions
 .
 mName

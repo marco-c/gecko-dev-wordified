@@ -1770,12 +1770,12 @@ MOZ_DIAGNOSTIC_ASSERT
 mWorkerPrivate
 -
 >
-Type
+Kind
 (
 )
 !
 =
-WorkerTypeService
+WorkerKindService
 )
 ;
 if

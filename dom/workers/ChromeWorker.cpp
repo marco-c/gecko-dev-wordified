@@ -208,7 +208,7 @@ true
 aIsChromeWorker
 *
 /
-WorkerTypeDedicated
+WorkerKindDedicated
 u
 "
 "
