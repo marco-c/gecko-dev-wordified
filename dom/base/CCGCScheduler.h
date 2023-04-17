@@ -541,7 +541,7 @@ enum
 class
 GCRunnerAction
 {
-MajorGC
+WaitToMajorGC
 /
 /
 We
@@ -552,7 +552,7 @@ a
 new
 major
 GC
-MajorGCReady
+StartMajorGC
 /
 /
 The
@@ -4277,7 +4277,7 @@ step
 GCRunnerAction
 :
 :
-MajorGCReady
+StartMajorGC
 mMajorGCReason
 }
 ;
@@ -4315,7 +4315,7 @@ step
 GCRunnerAction
 :
 :
-MajorGC
+WaitToMajorGC
 mMajorGCReason
 }
 ;
