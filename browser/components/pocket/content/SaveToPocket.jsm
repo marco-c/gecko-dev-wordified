@@ -1160,6 +1160,15 @@ pocket
 -
 button
 "
+telemetryId
+:
+"
+save
+-
+to
+-
+pocket
+"
 label
 :
 gStrings
