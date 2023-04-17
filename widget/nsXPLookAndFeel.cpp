@@ -2678,7 +2678,7 @@ return
 static
 constexpr
 nsLiteralCString
-kBoolMediaQueryPrefs
+kMediaQueryPrefs
 [
 ]
 =
@@ -2738,8 +2738,6 @@ browser
 .
 theme
 .
-dark
--
 toolbar
 -
 theme
@@ -2944,7 +2942,7 @@ auto
 &
 pref
 :
-kBoolMediaQueryPrefs
+kMediaQueryPrefs
 )
 {
 Preferences
