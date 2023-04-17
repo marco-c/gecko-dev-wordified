@@ -330,6 +330,7 @@ rv
 =
 ResetInterception
 (
+false
 )
 ;
 if
@@ -386,6 +387,7 @@ rv
 =
 ResetInterception
 (
+false
 )
 ;
 if
