@@ -220,10 +220,12 @@ to
 content
 process
 .
-prio
-(
-high
-)
+[
+Compress
+Priority
+=
+vsync
+]
 async
 Notify
 (
@@ -232,7 +234,6 @@ aVsync
 float
 aVsyncRate
 )
-compress
 ;
 parent
 :

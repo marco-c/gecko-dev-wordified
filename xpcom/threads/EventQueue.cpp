@@ -320,7 +320,7 @@ uint32_t
 nsIRunnablePriority
 :
 :
-PRIORITY_HIGH
+PRIORITY_VSYNC
 )
 =
 =
@@ -332,7 +332,7 @@ uint32_t
 EventQueuePriority
 :
 :
-High
+Vsync
 )
 )
 ;
