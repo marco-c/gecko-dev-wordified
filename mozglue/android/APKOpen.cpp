@@ -1197,9 +1197,6 @@ sInitialized
 return
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 The
@@ -1264,8 +1261,6 @@ profiler_init
 stackBase
 )
 ;
-#
-endif
 sInitialized
 =
 true

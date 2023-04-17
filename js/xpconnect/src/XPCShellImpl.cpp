@@ -6931,9 +6931,6 @@ mozilla
 IOInterposerInit
 ioInterposerGuard
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 char
 aLocal
 ;
@@ -6943,8 +6940,6 @@ profiler_init
 aLocal
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_ASAN_REPORTER
@@ -9132,9 +9127,6 @@ UnsetExceptionHandler
 )
 ;
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 This
@@ -9162,8 +9154,6 @@ profiler_shutdown
 (
 )
 ;
-#
-endif
 NS_LogTerm
 (
 )
