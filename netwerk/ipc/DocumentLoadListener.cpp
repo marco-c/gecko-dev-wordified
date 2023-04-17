@@ -1536,12 +1536,6 @@ nsWebNavigationInfo
 IsTypeSupported
 (
 aContentType
-mBrowsingContext
--
->
-GetAllowPlugins
-(
-)
 )
 ;
 if

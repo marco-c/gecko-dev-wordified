@@ -5315,7 +5315,6 @@ webNavInfo
 isTypeSupported
 (
 contentType
-null
 )
 )
 {

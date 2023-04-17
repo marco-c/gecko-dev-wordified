@@ -13727,7 +13727,6 @@ HtmlObjectContentTypeForMIMEType
 (
 aMIMEType
 aNoFakePlugin
-thisContent
 )
 )
 ;
