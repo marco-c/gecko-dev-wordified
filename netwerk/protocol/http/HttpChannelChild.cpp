@@ -314,6 +314,13 @@ h
 #
 include
 "
+NetworkMarker
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -6151,9 +6158,6 @@ cacheReadEnd
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -6245,8 +6249,6 @@ get
 )
 ;
 }
-#
-endif
 TimeDuration
 channelCompletionDuration
 =
@@ -9211,9 +9213,6 @@ timing
 mTransactionTimings
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -9290,8 +9289,6 @@ channelId
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -11303,9 +11300,6 @@ Now
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -11344,8 +11338,6 @@ GetInnerWindowID
 )
 ;
 }
-#
-endif
 StoreIsPending
 (
 true
@@ -13689,9 +13681,6 @@ Now
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 profiler_can_accept_markers
@@ -13730,8 +13719,6 @@ GetInnerWindowID
 )
 ;
 }
-#
-endif
 StoreIsPending
 (
 true

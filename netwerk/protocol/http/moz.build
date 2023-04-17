@@ -633,6 +633,11 @@ InterceptedHttpChannel
 cpp
 "
 "
+NetworkMarker
+.
+cpp
+"
+"
 nsCORSListenerProxy
 .
 cpp

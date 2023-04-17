@@ -3948,9 +3948,6 @@ mozilla
 TimeStamp
 mOnCacheEntryCheckTimestamp
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 For
@@ -3963,8 +3960,6 @@ mozilla
 TimeStamp
 mLastStatusReported
 ;
-#
-endif
 /
 /
 Total
