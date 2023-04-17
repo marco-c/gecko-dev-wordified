@@ -440,6 +440,15 @@ CreateWithoutOriginAttributes
 (
 )
 ;
+static
+already_AddRefed
+<
+nsIURI
+>
+CreateURI
+(
+)
+;
 virtual
 nsresult
 GetScriptLocation
