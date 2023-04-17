@@ -3886,6 +3886,8 @@ browser
 .
 proton
 .
+doorhangers
+.
 enabled
 "
 false
@@ -44695,7 +44697,7 @@ ALLOW_ACTION
 }
 disableHighlight
 :
-gProton
+gProtonDoorhangers
 }
 ;
 var
@@ -45095,7 +45097,7 @@ checkboxChecked
 }
 disableHighlight
 :
-gProton
+gProtonDoorhangers
 }
 ;
 let
@@ -45972,7 +45974,7 @@ _tid
 ;
 if
 (
-gProton
+gProtonDoorhangers
 )
 {
 mainAction
