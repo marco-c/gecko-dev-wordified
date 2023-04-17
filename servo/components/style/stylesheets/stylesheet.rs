@@ -2713,6 +2713,15 @@ CounterStyle
 .
 .
 )
+|
+CssRule
+:
+:
+ScrollTimeline
+(
+.
+.
+)
 =
 >
 !
