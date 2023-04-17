@@ -1255,6 +1255,15 @@ NANOS_IN_MILLIS
 1e6
 ;
 const
+EPSILON
+=
+40000
+;
+/
+/
+bug
+1701949
+const
 times
 =
 Glean
@@ -1277,6 +1286,8 @@ sum
 15
 *
 NANOS_IN_MILLIS
+-
+EPSILON
 )
 ;
 /
