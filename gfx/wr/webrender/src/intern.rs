@@ -440,8 +440,10 @@ derive
 Debug
 Copy
 Clone
+Hash
 MallocSizeOf
 PartialEq
+Eq
 )
 ]
 struct
@@ -852,8 +854,10 @@ Deserialize
 derive
 (
 Debug
+Hash
 MallocSizeOf
 PartialEq
+Eq
 )
 ]
 pub
