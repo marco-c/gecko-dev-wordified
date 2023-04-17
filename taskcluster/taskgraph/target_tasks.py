@@ -7250,6 +7250,8 @@ linux1804
 clang
 -
 trunk
+-
+qr
 /
 opt
     
@@ -7269,6 +7271,8 @@ linux1804
 clang
 -
 trunk
+-
+qr
 /
 opt
 "
