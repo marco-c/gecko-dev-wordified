@@ -6589,12 +6589,6 @@ cst
 .
 update_tree
 (
-WorldPoint
-:
-:
-zero
-(
-)
 DevicePixelScale
 :
 :

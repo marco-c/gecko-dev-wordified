@@ -2995,9 +2995,6 @@ DevicePixelScale
 device_origin
 :
 DeviceIntPoint
-pan
-:
-WorldPoint
 scene_properties
 :
 &
@@ -3123,7 +3120,6 @@ spatial_tree
 .
 update_tree
 (
-pan
 global_device_pixel_scale
 scene_properties
 )
