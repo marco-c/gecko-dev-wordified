@@ -3698,7 +3698,7 @@ else
 {
 info
 .
-shapesGCHeapTree
+shapesGCHeapShared
 +
 =
 thingSize
