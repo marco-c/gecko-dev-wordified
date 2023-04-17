@@ -684,13 +684,9 @@ sort
 .
 names
 :
-SmallVec
+Vec
 <
-[
 LayerName
-;
-3
-]
 >
 }
 }
@@ -704,7 +700,7 @@ layer
 [
 layer
 ]
-urle
+rule
 .
 /
 /
