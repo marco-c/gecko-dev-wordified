@@ -237,6 +237,15 @@ XP_WIN
 #
 include
 "
+mozilla
+/
+WinHeaderOnlyUtils
+.
+h
+"
+#
+include
+"
 WinUtils
 .
 h
