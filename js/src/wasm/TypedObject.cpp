@@ -2721,10 +2721,8 @@ HandleId
 id
 MutableHandleObject
 objp
-MutableHandle
-<
 PropertyResult
->
+*
 propp
 )
 {
@@ -2762,7 +2760,8 @@ id
 )
 {
 propp
-.
+-
+>
 setTypedObjectProperty
 (
 )
@@ -2804,7 +2803,8 @@ nullptr
 )
 ;
 propp
-.
+-
+>
 setNotFound
 (
 )

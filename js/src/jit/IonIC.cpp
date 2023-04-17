@@ -2473,14 +2473,8 @@ holder
 cx
 )
 ;
-Rooted
-<
 PropertyResult
->
 prop
-(
-cx
-)
 ;
 if
 (

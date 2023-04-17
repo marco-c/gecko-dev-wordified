@@ -14600,14 +14600,8 @@ pobj
 cx
 )
 ;
-Rooted
-<
 PropertyResult
->
 prop
-(
-cx
-)
 ;
 if
 (

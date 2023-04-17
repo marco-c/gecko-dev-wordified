@@ -13866,15 +13866,3 @@ getAllocKind
 )
 ;
 }
-void
-PropertyResult
-:
-:
-trace
-(
-JSTracer
-*
-trc
-)
-{
-}

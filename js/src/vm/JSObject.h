@@ -6456,10 +6456,8 @@ MutableHandleObject
 objp
 MutableHandleObject
 pobjp
-MutableHandle
-<
 PropertyResult
->
+*
 propp
 )
 ;

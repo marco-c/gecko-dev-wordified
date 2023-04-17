@@ -5033,14 +5033,8 @@ the
 code
 below
 .
-Rooted
-<
 PropertyResult
->
 prop
-(
-cx
-)
 ;
 if
 (

@@ -2707,10 +2707,8 @@ JSObject
 *
 >
 objp
-MutableHandle
-<
 PropertyResult
->
+*
 propp
 )
 ;
@@ -2742,10 +2740,8 @@ JSObject
 *
 >
 objp
-MutableHandle
-<
 PropertyResult
->
+*
 propp
 )
 {
