@@ -2873,9 +2873,9 @@ returned
 *
 param
 {
-TargetList
+TargetCommand
 }
-targetList
+targetCommand
 *
 returns
 {
@@ -2897,7 +2897,7 @@ resumed
 /
 attachAndInitThread
 (
-targetList
+targetCommand
 )
 {
 if
@@ -2921,7 +2921,7 @@ this
 .
 _attachAndInitThread
 (
-targetList
+targetCommand
 )
 ;
 return
@@ -2969,9 +2969,9 @@ private
 *
 param
 {
-TargetList
+TargetCommand
 }
-targetList
+targetCommand
 *
 returns
 {
@@ -2994,7 +2994,7 @@ resumed
 async
 _attachAndInitThread
 (
-targetList
+targetCommand
 )
 {
 /
@@ -3078,7 +3078,7 @@ attach
 const
 isBrowserToolbox
 =
-targetList
+targetCommand
 .
 targetFront
 .
@@ -3099,7 +3099,7 @@ targetType
 =
 =
 =
-targetList
+targetCommand
 .
 TYPES
 .
@@ -3187,7 +3187,7 @@ breakpoint
 .
 if
 (
-targetList
+targetCommand
 .
 descriptorFront
 .
@@ -3350,7 +3350,7 @@ wrongOrder
 "
 )
 {
-targetList
+targetCommand
 .
 emit
 (
