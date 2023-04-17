@@ -8542,6 +8542,11 @@ if
 channel
 )
 {
+SetLoadType
+(
+LOAD_HISTORY
+)
+;
 SetCurrentURI
 (
 doc
