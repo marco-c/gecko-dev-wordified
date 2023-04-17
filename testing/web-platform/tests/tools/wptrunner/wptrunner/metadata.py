@@ -12,12 +12,6 @@ import
 defaultdict
 namedtuple
 from
-typing
-import
-Dict
-List
-Tuple
-from
 mozlog
 import
 structuredlog
@@ -98,10 +92,6 @@ ImportError
     
 import
 json
-#
-type
-:
-ignore
 class
 RunInfo
 (
@@ -556,10 +546,6 @@ manifest
 item
 as
 manifestitem
-#
-type
-:
-ignore
 def
 files_in_repo
 (
@@ -1176,8 +1162,6 @@ __init__
 (
 self
 max_bits
-:
-int
 =
 8
 )
@@ -1200,23 +1184,6 @@ Reserve
 as
 a
 sentinal
-        
-self
-.
-_data
-:
-Tuple
-[
-List
-[
-object
-]
-Dict
-[
-int
-object
-]
-]
         
 self
 .

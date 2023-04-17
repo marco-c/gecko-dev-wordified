@@ -20,10 +20,6 @@ base
 BaseFormatter
 )
 :
-#
-type
-:
-ignore
     
 "
 "

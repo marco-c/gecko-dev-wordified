@@ -89,10 +89,6 @@ WptreportFormatter
 BaseFormatter
 )
 :
-#
-type
-:
-ignore
     
 "
 "

@@ -1130,19 +1130,6 @@ clockRate
 '
 )
 ;
-if
-(
-stats
-.
-kind
-=
-=
-=
-'
-audio
-'
-)
-{
 assert_unsigned_int_field
 (
 stats
@@ -1151,7 +1138,6 @@ channels
 '
 )
 ;
-}
 assert_string_field
 (
 stats
