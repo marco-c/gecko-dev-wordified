@@ -18898,6 +18898,11 @@ GLenum
 type
 )
 ;
+void
+MesaMemoryLeakWorkaround
+(
+)
+;
 }
 /
 *
