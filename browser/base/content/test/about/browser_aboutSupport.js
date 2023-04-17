@@ -510,7 +510,6 @@ child
 td
 "
 )
-?
 .
 innerText
 )
@@ -696,7 +695,6 @@ child
 td
 "
 )
-?
 .
 innerText
 )

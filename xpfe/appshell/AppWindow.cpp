@@ -956,12 +956,6 @@ using
 dom
 :
 :
-DocumentL10n
-;
-using
-dom
-:
-:
 Element
 ;
 using
@@ -975,12 +969,6 @@ dom
 :
 :
 LoadURIOptions
-;
-using
-dom
-:
-:
-Promise
 ;
 AppWindow
 :
