@@ -125,6 +125,7 @@ const
 UUIDRegex
 =
 /
+^
 [
 a
 -
