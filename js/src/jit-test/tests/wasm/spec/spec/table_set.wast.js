@@ -641,7 +641,7 @@ funcref
 value
 (
 "
-funcref
+anyfunc
 "
 null
 )
@@ -791,7 +791,7 @@ funcref
 value
 (
 "
-funcref
+anyfunc
 "
 null
 )

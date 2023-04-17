@@ -557,7 +557,7 @@ initial
 element
 :
 "
-funcref
+anyfunc
 "
 }
 )
