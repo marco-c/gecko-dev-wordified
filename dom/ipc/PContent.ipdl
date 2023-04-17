@@ -5608,6 +5608,17 @@ aIsManual
 )
 ;
 async
+SessionHistoryEntryScrollPosition
+(
+MaybeDiscardedBrowsingContext
+aContext
+int32_t
+aX
+int32_t
+aY
+)
+;
+async
 SessionHistoryEntryCacheKey
 (
 MaybeDiscardedBrowsingContext
