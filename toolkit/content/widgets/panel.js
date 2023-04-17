@@ -1516,6 +1516,10 @@ closest
 (
 "
 toolbarbutton
+.
+anchor
+-
+root
 "
 )
 |
@@ -1688,6 +1692,10 @@ closest
 (
 "
 toolbarbutton
+.
+anchor
+-
+root
 "
 )
 |
