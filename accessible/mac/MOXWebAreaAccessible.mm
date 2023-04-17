@@ -400,6 +400,7 @@ search
 =
 [
 [
+[
 MOXSearchInfo
 alloc
 ]
@@ -409,6 +410,8 @@ searchPredicate
 andRoot
 :
 self
+]
+autorelease
 ]
 ;
 return
