@@ -3360,6 +3360,10 @@ mState
 =
 INITIALIZING
 ;
+mTransactionCount
+=
+0
+;
 Finish0Rtt
 (
 true
@@ -6053,15 +6057,6 @@ IsEmpty
 )
 )
 {
-/
-/
-TODO
-:
-investigate
-why
-this
-is
-failing
 MOZ_ASSERT
 (
 mConnectionIdleStart
