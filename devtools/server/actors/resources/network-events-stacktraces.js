@@ -783,6 +783,13 @@ this
 targetActor
 .
 window
+matchExactWindow
+:
+this
+.
+targetActor
+.
+ignoreSubFrames
 }
 )
 )
