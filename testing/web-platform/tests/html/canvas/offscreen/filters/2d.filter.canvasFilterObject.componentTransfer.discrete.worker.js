@@ -206,8 +206,6 @@ n
 V
 .
 length
--
-1
 ;
 const
 k
