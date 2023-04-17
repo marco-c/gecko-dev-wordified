@@ -9202,6 +9202,17 @@ string
 "
 "
         
+with
+self
+.
+using_context
+(
+"
+content
+"
+)
+:
+            
 self
 .
 window
@@ -9317,6 +9328,17 @@ string
 "
 "
         
+with
+self
+.
+using_context
+(
+"
+chrome
+"
+)
+:
+            
 self
 .
 chrome_window
@@ -9325,18 +9347,18 @@ self
 .
 _send_message
 (
-            
+                
 "
 WebDriver
 :
-GetChromeWindowHandle
+GetWindowHandle
 "
 key
 =
 "
 value
 "
-        
+            
 )
         
 return
@@ -9665,35 +9687,6 @@ available
 browser
 windows
 .
-Called
-in
-the
-        
-chrome
-context
-it
-will
-list
-all
-available
-windows
-not
-just
-        
-browser
-windows
-(
-e
-.
-g
-.
-not
-just
-navigator
-.
-browser
-)
-.
         
 Each
 window
@@ -9734,6 +9727,17 @@ strings
 "
 "
         
+with
+self
+.
+using_context
+(
+"
+content
+"
+)
+:
+            
 return
 self
 .
@@ -9808,6 +9812,17 @@ strings
 "
 "
         
+with
+self
+.
+using_context
+(
+"
+chrome
+"
+)
+:
+            
 return
 self
 .
@@ -9816,7 +9831,7 @@ _send_message
 "
 WebDriver
 :
-GetChromeWindowHandles
+GetWindowHandles
 "
 )
     
