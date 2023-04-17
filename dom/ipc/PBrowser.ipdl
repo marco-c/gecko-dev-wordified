@@ -2792,6 +2792,18 @@ image
 .
 *
 param
+resolution
+*
+Resolution
+of
+the
+image
+in
+dppx
+units
+.
+*
+param
 stride
 *
 Stride
@@ -2881,6 +2893,8 @@ uint32_t
 width
 uint32_t
 height
+float
+resolution
 uint32_t
 stride
 SurfaceFormat

@@ -1477,6 +1477,8 @@ aCursor
 imgIContainer
 *
 aContainer
+float
+aResolution
 const
 Maybe
 <

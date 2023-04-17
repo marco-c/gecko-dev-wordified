@@ -2170,7 +2170,7 @@ aHasCustomCursor
 const
 nsCString
 &
-aUri
+aCursorData
 const
 uint32_t
 &
@@ -2179,6 +2179,10 @@ const
 uint32_t
 &
 aHeight
+const
+float
+&
+aResolution
 const
 uint32_t
 &
