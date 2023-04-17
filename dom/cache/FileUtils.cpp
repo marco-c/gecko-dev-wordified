@@ -741,7 +741,7 @@ reports
 .
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
@@ -850,7 +850,7 @@ reports
 .
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
@@ -2428,7 +2428,7 @@ desired
 .
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
@@ -2833,10 +2833,10 @@ SetupAction
 RunSyncWithDBOnTarget
 and
 change
-QM_OR_ELSE_LOG_IF
+/
+/
+QM_OR_ELSE_LOG_VERBOSE_IF
 to
-/
-/
 QM_OR_ELSE_WARN_IF
 in
 the
@@ -2844,7 +2844,7 @@ end
 .
 QM_TRY
 (
-QM_OR_ELSE_LOG_IF
+QM_OR_ELSE_LOG_VERBOSE_IF
 (
 ToResult
 (
