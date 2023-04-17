@@ -346,7 +346,7 @@ FeaturePolicyUtils
 FeaturePolicyValue
 :
 :
-eSelf
+eAll
 }
 }
 ;
