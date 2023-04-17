@@ -223,7 +223,7 @@ this
 atom_of_name
 /
 /
-ElemOpEmitter
+NameOpEmitter
 :
 :
 Kind
@@ -272,7 +272,7 @@ this
 atom_of_name
 /
 /
-ElemOpEmitter
+NameOpEmitter
 :
 :
 Kind
@@ -306,7 +306,7 @@ this
 atom_of_name
 /
 /
-ElemOpEmitter
+NameOpEmitter
 :
 :
 Kind
@@ -356,7 +356,7 @@ this
 atom_of_name
 /
 /
-ElemOpEmitter
+NameOpEmitter
 :
 :
 Kind
@@ -418,7 +418,7 @@ this
 atom_of_name
 /
 /
-ElemOpEmitter
+NameOpEmitter
 :
 :
 Kind
