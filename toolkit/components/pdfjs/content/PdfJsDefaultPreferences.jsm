@@ -1,7 +1,7 @@
 /
 *
 Copyright
-2020
+2021
 Mozilla
 Foundation
 *
@@ -194,12 +194,12 @@ false
 enablePrintAutoRotate
 "
 :
-false
+true
 "
 enableScripting
 "
 :
-false
+true
 "
 enableWebGL
 "
