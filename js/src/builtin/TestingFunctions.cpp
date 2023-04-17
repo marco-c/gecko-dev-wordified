@@ -4349,15 +4349,6 @@ true
 _
 (
 "
-mallocGrowthFactor
-"
-JSGC_MALLOC_GROWTH_FACTOR
-true
-)
-\
-_
-(
-"
 chunkBytes
 "
 JSGC_CHUNK_BYTES
