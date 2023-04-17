@@ -29704,7 +29704,7 @@ presContext
 =
 GetPresContext
 (
-eForUncomposedDoc
+eForComposedDoc
 )
 )
 {

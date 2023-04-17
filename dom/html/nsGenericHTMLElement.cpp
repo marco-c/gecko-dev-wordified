@@ -3089,7 +3089,7 @@ rv
 ;
 if
 (
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
@@ -3099,6 +3099,14 @@ RegUnRegAccessKey
 true
 )
 ;
+}
+if
+(
+IsInUncomposedDoc
+(
+)
+)
+{
 if
 (
 HasName
@@ -3382,7 +3390,7 @@ aNullParent
 {
 if
 (
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
@@ -15697,7 +15705,7 @@ presContext
 =
 GetPresContext
 (
-eForUncomposedDoc
+eForComposedDoc
 )
 ;
 if
