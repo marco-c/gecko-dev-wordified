@@ -407,7 +407,7 @@ id
 This
 is
 bits
-24
+23
 through
 30
 (
@@ -443,7 +443,7 @@ const
 uint32_t
 kIdContentProcessMask
 =
-0x7F000000
+0x7F800000
 ;
 static
 mscom
