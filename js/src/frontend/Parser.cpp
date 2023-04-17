@@ -7366,6 +7366,13 @@ sc
 allBindingsClosedOver
 (
 )
+|
+|
+scope
+.
+tooBigToOptimize
+(
+)
 ;
 for
 (
