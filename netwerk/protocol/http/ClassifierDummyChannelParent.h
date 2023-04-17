@@ -166,6 +166,8 @@ ClassifierDummyChannelParent
 ClassifierDummyChannelParent
 (
 )
+=
+default
 ;
 void
 Init
@@ -189,6 +191,8 @@ private
 ClassifierDummyChannelParent
 (
 )
+=
+default
 ;
 void
 ActorDestroy
@@ -200,6 +204,9 @@ override
 ;
 bool
 mIPCActive
+{
+true
+}
 ;
 }
 ;

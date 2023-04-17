@@ -485,7 +485,7 @@ qop
 const
 char
 *
-body_digest
+bodyDigest
 char
 *
 result
@@ -605,6 +605,9 @@ mHashBuf
 [
 DIGEST_LENGTH
 ]
+{
+0
+}
 ;
 static
 StaticRefPtr

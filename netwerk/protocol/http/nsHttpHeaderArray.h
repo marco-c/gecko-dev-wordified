@@ -609,7 +609,9 @@ char
 *
 FindHeaderValue
 (
+const
 nsHttpAtom
+&
 header
 const
 char
@@ -646,7 +648,9 @@ exists
 bool
 HasHeaderValue
 (
+const
 nsHttpAtom
+&
 header
 const
 char
@@ -949,7 +953,9 @@ network
 int32_t
 LookupEntry
 (
+const
 nsHttpAtom
+&
 header
 const
 nsEntry
@@ -961,7 +967,9 @@ const
 int32_t
 LookupEntry
 (
+const
 nsHttpAtom
+&
 header
 nsEntry
 *
@@ -976,7 +984,9 @@ nodiscard
 nsresult
 MergeHeader
 (
+const
 nsHttpAtom
+&
 header
 nsEntry
 *
@@ -1027,7 +1037,9 @@ possible
 bool
 IsSingletonHeader
 (
+const
 nsHttpAtom
+&
 header
 )
 ;
@@ -1046,7 +1058,9 @@ ignored
 bool
 IsIgnoreMultipleHeader
 (
+const
 nsHttpAtom
+&
 header
 )
 ;
@@ -1084,7 +1098,9 @@ injection
 bool
 IsSuspectDuplicateHeader
 (
+const
 nsHttpAtom
+&
 header
 )
 ;
@@ -1295,7 +1311,9 @@ nsHttpHeaderArray
 :
 LookupEntry
 (
+const
 nsHttpAtom
+&
 header
 const
 nsEntry
@@ -1389,7 +1407,9 @@ nsHttpHeaderArray
 :
 LookupEntry
 (
+const
 nsHttpAtom
+&
 header
 nsEntry
 *
@@ -1481,7 +1501,9 @@ nsHttpHeaderArray
 :
 IsSingletonHeader
 (
+const
 nsHttpAtom
+&
 header
 )
 {
@@ -1659,7 +1681,9 @@ nsHttpHeaderArray
 :
 IsIgnoreMultipleHeader
 (
+const
 nsHttpAtom
+&
 header
 )
 {
@@ -1743,7 +1767,9 @@ nsHttpHeaderArray
 :
 MergeHeader
 (
+const
 nsHttpAtom
+&
 header
 nsEntry
 *
@@ -2033,7 +2059,9 @@ nsHttpHeaderArray
 :
 IsSuspectDuplicateHeader
 (
+const
 nsHttpAtom
+&
 header
 )
 {
