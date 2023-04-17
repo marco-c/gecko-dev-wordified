@@ -2784,7 +2784,7 @@ booleanProperties
 {
 /
 /
-WebArea
+RootWebArea
 '
 s
 treat
@@ -2833,7 +2833,7 @@ _role
 =
 =
 '
-WebArea
+RootWebArea
 '
 )
 continue

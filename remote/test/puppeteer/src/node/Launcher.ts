@@ -438,6 +438,9 @@ slowMo
 timeout
 =
 30000
+waitForInitialPage
+=
+true
 }
 =
 options
@@ -853,6 +856,10 @@ runner
 )
 )
 ;
+if
+(
+waitForInitialPage
+)
 await
 browser
 .
@@ -1480,6 +1487,9 @@ extraPrefsFirefox
 =
 {
 }
+waitForInitialPage
+=
+true
 }
 =
 options
@@ -1790,6 +1800,10 @@ runner
 )
 )
 ;
+if
+(
+waitForInitialPage
+)
 await
 browser
 .
@@ -3866,6 +3880,7 @@ missingText
 ?
 :
 string
+;
 }
 {
 let

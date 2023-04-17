@@ -653,7 +653,7 @@ is
 closed
 before
 we
-recieve
+receive
 all
 execution
 contexts
@@ -1036,9 +1036,7 @@ worker
 evaluateHandle
 returns
 a
-[
 Promise
-]
 then
 *
 worker

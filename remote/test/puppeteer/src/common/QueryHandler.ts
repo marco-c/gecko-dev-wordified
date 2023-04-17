@@ -1292,6 +1292,7 @@ string
 queryHandler
 :
 InternalQueryHandler
+;
 }
 {
 const

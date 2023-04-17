@@ -139,7 +139,7 @@ EventType
 eventData
 ?
 :
-any
+unknown
 )
 :
 boolean
@@ -355,6 +355,7 @@ enable
 you
 to
 chain
+method
 calls
 .
 *
@@ -431,6 +432,7 @@ enable
 you
 to
 chain
+method
 calls
 .
 *
@@ -474,7 +476,12 @@ listener
 deprecated
 please
 use
+{
+link
+EventEmitter
+.
 off
+}
 instead
 .
 *
@@ -516,7 +523,12 @@ listener
 deprecated
 please
 use
+{
+link
+EventEmitter
+.
 on
+}
 instead
 .
 *
@@ -610,7 +622,7 @@ EventType
 eventData
 ?
 :
-any
+unknown
 )
 :
 boolean
@@ -691,6 +703,7 @@ enable
 you
 to
 chain
+method
 calls
 .
 *
@@ -843,6 +856,7 @@ enable
 you
 to
 chain
+method
 calls
 .
 *

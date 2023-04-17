@@ -1604,8 +1604,9 @@ bar
 }
 )
 ;
-expectCookieEquals
-(
+const
+cookieStrings
+=
 await
 page
 .
@@ -1653,6 +1654,14 @@ sort
 ;
 }
 )
+;
+expect
+(
+cookieStrings
+)
+.
+toEqual
+(
 [
 '
 foo

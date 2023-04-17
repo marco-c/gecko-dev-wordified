@@ -568,6 +568,8 @@ files
 cancel
 (
 )
+:
+void
 {
 assert
 (
