@@ -577,7 +577,7 @@ feature
 value
 .
 await
-testCookieBlockingInfoStandard
+testCookieBlockingInfoStrict
 (
 "
 tp
@@ -588,6 +588,7 @@ cm
 fp
 stp
 lvl2
+rp
 "
 false
 )
@@ -622,7 +623,7 @@ is
 /
 BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
 await
-testCookieBlockingInfoStandard
+testCookieBlockingInfoStrict
 (
 "
 tp
@@ -633,6 +634,7 @@ cm
 fp
 stp
 lvl2
+rp
 "
 true
 )
