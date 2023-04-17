@@ -804,7 +804,9 @@ getViewNode
 (
 document
 "
-appMenuRestoreSession
+appMenu
+-
+restoreSession
 "
 )
 .
