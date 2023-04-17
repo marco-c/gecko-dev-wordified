@@ -269,10 +269,7 @@ zoneArg
 ;
 allocKind
 =
-size_t
-(
 kind
-)
 ;
 onDelayedMarkingList_
 =
