@@ -2976,6 +2976,15 @@ button
 ;
 if
 (
+!
+button
+)
+{
+return
+;
+}
+if
+(
 data
 =
 =
