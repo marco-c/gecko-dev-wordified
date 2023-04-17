@@ -401,6 +401,11 @@ jpg
 "
 downscaled
 .
+jxl
+"
+"
+downscaled
+.
 png
 "
 "
@@ -525,6 +530,11 @@ jpg
 "
 green
 .
+jxl
+"
+"
+green
+.
 png
 "
 "
@@ -545,6 +555,11 @@ bmp
 large
 .
 avif
+"
+"
+large
+.
+jxl
 "
 "
 large
@@ -801,6 +816,11 @@ avif
 transparent
 .
 gif
+"
+"
+transparent
+.
+jxl
 "
 "
 transparent
