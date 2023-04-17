@@ -1791,13 +1791,6 @@ void
 )
 isBranch
 ;
-MOZ_ASSERT
-(
-hasCreator
-(
-)
-)
-;
 BufferOffset
 offs
 =
@@ -1992,13 +1985,6 @@ size
 =
 =
 0
-)
-;
-MOZ_ASSERT
-(
-hasCreator
-(
-)
 )
 ;
 return

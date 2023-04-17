@@ -807,15 +807,6 @@ MacroAssembler
 masm
 )
 {
-AutoCreatedBy
-acb
-(
-masm
-"
-startTrampolineCode
-"
-)
-;
 masm
 .
 assumeUnreachable

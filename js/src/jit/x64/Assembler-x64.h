@@ -8786,13 +8786,6 @@ RelocationKind
 HARDCODED
 )
 {
-MOZ_ASSERT
-(
-hasCreator
-(
-)
-)
-;
 JmpSrc
 src
 =
