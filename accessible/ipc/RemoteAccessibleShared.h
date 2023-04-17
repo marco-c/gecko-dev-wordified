@@ -206,7 +206,7 @@ Accessible
 Name
 *
 /
-uint32_t
+ENameValueFlag
 Name
 (
 nsString
@@ -214,6 +214,7 @@ nsString
 aName
 )
 const
+override
 ;
 /
 *
