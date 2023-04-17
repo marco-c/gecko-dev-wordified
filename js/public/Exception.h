@@ -511,6 +511,7 @@ for
 convenience
 .
 Throwing
+OutOfMemory
 OverRecursed
 }
 ;
