@@ -104414,10 +104414,7 @@ getClass
 =
 =
 &
-JSFunction
-:
-:
-class_
+FunctionClass
 )
 {
 /
