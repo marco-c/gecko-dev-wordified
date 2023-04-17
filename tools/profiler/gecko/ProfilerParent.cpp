@@ -143,6 +143,13 @@ endif
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BaseProfilerDetail
