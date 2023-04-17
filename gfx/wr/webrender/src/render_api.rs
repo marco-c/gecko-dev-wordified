@@ -10150,8 +10150,4 @@ pub
 upload_staging_textures
 :
 usize
-pub
-instance_data_vbos
-:
-usize
 }
