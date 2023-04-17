@@ -27198,12 +27198,14 @@ correctly
 bool
 needsWrapList
 =
-item
+aList
 -
 >
-GetAbove
+Count
 (
 )
+>
+1
 |
 |
 item
