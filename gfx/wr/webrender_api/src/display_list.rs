@@ -10500,12 +10500,6 @@ di
 :
 :
 ReferenceFrameKind
-key
-:
-di
-:
-:
-SpatialTreeItemKey
 )
 -
 >
@@ -10595,7 +10589,6 @@ transform
 }
 kind
 id
-key
 }
 }
 )
@@ -10676,12 +10669,6 @@ di
 :
 :
 Rotation
-key
-:
-di
-:
-:
-SpatialTreeItemKey
 )
 -
 >
@@ -10782,7 +10769,6 @@ should_snap
 false
 }
 id
-key
 }
 }
 )
@@ -11667,12 +11653,6 @@ ScrollSensitivity
 external_scroll_offset
 :
 LayoutVector2D
-key
-:
-di
-:
-:
-SpatialTreeItemKey
 )
 -
 >
@@ -11741,7 +11721,6 @@ scroll_frame_id
 external_id
 scroll_sensitivity
 external_scroll_offset
-key
 }
 )
 ;
@@ -12204,12 +12183,6 @@ StickyOffsetBounds
 previously_applied_offset
 :
 LayoutVector2D
-key
-:
-di
-:
-:
-SpatialTreeItemKey
 )
 -
 >
@@ -12278,7 +12251,6 @@ margins
 vertical_offset_bounds
 horizontal_offset_bounds
 previously_applied_offset
-key
 }
 )
 ;
