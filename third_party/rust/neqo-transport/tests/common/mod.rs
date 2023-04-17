@@ -199,6 +199,12 @@ use
 std
 :
 :
+mem
+;
+use
+std
+:
+:
 ops
 :
 :
@@ -1806,9 +1812,11 @@ dgram
 (
 )
 ;
-let
-_
-=
+mem
+:
+:
+drop
+(
 server
 .
 process
@@ -1816,6 +1824,7 @@ process
 dgram
 now
 (
+)
 )
 )
 ;

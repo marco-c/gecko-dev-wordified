@@ -121,10 +121,7 @@ crate
 frame
 :
 :
-{
-write_varint_frame
 FRAME_TYPE_ACK_FREQUENCY
-}
 ;
 use
 crate
@@ -443,9 +440,10 @@ u64
 >
 bool
 {
+builder
+.
 write_varint_frame
 (
-builder
 &
 [
 FRAME_TYPE_ACK_FREQUENCY

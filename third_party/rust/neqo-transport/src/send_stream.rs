@@ -209,7 +209,6 @@ frame
 :
 :
 {
-write_varint_frame
 Frame
 FRAME_TYPE_RESET_STREAM
 }
@@ -5189,9 +5188,10 @@ false
 ;
 }
 if
+builder
+.
 write_varint_frame
 (
-builder
 &
 [
 FRAME_TYPE_RESET_STREAM
@@ -10718,7 +10718,7 @@ connection
 .
 rs
 )
-assert_eq
+assert
 !
 (
 conn_fc
@@ -10731,7 +10731,6 @@ update
 (
 4
 )
-true
 )
 ;
 let

@@ -93,7 +93,10 @@ use
 crate
 :
 :
+{
 Res
+HTTP3_UNI_STREAM_TYPE_CONTROL
+}
 ;
 use
 neqo_common
@@ -121,14 +124,6 @@ convert
 :
 :
 TryFrom
-;
-pub
-const
-HTTP3_UNI_STREAM_TYPE_CONTROL
-:
-u64
-=
-0x0
 ;
 /
 /

@@ -187,6 +187,12 @@ use
 std
 :
 :
+mem
+;
+use
+std
+:
+:
 net
 :
 :
@@ -394,9 +400,11 @@ is_some
 )
 )
 ;
-let
-_
-=
+mem
+:
+:
+drop
+(
 client
 .
 process
@@ -409,6 +417,7 @@ now
 .
 dgram
 (
+)
 )
 ;
 /
