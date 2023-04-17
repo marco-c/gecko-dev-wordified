@@ -248,6 +248,15 @@ aDirtyRects
 )
 override
 ;
+void
+GetCompositorCapabilities
+(
+CompositorCapabilities
+*
+aCaps
+)
+override
+;
 /
 /
 Returns
