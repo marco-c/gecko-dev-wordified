@@ -2314,7 +2314,7 @@ aSetLengthFlags
 0
 )
 ;
-nsresult
+void
 GetOffsets
 (
 int32_t

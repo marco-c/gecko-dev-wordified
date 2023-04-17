@@ -57646,7 +57646,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsTextFrame
 :
 :
@@ -57672,9 +57672,6 @@ end
 GetContentEnd
 (
 )
-;
-return
-NS_OK
 ;
 }
 static
