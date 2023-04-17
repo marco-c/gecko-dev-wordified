@@ -179,7 +179,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -189,6 +189,9 @@ h
 "
 #
 endif
+/
+/
+MOZ_WIDGET_ANDROID
 namespace
 mozilla
 {
@@ -644,7 +647,7 @@ result
 }
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 namespace
 {
 void
@@ -771,6 +774,9 @@ MyTid
 namespace
 #
 endif
+/
+/
+MOZ_WIDGET_ANDROID
 NS_IMETHODIMP
 GraphRunner
 :
@@ -801,13 +807,16 @@ GraphRate
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 PromoteRenderingThreadAndroid
 (
 )
 ;
 #
 endif
+/
+/
+MOZ_WIDGET_ANDROID
 nsCOMPtr
 <
 nsIThreadInternal
