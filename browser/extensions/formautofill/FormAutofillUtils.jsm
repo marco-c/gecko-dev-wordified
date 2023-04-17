@@ -81,7 +81,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 addressmetadata
 /
@@ -345,7 +345,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofill
 .

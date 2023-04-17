@@ -37,7 +37,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillNameUtils
 .

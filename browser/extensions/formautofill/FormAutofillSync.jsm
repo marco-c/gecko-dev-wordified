@@ -232,7 +232,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillStorage
 .

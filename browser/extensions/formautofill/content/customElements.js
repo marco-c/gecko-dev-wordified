@@ -1746,7 +1746,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillParent
 .
@@ -1977,7 +1977,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillParent
 .

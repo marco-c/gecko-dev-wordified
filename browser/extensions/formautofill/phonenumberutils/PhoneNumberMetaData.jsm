@@ -119,11 +119,6 @@ now
 .
 *
 /
-"
-use
-strict
-"
-;
 var
 EXPORTED_SYMBOLS
 =

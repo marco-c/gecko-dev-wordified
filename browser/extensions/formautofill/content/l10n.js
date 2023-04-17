@@ -114,7 +114,7 @@ resource
 :
 /
 /
-autofill
+formautofill
 /
 FormAutofillUtils
 .
