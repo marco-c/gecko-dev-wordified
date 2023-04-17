@@ -35,8 +35,7 @@ strict
 ;
 const
 {
-CDPConnection
-splitMethod
+Connection
 }
 =
 ChromeUtils
@@ -54,7 +53,7 @@ content
 /
 cdp
 /
-CDPConnection
+Connection
 .
 jsm
 "
@@ -92,6 +91,8 @@ throws
 )
 =
 >
+Connection
+.
 splitMethod
 (
 t
@@ -144,6 +145,8 @@ throws
 )
 =
 >
+Connection
+.
 splitMethod
 (
 s
@@ -169,6 +172,8 @@ throws
 }
 deepEqual
 (
+Connection
+.
 splitMethod
 (
 "
