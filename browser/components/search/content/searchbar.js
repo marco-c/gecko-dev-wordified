@@ -4546,12 +4546,6 @@ selectedIndex
 -
 1
 ;
-document
-.
-popupNode
-=
-null
-;
 /
 /
 Ensure
