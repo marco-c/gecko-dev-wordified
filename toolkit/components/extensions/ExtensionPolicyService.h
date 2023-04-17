@@ -123,13 +123,6 @@ h
 #
 include
 "
-mozIExtensionProcessScript
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -288,13 +281,6 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIADDONPOLICYSERVICE
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIMEMORYREPORTER
-static
-mozIExtensionProcessScript
-&
-ProcessScript
-(
-)
-;
 static
 ExtensionPolicyService
 &
