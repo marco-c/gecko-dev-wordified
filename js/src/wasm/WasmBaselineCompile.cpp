@@ -10769,7 +10769,7 @@ lineOrBytecode
 CallSiteDesc
 :
 :
-Indirect
+Dynamic
 )
 ;
 CalleeDesc
@@ -10828,7 +10828,7 @@ lineOrBytecode
 CallSiteDesc
 :
 :
-Import
+Dynamic
 )
 ;
 CalleeDesc

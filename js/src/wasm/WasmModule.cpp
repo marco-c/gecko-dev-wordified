@@ -1018,7 +1018,7 @@ MOZ_ASSERT
 stubs2
 -
 >
-entryStubsEmpty
+empty
 (
 )
 )
@@ -1078,7 +1078,7 @@ if
 stubs1
 -
 >
-hasEntryStub
+hasStub
 (
 fe
 .
