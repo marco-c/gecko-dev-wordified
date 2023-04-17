@@ -105,7 +105,7 @@ markup
 let
 background
 =
-gProtonTabs
+gProton
 ?
 <
 vbox
@@ -2162,7 +2162,7 @@ soundPlayingIcon
 )
 {
 return
-gProtonTabs
+gProton
 ?
 null
 :
@@ -2364,7 +2364,7 @@ true
 }
 if
 (
-gProtonTabs
+gProton
 &
 &
 this
@@ -2509,7 +2509,7 @@ false
 }
 if
 (
-gProtonTabs
+gProton
 &
 &
 event

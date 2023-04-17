@@ -61,8 +61,6 @@ browser
 .
 proton
 .
-tabs
-.
 enabled
 "
 protonTabsEnabled
