@@ -6735,6 +6735,9 @@ of
 polygons
 .
 BSPTree
+<
+Layer
+>
 tree
 (
 inputLayers
@@ -6780,7 +6783,7 @@ inverse
 =
 layerPolygon
 .
-layer
+data
 -
 >
 GetEffectiveTransform
@@ -6864,7 +6867,7 @@ insert
 (
 layerPolygon
 .
-layer
+data
 )
 ;
 if
@@ -6891,7 +6894,7 @@ LayerPolygon
 (
 layerPolygon
 .
-layer
+data
 )
 )
 ;
@@ -10112,7 +10115,7 @@ children
 {
 child
 .
-layer
+data
 -
 >
 Dump
