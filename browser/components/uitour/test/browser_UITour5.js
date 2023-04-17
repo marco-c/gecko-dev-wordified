@@ -131,7 +131,7 @@ help
 Should
 highlight
 the
-library
+help
 button
 on
 the
@@ -144,7 +144,7 @@ menu
 /
 Click
 the
-library
+help
 button
 to
 show
