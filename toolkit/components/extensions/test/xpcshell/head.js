@@ -262,9 +262,9 @@ resource
 :
 /
 /
-gre
-/
-modules
+testing
+-
+common
 /
 MessageChannel
 .
@@ -1313,9 +1313,9 @@ resource
 :
 /
 /
-gre
-/
-modules
+testing
+-
+common
 /
 MessageChannel
 .
