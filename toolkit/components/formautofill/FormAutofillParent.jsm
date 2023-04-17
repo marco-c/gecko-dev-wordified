@@ -2723,7 +2723,7 @@ state
 await
 FormAutofillPrompter
 .
-show
+promptToSaveAddress
 (
 browser
 "
@@ -3059,7 +3059,7 @@ state
 await
 FormAutofillPrompter
 .
-show
+promptToSaveAddress
 (
 browser
 "
