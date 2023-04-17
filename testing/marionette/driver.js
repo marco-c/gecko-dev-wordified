@@ -1772,7 +1772,12 @@ BrowsingContext
 The
 browsing
 context
-.
+or
+null
+if
+none
+is
+available
 *
 /
 GeckoDriver
@@ -1827,6 +1832,7 @@ browsingContext
 this
 .
 currentSession
+?
 .
 chromeBrowsingContext
 ;
@@ -1838,6 +1844,7 @@ browsingContext
 this
 .
 currentSession
+?
 .
 contentBrowsingContext
 ;
