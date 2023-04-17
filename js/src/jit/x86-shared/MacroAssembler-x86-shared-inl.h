@@ -1511,6 +1511,8 @@ Register
 rhs
 Register
 srcDest
+Register
+tempEdx
 bool
 isUnsigned
 )
@@ -1521,6 +1523,12 @@ srcDest
 =
 =
 eax
+&
+&
+tempEdx
+=
+=
+edx
 )
 ;
 /
@@ -1589,6 +1597,8 @@ Register
 rhs
 Register
 srcDest
+Register
+tempEdx
 bool
 isUnsigned
 )
@@ -1599,6 +1609,12 @@ srcDest
 =
 =
 eax
+&
+&
+tempEdx
+=
+=
+edx
 )
 ;
 /
