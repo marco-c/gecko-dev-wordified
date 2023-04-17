@@ -492,7 +492,7 @@ errMissingSpaceBeforeDoctypeName
 )
 ;
 void
-errHyphenHyphenBang
+errNestedComment
 (
 )
 ;
