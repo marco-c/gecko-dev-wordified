@@ -1,14 +1,11 @@
 use
-super
+crate
 :
 :
-Value
-;
-use
-mapping
-:
-:
+{
 Mapping
+Value
+}
 ;
 /
 /
@@ -129,7 +126,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -216,7 +212,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -319,7 +314,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -439,7 +433,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -508,7 +501,6 @@ into
 /
 /
 /
-edition2018
 /
 /
 /
@@ -638,7 +630,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -769,7 +760,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -905,7 +895,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1055,7 +1044,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1113,7 +1101,6 @@ collect
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1178,7 +1165,6 @@ collect
 /
 /
 /
-edition2018
 /
 /
 /

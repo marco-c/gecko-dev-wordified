@@ -203,7 +203,6 @@ Error
 >
 {
 match
-*
 self
 .
 0
@@ -219,7 +218,6 @@ Ok
 (
 )
 )
-ref
 path
 =
 >
@@ -238,7 +236,6 @@ path
 }
 }
 match
-*
 self
 {
 Path

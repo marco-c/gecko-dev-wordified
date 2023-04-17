@@ -1,3 +1,55 @@
+mod
+de
+;
+mod
+from
+;
+mod
+index
+;
+mod
+partial_eq
+;
+mod
+ser
+;
+use
+crate
+:
+:
+ser
+:
+:
+SerializerToYaml
+;
+use
+crate
+:
+:
+{
+Error
+Mapping
+}
+;
+use
+serde
+:
+:
+de
+:
+:
+{
+Deserialize
+DeserializeOwned
+IntoDeserializer
+}
+;
+use
+serde
+:
+:
+Serialize
+;
 use
 std
 :
@@ -26,46 +78,10 @@ str
 FromStr
 ;
 use
-serde
-:
-:
-de
-:
-:
-{
-Deserialize
-DeserializeOwned
-}
-;
-use
-serde
-:
-:
-Serialize
-;
-use
 yaml_rust
 :
 :
 Yaml
-;
-use
-error
-:
-:
-Error
-;
-use
-mapping
-:
-:
-Mapping
-;
-use
-ser
-:
-:
-Serializer
 ;
 pub
 use
@@ -79,6 +95,9 @@ Index
 ;
 pub
 use
+crate
+:
+:
 number
 :
 :
@@ -253,7 +272,6 @@ Examples
 /
 /
 /
-edition2018
 /
 /
 /
@@ -442,15 +460,6 @@ Ok
 /
 /
 #
-fn
-main
-(
-)
-{
-/
-/
-/
-#
 try_main
 (
 )
@@ -458,11 +467,6 @@ try_main
 unwrap
 (
 )
-/
-/
-/
-#
-}
 /
 /
 /
@@ -568,7 +572,6 @@ error
 /
 /
 /
-edition2018
 /
 /
 /
@@ -651,7 +654,7 @@ value
 .
 serialize
 (
-Serializer
+SerializerToYaml
 )
 .
 map
@@ -791,7 +794,6 @@ type
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1015,7 +1017,6 @@ sequence
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1266,7 +1267,6 @@ None
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1736,7 +1736,6 @@ Some
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1791,7 +1790,6 @@ is_null
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1892,7 +1890,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -1952,7 +1949,6 @@ Some
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2018,7 +2014,6 @@ Option
 >
 {
 match
-*
 self
 {
 Value
@@ -2086,7 +2081,6 @@ value
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2141,7 +2135,6 @@ is_bool
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2239,7 +2232,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2298,7 +2290,6 @@ true
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2363,7 +2354,6 @@ bool
 >
 {
 match
-*
 self
 {
 Value
@@ -2377,6 +2367,7 @@ b
 >
 Some
 (
+*
 b
 )
 _
@@ -2407,7 +2398,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2462,7 +2452,6 @@ is_number
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2524,7 +2513,6 @@ self
 bool
 {
 match
-*
 self
 {
 Value
@@ -2600,7 +2588,6 @@ value
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2655,7 +2642,6 @@ is_i64
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2755,7 +2741,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2814,7 +2799,6 @@ Some
 /
 /
 /
-edition2018
 /
 /
 /
@@ -2879,7 +2863,6 @@ i64
 >
 {
 match
-*
 self
 {
 Value
@@ -2887,7 +2870,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -2960,7 +2942,6 @@ value
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3015,7 +2996,6 @@ is_u64
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3115,7 +3095,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3174,7 +3153,6 @@ Some
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3239,7 +3217,6 @@ u64
 >
 {
 match
-*
 self
 {
 Value
@@ -3247,7 +3224,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -3348,7 +3324,6 @@ future
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3405,7 +3380,6 @@ is_f64
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3467,7 +3441,6 @@ self
 bool
 {
 match
-*
 self
 {
 Value
@@ -3475,7 +3448,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -3520,7 +3492,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3583,7 +3554,6 @@ Some
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3648,7 +3618,6 @@ f64
 >
 {
 match
-*
 self
 {
 Value
@@ -3656,7 +3625,6 @@ Value
 :
 Number
 (
-ref
 i
 )
 =
@@ -3720,7 +3688,6 @@ slice
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3778,7 +3745,6 @@ is_string
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3876,7 +3842,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -3941,7 +3906,6 @@ ipsum
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4007,7 +3971,6 @@ str
 >
 {
 match
-*
 self
 {
 Value
@@ -4015,7 +3978,6 @@ Value
 :
 String
 (
-ref
 s
 )
 =
@@ -4052,7 +4014,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4111,7 +4072,6 @@ is_sequence
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4212,7 +4172,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4307,7 +4266,6 @@ from
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4373,7 +4331,6 @@ Sequence
 >
 {
 match
-*
 self
 {
 Value
@@ -4381,7 +4338,6 @@ Value
 :
 Sequence
 (
-ref
 seq
 )
 =
@@ -4427,7 +4383,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4553,7 +4508,6 @@ from
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4622,7 +4576,6 @@ Sequence
 >
 {
 match
-*
 self
 {
 Value
@@ -4630,8 +4583,6 @@ Value
 :
 Sequence
 (
-ref
-mut
 seq
 )
 =
@@ -4668,7 +4619,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4725,7 +4675,6 @@ is_mapping
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4826,7 +4775,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -4947,7 +4895,6 @@ expected
 /
 /
 /
-edition2018
 /
 /
 /
@@ -5013,7 +4960,6 @@ Mapping
 >
 {
 match
-*
 self
 {
 Value
@@ -5021,7 +4967,6 @@ Value
 :
 Mapping
 (
-ref
 map
 )
 =
@@ -5066,7 +5011,6 @@ otherwise
 /
 /
 /
-edition2018
 /
 /
 /
@@ -5267,7 +5211,6 @@ expected
 /
 /
 /
-edition2018
 /
 /
 /
@@ -5339,7 +5282,6 @@ Mapping
 >
 {
 match
-*
 self
 {
 Value
@@ -5347,8 +5289,6 @@ Value
 :
 Mapping
 (
-ref
-mut
 map
 )
 =
@@ -5758,7 +5698,6 @@ H
 )
 {
 match
-*
 self
 {
 Value
@@ -5796,7 +5735,6 @@ Value
 :
 Number
 (
-ref
 i
 )
 =
@@ -5815,7 +5753,6 @@ Value
 :
 String
 (
-ref
 s
 )
 =
@@ -5834,7 +5771,6 @@ Value
 :
 Sequence
 (
-ref
 seq
 )
 =
@@ -5853,7 +5789,6 @@ Value
 :
 Mapping
 (
-ref
 map
 )
 =
@@ -5870,18 +5805,37 @@ state
 }
 }
 }
-mod
-from
-;
-mod
-index
-;
-mod
-partial_eq
-;
-mod
+impl
+<
+'
 de
+>
+IntoDeserializer
+<
+'
+de
+Error
+>
+for
+Value
+{
+type
+Deserializer
+=
+Self
 ;
-mod
-ser
-;
+fn
+into_deserializer
+(
+self
+)
+-
+>
+Self
+:
+:
+Deserializer
+{
+self
+}
+}
