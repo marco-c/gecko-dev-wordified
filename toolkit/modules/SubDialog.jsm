@@ -3840,15 +3840,7 @@ frameOverhead
 =
 frameSizeDifference
 +
-(
-this
-.
-_titleBar
-?
-30
-:
-0
-)
+titleBarHeight
 ;
 let
 maxHeight
