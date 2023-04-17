@@ -41633,12 +41633,11 @@ sc
 ;
 if
 (
-nsCSSRendering
-:
-:
+aForFrame
+-
+>
 IsCanvasFrame
 (
-aForFrame
 )
 )
 {
