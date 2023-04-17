@@ -11182,6 +11182,17 @@ mReplaceBrowsingContext
 =
 true
 ;
+options
+.
+mActiveSessionHistoryEntry
+=
+browsingContext
+-
+>
+GetActiveSessionHistoryEntry
+(
+)
+;
 }
 }
 LOG
