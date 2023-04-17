@@ -204,6 +204,10 @@ virtual
 void
 ReleaseVAAPIData
 (
+bool
+aForFrameRecycle
+=
+true
 )
 {
 }
@@ -816,6 +820,8 @@ frame
 void
 ReleaseVAAPIData
 (
+bool
+aForFrameRecycle
 )
 ;
 private
