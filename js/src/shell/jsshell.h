@@ -868,6 +868,10 @@ OOM_printAllocationCount
 #
 endif
 extern
+bool
+useFdlibmForSinCosTan
+;
+extern
 UniqueChars
 processWideModuleLoadPath
 ;
