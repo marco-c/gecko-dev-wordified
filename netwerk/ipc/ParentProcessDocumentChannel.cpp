@@ -1128,10 +1128,10 @@ Some
 (
 mIsXFOError
 )
-0
+nullptr
 /
 *
-ProcessId
+ContentParent
 *
 /
 &
@@ -1180,10 +1180,10 @@ UserActivation
 IsHandlingUserInput
 (
 )
-0
+nullptr
 /
 *
-ProcessId
+ContentParent
 *
 /
 nullptr
