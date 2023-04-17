@@ -5864,7 +5864,7 @@ bool
 NativeObject
 :
 :
-maybeToDictionaryModeForPut
+maybeToDictionaryModeForChange
 (
 JSContext
 *
@@ -6023,7 +6023,7 @@ bool
 NativeObject
 :
 :
-putProperty
+changeProperty
 (
 JSContext
 *
@@ -6238,7 +6238,7 @@ is
 a
 redundant
 "
-put
+change
 "
 and
 we
@@ -6298,7 +6298,7 @@ true
 if
 (
 !
-maybeToDictionaryModeForPut
+maybeToDictionaryModeForChange
 (
 cx
 obj
@@ -6909,7 +6909,7 @@ a
 /
 redundant
 "
-put
+change
 "
 and
 we
@@ -6954,7 +6954,7 @@ true
 if
 (
 !
-maybeToDictionaryModeForPut
+maybeToDictionaryModeForChange
 (
 cx
 obj
