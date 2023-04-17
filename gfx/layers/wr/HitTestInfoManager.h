@@ -264,6 +264,10 @@ HitTestInfoManager
 {
 public
 :
+HitTestInfoManager
+(
+)
+;
 /
 *
 *

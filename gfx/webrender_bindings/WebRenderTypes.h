@@ -4982,6 +4982,11 @@ RootScrollNodeWithChain
 (
 )
 ;
+WrSpaceAndClipChain
+InvalidScrollNodeWithChain
+(
+)
+;
 enum
 class
 WebRenderError
