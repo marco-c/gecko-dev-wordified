@@ -535,6 +535,7 @@ amount
 )
 }
 }
+;
 }
 seq_slice_choose_multiple
 !
@@ -1094,7 +1095,6 @@ iter
 (
 |
 |
-{
 x
 .
 iter
@@ -1112,7 +1112,6 @@ mut
 rng
 10
 )
-}
 )
 }
 #
@@ -1178,7 +1177,6 @@ iter
 (
 |
 |
-{
 x
 .
 iter
@@ -1198,7 +1196,6 @@ rng
 mut
 buf
 )
-}
 )
 }
 macro_rules
@@ -1260,7 +1257,6 @@ iter
 (
 |
 |
-{
 index
 :
 :
@@ -1272,10 +1268,10 @@ rng
 length
 amount
 )
-}
 )
 }
 }
+;
 }
 sample_indices
 !
