@@ -118,6 +118,23 @@ repackage_type
         
 if
 repackage_type
+and
+job
+[
+"
+attributes
+"
+]
+[
+"
+build_type
+"
+]
+!
+=
+"
+debug
+"
 :
             
 build_platform
