@@ -2470,10 +2470,11 @@ pointer
 .
 *
 param
-aSpecifier
-The
+aModuleRequest
+A
 module
-specifier
+request
+object
 .
 *
 param
@@ -2511,10 +2512,10 @@ JS
 :
 Handle
 <
-JSString
+JSObject
 *
 >
-aSpecifier
+aModuleRequest
 JS
 :
 :
