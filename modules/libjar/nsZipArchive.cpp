@@ -171,13 +171,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -4435,7 +4428,7 @@ NS_ERROR_ILLEGAL_VALUE
 }
 pattern
 =
-PL_strdup
+strdup
 (
 aPattern
 )
@@ -4467,7 +4460,7 @@ if
 aFind
 )
 {
-PL_strfree
+free
 (
 pattern
 )
@@ -7616,7 +7609,7 @@ nsZipFind
 (
 )
 {
-PL_strfree
+free
 (
 mPattern
 )
