@@ -437,16 +437,6 @@ aFunctionObject
 )
 ;
 static
-bool
-BinASTEncodingEnabled
-(
-)
-{
-return
-false
-;
-}
-static
 nsresult
 CompileModule
 (
