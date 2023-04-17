@@ -156,6 +156,7 @@ Private
 Fields
 :
 PrivateDoubleInit
+PrivateBrandDoubleInit
 MissingPrivateOnGet
 MissingPrivateOnSet
 AssignToPrivateMethod

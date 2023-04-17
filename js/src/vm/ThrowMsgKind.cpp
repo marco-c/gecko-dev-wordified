@@ -200,6 +200,15 @@ case
 ThrowMsgKind
 :
 :
+PrivateBrandDoubleInit
+:
+return
+JSMSG_PRIVATE_BRAND_DOUBLE
+;
+case
+ThrowMsgKind
+:
+:
 MissingPrivateOnGet
 :
 return
