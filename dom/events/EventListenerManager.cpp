@@ -8917,6 +8917,7 @@ WasPassed
 {
 signal
 =
+&
 options
 .
 mSignal
