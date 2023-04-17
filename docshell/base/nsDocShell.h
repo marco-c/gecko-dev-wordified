@@ -8719,6 +8719,11 @@ mSavingOldViewer
 1
 ;
 bool
+mAffectPrivateSessionLifetime
+:
+1
+;
+bool
 mInvisible
 :
 1
