@@ -1,5 +1,17 @@
 import
 json
+import
+os
+here
+=
+os
+.
+path
+.
+dirname
+(
+__file__
+)
 def
 isHTTPTokenCodePoint
 (
@@ -199,7 +211,7 @@ type
                 
 test
 =
-unichr
+chr
 (
 cp
 )
@@ -219,7 +231,7 @@ x
 /
 "
 +
-unichr
+chr
 (
 cp
 )
@@ -284,7 +296,7 @@ x
 ;
 "
 +
-unichr
+chr
 (
 cp
 )
@@ -377,7 +389,7 @@ x
 "
 "
 +
-unichr
+chr
 (
 cp
 )
@@ -424,7 +436,7 @@ x
 =
 "
 +
-unichr
+chr
 (
 cp
 )
@@ -463,7 +475,7 @@ x
 "
 "
 +
-unichr
+chr
 (
 cp
 )
@@ -487,6 +499,13 @@ handle
 =
 open
 (
+os
+.
+path
+.
+join
+(
+here
 "
 generated
 -
@@ -496,6 +515,7 @@ types
 .
 json
 "
+)
 "
 w
 "
