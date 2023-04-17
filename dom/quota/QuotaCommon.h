@@ -10175,6 +10175,7 @@ typename
 T
 >
 MOZ_COLD
+MOZ_NEVER_INLINE
 void
 HandleError
 (
