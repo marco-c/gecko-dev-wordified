@@ -3751,8 +3751,6 @@ fun
 -
 >
 flagsAndArgCount
-.
-toPrivateUint32
 (
 )
 &
@@ -3781,9 +3779,7 @@ JSJitInfo
 fun
 -
 >
-jitinfo
-.
-toPrivate
+jitInfoOrScript
 (
 )
 )
@@ -3830,8 +3826,6 @@ fun
 -
 >
 flagsAndArgCount
-.
-toPrivateUint32
 (
 )
 &
@@ -3845,12 +3839,7 @@ JS_FUNCTION_INTERPRETED_BITS
 fun
 -
 >
-jitinfo
-=
-JS
-:
-:
-PrivateValue
+setJitInfoOrScript
 (
 const_cast
 <

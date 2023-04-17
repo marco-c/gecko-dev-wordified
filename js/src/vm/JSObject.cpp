@@ -4848,13 +4848,11 @@ GetGCObjectKind
 (
 clasp
 )
-clasp
 )
 :
 GetGCKindSlots
 (
 kind
-clasp
 )
 ;
 RootedShape
@@ -8639,12 +8637,6 @@ asTenured
 )
 .
 getAllocKind
-(
-)
-obj
--
->
-getClass
 (
 )
 )
@@ -26166,7 +26158,6 @@ gc
 GetGCKindSlots
 (
 allocKind
-clasp
 )
 =
 =
