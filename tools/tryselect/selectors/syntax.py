@@ -4198,6 +4198,8 @@ s
 "
 %
 e
+.
+message
 )
             
 sys
@@ -4276,6 +4278,8 @@ tests
 "
 ]
 e
+.
+message
 )
 )
             
@@ -4344,6 +4348,8 @@ s
 "
 %
 e
+.
+message
 )
             
 sys
@@ -4402,6 +4408,8 @@ s
 "
 %
 e
+.
+message
 )
             
 sys
@@ -4628,6 +4636,8 @@ s
 "
 %
 e
+.
+message
 )
             
 sys
@@ -5054,6 +5064,8 @@ e
 print
 (
 e
+.
+message
 )
             
 sys

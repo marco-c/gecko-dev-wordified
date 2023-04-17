@@ -876,6 +876,8 @@ e
 print
 (
 e
+.
+message
 )
             
 return
@@ -1243,6 +1245,8 @@ e
 print
 (
 e
+.
+message
 )
             
 return

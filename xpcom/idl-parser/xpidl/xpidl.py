@@ -10300,10 +10300,9 @@ e
 raise
 IDLError
 (
-str
-(
 e
-)
+.
+message
 self
 .
 location
@@ -10395,10 +10394,9 @@ e
 raise
 IDLError
 (
-str
-(
 e
-)
+.
+message
 self
 .
 location
