@@ -146,7 +146,7 @@ crate
 tracking
 :
 :
-PNSpace
+PacketNumberSpace
 ;
 use
 crate
@@ -2265,7 +2265,7 @@ streams
 .
 write_frame
 (
-PNSpace
+PacketNumberSpace
 :
 :
 Initial
@@ -2314,7 +2314,7 @@ streams
 .
 write_frame
 (
-PNSpace
+PacketNumberSpace
 :
 :
 Initial

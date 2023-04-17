@@ -830,6 +830,10 @@ all
 this
 takes
 .
+#
+[
+must_use
+]
 pub
 fn
 new
@@ -860,6 +864,10 @@ for
 -
 RTT
 .
+#
+[
+must_use
+]
 pub
 fn
 save

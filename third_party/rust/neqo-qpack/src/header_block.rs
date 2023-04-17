@@ -107,7 +107,7 @@ crate
 qpack_send_buf
 :
 :
-QPData
+QpackData
 ;
 use
 crate
@@ -184,7 +184,7 @@ HeaderEncoder
 {
 buf
 :
-QPData
+QpackData
 base
 :
 u64
@@ -280,7 +280,7 @@ Self
 {
 buf
 :
-QPData
+QpackData
 :
 :
 default

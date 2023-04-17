@@ -1572,9 +1572,9 @@ unwrap
 ;
 client
 .
-send_streams
+streams
 .
-get_mut
+get_send_stream_mut
 (
 stream_id
 .
@@ -1611,9 +1611,9 @@ count
 ;
 client
 .
-send_streams
+streams
 .
-get_mut
+get_send_stream_mut
 (
 stream_id
 .
@@ -1709,6 +1709,8 @@ stream
 credit
 client
 .
+streams
+.
 handle_max_data
 (
 100_000_000
@@ -1748,9 +1750,9 @@ tx
 buffer
 client
 .
-send_streams
+streams
 .
-get_mut
+get_send_stream_mut
 (
 stream_id
 .
@@ -3590,9 +3592,9 @@ internal_stream
 =
 server
 .
-send_streams
+streams
 .
-get_mut
+get_send_stream_mut
 (
 StreamId
 :

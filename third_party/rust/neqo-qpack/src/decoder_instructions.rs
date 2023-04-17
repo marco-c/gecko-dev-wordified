@@ -100,7 +100,7 @@ crate
 qpack_send_buf
 :
 :
-QPData
+QpackData
 ;
 use
 crate
@@ -261,7 +261,7 @@ enc
 :
 &
 mut
-QPData
+QpackData
 )
 {
 match
@@ -754,7 +754,7 @@ super
 {
 DecoderInstruction
 DecoderInstructionReader
-QPData
+QpackData
 }
 ;
 use
@@ -787,7 +787,7 @@ let
 mut
 buf
 =
-QPData
+QpackData
 :
 :
 default
@@ -954,7 +954,7 @@ let
 mut
 buf
 =
-QPData
+QpackData
 :
 :
 default

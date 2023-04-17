@@ -120,11 +120,8 @@ neqo_crypto
 :
 :
 {
-aead
-:
-:
-Aead
 hkdf
+Aead
 TLS_AES_128_GCM_SHA256
 TLS_VERSION_1_3
 }
