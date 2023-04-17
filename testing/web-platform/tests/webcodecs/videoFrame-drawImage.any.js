@@ -36,7 +36,7 @@ vfInit
 format
 :
 '
-ABGR
+RGBA
 '
 timestamp
 :
