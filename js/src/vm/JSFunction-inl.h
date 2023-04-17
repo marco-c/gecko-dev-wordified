@@ -597,9 +597,10 @@ nobj
 fun
 -
 >
-nargs_
-=
+setArgCount
+(
 0
+)
 ;
 /
 /

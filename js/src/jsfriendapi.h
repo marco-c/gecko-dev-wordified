@@ -3751,7 +3751,7 @@ MOZ_ASSERT
 fun
 -
 >
-flags
+flagsAndArgCount
 &
 js
 :
@@ -3814,7 +3814,7 @@ MOZ_ASSERT
 fun
 -
 >
-flags
+flagsAndArgCount
 &
 js
 :
