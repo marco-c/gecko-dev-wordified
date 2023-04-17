@@ -76,7 +76,7 @@ locale
 import
 pytest
 import
-pathlib2
+pathlib
 from
 mozbuild
 .
@@ -118,7 +118,7 @@ pytest
 "
     
 return
-pathlib2
+pathlib
 .
 Path
 (

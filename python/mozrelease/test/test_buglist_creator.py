@@ -140,7 +140,7 @@ print_function
 import
 json
 from
-pathlib2
+pathlib
 import
 Path
 import
@@ -866,7 +866,6 @@ FIREFOX_AURORA_48_BASE
 mock_hg_json
 =
 {
-        
 "
 tags
 "
@@ -884,7 +883,6 @@ ff_48_tag
 in
 ff_48_tags
 ]
-    
 }
     
 assert

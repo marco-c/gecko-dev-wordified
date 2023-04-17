@@ -79,7 +79,7 @@ mkstemp
 import
 unittest
 from
-pathlib2
+pathlib
 import
 Path
 from
