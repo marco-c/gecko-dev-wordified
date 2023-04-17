@@ -1056,6 +1056,11 @@ NAVIGATION_MARKER
 "
 navigationMarker
 "
+SIMPLE_TABLE
+:
+"
+simpleTable
+"
 }
 MESSAGE_LEVEL
 :

@@ -144,6 +144,10 @@ help
 "
 "
 :
+history
+"
+"
+:
 screenshot
 "
 "

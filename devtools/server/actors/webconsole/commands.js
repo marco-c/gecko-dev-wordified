@@ -72,6 +72,9 @@ block
 help
 "
 "
+history
+"
+"
 screenshot
 "
 "
