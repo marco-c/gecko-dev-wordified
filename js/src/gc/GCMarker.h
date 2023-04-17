@@ -3692,16 +3692,7 @@ WeakCache
 <
 GCVector
 <
-JS
-:
-:
-Heap
-<
-JS
-:
-:
-Value
->
+HeapPtrValue
 0
 SystemAllocPolicy
 >
