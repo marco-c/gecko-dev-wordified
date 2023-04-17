@@ -417,7 +417,7 @@ Clone
 (
 )
 ;
-mSrcIndex
+mCurrentSrcIndex
 =
 0
 ;
@@ -1316,6 +1316,8 @@ StoreUserFontData
 gfxFontEntry
 *
 aFontEntry
+uint32_t
+aSrcIndex
 bool
 aPrivate
 const
@@ -1374,7 +1376,7 @@ userFontData
 >
 mSrcIndex
 =
-mSrcIndex
+aSrcIndex
 ;
 const
 gfxFontFaceSrc
@@ -1383,7 +1385,7 @@ src
 =
 mSrcList
 [
-mSrcIndex
+aSrcIndex
 ]
 ;
 switch
@@ -1637,6 +1639,8 @@ gfxUserFontEntry
 :
 GetFamilyNameAndURIForLogging
 (
+uint32_t
+aSrcIndex
 nsACString
 &
 aFamilyName
@@ -1657,7 +1661,7 @@ Truncate
 ;
 if
 (
-mSrcIndex
+aSrcIndex
 =
 =
 mSrcList
@@ -1688,7 +1692,7 @@ if
 (
 mSrcList
 [
-mSrcIndex
+aSrcIndex
 ]
 .
 mURI
@@ -1696,7 +1700,7 @@ mURI
 {
 mSrcList
 [
-mSrcIndex
+aSrcIndex
 ]
 .
 mURI
@@ -2198,7 +2202,7 @@ LoadNextSrc
 {
 NS_ASSERTION
 (
-mSrcIndex
+mCurrentSrcIndex
 <
 mSrcList
 .
@@ -2320,7 +2324,7 @@ against
 the
 new
 download
-mSrcIndex
+mCurrentSrcIndex
 +
 +
 ;
@@ -2351,7 +2355,7 @@ MOZ_ASSERT
 (
 mSrcList
 [
-mSrcIndex
+mCurrentSrcIndex
 ]
 .
 mSourceType
@@ -2620,7 +2624,7 @@ begins
 successfully
 while
 (
-mSrcIndex
+mCurrentSrcIndex
 <
 numSrc
 )
@@ -2631,7 +2635,7 @@ currSrc
 =
 mSrcList
 [
-mSrcIndex
+mCurrentSrcIndex
 ]
 ;
 /
@@ -2822,7 +2826,7 @@ gen
 n
 "
 mFontSet
-mSrcIndex
+mCurrentSrcIndex
 currSrc
 .
 mLocalName
@@ -2961,6 +2965,7 @@ time
 StoreUserFontData
 (
 fe
+mCurrentSrcIndex
 false
 nsCString
 (
@@ -3033,7 +3038,7 @@ s
 n
 "
 mFontSet
-mSrcIndex
+mCurrentSrcIndex
 currSrc
 .
 mLocalName
@@ -3286,7 +3291,7 @@ s
 n
 "
 mFontSet
-mSrcIndex
+mCurrentSrcIndex
 currSrc
 .
 mURI
@@ -3473,6 +3478,7 @@ rv
 &
 LoadPlatformFontSync
 (
+mCurrentSrcIndex
 buffer
 bufferLength
 )
@@ -3510,6 +3516,7 @@ mFontSet
 LogMessage
 (
 this
+mCurrentSrcIndex
 "
 font
 load
@@ -3541,8 +3548,7 @@ mFontSet
 StartLoad
 (
 this
-&
-currSrc
+mCurrentSrcIndex
 )
 ;
 bool
@@ -3595,7 +3601,7 @@ s
 n
 "
 mFontSet
-mSrcIndex
+mCurrentSrcIndex
 currSrc
 .
 mURI
@@ -3628,6 +3634,7 @@ mFontSet
 LogMessage
 (
 this
+mCurrentSrcIndex
 "
 failed
 to
@@ -3733,6 +3740,7 @@ buffer
 &
 LoadPlatformFontSync
 (
+mCurrentSrcIndex
 buffer
 bufferLength
 )
@@ -3788,6 +3796,7 @@ mFontSet
 LogMessage
 (
 this
+mCurrentSrcIndex
 "
 font
 load
@@ -3801,7 +3810,7 @@ errorFlag
 ;
 }
 }
-mSrcIndex
+mCurrentSrcIndex
 +
 +
 ;
@@ -3817,6 +3826,7 @@ mFontSet
 LogMessage
 (
 this
+mCurrentSrcIndex
 "
 no
 supported
@@ -3913,6 +3923,8 @@ gfxUserFontEntry
 :
 LoadPlatformFontSync
 (
+uint32_t
+aSrcIndex
 const
 uint8_t
 *
@@ -4051,6 +4063,7 @@ messages
 return
 LoadPlatformFont
 (
+aSrcIndex
 aFontData
 aLength
 fontType
@@ -4072,6 +4085,8 @@ gfxUserFontEntry
 :
 StartPlatformFontLoadOnBackgroundThread
 (
+uint32_t
+aSrcIndex
 const
 uint8_t
 *
@@ -4127,6 +4142,7 @@ event
 =
 NewRunnableMethod
 <
+uint32_t
 const
 uint8_t
 *
@@ -4160,6 +4176,7 @@ gfxUserFontEntry
 :
 :
 ContinuePlatformFontLoadOnMainThread
+aSrcIndex
 aFontData
 aLength
 fontType
@@ -4191,6 +4208,8 @@ gfxUserFontEntry
 :
 LoadPlatformFont
 (
+uint32_t
+aSrcIndex
 const
 uint8_t
 *
@@ -4237,6 +4256,7 @@ mFontSet
 LogMessage
 (
 this
+aSrcIndex
 msg
 .
 mMessage
@@ -4274,6 +4294,7 @@ mFontSet
 LogMessage
 (
 this
+aSrcIndex
 "
 rejected
 by
@@ -4345,6 +4366,7 @@ mFontSet
 LogMessage
 (
 this
+aSrcIndex
 "
 not
 a
@@ -4702,6 +4724,7 @@ mFontSet
 LogMessage
 (
 this
+aSrcIndex
 "
 not
 usable
@@ -4933,6 +4956,7 @@ mSizeAdjust
 StoreUserFontData
 (
 fe
+aSrcIndex
 mFontSet
 -
 >
@@ -5001,10 +5025,10 @@ d
 n
 "
 mFontSet
-mSrcIndex
+aSrcIndex
 mSrcList
 [
-mSrcIndex
+aSrcIndex
 ]
 .
 mURI
@@ -5101,10 +5125,10 @@ font
 n
 "
 mFontSet
-mSrcIndex
+aSrcIndex
 mSrcList
 [
-mSrcIndex
+aSrcIndex
 ]
 .
 mURI
@@ -5266,6 +5290,8 @@ gfxUserFontEntry
 :
 FontDataDownloadComplete
 (
+uint32_t
+aSrcIndex
 const
 uint8_t
 *
@@ -5348,6 +5374,7 @@ gfx_downloadable_fonts_sanitize_omt
 {
 LoadPlatformFontAsync
 (
+aSrcIndex
 aFontData
 aLength
 aCallback
@@ -5361,6 +5388,7 @@ loaded
 =
 LoadPlatformFontSync
 (
+aSrcIndex
 aFontData
 aLength
 )
@@ -5422,6 +5450,7 @@ mFontSet
 LogMessage
 (
 this
+aSrcIndex
 "
 font
 -
@@ -5447,6 +5476,7 @@ mFontSet
 LogMessage
 (
 this
+aSrcIndex
 "
 download
 failed
@@ -5486,6 +5516,8 @@ gfxUserFontEntry
 :
 LoadPlatformFontAsync
 (
+uint32_t
+aSrcIndex
 const
 uint8_t
 *
@@ -5595,6 +5627,7 @@ event
 =
 NewRunnableMethod
 <
+uint32_t
 const
 uint8_t
 *
@@ -5617,6 +5650,7 @@ gfxUserFontEntry
 :
 :
 StartPlatformFontLoadOnBackgroundThread
+aSrcIndex
 aFontData
 aLength
 cb
@@ -5641,6 +5675,8 @@ gfxUserFontEntry
 :
 ContinuePlatformFontLoadOnMainThread
 (
+uint32_t
+aSrcIndex
 const
 uint8_t
 *
@@ -5681,6 +5717,7 @@ loaded
 =
 LoadPlatformFont
 (
+aSrcIndex
 aOriginalFontData
 aOriginalLength
 aFontType
