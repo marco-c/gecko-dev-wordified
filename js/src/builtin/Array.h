@@ -312,10 +312,6 @@ NewDenseEmptyArray
 JSContext
 *
 cx
-HandleObject
-proto
-=
-nullptr
 )
 ;
 /
@@ -347,10 +343,6 @@ NewTenuredDenseEmptyArray
 JSContext
 *
 cx
-HandleObject
-proto
-=
-nullptr
 )
 ;
 /
@@ -397,10 +389,6 @@ JSContext
 cx
 uint32_t
 length
-HandleObject
-proto
-=
-nullptr
 NewObjectKind
 newKind
 =
@@ -440,10 +428,6 @@ JSContext
 cx
 uint32_t
 length
-HandleObject
-proto
-=
-nullptr
 NewObjectKind
 newKind
 =

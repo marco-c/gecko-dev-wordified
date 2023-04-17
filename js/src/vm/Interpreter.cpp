@@ -32435,7 +32435,6 @@ NewDenseFullyAllocatedArray
 (
 cx
 length
-nullptr
 newKind
 )
 ;
@@ -32493,7 +32492,6 @@ NewDenseFullyAllocatedArray
 (
 cx
 length
-nullptr
 newKind
 site
 )
@@ -32615,7 +32613,6 @@ NewDenseFullyAllocatedArray
 (
 cx
 length
-nullptr
 newKind
 site
 )

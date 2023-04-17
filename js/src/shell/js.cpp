@@ -52757,7 +52757,6 @@ grayRoot
 NewTenuredDenseEmptyArray
 (
 cx
-nullptr
 )
 )
 )
