@@ -162,9 +162,8 @@ override
 nsresult
 NativeGetColor
 (
-const
 ColorID
-aID
+ColorScheme
 nscolor
 &
 aResult
