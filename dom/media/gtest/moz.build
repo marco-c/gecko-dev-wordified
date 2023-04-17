@@ -362,6 +362,11 @@ TestWebMBuffered
 .
 cpp
 "
+"
+WaitFor
+.
+cpp
+"
 ]
 if
 CONFIG
