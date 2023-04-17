@@ -9922,13 +9922,11 @@ environment
 object
 /
 /
-JSSLOT_FREE
-(
-&
 ClassBodyLexicalEnvironmentObject
 :
 :
-class_
+privateBrandSlot
+(
 )
 .
 We
