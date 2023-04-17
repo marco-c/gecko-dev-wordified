@@ -135,6 +135,17 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+mscom
+/
+ActCtxResource
+.
+h
+"
+#
 if
 defined
 (
@@ -229,8 +240,8 @@ INVALID_HANDLE_VALUE
 explicit
 ActivationContext
 (
-WORD
-aResourceId
+ActCtxResource
+aResource
 )
 ;
 explicit
@@ -339,7 +350,7 @@ private
 void
 Init
 (
-ACTCTX
+ACTCTXW
 &
 aActCtx
 )

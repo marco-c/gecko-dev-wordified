@@ -763,6 +763,12 @@ argv
 )
 ;
 MFBT_API
+void
+CleanupProcessRuntime
+(
+)
+;
+MFBT_API
 bool
 GetPreXULSkeletonUIWasShown
 (
