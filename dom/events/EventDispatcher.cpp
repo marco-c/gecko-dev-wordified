@@ -2519,9 +2519,10 @@ mIsChromeHandler
 ;
 private
 :
-typedef
-uint32_t
+using
 RawFlags
+=
+uint32_t
 ;
 void
 SetRawFlags

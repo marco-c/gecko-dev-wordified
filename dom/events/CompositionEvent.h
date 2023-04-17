@@ -179,7 +179,9 @@ mozilla
 namespace
 dom
 {
-typedef
+using
+TextClauseArray
+=
 nsTArray
 <
 RefPtr
@@ -187,7 +189,6 @@ RefPtr
 TextClause
 >
 >
-TextClauseArray
 ;
 class
 CompositionEvent

@@ -3478,8 +3478,8 @@ below
 .
 *
 /
-typedef
 enum
+ProcessingAccessKeyState
 {
 eAccessKeyProcessingNormal
 =
@@ -3487,7 +3487,6 @@ eAccessKeyProcessingNormal
 eAccessKeyProcessingUp
 eAccessKeyProcessingDown
 }
-ProcessingAccessKeyState
 ;
 /
 *

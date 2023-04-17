@@ -81,8 +81,8 @@ KeyEventHandler
 class
 WidgetKeyboardEvent
 ;
-typedef
 struct
+ShortcutKeyData
 {
 const
 char16_t
@@ -110,7 +110,6 @@ char16_t
 command
 ;
 }
-ShortcutKeyData
 ;
 enum
 class
