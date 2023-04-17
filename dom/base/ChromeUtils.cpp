@@ -4292,10 +4292,6 @@ aTarget
 id
 getter
 setter
-JSPROP_GETTER
-|
-JSPROP_SETTER
-|
 JSPROP_ENUMERATE
 )
 ;

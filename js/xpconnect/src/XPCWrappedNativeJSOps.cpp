@@ -3076,11 +3076,6 @@ false
 ;
 }
 propFlags
-|
-=
-JSPROP_GETTER
-;
-propFlags
 &
 =
 ~
@@ -3450,11 +3445,6 @@ broken
 )
 ;
 propFlags
-|
-=
-JSPROP_GETTER
-;
-propFlags
 &
 =
 ~
@@ -3487,11 +3477,6 @@ IsWritableAttribute
 )
 )
 {
-propFlags
-|
-=
-JSPROP_SETTER
-;
 funobjSetter
 =
 funobjGetter
