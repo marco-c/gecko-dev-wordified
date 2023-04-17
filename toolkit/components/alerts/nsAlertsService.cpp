@@ -976,17 +976,6 @@ alert
 NS_ERROR_FAILURE
 )
 ;
-/
-/
-vibrate
-is
-unused
-nsTArray
-<
-uint32_t
->
-vibrate
-;
 nsresult
 rv
 =
@@ -1007,8 +996,6 @@ aData
 aPrincipal
 aInPrivateBrowsing
 aRequireInteraction
-false
-vibrate
 )
 ;
 NS_ENSURE_SUCCESS
