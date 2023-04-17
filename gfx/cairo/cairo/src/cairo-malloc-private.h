@@ -386,6 +386,13 @@ private
 h
 "
 #
+include
+<
+stdlib
+.
+h
+>
+#
 if
 HAVE_MEMFAULT
 #
@@ -491,6 +498,7 @@ is
 0
 .
 *
+*
 /
 #
 define
@@ -503,6 +511,8 @@ size
 (
 size
 )
+>
+0
 ?
 malloc
 (
@@ -523,7 +533,7 @@ NULL
 _cairo_malloc_ab
 :
 *
-n
+a
 :
 number
 of
@@ -540,7 +550,7 @@ element
 *
 *
 Allocates
-n
+a
 *
 size
 memory
@@ -634,6 +644,7 @@ or
 overflow
 .
 *
+*
 /
 #
 define
@@ -705,7 +716,7 @@ to
 be
 resized
 *
-n
+a
 :
 number
 of
@@ -726,7 +737,7 @@ ptr
 a
 block
 of
-n
+a
 *
 size
 memory
@@ -815,6 +826,7 @@ untouched
 )
 .
 *
+*
 /
 #
 define
@@ -876,7 +888,7 @@ size
 _cairo_malloc_abc
 :
 *
-n
+a
 :
 first
 factor
@@ -907,7 +919,7 @@ element
 *
 *
 Allocates
-n
+a
 *
 b
 *
@@ -991,6 +1003,7 @@ or
 overflow
 .
 *
+*
 /
 #
 define
@@ -1089,7 +1102,7 @@ size
 _cairo_malloc_ab_plus_c
 :
 *
-n
+a
 :
 number
 of
@@ -1104,7 +1117,7 @@ of
 each
 element
 *
-k
+c
 :
 additional
 size
@@ -1113,11 +1126,11 @@ allocate
 *
 *
 Allocates
-n
+a
 *
-ksize
+size
 +
-k
+c
 memory
 using
 _cairo_malloc
@@ -1135,7 +1148,8 @@ the
 arithmetic
 .
 Behaves
-like
+similar
+to
 *
 _cairo_malloc_ab
 (
@@ -1178,14 +1192,15 @@ or
 overflow
 .
 *
+*
 /
 #
 define
 _cairo_malloc_ab_plus_c
 (
-n
+a
 size
-k
+c
 )
 \
 (
@@ -1198,7 +1213,7 @@ size
 unsigned
 )
 (
-n
+a
 )
 >
 =
@@ -1218,7 +1233,7 @@ NULL
 unsigned
 )
 (
-k
+c
 )
 >
 =
@@ -1228,7 +1243,7 @@ INT32_MAX
 unsigned
 )
 (
-n
+a
 )
 *
 (
@@ -1247,7 +1262,7 @@ _cairo_malloc
 unsigned
 )
 (
-n
+a
 )
 *
 (
@@ -1261,7 +1276,7 @@ size
 unsigned
 )
 (
-k
+c
 )
 )
 )

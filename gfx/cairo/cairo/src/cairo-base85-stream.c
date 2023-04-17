@@ -457,6 +457,9 @@ i
 ;
 value
 =
+(
+uint32_t
+)
 four_tuple
 [
 0
@@ -811,7 +814,7 @@ status
 ;
 stream
 =
-malloc
+_cairo_malloc
 (
 sizeof
 (

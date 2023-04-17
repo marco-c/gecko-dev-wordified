@@ -5,10 +5,10 @@ vim
 set
 sw
 =
-2
+4
 sts
 =
-2
+4
 et
 cin
 :

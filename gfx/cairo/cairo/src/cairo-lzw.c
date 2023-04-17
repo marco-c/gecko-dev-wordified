@@ -572,7 +572,7 @@ buf
 >
 data
 =
-malloc
+_cairo_malloc
 (
 size
 )

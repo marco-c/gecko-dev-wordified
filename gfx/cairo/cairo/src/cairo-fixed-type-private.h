@@ -434,7 +434,7 @@ some
 assumptions
 in
 the
-tesselator
+tessellator
 about
 the
 *
