@@ -21238,10 +21238,13 @@ Get
 the
 JSFunction
 flags
+and
+arg
+count
 .
 masm
 .
-load16ZeroExtend
+load32
 (
 Address
 (
@@ -21249,7 +21252,7 @@ obj
 JSFunction
 :
 :
-offsetOfFlags
+offsetOfFlagsAndArgCount
 (
 )
 )
