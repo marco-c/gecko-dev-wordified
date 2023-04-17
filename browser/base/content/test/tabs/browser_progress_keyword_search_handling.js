@@ -354,7 +354,7 @@ stop
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -545,7 +545,7 @@ await
 searchPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
