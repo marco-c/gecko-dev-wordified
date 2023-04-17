@@ -740,6 +740,7 @@ length
 )
 )
 ;
+const
 uint8_t
 *
 ptr
@@ -806,6 +807,7 @@ length
 )
 )
 ;
+const
 uint8_t
 *
 ptr

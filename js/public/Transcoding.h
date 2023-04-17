@@ -204,6 +204,7 @@ mozilla
 :
 Range
 <
+const
 uint8_t
 >
 ;
@@ -504,6 +505,7 @@ inline
 bool
 IsTranscodingBytecodeAligned
 (
+const
 void
 *
 offset
