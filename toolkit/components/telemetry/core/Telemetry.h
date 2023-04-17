@@ -442,6 +442,14 @@ ChildEventData
 ;
 struct
 EventExtraEntry
+{
+nsCString
+key
+;
+nsCString
+value
+;
+}
 ;
 /
 *
