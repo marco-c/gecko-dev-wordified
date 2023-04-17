@@ -6633,15 +6633,6 @@ WidgetContentCommandEvent
 aEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-nsresult
-DoContentCommandInsertTextEvent
-(
-WidgetContentCommandEvent
-*
-aEvent
-)
-;
 nsresult
 DoContentCommandScrollEvent
 (
