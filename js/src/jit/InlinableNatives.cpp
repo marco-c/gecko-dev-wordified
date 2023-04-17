@@ -1687,6 +1687,12 @@ case
 InlinableNative
 :
 :
+MapGet
+:
+case
+InlinableNative
+:
+:
 MapHas
 :
 case

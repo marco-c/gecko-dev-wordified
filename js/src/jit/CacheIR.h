@@ -10580,6 +10580,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMapGet
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
