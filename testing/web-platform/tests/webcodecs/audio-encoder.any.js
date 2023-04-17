@@ -433,8 +433,6 @@ assert_greater_than
 (
 chunk
 .
-data
-.
 byteLength
 0
 )
@@ -652,8 +650,6 @@ outputs
 assert_greater_than
 (
 chunk
-.
-data
 .
 byteLength
 0
