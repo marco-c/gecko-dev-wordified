@@ -20500,6 +20500,18 @@ privateBrowsingAllowed
 "
 )
     
+Atom
+(
+"
+svgContextPropertiesAllowedPermission
+"
+"
+internal
+:
+svgContextPropertiesAllowed
+"
+)
+    
 #
 CSS
 Counter
