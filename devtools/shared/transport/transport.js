@@ -684,7 +684,7 @@ js
 *
 *
 -
-onClosed
+onTransportClosed
 (
 reason
 )
@@ -1515,7 +1515,7 @@ this
 .
 hooks
 .
-onClosed
+onTransportClosed
 (
 reason
 )

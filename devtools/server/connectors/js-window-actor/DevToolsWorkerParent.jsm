@@ -793,7 +793,7 @@ bind
 (
 connection
 )
-onClosed
+onTransportClosed
 (
 )
 {

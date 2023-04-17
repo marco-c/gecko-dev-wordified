@@ -906,7 +906,7 @@ up
 calling
 DevToolsServerConnection
 .
-onClosed
+onTransportClosed
 that
 would
 actually

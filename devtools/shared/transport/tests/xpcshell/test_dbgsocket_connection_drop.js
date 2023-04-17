@@ -484,7 +484,7 @@ _flushOutgoing
 )
 ;
 }
-onClosed
+onTransportClosed
 :
 function
 (

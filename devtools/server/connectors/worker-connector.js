@@ -815,7 +815,7 @@ transport
 hooks
 =
 {
-onClosed
+onTransportClosed
 :
 (
 )
@@ -896,7 +896,7 @@ will
 fail
 .
 The
-onClosed
+onTransportClosed
 hook
 on
 /

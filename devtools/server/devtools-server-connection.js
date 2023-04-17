@@ -3022,7 +3022,7 @@ stream
 .
 *
 /
-onClosed
+onTransportClosed
 (
 status
 )

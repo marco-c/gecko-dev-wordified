@@ -231,7 +231,7 @@ this
 hooks
 ?
 .
-onClosed
+onTransportClosed
 (
 )
 ;
@@ -472,7 +472,7 @@ this
 hooks
 ?
 .
-onClosed
+onTransportClosed
 (
 )
 ;

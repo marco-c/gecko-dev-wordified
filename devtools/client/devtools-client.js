@@ -4051,7 +4051,7 @@ stream
 .
 *
 /
-onClosed
+onTransportClosed
 (
 )
 {

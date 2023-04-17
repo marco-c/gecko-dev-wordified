@@ -461,7 +461,7 @@ transport
 .
 hooks
 .
-onClosed
+onTransportClosed
 =
 (
 )
@@ -637,7 +637,7 @@ write_data
 )
 ;
 }
-onClosed
+onTransportClosed
 :
 function
 (
