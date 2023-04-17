@@ -244,17 +244,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-image
-/
-Resolution
-.
-h
-"
-#
-include
 <
 atomic
 >

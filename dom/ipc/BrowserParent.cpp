@@ -13480,11 +13480,7 @@ aHeight
 const
 float
 &
-aResolutionX
-const
-float
-&
-aResolutionY
+aResolution
 const
 uint32_t
 &
@@ -13683,10 +13679,7 @@ cursorImage
 )
 aHotspotX
 aHotspotY
-{
-aResolutionX
-aResolutionY
-}
+aResolution
 }
 ;
 if

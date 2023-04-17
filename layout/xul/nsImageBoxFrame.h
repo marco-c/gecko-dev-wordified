@@ -468,7 +468,6 @@ const
 ComputedStyle
 &
 )
-const
 ;
 const
 mozilla
@@ -479,7 +478,6 @@ StyleImage
 GetImageFromStyle
 (
 )
-const
 {
 return
 GetImageFromStyle
@@ -491,15 +489,6 @@ Style
 )
 ;
 }
-mozilla
-:
-:
-ImageResolution
-GetImageResolution
-(
-)
-const
-;
 /
 *
 *
@@ -810,6 +799,13 @@ RefPtr
 imgRequestProxy
 >
 mImageRequest
+;
+float
+mImageResolution
+=
+1
+.
+0f
 ;
 nsCOMPtr
 <

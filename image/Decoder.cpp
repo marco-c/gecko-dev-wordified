@@ -2840,8 +2840,14 @@ int32_t
 aHeight
 Orientation
 aOrientation
-Resolution
-aResolution
+/
+*
+=
+Orientation
+(
+)
+*
+/
 )
 {
 /
@@ -2896,7 +2902,6 @@ SetSize
 aWidth
 aHeight
 aOrientation
-aResolution
 )
 ;
 /
