@@ -132,14 +132,6 @@ max_chrome_script_run_time
 }
 )
 ;
-await
-SpecialPowers
-.
-promiseTimeout
-(
-0
-)
-;
 /
 /
 Hang
