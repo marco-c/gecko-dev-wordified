@@ -4873,6 +4873,11 @@ HasIDIV
 (
 )
 ;
+bool
+HasNEON
+(
+)
+;
 extern
 volatile
 uint32_t
