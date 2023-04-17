@@ -150,15 +150,6 @@ include
 "
 vm
 /
-BigIntType
-.
-h
-"
-#
-include
-"
-vm
-/
 BytecodeUtil
 .
 h
