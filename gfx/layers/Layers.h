@@ -549,6 +549,17 @@ ViewID
 #
 include
 "
+mozilla
+/
+layers
+/
+BSPTree
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -806,9 +817,6 @@ Compositor
 ;
 class
 TransformData
-;
-struct
-LayerPolygon
 ;
 struct
 PropertyAnimationGroup
