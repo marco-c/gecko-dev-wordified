@@ -634,7 +634,6 @@ ShadowLayerForwarder
 AsShadowForwarder
 (
 )
-override
 {
 return
 mForwarder
