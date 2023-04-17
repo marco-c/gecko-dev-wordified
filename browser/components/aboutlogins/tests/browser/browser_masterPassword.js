@@ -386,6 +386,8 @@ buttons
 =
 notification
 .
+buttonContainer
+.
 querySelectorAll
 (
 "
