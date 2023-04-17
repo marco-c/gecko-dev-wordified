@@ -63998,6 +63998,9 @@ aBuilder
 .
 DefineRoundedRectClip
 (
+Nothing
+(
+)
 wr
 :
 :
@@ -64018,6 +64021,9 @@ aBuilder
 .
 DefineRectClip
 (
+Nothing
+(
+)
 wr
 :
 :
@@ -64187,6 +64193,9 @@ aBuilder
 .
 DefineRoundedRectClip
 (
+Nothing
+(
+)
 wr
 :
 :
@@ -67040,6 +67049,9 @@ aBuilder
 .
 DefineRectClip
 (
+Nothing
+(
+)
 wr
 :
 :
