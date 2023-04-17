@@ -11812,9 +11812,6 @@ mIsRelativeToLayoutViewport
 bool
 mUseOverlayScrollbars
 ;
-bool
-mAlwaysLayerizeScrollbars
-;
 mozilla
 :
 :
