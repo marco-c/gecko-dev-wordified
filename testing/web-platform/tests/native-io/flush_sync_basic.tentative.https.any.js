@@ -87,7 +87,7 @@ flush
 )
 ;
 const
-readBytes
+readBuffer
 =
 readIoFileSync
 (
@@ -96,7 +96,7 @@ file
 ;
 assert_array_equals
 (
-readBytes
+readBuffer
 longArray
 '
 the

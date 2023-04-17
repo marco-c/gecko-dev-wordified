@@ -77,7 +77,7 @@ setLength
 )
 ;
 const
-readBytes
+readBuffer
 =
 await
 readIoFile
@@ -101,7 +101,7 @@ from
 ;
 assert_array_equals
 (
-readBytes
+readBuffer
 remainingBytes
 '
 NativeIOFile
@@ -188,7 +188,7 @@ setLength
 )
 ;
 const
-readBytes
+readBuffer
 =
 await
 readIoFile
@@ -214,7 +214,7 @@ from
 ;
 assert_array_equals
 (
-readBytes
+readBuffer
 expectedBytes
 '
 NativeIOFile

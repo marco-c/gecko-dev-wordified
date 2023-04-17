@@ -120,7 +120,7 @@ close
 )
 ;
 const
-readBytes
+readBuffer
 =
 new
 Uint8Array
@@ -141,7 +141,7 @@ file
 .
 read
 (
-readBytes
+readBuffer
 4
 )
 )
@@ -192,7 +192,7 @@ close
 )
 ;
 const
-writtenBytes
+writeBuffer
 =
 Uint8Array
 .
@@ -219,7 +219,7 @@ file
 .
 write
 (
-writtenBytes
+writeBuffer
 4
 )
 )

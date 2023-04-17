@@ -73,7 +73,7 @@ setLength
 )
 ;
 const
-readBytes
+readBuffer
 =
 readIoFileSync
 (
@@ -96,7 +96,7 @@ from
 ;
 assert_array_equals
 (
-readBytes
+readBuffer
 remainingBytes
 '
 NativeIOFileSync
@@ -183,7 +183,7 @@ setLength
 )
 ;
 const
-readBytes
+readBuffer
 =
 readIoFileSync
 (
@@ -208,7 +208,7 @@ from
 ;
 assert_array_equals
 (
-readBytes
+readBuffer
 expectedBytes
 '
 NativeIOFileSync
