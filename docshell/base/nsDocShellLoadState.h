@@ -1608,7 +1608,7 @@ SetLoadIsFromSessionHistory
 int32_t
 aOffset
 bool
-aLoadingFromActiveEntry
+aLoadingCurrentEntry
 )
 ;
 void
