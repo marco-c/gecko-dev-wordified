@@ -204,13 +204,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h
