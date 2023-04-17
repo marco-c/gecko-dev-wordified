@@ -150,7 +150,7 @@ localeCode
 replaceMisspelling
 (
 {
-index
+suggestion
 }
 )
 {
@@ -164,7 +164,7 @@ InlineSpellChecker
 replaceMisspelling
 "
 {
-index
+suggestion
 }
 )
 ;

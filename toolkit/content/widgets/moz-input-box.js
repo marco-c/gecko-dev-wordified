@@ -1277,7 +1277,7 @@ numsug
 =
 spellui
 .
-addSuggestionsToMenu
+addSuggestionsToMenuOnParent
 (
 event
 .
