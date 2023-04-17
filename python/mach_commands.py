@@ -1343,6 +1343,8 @@ self
 virtualenv_manager
 .
 version_info
+(
+)
 [
 0
 ]
