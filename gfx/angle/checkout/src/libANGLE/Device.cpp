@@ -662,12 +662,9 @@ Device
 getType
 (
 )
-const
 {
 return
-mImplementation
-.
-get
+getImplementation
 (
 )
 -

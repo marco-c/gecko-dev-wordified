@@ -1252,8 +1252,6 @@ TIntermNode
 *
 originalIn
 TIntermSequence
-&
-&
 replacementsIn
 )
 :

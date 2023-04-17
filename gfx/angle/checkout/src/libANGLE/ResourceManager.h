@@ -1249,13 +1249,6 @@ Framebuffer
 framebuffer
 )
 ;
-Framebuffer
-*
-getDefaultFramebuffer
-(
-)
-const
-;
 void
 invalidateFramebufferCompletenessCache
 (

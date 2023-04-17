@@ -1015,18 +1015,9 @@ false
 angle_enable_abseil
 =
 false
-angle_enable_essl
-=
-true
 angle_enable_gl
 =
 false
-angle_enable_gl_desktop
-=
-false
-angle_enable_glsl
-=
-true
 angle_enable_null
 =
 false
@@ -1596,12 +1587,6 @@ ANGLE_ENABLE_D3D11
 True
     
 "
-ANGLE_ENABLE_D3D11_COMPOSITOR_NATIVE_WINDOW
-"
-:
-True
-    
-"
 ANGLE_ENABLE_D3D9
 "
 :
@@ -1660,12 +1645,6 @@ ANGLE_GLESV2_LIBRARY_NAME
 "
 :
 True
-    
-"
-ANGLE_HAS_VULKAN_SYSTEM_INFO
-"
-:
-False
     
 "
 ANGLE_IS_64_BIT_CPU

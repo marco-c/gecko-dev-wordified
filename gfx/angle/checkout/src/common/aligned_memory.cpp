@@ -423,7 +423,7 @@ ptr
 if
 defined
 (
-ANGLE_PLATFORM_WINDOWS
+_MSC_VER
 )
 _aligned_free
 (

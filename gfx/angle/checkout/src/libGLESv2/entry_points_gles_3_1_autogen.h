@@ -112,15 +112,13 @@ platform
 .
 h
 "
-extern
-"
-C
-"
+namespace
+gl
 {
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ActiveShaderProgram
+ActiveShaderProgram
 (
 GLuint
 pipeline
@@ -131,7 +129,7 @@ program
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_BindImageTexture
+BindImageTexture
 (
 GLuint
 unit
@@ -152,7 +150,7 @@ format
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_BindProgramPipeline
+BindProgramPipeline
 (
 GLuint
 pipeline
@@ -161,7 +159,7 @@ pipeline
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_BindVertexBuffer
+BindVertexBuffer
 (
 GLuint
 bindingindex
@@ -176,7 +174,7 @@ stride
 ANGLE_EXPORT
 GLuint
 GL_APIENTRY
-GL_CreateShaderProgramv
+CreateShaderProgramv
 (
 GLenum
 type
@@ -193,7 +191,7 @@ strings
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_DeleteProgramPipelines
+DeleteProgramPipelines
 (
 GLsizei
 n
@@ -206,7 +204,7 @@ pipelines
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_DispatchCompute
+DispatchCompute
 (
 GLuint
 num_groups_x
@@ -219,7 +217,7 @@ num_groups_z
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_DispatchComputeIndirect
+DispatchComputeIndirect
 (
 GLintptr
 indirect
@@ -228,7 +226,7 @@ indirect
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_DrawArraysIndirect
+DrawArraysIndirect
 (
 GLenum
 mode
@@ -241,7 +239,7 @@ indirect
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_DrawElementsIndirect
+DrawElementsIndirect
 (
 GLenum
 mode
@@ -256,7 +254,7 @@ indirect
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_FramebufferParameteri
+FramebufferParameteri
 (
 GLenum
 target
@@ -269,7 +267,7 @@ param
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GenProgramPipelines
+GenProgramPipelines
 (
 GLsizei
 n
@@ -281,7 +279,7 @@ pipelines
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetBooleani_v
+GetBooleani_v
 (
 GLenum
 target
@@ -295,7 +293,7 @@ data
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetFramebufferParameteriv
+GetFramebufferParameteriv
 (
 GLenum
 target
@@ -309,7 +307,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetMultisamplefv
+GetMultisamplefv
 (
 GLenum
 pname
@@ -323,7 +321,7 @@ val
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetProgramInterfaceiv
+GetProgramInterfaceiv
 (
 GLuint
 program
@@ -339,7 +337,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetProgramPipelineInfoLog
+GetProgramPipelineInfoLog
 (
 GLuint
 pipeline
@@ -356,7 +354,7 @@ infoLog
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetProgramPipelineiv
+GetProgramPipelineiv
 (
 GLuint
 pipeline
@@ -370,7 +368,7 @@ params
 ANGLE_EXPORT
 GLuint
 GL_APIENTRY
-GL_GetProgramResourceIndex
+GetProgramResourceIndex
 (
 GLuint
 program
@@ -385,7 +383,7 @@ name
 ANGLE_EXPORT
 GLint
 GL_APIENTRY
-GL_GetProgramResourceLocation
+GetProgramResourceLocation
 (
 GLuint
 program
@@ -400,7 +398,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetProgramResourceName
+GetProgramResourceName
 (
 GLuint
 program
@@ -421,7 +419,7 @@ name
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetProgramResourceiv
+GetProgramResourceiv
 (
 GLuint
 program
@@ -448,7 +446,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetTexLevelParameterfv
+GetTexLevelParameterfv
 (
 GLenum
 target
@@ -464,7 +462,7 @@ params
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_GetTexLevelParameteriv
+GetTexLevelParameteriv
 (
 GLenum
 target
@@ -480,7 +478,7 @@ params
 ANGLE_EXPORT
 GLboolean
 GL_APIENTRY
-GL_IsProgramPipeline
+IsProgramPipeline
 (
 GLuint
 pipeline
@@ -489,7 +487,7 @@ pipeline
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_MemoryBarrier
+MemoryBarrier
 (
 GLbitfield
 barriers
@@ -498,7 +496,7 @@ barriers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_MemoryBarrierByRegion
+MemoryBarrierByRegion
 (
 GLbitfield
 barriers
@@ -507,7 +505,7 @@ barriers
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform1f
+ProgramUniform1f
 (
 GLuint
 program
@@ -520,7 +518,7 @@ v0
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform1fv
+ProgramUniform1fv
 (
 GLuint
 program
@@ -537,7 +535,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform1i
+ProgramUniform1i
 (
 GLuint
 program
@@ -550,7 +548,7 @@ v0
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform1iv
+ProgramUniform1iv
 (
 GLuint
 program
@@ -567,7 +565,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform1ui
+ProgramUniform1ui
 (
 GLuint
 program
@@ -580,7 +578,7 @@ v0
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform1uiv
+ProgramUniform1uiv
 (
 GLuint
 program
@@ -597,7 +595,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform2f
+ProgramUniform2f
 (
 GLuint
 program
@@ -612,7 +610,7 @@ v1
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform2fv
+ProgramUniform2fv
 (
 GLuint
 program
@@ -629,7 +627,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform2i
+ProgramUniform2i
 (
 GLuint
 program
@@ -644,7 +642,7 @@ v1
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform2iv
+ProgramUniform2iv
 (
 GLuint
 program
@@ -661,7 +659,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform2ui
+ProgramUniform2ui
 (
 GLuint
 program
@@ -676,7 +674,7 @@ v1
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform2uiv
+ProgramUniform2uiv
 (
 GLuint
 program
@@ -693,7 +691,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform3f
+ProgramUniform3f
 (
 GLuint
 program
@@ -710,7 +708,7 @@ v2
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform3fv
+ProgramUniform3fv
 (
 GLuint
 program
@@ -727,7 +725,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform3i
+ProgramUniform3i
 (
 GLuint
 program
@@ -744,7 +742,7 @@ v2
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform3iv
+ProgramUniform3iv
 (
 GLuint
 program
@@ -761,7 +759,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform3ui
+ProgramUniform3ui
 (
 GLuint
 program
@@ -778,7 +776,7 @@ v2
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform3uiv
+ProgramUniform3uiv
 (
 GLuint
 program
@@ -795,7 +793,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform4f
+ProgramUniform4f
 (
 GLuint
 program
@@ -814,7 +812,7 @@ v3
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform4fv
+ProgramUniform4fv
 (
 GLuint
 program
@@ -831,7 +829,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform4i
+ProgramUniform4i
 (
 GLuint
 program
@@ -850,7 +848,7 @@ v3
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform4iv
+ProgramUniform4iv
 (
 GLuint
 program
@@ -867,7 +865,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform4ui
+ProgramUniform4ui
 (
 GLuint
 program
@@ -886,7 +884,7 @@ v3
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniform4uiv
+ProgramUniform4uiv
 (
 GLuint
 program
@@ -903,26 +901,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniformMatrix2fv
-(
-GLuint
-program
-GLint
-location
-GLsizei
-count
-GLboolean
-transpose
-const
-GLfloat
-*
-value
-)
-;
-ANGLE_EXPORT
-void
-GL_APIENTRY
-GL_ProgramUniformMatrix2x3fv
+ProgramUniformMatrix2fv
 (
 GLuint
 program
@@ -941,7 +920,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniformMatrix2x4fv
+ProgramUniformMatrix2x3fv
 (
 GLuint
 program
@@ -960,7 +939,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniformMatrix3fv
+ProgramUniformMatrix2x4fv
 (
 GLuint
 program
@@ -979,7 +958,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniformMatrix3x2fv
+ProgramUniformMatrix3fv
 (
 GLuint
 program
@@ -998,7 +977,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniformMatrix3x4fv
+ProgramUniformMatrix3x2fv
 (
 GLuint
 program
@@ -1017,7 +996,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniformMatrix4fv
+ProgramUniformMatrix3x4fv
 (
 GLuint
 program
@@ -1036,7 +1015,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniformMatrix4x2fv
+ProgramUniformMatrix4fv
 (
 GLuint
 program
@@ -1055,7 +1034,7 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ProgramUniformMatrix4x3fv
+ProgramUniformMatrix4x2fv
 (
 GLuint
 program
@@ -1074,7 +1053,26 @@ value
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_SampleMaski
+ProgramUniformMatrix4x3fv
+(
+GLuint
+program
+GLint
+location
+GLsizei
+count
+GLboolean
+transpose
+const
+GLfloat
+*
+value
+)
+;
+ANGLE_EXPORT
+void
+GL_APIENTRY
+SampleMaski
 (
 GLuint
 maskNumber
@@ -1085,7 +1083,7 @@ mask
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_TexStorage2DMultisample
+TexStorage2DMultisample
 (
 GLenum
 target
@@ -1104,7 +1102,7 @@ fixedsamplelocations
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_UseProgramStages
+UseProgramStages
 (
 GLuint
 pipeline
@@ -1117,7 +1115,7 @@ program
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_ValidateProgramPipeline
+ValidateProgramPipeline
 (
 GLuint
 pipeline
@@ -1126,7 +1124,7 @@ pipeline
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_VertexAttribBinding
+VertexAttribBinding
 (
 GLuint
 attribindex
@@ -1137,7 +1135,7 @@ bindingindex
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_VertexAttribFormat
+VertexAttribFormat
 (
 GLuint
 attribindex
@@ -1154,7 +1152,7 @@ relativeoffset
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_VertexAttribIFormat
+VertexAttribIFormat
 (
 GLuint
 attribindex
@@ -1169,7 +1167,7 @@ relativeoffset
 ANGLE_EXPORT
 void
 GL_APIENTRY
-GL_VertexBindingDivisor
+VertexBindingDivisor
 (
 GLuint
 bindingindex
@@ -1180,10 +1178,8 @@ divisor
 }
 /
 /
-extern
-"
-C
-"
+namespace
+gl
 #
 endif
 /

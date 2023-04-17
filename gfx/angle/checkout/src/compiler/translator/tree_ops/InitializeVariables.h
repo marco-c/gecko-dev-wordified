@@ -140,7 +140,7 @@ arrays
 .
 /
 /
-Populate
+Return
 a
 sequence
 of
@@ -174,7 +174,8 @@ only
 basic
 types
 .
-void
+TIntermSequence
+*
 CreateInitCode
 (
 const
@@ -185,9 +186,6 @@ bool
 canUseLoopsToInitialize
 bool
 highPrecisionSupported
-TIntermSequence
-*
-initCode
 TSymbolTable
 *
 symbolTable

@@ -242,10 +242,17 @@ gl_PointSize
 maxPointSize
 )
 TIntermSequence
+*
 minArguments
+=
+new
+TIntermSequence
+(
+)
 ;
 minArguments
-.
+-
+>
 push_back
 (
 pointSizeNode
@@ -257,7 +264,8 @@ deepCopy
 )
 ;
 minArguments
-.
+-
+>
 push_back
 (
 maxPointSizeNode
@@ -272,7 +280,6 @@ CreateBuiltInFunctionCallNode
 "
 min
 "
-&
 minArguments
 *
 symbolTable
