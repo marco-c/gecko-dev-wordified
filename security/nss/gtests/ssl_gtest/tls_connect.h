@@ -1097,12 +1097,9 @@ RestoreAlgorithmPolicy
 )
 ;
 static
-void
+ScopedSECItem
 MakeEcKeyParams
 (
-SECItem
-*
-params
 SSLNamedGroup
 group
 )
