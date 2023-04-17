@@ -199,14 +199,14 @@ heapWorker
 )
 {
 return
-function
-*
 (
 {
 dispatch
 getState
 }
 )
+=
+>
 {
 dispatch
 (
