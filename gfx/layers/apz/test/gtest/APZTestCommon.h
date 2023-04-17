@@ -308,13 +308,6 @@ h
 #
 include
 "
-gfxPlatform
-.
-h
-"
-#
-include
-"
 Layers
 .
 h

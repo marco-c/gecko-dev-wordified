@@ -236,6 +236,9 @@ class
 BasicLayerManager
 ;
 class
+CanvasLayer
+;
+class
 ImageClient
 ;
 class
