@@ -13962,8 +13962,6 @@ RefPtr
 ComputedStyle
 >
 outerComputedStyle
-;
-outerComputedStyle
 =
 mPresShell
 -
@@ -15306,8 +15304,6 @@ RefPtr
 <
 ComputedStyle
 >
-innerPseudoStyle
-;
 innerPseudoStyle
 =
 mPresShell
@@ -19801,8 +19797,6 @@ RefPtr
 ComputedStyle
 >
 pageContentPseudoStyle
-;
-pageContentPseudoStyle
 =
 styleSet
 -
@@ -19979,8 +19973,6 @@ RefPtr
 <
 ComputedStyle
 >
-canvasPseudoStyle
-;
 canvasPseudoStyle
 =
 styleSet
@@ -20618,8 +20610,6 @@ RefPtr
 <
 ComputedStyle
 >
-listStyle
-;
 listStyle
 =
 mPresShell
@@ -21542,8 +21532,6 @@ RefPtr
 <
 ComputedStyle
 >
-fieldsetContentStyle
-;
 fieldsetContentStyle
 =
 mPresShell
@@ -31284,8 +31272,6 @@ RefPtr
 ComputedStyle
 >
 blockContext
-;
-blockContext
 =
 styleSet
 -
@@ -31972,8 +31958,6 @@ RefPtr
 <
 ComputedStyle
 >
-scForAnon
-;
 scForAnon
 =
 mPresShell
