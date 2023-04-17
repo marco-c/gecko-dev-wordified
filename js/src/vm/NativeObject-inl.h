@@ -224,6 +224,15 @@ include
 "
 vm
 /
+PropertyResult
+.
+h
+"
+#
+include
+"
+vm
+/
 ProxyObject
 .
 h

@@ -179,6 +179,15 @@ include
 "
 vm
 /
+PropertyResult
+.
+h
+"
+#
+include
+"
+vm
+/
 TypedArrayObject
 .
 h
