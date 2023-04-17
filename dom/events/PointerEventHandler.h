@@ -1132,13 +1132,11 @@ void
 InitPointerEventFromTouch
 (
 WidgetPointerEvent
-&
+*
 aPointerEvent
-const
 WidgetTouchEvent
-&
+*
 aTouchEvent
-const
 mozilla
 :
 :
@@ -1146,7 +1144,7 @@ dom
 :
 :
 Touch
-&
+*
 aTouch
 bool
 aIsPrimary
