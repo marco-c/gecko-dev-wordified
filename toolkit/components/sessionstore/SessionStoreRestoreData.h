@@ -209,7 +209,7 @@ IsEmpty
 ;
 SessionStoreRestoreData
 *
-FindChild
+FindDataForChild
 (
 BrowsingContext
 *
