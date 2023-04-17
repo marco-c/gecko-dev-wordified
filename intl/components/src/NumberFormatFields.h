@@ -117,8 +117,8 @@ UFormattedValue
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 enum
@@ -601,11 +601,9 @@ parts
 /
 /
 namespace
-intl
-}
-/
-/
-namespace
 mozilla
+:
+:
+intl
 #
 endif

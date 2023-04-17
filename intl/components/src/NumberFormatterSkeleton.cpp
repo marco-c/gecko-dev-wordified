@@ -107,8 +107,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 NumberFormatterSkeleton
@@ -3268,9 +3268,7 @@ endif
 /
 /
 namespace
-intl
-}
-/
-/
-namespace
 mozilla
+:
+:
+intl

@@ -152,8 +152,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 PluralRules
@@ -1102,9 +1102,7 @@ nullptr
 /
 /
 namespace
-intl
-}
-/
-/
-namespace
 mozilla
+:
+:
+intl

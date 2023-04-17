@@ -106,8 +106,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 bool
@@ -2267,9 +2267,7 @@ utf16Length
 /
 /
 namespace
-intl
-}
-/
-/
-namespace
 mozilla
+:
+:
+intl

@@ -121,8 +121,8 @@ UNumberRangeFormatter
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 /
@@ -714,11 +714,9 @@ rounding
 /
 /
 namespace
-intl
-}
-/
-/
-namespace
 mozilla
+:
+:
+intl
 #
 endif

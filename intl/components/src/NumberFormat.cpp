@@ -108,8 +108,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 /
@@ -690,9 +690,7 @@ utf16Length
 /
 /
 namespace
-intl
-}
-/
-/
-namespace
 mozilla
+:
+:
+intl

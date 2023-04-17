@@ -157,8 +157,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 intl
 {
 #
@@ -1440,11 +1440,9 @@ MorePrecision
 /
 /
 namespace
-intl
-}
-/
-/
-namespace
 mozilla
+:
+:
+intl
 #
 endif
