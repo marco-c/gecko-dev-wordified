@@ -132,6 +132,7 @@ position
 inline
 ]
 pub
+const
 fn
 position
 (
@@ -345,6 +346,7 @@ position
 inline
 ]
 pub
+const
 fn
 get_ref
 (

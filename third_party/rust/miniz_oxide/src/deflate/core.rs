@@ -3845,6 +3845,7 @@ u16
 [
 inline
 ]
+const
 fn
 read_u16_le
 (
@@ -5714,6 +5715,7 @@ bits_in
 ;
 }
 }
+const
 fn
 save
 (
@@ -9179,6 +9181,7 @@ size
 :
 usize
 }
+const
 fn
 probes_from_flags
 (
@@ -10861,6 +10864,7 @@ u32
 impl
 LZOxide
 {
+const
 fn
 new
 (

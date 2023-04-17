@@ -826,6 +826,7 @@ this
 InflateState
 .
 pub
+const
 fn
 last_status
 (
