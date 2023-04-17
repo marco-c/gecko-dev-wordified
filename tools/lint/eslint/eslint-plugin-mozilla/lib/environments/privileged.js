@@ -1382,6 +1382,9 @@ false
 PlacesBookmarkTitle
 :
 false
+PlacesBookmarkUrl
+:
+false
 PlacesEvent
 :
 false
