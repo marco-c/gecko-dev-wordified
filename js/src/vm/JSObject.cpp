@@ -7156,13 +7156,6 @@ values
 begin
 (
 )
-/
-*
-proto
-=
-*
-/
-nullptr
 TenuredObject
 )
 ;
@@ -8114,13 +8107,6 @@ values
 begin
 (
 )
-/
-*
-proto
-=
-*
-/
-nullptr
 TenuredObject
 )
 )

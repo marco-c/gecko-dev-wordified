@@ -1384,13 +1384,6 @@ elements
 begin
 (
 )
-/
-*
-proto
-=
-*
-/
-nullptr
 NewObjectKind
 :
 :
