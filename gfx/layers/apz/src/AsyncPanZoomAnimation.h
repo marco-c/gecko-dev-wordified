@@ -182,6 +182,9 @@ class
 KeyboardScrollAnimation
 ;
 class
+OverscrollAnimation
+;
+class
 SmoothMsdScrollAnimation
 ;
 class
@@ -550,6 +553,17 @@ virtual
 SmoothScrollAnimation
 *
 AsSmoothScrollAnimation
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+OverscrollAnimation
+*
+AsOverscrollAnimation
 (
 )
 {
