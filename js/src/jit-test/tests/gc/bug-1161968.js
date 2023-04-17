@@ -57,7 +57,7 @@ newGlobal
 ;
 gi
 .
-cloneAndExecuteScript
+evaluate
 (
 '
 function
@@ -67,7 +67,11 @@ f
 {
 }
 '
+{
+global
+:
 gv
+}
 )
 ;
 var
