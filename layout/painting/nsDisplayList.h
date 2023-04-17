@@ -38428,6 +38428,10 @@ aCtx
 nsDisplayListBuilder
 *
 aBuilder
+const
+nsRect
+&
+aVisibleRect
 float
 aOpacity
 =
@@ -38716,6 +38720,9 @@ private
 :
 nsRect
 mBounds
+;
+nsRect
+mVisibleRect
 ;
 /
 /
