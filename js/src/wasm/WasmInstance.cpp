@@ -8312,10 +8312,15 @@ move
 maybeDebug
 )
 )
+#
+ifdef
+ENABLE_WASM_GC
 hasGcTypes_
 (
 false
 )
+#
+endif
 {
 }
 bool

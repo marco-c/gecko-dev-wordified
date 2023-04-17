@@ -442,9 +442,14 @@ const
 UniqueDebugState
 maybeDebug_
 ;
+#
+ifdef
+ENABLE_WASM_GC
 bool
 hasGcTypes_
 ;
+#
+endif
 /
 /
 Internal
