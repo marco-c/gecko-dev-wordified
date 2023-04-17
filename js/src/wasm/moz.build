@@ -176,6 +176,16 @@ WasmBaselineCompile
 cpp
 "
 "
+WasmBCFrame
+.
+cpp
+"
+"
+WasmBCMemory
+.
+cpp
+"
+"
 WasmBinary
 .
 cpp
