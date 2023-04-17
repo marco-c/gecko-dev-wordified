@@ -1203,6 +1203,16 @@ TypedArrayByteOffsetMethod
 "
 )
 ;
+let
+Int32Array
+=
+GetBuiltinConstructor
+(
+"
+Int32Array
+"
+)
+;
 view
 =
 new

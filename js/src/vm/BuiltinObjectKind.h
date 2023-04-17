@@ -195,10 +195,12 @@ constructors
 .
 Array
 ArrayBuffer
+Int32Array
 Iterator
 Promise
 RegExp
 SharedArrayBuffer
+Symbol
 /
 /
 Built
