@@ -1066,7 +1066,7 @@ mStartTime
 /
 /
 Detect
-whther
+whether
 the
 refresh
 driver
@@ -1074,7 +1074,7 @@ is
 ticking
 by
 checking
-whether
+if
 /
 /
 GetIdleDeadlineHint
