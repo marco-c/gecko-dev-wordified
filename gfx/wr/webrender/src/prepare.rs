@@ -697,6 +697,7 @@ Coarse
 {
 ref
 rect_in_pic_space
+vis_flags
 }
 =
 >
@@ -855,6 +856,7 @@ rect_in_pic_space
 :
 *
 rect_in_pic_space
+vis_flags
 }
 }
 else
@@ -896,6 +898,14 @@ a
 root
 element
 )
+}
+VisibilityState
+:
+:
+PassThrough
+=
+>
+{
 }
 }
 let
