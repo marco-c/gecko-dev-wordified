@@ -15,6 +15,10 @@ import
 os
 import
 sys
+from
+typing
+import
+Any
 _dir
 =
 os
@@ -29,6 +33,11 @@ def
 get_parser
 (
 )
+-
+>
+argparse
+.
+ArgumentParser
 :
     
 parser
@@ -330,11 +339,36 @@ def
 run
 (
 venv
+:
+Any
 *
 *
 kwargs
-)
 :
+Any
+)
+-
+>
+None
+:
+    
+#
+The
+venv
+argument
+is
+passed
+with
+wpt
+serve
+-
+quic
+-
+transport
+but
+is
+unused
+.
     
 assert
 sys
@@ -429,12 +463,17 @@ start
     
 start
 (
+*
+*
 kwargs
 )
 def
 main
 (
 )
+-
+>
+None
 :
     
 #
@@ -487,7 +526,6 @@ parse_args
 )
 )
     
-return
 run
 (
 None
