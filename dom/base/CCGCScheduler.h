@@ -883,6 +883,16 @@ UserIsActive
 (
 )
 ;
+bool
+IsUserActive
+(
+)
+const
+{
+return
+mUserIsActive
+;
+}
 void
 KillShrinkingGCTimer
 (
