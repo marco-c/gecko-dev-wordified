@@ -298,7 +298,7 @@ expected
 )
 ;
 await
-target
+commands
 .
 destroy
 (
