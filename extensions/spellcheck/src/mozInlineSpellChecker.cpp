@@ -8603,6 +8603,7 @@ aWordUtil
 GetRootNode
 (
 )
+const
 nsINode
 *
 rootNode
