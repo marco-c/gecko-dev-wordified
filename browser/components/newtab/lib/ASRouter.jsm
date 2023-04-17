@@ -2243,6 +2243,12 @@ Downloader
 (
 RS_MAIN_BUCKET
 RS_COLLECTION_L10N
+"
+browser
+"
+"
+newtab
+"
 )
 ;
 /
