@@ -1207,7 +1207,13 @@ data
 stmt
 result
 :
+{
+type
+:
+"
 undefined
+"
+}
 }
 )
 ;
@@ -1254,7 +1260,13 @@ input
 varName
 result
 :
+{
+type
+:
+"
 undefined
+"
+}
 }
 )
 ;
