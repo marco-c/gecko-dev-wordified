@@ -2718,9 +2718,7 @@ SubSatS
 SubSatU
 =
 0xb3
-/
-/
-Dot
+F32x4RelaxedMin
 =
 0xb4
 I32x4Mul
@@ -2828,9 +2826,7 @@ Unused
 Unused
 =
 0xd3
-/
-/
-Dot
+F64x2RelaxedMin
 =
 0xd4
 I64x2Mul
@@ -2872,9 +2868,7 @@ F32x4Abs
 F32x4Neg
 =
 0xe1
-/
-/
-Round
+F32x4RelaxedMax
 =
 0xe2
 F32x4Sqrt
@@ -2910,9 +2904,7 @@ F64x2Abs
 F64x2Neg
 =
 0xed
-/
-/
-Round
+F64x2RelaxedMax
 =
 0xee
 F64x2Sqrt
