@@ -7793,7 +7793,7 @@ vp
 is
 a
 magic
-JS_OPTIMIZED_ARGUMENTS
+JS_MISSING_ARGUMENTS
 value
 signifying
 missing
