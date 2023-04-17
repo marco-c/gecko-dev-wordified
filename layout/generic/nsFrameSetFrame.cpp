@@ -9536,7 +9536,7 @@ ToDeviceColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -9545,6 +9545,7 @@ ColorID
 :
 :
 WidgetBackground
+this
 NS_RGB
 (
 200
@@ -9563,7 +9564,7 @@ ToDeviceColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -9572,6 +9573,7 @@ ColorID
 :
 :
 WidgetForeground
+this
 NS_RGB
 (
 0
@@ -9590,7 +9592,7 @@ ToDeviceColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -9599,6 +9601,7 @@ ColorID
 :
 :
 Widget3DHighlight
+this
 NS_RGB
 (
 255
@@ -9617,7 +9620,7 @@ ToDeviceColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -9626,6 +9629,7 @@ ColorID
 :
 :
 Widget3DShadow
+this
 NS_RGB
 (
 128

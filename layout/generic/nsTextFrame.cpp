@@ -2435,9 +2435,8 @@ static
 bool
 GetSelectionUnderline
 (
-nsPresContext
+nsIFrame
 *
-aPresContext
 int32_t
 aIndex
 nscolor
@@ -27690,7 +27689,7 @@ backColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -27699,6 +27698,7 @@ ColorID
 :
 :
 TextHighlightBackground
+mFrame
 )
 ;
 nscolor
@@ -27707,7 +27707,7 @@ foreColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -27716,6 +27716,7 @@ ColorID
 :
 :
 TextHighlightForeground
+mFrame
 )
 ;
 EnsureSufficientContrast
@@ -28421,7 +28422,7 @@ mSystemFieldForegroundColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28430,6 +28431,7 @@ ColorID
 :
 :
 Fieldtext
+mFrame
 )
 ;
 mSystemFieldBackgroundColor
@@ -28437,7 +28439,7 @@ mSystemFieldBackgroundColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28446,6 +28448,7 @@ ColorID
 :
 :
 Field
+mFrame
 )
 ;
 if
@@ -28504,7 +28507,7 @@ defaultWindowBackgroundColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28513,6 +28516,7 @@ ColorID
 :
 :
 WindowBackground
+mFrame
 )
 ;
 nscolor
@@ -28521,7 +28525,7 @@ selectionTextColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28530,6 +28534,7 @@ ColorID
 :
 :
 TextSelectForeground
+mFrame
 )
 ;
 nscolor
@@ -28538,7 +28543,7 @@ selectionBGColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28547,6 +28552,7 @@ ColorID
 :
 :
 TextSelectBackground
+mFrame
 )
 ;
 mSufficientContrast
@@ -28792,7 +28798,7 @@ selectionBGColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28801,6 +28807,7 @@ ColorID
 :
 :
 TextSelectBackground
+mFrame
 )
 ;
 switch
@@ -28820,7 +28827,7 @@ mSelectionBGColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28829,6 +28836,7 @@ ColorID
 :
 :
 TextSelectBackgroundAttention
+mFrame
 )
 ;
 mSelectionBGColor
@@ -28864,7 +28872,7 @@ mSelectionBGColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28873,6 +28881,7 @@ ColorID
 :
 :
 TextSelectBackgroundDisabled
+mFrame
 )
 ;
 mSelectionBGColor
@@ -28892,7 +28901,7 @@ mSelectionTextColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -28901,6 +28910,7 @@ ColorID
 :
 :
 TextSelectForeground
+mFrame
 )
 ;
 if
@@ -29036,7 +29046,7 @@ mSelectionTextColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -29045,6 +29055,7 @@ ColorID
 :
 :
 TextSelectForegroundCustom
+mFrame
 )
 ;
 }
@@ -29417,12 +29428,13 @@ foreColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 styleIDs
 -
 >
 mForeground
+mFrame
 )
 ;
 }
@@ -29455,12 +29467,13 @@ backColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 styleIDs
 -
 >
 mBackground
+mFrame
 )
 ;
 }
@@ -29559,7 +29572,7 @@ lineStyle
 ;
 GetSelectionUnderline
 (
-mPresContext
+mFrame
 aIndex
 &
 lineColor
@@ -29636,9 +29649,9 @@ nsTextPaintStyle
 :
 GetSelectionUnderline
 (
-nsPresContext
+nsIFrame
 *
-aPresContext
+aFrame
 int32_t
 aIndex
 nscolor
@@ -29654,9 +29667,9 @@ aStyle
 {
 NS_ASSERTION
 (
-aPresContext
+aFrame
 "
-aPresContext
+aFrame
 is
 null
 "
@@ -29716,11 +29729,12 @@ color
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 styleID
 .
 mLine
+aFrame
 )
 ;
 int32_t
@@ -52175,7 +52189,7 @@ nsTextPaintStyle
 :
 GetSelectionUnderline
 (
-aPresContext
+this
 index
 nullptr
 &
@@ -52275,7 +52289,7 @@ nsTextPaintStyle
 :
 GetSelectionUnderline
 (
-aPresContext
+this
 index
 nullptr
 &

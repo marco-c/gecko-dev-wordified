@@ -490,15 +490,6 @@ mozilla
 layers
 :
 :
-APZCCallbackHelper
-;
-using
-mozilla
-:
-:
-layers
-:
-:
 AsyncDragMetrics
 ;
 using
@@ -1875,7 +1866,7 @@ highlightColor
 LookAndFeel
 :
 :
-GetColor
+Color
 (
 LookAndFeel
 :
@@ -1884,6 +1875,7 @@ ColorID
 :
 :
 TextHighlightBackground
+mFrame
 )
 ;
 DeviceColor
