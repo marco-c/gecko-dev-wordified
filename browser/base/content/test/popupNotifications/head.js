@@ -109,7 +109,7 @@ to
 open
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -134,7 +134,7 @@ active
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
