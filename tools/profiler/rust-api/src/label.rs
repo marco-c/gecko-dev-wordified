@@ -667,12 +667,10 @@ No
 -
 op
 when
-the
-Gecko
-profiler
+MOZ_GECKO_PROFILER
 is
 not
-available
+defined
 .
 #
 [
