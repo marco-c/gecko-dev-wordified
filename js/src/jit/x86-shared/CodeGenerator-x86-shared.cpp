@@ -18456,7 +18456,7 @@ I8x16LtU
 :
 masm
 .
-unsignedCompareInt8x16
+compareInt8x16
 (
 Assembler
 :
@@ -18464,8 +18464,6 @@ Assembler
 Below
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18481,7 +18479,7 @@ I8x16GtU
 :
 masm
 .
-unsignedCompareInt8x16
+compareInt8x16
 (
 Assembler
 :
@@ -18489,8 +18487,6 @@ Assembler
 Above
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18506,7 +18502,7 @@ I8x16LeU
 :
 masm
 .
-unsignedCompareInt8x16
+compareInt8x16
 (
 Assembler
 :
@@ -18514,8 +18510,6 @@ Assembler
 BelowOrEqual
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18531,7 +18525,7 @@ I8x16GeU
 :
 masm
 .
-unsignedCompareInt8x16
+compareInt8x16
 (
 Assembler
 :
@@ -18539,8 +18533,6 @@ Assembler
 AboveOrEqual
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18694,7 +18686,7 @@ I16x8LtU
 :
 masm
 .
-unsignedCompareInt16x8
+compareInt16x8
 (
 Assembler
 :
@@ -18702,8 +18694,6 @@ Assembler
 Below
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18719,7 +18709,7 @@ I16x8GtU
 :
 masm
 .
-unsignedCompareInt16x8
+compareInt16x8
 (
 Assembler
 :
@@ -18727,8 +18717,6 @@ Assembler
 Above
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18744,7 +18732,7 @@ I16x8LeU
 :
 masm
 .
-unsignedCompareInt16x8
+compareInt16x8
 (
 Assembler
 :
@@ -18752,8 +18740,6 @@ Assembler
 BelowOrEqual
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18769,7 +18755,7 @@ I16x8GeU
 :
 masm
 .
-unsignedCompareInt16x8
+compareInt16x8
 (
 Assembler
 :
@@ -18777,8 +18763,6 @@ Assembler
 AboveOrEqual
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18932,7 +18916,7 @@ I32x4LtU
 :
 masm
 .
-unsignedCompareInt32x4
+compareInt32x4
 (
 Assembler
 :
@@ -18940,8 +18924,6 @@ Assembler
 Below
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18957,7 +18939,7 @@ I32x4GtU
 :
 masm
 .
-unsignedCompareInt32x4
+compareInt32x4
 (
 Assembler
 :
@@ -18965,8 +18947,6 @@ Assembler
 Above
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -18982,7 +18962,7 @@ I32x4LeU
 :
 masm
 .
-unsignedCompareInt32x4
+compareInt32x4
 (
 Assembler
 :
@@ -18990,8 +18970,6 @@ Assembler
 BelowOrEqual
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
@@ -19007,7 +18985,7 @@ I32x4GeU
 :
 masm
 .
-unsignedCompareInt32x4
+compareInt32x4
 (
 Assembler
 :
@@ -19015,8 +18993,6 @@ Assembler
 AboveOrEqual
 rhs
 lhsDest
-temp1
-temp2
 )
 ;
 break
