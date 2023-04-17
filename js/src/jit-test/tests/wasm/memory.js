@@ -4862,7 +4862,12 @@ i32
 memory
 .
 grow
+(
+i32
+.
+const
 1
+)
 )
 )
 )
