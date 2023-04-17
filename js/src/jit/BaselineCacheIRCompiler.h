@@ -471,8 +471,9 @@ Register
 str
 Register
 temp
-LiveGeneralRegisterSet
-save
+Label
+*
+failure
 )
 ;
 bool

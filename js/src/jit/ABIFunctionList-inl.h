@@ -1048,6 +1048,17 @@ js
 jit
 :
 :
+AtomizeStringNoGC
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 Bailout
 )
 \
