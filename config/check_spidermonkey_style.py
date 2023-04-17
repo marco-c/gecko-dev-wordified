@@ -810,7 +810,7 @@ OBJDIR
 "
 jit
 /
-MOpcodesGenerated
+MIROpsGenerated
 .
 h
 "
