@@ -4486,7 +4486,7 @@ blur_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4500,7 +4500,7 @@ clip_rect_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4514,7 +4514,7 @@ clip_box_shadow_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4528,7 +4528,7 @@ clip_image_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4542,7 +4542,7 @@ border_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4556,7 +4556,7 @@ scale_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4570,7 +4570,7 @@ line_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4584,7 +4584,7 @@ fast_linear_gradient_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4598,7 +4598,7 @@ linear_gradient_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4612,7 +4612,7 @@ radial_gradient_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4626,7 +4626,7 @@ conic_gradient_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4640,7 +4640,7 @@ resolve_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4654,7 +4654,7 @@ svg_filter_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4668,7 +4668,7 @@ composite_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
@@ -4682,7 +4682,7 @@ clear_vao
 :
 device
 .
-create_vao_from_base
+create_vao_with_new_instances
 (
 &
 desc
