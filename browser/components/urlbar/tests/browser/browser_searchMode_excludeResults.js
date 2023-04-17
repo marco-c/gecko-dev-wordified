@@ -546,7 +546,7 @@ Reset
 internal
 cache
 in
-PlacesRemoteTabsAutocompleteProvider
+UrlbarProviderRemoteTabs
 .
 Services
 .
