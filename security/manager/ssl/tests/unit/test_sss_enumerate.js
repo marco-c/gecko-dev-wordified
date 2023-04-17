@@ -193,7 +193,6 @@ nsISiteSecurityService
 function
 getEntries
 (
-type
 )
 {
 return
@@ -205,7 +204,6 @@ sss
 .
 enumerate
 (
-type
 )
 )
 ;
@@ -505,11 +503,6 @@ sss
 .
 processHeader
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 uri
 header
 secInfo
@@ -537,11 +530,6 @@ hstsEntries
 =
 getEntries
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 )
 ;
 checkSiteSecurityStateAttrs
@@ -559,11 +547,6 @@ hstsEntries
 =
 getEntries
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 )
 ;
 equal

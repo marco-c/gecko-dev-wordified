@@ -75,11 +75,6 @@ SSService
 .
 isSecureURI
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 uri
 0
 )
@@ -146,11 +141,6 @@ SSService
 .
 isSecureURI
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 uri
 0
 )
@@ -187,11 +177,6 @@ SSService
 .
 isSecureURI
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 uri
 0
 )
