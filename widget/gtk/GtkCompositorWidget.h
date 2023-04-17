@@ -319,6 +319,15 @@ GetClientSize
 )
 override
 ;
+void
+RemoteLayoutSizeUpdated
+(
+const
+LayoutDeviceRect
+&
+aSize
+)
+;
 nsIWidget
 *
 RealWidget
