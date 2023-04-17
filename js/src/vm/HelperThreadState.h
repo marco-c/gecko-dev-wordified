@@ -933,6 +933,9 @@ running
 HelperThreadTaskVector
 helperTasks_
 ;
+bool
+useInternalThreadPool_
+;
 ParseTask
 *
 removeFinishedParseTask
@@ -1237,6 +1240,15 @@ which
 const
 AutoLockHelperThreadState
 &
+)
+;
+bool
+useInternalThreadPool
+(
+const
+AutoLockHelperThreadState
+&
+locked
 )
 ;
 private
