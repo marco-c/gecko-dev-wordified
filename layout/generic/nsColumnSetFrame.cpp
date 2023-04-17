@@ -7825,7 +7825,7 @@ max
 570
 aReflowInput
 .
-CalcLineHeight
+GetLineHeight
 (
 )
 /
