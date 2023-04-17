@@ -796,6 +796,16 @@ mPurpose
 =
 Resolve
 ;
+Atomic
+<
+bool
+Relaxed
+>
+mCancelled
+{
+false
+}
+;
 /
 /
 The
