@@ -659,10 +659,6 @@ commands
 if
 (
 input_cmds
-!
-=
-=
-undefined
 )
 {
 await

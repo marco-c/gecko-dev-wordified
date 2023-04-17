@@ -529,6 +529,13 @@ verbose
 =
 verbose
         
+self
+.
+page_count
+=
+[
+]
+        
 #
 Override
 the
