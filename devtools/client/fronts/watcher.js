@@ -841,7 +841,6 @@ getTarget
 if
 (
 topLevelTarget
-?
 .
 browsingContextID
 =
