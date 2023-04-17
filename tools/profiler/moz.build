@@ -1002,6 +1002,13 @@ ProfilerBindings
 cpp
 "
 "
+core
+/
+ProfilerUtils
+.
+cpp
+"
+"
 gecko
 /
 ProfilerParent
