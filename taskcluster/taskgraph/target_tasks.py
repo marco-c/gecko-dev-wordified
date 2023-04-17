@@ -5959,6 +5959,28 @@ in
 try_name
 :
                     
+#
+See
+bug
+1704092
+                    
+if
+"
+tp6
+"
+in
+try_name
+and
+"
+macosx
+"
+in
+platform
+:
+                        
+return
+False
+                    
 return
 True
                 
@@ -5969,6 +5991,28 @@ chromium
 in
 try_name
 :
+                    
+#
+See
+bug
+1704092
+                    
+if
+"
+tp6
+"
+in
+try_name
+and
+"
+macosx
+"
+in
+platform
+:
+                        
+return
+False
                     
 return
 True
