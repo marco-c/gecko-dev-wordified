@@ -13273,7 +13273,7 @@ return
 }
 if
 (
-IsFrame
+IsSubframe
 (
 )
 )
@@ -22299,7 +22299,7 @@ aLoadType
 )
 &
 &
-IsFrame
+IsSubframe
 (
 )
 )

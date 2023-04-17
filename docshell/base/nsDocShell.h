@@ -6571,7 +6571,7 @@ aURI
 )
 ;
 bool
-IsFrame
+IsSubframe
 (
 )
 {
@@ -6579,7 +6579,7 @@ return
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 ;

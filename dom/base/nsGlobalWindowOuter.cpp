@@ -36814,7 +36814,7 @@ aCallerType
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 )
@@ -37218,7 +37218,7 @@ aCallerType
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 )
@@ -37505,7 +37505,7 @@ aCallerType
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 )
@@ -37648,7 +37648,7 @@ aCallerType
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 )
@@ -37888,7 +37888,7 @@ aCallerType
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 )
@@ -41328,7 +41328,7 @@ IsInModalState
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 )
@@ -41954,7 +41954,7 @@ if
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 |

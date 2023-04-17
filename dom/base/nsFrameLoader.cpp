@@ -13069,7 +13069,7 @@ aForProcessSwitch
 mPendingBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 &

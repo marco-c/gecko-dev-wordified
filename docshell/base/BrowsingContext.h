@@ -3088,7 +3088,7 @@ GetParent
 ;
 }
 bool
-IsFrame
+IsSubframe
 (
 )
 const
@@ -3137,7 +3137,7 @@ IsContent
 )
 &
 &
-IsFrame
+IsSubframe
 (
 )
 ;

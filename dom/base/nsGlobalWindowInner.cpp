@@ -45377,7 +45377,7 @@ aCallerType
 mBrowsingContext
 -
 >
-IsFrame
+IsSubframe
 (
 )
 )
