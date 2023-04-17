@@ -2472,14 +2472,6 @@ td
 n
 "
 "
-padding
-:
-0
-;
-\
-n
-"
-"
 overflow
 :
 hidden
