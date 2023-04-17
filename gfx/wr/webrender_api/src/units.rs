@@ -1042,7 +1042,7 @@ pub
 type
 TileRange
 =
-Rect
+Box2D
 <
 i32
 Tiles
