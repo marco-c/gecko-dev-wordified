@@ -178,6 +178,15 @@ include
 "
 mozilla
 /
+ProfilerThreadPlatformData
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProfilerThreadRegistrationInfo
 .
 h
