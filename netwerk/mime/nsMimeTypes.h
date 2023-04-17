@@ -882,6 +882,14 @@ aac
 "
 #
 define
+AUDIO_MPEG_TS
+"
+audio
+/
+mp2t
+"
+#
+define
 BINARY_OCTET_STREAM
 "
 binary
