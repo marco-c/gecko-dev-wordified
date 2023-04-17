@@ -46170,7 +46170,9 @@ storage
 /
 permanent
 /
-chrome
+{
+origin
+}
 /
 ls
 directory
