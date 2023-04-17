@@ -7025,7 +7025,7 @@ nsIFrame
 :
 AddDisplayItem
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 aItem
 )
@@ -7055,7 +7055,7 @@ nsIFrame
 :
 RemoveDisplayItem
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 aItem
 )
@@ -7092,7 +7092,7 @@ nsIFrame
 :
 HasDisplayItem
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 aItem
 )
@@ -7118,7 +7118,7 @@ aKey
 {
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 i
 :
@@ -7165,7 +7165,7 @@ aCondition
 {
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 i
 :
@@ -7283,7 +7283,7 @@ aFrame
 [
 ]
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 aItem
 )
@@ -7462,7 +7462,7 @@ this
 ;
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 i
 :
@@ -7990,7 +7990,7 @@ up
 .
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 i
 :
@@ -70456,7 +70456,7 @@ this
 [
 ]
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 aItem
 )

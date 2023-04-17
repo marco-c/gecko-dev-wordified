@@ -7549,7 +7549,7 @@ ClearDisplayItems
 {
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 i
 :

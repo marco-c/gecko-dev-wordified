@@ -4522,7 +4522,7 @@ Frame
 ;
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 i
 :
@@ -4712,7 +4712,7 @@ ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 i
 :
@@ -6425,7 +6425,7 @@ aFrame
 {
 for
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 i
 :

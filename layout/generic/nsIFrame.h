@@ -1141,9 +1141,6 @@ class
 nsDisplayItem
 ;
 class
-nsDisplayItemBase
-;
-class
 nsDisplayListBuilder
 ;
 class
@@ -4997,7 +4994,7 @@ mozilla
 :
 SmallPointerArray
 <
-nsDisplayItemBase
+nsDisplayItem
 >
 DisplayItemArray
 ;
@@ -35151,7 +35148,7 @@ mDisplayItems
 void
 AddDisplayItem
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 aItem
 )
@@ -35159,7 +35156,7 @@ aItem
 bool
 RemoveDisplayItem
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 aItem
 )
@@ -35177,7 +35174,7 @@ HasDisplayItems
 bool
 HasDisplayItem
 (
-nsDisplayItemBase
+nsDisplayItem
 *
 aItem
 )
