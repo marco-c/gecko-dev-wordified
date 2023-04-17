@@ -3554,9 +3554,6 @@ InsertSheetInTree
 StyleSheet
 &
 aSheet
-nsINode
-*
-aOwningNode
 )
 ;
 /
