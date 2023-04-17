@@ -1289,7 +1289,7 @@ Shape
 last
 jsid
 id
-ShapePropertyFlags
+PropertyFlags
 propFlags
 JSContext
 *

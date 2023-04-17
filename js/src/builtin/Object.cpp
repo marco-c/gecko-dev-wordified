@@ -5954,7 +5954,7 @@ flags
 )
 !
 =
-ShapePropertyFlags
+PropertyFlags
 :
 :
 defaultDataPropFlags

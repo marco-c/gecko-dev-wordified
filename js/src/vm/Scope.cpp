@@ -764,11 +764,11 @@ HandleShape
 shape
 )
 {
-ShapePropertyFlags
+PropertyFlags
 propFlags
 =
 {
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Enumerable
@@ -805,7 +805,7 @@ propFlags
 .
 setFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Writable

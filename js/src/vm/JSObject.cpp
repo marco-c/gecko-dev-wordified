@@ -3255,10 +3255,10 @@ freeze
 *
 /
 static
-ShapePropertyFlags
+PropertyFlags
 ComputeFlagsForSealOrFreeze
 (
-ShapePropertyFlags
+PropertyFlags
 flags
 IntegrityLevel
 level
@@ -3288,7 +3288,7 @@ flags
 .
 clearFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Configurable
@@ -3316,7 +3316,7 @@ flags
 .
 clearFlag
 (
-ShapePropertyFlag
+PropertyFlag
 :
 :
 Writable
