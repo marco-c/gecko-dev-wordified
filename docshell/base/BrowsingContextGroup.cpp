@@ -1210,6 +1210,12 @@ aProcess
 SendSetupFocusedAndActive
 (
 focused
+fm
+-
+>
+GetActionIdForFocusedBrowsingContextInChrome
+(
+)
 active
 fm
 -
