@@ -1499,6 +1499,14 @@ avif
 "
 #
 define
+IMAGE_JXL
+"
+image
+/
+jxl
+"
+#
+define
 MESSAGE_EXTERNAL_BODY
 "
 message
