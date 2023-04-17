@@ -344,6 +344,13 @@ view
 const
 valueEl
 =
+await
+waitFor
+(
+(
+)
+=
+>
 ruleView
 .
 styleDocument
@@ -356,6 +363,7 @@ ruleview
 -
 propertyvalue
 "
+)
 )
 ;
 return
