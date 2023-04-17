@@ -136,6 +136,17 @@ SandboxTestingThread
 h
 "
 #
+include
+"
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
+#
 ifdef
 XP_LINUX
 #
