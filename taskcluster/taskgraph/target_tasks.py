@@ -5957,10 +5957,35 @@ try_name
                         
 return
 True
+            
+else
+:
+                
+#
+Don
+'
+t
+run
+tp6
+raptor
+tests
+                
+if
+"
+tp6
+"
+in
+try_name
+:
+                    
+return
+False
                 
 #
 Run
-browsertime
+raptor
+-
+webext
 benchmark
 tests
 on
@@ -5991,29 +6016,6 @@ try_name
                     
 return
 True
-            
-else
-:
-                
-#
-Don
-'
-t
-run
-tp6
-raptor
-tests
-                
-if
-"
-tp6
-"
-in
-try_name
-:
-                    
-return
-False
         
 #
 Android
