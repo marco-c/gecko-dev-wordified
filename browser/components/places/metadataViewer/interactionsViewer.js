@@ -1530,6 +1530,10 @@ getRows
 query
 columns
 =
+[
+.
+.
+.
 this
 .
 columnMap
@@ -1537,6 +1541,7 @@ columnMap
 keys
 (
 )
+]
 )
 {
 if
