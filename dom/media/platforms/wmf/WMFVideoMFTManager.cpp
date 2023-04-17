@@ -3730,7 +3730,7 @@ sample
 duration
 :
 %
-d
+f
 seconds
 .
 Using
