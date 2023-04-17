@@ -523,6 +523,10 @@ enabled
 "
 webrender
 "
+    
+"
+nss
+"
 ]
 EXCLUSIVE_COMPONENTS
 =
