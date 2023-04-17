@@ -371,15 +371,6 @@ ThemeChangeKind
 uint8_t
 ;
 }
-using
-mozilla
-:
-:
-loader
-:
-:
-PScriptCacheChild
-;
 #
 if
 !
@@ -1639,10 +1630,9 @@ ipc
 IPCResult
 RecvThemeChanged
 (
-LookAndFeelData
+FullLookAndFeel
 &
 &
-aLookAndFeelData
 widget
 :
 :
@@ -3167,7 +3157,7 @@ const
 StructuredCloneData
 &
 aInitialData
-LookAndFeelData
+FullLookAndFeel
 &
 &
 aLookAndFeelData
@@ -3510,7 +3500,7 @@ PSessionStorageObserverChild
 aActor
 )
 ;
-LookAndFeelData
+FullLookAndFeel
 &
 BorrowLookAndFeelData
 (
@@ -5180,7 +5170,7 @@ and
 feel
 data
 .
-LookAndFeelData
+FullLookAndFeel
 mLookAndFeelData
 ;
 /
