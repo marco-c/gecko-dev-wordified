@@ -7731,10 +7731,7 @@ GuessObjectGCKind
 )
 ;
 return
-NewObjectWithGivenProtoAndKinds
-<
-PlainObject
->
+NewPlainObjectWithProtoAndAllocKind
 (
 cx
 proto

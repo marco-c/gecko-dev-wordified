@@ -1165,10 +1165,7 @@ RootedPlainObject
 obj
 (
 cx
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObjectWithAllocKind
 (
 cx
 allocKind
