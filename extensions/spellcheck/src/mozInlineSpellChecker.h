@@ -1946,7 +1946,7 @@ false
 ;
 }
 void
-CheckCurrentWordsNoSuggest
+CheckWordsAndAddRangesForMisspellings
 (
 mozilla
 :

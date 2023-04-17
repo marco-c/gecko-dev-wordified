@@ -9059,7 +9059,7 @@ __FUNCTION__
 )
 )
 ;
-CheckCurrentWordsNoSuggest
+CheckWordsAndAddRangesForMisspellings
 (
 aSpellCheckSelection
 words
@@ -9597,7 +9597,7 @@ Length
 requestChunkSize
 )
 {
-CheckCurrentWordsNoSuggest
+CheckWordsAndAddRangesForMisspellings
 (
 aSpellCheckSelection
 words
@@ -9647,7 +9647,7 @@ NodeOffsetRange
 ;
 }
 }
-CheckCurrentWordsNoSuggest
+CheckWordsAndAddRangesForMisspellings
 (
 aSpellCheckSelection
 words
@@ -9733,7 +9733,7 @@ void
 mozInlineSpellChecker
 :
 :
-CheckCurrentWordsNoSuggest
+CheckWordsAndAddRangesForMisspellings
 (
 Selection
 *
