@@ -195,8 +195,7 @@ implementations
 of
 font
 functions
-gfxPlatformFontList
-*
+bool
 CreatePlatformFontList
 (
 )
