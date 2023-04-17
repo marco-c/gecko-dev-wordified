@@ -201,8 +201,15 @@ iframe
 "
 )
 ;
-is
+await
+ContentTaskUtils
+.
+waitForCondition
 (
+(
+)
+=
+>
 pocketIframe
 .
 src
@@ -216,6 +223,9 @@ split
 [
 0
 ]
+=
+=
+=
 "
 about
 :
