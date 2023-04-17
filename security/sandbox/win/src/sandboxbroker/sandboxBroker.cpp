@@ -4645,7 +4645,7 @@ if
 StaticPrefs
 :
 :
-security_sandbox_content_shadow_stacks_strict
+security_sandbox_content_shadow_stack_enabled
 (
 )
 )
@@ -4656,7 +4656,7 @@ mitigations
 sandbox
 :
 :
-MITIGATION_CET_STRICT_MODE
+MITIGATION_CET_COMPAT_MODE
 ;
 }
 result
@@ -6621,7 +6621,7 @@ if
 StaticPrefs
 :
 :
-security_sandbox_gpu_shadow_stacks_strict
+security_sandbox_gpu_shadow_stack_enabled
 (
 )
 )
@@ -6632,7 +6632,7 @@ mitigations
 sandbox
 :
 :
-MITIGATION_CET_STRICT_MODE
+MITIGATION_CET_COMPAT_MODE
 ;
 }
 result
@@ -7658,7 +7658,7 @@ if
 StaticPrefs
 :
 :
-security_sandbox_rdd_shadow_stacks_strict
+security_sandbox_rdd_shadow_stack_enabled
 (
 )
 )
@@ -7669,7 +7669,7 @@ mitigations
 sandbox
 :
 :
-MITIGATION_CET_STRICT_MODE
+MITIGATION_CET_COMPAT_MODE
 ;
 }
 result
@@ -8401,7 +8401,7 @@ if
 StaticPrefs
 :
 :
-security_sandbox_socket_shadow_stacks_strict
+security_sandbox_socket_shadow_stack_enabled
 (
 )
 )
@@ -8412,7 +8412,7 @@ mitigations
 sandbox
 :
 :
-MITIGATION_CET_STRICT_MODE
+MITIGATION_CET_COMPAT_MODE
 ;
 }
 result
@@ -9064,7 +9064,7 @@ if
 StaticPrefs
 :
 :
-security_sandbox_gmp_shadow_stacks_strict
+security_sandbox_gmp_shadow_stack_enabled
 (
 )
 )
@@ -9075,7 +9075,7 @@ mitigations
 sandbox
 :
 :
-MITIGATION_CET_STRICT_MODE
+MITIGATION_CET_COMPAT_MODE
 ;
 }
 result
