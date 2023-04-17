@@ -534,6 +534,47 @@ yaml
 format_taskgraph_yaml
 }
 def
+get_taskgraph_generator
+(
+root
+parameters
+)
+:
+    
+"
+"
+"
+Helper
+function
+to
+make
+testing
+a
+little
+easier
+.
+"
+"
+"
+    
+from
+taskgraph
+.
+generator
+import
+TaskGraphGenerator
+    
+return
+TaskGraphGenerator
+(
+root_dir
+=
+root
+parameters
+=
+parameters
+)
+def
 format_taskgraph
 (
 options
@@ -546,13 +587,6 @@ None
     
 import
 taskgraph
-    
-from
-taskgraph
-.
-generator
-import
-TaskGraphGenerator
     
 from
 taskgraph
@@ -667,10 +701,8 @@ False
     
 tgg
 =
-TaskGraphGenerator
+get_taskgraph_generator
 (
-root_dir
-=
 options
 .
 get
@@ -679,8 +711,6 @@ get
 root
 "
 )
-parameters
-=
 parameters
 )
     
@@ -5069,6 +5099,15 @@ INFO
 def
 main
 (
+args
+=
+sys
+.
+argv
+[
+1
+:
+]
 )
 :
     
@@ -5088,6 +5127,7 @@ parser
 .
 parse_args
 (
+args
 )
     
 try
