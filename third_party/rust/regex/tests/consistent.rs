@@ -1029,6 +1029,14 @@ RegexEqualityTest
 {
 fn
 result
+<
+G
+:
+quickcheck
+:
+:
+Gen
+>
 (
 &
 self
@@ -1036,10 +1044,7 @@ gen
 :
 &
 mut
-quickcheck
-:
-:
-Gen
+G
 )
 -
 >

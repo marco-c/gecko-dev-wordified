@@ -31,11 +31,6 @@ pin_project
 #
 [
 pin_project
-(
-project
-=
-EnumProj
-)
 ]
 enum
 Enum

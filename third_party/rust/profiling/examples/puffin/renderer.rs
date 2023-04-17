@@ -388,12 +388,12 @@ Ok
 (
 Renderer
 {
-font_atlas_texture
-imgui_pass
-graphics_queue
-swapchain_helper
-resource_manager
 api
+swapchain_helper
+graphics_queue
+imgui_pass
+resource_manager
+font_atlas_texture
 }
 )
 }

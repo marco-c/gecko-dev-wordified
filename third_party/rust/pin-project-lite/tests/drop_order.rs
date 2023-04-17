@@ -29,6 +29,12 @@ destructors
 .
 html
 use
+pin_project_lite
+:
+:
+pin_project
+;
+use
 std
 :
 :
@@ -44,12 +50,6 @@ pin
 Pin
 thread
 }
-;
-use
-pin_project_lite
-:
-:
-pin_project
 ;
 struct
 D
