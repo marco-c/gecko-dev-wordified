@@ -3094,8 +3094,9 @@ IsInUncomposedDoc
 )
 )
 {
-RegAccessKey
+RegUnRegAccessKey
 (
+true
 )
 ;
 if
@@ -3386,8 +3387,9 @@ IsInUncomposedDoc
 )
 )
 {
-UnregAccessKey
+RegUnRegAccessKey
 (
+false
 )
 ;
 }
@@ -4208,8 +4210,9 @@ flag
 .
 See
 UnregAccessKey
-UnregAccessKey
+RegUnRegAccessKey
 (
+false
 )
 ;
 if
@@ -4950,8 +4953,9 @@ SetFlags
 NODE_HAS_ACCESSKEY
 )
 ;
-RegAccessKey
+RegUnRegAccessKey
 (
+true
 )
 ;
 }
