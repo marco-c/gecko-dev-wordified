@@ -195,7 +195,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 our
@@ -355,7 +355,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 this
@@ -549,7 +549,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 this
@@ -743,7 +743,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 this
@@ -935,7 +935,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 this
@@ -1127,7 +1127,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 this
@@ -1329,7 +1329,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 this
@@ -1531,7 +1531,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 this
@@ -1731,7 +1731,7 @@ Service
 that
 owns
 the
-collator
+nsICollation
 used
 by
 this
