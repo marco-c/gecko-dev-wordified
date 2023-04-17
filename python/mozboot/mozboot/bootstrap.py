@@ -1004,6 +1004,9 @@ centos
 "
 fedora
 "
+"
+rocky
+"
 )
 :
                 

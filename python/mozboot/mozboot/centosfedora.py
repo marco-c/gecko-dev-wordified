@@ -299,6 +299,9 @@ in
 "
 centos
 "
+"
+rocky
+"
 )
 :
             
@@ -476,6 +479,9 @@ in
 (
 "
 centos
+"
+"
+rocky
 "
 )
 and
