@@ -291,6 +291,17 @@ threads
 nostacksampling
 "
 ]
+threads
+:
+[
+"
+GeckoMain
+"
+"
+DOM
+Worker
+"
+]
 }
 )
 ;
