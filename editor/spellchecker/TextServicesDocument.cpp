@@ -16555,8 +16555,11 @@ if
 res
 .
 mBegin
->
-strLen
+=
+=
+res
+.
+mEnd
 )
 {
 return
