@@ -986,6 +986,7 @@ class
 ScriptKind
 {
 Script
+ScriptStencil
 DecodeScript
 Module
 }
