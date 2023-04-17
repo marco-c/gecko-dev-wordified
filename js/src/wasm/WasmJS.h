@@ -3176,6 +3176,15 @@ maxPages
 )
 const
 ;
+wasm
+:
+:
+IndexType
+indexType
+(
+)
+const
+;
 bool
 isShared
 (
