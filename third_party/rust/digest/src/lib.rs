@@ -7,7 +7,7 @@ provides
 traits
 which
 describe
-funcionality
+functionality
 of
 cryptographic
 hash
@@ -28,7 +28,8 @@ this
 repository
 can
 be
-separatedin
+separated
+into
 two
 levels
 :
@@ -68,7 +69,7 @@ implementations
 /
 !
 -
-Convinience
+Convenience
 trait
 :
 Digest
@@ -529,7 +530,7 @@ digest
 result
 with
 the
-varaible
+variable
 size
 pub
 trait
@@ -771,7 +772,7 @@ buf
 /
 Trait
 for
-decribing
+describing
 readers
 which
 are
@@ -1002,7 +1003,7 @@ io
 Write
 trait
 for
-implementator
+implementer
 of
 Input
 macro_rules
