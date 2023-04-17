@@ -22880,9 +22880,11 @@ ModuleEnvironmentObject
 *
 targetEnv
 ;
-Shape
-*
-shape
+Maybe
+<
+ShapeProperty
+>
+prop
 ;
 MOZ_ALWAYS_TRUE
 (
@@ -22895,7 +22897,7 @@ id
 &
 targetEnv
 &
-shape
+prop
 )
 )
 ;
@@ -22909,7 +22911,7 @@ syncStack
 uint32_t
 slot
 =
-shape
+prop
 -
 >
 slot
@@ -23046,12 +23048,7 @@ targetEnv
 >
 getSlot
 (
-shape
--
->
 slot
-(
-)
 )
 .
 isMagic
