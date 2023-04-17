@@ -2213,6 +2213,11 @@ mOldValue
 }
 }
 ;
+void
+MaybeEnableNextGenLocalStorage
+(
+)
+;
 /
 *
 *
