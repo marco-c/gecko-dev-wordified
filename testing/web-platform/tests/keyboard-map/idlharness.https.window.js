@@ -56,6 +56,11 @@ map
 '
 html
 '
+'
+keyboard
+-
+lock
+'
 ]
 async
 idl_array
