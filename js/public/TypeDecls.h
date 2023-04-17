@@ -259,6 +259,9 @@ class
 JS_PUBLIC_API
 JSString
 ;
+struct
+JSPrincipals
+;
 namespace
 js
 {
