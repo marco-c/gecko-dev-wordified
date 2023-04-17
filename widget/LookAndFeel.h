@@ -3208,9 +3208,10 @@ background
 color
 only
 .
-#
-define
+constexpr
+nscolor
 NS_TRANSPARENT
+=
 NS_RGBA
 (
 0x01
@@ -3218,6 +3219,7 @@ NS_RGBA
 0x00
 0x00
 )
+;
 /
 /
 For
@@ -3225,9 +3227,10 @@ foreground
 color
 only
 .
-#
-define
+constexpr
+nscolor
 NS_SAME_AS_FOREGROUND_COLOR
+=
 NS_RGBA
 (
 0x02
@@ -3235,9 +3238,11 @@ NS_RGBA
 0x00
 0x00
 )
-#
-define
+;
+constexpr
+nscolor
 NS_40PERCENT_FOREGROUND_COLOR
+=
 NS_RGBA
 (
 0x03
@@ -3245,6 +3250,7 @@ NS_RGBA
 0x00
 0x00
 )
+;
 #
 define
 NS_IS_SELECTION_SPECIAL_COLOR
