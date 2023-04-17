@@ -253,6 +253,12 @@ minimumValue
 ;
 private
 :
+Accessible
+*
+Acc
+(
+)
+;
 AccessibleWrap
 *
 LocalAcc
