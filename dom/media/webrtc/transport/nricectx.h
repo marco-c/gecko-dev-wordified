@@ -1202,6 +1202,11 @@ mBlockUdp
 =
 false
 ;
+bool
+mBlockTls
+=
+false
+;
 int
 mErrorCodeForDrop
 =
