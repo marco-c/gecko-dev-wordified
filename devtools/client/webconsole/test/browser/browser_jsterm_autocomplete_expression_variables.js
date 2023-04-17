@@ -122,6 +122,14 @@ testConst
 class
 testClass
 {
+#
+secret
+#
+getSecret
+(
+)
+{
+}
 }
 function
 testFunc
