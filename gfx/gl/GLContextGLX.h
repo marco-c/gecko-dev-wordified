@@ -207,8 +207,6 @@ display
 int
 screen
 bool
-useWebRender
-bool
 useAlpha
 int
 *
