@@ -2949,7 +2949,12 @@ root
 InsertChildBefore
 (
 newTextNode
-nullptr
+root
+-
+>
+GetFirstChild
+(
+)
 true
 ignoredError
 )
