@@ -431,11 +431,6 @@ GetSeat
 (
 void
 )
-{
-return
-mSeat
-;
-}
 ;
 wl_shm
 *
@@ -541,14 +536,6 @@ aDataDeviceManager
 )
 ;
 void
-SetSeat
-(
-wl_seat
-*
-aSeat
-)
-;
-void
 SetPrimarySelectionDeviceManager
 (
 gtk_primary_selection_device_manager
@@ -619,10 +606,6 @@ mCompositor
 wl_subcompositor
 *
 mSubcompositor
-;
-wl_seat
-*
-mSeat
 ;
 wl_shm
 *
