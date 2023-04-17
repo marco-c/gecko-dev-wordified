@@ -147,6 +147,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 frontend
 /
 TokenStream

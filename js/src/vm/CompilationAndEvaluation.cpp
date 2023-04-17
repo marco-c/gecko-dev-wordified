@@ -192,6 +192,16 @@ move
 #
 include
 "
+jsapi
+.
+h
+"
+/
+/
+JS_WrapValue
+#
+include
+"
 jstypes
 .
 h

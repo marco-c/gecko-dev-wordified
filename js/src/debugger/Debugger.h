@@ -293,6 +293,16 @@ move
 #
 include
 "
+jsapi
+.
+h
+"
+/
+/
+JS_DefineDebuggerObject
+#
+include
+"
 jstypes
 .
 h

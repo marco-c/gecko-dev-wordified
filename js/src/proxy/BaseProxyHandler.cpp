@@ -111,6 +111,13 @@ MPL
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 NamespaceImports
 .
 h
