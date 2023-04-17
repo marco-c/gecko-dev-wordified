@@ -18263,7 +18263,7 @@ aboutwelcome
 .
 skipFocus
 "
-false
+true
 )
 ;
 /

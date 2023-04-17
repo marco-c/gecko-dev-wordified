@@ -259,6 +259,7 @@ Assert
 .
 ok
 (
+!
 win
 .
 gURLBar
@@ -267,6 +268,7 @@ focused
 "
 Focus
 should
+not
 be
 on
 awesome
@@ -278,6 +280,7 @@ Assert
 .
 ok
 (
+!
 win
 .
 gURLBar
@@ -289,7 +292,7 @@ focused
 "
 )
 "
-Has
+No
 focused
 attribute
 on
@@ -336,6 +339,15 @@ stringify
 (
 TEST_MULTISTAGE_JSON
 )
+)
+;
+await
+pushPrefs
+(
+[
+ABOUT_WELCOME_FOCUS_PREF
+false
+]
 )
 ;
 let
