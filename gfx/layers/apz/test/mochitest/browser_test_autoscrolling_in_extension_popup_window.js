@@ -639,9 +639,7 @@ ok
 (
 browserForPopup
 .
-frameLoader
-.
-remoteTab
+browsingContext
 .
 startApzAutoscroll
 (
@@ -866,9 +864,7 @@ window
 ;
 browserForPopup
 .
-frameLoader
-.
-remoteTab
+browsingContext
 .
 stopApzAutoscroll
 (
