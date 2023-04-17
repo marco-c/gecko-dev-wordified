@@ -207,6 +207,15 @@ json
 "
 schemas
 /
+NimbusEnrollment
+.
+schema
+.
+json
+"
+"
+schemas
+/
 NimbusExperiment
 .
 schema
