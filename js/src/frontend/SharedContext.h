@@ -2766,9 +2766,10 @@ bindings
 void
 initFromLazyFunction
 (
-JSFunction
-*
-fun
+const
+ScriptStencilExtra
+&
+extra
 ScopeContext
 &
 scopeContext
