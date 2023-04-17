@@ -7145,8 +7145,12 @@ CHECK
 (
 iter
 .
-readVectorSelect
+readTernary
 (
+ValType
+:
+:
+V128
 &
 nothing
 &
