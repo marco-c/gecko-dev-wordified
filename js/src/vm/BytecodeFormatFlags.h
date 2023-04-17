@@ -402,16 +402,6 @@ traverse
 DebugEnvironmentProxies
 *
 /
-JOF_SHAPE
-=
-25
-/
-*
-uint32_t
-shape
-index
-*
-/
 JOF_TYPEMASK
 =
 0xFF
