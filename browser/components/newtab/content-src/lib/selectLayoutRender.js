@@ -445,6 +445,9 @@ HorizontalRule
 "
 List
 "
+"
+PrivacyLink
+"
 ]
 ;
 const
