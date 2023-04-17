@@ -210,6 +210,11 @@ mNotifyMask
 ;
 }
 ;
+void
+ContextDiscarded
+(
+)
+;
 private
 :
 virtual
@@ -374,7 +379,7 @@ process
 switch
 .
 bool
-mSuspendOnStateStartChangeEvents
+mAwaitingStop
 =
 false
 ;
