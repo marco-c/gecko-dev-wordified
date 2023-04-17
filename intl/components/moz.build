@@ -137,13 +137,6 @@ h
 "
 src
 /
-LocaleCanonicalizer
-.
-h
-"
-"
-src
-/
 NumberFormat
 .
 h
@@ -213,13 +206,6 @@ cpp
 src
 /
 ICU4CGlue
-.
-cpp
-"
-"
-src
-/
-LocaleCanonicalizer
 .
 cpp
 "
