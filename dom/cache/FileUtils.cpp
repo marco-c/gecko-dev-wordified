@@ -546,7 +546,7 @@ aPaddingInfo
 )
 ;
 nsresult
-LockedDirectoryPaddingWrite
+DirectoryPaddingWrite
 (
 nsIFile
 &
@@ -1992,7 +1992,7 @@ aBodyFileSize
 ;
 }
 nsresult
-LockedDirectoryPaddingWrite
+DirectoryPaddingWrite
 (
 nsIFile
 &
@@ -3278,7 +3278,7 @@ Result
 int64_t
 nsresult
 >
-LockedDirectoryPaddingGet
+DirectoryPaddingGet
 (
 nsIFile
 &
@@ -3383,7 +3383,7 @@ val
 ;
 }
 nsresult
-LockedDirectoryPaddingInit
+DirectoryPaddingInit
 (
 nsIFile
 &
@@ -3392,7 +3392,7 @@ aBaseDir
 {
 CACHE_TRY
 (
-LockedDirectoryPaddingWrite
+DirectoryPaddingWrite
 (
 aBaseDir
 DirPaddingFile
@@ -3408,7 +3408,7 @@ NS_OK
 ;
 }
 nsresult
-LockedUpdateDirectoryPaddingFile
+UpdateDirectoryPaddingFile
 (
 nsIFile
 &
@@ -3465,7 +3465,7 @@ CACHE_TRY_RETURN
 (
 QM_OR_ELSE_WARN
 (
-LockedDirectoryPaddingGet
+DirectoryPaddingGet
 (
 aBaseDir
 )
@@ -3572,7 +3572,7 @@ anyway
 .
 CACHE_TRY
 (
-LockedDirectoryPaddingDeleteFile
+DirectoryPaddingDeleteFile
 (
 aBaseDir
 DirPaddingFile
@@ -3744,7 +3744,7 @@ lines
 .
 CACHE_TRY
 (
-LockedDirectoryPaddingDeleteFile
+DirectoryPaddingDeleteFile
 (
 aBaseDir
 DirPaddingFile
@@ -3902,7 +3902,7 @@ currentPaddingSize
 ;
 CACHE_TRY
 (
-LockedDirectoryPaddingWrite
+DirectoryPaddingWrite
 (
 aBaseDir
 DirPaddingFile
@@ -3918,7 +3918,7 @@ NS_OK
 ;
 }
 nsresult
-LockedDirectoryPaddingFinalizeWrite
+DirectoryPaddingFinalizeWrite
 (
 nsIFile
 &
@@ -3977,7 +3977,7 @@ Result
 int64_t
 nsresult
 >
-LockedDirectoryPaddingRestore
+DirectoryPaddingRestore
 (
 nsIFile
 &
@@ -4006,7 +4006,7 @@ here
 .
 CACHE_TRY
 (
-LockedDirectoryPaddingDeleteFile
+DirectoryPaddingDeleteFile
 (
 aBaseDir
 DirPaddingFile
@@ -4041,7 +4041,7 @@ paddingSize
 ;
 CACHE_TRY
 (
-LockedDirectoryPaddingWrite
+DirectoryPaddingWrite
 (
 aBaseDir
 DirPaddingFile
@@ -4071,7 +4071,7 @@ paddingSize
 ;
 CACHE_TRY
 (
-LockedDirectoryPaddingDeleteFile
+DirectoryPaddingDeleteFile
 (
 aBaseDir
 DirPaddingFile
@@ -4086,7 +4086,7 @@ paddingSize
 ;
 }
 nsresult
-LockedDirectoryPaddingDeleteFile
+DirectoryPaddingDeleteFile
 (
 nsIFile
 &
