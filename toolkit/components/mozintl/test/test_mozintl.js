@@ -149,6 +149,13 @@ getDisplayNamesDeprecated
 "
 ar
 "
+{
+type
+:
+"
+language
+"
+}
 )
 ;
 new
