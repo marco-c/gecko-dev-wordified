@@ -1680,6 +1680,16 @@ gcCycleNumber
 \
 MACRO_
 (
+GatherAsyncParentCompletions
+GatherAsyncParentCompletions
+\
+"
+GatherAsyncParentCompletions
+"
+)
+\
+MACRO_
+(
 Generator
 Generator
 "
