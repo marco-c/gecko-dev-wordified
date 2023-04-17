@@ -556,6 +556,15 @@ vp
 ;
 extern
 bool
+IsAsmJSCompilationAvailable
+(
+JSContext
+*
+cx
+)
+;
+extern
+bool
 IsAsmJSModule
 (
 JSContext

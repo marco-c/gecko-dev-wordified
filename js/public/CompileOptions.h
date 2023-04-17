@@ -653,7 +653,8 @@ AsmJSOption
 uint8_t
 {
 Enabled
-Disabled
+DisabledByAsmJSPref
+DisabledByNoWasmCompiler
 DisabledByDebugger
 }
 ;
@@ -982,7 +983,7 @@ asmJSOption
 AsmJSOption
 :
 :
-Disabled
+DisabledByAsmJSPref
 ;
 bool
 throwOnAsmJSValidationFailureOption
