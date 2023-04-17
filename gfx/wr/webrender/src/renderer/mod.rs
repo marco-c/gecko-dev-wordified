@@ -28395,6 +28395,13 @@ surfaces
 are
 updated
 .
+if
+device_size
+.
+is_some
+(
+)
+{
 frame
 .
 composite_state
@@ -28412,6 +28419,7 @@ mut
 compositor
 )
 ;
+}
 }
 for
 (
