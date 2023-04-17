@@ -105,7 +105,7 @@ testenv
     
 products
 .
-load_product
+Product
 (
 {
 }
@@ -154,7 +154,7 @@ try
         
 products
 .
-load_product
+Product
 (
 {
 }
@@ -201,23 +201,11 @@ product
 )
 :
     
-(
-check_args
-     
-target_browser_cls
-get_browser_kwargs
-     
-executor_classes
-get_executor_kwargs
-     
-env_options
-get_env_extras
-run_info_extras
-)
+product_data
 =
 products
 .
-load_product
+Product
 (
 {
 }
@@ -226,6 +214,8 @@ product
     
 env_extras
 =
+product_data
+.
 get_env_extras
 (
 )
@@ -263,6 +253,8 @@ False
                                          
 None
                                          
+product_data
+.
 env_options
                                          
 {
@@ -306,6 +298,8 @@ if
 server_host
 "
 in
+product_data
+.
 env_options
 :
                 
@@ -318,6 +312,8 @@ server_host
 ]
 =
 =
+product_data
+.
 env_options
 [
 "

@@ -60,6 +60,8 @@ Browser
                    
 ExecutorBrowser
                    
+NullBrowser
+                   
 OutputHandler
                    
 OutputHandlerState
@@ -157,9 +159,21 @@ check_args
 browser
 "
 :
+{
+None
+:
 "
 FirefoxBrowser
 "
+                             
+"
+wdspec
+"
+:
+"
+NullBrowser
+"
+}
                  
 "
 executor

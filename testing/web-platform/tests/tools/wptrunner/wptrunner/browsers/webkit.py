@@ -9,6 +9,7 @@ from
 .
 base
 import
+NullBrowser
 get_timeout_multiplier
 certificate_domain_list
 #
@@ -90,9 +91,21 @@ check_args
 browser
 "
 :
+{
+None
+:
 "
 WebKitBrowser
 "
+                             
+"
+wdspec
+"
+:
+"
+NullBrowser
+"
+}
                  
 "
 browser_kwargs

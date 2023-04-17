@@ -9,6 +9,15 @@ from
 .
 base
 import
+NullBrowser
+#
+noqa
+:
+F401
+from
+.
+base
+import
 get_timeout_multiplier
 #
 noqa
@@ -83,9 +92,21 @@ check_args
 browser
 "
 :
+{
+None
+:
 "
 OperaBrowser
 "
+                             
+"
+wdspec
+"
+:
+"
+NullBrowser
+"
+}
                  
 "
 executor
