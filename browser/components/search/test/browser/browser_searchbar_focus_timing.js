@@ -167,9 +167,9 @@ selectedBrowser
 )
 ;
 const
-onBeforeUnload
+onPageHide
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -198,7 +198,7 @@ window
 addEventListener
 (
 "
-beforeunload
+pagehide
 "
 (
 )
@@ -398,7 +398,7 @@ info
 "
 Wait
 for
-beforeUnload
+pagehide
 event
 in
 the
@@ -407,7 +407,7 @@ content
 )
 ;
 await
-onBeforeUnload
+onPageHide
 ;
 is
 (
@@ -433,7 +433,7 @@ key
 as
 soon
 as
-beforeUnload
+pagehide
 event
 happens
 .
