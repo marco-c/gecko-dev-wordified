@@ -10049,6 +10049,14 @@ true
 }
 }
 else
+if
+(
+desc
+.
+isAccessorDescriptor
+(
+)
+)
 {
 if
 (
