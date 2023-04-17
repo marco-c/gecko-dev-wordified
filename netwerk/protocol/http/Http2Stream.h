@@ -926,11 +926,7 @@ Http2Session
 Session
 (
 )
-{
-return
-mSession
 ;
-}
 [
 [
 nodiscard
@@ -1102,8 +1098,7 @@ is
 a
 subset
 of
-Http2Session
-*
+nsWeakPtr
 mSession
 ;
 /

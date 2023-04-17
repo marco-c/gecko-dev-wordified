@@ -1521,7 +1521,9 @@ CreatePushHashKey
 mHeaderScheme
 mHeaderHost
 originAttributes
-mSession
+Session
+(
+)
 -
 >
 Serial
@@ -1788,7 +1790,9 @@ into
 the
 session
 bytestream
-mSession
+Session
+(
+)
 -
 >
 TransactionHasDataToWrite
@@ -1906,7 +1910,9 @@ Http2Stream
 stream
 )
 {
-mSession
+Session
+(
+)
 -
 >
 ConnectPushedStream
@@ -2173,7 +2179,9 @@ id
 if
 (
 !
-mSession
+Session
+(
+)
 -
 >
 UseH2Deps
@@ -2227,7 +2235,9 @@ mPriorityDependency
 oldDependency
 )
 {
-mSession
+Session
+(
+)
 -
 >
 SendPriorityFrame
