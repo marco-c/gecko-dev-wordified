@@ -6712,7 +6712,7 @@ WriteParam
 aMsg
 aParam
 .
-mIsAsyncZoomContainerForViewId
+mAsyncZoomContainerId
 )
 ;
 WriteParam
@@ -6877,7 +6877,7 @@ aIter
 aResult
 -
 >
-mIsAsyncZoomContainerForViewId
+mAsyncZoomContainerId
 )
 &
 &
