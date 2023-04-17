@@ -97,9 +97,7 @@ MOZ_ANDROID_FAT_AAR_ENV_MAP
 "
 android
 -
-api
--
-16
+arm
 -
 shippable
 "
@@ -147,9 +145,7 @@ MOZ_ANDROID_FAT_AAR_X86_64
 "
 android
 -
-api
--
-16
+arm
 -
 opt
 "

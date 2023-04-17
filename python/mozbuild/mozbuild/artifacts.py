@@ -7815,9 +7815,7 @@ return
 "
 android
 -
-api
--
-16
+arm
 "
 +
 target_suffix
