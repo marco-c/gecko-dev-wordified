@@ -1096,6 +1096,10 @@ _cairo_pdf_forward_link
 cairo_pdf_resource_t
 res
 ;
+char
+*
+dest
+;
 int
 page
 ;
