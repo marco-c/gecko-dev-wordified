@@ -4085,6 +4085,13 @@ asan_interface
 h
 '
 '
+sanitizer
+/
+common_interface_defs
+.
+h
+'
+'
 sched
 .
 h
