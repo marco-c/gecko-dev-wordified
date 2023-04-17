@@ -10663,7 +10663,7 @@ DOMAttrValue
 continue
 ;
 }
-nsAutoString
+nsString
 value
 ;
 if
@@ -10714,7 +10714,13 @@ info
 -
 >
 name
+std
+:
+:
+move
+(
 value
+)
 )
 ;
 }

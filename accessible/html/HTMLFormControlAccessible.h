@@ -1863,7 +1863,7 @@ from
 the
 DOM
 .
-nsAutoString
+nsString
 type
 ;
 if
@@ -1896,7 +1896,13 @@ nsGkAtoms
 :
 :
 textInputType
+std
+:
+:
+move
+(
 type
+)
 )
 ;
 }

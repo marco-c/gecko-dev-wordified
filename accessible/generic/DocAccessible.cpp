@@ -2112,7 +2112,7 @@ Next
 )
 )
 {
-nsAutoString
+nsString
 value
 ;
 attribIter
@@ -2132,7 +2132,13 @@ attribIter
 AttrName
 (
 )
+std
+:
+:
+move
+(
 value
+)
 )
 ;
 }

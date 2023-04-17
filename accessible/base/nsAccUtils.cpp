@@ -730,7 +730,7 @@ relevant
 aAttributes
 -
 >
-SetAttribute
+SetAttributeStringCopy
 (
 nsGkAtoms
 :
@@ -885,7 +885,7 @@ IsEmpty
 aAttributes
 -
 >
-SetAttribute
+SetAttributeStringCopy
 (
 nsGkAtoms
 :
@@ -911,9 +911,7 @@ containerLiveRole
 role
 -
 >
-ARIARoleString
-(
-)
+roleAtom
 )
 ;
 }
@@ -1018,7 +1016,7 @@ busy
 aAttributes
 -
 >
-SetAttribute
+SetAttributeStringCopy
 (
 nsGkAtoms
 :

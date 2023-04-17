@@ -1435,7 +1435,7 @@ NativeAttributes
 (
 )
 ;
-nsAutoString
+nsString
 src
 ;
 mContent
@@ -1474,7 +1474,13 @@ nsGkAtoms
 :
 :
 src
+std
+:
+:
+move
+(
 src
+)
 )
 ;
 return

@@ -832,7 +832,7 @@ abbr
 DOM
 attribute
 .
-nsAutoString
+nsString
 abbrText
 ;
 if
@@ -944,7 +944,13 @@ nsGkAtoms
 :
 :
 abbr
+std
+:
+:
+move
+(
 abbrText
+)
 )
 ;
 }
@@ -952,7 +958,7 @@ abbrText
 /
 axis
 attribute
-nsAutoString
+nsString
 axisText
 ;
 mContent
@@ -992,7 +998,13 @@ nsGkAtoms
 :
 :
 axis
+std
+:
+:
+move
+(
 axisText
+)
 )
 ;
 }
@@ -1017,7 +1029,7 @@ _ns
 attributes
 -
 >
-SetAttribute
+SetAttributeStringCopy
 (
 cppClass
 u
