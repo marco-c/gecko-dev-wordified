@@ -4495,7 +4495,7 @@ null
 value
 (
 "
-anyfunc
+funcref
 "
 null
 )

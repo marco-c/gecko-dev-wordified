@@ -283,7 +283,7 @@ funcref
 value
 (
 "
-anyfunc
+funcref
 "
 null
 )

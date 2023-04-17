@@ -137,7 +137,7 @@ element
 '
 :
 '
-anyfunc
+funcref
 '
 initial
 :
@@ -230,7 +230,7 @@ element
 '
 :
 '
-anyfunc
+funcref
 '
 initial
 :
@@ -350,7 +350,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
@@ -562,7 +562,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :

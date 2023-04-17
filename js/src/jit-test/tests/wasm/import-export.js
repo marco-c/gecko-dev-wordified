@@ -171,7 +171,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -189,7 +189,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -207,7 +207,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -225,7 +225,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -5071,7 +5071,7 @@ maximum
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -5183,7 +5183,7 @@ maximum
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -7265,7 +7265,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -7743,7 +7743,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -8112,7 +8112,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -8331,7 +8331,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )

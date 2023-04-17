@@ -1445,7 +1445,7 @@ Global
 value
 :
 '
-anyfunc
+funcref
 '
 mutable
 :
@@ -1512,7 +1512,7 @@ Global
 value
 :
 '
-anyfunc
+funcref
 '
 mutable
 :
@@ -1556,7 +1556,7 @@ Global
 value
 :
 '
-anyfunc
+funcref
 '
 }
 (

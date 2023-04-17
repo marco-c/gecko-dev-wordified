@@ -32,7 +32,7 @@ desc
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
