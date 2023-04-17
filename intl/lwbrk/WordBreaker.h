@@ -185,7 +185,7 @@ aOffset
 )
 ;
 int32_t
-NextWord
+Next
 (
 const
 char16_t

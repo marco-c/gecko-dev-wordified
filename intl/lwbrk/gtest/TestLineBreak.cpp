@@ -945,7 +945,7 @@ curr
 lb
 -
 >
-NextWord
+Next
 (
 eng1
 .
@@ -975,7 +975,7 @@ curr
 lb
 -
 >
-NextWord
+Next
 (
 eng1
 .
@@ -1373,7 +1373,7 @@ cur
 wbk
 -
 >
-NextWord
+Next
 (
 fragText
 .
@@ -1453,7 +1453,7 @@ cur
 wbk
 -
 >
-NextWord
+Next
 (
 fragText
 .
@@ -2150,7 +2150,7 @@ newOffset
 wbk
 -
 >
-NextWord
+Next
 (
 fragText
 .

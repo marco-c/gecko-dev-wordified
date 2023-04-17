@@ -1514,7 +1514,7 @@ int32_t
 WordBreaker
 :
 :
-NextWord
+Next
 (
 const
 char16_t
