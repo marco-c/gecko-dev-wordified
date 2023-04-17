@@ -892,10 +892,6 @@ private
 #
 if
 JS_HAS_INTL_API
-&
-&
-!
-MOZ_SYSTEM_ICU
 static
 double
 localTZA
@@ -991,9 +987,6 @@ localTime
 if
 !
 JS_HAS_INTL_API
-|
-|
-MOZ_SYSTEM_ICU
 static
 size_t
 formatTime
@@ -2812,10 +2805,6 @@ jitter
 #
 if
 JS_HAS_INTL_API
-&
-&
-!
-MOZ_SYSTEM_ICU
 /
 /
 ES2019
@@ -3799,10 +3788,6 @@ endif
 /
 *
 JS_HAS_INTL_API
-&
-&
-!
-MOZ_SYSTEM_ICU
 *
 /
 static
@@ -18064,10 +18049,6 @@ rval
 #
 if
 JS_HAS_INTL_API
-&
-&
-!
-MOZ_SYSTEM_ICU
 JSString
 *
 DateTimeHelper
@@ -18801,10 +18782,6 @@ endif
 /
 *
 JS_HAS_INTL_API
-&
-&
-!
-MOZ_SYSTEM_ICU
 *
 /
 static
