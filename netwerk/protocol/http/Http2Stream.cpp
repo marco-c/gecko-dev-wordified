@@ -2386,10 +2386,7 @@ http
 NS_HTTP_DEFAULT_PORT
 :
 NS_HTTPS_DEFAULT_PORT
-nsCString
-(
 origin
-)
 nullptr
 nullptr
 nullptr
