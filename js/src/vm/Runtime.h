@@ -446,6 +446,15 @@ include
 "
 js
 /
+MemoryCallbacks
+.
+h
+"
+#
+include
+"
+js
+/
 Modules
 .
 h
@@ -6753,7 +6762,9 @@ JS
 :
 SetOutOfMemoryCallback
 in
-jsapi
+js
+/
+MemoryCallbacks
 .
 h
 .
