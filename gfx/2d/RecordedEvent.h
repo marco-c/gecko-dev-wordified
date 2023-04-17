@@ -2461,10 +2461,6 @@ DrawEventRecorderPrivate
 ;
 friend
 class
-DrawEventRecorderFile
-;
-friend
-class
 DrawEventRecorderMemory
 ;
 static
