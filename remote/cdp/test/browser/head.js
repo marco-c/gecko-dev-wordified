@@ -333,11 +333,6 @@ See
 Bug
 1609162
 .
-let
-remoteAgentStarted
-=
-false
-;
 async
 function
 startRemoteAgent
@@ -347,7 +342,9 @@ startRemoteAgent
 if
 (
 !
-remoteAgentStarted
+RemoteAgent
+.
+listening
 )
 {
 await
@@ -372,10 +369,6 @@ localhost
 "
 )
 )
-;
-remoteAgentStarted
-=
-true
 ;
 info
 (
