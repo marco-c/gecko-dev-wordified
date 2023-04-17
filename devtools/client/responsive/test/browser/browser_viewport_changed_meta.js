@@ -1214,9 +1214,8 @@ test
 )
 ;
 await
-reloadViewport
+reloadBrowser
 (
-ui
 )
 ;
 }

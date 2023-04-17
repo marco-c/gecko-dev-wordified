@@ -686,9 +686,8 @@ the
 window
 .
 await
-reloadViewport
+reloadBrowser
 (
-ui
 )
 ;
 /

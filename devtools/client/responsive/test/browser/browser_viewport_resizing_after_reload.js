@@ -433,9 +433,8 @@ a
 reload
 .
 await
-reloadViewport
+reloadBrowser
 (
-ui
 )
 ;
 /
