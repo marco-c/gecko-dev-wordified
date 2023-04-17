@@ -2172,7 +2172,7 @@ ScriptLoadRequestList
 )
 ;
 void
-Clear
+CancelRequestsAndClear
 (
 )
 ;
