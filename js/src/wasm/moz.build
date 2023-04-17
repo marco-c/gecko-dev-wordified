@@ -271,6 +271,11 @@ WasmTable
 cpp
 "
 "
+WasmTypeDef
+.
+cpp
+"
+"
 WasmTypes
 .
 cpp
