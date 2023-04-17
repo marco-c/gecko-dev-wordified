@@ -158,6 +158,7 @@ Fields
 PrivateDoubleInit
 MissingPrivateOnGet
 MissingPrivateOnSet
+AssignToPrivateMethod
 }
 ;
 JSErrNum
