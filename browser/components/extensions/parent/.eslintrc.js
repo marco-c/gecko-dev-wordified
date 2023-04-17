@@ -151,6 +151,9 @@ true
 sidebarActionFor
 :
 true
+tabGetSender
+:
+true
 tabTracker
 :
 true
