@@ -486,18 +486,6 @@ binary
 all
 :
 "
-                        
-"
--
--
-disable
--
-pip
--
-version
--
-check
-"
                     
 ]
                 
