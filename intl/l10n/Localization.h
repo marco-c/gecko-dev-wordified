@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -218,6 +225,8 @@ public
 nsIObserver
 public
 nsWrapperCache
+public
+nsSupportsWeakReference
 {
 template
 <
@@ -251,9 +260,10 @@ aArgs
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 Localization
+nsIObserver
 )
 NS_DECL_NSIOBSERVER
 static
@@ -646,6 +656,11 @@ aIsSync
 virtual
 ~
 Localization
+(
+)
+;
+void
+RegisterObservers
 (
 )
 ;
