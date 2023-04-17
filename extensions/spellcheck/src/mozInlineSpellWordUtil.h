@@ -455,10 +455,6 @@ Call
 Init
 with
 the
-weak
-pointer
-to
-the
 editor
 that
 you
@@ -579,11 +575,12 @@ false
 nsresult
 Init
 (
+const
 mozilla
 :
 :
 TextEditor
-*
+&
 aTextEditor
 )
 ;
