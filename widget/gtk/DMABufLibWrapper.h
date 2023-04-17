@@ -1095,6 +1095,11 @@ IsDMABufWebGLEnabled
 (
 )
 ;
+void
+DisableDMABufWebGL
+(
+)
+;
 GbmFormat
 *
 GetGbmFormat
@@ -1136,6 +1141,11 @@ nsACString
 &
 aFailureId
 )
+;
+private
+:
+bool
+mUseWebGLDmabufBackend
 ;
 private
 :
