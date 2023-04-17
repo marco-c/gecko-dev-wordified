@@ -645,6 +645,7 @@ eventName
 ]
 ;
 }
+return
 super
 .
 on
