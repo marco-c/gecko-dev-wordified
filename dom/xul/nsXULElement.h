@@ -3053,11 +3053,6 @@ IsInteractiveHTMLContent
 const
 override
 ;
-void
-MaybeUpdatePrivateLifetime
-(
-)
-;
 protected
 :
 ~
