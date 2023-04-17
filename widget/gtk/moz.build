@@ -527,11 +527,6 @@ WaylandBuffer
 cpp
 "
 "
-WindowSurfaceWayland
-.
-cpp
-"
-"
 WindowSurfaceWaylandMultiBuffer
 .
 cpp
