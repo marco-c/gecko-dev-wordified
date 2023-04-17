@@ -4398,6 +4398,15 @@ HandleEndOfPan
 (
 )
 ;
+nsEventStatus
+OnPanInterrupted
+(
+const
+PanGestureInput
+&
+aEvent
+)
+;
 /
 *
 *
