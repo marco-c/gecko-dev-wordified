@@ -2249,8 +2249,7 @@ that
 can
 precede
 the
-stack
-map
+stackmap
 location
 .
 return

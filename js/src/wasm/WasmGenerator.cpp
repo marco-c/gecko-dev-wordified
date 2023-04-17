@@ -5743,8 +5743,7 @@ finishMetadataTier
 /
 /
 The
-stack
-maps
+stackmaps
 aren
 '
 t
@@ -5829,8 +5828,7 @@ DEBUG
 Check
 that
 the
-stack
-map
+stackmap
 contains
 no
 duplicates
@@ -6497,8 +6495,7 @@ DEBUG
 Check
 that
 each
-stack
-map
+stackmap
 is
 associated
 with
@@ -6553,8 +6550,7 @@ nextInsnAddr
 )
 "
 wasm
-stack
-map
+stackmap
 does
 not
 reference
