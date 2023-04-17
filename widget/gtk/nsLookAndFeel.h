@@ -854,7 +854,7 @@ mInitialized
 false
 ;
 bool
-mEverInitialized
+mSystemThemeOverridden
 =
 false
 ;
