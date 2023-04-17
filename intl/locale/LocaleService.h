@@ -1156,8 +1156,8 @@ RTL
 This
 method
 respects
-two
-overrides
+this
+override
 :
 *
 -
@@ -1166,11 +1166,6 @@ intl
 l10n
 .
 pseudo
-*
--
-intl
-.
-uidirection
 *
 /
 bool
