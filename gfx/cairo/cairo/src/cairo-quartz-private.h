@@ -476,6 +476,9 @@ extents
 cairo_rectangle_int_t
 virtual_extents
 ;
+cairo_bool_t
+ownsData
+;
 }
 cairo_quartz_surface_t
 ;
