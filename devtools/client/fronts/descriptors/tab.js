@@ -1372,6 +1372,13 @@ attach
 (
 )
 ;
+this
+.
+setTarget
+(
+newTargetFront
+)
+;
 }
 catch
 (
@@ -1402,13 +1409,6 @@ e
 )
 ;
 }
-this
-.
-setTarget
-(
-newTargetFront
-)
-;
 this
 .
 _targetFrontPromise
