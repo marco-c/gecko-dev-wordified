@@ -4546,15 +4546,6 @@ strict
 \
 MACRO_
 (
-UTC
-UTC
-"
-UTC
-"
-)
-\
-MACRO_
-(
 void
 void_
 "
