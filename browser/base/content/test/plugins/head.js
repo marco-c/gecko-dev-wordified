@@ -715,11 +715,6 @@ found
 }
 return
 {
-pluginFallbackType
-:
-plugin
-.
-pluginFallbackType
 activated
 :
 plugin
