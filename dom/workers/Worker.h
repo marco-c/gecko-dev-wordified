@@ -182,7 +182,7 @@ namespace
 dom
 {
 struct
-StructuredSerializeOptions
+PostMessageOptions
 ;
 struct
 WorkerOptions
@@ -317,7 +317,7 @@ Value
 >
 aMessage
 const
-StructuredSerializeOptions
+PostMessageOptions
 &
 aOptions
 ErrorResult
