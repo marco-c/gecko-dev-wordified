@@ -138,6 +138,13 @@ nsHttpConnectionInfo
 .
 h
 "
+#
+include
+"
+nsNetCID
+.
+h
+"
 namespace
 mozilla
 {

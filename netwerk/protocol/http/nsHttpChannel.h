@@ -121,13 +121,6 @@ nsHttpChannel_h__
 #
 include
 "
-DelayHttpChannelQueue
-.
-h
-"
-#
-include
-"
 HttpBaseChannel
 .
 h
