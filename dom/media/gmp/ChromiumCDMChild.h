@@ -412,8 +412,7 @@ QueryOutputProtectionStatus
 (
 )
 override
-{
-}
+;
 void
 OnDeferredInitializationDone
 (
