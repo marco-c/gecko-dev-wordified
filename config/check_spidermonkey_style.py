@@ -1366,6 +1366,19 @@ h
 VTune
         
 "
+wasm
+/
+WasmIntrinsicGenerated
+.
+h
+"
+#
+generated
+in
+OBJDIR
+"
+        
+"
 zydis
 /
 ZydisAPI
