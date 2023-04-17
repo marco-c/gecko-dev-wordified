@@ -2370,7 +2370,7 @@ isEnabled
 )
 {
 }
-getValue
+getVariable
 (
 )
 {

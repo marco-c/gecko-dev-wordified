@@ -664,7 +664,7 @@ NimbusFeatures
 .
 newtab
 "
-getValue
+getAllVariables
 "
 )
 .
@@ -786,7 +786,7 @@ NimbusFeatures
 .
 newtab
 "
-getValue
+getAllVariables
 "
 )
 .
@@ -1370,7 +1370,7 @@ NimbusFeatures
 .
 newtab
 "
-getValue
+getAllVariables
 "
 )
 .
