@@ -764,6 +764,9 @@ mod
 picture
 ;
 mod
+picture_graph
+;
+mod
 prepare
 ;
 mod
