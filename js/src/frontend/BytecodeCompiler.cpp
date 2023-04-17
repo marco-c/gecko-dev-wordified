@@ -2450,7 +2450,9 @@ input
 .
 options
 .
-hideScriptFromDebugger
+hideFromNewScriptInitial
+(
+)
 )
 {
 DebugAPI
@@ -7511,7 +7513,9 @@ if
 !
 options
 .
-hideScriptFromDebugger
+hideFromNewScriptInitial
+(
+)
 )
 {
 DebugAPI

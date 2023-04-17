@@ -111,6 +111,9 @@ element
 {
 }
 ;
+var
+job
+=
 offThreadCompileScript
 (
 "
@@ -118,9 +121,6 @@ Error
 (
 )
 "
-{
-element
-}
 )
 ;
 /
@@ -131,6 +131,10 @@ t
 crash
 runOffThreadScript
 (
+job
+{
+element
+}
 )
 ;
 var
@@ -149,6 +153,8 @@ elementAttributeName
 +
 elementAttributeName
 ;
+job
+=
 offThreadCompileScript
 (
 "
@@ -156,9 +162,6 @@ Error
 (
 )
 "
-{
-elementAttributeName
-}
 )
 ;
 /
@@ -169,5 +172,9 @@ t
 crash
 runOffThreadScript
 (
+job
+{
+elementAttributeName
+}
 )
 ;
