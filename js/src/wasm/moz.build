@@ -211,6 +211,11 @@ WasmDebug
 cpp
 "
 "
+WasmException
+.
+cpp
+"
+"
 WasmFrame
 .
 cpp
