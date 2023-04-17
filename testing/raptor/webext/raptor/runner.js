@@ -904,7 +904,9 @@ extra_options
 =
 [
 "
-gecko_profile
+gecko
+-
+profile
 "
 ]
 ;
