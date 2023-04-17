@@ -22967,6 +22967,13 @@ const
 CookieJarSettingsArgs
 &
 aCookieJarSettingsArgs
+const
+MaybeDiscarded
+<
+WindowContext
+>
+&
+aSourceWindowContext
 )
 {
 PresShell
@@ -23084,6 +23091,11 @@ aDragRect
 aPrincipal
 aCsp
 cookieJarSettings
+aSourceWindowContext
+.
+GetMaybeDiscarded
+(
+)
 )
 ;
 if

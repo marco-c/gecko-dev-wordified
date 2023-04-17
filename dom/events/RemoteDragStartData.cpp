@@ -197,6 +197,9 @@ aCsp
 nsICookieJarSettings
 *
 aCookieJarSettings
+WindowContext
+*
+aSourceWindowContext
 )
 :
 mBrowserParent
@@ -228,6 +231,10 @@ aCsp
 mCookieJarSettings
 (
 aCookieJarSettings
+)
+mSourceWindowContext
+(
+aSourceWindowContext
 )
 {
 }

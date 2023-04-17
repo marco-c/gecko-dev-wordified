@@ -3831,6 +3831,13 @@ const
 CookieJarSettingsArgs
 &
 aCookieJarSettingsArgs
+const
+MaybeDiscarded
+<
+WindowContext
+>
+&
+aSourceWindowContext
 )
 ;
 void

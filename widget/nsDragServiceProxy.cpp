@@ -383,6 +383,15 @@ GetCsp
 (
 )
 ;
+mSourceWindowContext
+=
+mSourceDocument
+-
+>
+GetWindowContext
+(
+)
+;
 }
 nsCOMPtr
 <
@@ -610,6 +619,7 @@ dragRect
 principal
 csp
 csArgs
+mSourceWindowContext
 )
 ;
 StartDragSession
@@ -650,6 +660,7 @@ dragRect
 principal
 csp
 csArgs
+mSourceWindowContext
 )
 ;
 StartDragSession

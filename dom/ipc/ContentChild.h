@@ -2550,6 +2550,13 @@ ipc
 IPCResult
 RecvInvokeDragSession
 (
+const
+MaybeDiscarded
+<
+WindowContext
+>
+&
+aSourceWindowContext
 nsTArray
 <
 IPCDataTransfer
