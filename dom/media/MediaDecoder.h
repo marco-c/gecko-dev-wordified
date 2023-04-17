@@ -3313,7 +3313,7 @@ RefPtr
 VideoFrameContainer
 >
 &
-aSecondaryContainer
+aSecondaryVideoContainer
 )
 ;
 void
