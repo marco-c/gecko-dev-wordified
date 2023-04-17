@@ -34610,7 +34610,7 @@ LHomeObjectSuperBase
 public
 LInstructionHelper
 <
-1
+BOX_PIECES
 1
 0
 >
