@@ -283,13 +283,6 @@ args
 ;
 if
 (
-PromptUtils
-.
-protonModals
-)
-{
-if
-(
 promptPrincipal
 )
 {
@@ -555,7 +548,6 @@ end
 "
 )
 ;
-}
 /
 /
 Fade
