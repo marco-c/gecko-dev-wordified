@@ -435,6 +435,12 @@ tbody
 childList
 :
 true
+attributes
+:
+true
+subtree
+:
+true
 }
 )
 ;
@@ -473,6 +479,7 @@ refresh
 "
 )
 ;
+await
 content
 .
 Control
