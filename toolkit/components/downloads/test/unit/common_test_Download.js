@@ -5035,7 +5035,7 @@ txt
 let
 deferRequestReceived
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -5915,7 +5915,7 @@ response
 let
 deferCancel
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -7236,7 +7236,7 @@ reached
 let
 deferMidway
 =
-Promise
+PromiseUtils
 .
 defer
 (

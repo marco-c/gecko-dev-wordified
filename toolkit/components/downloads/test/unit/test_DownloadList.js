@@ -1981,7 +1981,7 @@ txt
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -2293,7 +2293,7 @@ downloadTwo
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -2488,7 +2488,7 @@ downloadFour
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
