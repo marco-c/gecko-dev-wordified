@@ -3229,6 +3229,11 @@ config
 .
 max_depth_ids
 dirty_rects_are_valid
+scene
+.
+config
+.
+low_quality_pinch_zoom
 )
 ;
 self
