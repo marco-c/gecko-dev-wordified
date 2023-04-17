@@ -472,9 +472,7 @@ change
 onItemMoved
 (
 aItemId
-aOldParent
 aOldIndex
-aNewParent
 aNewIndex
 aItemType
 aGuid

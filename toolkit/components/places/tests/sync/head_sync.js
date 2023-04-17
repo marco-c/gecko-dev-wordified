@@ -2192,9 +2192,7 @@ params
 onItemMoved
 (
 itemId
-oldParentId
 oldIndex
-newParentId
 newIndex
 type
 guid
@@ -2220,9 +2218,7 @@ params
 :
 {
 itemId
-oldParentId
 oldIndex
-newParentId
 newIndex
 type
 guid

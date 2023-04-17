@@ -532,9 +532,7 @@ onItemMoved
 "
 (
 id
-oldParentId
 oldIndex
-newParentId
 newIndex
 itemType
 guid
