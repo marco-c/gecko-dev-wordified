@@ -1490,6 +1490,14 @@ POINT
 mImageFlags
 /
 *
+aOpacity
+*
+/
+1
+.
+0
+/
+*
 aUseOptimalFillOp
 *
 /
