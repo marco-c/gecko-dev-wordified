@@ -442,7 +442,7 @@ tab0MuteAudioBtn
 =
 tab0
 .
-soundPlayingIcon
+overlayIcon
 ;
 await
 test_mute_tab
@@ -800,7 +800,7 @@ tab1MuteAudioBtn
 =
 tab1
 .
-soundPlayingIcon
+overlayIcon
 ;
 await
 test_mute_tab
@@ -1304,7 +1304,7 @@ tab3MuteAudioBtn
 =
 tab3
 .
-soundPlayingIcon
+overlayIcon
 ;
 await
 test_mute_tab
@@ -2336,7 +2336,7 @@ tab2MuteAudioBtn
 =
 tab2
 .
-soundPlayingIcon
+overlayIcon
 ;
 await
 test_mute_tab

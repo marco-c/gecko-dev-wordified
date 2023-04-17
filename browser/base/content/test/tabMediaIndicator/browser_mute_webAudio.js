@@ -353,7 +353,7 @@ clickIcon
 (
 tab
 .
-soundPlayingIcon
+overlayIcon
 )
 ;
 ok
@@ -457,7 +457,7 @@ clickIcon
 (
 tab
 .
-soundPlayingIcon
+overlayIcon
 )
 ;
 ok

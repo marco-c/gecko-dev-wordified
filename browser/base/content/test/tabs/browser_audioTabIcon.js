@@ -997,7 +997,7 @@ overlayIcon
 :
 tab
 .
-soundPlayingIcon
+overlayIcon
 ;
 let
 isActiveTab
@@ -2059,7 +2059,7 @@ test_tooltip
 (
 newTab
 .
-soundPlayingIcon
+overlayIcon
 "
 Unmute
 tab
@@ -2435,7 +2435,7 @@ test_tooltip
 (
 newTab
 .
-soundPlayingIcon
+overlayIcon
 "
 Unmute
 tab
@@ -2477,7 +2477,7 @@ test_mute_tab
 tab
 tab
 .
-soundPlayingIcon
+overlayIcon
 true
 )
 ;
