@@ -321,7 +321,6 @@ toolchain
 BROWSER_PACKAGES
 =
 [
-        
 "
 mingw
 -
@@ -331,7 +330,6 @@ x86_64
 -
 nasm
 "
-        
 "
 mingw
 -
@@ -341,7 +339,6 @@ i686
 -
 nsis
 "
-    
 ]
     
 MOBILE_ANDROID_COMMON_PACKAGES
@@ -568,6 +565,35 @@ install_mobile_android_packages
 (
 self
 mozconfig_builder
+)
+:
+        
+raise
+NotImplementedError
+(
+            
+"
+We
+do
+not
+support
+building
+Android
+on
+Windows
+.
+Sorry
+!
+"
+        
+)
+    
+def
+ensure_mobile_android_packages
+(
+self
+state_dir
+checkout_root
 )
 :
         
