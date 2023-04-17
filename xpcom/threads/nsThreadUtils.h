@@ -2190,9 +2190,6 @@ thread
 -
 -
 -
-#
-ifdef
-MOZILLA_INTERNAL_API
 /
 /
 Fast
@@ -2405,8 +2402,6 @@ char
 aName
 )
 ;
-#
-endif
 /
 /
 -
