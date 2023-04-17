@@ -325,6 +325,15 @@ ProfilerState
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerThreadState
+.
+h
+"
 enum
 class
 IsFastShutdown
