@@ -13536,30 +13536,13 @@ prioEnum
 VSYNC_PRIORITY
 "
     
-elif
-prio
-=
-=
-ipdl
-.
-ast
-.
-MEDIUMHIGH_PRIORITY
-:
-        
-prioEnum
-=
-"
-MEDIUMHIGH_PRIORITY
-"
-    
 else
 :
         
 prioEnum
 =
 "
-CONTROL_PRIORITY
+MEDIUMHIGH_PRIORITY
 "
     
 if
