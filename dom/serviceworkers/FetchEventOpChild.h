@@ -374,8 +374,6 @@ aArgs
 void
 ResetInterception
 (
-bool
-aBypass
 )
 ;
 void

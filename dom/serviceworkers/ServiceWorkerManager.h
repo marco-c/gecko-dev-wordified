@@ -1532,14 +1532,6 @@ ServiceWorkerRegistrationInfo
 aRegistrationInfo
 )
 ;
-int32_t
-GetPrincipalQuotaUsageCheckCount
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
 /
 /
 Returns
