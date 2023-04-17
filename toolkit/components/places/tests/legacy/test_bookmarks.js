@@ -385,11 +385,6 @@ _itemChangedOldValue
 oldValue
 ;
 }
-onItemMoved
-(
-)
-{
-}
 QueryInterface
 :
 ChromeUtils

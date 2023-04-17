@@ -311,11 +311,7 @@ to
 make
 xpconnect
 happy
-onItemMoved
-(
-)
-{
-}
+.
 /
 /
 Disabled
