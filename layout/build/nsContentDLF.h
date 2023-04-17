@@ -343,9 +343,8 @@ bool
 IsImageContentType
 (
 const
-char
-*
-aContentType
+nsACString
+&
 )
 ;
 }

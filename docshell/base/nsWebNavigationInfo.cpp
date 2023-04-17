@@ -561,10 +561,6 @@ imgLoader
 SupportImageWithMimeType
 (
 aType
-.
-get
-(
-)
 )
 )
 {
@@ -575,15 +571,12 @@ nsIWebNavigationInfo
 IMAGE
 ;
 }
-else
-{
 return
 nsIWebNavigationInfo
 :
 :
 OTHER
 ;
-}
 }
 return
 nsIWebNavigationInfo
