@@ -6164,6 +6164,11 @@ ExtensionBrowser
 .
 webidl
 "
+"
+ExtensionEventManager
+.
+webidl
+"
 ]
 #
 We
