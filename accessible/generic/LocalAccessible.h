@@ -894,6 +894,7 @@ nsString
 aDescription
 )
 const
+override
 ;
 /
 *

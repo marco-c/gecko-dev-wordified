@@ -289,6 +289,7 @@ nsString
 aDesc
 )
 const
+override
 ;
 /
 *
