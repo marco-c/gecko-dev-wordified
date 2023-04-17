@@ -861,7 +861,7 @@ get
 key
 )
 .
-_closed
+_transportClosed
 ;
 }
 )

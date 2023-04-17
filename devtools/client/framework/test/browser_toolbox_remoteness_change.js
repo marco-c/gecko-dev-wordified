@@ -349,7 +349,7 @@ ok
 (
 client
 .
-_closed
+_transportClosed
 "
 The
 client
