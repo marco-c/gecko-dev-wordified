@@ -216,7 +216,10 @@ move
 (
 aNodeInfo
 )
-NS_FORM_FIELDSET
+FormControlType
+:
+:
+Fieldset
 )
 mElements
 (

@@ -9320,7 +9320,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_SEARCH
+FormControlType
+:
+:
+InputSearch
 )
 {
 aActionHint

@@ -7931,7 +7931,7 @@ this
 ;
 #
 endif
-int32_t
+auto
 type
 =
 aChild
@@ -7959,7 +7959,10 @@ if
 type
 =
 =
-NS_FORM_INPUT_PASSWORD
+FormControlType
+:
+:
+InputPassword
 )
 {
 PostPasswordEvent
@@ -8450,7 +8453,10 @@ if
 type
 =
 =
-NS_FORM_INPUT_RADIO
+FormControlType
+:
+:
+InputRadio
 )
 {
 RefPtr
@@ -8558,7 +8564,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_RADIO
+FormControlType
+:
+:
+InputRadio
 )
 {
 RefPtr

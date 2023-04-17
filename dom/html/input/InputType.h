@@ -364,8 +364,7 @@ Create
 HTMLInputElement
 *
 aInputElement
-uint8_t
-aType
+FormControlType
 void
 *
 aMemory

@@ -18591,11 +18591,14 @@ control
 type
 KeyAppendInt
 (
+int32_t
+(
 control
 -
 >
 ControlType
 (
+)
 )
 aKey
 )

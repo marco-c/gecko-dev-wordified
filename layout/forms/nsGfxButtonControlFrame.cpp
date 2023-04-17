@@ -578,7 +578,7 @@ form
 NS_ERROR_UNEXPECTED
 )
 ;
-int32_t
+auto
 type
 =
 form
@@ -598,7 +598,10 @@ if
 type
 =
 =
-NS_FORM_INPUT_RESET
+FormControlType
+:
+:
+InputReset
 )
 {
 prop
@@ -614,7 +617,10 @@ if
 type
 =
 =
-NS_FORM_INPUT_SUBMIT
+FormControlType
+:
+:
+InputSubmit
 )
 {
 prop

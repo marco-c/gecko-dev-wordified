@@ -304,7 +304,10 @@ move
 (
 aNodeInfo
 )
-NS_FORM_OBJECT
+FormControlType
+:
+:
+Object
 )
 mIsDoneAddingChildren
 (

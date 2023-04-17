@@ -933,7 +933,10 @@ ControlType
 )
 =
 =
-NS_FORM_INPUT_COLOR
+FormControlType
+:
+:
+InputColor
 &
 &
 aNameSpaceID
