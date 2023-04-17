@@ -6300,6 +6300,13 @@ aKey
 )
 )
 {
+mDocument
+-
+>
+SetDidHitCompleteSheetCache
+(
+)
+;
 RecordUseCountersIfNeeded
 (
 mDocument

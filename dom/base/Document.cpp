@@ -9377,6 +9377,10 @@ mSetCompleteAfterDOMContentLoaded
 (
 false
 )
+mDidHitCompleteSheetCache
+(
+false
+)
 mPendingFullscreenRequests
 (
 0
