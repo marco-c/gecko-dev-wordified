@@ -50436,7 +50436,7 @@ nsCOMPtr
 nsIWidget
 >
 rootWidget
-;
+=
 presContext
 -
 >
@@ -50452,10 +50452,6 @@ GetViewManager
 >
 GetRootWidget
 (
-getter_AddRefs
-(
-rootWidget
-)
 )
 ;
 if
