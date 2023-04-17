@@ -401,6 +401,9 @@ const
 DEFAULT_EXPERIMENT_FEATURE_VARIABLES
 =
 {
+merinoEnabled
+:
+false
 quickSuggestEnabled
 :
 false

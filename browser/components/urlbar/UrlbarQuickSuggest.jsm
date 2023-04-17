@@ -698,7 +698,7 @@ icon
 ;
 return
 {
-fullKeyword
+full_keyword
 :
 this
 .
@@ -772,7 +772,7 @@ advertiser
 toLocaleLowerCase
 (
 )
-isSponsored
+is_sponsored
 :
 !
 NONSPONSORED_IAB_CATEGORIES
