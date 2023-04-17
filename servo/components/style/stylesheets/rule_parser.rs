@@ -4165,7 +4165,10 @@ names
 >
 {
 let
+(
 name
+is_anonymous
+)
 =
 match
 names
@@ -4177,11 +4180,18 @@ len
 0
 =
 >
-None
+(
+LayerName
+:
+:
+new_anonymous
+(
+)
+true
+)
 1
 =
 >
-Some
 (
 names
 .
@@ -4196,6 +4206,7 @@ next
 unwrap
 (
 )
+false
 )
 _
 =
@@ -4255,6 +4266,7 @@ CssRuleType
 :
 Layer
 )
+is_anonymous
 }
 source_location
 :
