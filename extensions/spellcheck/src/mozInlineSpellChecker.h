@@ -1578,9 +1578,10 @@ aRange
 )
 ;
 bool
-SpellCheckSelectionIsFull
+IsSpellCheckSelectionFull
 (
 )
+const
 {
 return
 mNumWordsInSpellSelection

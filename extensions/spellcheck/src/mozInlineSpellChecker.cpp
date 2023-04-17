@@ -8368,7 +8368,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 if
 (
-SpellCheckSelectionIsFull
+IsSpellCheckSelectionFull
 (
 )
 )
@@ -9819,7 +9819,7 @@ if
 self
 -
 >
-SpellCheckSelectionIsFull
+IsSpellCheckSelectionFull
 (
 )
 )
@@ -11005,7 +11005,7 @@ NS_OK
 if
 (
 !
-SpellCheckSelectionIsFull
+IsSpellCheckSelectionFull
 (
 )
 )
