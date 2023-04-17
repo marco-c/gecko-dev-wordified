@@ -342,13 +342,6 @@ aBoundingFrame
 const
 override
 ;
-virtual
-nsRect
-ParentRelativeBounds
-(
-)
-override
-;
 /
 /
 HyperLinkAccessible

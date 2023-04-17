@@ -1356,8 +1356,6 @@ nsIntRect
 Bounds
 (
 )
-const
-override
 ;
 nsIntRect
 BoundsInCSSPixels
