@@ -10321,10 +10321,6 @@ pub
 upload_staging_memory
 :
 usize
-pub
-swgl
-:
-usize
 /
 /
 /
