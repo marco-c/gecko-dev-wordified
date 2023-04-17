@@ -293,18 +293,6 @@ self
 assertIn
 (
 "
-acceptInsecureCerts
-"
-self
-.
-caps
-)
-        
-self
-.
-assertIn
-(
-"
 browserName
 "
 self
@@ -353,7 +341,7 @@ self
 assertIn
 (
 "
-proxy
+acceptInsecureCerts
 "
 self
 .
@@ -377,7 +365,7 @@ self
 assertIn
 (
 "
-strictFileInteractability
+timeouts
 "
 self
 .
@@ -389,25 +377,11 @@ self
 assertIn
 (
 "
-timeouts
+strictFileInteractability
 "
 self
 .
 caps
-)
-        
-self
-.
-assertFalse
-(
-self
-.
-caps
-[
-"
-acceptInsecureCerts
-"
-]
 )
         
 self
@@ -494,18 +468,16 @@ os_version
         
 self
 .
-assertEqual
+assertFalse
 (
 self
 .
 caps
 [
 "
-proxy
+acceptInsecureCerts
 "
 ]
-{
-}
 )
         
 if
@@ -557,20 +529,6 @@ setWindowRect
         
 self
 .
-assertTrue
-(
-self
-.
-caps
-[
-"
-strictFileInteractability
-"
-]
-)
-        
-self
-.
 assertDictEqual
 (
             
@@ -600,6 +558,20 @@ script
 30000
 }
         
+)
+        
+self
+.
+assertTrue
+(
+self
+.
+caps
+[
+"
+strictFileInteractability
+"
+]
 )
     
 def
