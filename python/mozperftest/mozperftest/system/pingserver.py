@@ -520,18 +520,6 @@ enabled
 True
             
 "
-toolkit
-.
-telemetry
-.
-ecosystemtelemetry
-.
-enabled
-"
-:
-True
-            
-"
 datareporting
 .
 policy

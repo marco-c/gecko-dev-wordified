@@ -690,13 +690,6 @@ jsm
 "
 pings
 /
-EcosystemTelemetry
-.
-jsm
-"
-"
-pings
-/
 EventPing
 .
 jsm
