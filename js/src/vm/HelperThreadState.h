@@ -1164,6 +1164,13 @@ finishThreads
 )
 ;
 void
+setCpuCount
+(
+size_t
+count
+)
+;
+void
 setExternalTaskCallback
 (
 JS
@@ -1171,6 +1178,8 @@ JS
 :
 HelperThreadTaskCallback
 callback
+size_t
+threadCount
 )
 ;
 [
