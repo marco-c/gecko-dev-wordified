@@ -3594,6 +3594,9 @@ mut
 builder
 .
 prim_store
+builder
+.
+interners
 )
 ;
 BuiltScene
