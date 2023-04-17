@@ -457,8 +457,6 @@ _presets
 =
 None
     
-property
-    
 def
 presets
 (
@@ -717,6 +715,8 @@ user_presets
 self
 .
 presets
+(
+)
 .
 handlers
 [
@@ -735,6 +735,8 @@ list
 self
 .
 presets
+(
+)
 .
 list
 (
@@ -905,6 +907,8 @@ in
 self
 .
 presets
+(
+)
 :
                 
 self
@@ -939,6 +943,8 @@ preset
 self
 .
 presets
+(
+)
 [
 name
 ]
@@ -1546,6 +1552,8 @@ in
 self
 .
 presets
+(
+)
 :
                 
 self
@@ -1578,6 +1586,8 @@ subcommand
 self
 .
 presets
+(
+)
 [
 preset
 ]

@@ -1849,6 +1849,8 @@ topobjdir
 self
 .
 substs
+(
+)
 )
 .
 remove_objdir
@@ -2275,8 +2277,6 @@ gradle
         
 return
 ret
-    
-property
     
 def
 substs
@@ -2876,8 +2876,6 @@ warnings
 "
 "
     
-property
-    
 def
 database_path
 (
@@ -2896,8 +2894,6 @@ warnings
 json
 "
 )
-    
-property
     
 def
 database
@@ -2920,6 +2916,8 @@ path
 self
 .
 database_path
+(
+)
         
 database
 =
@@ -3074,6 +3072,8 @@ database
 self
 .
 database
+(
+)
         
 if
 directory
@@ -3337,6 +3337,8 @@ database
 self
 .
 database
+(
+)
         
 by_name
 =
