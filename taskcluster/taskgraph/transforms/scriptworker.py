@@ -81,12 +81,7 @@ util
 .
 scriptworker
 import
-(
-    
-get_balrog_action_scope
-    
 get_balrog_server_scope
-)
 def
 add_balrog_scopes
 (
@@ -101,37 +96,11 @@ in
 jobs
 :
         
-worker
-=
-job
-[
-"
-worker
-"
-]
-        
 server_scope
 =
 get_balrog_server_scope
 (
 config
-)
-        
-action_scope
-=
-get_balrog_action_scope
-(
-config
-action
-=
-worker
-[
-"
-balrog
--
-action
-"
-]
 )
         
 job
@@ -143,7 +112,6 @@ scopes
 =
 [
 server_scope
-action_scope
 ]
         
 yield
