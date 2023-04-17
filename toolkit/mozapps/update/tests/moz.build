@@ -194,7 +194,6 @@ ini
 "
 ]
 if
-(
 CONFIG
 [
 "
@@ -210,17 +209,9 @@ and
 CONFIG
 [
 "
-MOZ_BACKGROUNDTASKS
-"
-]
-and
-CONFIG
-[
-"
 MOZ_UPDATE_AGENT
 "
 ]
-)
 :
 XPCSHELL_TESTS_MANIFESTS
 +

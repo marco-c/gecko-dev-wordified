@@ -164,14 +164,6 @@ mobile
 /
 android
 "
-            
-"
-tools
-/
-update
--
-programs
-"
         
 )
 :
