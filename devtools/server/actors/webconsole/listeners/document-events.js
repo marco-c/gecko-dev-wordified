@@ -504,14 +504,14 @@ this
 .
 targetActor
 .
-isTopLevel
+isTopLevelTarget
 &
 &
 this
 .
 targetActor
 .
-followWindowGlobalLifecycle
+followWindowGlobalLifeCycle
 )
 )
 ;
