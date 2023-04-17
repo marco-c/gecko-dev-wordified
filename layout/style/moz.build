@@ -793,6 +793,11 @@ CSSRuleList
 h
 "
 "
+CSSScrollTimelineRule
+.
+h
+"
+"
 CSSStyleRule
 .
 h
@@ -988,6 +993,11 @@ cpp
 "
 "
 CSSRuleList
+.
+cpp
+"
+"
+CSSScrollTimelineRule
 .
 cpp
 "

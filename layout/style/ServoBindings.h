@@ -526,6 +526,10 @@ BASIC_RULE_FUNCS
 (
 CounterStyle
 )
+BASIC_RULE_FUNCS
+(
+ScrollTimeline
+)
 #
 undef
 GROUP_RULE_FUNCS

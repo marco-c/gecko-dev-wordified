@@ -719,6 +719,12 @@ StyleCssRuleType
 :
 Viewport
 :
+case
+StyleCssRuleType
+:
+:
+ScrollTimeline
+:
 break
 ;
 }
@@ -968,6 +974,12 @@ StyleCssRuleType
 :
 :
 Viewport
+:
+case
+StyleCssRuleType
+:
+:
+ScrollTimeline
 :
 break
 ;
