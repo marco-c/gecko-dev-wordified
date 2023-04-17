@@ -158,6 +158,9 @@ socket
 rdd
 "
 "
+gmplugin
+"
+"
 gpu
 "
 ]
