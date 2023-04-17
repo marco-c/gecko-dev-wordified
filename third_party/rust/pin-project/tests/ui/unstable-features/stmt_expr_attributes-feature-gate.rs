@@ -18,6 +18,14 @@ the
 same
 time
 .
+#
+!
+[
+allow
+(
+deprecated
+)
+]
 use
 pin_project
 :
