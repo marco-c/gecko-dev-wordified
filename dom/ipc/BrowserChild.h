@@ -3089,10 +3089,6 @@ ipc
 IPCResult
 RecvWillChangeProcess
 (
-WillChangeProcessResolver
-&
-&
-aResolve
 )
 ;
 /
