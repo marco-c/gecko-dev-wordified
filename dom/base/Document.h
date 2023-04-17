@@ -1605,6 +1605,16 @@ ABOUT_PAGE
 /
 Status
 13
+RESTORING
+=
+1
+<
+<
+14
+/
+/
+Status
+14
 }
 ;
 }
