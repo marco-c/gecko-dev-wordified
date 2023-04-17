@@ -536,7 +536,7 @@ await
 downloadsPanelPromise
 ;
 let
-downloads
+downloadList
 =
 await
 downloadsPromise
@@ -558,7 +558,7 @@ open
 ;
 is
 (
-downloads
+downloadList
 .
 _downloads
 .
@@ -579,7 +579,7 @@ let
 download
 ]
 =
-downloads
+downloadList
 .
 _downloads
 ;
@@ -636,8 +636,6 @@ correct
 "
 )
 ;
-try
-{
 info
 (
 "
@@ -647,6 +645,8 @@ downloads
 "
 )
 ;
+try
+{
 if
 (
 Services
@@ -732,6 +732,21 @@ error
 )
 ;
 }
+await
+downloadList
+.
+remove
+(
+download
+)
+;
+await
+download
+.
+finalize
+(
+)
+;
 }
 )
 ;
