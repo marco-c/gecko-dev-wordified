@@ -719,31 +719,11 @@ capabilities
 caps
 )
     
-try
-:
-        
 _current_session
 .
 start
 (
 )
-    
-except
-webdriver
-.
-error
-.
-SessionNotCreatedException
-:
-        
-if
-not
-_current_session
-.
-session_id
-:
-            
-raise
     
 #
 Enforce
@@ -1021,15 +1001,12 @@ enable_bidi
 True
 )
     
-try
-:
-        
 _current_session
 .
 start
 (
 )
-        
+    
 await
 _current_session
 .
@@ -1038,23 +1015,6 @@ bidi_session
 start
 (
 )
-    
-except
-webdriver
-.
-error
-.
-SessionNotCreatedException
-:
-        
-if
-not
-_current_session
-.
-session_id
-:
-            
-raise
     
 #
 Enforce
