@@ -651,6 +651,11 @@ if
 isFissionEnabled
 (
 )
+|
+|
+isEveryFrameTargetEnabled
+(
+)
 )
 {
 isnot
@@ -660,6 +665,8 @@ iframeThread
 "
 With
 fission
+/
+EFT
 we
 get
 two
@@ -726,6 +733,8 @@ iframeThread
 "
 Without
 fission
+/
+EFT
 we
 get
 a
@@ -775,6 +784,7 @@ next
 line
 "
 )
+;
 await
 stepOver
 (
@@ -845,6 +855,11 @@ breakDebugger
 if
 (
 isFissionEnabled
+(
+)
+|
+|
+isEveryFrameTargetEnabled
 (
 )
 )
@@ -1185,6 +1200,7 @@ jsdebugger
 "
 )
 )
+;
 ok
 (
 true
@@ -1211,6 +1227,8 @@ info
 "
 Without
 fission
+/
+EFT
 the
 iframe
 thread
@@ -1299,6 +1317,7 @@ jsdebugger
 "
 )
 )
+;
 ok
 (
 true

@@ -303,6 +303,11 @@ if
 isFissionEnabled
 (
 )
+|
+|
+isEveryFrameTargetEnabled
+(
+)
 )
 {
 /
@@ -315,7 +320,6 @@ the
 highlighterTestFront
 for
 the
-remote
 frame
 target
 .

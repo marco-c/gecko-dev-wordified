@@ -263,6 +263,8 @@ js
 /
 If
 fission
+or
+EFT
 is
 enabled
 the
@@ -277,6 +279,11 @@ node
 if
 (
 isFissionEnabled
+(
+)
+|
+|
+isEveryFrameTargetEnabled
 (
 )
 )
@@ -294,9 +301,10 @@ sourceview
 root
 nodes
 when
-fission
-is
-on
+iframe
+has
+dedicated
+target
 "
 )
 ;
