@@ -1708,10 +1708,12 @@ aOther
 /
 *
 Returns
-whether
+true
+if
 the
 buffer
 is
+not
 empty
 .
 *
