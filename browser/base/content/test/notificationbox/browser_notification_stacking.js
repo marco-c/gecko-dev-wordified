@@ -72,11 +72,10 @@ box
 .
 appendNotification
 (
-value
-{
 label
+value
+null
 priority
-}
 )
 ;
 await

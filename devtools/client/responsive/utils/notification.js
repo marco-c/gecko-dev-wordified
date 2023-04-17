@@ -343,13 +343,12 @@ nbox
 .
 appendNotification
 (
-value
-{
-label
-:
 msg
+value
+null
 priority
-}
+[
+]
 )
 ;
 }

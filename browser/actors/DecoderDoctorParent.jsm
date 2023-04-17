@@ -1742,13 +1742,8 @@ box
 .
 appendNotification
 (
-notificationId
-{
-label
-:
 title
-image
-:
+notificationId
 "
 "
 /
@@ -1762,12 +1757,9 @@ as
 specified
 below
 .
-priority
-:
 box
 .
 PRIORITY_INFO_LOW
-}
 buttons
 )
 ;
