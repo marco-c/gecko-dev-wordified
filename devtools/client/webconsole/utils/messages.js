@@ -3081,6 +3081,9 @@ ConsoleMessage
 (
 {
 id
+allowRepeating
+:
+false
 level
 :
 MESSAGE_LEVEL
