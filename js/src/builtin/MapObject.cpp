@@ -138,6 +138,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 js
 /
 PropertyAndElement
@@ -8196,7 +8205,7 @@ methods
 ]
 =
 {
-JS_FN
+JS_INLINABLE_FN
 (
 "
 has
@@ -8204,6 +8213,7 @@ has
 has
 1
 0
+SetHas
 )
 JS_FN
 (

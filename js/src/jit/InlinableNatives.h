@@ -604,6 +604,12 @@ GetFirstDollarIndex
 \
 _
 (
+SetHas
+)
+\
+\
+_
+(
 String
 )
 \
