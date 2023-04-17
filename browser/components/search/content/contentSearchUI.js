@@ -388,7 +388,7 @@ searchPurpose
 ;
 this
 .
-_isPrivateEngine
+_isPrivateWindow
 =
 false
 ;
@@ -4005,11 +4005,11 @@ state
 {
 this
 .
-_isPrivateEngine
+_isPrivateWindow
 =
 state
 .
-isPrivateEngine
+isPrivateWindow
 ;
 }
 this
@@ -4031,7 +4031,7 @@ if
 (
 this
 .
-_isPrivateEngine
+_isPrivateWindow
 )
 {
 currentEngine
@@ -4124,7 +4124,7 @@ if
 (
 this
 .
-_isPrivateEngine
+_isPrivateWindow
 )
 {
 return
@@ -4153,7 +4153,7 @@ if
 !
 this
 .
-_isPrivateEngine
+_isPrivateWindow
 )
 {
 return
