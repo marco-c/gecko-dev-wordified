@@ -342,7 +342,7 @@ Get
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 quotaManager
 "
@@ -355,7 +355,7 @@ null
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mQuotaObject
