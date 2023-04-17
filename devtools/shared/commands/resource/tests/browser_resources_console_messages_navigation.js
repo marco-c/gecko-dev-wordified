@@ -58,7 +58,7 @@ processes
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_COM_SSL
 +
 "
 doc_console
@@ -69,7 +69,7 @@ html
 const
 TEST_IFRAME_URL
 =
-URL_ROOT_NET
+URL_ROOT_ORG_SSL
 +
 "
 doc_console_iframe
@@ -81,13 +81,13 @@ const
 TEST_DOMAIN
 =
 "
-http
+https
 :
 /
 /
 example
 .
-net
+org
 "
 ;
 add_task
@@ -200,7 +200,7 @@ data
 URI
 to
 a
-http
+https
 document
 including
 remote
@@ -410,7 +410,7 @@ data
 URI
 to
 a
-http
+https
 remote
 URL
 "
