@@ -551,7 +551,7 @@ a
 input
 task
 is
-finished
+going
 to
 run
 ;
@@ -618,7 +618,7 @@ should
 process
 .
 void
-DidRunTask
+WillRunTask
 (
 )
 ;
