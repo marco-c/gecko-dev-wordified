@@ -5080,6 +5080,7 @@ if
 reloadNeeded
 )
 {
+await
 this
 .
 reloadBrowser
@@ -6478,6 +6479,16 @@ responsive
 "
 )
 ;
+if
+(
+this
+.
+destroying
+)
+{
+return
+;
+}
 await
 this
 .
