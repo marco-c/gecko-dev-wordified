@@ -801,6 +801,10 @@ enablePrivateClassMethods
 ;
 extern
 bool
+enableErgonomicBrandChecks
+;
+extern
+bool
 enableTopLevelAwait
 ;
 #
