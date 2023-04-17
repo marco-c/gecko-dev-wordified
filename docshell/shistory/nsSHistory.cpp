@@ -4547,6 +4547,14 @@ UpdateRootBrowsingContextState
 if
 (
 mRootBC
+&
+&
+mRootBC
+-
+>
+EverAttached
+(
+)
 )
 {
 bool
