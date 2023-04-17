@@ -80,7 +80,7 @@ underlying
 buffer
 should
 return
-false
+true
 and
 not
 modify
@@ -428,7 +428,7 @@ ta
 0
 desc
 )
-false
+true
 '
 Reflect
 .
@@ -460,7 +460,7 @@ return
 )
 must
 return
-false
+true
 '
 )
 ;
