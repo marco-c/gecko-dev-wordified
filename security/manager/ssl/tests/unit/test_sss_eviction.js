@@ -390,11 +390,6 @@ gSSService
 .
 isSecureURI
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 Services
 .
 io
@@ -489,11 +484,6 @@ gSSService
 .
 processHeader
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 uri
 "
 max

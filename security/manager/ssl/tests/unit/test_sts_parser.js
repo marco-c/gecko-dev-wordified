@@ -196,11 +196,6 @@ sss
 .
 processHeader
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 dummyUri
 header
 secInfo
@@ -302,11 +297,6 @@ sss
 .
 processHeader
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 dummyUri
 header
 secInfo
