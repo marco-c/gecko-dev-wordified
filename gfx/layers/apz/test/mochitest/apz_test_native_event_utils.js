@@ -5704,9 +5704,6 @@ addEventListener
 eventType
 resolve
 {
-capture
-:
-true
 once
 :
 true
