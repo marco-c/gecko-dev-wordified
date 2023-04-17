@@ -8491,7 +8491,7 @@ countAutoFillNodes
 )
 equalTo
 (
-14
+18
 )
 )
 assertThat
@@ -8590,7 +8590,7 @@ countAutoFillNodes
 )
 equalTo
 (
-14
+18
 )
 )
 assertThat
