@@ -6779,10 +6779,12 @@ MediaDecoder
 :
 SetSecondaryVideoContainer
 (
+const
 RefPtr
 <
 VideoFrameContainer
 >
+&
 aSecondaryVideoContainer
 )
 {
