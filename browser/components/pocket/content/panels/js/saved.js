@@ -3783,9 +3783,8 @@ h2
 )
 .
 textContent
-(
+=
 headline
-)
 ;
 document
 .
@@ -3799,9 +3798,8 @@ h3
 )
 .
 textContent
-(
+=
 detail
-)
 ;
 document
 .
