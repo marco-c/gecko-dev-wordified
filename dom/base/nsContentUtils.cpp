@@ -13139,7 +13139,13 @@ xpc
 :
 WindowGlobalOrNull
 (
+js
+:
+:
+UncheckedUnwrap
+(
 aObject
+)
 )
 ;
 if
