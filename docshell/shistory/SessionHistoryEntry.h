@@ -1228,7 +1228,7 @@ false
 /
 mOffset
 and
-mLoadingCurrentEntry
+mLoadingCurrentActiveEntry
 are
 relevant
 only
@@ -1254,6 +1254,7 @@ loading
 from
 the
 current
+active
 entry
 we
 want
@@ -1262,9 +1263,9 @@ treat
 it
 as
 not
+/
+/
 a
-/
-/
 same
 -
 document
@@ -1278,7 +1279,7 @@ IsSameDocumentNavigation
 )
 .
 bool
-mLoadingCurrentEntry
+mLoadingCurrentActiveEntry
 =
 false
 ;
