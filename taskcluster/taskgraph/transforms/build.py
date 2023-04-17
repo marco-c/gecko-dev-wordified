@@ -291,7 +291,7 @@ tree
 "
 :
 "
-debian10
+debian11
 -
 amd64
 -
