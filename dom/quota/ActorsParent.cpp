@@ -10409,6 +10409,8 @@ url
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 MozURL
 :
 :
@@ -10419,6 +10421,7 @@ getter_AddRefs
 url
 )
 originNoSuffix
+)
 )
 QM_PROPAGATE
 [
@@ -23835,6 +23838,8 @@ nsresult
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 (
 [
 this
@@ -23890,6 +23895,7 @@ innerFunc
 ;
 }
 (
+)
 )
 )
 OK_IN_NIGHTLY_PROPAGATE_IN_OTHERS
@@ -31715,11 +31721,14 @@ kHackyPostDowngradeStorageVersion
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 aConnection
 .
 SetSchemaVersion
 (
 storageVersion
+)
 )
 QM_PROPAGATE
 [
@@ -42401,8 +42410,11 @@ else
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryOpen
 (
+)
 )
 QM_VOID
 [
@@ -42513,8 +42525,11 @@ aLock
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DirectoryOpen
 (
+)
 )
 QM_VOID
 [

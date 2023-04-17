@@ -1128,11 +1128,14 @@ principalInfo
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 PrincipalToPrincipalInfo
 (
 aPrincipal
 &
 principalInfo
+)
 )
 nullptr
 [

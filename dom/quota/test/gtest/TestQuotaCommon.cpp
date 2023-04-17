@@ -656,7 +656,10 @@ nsresult
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 NS_OK
+)
 QM_PROPAGATE
 [
 &
@@ -882,7 +885,10 @@ nsresult
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 NS_ERROR_FAILURE
+)
 QM_PROPAGATE
 [
 &
@@ -972,7 +978,10 @@ void
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 NS_ERROR_FAILURE
+)
 QM_VOID
 (
 [

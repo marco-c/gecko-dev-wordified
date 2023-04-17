@@ -1454,12 +1454,15 @@ resolve
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 BodyDeleteFiles
 (
 aQuotaInfo
 *
 dbDir
 mDeletedBodyIdList
+)
 )
 QM_VOID
 resolve
@@ -7638,6 +7641,8 @@ ref
 }
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 MaybeUpdatePaddingFile
 (
 aDBDir
@@ -7667,6 +7672,7 @@ Commit
 )
 ;
 }
+)
 )
 QM_PROPAGATE
 [

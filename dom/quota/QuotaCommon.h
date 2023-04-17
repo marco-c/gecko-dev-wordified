@@ -3514,12 +3514,6 @@ cleanup
 auto
 tryResult
 =
-:
-:
-mozilla
-:
-:
-ToResult
 (
 expr
 )

@@ -668,6 +668,8 @@ principal
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 obsSvc
 -
 >
@@ -683,6 +685,7 @@ this
 )
 kPermissionPromptTopic
 nullptr
+)
 )
 QM_PROPAGATE
 [
