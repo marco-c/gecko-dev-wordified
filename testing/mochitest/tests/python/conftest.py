@@ -299,6 +299,32 @@ flavor
 "
 )
     
+runFailures
+=
+"
+"
+    
+if
+"
+runFailures
+"
+in
+request
+.
+fixturenames
+:
+        
+runFailures
+=
+request
+.
+getfixturevalue
+(
+"
+runFailures
+"
+)
+    
 setup_test_harness
 (
 *
@@ -464,6 +490,12 @@ flavor
 flavor
             
 "
+runFailures
+"
+:
+runFailures
+            
+"
 keep_open
 "
 :
@@ -480,6 +512,33 @@ buf
 }
     
 )
+    
+if
+runFailures
+=
+=
+"
+selftest
+"
+:
+        
+options
+[
+"
+crashAsPass
+"
+]
+=
+True
+        
+options
+[
+"
+timeoutAsPass
+"
+]
+=
+True
     
 if
 not
@@ -661,6 +720,14 @@ manifest_relpath
 "
 :
 manifest_name
+            
+"
+skip
+-
+if
+"
+:
+runFailures
         
 }
     

@@ -2727,7 +2727,7 @@ num_failed
 ;
 test
 .
-todo
+result
 =
 true
 ;
