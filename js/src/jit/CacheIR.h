@@ -3283,6 +3283,7 @@ MappedArguments
 UnmappedArguments
 WindowProxy
 JSFunction
+Set
 }
 ;
 /
@@ -10569,6 +10570,13 @@ callee
 ;
 AttachDecision
 tryAttachBigIntAsUintN
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
+tryAttachSetHas
 (
 HandleFunction
 callee
