@@ -1250,10 +1250,6 @@ ObjectFlag
 :
 :
 FrozenElements
-JSObject
-:
-:
-GENERATE_SHAPE
 )
 )
 {

@@ -1267,13 +1267,6 @@ offsetOfShape
 )
 ;
 }
-enum
-GenerateShape
-{
-GENERATE_NONE
-GENERATE_SHAPE
-}
-;
 static
 bool
 setFlag
@@ -1291,10 +1284,6 @@ js
 :
 ObjectFlag
 flag
-GenerateShape
-generateShape
-=
-GENERATE_NONE
 )
 ;
 bool
@@ -1528,7 +1517,6 @@ ObjectFlag
 :
 :
 IsUsedAsPrototype
-GENERATE_SHAPE
 )
 ;
 }
@@ -1986,7 +1974,6 @@ ObjectFlag
 :
 :
 UncacheableProto
-GENERATE_SHAPE
 )
 ;
 }
