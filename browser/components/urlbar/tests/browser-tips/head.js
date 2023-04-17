@@ -4606,12 +4606,6 @@ clearAll
 (
 )
 ;
-sss
-.
-clearPreloads
-(
-)
-;
 }
 function
 resetSearchTipsProvider
