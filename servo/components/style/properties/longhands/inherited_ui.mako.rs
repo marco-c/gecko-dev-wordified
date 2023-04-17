@@ -830,6 +830,11 @@ discrete
 has_effect_on_gecko_scrollbars
 =
 False
+enabled_in
+=
+"
+chrome
+"
 )
 }
 {
