@@ -359,12 +359,6 @@ mFormat
 ;
 }
 void
-GuaranteePersistance
-(
-)
-override
-;
-void
 SizeOfExcludingThis
 (
 MallocSizeOf

@@ -753,7 +753,6 @@ it
 bool
 cacheable
 =
-(
 aDrawTarget
 -
 >
@@ -771,16 +770,6 @@ GetPlatform
 -
 >
 GetDefaultContentBackend
-(
-)
-)
-&
-&
-!
-aDrawTarget
--
->
-IsCaptureDT
 (
 )
 ;

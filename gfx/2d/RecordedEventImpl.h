@@ -9432,7 +9432,7 @@ NONE
 BackendType
 :
 :
-CAPTURE
+WEBRENDER_TEXT
 )
 ;
 ReadElement
