@@ -2183,6 +2183,13 @@ Document
 ColorID
 )
 ;
+static
+UseStandins
+ShouldAlwaysUseStandinsForColorInContent
+(
+ColorID
+)
+;
 /
 /
 Returns
