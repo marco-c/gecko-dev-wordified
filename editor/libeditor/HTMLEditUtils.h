@@ -4635,13 +4635,6 @@ WalkTreeOption
 :
 IgnoreNonEditableNode
 }
-EditorBase
-:
-:
-EditorType
-:
-:
-HTML
 &
 aRootElement
 )

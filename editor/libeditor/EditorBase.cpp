@@ -18110,8 +18110,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -18163,7 +18161,6 @@ WalkTreeDirection
 :
 Backward
 aOptions
-aEditorType
 aAncestorLimiter
 )
 ;
@@ -18186,8 +18183,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -18359,7 +18354,6 @@ GetContainer
 (
 )
 aOptions
-aEditorType
 aAncestorLimiter
 )
 ;
@@ -18397,7 +18391,6 @@ GetChild
 (
 )
 aOptions
-aEditorType
 aAncestorLimiter
 )
 ;
@@ -18501,7 +18494,10 @@ IsEditableContent
 (
 *
 lastLeafContent
-aEditorType
+EditorType
+:
+:
+HTML
 )
 )
 &
@@ -18557,7 +18553,6 @@ GetPreviousContent
 *
 lastLeafContent
 aOptions
-aEditorType
 aAncestorLimiter
 )
 ;
@@ -18580,8 +18575,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -18633,7 +18626,6 @@ WalkTreeDirection
 :
 Forward
 aOptions
-aEditorType
 aAncestorLimiter
 )
 ;
@@ -18656,8 +18648,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -18948,7 +18938,10 @@ IsEditableContent
 (
 *
 firstLeafContent
-aEditorType
+EditorType
+:
+:
+HTML
 )
 )
 &
@@ -19004,7 +18997,6 @@ GetNextContent
 *
 firstLeafContent
 aOptions
-aEditorType
 aAncestorLimiter
 )
 ;
@@ -19097,7 +19089,6 @@ GetContainer
 (
 )
 aOptions
-aEditorType
 aAncestorLimiter
 )
 ;
@@ -19455,8 +19446,6 @@ const
 WalkTreeOptions
 &
 aOptions
-EditorType
-aEditorType
 const
 Element
 *
@@ -19563,7 +19552,10 @@ IsEditableContent
 (
 *
 leafContent
-aEditorType
+EditorType
+:
+:
+HTML
 )
 )
 &
@@ -19606,7 +19598,6 @@ GetAdjacentContent
 leafContent
 aWalkTreeDirection
 aOptions
-aEditorType
 aAncestorLimiter
 )
 ;
@@ -22516,10 +22507,6 @@ WalkTreeOption
 :
 IgnoreNonEditableNode
 }
-EditorType
-:
-:
-HTML
 GetEditorRoot
 (
 )
@@ -22837,10 +22824,6 @@ WalkTreeOption
 :
 IgnoreNonEditableNode
 }
-EditorType
-:
-:
-HTML
 GetEditorRoot
 (
 )
@@ -23236,10 +23219,6 @@ WalkTreeOption
 :
 IgnoreNonEditableNode
 }
-EditorType
-:
-:
-HTML
 GetEditorRoot
 (
 )
@@ -23257,10 +23236,6 @@ WalkTreeOption
 :
 IgnoreNonEditableNode
 }
-EditorType
-:
-:
-HTML
 GetEditorRoot
 (
 )
@@ -23350,10 +23325,6 @@ WalkTreeOption
 :
 IgnoreNonEditableNode
 }
-EditorType
-:
-:
-HTML
 GetEditorRoot
 (
 )
@@ -23372,10 +23343,6 @@ WalkTreeOption
 :
 IgnoreNonEditableNode
 }
-EditorType
-:
-:
-HTML
 GetEditorRoot
 (
 )
