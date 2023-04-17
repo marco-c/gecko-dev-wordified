@@ -559,8 +559,6 @@ intl_FormatNumber
 numberFormat
 x
 formatToParts
-*
-unitStyle
 )
 *
 /

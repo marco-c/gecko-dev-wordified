@@ -287,13 +287,6 @@ formatToParts
 *
 /
 false
-/
-*
-unitStyle
-=
-*
-/
-false
 )
 ;
 }
