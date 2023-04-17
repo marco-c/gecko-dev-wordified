@@ -2334,10 +2334,6 @@ submit_ping
 ping_type
 None
 )
-.
-unwrap
-(
-)
 ;
 let
 directory_manager
@@ -2536,10 +2532,6 @@ submit_ping
 &
 ping_type
 None
-)
-.
-unwrap
-(
 )
 ;
 let
@@ -2802,10 +2794,6 @@ submit_ping
 ping_type
 None
 )
-.
-unwrap
-(
-)
 ;
 let
 directory_manager
@@ -3037,10 +3025,6 @@ submit
 &
 glean
 None
-)
-.
-unwrap
-(
 )
 ;
 let

@@ -2603,10 +2603,9 @@ set
 true
 )
 ;
-assert_eq
+assert
 !
 (
-true
 metric
 .
 get

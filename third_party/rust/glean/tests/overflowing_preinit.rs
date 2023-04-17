@@ -571,6 +571,9 @@ into
 uploader
 :
 None
+use_core_mps
+:
+false
 }
 ;
 /

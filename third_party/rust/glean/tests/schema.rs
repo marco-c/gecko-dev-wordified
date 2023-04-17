@@ -329,6 +329,9 @@ into
 uploader
 :
 None
+use_core_mps
+:
+false
 }
 }
 ;
@@ -638,6 +641,9 @@ s
 }
 )
 )
+use_core_mps
+:
+false
 }
 ;
 let
