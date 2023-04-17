@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsWrapperCache
+nsWrapperCacheInlines
 .
 h
 "

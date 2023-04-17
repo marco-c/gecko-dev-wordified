@@ -309,6 +309,13 @@ XP_WIN
 #
 include
 <
+io
+.
+h
+>
+#
+include
+<
 process
 .
 h
@@ -2187,6 +2194,9 @@ gBloatView
 InsertOrUpdate
 (
 aTypeName
+mozilla
+:
+:
 MakeUnique
 <
 BloatEntry
@@ -3320,6 +3330,9 @@ entry
 .
 Insert
 (
+mozilla
+:
+:
 MakeUnique
 <
 SerialNumberRecord

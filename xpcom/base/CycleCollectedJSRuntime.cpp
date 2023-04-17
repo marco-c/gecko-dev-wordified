@@ -1029,6 +1029,13 @@ nsWrapperCache
 h
 "
 #
+include
+"
+prenv
+.
+h
+"
+#
 if
 defined
 (
