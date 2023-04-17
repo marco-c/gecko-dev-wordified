@@ -120,7 +120,7 @@ endif
 #
 include
 <
-Windows
+windows
 .
 h
 >
