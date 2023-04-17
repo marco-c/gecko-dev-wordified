@@ -3597,6 +3597,9 @@ const
 JSClass
 *
 clasp
+AllocSite
+*
+site
 )
 ;
 template

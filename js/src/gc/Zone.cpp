@@ -1183,6 +1183,10 @@ stringStats
 (
 this
 )
+pretenuring
+(
+this
+)
 uniqueIds_
 (
 this
