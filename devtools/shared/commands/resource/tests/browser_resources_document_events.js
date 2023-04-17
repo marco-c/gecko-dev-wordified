@@ -1559,7 +1559,7 @@ events
 await
 wait
 (
-500
+250
 )
 ;
 is
@@ -1808,7 +1808,7 @@ safety
 await
 wait
 (
-1000
+250
 )
 ;
 is
@@ -2010,7 +2010,7 @@ events
 await
 wait
 (
-1000
+250
 )
 ;
 is
@@ -2469,7 +2469,7 @@ safety
 await
 wait
 (
-1000
+250
 )
 ;
 is
@@ -2682,7 +2682,7 @@ events
 await
 wait
 (
-1000
+250
 )
 ;
 is
