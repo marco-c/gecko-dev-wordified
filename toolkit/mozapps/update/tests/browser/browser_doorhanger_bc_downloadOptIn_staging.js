@@ -118,13 +118,6 @@ button
 checkActiveUpdate
 :
 null
-pageURLs
-:
-{
-whatsNew
-:
-gDefaultWhatsNewURL
-}
 }
 {
 notificationId
