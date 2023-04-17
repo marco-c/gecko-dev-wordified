@@ -1284,7 +1284,7 @@ backend
 =
 =
 =
-option
+system_lib_option
 (
 "
 -
@@ -1427,7 +1427,7 @@ backend
 =
 =
 =
-option
+system_lib_option
 (
 "
 -
