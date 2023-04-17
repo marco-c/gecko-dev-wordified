@@ -546,12 +546,6 @@ portal
 login
 -
 success
--
-after
--
-button
--
-pressed
 "
 {
 }
@@ -567,10 +561,8 @@ called
 "
 Called
 after
-button
-press
-and
 login
+event
 "
 )
 ;
@@ -595,12 +587,6 @@ portal
 login
 -
 success
--
-after
--
-button
--
-pressed
 "
 {
 }
