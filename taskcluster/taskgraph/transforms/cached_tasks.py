@@ -330,6 +330,8 @@ values
 :
         
 if
+(
+            
 "
 cached_task
 "
@@ -337,6 +339,21 @@ in
 task
 .
 attributes
+            
+and
+task
+.
+attributes
+[
+"
+cached_task
+"
+]
+is
+not
+False
+        
+)
 :
             
 digests
