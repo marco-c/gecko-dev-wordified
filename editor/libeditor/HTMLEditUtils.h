@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-HTMLEditUtils_h
+mozilla_HTMLEditUtils_h
 #
 define
-HTMLEditUtils_h
+mozilla_HTMLEditUtils_h
 #
 include
 "
@@ -12063,4 +12063,4 @@ endif
 /
 #
 ifndef
-HTMLEditUtils_h
+mozilla_HTMLEditUtils_h
