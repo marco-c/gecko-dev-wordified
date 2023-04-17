@@ -1088,7 +1088,7 @@ of
 token
 defined
 .
-uint8_t
+int8_t
 attrFlags
 =
 aria

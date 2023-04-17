@@ -2198,6 +2198,13 @@ the
 attribute
 characteristics
 *
+-
+1
+if
+none
+found
+.
+*
 (
 see
 above
@@ -2212,7 +2219,7 @@ ATTR_
 )
 *
 /
-uint8_t
+int8_t
 AttrCharacteristicsFor
 (
 nsAtom
