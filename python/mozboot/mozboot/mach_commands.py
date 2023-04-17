@@ -295,6 +295,9 @@ bootstrapper
 .
 bootstrap
 (
+self
+.
+settings
 )
 CommandProvider
 class

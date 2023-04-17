@@ -164,8 +164,12 @@ from
 .
 telemetry
 import
+(
+    
 report_invocation_metrics
+    
 create_telemetry_from_environment
+)
 from
 .
 util
@@ -2346,43 +2350,6 @@ settings_paths
 )
             
 if
-self
-.
-populate_context_handler
-:
-                
-topsrcdir
-=
-self
-.
-populate_context_handler
-(
-"
-topdir
-"
-)
-                
-sentry
-=
-register_sentry
-(
-argv
-self
-.
-settings
-topsrcdir
-)
-            
-else
-:
-                
-sentry
-=
-NoopErrorReporter
-(
-)
-            
-if
 sys
 .
 version_info
@@ -2551,7 +2518,6 @@ self
 _run
 (
 argv
-sentry
 )
         
 except
@@ -2759,17 +2725,48 @@ _run
 (
 self
 argv
-sentry
 )
 :
         
-telemetry
+topsrcdir
 =
-create_telemetry_from_environment
+None
+        
+if
+self
+.
+populate_context_handler
+:
+            
+topsrcdir
+=
+self
+.
+populate_context_handler
 (
+"
+topdir
+"
+)
+            
+sentry
+=
+register_sentry
+(
+argv
 self
 .
 settings
+topsrcdir
+)
+        
+else
+:
+            
+sentry
+=
+NoopErrorReporter
+(
 )
         
 context
@@ -2798,10 +2795,6 @@ log_manager
 commands
 =
 Registrar
-            
-telemetry
-=
-telemetry
         
 )
         
@@ -3074,6 +3067,17 @@ MOZ_AUTOMATION
 None
 )
         
+)
+        
+context
+.
+telemetry
+=
+create_telemetry_from_environment
+(
+self
+.
+settings
 )
         
 handler
