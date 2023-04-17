@@ -8953,6 +8953,7 @@ nsAString
 &
 aValue
 )
+const
 {
 GetEnumAttr
 (
