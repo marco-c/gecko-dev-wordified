@@ -1162,7 +1162,7 @@ typename
 Wrapper
 >
 class
-RootedBase
+RootedOperations
 :
 public
 MutableWrappedPtrOperations
@@ -1181,7 +1181,7 @@ typename
 Wrapper
 >
 class
-HandleBase
+HandleOperations
 :
 public
 WrappedPtrOperations
@@ -1200,7 +1200,7 @@ typename
 Wrapper
 >
 class
-MutableHandleBase
+MutableHandleOperations
 :
 public
 MutableWrappedPtrOperations
@@ -1219,7 +1219,7 @@ typename
 Wrapper
 >
 class
-HeapBase
+HeapOperations
 :
 public
 MutableWrappedPtrOperations
@@ -2477,7 +2477,7 @@ public
 js
 :
 :
-HeapBase
+HeapOperations
 <
 T
 Heap
@@ -3708,7 +3708,7 @@ public
 js
 :
 :
-HeapBase
+HeapOperations
 <
 T
 TenuredHeap
@@ -4448,7 +4448,7 @@ specific
 specialization
 define
 a
-HandleBase
+HandleOperations
 <
 T
 >
@@ -4471,7 +4471,7 @@ public
 js
 :
 :
-HandleBase
+HandleOperations
 <
 T
 Handle
@@ -5120,7 +5120,7 @@ specific
 specialization
 define
 a
-MutableHandleBase
+MutableHandleOperations
 <
 T
 >
@@ -5144,7 +5144,7 @@ public
 js
 :
 :
-MutableHandleBase
+MutableHandleOperations
 <
 T
 MutableHandle
@@ -7944,7 +7944,7 @@ specific
 specialization
 define
 a
-RootedBase
+RootedOperations
 <
 T
 >
@@ -7967,7 +7967,7 @@ public
 js
 :
 :
-RootedBase
+RootedOperations
 <
 T
 Rooted
@@ -9134,7 +9134,7 @@ typename
 Container
 >
 class
-RootedBase
+RootedOperations
 <
 JSObject
 *
@@ -9269,7 +9269,7 @@ typename
 Container
 >
 class
-HandleBase
+HandleOperations
 <
 JSObject
 *
@@ -10049,7 +10049,7 @@ public
 js
 :
 :
-RootedBase
+RootedOperations
 <
 T
 PersistentRooted

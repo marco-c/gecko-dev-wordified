@@ -12227,7 +12227,7 @@ class
 ReservedRooted
 :
 public
-RootedBase
+RootedOperations
 <
 T
 ReservedRooted
