@@ -186,15 +186,6 @@ WasmOpIter
 .
 h
 "
-#
-include
-"
-jit
-/
-AtomicOp
-.
-h
-"
 using
 namespace
 js

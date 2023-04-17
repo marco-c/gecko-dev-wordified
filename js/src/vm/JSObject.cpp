@@ -310,6 +310,15 @@ h
 #
 include
 "
+jit
+/
+BaselineJIT
+.
+h
+"
+#
+include
+"
 js
 /
 CallAndConstruct
