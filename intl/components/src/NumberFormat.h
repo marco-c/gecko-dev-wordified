@@ -1188,11 +1188,6 @@ Vector
 <
 NumberPart
 8
-*
-sizeof
-(
-NumberPart
-)
 >
 ;
 /
