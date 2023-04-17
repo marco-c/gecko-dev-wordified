@@ -175,9 +175,6 @@ icScript
 ICFallbackStub
 *
 stub
-bool
-*
-attached
 )
 ;
 /

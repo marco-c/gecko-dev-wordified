@@ -3337,8 +3337,6 @@ cacheKind
 script
 icScript
 stub
-&
-attached
 )
 ;
 if
@@ -3346,6 +3344,10 @@ if
 newStub
 )
 {
+attached
+=
+true
+;
 JitSpew
 (
 JitSpew_BaselineIC
@@ -5510,8 +5512,6 @@ script
 )
 icScript
 stub
-&
-attached
 )
 ;
 if
@@ -5519,6 +5519,10 @@ if
 newStub
 )
 {
+attached
+=
+true
+;
 JitSpew
 (
 JitSpew_BaselineIC
@@ -5938,8 +5942,6 @@ script
 )
 icScript
 stub
-&
-attached
 )
 ;
 if
@@ -5947,6 +5949,10 @@ if
 newStub
 )
 {
+attached
+=
+true
+;
 JitSpew
 (
 JitSpew_BaselineIC
@@ -8995,8 +9001,6 @@ script
 )
 icScript
 stub
-&
-attached
 )
 ;
 if
@@ -9004,6 +9008,10 @@ if
 newStub
 )
 {
+attached
+=
+true
+;
 JitSpew
 (
 JitSpew_BaselineIC
@@ -9500,8 +9508,6 @@ script
 )
 icScript
 stub
-&
-attached
 )
 ;
 if
@@ -9509,6 +9515,10 @@ if
 newStub
 )
 {
+attached
+=
+true
+;
 JitSpew
 (
 JitSpew_BaselineIC
@@ -10251,8 +10261,6 @@ cacheKind
 script
 icScript
 stub
-&
-handled
 )
 ;
 if
@@ -10260,6 +10268,10 @@ if
 newStub
 )
 {
+handled
+=
+true
+;
 JitSpew
 (
 JitSpew_BaselineIC
@@ -10942,8 +10954,6 @@ cacheKind
 script
 icScript
 stub
-&
-handled
 )
 ;
 if
@@ -10951,6 +10961,10 @@ if
 newStub
 )
 {
+handled
+=
+true
+;
 JitSpew
 (
 JitSpew_BaselineIC

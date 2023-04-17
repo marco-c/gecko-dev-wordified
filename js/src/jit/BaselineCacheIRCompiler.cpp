@@ -12505,9 +12505,6 @@ icScript
 ICFallbackStub
 *
 stub
-bool
-*
-attached
 )
 {
 /
@@ -12539,13 +12536,6 @@ JS
 :
 AutoCheckCannotGC
 nogc
-;
-MOZ_ASSERT
-(
-!
-*
-attached
-)
 ;
 if
 (
@@ -13310,11 +13300,6 @@ addNewStub
 icEntry
 newStub
 )
-;
-*
-attached
-=
-true
 ;
 return
 newStub
