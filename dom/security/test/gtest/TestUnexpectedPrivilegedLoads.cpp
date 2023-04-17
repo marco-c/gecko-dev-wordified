@@ -754,7 +754,7 @@ _ns
 nsContentPolicyType
 :
 :
-TYPE_STYLESHEET
+TYPE_DOCUMENT
 "
 web
 "
@@ -765,7 +765,7 @@ other
 "
 _ns
 "
-TYPE_STYLESHEET
+TYPE_DOCUMENT
 "
 _ns
 "

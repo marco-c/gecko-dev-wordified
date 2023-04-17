@@ -5743,8 +5743,9 @@ reported
 types
 to
 script
-and
 styles
+and
+documents
 /
 /
 to
@@ -5776,6 +5777,15 @@ ExtContentPolicyType
 :
 :
 TYPE_STYLESHEET
+&
+&
+contentPolicyType
+!
+=
+ExtContentPolicyType
+:
+:
+TYPE_DOCUMENT
 )
 {
 return
