@@ -5144,7 +5144,7 @@ style
 =
 '
 .
-webp
+jpg
 '
 ]
 "
@@ -5377,7 +5377,7 @@ style
 =
 '
 .
-webp
+jpg
 '
 ]
 "
@@ -5499,7 +5499,7 @@ style
 =
 '
 .
-webp
+jpg
 '
 ]
 "
