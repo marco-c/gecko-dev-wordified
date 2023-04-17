@@ -1281,6 +1281,13 @@ aName
 )
 ;
 void
+errListUnclosedStartTags
+(
+int32_t
+aIgnored
+)
+;
+void
 MarkAsBroken
 (
 nsresult
