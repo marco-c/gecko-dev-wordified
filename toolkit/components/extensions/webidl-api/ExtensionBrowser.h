@@ -160,6 +160,9 @@ class
 ExtensionMockAPI
 ;
 class
+ExtensionRuntime
+;
+class
 ExtensionTest
 ;
 bool
@@ -199,6 +202,12 @@ RefPtr
 ExtensionMockAPI
 >
 mExtensionMockAPI
+;
+RefPtr
+<
+ExtensionRuntime
+>
+mExtensionRuntime
 ;
 RefPtr
 <
@@ -268,6 +277,12 @@ GetExtensionAlarms
 ExtensionMockAPI
 *
 GetExtensionMockAPI
+(
+)
+;
+ExtensionRuntime
+*
+GetExtensionRuntime
 (
 )
 ;
