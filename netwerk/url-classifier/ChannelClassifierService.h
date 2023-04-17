@@ -147,7 +147,7 @@ class
 ChannelBlockDecision
 {
 Blocked
-Unblocked
+Replaced
 Allowed
 }
 ;

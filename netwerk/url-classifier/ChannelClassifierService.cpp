@@ -843,7 +843,7 @@ NS_IMETHODIMP
 UrlClassifierBlockedChannel
 :
 :
-Unblock
+Replace
 (
 )
 {
@@ -853,7 +853,7 @@ UC_LOG
 "
 ChannelClassifierService
 :
-unblock
+replace
 channel
 %
 p
@@ -871,7 +871,7 @@ mDecision
 ChannelBlockDecision
 :
 :
-Unblocked
+Replaced
 ;
 return
 NS_OK
