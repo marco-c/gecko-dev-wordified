@@ -237,14 +237,13 @@ dom
 /
 namespace
 mozilla
-typedef
 enum
+XMLContentSinkState
 {
 eXMLContentSinkState_InProlog
 eXMLContentSinkState_InDocumentElement
 eXMLContentSinkState_InEpilog
 }
-XMLContentSinkState
 ;
 class
 nsXMLContentSink
