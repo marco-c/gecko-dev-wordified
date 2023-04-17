@@ -774,7 +774,7 @@ do
 nothing
 and
 return
-FALSE
+false
 .
 Otherwise
 *
@@ -784,7 +784,7 @@ escaped
 notation
 and
 return
-TRUE
+true
 .
 *
 /
@@ -1068,7 +1068,7 @@ pos
 UBool
 advance
 =
-FALSE
+false
 )
 ;
 /

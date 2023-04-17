@@ -1017,7 +1017,7 @@ UTransPosition
 indices
 .
 Return
-TRUE
+true
 if
 the
 transliteration
@@ -1025,7 +1025,7 @@ should
 continue
 *
 or
-FALSE
+false
 if
 it
 should
@@ -1041,7 +1041,7 @@ match
 *
 Note
 that
-FALSE
+false
 is
 only
 ever
@@ -1049,7 +1049,7 @@ returned
 if
 isIncremental
 is
-TRUE
+true
 .
 *
 param
@@ -1073,7 +1073,7 @@ updated
 param
 isIncremental
 if
-TRUE
+true
 assume
 new
 text
@@ -1087,7 +1087,7 @@ index
 limit
 and
 return
-FALSE
+false
 if
 thre
 is
@@ -1097,7 +1097,7 @@ match
 .
 *
 return
-TRUE
+true
 unless
 a
 U_PARTIAL_MATCH

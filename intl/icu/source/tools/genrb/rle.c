@@ -321,6 +321,13 @@ Creation
 /
 #
 include
+<
+stdbool
+.
+h
+>
+#
+include
 "
 rle
 .
@@ -2191,7 +2198,7 @@ length
 UBool
 nextChar
 =
-TRUE
+true
 ;
 uint16_t
 c
@@ -2429,7 +2436,7 @@ c
 ;
 nextChar
 =
-FALSE
+false
 ;
 }
 else
@@ -2447,7 +2454,7 @@ c
 ;
 nextChar
 =
-TRUE
+true
 ;
 }
 /

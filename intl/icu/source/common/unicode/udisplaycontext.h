@@ -1211,8 +1211,15 @@ Returns
 a
 null
 value
+with
+error
+code
+set
+to
+U_ILLEGAL_ARGUMENT_ERROR
 when
 no
+*
 data
 is
 available

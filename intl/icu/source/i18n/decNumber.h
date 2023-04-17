@@ -1380,7 +1380,7 @@ macros
 Conversions
 *
 /
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1391,7 +1391,7 @@ decNumber
 int32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1402,7 +1402,7 @@ decNumber
 uint32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1417,7 +1417,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 char
 *
 U_EXPORT2
@@ -1430,7 +1430,7 @@ char
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 char
 *
 U_EXPORT2
@@ -1443,7 +1443,7 @@ char
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 uint32_t
 U_EXPORT2
 uprv_decNumberToUInt32
@@ -1455,7 +1455,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_decNumberToInt32
@@ -1467,7 +1467,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 uint8_t
 *
 U_EXPORT2
@@ -1480,7 +1480,7 @@ uint8_t
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1502,7 +1502,7 @@ elementary
 functions
 *
 /
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1517,7 +1517,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1535,7 +1535,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1553,7 +1553,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1571,7 +1571,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1589,7 +1589,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1607,7 +1607,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1625,7 +1625,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1643,7 +1643,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1661,7 +1661,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1676,7 +1676,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1697,7 +1697,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1712,7 +1712,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1727,7 +1727,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1742,7 +1742,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1757,7 +1757,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1775,7 +1775,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1793,7 +1793,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1811,7 +1811,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1829,7 +1829,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1844,7 +1844,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1862,7 +1862,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1877,7 +1877,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1895,7 +1895,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1910,7 +1910,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1928,7 +1928,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1946,7 +1946,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1961,7 +1961,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1979,7 +1979,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -1997,7 +1997,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2015,7 +2015,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2033,7 +2033,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2049,7 +2049,7 @@ decNumber
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2067,7 +2067,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2085,7 +2085,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2100,7 +2100,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2118,7 +2118,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2133,7 +2133,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2148,7 +2148,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2182,7 +2182,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -2193,7 +2193,7 @@ enum
 decClass
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2206,7 +2206,7 @@ decNumber
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2219,7 +2219,7 @@ decNumber
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2232,7 +2232,7 @@ decNumber
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2248,7 +2248,7 @@ decNumber
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2263,7 +2263,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2278,7 +2278,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2296,7 +2296,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2306,7 +2306,7 @@ decNumber
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -2316,7 +2316,7 @@ uprv_decNumberVersion
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 decNumber
 *
 U_EXPORT2
@@ -2340,7 +2340,7 @@ context
 )
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_decNumberIsNormal
@@ -2352,7 +2352,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_decNumberIsSubnormal

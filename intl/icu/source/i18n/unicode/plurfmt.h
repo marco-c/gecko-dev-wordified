@@ -5022,13 +5022,6 @@ UErrorCode
 ec
 )
 ;
-/
-*
-*
-<
-internal
-*
-/
 void
 parseType
 (

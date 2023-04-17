@@ -2218,7 +2218,7 @@ UnicodeString
 UnicodeString
 ruleSourceS
 (
-FALSE
+false
 ruleSourceU
 destCap
 )

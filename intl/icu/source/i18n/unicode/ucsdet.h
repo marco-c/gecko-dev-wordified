@@ -265,19 +265,27 @@ include
 "
 unicode
 /
-localpointer
+uenum
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 #
 include
 "
 unicode
 /
-uenum
+localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -595,7 +603,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UCharsetDetector
 *
 U_EXPORT2
@@ -671,7 +679,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucsdet_close
@@ -861,7 +869,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucsdet_setText
@@ -1031,7 +1039,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucsdet_setDeclaredEncoding
@@ -1240,7 +1248,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 const
 UCharsetMatch
 *
@@ -1505,7 +1513,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 const
 UCharsetMatch
 *
@@ -1620,7 +1628,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1831,7 +1839,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucsdet_getConfidence
@@ -2055,7 +2063,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -2249,7 +2257,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucsdet_getUChars
@@ -2514,7 +2522,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -2582,7 +2590,7 @@ check
 .
 *
 return
-TRUE
+true
 if
 filtering
 is
@@ -2596,7 +2604,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucsdet_isInputFilterEnabled
@@ -2693,7 +2701,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucsdet_enableInputFilter
@@ -2793,7 +2801,7 @@ detector
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -2866,7 +2874,7 @@ enabled
 <
 code
 >
-TRUE
+true
 <
 /
 code
@@ -2877,7 +2885,7 @@ or
 <
 code
 >
-FALSE
+false
 <
 /
 code
@@ -2915,7 +2923,7 @@ set
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ucsdet_setDetectableCharset

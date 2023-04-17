@@ -369,7 +369,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -390,7 +390,7 @@ edits
 ;
 }
 return
-TRUE
+true
 ;
 }
 static

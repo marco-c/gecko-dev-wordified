@@ -253,6 +253,9 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -261,6 +264,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -449,7 +457,7 @@ ICU
 50
 *
 /
-U_STABLE
+U_CAPI
 const
 UGenderInfo
 *
@@ -538,7 +546,7 @@ ICU
 50
 *
 /
-U_STABLE
+U_CAPI
 UGender
 U_EXPORT2
 ugender_getListGender

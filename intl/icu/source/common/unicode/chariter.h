@@ -698,7 +698,7 @@ hasNext
 )
 function
 returns
-FALSE
+false
 .
 <
 /
@@ -1325,7 +1325,7 @@ void
 *
 *
 Returns
-FALSE
+false
 if
 there
 are
@@ -1367,7 +1367,7 @@ iteration
 .
 *
 returns
-FALSE
+false
 if
 there
 are
@@ -4208,7 +4208,7 @@ void
 *
 *
 Returns
-FALSE
+false
 if
 there
 are
@@ -4248,7 +4248,7 @@ iteration
 .
 *
 return
-FALSE
+false
 if
 there
 are
@@ -4269,7 +4269,7 @@ the
 iteration
 range
 return
-TRUE
+true
 otherwise
 .
 *

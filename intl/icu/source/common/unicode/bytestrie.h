@@ -731,9 +731,6 @@ return
 this
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -769,7 +766,7 @@ value
 see
 resetToState64
 *
-draft
+stable
 ICU
 65
 *
@@ -890,7 +887,7 @@ resetToState
 see
 reset
 *
-draft
+stable
 ICU
 65
 *
@@ -933,13 +930,6 @@ return
 this
 ;
 }
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *
@@ -1727,7 +1717,7 @@ if
 this
 function
 returns
-TRUE
+true
 .
 *
 (
@@ -1737,7 +1727,7 @@ only
 )
 *
 return
-TRUE
+true
 if
 all
 byte
@@ -1806,7 +1796,7 @@ pos
 remainingMatchLength_
 +
 1
-FALSE
+false
 uniqueValue
 )
 ;
@@ -2234,7 +2224,7 @@ reset
 *
 *
 return
-TRUE
+true
 if
 there
 are
@@ -2375,7 +2365,7 @@ details
 )
 *
 return
-TRUE
+true
 if
 there
 is

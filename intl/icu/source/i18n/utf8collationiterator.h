@@ -493,7 +493,7 @@ forbidSurrogateCodePoints
 (
 )
 returns
-TRUE
+true
 .
 *
 *
@@ -797,7 +797,7 @@ pos
 .
 *
 return
-TRUE
+true
 if
 success
 *
@@ -843,7 +843,7 @@ pos
 .
 *
 return
-TRUE
+true
 if
 success
 *

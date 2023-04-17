@@ -3251,7 +3251,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utmscale_getTimeScaleValue
@@ -3370,7 +3370,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utmscale_fromInt64
@@ -3488,7 +3488,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utmscale_toInt64

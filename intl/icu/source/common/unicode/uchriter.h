@@ -2051,7 +2051,7 @@ void
 *
 *
 Returns
-FALSE
+false
 if
 there
 are
@@ -2093,7 +2093,7 @@ iteration
 .
 *
 return
-FALSE
+false
 if
 there
 are
@@ -2267,7 +2267,7 @@ void
 *
 *
 Returns
-FALSE
+false
 if
 there
 are
@@ -2307,7 +2307,7 @@ iteration
 .
 *
 return
-FALSE
+false
 if
 there
 are

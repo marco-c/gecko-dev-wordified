@@ -1371,7 +1371,7 @@ segs
 *
 param
 anchorStart
-TRUE
+true
 if
 the
 the
@@ -1390,7 +1390,7 @@ start
 *
 param
 anchorEnd
-TRUE
+true
 if
 the
 rule
@@ -2130,7 +2130,7 @@ indices
 param
 incremental
 if
-TRUE
+true
 test
 for
 partial
@@ -2184,7 +2184,7 @@ If
 *
 incremental
 is
-FALSE
+false
 then
 U_PARTIAL_MATCH
 will

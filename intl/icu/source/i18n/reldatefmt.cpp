@@ -7306,7 +7306,7 @@ status
 )
 ;
 }
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ureldatefmt_formatNumericToResult
@@ -7533,7 +7533,7 @@ status
 )
 ;
 }
-U_DRAFT
+U_CAPI
 void
 U_EXPORT2
 ureldatefmt_formatToResult

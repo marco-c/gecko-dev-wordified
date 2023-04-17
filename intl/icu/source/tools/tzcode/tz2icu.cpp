@@ -492,7 +492,7 @@ std
 bool
 ICU44PLUS
 =
-TRUE
+true
 ;
 string
 TZ_RESOURCE_NAME
@@ -11909,7 +11909,7 @@ version
 bool
 validArgs
 =
-FALSE
+false
 ;
 if
 (
@@ -11927,7 +11927,7 @@ argc
 {
 validArgs
 =
-TRUE
+true
 ;
 rootpath
 =
@@ -11979,7 +11979,7 @@ old
 {
 ICU44PLUS
 =
-FALSE
+false
 ;
 TZ_RESOURCE_NAME
 =
@@ -11990,7 +11990,7 @@ else
 {
 validArgs
 =
-FALSE
+false
 ;
 }
 }
@@ -15252,16 +15252,6 @@ localtime
 sec
 )
 ;
-int32_t
-thisYear
-=
-now
--
->
-tm_year
-+
-1900
-;
 string
 filename
 =
@@ -15419,8 +15409,6 @@ org
 copyright
 .
 html
-#
-License
 "
 <
 <

@@ -2901,7 +2901,7 @@ compared
 .
 *
 return
-TRUE
+true
 if
 both
 instances

@@ -522,7 +522,7 @@ normalizeSecondAndAppend
 (
 first
 second
-TRUE
+true
 errorCode
 )
 ;
@@ -550,7 +550,7 @@ normalizeSecondAndAppend
 (
 first
 second
-FALSE
+false
 errorCode
 )
 ;
@@ -803,7 +803,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -841,7 +841,7 @@ decomposition
 .
 setTo
 (
-FALSE
+false
 d
 length
 )
@@ -854,7 +854,7 @@ only
 alias
 }
 return
-TRUE
+true
 ;
 }
 virtual
@@ -901,7 +901,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -936,7 +936,7 @@ decomposition
 .
 setTo
 (
-FALSE
+false
 d
 length
 )
@@ -949,7 +949,7 @@ only
 alias
 }
 return
-TRUE
+true
 ;
 }
 virtual
@@ -1023,7 +1023,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1050,7 +1050,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 const
@@ -1537,7 +1537,7 @@ compose
 src
 limit
 onlyContiguous
-TRUE
+true
 buffer
 errorCode
 )
@@ -1727,7 +1727,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1754,7 +1754,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 UnicodeString
@@ -1787,7 +1787,7 @@ for
 substring
 normalization
 return
-FALSE
+false
 ;
 }
 return
@@ -1804,7 +1804,7 @@ length
 (
 )
 onlyContiguous
-FALSE
+false
 buffer
 errorCode
 )
@@ -1832,7 +1832,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -2335,7 +2335,7 @@ comp
 (
 *
 i
-FALSE
+false
 )
 decomp
 (
@@ -2351,7 +2351,7 @@ fcc
 (
 *
 i
-TRUE
+true
 )
 {
 }

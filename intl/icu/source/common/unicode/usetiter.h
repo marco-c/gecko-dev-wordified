@@ -1425,7 +1425,7 @@ isString
 )
 =
 =
-TRUE
+true
 <
 /
 tt
@@ -1637,7 +1637,7 @@ isString
 )
 =
 =
-TRUE
+true
 <
 /
 tt
@@ -1762,7 +1762,7 @@ isString
 )
 =
 =
-TRUE
+true
 <
 /
 tt

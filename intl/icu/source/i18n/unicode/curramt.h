@@ -417,7 +417,7 @@ isNumeric
 )
 must
 be
-TRUE
+true
 *
 param
 isoCode

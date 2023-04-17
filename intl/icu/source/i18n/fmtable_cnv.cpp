@@ -580,15 +580,6 @@ just
 as
 good
 .
-/
-/
-This
-is
-just
-a
-grandfathered
-API
-.
 Formattable
 :
 :

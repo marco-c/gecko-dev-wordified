@@ -305,6 +305,13 @@ h
 #
 include
 "
+toolutil
+.
+h
+"
+#
+include
+"
 unicode
 /
 udata
@@ -1805,6 +1812,7 @@ static
 void
 storeMappingData
 (
+void
 )
 {
 int32_t

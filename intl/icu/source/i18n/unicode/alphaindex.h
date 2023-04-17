@@ -4018,7 +4018,7 @@ this
 index
 .
 Return
-FALSE
+false
 if
 *
 there
@@ -4068,10 +4068,10 @@ process
 *
 *
 return
-TRUE
+true
 if
 success
-FALSE
+false
 if
 at
 end
@@ -4421,10 +4421,10 @@ process
 .
 *
 return
-TRUE
+true
 if
 successful
-FALSE
+false
 when
 the
 iteration

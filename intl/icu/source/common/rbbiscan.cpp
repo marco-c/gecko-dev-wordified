@@ -6796,11 +6796,6 @@ length
 (
 )
 ;
-bool
-skippingSpaces
-=
-false
-;
 for
 (
 int32_t
@@ -6844,9 +6839,6 @@ UCHAR_PATTERN_WHITE_SPACE
 ;
 if
 (
-skippingSpaces
-&
-&
 whiteSpace
 )
 {
@@ -6859,10 +6851,6 @@ append
 (
 cp
 )
-;
-skippingSpaces
-=
-whiteSpace
 ;
 }
 return

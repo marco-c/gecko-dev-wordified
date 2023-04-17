@@ -329,7 +329,7 @@ and
 =
 0
 flag
-TRUE
+true
 )
 *
 and
@@ -372,7 +372,7 @@ UBool
 codePointOrder
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 ustr_hashUCharsN
@@ -385,7 +385,7 @@ int32_t
 length
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 ustr_hashCharsN
@@ -398,7 +398,7 @@ int32_t
 length
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 ustr_hashICharsN
@@ -455,7 +455,7 @@ character
 .
 *
 /
-U_INTERNAL
+U_CAPI
 UChar
 U_EXPORT2
 u_asciiToUpper
@@ -584,7 +584,7 @@ return
 length
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 u_terminateUChars
@@ -630,7 +630,7 @@ type
 .
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 u_terminateChars
@@ -676,7 +676,7 @@ type
 .
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 u_terminateUChar32s
@@ -722,7 +722,7 @@ type
 .
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 u_terminateWChars
@@ -1078,7 +1078,7 @@ byte
 .
 *
 return
-TRUE
+true
 if
 t
 is

@@ -578,7 +578,7 @@ p
 *
 *
 return
-TRUE
+true
 if
 this
 builder
@@ -613,7 +613,7 @@ modified
 *
 *
 return
-TRUE
+true
 if
 c
 has
@@ -918,7 +918,7 @@ error
 code
 *
 return
-TRUE
+true
 if
 an
 OFFSET_TAG
@@ -1172,7 +1172,7 @@ enableFastLatin
 {
 fastLatinEnabled
 =
-TRUE
+true
 ;
 }
 virtual

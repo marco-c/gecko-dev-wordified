@@ -346,6 +346,13 @@ h
 #
 include
 "
+toolutil
+.
+h
+"
+#
+include
+"
 unicode
 /
 ustring

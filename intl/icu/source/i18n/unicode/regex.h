@@ -781,7 +781,7 @@ this
 .
 *
 return
-TRUE
+true
 if
 the
 objects
@@ -853,7 +853,7 @@ this
 .
 *
 return
-TRUE
+true
 if
 the
 objects
@@ -5644,7 +5644,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 there
 is
@@ -5752,7 +5752,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 there
 is
@@ -5876,7 +5876,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 there
 is
@@ -6014,7 +6014,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 there
 is
@@ -6153,7 +6153,7 @@ string
 .
 *
 return
-TRUE
+true
 if
 a
 match
@@ -6301,7 +6301,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 a
 match
@@ -6386,7 +6386,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 a
 match
@@ -9747,7 +9747,7 @@ boundaries
 *
 *
 return
-TRUE
+true
 if
 this
 matcher
@@ -9903,12 +9903,12 @@ bounds
 *
 param
 b
-TRUE
+true
 for
 transparent
 bounds
 ;
-FALSE
+false
 for
 opaque
 bounds
@@ -9961,7 +9961,7 @@ bounds
 *
 *
 return
-TRUE
+true
 if
 this
 matcher
@@ -10055,14 +10055,14 @@ regions
 *
 param
 b
-TRUE
+true
 if
 to
 enable
 anchoring
 bounds
 ;
-FALSE
+false
 to
 disable
 them
@@ -10093,7 +10093,7 @@ b
 *
 *
 Return
-TRUE
+true
 if
 the
 most
@@ -10150,7 +10150,7 @@ hitEnd
 )
 will
 return
-TRUE
+true
 if
 if
 the
@@ -10172,7 +10172,7 @@ process
 *
 *
 return
-TRUE
+true
 if
 the
 most
@@ -10203,7 +10203,7 @@ const
 *
 *
 Return
-TRUE
+true
 the
 most
 recent
@@ -10262,7 +10262,7 @@ meaning
 *
 *
 return
-TRUE
+true
 if
 more
 input
@@ -13699,7 +13699,7 @@ if
 set
 .
 Return
-TRUE
+true
 if
 operation
 should

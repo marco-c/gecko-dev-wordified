@@ -416,7 +416,7 @@ use
 only
 *
 /
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -463,7 +463,7 @@ use
 only
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_closeLibrary
@@ -523,7 +523,7 @@ use
 only
 *
 /
-U_INTERNAL
+U_CAPI
 char
 *
 U_EXPORT2
@@ -602,7 +602,7 @@ only
 .
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_init
@@ -628,7 +628,7 @@ use
 only
 *
 /
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -659,7 +659,7 @@ only
 .
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *

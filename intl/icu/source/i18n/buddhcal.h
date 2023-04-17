@@ -1310,7 +1310,7 @@ const
 *
 *
 Returns
-TRUE
+true
 because
 the
 Buddhist

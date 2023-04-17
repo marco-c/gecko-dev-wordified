@@ -1455,6 +1455,8 @@ number
 such
 as
 "
+ICU
+-
 12345
 "
 for
@@ -1462,8 +1464,8 @@ ICU
 tickets
 or
 "
-cldrbug
-:
+CLDR
+-
 6636
 "
 for

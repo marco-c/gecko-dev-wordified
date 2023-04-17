@@ -848,7 +848,7 @@ syntax
 .
 *
 return
-TRUE
+true
 if
 U_SUCCESS
 (
@@ -995,7 +995,7 @@ arguments
 .
 *
 return
-TRUE
+true
 if
 U_SUCCESS
 (

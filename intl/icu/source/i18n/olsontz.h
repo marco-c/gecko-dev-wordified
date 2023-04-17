@@ -1582,7 +1582,7 @@ behavior
 this
 method
 returns
-TRUE
+true
 if
 DST
 is
@@ -1719,7 +1719,7 @@ time
 .
 *
 return
-TRUE
+true
 if
 the
 transition
@@ -1796,7 +1796,7 @@ time
 .
 *
 return
-TRUE
+true
 if
 the
 transition

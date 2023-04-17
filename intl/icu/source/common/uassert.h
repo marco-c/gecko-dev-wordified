@@ -430,9 +430,10 @@ U_ASSERT
 (
 exp
 )
-void
 (
+void
 )
+0
 #
 else
 #

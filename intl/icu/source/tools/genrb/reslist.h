@@ -2588,7 +2588,7 @@ poolStringIndex
 ;
 fWritten
 =
-TRUE
+true
 ;
 }
 virtual

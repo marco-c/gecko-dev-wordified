@@ -526,7 +526,7 @@ might
 handle
 *
 return
-TRUE
+true
 if
 this
 engine
@@ -1345,7 +1345,7 @@ might
 handle
 *
 return
-TRUE
+true
 if
 this
 engine

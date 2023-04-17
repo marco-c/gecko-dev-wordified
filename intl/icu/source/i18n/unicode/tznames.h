@@ -1310,7 +1310,7 @@ with
 *
 return
 Return
-TRUE
+true
 if
 the
 given
@@ -1371,7 +1371,7 @@ with
 *
 return
 Return
-TRUE
+true
 if
 the
 given
@@ -3197,7 +3197,7 @@ ID
 .
 *
 return
-TRUE
+true
 if
 the
 zone
@@ -3252,7 +3252,7 @@ metazone
 ID
 *
 return
-TRUE
+true
 if
 the
 meta

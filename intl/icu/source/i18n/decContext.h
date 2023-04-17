@@ -1943,7 +1943,7 @@ decContext
 routines
 *
 /
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2
@@ -1954,7 +1954,7 @@ decContext
 uint32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2
@@ -1965,7 +1965,7 @@ decContext
 int32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 enum
 rounding
 U_EXPORT2
@@ -1975,7 +1975,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 uint32_t
 U_EXPORT2
 uprv_decContextGetStatus
@@ -1984,7 +1984,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2
@@ -1996,7 +1996,7 @@ uint32_t
 uint32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 uint32_t
 U_EXPORT2
 uprv_decContextSaveStatus
@@ -2006,7 +2006,7 @@ decContext
 uint32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2
@@ -2018,7 +2018,7 @@ enum
 rounding
 )
 ;
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2
@@ -2029,7 +2029,7 @@ decContext
 uint32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2
@@ -2042,7 +2042,7 @@ char
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2
@@ -2055,7 +2055,7 @@ char
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2
@@ -2066,7 +2066,7 @@ decContext
 uint32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -2078,7 +2078,7 @@ decContext
 *
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_decContextTestEndian
@@ -2086,7 +2086,7 @@ uprv_decContextTestEndian
 uint8_t
 )
 ;
-U_INTERNAL
+U_CAPI
 uint32_t
 U_EXPORT2
 uprv_decContextTestSavedStatus
@@ -2095,7 +2095,7 @@ uint32_t
 uint32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 uint32_t
 U_EXPORT2
 uprv_decContextTestStatus
@@ -2105,7 +2105,7 @@ decContext
 uint32_t
 )
 ;
-U_INTERNAL
+U_CAPI
 decContext
 *
 U_EXPORT2

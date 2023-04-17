@@ -1394,7 +1394,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_versionFromString
@@ -1493,7 +1493,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_versionFromUString
@@ -1593,7 +1593,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_versionToString
@@ -1677,7 +1677,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_getVersion

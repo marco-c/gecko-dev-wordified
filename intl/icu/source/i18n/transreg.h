@@ -716,7 +716,7 @@ isRuleBased
 (
 )
 returns
-FALSE
+false
 .
 *
 *
@@ -751,7 +751,7 @@ UErrorCode
 *
 *
 Return
-TRUE
+true
 if
 this
 alias
@@ -798,7 +798,7 @@ isRuleBased
 (
 )
 returns
-TRUE
+true
 then
 the
 caller
@@ -842,7 +842,7 @@ isRuleBased
 (
 )
 returns
-TRUE
+true
 .
 *
 *

@@ -693,10 +693,10 @@ iterator
 *
 and
 returns
-TRUE
+true
 otherwise
 returns
-FALSE
+false
 .
 *
 stable

@@ -4898,7 +4898,7 @@ status
 )
 ;
 }
-U_INTERNAL
+U_CAPI
 UFormattable
 *
 U_EXPORT2
@@ -5062,7 +5062,7 @@ return
 result
 ;
 }
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 unum_formatUFormattable

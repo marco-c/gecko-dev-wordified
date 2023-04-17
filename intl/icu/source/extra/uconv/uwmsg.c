@@ -370,6 +370,13 @@ h
 #
 include
 <
+stdbool
+.
+h
+>
+#
+include
+<
 stdlib
 .
 h
@@ -580,7 +587,7 @@ arraySize
 mySource
 mySourceEnd
 NULL
-TRUE
+true
 status
 )
 ;

@@ -4513,7 +4513,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uscript_getCode
@@ -4605,7 +4605,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -4687,7 +4687,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -4748,7 +4748,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UScriptCode
 U_EXPORT2
 uscript_getScript
@@ -4843,7 +4843,7 @@ script
 code
 *
 return
-TRUE
+true
 if
 sc
 is
@@ -4858,7 +4858,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uscript_hasScript
@@ -5181,7 +5181,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uscript_getScriptExtensions
@@ -5418,7 +5418,7 @@ ICU
 51
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uscript_getSampleString
@@ -5562,7 +5562,7 @@ ICU
 51
 *
 /
-U_STABLE
+U_CAPI
 UScriptUsage
 U_EXPORT2
 uscript_getUsage
@@ -5576,7 +5576,7 @@ script
 *
 *
 Returns
-TRUE
+true
 if
 the
 script
@@ -5603,7 +5603,7 @@ script
 code
 *
 return
-TRUE
+true
 if
 the
 script
@@ -5619,7 +5619,7 @@ ICU
 51
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uscript_isRightToLeft
@@ -5633,7 +5633,7 @@ script
 *
 *
 Returns
-TRUE
+true
 if
 the
 script
@@ -5674,7 +5674,7 @@ script
 code
 *
 return
-TRUE
+true
 if
 the
 script
@@ -5689,7 +5689,7 @@ ICU
 51
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uscript_breaksBetweenLetters
@@ -5703,7 +5703,7 @@ script
 *
 *
 Returns
-TRUE
+true
 if
 in
 modern
@@ -5736,7 +5736,7 @@ script
 code
 *
 return
-TRUE
+true
 if
 the
 script
@@ -5748,7 +5748,7 @@ ICU
 51
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uscript_isCased

@@ -1229,12 +1229,12 @@ civil
 (
 default
 -
-TRUE
+true
 )
 or
 religious
 (
-FALSE
+false
 )
 *
 internal
@@ -2458,7 +2458,7 @@ const
 *
 *
 Returns
-TRUE
+true
 because
 the
 Indian

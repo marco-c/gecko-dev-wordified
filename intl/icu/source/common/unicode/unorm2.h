@@ -352,15 +352,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 stringoptions
 .
 h
@@ -374,6 +365,23 @@ uset
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1098,7 +1106,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -1210,7 +1218,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -1322,7 +1330,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -1434,7 +1442,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -1546,7 +1554,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -1797,7 +1805,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 UNormalizer2
 *
@@ -1951,7 +1959,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UNormalizer2
 *
 U_EXPORT2
@@ -2009,7 +2017,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unorm2_close
@@ -2231,7 +2239,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_normalize
@@ -2433,7 +2441,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_normalizeSecondAndAppend
@@ -2633,7 +2641,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_append
@@ -2855,7 +2863,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_getDecomposition
@@ -3154,7 +3162,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_getRawDecomposition
@@ -3306,7 +3314,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 unorm2_composePair
@@ -3372,7 +3380,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 uint8_t
 U_EXPORT2
 unorm2_getCombiningClass
@@ -3527,7 +3535,7 @@ details
 )
 *
 return
-TRUE
+true
 if
 s
 is
@@ -3540,7 +3548,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unorm2_isNormalized
@@ -3713,7 +3721,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UNormalizationCheckResult
 U_EXPORT2
 unorm2_quickCheck
@@ -3982,7 +3990,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm2_spanQuickCheckYes
@@ -4045,7 +4053,7 @@ to
 test
 *
 return
-TRUE
+true
 if
 c
 has
@@ -4062,7 +4070,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unorm2_hasBoundaryBefore
@@ -4118,7 +4126,7 @@ to
 test
 *
 return
-TRUE
+true
 if
 c
 has
@@ -4135,7 +4143,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unorm2_hasBoundaryAfter
@@ -4184,7 +4192,7 @@ to
 test
 *
 return
-TRUE
+true
 if
 c
 is
@@ -4199,7 +4207,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unorm2_isInert
@@ -4692,7 +4700,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unorm_compare

@@ -460,7 +460,7 @@ setAutoPrefix
 {
 doAutoPrefix
 =
-TRUE
+true
 ;
 }
 /
@@ -492,11 +492,11 @@ setAutoPrefixWithType
 {
 doAutoPrefix
 =
-TRUE
+true
 ;
 prefixEndsWithType
 =
-TRUE
+true
 ;
 }
 void
@@ -976,7 +976,7 @@ Check
 dependencies
 and
 return
-TRUE
+true
 if
 all
 dependencies

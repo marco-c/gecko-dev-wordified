@@ -508,7 +508,7 @@ etc
 ?
 *
 return
-TRUE
+true
 if
 strings
 need
@@ -523,7 +523,7 @@ span
 here
 )
 *
-FALSE
+false
 if
 not
 (

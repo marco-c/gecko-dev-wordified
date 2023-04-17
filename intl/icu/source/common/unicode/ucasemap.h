@@ -286,15 +286,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 stringoptions
 .
 h
@@ -308,6 +299,23 @@ ustring
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -633,7 +641,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UCaseMap
 *
 U_EXPORT2
@@ -676,7 +684,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucasemap_close
@@ -783,7 +791,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -835,7 +843,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ucasemap_getOptions
@@ -919,7 +927,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucasemap_setLocale
@@ -1011,7 +1019,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucasemap_setOptions
@@ -1073,7 +1081,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 UBreakIterator
 *
@@ -1238,7 +1246,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucasemap_setBreakIterator
@@ -1703,7 +1711,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_toTitle
@@ -1962,7 +1970,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_utf8ToLower
@@ -2217,7 +2225,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_utf8ToUpper
@@ -2660,7 +2668,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_utf8ToTitle
@@ -2963,7 +2971,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucasemap_utf8FoldCase

@@ -866,7 +866,7 @@ effect
 *
 *
 Return
-FALSE
+false
 if
 the
 operation
@@ -904,7 +904,7 @@ boundary
 .
 *
 Return
-FALSE
+false
 if
 at
 the
@@ -1173,10 +1173,10 @@ boundary
 *
 *
 Return
-TRUE
+true
 if
 successful
-FALSE
+false
 if
 the
 specified

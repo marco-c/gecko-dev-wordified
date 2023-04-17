@@ -857,7 +857,7 @@ const
 *
 *
 Returns
-TRUE
+true
 because
 Coptic
 /

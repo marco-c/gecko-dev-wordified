@@ -2791,7 +2791,7 @@ LONG_SECONDARY_TAG
 *
 *
 return
-TRUE
+true
 if
 the
 ce32

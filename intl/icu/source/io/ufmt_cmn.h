@@ -809,7 +809,7 @@ radix
 .
 *
 return
-TRUE
+true
 if
 <
 TT
@@ -831,7 +831,7 @@ radix
 /
 TT
 >
-FALSE
+false
 otherwise
 .
 *
@@ -918,14 +918,14 @@ radix
 *
 param
 uselower
-TRUE
+true
 means
 lower
 case
 will
 be
 used
-FALSE
+false
 means
 upper
 case

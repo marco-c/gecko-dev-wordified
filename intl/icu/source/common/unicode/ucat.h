@@ -980,7 +980,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 u_nl_catd
 U_EXPORT2
 u_catopen
@@ -1044,7 +1044,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_catclose
@@ -1296,7 +1296,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *

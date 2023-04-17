@@ -446,7 +446,7 @@ in
 addition
 to
 returning
-FALSE
+false
 from
 failing
 operations
@@ -548,7 +548,7 @@ code
 unit
 *
 return
-TRUE
+true
 if
 the
 operation
@@ -604,7 +604,7 @@ point
 0x10ffff
 *
 return
-TRUE
+true
 if
 the
 operation
@@ -674,7 +674,7 @@ NUL
 terminated
 *
 return
-TRUE
+true
 if
 the
 operation
@@ -745,7 +745,7 @@ nothing
 It
 always
 returns
-TRUE
+true
 .
 )
 *
@@ -761,7 +761,7 @@ be
 appended
 *
 return
-TRUE
+true
 if
 the
 operation
@@ -1297,7 +1297,7 @@ code
 unit
 *
 return
-TRUE
+true
 if
 the
 operation
@@ -1341,7 +1341,7 @@ point
 0x10ffff
 *
 return
-TRUE
+true
 if
 the
 operation
@@ -1400,7 +1400,7 @@ NUL
 terminated
 *
 return
-TRUE
+true
 if
 the
 operation
@@ -1457,7 +1457,7 @@ be
 appended
 *
 return
-TRUE
+true
 if
 the
 operation

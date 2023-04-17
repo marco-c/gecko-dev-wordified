@@ -253,6 +253,9 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -261,6 +264,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -523,7 +531,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 UFieldPositionIterator
 *
 U_EXPORT2
@@ -571,7 +579,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ufieldpositer_close
@@ -893,7 +901,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ufieldpositer_next

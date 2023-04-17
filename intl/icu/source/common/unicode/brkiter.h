@@ -4661,7 +4661,7 @@ are
 assigned
 *
 return
-TRUE
+true
 if
 the
 iterator
@@ -5295,7 +5295,7 @@ isBufferClone
 )
 {
 return
-FALSE
+false
 ;
 }
 #

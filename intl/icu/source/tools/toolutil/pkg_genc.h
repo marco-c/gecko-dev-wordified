@@ -469,7 +469,7 @@ defines
 *
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 printAssemblyHeadersToStdErr
@@ -477,7 +477,7 @@ printAssemblyHeadersToStdErr
 void
 )
 ;
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 checkAssemblyHeaderName
@@ -488,7 +488,7 @@ char
 optAssembly
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 writeCCode
@@ -516,7 +516,7 @@ size_t
 outFilePathCapacity
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 writeAssemblyCode
@@ -544,7 +544,7 @@ size_t
 outFilePathCapacity
 )
 ;
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 writeObjectCode

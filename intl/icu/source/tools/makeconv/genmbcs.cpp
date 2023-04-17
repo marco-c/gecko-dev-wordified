@@ -327,6 +327,13 @@ genmbcs
 .
 h
 "
+#
+include
+"
+toolutil
+.
+h
+"
 /
 *
 *

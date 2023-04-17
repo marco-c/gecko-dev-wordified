@@ -2464,7 +2464,7 @@ platforms
 .
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 umtx_lock
@@ -2502,7 +2502,7 @@ mutex
 .
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 umtx_unlock

@@ -1172,7 +1172,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 const
 URegion
 *
@@ -1231,7 +1231,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 const
 URegion
 *
@@ -1284,7 +1284,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1320,7 +1320,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregion_areEqual
@@ -1407,7 +1407,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 const
 URegion
 *
@@ -1520,7 +1520,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 const
 URegion
 *
@@ -1682,7 +1682,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1823,7 +1823,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1867,7 +1867,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregion_contains
@@ -1987,7 +1987,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -2021,7 +2021,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -2068,7 +2068,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregion_getNumericCode
@@ -2097,7 +2097,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 URegionType
 U_EXPORT2
 uregion_getType

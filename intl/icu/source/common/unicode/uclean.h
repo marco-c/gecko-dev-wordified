@@ -504,7 +504,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_init
@@ -979,7 +979,7 @@ ICU
 system
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_cleanup
@@ -1395,7 +1395,7 @@ ICU
 system
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_setMemoryFunctions

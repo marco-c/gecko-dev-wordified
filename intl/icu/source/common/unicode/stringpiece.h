@@ -797,9 +797,6 @@ endif
 /
 /
 U_HIDE_DRAFT_API
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -932,7 +929,7 @@ other
 string
 piece
 *
-draft
+stable
 ICU
 65
 *
@@ -1070,11 +1067,6 @@ size
 )
 {
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1567,7 +1559,7 @@ empty
 .
 *
 return
-TRUE
+true
 if
 the
 string
@@ -2333,7 +2325,7 @@ compare
 .
 *
 return
-TRUE
+true
 if
 the
 string
@@ -2395,7 +2387,7 @@ compare
 .
 *
 return
-TRUE
+true
 if
 the
 string

@@ -4133,7 +4133,7 @@ memory
 .
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 res_read
@@ -4226,7 +4226,7 @@ ResourceData
 pResData
 )
 ;
-U_INTERNAL
+U_CAPI
 UResType
 U_EXPORT2
 res_getPublicType
@@ -4435,7 +4435,7 @@ found
 .
 *
 /
-U_INTERNAL
+U_CAPI
 const
 UChar
 *
@@ -4453,7 +4453,7 @@ int32_t
 pLength
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 uint8_t
 *
@@ -4471,7 +4471,7 @@ int32_t
 pLength
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 int32_t
 *
@@ -4489,7 +4489,7 @@ int32_t
 pLength
 )
 ;
-U_INTERNAL
+U_CAPI
 const
 UChar
 *
@@ -4507,7 +4507,7 @@ int32_t
 pLength
 )
 ;
-U_INTERNAL
+U_CAPI
 Resource
 U_EXPORT2
 res_getResource
@@ -4522,7 +4522,7 @@ char
 key
 )
 ;
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 res_countArrayItems
@@ -4535,7 +4535,7 @@ Resource
 res
 )
 ;
-U_INTERNAL
+U_CAPI
 Resource
 U_EXPORT2
 res_getArrayItem
@@ -4550,7 +4550,7 @@ int32_t
 indexS
 )
 ;
-U_INTERNAL
+U_CAPI
 Resource
 U_EXPORT2
 res_getTableItemByIndex
@@ -4570,7 +4570,7 @@ char
 key
 )
 ;
-U_INTERNAL
+U_CAPI
 Resource
 U_EXPORT2
 res_getTableItemByKey

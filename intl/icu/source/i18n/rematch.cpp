@@ -15748,7 +15748,7 @@ status
 /
 /
 Check
-arguements
+arguments
 for
 validity
 /

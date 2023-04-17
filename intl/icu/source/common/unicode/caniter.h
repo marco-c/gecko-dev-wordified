@@ -286,9 +286,9 @@ zero
 Should
 be
 either
-TRUE
+true
 or
-FALSE
+false
 .
 This
 is
@@ -310,7 +310,7 @@ CANITER_SKIP_ZEROES
 #
 define
 CANITER_SKIP_ZEROES
-TRUE
+true
 #
 endif
 U_NAMESPACE_BEGIN

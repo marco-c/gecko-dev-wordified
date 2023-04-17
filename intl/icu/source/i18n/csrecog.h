@@ -388,7 +388,7 @@ match
 *
 *
 Return
-TRUE
+true
 if
 the
 the
@@ -400,7 +400,7 @@ potential
 match
 and
 *
-FALSE
+false
 if
 the
 input

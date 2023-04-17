@@ -995,7 +995,7 @@ delete
 impl
 ;
 }
-U_DRAFT
+U_CAPI
 const
 UChar
 *
@@ -1096,7 +1096,7 @@ getBuffer
 )
 ;
 }
-U_DRAFT
+U_CAPI
 UBool
 U_EXPORT2
 ufmtval_nextPosition

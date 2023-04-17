@@ -4263,7 +4263,7 @@ the
 enumeration
 by
 returning
-FALSE
+false
 .
 *
 *
@@ -4327,7 +4327,7 @@ limit
 [
 *
 return
-FALSE
+false
 to
 stop
 the
@@ -5884,7 +5884,7 @@ the
 value
 *
 return
-FALSE
+false
 if
 a
 failure
@@ -5960,7 +5960,7 @@ pInBlockZero
 is
 set
 to
-TRUE
+true
 *
 iff
 the
@@ -6044,7 +6044,7 @@ if
 *
 overwrite
 is
-TRUE
+true
 or
 if
 the
@@ -6108,7 +6108,7 @@ be
 overwritten
 *
 return
-FALSE
+false
 if
 a
 failure

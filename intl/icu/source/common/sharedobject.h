@@ -667,7 +667,7 @@ noHardReferences
 )
 =
 =
-TRUE
+true
 then
 this
 object
@@ -716,7 +716,7 @@ hasHardReferences
 )
 =
 =
-TRUE
+true
 then
 this
 object

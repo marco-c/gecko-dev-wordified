@@ -1845,7 +1845,7 @@ with
 *
 return
 Return
-TRUE
+true
 if
 the
 given
@@ -5987,7 +5987,7 @@ of
 codeArray
 *
 return
-TRUE
+true
 when
 the
 specified
@@ -6321,7 +6321,7 @@ failure
 *
 param
 extendedOnly
-TRUE
+true
 if
 parsing
 the
@@ -6346,7 +6346,7 @@ g
 )
 *
 or
-FALSE
+false
 to
 evaluate
 the

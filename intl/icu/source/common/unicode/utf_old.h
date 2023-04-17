@@ -1342,7 +1342,7 @@ strict
 If
 strict
 is
-FALSE
+false
 then
 only
 illegal
@@ -2064,7 +2064,7 @@ implementations
 with
 strict
 =
-FALSE
+false
 .
 *
 *

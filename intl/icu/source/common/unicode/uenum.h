@@ -269,6 +269,9 @@ utypes
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -277,9 +280,6 @@ localpointer
 .
 h
 "
-#
-if
-U_SHOW_CPLUSPLUS_API
 U_NAMESPACE_BEGIN
 class
 StringEnumeration
@@ -287,6 +287,9 @@ StringEnumeration
 U_NAMESPACE_END
 #
 endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -408,7 +411,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uenum_close
@@ -598,7 +601,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uenum_count
@@ -831,7 +834,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -1145,7 +1148,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1234,7 +1237,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uenum_reset
@@ -1325,7 +1328,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1471,7 +1474,7 @@ ICU
 50
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1621,7 +1624,7 @@ ICU
 50
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2

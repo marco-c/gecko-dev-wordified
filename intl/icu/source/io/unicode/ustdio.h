@@ -420,19 +420,27 @@ include
 "
 unicode
 /
-localpointer
+unum
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 #
 include
 "
 unicode
 /
-unum
+localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 #
 if
 !
@@ -3969,6 +3977,12 @@ file
 to
 open
 .
+Must
+be
+0
+-
+terminated
+.
 *
 param
 perm
@@ -4075,7 +4089,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -4178,6 +4192,12 @@ the
 file
 to
 open
+.
+Must
+be
+0
+-
+terminated
 .
 *
 param
@@ -4283,7 +4303,7 @@ ICU
 54
 *
 /
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -4487,7 +4507,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -4694,7 +4714,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -4853,7 +4873,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -4901,7 +4921,7 @@ see
 u_fflush
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_fclose
@@ -5001,7 +5021,7 @@ read
 *
 return
 Returns
-TRUE
+true
 after
 the
 first
@@ -5021,7 +5041,7 @@ file
 .
 It
 returns
-FALSE
+false
 if
 the
 current
@@ -5041,7 +5061,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_feof
@@ -5145,7 +5165,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_fflush
@@ -5186,7 +5206,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 u_frewind
 (
@@ -5248,7 +5268,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 FILE
 *
 U_EXPORT2
@@ -5341,7 +5361,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -5414,7 +5434,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fsetlocale
@@ -5519,7 +5539,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -5717,7 +5737,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fsetcodepage
@@ -5788,7 +5808,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -5860,7 +5880,7 @@ ICU
 51
 *
 /
-U_STABLE
+U_CAPI
 const
 UNumberFormat
 *
@@ -5945,7 +5965,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_printf
@@ -6033,7 +6053,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fprintf
@@ -6181,7 +6201,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vfprintf
@@ -6264,7 +6284,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_printf_u
@@ -6315,7 +6335,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 UFILE
 *
 U_EXPORT2
@@ -6398,7 +6418,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fprintf_u
@@ -6546,7 +6566,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vfprintf_u
@@ -6669,7 +6689,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fputs
@@ -6730,7 +6750,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_fputc
@@ -6825,7 +6845,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_file_write
@@ -6925,7 +6945,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fscanf
@@ -7073,7 +7093,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vfscanf
@@ -7163,7 +7183,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_fscanf_u
@@ -7311,7 +7331,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vfscanf_u
@@ -7478,7 +7498,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -7571,7 +7591,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 U_EXPORT2
 u_fgetc
@@ -7644,7 +7664,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_fgetcx
@@ -7789,7 +7809,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_fungetc
@@ -7887,7 +7907,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_file_read
@@ -8051,7 +8071,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UTransliterator
 *
 U_EXPORT2
@@ -8171,7 +8191,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_sprintf
@@ -8390,7 +8410,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_snprintf
@@ -8543,7 +8563,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsprintf
@@ -8814,7 +8834,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsnprintf
@@ -8909,7 +8929,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_sprintf_u
@@ -9118,7 +9138,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_snprintf_u
@@ -9271,7 +9291,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsprintf_u
@@ -9536,7 +9556,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsnprintf_u
@@ -9638,7 +9658,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_sscanf
@@ -9790,7 +9810,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsscanf
@@ -9884,7 +9904,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_sscanf_u
@@ -10036,7 +10056,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vsscanf_u

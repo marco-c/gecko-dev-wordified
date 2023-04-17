@@ -289,6 +289,9 @@ uenum
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -297,6 +300,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1181,7 +1189,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UDateTimePatternGenerator
 *
 U_EXPORT2
@@ -1251,7 +1259,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UDateTimePatternGenerator
 *
 U_EXPORT2
@@ -1286,7 +1294,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_close
@@ -1415,7 +1423,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UDateTimePatternGenerator
 *
 U_EXPORT2
@@ -1620,7 +1628,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getBestPattern
@@ -1876,7 +1884,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getBestPatternWithOptions
@@ -2094,7 +2102,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getSkeleton
@@ -2349,7 +2357,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getBaseSkeleton
@@ -2585,7 +2593,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UDateTimePatternConflict
 U_EXPORT2
 udatpg_addPattern
@@ -2836,7 +2844,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_setAppendItemFormat
@@ -2919,7 +2927,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -3030,7 +3038,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_setAppendItemName
@@ -3136,7 +3144,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -3341,7 +3349,7 @@ ICU
 61
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_getFieldDisplayName
@@ -3646,7 +3654,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_setDateTimeFormat
@@ -3705,7 +3713,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -3833,7 +3841,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 udatpg_setDecimal
@@ -3898,7 +3906,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -4157,7 +4165,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_replaceFieldTypes
@@ -4471,7 +4479,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 udatpg_replaceFieldTypesWithOptions
@@ -4583,7 +4591,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -4670,7 +4678,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -4748,7 +4756,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -4866,7 +4874,7 @@ ICU
 67
 *
 /
-U_DRAFT
+U_CAPI
 UDateFormatHourCycle
 U_EXPORT2
 udatpg_getDefaultHourCycle

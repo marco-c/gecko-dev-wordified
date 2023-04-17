@@ -3568,7 +3568,7 @@ a
 e
 )
 test
-FALSE
+false
 ;
 test
 NFD_NO

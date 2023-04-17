@@ -410,9 +410,9 @@ second
 collator
 *
 return
-TRUE
+true
 or
-FALSE
+false
 *
 internal
 ICU
@@ -421,7 +421,7 @@ ICU
 0
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 ucol_equals

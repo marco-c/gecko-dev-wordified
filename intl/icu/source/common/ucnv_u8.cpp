@@ -4810,7 +4810,7 @@ length
 =
 count
 -
-toULimit
+toULength
 ;
 U8_TRUNCATE_IF_INCOMPLETE
 (
@@ -4821,7 +4821,7 @@ length
 ;
 count
 =
-toULimit
+toULength
 +
 length
 ;

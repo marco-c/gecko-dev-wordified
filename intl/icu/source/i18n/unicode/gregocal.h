@@ -3463,7 +3463,7 @@ const
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -6333,7 +6333,7 @@ implementation
 *
 *
 return
-TRUE
+true
 if
 this
 calendar

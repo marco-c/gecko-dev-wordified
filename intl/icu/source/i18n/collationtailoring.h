@@ -410,7 +410,7 @@ CollationTailoring
 *
 *
 Returns
-TRUE
+true
 if
 the
 constructor

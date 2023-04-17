@@ -325,6 +325,9 @@ uchar
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -333,6 +336,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 #
 ifndef
 USET_DEFINED
@@ -1488,7 +1496,7 @@ current
 )
 =
 =
-FALSE
+false
 )
 .
 *
@@ -1579,7 +1587,7 @@ current
 )
 =
 =
-TRUE
+true
 )
 .
 *
@@ -1755,7 +1763,7 @@ current
 )
 =
 =
-TRUE
+true
 )
 .
 *
@@ -2300,7 +2308,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -2403,7 +2411,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -2482,7 +2490,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -2586,7 +2594,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -2651,7 +2659,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_close
@@ -2787,7 +2795,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -2833,9 +2841,9 @@ the
 set
 *
 return
-TRUE
+true
 /
-FALSE
+false
 for
 whether
 the
@@ -2857,7 +2865,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_isFrozen
@@ -2971,7 +2979,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_freeze
@@ -3030,7 +3038,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -3133,7 +3141,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_set
@@ -3367,7 +3375,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_applyPattern
@@ -3566,7 +3574,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_applyIntPropertyValue
@@ -3899,7 +3907,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_applyPropertyAlias
@@ -3985,7 +3993,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_resemblesPattern
@@ -4075,7 +4083,7 @@ NULL
 param
 escapeUnprintable
 if
-TRUE
+true
 then
 convert
 unprintable
@@ -4137,7 +4145,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_toPattern
@@ -4182,7 +4190,7 @@ c
 )
 will
 return
-TRUE
+true
 .
 *
 A
@@ -4219,7 +4227,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_add
@@ -4349,7 +4357,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_addAll
@@ -4390,7 +4398,7 @@ end
 )
 will
 return
-TRUE
+true
 .
 *
 A
@@ -4444,7 +4452,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_addRange
@@ -4483,7 +4491,7 @@ strLen
 )
 will
 return
-TRUE
+true
 .
 *
 A
@@ -4535,7 +4543,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_addString
@@ -4646,7 +4654,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_addAllCodePoints
@@ -4686,7 +4694,7 @@ c
 )
 will
 return
-FALSE
+false
 .
 *
 A
@@ -4723,7 +4731,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_remove
@@ -4762,7 +4770,7 @@ end
 )
 will
 return
-FALSE
+false
 .
 *
 A
@@ -4816,7 +4824,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_removeRange
@@ -4855,7 +4863,7 @@ strLen
 )
 will
 return
-FALSE
+false
 .
 *
 A
@@ -4907,7 +4915,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_removeString
@@ -5019,7 +5027,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_removeAll
@@ -5153,7 +5161,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_retain
@@ -5276,7 +5284,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_retainAll
@@ -5344,7 +5352,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_compact
@@ -5410,7 +5418,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_complement
@@ -5510,7 +5518,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_complementAll
@@ -5570,7 +5578,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_clear
@@ -5801,7 +5809,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_closeOver
@@ -5838,7 +5846,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_removeAllStrings
@@ -5853,7 +5861,7 @@ set
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -5886,7 +5894,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_isEmpty
@@ -5902,7 +5910,7 @@ set
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -5953,7 +5961,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_contains
@@ -5971,7 +5979,7 @@ c
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -6024,7 +6032,7 @@ test
 inclusive
 *
 return
-TRUE
+true
 if
 set
 contains
@@ -6038,7 +6046,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsRange
@@ -6058,7 +6066,7 @@ end
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -6108,7 +6116,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsString
@@ -6220,7 +6228,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_indexOf
@@ -6338,7 +6346,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 uset_charAt
@@ -6398,7 +6406,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_size
@@ -6469,7 +6477,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_getItemCount
@@ -6640,7 +6648,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_getItem
@@ -6733,7 +6741,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsAll
@@ -6834,7 +6842,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsAllCodePoints
@@ -6919,7 +6927,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsNone
@@ -7002,7 +7010,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_containsSome
@@ -7193,7 +7201,7 @@ see
 USetSpanCondition
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_span
@@ -7379,7 +7387,7 @@ see
 USetSpanCondition
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_spanBack
@@ -7576,7 +7584,7 @@ see
 USetSpanCondition
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_spanUTF8
@@ -7764,7 +7772,7 @@ see
 USetSpanCondition
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_spanBackUTF8
@@ -7852,7 +7860,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_equals
@@ -8473,7 +8481,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_serialize
@@ -8547,7 +8555,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_getSerializedSet
@@ -8603,7 +8611,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uset_setSerializedToOne
@@ -8620,7 +8628,7 @@ c
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -8663,7 +8671,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_serializedContains
@@ -8734,7 +8742,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uset_getSerializedRangeCount
@@ -8834,7 +8842,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uset_getSerializedRange

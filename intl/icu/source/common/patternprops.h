@@ -518,7 +518,7 @@ public
 *
 *
 return
-TRUE
+true
 if
 c
 is
@@ -542,7 +542,7 @@ c
 *
 *
 return
-TRUE
+true
 if
 c
 is
@@ -568,7 +568,7 @@ c
 *
 *
 return
-TRUE
+true
 if
 c
 is
@@ -740,7 +740,7 @@ characters
 .
 *
 return
-TRUE
+true
 if
 there
 are

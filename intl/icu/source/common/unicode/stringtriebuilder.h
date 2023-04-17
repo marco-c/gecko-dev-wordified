@@ -2162,7 +2162,7 @@ initialHash
 )
 hasValue
 (
-FALSE
+false
 )
 value
 (
@@ -2192,7 +2192,7 @@ v
 {
 hasValue
 =
-TRUE
+true
 ;
 value
 =

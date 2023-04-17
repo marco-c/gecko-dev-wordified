@@ -478,7 +478,7 @@ integer
 )
 *
 return
-TRUE
+true
 if
 the
 two

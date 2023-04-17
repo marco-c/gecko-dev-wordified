@@ -1590,6 +1590,14 @@ and
 data
 if
 any
+if
+(
+U_SUCCESS
+(
+ec
+)
+)
+{
 const
 UChar
 *
@@ -2060,6 +2068,7 @@ ec
 =
 U_ZERO_ERROR
 ;
+}
 }
 /
 /

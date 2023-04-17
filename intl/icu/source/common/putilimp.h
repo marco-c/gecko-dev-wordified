@@ -1886,7 +1886,7 @@ NaN
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isNaN
@@ -1916,7 +1916,7 @@ value
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isInfinite
@@ -1947,7 +1947,7 @@ value
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isPositiveInfinity
@@ -1978,7 +1978,7 @@ value
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isNegativeInfinity
@@ -2009,7 +2009,7 @@ value
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_getNaN
@@ -2034,7 +2034,7 @@ value
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_getInfinity
@@ -2058,7 +2058,7 @@ double
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_trunc
@@ -2086,7 +2086,7 @@ double
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_floor
@@ -2114,7 +2114,7 @@ double
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_ceil
@@ -2143,7 +2143,7 @@ double
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_fabs
@@ -2174,7 +2174,7 @@ double
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_modf
@@ -2209,7 +2209,7 @@ double
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_fmod
@@ -2245,7 +2245,7 @@ exponent
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_pow
@@ -2281,7 +2281,7 @@ exponent
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_pow10
@@ -2310,7 +2310,7 @@ doubles
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_fmax
@@ -2341,7 +2341,7 @@ doubles
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_fmin
@@ -2371,7 +2371,7 @@ integers
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_max
@@ -2401,7 +2401,7 @@ integers
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_min
@@ -2497,7 +2497,7 @@ length
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_maxMantissa
@@ -2524,7 +2524,7 @@ double
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_log
@@ -2570,7 +2570,7 @@ double
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 double
 U_EXPORT2
 uprv_round
@@ -2650,7 +2650,7 @@ occurred
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_add32_overflow
@@ -2735,7 +2735,7 @@ occurred
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_mul32_overflow
@@ -2800,7 +2800,7 @@ internal
 /
 /
 *
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_digitsAfterDecimal
@@ -2878,7 +2878,7 @@ platform
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -2959,7 +2959,7 @@ string
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -3268,7 +3268,7 @@ application
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uprv_tzset
@@ -3324,7 +3324,7 @@ time
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_timezone
@@ -3409,7 +3409,7 @@ string
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -3434,10 +3434,11 @@ cache
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 void
 uprv_tzname_clear_cache
 (
+void
 )
 ;
 /
@@ -3499,7 +3500,7 @@ milliseconds
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UDate
 U_EXPORT2
 uprv_getUTCtime
@@ -3577,7 +3578,7 @@ milliseconds
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 UDate
 U_EXPORT2
 uprv_getRawUTCtime
@@ -3611,7 +3612,7 @@ to
 test
 *
 return
-TRUE
+true
 if
 the
 path
@@ -3627,7 +3628,7 @@ ICU
 )
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_pathIsAbsolute
@@ -3675,7 +3676,7 @@ ICU
 )
 *
 /
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -4454,7 +4455,7 @@ ICU
 )
 *
 /
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -4486,7 +4487,7 @@ ICU
 )
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uprv_dl_close
@@ -4522,7 +4523,7 @@ ICU
 )
 *
 /
-U_INTERNAL
+U_CAPI
 UVoidFunction
 *
 U_EXPORT2
@@ -4565,7 +4566,7 @@ internal
 /
 /
 *
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2

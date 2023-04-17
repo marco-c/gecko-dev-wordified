@@ -1061,7 +1061,7 @@ value
 .
 *
 return
-TRUE
+true
 if
 TZURL
 attribute
@@ -1191,7 +1191,7 @@ date
 .
 *
 return
-TRUE
+true
 if
 lastModified
 attribute
@@ -2853,7 +2853,7 @@ time
 .
 *
 return
-TRUE
+true
 if
 the
 transition
@@ -2932,7 +2932,7 @@ time
 .
 *
 return
-TRUE
+true
 if
 the
 transition

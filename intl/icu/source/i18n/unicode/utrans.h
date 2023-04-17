@@ -332,15 +332,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 urep
 .
 h
@@ -372,6 +363,23 @@ uset
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1958,7 +1966,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UTransliterator
 *
 U_EXPORT2
@@ -2137,7 +2145,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UTransliterator
 *
 U_EXPORT2
@@ -2231,7 +2239,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UTransliterator
 *
 U_EXPORT2
@@ -2291,7 +2299,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_close
@@ -2466,7 +2474,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -2601,7 +2609,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_register
@@ -2688,7 +2696,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_unregisterID
@@ -2839,7 +2847,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_setFilter
@@ -2897,7 +2905,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrans_countAvailableIDs
@@ -2954,7 +2962,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -3360,7 +3368,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_trans
@@ -3880,7 +3888,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_transIncremental
@@ -4250,7 +4258,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_transUChars
@@ -4529,7 +4537,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrans_transIncrementalUChars
@@ -4584,7 +4592,7 @@ transliterator
 param
 escapeUnprintable
 if
-TRUE
+true
 then
 convert
 unprintable
@@ -4698,7 +4706,7 @@ ICU
 53
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrans_toRules
@@ -4760,7 +4768,7 @@ transliterator
 param
 ignoreFilter
 If
-FALSE
+false
 the
 returned
 set
@@ -4789,7 +4797,7 @@ will
 change
 .
 If
-TRUE
+true
 the
 *
 returned
@@ -4915,7 +4923,7 @@ ICU
 53
 *
 /
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2

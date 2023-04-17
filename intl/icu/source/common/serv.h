@@ -1056,7 +1056,7 @@ p
 *
 *
 return
-TRUE
+true
 if
 the
 ICUServiceKey
@@ -1083,7 +1083,7 @@ fallback
 p
 >
 Return
-TRUE
+true
 if
 a
 key
@@ -1120,7 +1120,7 @@ test
 .
 *
 return
-TRUE
+true
 if
 this
 ICUServiceKey
@@ -2291,7 +2291,7 @@ instance
 If
 visible
 is
-TRUE
+true
 the
 ID
 will
@@ -2353,7 +2353,7 @@ instance
 param
 visible
 if
-TRUE
+true
 the
 ID
 will
@@ -2374,7 +2374,7 @@ id
 UBool
 visible
 =
-TRUE
+true
 )
 ;
 /
@@ -2527,7 +2527,7 @@ result
 if
 visible
 is
-TRUE
+true
 *
 otherwise
 it
@@ -2593,7 +2593,7 @@ id
 and
 visible
 is
-TRUE
+true
 *
 otherwise
 it
@@ -3242,7 +3242,7 @@ status
 p
 >
 Return
-TRUE
+true
 if
 either
 string
@@ -3258,7 +3258,7 @@ p
 >
 *
 return
-TRUE
+true
 if
 either
 string
@@ -6046,7 +6046,7 @@ that
 defaults
 visible
 to
-TRUE
+true
 .
 <
 /
@@ -6155,7 +6155,7 @@ getVisibleIDs
 if
 visible
 is
-TRUE
+true
 .
 The
 service
@@ -6242,7 +6242,7 @@ object
 *
 param
 visible
-TRUE
+true
 if
 getVisibleIDs
 is
@@ -6536,7 +6536,7 @@ status
 .
 *
 return
-TRUE
+true
 if
 the
 call
@@ -6625,7 +6625,7 @@ void
 p
 >
 Return
-TRUE
+true
 if
 the
 service
@@ -6648,7 +6648,7 @@ The
 default
 implementation
 returns
-TRUE
+true
 if
 there
 are
@@ -7034,7 +7034,7 @@ instance
 param
 visible
 if
-TRUE
+true
 the
 ID
 will
@@ -7110,7 +7110,7 @@ isDefault
 *
 must
 return
-TRUE
+true
 .
 <
 /
@@ -7444,7 +7444,7 @@ test
 .
 *
 return
-TRUE
+true
 if
 the
 service

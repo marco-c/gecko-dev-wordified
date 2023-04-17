@@ -3881,7 +3881,7 @@ that
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -3928,7 +3928,7 @@ operator
 method
 to
 return
-TRUE
+true
 the
 other
 Calendar
@@ -12684,7 +12684,7 @@ sizeof
 (
 langTag
 )
-TRUE
+true
 &
 errorCode
 )
@@ -13124,7 +13124,7 @@ const
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -13159,7 +13159,7 @@ operation
 .
 *
 return
-TRUE
+true
 if
 the
 given
@@ -13173,7 +13173,7 @@ in
 this
 calendar
 system
-FALSE
+false
 otherwise
 .
 *
@@ -13201,7 +13201,7 @@ const
 *
 *
 Returns
-TRUE
+true
 if
 this
 Calendar
@@ -13223,7 +13223,7 @@ system
 .
 *
 return
-TRUE
+true
 if
 this
 Calendar
@@ -13242,7 +13242,7 @@ in
 this
 calendar
 system
-FALSE
+false
 otherwise
 .
 *
@@ -19779,7 +19779,7 @@ are
 assigned
 *
 return
-TRUE
+true
 if
 the
 factory
@@ -19869,7 +19869,7 @@ UCONFIG_NO_SERVICE
 *
 *
 return
-TRUE
+true
 if
 this
 calendar
@@ -20245,7 +20245,7 @@ error
 status
 *
 return
-TRUE
+true
 if
 a
 transition
@@ -20743,7 +20743,7 @@ fIsSet
 field
 ]
 =
-TRUE
+true
 ;
 /
 /

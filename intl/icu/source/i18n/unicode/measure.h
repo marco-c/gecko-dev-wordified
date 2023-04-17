@@ -466,7 +466,7 @@ isNumeric
 )
 must
 be
-TRUE
+true
 *
 param
 adoptedUnit

@@ -601,6 +601,9 @@ uenum
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -609,6 +612,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 #
 if
 !
@@ -2167,7 +2175,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int
 U_EXPORT2
 ucnv_compareNames
@@ -2705,7 +2713,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -2957,7 +2965,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -3524,7 +3532,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -3698,7 +3706,7 @@ clone
 a
 *
 '
-master
+primary
 '
 converter
 .
@@ -3858,7 +3866,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -4277,7 +4285,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UConverter
 *
 U_EXPORT2
@@ -4417,7 +4425,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_close
@@ -4607,7 +4615,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getSubstChars
@@ -4802,7 +4810,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setSubstChars
@@ -5064,7 +5072,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setSubstString
@@ -5181,7 +5189,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getInvalidChars
@@ -5298,7 +5306,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getInvalidUChars
@@ -5377,7 +5385,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_reset
@@ -5460,7 +5468,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_resetToUnicode
@@ -5543,7 +5551,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_resetFromUnicode
@@ -6045,7 +6053,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int8_t
 U_EXPORT2
 ucnv_getMaxCharSize
@@ -6301,7 +6309,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int8_t
 U_EXPORT2
 ucnv_getMinCharSize
@@ -6413,7 +6421,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_getDisplayName
@@ -6503,7 +6511,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -6721,7 +6729,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_getCCSID
@@ -6824,7 +6832,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UConverterPlatform
 U_EXPORT2
 ucnv_getPlatform
@@ -6885,7 +6893,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UConverterType
 U_EXPORT2
 ucnv_getType
@@ -6967,7 +6975,7 @@ starters
 ]
 =
 =
-TRUE
+true
 )
 at
 return
@@ -7056,7 +7064,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getStarters
@@ -7578,7 +7586,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getUnicodeSet
@@ -7673,7 +7681,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getToUCallBack
@@ -7767,7 +7775,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getFromUCallBack
@@ -7918,7 +7926,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setToUCallBack
@@ -8078,7 +8086,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setFromUCallBack
@@ -8311,7 +8319,7 @@ stream
 flush
 =
 =
-TRUE
+true
 )
 the
 input
@@ -8701,7 +8709,7 @@ to
 <
 TT
 >
-TRUE
+true
 <
 /
 TT
@@ -8723,7 +8731,7 @@ source
 <
 TT
 >
-FALSE
+false
 <
 /
 TT
@@ -8755,7 +8763,7 @@ to
 <
 TT
 >
-TRUE
+true
 <
 /
 TT
@@ -8850,7 +8858,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_fromUnicode
@@ -9104,7 +9112,7 @@ stream
 flush
 =
 =
-TRUE
+true
 )
 the
 input
@@ -9483,7 +9491,7 @@ to
 <
 TT
 >
-TRUE
+true
 <
 /
 TT
@@ -9505,7 +9513,7 @@ source
 <
 TT
 >
-FALSE
+false
 <
 /
 TT
@@ -9537,7 +9545,7 @@ to
 <
 TT
 >
-TRUE
+true
 <
 /
 TT
@@ -9635,7 +9643,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_toUnicode
@@ -9904,7 +9912,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_fromUChars
@@ -10165,7 +10173,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_toUChars
@@ -10313,7 +10321,7 @@ Always
 assumes
 flush
 =
-TRUE
+true
 .
 *
 This
@@ -10433,7 +10441,7 @@ sequence
 with
 flush
 =
-FALSE
+false
 )
 *
 then
@@ -10957,7 +10965,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 ucnv_getNextUChar
@@ -11215,7 +11223,7 @@ if
 reset
 =
 =
-TRUE
+true
 see
 parameters
 ;
@@ -11613,8 +11621,8 @@ NULL
 NULL
 NULL
 *
-TRUE
-TRUE
+true
+true
 *
 pErrorCode
 )
@@ -11952,7 +11960,7 @@ buffer
 param
 reset
 If
-TRUE
+true
 then
 ucnv_resetToUnicode
 (
@@ -12118,7 +12126,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_convertEx
@@ -12645,7 +12653,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_convert
@@ -13074,7 +13082,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_toAlgorithmic
@@ -13500,7 +13508,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_fromAlgorithmic
@@ -13562,7 +13570,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_flushCache
@@ -13605,7 +13613,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_countAvailable
@@ -13721,7 +13729,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -13796,7 +13804,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -13887,7 +13895,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 uint16_t
 U_EXPORT2
 ucnv_countAliases
@@ -13992,7 +14000,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -14138,7 +14146,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_getAliases
@@ -14350,7 +14358,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -14396,7 +14404,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 uint16_t
 U_EXPORT2
 ucnv_countStandards
@@ -14459,7 +14467,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -14620,7 +14628,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -14788,7 +14796,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -14905,7 +14913,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -15050,7 +15058,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setDefaultName
@@ -15236,7 +15244,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_fixFileSeparator
@@ -15281,7 +15289,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 converter
@@ -15293,7 +15301,7 @@ the
 same
 *
 character
-FALSE
+false
 otherwise
 .
 *
@@ -15304,7 +15312,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucnv_isAmbiguous
@@ -15419,7 +15427,7 @@ on
 *
 param
 usesFallback
-TRUE
+true
 if
 the
 user
@@ -15434,7 +15442,7 @@ the
 fallback
 *
 mapping
-FALSE
+false
 otherwise
 .
 *
@@ -15448,7 +15456,7 @@ see
 ucnv_usesFallback
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_setFallback
@@ -15495,13 +15503,13 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 converter
 uses
 fallback
-FALSE
+false
 otherwise
 .
 *
@@ -15515,7 +15523,7 @@ see
 ucnv_setFallback
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucnv_usesFallback
@@ -15826,7 +15834,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -15961,7 +15969,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_fromUCountPending
@@ -16092,7 +16100,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnv_toUCountPending
@@ -16239,7 +16247,7 @@ encoding
 form
 .
 *
-FALSE
+false
 is
 returned
 with
@@ -16273,7 +16281,7 @@ out
 paramter
 *
 return
-TRUE
+true
 if
 the
 converter
@@ -16289,7 +16297,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucnv_isFixedWidth

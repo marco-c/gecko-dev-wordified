@@ -5445,6 +5445,13 @@ found
 .
 if
 (
+fieldPositionFoundIndex
+!
+=
+-
+1
+&
+&
 offset
 !
 =

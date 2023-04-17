@@ -2224,7 +2224,7 @@ is
 <
 code
 >
-FALSE
+false
 <
 /
 code
@@ -2405,7 +2405,7 @@ is
 <
 code
 >
-FALSE
+false
 <
 /
 code
@@ -2859,9 +2859,9 @@ to
 arrive
 at
 a
-TRUE
+true
 /
-FALSE
+false
 result
 .
 *
@@ -4829,7 +4829,7 @@ const
 *
 *
 Returns
-TRUE
+true
 when
 both
 iterators
@@ -4888,7 +4888,7 @@ const
 *
 *
 Returns
-FALSE
+false
 when
 both
 iterators
@@ -5544,7 +5544,7 @@ Use
 <
 code
 >
-TRUE
+true
 <
 /
 code
@@ -5562,7 +5562,7 @@ and
 <
 code
 >
-FALSE
+false
 <
 /
 code
@@ -5622,7 +5622,7 @@ then
 the
 result
 is
-TRUE
+true
 if
 any
 *
@@ -5650,7 +5650,7 @@ be
 checked
 *
 return
-TRUE
+true
 if
 any
 of

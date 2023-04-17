@@ -2371,7 +2371,7 @@ const
 *
 *
 Returns
-TRUE
+true
 because
 the
 Persian

@@ -1993,13 +1993,13 @@ order
 .
 *
 return
-TRUE
+true
 if
 a
 character
 is
 ignorable
-FALSE
+false
 otherwise
 .
 *

@@ -1742,7 +1742,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -1964,7 +1964,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -2117,7 +2117,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -2244,7 +2244,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -2377,7 +2377,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -2506,7 +2506,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -2631,7 +2631,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -2957,7 +2957,7 @@ readOnly
 parameter
 =
 =
-FALSE
+false
 will
 preserve
 the
@@ -3123,13 +3123,13 @@ cloned
 *
 param
 deep
-TRUE
+true
 to
 request
 a
 deep
 clone
-FALSE
+false
 for
 a
 shallow
@@ -3138,7 +3138,7 @@ clone
 *
 param
 readOnly
-TRUE
+true
 to
 request
 that
@@ -3206,7 +3206,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -3275,7 +3275,7 @@ NULL
 the
 comparison
 is
-FALSE
+false
 .
 *
 *
@@ -3302,7 +3302,7 @@ compared
 .
 *
 return
-TRUE
+true
 if
 the
 two
@@ -3318,7 +3318,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_equals
@@ -3566,7 +3566,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utext_nativeLength
@@ -3581,7 +3581,7 @@ ut
 *
 *
 Return
-TRUE
+true
 if
 calculating
 the
@@ -3662,7 +3662,7 @@ accessed
 .
 *
 return
-TRUE
+true
 if
 determining
 the
@@ -3683,7 +3683,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_isLengthExpensive
@@ -3932,7 +3932,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_char32At
@@ -4008,7 +4008,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_current32
@@ -4152,7 +4152,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_next32
@@ -4295,7 +4295,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_previous32
@@ -4437,7 +4437,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_next32From
@@ -4562,7 +4562,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 utext_previous32From
@@ -4688,7 +4688,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utext_getNativeIndex
@@ -4909,7 +4909,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utext_setNativeIndex
@@ -5044,7 +5044,7 @@ position
 .
 *
 return
-TRUE
+true
 if
 the
 position
@@ -5077,7 +5077,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_moveIndex32
@@ -5252,7 +5252,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 utext_getPreviousNativeIndex
@@ -5626,7 +5626,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utext_extract
@@ -6893,7 +6893,7 @@ status
 *
 *
 Return
-TRUE
+true
 if
 the
 text
@@ -6950,7 +6950,7 @@ utext_isWriteable
 (
 )
 is
-FALSE
+false
 will
 fail
 -
@@ -6988,7 +6988,7 @@ tested
 .
 *
 return
-TRUE
+true
 if
 the
 text
@@ -7020,7 +7020,7 @@ ICU
 *
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_isWritable
@@ -7065,7 +7065,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 underlying
@@ -7082,7 +7082,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 utext_hasMetaData
@@ -7149,7 +7149,7 @@ utext_isWritable
 (
 )
 returns
-TRUE
+true
 .
 *
 *
@@ -7314,7 +7314,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utext_replace
@@ -7452,7 +7452,7 @@ utext_isWritable
 (
 )
 returns
-TRUE
+true
 .
 *
 *
@@ -7571,7 +7571,7 @@ moved
 param
 move
 If
-TRUE
+true
 then
 the
 substring
@@ -7603,7 +7603,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utext_copy
@@ -7802,7 +7802,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utext_freeze
@@ -8321,13 +8321,13 @@ cloned
 *
 param
 deep
-TRUE
+true
 to
 request
 a
 deep
 clone
-FALSE
+false
 for
 a
 shallow
@@ -8593,7 +8593,7 @@ accessed
 param
 forward
 If
-TRUE
+true
 then
 the
 returned
@@ -8617,7 +8617,7 @@ limit
 .
 *
 If
-FALSE
+false
 then
 the
 returned
@@ -9478,7 +9478,7 @@ moved
 param
 move
 If
-TRUE
+true
 then
 the
 substring
@@ -11828,7 +11828,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2

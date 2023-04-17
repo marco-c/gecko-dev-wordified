@@ -292,6 +292,17 @@ const
 {
 if
 (
+U_FAILURE
+(
+status
+)
+)
+{
+return
+;
+}
+if
+(
 fHasError
 )
 {

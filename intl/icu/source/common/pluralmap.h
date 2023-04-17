@@ -1665,7 +1665,7 @@ status
 *
 *
 Returns
-TRUE
+true
 if
 this
 object
@@ -1761,7 +1761,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1785,12 +1785,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 private

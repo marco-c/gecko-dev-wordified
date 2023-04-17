@@ -924,9 +924,9 @@ a
 binary
 value
 (
-TRUE
+true
 /
-FALSE
+false
 )
 per
 property
@@ -19946,9 +19946,9 @@ UCHAR_BINARY_LIMIT
 .
 *
 return
-TRUE
+true
 or
-FALSE
+false
 according
 to
 the
@@ -19961,7 +19961,7 @@ c
 .
 *
 Also
-FALSE
+false
 if
 '
 which
@@ -20013,7 +20013,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_hasBinaryProperty
@@ -20208,7 +20208,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isUAlphabetic
@@ -20287,7 +20287,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isULowercase
@@ -20366,7 +20366,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isUUppercase
@@ -20481,7 +20481,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isUWhiteSpace
@@ -20731,9 +20731,9 @@ or
 1
 (
 for
-FALSE
+false
 /
-TRUE
+true
 )
 for
 binary
@@ -20810,7 +20810,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getIntPropertyValue
@@ -20934,7 +20934,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getIntPropertyMinValue
@@ -21026,9 +21026,9 @@ UCHAR_IDEOGRAPHIC
 /
 1
 (
-FALSE
+false
 /
-TRUE
+true
 )
 *
 *
@@ -21129,7 +21129,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getIntPropertyMaxValue
@@ -21444,7 +21444,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 u_getNumericValue
@@ -21622,7 +21622,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -21650,7 +21650,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_islower
@@ -21782,7 +21782,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -21813,7 +21813,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isupper
@@ -21876,7 +21876,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -21904,7 +21904,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_istitle
@@ -22037,7 +22037,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -22062,7 +22062,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isdigit
@@ -22170,7 +22170,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -22194,7 +22194,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isalpha
@@ -22323,7 +22323,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -22348,7 +22348,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isalnum
@@ -22525,7 +22525,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -22543,7 +22543,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isxdigit
@@ -22627,7 +22627,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -22645,7 +22645,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_ispunct
@@ -22678,7 +22678,7 @@ spaces
 )
 .
 *
-TRUE
+true
 for
 all
 characters
@@ -22769,7 +22769,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -22789,7 +22789,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isgraph
@@ -22838,7 +22838,7 @@ definitions
 :
 *
 *
-TRUE
+true
 for
 Unicode
 White_Space
@@ -22911,7 +22911,7 @@ same
 as
 *
 *
-TRUE
+true
 for
 U
 +
@@ -23003,7 +23003,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -23022,7 +23022,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isblank
@@ -23154,7 +23154,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -23190,7 +23190,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isdefined
@@ -23315,7 +23315,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isspace
@@ -23424,7 +23424,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -23458,7 +23458,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isJavaSpaceChar
@@ -23798,7 +23798,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -23830,7 +23830,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isWhitespace
@@ -23969,7 +23969,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -23993,7 +23993,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_iscntrl
@@ -24072,7 +24072,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -24094,7 +24094,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isISOControl
@@ -24185,7 +24185,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -24209,7 +24209,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isprint
@@ -24343,7 +24343,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -24371,7 +24371,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isbase
@@ -24506,7 +24506,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UCharDirection
 U_EXPORT2
 u_charDirection
@@ -24591,7 +24591,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 character
@@ -24611,7 +24611,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isMirrored
@@ -24770,7 +24770,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_charMirror
@@ -24880,7 +24880,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_getBidiPairedBracket
@@ -24948,7 +24948,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int8_t
 U_EXPORT2
 u_charType
@@ -25111,7 +25111,7 @@ the
 enumeration
 by
 returning
-FALSE
+false
 .
 *
 *
@@ -25173,7 +25173,7 @@ limit
 [
 *
 return
-FALSE
+false
 to
 stop
 the
@@ -25364,7 +25364,7 @@ see
 UCharEnumTypeRange
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_enumCharTypes
@@ -25427,7 +25427,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 uint8_t
 U_EXPORT2
 u_getCombiningClass
@@ -25619,7 +25619,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_charDigitValue
@@ -25674,7 +25674,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBlockCode
 U_EXPORT2
 ublock_getCode
@@ -26025,7 +26025,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_charName
@@ -26412,7 +26412,7 @@ ICU
 7
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_charFromName
@@ -26466,7 +26466,7 @@ such
 a
 function
 returns
-FALSE
+false
 then
 the
 enumeration
@@ -26537,13 +26537,13 @@ name
 .
 *
 return
-TRUE
+true
 if
 the
 enumeration
 should
 continue
-FALSE
+false
 to
 stop
 it
@@ -26748,7 +26748,7 @@ ICU
 7
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_enumCharNames
@@ -27007,7 +27007,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -27148,7 +27148,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UProperty
 U_EXPORT2
 u_getPropertyEnum
@@ -27601,7 +27601,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -27889,7 +27889,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getPropertyValueEnum
@@ -27992,7 +27992,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -28019,7 +28019,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isIDStart
@@ -28157,7 +28157,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -28188,7 +28188,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isIDPart
@@ -28314,7 +28314,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -28344,7 +28344,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isIDIgnorable
@@ -28431,7 +28431,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -28459,7 +28459,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isJavaIDStart
@@ -28534,7 +28534,7 @@ be
 tested
 *
 return
-TRUE
+true
 if
 the
 code
@@ -28569,7 +28569,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_isJavaIDPart
@@ -28777,7 +28777,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_tolower
@@ -28985,7 +28985,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_toupper
@@ -29190,7 +29190,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_totitle
@@ -29398,7 +29398,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_foldCase
@@ -29822,7 +29822,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_digit
@@ -30096,7 +30096,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_forDigit
@@ -30218,7 +30218,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_charAge
@@ -30314,7 +30314,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_getUnicodeVersion
@@ -30549,7 +30549,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_getFC_NFKC_Closure

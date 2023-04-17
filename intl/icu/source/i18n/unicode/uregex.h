@@ -305,19 +305,27 @@ include
 "
 unicode
 /
-localpointer
+parseerr
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
 #
 include
 "
 unicode
 /
-parseerr
+localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 struct
 URegularExpression
 ;
@@ -956,7 +964,7 @@ ICU
 *
 *
 /
-U_STABLE
+U_CAPI
 URegularExpression
 *
 U_EXPORT2
@@ -1187,7 +1195,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 URegularExpression
 *
 U_EXPORT2
@@ -1404,7 +1412,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 URegularExpression
 *
 U_EXPORT2
@@ -1464,7 +1472,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_close
@@ -1685,7 +1693,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 URegularExpression
 *
 U_EXPORT2
@@ -1864,7 +1872,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -1971,7 +1979,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -2039,7 +2047,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_flags
@@ -2228,7 +2236,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setText
@@ -2379,7 +2387,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setUText
@@ -2570,7 +2578,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -2717,7 +2725,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -2955,7 +2963,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_refreshUText
@@ -3129,7 +3137,7 @@ function
 .
 *
 return
-TRUE
+true
 if
 there
 is
@@ -3143,7 +3151,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_matches
@@ -3322,7 +3330,7 @@ function
 .
 *
 return
-TRUE
+true
 if
 there
 is
@@ -3336,7 +3344,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_matches64
@@ -3584,7 +3592,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 there
 is
@@ -3599,7 +3607,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_lookingAt
@@ -3853,7 +3861,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 there
 is
@@ -3868,7 +3876,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_lookingAt64
@@ -4065,7 +4073,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 a
 match
@@ -4080,7 +4088,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_find
@@ -4283,7 +4291,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 a
 match
@@ -4298,7 +4306,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_find64
@@ -4424,7 +4432,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 a
 match
@@ -4442,7 +4450,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_findNext
@@ -4509,7 +4517,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_groupCount
@@ -4634,7 +4642,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_groupNumberFromName
@@ -4768,7 +4776,7 @@ ICU
 55
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_groupNumberFromCName
@@ -4933,7 +4941,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_group
@@ -5170,7 +5178,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -5326,7 +5334,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_start
@@ -5481,7 +5489,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 uregex_start64
@@ -5623,7 +5631,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_end
@@ -5771,7 +5779,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 uregex_end64
@@ -5902,7 +5910,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_reset
@@ -6039,7 +6047,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_reset64
@@ -6250,7 +6258,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setRegion
@@ -6469,7 +6477,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setRegion64
@@ -6608,7 +6616,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setRegionAndStart
@@ -6707,7 +6715,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_regionStart
@@ -6807,7 +6815,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 uregex_regionStart64
@@ -6908,7 +6916,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_regionEnd
@@ -7015,7 +7023,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 uregex_regionEnd64
@@ -7087,7 +7095,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 this
 matcher
@@ -7109,7 +7117,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_hasTransparentBounds
@@ -7145,7 +7153,7 @@ with
 an
 argument
 of
-TRUE
+true
 will
 set
 matches
@@ -7160,7 +7168,7 @@ the
 boolean
 argument
 is
-FALSE
+false
 then
 opaque
 bounds
@@ -7252,12 +7260,12 @@ expression
 *
 param
 b
-TRUE
+true
 for
 transparent
 bounds
 ;
-FALSE
+false
 for
 opaque
 bounds
@@ -7283,7 +7291,7 @@ ICU
 *
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_useTransparentBounds
@@ -7345,7 +7353,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 this
 matcher
@@ -7362,7 +7370,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_hasAnchoringBounds
@@ -7454,14 +7462,14 @@ expression
 *
 param
 b
-TRUE
+true
 if
 to
 enable
 anchoring
 bounds
 ;
-FALSE
+false
 to
 disable
 them
@@ -7487,7 +7495,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_useAnchoringBounds
@@ -7507,7 +7515,7 @@ status
 *
 *
 Return
-TRUE
+true
 if
 the
 most
@@ -7563,7 +7571,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 the
 most
@@ -7582,7 +7590,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_hitEnd
@@ -7601,7 +7609,7 @@ status
 *
 *
 Return
-TRUE
+true
 the
 most
 recent
@@ -7681,7 +7689,7 @@ errors
 .
 *
 return
-TRUE
+true
 if
 more
 input
@@ -7704,7 +7712,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 uregex_requireEnd
@@ -7949,7 +7957,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_replaceAll
@@ -8180,7 +8188,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -8433,7 +8441,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_replaceFirst
@@ -8666,7 +8674,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -9124,7 +9132,7 @@ ICU
 *
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_appendReplacement
@@ -9355,7 +9363,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_appendReplacementUText
@@ -9599,7 +9607,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_appendTail
@@ -9762,7 +9770,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UText
 *
 U_EXPORT2
@@ -10265,7 +10273,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_split
@@ -10568,7 +10576,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_splitUText
@@ -10766,7 +10774,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setTimeLimit
@@ -10854,7 +10862,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_getTimeLimit
@@ -11049,7 +11057,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setStackLimit
@@ -11112,7 +11120,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uregex_getStackLimit
@@ -11161,7 +11169,7 @@ call
 back
 function
 returns
-FALSE
+false
 the
 matching
 *
@@ -11235,7 +11243,7 @@ operation
 .
 *
 return
-TRUE
+true
 to
 continue
 the
@@ -11243,7 +11251,7 @@ matching
 operation
 .
 *
-FALSE
+false
 to
 terminate
 the
@@ -11388,7 +11396,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setMatchCallback
@@ -11488,7 +11496,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_getMatchCallback
@@ -11676,7 +11684,7 @@ call
 back
 function
 returns
-FALSE
+false
 the
 find
 operation
@@ -11776,7 +11784,7 @@ initiated
 .
 *
 return
-TRUE
+true
 to
 continue
 the
@@ -11784,7 +11792,7 @@ matching
 operation
 .
 *
-FALSE
+false
 to
 terminate
 the
@@ -11906,7 +11914,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_setFindProgressCallback
@@ -12008,7 +12016,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uregex_getFindProgressCallback

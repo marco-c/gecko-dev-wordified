@@ -450,6 +450,9 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -458,6 +461,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -778,7 +786,7 @@ Formattable
 )
 *
 /
-U_STABLE
+U_CAPI
 UFormattable
 *
 U_EXPORT2
@@ -816,7 +824,7 @@ see
 ufmt_open
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ufmt_close
@@ -948,7 +956,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UFormattableType
 U_EXPORT2
 ufmt_getType
@@ -1016,7 +1024,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ufmt_isNumeric
@@ -1103,7 +1111,7 @@ UErrorCode
 const
 *
 /
-U_STABLE
+U_CAPI
 UDate
 U_EXPORT2
 ufmt_getDate
@@ -1257,7 +1265,7 @@ UErrorCode
 const
 *
 /
-U_STABLE
+U_CAPI
 double
 U_EXPORT2
 ufmt_getDouble
@@ -1455,7 +1463,7 @@ UErrorCode
 const
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ufmt_getLong
@@ -1638,7 +1646,7 @@ UErrorCode
 const
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 ufmt_getInt64
@@ -1740,7 +1748,7 @@ getObject
 const
 *
 /
-U_STABLE
+U_CAPI
 const
 void
 *
@@ -1907,7 +1915,7 @@ UnicodeString
 const
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -1990,7 +1998,7 @@ see
 ufmt_getArrayItemByIndex
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ufmt_getArrayLength
@@ -2115,7 +2123,7 @@ UErrorCode
 const
 *
 /
-U_STABLE
+U_CAPI
 UFormattable
 *
 U_EXPORT2
@@ -2346,7 +2354,7 @@ UErrorCode
 )
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *

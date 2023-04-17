@@ -1270,14 +1270,14 @@ to
 *
 return
 Returns
-TRUE
+true
 if
 two
 collation
 keys
 are
 different
-FALSE
+false
 otherwise
 .
 *
@@ -1339,7 +1339,7 @@ operation
 *
 return
 Returns
-TRUE
+true
 if
 the
 key
@@ -1347,7 +1347,7 @@ is
 in
 an
 invalid
-FALSE
+false
 otherwise
 .
 *

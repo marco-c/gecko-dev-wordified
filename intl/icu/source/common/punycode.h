@@ -491,12 +491,12 @@ optionally
 *
 uppercasing
 (
-TRUE
+true
 )
 or
 lowercasing
 (
-FALSE
+false
 )
 *
 the
@@ -586,7 +586,7 @@ see
 u_strFromPunycode
 *
 /
-U_CFUNC
+U_CAPI
 int32_t
 u_strToPunycode
 (
@@ -716,7 +716,7 @@ caller
 should
 uppercase
 (
-TRUE
+true
 )
 or
 lowercase
@@ -742,7 +742,7 @@ surrogate
 is
 marked
 and
-FALSE
+false
 is
 stored
 for
@@ -861,7 +861,7 @@ see
 u_strToPunycode
 *
 /
-U_CFUNC
+U_CAPI
 int32_t
 u_strFromPunycode
 (

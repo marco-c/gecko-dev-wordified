@@ -322,14 +322,11 @@ fillin
 UnicodeString
 (
 str
-"
-"
+-
+1
+US_INV
 )
 ;
-/
-/
-optimize
-?
 }
 }
 U_CDECL_BEGIN

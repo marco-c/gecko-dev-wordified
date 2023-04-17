@@ -350,7 +350,7 @@ terminated
 .
 *
 return
-TRUE
+true
 if
 s
 contains
@@ -369,7 +369,7 @@ ICU
 )
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isInvariantString
@@ -430,7 +430,7 @@ terminated
 .
 *
 return
-TRUE
+true
 if
 s
 contains
@@ -449,7 +449,7 @@ ICU
 )
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 uprv_isInvariantUString
@@ -1224,7 +1224,7 @@ order
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 uprv_compareInvEbcdicAsAscii
@@ -1323,7 +1323,7 @@ ASCII
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 char
 U_EXPORT2
 uprv_ebcdicToAscii
@@ -1409,7 +1409,7 @@ ASCII
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 char
 U_EXPORT2
 uprv_ebcdicToLowercaseAscii
@@ -1483,7 +1483,7 @@ see
 uprv_strncpy
 *
 /
-U_INTERNAL
+U_CAPI
 uint8_t
 *
 U_EXPORT2
@@ -1515,7 +1515,7 @@ see
 uprv_strncpy
 *
 /
-U_INTERNAL
+U_CAPI
 uint8_t
 *
 U_EXPORT2

@@ -3201,6 +3201,10 @@ tables
 *
 *
 *
+#
+if
+!
+UCONFIG_NO_CONVERSION
 /
 *
 code
@@ -4547,4 +4551,11 @@ errorCode
 }
 }
 }
+#
+endif
+/
+*
+UCONFIG_NO_CONVERSION
+*
+/
 U_NAMESPACE_END

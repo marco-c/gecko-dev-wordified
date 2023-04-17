@@ -2724,7 +2724,7 @@ const
 *
 *
 Returns
-TRUE
+true
 because
 the
 Hebrew

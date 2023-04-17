@@ -485,6 +485,7 @@ UCASE_LOC_TURKISH
 UCASE_LOC_LITHUANIAN
 UCASE_LOC_GREEK
 UCASE_LOC_DUTCH
+UCASE_LOC_ARMENIAN
 }
 ;
 /
@@ -863,7 +864,7 @@ length
 *
 *
 return
-TRUE
+true
 if
 the
 string

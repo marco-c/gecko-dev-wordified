@@ -1200,7 +1200,7 @@ i
 ]
 =
 =
-TRUE
+true
 <
 /
 code
@@ -1456,7 +1456,7 @@ be
 <
 code
 >
-FALSE
+false
 <
 /
 code
@@ -1653,9 +1653,9 @@ pre
 }
 *
 {
-FALSE
-FALSE
-TRUE
+false
+false
+true
 }
 *
 {
@@ -2080,7 +2080,7 @@ to
 <
 code
 >
-FALSE
+false
 <
 /
 code
@@ -2228,7 +2228,7 @@ or
 closed
 .
 If
-FALSE
+false
 then
 the
 *
@@ -2244,7 +2244,7 @@ range
 .
 *
 If
-TRUE
+true
 then
 the
 limit
@@ -4704,7 +4704,7 @@ i
 ]
 *
 is
-FALSE
+false
 then
 the
 value
@@ -4762,7 +4762,7 @@ fClosures
 i
 ]
 is
-TRUE
+true
 then
 the
 value

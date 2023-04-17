@@ -466,7 +466,7 @@ period
 /
 /
 Returns
-TRUE
+true
 if
 for
 all

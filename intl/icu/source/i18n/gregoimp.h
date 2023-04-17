@@ -1255,7 +1255,7 @@ public
 *
 *
 Return
-TRUE
+true
 if
 the
 given
@@ -1286,7 +1286,7 @@ etc
 .
 *
 return
-TRUE
+true
 if
 the
 year

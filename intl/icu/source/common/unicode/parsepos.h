@@ -666,7 +666,7 @@ operator
 .
 *
 return
-TRUE
+true
 if
 the
 two
@@ -674,7 +674,7 @@ parse
 positions
 are
 equal
-FALSE
+false
 otherwise
 .
 *
@@ -707,7 +707,7 @@ operator
 .
 *
 return
-TRUE
+true
 if
 the
 two
@@ -716,7 +716,7 @@ positions
 are
 not
 equal
-FALSE
+false
 otherwise
 .
 *
@@ -1212,11 +1212,11 @@ copy
 errorIndex
 )
 return
-FALSE
+false
 ;
 else
 return
-TRUE
+true
 ;
 }
 inline

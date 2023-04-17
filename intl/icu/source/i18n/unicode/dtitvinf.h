@@ -2601,7 +2601,7 @@ in
 interval
 pattern
 .
-TRUE
+true
 if
 the
 first
@@ -2612,7 +2612,7 @@ pattern
 is
 later
 date
-FALSE
+false
 otherwise
 .
 *

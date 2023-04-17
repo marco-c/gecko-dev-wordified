@@ -1387,7 +1387,7 @@ the
 enumeration
 by
 returning
-FALSE
+false
 .
 *
 *
@@ -1452,7 +1452,7 @@ end
 ]
 *
 return
-FALSE
+false
 to
 stop
 the
@@ -2146,7 +2146,7 @@ if
 *
 overwrite
 is
-TRUE
+true
 or
 if
 the
@@ -2454,7 +2454,7 @@ the
 trie
 *
 return
-TRUE
+true
 if
 the
 trie
@@ -5767,7 +5767,7 @@ isMemoryOwned
 ;
 /
 *
-TRUE
+true
 if
 the
 trie
@@ -6761,7 +6761,7 @@ directly
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 utrie2_internalU8NextIndex
@@ -6808,7 +6808,7 @@ directly
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 int32_t
 U_EXPORT2
 utrie2_internalU8PrevIndex

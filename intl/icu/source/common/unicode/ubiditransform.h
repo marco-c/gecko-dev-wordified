@@ -264,6 +264,9 @@ uchar
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -272,6 +275,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1336,7 +1344,7 @@ ubidi_setInverse
 (
 UBiDi
 *
-TRUE
+true
 )
 <
 /
@@ -1393,7 +1401,7 @@ ubidi_setInverse
 (
 UBiDi
 *
-TRUE
+true
 )
 <
 /
@@ -2393,7 +2401,7 @@ ICU
 58
 *
 /
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ubiditransform_transform
@@ -2694,7 +2702,7 @@ ICU
 58
 *
 /
-U_STABLE
+U_CAPI
 UBiDiTransform
 *
 U_EXPORT2
@@ -2728,7 +2736,7 @@ ICU
 58
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubiditransform_close

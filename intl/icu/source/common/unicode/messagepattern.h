@@ -1867,7 +1867,7 @@ def
 UMSGPAT_ARG_TYPE_HAS_PLURAL_STYLE
 *
 Returns
-TRUE
+true
 if
 the
 argument
@@ -3854,7 +3854,7 @@ with
 .
 *
 return
-TRUE
+true
 if
 this
 object
@@ -3899,7 +3899,7 @@ with
 .
 *
 return
-FALSE
+false
 if
 this
 object
@@ -4077,7 +4077,7 @@ first_name
 ?
 *
 return
-TRUE
+true
 if
 the
 parsed
@@ -4125,7 +4125,7 @@ like
 ?
 *
 return
-TRUE
+true
 if
 the
 parsed
@@ -4847,7 +4847,7 @@ string
 .
 *
 return
-TRUE
+true
 if
 getSubstring
 (
@@ -5621,7 +5621,7 @@ tested
 .
 *
 return
-TRUE
+true
 if
 the
 Part
@@ -5674,7 +5674,7 @@ with
 .
 *
 return
-TRUE
+true
 if
 this
 object
@@ -5719,7 +5719,7 @@ with
 .
 *
 return
-FALSE
+false
 if
 this
 object
@@ -6128,7 +6128,7 @@ limit
 *
 param
 allowInfinity
-TRUE
+true
 if
 U
 +
@@ -6281,7 +6281,7 @@ index
 *
 *
 return
-TRUE
+true
 if
 we
 are
@@ -6323,7 +6323,7 @@ nestingLevel
 *
 *
 return
-TRUE
+true
 if
 we
 are

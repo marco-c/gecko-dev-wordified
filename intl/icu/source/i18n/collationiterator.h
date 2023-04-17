@@ -604,13 +604,13 @@ errorCode
 length
 ;
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1706,7 +1706,7 @@ foundNULTerminator
 *
 *
 return
-FALSE
+false
 if
 surrogate
 code
@@ -1735,7 +1735,7 @@ UTF
 )
 *
 or
-TRUE
+true
 if
 they
 map

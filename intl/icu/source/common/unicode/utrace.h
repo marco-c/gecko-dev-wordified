@@ -707,9 +707,6 @@ endif
 /
 /
 U_HIDE_DEPRECATED_API
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -722,7 +719,7 @@ data
 location
 .
 *
-draft
+stable
 ICU
 65
 *
@@ -867,7 +864,7 @@ resolved
 )
 *
 *
-draft
+stable
 ICU
 65
 *
@@ -902,7 +899,7 @@ file
 name
 .
 *
-draft
+stable
 ICU
 65
 *
@@ -942,7 +939,7 @@ name
 .
 *
 *
-draft
+stable
 ICU
 65
 *
@@ -1012,17 +1009,12 @@ name
 .
 *
 *
-draft
+stable
 ICU
 65
 *
 /
 UTRACE_UDATA_RES_FILE
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 ifndef
 U_HIDE_INTERNAL_API
@@ -1370,7 +1362,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrace_setLevel
@@ -1407,7 +1399,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrace_getLevel
@@ -1999,7 +1991,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrace_setFunctions
@@ -2094,7 +2086,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 utrace_getFunctions
@@ -3118,7 +3110,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrace_vformat
@@ -3313,7 +3305,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 utrace_format
@@ -3441,7 +3433,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *

@@ -2347,7 +2347,7 @@ compared
 .
 *
 return
-TRUE
+true
 if
 both
 BreakIterators
@@ -2373,7 +2373,7 @@ same
 *
 attributes
 .
-FALSE
+false
 otherwise
 .
 *
@@ -2417,13 +2417,13 @@ compared
 .
 *
 return
-FALSE
+false
 if
 operator
 =
 =
 returns
-TRUE
+true
 and
 vice
 versa

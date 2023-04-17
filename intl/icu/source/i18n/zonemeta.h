@@ -563,7 +563,7 @@ isPrimary
 [
 output
 ]
-TRUE
+true
 if
 the
 zone

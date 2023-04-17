@@ -289,6 +289,9 @@ uset
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -297,6 +300,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -663,7 +671,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 ULocaleData
 *
 U_EXPORT2
@@ -706,7 +714,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulocdata_close
@@ -861,7 +869,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulocdata_setNoSubstitute
@@ -962,7 +970,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ulocdata_getNoSubstitute
@@ -1233,7 +1241,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 USet
 *
 U_EXPORT2
@@ -1359,7 +1367,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ulocdata_getDelimiter
@@ -1613,7 +1621,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 UMeasurementSystem
 U_EXPORT2
 ulocdata_getMeasurementSystem
@@ -1825,7 +1833,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulocdata_getPaperSize
@@ -1893,7 +1901,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ulocdata_getCLDRVersion
@@ -2025,7 +2033,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ulocdata_getLocaleDisplayPattern
@@ -2160,7 +2168,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ulocdata_getLocaleSeparator

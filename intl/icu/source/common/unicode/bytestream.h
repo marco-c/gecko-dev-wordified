@@ -1537,7 +1537,7 @@ Overflowed
 (
 )
 =
-FALSE
+false
 .
 *
 return
@@ -1825,7 +1825,7 @@ bytes
 .
 *
 return
-TRUE
+true
 if
 more
 than

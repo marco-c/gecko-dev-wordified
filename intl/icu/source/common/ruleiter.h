@@ -924,7 +924,7 @@ output
 parameter
 set
 to
-TRUE
+true
 if
 the
 character

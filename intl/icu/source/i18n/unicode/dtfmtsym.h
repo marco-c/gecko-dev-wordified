@@ -6520,7 +6520,7 @@ status
 UBool
 useLastResortData
 =
-FALSE
+false
 )
 ;
 /
@@ -6891,7 +6891,7 @@ c
 *
 *
 Returns
-TRUE
+true
 if
 f
 (
@@ -6926,7 +6926,7 @@ count
 *
 *
 Returns
-TRUE
+true
 if
 c
 (

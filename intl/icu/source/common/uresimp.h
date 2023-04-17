@@ -1128,7 +1128,7 @@ screen
 .
 *
 return
-TRUE
+true
 if
 there
 was
@@ -1726,7 +1726,7 @@ tree
 param
 omitDefault
 if
-TRUE
+true
 omit
 keyword
 and

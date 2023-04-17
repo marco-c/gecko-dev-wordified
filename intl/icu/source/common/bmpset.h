@@ -900,7 +900,7 @@ latin1Contains
 ;
 /
 *
-TRUE
+true
 if
 contains
 (

@@ -355,12 +355,12 @@ pos
 UBool
 acceptFirstOnly
 =
-FALSE
+false
 ;
 UBool
 seenFirst
 =
-FALSE
+false
 ;
 public
 :

@@ -1689,7 +1689,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_setPlugNoUnload
@@ -1736,7 +1736,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_setPlugLevel
@@ -1782,7 +1782,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 UPlugLevel
 U_EXPORT2
 uplug_getPlugLevel
@@ -1854,7 +1854,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 UPlugLevel
 U_EXPORT2
 uplug_getCurrentLevel
@@ -1893,7 +1893,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 UErrorCode
 U_EXPORT2
 uplug_getPlugLoadStatus
@@ -1954,7 +1954,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_setPlugName
@@ -2005,7 +2005,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -2054,7 +2054,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -2108,7 +2108,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -2170,7 +2170,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -2218,7 +2218,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 void
 *
 U_EXPORT2
@@ -2264,7 +2264,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_setContext
@@ -2322,7 +2322,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -2456,7 +2456,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -2583,7 +2583,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -2692,7 +2692,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 UPlugData
 *
 U_EXPORT2
@@ -2759,7 +2759,7 @@ Technology
 Preview
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 uplug_removePlug

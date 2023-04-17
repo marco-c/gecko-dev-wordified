@@ -708,7 +708,7 @@ code
 *
 return
 returns
-TRUE
+true
 if
 the
 string
@@ -719,7 +719,7 @@ and
 now
 added
 *
-FALSE
+false
 if
 the
 call
@@ -832,7 +832,7 @@ code
 *
 return
 returns
-TRUE
+true
 if
 the
 string
@@ -842,7 +842,7 @@ and
 now
 removed
 *
-FALSE
+false
 if
 the
 call

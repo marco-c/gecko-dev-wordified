@@ -662,7 +662,7 @@ FormattedValue
 #
 nextPosition
 returns
-TRUE
+true
 .
 *
 *
@@ -720,7 +720,7 @@ FormattedValue
 #
 nextPosition
 returns
-TRUE
+true
 .
 *
 *
@@ -778,7 +778,7 @@ FormattedValue
 #
 nextPosition
 returns
-TRUE
+true
 .
 *
 *
@@ -838,7 +838,7 @@ FormattedValue
 #
 nextPosition
 returns
-TRUE
+true
 .
 *
 *
@@ -1791,7 +1791,7 @@ occurs
 .
 *
 return
-TRUE
+true
 if
 a
 new
@@ -1803,7 +1803,7 @@ was
 found
 ;
 *
-FALSE
+false
 otherwise
 or
 if

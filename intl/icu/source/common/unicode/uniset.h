@@ -4154,7 +4154,7 @@ available
 *
 *
 return
-TRUE
+true
 if
 the
 set
@@ -4162,7 +4162,7 @@ is
 bogus
 /
 invalid
-FALSE
+false
 otherwise
 *
 see
@@ -4200,7 +4200,7 @@ The
 string
 will
 test
-TRUE
+true
 with
 isBogus
 (
@@ -5800,9 +5800,9 @@ details
 .
 *
 return
-TRUE
+true
 /
-FALSE
+false
 for
 whether
 the
@@ -6971,7 +6971,7 @@ deleted
 param
 escapeUnprintable
 if
-TRUE
+true
 then
 convert
 unprintable
@@ -7029,7 +7029,7 @@ result
 UBool
 escapeUnprintable
 =
-FALSE
+false
 )
 const
 ;
@@ -14628,7 +14628,7 @@ A
 filter
 that
 returns
-TRUE
+true
 if
 the
 given

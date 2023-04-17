@@ -872,7 +872,7 @@ limit
 .
 *
 return
-TRUE
+true
 if
 success
 checkDir
@@ -986,7 +986,7 @@ start
 .
 *
 return
-TRUE
+true
 if
 success
 checkDir

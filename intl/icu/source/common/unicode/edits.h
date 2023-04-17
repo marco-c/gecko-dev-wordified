@@ -1240,7 +1240,7 @@ unchanged
 .
 *
 return
-TRUE
+true
 if
 U_FAILURE
 (
@@ -1306,7 +1306,7 @@ delta
 *
 *
 return
-TRUE
+true
 if
 there
 are
@@ -1580,11 +1580,11 @@ remaining
 )
 onlyChanges_
 (
-FALSE
+false
 )
 coarse
 (
-FALSE
+false
 )
 dir
 (
@@ -1592,7 +1592,7 @@ dir
 )
 changed
 (
-FALSE
+false
 )
 oldLength_
 (
@@ -1726,7 +1726,7 @@ details
 )
 *
 return
-TRUE
+true
 if
 there
 is
@@ -1909,7 +1909,7 @@ details
 )
 *
 return
-TRUE
+true
 if
 the
 edit
@@ -1939,7 +1939,7 @@ return
 findIndex
 (
 i
-TRUE
+true
 errorCode
 )
 =
@@ -2102,7 +2102,7 @@ details
 )
 *
 return
-TRUE
+true
 if
 the
 edit
@@ -2132,7 +2132,7 @@ return
 findIndex
 (
 i
-FALSE
+false
 errorCode
 )
 =
@@ -2599,7 +2599,7 @@ edit
 *
 *
 return
-TRUE
+true
 if
 this
 edit
@@ -2616,7 +2616,7 @@ different
 ones
 .
 *
-FALSE
+false
 if
 oldLength
 units
@@ -2750,7 +2750,7 @@ hasChange
 (
 )
 is
-TRUE
+true
 .
 *
 Same
@@ -2761,7 +2761,7 @@ hasChange
 (
 )
 is
-FALSE
+false
 .
 *
 stable
@@ -3342,8 +3342,8 @@ Iterator
 (
 array
 length
-TRUE
-TRUE
+true
+true
 )
 ;
 }
@@ -3421,8 +3421,8 @@ Iterator
 (
 array
 length
-FALSE
-TRUE
+false
+true
 )
 ;
 }
@@ -3492,8 +3492,8 @@ Iterator
 (
 array
 length
-TRUE
-FALSE
+true
+false
 )
 ;
 }
@@ -3560,8 +3560,8 @@ Iterator
 (
 array
 length
-FALSE
-FALSE
+false
+false
 )
 ;
 }

@@ -1505,7 +1505,7 @@ with
 .
 *
 return
-TRUE
+true
 if
 the
 two
@@ -1513,7 +1513,7 @@ field
 positions
 are
 equal
-FALSE
+false
 otherwise
 .
 *
@@ -1555,7 +1555,7 @@ with
 .
 *
 return
-TRUE
+true
 if
 the
 two
@@ -1564,7 +1564,7 @@ positions
 are
 not
 equal
-FALSE
+false
 otherwise
 .
 *

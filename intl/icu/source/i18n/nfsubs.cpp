@@ -2254,7 +2254,7 @@ getBaseValue
 NFRule
 :
 :
-kMasterRule
+kDefaultRule
 )
 {
 return
@@ -2458,7 +2458,7 @@ getBaseValue
 NFRule
 :
 :
-kMasterRule
+kDefaultRule
 )
 {
 return

@@ -12356,7 +12356,7 @@ return
 result
 ;
 }
-U_INTERNAL
+U_CAPI
 const
 UChar
 *
@@ -15236,7 +15236,7 @@ data
 .
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -16031,7 +16031,7 @@ bundle
 .
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ures_openFillIn
@@ -16111,7 +16111,7 @@ bundle
 .
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ures_openDirectFillIn
@@ -16383,7 +16383,7 @@ ures_getVersion
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -20548,7 +20548,7 @@ is
 suspect
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 ures_equal
@@ -20872,7 +20872,7 @@ return
 TRUE
 ;
 }
-U_INTERNAL
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -20980,7 +20980,7 @@ return
 ret
 ;
 }
-U_INTERNAL
+U_CAPI
 const
 UResourceBundle
 *
@@ -21014,7 +21014,7 @@ fParentRes
 }
 #
 endif
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ures_getVersionByKey

@@ -872,7 +872,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1004,7 +1004,7 @@ code
 point
 *
 return
-TRUE
+true
 if
 c
 is
@@ -1134,7 +1134,7 @@ code
 point
 *
 return
-TRUE
+true
 if
 fcd16
 is

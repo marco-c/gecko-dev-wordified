@@ -333,7 +333,7 @@ public
 *
 *
 return
-TRUE
+true
 if
 getApostropheMode
 (

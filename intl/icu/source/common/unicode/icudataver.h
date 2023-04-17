@@ -330,7 +330,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_getDataVersion

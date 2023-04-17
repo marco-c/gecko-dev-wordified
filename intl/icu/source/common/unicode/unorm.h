@@ -2346,9 +2346,9 @@ to
 arrive
 at
 a
-TRUE
+true
 /
-FALSE
+false
 result
 .
 *
@@ -3057,7 +3057,7 @@ If
 doNormalize
 =
 =
-TRUE
+true
 and
 pNeededToNormalize
 !
@@ -3071,7 +3071,7 @@ pNeeded
 .
 is
 set
-TRUE
+true
 *
 if
 the
@@ -3085,7 +3085,7 @@ If
 doNormalize
 =
 =
-FALSE
+false
 then
 *
 pNeededToNormalize
@@ -3093,7 +3093,7 @@ will
 be
 set
 to
-FALSE
+false
 .
 *
 *
@@ -3215,13 +3215,13 @@ to
 be
 normalized
 (
-TRUE
+true
 )
 or
 just
 copied
 (
-FALSE
+false
 )
 .
 *
@@ -3255,7 +3255,7 @@ overflow
 .
 *
 Always
-FALSE
+false
 if
 !
 doNormalize
@@ -3474,13 +3474,13 @@ to
 be
 normalized
 (
-TRUE
+true
 )
 or
 just
 copied
 (
-FALSE
+false
 )
 .
 *
@@ -3514,7 +3514,7 @@ overflow
 .
 *
 Always
-FALSE
+false
 if
 !
 doNormalize

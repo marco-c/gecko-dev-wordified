@@ -9477,7 +9477,7 @@ indices
 param
 incremental
 if
-TRUE
+true
 then
 assume
 more
@@ -9561,7 +9561,7 @@ rollback
 argument
 *
 of
-TRUE
+true
 .
 Other
 entities
@@ -9574,7 +9574,7 @@ rollback
 should
 be
 *
-FALSE
+false
 .
 *
 *
@@ -9621,7 +9621,7 @@ mode
 if
 rollback
 is
-TRUE
+true
 perform
 a
 special
@@ -9689,7 +9689,7 @@ indices
 param
 incremental
 if
-TRUE
+true
 then
 assume
 more
@@ -9715,12 +9715,12 @@ characters
 param
 rollback
 if
-TRUE
+true
 and
 if
 incremental
 is
-TRUE
+true
 then
 perform
 special
@@ -9741,7 +9741,7 @@ necessary
 If
 incremental
 is
-FALSE
+false
 then
 this
 *
@@ -11299,7 +11299,7 @@ deleted
 param
 escapeUnprintable
 if
-TRUE
+true
 then
 convert
 unprintable

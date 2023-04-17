@@ -578,7 +578,7 @@ direction
 param
 incremental
 if
-TRUE
+true
 then
 assume
 further
@@ -626,7 +626,7 @@ mismatch
 If
 incremental
 is
-FALSE
+false
 then
 *
 U_PARTIAL_MATCH
@@ -703,7 +703,7 @@ result
 UBool
 escapeUnprintable
 =
-FALSE
+false
 )
 const
 ;

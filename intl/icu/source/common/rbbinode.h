@@ -505,7 +505,7 @@ For
 endMark
 nodes
 set
-TRUE
+true
 if
 /
 /

@@ -245,6 +245,9 @@ utext
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -253,6 +256,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -2037,7 +2045,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -2214,7 +2222,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -2454,7 +2462,7 @@ ICU
 59
 *
 /
-U_STABLE
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -2673,7 +2681,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBreakIterator
 *
 U_EXPORT2
@@ -2787,7 +2795,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubrk_close
@@ -2942,7 +2950,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubrk_setText
@@ -3118,7 +3126,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubrk_setUText
@@ -3189,7 +3197,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_current
@@ -3257,7 +3265,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_next
@@ -3325,7 +3333,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_previous
@@ -3383,7 +3391,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_first
@@ -3477,7 +3485,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_last
@@ -3555,7 +3563,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_preceding
@@ -3634,7 +3642,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_following
@@ -3720,7 +3728,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -3790,7 +3798,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_countAvailable
@@ -3872,7 +3880,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ubrk_isBoundary
@@ -3964,7 +3972,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_getRuleStatus
@@ -4142,7 +4150,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_getRuleStatusVec
@@ -4216,7 +4224,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -4448,7 +4456,7 @@ ICU
 49
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubrk_refreshUText
@@ -4709,7 +4717,7 @@ ICU
 59
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubrk_getBinaryRules

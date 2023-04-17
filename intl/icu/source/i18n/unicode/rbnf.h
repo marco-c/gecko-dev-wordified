@@ -4137,7 +4137,7 @@ a
 <
 em
 >
-master
+default
 rule
 <
 /
@@ -4580,7 +4580,7 @@ rule
 set
 includes
 a
-master
+default
 rule
 (
 and
@@ -4603,7 +4603,7 @@ tt
 *
 use
 the
-master
+default
 rule
 .
 &
@@ -4630,7 +4630,7 @@ tt
 >
 *
 the
-master
+default
 rule
 is
 ignored
@@ -5428,7 +5428,7 @@ td
 in
 fraction
 or
-master
+default
 rule
 <
 /
@@ -5737,7 +5737,7 @@ td
 in
 fraction
 or
-master
+default
 rule
 <
 /
@@ -6045,7 +6045,7 @@ td
 td
 >
 in
-master
+default
 rule
 <
 /

@@ -843,7 +843,7 @@ the
 url
 *
 return
-TRUE
+true
 if
 TZURL
 attribute
@@ -990,7 +990,7 @@ date
 .
 *
 return
-TRUE
+true
 if
 lastModified
 attribute
@@ -2509,7 +2509,7 @@ otherwise
 .
 *
 /
-U_INTERNAL
+U_CAPI
 UBool
 U_EXPORT2
 vzone_inDaylightTime
@@ -2673,7 +2673,7 @@ time
 .
 *
 return
-TRUE
+true
 if
 the
 transition
@@ -2756,7 +2756,7 @@ time
 .
 *
 return
-TRUE
+true
 if
 the
 transition

@@ -757,7 +757,7 @@ check
 .
 *
 return
-TRUE
+true
 if
 =
 =
@@ -792,7 +792,7 @@ check
 .
 *
 return
-TRUE
+true
 if
 !
 =

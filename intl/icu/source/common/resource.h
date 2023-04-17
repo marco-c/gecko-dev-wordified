@@ -530,7 +530,7 @@ item
 .
 *
 return
-TRUE
+true
 if
 i
 is
@@ -792,7 +792,7 @@ item
 .
 *
 return
-TRUE
+true
 if
 i
 is
@@ -856,7 +856,7 @@ key
 .
 *
 return
-TRUE
+true
 if
 the
 table
@@ -1045,7 +1045,7 @@ errorCode
 return
 UnicodeString
 (
-TRUE
+true
 r
 len
 )
@@ -1113,7 +1113,7 @@ errorCode
 return
 UnicodeString
 (
-TRUE
+true
 r
 len
 )
@@ -1384,7 +1384,7 @@ root
 *
 *
 return
-TRUE
+true
 if
 this
 is

@@ -409,9 +409,9 @@ fCreationStatus
 (
 U_ZERO_ERROR
 )
-fIsMaster
+fIsPrimary
 (
-FALSE
+false
 )
 {
 }
@@ -447,9 +447,9 @@ other
 .
 fCreationStatus
 )
-fIsMaster
+fIsPrimary
 (
-FALSE
+false
 )
 {
 }
@@ -744,7 +744,7 @@ fCreationStatus
 ;
 mutable
 UBool
-fIsMaster
+fIsPrimary
 ;
 friend
 class
@@ -1124,7 +1124,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1145,7 +1145,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -2493,7 +2493,7 @@ loop
 until
 it
 returns
-FALSE
+false
 .
 *
 *
@@ -2596,7 +2596,7 @@ true
 .
 *
 return
-TRUE
+true
 if
 any
 value
@@ -2605,7 +2605,7 @@ cache
 was
 flushed
 or
-FALSE
+false
 otherwise
 .
 *
@@ -2806,7 +2806,7 @@ On
 exit
 either
 returns
-FALSE
+false
 (
 In
 this
@@ -2822,7 +2822,7 @@ object
 )
 or
 returns
-TRUE
+true
 with
 value
 *
@@ -2840,7 +2840,7 @@ status
 .
 When
 *
-FALSE
+false
 is
 returned
 status
@@ -2867,7 +2867,7 @@ remain
 unchanged
 .
 When
-TRUE
+true
 is
 *
 returned
@@ -3291,12 +3291,12 @@ const
 *
 Register
 a
-master
+primary
 cache
 entry
 .
 A
-master
+primary
 key
 is
 the
@@ -3325,7 +3325,7 @@ existing
 SharedObject
 are
 not
-masters
+primary
 -
 *
 they
@@ -3358,7 +3358,7 @@ is
 marked
 as
 a
-master
+primary
 *
 entry
 and
@@ -3390,7 +3390,7 @@ cache
 *
 /
 void
-_registerMaster
+_registerPrimary
 (
 const
 CacheKeyBase

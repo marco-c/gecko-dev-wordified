@@ -499,7 +499,7 @@ capacity_
 *
 *
 return
-FALSE
+false
 if
 memory
 allocation
@@ -661,7 +661,7 @@ ByteSink
 .
 *
 return
-TRUE
+true
 if
 the
 level
@@ -677,7 +677,7 @@ class
 implementation
 always
 returns
-TRUE
+true
 )
 *
 /
@@ -733,7 +733,7 @@ needToWrite
 level
 )
 returns
-FALSE
+false
 .
 *
 Separates

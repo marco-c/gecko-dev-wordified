@@ -2263,7 +2263,7 @@ time
 .
 *
 return
-TRUE
+true
 if
 the
 transition
@@ -2342,7 +2342,7 @@ time
 .
 *
 return
-TRUE
+true
 if
 the
 transition

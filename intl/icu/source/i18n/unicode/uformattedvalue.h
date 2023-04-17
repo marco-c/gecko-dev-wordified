@@ -561,7 +561,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 UConstrainedFieldPosition
 *
 U_EXPORT2
@@ -628,7 +628,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucfpos_reset
@@ -668,7 +668,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucfpos_close
@@ -842,7 +842,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucfpos_constrainCategory
@@ -1030,7 +1030,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucfpos_constrainField
@@ -1091,7 +1091,7 @@ after
 *
 ufmtval_nextPosition
 returns
-TRUE
+true
 .
 *
 *
@@ -1127,7 +1127,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucfpos_getCategory
@@ -1182,7 +1182,7 @@ after
 *
 ufmtval_nextPosition
 returns
-TRUE
+true
 .
 *
 *
@@ -1217,7 +1217,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucfpos_getField
@@ -1262,7 +1262,7 @@ only
 after
 ufmtval_nextPosition
 returns
-TRUE
+true
 .
 *
 *
@@ -1322,7 +1322,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucfpos_getIndexes
@@ -1411,7 +1411,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 int64_t
 U_EXPORT2
 ucfpos_getInt64IterationContext
@@ -1482,7 +1482,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucfpos_setInt64IterationContext
@@ -1564,7 +1564,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ucfpos_matchesField
@@ -1688,7 +1688,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucfpos_setState
@@ -1862,7 +1862,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -2021,14 +2021,14 @@ occurs
 .
 *
 return
-TRUE
+true
 if
 another
 position
 was
 found
 ;
-FALSE
+false
 otherwise
 .
 *
@@ -2037,7 +2037,7 @@ ICU
 64
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ufmtval_nextPosition

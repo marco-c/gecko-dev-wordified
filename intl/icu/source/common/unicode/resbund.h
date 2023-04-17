@@ -2365,13 +2365,13 @@ over
 *
 *
 return
-TRUE
+true
 if
 there
 are
 more
 elements
-FALSE
+false
 if
 there
 is

@@ -3251,7 +3251,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 uiter_current32
@@ -3362,7 +3362,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 uiter_next32
@@ -3471,7 +3471,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 uiter_previous32
@@ -3625,7 +3625,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 uiter_getState
@@ -3770,7 +3770,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setState
@@ -3948,7 +3948,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setString
@@ -4124,7 +4124,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setUTF16BE
@@ -4459,7 +4459,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setUTF8
@@ -4611,7 +4611,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setCharacterIterator
@@ -4794,7 +4794,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uiter_setReplaceable

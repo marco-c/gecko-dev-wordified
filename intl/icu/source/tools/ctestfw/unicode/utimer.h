@@ -1546,7 +1546,7 @@ timer2
 )
 {
 return
-TRUE
+true
 ;
 }
 #

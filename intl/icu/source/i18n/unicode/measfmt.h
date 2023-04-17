@@ -1882,12 +1882,12 @@ NumberFormat
 object
 .
 Returns
-TRUE
+true
 if
 locale
 changed
 ;
-FALSE
+false
 if
 no
 *

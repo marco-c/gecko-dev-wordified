@@ -383,7 +383,7 @@ h
 *
 *
 Returns
-TRUE
+true
 if
 the
 options
@@ -391,7 +391,7 @@ are
 valid
 .
 Otherwise
-FALSE
+false
 and
 sets
 an
@@ -419,7 +419,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -445,11 +445,11 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 inline

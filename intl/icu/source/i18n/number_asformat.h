@@ -151,10 +151,6 @@ APIs
 .
 *
 *
-draft
-ICU
-62
-*
 see
 NumberFormatter
 *

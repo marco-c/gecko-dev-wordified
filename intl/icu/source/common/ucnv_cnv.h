@@ -537,8 +537,8 @@ sizeof
 UConverterLoadArgs
 )
 0
-FALSE
-FALSE
+false
+false
 0
 0
 NULL
@@ -1965,14 +1965,14 @@ TO_U_USE_FALLBACK
 (
 useFallback
 )
-TRUE
+true
 #
 define
 UCNV_TO_U_USE_FALLBACK
 (
 cnv
 )
-TRUE
+true
 /
 *
 *

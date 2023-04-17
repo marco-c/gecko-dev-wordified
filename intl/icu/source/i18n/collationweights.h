@@ -505,7 +505,7 @@ order
 .
 *
 return
-TRUE
+true
 if
 it
 is

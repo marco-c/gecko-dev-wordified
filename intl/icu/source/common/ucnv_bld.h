@@ -860,7 +860,7 @@ sharedDataCached
 ;
 /
 *
-TRUE
+true
 :
 shared
 data
@@ -879,7 +879,7 @@ if
 0
 ref
 .
-FALSE
+false
 :
 shared
 data
@@ -906,7 +906,7 @@ is
 *
 *
 If
-FALSE
+false
 then
 referenceCounter
 is
@@ -1072,8 +1072,8 @@ uint32_t
 \
 NULL
 pStaticData
-FALSE
-FALSE
+false
+false
 pImpl
 \
 0
@@ -1355,7 +1355,7 @@ sharedDataIsCached
 ;
 /
 *
-TRUE
+true
 :
 shared
 data
@@ -1374,7 +1374,7 @@ if
 0
 ref
 .
-FALSE
+false
 :
 shared
 data
@@ -1402,7 +1402,7 @@ isCopyLocal
 ;
 /
 *
-TRUE
+true
 if
 UConverter
 is
@@ -1432,7 +1432,7 @@ isExtraLocal
 ;
 /
 *
-TRUE
+true
 if
 extraInfo
 is
@@ -2162,6 +2162,7 @@ void
 U_EXPORT2
 ucnv_enableCleanup
 (
+void
 )
 ;
 #

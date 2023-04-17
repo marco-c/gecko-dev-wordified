@@ -282,6 +282,9 @@ uchar
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -290,6 +293,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -4023,7 +4031,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBiDi
 *
 U_EXPORT2
@@ -4436,7 +4444,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBiDi
 *
 U_EXPORT2
@@ -4645,7 +4653,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_close
@@ -4897,7 +4905,7 @@ to
 <
 code
 >
-TRUE
+true
 <
 /
 code
@@ -5059,7 +5067,7 @@ to
 <
 code
 >
-TRUE
+true
 <
 /
 code
@@ -5124,7 +5132,7 @@ to
 <
 code
 >
-FALSE
+false
 <
 /
 code
@@ -5215,7 +5223,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setInverse
@@ -5272,7 +5280,7 @@ return
 <
 code
 >
-TRUE
+true
 <
 /
 code
@@ -5298,7 +5306,7 @@ code
 <
 code
 >
-FALSE
+false
 <
 /
 code
@@ -5330,7 +5338,7 @@ object
 .
 *
 return
-TRUE
+true
 if
 the
 Bidi
@@ -5365,7 +5373,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ubidi_isInverse
@@ -5563,7 +5571,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_orderParagraphsLTR
@@ -5620,7 +5628,7 @@ object
 .
 *
 return
-TRUE
+true
 if
 the
 Bidi
@@ -5648,7 +5656,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ubidi_isOrderParagraphsLTR
@@ -5899,7 +5907,7 @@ code
 >
 ubidi_setInverse
 (
-TRUE
+true
 )
 <
 /
@@ -7196,7 +7204,7 @@ to
 <
 code
 >
-TRUE
+true
 <
 /
 code
@@ -7780,7 +7788,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setReorderingMode
@@ -7845,7 +7853,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBiDiReorderingMode
 U_EXPORT2
 ubidi_getReorderingMode
@@ -8143,7 +8151,7 @@ code
 >
 ubidi_setInverse
 (
-TRUE
+true
 )
 <
 /
@@ -9024,7 +9032,7 @@ to
 <
 code
 >
-TRUE
+true
 <
 /
 code
@@ -9187,7 +9195,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setReorderingOptions
@@ -9252,7 +9260,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ubidi_getReorderingOptions
@@ -10267,7 +10275,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setContext
@@ -11345,7 +11353,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setPara
@@ -11882,7 +11890,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setLine
@@ -12023,7 +12031,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBiDiDirection
 U_EXPORT2
 ubidi_getDirection
@@ -12279,7 +12287,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UBiDiDirection
 U_EXPORT2
 ubidi_getBaseDirection
@@ -12353,7 +12361,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -12420,7 +12428,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getLength
@@ -12520,7 +12528,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBiDiLevel
 U_EXPORT2
 ubidi_getParaLevel
@@ -12576,7 +12584,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_countParagraphs
@@ -12874,7 +12882,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getParagraph
@@ -13107,7 +13115,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getParagraphByIndex
@@ -13227,7 +13235,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBiDiLevel
 U_EXPORT2
 ubidi_getLevelAt
@@ -13362,7 +13370,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UBiDiLevel
 *
@@ -13566,7 +13574,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getLogicalRun
@@ -13711,7 +13719,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_countRuns
@@ -14225,7 +14233,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBiDiDirection
 U_EXPORT2
 ubidi_getVisualRun
@@ -14608,7 +14616,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getVisualIndex
@@ -14928,7 +14936,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getLogicalIndex
@@ -15377,7 +15385,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getLogicalMap
@@ -15745,7 +15753,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getVisualMap
@@ -15977,7 +15985,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_reorderLogical
@@ -16209,7 +16217,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_reorderVisual
@@ -16586,7 +16594,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_invertMap
@@ -17410,7 +17418,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getProcessedLength
@@ -17690,7 +17698,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_getResultLength
@@ -18138,7 +18146,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UCharDirection
 U_EXPORT2
 ubidi_getCustomizedClass
@@ -18360,7 +18368,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_setClassCallback
@@ -18459,7 +18467,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ubidi_getClassCallback
@@ -19135,7 +19143,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_writeReordered
@@ -19553,7 +19561,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ubidi_writeReverse

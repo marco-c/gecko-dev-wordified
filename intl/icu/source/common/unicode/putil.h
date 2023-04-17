@@ -825,7 +825,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -990,7 +990,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_setDataDirectory
@@ -1056,7 +1056,7 @@ directory
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 const
 char
 *
@@ -1134,7 +1134,7 @@ data
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 u_setTimeZoneFilesDirectory
@@ -1432,7 +1432,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_charsToUChars
@@ -1603,7 +1603,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_UCharsToChars

@@ -1295,7 +1295,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1351,7 +1351,7 @@ cc
 remainingCapacity
 ;
 return
-TRUE
+true
 ;
 }
 UBool
@@ -2705,7 +2705,7 @@ c
 *
 *
 Returns
-TRUE
+true
 if
 the
 single
@@ -3013,7 +3013,7 @@ offset
 1
 hasCompBoundaryAfter
 =
-FALSE
+false
 INERT
 =
 1
@@ -3024,7 +3024,7 @@ offset
 0
 hasCompBoundaryAfter
 =
-TRUE
+true
 /
 /
 norm16

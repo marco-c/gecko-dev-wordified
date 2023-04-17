@@ -410,6 +410,9 @@ uloc
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -418,6 +421,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1480,7 +1488,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -1712,7 +1720,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -1919,7 +1927,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -2185,7 +2193,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ures_close
@@ -2425,7 +2433,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ures_getVersion
@@ -2655,7 +2663,7 @@ ICU
 8
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -2849,7 +2857,7 @@ code
 internal
 *
 /
-U_INTERNAL
+U_CAPI
 void
 U_EXPORT2
 ures_openFillIn
@@ -3019,7 +3027,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -3094,7 +3102,7 @@ If
 forceCopy
 =
 =
-TRUE
+true
 then
 the
 string
@@ -3117,7 +3125,7 @@ If
 forceCopy
 =
 =
-FALSE
+false
 then
 the
 string
@@ -3313,7 +3321,7 @@ caller
 param
 forceCopy
 If
-TRUE
+true
 then
 the
 output
@@ -3336,7 +3344,7 @@ appropriate
 .
 *
 If
-FALSE
+false
 then
 the
 dest
@@ -3508,7 +3516,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -3675,7 +3683,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 uint8_t
 *
@@ -3838,7 +3846,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 int32_t
 *
@@ -3965,7 +3973,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 uint32_t
 U_EXPORT2
 ures_getUInt
@@ -4092,7 +4100,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ures_getInt
@@ -4195,7 +4203,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ures_getSize
@@ -4249,7 +4257,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UResType
 U_EXPORT2
 ures_getType
@@ -4323,7 +4331,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -4385,7 +4393,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ures_resetIterator
@@ -4419,13 +4427,13 @@ a
 resource
 *
 return
-TRUE
+true
 if
 there
 are
 more
 elements
-FALSE
+false
 if
 there
 is
@@ -4440,7 +4448,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 ures_hasNext
@@ -4578,7 +4586,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -4711,7 +4719,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -4871,7 +4879,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -4992,7 +5000,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -5072,7 +5080,7 @@ If
 forceCopy
 =
 =
-TRUE
+true
 then
 the
 string
@@ -5095,7 +5103,7 @@ If
 forceCopy
 =
 =
-FALSE
+false
 then
 the
 string
@@ -5301,7 +5309,7 @@ caller
 param
 forceCopy
 If
-TRUE
+true
 then
 the
 output
@@ -5324,7 +5332,7 @@ appropriate
 .
 *
 If
-FALSE
+false
 then
 the
 dest
@@ -5496,7 +5504,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -5641,7 +5649,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UResourceBundle
 *
 U_EXPORT2
@@ -5774,7 +5782,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 UChar
 *
@@ -5865,7 +5873,7 @@ If
 forceCopy
 =
 =
-TRUE
+true
 then
 the
 string
@@ -5888,7 +5896,7 @@ If
 forceCopy
 =
 =
-FALSE
+false
 then
 the
 string
@@ -6094,7 +6102,7 @@ caller
 param
 forceCopy
 If
-TRUE
+true
 then
 the
 output
@@ -6117,7 +6125,7 @@ appropriate
 .
 *
 If
-FALSE
+false
 then
 the
 dest
@@ -6289,7 +6297,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -6482,7 +6490,7 @@ result
 .
 setTo
 (
-TRUE
+true
 r
 len
 )
@@ -6651,7 +6659,7 @@ result
 .
 setTo
 (
-TRUE
+true
 r
 len
 )
@@ -6788,7 +6796,7 @@ result
 .
 setTo
 (
-TRUE
+true
 r
 len
 )
@@ -6933,7 +6941,7 @@ result
 .
 setTo
 (
-TRUE
+true
 r
 len
 )
@@ -7022,7 +7030,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2

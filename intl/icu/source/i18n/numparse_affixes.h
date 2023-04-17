@@ -753,6 +753,9 @@ once
 AffixPatternMatcher
 build
 (
+UErrorCode
+&
+status
 )
 ;
 private
@@ -884,6 +887,9 @@ const
 UnicodeString
 &
 pattern
+UErrorCode
+&
+status
 )
 ;
 friend

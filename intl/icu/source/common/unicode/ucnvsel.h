@@ -317,6 +317,9 @@ ucnv
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -325,6 +328,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -606,7 +614,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UConverterSelector
 *
 U_EXPORT2
@@ -698,7 +706,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnvsel_close
@@ -891,7 +899,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UConverterSelector
 *
 U_EXPORT2
@@ -1013,7 +1021,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 ucnvsel_serialize
@@ -1129,7 +1137,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1247,7 +1255,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2

@@ -369,7 +369,7 @@ makeIntoFractionRuleSet
 {
 fIsFractionRuleSet
 =
-TRUE
+true
 ;
 }
 ~
@@ -767,7 +767,7 @@ radix
 UBool
 raw
 =
-FALSE
+false
 )
 ;
 #
@@ -803,7 +803,7 @@ radix
 UBool
 raw
 =
-FALSE
+false
 )
 ;
 int64_t

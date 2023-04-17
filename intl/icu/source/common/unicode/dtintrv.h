@@ -788,7 +788,7 @@ operator
 .
 *
 return
-TRUE
+true
 if
 the
 two
@@ -827,7 +827,7 @@ equality
 operator
 *
 return
-TRUE
+true
 if
 the
 two

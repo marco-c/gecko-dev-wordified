@@ -859,7 +859,7 @@ contains
 will
 always
 return
-FALSE
+false
 etc
 .
 *

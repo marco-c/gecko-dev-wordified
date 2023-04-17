@@ -343,15 +343,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 uloc
 .
 h
@@ -372,6 +363,23 @@ stdarg
 .
 h
 >
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -1767,7 +1775,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_formatMessage
@@ -1959,7 +1967,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vformatMessage
@@ -2124,7 +2132,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_parseMessage
@@ -2289,7 +2297,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_vparseMessage
@@ -2500,7 +2508,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_formatMessageWithError
@@ -2709,7 +2717,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_vformatMessageWithError
@@ -2894,7 +2902,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_parseMessageWithError
@@ -3079,7 +3087,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 u_vparseMessageWithError
@@ -3299,7 +3307,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UMessageFormat
 *
 U_EXPORT2
@@ -3358,7 +3366,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_close
@@ -3486,7 +3494,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UMessageFormat
 U_EXPORT2
 umsg_clone
@@ -3547,7 +3555,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_setLocale
@@ -3603,7 +3611,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -3709,7 +3717,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_applyPattern
@@ -3813,7 +3821,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 umsg_toPattern
@@ -3972,7 +3980,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 umsg_format
@@ -4132,7 +4140,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 umsg_vformat
@@ -4278,7 +4286,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_parse
@@ -4430,7 +4438,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 umsg_vparse
@@ -4672,7 +4680,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 umsg_autoQuoteApostrophe

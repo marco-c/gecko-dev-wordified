@@ -801,7 +801,7 @@ system
 *
 param
 isAlgorithmic
-TRUE
+true
 if
 the
 numbering
@@ -1441,7 +1441,7 @@ const
 *
 *
 Returns
-TRUE
+true
 if
 the
 given
@@ -1452,7 +1452,7 @@ algorithmic
 *
 *
 return
-TRUE
+true
 if
 the
 numbering
@@ -1463,7 +1463,7 @@ algorithmic
 *
 Otherwise
 return
-FALSE
+false
 .
 *
 stable

@@ -257,15 +257,6 @@ include
 "
 unicode
 /
-localpointer
-.
-h
-"
-#
-include
-"
-unicode
-/
 uscript
 .
 h
@@ -279,6 +270,23 @@ udisplaycontext
 .
 h
 "
+#
+if
+U_SHOW_CPLUSPLUS_API
+#
+include
+"
+unicode
+/
+localpointer
+.
+h
+"
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -499,7 +507,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 ULocaleDisplayNames
 *
 U_EXPORT2
@@ -547,7 +555,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 uldn_close
@@ -673,7 +681,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -720,7 +728,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UDialectHandling
 U_EXPORT2
 uldn_getDialectHandling
@@ -825,7 +833,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_localeDisplayName
@@ -946,7 +954,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_languageDisplayName
@@ -1055,7 +1063,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_scriptDisplayName
@@ -1166,7 +1174,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_scriptCodeDisplayName
@@ -1275,7 +1283,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_regionDisplayName
@@ -1383,7 +1391,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_variantDisplayName
@@ -1493,7 +1501,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_keyDisplayName
@@ -1614,7 +1622,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 uldn_keyValueDisplayName
@@ -1755,7 +1763,7 @@ ICU
 51
 *
 /
-U_STABLE
+U_CAPI
 ULocaleDisplayNames
 *
 U_EXPORT2
@@ -1858,7 +1866,7 @@ ICU
 51
 *
 /
-U_STABLE
+U_CAPI
 UDisplayContext
 U_EXPORT2
 uldn_getContext

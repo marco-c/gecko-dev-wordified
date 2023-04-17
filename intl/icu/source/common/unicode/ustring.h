@@ -947,7 +947,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strlen
@@ -1086,7 +1086,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_countChar32
@@ -1304,7 +1304,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 u_strHasMoreChar32Than
@@ -1419,7 +1419,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -1597,7 +1597,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -1814,7 +1814,7 @@ see
 u_strFindLast
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -2066,7 +2066,7 @@ see
 u_strFindLast
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -2239,7 +2239,7 @@ see
 u_strFindFirst
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -2404,7 +2404,7 @@ see
 u_strFindFirst
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -2618,7 +2618,7 @@ see
 u_strFindLast
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -2870,7 +2870,7 @@ see
 u_strFindLast
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -3043,7 +3043,7 @@ see
 u_strFindLast
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -3208,7 +3208,7 @@ see
 u_strFindLast
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -3358,7 +3358,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -3505,7 +3505,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strcspn
@@ -3648,7 +3648,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strspn
@@ -3939,7 +3939,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -4077,7 +4077,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strcmp
@@ -4169,7 +4169,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strcmpCodePointOrder
@@ -4399,7 +4399,7 @@ code
 unit
 order
 (
-FALSE
+false
 )
 *
 and
@@ -4407,7 +4407,7 @@ code
 point
 order
 (
-TRUE
+true
 )
 .
 *
@@ -4434,7 +4434,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strCompare
@@ -4535,7 +4535,7 @@ code
 unit
 order
 (
-FALSE
+false
 )
 *
 and
@@ -4543,7 +4543,7 @@ code
 point
 order
 (
-TRUE
+true
 )
 .
 *
@@ -4574,7 +4574,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strCompareIter
@@ -4934,7 +4934,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strCaseCompare
@@ -5129,7 +5129,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strncmp
@@ -5254,7 +5254,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strncmpCodePointOrder
@@ -5403,7 +5403,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strcasecmp
@@ -5577,7 +5577,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strncasecmp
@@ -5749,7 +5749,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_memcasecmp
@@ -5818,7 +5818,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -5954,7 +5954,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -6043,7 +6043,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -6176,7 +6176,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -6260,7 +6260,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -6392,7 +6392,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -6487,7 +6487,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -6580,7 +6580,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -6681,7 +6681,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -6787,7 +6787,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_memcmp
@@ -6912,7 +6912,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_memcmpCodePointOrder
@@ -7095,7 +7095,7 @@ see
 u_strFindFirst
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -7275,7 +7275,7 @@ see
 u_strFindFirst
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -7457,7 +7457,7 @@ see
 u_strFindLast
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -7637,7 +7637,7 @@ see
 u_strFindLast
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -7845,7 +7845,7 @@ static
 UBool
 didInit
 =
-FALSE
+false
 ;
 *
 *
@@ -7889,7 +7889,7 @@ jumps
 *
 didInit
 =
-TRUE
+true
 ;
 *
 }
@@ -8712,7 +8712,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_unescape
@@ -9100,7 +9100,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 U_EXPORT2
 u_unescapeAt
@@ -9347,7 +9347,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strToUpper
@@ -9602,7 +9602,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strToLower
@@ -10016,7 +10016,7 @@ ICU
 1
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strToTitle
@@ -10300,7 +10300,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 u_strFoldCase
@@ -10604,7 +10604,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 wchar_t
 *
 U_EXPORT2
@@ -10890,7 +10890,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -11171,7 +11171,7 @@ see
 u_strFromUTF8
 *
 /
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -11432,7 +11432,7 @@ see
 u_strFromUTF8Lenient
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -11857,7 +11857,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -12290,7 +12290,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -12854,7 +12854,7 @@ ICU
 6
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -13115,7 +13115,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 *
 U_EXPORT2
@@ -13376,7 +13376,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -13801,7 +13801,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UChar32
 *
 U_EXPORT2
@@ -14231,7 +14231,7 @@ ICU
 2
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2
@@ -14643,7 +14643,7 @@ see
 u_strFromJavaModifiedUTF8WithSub
 *
 /
-U_STABLE
+U_CAPI
 char
 *
 U_EXPORT2
@@ -15140,7 +15140,7 @@ ICU
 4
 *
 /
-U_STABLE
+U_CAPI
 UChar
 *
 U_EXPORT2

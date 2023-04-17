@@ -262,6 +262,9 @@ uenum
 h
 "
 #
+if
+U_SHOW_CPLUSPLUS_API
+#
 include
 "
 unicode
@@ -270,6 +273,11 @@ localpointer
 .
 h
 "
+#
+endif
+/
+/
+U_SHOW_CPLUSPLUS_API
 /
 *
 *
@@ -600,7 +608,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UNumberingSystem
 *
 U_EXPORT2
@@ -829,7 +837,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UNumberingSystem
 *
 U_EXPORT2
@@ -877,7 +885,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 unumsys_close
@@ -1022,7 +1030,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UEnumeration
 *
 U_EXPORT2
@@ -1117,7 +1125,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 const
 char
 *
@@ -1165,7 +1173,7 @@ desired
 .
 *
 return
-TRUE
+true
 if
 the
 specified
@@ -1184,7 +1192,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 UBool
 U_EXPORT2
 unumsys_isAlgorithmic
@@ -1272,7 +1280,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unumsys_getRadix
@@ -1476,7 +1484,7 @@ ICU
 52
 *
 /
-U_STABLE
+U_CAPI
 int32_t
 U_EXPORT2
 unumsys_getDescription

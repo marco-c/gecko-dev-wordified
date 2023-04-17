@@ -854,7 +854,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbFromUWriteBytes
@@ -992,7 +992,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbFromUWriteSub
@@ -1110,7 +1110,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbFromUWriteUChars
@@ -1219,7 +1219,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbToUWriteUChars
@@ -1308,7 +1308,7 @@ ICU
 0
 *
 /
-U_STABLE
+U_CAPI
 void
 U_EXPORT2
 ucnv_cbToUWriteSub

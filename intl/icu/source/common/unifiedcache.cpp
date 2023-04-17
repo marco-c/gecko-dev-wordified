@@ -2049,7 +2049,7 @@ softRefCount
 0
 )
 {
-_registerMaster
+_registerPrimary
 (
 keyToAdopt
 value
@@ -2237,7 +2237,7 @@ if
 we
 added
 a
-master
+primary
 entry
 /
 /
@@ -2663,7 +2663,7 @@ void
 UnifiedCache
 :
 :
-_registerMaster
+_registerPrimary
 (
 const
 CacheKeyBase
@@ -2679,7 +2679,7 @@ const
 theKey
 -
 >
-fIsMaster
+fIsPrimary
 =
 true
 ;
@@ -2779,7 +2779,7 @@ softRefCount
 0
 )
 {
-_registerMaster
+_registerPrimary
 (
 theKey
 value
@@ -3135,7 +3135,7 @@ are
 either
 not
 a
-master
+primary
 or
 have
 just
@@ -3160,7 +3160,7 @@ return
 theKey
 -
 >
-fIsMaster
+fIsPrimary
 |
 |
 (
