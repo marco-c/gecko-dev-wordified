@@ -854,9 +854,6 @@ matchedSelectors
 includes
 (
 "
-*
-|
-*
 :
 link
 "
@@ -870,9 +867,6 @@ is
 a
 rule
 for
-*
-|
-*
 :
 link
 "
