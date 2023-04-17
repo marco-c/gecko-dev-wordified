@@ -420,6 +420,16 @@ CompileOptions
 options
 )
 ;
+const
+JSFunctionSpec
+*
+FindIntrinsicSpec
+(
+PropertyName
+*
+name
+)
+;
 #
 ifdef
 DEBUG
