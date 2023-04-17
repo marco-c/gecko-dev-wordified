@@ -225,11 +225,6 @@ nsIDashboardEventNotifier
 idl
 "
 "
-nsIDeprecationWarner
-.
-idl
-"
-"
 nsIDHCPClient
 .
 idl

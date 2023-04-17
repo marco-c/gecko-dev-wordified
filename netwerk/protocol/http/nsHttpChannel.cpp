@@ -821,13 +821,6 @@ h
 #
 include
 "
-nsIDeprecationWarner
-.
-h
-"
-#
-include
-"
 nsIDNSRecord
 .
 h
