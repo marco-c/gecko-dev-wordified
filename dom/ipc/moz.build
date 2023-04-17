@@ -487,6 +487,11 @@ ClonedErrorHolder
 cpp
 "
 "
+CoalescedInputData
+.
+cpp
+"
+"
 CoalescedMouseData
 .
 cpp
