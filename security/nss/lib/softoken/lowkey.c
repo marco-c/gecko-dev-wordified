@@ -1396,7 +1396,7 @@ pubk
 -
 >
 arena
-PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -1918,7 +1918,7 @@ publicValue
 publicValue
 )
 ;
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 &
 publicValue
@@ -2235,7 +2235,7 @@ publicValue
 publicValue
 )
 ;
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 &
 publicValue
@@ -2535,7 +2535,7 @@ break
 PORT_FreeArena
 (
 arena
-PR_FALSE
+PR_TRUE
 )
 ;
 return

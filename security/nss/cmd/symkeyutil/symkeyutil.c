@@ -1719,6 +1719,11 @@ n
 "
 )
 ;
+PORT_Free
+(
+name
+)
+;
 }
 SECStatus
 ListKeys

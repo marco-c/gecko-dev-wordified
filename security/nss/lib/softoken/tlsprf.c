@@ -1182,6 +1182,7 @@ prf_cx
 >
 cxIsFIPS
 =
+sftk_isFIPS
 (
 key
 -
@@ -1190,9 +1191,6 @@ slot
 -
 >
 slotID
-=
-=
-FIPS_SLOT_ID
 )
 ;
 prf_cx

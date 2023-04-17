@@ -3232,6 +3232,8 @@ NULL
 unsigned
 int
 newInKeySize
+=
+0
 ;
 unsigned
 int
@@ -3721,9 +3723,10 @@ if
 newInKey
 )
 {
-PORT_Free
+PORT_ZFree
 (
 newInKey
+newInKeySize
 )
 ;
 }

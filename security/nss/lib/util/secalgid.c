@@ -648,7 +648,7 @@ PRBool
 freeit
 )
 {
-SECITEM_FreeItem
+SECITEM_ZfreeItem
 (
 &
 algid
