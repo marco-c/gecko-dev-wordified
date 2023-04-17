@@ -12618,7 +12618,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 InsertTextAt
