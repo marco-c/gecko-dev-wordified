@@ -1715,6 +1715,7 @@ api
 {
 BoxShadowClipMode
 ClipId
+FillRule
 ImageKey
 ImageRendering
 PipelineId
@@ -1855,6 +1856,7 @@ prim_store
 PointKey
 SizeKey
 RectangleKey
+PolygonKey
 }
 ;
 use
@@ -3809,6 +3811,7 @@ ImageMask
 rect
 image
 repeat
+polygon
 )
 =
 >
@@ -3827,6 +3830,7 @@ into
 (
 )
 repeat
+polygon
 }
 }
 ClipItemKeyKind
@@ -5064,6 +5068,8 @@ Image
 rect
 image
 repeat
+.
+.
 }
 =
 node
@@ -9899,6 +9905,7 @@ ImageMask
 RectangleKey
 ImageKey
 bool
+PolygonKey
 )
 BoxShadow
 (
@@ -10018,6 +10025,15 @@ ImageMask
 mask_rect
 :
 LayoutRect
+points
+:
+Vec
+<
+LayoutPoint
+>
+fill_rule
+:
+FillRule
 )
 -
 >
@@ -10039,6 +10055,15 @@ image
 image_mask
 .
 repeat
+PolygonKey
+:
+:
+new
+(
+&
+points
+fill_rule
+)
 )
 }
 pub
@@ -10479,6 +10504,9 @@ LayoutRect
 repeat
 :
 bool
+polygon
+:
+PolygonKey
 }
 BoxShadow
 {
