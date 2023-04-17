@@ -49127,15 +49127,10 @@ result
 .
 mCORSUsed
 =
-(
 corsmode
 !
 =
-imgIRequest
-:
-:
 CORS_NONE
-)
 ;
 }
 bool
