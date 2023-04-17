@@ -114,7 +114,7 @@ documentURI
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (

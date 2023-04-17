@@ -532,7 +532,7 @@ exturi
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -2894,7 +2894,7 @@ myuri
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -2908,7 +2908,7 @@ exturi
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -3258,7 +3258,7 @@ myuri
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (
@@ -3272,7 +3272,7 @@ exturi
 =
 browser
 .
-extension
+runtime
 .
 getURL
 (
