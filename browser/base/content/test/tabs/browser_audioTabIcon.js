@@ -123,6 +123,16 @@ linkedBrowser
 ;
 let
 awaitDOMAudioPlaybackStopped
+;
+if
+(
+!
+browser
+.
+audioMuted
+)
+{
+awaitDOMAudioPlaybackStopped
 =
 BrowserTestUtils
 .
@@ -143,6 +153,7 @@ pause
 "
 )
 ;
+}
 await
 SpecialPowers
 .
