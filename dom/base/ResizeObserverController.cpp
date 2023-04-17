@@ -1442,6 +1442,8 @@ us
 .
 aSizes
 .
+mDOMSizes
+.
 mDOMResizeObserverControllerSize
 +
 =

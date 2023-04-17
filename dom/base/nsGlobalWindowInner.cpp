@@ -41033,6 +41033,8 @@ const
 {
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMOtherSize
 +
 =
@@ -41046,6 +41048,8 @@ this
 )
 ;
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMOtherSize
 +
@@ -41076,6 +41080,8 @@ elm
 )
 {
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMOtherSize
 +
@@ -41194,6 +41200,8 @@ mNavigator
 {
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMOtherSize
 +
 =
@@ -41239,6 +41247,8 @@ et
 )
 {
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMEventTargetsSize
 +
@@ -41299,6 +41309,8 @@ mPerformance
 {
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMPerformanceUserEntries
 =
 mPerformance
@@ -41315,6 +41327,8 @@ mMallocSizeOf
 ;
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMPerformanceResourceEntries
 =
 mPerformance
@@ -41330,6 +41344,8 @@ mMallocSizeOf
 )
 ;
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMPerformanceEventEntries
 =

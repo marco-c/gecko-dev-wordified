@@ -49291,6 +49291,8 @@ const
 {
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMOtherSize
 +
 =

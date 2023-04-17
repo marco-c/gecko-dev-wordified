@@ -1105,6 +1105,8 @@ const
 {
 aSizes
 .
+mDOMSizes
+.
 mDOMOtherSize
 +
 =
@@ -1149,6 +1151,8 @@ mData
 )
 {
 aSizes
+.
+mDOMSizes
 .
 mDOMOtherSize
 +

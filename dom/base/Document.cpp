@@ -93412,6 +93412,8 @@ aWindowSizes
 &
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMOtherSize
 )
 ;
@@ -93601,6 +93603,8 @@ aWindowSizes
 }
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMMediaQueryLists
 +
 =
@@ -93626,6 +93630,8 @@ mDOMMediaQueryLists
 )
 {
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMMediaQueryLists
 +
@@ -93762,6 +93768,8 @@ aWindowSizes
 }
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMOtherSize
 +
 =
@@ -93782,6 +93790,8 @@ mMallocSizeOf
 0
 ;
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMOtherSize
 +
@@ -93840,6 +93850,8 @@ aWindowSizes
 const
 {
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMOtherSize
 +
@@ -94003,6 +94015,8 @@ ELEMENT_NODE
 :
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMElementNodesSize
 +
 =
@@ -94017,6 +94031,8 @@ nsINode
 TEXT_NODE
 :
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMTextNodesSize
 +
@@ -94033,6 +94049,8 @@ CDATA_SECTION_NODE
 :
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMCDATANodesSize
 +
 =
@@ -94048,6 +94066,8 @@ COMMENT_NODE
 :
 aWindowSizes
 .
+mDOMSizes
+.
 mDOMCommentNodesSize
 +
 =
@@ -94058,6 +94078,8 @@ break
 default
 :
 aWindowSizes
+.
+mDOMSizes
 .
 mDOMOtherSize
 +

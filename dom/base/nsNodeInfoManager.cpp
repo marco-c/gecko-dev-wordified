@@ -2518,6 +2518,8 @@ const
 {
 aSizes
 .
+mDOMSizes
+.
 mDOMOtherSize
 +
 =
