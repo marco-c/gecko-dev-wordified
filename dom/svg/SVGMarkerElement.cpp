@@ -1006,9 +1006,14 @@ f
 {
 rv
 .
-Throw
+ThrowTypeError
 (
-NS_ERROR_DOM_SVG_WRONG_TYPE_ERR
+"
+Unknown
+or
+invalid
+type
+"
 )
 ;
 return
