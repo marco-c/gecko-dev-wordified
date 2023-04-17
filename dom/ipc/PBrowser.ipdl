@@ -1378,9 +1378,6 @@ WebProgressData
 MaybeDiscardedBrowsingContext
 browsingContext
 ;
-bool
-isLoadingDocument
-;
 uint32_t
 loadType
 ;
