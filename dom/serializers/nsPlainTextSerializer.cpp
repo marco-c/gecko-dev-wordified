@@ -2475,7 +2475,6 @@ nsComputedDOMStyle
 GetComputedStyleNoFlush
 (
 aElement
-nullptr
 )
 ;
 return
@@ -11506,7 +11505,6 @@ nsComputedDOMStyle
 GetComputedStyleNoFlush
 (
 aElement
-nullptr
 )
 ;
 if
@@ -11588,7 +11586,6 @@ nsComputedDOMStyle
 GetComputedStyleNoFlush
 (
 aElement
-nullptr
 )
 ;
 if

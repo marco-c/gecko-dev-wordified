@@ -184,7 +184,6 @@ nsComputedDOMStyle
 GetComputedStyleNoFlush
 (
 aElement
-nullptr
 )
 ;
 }

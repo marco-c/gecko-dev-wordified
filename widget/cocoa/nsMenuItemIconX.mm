@@ -824,7 +824,6 @@ aContent
 AsElement
 (
 )
-nullptr
 )
 ;
 if

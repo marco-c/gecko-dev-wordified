@@ -445,7 +445,10 @@ GetUnanimatedComputedStyleNoFlush
 mKey
 .
 mElement
-nullptr
+PseudoStyleType
+:
+:
+NotPseudo
 )
 ;
 }

@@ -1663,7 +1663,6 @@ nsComputedDOMStyle
 GetComputedStyleNoFlush
 (
 aElement
-nullptr
 )
 )
 {

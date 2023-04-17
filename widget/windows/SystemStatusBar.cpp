@@ -765,7 +765,6 @@ nsComputedDOMStyle
 GetComputedStyle
 (
 mMenu
-nullptr
 )
 ;
 if

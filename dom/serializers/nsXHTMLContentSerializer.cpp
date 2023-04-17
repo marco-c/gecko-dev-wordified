@@ -4201,7 +4201,6 @@ aNode
 AsElement
 (
 )
-nullptr
 )
 ;
 if

@@ -4239,7 +4239,6 @@ nsComputedDOMStyle
 GetComputedStyleNoFlush
 (
 element
-nullptr
 )
 ;
 if
