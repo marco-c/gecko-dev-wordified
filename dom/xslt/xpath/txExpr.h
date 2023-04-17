@@ -2379,15 +2379,8 @@ to
 the
 list
 *
-return
-nsresult
-indicating
-out
-of
-memory
-*
 /
-nsresult
+void
 add
 (
 Expr
@@ -2410,9 +2403,6 @@ AppendElement
 (
 aExpr
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
