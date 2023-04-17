@@ -598,8 +598,6 @@ equal
 httpVersion
 "
 h3
--
-27
 "
 )
 ;
