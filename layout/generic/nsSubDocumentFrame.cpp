@@ -5079,7 +5079,7 @@ if
 aPresContext
 -
 >
-IsRootPaginatedDocument
+IsPaginated
 (
 )
 &
