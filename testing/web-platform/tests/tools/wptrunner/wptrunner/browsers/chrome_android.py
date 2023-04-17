@@ -251,7 +251,7 @@ webdriver_args
 )
             
 "
-stackwalk_binary
+stackparser_script
 "
 :
 kwargs
@@ -259,12 +259,12 @@ kwargs
 get
 (
 "
-stackwalk_binary
+stackparser_script
 "
 )
             
 "
-symbols_path
+output_directory
 "
 :
 kwargs
@@ -272,7 +272,7 @@ kwargs
 get
 (
 "
-symbols_path
+output_directory
 "
 )
 }
@@ -913,11 +913,11 @@ webdriver_args
 =
 None
                  
-stackwalk_binary
+stackparser_script
 =
 None
                  
-symbols_path
+output_directory
 =
 None
 )
@@ -942,15 +942,15 @@ device_serial
         
 self
 .
-stackwalk_binary
+stackparser_script
 =
-stackwalk_binary
+stackparser_script
         
 self
 .
-symbols_path
+output_directory
 =
-symbols_path
+output_directory
         
 self
 .
@@ -1370,64 +1370,17 @@ return
 cmd
     
 def
-check_crash
-(
-self
-process
-test
-)
-:
-        
-self
-.
-maybe_parse_tombstone
-(
-)
-        
-#
-Existence
-of
-a
-tombstone
-does
-not
-necessarily
-mean
-test
-target
-has
-        
-#
-crashed
-.
-Always
-return
-False
-so
-we
-don
-'
-t
-change
-the
-test
-results
-.
-        
-return
-False
-    
-def
 maybe_parse_tombstone
 (
 self
+logger
 )
 :
         
 if
 self
 .
-stackwalk_binary
+stackparser_script
 :
             
 cmd
@@ -1435,7 +1388,7 @@ cmd
 [
 self
 .
-stackwalk_binary
+stackparser_script
 "
 -
 a
@@ -1482,7 +1435,7 @@ directory
 "
 self
 .
-symbols_path
+output_directory
 ]
 )
             
@@ -1505,8 +1458,6 @@ splitlines
 )
 :
                 
-self
-.
 logger
 .
 process_output
@@ -1682,11 +1633,11 @@ webdriver_args
 =
 None
                  
-stackwalk_binary
+stackparser_script
 =
 None
                  
-symbols_path
+output_directory
 =
 None
 )
@@ -1707,8 +1658,8 @@ remote_queue
 device_serial
                 
 webdriver_args
-stackwalk_binary
-symbols_path
+stackparser_script
+output_directory
 )
         
 self

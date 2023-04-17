@@ -1,3 +1,14 @@
+/
+/
+META
+:
+script
+=
+websocket
+.
+sub
+.
+js
 async_test
 (
 t
