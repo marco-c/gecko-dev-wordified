@@ -465,6 +465,15 @@ return
 front
 ;
 }
+get
+isProcessDescriptor
+(
+)
+{
+return
+true
+;
+}
 getCachedTarget
 (
 )

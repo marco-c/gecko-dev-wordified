@@ -302,6 +302,15 @@ pop
 ;
 }
 get
+isWorkerDescriptor
+(
+)
+{
+return
+true
+;
+}
+get
 isDedicatedWorker
 (
 )

@@ -306,6 +306,15 @@ isSystem
 ;
 }
 get
+isWebExtensionDescriptor
+(
+)
+{
+return
+true
+;
+}
+get
 isWebExtension
 (
 )
