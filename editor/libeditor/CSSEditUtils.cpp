@@ -3500,6 +3500,16 @@ u
 "
 _ns
 document
+nsComputedDOMStyle
+:
+:
+StyleType
+:
+:
+All
+IgnoreErrors
+(
+)
 )
 ;
 return

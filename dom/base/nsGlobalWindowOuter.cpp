@@ -45416,6 +45416,9 @@ nsAString
 aPseudoElt
 bool
 aDefaultStylesOnly
+ErrorResult
+&
+aRv
 )
 {
 if
@@ -45457,6 +45460,7 @@ StyleType
 :
 :
 All
+aRv
 )
 ;
 return

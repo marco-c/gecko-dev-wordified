@@ -2429,14 +2429,11 @@ nsComputedDOMStyle
 :
 :
 StyleType
-=
-nsComputedDOMStyle
+mozilla
 :
 :
-StyleType
-:
-:
-All
+ErrorResult
+&
 )
 ;
 #

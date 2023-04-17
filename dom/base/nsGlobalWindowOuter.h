@@ -5990,6 +5990,12 @@ nsAString
 aPseudoElt
 bool
 aDefaultStylesOnly
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 ;
 /
