@@ -707,8 +707,8 @@ Context
 context
 ShaderProgramID
 programPacked
-GLuint
-uniformBlockIndex
+UniformBlockIndex
+uniformBlockIndexPacked
 GLsizei
 bufSize
 const
@@ -730,8 +730,8 @@ Context
 context
 ShaderProgramID
 programPacked
-GLuint
-uniformBlockIndex
+UniformBlockIndex
+uniformBlockIndexPacked
 GLenum
 pname
 const
@@ -1658,8 +1658,8 @@ Context
 context
 ShaderProgramID
 programPacked
-GLuint
-uniformBlockIndex
+UniformBlockIndex
+uniformBlockIndexPacked
 GLuint
 uniformBlockBinding
 )

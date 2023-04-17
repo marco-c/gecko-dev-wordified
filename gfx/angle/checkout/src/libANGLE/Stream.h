@@ -439,6 +439,7 @@ methods
 Error
 validateD3D11Texture
 (
+const
 void
 *
 texture

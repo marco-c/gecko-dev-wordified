@@ -156,6 +156,13 @@ gl
 ProgramMergedVaryings
 &
 mergedVaryings
+const
+gl
+:
+:
+ProgramVaryingPacking
+&
+varyingPacking
 )
 ;
 const

@@ -137,10 +137,10 @@ CollectVariableRefCountsTraverser
 using
 RefCountMap
 =
-std
+angle
 :
 :
-unordered_map
+HashMap
 <
 int
 unsigned
@@ -1472,9 +1472,7 @@ emptyReplacement
 ;
 mMultiReplacements
 .
-push_back
-(
-NodeReplaceWithMultipleEntry
+emplace_back
 (
 getParentNode
 (
@@ -1485,6 +1483,11 @@ getAsBlock
 (
 )
 node
+std
+:
+:
+move
+(
 emptyReplacement
 )
 )

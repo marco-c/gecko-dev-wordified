@@ -226,6 +226,15 @@ const
 0
 ;
 virtual
+bool
+isYUV
+(
+)
+const
+=
+0
+;
+virtual
 gl
 :
 :

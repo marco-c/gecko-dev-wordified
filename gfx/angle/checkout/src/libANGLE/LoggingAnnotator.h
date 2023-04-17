@@ -113,9 +113,6 @@ gl
 Context
 *
 context
-gl
-:
-:
 EntryPoint
 entryPoint
 const
@@ -142,9 +139,6 @@ const
 char
 *
 eventName
-gl
-:
-:
 EntryPoint
 entryPoint
 )

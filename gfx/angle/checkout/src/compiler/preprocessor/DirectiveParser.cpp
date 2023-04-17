@@ -911,6 +911,12 @@ isEOD
 (
 token
 )
+&
+&
+!
+skipping
+(
+)
 )
 {
 mSeenNonPreprocessorToken
