@@ -558,10 +558,6 @@ const
 TextureInfo
 &
 aInfo
-const
-LayersBackend
-&
-aLayersBackend
 )
 ;
 mozilla

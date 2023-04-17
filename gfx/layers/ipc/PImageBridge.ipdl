@@ -464,8 +464,6 @@ CompositableHandle
 aHandle
 TextureInfo
 aInfo
-LayersBackend
-aBackend
 )
 ;
 async

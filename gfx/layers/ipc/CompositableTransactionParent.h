@@ -323,8 +323,6 @@ const
 TextureInfo
 &
 aInfo
-bool
-aUseWebRender
 )
 ;
 RefPtr
@@ -337,10 +335,6 @@ const
 CompositableHandle
 &
 aHandle
-bool
-aAllowDisablingWebRender
-=
-false
 )
 ;
 protected

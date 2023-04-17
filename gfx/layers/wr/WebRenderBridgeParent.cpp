@@ -16387,12 +16387,6 @@ AddCompositable
 (
 aHandle
 aInfo
-/
-*
-aUseWebRender
-*
-/
-true
 )
 )
 {
