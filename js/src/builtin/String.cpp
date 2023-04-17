@@ -22859,9 +22859,6 @@ String_slice
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -22873,8 +22870,6 @@ String_at
 1
 0
 )
-#
-endif
 /
 *
 HTML

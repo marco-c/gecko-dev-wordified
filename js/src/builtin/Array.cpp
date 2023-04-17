@@ -22821,9 +22821,6 @@ ArrayFlat
 Proposal
 *
 /
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -22835,8 +22832,6 @@ ArrayAt
 1
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
@@ -23686,9 +23681,6 @@ true
 )
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 !
@@ -23706,16 +23698,8 @@ names
 at
 value
 )
-)
-{
-return
-false
-;
-}
-#
-endif
-if
-(
+|
+|
 !
 DefineDataProperty
 (
