@@ -792,14 +792,8 @@ void
 SetPopupState
 (
 nsPopupState
-aPopupState
 )
-{
-mPopupState
-=
-aPopupState
 ;
-}
 NS_IMETHOD
 SetActive
 (
