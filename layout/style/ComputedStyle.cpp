@@ -2510,9 +2510,9 @@ ComputedStyle
 :
 GetVisitedDependentColor
 (
+\
 decltype
 (
-\
 nsStyle
 #
 #
@@ -2531,6 +2531,7 @@ name_
 *
 aField
 )
+\
 const
 {
 \

@@ -6574,8 +6574,8 @@ MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 \
 __attribute__
 (
-\
 (
+\
 annotate
 (
 "
