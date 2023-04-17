@@ -6062,11 +6062,6 @@ shared
 )
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 nullptr
 ;

@@ -22268,11 +22268,6 @@ observing
 )
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;

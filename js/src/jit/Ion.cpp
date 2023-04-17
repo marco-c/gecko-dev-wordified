@@ -10333,7 +10333,7 @@ return
 AbortReason
 :
 :
-Alloc
+Error
 ;
 }
 TempAllocator
@@ -10396,7 +10396,7 @@ return
 AbortReason
 :
 :
-Alloc
+Error
 ;
 }
 if
@@ -10425,7 +10425,7 @@ return
 AbortReason
 :
 :
-Alloc
+Error
 ;
 }
 MIRGraph
