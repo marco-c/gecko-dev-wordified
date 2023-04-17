@@ -1744,7 +1744,6 @@ u
 "
 "
 _ns
-nullptr
 EditorDOMPoint
 (
 )
@@ -3103,9 +3102,6 @@ const
 nsAString
 &
 aFlavor
-Document
-*
-aSourceDoc
 const
 EditorDOMPoint
 &
@@ -9420,10 +9416,6 @@ mHTMLEditor
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mSourceDoc
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
 mPointToInsert
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -9441,10 +9433,6 @@ mBlob
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mHTMLEditor
-)
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mSourceDoc
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -9483,9 +9471,6 @@ HTMLEditor
 aHTMLEditor
 bool
 aIsSafe
-Document
-*
-aSourceDoc
 const
 EditorDOMPoint
 &
@@ -9540,10 +9525,6 @@ mHTMLEditor
 GetInputEventDataTransfer
 (
 )
-)
-mSourceDoc
-(
-aSourceDoc
 )
 mPointToInsert
 (
@@ -9885,15 +9866,6 @@ ScrollSelectionIntoView
 Yes
 )
 ;
-RefPtr
-<
-Document
->
-sourceDocument
-(
-mSourceDoc
-)
-;
 EditorDOMPoint
 pointToInsert
 (
@@ -9923,7 +9895,6 @@ NS_LITERAL_STRING_FROM_CSTRING
 (
 kFileMime
 )
-sourceDocument
 pointToInsert
 mDoDeleteSelection
 mIsSafe
@@ -10584,9 +10555,6 @@ nsISupports
 aObject
 bool
 aIsSafe
-Document
-*
-aSourceDoc
 const
 EditorDOMPoint
 &
@@ -10628,7 +10596,6 @@ BlobReader
 blob
 this
 aIsSafe
-aSourceDoc
 aPointToInsert
 aDoDeleteSelection
 )
@@ -11180,7 +11147,6 @@ NS_LITERAL_STRING_FROM_CSTRING
 (
 kFileMime
 )
-aSourceDoc
 aPointToInsert
 aDoDeleteSelection
 aIsSafe
@@ -11364,9 +11330,6 @@ InsertFromTransferable
 nsITransferable
 *
 aTransferable
-Document
-*
-aSourceDoc
 const
 nsAString
 &
@@ -11461,7 +11424,7 @@ isSafe
 =
 IsSafeToInsertData
 (
-aSourceDoc
+nullptr
 )
 ;
 if
@@ -11514,7 +11477,6 @@ InsertObject
 bestFlavor
 genericDataObj
 isSafe
-aSourceDoc
 EditorDOMPoint
 (
 )
@@ -11673,7 +11635,6 @@ cffragment
 aContextStr
 aInfoStr
 flavor
-aSourceDoc
 EditorDOMPoint
 (
 )
@@ -11717,7 +11678,6 @@ cffragment
 cfcontext
 cfselection
 flavor
-aSourceDoc
 EditorDOMPoint
 (
 )
@@ -11931,7 +11891,6 @@ stuffToPaste
 aContextStr
 aInfoStr
 flavor
-aSourceDoc
 EditorDOMPoint
 (
 )
@@ -12518,7 +12477,6 @@ type
 )
 object
 isSafe
-aSourceDoc
 aDroppedAt
 aDoDeleteSelection
 )
@@ -12692,7 +12650,6 @@ cffragment
 contextString
 infoString
 type
-aSourceDoc
 aDroppedAt
 aDoDeleteSelection
 isSafe
@@ -12728,7 +12685,6 @@ cffragment
 cfcontext
 cfselection
 type
-aSourceDoc
 aDroppedAt
 aDoDeleteSelection
 isSafe
@@ -12821,7 +12777,6 @@ text
 contextString
 infoString
 type
-aSourceDoc
 aDroppedAt
 aDoDeleteSelection
 isSafe
@@ -13952,7 +13907,6 @@ rv
 InsertFromTransferable
 (
 transferable
-nullptr
 contextStr
 infoStr
 hasPrivateHTMLFlavor
@@ -14259,7 +14213,6 @@ rv
 InsertFromTransferable
 (
 aTransferable
-nullptr
 contextStr
 infoStr
 false
@@ -14732,7 +14685,6 @@ rv
 InsertFromTransferable
 (
 transferable
-nullptr
 u
 "
 "
