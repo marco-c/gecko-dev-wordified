@@ -10027,11 +10027,6 @@ ScriptMap
 map
 )
 {
-uint32_t
-totalJSTime
-=
-0
-;
 struct
 eventInfo
 {
@@ -10425,11 +10420,6 @@ false
 }
 }
 }
-totalJSTime
-+
-=
-deltaTime
-;
 }
 if
 (
@@ -10713,11 +10703,6 @@ popBack
 )
 ;
 }
-totalJSTime
-+
-=
-deltaTime
-;
 startTime
 =
 events_

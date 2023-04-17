@@ -1391,6 +1391,11 @@ offset
 ]
 )
 ;
+(
+void
+)
+assertByte
+;
 bytes_
 [
 offset
