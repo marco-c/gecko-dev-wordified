@@ -800,7 +800,7 @@ urlSpec
 =
 fph
 .
-getURLSpecFromFile
+getURLSpecFromActualFile
 (
 file
 )

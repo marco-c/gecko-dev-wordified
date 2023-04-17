@@ -6379,7 +6379,7 @@ ajvURL
 =
 fileProtocolHandler
 .
-getURLSpecFromFile
+getURLSpecFromActualFile
 (
 ajvFile
 )
