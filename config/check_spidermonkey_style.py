@@ -798,7 +798,7 @@ OBJDIR
 "
 jit
 /
-LOpcodesGenerated
+LIROpsGenerated
 .
 h
 "

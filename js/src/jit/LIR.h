@@ -203,7 +203,7 @@ include
 "
 jit
 /
-LOpcodesGenerated
+LIROpsGenerated
 .
 h
 "
@@ -5358,7 +5358,7 @@ GenerateOpcodeFiles
 .
 py
 generates
-LOpcodesGenerated
+LIROpsGenerated
 .
 h
 based
