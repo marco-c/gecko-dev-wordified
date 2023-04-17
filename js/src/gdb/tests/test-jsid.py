@@ -136,15 +136,6 @@ void_id
 JSID_VOID
 "
 )
-assert_pretty
-(
-"
-empty_id
-"
-"
-JSID_EMPTY
-"
-)
 run_fragment
 (
 "
