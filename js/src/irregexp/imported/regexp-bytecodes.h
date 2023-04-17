@@ -2654,7 +2654,7 @@ int
 bytecode
 )
 {
-CONSTEXPR_DCHECK
+DCHECK
 (
 base
 :
@@ -2718,7 +2718,7 @@ int
 bytecode
 )
 {
-CONSTEXPR_DCHECK
+DCHECK
 (
 base
 :

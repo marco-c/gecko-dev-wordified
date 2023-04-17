@@ -2045,9 +2045,6 @@ Zone
 zone
 )
 {
-/
-/
-NOLINT
 RegExpUnparser
 unparser
 (

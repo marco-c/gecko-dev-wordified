@@ -2128,14 +2128,6 @@ Address
 input_string
 int
 start_offset
-/
-/
-NOLINT
-(
-readability
-/
-casting
-)
 const
 byte
 *

@@ -1501,9 +1501,6 @@ Zone
 zone
 )
 ;
-/
-/
-NOLINT
 #
 define
 MAKE_ASTYPE
