@@ -422,7 +422,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -455,7 +455,7 @@ testTextContent
 (
 currentTest
 inspector
-testActor
+highlighterTestFront
 )
 ;
 }
@@ -483,7 +483,7 @@ testTextNodeTextContent
 (
 currentTest
 inspector
-testActor
+highlighterTestFront
 )
 ;
 }
@@ -500,7 +500,7 @@ gridText
 flexText
 }
 inspector
-testActor
+highlighterTestFront
 )
 {
 await
@@ -514,7 +514,7 @@ const
 gridType
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -525,7 +525,7 @@ const
 flexType
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -577,7 +577,7 @@ testTextNodeTextContent
 (
 test
 inspector
-testActor
+highlighterTestFront
 )
 {
 const
@@ -630,7 +630,7 @@ testTextContent
 (
 test
 inspector
-testActor
+highlighterTestFront
 )
 ;
 }

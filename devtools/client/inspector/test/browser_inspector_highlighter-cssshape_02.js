@@ -103,7 +103,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -133,7 +133,7 @@ HIGHLIGHTER_TYPE
 await
 polygonHasCorrectAttrs
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -141,7 +141,7 @@ highlighter
 await
 circleHasCorrectAttrs
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -149,7 +149,7 @@ highlighter
 await
 ellipseHasCorrectAttrs
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -157,7 +157,7 @@ highlighter
 await
 insetHasCorrectAttrs
 (
-testActor
+highlighterTestFront
 inspector
 highlighter
 )
@@ -176,7 +176,7 @@ async
 function
 polygonHasCorrectAttrs
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -225,7 +225,7 @@ const
 points
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -299,7 +299,7 @@ async
 function
 circleHasCorrectAttrs
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -348,7 +348,7 @@ const
 rx
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -367,7 +367,7 @@ const
 ry
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -386,7 +386,7 @@ const
 cx
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -405,7 +405,7 @@ const
 cy
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -485,7 +485,7 @@ async
 function
 ellipseHasCorrectAttrs
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -534,7 +534,7 @@ const
 rx
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -553,7 +553,7 @@ const
 ry
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -572,7 +572,7 @@ const
 cx
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -591,7 +591,7 @@ const
 cy
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -671,7 +671,7 @@ async
 function
 insetHasCorrectAttrs
 (
-testActor
+highlighterTestFront
 inspector
 highlighterFront
 )
@@ -720,7 +720,7 @@ const
 x
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -739,7 +739,7 @@ const
 y
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -758,7 +758,7 @@ const
 width
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -777,7 +777,7 @@ const
 height
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

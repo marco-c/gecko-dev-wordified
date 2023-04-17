@@ -261,7 +261,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -323,7 +323,7 @@ const
 foundId
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

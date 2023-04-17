@@ -119,7 +119,7 @@ const
 {
 inspector
 toolbox
-testActor
+highlighterTestFront
 }
 =
 await
@@ -169,7 +169,7 @@ let
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -221,7 +221,7 @@ twice
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (

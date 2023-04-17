@@ -414,6 +414,7 @@ resolves
 to
 a
 {
+tab
 toolbox
 inspector
 view
@@ -443,7 +444,6 @@ const
 {
 toolbox
 inspector
-testActor
 }
 =
 await
@@ -502,7 +502,6 @@ inspector
 return
 {
 tab
-testActor
 toolbox
 inspector
 view

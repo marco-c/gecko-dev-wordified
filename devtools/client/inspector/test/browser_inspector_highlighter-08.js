@@ -114,7 +114,7 @@ inspector
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -315,7 +315,7 @@ body
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -392,7 +392,7 @@ html
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -455,7 +455,7 @@ body
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (

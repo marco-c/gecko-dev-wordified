@@ -216,7 +216,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -272,7 +272,7 @@ testNode
 (
 currTest
 inspector
-testActor
+highlighterTestFront
 )
 ;
 }
@@ -285,7 +285,7 @@ testNode
 (
 test
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -312,7 +312,7 @@ const
 tag
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (

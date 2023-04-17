@@ -296,7 +296,7 @@ paused
 )
 ;
 let
-testFront
+highlighterTestFront
 ;
 if
 (
@@ -312,7 +312,7 @@ need
 to
 retrieve
 the
-testFront
+highlighterTestFront
 for
 the
 remote
@@ -358,7 +358,7 @@ org
 )
 )
 ;
-testFront
+highlighterTestFront
 =
 await
 iframeTarget
@@ -366,7 +366,7 @@ iframeTarget
 getFront
 (
 "
-test
+highlighterTest
 "
 )
 ;
@@ -416,13 +416,14 @@ can
 get
 the
 corresponding
+highlighter
 test
 front
 .
-testFront
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 dbg
 .
@@ -452,7 +453,7 @@ async
 =
 >
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (
@@ -520,7 +521,7 @@ button
 )
 ;
 await
-testFront
+highlighterTestFront
 .
 clickPausedDebuggerOverlayButton
 (
@@ -588,7 +589,7 @@ const
 visible
 =
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (

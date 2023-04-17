@@ -241,7 +241,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -316,7 +316,7 @@ const
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -340,7 +340,7 @@ level
 await
 isNodeCorrectlyHighlighted
 (
-testActor
+highlighterTestFront
 "
 div
 "
@@ -368,7 +368,7 @@ style
 await
 getElementsNodeStyle
 (
-testActor
+highlighterTestFront
 )
 ;
 const
@@ -498,14 +498,14 @@ async
 function
 getElementsNodeStyle
 (
-testActor
+highlighterTestFront
 )
 {
 const
 value
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

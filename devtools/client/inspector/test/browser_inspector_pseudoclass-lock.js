@@ -30,7 +30,7 @@ zero
 /
 *
 globals
-getTestActorWithoutToolbox
+getHighlighterTestFrontWithoutToolbox
 *
 /
 "
@@ -212,7 +212,7 @@ let
 {
 toolbox
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -288,7 +288,7 @@ await
 assertPseudoAddedToNode
 (
 inspector
-testActor
+highlighterTestFront
 view
 "
 #
@@ -307,7 +307,7 @@ inspector
 await
 assertPseudoRemovedFromNode
 (
-testActor
+highlighterTestFront
 "
 #
 div
@@ -320,7 +320,7 @@ await
 assertPseudoRemovedFromView
 (
 inspector
-testActor
+highlighterTestFront
 view
 "
 #
@@ -340,8 +340,6 @@ await
 testNavigate
 (
 inspector
-testActor
-view
 )
 ;
 info
@@ -382,7 +380,7 @@ inspector
 await
 assertPseudoRemovedFromNode
 (
-testActor
+highlighterTestFront
 "
 #
 div
@@ -395,7 +393,7 @@ await
 assertPseudoRemovedFromView
 (
 inspector
-testActor
+highlighterTestFront
 view
 "
 #
@@ -450,7 +448,7 @@ await
 assertPseudoAddedToNode
 (
 inspector
-testActor
+highlighterTestFront
 view
 "
 #
@@ -536,10 +534,10 @@ new
 test
 -
 actor
-testActor
+highlighterTestFront
 =
 await
-getTestActorWithoutToolbox
+getHighlighterTestFrontWithoutToolbox
 (
 tab
 )
@@ -547,7 +545,7 @@ tab
 await
 assertPseudoRemovedFromNode
 (
-testActor
+highlighterTestFront
 "
 #
 div
@@ -559,7 +557,7 @@ div
 await
 assertPseudoRemovedFromNode
 (
-testActor
+highlighterTestFront
 "
 #
 div
@@ -691,8 +689,6 @@ function
 testNavigate
 (
 inspector
-testActor
-ruleview
 )
 {
 await
@@ -834,7 +830,7 @@ function
 assertPseudoAddedToNode
 (
 inspector
-testActor
+highlighterTestFront
 ruleview
 selector
 )
@@ -1083,7 +1079,7 @@ const
 value
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -1135,7 +1131,7 @@ async
 function
 assertPseudoRemovedFromNode
 (
-testActor
+highlighterTestFront
 selector
 )
 {
@@ -1249,7 +1245,7 @@ function
 assertPseudoRemovedFromView
 (
 inspector
-testActor
+highlighterTestFront
 ruleview
 selector
 )
@@ -1339,7 +1335,7 @@ const
 value
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (

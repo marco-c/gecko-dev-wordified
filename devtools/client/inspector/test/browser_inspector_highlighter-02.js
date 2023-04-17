@@ -96,7 +96,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -134,7 +134,7 @@ let
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -154,7 +154,7 @@ shown
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -182,7 +182,7 @@ div
 await
 isNodeCorrectlyHighlighted
 (
-testActor
+highlighterTestFront
 "
 #
 simple
@@ -216,7 +216,7 @@ inspector
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -255,7 +255,7 @@ div
 await
 isNodeCorrectlyHighlighted
 (
-testActor
+highlighterTestFront
 "
 #
 rotated
@@ -291,7 +291,7 @@ inspector
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -333,7 +333,7 @@ div
 await
 isNodeCorrectlyHighlighted
 (
-testActor
+highlighterTestFront
 "
 #
 widthHeightZero

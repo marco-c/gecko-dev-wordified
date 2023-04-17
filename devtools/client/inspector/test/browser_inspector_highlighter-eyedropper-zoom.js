@@ -252,7 +252,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -319,7 +319,7 @@ waitForCondition
 )
 =
 >
-testActor
+highlighterTestFront
 .
 isEyeDropperVisible
 (
@@ -351,7 +351,7 @@ args
 >
 checkEyeDropperColorAt
 (
-testActor
+highlighterTestFront
 inspectorFrontActorID
 .
 .
@@ -481,7 +481,7 @@ waitForCondition
 )
 =
 >
-testActor
+highlighterTestFront
 .
 isEyeDropperVisible
 (

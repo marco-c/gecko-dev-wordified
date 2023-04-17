@@ -157,7 +157,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -186,7 +186,7 @@ inspector
 await
 testMenuItems
 (
-testActor
+highlighterTestFront
 allMenuItems
 inspector
 )
@@ -198,7 +198,7 @@ async
 function
 testMenuItems
 (
-testActor
+highlighterTestFront
 allMenuItems
 inspector
 )

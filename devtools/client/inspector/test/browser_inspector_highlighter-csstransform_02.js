@@ -181,7 +181,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -273,7 +273,7 @@ const
 points
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

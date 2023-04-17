@@ -93,7 +93,7 @@ const
 {
 inspector
 toolbox
-testActor
+highlighterTestFront
 }
 =
 await
@@ -145,7 +145,7 @@ div1
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -198,7 +198,7 @@ VK_RIGHT
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -251,7 +251,7 @@ para
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -287,7 +287,7 @@ VK_RIGHT
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (
@@ -342,7 +342,7 @@ VK_LEFT
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (

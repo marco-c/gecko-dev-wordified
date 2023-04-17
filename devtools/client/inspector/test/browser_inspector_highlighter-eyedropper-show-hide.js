@@ -84,7 +84,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -136,7 +136,7 @@ const
 eyeDropperVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isEyeDropperVisible
 (
@@ -207,7 +207,7 @@ waitForCondition
 )
 =
 >
-testActor
+highlighterTestFront
 .
 isEyeDropperVisible
 (
@@ -237,7 +237,7 @@ const
 style
 =
 await
-testActor
+highlighterTestFront
 .
 getEyeDropperElementAttribute
 (
@@ -304,7 +304,7 @@ waitForCondition
 )
 =
 >
-testActor
+highlighterTestFront
 .
 isEyeDropperVisible
 (

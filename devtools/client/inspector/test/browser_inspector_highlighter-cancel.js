@@ -103,7 +103,7 @@ const
 {
 inspector
 toolbox
-testActor
+highlighterTestFront
 }
 =
 await
@@ -127,7 +127,7 @@ inspector
 ok
 (
 await
-testActor
+highlighterTestFront
 .
 assertHighlightedNode
 (

@@ -100,7 +100,7 @@ function
 const
 {
 inspector
-testActor
+highlighterTestFront
 }
 =
 await
@@ -137,7 +137,7 @@ testPositionAndStyle
 (
 testData
 inspector
-testActor
+highlighterTestFront
 )
 ;
 }
@@ -149,7 +149,7 @@ testPositionAndStyle
 (
 test
 inspector
-testActor
+highlighterTestFront
 )
 {
 info
@@ -176,7 +176,7 @@ let
 style
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -302,7 +302,7 @@ top
 style
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

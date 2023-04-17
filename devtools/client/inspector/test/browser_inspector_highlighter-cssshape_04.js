@@ -121,7 +121,7 @@ env
 ;
 const
 {
-testActor
+highlighterTestFront
 inspector
 }
 =
@@ -149,7 +149,7 @@ config
 inspector
 view
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 ;
@@ -337,7 +337,7 @@ const
 inspector
 view
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 =
@@ -377,7 +377,7 @@ const
 points
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -636,7 +636,7 @@ const
 inspector
 view
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 =
@@ -703,7 +703,7 @@ const
 points
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1094,7 +1094,7 @@ const
 {
 inspector
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 =
@@ -1134,7 +1134,7 @@ const
 points
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1281,7 +1281,7 @@ const
 markerHidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1443,7 +1443,7 @@ const
 {
 inspector
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 =
@@ -1503,7 +1503,7 @@ cx
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1530,7 +1530,7 @@ cy
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1749,7 +1749,7 @@ const
 {
 inspector
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 =
@@ -1791,7 +1791,7 @@ rx
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1818,7 +1818,7 @@ ry
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1845,7 +1845,7 @@ cx
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -1872,7 +1872,7 @@ cy
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -2232,7 +2232,7 @@ const
 {
 inspector
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 =
@@ -2274,7 +2274,7 @@ x
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -2301,7 +2301,7 @@ y
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -2328,7 +2328,7 @@ width
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -2355,7 +2355,7 @@ height
 parseFloat
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

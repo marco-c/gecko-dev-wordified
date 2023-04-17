@@ -171,10 +171,10 @@ toolbox
 dbg
 ;
 const
-testActor
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 toolbox
 )
@@ -508,7 +508,7 @@ onNodeUnhighlight
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -620,7 +620,7 @@ onNodeUnhighlight
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (

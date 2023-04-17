@@ -96,7 +96,7 @@ env
 ;
 const
 {
-testActor
+highlighterTestFront
 inspector
 }
 =
@@ -124,7 +124,7 @@ config
 inspector
 view
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 ;
@@ -264,7 +264,7 @@ const
 {
 view
 highlighters
-testActor
+highlighterTestFront
 }
 =
 config
@@ -340,7 +340,7 @@ let
 markerHidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -469,7 +469,7 @@ hovered
 markerHidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -547,7 +547,7 @@ onHighlighterShown
 markerHidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -628,7 +628,7 @@ const
 {
 view
 highlighters
-testActor
+highlighterTestFront
 helper
 }
 =
@@ -737,7 +737,7 @@ let
 markerHidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -875,7 +875,7 @@ onEventHandled
 markerHidden
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (

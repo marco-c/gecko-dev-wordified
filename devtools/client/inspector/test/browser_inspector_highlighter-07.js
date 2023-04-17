@@ -411,7 +411,7 @@ const
 {
 inspector
 toolbox
-testActor
+highlighterTestFront
 tab
 }
 =
@@ -580,7 +580,7 @@ checks
 await
 isNodeCorrectlyHighlighted
 (
-testActor
+highlighterTestFront
 "
 iframe
 "

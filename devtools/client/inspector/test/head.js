@@ -3892,7 +3892,7 @@ inspector
 highlighter
 and
 *
-testActor
+highlighterTestFront
 if
 not
 needed
@@ -3922,7 +3922,7 @@ object
 with
 inspector
 and
-testActor
+highlighterTestFront
 *
 properties
 .
@@ -3943,7 +3943,7 @@ function
 (
 {
 inspector
-testActor
+highlighterTestFront
 }
 )
 {
@@ -4158,7 +4158,7 @@ return
 (
 (
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -4189,7 +4189,7 @@ id
 )
 {
 return
-testActor
+highlighterTestFront
 .
 getHighlighterNodeTextContent
 (
@@ -4210,7 +4210,7 @@ name
 )
 {
 return
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -4243,7 +4243,7 @@ const
 value
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -4297,7 +4297,7 @@ const
 value
 =
 await
-testActor
+highlighterTestFront
 .
 getHighlighterNodeAttribute
 (
@@ -4397,7 +4397,7 @@ to
 the
 /
 /
-testActor
+highlighterTestFront
 using
 the
 name
@@ -8249,9 +8249,9 @@ label
 *
 param
 {
-TestActorFront
+HighlighterTestFront
 }
-testActorFront
+highlighterTestFront
 *
 param
 {
@@ -8307,7 +8307,7 @@ async
 function
 checkEyeDropperColorAt
 (
-testActorFront
+highlighterTestFront
 inspectorActorID
 x
 y
@@ -8350,7 +8350,7 @@ const
 colorValue
 =
 await
-testActorFront
+highlighterTestFront
 .
 getEyeDropperColorValue
 (
@@ -9016,9 +9016,9 @@ boxquads
 *
 param
 {
-TestActorFront
+HighlighterTestFront
 }
-testActor
+highlighterTestFront
 *
 param
 {
@@ -9039,7 +9039,7 @@ async
 function
 isNodeCorrectlyHighlighted
 (
-testActor
+highlighterTestFront
 selector
 )
 {
@@ -9047,7 +9047,7 @@ const
 boxModel
 =
 await
-testActor
+highlighterTestFront
 .
 getBoxModelStatus
 (

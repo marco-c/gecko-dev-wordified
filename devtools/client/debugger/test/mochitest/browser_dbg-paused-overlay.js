@@ -103,10 +103,10 @@ dbg
 Sanity
 check
 const
-testFront
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 dbg
 .
@@ -117,7 +117,7 @@ let
 isPausedOverlayVisible
 =
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (
@@ -189,7 +189,7 @@ async
 =
 >
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (
@@ -245,7 +245,7 @@ button
 )
 ;
 await
-testFront
+highlighterTestFront
 .
 clickPausedDebuggerOverlayButton
 (
@@ -303,7 +303,7 @@ stepping
 isPausedOverlayVisible
 =
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (
@@ -335,7 +335,7 @@ button
 )
 ;
 await
-testFront
+highlighterTestFront
 .
 clickPausedDebuggerOverlayButton
 (
@@ -403,7 +403,7 @@ const
 visible
 =
 await
-testFront
+highlighterTestFront
 .
 isPausedDebuggerOverlayVisible
 (

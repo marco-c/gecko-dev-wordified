@@ -201,10 +201,10 @@ autocompletePopup
 jsterm
 ;
 const
-testActor
+highlighterTestFront
 =
 await
-getTestActor
+getHighlighterTestFront
 (
 toolbox
 )
@@ -317,7 +317,7 @@ highlighted
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -392,7 +392,7 @@ highlighted
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -528,7 +528,7 @@ highlighted
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
@@ -593,7 +593,7 @@ hud
 isVisible
 =
 await
-testActor
+highlighterTestFront
 .
 isHighlighting
 (
