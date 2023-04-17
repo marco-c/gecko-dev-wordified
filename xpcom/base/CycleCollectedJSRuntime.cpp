@@ -3648,14 +3648,14 @@ if
 aWhich
 =
 =
-HoldersInGrayMarkingZones
+HoldersRequiredForGrayMarking
 &
 &
 !
 JS
 :
 :
-ZoneIsGrayMarking
+NeedGrayRootsForZone
 (
 i
 .
@@ -6830,7 +6830,7 @@ which
 JSHolderMap
 :
 :
-HoldersInGrayMarkingZones
+HoldersRequiredForGrayMarking
 ;
 if
 (
