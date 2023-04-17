@@ -347,7 +347,7 @@ const
 URL
 =
 "
-http
+https
 :
 /
 /
@@ -780,7 +780,7 @@ const
 URL
 =
 "
-http
+https
 :
 /
 /
