@@ -2480,6 +2480,7 @@ buffer
 .
 toString
 (
+cx
 )
 ;
 if
