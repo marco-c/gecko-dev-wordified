@@ -370,16 +370,6 @@ override
 ;
 NS_IMETHOD_
 (
-uint32_t
-)
-GetElementCount
-(
-)
-const
-override
-;
-NS_IMETHOD_
-(
 int32_t
 )
 IndexOfControl
