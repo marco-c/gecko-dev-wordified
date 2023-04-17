@@ -4698,7 +4698,7 @@ globals
 if
 (
 '
-document
+Window
 '
 in
 self
