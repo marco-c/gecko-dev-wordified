@@ -385,6 +385,11 @@ _
 InitLockedElem
 )
 \
+_
+(
+GetAliasedDebugVar
+)
+\
 /
 /
 =

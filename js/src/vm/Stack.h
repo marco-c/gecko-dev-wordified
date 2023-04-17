@@ -3689,6 +3689,16 @@ ec
 const
 ;
 inline
+EnvironmentObject
+&
+aliasedEnvironmentMaybeDebug
+(
+EnvironmentCoordinate
+ec
+)
+const
+;
+inline
 GlobalObject
 &
 global

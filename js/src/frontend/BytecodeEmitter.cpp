@@ -6627,6 +6627,15 @@ op
 =
 =
 JOF_ENVCOORD
+|
+|
+JOF_OPTYPE
+(
+op
+)
+=
+=
+JOF_DEBUGCOORD
 )
 ;
 constexpr

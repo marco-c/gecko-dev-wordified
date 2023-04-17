@@ -1985,6 +1985,15 @@ LeaveWith
 \
 _
 (
+LoadAliasedDebugVar
+js
+:
+:
+LoadAliasedDebugVar
+)
+\
+_
+(
 MutatePrototype
 js
 :
