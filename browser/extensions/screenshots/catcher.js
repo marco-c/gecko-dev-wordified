@@ -383,9 +383,7 @@ promise
 .
 catch
 (
-(
 e
-)
 =
 >
 {
