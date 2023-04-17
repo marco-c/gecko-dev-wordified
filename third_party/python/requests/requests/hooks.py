@@ -71,16 +71,18 @@ default_hooks
 :
     
 return
-{
+dict
+(
+(
 event
-:
 [
 ]
+)
 for
 event
 in
 HOOKS
-}
+)
 #
 TODO
 :
@@ -123,8 +125,9 @@ hooks
 =
 hooks
 or
-{
-}
+dict
+(
+)
     
 hooks
 =
