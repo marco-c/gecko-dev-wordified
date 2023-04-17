@@ -753,6 +753,8 @@ dom
 Element
 *
 aOwner
+bool
+aRetainPaint
 )
 ;
 protected

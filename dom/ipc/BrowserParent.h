@@ -1354,6 +1354,17 @@ ipc
 :
 :
 IPCResult
+RecvDidUnsuppressPainting
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvMoveFocus
 (
 const
