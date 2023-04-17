@@ -429,6 +429,8 @@ Shmem
 aShmem
 bool
 aFlush
+bool
+aKeepShmem
 )
 ;
 already_AddRefed

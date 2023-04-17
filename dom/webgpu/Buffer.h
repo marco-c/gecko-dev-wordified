@@ -296,6 +296,8 @@ RawId
 aId
 BufferAddress
 aSize
+bool
+aMappable
 )
 ;
 void
@@ -373,6 +375,10 @@ mapped
 const
 BufferAddress
 mSize
+;
+const
+bool
+mMappable
 ;
 nsString
 mLabel

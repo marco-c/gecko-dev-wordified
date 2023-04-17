@@ -280,6 +280,8 @@ Shmem
 aShmem
 bool
 aFlush
+bool
+aKeepShmem
 )
 ;
 ipc
