@@ -509,10 +509,6 @@ tabState
 ]
 }
 ]
-_cachedObjs
-:
-[
-]
 }
 ;
 }

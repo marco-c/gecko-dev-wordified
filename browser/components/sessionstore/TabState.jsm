@@ -801,7 +801,7 @@ image
 =
 tabbrowser
 .
-getIconBlobKey
+getIcon
 (
 tab
 )
