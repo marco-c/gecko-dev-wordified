@@ -177,6 +177,15 @@ use
 crate
 :
 :
+ackrate
+:
+:
+AckRate
+;
+use
+crate
+:
+:
 cid
 :
 :
@@ -564,6 +573,10 @@ max_streams
 :
 u64
 }
+AckFrequency
+(
+AckRate
+)
 }
 impl
 RecoveryToken

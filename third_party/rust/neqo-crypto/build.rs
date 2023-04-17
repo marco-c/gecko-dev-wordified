@@ -692,8 +692,6 @@ set
 eprintln
 !
 (
-"
-"
 )
 ;
 eprintln
