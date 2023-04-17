@@ -499,7 +499,7 @@ init
 value
 )
 as
-u16
+u32
 }
 }
 }
@@ -559,7 +559,7 @@ RenderTaskId
 pub
 index
 :
-u16
+u32
 }
 impl
 RenderTaskId
@@ -574,7 +574,7 @@ RenderTaskId
 {
 index
 :
-u16
+u32
 :
 :
 MAX
@@ -1988,7 +1988,7 @@ len
 (
 )
 as
-u16
+u32
 }
 )
 ;
@@ -2865,7 +2865,7 @@ index
 :
 i
 as
-u16
+u32
 }
 ;
 assign_free_pass
@@ -2988,7 +2988,7 @@ index
 :
 index
 as
-u16
+u32
 }
 ;
 graph
