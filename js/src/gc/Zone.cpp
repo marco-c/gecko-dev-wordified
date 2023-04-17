@@ -4191,10 +4191,6 @@ fixupAfterMovingGC
 (
 )
 ;
-fixupInitialShapeTable
-(
-)
-;
 }
 bool
 Zone
