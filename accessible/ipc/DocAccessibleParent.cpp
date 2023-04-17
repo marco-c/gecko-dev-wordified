@@ -3039,6 +3039,17 @@ bool
 aFinal
 )
 {
+if
+(
+mShutdown
+)
+{
+return
+IPC_OK
+(
+)
+;
+}
 for
 (
 auto
