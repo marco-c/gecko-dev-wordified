@@ -1656,13 +1656,6 @@ IsHttpsOnlyModeEnabled
 (
 isPrivateWin
 )
-&
-&
-!
-IsHttpsFirstModeEnabled
-(
-isPrivateWin
-)
 )
 {
 return
