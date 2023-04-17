@@ -2991,7 +2991,7 @@ new
 )
 frame_stats
 :
-FrameStats
+FullFrameStats
 :
 :
 default

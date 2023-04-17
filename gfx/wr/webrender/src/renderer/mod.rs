@@ -14474,6 +14474,15 @@ merge
 stats
 )
 ;
+self
+.
+profiler
+.
+update_frame_stats
+(
+stats
+)
+;
 }
 /
 /
