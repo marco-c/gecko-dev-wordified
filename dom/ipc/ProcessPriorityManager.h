@@ -139,10 +139,10 @@ namespace
 dom
 {
 class
-ContentParent
+BrowserParent
 ;
 class
-BrowserParent
+ContentParent
 ;
 }
 /
@@ -549,7 +549,7 @@ CurrentProcessIsForeground
 ;
 static
 void
-TabActivityChanged
+ActivityChanged
 (
 dom
 :

@@ -20772,7 +20772,7 @@ priority
 ProcessPriorityManager
 :
 :
-TabActivityChanged
+ActivityChanged
 (
 this
 aEnabled
@@ -21190,7 +21190,7 @@ mActiveInPriorityManager
 ProcessPriorityManager
 :
 :
-TabActivityChanged
+ActivityChanged
 (
 this
 false
