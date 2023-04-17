@@ -1075,6 +1075,12 @@ tags
 "
 )
 ;
+await
+promiseLibraryClosed
+(
+library
+)
+;
 /
 /
 Cleanup

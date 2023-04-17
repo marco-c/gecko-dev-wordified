@@ -2136,6 +2136,11 @@ enabled
 "
 false
 )
+&
+&
+aParentWindow
+.
+gDialogBox
 )
 {
 await

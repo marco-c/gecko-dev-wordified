@@ -209,6 +209,12 @@ click
 (
 )
 ;
+contentAreaContextMenu
+.
+hidePopup
+(
+)
+;
 }
 taskFn
 )
