@@ -21424,7 +21424,10 @@ ipcDoc
 >
 SendCache
 (
-1
+CacheUpdateType
+:
+:
+Update
 data
 true
 )
