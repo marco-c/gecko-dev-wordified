@@ -682,6 +682,12 @@ Test
 }
 )
 ;
+gIdentityHandler
+.
+enableMixedContentProtection
+(
+)
+;
 }
 )
 ;
@@ -1135,6 +1141,12 @@ Test
 )
 ;
 }
+)
+;
+gIdentityHandler
+.
+enableMixedContentProtection
+(
 )
 ;
 }
