@@ -4904,7 +4904,6 @@ IsInvisibleBRElement
 (
 *
 previousBRElement
-editingHost
 )
 )
 {
@@ -38480,7 +38479,6 @@ IsVisibleBRElement
 (
 *
 previousEditableContent
-editingHost
 )
 &
 &
@@ -39479,7 +39477,6 @@ IsVisibleBRElement
 (
 *
 nextEditableContent
-editingHost
 )
 )
 {
@@ -46836,7 +46833,6 @@ IsVisibleBRElement
 (
 *
 nearContent
-editingHost
 )
 |
 |
@@ -46894,7 +46890,6 @@ IsVisibleBRElement
 (
 *
 nearContent
-editingHost
 )
 |
 |
@@ -56834,7 +56829,6 @@ IsInvisibleBRElement
 (
 *
 previousEditableContent
-editingHost
 )
 )
 {

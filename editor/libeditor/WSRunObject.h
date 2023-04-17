@@ -5837,7 +5837,6 @@ IsVisibleBRElement
 GetStartReasonContent
 (
 )
-mEditingHost
 )
 ;
 }
@@ -5862,7 +5861,6 @@ IsInvisibleBRElement
 GetStartReasonContent
 (
 )
-mEditingHost
 )
 ;
 }
@@ -5999,7 +5997,6 @@ IsVisibleBRElement
 GetEndReasonContent
 (
 )
-mEditingHost
 )
 ;
 }
@@ -6024,7 +6021,6 @@ IsInvisibleBRElement
 GetEndReasonContent
 (
 )
-mEditingHost
 )
 ;
 }
