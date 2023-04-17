@@ -2309,6 +2309,13 @@ cssrule
 type
 #
 [
+allow
+(
+missing_docs
+)
+]
+#
+[
 derive
 (
 Clone
