@@ -308,9 +308,11 @@ toChildPipeWrite
 =
 PR_SUCCESS
 )
+{
 return
 false
 ;
+}
 PR_SetFDInheritable
 (
 toChildPipeRead
