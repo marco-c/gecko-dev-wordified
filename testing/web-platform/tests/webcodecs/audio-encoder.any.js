@@ -684,6 +684,14 @@ chunk
 timestamp
 )
 ;
+assert_greater_than_equal
+(
+chunk
+.
+duration
+0
+)
+;
 }
 }
 '
