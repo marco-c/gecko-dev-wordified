@@ -128,14 +128,10 @@ includes
 #
 include
 "
-DatabaseFileInfoFwd
+DatabaseFileInfo
 .
 h
 "
-/
-/
-for
-DatabaseFileInfo
 #
 include
 "
