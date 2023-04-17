@@ -1124,6 +1124,9 @@ Encoding
 >
 &
 aEncoding
+bool
+&
+aForceAutoDetection
 )
 ;
 void
@@ -1143,6 +1146,9 @@ Encoding
 >
 &
 aEncoding
+bool
+&
+aForceAutoDetection
 )
 ;
 /

@@ -176,17 +176,6 @@ HTML5
 Confident
 kCharsetFromChannel
 kCharsetFromOtherComponent
-kCharsetFromPendingUserForcedAutoDetection
-/
-/
-Marker
-value
-to
-be
-upgraded
-/
-/
-later
 kCharsetFromInitialUserForcedAutoDetection
 kCharsetFromFinalUserForcedAutoDetection
 kCharsetFromXmlDeclarationUtf16
