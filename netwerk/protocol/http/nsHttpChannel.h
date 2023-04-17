@@ -1319,7 +1319,7 @@ nsresult
 OpenCacheEntry
 (
 bool
-usingSSL
+isHttps
 )
 ;
 [
@@ -2234,7 +2234,7 @@ nsresult
 AsyncProcessRedirection
 (
 uint32_t
-httpStatus
+redirectType
 )
 ;
 [
@@ -2473,7 +2473,7 @@ aEntry
 bool
 aNew
 nsresult
-aResult
+aEntryStatus
 )
 ;
 [

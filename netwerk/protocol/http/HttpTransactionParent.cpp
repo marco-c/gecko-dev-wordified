@@ -2267,7 +2267,6 @@ mTimings
 responseEnd
 ;
 }
-const
 TimingStruct
 HttpTransactionParent
 :
