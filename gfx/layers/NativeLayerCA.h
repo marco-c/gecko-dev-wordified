@@ -2223,6 +2223,13 @@ return
 mWrappingCALayer
 ;
 }
+bool
+EnqueueSurface
+(
+IOSurfaceRef
+aSurfaceRef
+)
+;
 /
 /
 Applies
