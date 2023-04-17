@@ -394,7 +394,6 @@ Frame
 *
 fp_
 ;
-const
 TlsData
 *
 tls_
@@ -614,7 +613,6 @@ return
 fp_
 ;
 }
-const
 TlsData
 *
 tls

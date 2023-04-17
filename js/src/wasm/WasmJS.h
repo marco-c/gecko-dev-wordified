@@ -2559,11 +2559,8 @@ wasm
 ElemSegmentVector
 &
 elemSegments
-wasm
-:
-:
-UniqueTlsData
-tlsData
+uint32_t
+globalDataLength
 HandleWasmMemoryObject
 memory
 Vector

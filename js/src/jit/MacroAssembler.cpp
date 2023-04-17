@@ -35627,12 +35627,10 @@ jit
 namespace
 wasm
 {
-const
 TlsData
 *
 ExtractCallerTlsFromFrameWithTls
 (
-const
 Frame
 *
 fp
@@ -35644,13 +35642,11 @@ reinterpret_cast
 <
 TlsData
 *
-const
 *
 >
 (
 reinterpret_cast
 <
-const
 uint8_t
 *
 >

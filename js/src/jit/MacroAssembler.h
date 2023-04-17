@@ -37079,12 +37079,10 @@ Frame
 fp
 )
 ;
-const
 TlsData
 *
 ExtractCallerTlsFromFrameWithTls
 (
-const
 Frame
 *
 fp
