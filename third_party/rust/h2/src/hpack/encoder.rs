@@ -228,13 +228,6 @@ size
 update
 frame
 .
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 fn
 update_max_size

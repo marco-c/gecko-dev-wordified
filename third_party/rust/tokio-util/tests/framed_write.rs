@@ -188,14 +188,12 @@ U32Encoder
 ;
 impl
 Encoder
+<
+u32
+>
 for
 U32Encoder
 {
-type
-Item
-=
-u32
-;
 type
 Error
 =
@@ -654,8 +652,6 @@ unwrap
 (
 )
 {
-&
-mut
 Ok
 (
 ref
