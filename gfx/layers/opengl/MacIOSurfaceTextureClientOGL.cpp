@@ -292,9 +292,6 @@ width
 aSize
 .
 height
-1
-.
-0
 aFormat
 =
 =
