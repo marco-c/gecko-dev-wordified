@@ -2683,7 +2683,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 CutAsAction
@@ -3035,7 +3035,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 CutAsAction
