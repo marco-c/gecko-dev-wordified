@@ -1155,7 +1155,7 @@ HasLayerManager
 return
 !
 !
-mLayerManager
+mWindowRenderer
 ;
 }
 virtual
