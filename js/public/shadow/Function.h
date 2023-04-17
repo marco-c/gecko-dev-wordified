@@ -235,7 +235,10 @@ for
 natives
 *
 /
-JSNative
+JS
+:
+:
+Value
 native
 ;
 const
