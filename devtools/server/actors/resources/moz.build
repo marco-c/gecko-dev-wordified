@@ -161,6 +161,17 @@ events
 js
 "
 "
+parent
+-
+process
+-
+document
+-
+event
+.
+js
+"
+"
 platform
 -
 messages

@@ -8985,6 +8985,7 @@ isTopLevel
 newURI
 request
 navigationStart
+isFrameSwitching
 }
 )
 ;
@@ -9084,8 +9085,6 @@ state
 "
 start
 "
-isFrameSwitching
-:
 isFrameSwitching
 }
 )

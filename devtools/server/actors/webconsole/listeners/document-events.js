@@ -384,7 +384,7 @@ this
 const
 WILL_NAVIGATE_TIME_SHIFT
 =
-5
+10
 ;
 exports
 .
@@ -789,6 +789,7 @@ window
 isTopLevel
 newURI
 navigationStart
+isFrameSwitching
 }
 )
 {
@@ -821,6 +822,7 @@ navigationStart
 -
 WILL_NAVIGATE_TIME_SHIFT
 newURI
+isFrameSwitching
 }
 )
 ;
