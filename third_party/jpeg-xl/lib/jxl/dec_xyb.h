@@ -303,6 +303,16 @@ OutputEncodingInfo
 ColorEncoding
 color_encoding
 ;
+/
+/
+Used
+for
+Gamma
+and
+DCI
+transfer
+functions
+.
 float
 inverse_gamma
 ;

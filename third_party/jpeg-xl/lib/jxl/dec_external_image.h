@@ -173,6 +173,15 @@ include
 "
 jxl
 /
+decode
+.
+h
+"
+#
+include
+"
+jxl
+/
 types
 .
 h
@@ -359,7 +368,7 @@ be
 /
 output_xsize
 *
-bytes_per_pixel
+output_bytes_per_pixel
 .
 /
 /
@@ -424,6 +433,11 @@ void
 out_image
 size_t
 out_size
+JxlImageOutCallback
+out_callback
+void
+*
+out_opaque
 jxl
 :
 :

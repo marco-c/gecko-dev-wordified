@@ -5697,7 +5697,7 @@ data
 .
 *
 param
-xsize
+num_pixels
 amount
 of
 pixels
@@ -5780,7 +5780,7 @@ x
 size_t
 y
 size_t
-xsize
+num_pixels
 const
 void
 *
