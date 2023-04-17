@@ -16185,6 +16185,11 @@ Release
 ;
 }
 }
+NotifyWorkerRefs
+(
+Killing
+)
+;
 ScheduleDeletion
 (
 WorkerPrivate
