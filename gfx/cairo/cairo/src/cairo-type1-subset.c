@@ -1712,7 +1712,7 @@ i
 if
 (
 !
-isxdigit
+_cairo_isxdigit
 (
 font
 -
