@@ -5467,6 +5467,11 @@ dataSurf
 WebGLPixelStore
 unpacking
 ;
+bool
+applyUnpackTransforms
+=
+true
+;
 void
 Shrink
 (
