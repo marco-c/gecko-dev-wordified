@@ -1160,8 +1160,13 @@ transmittedAudio
 .
 AppendAndConsumeChunk
 (
-&
+std
+:
+:
+move
+(
 chunk
+)
 )
 ;
 mTransmitterHasStarted
