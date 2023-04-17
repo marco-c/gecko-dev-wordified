@@ -32012,14 +32012,6 @@ script
 jsbytecode
 *
 pc
-NewObjectKind
-newKind
-/
-*
-=
-GenericObject
-*
-/
 )
 {
 /
@@ -32077,7 +32069,7 @@ CopyTemplateObject
 (
 cx
 baseObject
-newKind
+GenericObject
 )
 ;
 }
@@ -32103,7 +32095,7 @@ PlainObject
 >
 (
 cx
-newKind
+GenericObject
 )
 ;
 }
