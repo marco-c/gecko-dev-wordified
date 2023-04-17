@@ -1196,6 +1196,10 @@ auto
 conn
 QM_OR_ELSE_WARN_IF
 (
+/
+/
+Expression
+.
 MOZ_TO_RESULT_INVOKE_TYPED
 (
 nsCOMPtr
@@ -1209,7 +1213,15 @@ dbFileUrl
 "
 _ns
 )
+/
+/
+Predicate
+.
 IsDatabaseCorruptionError
+/
+/
+Fallback
+.
 (
 [
 &
