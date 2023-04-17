@@ -2186,8 +2186,6 @@ g
 "
 thunderbird
 :
-comms
-.
 pth
 :
 python
@@ -2437,14 +2435,11 @@ populate
             
 elif
 action
-.
-endswith
-(
+=
+=
 "
-.
 pth
 "
-)
 :
                 
 if
@@ -2480,7 +2475,11 @@ path
 join
 (
 python_lib
-action
+"
+mach
+.
+pth
+"
 )
 "
 a
