@@ -164,8 +164,6 @@ button
 content
 :
 "
-rta
-:
 iridium
 %
 40particlecore
