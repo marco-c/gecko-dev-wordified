@@ -423,6 +423,15 @@ if
 cx
 )
 {
+JS
+:
+:
+LeaveRealm
+(
+cx
+nullptr
+)
+;
 JS_DestroyContext
 (
 cx
