@@ -183,8 +183,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 static
@@ -857,9 +857,7 @@ sMainThreadIdleScheduler
 /
 /
 namespace
-ipc
-}
-/
-/
-namespace
 mozilla
+:
+:
+ipc

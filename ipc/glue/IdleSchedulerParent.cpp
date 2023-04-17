@@ -191,8 +191,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 base
@@ -2740,9 +2740,7 @@ sStarvationPreventer
 /
 /
 namespace
-ipc
-}
-/
-/
-namespace
 mozilla
+:
+:
+ipc
