@@ -786,13 +786,9 @@ u8
 Opcode
 :
 :
-GImplicitThis
+Undefined
 as
 u8
-1
-0
-0
-0
 Opcode
 :
 :

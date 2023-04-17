@@ -412,6 +412,16 @@ shape
 index
 *
 /
+JOF_STRING
+=
+26
+/
+*
+uint32_t
+constant
+index
+*
+/
 JOF_TYPEMASK
 =
 0xFF
