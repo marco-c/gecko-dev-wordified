@@ -2172,9 +2172,12 @@ stubCodes_
 (
 nullptr
 )
-stringsCanBeInNursery
+initialStringHeap
 (
-false
+gc
+:
+:
+TenuredHeap
 )
 {
 }

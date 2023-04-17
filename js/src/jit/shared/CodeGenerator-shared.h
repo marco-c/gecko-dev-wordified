@@ -595,8 +595,11 @@ isProfilerInstrumentationEnabled
 )
 ;
 }
-bool
-stringsCanBeInNursery
+gc
+:
+:
+InitialHeap
+initialStringHeap
 (
 )
 const
@@ -605,7 +608,7 @@ return
 gen
 -
 >
-stringsCanBeInNursery
+initialStringHeap
 (
 )
 ;
