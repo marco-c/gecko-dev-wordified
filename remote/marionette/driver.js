@@ -618,7 +618,7 @@ shared
 /
 webdriver
 /
-Session
+Capabilities
 .
 jsm
 "
@@ -637,7 +637,7 @@ shared
 /
 webdriver
 /
-Session
+Capabilities
 .
 jsm
 "
