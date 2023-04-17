@@ -88,6 +88,7 @@ with
 uninitialized
 interior
 pub
+const
 unsafe
 fn
 uninitialized
