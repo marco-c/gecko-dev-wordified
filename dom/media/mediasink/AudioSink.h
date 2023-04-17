@@ -800,8 +800,9 @@ protecting
 access
 to
 mCursor
-and
 mWritten
+and
+mCurrentData
 .
 /
 /
