@@ -645,7 +645,7 @@ removeBreakpoint
 (
 state
 {
-location
+breakpoint
 }
 )
 {
@@ -654,6 +654,8 @@ id
 =
 makeBreakpointId
 (
+breakpoint
+.
 location
 )
 ;
