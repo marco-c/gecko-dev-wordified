@@ -216,7 +216,7 @@ dbg
 5
 )
 ;
-openContextMenuSubmenu
+selectContextMenuItem
 (
 dbg
 selectors
@@ -522,7 +522,10 @@ dbg
 6
 )
 ;
-openContextMenuSubmenu
+let
+dummyA
+=
+selectContextMenuItem
 (
 dbg
 selectors
@@ -745,7 +748,7 @@ dbg
 5
 )
 ;
-openContextMenuSubmenu
+selectContextMenuItem
 (
 dbg
 selectors
