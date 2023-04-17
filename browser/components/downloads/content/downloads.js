@@ -8787,8 +8787,8 @@ as
 the
 "
 Show
-All
-Downloads
+all
+downloads
 "
 button
 .
@@ -8825,8 +8825,8 @@ focus
 the
 "
 Show
-All
-Downloads
+all
+downloads
 "
 *
 button
@@ -8895,8 +8895,8 @@ not
 the
 "
 Show
-All
-Downloads
+all
+downloads
 "
 button
 is
