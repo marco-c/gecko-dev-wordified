@@ -1336,6 +1336,22 @@ DeviceColor
 return
 ;
 }
+Rect
+source
+=
+aSource
+-
+aSurface
+-
+>
+GetRect
+(
+)
+.
+TopLeft
+(
+)
+;
 D2D1_RECT_F
 samplingBounds
 ;
@@ -1356,7 +1372,7 @@ samplingBounds
 =
 D2DRect
 (
-aSource
+source
 )
 ;
 }
@@ -1405,7 +1421,7 @@ Width
 (
 )
 /
-aSource
+source
 .
 Width
 (
@@ -1420,7 +1436,7 @@ Height
 (
 )
 /
-aSource
+source
 .
 Height
 (
@@ -1468,7 +1484,7 @@ X
 (
 )
 -
-aSource
+source
 .
 X
 (
@@ -1481,7 +1497,7 @@ Y
 (
 )
 -
-aSource
+source
 .
 Y
 (
@@ -1659,7 +1675,7 @@ mSamplingFilter
 )
 D2DRect
 (
-aSource
+source
 )
 )
 ;
