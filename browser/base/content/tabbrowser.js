@@ -21185,7 +21185,8 @@ browser
 notificationBox
 ?
 .
-stack
+_stack
+?
 .
 remove
 (
