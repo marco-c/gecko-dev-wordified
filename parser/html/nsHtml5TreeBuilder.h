@@ -1438,6 +1438,11 @@ zeroOriginatingReplacementCharacter
 )
 ;
 void
+zeroOrReplacementCharacter
+(
+)
+;
+void
 eof
 (
 )

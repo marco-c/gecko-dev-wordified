@@ -1903,6 +1903,16 @@ pos
 )
 ;
 void
+maybeEmitReplacementCharacter
+(
+char16_t
+*
+buf
+int32_t
+pos
+)
+;
+void
 emitPlaintextReplacementCharacter
 (
 char16_t
