@@ -17797,10 +17797,11 @@ return
 /
 If
 the
-primitive
+clip
 transform
 is
 axis
+-
 aligned
 we
 can
@@ -17936,7 +17937,7 @@ Some
 local_rect
 )
 if
-prim_transform_id
+clip_transform_id
 .
 transform_kind
 (
