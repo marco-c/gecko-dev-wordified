@@ -262,7 +262,7 @@ DataCount
 #
 ifdef
 ENABLE_WASM_EXCEPTIONS
-Event
+Tag
 =
 13
 #
@@ -1131,7 +1131,7 @@ Global
 #
 ifdef
 ENABLE_WASM_EXCEPTIONS
-Event
+Tag
 =
 0x04
 #
@@ -1286,7 +1286,7 @@ ifdef
 ENABLE_WASM_EXCEPTIONS
 enum
 class
-EventKind
+TagKind
 {
 Exception
 =
@@ -4754,7 +4754,7 @@ endif
 static
 const
 unsigned
-MaxEvents
+MaxTags
 =
 1000000
 ;

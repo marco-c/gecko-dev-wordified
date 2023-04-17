@@ -4729,7 +4729,7 @@ The
 check
 whether
 the
-EventDesc
+TagDesc
 signature
 matches
 the
@@ -4809,7 +4809,7 @@ JSContext
 *
 cx
 const
-EventDesc
+TagDesc
 &
 ed
 WasmTagObjectVector
@@ -5102,7 +5102,7 @@ tagIndex
 for
 (
 const
-EventDesc
+TagDesc
 &
 ed
 :
@@ -5110,7 +5110,7 @@ metadata
 (
 )
 .
-events
+tags
 )
 {
 if
@@ -7395,7 +7395,7 @@ case
 DefinitionKind
 :
 :
-Event
+Tag
 :
 {
 val
@@ -7407,7 +7407,7 @@ tagObjs
 [
 exp
 .
-eventIndex
+tagIndex
 (
 )
 ]

@@ -3154,7 +3154,7 @@ LabelKind
 kind
 uint32_t
 *
-eventIndex
+tagIndex
 ResultType
 *
 paramType
@@ -3222,7 +3222,7 @@ readThrow
 (
 uint32_t
 *
-eventIndex
+tagIndex
 ValueVector
 *
 argValues
@@ -10459,7 +10459,7 @@ LabelKind
 kind
 uint32_t
 *
-eventIndex
+tagIndex
 ResultType
 *
 paramType
@@ -10490,7 +10490,7 @@ if
 !
 readVarU32
 (
-eventIndex
+tagIndex
 )
 )
 {
@@ -10499,7 +10499,7 @@ fail
 (
 "
 expected
-event
+tag
 index
 "
 )
@@ -10508,12 +10508,12 @@ index
 if
 (
 *
-eventIndex
+tagIndex
 >
 =
 env_
 .
-events
+tags
 .
 length
 (
@@ -10524,7 +10524,7 @@ return
 fail
 (
 "
-event
+tag
 index
 out
 of
@@ -10691,10 +10691,10 @@ push
 (
 env_
 .
-events
+tags
 [
 *
-eventIndex
+tagIndex
 ]
 .
 resultType
@@ -11169,7 +11169,7 @@ readThrow
 (
 uint32_t
 *
-eventIndex
+tagIndex
 ValueVector
 *
 argValues
@@ -11194,7 +11194,7 @@ if
 !
 readVarU32
 (
-eventIndex
+tagIndex
 )
 )
 {
@@ -11203,7 +11203,7 @@ fail
 (
 "
 expected
-event
+tag
 index
 "
 )
@@ -11212,12 +11212,12 @@ index
 if
 (
 *
-eventIndex
+tagIndex
 >
 =
 env_
 .
-events
+tags
 .
 length
 (
@@ -11228,7 +11228,7 @@ return
 fail
 (
 "
-event
+tag
 index
 out
 of
@@ -11244,10 +11244,10 @@ popWithType
 (
 env_
 .
-events
+tags
 [
 *
-eventIndex
+tagIndex
 ]
 .
 resultType

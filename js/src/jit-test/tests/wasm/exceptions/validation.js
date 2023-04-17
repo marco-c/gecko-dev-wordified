@@ -194,7 +194,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -249,8 +249,8 @@ type
 Catch
 must
 have
-an
-event
+a
+tag
 index
 .
 wasmInvalid
@@ -270,7 +270,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -317,7 +317,7 @@ false
 )
 /
 expected
-event
+tag
 index
 /
 )
@@ -348,7 +348,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -424,7 +424,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -649,7 +649,7 @@ type
 error2
 =
 /
-event
+tag
 index
 out
 of
@@ -709,7 +709,7 @@ declSection
 0
 ]
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1086,7 +1086,7 @@ EndCode
 ]
 )
 /
-event
+tag
 index
 out
 of
@@ -1354,7 +1354,7 @@ param
 i32
 )
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1538,7 +1538,7 @@ param
 i32
 )
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1674,7 +1674,7 @@ param
 i32
 )
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1806,7 +1806,7 @@ type
 0
 )
 )
-eventSection
+tagSection
 (
 [
 {
@@ -1885,7 +1885,7 @@ wasmInvalid
 (
 invalid1
 /
-event
+tag
 index
 out
 of

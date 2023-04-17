@@ -8560,9 +8560,10 @@ ENABLE_WASM_EXCEPTIONS
 Currently
 the
 only
-events
+tags
 are
-exceptions
+exception
+tags
 .
 MOZ_ASSERT
 (
@@ -8577,7 +8578,7 @@ metadata
 (
 )
 .
-events
+tags
 .
 length
 (

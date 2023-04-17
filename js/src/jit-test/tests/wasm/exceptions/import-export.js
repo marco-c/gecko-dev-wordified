@@ -565,7 +565,7 @@ imports
 .
 kind
 "
-event
+tag
 "
 )
 ;
@@ -591,7 +591,7 @@ exports
 .
 kind
 "
-event
+tag
 "
 )
 ;

@@ -1014,7 +1014,7 @@ uint32_t
 Export
 :
 :
-eventIndex
+tagIndex
 (
 )
 const
@@ -1029,7 +1029,7 @@ kind_
 DefinitionKind
 :
 :
-Event
+Tag
 )
 ;
 return

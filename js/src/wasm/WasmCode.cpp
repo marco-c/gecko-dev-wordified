@@ -5762,7 +5762,7 @@ ifdef
 ENABLE_WASM_EXCEPTIONS
 SerializedPodVectorSize
 (
-events
+tags
 )
 +
 #
@@ -5880,7 +5880,7 @@ cursor
 SerializePodVector
 (
 cursor
-events
+tags
 )
 ;
 #
@@ -6025,7 +6025,7 @@ DeserializePodVector
 (
 cursor
 &
-events
+tags
 )
 )
 &
@@ -6145,7 +6145,7 @@ mallocSizeOf
 #
 ifdef
 ENABLE_WASM_EXCEPTIONS
-events
+tags
 .
 sizeOfExcludingThis
 (
