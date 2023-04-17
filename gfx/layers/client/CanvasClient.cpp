@@ -124,17 +124,6 @@ h
 #
 include
 "
-ClientCanvasLayer
-.
-h
-"
-/
-/
-for
-ClientCanvasLayer
-#
-include
-"
 gfx2DGlue
 .
 h
