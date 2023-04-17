@@ -2932,6 +2932,12 @@ SurfaceType
 :
 DATA_SHARED_WRAPPER
 :
+case
+SurfaceType
+:
+:
+DATA_MAPPED
+:
 return
 true
 ;

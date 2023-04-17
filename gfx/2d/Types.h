@@ -418,6 +418,16 @@ blob
 image
 *
 /
+DATA_MAPPED
+/
+*
+Data
+surface
+wrapping
+a
+ScopedMap
+*
+/
 }
 ;
 enum

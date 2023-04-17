@@ -1571,6 +1571,9 @@ aCachedSurface
 GetSurfaceKey
 (
 )
+aMetadata
+.
+mSurface
 aCachedSurface
 -
 >
