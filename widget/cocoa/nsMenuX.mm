@@ -2628,6 +2628,9 @@ observer
 if
 (
 mObserver
+&
+&
+popupContent
 )
 {
 mObserver
@@ -3295,6 +3298,9 @@ observer
 if
 (
 mObserver
+&
+&
+popupContent
 )
 {
 mObserver
@@ -4729,6 +4735,9 @@ GetMenuPopupContent
 if
 (
 mObserver
+&
+&
+popupContent
 )
 {
 mObserver
