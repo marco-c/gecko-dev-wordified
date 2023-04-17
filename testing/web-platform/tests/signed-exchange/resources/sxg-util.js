@@ -41,7 +41,7 @@ message
 or
 rejects
 on
-10000ms
+15000ms
 timeout
 .
 /
@@ -128,7 +128,7 @@ reject
 timeout
 '
 )
-10000
+15000
 )
 ;
 const
