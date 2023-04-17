@@ -1616,9 +1616,10 @@ SymbolicAddress
 RttSub
 _RoN
 _FailOnNullPtr
-2
+3
 {
 _PTR
+_RoN
 _RoN
 _END
 }
@@ -8606,6 +8607,7 @@ MakeABIFunctionType
 (
 ArgType_General
 {
+ArgType_General
 ArgType_General
 ArgType_General
 }

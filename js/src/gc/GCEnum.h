@@ -731,6 +731,11 @@ WasmRuntimeExceptionTag
 \
 _
 (
+WasmRttValueChildren
+)
+\
+_
+(
 FileObjectFile
 )
 \
