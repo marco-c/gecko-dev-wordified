@@ -79,12 +79,6 @@ subprocess
 import
 sys
 from
-mozbuild
-.
-util
-import
-ensure_subprocess_env
-from
 mozprocess
 .
 processhandler
@@ -945,13 +939,6 @@ Environment
 env
 }
 "
-)
-        
-use_env
-=
-ensure_subprocess_env
-(
-use_env
 )
         
 if
