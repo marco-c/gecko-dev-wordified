@@ -926,6 +926,7 @@ false
 0
 ;
 virtual
+const
 TimingStruct
 Timings
 (
@@ -1426,6 +1427,7 @@ override
 ;
 \
 virtual
+const
 TimingStruct
 Timings
 (

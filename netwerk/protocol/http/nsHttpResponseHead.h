@@ -657,9 +657,7 @@ nodiscard
 nsresult
 SetHeader
 (
-const
 nsHttpAtom
-&
 h
 const
 nsACString
@@ -679,9 +677,7 @@ nodiscard
 nsresult
 GetHeader
 (
-const
 nsHttpAtom
-&
 h
 nsACString
 &
@@ -691,9 +687,7 @@ v
 void
 ClearHeader
 (
-const
 nsHttpAtom
-&
 h
 )
 ;
@@ -705,9 +699,7 @@ ClearHeaders
 bool
 HasHeaderValue
 (
-const
 nsHttpAtom
-&
 h
 const
 char
@@ -718,9 +710,7 @@ v
 bool
 HasHeader
 (
-const
 nsHttpAtom
-&
 h
 )
 const
@@ -1105,7 +1095,7 @@ UpdateHeaders
 (
 nsHttpResponseHead
 *
-aOther
+headers
 )
 ;
 /
@@ -1261,9 +1251,7 @@ nodiscard
 nsresult
 GetOriginalHeader
 (
-const
 nsHttpAtom
-&
 aHeader
 nsIHttpHeaderVisitor
 *
@@ -1299,9 +1287,7 @@ nodiscard
 nsresult
 SetHeader_locked
 (
-const
 nsHttpAtom
-&
 atom
 const
 nsACString
@@ -1391,9 +1377,7 @@ nodiscard
 nsresult
 ParseDateHeader
 (
-const
 nsHttpAtom
-&
 header
 uint32_t
 *
