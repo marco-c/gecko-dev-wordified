@@ -505,9 +505,9 @@ ScriptStencilIterable
 /
 /
 ScopeContext
-hold
+holds
 information
-derivied
+derived
 from
 the
 scope
