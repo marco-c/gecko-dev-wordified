@@ -5011,6 +5011,7 @@ moduleEnv
 compilerEnv
 nullptr
 error
+warnings
 )
 ;
 if
@@ -5181,6 +5182,7 @@ compilerEnv
 cancelled
 &
 error
+nullptr
 )
 ;
 if
@@ -5268,6 +5270,15 @@ to
 return
 here
 .
+/
+/
+TODO
+:
+report
+warnings
+to
+the
+console
 }
 class
 StreamingDecoder
@@ -5883,6 +5894,7 @@ compilerEnv
 &
 cancelled
 error
+warnings
 )
 ;
 if
