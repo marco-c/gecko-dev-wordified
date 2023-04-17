@@ -6111,7 +6111,16 @@ snap_to_device
 .
 snap_rect
 (
+&
 rect
+.
+to_box2d
+(
+)
+)
+.
+to_rect
+(
 )
 }
 fn

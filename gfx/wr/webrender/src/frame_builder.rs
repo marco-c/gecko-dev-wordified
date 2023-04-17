@@ -3947,10 +3947,6 @@ spatial_node_index
 ctx
 .
 screen_world_rect
-.
-to_rect
-(
-)
 ctx
 .
 spatial_tree
@@ -3967,6 +3963,10 @@ map
 tile_cache
 .
 local_clip_rect
+.
+to_box2d
+(
+)
 )
 .
 expect
@@ -3994,10 +3994,6 @@ global_device_pixel_scale
 )
 .
 round
-(
-)
-.
-to_box2d
 (
 )
 ;

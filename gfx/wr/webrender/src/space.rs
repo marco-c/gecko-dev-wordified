@@ -78,7 +78,7 @@ euclid
 :
 {
 Transform3D
-Rect
+Box2D
 Point2D
 Vector2D
 }
@@ -163,7 +163,7 @@ SpatialNodeIndex
 pub
 bounds
 :
-Rect
+Box2D
 <
 f32
 T
@@ -199,7 +199,7 @@ ref_spatial_node_index
 SpatialNodeIndex
 bounds
 :
-Rect
+Box2D
 <
 f32
 T
@@ -242,7 +242,7 @@ target_node_index
 SpatialNodeIndex
 bounds
 :
-Rect
+Box2D
 <
 f32
 T
@@ -537,7 +537,7 @@ self
 rect
 :
 &
-Rect
+Box2D
 <
 f32
 T
@@ -547,7 +547,7 @@ T
 >
 Option
 <
-Rect
+Box2D
 <
 f32
 F
@@ -625,7 +625,7 @@ self
 rect
 :
 &
-Rect
+Box2D
 <
 f32
 F
@@ -635,7 +635,7 @@ F
 >
 Option
 <
-Rect
+Box2D
 <
 f32
 T
@@ -775,7 +775,7 @@ self
 rect
 :
 &
-Rect
+Box2D
 <
 f32
 F
@@ -785,7 +785,7 @@ F
 >
 Option
 <
-Rect
+Box2D
 <
 f32
 T
@@ -1208,7 +1208,7 @@ self
 rect
 :
 &
-Rect
+Box2D
 <
 f32
 F
@@ -1216,7 +1216,7 @@ F
 )
 -
 >
-Rect
+Box2D
 <
 f32
 F
@@ -1271,10 +1271,6 @@ rect
 snap
 (
 )
-.
-to_box2d
-(
-)
 ;
 scale_offset
 .
@@ -1282,10 +1278,6 @@ unmap_rect
 (
 &
 snapped_device_rect
-.
-to_rect
-(
-)
 )
 }
 None
