@@ -10005,9 +10005,6 @@ r1
 RegI32
 *
 temp
-RegI64
-*
-reserved
 )
 ;
 void
