@@ -194,10 +194,13 @@ JS
 :
 MutableHandle
 <
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 aDesc
 )
@@ -222,7 +225,7 @@ ok
 |
 aDesc
 .
-object
+isSome
 (
 )
 )
