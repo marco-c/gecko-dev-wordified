@@ -505,7 +505,7 @@ END
 _ns
 }
 ;
-IDB_TRY
+QM_TRY
 (
 ExecuteSimpleSQLSequence
 (
@@ -1090,7 +1090,7 @@ NULL
 _ns
 }
 ;
-IDB_TRY
+QM_TRY
 (
 ExecuteSimpleSQLSequence
 (
@@ -1099,7 +1099,7 @@ commands
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 CreateFileTables
 (
@@ -1107,7 +1107,7 @@ aConnection
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 aConnection
 .

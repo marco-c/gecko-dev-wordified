@@ -818,7 +818,7 @@ desc
 aCx
 )
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1697,7 +1697,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1735,13 +1735,13 @@ something
 /
 This
 last
-IDB_TRY
+QM_TRY
 could
 be
 removed
 then
 .
-IDB_TRY
+QM_TRY
 (
 rv
 )

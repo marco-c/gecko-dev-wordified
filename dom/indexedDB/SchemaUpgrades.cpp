@@ -754,7 +754,7 @@ scoper
 stmt
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -5773,7 +5773,7 @@ return
 rv
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5855,7 +5855,7 @@ stringKey
 Key
 key
 ;
-IDB_TRY
+QM_TRY
 (
 key
 .
@@ -8001,7 +8001,7 @@ an
 empty
 array
 .
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 indexValues
@@ -8148,7 +8148,7 @@ Compress
 the
 array
 .
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -11783,7 +11783,7 @@ database
 |
 table
 .
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -12659,7 +12659,7 @@ scoper
 stmt
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -13221,7 +13221,7 @@ if
 nextIndexIdAlreadyRead
 )
 {
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 std
@@ -13275,7 +13275,7 @@ key
 buffer
 length
 .
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -13417,7 +13417,7 @@ an
 index
 id
 .
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -13715,7 +13715,7 @@ return
 rv
 ;
 }
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -13731,7 +13731,7 @@ oldBlobLength
 )
 )
 ;
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -15609,7 +15609,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 cloneInfo
@@ -15788,7 +15788,7 @@ schemaVersion
 case
 4
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom4To5
 (
@@ -15801,7 +15801,7 @@ break
 case
 5
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom5To6
 (
@@ -15814,7 +15814,7 @@ break
 case
 6
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom6To7
 (
@@ -15827,7 +15827,7 @@ break
 case
 7
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom7To8
 (
@@ -15840,7 +15840,7 @@ break
 case
 8
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom8To9_0
 (
@@ -15861,7 +15861,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom9_0To10_0
 (
@@ -15878,7 +15878,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom10_0To11_0
 (
@@ -15895,7 +15895,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom11_0To12_0
 (
@@ -15912,7 +15912,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom12_0To13_0
 (
@@ -15931,7 +15931,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom13_0To14_0
 (
@@ -15948,7 +15948,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom14_0To15_0
 (
@@ -15965,7 +15965,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom15_0To16_0
 (
@@ -15982,7 +15982,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom16_0To17_0
 (
@@ -15999,7 +15999,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom17_0To18_0
 (
@@ -16021,7 +16021,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom18_0To19_0
 (
@@ -16038,7 +16038,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom19_0To20_0
 (
@@ -16057,7 +16057,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom20_0To21_0
 (
@@ -16074,7 +16074,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom21_0To22_0
 (
@@ -16091,7 +16091,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom22_0To23_0
 (
@@ -16109,7 +16109,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom23_0To24_0
 (
@@ -16126,7 +16126,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom24_0To25_0
 (
@@ -16143,7 +16143,7 @@ MakeSchemaVersion
 0
 )
 :
-IDB_TRY
+QM_TRY
 (
 UpgradeSchemaFrom25_0To26_0
 (
@@ -16155,7 +16155,7 @@ break
 ;
 default
 :
-IDB_FAIL
+QM_FAIL
 (
 Err
 (
@@ -16189,7 +16189,7 @@ available
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 schemaVersion
 MOZ_TO_RESULT_INVOKE

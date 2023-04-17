@@ -1667,7 +1667,7 @@ IndexedDatabaseManager
 )
 )
 ;
-IDB_TRY
+QM_TRY
 (
 instance
 -
@@ -3118,7 +3118,7 @@ return
 false
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 factory

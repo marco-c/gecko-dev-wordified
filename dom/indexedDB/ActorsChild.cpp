@@ -4759,7 +4759,7 @@ return
 true
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 principal
@@ -4827,7 +4827,7 @@ principal
 this
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 PermissionRequestBase
@@ -8773,7 +8773,7 @@ IPC_OK
 )
 ;
 }
-IDB_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 principal
@@ -8916,7 +8916,7 @@ ownerElement
 principal
 )
 ;
-IDB_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 PermissionRequestBase
@@ -14187,7 +14187,7 @@ StructuredCloneReadInfoChild
 >
 cloneReadInfos
 ;
-IDB_TRY
+QM_TRY
 (
 OkIf
 (
@@ -16025,7 +16025,7 @@ MOZ_ASSERT
 internalInputStream
 )
 ;
-IDB_TRY
+QM_TRY
 (
 SnappyUncompressStructuredCloneData
 (
@@ -16043,7 +16043,7 @@ State
 :
 Finishing
 ;
-IDB_TRY
+QM_TRY
 (
 mOwningEventTarget
 -

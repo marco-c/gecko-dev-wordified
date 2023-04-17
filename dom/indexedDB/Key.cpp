@@ -3545,7 +3545,7 @@ aTypeOffset
 eTerminator
 )
 {
-IDB_TRY
+QM_TRY
 (
 DecodeJSValInternal
 (
