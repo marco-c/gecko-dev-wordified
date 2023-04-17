@@ -249,13 +249,6 @@ h
 #
 include
 "
-ImageLayers
-.
-h
-"
-#
-include
-"
 Layers
 .
 h
