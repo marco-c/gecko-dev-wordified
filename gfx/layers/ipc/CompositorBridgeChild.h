@@ -1033,11 +1033,6 @@ GetTileLockAllocator
 )
 override
 ;
-void
-HandleMemoryPressure
-(
-)
-;
 nsISerialEventTarget
 *
 GetThread
