@@ -3060,7 +3060,7 @@ const
 attributeName
 ;
 const
-int8_t
+uint8_t
 characteristics
 ;
 }
@@ -3836,7 +3836,7 @@ return
 state
 ;
 }
-int8_t
+uint8_t
 aria
 :
 :
@@ -3890,8 +3890,7 @@ characteristics
 }
 }
 return
--
-1
+0
 ;
 }
 bool
@@ -4144,7 +4143,7 @@ continue
 /
 Not
 ARIA
-int8_t
+uint8_t
 attrFlags
 =
 aria
