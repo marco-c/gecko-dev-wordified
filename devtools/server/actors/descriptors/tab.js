@@ -1100,6 +1100,7 @@ destroyed
 /
 getWatcher
 (
+config
 )
 {
 if
@@ -1126,6 +1127,7 @@ browser
 this
 .
 _browser
+config
 }
 )
 ;
