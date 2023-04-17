@@ -59,6 +59,9 @@ mediacapture
 streams
 '
 '
+webrtc
+'
+'
 dom
 '
 ]

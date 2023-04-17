@@ -55,6 +55,15 @@ transform
 '
 webrtc
 '
+'
+streams
+'
+'
+html
+'
+'
+dom
+'
 ]
 async
 idlArray

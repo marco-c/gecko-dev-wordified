@@ -43,6 +43,9 @@ uievents
 ]
 [
 '
+html
+'
+'
 dom
 '
 ]
