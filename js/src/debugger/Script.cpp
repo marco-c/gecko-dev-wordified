@@ -2245,7 +2245,7 @@ getParameterNames
 if
 (
 !
-ensureScriptMaybeLazy
+ensureScript
 (
 )
 )
