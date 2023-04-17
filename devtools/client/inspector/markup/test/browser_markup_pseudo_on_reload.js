@@ -95,7 +95,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -138,10 +137,8 @@ inspector
 )
 ;
 await
-reloadPage
+refreshTab
 (
-inspector
-testActor
 )
 ;
 info

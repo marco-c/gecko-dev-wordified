@@ -124,7 +124,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -171,10 +170,8 @@ children
 )
 ;
 await
-reloadPage
+refreshTab
 (
-inspector
-testActor
 )
 ;
 await

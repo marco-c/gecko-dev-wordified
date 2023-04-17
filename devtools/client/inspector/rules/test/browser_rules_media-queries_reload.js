@@ -155,7 +155,6 @@ inspector
 view
 :
 ruleView
-testActor
 toolbox
 }
 =
@@ -252,10 +251,8 @@ page
 )
 ;
 await
-reloadPage
+refreshTab
 (
-inspector
-testActor
 )
 ;
 await

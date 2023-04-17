@@ -185,7 +185,6 @@ preTaskValue
 const
 {
 inspector
-testActor
 view
 }
 =
@@ -232,9 +231,7 @@ refreshed
 )
 ;
 await
-testActor
-.
-reload
+refreshTab
 (
 )
 ;

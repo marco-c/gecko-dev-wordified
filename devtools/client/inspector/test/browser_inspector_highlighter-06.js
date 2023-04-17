@@ -198,9 +198,7 @@ page
 )
 ;
 await
-testActor
-.
-reload
+refreshTab
 (
 )
 ;
