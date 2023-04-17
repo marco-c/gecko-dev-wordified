@@ -4565,6 +4565,11 @@ onItemChanged
 )
 {
 }
+onItemMoved
+(
+)
+{
+}
 QueryInterface
 :
 ChromeUtils

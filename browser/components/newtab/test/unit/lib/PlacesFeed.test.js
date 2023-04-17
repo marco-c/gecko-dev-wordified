@@ -7201,6 +7201,12 @@ happiness
 {
 observer
 .
+onItemMoved
+(
+)
+;
+observer
+.
 onItemChanged
 (
 )

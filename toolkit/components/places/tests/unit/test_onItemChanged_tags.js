@@ -290,6 +290,11 @@ resolve
 }
 }
 }
+onItemMoved
+(
+)
+{
+}
 }
 ;
 PlacesUtils
