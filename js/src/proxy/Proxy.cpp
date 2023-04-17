@@ -759,10 +759,6 @@ desc
 getterObject
 (
 )
-.
-get
-(
-)
 )
 )
 ;
