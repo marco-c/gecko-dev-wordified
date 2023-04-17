@@ -896,6 +896,11 @@ IPCMessageUtils
 cpp
 "
 "
+IPCMessageUtilsSpecializations
+.
+cpp
+"
+"
 IPCStreamChild
 .
 cpp
