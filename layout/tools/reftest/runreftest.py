@@ -75,8 +75,6 @@ import
 absolute_import
 print_function
 import
-copy
-import
 json
 import
 multiprocessing
@@ -4550,86 +4548,6 @@ options
 )
         
 #
-options
-.
-log
-has
-done
-its
-work
-in
-_populate_logger
-;
-remove
-it
-so
-that
-        
-#
-options
-can
-be
-deepcopied
-.
-An
-alternative
-would
-be
-to
-modify
-        
-#
-mozlog
-.
-structuredlog
-.
-StructuredLogger
-to
-support
-copy
-.
-deepcopy
-        
-#
-https
-:
-/
-/
-docs
-.
-python
-.
-org
-/
-2
-.
-7
-/
-library
-/
-copy
-.
-html
-        
-if
-hasattr
-(
-options
-"
-log
-"
-)
-:
-            
-delattr
-(
-options
-"
-log
-"
-)
-        
-#
 Number
 of
 times
@@ -4677,22 +4595,13 @@ step1
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
 options
-)
-            
-stepOptions
 .
 repeat
 =
 VERIFY_REPEAT
             
-stepOptions
+options
 .
 runUntilFailure
 =
@@ -4705,7 +4614,7 @@ self
 runTests
 (
 tests
-stepOptions
+options
 )
             
 return
@@ -4717,14 +4626,17 @@ step2
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
 options
-)
+.
+repeat
+=
+0
+            
+options
+.
+runUntilFailure
+=
+False
             
 for
 i
@@ -4742,7 +4654,7 @@ self
 runTests
 (
 tests
-stepOptions
+options
 )
                 
 if
@@ -4763,28 +4675,19 @@ step3
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
 options
-)
-            
-stepOptions
 .
 repeat
 =
 VERIFY_REPEAT
             
-stepOptions
+options
 .
 runUntilFailure
 =
 True
             
-stepOptions
+options
 .
 environment
 .
@@ -4804,7 +4707,20 @@ self
 runTests
 (
 tests
-stepOptions
+options
+)
+            
+options
+.
+environment
+.
+remove
+(
+"
+MOZ_CHAOSMODE
+=
+0xfb
+"
 )
             
 return
@@ -4816,16 +4732,19 @@ step4
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
 options
-)
+.
+repeat
+=
+0
             
-stepOptions
+options
+.
+runUntilFailure
+=
+False
+            
+options
 .
 environment
 .
@@ -4854,7 +4773,7 @@ self
 runTests
 (
 tests
-stepOptions
+options
 )
                 
 if
@@ -4865,6 +4784,19 @@ result
 :
                     
 break
+            
+options
+.
+environment
+.
+remove
+(
+"
+MOZ_CHAOSMODE
+=
+0xfb
+"
+)
             
 return
 result

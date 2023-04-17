@@ -126,8 +126,6 @@ distutils
 import
 spawn
 import
-copy
-import
 ctypes
 import
 glob
@@ -21052,34 +21050,25 @@ step1
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
 options
-)
-            
-stepOptions
 .
 repeat
 =
 VERIFY_REPEAT
             
-stepOptions
+options
 .
 keep_open
 =
 False
             
-stepOptions
+options
 .
 runUntilFailure
 =
 True
             
-stepOptions
+options
 .
 profilePath
 =
@@ -21091,7 +21080,7 @@ self
 .
 runTests
 (
-stepOptions
+options
 )
             
 result
@@ -21128,24 +21117,21 @@ step2
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
 options
-)
-            
-stepOptions
 .
 repeat
 =
 0
             
-stepOptions
+options
 .
 keep_open
+=
+False
+            
+options
+.
+runUntilFailure
 =
 False
             
@@ -21158,7 +21144,7 @@ VERIFY_REPEAT_SINGLE_BROWSER
 )
 :
                 
-stepOptions
+options
 .
 profilePath
 =
@@ -21170,7 +21156,7 @@ self
 .
 runTests
 (
-stepOptions
+options
 )
                 
 result
@@ -21216,28 +21202,25 @@ step3
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
 options
-)
-            
-stepOptions
 .
 repeat
 =
 VERIFY_REPEAT
             
-stepOptions
+options
 .
 keep_open
 =
 False
             
-stepOptions
+options
+.
+runUntilFailure
+=
+True
+            
+options
 .
 environment
 .
@@ -21250,7 +21233,7 @@ MOZ_CHAOSMODE
 "
 )
             
-stepOptions
+options
 .
 profilePath
 =
@@ -21262,7 +21245,20 @@ self
 .
 runTests
 (
-stepOptions
+options
+)
+            
+options
+.
+environment
+.
+remove
+(
+"
+MOZ_CHAOSMODE
+=
+0xfb
+"
 )
             
 result
@@ -21299,28 +21295,25 @@ step4
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
 options
-)
-            
-stepOptions
 .
 repeat
 =
 0
             
-stepOptions
+options
 .
 keep_open
 =
 False
             
-stepOptions
+options
+.
+runUntilFailure
+=
+False
+            
+options
 .
 environment
 .
@@ -21342,7 +21335,7 @@ VERIFY_REPEAT_SINGLE_BROWSER
 )
 :
                 
-stepOptions
+options
 .
 profilePath
 =
@@ -21354,7 +21347,7 @@ self
 .
 runTests
 (
-stepOptions
+options
 )
                 
 result
@@ -21391,6 +21384,19 @@ result
                     
 break
             
+options
+.
+environment
+.
+remove
+(
+"
+MOZ_CHAOSMODE
+=
+0xfb
+"
+)
+            
 return
 result
         
@@ -21401,16 +21407,16 @@ fission_pref
 )
 :
             
-stepOptions
-=
-copy
-.
-deepcopy
-(
+if
+fission_pref
+not
+in
 options
-)
-            
-stepOptions
+.
+extraPrefs
+:
+                
+options
 .
 extraPrefs
 .
@@ -21419,19 +21425,19 @@ append
 fission_pref
 )
             
-stepOptions
+options
 .
 keep_open
 =
 False
             
-stepOptions
+options
 .
 runUntilFailure
 =
 True
             
-stepOptions
+options
 .
 profilePath
 =
@@ -21443,7 +21449,7 @@ self
 .
 runTests
 (
-stepOptions
+options
 )
             
 result
@@ -27640,24 +27646,6 @@ options
 .
 quiet
     
-)
-    
-if
-hasattr
-(
-options
-"
-log
-"
-)
-:
-        
-delattr
-(
-options
-"
-log
-"
 )
     
 options
