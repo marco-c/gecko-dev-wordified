@@ -1129,7 +1129,7 @@ if
 !
 iter
 .
-readFunctionStart
+startFunction
 (
 funcIndex
 )
@@ -1253,7 +1253,7 @@ controlStackEmpty
 return
 iter
 .
-readFunctionEnd
+endFunction
 (
 bodyEnd
 )
