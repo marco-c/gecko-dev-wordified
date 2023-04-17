@@ -726,6 +726,7 @@ toInt32
 bool
 IsDeadProxyObject
 (
+const
 JSObject
 *
 obj
