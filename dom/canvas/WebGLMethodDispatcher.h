@@ -434,7 +434,14 @@ DEFINE_ASYNC
 HostWebGLContext
 :
 :
-SetEnabled
+Disable
+)
+DEFINE_ASYNC
+(
+HostWebGLContext
+:
+:
+Enable
 )
 DEFINE_ASYNC
 (
