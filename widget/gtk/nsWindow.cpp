@@ -4152,9 +4152,6 @@ DestroyCompositor
 (
 )
 ;
-#
-ifdef
-MOZ_X11
 /
 /
 Ensure
@@ -4182,8 +4179,6 @@ CleanupResources
 (
 )
 ;
-#
-endif
 ClearCachedResources
 (
 )
