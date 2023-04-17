@@ -52,8 +52,6 @@ anchors
 ]
 [
 '
-webxr
--
 hit
 -
 test

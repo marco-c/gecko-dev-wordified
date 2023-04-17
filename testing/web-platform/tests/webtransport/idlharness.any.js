@@ -44,9 +44,6 @@ webtransport
 ]
 [
 '
-WebIDL
-'
-'
 streams
 '
 ]

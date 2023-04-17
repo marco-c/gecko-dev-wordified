@@ -219,7 +219,7 @@ resolve
 promise_test
 (
 async
-t
+_
 =
 >
 {
@@ -245,7 +245,6 @@ test
 f
 (
 runner
-t
 )
 await
 runner

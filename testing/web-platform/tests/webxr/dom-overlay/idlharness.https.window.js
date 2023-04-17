@@ -49,8 +49,6 @@ idl_test
 (
 [
 '
-webxr
--
 dom
 -
 overlays
