@@ -134,6 +134,10 @@ experiment
 mod
 jwe
 ;
+pub
+(
+crate
+)
 mod
 labeled
 ;
@@ -382,12 +386,7 @@ self
 labeled
 :
 :
-{
-combine_base_identifier_and_label
-dynamic_label
-strip_label
 LabeledMetric
-}
 ;
 pub
 use

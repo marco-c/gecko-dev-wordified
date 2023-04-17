@@ -216,7 +216,13 @@ crate
 metrics
 :
 :
-CounterMetric
+labeled
+:
+:
+{
+combine_base_identifier_and_label
+strip_label
+}
 ;
 use
 crate
@@ -225,10 +231,7 @@ crate
 metrics
 :
 :
-{
-combine_base_identifier_and_label
-strip_label
-}
+CounterMetric
 ;
 use
 crate
