@@ -2711,11 +2711,11 @@ alloc
 )
 LPowOfTwoI
 (
-base
 useRegister
 (
 power
 )
+base
 )
 ;
 assignSnapshot
@@ -4392,6 +4392,9 @@ LAsmJSLoadHeap
 (
 baseAlloc
 limitAlloc
+LAllocation
+(
+)
 )
 ins
 )
@@ -4584,6 +4587,9 @@ value
 )
 )
 limitAlloc
+LAllocation
+(
+)
 )
 ins
 )
