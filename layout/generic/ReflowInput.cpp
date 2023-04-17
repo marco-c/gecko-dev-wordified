@@ -1206,12 +1206,6 @@ mLineLayout
 :
 nullptr
 )
-mBreakType
-(
-aParentReflowInput
-.
-mBreakType
-)
 mPercentBSizeObserver
 (
 (
