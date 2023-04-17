@@ -650,15 +650,6 @@ moxLabel
 override
 -
 (
-id
-)
-moxValue
-;
-/
-/
-override
--
-(
 void
 )
 stateChanged
