@@ -5228,6 +5228,17 @@ assertBackgroundSweepingFinished
 (
 )
 ;
+/
+/
+Compacting
+GC
+.
+Implemented
+in
+Compacting
+.
+cpp
+.
 bool
 shouldCompact
 (
