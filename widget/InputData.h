@@ -1628,7 +1628,7 @@ aTranslation
 )
 ;
 WidgetTouchEvent
-ToWidgetTouchEvent
+ToWidgetEvent
 (
 nsIWidget
 *
