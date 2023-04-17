@@ -284,7 +284,7 @@ Tests
 for
 handshake
 .
-_base
+base
 module
 .
 "
@@ -337,7 +337,7 @@ mod_pywebsocket
 .
 handshake
 .
-_base
+base
 import
 HandshakeException
 from
@@ -345,7 +345,7 @@ mod_pywebsocket
 .
 handshake
 .
-_base
+base
 import
 validate_subprotocol
 class
