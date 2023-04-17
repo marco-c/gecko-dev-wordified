@@ -401,12 +401,6 @@ from
 mozfile
 import
 which
-from
-mozbuild
-.
-util
-import
-ensure_bytes
 def
 ToCAsciiArray
 (
@@ -867,9 +861,15 @@ zlib
 .
 compress
 (
-ensure_bytes
-(
 processed
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
 )
     
@@ -1095,9 +1095,15 @@ input
 .
 write
 (
-ensure_bytes
-(
 source
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
 )
     
