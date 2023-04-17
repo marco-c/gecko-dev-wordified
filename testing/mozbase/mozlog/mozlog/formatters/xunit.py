@@ -988,9 +988,4 @@ xml_string
 .
 toprettyxml
 (
-encoding
-=
-"
-utf8
-"
 )
