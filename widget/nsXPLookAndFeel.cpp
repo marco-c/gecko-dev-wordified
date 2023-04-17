@@ -3039,12 +3039,6 @@ ColorID
 :
 TextSelectForeground
 :
-return
-aColor
-=
-=
-NS_DONT_CHANGE_COLOR
-;
 case
 ColorID
 :
