@@ -12997,6 +12997,13 @@ nsIFile
 :
 DIRECTORY_TYPE
 0755
+/
+*
+aSkipAncestors
+=
+*
+/
+false
 )
 .
 map

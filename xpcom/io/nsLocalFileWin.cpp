@@ -8584,6 +8584,8 @@ uint32_t
 aType
 uint32_t
 aAttributes
+bool
+aSkipAncestors
 )
 {
 if
@@ -8641,6 +8643,9 @@ NS_ERROR_FILE_ALREADY_EXISTS
 =
 =
 rv
+|
+|
+aSkipAncestors
 )
 {
 return

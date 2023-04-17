@@ -2683,6 +2683,8 @@ int
 aFlags
 uint32_t
 aPermissions
+bool
+aSkipAncestors
 PRFileDesc
 *
 *
@@ -2778,6 +2780,10 @@ errno
 =
 =
 ENOENT
+&
+&
+!
+aSkipAncestors
 )
 {
 /
@@ -3010,6 +3016,8 @@ uint32_t
 aType
 uint32_t
 aPermissions
+bool
+aSkipAncestors
 )
 {
 if
@@ -3048,6 +3056,7 @@ PR_TRUNCATE
 |
 PR_EXCL
 aPermissions
+aSkipAncestors
 &
 junk
 )
@@ -4819,6 +4828,8 @@ old
 permissions
 uint32_t
 myPerms
+=
+0
 ;
 rv
 =
@@ -4935,6 +4946,13 @@ PR_CREATE_FILE
 |
 PR_TRUNCATE
 myPerms
+/
+*
+aSkipAncestors
+=
+*
+/
+false
 &
 newFD
 )

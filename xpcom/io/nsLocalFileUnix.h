@@ -476,6 +476,8 @@ int
 aFlags
 uint32_t
 aPermissions
+bool
+aSkipAncestors
 PRFileDesc
 *
 *
