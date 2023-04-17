@@ -435,9 +435,6 @@ antialias_mode
 DWRITE_MEASURING_MODE
 measuring_mode
 ;
-cairo_bool_t
-manual_show_glyphs_allowed
-;
 enum
 TextRenderingState
 {
