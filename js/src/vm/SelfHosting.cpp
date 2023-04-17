@@ -20154,12 +20154,12 @@ false
 }
 Rooted
 <
-ShapePropertyVector
+PropertyInfoWithKeyVector
 >
 props
 (
 cx
-ShapePropertyVector
+PropertyInfoWithKeyVector
 (
 cx
 )

@@ -4174,7 +4174,7 @@ shape
 )
 ;
 }
-ShapePropertyWithKey
+PropertyInfoWithKey
 getLastProperty
 (
 )
