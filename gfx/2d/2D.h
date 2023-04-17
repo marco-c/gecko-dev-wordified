@@ -2926,6 +2926,12 @@ SurfaceType
 :
 DATA_ALIGNED
 :
+case
+SurfaceType
+:
+:
+DATA_SHARED_WRAPPER
+:
 return
 true
 ;
