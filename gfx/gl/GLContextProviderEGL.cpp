@@ -1691,12 +1691,6 @@ bpp
 =
 32
 ;
-const
-bool
-withDepth
-=
-true
-;
 if
 (
 !
@@ -1707,7 +1701,7 @@ egl
 &
 config
 bpp
-withDepth
+false
 aUseGles
 )
 )
@@ -1748,7 +1742,7 @@ egl
 &
 config
 aDepth
-aHardwareWebRender
+false
 aUseGles
 visualID
 )
@@ -1790,7 +1784,7 @@ config
 aEnableDepthBuffer
 *
 /
-aHardwareWebRender
+false
 aUseGles
 visualID
 )

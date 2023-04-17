@@ -1273,7 +1273,7 @@ bpp
 enableDepthBuffer
 *
 /
-true
+false
 gl
 -
 >
