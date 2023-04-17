@@ -170,6 +170,11 @@ THREAD_TYPE_PARSE
 offThreadDecodeScript
 (
 t
+{
+sourceIsLazy
+:
+true
+}
 )
 ;
 runOffThreadDecodedScript

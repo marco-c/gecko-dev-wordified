@@ -39935,9 +39935,9 @@ false
 }
 /
 /
-These
+This
 option
-settings
+setting
 must
 override
 whatever
@@ -39959,11 +39959,6 @@ script
 options
 .
 setIsRunOnce
-(
-false
-)
-.
-setSourceIsLazy
 (
 false
 )
