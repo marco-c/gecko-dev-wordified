@@ -1192,6 +1192,9 @@ format
 -
 -
 -
+/
+/
+static
 nsresult
 nsClipboard
 :
