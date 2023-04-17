@@ -274,6 +274,9 @@ ready_to_draw
 gboolean
 before_first_size_alloc
 ;
+int
+buffer_scale
+;
 std
 :
 :
