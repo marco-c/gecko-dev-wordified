@@ -1558,12 +1558,12 @@ Data
 a
 >
 )
-Event
+Tag
 (
 ast
 :
 :
-Event
+Tag
 <
 '
 a
@@ -2093,7 +2093,7 @@ peek
 kw
 :
 :
-event
+tag
 >
 (
 )
@@ -2104,7 +2104,7 @@ Ok
 ModuleField
 :
 :
-Event
+Tag
 (
 parser
 .

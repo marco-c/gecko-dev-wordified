@@ -25,7 +25,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -79,7 +79,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -139,7 +139,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -209,7 +209,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -286,7 +286,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -377,7 +377,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -533,7 +533,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 exn
 (
 param

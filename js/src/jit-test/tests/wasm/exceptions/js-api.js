@@ -189,7 +189,7 @@ m
 e
 "
 (
-event
+tag
 )
 )
 )
@@ -228,7 +228,7 @@ m
 e
 "
 (
-event
+tag
 (
 param
 i32
@@ -274,7 +274,7 @@ m
 e
 "
 (
-event
+tag
 (
 param
 i32
@@ -330,7 +330,7 @@ m
 e
 "
 (
-event
+tag
 (
 param
 i32
@@ -394,7 +394,7 @@ m
 e
 "
 (
-event
+tag
 (
 param
 )
@@ -628,7 +628,7 @@ wasmEvalText
 (
 module
 (
-event
+tag
 (
 export
 "
@@ -640,7 +640,7 @@ param
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -653,7 +653,7 @@ i32
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -667,7 +667,7 @@ f32
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -682,7 +682,7 @@ i32
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -698,7 +698,7 @@ externref
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -711,7 +711,7 @@ funcref
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -1307,7 +1307,7 @@ m
 exn
 "
 (
-event
+tag
 exn
 (
 param
@@ -1412,7 +1412,7 @@ m
 exn
 "
 (
-event
+tag
 exn
 (
 param
@@ -1534,7 +1534,7 @@ m
 exn
 "
 (
-event
+tag
 exn
 (
 param
@@ -1667,7 +1667,7 @@ m
 exn
 "
 (
-event
+tag
 exn
 )
 )
@@ -1801,7 +1801,7 @@ m
 exn
 "
 (
-event
+tag
 exn
 (
 param
@@ -1946,7 +1946,7 @@ m
 exn
 "
 (
-event
+tag
 exn
 (
 param

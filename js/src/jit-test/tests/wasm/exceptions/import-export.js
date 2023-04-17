@@ -38,7 +38,7 @@ m
 exn
 "
 (
-event
+tag
 (
 type
 0
@@ -107,7 +107,7 @@ func
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -166,7 +166,7 @@ i32
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -230,7 +230,7 @@ i32
 )
 )
 (
-event
+tag
 (
 export
 "
@@ -270,7 +270,7 @@ m
 exn
 "
 (
-event
+tag
 (
 type
 0
@@ -314,7 +314,7 @@ m
 exn
 "
 (
-event
+tag
 (
 type
 0
@@ -394,7 +394,7 @@ m
 e
 "
 (
-event
+tag
 (
 type
 0
@@ -431,7 +431,7 @@ func
 )
 )
 (
-event
+tag
 (
 export
 "

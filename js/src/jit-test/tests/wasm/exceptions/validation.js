@@ -511,7 +511,7 @@ throw
 exn1
 )
 (
-event
+tag
 exn1
 (
 type
@@ -543,7 +543,7 @@ throw
 exn1
 )
 (
-event
+tag
 exn1
 (
 type
@@ -589,7 +589,7 @@ throw
 exn1
 )
 (
-event
+tag
 exn1
 (
 type
@@ -637,7 +637,7 @@ throw
 1
 )
 (
-event
+tag
 exn1
 (
 type
@@ -1105,7 +1105,7 @@ wasmValidateText
 (
 module
 (
-event
+tag
 exn
 )
 (
@@ -1157,7 +1157,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 )
 (
@@ -1183,7 +1183,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 )
 (
@@ -1218,7 +1218,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -1272,7 +1272,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 )
 (
@@ -1300,7 +1300,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 )
 (
@@ -1347,7 +1347,7 @@ declSection
 /
 /
 (
-event
+tag
 exn
 (
 param
@@ -1531,7 +1531,7 @@ declSection
 /
 /
 (
-event
+tag
 exn
 (
 param
@@ -1667,7 +1667,7 @@ declSection
 /
 /
 (
-event
+tag
 exn
 (
 param
@@ -1799,7 +1799,7 @@ declSection
 /
 /
 (
-event
+tag
 exn
 (
 type
@@ -1904,7 +1904,7 @@ wasmValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -1928,7 +1928,7 @@ wasmValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -1980,7 +1980,7 @@ wasmValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2010,7 +2010,7 @@ wasmValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2040,7 +2040,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2147,7 +2147,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2191,7 +2191,7 @@ wasmValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2217,7 +2217,7 @@ wasmValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2243,7 +2243,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2288,7 +2288,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2330,7 +2330,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2364,7 +2364,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
@@ -2399,7 +2399,7 @@ wasmFailValidateText
 (
 module
 (
-event
+tag
 exn
 (
 param
