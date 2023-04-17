@@ -2574,6 +2574,14 @@ aCount
 {
 }
 void
+CopyAllFrom
+(
+const
+AttributesInfo
+&
+)
+;
+void
 ResetAll
 (
 )
