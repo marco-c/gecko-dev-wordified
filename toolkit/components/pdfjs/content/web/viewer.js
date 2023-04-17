@@ -3100,6 +3100,11 @@ media
 =
 "
 (
+-
+moz
+-
+toolbar
+-
 prefers
 -
 color
@@ -3140,6 +3145,11 @@ darkRules
 media
 \
 (
+-
+moz
+-
+toolbar
+-
 prefers
 -
 color
