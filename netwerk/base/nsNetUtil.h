@@ -6450,6 +6450,17 @@ bool
 aResult
 )
 ;
+void
+CheckForBrokenChromeURL
+(
+nsILoadInfo
+*
+aLoadInfo
+nsIURI
+*
+aURI
+)
+;
 #
 endif
 /
