@@ -736,8 +736,6 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsISimpleURIMutator
 :
@@ -745,7 +743,6 @@ nsISimpleURIMutator
 SetSpecAndFilterWhitespace
 spec
 nullptr
-)
 )
 .
 Finalize

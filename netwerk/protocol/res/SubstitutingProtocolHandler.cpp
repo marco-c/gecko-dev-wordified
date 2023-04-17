@@ -2363,8 +2363,6 @@ Mutator
 .
 Apply
 (
-NS_MutatorMethod
-(
 &
 nsIStandardURLMutator
 :
@@ -2380,7 +2378,6 @@ spec
 aCharset
 base
 nullptr
-)
 )
 .
 Finalize
