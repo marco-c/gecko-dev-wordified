@@ -164,6 +164,11 @@ TestTreeManager
 .
 cpp
 "
+"
+TestWRScrollData
+.
+cpp
+"
 ]
 include
 (
