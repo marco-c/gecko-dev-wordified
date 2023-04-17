@@ -33047,7 +33047,7 @@ newGCBigInt
 (
 output
 maybeTemp
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -33112,7 +33112,7 @@ newGCBigInt
 (
 output
 temp
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 &
@@ -61703,7 +61703,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -61982,7 +61982,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -62309,7 +62309,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -64165,7 +64165,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -64482,7 +64482,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -64799,7 +64799,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -65116,7 +65116,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -65918,7 +65918,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -66767,7 +66767,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -67033,7 +67033,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -67246,7 +67246,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -67433,7 +67433,7 @@ copyBigIntWithInlineDigits
 input
 output
 temp
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool
@@ -67794,7 +67794,7 @@ newGCBigInt
 (
 output
 temp2
-bigIntsCanBeInNursery
+initialBigIntHeap
 (
 )
 ool

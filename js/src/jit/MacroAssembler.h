@@ -31593,8 +31593,11 @@ Register
 dest
 Register
 temp
-bool
-attemptNursery
+gc
+:
+:
+InitialHeap
+initialHeap
 Label
 *
 fail
@@ -33628,8 +33631,11 @@ Register
 result
 Register
 temp
-bool
-attemptNursery
+gc
+:
+:
+InitialHeap
+initialHeap
 Label
 *
 fail
