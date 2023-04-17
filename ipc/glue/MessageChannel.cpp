@@ -13938,6 +13938,13 @@ RemoteViewOfStackDepth
 (
 aStackDepth
 )
+|
+|
+mInterruptStack
+.
+empty
+(
+)
 )
 {
 return
