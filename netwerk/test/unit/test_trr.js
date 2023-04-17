@@ -1034,10 +1034,6 @@ add_task
 (
 test_strict_native_fallback
 )
-.
-only
-(
-)
 ;
 add_task
 (
