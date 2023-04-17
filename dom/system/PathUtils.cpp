@@ -2698,7 +2698,7 @@ aPromise
 >
 MaybeResolve
 (
-mProfileDir
+mLocalProfileDir
 )
 ;
 break
