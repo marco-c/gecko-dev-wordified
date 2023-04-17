@@ -85,7 +85,7 @@ have
 a
 total
 of
-13
+10
 messages
 "
 (
@@ -98,7 +98,7 @@ assert
 lengthOf
 (
 messages
-13
+10
 )
 ;
 }
