@@ -356,7 +356,6 @@ MakeAndAddRef
 CompositorD3D11
 >
 (
-nullptr
 aWidget
 )
 ;

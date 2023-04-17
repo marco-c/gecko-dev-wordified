@@ -463,7 +463,6 @@ compositorOGL
 new
 CompositorOGL
 (
-nullptr
 aWidget
 /
 *
@@ -550,7 +549,6 @@ compositorOGL
 new
 CompositorOGL
 (
-nullptr
 aWidget
 )
 ;
