@@ -9744,6 +9744,8 @@ commands
 .
 resourceCommand
 .
+TYPES
+.
 REFLOW
 ]
 {
