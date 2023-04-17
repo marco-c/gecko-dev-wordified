@@ -11529,7 +11529,7 @@ firstFrameSlot
 JSSLOT_FREE
 (
 &
-LexicalEnvironmentObject
+ClassBodyLexicalEnvironmentObject
 :
 :
 class_
