@@ -944,7 +944,7 @@ evalobj
 {
 MOZ_ASSERT
 (
-getSlotRef
+getReservedSlot
 (
 EVAL
 )
@@ -954,7 +954,7 @@ isUndefined
 )
 )
 ;
-setSlot
+setReservedSlot
 (
 EVAL
 ObjectValue
@@ -974,7 +974,7 @@ key
 const
 {
 return
-getSlot
+getReservedSlot
 (
 constructorSlot
 (
@@ -1354,7 +1354,7 @@ Value
 v
 )
 {
-setSlot
+setReservedSlot
 (
 constructorSlot
 (
@@ -1373,7 +1373,7 @@ key
 const
 {
 return
-getSlot
+getReservedSlot
 (
 prototypeSlot
 (
@@ -1393,7 +1393,7 @@ Value
 value
 )
 {
-setSlot
+setReservedSlot
 (
 prototypeSlot
 (
@@ -3360,7 +3360,7 @@ v
 global
 -
 >
-getSlotRef
+getReservedSlot
 (
 slot
 )
@@ -3421,7 +3421,7 @@ v
 global
 -
 >
-getSlotRef
+getReservedSlot
 (
 slot
 )
@@ -3594,7 +3594,7 @@ maybeGetArrayIteratorPrototype
 Value
 v
 =
-getSlotRef
+getReservedSlot
 (
 ARRAY_ITERATOR_PROTO
 )
@@ -3668,7 +3668,7 @@ JSObject
 obj
 )
 {
-setSlot
+setReservedSlot
 (
 GENERATOR_OBJECT_PROTO
 ObjectValue
@@ -3715,7 +3715,7 @@ return
 global
 -
 >
-getSlot
+getReservedSlot
 (
 GENERATOR_OBJECT_PROTO
 )
@@ -4118,7 +4118,7 @@ JSObject
 obj
 )
 {
-setSlot
+setReservedSlot
 (
 ASYNC_GENERATOR_PROTO
 ObjectValue
@@ -4165,7 +4165,7 @@ return
 global
 -
 >
-getSlot
+getReservedSlot
 (
 ASYNC_GENERATOR_PROTO
 )
@@ -5391,7 +5391,7 @@ shape
 {
 MOZ_ASSERT
 (
-getSlot
+getReservedSlot
 (
 ARRAY_SHAPE
 )
@@ -5401,7 +5401,7 @@ isUndefined
 )
 )
 ;
-initSlot
+initReservedSlot
 (
 ARRAY_SHAPE
 PrivateGCThingValue
@@ -5421,7 +5421,7 @@ const
 Value
 v
 =
-getSlot
+getReservedSlot
 (
 ARRAY_SHAPE
 )

@@ -680,7 +680,7 @@ getLastIndex
 const
 {
 return
-getSlot
+getReservedSlot
 (
 LAST_INDEX_SLOT
 )
@@ -693,7 +693,7 @@ double
 d
 )
 {
-setSlot
+setReservedSlot
 (
 LAST_INDEX_SLOT
 NumberValue
@@ -755,7 +755,7 @@ script
 "
 )
 ;
-setSlot
+setReservedSlot
 (
 LAST_INDEX_SLOT
 Int32Value
@@ -790,7 +790,7 @@ const
 {
 return
 &
-getSlot
+getReservedSlot
 (
 SOURCE_SLOT
 )
@@ -813,7 +813,7 @@ JSAtom
 source
 )
 {
-setSlot
+setReservedSlot
 (
 SOURCE_SLOT
 StringValue

@@ -30331,7 +30331,7 @@ initialization
 .
 return
 !
-getSlot
+getReservedSlot
 (
 SnapshotSlot
 )
@@ -30352,7 +30352,7 @@ void
 *
 ptr
 =
-getSlot
+getReservedSlot
 (
 SnapshotSlot
 )
