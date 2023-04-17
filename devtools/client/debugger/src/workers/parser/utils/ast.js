@@ -179,6 +179,9 @@ objectRestSpread
 optionalChaining
 "
 "
+privateIn
+"
+"
 nullishCoalescingOperator
 "
 ]

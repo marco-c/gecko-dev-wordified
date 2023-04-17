@@ -49932,6 +49932,9 @@ objectRestSpread
 optionalChaining
 "
 "
+privateIn
+"
+"
 nullishCoalescingOperator
 "
 ]
