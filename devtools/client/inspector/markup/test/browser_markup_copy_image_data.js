@@ -127,10 +127,11 @@ const
 expectedSrc
 =
 await
-testActor
-.
-getAttribute
+getAttributeInBrowser
 (
+gBrowser
+.
+selectedBrowser
 "
 img
 "

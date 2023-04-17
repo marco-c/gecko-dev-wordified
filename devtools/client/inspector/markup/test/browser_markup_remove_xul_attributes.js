@@ -73,7 +73,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -141,10 +140,11 @@ markupmutation
 )
 ;
 await
-testActor
-.
-removeAttribute
+removeAttributeInBrowser
 (
+gBrowser
+.
+selectedBrowser
 "
 #
 test

@@ -306,7 +306,6 @@ const
 {
 inspector
 boxmodel
-testActor
 }
 =
 await
@@ -326,7 +325,6 @@ testChangingValues
 (
 inspector
 boxmodel
-testActor
 )
 ;
 }
@@ -422,7 +420,6 @@ testChangingValues
 (
 inspector
 boxmodel
-testActor
 )
 {
 info
@@ -447,6 +444,13 @@ boxmodel
 .
 document
 ;
+const
+browser
+=
+gBrowser
+.
+selectedBrowser
+;
 for
 (
 const
@@ -467,10 +471,9 @@ inspector
 )
 ;
 await
-testActor
-.
-setAttribute
+setAttributeInBrowser
 (
+browser
 selector
 "
 style
