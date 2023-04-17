@@ -705,6 +705,9 @@ class
 Dispatcher
 ;
 class
+EditorBase
+;
+class
 ErrorResult
 ;
 class
@@ -10020,7 +10023,7 @@ eUnknown
 .
 *
 param
-aTextEditor
+aEditorBase
 Optional
 .
 If
@@ -10145,9 +10148,9 @@ aEditorInputType
 mozilla
 :
 :
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 mozilla
 :
 :
@@ -18353,7 +18356,7 @@ static
 mozilla
 :
 :
-TextEditor
+EditorBase
 *
 GetActiveEditor
 (
@@ -18366,7 +18369,7 @@ static
 mozilla
 :
 :
-TextEditor
+EditorBase
 *
 GetActiveEditor
 (

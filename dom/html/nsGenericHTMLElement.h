@@ -243,6 +243,9 @@ namespace
 mozilla
 {
 class
+EditorBase
+;
+class
 ErrorResult
 ;
 class
@@ -259,9 +262,6 @@ EventListenerManager
 ;
 class
 EventStates
-;
-class
-TextEditor
 ;
 class
 PresState
@@ -5409,7 +5409,7 @@ aRv
 *
 Locates
 the
-TextEditor
+EditorBase
 associated
 with
 this
@@ -5483,7 +5483,7 @@ already_AddRefed
 mozilla
 :
 :
-TextEditor
+EditorBase
 >
 GetAssociatedEditor
 (

@@ -496,6 +496,15 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EditorCommands
 .
 h
@@ -30765,7 +30774,7 @@ mHTMLEditor
 nullptr
 ;
 }
-TextEditor
+EditorBase
 *
 Document
 :
@@ -30905,7 +30914,7 @@ Frames
 )
 ;
 }
-TextEditor
+EditorBase
 *
 targetEditor
 =
@@ -30977,7 +30986,7 @@ IsCommandEnabled
 )
 const
 {
-TextEditor
+EditorBase
 *
 targetEditor
 =
@@ -31056,7 +31065,7 @@ MOZ_ASSERT
 mEditorCommand
 )
 ;
-TextEditor
+EditorBase
 *
 targetEditor
 =
@@ -31146,7 +31155,7 @@ MOZ_ASSERT
 mEditorCommand
 )
 ;
-TextEditor
+EditorBase
 *
 targetEditor
 =
@@ -31220,7 +31229,7 @@ MOZ_ASSERT
 mEditorCommand
 )
 ;
-TextEditor
+EditorBase
 *
 targetEditor
 =
@@ -35032,6 +35041,8 @@ GetFocusedElement
 )
 )
 {
+if
+(
 RefPtr
 <
 TextEditor
@@ -35044,10 +35055,6 @@ textControlElement
 GetTextEditor
 (
 )
-;
-if
-(
-textEditor
 )
 {
 textEditor

@@ -132,7 +132,7 @@ include
 "
 mozilla
 /
-TextEditor
+EditorBase
 .
 h
 "
@@ -378,9 +378,9 @@ CharacterCount
 ;
 RefPtr
 <
-TextEditor
+EditorBase
 >
-textEditor
+editorBase
 =
 GetEditor
 (
@@ -389,7 +389,7 @@ GetEditor
 if
 (
 !
-textEditor
+editorBase
 )
 {
 return
@@ -401,7 +401,7 @@ nsresult
 >
 rv
 =
-textEditor
+editorBase
 -
 >
 InsertTextAsAction
@@ -443,9 +443,9 @@ aPosition
 {
 RefPtr
 <
-TextEditor
+EditorBase
 >
-textEditor
+editorBase
 =
 GetEditor
 (
@@ -453,7 +453,7 @@ GetEditor
 ;
 if
 (
-textEditor
+editorBase
 )
 {
 SetSelectionRange
@@ -468,7 +468,7 @@ nsresult
 >
 rv
 =
-textEditor
+editorBase
 -
 >
 InsertTextAsAction
@@ -508,9 +508,9 @@ aEndPos
 {
 RefPtr
 <
-TextEditor
+EditorBase
 >
-textEditor
+editorBase
 =
 GetEditor
 (
@@ -518,7 +518,7 @@ GetEditor
 ;
 if
 (
-textEditor
+editorBase
 )
 {
 SetSelectionRange
@@ -527,7 +527,7 @@ aStartPos
 aEndPos
 )
 ;
-textEditor
+editorBase
 -
 >
 Copy
@@ -551,9 +551,9 @@ aEndPos
 {
 RefPtr
 <
-TextEditor
+EditorBase
 >
-textEditor
+editorBase
 =
 GetEditor
 (
@@ -561,7 +561,7 @@ GetEditor
 ;
 if
 (
-textEditor
+editorBase
 )
 {
 SetSelectionRange
@@ -570,7 +570,7 @@ aStartPos
 aEndPos
 )
 ;
-textEditor
+editorBase
 -
 >
 Cut
@@ -594,9 +594,9 @@ aEndPos
 {
 RefPtr
 <
-TextEditor
+EditorBase
 >
-textEditor
+editorBase
 =
 GetEditor
 (
@@ -605,7 +605,7 @@ GetEditor
 if
 (
 !
-textEditor
+editorBase
 )
 {
 return
@@ -623,7 +623,7 @@ nsresult
 >
 rv
 =
-textEditor
+editorBase
 -
 >
 DeleteSelectionAsAction
@@ -666,9 +666,9 @@ aPosition
 {
 RefPtr
 <
-TextEditor
+EditorBase
 >
-textEditor
+editorBase
 =
 GetEditor
 (
@@ -676,7 +676,7 @@ GetEditor
 ;
 if
 (
-textEditor
+editorBase
 )
 {
 SetSelectionRange
@@ -685,7 +685,7 @@ aPosition
 aPosition
 )
 ;
-textEditor
+editorBase
 -
 >
 PasteAsAction

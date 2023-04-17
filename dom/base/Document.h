@@ -1155,6 +1155,9 @@ class
 StyleSheet
 ;
 class
+EditorBase
+;
+class
 EditorCommand
 ;
 class
@@ -1216,9 +1219,6 @@ class
 StyleRuleChangeKind
 :
 uint32_t
-;
-class
-TextEditor
 ;
 template
 <
@@ -25827,7 +25827,7 @@ instance
 is
 alive
 .
-TextEditor
+EditorBase
 *
 GetTargetEditor
 (
@@ -25836,7 +25836,7 @@ const
 ;
 RefPtr
 <
-TextEditor
+EditorBase
 >
 mActiveEditor
 ;

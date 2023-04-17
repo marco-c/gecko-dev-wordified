@@ -255,6 +255,9 @@ namespace
 mozilla
 {
 class
+EditorBase
+;
+class
 EnterLeaveDispatcher
 ;
 class
@@ -265,9 +268,6 @@ IMEContentObserver
 ;
 class
 ScrollbarsForWheel
-;
-class
-TextEditor
 ;
 class
 WheelTransaction
@@ -2156,7 +2156,7 @@ text
 Note
 that
 if
-aTextEditor
+aEditorBase
 is
 nullptr
 this
@@ -2231,8 +2231,8 @@ aMouseEvent
 .
 *
 param
-aTextEditor
-TextEditor
+aEditorBase
+EditorBase
 which
 may
 be
@@ -2273,9 +2273,9 @@ aMouseEvent
 nsEventStatus
 *
 aStatus
-TextEditor
+EditorBase
 *
-aTextEditor
+aEditorBase
 )
 ;
 protected

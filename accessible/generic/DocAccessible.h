@@ -184,10 +184,10 @@ namespace
 mozilla
 {
 class
-PresShell
+EditorBase
 ;
 class
-TextEditor
+PresShell
 ;
 namespace
 dom
@@ -454,7 +454,7 @@ HyperTextAccessible
 virtual
 already_AddRefed
 <
-TextEditor
+EditorBase
 >
 GetEditor
 (

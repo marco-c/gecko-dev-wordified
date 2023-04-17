@@ -169,7 +169,7 @@ namespace
 mozilla
 {
 class
-TextEditor
+EditorBase
 ;
 namespace
 dom
@@ -2599,7 +2599,7 @@ HTMLEditor
 virtual
 already_AddRefed
 <
-TextEditor
+EditorBase
 >
 GetEditor
 (
