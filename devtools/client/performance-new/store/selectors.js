@@ -353,6 +353,8 @@ type
 Selector
 <
 boolean
+|
+null
 >
 }
 *

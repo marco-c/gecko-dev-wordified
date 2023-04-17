@@ -109,6 +109,8 @@ recordingState
 property
 {
 boolean
+|
+null
 }
 isSupportedPlatform
 *

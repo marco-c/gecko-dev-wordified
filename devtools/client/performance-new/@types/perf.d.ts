@@ -849,6 +849,8 @@ boolean
 isSupportedPlatform
 :
 boolean
+|
+null
 ;
 interval
 :
