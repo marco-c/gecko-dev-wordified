@@ -1463,7 +1463,7 @@ security
 .
 if
 (
-PL_strncmp
+strncmp
 (
 lockFileName
 .
@@ -1483,9 +1483,11 @@ fileNameLen
 =
 0
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 }
 /
 /
