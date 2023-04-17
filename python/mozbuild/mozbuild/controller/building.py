@@ -10253,19 +10253,6 @@ or
 }
 )
         
-append_env
-[
-"
-MAKE
-"
-]
-=
-self
-.
-_make_path
-(
-)
-        
 #
 Back
 when
