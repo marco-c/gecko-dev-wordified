@@ -140,6 +140,15 @@ network
 -
 events
 -
+content
+.
+js
+"
+"
+network
+-
+events
+-
 stacktraces
 .
 js
