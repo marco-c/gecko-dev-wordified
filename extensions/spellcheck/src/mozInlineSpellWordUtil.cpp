@@ -1980,6 +1980,7 @@ nsRange
 *
 aRange
 )
+const
 {
 NodeOffset
 begin
@@ -6657,6 +6658,7 @@ MapDOMPositionToSoftTextOffset
 NodeOffset
 aNodeOffset
 )
+const
 {
 if
 (
@@ -7040,6 +7042,7 @@ aSoftTextOffset
 DOMMapHint
 aHint
 )
+const
 {
 NS_ASSERTION
 (
