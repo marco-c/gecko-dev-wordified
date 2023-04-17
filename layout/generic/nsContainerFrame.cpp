@@ -1820,7 +1820,8 @@ const
 T
 &
 aProp
-uint64_t
+void
+*
 )
 {
 if
@@ -2359,7 +2360,8 @@ const
 T
 &
 aProp
-uint64_t
+void
+*
 aValue
 )
 {
@@ -2379,10 +2381,7 @@ OverflowProperty
 )
 )
 {
-reinterpret_cast
-<
 L
->
 (
 aValue
 )
@@ -2440,10 +2439,7 @@ capture
 in
 opt
 builds
-reinterpret_cast
-<
 L
->
 (
 aValue
 )
@@ -2501,10 +2497,7 @@ capture
 in
 opt
 builds
-reinterpret_cast
-<
 L
->
 (
 aValue
 )
@@ -2528,10 +2521,7 @@ BackdropProperty
 )
 )
 {
-reinterpret_cast
-<
 L
->
 (
 aValue
 )
