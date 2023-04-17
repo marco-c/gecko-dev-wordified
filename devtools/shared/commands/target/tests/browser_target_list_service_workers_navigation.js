@@ -351,7 +351,7 @@ const
 {
 hooks
 commands
-targetList
+targetCommand
 }
 =
 await
@@ -653,7 +653,7 @@ avoid
 worker
 related
 requests
-targetList
+targetCommand
 .
 destroy
 (
@@ -863,7 +863,7 @@ const
 {
 hooks
 commands
-targetList
+targetCommand
 }
 =
 await
@@ -1154,7 +1154,7 @@ avoid
 worker
 related
 requests
-targetList
+targetCommand
 .
 destroy
 (
@@ -1543,7 +1543,7 @@ const
 {
 hooks
 commands
-targetList
+targetCommand
 }
 =
 await
@@ -1740,7 +1740,7 @@ avoid
 worker
 related
 requests
-targetList
+targetCommand
 .
 destroy
 (
@@ -1881,7 +1881,7 @@ tab
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -1894,7 +1894,7 @@ Service
 Worker
 listening
 .
-targetList
+targetCommand
 .
 listenForServiceWorkers
 =
@@ -1904,7 +1904,7 @@ info
 (
 "
 Set
-targetList
+targetCommand
 .
 destroyServiceWorkersOnNavigation
 to
@@ -1913,14 +1913,14 @@ to
 destroyServiceWorkersOnNavigation
 )
 ;
-targetList
+targetCommand
 .
 destroyServiceWorkersOnNavigation
 =
 destroyServiceWorkersOnNavigation
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -2033,12 +2033,12 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
 [
-targetList
+targetCommand
 .
 TYPES
 .
@@ -2052,7 +2052,7 @@ return
 {
 hooks
 commands
-targetList
+targetCommand
 }
 ;
 }

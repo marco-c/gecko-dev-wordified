@@ -218,7 +218,7 @@ forMainProcess
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -229,10 +229,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -302,7 +302,7 @@ Set
 const
 topLevelTarget
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -486,7 +486,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -682,7 +682,7 @@ targetFront
 return
 ;
 }
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -701,7 +701,7 @@ targetFront
 ;
 }
 ;
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -850,7 +850,7 @@ resolve
 targetFront
 )
 ;
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -865,7 +865,7 @@ onDestroyed3
 ;
 }
 ;
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -959,7 +959,7 @@ created
 "
 )
 ;
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -972,7 +972,7 @@ onAvailable
 onDestroyed
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -1031,7 +1031,7 @@ osPid
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -1042,10 +1042,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -1099,7 +1099,7 @@ Set
 const
 topLevelTarget
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -1253,7 +1253,7 @@ test
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -1308,7 +1308,7 @@ target
 "
 )
 ;
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -1321,7 +1321,7 @@ onAvailable
 onDestroyed
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
@@ -1370,7 +1370,7 @@ forMainProcess
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -1381,10 +1381,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -1504,7 +1504,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -1547,7 +1547,7 @@ thrown
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

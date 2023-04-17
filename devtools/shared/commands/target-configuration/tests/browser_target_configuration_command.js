@@ -123,14 +123,14 @@ commands
 targetConfigurationCommand
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
 targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -291,7 +291,7 @@ value
 "
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (

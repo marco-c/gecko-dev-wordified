@@ -140,7 +140,7 @@ iframe
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -151,10 +151,10 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -245,14 +245,14 @@ frameTargets
 const
 firstTarget
 =
-targetList
+targetCommand
 .
 targetFront
 ;
 let
 currentTarget
 =
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -507,7 +507,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -560,7 +560,7 @@ currentTarget
 secondTarget
 ;
 await
-targetList
+targetCommand
 .
 switchToTarget
 (
@@ -569,7 +569,7 @@ secondTarget
 ;
 is
 (
-targetList
+targetCommand
 .
 targetFront
 currentTarget
@@ -759,7 +759,7 @@ destroyed
 )
 ;
 }
-targetList
+targetCommand
 .
 destroy
 (

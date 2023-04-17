@@ -184,7 +184,7 @@ tab
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -195,7 +195,7 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 /
 /
@@ -204,14 +204,14 @@ Service
 Worker
 listening
 .
-targetList
+targetCommand
 .
 listenForServiceWorkers
 =
 true
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -220,7 +220,7 @@ startListening
 const
 serviceWorkerTargets
 =
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -340,7 +340,7 @@ targetFront
 )
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -500,7 +500,7 @@ avoid
 worker
 related
 requests
-targetList
+targetCommand
 .
 destroy
 (

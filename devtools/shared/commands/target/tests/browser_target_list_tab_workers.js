@@ -359,7 +359,7 @@ attach
 )
 ;
 const
-targetList
+targetCommand
 =
 commands
 .
@@ -370,7 +370,7 @@ const
 TYPES
 }
 =
-targetList
+targetCommand
 ;
 /
 /
@@ -390,14 +390,14 @@ without
 the
 fission
 preferences
-targetList
+targetCommand
 .
 listenForWorkers
 =
 true
 ;
 await
-targetList
+targetCommand
 .
 startListening
 (
@@ -420,7 +420,7 @@ const
 workers
 =
 await
-targetList
+targetCommand
 .
 getAllTargets
 (
@@ -716,7 +716,7 @@ targetFront
 }
 ;
 await
-targetList
+targetCommand
 .
 watchTargets
 (
@@ -2261,7 +2261,7 @@ destroyed
 "
 )
 ;
-targetList
+targetCommand
 .
 unwatchTargets
 (
@@ -2277,7 +2277,7 @@ onAvailable
 onDestroy
 )
 ;
-targetList
+targetCommand
 .
 destroy
 (
