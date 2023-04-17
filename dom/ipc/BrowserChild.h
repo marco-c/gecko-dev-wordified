@@ -4633,6 +4633,9 @@ mDidLoadURLInit
 bool
 mSkipKeyPress
 ;
+bool
+mDidSetEffectsInfo
+;
 /
 /
 Store
