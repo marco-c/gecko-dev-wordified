@@ -704,10 +704,6 @@ class
 RacyRegisteredThread
 mRacyRegisteredThread
 ;
-const
-UniquePlatformData
-mPlatformData
-;
 }
 ;
 #
