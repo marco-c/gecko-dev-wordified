@@ -91,12 +91,7 @@ mozbuild
 .
 util
 import
-(
-    
 ensureParentDir
-    
-ensure_subprocess_env
-)
 _BCJ_OPTIONS
 =
 {
@@ -741,10 +736,7 @@ check_call
 cmd
 env
 =
-ensure_subprocess_env
-(
 env
-)
 )
     
 finally

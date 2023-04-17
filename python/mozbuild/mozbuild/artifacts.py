@@ -340,14 +340,9 @@ util
 .
 taskcluster
 import
-(
-    
 find_task_id
-    
 get_artifact_url
-    
 list_artifacts
-)
 from
 mach
 .
@@ -371,16 +366,9 @@ mozbuild
 .
 util
 import
-(
-    
 ensureParentDir
-    
 FileAvoidWrite
-    
 mkdir
-    
-ensure_subprocess_env
-)
 import
 mozinstall
 from
@@ -388,23 +376,15 @@ mozpack
 .
 files
 import
-(
-    
 JarFinder
-    
 TarFinder
-)
 from
 mozpack
 .
 mozjar
 import
-(
-    
 JarReader
-    
 JarWriter
-)
 from
 mozpack
 .
@@ -3167,7 +3147,6 @@ mobile
 package_artifact_patterns
 =
 {
-        
 "
 *
 *
@@ -3176,7 +3155,6 @@ package_artifact_patterns
 .
 so
 "
-    
 }
     
 def
@@ -5625,13 +5603,11 @@ thunderbird
 candidate_trees
 =
 [
-        
 "
 comm
 -
 central
 "
-    
 ]
     
 try_tree
@@ -7611,18 +7587,6 @@ HGPLAIN
 "
 1
 "
-        
-kwargs
-[
-"
-env
-"
-]
-=
-ensure_subprocess_env
-(
-env
-)
         
 kwargs
 [
