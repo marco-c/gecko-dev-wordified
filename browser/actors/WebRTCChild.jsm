@@ -1534,6 +1534,7 @@ navigator
 .
 mozGetUserMediaDevices
 (
+constraints
 function
 (
 devices

@@ -1255,6 +1255,10 @@ MOZ_CAN_RUN_SCRIPT
 void
 MozGetUserMediaDevices
 (
+const
+MediaStreamConstraints
+&
+aConstraints
 MozGetUserMediaDevicesSuccessCallback
 &
 aOnSuccess
