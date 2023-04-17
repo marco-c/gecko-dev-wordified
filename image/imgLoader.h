@@ -1953,6 +1953,14 @@ VerifyCacheSizes
 (
 )
 ;
+nsresult
+RemoveEntriesFromPrincipal
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 /
 /
 The

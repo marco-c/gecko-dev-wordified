@@ -1711,14 +1711,14 @@ aOriginAttributes
 ;
 imageCache
 .
-removeEntriesFromPrincipal
+removeEntriesFromPrincipalInAllProcesses
 (
 httpPrincipal
 )
 ;
 imageCache
 .
-removeEntriesFromPrincipal
+removeEntriesFromPrincipalInAllProcesses
 (
 httpsPrincipal
 )
@@ -1762,7 +1762,7 @@ null
 ;
 imageCache
 .
-removeEntriesFromPrincipal
+removeEntriesFromPrincipalInAllProcesses
 (
 aPrincipal
 )
