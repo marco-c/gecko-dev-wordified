@@ -129,6 +129,9 @@ namespace
 a11y
 {
 class
+AccessibleWrap
+;
+class
 ia2AccessibleComponent
 :
 public
@@ -240,6 +243,14 @@ out
 IA2Color
 *
 background
+)
+;
+private
+:
+AccessibleWrap
+*
+LocalAcc
+(
 )
 ;
 }
