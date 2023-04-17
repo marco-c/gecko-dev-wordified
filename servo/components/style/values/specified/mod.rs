@@ -1091,6 +1091,7 @@ text
 {
 TextDecorationLength
 TextDecorationSkipInk
+TextJustify
 TextTransform
 }
 ;

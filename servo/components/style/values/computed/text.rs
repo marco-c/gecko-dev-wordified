@@ -315,6 +315,7 @@ specified
 :
 {
 TextDecorationSkipInk
+TextJustify
 TextTransform
 }
 ;
