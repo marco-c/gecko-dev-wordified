@@ -1272,11 +1272,6 @@ hasIntroductionInfo
 =
 false
 ;
-bool
-useFdlibmForSinCosTan
-=
-false
-;
 protected
 :
 TransitiveCompileOptions
