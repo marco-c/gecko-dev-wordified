@@ -955,14 +955,7 @@ nsHttp
 :
 ResolveAtom
 (
-PromiseFlatCString
-(
 hdr
-)
-.
-get
-(
-)
 )
 ;
 if
