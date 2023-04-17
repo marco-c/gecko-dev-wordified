@@ -304,7 +304,7 @@ push_simple_stacking_context
 (
 sub_bounds
 .
-origin
+min
 space_and_clip
 .
 spatial_id
@@ -385,6 +385,8 @@ None
 sub_bounds
 .
 size
+(
+)
 sub_builder
 .
 finalize
@@ -411,7 +413,7 @@ push_reference_frame
 (
 sub_bounds
 .
-origin
+min
 space_and_clip
 .
 spatial_id
@@ -467,7 +469,7 @@ push_simple_stacking_context
 (
 sub_bounds
 .
-origin
+min
 space_and_clip
 .
 spatial_id

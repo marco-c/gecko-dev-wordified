@@ -566,8 +566,6 @@ descriptor
 .
 rect
 .
-size
-.
 area
 (
 )
@@ -652,6 +650,8 @@ descriptor
 rect
 .
 size
+(
+)
 .
 to_array
 (
@@ -664,7 +664,7 @@ descriptor
 .
 rect
 .
-origin
+min
 ;
 for
 y
