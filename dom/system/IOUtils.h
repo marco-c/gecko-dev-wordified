@@ -1437,7 +1437,7 @@ file
 .
 *
 param
-noOverWrite
+aNoOverWrite
 If
 true
 abort
@@ -1449,8 +1449,8 @@ a
 file
 already
 exists
-at
 *
+at
 |
 aDestFile
 |
@@ -1462,7 +1462,6 @@ will
 be
 overwritten
 by
-*
 the
 move
 .
@@ -3107,13 +3106,11 @@ nsIFile
 >
 mTmpFile
 ;
-bool
-mFlush
-=
-false
+WriteMode
+mMode
 ;
 bool
-mNoOverwrite
+mFlush
 =
 false
 ;
