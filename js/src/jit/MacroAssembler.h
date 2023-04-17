@@ -32582,6 +32582,14 @@ done
 )
 ;
 }
+enum
+class
+Uint32Mode
+{
+FailOnDouble
+ForceDouble
+}
+;
 void
 boxUint32
 (
@@ -32589,8 +32597,8 @@ Register
 source
 ValueOperand
 dest
-bool
-allowDouble
+Uint32Mode
+uint32Mode
 Label
 *
 fail
@@ -32643,8 +32651,8 @@ const
 ValueOperand
 &
 dest
-bool
-allowDouble
+Uint32Mode
+uint32Mode
 Register
 temp
 Label
