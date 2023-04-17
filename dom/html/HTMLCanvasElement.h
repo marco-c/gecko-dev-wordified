@@ -1581,6 +1581,17 @@ LayerManager
 aManager
 )
 ;
+already_AddRefed
+<
+layers
+:
+:
+Image
+>
+GetAsImage
+(
+)
+;
 bool
 UpdateWebRenderCanvasData
 (
