@@ -376,6 +376,11 @@ aIID
 =
 =
 IID_ISimpleDOMDocument
+&
+&
+LocalAcc
+(
+)
 )
 {
 statistics
