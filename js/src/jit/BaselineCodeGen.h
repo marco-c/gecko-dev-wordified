@@ -1507,16 +1507,6 @@ nodiscard
 ]
 ]
 bool
-emitToBoolean
-(
-)
-;
-[
-[
-nodiscard
-]
-]
-bool
 emitTest
 (
 bool
