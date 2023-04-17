@@ -591,6 +591,7 @@ spatial_tree
 ROOT_SPATIAL_NODE_INDEX
 SpatialTree
 SpatialNodeIndex
+StaticCoordinateSystemId
 }
 ;
 use
@@ -11013,12 +11014,18 @@ self
 .
 spatial_tree
 .
-is_definitely_in_root_coord_system
+get_static_coordinate_system_id
 (
 stacking_context
 .
 spatial_node_index
 )
+=
+=
+StaticCoordinateSystemId
+:
+:
+ROOT
 {
 self
 .
