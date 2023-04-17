@@ -204,6 +204,11 @@ this
 .
 _flushRenderingInSubtree
 (
+{
+ignoreThrottledAnimations
+:
+false
+}
 )
 ;
 }
@@ -301,6 +306,9 @@ frames
 async
 _flushRenderingInSubtree
 (
+{
+ignoreThrottledAnimations
+}
 )
 {
 const
@@ -471,6 +479,9 @@ MarionetteReftestParent
 :
 flushRendering
 "
+{
+ignoreThrottledAnimations
+}
 )
 ;
 }
