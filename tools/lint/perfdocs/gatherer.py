@@ -85,6 +85,8 @@ RaptorGatherer
 MozperftestGatherer
     
 TalosGatherer
+    
+AWSYGatherer
 )
 logger
 =
@@ -124,6 +126,12 @@ talos
 "
 :
 TalosGatherer
+    
+"
+awsy
+"
+:
+AWSYGatherer
 }
 class
 Gatherer
