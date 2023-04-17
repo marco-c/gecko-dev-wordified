@@ -608,6 +608,15 @@ include
 "
 js
 /
+WaitCallbacks
+.
+h
+"
+#
+include
+"
+js
+/
 WasmModule
 .
 h
