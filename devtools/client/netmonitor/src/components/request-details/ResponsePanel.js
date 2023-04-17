@@ -1450,6 +1450,7 @@ JSONView
 if
 (
 mimeType
+?
 .
 includes
 (
@@ -1644,6 +1645,7 @@ json
 "
 :
 mimeType
+?
 .
 replace
 (
