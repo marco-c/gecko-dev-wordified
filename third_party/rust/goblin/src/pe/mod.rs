@@ -30,9 +30,6 @@ and
 some
 others
 use
-crate
-:
-:
 alloc
 :
 :

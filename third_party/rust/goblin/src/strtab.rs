@@ -70,9 +70,6 @@ crate
 error
 ;
 use
-crate
-:
-:
 alloc
 :
 :

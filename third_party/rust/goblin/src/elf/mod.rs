@@ -665,9 +665,6 @@ Ctx
 }
 ;
 use
-crate
-:
-:
 alloc
 :
 :

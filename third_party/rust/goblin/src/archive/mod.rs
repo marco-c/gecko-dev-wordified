@@ -116,9 +116,6 @@ core
 usize
 ;
 use
-crate
-:
-:
 alloc
 :
 :
@@ -131,9 +128,6 @@ btree_map
 BTreeMap
 ;
 use
-crate
-:
-:
 alloc
 :
 :

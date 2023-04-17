@@ -564,9 +564,6 @@ Container
 }
 ;
 use
-crate
-:
-:
 alloc
 :
 :
