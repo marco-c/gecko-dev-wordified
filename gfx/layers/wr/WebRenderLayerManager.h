@@ -797,11 +797,6 @@ aCompositeEnd
 void
 ClearCachedResources
 (
-Layer
-*
-aSubtree
-=
-nullptr
 )
 ;
 void
