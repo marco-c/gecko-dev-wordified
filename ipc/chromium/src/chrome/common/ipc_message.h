@@ -1691,6 +1691,8 @@ void
 buffer
 uint32_t
 buffer_len
+bool
+truncate
 )
 ;
 uint32_t
