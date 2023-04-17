@@ -435,8 +435,6 @@ pattern
 msg
 .
 value
-(
-)
 /
 /
 !
@@ -510,7 +508,7 @@ new
 !
 args
 .
-set
+add
 (
 "
 name
@@ -580,8 +578,6 @@ pattern
 msg
 .
 value
-(
-)
 .
 expect
 (
@@ -1013,10 +1009,14 @@ new
 (
 args
 .
-set
+add
 (
 key
 value
+.
+into
+(
+)
 )
 ;
 )

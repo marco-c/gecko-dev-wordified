@@ -60,9 +60,6 @@ use
 l10nregistry_ffi
 :
 :
-load
-:
-:
 {
 load_async
 load_sync

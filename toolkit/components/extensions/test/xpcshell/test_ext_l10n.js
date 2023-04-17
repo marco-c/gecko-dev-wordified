@@ -6,6 +6,7 @@ strict
 const
 {
 L10nRegistry
+FileSource
 }
 =
 ChromeUtils
@@ -252,7 +253,7 @@ const
 source
 =
 new
-L10nFileSource
+FileSource
 (
 "
 test
