@@ -10714,7 +10714,7 @@ loadConstantDouble
 ins
 -
 >
-getDouble
+value
 (
 )
 ToFloatRegister
@@ -10755,7 +10755,7 @@ loadConstantFloat32
 ins
 -
 >
-getFloat
+value
 (
 )
 ToFloatRegister

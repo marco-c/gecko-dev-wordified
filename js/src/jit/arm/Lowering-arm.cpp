@@ -4182,11 +4182,11 @@ alloc
 )
 LPowOfTwoI
 (
-base
 useRegister
 (
 power
 )
+base
 )
 ;
 assignSnapshot
