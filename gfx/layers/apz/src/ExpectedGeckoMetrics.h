@@ -203,6 +203,15 @@ FrameMetrics
 aMetrics
 )
 ;
+void
+UpdateZoomFrom
+(
+const
+FrameMetrics
+&
+aMetrics
+)
+;
 const
 CSSPoint
 &
