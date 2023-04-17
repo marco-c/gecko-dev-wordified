@@ -3397,7 +3397,11 @@ typename
 E
 >
 class
-MOZ_MUST_USE_TYPE
+[
+[
+nodiscard
+]
+]
 Result
 final
 {
@@ -6212,7 +6216,11 @@ typename
 E
 >
 class
-MOZ_MUST_USE_TYPE
+[
+[
+nodiscard
+]
+]
 GenericErrorResult
 {
 E

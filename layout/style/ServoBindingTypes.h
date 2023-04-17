@@ -699,7 +699,11 @@ types
 at
 least
 have
-MOZ_MUST_USE_TYPE
+[
+[
+nodiscard
+]
+]
 on
 them
 .

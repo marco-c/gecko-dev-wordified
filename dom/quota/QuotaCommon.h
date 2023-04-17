@@ -8887,7 +8887,11 @@ template
 <
 >
 class
-MOZ_MUST_USE_TYPE
+[
+[
+nodiscard
+]
+]
 GenericErrorResult
 <
 mozilla
