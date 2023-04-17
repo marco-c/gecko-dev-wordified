@@ -114,6 +114,11 @@ TestPluralRules
 .
 cpp
 "
+"
+TestRelativeTimeFormat
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
