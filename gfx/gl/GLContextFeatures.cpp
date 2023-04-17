@@ -2196,10 +2196,6 @@ Extension_None
 GLContext
 :
 :
-EXT_texture3D
-GLContext
-:
-:
 OES_texture_3D
 GLContext
 :
