@@ -113563,6 +113563,10 @@ button
 className
 :
 "
+icon
+icon
+-
+settings
 personalize
 -
 button
@@ -113593,7 +113597,7 @@ newtab
 -
 personalize
 -
-button
+icon
 -
 label
 "
