@@ -7468,6 +7468,9 @@ vsync
 "
 mediumhigh
 "
+"
+control
+"
 )
                 
 "
