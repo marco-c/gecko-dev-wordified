@@ -9,14 +9,6 @@ upstream_benchmark
 -
 -
 release
-extern
-crate
-rand
-;
-extern
-crate
-ryu
-;
 use
 rand
 :
@@ -212,10 +204,7 @@ let
 mut
 rng
 =
-rand
-:
-:
-prng
+rand_xorshift
 :
 :
 XorShiftRng
