@@ -13544,6 +13544,9 @@ Size
 (
 )
 )
+nsMargin
+(
+)
 ScrollAxis
 (
 )

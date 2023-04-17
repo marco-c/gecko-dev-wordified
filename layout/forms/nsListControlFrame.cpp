@@ -13085,6 +13085,9 @@ GetSize
 (
 )
 )
+nsMargin
+(
+)
 ScrollAxis
 (
 )

@@ -22272,6 +22272,10 @@ const
 nsRect
 &
 aRect
+const
+nsMargin
+&
+aMargin
 ScrollAxis
 aVertical
 ScrollAxis
@@ -22311,7 +22315,7 @@ GetVisualViewportSize
 ;
 const
 nsMargin
-scrollPadding
+padding
 =
 aFrameAsScrollable
 -
@@ -22319,6 +22323,8 @@ aFrameAsScrollable
 GetScrollPadding
 (
 )
++
+aMargin
 ;
 const
 nsRect
@@ -22338,7 +22344,7 @@ r
 .
 Inflate
 (
-scrollPadding
+padding
 )
 ;
 return
@@ -22573,7 +22579,7 @@ visibleRect
 .
 y
 +
-scrollPadding
+padding
 .
 top
 visibleRect
@@ -22582,7 +22588,7 @@ YMost
 (
 )
 -
-scrollPadding
+padding
 .
 bottom
 )
@@ -22707,7 +22713,7 @@ visibleRect
 .
 x
 +
-scrollPadding
+padding
 .
 left
 visibleRect
@@ -22716,7 +22722,7 @@ XMost
 (
 )
 -
-scrollPadding
+padding
 .
 right
 )
@@ -23857,17 +23863,11 @@ GetNextContinuation
 )
 )
 ;
-frameBounds
-.
-Inflate
-(
-scrollMargin
-)
-;
 ScrollFrameRectIntoView
 (
 container
 frameBounds
+scrollMargin
 data
 -
 >
@@ -23896,6 +23896,10 @@ const
 nsRect
 &
 aRect
+const
+nsMargin
+&
+aMargin
 ScrollAxis
 aVertical
 ScrollAxis
@@ -24211,6 +24215,7 @@ ScrollToShowRect
 (
 sf
 targetRect
+aMargin
 aVertical
 aHorizontal
 aScrollFlags

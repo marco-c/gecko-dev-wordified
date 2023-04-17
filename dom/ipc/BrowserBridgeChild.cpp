@@ -1376,6 +1376,9 @@ ScrollFrameRectIntoView
 (
 frame
 rect
+nsMargin
+(
+)
 aVertical
 aHorizontal
 aScrollFlags
