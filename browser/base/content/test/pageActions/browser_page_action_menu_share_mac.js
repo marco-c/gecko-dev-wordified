@@ -678,7 +678,7 @@ to
 be
 added
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
