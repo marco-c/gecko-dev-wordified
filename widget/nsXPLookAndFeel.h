@@ -260,9 +260,8 @@ nsresult
 GetColorValue
 (
 ColorID
-aID
-bool
-aUseStandinsForNativeColors
+ColorScheme
+UseStandins
 nscolor
 &
 aResult
