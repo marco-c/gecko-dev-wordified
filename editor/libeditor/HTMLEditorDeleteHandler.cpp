@@ -7881,7 +7881,7 @@ NS_SUCCESS_DOM_NO_OPERATION
 WSRunScanner
 wsRunScannerAtCaret
 (
-aHTMLEditor
+editingHost
 caretPoint
 )
 ;
@@ -9742,7 +9742,7 @@ EditActionCanceled
 WSRunScanner
 wsRunScannerAtCaret
 (
-aHTMLEditor
+editingHost
 caretPoint
 .
 ref
@@ -10168,7 +10168,7 @@ calls
 WSRunScanner
 wsRunScannerAtCaret
 (
-aHTMLEditor
+editingHost
 caretPoint
 .
 ref
@@ -23423,6 +23423,10 @@ WSRunScanner
 wsScannerForPoint
 (
 aHTMLEditor
+.
+GetActiveEditingHost
+(
+)
 aPoint
 )
 ;
@@ -33607,8 +33611,10 @@ cache
 our
 root
 element
+RefPtr
+<
 Element
-*
+>
 editingHost
 =
 aHTMLEditor
@@ -33704,7 +33710,7 @@ GetContent
 =
 WSRunScanner
 (
-aHTMLEditor
+editingHost
 atStart
 )
 .
@@ -33914,7 +33920,7 @@ for
 WSRunScanner
 wsScannerAtEnd
 (
-aHTMLEditor
+editingHost
 atEnd
 )
 ;

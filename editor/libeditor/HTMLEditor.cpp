@@ -10727,8 +10727,9 @@ pointToInsert
 WSRunScanner
 wsScannerForPointToInsert
 (
-*
-this
+GetActiveEditingHost
+(
+)
 pointToInsert
 )
 ;
