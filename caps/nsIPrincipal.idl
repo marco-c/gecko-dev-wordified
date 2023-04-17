@@ -316,6 +316,9 @@ retVal
 interface
 nsIURI
 ;
+webidl
+WebExtensionPolicy
+;
 [
 ptr
 ]
@@ -2628,7 +2631,7 @@ addonId
 ;
 readonly
 attribute
-nsISupports
+WebExtensionPolicy
 addonPolicy
 ;
 /

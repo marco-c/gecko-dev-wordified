@@ -6399,7 +6399,10 @@ BasePrincipal
 :
 GetAddonPolicy
 (
-nsISupports
+extensions
+:
+:
+WebExtensionPolicy
 *
 *
 aResult
