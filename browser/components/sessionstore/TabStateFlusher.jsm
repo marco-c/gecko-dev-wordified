@@ -886,14 +886,6 @@ flush
 "
 {
 id
-epoch
-:
-SessionStore
-.
-getCurrentEpoch
-(
-browser
-)
 }
 )
 ;

@@ -210,7 +210,7 @@ SessionStoreRestoreData
 SessionStoreRestoreData
 :
 :
-FindDataForChild
+FindChild
 (
 BrowsingContext
 *

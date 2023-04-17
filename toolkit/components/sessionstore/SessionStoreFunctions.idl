@@ -172,6 +172,14 @@ aCollectSHistory
 )
 ;
 void
+RestoreTabContentComplete
+(
+in
+Element
+aBrowser
+)
+;
+void
 UpdateSessionStoreForWindow
 (
 in
