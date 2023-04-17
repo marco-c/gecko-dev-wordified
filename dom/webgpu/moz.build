@@ -144,6 +144,9 @@ Adapter
 AdapterFeatures
 "
 "
+AdapterLimits
+"
+"
 BindGroup
 "
 "
@@ -216,7 +219,7 @@ Sampler
 ShaderModule
 "
 "
-SupportedLimits
+SwapChain
 "
 "
 Texture
