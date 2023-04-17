@@ -1766,7 +1766,9 @@ rootNode
 ;
 }
 }
-InvalidateWords
+mSoftText
+.
+Invalidate
 (
 )
 ;
@@ -2155,7 +2157,9 @@ mSoftText
 mEnd
 )
 {
-InvalidateWords
+mSoftText
+.
+Invalidate
 (
 )
 ;
