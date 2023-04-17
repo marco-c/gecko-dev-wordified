@@ -143,6 +143,7 @@ monitor
 1
 )
 ;
+await
 navigateTo
 (
 SIMPLE_URL
