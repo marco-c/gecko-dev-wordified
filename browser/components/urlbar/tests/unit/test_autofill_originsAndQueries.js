@@ -57,17 +57,6 @@ MPL
 *
 /
 const
-ENGINE_NAME
-=
-"
-engine
--
-suggestions
-.
-xml
-"
-;
-const
 HEURISTIC_FALLBACK_PROVIDERNAME
 =
 "
@@ -1044,7 +1033,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 providerName
 :
 HEURISTIC_FALLBACK_PROVIDERNAME
@@ -2459,7 +2448,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 providerName
 :
 HEURISTIC_FALLBACK_PROVIDERNAME
@@ -4491,7 +4480,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -4836,7 +4825,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -6018,7 +6007,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -6326,7 +6315,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -6955,7 +6944,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -8588,7 +8577,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -9859,7 +9848,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -12472,7 +12461,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
@@ -12633,7 +12622,7 @@ context
 {
 engineName
 :
-ENGINE_NAME
+SUGGESTIONS_ENGINE_NAME
 heuristic
 :
 true
