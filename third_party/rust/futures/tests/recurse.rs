@@ -1,12 +1,3 @@
-#
-[
-test
-]
-fn
-lots
-(
-)
-{
 use
 futures
 :
@@ -25,8 +16,8 @@ future
 :
 {
 self
-FutureExt
 BoxFuture
+FutureExt
 }
 ;
 use
@@ -44,6 +35,15 @@ std
 :
 thread
 ;
+#
+[
+test
+]
+fn
+lots
+(
+)
+{
 #
 [
 cfg
@@ -194,7 +194,6 @@ spawn
 (
 |
 |
-{
 block_on
 (
 do_it
@@ -223,7 +222,6 @@ unwrap
 )
 )
 )
-}
 )
 ;
 assert_eq

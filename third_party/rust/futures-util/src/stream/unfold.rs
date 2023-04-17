@@ -1,4 +1,10 @@
 use
+super
+:
+:
+assert_stream
+;
+use
 crate
 :
 :
@@ -531,6 +537,14 @@ T
 >
 >
 {
+assert_stream
+:
+:
+<
+Item
+_
+>
+(
 Unfold
 {
 f
@@ -546,6 +560,7 @@ value
 init
 }
 }
+)
 }
 pin_project
 !

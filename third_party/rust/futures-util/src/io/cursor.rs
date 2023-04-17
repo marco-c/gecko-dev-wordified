@@ -153,8 +153,7 @@ O
 /
 /
 /
-The
-standard
+This
 library
 implements
 some
@@ -1916,6 +1915,7 @@ cx
 )
 }
 }
+;
 }
 impl
 AsyncWrite

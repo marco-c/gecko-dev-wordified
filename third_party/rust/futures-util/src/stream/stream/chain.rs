@@ -373,6 +373,7 @@ Some
 item
 )
 )
+;
 }
 }
 this

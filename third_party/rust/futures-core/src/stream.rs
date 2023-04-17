@@ -1799,6 +1799,12 @@ mod
 if_alloc
 {
 use
+super
+:
+:
+*
+;
+use
 alloc
 :
 :
@@ -1806,12 +1812,6 @@ boxed
 :
 :
 Box
-;
-use
-super
-:
-:
-*
 ;
 impl
 <

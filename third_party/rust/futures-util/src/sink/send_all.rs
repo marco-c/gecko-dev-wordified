@@ -6,9 +6,9 @@ stream
 :
 :
 {
+Fuse
 StreamExt
 TryStreamExt
-Fuse
 }
 ;
 use
@@ -49,8 +49,8 @@ stream
 :
 :
 {
-TryStream
 Stream
+TryStream
 }
 ;
 use
@@ -511,7 +511,6 @@ Ready
 )
 =
 >
-{
 Poll
 :
 :
@@ -534,7 +533,6 @@ start_send
 item
 )
 )
-}
 Poll
 :
 :
@@ -738,7 +736,6 @@ item
 )
 =
 >
-{
 ready
 !
 (
@@ -751,7 +748,6 @@ item
 )
 )
 ?
-}
 Poll
 :
 :
@@ -796,6 +792,7 @@ Ok
 )
 )
 )
+;
 }
 Poll
 :
@@ -831,6 +828,7 @@ Poll
 :
 :
 Pending
+;
 }
 }
 }

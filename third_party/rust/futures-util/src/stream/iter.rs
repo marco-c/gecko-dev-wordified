@@ -1,4 +1,10 @@
 use
+super
+:
+:
+assert_stream
+;
+use
 core
 :
 :
@@ -260,6 +266,17 @@ I
 :
 IntoIterator
 {
+assert_stream
+:
+:
+<
+I
+:
+:
+Item
+_
+>
+(
 Iter
 {
 iter
@@ -270,6 +287,7 @@ into_iter
 (
 )
 }
+)
 }
 impl
 <

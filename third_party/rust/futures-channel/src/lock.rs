@@ -93,10 +93,7 @@ sync
 atomic
 :
 :
-Ordering
-:
-:
-SeqCst
+AtomicBool
 ;
 use
 core
@@ -108,7 +105,10 @@ sync
 atomic
 :
 :
-AtomicBool
+Ordering
+:
+:
+SeqCst
 ;
 /
 /

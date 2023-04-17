@@ -3,6 +3,10 @@ futures
 :
 :
 {
+executor
+:
+:
+block_on
 io
 :
 :
@@ -69,7 +73,6 @@ bool
 impl
 MyRead
 {
-pub
 fn
 new
 (
@@ -195,7 +198,6 @@ u8
 impl
 VecWrapper
 {
-pub
 fn
 new
 (
@@ -272,12 +274,6 @@ b
 }
 }
 }
-futures
-:
-:
-executor
-:
-:
 block_on
 (
 async

@@ -36,8 +36,8 @@ future
 :
 :
 {
-Future
 FusedFuture
+Future
 }
 ;
 use
@@ -48,8 +48,8 @@ stream
 :
 :
 {
-Stream
 FusedStream
+Stream
 }
 ;
 #

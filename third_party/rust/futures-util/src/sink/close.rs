@@ -164,7 +164,7 @@ itself
 is
 returned
 after
-closeing
+closing
 is
 complete
 .

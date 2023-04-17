@@ -37,6 +37,10 @@ Sender
 UnboundedSender
 }
 ready
+sink
+:
+:
+Sink
 stream
 :
 :
@@ -44,10 +48,6 @@ stream
 Stream
 StreamExt
 }
-sink
-:
-:
-Sink
 task
 :
 :
@@ -919,7 +919,6 @@ map
 |
 _
 |
-{
 TestSender
 {
 tx
@@ -932,7 +931,6 @@ clone
 last
 :
 0
-}
 }
 )
 .

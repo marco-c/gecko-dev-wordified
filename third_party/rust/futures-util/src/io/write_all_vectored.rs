@@ -2,16 +2,16 @@ use
 futures_core
 :
 :
-ready
+future
+:
+:
+Future
 ;
 use
 futures_core
 :
 :
-future
-:
-:
-Future
+ready
 ;
 use
 futures_core
@@ -914,6 +914,7 @@ expected
 got
 =
 >
+{
 panic
 !
 (
@@ -942,6 +943,7 @@ Ok
 got
 expected
 )
+}
 }
 }
 ;
