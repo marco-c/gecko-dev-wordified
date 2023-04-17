@@ -677,8 +677,6 @@ title
 text
 username
 password
-checkMsg
-checkState
 )
 {
 throw
@@ -699,8 +697,6 @@ promptPassword
 title
 text
 password
-checkMsg
-checkState
 )
 {
 throw
