@@ -208,6 +208,9 @@ class
 JoinNodeTransaction
 ;
 class
+LogModule
+;
+class
 PlaceholderTransaction
 ;
 class
@@ -406,6 +409,13 @@ EditTransactionBase
 )
 =
 default
+;
+static
+LogModule
+*
+GetLogModule
+(
+)
 ;
 }
 ;
