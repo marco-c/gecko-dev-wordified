@@ -685,7 +685,6 @@ jsm
 "
 BackgroundTasksManager
 "
-fallible
 )
 ;
 NS_ENSURE_TRUE

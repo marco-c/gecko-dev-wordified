@@ -14045,7 +14045,6 @@ SessionStoreFunctions
 .
 jsm
 "
-fallible
 )
 ;
 if

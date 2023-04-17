@@ -104945,7 +104945,6 @@ BrowserUsageTelemetry
 .
 jsm
 "
-fallible
 )
 ;
 if
