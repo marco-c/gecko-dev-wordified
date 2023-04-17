@@ -1863,7 +1863,7 @@ ResultType
 (
 Kind
 kind
-uint32_t
+uintptr_t
 imm
 )
 :
@@ -2008,7 +2008,7 @@ return
 ResultType
 (
 EmptyKind
-uint32_t
+uintptr_t
 (
 0
 )
@@ -2535,7 +2535,7 @@ BlockType
 (
 Kind
 kind
-uint32_t
+uintptr_t
 imm
 )
 :
@@ -2681,7 +2681,7 @@ return
 BlockType
 (
 VoidToVoidKind
-uint32_t
+uintptr_t
 (
 0
 )
