@@ -3125,8 +3125,6 @@ Value
 *
 rest
 HandleObject
-templateObj
-HandleObject
 res
 )
 ;
