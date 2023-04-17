@@ -523,10 +523,6 @@ h
 /
 for
 LayerManager
-LayerManager
-:
-:
-PaintedLayerCreationHint
 #
 include
 "
@@ -763,9 +759,6 @@ Animation
 ;
 class
 AsyncPanZoomController
-;
-class
-PaintedLayer
 ;
 class
 ContainerLayer

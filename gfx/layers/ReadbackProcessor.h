@@ -180,9 +180,6 @@ class
 ContainerLayer
 ;
 class
-PaintedLayer
-;
-class
 ReadbackProcessor
 {
 public

@@ -434,9 +434,6 @@ gfx
 namespace
 layers
 {
-class
-PaintedLayer
-;
 /
 *
 *
