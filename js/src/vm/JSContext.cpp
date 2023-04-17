@@ -5334,6 +5334,13 @@ isExceptionPending
 )
 )
 {
+cx
+-
+>
+clearInterrupt
+(
+)
+;
 continue
 ;
 }

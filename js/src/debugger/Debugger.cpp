@@ -2859,7 +2859,7 @@ Terminate
 cx
 -
 >
-clearPendingException
+setInterrupting
 (
 )
 ;
@@ -7872,7 +7872,7 @@ Terminate
 cx
 -
 >
-clearPendingException
+setInterrupting
 (
 )
 ;
@@ -14043,6 +14043,13 @@ isExceptionPending
 )
 )
 {
+cx
+-
+>
+clearInterrupt
+(
+)
+;
 return
 Completion
 (

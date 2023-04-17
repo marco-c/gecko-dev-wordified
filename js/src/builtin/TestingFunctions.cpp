@@ -24185,9 +24185,11 @@ n
 )
 ;
 }
-JS_ClearPendingException
-(
 cx
+-
+>
+setInterrupting
+(
 )
 ;
 return

@@ -3742,14 +3742,11 @@ function
 .
 if
 (
-MOZ_UNLIKELY
-(
 cx
 -
 >
 isPropagatingForcedReturn
 (
-)
 )
 )
 {
