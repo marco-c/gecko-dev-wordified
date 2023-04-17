@@ -3251,7 +3251,7 @@ blend_key
 ;
 }
 static
-ALWAYS_INLINE
+PREFER_INLINE
 WideRGBA8
 blend_pixels
 (
@@ -5765,7 +5765,7 @@ format
 on
 }
 static
-ALWAYS_INLINE
+PREFER_INLINE
 WideR8
 blend_pixels
 (
