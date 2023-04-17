@@ -167,6 +167,22 @@ match
 for
 the
 job
+.
+Paths
+should
+be
+kept
+in
+sync
+with
+update
+-
+built
+-
+tests
+.
+sh
+.
 job_path_map
 =
 {
@@ -310,17 +326,9 @@ sh
 "
                      
 "
-infrastructure
-/
-"
-                     
-"
-html
-/
-"
-                     
-"
-mimesniff
+conformance
+-
+checkers
 /
 "
                      
@@ -330,6 +338,21 @@ css
 css
 -
 ui
+/
+"
+                     
+"
+html
+/
+"
+                     
+"
+infrastructure
+/
+"
+                     
+"
+mimesniff
 /
 "
                      
