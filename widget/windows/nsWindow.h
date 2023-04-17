@@ -2241,6 +2241,13 @@ MaybeDispatchInitialFocusEvent
 )
 override
 ;
+virtual
+void
+LocalesChanged
+(
+)
+override
+;
 protected
 :
 virtual
