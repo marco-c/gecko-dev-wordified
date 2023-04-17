@@ -2140,7 +2140,9 @@ webrender
 .
 force
 -
-disabled
+legacy
+-
+layers
 "
 {
 what

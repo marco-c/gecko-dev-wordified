@@ -268,7 +268,9 @@ webrender
 .
 force
 -
-disabled
+legacy
+-
+layers
 "
 ;
 /
