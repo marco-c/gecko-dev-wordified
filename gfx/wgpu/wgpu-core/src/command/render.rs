@@ -13358,6 +13358,10 @@ no_mangle
 ]
 pub
 unsafe
+extern
+"
+C
+"
 fn
 wgpu_render_pass_execute_bundles
 (

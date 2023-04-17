@@ -367,6 +367,16 @@ ipc
 :
 :
 IPCResult
+RecvRenderBundleDestroy
+(
+RawId
+aSelfId
+)
+;
+ipc
+:
+:
+IPCResult
 RecvQueueSubmit
 (
 RawId

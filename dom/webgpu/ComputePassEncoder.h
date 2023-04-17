@@ -284,6 +284,11 @@ mUsedPipelines
 ;
 public
 :
+/
+/
+programmable
+pass
+encoder
 void
 SetBindGroup
 (
@@ -305,6 +310,9 @@ uint32_t
 aDynamicOffsets
 )
 ;
+/
+/
+self
 void
 SetPipeline
 (
