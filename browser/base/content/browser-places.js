@@ -2358,12 +2358,6 @@ resolve
 ;
 this
 .
-_batchBlockingDeferred
-=
-null
-;
-this
-.
 _batching
 =
 false
