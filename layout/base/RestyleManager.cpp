@@ -5602,11 +5602,7 @@ nsIFrame
 NormalPositionProperty
 (
 )
-new
-nsPoint
-(
 normalPosition
-)
 )
 ;
 }
