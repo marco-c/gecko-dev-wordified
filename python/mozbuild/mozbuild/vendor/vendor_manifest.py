@@ -100,6 +100,8 @@ import
 add_file_to_moz_build_file
     
 remove_file_from_moz_build_file
+    
+MozBuildRewriteException
 )
 DEFAULT_EXCLUDE_FILES
 =
@@ -2372,7 +2374,7 @@ vendoring_dir
 )
             
 except
-Exception
+MozBuildRewriteException
 :
                 
 self
@@ -2431,7 +2433,7 @@ vendoring_dir
 )
             
 except
-Exception
+MozBuildRewriteException
 :
                 
 self
