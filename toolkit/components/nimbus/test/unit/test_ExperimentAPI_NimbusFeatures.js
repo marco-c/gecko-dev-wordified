@@ -1175,9 +1175,15 @@ cloneInto
 branch
 :
 {
-feature
+features
 :
+[
 {
+featureId
+:
+"
+aboutwelcome
+"
 value
 :
 {
@@ -1186,6 +1192,7 @@ mochitest
 true
 }
 }
+]
 }
 }
 {

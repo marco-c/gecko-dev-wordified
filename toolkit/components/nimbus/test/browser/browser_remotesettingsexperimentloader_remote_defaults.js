@@ -2908,8 +2908,9 @@ active
 -
 foo
 "
-feature
+features
 :
+[
 {
 enabled
 :
@@ -2923,6 +2924,7 @@ value
 :
 null
 }
+]
 }
 ]
 active

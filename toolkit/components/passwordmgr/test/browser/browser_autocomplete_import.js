@@ -400,9 +400,17 @@ foo
 ratio
 :
 1
-feature
+features
 :
+[
 {
+featureId
+:
+"
+password
+-
+autocomplete
+"
 value
 :
 {
@@ -411,6 +419,7 @@ directMigrateSingleProfile
 true
 }
 }
+]
 }
 )
 ;
