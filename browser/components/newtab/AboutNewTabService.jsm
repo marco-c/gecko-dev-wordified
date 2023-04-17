@@ -2724,6 +2724,11 @@ aboutwelcome
 .
 recordExposureEvent
 (
+{
+once
+:
+true
+}
 )
 ;
 if
