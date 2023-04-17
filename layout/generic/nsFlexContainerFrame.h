@@ -2741,7 +2741,7 @@ struct
 const
 CachedBAxisMeasurement
 &
-MeasureAscentAndBSizeForFlexItem
+MeasureBSizeForFlexItem
 (
 FlexItem
 &
