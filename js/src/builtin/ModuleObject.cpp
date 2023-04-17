@@ -15670,7 +15670,6 @@ ExportEntryObject
 expVec
 (
 cx
-cx
 )
 ;
 RootedExportEntryObject
