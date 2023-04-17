@@ -2198,7 +2198,7 @@ This
 value
 is
 in
-layer
+screen
 pixels
 .
 *
@@ -28488,7 +28488,7 @@ if
 (
 aFrameMetrics
 .
-LayersPixelsPerCSSPixel
+DisplayportPixelsPerCSSPixel
 (
 )
 .
@@ -28500,7 +28500,7 @@ xScale
 &
 aFrameMetrics
 .
-LayersPixelsPerCSSPixel
+DisplayportPixelsPerCSSPixel
 (
 )
 .
@@ -28512,7 +28512,7 @@ yScale
 {
 dangerZone
 =
-LayerSize
+ScreenSize
 (
 StaticPrefs
 :
@@ -28530,7 +28530,7 @@ apz_danger_zone_y
 /
 aFrameMetrics
 .
-LayersPixelsPerCSSPixel
+DisplayportPixelsPerCSSPixel
 (
 )
 ;
