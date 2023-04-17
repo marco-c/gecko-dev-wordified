@@ -72,3 +72,6 @@ registry
 mod
 source
 ;
+mod
+xpcom_utils
+;
