@@ -561,8 +561,8 @@ NewSessionResponse
 {
 NewSessionResponse
 {
-capabilities
 session_id
+capabilities
 }
 }
 }
