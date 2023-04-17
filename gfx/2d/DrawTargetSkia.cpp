@@ -11344,7 +11344,6 @@ minmaxPair
 .
 first
 >
-=
 0
 &
 &
