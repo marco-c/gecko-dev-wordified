@@ -5,6 +5,12 @@ abc
 import
 ABCMeta
 abstractmethod
+from
+typing
+import
+ClassVar
+List
+Type
 class
 Protocol
 (
@@ -121,6 +127,19 @@ ABCMeta
 implements
 =
 [
+]
+#
+type
+:
+ClassVar
+[
+List
+[
+Type
+[
+ProtocolPart
+]
+]
 ]
     
 def
@@ -517,6 +536,13 @@ ABCMeta
 name
 =
 None
+#
+type
+:
+ClassVar
+[
+str
+]
     
 def
 __init__

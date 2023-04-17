@@ -9,6 +9,13 @@ collections
 import
 defaultdict
 from
+typing
+import
+Any
+ClassVar
+Dict
+Type
+from
 urllib
 .
 parse
@@ -566,7 +573,11 @@ kwargs
 class
 RunInfo
 (
-dict
+Dict
+[
+str
+Any
+]
 )
 :
     
@@ -999,14 +1010,41 @@ object
 result_cls
 =
 None
+#
+type
+:
+ClassVar
+[
+Type
+[
+Result
+]
+]
     
 subtest_result_cls
 =
 None
+#
+type
+:
+ClassVar
+[
+Type
+[
+SubtestResult
+]
+]
     
 test_type
 =
 None
+#
+type
+:
+ClassVar
+[
+str
+]
     
 default_timeout
 =
