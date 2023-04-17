@@ -614,17 +614,12 @@ background
 )
 ;
 await
-Promise
-.
-all
-(
-[
-await
 extension
 .
 startup
 (
 )
+;
 await
 extension
 .
@@ -633,8 +628,6 @@ awaitFinish
 "
 finish
 "
-)
-]
 )
 ;
 await

@@ -2335,16 +2335,13 @@ sendMessage
 )
 ;
 await
-Promise
-.
-all
-(
-[
 extension
 .
 startup
 (
 )
+;
+await
 extension
 .
 awaitFinish
@@ -2354,8 +2351,6 @@ tabs
 .
 sendMessage
 "
-)
-]
 )
 ;
 await
