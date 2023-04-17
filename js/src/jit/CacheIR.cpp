@@ -7014,8 +7014,6 @@ ObjOperandId
 objId
 jsid
 id
-bool
-handleMissing
 )
 {
 MOZ_ASSERT
@@ -7211,10 +7209,6 @@ attachMegamorphicNativeSlot
 (
 objId
 id
-holder
-=
-=
-nullptr
 )
 ;
 return
