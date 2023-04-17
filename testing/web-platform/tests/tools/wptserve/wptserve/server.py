@@ -90,7 +90,6 @@ mod_pywebsocket
 handshake
 import
 HandshakeException
-AbortedByUserException
 from
 .
 import
@@ -3563,18 +3562,6 @@ write
             
 return
         
-except
-AbortedByUserException
-:
-            
-h2response
-.
-write
-(
-)
-            
-return
-        
 #
 h2
 Handshaker
@@ -6374,16 +6361,6 @@ _WebSocketConnection
 request_handler
 response
 )
-        
-self
-.
-protocol
-=
-"
-HTTP
-/
-2
-"
         
 self
 .
