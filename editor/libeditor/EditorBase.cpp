@@ -1093,17 +1093,6 @@ etc
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-/
-/
-for
-do_CreateInstance
-#
-include
-"
 nsContentUtils
 .
 h
