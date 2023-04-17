@@ -209,6 +209,11 @@ MsaaAccessible
 cpp
 "
 "
+MsaaDocAccessible
+.
+cpp
+"
+"
 MsaaIdGenerator
 .
 cpp
