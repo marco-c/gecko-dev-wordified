@@ -4537,12 +4537,6 @@ false
 showOptions
 )
 ;
-mainAction
-.
-disableHighlight
-=
-true
-;
 let
 notification
 =

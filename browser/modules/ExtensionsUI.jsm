@@ -2853,9 +2853,6 @@ accessKey
 strings
 .
 acceptKey
-disableHighlight
-:
-true
 callback
 :
 (
