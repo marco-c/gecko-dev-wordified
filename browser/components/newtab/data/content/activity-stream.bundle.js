@@ -6438,11 +6438,6 @@ visible
 -
 logo
 "
-"
-newtab
--
-experience
-"
 ]
 .
 filter
