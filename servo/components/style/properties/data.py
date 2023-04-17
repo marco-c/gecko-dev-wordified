@@ -5855,6 +5855,12 @@ set
 [
                 
 "
+white
+-
+space
+"
+                
+"
 color
 "
                 

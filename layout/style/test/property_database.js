@@ -61452,6 +61452,9 @@ true
 applies_to_cue
 :
 true
+applies_to_marker
+:
+true
 initial_values
 :
 [
