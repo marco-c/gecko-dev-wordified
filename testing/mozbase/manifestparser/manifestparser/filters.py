@@ -3533,11 +3533,21 @@ continue
 matched
 =
 [
+                    
 self
 .
 keyword
 in
 e
+and
+parse
+(
+e
+*
+*
+values
+)
+                    
 for
 e
 in
@@ -3549,8 +3559,10 @@ key
 splitlines
 (
 )
+                    
 if
 e
+                
 ]
                 
 if
