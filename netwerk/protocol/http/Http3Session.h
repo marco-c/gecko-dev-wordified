@@ -627,6 +627,15 @@ nsIUDPSocket
 socket
 )
 ;
+void
+DoSetEchConfig
+(
+const
+nsACString
+&
+aEchConfig
+)
+;
 private
 :
 ~
