@@ -22444,6 +22444,9 @@ isAsmJS
 )
 )
 ;
+if
+(
+!
 tab
 .
 fillFuncRef
@@ -22459,7 +22462,17 @@ fun
 )
 cx
 )
+)
+{
+ReportOutOfMemory
+(
+cx
+)
 ;
+return
+false
+;
+}
 break
 ;
 case
