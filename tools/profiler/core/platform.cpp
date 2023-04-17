@@ -39636,9 +39636,6 @@ Exists
 )
 )
 ;
-PSAutoLock
-lock
-;
 if
 (
 !
