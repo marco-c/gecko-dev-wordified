@@ -639,8 +639,6 @@ popup_border
 "
 -
 -
-lwt
--
 toolbar
 -
 field
@@ -809,13 +807,15 @@ toolbar_field_border
 "
 -
 -
-lwt
--
 toolbar
 -
 field
 -
 focus
+-
+background
+-
+color
 "
 {
 lwtProperty
