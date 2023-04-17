@@ -1088,6 +1088,14 @@ qcms_profile
 profile
 )
 ;
+bool
+qcms_profile_is_sRGB
+(
+qcms_profile
+*
+profile
+)
+;
 void
 qcms_profile_precache_output_transform
 (
