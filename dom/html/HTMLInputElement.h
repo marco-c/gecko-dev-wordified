@@ -800,9 +800,6 @@ HTMLInputElement
 (
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -811,12 +808,6 @@ NodeInfo
 &
 &
 aNodeInfo
-mozilla
-:
-:
-dom
-:
-:
 FromParser
 aFromParser
 FromClone
@@ -837,7 +828,6 @@ input
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 int32_t
 TabIndexDefault
 (
@@ -850,7 +840,6 @@ nsGenericHTMLElement
 :
 Focus
 ;
-virtual
 void
 Blur
 (
@@ -860,7 +849,6 @@ aError
 )
 override
 ;
-virtual
 void
 Focus
 (
@@ -868,7 +856,6 @@ const
 FocusOptions
 &
 aOptions
-const
 CallerType
 aCallerType
 ErrorResult
@@ -894,7 +881,6 @@ defined
 (
 XP_MACOSX
 )
-virtual
 bool
 IsNodeApzAwareInternal
 (
@@ -907,7 +893,6 @@ endif
 /
 /
 Element
-virtual
 bool
 IsInteractiveHTMLContent
 (
@@ -918,7 +903,6 @@ override
 /
 /
 nsGenericHTMLElement
-virtual
 bool
 IsDisabledForEvents
 (
@@ -950,7 +934,6 @@ override
 /
 /
 EventTarget
-virtual
 void
 AsyncEventRunning
 (
@@ -981,14 +964,12 @@ aFormData
 )
 override
 ;
-virtual
 bool
 AllowDrop
 (
 )
 override
 ;
-virtual
 void
 FieldSetDisabledChanged
 (
@@ -1000,7 +981,6 @@ override
 /
 /
 nsIContent
-virtual
 bool
 IsHTMLFocusable
 (
@@ -1015,7 +995,6 @@ aTabIndex
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -1037,7 +1016,6 @@ aResult
 )
 override
 ;
-virtual
 nsChangeHint
 GetAttributeChangeHint
 (
@@ -1065,7 +1043,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -1083,7 +1060,6 @@ aVisitor
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 nsresult
 PreHandleEvent
 (
@@ -1094,7 +1070,6 @@ aVisitor
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 nsresult
 PostHandleEvent
 (
@@ -1151,7 +1126,6 @@ Decimal
 aValue
 )
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -1163,7 +1137,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -1175,21 +1148,18 @@ true
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 void
 DoneCreatingElement
 (
 )
 override
 ;
-virtual
 void
 DestroyContent
 (
 )
 override
 ;
-virtual
 EventStates
 IntrinsicState
 (
@@ -1206,7 +1176,6 @@ bool
 /
 /
 TextControlElement
-virtual
 nsresult
 SetValueChanged
 (
@@ -1215,7 +1184,6 @@ aValueChanged
 )
 override
 ;
-virtual
 bool
 IsSingleLineTextControl
 (
@@ -1223,7 +1191,6 @@ IsSingleLineTextControl
 const
 override
 ;
-virtual
 bool
 IsTextArea
 (
@@ -1231,7 +1198,6 @@ IsTextArea
 const
 override
 ;
-virtual
 bool
 IsPasswordTextControl
 (
@@ -1239,28 +1205,24 @@ IsPasswordTextControl
 const
 override
 ;
-virtual
 int32_t
 GetCols
 (
 )
 override
 ;
-virtual
 int32_t
 GetWrapCols
 (
 )
 override
 ;
-virtual
 int32_t
 GetRows
 (
 )
 override
 ;
-virtual
 void
 GetDefaultValueFromContent
 (
@@ -1270,7 +1232,6 @@ aValue
 )
 override
 ;
-virtual
 bool
 ValueChanged
 (
@@ -1278,7 +1239,6 @@ ValueChanged
 const
 override
 ;
-virtual
 void
 GetTextEditorValue
 (
@@ -1299,7 +1259,6 @@ GetTextEditor
 )
 override
 ;
-virtual
 TextEditor
 *
 GetTextEditorWithoutCreation
@@ -1307,7 +1266,6 @@ GetTextEditorWithoutCreation
 )
 override
 ;
-virtual
 nsISelectionController
 *
 GetSelectionController
@@ -1315,7 +1273,6 @@ GetSelectionController
 )
 override
 ;
-virtual
 nsFrameSelection
 *
 GetConstFrameSelection
@@ -1323,7 +1280,6 @@ GetConstFrameSelection
 )
 override
 ;
-virtual
 TextControlState
 *
 GetTextControlState
@@ -1338,7 +1294,6 @@ GetEditorState
 )
 ;
 }
-virtual
 nsresult
 BindToFrame
 (
@@ -1349,7 +1304,6 @@ aFrame
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 UnbindFromFrame
 (
@@ -1360,14 +1314,12 @@ aFrame
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 CreateEditor
 (
 )
 override
 ;
-virtual
 void
 SetPreviewValue
 (
@@ -1378,7 +1330,6 @@ aValue
 )
 override
 ;
-virtual
 void
 GetPreviewValue
 (
@@ -1388,28 +1339,24 @@ aValue
 )
 override
 ;
-virtual
 void
 EnablePreview
 (
 )
 override
 ;
-virtual
 bool
 IsPreviewEnabled
 (
 )
 override
 ;
-virtual
 void
 InitializeKeyboardEventListeners
 (
 )
 override
 ;
-virtual
 void
 OnValueChanged
 (
@@ -1417,7 +1364,6 @@ ValueChangeKind
 )
 override
 ;
-virtual
 void
 GetValueFromSetRangeText
 (
@@ -1428,7 +1374,6 @@ aValue
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 SetValueFromSetRangeText
 (
@@ -1439,7 +1384,6 @@ aValue
 )
 override
 ;
-virtual
 bool
 HasCachedSelection
 (
@@ -1727,7 +1671,6 @@ GetSelectedRadioButton
 const
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 nsresult
 Clone
 (
@@ -5410,7 +5353,6 @@ HTMLInputElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -5998,7 +5940,6 @@ be
 changed
 *
 /
-virtual
 nsresult
 BeforeSetAttr
 (
@@ -6031,7 +5972,6 @@ changed
 *
 /
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 nsresult
 AfterSetAttr
 (
@@ -6056,7 +5996,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 BeforeSetForm
 (
@@ -6065,7 +6004,6 @@ aBindToTree
 )
 override
 ;
-virtual
 void
 AfterClearForm
 (
@@ -6074,7 +6012,6 @@ aUnbindOrDelete
 )
 override
 ;
-virtual
 void
 ResultForDialogSubmit
 (
