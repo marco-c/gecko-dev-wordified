@@ -1446,8 +1446,6 @@ HandleVideoDecoded
 VideoData
 *
 aVideo
-TimeStamp
-aDecodeStart
 )
 {
 Crash
@@ -3277,7 +3275,6 @@ HandleVideoDecoded
 (
 VideoData
 *
-TimeStamp
 )
 override
 {
@@ -3589,8 +3586,6 @@ HandleVideoDecoded
 VideoData
 *
 aVideo
-TimeStamp
-aDecodeStart
 )
 override
 {
@@ -4187,8 +4182,6 @@ HandleVideoDecoded
 VideoData
 *
 aVideo
-TimeStamp
-aDecodeStart
 )
 override
 {
@@ -7242,8 +7235,6 @@ HandleVideoDecoded
 VideoData
 *
 aVideo
-TimeStamp
-aDecodeStart
 )
 override
 =
@@ -7778,8 +7769,6 @@ HandleVideoDecoded
 VideoData
 *
 aVideo
-TimeStamp
-aDecodeStart
 )
 override
 {
@@ -10335,8 +10324,6 @@ HandleVideoDecoded
 VideoData
 *
 aVideo
-TimeStamp
-aDecodeStart
 )
 override
 {
@@ -12858,8 +12845,6 @@ HandleVideoDecoded
 VideoData
 *
 aVideo
-TimeStamp
-aDecodeStart
 )
 override
 {
@@ -22634,16 +22619,6 @@ Start
 (
 )
 ;
-TimeStamp
-videoDecodeStartTime
-=
-TimeStamp
-:
-:
-Now
-(
-)
-;
 RefPtr
 <
 MediaDecoderStateMachine
@@ -22671,7 +22646,6 @@ __func__
 [
 this
 self
-videoDecodeStartTime
 perfRecorder
 (
 std
@@ -22787,7 +22761,6 @@ mStateObj
 HandleVideoDecoded
 (
 aVideo
-videoDecodeStartTime
 )
 ;
 }
