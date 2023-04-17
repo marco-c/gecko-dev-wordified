@@ -13307,7 +13307,7 @@ false
 ;
 wrapped
 .
-setGetterObject
+setGetter
 (
 rewaived
 )
@@ -13379,7 +13379,7 @@ false
 ;
 wrapped
 .
-setSetterObject
+setSetter
 (
 rewaived
 )

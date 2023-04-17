@@ -11634,7 +11634,7 @@ propertyInfo
 ;
 desc
 .
-setGetterObject
+setGetter
 (
 obj
 -
@@ -11647,7 +11647,7 @@ propInfo
 ;
 desc
 .
-setSetterObject
+setSetter
 (
 obj
 -
@@ -12124,7 +12124,7 @@ shape
 .
 desc
 .
-setSetterObject
+setSetter
 (
 obj
 -
@@ -12208,7 +12208,7 @@ shape
 .
 desc
 .
-setGetterObject
+setGetter
 (
 obj
 -

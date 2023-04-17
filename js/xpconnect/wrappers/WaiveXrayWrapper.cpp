@@ -297,7 +297,7 @@ false
 }
 desc_
 .
-setGetterObject
+setGetter
 (
 &
 v
@@ -362,7 +362,7 @@ false
 }
 desc_
 .
-setSetterObject
+setSetter
 (
 &
 v

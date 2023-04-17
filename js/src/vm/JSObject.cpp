@@ -2660,9 +2660,9 @@ false
 /
 We
 delay
-setGetterObject
+setGetter
 /
-setSetterObject
+setSetter
 after
 the
 previous
@@ -2682,7 +2682,7 @@ hasGet
 {
 desc
 .
-setGetterObject
+setGetter
 (
 getter
 )
@@ -2695,7 +2695,7 @@ hasSet
 {
 desc
 .
-setSetterObject
+setSetter
 (
 setter
 )
@@ -2982,7 +2982,7 @@ hasGetter
 {
 desc
 .
-setGetterObject
+setGetter
 (
 nullptr
 )
@@ -3007,7 +3007,7 @@ hasSetter
 {
 desc
 .
-setSetterObject
+setSetter
 (
 nullptr
 )
