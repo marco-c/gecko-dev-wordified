@@ -4279,6 +4279,11 @@ CollectedFrames
 aFrames
 )
 ;
+void
+MaybeDeclareStable
+(
+)
+;
 protected
 :
 /
