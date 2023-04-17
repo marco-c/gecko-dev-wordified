@@ -34748,9 +34748,8 @@ wrapper
 weakRef
 -
 >
-setTarget
+clearTarget
 (
-nullptr
 )
 ;
 }
