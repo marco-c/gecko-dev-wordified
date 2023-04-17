@@ -1224,6 +1224,7 @@ setup
 (
 {
 FormAutofillHeuristics
+LabelUtils
 }
 =
 ChromeUtils
@@ -1248,7 +1249,6 @@ jsm
 {
 AddressDataLoader
 FormAutofillUtils
-LabelUtils
 }
 =
 ChromeUtils
