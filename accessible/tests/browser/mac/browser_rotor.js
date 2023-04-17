@@ -6044,7 +6044,7 @@ searchPred
 AXSearchKey
 :
 "
-AXCheckboxSearchKey
+AXCheckBoxSearchKey
 "
 AXImmediateDescendantsOnly
 :
