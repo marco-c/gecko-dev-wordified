@@ -2421,14 +2421,7 @@ if
 (
 desc
 .
-setter
-(
-)
-|
-|
-desc
-.
-getter
+isAccessorDescriptor
 (
 )
 )
