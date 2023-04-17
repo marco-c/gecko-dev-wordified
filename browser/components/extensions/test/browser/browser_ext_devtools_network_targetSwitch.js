@@ -140,7 +140,9 @@ onSwitched
 =
 toolbox
 .
-targetList
+commands
+.
+targetCommand
 .
 once
 (
