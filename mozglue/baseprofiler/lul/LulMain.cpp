@@ -5487,10 +5487,14 @@ LUL
 :
 pid
 %
-d
+"
+PRIu64
+"
 tid
 %
-d
+"
+PRIu64
+"
 lul
 -
 obj
@@ -5501,7 +5505,7 @@ p
 s
 "
 \
-int
+uint64_t
 (
 profiler_current_process_id
 (
@@ -5512,7 +5516,7 @@ ToNumber
 )
 )
 \
-int
+uint64_t
 (
 profiler_current_thread_id
 (

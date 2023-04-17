@@ -23884,7 +23884,9 @@ s
 -
 thread
 %
-d
+"
+PRIu64
+"
 already
 registered
 as
@@ -23892,7 +23894,7 @@ as
 s
 "
 aName
-int
+uint64_t
 (
 profiler_current_thread_id
 (
@@ -24270,10 +24272,13 @@ profiler_unregister_thread
 -
 thread
 %
-d
+"
+PRIu64
+"
 already
 unregistered
 "
+uint64_t
 (
 profiler_current_thread_id
 (

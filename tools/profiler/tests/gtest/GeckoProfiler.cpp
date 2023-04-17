@@ -2411,7 +2411,7 @@ thread
 pid
 "
 ]
-UInt
+Int64
 )
 ;
 EXPECT_HAS_JSON
@@ -2422,7 +2422,7 @@ thread
 tid
 "
 ]
-UInt
+Int64
 )
 ;
 EXPECT_HAS_JSON
