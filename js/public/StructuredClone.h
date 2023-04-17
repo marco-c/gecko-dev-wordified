@@ -3319,12 +3319,7 @@ default
 JSStructuredCloneData
 (
 )
-{
-discardTransferables
-(
-)
 ;
-}
 void
 setCallbacks
 (
