@@ -1602,6 +1602,15 @@ sizeAdjust
 0
 &
 &
+GetAdjustedSize
+(
+)
+>
+0
+.
+0
+&
+&
 mFTSize
 =
 =
