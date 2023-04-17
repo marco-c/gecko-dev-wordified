@@ -21756,6 +21756,7 @@ exec
 (
 cx
 global
+options
 )
 ;
 if
@@ -21841,7 +21842,6 @@ exec
 .
 Decode
 (
-options
 aRequest
 -
 >
@@ -21953,6 +21953,7 @@ exec
 (
 cx
 global
+options
 )
 ;
 exec
@@ -22135,7 +22136,6 @@ exec
 .
 Compile
 (
-options
 maybeSource
 .
 ref
@@ -22153,7 +22153,6 @@ exec
 .
 Compile
 (
-options
 maybeSource
 .
 ref
