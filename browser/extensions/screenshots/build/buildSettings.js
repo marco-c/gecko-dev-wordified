@@ -76,7 +76,6 @@ warn
 "
 captureText
 :
-(
 "
 "
 =
@@ -85,10 +84,8 @@ captureText
 "
 true
 "
-)
 uploadBinary
 :
-(
 "
 "
 =
@@ -97,7 +94,6 @@ uploadBinary
 "
 true
 "
-)
 pngToJpegCutoff
 :
 parseInt
