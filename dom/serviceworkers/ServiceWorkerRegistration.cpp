@@ -953,6 +953,7 @@ NavigationPreloadManager
 GetParentObject
 (
 )
+mInner
 )
 ;
 }
