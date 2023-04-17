@@ -1029,6 +1029,9 @@ net
 PingUploader
 >
 )
+use_core_mps
+:
+true
 }
 ;
 log
