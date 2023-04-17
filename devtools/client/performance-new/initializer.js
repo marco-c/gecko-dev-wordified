@@ -812,6 +812,16 @@ reducers
 )
 ;
 const
+isSupportedPlatform
+=
+await
+perfFront
+.
+isSupportedPlatform
+(
+)
+;
+const
 supportedFeatures
 =
 await
@@ -1045,6 +1055,7 @@ initializeStore
 (
 {
 perfFront
+isSupportedPlatform
 recordingSettings
 :
 getRecordingSettings
