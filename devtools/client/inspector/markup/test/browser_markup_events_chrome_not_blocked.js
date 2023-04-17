@@ -180,7 +180,6 @@ const
 {
 tab
 inspector
-testActor
 }
 =
 await
@@ -290,7 +289,6 @@ checkEventsForNode
 (
 test
 inspector
-testActor
 )
 ;
 }

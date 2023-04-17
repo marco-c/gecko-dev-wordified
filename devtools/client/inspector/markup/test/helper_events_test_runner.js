@@ -166,7 +166,6 @@ tests
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -197,7 +196,6 @@ checkEventsForNode
 (
 test
 inspector
-testActor
 )
 ;
 }
@@ -426,12 +424,6 @@ currently
 *
 opened
 *
-param
-{
-TestActorFront
-}
-testActor
-*
 /
 async
 function
@@ -439,7 +431,6 @@ checkEventsForNode
 (
 test
 inspector
-testActor
 )
 {
 const
@@ -478,7 +469,6 @@ await
 beforeTest
 (
 inspector
-testActor
 )
 ;
 }
