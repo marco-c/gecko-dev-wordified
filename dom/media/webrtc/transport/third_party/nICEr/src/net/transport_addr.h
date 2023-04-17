@@ -377,14 +377,6 @@ IPPROTO_TCP
 IPPROTO_UDP
 *
 /
-struct
-sockaddr
-*
-addr
-;
-int
-addr_len
-;
 union
 {
 struct
