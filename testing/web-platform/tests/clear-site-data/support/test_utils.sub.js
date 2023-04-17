@@ -215,6 +215,7 @@ function
 (
 )
 {
+return
 !
 !
 window
