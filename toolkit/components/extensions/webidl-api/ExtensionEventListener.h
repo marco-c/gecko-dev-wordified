@@ -894,6 +894,15 @@ mAPIObjectType
 aCallOptions
 -
 >
+GetApiObjectPrepended
+(
+&
+mAPIObjectPrepended
+)
+;
+aCallOptions
+-
+>
 GetCallbackType
 (
 &
@@ -1072,6 +1081,9 @@ false
 Call
 Options
 .
+bool
+mAPIObjectPrepended
+;
 APIObjectType
 mAPIObjectType
 ;
