@@ -873,6 +873,14 @@ data
 {
             
 "
+action
+"
+:
+"
+process_output
+"
+            
+"
 process
 "
 :
@@ -902,9 +910,6 @@ _send_message
 (
 "
 log
-"
-"
-process_output
 "
 data
 )
