@@ -9567,7 +9567,7 @@ cs
 ;
 /
 /
-Widen
+Extend
 low
 /
 high
@@ -9594,7 +9594,7 @@ func
 (
 export
 "
-widen_low_i8x16_s
+extend_low_i8x16_s
 "
 )
 (
@@ -9610,7 +9610,7 @@ const
 (
 i16x8
 .
-widen_low_i8x16_s
+extend_low_i8x16_s
 (
 v128
 .
@@ -9630,7 +9630,7 @@ func
 (
 export
 "
-widen_high_i8x16_s
+extend_high_i8x16_s
 "
 )
 (
@@ -9646,7 +9646,7 @@ const
 (
 i16x8
 .
-widen_high_i8x16_s
+extend_high_i8x16_s
 (
 v128
 .
@@ -9666,7 +9666,7 @@ func
 (
 export
 "
-widen_low_i8x16_u
+extend_low_i8x16_u
 "
 )
 (
@@ -9682,7 +9682,7 @@ const
 (
 i16x8
 .
-widen_low_i8x16_u
+extend_low_i8x16_u
 (
 v128
 .
@@ -9702,7 +9702,7 @@ func
 (
 export
 "
-widen_high_i8x16_u
+extend_high_i8x16_u
 "
 )
 (
@@ -9718,7 +9718,7 @@ const
 (
 i16x8
 .
-widen_high_i8x16_u
+extend_high_i8x16_u
 (
 v128
 .
@@ -9738,7 +9738,7 @@ func
 (
 export
 "
-widen_low_i16x8_s
+extend_low_i16x8_s
 "
 )
 (
@@ -9754,7 +9754,7 @@ const
 (
 i32x4
 .
-widen_low_i16x8_s
+extend_low_i16x8_s
 (
 v128
 .
@@ -9774,7 +9774,7 @@ func
 (
 export
 "
-widen_high_i16x8_s
+extend_high_i16x8_s
 "
 )
 (
@@ -9790,7 +9790,7 @@ const
 (
 i32x4
 .
-widen_high_i16x8_s
+extend_high_i16x8_s
 (
 v128
 .
@@ -9810,7 +9810,7 @@ func
 (
 export
 "
-widen_low_i16x8_u
+extend_low_i16x8_u
 "
 )
 (
@@ -9826,7 +9826,7 @@ const
 (
 i32x4
 .
-widen_low_i16x8_u
+extend_low_i16x8_u
 (
 v128
 .
@@ -9846,7 +9846,7 @@ func
 (
 export
 "
-widen_high_i16x8_u
+extend_high_i16x8_u
 "
 )
 (
@@ -9862,7 +9862,7 @@ const
 (
 i32x4
 .
-widen_high_i16x8_u
+extend_high_i16x8_u
 (
 v128
 .
@@ -9958,7 +9958,7 @@ ins
 .
 exports
 .
-widen_low_i8x16_s
+extend_low_i8x16_s
 (
 )
 ;
@@ -9997,7 +9997,7 @@ ins
 .
 exports
 .
-widen_high_i8x16_s
+extend_high_i8x16_s
 (
 )
 ;
@@ -10038,7 +10038,7 @@ ins
 .
 exports
 .
-widen_low_i8x16_u
+extend_low_i8x16_u
 (
 )
 ;
@@ -10077,7 +10077,7 @@ ins
 .
 exports
 .
-widen_high_i8x16_u
+extend_high_i8x16_u
 (
 )
 ;
@@ -10118,7 +10118,7 @@ var
 mem32
 =
 new
-Int16Array
+Int32Array
 (
 ins
 .
@@ -10133,7 +10133,7 @@ var
 mem32u
 =
 new
-Uint16Array
+Uint32Array
 (
 ins
 .
@@ -10168,7 +10168,7 @@ x
 x
 <
 <
-16
+8
 )
 ;
 set
@@ -10182,7 +10182,7 @@ ins
 .
 exports
 .
-widen_low_i16x8_s
+extend_low_i16x8_s
 (
 )
 ;
@@ -10221,7 +10221,7 @@ ins
 .
 exports
 .
-widen_high_i16x8_s
+extend_high_i16x8_s
 (
 )
 ;
@@ -10262,7 +10262,7 @@ ins
 .
 exports
 .
-widen_low_i16x8_u
+extend_low_i16x8_u
 (
 )
 ;
@@ -10301,7 +10301,7 @@ ins
 .
 exports
 .
-widen_high_i16x8_u
+extend_high_i16x8_u
 (
 )
 ;
