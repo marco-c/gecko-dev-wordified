@@ -205,13 +205,14 @@ TextureView
 struct
 ScopedFfiRenderTraits
 {
-typedef
+using
+type
+=
 ffi
 :
 :
 WGPURenderPass
 *
-type
 ;
 static
 type

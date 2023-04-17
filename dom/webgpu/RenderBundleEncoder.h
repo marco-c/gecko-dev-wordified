@@ -152,13 +152,14 @@ RenderBundle
 struct
 ScopedFfiBundleTraits
 {
-typedef
+using
+type
+=
 ffi
 :
 :
 WGPURenderBundleEncoder
 *
-type
 ;
 static
 type
