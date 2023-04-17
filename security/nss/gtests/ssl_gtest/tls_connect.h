@@ -1119,7 +1119,7 @@ std
 :
 vector
 <
-uint32_t
+HpkeSymmetricSuite
 >
 &
 cipher_suites

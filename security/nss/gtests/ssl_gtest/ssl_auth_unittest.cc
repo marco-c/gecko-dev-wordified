@@ -4816,9 +4816,6 @@ ssl_auth_ecdsa
 )
 ;
 }
-#
-ifdef
-NSS_ENABLE_DRAFT_HPKE
 TEST_P
 (
 TlsConnectGeneric
@@ -4869,8 +4866,6 @@ ssl_auth_ecdsa
 )
 ;
 }
-#
-endif
 TEST_P
 (
 TlsConnectGeneric

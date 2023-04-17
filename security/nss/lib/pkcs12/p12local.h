@@ -288,6 +288,14 @@ SECOidTag
 algtag
 )
 ;
+extern
+CK_MECHANISM_TYPE
+sec_pkcs12_algtag_to_keygen_mech
+(
+SECOidTag
+algtag
+)
+;
 /
 *
 create

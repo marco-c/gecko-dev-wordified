@@ -433,9 +433,6 @@ int
 len
 )
 ;
-#
-ifdef
-HAVE_EPV_TEMPLATE
 /
 *
 Dump
@@ -462,8 +459,6 @@ int
 level
 )
 ;
-#
-endif
 /
 *
 Init
