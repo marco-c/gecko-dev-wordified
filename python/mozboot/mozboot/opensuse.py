@@ -299,13 +299,33 @@ install_browser_packages
 (
 self
 mozconfig_builder
+artifact_mode
+=
+False
 )
 :
         
+#
+TODO
+:
+Figure
+out
+what
+not
+to
+install
+for
+artifact
+mode
+        
 self
 .
-ensure_browser_packages
+zypper_install
 (
+*
+self
+.
+BROWSER_PACKAGES
 )
     
 def
@@ -331,8 +351,9 @@ mozconfig_builder
         
 self
 .
-ensure_browser_packages
+install_browser_packages
 (
+mozconfig_builder
 artifact_mode
 =
 True
@@ -423,39 +444,6 @@ LINUX_CLANG_TIDY
 )
     
 def
-ensure_browser_packages
-(
-self
-artifact_mode
-=
-False
-)
-:
-        
-#
-TODO
-:
-Figure
-out
-what
-not
-to
-install
-for
-artifact
-mode
-        
-self
-.
-zypper_install
-(
-*
-self
-.
-BROWSER_PACKAGES
-)
-    
-def
 ensure_browser_group_packages
 (
 self
@@ -492,6 +480,7 @@ def
 install_mobile_android_packages
 (
 self
+mozconfig_builder
 artifact_mode
 =
 False
@@ -648,9 +637,12 @@ super
 .
 install_mobile_android_packages
 (
+            
+mozconfig_builder
 artifact_mode
 =
 artifact_mode
+        
 )
     
 def

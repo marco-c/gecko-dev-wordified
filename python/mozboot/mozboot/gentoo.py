@@ -127,37 +127,6 @@ ensure_system_packages
 )
     
 def
-install_browser_packages
-(
-self
-mozconfig_builder
-)
-:
-        
-self
-.
-ensure_browser_packages
-(
-)
-    
-def
-install_browser_artifact_mode_packages
-(
-self
-mozconfig_builder
-)
-:
-        
-self
-.
-ensure_browser_packages
-(
-artifact_mode
-=
-True
-)
-    
-def
 ensure_system_packages
 (
 self
@@ -193,9 +162,10 @@ zip
 )
     
 def
-ensure_browser_packages
+install_browser_packages
 (
 self
+mozconfig_builder
 artifact_mode
 =
 False
@@ -292,6 +262,24 @@ libXt
 )
     
 def
+install_browser_artifact_mode_packages
+(
+self
+mozconfig_builder
+)
+:
+        
+self
+.
+install_browser_packages
+(
+mozconfig_builder
+artifact_mode
+=
+True
+)
+    
+def
 install_mobile_android_packages
 (
 self
@@ -345,9 +333,12 @@ super
 .
 install_mobile_android_packages
 (
+            
+mozconfig_builder
 artifact_mode
 =
 artifact_mode
+        
 )
     
 def

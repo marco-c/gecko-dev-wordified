@@ -366,36 +366,6 @@ install_browser_packages
 (
 self
 mozconfig_builder
-)
-:
-        
-self
-.
-ensure_browser_packages
-(
-)
-    
-def
-install_browser_artifact_mode_packages
-(
-self
-mozconfig_builder
-)
-:
-        
-self
-.
-ensure_browser_packages
-(
-artifact_mode
-=
-True
-)
-    
-def
-ensure_browser_packages
-(
-self
 artifact_mode
 =
 False
@@ -413,6 +383,24 @@ BROWSER_PACKAGES
 )
     
 def
+install_browser_artifact_mode_packages
+(
+self
+mozconfig_builder
+)
+:
+        
+self
+.
+install_browser_packages
+(
+mozconfig_builder
+artifact_mode
+=
+True
+)
+    
+def
 ensure_nasm_packages
 (
 self
@@ -424,7 +412,7 @@ checkout_root
 #
 installed
 via
-ensure_browser_packages
+install_browser_packages
         
 pass
     
@@ -493,9 +481,12 @@ super
 .
 install_mobile_android_packages
 (
+            
+mozconfig_builder
 artifact_mode
 =
 artifact_mode
+        
 )
     
 def
