@@ -866,6 +866,17 @@ jsid
 aId
 )
 ;
+static
+bool
+IsSuccessfulRequest
+(
+nsIRequest
+*
+nsresult
+*
+aStatus
+)
+;
 /
 /
 Helper

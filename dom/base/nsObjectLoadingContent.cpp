@@ -1797,8 +1797,10 @@ functions
 /
 /
 /
-static
 bool
+nsObjectLoadingContent
+:
+:
 IsSuccessfulRequest
 (
 nsIRequest
