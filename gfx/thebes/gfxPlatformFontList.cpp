@@ -3299,7 +3299,9 @@ n
 }
 if
 (
-mFontlistInitCount
+IsInitialized
+(
+)
 )
 {
 /
