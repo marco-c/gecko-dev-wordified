@@ -2199,6 +2199,7 @@ HTMLEditUtils
 :
 IsPre
 (
+const
 nsINode
 *
 aNode

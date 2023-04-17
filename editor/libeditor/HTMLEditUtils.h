@@ -1059,6 +1059,7 @@ static
 bool
 IsPre
 (
+const
 nsINode
 *
 aNode
