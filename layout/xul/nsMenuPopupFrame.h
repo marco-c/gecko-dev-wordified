@@ -1984,6 +1984,11 @@ mTriggerContent
 nullptr
 ;
 }
+void
+ClearTriggerContentIncludingDocument
+(
+)
+;
 /
 /
 returns
