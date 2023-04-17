@@ -926,6 +926,7 @@ test_platforms
 test_platform
 ]
 [
+                        
 "
 build
 -
@@ -933,6 +934,7 @@ signing
 -
 label
 "
+                    
 ]
 =
 "
@@ -961,6 +963,7 @@ test_platforms
 test_platform
 ]
 [
+                            
 "
 build
 -
@@ -968,6 +971,7 @@ signing
 -
 label
 "
+                        
 ]
 =
 "
@@ -986,6 +990,7 @@ test_platforms
 test_platform
 ]
 [
+                            
 "
 build
 -
@@ -993,6 +998,7 @@ signing
 -
 label
 "
+                        
 ]
 =
 "
