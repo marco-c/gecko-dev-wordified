@@ -909,8 +909,10 @@ PLayerTransaction
 .
 *
 /
+[
+RefCounted
+]
 sync
-refcounted
 protocol
 PCompositorBridge
 {

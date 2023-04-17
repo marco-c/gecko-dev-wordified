@@ -193,8 +193,10 @@ drawing
 .
 *
 /
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PCanvas
 {

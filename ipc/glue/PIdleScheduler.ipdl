@@ -397,8 +397,10 @@ queue
 .
 *
 /
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PIdleScheduler
 {

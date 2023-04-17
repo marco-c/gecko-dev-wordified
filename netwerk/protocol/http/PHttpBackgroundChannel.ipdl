@@ -229,8 +229,10 @@ net
 -
 -
 -
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PHttpBackgroundChannel
 {

@@ -132,8 +132,10 @@ mozilla
 namespace
 gmp
 {
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PChromiumCDM
 {

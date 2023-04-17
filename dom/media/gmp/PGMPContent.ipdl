@@ -135,8 +135,10 @@ mozilla
 namespace
 gmp
 {
+[
+RefCounted
+]
 intr
-refcounted
 protocol
 PGMPContent
 {

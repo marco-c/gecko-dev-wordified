@@ -422,8 +422,10 @@ actors
 .
 *
 /
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PBrowserBridge
 {

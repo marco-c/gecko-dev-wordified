@@ -533,8 +533,10 @@ process
 .
 *
 /
+[
+RefCounted
+]
 async
-refcounted
 protocol
 PWindowGlobal
 {
