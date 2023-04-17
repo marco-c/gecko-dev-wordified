@@ -4301,7 +4301,7 @@ top
 ;
 if
 (
-gProtonInfobarsEnabled
+gProton
 )
 {
 element
@@ -5875,7 +5875,7 @@ _appendStatusPanel
 ;
 if
 (
-gProtonInfobarsEnabled
+gProton
 )
 {
 this
