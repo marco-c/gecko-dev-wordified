@@ -148,11 +148,6 @@ mozilla
 :
 AsyncLogger
 gAudioCallbackTraceLogger
-(
-"
-AudioCallbackTracing
-"
-)
 ;
 static
 std
