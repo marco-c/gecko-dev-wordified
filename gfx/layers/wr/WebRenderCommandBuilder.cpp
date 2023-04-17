@@ -12084,9 +12084,6 @@ GetRootMetadata
 (
 aDisplayListBuilder
 mManager
-ContainerLayerParameters
-(
-)
 callback
 )
 ;
