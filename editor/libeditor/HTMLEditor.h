@@ -7062,6 +7062,8 @@ const
 nsAString
 &
 aInsertionString
+SelectionHandling
+aSelectionHandling
 )
 final
 ;
