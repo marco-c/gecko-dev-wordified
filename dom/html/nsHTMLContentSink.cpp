@@ -4623,11 +4623,6 @@ NotifyRootInsertion
 )
 ;
 }
-ProcessOfflineManifest
-(
-mRoot
-)
-;
 }
 break
 ;
