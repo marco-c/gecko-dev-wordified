@@ -153,6 +153,9 @@ protocol
 qrcode
 "
 "
+resources
+"
+"
 security
 "
 "

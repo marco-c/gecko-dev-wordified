@@ -394,7 +394,7 @@ the
 actor
 manually
 because
-ResourceCommand
+ResourceWatcher
 doesn
 '
 t
@@ -549,7 +549,7 @@ NOTE
 :
 the
 resource
-command
+watcher
 needs
 this
 attribute

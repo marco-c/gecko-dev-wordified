@@ -43,7 +43,7 @@ resources
 that
 happend
 before
-ResourceCommand
+ResourceWatcher
 addeed
 listeners
 .

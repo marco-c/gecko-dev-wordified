@@ -289,13 +289,13 @@ commands
 this
 .
 commands
-resourceCommand
+resourceWatcher
 :
 this
 .
 toolbox
 .
-resourceCommand
+resourceWatcher
 devToolsClient
 :
 this

@@ -363,7 +363,7 @@ bootstrap
 (
 {
 commands
-resourceCommand
+resourceWatcher
 workers
 :
 panelWorkers
@@ -416,7 +416,7 @@ firefox
 onConnect
 (
 commands
-resourceCommand
+resourceWatcher
 actions
 store
 )

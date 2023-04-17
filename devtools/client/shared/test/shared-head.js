@@ -8204,12 +8204,12 @@ resourceType
 *
 param
 {
-ResourceCommand
+ResourceWatcher
 }
-resourceCommand
+resourceWatcher
 *
 The
-ResourceCommand
+ResourceWatcher
 instance
 that
 should
@@ -8227,7 +8227,7 @@ resourceType
 *
 One
 of
-ResourceCommand
+ResourceWatcher
 .
 TYPES
 type
@@ -8310,7 +8310,7 @@ resource
 function
 waitForNextResource
 (
-resourceCommand
+resourceWatcher
 resourceType
 {
 ignoreExistingResources
@@ -8398,7 +8398,7 @@ resolve
 matchingResource
 )
 ;
-resourceCommand
+resourceWatcher
 .
 unwatchResources
 (
@@ -8413,7 +8413,7 @@ onAvailable
 }
 }
 ;
-resourceCommand
+resourceWatcher
 .
 watchResources
 (

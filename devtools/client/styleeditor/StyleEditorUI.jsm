@@ -1053,7 +1053,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 watchResources
 (
@@ -1062,7 +1062,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1088,7 +1088,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 watchResources
 (
@@ -1097,7 +1097,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -1745,7 +1745,7 @@ same
 stylesheet
 resources
 from
-ResourceCommand
+ResourceWatcher
 but
 _addStyleSheet
 will
@@ -1783,7 +1783,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 getAllResources
 (
@@ -1791,7 +1791,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -2087,7 +2087,7 @@ is
 received
 from
 resource
-command
+watcher
 .
 *
 return
@@ -2611,7 +2611,7 @@ is
 received
 from
 resource
-command
+watcher
 .
 *
 return
@@ -7283,7 +7283,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -7643,7 +7643,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -7845,7 +7845,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 unwatchResources
 (
@@ -7854,7 +7854,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .
@@ -7863,7 +7863,7 @@ this
 .
 _toolbox
 .
-resourceCommand
+resourceWatcher
 .
 TYPES
 .

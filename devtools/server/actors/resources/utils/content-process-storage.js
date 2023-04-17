@@ -415,7 +415,7 @@ the
 actor
 manually
 because
-ResourceCommand
+ResourceWatcher
 doesn
 '
 t

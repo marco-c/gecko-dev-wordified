@@ -20647,7 +20647,7 @@ been
 replaced
 by
 the
-ResourceCommand
+ResourceWatcher
 API
 *
 which

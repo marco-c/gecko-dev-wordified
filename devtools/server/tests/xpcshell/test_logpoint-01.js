@@ -167,7 +167,7 @@ migrate
 this
 test
 to
-ResourceCommand
+ResourceWatcher
 so
 that
 /

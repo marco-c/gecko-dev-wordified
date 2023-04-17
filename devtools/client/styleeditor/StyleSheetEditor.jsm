@@ -553,7 +553,7 @@ is
 received
 from
 resource
-command
+watcher
 .
 *
 param
