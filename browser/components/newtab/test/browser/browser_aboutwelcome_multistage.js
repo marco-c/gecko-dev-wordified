@@ -2293,7 +2293,7 @@ primary
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4472,7 +4472,7 @@ openAboutWelcome
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
