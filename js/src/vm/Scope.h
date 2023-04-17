@@ -3950,6 +3950,10 @@ frontend
 :
 ScopeStencil
 ;
+friend
+class
+AbstractScopePtr
+;
 static
 const
 ScopeKind
