@@ -363,7 +363,7 @@ sqlite
 installPackage
 (
 "
-caching_groupMismatch_profile
+groupMismatch_profile
 "
 )
 ;
