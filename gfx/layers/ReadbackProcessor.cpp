@@ -688,7 +688,7 @@ GetEffectiveOpacity
 l
 -
 >
-HasMaskLayers
+GetMaskLayer
 (
 )
 |
