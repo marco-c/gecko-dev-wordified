@@ -3461,6 +3461,7 @@ IsEncrypted
 (
 )
 const
+override
 {
 return
 mIsEncrypted
