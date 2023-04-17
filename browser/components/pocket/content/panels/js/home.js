@@ -4,9 +4,6 @@ global
 Handlebars
 :
 false
-thePKT_PANEL
-:
-false
 *
 /
 /
@@ -142,7 +139,7 @@ preventDefault
 (
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -770,7 +767,7 @@ we
 '
 re
 ready
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (

@@ -4,9 +4,6 @@ global
 Handlebars
 :
 false
-thePKT_PANEL
-:
-false
 *
 /
 /
@@ -273,7 +270,7 @@ function
 (
 )
 {
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -373,7 +370,7 @@ display
 =
 block
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -570,7 +567,7 @@ function
 (
 )
 {
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -2395,7 +2392,7 @@ text
 }
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -2621,7 +2618,7 @@ remove
 "
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -2760,7 +2757,7 @@ preventDefault
 (
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -3579,7 +3576,7 @@ preventDefault
 (
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -3639,7 +3636,7 @@ preventDefault
 (
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
@@ -4425,7 +4422,7 @@ to
 final
 saved
 state
-thePKT_PANEL
+pktPanelMessaging
 .
 addMessageListener
 (
@@ -4523,7 +4520,7 @@ data
 }
 )
 ;
-thePKT_PANEL
+pktPanelMessaging
 .
 addMessageListener
 (
@@ -4561,7 +4558,7 @@ we
 '
 re
 ready
-thePKT_PANEL
+pktPanelMessaging
 .
 sendMessage
 (
