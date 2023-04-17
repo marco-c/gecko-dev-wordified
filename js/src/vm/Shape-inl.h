@@ -2151,8 +2151,7 @@ static
 *
 /
 MOZ_ALWAYS_INLINE
-Shape
-*
+bool
 NativeObject
 :
 :
@@ -2169,6 +2168,9 @@ uint32_t
 slot
 unsigned
 attrs
+uint32_t
+*
+slotOut
 )
 {
 MOZ_ASSERT
@@ -2262,7 +2264,7 @@ table
 )
 {
 return
-nullptr
+false
 ;
 }
 entry
@@ -2295,6 +2297,7 @@ attrs
 table
 entry
 keep
+slotOut
 )
 ;
 }
