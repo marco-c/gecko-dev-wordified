@@ -638,7 +638,7 @@ prio
 nsIRunnablePriority
 :
 :
-PRIORITY_HIGH
+PRIORITY_VSYNC
 )
 {
 aPriority
@@ -646,7 +646,7 @@ aPriority
 EventQueuePriority
 :
 :
-High
+Vsync
 ;
 }
 else

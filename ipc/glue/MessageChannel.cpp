@@ -13077,12 +13077,12 @@ case
 Message
 :
 :
-HIGH_PRIORITY
+VSYNC_PRIORITY
 :
 *
 aPriority
 =
-PRIORITY_HIGH
+PRIORITY_VSYNC
 ;
 break
 ;

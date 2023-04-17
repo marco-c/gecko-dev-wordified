@@ -241,7 +241,7 @@ PRIORITY_INPUT_HIGH
 const
 unsigned
 short
-PRIORITY_HIGH
+PRIORITY_VSYNC
 =
 6
 ;
