@@ -1630,8 +1630,8 @@ tByteSize
 )
 s
 (
-TN
-TN
+TA
+TA
 )
 )
 ;
@@ -1910,8 +1910,8 @@ nByteSize
 )
 s
 (
-TN
-TN
+TA
+TA
 )
 )
 ;
