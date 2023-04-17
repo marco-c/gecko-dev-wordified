@@ -2658,6 +2658,7 @@ ContentPermissionRequestBase
 CheckPermissionDelegate
 (
 )
+const
 {
 /
 /

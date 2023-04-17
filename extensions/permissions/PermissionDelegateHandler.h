@@ -470,6 +470,7 @@ nsACString
 &
 aType
 )
+const
 ;
 /
 *
