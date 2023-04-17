@@ -184,6 +184,11 @@ Printer
 .
 h
 "
+enum
+JSValueType
+:
+uint8_t
+;
 namespace
 js
 {
@@ -1214,6 +1219,15 @@ EnableIonDebugSyncLogging
 void
 EnableIonDebugAsyncLogging
 (
+)
+;
+const
+char
+*
+ValTypeToString
+(
+JSValueType
+type
 )
 ;
 #
