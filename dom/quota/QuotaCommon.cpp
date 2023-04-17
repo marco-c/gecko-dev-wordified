@@ -3123,7 +3123,7 @@ aSourceFilePath
 ;
 #
 ifdef
-DEBUG
+QM_LOG_ERROR_TO_CONSOLE_ENABLED
 NS_DebugBreak
 (
 NS_DEBUG_WARNING
@@ -3191,6 +3191,9 @@ aSourceFileLine
 ;
 #
 endif
+#
+ifdef
+QM_LOG_ERROR_TO_BROWSER_CONSOLE_ENABLED
 /
 /
 XXX
@@ -3419,6 +3422,11 @@ get
 ;
 }
 }
+#
+endif
+#
+ifdef
+QM_LOG_ERROR_TO_TELEMETRY_ENABLED
 if
 (
 !
@@ -3822,6 +3830,8 @@ extra
 )
 ;
 }
+#
+endif
 }
 #
 endif
