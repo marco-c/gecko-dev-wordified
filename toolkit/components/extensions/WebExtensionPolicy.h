@@ -1329,11 +1329,6 @@ mActive
 =
 false
 ;
-bool
-mAllowPrivateBrowsingByDefault
-=
-true
-;
 RefPtr
 <
 WebExtensionLocalizeCallback

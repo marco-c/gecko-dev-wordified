@@ -427,14 +427,6 @@ ignoreUnsigned
 "
 true
 ]
-[
-"
-extensions
-.
-allowPrivateBrowsingByDefault
-"
-false
-]
 ]
 }
 )
