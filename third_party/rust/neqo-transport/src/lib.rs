@@ -363,16 +363,6 @@ Ord
 Eq
 )
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-pub_enum_variant_names
-)
-]
 pub
 enum
 Error

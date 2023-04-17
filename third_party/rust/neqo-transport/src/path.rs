@@ -838,6 +838,7 @@ rtt
 (
 )
 )
+;
 }
 Rc
 :
@@ -1364,7 +1365,6 @@ self
 .
 is_temporary
 (
-&
 path
 )
 )
@@ -1552,7 +1552,6 @@ Rc
 :
 clone
 (
-&
 path
 )
 )
@@ -1573,7 +1572,6 @@ self
 .
 select_primary
 (
-&
 path
 )
 .

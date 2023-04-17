@@ -1193,6 +1193,7 @@ point
 .
 "
 )
+;
 }
 }
 Ok
@@ -1307,6 +1308,7 @@ decode_instruction_type
 recv
 )
 ?
+;
 }
 EncoderInstructionReaderState
 :

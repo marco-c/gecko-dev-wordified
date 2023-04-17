@@ -268,7 +268,6 @@ stream_type
 u64
 role
 :
-&
 Role
 )
 -
@@ -952,6 +951,7 @@ NewStreamType
 final_stream_type
 (
 output
+*
 role
 )
 ;
@@ -1003,8 +1003,9 @@ NewStreamHeadReader
 Done
 ;
 return
-self
-.
+Self
+:
+:
 map_stream_fin
 (
 *
@@ -1187,6 +1188,7 @@ NewStreamHeadReader
 Done
 "
 )
+;
 }
 }
 }
@@ -1194,8 +1196,6 @@ Done
 fn
 map_stream_fin
 (
-&
-self
 decoded
 :
 Option
@@ -1378,16 +1378,10 @@ ReceiveOutput
 :
 :
 NoOutput
-|
-t
-|
 ReceiveOutput
 :
 :
 NewStream
-(
-t
-)
 )
 )
 }
@@ -1669,6 +1663,7 @@ fin
 bool
 outcome
 :
+&
 Res
 <
 ReceiveOutput
@@ -1884,6 +1879,7 @@ now
 assert_eq
 !
 (
+&
 self
 .
 decoder
@@ -1930,6 +1926,7 @@ fin
 bool
 outcome
 :
+&
 Res
 <
 ReceiveOutput
@@ -2014,6 +2011,7 @@ decode
 QPACK_UNI_STREAM_TYPE_DECODER
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2064,6 +2062,7 @@ decode
 QPACK_UNI_STREAM_TYPE_ENCODER
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2114,6 +2113,7 @@ decode
 HTTP3_UNI_STREAM_TYPE_CONTROL
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2165,6 +2165,7 @@ HTTP3_UNI_STREAM_TYPE_PUSH
 0xaaaa_aaaa
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2208,6 +2209,7 @@ decode
 HTTP3_UNI_STREAM_TYPE_PUSH
 ]
 false
+&
 Err
 (
 Error
@@ -2252,6 +2254,7 @@ decode
 0x3fff_ffff_ffff_ffff
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2302,6 +2305,7 @@ decode
 0x3fff
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2341,6 +2345,7 @@ decode
 QPACK_UNI_STREAM_TYPE_DECODER
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2385,6 +2390,7 @@ decode_buffer
 0xff
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2458,6 +2464,7 @@ decode
 QPACK_UNI_STREAM_TYPE_DECODER
 ]
 false
+&
 Ok
 (
 ReceiveOutput
@@ -2502,6 +2509,7 @@ decode
 QPACK_UNI_STREAM_TYPE_DECODER
 ]
 true
+&
 Err
 (
 Error
@@ -2546,6 +2554,7 @@ decode
 QPACK_UNI_STREAM_TYPE_ENCODER
 ]
 true
+&
 Err
 (
 Error
@@ -2590,6 +2599,7 @@ decode
 HTTP3_UNI_STREAM_TYPE_CONTROL
 ]
 true
+&
 Err
 (
 Error
@@ -2635,6 +2645,7 @@ HTTP3_UNI_STREAM_TYPE_PUSH
 0xaaaa_aaaa
 ]
 true
+&
 Err
 (
 Error
@@ -2669,6 +2680,7 @@ decode
 HTTP3_UNI_STREAM_TYPE_PUSH
 ]
 true
+&
 Err
 (
 Error
@@ -2713,6 +2725,7 @@ decode
 0x3fff_ffff_ffff_ffff
 ]
 true
+&
 Ok
 (
 ReceiveOutput
@@ -2790,6 +2803,7 @@ decode_buffer
 7
 ]
 true
+&
 Err
 (
 Error

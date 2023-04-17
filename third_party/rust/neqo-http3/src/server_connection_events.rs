@@ -505,6 +505,7 @@ f
 evt
 )
 )
+;
 }
 pub
 fn
@@ -608,6 +609,7 @@ stream_id
 priority
 }
 )
+;
 }
 pub
 fn

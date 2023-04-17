@@ -3626,7 +3626,6 @@ cur
 .
 acknowledged
 (
-&
 ack
 )
 ;

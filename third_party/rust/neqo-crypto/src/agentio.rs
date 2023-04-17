@@ -1268,8 +1268,8 @@ nspr
 PR_WOULD_BLOCK_ERROR
 0
 )
-}
 ;
+}
 return
 Err
 (
@@ -1339,7 +1339,6 @@ dst
 .
 copy_from_slice
 (
-&
 src
 )
 ;

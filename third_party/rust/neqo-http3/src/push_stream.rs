@@ -599,8 +599,6 @@ Res
 ReceiveOutput
 >
 {
-loop
-{
 self
 .
 response
@@ -636,7 +634,6 @@ push_id
 )
 ;
 }
-return
 Ok
 (
 ReceiveOutput
@@ -644,8 +641,6 @@ ReceiveOutput
 :
 NoOutput
 )
-;
-}
 }
 fn
 done

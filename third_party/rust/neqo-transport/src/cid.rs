@@ -1220,7 +1220,6 @@ Self
 :
 Target
 {
-&
 self
 .
 cid

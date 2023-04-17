@@ -1321,6 +1321,7 @@ self
 .
 stream_id
 )
+;
 }
 }
 _
@@ -1492,6 +1493,7 @@ stream_id
 headers
 )
 ?
+;
 }
 else
 {
@@ -1737,6 +1739,7 @@ header_block
 fin
 )
 ?
+;
 }
 HFrame
 :
@@ -2204,18 +2207,6 @@ status
 [
 allow
 (
-unknown_lints
-renamed_and_removed_lints
-clippy
-:
-:
-unknown_clippy_lints
-)
-]
-#
-[
-allow
-(
 clippy
 :
 :
@@ -2534,7 +2525,6 @@ Self
 :
 track_pseudo
 (
-&
 header
 .
 name

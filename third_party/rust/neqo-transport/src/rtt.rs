@@ -265,6 +265,10 @@ using
 lower
 value
 .
+pub
+(
+crate
+)
 const
 INITIAL_RTT
 :
@@ -434,6 +438,7 @@ init
 (
 rtt
 )
+;
 }
 }
 /
@@ -916,6 +921,7 @@ ack_delay
 max
 (
 )
+;
 }
 t
 }
@@ -1042,13 +1048,6 @@ self
 .
 latest_rtt
 }
-#
-[
-cfg
-(
-test
-)
-]
 pub
 fn
 rttvar

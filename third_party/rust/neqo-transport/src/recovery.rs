@@ -2613,12 +2613,6 @@ clippy
 :
 :
 option_if_let_else
-unknown_lints
-renamed_and_removed_lints
-clippy
-:
-:
-unknown_clippy_lints
 )
 ]
 /
@@ -6690,12 +6684,6 @@ clippy
 :
 :
 option_if_let_else
-unknown_lints
-renamed_and_removed_lints
-clippy
-:
-:
-unknown_clippy_lints
 )
 ]
 pub
@@ -7349,6 +7337,7 @@ self
 path
 sent_packet
 )
+;
 }
 pub
 fn
@@ -7443,6 +7432,7 @@ path
 space
 now
 )
+;
 }
 pub
 fn
@@ -9003,7 +8993,6 @@ Fixture
 {
 assert_rtts
 (
-&
 lr
 TEST_RTT
 TEST_RTT
@@ -9013,7 +9002,6 @@ TEST_RTT
 ;
 assert_no_sent_times
 (
-&
 lr
 )
 ;

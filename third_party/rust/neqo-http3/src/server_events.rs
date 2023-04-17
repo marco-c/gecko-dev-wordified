@@ -1124,5 +1124,6 @@ stream_id
 priority
 }
 )
+;
 }
 }

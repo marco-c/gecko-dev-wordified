@@ -6211,6 +6211,7 @@ Error
 :
 InvalidMigration
 )
+;
 }
 ;
 /
