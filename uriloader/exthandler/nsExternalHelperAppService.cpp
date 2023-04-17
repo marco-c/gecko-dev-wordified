@@ -10375,11 +10375,15 @@ aBrowsingContextId
 aBrowsingContextId
 =
 mBrowsingContext
+?
+mBrowsingContext
 -
 >
 Id
 (
 )
+:
+0
 ;
 return
 NS_OK
