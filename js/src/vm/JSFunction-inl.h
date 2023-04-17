@@ -266,8 +266,6 @@ HandleObject
 enclosingEnv
 HandleObject
 proto
-=
-nullptr
 )
 {
 /
