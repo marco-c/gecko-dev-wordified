@@ -48252,7 +48252,7 @@ nsIFrame
 *
 parent
 =
-GetCrossDocParentFrame
+GetCrossDocParentFrameInProcess
 (
 f
 )
