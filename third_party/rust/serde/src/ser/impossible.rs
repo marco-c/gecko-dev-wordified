@@ -145,10 +145,10 @@ use
 serde
 :
 :
-private
+__private
 :
 :
-ser
+doc
 :
 :
 Error
