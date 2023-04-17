@@ -32183,6 +32183,17 @@ commandData
 IsPasteCommand
 (
 )
+|
+|
+commandData
+.
+mCommand
+=
+=
+Command
+:
+:
+SelectAll
 )
 ;
 nsresult
