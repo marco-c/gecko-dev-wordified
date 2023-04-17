@@ -8242,7 +8242,7 @@ IsPaintingToWindow
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 mBuilder
 -
@@ -19278,7 +19278,7 @@ MOZ_ASSERT
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 mTree
 .
@@ -20601,7 +20601,7 @@ MOZ_ASSERT
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 *
 ancestorThatIsChildOfCommonAncestor
