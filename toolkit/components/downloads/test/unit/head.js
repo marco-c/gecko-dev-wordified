@@ -2091,6 +2091,7 @@ Ci
 nsITransfer
 .
 DOWNLOAD_ACCEPTABLE
+null
 )
 ;
 persist

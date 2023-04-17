@@ -2788,6 +2788,9 @@ Ci
 nsITransfer
 .
 DOWNLOAD_ACCEPTABLE
+persistArgs
+.
+sourceReferrerInfo
 )
 ;
 persist
