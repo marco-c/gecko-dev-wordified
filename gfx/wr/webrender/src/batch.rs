@@ -16972,7 +16972,12 @@ into_transform
 )
 &
 local_clip_rect
+&
 world_rect
+.
+to_rect
+(
+)
 )
 {
 Some
@@ -17715,6 +17720,10 @@ WorldRect
 :
 :
 max_rect
+(
+)
+.
+to_rect
 (
 )
 spatial_tree

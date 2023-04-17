@@ -9138,6 +9138,10 @@ map
 pic_clip_rect
 )
 ?
+.
+to_box2d
+(
+)
 ;
 /
 /
@@ -12468,7 +12472,12 @@ project_rect
 transform
 &
 clip_rect
+&
 world_rect
+.
+to_rect
+(
+)
 )
 {
 Some
@@ -12478,6 +12487,10 @@ outer_clip_rect
 =
 >
 outer_clip_rect
+.
+to_box2d
+(
+)
 None
 =
 >
@@ -14138,7 +14151,9 @@ target_points
 [
 target_rect
 .
-origin
+top_left
+(
+)
 target_rect
 .
 top_right
@@ -14918,6 +14933,10 @@ rect
 10
 .
 0
+)
+.
+to_box2d
+(
 )
 )
 "
