@@ -2427,6 +2427,9 @@ LayoutRect
 radius
 :
 LayoutSize
+end_offset
+:
+f32
 extend_mode
 :
 ExtendMode
@@ -2517,6 +2520,8 @@ radius
 to_vector
 (
 )
+*
+end_offset
 ;
 let
 max
@@ -2536,6 +2541,8 @@ radius
 to_vector
 (
 )
+*
+end_offset
 ;
 /
 /

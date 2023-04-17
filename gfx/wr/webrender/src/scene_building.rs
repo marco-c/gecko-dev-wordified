@@ -7232,6 +7232,11 @@ info
 .
 gradient
 .
+end_offset
+info
+.
+gradient
+.
 extend_mode
 &
 stops
