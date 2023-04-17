@@ -93,6 +93,8 @@ relativize_datestamps
     
 create_task_from_def
     
+get_downstream_browsertime_tasks
+    
 get_tasks_with_downstream
     
 rename_browsertime_vismet_task
@@ -1024,7 +1026,7 @@ name
 "
 ]
     
-force_downstream
+is_browsertime
 =
 "
 browsertime
@@ -1128,9 +1130,27 @@ downstream
 "
 )
 or
-force_downstream
+is_browsertime
 :
         
+if
+is_browsertime
+:
+            
+to_run
+=
+get_downstream_browsertime_tasks
+(
+                
+to_run
+full_task_graph
+label_to_taskid
+            
+)
+        
+else
+:
+            
 to_run
 =
 get_tasks_with_downstream
@@ -1925,7 +1945,7 @@ extend
 list
 (
                     
-get_tasks_with_downstream
+get_downstream_browsertime_tasks
 (
                         
 browsertime_tasks
