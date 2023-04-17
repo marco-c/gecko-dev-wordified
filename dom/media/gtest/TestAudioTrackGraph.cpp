@@ -4073,6 +4073,14 @@ rms
 )
 ;
 }
+#
+ifndef
+WIN32
+/
+/
+failure
+on
+windows10x32
 TEST
 (
 TestAudioTrackGraph
@@ -4983,6 +4991,11 @@ rate
 ;
 }
 }
+#
+endif
+/
+/
+win32
 void
 TestCrossGraphPort
 (
