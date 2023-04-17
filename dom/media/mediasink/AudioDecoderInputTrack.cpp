@@ -70,6 +70,15 @@ MediaData
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ScopeExit
+.
+h
+"
 namespace
 mozilla
 {
