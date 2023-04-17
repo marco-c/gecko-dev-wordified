@@ -111,11 +111,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-log
+Log
 .
-js
+jsm
 "
 }
 )
@@ -136,6 +136,11 @@ Log
 .
 get
 (
+Log
+.
+TYPES
+.
+MARIONETTE
 )
 )
 ;

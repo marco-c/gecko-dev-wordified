@@ -200,11 +200,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-log
+Log
 .
-js
+jsm
 "
 MessageManagerDestroyedPromise
 :
@@ -295,6 +295,11 @@ Log
 .
 get
 (
+Log
+.
+TYPES
+.
+MARIONETTE
 )
 )
 ;

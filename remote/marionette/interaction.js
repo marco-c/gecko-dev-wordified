@@ -225,11 +225,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-log
+Log
 .
-js
+jsm
 "
 pprint
 :
@@ -296,6 +296,11 @@ Log
 .
 get
 (
+Log
+.
+TYPES
+.
+MARIONETTE
 )
 )
 ;

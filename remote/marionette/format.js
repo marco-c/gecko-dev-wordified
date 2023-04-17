@@ -114,11 +114,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-log
+Log
 .
-js
+jsm
 "
 MarionettePrefs
 :
@@ -156,6 +156,11 @@ Log
 .
 get
 (
+Log
+.
+TYPES
+.
+MARIONETTE
 )
 )
 ;

@@ -179,11 +179,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-log
+Log
 .
-js
+jsm
 "
 waitForEvent
 :
@@ -238,6 +238,11 @@ Log
 .
 get
 (
+Log
+.
+TYPES
+.
+MARIONETTE
 )
 )
 ;
