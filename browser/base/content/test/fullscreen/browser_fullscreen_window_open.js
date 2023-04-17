@@ -202,6 +202,7 @@ jsWindowOpen
 tab
 .
 linkedBrowser
+true
 iframeID
 )
 ;
