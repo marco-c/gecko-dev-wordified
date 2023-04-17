@@ -618,11 +618,7 @@ args
 /
 Disabled
 by
-.
-*
-?
-runtime
-option
+linker
 /
 )
 ;
