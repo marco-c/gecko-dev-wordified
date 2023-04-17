@@ -8499,6 +8499,9 @@ aDestRegion
 IntPoint
 *
 aSrcOffset
+IntPoint
+*
+aDstOffset
 )
 {
 /
@@ -8536,6 +8539,12 @@ MOZ_ASSERT
 (
 !
 aSrcOffset
+)
+;
+MOZ_RELEASE_ASSERT
+(
+!
+aDstOffset
 )
 ;
 MOZ_ASSERT

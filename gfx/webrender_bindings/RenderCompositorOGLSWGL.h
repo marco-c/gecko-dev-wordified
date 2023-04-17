@@ -562,6 +562,15 @@ DataSourceSurface
 >
 mSurface
 ;
+RefPtr
+<
+gfx
+:
+:
+DataSourceSurface
+>
+mSubSurface
+;
 GLuint
 mPBO
 =
