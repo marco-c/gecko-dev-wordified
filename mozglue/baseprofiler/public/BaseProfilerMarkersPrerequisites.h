@@ -226,9 +226,6 @@ overhead
 ;
 }
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 BaseProfilingCategory
@@ -6448,11 +6445,6 @@ mData
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /

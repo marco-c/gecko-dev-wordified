@@ -149,9 +149,6 @@ BaseProfilerMarkersPrerequisites
 .
 h
 "
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 ~
@@ -5615,11 +5612,6 @@ options
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /

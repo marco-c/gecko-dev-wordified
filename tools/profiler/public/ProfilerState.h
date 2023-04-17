@@ -1441,6 +1441,16 @@ false
 ;
 }
 inline
+int
+profiler_current_thread_id
+(
+)
+{
+return
+0
+;
+}
+inline
 void
 profiler_add_state_change_callback
 (

@@ -260,9 +260,6 @@ ProfilerMarkers
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 js
@@ -355,11 +352,6 @@ geckoprofiler
 :
 :
 markers
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /

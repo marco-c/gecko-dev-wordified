@@ -291,9 +291,6 @@ BaseProfilerMarkers
 .
 h
 "
-#
-ifdef
-MOZ_GECKO_PROFILER
 namespace
 mozilla
 :
@@ -518,11 +515,6 @@ baseprofiler
 :
 :
 markers
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 #
 endif
 /
