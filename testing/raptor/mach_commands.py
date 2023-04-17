@@ -1040,6 +1040,15 @@ os
 symlink
 "
 )
+and
+os
+.
+name
+!
+=
+"
+nt
+"
 :
                     
 if
