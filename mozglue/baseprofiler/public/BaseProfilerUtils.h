@@ -840,6 +840,11 @@ detail
 Others
 #
 else
+#
+include
+<
+thread
+>
 namespace
 mozilla
 :
@@ -852,7 +857,13 @@ detail
 using
 ThreadIdType
 =
-int
+std
+:
+:
+thread
+:
+:
+id
 ;
 }
 /
