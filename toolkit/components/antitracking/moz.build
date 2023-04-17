@@ -258,6 +258,11 @@ URLDecorationStripper
 .
 h
 "
+"
+URLQueryStringStripper
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -340,6 +345,11 @@ cpp
 "
 "
 URLDecorationStripper
+.
+cpp
+"
+"
+URLQueryStringStripper
 .
 cpp
 "
