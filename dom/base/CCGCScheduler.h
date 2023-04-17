@@ -1196,10 +1196,6 @@ TimeStamp
 (
 )
 ;
-mInIncrementalGC
-=
-false
-;
 mReadyForMajorGC
 =
 false
