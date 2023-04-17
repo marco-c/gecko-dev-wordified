@@ -230,8 +230,14 @@ NS_DECL_NSICONTENTSNIFFER
 nsIThreadRetargetableStreamListener
 methods
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
+explicit
 nsUnknownDecoder
 (
+nsIStreamListener
+*
+aListener
+=
+nullptr
 )
 ;
 protected
