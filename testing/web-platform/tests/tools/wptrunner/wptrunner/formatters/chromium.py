@@ -20,6 +20,10 @@ base
 BaseFormatter
 )
 :
+#
+type
+:
+ignore
     
 "
 "
