@@ -132,14 +132,14 @@ LegacyWorkersWatcher
 {
 constructor
 (
-targetList
+targetCommand
 onTargetAvailable
 onTargetDestroyed
 )
 {
 super
 (
-targetList
+targetCommand
 onTargetAvailable
 onTargetDestroyed
 )
@@ -585,7 +585,7 @@ target
 =
 this
 .
-targetList
+targetCommand
 .
 targetFront
 ;
@@ -641,7 +641,7 @@ if
 (
 this
 .
-targetList
+targetCommand
 .
 descriptorFront
 .
@@ -743,7 +743,7 @@ if
 (
 this
 .
-targetList
+targetCommand
 .
 descriptorFront
 .
@@ -790,7 +790,7 @@ if
 (
 this
 .
-targetList
+targetCommand
 .
 descriptorFront
 .
@@ -966,7 +966,7 @@ return
 !
 this
 .
-targetList
+targetCommand
 .
 destroyServiceWorkersOnNavigation
 ;
@@ -1033,7 +1033,7 @@ isRegisteredBefore
 =
 this
 .
-targetList
+targetCommand
 .
 isTargetRegistered
 (
@@ -1129,7 +1129,7 @@ isRegisteredAfter
 =
 this
 .
-targetList
+targetCommand
 .
 isTargetRegistered
 (
@@ -1194,7 +1194,7 @@ if
 (
 this
 .
-targetList
+targetCommand
 .
 isDestroyed
 (
@@ -1318,7 +1318,7 @@ if
 (
 this
 .
-targetList
+targetCommand
 .
 isTargetRegistered
 (
@@ -1725,7 +1725,7 @@ if
 !
 this
 .
-targetList
+targetCommand
 .
 descriptorFront
 .
