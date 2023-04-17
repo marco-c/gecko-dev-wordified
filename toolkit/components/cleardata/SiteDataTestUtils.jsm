@@ -790,6 +790,17 @@ pathQueryRef
 ;
 originAttributes
 =
+Object
+.
+keys
+(
+originAttributes
+)
+.
+length
+?
+originAttributes
+:
 principal
 .
 originAttributes
