@@ -3565,7 +3565,11 @@ aLayerManager
 const
 nsIFrame
 *
-aContainerReferenceFrame
+aItemFrame
+const
+nsPoint
+&
+aOffsetToReferenceFrame
 )
 const
 =

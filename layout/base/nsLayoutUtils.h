@@ -20194,7 +20194,11 @@ aContent
 const
 nsIFrame
 *
-aReferenceFrame
+aItemFrame
+const
+nsPoint
+&
+aOffsetToReferenceFrame
 mozilla
 :
 :
