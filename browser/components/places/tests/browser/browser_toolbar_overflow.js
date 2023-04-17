@@ -2119,6 +2119,9 @@ updated
 .
 *
 param
+{
+boolean
+}
 [
 condition
 ]

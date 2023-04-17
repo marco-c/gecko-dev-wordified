@@ -573,6 +573,9 @@ aSortingMode
 *
 *
 param
+{
+object
+}
 aTree
 *
 the
@@ -581,6 +584,11 @@ to
 check
 *
 param
+{
+Ci
+.
+nsINavHistoryQueryOptions
+}
 aSortingMode
 *
 one
@@ -694,6 +702,9 @@ aTree
 *
 *
 param
+{
+object
+}
 aOrganizerWin
 *
 the
@@ -701,6 +712,9 @@ Places
 window
 *
 param
+{
+object
+}
 aTree
 *
 the
@@ -709,6 +723,9 @@ to
 sort
 *
 param
+{
+boolean
+}
 aUnsortFirst
 *
 true
@@ -729,6 +746,9 @@ and
 aDir
 *
 param
+{
+boolean
+}
 aShouldFail
 *
 true
@@ -742,6 +762,9 @@ or
 aDir
 *
 param
+{
+object
+}
 aCol
 *
 the
@@ -754,6 +777,9 @@ to
 sort
 *
 param
+{
+string
+}
 aDir
 *
 either
@@ -1062,6 +1088,9 @@ direction
 *
 *
 param
+{
+object
+}
 aOrganizerWin
 *
 the
@@ -1069,6 +1098,9 @@ Places
 window
 *
 param
+{
+object
+}
 aPlaceContentTree
 *
 the
@@ -1188,6 +1220,9 @@ direction
 *
 *
 param
+{
+object
+}
 aOrganizerWin
 *
 the
@@ -1195,6 +1230,9 @@ Places
 window
 *
 param
+{
+object
+}
 aPlaceContentTree
 *
 the
@@ -1204,6 +1242,9 @@ in
 aOrganizerWin
 *
 param
+{
+boolean
+}
 aUnsortFirst
 *
 true
@@ -1502,6 +1543,9 @@ only
 *
 *
 param
+{
+object
+}
 aOrganizerWin
 *
 the
@@ -1509,6 +1553,9 @@ Places
 window
 *
 param
+{
+object
+}
 aPlaceContentTree
 *
 the
@@ -1518,6 +1565,9 @@ in
 aOrganizerWin
 *
 param
+{
+boolean
+}
 aUnsortFirst
 *
 true

@@ -545,6 +545,9 @@ times
 *
 *
 param
+{
+function
+}
 promiseFn
 *
 A
@@ -564,6 +567,9 @@ value
 .
 *
 param
+{
+msg
+}
 timeoutMsg
 *
 The
@@ -577,10 +583,12 @@ with
 .
 *
 param
+{
+number
+}
 [
-optional
-]
 tryCount
+]
 *
 Maximum
 times
@@ -599,7 +607,7 @@ to
 NUMBER_OF_TRIES
 .
 *
-return
+returns
 {
 Promise
 }

@@ -875,6 +875,11 @@ _hiddenRows
 *
 *
 *
+returns
+{
+string
+}
+*
 This
 method
 returns
@@ -1023,6 +1028,11 @@ dialogAcceptLabelEdit
 /
 *
 *
+*
+returns
+{
+string
+}
 *
 This
 method
@@ -3092,6 +3102,9 @@ state
 *
 *
 returns
+{
+boolean
+}
 true
 if
 the
@@ -3191,6 +3204,9 @@ nsIURI
 *
 *
 param
+{
+number
+}
 aTextboxID
 *
 the
@@ -3208,6 +3224,9 @@ test
 *
 *
 returns
+{
+boolean
+}
 true
 if
 the

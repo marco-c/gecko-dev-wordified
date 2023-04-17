@@ -1119,6 +1119,9 @@ view
 *
 *
 param
+{
+string
+}
 aItemGuid
 *
 item
@@ -1131,6 +1134,9 @@ search
 .
 *
 param
+{
+object
+}
 aTree
 *
 Tree
@@ -1140,6 +1146,10 @@ in
 .
 *
 returns
+{
+array
+}
+*
 [
 node
 index

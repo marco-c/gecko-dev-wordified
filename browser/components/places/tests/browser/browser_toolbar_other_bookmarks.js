@@ -2546,7 +2546,7 @@ visible
 *
 param
 {
-Boolean
+boolean
 }
 expected
 *
@@ -2754,7 +2754,7 @@ popup
 *
 param
 {
-String
+string
 }
 selector
 *
@@ -2773,7 +2773,7 @@ test
 *
 param
 {
-Number
+number
 }
 expected
 *
@@ -2876,7 +2876,7 @@ menu
 *
 param
 {
-Boolean
+boolean
 }
 expectedCheckedState
 *
@@ -3001,7 +3001,7 @@ menu
 *
 param
 {
-Boolean
+boolean
 }
 expected
 *
@@ -3092,7 +3092,7 @@ popup
 *
 param
 {
-String
+string
 }
 popupSelector
 *
@@ -3110,7 +3110,7 @@ open
 *
 param
 {
-String
+string
 }
 targetSelector
 *
@@ -3191,7 +3191,7 @@ popup
 *
 param
 {
-String
+string
 }
 popupSelector
 *
@@ -3269,7 +3269,7 @@ menu
 *
 param
 {
-String
+string
 }
 toolbarSelector
 *
@@ -3504,6 +3504,15 @@ folder
 testable
 .
 *
+*
+param
+{
+object
+}
+[
+win
+]
+*
 /
 async
 function
@@ -3594,7 +3603,7 @@ menu
 *
 param
 {
-String
+string
 }
 selector
 *

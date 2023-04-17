@@ -341,6 +341,9 @@ search
 *
 *
 param
+{
+string
+}
 aFolderGuid
 *
 the
@@ -358,6 +361,9 @@ s
 tree
 *
 param
+{
+string
+}
 aSearchStr
 *
 the

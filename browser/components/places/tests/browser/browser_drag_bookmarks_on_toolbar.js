@@ -165,6 +165,9 @@ otherwise
 *
 *
 param
+{
+object
+}
 aElement
 *
 DOM
@@ -175,6 +178,9 @@ will
 drag
 *
 param
+{
+array
+}
 aExpectedDragData
 *
 Array
@@ -233,6 +239,9 @@ canceled
 .
 *
 param
+{
+number
+}
 aDirection
 *
 Direction
@@ -246,7 +255,7 @@ helper
 object
 .
 *
-return
+returns
 {
 Promise
 }

@@ -272,6 +272,9 @@ bar
 *
 *
 param
+{
+string
+}
 aEffect
 *
 The
@@ -290,6 +293,9 @@ link
 .
 *
 param
+{
+string
+}
 aMimeType
 *
 The
@@ -583,6 +589,9 @@ bar
 *
 *
 param
+{
+string
+}
 aEffect
 *
 The
@@ -601,6 +610,9 @@ link
 .
 *
 param
+{
+string
+}
 aMimeType
 *
 The

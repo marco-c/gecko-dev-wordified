@@ -691,6 +691,9 @@ toolbar
 *
 *
 param
+{
+string
+}
 guid
 *
 GUID
@@ -702,6 +705,9 @@ search
 .
 *
 returns
+{
+object
+}
 DOM
 Node
 of
@@ -771,6 +777,9 @@ sidebar
 *
 *
 param
+{
+string
+}
 guid
 *
 GUID
@@ -782,6 +791,9 @@ search
 .
 *
 returns
+{
+object
+}
 DOM
 Node
 of
