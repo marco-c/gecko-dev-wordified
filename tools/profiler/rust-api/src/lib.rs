@@ -64,6 +64,9 @@ Profiler
 Rust
 API
 mod
+gecko_bindings
+;
+mod
 thread
 ;
 pub
