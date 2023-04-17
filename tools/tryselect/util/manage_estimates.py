@@ -426,6 +426,12 @@ stream
 =
 True
 )
+        
+r
+.
+raise_for_status
+(
+)
     
 except
 requests
@@ -619,6 +625,12 @@ GRAPH_QUANTILES_URL
 stream
 =
 True
+)
+        
+r
+.
+raise_for_status
+(
 )
     
 except
