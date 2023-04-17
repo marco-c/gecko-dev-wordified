@@ -4232,6 +4232,9 @@ camera
 "
 screen
 "
+"
+speaker
+"
 ]
 .
 includes
@@ -4273,6 +4276,9 @@ Microphone
 "
 "
 Camera
+"
+"
+Speaker
 "
 ]
 )
