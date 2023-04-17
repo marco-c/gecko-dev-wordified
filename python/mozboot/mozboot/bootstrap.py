@@ -2539,8 +2539,11 @@ self
 .
 maybe_install_private_packages_or_exit
 (
+                
 state_dir
 checkout_root
+application
+            
 )
             
 self
