@@ -6649,7 +6649,6 @@ HasMatchingOverride
 (
 aHostName
 aPort
-aOriginAttributes
 nssCert
 &
 overrideBits

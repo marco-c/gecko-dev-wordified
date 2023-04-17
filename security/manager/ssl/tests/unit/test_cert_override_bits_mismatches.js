@@ -248,8 +248,6 @@ clearValidityOverride
 (
 host
 8443
-{
-}
 )
 ;
 certOverrideService
@@ -258,8 +256,6 @@ rememberValidityOverride
 (
 host
 8443
-{
-}
 cert
 overrideBits
 true

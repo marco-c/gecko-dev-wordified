@@ -466,8 +466,6 @@ rememberValidityOverride
 1
 "
 port
-{
-}
 cert
 overrideBits
 true

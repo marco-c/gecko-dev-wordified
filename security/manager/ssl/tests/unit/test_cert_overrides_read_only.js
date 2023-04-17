@@ -269,8 +269,6 @@ rememberValidityOverride
 (
 aHost
 8443
-{
-}
 cert
 aExpectedBits
 false

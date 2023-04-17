@@ -3794,8 +3794,6 @@ rememberValidityOverride
 host
 -
 1
-{
-}
 securityInfo
 .
 serverCert
