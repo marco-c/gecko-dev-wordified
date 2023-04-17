@@ -18625,7 +18625,7 @@ lhsId
 Int32OperandId
 rhsId
 bool
-allowDouble
+forceDouble
 )
 {
 JitSpew
@@ -18711,7 +18711,7 @@ scratch
 ;
 if
 (
-allowDouble
+forceDouble
 )
 {
 ScratchDoubleScope
@@ -32822,7 +32822,7 @@ elementType
 bool
 handleOOB
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 )
 {
 JitSpew
@@ -33265,7 +33265,7 @@ MacroAssembler
 Uint32Mode
 uint32Mode
 =
-allowDoubleForUint32
+forceDoubleForUint32
 ?
 MacroAssembler
 :
@@ -33500,7 +33500,7 @@ Scalar
 Type
 elementType
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 )
 {
 JitSpew
@@ -34049,7 +34049,7 @@ MacroAssembler
 Uint32Mode
 uint32Mode
 =
-allowDoubleForUint32
+forceDoubleForUint32
 ?
 MacroAssembler
 :

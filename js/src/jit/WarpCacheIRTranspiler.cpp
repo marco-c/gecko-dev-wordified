@@ -10274,7 +10274,7 @@ elementType
 bool
 handleOOB
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 )
 {
 MDefinition
@@ -10315,7 +10315,7 @@ alloc
 obj
 index
 elementType
-allowDoubleForUint32
+forceDoubleForUint32
 )
 ;
 add
@@ -10405,7 +10405,7 @@ setResultType
 MIRTypeForArrayBufferViewRead
 (
 elementType
-allowDoubleForUint32
+forceDoubleForUint32
 )
 )
 ;
@@ -12245,7 +12245,7 @@ Scalar
 Type
 elementType
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 )
 {
 MDefinition
@@ -12372,7 +12372,7 @@ knownType
 MIRTypeForArrayBufferViewRead
 (
 elementType
-allowDoubleForUint32
+forceDoubleForUint32
 )
 ;
 load
@@ -13614,7 +13614,7 @@ lhsId
 Int32OperandId
 rhsId
 bool
-allowDouble
+forceDouble
 )
 {
 MDefinition
@@ -13638,7 +13638,7 @@ rhsId
 MIRType
 specialization
 =
-allowDouble
+forceDouble
 ?
 MIRType
 :
@@ -20099,7 +20099,7 @@ elements
 )
 ;
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 =
 true
 ;
@@ -20109,7 +20109,7 @@ knownType
 MIRTypeForArrayBufferViewRead
 (
 elementType
-allowDoubleForUint32
+forceDoubleForUint32
 )
 ;
 auto
@@ -20254,7 +20254,7 @@ elements
 )
 ;
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 =
 true
 ;
@@ -20264,7 +20264,7 @@ knownType
 MIRTypeForArrayBufferViewRead
 (
 elementType
-allowDoubleForUint32
+forceDoubleForUint32
 )
 ;
 auto
@@ -20412,7 +20412,7 @@ elements
 )
 ;
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 =
 true
 ;
@@ -20422,7 +20422,7 @@ knownType
 MIRTypeForArrayBufferViewRead
 (
 elementType
-allowDoubleForUint32
+forceDoubleForUint32
 )
 ;
 auto
@@ -20746,7 +20746,7 @@ elements
 )
 ;
 bool
-allowDoubleForUint32
+forceDoubleForUint32
 =
 true
 ;
@@ -20756,7 +20756,7 @@ knownType
 MIRTypeForArrayBufferViewRead
 (
 elementType
-allowDoubleForUint32
+forceDoubleForUint32
 )
 ;
 auto
