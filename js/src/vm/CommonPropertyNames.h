@@ -3645,6 +3645,15 @@ roundingMode
 \
 MACRO_
 (
+roundingPriority
+roundingPriority
+"
+roundingPriority
+"
+)
+\
+MACRO_
+(
 rtl
 rtl
 "
