@@ -59,7 +59,6 @@ Services
 loadContextInfo
 .
 default
-false
 )
 .
 asyncDoomURI

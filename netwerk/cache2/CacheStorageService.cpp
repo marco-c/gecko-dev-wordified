@@ -166,13 +166,6 @@ h
 #
 include
 "
-AppCacheStorage
-.
-h
-"
-#
-include
-"
 CacheEntry
 .
 h
@@ -181,13 +174,6 @@ h
 include
 "
 CacheFileUtils
-.
-h
-"
-#
-include
-"
-OldWrappers
 .
 h
 "
@@ -3646,7 +3632,6 @@ service
 DiskCacheStorage
 (
 info
-false
 getter_AddRefs
 (
 storage
@@ -3846,7 +3831,6 @@ aLoadContextInfo
 false
 false
 false
-false
 )
 ;
 storage
@@ -3869,8 +3853,6 @@ DiskCacheStorage
 nsILoadContextInfo
 *
 aLoadContextInfo
-bool
-aLookupAppCache
 nsICacheStorage
 *
 *
@@ -3936,7 +3918,6 @@ CacheStorage
 (
 aLoadContextInfo
 useDisk
-aLookupAppCache
 false
 /
 *
@@ -4037,13 +4018,6 @@ use
 disk
 *
 /
-false
-/
-*
-no
-appcache
-*
-/
 true
 /
 *
@@ -4106,7 +4080,6 @@ new
 CacheStorage
 (
 aLoadContextInfo
-false
 false
 true
 /

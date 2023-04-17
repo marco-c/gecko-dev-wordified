@@ -557,7 +557,6 @@ cache2
 diskCacheStorage
 (
 lci
-false
 )
 ;
 case

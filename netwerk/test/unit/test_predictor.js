@@ -947,7 +947,6 @@ Services
 loadContextInfo
 .
 default
-false
 )
 ;
 prepListener
