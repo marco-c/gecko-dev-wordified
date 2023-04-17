@@ -1044,6 +1044,10 @@ int64_t
 profiler_current_process_id
 (
 )
+.
+ToNumber
+(
+)
 )
 )
 ;

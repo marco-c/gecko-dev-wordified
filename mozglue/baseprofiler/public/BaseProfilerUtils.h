@@ -762,13 +762,15 @@ nodiscard
 ]
 ]
 inline
-int
+BaseProfilerProcessId
 profiler_current_process_id
 (
 )
 {
 return
-0
+BaseProfilerProcessId
+{
+}
 ;
 }
 [
@@ -861,7 +863,7 @@ nodiscard
 ]
 ]
 MFBT_API
-int
+BaseProfilerProcessId
 profiler_current_process_id
 (
 )
