@@ -526,6 +526,11 @@ WindowSurfaceWayland
 .
 cpp
 "
+"
+WindowSurfaceWaylandMultiBuffer
+.
+cpp
+"
 ]
 EXPORTS
 .

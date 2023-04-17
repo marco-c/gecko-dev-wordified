@@ -141,6 +141,9 @@ nsWindow
 h
 "
 #
+ifdef
+MOZ_X11
+#
 include
 "
 mozilla
@@ -149,6 +152,8 @@ X11Util
 .
 h
 "
+#
+endif
 #
 ifdef
 MOZ_WAYLAND
@@ -218,10 +223,7 @@ MOZ_WAYLAND
 )
 if
 (
-!
-aInitData
-.
-IsX11Display
+GdkIsWaylandDisplay
 (
 )
 )
@@ -254,10 +256,6 @@ Initialize
 aWindow
 )
 ;
-mNativeLayerRoot
-=
-nullptr
-;
 }
 #
 endif
@@ -269,9 +267,7 @@ MOZ_X11
 )
 if
 (
-aInitData
-.
-IsX11Display
+GdkIsX11Display
 (
 )
 )
