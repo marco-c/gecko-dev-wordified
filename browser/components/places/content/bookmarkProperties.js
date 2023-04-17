@@ -1076,7 +1076,7 @@ _strings
 getString
 (
 "
-dialogTitleAddNewBookmark
+dialogTitleAddNewBookmark2
 "
 )
 ;
