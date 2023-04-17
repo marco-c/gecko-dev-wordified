@@ -974,6 +974,7 @@ stuff
 for
 the
 editor
+const
 RefPtr
 <
 mozilla
@@ -986,6 +987,7 @@ Document
 >
 mDocument
 ;
+const
 bool
 mIsContentEditableOrDesignMode
 ;
@@ -998,6 +1000,7 @@ see
 SetPosition
 and
 SetEnd
+const
 nsINode
 *
 mRootNode
