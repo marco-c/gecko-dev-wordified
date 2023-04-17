@@ -80,6 +80,15 @@ h
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 unicode
 /
 uformattedvalue
