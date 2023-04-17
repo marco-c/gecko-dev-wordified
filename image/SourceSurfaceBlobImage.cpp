@@ -1488,6 +1488,12 @@ SamplingFilter
 :
 POINT
 mImageFlags
+/
+*
+aUseOptimalFillOp
+*
+/
+false
 )
 ;
 }
