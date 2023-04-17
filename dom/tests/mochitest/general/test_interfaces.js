@@ -4190,9 +4190,6 @@ EventCounts
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -9958,9 +9955,6 @@ name
 PerformanceEventTiming
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
