@@ -48327,9 +48327,9 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 /
 /
 Clear
-state
+bits
 that
-was
+were
 used
 in
 ReflowInput
@@ -48354,6 +48354,11 @@ there
 )
 .
 SetHasBSizeChange
+(
+false
+)
+;
+SetHasPaddingChange
 (
 false
 )
