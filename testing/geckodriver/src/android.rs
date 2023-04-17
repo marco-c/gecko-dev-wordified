@@ -15,6 +15,7 @@ mozdevice
 AndroidStorage
 Device
 Host
+UnixPathBuf
 }
 ;
 use
@@ -52,15 +53,6 @@ std
 :
 :
 io
-;
-use
-std
-:
-:
-path
-:
-:
-PathBuf
 ;
 use
 std
@@ -618,7 +610,7 @@ AndroidHandler
 pub
 config
 :
-PathBuf
+UnixPathBuf
 pub
 options
 :
@@ -630,11 +622,11 @@ AndroidProcess
 pub
 profile
 :
-PathBuf
+UnixPathBuf
 pub
 test_root
 :
-PathBuf
+UnixPathBuf
 /
 /
 For
@@ -1168,7 +1160,7 @@ let
 mut
 buf
 =
-PathBuf
+UnixPathBuf
 :
 :
 from
@@ -1208,7 +1200,7 @@ AndroidStorage
 Internal
 =
 >
-PathBuf
+UnixPathBuf
 :
 :
 from
@@ -1308,7 +1300,7 @@ let
 mut
 buf
 =
-PathBuf
+UnixPathBuf
 :
 :
 from
@@ -1580,7 +1572,7 @@ clone
 let
 config
 =
-PathBuf
+UnixPathBuf
 :
 :
 from
@@ -3044,16 +3036,8 @@ mozdevice
 {
 AndroidStorage
 AndroidStorageInput
+UnixPathBuf
 }
-;
-use
-std
-:
-:
-path
-:
-:
-PathBuf
 ;
 fn
 run_handler_storage_test
@@ -3129,7 +3113,7 @@ package
 let
 expected_config_path
 =
-PathBuf
+UnixPathBuf
 :
 :
 from
@@ -3243,7 +3227,7 @@ let
 mut
 buf
 =
-PathBuf
+UnixPathBuf
 :
 :
 from
@@ -3281,7 +3265,7 @@ AndroidStorage
 Internal
 =
 >
-PathBuf
+UnixPathBuf
 :
 :
 from
@@ -3329,7 +3313,7 @@ let
 mut
 buf
 =
-PathBuf
+UnixPathBuf
 :
 :
 from
