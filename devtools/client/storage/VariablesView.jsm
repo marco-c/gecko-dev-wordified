@@ -222,16 +222,6 @@ utils
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 extend
 }
@@ -16959,7 +16949,7 @@ toolbox
 )
 {
 return
-promise
+Promise
 .
 reject
 (
