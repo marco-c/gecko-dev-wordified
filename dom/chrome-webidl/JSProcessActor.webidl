@@ -506,7 +506,6 @@ as
 subject
 .
 *
-*
 /
 sequence
 <

@@ -937,7 +937,6 @@ for
 that
 .
 *
-*
 /
 sequence
 <

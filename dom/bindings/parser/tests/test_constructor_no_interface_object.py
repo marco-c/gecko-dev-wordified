@@ -23,11 +23,11 @@ parse
 "
             
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
             
 interface
-TestConstructorNoInterfaceObject
+TestConstructorLegacyNoInterfaceObject
 {
               
 constructor
@@ -90,14 +90,14 @@ parse
 "
         
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 NamedConstructor
 =
 FooBar
 ]
         
 interface
-TestNamedConstructorNoInterfaceObject
+TestNamedConstructorLegacyNoInterfaceObject
 {
         
 }
@@ -113,7 +113,7 @@ TestNamedConstructorNoInterfaceObject
 Test
 HTMLConstructor
 and
-NoInterfaceObject
+LegacyNoInterfaceObject
     
 parser
 =
@@ -140,11 +140,11 @@ parse
 "
             
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
             
 interface
-TestHTMLConstructorNoInterfaceObject
+TestHTMLConstructorLegacyNoInterfaceObject
 {
               
 [
