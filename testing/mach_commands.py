@@ -3517,6 +3517,7 @@ self
 run_desktop_test
 (
             
+command_context
 tests
 symbols_path
 manifest_path
