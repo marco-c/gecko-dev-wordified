@@ -163,12 +163,6 @@ b
 {
 AutoUnsafeCallWithABI
 unsafe
-(
-UnsafeABIStrictness
-:
-:
-AllowPendingExceptions
-)
 ;
 if
 (
@@ -266,12 +260,6 @@ b
 {
 AutoUnsafeCallWithABI
 unsafe
-(
-UnsafeABIStrictness
-:
-:
-AllowPendingExceptions
-)
 ;
 if
 (
