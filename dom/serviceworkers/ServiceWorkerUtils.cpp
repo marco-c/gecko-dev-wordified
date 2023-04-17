@@ -205,15 +205,6 @@ namespace
 dom
 {
 bool
-ServiceWorkerParentInterceptEnabled
-(
-)
-{
-return
-true
-;
-}
-bool
 ServiceWorkerRegistrationDataIsValid
 (
 const
