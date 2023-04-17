@@ -8423,6 +8423,9 @@ class
 BaseShape
 ;
 class
+GetterSetter
+;
+class
 WasmInstanceObject
 ;
 class
@@ -8551,6 +8554,15 @@ GCPtrShape
 GCPtr
 <
 Shape
+*
+>
+;
+using
+GCPtrGetterSetter
+=
+GCPtr
+<
+GetterSetter
 *
 >
 ;

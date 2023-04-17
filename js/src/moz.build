@@ -3144,6 +3144,13 @@ cpp
 "
 vm
 /
+GetterSetter
+.
+cpp
+"
+"
+vm
+/
 GlobalObject
 .
 cpp

@@ -1469,6 +1469,16 @@ base
 )
 override
 ;
+GetterSetter
+*
+onGetterSetterEdge
+(
+GetterSetter
+*
+gs
+)
+override
+;
 Scope
 *
 onScopeEdge

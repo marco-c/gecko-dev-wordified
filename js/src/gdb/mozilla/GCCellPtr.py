@@ -432,6 +432,17 @@ js
 :
 RegExpShared
 "
+            
+"
+GetterSetter
+"
+:
+"
+js
+:
+:
+GetterSetter
+"
         
 }
         
@@ -484,6 +495,14 @@ REGEXP_SHARED
 :
 "
 RegExpShared
+"
+            
+"
+GETTER_SETTER
+"
+:
+"
+GetterSetter
 "
         
 }
