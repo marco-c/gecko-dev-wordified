@@ -3508,8 +3508,6 @@ for
 one
 candidate
 .
-for
-(
 auto
 iter
 =
@@ -3519,20 +3517,6 @@ Iter
 (
 )
 ;
-!
-iter
-.
-Done
-(
-)
-;
-iter
-.
-Next
-(
-)
-)
-{
 nsTArray
 <
 nsCOMPtr
@@ -3566,7 +3550,6 @@ Remove
 return
 rval
 ;
-}
 }
 nsTArray
 <
