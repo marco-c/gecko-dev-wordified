@@ -705,7 +705,7 @@ event
 {
 super
 .
-onTouchEventForResult
+onTouchEventForDetailResult
 (
 event
 )
@@ -719,6 +719,10 @@ inputResult
 mInputResult
 =
 inputResult
+.
+handledResult
+(
+)
 ;
 startNestedScroll
 (
