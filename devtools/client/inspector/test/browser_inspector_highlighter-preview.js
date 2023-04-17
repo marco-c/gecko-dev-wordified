@@ -151,7 +151,6 @@ const
 {
 inspector
 toolbox
-testActor
 }
 =
 await
@@ -234,7 +233,6 @@ clickElement
 #
 one
 "
-testActor
 inspector
 true
 )
@@ -282,7 +280,6 @@ clickElement
 #
 two
 "
-testActor
 inspector
 true
 )
@@ -328,7 +325,6 @@ clickElement
 #
 three
 "
-testActor
 inspector
 false
 )
@@ -357,7 +353,6 @@ function
 clickElement
 (
 selector
-testActor
 inspector
 isShift
 )
@@ -377,24 +372,13 @@ updated
 )
 ;
 await
-testActor
-.
-synthesizeMouse
+safeSynthesizeMouseEventAtCenterInContentPage
 (
-{
 selector
-:
-selector
-center
-:
-true
-options
-:
 {
 shiftKey
 :
 isShift
-}
 }
 )
 ;

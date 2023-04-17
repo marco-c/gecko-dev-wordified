@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-getTestActorWithoutToolbox
-*
-/
 "
 use
 strict
@@ -196,22 +190,10 @@ enabled
 true
 )
 ;
-const
-tab
-=
 await
 addTab
 (
 TEST_URI
-)
-;
-const
-testActor
-=
-await
-getTestActorWithoutToolbox
-(
-tab
 )
 ;
 /
@@ -228,7 +210,6 @@ toolbox
 await
 testContextMenuWithinIframe
 (
-testActor
 async
 inspector
 =
@@ -273,7 +254,6 @@ changeToolboxToInnerFrame
 await
 testContextMenuWithinIframe
 (
-testActor
 async
 inspector
 =
@@ -301,7 +281,6 @@ async
 function
 testContextMenuWithinIframe
 (
-testActor
 nodeFrontGetter
 )
 {
@@ -342,7 +321,6 @@ frame
 await
 clickOnInspectMenuItem
 (
-testActor
 selector
 )
 ;

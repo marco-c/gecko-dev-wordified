@@ -99,7 +99,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -455,7 +454,6 @@ container
 await
 clickOnInspectMenuItem
 (
-testActor
 "
 h1
 "

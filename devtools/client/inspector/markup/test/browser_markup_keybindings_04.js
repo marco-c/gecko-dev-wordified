@@ -134,7 +134,6 @@ menu
 await
 clickOnInspectMenuItem
 (
-testActor
 "
 div
 "
@@ -375,9 +374,7 @@ toolbox
 )
 ;
 await
-BrowserTestUtils
-.
-synthesizeMouseAtCenter
+safeSynthesizeMouseEventAtCenterInContentPage
 (
 "
 div
