@@ -66,7 +66,7 @@ tempfile
 import
 unittest
 from
-StringIO
+io
 import
 StringIO
 from
@@ -162,6 +162,7 @@ self
         
 SCALARS_YAML
 =
+b
 "
 "
 "
