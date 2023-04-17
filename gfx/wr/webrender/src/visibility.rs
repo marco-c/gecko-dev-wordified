@@ -617,7 +617,7 @@ pub
 struct
 PrimitiveVisibilityFlags
 :
-u16
+u8
 {
 /
 /

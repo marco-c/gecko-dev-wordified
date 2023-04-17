@@ -1669,6 +1669,11 @@ compositor_kind
 get_virtual_surface_size
 (
 )
+compositor_surface_count
+:
+prim_list
+.
+compositor_surface_count
 }
 ;
 self
@@ -2603,6 +2608,9 @@ compositor_kind
 get_virtual_surface_size
 (
 )
+compositor_surface_count
+:
+0
 }
 }
 else
@@ -2703,6 +2711,9 @@ compositor_kind
 get_virtual_surface_size
 (
 )
+compositor_surface_count
+:
+0
 }
 }
 ;
@@ -3460,6 +3471,11 @@ compositor_kind
 get_virtual_surface_size
 (
 )
+compositor_surface_count
+:
+prim_list
+.
+compositor_surface_count
 }
 )
 ;
