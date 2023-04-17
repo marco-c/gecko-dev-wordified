@@ -64,23 +64,20 @@ import
 urllib
 import
 requests
+from
+mozbuild
+.
+vendor
+.
+host_base
+import
+BaseHost
 class
 GitHubHost
-:
-    
-def
-__init__
 (
-self
-manifest
+BaseHost
 )
 :
-        
-self
-.
-manifest
-=
-manifest
     
 def
 upstream_commit
@@ -156,8 +153,12 @@ path
 :
 ]
         
-url
+req
 =
+requests
+.
+get
+(
 "
 /
 "
@@ -176,14 +177,6 @@ commits
 revision
 ]
 )
-        
-req
-=
-requests
-.
-get
-(
-url
 )
         
 req

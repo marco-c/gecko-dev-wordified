@@ -64,23 +64,20 @@ import
 urllib
 import
 requests
+from
+mozbuild
+.
+vendor
+.
+host_base
+import
+BaseHost
 class
 GitLabHost
-:
-    
-def
-__init__
 (
-self
-manifest
+BaseHost
 )
 :
-        
-self
-.
-manifest
-=
-manifest
     
 def
 upstream_commit
@@ -190,8 +187,12 @@ repository
 commits
 "
         
-url
+req
 =
+requests
+.
+get
+(
 "
 /
 "
@@ -203,14 +204,6 @@ gitlab_api
 revision
 ]
 )
-        
-req
-=
-requests
-.
-get
-(
-url
 )
         
 req
