@@ -245,11 +245,6 @@ LayerScope
 h
 "
 "
-LayerSorter
-.
-h
-"
-"
 LayersTypes
 .
 h
@@ -3101,11 +3096,6 @@ cpp
 "
 "
 LayersHelpers
-.
-cpp
-"
-"
-LayerSorter
 .
 cpp
 "
