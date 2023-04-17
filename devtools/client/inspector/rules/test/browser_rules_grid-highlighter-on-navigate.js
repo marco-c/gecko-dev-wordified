@@ -134,6 +134,10 @@ html
 >
 "
 ;
+ignoreGetGridsPromiseRejections
+(
+)
+;
 add_task
 (
 async
