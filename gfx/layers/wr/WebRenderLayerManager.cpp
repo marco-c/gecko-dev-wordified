@@ -872,8 +872,6 @@ WrBridge
 GetWebRenderBackend
 (
 )
-&
-mDisplayItemCache
 )
 ;
 hasInitialized
@@ -2229,6 +2227,8 @@ mDLBuilder
 >
 Begin
 (
+&
+mDisplayItemCache
 )
 ;
 wr
