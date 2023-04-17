@@ -562,7 +562,7 @@ buttonIds
 btnBlock
 "
 "
-btnCookieSession
+btnSession
 "
 "
 btnAllow
