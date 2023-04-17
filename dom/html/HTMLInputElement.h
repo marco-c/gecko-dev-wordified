@@ -6152,8 +6152,6 @@ VisitGroup
 nsIRadioVisitor
 *
 aVisitor
-bool
-aFlushContent
 )
 ;
 /

@@ -16558,7 +16558,6 @@ aCheckedChanged
 VisitGroup
 (
 visitor
-aNotify
 )
 ;
 }
@@ -17594,7 +17593,6 @@ this
 VisitGroup
 (
 visitor
-aNotify
 )
 ;
 }
@@ -37415,7 +37413,6 @@ this
 VisitGroup
 (
 visitor
-notify
 )
 ;
 SetCheckedChangedInternal
@@ -37608,7 +37605,6 @@ this
 VisitGroup
 (
 visitor
-true
 )
 ;
 }
@@ -37974,8 +37970,6 @@ VisitGroup
 nsIRadioVisitor
 *
 aVisitor
-bool
-aFlushContent
 )
 {
 nsIRadioGroupContainer
@@ -39353,7 +39347,6 @@ notify
 VisitGroup
 (
 visitor
-notify
 )
 ;
 }
