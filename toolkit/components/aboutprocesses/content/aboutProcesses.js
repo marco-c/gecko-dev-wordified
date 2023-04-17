@@ -3278,7 +3278,7 @@ break
 ;
 case
 "
-privilegemozilla
+privilegedmozilla
 "
 :
 fluentName
