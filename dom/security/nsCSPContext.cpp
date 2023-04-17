@@ -609,13 +609,6 @@ LogLevel
 :
 Debug
 )
-static
-const
-uint32_t
-CSP_CACHE_URI_CUTOFF_SIZE
-=
-512
-;
 #
 ifdef
 DEBUG
