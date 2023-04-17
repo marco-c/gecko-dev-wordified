@@ -416,7 +416,7 @@ L10N
 getStr
 (
 "
-paramsEmptyText
+paramsNoPayloadText
 "
 )
 ;
