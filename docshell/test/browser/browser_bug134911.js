@@ -308,11 +308,8 @@ to
 Shift_JIS
 *
 /
-BrowserSetForcedCharacterSet
+BrowserForceEncodingDetection
 (
-"
-Shift_JIS
-"
 )
 ;
 }
