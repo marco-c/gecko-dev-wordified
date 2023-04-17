@@ -60,6 +60,7 @@ MPL
 *
 globals
 log
+browser
 *
 /
 "
@@ -96,9 +97,7 @@ args
 .
 then
 (
-(
 result
-)
 =
 >
 {
@@ -235,12 +234,14 @@ background
 page
 :
 {
+(
 result
 &
 &
 result
 .
 type
+)
 |
 |
 undefined
@@ -253,7 +254,6 @@ resultType
 =
 result
 ?
-(
 result
 .
 type
@@ -262,7 +262,6 @@ type
 "
 undefined
 "
-)
 :
 "
 undefined
