@@ -532,7 +532,7 @@ hexToCSS
 (
 "
 #
-F9F9FA
+FFFFFF
 "
 )
 color
@@ -541,7 +541,7 @@ hexToCSS
 (
 "
 #
-0C0C0D
+15141A
 "
 )
 }
