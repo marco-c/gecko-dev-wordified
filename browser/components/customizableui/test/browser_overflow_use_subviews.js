@@ -112,7 +112,7 @@ we
 ever
 remove
 the
-developer
+library
 widget
 please
 *
@@ -135,7 +135,7 @@ add_task
 (
 async
 function
-check_developer_subview_in_overflow
+check_library_subview_in_overflow
 (
 )
 {
@@ -162,7 +162,7 @@ CustomizableUI
 addWidgetToArea
 (
 "
-developer
+library
 -
 button
 "
@@ -282,7 +282,7 @@ document
 getElementById
 (
 "
-developer
+library
 -
 button
 "
@@ -295,16 +295,16 @@ click
 )
 ;
 let
-developerView
+libraryView
 =
 document
 .
 getElementById
 (
 "
-PanelUI
+appMenu
 -
-developer
+libraryView
 "
 )
 ;
@@ -313,7 +313,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-developerView
+libraryView
 "
 ViewShown
 "
@@ -355,7 +355,7 @@ panel
 ;
 is
 (
-developerView
+libraryView
 .
 closest
 (
