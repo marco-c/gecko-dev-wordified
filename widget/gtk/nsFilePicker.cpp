@@ -239,7 +239,7 @@ h
 #
 include
 "
-gfxPlatformGtk
+WidgetUtilsGtk
 .
 h
 "
@@ -959,15 +959,10 @@ Wayland
 .
 if
 (
-gfxPlatformGtk
+widget
 :
 :
-GetPlatform
-(
-)
--
->
-IsWaylandDisplay
+GdkIsWaylandDisplay
 (
 )
 )

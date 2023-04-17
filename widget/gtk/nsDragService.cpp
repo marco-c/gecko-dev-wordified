@@ -11235,15 +11235,7 @@ Bug
 1527976
 if
 (
-gfxPlatformGtk
-:
-:
-GetPlatform
-(
-)
--
->
-IsWaylandDisplay
+GdkIsWaylandDisplay
 (
 )
 &
