@@ -128,7 +128,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -138,10 +137,11 @@ TEST_URI
 )
 ;
 await
-testActor
-.
-scrollIntoView
+scrollContentPageNodeIntoView
 (
+gBrowser
+.
+selectedBrowser
 "
 a
 "

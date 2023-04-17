@@ -449,10 +449,11 @@ inspector
 )
 ;
 await
-testActor
-.
-scrollIntoView
+scrollContentPageNodeIntoView
 (
+gBrowser
+.
+selectedBrowser
 "
 span
 "
