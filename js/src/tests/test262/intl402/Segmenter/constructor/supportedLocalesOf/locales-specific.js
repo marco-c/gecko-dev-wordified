@@ -208,6 +208,13 @@ Segmenter
 supportedLocalesOf
 (
 multiLocale
+{
+localeMatcher
+:
+"
+lookup
+"
+}
 )
 multiLocale
 )

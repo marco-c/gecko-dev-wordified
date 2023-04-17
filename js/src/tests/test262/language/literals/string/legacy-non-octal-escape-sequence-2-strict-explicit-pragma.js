@@ -46,9 +46,7 @@ esid
 :
 sec
 -
-additional
--
-syntax
+literals
 -
 string
 -

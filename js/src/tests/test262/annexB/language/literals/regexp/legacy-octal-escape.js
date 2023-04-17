@@ -116,14 +116,6 @@ SV
 of
 the
 LegacyOctalEscapeSequence
-(
-see
-B
-.
-1
-.
-2
-)
 and
 returning
 its
