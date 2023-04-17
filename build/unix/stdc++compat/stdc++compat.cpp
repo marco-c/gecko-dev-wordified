@@ -69,6 +69,11 @@ istream
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -393,6 +398,9 @@ GLIBCXX_VERSION
 4
 20
 )
+namespace
+__cxxabiv1
+{
 /
 *
 Technically
@@ -460,6 +468,11 @@ MOZ_CRASH
 )
 ;
 }
+}
+/
+/
+namespace
+__cxxabiv1
 #
 endif
 #
