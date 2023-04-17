@@ -3329,12 +3329,9 @@ jsm
 events
 :
 {
-pageshow
+DOMContentLoaded
 :
 {
-mozSystemGroup
-:
-true
 }
 }
 }

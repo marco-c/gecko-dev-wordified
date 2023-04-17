@@ -340,7 +340,7 @@ show
 .
 case
 "
-pageshow
+DOMContentLoaded
 "
 :
 this
