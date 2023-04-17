@@ -2299,7 +2299,7 @@ network
 .
 trr
 .
-default_provider_uri
+uri
 "
 )
 ;
@@ -2312,7 +2312,7 @@ network
 .
 trr
 .
-default_provider_uri
+uri
 "
 https
 :
@@ -2474,7 +2474,7 @@ network
 .
 trr
 .
-default_provider_uri
+uri
 "
 defaultURI
 )
