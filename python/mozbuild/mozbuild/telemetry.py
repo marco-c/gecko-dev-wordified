@@ -539,7 +539,6 @@ get_os_name
     
 return
 {
-        
 "
 Linux
 "
@@ -547,7 +546,6 @@ Linux
 "
 linux
 "
-        
 "
 Windows
 "
@@ -555,7 +553,6 @@ Windows
 "
 windows
 "
-        
 "
 Darwin
 "
@@ -563,11 +560,11 @@ Darwin
 "
 macos
 "
-    
 }
 .
 get
 (
+        
 platform
 .
 system
@@ -576,6 +573,7 @@ system
 "
 other
 "
+    
 )
 def
 get_psutil_stats
@@ -730,7 +728,6 @@ get_psutil_stats
 info
 =
 {
-        
 "
 os
 "
@@ -738,7 +735,6 @@ os
 get_os_name
 (
 )
-    
 }
     
 if
@@ -1610,6 +1606,8 @@ connection
 "
     
 return
+(
+        
 True
 if
 "
@@ -1628,14 +1626,18 @@ TERM_PROGRAM
 )
 else
 False
+        
+bool
+(
 os
 .
 getenv
 (
-        
 "
 SSH_CLIENT
 "
 False
+)
+)
     
 )
