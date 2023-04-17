@@ -1068,15 +1068,6 @@ it
 can
 GC
 .
-/
-/
-TODO
-:
-but
-it
-should
-ask
-.
 break
 ;
 }
