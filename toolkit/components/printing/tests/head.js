@@ -424,10 +424,11 @@ Promise
 .
 resolve
 (
-Object
+paperProperties
 .
-assign
-(
+unwriteableMargin
+|
+|
 {
 top
 :
@@ -462,10 +463,6 @@ nsIPaperMargin
 ]
 )
 }
-paperProperties
-.
-unwriteableMargin
-)
 )
 QueryInterface
 :
