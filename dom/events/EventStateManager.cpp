@@ -27325,6 +27325,7 @@ mLastFrameConsumedSetCursor
 false
 ;
 }
+const
 CursorImage
 customCursor
 =
@@ -28214,7 +28215,7 @@ eCursor_standard
 break
 ;
 }
-int32_t
+uint32_t
 x
 =
 aHotspot
@@ -28226,7 +28227,7 @@ x
 :
 0
 ;
-int32_t
+uint32_t
 y
 =
 aHotspot
@@ -28243,10 +28244,16 @@ aWidget
 >
 SetCursor
 (
+nsIWidget
+:
+:
+Cursor
+{
 c
 aContainer
 x
 y
+}
 )
 ;
 return
