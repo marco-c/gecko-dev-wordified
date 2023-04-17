@@ -2666,12 +2666,9 @@ hasMore
 )
 )
 {
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 seqCopy
 .
 next

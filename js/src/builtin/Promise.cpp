@@ -29319,12 +29319,9 @@ this
 uncatchable
 error
 .
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 PromiseObject
 :
 :
