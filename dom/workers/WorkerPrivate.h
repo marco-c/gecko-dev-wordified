@@ -608,12 +608,11 @@ Mutex
 class
 SharedMutex
 {
-using
-Mutex
-=
+typedef
 mozilla
 :
 :
+Mutex
 Mutex
 ;
 class

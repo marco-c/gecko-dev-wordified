@@ -444,10 +444,9 @@ T
 struct
 ISupportsBaseInfo
 {
-using
-ISupportsBase
-=
+typedef
 T
+ISupportsBase
 ;
 }
 ;
