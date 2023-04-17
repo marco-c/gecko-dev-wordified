@@ -188,6 +188,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+nsITimer
+.
+h
+"
 namespace
 mozilla
 {
