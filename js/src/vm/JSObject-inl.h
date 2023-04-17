@@ -2488,7 +2488,7 @@ null
 .
 *
 /
-JSObject
+NativeObject
 *
 NewObjectWithGivenTaggedProto
 (
@@ -2524,7 +2524,7 @@ NewObjectKind
 NewKind
 >
 inline
-JSObject
+NativeObject
 *
 NewObjectWithGivenTaggedProto
 (
@@ -2668,7 +2668,7 @@ proto
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewObjectWithGivenProto
 (
@@ -2707,7 +2707,7 @@ newKind
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewObjectWithGivenProto
 (
@@ -2738,7 +2738,7 @@ proto
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewTenuredObjectWithGivenProto
 (
@@ -2920,7 +2920,7 @@ Object
 .
 prototype
 .
-JSObject
+NativeObject
 *
 NewObjectWithClassProto
 (
@@ -2945,7 +2945,7 @@ GenericObject
 )
 ;
 inline
-JSObject
+NativeObject
 *
 NewObjectWithClassProto
 (
@@ -3117,7 +3117,7 @@ newKind
 GenericObject
 )
 {
-JSObject
+NativeObject
 *
 obj
 =
@@ -3180,7 +3180,7 @@ global
 *
 /
 inline
-JSObject
+NativeObject
 *
 NewBuiltinClassInstance
 (
@@ -3214,7 +3214,7 @@ newKind
 ;
 }
 inline
-JSObject
+NativeObject
 *
 NewBuiltinClassInstance
 (

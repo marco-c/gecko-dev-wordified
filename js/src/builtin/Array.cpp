@@ -24353,11 +24353,6 @@ NewObjectWithTaggedProtoIsCachable
 cx
 taggedProto
 newKind
-&
-ArrayObject
-:
-:
-class_
 )
 ;
 if

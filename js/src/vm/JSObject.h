@@ -5873,10 +5873,6 @@ TaggedProto
 proto
 NewObjectKind
 newKind
-const
-JSClass
-*
-clasp
 )
 ;
 /
