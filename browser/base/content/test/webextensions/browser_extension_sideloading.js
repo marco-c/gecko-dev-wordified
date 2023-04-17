@@ -200,7 +200,7 @@ addonId
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1017,7 +1017,7 @@ selectedBrowser
 contentWindow
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
