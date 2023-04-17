@@ -186,8 +186,8 @@ euclid
 :
 :
 {
-Rect
 Box2D
+Rect
 }
 ;
 use
