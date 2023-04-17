@@ -2654,9 +2654,7 @@ I32x4Abs
 I32x4Neg
 =
 0xa1
-/
-/
-Narrow
+V8x16RelaxedSwizzle
 =
 0xa2
 I32x4AllTrue

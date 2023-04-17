@@ -749,6 +749,11 @@ I32x4RelaxedTruncSatF64x2UZero
 =
 0xc6
 ;
+const
+I8x16RelaxedSwizzle
+=
+0xa2
+;
 /
 /
 SIMD

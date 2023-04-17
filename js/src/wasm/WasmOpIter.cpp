@@ -3062,6 +3062,12 @@ SimdOp
 :
 F64x2RelaxedMax
 :
+case
+SimdOp
+:
+:
+V8x16RelaxedSwizzle
+:
 WASM_SIMD_OP
 (
 OpKind
