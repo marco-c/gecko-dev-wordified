@@ -6097,15 +6097,6 @@ aAttribute
 )
 ;
 bool
-IsFirstEditableChild
-(
-nsINode
-*
-aNode
-)
-const
-;
-bool
 IsLastEditableChild
 (
 nsINode
