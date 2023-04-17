@@ -2811,6 +2811,12 @@ case
 ParseNodeKind
 :
 :
+PrivateMemberExpr
+:
+case
+ParseNodeKind
+:
+:
 OptionalChain
 :
 case
@@ -2830,6 +2836,12 @@ ParseNodeKind
 :
 :
 OptionalCallExpr
+:
+case
+ParseNodeKind
+:
+:
+OptionalPrivateMemberExpr
 :
 case
 ParseNodeKind

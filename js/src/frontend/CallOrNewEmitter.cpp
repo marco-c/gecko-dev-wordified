@@ -318,6 +318,7 @@ stack
 ]
 CALLEE
 THIS
+?
 return
 false
 ;
