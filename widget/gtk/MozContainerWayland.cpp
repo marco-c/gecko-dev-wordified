@@ -1815,7 +1815,7 @@ if
 StaticPrefs
 :
 :
-widget_wayland_opaque_region_enabled
+widget_wayland_opaque_region_enabled_AtStartup
 (
 )
 |
