@@ -1331,7 +1331,7 @@ allocatedSites
 site
 ;
 }
-void
+size_t
 doPretenuring
 (
 GCRuntime

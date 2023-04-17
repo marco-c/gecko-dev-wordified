@@ -4981,7 +4981,7 @@ GCReason
 reason
 )
 ;
-void
+size_t
 doPretenuring
 (
 JSRuntime
@@ -5394,6 +5394,8 @@ bool
 wasEmpty
 double
 promotionRate
+size_t
+sitesPretenured
 )
 ;
 void
