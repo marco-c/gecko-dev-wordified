@@ -185,6 +185,17 @@ mozilla
 /
 dom
 /
+QMResultInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RequestBinding
 .
 h
@@ -3769,6 +3780,8 @@ mForeignKeyCheckingDisabled
 {
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 mConn
 -
 >
@@ -3782,6 +3795,7 @@ ON
 ;
 "
 _ns
+)
 )
 )
 ;
@@ -4378,9 +4392,12 @@ NS_ERROR_STORAGE_CONSTRAINT
 {
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 IntegrityCheck
 (
 aConn
+)
 )
 )
 ;

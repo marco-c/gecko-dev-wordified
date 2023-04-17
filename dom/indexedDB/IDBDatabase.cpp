@@ -369,6 +369,17 @@ mozilla
 /
 dom
 /
+QMResultInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 quota
 /
 QuotaManager
@@ -1216,6 +1227,8 @@ crucial
 .
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 obsSvc
 -
 >
@@ -1226,8 +1239,11 @@ kCycleCollectionObserverTopic
 false
 )
 )
+)
 ;
 QM_WARNONLY_TRY
+(
+QM_TO_RESULT
 (
 obsSvc
 -
@@ -1237,6 +1253,7 @@ AddObserver
 observer
 kMemoryPressureObserverTopic
 false
+)
 )
 )
 ;

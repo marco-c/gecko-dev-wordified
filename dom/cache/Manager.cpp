@@ -1114,6 +1114,8 @@ failure
 .
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 MaybeUpdatePaddingFile
 (
 aDBDir
@@ -1144,6 +1146,7 @@ Commit
 )
 ;
 }
+)
 )
 )
 ;

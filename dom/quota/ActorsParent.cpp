@@ -14829,11 +14829,14 @@ ss
 }
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 QuotaManager
 :
 :
 Initialize
 (
+)
 )
 )
 ;
@@ -21543,6 +21546,8 @@ fired
 .
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 (
 *
 mShutdownTimer
@@ -21551,6 +21556,7 @@ mShutdownTimer
 >
 Cancel
 (
+)
 )
 )
 ;
@@ -21657,6 +21663,8 @@ objects
 .
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 (
 *
 mIOThread
@@ -21667,6 +21675,7 @@ Dispatch
 (
 runnable
 NS_DISPATCH_NORMAL
+)
 )
 )
 ;
@@ -21683,6 +21692,8 @@ thread
 .
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 (
 *
 mIOThread
@@ -21691,6 +21702,7 @@ mIOThread
 >
 Shutdown
 (
+)
 )
 )
 ;
@@ -49836,12 +49848,15 @@ Windows
 .
 QM_WARNONLY_TRY
 (
+QM_TO_RESULT
+(
 file
 -
 >
 Remove
 (
 true
+)
 )
 [
 &
