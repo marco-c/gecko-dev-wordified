@@ -83,7 +83,7 @@ const
 kTestPage
 =
 "
-http
+https
 :
 /
 /
@@ -126,7 +126,7 @@ const
 kPostActionPage
 =
 "
-http
+https
 :
 /
 /
