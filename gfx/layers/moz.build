@@ -201,11 +201,6 @@ LayersTypes
 h
 "
 "
-LayerTreeInvalidation
-.
-h
-"
-"
 LayerUserData
 .
 h
@@ -2800,11 +2795,6 @@ cpp
 "
 "
 LayersTypes
-.
-cpp
-"
-"
-LayerTreeInvalidation
 .
 cpp
 "
