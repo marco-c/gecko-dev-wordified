@@ -22222,12 +22222,6 @@ case
 CacheKind
 :
 :
-NewArray
-:
-case
-CacheKind
-:
-:
 NewObject
 :
 /
@@ -22402,12 +22396,6 @@ CacheKind
 :
 :
 GetIterator
-:
-case
-CacheKind
-:
-:
-NewArray
 :
 case
 CacheKind
