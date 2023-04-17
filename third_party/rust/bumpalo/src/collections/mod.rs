@@ -128,6 +128,14 @@ terms
 Collection
 types
 .
+#
+!
+[
+allow
+(
+deprecated
+)
+]
 mod
 raw_vec
 ;
