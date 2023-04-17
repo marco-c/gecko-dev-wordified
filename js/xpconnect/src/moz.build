@@ -109,6 +109,11 @@ xpcpublic
 .
 h
 "
+"
+XPCSelfHostedShmem
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -201,6 +206,11 @@ cpp
 "
 "
 XPCRuntimeService
+.
+cpp
+"
+"
+XPCSelfHostedShmem
 .
 cpp
 "
