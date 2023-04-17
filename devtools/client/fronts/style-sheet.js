@@ -98,16 +98,6 @@ sheet
 "
 )
 ;
-const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 loader
 .
 lazyRequireGetter
@@ -466,7 +456,7 @@ indentWithTabs
 prefIndent
 ;
 return
-promise
+Promise
 .
 resolve
 (

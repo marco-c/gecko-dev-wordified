@@ -98,16 +98,6 @@ rule
 "
 )
 ;
-const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 loader
 .
 lazyRequireGetter
@@ -827,7 +817,7 @@ _originalLocation
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -884,7 +874,7 @@ return
 early
 .
 return
-promise
+Promise
 .
 resolve
 (

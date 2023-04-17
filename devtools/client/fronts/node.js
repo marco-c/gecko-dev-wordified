@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 FrontClassWithSpec
 types
@@ -2349,7 +2339,7 @@ nodeValue
 "
 ;
 return
-promise
+Promise
 .
 resolve
 (

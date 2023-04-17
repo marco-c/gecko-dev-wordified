@@ -124,16 +124,6 @@ strict
 "
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 getCSSLexer
 }
@@ -5288,7 +5278,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
