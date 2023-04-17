@@ -979,6 +979,8 @@ search
 setting
 -
 button
+-
+compact
 "
 )
 "
@@ -1103,6 +1105,8 @@ search
 setting
 -
 button
+-
+compact
 "
 )
 "
@@ -1454,6 +1458,8 @@ search
 setting
 -
 button
+-
+compact
 "
 )
 "
@@ -1735,6 +1741,8 @@ search
 setting
 -
 button
+-
+compact
 "
 )
 "
@@ -1925,6 +1933,8 @@ search
 setting
 -
 button
+-
+compact
 "
 )
 "
@@ -2962,6 +2972,8 @@ search
 setting
 -
 button
+-
+compact
 "
 )
 "
@@ -4290,6 +4302,8 @@ search
 setting
 -
 button
+-
+compact
 "
 )
 "
@@ -4580,6 +4594,8 @@ search
 setting
 -
 button
+-
+compact
 "
 )
 "
