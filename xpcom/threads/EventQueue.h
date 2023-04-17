@@ -172,6 +172,7 @@ MediumHigh
 InputHigh
 Vsync
 InputHighest
+Control
 Count
 }
 ;
