@@ -1895,8 +1895,6 @@ aText
 false
 )
 ;
-aError
-=
 option
 -
 >
@@ -1904,6 +1902,7 @@ AppendChildTo
 (
 textContent
 false
+aError
 )
 ;
 if

@@ -4154,7 +4154,7 @@ aFlags
 const
 final
 ;
-nsresult
+void
 InsertChildBefore
 (
 nsIContent
@@ -4165,6 +4165,9 @@ nsIContent
 aBeforeThis
 bool
 aNotify
+ErrorResult
+&
+aRv
 )
 override
 ;

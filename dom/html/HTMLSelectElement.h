@@ -1325,7 +1325,7 @@ aTabIndex
 override
 ;
 virtual
-nsresult
+void
 InsertChildBefore
 (
 nsIContent
@@ -1336,6 +1336,9 @@ nsIContent
 aBeforeThis
 bool
 aNotify
+ErrorResult
+&
+aRv
 )
 override
 ;

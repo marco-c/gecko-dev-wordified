@@ -3625,6 +3625,9 @@ AppendChildTo
 (
 mImageContent
 false
+IgnoreErrors
+(
+)
 )
 ;
 mImageContent

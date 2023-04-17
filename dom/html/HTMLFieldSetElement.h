@@ -169,6 +169,9 @@ namespace
 mozilla
 {
 class
+ErrorResult
+;
+class
 EventChainPreVisitor
 ;
 namespace
@@ -268,7 +271,7 @@ aNotify
 override
 ;
 virtual
-nsresult
+void
 InsertChildBefore
 (
 nsIContent
@@ -279,6 +282,9 @@ nsIContent
 aBeforeThis
 bool
 aNotify
+ErrorResult
+&
+aRv
 )
 override
 ;

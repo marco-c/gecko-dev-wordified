@@ -1112,6 +1112,9 @@ ContentNode
 (
 )
 false
+IgnoreErrors
+(
+)
 )
 ;
 }

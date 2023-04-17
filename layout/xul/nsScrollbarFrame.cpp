@@ -2430,6 +2430,9 @@ AppendChildTo
 (
 mThumb
 false
+IgnoreErrors
+(
+)
 )
 ;
 }

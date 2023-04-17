@@ -1893,6 +1893,12 @@ AppendChildTo
 (
 child
 true
+mozilla
+:
+:
+IgnoreErrors
+(
+)
 )
 ;
 /

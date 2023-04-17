@@ -1539,6 +1539,9 @@ AppendChildTo
 (
 child
 false
+IgnoreErrors
+(
+)
 )
 ;
 }
