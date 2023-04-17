@@ -620,7 +620,7 @@ aFrame
 /
 /
 misc
-nsresult
+void
 addGotoTarget
 (
 txInstruction
@@ -629,7 +629,7 @@ txInstruction
 aTargetPointer
 )
 ;
-nsresult
+void
 addVariable
 (
 const

@@ -680,7 +680,7 @@ txPattern
 {
 public
 :
-nsresult
+void
 addPattern
 (
 txPattern
@@ -694,9 +694,6 @@ AppendElement
 (
 aPattern
 )
-;
-return
-NS_OK
 ;
 }
 TX_DECL_PATTERN
@@ -725,7 +722,7 @@ txPattern
 {
 public
 :
-nsresult
+void
 addStep
 (
 txPattern
