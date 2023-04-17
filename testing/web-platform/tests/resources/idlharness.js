@@ -9510,7 +9510,7 @@ tests
 for
 /
 /
-NoInterfaceObject
+LegacyNoInterfaceObject
 interfaces
 and
 we
@@ -9520,9 +9520,9 @@ can
 t
 test
 objects
+/
+/
 that
-/
-/
 come
 from
 another
@@ -9569,7 +9569,7 @@ type
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 &
@@ -10638,7 +10638,7 @@ the
 /
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 extended
 attribute
@@ -10674,7 +10674,7 @@ this
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 ;
@@ -10772,7 +10772,7 @@ constants
 "
 declared
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 attribute
 "
@@ -11789,7 +11789,7 @@ this
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 |
@@ -12858,7 +12858,7 @@ inherited_interface
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 )
@@ -13899,7 +13899,7 @@ when
 testing
 of
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 interfaces
 is
@@ -15978,7 +15978,7 @@ of
 /
 /
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 .
 )
@@ -16282,7 +16282,7 @@ parent
 has_extended_attribute
 (
 "
-NoInterfaceObject
+LegacyNoInterfaceObject
 "
 )
 )
@@ -16958,16 +16958,16 @@ prototype
 If
 the
 [
-NoInterfaceObject
+LegacyNoInterfaceObject
 ]
 extended
 attribute
 was
 not
 specified
+/
+/
 on
-/
-/
 the
 interface
 then
