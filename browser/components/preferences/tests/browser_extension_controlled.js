@@ -7126,6 +7126,8 @@ PANEL_URL
 let
 closingPromise
 =
+BrowserTestUtils
+.
 waitForEvent
 (
 panel
