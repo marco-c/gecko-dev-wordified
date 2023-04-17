@@ -1238,7 +1238,7 @@ enough
 .
 static
 const
-unsigned
+size_t
 kSigStackSize
 =
 std
@@ -1246,8 +1246,14 @@ std
 :
 max
 (
+size_t
+(
 16384
+)
+size_t
+(
 SIGSTKSZ
+)
 )
 ;
 /
