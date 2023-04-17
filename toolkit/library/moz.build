@@ -1601,15 +1601,6 @@ OS_LIBS
 CONFIG
 [
 "
-MOZ_CAIRO_OSLIBS
-"
-]
-OS_LIBS
-+
-=
-CONFIG
-[
-"
 MOZ_WEBRTC_X11_LIBS
 "
 ]
@@ -1901,6 +1892,9 @@ OS_LIBS
 +
 =
 [
+"
+Xrender
+"
 "
 gthread
 -
