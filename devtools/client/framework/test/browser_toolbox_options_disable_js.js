@@ -201,13 +201,13 @@ waitForTick
 here
 because
 switching
-docShell
+browsingContext
 .
 allowJavascript
+/
+/
 to
 true
-/
-/
 takes
 a
 while

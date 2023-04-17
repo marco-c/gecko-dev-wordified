@@ -4231,7 +4231,7 @@ refresh
 here
 because
 setting
-docShell
+browsingContext
 .
 allowJavascript
 to
@@ -4239,8 +4239,8 @@ true
 fails
 to
 block
-JS
 *
+JS
 execution
 from
 event
@@ -4251,8 +4251,8 @@ addEventListener
 (
 )
 AJAX
-calls
 *
+calls
 and
 timers
 .
@@ -4265,9 +4265,9 @@ things
 from
 being
 added
+*
 in
 the
-*
 first
 place
 .

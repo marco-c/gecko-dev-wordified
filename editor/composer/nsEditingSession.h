@@ -222,6 +222,12 @@ nsIDocShell
 class
 nsIWebProgress
 ;
+class
+nsIPIDOMWindowOuter
+;
+class
+nsIPIDOMWindowInner
+;
 namespace
 mozilla
 {
@@ -567,9 +573,9 @@ aDocShell
 nsresult
 DisableJSAndPlugins
 (
-nsIDocShell
-&
-aDocShell
+nsPIDOMWindowInner
+*
+aWindow
 )
 ;
 /
@@ -605,7 +611,7 @@ disableJSAndPlugins
 nsresult
 RestoreJSAndPlugins
 (
-nsPIDOMWindowOuter
+nsPIDOMWindowInner
 *
 aWindow
 )

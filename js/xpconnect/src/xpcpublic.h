@@ -508,7 +508,7 @@ Unblock
 )
 ;
 void
-SetDocShellAllowsScript
+SetWindowAllowsScript
 (
 bool
 aAllowed
@@ -601,7 +601,8 @@ mScriptBlocks
 /
 Whether
 the
-docshell
+DOM
+window
 allows
 javascript
 in
@@ -618,7 +619,7 @@ doesn
 t
 have
 a
-docshell
+window
 this
 value
 is
@@ -626,7 +627,7 @@ always
 true
 .
 bool
-mDocShellAllowsScript
+mWindowAllowsScript
 ;
 /
 /
