@@ -332,6 +332,14 @@ derive_more
 ;
 #
 [
+macro_use
+]
+extern
+crate
+gecko_profiler
+;
+#
+[
 cfg
 (
 feature

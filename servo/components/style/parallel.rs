@@ -2587,10 +2587,11 @@ move
 scope
 |
 {
-profiler_label
+gecko_profiler_label
 !
 (
-Style
+Layout
+StyleComputation
 )
 ;
 let
@@ -2666,10 +2667,11 @@ move
 scope
 |
 {
-profiler_label
+gecko_profiler_label
 !
 (
-Style
+Layout
+StyleComputation
 )
 ;
 let
