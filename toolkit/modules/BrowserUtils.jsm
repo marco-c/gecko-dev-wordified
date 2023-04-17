@@ -899,14 +899,6 @@ scheme
 |
 |
 "
-wyciwyg
-"
-=
-=
-scheme
-|
-|
-"
 blob
 "
 =

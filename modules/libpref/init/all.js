@@ -54085,11 +54085,6 @@ chrome
 .
 *
 |
-wyciwyg
-:
-.
-*
-|
 file
 :
 .
