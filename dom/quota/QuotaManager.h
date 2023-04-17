@@ -397,6 +397,9 @@ mozilla
 class
 OriginAttributes
 ;
+class
+QMResult
+;
 namespace
 ipc
 {
@@ -2575,7 +2578,11 @@ mozIStorageConnection
 aConnection
 )
 ;
-nsresult
+Result
+<
+Ok
+QMResult
+>
 MaybeRemoveLocalStorageArchiveTmpFile
 (
 )
