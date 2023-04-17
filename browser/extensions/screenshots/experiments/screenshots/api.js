@@ -355,7 +355,7 @@ data
 >
 {
 let
-isContexMenuClick
+type
 =
 data
 ;
@@ -363,7 +363,7 @@ fire
 .
 sync
 (
-isContexMenuClick
+type
 )
 ;
 }
