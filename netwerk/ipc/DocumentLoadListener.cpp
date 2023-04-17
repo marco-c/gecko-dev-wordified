@@ -14284,6 +14284,13 @@ mDoingProcessSwitch
 =
 true
 ;
+DisconnectListeners
+(
+NS_BINDING_ABORTED
+NS_BINDING_ABORTED
+true
+)
+;
 /
 /
 XXX
