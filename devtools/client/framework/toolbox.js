@@ -8887,6 +8887,8 @@ new
 SourceMapURLService
 (
 this
+.
+commands
 sourceMaps
 )
 ;
