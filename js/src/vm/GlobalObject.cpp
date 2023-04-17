@@ -6317,7 +6317,7 @@ before
 fun
 -
 >
-initAtom
+setAtom
 (
 name
 )
