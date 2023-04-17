@@ -1954,11 +1954,15 @@ VerifyCacheSizes
 )
 ;
 nsresult
-RemoveEntriesFromPrincipal
+RemoveEntriesInternal
 (
 nsIPrincipal
 *
 aPrincipal
+const
+nsACString
+*
+aBaseDomain
 )
 ;
 /

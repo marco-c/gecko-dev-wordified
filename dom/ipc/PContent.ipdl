@@ -3432,6 +3432,13 @@ aPrincipal
 )
 ;
 async
+ClearImageCacheFromBaseDomain
+(
+nsCString
+aBaseDomain
+)
+;
+async
 ClearImageCache
 (
 bool
