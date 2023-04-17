@@ -193,16 +193,6 @@ doc_type
 self
 .
 doc_type
-FOG_BACKGROUND_UPDATE_PING
-=
-FOGDocTypePingFilter
-(
-"
-background
--
-update
-"
-)
 FOG_BASELINE_PING
 =
 FOGDocTypePingFilter
