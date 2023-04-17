@@ -219,6 +219,12 @@ annotations
 [
 [
 "
+OOMAllocationSize
+"
+true
+]
+[
+"
 AvailablePageFile
 "
 false
@@ -265,6 +271,12 @@ macosx
 annotations
 =
 [
+[
+"
+OOMAllocationSize
+"
+true
+]
 [
 "
 AvailablePhysicalMemory
