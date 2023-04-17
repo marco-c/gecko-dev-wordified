@@ -98,9 +98,7 @@ new
 WebTransport
 (
 "
-quic
--
-transport
+https
 :
 /
 /
