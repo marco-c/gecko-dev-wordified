@@ -785,7 +785,7 @@ skin
 /
 icons
 /
-success
+check
 .
 svg
 "
