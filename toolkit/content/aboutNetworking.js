@@ -707,7 +707,7 @@ sockets
 i
 ]
 .
-tcp
+type
 )
 )
 ;

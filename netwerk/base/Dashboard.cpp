@@ -3037,10 +3037,8 @@ i
 .
 active
 ;
-mSocket
-.
-mTcp
-=
+CopyASCIItoUTF16
+(
 socketData
 -
 >
@@ -3049,7 +3047,11 @@ mData
 i
 ]
 .
-tcp
+type
+mSocket
+.
+mType
+)
 ;
 mSocket
 .

@@ -125,8 +125,8 @@ port
 bool
 active
 ;
-bool
-tcp
+nsCString
+type
 ;
 }
 ;
@@ -199,12 +199,12 @@ active
 &
 a
 .
-tcp
+type
 =
 =
 b
 .
-tcp
+type
 ;
 }
 struct
@@ -399,7 +399,7 @@ WriteParam
 aMsg
 aParam
 .
-tcp
+type
 )
 ;
 }
@@ -488,7 +488,7 @@ aIter
 aResult
 -
 >
-tcp
+type
 )
 ;
 }
