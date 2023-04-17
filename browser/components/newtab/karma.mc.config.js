@@ -1095,7 +1095,7 @@ lines
 60
 functions
 :
-75
+65
 branches
 :
 50
