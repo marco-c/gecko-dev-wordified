@@ -78,6 +78,13 @@ h
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EMEUtils
