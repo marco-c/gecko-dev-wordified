@@ -100,8 +100,8 @@ thread
 and
 consuming
 it
-on
 *
+on
 another
 thread
 safely
@@ -113,8 +113,8 @@ synchronization
 If
 used
 on
-two
 *
+two
 threads
 this
 data
@@ -127,8 +127,8 @@ safety
 .
 It
 is
-possible
 *
+possible
 to
 disable
 the
@@ -800,6 +800,7 @@ default
 constructed
 elements
 are
+*
 enqueued
 .
 *
@@ -824,8 +825,8 @@ coped
 from
 elements
 and
-inserted
 *
+inserted
 into
 the
 ring

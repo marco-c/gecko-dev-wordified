@@ -42,6 +42,13 @@ define
 CUBEB_c2f983e9_c96f_e71c_72c3_bbf62992a382
 #
 include
+"
+cubeb_export
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -54,13 +61,6 @@ stdlib
 .
 h
 >
-#
-include
-"
-cubeb_export
-.
-h
-"
 #
 if
 defined
@@ -2063,6 +2063,7 @@ types
 #
 define
 CUBEB_DEVICE_FMT_S16_MASK
+\
 (
 CUBEB_DEVICE_FMT_S16LE
 |
@@ -2085,6 +2086,7 @@ types
 #
 define
 CUBEB_DEVICE_FMT_F32_MASK
+\
 (
 CUBEB_DEVICE_FMT_F32LE
 |
@@ -2104,6 +2106,7 @@ types
 #
 define
 CUBEB_DEVICE_FMT_ALL
+\
 (
 CUBEB_DEVICE_FMT_S16_MASK
 |
@@ -2918,6 +2921,7 @@ The
 pointer
 passed
 to
+*
 cubeb_register_device_collection_changed
 .
 *

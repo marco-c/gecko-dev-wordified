@@ -365,6 +365,7 @@ key
 #
 define
 SL_ANDROID_KEY_RECORDING_PRESET
+\
 (
 (
 const
@@ -1150,6 +1151,7 @@ key
 #
 define
 SL_ANDROID_KEY_PERFORMANCE_MODE
+\
 (
 (
 const
@@ -1182,6 +1184,7 @@ SW
 pre
 /
 post
+*
 processing
 .
 *
@@ -1247,6 +1250,7 @@ HW
 pre
 and
 post
+*
 processing
 .
 *
