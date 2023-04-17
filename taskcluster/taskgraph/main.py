@@ -994,6 +994,15 @@ futures
 )
 :
         
+output_file
+=
+options
+[
+"
+output_file
+"
+]
+        
 spec
 =
 futures
@@ -1034,6 +1043,34 @@ e
 __traceback__
 )
 )
+            
+if
+options
+[
+"
+diff
+"
+]
+:
+                
+#
+Dump
+to
+console
+so
+we
+don
+'
+t
+accidentally
+diff
+the
+tracebacks
+.
+                
+output_file
+=
+None
         
 else
 :
@@ -1053,12 +1090,7 @@ out
             
 path
 =
-options
-[
-"
 output_file
-"
-]
             
 params_spec
 =
