@@ -16218,7 +16218,7 @@ Extend3DContext
 aFrame
 -
 >
-GetTransformGetter
+HasTransformGetter
 (
 )
 )
