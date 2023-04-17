@@ -648,9 +648,13 @@ command_depth
         
 fn
 =
+getattr
+(
+instance
 handler
 .
-func
+method
+)
         
 start_time
 =
