@@ -1981,7 +1981,6 @@ PresShell
 :
 ClearMouseCapture
 (
-nullptr
 )
 ;
 if
