@@ -785,13 +785,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-set
--
-xhr
--
-breakpoints
-"
 )
 ;
 if
@@ -868,13 +861,6 @@ targetCommand
 .
 hasTargetWatcherSupport
 (
-"
-set
--
-xhr
--
-breakpoints
-"
 )
 ;
 if
@@ -889,7 +875,7 @@ Without
 watcher
 support
 forward
-setXHRBreakpoint
+removeXHRBreakpoint
 to
 all
 threads
