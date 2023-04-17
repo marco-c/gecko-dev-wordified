@@ -3246,7 +3246,7 @@ rv
 confDir
 -
 >
-AppendNative
+AppendRelativeNativePath
 (
 nsDependentCString
 (
