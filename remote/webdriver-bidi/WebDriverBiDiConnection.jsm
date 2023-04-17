@@ -1049,8 +1049,6 @@ to
 execute
 the
 command
-/
-/
 result
 =
 await
@@ -1060,8 +1058,7 @@ session
 .
 execute
 (
-id
-domain
+module
 command
 params
 )
