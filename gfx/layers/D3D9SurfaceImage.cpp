@@ -622,6 +622,9 @@ isYUV
 mFormat
 =
 =
+gfx
+:
+:
 SurfaceFormat
 :
 :
@@ -631,6 +634,9 @@ NV12
 mFormat
 =
 =
+gfx
+:
+:
 SurfaceFormat
 :
 :
@@ -640,6 +646,9 @@ P010
 mFormat
 =
 =
+gfx
+:
+:
 SurfaceFormat
 :
 :
