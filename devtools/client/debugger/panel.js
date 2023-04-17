@@ -284,13 +284,13 @@ Debugger
 bootstrap
 (
 {
-targetList
+commands
 :
 this
 .
 toolbox
 .
-targetList
+commands
 resourceWatcher
 :
 this

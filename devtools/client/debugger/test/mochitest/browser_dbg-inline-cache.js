@@ -489,7 +489,9 @@ page
 await
 toolbox
 .
-targetList
+commands
+.
+targetConfigurationCommand
 .
 updateConfiguration
 (
@@ -754,7 +756,9 @@ page
 await
 toolbox
 .
-targetList
+commands
+.
+targetConfigurationCommand
 .
 updateConfiguration
 (

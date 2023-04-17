@@ -362,9 +362,8 @@ function
 bootstrap
 (
 {
-targetList
+commands
 resourceWatcher
-devToolsClient
 workers
 :
 panelWorkers
@@ -375,13 +374,6 @@ panel
 verifyPrefSchema
 (
 )
-;
-const
-commands
-=
-firefox
-.
-clientCommands
 ;
 const
 initialState
@@ -408,7 +400,9 @@ selectors
 =
 bootstrapStore
 (
-commands
+firefox
+.
+clientCommands
 workers
 panel
 initialState
@@ -421,8 +415,7 @@ firefox
 .
 onConnect
 (
-devToolsClient
-targetList
+commands
 resourceWatcher
 actions
 store
@@ -450,6 +443,10 @@ actions
 selectors
 workers
 targetList
+:
+commands
+.
+targetCommand
 client
 :
 firefox
@@ -474,7 +471,9 @@ actions
 selectors
 client
 :
-commands
+firefox
+.
+clientCommands
 }
 ;
 }

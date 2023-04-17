@@ -2267,7 +2267,9 @@ disabled
 await
 toolbox
 .
-targetList
+commands
+.
+targetConfigurationCommand
 .
 updateConfiguration
 (

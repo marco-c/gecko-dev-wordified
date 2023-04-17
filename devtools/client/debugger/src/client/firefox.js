@@ -144,8 +144,7 @@ async
 function
 onConnect
 (
-devToolsClient
-_targetList
+commands
 _resourceWatcher
 _actions
 store
@@ -157,7 +156,9 @@ _actions
 ;
 targetList
 =
-_targetList
+commands
+.
+targetCommand
 ;
 resourceWatcher
 =
@@ -165,10 +166,7 @@ _resourceWatcher
 ;
 setupCommands
 (
-{
-devToolsClient
-targetList
-}
+commands
 )
 ;
 setupCreate
