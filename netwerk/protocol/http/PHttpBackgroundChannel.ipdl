@@ -252,8 +252,6 @@ nsHttpHeaderArray
 requestHeaders
 HttpChannelOnStartRequestArgs
 args
-HttpChannelAltDataStream
-altData
 )
 ;
 /

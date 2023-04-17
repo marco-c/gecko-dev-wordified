@@ -806,11 +806,6 @@ net
 =
 [
 "
-CacheInfoIPCTypes
-.
-h
-"
-"
 CaptivePortalService
 .
 h

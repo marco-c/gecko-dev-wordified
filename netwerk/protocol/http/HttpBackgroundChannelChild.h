@@ -341,10 +341,6 @@ const
 HttpChannelOnStartRequestArgs
 &
 aArgs
-const
-HttpChannelAltDataStream
-&
-aAltData
 )
 ;
 IPCResult
