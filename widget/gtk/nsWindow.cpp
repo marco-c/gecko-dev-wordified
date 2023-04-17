@@ -14288,6 +14288,11 @@ GetFrame
 )
 )
 ;
+if
+(
+popupFrame
+)
+{
 popupFrame
 -
 >
@@ -14305,6 +14310,7 @@ y
 true
 )
 ;
+}
 }
 }
 bool
