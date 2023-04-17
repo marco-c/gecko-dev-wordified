@@ -738,6 +738,7 @@ CCRunnerState
 :
 :
 ReducePurple
+reason
 )
 ;
 EXPECT_TRUE

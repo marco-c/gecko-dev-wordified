@@ -8465,6 +8465,8 @@ nsJSContext
 :
 CycleCollectNow
 (
+CCReason
+aReason
 nsICycleCollectorListener
 *
 aListener
@@ -8494,6 +8496,7 @@ GCCC
 ;
 PrepareForCycleCollectionSlice
 (
+aReason
 TimeStamp
 (
 )
@@ -8501,6 +8504,7 @@ TimeStamp
 ;
 nsCycleCollector_collect
 (
+aReason
 aListener
 )
 ;
@@ -8520,6 +8524,8 @@ nsJSContext
 :
 PrepareForCycleCollectionSlice
 (
+CCReason
+aReason
 TimeStamp
 aDeadline
 )
@@ -8590,6 +8596,7 @@ sScheduler
 .
 NoteCCBegin
 (
+aReason
 beginTime
 )
 ;
@@ -8613,6 +8620,8 @@ nsJSContext
 :
 RunCycleCollectorSlice
 (
+CCReason
+aReason
 TimeStamp
 aDeadline
 )
@@ -8662,6 +8671,7 @@ GCCC
 ;
 PrepareForCycleCollectionSlice
 (
+aReason
 aDeadline
 )
 ;
@@ -8716,6 +8726,7 @@ preferShorterSlices
 nsCycleCollector_collectSlice
 (
 budget
+aReason
 preferShorterSlices
 )
 ;
@@ -8741,6 +8752,7 @@ unlimited
 nsCycleCollector_collectSlice
 (
 budget
+aReason
 false
 )
 ;
@@ -8789,6 +8801,10 @@ GCCC
 ;
 PrepareForCycleCollectionSlice
 (
+CCReason
+:
+:
+API
 TimeStamp
 (
 )
@@ -8817,6 +8833,10 @@ aWorkBudget
 nsCycleCollector_collectSlice
 (
 budget
+CCReason
+:
+:
+API
 )
 ;
 sCCStats
@@ -8870,6 +8890,8 @@ nsJSContext
 :
 BeginCycleCollectionCallback
 (
+CCReason
+aReason
 )
 {
 MOZ_ASSERT
@@ -8999,6 +9021,7 @@ CCRunnerState
 :
 :
 CycleCollecting
+aReason
 )
 ;
 sScheduler
@@ -9505,6 +9528,9 @@ nsJSContext
 :
 RunCycleCollectorSlice
 (
+step
+.
+mCCReason
 aDeadline
 )
 ;
@@ -9975,6 +10001,10 @@ nsJSContext
 :
 CycleCollectNow
 (
+CCReason
+:
+:
+MEM_PRESSURE
 )
 ;
 if
