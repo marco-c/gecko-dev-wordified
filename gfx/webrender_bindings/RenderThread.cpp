@@ -827,6 +827,16 @@ Wait
 (
 )
 ;
+layers
+:
+:
+SharedSurfacesParent
+:
+:
+Shutdown
+(
+)
+;
 sRenderThread
 =
 nullptr
@@ -957,7 +967,7 @@ layers
 SharedSurfacesParent
 :
 :
-Shutdown
+ShutdownRenderThread
 (
 )
 ;

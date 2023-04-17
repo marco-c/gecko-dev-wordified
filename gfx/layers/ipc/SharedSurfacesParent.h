@@ -312,6 +312,12 @@ Initialize
 ;
 static
 void
+ShutdownRenderThread
+(
+)
+;
+static
+void
 Shutdown
 (
 )
@@ -463,11 +469,6 @@ AccumulateMemoryReport
 SharedSurfacesMemoryReport
 &
 aReport
-)
-;
-~
-SharedSurfacesParent
-(
 )
 ;
 private
