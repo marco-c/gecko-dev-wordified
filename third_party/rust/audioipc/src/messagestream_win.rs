@@ -320,7 +320,7 @@ missing_safety_doc
 pub
 unsafe
 fn
-from_raw_handle
+from_raw_fd
 (
 raw
 :
