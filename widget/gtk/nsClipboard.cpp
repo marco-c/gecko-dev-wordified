@@ -551,7 +551,6 @@ nsClipboard
 :
 kGlobalClipboard
 ;
-else
 return
 -
 1
