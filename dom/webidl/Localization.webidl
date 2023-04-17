@@ -1046,10 +1046,8 @@ aKeys
 )
 ;
 void
-setIsSync
+setAsync
 (
-boolean
-aIsSync
 )
 ;
 [

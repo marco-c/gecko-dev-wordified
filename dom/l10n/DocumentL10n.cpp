@@ -1855,9 +1855,8 @@ unconditionally
 /
 async
 .
-SetIsSync
+SetAsync
 (
-false
 )
 ;
 }
