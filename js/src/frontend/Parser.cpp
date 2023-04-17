@@ -38860,7 +38860,7 @@ if
 (
 handler_
 .
-isPropertyAccess
+isPropertyOrPrivateMemberAccess
 (
 *
 forInitialPart
@@ -49623,7 +49623,7 @@ propAssignFieldAccess
 =
 handler_
 .
-newPropertyByValue
+newPrivateMemberAccess
 (
 propAssignThis
 privateNameNode
@@ -56404,7 +56404,7 @@ if
 (
 handler_
 .
-isPropertyAccess
+isPropertyOrPrivateMemberAccess
 (
 lhs
 )
@@ -56782,7 +56782,7 @@ if
 (
 handler_
 .
-isPropertyAccess
+isPropertyOrPrivateMemberAccess
 (
 operand
 )
@@ -58144,7 +58144,7 @@ if
 (
 handler_
 .
-isPrivateField
+isPrivateMemberAccess
 (
 expr
 )
@@ -60383,7 +60383,7 @@ lhs
 return
 handler_
 .
-newOptionalPropertyByValue
+newOptionalPrivateMemberAccess
 (
 lhs
 privateName
@@ -60398,7 +60398,7 @@ end
 return
 handler_
 .
-newPropertyByValue
+newPrivateMemberAccess
 (
 lhs
 privateName
@@ -60810,7 +60810,7 @@ selfHostingMode
 (
 handler_
 .
-isPropertyAccess
+isPropertyOrPrivateMemberAccess
 (
 lhs
 )
@@ -60818,7 +60818,7 @@ lhs
 |
 handler_
 .
-isOptionalPropertyAccess
+isOptionalPropertyOrPrivateMemberAccess
 (
 lhs
 )
@@ -63641,7 +63641,7 @@ possibleError
 |
 handler_
 .
-isPropertyAccess
+isPropertyOrPrivateMemberAccess
 (
 expr
 )
