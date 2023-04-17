@@ -3546,6 +3546,12 @@ mRedirectURI
 ;
 nsCOMPtr
 <
+nsIURI
+>
+mUnstrippedRedirectURI
+;
+nsCOMPtr
+<
 nsIChannel
 >
 mRedirectChannel
