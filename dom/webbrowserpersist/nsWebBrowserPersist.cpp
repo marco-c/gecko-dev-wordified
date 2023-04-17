@@ -332,6 +332,13 @@ h
 #
 include
 "
+ftpCore
+.
+h
+"
+#
+include
+"
 nsIStringBundle
 .
 h
@@ -7860,6 +7867,12 @@ NS_NET_STATUS_RESOLVING_HOST
 :
 case
 NS_NET_STATUS_RESOLVED_HOST
+:
+case
+NS_NET_STATUS_BEGIN_FTP_TRANSACTION
+:
+case
+NS_NET_STATUS_END_FTP_TRANSACTION
 :
 case
 NS_NET_STATUS_CONNECTING_TO
