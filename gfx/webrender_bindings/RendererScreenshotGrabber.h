@@ -400,9 +400,6 @@ gfx
 IntSize
 mWindowSize
 ;
-uintptr_t
-mWindowIdentifier
-;
 }
 ;
 /
