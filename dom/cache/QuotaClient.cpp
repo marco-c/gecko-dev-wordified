@@ -432,7 +432,7 @@ StepFunc
 aStepFunc
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 quota
 :
@@ -467,7 +467,7 @@ UsageInfo
 nsresult
 >
 {
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -485,7 +485,7 @@ NS_ERROR_ABORT
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -530,7 +530,7 @@ AssertIsOnIOThread
 (
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 ReduceUsageInfo
 (
@@ -555,7 +555,7 @@ UsageInfo
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -691,7 +691,7 @@ Unused
 <
 leafName
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -936,7 +936,7 @@ not
 desired
 )
 .
-CACHE_TRY
+QM_TRY
 (
 ToResult
 (
@@ -1170,7 +1170,7 @@ mDirectoryLockId
 ifdef
 DEBUG
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -1191,7 +1191,7 @@ exists
 }
 #
 endif
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1262,7 +1262,7 @@ origin
 yet
 )
 .
-CACHE_TRY
+QM_TRY
 (
 db
 :
@@ -1274,7 +1274,7 @@ conn
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 DirectoryPaddingRestore
 (
@@ -1418,7 +1418,7 @@ MOZ_DIAGNOSTIC_ASSERT
 qm
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1436,7 +1436,7 @@ mOrigin
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 dir
 -
@@ -1450,7 +1450,7 @@ DOMCACHE_DIRECTORY_NAME
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1473,7 +1473,7 @@ nsIFile
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1529,7 +1529,7 @@ caches
 sqlite
 "
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1664,7 +1664,7 @@ as
 database
 corruption
 .
-CACHE_TRY
+QM_TRY
 (
 mozilla
 :
@@ -1686,7 +1686,7 @@ TMP_FILE
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 mozilla
 :
@@ -1708,7 +1708,7 @@ FILE
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1725,7 +1725,7 @@ kMorgueDirectoryFilename
 QuotaInfo
 dummy
 ;
-CACHE_TRY
+QM_TRY
 (
 mozilla
 :
@@ -1760,7 +1760,7 @@ nullptr
 }
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1858,7 +1858,7 @@ doesn
 t
 exist
 .
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -1871,7 +1871,7 @@ UsageInfo
 }
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1974,7 +1974,7 @@ the
 padding
 file
 .
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 GetPaddingSizeFromDB
 (
@@ -1992,7 +1992,7 @@ aOriginMetadata
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2024,7 +2024,7 @@ UsageInfo
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2038,7 +2038,7 @@ GetLeafName
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2074,7 +2074,7 @@ morgue
 )
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 GetBodyUsage
 (
@@ -2206,7 +2206,7 @@ wal
 )
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -2886,7 +2886,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aDirectory
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingInit
 (
@@ -2931,7 +2931,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aConn
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -3002,7 +3002,7 @@ FILE
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -3049,7 +3049,7 @@ if
 temporaryPaddingFileExist
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 directoryPaddingGetResult
 (
@@ -3070,7 +3070,7 @@ int64_t
 nsresult
 >
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 DirectoryPaddingGet
 (
@@ -3188,7 +3188,7 @@ paddingSize
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingDeleteFile
 (
@@ -3211,7 +3211,7 @@ we
 have
 one
 .
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingDeleteFile
 (
@@ -3224,7 +3224,7 @@ TMP_FILE
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 DirectoryPaddingInit
 (
@@ -3361,7 +3361,7 @@ MOZ_DIAGNOSTIC_ASSERT
 cacheQuotaClient
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 cacheQuotaClient
 -
@@ -3423,7 +3423,7 @@ MOZ_DIAGNOSTIC_ASSERT
 cacheQuotaClient
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 cacheQuotaClient
 -

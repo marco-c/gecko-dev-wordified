@@ -3651,7 +3651,7 @@ mForeignKeyCheckingDisabled
 false
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3674,7 +3674,7 @@ _ns
 QM_VOID
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -3824,7 +3824,7 @@ return
 NS_OK
 ;
 }
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3861,7 +3861,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3892,7 +3892,7 @@ ToInteger
 rv
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -3943,7 +3943,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 int32_t
 schemaVersion
@@ -3983,7 +3983,7 @@ and
 then
 proceed
 .
-CACHE_TRY
+QM_TRY
 (
 Validate
 (
@@ -4036,7 +4036,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -4082,7 +4082,7 @@ our
 new
 schema
 .
-CACHE_TRY
+QM_TRY
 (
 Migrate
 (
@@ -4107,7 +4107,7 @@ database
 from
 scratch
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4120,7 +4120,7 @@ kTableCaches
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4133,7 +4133,7 @@ kTableSecurityInfo
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4146,7 +4146,7 @@ kIndexSecurityInfoHash
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4159,7 +4159,7 @@ kTableEntries
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4172,7 +4172,7 @@ kIndexEntriesRequest
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4185,7 +4185,7 @@ kTableRequestHeaders
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4198,7 +4198,7 @@ kTableResponseHeaders
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4211,7 +4211,7 @@ kIndexResponseHeadersName
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4224,7 +4224,7 @@ kTableResponseUrlList
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4237,7 +4237,7 @@ kTableStorage
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4247,7 +4247,7 @@ kLatestSchemaVersion
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 schemaVersion
 GetEffectiveSchemaVersion
@@ -4257,7 +4257,7 @@ aConn
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 Validate
 (
@@ -4265,7 +4265,7 @@ aConn
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -4335,7 +4335,7 @@ of
 the
 transaction
 .
-CACHE_TRY
+QM_TRY
 (
 ToResult
 (
@@ -4377,7 +4377,7 @@ rv
 NS_ERROR_STORAGE_CONSTRAINT
 )
 {
-CACHE_TRY
+QM_TRY
 (
 IntegrityCheck
 (
@@ -4500,7 +4500,7 @@ UTF
 -
 16
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4626,7 +4626,7 @@ and
 enabling
 auto_vacuum
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4748,7 +4748,7 @@ silently
 ifdef
 DEBUG
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4769,7 +4769,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -4792,7 +4792,7 @@ value
 is
 incremental
 mode
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -4831,7 +4831,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -4849,7 +4849,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4880,7 +4880,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -4892,7 +4892,7 @@ NS_ERROR_UNEXPECTED
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 CacheId
@@ -4973,7 +4973,7 @@ referencing
 them
 invidivually
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4997,7 +4997,7 @@ be
 non
 -
 const
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -5014,7 +5014,7 @@ matches
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 DeleteSecurityInfoList
 (
@@ -5035,7 +5035,7 @@ using
 cascade
 semantics
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5064,7 +5064,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -5079,7 +5079,7 @@ aCacheId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -5119,7 +5119,7 @@ mozIStorageConnection
 aConn
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5156,7 +5156,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 (
 quota
@@ -5181,7 +5181,7 @@ auto
 stmt
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -5209,7 +5209,7 @@ mozIStorageConnection
 aConn
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5246,7 +5246,7 @@ overallPaddingSize
 =
 0
 ;
-CACHE_TRY
+QM_TRY
 (
 quota
 :
@@ -5272,7 +5272,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -5345,7 +5345,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5378,7 +5378,7 @@ nsID
 >
 idList
 ;
-CACHE_TRY
+QM_TRY
 (
 quota
 :
@@ -5430,7 +5430,7 @@ i
 i
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -5450,7 +5450,7 @@ if
 isNull
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5524,7 +5524,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5558,7 +5558,7 @@ SavedResponse
 )
 ;
 }
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 response
@@ -5627,7 +5627,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5653,7 +5653,7 @@ isNothing
 )
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 QueryAll
 (
@@ -5663,7 +5663,7 @@ aCacheId
 )
 ;
 }
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 QueryCache
 (
@@ -5702,7 +5702,7 @@ clause
 bug
 1110458
 )
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 TransformIntoNewArrayAbortOnErr
 (
@@ -5725,7 +5725,7 @@ SavedResponse
 nsresult
 >
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 savedResponse
@@ -5789,7 +5789,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5825,7 +5825,7 @@ be
 non
 -
 const
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -5842,7 +5842,7 @@ matches
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 InsertEntry
 (
@@ -5878,7 +5878,7 @@ its
 not
 necessary
 .
-CACHE_TRY
+QM_TRY
 (
 DeleteSecurityInfoList
 (
@@ -5934,7 +5934,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5978,7 +5978,7 @@ be
 non
 -
 const
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -5995,7 +5995,7 @@ matches
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 DeleteSecurityInfoList
 (
@@ -6057,7 +6057,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6083,7 +6083,7 @@ isNothing
 )
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 QueryAll
 (
@@ -6093,7 +6093,7 @@ aCacheId
 )
 ;
 }
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 QueryCache
 (
@@ -6132,7 +6132,7 @@ clause
 bug
 1110458
 )
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 TransformIntoNewArrayAbortOnErr
 (
@@ -6155,7 +6155,7 @@ SavedRequest
 nsresult
 >
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 savedRequest
@@ -6246,7 +6246,7 @@ cacheNameSet
 )
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6314,7 +6314,7 @@ in
 this
 namespace
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6349,7 +6349,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6364,7 +6364,7 @@ aNamespace
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6393,7 +6393,7 @@ auto
 stmt
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -6430,7 +6430,7 @@ cacheId
 cacheIdList
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 matchedResponse
@@ -6562,7 +6562,7 @@ rowid
 ;
 "
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6576,7 +6576,7 @@ aKey
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6591,7 +6591,7 @@ aNamespace
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -6620,7 +6620,7 @@ CacheId
 )
 ;
 }
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -6664,7 +6664,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6704,7 +6704,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6719,7 +6719,7 @@ aNamespace
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6734,7 +6734,7 @@ aKey
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6749,7 +6749,7 @@ aCacheId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6844,7 +6844,7 @@ s
 ;
 "
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6858,7 +6858,7 @@ aKey
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6873,7 +6873,7 @@ aNamespace
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6912,7 +6912,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6945,7 +6945,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -6960,7 +6960,7 @@ aNamespace
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 quota
 :
@@ -6977,7 +6977,7 @@ auto
 stmt
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -7017,7 +7017,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7050,7 +7050,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -7065,7 +7065,7 @@ aCacheId
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 (
 quota
@@ -7086,7 +7086,7 @@ auto
 stmt
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -7333,7 +7333,7 @@ id
 "
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7351,7 +7351,7 @@ query
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -7366,7 +7366,7 @@ aCacheId
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7388,7 +7388,7 @@ NS_CRYPTO_HASH_CONTRACTID
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7406,7 +7406,7 @@ urlWithoutQuery
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -7431,7 +7431,7 @@ ignoreSearch
 )
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7449,7 +7449,7 @@ urlQuery
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -7465,7 +7465,7 @@ urlQueryHash
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -7494,7 +7494,7 @@ ignoreSearch
 )
 )
 {
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -7517,7 +7517,7 @@ urlQuery
 EntryIds
 entryIdList
 ;
-CACHE_TRY
+QM_TRY
 (
 CollectWhile
 (
@@ -7554,7 +7554,7 @@ return
 false
 ;
 }
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -7591,7 +7591,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 EntryId
@@ -7605,7 +7605,7 @@ GetInt32
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -7630,7 +7630,7 @@ varyCount
 0
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -7703,7 +7703,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7729,7 +7729,7 @@ nsCString
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7771,7 +7771,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -7786,7 +7786,7 @@ entryId
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 (
 quota
@@ -7811,7 +7811,7 @@ auto
 stmt
 )
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -7857,7 +7857,7 @@ IsEmpty
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7890,7 +7890,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -7920,7 +7920,7 @@ HeadersGuardEnum
 None
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 quota
 :
@@ -7946,7 +7946,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -7961,7 +7961,7 @@ GetUTF8String
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -8492,7 +8492,7 @@ AppendLiteral
 "
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -8510,7 +8510,7 @@ query
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 BindListParamsToQuery
 (
@@ -8527,7 +8527,7 @@ overallPaddingSize
 =
 0
 ;
-CACHE_TRY
+QM_TRY
 (
 quota
 :
@@ -8583,7 +8583,7 @@ i
 i
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -8603,7 +8603,7 @@ if
 isNull
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -8638,7 +8638,7 @@ for
 the
 security
 id
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -8658,7 +8658,7 @@ if
 isNull
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -8807,7 +8807,7 @@ non
 -
 opaque
 response
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -8827,7 +8827,7 @@ if
 isNull
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -8920,7 +8920,7 @@ AppendLiteral
 )
 ;
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -8938,7 +8938,7 @@ query
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 BindListParamsToQuery
 (
@@ -8950,7 +8950,7 @@ aLen
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9026,7 +9026,7 @@ int64_t
 }
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 DeleteEntriesInternal
 (
@@ -9158,7 +9158,7 @@ the
 full
 data
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9234,7 +9234,7 @@ with
 EXPLAIN
 .
 )
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9319,7 +9319,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY
+QM_TRY
 (
 state
 .
@@ -9333,7 +9333,7 @@ hash
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 .
@@ -9382,7 +9382,7 @@ blob
 id
 to
 return
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -9396,7 +9396,7 @@ GetInt32
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -9421,7 +9421,7 @@ in
 the
 database
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9454,7 +9454,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9471,7 +9471,7 @@ refcount
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9486,7 +9486,7 @@ id
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9527,7 +9527,7 @@ refcount
 of
 1
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9566,7 +9566,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9581,7 +9581,7 @@ hash
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9596,7 +9596,7 @@ aData
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9607,7 +9607,7 @@ Execute
 )
 ;
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9629,7 +9629,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -9669,7 +9669,7 @@ this
 security
 blob
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -9691,7 +9691,7 @@ int32_t
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9732,7 +9732,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY
+QM_TRY
 (
 state
 .
@@ -9755,7 +9755,7 @@ Ok
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -9824,7 +9824,7 @@ newCount
 0
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9853,7 +9853,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9868,7 +9868,7 @@ aId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9905,7 +9905,7 @@ the
 security
 blob
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9938,7 +9938,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9953,7 +9953,7 @@ newCount
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -9968,7 +9968,7 @@ aId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10007,7 +10007,7 @@ deletedStorageId
 aDeletedStorageIdList
 )
 {
-CACHE_TRY
+QM_TRY
 (
 DeleteSecurityInfo
 (
@@ -10060,7 +10060,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -10106,7 +10106,7 @@ IsEmpty
 )
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 securityId
 InsertSecurityInfo
@@ -10128,7 +10128,7 @@ securityInfo
 ;
 }
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -10336,7 +10336,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10355,7 +10355,7 @@ method
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10374,7 +10374,7 @@ urlWithoutQuery
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -10392,7 +10392,7 @@ urlWithoutQuery
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10407,7 +10407,7 @@ urlWithoutQueryHash
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10426,7 +10426,7 @@ urlQuery
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -10444,7 +10444,7 @@ urlQuery
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10459,7 +10459,7 @@ urlQueryHash
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10478,7 +10478,7 @@ urlFragment
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10497,7 +10497,7 @@ referrer
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10522,7 +10522,7 @@ referrerPolicy
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10547,7 +10547,7 @@ headersGuard
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10572,7 +10572,7 @@ mode
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10597,7 +10597,7 @@ credentials
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10622,7 +10622,7 @@ contentPolicyType
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10647,7 +10647,7 @@ requestCache
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10672,7 +10672,7 @@ requestRedirect
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10691,7 +10691,7 @@ integrity
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 BindId
 (
@@ -10705,7 +10705,7 @@ aRequestBodyId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10730,7 +10730,7 @@ type
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10749,7 +10749,7 @@ status
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10768,7 +10768,7 @@ statusText
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10793,7 +10793,7 @@ headersGuard
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 BindId
 (
@@ -10824,7 +10824,7 @@ IsEmpty
 )
 )
 {
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10841,7 +10841,7 @@ _ns
 }
 else
 {
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -10975,7 +10975,7 @@ suffix
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11020,7 +11020,7 @@ ResponseType
 Opaque
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11064,7 +11064,7 @@ ResponseType
 Opaque
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11084,7 +11084,7 @@ paddingSize
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11099,7 +11099,7 @@ aCacheId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11110,7 +11110,7 @@ Execute
 )
 ;
 }
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -11131,7 +11131,7 @@ int32_t
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -11153,7 +11153,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -11171,7 +11171,7 @@ GetInt32
 )
 ;
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -11230,7 +11230,7 @@ headers
 )
 )
 {
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11249,7 +11249,7 @@ name
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11268,7 +11268,7 @@ value
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11283,7 +11283,7 @@ entryId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11296,7 +11296,7 @@ Execute
 }
 }
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -11355,7 +11355,7 @@ headers
 )
 )
 {
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11374,7 +11374,7 @@ name
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11393,7 +11393,7 @@ value
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11408,7 +11408,7 @@ entryId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11421,7 +11421,7 @@ Execute
 }
 }
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -11475,7 +11475,7 @@ urlList
 )
 )
 {
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11490,7 +11490,7 @@ responseUrl
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11505,7 +11505,7 @@ entryId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11566,7 +11566,7 @@ aStmt
 HeadersEntry
 header
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 header
 .
@@ -11582,7 +11582,7 @@ GetUTF8String
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 header
 .
@@ -11627,7 +11627,7 @@ NS_IsMainThread
 SavedResponse
 savedResponse
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -11729,7 +11729,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY
+QM_TRY
 (
 state
 .
@@ -11752,7 +11752,7 @@ Ok
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -11783,7 +11783,7 @@ ResponseType
 type
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -11814,7 +11814,7 @@ uint32_t
 status
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -11832,7 +11832,7 @@ statusText
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -11863,7 +11863,7 @@ HeadersGuardEnum
 guard
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -11892,7 +11892,7 @@ savedResponse
 mHasBodyId
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 savedResponse
 .
@@ -11906,7 +11906,7 @@ state
 )
 ;
 }
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -11992,7 +11992,7 @@ MozURL
 >
 url
 ;
-CACHE_TRY
+QM_TRY
 (
 net
 :
@@ -12244,7 +12244,7 @@ origin
 nsCString
 baseDomain
 ;
-CACHE_TRY
+QM_TRY
 (
 url
 -
@@ -12284,7 +12284,7 @@ baseDomain
 )
 ;
 }
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -12354,7 +12354,7 @@ ResponseType
 Opaque
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -12388,7 +12388,7 @@ paddingSize
 paddingSize
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -12411,7 +12411,7 @@ securityInfo
 )
 ;
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -12450,7 +12450,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -12465,7 +12465,7 @@ aEntryId
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 savedResponse
 .
@@ -12487,7 +12487,7 @@ GetHeadersEntryFromStatement
 ;
 }
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -12523,7 +12523,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -12538,7 +12538,7 @@ aEntryId
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 savedResponse
 .
@@ -12569,7 +12569,7 @@ nsCString
 nsresult
 >
 {
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -12614,7 +12614,7 @@ NS_IsMainThread
 SavedRequest
 savedRequest
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -12709,7 +12709,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY
+QM_TRY
 (
 state
 .
@@ -12732,7 +12732,7 @@ Ok
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -12744,7 +12744,7 @@ NS_ERROR_UNEXPECTED
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -12762,7 +12762,7 @@ method
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -12780,7 +12780,7 @@ urlWithoutQuery
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -12798,7 +12798,7 @@ urlQuery
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -12816,7 +12816,7 @@ urlFragment
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -12834,7 +12834,7 @@ referrer
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -12864,7 +12864,7 @@ ReferrerPolicy
 referrerPolicy
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -12894,7 +12894,7 @@ HeadersGuardEnum
 guard
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -12924,7 +12924,7 @@ RequestMode
 mode
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -12954,7 +12954,7 @@ RequestCredentials
 credentials
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -12984,7 +12984,7 @@ nsContentPolicyType
 requestContentPolicyType
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -13014,7 +13014,7 @@ RequestCache
 requestCache
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -13044,7 +13044,7 @@ RequestRedirect
 requestRedirect
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -13062,7 +13062,7 @@ integrity
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -13090,7 +13090,7 @@ savedRequest
 mHasBodyId
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 savedRequest
 .
@@ -13105,7 +13105,7 @@ state
 ;
 }
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -13144,7 +13144,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -13159,7 +13159,7 @@ aEntryId
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 savedRequest
 .
@@ -13352,7 +13352,7 @@ aLen
 i
 )
 {
-CACHE_TRY
+QM_TRY
 (
 aState
 .
@@ -13401,7 +13401,7 @@ if
 aId
 )
 {
-CACHE_TRY
+QM_TRY
 (
 aState
 .
@@ -13429,7 +13429,7 @@ ToProvidedString
 idBuf
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aState
 .
@@ -13469,7 +13469,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -13487,7 +13487,7 @@ aPos
 nsID
 id
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -13634,7 +13634,7 @@ the
 /
 index
 .
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 state
@@ -13681,7 +13681,7 @@ IsEmpty
 )
 )
 {
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -13726,7 +13726,7 @@ nsACString
 aIn
 )
 {
-CACHE_TRY
+QM_TRY
 (
 aCrypto
 .
@@ -13739,7 +13739,7 @@ SHA1
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aCrypto
 .
@@ -13769,7 +13769,7 @@ Length
 nsAutoCString
 fullHash
 ;
-CACHE_TRY
+QM_TRY
 (
 aCrypto
 .
@@ -13830,7 +13830,7 @@ in
 the
 database
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -13851,7 +13851,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -14067,7 +14067,7 @@ freePages
 -
 kMaxFreePages
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -14103,7 +14103,7 @@ something
 ifdef
 DEBUG
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -14124,7 +14124,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -14200,7 +14200,7 @@ mozIStorageConnection
 aConn
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -14313,7 +14313,7 @@ column
 is
 present
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -14474,7 +14474,7 @@ mozIStorageConnection
 aConn
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -14486,7 +14486,7 @@ aConn
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -14685,7 +14685,7 @@ table
 and
 compare
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -14712,7 +14712,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 quota
 :
@@ -14738,7 +14738,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -14753,7 +14753,7 @@ GetUTF8String
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -14768,7 +14768,7 @@ GetUTF8String
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -15272,7 +15272,7 @@ mozIStorageConnection
 aConn
 )
 {
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -15288,7 +15288,7 @@ _ns
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -15321,7 +15321,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -15339,7 +15339,7 @@ kTableEntries
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 state
 -
@@ -15349,7 +15349,7 @@ Execute
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -15385,7 +15385,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 int32_t
 currentVersion
@@ -15478,7 +15478,7 @@ shouldRewrite
 =
 false
 ;
-CACHE_TRY
+QM_TRY
 (
 migration
 .
@@ -15513,7 +15513,7 @@ currentVersion
 ;
 #
 endif
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 currentVersion
 GetEffectiveSchemaVersion
@@ -15718,7 +15718,7 @@ future
 /
 INSERTs
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -15743,7 +15743,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -15869,7 +15869,7 @@ of
 version
 17
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16051,7 +16051,7 @@ newly
 created
 table
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16221,7 +16221,7 @@ the
 old
 table
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16244,7 +16244,7 @@ new_entries
 to
 entries
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16270,7 +16270,7 @@ recreate
 our
 indices
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16300,7 +16300,7 @@ no
 /
 violations
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -16330,7 +16330,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -16340,7 +16340,7 @@ hasResult
 NS_ERROR_FAILURE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16485,7 +16485,7 @@ from
 "
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16510,7 +16510,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16655,7 +16655,7 @@ is
 former
 TYPE_REFRESH
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16686,7 +16686,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16802,7 +16802,7 @@ for
 future
 INSERTs
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16827,7 +16827,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -16957,7 +16957,7 @@ of
 version
 21
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17141,7 +17141,7 @@ of
 version
 21
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17194,7 +17194,7 @@ created
 entries
 table
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17368,7 +17368,7 @@ created
 response_url_list
 table
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17412,7 +17412,7 @@ the
 old
 table
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17435,7 +17435,7 @@ new_entries
 to
 entries
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17461,7 +17461,7 @@ recreate
 our
 indices
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17491,7 +17491,7 @@ no
 /
 violations
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -17521,7 +17521,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -17531,7 +17531,7 @@ hasResult
 NS_ERROR_FAILURE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17575,7 +17575,7 @@ the
 request_integrity
 column
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17602,7 +17602,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17622,7 +17622,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17684,7 +17684,7 @@ backwards
 -
 compatible
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17724,7 +17724,7 @@ the
 request_url_fragment
 column
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17750,7 +17750,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17802,7 +17802,7 @@ new
 nsIContentPolicy
 type
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17856,7 +17856,7 @@ non
 null
 interger
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17878,7 +17878,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17906,7 +17906,7 @@ response
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -17943,7 +17943,7 @@ NS_IsMainThread
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -18032,7 +18032,7 @@ an
 empty
 string
 .
-CACHE_TRY
+QM_TRY
 (
 aConn
 .
@@ -18058,7 +18058,7 @@ _ns
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aConn
 .

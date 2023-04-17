@@ -686,7 +686,7 @@ move
 mActor
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto

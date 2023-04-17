@@ -354,7 +354,7 @@ nsIFile
 aDBFile
 )
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -371,7 +371,7 @@ GetParent
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 RemoveNsIFile
 (
@@ -419,7 +419,7 @@ morgue
 as
 well
 .
-CACHE_TRY
+QM_TRY
 (
 BodyDeleteDir
 (
@@ -429,7 +429,7 @@ dbDir
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 WipePaddingFile
 (
@@ -553,7 +553,7 @@ rv
 ;
 }
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -629,7 +629,7 @@ if
 conn
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 conn
 OpenConnection
@@ -803,7 +803,7 @@ mDirectoryLockId
 0
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -822,7 +822,7 @@ if
 exists
 )
 {
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -837,7 +837,7 @@ NS_ERROR_FILE_NOT_FOUND
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 aDBDir
 .
@@ -852,7 +852,7 @@ DIRECTORY_TYPE
 )
 ;
 }
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -865,7 +865,7 @@ kCachesSQLiteFilename
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 OpenDBConnection
 (
@@ -1075,7 +1075,7 @@ nsFileProtocolHandler
 (
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 handler
 -
@@ -1085,7 +1085,7 @@ Init
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1139,7 +1139,7 @@ nsIFileURL
 >
 dbFileUrl
 ;
-CACHE_TRY
+QM_TRY
 (
 NS_MutateURI
 (
@@ -1164,7 +1164,7 @@ dbFileUrl
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1190,7 +1190,7 @@ NS_ERROR_UNEXPECTED
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 conn
@@ -1285,7 +1285,7 @@ any
 time
 anyways
 .
-CACHE_TRY
+QM_TRY
 (
 WipeDatabase
 (
@@ -1294,7 +1294,7 @@ aDBFile
 )
 )
 ;
-CACHE_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -1337,7 +1337,7 @@ not
 too
 old
 .
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -1378,7 +1378,7 @@ conn
 =
 nullptr
 ;
-CACHE_TRY
+QM_TRY
 (
 WipeDatabase
 (
@@ -1387,7 +1387,7 @@ aDBFile
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 conn
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -1406,7 +1406,7 @@ _ns
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 db
 :

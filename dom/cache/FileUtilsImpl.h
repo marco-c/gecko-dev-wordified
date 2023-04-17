@@ -258,7 +258,7 @@ true
 >
 isEmpty
 ;
-CACHE_TRY
+QM_TRY
 (
 quota
 :
@@ -293,7 +293,7 @@ Ok
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -383,7 +383,7 @@ ExistsAsFile
 nsAutoCString
 leafName
 ;
-CACHE_TRY
+QM_TRY
 (
 file
 -
@@ -462,7 +462,7 @@ Ok
 }
 else
 {
-CACHE_TRY
+QM_TRY
 (
 OkIf
 (
@@ -548,7 +548,7 @@ result
 )
 ;
 }
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool

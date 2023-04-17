@@ -456,7 +456,7 @@ modify
 padding
 size
 .
-CACHE_TRY
+QM_TRY
 (
 aCommitHook
 (
@@ -494,7 +494,7 @@ the
 padding
 size
 .
-CACHE_TRY
+QM_TRY
 (
 UpdateDirectoryPaddingFile
 (
@@ -533,7 +533,7 @@ the
 padding
 size
 .
-CACHE_TRY
+QM_TRY
 (
 aCommitHook
 (

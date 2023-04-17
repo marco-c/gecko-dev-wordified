@@ -560,7 +560,7 @@ MOZ_DIAGNOSTIC_ASSERT
 cacheQuotaClient
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 cacheQuotaClient
 -
@@ -664,7 +664,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aDBDir
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 BodyCreateDir
 (
@@ -680,7 +680,7 @@ in
 its
 own
 transaction
-CACHE_TRY
+QM_TRY
 (
 db
 :
@@ -840,7 +840,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -856,7 +856,7 @@ up
 orphaned
 Cache
 objects
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -872,7 +872,7 @@ aConn
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 CheckedInt64
@@ -913,7 +913,7 @@ CheckedInt64
 nsresult
 >
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -931,7 +931,7 @@ element
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 BodyDeleteFiles
 (
@@ -980,7 +980,7 @@ up
 orphaned
 body
 objects
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -996,7 +996,7 @@ aConn
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 BodyDeleteOrphanedFiles
 (
@@ -1164,7 +1164,7 @@ FILE
 )
 )
 {
-CACHE_TRY
+QM_TRY
 (
 RestorePaddingFile
 (
@@ -1418,7 +1418,7 @@ rv
 ;
 }
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -1440,7 +1440,7 @@ QM_VOID
 resolve
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 BodyDeleteFiles
 (
@@ -1798,7 +1798,7 @@ the
 same
 factory
 .
-CACHE_TRY
+QM_TRY
 (
 MaybeCreateInstance
 (
@@ -1844,7 +1844,7 @@ Can
 '
 t
 use
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 because
 that
 causes
@@ -1865,7 +1865,7 @@ nsIThread
 >
 ioThread
 ;
-CACHE_TRY
+QM_TRY
 (
 ToResult
 (
@@ -2934,7 +2934,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 MaybeCreateInstance
 (
@@ -3897,7 +3897,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -3906,7 +3906,7 @@ Start
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mDeletionInfo
 db
@@ -3920,7 +3920,7 @@ mCacheId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 MaybeUpdatePaddingFile
 (
@@ -4255,7 +4255,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aDBDir
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4368,7 +4368,7 @@ OpenMode
 Eager
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 stream
 BodyOpen
@@ -4693,7 +4693,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aDBDir
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mSavedResponses
 db
@@ -4796,7 +4796,7 @@ OpenMode
 Eager
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 stream
 BodyOpen
@@ -5488,7 +5488,7 @@ aQuotaInfo
 >
 nsresult
 {
-CACHE_TRY
+QM_TRY
 (
 CollectEachInRange
 (
@@ -5507,7 +5507,7 @@ entry
 >
 nsresult
 {
-CACHE_TRY
+QM_TRY
 (
 StartStreamCopy
 (
@@ -5519,7 +5519,7 @@ mExpectedAsyncCopyCompletions
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 StartStreamCopy
 (
@@ -6035,7 +6035,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -6060,7 +6060,7 @@ trans
 >
 nsresult
 {
-CACHE_TRY
+QM_TRY
 (
 CollectEachInRange
 (
@@ -6084,7 +6084,7 @@ e
 mRequestStream
 )
 {
-CACHE_TRY
+QM_TRY
 (
 BodyFinalizeWrite
 (
@@ -6148,7 +6148,7 @@ set
 it
 yet
 .
-CACHE_TRY
+QM_TRY
 (
 BodyMaybeUpdatePaddingSize
 (
@@ -6208,7 +6208,7 @@ paddingSize
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 BodyFinalizeWrite
 (
@@ -6221,7 +6221,7 @@ mResponseBodyId
 )
 ;
 }
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 deletionInfo
@@ -6314,7 +6314,7 @@ it
 '
 s
 necessary
-CACHE_TRY
+QM_TRY
 (
 MaybeUpdatePaddingFile
 (
@@ -6690,7 +6690,7 @@ return
 NS_OK
 ;
 }
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -7575,7 +7575,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -7584,7 +7584,7 @@ Start
 )
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 maybeDeletionInfo
@@ -7637,7 +7637,7 @@ ref
 )
 ;
 }
-CACHE_TRY
+QM_TRY
 (
 MaybeUpdatePaddingFile
 (
@@ -8009,7 +8009,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aDBDir
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mSavedRequests
 db
@@ -8112,7 +8112,7 @@ OpenMode
 Eager
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 stream
 BodyOpen
@@ -8546,7 +8546,7 @@ OpenMode
 Eager
 )
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 stream
 BodyOpen
@@ -8840,7 +8840,7 @@ aConn
 )
 override
 {
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9094,7 +9094,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -9109,7 +9109,7 @@ Look
 for
 existing
 cache
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9160,7 +9160,7 @@ return
 NS_OK
 ;
 }
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mCacheId
 db
@@ -9173,7 +9173,7 @@ aConn
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 db
 :
@@ -9192,7 +9192,7 @@ mCacheId
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -9446,7 +9446,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -9455,7 +9455,7 @@ Start
 )
 )
 ;
-CACHE_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -9523,7 +9523,7 @@ on
 /
 DeleteOrphanedCacheAction
 .
-CACHE_TRY
+QM_TRY
 (
 db
 :
@@ -9541,7 +9541,7 @@ key
 )
 )
 ;
-CACHE_TRY
+QM_TRY
 (
 trans
 .
@@ -9856,7 +9856,7 @@ aConn
 )
 override
 {
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mKeys
 db
@@ -10098,7 +10098,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aDBDir
 )
 ;
-CACHE_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 mBodyStream
 BodyOpen
