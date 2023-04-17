@@ -9655,6 +9655,13 @@ ValOperandId
 valId
 )
 ;
+AttachDecision
+tryAttachNullOrUndefined
+(
+ValOperandId
+valId
+)
+;
 public
 :
 GetIteratorIRGenerator
