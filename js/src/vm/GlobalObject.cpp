@@ -6793,7 +6793,7 @@ runtime
 )
 -
 >
-cloneSelfHostedValue
+getSelfHostedValue
 (
 cx
 name
