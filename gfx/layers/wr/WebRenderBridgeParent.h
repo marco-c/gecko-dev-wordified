@@ -3054,9 +3054,6 @@ mScreenPixelsTarget
 #
 endif
 bool
-mPaused
-;
-bool
 mDestroyed
 ;
 bool
