@@ -2182,7 +2182,11 @@ aHeight
 const
 float
 &
-aResolution
+aResolutionX
+const
+float
+&
+aResolutionY
 const
 uint32_t
 &

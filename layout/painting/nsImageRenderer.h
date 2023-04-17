@@ -2171,7 +2171,7 @@ StyleImage
 *
 mImage
 ;
-float
+ImageResolution
 mImageResolution
 ;
 mozilla
