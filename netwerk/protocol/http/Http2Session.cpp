@@ -1802,16 +1802,16 @@ linebuf
 ;
 }
 }
-typedef
+using
+Http2ControlFx
+=
 nsresult
 (
 *
-Http2ControlFx
 )
 (
 Http2Session
 *
-self
 )
 ;
 static
@@ -1952,9 +1952,11 @@ Count
 >
 kMaxStreamID
 )
+{
 return
 false
 ;
+}
 return
 !
 mShouldGoAway
@@ -2325,6 +2327,7 @@ IsNull
 (
 )
 )
+{
 timestampNow
 =
 TimeStamp
@@ -2338,6 +2341,7 @@ Now
 /
 lazy
 initializer
+}
 /
 /
 if
@@ -8938,6 +8942,7 @@ if
 (
 endHeadersFlag
 )
+{
 self
 -
 >
@@ -8945,7 +8950,9 @@ mExpectedHeaderID
 =
 0
 ;
+}
 else
+{
 self
 -
 >
@@ -8956,6 +8963,7 @@ self
 >
 mInputFrameID
 ;
+}
 uint32_t
 priorityLen
 =
@@ -9282,6 +9290,7 @@ self
 >
 mNextStreamID
 )
+{
 self
 -
 >
@@ -9294,6 +9303,7 @@ self
 mInputFrameID
 )
 ;
+}
 self
 -
 >
@@ -10186,7 +10196,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 NS_FAILED
@@ -12979,7 +12988,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 NS_FAILED
@@ -13165,6 +13173,7 @@ self
 >
 mOutgoingGoAwayID
 )
+{
 self
 -
 >
@@ -13172,6 +13181,7 @@ mOutgoingGoAwayID
 =
 promisedID
 ;
+}
 /
 /
 Fake
@@ -14874,6 +14884,7 @@ HasRegisteredID
 (
 )
 )
+{
 self
 -
 >
@@ -14889,6 +14900,7 @@ StreamID
 )
 )
 ;
+}
 self
 -
 >
@@ -15342,6 +15354,7 @@ self
 >
 mNextStreamID
 )
+{
 self
 -
 >
@@ -15354,6 +15367,7 @@ self
 mInputFrameID
 )
 ;
+}
 self
 -
 >
@@ -20366,12 +20380,14 @@ mInputFrameID
 =
 mNextStreamID
 )
+{
 GenerateRstStream
 (
 PROTOCOL_ERROR
 mInputFrameID
 )
 ;
+}
 ChangeDownstreamState
 (
 DISCARDING_DATA_FRAME
@@ -20454,12 +20470,14 @@ RecvdReset
 (
 )
 )
+{
 GenerateRstStream
 (
 STREAM_CLOSED_ERROR
 mInputFrameID
 )
 ;
+}
 ChangeDownstreamState
 (
 DISCARDING_DATA_FRAME
@@ -22210,7 +22228,6 @@ PROTOCOL_ERROR
 )
 ;
 }
-else
 if
 (
 1U
@@ -23363,7 +23380,9 @@ true
 ;
 for
 (
+const
 auto
+&
 s
 :
 mPushesReadyForRead
@@ -24606,6 +24625,7 @@ if
 !
 stream
 )
+{
 /
 /
 this
@@ -24622,9 +24642,12 @@ frame
 for
 a
 rst
+/
+/
 stream
 return
 ;
+}
 /
 /
 If
@@ -24804,8 +24827,10 @@ localWindow
 kEmergencyWindowThreshold
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -25163,8 +25188,10 @@ mLocalSessionWindow
 kEmergencyWindowThreshold
 )
 )
+{
 return
 ;
+}
 /
 /
 Only
@@ -26592,9 +26619,11 @@ mOutputQueueSize
 kQueueReserved
 )
 )
+{
 return
 NS_BASE_STREAM_WOULD_BLOCK
 ;
+}
 memcpy
 (
 mOutputQueueBuffer
@@ -26678,9 +26707,11 @@ mOutputQueueSize
 kQueueReserved
 )
 )
+{
 return
 NS_OK
 ;
+}
 /
 /
 if
@@ -26771,9 +26802,11 @@ mOutputQueueSize
 kQueueReserved
 )
 )
+{
 return
 NS_OK
 ;
+}
 }
 /
 /
@@ -27412,10 +27445,12 @@ mInputFrameDataSize
 !
 mInputFrameFinal
 )
+{
 ResetDownstreamState
 (
 )
 ;
+}
 return
 rv
 ;
@@ -29386,7 +29421,6 @@ INADEQUATE_SECURITY
 )
 ;
 }
-else
 if
 (
 kea
@@ -32598,8 +32632,7 @@ mProcessedWaitingWebsockets
 )
 )
 ;
-if
-(
+return
 mEnableWebsockets
 &
 &
@@ -32610,14 +32643,6 @@ mPeerAllowsWebsockets
 !
 mProcessedWaitingWebsockets
 )
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 }

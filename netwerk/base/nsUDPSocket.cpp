@@ -351,17 +351,17 @@ UDP_PACKET_CHUNK_SIZE
 -
 -
 -
-typedef
+using
+nsUDPSocketFunc
+=
 void
 (
 nsUDPSocket
 :
 :
 *
-nsUDPSocketFunc
 )
 (
-void
 )
 ;
 static
@@ -3972,6 +3972,7 @@ if
 (
 aLoopbackOnly
 )
+{
 addr
 .
 inet
@@ -3983,7 +3984,9 @@ htonl
 INADDR_LOOPBACK
 )
 ;
+}
 else
+{
 addr
 .
 inet
@@ -3995,6 +3998,7 @@ htonl
 INADDR_ANY
 )
 ;
+}
 return
 InitWithAddress
 (

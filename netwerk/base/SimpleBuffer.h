@@ -225,6 +225,8 @@ mBuffer
 [
 kSimpleBufferPageSize
 ]
+{
+}
 ;
 size_t
 mReadOffset
@@ -255,7 +257,7 @@ Write
 (
 char
 *
-stc
+src
 size_t
 len
 )

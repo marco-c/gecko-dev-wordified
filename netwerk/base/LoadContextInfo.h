@@ -175,7 +175,7 @@ GetLoadContextInfo
 (
 nsIDOMWindow
 *
-aLoadContext
+aWindow
 bool
 aIsAnonymous
 )

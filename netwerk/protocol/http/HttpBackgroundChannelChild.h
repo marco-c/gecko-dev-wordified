@@ -805,6 +805,8 @@ called
 .
 bool
 mOnStopRequestCalled
+=
+false
 ;
 /
 /

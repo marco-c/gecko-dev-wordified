@@ -166,8 +166,8 @@ h
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 StaticRefPtr
@@ -1122,17 +1122,10 @@ derivedLimit
 3
 )
 ;
-if
-(
+return
 aSize
 >
 derivedLimit
-)
-return
-true
-;
-return
-false
 ;
 }
 /
@@ -1153,7 +1146,7 @@ return
 false
 ;
 #
-endif
+else
 if
 (
 sShutdownDemandedTime
@@ -1206,6 +1199,8 @@ true
 return
 false
 ;
+#
+endif
 }
 NS_IMETHODIMP
 CacheObserver
@@ -1497,6 +1492,7 @@ if
 (
 service
 )
+{
 service
 -
 >
@@ -1508,6 +1504,7 @@ nsICacheStorageService
 PURGE_EVERYTHING
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1530,9 +1527,7 @@ NS_OK
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

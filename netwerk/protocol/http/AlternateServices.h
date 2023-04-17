@@ -419,7 +419,7 @@ storageEpoch
 const
 nsCString
 &
-serialized
+str
 )
 ;
 static
@@ -515,7 +515,7 @@ AcceptableProxy
 (
 nsProxyInfo
 *
-pi
+proxyInfo
 )
 ;
 const
@@ -715,7 +715,7 @@ OriginAttributes
 &
 originAttributes
 bool
-aIsHttp3
+aHttp3
 )
 ;
 bool
@@ -755,7 +755,7 @@ SyncString
 const
 nsCString
 &
-val
+str
 )
 ;
 RefPtr
@@ -829,6 +829,8 @@ mValidated
 MOZ_INIT_OUTSIDE_CTOR
 bool
 mHttps
+{
+}
 ;
 /
 /
@@ -1109,7 +1111,7 @@ host
 int32_t
 port
 bool
-pb
+privateBrowsing
 const
 OriginAttributes
 &

@@ -372,7 +372,7 @@ Clone
 nsIURI
 *
 *
-aURI
+result
 )
 ;
 virtual
@@ -396,7 +396,7 @@ SetScheme
 const
 nsACString
 &
-input
+scheme
 )
 ;
 virtual
@@ -463,7 +463,7 @@ SetPathQueryRef
 const
 nsACString
 &
-input
+aPath
 )
 ;
 virtual
@@ -473,7 +473,7 @@ SetRef
 const
 nsACString
 &
-input
+aRef
 )
 ;
 virtual
@@ -483,7 +483,7 @@ SetFilePath
 const
 nsACString
 &
-input
+aFilePath
 )
 ;
 virtual
@@ -493,7 +493,7 @@ SetQuery
 const
 nsACString
 &
-input
+aQuery
 )
 ;
 virtual
@@ -503,7 +503,7 @@ SetQueryWithEncoding
 const
 nsACString
 &
-input
+aQuery
 const
 Encoding
 *
@@ -697,7 +697,7 @@ newRef
 nsIURI
 *
 *
-clone
+result
 )
 ;
 nsresult
@@ -782,9 +782,6 @@ share
 string
 data
 .
-bool
-mMutable
-;
 bool
 mIsRefValid
 ;

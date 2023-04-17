@@ -688,6 +688,7 @@ i
 +
 +
 )
+{
 dirsToRemove
 [
 i
@@ -699,6 +700,7 @@ Remove
 true
 )
 ;
+}
 return
 NS_OK
 ;
@@ -785,6 +787,7 @@ Count
 (
 )
 )
+{
 /
 /
 more
@@ -800,6 +803,7 @@ thread
 .
 return
 ;
+}
 mBackgroundET
 =
 nullptr

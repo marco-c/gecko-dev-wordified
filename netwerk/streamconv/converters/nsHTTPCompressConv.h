@@ -294,7 +294,9 @@ mozilla
 namespace
 net
 {
-typedef
+using
+CompressMode
+=
 enum
 {
 HTTP_COMPRESS_GZIP
@@ -303,7 +305,6 @@ HTTP_COMPRESS_COMPRESS
 HTTP_COMPRESS_BROTLI
 HTTP_COMPRESS_IDENTITY
 }
-CompressMode
 ;
 class
 BrotliWrapper
@@ -343,9 +344,9 @@ BrotliDecoderStateInit
 (
 &
 mState
-0
-0
-0
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -363,6 +364,8 @@ mState
 }
 BrotliDecoderState
 mState
+{
+}
 ;
 Atomic
 <
@@ -564,7 +567,7 @@ uint32_t
 streamLen
 nsresult
 *
-rv
+rs
 )
 ;
 Atomic

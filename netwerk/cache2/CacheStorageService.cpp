@@ -310,8 +310,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 namespace
@@ -409,13 +409,14 @@ nsNetModule
 cpp
 compilable
 .
-typedef
+using
+GlobalEntryTables
+=
 nsClassHashtable
 <
 nsCStringHashKey
 CacheEntryTable
 >
-GlobalEntryTables
 ;
 /
 *
@@ -1796,6 +1797,7 @@ if
 (
 mCallback
 )
+{
 ProxyReleaseMainThread
 (
 "
@@ -1807,6 +1809,7 @@ mCallback
 mCallback
 )
 ;
+}
 }
 virtual
 void
@@ -5962,6 +5965,7 @@ GetStorageID
 entries
 )
 )
+{
 RemoveExactEntry
 (
 entries
@@ -5978,6 +5982,7 @@ overwrite
 /
 )
 ;
+}
 nsAutoCString
 memoryStorageID
 (
@@ -6006,6 +6011,7 @@ memoryStorageID
 entries
 )
 )
+{
 RemoveExactEntry
 (
 entries
@@ -6022,6 +6028,7 @@ overwrite
 /
 )
 ;
+}
 return
 true
 ;
@@ -9715,6 +9722,7 @@ if
 (
 mCallback
 )
+{
 ProxyReleaseMainThread
 (
 "
@@ -9726,6 +9734,7 @@ mCallback
 mCallback
 )
 ;
+}
 }
 NS_IMETHODIMP
 CacheEntryDoomByKeyCallback
@@ -10833,7 +10842,9 @@ memoryEntry
 memoryEntries
 )
 {
+const
 auto
+&
 entry
 =
 memoryEntry
@@ -13416,9 +13427,7 @@ WRITE
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

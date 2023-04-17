@@ -351,7 +351,7 @@ GetPersistent
 (
 bool
 *
-aPersistent
+aPersistToDisk
 )
 ;
 nsresult
@@ -398,7 +398,7 @@ GetOnStartTime
 (
 uint64_t
 *
-aOnStartTime
+aTime
 )
 ;
 nsresult
@@ -406,7 +406,7 @@ GetOnStopTime
 (
 uint64_t
 *
-aOnStopTime
+aTime
 )
 ;
 nsresult
@@ -494,7 +494,7 @@ AsyncDoom
 (
 nsICacheEntryDoomCallback
 *
-listener
+aCallback
 )
 ;
 nsresult
@@ -507,7 +507,7 @@ key
 char
 *
 *
-_retval
+aRetval
 )
 ;
 nsresult
@@ -575,7 +575,7 @@ GetAltDataSize
 (
 int64_t
 *
-aAltDataSize
+aDataSize
 )
 ;
 nsresult
@@ -620,7 +620,7 @@ GetLoadContextInfo
 nsILoadContextInfo
 *
 *
-aLoadContextInfo
+aInfo
 )
 ;
 nsresult
@@ -648,7 +648,7 @@ bool
 aWriteAllowed
 bool
 *
-_retval
+aWriteAccess
 )
 ;
 public

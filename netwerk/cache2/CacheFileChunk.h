@@ -155,7 +155,7 @@ nsresult
 EnsureBufSize
 (
 uint32_t
-aSize
+aBufSize
 )
 ;
 void

@@ -2464,10 +2464,8 @@ this
 ;
 if
 (
+!
 isBlocklisted
-=
-=
-false
 )
 {
 /

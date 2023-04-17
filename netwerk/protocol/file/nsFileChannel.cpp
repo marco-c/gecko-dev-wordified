@@ -2143,6 +2143,7 @@ HasContentTypeHint
 (
 )
 )
+{
 contentType
 .
 AssignLiteral
@@ -2150,6 +2151,7 @@ AssignLiteral
 APPLICATION_HTTP_INDEX_FORMAT
 )
 ;
+}
 }
 else
 {
@@ -2638,6 +2640,7 @@ HasContentTypeHint
 (
 )
 )
+{
 SetContentType
 (
 nsLiteralCString
@@ -2646,6 +2649,7 @@ APPLICATION_OCTET_STREAM
 )
 )
 ;
+}
 }
 else
 {

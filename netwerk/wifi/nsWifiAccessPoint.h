@@ -152,6 +152,8 @@ mMac
 [
 18
 ]
+{
+}
 ;
 int
 mSignal
@@ -161,6 +163,8 @@ mSsid
 [
 33
 ]
+{
+}
 ;
 int
 mSsidLen

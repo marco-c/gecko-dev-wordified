@@ -3028,9 +3028,13 @@ uploadStream
 ;
 uint64_t
 uploadStreamLength
+=
+0
 ;
 bool
 uploadStreamHasHeaders
+=
+false
 ;
 Maybe
 <
@@ -6140,6 +6144,7 @@ mThis
 >
 mLoadGroup
 )
+{
 mThis
 -
 >
@@ -6156,6 +6161,7 @@ mThis
 mStatus
 )
 ;
+}
 }
 template
 <

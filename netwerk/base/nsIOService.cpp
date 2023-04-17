@@ -1839,6 +1839,7 @@ i
 +
 +
 )
+{
 mRestrictedPortList
 .
 AppendElement
@@ -1849,6 +1850,7 @@ i
 ]
 )
 ;
+}
 /
 /
 Further
@@ -7063,9 +7065,11 @@ mOfflineForProfileChange
 !
 offline
 )
+{
 return
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 /
 /
 SetOffline
@@ -7281,6 +7285,7 @@ if
 (
 observerService
 )
+{
 observerService
 -
 >
@@ -7294,6 +7299,7 @@ u
 NS_IOSERVICE_OFFLINE
 )
 ;
+}
 if
 (
 mSocketTransportService
@@ -7316,6 +7322,7 @@ if
 (
 observerService
 )
+{
 observerService
 -
 >
@@ -7329,6 +7336,7 @@ u
 NS_IOSERVICE_OFFLINE
 )
 ;
+}
 }
 else
 if
@@ -8366,6 +8374,7 @@ banned
 =
 0
 )
+{
 ParsePortList
 (
 PORT_PREF
@@ -8377,6 +8386,7 @@ banned
 false
 )
 ;
+}
 /
 /
 .
@@ -8412,6 +8422,7 @@ override
 =
 0
 )
+{
 ParsePortList
 (
 PORT_PREF
@@ -8425,6 +8436,7 @@ override
 true
 )
 ;
+}
 if
 (
 !
@@ -8524,6 +8536,7 @@ count
 )
 )
 )
+{
 /
 *
 check
@@ -8550,6 +8563,7 @@ gDefaultSegmentCount
 =
 count
 ;
+}
 }
 if
 (
@@ -8585,6 +8599,7 @@ size
 )
 )
 )
+{
 /
 *
 check
@@ -8648,6 +8663,7 @@ gDefaultSegmentSize
 =
 size
 ;
+}
 NS_WARNING_ASSERTION
 (
 !
@@ -8959,6 +8975,7 @@ curPort
 +
 +
 )
+{
 restrictedPortList
 .
 RemoveElement
@@ -8966,6 +8983,7 @@ RemoveElement
 curPort
 )
 ;
+}
 }
 else
 {
@@ -8984,6 +9002,7 @@ curPort
 +
 +
 )
+{
 restrictedPortList
 .
 AppendElement
@@ -8991,6 +9010,7 @@ AppendElement
 curPort
 )
 ;
+}
 }
 }
 }
@@ -9030,6 +9050,7 @@ if
 (
 remove
 )
+{
 restrictedPortList
 .
 RemoveElement
@@ -9037,7 +9058,9 @@ RemoveElement
 port
 )
 ;
+}
 else
+{
 restrictedPortList
 .
 AppendElement
@@ -9045,6 +9068,7 @@ AppendElement
 port
 )
 ;
+}
 }
 }
 }
@@ -10664,9 +10688,11 @@ nsEscapeMask
 aEscapeType
 )
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 aResult
 .
 Assign

@@ -928,14 +928,15 @@ nsMultiMixedConv
 ;
 protected
 :
-typedef
+using
+Token
+=
 mozilla
 :
 :
 IncrementalTokenizer
 :
 :
-Token
 Token
 ;
 virtual
@@ -1358,6 +1359,9 @@ nsACString
 :
 size_type
 mRawDataLength
+{
+0
+}
 ;
 /
 /

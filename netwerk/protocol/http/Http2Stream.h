@@ -992,7 +992,7 @@ Finish0RTT
 bool
 aRestart
 bool
-aAlpnIgnored
+aAlpnChanged
 )
 ;
 nsresult
@@ -1348,6 +1348,8 @@ mSocketTransport
 ;
 uint8_t
 mPriorityWeight
+=
+0
 ;
 /
 /
@@ -1355,6 +1357,8 @@ h2
 weight
 uint32_t
 mPriorityDependency
+=
+0
 ;
 /
 /
@@ -1918,6 +1922,8 @@ mRequestBodyLenRemaining
 ;
 uint32_t
 mPriority
+=
+0
 ;
 /
 /

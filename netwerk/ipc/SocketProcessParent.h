@@ -427,7 +427,7 @@ actor
 const
 nsCString
 &
-hostName
+aHost
 const
 nsCString
 &

@@ -211,7 +211,7 @@ aFd
 const
 char
 *
-aIface
+aInterface
 AddrMapType
 &
 aAddrMap
@@ -266,6 +266,8 @@ fd
 struct
 ifconf
 ifconf
+{
+}
 ;
 /
 *
@@ -459,6 +461,8 @@ aAddrMap
 struct
 ifreq
 ifreq
+{
+}
 ;
 memset
 (

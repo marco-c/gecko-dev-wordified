@@ -443,6 +443,8 @@ DebugOnly
 nsresult
 >
 rv
+{
+}
 ;
 if
 (
