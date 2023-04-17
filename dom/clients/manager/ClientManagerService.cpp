@@ -1571,7 +1571,6 @@ placeHolder
 .
 ResolvePromiseIfExists
 (
-aSource
 )
 ;
 *
@@ -2127,7 +2126,7 @@ SourcePromise
 :
 CreateAndResolve
 (
-source
+true
 __func__
 )
 ;
