@@ -255,6 +255,31 @@ str
     
 #
 :
+If
+true
+we
+allow
+0
+'
+s
+in
+the
+vismet
+results
+    
+accept_zero_vismet
+=
+attr
+.
+ib
+(
+type
+=
+bool
+)
+    
+#
+:
 json_path
 :
 The
@@ -358,6 +383,15 @@ extra_options
 [
 str
 ]
+                
+Required
+(
+"
+accept_zero_vismet
+"
+)
+:
+bool
             
 }
         
@@ -1280,9 +1314,12 @@ shouldAlert
 "
 :
 SHOULD_ALERT
-[
+.
+get
+(
 name
-]
+False
+)
         
 }
     
@@ -2076,6 +2113,15 @@ extra_options
 "
 ]
                         
+accept_zero_vismet
+=
+job
+[
+"
+accept_zero_vismet
+"
+]
+                        
 json_path
 =
 browsertime_json_path
@@ -2721,6 +2767,18 @@ utf8
 )
 )
         
+failed_tests
+=
+[
+]
+        
+if
+not
+job
+.
+accept_zero_vismet
+:
+            
 #
 Ensure
 that
@@ -2732,7 +2790,7 @@ are
 at
 0
 which
-        
+            
 #
 is
 indicative
@@ -2740,34 +2798,29 @@ of
 a
 failling
 test
-        
+            
 monitored_tests
 =
 [
-            
+                
 "
 contentfulspeedindex
 "
-            
+                
 "
 lastvisualchange
 "
-            
+                
 "
 perceptualspeedindex
 "
-            
+                
 "
 speedindex
 "
-        
+            
 ]
-        
-failed_tests
-=
-[
-]
-        
+            
 for
 metric
 val
@@ -2778,7 +2831,7 @@ items
 (
 )
 :
-            
+                
 if
 metric
 .
@@ -2793,7 +2846,7 @@ val
 =
 0
 :
-                
+                    
 failed_tests
 .
 append
