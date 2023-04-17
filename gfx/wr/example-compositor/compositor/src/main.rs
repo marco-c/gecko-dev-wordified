@@ -2473,6 +2473,12 @@ new
 root_pipeline_id
 )
 ;
+root_builder
+.
+begin
+(
+)
+;
 build_display_list
 (
 &
@@ -2496,7 +2502,7 @@ None
 layout_size
 root_builder
 .
-finalize
+end
 (
 )
 true
@@ -2671,6 +2677,12 @@ new
 root_pipeline_id
 )
 ;
+root_builder
+.
+begin
+(
+)
+;
 build_display_list
 (
 &
@@ -2692,7 +2704,7 @@ None
 layout_size
 root_builder
 .
-finalize
+end
 (
 )
 true

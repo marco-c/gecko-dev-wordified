@@ -1367,6 +1367,12 @@ new
 (
 )
 ;
+builder
+.
+begin
+(
+)
+;
 example
 .
 render
@@ -1414,7 +1420,7 @@ new
 layout_size
 builder
 .
-finalize
+end
 (
 )
 true
@@ -1929,6 +1935,12 @@ new
 pipeline_id
 )
 ;
+builder
+.
+begin
+(
+)
+;
 example
 .
 render
@@ -1976,7 +1988,7 @@ new
 layout_size
 builder
 .
-finalize
+end
 (
 )
 true

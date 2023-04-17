@@ -2622,11 +2622,6 @@ layers
 :
 WebRenderBackend
 aBackend
-wr
-:
-:
-DisplayListCapacity
-aCapacity
 layers
 :
 :
@@ -2693,7 +2688,12 @@ DumpSerializedDisplayList
 )
 ;
 void
-Finalize
+Begin
+(
+)
+;
+void
+End
 (
 wr
 :
@@ -2704,7 +2704,7 @@ aOutDisplayList
 )
 ;
 void
-Finalize
+End
 (
 layers
 :
@@ -4942,12 +4942,6 @@ layers
 :
 WebRenderBackend
 mBackend
-;
-wr
-:
-:
-LayoutSize
-mContentSize
 ;
 nsTArray
 <
