@@ -312,6 +312,9 @@ this
 _toolbox
 this
 .
+_commands
+this
+.
 _panelDoc
 cssProperties
 )
