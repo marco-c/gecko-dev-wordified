@@ -18967,8 +18967,10 @@ AsOverscrollAnimation
 ;
 if
 (
+RefPtr
+<
 OverscrollAnimation
-*
+>
 overscrollAnimation
 =
 mAnimation
