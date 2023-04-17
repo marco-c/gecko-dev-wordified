@@ -45484,7 +45484,7 @@ MOZ_ASSERT
 !
 IsFrameOfType
 (
-eReplaced
+eReplacedSizing
 )
 "
 aspect
