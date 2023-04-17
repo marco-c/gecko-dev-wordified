@@ -362,7 +362,9 @@ aTelemetryId
 template
 <
 typename
-Func
+KnownDirEntryOp
+typename
+UnknownDirEntryOp
 >
 static
 Result
@@ -375,10 +377,14 @@ TraverseFiles
 nsIFile
 &
 aDirectory
-Func
+KnownDirEntryOp
 &
 &
-aFunc
+aKnownDirEntryOp
+UnknownDirEntryOp
+&
+&
+aUnknownDirEntryOp
 )
 ;
 static

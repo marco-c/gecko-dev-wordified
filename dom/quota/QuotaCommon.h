@@ -833,6 +833,16 @@ checked
 and
 handled
 .
+/
+/
+XXX
+Consider
+renaming
+the
+macro
+to
+QM_LOG_UNKNOWN_DIR_ENTRY
+.
 #
 ifdef
 DEBUG
