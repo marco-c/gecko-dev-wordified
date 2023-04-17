@@ -826,16 +826,6 @@ override
 class
 AutoLockScriptData
 ;
-void
-ReportOverRecursed
-(
-JSContext
-*
-cx
-unsigned
-errorNumber
-)
-;
 /
 *
 Thread
@@ -2787,8 +2777,6 @@ ReportOverRecursed
 (
 JSContext
 *
-unsigned
-errorNumber
 )
 ;
 public
