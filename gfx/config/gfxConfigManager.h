@@ -215,6 +215,10 @@ mWrForceEnabled
 (
 false
 )
+mWrForceDisabled
+(
+false
+)
 mWrSoftwareForceEnabled
 (
 false
@@ -252,6 +256,10 @@ mGPUProcessAllowSoftware
 false
 )
 mWrEnvForceEnabled
+(
+false
+)
+mWrEnvForceDisabled
 (
 false
 )
@@ -320,6 +328,11 @@ aValue
 ;
 void
 ConfigureWebRenderQualified
+(
+)
+;
+void
+ConfigureWebRenderSoftware
 (
 )
 ;
@@ -398,6 +411,9 @@ bool
 mWrForceEnabled
 ;
 bool
+mWrForceDisabled
+;
+bool
 mWrSoftwareForceEnabled
 ;
 bool
@@ -440,6 +456,9 @@ variables
 /
 bool
 mWrEnvForceEnabled
+;
+bool
+mWrEnvForceDisabled
 ;
 /
 *
