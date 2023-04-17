@@ -27992,9 +27992,7 @@ MediaDeviceKindValues
 :
 GetString
 (
-GetDevice
-(
-)
+aDevice
 -
 >
 mKind
