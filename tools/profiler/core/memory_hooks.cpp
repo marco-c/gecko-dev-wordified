@@ -879,7 +879,7 @@ int64_t
 aSize
 uintptr_t
 aMemoryAddress
-int
+ProfilerThreadId
 aThreadId
 )
 {
@@ -917,6 +917,10 @@ IntProperty
 threadId
 "
 aThreadId
+.
+ToNumber
+(
+)
 )
 ;
 }

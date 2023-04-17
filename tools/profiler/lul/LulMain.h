@@ -145,6 +145,15 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerUtils
+.
+h
+"
 /
 /
 LUL
@@ -3035,7 +3044,7 @@ dynamic
 memory
 allocation
 .
-int
+ProfilerThreadId
 mAdminThreadId
 ;
 /

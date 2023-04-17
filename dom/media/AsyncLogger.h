@@ -444,7 +444,7 @@ tracepoint
 was
 gathered
 .
-int
+ProfilerThreadId
 mTID
 ;
 /

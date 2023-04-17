@@ -549,7 +549,7 @@ ID
 .
 *
 /
-int
+ProfilerThreadId
 GetThreadId
 (
 )
@@ -660,7 +660,7 @@ the
 target
 thread
 .
-int
+ProfilerThreadId
 mThreadId
 ;
 }

@@ -563,7 +563,7 @@ profile
 s
 tables
 .
-int
+ProfilerThreadId
 StreamJSON
 (
 mozilla

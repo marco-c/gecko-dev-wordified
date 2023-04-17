@@ -5460,7 +5460,7 @@ the
 audio
 thread
 from
-profiler_get_thread_id
+profiler_current_thread_id
 .
 *
 /
@@ -5469,7 +5469,7 @@ std
 :
 atomic
 <
-int
+ProfilerThreadId
 >
 mAudioThreadId
 ;

@@ -333,7 +333,7 @@ backingSurface
 return
 ;
 }
-int
+ProfilerThreadId
 sourceThread
 =
 profiler_current_thread_id

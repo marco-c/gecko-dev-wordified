@@ -746,7 +746,7 @@ UniquePlatformData
 UniquePlatformData
 AllocPlatformData
 (
-int
+ProfilerThreadId
 aThreadId
 )
 ;

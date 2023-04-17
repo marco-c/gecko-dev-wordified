@@ -248,7 +248,7 @@ public
 explicit
 RacyRegisteredThread
 (
-int
+ProfilerThreadId
 aThreadId
 )
 ;
@@ -523,7 +523,7 @@ mSleep
 AWAKE
 ;
 }
-int
+ProfilerThreadId
 ThreadId
 (
 )
@@ -630,7 +630,7 @@ be
 mutated
 .
 const
-int
+ProfilerThreadId
 mThreadId
 ;
 /
