@@ -4521,12 +4521,8 @@ propp
 .
 setNativeProperty
 (
+*
 prop
--
->
-shapeDeprecated
-(
-)
 )
 ;
 }
@@ -4927,7 +4923,10 @@ propp
 .
 setNativeProperty
 (
+ShapeProperty
+(
 shape
+)
 )
 ;
 return
