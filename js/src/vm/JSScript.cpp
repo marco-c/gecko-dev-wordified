@@ -9351,11 +9351,6 @@ if
 sc
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
