@@ -503,6 +503,15 @@ LookAndFeelTheme
 )
 {
 }
+virtual
+void
+GetThemeInfo
+(
+nsACString
+&
+)
+{
+}
 protected
 :
 nsXPLookAndFeel
