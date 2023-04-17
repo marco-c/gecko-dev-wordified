@@ -3979,15 +3979,8 @@ to
 this
 UnionExpr
 *
-return
-nsresult
-indicating
-out
-of
-memory
-*
 /
-nsresult
+void
 addExpr
 (
 Expr
@@ -4001,9 +3994,6 @@ AppendElement
 (
 aExpr
 )
-;
-return
-NS_OK
 ;
 }
 /
