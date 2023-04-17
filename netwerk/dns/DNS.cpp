@@ -2496,7 +2496,7 @@ AF_LOCAL
 )
 {
 return
-PL_strncmp
+strncmp
 (
 this
 -

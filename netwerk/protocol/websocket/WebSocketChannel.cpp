@@ -25664,7 +25664,7 @@ val
 {
 if
 (
-PL_strcmp
+strcmp
 (
 token
 respProtocol

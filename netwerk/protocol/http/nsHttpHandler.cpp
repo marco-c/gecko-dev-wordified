@@ -7471,7 +7471,7 @@ nullptr
 |
 |
 !
-PL_strcmp
+strcmp
 (
 pref
 p
@@ -7494,7 +7494,7 @@ nullptr
 |
 |
 !
-PL_strncmp
+strncmp
 (
 pref
 p
