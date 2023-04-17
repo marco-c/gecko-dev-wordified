@@ -25274,7 +25274,7 @@ ToRegister
 lir
 -
 >
-environmentChain
+envChain
 (
 )
 )
@@ -25386,7 +25386,7 @@ lir
 LSetFunName
 :
 :
-NameValue
+NameIndex
 )
 )
 ;
@@ -33224,7 +33224,7 @@ lir
 LGuardValue
 :
 :
-Input
+InputIndex
 )
 ;
 Value
@@ -33292,7 +33292,7 @@ lir
 LGuardNullOrUndefined
 :
 :
-Input
+InputIndex
 )
 ;
 ScratchTagScope
@@ -52073,7 +52073,7 @@ ToRegister
 lir
 -
 >
-getObject
+object
 (
 )
 )
@@ -53948,7 +53948,7 @@ ToRegister
 lir
 -
 >
-getArgsObject
+argsObject
 (
 )
 )
@@ -54101,7 +54101,7 @@ ToRegister
 lir
 -
 >
-getObject
+object
 (
 )
 )
@@ -90558,7 +90558,7 @@ ins
 LHasOwnCache
 :
 :
-Value
+ValueIndex
 ins
 -
 >
@@ -90590,7 +90590,7 @@ ins
 LHasOwnCache
 :
 :
-Id
+IdIndex
 ins
 -
 >
@@ -90680,7 +90680,7 @@ ins
 LCheckPrivateFieldCache
 :
 :
-Value
+ValueIndex
 ins
 -
 >
@@ -90712,7 +90712,7 @@ ins
 LCheckPrivateFieldCache
 :
 :
-Id
+IdIndex
 ins
 -
 >
@@ -91169,7 +91169,7 @@ lir
 LThrow
 :
 :
-Value
+ValueIndex
 )
 )
 ;
@@ -102205,7 +102205,7 @@ ins
 LIsObject
 :
 :
-Input
+ObjectIndex
 )
 ;
 masm
@@ -102299,7 +102299,7 @@ ins
 LIsNullOrUndefined
 :
 :
-Input
+InputIndex
 )
 ;
 Label
@@ -104507,7 +104507,7 @@ ins
 LAssertResultV
 :
 :
-Input
+InputIndex
 )
 ;
 emitAssertResultV
@@ -106014,7 +106014,7 @@ ins
 LLexicalCheck
 :
 :
-Input
+InputIndex
 )
 ;
 Label
@@ -106941,7 +106941,7 @@ ins
 LCheckObjCoercible
 :
 :
-CheckValue
+ValueIndex
 )
 ;
 using
@@ -107202,7 +107202,7 @@ ins
 LCheckThis
 :
 :
-ThisValue
+ValueIndex
 )
 ;
 using
@@ -107286,7 +107286,7 @@ ins
 LCheckThisReinit
 :
 :
-ThisValue
+ThisValueIndex
 )
 ;
 using
@@ -107498,7 +107498,7 @@ lir
 LAsyncResolve
 :
 :
-ValueOrReasonInput
+ValueOrReasonIndex
 )
 ;
 AsyncFunctionResolveKind
@@ -107593,7 +107593,7 @@ lir
 LAsyncAwait
 :
 :
-ValueInput
+ValueIndex
 )
 ;
 Register
@@ -107674,7 +107674,7 @@ lir
 LCanSkipAwait
 :
 :
-ValueInput
+ValueIndex
 )
 ;
 pushArg
@@ -107852,7 +107852,7 @@ ins
 LDebugCheckSelfHosted
 :
 :
-CheckValue
+ValueIndex
 )
 ;
 pushArg
@@ -109786,7 +109786,7 @@ lir
 LObjectWithProto
 :
 :
-PrototypeValue
+PrototypeIndex
 )
 )
 ;
@@ -110312,7 +110312,7 @@ lir
 LInitHomeObject
 :
 :
-HomeObjectValue
+HomeObjectIndex
 )
 ;
 Address
@@ -110407,7 +110407,7 @@ lir
 LLoadValueTag
 :
 :
-Value
+ValueIndex
 )
 ;
 Register
@@ -116931,12 +116931,8 @@ ToRegister
 lir
 -
 >
-getOperand
+input
 (
-LWasmAnyRefFromJSObject
-:
-:
-Input
 )
 )
 ;

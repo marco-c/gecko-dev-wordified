@@ -5907,6 +5907,9 @@ LAsmJSLoadHeap
 (
 baseAlloc
 limitAlloc
+LAllocation
+(
+)
 )
 ins
 )
@@ -6082,6 +6085,9 @@ value
 )
 )
 limitAlloc
+LAllocation
+(
+)
 )
 ins
 )
