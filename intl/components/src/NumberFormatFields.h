@@ -96,15 +96,6 @@ include
 "
 mozilla
 /
-ResultVariant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Vector
 .
 h
