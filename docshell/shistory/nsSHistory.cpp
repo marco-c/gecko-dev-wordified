@@ -7859,6 +7859,7 @@ frameLoader
 currentShe
 |
 |
+(
 she
 -
 >
@@ -7872,6 +7873,16 @@ currentShe
 >
 SharedInfo
 (
+)
+&
+&
+!
+currentShe
+-
+>
+GetFrameLoader
+(
+)
 )
 )
 )
