@@ -2238,6 +2238,10 @@ single
 value
 array
         
+bench_mean
+=
+None
+        
 for
 bench
 scores
@@ -2643,6 +2647,10 @@ collect_results
 self
 )
 :
+        
+bench_score
+=
+None
         
 #
 NOTE
