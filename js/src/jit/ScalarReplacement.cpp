@@ -11967,7 +11967,7 @@ if
 ins
 -
 >
-getArgsObject
+argsObject
 (
 )
 !
