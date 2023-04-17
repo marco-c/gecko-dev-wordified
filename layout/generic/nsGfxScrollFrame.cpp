@@ -30506,7 +30506,7 @@ if
 rootPresContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 &
