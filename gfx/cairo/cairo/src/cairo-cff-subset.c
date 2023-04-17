@@ -5825,7 +5825,8 @@ goto
 fail
 ;
 }
-return
+status
+=
 CAIRO_STATUS_SUCCESS
 ;
 fail
