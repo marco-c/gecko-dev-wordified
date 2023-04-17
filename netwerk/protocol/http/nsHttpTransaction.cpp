@@ -5138,13 +5138,7 @@ mLock
 ;
 mSecurityInfo
 =
-std
-:
-:
-move
-(
 info
-)
 ;
 }
 mDeferredSendProgress
@@ -5409,6 +5403,7 @@ if
 (
 target
 )
+{
 asyncIn
 -
 >
@@ -5420,6 +5415,7 @@ this
 target
 )
 ;
+}
 else
 {
 NS_ERROR
@@ -12153,6 +12149,7 @@ len
 HTTPHeaderLen
 )
 )
+{
 return
 (
 nsCRT
@@ -12173,6 +12170,7 @@ buf
 :
 nullptr
 ;
+}
 /
 /
 mLineBuf
@@ -15201,6 +15199,7 @@ int64_t
 1
 )
 )
+{
 LOG
 (
 (
@@ -15220,6 +15219,7 @@ n
 )
 )
 ;
+}
 }
 }
 mDidContentStart
@@ -17552,7 +17552,6 @@ return
 false
 ;
 }
-const
 TimingStruct
 nsHttpTransaction
 :
@@ -18585,6 +18584,7 @@ NS_DISPATCH_NORMAL
 )
 )
 )
+{
 NS_WARNING
 (
 "
@@ -18596,6 +18596,7 @@ event
 "
 )
 ;
+}
 }
 }
 bool
@@ -19802,13 +19803,7 @@ mLock
 ;
 mSecurityInfo
 =
-std
-:
-:
-move
-(
 info
-)
 ;
 }
 return
