@@ -12714,9 +12714,6 @@ ScopedLayerTreeRegistration
 :
 ScopedLayerTreeRegistration
 (
-APZCTreeManager
-*
-aApzctm
 LayersId
 aLayersId
 Layer

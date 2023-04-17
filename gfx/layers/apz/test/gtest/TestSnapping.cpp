@@ -353,7 +353,6 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
-manager
 LayersId
 {
 0
@@ -895,7 +894,6 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
-manager
 LayersId
 {
 0
