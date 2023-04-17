@@ -614,6 +614,9 @@ JSHolderMap
 (
 )
 ;
+#
+ifdef
+DEBUG
 ~
 JSHolderMap
 (
@@ -626,6 +629,8 @@ mHasIterator
 )
 ;
 }
+#
+endif
 bool
 Has
 (
@@ -907,6 +912,9 @@ AddJSHolder
 EntryVectorMap
 mPerZoneJSHolders
 ;
+#
+ifdef
+DEBUG
 /
 /
 Iterators
@@ -937,6 +945,8 @@ mHasIterator
 =
 false
 ;
+#
+endif
 }
 ;
 /
@@ -1140,6 +1150,9 @@ aWhich
 AllHolders
 )
 ;
+#
+ifdef
+DEBUG
 ~
 Iter
 (
@@ -1159,6 +1172,8 @@ mHasIterator
 false
 ;
 }
+#
+endif
 bool
 Done
 (
