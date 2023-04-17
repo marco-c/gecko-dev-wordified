@@ -6018,6 +6018,11 @@ sss
 .
 resetState
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 flags
 )

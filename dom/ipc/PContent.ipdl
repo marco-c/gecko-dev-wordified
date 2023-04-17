@@ -5753,6 +5753,8 @@ tid
 sync
 IsSecureURI
 (
+uint32_t
+aType
 nsIURI
 aURI
 uint32_t

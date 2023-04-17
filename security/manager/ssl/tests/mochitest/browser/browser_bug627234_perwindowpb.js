@@ -272,6 +272,11 @@ gSSService
 .
 processHeader
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 "
 max
@@ -298,6 +303,11 @@ gSSService
 .
 isSecureURI
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 privacyFlags
 (
@@ -477,6 +487,11 @@ gSSService
 .
 resetState
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 0
 )

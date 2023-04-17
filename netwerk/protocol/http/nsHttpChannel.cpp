@@ -12043,6 +12043,10 @@ sss
 >
 ProcessHeader
 (
+nsISiteSecurityService
+:
+:
+HEADER_HSTS
 mURI
 securityHeader
 aSecInfo

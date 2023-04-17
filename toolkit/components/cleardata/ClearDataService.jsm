@@ -5865,6 +5865,11 @@ sss
 .
 enumerate
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 )
 )
 {
@@ -5925,6 +5930,11 @@ sss
 .
 resetState
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 0
 entry
@@ -6040,6 +6050,11 @@ sss
 .
 enumerate
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 )
 )
 .
@@ -6113,6 +6128,11 @@ sss
 .
 resetState
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 0
 originAttributes

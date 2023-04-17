@@ -277,11 +277,6 @@ nsIProtectedAuthThread
 idl
 "
 "
-nsIPublicKeyPinningService
-.
-idl
-"
-"
 nsISecretDecoderRing
 .
 idl

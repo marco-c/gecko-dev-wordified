@@ -125,6 +125,11 @@ gSSService
 .
 processHeader
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 "
 max
@@ -422,6 +427,11 @@ gSSService
 .
 isSecureURI
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 uri
 0
 getOAWithPartitionKey

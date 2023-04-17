@@ -5651,6 +5651,10 @@ ipc
 IPCResult
 RecvIsSecureURI
 (
+const
+uint32_t
+&
+aType
 nsIURI
 *
 aURI
