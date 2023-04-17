@@ -126,6 +126,13 @@ h
 #
 include
 "
+gfxFontFeatures
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences

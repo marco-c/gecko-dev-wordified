@@ -130,6 +130,9 @@ h
 class
 nsIFrame
 ;
+class
+nsPresContext
+;
 #
 define
 NS_IFRAMEENUMERATOR_IID

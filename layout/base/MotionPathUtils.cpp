@@ -193,6 +193,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsStyleTransformMatrix
 .
 h

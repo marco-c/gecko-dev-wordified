@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsPresContext
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
