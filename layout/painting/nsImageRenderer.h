@@ -635,16 +635,6 @@ mozilla
 layers
 :
 :
-LayerManager
-LayerManager
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
 ImageContainer
 ImageContainer
 ;
