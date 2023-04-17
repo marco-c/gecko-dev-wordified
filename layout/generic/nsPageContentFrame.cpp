@@ -390,6 +390,7 @@ out
 for
 that
 .
+const
 nsSize
 maxSize
 (
@@ -410,8 +411,19 @@ SetSize
 maxSize
 )
 ;
+/
+/
+Writing
+mode
+for
+the
+page
+content
+frame
+.
+const
 WritingMode
-wm
+pcfWM
 =
 aReflowInput
 .
@@ -423,7 +435,7 @@ aReflowOutput
 .
 ISize
 (
-wm
+pcfWM
 )
 =
 aReflowInput
@@ -448,7 +460,7 @@ aReflowOutput
 .
 BSize
 (
-wm
+pcfWM
 )
 =
 aReflowInput
@@ -520,6 +532,7 @@ NotEmpty
 {
 nsIFrame
 *
+const
 frame
 =
 mFrames
@@ -528,8 +541,9 @@ FirstChild
 (
 )
 ;
+const
 WritingMode
-wm
+frameWM
 =
 frame
 -
@@ -538,10 +552,11 @@ GetWritingMode
 (
 )
 ;
+const
 LogicalSize
 logicalSize
 (
-wm
+frameWM
 maxSize
 )
 ;
@@ -562,7 +577,7 @@ logicalSize
 .
 BSize
 (
-wm
+frameWM
 )
 )
 ;
@@ -774,6 +789,7 @@ Width
 )
 )
 {
+const
 nscoord
 widthToFit
 =
@@ -793,6 +809,7 @@ GetComputedBorderWidth
 eSideRight
 )
 ;
+const
 float
 ratio
 =
@@ -803,7 +820,10 @@ maxSize
 width
 )
 /
+float
+(
 widthToFit
+)
 ;
 NS_ASSERTION
 (
@@ -943,6 +963,7 @@ Height
 )
 )
 {
+const
 nscoord
 heightToFit
 =
@@ -962,6 +983,7 @@ GetComputedBorderWidth
 eSideBottom
 )
 ;
+const
 float
 ratio
 =
@@ -972,7 +994,10 @@ maxSize
 height
 )
 /
+float
+(
 heightToFit
+)
 ;
 MOZ_ASSERT
 (
@@ -1215,6 +1240,7 @@ NotEmpty
 {
 auto
 *
+const
 previous
 =
 static_cast
@@ -1268,7 +1294,7 @@ containerSize
 .
 BSize
 (
-wm
+pcfWM
 )
 ;
 const
@@ -1277,7 +1303,7 @@ overflowBSize
 =
 LogicalRect
 (
-wm
+pcfWM
 ScrollableOverflowRect
 (
 )
@@ -1288,7 +1314,7 @@ GetSize
 .
 BEnd
 (
-wm
+pcfWM
 )
 ;
 const
