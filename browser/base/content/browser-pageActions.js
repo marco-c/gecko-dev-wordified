@@ -3181,13 +3181,6 @@ add
 "
 urlbar
 -
-icon
--
-wrapper
-"
-"
-urlbar
--
 page
 -
 action
