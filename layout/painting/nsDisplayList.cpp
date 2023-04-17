@@ -863,13 +863,6 @@ h
 #
 include
 "
-ClientLayerManager
-.
-h
-"
-#
-include
-"
 TextDrawTarget
 .
 h

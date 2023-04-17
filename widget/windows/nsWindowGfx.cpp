@@ -575,13 +575,6 @@ h
 #
 include
 "
-ClientLayerManager
-.
-h
-"
-#
-include
-"
 InProcessWinCompositorWidget
 .
 h

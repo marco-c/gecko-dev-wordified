@@ -1295,13 +1295,6 @@ h
 #
 include
 "
-ClientLayerManager
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -30133,8 +30126,6 @@ GetWindowRenderer
 ;
 /
 /
-ClientLayerManagers
-or
 WebRenderLayerManagers
 in
 content
