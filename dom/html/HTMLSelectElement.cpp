@@ -7986,9 +7986,6 @@ true
 ;
 }
 }
-/
-/
-nsIFormControl
 bool
 HTMLSelectElement
 :
@@ -8310,6 +8307,9 @@ NOTIFY
 }
 }
 }
+/
+/
+nsIFormControl
 NS_IMETHODIMP
 HTMLSelectElement
 :
