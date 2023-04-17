@@ -1619,9 +1619,6 @@ void
 void
 OnScaleChanged
 (
-GtkAllocation
-*
-aAllocation
 )
 ;
 void
