@@ -899,13 +899,6 @@ h
 "
 composite
 /
-TextRenderer
-.
-h
-"
-"
-composite
-/
 TextureHost
 .
 h
@@ -2424,13 +2417,6 @@ cpp
 composite
 /
 ImageComposite
-.
-cpp
-"
-"
-composite
-/
-TextRenderer
 .
 cpp
 "
