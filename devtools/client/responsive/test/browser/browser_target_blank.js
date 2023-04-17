@@ -145,6 +145,7 @@ gBrowser
 TAB_URL
 )
 ;
+await
 spawnViewportTask
 (
 ui
