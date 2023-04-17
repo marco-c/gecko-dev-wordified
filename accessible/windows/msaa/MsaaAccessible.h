@@ -314,7 +314,7 @@ static
 HWND
 GetHWNDFor
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -323,7 +323,7 @@ static
 void
 FireWinEvent
 (
-LocalAccessible
+Accessible
 *
 aTarget
 uint32_t
