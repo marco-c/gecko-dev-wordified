@@ -1718,14 +1718,9 @@ mut
 TextureCache
 )
 {
-if
-self
-.
-manual_eviction
-{
 texture_cache
 .
-evict_manual_handle
+evict_handle
 (
 &
 self
@@ -1733,7 +1728,6 @@ self
 texture_cache_handle
 )
 ;
-}
 self
 .
 manual_eviction
