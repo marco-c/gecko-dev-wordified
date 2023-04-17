@@ -89,6 +89,9 @@ isArray
 abc
 "
 )
+must
+return
+false
 '
 )
 ;

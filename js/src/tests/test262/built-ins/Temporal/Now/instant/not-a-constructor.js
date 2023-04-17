@@ -152,7 +152,9 @@ instant
 (
 )
 throws
+a
 TypeError
+exception
 '
 )
 ;

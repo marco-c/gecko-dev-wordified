@@ -203,7 +203,9 @@ isArray
 ]
 )
 throws
+a
 TypeError
+exception
 '
 )
 ;

@@ -118,8 +118,14 @@ Array
 .
 isArray
 (
-child
+new
+Con
+(
 )
+)
+must
+return
+false
 '
 )
 ;

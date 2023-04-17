@@ -82,6 +82,7 @@ true
 The
 result
 of
+evaluating
 (
 Array
 .
@@ -100,6 +101,9 @@ instanceof
 Boolean
 )
 is
+expected
+to
+be
 true
 '
 )
@@ -128,6 +132,7 @@ true
 The
 result
 of
+evaluating
 (
 Array
 .
@@ -146,6 +151,9 @@ instanceof
 Boolean
 )
 is
+expected
+to
+be
 true
 '
 )

@@ -91,6 +91,9 @@ RegExp
 (
 )
 )
+must
+return
+false
 '
 )
 ;

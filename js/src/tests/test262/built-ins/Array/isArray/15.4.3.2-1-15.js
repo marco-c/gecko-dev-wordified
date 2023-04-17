@@ -86,6 +86,9 @@ isArray
 (
 this
 )
+must
+return
+false
 '
 )
 ;

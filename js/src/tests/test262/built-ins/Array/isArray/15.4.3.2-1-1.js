@@ -85,6 +85,9 @@ isArray
 (
 true
 )
+must
+return
+false
 '
 )
 ;

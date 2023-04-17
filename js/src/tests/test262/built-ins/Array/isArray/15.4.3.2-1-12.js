@@ -91,6 +91,9 @@ SyntaxError
 (
 )
 )
+must
+return
+false
 '
 )
 ;

@@ -158,6 +158,17 @@ concat
 )
 ;
 }
+'
+a
+.
+concat
+(
+)
+throws
+a
+Test262Error
+exception
+'
 )
 ;
 reportCompare

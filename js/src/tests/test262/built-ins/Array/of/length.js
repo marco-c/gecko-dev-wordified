@@ -108,6 +108,9 @@ of
 .
 length
 is
+expected
+to
+be
 0
 '
 )

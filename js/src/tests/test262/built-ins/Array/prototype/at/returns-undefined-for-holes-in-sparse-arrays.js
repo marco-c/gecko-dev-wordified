@@ -175,6 +175,9 @@ prototype
 .
 at
 is
+expected
+to
+be
 "
 function
 "
@@ -258,8 +261,7 @@ at
 (
 2
 )
-must
-return
+returns
 undefined
 '
 )
@@ -330,8 +332,7 @@ at
 (
 5
 )
-must
-return
+returns
 undefined
 '
 )
@@ -432,8 +433,7 @@ at
 -
 2
 )
-must
-return
+returns
 undefined
 '
 )
@@ -510,8 +510,7 @@ at
 -
 5
 )
-must
-return
+returns
 undefined
 '
 )

@@ -201,7 +201,9 @@ of
 1
 )
 throws
+a
 TypeError
+exception
 '
 )
 ;
