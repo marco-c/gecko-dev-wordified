@@ -13279,7 +13279,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectBackground
+Highlight
 mFrame
 )
 ;
@@ -14191,7 +14191,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectForeground
+Highlighttext
 aForFrame
 fgColor
 )

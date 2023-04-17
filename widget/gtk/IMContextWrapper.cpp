@@ -1822,7 +1822,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectForeground
+Highlight
 )
 )
 {
@@ -1931,7 +1931,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectBackground
+Highlighttext
 )
 )
 {
