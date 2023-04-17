@@ -3366,6 +3366,11 @@ device
 )
 ;
 }
+free
+(
+renderDeviceName
+)
+;
 #
 endif
 }
