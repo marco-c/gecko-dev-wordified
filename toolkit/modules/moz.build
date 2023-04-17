@@ -1422,6 +1422,11 @@ PrivateBrowsingUtils
 jsm
 "
 "
+ProcessType
+.
+jsm
+"
+"
 ProfileAge
 .
 jsm
