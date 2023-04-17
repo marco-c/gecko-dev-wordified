@@ -64,7 +64,9 @@ stage_platform
 "
 android
 -
-arm
+api
+-
+16
 "
     
 "
@@ -82,10 +84,10 @@ mozconfigs
 /
 android
 -
-arm
-/
-profile
+api
 -
-generate
+16
+/
+nightly
 "
 }

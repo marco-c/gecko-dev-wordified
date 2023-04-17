@@ -84,7 +84,9 @@ mozconfigs
 /
 android
 -
-arm
+api
+-
+16
 /
 nightly
 -

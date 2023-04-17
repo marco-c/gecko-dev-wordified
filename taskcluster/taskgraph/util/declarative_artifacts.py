@@ -93,7 +93,9 @@ v8a
 "
 android
 -
-arm
+api
+-
+16
 -
 opt
 "
@@ -180,7 +182,9 @@ v8a
 "
 android
 -
-arm
+api
+-
+16
 -
 shippable
 "

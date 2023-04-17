@@ -131,7 +131,9 @@ mozconfigs
 /
 android
 -
-arm
+api
+-
+16
 /
 l10n
 -

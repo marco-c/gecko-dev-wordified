@@ -107,7 +107,9 @@ JOB_CHOICES
 "
 android
 -
-arm
+api
+-
+16
 -
 opt
 "
@@ -115,7 +117,9 @@ opt
 "
 android
 -
-arm
+api
+-
+16
 -
 debug
 "
