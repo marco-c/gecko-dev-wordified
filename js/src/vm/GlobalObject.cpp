@@ -6527,7 +6527,6 @@ runtime
 >
 assertSelfHostedFunctionHasCanonicalName
 (
-cx
 selfHostedName
 )
 ;
