@@ -1610,7 +1610,7 @@ aRequestedIndex
 int32_t
 aSessionHistoryLength
 bool
-aLoadingFromActiveEntry
+aLoadingCurrentEntry
 )
 ;
 void

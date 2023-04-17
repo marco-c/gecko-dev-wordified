@@ -6754,7 +6754,7 @@ aLoadState
 uint32_t
 aLoadType
 bool
-aReloadingActiveEntry
+aLoadingCurrentEntry
 )
 ;
 nsresult

@@ -1226,7 +1226,7 @@ false
 mRequestedIndex
 mSessionHistoryLength
 and
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 are
 /
 /
@@ -1258,7 +1258,6 @@ loading
 from
 the
 current
-active
 entry
 we
 want
@@ -1267,9 +1266,9 @@ treat
 it
 as
 not
-/
-/
 a
+/
+/
 same
 -
 document
@@ -1283,7 +1282,7 @@ IsSameDocumentNavigation
 )
 .
 bool
-mLoadingCurrentActiveEntry
+mLoadingCurrentEntry
 =
 false
 ;
