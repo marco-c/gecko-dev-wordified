@@ -2048,10 +2048,6 @@ TryLock
 (
 )
 {
-CheckAcquire
-(
-)
-;
 bool
 locked
 =
