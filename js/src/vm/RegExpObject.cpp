@@ -1681,7 +1681,12 @@ names
 .
 lastIndex
 LAST_INDEX_SLOT
-JSPROP_PERMANENT
+{
+ShapePropertyFlag
+:
+:
+Writable
+}
 &
 slot
 )
