@@ -250,7 +250,6 @@ def
 power
 (
 self
-command_context
 interval
 )
 :

@@ -1389,7 +1389,6 @@ def
 try_default
 (
 self
-command_context
 argv
 =
 None
@@ -1676,7 +1675,6 @@ def
 try_fuzzy
 (
 self
-command_context
 *
 *
 kwargs
@@ -2586,7 +2584,6 @@ def
 try_chooser
 (
 self
-command_context
 *
 *
 kwargs
@@ -2779,7 +2776,6 @@ def
 try_auto
 (
 self
-command_context
 *
 *
 kwargs
@@ -2841,7 +2837,6 @@ def
 try_again
 (
 self
-command_context
 *
 *
 kwargs
@@ -2897,7 +2892,6 @@ def
 try_empty
 (
 self
-command_context
 *
 *
 kwargs
@@ -3026,7 +3020,6 @@ def
 try_syntax
 (
 self
-command_context
 *
 *
 kwargs
@@ -3518,7 +3511,6 @@ def
 try_coverage
 (
 self
-command_context
 *
 *
 kwargs
@@ -3594,7 +3586,6 @@ def
 try_release
 (
 self
-command_context
 *
 *
 kwargs
@@ -3669,7 +3660,6 @@ def
 try_scriptworker
 (
 self
-command_context
 *
 *
 kwargs

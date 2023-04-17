@@ -172,7 +172,6 @@ def
 run
 (
 self
-command_context
 ide
 args
 )

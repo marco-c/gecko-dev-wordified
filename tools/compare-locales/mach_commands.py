@@ -507,7 +507,6 @@ def
 compare
 (
 self
-command_context
 *
 *
 kwargs

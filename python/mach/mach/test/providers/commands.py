@@ -180,7 +180,6 @@ def
 run_foo
 (
 self
-command_context
 )
 :
         
@@ -211,7 +210,6 @@ def
 run_bar
 (
 self
-command_context
 )
 :
         
@@ -245,7 +243,6 @@ def
 run_foobar
 (
 self
-command_context
 )
 :
         

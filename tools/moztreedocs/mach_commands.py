@@ -698,8 +698,6 @@ build_docs
         
 self
         
-command_context
-        
 path
 =
 None
@@ -2654,7 +2652,6 @@ def
 generate_telemetry_docs
 (
 self
-command_context
 )
 :
         
