@@ -662,6 +662,10 @@ pub
 is_software
 :
 bool
+pub
+low_quality_pinch_zoom
+:
+bool
 }
 /
 /

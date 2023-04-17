@@ -8262,6 +8262,9 @@ i32
 reject_software_rasterizer
 :
 bool
+low_quality_pinch_zoom
+:
+bool
 )
 -
 >
@@ -9120,6 +9123,7 @@ panic_on_gl_error
 picture_tile_size
 texture_cache_config
 reject_software_rasterizer
+low_quality_pinch_zoom
 .
 .
 Default
