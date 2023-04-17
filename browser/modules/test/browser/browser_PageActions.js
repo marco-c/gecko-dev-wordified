@@ -7350,11 +7350,7 @@ Assert
 equal
 (
 onBeforePlacedInWindowCount
-gProton
-?
 1
-:
-0
 "
 onBeforePlacedInWindowCount
 after
