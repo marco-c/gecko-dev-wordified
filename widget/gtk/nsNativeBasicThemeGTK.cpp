@@ -298,7 +298,7 @@ aFrame
 auto
 trackColor
 =
-ComputeScrollbarColor
+ComputeScrollbarTrackColor
 (
 aFrame
 *
