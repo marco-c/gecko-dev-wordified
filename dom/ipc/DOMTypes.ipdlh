@@ -1533,7 +1533,7 @@ referrerInfo
 ;
 TimedChannelInfo
 ?
-timedChannel
+timedChannelInfo
 ;
 nullable
 PRemoteLazyInputStream
