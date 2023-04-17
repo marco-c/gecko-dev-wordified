@@ -243,7 +243,7 @@ mozilla
 /
 dom
 /
-GetFilesHelper
+FormData
 .
 h
 "
@@ -254,7 +254,7 @@ mozilla
 /
 dom
 /
-HTMLFormSubmission
+GetFilesHelper
 .
 h
 "
@@ -35290,9 +35290,9 @@ HTMLInputElement
 :
 SubmitNamesValues
 (
-HTMLFormSubmission
+FormData
 *
-aFormSubmission
+aFormData
 )
 {
 /
@@ -35403,7 +35403,7 @@ InputImage
 )
 &
 &
-aFormSubmission
+aFormData
 -
 >
 GetSubmitterElement
@@ -35592,7 +35592,7 @@ IsEmpty
 )
 )
 {
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair
@@ -35608,7 +35608,7 @@ _ns
 xVal
 )
 ;
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair
@@ -35649,7 +35649,7 @@ and
 IE
 compatibility
 .
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair
@@ -35662,7 +35662,7 @@ _ns
 xVal
 )
 ;
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair
@@ -35825,7 +35825,7 @@ Failed
 )
 )
 {
-aFormSubmission
+aFormData
 -
 >
 AddNameBlobPair
@@ -35875,7 +35875,7 @@ IsFile
 )
 )
 {
-aFormSubmission
+aFormData
 -
 >
 AddNameBlobPair
@@ -35906,7 +35906,7 @@ IsDirectory
 )
 )
 ;
-aFormSubmission
+aFormData
 -
 >
 AddNameDirectoryPair
@@ -35952,7 +35952,7 @@ _charset_
 nsCString
 charset
 ;
-aFormSubmission
+aFormData
 -
 >
 GetCharset
@@ -35961,7 +35961,7 @@ charset
 )
 ;
 return
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair
@@ -36071,7 +36071,7 @@ defaultValue
 ;
 }
 return
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair

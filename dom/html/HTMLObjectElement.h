@@ -157,7 +157,7 @@ namespace
 dom
 {
 class
-HTMLFormSubmission
+FormData
 ;
 template
 <
@@ -301,9 +301,9 @@ NS_OK
 NS_IMETHOD
 SubmitNamesValues
 (
-HTMLFormSubmission
+FormData
 *
-aFormSubmission
+aFormData
 )
 override
 {

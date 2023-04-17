@@ -156,6 +156,9 @@ namespace
 dom
 {
 class
+FormData
+;
+class
 HTMLButtonElement
 final
 :
@@ -244,9 +247,9 @@ override
 NS_IMETHOD
 SubmitNamesValues
 (
-HTMLFormSubmission
+FormData
 *
-aFormSubmission
+aFormData
 )
 override
 ;

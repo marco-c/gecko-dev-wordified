@@ -157,7 +157,7 @@ mozilla
 /
 dom
 /
-HTMLFormSubmission
+FormData
 .
 h
 "
@@ -3669,9 +3669,9 @@ HTMLTextAreaElement
 :
 SubmitNamesValues
 (
-HTMLFormSubmission
+FormData
 *
-aFormSubmission
+aFormData
 )
 {
 /
@@ -3761,7 +3761,7 @@ Submit
 /
 /
 return
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair

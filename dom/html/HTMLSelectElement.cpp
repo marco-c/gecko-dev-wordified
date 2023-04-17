@@ -186,7 +186,7 @@ mozilla
 /
 dom
 /
-HTMLFormSubmission
+FormData
 .
 h
 "
@@ -8546,9 +8546,9 @@ HTMLSelectElement
 :
 SubmitNamesValues
 (
-HTMLFormSubmission
+FormData
 *
-aFormSubmission
+aFormData
 )
 {
 /
@@ -8699,7 +8699,7 @@ GetValue
 value
 )
 ;
-aFormSubmission
+aFormData
 -
 >
 AddNameValuePair

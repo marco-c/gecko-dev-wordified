@@ -286,7 +286,13 @@ namespace
 dom
 {
 class
+DialogFormSubmission
+;
+class
 HTMLFormControlsCollection
+;
+class
+HTMLFormSubmission
 ;
 class
 HTMLImageElement
