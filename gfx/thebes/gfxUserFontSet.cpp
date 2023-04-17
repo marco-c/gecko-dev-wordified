@@ -1666,7 +1666,7 @@ Truncate
 if
 (
 aSrcIndex
-=
+>
 =
 mSrcList
 .
