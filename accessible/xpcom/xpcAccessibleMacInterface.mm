@@ -298,7 +298,8 @@ xpcAccessibleMacInterface
 :
 xpcAccessibleMacInterface
 (
-AccessibleOrProxy
+Accessible
+*
 aObj
 )
 :

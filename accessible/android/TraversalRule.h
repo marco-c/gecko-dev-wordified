@@ -177,10 +177,9 @@ virtual
 uint16_t
 Match
 (
-const
-AccessibleOrProxy
-&
-aAccOrProxy
+Accessible
+*
+aAcc
 )
 override
 ;

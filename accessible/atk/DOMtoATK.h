@@ -824,13 +824,13 @@ BOMs
 template
 <
 class
-AccessibleOrProxy
+Accessible
 >
 gchar
 *
 NewATKString
 (
-AccessibleOrProxy
+Accessible
 *
 aAccessible
 gint

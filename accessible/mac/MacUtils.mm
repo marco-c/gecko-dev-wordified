@@ -493,8 +493,9 @@ acc
 aNativeAccessible
 geckoAccessible
 ]
-.
-AsAccessible
+-
+>
+AsLocal
 (
 )
 )
@@ -520,8 +521,9 @@ proxy
 aNativeAccessible
 geckoAccessible
 ]
-.
-AsProxy
+-
+>
+AsRemote
 (
 )
 )

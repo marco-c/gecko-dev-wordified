@@ -308,9 +308,10 @@ mozilla
 a11y
 :
 :
-AccessibleOrProxy
+Accessible
+*
 )
-aAccOrProxy
+aAcc
 ;
 #
 pragma

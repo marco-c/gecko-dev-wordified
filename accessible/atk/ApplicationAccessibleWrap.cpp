@@ -587,7 +587,14 @@ return
 atk_object_initialize
 (
 mAtkObject
+static_cast
+<
+Accessible
+*
+>
+(
 this
+)
 )
 ;
 mAtkObject
