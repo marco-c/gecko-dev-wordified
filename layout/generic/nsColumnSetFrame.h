@@ -148,6 +148,9 @@ nsContainerFrame
 .
 h
 "
+class
+nsCSSBorderRenderer
+;
 /
 *
 *

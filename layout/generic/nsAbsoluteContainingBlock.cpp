@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsAtomicContainerFrame
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
