@@ -2112,15 +2112,6 @@ list
 for
 *
 param
-aExtraPage
-the
-page
-we
-constructed
-aList
-for
-*
-param
 aList
 the
 list
@@ -2142,9 +2133,6 @@ aBuilder
 nsPageFrame
 *
 aPage
-nsIFrame
-*
-aExtraPage
 nsDisplayList
 *
 aList
@@ -2196,7 +2184,6 @@ PruneDisplayListForExtraPage
 (
 aBuilder
 aPage
-aExtraPage
 subList
 )
 ;
@@ -2388,7 +2375,6 @@ PruneDisplayListForExtraPage
 (
 aBuilder
 aPage
-aExtraPage
 &
 list
 )
