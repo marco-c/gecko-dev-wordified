@@ -631,6 +631,15 @@ os
 "
 OSX
 "
+and
+target
+.
+cpu
+=
+=
+"
+x86_64
+"
 )
 )
 option
