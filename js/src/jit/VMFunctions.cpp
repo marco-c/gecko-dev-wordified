@@ -12588,9 +12588,11 @@ false
 ShapeProperty
 prop
 =
-ShapeProperty
-(
 shape
+-
+>
+property
+(
 )
 ;
 if
@@ -12751,9 +12753,11 @@ id
 ShapeProperty
 prop
 =
-ShapeProperty
-(
 shape
+-
+>
+property
+(
 )
 ;
 if

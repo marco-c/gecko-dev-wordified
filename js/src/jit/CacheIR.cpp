@@ -29669,9 +29669,11 @@ lastProperty
 ;
 MOZ_RELEASE_ASSERT
 (
-ShapeProperty
-(
 newShape
+-
+>
+property
+(
 )
 =
 =
