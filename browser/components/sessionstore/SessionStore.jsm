@@ -68,6 +68,9 @@ EXPORTED_SYMBOLS
 "
 SessionStore
 "
+"
+_LastSession
+"
 ]
 ;
 /
@@ -41588,4 +41591,14 @@ NOTIFY_LAST_SESSION_CLEARED
 }
 }
 }
+;
+/
+/
+Exposed
+for
+tests
+const
+_LastSession
+=
+LastSession
 ;
