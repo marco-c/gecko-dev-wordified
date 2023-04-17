@@ -713,12 +713,6 @@ available
 /
 variations
 .
-bool
-mCheckedForOpszAxis
-;
-bool
-mHasOpszAxis
-;
 gfxFontVariationAxis
 mOpszAxis
 ;
