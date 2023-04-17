@@ -344,9 +344,6 @@ testScript
 toolbox
 )
 ;
-const
-recordData
-=
 await
 startRecordingAllocations
 (
@@ -398,10 +395,14 @@ toolbox
 await
 stopRecordingAllocations
 (
-recordData
 "
 reload
 "
+{
+alsoRecordContentProcess
+:
+true
+}
 )
 ;
 await
