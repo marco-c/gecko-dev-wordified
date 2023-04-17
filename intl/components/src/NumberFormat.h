@@ -2816,7 +2816,7 @@ if
 !
 buffer
 .
-allocate
+reserve
 (
 result
 .

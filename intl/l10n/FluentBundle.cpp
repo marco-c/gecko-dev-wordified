@@ -206,7 +206,7 @@ CharType
 uint8_t
 ;
 bool
-allocate
+reserve
 (
 size_t
 size
@@ -252,7 +252,7 @@ get
 ;
 }
 size_t
-size
+capacity
 (
 )
 const
