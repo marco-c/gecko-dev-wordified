@@ -179,7 +179,9 @@ rstrip
 )
 depends
 (
-target_sysroot_path
+target_sysroot
+.
+path
 multiarch_dir
 when
 =
