@@ -1,4 +1,6 @@
 import
+logging
+import
 sys
 import
 mock
@@ -58,6 +60,13 @@ wptserve
 config
 import
 ConfigBuilder
+logger
+=
+logging
+.
+getLogger
+(
+)
 def
 test_sauceconnect_success
 (
@@ -197,6 +206,7 @@ sauce_connect_args
 with
 ConfigBuilder
 (
+logger
 browser_host
 =
 "
@@ -404,6 +414,7 @@ sauce_connect_args
 with
 ConfigBuilder
 (
+logger
 browser_host
 =
 "
@@ -634,6 +645,7 @@ sauce_connect_args
 with
 ConfigBuilder
 (
+logger
 browser_host
 =
 "
@@ -816,6 +828,7 @@ sauce_connect_args
 with
 ConfigBuilder
 (
+logger
 browser_host
 =
 "
@@ -1021,6 +1034,8 @@ sauce_connect_args
 with
 ConfigBuilder
 (
+logger
+                           
 browser_host
 =
 "
