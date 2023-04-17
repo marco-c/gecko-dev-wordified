@@ -925,6 +925,8 @@ MallocSizeOf
 PartialEq
 Ord
 PartialOrd
+Serialize
+Deserialize
 )
 ]
 pub
