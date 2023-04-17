@@ -20888,14 +20888,13 @@ i
 {
 MOZ_ASSERT
 (
-!
 shapes
 [
 i
 ]
 -
 >
-isAccessorShape
+isDataProperty
 (
 )
 "

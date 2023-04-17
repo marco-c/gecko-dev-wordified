@@ -11659,11 +11659,10 @@ continue
 }
 if
 (
-!
 shape
 -
 >
-isAccessorShape
+isDataProperty
 (
 )
 )
