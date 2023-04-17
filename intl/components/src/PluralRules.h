@@ -817,9 +817,15 @@ options
 ;
 options
 .
-mRoundingModeHalfUp
+mRoundingMode
 =
-true
+NumberFormatOptions
+:
+:
+RoundingMode
+:
+:
+HalfExpand
 ;
 if
 (
