@@ -3015,6 +3015,15 @@ PresContext
 (
 )
 mImageContainer
+/
+*
+aResolution
+=
+*
+/
+1
+.
+0f
 nsLayoutUtils
 :
 :
