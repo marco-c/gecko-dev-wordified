@@ -1477,6 +1477,16 @@ widthInCSS
 heightInCSS
 )
 ;
+info
+(
+DPR
+is
+:
+{
+aDPR
+}
+)
+;
 isWithin
 (
 x
@@ -1489,7 +1499,7 @@ xInCSS
 value
 1
 "
-Heights
+X
 in
 CSS
 pixels
@@ -1511,7 +1521,7 @@ yInCSS
 value
 1
 "
-Heights
+Y
 in
 CSS
 pixels
@@ -1533,7 +1543,7 @@ widthInCSS
 value
 1
 "
-Heights
+Width
 in
 CSS
 pixels
@@ -1555,7 +1565,7 @@ heightInCSS
 value
 1
 "
-Heights
+Height
 in
 CSS
 pixels
