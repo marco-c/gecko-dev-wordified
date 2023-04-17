@@ -1,8 +1,4 @@
 from
-six
-import
-PY3
-from
 wptserve
 .
 utils
@@ -30,10 +26,6 @@ testinput
 "
 )
     
-if
-PY3
-:
-        
 #
 The
 test
@@ -44,7 +36,7 @@ representation
 of
 this
 FieldStorage
-        
+    
 #
 object
 but
@@ -56,7 +48,7 @@ has
 different
 types
 in
-        
+    
 #
 Python
 2
@@ -69,7 +61,7 @@ to
 native
 strings
 .
-        
+    
 testinput
 .
 value
