@@ -1,7 +1,3 @@
-from
-six
-import
-ensure_text
 MYPY
 =
 False
@@ -24,7 +20,6 @@ Mypy
 from
 typing
 import
-AnyStr
 Optional
 Text
 class
@@ -163,18 +158,11 @@ line
 type
 :
 (
-AnyStr
+Text
 )
 -
 >
 None
-        
-text
-=
-ensure_text
-(
-line
-)
         
 with
 open
@@ -196,14 +184,13 @@ f
 .
 write
 (
-text
+line
 )
             
 f
 .
 write
 (
-u
 "
 \
 n
