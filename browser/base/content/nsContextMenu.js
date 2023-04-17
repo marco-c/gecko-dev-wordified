@@ -8766,7 +8766,7 @@ function
 blobURL
 )
 {
-openLinkIn
+openUILinkIn
 (
 blobURL
 where
@@ -8812,7 +8812,7 @@ a
 new
 tab
 .
-openLinkIn
+openUILinkIn
 (
 this
 .
