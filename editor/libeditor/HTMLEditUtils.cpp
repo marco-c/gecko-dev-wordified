@@ -1788,6 +1788,7 @@ HTMLEditUtils
 :
 IsAnyTableElement
 (
+const
 nsINode
 *
 aNode

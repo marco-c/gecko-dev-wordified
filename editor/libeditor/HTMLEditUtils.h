@@ -1012,6 +1012,7 @@ static
 bool
 IsAnyTableElement
 (
+const
 nsINode
 *
 aNode
