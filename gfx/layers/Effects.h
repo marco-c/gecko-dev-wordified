@@ -574,6 +574,10 @@ mPremultiplied
 (
 aPremultiplied
 )
+mPremultipliedCopy
+(
+false
+)
 mSamplingFilter
 (
 aSamplingFilter
@@ -629,6 +633,9 @@ mTexture
 ;
 bool
 mPremultiplied
+;
+bool
+mPremultipliedCopy
 ;
 gfx
 :
