@@ -1023,9 +1023,7 @@ Example
 /
 /
 rust
-no
--
-run
+no_run
 /
 /
 /
