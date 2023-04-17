@@ -344,6 +344,16 @@ needed
 for
 IPC
 purposes
+WebRenderLayerScrollData
+(
+WebRenderLayerScrollData
+&
+&
+aOther
+)
+=
+default
+;
 ~
 WebRenderLayerScrollData
 (
@@ -1525,8 +1535,8 @@ GetLayerData
 size_t
 AddLayerData
 (
-const
 WebRenderLayerScrollData
+&
 &
 aData
 )

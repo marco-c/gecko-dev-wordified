@@ -1077,7 +1077,7 @@ it
 =
 finishedLayers
 .
-crbegin
+rbegin
 (
 )
 ;
@@ -1086,7 +1086,7 @@ it
 =
 finishedLayers
 .
-crend
+rend
 (
 )
 ;
@@ -1099,8 +1099,14 @@ result
 .
 AddLayerData
 (
+std
+:
+:
+move
+(
 *
 it
+)
 )
 ;
 }
