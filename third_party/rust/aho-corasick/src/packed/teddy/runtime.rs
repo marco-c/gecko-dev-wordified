@@ -642,6 +642,9 @@ std
 mem
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -654,6 +657,9 @@ Patterns
 }
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -663,6 +669,9 @@ teddy
 compile
 ;
 use
+crate
+:
+:
 packed
 :
 :
@@ -672,6 +681,9 @@ vector
 *
 ;
 use
+crate
+:
+:
 Match
 ;
 /
