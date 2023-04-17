@@ -13,7 +13,7 @@ export
 The
 WebAssembly
 .
-Exception
+Tag
 constructor
 cannot
 be
@@ -34,7 +34,7 @@ Same
 with
 WebAssembly
 .
-RuntimeException
+Exception
 .
 function
 testException
@@ -50,7 +50,7 @@ assertErrorMessage
 new
 WebAssembly
 .
-Exception
+Tag
 (
 )
 WebAssembly
@@ -61,7 +61,7 @@ cannot
 call
 WebAssembly
 .
-Exception
+Tag
 /
 )
 ;
@@ -74,7 +74,7 @@ assertErrorMessage
 new
 WebAssembly
 .
-RuntimeException
+Exception
 (
 )
 WebAssembly
@@ -85,7 +85,7 @@ cannot
 call
 WebAssembly
 .
-RuntimeException
+Exception
 /
 )
 ;
@@ -146,8 +146,8 @@ exn
 :
 "
 not
-an
-exception
+a
+tag
 "
 }
 }
@@ -165,7 +165,7 @@ exn
 is
 not
 a
-Exception
+Tag
 /
 )
 ;
@@ -225,7 +225,7 @@ exn
 instanceof
 WebAssembly
 .
-Exception
+Tag
 true
 )
 ;
@@ -284,7 +284,7 @@ exn
 instanceof
 WebAssembly
 .
-Exception
+Tag
 true
 )
 ;
@@ -417,7 +417,7 @@ WebAssembly
 LinkError
 /
 imported
-exception
+tag
 '
 m
 .

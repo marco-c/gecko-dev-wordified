@@ -6153,12 +6153,12 @@ mismatch
 )
 MSG_DEF
 (
-JSMSG_WASM_BAD_EXN_SIG
+JSMSG_WASM_BAD_TAG_SIG
 2
 JSEXN_WASMLINKERROR
 "
 imported
-exception
+tag
 '
 {
 0

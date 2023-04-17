@@ -70902,7 +70902,7 @@ unboxObject
 Address
 (
 exn
-WasmRuntimeExceptionObject
+WasmExceptionObject
 :
 :
 offsetOfValues
@@ -70919,7 +70919,7 @@ unboxObject
 Address
 (
 exn
-WasmRuntimeExceptionObject
+WasmExceptionObject
 :
 :
 offsetOfRefs
@@ -73219,7 +73219,7 @@ Address
 exnValuesAddress
 (
 exn
-WasmRuntimeExceptionObject
+WasmExceptionObject
 :
 :
 offsetOfValues

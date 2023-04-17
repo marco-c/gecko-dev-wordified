@@ -3760,7 +3760,7 @@ class
 of
 WebAssembly
 .
-Exception
+Tag
 .
 This
 class
@@ -3769,6 +3769,7 @@ used
 to
 track
 exception
+tag
 /
 /
 types
@@ -3778,7 +3779,7 @@ and
 imports
 .
 class
-WasmExceptionObject
+WasmTagObject
 :
 public
 NativeObject
@@ -3883,7 +3884,7 @@ Value
 )
 ;
 static
-WasmExceptionObject
+WasmTagObject
 *
 create
 (
@@ -3945,7 +3946,7 @@ class
 of
 WebAssembly
 .
-RuntimeException
+Exception
 .
 This
 class
@@ -3979,7 +3980,7 @@ in
 Wasm
 )
 class
-WasmRuntimeExceptionObject
+WasmExceptionObject
 :
 public
 NativeObject
@@ -4091,7 +4092,7 @@ Value
 )
 ;
 static
-WasmRuntimeExceptionObject
+WasmExceptionObject
 *
 create
 (

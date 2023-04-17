@@ -3525,7 +3525,7 @@ toObject
 .
 is
 <
-WasmRuntimeExceptionObject
+WasmExceptionObject
 >
 (
 )

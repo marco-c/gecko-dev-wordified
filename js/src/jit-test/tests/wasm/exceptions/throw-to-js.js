@@ -42,7 +42,7 @@ exn
 instanceof
 WebAssembly
 .
-RuntimeException
+Exception
 true
 )
 ;

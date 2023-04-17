@@ -6922,7 +6922,7 @@ AnyRef
 :
 fromJSObject
 (
-WasmRuntimeExceptionObject
+WasmExceptionObject
 :
 :
 create
@@ -7125,7 +7125,7 @@ exn
 >
 is
 <
-WasmRuntimeExceptionObject
+WasmExceptionObject
 >
 (
 )
@@ -7140,7 +7140,7 @@ exn
 >
 as
 <
-WasmRuntimeExceptionObject
+WasmExceptionObject
 >
 (
 )
@@ -7284,13 +7284,13 @@ exn
 >
 is
 <
-WasmRuntimeExceptionObject
+WasmExceptionObject
 >
 (
 )
 )
 ;
-RootedWasmRuntimeExceptionObject
+RootedWasmExceptionObject
 exnObj
 (
 cx
@@ -7300,7 +7300,7 @@ exn
 >
 as
 <
-WasmRuntimeExceptionObject
+WasmExceptionObject
 >
 (
 )
