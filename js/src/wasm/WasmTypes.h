@@ -8337,6 +8337,7 @@ MemoryDesc
 =
 default
 ;
+explicit
 MemoryDesc
 (
 MemoryKind
