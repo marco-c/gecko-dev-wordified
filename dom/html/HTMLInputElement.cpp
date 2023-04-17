@@ -5940,7 +5940,7 @@ aFromClone
 FromClone
 :
 :
-no
+No
 )
 mInInternalActivate
 (
@@ -6542,7 +6542,7 @@ NOT_FROM_PARSER
 FromClone
 :
 :
-yes
+Yes
 )
 ;
 nsresult
