@@ -25351,10 +25351,27 @@ alias
 "
 iterator
 "
+or
+alias
+=
+=
+"
+asyncIterator
+"
 :
+                    
+name
+=
+alias
+[
+2
+:
+]
                     
 symbolJSID
 =
+(
+                        
 "
 SYMBOL_TO_JSID
 (
@@ -25370,10 +25387,25 @@ JS
 SymbolCode
 :
 :
-iterator
+%
+s
 )
 )
 "
+                        
+%
+name
+                    
+)
+                    
+prop
+=
+"
+%
+sId
+"
+%
+name
                     
 getSymbolJSID
 =
@@ -25391,7 +25423,9 @@ Rooted
 <
 jsid
 >
-iteratorId
+{
+prop
+}
 (
 aCx
 {
@@ -25400,6 +25434,10 @@ symbolJSID
 )
 ;
 "
+                            
+prop
+=
+prop
                             
 symbolJSID
 =
@@ -25413,12 +25451,6 @@ defineFn
 =
 "
 JS_DefinePropertyById
-"
-                    
-prop
-=
-"
-iteratorId
 "
                     
 enumFlags
@@ -25460,6 +25492,8 @@ Symbol
 other
 than
 iterator
+and
+asyncIterator
 "
                     
 )
