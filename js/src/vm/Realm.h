@@ -2308,7 +2308,7 @@ GCHashSet
 js
 :
 :
-HeapPtr
+WeakHeapPtr
 <
 JSAtom
 *

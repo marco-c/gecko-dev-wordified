@@ -3103,11 +3103,6 @@ stub
 stubs_
 )
 {
-if
-(
-stub
-)
-{
 TraceWeakEdge
 (
 trc
@@ -3121,7 +3116,6 @@ stubs_
 "
 )
 ;
-}
 }
 }
 bool

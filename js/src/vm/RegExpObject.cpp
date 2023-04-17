@@ -5934,11 +5934,6 @@ templateObject
 matchResultTemplateObjects_
 )
 {
-if
-(
-templateObject
-)
-{
 TraceWeakEdge
 (
 trc
@@ -5953,12 +5948,6 @@ matchResultTemplateObject_
 )
 ;
 }
-}
-if
-(
-optimizableRegExpPrototypeShape_
-)
-{
 TraceWeakEdge
 (
 trc
@@ -5972,12 +5961,6 @@ optimizableRegExpPrototypeShape_
 "
 )
 ;
-}
-if
-(
-optimizableRegExpInstanceShape_
-)
-{
 TraceWeakEdge
 (
 trc
@@ -5991,7 +5974,6 @@ optimizableRegExpInstanceShape_
 "
 )
 ;
-}
 }
 RegExpShared
 *

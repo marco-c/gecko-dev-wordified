@@ -3785,7 +3785,7 @@ typename
 T
 >
 class
-BarrieredBase
+WeakHeapPtr
 ;
 template
 <
@@ -3799,7 +3799,7 @@ TraceWeakEdge
 JSTracer
 *
 trc
-BarrieredBase
+WeakHeapPtr
 <
 T
 >

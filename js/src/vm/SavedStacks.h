@@ -2443,7 +2443,7 @@ pc
 )
 {
 }
-HeapPtr
+WeakHeapPtr
 <
 JSScript
 *
@@ -2627,7 +2627,7 @@ traceWeak
 )
 ;
 }
-HeapPtr
+WeakHeapPtr
 <
 JSAtom
 *
