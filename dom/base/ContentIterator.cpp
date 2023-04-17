@@ -2407,8 +2407,6 @@ AsContent
 )
 ;
 }
-else
-{
 /
 /
 post
@@ -2457,9 +2455,6 @@ AsContent
 )
 ;
 }
-}
-else
-{
 if
 (
 mIterator
@@ -2565,10 +2560,6 @@ nullptr
 }
 return
 result
-;
-}
-return
-nullptr
 ;
 }
 Result
@@ -2881,8 +2872,6 @@ AsContent
 )
 ;
 }
-else
-{
 /
 /
 post
@@ -2994,9 +2983,6 @@ AsContent
 )
 ;
 }
-}
-else
-{
 nsIContent
 *
 cChild
@@ -3115,7 +3101,6 @@ order
 return
 cChild
 ;
-}
 }
 void
 ContentIteratorBase
