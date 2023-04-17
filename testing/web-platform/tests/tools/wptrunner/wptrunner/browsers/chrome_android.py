@@ -281,8 +281,7 @@ executor_kwargs
 (
 logger
 test_type
-server_config
-cache_manager
+test_environment
 run_info_data
                     
 *
@@ -312,7 +311,9 @@ update
 set
 (
         
-server_config
+test_environment
+.
+config
 [
 '
 ports
@@ -324,7 +325,9 @@ http
 '
 ]
 +
-server_config
+test_environment
+.
+config
 [
 '
 ports
@@ -337,7 +340,9 @@ https
 ]
 +
         
-server_config
+test_environment
+.
+config
 [
 '
 ports
@@ -349,7 +354,9 @@ ws
 '
 ]
 +
-server_config
+test_environment
+.
+config
 [
 '
 ports
@@ -370,9 +377,7 @@ chrome_executor_kwargs
 (
 logger
 test_type
-server_config
-                                             
-cache_manager
+test_environment
 run_info_data
                                              
 *

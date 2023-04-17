@@ -398,10 +398,31 @@ self
 explicit_cleanup
 :
             
+#
+If
+we
+'
+re
+relying
+on
+the
+gc
+for
+cleanup
+do
+the
+same
+with
+the
+profile
+            
 self
 .
 cleanup
 (
+keep_profile
+=
+True
 )
     
 abstractproperty
@@ -1630,6 +1651,9 @@ def
 cleanup
 (
 self
+keep_profile
+=
+False
 )
 :
         
@@ -1649,5 +1673,18 @@ state
 self
 .
 stop
+(
+)
+        
+if
+not
+keep_profile
+:
+            
+self
+.
+profile
+.
+cleanup
 (
 )

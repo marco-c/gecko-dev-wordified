@@ -2057,12 +2057,6 @@ logger
 test_type
                                                                   
 test_environment
-.
-config
-                                                                  
-test_environment
-.
-cache_manager
                                                                   
 run_info
                                                                   
