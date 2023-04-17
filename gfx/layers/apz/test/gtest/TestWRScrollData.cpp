@@ -1376,7 +1376,13 @@ LayersId
 {
 0
 }
-false
+APZCTreeManager
+:
+:
+HitTestKind
+:
+:
+Internal
 )
 ;
 mUpdater

@@ -754,7 +754,13 @@ new
 APZCTreeManager
 (
 dummyId
-useWebRender
+APZCTreeManager
+:
+:
+HitTestKind
+:
+:
+Internal
 )
 ;
 RefPtr
