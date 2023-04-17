@@ -640,8 +640,6 @@ logger
 debug
 (
 e
-.
-message
 )
                 
 pass
@@ -5706,9 +5704,10 @@ errors
 JavascriptException
 )
 and
+str
+(
 e
-.
-message
+)
 .
 startswith
 (

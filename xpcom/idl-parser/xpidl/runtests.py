@@ -1481,7 +1481,10 @@ assertEqual
 (
 e
 .
-message
+args
+[
+0
+]
 "
 Interface
 '
@@ -1634,7 +1637,10 @@ assertEqual
                 
 e
 .
-message
+args
+[
+0
+]
                 
 "
 interface
@@ -1800,7 +1806,10 @@ assertEqual
                 
 e
 .
-message
+args
+[
+0
+]
                 
 (
                     
@@ -1980,7 +1989,10 @@ assertEqual
                 
 e
 .
-message
+args
+[
+0
+]
                 
 (
                     
@@ -2143,7 +2155,10 @@ assertEqual
 (
 e
 .
-message
+args
+[
+0
+]
 (
 "
 cannot
