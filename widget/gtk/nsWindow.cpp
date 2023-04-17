@@ -4458,7 +4458,7 @@ gFocusWindow
 this
 )
 {
-LOGFOCUS
+LOG
 (
 (
 "
@@ -13749,7 +13749,7 @@ in
 this
 case
 .
-LOGFOCUS
+LOG
 (
 (
 "
@@ -14129,7 +14129,7 @@ GetFocusTimestamp
 (
 )
 ;
-LOGFOCUS
+LOG
 (
 (
 "
@@ -14355,7 +14355,7 @@ gFocusWindow
 this
 )
 {
-LOGFOCUS
+LOG
 (
 (
 "
@@ -14409,7 +14409,7 @@ this
 )
 ;
 }
-LOGFOCUS
+LOG
 (
 (
 "
@@ -15738,7 +15738,7 @@ rect
 FALSE
 )
 ;
-LOGDRAW
+LOG
 (
 (
 "
@@ -17619,7 +17619,7 @@ height
 )
 )
 ;
-LOGDRAW
+LOG
 (
 (
 "
@@ -17925,7 +17925,7 @@ listener
 return
 FALSE
 ;
-LOGDRAW
+LOG
 (
 (
 "
@@ -24086,7 +24086,7 @@ GdkEventFocus
 aEvent
 )
 {
-LOGFOCUS
+LOG
 (
 (
 "
@@ -24167,7 +24167,7 @@ if
 gBlockActivateEvent
 )
 {
-LOGFOCUS
+LOG
 (
 (
 "
@@ -24278,7 +24278,7 @@ gFocusWindow
 this
 ;
 }
-LOGFOCUS
+LOG
 (
 (
 "
@@ -24315,7 +24315,7 @@ GdkEventFocus
 aEvent
 )
 {
-LOGFOCUS
+LOG
 (
 (
 "
@@ -24582,7 +24582,7 @@ UpdateMozWindowActive
 )
 ;
 }
-LOGFOCUS
+LOG
 (
 (
 "
@@ -24965,7 +24965,7 @@ GdkEventKey
 aEvent
 )
 {
-LOGFOCUS
+LOG
 (
 (
 "
@@ -25018,7 +25018,7 @@ GdkEventKey
 aEvent
 )
 {
-LOGFOCUS
+LOG
 (
 (
 "

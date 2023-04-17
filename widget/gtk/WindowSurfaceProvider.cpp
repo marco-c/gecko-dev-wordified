@@ -365,7 +365,7 @@ if
 mIsX11Display
 )
 {
-LOGDRAW
+LOG
 (
 (
 "
@@ -465,7 +465,7 @@ UseXRender
 )
 )
 {
-LOGDRAW
+LOG
 (
 (
 "
@@ -515,7 +515,7 @@ UseShm
 )
 )
 {
-LOGDRAW
+LOG
 (
 (
 "
@@ -555,7 +555,7 @@ endif
 /
 /
 MOZ_HAVE_SHMIMAGE
-LOGDRAW
+LOG
 (
 (
 "
