@@ -4634,12 +4634,6 @@ session_config
 timeout
 =
 timeout
-                                
-environ
-=
-self
-.
-environ
 )
     
 def
@@ -5125,6 +5119,29 @@ self
 server
 =
 None
+        
+self
+.
+environ
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+self
+.
+environ
+.
+update
+(
+executor
+.
+environ
+)
     
 def
 connect
@@ -5172,6 +5189,12 @@ args
 self
 .
 webdriver_args
+            
+env
+=
+self
+.
+environ
 )
         
 self
