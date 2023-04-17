@@ -398,7 +398,7 @@ _checkRecordingStatus
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

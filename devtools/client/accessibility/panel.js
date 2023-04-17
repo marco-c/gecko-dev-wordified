@@ -799,7 +799,7 @@ onLifecycleEvent
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

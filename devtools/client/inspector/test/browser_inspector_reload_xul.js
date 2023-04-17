@@ -168,7 +168,7 @@ ok
 (
 inspector
 .
-isReady
+isPanelReady
 "
 Inspector
 instance

@@ -203,7 +203,7 @@ init
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

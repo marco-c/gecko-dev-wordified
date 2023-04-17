@@ -434,7 +434,7 @@ perf
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

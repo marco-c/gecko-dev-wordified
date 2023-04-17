@@ -355,7 +355,7 @@ client
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

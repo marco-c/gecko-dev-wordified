@@ -1043,7 +1043,7 @@ this
 ;
 this
 .
-isReady
+isPanelReady
 =
 false
 ;
@@ -2443,7 +2443,7 @@ _onMarkupViewInitialized
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

@@ -129,7 +129,7 @@ ok
 (
 panel
 .
-isReady
+isPanelReady
 toolId
 +
 "

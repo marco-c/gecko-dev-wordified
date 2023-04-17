@@ -294,7 +294,7 @@ _onTargetAvailable
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;

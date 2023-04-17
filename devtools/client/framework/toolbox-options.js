@@ -441,7 +441,7 @@ telemetry
 ;
 this
 .
-isReady
+isPanelReady
 =
 false
 ;
@@ -615,7 +615,7 @@ populatePreferences
 ;
 this
 .
-isReady
+isPanelReady
 =
 true
 ;
