@@ -3284,6 +3284,7 @@ UnmappedArguments
 WindowProxy
 JSFunction
 Set
+Map
 }
 ;
 /
@@ -10577,6 +10578,13 @@ callee
 ;
 AttachDecision
 tryAttachSetHas
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
+tryAttachMapHas
 (
 HandleFunction
 callee
