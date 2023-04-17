@@ -32687,7 +32687,7 @@ static
         
 self
 .
-lenientThis
+legacyLenientThis
 =
 False
         
@@ -34321,7 +34321,7 @@ identifier
 =
 =
 "
-LenientThis
+LegacyLenientThis
 "
 :
             
@@ -34340,7 +34340,7 @@ WebIDLError
                     
 "
 [
-LenientThis
+LegacyLenientThis
 ]
 must
 take
@@ -34369,7 +34369,7 @@ WebIDLError
                     
 "
 [
-LenientThis
+LegacyLenientThis
 ]
 is
 only
@@ -34411,7 +34411,7 @@ WebIDLError
                     
 "
 [
-LenientThis
+LegacyLenientThis
 ]
 is
 not
@@ -34455,7 +34455,7 @@ WebIDLError
                     
 "
 [
-LenientThis
+LegacyLenientThis
 ]
 is
 not
@@ -34484,7 +34484,7 @@ location
             
 self
 .
-lenientThis
+legacyLenientThis
 =
 True
         
@@ -35590,7 +35590,7 @@ self
 getExtendedAttribute
 (
 "
-LenientThis
+LegacyLenientThis
 "
 )
 :
@@ -35601,7 +35601,7 @@ WebIDLError
                     
 "
 [
-LenientThis
+LegacyLenientThis
 ]
 is
 not
@@ -36353,7 +36353,7 @@ parentScope
 )
     
 def
-hasLenientThis
+hasLegacyLenientThis
 (
 self
 )
@@ -36362,7 +36362,7 @@ self
 return
 self
 .
-lenientThis
+legacyLenientThis
     
 def
 isMaplikeOrSetlikeAttr
