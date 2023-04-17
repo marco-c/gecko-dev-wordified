@@ -421,9 +421,6 @@ nsIScreen
 class
 nsIRunnable
 ;
-class
-nsUint64HashKey
-;
 namespace
 mozilla
 {
