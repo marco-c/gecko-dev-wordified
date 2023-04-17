@@ -8312,9 +8312,7 @@ screenshot
 -
 extension
 "
-"
-contextMenu
-"
+true
 )
 ;
 }
