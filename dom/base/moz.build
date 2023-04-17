@@ -726,6 +726,11 @@ ScriptableContentIterator
 h
 "
 "
+ScrollingMetrics
+.
+h
+"
+"
 SelectionChangeEventDispatcher
 .
 h
@@ -2140,6 +2145,11 @@ cpp
 "
 "
 ScriptableContentIterator
+.
+cpp
+"
+"
+ScrollingMetrics
 .
 cpp
 "
