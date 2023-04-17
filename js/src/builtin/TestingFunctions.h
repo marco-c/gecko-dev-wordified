@@ -121,6 +121,13 @@ NamespaceImports
 .
 h
 "
+/
+/
+JSContext
+JSFunction
+HandleObject
+HandleValue
+Value
 namespace
 js
 {
