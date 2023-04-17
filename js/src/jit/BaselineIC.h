@@ -2904,14 +2904,6 @@ return
 state_
 ;
 }
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 /
 /
 The
