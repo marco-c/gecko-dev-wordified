@@ -8390,7 +8390,7 @@ GetFieldTypeForNumberPartType
 (
 part
 .
-first
+type
 )
 ;
 size_t
@@ -8398,7 +8398,7 @@ endIndex
 =
 part
 .
-second
+endIndex
 ;
 MOZ_ASSERT
 (
