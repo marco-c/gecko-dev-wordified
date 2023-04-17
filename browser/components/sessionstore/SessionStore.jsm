@@ -9388,6 +9388,16 @@ after
 registering
 listeners
 .
+if
+(
+!
+Services
+.
+appinfo
+.
+sessionHistoryInParent
+)
+{
 mm
 .
 loadFrameScript
@@ -9411,6 +9421,7 @@ true
 true
 )
 ;
+}
 /
 /
 and
