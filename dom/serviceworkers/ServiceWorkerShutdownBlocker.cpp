@@ -208,7 +208,6 @@ NS_IMPL_ISUPPORTS
 (
 ServiceWorkerShutdownBlocker
 nsIAsyncShutdownBlocker
-nsITimerCallback
 )
 NS_IMETHODIMP
 ServiceWorkerShutdownBlocker

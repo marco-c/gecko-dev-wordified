@@ -421,7 +421,6 @@ nsIHttpPushListener
 nsIInterfaceRequestor
 nsIStreamListener
 nsIRunnable
-nsITimerCallback
 )
 /
 /

@@ -274,10 +274,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsITimerCallback
-)
 NS_INTERFACE_MAP_END
 MaybeCloseWindowHelper
 :
