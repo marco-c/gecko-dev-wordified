@@ -1551,7 +1551,6 @@ GetTransform
 *
 transform
 ;
-;
 }
 return
 transform
