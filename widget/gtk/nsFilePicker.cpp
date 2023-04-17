@@ -3408,13 +3408,13 @@ setPortalEnv
 portalEnvString
 &
 &
-atoi
-(
+*
 portalEnvString
-)
 =
 =
+'
 0
+'
 )
 |
 |

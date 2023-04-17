@@ -55718,10 +55718,13 @@ if
 csdOverride
 &
 &
-atoi
-(
+*
 csdOverride
-)
+=
+=
+'
+1
+'
 )
 {
 sGtkWindowDecoration
