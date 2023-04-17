@@ -8400,26 +8400,6 @@ FAILURE
 1022
 )
     
-errors
-[
-        
-"
-NS_ERROR_DOM_INVALID_STATE_XHR_HAS_WRONG_RESPONSETYPE_FOR_RESPONSETEXT
-"
-    
-]
-=
-FAILURE
-(
-        
-1023
-    
-)
-#
-NOQA
-:
-E501
-    
 #
 When
 manipulating
