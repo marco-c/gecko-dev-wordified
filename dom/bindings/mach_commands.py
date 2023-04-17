@@ -170,6 +170,7 @@ def
 webidl_example
 (
 self
+command_context
 interface
 )
 :
@@ -244,6 +245,7 @@ def
 webidl_test
 (
 self
+command_context
 *
 *
 kwargs

@@ -177,6 +177,7 @@ def
 compileflags
 (
 self
+command_context
 what
 )
 :

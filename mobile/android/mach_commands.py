@@ -324,6 +324,7 @@ def
 android
 (
 self
+command_context
 )
 :
         
@@ -409,6 +410,7 @@ def
 android_assemble_app
 (
 self
+command_context
 args
 )
 :
@@ -419,6 +421,8 @@ self
 .
 gradle
 (
+            
+command_context
             
 self
 .
@@ -536,6 +540,7 @@ def
 android_generate_sdk_bindings
 (
 self
+command_context
 inputs
 args
 )
@@ -653,6 +658,8 @@ self
 gradle
 (
             
+command_context
+            
 self
 .
 substs
@@ -730,6 +737,7 @@ def
 android_generate_generated_jni_wrappers
 (
 self
+command_context
 args
 )
 :
@@ -740,6 +748,8 @@ self
 .
 gradle
 (
+            
+command_context
             
 self
 .
@@ -811,6 +821,7 @@ def
 android_apilint_REMOVED
 (
 self
+command_context
 )
 :
         
@@ -866,6 +877,7 @@ def
 android_test_REMOVED
 (
 self
+command_context
 )
 :
         
@@ -921,6 +933,7 @@ def
 android_lint_REMOVED
 (
 self
+command_context
 )
 :
         
@@ -976,6 +989,7 @@ def
 android_checkstyle_REMOVED
 (
 self
+command_context
 )
 :
         
@@ -1067,6 +1081,7 @@ def
 android_gradle_dependencies
 (
 self
+command_context
 args
 )
 :
@@ -1108,6 +1123,8 @@ self
 .
 gradle
 (
+            
+command_context
             
 self
 .
@@ -1216,6 +1233,7 @@ def
 android_archive_geckoview
 (
 self
+command_context
 args
 )
 :
@@ -1227,6 +1245,8 @@ self
 gradle
 (
             
+command_context
+            
 self
 .
 substs
@@ -1237,6 +1257,7 @@ GRADLE_ANDROID_ARCHIVE_GECKOVIEW_TASKS
 ]
 +
 args
+            
 verbose
 =
 True
@@ -1282,6 +1303,7 @@ def
 android_build_geckoview_example
 (
 self
+command_context
 args
 )
 :
@@ -1290,6 +1312,8 @@ self
 .
 gradle
 (
+            
+command_context
             
 self
 .
@@ -1377,6 +1401,7 @@ def
 android_install_geckoview_example
 (
 self
+command_context
 args
 )
 :
@@ -1385,6 +1410,8 @@ self
 .
 gradle
 (
+            
+command_context
             
 self
 .
@@ -1655,10 +1682,17 @@ android_geckoview_docs
 (
         
 self
+        
+command_context
+        
 archive
+        
 upload
+        
 upload_branch
+        
 javadoc_path
+        
 upload_message
     
 )
@@ -1700,6 +1734,7 @@ self
 .
 gradle
 (
+command_context
 tasks
 verbose
 =
@@ -2562,6 +2597,7 @@ def
 gradle
 (
 self
+command_context
 args
 verbose
 =
@@ -3198,6 +3234,7 @@ def
 gradle_install_REMOVED
 (
 self
+command_context
 )
 :
         
@@ -3563,16 +3600,23 @@ emulator
 (
         
 self
+        
+command_context
+        
 version
+        
 wait
 =
 False
+        
 force_update
 =
 False
+        
 gpu
 =
 None
+        
 verbose
 =
 False

@@ -158,6 +158,7 @@ def
 build
 (
 self
+command_context
 dest
 )
 :
