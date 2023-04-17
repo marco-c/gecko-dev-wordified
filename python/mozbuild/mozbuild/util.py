@@ -5582,6 +5582,8 @@ StringListAdaptor
 (
 collections
 .
+abc
+.
 Sequence
 )
 :
