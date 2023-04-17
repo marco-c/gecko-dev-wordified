@@ -103,6 +103,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
 nsNameSpaceManager
 .
 h
@@ -290,7 +301,7 @@ DocAccessible
 aDoc
 )
 :
-MsaaXULMenuitemAccessible
+XULMenuitemAccessible
 (
 aContent
 aDoc

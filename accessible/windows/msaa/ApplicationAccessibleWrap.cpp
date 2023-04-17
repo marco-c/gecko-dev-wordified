@@ -119,13 +119,6 @@ h
 #
 include
 "
-IUnknownImpl
-.
-h
-"
-#
-include
-"
 nsIGfxInfo
 .
 h
@@ -251,12 +244,6 @@ NS_IMPL_ISUPPORTS_INHERITED0
 (
 ApplicationAccessibleWrap
 ApplicationAccessible
-)
-IMPL_IUNKNOWN_INHERITED1
-(
-ApplicationAccessibleWrap
-MsaaAccessible
-ia2AccessibleApplication
 )
 already_AddRefed
 <

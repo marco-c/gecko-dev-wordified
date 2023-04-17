@@ -102,7 +102,7 @@ mozilla_a11y_RootAccessibleWrap_h__
 #
 include
 "
-MsaaRootAccessible
+RootAccessible
 .
 h
 "
@@ -119,7 +119,7 @@ class
 RootAccessibleWrap
 :
 public
-MsaaRootAccessible
+RootAccessible
 {
 public
 :

@@ -279,8 +279,6 @@ AccessibleWrap
 :
 public
 LocalAccessible
-public
-MsaaAccessible
 {
 public
 :
@@ -452,11 +450,7 @@ MsaaAccessible
 GetMsaa
 (
 )
-{
-return
-this
 ;
-}
 virtual
 void
 GetNativeInterface
@@ -511,6 +505,12 @@ AccessibleWrap
 )
 =
 default
+;
+RefPtr
+<
+MsaaAccessible
+>
+mMsaa
 ;
 struct
 HandlerControllerData
