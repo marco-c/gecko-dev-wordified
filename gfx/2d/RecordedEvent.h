@@ -286,7 +286,7 @@ const
 uint16_t
 kMinorRevision
 =
-2
+3
 ;
 struct
 ReferencePtr
@@ -2004,6 +2004,7 @@ FLUSH
 DETACHALLSNAPSHOTS
 OPTIMIZESOURCESURFACE
 LINK
+DESTINATION
 LAST
 }
 ;
