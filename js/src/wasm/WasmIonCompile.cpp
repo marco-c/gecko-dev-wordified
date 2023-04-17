@@ -25984,6 +25984,9 @@ FunctionCompiler
 f
 )
 {
+RefType
+type
+;
 if
 (
 !
@@ -25995,6 +25998,8 @@ iter
 .
 readRefNull
 (
+&
+type
 )
 )
 {

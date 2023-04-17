@@ -77,9 +77,8 @@ WebAssembly
 .
 CompileError
 /
-unexpected
-initializer
-expression
+popping
+value
 /
 )
 ;
@@ -106,9 +105,8 @@ WebAssembly
 .
 CompileError
 /
-unexpected
-initializer
-expression
+popping
+value
 /
 )
 ;
@@ -190,10 +188,9 @@ const
 )
 )
 /
-failed
-to
-read
-end
+unexpected
+initializer
+opcode
 /
 )
 ;

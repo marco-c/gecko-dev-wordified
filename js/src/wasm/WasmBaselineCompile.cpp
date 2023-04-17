@@ -82786,6 +82786,9 @@ emitRefNull
 (
 )
 {
+RefType
+type
+;
 if
 (
 !
@@ -82793,6 +82796,8 @@ iter_
 .
 readRefNull
 (
+&
+type
 )
 )
 {
