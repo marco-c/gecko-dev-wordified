@@ -3028,6 +3028,13 @@ if
 options
 [
 "
+diff
+"
+]
+and
+options
+[
+"
 format
 "
 ]
