@@ -10217,6 +10217,9 @@ true
 await
 popupshown
 ;
+return
+popup
+;
 }
 async
 function
