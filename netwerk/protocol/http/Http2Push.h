@@ -463,7 +463,7 @@ true
 }
 virtual
 void
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
 uint64_t
 )

@@ -1397,10 +1397,10 @@ change
 .
 virtual
 void
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
 uint64_t
-windowId
+id
 )
 =
 0
@@ -1597,10 +1597,10 @@ override
 ;
 \
 void
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
 uint64_t
-windowId
+id
 )
 override
 ;

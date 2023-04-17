@@ -495,7 +495,7 @@ this
 )
 )
 ;
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 =
 gHttpHandler
 -
@@ -505,7 +505,7 @@ ConnMgr
 )
 -
 >
-CurrentTopLevelOuterContentWindowId
+CurrentTopBrowsingContextId
 (
 )
 ;
@@ -9412,10 +9412,10 @@ void
 Http3Session
 :
 :
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
 uint64_t
-windowId
+id
 )
 {
 MOZ_ASSERT
@@ -9431,9 +9431,9 @@ thread
 "
 )
 ;
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 =
-windowId
+id
 ;
 for
 (
@@ -9452,9 +9452,9 @@ Values
 stream
 -
 >
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
-windowId
+id
 )
 ;
 }

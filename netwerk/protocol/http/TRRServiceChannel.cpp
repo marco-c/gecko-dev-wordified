@@ -4248,7 +4248,7 @@ LoadUploadStreamHasHeaders
 mCurrentEventTarget
 callbacks
 this
-mTopLevelOuterContentWindowId
+mTopBrowsingContextId
 HttpTrafficCategory
 :
 :

@@ -4000,7 +4000,7 @@ bool
 mJoinConnectionCache
 ;
 uint64_t
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
 uint32_t
 mCntActivated

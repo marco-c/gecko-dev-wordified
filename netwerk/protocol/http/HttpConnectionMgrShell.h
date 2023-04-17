@@ -618,10 +618,10 @@ PrintDiagnostics
 ;
 virtual
 nsresult
-UpdateCurrentTopLevelOuterContentWindowId
+UpdateCurrentTopBrowsingContextId
 (
 uint64_t
-aWindowId
+aId
 )
 =
 0
@@ -1375,11 +1375,10 @@ override
 \
 virtual
 nsresult
-UpdateCurrentTopLevelOuterContentWindowId
+UpdateCurrentTopBrowsingContextId
 (
-\
 uint64_t
-aWindowId
+aId
 )
 override
 ;

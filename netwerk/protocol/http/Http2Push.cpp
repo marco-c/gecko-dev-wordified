@@ -2143,10 +2143,10 @@ void
 Http2PushedStream
 :
 :
-TopLevelOuterContentWindowIdChanged
+TopBrowsingContextIdChanged
 (
 uint64_t
-windowId
+id
 )
 {
 if
@@ -2170,9 +2170,9 @@ appropriately
 mConsumerStream
 -
 >
-TopLevelOuterContentWindowIdChangedInternal
+TopBrowsingContextIdChanged
 (
-windowId
+id
 )
 ;
 return
@@ -2188,9 +2188,9 @@ ActiveTabPriority
 )
 )
 ;
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 =
-windowId
+id
 ;
 if
 (
@@ -2216,7 +2216,7 @@ if
 mTransactionTabId
 !
 =
-mCurrentForegroundTabOuterContentWindowId
+mCurrentTopBrowsingContextId
 )
 {
 mPriorityDependency

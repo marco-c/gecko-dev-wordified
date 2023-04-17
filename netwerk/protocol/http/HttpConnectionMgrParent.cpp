@@ -636,10 +636,10 @@ nsresult
 HttpConnectionMgrParent
 :
 :
-UpdateCurrentTopLevelOuterContentWindowId
+UpdateCurrentTopBrowsingContextId
 (
 uint64_t
-aWindowId
+aId
 )
 {
 RefPtr
@@ -655,7 +655,7 @@ task
 =
 [
 self
-aWindowId
+aId
 ]
 (
 )
@@ -666,9 +666,9 @@ Unused
 self
 -
 >
-SendUpdateCurrentTopLevelOuterContentWindowId
+SendUpdateCurrentTopBrowsingContextId
 (
-aWindowId
+aId
 )
 ;
 }

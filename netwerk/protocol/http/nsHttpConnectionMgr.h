@@ -1311,12 +1311,12 @@ nsHttpConnectionInfo
 )
 ;
 uint64_t
-CurrentTopLevelOuterContentWindowId
+CurrentTopBrowsingContextId
 (
 )
 {
 return
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
 }
 void
@@ -3006,7 +3006,7 @@ ARefBase
 )
 ;
 void
-OnMsgUpdateCurrentTopLevelOuterContentWindowId
+OnMsgUpdateCurrentTopBrowsingContextId
 (
 int32_t
 ARefBase
@@ -3303,7 +3303,7 @@ nsCString
 mLogData
 ;
 uint64_t
-mCurrentTopLevelOuterContentWindowId
+mCurrentTopBrowsingContextId
 ;
 /
 /
@@ -3879,7 +3879,7 @@ uses
 /
 /
 |
-previousWindowId
+previousId
 |
 to
 select
@@ -3888,7 +3888,8 @@ transactions
 and
 /
 /
-mCurrentTopLevelOuterContentWindowId
+|
+mCurrentTopBrowsingContextId
 |
 to
 select
@@ -3914,10 +3915,10 @@ tab
 id
 .
 void
-NotifyConnectionOfWindowIdChange
+NotifyConnectionOfBrowsingContextIdChange
 (
 uint64_t
-previousWindowId
+previousId
 )
 ;
 }

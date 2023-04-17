@@ -178,7 +178,7 @@ ActiveTabPriority
 transaction
 -
 >
-TopLevelOuterContentWindowId
+TopBrowsingContextId
 (
 )
 :
@@ -343,7 +343,7 @@ trans
 =
 %
 p
-windowId
+bid
 =
 %
 "
@@ -366,7 +366,7 @@ Transaction
 )
 -
 >
-TopLevelOuterContentWindowId
+TopBrowsingContextId
 (
 )
 )
