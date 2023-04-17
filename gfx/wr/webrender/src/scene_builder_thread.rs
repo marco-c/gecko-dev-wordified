@@ -1438,9 +1438,6 @@ new
 device_rect
 :
 DeviceIntRect
-device_pixel_ratio
-:
-f32
 )
 -
 >
@@ -1477,7 +1474,6 @@ view
 SceneView
 {
 device_rect
-device_pixel_ratio
 quality_settings
 :
 QualitySettings
@@ -1516,9 +1512,6 @@ ApiMsg
 config
 :
 FrameBuilderConfig
-default_device_pixel_ratio
-:
-f32
 font_instances
 :
 SharedFontInstanceMap
@@ -1640,9 +1633,6 @@ new
 config
 :
 FrameBuilderConfig
-default_device_pixel_ratio
-:
-f32
 font_instances
 :
 SharedFontInstanceMap
@@ -1694,7 +1684,6 @@ default
 rx
 tx
 config
-default_device_pixel_ratio
 font_instances
 size_of_ops
 hooks
@@ -2038,9 +2027,6 @@ initial_size
 into
 (
 )
-self
-.
-default_device_pixel_ratio
 )
 )
 ;
@@ -3348,7 +3334,6 @@ SceneMsg
 SetDocumentView
 {
 device_rect
-device_pixel_ratio
 }
 =
 >
@@ -3360,14 +3345,6 @@ view
 device_rect
 =
 device_rect
-;
-doc
-.
-view
-.
-device_pixel_ratio
-=
-device_pixel_ratio
 ;
 }
 SceneMsg

@@ -10567,9 +10567,6 @@ set_document_view
 (
 *
 doc_rect
-1
-.
-0
 )
 ;
 }
