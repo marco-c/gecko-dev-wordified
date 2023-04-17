@@ -2497,6 +2497,15 @@ FOG
 initializeFOG
 (
 gleanRoot
+"
+firefox
+.
+desktop
+.
+background
+.
+update
+"
 )
 ;
 /
