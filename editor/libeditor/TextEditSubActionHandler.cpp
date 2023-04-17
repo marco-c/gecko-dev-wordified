@@ -5057,13 +5057,8 @@ GetEchoPassword
 )
 |
 |
+EchoingPasswordPrevented
 (
-mFlags
-&
-nsIEditor
-:
-:
-eEditorDontEchoPassword
 )
 )
 {

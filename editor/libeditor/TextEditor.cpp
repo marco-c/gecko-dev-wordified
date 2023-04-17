@@ -575,9 +575,11 @@ mIsMaskingPassword
 (
 true
 )
+mEchoingPasswordPrevented
+(
+false
+)
 {
-/
-/
 printf
 (
 "
