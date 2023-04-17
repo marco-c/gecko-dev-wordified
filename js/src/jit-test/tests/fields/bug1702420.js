@@ -7,6 +7,14 @@ test
 |
 -
 -
+enable
+-
+private
+-
+fields
+;
+-
+-
 more
 -
 compartments

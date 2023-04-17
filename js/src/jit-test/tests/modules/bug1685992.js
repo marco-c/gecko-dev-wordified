@@ -15,6 +15,14 @@ compile
 =
 off
 ;
+-
+-
+enable
+-
+private
+-
+methods
+;
 skip
 -
 if
