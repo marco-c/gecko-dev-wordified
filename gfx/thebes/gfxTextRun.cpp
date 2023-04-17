@@ -19815,6 +19815,11 @@ variantCaps
 NS_FONT_VARIANT_CAPS_NORMAL
 &
 &
+mStyle
+.
+allowSyntheticSmallCaps
+&
+&
 !
 matchedFont
 -

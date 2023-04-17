@@ -673,6 +673,8 @@ bool
 aWeightSynthesis
 bool
 aStyleSynthesis
+bool
+aSmallCapsSynthesis
 uint32_t
 aLanguageOverride
 )
@@ -1438,6 +1440,11 @@ allowSyntheticWeight
 ;
 bool
 allowSyntheticStyle
+:
+1
+;
+bool
+allowSyntheticSmallCaps
 :
 1
 ;
