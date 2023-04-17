@@ -167,7 +167,7 @@ struct
 RemotenessOptions
 ;
 struct
-RemotenessChangeOptions
+NavigationIsolationOptions
 ;
 }
 /
@@ -559,7 +559,7 @@ mozilla
 dom
 :
 :
-RemotenessChangeOptions
+NavigationIsolationOptions
 &
 aOptions
 mozilla
@@ -706,7 +706,7 @@ mozilla
 dom
 :
 :
-RemotenessChangeOptions
+NavigationIsolationOptions
 &
 aOptions
 bool
