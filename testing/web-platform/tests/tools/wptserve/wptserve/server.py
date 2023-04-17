@@ -31,6 +31,7 @@ OrderedDict
 from
 queue
 import
+Empty
 Queue
 from
 h2
@@ -3049,27 +3050,6 @@ self
 close_connection
 =
 True
-                
-for
-stream_id
-(
-thread
-queue
-)
-in
-stream_queues
-.
-items
-(
-)
-:
-                    
-queue
-.
-put
-(
-None
-)
         
 except
 Exception
@@ -3124,6 +3104,13 @@ items
 (
 )
 :
+                
+queue
+.
+put
+(
+None
+)
                 
 thread
 .
@@ -3390,6 +3377,14 @@ get
 True
 None
 )
+        
+if
+frame
+is
+None
+:
+            
+return
         
 rfile
 wfile
@@ -3763,6 +3758,9 @@ self
 close_connection
 :
             
+try
+:
+                
 frame
 =
 queue
@@ -3770,8 +3768,14 @@ queue
 get
 (
 True
-None
+1
 )
+            
+except
+Empty
+:
+                
+continue
             
 if
 isinstance
@@ -4128,13 +4132,9 @@ self
 close_connection
 :
             
-#
-Wait
-for
-next
-frame
-blocking
-            
+try
+:
+                
 frame
 =
 queue
@@ -4142,8 +4142,21 @@ queue
 get
 (
 True
-None
+1
 )
+            
+except
+Empty
+:
+                
+#
+Restart
+to
+check
+for
+close_connection
+                
+continue
             
 self
 .
@@ -4444,6 +4457,9 @@ frame
 stream_ended
 :
                 
+try
+:
+                    
 self
 .
 finish_handling
@@ -4452,6 +4468,44 @@ request
 response
 req_handler
 )
+                
+except
+StreamClosedError
+:
+                    
+self
+.
+logger
+.
+debug
+(
+'
+(
+%
+s
+-
+%
+s
+)
+Unable
+to
+write
+response
+;
+stream
+closed
+'
+%
+                                      
+(
+self
+.
+uid
+stream_id
+)
+)
+                    
+break
     
 def
 frame_handler
