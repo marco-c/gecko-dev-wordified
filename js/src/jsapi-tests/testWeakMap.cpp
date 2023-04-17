@@ -1185,6 +1185,8 @@ keyClass
 "
 keyWithDelegate
 "
+JSCLASS_HAS_PRIVATE
+|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 1
