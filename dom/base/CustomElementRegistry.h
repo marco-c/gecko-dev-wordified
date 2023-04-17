@@ -599,6 +599,7 @@ State
 eUndefined
 eFailed
 eCustom
+ePrecustomized
 }
 ;
 explicit
