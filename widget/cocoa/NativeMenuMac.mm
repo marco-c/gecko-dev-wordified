@@ -2403,6 +2403,12 @@ NativeNSMenu
 cancelTrackingWithoutAnimation
 ]
 ;
+MOZMenuOpeningCoordinator
+.
+needToUnwindForMenuClosing
+=
+YES
+;
 /
 /
 Call

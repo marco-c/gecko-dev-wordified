@@ -906,6 +906,12 @@ mNativeMenu
 cancelTracking
 ]
 ;
+MOZMenuOpeningCoordinator
+.
+needToUnwindForMenuClosing
+=
+YES
+;
 }
 /
 /
@@ -4324,6 +4330,12 @@ tests
 mNativeMenu
 cancelTrackingWithoutAnimation
 ]
+;
+MOZMenuOpeningCoordinator
+.
+needToUnwindForMenuClosing
+=
+YES
 ;
 /
 /
