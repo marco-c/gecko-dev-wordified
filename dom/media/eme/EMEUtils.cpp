@@ -146,17 +146,6 @@ mozilla
 /
 dom
 /
-KeySystemNames
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 UnionTypes
 .
 h
@@ -423,7 +412,7 @@ aKeySystem
 .
 EqualsLiteral
 (
-kClearKeyKeySystemName
+EME_KEY_SYSTEM_CLEARKEY
 )
 |
 |
@@ -431,7 +420,7 @@ aKeySystem
 .
 EqualsLiteral
 (
-kClearKeyWithProtectionQueryKeySystemName
+EME_KEY_SYSTEM_CLEARKEY_WITH_PROTECTION_QUERY
 )
 ;
 }
@@ -440,7 +429,7 @@ aKeySystem
 .
 EqualsLiteral
 (
-kClearKeyKeySystemName
+EME_KEY_SYSTEM_CLEARKEY
 )
 ;
 }
@@ -458,7 +447,7 @@ aKeySystem
 .
 EqualsLiteral
 (
-kWidevineKeySystemName
+EME_KEY_SYSTEM_WIDEVINE
 )
 ;
 }
