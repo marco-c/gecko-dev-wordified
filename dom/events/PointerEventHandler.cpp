@@ -4108,6 +4108,15 @@ convertToPointer
 =
 false
 ;
+event
+.
+mCoalescedWidgetEvents
+=
+touch
+-
+>
+mCoalescedWidgetEvents
+;
 if
 (
 aEvent

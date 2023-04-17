@@ -155,6 +155,15 @@ WidgetTouchEvent
 public
 :
 void
+CreateCoalescedTouchEvent
+(
+const
+WidgetTouchEvent
+&
+aEvent
+)
+;
+void
 Coalesce
 (
 const
