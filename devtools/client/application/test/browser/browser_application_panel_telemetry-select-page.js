@@ -65,7 +65,7 @@ const
 {
 panel
 tab
-target
+commands
 }
 =
 await
@@ -185,7 +185,7 @@ tab
 )
 ;
 await
-target
+commands
 .
 client
 .

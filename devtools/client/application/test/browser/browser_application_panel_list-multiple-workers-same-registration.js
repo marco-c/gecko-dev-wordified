@@ -88,7 +88,7 @@ const
 {
 panel
 tab
-toolbox
+commands
 }
 =
 await
@@ -408,9 +408,7 @@ URL
 await
 unregisterAllWorkers
 (
-toolbox
-.
-target
+commands
 .
 client
 doc
@@ -452,7 +450,7 @@ url
 const
 {
 panel
-toolbox
+commands
 tab
 }
 =
@@ -519,7 +517,7 @@ length
 return
 {
 panel
-toolbox
+commands
 tab
 }
 ;

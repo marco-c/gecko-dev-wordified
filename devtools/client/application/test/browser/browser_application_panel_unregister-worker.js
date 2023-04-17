@@ -65,7 +65,7 @@ const
 {
 panel
 tab
-target
+commands
 }
 =
 await
@@ -268,7 +268,7 @@ cleanup
 await
 unregisterAllWorkers
 (
-target
+commands
 .
 client
 doc

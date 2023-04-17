@@ -874,7 +874,7 @@ devtoolsWindow
 await
 toolbox
 .
-target
+commands
 .
 client
 .

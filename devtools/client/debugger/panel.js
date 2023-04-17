@@ -296,15 +296,6 @@ this
 toolbox
 .
 resourceCommand
-devToolsClient
-:
-this
-.
-toolbox
-.
-target
-.
-client
 workers
 :
 {
@@ -455,9 +446,7 @@ threadFront
 =
 this
 .
-toolbox
-.
-target
+commands
 .
 client
 .

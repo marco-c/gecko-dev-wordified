@@ -141,7 +141,7 @@ enableApplicationPanel
 const
 {
 panel
-toolbox
+commands
 tab
 }
 =
@@ -457,9 +457,7 @@ domain
 await
 unregisterAllWorkers
 (
-toolbox
-.
-target
+commands
 .
 client
 doc
