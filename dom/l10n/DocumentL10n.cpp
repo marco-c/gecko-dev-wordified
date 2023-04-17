@@ -1837,6 +1837,10 @@ InitialTranslationCompleted
 (
 )
 ;
+mContentSink
+=
+nullptr
+;
 }
 /
 /
