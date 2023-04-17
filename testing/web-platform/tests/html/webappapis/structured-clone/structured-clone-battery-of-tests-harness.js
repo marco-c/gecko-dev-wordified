@@ -107,6 +107,12 @@ an
 object
 .
 *
+Must
+return
+a
+promise
+.
+*
 -
 hasDocument
 :
