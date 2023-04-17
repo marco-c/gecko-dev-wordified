@@ -545,7 +545,7 @@ qop
 const
 char
 *
-body_digest
+bodyDigest
 char
 *
 result
