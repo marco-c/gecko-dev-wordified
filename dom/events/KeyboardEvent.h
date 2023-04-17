@@ -458,6 +458,16 @@ uint32_t
 aCharCode
 )
 ;
+static
+bool
+IsInitKeyEventAvailable
+(
+JSContext
+*
+JSObject
+*
+)
+;
 void
 InitKeyboardEventJS
 (
