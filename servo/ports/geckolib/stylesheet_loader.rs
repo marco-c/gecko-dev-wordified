@@ -725,11 +725,6 @@ running
 let
 sheet
 =
-Arc
-:
-:
-new
-(
 StylesheetContents
 :
 :
@@ -781,7 +776,6 @@ sanitized_output
 *
 /
 None
-)
 )
 ;
 let
