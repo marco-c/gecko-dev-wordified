@@ -112,10 +112,11 @@ tooltool
 -
 manifests
 /
-win32
-/
-\
-releng
+vs2017
+-
+15
+.
+8
 .
 manifest
 "
