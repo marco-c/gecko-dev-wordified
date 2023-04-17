@@ -3634,6 +3634,12 @@ mSupportsRedirectToRealChannel
 =
 true
 ;
+Maybe
+<
+nsCString
+>
+mRemoteTypeOverride
+;
 /
 /
 The
