@@ -123,6 +123,13 @@ mozilla_InputTaskManager_h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -149,13 +156,6 @@ include
 mozilla
 /
 StaticPrefs_dom
-.
-h
-"
-#
-include
-"
-nsXULAppAPI
 .
 h
 "
