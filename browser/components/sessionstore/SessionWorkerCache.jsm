@@ -743,8 +743,6 @@ windows
 SessionStore
 .
 promiseAllWindowsRestored
-(
-)
 .
 then
 (
