@@ -388,6 +388,7 @@ communicate
 .
 split
 (
+b
 "
 :
 "
@@ -486,6 +487,7 @@ module
 .
 split
 (
+b
 "
 "
 4
@@ -513,7 +515,15 @@ debug_file
 bits
             
 if
+str
+(
 actual_breakpad_id
+"
+utf
+-
+8
+"
+)
 !
 =
 expected_breakpad_id
