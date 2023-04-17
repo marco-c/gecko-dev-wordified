@@ -379,10 +379,6 @@ resumed
 :
 {
 }
-willInterrupt
-:
-{
-}
 newSource
 :
 {
