@@ -448,13 +448,13 @@ TEST_ORG_URI
 )
 ;
 const
-resourceWatcher
+resourceCommand
 =
 inspector
 .
 toolbox
 .
-resourceWatcher
+resourceCommand
 ;
 /
 /
@@ -548,7 +548,7 @@ is
 resource
 .
 resourceType
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -803,7 +803,7 @@ inspector
 ;
 const
 {
-resourceWatcher
+resourceCommand
 }
 =
 inspector
@@ -824,8 +824,8 @@ onNewRoot
 =
 waitForNextResource
 (
-resourceWatcher
-resourceWatcher
+resourceCommand
+resourceCommand
 .
 TYPES
 .
@@ -1012,7 +1012,7 @@ before
 the
 new
 resource
-watchers
+command
 have
 fully
 *

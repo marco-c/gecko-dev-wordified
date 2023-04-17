@@ -1344,7 +1344,7 @@ clear
 ;
 const
 {
-resourceWatcher
+resourceCommand
 }
 =
 this
@@ -1353,17 +1353,17 @@ _toolbox
 ;
 try
 {
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
 [
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
 STYLESHEET
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -2494,7 +2494,7 @@ _sourcesLoading
 {
 const
 {
-resourceWatcher
+resourceCommand
 }
 =
 this
@@ -2507,7 +2507,7 @@ STYLESHEET
 SOURCE
 }
 =
-resourceWatcher
+resourceCommand
 .
 TYPES
 ;
@@ -2515,7 +2515,7 @@ this
 .
 _sourcesLoading
 =
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -2571,7 +2571,7 @@ resources
 {
 const
 {
-resourceWatcher
+resourceCommand
 }
 =
 this
@@ -2584,7 +2584,7 @@ STYLESHEET
 SOURCE
 }
 =
-resourceWatcher
+resourceCommand
 .
 TYPES
 ;

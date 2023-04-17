@@ -350,7 +350,7 @@ be
 handled
 by
 the
-ResourceWatcher
+ResourceCommand
 /
 /
 as

@@ -90,9 +90,7 @@ l10n
 )
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -101,11 +99,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -1063,7 +1063,7 @@ type
 )
 {
 case
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -1078,7 +1078,7 @@ resource
 ;
 }
 case
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -1093,7 +1093,7 @@ resource
 ;
 }
 case
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -1108,7 +1108,7 @@ resource
 ;
 }
 case
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -1123,7 +1123,7 @@ resource
 ;
 }
 case
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .

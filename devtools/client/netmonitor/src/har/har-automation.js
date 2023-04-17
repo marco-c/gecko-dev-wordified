@@ -542,13 +542,13 @@ webConsoleFront
 this
 .
 webConsoleFront
-resourceWatcher
+resourceCommand
 :
 this
 .
 toolbox
 .
-resourceWatcher
+resourceCommand
 }
 )
 ;

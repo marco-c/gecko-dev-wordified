@@ -4131,7 +4131,7 @@ this
 .
 devToolsToolbox
 .
-resourceWatcher
+resourceCommand
 .
 watchResources
 (
@@ -4140,7 +4140,7 @@ this
 .
 devToolsToolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .
@@ -4388,7 +4388,7 @@ this
 .
 devToolsToolbox
 .
-resourceWatcher
+resourceCommand
 .
 unwatchResources
 (
@@ -4397,7 +4397,7 @@ this
 .
 devToolsToolbox
 .
-resourceWatcher
+resourceCommand
 .
 TYPES
 .

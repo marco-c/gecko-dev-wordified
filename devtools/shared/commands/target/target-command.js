@@ -2366,7 +2366,7 @@ function
 in
 TargetCommand
 or
-ResourceWatcher
+ResourceCommand
 after
 this
 .

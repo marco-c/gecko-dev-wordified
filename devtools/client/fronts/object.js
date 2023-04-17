@@ -1901,7 +1901,7 @@ legacy
 listeners
 in
 the
-ResourceWatcher
+ResourceCommand
 )
 const
 isPacketAnObject
