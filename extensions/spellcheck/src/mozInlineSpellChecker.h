@@ -271,9 +271,11 @@ aEndOffset
 )
 ;
 static
-nsresult
-CreateForNavigation
-(
+mozilla
+:
+:
+Result
+<
 mozilla
 :
 :
@@ -281,8 +283,10 @@ UniquePtr
 <
 mozInlineSpellStatus
 >
-&
-aStatus
+nsresult
+>
+CreateForNavigation
+(
 mozInlineSpellChecker
 &
 aSpellChecker
