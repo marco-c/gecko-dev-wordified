@@ -189,17 +189,6 @@ by
 /
 /
 kCharsetFromChannel
-kCharsetFromIrreversibleAutoDetection
-/
-/
-This
-one
-is
-overridden
-by
-/
-/
-kCharsetFromChannel
 kCharsetFromByteOrderMark
 kCharsetFromUtf8OnlyMime
 /
