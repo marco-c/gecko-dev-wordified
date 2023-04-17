@@ -243,6 +243,15 @@ h
 #
 include
 "
+wasm
+/
+WasmTlsData
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler

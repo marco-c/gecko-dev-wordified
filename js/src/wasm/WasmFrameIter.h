@@ -206,6 +206,15 @@ include
 "
 wasm
 /
+WasmFrame
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmTypes
 .
 h
@@ -245,6 +254,9 @@ CodeRange
 ;
 class
 DebugFrame
+;
+struct
+TlsData
 ;
 class
 TypeIdDesc
