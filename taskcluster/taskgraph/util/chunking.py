@@ -378,6 +378,10 @@ e10s
 fission
 "
 :
+"
+fission
+"
+in
 task
 [
 "
@@ -390,12 +394,9 @@ get
 "
 unittest_variant
 "
+"
+"
 )
-=
-=
-"
-fission
-"
         
 "
 headless
@@ -448,7 +449,7 @@ get
 "
 webrender
 "
-False
+True
 )
     
 }
