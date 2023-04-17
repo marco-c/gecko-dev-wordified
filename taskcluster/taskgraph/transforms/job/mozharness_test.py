@@ -2593,8 +2593,6 @@ type
 startswith
 (
 "
-t
--
 win10
 -
 64
