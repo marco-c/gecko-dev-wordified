@@ -7725,9 +7725,8 @@ gc
 AllocKind
 allocKind
 =
-GuessObjectGCKind
+NewObjectGCKind
 (
-0
 )
 ;
 return
