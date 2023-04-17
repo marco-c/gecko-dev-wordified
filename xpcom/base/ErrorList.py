@@ -8334,18 +8334,6 @@ FAILURE
 1019
 )
     
-errors
-[
-"
-NS_ERROR_DOM_INVALID_STATE_XHR_MUST_NOT_BE_SENDING
-"
-]
-=
-FAILURE
-(
-1020
-)
-    
 #
 When
 manipulating
