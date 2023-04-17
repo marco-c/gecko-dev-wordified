@@ -262,6 +262,7 @@ static
 nsresult
 ParseURI
 (
+const
 nsCString
 &
 spec

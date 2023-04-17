@@ -492,7 +492,7 @@ B
 or
 C
 namespace
-details
+asciimask_details
 {
 template
 <
@@ -547,7 +547,7 @@ Indices
 /
 /
 namespace
-details
+asciimask_details
 template
 <
 typename
@@ -569,7 +569,7 @@ fun
 )
 {
 return
-details
+asciimask_details
 :
 :
 CreateASCIIMask
