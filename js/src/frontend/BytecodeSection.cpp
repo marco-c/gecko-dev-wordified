@@ -607,13 +607,13 @@ Kind
 WellKnown
 :
 {
-JSAtom
+JSString
 *
-atom
+str
 =
 atomCache
 .
-getExistingAtomAt
+getExistingStringAt
 (
 cx
 thing
@@ -625,7 +625,7 @@ toAtom
 ;
 MOZ_ASSERT
 (
-atom
+str
 )
 ;
 output
@@ -638,7 +638,7 @@ JS
 :
 GCCellPtr
 (
-atom
+str
 )
 ;
 break
