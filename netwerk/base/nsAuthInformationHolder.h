@@ -109,7 +109,7 @@ nsString
 &
 aRealm
 const
-nsACString
+nsCString
 &
 aAuthType
 )
