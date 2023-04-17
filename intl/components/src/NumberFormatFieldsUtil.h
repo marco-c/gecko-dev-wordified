@@ -67,6 +67,17 @@ include
 "
 mozilla
 /
+intl
+/
+NumberPart
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
