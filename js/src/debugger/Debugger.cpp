@@ -26899,7 +26899,7 @@ MOZ_ASSERT
 frameobj
 -
 >
-isOnStackMaybeForwarded
+isOnStack
 (
 )
 )
@@ -28007,7 +28007,7 @@ MOZ_ASSERT
 frameobj
 -
 >
-isOnStackMaybeForwarded
+isOnStack
 (
 )
 )
