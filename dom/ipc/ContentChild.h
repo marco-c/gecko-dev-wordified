@@ -2228,6 +2228,11 @@ nsCString
 aRemoteType
 )
 ;
+void
+PreallocInit
+(
+)
+;
 /
 /
 Call
