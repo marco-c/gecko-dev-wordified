@@ -364,6 +364,7 @@ element
 .
 *
 /
+readonly
 attribute
 unsigned
 long
