@@ -526,6 +526,14 @@ rows
 )
 )
 )
+rows
+=
+stackanalysis
+.
+sanitize
+(
+rows
+)
 #
 enrich
 rows
