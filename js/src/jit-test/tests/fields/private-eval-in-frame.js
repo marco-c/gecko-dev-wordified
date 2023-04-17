@@ -86,8 +86,12 @@ his
 '
 )
 ;
-assertEq
+assertThrowsInstanceOf
 (
+(
+)
+=
+>
 b
 .
 ef
@@ -97,6 +101,6 @@ this
 #
 x
 )
-12
+Error
 )
 ;
