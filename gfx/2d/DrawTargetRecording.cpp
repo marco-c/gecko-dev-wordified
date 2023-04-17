@@ -2202,14 +2202,6 @@ const
 Rect
 &
 aDest
-const
-DrawSurfaceOptions
-&
-aSurfOptions
-const
-DrawOptions
-&
-aOptions
 )
 {
 mRecorder
@@ -2230,8 +2222,6 @@ RecordedDrawDependentSurface
 this
 aId
 aDest
-aSurfOptions
-aOptions
 )
 )
 ;
