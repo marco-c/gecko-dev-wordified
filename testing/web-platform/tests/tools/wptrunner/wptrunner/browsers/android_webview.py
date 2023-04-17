@@ -236,7 +236,7 @@ webdriver_args
 )
             
 "
-stackparser_script
+stackwalk_binary
 "
 :
 kwargs
@@ -244,12 +244,12 @@ kwargs
 get
 (
 "
-stackparser_script
+stackwalk_binary
 "
 )
             
 "
-output_directory
+symbols_path
 "
 :
 kwargs
@@ -257,7 +257,7 @@ kwargs
 get
 (
 "
-output_directory
+symbols_path
 "
 )
 }
@@ -696,11 +696,11 @@ webdriver_args
 =
 None
                  
-stackparser_script
+stackwalk_binary
 =
 None
                  
-output_directory
+symbols_path
 =
 None
 )
@@ -748,8 +748,8 @@ remote_queue
 device_serial
                 
 webdriver_args
-stackparser_script
-output_directory
+stackwalk_binary
+symbols_path
 )
         
 self
