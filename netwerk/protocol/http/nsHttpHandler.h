@@ -4763,6 +4763,15 @@ bool
 anonymous
 )
 ;
+void
+ExcludeHttp2OrHttp3Internal
+(
+const
+nsHttpConnectionInfo
+*
+ci
+)
+;
 /
 /
 State
