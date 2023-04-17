@@ -3717,12 +3717,11 @@ GetClass
 (
 obj
 )
-=
-=
-js
-:
-:
-FunctionClassPtr
+-
+>
+isJSFunction
+(
+)
 )
 ;
 auto
