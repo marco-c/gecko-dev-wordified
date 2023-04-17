@@ -3130,6 +3130,14 @@ mSkippedNativeCallback
 true
 ;
 }
+if
+(
+self
+-
+>
+mTerminated
+)
+{
 /
 /
 Still
@@ -3186,6 +3194,7 @@ atStart
 NO
 ]
 ;
+}
 /
 /
 Normally
