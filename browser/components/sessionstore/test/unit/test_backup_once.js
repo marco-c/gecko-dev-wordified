@@ -525,6 +525,10 @@ index
 ]
 }
 ]
+_cachedObjs
+:
+[
+]
 }
 ;
 }
