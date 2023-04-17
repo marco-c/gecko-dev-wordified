@@ -11675,7 +11675,7 @@ IsCollapsed
 nsresult
 rv
 =
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 ;
@@ -11710,7 +11710,7 @@ rv
 HTMLEditor
 :
 :
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 "
@@ -16649,7 +16649,7 @@ IsCollapsed
 nsresult
 rv
 =
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 ;
@@ -16678,7 +16678,7 @@ rv
 HTMLEditor
 :
 :
-EnsureCaretNotAfterPaddingBRElement
+EnsureCaretNotAfterInvisibleBRElement
 (
 )
 "
