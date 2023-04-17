@@ -68,6 +68,8 @@ mozperftest
 layers
 import
 Layer
+import
+os
 RESULTS_TEMPLATE
 =
 "
@@ -227,9 +229,28 @@ name
 console
 "
     
+#
+By
+default
+activate
+the
+console
+layer
+when
+running
+locally
+.
+    
 activated
 =
-False
+"
+MOZ_AUTOMATION
+"
+not
+in
+os
+.
+environ
     
 arguments
 =
