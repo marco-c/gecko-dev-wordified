@@ -1175,6 +1175,11 @@ SFE_USE_ELEMENT_SIZE_IF_VECTOR
 nsLayoutUtils
 :
 :
+SFE_EXACT_SIZE_SURFACE
+|
+nsLayoutUtils
+:
+:
 SFE_ALLOW_NON_PREMULT
 ;
 const
