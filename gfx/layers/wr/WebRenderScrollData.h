@@ -267,6 +267,9 @@ namespace
 layers
 {
 class
+APZTestAccess
+;
+class
 Layer
 ;
 class
@@ -1029,6 +1032,16 @@ private
 /
 /
 For
+test
+use
+only
+friend
+class
+APZTestAccess
+;
+/
+/
+For
 use
 by
 GTests
@@ -1057,10 +1070,6 @@ Initialize
 (
 )
 .
-friend
-class
-TestWRScrollData
-;
 void
 InitializeForTest
 (
@@ -1068,6 +1077,8 @@ int32_t
 aDescendantCount
 )
 ;
+private
+:
 /
 /
 The
