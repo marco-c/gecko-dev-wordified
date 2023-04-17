@@ -496,7 +496,7 @@ is
 only
 used
 by
-browser_target_list_various_descriptors
+browser_target_command_various_descriptors
 .
 js
 *

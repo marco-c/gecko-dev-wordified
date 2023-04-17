@@ -1232,7 +1232,7 @@ in
 test
 (
 like
-browser_target_list_service_workers_navigation
+browser_target_command_service_workers_navigation
 .
 js
 )
