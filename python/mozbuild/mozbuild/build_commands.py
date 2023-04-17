@@ -472,6 +472,12 @@ tree
 metrics_path
 =
 MOZBUILD_METRICS_PATH
+        
+virtualenv_name
+=
+"
+build
+"
     
 )
     
@@ -1538,6 +1544,12 @@ status
 metrics_path
 =
 MOZBUILD_METRICS_PATH
+        
+virtualenv_name
+=
+"
+build
+"
     
 )
     
@@ -1667,6 +1679,12 @@ for
 a
 build
 .
+"
+        
+virtualenv_name
+=
+"
+build
 "
     
 )
@@ -2043,6 +2061,12 @@ build
 the
 tree
 .
+"
+        
+virtualenv_name
+=
+"
+build
 "
     
 )
