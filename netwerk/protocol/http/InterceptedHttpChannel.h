@@ -687,6 +687,8 @@ mResumeEntityId
 nsString
 mStatusHost
 ;
+/
+/
 enum
 {
 Invalid
