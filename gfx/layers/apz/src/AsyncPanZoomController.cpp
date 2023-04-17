@@ -42326,6 +42326,12 @@ LayerToParentLayerScale
 aZoom
 )
 {
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 mTestAsyncZoom
 =
 aZoom
