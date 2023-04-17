@@ -1261,14 +1261,14 @@ Maybe
 <
 nsCSSBorderRenderer
 >
-CreateBorderRendererForOutline
+CreateBorderRendererForNonThemedOutline
 (
 nsPresContext
 *
 aPresContext
-gfxContext
+DrawTarget
 *
-aRenderingContext
+aDrawTarget
 nsIFrame
 *
 aForFrame
@@ -1474,7 +1474,7 @@ borders
 /
 static
 void
-PaintOutline
+PaintNonThemedOutline
 (
 nsPresContext
 *
