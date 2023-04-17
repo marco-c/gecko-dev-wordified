@@ -11012,10 +11012,14 @@ a
 glyph
 .
 gfxFloat
-GetGlyphHAdvance
+GetGlyphAdvance
 (
 uint16_t
 aGID
+bool
+aVertical
+=
+false
 )
 ;
 /
@@ -11050,6 +11054,10 @@ GetCharAdvance
 (
 uint32_t
 aUnicode
+bool
+aVertical
+=
+false
 )
 ;
 gfxFloat

@@ -1351,7 +1351,7 @@ sizeAdjust
 StyleFontSizeAdjust
 :
 :
-Ex
+ExHeight
 (
 (
 float

@@ -4064,7 +4064,7 @@ GetFirstValidFont
 )
 -
 >
-GetGlyphHAdvance
+GetGlyphAdvance
 (
 aGlyph
 .
