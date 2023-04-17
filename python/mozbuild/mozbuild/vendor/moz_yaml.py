@@ -908,6 +908,10 @@ True
 filter
 :
 security
+      
+frequency
+:
+every
     
 -
 type
@@ -921,6 +925,11 @@ master
 enabled
 :
 False
+      
+frequency
+:
+2
+weeks
 #
 Configuration
 for
@@ -2897,6 +2906,32 @@ Unique
 [
 str
 ]
+)
+                            
+"
+frequency
+"
+:
+Match
+(
+r
+"
+^
+(
+every
+|
+release
+|
+[
+0
+-
+9
+]
++
+weeks
+?
+)
+"
 )
                         
 }
