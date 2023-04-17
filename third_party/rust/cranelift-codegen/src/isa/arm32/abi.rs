@@ -2010,6 +2010,9 @@ RealReg
 fixed_frame_storage_size
 :
 u32
+_outgoing_args_size
+:
+u32
 )
 -
 >
@@ -2204,6 +2207,9 @@ RealReg
 >
 >
 _fixed_frame_storage_size
+:
+u32
+_outgoing_args_size
 :
 u32
 )

@@ -1104,6 +1104,7 @@ Copy
 Clone
 PartialEq
 Eq
+Hash
 )
 ]
 pub
@@ -1131,6 +1132,7 @@ Copy
 Clone
 PartialEq
 Eq
+Hash
 )
 ]
 pub
@@ -1158,6 +1160,7 @@ Copy
 Clone
 PartialEq
 Eq
+Hash
 )
 ]
 pub
@@ -1182,6 +1185,7 @@ Copy
 Clone
 PartialEq
 Eq
+Hash
 )
 ]
 pub
@@ -1284,6 +1288,7 @@ Copy
 Clone
 PartialEq
 Eq
+Hash
 )
 ]
 pub
@@ -1427,6 +1432,10 @@ NameType
 Module
 Function
 Local
+Unknown
+(
+u32
+)
 }
 #
 [

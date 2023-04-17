@@ -775,6 +775,10 @@ EntityRef
 for
 entity
 {
+#
+[
+inline
+]
 fn
 new
 (
@@ -814,6 +818,10 @@ as
 u32
 )
 }
+#
+[
+inline
+]
 fn
 index
 (
@@ -841,6 +849,10 @@ ReservedValue
 for
 entity
 {
+#
+[
+inline
+]
 fn
 reserved_value
 (
@@ -863,6 +875,10 @@ u32
 MAX
 )
 }
+#
+[
+inline
+]
 fn
 is_reserved_value
 (
@@ -910,6 +926,10 @@ allow
 (
 dead_code
 )
+]
+#
+[
+inline
 ]
 pub
 fn
@@ -963,6 +983,10 @@ allow
 (
 dead_code
 )
+]
+#
+[
+inline
 ]
 pub
 fn

@@ -712,6 +712,8 @@ u32
 [
 derive
 (
+Clone
+Copy
 Debug
 )
 ]

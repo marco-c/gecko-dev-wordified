@@ -1605,7 +1605,7 @@ module
 /
 cranelift_module
 /
-struct
+trait
 .
 Module
 .
@@ -2730,7 +2730,7 @@ module
 /
 cranelift_module
 /
-struct
+trait
 .
 Module
 .
@@ -2774,7 +2774,7 @@ module
 /
 cranelift_module
 /
-struct
+trait
 .
 Module
 .
