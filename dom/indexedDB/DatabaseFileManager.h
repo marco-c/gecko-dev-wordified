@@ -123,6 +123,13 @@ DOM_INDEXEDDB_DATABASEFILEMANAGER_H_
 #
 include
 "
+FileInfoManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -168,13 +175,6 @@ InitializedOnce
 .
 h
 "
-#
-include
-"
-FileManagerBase
-.
-h
-"
 class
 nsIFile
 ;
@@ -203,7 +203,7 @@ DatabaseFileManager
 final
 :
 public
-FileManagerBase
+FileInfoManager
 <
 DatabaseFileManager
 >
@@ -228,7 +228,7 @@ quota
 PersistenceType
 ;
 using
-FileManagerBase
+FileInfoManager
 <
 DatabaseFileManager
 >

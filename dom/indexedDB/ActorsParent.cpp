@@ -246,7 +246,7 @@ h
 #
 include
 "
-FileManagerBase
+FileInfoManager
 .
 h
 "
@@ -66543,7 +66543,7 @@ DatabaseFileInfo
 *
 >
 (
-FileManagerGuard
+FileInfoManagerGuard
 {
 }
 SafeRefPtrFromThis
