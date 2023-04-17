@@ -185,6 +185,11 @@ nsFont
 h
 "
 "
+nsFontCache
+.
+h
+"
+"
 nsFontMetrics
 .
 h
@@ -357,6 +362,11 @@ cpp
 "
 "
 nsFont
+.
+cpp
+"
+"
+nsFontCache
 .
 cpp
 "
