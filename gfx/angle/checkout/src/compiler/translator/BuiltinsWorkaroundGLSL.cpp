@@ -183,6 +183,11 @@ isBaseInstanceDeclared
 =
 false
 ;
+bool
+isBaseVertexDeclared
+=
+false
+;
 }
 ;
 TBuiltinsWorkaroundGLSL
@@ -442,7 +447,7 @@ symbolType
 SymbolType
 :
 :
-BuiltIn
+AngleInternal
 )
 {
 if
