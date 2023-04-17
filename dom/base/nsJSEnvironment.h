@@ -419,11 +419,6 @@ static
 void
 CycleCollectNow
 (
-mozilla
-:
-:
-CCReason
-aReason
 nsICycleCollectorListener
 *
 aListener
@@ -446,11 +441,6 @@ static
 void
 PrepareForCycleCollectionSlice
 (
-mozilla
-:
-:
-CCReason
-aReason
 mozilla
 :
 :
@@ -485,11 +475,6 @@ RunCycleCollectorSlice
 mozilla
 :
 :
-CCReason
-aReason
-mozilla
-:
-:
 TimeStamp
 aDeadline
 )
@@ -519,11 +504,6 @@ static
 void
 BeginCycleCollectionCallback
 (
-mozilla
-:
-:
-CCReason
-aReason
 )
 ;
 static

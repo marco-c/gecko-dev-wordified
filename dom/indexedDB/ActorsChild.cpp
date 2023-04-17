@@ -1155,10 +1155,6 @@ nsJSContext
 :
 CycleCollectNow
 (
-CCReason
-:
-:
-API
 )
 ;
 #
