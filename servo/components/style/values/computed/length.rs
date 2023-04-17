@@ -1376,6 +1376,14 @@ GenericSize
 :
 :
 MozAvailable
+|
+GenericSize
+:
+:
+FitContentFunction
+(
+_
+)
 =
 >
 false
