@@ -2883,7 +2883,7 @@ uint32_t
 aTimeout
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 OnSocketThread
 (
@@ -21350,6 +21350,19 @@ MaybeCancelFallbackTimer
 (
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+OnSocketThread
+(
+)
+"
+not
+on
+socket
+thread
+"
+)
+;
 if
 (
 mFastFallbackTimer
@@ -22274,7 +22287,7 @@ nsITimer
 aTimer
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 OnSocketThread
 (
