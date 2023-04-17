@@ -2419,9 +2419,15 @@ we
 have
 remote
 frames
+in
+content
+process
+resources
 so
 we
 need
+/
+/
 an
 array
 to
@@ -2673,6 +2679,8 @@ also
 remove
 all
 already
+/
+/
 destroyed
 fronts
 .
