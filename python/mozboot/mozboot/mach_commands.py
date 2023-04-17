@@ -91,22 +91,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Bootstrap
-system
-and
-mach
-for
-optimal
-development
-experience
-.
-"
-"
-"
-    
 Command
 (
         
@@ -251,6 +235,22 @@ False
     
 )
 :
+        
+"
+"
+"
+Bootstrap
+system
+and
+mach
+for
+optimal
+development
+experience
+.
+"
+"
+"
         
 from
 mozboot

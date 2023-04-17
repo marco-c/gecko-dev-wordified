@@ -544,21 +544,6 @@ MachCommandBase
 )
 :
     
-"
-"
-"
-Mach
-command
-provider
-for
-Firefox
-ui
-tests
-.
-"
-"
-"
-    
 Command
 (
         
