@@ -2178,7 +2178,7 @@ read
 5
 stat
 :
-2
+4
 }
 {
 /
@@ -2232,7 +2232,7 @@ canonicalize
 true
 stat
 :
-2
+4
 }
 {
 /
@@ -2365,7 +2365,7 @@ read
 8
 stat
 :
-2
+4
 }
 {
 /
@@ -2419,7 +2419,7 @@ canonicalize
 true
 stat
 :
-2
+4
 }
 {
 /
