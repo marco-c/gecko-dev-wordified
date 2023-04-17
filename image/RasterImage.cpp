@@ -4567,9 +4567,9 @@ RasterImage
 :
 GetImageContainerSize
 (
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 const
 IntSize
 &
@@ -4687,7 +4687,7 @@ maxTextureSize
 int32_t
 maxTextureSize
 =
-aManager
+aRenderer
 -
 >
 GetMaxTextureSize
@@ -4828,9 +4828,9 @@ RasterImage
 :
 GetImageContainer
 (
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 uint32_t
 aFlags
 )
@@ -4866,7 +4866,7 @@ drawResult
 =
 GetImageContainerImpl
 (
-aManager
+aRenderer
 mSize
 .
 ToUnknownSize
@@ -5069,12 +5069,9 @@ RasterImage
 :
 GetImageContainerAtSize
 (
-layers
-:
-:
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 const
 gfx
 :
@@ -5147,7 +5144,7 @@ container
 return
 GetImageContainerImpl
 (
-aManager
+aRenderer
 aSize
 Nothing
 (
