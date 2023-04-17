@@ -758,7 +758,7 @@ control
 {
 height
 :
-442
+450
 width
 :
 300
@@ -822,7 +822,7 @@ control
 {
 height
 :
-133
+132
 width
 :
 350
@@ -836,7 +836,7 @@ control
 {
 height
 :
-474
+477
 width
 :
 328
