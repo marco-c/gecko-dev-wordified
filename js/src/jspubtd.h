@@ -470,7 +470,7 @@ js
 namespace
 JS
 {
-struct
+class
 JS_PUBLIC_API
 PropertyDescriptor
 ;
