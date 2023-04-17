@@ -1422,6 +1422,16 @@ number
 of
 messages
 ?
+SendSetIsInitialDocument
+(
+aDocument
+-
+>
+IsInitialDocument
+(
+)
+)
+;
 SetDocumentURI
 (
 aDocument

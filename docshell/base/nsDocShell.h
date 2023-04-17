@@ -3149,6 +3149,10 @@ member
 functions
 friend
 class
+nsAppShellService
+;
+friend
+class
 nsDSURIContentListener
 ;
 friend
@@ -3587,6 +3591,8 @@ aCSP
 nsIURI
 *
 aBaseURI
+bool
+aIsInitialDocument
 const
 mozilla
 :

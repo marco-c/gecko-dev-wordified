@@ -885,6 +885,17 @@ documentURI
 wgp
 -
 >
+mIsInitialDocument
+=
+aInit
+.
+isInitialDocument
+(
+)
+;
+wgp
+-
+>
 mBlockAllMixedContent
 =
 aInit
