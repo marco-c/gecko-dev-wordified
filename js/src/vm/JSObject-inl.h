@@ -1706,7 +1706,7 @@ bool
 JSObject
 :
 :
-hasUncacheableProto
+hasInvalidatedTeleporting
 (
 )
 const
@@ -1720,7 +1720,7 @@ js
 ObjectFlag
 :
 :
-UncacheableProto
+InvalidatedTeleporting
 )
 ;
 }

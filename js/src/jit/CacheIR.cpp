@@ -4808,7 +4808,7 @@ if
 holder
 -
 >
-hasUncacheableProto
+hasInvalidatedTeleporting
 (
 )
 )
