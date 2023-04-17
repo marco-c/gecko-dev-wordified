@@ -127,7 +127,7 @@ C
 )
 2010
 -
-2020
+2021
 by
 *
 Joel
@@ -753,7 +753,7 @@ NULL
 (
 void
 )
-FT_ALLOC
+FT_QALLOC
 (
 p
 sz

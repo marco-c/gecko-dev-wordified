@@ -94,7 +94,7 @@ C
 )
 2010
 -
-2020
+2021
 by
 *
 David
@@ -5708,7 +5708,6 @@ SPH_TWEAK_
 #
 #
 x
-;
 #
 define
 TWEAK_RULES_EXCEPTIONS
@@ -5751,7 +5750,6 @@ SPH_TWEAK_
 #
 #
 x
-;
 FT_LOCAL_DEF
 (
 void

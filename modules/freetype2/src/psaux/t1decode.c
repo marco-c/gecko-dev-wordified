@@ -99,7 +99,7 @@ C
 )
 2000
 -
-2020
+2021
 by
 *
 David
@@ -2988,7 +2988,7 @@ FT_TRACE5
 "
 (
 %
-d
+ld
 )
 "
 decoder
@@ -6577,7 +6577,7 @@ stack
 (
 seen
 %
-d
+ld
 expected
 %
 d
@@ -6805,7 +6805,7 @@ FT_TRACE4
 (
 "
 %
-d
+ld
 "
 decoder
 -
@@ -9145,6 +9145,14 @@ end
 .
 \
 n
+"
+)
+)
+;
+FT_TRACE4
+(
+(
+"
 \
 n
 "
@@ -11420,6 +11428,14 @@ end
 .
 \
 n
+"
+)
+)
+;
+FT_TRACE4
+(
+(
+"
 \
 n
 "

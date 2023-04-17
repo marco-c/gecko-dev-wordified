@@ -98,7 +98,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 *
 David
@@ -2560,6 +2560,12 @@ font
 \
 n
 "
+)
+)
+;
+FT_ERROR
+(
+(
 "
 "
 "
@@ -2615,6 +2621,12 @@ fonts
 \
 n
 "
+)
+)
+;
+FT_ERROR
+(
+(
 "
 "
 "
@@ -2865,6 +2877,12 @@ font
 \
 n
 "
+)
+)
+;
+FT_ERROR
+(
+(
 "
 "
 "
@@ -3104,7 +3122,7 @@ memory
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 font_info
 sizeof

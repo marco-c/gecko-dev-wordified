@@ -103,7 +103,7 @@ C
 )
 2004
 -
-2020
+2021
 by
 *
 suzuki
@@ -551,7 +551,7 @@ Exit
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 *
 table

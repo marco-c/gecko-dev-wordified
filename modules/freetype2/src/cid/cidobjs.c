@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 *
 David
@@ -2832,18 +2832,6 @@ h
 '
 *
 /
-#
-ifdef
-T1_CONFIG_OPTION_OLD_ENGINE
-driver
--
->
-hinting_engine
-=
-FT_HINTING_FREETYPE
-;
-#
-else
 driver
 -
 >
@@ -2851,8 +2839,6 @@ hinting_engine
 =
 FT_HINTING_ADOBE
 ;
-#
-endif
 driver
 -
 >

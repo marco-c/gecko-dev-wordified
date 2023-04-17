@@ -98,7 +98,7 @@ C
 )
 2001
 -
-2020
+2021
 by
 *
 David
@@ -1597,6 +1597,18 @@ GXvalid
 "
 GX
 validation
+module
+"
+)
+FT_MODERRDEF
+(
+Sdf
+0x1700
+"
+Signed
+distance
+field
+raster
 module
 "
 )

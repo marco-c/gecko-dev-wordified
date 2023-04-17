@@ -484,17 +484,6 @@ allocated
 *
 /
 size_t
-chunk
-;
-/
-*
-allocation
-increment
-in
-items
-*
-/
-size_t
 count
 ;
 /

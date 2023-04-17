@@ -1684,7 +1684,7 @@ s
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 face
 -
@@ -2593,13 +2593,12 @@ num_fixed_sizes
 ;
 if
 (
-FT_NEW_ARRAY
+FT_NEW
 (
 bdfface
 -
 >
 available_sizes
-1
 )
 )
 goto
@@ -2625,11 +2624,6 @@ resolution_y
 ;
 long
 value
-;
-FT_ZERO
-(
-bsize
-)
 ;
 /
 *

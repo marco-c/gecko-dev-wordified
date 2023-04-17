@@ -104,7 +104,7 @@ C
 )
 2006
 -
-2020
+2021
 by
 *
 David
@@ -459,7 +459,7 @@ of
 Using
 the
 *
-subpixels
+subpixel
 coverages
 unfiltered
 can
@@ -492,12 +492,11 @@ must
 be
 dimmed
 *
-equally
+evenly
 .
-*
-*
-A
-good
+Therefore
+an
+equalizing
 5
 -
 tap
@@ -506,10 +505,10 @@ filter
 should
 be
 applied
+*
 to
 subpixel
 coverages
-*
 regardless
 of
 pixel
@@ -517,6 +516,7 @@ boundaries
 and
 should
 have
+*
 these
 properties
 :
@@ -738,8 +738,8 @@ case
 each
 color
 channel
-is
-then
+can
+be
 rendered
 separately
 *
@@ -937,8 +937,9 @@ ClearType
 filtering
 or
 Harmony
-rendering
+shifts
 the
+resulting
 *
 dimensions
 of
@@ -946,7 +947,7 @@ LCD
 bitmaps
 can
 be
-either
+slightly
 wider
 or
 taller
@@ -954,9 +955,8 @@ than
 the
 *
 dimensions
-of
 the
-corresponding
+original
 outline
 with
 regard

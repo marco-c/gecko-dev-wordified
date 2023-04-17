@@ -101,7 +101,7 @@ C
 )
 2004
 -
-2020
+2021
 by
 *
 David
@@ -426,7 +426,7 @@ Exit
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 *
 table

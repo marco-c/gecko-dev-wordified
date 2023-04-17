@@ -103,7 +103,7 @@ C
 )
 2006
 -
-2020
+2021
 by
 *
 David
@@ -2219,8 +2219,10 @@ FT_Library_SetLcdGeometry
 FT_Library
 library
 FT_Vector
-*
 sub
+[
+3
+]
 )
 {
 FT_UNUSED
@@ -2675,10 +2677,7 @@ FT_Vector
 )
 ;
 return
-FT_THROW
-(
-Unimplemented_Feature
-)
+FT_Err_Ok
 ;
 }
 #

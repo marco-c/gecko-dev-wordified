@@ -531,7 +531,7 @@ NULL
 ;
 if
 (
-FT_NEW
+FT_QNEW
 (
 stack
 )
@@ -539,17 +539,6 @@ stack
 return
 NULL
 ;
-/
-*
-initialize
-the
-structure
-;
-FT_NEW
-zeroes
-it
-*
-/
 stack
 -
 >
@@ -574,7 +563,7 @@ buffer
 /
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 stack
 -

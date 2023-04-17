@@ -99,7 +99,7 @@ C
 )
 2004
 -
-2020
+2021
 by
 *
 David
@@ -4719,6 +4719,12 @@ FT_Bitmap_Blend
 \
 n
 "
+)
+)
+;
+FT_TRACE5
+(
+(
 "
 source
 bitmap

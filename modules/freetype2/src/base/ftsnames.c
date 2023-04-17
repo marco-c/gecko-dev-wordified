@@ -127,7 +127,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 *
 David
@@ -411,7 +411,7 @@ stream
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 entry
 -
@@ -688,7 +688,7 @@ stream
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 entry
 -

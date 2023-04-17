@@ -3329,6 +3329,8 @@ bottomHintEdge
 >
 dsCoord
 )
+SUB_INT32
+(
 blues
 -
 >
@@ -3338,10 +3340,10 @@ i
 ]
 .
 dsFlatEdge
--
 cf2_intToFixed
 (
 1
+)
 )
 )
 ;

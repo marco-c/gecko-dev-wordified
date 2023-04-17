@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 *
 David
@@ -539,7 +539,7 @@ close
 NULL
 ;
 }
-FT_CALLBACK_DEF
+FT_COMPARE_DEF
 (
 int
 )
@@ -1032,7 +1032,7 @@ checks
 /
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 sfnt
 12
@@ -1237,6 +1237,12 @@ FT_TRACE2
 \
 n
 "
+)
+)
+;
+FT_TRACE2
+(
+(
 "
 tag
 offset
@@ -1246,6 +1252,12 @@ checksum
 \
 n
 "
+)
+)
+;
+FT_TRACE2
+(
+(
 "
 -
 -

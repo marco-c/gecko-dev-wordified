@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 *
 David
@@ -751,9 +751,9 @@ the
 FT_Glyph
 caching
 call
-FTC_ImageCache
-then
+FTC_ImageCache_New
 *
+then
 later
 use
 FTC_ImageCache_Lookup

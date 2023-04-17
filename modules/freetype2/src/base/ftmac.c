@@ -139,7 +139,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 *
 Just
@@ -3371,7 +3371,7 @@ total_size
 }
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 buffer
 (
@@ -3977,7 +3977,7 @@ Array_Too_Large
 ;
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 sfnt_data
 (

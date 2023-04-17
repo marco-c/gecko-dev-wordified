@@ -100,7 +100,7 @@ C
 )
 1996
 -
-2020
+2021
 by
 *
 David
@@ -568,7 +568,7 @@ kerning
 pairs
 *
 /
-FT_CALLBACK_DEF
+FT_COMPARE_DEF
 (
 int
 )

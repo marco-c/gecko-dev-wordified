@@ -100,7 +100,7 @@ C
 )
 2003
 -
-2020
+2021
 by
 *
 David
@@ -388,7 +388,7 @@ load_flags
 ;
 FT_LOCAL_DEF
 (
-FT_Int32
+FT_Fixed
 )
 af_loader_compute_darkening
 (

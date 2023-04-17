@@ -98,7 +98,7 @@ C
 )
 2002
 -
-2020
+2021
 by
 *
 David
@@ -1531,7 +1531,7 @@ memory
 ;
 if
 (
-FT_NEW_ARRAY
+FT_QNEW_ARRAY
 (
 pfrface
 -
