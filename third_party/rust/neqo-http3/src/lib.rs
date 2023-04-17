@@ -274,7 +274,7 @@ HFrameReader
 ;
 pub
 use
-neqo_qpack
+neqo_common
 :
 :
 Header

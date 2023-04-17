@@ -234,15 +234,6 @@ stats
 :
 Stats
 ;
-pub
-type
-Header
-=
-(
-String
-String
-)
-;
 type
 Res
 <
