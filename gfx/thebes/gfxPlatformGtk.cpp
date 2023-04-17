@@ -1467,6 +1467,7 @@ IsEnabled
 if
 (
 !
+(
 gfxConfig
 :
 :
@@ -1476,6 +1477,19 @@ Feature
 :
 :
 WEBRENDER
+)
+|
+|
+gfxConfig
+:
+:
+IsEnabled
+(
+Feature
+:
+:
+WEBRENDER_SOFTWARE
+)
 )
 )
 {

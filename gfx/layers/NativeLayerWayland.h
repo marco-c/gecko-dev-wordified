@@ -165,6 +165,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsRegion
 .
 h
@@ -172,7 +179,7 @@ h
 #
 include
 "
-nsISupportsImpl
+nsTArray
 .
 h
 "
@@ -426,7 +433,7 @@ EnsureSurfaceInitialized
 (
 )
 ;
-void
+bool
 EnsureShowLayer
 (
 const
