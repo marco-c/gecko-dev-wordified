@@ -1182,26 +1182,15 @@ _venv
 "
 )
         
+"
+common
+"
+        
+log_handle
+=
 sys
 .
 stderr
-        
-os
-.
-path
-.
-join
-(
-topsrcdir
-"
-build
-"
-"
-build_virtualenv_packages
-.
-txt
-"
-)
     
 )
     
