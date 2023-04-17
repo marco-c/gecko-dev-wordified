@@ -762,6 +762,15 @@ params
 .
 onDarkBackground
 =
+!
+StaticPrefs
+:
+:
+widget_disable_dark_scrollbar
+(
+)
+&
+&
 nsNativeTheme
 :
 :
