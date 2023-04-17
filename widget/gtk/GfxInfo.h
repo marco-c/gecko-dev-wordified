@@ -623,6 +623,12 @@ mSecondaryDeviceId
 nsCString
 mDrmRenderDevice
 ;
+nsTArray
+<
+nsCString
+>
+mDdxDrivers
+;
 struct
 ScreenInfo
 {
