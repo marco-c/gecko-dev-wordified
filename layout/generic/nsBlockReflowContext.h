@@ -153,9 +153,6 @@ nsLineBox
 class
 nsPresContext
 ;
-class
-nsReflowStatus
-;
 namespace
 mozilla
 {

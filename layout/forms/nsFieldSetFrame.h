@@ -143,13 +143,6 @@ nsContainerFrame
 .
 h
 "
-#
-include
-"
-nsIScrollableFrame
-.
-h
-"
 class
 nsFieldSetFrame
 final
