@@ -185,6 +185,17 @@ APZCTreeManager
 #
 include
 "
+RenderTrace
+.
+h
+"
+/
+/
+for
+RenderTraceLayers
+#
+include
+"
 base
 /
 process

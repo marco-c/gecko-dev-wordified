@@ -1387,6 +1387,11 @@ ProfilerScreenshots
 h
 "
 "
+RenderTrace
+.
+h
+"
+"
 RepaintRequest
 .
 h
@@ -2911,6 +2916,11 @@ cpp
 "
 "
 ReadbackProcessor
+.
+cpp
+"
+"
+RenderTrace
 .
 cpp
 "
