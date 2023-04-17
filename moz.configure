@@ -4995,6 +4995,9 @@ extend
 (
 (
 "
+mozmake
+"
+"
 make
 "
 "
@@ -5025,6 +5028,11 @@ check_prog
 GMAKE
 "
 possible_makes
+bootstrap
+=
+"
+mozmake
+"
 )
 #
 watchman
