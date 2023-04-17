@@ -624,7 +624,6 @@ variant
 buildType
 )
 return
-(
 "
 gradle
 /
@@ -645,6 +644,13 @@ javac
 {
 }
 /
+compile
+{
+}
+{
+}
+JavaWithJavac
+/
 classes
 "
 .
@@ -655,6 +661,13 @@ capitalize
 (
 buildType
 )
+capitalize
+(
+productFlavor
+)
+capitalize
+(
+buildType
 )
 )
 set_config
