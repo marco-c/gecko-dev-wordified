@@ -292,6 +292,9 @@ width
 aSize
 .
 height
+1
+.
+0
 aFormat
 =
 =
@@ -340,6 +343,12 @@ mSurface
 GetIOSurfaceID
 (
 )
+mSurface
+-
+>
+GetContentsScaleFactor
+(
+)
 !
 mSurface
 -
@@ -380,6 +389,12 @@ mSurface
 -
 >
 GetIOSurfaceID
+(
+)
+mSurface
+-
+>
+GetContentsScaleFactor
 (
 )
 !

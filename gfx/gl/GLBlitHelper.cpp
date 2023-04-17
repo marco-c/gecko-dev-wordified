@@ -4742,6 +4742,11 @@ sd
 surfaceId
 (
 )
+sd
+.
+scaleFactor
+(
+)
 !
 sd
 .
@@ -8851,6 +8856,11 @@ LookupSurface
 subdesc
 .
 surfaceId
+(
+)
+subdesc
+.
+scaleFactor
 (
 )
 !
