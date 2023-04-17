@@ -28695,7 +28695,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectForeground
+Highlighttext
 mFrame
 )
 ;
@@ -28713,7 +28713,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectBackground
+Highlight
 mFrame
 )
 ;
@@ -28968,7 +28968,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectBackground
+Highlight
 mFrame
 )
 ;
@@ -29071,7 +29071,7 @@ LookAndFeel
 ColorID
 :
 :
-TextSelectForeground
+Highlighttext
 mFrame
 )
 ;
