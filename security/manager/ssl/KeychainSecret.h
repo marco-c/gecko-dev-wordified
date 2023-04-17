@@ -148,6 +148,11 @@ ScopedCFType
 (
 )
 {
+if
+(
+mValue
+)
+{
 CFRelease
 (
 (
@@ -156,6 +161,7 @@ CFTypeRef
 mValue
 )
 ;
+}
 }
 T
 get
