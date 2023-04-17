@@ -17712,13 +17712,6 @@ page
 "
 \
 "
-cfr
--
-fxa
-\
-"
-\
-"
 aboutwelcome
 \
 "

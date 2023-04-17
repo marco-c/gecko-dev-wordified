@@ -879,11 +879,6 @@ page
 "
 snippets
 "
-"
-cfr
--
-fxa
-"
 ]
 "
 updateCycleInMs
