@@ -4713,7 +4713,7 @@ cpuFamily
 =
 static_cast
 <
-int
+int32_t
 >
 (
 t
@@ -4788,7 +4788,7 @@ cpuModel
 =
 static_cast
 <
-int
+int32_t
 >
 (
 t
@@ -4863,7 +4863,7 @@ cpuStepping
 =
 static_cast
 <
-int
+int32_t
 >
 (
 t
@@ -4940,7 +4940,7 @@ physicalCPUs
 =
 static_cast
 <
-int
+int32_t
 >
 (
 t
@@ -5054,7 +5054,7 @@ cpuSpeed
 =
 static_cast
 <
-int
+int32_t
 >
 (
 t
@@ -5176,7 +5176,7 @@ cacheSizeL2
 =
 static_cast
 <
-int
+int32_t
 >
 (
 t
@@ -5296,7 +5296,7 @@ cacheSizeL3
 =
 static_cast
 <
-int
+int32_t
 >
 (
 t
