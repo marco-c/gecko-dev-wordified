@@ -2099,12 +2099,7 @@ DataSourceSurface
 *
 surf
 =
-aSurface
--
->
-GetDataSurface
-(
-)
+dataSurface
 .
 take
 (
