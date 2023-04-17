@@ -2102,6 +2102,12 @@ nsIThreadObserver
 aObserver
 )
 {
+MutexAutoLock
+lock
+(
+mGraphMutex
+)
+;
 mObserver
 =
 aObserver
