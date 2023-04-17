@@ -4134,6 +4134,17 @@ notificationBox
 priority
 ]
 buttons
+null
+null
+[
+"
+browser
+/
+aboutLogins
+.
+ftl
+"
+]
 )
 ;
 }
