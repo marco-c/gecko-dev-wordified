@@ -9399,6 +9399,7 @@ const
 SECItem
 *
 aInfo
+unsigned
 int
 aLen
 bool
@@ -9748,12 +9749,14 @@ kODoHSecret
 }
 ;
 const
+unsigned
 int
 kAes128GcmKeyLen
 =
 16
 ;
 const
+unsigned
 int
 kAes128GcmNonceLen
 =

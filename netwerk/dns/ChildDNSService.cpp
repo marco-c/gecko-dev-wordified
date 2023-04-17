@@ -519,6 +519,13 @@ ChildDNSService
 ChildDNSService
 (
 )
+:
+mPendingRequestsLock
+(
+"
+DNSPendingRequestsLock
+"
+)
 {
 MOZ_ASSERT_IF
 (

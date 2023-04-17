@@ -1702,7 +1702,8 @@ ntohl
 networkEndianIP
 )
 ;
-return
+if
+(
 addr32
 >
 >
@@ -1774,7 +1775,8 @@ addr32
 =
 =
 0xA9FE
-;
+)
+{
 /
 /
 169
@@ -1788,6 +1790,13 @@ Link
 Local
 )
 .
+return
+true
+;
+}
+return
+false
+;
 }
 bool
 NetAddr

@@ -1199,11 +1199,6 @@ mozilla
 :
 Mutex
 mLock
-{
-"
-IDNService
-"
-}
 ;
 /
 /
@@ -1264,8 +1259,6 @@ mLock
 /
 bool
 mShowPunycode
-=
-false
 ;
 /
 *
@@ -1326,9 +1319,6 @@ mLock
 ;
 restrictionProfile
 mRestrictionProfile
-{
-eASCIIOnlyProfile
-}
 ;
 /
 /
@@ -1349,8 +1339,6 @@ by
 mLock
 bool
 mIDNUseWhitelist
-=
-false
 ;
 }
 ;
