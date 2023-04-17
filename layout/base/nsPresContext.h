@@ -6511,6 +6511,11 @@ Encoding
 aCharSet
 )
 ;
+void
+DoForceReflowForFontInfoUpdateFromStyle
+(
+)
+;
 public
 :
 /
@@ -6546,6 +6551,11 @@ ForceReflowForFontInfoUpdate
 (
 bool
 aNeedsReframe
+)
+;
+void
+ForceReflowForFontInfoUpdateFromStyle
+(
 )
 ;
 /
@@ -7817,6 +7827,11 @@ kThemeChangeKindBits
 ;
 unsigned
 mPendingUIResolutionChanged
+:
+1
+;
+unsigned
+mPendingFontInfoUpdateReflowFromStyle
 :
 1
 ;
