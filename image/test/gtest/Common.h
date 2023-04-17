@@ -3963,6 +3963,11 @@ NonzeroReservedAVIFTestCase
 )
 ;
 ImageTestCase
+MultipleColrAVIFTestCase
+(
+)
+;
+ImageTestCase
 Transparent10bit420AVIFTestCase
 (
 )
