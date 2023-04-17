@@ -7639,7 +7639,7 @@ i
 0
 =
 =
-PL_strncmp
+strncmp
 (
 "
 versio
@@ -7856,7 +7856,7 @@ i
 0
 =
 =
-PL_strncmp
+strncmp
 (
 "
 encodin
