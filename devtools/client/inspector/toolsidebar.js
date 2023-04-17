@@ -1837,6 +1837,17 @@ this
 ;
 this
 .
+ReactDOM
+.
+unmountComponentAtNode
+(
+this
+.
+_tabbox
+)
+;
+this
+.
 _tabs
 =
 null
