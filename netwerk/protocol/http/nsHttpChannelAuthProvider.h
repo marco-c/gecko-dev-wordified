@@ -496,8 +496,8 @@ nsresult
 GetCredentials
 (
 const
-char
-*
+nsACString
+&
 challenges
 bool
 proxyAuth
