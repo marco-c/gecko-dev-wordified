@@ -1945,11 +1945,7 @@ staticEnv_
 .
 ref_types_enabled
 =
-moduleEnv
-.
-refTypesEnabled
-(
-)
+true
 ;
 staticEnv_
 .

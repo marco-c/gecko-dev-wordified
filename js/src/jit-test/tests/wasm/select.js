@@ -1370,13 +1370,6 @@ expected
 }
 )
 ;
-if
-(
-wasmReftypesEnabled
-(
-)
-)
-{
 wasmFailValidateText
 (
 (
@@ -1933,4 +1926,3 @@ export1
 export2
 )
 ;
-}

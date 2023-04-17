@@ -1534,13 +1534,6 @@ elements
 /
 )
 ;
-if
-(
-wasmReftypesEnabled
-(
-)
-)
-{
 /
 /
 Test
@@ -1702,4 +1695,3 @@ TableMaxRuntime
 1
 )
 ;
-}
