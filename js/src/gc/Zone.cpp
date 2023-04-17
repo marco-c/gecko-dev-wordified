@@ -1212,10 +1212,6 @@ crossZoneStringWrappers_
 (
 this
 )
-gcGrayRoots_
-(
-this
-)
 weakCaches_
 (
 this

@@ -604,7 +604,7 @@ enum
 WhichHolders
 {
 AllHolders
-HoldersInCollectingZones
+HoldersInGrayMarkingZones
 }
 ;
 JSHolderMap

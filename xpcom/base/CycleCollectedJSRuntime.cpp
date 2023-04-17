@@ -3648,14 +3648,14 @@ if
 aWhich
 =
 =
-HoldersInCollectingZones
+HoldersInGrayMarkingZones
 &
 &
 !
 JS
 :
 :
-ZoneIsCollecting
+ZoneIsGrayMarking
 (
 i
 .
@@ -6830,7 +6830,7 @@ which
 JSHolderMap
 :
 :
-HoldersInCollectingZones
+HoldersInGrayMarkingZones
 ;
 if
 (

@@ -5701,17 +5701,6 @@ all
 gray
 roots
 .
-We
-call
-the
-trace
-callback
-to
-get
-the
-current
-set
-.
 traceEmbeddingGrayRoots
 (
 &
