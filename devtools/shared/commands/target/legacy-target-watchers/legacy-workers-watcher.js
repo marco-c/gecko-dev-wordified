@@ -73,7 +73,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+target
 /
 legacy
 -
