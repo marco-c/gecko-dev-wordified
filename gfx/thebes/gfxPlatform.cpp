@@ -12572,7 +12572,7 @@ gfxPlatform
 CreateFontGroup
 (
 const
-FontFamilyList
+StyleFontFamilyList
 &
 aFontFamilyList
 const

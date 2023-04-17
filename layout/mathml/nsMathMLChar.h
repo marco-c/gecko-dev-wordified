@@ -1423,7 +1423,7 @@ const
 mozilla
 :
 :
-FontFamilyList
+StyleFontFamilyList
 &
 aDefaultFamily
 nsFont

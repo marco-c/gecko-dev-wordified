@@ -272,8 +272,8 @@ FT_Library
 namespace
 mozilla
 {
-class
-FontFamilyList
+struct
+StyleFontFamilyList
 ;
 class
 LogModule
@@ -2605,7 +2605,7 @@ const
 mozilla
 :
 :
-FontFamilyList
+StyleFontFamilyList
 &
 aFontFamilyList
 const

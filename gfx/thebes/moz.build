@@ -219,11 +219,6 @@ gfxFontEntry
 h
 "
 "
-gfxFontFamilyList
-.
-h
-"
-"
 gfxFontFeatures
 .
 h

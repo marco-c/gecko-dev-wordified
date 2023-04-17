@@ -6736,7 +6736,7 @@ const
 mozilla
 :
 :
-FontFamilyList
+StyleFontFamilyList
 &
 aFontFamilyList
 const
@@ -9272,7 +9272,7 @@ language
 mozilla
 :
 :
-FontFamilyList
+StyleFontFamilyList
 mFamilyList
 ;
 /

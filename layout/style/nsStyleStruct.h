@@ -668,12 +668,6 @@ mozilla
 StyleFontSizeKeyword
 mFontSizeKeyword
 ;
-mozilla
-:
-:
-StyleGenericFontFamily
-mGenericID
-;
 /
 /
 math
