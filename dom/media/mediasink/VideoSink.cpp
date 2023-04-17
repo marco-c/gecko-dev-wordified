@@ -211,13 +211,14 @@ StaticPrefs_media
 .
 h
 "
-extern
+namespace
 mozilla
-:
-:
+{
+extern
 LazyLogModule
 gMediaDecoderLog
 ;
+}
 #
 undef
 FMT

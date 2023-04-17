@@ -138,6 +138,15 @@ DocAccessible
 h
 "
 #
+include
+"
+DocAccessible
+-
+inl
+.
+h
+"
+#
 ifdef
 A11Y_LOG
 #

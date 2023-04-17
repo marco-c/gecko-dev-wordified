@@ -71,6 +71,15 @@ AccGroupInfo
 h
 "
 #
+include
+"
+DocAccessible
+-
+inl
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #

@@ -359,7 +359,6 @@ JSObject
 >
 autoconfigSb
 ;
-static
 bool
 sandboxEnabled
 ;

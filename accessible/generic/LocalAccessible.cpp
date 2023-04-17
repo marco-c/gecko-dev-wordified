@@ -133,6 +133,15 @@ h
 #
 include
 "
+DocAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsAccUtils
 .
 h

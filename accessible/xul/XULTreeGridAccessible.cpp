@@ -110,6 +110,15 @@ h
 #
 include
 "
+LocalAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsAccCache
 .
 h

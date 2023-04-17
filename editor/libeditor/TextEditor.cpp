@@ -147,6 +147,17 @@ include
 "
 mozilla
 /
+dom
+/
+DocumentInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Assertions
 .
 h
