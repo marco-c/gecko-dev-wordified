@@ -4502,7 +4502,8 @@ command_context
 .
 topsrcdir
         
-return
+result
+=
 subprocess
 .
 call
@@ -4512,6 +4513,32 @@ env
 =
 test_env
 )
+        
+if
+result
+!
+=
+0
+:
+            
+print
+(
+f
+"
+jsapi
+-
+tests
+failed
+exit
+code
+{
+result
+}
+"
+)
+        
+return
+result
     
 def
 run_check_js_msg
