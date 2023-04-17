@@ -1179,7 +1179,7 @@ IsEditActionDataAvailable
 nsresult
 rv
 =
-TextEditor
+EditorBase
 :
 :
 InitEditorContentAndSelection
@@ -1197,7 +1197,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+EditorBase
 :
 :
 InitEditorContentAndSelection

@@ -927,7 +927,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+EditorBase
 :
 :
 InitEditorContentAndSelection
@@ -940,7 +940,7 @@ failed
 /
 /
 XXX
-Sholdn
+Shouldn
 '
 t
 we
