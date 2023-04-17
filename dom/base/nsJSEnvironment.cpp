@@ -9870,7 +9870,7 @@ case
 GCRunnerAction
 :
 :
-MajorGC
+WaitToMajorGC
 :
 {
 RefPtr
@@ -10086,7 +10086,7 @@ case
 GCRunnerAction
 :
 :
-MajorGCReady
+StartMajorGC
 :
 case
 GCRunnerAction
