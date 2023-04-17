@@ -197,13 +197,6 @@ PStreamFilterChild
 class
 StreamFilterChild
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-;
 class
 StreamFilter
 :
@@ -227,6 +220,9 @@ StreamFilter
 >
 Create
 (
+dom
+:
+:
 GlobalObject
 &
 global
@@ -276,6 +272,9 @@ void
 Write
 (
 const
+dom
+:
+:
 ArrayBufferOrUint8Array
 &
 aData
@@ -297,6 +296,9 @@ aError
 mError
 ;
 }
+dom
+:
+:
 StreamFilterStatus
 Status
 (
