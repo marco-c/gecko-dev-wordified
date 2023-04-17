@@ -192,7 +192,7 @@ isMarkerPseudoElement
 isNativeAnonymous
 "
 "
-isRemoteFrame
+isFrameWithChildTarget
 "
 "
 isShadowHost
@@ -4143,8 +4143,11 @@ length
 0
 |
 |
-isRemoteFrame
+isFrameWithChildTarget
 (
+this
+.
+targetActor
 rawNode
 )
 )
