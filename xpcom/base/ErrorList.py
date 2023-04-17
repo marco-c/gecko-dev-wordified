@@ -8322,18 +8322,6 @@ FAILURE
 1018
 )
     
-errors
-[
-"
-NS_ERROR_DOM_INVALID_STATE_XHR_MUST_BE_OPENED
-"
-]
-=
-FAILURE
-(
-1019
-)
-    
 #
 When
 manipulating
