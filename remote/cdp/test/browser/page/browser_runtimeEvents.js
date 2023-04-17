@@ -34,12 +34,6 @@ strict
 "
 ;
 /
-*
-global
-getCDP
-*
-/
-/
 /
 Assert
 the

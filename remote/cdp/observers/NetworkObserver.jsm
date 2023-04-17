@@ -1528,13 +1528,9 @@ TYPE_OTHER
 ;
 let
 remoteIPAddress
-=
-undefined
 ;
 let
 remotePort
-=
-undefined
 ;
 try
 {
@@ -2271,8 +2267,6 @@ stream
 .
 let
 text
-=
-undefined
 ;
 try
 {

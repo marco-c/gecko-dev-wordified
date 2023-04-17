@@ -93,7 +93,6 @@ jsm
 ;
 const
 {
-EventDispatcher
 registerEventsActor
 unregisterEventsActor
 }
