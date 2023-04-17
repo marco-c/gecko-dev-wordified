@@ -6946,7 +6946,7 @@ if
 (
 nativeOriginInformation
 .
-inputSourceId
+inputSourceSpaceInfo
 !
 =
 =
@@ -6963,6 +6963,8 @@ input_sources_
 has
 (
 nativeOriginInformation
+.
+inputSourceSpaceInfo
 .
 inputSourceId
 )
@@ -9373,7 +9375,7 @@ if
 (
 nativeOriginInformation
 .
-inputSourceId
+inputSourceSpaceInfo
 !
 =
 =
@@ -9390,6 +9392,8 @@ input_sources_
 has
 (
 nativeOriginInformation
+.
+inputSourceSpaceInfo
 .
 inputSourceId
 )
@@ -9411,6 +9415,8 @@ input_sources_
 get
 (
 nativeOriginInformation
+.
+inputSourceSpaceInfo
 .
 inputSourceId
 )
