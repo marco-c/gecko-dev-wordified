@@ -790,8 +790,9 @@ location
 void
 InsertChildNativeMenuItem
 (
-nsMenuX
-*
+const
+MenuChild
+&
 aChild
 )
 override
@@ -813,8 +814,9 @@ menu
 void
 RemoveChildNativeMenuItem
 (
-nsMenuX
-*
+const
+MenuChild
+&
 aChild
 )
 override
