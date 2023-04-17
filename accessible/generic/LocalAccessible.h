@@ -221,6 +221,9 @@ class
 ApplicationAccessible
 ;
 class
+CacheData
+;
+class
 DocAccessible
 ;
 class
@@ -5468,6 +5471,14 @@ return
 false
 ;
 }
+already_AddRefed
+<
+AccAttributes
+>
+BundleFieldsForCache
+(
+)
+;
 protected
 :
 virtual
