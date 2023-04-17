@@ -294,6 +294,10 @@ rsdparsa_capi
 ;
 extern
 crate
+shift_or_euc_c
+;
+extern
+crate
 static_prefs
 ;
 extern

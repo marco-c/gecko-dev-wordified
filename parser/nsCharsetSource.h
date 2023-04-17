@@ -81,6 +81,7 @@ enum
 {
 kCharsetUninitialized
 kCharsetFromFallback
+kCharsetFromTopLevelDomain
 kCharsetFromDocTypeDefault
 /
 /
@@ -103,6 +104,7 @@ kCharsetFromInitialAutoDetectionWouldHaveBeenUTF8
 kCharsetFromInitialAutoDetectionWouldNotHaveBeenUTF8Generic
 kCharsetFromInitialAutoDetectionWouldNotHaveBeenUTF8Content
 kCharsetFromInitialAutoDetectionWouldNotHaveBeenUTF8DependedOnTLD
+kCharsetFromFinalJapaneseAutoDetection
 /
 /
 Deliberately
@@ -189,6 +191,14 @@ upgraded
 later
 kCharsetFromInitialUserForcedAutoDetection
 kCharsetFromFinalUserForcedAutoDetection
+kCharsetFromUserForced
+/
+/
+propagates
+to
+child
+frames
+kCharsetFromUserForcedJapaneseAutoDetection
 kCharsetFromXmlDeclarationUtf16
 /
 /
