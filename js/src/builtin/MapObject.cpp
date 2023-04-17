@@ -2896,7 +2896,7 @@ methods
 ]
 =
 {
-JS_FN
+JS_INLINABLE_FN
 (
 "
 get
@@ -2904,6 +2904,7 @@ get
 get
 1
 0
+MapGet
 )
 JS_INLINABLE_FN
 (
