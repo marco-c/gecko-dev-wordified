@@ -2961,7 +2961,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 addProp
 =

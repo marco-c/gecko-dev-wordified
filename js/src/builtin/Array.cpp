@@ -4280,7 +4280,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 lengthProp
 =
@@ -5744,7 +5744,7 @@ writable
 {
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 lengthProp
 =
@@ -25764,7 +25764,7 @@ property
 .
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 ctorProp
 =
@@ -25878,7 +25878,7 @@ on
 Array
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 speciesProp
 =

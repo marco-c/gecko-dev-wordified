@@ -3892,7 +3892,7 @@ MOZ_ASSERT
 shape
 -
 >
-property
+propertyInfo
 (
 )
 .
@@ -4500,7 +4500,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -4930,7 +4930,7 @@ setNativeProperty
 shape
 -
 >
-property
+propertyInfo
 (
 )
 )

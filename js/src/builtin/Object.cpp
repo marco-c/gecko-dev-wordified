@@ -6263,7 +6263,7 @@ slot
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 toProp
 ;
@@ -11483,7 +11483,7 @@ else
 {
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =

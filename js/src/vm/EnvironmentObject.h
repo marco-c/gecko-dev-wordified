@@ -3149,7 +3149,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 *
 propOut

@@ -3268,7 +3268,7 @@ prototype
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -3359,7 +3359,7 @@ prototype
 ;
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =

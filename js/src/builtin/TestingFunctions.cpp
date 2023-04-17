@@ -29777,7 +29777,7 @@ PropertyKey
 >
 key
 ;
-ShapeProperty
+PropertyInfo
 prop
 ;
 explicit
@@ -29794,10 +29794,10 @@ shape
 )
 key
 (
-shape
+propShape
 -
 >
-propertyWithKey
+propertyInfoWithKey
 (
 )
 .
@@ -29810,7 +29810,7 @@ prop
 propShape
 -
 >
-property
+propertyInfo
 (
 )
 )
@@ -30637,7 +30637,7 @@ propSnapshot
 .
 propShape
 ;
-ShapeProperty
+PropertyInfo
 prop
 =
 propSnapshot
@@ -31135,7 +31135,7 @@ their
 slot
 mutated
 .
-ShapeProperty
+PropertyInfo
 prop
 =
 properties_

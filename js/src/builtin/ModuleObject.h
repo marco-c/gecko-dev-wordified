@@ -1088,7 +1088,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 *
 propOut
@@ -1170,7 +1170,7 @@ ModuleEnvironmentObject
 environment
 jsid
 targetName
-ShapeProperty
+PropertyInfo
 prop
 )
 ;
@@ -1192,7 +1192,7 @@ targetName
 ;
 #
 endif
-ShapeProperty
+PropertyInfo
 prop
 ;
 }

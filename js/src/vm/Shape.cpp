@@ -4496,7 +4496,7 @@ MOZ_ASSERT
 child
 -
 >
-property
+propertyInfo
 (
 )
 .
@@ -5014,13 +5014,13 @@ flags
 #
 ifdef
 DEBUG
-ShapeProperty
+PropertyInfo
 prop
 =
 shape
 -
 >
-property
+propertyInfo
 (
 )
 ;
@@ -5540,7 +5540,7 @@ if
 shape
 -
 >
-property
+propertyInfo
 (
 )
 .
@@ -7055,7 +7055,7 @@ if
 shape
 -
 >
-property
+propertyInfo
 (
 )
 .

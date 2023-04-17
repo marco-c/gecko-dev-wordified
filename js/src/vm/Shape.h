@@ -7240,8 +7240,8 @@ propid
 }
 public
 :
-ShapeProperty
-property
+PropertyInfo
+propertyInfo
 (
 )
 const
@@ -7255,7 +7255,7 @@ isEmptyShape
 )
 ;
 return
-ShapeProperty
+PropertyInfo
 (
 propFlags
 maybeSlot
@@ -7265,7 +7265,7 @@ maybeSlot
 ;
 }
 PropertyInfoWithKey
-propertyWithKey
+propertyInfoWithKey
 (
 )
 const
@@ -9939,7 +9939,7 @@ return
 cursor_
 -
 >
-propertyWithKey
+propertyInfoWithKey
 (
 )
 ;

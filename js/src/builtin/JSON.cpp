@@ -3364,7 +3364,7 @@ isNativeProperty
 &
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 .

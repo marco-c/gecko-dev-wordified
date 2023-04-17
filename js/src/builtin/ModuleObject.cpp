@@ -2804,7 +2804,7 @@ ModuleEnvironmentObject
 environment
 jsid
 targetName
-ShapeProperty
+PropertyInfo
 prop
 )
 :
@@ -3080,7 +3080,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 =
@@ -3151,7 +3151,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 *
 propOut
@@ -4084,7 +4084,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -4500,7 +4500,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;
@@ -4777,7 +4777,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 prop
 ;

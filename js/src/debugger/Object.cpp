@@ -14982,12 +14982,12 @@ isNativeProperty
 )
 )
 ;
-ShapeProperty
-shapeProp
+PropertyInfo
+propInfo
 =
 prop
 .
-shapeProperty
+propertyInfo
 (
 )
 ;
@@ -15006,7 +15006,7 @@ NativeObject
 .
 getSlot
 (
-shapeProp
+propInfo
 .
 slot
 (
@@ -15015,7 +15015,7 @@ slot
 ;
 if
 (
-shapeProp
+propInfo
 .
 isDataProperty
 (
@@ -15051,7 +15051,7 @@ NativeObject
 .
 setSlot
 (
-shapeProp
+propInfo
 .
 slot
 (

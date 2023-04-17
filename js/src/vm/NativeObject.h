@@ -4186,7 +4186,7 @@ shape
 )
 -
 >
-propertyWithKey
+propertyInfoWithKey
 (
 )
 ;
@@ -6355,7 +6355,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 lookup
 (
@@ -6371,7 +6371,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 lookup
 (
@@ -6447,7 +6447,7 @@ JSContext
 cx
 jsid
 id
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -6456,7 +6456,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 found
 =
@@ -6500,7 +6500,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 lookupPure
 (
@@ -6513,7 +6513,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 lookupPure
 (
@@ -6573,7 +6573,7 @@ containsPure
 (
 jsid
 id
-ShapeProperty
+PropertyInfo
 prop
 )
 {
@@ -6582,7 +6582,7 @@ mozilla
 :
 Maybe
 <
-ShapeProperty
+PropertyInfo
 >
 found
 =
@@ -7624,7 +7624,7 @@ GetterSetter
 *
 getGetterSetter
 (
-ShapeProperty
+PropertyInfo
 prop
 )
 const
@@ -7705,7 +7705,7 @@ JSObject
 *
 getGetter
 (
-ShapeProperty
+PropertyInfo
 prop
 )
 const
@@ -7726,7 +7726,7 @@ JSObject
 *
 getSetter
 (
-ShapeProperty
+PropertyInfo
 prop
 )
 const
@@ -7773,7 +7773,7 @@ property
 bool
 hasGetter
 (
-ShapeProperty
+PropertyInfo
 prop
 )
 const
@@ -7795,7 +7795,7 @@ prop
 bool
 hasSetter
 (
-ShapeProperty
+PropertyInfo
 prop
 )
 const
@@ -7852,7 +7852,7 @@ property
 Value
 getGetterValue
 (
-ShapeProperty
+PropertyInfo
 prop
 )
 const
@@ -7895,7 +7895,7 @@ UndefinedValue
 Value
 getSetterValue
 (
-ShapeProperty
+PropertyInfo
 prop
 )
 const
@@ -11707,7 +11707,7 @@ HandleNativeObject
 obj
 HandleId
 id
-ShapeProperty
+PropertyInfo
 prop
 MutableHandleValue
 vp
