@@ -1587,6 +1587,30 @@ o
             
 continue
         
+#
+Ignore
+allocations
+from
+the
+m
+-
+c
+intl
+/
+components
+implementations
+.
+        
+if
+"
+intl_components
+"
+in
+filename
+:
+            
+continue
+        
 fn
 =
 m
