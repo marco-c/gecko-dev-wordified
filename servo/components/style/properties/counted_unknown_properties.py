@@ -579,10 +579,6 @@ emphasis
 "
     
 "
-d
-"
-    
-"
 -
 webkit
 -

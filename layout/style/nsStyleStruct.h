@@ -12677,6 +12677,12 @@ mozilla
 StyleMaskType
 mMaskType
 ;
+mozilla
+:
+:
+StyleDProperty
+mD
+;
 }
 ;
 struct

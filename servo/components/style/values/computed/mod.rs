@@ -910,7 +910,10 @@ self
 svg
 :
 :
+{
+DProperty
 MozContextProperties
+}
 ;
 pub
 use
