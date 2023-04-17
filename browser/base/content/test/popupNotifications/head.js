@@ -1206,9 +1206,6 @@ return
 }
 /
 /
-With
-Proton
-enabled
 PopupNotifications
 are
 not
@@ -1231,10 +1228,6 @@ object
 .
 if
 (
-!
-gProtonDoorhangers
-|
-|
 notifyObj
 .
 options

@@ -784,9 +784,7 @@ bookmarks
 ;
 /
 /
-In
-Proton
-the
+The
 page
 actions
 button
@@ -802,11 +800,6 @@ must
 unhide
 it
 .
-if
-(
-gProton
-)
-{
 BrowserPageActions
 .
 mainButtonNode
@@ -842,7 +835,6 @@ visibility
 }
 )
 ;
-}
 }
 )
 ;

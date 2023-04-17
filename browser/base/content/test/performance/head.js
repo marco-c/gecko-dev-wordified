@@ -5174,11 +5174,7 @@ getBoundingClientRect
 const
 SHADOW_SIZE
 =
-gProton
-?
 14
-:
-4
 ;
 let
 expectedRects

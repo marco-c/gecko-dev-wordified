@@ -1839,11 +1839,6 @@ true
 }
 )
 ;
-if
-(
-gProton
-)
-{
 /
 /
 Make
@@ -1916,5 +1911,4 @@ visibility
 }
 )
 ;
-}
 }

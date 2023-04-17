@@ -628,9 +628,6 @@ textContent
 notificationMessage
 +
 (
-gProton
-&
-&
 isLink
 &
 &
