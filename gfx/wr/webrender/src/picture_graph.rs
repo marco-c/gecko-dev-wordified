@@ -410,6 +410,14 @@ self
 .
 update_passes
 .
+clear
+(
+)
+;
+self
+.
+update_passes
+.
 resize_with
 (
 pass_count
