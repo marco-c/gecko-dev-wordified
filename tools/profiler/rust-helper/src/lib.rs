@@ -58,7 +58,7 @@ MPL
 /
 extern
 crate
-memmap
+memmap2
 ;
 extern
 crate
@@ -131,7 +131,7 @@ parse_elf
 )
 ]
 use
-memmap
+memmap2
 :
 :
 MmapOptions
