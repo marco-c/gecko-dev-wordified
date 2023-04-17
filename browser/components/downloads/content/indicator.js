@@ -2827,7 +2827,7 @@ Math
 .
 max
 (
-5
+10
 this
 .
 _percentComplete
