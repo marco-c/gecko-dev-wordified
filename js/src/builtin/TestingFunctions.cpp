@@ -29762,7 +29762,7 @@ Value
 slots_
 ;
 struct
-PropertyInfo
+PropertySnapshot
 {
 HeapPtr
 <
@@ -29781,7 +29781,7 @@ ShapeProperty
 prop
 ;
 explicit
-PropertyInfo
+PropertySnapshot
 (
 Shape
 *
@@ -29851,7 +29851,7 @@ operator
 =
 (
 const
-PropertyInfo
+PropertySnapshot
 &
 other
 )
@@ -29888,7 +29888,7 @@ operator
 =
 (
 const
-PropertyInfo
+PropertySnapshot
 &
 other
 )
@@ -29908,7 +29908,7 @@ other
 ;
 GCVector
 <
-PropertyInfo
+PropertySnapshot
 8
 >
 properties_
@@ -30467,7 +30467,7 @@ properties_
 .
 append
 (
-PropertyInfo
+PropertySnapshot
 (
 propShape
 )
@@ -30622,9 +30622,9 @@ objectFlags_
 for
 (
 const
-PropertyInfo
+PropertySnapshot
 &
-propInfo
+propSnapshot
 :
 properties_
 )
@@ -30633,14 +30633,14 @@ Shape
 *
 propShape
 =
-propInfo
+propSnapshot
 .
 propShape
 ;
 ShapeProperty
 prop
 =
-propInfo
+propSnapshot
 .
 prop
 ;
@@ -30672,13 +30672,13 @@ properties
 .
 if
 (
-PropertyInfo
+PropertySnapshot
 (
 propShape
 )
 !
 =
-propInfo
+propSnapshot
 )
 {
 MOZ_RELEASE_ASSERT
@@ -30722,7 +30722,7 @@ expectedFlags
 GetObjectFlagsForNewProperty
 (
 shape_
-propInfo
+propSnapshot
 .
 key
 prop
