@@ -7941,6 +7941,12 @@ tag_type
 =
 =
 TAG_TREE_TYPE_STRUCTURE
+|
+|
+tag_type
+=
+=
+TAG_TREE_TYPE_LINK_ONLY
 )
 {
 status
