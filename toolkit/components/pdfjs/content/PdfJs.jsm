@@ -1296,7 +1296,7 @@ Services
 .
 prefs
 .
-clearIntPref
+clearUserPref
 (
 PREF_MIGRATION_VERSION
 )
