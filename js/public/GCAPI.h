@@ -6793,7 +6793,7 @@ JSContext
 *
 cx
 uint32_t
-availMem
+availMemMB
 )
 ;
 /
