@@ -2757,7 +2757,7 @@ override
 *
 *
 *
-ComputeValueFromTextNodeAndPaddingBRElement
+ComputeValueFromTextNodeAndBRElement
 (
 )
 tries
@@ -2774,13 +2774,12 @@ content
 only
 with
 text
-node
+nodes
 and
-padding
 <
 br
 >
-element
+elements
 .
 *
 If
@@ -2822,7 +2821,7 @@ way
 *
 /
 EditActionResult
-ComputeValueFromTextNodeAndPaddingBRElement
+ComputeValueFromTextNodeAndBRElement
 (
 nsAString
 &
