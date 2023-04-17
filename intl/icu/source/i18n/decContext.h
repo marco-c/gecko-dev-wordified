@@ -857,6 +857,9 @@ etc
 *
 /
 #
+ifndef
+__wasi__
+#
 include
 <
 signal
@@ -869,6 +872,8 @@ for
 traps
 *
 /
+#
+endif
 /
 *
 Extended

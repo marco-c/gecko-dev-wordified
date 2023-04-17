@@ -41836,6 +41836,9 @@ return
 false
 ;
 }
+#
+ifndef
+__wasi__
 auto
 getTimeZone
 =
@@ -42053,6 +42056,13 @@ tz
 ;
 }
 }
+#
+endif
+/
+*
+__wasi__
+*
+/
 args
 .
 rval
@@ -42174,6 +42184,9 @@ return
 false
 ;
 }
+#
+ifndef
+__wasi__
 auto
 setTimeZone
 =
@@ -42475,6 +42488,13 @@ ResetTimeZone
 (
 )
 ;
+#
+endif
+/
+*
+__wasi__
+*
+/
 args
 .
 rval
