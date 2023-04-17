@@ -10888,7 +10888,7 @@ AncestorTransformContainsPerspective
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 false
 "
