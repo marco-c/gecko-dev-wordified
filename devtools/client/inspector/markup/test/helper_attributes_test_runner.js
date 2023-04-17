@@ -261,17 +261,6 @@ currently
 *
 opened
 *
-param
-{
-TestActorFront
-}
-testActor
-The
-current
-TestActorFront
-instance
-.
-*
 return
 a
 promise
@@ -290,7 +279,6 @@ runAddAttributesTests
 tests
 nodeOrSelector
 inspector
-testActor
 )
 {
 info
@@ -353,7 +341,6 @@ test
 div
 "
 inspector
-testActor
 )
 ;
 }
@@ -565,17 +552,6 @@ of
 InspectorPanel
 currently
 *
-param
-{
-TestActorFront
-}
-testActor
-The
-current
-TestActorFront
-instance
-.
-*
 opened
 *
 /
@@ -586,7 +562,6 @@ runAddAttributesTest
 test
 selector
 inspector
-testActor
 )
 {
 if
@@ -656,7 +631,6 @@ selector
 test
 .
 expectedAttributes
-testActor
 )
 ;
 if
@@ -725,7 +699,6 @@ assertAttributes
 selector
 {
 }
-testActor
 )
 ;
 if
@@ -879,17 +852,6 @@ currently
 *
 opened
 *
-param
-{
-TestActorFront
-}
-testActor
-The
-current
-TestActorFront
-instance
-.
-*
 return
 a
 promise
@@ -907,7 +869,6 @@ runEditAttributesTests
 (
 tests
 inspector
-testActor
 )
 {
 info
@@ -971,7 +932,6 @@ runEditAttributesTest
 (
 test
 inspector
-testActor
 )
 ;
 }
@@ -1155,17 +1115,6 @@ of
 InspectorPanel
 currently
 *
-param
-{
-TestActorFront
-}
-testActor
-The
-current
-TestActorFront
-instance
-.
-*
 opened
 *
 /
@@ -1175,7 +1124,6 @@ runEditAttributesTest
 (
 test
 inspector
-testActor
 )
 {
 info
@@ -1243,7 +1191,6 @@ node
 test
 .
 originalAttributes
-testActor
 )
 ;
 info
@@ -1385,7 +1332,6 @@ node
 test
 .
 expectedAttributes
-testActor
 )
 ;
 info
@@ -1421,7 +1367,6 @@ node
 test
 .
 originalAttributes
-testActor
 )
 ;
 info
@@ -1460,7 +1405,6 @@ node
 test
 .
 expectedAttributes
-testActor
 )
 ;
 }

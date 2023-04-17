@@ -338,7 +338,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -352,7 +351,6 @@ runEditAttributesTests
 (
 TEST_DATA
 inspector
-testActor
 )
 ;
 }

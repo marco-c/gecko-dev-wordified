@@ -66,7 +66,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -97,14 +96,12 @@ await
 testWellformedMixedCase
 (
 inspector
-testActor
 )
 ;
 await
 testMalformedMixedCase
 (
 inspector
-testActor
 )
 ;
 }
@@ -115,7 +112,6 @@ function
 testWellformedMixedCase
 (
 inspector
-testActor
 )
 {
 info
@@ -311,7 +307,6 @@ height
 200
 "
 }
-testActor
 )
 ;
 }
@@ -320,7 +315,6 @@ function
 testMalformedMixedCase
 (
 inspector
-testActor
 )
 {
 info
@@ -513,7 +507,6 @@ height
 200
 "
 }
-testActor
 )
 ;
 }

@@ -1096,7 +1096,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -1113,7 +1112,6 @@ TEST_DATA
 div
 "
 inspector
-testActor
 )
 ;
 }
