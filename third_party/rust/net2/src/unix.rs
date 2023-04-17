@@ -87,7 +87,7 @@ socket
 This
 indicates
 that
-futher
+further
 calls
 to
 bind
@@ -321,7 +321,7 @@ socket
 This
 indicates
 that
-futher
+further
 calls
 to
 bind
