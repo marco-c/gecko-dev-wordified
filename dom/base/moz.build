@@ -596,6 +596,11 @@ nsTextFragment
 h
 "
 "
+nsTextNode
+.
+h
+"
+"
 nsTraversal
 .
 h

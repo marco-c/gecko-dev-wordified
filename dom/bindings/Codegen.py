@@ -9157,6 +9157,22 @@ UnionConversions
 h
 "
 )
+                
+for
+t
+in
+unrolled
+.
+flatMemberTypes
+:
+                    
+addHeadersForType
+(
+(
+t
+None
+)
+)
             
 elif
 unrolled
