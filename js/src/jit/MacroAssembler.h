@@ -13486,7 +13486,7 @@ loadFunctionLength
 Register
 func
 Register
-funFlags
+funFlagsAndArgCount
 Register
 output
 Label
