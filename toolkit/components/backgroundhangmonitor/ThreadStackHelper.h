@@ -135,13 +135,6 @@ h
 #
 include
 "
-GeckoProfiler
-.
-h
-"
-#
-include
-"
 HangDetails
 .
 h

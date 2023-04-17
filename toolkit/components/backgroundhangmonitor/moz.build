@@ -304,11 +304,6 @@ HangDetails
 .
 h
 "
-"
-ThreadStackHelper
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +

@@ -579,14 +579,6 @@ mPermahangFile
 ;
 }
 ;
-void
-ReadModuleInformation
-(
-HangStack
-&
-stack
-)
-;
 }
 /
 /
