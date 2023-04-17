@@ -16216,8 +16216,14 @@ aDocument
 newInnerWindow
 -
 >
-IsSharedMemoryAllowed
+IsSharedMemoryAllowedInternal
 (
+aDocument
+-
+>
+NodePrincipal
+(
+)
 )
 )
 ;
