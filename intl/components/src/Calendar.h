@@ -367,7 +367,9 @@ gregory
 chinese
 "
 "
-islamicc
+islamic
+-
+civil
 "
 etc
 .
