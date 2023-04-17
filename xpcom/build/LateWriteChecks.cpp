@@ -939,7 +939,12 @@ rawStack
 MozStackWalk
 (
 RecordStackWalker
-nullptr
+/
+*
+skipFrames
+*
+/
+0
 /
 *
 maxFrames
