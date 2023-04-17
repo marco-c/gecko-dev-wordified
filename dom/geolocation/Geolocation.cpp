@@ -4261,7 +4261,7 @@ OTHER
 )
 mLastWatchId
 (
-0
+1
 )
 {
 }
@@ -5898,8 +5898,7 @@ On
 errors
 we
 return
--
-1
+0
 because
 that
 '
@@ -5961,8 +5960,7 @@ NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
--
-1
+0
 ;
 }
 /
@@ -6090,8 +6088,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
--
-1
+0
 ;
 }
 if
@@ -6116,8 +6113,7 @@ NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
--
-1
+0
 ;
 }
 return
@@ -6143,8 +6139,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
--
-1
+0
 ;
 }
 request
@@ -6176,7 +6171,7 @@ if
 (
 aWatchId
 <
-0
+1
 )
 {
 return

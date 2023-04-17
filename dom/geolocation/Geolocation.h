@@ -789,8 +789,7 @@ C
 use
 .
 Returns
--
-1
+0
 if
 we
 failed
