@@ -85,10 +85,6 @@ Origin
 Embedder
 -
 Policy
-cors
--
-or
--
 credentialless
 )
 '
@@ -138,10 +134,6 @@ Policy
 Report
 -
 Only
-cors
--
-or
--
 credentialless
 )
 '
