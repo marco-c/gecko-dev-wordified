@@ -1187,7 +1187,7 @@ using
 /
 /
 the
-TargetList
+TargetCommand
 to
 retrieve
 the

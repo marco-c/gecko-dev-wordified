@@ -1966,7 +1966,7 @@ which
 are
 defined
 by
-TargetList
+TargetCommand
 .
 startListening
 .
@@ -2064,7 +2064,7 @@ Method
 called
 by
 the
-TargetList
+TargetCommand
 for
 each
 already
@@ -2532,7 +2532,7 @@ resourceType
 Compared
 to
 the
-TargetList
+TargetCommand
 and
 Watcher
 .
@@ -2766,7 +2766,7 @@ Method
 called
 by
 the
-TargetList
+TargetCommand
 when
 a
 target

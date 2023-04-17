@@ -910,7 +910,7 @@ initialized
 as
 /
 /
-TargetList
+TargetCommand
 .
 startListening
 will
@@ -1814,7 +1814,7 @@ Bug
 :
 /
 /
-TargetList
+TargetCommand
 .
 startListening
 will
@@ -1862,7 +1862,7 @@ Bug
 :
 /
 /
-TargetList
+TargetCommand
 .
 startListening
 ought
@@ -1879,7 +1879,7 @@ in
 order
 to
 set
-TargetList
+TargetCommand
 .
 watcherFront
 which

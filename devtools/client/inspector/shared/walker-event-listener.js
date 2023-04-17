@@ -83,7 +83,7 @@ reflecting
 the
 updating
 of
-TargetList
+TargetCommand
 .
 *
 /

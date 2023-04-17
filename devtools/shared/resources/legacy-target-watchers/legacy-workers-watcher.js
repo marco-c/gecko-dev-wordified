@@ -1357,7 +1357,7 @@ via
 /
 /
 the
-TargetList
+TargetCommand
 API
 otherwise
 (

@@ -947,7 +947,7 @@ has
 been
 processed
 by
-TargetList
+TargetCommand
 "
 )
 ;
@@ -990,7 +990,7 @@ provided
 commands
 '
 s
-TargetList
+TargetCommand
 has
 fully
 *
