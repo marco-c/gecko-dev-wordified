@@ -18407,6 +18407,12 @@ StopTimer
 (
 )
 ;
+mEarlyRunners
+.
+Clear
+(
+)
+;
 if
 (
 mPresContext
