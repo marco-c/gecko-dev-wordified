@@ -16321,7 +16321,7 @@ mPuppetWidget
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -16333,7 +16333,7 @@ GetWindowRenderer
 )
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 ;
@@ -17506,7 +17506,7 @@ InitAPZState
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -17518,7 +17518,7 @@ GetWindowRenderer
 )
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 ;
@@ -19025,7 +19025,7 @@ mPuppetWidget
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -19037,7 +19037,7 @@ GetWindowRenderer
 )
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 ;
@@ -19253,7 +19253,7 @@ mPuppetWidget
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -19265,7 +19265,7 @@ GetWindowRenderer
 )
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 ;
@@ -19731,7 +19731,7 @@ InitAPZState
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -19743,7 +19743,7 @@ GetWindowRenderer
 )
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 ;
@@ -19794,7 +19794,7 @@ InvalidateLayers
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -19806,29 +19806,16 @@ GetWindowRenderer
 )
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 ;
 if
 (
 lm
-&
-&
-lm
--
->
-AsWebRenderLayerManager
-(
-)
 )
 {
 lm
--
->
-AsWebRenderLayerManager
-(
-)
 -
 >
 DoDestroy
@@ -19940,7 +19927,7 @@ mPuppetWidget
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =
@@ -19952,7 +19939,7 @@ GetWindowRenderer
 )
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 ;
