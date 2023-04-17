@@ -21771,14 +21771,13 @@ non
 syntactic
 global
 scope
-this
-acts
-like
-*
+use
 JSOp
 :
 :
 GetName
+*
+instead
 .
 *
 *

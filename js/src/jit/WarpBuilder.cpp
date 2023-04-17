@@ -12554,8 +12554,9 @@ BytecodeLocation
 loc
 )
 {
-if
+MOZ_ASSERT
 (
+!
 script_
 -
 >
@@ -12563,14 +12564,7 @@ hasNonSyntacticScope
 (
 )
 )
-{
-return
-build_GetName
-(
-loc
-)
 ;
-}
 /
 /
 Try
