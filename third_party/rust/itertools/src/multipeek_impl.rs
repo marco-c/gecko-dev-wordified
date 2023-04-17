@@ -37,16 +37,6 @@ multipeek
 (
 )
 ]
-(
-.
-.
-/
-fn
-.
-multipeek
-.
-html
-)
 for
 more
 information

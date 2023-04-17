@@ -37,16 +37,6 @@ peek_nth
 (
 )
 ]
-(
-.
-.
-/
-fn
-.
-peek_nth
-.
-html
-)
 for
 more
 information
@@ -95,6 +85,7 @@ drop
 in
 replacement
 for
+[
 std
 :
 :
@@ -102,6 +93,7 @@ iter
 :
 :
 Peekable
+]
 which
 adds
 a

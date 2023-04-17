@@ -93,10 +93,13 @@ _
 (
 )
 ;
-for
-i
-in
 iter
+.
+for_each
+(
+|
+i
+|
 {
 debug_assert_eq
 !
@@ -195,5 +198,7 @@ i
 ;
 }
 }
+)
+;
 heap
 }
