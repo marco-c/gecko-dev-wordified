@@ -634,6 +634,16 @@ mMozColHeaderHoverText
 kBlack
 ;
 nscolor
+mTitlebarText
+=
+kBlack
+;
+nscolor
+mTitlebarInactiveText
+=
+kBlack
+;
+nscolor
 mThemedScrollbar
 =
 kWhite
