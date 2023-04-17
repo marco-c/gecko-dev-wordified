@@ -2835,6 +2835,15 @@ nsACString
 version
 )
 ;
+static
+bool
+IsHttp3SupportedByServer
+(
+nsHttpResponseHead
+*
+aResponseHead
+)
+;
 bool
 IsHttp3Enabled
 (
