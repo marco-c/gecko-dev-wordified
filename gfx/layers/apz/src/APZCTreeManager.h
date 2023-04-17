@@ -5892,13 +5892,6 @@ aMetrics
 LayersId
 aLayersId
 const
-Maybe
-<
-ZoomConstraints
->
-&
-aZoomConstraints
-const
 AncestorTransform
 &
 aAncestorTransform

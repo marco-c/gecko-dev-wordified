@@ -2251,14 +2251,8 @@ return
 false
 ;
 }
-Maybe
-<
-ScrollableLayerGuid
-:
-:
-ViewID
->
-GetAsyncZoomContainerId
+bool
+IsAsyncZoomContainer
 (
 )
 const
@@ -2274,7 +2268,7 @@ return
 mLayer
 -
 >
-GetAsyncZoomContainerId
+IsAsyncZoomContainer
 (
 )
 ;

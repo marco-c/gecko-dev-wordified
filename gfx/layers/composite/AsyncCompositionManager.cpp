@@ -5406,7 +5406,7 @@ zoomedScrollId
 layer
 -
 >
-GetAsyncZoomContainerId
+IsAsyncZoomContainer
 (
 )
 )
@@ -7496,7 +7496,7 @@ zoomedScrollId
 layer
 -
 >
-GetAsyncZoomContainerId
+IsAsyncZoomContainer
 (
 )
 )
