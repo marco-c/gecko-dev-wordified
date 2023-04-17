@@ -637,6 +637,17 @@ nsImportModule
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+PBackgroundSessionStorageCache
+.
+h
+"
 using
 namespace
 mozilla
@@ -7827,7 +7838,7 @@ nsresult
 WindowGlobalParent
 :
 :
-UpdateSessionStore
+WriteFormDataAndScrollToSessionStore
 (
 const
 Maybe
@@ -8390,7 +8401,7 @@ if
 (
 NS_FAILED
 (
-UpdateSessionStore
+WriteFormDataAndScrollToSessionStore
 (
 aFormData
 aScrollPosition
