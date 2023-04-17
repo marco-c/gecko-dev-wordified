@@ -557,6 +557,15 @@ include
 "
 js
 /
+StreamConsumer
+.
+h
+"
+#
+include
+"
+js
+/
 String
 .
 h

@@ -255,6 +255,15 @@ JS_DefinePropertyById
 #
 include
 "
+js
+/
+StreamConsumer
+.
+h
+"
+#
+include
+"
 threading
 /
 LockGuard

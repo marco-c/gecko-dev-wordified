@@ -359,6 +359,15 @@ _END
 #
 include
 "
+js
+/
+StreamConsumer
+.
+h
+"
+#
+include
+"
 util
 /
 StringBuffer
