@@ -260,3 +260,6 @@ xz
 embedded
 '
 )
+REQUIRES_UNIFIED_BUILD
+=
+True

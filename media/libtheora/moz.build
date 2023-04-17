@@ -849,3 +849,6 @@ integrated
 as
 '
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

@@ -386,3 +386,6 @@ Launcher
 Process
 "
 )
+REQUIRES_UNIFIED_BUILD
+=
+True

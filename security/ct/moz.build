@@ -364,3 +364,6 @@ workaround
 for
 bug
 1090497
+REQUIRES_UNIFIED_BUILD
+=
+True

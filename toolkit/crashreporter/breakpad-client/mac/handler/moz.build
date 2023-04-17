@@ -158,3 +158,6 @@ MOZ_PHC
 ]
 =
 True
+REQUIRES_UNIFIED_BUILD
+=
+True

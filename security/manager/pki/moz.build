@@ -219,3 +219,6 @@ unused
 parameter
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

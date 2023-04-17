@@ -775,3 +775,6 @@ python
 ini
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

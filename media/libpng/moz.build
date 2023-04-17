@@ -467,3 +467,6 @@ std
 gnu89
 '
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

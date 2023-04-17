@@ -170,3 +170,6 @@ cairo
 src
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

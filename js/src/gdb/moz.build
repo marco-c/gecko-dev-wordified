@@ -544,3 +544,6 @@ gdb
 py
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

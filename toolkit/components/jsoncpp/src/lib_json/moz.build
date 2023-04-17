@@ -322,3 +322,6 @@ implicit
 fallthrough
 '
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

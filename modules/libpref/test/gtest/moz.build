@@ -234,3 +234,6 @@ xul
 -
 gtest
 "
+REQUIRES_UNIFIED_BUILD
+=
+True

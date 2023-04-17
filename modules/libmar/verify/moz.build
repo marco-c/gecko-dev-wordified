@@ -316,3 +316,6 @@ CFLAGS
 +
 =
 c11_flags
+REQUIRES_UNIFIED_BUILD
+=
+True
