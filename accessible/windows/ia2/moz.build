@@ -145,6 +145,11 @@ ia2AccessibleAction
 cpp
 "
 "
+ia2AccessibleApplication
+.
+cpp
+"
+"
 ia2AccessibleComponent
 .
 cpp
