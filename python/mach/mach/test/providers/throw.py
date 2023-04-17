@@ -70,6 +70,8 @@ import
     
 CommandArgument
     
+CommandProvider
+    
 Command
 )
 from
@@ -80,6 +82,20 @@ test
 providers
 import
 throw2
+from
+mozbuild
+.
+base
+import
+MachCommandBase
+CommandProvider
+class
+TestCommandProvider
+(
+MachCommandBase
+)
+:
+    
 Command
 (
 "
@@ -91,6 +107,7 @@ category
 testing
 "
 )
+    
 CommandArgument
 (
 "
@@ -109,19 +126,22 @@ General
 Error
 "
 )
+    
 def
 throw
 (
+self
 command_context
 message
 )
 :
-    
+        
 raise
 Exception
 (
 message
 )
+    
 Command
 (
 "
@@ -133,6 +153,7 @@ category
 testing
 "
 )
+    
 CommandArgument
 (
 "
@@ -151,14 +172,16 @@ General
 Error
 "
 )
+    
 def
 throw_deep
 (
+self
 command_context
 message
 )
 :
-    
+        
 throw2
 .
 throw_deep
