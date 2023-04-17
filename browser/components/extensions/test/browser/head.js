@@ -465,9 +465,11 @@ AppConstants
 ASAN
 )
 {
+SimpleTest
+.
 requestLongerTimeout
 (
-5
+10
 )
 ;
 }
