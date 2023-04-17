@@ -3256,6 +3256,11 @@ const
 WinPointerInfo
 &
 aPointerInfo
+mozilla
+:
+:
+MouseButton
+aButton
 )
 ;
 protected
