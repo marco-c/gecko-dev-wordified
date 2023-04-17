@@ -16641,11 +16641,11 @@ listed
 here
 .
 const
-HelperThread
+GlobalHelperThreadState
 :
 :
 Selector
-HelperThread
+GlobalHelperThreadState
 :
 :
 selectors
@@ -16993,6 +16993,10 @@ HelperThreadTask
 *
 task
 =
+HelperThreadState
+(
+)
+.
 findHighestPriorityTask
 (
 lock
@@ -17048,7 +17052,7 @@ lock
 }
 HelperThreadTask
 *
-HelperThread
+GlobalHelperThreadState
 :
 :
 findHighestPriorityTask
