@@ -2150,7 +2150,7 @@ high
 =
 len
 (
-APPLICATIONS
+applications
 )
             
 )
@@ -2160,7 +2160,7 @@ application
 =
 list
 (
-APPLICATIONS
+applications
 .
 items
 (
