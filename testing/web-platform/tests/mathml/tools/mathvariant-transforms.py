@@ -5,11 +5,8 @@ usr
 /
 bin
 /
-python
-from
-__future__
-import
-print_function
+env
+python3
 from
 lxml
 import
