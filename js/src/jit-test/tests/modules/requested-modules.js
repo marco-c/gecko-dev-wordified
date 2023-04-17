@@ -60,7 +60,9 @@ actual
 i
 ]
 .
-moduleSpecifier
+moduleRequest
+.
+specifier
 expected
 [
 i
