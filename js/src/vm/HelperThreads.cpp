@@ -17244,10 +17244,9 @@ auto
 task
 =
 (
-HelperThreadState
-(
-)
-.
+this
+-
+>
 *
 (
 selector
