@@ -3086,7 +3086,7 @@ global
 (
 )
 .
-maybeArrayShape
+maybeArrayShapeWithDefaultProto
 (
 )
 )
