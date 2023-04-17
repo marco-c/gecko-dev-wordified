@@ -58598,6 +58598,11 @@ if
 rootPC
 )
 {
+aMouseEvent
+-
+>
+mWidget
+=
 rootPC
 -
 >
@@ -58613,13 +58618,6 @@ GetViewManager
 >
 GetRootWidget
 (
-getter_AddRefs
-(
-aMouseEvent
--
->
-mWidget
-)
 )
 ;
 if
