@@ -900,17 +900,6 @@ l10nKey
 "
 extensionsForDevelopersCmd
 "
-appMenuL10nId
-:
-"
-appmenu
--
-developer
--
-tools
--
-extensions
-"
 oncommand
 (
 event
