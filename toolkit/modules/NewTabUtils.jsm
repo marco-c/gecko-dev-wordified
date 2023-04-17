@@ -7778,13 +7778,13 @@ strftime
 (
 '
 %
-d
+Y
 -
 %
 m
 -
 %
-Y
+d
 '
 visit_date
 /
@@ -7793,6 +7793,9 @@ visit_date
 0
 '
 unixepoch
+'
+'
+localtime
 '
 )
 as
@@ -7825,7 +7828,7 @@ day
 '
 '
 -
-30
+27
 days
 '
 '
@@ -7837,6 +7840,10 @@ utc
 GROUP
 BY
 date_format
+ORDER
+BY
+date_format
+ASC
 ;
 return
 this
