@@ -530,12 +530,6 @@ uint32_t
 aInputCount
 )
 ;
-TimeDuration
-GetMaxInputHandlingDuration
-(
-)
-const
-;
 void
 SetEnable
 (

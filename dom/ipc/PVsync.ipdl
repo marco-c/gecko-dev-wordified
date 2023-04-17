@@ -224,7 +224,7 @@ process
 Compress
 Priority
 =
-vsync
+high
 ]
 async
 Notify

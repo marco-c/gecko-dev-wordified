@@ -13527,13 +13527,13 @@ ipdl
 .
 ast
 .
-VSYNC_PRIORITY
+HIGH_PRIORITY
 :
         
 prioEnum
 =
 "
-VSYNC_PRIORITY
+HIGH_PRIORITY
 "
     
 else

@@ -170,8 +170,7 @@ InputLow
 Normal
 MediumHigh
 InputHigh
-Vsync
-InputHighest
+High
 Count
 }
 ;

@@ -522,7 +522,7 @@ normalRan
 nsIRunnablePriority
 :
 :
-PRIORITY_VSYNC
+PRIORITY_HIGH
 )
 ;
 NS_DispatchToMainThread
