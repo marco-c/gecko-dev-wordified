@@ -3889,6 +3889,11 @@ GetPopupTypeName
 (
 )
 ;
+bool
+IsPopupDirectionRTL
+(
+)
+;
 #
 ifdef
 MOZ_LOGGING
