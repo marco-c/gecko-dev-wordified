@@ -606,15 +606,6 @@ whyMagic
 )
 {
 case
-JS_OPTIMIZED_ARGUMENTS
-:
-return
-MIRType
-:
-:
-MagicOptimizedArguments
-;
-case
 JS_OPTIMIZED_OUT
 :
 return
