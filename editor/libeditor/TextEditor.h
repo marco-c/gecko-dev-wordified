@@ -505,12 +505,6 @@ aCount
 )
 override
 ;
-NS_IMETHOD
-Copy
-(
-)
-override
-;
 /
 *
 *
