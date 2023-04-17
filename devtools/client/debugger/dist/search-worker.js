@@ -2664,7 +2664,7 @@ results
 =
 >
 {
-self
+globalThis
 .
 postMessage
 (
