@@ -6079,6 +6079,7 @@ await
 performanceFrontConnection
 ;
 }
+await
 this
 .
 initHarAutomation
@@ -24953,6 +24954,7 @@ null
 /
 HAR
 Automation
+async
 initHarAutomation
 (
 )
@@ -24991,6 +24993,7 @@ HarAutomation
 (
 )
 ;
+await
 this
 .
 harAutomation
