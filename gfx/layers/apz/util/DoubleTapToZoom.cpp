@@ -1361,7 +1361,7 @@ element
 element
 -
 >
-GetParentElement
+GetFlattenedTreeParentElement
 (
 )
 ;
