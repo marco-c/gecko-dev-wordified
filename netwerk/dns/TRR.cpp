@@ -227,13 +227,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsStringStream
 .
 h
@@ -249,13 +242,6 @@ h
 include
 "
 nsURLHelper
-.
-h
-"
-#
-include
-"
-ODoH
 .
 h
 "

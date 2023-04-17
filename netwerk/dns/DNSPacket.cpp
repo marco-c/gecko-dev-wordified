@@ -120,13 +120,6 @@ DNSLogging
 .
 h
 "
-#
-include
-"
-nsIInputStream
-.
-h
-"
 namespace
 mozilla
 {
