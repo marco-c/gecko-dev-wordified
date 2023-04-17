@@ -947,11 +947,6 @@ DnsAndConnectSocket
 dnsAndSock
 )
 ;
-bool
-ShouldRetryDNS
-(
-)
-;
 nsresult
 OnLookupComplete
 (
