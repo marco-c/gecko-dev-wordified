@@ -13315,7 +13315,7 @@ IsSelectionCached
 StaticPrefs
 :
 :
-dom_select_events_textcontrols_selectionchange_enabled
+dom_select_events_textcontrols_enabled
 (
 )
 )
@@ -13330,7 +13330,7 @@ eSelectionChange
 CanBubble
 :
 :
-eYes
+eNo
 )
 ;
 asyncDispatcher
