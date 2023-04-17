@@ -316,16 +316,8 @@ logs
 function
 HarAutomation
 (
-toolbox
 )
 {
-this
-.
-initialize
-(
-toolbox
-)
-;
 }
 HarAutomation
 .
