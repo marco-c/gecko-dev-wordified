@@ -176,13 +176,6 @@ TextDrawTarget
 .
 h
 "
-#
-include
-"
-LayerUserData
-.
-h
-"
 using
 namespace
 mozilla

@@ -218,6 +218,10 @@ nsLineBox
 )
 PRES_ARENA_OBJECT
 (
+DisplayItemData
+)
+PRES_ARENA_OBJECT
+(
 nsFrameList
 )
 PRES_ARENA_OBJECT
