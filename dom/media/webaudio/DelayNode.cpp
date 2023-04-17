@@ -1293,7 +1293,7 @@ DelayTime
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .

@@ -1564,7 +1564,7 @@ Q
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -1579,7 +1579,7 @@ Detune
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -1594,7 +1594,7 @@ Frequency
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -1609,7 +1609,7 @@ Gain
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .

@@ -1183,7 +1183,7 @@ Attack
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -1198,7 +1198,7 @@ Knee
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -1213,7 +1213,7 @@ Ratio
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -1228,7 +1228,7 @@ GetRelease
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
@@ -1243,7 +1243,7 @@ Threshold
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .

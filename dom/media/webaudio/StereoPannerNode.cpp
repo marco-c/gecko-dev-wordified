@@ -1213,7 +1213,7 @@ Pan
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .

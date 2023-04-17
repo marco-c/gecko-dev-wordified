@@ -880,7 +880,7 @@ Gain
 )
 -
 >
-SetValue
+SetInitialValue
 (
 aOptions
 .
