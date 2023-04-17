@@ -3815,17 +3815,6 @@ mSpoofedUserAgent
 nsCString
 mUserAgentOverride
 ;
-#
-ifndef
-ANDROID
-nsCString
-mExperimentUserAgent
-;
-#
-endif
-/
-/
-ANDROID
 bool
 mUserAgentIsDirty
 {
