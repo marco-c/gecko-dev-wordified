@@ -123,6 +123,9 @@ mozilla
 namespace
 net
 {
+class
+nsHttpResponseHead
+;
 bool
 IsOpaqueSafeListedMIMEType
 (
@@ -191,6 +194,14 @@ const
 nsAutoCString
 &
 aRangeStr
+)
+;
+bool
+IsFirstPartialResponse
+(
+nsHttpResponseHead
+&
+aResponseHead
 )
 ;
 }
