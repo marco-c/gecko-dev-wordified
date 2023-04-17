@@ -129,6 +129,8 @@ test
 linux
 '
 64
+-
+qr
 /
 debug
 -
@@ -217,6 +219,8 @@ test
 linux1804
 -
 64
+-
+qr
 /
 debug
 -
