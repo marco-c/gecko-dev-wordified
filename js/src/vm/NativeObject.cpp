@@ -7775,7 +7775,7 @@ Shape
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 JSContext
 *
@@ -7815,7 +7815,7 @@ name
 )
 ;
 return
-addDataProperty
+addProperty
 (
 cx
 obj
@@ -8849,7 +8849,7 @@ shape
 NativeObject
 :
 :
-putDataProperty
+putProperty
 (
 cx
 obj
@@ -9328,7 +9328,7 @@ shape
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 cx
 obj
@@ -9378,7 +9378,7 @@ shape
 NativeObject
 :
 :
-addDataProperty
+addProperty
 (
 cx
 obj
@@ -9473,7 +9473,7 @@ shape
 NativeObject
 :
 :
-putDataProperty
+putProperty
 (
 cx
 obj
