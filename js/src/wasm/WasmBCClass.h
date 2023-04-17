@@ -10028,7 +10028,7 @@ reserved
 )
 ;
 void
-pop2xI64ForMulI64
+popAndAllocateForMulI64
 (
 RegI64
 *
@@ -10041,8 +10041,11 @@ RegI32
 temp
 )
 ;
+#
+ifndef
+RABALDR_INT_DIV_I64_CALLOUT
 void
-pop2xI64ForDivI64
+popAndAllocateForDivAndRemI64
 (
 RegI64
 *
@@ -10055,6 +10058,8 @@ RegI64
 reserved
 )
 ;
+#
+endif
 RegI32
 popI32RhsForShift
 (
