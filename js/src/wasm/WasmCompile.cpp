@@ -1112,6 +1112,11 @@ if
 target
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;

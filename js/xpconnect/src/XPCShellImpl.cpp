@@ -2661,11 +2661,6 @@ exit
 0
 )
 ;
-JS_SetPendingInterrupt
-(
-cx
-)
-;
 return
 false
 ;

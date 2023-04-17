@@ -16194,13 +16194,6 @@ cx
 )
 )
 {
-cx
--
->
-clearInterrupt
-(
-)
-;
 JSAutoRealm
 ar1
 (
@@ -19355,13 +19348,6 @@ sc
 quitting
 =
 true
-;
-cx
--
->
-setInterrupting
-(
-)
 ;
 return
 false
