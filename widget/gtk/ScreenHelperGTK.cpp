@@ -1203,6 +1203,9 @@ screenList
 )
 ;
 }
+#
+ifdef
+MOZ_WAYLAND
 static
 void
 output_handle_geometry
@@ -2617,6 +2620,8 @@ monitor
 height
 ;
 }
+#
+endif
 RefPtr
 <
 nsIScreen
@@ -2698,6 +2703,9 @@ ScreenHelperGTK
 (
 )
 {
+#
+ifdef
+MOZ_WAYLAND
 if
 (
 GdkIsWaylandDisplay
@@ -2718,7 +2726,13 @@ ScreenGetterWayland
 )
 ;
 }
-else
+#
+endif
+if
+(
+!
+gScreenGetter
+)
 {
 gScreenGetter
 =
