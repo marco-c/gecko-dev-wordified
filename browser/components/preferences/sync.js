@@ -662,7 +662,8 @@ device
 .
 name
 "
-undefined
+"
+"
 )
 ;
 if
