@@ -2898,10 +2898,10 @@ discardJitCode
 JSFreeOp
 *
 fop
-ShouldDiscardBaselineCode
-discardBaselineCode
-ShouldDiscardJitScripts
-discardJitScripts
+const
+DiscardOptions
+&
+options
 )
 {
 if
@@ -2927,9 +2927,13 @@ return
 }
 if
 (
+options
+.
 discardBaselineCode
 |
 |
+options
+.
 discardJitScripts
 )
 {
@@ -3137,6 +3141,8 @@ active
 .
 if
 (
+options
+.
 discardBaselineCode
 )
 {
@@ -3270,6 +3276,8 @@ code
 .
 if
 (
+options
+.
 discardJitScripts
 )
 {
@@ -3373,6 +3381,8 @@ below
 .
 if
 (
+options
+.
 discardBaselineCode
 )
 {
@@ -3472,6 +3482,8 @@ GC
 /
 if
 (
+options
+.
 discardBaselineCode
 )
 {
