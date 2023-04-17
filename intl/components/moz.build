@@ -109,6 +109,13 @@ h
 "
 src
 /
+Currency
+.
+h
+"
+"
+src
+/
 DateTimeFormat
 .
 h
@@ -199,6 +206,13 @@ cpp
 src
 /
 Collator
+.
+cpp
+"
+"
+src
+/
+Currency
 .
 cpp
 "
