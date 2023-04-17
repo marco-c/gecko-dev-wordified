@@ -1476,10 +1476,6 @@ parser
 HandleCommandLine
 (
 utf8
-.
-get
-(
-)
 )
 ;
 if
