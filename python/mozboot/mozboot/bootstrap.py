@@ -1701,12 +1701,9 @@ state_dir
 def
 maybe_install_private_packages_or_exit
 (
-        
 self
 state_dir
 checkout_root
-application
-    
 )
 :
         
@@ -1866,36 +1863,6 @@ ensure_wasi_sysroot_packages
 (
 state_dir
 checkout_root
-)
-        
-#
-Like
-'
-ensure_browser_packages
-'
-or
-'
-ensure_mobile_android_packages
-'
-        
-getattr
-(
-self
-.
-instance
-"
-ensure_
-%
-s_packages
-"
-%
-application
-)
-(
-            
-state_dir
-checkout_root
-        
 )
     
 def
@@ -2844,11 +2811,8 @@ self
 .
 maybe_install_private_packages_or_exit
 (
-            
 state_dir
 checkout_root
-application
-        
 )
         
 self

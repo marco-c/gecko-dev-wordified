@@ -80,9 +80,7 @@ mozharness
 configuration
 such
 as
-android
--
-x86_64
+androidx86_7_0
 .
 py
 android_hw
@@ -388,6 +386,12 @@ default_actions
         
 "
 clobber
+"
+        
+"
+setup
+-
+avds
 "
         
 "
