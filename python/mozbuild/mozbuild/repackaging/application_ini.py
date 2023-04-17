@@ -144,11 +144,14 @@ found
 "
     
 return
-get_application_ini_values
+next
 (
         
+get_application_ini_values
+(
+            
 finder_or_application_directory
-        
+            
 dict
 (
 section
@@ -160,6 +163,8 @@ value
 fallback
 =
 fallback
+)
+        
 )
     
 )
