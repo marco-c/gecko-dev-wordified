@@ -4824,7 +4824,9 @@ initialWidth
 splitSidebarWidth
 minSize
 :
-10
+"
+225px
+"
 maxSize
 :
 "

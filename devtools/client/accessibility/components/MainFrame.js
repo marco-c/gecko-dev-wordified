@@ -1112,7 +1112,8 @@ SIDEBAR_WIDTH
 minSize
 :
 "
-10px
+10
+%
 "
 maxSize
 :
