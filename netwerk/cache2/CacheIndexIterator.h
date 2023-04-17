@@ -94,8 +94,8 @@ net
 class
 CacheIndex
 ;
-struct
-CacheIndexRecord
+class
+CacheIndexRecordWrapper
 ;
 class
 CacheIndexIterator
@@ -235,7 +235,7 @@ virtual
 void
 AddRecord
 (
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aRecord
 )
@@ -243,7 +243,7 @@ aRecord
 bool
 RemoveRecord
 (
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aRecord
 )
@@ -251,10 +251,10 @@ aRecord
 bool
 ReplaceRecord
 (
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aOldRecord
-CacheIndexRecord
+CacheIndexRecordWrapper
 *
 aNewRecord
 )
@@ -270,8 +270,10 @@ mIndex
 ;
 nsTArray
 <
-CacheIndexRecord
-*
+RefPtr
+<
+CacheIndexRecordWrapper
+>
 >
 mRecords
 ;
