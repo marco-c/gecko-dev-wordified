@@ -123,6 +123,13 @@ mozilla_InputTaskManager_h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 TaskController
 .
 h
