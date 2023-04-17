@@ -563,6 +563,8 @@ resolve
 (
 )
 ;
+return
+;
 }
 }
 ;
