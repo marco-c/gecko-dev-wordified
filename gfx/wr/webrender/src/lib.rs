@@ -841,9 +841,6 @@ image_source
 mod
 rectangle_occlusion
 ;
-mod
-picture_textures
-;
 /
 /
 /
