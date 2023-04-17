@@ -3227,9 +3227,6 @@ NativeLayer
 >
 mDisabledApzWarningLayer
 ;
-#
-ifdef
-USE_SKIA
 /
 *
 *
@@ -3259,8 +3256,6 @@ PaintCounter
 >
 mPaintCounter
 ;
-#
-endif
 #
 if
 defined
