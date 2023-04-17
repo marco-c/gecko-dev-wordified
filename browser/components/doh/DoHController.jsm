@@ -975,6 +975,8 @@ captive
 portal
 -
 connectivity
+-
+changed
 "
 ;
 const
