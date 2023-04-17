@@ -517,6 +517,13 @@ mOp
 /
 /
 param
+aRange
+see
+mRange
+.
+/
+/
+param
 aAnchorRange
 see
 mAnchorRange
@@ -543,6 +550,13 @@ mozInlineSpellChecker
 aSpellChecker
 Operation
 aOp
+RefPtr
+<
+nsRange
+>
+&
+&
+aRange
 RefPtr
 <
 nsRange
