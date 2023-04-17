@@ -9779,7 +9779,7 @@ nsIContent
 *
 container2
 =
-aTextNode1
+aTextNode2
 .
 GetParent
 (
