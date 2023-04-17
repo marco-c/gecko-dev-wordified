@@ -746,6 +746,9 @@ sanitize
 xhtml
 "
 {
+inBrowserWindow
+:
+true
 }
 )
 ;
