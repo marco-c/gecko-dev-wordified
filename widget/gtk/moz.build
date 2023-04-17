@@ -512,6 +512,11 @@ nsClipboardWayland
 cpp
 "
 "
+nsClipboardWaylandAsync
+.
+cpp
+"
+"
 nsWaylandDisplay
 .
 cpp
