@@ -1434,7 +1434,9 @@ compilationState
 .
 input
 .
-lazy
+lazyOuterScript
+(
+)
 )
 internalSyntaxParser_
 (
@@ -1450,12 +1452,13 @@ isInitialStencil
 )
 =
 =
-!
 compilationState
 .
 input
 .
-lazy
+isInitialStencil
+(
+)
 )
 ;
 }
