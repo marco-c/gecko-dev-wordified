@@ -2245,6 +2245,9 @@ new
 )
 debug_flags
 compositor_config
+surface_origin_is_top_left
+:
+false
 .
 .
 webrender
