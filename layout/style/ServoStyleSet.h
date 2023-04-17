@@ -757,7 +757,12 @@ SheetCloned
 StyleSheet
 &
 )
+{
+mNeedsRestyleAfterEnsureUniqueInner
+=
+true
 ;
+}
 void
 ImportRuleLoaded
 (
