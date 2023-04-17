@@ -14,8 +14,6 @@ BytesIO
 import
 json
 import
-socket
-import
 uuid
 from
 hpack
@@ -6046,9 +6044,7 @@ return
 True
         
 except
-socket
-.
-error
+OSError
 :
             
 #
@@ -6145,9 +6141,7 @@ buf
 )
             
 except
-socket
-.
-error
+OSError
 :
                 
 success

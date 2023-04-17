@@ -1500,9 +1500,7 @@ bind
 )
         
 except
-socket
-.
-error
+OSError
 :
             
 continue
@@ -1569,7 +1567,7 @@ point
     
 socket
 .
-error
+timeout
 is
 raised
 .
@@ -1624,9 +1622,7 @@ timeout
 pass
         
 except
-socket
-.
-error
+OSError
 as
 e
 :
@@ -1671,7 +1667,7 @@ sleep
 raise
 socket
 .
-error
+timeout
 (
 "
 Service

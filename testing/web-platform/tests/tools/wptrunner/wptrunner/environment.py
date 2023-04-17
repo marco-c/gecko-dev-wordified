@@ -2027,9 +2027,7 @@ port
 )
                     
 except
-socket
-.
-error
+OSError
 :
                         
 pending

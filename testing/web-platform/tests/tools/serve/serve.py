@@ -17,8 +17,6 @@ platform
 import
 signal
 import
-socket
-import
 subprocess
 import
 sys
@@ -4549,9 +4547,7 @@ kwargs
 )
         
 except
-socket
-.
-error
+OSError
 :
             
 logger
