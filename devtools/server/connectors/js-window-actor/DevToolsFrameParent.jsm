@@ -1418,6 +1418,13 @@ this
 browsingContext
 .
 currentWindowGlobal
+isNewTargetCreated
+:
+message
+.
+data
+.
+isNewTargetCreated
 }
 )
 ;
