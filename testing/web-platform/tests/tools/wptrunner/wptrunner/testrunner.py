@@ -3423,6 +3423,21 @@ group_metadata
             
 self
 .
+executor_kwargs
+[
+"
+browser_settings
+"
+]
+=
+self
+.
+browser
+.
+browser_settings
+            
+self
+.
 start_test_runner
 (
 )
