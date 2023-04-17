@@ -24129,6 +24129,12 @@ _removeChromeEventHandlerEvents
 (
 )
 ;
+this
+.
+_store
+=
+null
+;
 /
 /
 Notify
