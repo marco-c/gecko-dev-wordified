@@ -214,6 +214,8 @@ ProcessSelectionBackground
 (
 nscolor
 aColor
+ColorScheme
+aScheme
 )
 ;
 }
