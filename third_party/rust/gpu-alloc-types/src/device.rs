@@ -526,7 +526,7 @@ device
 /
 /
 /
-Retrieving
+Retreiving
 this
 information
 is

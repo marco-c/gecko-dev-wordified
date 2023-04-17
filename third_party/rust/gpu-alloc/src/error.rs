@@ -121,7 +121,7 @@ Allocation
 request
 cannot
 be
-fulfilled
+fullfilled
 as
 no
 available

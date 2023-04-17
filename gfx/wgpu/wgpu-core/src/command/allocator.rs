@@ -274,7 +274,7 @@ swap_remove
 i
 )
 ;
-log
+tracing
 :
 :
 trace
@@ -543,16 +543,6 @@ CommandAllocator
 B
 >
 {
-#
-[
-allow
-(
-clippy
-:
-:
-too_many_arguments
-)
-]
 pub
 (
 crate
@@ -581,12 +571,6 @@ wgt
 :
 :
 Limits
-downlevel
-:
-wgt
-:
-:
-DownlevelProperties
 private_features
 :
 PrivateFeatures
@@ -700,7 +684,7 @@ e
 =
 >
 {
-log
+tracing
 :
 :
 info
@@ -881,7 +865,6 @@ default
 (
 )
 limits
-downlevel
 private_features
 has_labels
 :
@@ -995,7 +978,7 @@ id
 (
 )
 ;
-log
+tracing
 :
 :
 info
@@ -1610,7 +1593,7 @@ thread_id
 in
 remove_threads
 {
-log
+tracing
 :
 :
 info
@@ -1735,7 +1718,7 @@ len
 (
 )
 {
-log
+tracing
 :
 :
 error

@@ -160,7 +160,6 @@ fmt
 Result
 {
 match
-*
 self
 {
 ErrorKind
@@ -199,9 +198,7 @@ ErrorKind
 :
 InvalidProfile
 (
-ref
 meta
-ref
 val
 )
 =
@@ -231,7 +228,6 @@ ErrorKind
 :
 InvalidToken
 (
-ref
 token
 )
 =
@@ -255,9 +251,7 @@ ErrorKind
 :
 InvalidVersion
 (
-ref
 meta
-ref
 val
 )
 =
@@ -287,7 +281,6 @@ ErrorKind
 :
 IoError
 (
-ref
 error
 )
 =
@@ -340,7 +333,6 @@ ErrorKind
 :
 NotImplemented
 (
-ref
 msg
 )
 =
@@ -363,9 +355,7 @@ ErrorKind
 :
 UnknownVariable
 (
-ref
 meta
-ref
 val
 )
 =
@@ -395,14 +385,11 @@ ErrorKind
 :
 UnknownField
 (
-ref
 meta
-ref
 val
 )
 =
 >
-{
 write
 !
 (
@@ -421,7 +408,6 @@ at
 val
 meta
 )
-}
 #
 [
 cfg
@@ -440,7 +426,6 @@ ErrorKind
 :
 VariableAlreadyDeclared
 (
-ref
 val
 )
 =
@@ -483,7 +468,6 @@ ErrorKind
 :
 SemanticError
 (
-ref
 msg
 )
 =
@@ -506,7 +490,6 @@ ErrorKind
 :
 PreprocessorError
 (
-ref
 val
 )
 =
@@ -529,7 +512,6 @@ ErrorKind
 :
 WrongNumberArgs
 (
-ref
 fun
 expected
 actual

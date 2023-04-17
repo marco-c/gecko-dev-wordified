@@ -276,7 +276,7 @@ map_err
 err
 |
 {
-log
+tracing
 :
 :
 warn

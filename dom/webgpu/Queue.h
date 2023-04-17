@@ -167,10 +167,10 @@ class
 Sequence
 ;
 struct
-GPUImageCopyTexture
+GPUTextureCopyView
 ;
 struct
-GPUImageDataLayout
+GPUTextureDataLayout
 ;
 struct
 TextureCopyView
@@ -295,7 +295,7 @@ const
 dom
 :
 :
-GPUImageCopyTexture
+GPUTextureCopyView
 &
 aDestination
 const
@@ -309,7 +309,7 @@ const
 dom
 :
 :
-GPUImageDataLayout
+GPUTextureDataLayout
 &
 aDataLayout
 const

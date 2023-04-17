@@ -1350,7 +1350,7 @@ a
 EntryPayload
 ]
 {
-log
+tracing
 :
 :
 trace
