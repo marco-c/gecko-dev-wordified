@@ -39,6 +39,7 @@ function
 (
 )
 {
+const
 redirectResponse
 =
 Response
@@ -152,6 +153,7 @@ function
 (
 )
 {
+const
 redirectResponse
 =
 Response
