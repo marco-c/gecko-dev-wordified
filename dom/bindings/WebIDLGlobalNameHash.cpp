@@ -552,10 +552,16 @@ JS
 :
 MutableHandle
 <
+mozilla
+:
+:
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 aDesc
 bool
@@ -1362,9 +1368,9 @@ NS_ERROR_FAILURE
 }
 FillPropertyDescriptor
 (
+aCx
 aDesc
 aObj
-0
 JS
 :
 :
@@ -1373,6 +1379,8 @@ ObjectValue
 *
 constructor
 )
+false
+false
 )
 ;
 return
@@ -1510,6 +1518,7 @@ here
 .
 FillPropertyDescriptor
 (
+aCx
 aDesc
 aObj
 JS
