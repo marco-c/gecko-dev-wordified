@@ -1325,7 +1325,7 @@ ClientDirectoryLock
 DirectoryLockImpl
 :
 :
-Specialize
+SpecializeForClient
 (
 PersistenceType
 aPersistenceType
