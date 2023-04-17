@@ -14950,7 +14950,9 @@ collection
 }
 for
 (
+const
 auto
+&
 device
 :
 collection
@@ -17912,9 +17914,11 @@ HasNonIntegerTranslation
 (
 )
 )
+{
 return
 false
 ;
+}
 transform
 .
 NudgeToIntegers
@@ -21034,6 +21038,7 @@ sheet
 nullptr
 ;
 auto
+*
 preloadedSheet
 =
 static_cast
