@@ -128,16 +128,8 @@ TextureSource
 CacheTextureId
 FastHashMap
 FastHashSet
-}
-;
-use
-crate
-:
-:
-render_backend
-:
-:
 FrameId
+}
 ;
 use
 crate
@@ -7278,7 +7270,7 @@ use
 crate
 :
 :
-render_backend
+internal_types
 :
 :
 FrameStamp

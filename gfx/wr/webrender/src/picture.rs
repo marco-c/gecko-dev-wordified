@@ -1213,6 +1213,7 @@ FastHashMap
 FastHashSet
 PlaneSplitter
 Filter
+FrameId
 }
 ;
 use
@@ -1323,10 +1324,7 @@ crate
 render_backend
 :
 :
-{
 DataStores
-FrameId
-}
 ;
 use
 crate

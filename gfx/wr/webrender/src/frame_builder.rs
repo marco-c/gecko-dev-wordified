@@ -179,6 +179,8 @@ internal_types
 {
 FastHashMap
 PlaneSplitter
+FrameId
+FrameStamp
 }
 ;
 use
@@ -277,8 +279,6 @@ render_backend
 :
 {
 DataStores
-FrameStamp
-FrameId
 ScratchBuffer
 }
 ;

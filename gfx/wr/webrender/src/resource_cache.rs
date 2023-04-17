@@ -337,6 +337,8 @@ FastHashMap
 FastHashSet
 TextureSource
 ResourceUpdateList
+FrameId
+FrameStamp
 }
 ;
 use
@@ -359,18 +361,6 @@ profiler
 self
 TransactionProfile
 bytes_to_mb
-}
-;
-use
-crate
-:
-:
-render_backend
-:
-:
-{
-FrameId
-FrameStamp
 }
 ;
 use
