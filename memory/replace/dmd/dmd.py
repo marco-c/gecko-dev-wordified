@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python3
+python
 #
 #
 This
@@ -92,8 +92,6 @@ collections
 import
 gzip
 import
-io
-import
 json
 import
 os
@@ -111,10 +109,6 @@ from
 bisect
 import
 bisect_right
-from
-functools
-import
-cmp_to_key
 #
 The
 DMD
@@ -327,26 +321,6 @@ above
 ?
 "
 ]
-def
-cmp
-(
-a
-b
-)
-:
-    
-return
-(
-a
->
-b
-)
--
-(
-a
-<
-b
-)
 class
 Record
 (
@@ -1976,11 +1950,6 @@ filename
 fileobj
 =
 tmpFile
-mode
-=
-"
-wb
-"
 )
     
 with
@@ -2547,13 +2516,17 @@ args
 max_frames
 :
             
-del
+traceTable
+[
+traceKey
+]
+=
 frameKeys
 [
+:
 args
 .
 max_frames
-:
 ]
     
 def
@@ -3439,8 +3412,6 @@ recordKeyPart
 str
 (
                 
-list
-(
 map
 (
 lambda
@@ -3454,7 +3425,6 @@ traceTable
 [
 traceKey
 ]
-)
 )
             
 )
@@ -3792,13 +3762,10 @@ record
 .
 reportedAtDescs
 =
-list
-(
 map
 (
 f
 reportedAtTraceKeys
-)
 )
         
 record
@@ -4642,22 +4609,17 @@ sortedRecords
 =
 sorted
 (
-            
 records
 .
 values
 (
 )
-key
+cmp
 =
-cmp_to_key
-(
 cmpRecords
-)
 reverse
 =
 True
-        
 )
         
 kindBlocks
@@ -6187,7 +6149,7 @@ traceTable
 "
 ]
 .
-items
+iteritems
 (
 )
 :
@@ -6280,7 +6242,7 @@ frameTable
 "
 ]
 .
-items
+iteritems
 (
 )
 :
@@ -7609,28 +7571,11 @@ filename
 fileobj
 =
 tmpFile
-mode
-=
-"
-wb
-"
 )
     
 prettyPrintDmdJson
 (
-io
-.
-TextIOWrapper
-(
 tmpFile
-encoding
-=
-"
-utf
--
-8
-"
-)
 j
 )
     

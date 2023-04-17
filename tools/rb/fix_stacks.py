@@ -114,6 +114,8 @@ import
 re
 import
 sys
+import
+six
 #
 Matches
 lines
@@ -575,41 +577,26 @@ False
 )
 :
     
-if
-isinstance
-(
 line
-bytes
-)
-:
-        
-line_str
 =
-line
+six
 .
-decode
+ensure_str
 (
-"
-utf
--
-8
-"
+line
 )
     
-else
-:
-        
-line_str
+result
 =
-line
-    
-if
 line_re
 .
 search
 (
-line_str
+line
 )
+    
+if
+result
 is
 None
 :
@@ -690,7 +677,7 @@ output
 is_missing_newline
 =
 not
-line_str
+line
 .
 endswith
 (
@@ -704,9 +691,9 @@ if
 is_missing_newline
 :
         
-line_str
+line
 =
-line_str
+line
 +
 "
 \
@@ -719,7 +706,7 @@ stdin
 .
 write
 (
-line_str
+line
 )
     
 fix_stacks
@@ -754,15 +741,7 @@ out
 ]
     
 return
-bytes
-(
 out
-"
-utf
--
-8
-"
-)
 if
 __name__
 =

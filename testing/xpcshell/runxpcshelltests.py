@@ -5203,6 +5203,13 @@ line
 )
 :
         
+line
+=
+cleanup_encoding
+(
+line
+)
+        
 if
 self
 .
@@ -5212,8 +5219,7 @@ not
 None
 :
             
-line
-=
+return
 self
 .
 stack_fixer_function
@@ -5222,10 +5228,7 @@ line
 )
         
 return
-cleanup_encoding
-(
 line
-)
     
 def
 log_line
