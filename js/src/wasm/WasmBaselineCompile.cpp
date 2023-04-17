@@ -77750,6 +77750,12 @@ case
 ValType
 :
 :
+Rtt
+:
+case
+ValType
+:
+:
 Ref
 :
 {
@@ -78081,6 +78087,12 @@ rv
 break
 ;
 }
+case
+ValType
+:
+:
+Rtt
+:
 case
 ValType
 :

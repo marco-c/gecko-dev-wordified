@@ -277,8 +277,7 @@ enabled
 )
 |
 (
-unexpected
-initializer
+unrecognized
 opcode
 )
 /
