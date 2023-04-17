@@ -2915,7 +2915,10 @@ screens
 .
 forEach
 (
+(
 screen
+order
+)
 =
 >
 {
@@ -2925,8 +2928,6 @@ index
 =
 =
 =
-screen
-.
 order
 )
 {
@@ -2943,6 +2944,10 @@ sendImpressionTelemetry
 props
 .
 message_id
+}
+_
+{
+order
 }
 _
 {
@@ -3940,7 +3945,10 @@ screens
 .
 map
 (
+(
 screen
+order
+)
 =
 >
 {
@@ -3949,8 +3957,6 @@ index
 =
 =
 =
-screen
-.
 order
 ?
 /
@@ -3972,6 +3978,8 @@ key
 screen
 .
 id
++
+order
 id
 :
 screen
@@ -3986,8 +3994,6 @@ screens
 length
 order
 :
-screen
-.
 order
 content
 :
@@ -4006,6 +4012,10 @@ messageId
 props
 .
 message_id
+}
+_
+{
+order
 }
 _
 {
