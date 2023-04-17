@@ -212,15 +212,6 @@ return
 mRawRule
 ;
 }
-void
-SetRawAfterClone
-(
-RefPtr
-<
-RawServoSupportsRule
->
-)
-;
 /
 /
 WebIDL
