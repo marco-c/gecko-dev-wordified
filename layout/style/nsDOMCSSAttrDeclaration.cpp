@@ -691,7 +691,10 @@ MOZ_ASSERT
 aOperation
 !
 =
-eOperation_Modify
+Operation
+:
+:
+Modify
 |
 |
 aCreated
@@ -750,7 +753,10 @@ if
 aOperation
 !
 =
-eOperation_Modify
+Operation
+:
+:
+Modify
 )
 {
 return
@@ -962,7 +968,10 @@ olddecl
 =
 GetOrCreateCSSDeclaration
 (
-eOperation_Modify
+Operation
+:
+:
+Modify
 getter_AddRefs
 (
 created

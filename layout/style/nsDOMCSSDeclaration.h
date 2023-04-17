@@ -924,6 +924,7 @@ calling
 GetOrCreateCSSDeclaration
 .
 enum
+class
 Operation
 {
 /
@@ -965,7 +966,7 @@ in
 this
 case
 .
-eOperation_Read
+Read
 /
 /
 We
@@ -1019,7 +1020,7 @@ allocating
 the
 declaration
 .
-eOperation_Modify
+Modify
 /
 /
 We
@@ -1061,7 +1062,7 @@ in
 this
 case
 .
-eOperation_RemoveProperty
+RemoveProperty
 }
 ;
 /
@@ -1069,7 +1070,7 @@ eOperation_RemoveProperty
 If
 aOperation
 is
-eOperation_Modify
+Modify
 aCreated
 must
 be
@@ -1077,13 +1078,13 @@ non
 -
 null
 and
-/
-/
 the
 call
 may
 set
 it
+/
+/
 to
 point
 to
