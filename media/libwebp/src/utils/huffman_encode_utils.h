@@ -463,7 +463,7 @@ huff_tree
 HuffmanTreeCode
 *
 const
-tree
+huff_code
 )
 ;
 #

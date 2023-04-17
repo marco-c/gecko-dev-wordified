@@ -6879,13 +6879,11 @@ mem
 ;
 if
 (
-needed
 !
-=
+CheckSizeOverflow
 (
-size_t
-)
 needed
+)
 )
 return
 0

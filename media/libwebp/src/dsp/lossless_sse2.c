@@ -241,13 +241,6 @@ h
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 emmintrin
 .
 h

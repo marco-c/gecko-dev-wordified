@@ -365,6 +365,11 @@ lossless_sse2
 c
 '
 '
+lossless_sse41
+.
+c
+'
+'
 rescaler_sse2
 .
 c

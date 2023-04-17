@@ -298,6 +298,7 @@ DispatchAlpha_SSE2
 const
 uint8_t
 *
+WEBP_RESTRICT
 alpha
 int
 alpha_stride
@@ -307,6 +308,7 @@ int
 height
 uint8_t
 *
+WEBP_RESTRICT
 dst
 int
 dst_stride
@@ -772,6 +774,7 @@ DispatchAlphaToGreen_SSE2
 const
 uint8_t
 *
+WEBP_RESTRICT
 alpha
 int
 alpha_stride
@@ -781,6 +784,7 @@ int
 height
 uint32_t
 *
+WEBP_RESTRICT
 dst
 int
 dst_stride
@@ -1039,6 +1043,7 @@ ExtractAlpha_SSE2
 const
 uint8_t
 *
+WEBP_RESTRICT
 argb
 int
 argb_stride
@@ -1048,6 +1053,7 @@ int
 height
 uint8_t
 *
+WEBP_RESTRICT
 alpha
 int
 alpha_stride
@@ -3484,11 +3490,13 @@ MultRow_SSE2
 (
 uint8_t
 *
+WEBP_RESTRICT
 const
 ptr
 const
 uint8_t
 *
+WEBP_RESTRICT
 const
 alpha
 int

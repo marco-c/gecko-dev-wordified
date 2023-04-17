@@ -318,7 +318,7 @@ VP8LColorCacheInit
 VP8LColorCache
 *
 const
-cc
+color_cache
 int
 hash_bits
 )
@@ -334,7 +334,7 @@ hash_bits
 ;
 assert
 (
-cc
+color_cache
 !
 =
 NULL
@@ -347,7 +347,7 @@ hash_bits
 0
 )
 ;
-cc
+color_cache
 -
 >
 colors_
@@ -365,7 +365,7 @@ hash_size
 sizeof
 (
 *
-cc
+color_cache
 -
 >
 colors_
@@ -374,7 +374,7 @@ colors_
 ;
 if
 (
-cc
+color_cache
 -
 >
 colors_
@@ -385,7 +385,7 @@ NULL
 return
 0
 ;
-cc
+color_cache
 -
 >
 hash_shift_
@@ -394,7 +394,7 @@ hash_shift_
 -
 hash_bits
 ;
-cc
+color_cache
 -
 >
 hash_bits_
@@ -411,12 +411,12 @@ VP8LColorCacheClear
 VP8LColorCache
 *
 const
-cc
+color_cache
 )
 {
 if
 (
-cc
+color_cache
 !
 =
 NULL
@@ -424,13 +424,13 @@ NULL
 {
 WebPSafeFree
 (
-cc
+color_cache
 -
 >
 colors_
 )
 ;
-cc
+color_cache
 -
 >
 colors_

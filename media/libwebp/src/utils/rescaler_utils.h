@@ -443,7 +443,16 @@ src
 &
 dst
 .
-void
+/
+/
+Returns
+false
+in
+case
+of
+error
+.
+int
 WebPRescalerInit
 (
 WebPRescaler

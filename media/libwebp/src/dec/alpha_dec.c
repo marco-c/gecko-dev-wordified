@@ -1694,11 +1694,6 @@ height
 return
 NULL
 ;
-/
-/
-sanity
-check
-.
 }
 if
 (
