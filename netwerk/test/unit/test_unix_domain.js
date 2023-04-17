@@ -1359,15 +1359,7 @@ socketName
 append
 (
 "
-directory
--
-that
--
-does
--
-not
--
-exist
+missing
 "
 )
 ;
