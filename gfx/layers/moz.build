@@ -3376,13 +3376,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-composite
-/
-PaintCounter
-.
-cpp
-"
 ]
 if
 CONFIG
