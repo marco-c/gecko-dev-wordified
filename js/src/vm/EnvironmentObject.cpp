@@ -23989,11 +23989,6 @@ GlobalObject
 (
 )
 .
-realm
-(
-)
--
->
 isInVarNames
 (
 name
@@ -24878,11 +24873,6 @@ GlobalObject
 (
 )
 .
-realm
-(
-)
--
->
 addToVarNames
 (
 cx
@@ -25345,11 +25335,6 @@ GlobalObject
 (
 )
 .
-realm
-(
-)
--
->
 addToVarNames
 (
 cx
@@ -25591,11 +25576,6 @@ GlobalObject
 (
 )
 .
-realm
-(
-)
--
->
 addToVarNames
 (
 cx

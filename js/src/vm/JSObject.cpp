@@ -24610,12 +24610,6 @@ GlobalObject
 )
 )
 {
-info
--
->
-objectsMallocHeapGlobalData
-+
-=
 as
 <
 GlobalObject
@@ -24623,9 +24617,10 @@ GlobalObject
 (
 )
 .
-sizeOfData
+addSizeOfData
 (
 mallocSizeOf
+info
 )
 ;
 }

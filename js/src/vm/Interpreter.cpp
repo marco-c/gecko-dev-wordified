@@ -30887,11 +30887,6 @@ GlobalObject
 (
 )
 .
-realm
-(
-)
--
->
 removeFromVarNames
 (
 name

@@ -1110,6 +1110,13 @@ MACRO
 (
 Objects
 MallocHeap
+objectsMallocHeapGlobalVarNamesSet
+)
+\
+MACRO
+(
+Objects
+MallocHeap
 objectsMallocHeapMisc
 )
 \
@@ -4042,13 +4049,6 @@ MACRO
 Other
 MallocHeap
 savedStacksSet
-)
-\
-MACRO
-(
-Other
-MallocHeap
-varNamesSet
 )
 \
 MACRO

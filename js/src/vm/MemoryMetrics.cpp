@@ -1738,10 +1738,6 @@ savedStacksSet
 &
 realmStats
 .
-varNamesSet
-&
-realmStats
-.
 nonSyntacticLexicalScopesTable
 &
 realmStats
