@@ -220,16 +220,6 @@ true
 "
 privacy
 .
-storagePrincipal
-.
-enabledForTrackers
-"
-false
-]
-[
-"
-privacy
-.
 dynamic_firstparty
 .
 use_site
