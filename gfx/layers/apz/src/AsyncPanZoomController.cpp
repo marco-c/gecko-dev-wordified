@@ -27151,6 +27151,12 @@ GetOverscrollAmountInternal
 )
 ;
 }
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 return
 GetOverscrollAmountInternal
 (
