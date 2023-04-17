@@ -610,8 +610,10 @@ that
 it
 returns
 a
-UDP
-socket
+net
+:
+:
+UnixStream
 *
 in
 blocking
