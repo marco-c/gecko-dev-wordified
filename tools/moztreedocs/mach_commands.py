@@ -733,11 +733,12 @@ path
 .
 append
 (
+            
 mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -750,6 +751,7 @@ lint
 eslint
 "
 )
+        
 )
         
 import
@@ -759,7 +761,7 @@ setup_helper
 .
 set_project_root
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -827,7 +829,7 @@ mozpath
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -868,13 +870,13 @@ PATH
         
 )
         
-self
+command_context
 .
 activate_virtualenv
 (
 )
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -948,7 +950,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topobjdir
 "
@@ -972,7 +974,7 @@ path
 =
 path
 or
-self
+command_context
 .
 topsrcdir
         
@@ -2726,18 +2728,21 @@ args
 .
 extend
 (
+            
 [
+                
 os
 .
 path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 path
 )
+                
 for
 path
 in
@@ -2745,7 +2750,9 @@ set
 (
 metrics_paths
 )
+            
 ]
+        
 )
         
 subprocess

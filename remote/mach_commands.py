@@ -241,6 +241,7 @@ def
 remotedir
 (
 self
+command_context
 )
 :
         
@@ -251,7 +252,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 "
@@ -307,7 +308,7 @@ protocol
 "
 "
         
-self
+command_context
 .
 _sub_mach
 (
@@ -483,10 +484,12 @@ path
 .
 join
 (
+            
 self
 .
 remotedir
 (
+command_context
 )
 "
 test
@@ -494,6 +497,7 @@ test
 "
 puppeteer
 "
+        
 )
         
 #
@@ -525,10 +529,12 @@ reporter
 js
 "
 )
+            
 self
 .
 remotedir
 (
+command_context
 )
         
 )
@@ -743,6 +749,7 @@ self
 .
 remotedir
 (
+command_context
 )
 "
 json
@@ -754,6 +761,7 @@ reporter
 js
 "
 )
+            
 puppeteer_dir
         
 )
@@ -918,9 +926,11 @@ PUPPETEER_SKIP_DOWNLOAD
             
 npm
 (
+                
 "
 install
 "
+                
 cwd
 =
 os
@@ -929,14 +939,16 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 puppeteer_dir
 )
+                
 env
 =
 env
+            
 )
 def
 git
@@ -4105,12 +4117,6 @@ kwargs
 )
 :
         
-self
-.
-ci
-=
-ci
-        
 logger
 =
 mozlog
@@ -4500,7 +4506,9 @@ self
 .
 install_puppeteer
 (
+command_context
 product
+ci
 )
         
 params
@@ -4559,7 +4567,7 @@ subset
         
 puppeteer
 =
-self
+command_context
 .
 _spawn
 (
@@ -4627,7 +4635,9 @@ def
 install_puppeteer
 (
 self
+command_context
 product
+ci
 )
 :
         
@@ -4649,7 +4659,7 @@ repo
 =
 get_repository_object
 (
-self
+command_context
 .
 topsrcdir
 )
@@ -4740,7 +4750,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 puppeteer_dir
@@ -4784,8 +4794,6 @@ command
 ci
 "
 if
-self
-.
 ci
 else
 "
@@ -4794,6 +4802,7 @@ install
         
 npm
 (
+            
 command
 cwd
 =
@@ -4803,7 +4812,7 @@ path
 .
 join
 (
-self
+command_context
 .
 topsrcdir
 puppeteer_dir
@@ -4811,6 +4820,7 @@ puppeteer_dir
 env
 =
 env
+        
 )
 def
 exit

@@ -68,14 +68,9 @@ mach
 .
 decorators
 import
-(
-    
 CommandArgument
-    
 CommandProvider
-    
 Command
-)
 from
 mozbuild
 .
@@ -246,13 +241,10 @@ bootstrap
 (
         
 self
-        
 command_context
-        
 application_choice
 =
 None
-        
 no_system_changes
 =
 False
@@ -279,7 +271,7 @@ application_choice
 no_interactive
 =
 not
-self
+command_context
 .
 _mach_context
 .
@@ -291,7 +283,7 @@ no_system_changes
             
 mach_context
 =
-self
+command_context
 .
 _mach_context
         
@@ -301,7 +293,7 @@ bootstrapper
 .
 bootstrap
 (
-self
+command_context
 .
 settings
 )
@@ -518,11 +510,13 @@ mozversioncontrol
 .
 get_repository_object
 (
-self
+            
+command_context
 .
 _mach_context
 .
 topdir
+        
 )
         
 tool
@@ -667,12 +661,14 @@ update_git_tools
 (
                     
 vcs
-self
+                    
+command_context
 .
 _mach_context
 .
 state_dir
-self
+                    
+command_context
 .
 _mach_context
 .
@@ -688,7 +684,7 @@ bootstrap
 update_vct
 (
 vcs
-self
+command_context
 .
 _mach_context
 .
@@ -725,13 +721,13 @@ cinnabar
 "
 )
                     
-self
+command_context
 .
 _mach_context
 .
 state_dir
                     
-self
+command_context
 .
 _mach_context
 .
@@ -746,10 +742,12 @@ bootstrap
 .
 configure_mercurial
 (
+                    
 vcs
-self
+command_context
 .
 _mach_context
 .
 state_dir
+                
 )

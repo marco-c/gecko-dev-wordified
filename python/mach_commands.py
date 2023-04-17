@@ -347,7 +347,7 @@ logging
 the
 command
         
-self
+command_context
 .
 log_manager
 .
@@ -444,18 +444,20 @@ pathsep
 .
 join
 (
+                
 mach_sys_path
 (
-self
+command_context
 .
 topsrcdir
 )
+            
 )
         
 else
 :
             
-self
+command_context
 .
 virtualenv_manager
 .
@@ -468,7 +470,7 @@ not
 no_activate
 :
                 
-self
+command_context
 .
 virtualenv_manager
 .
@@ -478,7 +480,7 @@ activate
             
 python_path
 =
-self
+command_context
 .
 virtualenv_manager
 .
@@ -488,7 +490,7 @@ if
 requirements
 :
                 
-self
+command_context
 .
 virtualenv_manager
 .
@@ -583,7 +585,7 @@ installed
 ipython
 .
                     
-self
+command_context
 .
 virtualenv_manager
 .
@@ -634,7 +636,7 @@ return
 1
         
 return
-self
+command_context
 .
 run_process
 (
@@ -1077,6 +1079,7 @@ self
 .
 run_python_tests
 (
+command_context
 *
 args
 *
@@ -1102,6 +1105,8 @@ run_python_tests
 (
         
 self
+        
+command_context
         
 tests
 =
@@ -1138,7 +1143,7 @@ kwargs
 )
 :
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -1159,7 +1164,7 @@ TestResolver
             
 resolver
 =
-self
+command_context
 .
 _spawn
 (
@@ -1326,7 +1331,7 @@ False
             
 python
 =
-self
+command_context
 .
 virtualenv_manager
 .
@@ -1406,7 +1411,7 @@ submsg
             
 )
             
-self
+command_context
 .
 log
 (
@@ -1512,7 +1517,7 @@ installed_requirements
 )
 :
                 
-self
+command_context
 .
 virtualenv_manager
 .
@@ -1603,8 +1608,6 @@ append
 test
 )
         
-self
-.
 jobs
 =
 jobs
@@ -1612,18 +1615,6 @@ or
 cpu_count
 (
 )
-        
-self
-.
-terminate
-=
-False
-        
-self
-.
-verbose
-=
-verbose
         
 return_code
 =
@@ -1648,10 +1639,11 @@ in
 output
 :
                 
-self
+command_context
 .
 log
 (
+                    
 logging
 .
 INFO
@@ -1676,6 +1668,7 @@ rstrip
 line
 }
 "
+                
 )
             
 if
@@ -1685,7 +1678,7 @@ not
 return_code
 :
                 
-self
+command_context
 .
 log
 (
@@ -1738,8 +1731,6 @@ ThreadPoolExecutor
 (
 max_workers
 =
-self
-.
 jobs
 )
 as
@@ -1754,11 +1745,17 @@ executor
 .
 submit
 (
+                    
 self
 .
 _run_python_test
+command_context
 test
+jobs
+verbose
+                
 )
+                
 for
 test
 in
@@ -1846,12 +1843,17 @@ return_code
 =
 on_test_finished
 (
+                
 self
 .
 _run_python_test
 (
+command_context
 test
+jobs
+verbose
 )
+            
 )
             
 if
@@ -1862,7 +1864,7 @@ exitfirst
                 
 break
         
-self
+command_context
 .
 log
 (
@@ -1908,7 +1910,10 @@ def
 _run_python_test
 (
 self
+command_context
 test
+jobs
+verbose
 )
 :
         
@@ -1942,8 +1947,6 @@ avoid
 interleaving
             
 if
-self
-.
 jobs
 >
 1
@@ -1959,10 +1962,11 @@ line
 else
 :
                 
-self
+command_context
 .
 log
 (
+                    
 logging
 .
 INFO
@@ -1987,6 +1991,7 @@ rstrip
 line
 }
 "
+                
 )
         
 file_displayed_test
@@ -2122,7 +2127,7 @@ path
         
 python
 =
-self
+command_context
 .
 virtualenv_manager
 .
@@ -2264,8 +2269,6 @@ path
 )
         
 if
-self
-.
 verbose
 :
             

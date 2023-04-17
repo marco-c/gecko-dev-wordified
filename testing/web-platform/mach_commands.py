@@ -3077,14 +3077,16 @@ MachCommandBase
 )
 :
     
+staticmethod
+    
 def
 setup
 (
-self
+command_context
 )
 :
         
-self
+command_context
 .
 activate_virtualenv
 (
@@ -3148,6 +3150,7 @@ self
 .
 setup
 (
+command_context
 )
         
 if
@@ -3166,7 +3169,7 @@ conditions
 .
 is_android
 (
-self
+command_context
 )
 :
                 
@@ -3328,7 +3331,7 @@ exit
         
 wpt_setup
 =
-self
+command_context
 .
 _spawn
 (
@@ -3339,7 +3342,7 @@ wpt_setup
 .
 _mach_context
 =
-self
+command_context
 .
 _mach_context
         
@@ -3362,12 +3365,15 @@ params
 )
         
 if
+(
+            
 conditions
 .
 is_android
 (
-self
+command_context
 )
+            
 and
 params
 [
@@ -3380,6 +3386,8 @@ product
 "
 firefox_android
 "
+        
+)
 :
             
 logger
@@ -3528,9 +3536,10 @@ self
 .
 setup
 (
+command_context
 )
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -3548,7 +3557,7 @@ html5lib
 "
 )
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -3559,7 +3568,7 @@ ujson
 "
 )
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -3572,7 +3581,7 @@ requests
         
 wpt_updater
 =
-self
+command_context
 .
 _spawn
 (
@@ -3708,11 +3717,12 @@ self
 .
 setup
 (
+command_context
 )
         
 wpt_setup
 =
-self
+command_context
 .
 _spawn
 (
@@ -3824,6 +3834,7 @@ self
 .
 setup
 (
+command_context
 )
         
 import
@@ -3860,7 +3871,7 @@ stdout
         
 wpt_serve
 =
-self
+command_context
 .
 _spawn
 (
@@ -3929,7 +3940,7 @@ metasummary
         
 wpt_setup
 =
-self
+command_context
 .
 _spawn
 (
@@ -4071,9 +4082,10 @@ self
 .
 setup
 (
+command_context
 )
         
-self
+command_context
 .
 virtualenv_manager
 .
@@ -4086,7 +4098,7 @@ tox
         
 runner
 =
-self
+command_context
 .
 _spawn
 (
@@ -4156,7 +4168,7 @@ params
         
 runner
 =
-self
+command_context
 .
 _spawn
 (
@@ -4224,7 +4236,7 @@ params
         
 runner
 =
-self
+command_context
 .
 _spawn
 (

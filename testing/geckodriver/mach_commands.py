@@ -349,7 +349,7 @@ try
             
 binpath
 =
-self
+command_context
 .
 get_binary_path
 (
@@ -364,10 +364,11 @@ as
 e
 :
             
-self
+command_context
 .
 log
 (
+                
 logging
 .
 ERROR
@@ -391,9 +392,10 @@ ERROR
 error
 }
 "
+            
 )
             
-self
+command_context
 .
 log
 (
@@ -485,7 +487,7 @@ try
                 
 binary
 =
-self
+command_context
 .
 get_binary_path
 (
@@ -500,7 +502,7 @@ as
 e
 :
                 
-self
+command_context
 .
 log
 (
@@ -531,10 +533,11 @@ error
                 
 )
                 
-self
+command_context
 .
 log
 (
+                    
 logging
 .
 INFO
@@ -557,6 +560,7 @@ help
 help
 }
 "
+                
 )
                 
 return
@@ -594,7 +598,7 @@ os
 environ
 :
                 
-self
+command_context
 .
 log_manager
 .
@@ -653,8 +657,6 @@ if
 debugger
 :
                 
-self
-.
 debuggerInfo
 =
 mozdebug
@@ -667,8 +669,6 @@ debugger_args
                 
 if
 not
-self
-.
 debuggerInfo
 :
                     
@@ -798,15 +798,11 @@ args
 args
 =
 [
-self
-.
 debuggerInfo
 .
 path
 ]
 +
-self
-.
 debuggerInfo
 .
 args
@@ -814,10 +810,11 @@ args
 args
         
 return
-self
+command_context
 .
 run_process
 (
+            
 args
 =
 args
@@ -827,4 +824,5 @@ False
 pass_thru
 =
 True
+        
 )

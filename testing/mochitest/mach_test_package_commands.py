@@ -1488,7 +1488,7 @@ kwargs
 )
 :
         
-self
+command_context
 .
 _mach_context
 .
@@ -1499,7 +1499,7 @@ activate_mozharness_venv
 return
 run_test
 (
-self
+command_context
 .
 _mach_context
 False
@@ -1552,7 +1552,7 @@ kwargs
 )
 :
         
-self
+command_context
 .
 _mach_context
 .
@@ -1563,7 +1563,7 @@ activate_mozharness_venv
 return
 run_test
 (
-self
+command_context
 .
 _mach_context
 True
