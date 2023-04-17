@@ -275,11 +275,6 @@ nsIParserUtils
 :
 :
 SanitizerAllowStyle
-|
-nsIParserUtils
-:
-:
-SanitizerAllowComments
 )
 {
 MOZ_ASSERT
@@ -408,7 +403,7 @@ mozilla
 dom
 :
 :
-StringOrDocumentFragmentOrDocument
+DocumentFragmentOrDocument
 &
 aInput
 ErrorResult
@@ -601,7 +596,7 @@ mozilla
 dom
 :
 :
-StringOrDocumentFragmentOrDocument
+DocumentFragmentOrDocument
 &
 aInput
 ErrorResult
