@@ -177,7 +177,9 @@ nsSupportsWeakReference
 {
 public
 :
-typedef
+using
+ObserverList
+=
 nsTArray
 <
 nsCOMPtr
@@ -185,7 +187,6 @@ nsCOMPtr
 nsIObserver
 >
 >
-ObserverList
 ;
 nsCommandManager
 (

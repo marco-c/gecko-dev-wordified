@@ -869,11 +869,12 @@ return
 NS_OK
 ;
 }
-typedef
+using
+CommandTableRegistrar
+=
 nsresult
 (
 *
-CommandTableRegistrar
 )
 (
 nsControllerCommandTable
