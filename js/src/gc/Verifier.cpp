@@ -4707,9 +4707,15 @@ if
 chunk
 -
 >
-decommittedArenas
+decommittedPages
 [
+chunk
+-
+>
+pageIndex
+(
 i
+)
 ]
 )
 {

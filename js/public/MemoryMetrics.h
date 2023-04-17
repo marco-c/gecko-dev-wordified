@@ -4377,7 +4377,7 @@ MACRO
 (
 _
 GCHeapDecommitted
-gcHeapDecommittedArenas
+gcHeapDecommittedPages
 )
 \
 MACRO
@@ -4454,12 +4454,12 @@ bytes
 -
 rtStats
 .
-gcHeapDecommittedArenas
+gcHeapDecommittedPages
 /
 /
 (
 decommitted
-arenas
+pages
 in
 non
 -
@@ -4586,7 +4586,7 @@ s
 possible
 that
 some
-arenas
+pages
 in
 empty
 chunks
@@ -4605,7 +4605,7 @@ those
 under
 rtStats
 .
-gcHeapDecommittedArenas
+gcHeapDecommittedPages
 because
 (
 a

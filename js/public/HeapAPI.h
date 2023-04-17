@@ -755,7 +755,7 @@ freeArenasHead
 *
 *
 Decommitted
-arenas
+pages
 are
 tracked
 by
@@ -789,7 +789,7 @@ allocate
 *
 /
 uint32_t
-lastDecommittedArenaOffset
+lastDecommittedPageOffset
 ;
 /
 *
@@ -887,7 +887,7 @@ fields
 are
 bitmap
 and
-decommittedArenas
+decommittedPages
 .
 bitmap
 needs
@@ -897,13 +897,13 @@ bytes
 per
 arena
 and
-decommittedArenas
+decommittedPages
 needs
 one
 bit
 per
 *
-arena
+page
 .
 *
 *
@@ -1621,7 +1621,7 @@ mozilla
 :
 BitSet
 <
-ArenasPerChunk
+PagesPerChunk
 uint32_t
 >
 ;
@@ -1653,7 +1653,7 @@ MarkBitmap
 markBits
 ;
 DecommitBitmap
-decommittedArenas
+decommittedPages
 ;
 protected
 :
