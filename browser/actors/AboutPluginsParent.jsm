@@ -129,9 +129,6 @@ blocklistState
 "
 description
 "
-"
-pluginMimeTypes
-"
 ]
 ;
 class
