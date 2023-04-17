@@ -11552,6 +11552,13 @@ SSLHashType
 hashType
 )
 ;
+SECOidTag
+ssl3_AuthTypeToOID
+(
+SSLAuthType
+hashType
+)
+;
 SSLHashType
 ssl_SignatureSchemeToHashType
 (
