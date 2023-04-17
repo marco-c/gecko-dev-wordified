@@ -1163,6 +1163,15 @@ WasmTag
 \
 REAL
 (
+WasmFunction
+CLASP
+(
+WasmFunction
+)
+)
+\
+REAL
+(
 WasmException
 OCLASP
 (
