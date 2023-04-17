@@ -3079,9 +3079,6 @@ Manager
 TimeStamp
 mPendingTime
 ;
-TimeStamp
-mHTTPSRRQueryStart
-;
 TimeDuration
 mPendingDurationTime
 ;
