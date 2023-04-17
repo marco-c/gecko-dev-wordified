@@ -897,7 +897,6 @@ Zapomenut
 |
 lost
 |
->
 |
 |
 |
@@ -1412,7 +1411,6 @@ conectado
 |
 |
 |
->
 |
 /
 i
