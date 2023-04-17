@@ -846,6 +846,15 @@ const
 auto
 scheme
 =
+aIsChrome
+?
+LookAndFeel
+:
+:
+ColorSchemeForChrome
+(
+)
+:
 LookAndFeel
 :
 :
