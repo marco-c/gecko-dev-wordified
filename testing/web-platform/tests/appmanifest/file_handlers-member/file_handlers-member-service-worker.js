@@ -58,8 +58,6 @@ file_handlers
 -
 member
 -
-manual
--
 service
 -
 worker
@@ -73,6 +71,8 @@ member
 -
 manual
 .
+tentative
+.
 html
 "
 "
@@ -81,8 +81,6 @@ resources
 file_handlers
 -
 member
--
-manual
 .
 js
 "
