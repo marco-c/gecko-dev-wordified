@@ -502,6 +502,12 @@ esr78
 "
                 
 "
+mozilla
+-
+esr91
+"
+                
+"
 comm
 -
 beta
@@ -511,6 +517,12 @@ beta
 comm
 -
 esr78
+"
+                
+"
+comm
+-
+esr91
 "
             
 ]
@@ -738,6 +750,12 @@ esr78
 "
                 
 "
+mozilla
+-
+esr91
+"
+                
+"
 comm
 -
 beta
@@ -747,6 +765,12 @@ beta
 comm
 -
 esr78
+"
+                
+"
+comm
+-
+esr91
 "
             
 ]
@@ -1050,6 +1074,12 @@ comm
 -
 esr78
 "
+                
+"
+comm
+-
+esr91
+"
             
 ]
         
@@ -1072,6 +1102,29 @@ set
 mozilla
 -
 esr78
+"
+            
+]
+        
+)
+    
+]
+    
+[
+        
+"
+esr91
+"
+        
+set
+(
+            
+[
+                
+"
+mozilla
+-
+esr91
 "
             
 ]
@@ -1150,6 +1203,18 @@ release
     
 "
 esr78
+"
+:
+"
+balrog
+:
+server
+:
+esr
+"
+    
+"
+esr91
 "
 :
 "
