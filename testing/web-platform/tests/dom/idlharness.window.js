@@ -523,6 +523,16 @@ body
 )
 '
 ]
+XSLTProcessor
+:
+[
+'
+new
+XSLTProcessor
+(
+)
+'
+]
 }
 )
 ;
