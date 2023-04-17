@@ -127,12 +127,6 @@ use
 crate
 :
 :
-Rng
-;
-use
-crate
-:
-:
 distributions
 :
 :
@@ -141,6 +135,12 @@ Distribution
 Standard
 Uniform
 }
+;
+use
+crate
+:
+:
+Rng
 ;
 /
 /
@@ -669,6 +669,7 @@ usize
 ]
 as
 char
+;
 }
 }
 }
