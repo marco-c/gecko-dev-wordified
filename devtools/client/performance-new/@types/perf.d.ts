@@ -1370,6 +1370,10 @@ interval
 :
 number
 ;
+/
+/
+in
+milliseconds
 features
 :
 string
