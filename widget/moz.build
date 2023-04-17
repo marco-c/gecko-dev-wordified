@@ -1427,16 +1427,6 @@ DIRS
 x11
 "
 ]
-SOURCES
-+
-=
-[
-"
-GfxInfoX11
-.
-cpp
-"
-]
 if
 toolkit
 in
