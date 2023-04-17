@@ -2390,6 +2390,7 @@ GetHelperThreadCount
 (
 )
 >
+=
 1
 )
 ;
@@ -2404,6 +2405,13 @@ CanUseExtraThreads
 &
 &
 GetHelperThreadCPUCount
+(
+)
+>
+1
+&
+&
+GetHelperThreadCount
 (
 )
 >
