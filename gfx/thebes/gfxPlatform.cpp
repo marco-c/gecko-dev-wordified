@@ -14377,6 +14377,8 @@ ForceGlobalReflow
 (
 NeedsReframe
 aNeedsReframe
+BroadcastToChildren
+aBroadcastToChildren
 )
 {
 MOZ_ASSERT
@@ -14467,6 +14469,15 @@ if
 XRE_IsParentProcess
 (
 )
+&
+&
+aBroadcastToChildren
+=
+=
+BroadcastToChildren
+:
+:
+Yes
 )
 {
 /
