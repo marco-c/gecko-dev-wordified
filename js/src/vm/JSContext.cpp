@@ -6628,6 +6628,12 @@ runtime_
 rt
 ;
 }
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 static
 bool
 IsOutOfMemoryException
@@ -6658,6 +6664,8 @@ outOfMemory
 )
 ;
 }
+#
+endif
 void
 JSContext
 :
