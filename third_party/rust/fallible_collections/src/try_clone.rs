@@ -114,6 +114,10 @@ Option
 T
 >
 {
+#
+[
+inline
+]
 fn
 try_clone
 (

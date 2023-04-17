@@ -41,15 +41,6 @@ string
 :
 String
 ;
-use
-alloc
-:
-:
-vec
-:
-:
-Vec
-;
 /
 /
 /
@@ -153,7 +144,7 @@ TryReserveError
 let
 v
 =
-Vec
+FallibleVec
 :
 :
 try_with_capacity
