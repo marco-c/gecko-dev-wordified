@@ -2018,12 +2018,12 @@ autocomplete
 "
 ]
 .
-getVariable
+getValue
 (
-"
-directMigrateSingleProfile
-"
 )
+?
+.
+directMigrateSingleProfile
 )
 {
 const
