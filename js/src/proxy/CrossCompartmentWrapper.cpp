@@ -385,7 +385,13 @@ HandleId
 id
 MutableHandle
 <
+mozilla
+:
+:
+Maybe
+<
 PropertyDescriptor
+>
 >
 desc
 )
