@@ -627,7 +627,7 @@ XYB
 bool
 ib_is_in_xyb
 =
-true
+false
 ;
 }
 reference_frames
