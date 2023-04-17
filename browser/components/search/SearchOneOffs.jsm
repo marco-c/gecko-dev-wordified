@@ -469,6 +469,17 @@ engines
 /
 >
 <
+menuseparator
+class
+=
+"
+searchbar
+-
+separator
+"
+/
+>
+<
 button
 class
 =
