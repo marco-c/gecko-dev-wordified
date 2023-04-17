@@ -32,6 +32,9 @@ std
 u8
 ;
 use
+crate
+:
+:
 unicode
 ;
 /
@@ -578,6 +581,8 @@ self
 >
 IntervalSetIter
 <
+'
+_
 I
 >
 {
@@ -2953,9 +2958,6 @@ IntervalSetIter
 '
 a
 I
-:
-'
-a
 >
 (
 slice
