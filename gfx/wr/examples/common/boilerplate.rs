@@ -362,7 +362,7 @@ LayoutRect
 LayoutRect
 :
 :
-new
+from_origin_and_size
 (
 LayoutPoint
 :
@@ -425,7 +425,7 @@ LayoutRect
 LayoutRect
 :
 :
-new
+from_origin_and_size
 (
 LayoutPoint
 :

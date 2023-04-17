@@ -242,14 +242,8 @@ content_bounds
 LayoutRect
 :
 :
-new
+from_size
 (
-LayoutPoint
-:
-:
-zero
-(
-)
 LayoutSize
 :
 :
@@ -288,7 +282,7 @@ push_simple_stacking_context
 (
 content_bounds
 .
-origin
+min
 spatial_id
 PrimitiveFlags
 :
