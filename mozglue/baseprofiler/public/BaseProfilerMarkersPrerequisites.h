@@ -4885,8 +4885,8 @@ Location
 :
 unsigned
 {
-markerChart
-markerTable
+MarkerChart
+MarkerTable
 /
 /
 This
@@ -4901,7 +4901,7 @@ in
 the
 header
 .
-timelineOverview
+TimelineOverview
 /
 /
 In
@@ -4944,7 +4944,7 @@ the
 main
 thread
 .
-timelineMemory
+TimelineMemory
 /
 /
 This
@@ -4959,7 +4959,7 @@ in
 the
 header
 .
-timelineIPC
+TimelineIPC
 /
 /
 This
@@ -4974,7 +4974,7 @@ in
 the
 header
 .
-timelineFileIO
+TimelineFileIO
 /
 /
 TODO
@@ -4985,7 +4985,7 @@ not
 supported
 yet
 .
-stackChart
+StackChart
 }
 ;
 /

@@ -1012,7 +1012,7 @@ case
 Location
 :
 :
-markerChart
+MarkerChart
 :
 return
 mozilla
@@ -1031,7 +1031,7 @@ case
 Location
 :
 :
-markerTable
+MarkerTable
 :
 return
 mozilla
@@ -1050,7 +1050,7 @@ case
 Location
 :
 :
-timelineOverview
+TimelineOverview
 :
 return
 mozilla
@@ -1069,7 +1069,7 @@ case
 Location
 :
 :
-timelineMemory
+TimelineMemory
 :
 return
 mozilla
@@ -1088,7 +1088,7 @@ case
 Location
 :
 :
-timelineIPC
+TimelineIPC
 :
 return
 mozilla
@@ -1107,7 +1107,7 @@ case
 Location
 :
 :
-timelineFileIO
+TimelineFileIO
 :
 return
 mozilla
@@ -1126,7 +1126,7 @@ case
 Location
 :
 :
-stackChart
+StackChart
 :
 return
 mozilla
