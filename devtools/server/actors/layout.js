@@ -2958,6 +2958,17 @@ node
 documentElement
 ;
 }
+if
+(
+!
+node
+)
+{
+return
+[
+]
+;
+}
 const
 gridElements
 =
