@@ -3455,11 +3455,6 @@ aPushedStreamId
 )
 ;
 void
-MaybeWarnAboutAppCache
-(
-)
-;
-void
 SetOriginHeader
 (
 )
@@ -3575,12 +3570,6 @@ on
 main
 thread
 .
-nsCOMPtr
-<
-nsIApplicationCache
->
-mApplicationCacheForWrite
-;
 /
 /
 auth
