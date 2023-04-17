@@ -13,7 +13,7 @@ tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -43,11 +43,11 @@ expandtab
 :
 shiftwidth
 =
-4
+2
 :
 tabstop
 =
-4
+2
 :
 *
 /
