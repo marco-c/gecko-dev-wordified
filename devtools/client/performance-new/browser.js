@@ -720,6 +720,11 @@ script
 param
 {
 MinimallyTypedGeckoProfile
+|
+ArrayBuffer
+|
+{
+}
 }
 profile
 -
