@@ -19350,6 +19350,12 @@ handler
 ;
 }
 }
+viewNode
+.
+_addedEventListeners
+=
+false
+;
 }
 }
 if
