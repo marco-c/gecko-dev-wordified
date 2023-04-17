@@ -12226,6 +12226,14 @@ Label
 isProxy
 )
 {
+MOZ_ASSERT
+(
+obj
+!
+=
+output
+)
+;
 Label
 notFunction
 hasCOps
