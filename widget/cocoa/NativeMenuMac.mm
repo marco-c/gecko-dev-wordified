@@ -2804,6 +2804,8 @@ Element
 aItemElement
 Modifiers
 aModifiers
+int16_t
+aButton
 ErrorResult
 &
 aRv
@@ -2927,6 +2929,7 @@ ConvertModifierFlags
 (
 aModifiers
 )
+aButton
 )
 ;
 }

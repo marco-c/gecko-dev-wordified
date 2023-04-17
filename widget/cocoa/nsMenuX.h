@@ -816,6 +816,8 @@ nsMenuItemX
 aItem
 NSEventModifierFlags
 aModifiers
+int16_t
+aButton
 )
 ;
 bool

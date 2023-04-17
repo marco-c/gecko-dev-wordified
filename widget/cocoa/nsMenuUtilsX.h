@@ -155,6 +155,8 @@ nsIContent
 aTargetContent
 NSEventModifierFlags
 aModifierFlags
+int16_t
+aButton
 )
 ;
 NSString

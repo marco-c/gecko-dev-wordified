@@ -981,6 +981,8 @@ DoCommand
 (
 NSEventModifierFlags
 aModifierFlags
+int16_t
+aButton
 )
 {
 /
@@ -1078,6 +1080,7 @@ DispatchCommandTo
 (
 mContent
 aModifierFlags
+aButton
 )
 ;
 }

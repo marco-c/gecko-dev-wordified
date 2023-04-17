@@ -3652,6 +3652,8 @@ nsMenuItemX
 aItem
 NSEventModifierFlags
 aModifiers
+int16_t
+aButton
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
@@ -3697,6 +3699,8 @@ nsMenuItemX
 aItem
 NSEventModifierFlags
 aModifiers
+int16_t
+aButton
 )
 :
 CancelableRunnable
@@ -3712,6 +3716,10 @@ aItem
 mModifiers
 (
 aModifiers
+)
+mButton
+(
+aButton
 )
 {
 }
@@ -3746,6 +3754,7 @@ menuItem
 DoCommand
 (
 mModifiers
+mButton
 )
 ;
 }
@@ -3789,6 +3798,9 @@ Run
 NSEventModifierFlags
 mModifiers
 ;
+int16_t
+mButton
+;
 }
 ;
 RefPtr
@@ -3808,6 +3820,7 @@ move
 aItem
 )
 aModifiers
+aButton
 )
 ;
 mPendingCommandRunnables
