@@ -410,6 +410,14 @@ another
 process
 *
 /
+BLOB_IMAGE
+/
+*
+Recorded
+blob
+image
+*
+/
 }
 ;
 enum

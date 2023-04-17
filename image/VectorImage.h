@@ -148,6 +148,9 @@ MediaFeatureChange
 namespace
 image
 {
+class
+SourceSurfaceBlobImage
+;
 struct
 SVGDrawingParameters
 ;
@@ -444,6 +447,10 @@ override
 ;
 private
 :
+friend
+class
+SourceSurfaceBlobImage
+;
 Tuple
 <
 ImgDrawResult
