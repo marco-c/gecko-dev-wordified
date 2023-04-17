@@ -18215,6 +18215,10 @@ bool
 aIsImgSet
 bool
 aLinkPreload
+const
+TimeStamp
+&
+aInitTimestamp
 )
 ;
 void

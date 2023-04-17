@@ -238,6 +238,7 @@ mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mReferrerPolicyOrIntegrity
 mIsLinkPreload
+mInitTimestamp
 )
 ;
 break

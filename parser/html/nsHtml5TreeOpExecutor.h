@@ -1050,6 +1050,13 @@ nsAString
 aImageReferrerPolicy
 bool
 aLinkPreload
+const
+mozilla
+:
+:
+TimeStamp
+&
+aInitTimestamp
 )
 ;
 void
