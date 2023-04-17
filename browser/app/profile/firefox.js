@@ -4155,7 +4155,7 @@ suggest
 .
 quicksuggest
 "
-true
+false
 )
 ;
 pref
@@ -4242,7 +4242,7 @@ quicksuggest
 .
 showOnboardingDialogAfterNRestarts
 "
-2
+0
 )
 ;
 /

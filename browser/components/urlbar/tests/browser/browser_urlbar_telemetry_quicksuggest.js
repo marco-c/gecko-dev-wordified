@@ -420,10 +420,9 @@ browser
 .
 urlbar
 .
-suggest
-.
-searches
 "
++
+SUGGEST_PREF
 true
 ]
 [
@@ -432,9 +431,9 @@ browser
 .
 urlbar
 .
-quicksuggest
+suggest
 .
-showedOnboardingDialog
+searches
 "
 true
 ]
@@ -2129,9 +2128,10 @@ popPrefEnv
 ;
 UrlbarPrefs
 .
-clear
+set
 (
 SUGGEST_PREF
+true
 )
 ;
 }
