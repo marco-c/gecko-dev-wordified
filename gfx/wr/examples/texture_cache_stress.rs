@@ -576,7 +576,7 @@ push_simple_stacking_context
 (
 bounds
 .
-min
+origin
 space_and_clip
 .
 spatial_id
@@ -805,7 +805,7 @@ new
 LayoutRect
 :
 :
-from_origin_and_size
+new
 (
 LayoutPoint
 :
@@ -894,7 +894,7 @@ new
 LayoutRect
 :
 :
-from_origin_and_size
+new
 (
 LayoutPoint
 :
@@ -975,7 +975,7 @@ new
 LayoutRect
 :
 :
-from_origin_and_size
+new
 (
 LayoutPoint
 :

@@ -1723,6 +1723,10 @@ tile_size
 tile
 )
 .
+to_rect
+(
+)
+.
 cast_unit
 (
 )
@@ -1742,9 +1746,9 @@ descriptor
 .
 rect
 .
+size
+.
 width
-(
-)
 >
 0
 &
@@ -1753,9 +1757,9 @@ descriptor
 .
 rect
 .
+size
+.
 height
-(
-)
 >
 0
 )
