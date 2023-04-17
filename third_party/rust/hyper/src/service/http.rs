@@ -16,7 +16,7 @@ crate
 body
 :
 :
-Payload
+HttpBody
 ;
 use
 crate
@@ -70,7 +70,7 @@ ReqBody
 /
 /
 The
-Payload
+HttpBody
 body
 of
 the
@@ -82,7 +82,7 @@ Response
 type
 ResBody
 :
-Payload
+HttpBody
 ;
 /
 /
@@ -296,7 +296,7 @@ B2
 >
 B2
 :
-Payload
+HttpBody
 T
 :
 :
@@ -451,7 +451,7 @@ B2
 >
 B2
 :
-Payload
+HttpBody
 {
 }
 mod

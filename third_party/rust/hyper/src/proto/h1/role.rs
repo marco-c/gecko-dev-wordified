@@ -2552,7 +2552,7 @@ known_len
 /
 /
 The
-Payload
+HttpBody
 claims
 to
 know
@@ -2726,7 +2726,7 @@ Unknown
 /
 /
 The
-Payload
+HttpBody
 impl
 didn
 '
@@ -6004,7 +6004,7 @@ regardless
 of
 what
 the
-Payload
+HttpBody
 knows
 about
 itself
