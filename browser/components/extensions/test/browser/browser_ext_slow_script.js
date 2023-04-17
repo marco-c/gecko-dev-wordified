@@ -367,8 +367,6 @@ stopButton
 =
 notification
 .
-buttonContainer
-.
 querySelector
 (
 "
