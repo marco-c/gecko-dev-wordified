@@ -380,8 +380,6 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-bool
-aFlushContent
 )
 {
 nsRadioGroupStruct

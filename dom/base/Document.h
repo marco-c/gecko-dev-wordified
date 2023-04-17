@@ -3190,8 +3190,6 @@ aName
 nsIRadioVisitor
 *
 aVisitor
-bool
-aFlushContent
 )
 final
 {
@@ -3203,7 +3201,6 @@ WalkRadioGroup
 (
 aName
 aVisitor
-aFlushContent
 )
 ;
 }
@@ -12527,7 +12524,7 @@ not
 *
 If
 in
-doublt
+doubt
 use
 the
 above
