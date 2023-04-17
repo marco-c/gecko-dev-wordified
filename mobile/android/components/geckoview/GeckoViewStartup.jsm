@@ -705,16 +705,6 @@ GeckoView
 :
 GetPermissionsByURI
 "
-"
-GeckoView
-:
-SetPermission
-"
-"
-GeckoView
-:
-SetPermissionByURI
-"
 ]
 }
 )
