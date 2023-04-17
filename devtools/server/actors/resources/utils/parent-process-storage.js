@@ -2582,7 +2582,7 @@ hostBrowsingContext
 .
 currentWindowGlobal
 .
-documentPrincipal
+documentStoragePrincipal
 ;
 return
 {
