@@ -18999,8 +18999,9 @@ now
 only
 inspector
 webconsole
-and
 netmonitor
+and
+accessibility
 fire
 "
 reloaded
@@ -19029,6 +19030,14 @@ toolId
 =
 "
 netmonitor
+"
+&
+&
+toolId
+!
+=
+"
+accessibility
 "
 )
 {
