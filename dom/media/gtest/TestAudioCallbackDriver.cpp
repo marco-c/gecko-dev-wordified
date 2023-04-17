@@ -1348,7 +1348,7 @@ false
 )
 ;
 const
-int
+size_t
 fallbackIterations
 =
 3
