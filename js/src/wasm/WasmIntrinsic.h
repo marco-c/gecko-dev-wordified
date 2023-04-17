@@ -206,6 +206,15 @@ include
 "
 wasm
 /
+WasmCompileArgs
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmConstants
 .
 h
@@ -421,6 +430,8 @@ Span
 IntrinsicOp
 >
 ops
+Shareable
+sharedMemory
 MutableHandleWasmModuleObject
 result
 )
