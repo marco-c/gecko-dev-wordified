@@ -196,6 +196,18 @@ onDocumentEvent
 (
 name
 time
+/
+/
+This
+is
+only
+passed
+for
+dom
+-
+loading
+event
+shouldBeIgnoredAsRedundantWithTargetAvailable
 )
 =
 >
@@ -209,6 +221,7 @@ resourceType
 DOCUMENT_EVENT
 name
 time
+shouldBeIgnoredAsRedundantWithTargetAvailable
 }
 ]
 )
