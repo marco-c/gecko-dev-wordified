@@ -314,6 +314,8 @@ files
 [
 derive
 (
+Copy
+Clone
 Debug
 PartialEq
 )
