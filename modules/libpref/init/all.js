@@ -8897,12 +8897,12 @@ asyncshutdown
 .
 crash_timeout
 "
-300000
+180000
 )
 ;
 /
 /
-5
+3
 minutes
 #
 endif
