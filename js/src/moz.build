@@ -3270,13 +3270,6 @@ cpp
 "
 vm
 /
-ObjectGroup
-.
-cpp
-"
-"
-vm
-/
 OffThreadPromiseRuntimeState
 .
 cpp
