@@ -191,6 +191,11 @@ WasmCode
 cpp
 "
 "
+WasmCodegenTypes
+.
+cpp
+"
+"
 WasmCompile
 .
 cpp
