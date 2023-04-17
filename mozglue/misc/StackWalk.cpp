@@ -5768,6 +5768,7 @@ next
 namespace
 mozilla
 {
+MFBT_API
 void
 FramePointerStackWalk
 (
@@ -5837,10 +5838,6 @@ FramePointerStackWalk
 (
 MozWalkStackCallback
 aCallback
-const
-void
-*
-aFirstFramePC
 uint32_t
 aMaxFrames
 void
