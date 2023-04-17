@@ -24,10 +24,6 @@ datetime
 import
 timedelta
 from
-six
-import
-ensure_text
-from
 .
 import
 config
@@ -4814,7 +4810,7 @@ file
                                    
 type
 =
-ensure_text
+str
                                    
 help
 =
