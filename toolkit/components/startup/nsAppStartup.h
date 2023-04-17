@@ -358,7 +358,7 @@ has
 already
 ended
 bool
-mWasSilentlyRestarted
+mWasSilentlyStarted
 ;
 /
 /
@@ -367,7 +367,7 @@ this
 startup
 a
 silent
-restart
+start
 ?
 #
 if
