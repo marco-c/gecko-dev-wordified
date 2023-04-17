@@ -156,7 +156,7 @@ results
 )
 =
 =
-10
+11
     
 assert
 results
@@ -273,7 +273,7 @@ rule
 =
 =
 "
-TE02
+TE01
 "
     
 assert
@@ -296,7 +296,7 @@ results
 column
 =
 =
-20
+24
     
 assert
 results
@@ -308,7 +308,7 @@ rule
 =
 =
 "
-TE03
+TE02
 "
     
 assert
@@ -337,6 +337,41 @@ assert
 results
 [
 5
+]
+.
+rule
+=
+=
+"
+TE03
+"
+    
+assert
+results
+[
+5
+]
+.
+lineno
+=
+=
+8
+    
+assert
+results
+[
+5
+]
+.
+column
+=
+=
+20
+    
+assert
+results
+[
+6
 ]
 .
 rule
@@ -349,18 +384,18 @@ TE04
 assert
 results
 [
-5
+6
 ]
 .
 lineno
 =
 =
-10
+11
     
 assert
 results
 [
-5
+6
 ]
 .
 column
@@ -371,7 +406,7 @@ column
 assert
 results
 [
-6
+7
 ]
 .
 rule
@@ -384,18 +419,18 @@ TE05
 assert
 results
 [
-6
+7
 ]
 .
 lineno
 =
 =
-12
+13
     
 assert
 results
 [
-6
+7
 ]
 .
 column
@@ -406,7 +441,7 @@ column
 assert
 results
 [
-7
+8
 ]
 .
 rule
@@ -419,18 +454,18 @@ TE03
 assert
 results
 [
-7
+8
 ]
 .
 lineno
 =
 =
-16
+17
     
 assert
 results
 [
-7
+8
 ]
 .
 column
@@ -441,7 +476,7 @@ column
 assert
 results
 [
-8
+9
 ]
 .
 rule
@@ -454,18 +489,18 @@ TE03
 assert
 results
 [
-8
+9
 ]
 .
 lineno
 =
 =
-24
+25
     
 assert
 results
 [
-8
+9
 ]
 .
 column
@@ -476,7 +511,7 @@ column
 assert
 results
 [
-9
+10
 ]
 .
 rule
@@ -489,18 +524,18 @@ ID02
 assert
 results
 [
-9
+10
 ]
 .
 lineno
 =
 =
-31
+32
     
 assert
 results
 [
-9
+10
 ]
 .
 column
