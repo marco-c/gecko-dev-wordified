@@ -2589,8 +2589,8 @@ mark
 CompilationState
 :
 :
-RewindToken
-token
+CompilationStatePosition
+pos
 ;
 }
 ;
@@ -2615,11 +2615,11 @@ mark
 ;
 m
 .
-token
+pos
 =
 compilationState_
 .
-getRewindToken
+getPosition
 (
 )
 ;
@@ -2649,7 +2649,7 @@ rewind
 (
 m
 .
-token
+pos
 )
 ;
 }
