@@ -21015,6 +21015,11 @@ ForceFlushFromParent
 (
 )
 ;
+if
+(
+wgp
+)
+{
 wgp
 -
 >
@@ -21023,6 +21028,7 @@ NotifySessionStoreUpdatesComplete
 embedder
 )
 ;
+}
 /
 /
 No
@@ -21126,6 +21132,11 @@ embedder
 (
 )
 {
+if
+(
+wgp
+)
+{
 wgp
 -
 >
@@ -21134,6 +21145,7 @@ NotifySessionStoreUpdatesComplete
 embedder
 )
 ;
+}
 }
 )
 ;
