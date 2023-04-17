@@ -1564,7 +1564,7 @@ currency
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 :
 :
 Symbol
@@ -1597,7 +1597,7 @@ currency
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 :
 :
 Code
@@ -1630,7 +1630,7 @@ currency
 NumberFormatOptions
 :
 :
-CurrencyDisplayStyle
+CurrencyDisplay
 :
 :
 Name
