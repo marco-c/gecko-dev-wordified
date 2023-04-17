@@ -15819,6 +15819,9 @@ size
 )
 ;
 #
+ifdef
+__clang__
+#
 pragma
 clang
 diagnostic
@@ -15836,6 +15839,8 @@ code
 -
 return
 "
+#
+endif
 /
 /
 No
@@ -15856,10 +15861,15 @@ NS_OK
 ;
 }
 #
+ifdef
+__clang__
+#
 pragma
 clang
 diagnostic
 pop
+#
+endif
 nsresult
 rv
 ;

@@ -156,6 +156,9 @@ dom
 quota
 {
 #
+ifdef
+__clang__
+#
 pragma
 clang
 diagnostic
@@ -175,6 +178,8 @@ loop
 -
 increment
 "
+#
+endif
 TEST
 (
 Flatten
@@ -302,10 +307,15 @@ FAIL
 }
 }
 #
+ifdef
+__clang__
+#
 pragma
 clang
 diagnostic
 pop
+#
+endif
 TEST
 (
 Flatten
