@@ -322,7 +322,7 @@ menuItems
 if
 (
 !
-gProtonUrlbar
+gProton
 )
 {
 /
@@ -728,7 +728,7 @@ open
 let
 manageItemIndex
 =
-gProtonUrlbar
+gProton
 ?
 0
 :
@@ -862,7 +862,7 @@ urlbarButton
 if
 (
 !
-gProtonUrlbar
+gProton
 )
 {
 /
@@ -2307,7 +2307,7 @@ Extension
 if
 (
 !
-gProtonUrlbar
+gProton
 )
 {
 items
