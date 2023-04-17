@@ -1287,7 +1287,6 @@ GetLine
 int32_t
 aLineNumber
 )
-const
 override
 ;
 /
@@ -1485,7 +1484,6 @@ bool
 *
 aPosIsAfterLastFrame
 )
-const
 override
 ;
 /
