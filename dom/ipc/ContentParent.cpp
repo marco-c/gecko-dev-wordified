@@ -11333,6 +11333,16 @@ Clear
 (
 )
 ;
+Unused
+<
+<
+SendInitNextGenLocalStorageEnabled
+(
+NextGenLocalStorageEnabled
+(
+)
+)
+;
 }
 void
 ContentParent
