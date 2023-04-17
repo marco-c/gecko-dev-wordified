@@ -87,6 +87,9 @@ createMock
 "
 test
 "
+"
+app
+"
 [
 "
 en
