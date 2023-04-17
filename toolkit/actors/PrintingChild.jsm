@@ -1022,6 +1022,14 @@ ex
 )
 ;
 }
+await
+new
+Promise
+(
+resolve
+=
+>
+{
 /
 /
 We
@@ -1186,6 +1194,10 @@ ReaderModeReady
 "
 )
 ;
+resolve
+(
+)
+;
 }
 ;
 contentWindow
@@ -1244,6 +1256,10 @@ ReaderModeReady
 "
 )
 ;
+resolve
+(
+)
+;
 }
 100
 )
@@ -1262,6 +1278,10 @@ Preview
 :
 ReaderModeReady
 "
+)
+;
+resolve
+(
 )
 ;
 }
@@ -2167,6 +2187,9 @@ block
 "
 ;
 }
+}
+)
+;
 }
 enterPrintPreview
 (
