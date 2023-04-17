@@ -251,11 +251,7 @@ masm
 .
 reserveStack
 (
-sizeof
-(
-void
-*
-)
+Simd128DataSize
 )
 ;
 pushedAtCycle_
@@ -982,7 +978,7 @@ scratch
 =
 temps
 .
-AcquireD
+AcquireQ
 (
 )
 ;
