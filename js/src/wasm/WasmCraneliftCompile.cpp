@@ -4024,14 +4024,6 @@ i
 .
 index
 ;
-mozilla
-:
-:
-Unused
-<
-<
-funcIndex
-;
 JitSpew
 (
 JitSpew_Codegen
