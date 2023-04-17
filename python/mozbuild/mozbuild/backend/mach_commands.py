@@ -111,11 +111,13 @@ Command
 "
 ide
 "
+        
 category
 =
 "
 devenv
 "
+        
 description
 =
 "
@@ -127,6 +129,12 @@ launch
 an
 IDE
 .
+"
+        
+virtualenv_name
+=
+"
+build
 "
     
 )
