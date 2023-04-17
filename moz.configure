@@ -4384,6 +4384,13 @@ suffix
 )
 )
 )
+set_config
+(
+"
+CLANG_PLUGIN
+"
+clang_plugin_path
+)
 add_old_configure_assignment
 (
 "
