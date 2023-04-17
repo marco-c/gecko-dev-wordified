@@ -4376,7 +4376,7 @@ event
 )
 ;
 }
-bool
+PreventDefaultResult
 APZCCallbackHelper
 :
 :
@@ -4409,7 +4409,10 @@ aPointerId
 NS_ENSURE_TRUE
 (
 aPresShell
-true
+PreventDefaultResult
+:
+:
+ByContent
 )
 ;
 PreventDefaultResult
@@ -4460,12 +4463,6 @@ false
 ;
 return
 preventDefaultResult
-!
-=
-PreventDefaultResult
-:
-:
-No
 ;
 }
 void

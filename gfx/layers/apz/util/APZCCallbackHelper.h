@@ -183,6 +183,12 @@ mozilla
 class
 PresShell
 ;
+enum
+class
+PreventDefaultResult
+:
+uint8_t
+;
 namespace
 layers
 {
@@ -809,7 +815,7 @@ coordinates
 /
 MOZ_CAN_RUN_SCRIPT
 static
-bool
+PreventDefaultResult
 DispatchMouseEvent
 (
 PresShell
