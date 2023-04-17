@@ -831,6 +831,8 @@ null
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -866,6 +868,8 @@ null
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -902,6 +906,8 @@ null
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -938,6 +944,8 @@ null
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -976,6 +984,8 @@ externref
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -1013,6 +1023,8 @@ from
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -1052,6 +1064,8 @@ externref
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -1090,6 +1104,8 @@ from
 out
 of
 bounds
+table
+access
 )
 ;
 /

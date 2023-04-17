@@ -717,7 +717,7 @@ funcref
 09
 \
 \
-09
+07
 \
 \
 01
@@ -729,18 +729,6 @@ section
 with
 1
 entry
-"
-\
-\
-02
-"
-;
-;
-Element
-with
-explicit
-table
-index
 "
 \
 \
@@ -768,9 +756,6 @@ bytes
 \
 \
 0b
-\
-\
-00
 \
 \
 00
@@ -803,7 +788,7 @@ leb128
 .
 wast
 :
-41
+40
 let
 6
 =
@@ -898,7 +883,7 @@ leb128
 .
 wast
 :
-49
+48
 let
 7
 =
@@ -993,7 +978,7 @@ leb128
 .
 wast
 :
-57
+56
 let
 8
 =
@@ -1109,7 +1094,7 @@ leb128
 .
 wast
 :
-66
+65
 let
 9
 =
@@ -1225,7 +1210,7 @@ leb128
 .
 wast
 :
-75
+74
 let
 10
 =
@@ -1428,7 +1413,7 @@ leb128
 .
 wast
 :
-87
+86
 let
 11
 =
@@ -1631,7 +1616,7 @@ leb128
 .
 wast
 :
-99
+98
 let
 12
 =
@@ -1834,7 +1819,7 @@ leb128
 .
 wast
 :
-111
+110
 let
 13
 =
@@ -1972,7 +1957,7 @@ leb128
 .
 wast
 :
-120
+119
 let
 14
 =
@@ -2159,7 +2144,7 @@ leb128
 .
 wast
 :
-133
+132
 let
 15
 =
@@ -2346,7 +2331,7 @@ leb128
 .
 wast
 :
-146
+145
 let
 16
 =
@@ -2488,7 +2473,7 @@ leb128
 .
 wast
 :
-158
+157
 let
 17
 =
@@ -2588,7 +2573,7 @@ leb128
 .
 wast
 :
-165
+164
 let
 18
 =
@@ -2689,7 +2674,7 @@ leb128
 .
 wast
 :
-172
+171
 let
 19
 =
@@ -2798,7 +2783,7 @@ leb128
 .
 wast
 :
-179
+178
 let
 20
 =
@@ -2908,7 +2893,7 @@ leb128
 .
 wast
 :
-187
+186
 let
 21
 =
@@ -3012,7 +2997,7 @@ leb128
 .
 wast
 :
-194
+193
 let
 22
 =
@@ -3117,7 +3102,7 @@ leb128
 .
 wast
 :
-201
+200
 let
 23
 =
@@ -3245,7 +3230,7 @@ leb128
 .
 wast
 :
-208
+207
 let
 24
 =
@@ -3374,7 +3359,7 @@ leb128
 .
 wast
 :
-217
+216
 assert_malformed
 (
 (
@@ -3479,7 +3464,7 @@ leb128
 .
 wast
 :
-225
+224
 assert_malformed
 (
 (
@@ -3594,7 +3579,7 @@ leb128
 .
 wast
 :
-234
+233
 assert_malformed
 (
 (
@@ -3753,7 +3738,7 @@ leb128
 .
 wast
 :
-245
+244
 assert_malformed
 (
 (
@@ -3915,7 +3900,7 @@ leb128
 .
 wast
 :
-256
+255
 assert_malformed
 (
 (
@@ -4031,7 +4016,7 @@ leb128
 .
 wast
 :
-267
+266
 assert_malformed
 (
 (
@@ -4147,7 +4132,7 @@ leb128
 .
 wast
 :
-278
+277
 assert_malformed
 (
 (
@@ -4284,7 +4269,7 @@ leb128
 .
 wast
 :
-290
+289
 assert_malformed
 (
 (
@@ -4421,7 +4406,7 @@ leb128
 .
 wast
 :
-302
+301
 assert_malformed
 (
 (
@@ -4645,7 +4630,7 @@ leb128
 .
 wast
 :
-317
+316
 assert_malformed
 (
 (
@@ -4869,7 +4854,7 @@ leb128
 .
 wast
 :
-332
+331
 assert_malformed
 (
 (
@@ -5094,7 +5079,7 @@ leb128
 .
 wast
 :
-347
+346
 assert_malformed
 (
 (
@@ -5253,7 +5238,7 @@ leb128
 .
 wast
 :
-359
+358
 assert_malformed
 (
 (
@@ -5461,7 +5446,7 @@ leb128
 .
 wast
 :
-375
+374
 assert_malformed
 (
 (
@@ -5670,7 +5655,7 @@ leb128
 .
 wast
 :
-391
+390
 assert_malformed
 (
 (
@@ -5834,7 +5819,7 @@ leb128
 .
 wast
 :
-404
+403
 assert_malformed
 (
 (
@@ -6071,7 +6056,7 @@ leb128
 .
 wast
 :
-423
+422
 assert_malformed
 (
 (
@@ -6308,7 +6293,7 @@ leb128
 .
 wast
 :
-442
+441
 assert_malformed
 (
 (
@@ -6551,7 +6536,7 @@ leb128
 .
 wast
 :
-461
+460
 assert_malformed
 (
 (
@@ -6794,7 +6779,7 @@ leb128
 .
 wast
 :
-482
+481
 assert_malformed
 (
 (
@@ -6919,7 +6904,7 @@ leb128
 .
 wast
 :
-492
+491
 assert_malformed
 (
 (
@@ -7045,7 +7030,7 @@ leb128
 .
 wast
 :
-503
+502
 assert_malformed
 (
 (
@@ -7185,7 +7170,7 @@ leb128
 .
 wast
 :
-513
+512
 assert_malformed
 (
 (
@@ -7326,7 +7311,7 @@ leb128
 .
 wast
 :
-525
+524
 assert_malformed
 (
 (
@@ -7426,7 +7411,7 @@ leb128
 .
 wast
 :
-533
+532
 assert_malformed
 (
 (
@@ -7527,7 +7512,7 @@ leb128
 .
 wast
 :
-541
+540
 assert_malformed
 (
 (
@@ -7637,7 +7622,7 @@ leb128
 .
 wast
 :
-550
+549
 assert_malformed
 (
 (
@@ -7748,7 +7733,7 @@ leb128
 .
 wast
 :
-559
+558
 assert_malformed
 (
 (
@@ -7902,7 +7887,7 @@ leb128
 .
 wast
 :
-570
+569
 assert_malformed
 (
 (
@@ -8059,7 +8044,7 @@ leb128
 .
 wast
 :
-581
+580
 assert_malformed
 (
 (
@@ -8170,7 +8155,7 @@ leb128
 .
 wast
 :
-592
+591
 assert_malformed
 (
 (
@@ -8281,7 +8266,7 @@ leb128
 .
 wast
 :
-603
+602
 assert_malformed
 (
 (
@@ -8413,7 +8398,7 @@ leb128
 .
 wast
 :
-615
+614
 assert_malformed
 (
 (
@@ -8545,7 +8530,7 @@ leb128
 .
 wast
 :
-627
+626
 assert_malformed
 (
 (
@@ -8764,7 +8749,7 @@ leb128
 .
 wast
 :
-642
+641
 assert_malformed
 (
 (
@@ -8983,7 +8968,7 @@ leb128
 .
 wast
 :
-657
+656
 assert_malformed
 (
 (
@@ -9203,7 +9188,7 @@ leb128
 .
 wast
 :
-672
+671
 assert_malformed
 (
 (
@@ -9357,7 +9342,7 @@ leb128
 .
 wast
 :
-685
+684
 assert_malformed
 (
 (
@@ -9560,7 +9545,7 @@ leb128
 .
 wast
 :
-701
+700
 assert_malformed
 (
 (
@@ -9763,7 +9748,7 @@ leb128
 .
 wast
 :
-717
+716
 assert_malformed
 (
 (
@@ -9922,7 +9907,7 @@ leb128
 .
 wast
 :
-730
+729
 assert_malformed
 (
 (
@@ -10154,7 +10139,7 @@ leb128
 .
 wast
 :
-749
+748
 assert_malformed
 (
 (
@@ -10387,7 +10372,7 @@ leb128
 .
 wast
 :
-768
+767
 assert_malformed
 (
 (
@@ -10615,7 +10600,7 @@ leb128
 .
 wast
 :
-786
+785
 assert_malformed
 (
 (
@@ -10848,7 +10833,7 @@ leb128
 .
 wast
 :
-805
+804
 assert_malformed
 (
 (
@@ -11086,7 +11071,7 @@ leb128
 .
 wast
 :
-824
+823
 assert_malformed
 (
 (
@@ -11325,7 +11310,7 @@ leb128
 .
 wast
 :
-843
+842
 assert_malformed
 (
 (
@@ -11563,7 +11548,7 @@ leb128
 .
 wast
 :
-862
+861
 assert_malformed
 (
 (
@@ -11802,7 +11787,7 @@ leb128
 .
 wast
 :
-884
+883
 assert_malformed
 (
 (
@@ -11922,7 +11907,7 @@ leb128
 .
 wast
 :
-894
+893
 assert_malformed
 (
 (
@@ -12043,7 +12028,7 @@ leb128
 .
 wast
 :
-904
+903
 assert_malformed
 (
 (
@@ -12164,7 +12149,7 @@ leb128
 .
 wast
 :
-914
+913
 assert_malformed
 (
 (
@@ -12286,7 +12271,7 @@ leb128
 .
 wast
 :
-925
+924
 assert_malformed
 (
 (
@@ -12421,7 +12406,7 @@ leb128
 .
 wast
 :
-935
+934
 assert_malformed
 (
 (
@@ -12557,7 +12542,7 @@ leb128
 .
 wast
 :
-945
+944
 assert_malformed
 (
 (
@@ -12693,7 +12678,7 @@ leb128
 .
 wast
 :
-955
+954
 assert_malformed
 (
 (

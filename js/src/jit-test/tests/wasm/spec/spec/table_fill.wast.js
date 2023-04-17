@@ -1400,6 +1400,8 @@ externref
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -1551,6 +1553,8 @@ null
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -1585,6 +1589,8 @@ null
 out
 of
 bounds
+table
+access
 )
 ;
 /

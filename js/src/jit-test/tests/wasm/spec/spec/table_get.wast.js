@@ -605,6 +605,8 @@ externref
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -639,6 +641,8 @@ funcref
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -674,6 +678,8 @@ externref
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -709,6 +715,8 @@ funcref
 out
 of
 bounds
+table
+access
 )
 ;
 /

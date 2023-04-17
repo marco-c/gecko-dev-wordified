@@ -2685,6 +2685,8 @@ init_passive
 out
 of
 bounds
+memory
+access
 )
 ;
 /
@@ -2791,6 +2793,8 @@ init_active
 out
 of
 bounds
+memory
+access
 )
 ;
 /
@@ -4019,6 +4023,8 @@ init_passive
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -4125,6 +4131,8 @@ init_active
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -5198,6 +5206,8 @@ copy
 out
 of
 bounds
+table
+access
 )
 ;
 /
@@ -5232,5 +5242,7 @@ copy
 out
 of
 bounds
+table
+access
 )
 ;
