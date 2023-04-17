@@ -7355,7 +7355,7 @@ firstLeafChildOfNextNode
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 splitResult
@@ -7893,7 +7893,7 @@ firstLeafChildOfPreviousNode
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 splitResultAtStartOfNextNode

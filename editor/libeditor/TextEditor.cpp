@@ -7044,7 +7044,7 @@ firstLeafChild
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 mRootElement

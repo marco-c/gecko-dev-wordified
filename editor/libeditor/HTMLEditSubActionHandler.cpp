@@ -36687,7 +36687,7 @@ child
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 *
 wsScannerAtEnd
@@ -36995,7 +36995,7 @@ child
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 wsScannerAtStart
@@ -47521,7 +47521,7 @@ child
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 aParentDivOrP
 {

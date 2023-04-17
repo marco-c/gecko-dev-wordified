@@ -3753,7 +3753,7 @@ aContent
 *
 *
 *
-GetLastLeafChild
+GetLastLeafContent
 (
 )
 returns
@@ -3765,8 +3765,8 @@ aNode
 .
 It
 depends
-on
 *
+on
 aLeafNodeTypes
 whether
 this
@@ -3778,6 +3778,7 @@ are
 treated
 as
 leaf
+*
 nodes
 .
 *
@@ -3873,7 +3874,7 @@ LeafNodeType
 static
 nsIContent
 *
-GetLastLeafChild
+GetLastLeafContent
 (
 nsINode
 &
@@ -3992,7 +3993,7 @@ nullptr
 *
 *
 *
-GetFirstLeafChild
+GetFirstLeafContent
 (
 )
 returns
@@ -4004,8 +4005,8 @@ aNode
 .
 It
 depends
-on
 *
+on
 aLeafNodeTypes
 whether
 this
@@ -4016,10 +4017,10 @@ block
 child
 or
 treat
-*
 block
 as
 a
+*
 leaf
 .
 *
@@ -4027,7 +4028,7 @@ leaf
 static
 nsIContent
 *
-GetFirstLeafChild
+GetFirstLeafContent
 (
 const
 nsINode
@@ -4544,7 +4545,7 @@ child
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 nextContent
@@ -4893,7 +4894,7 @@ child
 HTMLEditUtils
 :
 :
-GetFirstLeafChild
+GetFirstLeafContent
 (
 *
 nextContent
@@ -5319,7 +5320,7 @@ child
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 *
 previousContent
@@ -5684,7 +5685,7 @@ child
 HTMLEditUtils
 :
 :
-GetLastLeafChild
+GetLastLeafContent
 (
 *
 previousContent
