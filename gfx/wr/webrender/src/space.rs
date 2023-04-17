@@ -1271,10 +1271,6 @@ rect
 snap
 (
 )
-.
-to_box2d
-(
-)
 ;
 scale_offset
 .
@@ -1282,10 +1278,6 @@ unmap_rect
 (
 &
 snapped_device_rect
-.
-to_rect
-(
-)
 )
 }
 None
