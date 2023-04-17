@@ -2011,7 +2011,7 @@ aInfo
 mPrincipal
 -
 >
-GetPrepath
+GetPrePath
 (
 origin
 )

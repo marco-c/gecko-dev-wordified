@@ -5190,7 +5190,7 @@ NS_IMETHODIMP
 BasePrincipal
 :
 :
-GetPrepath
+GetPrePath
 (
 nsACString
 &

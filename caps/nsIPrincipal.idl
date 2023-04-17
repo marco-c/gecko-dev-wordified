@@ -1650,7 +1650,7 @@ host
 *
 Returns
 the
-prepath
+prePath
 of
 the
 principals
@@ -1680,7 +1680,7 @@ portnumber
 readonly
 attribute
 ACString
-prepath
+prePath
 ;
 /
 *
