@@ -7836,6 +7836,9 @@ void
 TRRService
 :
 :
+ConfirmationContext
+:
+:
 CompleteConfirmation
 (
 nsresult
@@ -7849,6 +7852,11 @@ aTRRRequest
 MutexAutoLock
 lock
 (
+OwningObject
+(
+)
+-
+>
 mLock
 )
 ;
@@ -7865,8 +7873,6 @@ task
 .
 if
 (
-mConfirmation
-.
 mTask
 !
 =
@@ -7878,8 +7884,6 @@ return
 }
 MOZ_ASSERT
 (
-mConfirmation
-.
 State
 (
 )
@@ -7888,8 +7892,6 @@ State
 CONFIRM_TRYING_OK
 |
 |
-mConfirmation
-.
 State
 (
 )
@@ -7900,8 +7902,6 @@ CONFIRM_TRYING_FAILED
 ;
 if
 (
-mConfirmation
-.
 State
 (
 )
@@ -7910,8 +7910,6 @@ State
 CONFIRM_TRYING_OK
 &
 &
-mConfirmation
-.
 State
 (
 )
@@ -7923,8 +7921,6 @@ CONFIRM_TRYING_FAILED
 return
 ;
 }
-mConfirmation
-.
 RequestCompleted
 (
 aStatus
@@ -7938,8 +7934,6 @@ ChannelStatus
 ;
 MOZ_ASSERT
 (
-mConfirmation
-.
 mTask
 )
 ;
@@ -7951,6 +7945,11 @@ aStatus
 )
 )
 {
+OwningObject
+(
+)
+-
+>
 HandleConfirmationEvent
 (
 ConfirmationEvent
@@ -7963,6 +7962,11 @@ lock
 }
 else
 {
+OwningObject
+(
+)
+-
+>
 HandleConfirmationEvent
 (
 ConfirmationEvent
@@ -7990,13 +7994,16 @@ X
 \
 n
 "
+OwningObject
+(
+)
+-
+>
 mPrivateURI
 .
 get
 (
 )
-mConfirmation
-.
 State
 (
 )
@@ -8011,8 +8018,6 @@ aStatus
 }
 if
 (
-mConfirmation
-.
 State
 (
 )
@@ -8030,8 +8035,6 @@ start
 new
 confirmation
 context
-mConfirmation
-.
 RecordEvent
 (
 "
@@ -8059,6 +8062,11 @@ anymore
 auto
 bl
 =
+OwningObject
+(
+)
+-
+>
 mTRRBLStorage
 .
 Lock
@@ -8077,8 +8085,6 @@ else
 {
 MOZ_ASSERT
 (
-mConfirmation
-.
 State
 (
 )
@@ -8104,8 +8110,6 @@ ProviderKey
 (
 )
 (
-mConfirmation
-.
 State
 (
 )
@@ -8232,6 +8236,8 @@ TRR
 Confirmation
 )
 {
+mConfirmation
+.
 CompleteConfirmation
 (
 status
