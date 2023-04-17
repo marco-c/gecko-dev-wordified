@@ -2713,13 +2713,6 @@ debugger
 ]
             
 )
-.
-encode
-(
-"
-ascii
-"
-)
             
 if
 extra_args
