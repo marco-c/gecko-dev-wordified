@@ -1715,7 +1715,7 @@ EnforcePoolSizeLimit
 const
 MutexAutoLock
 &
-aLock
+aProofOfLock
 )
 {
 /
@@ -1783,7 +1783,7 @@ PrepareBufferForFrame
 const
 MutexAutoLock
 &
-aLock
+aProofOfLock
 )
 {
 if
@@ -2057,7 +2057,7 @@ HandlePartialUpdate
 const
 MutexAutoLock
 &
-aLock
+aProofOfLock
 const
 LayoutDeviceIntRegion
 &

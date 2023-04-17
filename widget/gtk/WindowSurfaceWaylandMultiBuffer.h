@@ -406,7 +406,7 @@ EnforcePoolSizeLimit
 const
 MutexAutoLock
 &
-aLock
+aProofOfLock
 )
 ;
 void
@@ -415,7 +415,7 @@ PrepareBufferForFrame
 const
 MutexAutoLock
 &
-aLock
+aProofOfLock
 )
 ;
 void
@@ -424,7 +424,7 @@ HandlePartialUpdate
 const
 MutexAutoLock
 &
-aLock
+aProofOfLock
 const
 LayoutDeviceIntRegion
 &
