@@ -3630,7 +3630,7 @@ aLayoutWidgetHierarchy
 )
 ;
 void
-WaylandPopupHierarchyMarkByLayout
+WaylandPopupHierarchyValidateByLayout
 (
 nsTArray
 <
