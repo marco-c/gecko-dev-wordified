@@ -2919,7 +2919,7 @@ aText
 return
 nextWSScanResult
 .
-InNormalWhiteSpacesOrText
+InVisibleOrCollapsibleCharacters
 (
 )
 &

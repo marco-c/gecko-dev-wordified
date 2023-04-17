@@ -13092,7 +13092,7 @@ if
 (
 backwardScanFromPointToCreateNewBRElementResult
 .
-InNormalWhiteSpacesOrText
+InVisibleOrCollapsibleCharacters
 (
 )
 |
@@ -13182,7 +13182,7 @@ if
 (
 forwardScanFromPointAfterNewBRElementResult
 .
-InNormalWhiteSpacesOrText
+InVisibleOrCollapsibleCharacters
 (
 )
 |
@@ -37327,7 +37327,7 @@ if
 (
 scanResultAtEnd
 .
-ReachedSomething
+ReachedSomethingNonTextContent
 (
 )
 )
@@ -37635,7 +37635,7 @@ if
 (
 scanResultAtStart
 .
-ReachedSomething
+ReachedSomethingNonTextContent
 (
 )
 )

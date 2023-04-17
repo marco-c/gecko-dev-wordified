@@ -5452,7 +5452,7 @@ if
 (
 scanResultInTextNode
 .
-InNormalWhiteSpacesOrText
+InVisibleOrCollapsibleCharacters
 (
 )
 &

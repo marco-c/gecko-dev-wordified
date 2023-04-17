@@ -2955,7 +2955,7 @@ if
 (
 backwardScanFromPointToCaretResult
 .
-InNormalWhiteSpacesOrText
+InVisibleOrCollapsibleCharacters
 (
 )
 )
