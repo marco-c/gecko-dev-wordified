@@ -172,12 +172,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 }
 return
-mDelegate
--
->
-CheckListenerChain
-(
-)
+NS_OK
 ;
 }
 NS_IMETHODIMP
