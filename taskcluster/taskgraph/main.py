@@ -2274,8 +2274,29 @@ avoid
 interleaving
 .
         
+basename
+=
+os
+.
+path
+.
+basename
+(
+os
+.
+getcwd
+(
+)
+)
+        
 logdir
 =
+os
+.
+path
+.
+join
+(
 appdirs
 .
 user_log_dir
@@ -2283,6 +2304,8 @@ user_log_dir
 "
 taskgraph
 "
+)
+basename
 )
         
 if
