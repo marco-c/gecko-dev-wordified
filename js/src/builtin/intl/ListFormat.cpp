@@ -1790,7 +1790,7 @@ JSString
 *
 partStr
 =
-NewStringCopyN
+NewStringCopy
 <
 CanGC
 >
@@ -1799,17 +1799,6 @@ cx
 part
 .
 second
-.
-data
-(
-)
-part
-.
-second
-.
-size
-(
-)
 )
 ;
 if
