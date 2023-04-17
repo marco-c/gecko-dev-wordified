@@ -47285,12 +47285,15 @@ false
 }
 debuggeeWouldRunCtor
 =
+ObjectValue
+(
 global
 -
 >
 getConstructor
 (
 JSProto_DebuggeeWouldRun
+)
 )
 ;
 RootedId

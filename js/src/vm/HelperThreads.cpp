@@ -6649,10 +6649,6 @@ getPrototype
 (
 key
 )
-.
-toObject
-(
-)
 )
 ;
 return

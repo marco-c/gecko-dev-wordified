@@ -49034,10 +49034,6 @@ getPrototype
 (
 JSProto_WasmMemory
 )
-.
-toObject
-(
-)
 )
 ;
 newObj

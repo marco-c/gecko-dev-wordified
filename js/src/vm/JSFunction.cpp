@@ -5500,10 +5500,6 @@ getPrototype
 (
 JSProto_Function
 )
-.
-toObject
-(
-)
 )
 ;
 RootedObject
@@ -5633,10 +5629,6 @@ self
 getPrototype
 (
 JSProto_Object
-)
-.
-toObject
-(
 )
 )
 ;
