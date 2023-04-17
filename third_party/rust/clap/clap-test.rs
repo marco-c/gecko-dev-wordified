@@ -206,8 +206,6 @@ b
 println
 !
 (
-"
-"
 )
 ;
 println
@@ -548,7 +546,7 @@ Legacy
 tests
 from
 the
-pyhton
+Python
 script
 days
 pub
@@ -865,7 +863,7 @@ two
 ]
 '
 Tests
-mutliple
+multiple
 values
 not
 mult
@@ -893,7 +891,7 @@ two
 ]
 '
 Tests
-mutliple
+multiple
 values
 and
 mult
