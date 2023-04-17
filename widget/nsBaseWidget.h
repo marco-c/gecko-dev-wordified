@@ -1297,16 +1297,19 @@ GetCompositorVsyncDispatcher
 (
 )
 ;
+virtual
 void
 CreateCompositorVsyncDispatcher
 (
 )
 ;
+virtual
 void
 CreateCompositor
 (
 )
 ;
+virtual
 void
 CreateCompositor
 (
@@ -1316,6 +1319,7 @@ int
 aHeight
 )
 ;
+virtual
 void
 SetCompositorWidgetDelegate
 (
