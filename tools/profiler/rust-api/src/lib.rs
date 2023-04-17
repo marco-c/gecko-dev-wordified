@@ -65,5 +65,11 @@ Rust
 API
 mod
 thread
-{
-}
+;
+pub
+use
+thread
+:
+:
+*
+;
