@@ -124425,6 +124425,22 @@ h
 =
 True
         
+#
+JS_GetOwnPropertyDescriptorById
+        
+bindingHeaders
+[
+"
+js
+/
+PropertyDescriptor
+.
+h
+"
+]
+=
+True
+        
 def
 descriptorDeprecated
 (

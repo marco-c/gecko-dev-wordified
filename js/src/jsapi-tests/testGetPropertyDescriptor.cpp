@@ -71,6 +71,7 @@ JS
 :
 :
 FromPropertyDescriptor
+JS_GetPropertyDescriptor
 #
 include
 "
