@@ -6168,7 +6168,7 @@ noOverwrite
 aOptions
 .
 mMode
-!
+=
 =
 WriteMode
 :
