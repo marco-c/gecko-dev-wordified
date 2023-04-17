@@ -579,6 +579,8 @@ const
 ImageF
 &
 src
+size_t
+output_xsize
 ThreadPool
 *
 pool
