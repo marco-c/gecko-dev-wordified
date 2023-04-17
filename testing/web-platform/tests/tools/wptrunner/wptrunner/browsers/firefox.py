@@ -789,13 +789,62 @@ specialpowers_path
 "
 ]
 }
+class
+WdSpecProfile
+(
+object
+)
+:
+    
+def
+__init__
+(
+self
+profile
+)
+:
+        
+self
+.
+profile
+=
+profile
+    
+def
+__enter__
+(
+self
+)
+:
+        
+return
+self
+    
+def
+__exit__
+(
+self
+*
+args
+*
+*
+kwargs
+)
+:
+        
+self
+.
+profile
+.
+cleanup
+(
+)
 def
 executor_kwargs
 (
 logger
 test_type
-server_config
-cache_manager
+test_environment
 run_info_data
                     
 *
@@ -809,9 +858,7 @@ executor_kwargs
 base_executor_kwargs
 (
 test_type
-server_config
-                                           
-cache_manager
+test_environment
 run_info_data
                                            
 *
@@ -1012,7 +1059,9 @@ prefs_root
 "
 ]
                                          
-server_config
+test_environment
+.
+config
                                          
 test_type
                                          
@@ -1058,7 +1107,9 @@ certutil_binary
 "
 ]
                                          
-server_config
+test_environment
+.
+config
 .
 ssl_config
 [
@@ -1172,21 +1223,17 @@ profile
 ]
 )
             
-#
-Prevent
-the
+test_environment
+.
+env_extras_cms
+.
+append
+(
+WdSpecProfile
+(
 profile
-being
-deleted
-            
-executor_kwargs
-[
-"
-profile
-"
-]
-=
-profile
+)
+)
         
 capabilities
 [
@@ -2948,6 +2995,14 @@ instance
 cleanup
 (
 )
+        
+self
+.
+base_profile
+.
+cleanup
+(
+)
 class
 PreloadInstanceManager
 (
@@ -3159,6 +3214,14 @@ skip_marionette
 )
                 
 instance
+.
+cleanup
+(
+)
+        
+self
+.
+base_profile
 .
 cleanup
 (
@@ -3633,17 +3696,13 @@ self
 )
 :
         
-#
-mozprofile
-handles
-deleting
-the
-profile
-when
-the
-refcount
-reaches
-0
+self
+.
+runner
+.
+cleanup
+(
+)
         
 self
 .
@@ -4577,6 +4636,10 @@ FirefoxProfile
 preferences
 =
 preferences
+                                 
+restore
+=
+False
                                  
 *
 *
