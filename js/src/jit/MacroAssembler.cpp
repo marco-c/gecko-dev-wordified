@@ -15064,7 +15064,7 @@ jitCodeRaw_
 "
 )
 ;
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -15072,7 +15072,7 @@ func
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )
@@ -15114,7 +15114,7 @@ failure
 /
 Load
 JitScript
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -15122,7 +15122,7 @@ func
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )
@@ -24435,7 +24435,7 @@ an
 interpreted
 function
 .
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -24443,7 +24443,7 @@ func
 JSFunction
 :
 :
-offsetOfScript
+offsetOfJitInfoOrScript
 (
 )
 )

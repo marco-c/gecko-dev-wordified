@@ -1996,7 +1996,7 @@ expectedOffset
 ;
 masm
 .
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -2004,7 +2004,7 @@ fun
 JSFunction
 :
 :
-offsetOfBaseScript
+offsetOfJitInfoOrScript
 (
 )
 )
@@ -15932,7 +15932,7 @@ ignoresReturnValue
 {
 masm
 .
-loadPtr
+loadPrivate
 (
 Address
 (
@@ -15940,7 +15940,7 @@ calleeReg
 JSFunction
 :
 :
-offsetOfJitInfo
+offsetOfJitInfoOrScript
 (
 )
 )
