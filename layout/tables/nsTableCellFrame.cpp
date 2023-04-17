@@ -1909,7 +1909,7 @@ LookAndFeel
 ColorID
 :
 :
-Highlight
+TextSelectBackground
 this
 )
 ;
