@@ -416,7 +416,7 @@ Equals
 const
 nsHttpAuthIdentity
 &
-other
+ident
 )
 const
 ;
@@ -1633,7 +1633,7 @@ port
 const
 nsACString
 &
-directory
+path
 const
 nsACString
 &
@@ -1641,7 +1641,7 @@ realm
 const
 nsACString
 &
-credentials
+creds
 const
 nsACString
 &

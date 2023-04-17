@@ -411,6 +411,7 @@ IsEmpty
 (
 )
 )
+{
 rv
 =
 auth_cache
@@ -427,7 +428,9 @@ originSuffix
 entry
 )
 ;
+}
 else
+{
 rv
 =
 auth_cache
@@ -444,6 +447,7 @@ originSuffix
 entry
 )
 ;
+}
 if
 (
 NS_FAILED
