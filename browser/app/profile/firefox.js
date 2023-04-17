@@ -6316,9 +6316,9 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+sortByRecentlyUsed
 "
-true
+false
 )
 ;
 /
@@ -13871,7 +13871,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+sortByRecentlyUsed
 "
 true
 )
