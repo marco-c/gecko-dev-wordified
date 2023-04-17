@@ -183,6 +183,8 @@ nsIObserver
 public
 nsITimerCallback
 public
+nsINamed
+public
 nsSupportsWeakReference
 {
 public
@@ -191,6 +193,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISTORAGEACTIVITYSERVICE
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 /
 /
 Main

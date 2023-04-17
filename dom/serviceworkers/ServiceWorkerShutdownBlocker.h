@@ -383,6 +383,8 @@ public
 nsIAsyncShutdownBlocker
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -404,6 +406,7 @@ kInvalidShutdownStateId
 NS_DECL_ISUPPORTS
 NS_DECL_NSIASYNCSHUTDOWNBLOCKER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 /
 *
 *

@@ -156,6 +156,8 @@ public
 nsIObserver
 public
 nsITimerCallback
+public
+nsINamed
 {
 public
 :
@@ -163,6 +165,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSINETWORKLINKSERVICE
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 nsNetworkLinkService
 (
 )

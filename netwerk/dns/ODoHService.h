@@ -187,6 +187,8 @@ nsSupportsWeakReference
 public
 nsITimerCallback
 public
+nsINamed
+public
 nsIStreamLoaderObserver
 {
 public
@@ -195,6 +197,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIDNSLISTENER
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSINAMED
 NS_DECL_NSISTREAMLOADEROBSERVER
 ODoHService
 (
