@@ -12057,7 +12057,7 @@ const
 nsAString
 &
 aType
-int32_t
+uint32_t
 aIndex
 nsString
 &
@@ -12153,7 +12153,7 @@ const
 DataTransfer
 *
 aDataTransfer
-int32_t
+uint32_t
 aIndex
 Document
 *
