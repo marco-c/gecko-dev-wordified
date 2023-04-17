@@ -94,8 +94,10 @@ optimize
 :
 tryselect
 .
-bugbug_debug_disperse
+bugbug_reduced_manifests_config_selection_low
 "
+#
+noqa
     
 "
 optimize_target_tasks
