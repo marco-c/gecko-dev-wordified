@@ -207,6 +207,13 @@ h
 #
 include
 "
+nsContainerFrame
+.
+h
+"
+#
+include
+"
 nsFrameList
 .
 h
