@@ -1682,6 +1682,15 @@ userFacingDescription
 NimbusTestUtils
 recipe
 "
+featureIds
+:
+[
+"
+test
+-
+feature
+"
+]
 .
 .
 .
