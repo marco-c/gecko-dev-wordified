@@ -5761,9 +5761,6 @@ IID_IEnumVARIANT
 =
 =
 iid
-&
-&
-localAcc
 )
 {
 if
@@ -5781,7 +5778,7 @@ leaf
 elements
 .
 !
-localAcc
+mAcc
 -
 >
 HasChildren
@@ -5794,7 +5791,7 @@ nsAccUtils
 :
 MustPrune
 (
-localAcc
+mAcc
 )
 |
 |
@@ -5848,6 +5845,9 @@ child
 anyway
 .
 (
+localAcc
+&
+&
 localAcc
 -
 >

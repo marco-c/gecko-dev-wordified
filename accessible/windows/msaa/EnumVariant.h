@@ -175,12 +175,12 @@ mCurAcc
 mAnchorMsaa
 -
 >
-LocalAcc
+Acc
 (
 )
 -
 >
-LocalChildAt
+ChildAt
 (
 0
 )
@@ -351,7 +351,7 @@ MsaaAccessible
 >
 mAnchorMsaa
 ;
-LocalAccessible
+Accessible
 *
 mCurAcc
 ;
