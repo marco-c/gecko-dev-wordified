@@ -2331,6 +2331,13 @@ out
 next
 time
 .
+if
+(
+accountData
+.
+verified
+)
+{
 this
 .
 setPreviousAccountNameHashPref
@@ -2340,6 +2347,7 @@ accountData
 email
 )
 ;
+}
 await
 this
 .
