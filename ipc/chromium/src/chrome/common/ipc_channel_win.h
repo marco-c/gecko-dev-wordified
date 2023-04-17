@@ -464,8 +464,6 @@ IOContext
 context
 DWORD
 bytes_transfered
-DWORD
-error
 )
 ;
 private
