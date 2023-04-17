@@ -1766,6 +1766,11 @@ Reset0RttForSpdy
 (
 )
 ;
+void
+HandshakeDoneInternal
+(
+)
+;
 private
 :
 /
@@ -2461,6 +2466,12 @@ mEarlyNegotiatedALPN
 ;
 bool
 mDid0RTTSpdy
+{
+false
+}
+;
+bool
+mTlsHandshakeComplitionPending
 {
 false
 }
