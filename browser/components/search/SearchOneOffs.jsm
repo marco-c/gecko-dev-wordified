@@ -702,7 +702,7 @@ header
 ;
 this
 .
-settingsButtonCompact
+settingsButton
 =
 this
 .
@@ -1992,7 +1992,7 @@ selectedButton
 =
 this
 .
-settingsButtonCompact
+settingsButton
 &
 &
 this
@@ -3150,7 +3150,7 @@ telemetryOrigin
 ;
 this
 .
-settingsButtonCompact
+settingsButton
 .
 id
 =
@@ -3322,7 +3322,7 @@ buttonsWidth
 =
 this
 .
-settingsButtonCompact
+settingsButton
 .
 clientWidth
 +
@@ -3956,7 +3956,7 @@ push
 (
 this
 .
-settingsButtonCompact
+settingsButton
 )
 ;
 }
@@ -6924,7 +6924,7 @@ target
 =
 this
 .
-settingsButtonCompact
+settingsButton
 )
 {
 this
