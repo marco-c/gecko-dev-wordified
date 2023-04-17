@@ -3002,6 +3002,13 @@ std
 invoke_result_t
 <
 Func
+const
+FirstInitializationAttempt
+<
+Initialization
+StringGenerator
+>
+&
 >
 ;
 template
@@ -3032,6 +3039,13 @@ std
 invoke_result_t
 <
 Func
+const
+FirstInitializationAttempt
+<
+Initialization
+StringGenerator
+>
+&
 >
 ;
 template
