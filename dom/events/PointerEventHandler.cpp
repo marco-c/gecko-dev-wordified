@@ -3493,16 +3493,6 @@ mFromTouchEvent
 =
 true
 ;
-aPointerEvent
--
->
-mPressure
-=
-aTouch
--
->
-mForce
-;
 }
 /
 *
