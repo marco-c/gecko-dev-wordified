@@ -196,6 +196,10 @@ this
 emit
 (
 "
+devtools
+-
+panel
+-
 ready
 "
 )
