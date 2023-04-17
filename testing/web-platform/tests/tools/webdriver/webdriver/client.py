@@ -2221,7 +2221,66 @@ None
 return
 handles
     
+#
+The
+many
+"
+type
+:
+ignore
+"
+comments
+here
+and
+below
+are
+to
+silence
+mypy
+'
+s
+    
+#
+"
+Decorated
 property
+not
+supported
+"
+error
+which
+is
+due
+to
+a
+limitation
+    
+#
+in
+mypy
+see
+https
+:
+/
+/
+github
+.
+com
+/
+python
+/
+mypy
+/
+issues
+/
+1362
+.
+    
+property
+#
+type
+:
+ignore
     
 command
     
@@ -2250,6 +2309,10 @@ rect
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -2305,6 +2368,10 @@ height
 size
 .
 setter
+#
+type
+:
+ignore
     
 command
     
@@ -2374,6 +2441,10 @@ body
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -2429,6 +2500,10 @@ y
 position
 .
 setter
+#
+type
+:
+ignore
     
 command
     
@@ -3207,6 +3282,10 @@ accept
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -3237,6 +3316,10 @@ text
 text
 .
 setter
+#
+type
+:
+ignore
     
 command
     
@@ -4340,6 +4423,10 @@ timeout
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -4366,6 +4453,10 @@ url
 url
 .
 setter
+#
+type
+:
+ignore
     
 command
     
@@ -4489,6 +4580,10 @@ refresh
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -4513,6 +4608,10 @@ title
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -4586,6 +4685,10 @@ handle
 ]
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -4612,6 +4715,10 @@ window
 window_handle
 .
 setter
+#
+type
+:
+ignore
     
 command
     
@@ -4710,6 +4817,10 @@ body
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -4736,6 +4847,10 @@ handles
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -5558,6 +5673,10 @@ text
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -5582,6 +5701,10 @@ text
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -5634,6 +5757,10 @@ property_name
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -5658,6 +5785,10 @@ rect
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
@@ -5704,6 +5835,10 @@ screenshot
 )
     
 property
+#
+type
+:
+ignore
     
 command
     
