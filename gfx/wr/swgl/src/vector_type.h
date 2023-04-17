@@ -2845,6 +2845,16 @@ swizzle
 )
 #
 define
+wzyx
+swizzle
+(
+3
+2
+1
+0
+)
+#
+define
 xxxxyyyy
 XXXXYYYY
 (
