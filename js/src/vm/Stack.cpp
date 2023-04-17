@@ -1835,6 +1835,8 @@ JSContext
 cx
 HandleValue
 thisv
+MutableHandleValue
+result
 )
 {
 MOZ_ASSERT
@@ -1883,6 +1885,13 @@ isObject
 )
 )
 {
+result
+.
+set
+(
+retVal
+)
+;
 return
 true
 ;
@@ -1927,7 +1936,9 @@ cx
 )
 ;
 }
-setReturnValue
+result
+.
+set
 (
 thisv
 )

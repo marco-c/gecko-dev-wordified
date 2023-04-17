@@ -18939,8 +18939,12 @@ returnValue
 is
 an
 object
-do
-nothing
+push
+*
+returnValue
+onto
+the
+stack
 .
 *
 *
@@ -18957,12 +18961,11 @@ is
 an
 *
 object
-store
+push
 thisval
-in
+onto
 the
-returnValue
-slot
+stack
 .
 *
 *
@@ -19083,6 +19086,7 @@ Stack
 thisval
 =
 >
+rval
 *
 /
 \
@@ -19093,7 +19097,7 @@ check_return
 NULL
 1
 1
-0
+1
 JOF_BYTE
 )
 \
