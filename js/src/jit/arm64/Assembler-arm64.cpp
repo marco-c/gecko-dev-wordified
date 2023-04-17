@@ -474,6 +474,14 @@ floatRegIndex_
 NumFloatArgRegs
 )
 {
+stackOffset_
+=
+AlignBytes
+(
+stackOffset_
+SimdMemoryAlignment
+)
+;
 current_
 =
 ABIArg
