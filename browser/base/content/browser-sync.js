@@ -1709,6 +1709,13 @@ tabInfo
 url
 )
 ;
+if
+(
+tabInfo
+.
+icon
+)
+{
 item
 .
 setAttribute
@@ -1721,6 +1728,7 @@ tabInfo
 icon
 )
 ;
+}
 item
 .
 setAttribute
