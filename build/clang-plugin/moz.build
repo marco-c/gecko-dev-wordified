@@ -378,15 +378,6 @@ mozsearch
 -
 plugin
 /
-JSONFormatter
-.
-cpp
-"
-"
-mozsearch
--
-plugin
-/
 MozsearchIndexer
 .
 cpp
