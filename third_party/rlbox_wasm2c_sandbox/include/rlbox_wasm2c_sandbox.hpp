@@ -2923,7 +2923,7 @@ lookup_wasm2c_nonfunc_export
 (
 sandbox
 "
-memory
+w2c_memory
 "
 )
 ;
