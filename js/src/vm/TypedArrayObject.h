@@ -1717,9 +1717,10 @@ JSAtom
 *
 atom
 =
-JSID_TO_ATOM
-(
 id
+.
+toAtom
+(
 )
 ;
 if

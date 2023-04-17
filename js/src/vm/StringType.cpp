@@ -15362,9 +15362,10 @@ frontend
 :
 IsIdentifierNameOrPrivateName
 (
-JSID_TO_ATOM
-(
 id
+.
+toAtom
+(
 )
 )
 )
