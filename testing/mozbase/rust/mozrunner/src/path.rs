@@ -80,7 +80,10 @@ std
 path
 :
 :
+{
+Path
 PathBuf
+}
 ;
 #
 [
@@ -95,7 +98,7 @@ is_executable
 path
 :
 &
-PathBuf
+Path
 )
 -
 >
@@ -236,7 +239,7 @@ is_executable
 _
 :
 &
-PathBuf
+Path
 )
 -
 >
@@ -280,7 +283,7 @@ is_binary
 path
 :
 &
-PathBuf
+Path
 )
 -
 >
