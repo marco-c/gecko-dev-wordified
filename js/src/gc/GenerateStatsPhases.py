@@ -783,11 +783,11 @@ Purge
 addPhaseKind
 (
 "
-PURGE_SHAPE_CACHES
+PURGE_PROP_MAP_TABLES
 "
 "
 Purge
-ShapeCaches
+PropMapTables
 "
 60
 )
@@ -1347,6 +1347,18 @@ Sweep
 Shape
 "
 36
+)
+            
+addPhaseKind
+(
+"
+SWEEP_PROP_MAP
+"
+"
+Sweep
+PropMap
+"
+77
 )
             
 addPhaseKind

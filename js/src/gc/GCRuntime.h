@@ -4562,7 +4562,7 @@ relazifyFunctionsForShrinkingGC
 )
 ;
 void
-purgeShapeCachesForShrinkingGC
+purgePropMapTablesForShrinkingGC
 (
 )
 ;
@@ -4959,7 +4959,7 @@ budget
 )
 ;
 IncrementalProgress
-sweepShapeTree
+sweepPropMapTree
 (
 JSFreeOp
 *
@@ -8123,7 +8123,7 @@ hasZealMode
 ZealMode
 :
 :
-YieldBeforeSweepingShapeTrees
+YieldBeforeSweepingPropMapTrees
 )
 |
 |

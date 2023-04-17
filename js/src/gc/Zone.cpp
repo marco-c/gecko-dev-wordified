@@ -1293,7 +1293,7 @@ gcPreserveCode_
 (
 false
 )
-keepShapeCaches_
+keepPropMapTables_
 (
 this
 false

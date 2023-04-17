@@ -353,7 +353,7 @@ YieldBeforeSweepingNonObjects
 \
 D
 (
-YieldBeforeSweepingShapeTrees
+YieldBeforeSweepingPropMapTrees
 23
 )
 \
