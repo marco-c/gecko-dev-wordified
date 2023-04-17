@@ -4498,7 +4498,7 @@ maximumPages
 defaultMax
 *
 /
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 /
@@ -4582,7 +4582,7 @@ initialPages
 (
 )
 >
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )

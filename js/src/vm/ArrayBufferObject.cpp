@@ -4310,7 +4310,7 @@ limits
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 )
 and
 we
@@ -4407,7 +4407,7 @@ valueOr
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )
@@ -5827,7 +5827,7 @@ initialPages
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )

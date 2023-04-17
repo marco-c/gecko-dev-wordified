@@ -16942,7 +16942,7 @@ limits
 initial
 )
 >
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )
@@ -18359,7 +18359,7 @@ to
 make
 /
 /
-MaxMemory32Bytes
+MaxMemoryBytes
 (
 )
 constexpr
@@ -18374,7 +18374,7 @@ heaps
 .
 MOZ_ASSERT
 (
-MaxMemory32Bytes
+MaxMemoryBytes
 (
 )
 <
@@ -18623,7 +18623,7 @@ MOZ_ASSERT
 limit
 <
 =
-MaxMemory32BoundsCheckLimit
+MaxMemoryBoundsCheckLimit
 (
 )
 )
@@ -18802,7 +18802,7 @@ if
 (
 newPages
 >
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )
@@ -18897,7 +18897,7 @@ our
 implementation
 limits
 of
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 which
@@ -19020,7 +19020,7 @@ definition
 of
 /
 /
-MaxMemory32Bytes
+MaxMemoryBytes
 (
 )
 .
@@ -19043,7 +19043,7 @@ to
 make
 /
 /
-MaxMemory32Bytes
+MaxMemoryBytes
 (
 )
 constexpr
@@ -19058,7 +19058,7 @@ heaps
 .
 MOZ_ASSERT
 (
-MaxMemory32Bytes
+MaxMemoryBytes
 (
 )
 <
@@ -19143,7 +19143,7 @@ if
 (
 newPages
 >
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 )
@@ -19373,7 +19373,7 @@ our
 implementation
 limits
 of
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 which
@@ -31575,7 +31575,7 @@ Pages
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 {
@@ -31619,7 +31619,7 @@ size_t
 wasm
 :
 :
-MaxMemory32BoundsCheckLimit
+MaxMemoryBoundsCheckLimit
 (
 )
 {
@@ -31642,7 +31642,7 @@ Pages
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 {
@@ -31684,7 +31684,7 @@ size_t
 wasm
 :
 :
-MaxMemory32BoundsCheckLimit
+MaxMemoryBoundsCheckLimit
 (
 )
 {
@@ -31708,7 +31708,7 @@ Pages
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
 (
 )
 {
@@ -31743,7 +31743,7 @@ size_t
 wasm
 :
 :
-MaxMemory32BoundsCheckLimit
+MaxMemoryBoundsCheckLimit
 (
 )
 {
