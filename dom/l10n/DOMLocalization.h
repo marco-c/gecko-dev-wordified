@@ -189,6 +189,17 @@ LocalizationBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+PromiseNativeHandler
+.
+h
+"
 /
 /
 XXX

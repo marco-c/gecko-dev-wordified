@@ -23918,11 +23918,6 @@ IsErrorPage
 )
 const
 ;
-void
-EnsureL10n
-(
-)
-;
 /
 /
 Takes
