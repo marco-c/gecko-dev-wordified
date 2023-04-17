@@ -12429,7 +12429,9 @@ cfFormat
 nsClipboard
 :
 :
-CF_HTML
+GetHtmlClipboardFormat
+(
+)
 )
 {
 /
@@ -12586,7 +12588,9 @@ cfFormat
 nsClipboard
 :
 :
-CF_CUSTOMTYPES
+GetCustomClipboardFormat
+(
+)
 )
 {
 /
