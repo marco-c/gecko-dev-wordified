@@ -2946,12 +2946,9 @@ const
 EditorDOMPoint
 &
 aDroppedAt
-dom
-:
-:
-Document
+nsIPrincipal
 *
-aSrcDocument
+aSourcePrincipal
 )
 final
 ;

@@ -677,9 +677,9 @@ const
 EditorDOMPoint
 &
 aDroppedAt
-Document
+nsIPrincipal
 *
-aSrcDocument
+aSourcePrincipal
 )
 {
 MOZ_ASSERT

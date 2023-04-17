@@ -7076,12 +7076,9 @@ const
 EditorDOMPoint
 &
 aDroppedAt
-dom
-:
-:
-Document
+nsIPrincipal
 *
-aSrcDocument
+aSourcePrincipal
 )
 final
 ;
@@ -25964,9 +25961,9 @@ DataTransfer
 aDataTransfer
 uint32_t
 aIndex
-Document
+nsIPrincipal
 *
-aSourceDoc
+aSourcePrincipal
 const
 EditorDOMPoint
 &
