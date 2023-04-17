@@ -437,7 +437,7 @@ need
 to
 call
 this
-directy
+directly
 as
 it
 '
@@ -464,7 +464,7 @@ aProcess
 /
 /
 Stop
-synchromizing
+synchronizing
 the
 current
 BrowsingContextGroup
@@ -569,6 +569,7 @@ process
 /
 /
 acknowledges
+that
 the
 BrowsingContext
 has
@@ -577,10 +578,10 @@ discarded
 .
 A
 KeepAlive
+/
+/
 will
 be
-/
-/
 added
 to
 the
