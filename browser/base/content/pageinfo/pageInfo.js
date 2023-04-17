@@ -6988,8 +6988,6 @@ url
 https
 ?
 |
-ftp
-|
 file
 |
 about

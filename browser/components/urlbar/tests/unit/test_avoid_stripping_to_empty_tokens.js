@@ -80,9 +80,6 @@ http
 "
 https
 "
-"
-ftp
-"
 ]
 )
 {

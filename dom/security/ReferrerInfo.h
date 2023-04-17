@@ -1008,7 +1008,6 @@ are
 :
 http
 https
-ftp
 .
 *
 /
@@ -2205,7 +2204,6 @@ URI
 (
 http
 https
-ftp
 )
 *
 *
