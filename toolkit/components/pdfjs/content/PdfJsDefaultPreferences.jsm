@@ -287,7 +287,7 @@ false
 enableXfa
 "
 :
-false
+true
 }
 )
 ;
