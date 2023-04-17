@@ -541,6 +541,17 @@ return
 env
 ;
 }
+void
+clearReferent
+(
+)
+{
+setPrivate
+(
+nullptr
+)
+;
+}
 private
 :
 static

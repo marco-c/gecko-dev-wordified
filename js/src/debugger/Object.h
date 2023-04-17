@@ -1271,6 +1271,17 @@ return
 obj
 ;
 }
+void
+clearReferent
+(
+)
+{
+setPrivate
+(
+nullptr
+)
+;
+}
 private
 :
 enum
