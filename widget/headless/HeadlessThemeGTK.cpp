@@ -346,12 +346,6 @@ StyleAppearance
 :
 Menupopup
 :
-case
-StyleAppearance
-:
-:
-MozGtkInfoBar
-:
 result
 .
 top
@@ -2092,12 +2086,6 @@ StyleAppearance
 :
 :
 Menuarrow
-:
-case
-StyleAppearance
-:
-:
-MozGtkInfoBar
 :
 return
 !

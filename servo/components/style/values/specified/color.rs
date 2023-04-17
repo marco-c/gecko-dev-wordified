@@ -2091,7 +2091,6 @@ Combobox
 widgets
 MozComboboxtext
 MozCombobox
-MozGtkInfoBarText
 /
 /
 /
