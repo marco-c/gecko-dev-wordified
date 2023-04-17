@@ -1473,6 +1473,9 @@ ObliviousDoHMessage
 {
 ObliviousDoHMessageType
 mType
+{
+ODOH_QUERY
+}
 ;
 nsTArray
 <

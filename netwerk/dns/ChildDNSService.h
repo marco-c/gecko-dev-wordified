@@ -373,6 +373,11 @@ mPendingRequests
 ;
 Mutex
 mPendingRequestsLock
+{
+"
+DNSPendingRequestsLock
+"
+}
 ;
 RefPtr
 <
