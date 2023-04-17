@@ -757,6 +757,11 @@ NotifyDisablingWebRender
 )
 ;
 void
+ShowDynamicToolbar
+(
+)
+;
+void
 DetachNatives
 (
 )
