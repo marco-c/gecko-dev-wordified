@@ -456,7 +456,7 @@ ARCH
 str
 =
 "
-unknown
+Unknown
 "
 ;
 #
@@ -514,7 +514,7 @@ unwrap_or_else
 |
 |
 "
-unknown
+Unknown
 "
 .
 to_owned
@@ -554,7 +554,7 @@ windows
 /
 Returns
 "
-unknown
+Unknown
 "
 for
 platforms
@@ -574,7 +574,7 @@ get_os_version
 String
 {
 "
-unknown
+Unknown
 "
 .
 to_owned
@@ -640,7 +640,7 @@ unwrap_or_else
 |
 |
 "
-unknown
+Unknown
 "
 .
 to_owned
