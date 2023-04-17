@@ -1185,6 +1185,15 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+/
+/
+Fake
+user
+activation
+.
+hasValidUserGestureActivation
+:
+true
 }
 ;
 browsingContext
