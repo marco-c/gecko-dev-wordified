@@ -597,9 +597,8 @@ nobj
 fun
 -
 >
-setArgCount
+initFlagsAndArgCount
 (
-0
 )
 ;
 /
