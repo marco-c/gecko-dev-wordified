@@ -814,7 +814,7 @@ mSocketProcessParent
 >
 Open
 (
-TakeInitialPort
+TakeChannel
 (
 )
 base

@@ -687,16 +687,6 @@ EmptyLog
 #
 endif
 #
-define
-DVLOG
-(
-level
-)
-DLOG
-(
-INFO
-)
-#
 undef
 LOG_ASSERT
 #

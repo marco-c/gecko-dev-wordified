@@ -324,16 +324,6 @@ Message
 message
 )
 ;
-int32_t
-OtherPid
-(
-)
-const
-{
-return
-other_pid_
-;
-}
 /
 /
 See
