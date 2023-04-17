@@ -10163,6 +10163,7 @@ MatchPattern
 MatchPatternSet
 Services
 StructuredCloneHolder
+WebExtensionPolicy
 XPCOMUtils
 extensions
 :
