@@ -4042,15 +4042,6 @@ reason
 "
 resumeLimit
 "
-|
-|
-reason
-=
-=
-=
-"
-XHR
-"
 )
 {
 this
