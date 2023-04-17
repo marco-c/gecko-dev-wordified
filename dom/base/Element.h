@@ -3147,6 +3147,7 @@ definition
 .
 *
 /
+virtual
 void
 SetCustomElementDefinition
 (

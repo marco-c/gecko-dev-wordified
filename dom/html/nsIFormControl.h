@@ -242,9 +242,10 @@ Output
 Select
 Textarea
 Object
+FormAssociatedCustomElement
 LastWithoutSubtypes
 =
-Object
+FormAssociatedCustomElement
 ButtonButton
 =
 kFormControlButtonElementMask

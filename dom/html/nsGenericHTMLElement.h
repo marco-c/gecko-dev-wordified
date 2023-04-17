@@ -1815,6 +1815,7 @@ html
 dom
 -
 attachinternals
+virtual
 already_AddRefed
 <
 mozilla
