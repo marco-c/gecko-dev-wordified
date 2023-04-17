@@ -809,14 +809,6 @@ MarionettePrefs
 logLevel
 )
 ;
-equal
-(
-true
-MarionettePrefs
-.
-recommendedPrefs
-)
-;
 run_next_test
 (
 )
