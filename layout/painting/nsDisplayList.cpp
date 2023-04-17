@@ -16388,16 +16388,13 @@ document
 &
 &
 widgetTransaction
-&
-&
-layerManager
 )
 {
 TriggerPendingAnimations
 (
 *
 document
-layerManager
+renderer
 -
 >
 GetAnimationReadyTime
