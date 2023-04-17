@@ -557,9 +557,6 @@ not
 visible
 by
 CSS
-bool
-mDidCreateDocShell
-;
 float
 mShrinkRatio
 ;
