@@ -28036,6 +28036,8 @@ decoder
 codeStencil
 (
 input
+.
+options
 stencil
 )
 ;

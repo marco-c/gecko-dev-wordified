@@ -5495,8 +5495,10 @@ decoder
 .
 codeStencil
 (
-*
 stencilInput_
+-
+>
+options
 *
 stencil_
 )
