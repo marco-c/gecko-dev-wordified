@@ -980,9 +980,9 @@ DynamicImage
 :
 GetImageContainer
 (
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 uint32_t
 aFlags
 )
@@ -1024,12 +1024,9 @@ DynamicImage
 :
 GetImageContainerAtSize
 (
-layers
-:
-:
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 const
 gfx
 :

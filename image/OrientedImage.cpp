@@ -976,9 +976,9 @@ OrientedImage
 :
 GetImageContainer
 (
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 uint32_t
 aFlags
 )
@@ -1071,7 +1071,7 @@ InnerImage
 >
 GetImageContainer
 (
-aManager
+aRenderer
 aFlags
 )
 ;
@@ -1136,12 +1136,9 @@ OrientedImage
 :
 GetImageContainerAtSize
 (
-layers
-:
-:
-LayerManager
+WindowRenderer
 *
-aManager
+aRenderer
 const
 gfx
 :
@@ -1262,7 +1259,7 @@ InnerImage
 >
 GetImageContainerAtSize
 (
-aManager
+aRenderer
 aSize
 aSVGContext
 aRegion
