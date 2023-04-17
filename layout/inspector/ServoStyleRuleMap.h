@@ -243,6 +243,13 @@ StyleSheet
 )
 ;
 void
+SheetCloned
+(
+StyleSheet
+&
+)
+;
+void
 RuleAdded
 (
 StyleSheet
