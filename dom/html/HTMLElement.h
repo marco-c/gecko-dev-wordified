@@ -138,7 +138,7 @@ HTMLElement
 final
 :
 public
-nsGenericHTMLElement
+nsGenericHTMLFormElement
 {
 public
 :

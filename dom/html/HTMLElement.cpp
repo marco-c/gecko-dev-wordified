@@ -169,7 +169,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsGenericHTMLElement
+nsGenericHTMLFormElement
 (
 std
 :
