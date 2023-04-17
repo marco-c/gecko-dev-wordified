@@ -483,7 +483,7 @@ cancel_
 false
 ;
 }
-bool
+void
 js
 :
 :
@@ -502,7 +502,6 @@ deadline
 AutoLockHelperThreadState
 lock
 ;
-return
 joinWithLockHeld
 (
 lock
@@ -510,7 +509,7 @@ deadline
 )
 ;
 }
-bool
+void
 js
 :
 :
@@ -553,7 +552,6 @@ lock
 )
 {
 return
-true
 ;
 }
 if
@@ -689,12 +687,6 @@ duration
 ;
 }
 }
-return
-isIdle
-(
-lock
-)
-;
 }
 void
 js
