@@ -2314,7 +2314,6 @@ unsigned
 int
 size0
 size1
-supp_size
 ;
 hb_codepoint_t
 code
@@ -2353,10 +2352,6 @@ false
 return
 ;
 }
-supp_size
-=
-0
-;
 supp_codes
 .
 init
@@ -2568,18 +2563,6 @@ pair
 )
 ;
 }
-supp_size
-+
-=
-SuppEncoding
-:
-:
-static_size
-*
-supp_codes
-.
-length
-;
 }
 }
 supp_codes
