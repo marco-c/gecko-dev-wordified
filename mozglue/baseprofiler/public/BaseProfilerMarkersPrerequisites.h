@@ -5113,7 +5113,7 @@ and
 handle
 PII
 sanitization
-url
+Url
 /
 /
 Show
@@ -5125,7 +5125,7 @@ handle
 PII
 sanitization
 .
-filePath
+FilePath
 /
 /
 Important
@@ -5174,7 +5174,7 @@ Label
 Some
 String
 "
-string
+String
 /
 /
 -
@@ -5259,7 +5259,7 @@ Label
 5
 s
 "
-duration
+Duration
 /
 /
 Data
@@ -5297,7 +5297,7 @@ Label
 5
 s
 "
-time
+Time
 /
 /
 The
@@ -5318,7 +5318,7 @@ unit
 of
 time
 .
-seconds
+Seconds
 /
 /
 "
@@ -5326,7 +5326,7 @@ Label
 :
 5s
 "
-milliseconds
+Milliseconds
 /
 /
 "
@@ -5334,7 +5334,7 @@ Label
 :
 5ms
 "
-microseconds
+Microseconds
 /
 /
 "
@@ -5343,7 +5343,7 @@ Label
 5
 s
 "
-nanoseconds
+Nanoseconds
 /
 /
 "
@@ -5369,7 +5369,7 @@ bytes
 .
 5kb
 "
-bytes
+Bytes
 /
 /
 This
@@ -5390,7 +5390,7 @@ Label
 50
 %
 "
-percentage
+Percentage
 /
 /
 The
@@ -5426,7 +5426,7 @@ Label
 234
 567
 "
-integer
+Integer
 /
 /
 The
@@ -5466,7 +5466,7 @@ Label
 .
 78
 "
-decimal
+Decimal
 }
 ;
 enum

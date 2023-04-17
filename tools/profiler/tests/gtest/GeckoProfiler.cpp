@@ -11899,7 +11899,7 @@ MS
 Format
 :
 :
-url
+Url
 )
 ;
 schema
@@ -11922,7 +11922,7 @@ MS
 Format
 :
 :
-filePath
+FilePath
 )
 ;
 schema
@@ -11943,7 +11943,7 @@ MS
 Format
 :
 :
-string
+String
 MS
 :
 :
@@ -11974,7 +11974,7 @@ MS
 Format
 :
 :
-duration
+Duration
 MS
 :
 :
@@ -11999,7 +11999,7 @@ MS
 Format
 :
 :
-time
+Time
 )
 ;
 schema
@@ -12017,7 +12017,7 @@ MS
 Format
 :
 :
-seconds
+Seconds
 )
 ;
 schema
@@ -12035,7 +12035,7 @@ MS
 Format
 :
 :
-milliseconds
+Milliseconds
 )
 ;
 schema
@@ -12053,7 +12053,7 @@ MS
 Format
 :
 :
-microseconds
+Microseconds
 )
 ;
 schema
@@ -12071,7 +12071,7 @@ MS
 Format
 :
 :
-nanoseconds
+Nanoseconds
 )
 ;
 schema
@@ -12089,7 +12089,7 @@ MS
 Format
 :
 :
-bytes
+Bytes
 )
 ;
 schema
@@ -12107,7 +12107,7 @@ MS
 Format
 :
 :
-percentage
+Percentage
 )
 ;
 schema
@@ -12125,7 +12125,7 @@ MS
 Format
 :
 :
-integer
+Integer
 )
 ;
 schema
@@ -12143,7 +12143,7 @@ MS
 Format
 :
 :
-decimal
+Decimal
 )
 ;
 schema

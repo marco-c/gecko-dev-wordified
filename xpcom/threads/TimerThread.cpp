@@ -3513,7 +3513,7 @@ MS
 Format
 :
 :
-string
+String
 MS
 :
 :
@@ -3539,7 +3539,7 @@ MS
 Format
 :
 :
-milliseconds
+Milliseconds
 )
 ;
 schema

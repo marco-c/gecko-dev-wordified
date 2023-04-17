@@ -1268,13 +1268,13 @@ name
 "
 Details
 "
-MarkerSchema
+MS
 :
 :
 Format
 :
 :
-string
+String
 )
 ;
 return
@@ -1396,7 +1396,7 @@ MS
 Format
 :
 :
-string
+String
 )
 ;
 return
