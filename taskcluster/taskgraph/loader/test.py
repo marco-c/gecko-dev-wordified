@@ -888,6 +888,11 @@ only
 used
 by
 Windows
+and
+macOS
+11
+.
+0
             
 if
 test_platform
