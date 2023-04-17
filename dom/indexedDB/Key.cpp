@@ -3563,6 +3563,8 @@ eTerminator
 {
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 DecodeJSValInternal
 (
 aPos
@@ -3574,6 +3576,7 @@ val
 aRecursionDepth
 +
 1
+)
 )
 )
 ;

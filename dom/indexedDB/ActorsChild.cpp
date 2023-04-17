@@ -15869,12 +15869,15 @@ internalInputStream
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 SnappyUncompressStructuredCloneData
 (
 *
 internalInputStream
 *
 mCloneData
+)
 )
 )
 ;
@@ -15887,6 +15890,8 @@ Finishing
 ;
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 mOwningEventTarget
 -
 >
@@ -15894,6 +15899,7 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
+)
 )
 )
 ;

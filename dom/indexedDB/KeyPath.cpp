@@ -1788,7 +1788,10 @@ then
 .
 QM_TRY
 (
+MOZ_TO_RESULT
+(
 rv
+)
 )
 ;
 return
