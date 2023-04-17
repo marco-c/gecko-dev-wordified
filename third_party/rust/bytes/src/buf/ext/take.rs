@@ -59,7 +59,7 @@ take
 (
 trait
 .
-Buf
+BufExt
 .
 html
 #
@@ -165,7 +165,6 @@ buf
 :
 :
 {
-Buf
 BufMut
 BufExt
 }
@@ -377,7 +376,6 @@ BufExt
 /
 /
 let
-mut
 buf
 =
 b
@@ -841,7 +839,6 @@ bytes
 :
 :
 {
-Buf
 BufMut
 buf
 :

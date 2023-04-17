@@ -4,8 +4,8 @@ core
 :
 {
 cmp
-ptr
 mem
+ptr
 }
 ;
 #
@@ -32,12 +32,10 @@ use
 alloc
 :
 :
-{
 boxed
 :
 :
 Box
-}
 ;
 macro_rules
 !
@@ -58,7 +56,7 @@ tt
 )
 =
 >
-(
+{
 {
 const
 SIZE
@@ -254,7 +252,7 @@ buf
 ;
 }
 }
-)
+}
 ;
 (
 le
@@ -272,7 +270,7 @@ expr
 )
 =
 >
-(
+{
 {
 debug_assert
 !
@@ -373,7 +371,7 @@ buf
 )
 ;
 }
-)
+}
 ;
 (
 be
@@ -6537,7 +6535,7 @@ deref_forward_buf
 )
 =
 >
-(
+{
 fn
 remaining
 (
@@ -7116,7 +7114,8 @@ to_bytes
 (
 )
 }
-)
+}
+;
 }
 impl
 <

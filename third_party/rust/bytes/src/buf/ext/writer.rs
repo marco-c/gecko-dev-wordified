@@ -192,7 +192,6 @@ BufMutExt
 /
 /
 let
-mut
 buf
 =
 Vec

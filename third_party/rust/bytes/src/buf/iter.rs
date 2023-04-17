@@ -67,10 +67,7 @@ use
 bytes
 :
 :
-{
-Buf
 Bytes
-}
 ;
 /
 /
@@ -283,10 +280,7 @@ use
 bytes
 :
 :
-{
-Buf
 Bytes
-}
 ;
 /
 /

@@ -213,6 +213,9 @@ mod
 take
 ;
 mod
+vec_deque
+;
+mod
 writer
 ;
 pub

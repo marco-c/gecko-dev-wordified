@@ -2,9 +2,7 @@ use
 crate
 :
 :
-{
 Buf
-}
 ;
 use
 std
@@ -194,7 +192,6 @@ BufExt
 /
 /
 let
-mut
 buf
 =
 b
