@@ -6911,9 +6911,6 @@ gHttpHandler
 CoalesceSpdy
 (
 )
-&
-&
-ent
 )
 {
 if
