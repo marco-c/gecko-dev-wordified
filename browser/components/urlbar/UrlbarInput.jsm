@@ -752,11 +752,6 @@ one
 -
 offs
 "
-compact
-=
-"
-true
-"
 includecurrentengine
 =
 "

@@ -807,11 +807,6 @@ one
 -
 offs
 "
-compact
-=
-"
-true
-"
 is_searchbar
 =
 "

@@ -7823,7 +7823,7 @@ getOneOffSearchButtons
 win
 )
 .
-settingsButton
+settingsButtonCompact
 .
 click
 (
@@ -7956,8 +7956,6 @@ search
 setting
 -
 button
--
-compact
 "
 )
 "

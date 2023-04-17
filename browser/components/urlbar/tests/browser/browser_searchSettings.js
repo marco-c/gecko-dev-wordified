@@ -126,8 +126,6 @@ anon
 search
 -
 settings
--
-compact
 "
 )
 ;
