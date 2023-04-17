@@ -256,15 +256,10 @@ watcher
 "
 )
 ;
-const
-targetList
-=
+await
 commands
 .
 targetCommand
-;
-await
-targetList
 .
 startListening
 (
@@ -274,7 +269,9 @@ return
 new
 ResourceWatcher
 (
-targetList
+commands
+.
+targetCommand
 )
 ;
 }

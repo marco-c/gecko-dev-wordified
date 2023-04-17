@@ -796,8 +796,14 @@ url
 ;
 const
 {
+commands
+}
+=
+inspector
+;
+const
+{
 resourceWatcher
-targetList
 }
 =
 inspector
@@ -809,7 +815,7 @@ onTargetProcessed
 =
 waitForTargetProcessed
 (
-targetList
+commands
 url
 )
 ;
@@ -981,6 +987,9 @@ waits
 until
 the
 provided
+commands
+'
+s
 TargetList
 has
 fully
@@ -1018,7 +1027,7 @@ target
 function
 waitForTargetProcessed
 (
-targetList
+commands
 url
 )
 {
@@ -1054,7 +1063,9 @@ url
 return
 ;
 }
-targetList
+commands
+.
+targetCommand
 .
 off
 (
@@ -1074,7 +1085,9 @@ resolve
 ;
 }
 ;
-targetList
+commands
+.
+targetCommand
 .
 on
 (
