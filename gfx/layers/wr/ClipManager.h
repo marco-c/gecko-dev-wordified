@@ -521,7 +521,7 @@ Maybe
 wr
 :
 :
-WrSpaceAndClip
+WrSpatialId
 >
 GetScrollLayer
 (
@@ -536,7 +536,7 @@ Maybe
 wr
 :
 :
-WrSpaceAndClip
+WrSpatialId
 >
 DefineScrollLayers
 (
