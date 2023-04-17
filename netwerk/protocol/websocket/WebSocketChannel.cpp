@@ -24606,7 +24606,10 @@ val
 {
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 token
 "
@@ -24740,7 +24743,10 @@ val
 {
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 token
 "

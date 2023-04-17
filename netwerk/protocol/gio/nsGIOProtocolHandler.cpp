@@ -185,6 +185,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -1029,6 +1036,9 @@ return
 ;
 }
 return
+nsCRT
+:
+:
 strcasecmp
 (
 g_file_info_get_name

@@ -127,6 +127,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -747,7 +754,10 @@ bool
 isBasicAuth
 =
 !
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 challenge
 "

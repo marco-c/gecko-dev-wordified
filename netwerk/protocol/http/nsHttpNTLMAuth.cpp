@@ -333,6 +333,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -1362,7 +1369,10 @@ them
 .
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 challenge
 "
@@ -2174,7 +2184,10 @@ initial
 challenge
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 challenge
 "

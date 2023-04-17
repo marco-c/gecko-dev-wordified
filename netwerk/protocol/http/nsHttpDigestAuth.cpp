@@ -1603,7 +1603,10 @@ bool
 isDigestAuth
 =
 !
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 challenge
 "
@@ -1658,7 +1661,10 @@ IsEmpty
 requireExtraQuotes
 =
 !
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 serverVal
 .

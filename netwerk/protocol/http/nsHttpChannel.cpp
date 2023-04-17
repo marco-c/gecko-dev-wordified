@@ -330,6 +330,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsMimeTypes
 .
 h
@@ -20587,7 +20594,10 @@ cachedContentEncoding
 ;
 if
 (
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 contentEncoding
 .

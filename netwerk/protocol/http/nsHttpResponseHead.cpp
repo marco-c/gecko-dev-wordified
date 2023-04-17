@@ -176,6 +176,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsURLHelper
 .
 h
@@ -6984,7 +6991,10 @@ HTTP
 {
 if
 (
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 str
 "

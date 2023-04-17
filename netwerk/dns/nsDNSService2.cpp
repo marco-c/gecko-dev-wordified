@@ -191,6 +191,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
@@ -7903,7 +7910,10 @@ domainLen
 ;
 if
 (
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 domain
 hostTail

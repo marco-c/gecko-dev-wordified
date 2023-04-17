@@ -4986,7 +4986,10 @@ rv
 &
 (
 !
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 enc
 "
@@ -4996,7 +4999,10 @@ gzip
 |
 |
 !
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 enc
 "
@@ -5006,7 +5012,10 @@ deflate
 |
 |
 !
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 enc
 "
@@ -5018,7 +5027,10 @@ gzip
 |
 |
 !
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 enc
 "

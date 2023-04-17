@@ -7342,7 +7342,10 @@ ignoreCase
 {
 return
 !
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 mSpec
 .
@@ -7526,7 +7529,10 @@ ignoreCase
 {
 return
 !
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 spec
 +
@@ -7676,7 +7682,10 @@ ignoreCase
 {
 return
 !
-PL_strncasecmp
+nsCRT
+:
+:
+strncasecmp
 (
 mSpec
 .
