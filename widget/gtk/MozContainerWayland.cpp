@@ -3781,8 +3781,6 @@ to
 avoid
 log
 noise
-/
-/
 LOGWAYLAND
 (
 (
@@ -3803,8 +3801,6 @@ d
 n
 "
 __FUNCTION__
-/
-/
 (
 void
 *
@@ -3820,8 +3816,6 @@ container
 wl_container
 .
 surface
-/
-/
 container
 -
 >
@@ -3902,8 +3896,6 @@ to
 avoid
 log
 noise
-/
-/
 LOGWAYLAND
 (
 (
@@ -3926,8 +3918,6 @@ void
 *
 )
 container
-/
-/
 (
 void
 *
