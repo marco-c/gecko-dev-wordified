@@ -59,6 +59,12 @@ from
 pathlib
 import
 Path
+from
+packaging
+.
+requirements
+import
+Requirement
 THUNDERBIRD_PYPI_ERROR
 =
 "
@@ -104,31 +110,20 @@ def
 __init__
 (
 self
-package_name
-version
-full_specifier
+requirement
 )
 :
         
 self
 .
-package_name
+requirement
 =
-package_name
-        
-self
-.
-version
-=
-version
-        
-self
-.
-full_specifier
-=
-full_specifier
+requirement
 class
 PypiOptionalSpecifier
+(
+PypiSpecifier
+)
 :
     
 def
@@ -136,35 +131,24 @@ __init__
 (
 self
 repercussion
-package_name
-version
-full_specifier
+requirement
 )
 :
         
+super
+(
+)
+.
+__init__
+(
+requirement
+)
+        
 self
 .
 repercussion
 =
 repercussion
-        
-self
-.
-package_name
-=
-package_name
-        
-self
-.
-version
-=
-version
-        
-self
-.
-full_specifier
-=
-full_specifier
 class
 MachEnvRequirements
 :
@@ -423,8 +407,13 @@ from_requirements_definition
 (
         
 cls
+        
 topsrcdir
+        
 is_thunderbird
+        
+is_mach_or_build_virtualenv
+        
 requirements_definition
     
 )
@@ -440,9 +429,14 @@ _parse_mach_env_requirements
 (
             
 requirements
+            
 requirements_definition
+            
 topsrcdir
+            
 is_thunderbird
+            
+is_mach_or_build_virtualenv
         
 )
         
@@ -453,9 +447,14 @@ _parse_mach_env_requirements
 (
     
 requirements_output
+    
 root_requirements_path
+    
 topsrcdir
+    
 is_thunderbird
+    
+is_mach_or_build_virtualenv
 )
 :
     
@@ -811,14 +810,6 @@ Exception
 THUNDERBIRD_PYPI_ERROR
 )
             
-package_name
-version
-=
-_parse_package_specifier
-(
-params
-)
-            
 requirements_output
 .
 pypi_requirements
@@ -828,9 +819,13 @@ append
                 
 PypiSpecifier
 (
-package_name
-version
+                    
+_parse_package_specifier
+(
 params
+is_mach_or_build_virtualenv
+)
+                
 )
             
 )
@@ -920,7 +915,7 @@ params
                 
 )
             
-package
+raw_requirement
 repercussion
 =
 params
@@ -932,14 +927,6 @@ split
 "
 )
             
-package_name
-version
-=
-_parse_package_specifier
-(
-package
-)
-            
 requirements_output
 .
 pypi_optional_requirements
@@ -949,10 +936,17 @@ append
                 
 PypiOptionalSpecifier
 (
+                    
 repercussion
-package_name
-version
-package
+                    
+_parse_package_specifier
+(
+                        
+raw_requirement
+is_mach_or_build_virtualenv
+                    
+)
+                
 )
             
 )
@@ -1107,45 +1101,72 @@ False
 def
 _parse_package_specifier
 (
-specifier
+raw_requirement
+is_mach_or_build_virtualenv
 )
 :
     
+requirement
+=
+Requirement
+(
+raw_requirement
+)
+    
 if
-len
-(
-specifier
+not
+is_mach_or_build_virtualenv
+and
+[
+        
+s
+for
+s
+in
+requirement
 .
-split
-(
-"
-=
-=
-"
-)
-)
+specifier
+if
+s
+.
+operator
 !
 =
-2
+"
+=
+=
+"
+    
+]
 :
         
 raise
 Exception
 (
             
+'
+All
+virtualenvs
+except
+for
 "
-Expected
+mach
+"
+and
+"
+build
+"
+must
+pin
 pypi
 package
-version
-to
-be
-pinned
+'
+            
+f
+'
+versions
 in
 the
-"
-            
-'
 format
 "
 package
@@ -1156,24 +1177,12 @@ version
 found
 "
 {
+raw_requirement
 }
 "
 '
-.
-format
-(
-specifier
-)
         
 )
     
 return
-specifier
-.
-split
-(
-"
-=
-=
-"
-)
+requirement
