@@ -1026,7 +1026,7 @@ listening
 >
 {
 let
-output
+url
 =
 unsafe
 {
@@ -1049,10 +1049,13 @@ eprintln
 !
 (
 "
+DevTools
+listening
+on
 {
 }
 "
-output
+url
 .
 to_string_lossy
 (

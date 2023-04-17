@@ -785,14 +785,9 @@ remote
 -
 listening
 "
-DevTools
-listening
-on
-{
 mainTarget
 .
 wsDebuggerURL
-}
 )
 ;
 }
