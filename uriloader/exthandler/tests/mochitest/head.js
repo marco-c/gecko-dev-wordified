@@ -1124,7 +1124,6 @@ function
 promiseDownloadFinished
 (
 list
-stopFromOpening
 )
 {
 return
@@ -1145,18 +1144,6 @@ onDownloadChanged
 download
 )
 {
-if
-(
-stopFromOpening
-)
-{
-download
-.
-launchWhenSucceeded
-=
-false
-;
-}
 info
 (
 "
