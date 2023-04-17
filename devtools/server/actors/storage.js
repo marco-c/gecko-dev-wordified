@@ -20870,6 +20870,12 @@ isWatcherEnabled
 &
 &
 isServerWatcherSupportEnabled
+indexedDB
+:
+isWatcherEnabled
+&
+&
+isServerWatcherSupportEnabled
 localStorage
 :
 isWatcherEnabled
