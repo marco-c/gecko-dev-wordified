@@ -5223,14 +5223,6 @@ mDeferredSendProgress
 &
 &
 mConnection
-&
-&
-mConnection
--
->
-Transport
-(
-)
 )
 {
 /
