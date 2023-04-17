@@ -267,7 +267,9 @@ inline
 ]
 *
 /
-typedef
+using
+policyTokens
+=
 nsTArray
 <
 CopyableTArray
@@ -275,7 +277,6 @@ CopyableTArray
 nsString
 >
 >
-policyTokens
 ;
 class
 PolicyTokenizer

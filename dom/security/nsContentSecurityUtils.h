@@ -188,7 +188,9 @@ dom
 /
 namespace
 mozilla
-typedef
+using
+FilenameTypeAndDetails
+=
 std
 :
 :
@@ -203,7 +205,6 @@ Maybe
 nsString
 >
 >
-FilenameTypeAndDetails
 ;
 class
 nsContentSecurityUtils
