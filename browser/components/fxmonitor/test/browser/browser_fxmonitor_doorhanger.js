@@ -463,8 +463,6 @@ browser
 .
 proton
 .
-doorhangers
-.
 enabled
 "
 false
@@ -2117,8 +2115,6 @@ set
 browser
 .
 proton
-.
-doorhangers
 .
 enabled
 "
