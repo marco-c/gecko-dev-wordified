@@ -237,8 +237,8 @@ currently
 stored
 value
 as
-an
-integer
+a
+PRExplodedTime
 .
 *
 *
@@ -355,7 +355,7 @@ value
 /
 Maybe
 <
-nsCString
+PRExplodedTime
 >
 TestGetValue
 (
