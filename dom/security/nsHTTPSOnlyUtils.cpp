@@ -431,7 +431,7 @@ mozilla
 StaticPrefs
 :
 :
-dom_security_https_only_mode_https_first
+dom_security_https_first
 (
 )
 )
@@ -478,7 +478,7 @@ mozilla
 StaticPrefs
 :
 :
-dom_security_https_only_mode_https_first_pbm
+dom_security_https_first_pbm
 (
 )
 )
