@@ -2342,13 +2342,6 @@ width
 "
 )
 ;
-if
-(
-CustomizableUI
-.
-protonToolbarEnabled
-)
-{
 CustomizableUI
 .
 removeWidgetFromArea
@@ -2356,7 +2349,6 @@ removeWidgetFromArea
 kLibraryButton
 )
 ;
-}
 window
 .
 resizeTo
