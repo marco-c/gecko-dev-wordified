@@ -2568,13 +2568,11 @@ ExtensionPort
 >
 port
 =
-ExtensionPort
-:
-:
-Create
-(
-global
 extensionBrowser
+-
+>
+GetPort
+(
 apiObjectDescriptor
 rv
 )
