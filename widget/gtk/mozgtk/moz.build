@@ -91,6 +91,16 @@ SharedLibrary
 mozgtk
 "
 )
+SOURCES
++
+=
+[
+"
+mozgtk
+.
+c
+"
+]
 #
 If
 LDFLAGS
