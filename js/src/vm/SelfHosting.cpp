@@ -16850,6 +16850,15 @@ intl_ComputeDisplayName
 JS_FN
 (
 "
+intl_ComputeDisplayNames
+"
+intl_ComputeDisplayNames
+3
+0
+)
+JS_FN
+(
+"
 intl_DateTimeFormat
 "
 intl_DateTimeFormat
