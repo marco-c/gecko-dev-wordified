@@ -36,9 +36,6 @@ super
 tokio_named_pipes
 ;
 use
-mio_named_pipes
-;
-use
 std
 :
 :
@@ -310,6 +307,16 @@ pipe_client
 )
 )
 }
+#
+[
+allow
+(
+clippy
+:
+:
+missing_safety_doc
+)
+]
 pub
 unsafe
 fn

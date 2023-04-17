@@ -926,7 +926,6 @@ readable
 )
 ?
 ;
-return
 Ok
 (
 Async
@@ -934,7 +933,6 @@ Async
 :
 NotReady
 )
-;
 }
 Err
 (
@@ -1142,7 +1140,6 @@ clear_write_ready
 )
 ?
 ;
-return
 Ok
 (
 Async
@@ -1150,7 +1147,6 @@ Async
 :
 NotReady
 )
-;
 }
 Err
 (

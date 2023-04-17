@@ -268,7 +268,6 @@ process_incoming
 (
 req
 )
-?
 ;
 }
 else
@@ -306,16 +305,6 @@ T
 In
 >
 )
--
->
-io
-:
-:
-Result
-<
-(
-)
->
 {
 trace
 !
@@ -461,11 +450,6 @@ false
 ;
 }
 }
-Ok
-(
-(
-)
-)
 }
 /
 /
