@@ -863,9 +863,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 ;
@@ -877,9 +874,6 @@ write_index_
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -1035,9 +1029,6 @@ to_write
 std
 :
 :
-memory_order
-:
-:
 memory_order_release
 )
 ;
@@ -1160,9 +1151,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_acquire
 )
 ;
@@ -1174,9 +1162,6 @@ read_index_
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -1278,9 +1263,6 @@ to_read
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 ;
@@ -1350,9 +1332,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 write_index_
@@ -1360,9 +1339,6 @@ write_index_
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -1436,9 +1412,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 write_index_
@@ -1446,9 +1419,6 @@ write_index_
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
