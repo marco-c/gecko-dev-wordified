@@ -5638,6 +5638,13 @@ mMouseLocation
 NS_UNCONSTRAINEDSIZE
 NS_UNCONSTRAINEDSIZE
 )
+mLastResolutionChangeOrigin
+(
+ResolutionChangeOrigin
+:
+:
+Apz
+)
 mPaintCount
 (
 0
@@ -36446,6 +36453,10 @@ GetResolution
 (
 )
 )
+;
+mLastResolutionChangeOrigin
+=
+aOrigin
 ;
 RenderingState
 state

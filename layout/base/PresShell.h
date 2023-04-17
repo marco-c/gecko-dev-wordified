@@ -7621,6 +7621,15 @@ ResolutionChangeOrigin
 aOrigin
 )
 ;
+ResolutionChangeOrigin
+GetLastResolutionChangeOrigin
+(
+)
+{
+return
+mLastResolutionChangeOrigin
+;
+}
 /
 /
 Widget
@@ -18387,6 +18396,9 @@ Maybe
 float
 >
 mResolution
+;
+ResolutionChangeOrigin
+mLastResolutionChangeOrigin
 ;
 TimeStamp
 mLoadBegin
