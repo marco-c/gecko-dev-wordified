@@ -500,7 +500,6 @@ Uuid
 :
 parse_str
 (
-&
 value
 )
 {

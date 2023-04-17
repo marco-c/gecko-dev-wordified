@@ -1184,7 +1184,6 @@ test_get_value_as_string
 (
 &
 glean
-&
 store_name
 )
 .
