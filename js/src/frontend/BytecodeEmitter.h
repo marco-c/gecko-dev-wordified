@@ -5874,7 +5874,7 @@ PropertyByValueBase
 elem
 ElemOpEmitter
 &
-poe
+eoe
 bool
 isSuper
 OptionalEmitter
