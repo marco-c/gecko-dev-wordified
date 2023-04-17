@@ -203,14 +203,13 @@ a
 remoteness
 flip
 await
-navigateToNewDomain
+navigateTo
 (
 "
 about
 :
 robots
 "
-ui
 )
 ;
 /

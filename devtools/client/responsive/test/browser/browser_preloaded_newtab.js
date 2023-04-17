@@ -159,10 +159,9 @@ ui
 )
 ;
 await
-navigateToNewDomain
+navigateTo
 (
 TEST_URL
-ui
 )
 ;
 ok

@@ -144,10 +144,12 @@ match
 original
 tab
 await
-load
+navigateTo
 (
-browser
 TEST_URL
+{
+browser
+}
 )
 ;
 const

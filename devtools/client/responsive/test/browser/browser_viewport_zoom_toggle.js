@@ -136,9 +136,8 @@ tab
 linkedBrowser
 ;
 await
-load
+navigateTo
 (
-browser
 TEST_URL
 )
 ;

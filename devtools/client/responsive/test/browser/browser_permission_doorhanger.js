@@ -232,9 +232,8 @@ page
 requesting
 geolocation
 await
-load
+navigateTo
 (
-browser
 TEST_SURL
 )
 ;
@@ -267,9 +266,8 @@ and
 enable
 RDM
 await
-load
+navigateTo
 (
-browser
 DUMMY_URL
 )
 ;
@@ -325,9 +323,8 @@ page
 inside
 RDM
 await
-load
+navigateTo
 (
-browser
 TEST_SURL
 )
 ;
