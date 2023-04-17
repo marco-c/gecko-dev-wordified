@@ -3265,7 +3265,9 @@ signon
 .
 recipes
 .
-remoteRecipesEnabled
+remoteRecipes
+.
+enabled
 "
 )
 ;
