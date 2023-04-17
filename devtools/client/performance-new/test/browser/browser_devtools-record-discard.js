@@ -76,7 +76,7 @@ Test
 that
 DevTools
 can
-capture
+discard
 profiles
 .
 "
