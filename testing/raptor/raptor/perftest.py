@@ -67,8 +67,6 @@ __future__
 import
 absolute_import
 import
-six
-import
 json
 import
 os
@@ -94,13 +92,15 @@ mozinfo
 import
 mozprocess
 import
-mozversion
-import
 mozproxy
 .
 utils
 as
 mpu
+import
+mozversion
+import
+six
 from
 mozprofile
 import
