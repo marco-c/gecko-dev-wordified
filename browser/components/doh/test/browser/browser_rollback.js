@@ -131,12 +131,10 @@ https
 :
 /
 /
-example
+dummytrr
 .
 com
 /
-dns
--
 query
 "
 "
