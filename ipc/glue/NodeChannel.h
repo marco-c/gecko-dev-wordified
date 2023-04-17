@@ -1094,6 +1094,8 @@ the
 IO
 thread
 .
+WeakPtr
+<
 IPC
 :
 :
@@ -1101,10 +1103,8 @@ Channel
 :
 :
 Listener
-*
+>
 mExistingListener
-=
-nullptr
 ;
 }
 ;
