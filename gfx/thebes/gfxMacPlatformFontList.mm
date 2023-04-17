@@ -5740,10 +5740,6 @@ false
 CheckFamilyList
 (
 kBaseFonts
-ArrayLength
-(
-kBaseFonts
-)
 )
 ;
 /
@@ -6051,10 +6047,6 @@ FamilyInList
 (
 aName
 kBaseFonts
-ArrayLength
-(
-kBaseFonts
-)
 )
 )
 {
