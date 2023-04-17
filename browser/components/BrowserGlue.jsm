@@ -22996,6 +22996,11 @@ ctrlTab
 recentlyUsedOrder
 "
 ;
+let
+oldPrefDefault
+=
+true
+;
 /
 /
 Use
@@ -23047,7 +23052,7 @@ prefs
 getBoolPref
 (
 oldPrefName
-defaultValue
+oldPrefDefault
 )
 ;
 Services
