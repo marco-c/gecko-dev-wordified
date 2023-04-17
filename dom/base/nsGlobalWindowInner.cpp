@@ -17221,10 +17221,11 @@ IsDiscarded
 )
 |
 |
+!
 wc
 -
 >
-IsCached
+IsCurrent
 (
 )
 )

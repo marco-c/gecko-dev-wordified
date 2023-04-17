@@ -7415,10 +7415,11 @@ winContext
 {
 if
 (
+!
 winContext
 -
 >
-IsCached
+IsCurrent
 (
 )
 )

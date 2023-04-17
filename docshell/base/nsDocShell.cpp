@@ -84899,10 +84899,11 @@ GetParentWindowContext
 {
 if
 (
+!
 wc
 -
 >
-IsCached
+IsCurrent
 (
 )
 |
