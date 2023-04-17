@@ -31,6 +31,7 @@ of
 native
 events
 .
+async
 function
 getResolution
 (
@@ -74,17 +75,36 @@ resolution
 .
 resolution
 =
+await
 SpecialPowers
 .
-getDOMWindowUtils
+spawn
 (
 window
 .
 top
+[
+]
+(
+)
+=
+>
+{
+return
+SpecialPowers
+.
+getDOMWindowUtils
+(
+content
+.
+window
 )
 .
 getResolution
 (
+)
+;
+}
 )
 ;
 return
@@ -1920,6 +1940,7 @@ g
 scale
 transforms
 .
+async
 function
 coordinatesRelativeToScreen
 (
@@ -2148,6 +2169,7 @@ screenPixelsPerCSSPixelNoOverride
 const
 resolution
 =
+await
 getResolution
 (
 )
@@ -2503,6 +2525,7 @@ if
 not
 needed
 .
+async
 function
 synthesizeNativeWheel
 (
@@ -2517,6 +2540,7 @@ aObserver
 var
 pt
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -2675,6 +2699,7 @@ for
 aPhase
 |
 .
+async
 function
 synthesizeNativePanGestureEvent
 (
@@ -2720,6 +2745,7 @@ getPlatform
 var
 pt
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -3432,6 +3458,7 @@ modifierFlags
 var
 pt
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -3661,6 +3688,7 @@ modifierFlags
 var
 pt
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -3847,6 +3875,7 @@ s
 bounding
 rect
 .
+async
 function
 synthesizeNativeTouch
 (
@@ -3865,6 +3894,7 @@ aTouchId
 var
 pt
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -4236,6 +4266,7 @@ values
 .
 *
 /
+async
 function
 synthesizeNativePointerSequences
 (
@@ -4477,6 +4508,7 @@ i
 j
 ]
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -5297,6 +5329,7 @@ err
 )
 ;
 }
+async
 function
 synthesizeNativeTap
 (
@@ -5311,6 +5344,7 @@ null
 var
 pt
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -5359,6 +5393,7 @@ currently
 implemented
 on
 macOS
+async
 function
 synthesizeNativeTouchpadDoubleTap
 (
@@ -5407,6 +5442,7 @@ macOS
 let
 pt
 =
+await
 coordinatesRelativeToScreen
 (
 {
@@ -5474,6 +5510,7 @@ subdocument
 window
 )
 .
+async
 function
 synthesizeNativeMouseEventWithAPZ
 (
@@ -5955,7 +5992,9 @@ specified
 const
 pt
 =
+await
 (
+async
 (
 )
 =
