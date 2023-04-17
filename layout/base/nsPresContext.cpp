@@ -14490,7 +14490,7 @@ IsPrintingOrPrintPreview
 timing
 -
 >
-NotifyContentfulPaintForRootContentDocument
+NotifyContentfulCompositeForRootContentDocument
 (
 aTimeStamp
 )

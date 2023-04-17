@@ -349,13 +349,13 @@ mozilla
 :
 :
 TimeStamp
-GetFirstContentfulPaintTimeStamp
+GetFirstContentfulCompositeTimeStamp
 (
 )
 const
 {
 return
-mContentfulPaint
+mContentfulComposite
 ;
 }
 DOMTimeMilliSec
@@ -491,7 +491,7 @@ mNonBlankPaint
 ;
 }
 DOMTimeMilliSec
-GetTimeToContentfulPaint
+GetTimeToContentfulComposite
 (
 )
 const
@@ -499,7 +499,7 @@ const
 return
 TimeStampToDOM
 (
-mContentfulPaint
+mContentfulComposite
 )
 ;
 }
@@ -877,7 +877,7 @@ NotifyNonBlankPaintForRootContentDocument
 )
 ;
 void
-NotifyContentfulPaintForRootContentDocument
+NotifyContentfulCompositeForRootContentDocument
 (
 const
 mozilla
@@ -1173,7 +1173,7 @@ mozilla
 :
 :
 TimeStamp
-mContentfulPaint
+mContentfulComposite
 ;
 mozilla
 :

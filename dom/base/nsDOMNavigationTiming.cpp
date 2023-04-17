@@ -417,7 +417,7 @@ TimeStamp
 (
 )
 ;
-mContentfulPaint
+mContentfulComposite
 =
 TimeStamp
 (
@@ -1613,7 +1613,7 @@ Now
 MOZ_RELEASE_ASSERT
 (
 !
-mContentfulPaint
+mContentfulComposite
 .
 IsNull
 (
@@ -1625,7 +1625,7 @@ with
 no
 contentful
 -
-paint
+composite
 ?
 "
 )
@@ -1657,7 +1657,7 @@ lastLongTaskEnded
 Window
 starts
 at
-mContentfulPaint
+mContentfulComposite
 ;
 any
 long
@@ -1677,7 +1677,7 @@ IsNull
 |
 lastLongTaskEnded
 <
-mContentfulPaint
+mContentfulComposite
 )
 {
 PAGELOAD_LOG
@@ -1693,7 +1693,7 @@ was
 g
 ms
 before
-ContentfulPaint
+ContentfulComposite
 )
 "
 lastLongTaskEnded
@@ -1705,7 +1705,7 @@ IsNull
 0
 :
 (
-mContentfulPaint
+mContentfulComposite
 -
 lastLongTaskEnded
 )
@@ -1718,7 +1718,7 @@ ToMilliseconds
 ;
 lastLongTaskEnded
 =
-mContentfulPaint
+mContentfulComposite
 ;
 }
 TimeDuration
@@ -2018,7 +2018,7 @@ lastLongTaskEnded
 is
 >
 =
-mContentfulPaint
+mContentfulComposite
 mTTFI
 =
 (
@@ -2545,7 +2545,7 @@ void
 nsDOMNavigationTiming
 :
 :
-NotifyContentfulPaintForRootContentDocument
+NotifyContentfulCompositeForRootContentDocument
 (
 const
 mozilla
@@ -2576,7 +2576,7 @@ IsNull
 if
 (
 !
-mContentfulPaint
+mContentfulComposite
 .
 IsNull
 (
@@ -2586,7 +2586,7 @@ IsNull
 return
 ;
 }
-mContentfulPaint
+mContentfulComposite
 =
 aCompositeEndTime
 ;
@@ -2605,7 +2605,7 @@ PAGELOAD_LOG_ENABLED
 TimeDuration
 elapsed
 =
-mContentfulPaint
+mContentfulComposite
 -
 mNavigationStart
 ;
@@ -2703,7 +2703,7 @@ get
 PROFILER_MARKER_TEXT
 (
 "
-FirstContentfulPaint
+FirstContentfulComposite
 "
 DOM
 MarkerOptions
@@ -2714,7 +2714,7 @@ MarkerTiming
 Interval
 (
 mNavigationStart
-mContentfulPaint
+mContentfulComposite
 )
 MarkerInnerWindowIdFromDocShell
 (
@@ -2799,7 +2799,7 @@ Telemetry
 :
 TIME_TO_FIRST_CONTENTFUL_PAINT_MS
 mNavigationStart
-mContentfulPaint
+mContentfulComposite
 )
 ;
 }
@@ -3286,12 +3286,12 @@ aOther
 >
 mNonBlankPaint
 )
-mContentfulPaint
+mContentfulComposite
 (
 aOther
 -
 >
-mContentfulPaint
+mContentfulComposite
 )
 mDOMContentFlushed
 (
@@ -3533,7 +3533,7 @@ aActor
 aParam
 -
 >
-mContentfulPaint
+mContentfulComposite
 )
 ;
 WriteIPDLParam
@@ -3828,7 +3828,7 @@ aActor
 timing
 -
 >
-mContentfulPaint
+mContentfulComposite
 )
 |
 |
