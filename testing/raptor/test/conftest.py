@@ -283,7 +283,6 @@ mock_test
     
 return
 {
-        
 "
 name
 "
@@ -295,7 +294,6 @@ firefox
 -
 tp6
 "
-        
 "
 test_url
 "
@@ -306,20 +304,6 @@ dummy
 /
 url
 "
-        
-"
-secondary_url
-"
-:
-"
-/
-dummy
-/
-url
--
-2
-"
-    
 }
 pytest
 .
