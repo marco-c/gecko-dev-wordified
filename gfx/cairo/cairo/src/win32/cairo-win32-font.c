@@ -1679,9 +1679,8 @@ newer
 *
 /
 }
-static
 BYTE
-_get_system_quality
+cairo_win32_get_system_text_quality
 (
 void
 )
@@ -2019,7 +2018,7 @@ f
 >
 quality
 =
-_get_system_quality
+cairo_win32_get_system_text_quality
 (
 )
 ;
