@@ -261,6 +261,17 @@ else
 raise
 IOError
 (
+"
+Could
+not
+find
+hook
+module
+.
+%
+s
+"
+%
 str
 (
 hook_module

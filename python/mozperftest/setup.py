@@ -86,6 +86,10 @@ jsonschema
 "
     
 "
+attr
+"
+    
+"
 mozlog
 >
 =
