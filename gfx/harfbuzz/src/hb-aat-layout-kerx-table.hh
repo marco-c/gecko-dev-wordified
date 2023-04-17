@@ -4471,7 +4471,7 @@ U
 struct
 Long
 {
-LNNOffsetTo
+NNOffset32To
 <
 Lookup
 <
@@ -4480,7 +4480,7 @@ HBUINT32
 >
 rowIndexTable
 ;
-LNNOffsetTo
+NNOffset32To
 <
 Lookup
 <
@@ -4489,7 +4489,7 @@ HBUINT32
 >
 columnIndexTable
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -4504,7 +4504,7 @@ l
 struct
 Short
 {
-LNNOffsetTo
+NNOffset32To
 <
 Lookup
 <
@@ -4513,7 +4513,7 @@ HBUINT16
 >
 rowIndexTable
 ;
-LNNOffsetTo
+NNOffset32To
 <
 Lookup
 <
@@ -4522,7 +4522,7 @@ HBUINT16
 >
 columnIndexTable
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -4537,7 +4537,7 @@ s
 }
 u
 ;
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <

@@ -1425,7 +1425,7 @@ protected
 :
 UnsizedArrayOf
 <
-LOffsetTo
+Offset32To
 <
 SBIXGlyph
 >
@@ -2377,7 +2377,7 @@ serializer
 >
 start_embed
 <
-LOffsetLArrayOf
+Array32OfOffset32To
 <
 SBIXStrike
 >
@@ -2422,7 +2422,7 @@ false
 ;
 hb_vector_t
 <
-LOffsetTo
+Offset32To
 <
 SBIXStrike
 >
@@ -2786,7 +2786,7 @@ to
 .
 *
 /
-LOffsetLArrayOf
+Array32OfOffset32To
 <
 SBIXStrike
 >

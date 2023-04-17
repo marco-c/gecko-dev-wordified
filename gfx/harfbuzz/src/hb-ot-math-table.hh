@@ -367,7 +367,7 @@ design
 units
 *
 /
-OffsetTo
+Offset16To
 <
 Device
 >
@@ -876,7 +876,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -901,7 +901,7 @@ table
 .
 *
 /
-ArrayOf
+Array16Of
 <
 MathValueRecord
 >
@@ -1042,7 +1042,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -1067,7 +1067,7 @@ table
 .
 *
 /
-ArrayOf
+Array16Of
 <
 MathValueRecord
 >
@@ -1661,7 +1661,7 @@ NULL
 .
 *
 /
-OffsetTo
+Offset16To
 <
 MathKern
 >
@@ -1773,7 +1773,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -1798,7 +1798,7 @@ table
 .
 *
 /
-ArrayOf
+Array16Of
 <
 MathKernInfoRecord
 >
@@ -2026,7 +2026,7 @@ table
 .
 *
 /
-OffsetTo
+Offset16To
 <
 MathItalicsCorrectionInfo
 >
@@ -2049,7 +2049,7 @@ table
 .
 *
 /
-OffsetTo
+Offset16To
 <
 MathTopAccentAttachment
 >
@@ -2124,7 +2124,7 @@ NULL
 .
 *
 /
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -2147,7 +2147,7 @@ table
 .
 *
 /
-OffsetTo
+Offset16To
 <
 MathKernInfo
 >
@@ -2745,7 +2745,7 @@ size
 .
 *
 /
-ArrayOf
+Array16Of
 <
 MathGlyphPartRecord
 >
@@ -2968,7 +2968,7 @@ NULL
 .
 *
 /
-OffsetTo
+Offset16To
 <
 MathGlyphAssembly
 >
@@ -2986,7 +2986,7 @@ glyphs
 .
 *
 /
-ArrayOf
+Array16Of
 <
 MathGlyphVariantRecord
 >
@@ -3314,7 +3314,7 @@ vertGlyphCount
 horizGlyphCount
 ;
 const
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -3400,7 +3400,7 @@ units
 .
 *
 /
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -3424,7 +3424,7 @@ table
 .
 *
 /
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -3521,7 +3521,7 @@ direction
 /
 UnsizedArrayOf
 <
-OffsetTo
+Offset16To
 <
 MathGlyphConstruction
 >
@@ -3731,7 +3731,7 @@ to
 0x00010000u
 *
 /
-OffsetTo
+Offset16To
 <
 MathConstants
 >
@@ -3743,7 +3743,7 @@ MathConstants
 table
 *
 /
-OffsetTo
+Offset16To
 <
 MathGlyphInfo
 >
@@ -3755,7 +3755,7 @@ MathGlyphInfo
 table
 *
 /
-OffsetTo
+Offset16To
 <
 MathVariants
 >

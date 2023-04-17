@@ -521,7 +521,7 @@ color_count
 }
 protected
 :
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -558,7 +558,7 @@ provided
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -595,7 +595,7 @@ provided
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -1079,7 +1079,7 @@ palettes
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <

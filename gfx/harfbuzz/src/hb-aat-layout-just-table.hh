@@ -516,7 +516,7 @@ field
 .
 *
 /
-ArrayOf
+Array16Of
 <
 HBUINT16
 >
@@ -1884,7 +1884,7 @@ typedef
 OT
 :
 :
-LArrayOf
+Array32Of
 <
 WidthDeltaPair
 >
@@ -2149,7 +2149,7 @@ base
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 JustificationCategory
 >
@@ -2167,7 +2167,7 @@ table
 .
 *
 /
-OffsetTo
+Offset16To
 <
 WidthDeltaCluster
 >
@@ -2210,7 +2210,7 @@ table
 .
 *
 /
-OffsetTo
+Offset16To
 <
 PostcompensationActionChain
 >
@@ -2253,7 +2253,7 @@ font
 /
 Lookup
 <
-OffsetTo
+Offset16To
 <
 WidthDeltaCluster
 >
@@ -2413,7 +2413,7 @@ to
 .
 *
 /
-OffsetTo
+Offset16To
 <
 JustificationHeader
 >
@@ -2459,7 +2459,7 @@ store
 .
 *
 /
-OffsetTo
+Offset16To
 <
 JustificationHeader
 >

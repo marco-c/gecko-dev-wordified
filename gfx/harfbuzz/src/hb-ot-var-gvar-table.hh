@@ -2496,7 +2496,7 @@ and
 .
 *
 /
-OffsetTo
+Offset16To
 <
 HBUINT8
 >
@@ -4940,7 +4940,7 @@ table
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -5051,7 +5051,7 @@ uint32
 .
 *
 /
-LOffsetTo
+Offset32To
 <
 GlyphVariationData
 >

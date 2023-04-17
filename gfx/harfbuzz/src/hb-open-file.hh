@@ -1301,9 +1301,9 @@ Header
 0x00010000u
 *
 /
-LArrayOf
+Array32Of
 <
-LOffsetTo
+Offset32To
 <
 OpenTypeOffsetTable
 >
@@ -1772,13 +1772,12 @@ Resource
 attributes
 *
 /
-NNOffsetTo
+NNOffset24To
 <
-LArrayOf
+Array32Of
 <
 HBUINT8
 >
-HBUINT24
 >
 offset
 ;
@@ -1978,7 +1977,7 @@ minus
 .
 *
 /
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -2350,7 +2349,7 @@ fork
 attribute
 *
 /
-NNOffsetTo
+NNOffset16To
 <
 ArrayOfM1
 <
@@ -2539,7 +2538,7 @@ data
 }
 protected
 :
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -2562,7 +2561,7 @@ resource
 data
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 ResourceMap
 >

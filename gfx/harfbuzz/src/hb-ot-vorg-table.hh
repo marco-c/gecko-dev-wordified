@@ -713,7 +713,7 @@ origin
 .
 *
 /
-SortedArrayOf
+SortedArray16Of
 <
 VertOriginMetric
 >

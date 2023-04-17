@@ -400,7 +400,7 @@ startGlyphID
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -659,9 +659,9 @@ at
 .
 *
 /
-LOffsetTo
+Offset32To
 <
-SortedArrayOf
+SortedArray16Of
 <
 SVGDocumentIndexEntry
 >

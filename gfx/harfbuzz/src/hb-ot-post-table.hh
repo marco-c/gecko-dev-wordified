@@ -330,7 +330,7 @@ c
 }
 protected
 :
-ArrayOf
+Array16Of
 <
 HBUINT16
 >
@@ -1356,7 +1356,7 @@ uint32_t
 version
 ;
 const
-ArrayOf
+Array16Of
 <
 HBUINT16
 >

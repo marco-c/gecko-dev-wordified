@@ -1018,7 +1018,7 @@ bytes
 .
 *
 /
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -1509,6 +1509,8 @@ c
 -
 >
 ran_out_of_room
+(
+)
 )
 )
 return_trace
@@ -2434,7 +2436,7 @@ records
 .
 *
 /
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <

@@ -306,7 +306,7 @@ DEFINE_SIZE_STATIC
 }
 ;
 typedef
-LArrayOf
+Array32Of
 <
 Anchor
 >
@@ -339,7 +339,7 @@ num_glyphs
 const
 {
 const
-NNOffsetTo
+NNOffset16To
 <
 GlyphAnchors
 >
@@ -483,11 +483,11 @@ zero
 )
 *
 /
-LOffsetTo
+Offset32To
 <
 Lookup
 <
-NNOffsetTo
+NNOffset16To
 <
 GlyphAnchors
 >
@@ -507,7 +507,7 @@ lookup
 table
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 HBUINT8
 >

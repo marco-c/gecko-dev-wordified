@@ -442,7 +442,7 @@ to
 )
 *
 /
-ArrayOf
+Array16Of
 <
 GaspRange
 >

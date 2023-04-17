@@ -309,7 +309,7 @@ length
 }
 protected
 :
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -481,7 +481,7 @@ none
 defined
 *
 /
-LArrayOf
+Array32Of
 <
 FTStringRange
 >

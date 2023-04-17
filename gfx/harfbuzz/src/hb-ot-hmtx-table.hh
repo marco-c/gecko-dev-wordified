@@ -892,15 +892,6 @@ c
 serializer
 -
 >
-ran_out_of_room
-|
-|
-c
--
->
-serializer
--
->
 in_error
 (
 )

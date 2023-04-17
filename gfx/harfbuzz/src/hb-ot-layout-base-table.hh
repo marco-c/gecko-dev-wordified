@@ -592,7 +592,7 @@ design
 units
 *
 /
-OffsetTo
+Offset16To
 <
 Device
 >
@@ -996,7 +996,7 @@ in
 FeatureList
 *
 /
-OffsetTo
+Offset16To
 <
 BaseCoord
 >
@@ -1028,7 +1028,7 @@ NULL
 )
 *
 /
-OffsetTo
+Offset16To
 <
 BaseCoord
 >
@@ -1214,7 +1214,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 BaseCoord
 >
@@ -1246,7 +1246,7 @@ NULL
 )
 *
 /
-OffsetTo
+Offset16To
 <
 BaseCoord
 >
@@ -1278,7 +1278,7 @@ NULL
 )
 *
 /
-SortedArrayOf
+SortedArray16Of
 <
 FeatMinMaxRecord
 >
@@ -1410,7 +1410,7 @@ the
 BaseTagList
 *
 /
-OffsetArrayOf
+Array16OfOffset16To
 <
 BaseCoord
 >
@@ -1566,7 +1566,7 @@ identification
 tag
 *
 /
-OffsetTo
+Offset16To
 <
 MinMax
 >
@@ -1729,7 +1729,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 BaseValues
 >
@@ -1754,7 +1754,7 @@ NULL
 )
 *
 /
-OffsetTo
+Offset16To
 <
 MinMax
 >
@@ -1779,7 +1779,7 @@ NULL
 )
 *
 /
-SortedArrayOf
+SortedArray16Of
 <
 BaseLangSysRecord
 >
@@ -1918,7 +1918,7 @@ identification
 tag
 *
 /
-OffsetTo
+Offset16To
 <
 BaseScript
 >
@@ -2065,7 +2065,7 @@ this
 }
 protected
 :
-SortedArrayOf
+SortedArray16Of
 <
 BaseScriptRecord
 >
@@ -2325,9 +2325,9 @@ c
 }
 protected
 :
-OffsetTo
+Offset16To
 <
-SortedArrayOf
+SortedArray16Of
 <
 Tag
 >
@@ -2368,7 +2368,7 @@ alphabetical
 order
 *
 /
-OffsetTo
+Offset16To
 <
 BaseScriptList
 >
@@ -2773,7 +2773,7 @@ BASE
 table
 *
 /
-OffsetTo
+Offset16To
 <
 Axis
 >
@@ -2799,7 +2799,7 @@ NULL
 )
 *
 /
-OffsetTo
+Offset16To
 <
 Axis
 >
@@ -2825,7 +2825,7 @@ NULL
 )
 *
 /
-LOffsetTo
+Offset32To
 <
 VariationStore
 >

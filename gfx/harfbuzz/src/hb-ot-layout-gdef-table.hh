@@ -270,7 +270,7 @@ order
 struct
 AttachPoint
 :
-ArrayOf
+Array16Of
 <
 HBUINT16
 >
@@ -658,7 +658,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -680,7 +680,7 @@ AttachList
 table
 *
 /
-OffsetArrayOf
+Array16OfOffset16To
 <
 AttachPoint
 >
@@ -1272,7 +1272,7 @@ design
 units
 *
 /
-OffsetTo
+Offset16To
 <
 Device
 >
@@ -1923,7 +1923,7 @@ const
 for
 (
 const
-OffsetTo
+Offset16To
 <
 CaretValue
 >
@@ -1979,7 +1979,7 @@ this
 }
 protected
 :
-OffsetArrayOf
+Array16OfOffset16To
 <
 CaretValue
 >
@@ -2393,7 +2393,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 Coverage
 >
@@ -2415,7 +2415,7 @@ LigCaretList
 table
 *
 /
-OffsetArrayOf
+Array16OfOffset16To
 <
 LigGlyph
 >
@@ -2544,7 +2544,7 @@ true
 for
 (
 const
-LOffsetTo
+Offset32To
 <
 Coverage
 >
@@ -2735,9 +2735,9 @@ format
 1
 *
 /
-ArrayOf
+Array16Of
 <
-LOffsetTo
+Offset32To
 <
 Coverage
 >
@@ -3928,6 +3928,9 @@ serialize_subset
 c
 glyphClassDef
 this
+nullptr
+false
+true
 )
 ;
 bool
@@ -3973,6 +3976,9 @@ serialize_subset
 c
 markAttachClassDef
 this
+nullptr
+false
+true
 )
 ;
 bool
@@ -4271,7 +4277,7 @@ currently
 0x00010003u
 *
 /
-OffsetTo
+Offset16To
 <
 ClassDef
 >
@@ -4303,7 +4309,7 @@ Null
 )
 *
 /
-OffsetTo
+Offset16To
 <
 AttachList
 >
@@ -4335,7 +4341,7 @@ Null
 )
 *
 /
-OffsetTo
+Offset16To
 <
 LigCaretList
 >
@@ -4368,7 +4374,7 @@ Null
 )
 *
 /
-OffsetTo
+Offset16To
 <
 ClassDef
 >
@@ -4401,7 +4407,7 @@ Null
 )
 *
 /
-OffsetTo
+Offset16To
 <
 MarkGlyphSets
 >
@@ -4440,7 +4446,7 @@ version
 .
 *
 /
-LOffsetTo
+Offset32To
 <
 VariationStore
 >

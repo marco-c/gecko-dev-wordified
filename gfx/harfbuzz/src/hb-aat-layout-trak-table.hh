@@ -445,7 +445,7 @@ tight
 )
 *
 /
-NNOffsetTo
+NNOffset16To
 <
 UnsizedArrayOf
 <
@@ -955,7 +955,7 @@ table
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -1431,7 +1431,7 @@ to
 .
 *
 /
-OffsetTo
+Offset16To
 <
 TrackData
 >
@@ -1460,7 +1460,7 @@ none
 .
 *
 /
-OffsetTo
+Offset16To
 <
 TrackData
 >

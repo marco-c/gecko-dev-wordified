@@ -840,7 +840,7 @@ return
 true
 ;
 }
-void
+bool
 set
 (
 K
@@ -849,6 +849,7 @@ V
 value
 )
 {
+return
 set_with_hash
 (
 key
@@ -1273,7 +1274,7 @@ this
 }
 protected
 :
-void
+bool
 set_with_hash
 (
 K
@@ -1293,6 +1294,7 @@ successful
 )
 )
 return
+false
 ;
 if
 (
@@ -1305,8 +1307,11 @@ kINVALID
 )
 )
 return
+true
 ;
 if
+(
+unlikely
 (
 (
 occupancy
@@ -1325,7 +1330,9 @@ resize
 (
 )
 )
+)
 return
+false
 ;
 unsigned
 int
@@ -1356,6 +1363,7 @@ key
 key
 )
 return
+true
 ;
 /
 *
@@ -1448,6 +1456,9 @@ is_tombstone
 population
 +
 +
+;
+return
+true
 ;
 }
 unsigned

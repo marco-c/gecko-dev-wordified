@@ -1900,7 +1900,7 @@ false
 hb_array_t
 <
 const
-OffsetTo
+Offset16To
 <
 AxisValue
 >
@@ -2252,7 +2252,7 @@ designAxisCount
 hb_array_t
 <
 const
-OffsetTo
+Offset16To
 <
 AxisValue
 >
@@ -2375,7 +2375,7 @@ zero
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -2445,11 +2445,11 @@ tables
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
-OffsetTo
+Offset16To
 <
 AxisValue
 >

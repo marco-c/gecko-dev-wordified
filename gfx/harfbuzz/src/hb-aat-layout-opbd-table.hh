@@ -341,7 +341,7 @@ base
 const
 {
 const
-OffsetTo
+Offset16To
 <
 OpticalBounds
 >
@@ -478,7 +478,7 @@ protected
 :
 Lookup
 <
-OffsetTo
+Offset16To
 <
 OpticalBounds
 >
@@ -549,7 +549,7 @@ base
 const
 {
 const
-OffsetTo
+Offset16To
 <
 OpticalBounds
 >
@@ -739,7 +739,7 @@ protected
 :
 Lookup
 <
-OffsetTo
+Offset16To
 <
 OpticalBounds
 >

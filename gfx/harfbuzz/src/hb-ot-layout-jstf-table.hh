@@ -255,7 +255,7 @@ Table
 *
 /
 typedef
-OffsetListOf
+List16OfOffset16To
 <
 PosLookup
 >
@@ -393,7 +393,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 JstfModList
 >
@@ -424,7 +424,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfModList
 >
@@ -455,7 +455,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfModList
 >
@@ -486,7 +486,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfModList
 >
@@ -517,7 +517,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfMax
 >
@@ -546,7 +546,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfModList
 >
@@ -577,7 +577,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfModList
 >
@@ -608,7 +608,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfModList
 >
@@ -639,7 +639,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfModList
 >
@@ -670,7 +670,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfMax
 >
@@ -723,7 +723,7 @@ Table
 struct
 JstfLangSys
 :
-OffsetListOf
+List16OfOffset16To
 <
 JstfPriority
 >
@@ -749,7 +749,7 @@ this
 ;
 return_trace
 (
-OffsetListOf
+List16OfOffset16To
 <
 JstfPriority
 >
@@ -776,7 +776,7 @@ Table
 *
 /
 typedef
-SortedArrayOf
+SortedArray16Of
 <
 HBGlyphID
 >
@@ -1006,7 +1006,7 @@ this
 }
 protected
 :
-OffsetTo
+Offset16To
 <
 ExtenderGlyphs
 >
@@ -1032,7 +1032,7 @@ be
 NULL
 *
 /
-OffsetTo
+Offset16To
 <
 JstfLangSys
 >

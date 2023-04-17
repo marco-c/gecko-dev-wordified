@@ -384,7 +384,7 @@ metadata
 .
 *
 /
-LNNOffsetTo
+NNOffset32To
 <
 UnsizedArrayOf
 <
@@ -737,7 +737,7 @@ to
 .
 *
 /
-LArrayOf
+Array32Of
 <
 DataMap
 >

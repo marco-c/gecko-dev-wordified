@@ -2060,7 +2060,7 @@ ContextualSubtable
 table
 ;
 const
-UnsizedOffsetListOf
+UnsizedListOfOffset16To
 <
 Lookup
 <
@@ -2305,7 +2305,7 @@ machine
 ;
 NNOffsetTo
 <
-UnsizedOffsetListOf
+UnsizedListOfOffset16To
 <
 Lookup
 <

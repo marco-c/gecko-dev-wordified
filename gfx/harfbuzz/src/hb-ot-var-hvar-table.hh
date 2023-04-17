@@ -299,8 +299,7 @@ const
 hb_array_t
 <
 const
-unsigned
-int
+uint32_t
 >
 output_map
 =
@@ -542,8 +541,7 @@ true
 )
 ;
 }
-unsigned
-int
+uint32_t
 map
 (
 unsigned
@@ -1430,8 +1428,7 @@ old_gid
 )
 )
 {
-unsigned
-int
+uint32_t
 v
 =
 input_map
@@ -1595,8 +1592,7 @@ length
 hb_array_t
 <
 const
-unsigned
-int
+uint32_t
 >
 get_output_map
 (
@@ -1634,8 +1630,7 @@ inner_bit_count
 ;
 hb_vector_t
 <
-unsigned
-int
+uint32_t
 >
 output_map
 ;
@@ -2807,8 +2802,7 @@ font
 )
 const
 {
-unsigned
-int
+uint32_t
 varidx
 =
 (
@@ -2870,8 +2864,7 @@ return
 .
 f
 ;
-unsigned
-int
+uint32_t
 varidx
 =
 (
@@ -2935,7 +2928,7 @@ to
 0x00010000u
 *
 /
-LOffsetTo
+Offset32To
 <
 VariationStore
 >
@@ -2952,7 +2945,7 @@ table
 .
 *
 /
-LOffsetTo
+Offset32To
 <
 DeltaSetIndexMap
 >
@@ -2970,7 +2963,7 @@ mapping
 .
 *
 /
-LOffsetTo
+Offset32To
 <
 DeltaSetIndexMap
 >
@@ -2990,7 +2983,7 @@ mapping
 .
 *
 /
-LOffsetTo
+Offset32To
 <
 DeltaSetIndexMap
 >
@@ -3266,7 +3259,7 @@ c
 }
 protected
 :
-LOffsetTo
+Offset32To
 <
 DeltaSetIndexMap
 >
