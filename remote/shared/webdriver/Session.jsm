@@ -1970,7 +1970,6 @@ module
 commandName
 :
 command
-params
 /
 /
 XXX
@@ -2067,6 +2066,7 @@ RootMessageHandler
 .
 type
 }
+params
 }
 )
 ;
