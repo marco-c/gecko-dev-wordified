@@ -269,7 +269,7 @@ tab
 toolId
 :
 "
-inspector
+netmonitor
 "
 }
 )
@@ -397,6 +397,8 @@ stopRecordingAllocations
 (
 "
 reload
+-
+netmonitor
 "
 {
 alsoRecordContentProcess
