@@ -362,7 +362,7 @@ valueOverrides
 quickSuggestEnabled
 :
 true
-quickSuggestShuoldShowOnboardingDialog
+quickSuggestShouldShowOnboardingDialog
 :
 true
 /
