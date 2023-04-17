@@ -11721,7 +11721,7 @@ firstEnvironmentSlot
 JSSLOT_FREE
 (
 &
-LexicalEnvironmentObject
+ClassBodyLexicalEnvironmentObject
 :
 :
 class_
