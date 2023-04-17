@@ -3771,7 +3771,7 @@ NimbusFeatures
 .
 urlbar
 .
-getValue
+getAllVariables
 (
 )
 ;
@@ -4426,7 +4426,7 @@ NimbusFeatures
 .
 urlbar
 .
-getValue
+getAllVariables
 (
 )
 .
