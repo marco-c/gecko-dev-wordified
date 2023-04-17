@@ -1232,6 +1232,17 @@ include
 "
 vm
 /
+ObjectFlags
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 StringType
 -
 inl

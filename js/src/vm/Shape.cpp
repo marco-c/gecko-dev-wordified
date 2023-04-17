@@ -301,6 +301,17 @@ include
 "
 vm
 /
+ObjectFlags
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Realm
 -
 inl
