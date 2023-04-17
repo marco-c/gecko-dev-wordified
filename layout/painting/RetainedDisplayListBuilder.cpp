@@ -487,10 +487,6 @@ order
 *
 /
 using
-namespace
-mozilla
-;
-using
 mozilla
 :
 :
@@ -499,6 +495,9 @@ dom
 :
 Document
 ;
+namespace
+mozilla
+{
 void
 RetainedDisplayListData
 :
@@ -10540,3 +10539,8 @@ return
 result
 ;
 }
+}
+/
+/
+namespace
+mozilla

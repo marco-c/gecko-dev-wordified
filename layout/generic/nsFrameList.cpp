@@ -189,9 +189,6 @@ namespace
 mozilla
 {
 namespace
-layout
-{
-namespace
 detail
 {
 const
@@ -207,11 +204,6 @@ gEmptyFrameListBytes
 /
 namespace
 detail
-}
-/
-/
-namespace
-layout
 }
 /
 /

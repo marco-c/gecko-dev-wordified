@@ -218,9 +218,6 @@ LayersTypes
 h
 "
 class
-nsDisplayListBuilder
-;
-class
 nsICanvasRenderingContextInternal
 ;
 class
@@ -236,6 +233,9 @@ gfxAlphaType
 namespace
 mozilla
 {
+class
+nsDisplayListBuilder
+;
 class
 ClientWebGLContext
 ;

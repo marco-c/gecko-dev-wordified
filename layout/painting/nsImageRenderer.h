@@ -155,12 +155,12 @@ h
 class
 gfxDrawable
 ;
-class
-nsDisplayItem
-;
 namespace
 mozilla
 {
+class
+nsDisplayItem
+;
 namespace
 layers
 {

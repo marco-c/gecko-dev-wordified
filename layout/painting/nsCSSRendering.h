@@ -1292,6 +1292,9 @@ static
 ImgDrawResult
 CreateWebRenderCommandsForBorder
 (
+mozilla
+:
+:
 nsDisplayItem
 *
 aItem
@@ -1339,6 +1342,9 @@ layers
 RenderRootStateManager
 *
 aManager
+mozilla
+:
+:
 nsDisplayListBuilder
 *
 aDisplayListBuilder
@@ -1348,6 +1354,9 @@ static
 void
 CreateWebRenderCommandsForNullBorder
 (
+mozilla
+:
+:
 nsDisplayItem
 *
 aItem
@@ -1396,6 +1405,9 @@ static
 ImgDrawResult
 CreateWebRenderCommandsForBorderWithStyleBorder
 (
+mozilla
+:
+:
 nsDisplayItem
 *
 aItem
@@ -1443,6 +1455,9 @@ layers
 RenderRootStateManager
 *
 aManager
+mozilla
+:
+:
 nsDisplayListBuilder
 *
 aDisplayListBuilder
@@ -3241,6 +3256,9 @@ layers
 RenderRootStateManager
 *
 aManager
+mozilla
+:
+:
 nsDisplayItem
 *
 aItem
@@ -3291,6 +3309,9 @@ layers
 RenderRootStateManager
 *
 aManager
+mozilla
+:
+:
 nsDisplayItem
 *
 aItem

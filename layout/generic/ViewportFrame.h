@@ -166,14 +166,14 @@ nsContainerFrame
 h
 "
 class
-nsDisplayWrapList
-;
-class
 nsPresContext
 ;
 namespace
 mozilla
 {
+class
+nsDisplayWrapList
+;
 class
 ServoRestyleState
 ;

@@ -9026,6 +9026,9 @@ forget
 )
 ;
 }
+namespace
+mozilla
+{
 void
 nsDisplayRemote
 :
@@ -9896,3 +9899,8 @@ FrameLoader
 nullptr
 ;
 }
+}
+/
+/
+namespace
+mozilla

@@ -279,6 +279,12 @@ h
 class
 gfxContext
 ;
+#
+undef
+None
+namespace
+mozilla
+{
 class
 nsDisplayItem
 ;
@@ -288,12 +294,6 @@ nsPaintedDisplayItem
 class
 nsDisplayTransform
 ;
-#
-undef
-None
-namespace
-mozilla
-{
 struct
 ActiveScrolledRoot
 ;

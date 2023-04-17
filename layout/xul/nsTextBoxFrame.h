@@ -149,6 +149,9 @@ namespace
 mozilla
 {
 class
+nsDisplayXULTextBox
+;
+class
 PresShell
 ;
 }
@@ -385,6 +388,9 @@ nsAsyncAccesskeyUpdate
 ;
 friend
 class
+mozilla
+:
+:
 nsDisplayXULTextBox
 ;
 /

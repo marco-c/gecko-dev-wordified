@@ -566,6 +566,9 @@ return
 NS_OK
 ;
 }
+namespace
+mozilla
+{
 class
 nsDisplayMathMLError
 :
@@ -818,6 +821,11 @@ aCtx
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
 /
 *
 /

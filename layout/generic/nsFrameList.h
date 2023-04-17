@@ -3993,9 +3993,6 @@ mFrameList
 }
 ;
 namespace
-layout
-:
-:
 detail
 {
 union
@@ -4025,9 +4022,6 @@ gEmptyFrameListBytes
 /
 /
 namespace
-layout
-:
-:
 detail
 }
 /
@@ -4061,9 +4055,6 @@ nsFrameList
 (
 &
 mozilla
-:
-:
-layout
 :
 :
 detail

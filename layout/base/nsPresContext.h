@@ -432,12 +432,6 @@ class
 nsCSSFrameConstructor
 ;
 class
-nsDisplayList
-;
-class
-nsDisplayListBuilder
-;
-class
 nsTransitionManager
 ;
 class
