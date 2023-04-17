@@ -1492,6 +1492,11 @@ addon
 )
 ;
 await
+Promise
+.
+all
+(
+[
 promiseCompleteAllInstalls
 (
 [
@@ -1500,13 +1505,13 @@ update
 updateAvailable
 ]
 )
-;
-await
 AddonTestUtils
 .
 promiseWebExtensionStartup
 (
 ADDON_ID
+)
+]
 )
 ;
 addon
