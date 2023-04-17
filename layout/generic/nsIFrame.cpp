@@ -58608,7 +58608,6 @@ CARET_ASSOCIATE_AFTER
 :
 CARET_ASSOCIATE_BEFORE
 ;
-const
 nsAutoLineIterator
 it
 =
