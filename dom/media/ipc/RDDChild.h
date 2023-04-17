@@ -299,6 +299,12 @@ MemoryReport
 aReport
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 mozilla
 :
 :
@@ -320,6 +326,14 @@ GetModulesTrustResolver
 aResolver
 )
 ;
+#
+endif
+/
+/
+defined
+(
+XP_WIN
+)
 mozilla
 :
 :

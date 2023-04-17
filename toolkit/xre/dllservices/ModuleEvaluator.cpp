@@ -229,6 +229,9 @@ nsXULAppAPI
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 Fills
@@ -498,9 +501,6 @@ return
 result
 ;
 }
-namespace
-mozilla
-{
 /
 *
 static

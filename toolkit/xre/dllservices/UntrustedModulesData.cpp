@@ -419,6 +419,9 @@ return
 result
 ;
 }
+namespace
+mozilla
+{
 static
 Maybe
 <
@@ -464,9 +467,6 @@ QuadPart
 )
 ;
 }
-namespace
-mozilla
-{
 ModuleRecord
 :
 :

@@ -135,6 +135,10 @@ UntrustedModulesDataSerializer
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 ModuleLoadCounter
 final

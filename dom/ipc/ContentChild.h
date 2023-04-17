@@ -3134,6 +3134,12 @@ RequestMemoryReportResolver
 aResolver
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 mozilla
 :
 :
@@ -3149,6 +3155,14 @@ GetUntrustedModulesDataResolver
 aResolver
 )
 ;
+#
+endif
+/
+/
+defined
+(
+XP_WIN
+)
 mozilla
 :
 :
