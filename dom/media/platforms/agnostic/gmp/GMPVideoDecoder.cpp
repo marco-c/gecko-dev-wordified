@@ -1905,7 +1905,7 @@ NS_FAILED
 mMPS
 -
 >
-GetDecryptingGMPVideoDecoder
+GetGMPVideoDecoder
 (
 mCrashHelper
 &
