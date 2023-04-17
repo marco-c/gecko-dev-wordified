@@ -9635,7 +9635,7 @@ the
 module
 if
 (
-GcTypesAvailable
+GcAvailable
 (
 cx
 )

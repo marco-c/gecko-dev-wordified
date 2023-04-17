@@ -32473,7 +32473,7 @@ moduleEnv
 (
 )
 .
-gcTypesEnabled
+gcEnabled
 (
 )
 )

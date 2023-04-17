@@ -6308,7 +6308,7 @@ if
 (
 features_
 .
-gcTypes
+gc
 )
 {
 /
@@ -7211,7 +7211,7 @@ if
 (
 features_
 .
-gcTypes
+gc
 )
 {
 /
