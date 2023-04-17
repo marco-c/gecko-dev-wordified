@@ -225,6 +225,11 @@ UNIFIED_SOURCES
 =
 [
 "
+AppearanceOverride
+.
+mm
+"
+"
 GfxInfo
 .
 mm
