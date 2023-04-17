@@ -4069,7 +4069,7 @@ allow
 clippy
 :
 :
-inconsistent_digit_grouping
+unusual_byte_groupings
 )
 ]
 /

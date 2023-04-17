@@ -109,11 +109,7 @@ b
 .
 iter
 (
-|
-|
 avif_largest
-(
-)
 )
 )
 ;
@@ -180,6 +176,13 @@ mp4
 read_avif
 (
 input
+mp4
+:
+:
+ParseStrictness
+:
+:
+Normal
 )
 .
 is_ok
