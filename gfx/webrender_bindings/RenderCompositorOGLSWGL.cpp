@@ -2015,16 +2015,6 @@ work
 around
 this
 .
-Due
-to
-DataSourceSurface
-:
-:
-Map
-checking
-for
-failure
-via
 bool
 Map
 (
