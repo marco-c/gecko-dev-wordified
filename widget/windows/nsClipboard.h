@@ -410,6 +410,16 @@ GetCustomClipboardFormat
 ;
 protected
 :
+/
+/
+param
+aDataObject
+must
+be
+non
+-
+nullptr
+.
 static
 HRESULT
 FillSTGMedium
