@@ -407,6 +407,12 @@ false
 firefoxSuggestLabelsEnabled
 :
 false
+quickSuggestShouldShowOnboardingDialog
+:
+true
+quickSuggestShowOnboardingDialogAfterNRestarts
+:
+2
 }
 ;
 var
