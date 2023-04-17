@@ -877,6 +877,11 @@ mHasUserInteraction
 =
 false
 ;
+bool
+mHasUserActivation
+=
+false
+;
 union
 SharedState
 {
