@@ -3232,13 +3232,6 @@ prototype
 data
 property
 .
-See
-the
-MakeConstructible
-/
-/
-intrinsic
-.
 if
 (
 !
