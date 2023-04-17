@@ -423,7 +423,7 @@ private
 h
 "
 typedef
-cairo_int_status_t
+cairo_status_t
 (
 *
 cairo_type3_glyph_surface_emit_image_t
@@ -483,8 +483,6 @@ emit_image
 cairo_scaled_font_subsets_t
 *
 font_subsets
-cairo_bool_t
-ps_output
 )
 ;
 cairo_private

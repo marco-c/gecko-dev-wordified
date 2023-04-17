@@ -739,12 +739,6 @@ dst
 =
 '
 ;
-/
-*
-fall
-through
-*
-/
 case
 1
 :
@@ -942,7 +936,7 @@ status
 ;
 stream
 =
-_cairo_malloc
+malloc
 (
 sizeof
 (

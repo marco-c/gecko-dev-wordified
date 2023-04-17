@@ -389,7 +389,6 @@ const
 cairo_pattern_t
 *
 source
-const
 cairo_clip_t
 *
 clip
@@ -416,7 +415,6 @@ const
 cairo_pattern_t
 *
 mask
-const
 cairo_clip_t
 *
 clip
@@ -439,7 +437,6 @@ const
 cairo_pattern_t
 *
 source
-const
 cairo_path_fixed_t
 *
 path
@@ -459,7 +456,6 @@ double
 tolerance
 cairo_antialias_t
 antialias
-const
 cairo_clip_t
 *
 clip
@@ -482,7 +478,6 @@ const
 cairo_pattern_t
 *
 source
-const
 cairo_path_fixed_t
 *
 path
@@ -492,7 +487,6 @@ double
 tolerance
 cairo_antialias_t
 antialias
-const
 cairo_clip_t
 *
 clip
@@ -523,7 +517,6 @@ cairo_glyph_t
 glyphs
 int
 num_glyphs
-const
 cairo_clip_t
 *
 clip

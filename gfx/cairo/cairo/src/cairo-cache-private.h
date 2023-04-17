@@ -393,7 +393,7 @@ h
 *
 *
 *
-_cairo_cache_entry
+cairo_cache_entry_t
 :
 *
 *
@@ -794,8 +794,7 @@ typedef
 struct
 _cairo_cache_entry
 {
-unsigned
-long
+uintptr_t
 hash
 ;
 unsigned

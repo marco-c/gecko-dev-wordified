@@ -333,6 +333,7 @@ cairoint
 .
 h
 "
+CAIRO_BEGIN_DECLS
 cairo_private
 cairo_surface_t
 *
@@ -428,15 +429,7 @@ cairo_int_status_t
 status_b
 )
 ;
-cairo_private
-cairo_surface_t
-*
-_cairo_null_surface_create
-(
-cairo_content_t
-content
-)
-;
+CAIRO_END_DECLS
 #
 endif
 /

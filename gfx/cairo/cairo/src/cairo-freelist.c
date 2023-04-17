@@ -385,7 +385,7 @@ node
 ;
 }
 return
-_cairo_malloc
+malloc
 (
 freelist
 -
@@ -471,7 +471,7 @@ node
 ;
 VG
 (
-VALGRIND_MAKE_MEM_UNDEFINED
+VALGRIND_MAKE_MEM_NOACCESS
 (
 node
 freelist
@@ -578,7 +578,7 @@ embedded_data
 ;
 VG
 (
-VALGRIND_MAKE_MEM_UNDEFINED
+VALGRIND_MAKE_MEM_NOACCESS
 (
 freepool
 -
@@ -681,7 +681,7 @@ next
 }
 VG
 (
-VALGRIND_MAKE_MEM_UNDEFINED
+VALGRIND_MAKE_MEM_NOACCESS
 (
 freepool
 sizeof
@@ -791,7 +791,7 @@ nodesize
 ;
 pool
 =
-_cairo_malloc
+malloc
 (
 sizeof
 (
@@ -873,7 +873,7 @@ nodesize
 ;
 VG
 (
-VALGRIND_MAKE_MEM_UNDEFINED
+VALGRIND_MAKE_MEM_NOACCESS
 (
 pool
 -

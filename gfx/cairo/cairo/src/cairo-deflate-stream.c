@@ -377,9 +377,6 @@ cairoint
 h
 "
 #
-if
-CAIRO_HAS_DEFLATE_STREAM
-#
 include
 "
 cairo
@@ -805,7 +802,7 @@ status
 ;
 stream
 =
-_cairo_malloc
+malloc
 (
 sizeof
 (
@@ -964,10 +961,3 @@ stream
 base
 ;
 }
-#
-endif
-/
-*
-CAIRO_HAS_DEFLATE_STREAM
-*
-/
