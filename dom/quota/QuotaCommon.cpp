@@ -122,6 +122,9 @@ QuotaCommon
 h
 "
 #
+ifdef
+QM_ERROR_STACKS_ENABLED
+#
 include
 "
 base
@@ -130,6 +133,8 @@ process_util
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2535,6 +2540,9 @@ extraInfosString
 nsAutoCString
 rvName
 ;
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 nsAutoCString
 frameIdStr
 ;
@@ -2658,6 +2666,21 @@ nsresult
 )
 ;
 }
+#
+else
+if
+(
+aResult
+)
+{
+nsresult
+rv
+=
+*
+aResult
+;
+#
+endif
 if
 (
 NS_ERROR_GET_MODULE
@@ -2790,6 +2813,9 @@ IsEmpty
 "
 )
 ;
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 if
 (
 aResult
@@ -2832,6 +2858,8 @@ processIdStr
 )
 ;
 }
+#
+endif
 }
 const
 auto
@@ -3268,6 +3296,9 @@ second
 }
 )
 ;
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 if
 (
 !
@@ -3296,6 +3327,8 @@ frameIdStr
 )
 ;
 }
+#
+endif
 /
 /
 TODO
@@ -3338,6 +3371,9 @@ aModule
 }
 )
 ;
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 if
 (
 !
@@ -3366,6 +3402,8 @@ processIdStr
 )
 ;
 }
+#
+endif
 if
 (
 !
@@ -3564,6 +3602,9 @@ aSourceFileLine
 }
 )
 ;
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 if
 (
 !
@@ -3592,6 +3633,8 @@ stackIdStr
 )
 ;
 }
+#
+endif
 return
 res
 ;

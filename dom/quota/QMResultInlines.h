@@ -134,6 +134,9 @@ first
 #
 endif
 #
+ifdef
+QM_ERROR_STACKS_ENABLED
+#
 include
 "
 mozilla
@@ -158,9 +161,14 @@ nsError
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
+#
+ifdef
+QM_ERROR_STACKS_ENABLED
 /
 /
 Allow
@@ -423,6 +431,8 @@ Ok
 )
 ;
 }
+#
+endif
 }
 /
 /
