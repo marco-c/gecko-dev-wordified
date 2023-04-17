@@ -2663,11 +2663,9 @@ only
 support
 buffers
 with
-uint8_t
+char
 or
 char16_t
-for
-now
 .
 static_assert
 (
@@ -2677,7 +2675,7 @@ std
 is_same
 <
 C
-uint8_t
+char
 >
 :
 :
@@ -2735,7 +2733,7 @@ std
 is_same
 <
 C
-uint8_t
+char
 >
 :
 :

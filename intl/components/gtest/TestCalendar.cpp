@@ -88,8 +88,6 @@ h
 #
 include
 "
-.
-/
 TestBuffer
 .
 h
@@ -706,9 +704,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char16_t
->
 (
 )
 u
@@ -757,9 +752,6 @@ ASSERT_EQ
 buffer
 .
 get_string_view
-<
-char16_t
->
 (
 )
 u
