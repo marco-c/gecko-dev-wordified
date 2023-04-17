@@ -228,10 +228,7 @@ return
 /
 Sync
 with
-GeckoSession
-.
-handlePromptEvent
-.
+PromptController
 type
 :
 "
