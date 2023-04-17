@@ -6521,8 +6521,15 @@ p
 s
 "
 \
+int
+(
 profiler_current_process_id
 (
+)
+.
+ToNumber
+(
+)
 )
 \
 profiler_current_thread_id

@@ -5494,6 +5494,10 @@ to_string
 profiler_current_process_id
 (
 )
+.
+ToNumber
+(
+)
 )
 ;
 if
@@ -24050,7 +24054,7 @@ in
 /
 SuspendAndSampleAndResumeThread
 .
-int
+ProfilerProcessId
 mMyPid
 ;
 /

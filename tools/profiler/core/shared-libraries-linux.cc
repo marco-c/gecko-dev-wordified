@@ -1177,6 +1177,10 @@ pid
 profiler_current_process_id
 (
 )
+.
+ToNumber
+(
+)
 ;
 char
 path
