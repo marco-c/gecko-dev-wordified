@@ -3180,6 +3180,10 @@ CookieJarSettings
 :
 Create
 (
+CookieJarSettings
+:
+:
+eRegular
 )
 ;
 }
