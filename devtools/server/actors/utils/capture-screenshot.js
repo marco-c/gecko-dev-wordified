@@ -990,9 +990,6 @@ rgb
 255
 )
 "
-args
-.
-fullpage
 )
 ;
 const
