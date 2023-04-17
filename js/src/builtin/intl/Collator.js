@@ -470,7 +470,7 @@ object
 ;
 assert
 (
-GuardToCollator
+intl_GuardToCollator
 (
 obj
 )
@@ -692,7 +692,7 @@ object
 ;
 assert
 (
-GuardToCollator
+intl_GuardToCollator
 (
 collator
 )
@@ -2127,7 +2127,7 @@ object
 ;
 assert
 (
-GuardToCollator
+intl_GuardToCollator
 (
 collator
 )
@@ -2330,7 +2330,7 @@ collator
 (
 collator
 =
-GuardToCollator
+intl_GuardToCollator
 (
 collator
 )
@@ -2343,7 +2343,7 @@ null
 return
 callFunction
 (
-CallCollatorMethodIfWrapped
+intl_CallCollatorMethodIfWrapped
 this
 "
 Intl_Collator_compare_get
@@ -2476,7 +2476,7 @@ collator
 (
 collator
 =
-GuardToCollator
+intl_GuardToCollator
 (
 collator
 )
@@ -2489,7 +2489,7 @@ null
 return
 callFunction
 (
-CallCollatorMethodIfWrapped
+intl_CallCollatorMethodIfWrapped
 this
 "
 Intl_Collator_resolvedOptions

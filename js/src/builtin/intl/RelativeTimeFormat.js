@@ -323,7 +323,7 @@ object
 ;
 assert
 (
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 (
 obj
 )
@@ -521,7 +521,7 @@ object
 ;
 assert
 (
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 (
 relativeTimeFormat
 )
@@ -1125,7 +1125,7 @@ relativeTimeFormat
 (
 relativeTimeFormat
 =
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 (
 relativeTimeFormat
 )
@@ -1139,7 +1139,7 @@ null
 return
 callFunction
 (
-CallRelativeTimeFormatMethodIfWrapped
+intl_CallRelativeTimeFormatMethodIfWrapped
 this
 value
 unit
@@ -1292,7 +1292,7 @@ relativeTimeFormat
 (
 relativeTimeFormat
 =
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 (
 relativeTimeFormat
 )
@@ -1306,7 +1306,7 @@ null
 return
 callFunction
 (
-CallRelativeTimeFormatMethodIfWrapped
+intl_CallRelativeTimeFormatMethodIfWrapped
 this
 value
 unit
@@ -1440,7 +1440,7 @@ relativeTimeFormat
 (
 relativeTimeFormat
 =
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 (
 relativeTimeFormat
 )
@@ -1454,7 +1454,7 @@ null
 return
 callFunction
 (
-CallRelativeTimeFormatMethodIfWrapped
+intl_CallRelativeTimeFormatMethodIfWrapped
 this
 "
 Intl_RelativeTimeFormat_resolvedOptions

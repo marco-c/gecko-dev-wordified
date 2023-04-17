@@ -329,7 +329,7 @@ object
 ;
 assert
 (
-GuardToListFormat
+intl_GuardToListFormat
 (
 obj
 )
@@ -550,7 +550,7 @@ object
 ;
 assert
 (
-GuardToListFormat
+intl_GuardToListFormat
 (
 listFormat
 )
@@ -1240,7 +1240,7 @@ listFormat
 (
 listFormat
 =
-GuardToListFormat
+intl_GuardToListFormat
 (
 listFormat
 )
@@ -1254,7 +1254,7 @@ null
 return
 callFunction
 (
-CallListFormatMethodIfWrapped
+intl_CallListFormatMethodIfWrapped
 this
 list
 "
@@ -1407,7 +1407,7 @@ listFormat
 (
 listFormat
 =
-GuardToListFormat
+intl_GuardToListFormat
 (
 listFormat
 )
@@ -1421,7 +1421,7 @@ null
 return
 callFunction
 (
-CallListFormatMethodIfWrapped
+intl_CallListFormatMethodIfWrapped
 this
 list
 "
@@ -1583,7 +1583,7 @@ listFormat
 (
 listFormat
 =
-GuardToListFormat
+intl_GuardToListFormat
 (
 listFormat
 )
@@ -1597,7 +1597,7 @@ null
 return
 callFunction
 (
-CallListFormatMethodIfWrapped
+intl_CallListFormatMethodIfWrapped
 this
 "
 Intl_ListFormat_resolvedOptions

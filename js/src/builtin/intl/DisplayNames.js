@@ -423,7 +423,7 @@ object
 ;
 assert
 (
-GuardToDisplayNames
+intl_GuardToDisplayNames
 (
 obj
 )
@@ -645,7 +645,7 @@ object
 ;
 assert
 (
-GuardToDisplayNames
+intl_GuardToDisplayNames
 (
 displayNames
 )
@@ -1534,7 +1534,7 @@ displayNames
 (
 displayNames
 =
-GuardToDisplayNames
+intl_GuardToDisplayNames
 (
 displayNames
 )
@@ -1548,7 +1548,7 @@ null
 return
 callFunction
 (
-CallDisplayNamesMethodIfWrapped
+intl_CallDisplayNamesMethodIfWrapped
 this
 "
 Intl_DisplayNames_of
@@ -1683,7 +1683,7 @@ displayNames
 (
 displayNames
 =
-GuardToDisplayNames
+intl_GuardToDisplayNames
 (
 displayNames
 )
@@ -1697,7 +1697,7 @@ null
 return
 callFunction
 (
-CallDisplayNamesMethodIfWrapped
+intl_CallDisplayNamesMethodIfWrapped
 this
 "
 Intl_DisplayNames_resolvedOptions

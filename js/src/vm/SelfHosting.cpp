@@ -17146,7 +17146,7 @@ intl_ValidateAndCanonicalizeUnicodeExtensionType
 JS_INLINABLE_FN
 (
 "
-GuardToCollator
+intl_GuardToCollator
 "
 intrinsic_GuardToBuiltin
 <
@@ -17159,7 +17159,7 @@ IntlGuardToCollator
 JS_INLINABLE_FN
 (
 "
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 "
 intrinsic_GuardToBuiltin
 <
@@ -17172,7 +17172,7 @@ IntlGuardToDateTimeFormat
 JS_INLINABLE_FN
 (
 "
-GuardToDisplayNames
+intl_GuardToDisplayNames
 "
 intrinsic_GuardToBuiltin
 <
@@ -17185,7 +17185,7 @@ IntlGuardToDisplayNames
 JS_INLINABLE_FN
 (
 "
-GuardToListFormat
+intl_GuardToListFormat
 "
 intrinsic_GuardToBuiltin
 <
@@ -17198,7 +17198,7 @@ IntlGuardToListFormat
 JS_INLINABLE_FN
 (
 "
-GuardToNumberFormat
+intl_GuardToNumberFormat
 "
 intrinsic_GuardToBuiltin
 <
@@ -17211,7 +17211,7 @@ IntlGuardToNumberFormat
 JS_INLINABLE_FN
 (
 "
-GuardToPluralRules
+intl_GuardToPluralRules
 "
 intrinsic_GuardToBuiltin
 <
@@ -17224,7 +17224,7 @@ IntlGuardToPluralRules
 JS_INLINABLE_FN
 (
 "
-GuardToRelativeTimeFormat
+intl_GuardToRelativeTimeFormat
 "
 intrinsic_GuardToBuiltin
 <
@@ -17237,7 +17237,7 @@ IntlGuardToRelativeTimeFormat
 JS_FN
 (
 "
-IsWrappedDateTimeFormat
+intl_IsWrappedDateTimeFormat
 "
 intrinsic_IsWrappedInstanceOfBuiltin
 <
@@ -17249,7 +17249,7 @@ DateTimeFormatObject
 JS_FN
 (
 "
-IsWrappedNumberFormat
+intl_IsWrappedNumberFormat
 "
 intrinsic_IsWrappedInstanceOfBuiltin
 <
@@ -17261,7 +17261,7 @@ NumberFormatObject
 JS_FN
 (
 "
-CallCollatorMethodIfWrapped
+intl_CallCollatorMethodIfWrapped
 "
 CallNonGenericSelfhostedMethod
 <
@@ -17276,7 +17276,7 @@ CollatorObject
 JS_FN
 (
 "
-CallDateTimeFormatMethodIfWrapped
+intl_CallDateTimeFormatMethodIfWrapped
 "
 CallNonGenericSelfhostedMethod
 <
@@ -17291,7 +17291,7 @@ DateTimeFormatObject
 JS_FN
 (
 "
-CallDisplayNamesMethodIfWrapped
+intl_CallDisplayNamesMethodIfWrapped
 "
 CallNonGenericSelfhostedMethod
 <
@@ -17306,7 +17306,7 @@ DisplayNamesObject
 JS_FN
 (
 "
-CallListFormatMethodIfWrapped
+intl_CallListFormatMethodIfWrapped
 "
 CallNonGenericSelfhostedMethod
 <
@@ -17321,7 +17321,7 @@ ListFormatObject
 JS_FN
 (
 "
-CallNumberFormatMethodIfWrapped
+intl_CallNumberFormatMethodIfWrapped
 "
 CallNonGenericSelfhostedMethod
 <
@@ -17336,7 +17336,7 @@ NumberFormatObject
 JS_FN
 (
 "
-CallPluralRulesMethodIfWrapped
+intl_CallPluralRulesMethodIfWrapped
 "
 CallNonGenericSelfhostedMethod
 <
@@ -17351,7 +17351,7 @@ PluralRulesObject
 JS_FN
 (
 "
-CallRelativeTimeFormatMethodIfWrapped
+intl_CallRelativeTimeFormatMethodIfWrapped
 "
 CallNonGenericSelfhostedMethod
 <
@@ -17366,7 +17366,7 @@ RelativeTimeFormatObject
 JS_FN
 (
 "
-RuntimeDefaultLocale
+intl_RuntimeDefaultLocale
 "
 intrinsic_RuntimeDefaultLocale
 0
@@ -17375,7 +17375,7 @@ intrinsic_RuntimeDefaultLocale
 JS_FN
 (
 "
-IsRuntimeDefaultLocale
+intl_IsRuntimeDefaultLocale
 "
 intrinsic_IsRuntimeDefaultLocale
 1

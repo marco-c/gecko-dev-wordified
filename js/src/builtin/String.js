@@ -5152,7 +5152,7 @@ options
 if
 (
 !
-IsRuntimeDefaultLocale
+intl_IsRuntimeDefaultLocale
 (
 collatorCache
 .
@@ -5174,7 +5174,7 @@ collatorCache
 .
 runtimeDefaultLocale
 =
-RuntimeDefaultLocale
+intl_RuntimeDefaultLocale
 (
 )
 ;

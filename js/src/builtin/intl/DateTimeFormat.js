@@ -859,7 +859,7 @@ object
 ;
 assert
 (
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 obj
 )
@@ -1005,7 +1005,7 @@ dtf
 )
 &
 &
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 dtf
 )
@@ -1016,7 +1016,7 @@ null
 &
 &
 !
-IsWrappedDateTimeFormat
+intl_IsWrappedDateTimeFormat
 (
 dtf
 )
@@ -1726,7 +1726,7 @@ Object
 ;
 assert
 (
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 dateTimeFormat
 )
@@ -5962,7 +5962,7 @@ Object
 ;
 assert
 (
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 dtf
 )
@@ -6143,7 +6143,7 @@ dtf
 (
 dtf
 =
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 dtf
 )
@@ -6157,7 +6157,7 @@ null
 return
 callFunction
 (
-CallDateTimeFormatMethodIfWrapped
+intl_CallDateTimeFormatMethodIfWrapped
 thisArg
 "
 Intl_DateTimeFormat_format_get
@@ -6293,7 +6293,7 @@ dtf
 (
 dtf
 =
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 dtf
 )
@@ -6307,7 +6307,7 @@ null
 return
 callFunction
 (
-CallDateTimeFormatMethodIfWrapped
+intl_CallDateTimeFormatMethodIfWrapped
 this
 date
 "
@@ -6442,7 +6442,7 @@ dtf
 (
 dtf
 =
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 dtf
 )
@@ -6456,7 +6456,7 @@ null
 return
 callFunction
 (
-CallDateTimeFormatMethodIfWrapped
+intl_CallDateTimeFormatMethodIfWrapped
 this
 startDate
 endDate
@@ -6656,7 +6656,7 @@ dtf
 (
 dtf
 =
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 dtf
 )
@@ -6670,7 +6670,7 @@ null
 return
 callFunction
 (
-CallDateTimeFormatMethodIfWrapped
+intl_CallDateTimeFormatMethodIfWrapped
 this
 startDate
 endDate
@@ -6871,7 +6871,7 @@ dtf
 (
 dtf
 =
-GuardToDateTimeFormat
+intl_GuardToDateTimeFormat
 (
 dtf
 )
@@ -6885,7 +6885,7 @@ null
 return
 callFunction
 (
-CallDateTimeFormatMethodIfWrapped
+intl_CallDateTimeFormatMethodIfWrapped
 thisArg
 "
 Intl_DateTimeFormat_resolvedOptions

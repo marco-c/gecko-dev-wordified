@@ -651,7 +651,7 @@ object
 ;
 assert
 (
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 obj
 )
@@ -797,7 +797,7 @@ nf
 )
 &
 &
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 nf
 )
@@ -808,7 +808,7 @@ null
 &
 &
 !
-IsWrappedNumberFormat
+intl_IsWrappedNumberFormat
 (
 nf
 )
@@ -2253,7 +2253,7 @@ object
 ;
 assert
 (
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 numberFormat
 )
@@ -4164,7 +4164,7 @@ object
 ;
 assert
 (
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 nf
 )
@@ -4333,7 +4333,7 @@ nf
 (
 nf
 =
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 nf
 )
@@ -4347,7 +4347,7 @@ null
 return
 callFunction
 (
-CallNumberFormatMethodIfWrapped
+intl_CallNumberFormatMethodIfWrapped
 thisArg
 "
 Intl_NumberFormat_format_get
@@ -4474,7 +4474,7 @@ nf
 (
 nf
 =
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 nf
 )
@@ -4488,7 +4488,7 @@ null
 return
 callFunction
 (
-CallNumberFormatMethodIfWrapped
+intl_CallNumberFormatMethodIfWrapped
 this
 value
 "
@@ -4596,7 +4596,7 @@ nf
 (
 nf
 =
-GuardToNumberFormat
+intl_GuardToNumberFormat
 (
 nf
 )
@@ -4610,7 +4610,7 @@ null
 return
 callFunction
 (
-CallNumberFormatMethodIfWrapped
+intl_CallNumberFormatMethodIfWrapped
 thisArg
 "
 Intl_NumberFormat_resolvedOptions
