@@ -940,6 +940,8 @@ nsIInterfaceRequestor
 callbacks
 PRIntervalTime
 rtt
+bool
+forWebSocket
 )
 {
 LOG1
@@ -958,9 +960,14 @@ sockettransport
 =
 %
 p
+forWebSocket
+=
+%
+d
 "
 this
 transport
+forWebSocket
 )
 )
 ;
@@ -1031,6 +1038,10 @@ instream
 mSocketOut
 =
 outstream
+;
+mForWebSocket
+=
+forWebSocket
 ;
 /
 /

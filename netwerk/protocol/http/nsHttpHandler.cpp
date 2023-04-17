@@ -20234,7 +20234,7 @@ isHttps
 /
 Only
 set
-forr
+for
 HTTPS
 .
 return

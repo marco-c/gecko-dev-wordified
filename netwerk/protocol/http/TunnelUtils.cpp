@@ -6609,6 +6609,7 @@ ToMilliseconds
 )
 )
 )
+false
 )
 ;
 MOZ_ASSERT
