@@ -1117,15 +1117,6 @@ jsm
 "
 tests
 /
-modules
-/
-Task
-.
-jsm
-"
-"
-tests
-/
 xpcshell
 /
 RegionTestUtils

@@ -107,17 +107,6 @@ error
 "
 45
 ]
-"
-mozilla
-/
-no
--
-task
-"
-:
-"
-error
-"
 }
 }
 ;
