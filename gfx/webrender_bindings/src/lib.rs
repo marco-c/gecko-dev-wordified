@@ -82,6 +82,10 @@ fxhash
 ;
 extern
 crate
+gecko_profiler
+;
+extern
+crate
 gleam
 ;
 extern
