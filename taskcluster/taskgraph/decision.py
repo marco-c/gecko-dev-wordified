@@ -67,8 +67,6 @@ from
 collections
 import
 defaultdict
-import
-six
 from
 redo
 import
@@ -2397,15 +2395,11 @@ moz_build_date
 "
 ]
 =
-six
-.
-ensure_text
-(
-        
 time
 .
 strftime
 (
+        
 "
 %
 Y
@@ -2430,7 +2424,6 @@ parameters
 build_date
 "
 ]
-)
 )
     
 )

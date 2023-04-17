@@ -60,9 +60,9 @@ re
 import
 os
 import
-attr
+sys
 import
-six
+attr
 from
 .
 .
@@ -1622,9 +1622,9 @@ get
 "
 tier
 "
-six
+sys
 .
-MAXSIZE
+maxsize
 )
         
 )
@@ -1643,9 +1643,9 @@ if
 tier
 =
 =
-six
+sys
 .
-MAXSIZE
+maxsize
 :
                 
 return

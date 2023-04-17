@@ -97,8 +97,6 @@ Required
     
 Schema
 )
-import
-six
 from
 .
 import
@@ -151,17 +149,12 @@ get_head_ref
 :
     
 return
-six
-.
-ensure_text
-(
 get_repository_object
 (
 GECKO
 )
 .
 head_ref
-)
 def
 get_contents
 (
@@ -1040,10 +1033,6 @@ message
 moz_build_date
 "
 :
-six
-.
-ensure_text
-(
 now
 .
 strftime
@@ -1062,7 +1051,6 @@ M
 %
 S
 "
-)
 )
             
 "
@@ -1645,9 +1633,7 @@ not
         
 :
 return
-six
-.
-text_type
+str
 :
 One
 of

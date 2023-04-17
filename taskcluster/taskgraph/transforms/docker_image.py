@@ -62,8 +62,6 @@ re
 import
 json
 import
-six
-import
 mozpack
 .
 path
@@ -1179,25 +1177,18 @@ DOCKER_BUILD_ARGS
 "
 :
 {
-                        
 "
 task
 -
 reference
 "
 :
-six
-.
-ensure_text
-(
 json
 .
 dumps
 (
 args
 )
-)
-                    
 }
                     
 "

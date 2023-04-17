@@ -962,9 +962,7 @@ not
     
 :
 return
-six
-.
-text_type
+str
 :
 One
 of

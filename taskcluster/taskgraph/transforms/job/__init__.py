@@ -118,8 +118,6 @@ logging
 import
 json
 import
-six
-import
 mozpack
 .
 path
@@ -2929,16 +2927,11 @@ task
 reference
 "
 :
-six
-.
-ensure_text
-(
-                
 json
 .
 dumps
 (
-                    
+                
 sorted
 (
 job_fetches
@@ -2959,8 +2952,6 @@ items
 sort_keys
 =
 True
-                
-)
             
 )
         

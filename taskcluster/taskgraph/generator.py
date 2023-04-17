@@ -62,10 +62,6 @@ copy
 import
 attr
 from
-six
-import
-ensure_text
-from
 .
 import
 filter_tasks
@@ -877,10 +873,7 @@ self
 .
 root_dir
 =
-ensure_text
-(
 root_dir
-)
         
 self
 .

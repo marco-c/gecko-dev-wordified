@@ -69,16 +69,12 @@ description
 "
 "
 "
-import
-six
-.
-moves
-.
+from
 urllib
 .
 parse
-as
-urlparse
+import
+urlsplit
 from
 taskgraph
 .
@@ -928,8 +924,6 @@ cfg
         
 repo_path
 =
-urlparse
-.
 urlsplit
 (
 get_branch_repo
