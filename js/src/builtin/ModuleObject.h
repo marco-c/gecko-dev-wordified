@@ -1157,7 +1157,7 @@ JSContext
 cx
 HandleModuleObject
 module
-HandleObject
+HandleArrayObject
 exports
 UniquePtr
 <
@@ -1172,7 +1172,7 @@ module
 (
 )
 ;
-JSObject
+ArrayObject
 &
 exports
 (
