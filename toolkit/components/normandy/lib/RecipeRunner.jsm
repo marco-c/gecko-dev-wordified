@@ -3193,7 +3193,7 @@ BaseAction
 .
 suitability
 .
-CAPABILITES_MISMATCH
+CAPABILITIES_MISMATCH
 :
 {
 await
@@ -3643,7 +3643,7 @@ BaseAction
 .
 suitability
 .
-CAPABILITES_MISMATCH
+CAPABILITIES_MISMATCH
 ;
 }
 }
