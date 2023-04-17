@@ -546,9 +546,6 @@ return
 NS_OK
 ;
 }
-#
-define
-FIX_FOR_BUG_53259
 /
 /
 Drop
