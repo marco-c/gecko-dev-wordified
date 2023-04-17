@@ -111,8 +111,6 @@ urlbar
 tests
 /
 browser
--
-proton
 /
 "
 ;
