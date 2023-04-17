@@ -2414,6 +2414,8 @@ uint32_t
 void
 Shutdown
 (
+nsresult
+aReason
 )
 ;
 nsresult
