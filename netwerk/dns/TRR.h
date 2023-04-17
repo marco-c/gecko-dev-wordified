@@ -218,11 +218,6 @@ TRRService
 class
 TRRServiceChannel
 ;
-extern
-TRRService
-*
-gTRRService
-;
 class
 TRR
 :

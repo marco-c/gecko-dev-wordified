@@ -215,6 +215,13 @@ TRRService
 (
 )
 ;
+static
+TRRService
+*
+Get
+(
+)
+;
 nsresult
 Init
 (
@@ -2224,11 +2231,6 @@ nsINetworkLinkService
 mLinkService
 ;
 }
-;
-extern
-TRRService
-*
-gTRRService
 ;
 }
 /
