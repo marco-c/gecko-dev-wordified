@@ -53,18 +53,10 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
 logging
-import
-six
 from
 .
 transform
@@ -265,11 +257,10 @@ for
 test_platform_name
 test_platform
 in
-six
-.
-iteritems
-(
 test_platforms
+.
+items
+(
 )
 :
         
@@ -599,19 +590,16 @@ continue
         
 platform
 =
+f
 "
 {
+build_platform
 }
 /
 {
+build_type
 }
 "
-.
-format
-(
-build_platform
-build_type
-)
         
 if
 platform
@@ -709,11 +697,10 @@ for
 test_platform
 cfg
 in
-six
-.
-iteritems
-(
 test_platforms_cfg
+.
+items
+(
 )
 :
         
@@ -1100,11 +1087,10 @@ for
 test_platform
 cfg
 in
-six
-.
-iteritems
-(
 test_platforms
+.
+items
+(
 )
 :
         

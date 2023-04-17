@@ -75,16 +75,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -145,7 +135,7 @@ name
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -154,7 +144,7 @@ product
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -165,7 +155,7 @@ platform
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -175,7 +165,7 @@ attributes
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -206,7 +196,7 @@ run
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -241,7 +231,7 @@ dependencies
 )
 :
 {
-text_type
+str
 :
 taskref_or_string
 }
@@ -254,9 +244,9 @@ index
 )
 :
 {
-text_type
+str
 :
-text_type
+str
 }
         
 Optional
@@ -267,7 +257,7 @@ routes
 )
 :
 [
-text_type
+str
 ]
         
 Required

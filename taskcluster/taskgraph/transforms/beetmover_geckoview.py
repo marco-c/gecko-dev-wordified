@@ -70,19 +70,9 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 copy
 import
 deepcopy
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -181,7 +171,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -261,7 +251,7 @@ release
 -
 level
 "
-text_type
+str
 )
         
 Optional
@@ -598,17 +588,14 @@ setdefault
 "
 platform
 "
+f
 "
 {
+dep_th_platform
 }
 /
 opt
 "
-.
-format
-(
-dep_th_platform
-)
 )
         
 treeherder

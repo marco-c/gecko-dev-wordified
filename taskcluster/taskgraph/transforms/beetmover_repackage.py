@@ -70,16 +70,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -219,7 +209,7 @@ label
 "
 )
 :
-text_type
+str
         
 #
 treeherder
@@ -308,7 +298,7 @@ locale
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -1009,19 +999,16 @@ US
         
 artifact_prefix
 =
+f
 "
 {
+artifact_prefix
 }
 /
 {
+locale
 }
 "
-.
-format
-(
-artifact_prefix
-locale
-)
     
 upstream_artifacts
 =
@@ -1062,19 +1049,16 @@ paths
 "
 :
 [
+f
 "
 {
+artifact_prefix
 }
 /
 {
+path
 }
 "
-.
-format
-(
-artifact_prefix
-path
-)
 for
 path
 _

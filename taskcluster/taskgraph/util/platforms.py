@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 re
 from
@@ -425,7 +419,7 @@ matches
 raise
 Exception
 (
-        
+f
 "
 Could
 not
@@ -434,13 +428,8 @@ architecture
 of
 platform
 {
+build_platform
 }
 .
 "
-.
-format
-(
-build_platform
-)
-    
 )

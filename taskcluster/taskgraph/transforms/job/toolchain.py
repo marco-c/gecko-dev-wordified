@@ -70,12 +70,6 @@ scripts
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 mozbuild
 .
 shellutil
@@ -83,10 +77,6 @@ import
 quote
 as
 shell_quote
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -217,7 +207,7 @@ script
 "
 )
 :
-text_type
+str
         
 #
 Arguments
@@ -236,7 +226,7 @@ arguments
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -391,7 +381,7 @@ profile
 :
 Any
 (
-text_type
+str
 None
 )
         
@@ -416,7 +406,7 @@ prefix
 "
 )
 :
-text_type
+str
         
 #
 Paths
@@ -445,7 +435,7 @@ resources
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -468,7 +458,7 @@ artifact
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -510,9 +500,9 @@ jobs
 :
 Any
 (
-text_type
+str
 [
-text_type
+str
 ]
 )
         
@@ -535,7 +525,7 @@ workdir
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -1126,17 +1116,14 @@ run
     
 gecko_path
 =
+f
 "
 {
+workspace
 }
 /
 src
 "
-.
-format
-(
-workspace
-)
     
 env
 =
@@ -1318,18 +1305,15 @@ label
 .
 replace
 (
+f
 "
 {
-}
--
-"
-.
-format
-(
 config
 .
 kind
-)
+}
+-
+"
 "
 "
 1
@@ -1869,18 +1853,15 @@ label
 .
 replace
 (
+f
 "
 {
-}
--
-"
-.
-format
-(
 config
 .
 kind
-)
+}
+-
+"
 "
 "
 1

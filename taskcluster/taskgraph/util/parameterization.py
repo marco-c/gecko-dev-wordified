@@ -53,16 +53,8 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 re
-import
-six
 from
 taskgraph
 .
@@ -190,11 +182,10 @@ items
 if
 set
 (
-six
-.
-iterkeys
-(
 val
+.
+keys
+(
 )
 )
 =
@@ -225,11 +216,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 val
+.
+items
+(
 )
 }
         
@@ -463,11 +453,12 @@ key
 raise
 KeyError
 (
-                    
+f
 "
 task
 '
 {
+label
 }
 '
 has
@@ -476,16 +467,10 @@ dependency
 named
 '
 {
+key
 }
 '
 "
-.
-format
-(
-label
-key
-)
-                
 )
         
 return
@@ -534,11 +519,12 @@ self
 raise
 KeyError
 (
-                    
+f
 "
 task
 '
 {
+label
 }
 '
 can
@@ -549,12 +535,6 @@ artifacts
 of
 self
 "
-.
-format
-(
-label
-)
-                
 )
             
 elif

@@ -53,16 +53,8 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 pytest
-import
-six
 from
 taskgraph
 import
@@ -132,11 +124,10 @@ for
 label
 task_id
 in
-six
-.
-iteritems
-(
 label_to_taskid
+.
+items
+(
 )
 :
             

@@ -54,12 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 .
 graph
 import
@@ -71,8 +65,6 @@ import
 Task
 import
 attr
-import
-six
 attr
 .
 s
@@ -83,9 +75,6 @@ True
 )
 class
 TaskGraph
-(
-object
-)
 :
     
 "
@@ -296,13 +285,15 @@ order
 "
         
 return
-six
-.
-itervalues
+iter
 (
 self
 .
 tasks
+.
+values
+(
+)
 )
     
 def
@@ -482,11 +473,10 @@ for
 key
 value
 in
-six
-.
-iteritems
-(
 tasks_dict
+.
+items
+(
 )
 :
             
@@ -528,16 +518,15 @@ for
 depname
 dep
 in
-six
-.
-iteritems
-(
 value
 [
 "
 dependencies
 "
 ]
+.
+items
+(
 )
 :
                 

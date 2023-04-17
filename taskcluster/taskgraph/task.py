@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 attr
 attr
@@ -66,9 +60,6 @@ attr
 s
 class
 Task
-(
-object
-)
 :
     
 "
@@ -500,9 +491,13 @@ else
 raise
 AttributeError
 (
+f
 "
 Task
 {
+self
+.
+label
 }
 does
 not
@@ -511,13 +506,6 @@ a
 name
 .
 "
-.
-format
-(
-self
-.
-label
-)
 )
     
 def

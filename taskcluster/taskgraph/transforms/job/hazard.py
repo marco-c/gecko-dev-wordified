@@ -68,16 +68,6 @@ scripts
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 util
@@ -163,7 +153,7 @@ command
 "
 )
 :
-text_type
+str
         
 #
 The
@@ -187,7 +177,7 @@ mozconfig
 "
 )
 :
-text_type
+str
         
 #
 The
@@ -277,7 +267,7 @@ Any
 (
 bool
 [
-text_type
+str
 ]
 )
         
@@ -300,7 +290,7 @@ workdir
 "
 )
 :
-text_type
+str
     
 }
 )

@@ -75,16 +75,6 @@ yml
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -132,7 +122,7 @@ index_or_string
 Any
 (
     
-text_type
+str
     
 {
 Required
@@ -144,7 +134,7 @@ search
 "
 )
 :
-text_type
+str
 }
 )
 diff_description_schema
@@ -169,7 +159,7 @@ name
 "
 )
 :
-text_type
+str
         
 #
 Treeherder
@@ -197,7 +187,7 @@ symbol
 "
 )
 :
-text_type
+str
         
 #
 relative
@@ -227,7 +217,7 @@ from
 "
 )
 :
-text_type
+str
         
 #
 Original
@@ -287,7 +277,7 @@ args
 "
 )
 :
-text_type
+str
         
 #
 Extra
@@ -313,7 +303,7 @@ args
 "
 )
 :
-text_type
+str
         
 #
 Fail
@@ -384,7 +374,7 @@ artifact
 "
 )
 :
-text_type
+str
         
 #
 Whether
@@ -467,7 +457,7 @@ commands
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -613,7 +603,7 @@ if
 isinstance
 (
 value
-text_type
+str
 )
 :
                 
@@ -848,6 +838,7 @@ else
 raise
 Exception
 (
+f
 "
 Cannot
 figure
@@ -856,15 +847,11 @@ the
 OS
 for
 {
+value
 !
 r
 }
 "
-.
-format
-(
-value
-)
 )
             
 if
@@ -1058,6 +1045,7 @@ file
 path
 "
 :
+f
 "
 /
 builds
@@ -1065,29 +1053,22 @@ builds
 worker
 /
 {
+f
 }
 "
-.
-format
-(
-f
-)
                         
 "
 name
 "
 :
+f
 "
 public
 /
 {
+f
 }
 "
-.
-format
-(
-f
-)
                     
 }
                     

@@ -54,19 +54,9 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 copy
 import
 deepcopy
-from
-six
-import
-text_type
 from
 voluptuous
 import
@@ -149,7 +139,7 @@ platform
 subtest
 "
 [
-text_type
+str
 ]
 )
         
@@ -162,7 +152,7 @@ test
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -198,7 +188,7 @@ optionally_keyed_by
 "
 app
 "
-text_type
+str
 )
         
 Optional
@@ -215,7 +205,7 @@ optionally_keyed_by
 "
 app
 "
-text_type
+str
 )
         
 #
@@ -419,7 +409,7 @@ test
 -
 platform
 "
-text_type
+str
         
 )
         
@@ -679,16 +669,13 @@ test
             
 suffix
 =
+f
 "
 -
 {
+app
 }
 "
-.
-format
-(
-app
-)
             
 atest
 [
@@ -707,20 +694,17 @@ description
 ]
 +
 =
+f
 "
 on
 {
-}
-"
-.
-format
-(
 app
 .
 capitalize
 (
 )
-)
+}
+"
             
 name
 =
@@ -781,19 +765,16 @@ symbol
 group
 +
 =
+f
 "
 -
 {
-}
-"
-.
-format
-(
 app_symbols
 [
 app
 ]
-)
+}
+"
                 
 atest
 [
@@ -1506,16 +1487,13 @@ name
 ]
 +
 =
+f
 "
 -
 {
+subtest
 }
 "
-.
-format
-(
-subtest
-)
         
 test
 [
@@ -1527,16 +1505,13 @@ name
 ]
 +
 =
+f
 "
 -
 {
+subtest
 }
 "
-.
-format
-(
-subtest
-)
         
 #
 Set
@@ -1583,16 +1558,13 @@ description
 ]
 +
 =
+f
 "
 on
 {
+subtest
 }
 "
-.
-format
-(
-subtest
-)
         
 yield
 test

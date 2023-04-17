@@ -111,12 +111,6 @@ job
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
@@ -125,10 +119,6 @@ import
 json
 import
 six
-from
-six
-import
-text_type
 import
 mozpack
 .
@@ -277,7 +267,7 @@ name
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -286,7 +276,7 @@ label
 "
 )
 :
-text_type
+str
         
 #
 the
@@ -824,7 +814,7 @@ changed
 )
 :
 [
-text_type
+str
 ]
         
 }
@@ -852,11 +842,11 @@ fetches
 :
 {
             
-text_type
+str
 :
 [
                 
-text_type
+str
                 
 {
                     
@@ -867,7 +857,7 @@ artifact
 "
 )
 :
-text_type
+str
                     
 Optional
 (
@@ -876,7 +866,7 @@ dest
 "
 )
 :
-text_type
+str
                     
 Optional
 (
@@ -940,7 +930,7 @@ one
 using
 "
 :
-text_type
+str
             
 #
 Base
@@ -961,7 +951,7 @@ workdir
 "
 )
 :
-text_type
+str
             
 #
 Any
@@ -1118,20 +1108,17 @@ files_changed
 .
 append
 (
+f
 "
 {
+config
+.
+path
 }
 /
 *
 *
 "
-.
-format
-(
-config
-.
-path
-)
 )
         
 #
@@ -1610,24 +1597,19 @@ toolchain
 .
 append
 (
-                
+f
 "
 {
+worker_os
 }
 {
+arch
 }
 -
 resource
 -
 monitor
 "
-.
-format
-(
-worker_os
-arch
-)
-            
 )
             
 if
@@ -1932,19 +1914,16 @@ run
 .
 get
 (
+f
 "
 {
+config
+.
+kind
 }
 -
 alias
 "
-.
-format
-(
-config
-.
-kind
-)
 )
             
 if
@@ -1961,7 +1940,7 @@ elif
 isinstance
 (
 value
-text_type
+str
 )
 :
                 
@@ -1979,21 +1958,18 @@ value
                 
 aliases
 [
+f
 "
 {
-}
--
-{
-}
-"
-.
-format
-(
 config
 .
 kind
+}
+-
+{
 alias
-)
+}
+"
 ]
 =
 label
@@ -2038,22 +2014,16 @@ task
 .
 attributes
                 
+f
 "
 {
+task
+.
 kind
 }
 -
 artifact
 "
-.
-format
-(
-kind
-=
-task
-.
-kind
-)
             
 )
             
@@ -2065,19 +2035,16 @@ attributes
 .
 get
 (
+f
 "
 {
+task
+.
+kind
 }
 -
 alias
 "
-.
-format
-(
-task
-.
-kind
-)
 )
             
 if
@@ -2094,7 +2061,7 @@ elif
 isinstance
 (
 value
-text_type
+str
 )
 :
                 
@@ -2112,21 +2079,18 @@ value
                 
 aliases
 [
+f
 "
 {
-}
--
-{
-}
-"
-.
-format
-(
 task
 .
 kind
+}
+-
+{
 alias
-)
+}
+"
 ]
 =
 task
@@ -2278,25 +2242,16 @@ artifacts
                     
 label
 =
+f
 "
 {
 kind
 }
 -
 {
-name
+fetch_name
 }
 "
-.
-format
-(
-kind
-=
-kind
-name
-=
-fetch_name
-)
                     
 label
 =
@@ -2387,6 +2342,7 @@ path
 task
 "
 :
+f
 "
 <
 {
@@ -2394,13 +2350,6 @@ label
 }
 >
 "
-.
-format
-(
-label
-=
-label
-)
                             
 "
 extract
@@ -2600,7 +2549,7 @@ if
 isinstance
 (
 artifact
-text_type
+str
 )
 :
                         
@@ -2677,6 +2626,7 @@ fetch
 artifact
 "
 :
+f
 "
 {
 prefix
@@ -2686,16 +2636,6 @@ prefix
 path
 }
 "
-.
-format
-(
-prefix
-=
-prefix
-path
-=
-path
-)
                         
 if
 not
@@ -2719,20 +2659,14 @@ path
 task
 "
 :
+f
 "
 <
 {
-dep
+kind
 }
 >
 "
-.
-format
-(
-dep
-=
-kind
-)
                         
 "
 extract
@@ -2924,6 +2858,7 @@ job_artifact_prefixes
                 
 scope
 =
+f
 "
 queue
 :
@@ -2932,15 +2867,11 @@ get
 artifact
 :
 {
+prefix
 }
 /
 *
 "
-.
-format
-(
-prefix
-)
                 
 if
 scope
@@ -3663,6 +3594,7 @@ registry
 raise
 Exception
 (
+f
 "
 no
 functions
@@ -3671,15 +3603,11 @@ run
 .
 using
 {
+run_using
 !
 r
 }
 "
-.
-format
-(
-run_using
-)
 )
     
 if

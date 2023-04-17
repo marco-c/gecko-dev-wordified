@@ -72,11 +72,6 @@ as
 task
 artifacts
 .
-from
-__future__
-import
-absolute_import
-unicode_literals
 import
 attr
 from
@@ -88,15 +83,9 @@ quote
 as
 shell_quote
 import
-io
-import
 os
 import
 re
-from
-six
-import
-text_type
 from
 voluptuous
 import
@@ -176,7 +165,7 @@ name
 "
 )
 :
-text_type
+str
         
 #
 Relative
@@ -208,7 +197,7 @@ from
 "
 )
 :
-text_type
+str
         
 #
 Description
@@ -224,7 +213,7 @@ description
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -264,7 +253,7 @@ jobs
         
 )
 :
-text_type
+str
         
 Optional
 (
@@ -319,7 +308,7 @@ access
         
 )
 :
-text_type
+str
         
 Optional
 (
@@ -329,7 +318,7 @@ attributes
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -350,7 +339,7 @@ type
 "
 )
 :
-text_type
+str
             
 Extra
 :
@@ -386,9 +375,6 @@ True
 )
 class
 FetchBuilder
-(
-object
-)
 :
     
 schema
@@ -545,28 +531,24 @@ fetch_builders
 raise
 Exception
 (
+f
 "
 Unknown
 fetch
 type
 {
+typ
 }
 in
 fetch
 {
+name
 }
 "
-.
-format
-(
-typ
-name
-)
 )
         
 validate_schema
 (
-            
 fetch_builders
 [
 typ
@@ -574,23 +556,19 @@ typ
 .
 schema
 fetch
+f
 "
 In
 task
 .
 fetch
 {
+name
 !
 r
 }
 :
 "
-.
-format
-(
-name
-)
-        
 )
         
 job
@@ -628,28 +606,24 @@ fetch_builders
 raise
 Exception
 (
+f
 "
 No
 fetch
 type
 {
+typ
 }
 in
 fetch
 {
+name
 }
 "
-.
-format
-(
-typ
-name
-)
 )
     
 validate_schema
 (
-        
 fetch_builders
 [
 typ
@@ -657,23 +631,19 @@ typ
 .
 schema
 fetch
+f
 "
 In
 task
 .
 fetch
 {
+name
 !
 r
 }
 :
 "
-.
-format
-(
-name
-)
-    
 )
     
 return
@@ -1209,18 +1179,15 @@ label
 .
 replace
 (
+f
 "
 {
-}
--
-"
-.
-format
-(
 config
 .
 kind
-)
+}
+-
+"
 "
 "
 1
@@ -1293,7 +1260,7 @@ url
 "
 )
 :
-text_type
+str
         
 #
 The
@@ -1313,7 +1280,7 @@ sha256
 "
 )
 :
-text_type
+str
         
 #
 Size
@@ -1392,7 +1359,7 @@ url
 "
 )
 :
-text_type
+str
             
 #
 Path
@@ -1422,7 +1389,7 @@ path
 "
 )
 :
-text_type
+str
         
 }
         
@@ -1483,7 +1450,7 @@ name
 "
 )
 :
-text_type
+str
         
 #
 Strip
@@ -1569,7 +1536,7 @@ prefix
 "
 )
 :
-text_type
+str
         
 #
 IMPORTANT
@@ -1879,8 +1846,6 @@ path
 )
         
 with
-io
-.
 open
 (
 key_path
@@ -2068,7 +2033,7 @@ repo
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -2083,7 +2048,7 @@ branch
 )
 )
 :
-text_type
+str
         
 Optional
 (
@@ -2094,7 +2059,7 @@ name
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -2105,7 +2070,7 @@ prefix
 "
 )
 :
-text_type
+str
         
 #
 ssh
@@ -2202,7 +2167,7 @@ key
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -2281,19 +2246,16 @@ artifact_name
         
 artifact_name
 =
+f
 "
 {
+path_prefix
 }
 .
 tar
 .
 zst
 "
-.
-format
-(
-path_prefix
-)
     
 if
 "
@@ -2380,6 +2342,7 @@ revision
 raise
 Exception
 (
+f
 '
 Revision
 is
@@ -2391,14 +2354,10 @@ fetch
 task
 "
 {
+name
 }
 "
 '
-.
-format
-(
-name
-)
 )
     
 else
@@ -2575,7 +2534,7 @@ script
 "
 )
 :
-text_type
+str
         
 #
 Platform
@@ -2591,7 +2550,7 @@ platform
 "
 )
 :
-text_type
+str
         
 #
 Chromium
@@ -2606,7 +2565,7 @@ revision
 "
 )
 :
-text_type
+str
         
 #
 The
@@ -2628,7 +2587,7 @@ name
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -2784,41 +2743,32 @@ digest_data
 :
 [
             
+f
 "
 revision
 =
 {
-}
-"
-.
-format
-(
 revision
-)
+}
+"
             
+f
 "
 platform
 =
 {
+platform
 }
 "
-.
-format
-(
-platform
-)
             
+f
 "
 artifact_name
 =
 {
+artifact_name
 }
 "
-.
-format
-(
-artifact_name
-)
         
 ]
     

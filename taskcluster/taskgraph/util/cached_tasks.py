@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 hashlib
 import
@@ -615,15 +609,11 @@ routes
 append
 (
         
+f
 "
 index
 .
 {
-}
-"
-.
-format
-(
 TARGET_CACHE_INDEX
 .
 format
@@ -632,7 +622,8 @@ format
 *
 subs
 )
-)
+}
+"
     
 )
     
@@ -710,15 +701,11 @@ extend
 (
         
 [
+f
 "
 index
 .
 {
-}
-"
-.
-format
-(
 route
 .
 format
@@ -727,7 +714,8 @@ format
 *
 subs
 )
-)
+}
+"
 for
 route
 in

@@ -71,16 +71,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -153,7 +143,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -568,6 +558,7 @@ paths
 =
 [
             
+f
 "
 private
 /
@@ -576,19 +567,15 @@ openh264
 openh264
 -
 {
+build_platform
 }
 -
 {
+rev
 }
 .
 zip
 "
-.
-format
-(
-build_platform
-rev
-)
         
 ]
         

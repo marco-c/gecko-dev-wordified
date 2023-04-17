@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 "
 "
 "
@@ -83,8 +77,6 @@ abc
 import
 ABCMeta
 abstractmethod
-import
-six
 from
 manifestparser
 import
@@ -1030,33 +1022,27 @@ path
 :
         
 raise
-IOError
+OSError
 (
+f
 "
 manifest
 runtime
 file
 at
 {
+path
 }
 not
 found
 .
 "
-.
-format
-(
-path
-)
 )
     
 with
 open
 (
 path
-"
-r
-"
 )
 as
 fh
@@ -1349,16 +1335,12 @@ paths
     
 return
 chunked_manifests
-six
-.
-add_metaclass
-(
-ABCMeta
-)
 class
 BaseManifestLoader
 (
-object
+metaclass
+=
+ABCMeta
 )
 :
     
@@ -1557,8 +1539,6 @@ skipped
 "
 "
 "
-        
-pass
 class
 DefaultLoader
 (
@@ -1740,8 +1720,7 @@ skipped
         
 manifests
 =
-set
-(
+{
 chunk_by_runtime
 .
 get_manifest
@@ -1752,7 +1731,7 @@ for
 t
 in
 tests
-)
+}
         
 #
 Compute
@@ -1792,8 +1771,7 @@ mozinfo
         
 active
 =
-set
-(
+{
 chunk_by_runtime
 .
 get_manifest
@@ -1804,7 +1782,7 @@ for
 t
 in
 tests
-)
+}
         
 skipped
 =
@@ -1882,8 +1860,6 @@ kwargs
         
 super
 (
-BugbugLoader
-self
 )
 .
 __init__
@@ -1916,8 +1892,6 @@ manifests
 =
 super
 (
-BugbugLoader
-self
 )
 .
 get_manifests

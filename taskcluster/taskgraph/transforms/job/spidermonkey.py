@@ -68,16 +68,6 @@ scripts
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 util
@@ -162,7 +152,7 @@ variant
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -173,7 +163,7 @@ platform
 "
 )
 :
-text_type
+str
         
 #
 Base
@@ -194,7 +184,7 @@ workdir
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -478,7 +468,7 @@ command
 ]
 =
 [
-        
+f
 "
 .
 /
@@ -496,14 +486,6 @@ builder
 script
 }
 "
-.
-format
-(
-script
-=
-script
-)
-    
 ]
     
 configure_taskdesc_for_run

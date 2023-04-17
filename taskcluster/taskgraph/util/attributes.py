@@ -53,16 +53,8 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 re
-import
-six
 INTEGRATION_PROJECTS
 =
 {
@@ -487,11 +479,10 @@ for
 kwkey
 kwval
 in
-six
-.
-iteritems
-(
 kwargs
+.
+items
+(
 )
 :
         
@@ -648,11 +639,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 attributes
+.
+items
+(
 )
 if
 re

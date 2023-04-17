@@ -67,20 +67,10 @@ scripts
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 import
 re
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -157,6 +147,7 @@ re
 .
 compile
 (
+r
 "
 .
 *
@@ -183,7 +174,7 @@ url
 "
 )
 :
-text_type
+str
     
 Required
 (
@@ -192,7 +183,7 @@ sha256
 "
 )
 :
-text_type
+str
 }
 common_schema
 =
@@ -284,7 +275,7 @@ name
 "
 )
 :
-text_type
+str
         
 #
 Patch
@@ -303,7 +294,7 @@ patch
 "
 )
 :
-text_type
+str
         
 #
 Command
@@ -326,7 +317,7 @@ command
 "
 )
 :
-text_type
+str
         
 #
 Architecture
@@ -344,7 +335,7 @@ arch
 "
 )
 :
-text_type
+str
         
 #
 List
@@ -366,7 +357,7 @@ packages
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -462,7 +453,7 @@ workdir
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -499,7 +490,7 @@ dist
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -536,7 +527,7 @@ dist
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -571,18 +562,15 @@ label
 .
 replace
 (
+f
 "
 {
-}
--
-"
-.
-format
-(
 config
 .
 kind
-)
+}
+-
+"
 "
 "
 1
@@ -1792,17 +1780,14 @@ reference
 .
 join
 (
+f
 "
 <
 {
+p
 }
 >
 "
-.
-format
-(
-p
-)
 for
 p
 in
@@ -1845,17 +1830,14 @@ deps
 p
 ]
 =
+f
 "
 packages
 -
 {
+p
 }
 "
-.
-format
-(
-p
-)
     
 #
 Use

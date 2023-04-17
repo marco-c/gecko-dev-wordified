@@ -69,12 +69,6 @@ tasks
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 logging
 from
@@ -583,19 +577,16 @@ replace
 "
 PARTNER
 "
+f
 "
 {
+partner
 }
 -
 {
+sub_config_name
 }
 "
-.
-format
-(
-partner
-sub_config_name
-)
                     
 )
 :

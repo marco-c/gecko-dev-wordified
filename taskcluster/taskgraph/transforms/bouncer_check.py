@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 from
@@ -652,19 +646,16 @@ mach
 .
 append
 (
+f
 "
 -
 -
 version
 =
 {
+version
 }
 "
-.
-format
-(
-version
-)
 )
         
 del

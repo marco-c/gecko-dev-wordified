@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 This
 Source
 Code
@@ -65,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 import
@@ -1100,6 +1082,7 @@ logger
 .
 info
 (
+f
 "
 Isolate
 task
@@ -1107,11 +1090,6 @@ task
 \
 n
 {
-}
-"
-.
-format
-(
 json
 .
 dumps
@@ -1121,7 +1099,8 @@ indent
 =
 2
 )
-)
+}
+"
 )
     
 #
@@ -1989,18 +1968,16 @@ label_to_taskid
 [
 label
 ]
-        
 for
 name
 label
 in
-six
-.
-iteritems
-(
 pre_task
 .
 dependencies
+.
+items
+(
 )
     
 }
@@ -2035,11 +2012,10 @@ dependencies
 .
 extend
 (
-six
-.
-itervalues
-(
 dependencies
+.
+values
+(
 )
 )
     

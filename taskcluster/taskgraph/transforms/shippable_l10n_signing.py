@@ -70,12 +70,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -402,27 +396,22 @@ taskId
 "
 :
 {
-                        
 "
 task
 -
 reference
 "
 :
+f
 "
 <
 {
-}
->
-"
-.
-format
-(
 upstream_artifact_task
 .
 kind
-)
-                    
+}
+>
+"
 }
                     
 "
@@ -502,11 +491,8 @@ paths
 sorted
 (
                         
-set
-(
+{
                             
-[
-                                
 path_template
 .
 format
@@ -515,7 +501,7 @@ locale
 =
 locale
 )
-                                
+                            
 for
 locale
 in
@@ -525,15 +511,15 @@ attributes
 .
 get
 (
-                                    
+                                
 "
 chunk_locales
 "
 [
 ]
-                                
+                            
 )
-                                
+                            
 for
 path_template
 in
@@ -543,10 +529,8 @@ spec
 artifacts
 "
 ]
-                            
-]
                         
-)
+}
                     
 )
                     

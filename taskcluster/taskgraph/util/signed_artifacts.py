@@ -67,12 +67,6 @@ repackage
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 util
@@ -545,6 +539,7 @@ artifacts
 get_artifact_path
 (
 job
+f
 "
 {
 {
@@ -555,13 +550,9 @@ locale
 target
 .
 {
+extension
 }
 "
-.
-format
-(
-extension
-)
 )
                     
 ]
@@ -1223,17 +1214,14 @@ artifacts
 .
 add
 (
+f
 "
 {
+input
 }
 .
 asc
 "
-.
-format
-(
-input
-)
 )
     
 return

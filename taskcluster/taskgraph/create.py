@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 concurrent
 .
@@ -71,8 +65,6 @@ import
 sys
 import
 logging
-import
-six
 from
 slugid
 import
@@ -151,11 +143,10 @@ for
 l
 t
 in
-six
-.
-iteritems
-(
 label_to_taskid
+.
+items
+(
 )
 }
     
@@ -992,23 +983,20 @@ logger
 .
 debug
 (
+f
 "
 Creating
 task
 with
 taskId
 {
+task_id
 }
 for
 {
+label
 }
 "
-.
-format
-(
-task_id
-label
-)
 )
     
 res
@@ -1018,6 +1006,7 @@ session
 put
 (
         
+f
 "
 http
 :
@@ -1032,13 +1021,9 @@ v1
 task
 /
 {
+task_id
 }
 "
-.
-format
-(
-task_id
-)
 data
 =
 json

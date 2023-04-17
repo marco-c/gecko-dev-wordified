@@ -54,12 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 fnmatch
 import
 fnmatch
@@ -1119,8 +1113,7 @@ tasks
         
 tasks
 =
-set
-(
+{
             
 task
             
@@ -1149,7 +1142,7 @@ self
 .
 confidence_threshold
         
-)
+}
         
 test_manifests
 =

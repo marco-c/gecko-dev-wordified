@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 This
 Source
 Code
@@ -65,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 unittest
 from
@@ -97,9 +79,7 @@ tree
 Graph
 (
         
-set
-(
-[
+{
 "
 a
 "
@@ -121,8 +101,7 @@ f
 "
 g
 "
-]
-)
+}
         
 {
             
@@ -207,9 +186,7 @@ linear
 Graph
 (
         
-set
-(
-[
+{
 "
 1
 "
@@ -222,8 +199,7 @@ set
 "
 4
 "
-]
-)
+}
         
 {
             
@@ -272,9 +248,7 @@ diamonds
 Graph
 (
         
-set
-(
-[
+{
 "
 A
 "
@@ -305,11 +279,9 @@ I
 "
 J
 "
-]
-)
+}
         
-set
-(
+{
             
 tuple
 (
@@ -340,7 +312,7 @@ split
 (
 )
         
-)
+}
     
 )
     
@@ -349,9 +321,7 @@ multi_edges
 Graph
 (
         
-set
-(
-[
+{
 "
 1
 "
@@ -364,8 +334,7 @@ set
 "
 4
 "
-]
-)
+}
         
 {
             
@@ -450,9 +419,7 @@ disjoint
 Graph
 (
         
-set
-(
-[
+{
 "
 1
 "
@@ -471,8 +438,7 @@ set
 "
 "
 "
-]
-)
+}
         
 {
             
@@ -579,9 +545,7 @@ g
 =
 Graph
 (
-set
-(
-[
+{
 "
 a
 "
@@ -591,8 +555,7 @@ b
 "
 c
 "
-]
-)
+}
 {
 (
 "
@@ -665,9 +628,7 @@ g
 =
 Graph
 (
-set
-(
-[
+{
 "
 a
 "
@@ -677,8 +638,7 @@ b
 "
 c
 "
-]
-)
+}
 set
 (
 )
@@ -688,41 +648,33 @@ self
 .
 assertEqual
 (
-            
 g
 .
 transitive_closure
 (
-set
-(
-[
+{
 "
 a
 "
 "
 c
 "
-]
-)
+}
 )
 Graph
 (
-set
-(
-[
+{
 "
 a
 "
 "
 c
 "
-]
-)
+}
 set
 (
 )
 )
-        
 )
     
 def
@@ -761,25 +713,20 @@ tree
 .
 transitive_closure
 (
-set
-(
-[
+{
 "
 b
 "
 "
 c
 "
-]
-)
+}
 )
             
 Graph
 (
                 
-set
-(
-[
+{
 "
 b
 "
@@ -798,8 +745,7 @@ f
 "
 g
 "
-]
-)
+}
                 
 {
                     
@@ -891,22 +837,17 @@ multi_edges
 .
 transitive_closure
 (
-set
-(
-[
+{
 "
 3
 "
-]
-)
+}
 )
             
 Graph
 (
                 
-set
-(
-[
+{
 "
 1
 "
@@ -916,8 +857,7 @@ set
 "
 3
 "
-]
-)
+}
                 
 {
                     
@@ -1017,24 +957,19 @@ disjoint
 .
 transitive_closure
 (
-set
-(
-[
+{
 "
 3
 "
 "
 "
-]
-)
+}
 )
             
 Graph
 (
                 
-set
-(
-[
+{
 "
 1
 "
@@ -1048,8 +983,7 @@ set
 "
 "
 "
-]
-)
+}
                 
 {
                     
@@ -1136,14 +1070,11 @@ linear
 .
 transitive_closure
 (
-set
-(
-[
+{
 "
 1
 "
-]
-)
+}
 )
 self
 .
@@ -1655,43 +1586,34 @@ links_dict
 2
 "
 :
-set
-(
-[
+{
 "
 1
 "
-]
-)
+}
                 
 "
 3
 "
 :
-set
-(
-[
+{
 "
 1
 "
 "
 2
 "
-]
-)
+}
                 
 "
 4
 "
 :
-set
-(
-[
+{
 "
 3
 "
-]
-)
+}
             
 }
         
@@ -1831,43 +1753,34 @@ reverse_links_dict
 1
 "
 :
-set
-(
-[
+{
 "
 2
 "
 "
 3
 "
-]
-)
+}
                 
 "
 2
 "
 :
-set
-(
-[
+{
 "
 3
 "
-]
-)
+}
                 
 "
 3
 "
 :
-set
-(
-[
+{
 "
 4
 "
-]
-)
+}
             
 }
         

@@ -68,12 +68,6 @@ subsystem
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 from
@@ -528,6 +522,7 @@ pytest
 .
 xfail
 (
+f
 "
 caches
 not
@@ -535,14 +530,10 @@ implemented
 for
 '
 {
+impl
 }
 '
 "
-.
-format
-(
-impl
-)
 )
     
 key

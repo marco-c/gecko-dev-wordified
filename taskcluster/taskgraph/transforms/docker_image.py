@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 logging
 import
@@ -69,10 +63,6 @@ import
 json
 import
 six
-from
-six
-import
-text_type
 import
 mozpack
 .
@@ -218,7 +208,7 @@ name
 "
 )
 :
-text_type
+str
         
 #
 Name
@@ -236,7 +226,7 @@ parent
 "
 )
 :
-text_type
+str
         
 #
 Treeherder
@@ -250,7 +240,7 @@ symbol
 "
 )
 :
-text_type
+str
         
 #
 relative
@@ -283,7 +273,7 @@ from
 "
 )
 :
-text_type
+str
         
 #
 Arguments
@@ -302,9 +292,9 @@ args
 )
 :
 {
-text_type
+str
 :
-text_type
+str
 }
         
 #
@@ -336,7 +326,7 @@ definition
 "
 )
 :
-text_type
+str
         
 #
 List
@@ -358,7 +348,7 @@ packages
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -541,17 +531,14 @@ packages
 :
             
 if
+f
 "
 packages
 -
 {
+p
 }
 "
-.
-format
-(
-p
-)
 not
 in
 config
@@ -625,46 +612,36 @@ path
 .
 join
 (
-                    
 CONTEXTS_DIR
+f
 "
 {
+image_name
 }
 .
 tar
 .
 gz
 "
-.
-format
-(
-image_name
-)
-                
 )
                 
 logger
 .
 info
 (
-                    
+f
 "
 Writing
 {
+context_file
 }
 for
 docker
 image
 {
+image_name
 }
 "
-.
-format
-(
-context_file
-image_name
-)
-                
 )
                 
 context_hash
@@ -787,17 +764,14 @@ DOCKER_IMAGE_PACKAGES
 .
 join
 (
+f
 "
 <
 {
+p
 }
 >
 "
-.
-format
-(
-p
-)
 for
 p
 in
@@ -926,21 +900,18 @@ taskdesc
 label
 "
 :
+f
 "
 {
-}
--
-{
-}
-"
-.
-format
-(
 config
 .
 kind
+}
+-
+{
 image_name
-)
+}
+"
             
 "
 description
@@ -1393,6 +1364,7 @@ digest_data
 .
 append
 (
+f
 "
 image
 -
@@ -1401,13 +1373,9 @@ builder
 image
 :
 {
+IMAGE_BUILDER_IMAGE
 }
 "
-.
-format
-(
-IMAGE_BUILDER_IMAGE
-)
 )
         
 else
@@ -1456,19 +1424,16 @@ image
 "
 ]
 =
+f
 "
 {
+config
+.
+kind
 }
 -
 image_builder
 "
-.
-format
-(
-config
-.
-kind
-)
         
 if
 packages
@@ -1501,17 +1466,14 @@ deps
 p
 ]
 =
+f
 "
 packages
 -
 {
+p
 }
 "
-.
-format
-(
-p
-)
         
 if
 parent
@@ -1537,21 +1499,18 @@ parent
 "
 ]
 =
+f
 "
 {
-}
--
-{
-}
-"
-.
-format
-(
 config
 .
 kind
+}
+-
+{
 parent
-)
+}
+"
             
 worker
 [

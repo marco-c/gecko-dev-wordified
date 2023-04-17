@@ -70,12 +70,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -247,19 +241,16 @@ name
 "
 ]
 =
+f
 "
 {
+product
 }
 -
 {
+platform
 }
 "
-.
-format
-(
-product
-platform
-)
             
 yield
 job

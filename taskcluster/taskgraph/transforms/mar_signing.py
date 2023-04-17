@@ -74,12 +74,6 @@ description
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 from
@@ -233,19 +227,16 @@ locale
         
 artifact_prefix
 =
+f
 "
 {
+artifact_prefix
 }
 /
 {
+locale
 }
 "
-.
-format
-(
-artifact_prefix
-locale
-)
     
 else
 :
@@ -305,19 +296,16 @@ paths
 :
 [
                 
+f
 "
 {
+artifact_prefix
 }
 /
 {
+path
 }
 "
-.
-format
-(
-artifact_prefix
-path
-)
                 
 for
 path
@@ -413,19 +401,16 @@ paths
 :
 [
             
+f
 "
 {
+artifact_prefix
 }
 /
 {
+path
 }
 "
-.
-format
-(
-artifact_prefix
-path
-)
             
 for
 path
@@ -573,19 +558,16 @@ task
 reference
 "
 :
+f
 "
 <
 {
-}
->
-"
-.
-format
-(
 job
 .
 kind
-)
+}
+>
+"
 }
                     
 "
@@ -712,23 +694,20 @@ get
 "
 label
 "
+f
 "
 {
-}
--
-{
-}
-"
-.
-format
-(
 config
 .
 kind
+}
+-
+{
 dep_job
 .
 label
-)
+}
+"
 )
         
 dependencies

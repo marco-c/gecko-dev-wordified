@@ -70,18 +70,8 @@ description
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -142,7 +132,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -463,18 +453,15 @@ symbol
 "
 ]
 =
+f
 "
 rs
 (
 {
+locale
 }
 )
 "
-.
-format
-(
-locale
-)
         
 if
 config
@@ -924,17 +911,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+dep_kind
 }
 >
 "
-.
-format
-(
-dep_kind
-)
 }
                         
 "

@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 This
 Source
 Code
@@ -65,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 from
 .
 registry
@@ -365,8 +347,10 @@ else
 raise
 Exception
 (
+f
 "
 {
+elem
 }
 was
 not
@@ -377,11 +361,6 @@ task
 -
 graph
 "
-.
-format
-(
-elem
-)
 )
     
 if

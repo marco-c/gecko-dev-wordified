@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 This
 Source
 Code
@@ -65,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 import
@@ -176,19 +158,16 @@ task
 =
 tasks
 [
+f
 "
 docker
 -
 image
 -
 {
+image_name
 }
 "
-.
-format
-(
-image_name
-)
 ]
     
 return
@@ -258,19 +237,16 @@ task
 =
 tasks
 [
+f
 "
 docker
 -
 image
 -
 {
+image_name
 }
 "
-.
-format
-(
-image_name
-)
 ]
     
 deadline
@@ -463,6 +439,7 @@ tag
         
 print
 (
+f
 "
 Re
 -
@@ -470,13 +447,9 @@ tagged
 as
 :
 {
+tag
 }
 "
-.
-format
-(
-tag
-)
 )
     
 else
@@ -510,6 +483,7 @@ tag
     
 print
 (
+f
 "
 Try
 :
@@ -521,14 +495,10 @@ ti
 -
 rm
 {
+tag
 }
 bash
 "
-.
-format
-(
-tag
-)
 )
     
 return
@@ -797,22 +767,20 @@ tag
     
 print
 (
+f
 "
 Successfully
 built
-%
-s
+{
+name
+}
 and
 tagged
 with
-%
-s
-"
-%
-(
-name
+{
 tag
-)
+}
+"
 )
     
 if
@@ -1105,17 +1073,14 @@ generator
         
 print
 (
+f
 "
 Downloading
 from
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
         
 #

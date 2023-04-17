@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 import
@@ -77,8 +71,6 @@ from
 collections
 import
 namedtuple
-import
-six
 import
 yaml
 Command
@@ -444,14 +436,13 @@ for
 depname
 dep
 in
-six
-.
-iteritems
-(
 named_links_dict
 [
 key
 ]
+.
+items
+(
 )
 :
                 
@@ -2940,17 +2931,14 @@ else
 raise
 Exception
 (
+f
 "
 unknown
 filename
 {
+filename
 }
 "
-.
-format
-(
-filename
-)
 )
     
 try

@@ -74,16 +74,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -143,7 +133,7 @@ label
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -766,19 +756,16 @@ common_paths
 locale
 "
 :
+f
 "
 beetmover
 -
 checksums
 /
 {
+partner_path
 }
 "
-.
-format
-(
-partner_path
-)
         
 }
     
@@ -882,17 +869,14 @@ beetmover
 "
 ]
 =
+f
 "
 <
 {
+dependency
 }
 >
 "
-.
-format
-(
-dependency
-)
         
 if
 None

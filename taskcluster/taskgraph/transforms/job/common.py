@@ -88,12 +88,6 @@ consistency
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 util
@@ -792,17 +786,14 @@ build
         
 geckodir
 =
+f
 "
 {
+checkoutdir
 }
 /
 src
 "
-.
-format
-(
-checkoutdir
-)
         
 hgstore
 =
@@ -843,33 +834,27 @@ run
         
 geckodir
 =
+f
 "
 {
+checkoutdir
 }
 /
 gecko
 "
-.
-format
-(
-checkoutdir
-)
         
 hgstore
 =
+f
 "
 {
+checkoutdir
 }
 /
 hg
 -
 store
 "
-.
-format
-(
-checkoutdir
-)
     
 else
 :
@@ -884,33 +869,27 @@ checkouts
         
 geckodir
 =
+f
 "
 {
+checkoutdir
 }
 /
 gecko
 "
-.
-format
-(
-checkoutdir
-)
         
 hgstore
 =
+f
 "
 {
+checkoutdir
 }
 /
 hg
 -
 shared
 "
-.
-format
-(
-checkoutdir
-)
     
 cache_name
 =

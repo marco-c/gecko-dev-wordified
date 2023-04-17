@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 This
 Source
 Code
@@ -65,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 import
@@ -87,10 +69,6 @@ import
 defaultdict
 import
 six
-from
-six
-import
-text_type
 from
 redo
 import
@@ -626,7 +604,7 @@ tasks
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -668,9 +646,9 @@ env
 )
 :
 {
-text_type
+str
 :
-text_type
+str
 }
         
 Optional
@@ -721,7 +699,7 @@ features
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -734,7 +712,7 @@ threads
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -815,7 +793,7 @@ optimize_task_graph
         
 )
 :
-text_type
+str
         
 Optional
 (
@@ -845,7 +823,7 @@ Any
 (
 None
 [
-text_type
+str
 ]
 )
             
@@ -857,7 +835,7 @@ Any
 (
 None
 [
-text_type
+str
 ]
 )
         
@@ -906,9 +884,9 @@ aliases
 )
 :
 {
-text_type
+str
 :
-text_type
+str
 }
         
 Optional
@@ -919,7 +897,7 @@ routes
 )
 :
 [
-text_type
+str
 ]
     
 }
@@ -952,7 +930,7 @@ parameters
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -975,11 +953,10 @@ for
 label
 node
 in
-six
-.
-iteritems
-(
 full_task_json
+.
+items
+(
 )
 :
         
@@ -1151,11 +1128,10 @@ for
 label
 node
 in
-six
-.
-iteritems
-(
 full_task_json
+.
+items
+(
 )
 :
         
@@ -3137,28 +3113,22 @@ logger
 .
 info
 (
+f
 "
 using
 try
 tasks
 from
 {
+task_config_file
 }
 "
-.
-format
-(
-task_config_file
-)
 )
         
 with
 open
 (
 task_config_file
-"
-r
-"
 )
 as
 fh
@@ -3276,6 +3246,7 @@ raise
 Exception
 (
                 
+f
 "
 Unknown
 try_task_config
@@ -3284,13 +3255,9 @@ json
 version
 :
 {
+task_config_version
 }
 "
-.
-format
-(
-task_config_version
-)
             
 )
     
@@ -3532,18 +3499,15 @@ logger
 .
 info
 (
+f
 "
 writing
 artifact
 file
 {
+filename
 }
 "
-.
-format
-(
-filename
-)
 )
     
 if
@@ -3720,6 +3684,7 @@ else
 raise
 TypeError
 (
+f
 "
 Don
 '
@@ -3730,13 +3695,9 @@ to
 write
 to
 {
+filename
 }
 "
-.
-format
-(
-filename
-)
 )
 def
 read_artifact
@@ -3792,9 +3753,6 @@ with
 open
 (
 path
-"
-r
-"
 )
 as
 f
@@ -3862,6 +3820,7 @@ else
 raise
 TypeError
 (
+f
 "
 Don
 '
@@ -3871,13 +3830,9 @@ how
 to
 read
 {
+filename
 }
 "
-.
-format
-(
-filename
-)
 )
 def
 rename_artifact

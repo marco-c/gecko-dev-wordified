@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 os
 import
@@ -67,10 +61,6 @@ import
 sys
 import
 attr
-from
-six
-import
-text_type
 from
 mozpack
 import
@@ -172,7 +162,7 @@ domain
 "
 )
 :
-text_type
+str
         
 #
 This
@@ -280,7 +270,7 @@ prefix
 "
 )
 :
-text_type
+str
         
 #
 This
@@ -324,7 +314,7 @@ dir
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -355,9 +345,9 @@ names
 )
 :
 {
-text_type
+str
 :
-text_type
+str
 }
         
 }
@@ -378,7 +368,7 @@ products
 )
 :
 [
-text_type
+str
 ]
 }
         
@@ -462,10 +452,10 @@ builds
 )
 :
 {
-text_type
+str
 :
 [
-text_type
+str
 ]
 }
         
@@ -490,7 +480,7 @@ products
 )
 :
 [
-text_type
+str
 ]
             
 Required
@@ -502,7 +492,7 @@ flavors
 :
 {
                 
-text_type
+str
 :
 {
                     
@@ -513,7 +503,7 @@ product
 "
 )
 :
-text_type
+str
                     
 Required
 (
@@ -526,7 +516,7 @@ method
 "
 )
 :
-text_type
+str
                     
 Optional
 (
@@ -549,7 +539,7 @@ kinds
 )
 :
 [
-text_type
+str
 ]
                     
 Optional
@@ -600,7 +590,7 @@ behaviors
 :
 {
                 
-text_type
+str
 :
 {
                     
@@ -613,7 +603,7 @@ branch
 "
 )
 :
-text_type
+str
                     
 Required
 (
@@ -624,7 +614,7 @@ branch
 "
 )
 :
-text_type
+str
                     
 Optional
 (
@@ -635,7 +625,7 @@ repo
 "
 )
 :
-text_type
+str
                     
 Required
 (
@@ -646,7 +636,7 @@ repo
 "
 )
 :
-text_type
+str
                     
 Required
 (
@@ -668,7 +658,7 @@ filename
 "
 )
 :
-text_type
+str
                             
 Optional
 (
@@ -679,7 +669,7 @@ suffix
 "
 )
 :
-text_type
+str
                             
 Optional
 (
@@ -713,7 +703,7 @@ replacements
 :
 [
 [
-text_type
+str
 ]
 ]
                     
@@ -739,7 +729,7 @@ tag
 "
 )
 :
-text_type
+str
                     
 Optional
 (
@@ -750,7 +740,7 @@ tag
 "
 )
 :
-text_type
+str
                     
 Optional
 (
@@ -763,7 +753,7 @@ from
 "
 )
 :
-text_type
+str
                 
 }
             
@@ -798,7 +788,7 @@ prefix
 "
 )
 :
-text_type
+str
         
 }
         
@@ -899,7 +889,7 @@ type
 "
 Any
 (
-text_type
+str
 None
 )
             
@@ -936,7 +926,7 @@ type
 "
 Any
 (
-text_type
+str
 None
 )
             
@@ -975,7 +965,7 @@ type
 "
 Any
 (
-text_type
+str
 None
 )
             
@@ -1001,7 +991,7 @@ aliases
 :
 {
                 
-text_type
+str
 :
 {
                     
@@ -1017,7 +1007,7 @@ optionally_keyed_by
 "
 level
 "
-text_type
+str
 )
                     
 Required
@@ -1027,7 +1017,7 @@ implementation
 "
 )
 :
-text_type
+str
                     
 Required
 (
@@ -1036,7 +1026,7 @@ os
 "
 )
 :
-text_type
+str
                     
 Required
 (
@@ -1058,7 +1048,7 @@ release
 -
 level
 "
-text_type
+str
                     
 )
                 
@@ -1137,7 +1127,7 @@ release
 -
 level
 "
-text_type
+str
             
 )
         
@@ -1174,7 +1164,7 @@ extensions
             
 )
 :
-text_type
+str
             
 Optional
 (
@@ -1185,7 +1175,7 @@ parameters
 "
 )
 :
-text_type
+str
         
 }
     
@@ -1204,9 +1194,6 @@ False
 )
 class
 GraphConfig
-(
-object
-)
 :
     
 _config
@@ -1556,6 +1543,7 @@ config_yml
 raise
 Exception
 (
+f
 "
 Couldn
 '
@@ -1565,31 +1553,24 @@ taskgraph
 configuration
 :
 {
+config_yml
 }
 "
-.
-format
-(
-config_yml
-)
 )
     
 logger
 .
 debug
 (
+f
 "
 loading
 config
 from
 {
+config_yml
 }
 "
-.
-format
-(
-config_yml
-)
 )
     
 config

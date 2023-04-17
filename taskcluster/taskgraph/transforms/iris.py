@@ -84,12 +84,6 @@ platforms
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 copy
 import
 deepcopy
@@ -893,25 +887,22 @@ extend
                 
 [
                     
+f
 "
 notify
 .
 email
 .
 {
+address
 }
 .
 on
 -
 {
+reason
 }
 "
-.
-format
-(
-address
-reason
-)
                     
 for
 address

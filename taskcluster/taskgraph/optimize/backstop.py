@@ -54,12 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 optimize
@@ -187,6 +181,7 @@ self
 :
         
 return
+f
 "
 skip
 -
@@ -197,15 +192,11 @@ push
 interval
 -
 {
-}
-"
-.
-format
-(
 self
 .
 push_interval
-)
+}
+"
     
 def
 should_remove_task

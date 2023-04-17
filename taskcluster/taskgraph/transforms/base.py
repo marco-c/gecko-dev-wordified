@@ -53,18 +53,8 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 attr
-from
-six
-import
-text_type
 from
 .
 .
@@ -96,9 +86,6 @@ True
 )
 class
 TransformConfig
-(
-object
-)
 :
     
 "
@@ -163,7 +150,7 @@ ib
 (
 type
 =
-text_type
+str
 )
     
 #
@@ -281,9 +268,6 @@ s
 )
 class
 TransformSequence
-(
-object
-)
 :
     
 "
@@ -411,20 +395,17 @@ None
 raise
 Exception
 (
+f
 "
 Transform
 {
+xform
 }
 is
 not
 a
 generator
 "
-.
-format
-(
-xform
-)
 )
         
 return
@@ -472,9 +453,6 @@ attr
 s
 class
 ValidateSchema
-(
-object
-)
 :
     
 schema

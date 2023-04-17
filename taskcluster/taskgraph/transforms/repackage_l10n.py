@@ -69,12 +69,6 @@ description
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 copy
 from
@@ -172,20 +166,17 @@ symbol
 "
 ]
 =
+f
 "
 L10n
 -
 Rpk
 (
 {
+locale
 }
 )
 "
-.
-format
-(
-locale
-)
             
 locale_job
 [

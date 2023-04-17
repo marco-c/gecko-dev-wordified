@@ -71,16 +71,6 @@ task
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -212,7 +202,7 @@ version
 :
 Any
 (
-text_type
+str
 int
 float
 )
@@ -261,7 +251,7 @@ profile
 :
 Any
 (
-text_type
+str
 None
 )
         
@@ -315,7 +305,7 @@ workdir
 "
 )
 :
-text_type
+str
     
 }
 )

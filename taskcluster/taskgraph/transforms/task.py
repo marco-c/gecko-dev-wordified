@@ -109,12 +109,6 @@ annotations
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 hashlib
 import
@@ -129,10 +123,6 @@ import
 deepcopy
 import
 six
-from
-six
-import
-text_type
 import
 attr
 from
@@ -427,28 +417,26 @@ split
 )
     
 return
+f
 "
-%
-s
-.
-%
-s
-.
-%
-s
-"
-%
-(
+{
 parts
 [
 0
 ]
+}
+.
+{
 parts
 [
 1
 ]
+}
+.
+{
 moz_build_date
-)
+}
+"
 #
 A
 task
@@ -482,7 +470,7 @@ label
 "
 )
 :
-text_type
+str
         
 #
 description
@@ -501,7 +489,7 @@ description
 "
 )
 :
-text_type
+str
         
 #
 attributes
@@ -517,7 +505,7 @@ attributes
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -548,7 +536,7 @@ from
 "
 )
 :
-text_type
+str
         
 #
 dependencies
@@ -594,7 +582,7 @@ dependencies
 All
 (
                 
-text_type
+str
                 
 NotIn
 (
@@ -656,7 +644,7 @@ dependencies
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -684,7 +672,7 @@ dependencies
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -750,7 +738,7 @@ after
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -761,7 +749,7 @@ after
 "
 )
 :
-text_type
+str
         
 #
 custom
@@ -789,7 +777,7 @@ routes
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -858,7 +846,7 @@ scopes
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -872,9 +860,9 @@ tags
 )
 :
 {
-text_type
+str
 :
-text_type
+str
 }
         
 #
@@ -894,7 +882,7 @@ extra
 )
 :
 {
-text_type
+str
 :
 object
 }
@@ -986,7 +974,7 @@ sym
 symbol
 "
 :
-text_type
+str
             
 #
 the
@@ -1142,7 +1130,7 @@ produces
 product
 "
 :
-text_type
+str
             
 #
 the
@@ -1163,7 +1151,7 @@ job
 name
 "
 :
-text_type
+str
             
 #
 Type
@@ -1470,7 +1458,7 @@ build
 platform
 "
 [
-text_type
+str
 ]
 )
         
@@ -1510,7 +1498,7 @@ optionally_keyed_by
 project
 "
 [
-text_type
+str
 ]
 )
         
@@ -1604,7 +1592,7 @@ product
 Any
 (
 None
-text_type
+str
 )
         
 #
@@ -1755,7 +1743,7 @@ worker
 type
 "
 :
-text_type
+str
         
 #
 Whether
@@ -1798,7 +1786,7 @@ artifacts
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -1830,7 +1818,7 @@ implementation
 "
 )
 :
-text_type
+str
             
 Extra
 :
@@ -1854,7 +1842,7 @@ priority
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -2851,9 +2839,6 @@ True
 )
 class
 PayloadBuilder
-(
-object
-)
 :
     
 schema
@@ -2886,7 +2871,6 @@ schema
 =
 Schema
 (
-        
 {
 Required
 (
@@ -2903,14 +2887,15 @@ os
 "
 )
 :
-text_type
+str
 }
-    
 )
 .
 extend
 (
+        
 schema
+    
 )
     
 def
@@ -3177,7 +3162,7 @@ image
 tag
 )
             
-text_type
+str
             
 #
 an
@@ -3205,7 +3190,7 @@ in
 tree
 "
 :
-text_type
+str
 }
             
 #
@@ -3219,7 +3204,7 @@ image
 indexed
 "
 :
-text_type
+str
 }
         
 )
@@ -3438,7 +3423,7 @@ volumes
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -3498,7 +3483,7 @@ volumes
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -3566,7 +3551,7 @@ cache
 name
 "
 :
-text_type
+str
                 
 #
 location
@@ -3587,7 +3572,7 @@ mount
 point
 "
 :
-text_type
+str
                 
 #
 Whether
@@ -3686,7 +3671,7 @@ artifact
 path
 "
 :
-text_type
+str
                 
 #
 name
@@ -3711,7 +3696,7 @@ directory
 name
 "
 :
-text_type
+str
             
 }
         
@@ -3729,7 +3714,7 @@ env
 )
 :
 {
-text_type
+str
 :
 taskref_or_string
 }
@@ -4989,7 +4974,7 @@ docker
 image
 "
 )
-text_type
+str
 )
 :
         
@@ -5372,21 +5357,18 @@ run_task
             
 suffix
 =
+f
 "
 {
+cache_version
 }
 -
 {
-}
-"
-.
-format
-(
-cache_version
 _run_task_suffix
 (
 )
-)
+}
+"
             
 if
 out_of_tree_image
@@ -6002,7 +5984,7 @@ artifact
 path
 "
 :
-text_type
+str
                 
 #
 if
@@ -6022,7 +6004,7 @@ name
 "
 )
 :
-text_type
+str
             
 }
         
@@ -6131,7 +6113,7 @@ name
 "
 )
 :
-text_type
+str
                 
 #
 Optional
@@ -6220,7 +6202,7 @@ artifact
 "
 )
 :
-text_type
+str
                     
 #
 Task
@@ -6270,7 +6252,7 @@ url
 "
 )
 :
-text_type
+str
                 
 }
                 
@@ -6331,7 +6313,7 @@ directory
 "
 )
 :
-text_type
+str
                 
 #
 If
@@ -6369,7 +6351,7 @@ file
 "
 )
 :
-text_type
+str
                 
 #
 Required
@@ -6460,7 +6442,7 @@ env
 )
 :
 {
-text_type
+str
 :
 taskref_or_string
 }
@@ -6506,7 +6488,7 @@ groups
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -7821,7 +7803,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 #
 Paths
@@ -7839,7 +7821,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
                 
 #
@@ -7861,7 +7843,7 @@ formats
 )
 :
 [
-text_type
+str
 ]
                 
 Optional
@@ -7872,7 +7854,7 @@ singleFileGlobs
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -7928,7 +7910,7 @@ url
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -8325,7 +8307,7 @@ locale
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -8355,7 +8337,7 @@ app
 name
 "
 :
-text_type
+str
             
 "
 app
@@ -8363,13 +8345,13 @@ app
 version
 "
 :
-text_type
+str
             
 "
 branch
 "
 :
-text_type
+str
             
 "
 build
@@ -8377,7 +8359,7 @@ build
 id
 "
 :
-text_type
+str
             
 "
 hash
@@ -8385,13 +8367,13 @@ hash
 type
 "
 :
-text_type
+str
             
 "
 platform
 "
 :
-text_type
+str
         
 }
         
@@ -8456,7 +8438,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 #
 Paths
@@ -8474,7 +8456,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
                 
 #
@@ -8499,7 +8481,7 @@ locale
 "
 )
 :
-text_type
+str
             
 }
         
@@ -8847,7 +8829,7 @@ product
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -8879,20 +8861,16 @@ config
 partners
 =
 [
-        
+f
 "
 {
+p
 }
 /
 {
+s
 }
 "
-.
-format
-(
-p
-s
-)
 for
 p
 s
@@ -8902,7 +8880,6 @@ get_partners_to_be_published
 (
 config
 )
-    
 ]
     
 task_def
@@ -9012,7 +8989,7 @@ app
 name
 "
 :
-text_type
+str
             
 "
 app
@@ -9020,13 +8997,13 @@ app
 version
 "
 :
-text_type
+str
             
 "
 branch
 "
 :
-text_type
+str
             
 "
 build
@@ -9034,7 +9011,7 @@ build
 id
 "
 :
-text_type
+str
             
 "
 artifact
@@ -9042,7 +9019,7 @@ artifact
 id
 "
 :
-text_type
+str
             
 "
 hash
@@ -9050,13 +9027,13 @@ hash
 type
 "
 :
-text_type
+str
             
 "
 platform
 "
 :
-text_type
+str
         
 }
         
@@ -9089,7 +9066,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -9099,7 +9076,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
                 
 Optional
@@ -9350,7 +9327,7 @@ product
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -9360,7 +9337,7 @@ platforms
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -9372,7 +9349,7 @@ eta
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -9391,7 +9368,7 @@ release
 type
 "
 [
-text_type
+str
 ]
 )
         
@@ -9459,7 +9436,7 @@ release
 level
 "
 [
-text_type
+str
 ]
         
 )
@@ -9480,7 +9457,7 @@ release
 -
 level
 "
-text_type
+str
 )
         
 Optional
@@ -9499,7 +9476,7 @@ release
 -
 level
 "
-text_type
+str
 )
         
 Optional
@@ -9511,7 +9488,7 @@ suffix
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -9526,7 +9503,7 @@ pattern
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -9543,7 +9520,7 @@ pattern
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -9564,7 +9541,7 @@ suffixes
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -9688,7 +9665,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 #
 Paths
@@ -9706,7 +9683,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -10537,7 +10514,7 @@ products
 )
 :
 [
-text_type
+str
 ]
     
 }
@@ -10635,7 +10612,7 @@ locales
 )
 :
 [
-text_type
+str
 ]
         
 Required
@@ -10719,7 +10696,7 @@ channel
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -10750,7 +10727,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -10760,7 +10737,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -10841,7 +10818,7 @@ channel
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -10872,7 +10849,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -10882,7 +10859,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -10965,7 +10942,7 @@ name
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -11030,7 +11007,7 @@ phase
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -11237,7 +11214,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -11247,7 +11224,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -11358,7 +11335,7 @@ files
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -11372,7 +11349,7 @@ prefix
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -11427,7 +11404,7 @@ repo
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -11438,7 +11415,7 @@ user
 "
 )
 :
-text_type
+str
         
 Optional
 (
@@ -11460,7 +11437,7 @@ name
 "
 )
 :
-text_type
+str
             
 Required
 (
@@ -11469,7 +11446,7 @@ path
 "
 )
 :
-text_type
+str
             
 Required
 (
@@ -11480,7 +11457,7 @@ path
 "
 )
 :
-text_type
+str
             
 Optional
 (
@@ -11493,7 +11470,7 @@ url
 "
 )
 :
-text_type
+str
             
 Optional
 (
@@ -11527,7 +11504,7 @@ platforms
 )
 :
 [
-text_type
+str
 ]
                     
 Required
@@ -11537,7 +11514,7 @@ path
 "
 )
 :
-text_type
+str
                     
 Optional
 (
@@ -11546,7 +11523,7 @@ format
 "
 )
 :
-text_type
+str
                 
 }
             
@@ -11699,23 +11676,20 @@ extend
                 
 [
                     
+f
 "
 {
+product
 }
 _
 {
+version
 }
 _BUILD
 {
+buildnum
 }
 "
-.
-format
-(
-product
-version
-buildnum
-)
                 
 ]
             
@@ -11739,20 +11713,17 @@ tag_names
 extend
 (
 [
+f
 "
 {
+product
 }
 _
 {
+version
 }
 _RELEASE
 "
-.
-format
-(
-product
-version
-)
 ]
 )
         
@@ -17832,8 +17803,7 @@ nothing
     
 volumes
 =
-set
-(
+{
 six
 .
 ensure_text
@@ -17854,12 +17824,11 @@ worker
 volumes
 "
 ]
-)
+}
     
 paths
 =
-set
-(
+{
         
 six
 .
@@ -17893,7 +17862,7 @@ caches
 ]
 )
     
-)
+}
     
 missing
 =
@@ -18457,7 +18426,7 @@ command
 [
 0
 ]
-text_type
+str
 )
 else
 "
@@ -18503,7 +18472,7 @@ not
 isinstance
 (
 arg
-text_type
+str
 )
 :
                     

@@ -72,10 +72,6 @@ dependency
 "
 "
 from
-__future__
-import
-absolute_import
-from
 taskgraph
 .
 transforms
@@ -258,17 +254,14 @@ reference
 ]
 !
 =
+f
 "
 <
 {
+depname
 }
 >
 "
-.
-format
-(
-depname
-)
         
 ]
         

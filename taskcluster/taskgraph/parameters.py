@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 This
 Source
 Code
@@ -65,14 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-import
-io
 import
 logging
 import
@@ -119,10 +99,6 @@ Schema
 )
 import
 six
-from
-six
-import
-text_type
 from
 .
 import
@@ -194,8 +170,6 @@ path
 :
     
 with
-io
-.
 open
 (
 path
@@ -307,7 +281,7 @@ app_version
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -325,7 +299,7 @@ base_repository
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -353,7 +327,7 @@ do_not_optimize
 )
 :
 [
-text_type
+str
 ]
         
 Required
@@ -364,9 +338,9 @@ existing_tasks
 )
 :
 {
-text_type
+str
 :
-text_type
+str
 }
         
 Required
@@ -377,7 +351,7 @@ filters
 )
 :
 [
-text_type
+str
 ]
         
 Required
@@ -387,7 +361,7 @@ head_ref
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -396,7 +370,7 @@ head_repository
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -405,7 +379,7 @@ head_rev
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -414,7 +388,7 @@ hg_branch
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -423,7 +397,7 @@ level
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -432,7 +406,7 @@ message
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -441,7 +415,7 @@ moz_build_date
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -453,7 +427,7 @@ next_version
 Any
 (
 None
-text_type
+str
 )
         
 Required
@@ -466,7 +440,7 @@ optimize_strategies
 Any
 (
 None
-text_type
+str
 )
         
 Required
@@ -485,7 +459,7 @@ owner
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -497,7 +471,7 @@ phabricator_diff
 Any
 (
 None
-text_type
+str
 )
         
 Required
@@ -507,7 +481,7 @@ project
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -525,7 +499,7 @@ pushlog_id
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -564,7 +538,7 @@ release_eta
 Any
 (
 None
-text_type
+str
 )
         
 Required
@@ -575,7 +549,7 @@ release_history
 )
 :
 {
-text_type
+str
 :
 dict
 }
@@ -591,7 +565,7 @@ Any
 (
 None
 [
-text_type
+str
 ]
 )
         
@@ -624,7 +598,7 @@ release_type
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -636,7 +610,7 @@ release_product
 Any
 (
 None
-text_type
+str
 )
         
 Required
@@ -647,7 +621,7 @@ required_signoffs
 )
 :
 [
-text_type
+str
 ]
         
 Required
@@ -686,7 +660,7 @@ target_tasks_method
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -695,7 +669,7 @@ tasks_for
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -704,7 +678,7 @@ test_manifest_loader
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -716,7 +690,7 @@ try_mode
 Any
 (
 None
-text_type
+str
 )
         
 Required
@@ -748,7 +722,7 @@ version
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -1371,8 +1345,6 @@ try
 return
 super
 (
-Parameters
-self
 )
 .
 __getitem__
@@ -1387,21 +1359,18 @@ KeyError
 raise
 KeyError
 (
+f
 "
 taskgraph
 parameter
 {
+k
 !
 r
 }
 not
 found
 "
-.
-format
-(
-k
-)
 )
     
 def
@@ -1634,27 +1603,24 @@ file
 "
         
 return
+f
 "
 {
-}
-/
-{
-}
-/
-{
-}
-/
-{
-}
-"
-.
-format
-(
 repo
+}
+/
+{
 endpoint
+}
+/
+{
 rev
+}
+/
+{
 path
-)
+}
+"
     
 def
 release_level
@@ -1830,7 +1796,7 @@ filename
 )
     
 except
-IOError
+OSError
 :
         
 #
@@ -1997,18 +1963,15 @@ logger
 .
 info
 (
+f
 "
 Loading
 parameters
 from
 {
+filename
 }
 "
-.
-format
-(
-filename
-)
 )
         
 resp
@@ -2083,10 +2046,12 @@ else
 raise
 TypeError
 (
+f
 "
 Parameters
 file
 {
+filename
 }
 is
 not
@@ -2094,11 +2059,6 @@ JSON
 or
 YAML
 "
-.
-format
-(
-filename
-)
 )
     
 kwargs

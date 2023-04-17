@@ -74,16 +74,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -136,7 +126,7 @@ name
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -236,7 +226,7 @@ release
 -
 level
 "
-text_type
+str
 )
         
 Required
@@ -256,7 +246,7 @@ scopes
 )
 :
 [
-text_type
+str
 ]
         
 Required
@@ -586,17 +576,14 @@ task
 reference
 "
 :
+f
 "
 <
 {
+task_kind
 }
 >
 "
-.
-format
-(
-task_kind
-)
 }
             
 #

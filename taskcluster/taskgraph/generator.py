@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 logging
 import
@@ -67,12 +61,9 @@ import
 copy
 import
 attr
-import
-six
 from
 six
 import
-text_type
 ensure_text
 from
 .
@@ -196,9 +187,6 @@ True
 )
 class
 Kind
-(
-object
-)
 :
     
 name
@@ -209,7 +197,7 @@ ib
 (
 type
 =
-text_type
+str
 )
     
 path
@@ -220,7 +208,7 @@ ib
 (
 type
 =
-text_type
+str
 )
     
 config
@@ -273,8 +261,12 @@ KeyError
 raise
 KeyError
 (
+f
 "
 {
+self
+.
+path
 !
 r
 }
@@ -283,13 +275,6 @@ not
 define
 loader
 "
-.
-format
-(
-self
-.
-path
-)
 )
         
 return
@@ -634,21 +619,18 @@ logger
 .
 debug
 (
+f
 "
 loading
 kind
 {
+kind_name
 }
 from
 {
+path
 }
 "
-.
-format
-(
-kind_name
-path
-)
 )
         
 config
@@ -668,9 +650,6 @@ graph_config
 )
 class
 TaskGraphGenerator
-(
-object
-)
 :
     
 "
@@ -1808,11 +1787,10 @@ set
 for
 kind
 in
-six
-.
-itervalues
-(
 kinds
+.
+values
+(
 )
 :
             
@@ -1923,19 +1901,16 @@ logger
 .
 debug
 (
+f
 "
 Loading
 tasks
 for
 kind
 {
+kind_name
 }
 "
-.
-format
-(
-kind_name
-)
 )
             
 kind
@@ -1980,6 +1955,7 @@ logger
 .
 exception
 (
+f
 "
 Error
 loading
@@ -1987,14 +1963,10 @@ tasks
 for
 kind
 {
+kind_name
 }
 :
 "
-.
-format
-(
-kind_name
-)
 )
                 
 raise
@@ -2041,27 +2013,22 @@ logger
 .
 info
 (
-                
+f
 "
 Generated
 {
+len
+(
+new_tasks
+)
 }
 tasks
 for
 kind
 {
+kind_name
 }
 "
-.
-format
-(
-len
-(
-new_tasks
-)
-kind_name
-)
-            
 )
         
 full_task_set
@@ -2133,13 +2100,12 @@ for
 depname
 dep
 in
-six
-.
-iteritems
-(
 t
 .
 dependencies
+.
+items
+(
 )
 :
                 
@@ -2401,8 +2367,7 @@ morph
         
 docker_image_tasks
 =
-set
-(
+{
             
 t
 .
@@ -2411,13 +2376,12 @@ label
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
             
 if
@@ -2437,7 +2401,7 @@ docker
 image
 "
         
-)
+}
         
 #
 include
@@ -2465,8 +2429,7 @@ push
             
 always_target_tasks
 =
-set
-(
+{
                 
 t
 .
@@ -2475,13 +2438,12 @@ label
 for
 t
 in
-six
-.
-itervalues
-(
 full_task_graph
 .
 tasks
+.
+values
+(
 )
                 
 if
@@ -2496,7 +2458,7 @@ always_target
 "
 )
             
-)
+}
         
 else
 :
@@ -2823,19 +2785,16 @@ StopIteration
 raise
 AttributeError
 (
+f
 "
 No
 such
 run
 result
 {
+name
 }
 "
-.
-format
-(
-name
-)
 )
             
 self
@@ -2960,11 +2919,10 @@ for
 label
 task
 in
-six
-.
-iteritems
-(
 all_tasks
+.
+items
+(
 )
 :
             

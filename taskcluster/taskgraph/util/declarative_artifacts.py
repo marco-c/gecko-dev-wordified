@@ -53,11 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-unicode_literals
 import
 re
 from
@@ -595,16 +590,13 @@ None
         
 update_channel
 =
+f
 "
 -
 {
+update_channel
 }
 "
-.
-format
-(
-update_channel
-)
     
 else
 :

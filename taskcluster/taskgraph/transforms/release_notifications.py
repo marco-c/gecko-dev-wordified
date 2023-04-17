@@ -69,12 +69,6 @@ tasks
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 string
 import
 Formatter
@@ -156,8 +150,6 @@ title
         
 super
 (
-TitleCaseFormatter
-self
 )
 .
 convert_field
@@ -410,23 +402,20 @@ extend
 (
                     
 [
+f
 "
 notify
 .
 email
 .
 {
+email
 }
 .
 {
+s
 }
 "
-.
-format
-(
-email
-s
-)
 for
 email
 in

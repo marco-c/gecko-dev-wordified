@@ -83,20 +83,10 @@ approach
 "
 "
 "
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 import
 six
-from
-six
-import
-text_type
 from
 textwrap
 import
@@ -220,7 +210,7 @@ script
 "
 )
 :
-text_type
+str
         
 #
 Additional
@@ -256,7 +246,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -304,7 +294,7 @@ config
 )
 :
 [
-text_type
+str
 ]
         
 #
@@ -447,7 +437,7 @@ cfg
 "
 )
 :
-text_type
+str
         
 #
 Extra
@@ -609,7 +599,7 @@ Any
 (
 bool
 [
-text_type
+str
 ]
 )
         
@@ -736,7 +726,7 @@ script
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -883,7 +873,7 @@ workdir
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -2591,17 +2581,14 @@ mh_command
 =
 [
         
+f
 "
 {
+gecko_path
 }
 /
 mach
 "
-.
-format
-(
-gecko_path
-)
         
 "
 python
@@ -2661,6 +2648,7 @@ mh_command
 .
 append
 (
+f
 "
 -
 -
@@ -2670,17 +2658,13 @@ config
 -
 path
 {
+gecko_path
 }
 /
 {
+path
 }
 "
-.
-format
-(
-gecko_path
-path
-)
 )
     
 for

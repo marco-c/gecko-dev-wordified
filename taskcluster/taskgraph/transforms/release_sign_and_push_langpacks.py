@@ -76,16 +76,6 @@ description
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -160,7 +150,7 @@ label
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -169,7 +159,7 @@ description
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -187,7 +177,7 @@ release
 -
 level
 "
-text_type
+str
 )
         
 Required
@@ -286,7 +276,7 @@ release
 level
 "
 [
-text_type
+str
 ]
 )
         
@@ -1174,20 +1164,17 @@ expected
 )
     
 return
+f
 "
 <
 {
-}
->
-"
-.
-format
-(
 upstream_tasks
 [
 0
 ]
-)
+}
+>
+"
 transforms
 .
 add

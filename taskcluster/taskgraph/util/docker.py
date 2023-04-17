@@ -53,16 +53,8 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 hashlib
-import
-io
 import
 json
 import
@@ -437,6 +429,7 @@ message
             
 message
 =
+f
 "
 docker
 API
@@ -444,15 +437,11 @@ returned
 HTTP
 code
 {
-}
-"
-.
-format
-(
 req
 .
 status_code
-)
+}
+"
         
 raise
 Exception
@@ -661,19 +650,16 @@ stderr
 .
 write
 (
+f
 "
 \
 033
 [
 {
+n
 }
 A
 "
-.
-format
-(
-n
-)
 )
                     
 #
@@ -797,21 +783,18 @@ stderr
 .
 write
 (
+f
 "
 \
 033
 [
 {
-}
-B
-"
-.
-format
-(
 n
 -
 1
-)
+}
+B
+"
 )
                 
 else
@@ -1223,7 +1206,7 @@ strip
 )
     
 except
-IOError
+OSError
 :
         
 with
@@ -1290,20 +1273,16 @@ f
 :
                 
 return
+f
 "
 {
+registry
 }
 /
 {
+name
 }
 {
-}
-"
-.
-format
-(
-registry
-name
 f
 .
 read
@@ -1313,15 +1292,17 @@ read
 strip
 (
 )
-)
+}
+"
         
 except
-IOError
+OSError
 :
             
 raise
 Exception
 (
+f
 "
 Failed
 to
@@ -1329,13 +1310,9 @@ read
 HASH
 file
 {
+hashfile
 }
 "
-.
-format
-(
-hashfile
-)
 )
     
 try
@@ -1374,7 +1351,7 @@ strip
 )
     
 except
-IOError
+OSError
 :
         
 tag
@@ -1384,28 +1361,22 @@ latest
 "
     
 return
+f
 "
 {
+registry
 }
 /
 {
+name
 }
 :
 {
+tag
 }
 "
-.
-format
-(
-registry
-name
-tag
-)
 class
 VoidWriter
-(
-object
-)
 :
     
 "
@@ -1486,9 +1457,6 @@ args
 )
 class
 HashingWriter
-(
-object
-)
 :
     
 "
@@ -1876,8 +1844,6 @@ include
 .
     
 with
-io
-.
 open
 (
 os
@@ -2202,17 +2168,14 @@ create_tar_gz_from_files
 (
 writer
 archive_files
+f
 "
 {
+image_name
 }
 .
 tar
 "
-.
-format
-(
-image_name
-)
 )
     
 return
@@ -2661,9 +2624,7 @@ entries
 volumes
 |
 =
-set
-(
-[
+{
 six
 .
 ensure_text
@@ -2678,8 +2639,7 @@ v
 split
 (
 )
-]
-)
+}
     
 return
 volumes
