@@ -3846,6 +3846,12 @@ case
 ExtContentPolicy
 :
 :
+TYPE_UA_FONT
+:
+case
+ExtContentPolicy
+:
+:
 TYPE_IMAGESET
 :
 case
