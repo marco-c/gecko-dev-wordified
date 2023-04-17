@@ -3091,17 +3091,6 @@ DismissAndNotify
 ]
 /
 /
-features
-[
-"
-rotatable
-"
-AppInfo
-.
-isAndroid
-]
-/
-/
 proprietary
 [
 "
