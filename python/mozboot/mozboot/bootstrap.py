@@ -1878,6 +1878,7 @@ or
 ensure_mobile_android_packages
 '
         
+#
 getattr
 (
 self
@@ -1892,10 +1893,12 @@ s_packages
 application
 )
 (
-            
+        
+#
 state_dir
 checkout_root
         
+#
 )
     
 def
