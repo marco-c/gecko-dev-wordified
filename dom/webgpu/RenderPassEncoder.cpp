@@ -1490,7 +1490,7 @@ void
 RenderPassEncoder
 :
 :
-SetBlendColor
+SetBlendConstant
 (
 const
 dom
@@ -1524,7 +1524,7 @@ GetAsGPUColorDict
 ffi
 :
 :
-wgpu_render_pass_set_blend_color
+wgpu_render_pass_set_blend_constant
 (
 mPass
 &

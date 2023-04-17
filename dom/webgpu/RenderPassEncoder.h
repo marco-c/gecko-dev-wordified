@@ -487,7 +487,7 @@ height
 )
 ;
 void
-SetBlendColor
+SetBlendConstant
 (
 const
 dom

@@ -4865,6 +4865,9 @@ bool
 imageless_framebuffers
 :
 bool
+image_view_usage
+:
+bool
 timestamp_period
 :
 f32

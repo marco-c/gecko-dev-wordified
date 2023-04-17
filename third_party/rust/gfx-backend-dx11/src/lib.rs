@@ -3657,7 +3657,7 @@ hal
 DynamicStates
 :
 :
-BLEND_COLOR
+BLEND_CONSTANTS
 |
 hal
 :
@@ -9880,7 +9880,7 @@ pipeline
 .
 baked_states
 .
-blend_color
+blend_constants
 .
 or
 (

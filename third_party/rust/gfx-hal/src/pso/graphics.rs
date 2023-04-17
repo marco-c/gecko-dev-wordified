@@ -408,7 +408,7 @@ constant
 color
 .
 pub
-blend_color
+blend_constants
 :
 Option
 <

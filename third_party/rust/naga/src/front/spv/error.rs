@@ -350,7 +350,6 @@ Word
 incomplete
 implementation
 error
-UnsupportedRowMajorMatrix
 UnsupportedMatrixStride
 (
 spirv

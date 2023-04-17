@@ -420,6 +420,22 @@ BufferAddress
 /
 /
 /
+Size
+to
+align
+mappings
+.
+pub
+const
+MAP_ALIGNMENT
+:
+BufferAddress
+=
+8
+;
+/
+/
+/
 Vertex
 buffer
 strides
@@ -5304,6 +5320,7 @@ u8
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 )
@@ -6459,8 +6476,8 @@ One
 /
 S
 .
-color
-SrcColor
+component
+Src
 =
 2
 /
@@ -6472,8 +6489,8 @@ SrcColor
 -
 S
 .
-color
-OneMinusSrcColor
+component
+OneMinusSrc
 =
 3
 /
@@ -6503,8 +6520,8 @@ OneMinusSrcAlpha
 /
 D
 .
-color
-DstColor
+component
+Dst
 =
 6
 /
@@ -6516,8 +6533,8 @@ DstColor
 -
 D
 .
-color
-OneMinusDstColor
+component
+OneMinusDst
 =
 7
 /
@@ -6565,7 +6582,7 @@ SrcAlphaSaturated
 /
 /
 Constant
-BlendColor
+Constant
 =
 11
 /
@@ -6576,7 +6593,7 @@ BlendColor
 0
 -
 Constant
-OneMinusBlendColor
+OneMinusConstant
 =
 12
 }
@@ -6754,6 +6771,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -6879,7 +6897,7 @@ REPLACE
 :
 Self
 =
-BlendComponent
+Self
 {
 src_factor
 :
@@ -6928,7 +6946,7 @@ OVER
 :
 Self
 =
-BlendComponent
+Self
 {
 src_factor
 :
@@ -6978,7 +6996,7 @@ encoder
 .
 pub
 fn
-uses_color
+uses_constant
 (
 &
 self
@@ -7001,7 +7019,7 @@ dst_factor
 BlendFactor
 :
 :
-BlendColor
+Constant
 _
 )
 |
@@ -7009,7 +7027,7 @@ _
 BlendFactor
 :
 :
-OneMinusBlendColor
+OneMinusConstant
 _
 )
 |
@@ -7018,7 +7036,7 @@ _
 BlendFactor
 :
 :
-BlendColor
+Constant
 )
 |
 (
@@ -7026,7 +7044,7 @@ _
 BlendFactor
 :
 :
-OneMinusBlendColor
+OneMinusConstant
 )
 =
 >
@@ -7100,6 +7118,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -8193,6 +8212,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 Default
 PartialEq
@@ -8621,6 +8641,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -16866,6 +16887,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 Default
 PartialEq
@@ -17635,6 +17657,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -18225,6 +18248,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -23930,6 +23954,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 Default
 )
@@ -25942,6 +25967,7 @@ group
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 Eq
@@ -27239,6 +27265,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 )
 ]
@@ -27328,6 +27355,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 )
 ]
@@ -27435,6 +27463,7 @@ C
 derive
 (
 Clone
+Copy
 Debug
 )
 ]

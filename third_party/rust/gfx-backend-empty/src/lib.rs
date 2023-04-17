@@ -2013,6 +2013,15 @@ hal
 image
 :
 :
+Usage
+_
+:
+hal
+:
+:
+image
+:
+:
 SubresourceRange
 )
 -

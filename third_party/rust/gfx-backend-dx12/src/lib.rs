@@ -8880,7 +8880,7 @@ hal
 DynamicStates
 :
 :
-BLEND_COLOR
+BLEND_CONSTANTS
 |
 hal
 :

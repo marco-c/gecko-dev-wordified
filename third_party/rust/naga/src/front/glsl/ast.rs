@@ -41,6 +41,7 @@ LocalVariable
 Module
 RelationalFunction
 ResourceBinding
+Sampling
 ShaderStage
 Statement
 StorageClass
@@ -1384,6 +1385,10 @@ Binding
 Interpolation
 (
 Interpolation
+)
+Sampling
+(
+Sampling
 )
 }
 #
