@@ -156,6 +156,11 @@ sss
 .
 resetState
 (
+Ci
+.
+nsISiteSecurityService
+.
+HEADER_HSTS
 NetUtil
 .
 newURI

@@ -17602,6 +17602,10 @@ service
 >
 IsSecureURI
 (
+nsISiteSecurityService
+:
+:
+HEADER_HSTS
 uri
 flags
 originAttributes
@@ -17713,6 +17717,10 @@ sss
 >
 IsSecureURI
 (
+nsISiteSecurityService
+:
+:
+HEADER_HSTS
 aURI
 flags
 aOriginAttributes
