@@ -812,7 +812,7 @@ renderer
 renderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 )
@@ -823,7 +823,7 @@ aTextureFactoryIdentifier
 renderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 -

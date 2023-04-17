@@ -1632,7 +1632,7 @@ renderer
 renderer
 -
 >
-AsLayerManager
+AsWebRender
 (
 )
 )
@@ -1656,11 +1656,6 @@ int32_t
 maxSizeInDevPixels
 =
 renderer
--
->
-AsLayerManager
-(
-)
 -
 >
 GetMaxTextureSize
