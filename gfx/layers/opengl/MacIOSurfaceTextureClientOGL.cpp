@@ -340,12 +340,6 @@ mSurface
 GetIOSurfaceID
 (
 )
-mSurface
--
->
-GetContentsScaleFactor
-(
-)
 !
 mSurface
 -
@@ -386,12 +380,6 @@ mSurface
 -
 >
 GetIOSurfaceID
-(
-)
-mSurface
--
->
-GetContentsScaleFactor
 (
 )
 !

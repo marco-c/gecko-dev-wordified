@@ -650,12 +650,6 @@ mIOSurf
 GetIOSurfaceID
 (
 )
-mIOSurf
--
->
-GetContentsScaleFactor
-(
-)
 isOpaque
 mIOSurf
 -
