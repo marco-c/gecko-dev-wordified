@@ -1338,6 +1338,13 @@ ourFrame
 >
 ResetFrameLoader
 (
+nsSubDocumentFrame
+:
+:
+RetainPaintData
+:
+:
+No
 )
 ;
 }
