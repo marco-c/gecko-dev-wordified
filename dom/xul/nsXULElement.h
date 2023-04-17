@@ -2091,14 +2091,7 @@ aOpenFlag
 ;
 MOZ_CAN_RUN_SCRIPT
 virtual
-mozilla
-:
-:
-Result
-<
 bool
-nsresult
->
 PerformAccesskey
 (
 bool
