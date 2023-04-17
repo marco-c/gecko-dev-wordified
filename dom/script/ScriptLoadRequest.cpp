@@ -969,13 +969,13 @@ Cancel
 (
 )
 {
-mIsCanceled
-=
-true
-;
 MaybeCancelOffThreadScript
 (
 )
+;
+mIsCanceled
+=
+true
 ;
 }
 void
@@ -1735,7 +1735,7 @@ ScriptLoadRequestList
 (
 )
 {
-CancelRequestsAndClear
+Clear
 (
 )
 ;
@@ -1744,7 +1744,7 @@ void
 ScriptLoadRequestList
 :
 :
-CancelRequestsAndClear
+Clear
 (
 )
 {
