@@ -51457,13 +51457,10 @@ createTemplateObject
 lir
 ArgList
 (
-ImmGCPtr
-(
 info
 .
 funMaybeLazy
 (
-)
 )
 Imm32
 (
