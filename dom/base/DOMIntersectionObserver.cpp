@@ -4276,7 +4276,7 @@ targetFrame
 nsLayoutUtils
 :
 :
-IsAncestorFrameCrossDoc
+IsAncestorFrameCrossDocInProcess
 (
 rootFrame
 targetFrame
