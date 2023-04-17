@@ -14888,7 +14888,7 @@ msix
 import
 repackage_msix
         
-self
+command_context
 .
 _set_log_level
 (
@@ -14904,7 +14904,7 @@ path
 join
 (
             
-self
+command_context
 .
 topsrcdir
 "
@@ -14942,7 +14942,7 @@ path
 join
 (
             
-self
+command_context
 .
 topsrcdir
             
@@ -15020,7 +15020,7 @@ verbose
             
 log
 =
-self
+command_context
 .
 log
             
@@ -15195,7 +15195,7 @@ msix
 import
 sign_msix
         
-self
+command_context
 .
 _set_log_level
 (
@@ -15210,7 +15210,7 @@ force
 force
 log
 =
-self
+command_context
 .
 log
 verbose
