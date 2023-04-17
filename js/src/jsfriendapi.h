@@ -4703,10 +4703,16 @@ JS
 :
 Handle
 <
+mozilla
+:
+:
+Maybe
+<
 JS
 :
 :
 PropertyDescriptor
+>
 >
 ownDesc
 JS
