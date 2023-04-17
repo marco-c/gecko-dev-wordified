@@ -422,7 +422,12 @@ open
 (
 log
 "
-rb
+r
+"
+errors
+=
+"
+replace
 "
 )
 as
@@ -449,13 +454,15 @@ sys
 stderr
 )
                     
+for
+line
+in
+f
+:
+                        
 print
 (
-f
-.
-read
-(
-)
+line
 file
 =
 sys
