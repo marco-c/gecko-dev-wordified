@@ -1134,11 +1134,11 @@ else
 false
 #
 endif
-ENABLE_REMOTE_AGENT
+ENABLE_WEBDRIVER
 :
 #
 ifdef
-ENABLE_REMOTE_AGENT
+ENABLE_WEBDRIVER
 true
 #
 else

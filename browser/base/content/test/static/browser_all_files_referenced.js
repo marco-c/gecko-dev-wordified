@@ -2924,7 +2924,7 @@ if
 !
 AppConstants
 .
-ENABLE_REMOTE_AGENT
+ENABLE_WEBDRIVER
 )
 {
 whitelist
