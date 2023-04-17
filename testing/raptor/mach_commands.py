@@ -2319,7 +2319,7 @@ disable_charging
         
 build_obj
 =
-command_context
+self
         
 is_android
 =
@@ -2591,7 +2591,7 @@ False
         
 raptor
 =
-command_context
+self
 .
 _spawn
 (
@@ -2645,11 +2645,10 @@ as
 e
 :
             
-command_context
+self
 .
 log
 (
-                
 logging
 .
 ERROR
@@ -2673,10 +2672,9 @@ ERROR
 error
 }
 "
-            
 )
             
-command_context
+self
 .
 log
 (

@@ -1076,7 +1076,6 @@ self
 .
 show_taskgraph
 (
-command_context
 "
 full_task_set
 "
@@ -1117,7 +1116,6 @@ self
 .
 show_taskgraph
 (
-command_context
 "
 full_task_graph
 "
@@ -1161,7 +1159,6 @@ self
 .
 show_taskgraph
 (
-command_context
 "
 target_task_set
 "
@@ -1206,7 +1203,6 @@ self
 .
 show_taskgraph
 (
-command_context
 "
 target_task_graph
 "
@@ -1249,7 +1245,6 @@ self
 .
 show_taskgraph
 (
-command_context
 "
 optimized_task_graph
 "
@@ -1292,7 +1287,6 @@ self
 .
 show_taskgraph
 (
-command_context
 "
 morphed_task_graph
 "
@@ -1475,7 +1469,6 @@ self
 .
 show_actions
 (
-command_context
 options
 )
     
@@ -2352,7 +2345,6 @@ self
 .
 setup_logging
 (
-command_context
 )
             
 start
@@ -2708,7 +2700,6 @@ self
 .
 setup_logging
 (
-command_context
 )
             
 #
@@ -3208,7 +3199,6 @@ self
 .
 setup_logging
 (
-command_context
 )
             
 task_id
@@ -3373,7 +3363,6 @@ def
 setup_logging
 (
 self
-command_context
 quiet
 =
 False
@@ -3431,7 +3420,7 @@ handler
         
 old
 =
-command_context
+self
 .
 log_manager
 .
@@ -3469,7 +3458,7 @@ logging
 .
 INFO
             
-command_context
+self
 .
 log_manager
 .
@@ -3514,7 +3503,7 @@ is
 unstructured
 logging
         
-command_context
+self
 .
 log_manager
 .
@@ -3526,7 +3515,6 @@ def
 show_taskgraph
 (
 self
-command_context
 graph_attr
 options
 )
@@ -3536,8 +3524,6 @@ self
 .
 setup_logging
 (
-            
-command_context
 quiet
 =
 options
@@ -3554,7 +3540,6 @@ options
 verbose
 "
 ]
-        
 )
         
 vcs
@@ -3592,7 +3577,7 @@ vcs
 =
 get_repository_object
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -3901,7 +3886,7 @@ cur_ref
             
 diffcmd
 =
-command_context
+self
 .
 _mach_context
 .
@@ -4605,7 +4590,6 @@ def
 show_actions
 (
 self
-command_context
 options
 )
 :
@@ -4635,8 +4619,6 @@ self
 .
 setup_logging
 (
-                
-command_context
 quiet
 =
 options
@@ -4653,7 +4635,6 @@ options
 verbose
 "
 ]
-            
 )
             
 parameters

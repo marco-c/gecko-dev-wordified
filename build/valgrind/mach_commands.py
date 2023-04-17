@@ -334,7 +334,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -418,8 +418,7 @@ path
 .
 join
 (
-                
-command_context
+self
 .
 topsrcdir
 "
@@ -428,7 +427,6 @@ testing
 "
 profiles
 "
-            
 )
             
 with
@@ -593,7 +591,7 @@ path
 join
 (
                 
-command_context
+self
 .
 topsrcdir
 "
@@ -756,7 +754,7 @@ outputHandler
 =
 OutputHandler
 (
-command_context
+self
 .
 log
 )
@@ -1234,7 +1232,7 @@ profile
                     
 binary
 =
-command_context
+self
 .
 get_binary_path
 (
@@ -1316,7 +1314,7 @@ TBPL
 job
 orange
                     
-command_context
+self
 .
 log
 (
@@ -1390,7 +1388,7 @@ status
 =
 0
                     
-command_context
+self
 .
 log
 (
@@ -1464,7 +1462,7 @@ TBPL
 job
 red
                     
-command_context
+self
 .
 log
 (
@@ -1510,7 +1508,7 @@ error
                     
 )
                     
-command_context
+self
 .
 log
 (
@@ -1563,7 +1561,7 @@ TBPL
 job
 red
                     
-command_context
+self
 .
 log
 (
@@ -1634,7 +1632,7 @@ TBPL
 job
 red
                     
-command_context
+self
 .
 log
 (

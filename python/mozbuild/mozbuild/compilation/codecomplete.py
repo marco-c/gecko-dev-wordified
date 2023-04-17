@@ -74,9 +74,14 @@ mach
 .
 decorators
 import
+(
+    
 CommandArgument
+    
 CommandProvider
+    
 Command
+)
 from
 mozbuild
 .
@@ -88,12 +93,16 @@ mozbuild
 .
 shellutil
 import
+(
+    
 split
 as
 shell_split
+    
 quote
 as
 shell_quote
+)
 CommandProvider
 class
 Introspection
@@ -193,7 +202,7 @@ util
 .
 check_top_objdir
 (
-command_context
+self
 .
 topobjdir
 )
@@ -204,7 +213,7 @@ return
         
 path_arg
 =
-command_context
+self
 .
 _wrap_path_argument
 (
@@ -217,7 +226,7 @@ make_target
 resolve_target_to_make
 (
             
-command_context
+self
 .
 topobjdir
 path_arg

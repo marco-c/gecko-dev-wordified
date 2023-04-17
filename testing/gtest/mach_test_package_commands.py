@@ -805,7 +805,7 @@ kwargs
 )
 :
         
-command_context
+self
 .
 _mach_context
 .
@@ -817,7 +817,7 @@ result
 =
 run_gtest
 (
-command_context
+self
 .
 _mach_context
 *

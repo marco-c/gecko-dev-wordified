@@ -1606,7 +1606,7 @@ kwargs
         
 runner
 =
-command_context
+self
 .
 _spawn
 (

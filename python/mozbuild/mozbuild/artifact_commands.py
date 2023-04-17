@@ -80,10 +80,16 @@ mach
 .
 decorators
 import
+(
+    
 CommandArgument
+    
 CommandProvider
+    
 Command
+    
 SubCommand
+)
 from
 mozbuild
 .
@@ -95,10 +101,14 @@ mozbuild
 .
 base
 import
+(
+    
 MachCommandBase
+    
 MachCommandConditions
 as
 conditions
+)
 from
 mozbuild
 .
@@ -554,8 +564,6 @@ _make_artifacts
         
 self
         
-command_context
-        
 tree
 =
 None
@@ -593,7 +601,7 @@ False
         
 state_dir
 =
-command_context
+self
 .
 _mach_context
 .
@@ -624,13 +632,13 @@ conditions
 .
 is_hg
 (
-command_context
+self
 )
 :
             
 hg
 =
-command_context
+self
 .
 substs
 [
@@ -648,13 +656,13 @@ conditions
 .
 is_git
 (
-command_context
+self
 )
 :
             
 git
 =
-command_context
+self
 .
 substs
 [
@@ -683,20 +691,18 @@ artifacts
         
 topsrcdir
 =
-command_context
+self
 .
 substs
 .
 get
 (
-            
 "
 commtopsrcdir
 "
-command_context
+self
 .
 topsrcdir
-        
 )
         
 if
@@ -806,11 +812,11 @@ Artifacts
             
 tree
             
-command_context
+self
 .
 substs
             
-command_context
+self
 .
 defines
             
@@ -818,7 +824,7 @@ job
             
 log
 =
-command_context
+self
 .
 log
             
@@ -864,7 +870,7 @@ no_process
             
 mozbuild
 =
-command_context
+self
         
 )
         
@@ -1223,7 +1229,7 @@ False
 )
 :
         
-command_context
+self
 .
 _set_log_level
 (
@@ -1236,8 +1242,6 @@ self
 .
 _make_artifacts
 (
-            
-command_context
             
 tree
 =
@@ -1282,7 +1286,7 @@ install_from
 source
 distdir
 or
-command_context
+self
 .
 distdir
 )
@@ -1331,7 +1335,7 @@ False
 )
 :
         
-command_context
+self
 .
 _set_log_level
 (
@@ -1344,7 +1348,6 @@ self
 .
 _make_artifacts
 (
-command_context
 tree
 =
 tree
@@ -1772,9 +1775,15 @@ action
 .
 tooltool
 import
+(
+            
 FileRecord
+            
 open_manifest
+            
 unpack_file
+        
+)
         
 import
 redo
@@ -1802,7 +1811,7 @@ time
 (
 )
         
-command_context
+self
 .
 _set_log_level
 (
@@ -1815,7 +1824,7 @@ we
 '
 d
 use
-command_context
+self
 .
 log_manager
 .
@@ -1869,7 +1878,7 @@ logger
 .
         
 if
-command_context
+self
 .
 log_manager
 .
@@ -1892,7 +1901,7 @@ tooltool
 addHandler
 (
                 
-command_context
+self
 .
 log_manager
 .
@@ -1911,16 +1920,14 @@ redo
 .
 addHandler
 (
-                
-command_context
+self
 .
 log_manager
 .
 terminal_handler
-            
 )
             
-command_context
+self
 .
 log_manager
 .
@@ -1929,7 +1936,7 @@ terminal_handler
 addFilter
 (
                 
-command_context
+self
 .
 log_manager
 .
@@ -1950,8 +1957,7 @@ path
 .
 join
 (
-                
-command_context
+self
 .
 _mach_context
 .
@@ -1959,7 +1965,6 @@ state_dir
 "
 toolchains
 "
-            
 )
         
 tooltool_host
@@ -2040,19 +2045,17 @@ cache
 =
 ArtifactCache
 (
-            
 cache_dir
 =
 cache_dir
 log
 =
-command_context
+self
 .
 log
 skip_cache
 =
 skip_cache
-        
 )
         
 class
@@ -2477,7 +2480,7 @@ os
 environ
 :
                 
-command_context
+self
 .
 log
 (
@@ -2598,7 +2601,7 @@ not
 task
 :
                     
-command_context
+self
 .
 log
 (
@@ -2697,7 +2700,7 @@ toolchain
 )
 :
                     
-command_context
+self
 .
 log
 (
@@ -2754,7 +2757,7 @@ artifact
 "
 )
                 
-command_context
+self
 .
 log
 (
@@ -2854,7 +2857,7 @@ not
 artifact_name
 :
                     
-command_context
+self
 .
 log
 (
@@ -2896,11 +2899,9 @@ mozversioncontrol
 .
 get_repository_object
 (
-                        
-command_context
+self
 .
 topsrcdir
-                    
 )
                     
 changed_files
@@ -2929,7 +2930,7 @@ if
 changed_files
 :
                         
-command_context
+self
 .
 log
 (
@@ -2982,7 +2983,7 @@ os
 environ
 :
                         
-command_context
+self
 .
 log
 (
@@ -3063,7 +3064,7 @@ TASKCLUSTER_ROOT_URL
 return
 1
                 
-command_context
+self
 .
 log
 (
@@ -3130,7 +3131,7 @@ records
 )
 :
             
-command_context
+self
 .
 log
 (
@@ -3333,7 +3334,7 @@ logging
 .
 ERROR
                     
-command_context
+self
 .
 log
 (
@@ -3362,7 +3363,7 @@ attempt
 retry
 :
                         
-command_context
+self
 .
 log
 (
@@ -3427,7 +3428,7 @@ attempt
 retry
 :
                         
-command_context
+self
 .
 log
 (
@@ -3475,7 +3476,7 @@ not
 valid
 :
                 
-command_context
+self
 .
 log
 (
@@ -3730,6 +3731,7 @@ url
 ]
 =
 {
+                    
 "
 sha256
 "
@@ -3739,6 +3741,7 @@ h
 hexdigest
 (
 )
+                
 }
             
 if
@@ -3767,7 +3770,7 @@ not
 downloaded
 :
             
-command_context
+self
 .
 log
 (
@@ -3906,7 +3909,7 @@ subtests
             
 }
             
-command_context
+self
 .
 log
 (

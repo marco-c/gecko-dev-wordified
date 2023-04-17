@@ -191,7 +191,6 @@ def
 run_awsy
 (
 self
-command_context
 tests
 binary
 =
@@ -234,7 +233,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -471,7 +470,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -766,7 +765,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -810,7 +809,6 @@ dir
 %
 s
 "
-                
 %
 os
 .
@@ -818,7 +816,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -832,7 +830,7 @@ cache
         
 }
         
-command_context
+self
 .
 run_process
 (
@@ -924,7 +922,7 @@ page_load_test_dir
 try
 :
                 
-command_context
+self
 .
 run_process
 (
@@ -984,7 +982,7 @@ root
                     
 )
                 
-command_context
+self
 .
 log
 (
@@ -1186,7 +1184,7 @@ level
 0
 "
                 
-command_context
+self
 .
 log
 (
@@ -2491,7 +2489,7 @@ conditions
 .
 is_firefox
 (
-command_context
+self
 )
 :
             
@@ -2505,7 +2503,7 @@ binary
 "
 ]
 =
-command_context
+self
 .
 get_binary_path
 (
@@ -2520,11 +2518,10 @@ as
 e
 :
                 
-command_context
+self
 .
 log
 (
-                    
 logging
 .
 ERROR
@@ -2548,10 +2545,9 @@ ERROR
 error
 }
 "
-                
 )
                 
-command_context
+self
 .
 log
 (
@@ -2587,7 +2583,6 @@ self
 .
 run_awsy
 (
-command_context
 tests
 *
 *

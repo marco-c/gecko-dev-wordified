@@ -371,7 +371,6 @@ def
 init
 (
 self
-command_context
 )
 :
         
@@ -384,7 +383,7 @@ push
 .
 MAX_HISTORY
 =
-command_context
+self
 .
 _mach_context
 .
@@ -406,7 +405,6 @@ def
 presets
 (
 self
-command_context
 )
 :
         
@@ -540,8 +538,7 @@ path
 .
 join
 (
-                    
-command_context
+self
 .
 topsrcdir
 "
@@ -555,7 +552,6 @@ try_presets
 .
 yml
 "
-                
 )
             
 ]
@@ -570,9 +566,7 @@ preset_paths
 def
 handle_presets
 (
-        
 self
-command_context
 preset_action
 =
 None
@@ -585,7 +579,6 @@ None
 *
 *
 kwargs
-    
 )
 :
         
@@ -648,7 +641,6 @@ self
 .
 presets
 (
-command_context
 )
 .
 handlers
@@ -669,7 +661,6 @@ self
 .
 presets
 (
-command_context
 )
 .
 list
@@ -705,7 +696,7 @@ exit
         
 parser
 =
-command_context
+self
 .
 _mach_context
 .
@@ -715,7 +706,7 @@ parser
         
 subcommand
 =
-command_context
+self
 .
 _mach_context
 .
@@ -749,11 +740,9 @@ save
             
 selector
 =
-(
-                
 subcommand
 or
-command_context
+self
 .
 _mach_context
 .
@@ -768,8 +757,6 @@ try
 default
 "
 ]
-            
-)
             
 #
 Only
@@ -860,11 +847,10 @@ self
 .
 presets
 (
-command_context
 )
 :
                 
-command_context
+self
 .
 _mach_context
 .
@@ -901,7 +887,6 @@ self
 .
 presets
 (
-command_context
 )
 [
 name
@@ -1096,7 +1081,6 @@ def
 handle_try_config
 (
 self
-command_context
 *
 *
 kwargs
@@ -1131,7 +1115,7 @@ try_config
 for
 cls
 in
-command_context
+self
 .
 _mach_context
 .
@@ -1247,7 +1231,6 @@ def
 run
 (
 self
-command_context
 *
 *
 kwargs
@@ -1260,14 +1243,13 @@ self
 .
 handle_presets
 (
-command_context
 *
 *
 kwargs
 )
         
 if
-command_context
+self
 .
 _mach_context
 .
@@ -1284,7 +1266,6 @@ self
 .
 handle_try_config
 (
-command_context
 *
 *
 kwargs
@@ -1308,15 +1289,13 @@ selectors
 .
 format
 (
-                
-command_context
+self
 .
 _mach_context
 .
 handler
 .
 subcommand
-            
 )
         
 )
@@ -1474,12 +1453,11 @@ self
 .
 init
 (
-command_context
 )
         
 subcommand
 =
-command_context
+self
 .
 _mach_context
 .
@@ -1541,11 +1519,10 @@ self
 .
 presets
 (
-command_context
 )
 :
                 
-command_context
+self
 .
 _mach_context
 .
@@ -1580,7 +1557,6 @@ self
 .
 presets
 (
-command_context
 )
 [
 preset
@@ -1595,7 +1571,7 @@ sub
 =
 subcommand
 or
-command_context
+self
 .
 _mach_context
 .
@@ -1612,7 +1588,7 @@ default
 ]
         
 return
-command_context
+self
 .
 _mach_context
 .
@@ -1624,7 +1600,7 @@ dispatch
 "
 try
 "
-command_context
+self
 .
 _mach_context
 subcommand
@@ -2353,7 +2329,6 @@ self
 .
 init
 (
-command_context
 )
         
 if
@@ -2497,7 +2472,6 @@ self
 .
 run
 (
-command_context
 save_query
 =
 True
@@ -2548,7 +2522,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs
@@ -2674,10 +2647,9 @@ self
 .
 init
 (
-command_context
 )
         
-command_context
+self
 .
 activate_virtualenv
 (
@@ -2712,7 +2684,7 @@ txt
         
 )
         
-command_context
+self
 .
 virtualenv_manager
 .
@@ -2729,7 +2701,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs
@@ -2809,7 +2780,6 @@ self
 .
 init
 (
-command_context
 )
         
 return
@@ -2817,7 +2787,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs
@@ -2879,7 +2848,6 @@ self
 .
 init
 (
-command_context
 )
         
 return
@@ -2887,7 +2855,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs
@@ -3017,7 +2984,6 @@ self
 .
 init
 (
-command_context
 )
         
 return
@@ -3025,7 +2991,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs
@@ -3398,14 +3363,13 @@ self
 .
 init
 (
-command_context
 )
         
 try
 :
             
 if
-command_context
+self
 .
 substs
 .
@@ -3477,7 +3441,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -3525,7 +3489,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs
@@ -3596,7 +3559,6 @@ self
 .
 init
 (
-command_context
 )
         
 return
@@ -3604,7 +3566,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs
@@ -3683,7 +3644,6 @@ self
 .
 init
 (
-command_context
 )
         
 return
@@ -3691,7 +3651,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs
@@ -3770,7 +3729,6 @@ self
 .
 init
 (
-command_context
 )
         
 return
@@ -3778,7 +3736,6 @@ self
 .
 run
 (
-command_context
 *
 *
 kwargs

@@ -462,13 +462,13 @@ python
 "
 ]
         
-command_context
+self
 .
 populate_logger
 (
 )
         
-command_context
+self
 .
 log_manager
 .
@@ -549,7 +549,6 @@ self
 .
 check_modified_files
 (
-command_context
 )
         
 if
@@ -574,7 +573,7 @@ VendorManifest
         
 vendor_command
 =
-command_context
+self
 .
 _spawn
 (
@@ -602,7 +601,6 @@ def
 check_modified_files
 (
 self
-command_context
 )
 :
         
@@ -647,7 +645,7 @@ user
         
 modified
 =
-command_context
+self
 .
 repository
 .
@@ -662,7 +660,7 @@ if
 modified
 :
             
-command_context
+self
 .
 log
 (
@@ -986,7 +984,7 @@ VendorRust
         
 vendor_command
 =
-command_context
+self
 .
 _spawn
 (
@@ -1303,7 +1301,7 @@ return
         
 vendor_command
 =
-command_context
+self
 .
 _spawn
 (

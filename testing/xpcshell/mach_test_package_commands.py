@@ -394,7 +394,7 @@ kwargs
 )
 :
         
-command_context
+self
 .
 _mach_context
 .
@@ -405,7 +405,7 @@ activate_mozharness_venv
 return
 run_xpcshell
 (
-command_context
+self
 .
 _mach_context
 *

@@ -590,7 +590,7 @@ building
 import
 BuildDriver
         
-command_context
+self
 .
 log_manager
 .
@@ -602,7 +602,7 @@ loader
 =
 MozconfigLoader
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -676,7 +676,7 @@ what
             
 instr
 =
-command_context
+self
 .
 _spawn
 (
@@ -724,7 +724,7 @@ instr
 build
 (
                 
-command_context
+self
 .
 metrics
                 
@@ -750,7 +750,7 @@ keep_going
                 
 mach_context
 =
-command_context
+self
 .
 _mach_context
                 
@@ -925,7 +925,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -978,7 +978,7 @@ MOZ_PROFILE_USE
         
 driver
 =
-command_context
+self
 .
 _spawn
 (
@@ -991,7 +991,7 @@ driver
 build
 (
             
-command_context
+self
 .
 metrics
             
@@ -1017,7 +1017,7 @@ keep_going
             
 mach_context
 =
-command_context
+self
 .
 _mach_context
             
@@ -1118,7 +1118,7 @@ building
 import
 BuildDriver
         
-command_context
+self
 .
 log_manager
 .
@@ -1128,7 +1128,7 @@ enable_all_structured_loggers
         
 driver
 =
-command_context
+self
 .
 _spawn
 (
@@ -1141,7 +1141,7 @@ driver
 configure
 (
             
-command_context
+self
 .
 metrics
             
@@ -1367,7 +1367,7 @@ else
             
 last
 =
-command_context
+self
 .
 _get_state_filename
 (
@@ -1744,7 +1744,7 @@ False
         
 python
 =
-command_context
+self
 .
 virtualenv_manager
 .
@@ -1758,7 +1758,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topobjdir
 "
@@ -1899,7 +1899,7 @@ run
 )
         
 return
-command_context
+self
 .
 _run_command_in_objdir
 (

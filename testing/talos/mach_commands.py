@@ -931,7 +931,7 @@ kwargs
         
 talos
 =
-command_context
+self
 .
 _spawn
 (

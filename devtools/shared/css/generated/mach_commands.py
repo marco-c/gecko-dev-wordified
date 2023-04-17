@@ -330,7 +330,6 @@ self
 .
 get_properties_db_from_xpcshell
 (
-command_context
 )
         
 if
@@ -345,8 +344,6 @@ self
 .
 output_template
 (
-            
-command_context
             
 {
                 
@@ -400,7 +397,6 @@ def
 get_properties_db_from_xpcshell
 (
 self
-command_context
 )
 :
         
@@ -442,10 +438,9 @@ script_path
 resolve_path
 (
             
-command_context
+self
 .
 topsrcdir
-            
 "
 devtools
 /
@@ -470,7 +465,7 @@ gre_path
 =
 resolve_path
 (
-command_context
+self
 .
 topobjdir
 "
@@ -484,7 +479,7 @@ browser_path
 =
 resolve_path
 (
-command_context
+self
 .
 topobjdir
 "
@@ -518,7 +513,7 @@ as
 e
 :
             
-command_context
+self
 .
 log
 (
@@ -553,11 +548,10 @@ error
             
 )
             
-command_context
+self
 .
 log
 (
-                
 logging
 .
 INFO
@@ -584,7 +578,6 @@ help
 help
 }
 "
-            
 )
             
 return
@@ -739,7 +732,6 @@ def
 output_template
 (
 self
-command_context
 substitutions
 )
 :
@@ -768,10 +760,9 @@ js_template_path
 resolve_path
 (
             
-command_context
+self
 .
 topsrcdir
-            
 "
 devtools
 /
@@ -797,7 +788,7 @@ destination_path
 resolve_path
 (
             
-command_context
+self
 .
 topsrcdir
 "

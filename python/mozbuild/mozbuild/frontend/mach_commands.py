@@ -297,13 +297,13 @@ is
 installed
 .
         
-command_context
+self
 .
 activate_virtualenv
 (
 )
         
-command_context
+self
 .
 virtualenv_manager
 .
@@ -833,7 +833,6 @@ self
 .
 _get_files_info
 (
-command_context
 paths
 rev
 =
@@ -1202,7 +1201,6 @@ self
 .
 _get_files_info
 (
-command_context
 paths
 rev
 =
@@ -1487,7 +1485,6 @@ self
 .
 _get_files_info
 (
-command_context
 [
 "
 *
@@ -2073,7 +2070,6 @@ def
 _get_files_info
 (
 self
-command_context
 paths
 rev
 =
@@ -2083,7 +2079,7 @@ None
         
 reader
 =
-command_context
+self
 .
 mozbuild_reader
 (
@@ -2133,7 +2129,7 @@ basedir
 (
 a
 [
-command_context
+self
 .
 topsrcdir
 ]
@@ -2165,7 +2161,7 @@ mozpath
 relpath
 (
 a
-command_context
+self
 .
 topsrcdir
 )
@@ -2248,7 +2244,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 p
@@ -2342,7 +2338,7 @@ mozpath
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 p
@@ -2372,7 +2368,7 @@ path
 [
 len
 (
-command_context
+self
 .
 topsrcdir
 )

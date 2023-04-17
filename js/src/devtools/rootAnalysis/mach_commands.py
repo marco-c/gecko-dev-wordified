@@ -581,7 +581,6 @@ def
 script_dir
 (
 self
-command_context
 )
 :
         
@@ -592,7 +591,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -610,7 +609,6 @@ def
 work_dir
 (
 self
-command_context
 application
 given
 )
@@ -633,7 +631,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -989,7 +987,7 @@ gcc
 "
 )
             
-command_context
+self
 .
 _mach_context
 .
@@ -1001,17 +999,14 @@ dispatch
 "
 artifact
 "
-                
-command_context
+self
 .
 _mach_context
-                
 subcommand
 =
 "
 toolchain
 "
-                
 *
 *
 kwargs
@@ -1238,7 +1233,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 mozconfig_path
@@ -1248,7 +1243,7 @@ loader
 =
 MozconfigLoader
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -1376,7 +1371,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -1391,7 +1386,7 @@ shell
 )
         
 return
-command_context
+self
 .
 _mach_context
 .
@@ -1403,7 +1398,7 @@ dispatch
 "
 build
 "
-command_context
+self
 .
 _mach_context
 *
@@ -1441,7 +1436,6 @@ def
 ensure_shell
 (
 self
-command_context
 objdir
 )
 :
@@ -1460,7 +1454,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 "
@@ -1777,8 +1771,7 @@ path
 .
 join
 (
-                
-command_context
+self
 .
 topsrcdir
 "
@@ -1789,7 +1782,6 @@ analyzed
 "
 +
 application
-            
 )
         
 work_dir
@@ -1798,7 +1790,6 @@ self
 .
 work_dir
 (
-command_context
 application
 kwargs
 [
@@ -1926,7 +1917,6 @@ self
 .
 script_dir
 (
-command_context
 )
                 
 objdir
@@ -1935,7 +1925,7 @@ objdir
                 
 srcdir
 =
-command_context
+self
 .
 topsrcdir
                 
@@ -1974,7 +1964,7 @@ join
             
 [
                 
-command_context
+self
 .
 topsrcdir
 +
@@ -2027,7 +2017,6 @@ self
 .
 script_dir
 (
-command_context
 )
 "
 analyze
@@ -2067,7 +2056,7 @@ buildscript
 ]
         
 return
-command_context
+self
 .
 run_process
 (
@@ -2369,7 +2358,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 mozconfig_path
@@ -2413,7 +2402,7 @@ loader
 =
 MozconfigLoader
 (
-command_context
+self
 .
 topsrcdir
 )
@@ -2523,7 +2512,7 @@ path
 .
 join
 (
-command_context
+self
 .
 topsrcdir
 mozconfig_path
@@ -2610,7 +2599,7 @@ haz_objdir
 )
         
 return
-command_context
+self
 .
 _mach_context
 .
@@ -2622,7 +2611,7 @@ dispatch
 "
 build
 "
-command_context
+self
 .
 _mach_context
 *
@@ -2773,7 +2762,6 @@ self
 .
 ensure_shell
 (
-command_context
 shell_objdir
 )
         
@@ -2791,7 +2779,6 @@ self
 .
 script_dir
 (
-command_context
 )
 "
 analyze
@@ -2857,13 +2844,12 @@ self
 .
 work_dir
 (
-command_context
 application
 work_dir
 )
         
 return
-command_context
+self
 .
 run_process
 (
@@ -2969,7 +2955,6 @@ self
 .
 ensure_shell
 (
-command_context
 shell_objdir
 )
         
@@ -2987,7 +2972,6 @@ self
 .
 script_dir
 (
-command_context
 )
 "
 run
@@ -3080,7 +3064,7 @@ shell
 )
         
 return
-command_context
+self
 .
 run_process
 (
