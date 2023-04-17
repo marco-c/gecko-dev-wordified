@@ -264,14 +264,6 @@ Node
 aNode
 )
 ;
-nsIAccessible
-getAccessibleDescendantFor
-(
-in
-Node
-aNode
-)
-;
 /
 *
 *
