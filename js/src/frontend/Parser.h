@@ -4258,14 +4258,6 @@ TripledotAllowed
 TripledotProhibited
 }
 ;
-enum
-class
-FieldPlacement
-{
-Instance
-Static
-}
-;
 /
 /
 For
