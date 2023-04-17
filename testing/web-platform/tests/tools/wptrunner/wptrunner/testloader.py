@@ -25,10 +25,6 @@ import
 defaultdict
 deque
 from
-six
-import
-ensure_binary
-from
 .
 import
 manifestinclude
@@ -571,9 +567,10 @@ hashlib
 .
 md5
 (
-ensure_binary
-(
 test_path
+.
+encode
+(
 )
 )
 .
@@ -736,9 +733,10 @@ hashlib
 .
 md5
 (
-ensure_binary
-(
 hash_path
+.
+encode
+(
 )
 )
 .
