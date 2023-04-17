@@ -438,6 +438,17 @@ enable_marionette_trace
 "
 ]
         
+self
+.
+browsertime_visualmetrics
+=
+kwargs
+[
+"
+browsertime_visualmetrics
+"
+]
+        
 if
 Conditions
 .
@@ -1338,6 +1349,14 @@ enable_marionette_trace
 self
 .
 enable_marionette_trace
+            
+"
+browsertime_visualmetrics
+"
+:
+self
+.
+browsertime_visualmetrics
         
 }
         
