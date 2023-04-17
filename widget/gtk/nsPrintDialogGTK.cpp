@@ -223,6 +223,13 @@ h
 #
 include
 "
+WidgetUtilsGtk
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
