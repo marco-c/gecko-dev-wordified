@@ -9034,11 +9034,6 @@ sanitizeOnShutdown
 param
 )
 ;
-if
-(
-param
-)
-{
 setAndLockPref
 (
 "
@@ -9048,7 +9043,7 @@ clearOnShutdown
 .
 cache
 "
-true
+param
 )
 ;
 setAndLockPref
@@ -9060,7 +9055,7 @@ clearOnShutdown
 .
 cookies
 "
-true
+param
 )
 ;
 setAndLockPref
@@ -9072,7 +9067,7 @@ clearOnShutdown
 .
 downloads
 "
-true
+param
 )
 ;
 setAndLockPref
@@ -9084,7 +9079,7 @@ clearOnShutdown
 .
 formdata
 "
-true
+param
 )
 ;
 setAndLockPref
@@ -9096,7 +9091,7 @@ clearOnShutdown
 .
 history
 "
-true
+param
 )
 ;
 setAndLockPref
@@ -9108,7 +9103,7 @@ clearOnShutdown
 .
 sessions
 "
-true
+param
 )
 ;
 setAndLockPref
@@ -9120,7 +9115,7 @@ clearOnShutdown
 .
 siteSettings
 "
-true
+param
 )
 ;
 setAndLockPref
@@ -9132,10 +9127,9 @@ clearOnShutdown
 .
 offlineApps
 "
-true
+param
 )
 ;
-}
 }
 else
 {
