@@ -1113,6 +1113,11 @@ topLevelAwait
 =
 true
 ;
+bool
+classStaticBlocks
+=
+false
+;
 /
 /
 True

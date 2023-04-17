@@ -807,6 +807,10 @@ extern
 bool
 enableTopLevelAwait
 ;
+extern
+bool
+enableClassStaticBlocks
+;
 #
 ifdef
 JS_GC_ZEAL
