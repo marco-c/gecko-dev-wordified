@@ -3729,6 +3729,11 @@ mHasExceededAfterLoadTickPeriod
 :
 1
 ;
+bool
+mHasStartedTimerAtLeastOnce
+:
+1
+;
 /
 /
 Number
