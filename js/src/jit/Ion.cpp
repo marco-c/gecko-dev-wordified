@@ -617,7 +617,7 @@ include
 "
 vm
 /
-HelperThreads
+HelperThreadState
 .
 h
 "
@@ -12279,9 +12279,11 @@ canUseOffthreadIonCompilation
 )
 &
 &
-GetHelperThreadCPUCount
+HelperThreadState
 (
 )
+.
+cpuCount
 >
 1
 &
