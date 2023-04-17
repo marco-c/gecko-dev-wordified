@@ -155,6 +155,9 @@ tab
 socket
 "
 "
+rdd
+"
+"
 gpu
 "
 ]
