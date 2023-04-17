@@ -1236,6 +1236,16 @@ override
 {
 if
 (
+StyleDisplay
+(
+)
+-
+>
+IsContainLayout
+(
+)
+|
+|
 HasAnyStateBits
 (
 NS_STATE_FLEX_SYNTHESIZE_BASELINE
