@@ -972,6 +972,7 @@ def
 taskgraph
 (
 self
+command_context
 )
 :
         
@@ -1063,6 +1064,7 @@ def
 taskgraph_tasks
 (
 self
+command_context
 *
 *
 options
@@ -1144,6 +1146,7 @@ def
 taskgraph_target
 (
 self
+command_context
 *
 *
 options
@@ -1187,6 +1190,7 @@ def
 taskgraph_target_taskgraph
 (
 self
+command_context
 *
 *
 options
@@ -1228,6 +1232,7 @@ def
 taskgraph_optimized
 (
 self
+command_context
 *
 *
 options
@@ -1269,6 +1274,7 @@ def
 taskgraph_morphed
 (
 self
+command_context
 *
 *
 options
@@ -1450,6 +1456,7 @@ def
 taskgraph_actions
 (
 self
+command_context
 *
 *
 options
@@ -2250,6 +2257,7 @@ def
 taskgraph_decision
 (
 self
+command_context
 *
 *
 options
@@ -2532,6 +2540,7 @@ def
 taskgraph_cron
 (
 self
+command_context
 *
 *
 options
@@ -2660,6 +2669,7 @@ def
 action_callback
 (
 self
+command_context
 *
 *
 options
@@ -3082,6 +3092,7 @@ def
 test_action_callback
 (
 self
+command_context
 *
 *
 options
@@ -4897,6 +4908,7 @@ def
 load_image
 (
 self
+command_context
 image_name
 task_id
 tag
@@ -5129,6 +5141,7 @@ def
 build_image
 (
 self
+command_context
 image_name
 tag
 context_only
@@ -5299,6 +5312,7 @@ def
 generate_partials_builds
 (
 self
+command_context
 product
 branch
 )

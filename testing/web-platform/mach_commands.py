@@ -3139,6 +3139,7 @@ def
 run_web_platform_tests
 (
 self
+command_context
 *
 *
 params
@@ -3458,6 +3459,7 @@ def
 run_wpt
 (
 self
+command_context
 *
 *
 params
@@ -3516,6 +3518,7 @@ def
 update_web_platform_tests
 (
 self
+command_context
 *
 *
 params
@@ -3637,6 +3640,7 @@ def
 update_wpt
 (
 self
+command_context
 *
 *
 params
@@ -3693,6 +3697,7 @@ def
 wpt_manifest_update
 (
 self
+command_context
 *
 *
 params
@@ -3808,6 +3813,7 @@ def
 wpt_serve
 (
 self
+command_context
 *
 *
 params
@@ -3911,6 +3917,7 @@ def
 wpt_summary
 (
 self
+command_context
 *
 *
 params
@@ -3970,6 +3977,7 @@ def
 wpt_meta_merge
 (
 self
+command_context
 *
 *
 params
@@ -4052,6 +4060,7 @@ def
 wpt_unittest
 (
 self
+command_context
 *
 *
 params
@@ -4138,6 +4147,7 @@ def
 wpt_test_paths
 (
 self
+command_context
 *
 *
 params
@@ -4205,6 +4215,7 @@ def
 wpt_fission_regressions
 (
 self
+command_context
 *
 *
 params

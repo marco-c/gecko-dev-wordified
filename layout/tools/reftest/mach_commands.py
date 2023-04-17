@@ -1765,6 +1765,7 @@ def
 run_reftest
 (
 self
+command_context
 *
 *
 kwargs
@@ -1830,6 +1831,7 @@ def
 run_jstestbrowser
 (
 self
+command_context
 *
 *
 kwargs
@@ -1968,6 +1970,7 @@ def
 run_crashtest
 (
 self
+command_context
 *
 *
 kwargs

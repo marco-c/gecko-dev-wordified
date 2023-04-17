@@ -1062,6 +1062,8 @@ addtest
         
 self
         
+command_context
+        
 suite
 =
 None
@@ -2321,6 +2323,7 @@ def
 test
 (
 self
+command_context
 what
 extra_args
 *
@@ -3288,6 +3291,7 @@ def
 run_cppunit_test
 (
 self
+command_context
 *
 *
 params
@@ -3999,6 +4003,7 @@ def
 run_jstests
 (
 self
+command_context
 shell
 params
 )
@@ -4215,6 +4220,7 @@ def
 run_jittests
 (
 self
+command_context
 shell
 cgc
 params
@@ -4414,6 +4420,7 @@ def
 run_jsapitests
 (
 self
+command_context
 test_name
 =
 None
@@ -4612,6 +4619,7 @@ def
 run_jsshelltests
 (
 self
+command_context
 *
 *
 kwargs
@@ -4786,7 +4794,9 @@ options
 def
 cramtest
 (
+        
 self
+command_context
 cram_args
 =
 None
@@ -4796,6 +4806,7 @@ None
 test_objects
 =
 None
+    
 )
 :
         
@@ -5055,6 +5066,7 @@ def
 test_info
 (
 self
+command_context
 )
 :
         
@@ -5315,6 +5327,8 @@ test_info_tests
 (
         
 self
+        
+command_context
         
 test_names
         
@@ -5843,6 +5857,8 @@ test_report
         
 self
         
+command_context
+        
 components
         
 flavor
@@ -5926,6 +5942,7 @@ builder
 .
 configure
 (
+command_context
 )
         
 ti
@@ -6133,6 +6150,7 @@ def
 test_report_diff
 (
 self
+command_context
 before
 after
 output_file
@@ -6210,6 +6228,7 @@ def
 run_rusttests
 (
 self
+command_context
 *
 *
 kwargs
@@ -6318,6 +6337,7 @@ def
 run_migration_tests
 (
 self
+command_context
 test_paths
 =
 None

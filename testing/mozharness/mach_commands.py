@@ -1597,6 +1597,7 @@ def
 mozharness
 (
 self
+command_context
 *
 *
 kwargs

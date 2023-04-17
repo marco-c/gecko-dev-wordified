@@ -301,6 +301,7 @@ def
 run_perftest
 (
 self
+command_context
 *
 *
 kwargs
@@ -1314,6 +1315,7 @@ def
 run_tests
 (
 self
+command_context
 *
 *
 kwargs

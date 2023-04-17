@@ -367,6 +367,8 @@ vendor
         
 self
         
+command_context
+        
 library
         
 revision
@@ -970,6 +972,7 @@ def
 vendor_rust
 (
 self
+command_context
 *
 *
 kwargs
@@ -1238,6 +1241,7 @@ def
 vendor_python
 (
 self
+command_context
 *
 *
 kwargs

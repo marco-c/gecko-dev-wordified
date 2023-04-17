@@ -172,6 +172,7 @@ def
 run
 (
 self
+command_context
 ide
 args
 )
@@ -392,6 +393,7 @@ builder
 .
 configure
 (
+command_context
 )
             
 if
@@ -2267,6 +2269,7 @@ _artifact_manager
 artifact_toolchain
 (
             
+self
 verbose
 =
 False

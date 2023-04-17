@@ -1366,6 +1366,7 @@ def
 foo
 (
 self
+command_context
 )
 :
             
@@ -1782,6 +1783,7 @@ def
 foo
 (
 self
+command_context
 )
 :
             
@@ -2044,6 +2046,7 @@ def
 foo
 (
 self
+command_context
 )
 :
             
