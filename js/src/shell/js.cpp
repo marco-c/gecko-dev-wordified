@@ -1098,7 +1098,7 @@ h
 js
 :
 :
-CheckRecursionLimitConservative
+AutoCheckRecursionLimit
 #
 include
 "
@@ -54745,7 +54745,7 @@ the
 recursion
 depth
 using
-CheckRecursionLimitConservative
+checkConservative
 .
 /
 /
@@ -54867,10 +54867,18 @@ supported
 by
 JS_TransplantObject
 .
+AutoCheckRecursionLimit
+recursion
+(
+cx
+)
+;
 if
 (
 !
-CheckRecursionLimitConservative
+recursion
+.
+checkConservative
 (
 cx
 )
