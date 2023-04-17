@@ -657,18 +657,6 @@ Embedding
 "
 53
 )
-                    
-addPhaseKind
-(
-"
-MARK_COMPARTMENTS
-"
-"
-Mark
-Compartments
-"
-54
-)
                 
 ]
             
@@ -1374,6 +1362,19 @@ getPhaseKind
 "
 JOIN_PARALLEL_TASKS
 "
+)
+            
+addPhaseKind
+(
+"
+FIND_DEAD_COMPARTMENTS
+"
+"
+Find
+Dead
+Compartments
+"
+54
 )
         
 ]

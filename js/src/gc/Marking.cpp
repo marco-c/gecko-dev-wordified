@@ -7102,7 +7102,7 @@ compartment
 as
 live
 .
-SetMaybeAliveFlag
+SetCompartmentHasMarkedCells
 (
 thing
 )

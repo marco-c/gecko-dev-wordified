@@ -1942,6 +1942,11 @@ scheduledForDestruction
 false
 ;
 bool
+hasMarkedCells
+=
+false
+;
+bool
 maybeAlive
 =
 true
@@ -3076,7 +3081,7 @@ We
 only
 set
 the
-maybeAlive
+hasMarkedCells
 flag
 for
 objects
@@ -3087,9 +3092,9 @@ It
 '
 s
 assumed
+/
+/
 that
-/
-/
 if
 a
 compartment
@@ -3104,9 +3109,9 @@ least
 some
 live
 object
+/
+/
 or
-/
-/
 script
 it
 in
@@ -3123,9 +3128,9 @@ that
 will
 happen
 is
+/
+/
 that
-/
-/
 scheduledForDestruction
 will
 be
@@ -3156,7 +3161,7 @@ T
 >
 inline
 void
-SetMaybeAliveFlag
+SetCompartmentHasMarkedCells
 (
 T
 *
@@ -3169,7 +3174,7 @@ template
 >
 inline
 void
-SetMaybeAliveFlag
+SetCompartmentHasMarkedCells
 (
 JSObject
 *
@@ -3186,7 +3191,7 @@ compartment
 >
 gcState
 .
-maybeAlive
+hasMarkedCells
 =
 true
 ;
@@ -3196,7 +3201,7 @@ template
 >
 inline
 void
-SetMaybeAliveFlag
+SetCompartmentHasMarkedCells
 (
 JSScript
 *
@@ -3213,7 +3218,7 @@ compartment
 >
 gcState
 .
-maybeAlive
+hasMarkedCells
 =
 true
 ;
