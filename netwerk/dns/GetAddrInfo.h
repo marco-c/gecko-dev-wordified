@@ -179,17 +179,6 @@ prio
 h
 "
 #
-include
-"
-mozilla
-/
-net
-/
-DNS
-.
-h
-"
-#
 if
 defined
 (
@@ -516,7 +505,7 @@ nsTHashMap
 nsCStringHashKey
 nsTArray
 <
-NetAddr
+PRNetAddr
 >
 >
 mOverrides
