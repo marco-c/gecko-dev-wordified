@@ -21095,7 +21095,7 @@ RefPtr
 MediaManager
 :
 :
-DevicesPromise
+DeviceSetPromise
 >
 MediaManager
 :
@@ -21122,7 +21122,7 @@ sHasShutdown
 )
 {
 return
-DevicesPromise
+DeviceSetPromise
 :
 :
 CreateAndReject
@@ -21359,7 +21359,7 @@ Other
 )
 {
 return
-DevicesPromise
+DeviceSetPromise
 :
 :
 CreateAndResolve
@@ -21613,7 +21613,7 @@ bool
 )
 {
 return
-DevicesPromise
+DeviceSetPromise
 :
 :
 CreateAndResolve
@@ -21636,7 +21636,7 @@ aError
 )
 {
 return
-DevicesPromise
+DeviceSetPromise
 :
 :
 CreateAndReject
