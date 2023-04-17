@@ -340,6 +340,8 @@ f
 derive
 (
 Default
+Eq
+Hash
 PartialEq
 Clone
 )
