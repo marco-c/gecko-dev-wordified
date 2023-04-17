@@ -1073,14 +1073,14 @@ aError
 }
 /
 /
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetForm
 is
 fine
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetForm
@@ -1871,7 +1871,7 @@ the
 compiler
 warning
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsSingleLineTextControl

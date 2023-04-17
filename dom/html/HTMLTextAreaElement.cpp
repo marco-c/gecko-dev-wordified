@@ -991,7 +991,7 @@ aTabIndex
 {
 if
 (
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsHTMLFocusable
@@ -2282,7 +2282,7 @@ Pre
 ;
 }
 }
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapDivAlignAttributeInto
@@ -2291,7 +2291,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapCommonAttributesInto
@@ -2319,7 +2319,7 @@ const
 nsChangeHint
 retval
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetAttributeChangeHint
@@ -2643,7 +2643,7 @@ mWantsPreHandleEvent
 true
 ;
 }
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetEventTargetParent
@@ -2698,7 +2698,7 @@ FireChangeEventIfNeeded
 ;
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 PreHandleEvent
@@ -4064,7 +4064,7 @@ const
 EventStates
 state
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IntrinsicState
@@ -4329,7 +4329,7 @@ aParent
 nsresult
 rv
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BindToTree
@@ -4414,7 +4414,7 @@ bool
 aNullParent
 )
 {
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 UnbindFromTree
@@ -4507,7 +4507,7 @@ true
 ;
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BeforeSetAttr
@@ -4959,7 +4959,7 @@ aValue
 }
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 AfterSetAttr
@@ -4987,7 +4987,7 @@ aDest
 nsresult
 rv
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 CopyInnerTo
@@ -6022,7 +6022,7 @@ our
 disabled
 state
 .
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 FieldSetDisabledChanged

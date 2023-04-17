@@ -540,7 +540,7 @@ HTMLSelectElement
 final
 :
 public
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 public
 nsIConstraintValidation
 {
@@ -1982,7 +1982,7 @@ override
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLSelectElement
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 )
 HTMLOptionsCollection
 *

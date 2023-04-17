@@ -755,13 +755,13 @@ InputType
 public
 :
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetForm
 ;
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetFormAction
@@ -5371,7 +5371,7 @@ TextControlElement
 version
 .
 using
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsSingleLineTextControl

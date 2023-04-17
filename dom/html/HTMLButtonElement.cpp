@@ -461,7 +461,7 @@ FromParser
 aFromParser
 )
 :
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 (
 std
 :
@@ -525,13 +525,13 @@ nsISupports
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 HTMLButtonElement
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 mValidity
 )
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLButtonElement
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 nsIConstraintValidation
 )
 void
@@ -630,7 +630,7 @@ our
 disabled
 state
 .
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 FieldSetDisabledChanged
@@ -761,7 +761,7 @@ aTabIndex
 {
 if
 (
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsHTMLFocusable
@@ -1822,7 +1822,7 @@ aParent
 nsresult
 rv
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BindToTree
@@ -1870,7 +1870,7 @@ bool
 aNullParent
 )
 {
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 UnbindFromTree
@@ -2122,7 +2122,7 @@ true
 ;
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BeforeSetAttr
@@ -2280,7 +2280,7 @@ UpdateBarredFromConstraintValidation
 }
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 AfterSetAttr
@@ -2428,7 +2428,7 @@ const
 EventStates
 state
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IntrinsicState

@@ -17283,10 +17283,10 @@ default
 -
 -
 -
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 (
 already_AddRefed
 <
@@ -17350,7 +17350,7 @@ true
 ;
 }
 void
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GenerateStateKey
@@ -17488,7 +17488,7 @@ C
 }
 PresState
 *
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetPrimaryPresState
@@ -17607,7 +17607,7 @@ already_AddRefed
 <
 nsILayoutHistoryState
 >
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetLayoutHistory
@@ -17695,7 +17695,7 @@ forget
 ;
 }
 bool
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 RestoreFormControlState
@@ -17805,7 +17805,7 @@ false
 ;
 }
 void
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 NodeInfoChanged
@@ -17899,7 +17899,7 @@ true
 ;
 }
 void
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetFormAction

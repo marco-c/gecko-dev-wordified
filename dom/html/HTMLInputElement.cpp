@@ -7088,7 +7088,7 @@ true
 }
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BeforeSetAttr
@@ -8498,7 +8498,7 @@ RunDOMEventWhenSafe
 }
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 AfterSetAttr
@@ -16535,7 +16535,7 @@ input
 elements
 .
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 SetAttr
@@ -17855,7 +17855,7 @@ FormControlType
 InputHidden
 |
 |
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsInteractiveHTMLContent
@@ -19341,13 +19341,13 @@ eBlur
 /
 Just
 as
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetEventTargetParent
+/
+/
 calls
-/
-/
 nsIFormControlFrame
 :
 :
@@ -19660,7 +19660,7 @@ StopNumberControlSpinnerSpin
 }
 }
 }
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetEventTargetParent
@@ -19912,7 +19912,7 @@ FireChangeEventIfNeeded
 ;
 }
 return
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 PreHandleEvent
@@ -26028,7 +26028,7 @@ aParent
 nsresult
 rv
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 BindToTree
@@ -26498,7 +26498,7 @@ from
 it
 /
 /
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 UnbindFromTree
@@ -26507,10 +26507,10 @@ UnbindFromTree
 will
 unset
 the
+/
+/
 form
 and
-/
-/
 that
 takes
 care
@@ -26594,7 +26594,7 @@ UnbindFromTree
 aNullParent
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 UnbindFromTree
@@ -32505,7 +32505,7 @@ MappedDeclarations
 aDecls
 )
 {
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageBorderAttributeInto
@@ -32514,7 +32514,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageMarginAttributeInto
@@ -32523,7 +32523,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageSizeAttributesInto
@@ -32545,7 +32545,7 @@ as
 "
 float
 "
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapImageAlignAttributeInto
@@ -32554,7 +32554,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 MapCommonAttributesInto
@@ -32582,7 +32582,7 @@ const
 nsChangeHint
 retval
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 GetAttributeChangeHint
@@ -36563,7 +36563,7 @@ AfterSetAttr
 EventStates
 state
 =
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IntrinsicState
@@ -38126,7 +38126,7 @@ aTabIndex
 {
 if
 (
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 IsHTMLFocusable
@@ -41020,7 +41020,7 @@ our
 disabled
 state
 .
-nsGenericHTMLFormElementWithState
+nsGenericHTMLFormControlElementWithState
 :
 :
 FieldSetDisabledChanged
