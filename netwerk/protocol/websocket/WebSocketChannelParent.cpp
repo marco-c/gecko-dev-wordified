@@ -526,6 +526,10 @@ nsCString
 &
 aOrigin
 const
+OriginAttributes
+&
+aOriginAttributes
+const
 uint64_t
 &
 aInnerWindowID
@@ -983,10 +987,11 @@ rv
 mChannel
 -
 >
-AsyncOpen
+AsyncOpenNative
 (
 uri
 aOrigin
+aOriginAttributes
 aInnerWindowID
 this
 nullptr

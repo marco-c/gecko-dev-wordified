@@ -546,6 +546,8 @@ asyncOpen
 (
 uri
 wssUri
+{
+}
 0
 wsListener
 null

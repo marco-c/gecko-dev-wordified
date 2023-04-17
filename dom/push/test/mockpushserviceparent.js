@@ -204,6 +204,7 @@ asyncOpen
 (
 uri
 origin
+originAttributes
 windowId
 listener
 context

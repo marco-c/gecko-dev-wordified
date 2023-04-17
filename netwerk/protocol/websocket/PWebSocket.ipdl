@@ -178,8 +178,10 @@ SerializedLoadContext
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 nsIURI
 from
@@ -224,6 +226,8 @@ nsIURI
 aURI
 nsCString
 aOrigin
+OriginAttributes
+aOriginAttributes
 uint64_t
 aInnerWindowID
 nsCString
