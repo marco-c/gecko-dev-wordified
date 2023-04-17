@@ -120,6 +120,11 @@ TestLocaleCanonicalizer
 cpp
 "
 "
+TestMeasureUnit
+.
+cpp
+"
+"
 TestNumberFormat
 .
 cpp
