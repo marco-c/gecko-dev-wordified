@@ -1792,7 +1792,9 @@ UrlbarPrefs
 get
 (
 "
-quickSuggestScenario
+quicksuggest
+.
+scenario
 "
 )
 ;
@@ -1996,6 +1998,14 @@ suggest
 quicksuggest
 "
 :
+if
+(
+!
+UrlbarPrefs
+.
+updatingFirefoxSuggestScenario
+)
+{
 Services
 .
 telemetry
@@ -2022,6 +2032,7 @@ disabled
 "
 )
 ;
+}
 break
 ;
 case
@@ -2033,6 +2044,14 @@ quicksuggest
 sponsored
 "
 :
+if
+(
+!
+UrlbarPrefs
+.
+updatingFirefoxSuggestScenario
+)
+{
 Services
 .
 telemetry
@@ -2059,6 +2078,7 @@ disabled
 "
 )
 ;
+}
 break
 ;
 }

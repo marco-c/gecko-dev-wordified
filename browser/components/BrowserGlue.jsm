@@ -10314,7 +10314,7 @@ init
 ;
 UrlbarPrefs
 .
-maybeEnableOfflineQuickSuggest
+updateFirefoxSuggestScenario
 (
 )
 ;
