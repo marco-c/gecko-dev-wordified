@@ -1940,8 +1940,11 @@ mIsValid
 return
 NS_OK
 ;
-AdjustSoftBeginAndBuildSoftText
+mSoftText
+.
+AdjustBeginAndBuildText
 (
+mRootNode
 )
 ;
 mRealWords
@@ -5485,8 +5488,15 @@ void
 mozInlineSpellWordUtil
 :
 :
-AdjustSoftBeginAndBuildSoftText
+SoftText
+:
+:
+AdjustBeginAndBuildText
 (
+const
+nsINode
+*
+aRootNode
 )
 {
 MOZ_LOG
@@ -5514,8 +5524,6 @@ to
 work
 backwards
 from
-mSoftText
-.
 mBegin
 to
 find
@@ -5564,8 +5572,6 @@ nsINode
 *
 node
 =
-mSoftText
-.
 mBegin
 .
 mNode
@@ -5578,8 +5584,6 @@ firstOffsetInNode
 int32_t
 checkBeforeOffset
 =
-mSoftText
-.
 mBegin
 .
 mOffset
@@ -5605,8 +5609,6 @@ if
 node
 =
 =
-mSoftText
-.
 mBegin
 .
 mNode
@@ -5827,8 +5829,6 @@ prevNode
 )
 )
 {
-mSoftText
-.
 mBegin
 .
 mNode
@@ -5884,8 +5884,6 @@ firstOffsetInNode
 0
 ;
 }
-mSoftText
-.
 mBegin
 .
 mOffset
@@ -5970,7 +5968,7 @@ break
 GetPreviousContent
 below
 expects
-mRootNode
+aRootNode
 to
 be
 an
@@ -5986,7 +5984,7 @@ node
 >
 IsInclusiveDescendantOf
 (
-mRootNode
+aRootNode
 )
 )
 {
@@ -6000,7 +5998,7 @@ node
 >
 GetPreviousContent
 (
-mRootNode
+aRootNode
 )
 ;
 }
@@ -6048,16 +6046,12 @@ hard
 end
 node
 .
-mSoftText
-.
 mValue
 .
 Truncate
 (
 )
 ;
-mSoftText
-.
 mDOMMapping
 .
 Clear
@@ -6098,8 +6092,6 @@ if
 node
 =
 =
-mSoftText
-.
 mEnd
 .
 mNode
@@ -6204,14 +6196,10 @@ i
 node
 =
 =
-mSoftText
-.
 mEnd
 .
 mNode
 ?
-mSoftText
-.
 mEnd
 .
 mOffset
@@ -6288,8 +6276,6 @@ lastOffsetInNode
 -
 firstOffsetInNode
 ;
-mSoftText
-.
 mDOMMapping
 .
 AppendElement
@@ -6301,8 +6287,6 @@ NodeOffset
 node
 firstOffsetInNode
 )
-mSoftText
-.
 mValue
 .
 Length
@@ -6320,8 +6304,6 @@ textFragment
 >
 AppendTo
 (
-mSoftText
-.
 mValue
 firstOffsetInNode
 len
@@ -6345,11 +6327,7 @@ of
 memory
 remove
 from
-mSoftText
-.
 mDOMMapping
-mSoftText
-.
 mDOMMapping
 .
 RemoveLastElement
@@ -6385,7 +6363,7 @@ node
 FindNextNode
 (
 node
-mRootNode
+aRootNode
 CheckLeavingBreakElement
 &
 closure
@@ -6446,8 +6424,6 @@ break
 Record
 the
 break
-mSoftText
-.
 mValue
 .
 Append
@@ -6480,8 +6456,6 @@ s
 __FUNCTION__
 NS_ConvertUTF16toUTF8
 (
-mSoftText
-.
 mValue
 )
 .
