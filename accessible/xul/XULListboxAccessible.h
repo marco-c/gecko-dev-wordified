@@ -657,6 +657,7 @@ nsString
 &
 aDesc
 )
+const
 override
 ;
 virtual

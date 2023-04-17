@@ -506,6 +506,7 @@ nsString
 &
 aDescription
 )
+const
 {
 aDescription
 .

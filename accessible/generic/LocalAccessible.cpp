@@ -1233,6 +1233,7 @@ nsString
 &
 aDescription
 )
+const
 {
 /
 /
@@ -16845,6 +16846,7 @@ nsString
 &
 aDescription
 )
+const
 {
 bool
 isXUL

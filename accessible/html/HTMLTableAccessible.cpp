@@ -6473,6 +6473,7 @@ nsString
 &
 aDescription
 )
+const
 {
 /
 /

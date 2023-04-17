@@ -893,6 +893,7 @@ nsString
 &
 aDescription
 )
+const
 ;
 /
 *
@@ -5464,7 +5465,6 @@ description
 .
 *
 /
-virtual
 void
 NativeDescription
 (
@@ -5472,6 +5472,7 @@ nsString
 &
 aDescription
 )
+const
 ;
 /
 *

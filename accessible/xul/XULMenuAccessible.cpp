@@ -1061,6 +1061,7 @@ nsString
 &
 aDescription
 )
+const
 {
 mContent
 -
