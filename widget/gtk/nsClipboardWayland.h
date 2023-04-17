@@ -817,9 +817,6 @@ mClipboardData
 uint32_t
 mClipboardDataLength
 ;
-bool
-mAsyncDataGetter
-;
 /
 /
 Mime
