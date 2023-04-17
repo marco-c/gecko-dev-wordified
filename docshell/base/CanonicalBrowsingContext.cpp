@@ -1469,6 +1469,17 @@ IsTop
 )
 )
 ;
+mIsReplaced
+=
+true
+;
+aNewContext
+-
+>
+mIsReplaced
+=
+false
+;
 if
 (
 mStatusFilter
