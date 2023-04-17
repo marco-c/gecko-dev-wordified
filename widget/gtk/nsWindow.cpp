@@ -30028,6 +30028,11 @@ mWindowType
 eWindowType_popup
 )
 {
+MOZ_ASSERT
+(
+aInitData
+)
+;
 type
 =
 (
@@ -30556,6 +30561,11 @@ mWindowType
 eWindowType_popup
 )
 {
+MOZ_ASSERT
+(
+aInitData
+)
+;
 mGtkWindowRoleName
 =
 "
@@ -31586,6 +31596,11 @@ mWindowType
 eWindowType_popup
 )
 {
+MOZ_ASSERT
+(
+aInitData
+)
+;
 /
 /
 gdk
