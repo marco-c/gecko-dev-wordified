@@ -2780,6 +2780,7 @@ nsIContent
 aMovingInto
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GenerateDragDropEnterExit
 (
@@ -2879,6 +2880,7 @@ the
 event
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 FireDragEnterOrExit
 (
