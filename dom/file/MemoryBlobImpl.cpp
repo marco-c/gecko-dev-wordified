@@ -628,11 +628,12 @@ aAnonymize
 )
 override
 {
-typedef
+using
+DataOwner
+=
 MemoryBlobImpl
 :
 :
-DataOwner
 DataOwner
 ;
 StaticMutexAutoLock
