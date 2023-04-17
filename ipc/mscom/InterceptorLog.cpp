@@ -1171,6 +1171,11 @@ failed
 "
 )
 ;
+(
+void
+)
+rv
+;
 return
 NS_OK
 ;
