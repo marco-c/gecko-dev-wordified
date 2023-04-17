@@ -2584,6 +2584,14 @@ traceSelfHostingGlobal
 trc
 )
 ;
+rt
+-
+>
+traceSelfHostingStencil
+(
+trc
+)
+;
 #
 ifdef
 JS_HAS_INTL_API
