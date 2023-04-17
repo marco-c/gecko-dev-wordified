@@ -1140,6 +1140,12 @@ window
 docShell
 .
 chromeEventHandler
+|
+|
+!
+PromptUtils
+.
+protonModals
 )
 {
 return

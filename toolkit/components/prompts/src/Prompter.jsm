@@ -7603,6 +7603,12 @@ authInfo
 {
 if
 (
+!
+PromptUtils
+.
+protonModals
+|
+|
 prompt
 .
 modalType
