@@ -2907,7 +2907,10 @@ size_t
 uniqueIdMap
 size_t
 *
-shapeCaches
+initialPropMapTable
+size_t
+*
+shapeTables
 size_t
 *
 atomsMarkBitmaps
