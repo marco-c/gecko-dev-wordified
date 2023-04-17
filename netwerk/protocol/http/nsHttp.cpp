@@ -264,7 +264,7 @@ const
 uint32_t
 kHttp3VersionCount
 =
-6
+7
 ;
 const
 nsCString
@@ -307,6 +307,10 @@ _ns
 h3
 -
 32
+"
+_ns
+"
+h3
 "
 _ns
 }
