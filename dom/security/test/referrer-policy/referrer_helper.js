@@ -546,7 +546,7 @@ http
 .
 referer
 .
-disallowRelaxingDefault
+disallowCrossSiteRelaxingDefault
 "
 false
 ]
