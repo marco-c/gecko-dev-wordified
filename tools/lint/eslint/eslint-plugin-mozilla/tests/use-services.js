@@ -470,9 +470,7 @@ mozilla
 .
 org
 /
-uuid
--
-generator
+fakeservice
 ;
 1
 "
@@ -482,7 +480,7 @@ getService
 (
 Ci
 .
-nsIUUIDGenerator
+nsIFake
 )
 '
 '
@@ -495,9 +493,7 @@ mozilla
 .
 org
 /
-uuid
--
-generator
+fakeservice
 ;
 1
 "
@@ -509,7 +505,7 @@ Components
 .
 interfaces
 .
-nsIUUIDGenerator
+nsIFake
 )
 '
 "
