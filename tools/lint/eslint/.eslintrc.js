@@ -117,7 +117,7 @@ parserOptions
 {
 ecmaVersion
 :
-10
+12
 }
 rules
 :
