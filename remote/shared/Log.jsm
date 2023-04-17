@@ -339,6 +339,11 @@ static
 TYPES
 =
 {
+BIDI
+:
+"
+BiDi
+"
 CDP
 :
 "
@@ -353,12 +358,6 @@ REMOTE_AGENT
 :
 "
 RemoteAgent
-"
-WEBDRIVER_BIDI
-:
-"
-WebDriver
-BiDi
 "
 }
 ;
