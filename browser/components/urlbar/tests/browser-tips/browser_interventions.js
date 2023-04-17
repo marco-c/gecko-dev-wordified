@@ -280,11 +280,6 @@ sanitize
 .
 xhtml
 "
-{
-isSubDialog
-:
-true
-}
 )
 ;
 }
