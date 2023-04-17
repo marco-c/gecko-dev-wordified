@@ -1649,12 +1649,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-NS_ENSURE_TRUE
-(
-expr
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 Unused
 <
 <
@@ -3753,12 +3747,6 @@ return
 NS_ERROR_XPATH_NO_NODE_TYPE_TEST
 ;
 }
-NS_ENSURE_TRUE
-(
-nodeTest
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 if
 (
 nodeTok

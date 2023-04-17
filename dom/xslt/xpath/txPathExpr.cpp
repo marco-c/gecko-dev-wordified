@@ -255,16 +255,6 @@ AppendElement
 (
 )
 ;
-if
-(
-!
-pxi
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 pxi
 -
 >

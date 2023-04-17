@@ -3518,12 +3518,6 @@ sortedNodes
 aEs
 )
 ;
-NS_ENSURE_TRUE
-(
-context
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 context
 -
 >
