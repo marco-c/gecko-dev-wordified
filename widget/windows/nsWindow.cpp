@@ -49406,7 +49406,7 @@ ResetIdleTimeOut
 ;
 }
 }
-nsIntPoint
+LayoutDeviceIntPoint
 nsWindow
 :
 :
@@ -49418,7 +49418,7 @@ LPARAM
 lParam
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 ret
 ;
 uint32_t
@@ -59818,7 +59818,7 @@ nativeMessage
 WM_POINTERDOWN
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 pos
 ;
 if
@@ -59891,7 +59891,7 @@ pt
 ;
 pos
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 pt
 .

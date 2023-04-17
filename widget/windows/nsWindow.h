@@ -2838,7 +2838,7 @@ ResizeState
 aNewState
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 GetTouchCoordinates
 (
 WPARAM

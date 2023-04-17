@@ -10634,7 +10634,7 @@ aCount
 bool
 aFlush
 const
-nsIntPoint
+LayoutDeviceIntPoint
 *
 pos
 nsIContent
