@@ -238,13 +238,36 @@ MachCommandBase
 :
     
 def
-remotedir
+__init__
 (
 self
+*
+args
+*
+*
+kwargs
 )
 :
         
-return
+super
+(
+RemoteCommands
+self
+)
+.
+__init__
+(
+*
+args
+*
+*
+kwargs
+)
+        
+self
+.
+remotedir
+=
 os
 .
 path
@@ -486,8 +509,6 @@ join
 self
 .
 remotedir
-(
-)
 "
 test
 "
@@ -528,8 +549,6 @@ js
 self
 .
 remotedir
-(
-)
         
 )
         
@@ -742,8 +761,6 @@ join
 self
 .
 remotedir
-(
-)
 "
 json
 -
