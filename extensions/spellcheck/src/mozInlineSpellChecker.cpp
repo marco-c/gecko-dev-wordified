@@ -8711,9 +8711,11 @@ Collapsed
 (
 )
 )
+{
 return
 NS_OK
 ;
+}
 /
 /
 see
@@ -9541,6 +9543,7 @@ i
 +
 +
 )
+{
 mInlineSpellChecker
 .
 RemoveRange
@@ -9552,6 +9555,7 @@ i
 ]
 )
 ;
+}
 }
 }
 /
@@ -9570,8 +9574,10 @@ if
 (
 dontCheckWord
 )
+{
 continue
 ;
+}
 /
 /
 some
