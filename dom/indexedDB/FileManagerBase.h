@@ -486,8 +486,7 @@ FileInfo
 /
 under
 the
-file
-manager
+FileManager
 lock
 acquires
 a

@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-FileInfoTImpl
+DatabaseFileManager
 .
 h
 "
 #
 include
 "
-FileManager
+FileInfoTImpl
 .
 h
 "
@@ -141,7 +141,7 @@ template
 class
 FileInfoT
 <
-FileManager
+DatabaseFileManager
 >
 ;
 }

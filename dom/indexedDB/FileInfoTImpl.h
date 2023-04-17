@@ -491,8 +491,7 @@ lock
 /
 If
 the
-file
-manager
+FileManager
 was
 already
 invalidated

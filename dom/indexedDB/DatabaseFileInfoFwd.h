@@ -130,7 +130,7 @@ dom
 indexedDB
 {
 class
-FileManager
+DatabaseFileManager
 ;
 template
 <
@@ -148,7 +148,7 @@ FileInfoT
 indexedDB
 :
 :
-FileManager
+DatabaseFileManager
 >
 ;
 }

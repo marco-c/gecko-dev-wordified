@@ -142,14 +142,14 @@ h
 #
 include
 "
-DBSchema
+DatabaseFileManager
 .
 h
 "
 #
 include
 "
-FileManager
+DBSchema
 .
 h
 "
@@ -12506,7 +12506,7 @@ mozIStorageFunction
 {
 SafeRefPtr
 <
-FileManager
+DatabaseFileManager
 >
 mFileManager
 ;
@@ -15411,8 +15411,7 @@ aConnection
 /
 /
 This
-file
-manager
+DatabaseFileManager
 doesn
 '
 t
@@ -15424,10 +15423,10 @@ etc
 .
 The
 only
+/
+/
 purpose
 is
-/
-/
 to
 store
 file
@@ -15438,6 +15437,8 @@ more
 complexity
 or
 code
+/
+/
 duplication
 .
 auto
@@ -15445,7 +15446,7 @@ fileManager
 =
 MakeSafeRefPtr
 <
-FileManager
+DatabaseFileManager
 >
 (
 PERSISTENCE_TYPE_INVALID
