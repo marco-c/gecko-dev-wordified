@@ -796,15 +796,6 @@ GetScreenAngle
 (
 )
 ;
-int
-GetAPIVersion
-(
-)
-{
-return
-mAPIVersion
-;
-}
 nsresult
 GetProxyForURI
 (
@@ -1006,9 +997,6 @@ AndroidBridge
 AndroidBridge
 (
 )
-;
-int
-mAPIVersion
 ;
 /
 /
