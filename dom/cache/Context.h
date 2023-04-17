@@ -562,7 +562,9 @@ SafeRefCounted
 Context
 >
 {
-typedef
+using
+DirectoryLock
+=
 mozilla
 :
 :
@@ -572,7 +574,6 @@ dom
 quota
 :
 :
-DirectoryLock
 DirectoryLock
 ;
 public

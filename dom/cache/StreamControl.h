@@ -516,7 +516,9 @@ release
 this
 ref
 .
-typedef
+using
+ReadStreamList
+=
 nsTObserverArray
 <
 SafeRefPtr
@@ -527,7 +529,6 @@ ReadStream
 Controllable
 >
 >
-ReadStreamList
 ;
 ReadStreamList
 mReadStreamList

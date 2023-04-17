@@ -3225,9 +3225,10 @@ expected
 ;
 namespace
 {
-typedef
-int32_t
+using
 EntryId
+=
+int32_t
 ;
 struct
 IdCount
@@ -14991,11 +14992,12 @@ code
 -
 -
 -
-typedef
+using
+MigrationFunc
+=
 nsresult
 (
 *
-MigrationFunc
 )
 (
 mozIStorageConnection

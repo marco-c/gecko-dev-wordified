@@ -197,9 +197,10 @@ INVALID_NAMESPACE
 =
 NUMBER_OF_NAMESPACES
 ;
-typedef
-int64_t
+using
 CacheId
+=
+int64_t
 ;
 static
 const
@@ -262,7 +263,9 @@ mDeletedPaddingSize
 ;
 }
 ;
-typedef
+using
+InputStreamResolver
+=
 std
 :
 :
@@ -278,7 +281,6 @@ nsIInputStream
 &
 )
 >
-InputStreamResolver
 ;
 enum
 class
