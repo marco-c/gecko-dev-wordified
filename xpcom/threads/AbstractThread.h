@@ -504,6 +504,12 @@ would
 be
 ambiguous
 .
+using
+nsISerialEventTarget
+:
+:
+IsOnCurrentThread
+;
 NS_IMETHOD_
 (
 bool
