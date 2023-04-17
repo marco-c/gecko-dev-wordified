@@ -31456,8 +31456,12 @@ Frame
 )
 -
 >
-GetClosestFlattenedTreeAncestorPrimaryFrame
+GetContainingBlock
 (
+nsIFrame
+:
+:
+SKIP_SCROLLED_FRAME
 )
 )
 ;
