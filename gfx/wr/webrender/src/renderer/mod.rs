@@ -11128,6 +11128,9 @@ self
 framebuffer_size
 :
 DeviceIntSize
+has_debug_items
+:
+bool
 )
 {
 /
@@ -11156,6 +11159,9 @@ debug_overlay_state
 .
 is_enabled
 =
+has_debug_items
+|
+|
 self
 .
 debug_flags
@@ -12492,6 +12498,16 @@ self
 update_debug_overlay
 (
 device_size
+!
+active_doc
+.
+frame
+.
+debug_items
+.
+is_empty
+(
+)
 )
 ;
 }
