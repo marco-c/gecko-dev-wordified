@@ -1890,13 +1890,10 @@ aDoc
 )
 override
 {
-Unused
-<
-<
 mBridge
 -
 >
-SendSetEmbedderAccessible
+SetEmbedderAccessible
 (
 aDoc
 mID
