@@ -299,12 +299,8 @@ os
 from
 collections
 import
-(
-    
 Counter
-    
 OrderedDict
-)
 from
 mozbuild
 .
@@ -346,12 +342,8 @@ from
 .
 testing
 import
-(
-    
 read_manifestparser_manifest
-    
 read_reftest_manifest
-)
 import
 mozpack
 .
@@ -5127,6 +5119,36 @@ CFLAGS
 )
             
 )
+            
+(
+                
+"
+FILE_PREFIX_MAP
+"
+                
+context
+.
+config
+.
+substs
+.
+get
+(
+"
+MOZ_FILE_PREFIX_MAP_FLAGS
+"
+)
+                
+(
+"
+CXXFLAGS
+"
+"
+CFLAGS
+"
+)
+            
+)
         
 )
         
@@ -5373,17 +5395,14 @@ WASM_CFLAGS
 )
             
 (
-                
 "
 DEBUG
 "
-                
 self
 .
 _debug_flags
 (
 )
-                
 (
 "
 WASM_CFLAGS
@@ -5392,7 +5411,6 @@ WASM_CFLAGS
 WASM_CXXFLAGS
 "
 )
-            
 )
             
 (
@@ -5426,17 +5444,14 @@ WASM_CXXFLAGS
 )
             
 (
-                
 "
 OPTIMIZE
 "
-                
 self
 .
 _optimize_flags
 (
 )
-                
 (
 "
 WASM_CFLAGS
@@ -5445,7 +5460,6 @@ WASM_CFLAGS
 WASM_CXXFLAGS
 "
 )
-            
 )
             
 (
@@ -5630,6 +5644,36 @@ get
 (
 "
 MOZ_NEW_PASS_MANAGER_FLAGS
+"
+)
+                
+(
+"
+WASM_CFLAGS
+"
+"
+WASM_CXXFLAGS
+"
+)
+            
+)
+            
+(
+                
+"
+FILE_PREFIX_MAP
+"
+                
+context
+.
+config
+.
+substs
+.
+get
+(
+"
+MOZ_FILE_PREFIX_MAP_FLAGS
 "
 )
                 
@@ -8604,7 +8648,6 @@ StrictOrderingOnAppendListWithFlagsFactory
 (
     
 {
-        
 "
 script
 "
@@ -8612,25 +8655,21 @@ script
 six
 .
 text_type
-        
 "
 inputs
 "
 :
 list
-        
 "
 force
 "
 :
 bool
-        
 "
 flags
 "
 :
 list
-    
 }
 )
 class
@@ -10131,7 +10170,6 @@ validation
 SUBCONTEXTS
 =
 [
-    
 Files
 ]
 for
