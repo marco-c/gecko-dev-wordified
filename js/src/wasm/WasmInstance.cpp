@@ -9430,15 +9430,12 @@ cx
 RttValue
 :
 :
-createFromHandle
+rttCanon
 (
 cx
-SharedTypeContext
-(
-tycx
-)
 TypeHandle
 (
+tycx
 typeIndex
 )
 )
