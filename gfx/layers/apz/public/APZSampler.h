@@ -632,6 +632,8 @@ const
 LayerMetricsWrapper
 &
 aLayer
+AsyncTransformComponents
+aComponents
 )
 ;
 Maybe

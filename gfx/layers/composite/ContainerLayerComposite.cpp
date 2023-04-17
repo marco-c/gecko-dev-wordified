@@ -4077,6 +4077,7 @@ sampler
 GetCurrentAsyncTransformWithOverscroll
 (
 wrapper
+LayoutAndVisual
 )
 .
 ToUnknownMatrix
