@@ -1592,6 +1592,11 @@ dom
 BrowsingContext
 *
 aContext
+nsIURI
+*
+aCurrentUnstrippedURI
+=
+nullptr
 )
 ;
 protected
