@@ -284,9 +284,6 @@ ChildEndpointPromise
 =
 MozPromise
 <
-mozilla
-:
-:
 ipc
 :
 :
@@ -441,9 +438,6 @@ base
 ProcessId
 mChildProcessId
 ;
-mozilla
-:
-:
 ipc
 :
 :
@@ -720,9 +714,6 @@ OpenPromiseSucceededType
 {
 nsTArray
 <
-mozilla
-:
-:
 ipc
 :
 :
@@ -2217,9 +2208,6 @@ on
 using
 ParentEndpoint
 =
-mozilla
-:
-:
 ipc
 :
 :
