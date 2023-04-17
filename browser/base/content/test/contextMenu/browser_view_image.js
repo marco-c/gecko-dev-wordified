@@ -139,7 +139,7 @@ tests
 tab
 :
 {
-event
+modifiers
 :
 {
 [
@@ -206,7 +206,7 @@ browser
 window
 :
 {
-event
+modifiers
 :
 {
 shiftKey
@@ -359,7 +359,7 @@ ownerGlobal
 self
 :
 {
-event
+modifiers
 :
 {
 }
@@ -604,9 +604,9 @@ loadedPromise
 (
 )
 ;
-EventUtils
+contextMenu
 .
-synthesizeMouseAtCenter
+activateItem
 (
 document
 .
@@ -620,7 +620,7 @@ viewimage
 )
 test
 .
-event
+modifiers
 )
 ;
 await
