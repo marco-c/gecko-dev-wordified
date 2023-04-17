@@ -222,7 +222,7 @@ IAccessibleTableCell
 )
 IMPL_IUNKNOWN_QUERY_TAIL_INHERITED
 (
-MsaaAccessible
+ia2AccessibleHypertext
 )
 /
 /

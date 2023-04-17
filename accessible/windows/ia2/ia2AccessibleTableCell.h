@@ -125,7 +125,14 @@ h
 #
 include
 "
-MsaaAccessible
+ia2AccessibleHypertext
+.
+h
+"
+#
+include
+"
+IUnknownImpl
 .
 h
 "
@@ -144,7 +151,7 @@ ia2AccessibleTableCell
 public
 IAccessibleTableCell
 public
-MsaaAccessible
+ia2AccessibleHypertext
 {
 public
 :
@@ -154,7 +161,7 @@ IUnknown
 DECL_IUNKNOWN_INHERITED
 IMPL_IUNKNOWN_REFCOUNTING_INHERITED
 (
-MsaaAccessible
+ia2AccessibleHypertext
 )
 /
 /
@@ -462,10 +469,10 @@ isSelected
 protected
 :
 using
-MsaaAccessible
+ia2AccessibleHypertext
 :
 :
-MsaaAccessible
+ia2AccessibleHypertext
 ;
 private
 :
