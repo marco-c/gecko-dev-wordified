@@ -693,16 +693,6 @@ return
 false
 ;
 }
-virtual
-uint32_t
-GetMaxUpdateRects
-(
-)
-{
-return
-0
-;
-}
 /
 /
 Interface
@@ -1021,8 +1011,7 @@ CompositorCapabilities
 *
 aCaps
 )
-{
-}
+;
 /
 /
 Interface

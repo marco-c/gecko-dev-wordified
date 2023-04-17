@@ -8172,9 +8172,6 @@ c_void
 use_native_compositor
 :
 bool
-max_update_rects
-:
-usize
 use_partial_present
 :
 bool
@@ -8638,9 +8635,6 @@ CompositorConfig
 :
 Native
 {
-max_update_rects
-:
-1
 compositor
 :
 Box
@@ -8682,7 +8676,6 @@ CompositorConfig
 :
 Native
 {
-max_update_rects
 compositor
 :
 Box

@@ -1142,12 +1142,6 @@ ShouldUseNativeCompositor
 compositor
 -
 >
-GetMaxUpdateRects
-(
-)
-compositor
--
->
 UsePartialPresent
 (
 )

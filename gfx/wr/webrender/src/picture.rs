@@ -9832,7 +9832,7 @@ CompositorKind
 :
 Native
 {
-max_update_rects
+capabilities
 .
 .
 }
@@ -9840,6 +9840,8 @@ max_update_rects
 >
 {
 (
+capabilities
+.
 max_update_rects
 >
 0
