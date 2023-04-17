@@ -866,7 +866,6 @@ override
 /
 virtual
 so
-nsStackFrame
 nsButtonBoxFrame
 nsSliderFrame
 and

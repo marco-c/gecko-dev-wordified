@@ -11296,8 +11296,6 @@ ComputedStyle
 aStyle
 bool
 aIsRoot
-bool
-aClipAllDescendants
 )
 {
 return
@@ -11315,7 +11313,6 @@ GetPresContext
 (
 )
 aIsRoot
-aClipAllDescendants
 )
 ;
 }
@@ -11336,8 +11333,6 @@ nsPresContext
 aPresContext
 bool
 aIsRoot
-bool
-aClipAllDescendants
 )
 :
 nsBoxFrame
@@ -11360,12 +11355,6 @@ SetXULLayoutManager
 (
 nullptr
 )
-;
-mHelper
-.
-mClipAllDescendants
-=
-aClipAllDescendants
 ;
 }
 void
@@ -15902,10 +15891,6 @@ mDidHistoryRestore
 false
 )
 mIsRoot
-(
-aIsRoot
-)
-mClipAllDescendants
 (
 aIsRoot
 )
@@ -27590,7 +27575,7 @@ clipRect
 ;
 if
 (
-mClipAllDescendants
+mIsRoot
 )
 {
 clipState
@@ -27645,7 +27630,7 @@ aBuilder
 ;
 if
 (
-mClipAllDescendants
+mIsRoot
 )
 {
 contentBoxClipState
@@ -28998,7 +28983,7 @@ willBuildAsyncZoomContainer
 {
 MOZ_ASSERT
 (
-mClipAllDescendants
+mIsRoot
 )
 ;
 /
