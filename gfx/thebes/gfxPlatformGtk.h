@@ -270,11 +270,6 @@ GetFontScaleFactor
 (
 )
 ;
-bool
-UseImageOffscreenSurfaces
-(
-)
-;
 gfxImageFormat
 GetOffscreenFormat
 (
