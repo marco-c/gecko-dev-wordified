@@ -3944,7 +3944,6 @@ CorePS
 :
 Lul
 (
-aLock
 )
 ;
 if
@@ -3961,7 +3960,6 @@ CorePS
 :
 SetLul
 (
-aLock
 MakeUnique
 <
 lul
@@ -3991,7 +3989,6 @@ CorePS
 :
 Lul
 (
-aLock
 )
 ;
 read_procmaps
