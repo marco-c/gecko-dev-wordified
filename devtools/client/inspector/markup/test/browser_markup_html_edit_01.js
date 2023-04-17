@@ -829,7 +829,6 @@ function
 const
 {
 inspector
-testActor
 }
 =
 await
@@ -853,7 +852,6 @@ runEditOuterHTMLTests
 (
 TEST_DATA
 inspector
-testActor
 )
 ;
 }
