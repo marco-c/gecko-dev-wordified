@@ -214,6 +214,8 @@ type
 bool
 useHLSLRowMajorPacking
 bool
+isLastElement
+bool
 forcePadding
 )
 ;

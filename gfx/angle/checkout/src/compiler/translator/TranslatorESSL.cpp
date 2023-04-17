@@ -90,6 +90,8 @@ translator
 /
 tree_ops
 /
+gl
+/
 RecordConstantPrecision
 .
 h
@@ -134,9 +136,14 @@ compileOptions
 {
 if
 (
+(
 compileOptions
 &
 SH_EMULATE_ATAN2_FLOAT_FUNCTION
+)
+!
+=
+0
 )
 {
 InitBuiltInAtanFunctionEmulatorForGLSLWorkarounds

@@ -559,7 +559,7 @@ gl
 Context
 *
 context
-gl
+angle
 :
 :
 EntryPoint
@@ -763,10 +763,14 @@ severity
 {
 /
 /
+INFO
+(
+)
+and
 EVENT
 (
 )
-does
+do
 not
 require
 additional
@@ -779,9 +783,8 @@ info
 if
 (
 mSeverity
-!
-=
-LOG_EVENT
+>
+LOG_INFO
 )
 {
 const
@@ -906,7 +909,6 @@ DebugAnnotationsInitialized
 (
 mSeverity
 >
-=
 LOG_INFO
 )
 )
@@ -1309,7 +1311,7 @@ fprintf
 severity
 >
 =
-LOG_ERR
+LOG_WARN
 )
 ?
 stderr

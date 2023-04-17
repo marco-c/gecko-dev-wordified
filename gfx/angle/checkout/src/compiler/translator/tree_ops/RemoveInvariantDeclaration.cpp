@@ -156,9 +156,7 @@ emptyReplacement
 ;
 mMultiReplacements
 .
-push_back
-(
-NodeReplaceWithMultipleEntry
+emplace_back
 (
 getParentNode
 (
@@ -169,6 +167,11 @@ getAsBlock
 (
 )
 node
+std
+:
+:
+move
+(
 emptyReplacement
 )
 )

@@ -205,6 +205,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -251,6 +252,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -305,6 +307,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -351,6 +354,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -405,6 +409,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -451,6 +456,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -505,6 +511,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -555,6 +562,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -595,6 +603,7 @@ GL_FLOAT
 0
 2
 1
+false
 false
 false
 false
@@ -654,6 +663,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -694,6 +704,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -742,6 +753,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -786,6 +798,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -826,6 +839,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -874,6 +888,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -918,6 +933,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -958,6 +974,7 @@ GL_FLOAT
 0
 4
 3
+false
 false
 false
 false
@@ -1006,6 +1023,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -1050,6 +1068,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1091,6 +1110,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1138,6 +1158,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1179,6 +1200,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1226,6 +1248,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1267,6 +1290,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1314,6 +1338,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1355,6 +1380,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1402,6 +1428,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1443,6 +1470,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1490,6 +1518,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1531,6 +1560,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1578,6 +1608,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -1622,6 +1653,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1663,6 +1695,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1710,6 +1743,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1754,6 +1788,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1795,6 +1830,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1842,6 +1878,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -1886,6 +1923,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -1927,6 +1965,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -1974,6 +2013,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2018,6 +2058,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2059,6 +2100,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -2106,6 +2148,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -2150,6 +2193,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2194,6 +2238,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2235,6 +2280,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -2282,6 +2328,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -2326,6 +2373,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2367,6 +2415,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -2414,6 +2463,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2458,6 +2508,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2499,6 +2550,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -2546,6 +2598,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -2590,6 +2643,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2634,6 +2688,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2675,6 +2730,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -2722,6 +2778,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -2766,6 +2823,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2807,6 +2865,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -2854,6 +2913,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2898,6 +2958,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -2939,6 +3000,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -2986,6 +3048,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -3027,6 +3090,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -3074,6 +3138,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -3115,6 +3180,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -3169,6 +3235,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -3228,6 +3295,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -3279,6 +3347,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -3338,6 +3407,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -3378,6 +3448,7 @@ GL_UNSIGNED_NORMALIZED
 0
 4
 0
+false
 false
 false
 false
@@ -3426,6 +3497,7 @@ false
 false
 false
 true
+false
 gl
 :
 :
@@ -3466,6 +3538,7 @@ GL_UNSIGNED_NORMALIZED
 0
 4
 0
+false
 false
 false
 false
@@ -3514,6 +3587,7 @@ false
 false
 false
 true
+false
 gl
 :
 :
@@ -3569,6 +3643,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -3610,6 +3685,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -3657,6 +3733,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -3698,6 +3775,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -3745,6 +3823,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -3786,6 +3865,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -3833,6 +3913,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -3874,6 +3955,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -3921,6 +4003,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -3962,6 +4045,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -4009,6 +4093,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -4050,6 +4135,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -4097,49 +4183,6 @@ true
 false
 false
 false
-gl
-:
-:
-VertexAttribType
-:
-:
-InvalidEnum
-}
-{
-FormatID
-:
-:
-BPTC_RGBA_UNORM_BLOCK
-GL_COMPRESSED_RGBA_BPTC_UNORM_EXT
-GL_COMPRESSED_RGBA_BPTC_UNORM_EXT
-nullptr
-NoCopyFunctions
-nullptr
-nullptr
-GL_UNSIGNED_NORMALIZED
-0
-0
-0
-0
-0
-0
-0
-16
-std
-:
-:
-numeric_limits
-<
-GLuint
->
-:
-:
-max
-(
-)
-true
-false
-false
 false
 gl
 :
@@ -4153,7 +4196,7 @@ InvalidEnum
 FormatID
 :
 :
-BPTC_RGB_SIGNED_FLOAT_BLOCK
+BC6H_RGB_SFLOAT_BLOCK
 GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT
 GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT
 nullptr
@@ -4185,19 +4228,20 @@ true
 false
 false
 false
+false
 gl
 :
 :
 VertexAttribType
 :
 :
-Float
+InvalidEnum
 }
 {
 FormatID
 :
 :
-BPTC_RGB_UNSIGNED_FLOAT_BLOCK
+BC6H_RGB_UFLOAT_BLOCK
 GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT
 GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT
 nullptr
@@ -4229,19 +4273,65 @@ true
 false
 false
 false
+false
 gl
 :
 :
 VertexAttribType
 :
 :
-Float
+InvalidEnum
 }
 {
 FormatID
 :
 :
-BPTC_SRGB_ALPHA_UNORM_BLOCK
+BC7_RGBA_UNORM_BLOCK
+GL_COMPRESSED_RGBA_BPTC_UNORM_EXT
+GL_COMPRESSED_RGBA_BPTC_UNORM_EXT
+nullptr
+NoCopyFunctions
+nullptr
+nullptr
+GL_UNSIGNED_NORMALIZED
+0
+0
+0
+0
+0
+0
+0
+16
+std
+:
+:
+numeric_limits
+<
+GLuint
+>
+:
+:
+max
+(
+)
+true
+false
+false
+false
+false
+gl
+:
+:
+VertexAttribType
+:
+:
+InvalidEnum
+}
+{
+FormatID
+:
+:
+BC7_RGBA_UNORM_SRGB_BLOCK
 GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT
 GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT
 nullptr
@@ -4273,6 +4363,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -4303,6 +4394,7 @@ GL_SIGNED_NORMALIZED
 16
 0
 true
+false
 false
 false
 false
@@ -4339,6 +4431,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -4369,6 +4462,7 @@ GL_SIGNED_NORMALIZED
 8
 0
 true
+false
 false
 false
 false
@@ -4405,6 +4499,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -4438,6 +4533,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -4468,6 +4564,7 @@ GL_UNSIGNED_NORMALIZED
 8
 0
 true
+false
 false
 false
 false
@@ -4515,6 +4612,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -4559,6 +4657,7 @@ true
 false
 false
 false
+false
 gl
 :
 :
@@ -4592,6 +4691,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -4622,6 +4722,7 @@ GL_UNSIGNED_NORMALIZED
 16
 0
 true
+false
 false
 false
 false
@@ -4658,6 +4759,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -4691,6 +4793,97 @@ true
 false
 false
 false
+false
+gl
+:
+:
+VertexAttribType
+:
+:
+UnsignedByte
+}
+{
+FormatID
+:
+:
+G8_B8R8_2PLANE_420_UNORM
+GL_G8_B8R8_2PLANE_420_UNORM_ANGLEX
+GL_G8_B8R8_2PLANE_420_UNORM_ANGLEX
+GenerateMip
+<
+R8G8B8
+>
+NoCopyFunctions
+ReadColor
+<
+R8G8B8
+GLfloat
+>
+WriteColor
+<
+R8G8B8
+GLfloat
+>
+GL_UNSIGNED_NORMALIZED
+8
+8
+8
+0
+0
+0
+0
+3
+0
+false
+false
+false
+false
+true
+gl
+:
+:
+VertexAttribType
+:
+:
+UnsignedByte
+}
+{
+FormatID
+:
+:
+G8_B8_R8_3PLANE_420_UNORM
+GL_G8_B8_R8_3PLANE_420_UNORM_ANGLEX
+GL_G8_B8_R8_3PLANE_420_UNORM_ANGLEX
+GenerateMip
+<
+R8G8B8
+>
+NoCopyFunctions
+ReadColor
+<
+R8G8B8
+GLfloat
+>
+WriteColor
+<
+R8G8B8
+GLfloat
+>
+GL_UNSIGNED_NORMALIZED
+8
+8
+8
+0
+0
+0
+0
+3
+0
+false
+false
+false
+false
+true
 gl
 :
 :
@@ -4742,6 +4935,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -4801,6 +4995,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -4852,6 +5047,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -4911,6 +5107,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -4962,6 +5159,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -5021,6 +5219,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -5062,6 +5261,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -5109,6 +5309,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -5150,6 +5351,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -5197,6 +5399,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -5238,6 +5441,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -5285,6 +5489,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -5326,6 +5531,7 @@ max
 (
 )
 true
+false
 false
 false
 false
@@ -5373,6 +5579,7 @@ true
 false
 false
 true
+false
 gl
 :
 :
@@ -5424,6 +5631,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -5483,6 +5691,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -5538,6 +5747,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -5589,6 +5799,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -5648,6 +5859,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -5703,6 +5915,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -5754,6 +5967,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -5813,6 +6027,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -5853,6 +6068,7 @@ GL_FLOAT
 0
 8
 1
+false
 false
 false
 false
@@ -5901,6 +6117,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -5941,6 +6158,7 @@ GL_SIGNED_NORMALIZED
 0
 8
 1
+false
 false
 false
 false
@@ -5989,6 +6207,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -6029,6 +6248,7 @@ GL_UNSIGNED_INT
 0
 8
 1
+false
 false
 false
 false
@@ -6077,6 +6297,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -6121,6 +6342,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -6161,6 +6383,7 @@ GL_FLOAT
 0
 6
 1
+false
 false
 false
 false
@@ -6209,6 +6432,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -6249,6 +6473,7 @@ GL_SIGNED_NORMALIZED
 0
 6
 1
+false
 false
 false
 false
@@ -6297,6 +6522,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -6337,6 +6563,7 @@ GL_UNSIGNED_INT
 0
 6
 1
+false
 false
 false
 false
@@ -6385,6 +6612,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -6429,6 +6657,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -6469,6 +6698,7 @@ GL_FLOAT
 0
 4
 1
+false
 false
 false
 false
@@ -6517,6 +6747,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -6557,6 +6788,7 @@ GL_SIGNED_NORMALIZED
 0
 4
 1
+false
 false
 false
 false
@@ -6605,6 +6837,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -6645,6 +6878,7 @@ GL_UNSIGNED_INT
 0
 4
 1
+false
 false
 false
 false
@@ -6693,6 +6927,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -6737,6 +6972,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -6777,6 +7013,7 @@ GL_FLOAT
 0
 2
 1
+false
 false
 false
 false
@@ -6825,6 +7062,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -6865,6 +7103,7 @@ GL_SIGNED_NORMALIZED
 0
 2
 1
+false
 false
 false
 false
@@ -6913,6 +7152,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -6953,6 +7193,7 @@ GL_UNSIGNED_INT
 0
 2
 1
+false
 false
 false
 false
@@ -7001,6 +7242,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -7044,6 +7286,7 @@ GL_UNSIGNED_INT
 false
 false
 true
+false
 false
 gl
 :
@@ -7089,6 +7332,7 @@ false
 true
 false
 false
+false
 gl
 :
 :
@@ -7129,6 +7373,7 @@ GL_FLOAT
 0
 16
 3
+false
 false
 false
 false
@@ -7177,6 +7422,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -7217,6 +7463,7 @@ GL_SIGNED_NORMALIZED
 0
 16
 3
+false
 false
 false
 false
@@ -7265,6 +7512,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -7305,6 +7553,7 @@ GL_UNSIGNED_INT
 0
 16
 3
+false
 false
 false
 false
@@ -7353,6 +7602,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -7396,6 +7646,7 @@ GL_UNSIGNED_INT
 false
 false
 true
+false
 false
 gl
 :
@@ -7441,6 +7692,7 @@ false
 true
 false
 false
+false
 gl
 :
 :
@@ -7481,6 +7733,7 @@ GL_FLOAT
 0
 12
 3
+false
 false
 false
 false
@@ -7529,6 +7782,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -7569,6 +7823,7 @@ GL_SIGNED_NORMALIZED
 0
 12
 3
+false
 false
 false
 false
@@ -7617,6 +7872,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -7657,6 +7913,7 @@ GL_UNSIGNED_INT
 0
 12
 3
+false
 false
 false
 false
@@ -7705,6 +7962,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -7748,6 +8006,7 @@ GL_UNSIGNED_INT
 false
 false
 true
+false
 false
 gl
 :
@@ -7793,6 +8052,7 @@ false
 true
 false
 false
+false
 gl
 :
 :
@@ -7833,6 +8093,7 @@ GL_FLOAT
 0
 8
 3
+false
 false
 false
 false
@@ -7881,6 +8142,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -7921,6 +8183,7 @@ GL_SIGNED_NORMALIZED
 0
 8
 3
+false
 false
 false
 false
@@ -7969,6 +8232,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -8009,6 +8273,7 @@ GL_UNSIGNED_INT
 0
 8
 3
+false
 false
 false
 false
@@ -8057,6 +8322,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -8100,6 +8366,7 @@ GL_UNSIGNED_INT
 false
 false
 true
+false
 false
 gl
 :
@@ -8145,6 +8412,7 @@ false
 true
 false
 false
+false
 gl
 :
 :
@@ -8185,6 +8453,7 @@ GL_FLOAT
 0
 4
 3
+false
 false
 false
 false
@@ -8233,6 +8502,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -8273,6 +8543,7 @@ GL_SIGNED_NORMALIZED
 0
 4
 3
+false
 false
 false
 false
@@ -8321,6 +8592,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -8361,6 +8633,7 @@ GL_UNSIGNED_INT
 0
 4
 3
+false
 false
 false
 false
@@ -8409,6 +8682,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -8452,6 +8726,7 @@ GL_UNSIGNED_INT
 false
 false
 true
+false
 false
 gl
 :
@@ -8504,6 +8779,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -8563,6 +8839,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -8618,6 +8895,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -8658,6 +8936,7 @@ GL_INT
 0
 4
 0
+false
 false
 false
 false
@@ -8706,6 +8985,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -8750,6 +9030,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -8790,6 +9071,7 @@ GL_UNSIGNED_NORMALIZED
 0
 4
 0
+false
 false
 false
 false
@@ -8838,6 +9120,7 @@ false
 false
 false
 true
+false
 gl
 :
 :
@@ -8878,6 +9161,7 @@ GL_UNSIGNED_INT
 0
 4
 0
+false
 false
 false
 false
@@ -8926,6 +9210,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -8970,6 +9255,7 @@ false
 false
 false
 true
+false
 gl
 :
 :
@@ -9014,6 +9300,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -9054,6 +9341,7 @@ GL_INT
 0
 3
 0
+false
 false
 false
 false
@@ -9102,6 +9390,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -9146,6 +9435,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -9186,6 +9476,7 @@ GL_UNSIGNED_INT
 0
 3
 0
+false
 false
 false
 false
@@ -9234,6 +9525,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -9278,6 +9570,7 @@ false
 false
 false
 true
+false
 gl
 :
 :
@@ -9322,6 +9615,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -9362,6 +9656,7 @@ GL_INT
 0
 2
 0
+false
 false
 false
 false
@@ -9410,6 +9705,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -9454,6 +9750,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -9494,6 +9791,7 @@ GL_UNSIGNED_INT
 0
 2
 0
+false
 false
 false
 false
@@ -9542,6 +9840,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -9586,6 +9885,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -9626,6 +9926,7 @@ GL_INT
 0
 1
 0
+false
 false
 false
 false
@@ -9674,6 +9975,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -9718,6 +10020,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -9758,6 +10061,7 @@ GL_UNSIGNED_INT
 0
 1
 0
+false
 false
 false
 false
@@ -9806,6 +10110,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -9850,6 +10155,7 @@ false
 false
 false
 true
+false
 gl
 :
 :
@@ -9893,6 +10199,7 @@ GL_UNSIGNED_INT
 false
 false
 true
+false
 false
 gl
 :
@@ -9949,6 +10256,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -9989,6 +10297,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -10037,6 +10346,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -10081,6 +10391,7 @@ false
 false
 true
 false
+false
 gl
 :
 :
@@ -10121,6 +10432,7 @@ GLuint
 max
 (
 )
+false
 false
 false
 false
@@ -10169,6 +10481,7 @@ false
 false
 false
 false
+false
 gl
 :
 :
@@ -10212,6 +10525,7 @@ max
 false
 false
 true
+false
 false
 gl
 :
@@ -10686,7 +11000,7 @@ return
 FormatID
 :
 :
-BPTC_RGBA_UNORM_BLOCK
+BC7_RGBA_UNORM_BLOCK
 ;
 case
 GL_COMPRESSED_RGBA_PVRTC_2BPPV1_IMG
@@ -10740,7 +11054,7 @@ return
 FormatID
 :
 :
-BPTC_RGB_SIGNED_FLOAT_BLOCK
+BC6H_RGB_SFLOAT_BLOCK
 ;
 case
 GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT
@@ -10749,7 +11063,7 @@ return
 FormatID
 :
 :
-BPTC_RGB_UNSIGNED_FLOAT_BLOCK
+BC6H_RGB_UFLOAT_BLOCK
 ;
 case
 GL_COMPRESSED_RGB_PVRTC_2BPPV1_IMG
@@ -11064,7 +11378,7 @@ return
 FormatID
 :
 :
-BPTC_SRGB_ALPHA_UNORM_BLOCK
+BC7_RGBA_UNORM_SRGB_BLOCK
 ;
 case
 GL_COMPRESSED_SRGB_ALPHA_PVRTC_2BPPV1_EXT
@@ -11209,6 +11523,24 @@ FormatID
 :
 :
 ETC1_R8G8B8_UNORM_BLOCK
+;
+case
+GL_G8_B8R8_2PLANE_420_UNORM_ANGLEX
+:
+return
+FormatID
+:
+:
+G8_B8R8_2PLANE_420_UNORM
+;
+case
+GL_G8_B8_R8_3PLANE_420_UNORM_ANGLEX
+:
+return
+FormatID
+:
+:
+G8_B8_R8_3PLANE_420_UNORM
 ;
 case
 GL_INT_10_10_10_2_OES

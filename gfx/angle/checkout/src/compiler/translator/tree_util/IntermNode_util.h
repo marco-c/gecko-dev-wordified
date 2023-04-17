@@ -303,6 +303,10 @@ fieldList
 TQualifier
 qualifier
 const
+TLayoutQualifier
+&
+layoutQualifier
+const
 TMemoryQualifier
 &
 memoryQualifier

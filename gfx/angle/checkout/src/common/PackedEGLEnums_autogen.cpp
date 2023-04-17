@@ -26,7 +26,7 @@ json
 /
 /
 Copyright
-2020
+2017
 The
 ANGLE
 Project
