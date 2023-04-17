@@ -4234,7 +4234,7 @@ self
 .
 cache
 .
-evict_all
+clear
 (
 )
 ;
