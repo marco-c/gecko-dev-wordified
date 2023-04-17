@@ -244,13 +244,14 @@ native
 theme
 should
 use
+real
 system
 colors
 for
 widgets
 .
 bool
-NonNativeThemeShouldUseSystemColors
+NonNativeThemeShouldBeHighContrast
 (
 )
 const

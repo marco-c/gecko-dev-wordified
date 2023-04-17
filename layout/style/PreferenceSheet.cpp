@@ -596,7 +596,7 @@ PreferenceSheet
 Prefs
 :
 :
-NonNativeThemeShouldUseSystemColors
+NonNativeThemeShouldBeHighContrast
 (
 )
 const
@@ -642,7 +642,7 @@ return
 StaticPrefs
 :
 :
-widget_non_native_theme_always_use_system_colors
+widget_non_native_theme_always_high_contrast
 (
 )
 |

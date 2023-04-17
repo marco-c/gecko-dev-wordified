@@ -1682,6 +1682,12 @@ ColorID
 :
 MozButtonactiveface
 :
+case
+ColorID
+:
+:
+MozButtondisabledface
+:
 color
 =
 GetColorFromNSColor
@@ -1874,6 +1880,12 @@ ColorID
 :
 :
 Threedlightshadow
+:
+case
+ColorID
+:
+:
+MozDisabledfield
 :
 color
 =

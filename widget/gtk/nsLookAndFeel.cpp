@@ -3458,6 +3458,12 @@ ColorID
 :
 Buttonface
 :
+case
+ColorID
+:
+:
+MozButtondisabledface
+:
 /
 /
 3
@@ -3564,6 +3570,12 @@ ColorID
 :
 :
 Threedlightshadow
+:
+case
+ColorID
+:
+:
+MozDisabledfield
 :
 aColor
 =
