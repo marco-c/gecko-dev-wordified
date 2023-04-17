@@ -4339,16 +4339,6 @@ get
 PATHEXT
 "
 )
-SYSTEMROOT
-:
-env
-.
-get
-(
-"
-SYSTEMROOT
-"
-)
 }
 )
 ;
