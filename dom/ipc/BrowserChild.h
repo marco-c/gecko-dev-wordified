@@ -3792,7 +3792,7 @@ ProcessPendingCoalescedMouseDataAndDispatchEvents
 )
 ;
 void
-ProcessPendingColaescedTouchData
+ProcessPendingCoalescedTouchData
 (
 )
 ;

@@ -9376,7 +9376,7 @@ void
 BrowserChild
 :
 :
-ProcessPendingColaescedTouchData
+ProcessPendingCoalescedTouchData
 (
 )
 {
@@ -11611,7 +11611,7 @@ mMessage
 eTouchStart
 )
 {
-ProcessPendingColaescedTouchData
+ProcessPendingCoalescedTouchData
 (
 )
 ;
@@ -12108,7 +12108,7 @@ the
 second
 one
 .
-ProcessPendingColaescedTouchData
+ProcessPendingCoalescedTouchData
 (
 )
 ;
