@@ -2615,6 +2615,12 @@ case
 ParseNodeKind
 :
 :
+PrivateInExpr
+:
+case
+ParseNodeKind
+:
+:
 LshExpr
 :
 case

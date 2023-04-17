@@ -1341,6 +1341,12 @@ ListNode
 \
 F
 (
+PrivateInExpr
+ListNode
+)
+\
+F
+(
 LshExpr
 ListNode
 )
