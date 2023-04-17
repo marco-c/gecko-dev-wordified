@@ -2640,6 +2640,13 @@ TAIL_SUGGESTION
 /
 general
 {
+group
+:
+UrlbarUtils
+.
+RESULT_GROUP
+.
+GENERAL_PARENT
 children
 :
 [

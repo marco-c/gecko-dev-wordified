@@ -19452,7 +19452,7 @@ number
 const
 UI_VERSION
 =
-116
+117
 ;
 const
 BROWSER_DOCURL
@@ -23911,7 +23911,7 @@ if
 (
 currentUIVersion
 <
-116
+117
 )
 {
 /
@@ -24004,6 +24004,17 @@ bug
 :
 Remove
 HEURISTIC_UNIFIED_COMPLETE
+group
+/
+/
+117
+(
+bug
+1710518
+)
+:
+Add
+GENERAL_PARENT
 group
 UrlbarPrefs
 .
