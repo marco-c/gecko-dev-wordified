@@ -1775,7 +1775,6 @@ spatial_tree
 :
 :
 {
-ROOT_SPATIAL_NODE_INDEX
 SpatialTree
 SpatialNodeIndex
 CoordinateSystemId
@@ -6322,7 +6321,10 @@ zero
 )
 pic_spatial_node_index
 :
-ROOT_SPATIAL_NODE_INDEX
+SpatialNodeIndex
+:
+:
+INVALID
 }
 }
 }
