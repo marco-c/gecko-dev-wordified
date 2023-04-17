@@ -2921,9 +2921,9 @@ FreeListBlock
 {
 memory
 ptr
+chunk
 offset
 size
-chunk
 }
 heap
 &

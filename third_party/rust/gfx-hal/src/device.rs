@@ -4435,13 +4435,13 @@ with
 /
 /
 [
-reset_fences
+reset_fence
 ]
 [
 Device
 :
 :
-reset_fences
+reset_fence
 ]
 .
 /

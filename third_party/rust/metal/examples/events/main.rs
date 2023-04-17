@@ -225,8 +225,6 @@ Serial
 /
 Enable
 dispatch
--
-queue
 feature
 to
 use

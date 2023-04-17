@@ -48,12 +48,15 @@ Arena
 :
 iter_mut
 ]
-[
+(
+crate
+:
+:
 Arena
 :
 :
 iter_mut
-]
+)
 .
 pub
 struct
@@ -116,6 +119,7 @@ Index
 &
 '
 a
+mut
 T
 )
 ;
@@ -560,6 +564,7 @@ contains
 (
 one
 &
+mut
 1
 )
 )
@@ -576,6 +581,7 @@ contains
 (
 two
 &
+mut
 2
 )
 )

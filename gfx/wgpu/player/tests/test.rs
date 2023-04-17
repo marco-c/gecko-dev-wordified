@@ -958,13 +958,7 @@ buffer
 expect
 .
 offset
-wgt
-:
-:
-BufferSize
-:
-:
-new
+Some
 (
 expect
 .

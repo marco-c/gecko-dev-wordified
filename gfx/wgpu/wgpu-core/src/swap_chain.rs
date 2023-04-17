@@ -1095,10 +1095,10 @@ scope
 !
 (
 "
-SwapChain
-:
-:
 get_next_texture
+"
+"
+SwapChain
 "
 )
 ;
@@ -1815,10 +1815,10 @@ scope
 !
 (
 "
-SwapChain
-:
-:
 present
+"
+"
+SwapChain
 "
 )
 ;
