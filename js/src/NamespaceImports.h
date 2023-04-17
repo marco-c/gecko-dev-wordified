@@ -294,6 +294,10 @@ class
 JS_PUBLIC_API
 PropertyDescriptor
 ;
+namespace
+Scalar
+{
+}
 }
 /
 /
@@ -308,6 +312,14 @@ importing
 namespace
 js
 {
+namespace
+Scalar
+=
+JS
+:
+:
+Scalar
+;
 using
 JS
 :
