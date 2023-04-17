@@ -244,11 +244,6 @@ typedef
 MozPromise
 <
 bool
-/
-*
-aIgnored
-*
-/
 ResponseRejectReason
 true
 >
