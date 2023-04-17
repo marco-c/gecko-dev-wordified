@@ -10338,6 +10338,10 @@ NSSDBConfig
 nssDbConfig
 PKCS11DBConfig
 pkcs11DbConfig
+const
+char
+*
+nssDBPrefix
 )
 {
 MOZ_ASSERT
@@ -10527,10 +10531,8 @@ dbTypeAndDirectory
 get
 (
 )
-"
-"
-"
-"
+nssDBPrefix
+nssDBPrefix
 SECMOD_DB
 flags
 )
