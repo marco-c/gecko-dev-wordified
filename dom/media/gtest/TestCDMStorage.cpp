@@ -6356,13 +6356,6 @@ override
 {
 }
 void
-QueryOutputProtectionStatus
-(
-)
-override
-{
-}
-void
 Terminated
 (
 )
