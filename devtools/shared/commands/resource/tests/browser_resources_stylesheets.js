@@ -108,7 +108,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
@@ -159,7 +161,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
@@ -184,7 +188,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
@@ -240,7 +246,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
@@ -291,7 +299,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
@@ -316,7 +326,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
@@ -399,7 +411,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
@@ -501,7 +515,9 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 tests
 /
