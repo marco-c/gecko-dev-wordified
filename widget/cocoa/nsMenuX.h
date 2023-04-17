@@ -265,6 +265,10 @@ nsMenuX
 )
 geckoMenu
 ;
+property
+BOOL
+menuIsInMenubar
+;
 end
 /
 /
