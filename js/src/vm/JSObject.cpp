@@ -11967,11 +11967,11 @@ being
 unchanged
 set
 the
-InvalidatedTeleporting
+UncacheableProto
 shape
-/
-/
 flag
+/
+/
 for
 this
 object
@@ -12097,7 +12097,7 @@ if
 pobj
 -
 >
-hasInvalidatedTeleporting
+hasUncacheableProto
 (
 )
 )
@@ -12108,7 +12108,7 @@ if
 JSObject
 :
 :
-setInvalidatedTeleporting
+setUncacheableProto
 (
 cx
 pobj
@@ -21856,7 +21856,7 @@ if
 obj
 -
 >
-hasInvalidatedTeleporting
+hasUncacheableProto
 (
 )
 )
@@ -21866,7 +21866,7 @@ out
 put
 (
 "
-invalidated_teleporting
+has_uncacheable_proto
 "
 )
 ;
