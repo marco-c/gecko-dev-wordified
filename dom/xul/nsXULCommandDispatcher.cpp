@@ -281,6 +281,9 @@ dom
 :
 Element
 ;
+#
+ifdef
+DEBUG
 static
 LazyLogModule
 gCommandLog
@@ -290,6 +293,8 @@ nsXULCommandDispatcher
 "
 )
 ;
+#
+endif
 /
 /
 /
