@@ -1032,6 +1032,30 @@ createInChild
 "
 :
 True
+        
+#
+Don
+'
+t
+pull
+Top
+Sites
+content
+from
+the
+network
+        
+"
+browser
+.
+topsites
+.
+contile
+.
+enabled
+"
+:
+False
     
 }
     
