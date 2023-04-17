@@ -60,6 +60,7 @@ const
 {
 NimbusFeatures
 ExperimentFeature
+ExperimentAPI
 }
 =
 ChromeUtils
@@ -1870,6 +1871,13 @@ remote_disabled
 (
 )
 {
+await
+ExperimentAPI
+.
+ready
+(
+)
+;
 await
 ExperimentFakes
 .
