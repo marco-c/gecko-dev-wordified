@@ -6176,10 +6176,8 @@ GetPresContext
 (
 )
 ;
-nsCOMPtr
-<
 nsIWidget
->
+*
 widget
 =
 pc
@@ -15935,10 +15933,8 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
-<
 nsIWidget
->
+*
 widget
 =
 mPresContext

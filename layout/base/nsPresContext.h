@@ -1302,10 +1302,8 @@ this
 .
 *
 /
-already_AddRefed
-<
 nsIWidget
->
+*
 GetRootWidget
 (
 )
@@ -1336,10 +1334,8 @@ etc
 .
 *
 /
-already_AddRefed
-<
 nsIWidget
->
+*
 GetTextInputHandlingWidget
 (
 )

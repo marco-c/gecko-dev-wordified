@@ -1886,12 +1886,16 @@ nsCOMPtr
 nsIWidget
 >
 rootWidget
-=
+;
 vm
 -
 >
 GetRootWidget
 (
+getter_AddRefs
+(
+rootWidget
+)
 )
 ;
 /
