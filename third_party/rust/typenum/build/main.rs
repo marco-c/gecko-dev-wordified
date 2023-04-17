@@ -1106,6 +1106,9 @@ consts
 {
 {
 use
+crate
+:
+:
 uint
 :
 :
@@ -1117,6 +1120,9 @@ UTerm
 }
 ;
 use
+crate
+:
+:
 int
 :
 :
@@ -1129,6 +1135,9 @@ NInt
 ;
 pub
 use
+crate
+:
+:
 bit
 :
 :
@@ -1141,6 +1150,9 @@ B1
 ;
 pub
 use
+crate
+:
+:
 int
 :
 :
