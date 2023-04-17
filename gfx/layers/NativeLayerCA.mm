@@ -4071,6 +4071,7 @@ InvalidateRegionThroughoutSwapchain
 const
 MutexAutoLock
 &
+aProofOfLock
 const
 IntRegion
 &
@@ -6550,6 +6551,7 @@ GetUnusedSurfaceAndCleanUp
 const
 MutexAutoLock
 &
+aProofOfLock
 )
 {
 std

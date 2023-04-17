@@ -1880,6 +1880,7 @@ NextSurface
 const
 MutexAutoLock
 &
+aProofOfLock
 )
 ;
 /
@@ -1950,6 +1951,7 @@ InvalidateRegionThroughoutSwapchain
 const
 MutexAutoLock
 &
+aProofOfLock
 const
 gfx
 :
@@ -1957,21 +1959,6 @@ gfx
 IntRegion
 &
 aRegion
-)
-;
-GLuint
-GetOrCreateFramebufferForSurface
-(
-const
-MutexAutoLock
-&
-CFTypeRefPtr
-<
-IOSurfaceRef
->
-aSurface
-bool
-aNeedsDepth
 )
 ;
 /
@@ -2058,6 +2045,7 @@ HandlePartialUpdate
 const
 MutexAutoLock
 &
+aProofOfLock
 const
 gfx
 :
@@ -2123,6 +2111,7 @@ GetUnusedSurfaceAndCleanUp
 const
 MutexAutoLock
 &
+aProofOfLock
 )
 ;
 /
