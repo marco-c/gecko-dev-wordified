@@ -2288,15 +2288,6 @@ hasUsableAbstractFramePtr
 {
 if
 (
-!
-script
--
->
-needsArgsAnalysis
-(
-)
-&
-&
 script
 -
 >

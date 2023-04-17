@@ -6461,13 +6461,6 @@ i
 ]
 |
 .
-AnalyzeArgumentsUsage
-ensures
-this
-is
-handled
-correctly
-.
 MOZ_ASSERT_IF
 (
 info
