@@ -5831,6 +5831,9 @@ Preferences
 GetBool
 (
 JS_OPTIONS_DOT_STR
+"
+wasm_
+"
 PREF
 )
 ;
