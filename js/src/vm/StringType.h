@@ -5422,10 +5422,14 @@ usingBarrier
 typename
 CharT
 >
+static
 JSLinearString
 *
 flattenInternal
 (
+JSRope
+*
+root
 )
 ;
 template
