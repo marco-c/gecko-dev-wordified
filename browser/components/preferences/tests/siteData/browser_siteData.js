@@ -340,12 +340,6 @@ remember
 to
 clean
 up
-OfflineAppCacheHelper
-.
-clear
-(
-)
-;
 await
 new
 Promise
