@@ -720,16 +720,6 @@ Tile
 >
 mPaintTiles
 ;
-AutoTArray
-<
-UniquePtr
-<
-PaintTask
->
-4
->
-mPaintTasks
-;
 /
 *
 *

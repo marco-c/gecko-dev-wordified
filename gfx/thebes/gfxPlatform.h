@@ -5988,11 +5988,6 @@ InitPlatformGPUProcessPrefs
 )
 {
 }
-void
-InitOMTPConfig
-(
-)
-;
 /
 /
 Gather

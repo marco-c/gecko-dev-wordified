@@ -190,13 +190,6 @@ etc
 #
 include
 "
-PaintThread
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h

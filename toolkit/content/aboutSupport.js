@@ -4625,12 +4625,6 @@ usesTiling
 contentUsesTiling
 "
 "
-offMainThreadPaintEnabled
-"
-"
-offMainThreadPaintWorkerCount
-"
-"
 targetFrameRate
 "
 ]
