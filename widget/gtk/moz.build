@@ -517,7 +517,7 @@ nsWaylandDisplay
 cpp
 "
 "
-WaylandShmBuffer
+WaylandBuffer
 .
 cpp
 "
@@ -561,7 +561,7 @@ nsWaylandDisplay
 h
 "
 "
-WaylandShmBuffer
+WaylandBuffer
 .
 h
 "

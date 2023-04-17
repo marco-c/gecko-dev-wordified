@@ -553,7 +553,7 @@ nsWindow
 |
 |
 |
-WaylandShmBuffer
+WaylandBufferSHM
 |
 |
 |
@@ -675,7 +675,7 @@ WaylandShmPool
 |
 |
 |
-WaylandShmBuffer
+WaylandBufferSHM
 |
 |
 |
@@ -913,7 +913,7 @@ nsWindow
 |
 |
 |
-WaylandShmBuffer
+WaylandBufferSHM
 |
 |
 |
@@ -1027,7 +1027,7 @@ WaylandShmPool
 |
 |
 |
-WaylandShmBuffer
+WaylandBufferSHM
 |
 |
 |
@@ -1271,7 +1271,7 @@ objects
 (
 owned
 by
-WaylandShmBuffer
+WaylandBufferSHM
 )
 as
 we
@@ -1345,7 +1345,7 @@ screen
 is
 invalidated
 .
-WaylandShmBuffer
+WaylandBufferSHM
 Is
 a
 class
@@ -1408,7 +1408,7 @@ rendered
 by
 compositor
 .
-WaylandShmBuffer
+WaylandBufferSHM
 is
 implemented
 by
@@ -1446,7 +1446,7 @@ of
 shared
 memory
 for
-WaylandShmBuffer
+WaylandBufferSHM
 .
 Allocates
 it
@@ -1499,7 +1499,7 @@ to
 wayland
 compositor
 by
-WaylandShmBuffer
+WaylandBufferSHM
 /
 WindowSurfaceWayland
 (
@@ -1755,7 +1755,7 @@ mFrameCallback
 ;
 }
 }
-WaylandShmBuffer
+WaylandBufferSHM
 *
 WindowSurfaceWayland
 :
@@ -1893,18 +1893,15 @@ nullptr
 }
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 buffer
 =
-WaylandShmBuffer
+WaylandBufferSHM
 :
 :
 Create
 (
-GetWaylandDisplay
-(
-)
 aSize
 )
 ;
@@ -1994,7 +1991,7 @@ get
 )
 ;
 }
-WaylandShmBuffer
+WaylandBufferSHM
 *
 WindowSurfaceWayland
 :
@@ -2061,7 +2058,7 @@ availableBuffer
 {
 RefPtr
 <
-WaylandShmBuffer
+WaylandBufferSHM
 >
 buffer
 =
@@ -2144,7 +2141,7 @@ return
 nullptr
 ;
 }
-WaylandShmBuffer
+WaylandBufferSHM
 *
 WindowSurfaceWayland
 :
@@ -2223,7 +2220,7 @@ mWaylandBuffer
 /
 /
 Recent
-WaylandShmBuffer
+WaylandBufferSHM
 *
 WindowSurfaceWayland
 :
@@ -2285,7 +2282,7 @@ LOGWAYLAND
 (
 "
 Recent
-WaylandShmBuffer
+WaylandBufferSHM
 [
 %
 p
@@ -2330,7 +2327,7 @@ LOGWAYLAND
 (
 (
 "
-WaylandShmBuffer
+WaylandBufferSHM
 [
 %
 d
@@ -2350,7 +2347,7 @@ LOGWAYLAND
 (
 (
 "
-WaylandShmBuffer
+WaylandBufferSHM
 [
 %
 d
@@ -2679,7 +2676,7 @@ height
 )
 )
 ;
-WaylandShmBuffer
+WaylandBufferSHM
 *
 buffer
 =
@@ -2845,7 +2842,7 @@ Factory
 CreateDataSourceSurface
 (
 aLockSize
-WaylandShmBuffer
+WaylandBufferSHM
 :
 :
 GetSurfaceFormat
@@ -2910,7 +2907,7 @@ GetSize
 map
 .
 mStride
-WaylandShmBuffer
+WaylandBufferSHM
 :
 :
 GetSurfaceFormat
