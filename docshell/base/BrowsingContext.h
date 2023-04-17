@@ -7080,7 +7080,7 @@ ContentParent
 aSource
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
@@ -7224,7 +7224,7 @@ ContentParent
 aSource
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
@@ -7413,7 +7413,7 @@ IDX_IsInBFCache
 ;
 /
 /
-True
+Allow
 if
 the
 process
@@ -7456,14 +7456,6 @@ the
 parent
 process
 .
-bool
-LegacyCheckOnlyOwningProcessCanSet
-(
-ContentParent
-*
-aSource
-)
-;
 CanSetResult
 LegacyRevertIfNotOwningOrParentProcess
 (
