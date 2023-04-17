@@ -111,16 +111,10 @@ mach
 .
 decorators
 import
-(
-    
 CommandArgument
-    
 CommandProvider
-    
 Command
-    
 SubCommand
-)
 from
 mach
 .
@@ -576,13 +570,8 @@ compilation
 .
 warnings
 import
-(
-            
 WarningsCollector
-            
 WarningsDatabase
-        
-)
         
 self
 .
@@ -14235,6 +14224,7 @@ return
 rc
         
 checkers
+_
 _
 =
 self
