@@ -5,6 +5,8 @@ absolute_import
 unicode_literals
 import
 logging
+import
+os
 from
 functools
 import
@@ -94,6 +96,9 @@ None
 setup_logging
 =
 True
+env
+=
+None
 )
 :
     
@@ -155,6 +160,15 @@ already
 registered
     
 :
+param
+env
+:
+environment
+variables
+to
+use
+    
+:
 return
 :
 the
@@ -182,6 +196,18 @@ notice
 "
 "
     
+env
+=
+os
+.
+environ
+if
+env
+is
+None
+else
+env
+    
 of_session
 =
 session_via_cli
@@ -189,6 +215,7 @@ session_via_cli
 args
 options
 setup_logging
+env
 )
     
 with
@@ -213,6 +240,9 @@ None
 setup_logging
 =
 True
+env
+=
+None
 )
 :
     
@@ -302,6 +332,15 @@ already
 registered
     
 :
+param
+env
+:
+environment
+variables
+to
+use
+    
+:
 return
 :
 the
@@ -329,6 +368,18 @@ notice
 "
 "
     
+env
+=
+os
+.
+environ
+if
+env
+is
+None
+else
+env
+    
 parser
 elements
 =
@@ -337,6 +388,7 @@ build_parser
 args
 options
 setup_logging
+env
 )
     
 options
@@ -403,6 +455,9 @@ None
 setup_logging
 =
 True
+env
+=
+None
 )
 :
     
@@ -411,6 +466,15 @@ parser
 VirtualEnvConfigParser
 (
 options
+os
+.
+environ
+if
+env
+is
+None
+else
+env
 )
     
 add_version_flag
@@ -636,6 +700,9 @@ manual_upgrade
 options
 .
 app_data
+options
+.
+env
 )
         
 raise
@@ -774,6 +841,11 @@ read_only
 options
 .
 read_only_app_data
+env
+=
+options
+.
+env
 )
         
 default
@@ -786,6 +858,11 @@ read_only
 options
 .
 read_only_app_data
+env
+=
+options
+.
+env
 )
     
 )

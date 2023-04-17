@@ -223,12 +223,12 @@ self
 .
 interpreter
 .
-distutils_install
-[
+install_path
+(
 "
 headers
 "
-]
+)
     
 classmethod
     
@@ -701,6 +701,13 @@ return
 libpypy
 -
 c
+.
+dll
+"
+"
+libffi
+-
+7
 .
 dll
 "
