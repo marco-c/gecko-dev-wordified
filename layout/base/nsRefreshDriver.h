@@ -2954,6 +2954,11 @@ FinishedWaitingForTransaction
 (
 )
 ;
+bool
+CanDoCatchUpTick
+(
+)
+;
 mozilla
 :
 :
