@@ -31,13 +31,11 @@ worker
 :
 2d
 .
-shadow
+filter
 .
-canvasfilter
+canvasFilterObject
 .
 blur
-.
-object
 .
 exceptions
 /
