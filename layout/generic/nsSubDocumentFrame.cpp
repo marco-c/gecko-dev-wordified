@@ -6027,6 +6027,11 @@ PostDestroyData
 aPostDestroyData
 )
 {
+PropagateIsUnderHiddenEmbedderElementToSubView
+(
+true
+)
+;
 if
 (
 mPostedReflowCallback

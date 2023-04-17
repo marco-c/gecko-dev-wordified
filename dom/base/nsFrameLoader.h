@@ -827,6 +827,13 @@ bool
 aIsUnderHiddenEmbedderElement
 )
 ;
+void
+PropagateIsUnderHiddenEmbedderElement
+(
+bool
+aIsUnderHiddenEmbedderElement
+)
+;
 /
 /
 When
