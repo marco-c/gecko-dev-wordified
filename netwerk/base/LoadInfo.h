@@ -2181,6 +2181,17 @@ false
 ;
 /
 /
+See
+nsILoadInfo
+.
+isFromObjectOrEmbed
+bool
+mIsFromObjectOrEmbed
+=
+false
+;
+/
+/
 The
 cross
 origin
