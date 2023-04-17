@@ -8259,6 +8259,9 @@ i32
 picture_tile_height
 :
 i32
+reject_software_rasterizer
+:
+bool
 )
 -
 >
@@ -9116,6 +9119,7 @@ enable_gpu_markers
 panic_on_gl_error
 picture_tile_size
 texture_cache_config
+reject_software_rasterizer
 .
 .
 Default
