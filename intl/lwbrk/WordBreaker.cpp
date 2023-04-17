@@ -141,15 +141,6 @@ mozilla
 intl
 :
 :
-WordBreakClass
-;
-using
-mozilla
-:
-:
-intl
-:
-:
 WordBreaker
 ;
 using
@@ -933,6 +924,9 @@ LAO
 static
 *
 /
+WordBreaker
+:
+:
 WordBreakClass
 WordBreaker
 :
