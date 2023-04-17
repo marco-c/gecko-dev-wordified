@@ -125,10 +125,7 @@ crate
 renderer
 :
 :
-{
-FullFrameStats
 PipelineInfo
-}
 ;
 use
 crate
@@ -3708,13 +3705,6 @@ pub
 profile
 :
 TransactionProfile
-pub
-frame_stats
-:
-Option
-<
-FullFrameStats
->
 }
 pub
 enum

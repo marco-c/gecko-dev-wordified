@@ -2071,9 +2071,6 @@ aFilters
 WebRenderBackgroundData
 *
 aBackground
-const
-double
-aGeckoDLBuildTime
 )
 {
 AUTO_PROFILER_TRACING_MARKER
@@ -3001,14 +2998,6 @@ move
 mScrollData
 )
 )
-;
-dlData
-.
-mDLDesc
-.
-gecko_display_list_time
-=
-aGeckoDLBuildTime
 ;
 bool
 ret
