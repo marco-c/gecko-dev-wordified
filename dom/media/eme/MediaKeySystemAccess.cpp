@@ -8199,11 +8199,10 @@ obs
 NotifyObservers
 (
 aWindow
-"
-mediakeys
--
-request
-"
+MediaKeys
+:
+:
+kMediaKeysRequestTopic
 json
 .
 get
