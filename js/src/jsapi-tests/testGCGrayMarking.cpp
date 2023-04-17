@@ -3869,15 +3869,12 @@ nullptr
 ;
 }
 static
-bool
+void
 TraceGrayRoots
 (
 JSTracer
 *
 trc
-SliceBudget
-&
-budget
 void
 *
 data
@@ -3924,9 +3921,6 @@ root
 2
 "
 )
-;
-return
-true
 ;
 }
 JSObject
