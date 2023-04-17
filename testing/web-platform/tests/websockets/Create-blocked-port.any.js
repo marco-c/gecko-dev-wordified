@@ -454,6 +454,10 @@ alternate
 irc
 +
 tls
+10080
+/
+/
+amanda
 ]
 .
 forEach

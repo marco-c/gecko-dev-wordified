@@ -404,6 +404,10 @@ alternate
 irc
 +
 tls
+10080
+/
+/
+amanda
 ]
 ;
 BLOCKED_PORTS_LIST
