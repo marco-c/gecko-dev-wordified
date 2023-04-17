@@ -2617,9 +2617,6 @@ RegisterCurrentThread
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 This
@@ -2695,11 +2692,6 @@ BeginReading
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 {
 /
 /
@@ -2920,9 +2912,6 @@ UnregisterCurrentThread
 self
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 /
 /
 The
@@ -2947,11 +2936,6 @@ PROFILER_UNREGISTER_THREAD
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 /
 /
 Dispatch

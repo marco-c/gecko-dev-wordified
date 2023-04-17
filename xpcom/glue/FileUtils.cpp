@@ -2153,9 +2153,6 @@ return
 }
 #
 ifdef
-MOZ_GECKO_PROFILER
-#
-ifdef
 XP_WIN
 auto
 WideToUTF8
@@ -2310,8 +2307,6 @@ aFilePath
 endif
 )
 ;
-#
-endif
 #
 if
 defined
