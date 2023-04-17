@@ -783,9 +783,6 @@ struct
 timeval
 timer_set
 ;
-int
-retry_ct
-;
 NR_async_cb
 finished_cb
 ;
