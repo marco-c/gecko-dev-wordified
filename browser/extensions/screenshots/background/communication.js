@@ -319,9 +319,7 @@ result
 .
 then
 (
-(
 concreteResult
-)
 =
 >
 {
@@ -344,9 +342,7 @@ concreteResult
 .
 catch
 (
-(
 errorResult
-)
 =
 >
 {
