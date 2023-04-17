@@ -2490,12 +2490,6 @@ aEventMessage
 =
 =
 eSelectionChange
-|
-|
-aEventMessage
-=
-=
-eFormSelect
 )
 {
 mMayHaveSelectionChangeEventListener
