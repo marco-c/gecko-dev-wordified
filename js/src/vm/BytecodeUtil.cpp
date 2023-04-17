@@ -12278,6 +12278,12 @@ JSOp
 :
 GlobalThis
 :
+case
+JSOp
+:
+:
+NonSyntacticGlobalThis
+:
 /
 /
 |

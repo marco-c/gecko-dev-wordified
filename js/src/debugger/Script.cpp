@@ -9288,6 +9288,12 @@ case
 JSOp
 :
 :
+NonSyntacticGlobalThis
+:
+case
+JSOp
+:
+:
 Callee
 :
 case

@@ -12443,13 +12443,6 @@ script_
 hasNonSyntacticScope
 (
 )
-"
-WarpOracle
-should
-have
-aborted
-compilation
-"
 )
 ;
 JSObject
