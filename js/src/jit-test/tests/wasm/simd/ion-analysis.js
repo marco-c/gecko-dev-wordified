@@ -904,9 +904,6 @@ shuffle
 >
 permute
 16x8
-swap
-high
-low
 "
 )
 ;
@@ -1100,8 +1097,6 @@ shuffle
 >
 permute
 16x8
-high
-low
 "
 )
 ;
@@ -1295,7 +1290,6 @@ shuffle
 >
 permute
 16x8
-low
 "
 )
 ;
@@ -1489,7 +1483,6 @@ shuffle
 >
 permute
 16x8
-high
 "
 )
 ;
@@ -7117,9 +7110,6 @@ shuffle
 >
 permute
 16x8
-swap
-high
-low
 "
 )
 ;
