@@ -9638,7 +9638,9 @@ menu
 setAttribute
 (
 "
-selectiontype
+selection
+-
+type
 "
 "
 none
@@ -14335,7 +14337,9 @@ menuItem
 setAttribute
 (
 "
-selectiontype
+selection
+-
+type
 "
 "
 none
