@@ -1747,11 +1747,6 @@ c_void
 fn
 ReportMemory
 (
-ctx
-:
-*
-mut
-c_void
 size_of_op
 :
 unsafe
@@ -2250,8 +2245,6 @@ pub
 fn
 report_memory
 (
-&
-self
 size_of_op
 :
 unsafe
@@ -2279,9 +2272,6 @@ unsafe
 {
 ReportMemory
 (
-self
-.
-0
 size_of_op
 )
 }

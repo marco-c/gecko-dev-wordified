@@ -18251,9 +18251,6 @@ c
 size_t
 ReportMemory
 (
-Context
-*
-ctx
 size_t
 (
 *
