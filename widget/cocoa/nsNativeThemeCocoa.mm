@@ -18579,6 +18579,7 @@ content
 with
 the
 control
+background
 color
 .
 CGContextSetFillColorWithColor
@@ -18587,7 +18588,7 @@ cgContext
 [
 NSColor
 .
-controlColor
+controlBackgroundColor
 CGColor
 ]
 )
