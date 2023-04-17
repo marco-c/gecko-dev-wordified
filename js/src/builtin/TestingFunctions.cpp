@@ -4388,6 +4388,15 @@ true
 _
 (
 "
+urgentThreshold
+"
+JSGC_URGENT_THRESHOLD_BYTES
+true
+)
+\
+_
+(
+"
 chunkBytes
 "
 JSGC_CHUNK_BYTES
