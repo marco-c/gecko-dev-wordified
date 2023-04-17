@@ -1563,6 +1563,15 @@ vbox
 hbox
 >
 <
+image
+class
+=
+"
+downloadBlockedBadgeNew
+"
+/
+>
+<
 button
 class
 =
