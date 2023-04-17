@@ -1818,6 +1818,9 @@ max_target_size
 force_invalidation
 :
 false
+is_software
+:
+false
 }
 }
 }

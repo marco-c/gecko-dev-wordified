@@ -657,6 +657,10 @@ pub
 force_invalidation
 :
 bool
+pub
+is_software
+:
+bool
 }
 /
 /
