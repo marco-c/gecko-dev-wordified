@@ -5640,6 +5640,11 @@ Default
 )
 SYNC_ENUMS
 (
+PLUGIN
+Plugin
+)
+SYNC_ENUMS
+(
 CONTENT
 Content
 )
@@ -34069,11 +34074,9 @@ endif
 define
 GECKO_PROCESS_TYPE
 (
-enum_value
 enum_name
 string_name
 xre_name
-\
 bin_type
 )
 \
@@ -34758,11 +34761,9 @@ aProcessType
 define
 GECKO_PROCESS_TYPE
 (
-enum_value
 enum_name
 string_name
 xre_name
-\
 bin_type
 )
 \

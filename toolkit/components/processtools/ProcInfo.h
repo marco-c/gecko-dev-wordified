@@ -251,6 +251,7 @@ is
 named
 Browser
 here
+Plugin
 IPDLUnitTest
 GMPlugin
 GPU

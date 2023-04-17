@@ -193,7 +193,7 @@ etc
 .
 BlocklistGlobal
 .
-ExtensionBlocklistRS
+PluginBlocklistRS
 .
 ensureInitialized
 (
@@ -216,7 +216,7 @@ client
 RemoteSettings
 (
 "
-addons
+plugins
 "
 {
 bucketName
@@ -245,11 +245,11 @@ createRecords
 (
 [
 {
-name
+matchName
 :
 "
-My
-Extension
+Adobe
+Flex
 "
 filter_expression
 :
@@ -272,11 +272,11 @@ org
 '
 }
 {
-name
+matchName
 :
 "
-My
-Extension
+Adobe
+Flex
 "
 filter_expression
 :
@@ -329,15 +329,15 @@ createRecords
 (
 [
 {
-name
+matchName
 :
 "
-My
-Extension
+Adobe
+Flex
 "
 }
 {
-name
+matchName
 :
 "
 foopydoo
@@ -348,12 +348,11 @@ versionRange
 ]
 }
 {
-name
+matchName
 :
 "
-My
-Other
-Extension
+PDF
+reader
 "
 versionRange
 :
@@ -362,6 +361,9 @@ versionRange
 severity
 :
 0
+vulnerabilityStatus
+:
+1
 targetApplication
 :
 [
@@ -370,7 +372,7 @@ targetApplication
 ]
 }
 {
-name
+matchName
 :
 "
 Java
@@ -453,6 +455,9 @@ versionRange
 severity
 :
 0
+vulnerabilityStatus
+:
+1
 }
 ]
 matchFilename
@@ -466,7 +471,7 @@ so
 "
 }
 {
-name
+matchName
 :
 "
 foopydoo
@@ -542,7 +547,7 @@ createRecords
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -564,7 +569,7 @@ targetApplication
 willMatch
 :
 false
-name
+matchName
 :
 "
 foopydoo
@@ -593,7 +598,7 @@ guid
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -618,7 +623,7 @@ APP_ID
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -711,7 +716,7 @@ createRecords
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -736,7 +741,7 @@ APP_ID
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -766,7 +771,7 @@ minVersion
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -801,7 +806,7 @@ maxVersion
 willMatch
 :
 false
-name
+matchName
 :
 "
 foopydoo
@@ -836,7 +841,7 @@ maxVersion
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -866,7 +871,7 @@ minVersion
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -982,7 +987,7 @@ createRecords
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -1032,7 +1037,7 @@ maxVersion
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -1077,7 +1082,7 @@ minVersion
 willMatch
 :
 false
-name
+matchName
 :
 "
 foopydoo
@@ -1195,7 +1200,7 @@ createRecords
 willMatch
 :
 false
-name
+matchName
 :
 "
 foopydoo
@@ -1227,7 +1232,7 @@ maxVersion
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo
@@ -1259,7 +1264,7 @@ maxVersion
 willMatch
 :
 true
-name
+matchName
 :
 "
 foopydoo

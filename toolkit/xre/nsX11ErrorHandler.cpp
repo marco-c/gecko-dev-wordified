@@ -849,6 +849,9 @@ case
 GeckoProcessType_Default
 :
 case
+GeckoProcessType_Plugin
+:
+case
 GeckoProcessType_Content
 :
 CrashReporter

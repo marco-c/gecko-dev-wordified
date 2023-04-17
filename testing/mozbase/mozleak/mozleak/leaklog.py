@@ -1312,7 +1312,7 @@ list
 is
 based
 on
-XRE_GeckoProcessTypeToString
+kGeckoProcessTypeString
 .
 ipdlunittest
 processes

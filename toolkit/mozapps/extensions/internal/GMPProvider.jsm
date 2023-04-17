@@ -2485,6 +2485,16 @@ _updateTask
 ;
 }
 get
+pluginMimeTypes
+(
+)
+{
+return
+[
+]
+;
+}
+get
 pluginLibraries
 (
 )
@@ -4826,6 +4836,9 @@ AddonManager
 .
 VIEW_TYPE_LIST
 6000
+AddonManager
+.
+TYPE_SUPPORTS_ASK_TO_ACTIVATE
 )
 ]
 )
