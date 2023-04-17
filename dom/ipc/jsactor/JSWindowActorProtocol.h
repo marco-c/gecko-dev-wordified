@@ -352,6 +352,11 @@ bool
 >
 mPassive
 ;
+bool
+mCreateActor
+=
+true
+;
 }
 ;
 struct

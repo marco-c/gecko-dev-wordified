@@ -2040,6 +2040,9 @@ bool
 ?
 passive
 ;
+bool
+createActor
+;
 }
 ;
 struct
