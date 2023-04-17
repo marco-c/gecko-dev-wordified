@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 Helpers
 .
 h
