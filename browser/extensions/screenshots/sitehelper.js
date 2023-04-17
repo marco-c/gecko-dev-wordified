@@ -144,9 +144,7 @@ catcher
 .
 registerHandler
 (
-(
 errorObj
-)
 =
 >
 {
@@ -544,9 +542,7 @@ catcher
 .
 watchFunction
 (
-(
 event
-)
 =
 >
 {
@@ -578,9 +574,7 @@ catcher
 .
 watchFunction
 (
-(
 event
-)
 =
 >
 {
@@ -608,9 +602,7 @@ null
 .
 then
 (
-(
 info
-)
 =
 >
 {
