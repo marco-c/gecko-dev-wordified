@@ -34,11 +34,15 @@ controller
 new
 TaskController
 (
+{
+priority
+:
 '
 user
 -
 blocking
 '
+}
 )
 ;
 let

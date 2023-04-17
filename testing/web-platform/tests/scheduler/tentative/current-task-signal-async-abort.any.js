@@ -33,11 +33,15 @@ controller
 new
 TaskController
 (
+{
+priority
+:
 '
 user
 -
 blocking
 '
+}
 )
 ;
 return
