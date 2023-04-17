@@ -616,7 +616,6 @@ navigator
 .
 mozGetUserMediaDevices
 (
-constraints
 resolve
 reject
 aRequest
