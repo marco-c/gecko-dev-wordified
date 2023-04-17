@@ -6,14 +6,10 @@ usr
 bin
 /
 python
-from
-six
-.
-moves
-import
-urllib
 import
 json
+import
+urllib
 from
 mod_pywebsocket
 import

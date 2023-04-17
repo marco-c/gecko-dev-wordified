@@ -6,10 +6,6 @@ usr
 bin
 /
 python
-from
-six
-.
-moves
 import
 urllib
 def

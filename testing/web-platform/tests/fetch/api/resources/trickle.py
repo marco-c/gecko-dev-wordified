@@ -1,11 +1,5 @@
 import
 time
-from
-six
-.
-moves
-import
-xrange
 def
 main
 (
@@ -104,7 +98,7 @@ delay
 for
 i
 in
-xrange
+range
 (
 count
 )
