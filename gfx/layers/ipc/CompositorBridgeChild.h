@@ -844,17 +844,6 @@ SendFlushRendering
 )
 ;
 bool
-SendGetTileSize
-(
-int32_t
-*
-tileWidth
-int32_t
-*
-tileHeight
-)
-;
-bool
 SendStartFrameTimeRecording
 (
 const
