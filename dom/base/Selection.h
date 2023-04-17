@@ -2775,6 +2775,17 @@ mSelectionType
 *
 *
 *
+See
+documentation
+of
+GetRangesForInterval
+in
+Selection
+.
+webidl
+.
+*
+*
 param
 aReturn
 references
