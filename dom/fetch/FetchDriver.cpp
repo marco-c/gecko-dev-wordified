@@ -1634,8 +1634,6 @@ HttpFetch
 )
 ;
 }
-else
-{
 /
 /
 Needn
@@ -1741,10 +1739,6 @@ OnStartRequest
 (
 aRequest
 )
-;
-}
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
