@@ -395,7 +395,6 @@ enum
 ChannelState
 {
 ChannelClosed
-ChannelOpening
 ChannelConnected
 ChannelTimeout
 ChannelClosing
