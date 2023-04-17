@@ -120,10 +120,7 @@ UniquePtr
 <
 DateTimePatternGenerator
 >
-DateTimePatternGenerator
-:
-:
-Error
+ICUError
 >
 DateTimePatternGenerator
 :
@@ -163,10 +160,10 @@ status
 return
 Err
 (
-Error
-:
-:
-InternalError
+ToICUError
+(
+status
+)
 )
 ;
 }
