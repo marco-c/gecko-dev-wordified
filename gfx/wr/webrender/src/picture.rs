@@ -34074,7 +34074,7 @@ resource_cache
 .
 texture_cache
 .
-request
+request_picture_tile
 (
 handle
 frame_state
@@ -34492,7 +34492,7 @@ resource_cache
 .
 texture_cache
 .
-request
+request_picture_tile
 (
 handle
 frame_state
