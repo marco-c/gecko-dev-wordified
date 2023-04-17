@@ -1081,7 +1081,7 @@ Lock
 .
 /
 /
-mMozContainerRect
+mMozContainerSize
 is
 MozContainer
 size
@@ -1094,8 +1094,8 @@ was
 /
 allocated
 .
-LayoutDeviceIntRect
-mMozContainerRect
+LayoutDeviceIntSize
+mMozContainerSize
 ;
 /
 /
@@ -1120,8 +1120,8 @@ MozContainer
 widget
 size
 .
-LayoutDeviceIntRect
-mWLBufferRect
+LayoutDeviceIntSize
+mWLBufferSize
 ;
 RefPtr
 <

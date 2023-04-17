@@ -1613,7 +1613,7 @@ return
 mContainer
 ;
 }
-LayoutDeviceIntRect
+LayoutDeviceIntSize
 GetMozContainerSize
 (
 )

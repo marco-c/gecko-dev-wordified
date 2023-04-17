@@ -56132,7 +56132,7 @@ gFocusWindow
 }
 #
 endif
-LayoutDeviceIntRect
+LayoutDeviceIntSize
 nsWindow
 :
 :
@@ -56140,11 +56140,9 @@ GetMozContainerSize
 (
 )
 {
-LayoutDeviceIntRect
+LayoutDeviceIntSize
 size
 (
-0
-0
 0
 0
 )
