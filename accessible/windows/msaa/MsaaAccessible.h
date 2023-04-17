@@ -259,7 +259,7 @@ static
 int32_t
 GetChildIDFor
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
