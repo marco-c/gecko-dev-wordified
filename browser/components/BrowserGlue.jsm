@@ -4039,6 +4039,7 @@ matches
 about
 :
 studies
+*
 "
 ]
 }
