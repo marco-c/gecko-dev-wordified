@@ -2354,7 +2354,7 @@ defined
 #
 ifndef
 MESSAGE_TO_EVENT
-NON_IDL_EVENT
+EVENT
 (
 begin
 eSMILBeginEvent
@@ -2389,7 +2389,7 @@ defined
 #
 ifndef
 MESSAGE_TO_EVENT
-NON_IDL_EVENT
+EVENT
 (
 end
 eSMILEndEvent
@@ -2424,7 +2424,7 @@ defined
 #
 ifndef
 MESSAGE_TO_EVENT
-NON_IDL_EVENT
+EVENT
 (
 repeat
 eSMILRepeatEvent
