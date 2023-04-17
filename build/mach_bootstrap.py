@@ -3290,15 +3290,23 @@ mach
 .
 system
     
+cpu_brand
+=
+get_cpu_brand
+(
+)
+    
+if
+cpu_brand
+:
+        
 system_metrics
 .
 cpu_brand
 .
 set
 (
-get_cpu_brand
-(
-)
+cpu_brand
 )
     
 distro
