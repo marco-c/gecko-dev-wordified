@@ -474,6 +474,10 @@ load
 about
 :
 blank
+or
+about
+:
+privatebrowsing
 *
 For
 each
@@ -582,11 +586,6 @@ privatePage
 await
 openURIInPrivateTab
 (
-"
-about
-:
-blank
-"
 )
 ;
 gPrevRemoteTypePrivateTab

@@ -1605,6 +1605,16 @@ NOT_ONLY_TOPLEVEL_IN_BCG
 /
 Status
 12
+ABOUT_PAGE
+=
+1
+<
+<
+13
+/
+/
+Status
+13
 }
 ;
 }
