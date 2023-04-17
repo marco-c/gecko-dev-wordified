@@ -189,7 +189,7 @@ numFixedSlots
 if
 (
 !
-EmptyShape
+SharedShape
 :
 :
 ensureInitialCustomShape

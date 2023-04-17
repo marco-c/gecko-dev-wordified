@@ -221,12 +221,6 @@ BaseShape
 *
 base
 ;
-JS
-:
-:
-PropertyKey
-_1
-;
 uint32_t
 immutableFlags
 ;
@@ -235,7 +229,7 @@ constexpr
 uint32_t
 FIXED_SLOTS_SHIFT
 =
-24
+5
 ;
 static
 constexpr

@@ -718,7 +718,7 @@ address
 {
 shape
 =
-EmptyShape
+SharedShape
 :
 :
 getInitialShape

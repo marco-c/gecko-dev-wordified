@@ -749,13 +749,13 @@ if
 obj
 -
 >
-setLastProperty
+setShapeAndUpdateSlots
 (
 cx
 baseobj
 -
 >
-lastProperty
+shape
 (
 )
 )

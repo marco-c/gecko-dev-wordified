@@ -4581,14 +4581,6 @@ index
 value
 )
 ;
-/
-/
-XXX
-implemented
-in
-a
-later
-patch
 obj
 -
 >
