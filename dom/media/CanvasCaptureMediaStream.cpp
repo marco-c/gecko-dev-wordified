@@ -1100,7 +1100,9 @@ MediaTrackGraph
 :
 :
 SYSTEM_THREAD_DRIVER
-mWindow
+GetOwner
+(
+)
 MediaTrackGraph
 :
 :
