@@ -323,6 +323,11 @@ readlink
 "
 connect
 "
+"
+connect
+-
+abstract
+"
 }
 ;
 /
