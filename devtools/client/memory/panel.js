@@ -265,6 +265,9 @@ initializer
 .
 initialize
 (
+this
+.
+_commands
 )
 ;
 await

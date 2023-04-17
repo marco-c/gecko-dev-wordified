@@ -226,6 +226,7 @@ initialize
 async
 function
 (
+commands
 )
 {
 /
@@ -271,6 +272,9 @@ App
 toolbox
 :
 gToolbox
+commands
+:
+commands
 heapWorker
 :
 gHeapAnalysesClient
