@@ -2157,8 +2157,6 @@ browser
 /
 content
 /
-certerror
-/
 aboutNetError
 .
 xhtml
@@ -2308,8 +2306,6 @@ content
 /
 browser
 /
-certerror
-/
 aboutNetError
 .
 xhtml
@@ -2323,8 +2319,6 @@ browser
 base
 /
 content
-/
-certerror
 /
 aboutNetError
 .
@@ -2838,8 +2832,6 @@ browser
 base
 /
 content
-/
-certerror
 /
 aboutNetError
 .

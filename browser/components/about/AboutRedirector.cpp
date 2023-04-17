@@ -403,8 +403,6 @@ browser
 /
 content
 /
-certerror
-/
 aboutNetError
 .
 xhtml

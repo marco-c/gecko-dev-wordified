@@ -848,8 +848,6 @@ GeneratedFile
 "
 content
 /
-certerror
-/
 aboutNetErrorCodes
 .
 js
@@ -857,10 +855,6 @@ js
 script
 =
 "
-content
-/
-certerror
-/
 gen_aboutneterror_codes
 .
 py
