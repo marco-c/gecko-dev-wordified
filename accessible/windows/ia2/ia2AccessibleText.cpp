@@ -415,9 +415,9 @@ IsProxy
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPersistentProperties
+AccAttributes
 >
 attributes
 =

@@ -257,9 +257,10 @@ utils
 GetAccAttr
 (
 self
-"
-haspopup
-"
+nsGkAtoms
+:
+:
+aria_haspopup
 )
 ;
 }

@@ -333,7 +333,7 @@ override
 virtual
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 NativeAttributes
 (
@@ -1553,7 +1553,7 @@ range
 /
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 TextAttributes
 (
@@ -1585,7 +1585,7 @@ accessible
 /
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 DefaultTextAttributes
 (
@@ -3294,7 +3294,7 @@ aStartOffset
 uint32_t
 *
 aEndOffset
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 )
@@ -3320,7 +3320,7 @@ aAttributes
 void
 SetMathMLXMLRoles
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 )

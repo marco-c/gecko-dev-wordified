@@ -118,9 +118,6 @@ class
 StaticRefPtr
 ;
 }
-class
-nsIPersistentProperties
-;
 /
 *
 *
@@ -374,7 +371,13 @@ GetEventAttributes
 nsINode
 *
 aNode
-nsIPersistentProperties
+mozilla
+:
+:
+a11y
+:
+:
+AccAttributes
 *
 aAttributes
 )

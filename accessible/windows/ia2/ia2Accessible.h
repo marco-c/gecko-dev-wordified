@@ -138,9 +138,6 @@ Accessible2_3
 .
 h
 "
-class
-nsIPersistentProperties
-;
 namespace
 mozilla
 {
@@ -152,6 +149,9 @@ Attribute
 ;
 class
 Accessible
+;
+class
+AccAttributes
 ;
 class
 AccessibleWrap
@@ -961,7 +961,7 @@ static
 HRESULT
 ConvertToIA2Attributes
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 BSTR

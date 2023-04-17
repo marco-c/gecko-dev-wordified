@@ -280,8 +280,7 @@ GetAccAttr
 mozAccessible
 *
 aNativeAccessible
-const
-char
+nsAtom
 *
 aAttrName
 )

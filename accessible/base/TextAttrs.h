@@ -140,9 +140,6 @@ class
 nsIFrame
 ;
 class
-nsIPersistentProperties
-;
-class
 nsIContent
 ;
 class
@@ -154,6 +151,9 @@ mozilla
 namespace
 a11y
 {
+class
+AccAttributes
+;
 class
 LocalAccessible
 ;
@@ -450,7 +450,7 @@ offset
 void
 GetAttributes
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 uint32_t
@@ -664,7 +664,7 @@ virtual
 void
 Expose
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 bool
@@ -762,7 +762,7 @@ virtual
 void
 Expose
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 bool
@@ -915,7 +915,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1109,7 +1109,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1247,7 +1247,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1347,7 +1347,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1445,7 +1445,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1528,7 +1528,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1624,7 +1624,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1719,7 +1719,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1811,7 +1811,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -1910,7 +1910,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -2211,7 +2211,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const
@@ -2305,7 +2305,7 @@ virtual
 void
 ExposeValue
 (
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 const

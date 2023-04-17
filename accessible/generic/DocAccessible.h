@@ -406,7 +406,7 @@ override
 virtual
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 Attributes
 (

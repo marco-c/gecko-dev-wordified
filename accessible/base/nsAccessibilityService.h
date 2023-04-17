@@ -212,9 +212,6 @@ class
 nsIArray
 ;
 class
-nsIPersistentProperties
-;
-class
 nsITreeView
 ;
 namespace
@@ -240,6 +237,9 @@ dom
 namespace
 a11y
 {
+class
+AccAttributes
+;
 class
 ApplicationAccessible
 ;
@@ -1499,7 +1499,13 @@ const
 nsIContent
 *
 aContent
-nsIPersistentProperties
+mozilla
+:
+:
+a11y
+:
+:
+AccAttributes
 *
 aAttributes
 )

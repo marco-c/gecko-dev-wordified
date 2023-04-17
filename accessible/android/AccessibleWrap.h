@@ -420,7 +420,7 @@ double
 >
 (
 )
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 =
@@ -466,7 +466,7 @@ WrapperRole
 static
 already_AddRefed
 <
-nsIPersistentProperties
+AccAttributes
 >
 AttributeArrayToProperties
 (
@@ -619,7 +619,7 @@ GetRoleDescription
 (
 role
 aRole
-nsIPersistentProperties
+AccAttributes
 *
 aAttributes
 nsAString
