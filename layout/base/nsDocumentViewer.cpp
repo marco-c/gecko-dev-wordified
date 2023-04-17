@@ -257,13 +257,6 @@ h
 #
 include
 "
-nsDeviceContextSpecProxy
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -863,6 +856,13 @@ h
 include
 "
 nsPrintJob
+.
+h
+"
+#
+include
+"
+nsDeviceContextSpecProxy
 .
 h
 "
@@ -22544,6 +22544,9 @@ nsIPrintSettings
 aPrintSettings
 )
 {
+#
+ifdef
+NS_PRINTING
 {
 nsAutoScriptBlocker
 scriptBlocker
@@ -22741,6 +22744,8 @@ FlushType
 Layout
 )
 ;
+#
+endif
 return
 NS_OK
 ;
