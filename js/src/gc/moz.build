@@ -260,11 +260,6 @@ Statistics
 cpp
 "
 "
-Tenuring
-.
-cpp
-"
-"
 Tracer
 .
 cpp
