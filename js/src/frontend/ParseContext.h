@@ -1601,6 +1601,9 @@ declared
 /
 /
 names
+plus
+synthetic
+names
 for
 non
 -
@@ -1739,6 +1742,17 @@ kind
 (
 )
 )
+|
+|
+kind
+(
+)
+=
+=
+BindingKind
+:
+:
+Synthetic
 )
 {
 break
