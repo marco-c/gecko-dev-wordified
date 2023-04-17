@@ -2930,9 +2930,7 @@ trimmedSearchString
 let
 unescapedSearchString
 =
-Services
-.
-textToSubURI
+UrlbarUtils
 .
 unEscapeURIForUI
 (
