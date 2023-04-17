@@ -20359,8 +20359,6 @@ FloatRegister
 src
 FloatRegister
 dest
-FloatRegister
-temp
 )
 DEFINED_ON
 (
