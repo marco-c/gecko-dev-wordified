@@ -115,7 +115,7 @@ arrayref
 ;
 extern
 crate
-memmap
+memmap2
 ;
 #
 [
@@ -162,7 +162,7 @@ std
 mem
 ;
 use
-memmap
+memmap2
 :
 :
 Mmap
@@ -5514,7 +5514,7 @@ mapped
 otherwise
 returns
 a
-memmap
+memmap2
 :
 :
 Mmap

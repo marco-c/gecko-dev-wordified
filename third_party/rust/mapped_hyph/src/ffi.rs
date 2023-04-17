@@ -168,7 +168,7 @@ str
 Utf8Error
 ;
 use
-memmap
+memmap2
 :
 :
 Mmap
