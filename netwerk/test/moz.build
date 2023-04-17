@@ -96,9 +96,6 @@ httpserver
 gtest
 "
 "
-unit
-"
-"
 http3server
 "
 ]

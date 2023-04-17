@@ -839,7 +839,6 @@ path
 .
 join
 (
-        
 build
 .
 topsrcdir
@@ -850,20 +849,13 @@ security
 manager
 "
 "
-ssl
-"
-"
-tests
-"
-"
-unit
+tools
 "
 "
 pycert
 .
 py
 "
-    
 )
     
 pykey
@@ -874,7 +866,6 @@ path
 .
 join
 (
-        
 build
 .
 topsrcdir
@@ -885,20 +876,13 @@ security
 manager
 "
 "
-ssl
-"
-"
-tests
-"
-"
-unit
+tools
 "
 "
 pykey
 .
 py
 "
-    
 )
     
 with

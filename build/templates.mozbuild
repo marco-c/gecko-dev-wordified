@@ -1257,14 +1257,6 @@ gecko_templates
 mozbuild
 '
 )
-include
-(
-'
-test_templates
-.
-mozbuild
-'
-)
 template
 def
 DefineAndWasmDefine
