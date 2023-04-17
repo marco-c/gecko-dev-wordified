@@ -528,6 +528,8 @@ buttons
 =
 notification
 .
+buttonContainer
+.
 querySelectorAll
 (
 "
@@ -1328,6 +1330,8 @@ let
 buttons
 =
 notification
+.
+buttonContainer
 .
 querySelectorAll
 (
