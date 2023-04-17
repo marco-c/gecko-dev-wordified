@@ -3419,11 +3419,6 @@ SetDoNotTrack
 (
 )
 ;
-void
-SetGlobalPrivacyControl
-(
-)
-;
 already_AddRefed
 <
 nsChannelClassifier
