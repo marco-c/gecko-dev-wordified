@@ -128,7 +128,6 @@ jsm
 const
 {
 L10nRegistry
-FileSource
 }
 =
 ChromeUtils
@@ -1380,8 +1379,9 @@ L10nRegistry
 registerSources
 (
 [
-new
-FileSource
+L10nFileSource
+.
+createMock
 (
 "
 mock
@@ -1411,6 +1411,8 @@ locales
 locale
 }
 "
+[
+]
 )
 ]
 )
