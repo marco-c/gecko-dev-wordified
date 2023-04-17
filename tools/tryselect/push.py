@@ -60,6 +60,8 @@ os
 import
 sys
 import
+traceback
+import
 six
 from
 mozboot
@@ -1095,9 +1097,35 @@ empty
 )
 :
         
+try
+:
+            
 display_push_estimates
 (
 try_task_config
+)
+        
+except
+Exception
+:
+            
+traceback
+.
+print_exc
+(
+)
+            
+print
+(
+"
+warning
+:
+unable
+to
+display
+push
+estimates
+"
 )
     
 #
