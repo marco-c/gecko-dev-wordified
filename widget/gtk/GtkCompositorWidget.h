@@ -231,8 +231,10 @@ layers
 CompositorOptions
 &
 aOptions
+RefPtr
+<
 nsWindow
-*
+>
 aWindow
 /
 *
@@ -304,12 +306,6 @@ const
 LayoutDeviceIntRegion
 &
 aInvalidRegion
-)
-override
-;
-uintptr_t
-GetWidgetKey
-(
 )
 override
 ;
@@ -445,8 +441,10 @@ this
 }
 protected
 :
+RefPtr
+<
 nsWindow
-*
+>
 mWidget
 ;
 private

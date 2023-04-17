@@ -199,8 +199,10 @@ public
 explicit
 WindowSurfaceWaylandMB
 (
+RefPtr
+<
 nsWindow
-*
+>
 aWindow
 )
 ;
@@ -434,8 +436,10 @@ mozilla
 Mutex
 mSurfaceLock
 ;
+RefPtr
+<
 nsWindow
-*
+>
 mWindow
 ;
 LayoutDeviceIntSize

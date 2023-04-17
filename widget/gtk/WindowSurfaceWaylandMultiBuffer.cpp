@@ -1503,8 +1503,10 @@ WindowSurfaceWaylandMB
 :
 WindowSurfaceWaylandMB
 (
+RefPtr
+<
 nsWindow
-*
+>
 aWindow
 )
 :
@@ -1517,7 +1519,13 @@ lock
 )
 mWindow
 (
+std
+:
+:
+move
+(
 aWindow
+)
 )
 mFrameInProcess
 (
