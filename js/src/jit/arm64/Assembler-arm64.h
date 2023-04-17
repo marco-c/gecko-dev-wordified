@@ -329,7 +329,7 @@ Double
 static
 constexpr
 FloatRegister
-ScratchDoubleReg
+ScratchDoubleReg_
 =
 {
 FloatRegisters
@@ -359,7 +359,7 @@ masm
 AutoFloatRegisterScope
 (
 masm
-ScratchDoubleReg
+ScratchDoubleReg_
 )
 {
 }
@@ -384,7 +384,7 @@ Single
 static
 constexpr
 FloatRegister
-ScratchFloat32Reg
+ScratchFloat32Reg_
 =
 {
 FloatRegisters
@@ -414,7 +414,7 @@ masm
 AutoFloatRegisterScope
 (
 masm
-ScratchFloat32Reg
+ScratchFloat32Reg_
 )
 {
 }
@@ -497,7 +497,7 @@ masm
 AutoFloatRegisterScope
 (
 masm
-ScratchDoubleReg
+ScratchDoubleReg_
 )
 {
 MOZ_CRASH
@@ -5796,7 +5796,7 @@ is
 the
 /
 /
-ScratchDoubleReg
+ScratchDoubleReg_
 .
 static
 constexpr

@@ -1986,7 +1986,7 @@ static_assert
 RabaldrScratchF32
 !
 =
-ScratchFloat32Reg
+ScratchFloat32Reg_
 "
 Too
 busy
@@ -1998,7 +1998,7 @@ static_assert
 RabaldrScratchF64
 !
 =
-ScratchDoubleReg
+ScratchDoubleReg_
 "
 Too
 busy
