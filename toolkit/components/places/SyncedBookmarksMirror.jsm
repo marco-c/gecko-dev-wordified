@@ -3777,26 +3777,6 @@ seconds
 *
 param
 {
-String
-[
-]
-}
-[
-options
-.
-weakUpload
-]
-*
-GUIDs
-of
-bookmarks
-to
-weakly
-upload
-.
-*
-param
-{
 Number
 }
 [
@@ -4014,7 +3994,6 @@ apply
 {
 localTimeSeconds
 remoteTimeSeconds
-weakUpload
 maxFrecenciesToRecalculate
 notifyInStableOrder
 signal
@@ -4112,7 +4091,6 @@ tryApply
 finalizeOrInterruptSignal
 localTimeSeconds
 remoteTimeSeconds
-weakUpload
 maxFrecenciesToRecalculate
 notifyInStableOrder
 )
@@ -4139,7 +4117,6 @@ tryApply
 signal
 localTimeSeconds
 remoteTimeSeconds
-weakUpload
 maxFrecenciesToRecalculate
 =
 DEFAULT_MAX_FRECENCIES_TO_RECALCULATE
@@ -4171,7 +4148,6 @@ merge
 signal
 localTimeSeconds
 remoteTimeSeconds
-weakUpload
 )
 )
 ;
@@ -4590,10 +4566,6 @@ now
 remoteTimeSeconds
 =
 0
-weakUpload
-=
-[
-]
 )
 {
 return
@@ -5018,7 +4990,6 @@ merge
 (
 localTimeSeconds
 remoteTimeSeconds
-weakUpload
 callback
 )
 ;
