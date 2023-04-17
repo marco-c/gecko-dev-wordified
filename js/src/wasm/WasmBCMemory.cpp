@@ -5335,7 +5335,7 @@ ecx
 elif
 defined
 (
-JS_CODEGEN_NONE
+__wasi__
 )
 static
 void
