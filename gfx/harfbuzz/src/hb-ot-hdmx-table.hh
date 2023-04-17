@@ -337,7 +337,6 @@ c
 >
 extend
 (
-*
 this
 length
 )

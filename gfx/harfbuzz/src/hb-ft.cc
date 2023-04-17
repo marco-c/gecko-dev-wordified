@@ -586,7 +586,7 @@ ft_font
 hb_ft_font_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -735,7 +735,7 @@ fini
 (
 )
 ;
-free
+hb_free
 (
 ft_font
 )
@@ -3584,7 +3584,7 @@ buffer
 FT_Byte
 *
 )
-malloc
+hb_malloc
 (
 length
 )
@@ -3614,7 +3614,7 @@ if
 error
 )
 {
-free
+hb_free
 (
 buffer
 )
@@ -3635,7 +3635,7 @@ buffer
 length
 HB_MEMORY_MODE_WRITABLE
 buffer
-free
+hb_free
 )
 ;
 }
@@ -4888,7 +4888,7 @@ ft_coords
 FT_Fixed
 *
 )
-calloc
+hb_calloc
 (
 mm_var
 -
@@ -4908,7 +4908,7 @@ coords
 int
 *
 )
-calloc
+hb_calloc
 (
 mm_var
 -
@@ -5016,12 +5016,12 @@ nullptr
 ;
 }
 }
-free
+hb_free
 (
 coords
 )
 ;
-free
+hb_free
 (
 ft_coords
 )
@@ -5043,7 +5043,7 @@ mm_var
 ;
 #
 else
-free
+hb_free
 (
 mm_var
 )
@@ -5806,7 +5806,7 @@ ft_coords
 FT_Fixed
 *
 )
-calloc
+hb_calloc
 (
 num_coords
 sizeof
@@ -5855,7 +5855,7 @@ num_coords
 ft_coords
 )
 ;
-free
+hb_free
 (
 ft_coords
 )

@@ -753,7 +753,6 @@ c
 >
 extend_min
 (
-*
 this
 )
 )
@@ -1315,7 +1314,6 @@ c
 >
 extend_min
 (
-*
 this
 )
 )
@@ -2180,7 +2178,6 @@ c
 >
 extend_min
 (
-*
 this
 )
 )

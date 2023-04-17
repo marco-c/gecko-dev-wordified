@@ -4264,7 +4264,7 @@ cbdt_prime
 -
 >
 arrayZ
-free
+hb_free
 )
 ;
 cbdt_prime

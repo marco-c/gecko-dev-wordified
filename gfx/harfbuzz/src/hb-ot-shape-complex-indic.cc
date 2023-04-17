@@ -648,6 +648,11 @@ a
 time
 after
 initial_reordering
+*
+constrained
+to
+the
+syllable
 .
 *
 /
@@ -865,11 +870,11 @@ at
 once
 after
 final_reordering
+constrained
 *
-but
-before
-clearing
-syllables
+to
+the
+syllable
 .
 *
 Default
@@ -1602,7 +1607,7 @@ indic_plan
 indic_shape_plan_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -2106,7 +2111,7 @@ void
 data
 )
 {
-free
+hb_free
 (
 data
 )
@@ -7187,6 +7192,7 @@ buffer
 indic_broken_cluster
 OT_DOTTEDCIRCLE
 OT_Repha
+POS_END
 )
 ;
 foreach_syllable

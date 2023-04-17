@@ -327,7 +327,7 @@ buffer
 char
 *
 )
-malloc
+hb_malloc
 (
 length
 )
@@ -388,12 +388,12 @@ buffer
 length
 HB_MEMORY_MODE_WRITABLE
 buffer
-free
+hb_free
 )
 ;
 fail_with_releasedc_and_free
 :
-free
+hb_free
 (
 buffer
 )

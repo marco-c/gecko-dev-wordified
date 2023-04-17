@@ -209,9 +209,7 @@ hh
 *
 Implements
 a
-lock
--
-free
+lockfree
 cache
 for
 int

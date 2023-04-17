@@ -301,7 +301,9 @@ is
 not
 *
 exactly
-free
+zero
+-
+cost
 .
 *
 /

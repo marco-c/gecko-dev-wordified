@@ -3707,7 +3707,7 @@ unsigned
 char
 *
 )
-malloc
+hb_malloc
 (
 len
 +
@@ -3898,7 +3898,7 @@ buf
 len
 )
 ;
-free
+hb_free
 (
 buf
 )

@@ -832,7 +832,7 @@ f
 )
 ;
 }
-protected
+public
 :
 Tag
 axisTag
@@ -850,6 +850,8 @@ axis
 .
 *
 /
+protected
+:
 HBFixed
 minValue
 ;
@@ -895,6 +897,8 @@ axis
 .
 *
 /
+public
+:
 HBUINT16
 flags
 ;
@@ -1764,7 +1768,7 @@ nameids
 )
 ;
 }
-protected
+public
 :
 hb_array_t
 <

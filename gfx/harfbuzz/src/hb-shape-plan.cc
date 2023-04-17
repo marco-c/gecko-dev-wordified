@@ -437,7 +437,7 @@ features
 hb_feature_t
 *
 )
-calloc
+hb_calloc
 (
 num_user_features
 sizeof
@@ -814,7 +814,7 @@ bail
 :
 :
 :
-free
+hb_free
 (
 features
 )
@@ -1561,13 +1561,13 @@ shape_plan
 >
 key
 .
-free
+fini
 (
 )
 ;
 bail2
 :
-free
+hb_free
 (
 shape_plan
 )
@@ -1801,11 +1801,11 @@ shape_plan
 >
 key
 .
-free
+fini
 (
 )
 ;
-free
+hb_free
 (
 shape_plan
 )
@@ -2193,7 +2193,8 @@ if
 (
 unlikely
 (
-hb_object_is_inert
+!
+hb_object_is_valid
 (
 shape_plan
 )
@@ -2870,7 +2871,8 @@ shape_plans
 bool
 dont_cache
 =
-hb_object_is_inert
+!
+hb_object_is_valid
 (
 face
 )
@@ -3010,7 +3012,7 @@ hb_face_t
 plan_node_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -3070,7 +3072,7 @@ hb_shape_plan_destroy
 shape_plan
 )
 ;
-free
+hb_free
 (
 node
 )

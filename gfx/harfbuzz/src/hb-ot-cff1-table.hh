@@ -1028,7 +1028,6 @@ c
 >
 extend_min
 (
-*
 this
 )
 ;
@@ -2731,7 +2730,6 @@ c
 >
 extend_min
 (
-*
 this
 )
 ;
@@ -4089,6 +4087,9 @@ OpCode_Copyright
 :
 case
 OpCode_FullName
+:
+case
+OpCode_FontName
 :
 case
 OpCode_FamilyName

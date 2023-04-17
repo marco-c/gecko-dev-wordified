@@ -563,7 +563,7 @@ name
 _t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -625,7 +625,7 @@ _t
 l
 )
 {
-free
+hb_free
 (
 l
 )

@@ -340,8 +340,8 @@ for
 loop
 .
 That
-comes
-free
+already
+happens
 if
 the
 iterator

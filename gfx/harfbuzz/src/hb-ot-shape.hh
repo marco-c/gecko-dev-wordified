@@ -518,6 +518,11 @@ false
 ;
 #
 endif
+bool
+apply_fallback_kern
+:
+1
+;
 #
 ifndef
 HB_NO_AAT_SHAPE

@@ -341,7 +341,7 @@ shapers
 hb_shaper_entry_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -584,7 +584,7 @@ hb_shaper_entry_t
 p
 )
 {
-free
+hb_free
 (
 (
 void

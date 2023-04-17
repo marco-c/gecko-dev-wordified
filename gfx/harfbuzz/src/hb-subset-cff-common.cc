@@ -282,10 +282,6 @@ CFF
 ;
 /
 *
-*
-*
-hb_plan_subset_cff_fdselect
-*
 Determine
 an
 optimal
@@ -321,7 +317,6 @@ font
 index
 remapping
 table
-*
 *
 /
 bool
@@ -1048,10 +1043,6 @@ true
 }
 /
 *
-*
-*
-hb_serialize_cff_fdselect
-*
 Serialize
 a
 subset
@@ -1060,7 +1051,6 @@ format
 planned
 above
 .
-*
 *
 /
 bool

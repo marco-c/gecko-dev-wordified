@@ -403,7 +403,7 @@ char
 *
 *
 )
-calloc
+hb_calloc
 (
 1
 +
@@ -498,7 +498,7 @@ char
 l
 )
 {
-free
+hb_free
 (
 l
 )

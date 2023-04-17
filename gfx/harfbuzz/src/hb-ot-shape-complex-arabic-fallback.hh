@@ -1992,7 +1992,7 @@ fallback_plan
 arabic_fallback_plan_t
 *
 )
-calloc
+hb_calloc
 (
 1
 sizeof
@@ -2129,7 +2129,7 @@ num_lookups
 0
 )
 ;
-free
+hb_free
 (
 fallback_plan
 )
@@ -2223,7 +2223,7 @@ fallback_plan
 >
 free_lookups
 )
-free
+hb_free
 (
 fallback_plan
 -
@@ -2235,7 +2235,7 @@ i
 )
 ;
 }
-free
+hb_free
 (
 fallback_plan
 )
