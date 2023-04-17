@@ -1491,17 +1491,6 @@ __main__
 from
 mozbuild
 .
-util
-import
-patch_main
-                    
-patch_main
-(
-)
-                    
-from
-mozbuild
-.
 config_status
 import
 config_status
