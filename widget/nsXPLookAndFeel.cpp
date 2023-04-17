@@ -832,7 +832,7 @@ sIntPrefs
 [
 ]
 [
-42
+43
 ]
 =
 {
@@ -1172,6 +1172,11 @@ systemVerticalScrollbarWidth
 ui
 .
 systemHorizontalScrollbarHeight
+"
+"
+ui
+.
+touchDeviceSupportPresent
 "
 }
 ;
