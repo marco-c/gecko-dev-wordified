@@ -171,6 +171,7 @@ gradient
 :
 {
 FastLinearGradientCacheKey
+LinearGradientCacheKey
 RadialGradientCacheKey
 ConicGradientCacheKey
 }
@@ -437,6 +438,10 @@ LineDecorationCacheKey
 FastLinearGradient
 (
 FastLinearGradientCacheKey
+)
+LinearGradient
+(
+LinearGradientCacheKey
 )
 RadialGradient
 (

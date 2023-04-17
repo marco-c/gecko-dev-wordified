@@ -2442,6 +2442,16 @@ data_handle
 .
 .
 }
+|
+PrimitiveInstanceKind
+:
+:
+CachedLinearGradient
+{
+data_handle
+.
+.
+}
 =
 >
 {
