@@ -289,9 +289,7 @@ DAMAGE
 #
 include
 "
-js
--
-config
+jstypes
 .
 h
 "
