@@ -348,15 +348,8 @@ kMaximumPoolThreadCount
 =
 8
 ;
-/
-*
 static
-*
-/
 int32_t
-TaskController
-:
-:
 GetPoolThreadCount
 (
 )

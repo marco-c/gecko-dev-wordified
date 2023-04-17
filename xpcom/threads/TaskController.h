@@ -2373,12 +2373,6 @@ return
 mMTTaskRunnableProcessedTask
 ;
 }
-static
-int32_t
-GetPoolThreadCount
-(
-)
-;
 private
 :
 friend
