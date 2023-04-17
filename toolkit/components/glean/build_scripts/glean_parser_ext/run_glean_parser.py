@@ -124,6 +124,9 @@ timing_distribution
 "
 memory_distribution
 "
+"
+custom_distribution
+"
 ]
     
 "

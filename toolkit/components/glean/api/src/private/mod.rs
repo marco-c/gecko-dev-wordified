@@ -149,6 +149,9 @@ mod
 counter
 ;
 mod
+custom_distribution
+;
+mod
 datetime
 ;
 mod
@@ -219,6 +222,16 @@ counter
 :
 :
 CounterMetric
+;
+pub
+use
+self
+:
+:
+custom_distribution
+:
+:
+CustomDistributionMetric
 ;
 pub
 use
