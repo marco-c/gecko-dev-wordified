@@ -2010,19 +2010,12 @@ name
 ?
 "
         
-os
-.
-path
-.
-realpath
-(
 perfdocs_sample
 [
 "
 config
 "
 ]
-)
     
 )
     
