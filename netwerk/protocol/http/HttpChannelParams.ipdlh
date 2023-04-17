@@ -121,9 +121,6 @@ include
 NeckoChannelParams
 ;
 include
-IPCStream
-;
-include
 "
 mozilla
 /
@@ -298,15 +295,6 @@ dataFromSocketProcess
 ;
 bool
 hasHTTPSRR
-;
-}
-;
-struct
-HttpChannelAltDataStream
-{
-IPCStream
-?
-altDataInputStream
 ;
 }
 ;
