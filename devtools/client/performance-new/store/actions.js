@@ -765,6 +765,7 @@ Bug
 1615431
 -
 The
+old
 popup
 supported
 restarting
@@ -786,6 +787,14 @@ about
 :
 profiling
 workflow
+because
+/
+/
+jstracer
+is
+disabled
+for
+now
 .
 if
 (

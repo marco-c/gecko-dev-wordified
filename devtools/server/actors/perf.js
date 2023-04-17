@@ -298,10 +298,10 @@ be
 re
 -
 used
-with
-the
-profiler
-popup
+by
+about
+:
+profiling
 .
 this
 .
