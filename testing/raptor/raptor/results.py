@@ -121,9 +121,7 @@ KNOWN_TEST_MODIFIERS
 [
     
 "
-condprof
--
-settled
+nocondprof
 "
     
 "
@@ -203,9 +201,9 @@ app
 =
 None
         
-conditioned_profile
+no_conditioned_profile
 =
-None
+False
         
 cold
 =
@@ -261,12 +259,6 @@ self
 app
 =
 app
-        
-self
-.
-conditioned_profile
-=
-conditioned_profile
         
 self
 .
@@ -339,6 +331,12 @@ self
 browser_name
 =
 None
+        
+self
+.
+no_conditioned_profile
+=
+no_conditioned_profile
         
 self
 .
@@ -423,7 +421,7 @@ None
 if
 self
 .
-conditioned_profile
+no_conditioned_profile
 :
                 
 extra_options
@@ -431,15 +429,8 @@ extra_options
 append
 (
 "
-condprof
--
-%
-s
+nocondprof
 "
-%
-self
-.
-conditioned_profile
 )
             
 if
@@ -1585,22 +1576,12 @@ build_extra_options
 [
                     
 (
-                        
 self
 .
-conditioned_profile
-                        
+no_conditioned_profile
 "
-condprof
--
-%
-s
+nocondprof
 "
-%
-self
-.
-conditioned_profile
-                    
 )
                     
 (
