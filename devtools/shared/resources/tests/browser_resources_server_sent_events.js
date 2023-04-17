@@ -44,9 +44,7 @@ SENT
 EVENTS
 .
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -55,11 +53,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -232,7 +232,7 @@ resourceWatcher
 watchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -404,7 +404,7 @@ resourceWatcher
 unwatchResources
 (
 [
-ResourceWatcher
+resourceWatcher
 .
 TYPES
 .
@@ -451,7 +451,7 @@ is
 resource
 .
 resourceType
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .

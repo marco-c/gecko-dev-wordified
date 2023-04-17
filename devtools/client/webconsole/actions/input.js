@@ -123,9 +123,7 @@ prefs
 )
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -134,11 +132,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -1351,7 +1351,7 @@ text
 }
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -1514,7 +1514,7 @@ messagesAdd
 {
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -1630,7 +1630,7 @@ messagesAdd
 {
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .

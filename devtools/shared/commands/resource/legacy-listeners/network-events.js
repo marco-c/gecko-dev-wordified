@@ -62,9 +62,7 @@ strict
 "
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -73,11 +71,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -263,7 +263,7 @@ actor
 channelId
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -297,7 +297,7 @@ actor
 channelId
 resourceType
 :
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .

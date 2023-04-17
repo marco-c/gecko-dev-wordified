@@ -62,9 +62,7 @@ strict
 "
 ;
 const
-{
-ResourceWatcher
-}
+ResourceCommand
 =
 require
 (
@@ -73,11 +71,13 @@ devtools
 /
 shared
 /
-resources
+commands
+/
+resource
 /
 resource
 -
-watcher
+command
 "
 )
 ;
@@ -426,7 +426,7 @@ message
 .
 resourceType
 =
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
@@ -515,7 +515,7 @@ message
 .
 resourceType
 =
-ResourceWatcher
+ResourceCommand
 .
 TYPES
 .
