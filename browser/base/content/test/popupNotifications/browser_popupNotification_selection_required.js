@@ -154,7 +154,7 @@ HTMLElement
 /
 offsetParent
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
