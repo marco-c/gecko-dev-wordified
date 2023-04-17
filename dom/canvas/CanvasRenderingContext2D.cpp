@@ -4845,10 +4845,6 @@ color
 )
 ;
 }
-mStops
-=
-nullptr
-;
 GradientStop
 newStop
 ;
