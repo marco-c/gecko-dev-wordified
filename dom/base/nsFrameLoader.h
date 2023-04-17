@@ -3226,6 +3226,11 @@ nsCString
 mRemoteType
 ;
 bool
+mInitialized
+:
+1
+;
+bool
 mDepthTooGreat
 :
 1
