@@ -422,6 +422,13 @@ project
     
 if
 disable_target_task_filter
+and
+"
+full
+"
+not
+in
+attr
 :
         
 key
@@ -747,6 +754,17 @@ exit
 #
 write
 cache
+        
+key
+=
+cache_key
+(
+attr
+generator
+.
+parameters
+disable_target_task_filter
+)
         
 with
 open
