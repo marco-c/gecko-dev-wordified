@@ -2316,12 +2316,6 @@ GetNextTickHint
 )
 ;
 static
-bool
-IsRegularRateTimerTicking
-(
-)
-;
-static
 void
 DispatchIdleTaskAfterTickUnlessExists
 (
