@@ -276,6 +276,16 @@ sPermissionsMap
 Permissions
 API
 map
+.
+All
+permission
+names
+have
+to
+be
+in
+lowercase
+.
 {
 "
 geo
