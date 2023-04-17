@@ -17102,6 +17102,15 @@ intl_SelectPluralRuleRange
 JS_FN
 (
 "
+intl_SupportedValuesOf
+"
+intl_SupportedValuesOf
+1
+0
+)
+JS_FN
+(
+"
 intl_TryValidateAndCanonicalizeLanguageTag
 "
 intl_TryValidateAndCanonicalizeLanguageTag
