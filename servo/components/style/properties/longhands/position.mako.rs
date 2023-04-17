@@ -497,11 +497,6 @@ z
 -
 index
 "
-flags
-=
-"
-CREATES_STACKING_CONTEXT
-"
 animation_value_type
 =
 "

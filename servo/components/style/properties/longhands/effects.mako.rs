@@ -133,7 +133,6 @@ ComputedValue
 flags
 =
 "
-CREATES_STACKING_CONTEXT
 CAN_ANIMATE_ON_COMPOSITOR
 "
 spec
@@ -369,12 +368,6 @@ extra_prefixes
 "
 webkit
 "
-flags
-=
-"
-CREATES_STACKING_CONTEXT
-FIXPOS_CB
-"
 spec
 =
 "
@@ -441,12 +434,6 @@ vector_animation_type
 =
 "
 with_zero
-"
-flags
-=
-"
-CREATES_STACKING_CONTEXT
-FIXPOS_CB
 "
 gecko_pref
 =
@@ -551,11 +538,6 @@ animation_value_type
 =
 "
 discrete
-"
-flags
-=
-"
-CREATES_STACKING_CONTEXT
 "
 spec
 =

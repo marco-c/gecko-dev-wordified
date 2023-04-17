@@ -580,11 +580,6 @@ basic_shape
 :
 ClipPath
 "
-flags
-=
-"
-CREATES_STACKING_CONTEXT
-"
 spec
 =
 "
@@ -1286,11 +1281,6 @@ animation_value_type
 =
 "
 discrete
-"
-flags
-=
-"
-CREATES_STACKING_CONTEXT
 "
 )
 }
