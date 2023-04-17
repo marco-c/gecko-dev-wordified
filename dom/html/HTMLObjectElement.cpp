@@ -284,7 +284,7 @@ FromParser
 aFromParser
 )
 :
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 (
 std
 :
@@ -390,7 +390,7 @@ usemap
 )
 |
 |
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 IsInteractiveHTMLContent
@@ -491,7 +491,7 @@ HTMLObjectElement
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 HTMLObjectElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -510,7 +510,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 HTMLObjectElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -528,7 +528,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLObjectElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 imgINotificationObserver
 nsIRequestObserver
 nsIStreamListener
@@ -559,7 +559,7 @@ aParent
 nsresult
 rv
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 BindToTree
@@ -675,7 +675,7 @@ UnbindFromTree
 aNullParent
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 UnbindFromTree
@@ -727,7 +727,7 @@ rv
 )
 ;
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 AfterSetAttr
@@ -777,7 +777,7 @@ rv
 )
 ;
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 OnAttrSetButNotChanged
@@ -1167,7 +1167,7 @@ doesn
 '
 t
 call
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 intentionally
 .
 /
@@ -1437,7 +1437,7 @@ true
 }
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 ParseAttribute
@@ -1465,7 +1465,7 @@ MappedDeclarations
 aDecls
 )
 {
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 MapImageAlignAttributeInto
@@ -1474,7 +1474,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 MapImageBorderAttributeInto
@@ -1483,7 +1483,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 MapImageMarginAttributeInto
@@ -1492,7 +1492,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 MapImageSizeAttributesInto
@@ -1501,7 +1501,7 @@ aAttributes
 aDecls
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 MapCommonAttributesInto
@@ -1646,7 +1646,7 @@ IntrinsicState
 const
 {
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 IntrinsicState
@@ -1693,7 +1693,7 @@ Destroy
 (
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 DestroyContent
@@ -1715,7 +1715,7 @@ aDest
 nsresult
 rv
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 CopyInnerTo

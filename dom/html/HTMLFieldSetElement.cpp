@@ -207,7 +207,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 (
 std
 :
@@ -317,14 +317,14 @@ this
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 HTMLFieldSetElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 mValidity
 mElements
 )
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLFieldSetElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 nsIConstraintValidation
 )
 NS_IMPL_ELEMENT_CLONE
@@ -397,7 +397,7 @@ mEvent
 return
 ;
 }
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 GetEventTargetParent
@@ -563,7 +563,7 @@ aNotify
 }
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 AfterSetAttr
@@ -808,7 +808,7 @@ true
 }
 }
 }
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 InsertChildBefore
@@ -945,7 +945,7 @@ break
 }
 }
 }
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 RemoveChildNode
@@ -1739,7 +1739,7 @@ const
 EventStates
 state
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormControlElement
 :
 :
 IntrinsicState
