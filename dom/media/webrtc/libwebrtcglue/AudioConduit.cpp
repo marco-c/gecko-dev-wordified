@@ -658,6 +658,19 @@ return
 true
 ;
 }
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
+/
+/
+Avoid
+racing
+against
+GetLocalSSRCs
 /
 /
 Update
@@ -682,6 +695,7 @@ aSSRCs
 0
 ]
 ;
+}
 mSendStreamConfig
 .
 rtp
