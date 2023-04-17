@@ -12709,12 +12709,9 @@ mode
 >
 *
 xdr
-UniquePtr
-<
-ImmutableScriptData
->
+SharedImmutableScriptData
 &
-isd
+sisd
 )
 ;
 /
@@ -13269,8 +13266,6 @@ return
 sharedData_
 -
 >
-isd_
-.
 get
 (
 )
