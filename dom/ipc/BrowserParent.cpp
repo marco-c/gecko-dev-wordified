@@ -23931,6 +23931,7 @@ gvHistory
 QueryVisitedState
 (
 widget
+mManager
 std
 :
 :
