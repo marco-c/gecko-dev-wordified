@@ -129,6 +129,11 @@ ExtensionBrowser
 cpp
 "
 "
+ExtensionEventListener
+.
+cpp
+"
+"
 ExtensionEventManager
 .
 cpp
