@@ -2321,7 +2321,7 @@ scriptBlocker
 presShell
 -
 >
-Paint
+PaintAndRequestComposite
 (
 view
 PaintFlags
