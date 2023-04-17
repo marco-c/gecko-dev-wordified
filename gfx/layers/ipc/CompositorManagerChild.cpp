@@ -757,7 +757,7 @@ CreateWidgetCompositorBridge
 (
 uint64_t
 aProcessToken
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 uint32_t
@@ -915,7 +915,7 @@ CompositorManagerChild
 :
 CreateSameProcessWidgetCompositorBridge
 (
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 uint32_t

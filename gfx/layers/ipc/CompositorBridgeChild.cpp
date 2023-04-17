@@ -254,7 +254,7 @@ mozilla
 /
 layers
 /
-LayerManager
+WebRenderLayerManager
 .
 h
 "
@@ -1758,7 +1758,7 @@ InitForWidget
 (
 uint64_t
 aProcessToken
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 uint32_t
@@ -2194,7 +2194,7 @@ Bug
 .
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 m
 =

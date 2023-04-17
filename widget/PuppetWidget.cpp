@@ -3739,7 +3739,7 @@ function
 <
 bool
 (
-LayerManager
+WebRenderLayerManager
 *
 )
 >
@@ -3749,7 +3749,7 @@ aInitializeFunc
 {
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 lm
 =

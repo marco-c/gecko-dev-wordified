@@ -5548,7 +5548,7 @@ CreateTopLevelCompositor
 nsBaseWidget
 *
 aWidget
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 CSSToLayoutDeviceScale
@@ -5757,7 +5757,7 @@ CreateRemoteSession
 nsBaseWidget
 *
 aWidget
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const

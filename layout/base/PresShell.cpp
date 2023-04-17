@@ -33851,12 +33851,6 @@ visible
 aArea
 )
 ;
-RefPtr
-<
-LayerManager
->
-layerManager
-=
 rangeInfo
 -
 >
@@ -43099,11 +43093,6 @@ RefreshDriver
 )
 ;
 layerManager
--
->
-AsWebRenderLayerManager
-(
-)
 -
 >
 EndTransactionWithoutLayer

@@ -246,7 +246,7 @@ class
 Layer
 ;
 class
-LayerManager
+WebRenderLayerManager
 ;
 struct
 CompositorAnimationData
@@ -743,7 +743,7 @@ nsDisplayItem
 aItem
 DisplayItemType
 aType
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const
@@ -830,7 +830,7 @@ nsCSSPropertyID
 aProperty
 Send
 aSendFlag
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 )

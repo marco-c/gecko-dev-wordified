@@ -304,7 +304,7 @@ Create
 nsBaseWidget
 *
 aWidget
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const

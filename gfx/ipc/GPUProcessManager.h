@@ -311,7 +311,7 @@ class
 UiCompositorControllerChild
 ;
 class
-LayerManager
+WebRenderLayerManager
 ;
 }
 /
@@ -463,8 +463,8 @@ typedef
 layers
 :
 :
-LayerManager
-LayerManager
+WebRenderLayerManager
+WebRenderLayerManager
 ;
 typedef
 layers
@@ -632,7 +632,7 @@ CreateTopLevelCompositor
 nsBaseWidget
 *
 aWidget
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 CSSToLayoutDeviceScale
@@ -1775,7 +1775,7 @@ CreateRemoteSession
 nsBaseWidget
 *
 aWidget
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 const

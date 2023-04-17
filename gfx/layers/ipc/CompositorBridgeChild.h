@@ -333,9 +333,6 @@ class
 CanvasChild
 ;
 class
-ClientLayerManager
-;
-class
 CompositorBridgeParent
 ;
 class
@@ -345,7 +342,7 @@ class
 CompositorOptions
 ;
 class
-LayerManager
+WebRenderLayerManager
 ;
 class
 TextureClient
@@ -420,7 +417,7 @@ InitForWidget
 (
 uint64_t
 aProcessToken
-LayerManager
+WebRenderLayerManager
 *
 aLayerManager
 uint32_t
@@ -1543,7 +1540,7 @@ mCompositorManager
 ;
 RefPtr
 <
-LayerManager
+WebRenderLayerManager
 >
 mLayerManager
 ;
