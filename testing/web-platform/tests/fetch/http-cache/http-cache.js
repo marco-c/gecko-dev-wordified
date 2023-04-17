@@ -741,7 +741,7 @@ config
 )
 init
 .
-mode
+credentials
 =
 config
 [
