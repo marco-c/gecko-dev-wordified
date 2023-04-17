@@ -215,6 +215,10 @@ getActiveExperimentIds
 (
 )
 {
+return
+[
+]
+;
 }
 getCampaignStateLists
 (
