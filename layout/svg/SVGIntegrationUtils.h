@@ -1094,14 +1094,10 @@ nsIFrame
 *
 frame
 ;
-const
 nsRect
-&
 dirtyRect
 ;
-const
 nsRect
-&
 borderArea
 ;
 nsDisplayListBuilder

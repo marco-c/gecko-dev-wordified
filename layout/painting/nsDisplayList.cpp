@@ -23210,6 +23210,9 @@ this
 mImageFlags
 )
 ;
+bool
+dummy
+;
 nsCSSRendering
 :
 :
@@ -23233,8 +23236,11 @@ StyleFrame
 PresContext
 (
 )
-GetPaintRect
+GetBounds
 (
+aDisplayListBuilder
+&
+dummy
 )
 mBackgroundRect
 StyleFrame
@@ -27366,6 +27372,9 @@ rect
 )
 ;
 }
+bool
+dummy
+;
 Maybe
 <
 nsCSSBorderRenderer
@@ -27386,8 +27395,11 @@ aDrawTarget
 /
 nullptr
 mFrame
-GetPaintRect
+GetBounds
 (
+aDisplayListBuilder
+&
+dummy
 )
 rect
 mFrame
@@ -54525,6 +54537,8 @@ NSRectToRect
 (
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 mFrame
 -
@@ -54591,6 +54605,8 @@ aCtx
 mFrame
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 borderArea
 aBuilder
@@ -57149,6 +57165,8 @@ aCtx
 mFrame
 GetPaintRect
 (
+aBuilder
+aCtx
 )
 borderArea
 aBuilder
