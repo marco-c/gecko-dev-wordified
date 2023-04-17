@@ -1552,7 +1552,7 @@ public
 using
 T_LongLongType
 =
-int64_t
+int32_t
 ;
 using
 T_LongType
