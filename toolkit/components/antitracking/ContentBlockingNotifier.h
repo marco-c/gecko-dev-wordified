@@ -187,6 +187,7 @@ StorageAccessPermissionGrantedReason
 eStorageAccessAPI
 eOpenerAfterUserInteraction
 eOpener
+ePrivilegeStorageAccessForOriginAPI
 }
 ;
 /

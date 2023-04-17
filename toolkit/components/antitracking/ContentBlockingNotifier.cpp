@@ -507,6 +507,12 @@ ContentBlockingNotifier
 :
 eStorageAccessAPI
 :
+case
+ContentBlockingNotifier
+:
+:
+ePrivilegeStorageAccessForOriginAPI
+:
 messageWithSameOrigin
 =
 "
