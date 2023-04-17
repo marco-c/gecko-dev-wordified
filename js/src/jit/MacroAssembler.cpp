@@ -18768,9 +18768,6 @@ MacroAssembler
 :
 Push
 (
-JS
-:
-:
 PropertyKey
 key
 Register
@@ -18968,9 +18965,6 @@ MacroAssembler
 :
 movePropertyKey
 (
-JS
-:
-:
 PropertyKey
 key
 Register

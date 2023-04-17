@@ -1514,9 +1514,6 @@ ShapePropertyWithKey
 public
 ShapeProperty
 {
-JS
-:
-:
 PropertyKey
 key_
 ;
@@ -1528,9 +1525,6 @@ uint8_t
 attrs
 uint32_t
 slot
-JS
-:
-:
 PropertyKey
 key
 )
@@ -1546,9 +1540,6 @@ key
 )
 {
 }
-JS
-:
-:
 PropertyKey
 key
 (
@@ -1653,9 +1644,6 @@ slot
 )
 ;
 }
-JS
-:
-:
 PropertyKey
 key
 (
@@ -6150,9 +6138,6 @@ protected
 const
 GCPtr
 <
-JS
-:
-:
 PropertyKey
 >
 propid_

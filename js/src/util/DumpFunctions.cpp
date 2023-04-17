@@ -2881,9 +2881,6 @@ toObject
 ;
 RootedVector
 <
-JS
-:
-:
 PropertyKey
 >
 keys

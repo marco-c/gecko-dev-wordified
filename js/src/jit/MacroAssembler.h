@@ -3343,9 +3343,6 @@ x86_shared
 void
 Push
 (
-JS
-:
-:
 PropertyKey
 key
 Register
@@ -7143,9 +7140,6 @@ PER_ARCH
 void
 movePropertyKey
 (
-JS
-:
-:
 PropertyKey
 key
 Register
