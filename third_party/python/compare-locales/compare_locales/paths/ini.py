@@ -1655,6 +1655,34 @@ module
             
 }
             
+if
+module
+=
+=
+'
+mobile
+/
+android
+/
+base
+'
+:
+                
+paths
+[
+'
+test
+'
+]
+=
+[
+'
+android
+-
+dtd
+'
+]
+            
 projectconfig
 .
 add_paths
