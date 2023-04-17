@@ -23558,11 +23558,6 @@ IsVisibleTextNode
 (
 *
 text
-aHTMLEditor
-.
-GetActiveEditingHost
-(
-)
 )
 )
 {
