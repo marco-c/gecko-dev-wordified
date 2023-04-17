@@ -2533,6 +2533,9 @@ String
 Version
 :
 String
+WindowsErrorReporting
+:
+String
 }
 impl
 Annotations
@@ -2651,6 +2654,15 @@ application_data
 version
 .
 clone
+(
+)
+WindowsErrorReporting
+:
+"
+1
+"
+.
+to_string
 (
 )
 }
