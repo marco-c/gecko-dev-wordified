@@ -281,7 +281,7 @@ this
 .
 agent
 .
-targets
+targetList
 .
 getMainProcessTarget
 (
@@ -412,7 +412,7 @@ this
 .
 agent
 .
-targets
+targetList
 ]
 ;
 }

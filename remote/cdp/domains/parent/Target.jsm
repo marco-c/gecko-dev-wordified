@@ -354,7 +354,7 @@ getTargets
 {
 const
 {
-targets
+targetList
 }
 =
 this
@@ -374,7 +374,7 @@ for
 const
 target
 of
-targets
+targetList
 )
 {
 if
@@ -415,7 +415,7 @@ discover
 {
 const
 {
-targets
+targetList
 }
 =
 this
@@ -429,7 +429,7 @@ if
 discover
 )
 {
-targets
+targetList
 .
 on
 (
@@ -443,7 +443,7 @@ this
 _onTargetCreated
 )
 ;
-targets
+targetList
 .
 on
 (
@@ -460,7 +460,7 @@ _onTargetDestroyed
 }
 else
 {
-targets
+targetList
 .
 off
 (
@@ -474,7 +474,7 @@ this
 _onTargetCreated
 )
 ;
-targets
+targetList
 .
 off
 (
@@ -494,7 +494,7 @@ for
 const
 target
 of
-targets
+targetList
 )
 {
 this
@@ -521,7 +521,7 @@ browserContextId
 {
 const
 {
-targets
+targetList
 }
 =
 this
@@ -533,7 +533,7 @@ target
 const
 onTarget
 =
-targets
+targetList
 .
 once
 (
@@ -616,7 +616,7 @@ targetId
 {
 const
 {
-targets
+targetList
 }
 =
 this
@@ -628,7 +628,7 @@ target
 const
 target
 =
-targets
+targetList
 .
 getById
 (
@@ -679,7 +679,7 @@ targetId
 {
 const
 {
-targets
+targetList
 window
 }
 =
@@ -692,7 +692,7 @@ target
 const
 target
 =
-targets
+targetList
 .
 getById
 (
@@ -760,7 +760,7 @@ targetId
 {
 const
 {
-targets
+targetList
 }
 =
 this
@@ -772,7 +772,7 @@ target
 const
 target
 =
-targets
+targetList
 .
 getById
 (

@@ -187,7 +187,7 @@ class
 for
 all
 the
-Targets
+targets
 .
 *
 /
@@ -199,8 +199,8 @@ Target
 *
 *
 param
-Targets
-targets
+TargetList
+targetList
 *
 param
 Class
@@ -209,7 +209,7 @@ sessionClass
 /
 constructor
 (
-targets
+targetList
 sessionClass
 )
 {
@@ -219,7 +219,7 @@ Save
 a
 reference
 to
-Targets
+TargetList
 instance
 in
 order
@@ -239,9 +239,9 @@ Target
 jsm
 this
 .
-targets
+targetList
 =
-targets
+targetList
 ;
 /
 /

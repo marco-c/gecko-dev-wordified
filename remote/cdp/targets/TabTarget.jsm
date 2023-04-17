@@ -234,8 +234,8 @@ Target
 *
 *
 param
-Targets
-targets
+TargetList
+targetList
 *
 param
 BrowserElement
@@ -244,13 +244,13 @@ browser
 /
 constructor
 (
-targets
+targetList
 browser
 )
 {
 super
 (
-targets
+targetList
 TabSession
 )
 ;
