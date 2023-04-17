@@ -1497,9 +1497,7 @@ environment
 /
 /
 Otherwise
-LOCALNO_LIMIT
-/
-ENVCOORD_SLOT_LIMIT
+0
 .
 uint32_t
 slot_
@@ -1538,7 +1536,7 @@ UINT8_MAX
 uint32_t
 slot
 =
-ENVCOORD_SLOT_LIMIT
+0
 )
 :
 kind_
