@@ -854,11 +854,6 @@ Windows
     
 binary
 =
-mozpath
-.
-normsep
-(
-        
 which
 (
 "
@@ -874,8 +869,6 @@ default_bindir
 )
 )
     
-)
-    
 if
 binary
 and
@@ -888,6 +881,15 @@ exists
 binary
 )
 :
+        
+binary
+=
+mozpath
+.
+normsep
+(
+binary
+)
         
 log
 .
