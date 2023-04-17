@@ -1439,6 +1439,9 @@ loadingSessionHistoryInfo
 bool
 IsMetaRefresh
 ;
+nsIURI
+UnstrippedURI
+;
 }
 ;
 struct
