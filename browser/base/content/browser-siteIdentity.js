@@ -5750,6 +5750,15 @@ true
 ;
 let
 securityButton
+;
+if
+(
+this
+.
+_protonEnabled
+)
+{
+securityButton
 =
 document
 .
@@ -5775,6 +5784,7 @@ footerHidden
 "
 )
 ;
+}
 if
 (
 this
@@ -5814,6 +5824,11 @@ hidden
 !
 hasData
 ;
+if
+(
+securityButton
+)
+{
 securityButton
 .
 setAttribute
@@ -5825,6 +5840,7 @@ footerHidden
 hasData
 )
 ;
+}
 }
 )
 ;
@@ -6210,6 +6226,13 @@ overridden
 "
 "
 cert
+-
+error
+-
+page
+"
+"
+net
 -
 error
 -
