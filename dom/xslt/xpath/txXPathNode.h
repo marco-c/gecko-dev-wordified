@@ -145,9 +145,10 @@ NameSpaceManager
 (
 )
 .
-typedef
-nsINode
+using
 txXPathNodeType
+=
+nsINode
 ;
 class
 txXPathNode

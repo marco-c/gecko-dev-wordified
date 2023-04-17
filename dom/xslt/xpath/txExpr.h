@@ -339,9 +339,10 @@ return
 .
 *
 /
-typedef
-uint16_t
+using
 ResultType
+=
+uint16_t
 ;
 enum
 {
@@ -393,9 +394,10 @@ aType
 0
 ;
 }
-typedef
-uint16_t
+using
 ContextSensitivity
+=
+uint16_t
 ;
 enum
 {
