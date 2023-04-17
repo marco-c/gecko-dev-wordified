@@ -118,12 +118,6 @@ using
 gl
 :
 :
-GLContext
-;
-using
-gl
-:
-:
 GLContextEGL
 ;
 NativeSurfaceWayland
@@ -132,9 +126,6 @@ NativeSurfaceWayland
 NativeSurfaceWayland
 (
 const
-gfx
-:
-:
 IntSize
 &
 aSize
@@ -437,9 +428,6 @@ SurfacePoolEntry
 &
 aEntry
 const
-gfx
-:
-:
 IntSize
 &
 aSize
@@ -467,9 +455,6 @@ SurfacePoolWayland
 ObtainSurfaceFromPool
 (
 const
-gfx
-:
-:
 IntSize
 &
 aSize
@@ -791,9 +776,6 @@ SurfacePoolHandleWayland
 ObtainSurfaceFromPool
 (
 const
-gfx
-:
-:
 IntSize
 &
 aSize
