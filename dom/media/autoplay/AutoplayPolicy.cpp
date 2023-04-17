@@ -347,6 +347,8 @@ sPOLICY_STICKY_ACTIVATION
 =
 0
 ;
+/
+/
 static
 const
 uint32_t
