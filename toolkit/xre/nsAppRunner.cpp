@@ -31075,6 +31075,9 @@ rv
 NS_ERROR_FAILURE
 )
 ;
+#
+ifdef
+MOZILLA_OFFICIAL
 /
 /
 Check
@@ -31101,14 +31104,6 @@ directory
 .
 if
 (
-mProfileSvc
--
->
-GetIsFirstRun
-(
-)
-&
-&
 MacRunFromDmgUtils
 :
 :
@@ -31137,6 +31132,8 @@ userAllowedQuit
 )
 ;
 }
+#
+endif
 #
 endif
 nsCOMPtr
