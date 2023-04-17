@@ -886,9 +886,8 @@ AddPostRefreshObserver
 mozilla
 :
 :
-OneShotPostRefreshObserver
+ManagedPostRefreshObserver
 *
-aObserver
 )
 =
 delete
@@ -907,9 +906,8 @@ RemovePostRefreshObserver
 mozilla
 :
 :
-OneShotPostRefreshObserver
+ManagedPostRefreshObserver
 *
-aObserver
 )
 =
 delete

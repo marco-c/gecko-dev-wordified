@@ -8876,7 +8876,7 @@ MissingFontUser
 mPresContext
 -
 >
-ClearOneShotPostRefreshObservers
+CancelManagedPostRefreshObservers
 (
 )
 ;
