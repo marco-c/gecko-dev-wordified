@@ -2210,12 +2210,6 @@ arenaListsAreEmpty
 const
 ;
 inline
-void
-unmarkAll
-(
-)
-;
-inline
 bool
 doneBackgroundFinalize
 (
