@@ -855,7 +855,6 @@ pub
 mod
 render_api
 ;
-pub
 mod
 shader_source
 {
