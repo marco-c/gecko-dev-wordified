@@ -61,6 +61,7 @@ MPL
 globals
 catcher
 assertIsBlankDocument
+browser
 *
 /
 "
