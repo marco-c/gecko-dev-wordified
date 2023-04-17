@@ -3097,8 +3097,6 @@ aCount
 return
 ;
 }
-else
-{
 double
 discriminant
 =
@@ -3291,7 +3289,6 @@ aCount
 =
 2
 ;
-}
 }
 }
 void
