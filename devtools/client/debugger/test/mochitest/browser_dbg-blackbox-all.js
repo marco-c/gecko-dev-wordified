@@ -378,6 +378,7 @@ sourceTreeFolderNodeEls
 ]
 )
 ;
+await
 openContextMenuSubmenu
 (
 dbg
@@ -535,6 +536,7 @@ sourceTreeFolderNodeEls
 ]
 )
 ;
+await
 openContextMenuSubmenu
 (
 dbg
