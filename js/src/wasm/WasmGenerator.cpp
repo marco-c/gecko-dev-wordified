@@ -313,6 +313,15 @@ include
 "
 wasm
 /
+WasmGC
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmIonCompile
 .
 h
