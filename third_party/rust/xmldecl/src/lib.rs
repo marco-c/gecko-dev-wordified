@@ -194,14 +194,6 @@ WebKit
 compatible
 way
 .
-#
-!
-[
-feature
-(
-slice_strip
-)
-]
 extern
 crate
 encoding_rs
