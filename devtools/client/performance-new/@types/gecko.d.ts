@@ -218,9 +218,7 @@ jsm
 "
 )
 ;
-"
 Services
-"
 :
 typeof
 import
@@ -230,9 +228,7 @@ Services
 "
 )
 ;
-"
 chrome
-"
 :
 typeof
 import
@@ -335,6 +331,7 @@ CustomizableUI
 jsm
 "
 )
+;
 "
 resource
 :
@@ -1441,6 +1438,7 @@ string
 nsIURI
 ;
 }
+;
 scriptSecurityManager
 :
 any
@@ -1458,12 +1456,15 @@ number
 =
 >
 void
+;
 eForceQuit
 :
 number
+;
 eRestart
 :
 number
+;
 }
 ;
 }
@@ -1610,15 +1611,19 @@ WebChannelTarget
 browsingContext
 :
 BrowsingContextStub
+;
 browser
 :
 Browser
+;
 eventTarget
 :
 null
+;
 principal
 :
 PrincipalStub
+;
 }
 const
 WebChannelJSM
@@ -1769,7 +1774,9 @@ file
 path
 :
 string
+;
 }
+;
 }
 /
 /
@@ -1873,7 +1880,9 @@ nsIEnvironment
 )
 :
 Environment
+;
 }
+;
 "
 mozilla
 .
@@ -1893,7 +1902,9 @@ nsIFilePicker
 )
 :
 FilePicker
+;
 }
+;
 }
 interface
 Ci
@@ -2057,12 +2068,15 @@ chrome
 Cc
 :
 Cc
+;
 Ci
 :
 Ci
+;
 Cu
 :
 Cu
+;
 }
 ;
 }
@@ -2388,6 +2402,7 @@ js
 export
 =
 Background
+;
 }
 declare
 module
@@ -2435,6 +2450,7 @@ js
 export
 =
 PerfSymbolication
+;
 }
 declare
 module
@@ -2853,6 +2869,7 @@ Event
 target
 :
 XULElement
+;
 }
 declare
 interface
@@ -2884,6 +2901,7 @@ boolean
 =
 >
 void
+;
 removeEventListener
 :
 (
@@ -2910,4 +2928,5 @@ boolean
 =
 >
 void
+;
 }
