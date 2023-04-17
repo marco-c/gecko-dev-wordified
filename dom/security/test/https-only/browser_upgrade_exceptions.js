@@ -102,13 +102,7 @@ exempt
 from
 upgrades
 (
-127
-.
-0
-.
-0
-.
-1
+localhost
 )
 "
 "
