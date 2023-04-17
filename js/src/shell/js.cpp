@@ -4610,14 +4610,6 @@ bool
 shell
 :
 :
-fuzzingSafe
-=
-false
-;
-bool
-shell
-:
-:
 disableOOMFunctions
 =
 false

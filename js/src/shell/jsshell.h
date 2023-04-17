@@ -880,10 +880,6 @@ compileOnly
 ;
 extern
 bool
-fuzzingSafe
-;
-extern
-bool
 disableOOMFunctions
 ;
 extern

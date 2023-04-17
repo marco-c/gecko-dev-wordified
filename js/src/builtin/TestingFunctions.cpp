@@ -1334,6 +1334,9 @@ Atomic
 <
 bool
 >
+js
+:
+:
 fuzzingSafe
 (
 false
