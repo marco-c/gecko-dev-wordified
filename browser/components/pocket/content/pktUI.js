@@ -1852,7 +1852,7 @@ will
 be
 clicked
 var
-iframe
+frame
 =
 getPanelFrame
 (
@@ -1862,8 +1862,8 @@ getPanelFrame
 /
 Load
 the
-iframe
-iframe
+frame
+frame
 .
 setAttribute
 (
@@ -2576,7 +2576,7 @@ options
 )
 {
 var
-iframe
+frame
 =
 getPanelFrame
 (
@@ -2592,7 +2592,7 @@ panel
 will
 adapt
 .
-iframe
+frame
 .
 style
 .
@@ -2606,7 +2606,7 @@ width
 px
 "
 ;
-iframe
+frame
 .
 style
 .
@@ -2646,7 +2646,7 @@ url
 and
 notify
 the
-iframe
+frame
 panel
 that
 it
@@ -3433,7 +3433,7 @@ the
 panel
 '
 s
-iframe
+frame
 *
 /
 function
@@ -3536,7 +3536,7 @@ to
 the
 panel
 *
-iframe
+frame
 as
 a
 message
