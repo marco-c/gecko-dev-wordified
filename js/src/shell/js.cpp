@@ -38492,9 +38492,9 @@ false
 }
 /
 /
-These
+This
 option
-settings
+setting
 must
 override
 whatever
@@ -38507,11 +38507,6 @@ options
 setIsRunOnce
 (
 true
-)
-.
-setSourceIsLazy
-(
-false
 )
 ;
 /
@@ -59961,6 +59956,9 @@ OffThreadCompileToStencil
 offThreadCompileToStencil
 (
 code
+[
+options
+]
 )
 "
 "
