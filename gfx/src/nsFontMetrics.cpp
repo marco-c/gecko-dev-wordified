@@ -1032,6 +1032,7 @@ GetPlatform
 >
 CreateFontGroup
 (
+mPresContext
 aFont
 .
 family

@@ -811,6 +811,9 @@ gfxFontEntry
 *
 LookupLocalFont
 (
+nsPresContext
+*
+aPresContext
 const
 nsACString
 &
@@ -850,6 +853,9 @@ override
 bool
 FindAndAddFamilies
 (
+nsPresContext
+*
+aPresContext
 mozilla
 :
 :
@@ -1004,6 +1010,9 @@ protected
 FontFamily
 GetDefaultFontForPlatform
 (
+nsPresContext
+*
+aPresContext
 const
 gfxFontStyle
 *
@@ -1186,6 +1195,9 @@ gfxFontEntry
 *
 PlatformGlobalFontFallback
 (
+nsPresContext
+*
+aPresContext
 const
 uint32_t
 aCh
