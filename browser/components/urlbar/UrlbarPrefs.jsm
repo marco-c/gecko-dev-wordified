@@ -1125,7 +1125,7 @@ below
 .
 [
 "
-resultBuckets
+resultGroups
 "
 "
 "
@@ -3252,7 +3252,7 @@ the
 value
 of
 the
-resultBuckets
+resultGroups
 pref
 to
 the
@@ -3288,7 +3288,7 @@ this
 set
 (
 "
-resultBuckets
+resultGroups
 "
 JSON
 .
@@ -3648,7 +3648,7 @@ this
 set
 (
 "
-resultBuckets
+resultGroups
 "
 JSON
 .
@@ -4049,7 +4049,7 @@ val
 }
 case
 "
-resultBuckets
+resultGroups
 "
 :
 try

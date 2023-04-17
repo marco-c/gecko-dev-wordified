@@ -1571,12 +1571,12 @@ It
 '
 s
 the
-resultBuckets
+resultGroups
 in
 each
 test
 that
-are
+is
 important
 .
 const
@@ -2610,7 +2610,7 @@ BAD_HEURISTIC_RESULTS_GENERAL
 *
 Sets
 the
-resultBuckets
+resultGroups
 pref
 performs
 a
@@ -2691,7 +2691,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 JSON
 .
@@ -2771,7 +2771,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 )
 ;

@@ -90,7 +90,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 "
 ;
 const
@@ -6409,7 +6409,7 @@ browser
 .
 urlbar
 .
-resultBuckets
+resultGroups
 is
 set
 to
@@ -6481,7 +6481,7 @@ async
 info
 (
 Running
-resultBuckest
+resultGroups
 test
 :
 {

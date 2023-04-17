@@ -447,7 +447,7 @@ UrlbarPrefs
 clear
 (
 "
-resultBuckets
+resultGroups
 "
 )
 ;
