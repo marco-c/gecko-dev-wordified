@@ -8116,9 +8116,6 @@ bool
 allow_scissored_cache_clears
 :
 bool
-start_debug_server
-:
-bool
 swgl_context
 :
 *
@@ -9080,7 +9077,6 @@ them
 allow_advanced_blend_equation
 :
 software
-start_debug_server
 surface_origin_is_top_left
 compositor_config
 enable_gpu_markers

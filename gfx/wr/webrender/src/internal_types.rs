@@ -3720,14 +3720,6 @@ pub
 enum
 DebugOutput
 {
-FetchDocuments
-(
-String
-)
-FetchClipScrollTree
-(
-String
-)
 #
 [
 cfg
