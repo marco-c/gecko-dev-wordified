@@ -9475,7 +9475,6 @@ document
 .
 createTextNode
 (
-Active
 (
 {
 slug
