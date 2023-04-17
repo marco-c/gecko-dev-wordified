@@ -4496,6 +4496,12 @@ stopPropagation
 (
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 /
 /
 If
