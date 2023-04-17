@@ -1424,7 +1424,7 @@ delegate
 gc
 :
 :
-Cell
+TenuredCell
 *
 value
 )
