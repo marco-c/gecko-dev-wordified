@@ -39941,7 +39941,7 @@ next
 AllocKind
 kind
 =
-MapTypeToFinalizeKind
+MapTypeToAllocKind
 <
 T
 >
