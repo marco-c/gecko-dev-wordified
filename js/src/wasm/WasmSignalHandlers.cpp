@@ -347,6 +347,13 @@ mozilla
 :
 DebugOnly
 ;
+#
+if
+!
+defined
+(
+JS_CODEGEN_NONE
+)
 /
 /
 =
@@ -3005,6 +3012,7 @@ __lr
 else
 #
 error
+\
 "
 Don
 '
@@ -6669,6 +6677,14 @@ IsSignalHandlingBroken
 ;
 #
 endif
+#
+endif
+/
+/
+!
+(
+JS_CODEGEN_NONE
+)
 struct
 InstallState
 {
@@ -6778,7 +6794,7 @@ handlers
 return
 ;
 #
-endif
+else
 #
 if
 defined
@@ -7236,6 +7252,8 @@ success
 =
 true
 ;
+#
+endif
 }
 static
 ExclusiveData
