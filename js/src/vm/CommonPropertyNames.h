@@ -746,6 +746,15 @@ catch
 \
 MACRO_
 (
+cause
+cause
+"
+cause
+"
+)
+\
+MACRO_
+(
 class
 class_
 "
