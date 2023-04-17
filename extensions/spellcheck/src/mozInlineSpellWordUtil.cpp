@@ -6841,7 +6841,9 @@ mozInlineSpellWordUtil
 :
 MapDOMPositionToSoftTextOffset
 (
+const
 NodeOffset
+&
 aNodeOffset
 )
 const
