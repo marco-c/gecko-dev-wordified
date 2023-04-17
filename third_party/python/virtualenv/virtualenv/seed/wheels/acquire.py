@@ -13,6 +13,8 @@ unicode_literals
 import
 logging
 import
+os
+import
 sys
 from
 operator
@@ -66,7 +68,6 @@ search_dirs
 download
 app_data
 do_periodic_update
-env
 )
 :
     
@@ -135,7 +136,6 @@ for_py_version
 search_dirs
 app_data
 do_periodic_update
-env
 )
     
 #
@@ -192,10 +192,6 @@ to_folder
 app_data
 .
 house
-            
-env
-=
-env
         
 )
     
@@ -210,7 +206,6 @@ for_py_version
 search_dirs
 app_data
 to_folder
-env
 )
 :
     
@@ -363,7 +358,6 @@ pip_wheel_env_run
 (
 search_dirs
 app_data
-env
 )
     
 process
@@ -731,7 +725,6 @@ pip_wheel_env_run
 (
 search_dirs
 app_data
-env
 )
 :
     
@@ -760,7 +753,9 @@ version_info
     
 env
 =
-env
+os
+.
+environ
 .
 copy
 (
@@ -867,10 +862,6 @@ app_data
 do_periodic_update
 =
 False
-        
-env
-=
-env
     
 )
     

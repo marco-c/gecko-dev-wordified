@@ -32,7 +32,6 @@ for_py_version
 search_dirs
 app_data
 do_periodic_update
-env
 )
 :
     
@@ -108,7 +107,6 @@ wheel
 search_dirs
 app_data
 do_periodic_update
-env
 )
         
 #

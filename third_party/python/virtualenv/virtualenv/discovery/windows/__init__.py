@@ -38,7 +38,6 @@ propose_interpreters
 (
 spec
 cache_dir
-env
 )
 :
     
@@ -68,25 +67,6 @@ latest
 version
 available
     
-#
-and
-prefer
-PythonCore
-over
-conda
-pythons
-(
-as
-virtualenv
-is
-mostly
-used
-by
-non
-conda
-tools
-)
-    
 existing
 =
 list
@@ -100,7 +80,6 @@ existing
 .
 sort
 (
-        
 key
 =
 lambda
@@ -126,26 +105,9 @@ i
 4
 ]
 )
-+
-(
-1
-if
-i
-[
-0
-]
-=
-=
-"
-PythonCore
-"
-else
-0
-)
 reverse
 =
 True
-    
 )
     
 for
@@ -213,9 +175,6 @@ from_exe
 (
 exe
 cache_dir
-env
-=
-env
 raise_on_error
 =
 False

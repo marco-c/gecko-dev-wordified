@@ -90,14 +90,6 @@ app_data
 options
 .
 app_data
-        
-self
-.
-try_first_with
-=
-options
-.
-try_first_with
     
 classmethod
     
@@ -188,63 +180,6 @@ wins
 "
         
 )
-        
-parser
-.
-add_argument
-(
-            
-"
--
--
-try
--
-first
--
-with
-"
-            
-dest
-=
-"
-try_first_with
-"
-            
-metavar
-=
-"
-py_exe
-"
-            
-type
-=
-str
-            
-action
-=
-"
-append
-"
-            
-default
-=
-[
-]
-            
-help
-=
-"
-try
-first
-these
-interpreters
-before
-starting
-the
-discovery
-"
-        
-)
     
 def
 run
@@ -268,13 +203,7 @@ get_interpreter
 python_spec
 self
 .
-try_first_with
-self
-.
 app_data
-self
-.
-_env
 )
             
 if
@@ -364,11 +293,7 @@ def
 get_interpreter
 (
 key
-try_first_with
 app_data
-=
-None
-env
 =
 None
 )
@@ -404,18 +329,6 @@ set
 (
 )
     
-env
-=
-os
-.
-environ
-if
-env
-is
-None
-else
-env
-    
 for
 interpreter
 impl_must_match
@@ -423,9 +336,7 @@ in
 propose_interpreters
 (
 spec
-try_first_with
 app_data
-env
 )
 :
         
@@ -491,107 +402,9 @@ def
 propose_interpreters
 (
 spec
-try_first_with
 app_data
-env
-=
-None
 )
 :
-    
-#
-0
-.
-try
-with
-first
-    
-env
-=
-os
-.
-environ
-if
-env
-is
-None
-else
-env
-    
-for
-py_exe
-in
-try_first_with
-:
-        
-path
-=
-os
-.
-path
-.
-abspath
-(
-py_exe
-)
-        
-try
-:
-            
-os
-.
-lstat
-(
-path
-)
-#
-Windows
-Store
-Python
-does
-not
-work
-with
-os
-.
-path
-.
-exists
-but
-does
-for
-os
-.
-lstat
-        
-except
-OSError
-:
-            
-pass
-        
-else
-:
-            
-yield
-PythonInfo
-.
-from_exe
-(
-os
-.
-path
-.
-abspath
-(
-path
-)
-app_data
-env
-=
-env
-)
-True
     
 #
 1
@@ -676,9 +489,6 @@ spec
 path
 )
 app_data
-env
-=
-env
 )
 True
         
@@ -738,7 +548,6 @@ propose_interpreters
 (
 spec
 app_data
-env
 )
 :
                 
@@ -774,7 +583,6 @@ paths
 =
 get_paths
 (
-env
 )
     
 tested_exes
@@ -808,7 +616,6 @@ LazyPathDump
 (
 pos
 path
-env
 )
 )
         
@@ -873,9 +680,6 @@ app_data
 raise_on_error
 =
 False
-env
-=
-env
 )
                     
 if
@@ -891,13 +695,14 @@ match
 def
 get_paths
 (
-env
 )
 :
     
 path
 =
-env
+os
+.
+environ
 .
 get
 (
@@ -997,7 +802,6 @@ __init__
 self
 pos
 path
-env
 )
 :
         
@@ -1012,12 +816,6 @@ self
 path
 =
 path
-        
-self
-.
-env
-=
-env
     
 def
 __repr__
@@ -1068,9 +866,9 @@ path
 )
         
 if
-self
+os
 .
-env
+environ
 .
 get
 (

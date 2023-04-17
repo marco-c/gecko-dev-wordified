@@ -964,21 +964,11 @@ _subprocess
 .
 SW_HIDE
         
-env
+comspec
 =
 os
 .
 environ
-if
-env
-is
-None
-else
-env
-        
-comspec
-=
-env
 .
 get
 (

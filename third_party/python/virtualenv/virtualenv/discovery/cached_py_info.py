@@ -131,9 +131,6 @@ from_exe
 cls
 app_data
 exe
-env
-=
-None
 raise_on_error
 =
 True
@@ -143,17 +140,12 @@ False
 )
 :
     
-env
-=
-os
-.
-environ
-if
-env
-is
-None
-else
-env
+"
+"
+"
+"
+"
+"
     
 result
 =
@@ -162,7 +154,6 @@ _get_from_cache
 cls
 app_data
 exe
-env
 ignore_cache
 =
 ignore_cache
@@ -212,7 +203,6 @@ _get_from_cache
 cls
 app_data
 exe
-env
 ignore_cache
 =
 True
@@ -249,7 +239,7 @@ alongside
 on
 python3
 .
-5
+4
 +
     
 exe_path
@@ -302,7 +292,6 @@ cls
 app_data
 exe_path
 exe
-env
 )
         
 result
@@ -356,7 +345,6 @@ cls
 app_data
 path
 exe
-env
 )
 :
     
@@ -501,39 +489,6 @@ items
 )
 }
 )
-                
-sys_exe
-=
-py_info
-.
-system_executable
-                
-if
-sys_exe
-is
-not
-None
-and
-not
-os
-.
-path
-.
-exists
-(
-sys_exe
-)
-:
-                    
-py_info_store
-.
-remove
-(
-)
-                    
-py_info
-=
-None
             
 else
 :
@@ -565,7 +520,6 @@ _run_subprocess
 cls
 exe
 app_data
-env
 )
             
 if
@@ -620,7 +574,6 @@ _run_subprocess
 cls
 exe
 app_data
-env
 )
 :
     
@@ -694,7 +647,9 @@ issue22490
         
 env
 =
-env
+os
+.
+environ
 .
 copy
 (
