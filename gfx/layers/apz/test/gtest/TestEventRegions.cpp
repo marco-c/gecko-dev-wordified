@@ -2316,7 +2316,7 @@ PanOptions
 NoFling
 )
 ;
-APZCTreeManager
+IAPZHitTester
 :
 :
 HitTestResult
@@ -2368,7 +2368,7 @@ CreateBug1119497LayerTree
 (
 )
 ;
-APZCTreeManager
+IAPZHitTester
 :
 :
 HitTestResult
