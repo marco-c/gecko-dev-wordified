@@ -886,7 +886,7 @@ fileSources
 push
 (
 new
-FileSource
+L10nFileSource
 (
 entry
 locales
@@ -1972,7 +1972,11 @@ if
 (
 source
 .
-indexed
+index
+!
+=
+=
+null
 )
 {
 continue
@@ -2132,7 +2136,7 @@ const
 source
 =
 new
-FileSource
+L10nFileSource
 (
 name
 data
@@ -2653,7 +2657,9 @@ idx
 =
 =
 =
-false
+"
+missing
+"
 )
 {
 if
@@ -2743,7 +2749,7 @@ resolved
 /
 resources
 returned
-false
+null
 on
 any
 position
@@ -2755,7 +2761,7 @@ dataSet
 .
 includes
 (
-false
+null
 )
 )
 {
@@ -3122,7 +3128,9 @@ idx
 =
 =
 =
-false
+"
+missing
+"
 )
 {
 if
@@ -3211,7 +3219,7 @@ resolved
 /
 resources
 returned
-false
+null
 on
 any
 position
@@ -3223,7 +3231,7 @@ dataSet
 .
 includes
 (
-false
+null
 )
 )
 {
@@ -3425,6 +3433,7 @@ Promise
 <
 FluentBundle
 >
+?
 }
 *
 /
@@ -3474,7 +3483,7 @@ source
 )
 {
 return
-false
+null
 ;
 }
 return
@@ -3548,6 +3557,7 @@ resourceIds
 returns
 {
 FluentBundle
+?
 }
 *
 /
@@ -3593,21 +3603,16 @@ source
 )
 {
 return
-false
+null
 ;
 }
 return
 source
 .
-fetchFile
+fetchFileSync
 (
 locale
 resourceId
-{
-sync
-:
-true
-}
 )
 ;
 }
