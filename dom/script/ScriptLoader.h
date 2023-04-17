@@ -4517,6 +4517,9 @@ mLoadEventFired
 bool
 mGiveUpEncoding
 ;
+TimeDuration
+mMainThreadParseTime
+;
 /
 /
 Module
