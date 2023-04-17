@@ -148,6 +148,13 @@ nullable
 :
 boolean
 "
+touchEventsOverride
+:
+"
+nullable
+:
+string
+"
 }
 )
 ;
