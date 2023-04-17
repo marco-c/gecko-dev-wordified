@@ -292,8 +292,6 @@ mTime
 ;
 uint32_t
 mBytesRead
-=
-0
 ;
 }
 ;

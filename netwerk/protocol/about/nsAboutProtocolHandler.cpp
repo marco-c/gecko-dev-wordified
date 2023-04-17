@@ -387,7 +387,8 @@ MAKE_LINKABLE
 flags
 set
 .
-return
+if
+(
 path
 .
 EqualsLiteral
@@ -416,6 +417,14 @@ EqualsLiteral
 srcdoc
 "
 )
+)
+{
+return
+true
+;
+}
+return
+false
 ;
 }
 /
@@ -2081,7 +2090,6 @@ Equals
 kNestedAboutURICID
 )
 )
-{
 foundInterface
 =
 static_cast
@@ -2093,7 +2101,6 @@ nsIURI
 this
 )
 ;
-}
 else
 NS_IMPL_QUERY_CLASSINFO
 (

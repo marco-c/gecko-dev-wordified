@@ -167,10 +167,9 @@ of
 DOMHighResTimeStamp
 resides
 .
-using
-DOMHighResTimeStamp
-=
+typedef
 double
+DOMHighResTimeStamp
 ;
 namespace
 IPC
@@ -412,9 +411,7 @@ net
 WebSocketFrameData
 >
 {
-using
-paramType
-=
+typedef
 mozilla
 :
 :
@@ -422,6 +419,7 @@ net
 :
 :
 WebSocketFrameData
+paramType
 ;
 static
 void

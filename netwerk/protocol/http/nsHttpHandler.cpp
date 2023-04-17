@@ -7083,8 +7083,6 @@ XP_UNIX
 struct
 utsname
 name
-{
-}
 ;
 int
 ret
@@ -7294,20 +7292,16 @@ maxCount
 =
 8
 )
-{
 maxCount
 =
 1
 ;
-}
 else
-{
 maxCount
 -
 =
 8
 ;
-}
 return
 maxCount
 ;
@@ -7855,7 +7849,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mIdleTimeout
 =
 PR_SecondsToInterval
@@ -7868,7 +7861,6 @@ val
 )
 )
 ;
-}
 }
 if
 (
@@ -7915,7 +7907,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mMaxRequestAttempts
 =
 (
@@ -7928,7 +7919,6 @@ val
 0xffff
 )
 ;
-}
 }
 if
 (
@@ -8102,7 +8092,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mResponseTimeout
 =
 PR_SecondsToInterval
@@ -8115,7 +8104,6 @@ val
 )
 )
 ;
-}
 }
 if
 (
@@ -8941,7 +8929,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mFallbackSynTimeout
 =
 (
@@ -8957,7 +8944,6 @@ val
 )
 ;
 }
-}
 if
 (
 PREF_CHANGED
@@ -9011,7 +8997,6 @@ EqualsLiteral
 "
 )
 )
-{
 mHttpVersion
 =
 HttpVersion
@@ -9019,7 +9004,6 @@ HttpVersion
 :
 v1_1
 ;
-}
 else
 if
 (
@@ -9034,7 +9018,6 @@ EqualsLiteral
 "
 )
 )
-{
 mHttpVersion
 =
 HttpVersion
@@ -9042,9 +9025,7 @@ HttpVersion
 :
 v0_9
 ;
-}
 else
-{
 mHttpVersion
 =
 HttpVersion
@@ -9052,7 +9033,6 @@ HttpVersion
 :
 v1_0
 ;
-}
 }
 }
 if
@@ -9112,7 +9092,6 @@ EqualsLiteral
 "
 )
 )
-{
 mProxyHttpVersion
 =
 HttpVersion
@@ -9120,9 +9099,7 @@ HttpVersion
 :
 v1_1
 ;
-}
 else
-{
 mProxyHttpVersion
 =
 HttpVersion
@@ -9130,7 +9107,6 @@ HttpVersion
 :
 v1_0
 ;
-}
 /
 /
 it
@@ -9478,7 +9454,6 @@ IsEmpty
 (
 )
 )
-{
 mDefaultSocketType
 .
 SetIsVoid
@@ -9486,7 +9461,6 @@ SetIsVoid
 true
 )
 ;
-}
 else
 {
 /
@@ -9780,7 +9754,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mPhishyUserPassLength
 =
 (
@@ -9793,7 +9766,6 @@ val
 0xff
 )
 ;
-}
 }
 if
 (
@@ -10136,7 +10108,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mSpdyTimeout
 =
 PR_SecondsToInterval
@@ -10149,7 +10120,6 @@ val
 )
 )
 ;
-}
 }
 if
 (
@@ -10213,7 +10183,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mSpdySendingChunkSize
 =
 (
@@ -10226,7 +10195,6 @@ val
 0x3fff
 )
 ;
-}
 }
 /
 /
@@ -10296,7 +10264,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mSpdyPingThreshold
 =
 PR_SecondsToInterval
@@ -10312,7 +10279,6 @@ val
 )
 )
 ;
-}
 }
 /
 /
@@ -10379,7 +10345,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mSpdyPingTimeout
 =
 PR_SecondsToInterval
@@ -10395,7 +10360,6 @@ val
 )
 )
 ;
-}
 }
 if
 (
@@ -10911,7 +10875,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mSpdySendBufferSize
 =
 (
@@ -10924,7 +10887,6 @@ val
 0x7fffffff
 )
 ;
-}
 }
 if
 (
@@ -11040,7 +11002,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 /
 /
 the
@@ -11065,7 +11026,6 @@ val
 *
 PR_MSEC_PER_SEC
 ;
-}
 }
 /
 /
@@ -11128,7 +11088,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 /
 /
 the
@@ -11153,7 +11112,6 @@ val
 *
 PR_MSEC_PER_SEC
 ;
-}
 }
 /
 /
@@ -11221,7 +11179,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mParallelSpeculativeConnectLimit
 =
 (
@@ -11234,7 +11191,6 @@ val
 1024
 )
 ;
-}
 }
 /
 /
@@ -13077,7 +13033,6 @@ val
 >
 0
 )
-{
 mTCPKeepaliveShortLivedTimeS
 =
 clamped
@@ -13093,7 +13048,6 @@ Max
 5
 mins
 .
-}
 }
 if
 (
@@ -13141,7 +13095,6 @@ val
 >
 0
 )
-{
 mTCPKeepaliveShortLivedIdleTimeS
 =
 clamped
@@ -13151,7 +13104,6 @@ val
 kMaxTCPKeepIdle
 )
 ;
-}
 }
 /
 /
@@ -13263,7 +13215,6 @@ val
 >
 0
 )
-{
 mTCPKeepaliveLongLivedIdleTimeS
 =
 clamped
@@ -13273,7 +13224,6 @@ val
 kMaxTCPKeepIdle
 )
 ;
-}
 }
 if
 (
@@ -18006,7 +17956,6 @@ UsePrivateBrowsing
 (
 )
 )
-{
 flags
 |
 =
@@ -18015,7 +17964,6 @@ nsISocketProvider
 :
 NO_PERMANENT_STORAGE
 ;
-}
 OriginAttributes
 originAttributes
 ;
@@ -18289,11 +18237,9 @@ http
 "
 )
 )
-{
 return
 NS_ERROR_UNEXPECTED
 ;
-}
 /
 /
 Construct
@@ -19561,6 +19507,7 @@ Now
 ;
 }
 TimeStamp
+const
 nsHttpHandler
 :
 :

@@ -118,8 +118,6 @@ mInfo
 ;
 bool
 mPinned
-=
-false
 ;
 nsString
 mOrigin
@@ -132,8 +130,6 @@ be
 empty
 PRTime
 mTimeStamp
-=
-0
 ;
 /
 /

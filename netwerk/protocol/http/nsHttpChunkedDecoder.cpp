@@ -619,13 +619,11 @@ if
 (
 mReachedEOF
 )
-{
 break
 ;
 /
 /
 done
-}
 else
 {
 uint32_t

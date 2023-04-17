@@ -203,9 +203,7 @@ activity
 .
 enabled
 "
-using
-Activities
-=
+typedef
 nsTHashMap
 <
 nsCStringHashKey
@@ -214,6 +212,7 @@ dom
 :
 IOActivityDataDictionary
 >
+Activities
 ;
 /
 /

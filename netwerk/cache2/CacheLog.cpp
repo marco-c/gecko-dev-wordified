@@ -65,8 +65,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 /
@@ -156,7 +156,9 @@ cache2
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

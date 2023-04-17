@@ -3595,7 +3595,6 @@ rv
 =
 NS_ERROR_NOT_IMPLEMENTED
 )
-{
 return
 NS_ImplementChannelOpen
 (
@@ -3603,7 +3602,6 @@ this
 aStream
 )
 ;
-}
 if
 (
 NS_SUCCEEDED
@@ -4746,7 +4744,6 @@ mLoadFlags
 &
 LOAD_CALL_CONTENT_SNIFFERS
 )
-{
 mPump
 -
 >
@@ -4764,7 +4761,6 @@ this
 )
 ;
 }
-}
 SUSPEND_PUMP_FOR_SCOPE
 (
 )
@@ -4773,7 +4769,6 @@ if
 (
 mListener
 )
-{
 /
 /
 null
@@ -4790,7 +4785,6 @@ OnStartRequest
 this
 )
 ;
-}
 return
 NS_OK
 ;
@@ -4872,7 +4866,6 @@ if
 (
 mListener
 )
-{
 /
 /
 null
@@ -4889,7 +4882,6 @@ this
 mStatus
 )
 ;
-}
 ChannelDone
 (
 )

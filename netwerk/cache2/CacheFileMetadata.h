@@ -1426,9 +1426,6 @@ mWriteBuf
 ;
 CacheFileMetadataHeader
 mMetaHdr
-{
-0
-}
 ;
 uint32_t
 mElementsSize

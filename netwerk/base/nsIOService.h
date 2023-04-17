@@ -253,9 +253,7 @@ x
 sizeof
 (
 *
-(
 x
-)
 )
 )
 /
@@ -1100,7 +1098,7 @@ char
 scheme
 nsIProtocolHandler
 *
-handler
+hdlr
 )
 ;
 nsresult

@@ -287,9 +287,7 @@ ipc
 IPCResult
 RecvSpeculativeConnect
 (
-const
 HttpConnectionInfoCloneArgs
-&
 aConnInfo
 Maybe
 <

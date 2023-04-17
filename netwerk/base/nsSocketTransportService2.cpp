@@ -2642,8 +2642,6 @@ NS_ERROR_NOT_AVAILABLE
 }
 SocketContext
 sock
-{
-}
 ;
 sock
 .
@@ -3000,21 +2998,17 @@ listHead
 =
 mActiveList
 )
-{
 RemoveFromPollList
 (
 sock
 )
 ;
-}
 else
-{
 RemoveFromIdleList
 (
 sock
 )
 ;
-}
 /
 /
 NOTE
@@ -3776,22 +3770,18 @@ NS_FAILED
 rv
 )
 )
-{
 DetachSocket
 (
 mActiveList
 sock
 )
 ;
-}
 else
-{
 RemoveFromPollList
 (
 sock
 )
 ;
-}
 }
 void
 nsSocketTransportService
@@ -3819,22 +3809,18 @@ NS_FAILED
 rv
 )
 )
-{
 DetachSocket
 (
 mIdleList
 sock
 )
 ;
-}
 else
-{
 RemoveFromIdleList
 (
 sock
 )
 ;
-}
 }
 bool
 nsSocketTransportService
@@ -4329,7 +4315,6 @@ if
 (
 pollCount
 )
-{
 pollList
 =
 &
@@ -4338,14 +4323,11 @@ mPollList
 1
 ]
 ;
-}
 else
-{
 pollList
 =
 nullptr
 ;
-}
 pollTimeout
 =
 pendingEvents
@@ -8116,7 +8098,6 @@ mHandler
 mCondition
 )
 )
-{
 DetachSocket
 (
 mIdleList
@@ -8127,7 +8108,6 @@ i
 ]
 )
 ;
-}
 else
 if
 (
@@ -8144,7 +8124,6 @@ mPollFlags
 =
 0
 )
-{
 MoveToPollList
 (
 &
@@ -8154,7 +8133,6 @@ i
 ]
 )
 ;
-}
 }
 {
 MutexAutoLock
@@ -8731,7 +8709,6 @@ mHandler
 mCondition
 )
 )
-{
 DetachSocket
 (
 mActiveList
@@ -8742,7 +8719,6 @@ i
 ]
 )
 ;
-}
 }
 {
 MutexAutoLock
@@ -9034,7 +9010,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mKeepaliveIdleTimeS
 =
 clamped
@@ -9044,7 +9019,6 @@ keepaliveIdleTimeS
 kMaxTCPKeepIdle
 )
 ;
-}
 int32_t
 keepaliveRetryIntervalS
 ;
@@ -9067,7 +9041,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mKeepaliveRetryIntervalS
 =
 clamped
@@ -9077,7 +9050,6 @@ keepaliveRetryIntervalS
 kMaxTCPKeepIntvl
 )
 ;
-}
 int32_t
 keepaliveProbeCount
 ;
@@ -9100,7 +9072,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 mKeepaliveProbeCount
 =
 clamped
@@ -9110,7 +9081,6 @@ keepaliveProbeCount
 kMaxTCPKeepCount
 )
 ;
-}
 bool
 keepaliveEnabled
 =
@@ -10706,8 +10676,6 @@ needed
 struct
 rlimit
 rlimitData
-{
-}
 ;
 if
 (
@@ -10722,7 +10690,6 @@ rlimitData
 -
 1
 )
-{
 /
 /
 rlimit
@@ -10733,7 +10700,6 @@ min
 return
 PR_SUCCESS
 ;
-}
 if
 (
 rlimitData
@@ -11097,7 +11063,6 @@ family
 =
 PR_AF_INET
 )
-{
 port
 =
 peer_addr
@@ -11106,9 +11071,7 @@ inet
 .
 port
 ;
-}
 else
-{
 port
 =
 peer_addr
@@ -11117,7 +11080,6 @@ ipv6
 .
 port
 ;
-}
 port
 =
 PR_ntohs
@@ -11217,7 +11179,6 @@ i
 +
 +
 )
-{
 AnalyzeConnection
 (
 data
@@ -11229,7 +11190,6 @@ i
 true
 )
 ;
-}
 for
 (
 uint32_t
@@ -11245,7 +11205,6 @@ i
 +
 +
 )
-{
 AnalyzeConnection
 (
 data
@@ -11257,7 +11216,6 @@ i
 false
 )
 ;
-}
 }
 bool
 nsSocketTransportService

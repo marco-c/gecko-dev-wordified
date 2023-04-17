@@ -338,7 +338,7 @@ nsHttpRequestHead
 requestHead
 nsHttpResponseHead
 *
-responseHead
+reqponseHead
 nsILoadContextInfo
 *
 lci

@@ -213,8 +213,6 @@ mName
 ;
 double
 mDuration
-=
-0
 ;
 nsCString
 mDescription

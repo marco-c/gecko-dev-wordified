@@ -655,12 +655,11 @@ CanAcceptWebsocket
 ;
 }
 ;
-using
-ALPNCallback
-=
+typedef
 bool
 (
 *
+ALPNCallback
 )
 (
 nsISupports
@@ -811,8 +810,6 @@ Version
 [
 kCount
 ]
-{
-}
 ;
 /
 /
@@ -911,8 +908,6 @@ ALPNCallbacks
 [
 kCount
 ]
-{
-}
 ;
 }
 ;

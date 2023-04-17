@@ -190,7 +190,7 @@ explicit
 WebSocketChannelChild
 (
 bool
-aEncrypted
+aSecure
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -347,7 +347,7 @@ aEffectiveURL
 const
 bool
 &
-aEncrypted
+aSecure
 const
 uint64_t
 &
@@ -459,7 +459,7 @@ aEffectiveURL
 const
 bool
 &
-aEncrypted
+aSecure
 const
 uint64_t
 &

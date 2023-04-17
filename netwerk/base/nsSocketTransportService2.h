@@ -2445,7 +2445,7 @@ TimeDuration
 *
 pollDuration
 PRIntervalTime
-ts
+now
 )
 ;
 /
@@ -2968,9 +2968,7 @@ the
 /
 /
 range
-using
-TPortRemapping
-=
+typedef
 CopyableTArray
 <
 Tuple
@@ -2980,6 +2978,7 @@ uint16_t
 uint16_t
 >
 >
+TPortRemapping
 ;
 Maybe
 <

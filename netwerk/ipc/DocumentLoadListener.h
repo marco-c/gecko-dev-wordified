@@ -440,8 +440,6 @@ base
 :
 ProcessId
 mChildProcessId
-=
-0
 ;
 mozilla
 :
@@ -801,15 +799,19 @@ false
 ;
 }
 ;
-using
-OpenPromise
-=
+typedef
 MozPromise
 <
 OpenPromiseSucceededType
 OpenPromiseFailedType
 true
+/
+*
+isExclusive
+*
+/
 >
+OpenPromise
 ;
 /
 /
@@ -1188,7 +1190,7 @@ ProcessId
 aPid
 ObjectUpgradeHandler
 *
-aObjectUpgradeHandler
+aUpgradeHandler
 nsresult
 *
 aRv
@@ -2735,9 +2737,7 @@ mIsThirdParty
 ;
 }
 ;
-using
-IParentChannelFunction
-=
+typedef
 mozilla
 :
 :
@@ -2751,6 +2751,7 @@ ClassifierMatchedInfoParams
 ClassifierMatchedTrackingInfoParams
 ClassificationFlagsParams
 >
+IParentChannelFunction
 ;
 /
 /
@@ -2853,8 +2854,6 @@ mMessageName
 ;
 bool
 mWarning
-=
-false
 ;
 nsString
 mURL
@@ -2864,9 +2863,7 @@ mContentType
 ;
 }
 ;
-using
-SecurityWarningFunction
-=
+typedef
 mozilla
 :
 :
@@ -2876,6 +2873,7 @@ ReportSecurityMessageParams
 LogBlockedCORSRequestParams
 LogMimeTypeMismatchParams
 >
+SecurityWarningFunction
 ;
 nsTArray
 <
@@ -2936,9 +2934,7 @@ status
 ;
 }
 ;
-using
-StreamListenerFunction
-=
+typedef
 mozilla
 :
 :
@@ -2949,6 +2945,7 @@ OnDataAvailableParams
 OnStopRequestParams
 OnAfterLastPartParams
 >
+StreamListenerFunction
 ;
 /
 /

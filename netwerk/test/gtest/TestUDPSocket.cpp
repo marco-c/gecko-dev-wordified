@@ -650,6 +650,7 @@ return
 NS_OK
 ;
 }
+else
 if
 (
 TEST_OUTPUT_STREAM
@@ -938,6 +939,7 @@ return
 NS_OK
 ;
 }
+else
 if
 (
 TEST_MULTICAST

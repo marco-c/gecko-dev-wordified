@@ -5455,7 +5455,6 @@ uri
 ;
 }
 auto
-*
 prin
 =
 BasePrincipal

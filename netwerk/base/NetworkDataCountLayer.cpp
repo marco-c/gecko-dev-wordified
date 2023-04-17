@@ -169,9 +169,8 @@ public
 NetworkDataCountSecret
 (
 )
-=
-default
-;
+{
+}
 uint64_t
 mSentBytes
 =

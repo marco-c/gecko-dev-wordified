@@ -403,7 +403,7 @@ GetTrashDir
 (
 nsIFile
 *
-target
+dir
 nsCOMPtr
 <
 nsIFile

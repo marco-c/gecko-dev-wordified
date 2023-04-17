@@ -1681,7 +1681,6 @@ if
 (
 loadGroup
 )
-{
 loadGroup
 -
 >
@@ -1698,7 +1697,6 @@ this
 nullptr
 )
 ;
-}
 nsresult
 rv
 =
@@ -1724,7 +1722,6 @@ rv
 &
 loadGroup
 )
-{
 loadGroup
 -
 >
@@ -1742,7 +1739,6 @@ nullptr
 rv
 )
 ;
-}
 if
 (
 NS_SUCCEEDED
@@ -2165,9 +2161,10 @@ nsIChannel
 :
 LOAD_DOCUMENT_URI
 )
-!
-=
-0
+?
+true
+:
+false
 ;
 nsresult
 rv

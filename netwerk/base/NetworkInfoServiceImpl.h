@@ -134,14 +134,13 @@ mozilla
 namespace
 net
 {
-using
-AddrMapType
-=
+typedef
 nsTHashMap
 <
 nsCStringHashKey
 nsCString
 >
+AddrMapType
 ;
 nsresult
 DoListAddresses

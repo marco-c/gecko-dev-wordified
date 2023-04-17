@@ -1675,6 +1675,7 @@ anyway
 break
 ;
 }
+else
 if
 (
 fail
@@ -3566,7 +3567,6 @@ i
 +
 +
 )
-{
 if
 (
 aStr
@@ -3585,7 +3585,6 @@ mAddress
 return
 i
 ;
-}
 return
 -
 1
@@ -3618,7 +3617,6 @@ i
 +
 +
 )
-{
 if
 (
 aChannel
@@ -3637,7 +3635,6 @@ mChannel
 return
 i
 ;
-}
 return
 -
 1
@@ -6494,13 +6491,9 @@ mMessageDeflated
 ;
 z_stream
 mDeflater
-{
-}
 ;
 z_stream
 mInflater
-{
-}
 ;
 const
 static
@@ -6514,8 +6507,6 @@ mBuffer
 [
 kBufferLen
 ]
-{
-}
 ;
 }
 ;
@@ -13725,7 +13716,6 @@ if
 (
 mCurrentOut
 )
-{
 MOZ_ASSERT
 (
 mCurrentOut
@@ -13745,9 +13735,7 @@ message
 "
 )
 ;
-}
 else
-{
 mCurrentOut
 =
 mOutgoingMessages
@@ -13756,7 +13744,6 @@ PopFront
 (
 )
 ;
-}
 }
 if
 (
@@ -16070,12 +16057,10 @@ count
 0
 )
 )
-{
 mTCPClosed
 =
 true
 ;
-}
 }
 while
 (
@@ -19835,12 +19820,10 @@ direct
 "
 )
 )
-{
 didProxy
 =
 true
 ;
-}
 }
 uint8_t
 value
@@ -20131,7 +20114,6 @@ NS_FAILED
 rv
 )
 )
-{
 LOG
 (
 (
@@ -20149,7 +20131,6 @@ n
 )
 )
 ;
-}
 }
 LOG
 (
@@ -20462,7 +20443,6 @@ nsIChannelEventSink
 )
 )
 )
-{
 return
 QueryInterface
 (
@@ -20470,7 +20450,6 @@ iid
 result
 )
 ;
-}
 if
 (
 mCallbacks
@@ -20731,7 +20710,6 @@ spec
 )
 )
 )
-{
 LOG
 (
 (
@@ -20756,7 +20734,6 @@ get
 )
 )
 ;
-}
 return
 NS_ERROR_FAILURE
 ;
@@ -21228,7 +21205,6 @@ mStopped
 |
 mServerClosed
 )
-{
 /
 *
 no
@@ -21239,7 +21215,6 @@ relevant
 return
 NS_OK
 ;
-}
 LOG
 (
 (
@@ -21313,7 +21288,6 @@ mStopped
 |
 mServerClosed
 )
-{
 /
 *
 no
@@ -21324,7 +21298,6 @@ relevant
 return
 NS_OK
 ;
-}
 AbortSession
 (
 NS_ERROR_NET_TIMEOUT
@@ -21689,13 +21662,11 @@ aSecurityInfo
 )
 )
 )
-{
 *
 aSecurityInfo
 =
 nullptr
 ;
-}
 }
 return
 NS_OK
@@ -25584,7 +25555,6 @@ if
 !
 mSocketIn
 )
-{
 /
 /
 did
@@ -25596,14 +25566,11 @@ the
 socket
 after
 scheduling
-/
-/
 InputReady
 ?
 return
 NS_OK
 ;
-}
 /
 /
 this

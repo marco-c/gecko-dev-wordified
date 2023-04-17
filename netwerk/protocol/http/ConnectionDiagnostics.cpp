@@ -413,12 +413,10 @@ mNumIdleConns
 ;
 for
 (
-const
 RefPtr
 <
 ConnectionEntry
 >
-&
 ent
 :
 mCT
@@ -1303,9 +1301,17 @@ n
 !
 !
 mTransaction
+.
+get
+(
+)
 !
 !
 mSpdySession
+.
+get
+(
+)
 )
 ;
 PRIntervalTime
@@ -1786,7 +1792,6 @@ if
 (
 mPingSentEpoch
 )
-{
 log
 .
 AppendPrintf
@@ -1826,9 +1831,7 @@ SpdyPingTimeout
 )
 )
 ;
-}
 else
-{
 log
 .
 AppendPrintf
@@ -1842,7 +1845,6 @@ n
 "
 )
 ;
-}
 }
 void
 nsHttpTransaction

@@ -114,8 +114,8 @@ algorithm
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 NS_IMPL_ADDREF
@@ -2599,7 +2599,9 @@ this
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

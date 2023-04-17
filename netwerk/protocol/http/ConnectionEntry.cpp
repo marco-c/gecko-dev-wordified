@@ -358,9 +358,10 @@ this
 false
 false
 )
-!
-=
-nullptr
+?
+true
+:
+false
 ;
 }
 uint32_t
@@ -5468,8 +5469,6 @@ i
 {
 DnsAndConnectSockets
 dnsAndSock
-{
-}
 ;
 dnsAndSock
 .

@@ -272,9 +272,7 @@ nsXULAppAPI
 .
 h
 "
-using
-FileHandleType
-=
+typedef
 mozilla
 :
 :
@@ -285,6 +283,7 @@ FileDescriptor
 :
 :
 PlatformHandleType
+FileHandleType
 ;
 using
 namespace
@@ -4973,7 +4972,6 @@ equal
 !
 equal
 )
-{
 NS_WARNING
 (
 "
@@ -4985,7 +4983,6 @@ mTargetFile
 "
 )
 ;
-}
 #
 endif
 }
@@ -5136,12 +5133,10 @@ NS_FAILED
 rv
 )
 )
-{
 mWriteResult
 =
 rv
 ;
-}
 else
 if
 (
@@ -5151,12 +5146,10 @@ count
 *
 result
 )
-{
 mWriteResult
 =
 NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 ;
-}
 if
 (
 NS_FAILED
@@ -5169,7 +5162,6 @@ count
 >
 0
 )
-{
 NS_WARNING
 (
 "
@@ -5186,7 +5178,6 @@ lost
 "
 )
 ;
-}
 }
 return
 rv

@@ -620,7 +620,8 @@ Length
 (
 )
 ;
-return
+if
+(
 isPrefix
 &
 &
@@ -633,6 +634,14 @@ cookiePathLen
 '
 /
 '
+)
+{
+return
+true
+;
+}
+return
+false
 ;
 }
 /

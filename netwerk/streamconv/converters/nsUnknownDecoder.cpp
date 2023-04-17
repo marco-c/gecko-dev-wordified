@@ -500,12 +500,10 @@ val
 )
 )
 )
-{
 mRequireHTMLsuffix
 =
 val
 ;
-}
 }
 }
 nsUnknownDecoder

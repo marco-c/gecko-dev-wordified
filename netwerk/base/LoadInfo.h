@@ -317,9 +317,7 @@ ipc
 namespace
 net
 {
-using
-RedirectHistoryArray
-=
+typedef
 nsTArray
 <
 nsCOMPtr
@@ -327,6 +325,7 @@ nsCOMPtr
 nsIRedirectHistoryEntry
 >
 >
+RedirectHistoryArray
 ;
 /
 *
@@ -1895,8 +1894,6 @@ mSandboxFlags
 ;
 uint32_t
 mTriggeringSandboxFlags
-=
-0
 ;
 nsContentPolicyType
 mInternalContentPolicyType

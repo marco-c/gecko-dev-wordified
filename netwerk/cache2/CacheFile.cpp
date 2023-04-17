@@ -242,8 +242,8 @@ define
 CACHE_CHUNKS
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -6959,7 +6959,6 @@ IsDoomed
 (
 )
 )
-{
 CacheFileIOManager
 :
 :
@@ -6974,7 +6973,6 @@ nullptr
 nullptr
 )
 ;
-}
 mMetadata
 -
 >
@@ -8874,6 +8872,7 @@ return
 NS_OK
 ;
 }
+else
 if
 (
 off
@@ -12460,8 +12459,6 @@ DebugOnly
 bool
 >
 found
-{
-}
 ;
 found
 =
@@ -13530,7 +13527,6 @@ Key
 )
 ;
 auto
-*
 listeners
 =
 iter
@@ -14126,7 +14122,8 @@ mDataSize
 mAltDataOffset
 ;
 }
-return
+if
+(
 CacheObserver
 :
 :
@@ -14136,6 +14133,14 @@ totalSize
 !
 mMemoryOnly
 )
+)
+{
+return
+true
+;
+}
+return
+false
 ;
 }
 bool
@@ -14336,10 +14341,8 @@ mOpeningFile
 |
 mKill
 )
-{
 return
 ;
-}
 if
 (
 !
@@ -15007,9 +15010,10 @@ CacheFileUtils
 :
 kAltDataKey
 )
-!
-=
-nullptr
+?
+true
+:
+false
 ;
 static
 auto
@@ -15568,7 +15572,9 @@ mallocSizeOf
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

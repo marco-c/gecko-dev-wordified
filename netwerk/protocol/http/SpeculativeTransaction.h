@@ -359,8 +359,6 @@ virtual
 SpeculativeTransaction
 (
 )
-=
-default
 ;
 private
 :

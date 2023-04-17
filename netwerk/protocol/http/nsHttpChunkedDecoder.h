@@ -277,7 +277,7 @@ uint32_t
 count
 uint32_t
 *
-bytesConsumed
+countRead
 )
 ;
 private

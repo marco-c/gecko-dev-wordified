@@ -780,8 +780,7 @@ prefix
 nat64PrefixPref
 )
 ;
-return
-!
+if
 (
 NS_FAILED
 (
@@ -818,6 +817,13 @@ family
 =
 PR_AF_INET6
 )
+{
+return
+false
+;
+}
+return
+true
 ;
 }
 static

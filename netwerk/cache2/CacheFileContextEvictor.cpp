@@ -181,8 +181,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 #
@@ -3673,6 +3673,7 @@ RemoveElementAt
 continue
 ;
 }
+else
 if
 (
 NS_FAILED
@@ -4583,7 +4584,9 @@ here
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

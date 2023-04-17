@@ -151,14 +151,13 @@ nsNetModule
 cpp
 compilable
 .
-using
-TCacheEntryTable
-=
+typedef
 nsRefPtrHashtable
 <
 nsCStringHashKey
 CacheEntry
 >
+TCacheEntryTable
 ;
 class
 CacheEntryTable

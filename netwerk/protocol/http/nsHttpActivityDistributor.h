@@ -106,9 +106,7 @@ nsIHttpActivityDistributor
 {
 public
 :
-using
-ObserverArray
-=
+typedef
 nsTArray
 <
 nsMainThreadPtrHandle
@@ -116,6 +114,7 @@ nsMainThreadPtrHandle
 nsIHttpActivityObserver
 >
 >
+ObserverArray
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIHTTPACTIVITYOBSERVER
