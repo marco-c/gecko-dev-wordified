@@ -18237,6 +18237,10 @@ WSRunScanner
 GetRangeContainingInvisibleWhiteSpacesAtRangeBoundaries
 (
 aHTMLEditor
+.
+GetActiveEditingHost
+(
+)
 EditorDOMRange
 (
 aRangesToDelete

@@ -2845,10 +2845,12 @@ static
 EditorDOMRange
 GetRangeContainingInvisibleWhiteSpacesAtRangeBoundaries
 (
-const
-HTMLEditor
-&
-aHTMLEditor
+dom
+:
+:
+Element
+*
+aEditingHost
 const
 EditorDOMRange
 &
