@@ -325,11 +325,13 @@ review
     
 #
 Only
-activating
+disactivating
 when
 code_review_warnings
 is
 set
+to
+False
 on
 a
 linter
@@ -362,6 +364,7 @@ get
 "
 code_review_warnings
 "
+True
 )
 :
         
