@@ -197,6 +197,7 @@ def
 start
 (
 self
+ssl_context
 )
 :
         
@@ -382,6 +383,23 @@ base_url
 timeout
 =
 1
+)
+                
+urllib
+.
+request
+.
+urlopen
+(
+self
+.
+https_base_url
+timeout
+=
+1
+context
+=
+ssl_context
 )
                 
 return
