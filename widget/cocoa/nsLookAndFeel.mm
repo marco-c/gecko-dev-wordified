@@ -1695,11 +1695,11 @@ Buttonhighlight
 :
 color
 =
-NS_RGB
+GetColorFromNSColor
 (
-0xFF
-0xFF
-0xFF
+NSColor
+.
+selectedControlColor
 )
 ;
 break
