@@ -1,8 +1,4 @@
 from
-six
-import
-integer_types
-from
 urllib
 .
 parse
@@ -260,7 +256,7 @@ if
 isinstance
 (
 v
-integer_types
+int
 )
 :
             

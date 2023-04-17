@@ -7,8 +7,6 @@ bin
 /
 python
 import
-six
-import
 time
 #
 The
@@ -298,9 +296,7 @@ ws_stream
 .
 send_message
 (
-six
-.
-text_type
+str
 (
 time
 .

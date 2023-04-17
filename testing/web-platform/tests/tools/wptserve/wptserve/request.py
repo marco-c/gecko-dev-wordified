@@ -3957,11 +3957,14 @@ Cookie
 values
     
 Keys
-and
-values
 are
 binary
 strings
+and
+values
+are
+CookieValue
+objects
 .
     
 "

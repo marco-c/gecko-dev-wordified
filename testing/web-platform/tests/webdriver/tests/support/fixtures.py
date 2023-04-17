@@ -11,10 +11,6 @@ pytest
 import
 webdriver
 from
-six
-import
-string_types
-from
 urllib
 .
 parse
@@ -1621,7 +1617,7 @@ assert
 isinstance
 (
 text
-string_types
+str
 )
 "
 text
