@@ -3704,9 +3704,6 @@ aMap
 mAnyZoneJSHolders
 )
 {
-#
-ifdef
-DEBUG
 MOZ_RELEASE_ASSERT
 (
 !
@@ -3721,8 +3718,6 @@ mHasIterator
 =
 true
 ;
-#
-endif
 /
 /
 Populate
