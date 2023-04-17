@@ -153,6 +153,15 @@ link
 .
 html
 "
+"
+doc
+-
+reload
+-
+link
+.
+html
+"
 )
 ;
 const
