@@ -1856,7 +1856,7 @@ useRegisterAtStart
 ins
 -
 >
-getObject
+object
 (
 )
 )
@@ -1865,7 +1865,7 @@ useBoxAtStart
 ins
 -
 >
-getValue
+value
 (
 )
 )
@@ -2009,7 +2009,7 @@ useRegisterOrConstantAtStart
 ins
 -
 >
-getCallee
+callee
 (
 )
 )
@@ -2018,7 +2018,7 @@ useRegisterOrConstantAtStart
 ins
 -
 >
-getNewTarget
+newTarget
 (
 )
 )
