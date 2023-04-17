@@ -1704,6 +1704,14 @@ canSetDesktopBackground
 )
 {
 }
+doesAppNeedPin
+(
+)
+{
+return
+false
+;
+}
 isDefaultBrowserOptOut
 (
 )
