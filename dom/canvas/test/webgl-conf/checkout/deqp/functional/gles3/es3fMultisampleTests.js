@@ -16573,7 +16573,6 @@ run
 function
 (
 context
-range
 )
 {
 gl
@@ -16662,17 +16661,6 @@ es3fMultisampleTests
 .
 init
 (
-)
-;
-if
-(
-range
-)
-state
-.
-setRange
-(
-range
 )
 ;
 /
