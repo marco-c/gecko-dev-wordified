@@ -101,10 +101,7 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
-:
-Device
-Interfaces
+Networking
 "
 )
 XPCSHELL_TESTS_MANIFESTS
