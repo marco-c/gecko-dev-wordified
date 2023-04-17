@@ -524,6 +524,11 @@ PreventClickEvent
 (
 )
 ;
+bool
+ClickEventPrevented
+(
+)
+;
 protected
 :
 ~

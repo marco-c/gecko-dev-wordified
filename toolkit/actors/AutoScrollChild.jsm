@@ -2032,6 +2032,14 @@ button
 &
 &
 !
+event
+.
+clickEventPrevented
+(
+)
+&
+&
+!
 this
 .
 _scrollable
