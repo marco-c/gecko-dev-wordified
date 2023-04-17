@@ -12662,14 +12662,6 @@ CAIRO
 aDT
 -
 >
-IsDualDrawTarget
-(
-)
-|
-|
-aDT
--
->
 IsTiledDrawTarget
 (
 )
