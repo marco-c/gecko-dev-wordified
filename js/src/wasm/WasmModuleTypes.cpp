@@ -1289,9 +1289,6 @@ mallocSizeOf
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_EXCEPTIONS
 bool
 TagType
 :
@@ -1523,8 +1520,6 @@ return
 true
 ;
 }
-#
-endif
 size_t
 ElemSegment
 :
