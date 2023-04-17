@@ -8633,12 +8633,12 @@ GetSourceTreeBase
 )
 ;
 nsDependentCSubstring
-MakeRelativeSourceFileName
+MakeSourceFileRelativePath
 (
 const
 nsACString
 &
-aSourceFile
+aSourceFilePath
 )
 ;
 }
@@ -8670,7 +8670,7 @@ aRv
 const
 nsACString
 &
-aSourceFile
+aSourceFilePath
 int32_t
 aSourceLine
 Severity
@@ -8693,7 +8693,7 @@ aFile
 const
 char
 *
-aSourceFile
+aSourceFilePath
 int32_t
 aSourceLine
 )
@@ -9164,7 +9164,7 @@ aRv
 const
 char
 *
-aSourceFile
+aSourceFilePath
 int32_t
 aSourceLine
 const
@@ -9206,7 +9206,7 @@ aRv
 )
 nsDependentCString
 (
-aSourceFile
+aSourceFilePath
 )
 aSourceLine
 aSeverity
@@ -9235,7 +9235,7 @@ Nothing
 }
 nsDependentCString
 (
-aSourceFile
+aSourceFilePath
 )
 aSourceLine
 aSeverity
@@ -9266,7 +9266,7 @@ aRv
 const
 char
 *
-aSourceFile
+aSourceFilePath
 int32_t
 aSourceLine
 const
@@ -9296,7 +9296,7 @@ aRv
 const
 char
 *
-aSourceFile
+aSourceFilePath
 int32_t
 aSourceLine
 const
@@ -9308,7 +9308,7 @@ HandleError
 (
 aExpr
 aRv
-aSourceFile
+aSourceFilePath
 aSourceLine
 aSeverity
 )
@@ -9340,7 +9340,7 @@ aRv
 const
 char
 *
-aSourceFile
+aSourceFilePath
 int32_t
 aSourceLine
 const
@@ -9356,7 +9356,7 @@ HandleError
 (
 aExpr
 aRv
-aSourceFile
+aSourceFilePath
 aSourceLine
 aSeverity
 )

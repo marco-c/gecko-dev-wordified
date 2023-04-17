@@ -1764,7 +1764,7 @@ GetSourceTreeBase
 static
 constexpr
 auto
-thisFileRelativeSourceFileName
+thisSourceFileRelativePath
 =
 "
 /
@@ -1793,7 +1793,7 @@ MOZ_ASSERT
 StringEndsWith
 (
 path
-thisFileRelativeSourceFileName
+thisSourceFileRelativePath
 )
 )
 ;
@@ -1808,7 +1808,7 @@ Length
 (
 )
 -
-thisFileRelativeSourceFileName
+thisSourceFileRelativePath
 .
 Length
 (
@@ -1817,12 +1817,12 @@ Length
 ;
 }
 nsDependentCSubstring
-MakeRelativeSourceFileName
+MakeSourceFileRelativePath
 (
 const
 nsACString
 &
-aSourceFile
+aSourceFilePath
 )
 {
 static
@@ -1850,7 +1850,7 @@ MOZ_LIKELY
 (
 StringBeginsWith
 (
-aSourceFile
+aSourceFilePath
 sourceTreeBase
 )
 )
@@ -1859,7 +1859,7 @@ sourceTreeBase
 return
 Substring
 (
-aSourceFile
+aSourceFilePath
 sourceTreeBase
 .
 Length
@@ -1885,13 +1885,13 @@ RFindInReadable
 /
 "
 _ns
-aSourceFile
+aSourceFilePath
 .
 BeginReading
 (
 begin
 )
-aSourceFile
+aSourceFilePath
 .
 EndReading
 (
@@ -1928,7 +1928,7 @@ return
 Substring
 (
 begin
-aSourceFile
+aSourceFilePath
 .
 EndReading
 (
@@ -1986,7 +1986,7 @@ aRv
 const
 nsACString
 &
-aSourceFile
+aSourceFilePath
 const
 int32_t
 aSourceLine
@@ -2157,14 +2157,14 @@ IsEmpty
 }
 const
 auto
-relativeSourceFile
+sourceFileRelativePath
 =
 detail
 :
 :
-MakeRelativeSourceFileName
+MakeSourceFileRelativePath
 (
-aSourceFile
+aSourceFilePath
 )
 ;
 const
@@ -2352,7 +2352,7 @@ get
 )
 nsPromiseFlatCString
 (
-relativeSourceFile
+sourceFileRelativePath
 )
 .
 get
@@ -2422,7 +2422,7 @@ at
 "
 _ns
 +
-relativeSourceFile
+sourceFileRelativePath
 +
 "
 :
@@ -2625,7 +2625,7 @@ source_file
 _ns
 nsCString
 (
-relativeSourceFile
+sourceFileRelativePath
 )
 }
 )
@@ -2880,7 +2880,7 @@ aFile
 const
 char
 *
-aSourceFile
+aSourceFilePath
 const
 int32_t
 aSourceLine
@@ -3106,7 +3106,7 @@ get
 (
 )
 nullptr
-aSourceFile
+aSourceFilePath
 aSourceLine
 )
 ;
