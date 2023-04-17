@@ -2637,7 +2637,9 @@ hasEnvironment
 ScopeKind
 kind
 bool
-environmentShape
+hasEnvironmentShape
+=
+false
 )
 {
 switch
@@ -2686,7 +2688,7 @@ this
 scope
 .
 return
-environmentShape
+hasEnvironmentShape
 ;
 }
 }
@@ -2700,6 +2702,8 @@ return
 hasEnvironment
 (
 kind_
+!
+!
 environmentShape
 (
 )
