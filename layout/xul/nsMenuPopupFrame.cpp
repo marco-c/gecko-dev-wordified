@@ -3439,6 +3439,11 @@ if
 IsLeaf
 (
 )
+|
+|
+IsNativeMenu
+(
+)
 )
 {
 return
