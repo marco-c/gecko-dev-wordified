@@ -1032,7 +1032,7 @@ false
 bool
 topLevelAwait
 =
-false
+true
 ;
 /
 /
