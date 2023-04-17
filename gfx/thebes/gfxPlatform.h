@@ -4412,13 +4412,6 @@ SupportsApzZooming
 )
 const
 ;
-virtual
-void
-FlushContentDrawing
-(
-)
-{
-}
 /
 /
 If
