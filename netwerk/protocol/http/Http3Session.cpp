@@ -11121,6 +11121,16 @@ resumed
 mSocketControl
 -
 >
+SetNegotiatedNPN
+(
+secInfo
+.
+alpn
+)
+;
+mSocketControl
+-
+>
 SetInfo
 (
 secInfo
