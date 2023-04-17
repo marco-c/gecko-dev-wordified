@@ -232,13 +232,6 @@ algorithm
 >
 #
 include
-<
-setjmp
-.
-h
->
-#
-include
 "
 jsapi
 .

@@ -5634,6 +5634,9 @@ true
 ;
 }
 #
+ifndef
+__wasi__
+#
 if
 !
 defined
@@ -6430,9 +6433,6 @@ return
 true
 ;
 }
-#
-ifndef
-__wasi__
 static
 bool
 os_waitpid
@@ -6761,6 +6761,9 @@ id
 .
 "
 )
+#
+ifndef
+__wasi__
 JS_FN_HELP
 (
 "
@@ -6880,9 +6883,6 @@ given
 .
 "
 )
-#
-ifndef
-__wasi__
 JS_FN_HELP
 (
 "
@@ -6958,12 +6958,12 @@ exited
 )
 #
 endif
+#
+endif
 /
 /
 !
 __wasi__
-#
-endif
 JS_FS_HELP_END
 }
 ;
