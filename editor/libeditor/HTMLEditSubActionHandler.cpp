@@ -5657,7 +5657,7 @@ NS_SUCCEEDED
 rv
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 DeleteNodeWithTransaction
