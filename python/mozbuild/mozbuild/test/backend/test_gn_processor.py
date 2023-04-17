@@ -96,12 +96,8 @@ mozbuild
 .
 gn_processor
 import
-(
-    
 GnMozbuildWriterBackend
-    
 find_common_attrs
-)
 from
 mozbuild
 .
@@ -109,16 +105,10 @@ frontend
 .
 data
 import
-(
-    
 ComputedFlags
-    
 StaticLibrary
-    
 Sources
-    
 UnifiedSources
-)
 class
 TestGnMozbuildWriter
 (
@@ -974,6 +964,29 @@ include
 "
                 
 )
+                
+"
+-
+I
+"
++
+mozpath
+.
+join
+(
+flags_obj
+.
+topsrcdir
+"
+tools
+"
+"
+profiler
+"
+"
+public
+"
+)
             
 ]
         
@@ -1036,7 +1049,6 @@ LOCAL_INCLUDES
 "
 :
 [
-            
 "
 !
 /
@@ -1046,7 +1058,6 @@ ipdl
 /
 _ipdlheaders
 "
-            
 "
 /
 ipc
@@ -1055,14 +1066,12 @@ chromium
 /
 src
 "
-            
 "
 /
 ipc
 /
 glue
 "
-        
 ]
         
 "
@@ -1070,19 +1079,16 @@ DEFINES
 "
 :
 {
-            
 "
 UNICODE
 "
 :
 True
-            
 "
 DEBUG
 "
 :
 True
-        
 }
         
 "
@@ -1694,21 +1700,17 @@ overlapping_dict_attrs
 DEFINES
 "
 ]
-            
 {
-                
 "
 DEBUG
 "
 :
 True
-                
 "
 MOZ_DEBUG
 "
 :
 True
-            
 }
         
 )
