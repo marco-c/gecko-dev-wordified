@@ -196,7 +196,10 @@ crate
 recovery
 :
 :
+{
 RecoveryToken
+StreamRecoveryToken
+}
 ;
 use
 crate
@@ -4756,6 +4759,11 @@ push
 RecoveryToken
 :
 :
+Stream
+(
+StreamRecoveryToken
+:
+:
 StopSending
 {
 stream_id
@@ -4764,6 +4772,7 @@ self
 .
 stream_id
 }
+)
 )
 ;
 stats
