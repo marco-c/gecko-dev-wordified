@@ -399,6 +399,33 @@ virtualenv_name
 classmethod
     
 def
+from_runtime
+(
+cls
+)
+:
+        
+return
+cls
+.
+from_path
+(
+os
+.
+path
+.
+join
+(
+sys
+.
+prefix
+METADATA_FILENAME
+)
+)
+    
+classmethod
+    
+def
 from_path
 (
 cls
@@ -682,10 +709,6 @@ virtualenv_name
         
 *
         
-populate_local_paths
-=
-True
-        
 log_handle
 =
 sys
@@ -895,12 +918,6 @@ self
 log_handle
 =
 log_handle
-        
-self
-.
-populate_local_paths
-=
-populate_local_paths
         
 self
 .
@@ -1363,8 +1380,6 @@ return
 False
         
 if
-(
-            
 env_requirements
 .
 pth_requirements
@@ -1372,12 +1387,6 @@ or
 env_requirements
 .
 vendored_requirements
-        
-)
-and
-self
-.
-populate_local_paths
 :
             
 try
@@ -2350,12 +2359,6 @@ _requirements
 (
 )
             
-if
-self
-.
-populate_local_paths
-:
-                
 python_lib
 =
 distutils
@@ -2365,7 +2368,7 @@ sysconfig
 get_python_lib
 (
 )
-                
+            
 with
 open
 (
@@ -2385,24 +2388,24 @@ a
 as
 f
 :
-                    
+                
 for
 pth_requirement
 in
 (
-                        
+                    
 env_requirements
 .
 pth_requirements
-                        
+                    
 +
 env_requirements
 .
 vendored_requirements
-                    
+                
 )
 :
-                        
+                    
 path
 =
 os
@@ -2418,7 +2421,7 @@ pth_requirement
 .
 path
 )
-                        
+                    
 #
 This
 path
@@ -2432,7 +2435,7 @@ file
 .
 Using
 a
-                        
+                    
 #
 relative
 path
@@ -2442,7 +2445,7 @@ srcdir
 /
 objdir
 combination
-                        
+                    
 #
 to
 be
@@ -2456,7 +2459,7 @@ the
 paths
 relative
 to
-                        
+                    
 #
 each
 other
@@ -2465,7 +2468,7 @@ the
 same
 )
 .
-                        
+                    
 f
 .
 write
@@ -2786,27 +2789,6 @@ self
 _manifest_path
         
 ]
-        
-if
-self
-.
-populate_local_paths
-:
-            
-args
-.
-append
-(
-"
--
--
-populate
--
-local
--
-paths
-"
-)
         
 result
 =
@@ -4561,12 +4543,6 @@ virtualenvs_dir
 opts
 .
 virtualenv_name
-        
-populate_local_paths
-=
-opts
-.
-populate_local_paths
         
 manifest_path
 =

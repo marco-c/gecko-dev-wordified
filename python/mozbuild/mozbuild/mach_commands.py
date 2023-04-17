@@ -16274,7 +16274,7 @@ import
 get_mach_virtualenv_root
     
 from
-mozbuild
+mach
 .
 virtualenv
 import
@@ -16361,10 +16361,6 @@ virtualenv_path
 "
 mach
 "
-        
-populate_local_paths
-=
-False
     
 )
     
