@@ -5473,8 +5473,8 @@ enum
 class
 Searchable
 {
-notSearchable
-searchable
+NotSearchable
+Searchable
 }
 ;
 /

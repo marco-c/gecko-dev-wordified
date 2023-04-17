@@ -11950,7 +11950,7 @@ MS
 Searchable
 :
 :
-notSearchable
+NotSearchable
 )
 ;
 schema
@@ -11981,7 +11981,7 @@ MS
 Searchable
 :
 :
-searchable
+Searchable
 )
 ;
 schema
