@@ -574,6 +574,9 @@ newtab
 "
 aboutwelcome
 "
+"
+upgradeDialog
+"
 ]
 ;
 class
