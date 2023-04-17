@@ -154,6 +154,17 @@ mozilla
 /
 dom
 /
+ToJSValue
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 indexedDB
 /
 PBackgroundIDBSharedTypes
