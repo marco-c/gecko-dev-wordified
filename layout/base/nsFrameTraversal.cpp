@@ -1737,8 +1737,6 @@ parent
 break
 ;
 }
-else
-{
 result
 =
 GetParentFrameNotPopup
@@ -1791,7 +1789,6 @@ parent
 =
 result
 ;
-}
 }
 }
 setCurrent
