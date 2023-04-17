@@ -2987,6 +2987,12 @@ case
 ParseNodeKind
 :
 :
+ClassBodyScope
+:
+case
+ParseNodeKind
+:
+:
 ClassMethod
 :
 case

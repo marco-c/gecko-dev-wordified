@@ -1814,6 +1814,17 @@ return
 NodeLexicalDeclaration
 ;
 }
+ClassBodyScopeNodeType
+newClassBodyScope
+(
+Node
+body
+)
+{
+return
+NodeLexicalDeclaration
+;
+}
 BinaryNodeType
 newNewTarget
 (
