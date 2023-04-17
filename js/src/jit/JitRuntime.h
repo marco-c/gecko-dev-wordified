@@ -364,6 +364,8 @@ VMFunctionId
 enum
 class
 BaselineICFallbackKind
+:
+uint8_t
 {
 #
 define
