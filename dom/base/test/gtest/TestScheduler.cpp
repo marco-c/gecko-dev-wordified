@@ -781,7 +781,7 @@ step
 =
 mScheduler
 .
-GetNextCCRunnerAction
+AdvanceCCRunner
 (
 idleDeadline
 )
@@ -857,7 +857,7 @@ step
 =
 mScheduler
 .
-GetNextCCRunnerAction
+AdvanceCCRunner
 (
 idleDeadline
 )
@@ -899,7 +899,7 @@ step
 =
 mScheduler
 .
-GetNextCCRunnerAction
+AdvanceCCRunner
 (
 idleDeadline
 )
@@ -919,7 +919,7 @@ step
 =
 mScheduler
 .
-GetNextCCRunnerAction
+AdvanceCCRunner
 (
 idleDeadline
 )
@@ -1272,7 +1272,7 @@ step
 =
 mScheduler
 .
-GetNextCCRunnerAction
+AdvanceCCRunner
 (
 idleDeadline
 )
@@ -1502,7 +1502,7 @@ step
 =
 mScheduler
 .
-GetNextCCRunnerAction
+AdvanceCCRunner
 (
 nullDeadline
 )
