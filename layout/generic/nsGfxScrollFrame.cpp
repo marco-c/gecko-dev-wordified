@@ -24105,7 +24105,7 @@ PresContext
 )
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 ?
@@ -24153,7 +24153,7 @@ PresContext
 )
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 ?
