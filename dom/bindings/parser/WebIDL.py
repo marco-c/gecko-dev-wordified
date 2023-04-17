@@ -6292,6 +6292,20 @@ not
 None
     
 def
+getClassName
+(
+self
+)
+:
+        
+return
+self
+.
+identifier
+.
+name
+    
+def
 finish
 (
 self
@@ -12025,11 +12039,12 @@ self
 classNameOverride
         
 return
+IDLInterfaceOrNamespace
+.
+getClassName
+(
 self
-.
-identifier
-.
-name
+)
     
 def
 addExtendedAttributes
