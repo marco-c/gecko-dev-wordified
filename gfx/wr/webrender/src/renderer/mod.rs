@@ -6424,6 +6424,18 @@ internal_limit
 )
 ;
 }
+let
+image_tiling_threshold
+=
+options
+.
+image_tiling_threshold
+.
+min
+(
+max_internal_texture_size
+)
+;
 device
 .
 begin_frame
@@ -7893,6 +7905,7 @@ TextureCache
 new
 (
 max_internal_texture_size
+image_tiling_threshold
 picture_tile_size
 color_cache_formats
 swizzle_settings
@@ -32567,6 +32580,10 @@ Option
 i32
 >
 pub
+image_tiling_threshold
+:
+i32
+pub
 upload_method
 :
 UploadMethod
@@ -33251,6 +33268,9 @@ true
 max_internal_texture_size
 :
 None
+image_tiling_threshold
+:
+4096
 /
 /
 This
