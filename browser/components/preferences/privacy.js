@@ -7248,7 +7248,10 @@ Services
 .
 cookies
 .
-cookieBehavior
+getCookieBehavior
+(
+false
+)
 ;
 let
 blockCookiesMenu
@@ -10117,7 +10120,10 @@ Services
 .
 cookies
 .
-cookieBehavior
+getCookieBehavior
+(
+false
+)
 =
 =
 Ci
@@ -10235,7 +10241,10 @@ Services
 .
 cookies
 .
-cookieBehavior
+getCookieBehavior
+(
+false
+)
 )
 {
 case
