@@ -532,12 +532,6 @@ allow
 =
 [
 "
-personalizedCfrThreshold
-"
-"
-personalizedCfrScores
-"
-"
 messageImpressions
 "
 ]
