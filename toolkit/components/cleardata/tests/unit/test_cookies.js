@@ -1018,7 +1018,9 @@ originAttributes
 :
 getOAWithPartitionKey
 (
+{
 topLevelBaseDomain
+}
 originAttributes
 )
 }
@@ -1367,7 +1369,9 @@ topLevelBaseDomain
 )
 getOAWithPartitionKey
 (
+{
 topLevelBaseDomain
+}
 originAttributes
 )
 )

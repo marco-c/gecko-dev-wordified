@@ -143,7 +143,9 @@ nsISiteSecurityService
 SOURCE_ORGANIC_REQUEST
 getOAWithPartitionKey
 (
+{
 topLevelBaseDomain
+}
 originAttributes
 )
 )
@@ -426,7 +428,9 @@ uri
 0
 getOAWithPartitionKey
 (
+{
 topLevelBaseDomain
+}
 originAttributes
 )
 )
