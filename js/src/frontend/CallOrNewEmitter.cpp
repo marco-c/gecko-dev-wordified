@@ -484,10 +484,6 @@ ObjKind
 :
 :
 Other
-NameVisibility
-:
-:
-Public
 )
 ;
 state_
