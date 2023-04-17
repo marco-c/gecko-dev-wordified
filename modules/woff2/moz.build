@@ -205,6 +205,3 @@ Library
 woff2
 '
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
