@@ -3168,6 +3168,24 @@ iframes
 "
 "
     
+preferences
+=
+{
+"
+dom
+.
+ipc
+.
+processPrelaunch
+.
+fission
+.
+number
+"
+:
+30
+}
+    
 extensions
 =
 [
