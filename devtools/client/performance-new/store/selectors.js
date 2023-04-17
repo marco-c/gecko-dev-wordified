@@ -102,9 +102,9 @@ perf
 "
 )
 .
-RecordingStateFromPreferences
+RecordingSettings
 }
-RecordingStateFromPreferences
+RecordingSettings
 *
 typedef
 {
@@ -770,7 +770,7 @@ type
 {
 Selector
 <
-RecordingStateFromPreferences
+RecordingSettings
 >
 }
 *

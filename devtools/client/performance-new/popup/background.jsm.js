@@ -279,9 +279,9 @@ perf
 "
 )
 .
-RecordingStateFromPreferences
+RecordingSettings
 }
-RecordingStateFromPreferences
+RecordingSettings
 *
 typedef
 {
@@ -2662,7 +2662,7 @@ supportedFeatures
 *
 returns
 {
-RecordingStateFromPreferences
+RecordingSettings
 }
 *
 /
@@ -2899,7 +2899,7 @@ objdirs
 *
 return
 {
-RecordingStateFromPreferences
+RecordingSettings
 |
 null
 }
@@ -3061,7 +3061,7 @@ pageContext
 *
 param
 {
-RecordingStateFromPreferences
+RecordingSettings
 }
 prefs
 *

@@ -219,9 +219,9 @@ perf
 "
 )
 .
-RecordingStateFromPreferences
+RecordingSettings
 }
-RecordingStateFromPreferences
+RecordingSettings
 *
 typedef
 {

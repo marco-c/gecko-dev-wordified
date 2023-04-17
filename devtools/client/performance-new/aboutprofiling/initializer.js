@@ -79,9 +79,9 @@ perf
 "
 )
 .
-RecordingStateFromPreferences
+RecordingSettings
 }
-RecordingStateFromPreferences
+RecordingSettings
 *
 typedef
 {
@@ -906,7 +906,7 @@ supportedFeatures
 *
 param
 {
-RecordingStateFromPreferences
+RecordingSettings
 }
 newRecordingSettings
 *

@@ -120,9 +120,9 @@ perf
 "
 )
 .
-RecordingStateFromPreferences
+RecordingSettings
 }
-RecordingStateFromPreferences
+RecordingSettings
 *
 typedef
 {
@@ -1071,7 +1071,7 @@ stored
 *
 param
 {
-RecordingStateFromPreferences
+RecordingSettings
 }
 newRecordingSettings
 *
