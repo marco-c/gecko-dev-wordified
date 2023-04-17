@@ -477,7 +477,7 @@ Text
 &
 aTextNode
 uint32_t
-aOffset
+aOffsetInTextInBlock
 uint32_t
 aLength
 )
@@ -490,9 +490,9 @@ mOffsetInTextNode
 (
 0
 )
-mStrOffset
+mOffsetInTextInBlock
 (
-aOffset
+aOffsetInTextInBlock
 )
 mLength
 (
@@ -552,8 +552,22 @@ mTextNode
 uint32_t
 mOffsetInTextNode
 ;
+/
+/
+Offset
+in
+all
+text
+in
+the
+closest
+ancestor
+block
+of
+mTextNode
+.
 uint32_t
-mStrOffset
+mOffsetInTextInBlock
 ;
 uint32_t
 mLength
@@ -4596,7 +4610,7 @@ mSelStartOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 )
 ;
 }
@@ -4615,7 +4629,7 @@ mSelStartOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 )
 {
 /
@@ -4871,7 +4885,7 @@ mSelEndOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 ;
 if
 (
@@ -4888,7 +4902,7 @@ mSelEndOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 entry
 -
@@ -4898,17 +4912,17 @@ mLength
 {
 /
 /
-mStrOffset
+mOffsetInTextInBlock
 is
 guaranteed
 to
 be
 inside
 the
+/
+/
 selection
 even
-/
-/
 when
 *
 mSelStartIndex
@@ -4979,7 +4993,7 @@ mSelEndOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 entry
 -
@@ -5514,7 +5528,7 @@ Some
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 entry
 -
@@ -5616,7 +5630,7 @@ Some
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 )
 ;
 }
@@ -5986,7 +6000,7 @@ if
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 =
 =
 *
@@ -6067,7 +6081,7 @@ mTextNode
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 strLength
 )
 ;
@@ -6127,7 +6141,7 @@ if
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 entry
 -
@@ -6276,7 +6290,7 @@ mIsInsertedText
 itEntry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 !
 =
 *
@@ -6509,7 +6523,7 @@ if
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 entry
 -
@@ -6574,7 +6588,7 @@ mSelStartOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 )
 )
 ;
@@ -9348,7 +9362,7 @@ if
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 =
 =
 aOffset
@@ -9381,7 +9395,7 @@ aOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 )
 {
 bool
@@ -9395,7 +9409,7 @@ strEndOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 entry
 -
@@ -9500,7 +9514,7 @@ mIsValid
 nextEntry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 !
 =
 aOffset
@@ -9560,7 +9574,7 @@ aOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 ;
 }
 }
@@ -9792,7 +9806,7 @@ if
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 =
 =
 endNodeOffset
@@ -9846,7 +9860,7 @@ endOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 &
 &
 endOffset
@@ -9855,7 +9869,7 @@ endOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 entry
 -
@@ -9882,7 +9896,7 @@ endOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 ;
 }
 if
@@ -10577,7 +10591,7 @@ aSelOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 (
 offset
@@ -11303,7 +11317,7 @@ aSelOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 (
 offset
@@ -12596,7 +12610,7 @@ aSelOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 (
 o1
@@ -15074,7 +15088,7 @@ mTextNode
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 oldLength
 aOffsetIntoEntry
@@ -15487,7 +15501,7 @@ strOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 aNodeOffset
 -
@@ -15788,7 +15802,7 @@ strEndOffset
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 +
 entry
 -
@@ -15850,7 +15864,7 @@ if
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 <
 =
 res
@@ -15923,7 +15937,7 @@ mBegin
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 ;
 }
 if
@@ -15991,7 +16005,7 @@ if
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 <
 =
 res
@@ -16097,7 +16111,7 @@ mEnd
 entry
 -
 >
-mStrOffset
+mOffsetInTextInBlock
 ;
 }
 break
