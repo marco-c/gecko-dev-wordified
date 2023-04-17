@@ -150,6 +150,9 @@ ICStub
 class
 ICCacheIRStub
 ;
+class
+ICFallbackStub
+;
 /
 /
 [
@@ -633,6 +636,9 @@ script
 ICEntry
 *
 entry
+ICFallbackStub
+*
+fallback
 jsbytecode
 *
 pc
@@ -702,6 +708,9 @@ cx
 ICEntry
 *
 entry
+ICFallbackStub
+*
+fallback
 HandleScript
 script
 SpewContext
