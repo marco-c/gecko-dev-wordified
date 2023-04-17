@@ -59,6 +59,7 @@ MPL
 /
 *
 globals
+browser
 log
 util
 catcher
@@ -461,7 +462,6 @@ none
 "
 .
 return
-(
 computed
 &
 &
@@ -474,12 +474,12 @@ backgroundImage
 "
 none
 "
-)
 ;
 }
 const
 showMyShots
 =
+(
 exports
 .
 showMyShots
@@ -494,6 +494,7 @@ window
 hasAnyShots
 ;
 }
+)
 ;
 function
 initializeIframe
@@ -604,6 +605,7 @@ el
 const
 iframeSelection
 =
+(
 exports
 .
 iframeSelection
@@ -1706,6 +1708,7 @@ null
 ;
 }
 }
+)
 ;
 iframeSelection
 .
@@ -1728,6 +1731,7 @@ true
 const
 iframePreSelection
 =
+(
 exports
 .
 iframePreSelection
@@ -2780,6 +2784,7 @@ null
 ;
 }
 }
+)
 ;
 let
 msgsPromise
@@ -2835,6 +2840,7 @@ button
 const
 iframePreview
 =
+(
 exports
 .
 iframePreview
@@ -3722,6 +3728,7 @@ null
 ;
 }
 }
+)
 ;
 iframePreSelection
 .
@@ -3741,6 +3748,7 @@ true
 const
 iframe
 =
+(
 exports
 .
 iframe
@@ -4051,6 +4059,7 @@ unhide
 ;
 }
 }
+)
 ;
 const
 movements
@@ -4255,9 +4264,7 @@ watchFunction
 (
 assertIsTrusted
 (
-(
 e
-)
 =
 >
 {
@@ -4354,9 +4361,7 @@ watchFunction
 (
 assertIsTrusted
 (
-(
 e
-)
 =
 >
 {
@@ -4460,9 +4465,7 @@ watchFunction
 (
 assertIsTrusted
 (
-(
 e
-)
 =
 >
 {
@@ -4544,7 +4547,6 @@ pageYOffset
 ;
 if
 (
-(
 pos
 .
 right
@@ -4552,12 +4554,10 @@ right
 pos
 .
 left
-)
 <
 78
 |
 |
-(
 pos
 .
 bottom
@@ -4565,7 +4565,6 @@ bottom
 pos
 .
 top
-)
 <
 78
 )
@@ -4636,15 +4635,11 @@ pos
 .
 bottom
 >
-(
-(
 winBottom
 +
 pageYOffset
-)
 -
 SAVE_BUTTON_HEIGHT
-)
 )
 {
 this
@@ -6040,13 +6035,11 @@ style
 .
 top
 =
-(
 rect
 .
 top
 -
 1
-)
 +
 "
 px
@@ -6060,13 +6053,11 @@ style
 .
 left
 =
-(
 rect
 .
 left
 -
 1
-)
 +
 "
 px
@@ -6080,7 +6071,6 @@ style
 .
 width
 =
-(
 rect
 .
 right
@@ -6090,7 +6080,6 @@ rect
 left
 +
 2
-)
 +
 "
 px
@@ -6104,7 +6093,6 @@ style
 .
 height
 =
-(
 rect
 .
 bottom
@@ -6114,7 +6102,6 @@ rect
 top
 +
 2
-)
 +
 "
 px
@@ -6308,11 +6295,9 @@ style
 .
 top
 =
-(
 yPos
 +
 12
-)
 +
 "
 px
@@ -6326,11 +6311,9 @@ style
 .
 left
 =
-(
 xPos
 +
 12
-)
 +
 "
 px
