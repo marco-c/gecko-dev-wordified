@@ -2121,7 +2121,7 @@ topInProcessDoc
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 aNode
 -

@@ -10637,7 +10637,7 @@ elementToFocus
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 elementToFocus
 -

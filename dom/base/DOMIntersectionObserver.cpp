@@ -3023,7 +3023,7 @@ rootDoc
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 &
 aDocument
@@ -3061,7 +3061,7 @@ rootDoc
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 aRootDocument
 )

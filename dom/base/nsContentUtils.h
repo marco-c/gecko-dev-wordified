@@ -16613,6 +16613,10 @@ aContent
 *
 Returns
 the
+in
+-
+process
+subtree
 root
 document
 in
@@ -16620,12 +16624,11 @@ a
 document
 hierarchy
 .
-Normally
-this
 *
-will
+This
+could
 be
-the
+a
 chrome
 document
 .
@@ -16634,7 +16637,7 @@ document
 static
 Document
 *
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 Document
 *

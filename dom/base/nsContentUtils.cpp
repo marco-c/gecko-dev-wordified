@@ -43316,7 +43316,7 @@ Document
 nsContentUtils
 :
 :
-GetRootDocument
+GetInProcessSubtreeRootDocument
 (
 Document
 *
