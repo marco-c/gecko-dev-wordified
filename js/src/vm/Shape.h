@@ -8732,7 +8732,7 @@ const
 HashNumber
 hash
 =
-HashId
+HashPropertyKey
 (
 propid
 )
@@ -9885,7 +9885,7 @@ key
 )
 {
 return
-HashId
+HashPropertyKey
 (
 key
 )
