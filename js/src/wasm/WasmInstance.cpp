@@ -368,6 +368,15 @@ include
 "
 wasm
 /
+WasmDebugFrame
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmJS
 .
 h

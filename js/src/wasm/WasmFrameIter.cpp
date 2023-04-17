@@ -227,6 +227,15 @@ include
 "
 wasm
 /
+WasmDebugFrame
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmInstance
 .
 h

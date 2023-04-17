@@ -1424,6 +1424,15 @@ include
 "
 wasm
 /
+WasmDebugFrame
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmGC
 .
 h

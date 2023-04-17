@@ -269,7 +269,7 @@ include
 "
 wasm
 /
-WasmFrame
+WasmDebugFrame
 .
 h
 "
