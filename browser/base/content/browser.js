@@ -13858,12 +13858,12 @@ NimbusFeatures
 .
 aboutwelcome
 .
-getValue
+getVariable
 (
-)
-?
-.
+"
 skipFocus
+"
+)
 ;
 if
 (
