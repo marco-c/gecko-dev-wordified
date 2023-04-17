@@ -959,6 +959,7 @@ AppendElement
 NewRunnableMethod
 <
 ParentLayerPoint
+SideBits
 >
 (
 "
@@ -978,6 +979,13 @@ AsyncPanZoomController
 :
 HandleSmoothScrollOverscroll
 velocity
+apz
+:
+:
+GetOverscrollSideBits
+(
+overscroll
+)
 )
 )
 ;

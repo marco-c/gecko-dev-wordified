@@ -1462,6 +1462,7 @@ AppendElement
 NewRunnableMethod
 <
 ParentLayerPoint
+SideBits
 RefPtr
 <
 const
@@ -1491,6 +1492,13 @@ AsyncPanZoomController
 :
 HandleFlingOverscroll
 velocity
+apz
+:
+:
+GetOverscrollSideBits
+(
+overscroll
+)
 mOverscrollHandoffChain
 mScrolledApzc
 )

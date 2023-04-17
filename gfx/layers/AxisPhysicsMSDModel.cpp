@@ -472,6 +472,7 @@ IsFinished
 double
 aSmallestVisibleIncrement
 )
+const
 {
 /
 /

@@ -266,6 +266,7 @@ IsFinished
 double
 aSmallestVisibleIncrement
 )
+const
 ;
 protected
 :
