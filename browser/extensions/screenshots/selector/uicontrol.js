@@ -5805,8 +5805,6 @@ deactivate
 Enter
 to
 trigger
-Save
-or
 Download
 by
 default
