@@ -6298,7 +6298,7 @@ lambda
 None
 )
                 
-multiarch_dir
+target_multiarch_dir
 =
 depends
 (
