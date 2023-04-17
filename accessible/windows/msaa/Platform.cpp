@@ -1251,11 +1251,12 @@ if
 useHandler
 )
 {
-wrapper
--
->
+AccessibleWrap
+:
+:
 DispatchTextChangeToHandler
 (
+wrapper
 aInsert
 aStr
 aStart
