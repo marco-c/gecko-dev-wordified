@@ -20571,7 +20571,7 @@ mMetrics
 ;
 }
 ;
-nsresult
+void
 nsLayoutUtils
 :
 :
@@ -23635,9 +23635,6 @@ mTotalItems
 }
 #
 endif
-return
-NS_OK
-;
 }
 /
 *

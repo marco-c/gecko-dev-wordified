@@ -2019,9 +2019,6 @@ PaintFrameFlags
 UseHighQualityScaling
 ;
 }
-Unused
-<
-<
 nsLayoutUtils
 :
 :

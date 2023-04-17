@@ -8635,7 +8635,7 @@ tree
 *
 /
 static
-nsresult
+void
 PaintFrame
 (
 gfxContext
