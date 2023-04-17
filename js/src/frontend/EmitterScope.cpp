@@ -1212,7 +1212,16 @@ compilationState
 .
 input
 .
-lazy
+target
+=
+=
+CompilationInput
+:
+:
+CompilationTarget
+:
+:
+Delazification
 |
 |
 bce
