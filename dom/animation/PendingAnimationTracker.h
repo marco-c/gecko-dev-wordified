@@ -575,7 +575,9 @@ EnsurePaintIsScheduled
 (
 )
 ;
-typedef
+using
+AnimationSet
+=
 nsTHashSet
 <
 nsRefPtrHashKey
@@ -586,7 +588,6 @@ dom
 Animation
 >
 >
-AnimationSet
 ;
 void
 AddPending
