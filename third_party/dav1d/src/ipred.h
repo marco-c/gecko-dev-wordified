@@ -3,6 +3,8 @@
 *
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -563,6 +565,18 @@ are
 -
 7
 ]
+*
+-
+only
+16
+-
+byte
+alignment
+is
+guaranteed
+for
+idx
+.
 *
 /
 #

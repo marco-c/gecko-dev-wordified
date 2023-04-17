@@ -3,6 +3,8 @@
 *
 Copyright
 2018
+-
+2020
 VideoLAN
 and
 dav1d

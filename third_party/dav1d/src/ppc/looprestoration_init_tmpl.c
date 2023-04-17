@@ -2663,6 +2663,9 @@ Dav1dLoopRestorationDSPContext
 *
 const
 c
+const
+int
+bpc
 )
 {
 const

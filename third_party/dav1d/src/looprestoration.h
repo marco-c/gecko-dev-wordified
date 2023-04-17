@@ -3,6 +3,8 @@
 *
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -573,6 +575,8 @@ dav1d_loop_restoration_dsp_init_x86
 Dav1dLoopRestorationDSPContext
 *
 c
+int
+bpc
 )
 ;
 bitfn_decls
@@ -582,6 +586,8 @@ dav1d_loop_restoration_dsp_init_ppc
 Dav1dLoopRestorationDSPContext
 *
 c
+int
+bpc
 )
 ;
 #

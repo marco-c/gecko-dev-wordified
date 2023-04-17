@@ -3,6 +3,8 @@
 *
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -351,6 +353,8 @@ dav1d_itx_dsp_init_x86
 Dav1dInvTxfmDSPContext
 *
 c
+int
+bpc
 )
 ;
 #

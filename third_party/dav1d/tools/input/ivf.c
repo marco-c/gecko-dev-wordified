@@ -510,9 +510,6 @@ timebase
 ]
 )
 {
-size_t
-res
-;
 uint8_t
 hdr
 [
@@ -568,9 +565,6 @@ return
 else
 if
 (
-(
-res
-=
 fread
 (
 hdr
@@ -580,7 +574,6 @@ c
 -
 >
 f
-)
 )
 !
 =
@@ -855,9 +848,6 @@ num_frames
 {
 if
 (
-(
-res
-=
 fread
 (
 data
@@ -867,7 +857,6 @@ c
 -
 >
 f
-)
 )
 !
 =
@@ -888,9 +877,6 @@ data
 ;
 if
 (
-(
-res
-=
 fread
 (
 data
@@ -900,7 +886,6 @@ c
 -
 >
 f
-)
 )
 !
 =

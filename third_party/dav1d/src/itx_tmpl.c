@@ -2387,6 +2387,7 @@ dav1d_itx_dsp_init_x86
 )
 (
 c
+bpc
 )
 ;
 #

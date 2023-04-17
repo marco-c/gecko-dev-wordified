@@ -3,6 +3,8 @@
 *
 Copyright
 2018
+-
+2021
 VideoLAN
 and
 dav1d
@@ -840,6 +842,14 @@ frame_size_limit
 ;
 int
 drain
+;
+enum
+PictureFlags
+frame_flags
+;
+enum
+Dav1dEventFlags
+event_flags
 ;
 Dav1dLogger
 logger

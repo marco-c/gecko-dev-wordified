@@ -4883,6 +4883,7 @@ Dav1dLoopRestorationDSPContext
 *
 const
 c
+const
 int
 bpc
 )
@@ -4962,6 +4963,7 @@ dav1d_loop_restoration_dsp_init_ppc
 )
 (
 c
+bpc
 )
 ;
 #
@@ -4973,6 +4975,7 @@ dav1d_loop_restoration_dsp_init_x86
 )
 (
 c
+bpc
 )
 ;
 #
