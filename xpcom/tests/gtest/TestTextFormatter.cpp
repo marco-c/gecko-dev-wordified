@@ -2369,7 +2369,11 @@ than
 "
 NS_ConvertUTF16toUTF8
 (
+&
 buf
+[
+0
+]
 )
 .
 get
