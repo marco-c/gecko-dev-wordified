@@ -5,7 +5,7 @@ request
 response
 )
 :
-    
+  
 response
 .
 headers
@@ -27,8 +27,7 @@ b
 *
 "
 )
-;
-    
+  
 response
 .
 headers
@@ -50,8 +49,7 @@ b
 0
 "
 )
-;
-    
+  
 response
 .
 headers
@@ -71,8 +69,7 @@ b
 *
 "
 )
-;
-    
+  
 #
 If
 this
@@ -89,7 +86,7 @@ Require
 Preflight
 then
 the
-    
+  
 #
 browser
 will
@@ -104,7 +101,7 @@ won
 '
 t
 .
-    
+  
 if
 request
 .
@@ -116,7 +113,7 @@ u
 OPTIONS
 '
 :
-        
+    
 response
 .
 headers
@@ -133,6 +130,7 @@ Allow
 -
 Headers
 "
+        
 b
 "
 X
@@ -142,4 +140,3 @@ Require
 Preflight
 "
 )
-;
