@@ -1591,6 +1591,8 @@ LoadEntryResult
 aLoadResults
 bool
 aUserActivation
+int32_t
+aOffset
 )
 ;
 void
@@ -1618,6 +1620,8 @@ LoadEntryResult
 aLoadResult
 bool
 aUserActivation
+int32_t
+aOffset
 )
 ;
 nsresult
