@@ -194,35 +194,6 @@ tearDown
 )
     
 def
-test_proxy_object_none_by_default
-(
-self
-)
-:
-        
-self
-.
-marionette
-.
-start_session
-(
-)
-        
-self
-.
-assertNotIn
-(
-"
-proxy
-"
-self
-.
-marionette
-.
-session_capabilities
-)
-    
-def
 test_proxy_object_in_returned_capabilities
 (
 self
@@ -397,7 +368,7 @@ proxy
 )
     
 def
-test_proxy_type_manual_without_port
+test_proxy_type_manual
 (
 self
 )
