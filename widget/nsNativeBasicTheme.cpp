@@ -2478,8 +2478,10 @@ GetRootPresContext
 {
 if
 (
-auto
-*
+nsCOMPtr
+<
+nsIWidget
+>
 widget
 =
 rootPc

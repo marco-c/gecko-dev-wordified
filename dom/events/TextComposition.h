@@ -167,6 +167,15 @@ include
 "
 mozilla
 /
+AlreadyAddRefed
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -662,8 +671,10 @@ NotifyIME
 (
 )
 .
+already_AddRefed
+<
 nsIWidget
-*
+>
 GetWidget
 (
 )
