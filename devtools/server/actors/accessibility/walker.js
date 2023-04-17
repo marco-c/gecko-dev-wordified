@@ -236,7 +236,7 @@ getCurrentZoom
 isWindowIncluded
 "
 "
-isFrameWithChildTarget
+isRemoteFrame
 "
 ]
 "
@@ -4770,11 +4770,8 @@ should
 stay
 silent
 .
-isFrameWithChildTarget
+isRemoteFrame
 (
-this
-.
-targetActor
 event
 .
 originalTarget

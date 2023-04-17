@@ -102,7 +102,7 @@ lazyRequireGetter
 this
 [
 "
-isFrameWithChildTarget
+isRemoteFrame
 "
 "
 isWindowIncluded
@@ -650,13 +650,8 @@ length
 0
 &
 &
-isFrameWithChildTarget
+isRemoteFrame
 (
-this
-.
-highlighterEnv
-.
-targetActor
 focusableElements
 [
 focusableElements
