@@ -2381,7 +2381,7 @@ Services
 .
 intl
 .
-getDisplayNames
+getDisplayNamesDeprecated
 (
 undefined
 {
