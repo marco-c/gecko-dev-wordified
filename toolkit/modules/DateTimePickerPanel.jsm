@@ -1601,7 +1601,7 @@ Services
 .
 intl
 .
-getDisplayNames
+getDisplayNamesDeprecated
 (
 locale
 {
