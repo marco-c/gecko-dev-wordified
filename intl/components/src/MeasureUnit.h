@@ -295,6 +295,8 @@ aUnits
 class
 Iterator
 {
+public
+:
 /
 /
 std
@@ -336,6 +338,8 @@ reference
 value_type
 &
 ;
+private
+:
 const
 Enumeration
 &
