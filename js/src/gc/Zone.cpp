@@ -586,6 +586,9 @@ retainedBytes
 gc
 .
 tunables
+gc
+.
+schedulingState
 lock
 )
 ;
