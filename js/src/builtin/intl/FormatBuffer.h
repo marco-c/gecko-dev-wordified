@@ -623,7 +623,7 @@ obvious
 .
 *
 /
-JSLinearString
+JSString
 *
 toString
 (
