@@ -202,7 +202,8 @@ hexCharsUpperLower
 ;
 static
 const
-int
+unsigned
+char
 netCharType
 [
 256
@@ -777,7 +778,7 @@ netCharType
 (
 (
 unsigned
-int
+char
 )
 (
 C
