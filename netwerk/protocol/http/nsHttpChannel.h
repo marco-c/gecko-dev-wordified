@@ -1346,11 +1346,6 @@ OpenCacheEntryInternal
 (
 bool
 isHttps
-nsIApplicationCache
-*
-applicationCache
-bool
-noAppCache
 )
 ;
 [
