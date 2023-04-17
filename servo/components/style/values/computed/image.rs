@@ -292,6 +292,13 @@ CssWriter
 ToCss
 }
 ;
+pub
+use
+specified
+:
+:
+ImageRendering
+;
 /
 /
 /
