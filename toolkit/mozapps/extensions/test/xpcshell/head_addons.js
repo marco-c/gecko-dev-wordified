@@ -59,10 +59,7 @@ none
 if
 (
 !
-_TEST_FILE
-[
-0
-]
+_TEST_NAME
 .
 includes
 (
@@ -81,6 +78,8 @@ xpcshell
 )
 )
 {
+Assert
+.
 ok
 (
 false
