@@ -880,8 +880,8 @@ mod
 commandName
 ]
 (
-destination
 params
+destination
 )
 ;
 }

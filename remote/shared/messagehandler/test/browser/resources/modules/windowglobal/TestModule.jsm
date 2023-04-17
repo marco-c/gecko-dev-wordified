@@ -111,15 +111,14 @@ value
 }
 testSetValue
 (
-destination
-value
+params
 )
 {
 this
 .
 _testValue
 =
-value
+params
 ;
 }
 testGetValue
