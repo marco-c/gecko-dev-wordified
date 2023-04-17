@@ -18916,9 +18916,9 @@ aWindow
 )
 {
 return
-JSON
+Cu
 .
-stringify
+cloneInto
 (
 this
 .
@@ -18926,6 +18926,8 @@ _getWindowState
 (
 aWindow
 )
+{
+}
 )
 ;
 }
@@ -18950,9 +18952,9 @@ aWindow
 )
 ;
 return
-JSON
+Cu
 .
-stringify
+cloneInto
 (
 {
 windows
@@ -18960,6 +18962,8 @@ windows
 [
 data
 ]
+}
+{
 }
 )
 ;

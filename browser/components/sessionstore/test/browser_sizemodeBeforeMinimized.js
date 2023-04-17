@@ -75,16 +75,11 @@ sizemodeBeforeMinimized
 let
 state
 =
-JSON
-.
-parse
-(
 ss
 .
 getWindowState
 (
 win
-)
 )
 ;
 let
