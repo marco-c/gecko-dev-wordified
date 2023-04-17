@@ -1159,6 +1159,21 @@ SCREEN_STRINGS
 current
 ]
 ;
+/
+/
+Set
+the
+correct
+target
+for
+keyboard
+focus
+.
+let
+toFocus
+=
+primary
+;
 switch
 (
 current
@@ -1720,6 +1735,8 @@ swatch
 await
 gPrevTheme
 ;
+toFocus
+=
 themes
 .
 children
@@ -1731,6 +1748,8 @@ indexOf
 id
 )
 ]
+;
+toFocus
 .
 checked
 =
@@ -2178,7 +2197,7 @@ requestAnimationFrame
 /
 Ensure
 the
-primary
+correct
 button
 is
 focused
@@ -2186,7 +2205,7 @@ on
 each
 screen
 .
-primary
+toFocus
 .
 focus
 (
