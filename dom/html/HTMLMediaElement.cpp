@@ -9000,11 +9000,17 @@ mIsShutDown
 )
 ;
 return
+static_cast
+<
+float
+>
+(
 mOwner
 -
 >
 Volume
 (
+)
 )
 *
 mAudioChannelVolume
