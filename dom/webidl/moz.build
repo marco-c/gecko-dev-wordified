@@ -6169,6 +6169,11 @@ ExtensionEventManager
 .
 webidl
 "
+"
+ExtensionPort
+.
+webidl
+"
 ]
 #
 We
