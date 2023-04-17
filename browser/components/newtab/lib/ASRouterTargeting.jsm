@@ -606,7 +606,7 @@ feeds
 .
 snippets
 "
-true
+false
 )
 ;
 XPCOMUtils

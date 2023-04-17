@@ -17405,7 +17405,7 @@ enabled
 \
 "
 :
-true
+false
 \
 "
 type
@@ -17570,11 +17570,6 @@ panel
 moments
 -
 page
-\
-"
-\
-"
-snippets
 \
 "
 \
