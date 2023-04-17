@@ -749,9 +749,6 @@ and_then
 _
 |
 {
-try
-!
-(
 self
 .
 ctl
@@ -759,7 +756,7 @@ ctl
 inc
 (
 )
-)
+?
 ;
 Ok
 (
@@ -917,9 +914,6 @@ and_then
 _
 |
 {
-try
-!
-(
 self
 .
 ctl
@@ -927,7 +921,7 @@ ctl
 inc
 (
 )
-)
+?
 ;
 Ok
 (
@@ -1031,9 +1025,6 @@ and_then
 _
 |
 {
-try
-!
-(
 self
 .
 ctl
@@ -1041,7 +1032,7 @@ ctl
 inc
 (
 )
-)
+?
 ;
 Ok
 (
@@ -1399,9 +1390,6 @@ borrow
 (
 )
 {
-try
-!
-(
 set_readiness
 .
 set_readiness
@@ -1413,7 +1401,7 @@ readable
 (
 )
 )
-)
+?
 ;
 }
 }
@@ -1579,9 +1567,6 @@ borrow
 (
 )
 {
-try
-!
-(
 set_readiness
 .
 set_readiness
@@ -1593,7 +1578,7 @@ empty
 (
 )
 )
-)
+?
 ;
 }
 }
@@ -1666,9 +1651,6 @@ borrow
 (
 )
 {
-try
-!
-(
 set_readiness
 .
 set_readiness
@@ -1680,7 +1662,7 @@ readable
 (
 )
 )
-)
+?
 ;
 }
 }
