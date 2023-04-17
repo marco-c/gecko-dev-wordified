@@ -882,6 +882,7 @@ createPreviewBrowsers
 (
 aBrowsingContext
 aDialogBrowser
+aPrintFrameOnly
 )
 {
 let
@@ -901,12 +902,17 @@ not
 previewing
 the
 selection
+or
+printing
+only
+the
+frame
 we
+/
+/
 want
 to
 make
-/
-/
 sure
 that
 the
@@ -927,6 +933,9 @@ previewType
 "
 selection
 "
+|
+|
+aPrintFrameOnly
 ?
 aBrowsingContext
 :
