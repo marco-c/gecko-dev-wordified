@@ -173,6 +173,10 @@ ColorDepth
 api
 :
 :
+ColorF
+api
+:
+:
 ExternalImageId
 api
 :
@@ -10656,6 +10660,9 @@ start_compositing
 &
 mut
 self
+clear_color
+:
+ColorF
 dirty_rects
 :
 &
@@ -10802,6 +10809,7 @@ compositor
 .
 start_compositing
 (
+clear_color
 dirty_rects
 &
 opaque_rects
