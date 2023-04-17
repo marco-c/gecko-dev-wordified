@@ -211,3 +211,10 @@ gap
 override
 LineGapOverride
 )
+CSS_FONT_DESC
+(
+size
+-
+adjust
+SizeAdjust
+)
