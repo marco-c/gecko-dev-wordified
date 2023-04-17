@@ -767,6 +767,17 @@ mozilla
 /
 layers
 /
+LayerTransactionChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ScrollLinkedEffectDetector
 .
 h

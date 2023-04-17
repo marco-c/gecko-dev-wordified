@@ -1195,6 +1195,11 @@ image
 with
 single
 buffering
+IMAGE_BRIDGE
+/
+/
+ImageBridge
+protocol
 CONTENT_SINGLE
 /
 /

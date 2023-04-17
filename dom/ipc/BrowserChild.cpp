@@ -915,6 +915,17 @@ mozilla
 /
 layers
 /
+LayerTransactionChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 WebRenderLayerManager
 .
 h

@@ -544,6 +544,17 @@ mozilla
 /
 layers
 /
+PLayerTransactionChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 WebRenderLayerManager
 .
 h

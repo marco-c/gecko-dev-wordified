@@ -142,6 +142,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+LayerTransactionChild
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

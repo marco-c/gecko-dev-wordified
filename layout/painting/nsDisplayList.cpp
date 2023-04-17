@@ -280,6 +280,17 @@ include
 "
 mozilla
 /
+layers
+/
+PLayerTransaction
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h

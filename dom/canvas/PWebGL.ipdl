@@ -108,6 +108,10 @@ include
 protocol
 PCompositorBridge
 ;
+include
+protocol
+PLayerTransaction
+;
 using
 mozilla
 :
