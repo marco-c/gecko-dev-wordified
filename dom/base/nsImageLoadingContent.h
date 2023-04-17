@@ -1022,17 +1022,6 @@ this
 request
 *
 param
-aLoadStart
-If
-true
-dispatch
-"
-loadstart
-"
-event
-.
-*
-param
 aDocument
 Optional
 parameter
@@ -1099,10 +1088,6 @@ ImageLoadType
 aImageLoadType
 nsLoadFlags
 aLoadFlags
-bool
-aLoadStart
-=
-true
 mozilla
 :
 :
@@ -1148,7 +1133,6 @@ aImageLoadType
 LoadFlags
 (
 )
-true
 nullptr
 aTriggeringPrincipal
 )
