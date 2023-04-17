@@ -1073,7 +1073,7 @@ len
 static
 *
 /
-uint32_t
+void
 nsContentPermissionUtils
 :
 :
@@ -1251,9 +1251,6 @@ options
 )
 ;
 }
-return
-len
-;
 }
 static
 std
