@@ -18425,6 +18425,7 @@ aType
 aPendingRestart
 )
 {
+return
 AddonManagerInternal
 .
 notifyAddonChanged
