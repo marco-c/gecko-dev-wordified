@@ -2900,6 +2900,8 @@ null
 menuitem
 -
 screenshot
+-
+extension
 "
 )
 ;

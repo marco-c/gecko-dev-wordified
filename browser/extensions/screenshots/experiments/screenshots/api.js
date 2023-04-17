@@ -78,6 +78,8 @@ TOPIC
 menuitem
 -
 screenshot
+-
+extension
 "
 ;
 this

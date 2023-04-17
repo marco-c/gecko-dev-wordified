@@ -8246,6 +8246,8 @@ null
 menuitem
 -
 screenshot
+-
+extension
 "
 true
 )
