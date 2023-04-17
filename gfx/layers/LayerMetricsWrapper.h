@@ -2874,7 +2874,7 @@ ScrollableLayerGuid
 :
 ViewID
 >
-IsAsyncZoomContainer
+GetAsyncZoomContainerId
 (
 )
 const
@@ -2890,7 +2890,7 @@ return
 mLayer
 -
 >
-IsAsyncZoomContainer
+GetAsyncZoomContainerId
 (
 )
 ;
