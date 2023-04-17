@@ -1753,17 +1753,11 @@ Some
 (
 CSSRect
 (
-CSSIntRect
-:
-:
-FromUnknownRect
-(
 menuPopupFrame
 -
 >
 GetScreenAnchorRect
 (
-)
 )
 )
 )
