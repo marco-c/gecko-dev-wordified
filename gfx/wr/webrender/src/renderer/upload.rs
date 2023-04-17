@@ -2955,7 +2955,10 @@ frame_build_time
 0
 .
 0
-full_frame
+full_display_list
+:
+false
+full_paint
 :
 false
 }
