@@ -7767,6 +7767,13 @@ AttachShadowWithoutNameChecks
 (
 ShadowRootMode
 aMode
+SlotAssignmentMode
+aSlotAssignmentMode
+=
+SlotAssignmentMode
+:
+:
+Named
 )
 ;
 /
