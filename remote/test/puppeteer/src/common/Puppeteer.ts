@@ -272,6 +272,13 @@ isPuppeteerCore
 boolean
 ;
 }
+/
+*
+*
+*
+public
+*
+/
 export
 interface
 ConnectOptions

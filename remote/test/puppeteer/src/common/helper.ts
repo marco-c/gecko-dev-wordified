@@ -600,6 +600,13 @@ error
 )
 ;
 }
+/
+*
+*
+*
+public
+*
+/
 export
 interface
 PuppeteerEventListener

@@ -315,6 +315,8 @@ from
 appearing
 .
 *
+public
+*
 /
 export
 class
@@ -563,15 +565,9 @@ files
 .
 *
 /
-async
 cancel
 (
 )
-:
-Promise
-<
-void
->
 {
 assert
 (

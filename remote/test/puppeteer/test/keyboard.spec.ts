@@ -161,6 +161,7 @@ import
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
+itFailsFirefox
 }
 from
 '

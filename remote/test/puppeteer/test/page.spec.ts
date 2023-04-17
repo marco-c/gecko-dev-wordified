@@ -180,9 +180,10 @@ sinon
 import
 {
 getTestState
-itFailsFirefox
 setupTestBrowserHooks
 setupTestPageAndContextHooks
+itFailsFirefox
+describeFailsFirefox
 }
 from
 '

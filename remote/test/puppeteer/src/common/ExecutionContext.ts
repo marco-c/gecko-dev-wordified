@@ -236,6 +236,13 @@ EvalTypes
 js
 '
 ;
+/
+*
+*
+*
+public
+*
+/
 export
 const
 EVALUATION_SCRIPT_URL
@@ -364,11 +371,9 @@ the
 *
 {
 link
-frame
+Frame
 .
 executionContext
-(
-)
 }
 method
 .
@@ -924,6 +929,7 @@ prints
 *
 param
 pageFunction
+-
 a
 function
 to
@@ -935,6 +941,7 @@ executionContext
 *
 param
 args
+-
 argument
 to
 pass
@@ -1276,6 +1283,7 @@ dispose
 *
 param
 pageFunction
+-
 a
 function
 to
@@ -1287,6 +1295,7 @@ executionContext
 *
 param
 args
+-
 argument
 to
 pass
@@ -2451,6 +2460,7 @@ dispose
 *
 param
 prototypeHandle
+-
 a
 handle
 to

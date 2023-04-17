@@ -239,6 +239,8 @@ console
 messages
 .
 *
+public
+*
 /
 export
 type

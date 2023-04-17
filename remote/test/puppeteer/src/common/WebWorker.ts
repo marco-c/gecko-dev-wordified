@@ -228,6 +228,7 @@ js
 internal
 *
 /
+export
 type
 ConsoleAPICalledCallback
 =
@@ -259,6 +260,7 @@ void
 internal
 *
 /
+export
 type
 ExceptionThrownCallback
 =

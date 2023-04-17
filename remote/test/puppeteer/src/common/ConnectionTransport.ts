@@ -131,6 +131,13 @@ License
 .
 *
 /
+/
+*
+*
+*
+public
+*
+/
 export
 interface
 ConnectionTransport

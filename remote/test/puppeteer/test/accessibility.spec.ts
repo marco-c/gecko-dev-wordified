@@ -3040,6 +3040,9 @@ button
 await
 page
 .
+<
+HTMLButtonElement
+>
 (
 '
 button

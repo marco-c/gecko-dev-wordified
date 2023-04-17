@@ -307,6 +307,8 @@ alert
 ;
 *
 *
+public
+*
 /
 export
 class
