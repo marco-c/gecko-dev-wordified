@@ -4987,6 +4987,10 @@ MOZ_ASSERT
 child
 -
 >
+property
+(
+)
+.
 isDataProperty
 (
 )

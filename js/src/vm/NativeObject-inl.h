@@ -3892,6 +3892,10 @@ MOZ_ASSERT
 shape
 -
 >
+property
+(
+)
+.
 isDataProperty
 (
 )
