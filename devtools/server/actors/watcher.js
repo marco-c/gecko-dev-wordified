@@ -1095,6 +1095,15 @@ Resources
 .
 TYPES
 .
+REFLOW
+]
+:
+true
+[
+Resources
+.
+TYPES
+.
 STYLESHEET
 ]
 :
