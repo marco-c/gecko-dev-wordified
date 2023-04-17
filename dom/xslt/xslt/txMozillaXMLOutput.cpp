@@ -2610,8 +2610,6 @@ NS_OK
 +
 mTreeDepth
 ;
-rv
-=
 mTableStateStack
 .
 push
@@ -2620,12 +2618,6 @@ NS_INT32_TO_PTR
 (
 mTableState
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -3626,8 +3618,6 @@ StealNSResult
 )
 ;
 }
-rv
-=
 mTableStateStack
 .
 push
@@ -3636,12 +3626,6 @@ NS_INT32_TO_PTR
 (
 ADDED_TBODY
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
