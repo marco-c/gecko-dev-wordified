@@ -1176,16 +1176,16 @@ default
 no_clobber
 =
 {
-            
 "
 .
 mozbuild
 "
-            
 "
 msvc
 "
-        
+"
+_virtualenvs
+"
 }
         
 #
