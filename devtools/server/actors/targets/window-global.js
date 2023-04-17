@@ -3613,6 +3613,15 @@ this
 .
 followWindowGlobalLifeCycle
 innerWindowId
+topInnerWindowId
+:
+this
+.
+browsingContext
+.
+topWindowContext
+.
+innerWindowId
 isTopLevelTarget
 :
 this
