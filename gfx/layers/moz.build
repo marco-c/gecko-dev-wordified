@@ -2522,13 +2522,6 @@ cpp
 "
 client
 /
-ContentClient
-.
-cpp
-"
-"
-client
-/
 GPUVideoTextureClient
 .
 cpp
