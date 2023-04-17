@@ -1160,6 +1160,15 @@ RegExpObject
 *
 *
 -
+shapeIndex
+(
+JOF_SHAPE
+)
+:
+Shape
+*
+*
+-
 scopeIndex
 (
 JOF_SCOPE
