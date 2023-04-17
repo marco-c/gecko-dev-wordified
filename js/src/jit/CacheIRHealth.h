@@ -300,7 +300,7 @@ variable
 /
 SPEW
 =
-RateMyCacheIR
+CacheIRHealthReport
 .
 We
 generate
@@ -310,10 +310,10 @@ report
 for
 a
 script
+/
+/
 whenever
 we
-/
-/
 reach
 the
 trial
@@ -326,7 +326,7 @@ ex
 )
 SPEW
 =
-RateMyCacheIR
+CacheIRHealthReport
 dist
 /
 bin
@@ -345,7 +345,7 @@ shell
 you
 can
 call
-rateMyCacheIR
+cacheIRHealthReport
 (
 )
 with
@@ -353,6 +353,8 @@ no
 arguments
 and
 a
+/
+/
 report
 /
 /
@@ -371,7 +373,7 @@ zone
 /
 ex
 )
-rateMyCacheIR
+cacheIRHealthReport
 (
 )
 /
@@ -382,7 +384,7 @@ You
 may
 also
 call
-rateMyCacheIR
+cacheIRHealthReport
 (
 )
 on
@@ -391,6 +393,8 @@ particular
 function
 to
 see
+/
+/
 the
 /
 /
@@ -408,7 +412,7 @@ script
 /
 ex
 )
-rateMyCacheIR
+cacheIRHealthReport
 (
 foo
 )
@@ -690,7 +694,7 @@ ICEntry
 only
 .
 void
-rateIC
+healthReportForIC
 (
 JSContext
 *
@@ -726,7 +730,7 @@ specified
 script
 .
 void
-rateScript
+healthReportForScript
 (
 JSContext
 *

@@ -266,7 +266,7 @@ script
 SpewChannel
 :
 :
-RateMyCacheIR
+CacheIRHealthReport
 )
 )
 {
@@ -405,7 +405,7 @@ cih
 ;
 cih
 .
-rateIC
+healthReportForIC
 (
 cx
 &

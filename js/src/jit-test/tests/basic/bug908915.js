@@ -81,7 +81,7 @@ nukeAllCCWs
 :
 true
 '
-rateMyCacheIR
+cacheIRHealthReport
 '
 :
 true

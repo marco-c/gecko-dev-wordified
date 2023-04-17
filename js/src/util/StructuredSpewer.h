@@ -642,7 +642,7 @@ ScriptStats
 \
 _
 (
-RateMyCacheIR
+CacheIRHealthReport
 )
 /
 /
