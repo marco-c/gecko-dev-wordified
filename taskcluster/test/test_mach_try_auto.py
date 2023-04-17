@@ -639,6 +639,30 @@ builds
         
 )
         
+#
+We
+should
+only
+assert
+that
+we
+have
+no
+signed
+builds
+on
+platforms
+that
+don
+'
+t
+run
+        
+#
+xpcshell
+tests
+.
+        
 pytest
 .
 param
@@ -666,6 +690,26 @@ build
 -
 signing
 "
+            
+marks
+=
+pytest
+.
+mark
+.
+xfail
+(
+reason
+=
+"
+some
+xpcshell
+tests
+require
+signed
+builds
+"
+)
         
 )
         
