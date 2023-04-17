@@ -1521,7 +1521,6 @@ import
 .
     
 major
-minor
 =
 sys
 .
@@ -1530,28 +1529,18 @@ version_info
 :
 2
 ]
+[
+0
+]
     
 if
-(
-major
-=
-=
-2
-and
-minor
+sys
+.
+version_info
 <
-7
-)
-or
 (
-major
-=
-=
 3
-and
-minor
-<
-5
+6
 )
 :
         
@@ -1559,14 +1548,9 @@ print
 (
 "
 Python
-2
-.
-7
-or
-Python
 3
 .
-5
+6
 +
 is
 required
