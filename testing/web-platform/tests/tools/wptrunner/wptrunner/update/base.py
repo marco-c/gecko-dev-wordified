@@ -1,9 +1,3 @@
-from
-typing
-import
-ClassVar
-List
-Type
 exit_unclean
 =
 object
@@ -24,16 +18,6 @@ object
 provides
 =
 [
-]
-#
-type
-:
-ClassVar
-[
-List
-[
-str
-]
 ]
     
 def
@@ -326,19 +310,6 @@ object
 steps
 =
 [
-]
-#
-type
-:
-ClassVar
-[
-List
-[
-Type
-[
-Step
-]
-]
 ]
     
 def

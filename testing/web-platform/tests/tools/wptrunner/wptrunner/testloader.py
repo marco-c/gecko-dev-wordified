@@ -86,10 +86,6 @@ from
 manifest
 import
 manifest
-#
-type
-:
-ignore
     
 from
 manifest
@@ -104,10 +100,6 @@ manifest
 download
 import
 download_from_github
-#
-type
-:
-ignore
 class
 TestGroupsFile
 (

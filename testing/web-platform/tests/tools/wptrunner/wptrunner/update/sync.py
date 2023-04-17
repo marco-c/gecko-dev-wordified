@@ -724,10 +724,6 @@ from
 manifest
 import
 manifest
-#
-type
-:
-ignore
         
 state
 .

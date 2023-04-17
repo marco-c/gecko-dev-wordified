@@ -309,9 +309,6 @@ __init__
 (
 self
 )
--
->
-None
 :
         
 for

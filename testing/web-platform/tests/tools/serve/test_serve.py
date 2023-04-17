@@ -1,6 +1,4 @@
 import
-logging
-import
 os
 import
 pickle
@@ -19,13 +17,6 @@ from
 serve
 import
 ConfigBuilder
-logger
-=
-logging
-.
-getLogger
-(
-)
 pytest
 .
 mark
@@ -66,8 +57,6 @@ test_make_hosts_file_nix
 with
 ConfigBuilder
 (
-logger
-                       
 ports
 =
 {
@@ -310,8 +299,6 @@ test_make_hosts_file_windows
 with
 ConfigBuilder
 (
-logger
-                       
 ports
 =
 {
@@ -589,7 +576,6 @@ test_ws_doc_root_default
 with
 ConfigBuilder
 (
-logger
 )
 as
 c
@@ -651,7 +637,6 @@ test_init_ws_doc_root
 with
 ConfigBuilder
 (
-logger
 ws_doc_root
 =
 "
@@ -713,7 +698,6 @@ cb
 =
 ConfigBuilder
 (
-logger
 )
     
 cb
@@ -790,7 +774,6 @@ pickled
 with
 ConfigBuilder
 (
-logger
 )
 as
 c
@@ -810,7 +793,6 @@ test_alternate_host_unspecified
     
 ConfigBuilder
 (
-logger
 browser_host
 =
 "
@@ -929,7 +911,6 @@ ValueError
         
 ConfigBuilder
 (
-logger
 browser_host
 =
 primary
@@ -1027,7 +1008,6 @@ alternate
     
 ConfigBuilder
 (
-logger
 browser_host
 =
 primary
