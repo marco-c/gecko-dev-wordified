@@ -29985,10 +29985,6 @@ tooltip
 else
 if
 (
-!
-gProton
-&
-&
 tab
 .
 _overPlayingIcon
