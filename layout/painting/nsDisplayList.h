@@ -31914,7 +31914,7 @@ aActiveScrolledRoot
 const
 ActiveScrolledRoot
 *
-aContainerASR
+aScrollTargetASR
 )
 ;
 nsDisplayFixedPosition
@@ -31933,11 +31933,11 @@ nsDisplayOwnLayer
 aBuilder
 aOther
 )
-mContainerASR
+mScrollTargetASR
 (
 aOther
 .
-mContainerASR
+mScrollTargetASR
 )
 mIsFixedBackground
 (
@@ -31972,6 +31972,10 @@ aImage
 const
 uint16_t
 aIndex
+const
+ActiveScrolledRoot
+*
+aScrollTargetASR
 )
 ;
 MOZ_COUNTED_DTOR_OVERRIDE
@@ -32116,6 +32120,10 @@ aFrame
 nsDisplayList
 *
 aList
+const
+ActiveScrolledRoot
+*
+aScrollTargetASR
 )
 ;
 ViewID
@@ -32128,7 +32136,7 @@ RefPtr
 const
 ActiveScrolledRoot
 >
-mContainerASR
+mScrollTargetASR
 ;
 bool
 mIsFixedBackground
@@ -32218,6 +32226,10 @@ aList
 nsIFrame
 *
 aAncestorFrame
+const
+ActiveScrolledRoot
+*
+aScrollTargetASR
 )
 ;
 nsDisplayTableFixedPosition
