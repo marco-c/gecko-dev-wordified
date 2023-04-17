@@ -1084,6 +1084,7 @@ thread
 .
 *
 /
+virtual
 void
 AppendMessage
 (
