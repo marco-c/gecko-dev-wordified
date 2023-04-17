@@ -3427,8 +3427,7 @@ platforms
 (
 currently
 only
-OS
-X
+macOS
 )
 .
 *
@@ -4344,9 +4343,7 @@ at
 least
 )
 *
-Mac
-OS
-X
+macOS
 with
 Hi
 -
@@ -4361,8 +4358,8 @@ when
 the
 UI
 scale
-*
 factor
+*
 is
 set
 to
@@ -7173,9 +7170,7 @@ aIsTransparent
 *
 *
 On
-Mac
-OS
-X
+macOS
 this
 method
 shows
@@ -7332,9 +7327,7 @@ have
 .
 On
 *
-Mac
-OS
-X
+macOS
 this
 causes
 a
@@ -7418,8 +7411,7 @@ titlebar
 Only
 implemented
 on
-OS
-X
+macOS
 .
 *
 /
@@ -8018,8 +8010,7 @@ currently
 only
 supported
 on
-OS
-X
+macOS
 10
 .
 7
