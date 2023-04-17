@@ -18868,9 +18868,9 @@ index
 formElement
 -
 >
-IndexOfControl
+IndexOfContent
 (
-control
+aContent
 )
 ;
 if

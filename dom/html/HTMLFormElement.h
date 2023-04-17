@@ -344,11 +344,11 @@ FORM_CONTROL_LIST_HASHTABLE_LENGTH
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
 int32_t
-IndexOfControl
+IndexOfContent
 (
-nsIFormControl
+nsIContent
 *
-aControl
+aContent
 )
 ;
 nsGenericHTMLFormElement
