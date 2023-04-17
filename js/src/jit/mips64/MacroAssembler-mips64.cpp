@@ -16425,13 +16425,13 @@ output
 {
 MOZ_ASSERT
 (
-oldval
+expect
 !
 =
 output
 &
 &
-newval
+replace
 !
 =
 output
