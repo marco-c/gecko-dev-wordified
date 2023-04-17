@@ -1637,7 +1637,7 @@ prefStructure
 icon
 :
 "
-highlights
+mail
 "
 pref
 :
@@ -1684,7 +1684,7 @@ assets
 /
 glyph
 -
-highlights
+mail
 -
 16
 .
