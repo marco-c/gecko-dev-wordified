@@ -5552,6 +5552,17 @@ mBrowsingContextFieldEpoch
 =
 0
 ;
+hal
+:
+:
+ProcessPriority
+mProcessPriority
+=
+hal
+:
+:
+PROCESS_PRIORITY_UNKNOWN
+;
 }
 ;
 inline
