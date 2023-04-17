@@ -4957,7 +4957,7 @@ and
 /
 the
 usual
-UnifiedComplete
+UrlbarProviderHeuristicFallback
 heuristic
 should
 be
@@ -5178,7 +5178,9 @@ first
 result
 should
 be
-UnifiedComplete
+/
+/
+UrlbarProviderHeuristicFallback
 '
 s
 heuristic

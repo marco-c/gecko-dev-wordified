@@ -1556,12 +1556,10 @@ are
 prioritized
 over
 the
-UnifiedComplete
+Places
 and
 top
 sites
-/
-/
 providers
 .
 return

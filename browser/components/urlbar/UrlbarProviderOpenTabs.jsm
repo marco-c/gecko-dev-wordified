@@ -410,7 +410,7 @@ the
 temp
 table
 in
-UnifiedComplete
+UrlbarProviderPlaces
 .
 return
 false

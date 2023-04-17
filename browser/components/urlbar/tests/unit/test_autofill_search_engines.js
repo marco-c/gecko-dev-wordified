@@ -93,9 +93,7 @@ different
 /
 path
 in
-UnifiedComplete
-.
-js
+ProviderAutofill
 from
 normal
 moz_places

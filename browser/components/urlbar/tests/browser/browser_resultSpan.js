@@ -702,7 +702,7 @@ results
 ;
 /
 /
-UnifiedComplete
+UrlbarProviderHeuristicFallback
 '
 s
 heuristic
@@ -992,7 +992,7 @@ results
 ;
 /
 /
-UnifiedComplete
+UrlbarProviderHeuristicFallback
 '
 s
 heuristic

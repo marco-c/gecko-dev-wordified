@@ -2480,7 +2480,10 @@ comment
 ;
 /
 /
-UnifiedComplete
+The
+legacy
+autocomplete
+result
 may
 return
 "
@@ -2492,6 +2495,8 @@ bookmark
 tag
 "
 or
+/
+/
 "
 tag
 "
@@ -2499,8 +2504,6 @@ tag
 In
 the
 last
-/
-/
 case
 it
 should
@@ -2511,13 +2514,13 @@ a
 bookmark
 but
 an
+/
+/
 history
 item
 with
 tags
 .
-/
-/
 We
 don
 '
@@ -9706,10 +9709,7 @@ shutdown
 addBlocker
 (
 "
-Places
-UnifiedComplete
-.
-js
+UrlbarProviderPlaces
 closing
 "
 (

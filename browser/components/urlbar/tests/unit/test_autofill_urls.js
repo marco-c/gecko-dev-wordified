@@ -69,10 +69,10 @@ HeuristicFallback
 "
 ;
 const
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 =
 "
-UnifiedComplete
+Places
 "
 ;
 /
@@ -763,7 +763,7 @@ tags
 ]
 providerName
 :
-UNIFIEDCOMPLETE_PROVIDERNAME
+PLACES_PROVIDERNAME
 }
 )
 ]

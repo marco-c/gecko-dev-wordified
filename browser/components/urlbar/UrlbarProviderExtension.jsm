@@ -2538,9 +2538,8 @@ to
 clobber
 /
 /
-UnifiedComplete
-'
-s
+the
+default
 heuristic
 so
 we

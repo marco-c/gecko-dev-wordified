@@ -42,7 +42,7 @@ test
 to
 check
 the
-UnifiedComplete
+Places
 provider
 works
 it
@@ -102,7 +102,7 @@ add_task
 (
 async
 function
-test_unifiedComplete
+test_places
 (
 )
 {
@@ -668,8 +668,6 @@ Disable
 the
 bookmark
 behavior
-in
-UnifiedComplete
 .
 Services
 .
@@ -1053,8 +1051,6 @@ Disable
 the
 bookmark
 behavior
-in
-UnifiedComplete
 .
 Services
 .
@@ -1396,8 +1392,6 @@ Enable
 the
 bookmark
 behavior
-in
-UnifiedComplete
 .
 Services
 .

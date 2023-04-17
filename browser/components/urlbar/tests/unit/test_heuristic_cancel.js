@@ -453,7 +453,7 @@ in
 for
 a
 slow
-UnifiedComplete
+UrlbarProviderPlaces
 returning
 a
 /

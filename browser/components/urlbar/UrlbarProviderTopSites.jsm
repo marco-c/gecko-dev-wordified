@@ -383,7 +383,7 @@ are
 prioritized
 over
 the
-UnifiedComplete
+UrlbarProviderPlaces
 provider
 .
 return
@@ -734,7 +734,7 @@ show
 the
 results
 from
-UnifiedComplete
+UrlbarProviderPlaces
 '
 s
 /
