@@ -5136,6 +5136,9 @@ failed
 "
 )
 ;
+return
+NS_OK
+;
 }
 nsAutoCString
 origin
