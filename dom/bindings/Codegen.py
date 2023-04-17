@@ -88416,7 +88416,7 @@ fill
 "
 "
                 
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 Is
 {
@@ -88579,7 +88579,7 @@ fill
 "
 "
                 
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 Is
 {
