@@ -5585,6 +5585,14 @@ windows7
 "
 in
 platform
+or
+"
+windows10
+-
+32
+"
+in
+platform
 :
             
 return
@@ -5886,6 +5894,12 @@ windows7
 "
 in
 platform
+or
+"
+windows10
+-
+32
+"
 :
             
 return
