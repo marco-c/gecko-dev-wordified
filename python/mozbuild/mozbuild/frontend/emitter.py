@@ -8815,9 +8815,6 @@ WASM_CFLAGS
 "
 WASM_CXXFLAGS
 "
-"
-WASM_LDFLAGS
-"
 ]
 :
             
