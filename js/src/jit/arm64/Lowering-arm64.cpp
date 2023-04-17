@@ -1220,7 +1220,7 @@ LMulI64
 :
 :
 Rhs
-useInt64RegisterAtStart
+useInt64RegisterOrConstantAtStart
 (
 rhs
 )
