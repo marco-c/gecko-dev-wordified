@@ -759,8 +759,6 @@ ModuleRecord
 &
 &
 aModuleRecord
-bool
-aIsDependent
 )
 ;
 explicit

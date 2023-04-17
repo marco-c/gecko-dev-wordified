@@ -1237,8 +1237,6 @@ ModuleRecord
 &
 &
 aModuleRecord
-bool
-aIsDependent
 )
 :
 mProcessUptimeMS
@@ -1307,7 +1305,11 @@ aModuleRecord
 )
 mIsDependent
 (
-aIsDependent
+aModLoadInfo
+.
+mNtLoadInfo
+.
+mIsDependent
 )
 mLoadStatus
 (
