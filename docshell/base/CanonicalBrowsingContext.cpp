@@ -3587,7 +3587,10 @@ LoadingSessionHistoryInfo
 aInfo
 nsIChannel
 *
-aChannel
+aOldChannel
+nsIChannel
+*
+aNewChannel
 )
 {
 MOZ_ASSERT
@@ -3597,7 +3600,7 @@ aInfo
 ;
 MOZ_ASSERT
 (
-aChannel
+aNewChannel
 )
 ;
 SessionHistoryInfo
@@ -3605,7 +3608,8 @@ newInfo
 =
 SessionHistoryInfo
 (
-aChannel
+aOldChannel
+aNewChannel
 aInfo
 -
 >
@@ -3715,7 +3719,7 @@ nsIURI
 >
 uri
 ;
-aChannel
+aNewChannel
 -
 >
 GetURI
@@ -3737,7 +3741,7 @@ nsDocShell
 ShouldAddToSessionHistory
 (
 uri
-aChannel
+aNewChannel
 )
 )
 ;
