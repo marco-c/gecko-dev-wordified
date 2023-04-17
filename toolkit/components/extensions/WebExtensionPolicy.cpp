@@ -1212,6 +1212,12 @@ aInit
 .
 mIsPrivileged
 )
+mTemporarilyInstalled
+(
+aInit
+.
+mTemporarilyInstalled
+)
 mPermissions
 (
 new

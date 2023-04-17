@@ -1358,6 +1358,11 @@ isPrivileged
 extension
 .
 isPrivileged
+temporarilyInstalled
+:
+extension
+.
+temporarilyInstalled
 permissions
 :
 extension

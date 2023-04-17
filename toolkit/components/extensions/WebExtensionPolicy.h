@@ -505,6 +505,15 @@ return
 mIsPrivileged
 ;
 }
+bool
+TemporarilyInstalled
+(
+)
+{
+return
+mTemporarilyInstalled
+;
+}
 void
 GetURL
 (
@@ -1337,6 +1346,9 @@ mLocalizeCallback
 ;
 bool
 mIsPrivileged
+;
+bool
+mTemporarilyInstalled
 ;
 RefPtr
 <
