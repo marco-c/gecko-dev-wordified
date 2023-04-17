@@ -1504,12 +1504,11 @@ files
 submanifests
 =
 [
-i
-[
-1
-]
+            
+package
 for
-i
+action
+package
 in
 self
 .
@@ -1517,10 +1516,7 @@ packages
 (
 )
 if
-i
-[
-0
-]
+action
 =
 =
 "
@@ -1528,6 +1524,7 @@ packages
 .
 txt
 "
+        
 ]
         
 for
@@ -2050,8 +2047,7 @@ as
 fh
 :
             
-packages
-=
+return
 [
 line
 .
@@ -2064,15 +2060,15 @@ split
 "
 :
 "
+maxsplit
+=
+1
 )
 for
 line
 in
 fh
 ]
-        
-return
-packages
     
 def
 populate
@@ -2342,14 +2338,6 @@ comm
 )
 )
         
-packages
-=
-self
-.
-packages
-(
-)
-        
 python_lib
 =
 distutils
@@ -2363,15 +2351,13 @@ get_python_lib
 def
 handle_package
 (
+action
 package
 )
 :
             
 if
-package
-[
-0
-]
+action
 =
 =
 "
@@ -2380,15 +2366,6 @@ packages
 txt
 "
 :
-                
-assert
-len
-(
-package
-)
-=
-=
-2
                 
 src
 =
@@ -2402,9 +2379,6 @@ self
 .
 topsrcdir
 package
-[
-1
-]
 )
                 
 assert
@@ -2462,10 +2436,7 @@ populate
 )
             
 elif
-package
-[
-0
-]
+action
 .
 endswith
 (
@@ -2475,15 +2446,6 @@ pth
 "
 )
 :
-                
-assert
-len
-(
-package
-)
-=
-=
-2
                 
 if
 not
@@ -2506,9 +2468,6 @@ self
 .
 topsrcdir
 package
-[
-1
-]
 )
                 
 with
@@ -2521,10 +2480,7 @@ path
 join
 (
 python_lib
-package
-[
-0
-]
+action
 )
 "
 a
@@ -2604,10 +2560,7 @@ python_lib
 )
             
 elif
-package
-[
-0
-]
+action
 =
 =
 "
@@ -2621,11 +2574,18 @@ is_thunderbird
                     
 handle_package
 (
+*
 package
-[
-1
+.
+split
+(
+"
 :
-]
+"
+maxsplit
+=
+1
+)
 )
             
 else
@@ -2642,10 +2602,7 @@ action
 s
 "
 %
-package
-[
-0
-]
+action
 )
         
 #
@@ -3004,14 +2961,20 @@ k
 ]
             
 for
-package
+current_action
+current_package
 in
+self
+.
 packages
+(
+)
 :
                 
 handle_package
 (
-package
+current_action
+current_package
 )
         
 finally

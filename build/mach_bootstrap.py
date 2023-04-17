@@ -1150,6 +1150,9 @@ split
 "
 :
 "
+maxsplit
+=
+1
 )
 for
 line
@@ -1160,15 +1163,13 @@ f
 def
 handle_package
 (
+action
 package
 )
 :
         
 if
-package
-[
-0
-]
+action
 =
 =
 "
@@ -1178,15 +1179,6 @@ txt
 "
 :
             
-assert
-len
-(
-package
-)
-=
-=
-2
-            
 for
 p
 in
@@ -1194,9 +1186,6 @@ search_path
 (
 mozilla_dir
 package
-[
-1
-]
 )
 :
                 
@@ -1212,10 +1201,7 @@ p
 )
         
 if
-package
-[
-0
-]
+action
 .
 endswith
 (
@@ -1226,15 +1212,6 @@ pth
 )
 :
             
-assert
-len
-(
-package
-)
-=
-=
-2
-            
 yield
 os
 .
@@ -1244,13 +1221,11 @@ join
 (
 mozilla_dir
 package
-[
-1
-]
 )
     
 for
-package
+current_action
+current_package
 in
 packages
 :
@@ -1260,7 +1235,8 @@ path
 in
 handle_package
 (
-package
+current_action
+current_package
 )
 :
             
