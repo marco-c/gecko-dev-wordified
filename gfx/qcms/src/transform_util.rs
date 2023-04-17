@@ -1768,9 +1768,6 @@ m
 ;
 3
 ]
-invalid
-:
-false
 }
 ;
 result
@@ -1943,12 +1940,6 @@ blueColorant
 .
 Z
 )
-;
-result
-.
-invalid
-=
-false
 ;
 result
 }
