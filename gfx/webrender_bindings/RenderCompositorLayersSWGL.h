@@ -287,7 +287,7 @@ DeviceIntRect
 &
 aDirtyRects
 )
-final
+override
 ;
 bool
 SurfaceOriginIsTopLeft
