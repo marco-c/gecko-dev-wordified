@@ -247,6 +247,16 @@ mNode
 )
 )
 ;
+if
+(
+!
+wrap
+)
+{
+return
+nullptr
+;
+}
 wrap
 -
 >
