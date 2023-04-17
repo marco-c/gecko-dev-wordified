@@ -278,6 +278,10 @@ fakePacket
 "
 message
 "
+data
+:
+{
+}
 }
 )
 ;
@@ -295,6 +299,10 @@ message
 -
 update
 "
+data
+:
+{
+}
 }
 )
 ;
@@ -312,6 +320,10 @@ request
 -
 update
 "
+data
+:
+{
+}
 }
 )
 ;
