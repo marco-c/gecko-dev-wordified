@@ -997,10 +997,6 @@ aBasicShape
 const
 nsRect
 &
-aInsetRect
-const
-nsRect
-&
 aRefBox
 nscoord
 aRadii
@@ -1029,7 +1025,7 @@ nsIFrame
 ComputeBorderRadii
 (
 radius
-aInsetRect
+aRefBox
 .
 Size
 (
