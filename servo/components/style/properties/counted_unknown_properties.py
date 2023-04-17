@@ -1165,4 +1165,10 @@ shape
 -
 margin
 "
+    
+"
+content
+-
+visibility
+"
 ]
