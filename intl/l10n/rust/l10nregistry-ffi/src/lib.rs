@@ -67,5 +67,8 @@ mod
 load
 ;
 mod
+registry
+;
+mod
 source
 ;
