@@ -265,9 +265,7 @@ the
 same
 date
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (
@@ -280,9 +278,7 @@ equal
 (
 false
 await
-OS
-.
-File
+IOUtils
 .
 exists
 (
@@ -535,9 +531,7 @@ eraseEverything
 Cleanup
 .
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (

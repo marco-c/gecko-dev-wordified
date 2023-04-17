@@ -189,9 +189,7 @@ Assert
 ok
 (
 await
-OS
-.
-File
+IOUtils
 .
 exists
 (
@@ -413,9 +411,7 @@ length
 /
 Cleanup
 await
-OS
-.
-File
+IOUtils
 .
 remove
 (

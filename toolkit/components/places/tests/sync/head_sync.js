@@ -2504,9 +2504,7 @@ fixturePath
 )
 ;
 await
-OS
-.
-File
+IOUtils
 .
 copy
 (
