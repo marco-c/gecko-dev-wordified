@@ -169,14 +169,15 @@ dom
 {
 namespace
 {
-typedef
+using
+LSObserverHashtable
+=
 nsTHashMap
 <
 nsCStringHashKey
 LSObserver
 *
 >
-LSObserverHashtable
 ;
 StaticAutoPtr
 <
