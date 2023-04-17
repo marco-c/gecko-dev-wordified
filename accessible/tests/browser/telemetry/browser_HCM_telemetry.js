@@ -767,6 +767,16 @@ platform
 "
 win
 "
+|
+|
+AppConstants
+.
+platform
+=
+=
+"
+macosx
+"
 )
 {
 is
@@ -792,6 +802,8 @@ on
 startup
 for
 windows
+and
+mac
 "
 )
 ;
@@ -801,8 +813,6 @@ Verify
 correct
 default
 value
-on
-windows
 TelemetryTestUtils
 .
 assertKeyedScalar
@@ -850,9 +860,7 @@ never
 on
 startup
 for
-non
--
-windows
+other
 platforms
 "
 )
@@ -863,10 +871,6 @@ Verify
 correct
 default
 value
-on
-non
--
-windows
 TelemetryTestUtils
 .
 assertKeyedScalar
