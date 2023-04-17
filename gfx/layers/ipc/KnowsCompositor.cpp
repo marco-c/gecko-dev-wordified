@@ -143,6 +143,17 @@ ImageBridgeChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+ProtocolUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -715,6 +726,9 @@ format
 void
 DestroySurfaceDescriptor
 (
+ipc
+:
+:
 IShmemAllocator
 *
 aAllocator

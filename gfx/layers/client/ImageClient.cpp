@@ -358,6 +358,17 @@ mozilla
 /
 layers
 /
+TextureForwarder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureClient
 .
 h
