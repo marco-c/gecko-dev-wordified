@@ -4380,6 +4380,14 @@ PanGestureInput
 aEvent
 )
 ;
+enum
+class
+FingersOnTouchpad
+{
+Yes
+No
+}
+;
 nsEventStatus
 OnPan
 (
@@ -4387,7 +4395,7 @@ const
 PanGestureInput
 &
 aEvent
-bool
+FingersOnTouchpad
 aFingersOnTouchpad
 )
 ;
