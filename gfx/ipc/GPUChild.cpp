@@ -352,17 +352,12 @@ nsIObserverService
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 ProfilerParent
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -654,9 +649,6 @@ AddReceiver
 this
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 Unused
 <
 <
@@ -673,8 +665,6 @@ OtherPid
 )
 )
 ;
-#
-endif
 }
 void
 GPUChild
