@@ -64,7 +64,7 @@ api
 AlphaType
 PremultipliedColorF
 YuvFormat
-YuvRangedColorSpace
+YuvColorSpace
 }
 ;
 use
@@ -1611,7 +1611,7 @@ f32
 /
 /
 YuvFormat
-yuv_channel_bit_depth
+yuv_rescale
 :
 f32
 /
@@ -1705,7 +1705,7 @@ yuv_format
 0
 .
 0
-yuv_channel_bit_depth
+yuv_rescale
 :
 0
 .
@@ -1766,7 +1766,7 @@ yuv_format
 0
 .
 0
-yuv_channel_bit_depth
+yuv_rescale
 :
 0
 .
@@ -1795,13 +1795,13 @@ z_id
 ZBufferId
 yuv_color_space
 :
-YuvRangedColorSpace
+YuvColorSpace
 yuv_format
 :
 YuvFormat
-yuv_channel_bit_depth
+yuv_rescale
 :
-u32
+f32
 uv_rects
 :
 [
@@ -1847,12 +1847,7 @@ yuv_format
 as
 u32
 )
-yuv_channel_bit_depth
-:
-pack_as_float
-(
-yuv_channel_bit_depth
-)
+yuv_rescale
 uv_rects
 }
 }

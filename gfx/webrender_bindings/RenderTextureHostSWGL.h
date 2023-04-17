@@ -237,7 +237,7 @@ virtual
 gfx
 :
 :
-YUVRangedColorSpace
+YUVColorSpace
 GetYUVColorSpace
 (
 )
@@ -247,7 +247,7 @@ return
 gfx
 :
 :
-YUVRangedColorSpace
+YUVColorSpace
 :
 :
 Default

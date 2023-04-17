@@ -1052,7 +1052,7 @@ api
 {
 ImageRendering
 ColorDepth
-YuvRangedColorSpace
+YuvColorSpace
 YuvFormat
 AlphaType
 }
@@ -22071,7 +22071,7 @@ color_depth
 ColorDepth
 color_space
 :
-YuvRangedColorSpace
+YuvColorSpace
 format
 :
 YuvFormat
@@ -22145,11 +22145,11 @@ image_dependencies
 image_dependencies
 color_space
 format
-channel_bit_depth
+rescale
 :
 color_depth
 .
-bit_depth
+rescaling_factor
 (
 )
 }
@@ -25472,15 +25472,6 @@ prim_data
 kind
 .
 color_space
-.
-with_range
-(
-prim_data
-.
-kind
-.
-color_range
-)
 prim_data
 .
 kind
