@@ -82,7 +82,7 @@ let
 addonCard
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
