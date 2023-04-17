@@ -698,8 +698,6 @@ build_docs
         
 self
         
-command_context
-        
 path
 =
 None
@@ -965,8 +963,6 @@ s
 self
 .
 project
-(
-)
 str
 (
 uuid
@@ -1278,8 +1274,6 @@ gz
 self
 .
 project
-(
-)
 )
             
 create_tarball
@@ -1312,14 +1306,10 @@ savedir
 self
 .
 project
-(
-)
 unique_id
 self
 .
 version
-(
-)
 )
         
 if
@@ -1448,8 +1438,6 @@ sphinx_trees
 self
 .
 manager
-(
-)
 .
 trees
 or
@@ -1752,8 +1740,6 @@ or
 self
 .
 manager
-(
-)
 .
 conf_py_path
         
@@ -1857,6 +1843,8 @@ build_main
 args
 )
     
+property
+    
 def
 manager
 (
@@ -1908,8 +1896,6 @@ normpath
 self
 .
 manager
-(
-)
 .
 conf_py_path
 )
@@ -2025,6 +2011,8 @@ version
 None
 )
     
+property
+    
 def
 project
 (
@@ -2049,6 +2037,8 @@ return
 self
 .
 _project
+    
+property
     
 def
 version
@@ -2662,7 +2652,6 @@ def
 generate_telemetry_docs
 (
 self
-command_context
 )
 :
         

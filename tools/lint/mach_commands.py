@@ -403,7 +403,6 @@ def
 lint
 (
 self
-command_context
 *
 runargs
 *
@@ -818,7 +817,6 @@ def
 eslint
 (
 self
-command_context
 paths
 extra_args
 =

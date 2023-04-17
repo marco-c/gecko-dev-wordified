@@ -922,7 +922,6 @@ def
 run_talos_test
 (
 self
-command_context
 *
 *
 kwargs

@@ -150,7 +150,6 @@ def
 install_moz_phab
 (
 self
-command_context
 force
 =
 False
