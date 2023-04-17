@@ -156,6 +156,13 @@ Unused
 .
 h
 "
+#
+include
+"
+nsExceptionHandler
+.
+h
+"
 namespace
 mozilla
 {

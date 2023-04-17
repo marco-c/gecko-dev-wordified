@@ -140,6 +140,13 @@ WorkerRef
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 class
 nsIAsyncInputStream
 ;

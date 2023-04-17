@@ -164,6 +164,13 @@ nsITimer
 .
 h
 "
+#
+include
+"
+nsIThread
+.
+h
+"
 namespace
 mozilla
 {

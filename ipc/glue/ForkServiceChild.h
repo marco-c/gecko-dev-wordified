@@ -123,6 +123,15 @@ __FORKSERVICE_CHILD_H_
 #
 include
 "
+base
+/
+process_util
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h

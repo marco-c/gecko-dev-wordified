@@ -904,7 +904,6 @@ error
 ;
 #
 else
-static
 inline
 void
 AnnotateCrashReportWithErrno
