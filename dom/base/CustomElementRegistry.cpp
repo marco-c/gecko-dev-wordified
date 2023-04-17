@@ -7315,10 +7315,8 @@ get
 return
 ;
 }
-RefPtr
-<
 CustomElementData
->
+*
 data
 =
 aElement
@@ -7541,10 +7539,8 @@ ErrorResult
 aRv
 )
 {
-RefPtr
-<
 CustomElementData
->
+*
 data
 =
 aElement
@@ -8942,10 +8938,8 @@ CustomElementReaction
 aReaction
 )
 {
-RefPtr
-<
 CustomElementData
->
+*
 elementData
 =
 aElement
@@ -9396,10 +9390,8 @@ MOZ_ASSERT
 element
 )
 ;
-RefPtr
-<
 CustomElementData
->
+*
 elementData
 =
 element

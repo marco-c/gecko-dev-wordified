@@ -3054,8 +3054,10 @@ data
 void
 SetCustomElementData
 (
+UniquePtr
+<
 CustomElementData
-*
+>
 aData
 )
 ;

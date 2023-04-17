@@ -1051,7 +1051,7 @@ data
 .
 *
 /
-RefPtr
+UniquePtr
 <
 CustomElementData
 >

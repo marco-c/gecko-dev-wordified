@@ -27006,8 +27006,10 @@ element
 >
 SetCustomElementData
 (
-new
+MakeUnique
+<
 CustomElementData
+>
 (
 definition
 -
