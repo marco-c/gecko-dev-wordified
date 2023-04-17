@@ -472,6 +472,13 @@ KeyboardScrollAction
 struct
 ZoomTarget
 ;
+namespace
+apz
+{
+struct
+AsyncScrollThumbTransformer
+;
+}
 /
 /
 Base
@@ -10043,6 +10050,13 @@ GenericOverscrollEffect
 friend
 class
 WidgetOverscrollEffect
+;
+friend
+struct
+apz
+:
+:
+AsyncScrollThumbTransformer
 ;
 FlingAccelerator
 mFlingAccelerator
