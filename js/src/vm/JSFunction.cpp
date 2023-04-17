@@ -13200,8 +13200,6 @@ JSContext
 cx
 HandleFunction
 fun
-NewObjectKind
-newKind
 gc
 :
 :
@@ -13246,7 +13244,7 @@ cx
 clasp
 proto
 allocKind
-newKind
+GenericObject
 )
 )
 ;
@@ -13538,11 +13536,6 @@ enclosingEnv
 )
 )
 ;
-NewObjectKind
-newKind
-=
-GenericObject
-;
 RootedFunction
 clone
 (
@@ -13551,7 +13544,6 @@ NewFunctionClone
 (
 cx
 fun
-newKind
 allocKind
 proto
 )
@@ -13729,7 +13721,6 @@ NewFunctionClone
 (
 cx
 fun
-GenericObject
 gc
 :
 :
