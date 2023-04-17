@@ -1090,9 +1090,6 @@ None
 newline
 =
 None
-errors
-=
-None
 )
 :
         
@@ -1175,9 +1172,6 @@ encoding
 newline
 =
 newline
-errors
-=
-errors
             
 )
         
