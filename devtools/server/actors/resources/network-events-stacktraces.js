@@ -1256,11 +1256,6 @@ resourceType
 :
 NETWORK_EVENT_STACKTRACE
 resourceId
-targetFront
-:
-this
-.
-targetFront
 stacktraceAvailable
 :
 stacktrace
