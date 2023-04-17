@@ -391,9 +391,6 @@ avif
 _ns
 }
 ;
-#
-ifdef
-MOZ_JXL
 static
 ImageEnablementCookie
 kJXLCookie
@@ -414,8 +411,6 @@ jxl
 _ns
 }
 ;
-#
-endif
 static
 ImageEnablementCookie
 kWebPCookie

@@ -1159,6 +1159,9 @@ GreenWebPTestCase
 )
 ;
 }
+#
+ifdef
+MOZ_JXL
 TEST_F
 (
 ImageDecoderMetadata
@@ -1187,6 +1190,8 @@ TransparentJXLTestCase
 )
 ;
 }
+#
+endif
 TEST_F
 (
 ImageDecoderMetadata

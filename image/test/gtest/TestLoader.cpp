@@ -636,6 +636,9 @@ IMAGE_AVIF
 )
 ;
 }
+#
+ifdef
+MOZ_JXL
 TEST_F
 (
 ImageLoader
@@ -713,6 +716,8 @@ IMAGE_JXL
 )
 ;
 }
+#
+endif
 TEST_F
 (
 ImageLoader

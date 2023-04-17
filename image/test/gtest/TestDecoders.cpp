@@ -5023,10 +5023,15 @@ IMAGE_GTEST_DECODER_BASE_F
 (
 WebP
 )
+#
+ifdef
+MOZ_JXL
 IMAGE_GTEST_DECODER_BASE_F
 (
 JXL
 )
+#
+endif
 TEST_F
 (
 ImageDecoders
@@ -5710,6 +5715,9 @@ DownscaledAVIFTestCase
 )
 ;
 }
+#
+ifdef
+MOZ_JXL
 TEST_F
 (
 ImageDecoders
@@ -5730,6 +5738,8 @@ aChunkSize
 )
 ;
 }
+#
+endif
 TEST_F
 (
 ImageDecoders
