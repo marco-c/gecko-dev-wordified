@@ -63948,6 +63948,9 @@ nsLayoutUtils
 GetNearestScrollableFrame
 (
 aFrame
+SCROLLABLE_INCLUDE_HIDDEN
+|
+SCROLLABLE_FIXEDPOS_FINDS_ROOT
 )
 ;
 if
