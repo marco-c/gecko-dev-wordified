@@ -634,11 +634,6 @@ privacy
 .
 "
 "
-remote
-.
-enabled
-"
-"
 security
 .
 "
