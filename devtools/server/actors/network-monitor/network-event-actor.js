@@ -599,6 +599,14 @@ networkEvent
 .
 private
 ;
+this
+.
+_isNavigationRequest
+=
+networkEvent
+.
+isNavigationRequest
+;
 }
 /
 *
@@ -864,6 +872,11 @@ _serial
 this
 .
 _channelId
+isNavigationRequest
+:
+this
+.
+_isNavigationRequest
 }
 ;
 }
