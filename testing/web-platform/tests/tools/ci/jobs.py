@@ -357,7 +357,7 @@ mimesniff
 "
                      
 "
-WebIDL
+webidl
 "
 ]
     
