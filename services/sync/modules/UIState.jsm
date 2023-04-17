@@ -240,7 +240,11 @@ service
 :
 login
 :
-change
+got
+-
+hashed
+-
+id
 "
 "
 weave
