@@ -1770,9 +1770,10 @@ classes
 .
 *
 /
-typedef
-uint32_t
+using
 FlagsType
+=
+uint32_t
 ;
 FlagsType
 GetFlags

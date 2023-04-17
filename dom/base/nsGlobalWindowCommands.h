@@ -170,14 +170,15 @@ nsGlobalWindowCommands
 {
 public
 :
-typedef
+using
+KeyboardScrollAction
+=
 mozilla
 :
 :
 layers
 :
 :
-KeyboardScrollAction
 KeyboardScrollAction
 ;
 /

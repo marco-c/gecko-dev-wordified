@@ -169,9 +169,10 @@ HashKeyType
 char16_t
 >
 {
-typedef
-nsStringHashKey
+using
 HashType
+=
+nsStringHashKey
 ;
 }
 ;
@@ -184,9 +185,10 @@ HashKeyType
 char
 >
 {
-typedef
-nsCStringHashKey
+using
 HashType
+=
+nsCStringHashKey
 ;
 }
 ;

@@ -485,11 +485,12 @@ Disconnect
 )
 ;
 }
-typedef
+using
+NativeCallback
+=
 void
 (
 *
-NativeCallback
 )
 (
 const

@@ -299,7 +299,9 @@ ipc
 :
 MessageManagerCallback
 {
-typedef
+using
+StructuredCloneData
+=
 mozilla
 :
 :
@@ -309,7 +311,6 @@ dom
 ipc
 :
 :
-StructuredCloneData
 StructuredCloneData
 ;
 private

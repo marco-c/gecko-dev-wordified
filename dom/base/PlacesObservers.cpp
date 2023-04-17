@@ -433,7 +433,9 @@ T
 :
 gListenersToRemove
 ;
-typedef
+using
+JSListeners
+=
 ListenerCollection
 <
 RefPtr
@@ -441,9 +443,10 @@ RefPtr
 PlacesEventCallback
 >
 >
-JSListeners
 ;
-typedef
+using
+WeakJSListeners
+=
 ListenerCollection
 <
 WeakPtr
@@ -451,9 +454,10 @@ WeakPtr
 PlacesWeakCallbackWrapper
 >
 >
-WeakJSListeners
 ;
-typedef
+using
+WeakNativeListeners
+=
 ListenerCollection
 <
 WeakPtr
@@ -464,7 +468,6 @@ places
 INativePlacesEventCallback
 >
 >
-WeakNativeListeners
 ;
 static
 bool

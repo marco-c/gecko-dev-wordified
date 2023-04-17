@@ -1155,13 +1155,14 @@ the
 window
 ID
 .
-typedef
+using
+WindowPaths
+=
 nsTHashMap
 <
 nsUint64HashKey
 nsCString
 >
-WindowPaths
 ;
 static
 void
@@ -3599,7 +3600,9 @@ REPORT_SUM_SIZE
 undef
 REPORT_COUNT
 }
-typedef
+using
+WindowArray
+=
 nsTArray
 <
 RefPtr
@@ -3607,7 +3610,6 @@ RefPtr
 nsGlobalWindowInner
 >
 >
-WindowArray
 ;
 NS_IMETHODIMP
 nsWindowMemoryReporter

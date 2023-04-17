@@ -240,7 +240,9 @@ nsWrapperCache
 {
 protected
 :
-typedef
+using
+Element
+=
 mozilla
 :
 :
@@ -248,9 +250,10 @@ dom
 :
 :
 Element
-Element
 ;
-typedef
+using
+DocGroup
+=
 mozilla
 :
 :
@@ -258,9 +261,10 @@ dom
 :
 :
 DocGroup
-DocGroup
 ;
-typedef
+using
+WhitespaceTokenizer
+=
 nsWhitespaceTokenizerTemplate
 <
 nsContentUtils
@@ -268,7 +272,6 @@ nsContentUtils
 :
 IsHTMLWhitespace
 >
-WhitespaceTokenizer
 ;
 public
 :

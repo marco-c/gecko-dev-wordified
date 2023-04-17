@@ -174,11 +174,12 @@ nsMappedAttributes
 struct
 nsRuleData
 ;
-typedef
+using
+nsMapRuleToAttributesFunc
+=
 void
 (
 *
-nsMapRuleToAttributesFunc
 )
 (
 const
@@ -192,9 +193,10 @@ MappedDeclarations
 &
 )
 ;
-typedef
-nsStyledElement
+using
 nsMappedAttributeElementBase
+=
+nsStyledElement
 ;
 class
 nsMappedAttributeElement

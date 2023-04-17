@@ -194,7 +194,9 @@ Helper
 type
 for
 CheckPolicy
-typedef
+using
+CPMethod
+=
 decltype
 (
 &
@@ -203,7 +205,6 @@ nsIContentPolicy
 :
 ShouldProcess
 )
-CPMethod
 ;
 /
 /

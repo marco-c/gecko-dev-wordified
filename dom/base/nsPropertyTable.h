@@ -198,11 +198,12 @@ h
 class
 nsAtom
 ;
-typedef
+using
+NSPropertyFunc
+=
 void
 (
 *
-NSPropertyFunc
 )
 (
 void
@@ -281,9 +282,10 @@ SetProperty
 *
 *
 /
-typedef
-NSPropertyFunc
+using
 NSPropertyDtorFunc
+=
+NSPropertyFunc
 ;
 class
 nsINode

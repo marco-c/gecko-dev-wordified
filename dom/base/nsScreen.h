@@ -229,11 +229,12 @@ mozilla
 :
 DOMEventTargetHelper
 {
-typedef
+using
+ErrorResult
+=
 mozilla
 :
 :
-ErrorResult
 ErrorResult
 ;
 public

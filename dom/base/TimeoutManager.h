@@ -1193,7 +1193,9 @@ TimeoutManager
 &
 mManager
 ;
-typedef
+using
+TimeoutList
+=
 mozilla
 :
 :
@@ -1204,7 +1206,6 @@ RefPtr
 Timeout
 >
 >
-TimeoutList
 ;
 /
 /

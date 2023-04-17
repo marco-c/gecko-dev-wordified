@@ -229,7 +229,9 @@ NS_STYLED_ELEMENT_IID
 }
 \
 }
-typedef
+using
+nsStyledElementBase
+=
 mozilla
 :
 :
@@ -237,7 +239,6 @@ dom
 :
 :
 Element
-nsStyledElementBase
 ;
 class
 nsStyledElement

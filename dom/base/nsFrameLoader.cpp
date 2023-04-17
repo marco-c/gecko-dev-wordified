@@ -1186,11 +1186,12 @@ mozilla
 :
 layout
 ;
-typedef
+using
+ViewID
+=
 ScrollableLayerGuid
 :
 :
-ViewID
 ViewID
 ;
 using

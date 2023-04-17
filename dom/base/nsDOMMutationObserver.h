@@ -317,7 +317,9 @@ default
 ;
 public
 :
-typedef
+using
+AnimationArray
+=
 nsTArray
 <
 RefPtr
@@ -331,7 +333,6 @@ dom
 Animation
 >
 >
-AnimationArray
 ;
 nsDOMMutationRecord
 (
@@ -4426,12 +4427,13 @@ nsDOMMutationObserver
 >
 mObservers
 ;
-typedef
+using
+EntryArray
+=
 nsTArray
 <
 Entry
 >
-EntryArray
 ;
 nsClassHashtable
 <

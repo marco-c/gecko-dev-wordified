@@ -1089,14 +1089,15 @@ PRCListStr
 {
 public
 :
-typedef
+using
+OuterWindowByIdTable
+=
 nsTHashMap
 <
 nsUint64HashKey
 nsGlobalWindowOuter
 *
 >
-OuterWindowByIdTable
 ;
 using
 PrintPreviewResolver

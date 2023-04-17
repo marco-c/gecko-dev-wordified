@@ -35492,7 +35492,9 @@ CallState
 :
 Continue
 .
-typedef
+using
+returnType
+=
 decltype
 (
 (
@@ -35509,7 +35511,6 @@ aArgs
 .
 )
 )
-returnType
 ;
 state
 =

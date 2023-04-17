@@ -53079,12 +53079,13 @@ it
 class
 BulkAppender
 {
-typedef
+using
+size_type
+=
 typename
 nsAString
 :
 :
-size_type
 size_type
 ;
 public

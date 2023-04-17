@@ -487,14 +487,15 @@ nsINamed
 {
 protected
 :
-typedef
+using
+Document
+=
 mozilla
 :
 :
 dom
 :
 :
-Document
 Document
 ;
 private
