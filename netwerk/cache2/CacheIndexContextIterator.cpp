@@ -122,7 +122,7 @@ CacheIndexContextIterator
 :
 AddRecord
 (
-CacheIndexRecordWrapper
+CacheIndexRecord
 *
 aRecord
 )
@@ -158,10 +158,8 @@ AddRecords
 const
 nsTArray
 <
-RefPtr
-<
-CacheIndexRecordWrapper
->
+CacheIndexRecord
+*
 >
 &
 aRecords

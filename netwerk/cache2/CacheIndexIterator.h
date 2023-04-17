@@ -235,7 +235,7 @@ virtual
 void
 AddRecord
 (
-CacheIndexRecordWrapper
+CacheIndexRecord
 *
 aRecord
 )
@@ -243,7 +243,7 @@ aRecord
 bool
 RemoveRecord
 (
-CacheIndexRecordWrapper
+CacheIndexRecord
 *
 aRecord
 )
@@ -251,10 +251,10 @@ aRecord
 bool
 ReplaceRecord
 (
-CacheIndexRecordWrapper
+CacheIndexRecord
 *
 aOldRecord
-CacheIndexRecordWrapper
+CacheIndexRecord
 *
 aNewRecord
 )
@@ -270,10 +270,8 @@ mIndex
 ;
 nsTArray
 <
-RefPtr
-<
-CacheIndexRecordWrapper
->
+CacheIndexRecord
+*
 >
 mRecords
 ;
