@@ -1770,6 +1770,11 @@ callbacks
 =
 nullptr
 ;
+bool
+allowGDI
+=
+true
+;
 explicit
 DrawParams
 (

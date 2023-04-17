@@ -22189,6 +22189,12 @@ params
 thebes
 )
 ;
+params
+.
+allowGDI
+=
+false
+;
 const
 ContextState
 *
