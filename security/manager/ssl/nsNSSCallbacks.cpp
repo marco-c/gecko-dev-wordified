@@ -6585,11 +6585,6 @@ pinning
 telemetry
 &
 certificateTransparencyInfo
-nullptr
-/
-/
-CRLite
-telemetry
 &
 isBuiltCertChainRootBuiltInRoot
 )

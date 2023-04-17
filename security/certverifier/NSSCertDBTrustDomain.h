@@ -915,16 +915,6 @@ nullptr
 optional
 *
 /
-CRLiteLookupResult
-*
-crliteLookupResult
-=
-nullptr
-/
-*
-optional
-*
-/
 const
 char
 *
@@ -1744,10 +1734,6 @@ owning
 PinningTelemetryInfo
 *
 mPinningTelemetryInfo
-;
-CRLiteLookupResult
-*
-mCRLiteLookupResult
 ;
 const
 char
