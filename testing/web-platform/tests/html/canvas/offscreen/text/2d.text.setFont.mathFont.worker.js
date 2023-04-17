@@ -51,7 +51,7 @@ offscreencanvas
 doesn
 '
 t
-crashh
+crash
 with
 Math
 Font
@@ -106,7 +106,7 @@ offscreencanvas
 doesn
 '
 t
-crashh
+crash
 with
 Math
 Font
