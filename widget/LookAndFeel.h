@@ -330,16 +330,6 @@ overlap
 AllowOverlayScrollbarsOverlap
 /
 /
-show
-/
-hide
-scrollbars
-based
-on
-activity
-ShowHideScrollbars
-/
-/
 skip
 navigating
 to
