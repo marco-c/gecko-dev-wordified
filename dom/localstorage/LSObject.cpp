@@ -2254,7 +2254,7 @@ NS_ERROR_FAILURE
 #
 ifdef
 DEBUG
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2297,7 +2297,7 @@ mOrigin
 ;
 #
 else
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2779,7 +2779,7 @@ NS_ERROR_FAILURE
 #
 ifdef
 DEBUG
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2833,7 +2833,7 @@ GetInfoForChrome
 )
 ;
 }
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 quota
 :
@@ -2874,7 +2874,7 @@ mOrigin
 ;
 #
 else
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -2928,7 +2928,7 @@ GetOriginForChrome
 }
 ;
 }
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 quota
 :

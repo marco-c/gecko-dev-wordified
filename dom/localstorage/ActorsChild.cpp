@@ -1017,7 +1017,7 @@ IPC_OK
 )
 ;
 }
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto

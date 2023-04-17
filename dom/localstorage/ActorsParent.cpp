@@ -3169,7 +3169,7 @@ aConnection
 /
 Table
 database
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3232,7 +3232,7 @@ _ns
 /
 Table
 data
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3289,7 +3289,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3321,7 +3321,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3346,7 +3346,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3386,7 +3386,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3422,7 +3422,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3447,7 +3447,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3470,7 +3470,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3506,7 +3506,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3546,7 +3546,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -3698,7 +3698,7 @@ other
 similar
 functions
 .
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -3752,7 +3752,7 @@ of
 '
 auto
 '
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -3930,7 +3930,7 @@ the
 database
 file
 .
-LS_TRY
+QM_TRY
 (
 aDBFile
 .
@@ -3940,7 +3940,7 @@ false
 )
 )
 ;
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -3966,7 +3966,7 @@ rv
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 SetDefaultPragmas
 (
@@ -3996,7 +3996,7 @@ make
 schemaVersion
 const
 .
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 int32_t
 schemaVersion
@@ -4007,7 +4007,7 @@ GetSchemaVersion
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -4055,7 +4055,7 @@ if
 kSQLitePageSizeOverride
 )
 {
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -4094,7 +4094,7 @@ opening
 a
 transaction
 .
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -4176,7 +4176,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-LS_TRY
+QM_TRY
 (
 transaction
 .
@@ -4189,7 +4189,7 @@ if
 newDatabase
 )
 {
-LS_TRY
+QM_TRY
 (
 CreateTables
 (
@@ -4201,7 +4201,7 @@ connection
 ifdef
 DEBUG
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -4226,7 +4226,7 @@ kSQLiteSchemaVersion
 }
 #
 endif
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4257,7 +4257,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -4272,7 +4272,7 @@ aOrigin
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -4348,7 +4348,7 @@ MakeSchemaVersion
 )
 )
 {
-LS_TRY
+QM_TRY
 (
 UpgradeSchemaFrom1_0To2_0
 (
@@ -4370,7 +4370,7 @@ MakeSchemaVersion
 )
 )
 {
-LS_TRY
+QM_TRY
 (
 UpgradeSchemaFrom2_0To3_0
 (
@@ -4392,7 +4392,7 @@ MakeSchemaVersion
 )
 )
 {
-LS_TRY
+QM_TRY
 (
 UpgradeSchemaFrom3_0To4_0
 (
@@ -4429,7 +4429,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 schemaVersion
 MOZ_TO_RESULT_INVOKE
@@ -4449,7 +4449,7 @@ kSQLiteSchemaVersion
 )
 ;
 }
-LS_TRY
+QM_TRY
 (
 transaction
 .
@@ -4481,7 +4481,7 @@ the
 file
 again
 .
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -4499,7 +4499,7 @@ Unused
 <
 exists
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -4532,7 +4532,7 @@ MOZ_ASSERT
 vacuumTime
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4568,7 +4568,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 vacuumTimeStmt
 -
@@ -4583,7 +4583,7 @@ vacuumTime
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 vacuumTimeStmt
 -
@@ -4598,7 +4598,7 @@ fileSize
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 vacuumTimeStmt
 -
@@ -4658,7 +4658,7 @@ _ns
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4670,7 +4670,7 @@ aDatabaseFilePath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -4683,7 +4683,7 @@ Exists
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -4695,7 +4695,7 @@ NS_ERROR_FAILURE
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4717,7 +4717,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -4733,7 +4733,7 @@ databaseFile
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 SetDefaultPragmas
 (
@@ -4775,7 +4775,7 @@ IsEmpty
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 archiveFile
@@ -4785,7 +4785,7 @@ aStoragePath
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 archiveFile
 -
@@ -4833,7 +4833,7 @@ IsEmpty
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4880,7 +4880,7 @@ MOZ_ASSERT
 exists
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -4921,7 +4921,7 @@ mozIStorageConnection
 }
 ;
 }
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -4943,7 +4943,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -5120,7 +5120,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5136,7 +5136,7 @@ aStoragePath
 ifdef
 DEBUG
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -5157,7 +5157,7 @@ exists
 }
 #
 endif
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5171,7 +5171,7 @@ GetPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5198,7 +5198,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -5213,7 +5213,7 @@ path
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -5244,7 +5244,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -5302,7 +5302,7 @@ IsEmpty
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 archiveFile
@@ -5312,7 +5312,7 @@ aBasePath
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 archiveFile
 -
@@ -5399,7 +5399,7 @@ wal
 "
 _ns
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5415,7 +5415,7 @@ journalModeWAL
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5480,7 +5480,7 @@ slowing
 down
 us
 .
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5499,7 +5499,7 @@ _ns
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int32_t
@@ -5528,7 +5528,7 @@ pageSize
 65536
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -5581,7 +5581,7 @@ will
 be
 truncated
 )
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -5605,7 +5605,7 @@ kShadowJournalSizeLimit
 }
 else
 {
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -5664,7 +5664,7 @@ IsEmpty
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5676,7 +5676,7 @@ aBasePath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -5698,7 +5698,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -5745,7 +5745,7 @@ rv
 )
 )
 {
-LS_TRY
+QM_TRY
 (
 shadowFile
 -
@@ -5756,7 +5756,7 @@ false
 )
 )
 ;
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -5782,7 +5782,7 @@ rv
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 SetShadowJournalMode
 (
@@ -6033,7 +6033,7 @@ Ok
 nsresult
 >
 {
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -6043,7 +6043,7 @@ Close
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 shadowFile
 -
@@ -6054,7 +6054,7 @@ false
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 connection
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -6069,7 +6069,7 @@ shadowFile
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 SetShadowJournalMode
 (
@@ -6077,7 +6077,7 @@ connection
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 StorageDBUpdater
 :
@@ -6132,7 +6132,7 @@ IsEmpty
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6144,7 +6144,7 @@ aBasePath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -6157,7 +6157,7 @@ Exists
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -6169,7 +6169,7 @@ NS_ERROR_FAILURE
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6191,7 +6191,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 )
 )
 ;
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE_TYPED
 (
@@ -6237,7 +6237,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6253,7 +6253,7 @@ aBasePath
 ifdef
 DEBUG
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -6274,7 +6274,7 @@ exists
 }
 #
 endif
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6288,7 +6288,7 @@ GetPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6315,7 +6315,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -6330,7 +6330,7 @@ path
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -6361,7 +6361,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -6419,7 +6419,7 @@ IsEmpty
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 usageFile
@@ -6429,7 +6429,7 @@ aDirectoryPath
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 usageFile
 -
@@ -6482,7 +6482,7 @@ IsEmpty
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 usageJournalFile
@@ -6492,7 +6492,7 @@ aDirectoryPath
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 usageJournalFile
 -
@@ -6622,7 +6622,7 @@ NS_ERROR_FILE_NOT_FOUND
 NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
 completely
 .
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6708,7 +6708,7 @@ DoesNotExist
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -6779,7 +6779,7 @@ aUsage
 0
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -6798,7 +6798,7 @@ if
 usageJournalFileExists
 )
 {
-LS_TRY
+QM_TRY
 (
 aUsageJournalFile
 -
@@ -6814,7 +6814,7 @@ NORMAL_FILE_TYPE
 )
 ;
 }
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6837,7 +6837,7 @@ NS_NewObjectOutputStream
 stream
 )
 ;
-LS_TRY
+QM_TRY
 (
 binaryStream
 -
@@ -6848,7 +6848,7 @@ kUsageFileCookie
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 binaryStream
 -
@@ -6859,7 +6859,7 @@ aUsage
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stream
 -
@@ -6889,7 +6889,7 @@ AssertIsOnIOThread
 (
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -6902,7 +6902,7 @@ GetFileSize
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -6917,7 +6917,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 stream
@@ -6928,7 +6928,7 @@ aUsageFile
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -6957,7 +6957,7 @@ NS_NewObjectInputStream
 bufferedStream
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 uint32_t
@@ -6970,7 +6970,7 @@ Read32
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -6985,7 +6985,7 @@ NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 uint64_t
@@ -16448,7 +16448,7 @@ to
 new
 place
 .
-LS_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -16458,7 +16458,7 @@ EnsureStorageIsInitialized
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -16492,7 +16492,7 @@ return
 NS_OK
 ;
 }
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -16545,7 +16545,7 @@ of
 /
 /
 CollectElementsWhileHasResult
-LS_TRY
+QM_TRY
 (
 quota
 :
@@ -16571,7 +16571,7 @@ Ok
 nsresult
 >
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -16586,7 +16586,7 @@ GetUTF8String
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -16614,7 +16614,7 @@ originNoSuffix
 OriginAttributes
 originAttributes
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -16687,7 +16687,7 @@ AssertIsOnIOThread
 (
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -16717,7 +16717,7 @@ if
 aArchivedOriginScope
 )
 {
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 CreateAndExecuteSingleStepStatement
 <
@@ -16781,7 +16781,7 @@ Ok
 nsresult
 >
 {
-LS_TRY
+QM_TRY
 (
 aArchivedOriginScope
 -
@@ -16803,7 +16803,7 @@ Ok
 )
 ;
 }
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 CreateAndExecuteSingleStepStatement
 <
@@ -16830,7 +16830,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -16842,7 +16842,7 @@ NS_ERROR_FAILURE
 )
 )
 ;
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -17589,7 +17589,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -17612,7 +17612,7 @@ Unused
 <
 originAttrSuffix
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -20348,7 +20348,7 @@ if
 mTruncateInfo
 )
 {
-LS_TRY
+QM_TRY
 (
 PerformTruncate
 (
@@ -20419,7 +20419,7 @@ InsertItemInfo
 writeInfo
 )
 ;
-LS_TRY
+QM_TRY
 (
 PerformInsertOrUpdate
 (
@@ -20466,7 +20466,7 @@ DeleteItemInfo
 writeInfo
 )
 ;
-LS_TRY
+QM_TRY
 (
 PerformDelete
 (
@@ -20497,7 +20497,7 @@ type
 ;
 }
 }
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -20534,7 +20534,7 @@ Ok
 nsresult
 >
 {
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -20557,7 +20557,7 @@ Ok
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -20587,7 +20587,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -20599,7 +20599,7 @@ NS_ERROR_FAILURE
 )
 )
 ;
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 MOZ_TO_RESULT_INVOKE
 (
@@ -20641,7 +20641,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -20694,7 +20694,7 @@ Ok
 nsresult
 >
 {
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -20708,7 +20708,7 @@ aKey
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -20722,7 +20722,7 @@ aValue
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -20740,7 +20740,7 @@ UTF16Length
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -20777,7 +20777,7 @@ return
 NS_OK
 ;
 }
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -20852,7 +20852,7 @@ GetArchivedOriginScope
 (
 )
 ;
-LS_TRY
+QM_TRY
 (
 archivedOriginScope
 -
@@ -20864,7 +20864,7 @@ stmt
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -20892,7 +20892,7 @@ OriginNoSuffix
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -20918,7 +20918,7 @@ IsCompressed
 nsCString
 value
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -20934,7 +20934,7 @@ NS_ERROR_FAILURE
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -20951,7 +20951,7 @@ value
 }
 else
 {
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -21005,7 +21005,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -21043,7 +21043,7 @@ Ok
 nsresult
 >
 {
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -21076,7 +21076,7 @@ return
 NS_OK
 ;
 }
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -21132,7 +21132,7 @@ Ok
 nsresult
 >
 {
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -21149,7 +21149,7 @@ stmt
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 .
@@ -21198,7 +21198,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -21225,7 +21225,7 @@ return
 NS_OK
 ;
 }
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -21272,7 +21272,7 @@ Ok
 nsresult
 >
 {
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -22632,7 +22632,7 @@ mDatabaseWasNotAvailable
 mHasCreatedDatabase
 )
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -22650,7 +22650,7 @@ Origin
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -22664,7 +22664,7 @@ LS_DIRECTORY_NAME
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -22675,7 +22675,7 @@ mDirectoryPath
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -22686,7 +22686,7 @@ kDataFileName
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -22700,7 +22700,7 @@ GetPath
 )
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 storageConnection
@@ -22740,7 +22740,7 @@ InitTemporaryOriginHelper
 mOriginMetadata
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -22754,7 +22754,7 @@ BlockAndReturnOriginDirectoryPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -22766,7 +22766,7 @@ originDirectoryPath
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -22780,7 +22780,7 @@ LS_DIRECTORY_NAME
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -22791,7 +22791,7 @@ mDirectoryPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -22810,7 +22810,7 @@ if
 exists
 )
 {
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -22826,7 +22826,7 @@ DIRECTORY_TYPE
 )
 ;
 }
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -22841,7 +22841,7 @@ kDataFileName
 ifdef
 DEBUG
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -22863,7 +22863,7 @@ exists
 }
 #
 endif
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -22956,7 +22956,7 @@ file
 }
 )
 ;
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 storageConnection
 CreateStorageConnection
@@ -23007,7 +23007,7 @@ if
 gInitializedShadowStorage
 )
 {
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 shadowConnection
 CreateShadowStorageConnection
@@ -23100,7 +23100,7 @@ HasStorageConnection
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 ExecuteCachedStatement
 (
@@ -23136,7 +23136,7 @@ HasStorageConnection
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 ExecuteCachedStatement
 (
@@ -23171,7 +23171,7 @@ HasStorageConnection
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23478,7 +23478,7 @@ Wait
 )
 ;
 }
-LS_TRY
+QM_TRY
 (
 mIOThreadResultCode
 )
@@ -23518,7 +23518,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23553,7 +23553,7 @@ first
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -23697,7 +23697,7 @@ autoWriteTransaction
 mShadowWrites
 )
 ;
-LS_TRY
+QM_TRY
 (
 autoWriteTransaction
 .
@@ -23707,7 +23707,7 @@ mConnection
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -23722,7 +23722,7 @@ mShadowWrites
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23739,7 +23739,7 @@ DirectoryPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -23756,7 +23756,7 @@ DirectoryPath
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 UpdateUsageFile
 (
@@ -23766,7 +23766,7 @@ usage
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 autoWriteTransaction
 .
@@ -23775,7 +23775,7 @@ Commit
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 usageJournalFile
 -
@@ -34729,7 +34729,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-LS_TRY
+QM_TRY
 (
 Start
 (
@@ -37117,7 +37117,7 @@ NS_OK
 ;
 }
 }
-LS_TRY
+QM_TRY
 (
 CheckClosingDatastoreInternal
 (
@@ -37185,7 +37185,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-LS_TRY
+QM_TRY
 (
 CheckClosingDatastoreInternal
 (
@@ -37295,7 +37295,7 @@ return
 NS_OK
 ;
 }
-LS_TRY
+QM_TRY
 (
 BeginDatastorePreparationInternal
 (
@@ -37363,7 +37363,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-LS_TRY
+QM_TRY
 (
 BeginDatastorePreparationInternal
 (
@@ -37579,7 +37579,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -37593,7 +37593,7 @@ Get
 NS_ERROR_FAILURE
 )
 ;
-LS_TRY
+QM_TRY
 (
 OpenDirectory
 (
@@ -38102,7 +38102,7 @@ called
 before
 EnsureTemporaryStorageIsInitialized
 .
-LS_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -38129,7 +38129,7 @@ in
 /
 memory
 .
-LS_TRY
+QM_TRY
 (
 quotaManager
 -
@@ -38198,7 +38198,7 @@ if
 gArchivedOrigins
 )
 {
-LS_TRY
+QM_TRY
 (
 LoadArchivedOrigins
 (
@@ -38355,7 +38355,7 @@ would
 fail
 otherwise
 .
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -38389,7 +38389,7 @@ if
 hasDataForMigration
 )
 {
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 quotaManager
 -
@@ -38421,7 +38421,7 @@ first
 )
 ;
 }
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 directoryEntry
@@ -38454,7 +38454,7 @@ directoryEntry
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -38468,7 +38468,7 @@ LS_DIRECTORY_NAME
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -38522,7 +38522,7 @@ Connection
 :
 EnsureStorageConnection
 .
-LS_TRY
+QM_TRY
 (
 EnsureDirectoryEntry
 (
@@ -38542,7 +38542,7 @@ true
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -38553,7 +38553,7 @@ kDataFileName
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 directoryEntry
 -
@@ -38606,7 +38606,7 @@ EnsureStorageConnection
 bool
 alreadyExisted
 ;
-LS_TRY
+QM_TRY
 (
 EnsureDirectoryEntry
 (
@@ -38778,7 +38778,7 @@ GetQuotaObject
 (
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -38790,7 +38790,7 @@ NS_ERROR_FAILURE
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -38802,7 +38802,7 @@ directoryPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -38814,7 +38814,7 @@ directoryPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -38895,7 +38895,7 @@ mUsage
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 VerifyDatabaseInformation
 (
@@ -38916,7 +38916,7 @@ mUsage
 0
 )
 ;
-LS_TRY
+QM_TRY
 (
 AttachArchiveDatabase
 (
@@ -38930,7 +38930,7 @@ connection
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -39011,7 +39011,7 @@ mozIStorageConnection
 TRANSACTION_IMMEDIATE
 )
 ;
-LS_TRY
+QM_TRY
 (
 transaction
 .
@@ -39031,7 +39031,7 @@ CompressFunction
 (
 )
 ;
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -39054,7 +39054,7 @@ CompressibleFunction
 (
 )
 ;
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -39070,7 +39070,7 @@ function
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -39136,7 +39136,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 mArchivedOriginScope
 -
@@ -39147,7 +39147,7 @@ stmt
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -39157,7 +39157,7 @@ Execute
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -39171,7 +39171,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -39187,7 +39187,7 @@ _ns
 ;
 }
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -39215,7 +39215,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -39230,7 +39230,7 @@ newUsage
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -39242,7 +39242,7 @@ Execute
 ;
 }
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -39280,7 +39280,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 mArchivedOriginScope
 -
@@ -39291,7 +39291,7 @@ stmt
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -39302,7 +39302,7 @@ Execute
 )
 ;
 }
-LS_TRY
+QM_TRY
 (
 UpdateUsageFile
 (
@@ -39312,7 +39312,7 @@ newUsage
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 transaction
 .
@@ -39327,7 +39327,7 @@ release
 (
 )
 ;
-LS_TRY
+QM_TRY
 (
 usageJournalFile
 -
@@ -39338,7 +39338,7 @@ false
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 DetachArchiveDatabase
 (
@@ -39387,7 +39387,7 @@ if
 gInitializedShadowStorage
 )
 {
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 shadowConnection
 CreateShadowStorageConnection
@@ -39482,7 +39482,7 @@ NestedState
 :
 BeginLoadData
 ;
-LS_TRY
+QM_TRY
 (
 OwningEventTarget
 (
@@ -39591,7 +39591,7 @@ MOZ_ASSERT
 aEntry
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -39636,7 +39636,7 @@ if
 aIsDirectory
 )
 {
-LS_TRY
+QM_TRY
 (
 aEntry
 -
@@ -39722,7 +39722,7 @@ MOZ_ASSERT
 aConnection
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -39748,7 +39748,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -39757,7 +39757,7 @@ stmt
 NS_ERROR_FILE_CORRUPTED
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -39772,7 +39772,7 @@ GetUTF8String
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -40284,7 +40284,7 @@ NestedState
 :
 AfterNesting
 ;
-LS_TRY
+QM_TRY
 (
 OwningEventTarget
 (
@@ -41732,7 +41732,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -41759,7 +41759,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 quota
 :
@@ -41787,7 +41787,7 @@ Ok
 nsresult
 >
 {
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 key
@@ -41803,7 +41803,7 @@ GetString
 LSValue
 value
 ;
-LS_TRY
+QM_TRY
 (
 value
 .
@@ -42225,7 +42225,7 @@ VALUE_TYPE_TEXT
 }
 #
 endif
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -42243,7 +42243,7 @@ GetUTF8String
 nsCString
 compressed
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -42387,7 +42387,7 @@ VALUE_TYPE_TEXT
 }
 #
 endif
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -42405,7 +42405,7 @@ GetUTF8String
 nsCString
 compressed
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -43372,7 +43372,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-LS_TRY
+QM_TRY
 (
 Start
 (
@@ -44551,7 +44551,7 @@ Origin
 aOrigin
 )
 {
-LS_TRY
+QM_TRY
 (
 mStmt
 -
@@ -44570,7 +44570,7 @@ OriginNoSuffix
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 mStmt
 -
@@ -44604,7 +44604,7 @@ Prefix
 aPrefix
 )
 {
-LS_TRY
+QM_TRY
 (
 mStmt
 -
@@ -44638,7 +44638,7 @@ Pattern
 aPattern
 )
 {
-LS_TRY
+QM_TRY
 (
 mStmt
 -
@@ -44677,7 +44677,7 @@ NS_OK
 }
 }
 ;
-LS_TRY
+QM_TRY
 (
 mData
 .
@@ -45541,7 +45541,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -45564,7 +45564,7 @@ MOZ_ASSERT
 directory
 )
 ;
-LS_TRY
+QM_TRY
 (
 directory
 -
@@ -45582,7 +45582,7 @@ LS_DIRECTORY_NAME
 ifdef
 DEBUG
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -45603,7 +45603,7 @@ exists
 }
 #
 endif
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -45617,7 +45617,7 @@ GetPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -45637,7 +45637,7 @@ to
 make
 usageFileExists
 const
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 bool
 usageFileExists
@@ -45648,7 +45648,7 @@ usageFile
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -45660,7 +45660,7 @@ directoryPath
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -45683,7 +45683,7 @@ if
 usageFileExists
 )
 {
-LS_TRY
+QM_TRY
 (
 usageFile
 -
@@ -45699,7 +45699,7 @@ usageFileExists
 false
 ;
 }
-LS_TRY
+QM_TRY
 (
 usageJournalFile
 -
@@ -45711,7 +45711,7 @@ false
 )
 ;
 }
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -45725,7 +45725,7 @@ kDataFileName
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 bool
@@ -45738,7 +45738,7 @@ file
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 UsageInfo
@@ -45772,7 +45772,7 @@ if
 fileExists
 )
 {
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 QM_OR_ELSE_WARN
 (
@@ -45830,7 +45830,7 @@ UsageInfo
 nsresult
 >
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -45852,7 +45852,7 @@ mOrigin
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 int64_t
@@ -45871,7 +45871,7 @@ nullptr
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 UpdateUsageFile
 (
@@ -45881,7 +45881,7 @@ usage
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 usageJournalFile
 -
@@ -45926,7 +45926,7 @@ if
 usageFileExists
 )
 {
-LS_TRY
+QM_TRY
 (
 usageFile
 -
@@ -45968,7 +45968,7 @@ warn
 #
 ifdef
 DEBUG
-LS_TRY
+QM_TRY
 (
 CollectEachFileAtomicCancelable
 (
@@ -45994,7 +45994,7 @@ Ok
 nsresult
 >
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -46036,7 +46036,7 @@ nsIFileKind
 ExistsAsFile
 :
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -46579,7 +46579,7 @@ shadowWrites
 =
 gShadowWrites
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -46597,7 +46597,7 @@ if
 gArchivedOrigins
 )
 {
-LS_TRY
+QM_TRY
 (
 LoadArchivedOrigins
 (
@@ -46657,7 +46657,7 @@ shadowDatabaseLock
 mShadowDatabaseMutex
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -46686,7 +46686,7 @@ if
 gInitializedShadowStorage
 )
 {
-LS_TRY_RETURN
+QM_TRY_RETURN
 (
 GetShadowStorageConnection
 (
@@ -46695,7 +46695,7 @@ basePath
 )
 ;
 }
-LS_TRY_UNWRAP
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -46723,7 +46723,7 @@ if
 hasDataForRemoval
 )
 {
-LS_TRY
+QM_TRY
 (
 AttachArchiveDatabase
 (
@@ -46766,7 +46766,7 @@ GetPattern
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -46784,7 +46784,7 @@ function
 ;
 }
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -46807,7 +46807,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -46823,7 +46823,7 @@ if
 shadowWrites
 )
 {
-LS_TRY
+QM_TRY
 (
 PerformDelete
 (
@@ -46846,7 +46846,7 @@ if
 hasDataForRemoval
 )
 {
-LS_TRY
+QM_TRY
 (
 PerformDelete
 (
@@ -46865,7 +46865,7 @@ get
 ;
 }
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -46887,7 +46887,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -46908,7 +46908,7 @@ IsPattern
 )
 )
 {
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -46928,7 +46928,7 @@ if
 hasDataForRemoval
 )
 {
-LS_TRY
+QM_TRY
 (
 DetachArchiveDatabase
 (
@@ -46961,7 +46961,7 @@ gArchivedOrigins
 )
 ;
 }
-LS_TRY
+QM_TRY
 (
 connection
 -
@@ -46981,7 +46981,7 @@ IsNull
 )
 )
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -46993,7 +46993,7 @@ basePath
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 shadowFile
 -
@@ -48521,7 +48521,7 @@ IsOrigin
 )
 )
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -48540,7 +48540,7 @@ GetOrigin
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -48577,7 +48577,7 @@ IsPrefix
 )
 )
 {
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -48596,7 +48596,7 @@ GetOriginNoSuffix
 )
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 (
 const
@@ -48702,7 +48702,7 @@ MOZ_ASSERT
 aArchivedOriginScope
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -48744,7 +48744,7 @@ _ns
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 aArchivedOriginScope
 -
@@ -48755,7 +48755,7 @@ stmt
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 stmt
 -
@@ -48801,7 +48801,7 @@ Observer
 (
 )
 ;
-LS_TRY
+QM_TRY
 (
 observer
 -
@@ -49123,7 +49123,7 @@ GetOrCreateForCurrentThread
 (
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -49132,7 +49132,7 @@ backgroundActor
 NS_ERROR_FAILURE
 )
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -49160,7 +49160,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 )
 {
-LS_TRY
+QM_TRY
 (
 Shutdown
 (
@@ -49225,7 +49225,7 @@ MOZ_ASSERT
 aResult
 )
 ;
-LS_TRY_INSPECT
+QM_TRY_INSPECT
 (
 const
 auto
@@ -49243,7 +49243,7 @@ GetUTF8String
 OriginAttributes
 oa
 ;
-LS_TRY
+QM_TRY
 (
 OkIf
 (
@@ -49280,7 +49280,7 @@ nsVariant
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 outVar
 -
@@ -49581,7 +49581,7 @@ if
 mShadowWrites
 )
 {
-LS_TRY
+QM_TRY
 (
 LockAndAttachShadowDatabase
 (
@@ -49590,7 +49590,7 @@ aConnection
 )
 ;
 }
-LS_TRY
+QM_TRY
 (
 aConnection
 -
@@ -49625,7 +49625,7 @@ MOZ_ASSERT
 mConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 mConnection
 -
@@ -49640,7 +49640,7 @@ if
 mShadowWrites
 )
 {
-LS_TRY
+QM_TRY
 (
 DetachShadowDatabaseAndUnlock
 (
@@ -49729,7 +49729,7 @@ ShadowDatabaseMutex
 )
 )
 ;
-LS_TRY
+QM_TRY
 (
 AttachShadowDatabase
 (
@@ -49802,7 +49802,7 @@ MOZ_ASSERT
 storageConnection
 )
 ;
-LS_TRY
+QM_TRY
 (
 DetachShadowDatabase
 (
