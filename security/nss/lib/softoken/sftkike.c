@@ -8776,12 +8776,6 @@ ike_known_sha256_prf_plus
 )
 )
 {
-PORT_ZFree
-(
-outKeyData
-outKeySize
-)
-;
 PORT_SetError
 (
 SEC_ERROR_LIBRARY_FAILURE
