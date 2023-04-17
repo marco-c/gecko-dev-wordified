@@ -792,14 +792,14 @@ IsOnCurrentThread
 )
 )
 ;
-Unused
-<
-<
+MOZ_ALWAYS_TRUE
+(
 mScheduledDelayedRunnables
 .
 RemoveElement
 (
 aRunnable
+)
 )
 ;
 }
