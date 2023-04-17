@@ -9886,10 +9886,6 @@ intersection
 self
 .
 active_pic_clip_rect
-.
-to_box2d
-(
-)
 )
 ?
 ;
@@ -9918,10 +9914,6 @@ to_rect
 pic_clip_rect
 :
 pic_clip_rect
-.
-to_rect
-(
-)
 pic_spatial_node_index
 :
 prim_to_pic_mapper
@@ -14826,10 +14818,6 @@ PictureRect
 max_rect
 (
 )
-.
-to_box2d
-(
-)
 spatial_tree
 )
 ;
@@ -14856,10 +14844,6 @@ to_box2d
 current_pic_clip_rect
 =
 pic_clip_rect
-.
-to_rect
-(
-)
 .
 intersection
 (
