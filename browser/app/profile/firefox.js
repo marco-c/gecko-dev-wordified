@@ -18254,9 +18254,9 @@ discoverystream
 .
 personalization
 .
-version
+enabled
 "
-2
+true
 )
 ;
 /
@@ -18266,8 +18266,6 @@ keys
 used
 by
 personalization
-version
-2
 .
 pref
 (
