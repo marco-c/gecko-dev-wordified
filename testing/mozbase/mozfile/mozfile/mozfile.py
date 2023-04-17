@@ -2869,22 +2869,8 @@ path
 "
 "
     
-try
-:
-        
 from
 shutil
-import
-which
-as
-shutil_which
-    
-except
-ImportError
-:
-        
-from
-shutil_which
 import
 which
 as
