@@ -480,17 +480,6 @@ override
 final
 -
 (
-NSValue
-*
-)
-accessibilityFrame
-;
-/
-/
-override
-final
--
-(
 BOOL
 )
 isAccessibilityElement

@@ -1034,16 +1034,6 @@ moxSelected
 override
 -
 (
-NSValue
-*
-)
-moxFrame
-;
-/
-/
-override
--
-(
 NSString
 *
 )
