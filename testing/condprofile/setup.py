@@ -136,11 +136,15 @@ True
 data_files
 =
 [
+        
 (
+            
 "
 condprof
 "
+            
 [
+                
 "
 condprof
 /
@@ -150,8 +154,21 @@ default
 .
 json
 "
+                
+"
+condprof
+/
+customization
+/
+youtube
+.
+json
+"
+            
 ]
+        
 )
+    
 ]
     
 zip_safe
