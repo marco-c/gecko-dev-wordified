@@ -20,6 +20,9 @@ std
 fmt
 ;
 use
+crate
+:
+:
 hir
 :
 :
@@ -32,6 +35,9 @@ Visitor
 }
 ;
 use
+crate
+:
+:
 hir
 :
 :
@@ -42,6 +48,9 @@ HirKind
 }
 ;
 use
+crate
+:
+:
 is_meta_character
 ;
 /
@@ -1930,6 +1939,9 @@ super
 Printer
 ;
 use
+crate
+:
+:
 ParserBuilder
 ;
 fn
