@@ -133,6 +133,11 @@ TestHttpAuthUtils
 cpp
 "
 "
+TestHttpChannel
+.
+cpp
+"
+"
 TestHttpResponseHead
 .
 cpp
