@@ -131,6 +131,15 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EditorUtils
 .
 h
@@ -150,15 +159,6 @@ include
 mozilla
 /
 Result
-.
-h
-"
-#
-include
-"
-mozilla
-/
-TextEditor
 .
 h
 "
@@ -482,7 +482,7 @@ HTMLEditor
 final
 :
 public
-TextEditor
+EditorBase
 public
 nsIHTMLEditor
 public
@@ -740,7 +740,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLEditor
-TextEditor
+EditorBase
 )
 /
 /
@@ -874,7 +874,7 @@ GetReturnInParagraphCreatesNewParagraph
 ;
 /
 /
-TextEditor
+EditorBase
 overrides
 MOZ_CAN_RUN_SCRIPT
 virtual
@@ -1263,7 +1263,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+HTMLEditor
 :
 :
 PasteAsAction
@@ -22589,8 +22589,6 @@ cell
 *
 or
 calls
-into
-nsTextEditor
 to
 set
 the
@@ -29218,10 +29216,6 @@ SlurpBlobEventListener
 friend
 class
 SplitNodeTransaction
-;
-friend
-class
-TextEditor
 ;
 friend
 class

@@ -12194,7 +12194,7 @@ MOZ_ASSERT
 (
 mPlaceholderBatch
 "
-TextEditor
+HTMLEditor
 :
 :
 InsertFromDataTransfer

@@ -55310,7 +55310,7 @@ it
 calls
 /
 /
-TextEditor
+EditorBase
 :
 :
 MaybeCreatePaddingBRElementForEmptyEditor
