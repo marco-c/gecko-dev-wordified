@@ -410,7 +410,7 @@ wasm
 :
 Module
 .
-void
+bool
 CompileTier2
 (
 const
@@ -425,6 +425,12 @@ const
 Module
 &
 module
+UniqueChars
+*
+error
+UniqueCharsVector
+*
+warnings
 Atomic
 <
 bool
