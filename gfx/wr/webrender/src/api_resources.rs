@@ -625,8 +625,6 @@ img
 visible_rect
 .
 size
-(
-)
 img
 .
 descriptor
@@ -1370,8 +1368,6 @@ blob_size
 visible_rect
 .
 size
-(
-)
 ;
 if
 let
@@ -1721,10 +1717,6 @@ template
 .
 tile_size
 tile
-)
-.
-to_rect
-(
 )
 .
 cast_unit
