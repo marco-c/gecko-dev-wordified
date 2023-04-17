@@ -19170,6 +19170,16 @@ initSelfHosting
 JSContext
 *
 cx
+JS
+:
+:
+SelfHostedCache
+xdrCache
+JS
+:
+:
+SelfHostedWriter
+xdrWriter
 )
 {
 MOZ_ASSERT
@@ -19363,9 +19373,9 @@ cx
 ;
 if
 (
-selfHostedXDR
+xdrCache
 .
-length
+Length
 (
 )
 >
@@ -19438,7 +19448,7 @@ input
 get
 (
 )
-selfHostedXDR
+xdrCache
 &
 decodeOk
 )
@@ -19668,7 +19678,7 @@ XDR
 .
 if
 (
-selfHostedXDRWriter
+xdrWriter
 )
 {
 JS
@@ -19702,7 +19712,7 @@ false
 if
 (
 !
-selfHostedXDRWriter
+xdrWriter
 (
 cx
 xdrBuffer
