@@ -274,12 +274,6 @@ byte_count
 0
 ;
 let
-mut
-capacity
-=
-0
-;
-let
 buffer
 =
 ffi
@@ -298,9 +292,6 @@ input
 &
 mut
 byte_count
-&
-mut
-capacity
 )
 ;
 if
@@ -326,7 +317,11 @@ from_raw_parts
 (
 buffer
 byte_count
-capacity
+as
+usize
+byte_count
+as
+usize
 )
 }
 }

@@ -700,12 +700,7 @@ out_count
 :
 &
 mut
-usize
-out_capacity
-:
-&
-mut
-usize
+u32
 )
 -
 >
