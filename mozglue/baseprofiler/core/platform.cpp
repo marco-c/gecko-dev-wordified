@@ -1414,6 +1414,9 @@ args
 )
 ;
 }
+namespace
+detail
+{
 /
 /
 Statically
@@ -1448,6 +1451,11 @@ profiler
 int
 scProfilerMainThreadId
 ;
+}
+/
+/
+namespace
+detail
 constexpr
 static
 bool
@@ -18959,6 +18967,9 @@ profiler_init
 "
 )
 ;
+detail
+:
+:
 scProfilerMainThreadId
 =
 profiler_current_thread_id
