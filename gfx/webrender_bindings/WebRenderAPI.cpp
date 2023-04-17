@@ -651,6 +651,13 @@ BeginReading
 return
 ;
 }
+compositor
+-
+>
+MakeCurrent
+(
+)
+;
 *
 mBackend
 =
