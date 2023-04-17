@@ -4064,7 +4064,7 @@ network
 .
 trr
 .
-uri
+default_provider_uri
 "
 )
 ;
@@ -4077,7 +4077,7 @@ network
 .
 trr
 .
-uri
+default_provider_uri
 "
 https
 :
@@ -4192,7 +4192,7 @@ network
 .
 trr
 .
-uri
+default_provider_uri
 "
 defaultURI
 )
@@ -4382,7 +4382,7 @@ network
 .
 trr
 .
-uri
+default_provider_uri
 "
 https
 :
@@ -4562,7 +4562,7 @@ network
 .
 trr
 .
-uri
+default_provider_uri
 "
 defaultURI
 )
@@ -4615,7 +4615,7 @@ network
 .
 trr
 .
-uri
+default_provider_uri
 "
 )
 ;
@@ -4627,7 +4627,7 @@ closure
 expectedURI
 expectChange
 =
-false
+true
 )
 {
 let
@@ -4708,7 +4708,7 @@ network
 .
 trr
 .
-uri
+default_provider_uri
 "
 https
 :
@@ -5332,7 +5332,7 @@ network
 .
 trr
 .
-uri
+default_provider_uri
 "
 defaultURI
 )
