@@ -129,6 +129,13 @@ h
 #
 include
 "
+LookAndFeel
+.
+h
+"
+#
+include
+"
 nsITheme
 .
 h
@@ -2523,6 +2530,13 @@ const
 WidgetInfo
 &
 aWidgetInfo
+mozilla
+:
+:
+LookAndFeel
+:
+:
+ColorScheme
 mozilla
 :
 :
