@@ -800,7 +800,7 @@ skin
 /
 icons
 /
-add
+plus
 .
 svg
 "
