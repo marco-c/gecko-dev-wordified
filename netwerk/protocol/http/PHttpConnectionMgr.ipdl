@@ -230,6 +230,15 @@ bool
 aFetchHTTPSRR
 )
 ;
+async
+StartWebSocketConnection
+(
+PHttpTransaction
+aTransWithStickyConn
+uint32_t
+aListenerId
+)
+;
 }
 ;
 }
