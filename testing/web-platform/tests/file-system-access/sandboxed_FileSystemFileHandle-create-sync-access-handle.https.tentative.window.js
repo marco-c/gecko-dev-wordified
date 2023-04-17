@@ -60,10 +60,6 @@ sync
 access
 -
 handle
--
-dedicated
--
-worker
 .
 js
 /
