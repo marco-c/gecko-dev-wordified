@@ -1281,6 +1281,17 @@ if
 (
 Readerable
 .
+shouldCheckUri
+(
+document
+.
+baseURIObject
+true
+)
+&
+&
+Readerable
+.
 isProbablyReaderable
 (
 document
