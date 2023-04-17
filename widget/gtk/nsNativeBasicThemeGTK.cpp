@@ -275,11 +275,6 @@ ShouldUseSystemColors
 (
 *
 pc
--
->
-Document
-(
-)
 )
 ;
 const
