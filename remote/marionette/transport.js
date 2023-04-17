@@ -1611,6 +1611,7 @@ failed
 .
 *
 /
+async
 close
 (
 reason
@@ -1675,6 +1676,7 @@ this
 hooks
 )
 {
+await
 this
 .
 hooks
