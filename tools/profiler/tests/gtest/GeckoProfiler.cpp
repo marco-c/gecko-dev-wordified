@@ -2214,6 +2214,16 @@ GetJSContext
 nullptr
 )
 ;
+EXPECT_EQ
+(
+aData
+.
+GetJsFrameBuffer
+(
+)
+nullptr
+)
+;
 }
 ;
 static
