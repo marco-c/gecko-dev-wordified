@@ -643,6 +643,9 @@ aspx
 avi
 "
 "
+avif
+"
+"
 bat
 "
 "
