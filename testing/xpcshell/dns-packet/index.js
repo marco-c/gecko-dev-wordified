@@ -9095,6 +9095,12 @@ odoh
 .
 length
 ;
+svcparam
+.
+odoh
+=
+null
+;
 }
 else
 {
