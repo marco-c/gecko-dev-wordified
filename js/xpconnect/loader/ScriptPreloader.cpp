@@ -2367,6 +2367,17 @@ mStartupFinished
 =
 true
 ;
+URLPreloader
+:
+:
+GetSingleton
+(
+)
+.
+SetStartupFinished
+(
+)
+;
 }
 else
 if

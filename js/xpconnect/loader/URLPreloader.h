@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIResProtocolHandler
 .
 h
@@ -365,8 +358,6 @@ URLPreloader
 final
 :
 public
-nsIObserver
-public
 nsIMemoryReporter
 {
 MOZ_DEFINE_MALLOC_SIZE_OF
@@ -382,7 +373,6 @@ default
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSIOBSERVER
 NS_DECL_NSIMEMORYREPORTER
 static
 URLPreloader
@@ -560,6 +550,16 @@ readType
 Forget
 )
 ;
+void
+SetStartupFinished
+(
+)
+{
+mStartupFinished
+=
+true
+;
+}
 private
 :
 struct
