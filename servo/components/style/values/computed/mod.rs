@@ -697,7 +697,6 @@ Gradient
 Image
 LineDirection
 MozImageRect
-ImageRendering
 }
 ;
 pub

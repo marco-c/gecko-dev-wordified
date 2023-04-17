@@ -3155,10 +3155,6 @@ GridAutoFlow
 "
                 
 "
-ImageRendering
-"
-                
-"
 InitialLetter
 "
                 

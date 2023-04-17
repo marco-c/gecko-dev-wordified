@@ -64706,17 +64706,6 @@ crisp
 -
 edges
 "
-"
-crisp
--
-edges
-"
-"
-smooth
-"
-"
-pixelated
-"
 ]
 invalid_values
 :
