@@ -389,7 +389,7 @@ IDispatch
 *
 accNative
 =
-MsaaAccessible
+AccessibleWrap
 :
 :
 NativeAccessible
