@@ -44,6 +44,9 @@ buffers
 .
 Cannot
 fail
+/
+/
+/
 unless
 the
 buffer
@@ -75,6 +78,8 @@ implements
 FromCtx
 ]
 (
+ctx
+/
 trait
 .
 FromCtx
@@ -966,6 +971,9 @@ buffers
 .
 Cannot
 fail
+/
+/
+/
 unless
 the
 buffer
@@ -1006,12 +1014,17 @@ implements
 IntoCtx
 ]
 (
+ctx
+/
 trait
 .
 IntoCtx
 .
 html
 )
+/
+/
+/
 then
 you
 can
