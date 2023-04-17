@@ -169,7 +169,7 @@ waitForAboutDialog
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -350,7 +350,7 @@ waitForAboutDialog
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
