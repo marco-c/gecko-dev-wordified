@@ -969,17 +969,6 @@ RunVsync
 }
 else
 {
-MOZ_ASSERT
-(
-mInputVsyncState
-=
-=
-InputVsyncState
-:
-:
-RunVsync
-)
-;
 mInputVsyncState
 =
 InputVsyncState
