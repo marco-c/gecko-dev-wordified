@@ -4129,6 +4129,12 @@ TotalPlayTime
 const
 ;
 double
+VisiblePlayTime
+(
+)
+const
+;
+double
 InvisiblePlayTime
 (
 )

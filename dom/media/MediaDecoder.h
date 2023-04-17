@@ -4701,6 +4701,12 @@ GetTotalPlayTimeInSeconds
 const
 ;
 double
+GetVisibleVideoPlayTimeInSeconds
+(
+)
+const
+;
+double
 GetInvisibleVideoPlayTimeInSeconds
 (
 )
