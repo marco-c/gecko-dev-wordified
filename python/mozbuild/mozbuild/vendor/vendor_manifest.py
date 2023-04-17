@@ -100,8 +100,6 @@ import
 add_file_to_moz_build_file
     
 remove_file_from_moz_build_file
-    
-MozBuildRewriteException
 )
 DEFAULT_EXCLUDE_FILES
 =
@@ -2194,31 +2192,6 @@ moz_yaml_dir
 =
 None
         
-#
-If
-you
-edit
-this
-(
-especially
-for
-header
-files
-)
-you
-should
-double
-check
-        
-#
-rewrite_mozbuild
-.
-py
-around
-'
-assignment_type
-'
-        
 source_suffixes
 =
 [
@@ -2399,7 +2372,7 @@ vendoring_dir
 )
             
 except
-MozBuildRewriteException
+Exception
 :
                 
 self
@@ -2458,7 +2431,7 @@ vendoring_dir
 )
             
 except
-MozBuildRewriteException
+Exception
 :
                 
 self
