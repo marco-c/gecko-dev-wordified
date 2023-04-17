@@ -244,6 +244,15 @@ browser
 .
 search
 .
+content
+.
+*
+/
+/
+browser
+.
+search
+.
 withads
 .
 *
