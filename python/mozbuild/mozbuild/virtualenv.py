@@ -473,6 +473,12 @@ sys
 .
 stdout
         
+base_python
+=
+sys
+.
+executable
+        
 manifest_path
 =
 None
@@ -604,6 +610,12 @@ self
 topsrcdir
 =
 topsrcdir
+        
+self
+.
+_base_python
+=
+base_python
         
 #
 Record
@@ -894,7 +906,6 @@ def
 write_exe_info
 (
 self
-python
 )
 :
         
@@ -954,7 +965,6 @@ self
 .
 python_executable_hexversion
 (
-python
 )
         
 with
@@ -989,7 +999,6 @@ def
 python_executable_hexversion
 (
 self
-python
 )
 :
         
@@ -1033,7 +1042,9 @@ subprocess
 check_output
 (
 [
-python
+self
+.
+_base_python
 "
 -
 c
@@ -1056,7 +1067,6 @@ def
 up_to_date
 (
 self
-python
 )
 :
         
@@ -1316,12 +1326,13 @@ self
 .
 python_executable_hexversion
 (
-python
 )
         
 if
 (
-python
+self
+.
+_base_python
 !
 =
 self
@@ -1651,11 +1662,6 @@ def
 ensure
 (
 self
-python
-=
-sys
-.
-executable
 )
 :
         
@@ -1725,7 +1731,6 @@ self
 .
 up_to_date
 (
-python
 )
 :
             
@@ -1739,7 +1744,6 @@ self
 .
 build
 (
-python
 )
     
 def
@@ -1852,7 +1856,6 @@ def
 create
 (
 self
-python
 )
 :
         
@@ -1933,7 +1936,9 @@ args
 =
 [
             
-python
+self
+.
+_base_python
             
 self
 .
@@ -2046,7 +2051,6 @@ self
 .
 write_exe_info
 (
-python
 )
         
 self
@@ -2925,7 +2929,6 @@ def
 build
 (
 self
-python
 )
 :
         
@@ -2958,7 +2961,6 @@ self
 .
 create
 (
-python
 )
         
 #
