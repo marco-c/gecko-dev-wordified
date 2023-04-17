@@ -86,7 +86,7 @@ log
 ;
 extern
 crate
-memmap
+memmap2
 ;
 extern
 crate
@@ -191,7 +191,7 @@ MallocSizeOfOps
 }
 ;
 use
-memmap
+memmap2
 :
 :
 Mmap
