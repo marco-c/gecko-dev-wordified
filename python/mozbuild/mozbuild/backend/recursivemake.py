@@ -7321,20 +7321,18 @@ or
                     
 #
 XPI_PKGNAME
-or
-INSTALL_EXTENSION_ID
 can
 '
 t
 be
 skipped
 and
-                    
-#
 must
 run
 during
 the
+                    
+#
 '
 tools
 '
@@ -7347,9 +7345,6 @@ in
 (
 "
 XPI_PKGNAME
-"
-"
-INSTALL_EXTENSION_ID
 "
 "
 tools
