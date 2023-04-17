@@ -147,6 +147,12 @@ qr
 "
     
 "
+shippable
+-
+lite
+"
+    
+"
 devedition
 "
     
@@ -364,6 +370,7 @@ platform
 "
 ]
 )
+        
 in
 (
 "
@@ -373,6 +380,11 @@ shippable
 shippable
 -
 qr
+"
+"
+shippable
+-
+lite
 "
 )
     
