@@ -213,9 +213,6 @@ http
 ssl
 "
 "
-ftp
-"
-"
 socks
 "
 ]
