@@ -188,8 +188,7 @@ const
 )
 )
 /
-unexpected
-initializer
+unrecognized
 opcode
 /
 )
