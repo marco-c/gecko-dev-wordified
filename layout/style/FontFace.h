@@ -324,6 +324,8 @@ float
 aDescentOverride
 float
 aLineGapOverride
+float
+aSizeAdjust
 )
 :
 gfxUserFontEntry
@@ -342,6 +344,7 @@ aRangeFlags
 aAscentOverride
 aDescentOverride
 aLineGapOverride
+aSizeAdjust
 )
 {
 }

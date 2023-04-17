@@ -598,6 +598,8 @@ float
 aDescentOverride
 float
 aLineGapOverride
+float
+aSizeAdjust
 )
 override
 ;

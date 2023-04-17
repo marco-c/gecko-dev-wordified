@@ -1784,6 +1784,8 @@ float
 aDescentOverride
 float
 aLineGapOverride
+float
+aSizeAdjust
 )
 =
 0
@@ -1874,6 +1876,8 @@ float
 aDescentOverride
 float
 aLineGapOverride
+float
+aSizeAdjust
 )
 ;
 /
@@ -3523,6 +3527,8 @@ float
 aDescentOverride
 float
 aLineGapOverride
+float
+aSizeAdjust
 )
 ;
 /
@@ -3743,6 +3749,8 @@ float
 aDescentOverride
 float
 aLineGapOverride
+float
+aSizeAdjust
 )
 ;
 virtual
@@ -3825,6 +3833,8 @@ float
 aDescentOverride
 float
 aLineGapOverride
+float
+aSizeAdjust
 )
 ;
 /
@@ -3893,6 +3903,8 @@ float
 aDescentOverride
 float
 aLineGapOverride
+float
+aSizeAdjust
 )
 ;
 gfxFont
