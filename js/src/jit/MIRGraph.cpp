@@ -5283,7 +5283,7 @@ entry
 resume
 point
 should
-exists
+exist
 .
 MOZ_ASSERT
 (
@@ -5294,7 +5294,7 @@ rp
 /
 Flag
 all
-operand
+operands
 as
 being
 potentially
@@ -5338,7 +5338,7 @@ i
 )
 -
 >
-setUseRemovedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;

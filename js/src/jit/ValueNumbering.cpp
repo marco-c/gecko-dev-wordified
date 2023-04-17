@@ -1072,7 +1072,7 @@ the
 extra
 setting
 of
-UseRemoved
+ImplicitlyUsed
 flags
 that
 the
@@ -1934,8 +1934,8 @@ handleUseReleased
 MDefinition
 *
 def
-UseRemovedOption
-useRemovedOption
+ImplicitUseOption
+implicitUseOption
 )
 {
 if
@@ -1973,16 +1973,16 @@ else
 {
 if
 (
-useRemovedOption
+implicitUseOption
 =
 =
-SetUseRemoved
+SetImplicitUse
 )
 {
 def
 -
 >
-setUseRemovedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -2178,7 +2178,7 @@ i
 We
 set
 the
-UseRemoved
+ImplicitlyUsed
 flag
 when
 removing
@@ -2220,7 +2220,7 @@ if
 handleUseReleased
 (
 op
-SetUseRemoved
+SetImplicitUse
 )
 )
 {
@@ -2336,7 +2336,7 @@ if
 handleUseReleased
 (
 op
-DontSetUseRemoved
+DontSetImplicitUse
 )
 )
 {
@@ -2436,7 +2436,7 @@ if
 handleUseReleased
 (
 op
-DontSetUseRemoved
+DontSetImplicitUse
 )
 )
 {
@@ -3585,7 +3585,7 @@ if
 handleUseReleased
 (
 op
-DontSetUseRemoved
+DontSetImplicitUse
 )
 |
 |
