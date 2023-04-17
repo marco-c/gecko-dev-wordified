@@ -677,8 +677,7 @@ responsible
 for
 removing
 the
-file
-info
+FileInfo
 from
 the
 /

@@ -288,13 +288,13 @@ used
 to
 atomically
 update
-FileInfo
+DatabaseFileInfo
 .
 mRefCnt
 and
 /
 /
-FileInfo
+DatabaseFileInfo
 .
 mDBRefCnt
 static

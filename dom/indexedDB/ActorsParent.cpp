@@ -211,6 +211,13 @@ h
 #
 include
 "
+DatabaseFileInfoFwd
+.
+h
+"
+#
+include
+"
 DBSchema
 .
 h
@@ -219,13 +226,6 @@ h
 include
 "
 ErrorList
-.
-h
-"
-#
-include
-"
-FileInfoFwd
 .
 h
 "
@@ -8445,7 +8445,7 @@ final
 {
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 mFileInfo
 ;
@@ -8462,7 +8462,7 @@ FileInfoEntry
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -8555,7 +8555,7 @@ mSavepointDelta
 }
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 ReleaseFileInfo
 (
@@ -12585,7 +12585,7 @@ nsTHashMap
 nsIDHashKey
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 >
 mMappedBlobs
@@ -13166,7 +13166,7 @@ IPCBlob
 aIPCBlob
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -13377,14 +13377,14 @@ nodiscard
 ]
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 GetBlob
 (
 const
 IPCBlob
 &
-aID
+aIPCBlob
 )
 ;
 void
@@ -13868,7 +13868,7 @@ to
 their
 corresponding
 *
-FileInfo
+DatabaseFileInfo
 in
 our
 owning
@@ -13879,8 +13879,8 @@ in
 avoiding
 redundant
 IPC
-traffic
 *
+traffic
 and
 disk
 storage
@@ -14024,15 +14024,15 @@ inputStream
 actor
 ID
 to
-FileInfo
+DatabaseFileInfo
 mapping
 .
 However
 when
 getting
 an
-actor
 *
+actor
 in
 the
 child
@@ -14048,8 +14048,8 @@ created
 Blob
 to
 the
-parent
 *
+parent
 process
 there
 is
@@ -14061,8 +14061,8 @@ Blob
 machinery
 to
 automatically
-establish
 *
+establish
 and
 reuse
 a
@@ -14273,7 +14273,7 @@ mBlobImpl
 const
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 mFileInfo
 ;
@@ -14294,7 +14294,7 @@ DatabaseFile
 )
 ;
 const
-FileInfo
+DatabaseFileInfo
 &
 GetFileInfo
 (
@@ -14312,7 +14312,7 @@ mFileInfo
 }
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 GetFileInfoPtr
 (
@@ -14515,7 +14515,7 @@ DatabaseFile
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -14563,7 +14563,7 @@ BlobImpl
 aBlobImpl
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -16431,7 +16431,7 @@ mDatabase
 const
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 mFileInfo
 ;
@@ -16459,7 +16459,7 @@ Database
 aDatabase
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -16483,7 +16483,7 @@ mDatabase
 }
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 GetFileInfoPtr
 (
@@ -16556,7 +16556,7 @@ Database
 aDatabase
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -18719,7 +18719,7 @@ LazyInitializedOnce
 const
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 >
 mFileInfo
@@ -19766,7 +19766,7 @@ NotNull
 <
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 >
 >
@@ -19840,7 +19840,7 @@ StoredFileInfo
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -19849,7 +19849,7 @@ StoredFileInfo
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 RefPtr
@@ -19863,7 +19863,7 @@ StoredFileInfo
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 nsCOMPtr
@@ -19959,7 +19959,7 @@ CreateForMutableFile
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -19970,7 +19970,7 @@ CreateForBlob
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 RefPtr
@@ -19986,7 +19986,7 @@ CreateForStructuredClone
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 nsCOMPtr
@@ -20049,7 +20049,7 @@ mFileInfo
 ;
 }
 const
-FileInfo
+DatabaseFileInfo
 &
 GetFileInfo
 (
@@ -20625,7 +20625,7 @@ StoredFileInfo
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -20689,7 +20689,7 @@ StoredFileInfo
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 RefPtr
@@ -20762,7 +20762,7 @@ StoredFileInfo
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 nsCOMPtr
@@ -20839,7 +20839,7 @@ CreateForMutableFile
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -20871,7 +20871,7 @@ CreateForBlob
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 RefPtr
@@ -20914,7 +20914,7 @@ CreateForStructuredClone
 (
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 nsCOMPtr
@@ -28810,7 +28810,7 @@ nsIFile
 GetFile
 (
 const
-FileInfo
+DatabaseFileInfo
 &
 aFileInfo
 )
@@ -28827,7 +28827,7 @@ nsIFile
 GetJournalFile
 (
 const
-FileInfo
+DatabaseFileInfo
 &
 aFileInfo
 )
@@ -29173,7 +29173,7 @@ nsIFile
 &
 aNativeFile
 const
-FileInfo
+DatabaseFileInfo
 :
 :
 IdType
@@ -29424,7 +29424,7 @@ nsIFile
 &
 aNativeFile
 const
-FileInfo
+DatabaseFileInfo
 :
 :
 IdType
@@ -35326,7 +35326,7 @@ fileManager
 const
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 fileInfo
 =
@@ -41047,18 +41047,18 @@ Clear
 ;
 /
 /
-FileInfo
+DatabaseFileInfo
 implementation
 automatically
 removes
 unreferenced
 files
+/
+/
 but
 it
 '
 s
-/
-/
 done
 asynchronously
 and
@@ -41073,9 +41073,9 @@ remove
 them
 (
 and
+/
+/
 decrease
-/
-/
 quota
 usage
 )
@@ -41125,7 +41125,7 @@ aSyncDeleteFile
 =
 true
 .
-FileInfo
+DatabaseFileInfo
 *
 const
 fileInfo
@@ -52394,7 +52394,7 @@ IPCBlob
 aIPCBlob
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -52708,7 +52708,7 @@ mActorDestroyed
 }
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 Database
 :
@@ -53602,7 +53602,7 @@ AssertIsOnBackgroundThread
 ;
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 fileInfo
 =
@@ -66515,9 +66515,9 @@ which
 will
 keep
 the
-FileInfo
 /
 /
+DatabaseFileInfo
 object
 alive
 .
@@ -66535,7 +66535,7 @@ InsertOrUpdate
 id
 MakeNotNull
 <
-FileInfo
+DatabaseFileInfo
 *
 >
 (
@@ -81357,7 +81357,7 @@ Database
 aDatabase
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -81454,7 +81454,7 @@ Database
 aDatabase
 SafeRefPtr
 <
-FileInfo
+DatabaseFileInfo
 >
 aFileInfo
 )
@@ -107616,7 +107616,7 @@ IDB_REPORT_INTERNAL_ERR_LAMBDA
 ;
 }
 const
-FileInfo
+DatabaseFileInfo
 &
 fileInfo
 =
@@ -118726,7 +118726,7 @@ FileHelper
 GetFile
 (
 const
-FileInfo
+DatabaseFileInfo
 &
 aFileInfo
 )
@@ -118769,7 +118769,7 @@ FileHelper
 GetJournalFile
 (
 const
-FileInfo
+DatabaseFileInfo
 &
 aFileInfo
 )
