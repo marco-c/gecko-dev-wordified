@@ -11388,15 +11388,15 @@ HTMLFormElement
 IsLastActiveElement
 (
 const
-nsIFormControl
+nsGenericHTMLFormElement
 *
-aControl
+aElement
 )
 const
 {
 MOZ_ASSERT
 (
-aControl
+aElement
 "
 Unexpected
 call
@@ -11452,7 +11452,7 @@ return
 element
 =
 =
-aControl
+aElement
 ;
 }
 }
