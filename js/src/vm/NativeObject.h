@@ -6691,9 +6691,9 @@ HandleNativeObject
 obj
 HandleId
 id
-GetterOp
+HandleObject
 getter
-SetterOp
+HandleObject
 setter
 unsigned
 attrs
@@ -6791,9 +6791,9 @@ HandleNativeObject
 obj
 HandleId
 id
-GetterOp
+HandleObject
 getter
-SetterOp
+HandleObject
 setter
 unsigned
 attrs
@@ -6832,9 +6832,9 @@ HandleShape
 shape
 unsigned
 attrs
-GetterOp
+HandleObject
 getter
-SetterOp
+HandleObject
 setter
 )
 ;
@@ -6965,9 +6965,9 @@ HandleNativeObject
 obj
 HandleId
 id
-GetterOp
+HandleObject
 getter
-SetterOp
+HandleObject
 setter
 unsigned
 attrs

@@ -9313,7 +9313,7 @@ asAccessorShape
 (
 )
 .
-getterObj
+getter_
 "
 getter
 "
@@ -9335,7 +9335,7 @@ asAccessorShape
 (
 )
 .
-setterObj
+setter_
 "
 setter
 "
