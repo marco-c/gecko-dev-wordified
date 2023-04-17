@@ -8568,11 +8568,6 @@ handIdx
 ]
 )
 {
-bool
-bNewController
-=
-false
-;
 /
 /
 Touch
@@ -8660,10 +8655,6 @@ VRControllerType
 :
 :
 OculusTouch
-;
-bNewController
-=
-true
 ;
 }
 }
