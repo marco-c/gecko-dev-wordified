@@ -7687,6 +7687,12 @@ StaticPrefs
 gfx_font_rendering_fallback_async
 (
 )
+&
+&
+!
+XRE_IsParentProcess
+(
+)
 )
 {
 /
