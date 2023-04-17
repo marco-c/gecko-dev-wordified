@@ -1889,6 +1889,11 @@ BackgroundAppUpdate
 "
 BackgroundAppUpdate2
 "
+WindowsSSO
+:
+"
+Windows10SSO
+"
 }
 ;
 for

@@ -10969,7 +10969,7 @@ Exceptions
 ;
 }
 }
-Windows10SSO
+WindowsSSO
 :
 {
 onBeforeAddons
@@ -10985,7 +10985,7 @@ network
 .
 http
 .
-windows10
+windows
 -
 sso
 .
