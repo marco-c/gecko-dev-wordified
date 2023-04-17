@@ -774,6 +774,16 @@ ldap
 +
 ssl
         
+989
+#
+ftps
+-
+data
+        
+999
+#
+ftps
+        
 993
 #
 ldap

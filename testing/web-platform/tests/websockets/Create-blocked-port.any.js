@@ -365,6 +365,16 @@ conn
 ldap
 +
 ssl
+989
+/
+/
+ftps
+-
+data
+990
+/
+/
+ftps
 993
 /
 /
