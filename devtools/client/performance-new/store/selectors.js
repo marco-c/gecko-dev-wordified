@@ -174,9 +174,9 @@ perf
 "
 )
 .
-SetRecordingPreferences
+SetRecordingSettings
 }
-SetRecordingPreferences
+SetRecordingSettings
 *
 typedef
 {
@@ -1059,13 +1059,13 @@ type
 {
 Selector
 <
-SetRecordingPreferences
+SetRecordingSettings
 >
 }
 *
 /
 const
-getSetRecordingPreferencesFn
+getSetRecordingSettingsFn
 =
 state
 =
@@ -1075,7 +1075,7 @@ getInitializedValues
 state
 )
 .
-setRecordingPreferences
+setRecordingSettings
 ;
 /
 *
@@ -1208,7 +1208,7 @@ getRecordingSettings
 getInitializedValues
 getPerfFront
 getReceiveProfileFn
-getSetRecordingPreferencesFn
+getSetRecordingSettingsFn
 getPageContext
 getSymbolTableGetter
 getPromptEnvRestart

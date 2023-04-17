@@ -1179,7 +1179,7 @@ void
 ;
 export
 type
-SetRecordingPreferences
+SetRecordingSettings
 =
 (
 settings
@@ -1502,9 +1502,9 @@ the
 recording
 settings
 .
-setRecordingPreferences
+setRecordingSettings
 :
-SetRecordingPreferences
+SetRecordingSettings
 ;
 /
 /
@@ -1819,9 +1819,9 @@ receiveProfile
 :
 ReceiveProfile
 ;
-setRecordingPreferences
+setRecordingSettings
 :
-SetRecordingPreferences
+SetRecordingSettings
 ;
 presets
 :
@@ -1903,9 +1903,9 @@ receiveProfile
 :
 ReceiveProfile
 ;
-setRecordingPreferences
+setRecordingSettings
 :
-SetRecordingPreferences
+SetRecordingSettings
 ;
 presets
 :
@@ -1915,7 +1915,7 @@ pageContext
 :
 PageContext
 ;
-recordingPreferences
+recordingSettings
 :
 RecordingStateFromPreferences
 ;

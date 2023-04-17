@@ -559,11 +559,11 @@ action
 )
 ;
 const
-setRecordingPreferences
+setRecordingSettings
 =
 selectors
 .
-getSetRecordingPreferencesFn
+getSetRecordingSettingsFn
 (
 getState
 (
@@ -582,7 +582,7 @@ getState
 )
 )
 ;
-setRecordingPreferences
+setRecordingSettings
 (
 translatePreferencesFromState
 (
@@ -1068,7 +1068,7 @@ values
 {
 const
 {
-recordingPreferences
+recordingSettings
 .
 .
 .
@@ -1092,7 +1092,7 @@ recordingSettingsFromPreferences
 :
 translatePreferencesToState
 (
-recordingPreferences
+recordingSettings
 )
 }
 ;

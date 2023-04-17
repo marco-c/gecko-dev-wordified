@@ -140,7 +140,7 @@ browser
 ;
 const
 {
-getRecordingPreferences
+getRecordingSettings
 }
 =
 setupBackgroundJsm
@@ -150,7 +150,7 @@ setupBackgroundJsm
 const
 preferences
 =
-getRecordingPreferences
+getRecordingSettings
 (
 "
 aboutprofiling
@@ -399,8 +399,8 @@ values
 ;
 const
 {
-getRecordingPreferences
-setRecordingPreferences
+getRecordingSettings
+setRecordingSettings
 changePreset
 }
 =
@@ -434,7 +434,7 @@ Assert
 .
 ok
 (
-getRecordingPreferences
+getRecordingSettings
 (
 "
 aboutprofiling
@@ -464,7 +464,7 @@ initially
 const
 settings
 =
-getRecordingPreferences
+getRecordingSettings
 (
 "
 aboutprofiling
@@ -505,7 +505,7 @@ UNKNOWN_FEATURE_FOR_TESTS
 "
 )
 ;
-setRecordingPreferences
+setRecordingSettings
 (
 "
 aboutprofiling
@@ -518,7 +518,7 @@ Assert
 ok
 (
 !
-getRecordingPreferences
+getRecordingSettings
 (
 "
 aboutprofiling
@@ -549,7 +549,7 @@ Assert
 ok
 (
 !
-getRecordingPreferences
+getRecordingSettings
 (
 "
 aboutprofiling

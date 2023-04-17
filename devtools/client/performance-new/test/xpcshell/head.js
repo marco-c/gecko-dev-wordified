@@ -105,7 +105,7 @@ test
 .
 const
 {
-revertRecordingPreferences
+revertRecordingSettings
 }
 =
 ChromeUtils
@@ -135,7 +135,7 @@ js
 "
 )
 ;
-revertRecordingPreferences
+revertRecordingSettings
 (
 )
 ;

@@ -1029,11 +1029,11 @@ receiveProfile
 action
 .
 receiveProfile
-setRecordingPreferences
+setRecordingSettings
 :
 action
 .
-setRecordingPreferences
+setRecordingSettings
 presets
 :
 action
