@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 flags
 =
 require
@@ -3987,7 +3977,7 @@ this
 keyPromise
 |
 |
-promise
+Promise
 .
 resolve
 (
