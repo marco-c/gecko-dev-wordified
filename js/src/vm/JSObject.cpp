@@ -24087,6 +24087,12 @@ JS
 ClassInfo
 *
 info
+JS
+:
+:
+RuntimeSizes
+*
+runtimeSizes
 )
 {
 if
@@ -24581,6 +24587,7 @@ addSizeOfExcludingThis
 this
 mallocSizeOf
 info
+runtimeSizes
 )
 ;
 }
@@ -24603,6 +24610,7 @@ addSizeOfExcludingThis
 this
 mallocSizeOf
 info
+runtimeSizes
 )
 ;
 }
@@ -24950,6 +24958,7 @@ addSizeOfExcludingThis
 mallocSizeOf
 &
 info
+nullptr
 )
 ;
 return

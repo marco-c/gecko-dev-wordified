@@ -2585,6 +2585,11 @@ rtStats
 mallocSizeOf_
 &
 info
+&
+rtStats
+-
+>
+runtime
 )
 ;
 /

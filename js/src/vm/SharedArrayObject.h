@@ -1605,6 +1605,12 @@ JS
 ClassInfo
 *
 info
+JS
+:
+:
+RuntimeSizes
+*
+runtimeSizes
 )
 ;
 static
