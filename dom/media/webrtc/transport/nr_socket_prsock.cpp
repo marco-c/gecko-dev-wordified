@@ -2277,6 +2277,7 @@ static
 int
 nr_transport_addr_to_praddr
 (
+const
 nr_transport_addr
 *
 addr
@@ -2695,6 +2696,7 @@ static
 int
 nr_transport_addr_to_netaddr
 (
+const
 nr_transport_addr
 *
 addr
@@ -3137,6 +3139,7 @@ number
 int
 nr_transport_addr_get_addrstring_and_port
 (
+const
 nr_transport_addr
 *
 addr
@@ -4802,6 +4805,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -5201,6 +5205,7 @@ NrSocket
 :
 connect
 (
+const
 nr_transport_addr
 *
 addr
@@ -7586,6 +7591,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -8105,6 +8111,7 @@ NrUdpSocketIpc
 :
 connect
 (
+const
 nr_transport_addr
 *
 addr
@@ -9127,6 +9134,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -9194,7 +9202,8 @@ nr_socket_local_connect
 (
 void
 *
-sock
+obj
+const
 nr_transport_addr
 *
 addr
@@ -9692,6 +9701,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 addr
@@ -9968,6 +9978,7 @@ nr_socket_local_connect
 void
 *
 obj
+const
 nr_transport_addr
 *
 addr

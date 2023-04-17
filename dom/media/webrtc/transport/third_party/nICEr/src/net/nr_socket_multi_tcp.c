@@ -628,6 +628,7 @@ nr_tcp_socket_ctx_initialize
 nr_tcp_socket_ctx
 *
 tcpsock
+const
 nr_transport_addr
 *
 addr
@@ -803,6 +804,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -859,6 +861,7 @@ nr_socket_multi_tcp_connect
 void
 *
 sock
+const
 nr_transport_addr
 *
 addr
@@ -1905,6 +1908,7 @@ nr_socket_multi_tcp_get_sock_connected_to
 nr_socket_multi_tcp
 *
 sock
+const
 nr_transport_addr
 *
 to
@@ -1927,13 +1931,6 @@ tcp_sock_ctx
 nr_socket
 *
 nrsock
-;
-to
--
->
-protocol
-=
-IPPROTO_TCP
 ;
 TAILQ_FOREACH
 (
@@ -2449,6 +2446,7 @@ nr_socket_multi_tcp_stun_server_connect
 nr_socket
 *
 sock
+const
 nr_transport_addr
 *
 addr
@@ -2752,6 +2750,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -3259,6 +3258,7 @@ nr_socket_multi_tcp_connect
 void
 *
 obj
+const
 nr_transport_addr
 *
 addr

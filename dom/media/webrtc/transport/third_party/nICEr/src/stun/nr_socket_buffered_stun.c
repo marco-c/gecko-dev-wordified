@@ -459,6 +459,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -527,6 +528,7 @@ nr_socket_buffered_stun_connect
 void
 *
 sock
+const
 nr_transport_addr
 *
 addr
@@ -1209,6 +1211,7 @@ size_t
 len
 int
 flags
+const
 nr_transport_addr
 *
 to
@@ -2462,6 +2465,7 @@ nr_socket_buffered_stun_connect
 void
 *
 obj
+const
 nr_transport_addr
 *
 addr
