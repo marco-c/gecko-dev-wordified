@@ -441,7 +441,7 @@ h
 JS
 :
 :
-SetPrivate
+SetObjectISupports
 #
 include
 "
@@ -2771,7 +2771,7 @@ streamObj
 JS
 :
 :
-SetPrivate
+SetObjectISupports
 (
 streamObj
 nullptr

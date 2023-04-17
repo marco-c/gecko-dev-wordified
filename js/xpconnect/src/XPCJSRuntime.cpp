@@ -1687,12 +1687,8 @@ MOZ_ASSERT
 clasp
 -
 >
-flags
-&
+slot0IsISupports
 (
-JSCLASS_PRIVATE_IS_NSISUPPORTS
-|
-JSCLASS_HAS_PRIVATE
 )
 |
 |
