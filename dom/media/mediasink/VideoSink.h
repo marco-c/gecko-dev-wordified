@@ -321,6 +321,16 @@ aVolume
 override
 ;
 void
+SetStreamName
+(
+const
+nsAString
+&
+aStreamName
+)
+override
+;
+void
 SetPreservesPitch
 (
 bool

@@ -1500,6 +1500,15 @@ double
 aVolume
 )
 ;
+void
+SetStreamName
+(
+const
+nsAString
+&
+aStreamName
+)
+;
 /
 /
 Start
