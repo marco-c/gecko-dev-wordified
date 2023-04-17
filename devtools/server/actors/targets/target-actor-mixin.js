@@ -611,6 +611,7 @@ function
 "
 )
 {
+await
 this
 .
 attach
