@@ -1246,6 +1246,16 @@ JSObject
 *
 )
 ;
+static
+bool
+IsCallerChromeOrErrorPage
+(
+JSContext
+*
+JSObject
+*
+)
+;
 /
 /
 The
