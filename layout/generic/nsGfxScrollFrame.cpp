@@ -11658,16 +11658,6 @@ or
 overlay
 scrollbars
 .
-That
-'
-s
-why
-/
-/
-we
-use
-ScrollbarNonDisappearing
-.
 nsIFrame
 *
 box
