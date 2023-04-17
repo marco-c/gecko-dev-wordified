@@ -1576,6 +1576,8 @@ double
 aIntervalMilliseconds
 bool
 aStackWalkEnabled
+bool
+aNoTimerResolutionChange
 )
 :
 mSampler
