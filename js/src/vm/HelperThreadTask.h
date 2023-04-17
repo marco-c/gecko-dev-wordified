@@ -208,7 +208,7 @@ const
 ThreadType
 threadType
 =
-THREAD_TYPE_WASM_TIER2
+THREAD_TYPE_WASM_GENERATOR_TIER2
 ;
 }
 ;
