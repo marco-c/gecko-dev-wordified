@@ -560,7 +560,7 @@ popBool
 (
 )
 ;
-nsresult
+void
 pushResultHandler
 (
 txAXMLEventHandler
