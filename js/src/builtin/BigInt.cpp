@@ -120,13 +120,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 gc
 /
 Tracer

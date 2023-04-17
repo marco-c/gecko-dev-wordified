@@ -164,13 +164,6 @@ is_same
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h

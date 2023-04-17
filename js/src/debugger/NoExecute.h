@@ -144,13 +144,6 @@ MOZ_RAII
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h

@@ -156,13 +156,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h

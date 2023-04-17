@@ -117,13 +117,6 @@ vm_SelfHosting_h_
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h

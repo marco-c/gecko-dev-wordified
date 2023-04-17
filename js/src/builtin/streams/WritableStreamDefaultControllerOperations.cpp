@@ -145,16 +145,6 @@ MOZ_ASSERT
 #
 include
 "
-jsapi
-.
-h
-"
-/
-/
-JS_ReportErrorASCII
-#
-include
-"
 builtin
 /
 streams

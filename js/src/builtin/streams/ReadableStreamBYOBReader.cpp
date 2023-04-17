@@ -164,16 +164,6 @@ pass
 #
 include
 "
-jsapi
-.
-h
-"
-/
-/
-JS_ReportErrorNumberASCII
-#
-include
-"
 builtin
 /
 streams

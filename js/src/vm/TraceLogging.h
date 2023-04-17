@@ -158,14 +158,9 @@ utility
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
-jsfriendapi
+js
+/
+AllocPolicy
 .
 h
 "
@@ -174,7 +169,7 @@ include
 "
 js
 /
-AllocPolicy
+ErrorReport
 .
 h
 "

@@ -117,13 +117,6 @@ dbg_Source_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h

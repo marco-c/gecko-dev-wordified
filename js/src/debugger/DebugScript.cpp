@@ -178,13 +178,6 @@ move
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 debugger
 /
 DebugAPI
