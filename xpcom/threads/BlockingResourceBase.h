@@ -1633,6 +1633,10 @@ GetStackTrace
 AcquisitionState
 &
 aState
+const
+void
+*
+aFirstFramePC
 )
 ;
 #
