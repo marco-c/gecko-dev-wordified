@@ -177,7 +177,7 @@ actor
 "
 server0
 .
-conn0
+conn3
 .
 netEvent4
 "
@@ -506,9 +506,9 @@ actor
 "
 server0
 .
-conn0
+conn3
 .
-netEvent5
+netEvent4
 "
 "
 startedDateTime
@@ -835,9 +835,9 @@ actor
 "
 server0
 .
-conn0
+conn3
 .
-netEvent21
+netEvent20
 "
 "
 startedDateTime
@@ -1165,7 +1165,7 @@ actor
 "
 server0
 .
-conn0
+conn3
 .
 netEvent20
 "
@@ -1477,7 +1477,7 @@ actor
 "
 server0
 .
-conn0
+conn3
 .
 netEvent36
 "
@@ -1807,7 +1807,7 @@ actor
 "
 server0
 .
-conn0
+conn3
 .
 netEvent36
 "
