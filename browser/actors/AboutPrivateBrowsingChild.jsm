@@ -336,7 +336,7 @@ NimbusFeatures
 .
 privatebrowsing
 .
-getValue
+getAllVariables
 (
 {
 sendExposureEvent
