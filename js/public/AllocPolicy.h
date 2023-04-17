@@ -723,6 +723,7 @@ ones
 *
 /
 class
+JS_PUBLIC_API
 TempAllocPolicy
 :
 public
@@ -754,7 +755,6 @@ bloat
 .
 *
 /
-JS_PUBLIC_API
 void
 *
 onOutOfMemory
@@ -1150,7 +1150,6 @@ p
 )
 ;
 }
-JS_PUBLIC_API
 void
 reportAllocOverflow
 (
