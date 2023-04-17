@@ -10758,12 +10758,6 @@ mContentParent
 >
 RemoveKeepAlive
 (
-mTarget
--
->
-BrowserId
-(
-)
 )
 ;
 mContentParent
@@ -11851,9 +11845,6 @@ mContentParent
 >
 AddKeepAlive
 (
-BrowserId
-(
-)
 )
 ;
 change
@@ -12071,14 +12062,6 @@ aGroup
 finalGroup
 /
 *
-aBrowserId
-*
-/
-BrowserId
-(
-)
-/
-*
 aPriority
 =
 *
@@ -12167,9 +12150,6 @@ mContentParent
 >
 AddKeepAlive
 (
-BrowserId
-(
-)
 )
 ;
 if
