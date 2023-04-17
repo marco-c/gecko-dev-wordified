@@ -925,8 +925,6 @@ browser
 .
 proton
 .
-infobars
-.
 enabled
 "
 )
@@ -1147,8 +1145,6 @@ get_pref
 browser
 .
 proton
-.
-infobars
 .
 enabled
 "

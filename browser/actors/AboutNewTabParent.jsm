@@ -204,14 +204,12 @@ defineLazyPreferenceGetter
 (
 this
 "
-PROTON_INFOBARS_ENABLED
+PROTON_ENABLED
 "
 "
 browser
 .
 proton
-.
-infobars
 .
 enabled
 "
@@ -838,7 +836,7 @@ png
 const
 priority
 =
-PROTON_INFOBARS_ENABLED
+PROTON_ENABLED
 ?
 win
 .
