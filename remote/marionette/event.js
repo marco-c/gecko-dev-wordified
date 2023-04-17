@@ -126,9 +126,11 @@ chrome
 :
 /
 /
-marionette
+remote
 /
 content
+/
+marionette
 /
 appinfo
 .
@@ -141,9 +143,11 @@ chrome
 :
 /
 /
-marionette
+remote
 /
 content
+/
+marionette
 /
 element
 .

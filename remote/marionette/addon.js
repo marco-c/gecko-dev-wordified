@@ -137,9 +137,11 @@ chrome
 :
 /
 /
-marionette
+remote
 /
 content
+/
+marionette
 /
 error
 .

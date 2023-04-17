@@ -127,9 +127,11 @@ chrome
 :
 /
 /
-marionette
+remote
 /
 content
+/
+marionette
 /
 test
 .

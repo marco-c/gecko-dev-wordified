@@ -71,9 +71,11 @@ chrome
 :
 /
 /
-marionette
+remote
 /
 content
+/
+marionette
 /
 format
 .

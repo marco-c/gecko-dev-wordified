@@ -130,9 +130,11 @@ chrome
 :
 /
 /
-marionette
+remote
 /
 content
+/
+marionette
 /
 sync
 .

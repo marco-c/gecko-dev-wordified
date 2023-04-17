@@ -110,19 +110,23 @@ self
 .
 open_chrome_window
 (
+            
 "
 chrome
 :
 /
 /
-marionette
+remote
 /
 content
+/
+marionette
 /
 test2
 .
 xhtml
 "
+        
 )
         
 self
