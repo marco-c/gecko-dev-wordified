@@ -1306,7 +1306,7 @@ this
 JS
 :
 :
-DecodeMultiOffThreadScripts
+DecodeMultiOffThreadStencils
 checks
 some
 options

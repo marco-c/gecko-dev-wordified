@@ -7374,7 +7374,7 @@ in
 JS
 :
 :
-DecodeMultiOffThreadScripts
+DecodeMultiOffThreadStencils
 .
 /
 /
@@ -7918,7 +7918,7 @@ Also
 JS
 :
 :
-DecodeMultiOffThreadScripts
+DecodeMultiOffThreadStencils
 uses
 single
 CompileOptions

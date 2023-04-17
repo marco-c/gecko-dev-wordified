@@ -616,7 +616,7 @@ scripts
 {
 cache
 .
-NoteScript
+NoteStencil
 (
 script
 .
