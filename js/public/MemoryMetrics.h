@@ -1103,6 +1103,13 @@ MACRO
 (
 Objects
 MallocHeap
+objectsMallocHeapGlobalData
+)
+\
+MACRO
+(
+Objects
+MallocHeap
 objectsMallocHeapMisc
 )
 \

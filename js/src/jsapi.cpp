@@ -11585,6 +11585,14 @@ traceGlobal
 trc
 )
 ;
+globalObj
+-
+>
+traceData
+(
+trc
+)
+;
 if
 (
 JSTraceOp

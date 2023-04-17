@@ -354,6 +354,9 @@ class
 GlobalObject
 ;
 class
+GlobalObjectData
+;
+class
 GlobalLexicalEnvironmentObject
 ;
 class
