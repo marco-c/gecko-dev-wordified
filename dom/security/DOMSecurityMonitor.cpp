@@ -355,6 +355,10 @@ GetCurrentJSContext
 if
 (
 !
+cx
+|
+|
+!
 nsJSUtils
 :
 :
