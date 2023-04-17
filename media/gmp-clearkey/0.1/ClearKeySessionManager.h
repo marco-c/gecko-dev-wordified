@@ -191,6 +191,13 @@ string
 #
 include
 "
+content_decryption_module
+.
+h
+"
+#
+include
+"
 ClearKeyDecryptionManager
 .
 h
@@ -220,13 +227,6 @@ h
 include
 "
 RefCounted
-.
-h
-"
-#
-include
-"
-content_decryption_module
 .
 h
 "

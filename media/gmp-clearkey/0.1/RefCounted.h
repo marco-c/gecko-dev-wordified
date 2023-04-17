@@ -136,6 +136,13 @@ __RefCount_h__
 #
 include
 <
+assert
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
@@ -143,9 +150,7 @@ h
 #
 include
 <
-assert
-.
-h
+atomic
 >
 #
 include
@@ -154,11 +159,6 @@ ClearKeyUtils
 .
 h
 "
-#
-include
-<
-atomic
->
 /
 /
 Note
