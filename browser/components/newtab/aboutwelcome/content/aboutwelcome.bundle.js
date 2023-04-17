@@ -10493,11 +10493,6 @@ handleAction
 null
 !
 isWelcomeScreen
-&
-&
-total
->
-1
 ?
 /
 *
