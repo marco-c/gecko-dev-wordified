@@ -2448,6 +2448,10 @@ js
 class
 AsyncGeneratorObject
 ;
+enum
+class
+CompletionKind
+;
 extern
 const
 JSClass

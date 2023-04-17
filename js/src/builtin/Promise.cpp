@@ -283,6 +283,15 @@ include
 "
 vm
 /
+CompletionKind
+.
+h
+"
+#
+include
+"
+vm
+/
 ErrorObject
 .
 h
