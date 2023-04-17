@@ -263,6 +263,14 @@ rv
 return
 rv
         
+rv
+=
+rv
+.
+strip
+(
+)
+        
 if
 rv
 [
