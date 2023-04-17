@@ -6465,6 +6465,8 @@ GLContextEGL
 FindVisual
 (
 bool
+aUseWebRender
+bool
 useAlpha
 int
 *
@@ -6537,12 +6539,7 @@ egl
 &
 config
 bpp
-/
-*
-aEnableDepthBuffer
-*
-/
-false
+aUseWebRender
 /
 *
 aUseGles
