@@ -285,13 +285,14 @@ identical
 to
 the
 *
-LayerMetrics
+WebRenderScrollDataWrapper
 tree
 (
 see
 documentation
 in
-LayerMetricsWrapper
+*
+WebRenderScrollDataWrapper
 .
 h
 )
