@@ -4200,14 +4200,6 @@ extern
 UniqueChars
 ToString
 (
-RefType
-type
-)
-;
-extern
-UniqueChars
-ToString
-(
 ValType
 type
 )
