@@ -6995,12 +6995,6 @@ if
 InterruptStackDepth
 (
 )
-&
-&
-!
-AwaitingIncomingMessage
-(
-)
 )
 {
 /
