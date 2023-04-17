@@ -592,7 +592,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 "
 127
@@ -1059,7 +1059,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 )
 ;
@@ -3012,7 +3012,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 )
 ;
@@ -3049,7 +3049,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 "
 127
@@ -9835,7 +9835,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 "
 127
@@ -10039,7 +10039,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 )
 ;
@@ -10270,7 +10270,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 )
 ;
@@ -10527,7 +10527,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 )
 ;

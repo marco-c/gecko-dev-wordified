@@ -167,7 +167,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 "
 127

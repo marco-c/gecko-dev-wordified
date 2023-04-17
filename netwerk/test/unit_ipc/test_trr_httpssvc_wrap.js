@@ -180,7 +180,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 "
 127
@@ -644,7 +644,7 @@ network
 .
 trr
 .
-bootstrapAddress
+bootstrapAddr
 "
 )
 ;
