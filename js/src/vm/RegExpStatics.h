@@ -166,9 +166,6 @@ class
 GlobalObject
 ;
 class
-RegExpStaticsObject
-;
-class
 RegExpStatics
 {
 /
@@ -315,8 +312,10 @@ clear
 ;
 }
 static
-RegExpStaticsObject
-*
+UniquePtr
+<
+RegExpStatics
+>
 create
 (
 JSContext
