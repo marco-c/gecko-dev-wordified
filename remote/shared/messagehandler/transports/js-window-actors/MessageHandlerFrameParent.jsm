@@ -100,7 +100,7 @@ defineLazyModuleGetters
 (
 this
 {
-MessageHandlerRegistry
+RootMessageHandlerRegistry
 :
 "
 chrome
@@ -115,7 +115,7 @@ shared
 /
 messagehandler
 /
-MessageHandlerRegistry
+RootMessageHandlerRegistry
 .
 jsm
 "
@@ -191,9 +191,9 @@ data
 const
 messageHandler
 =
-MessageHandlerRegistry
+RootMessageHandlerRegistry
 .
-getRootMessageHandler
+getExistingMessageHandler
 (
 sessionId
 )

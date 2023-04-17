@@ -594,7 +594,7 @@ this
 .
 _messageHandler
 .
-key
+name
 }
 ]
 ;

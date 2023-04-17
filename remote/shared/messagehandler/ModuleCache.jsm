@@ -1120,7 +1120,7 @@ this
 .
 messageHandler
 .
-key
+name
 }
 ]
 ;
