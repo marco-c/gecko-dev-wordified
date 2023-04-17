@@ -7939,6 +7939,9 @@ ICState
 Mode
 mode_
 ;
+bool
+isFirstStub_
+;
 IRGenerator
 (
 const
@@ -8056,6 +8059,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 )
 ;
 const
@@ -8635,6 +8640,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 CacheKind
 cacheKind
 HandleValue
@@ -8726,6 +8733,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleObject
 env
 HandlePropertyName
@@ -8806,6 +8815,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleObject
 env
 HandlePropertyName
@@ -9201,6 +9212,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 lhsVal
 HandleValue
@@ -9441,6 +9454,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 CacheKind
 cacheKind
 HandleValue
@@ -9511,6 +9526,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 CacheKind
 cacheKind
 HandleValue
@@ -9561,6 +9578,7 @@ ICState
 :
 :
 Mode
+bool
 HandleValue
 HandleObject
 )
@@ -9621,6 +9639,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 value
 )
@@ -9667,6 +9687,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 value
 )
@@ -9724,6 +9746,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 value
 )
@@ -9772,9 +9796,6 @@ private
 :
 JSOp
 op_
-;
-bool
-isFirstStub_
 ;
 uint32_t
 argc_
@@ -10813,6 +10834,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 JSOp
 op
 HandleValue
@@ -10898,6 +10921,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 val
 )
@@ -10943,6 +10968,8 @@ ICState
 :
 :
 Mode
+bool
+isFirstStub
 HandleValue
 val
 )
@@ -11025,6 +11052,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 JSOp
 op
 HandleValue
@@ -11095,6 +11124,8 @@ ICState
 :
 Mode
 mode
+bool
+isFirstStub
 HandleValue
 val
 )
@@ -11194,6 +11225,8 @@ ICState
 :
 :
 Mode
+bool
+isFirstStub
 JSOp
 op
 HandleValue
@@ -11253,6 +11286,8 @@ ICState
 :
 :
 Mode
+bool
+isFirstStub
 JSOp
 op
 HandleObject
