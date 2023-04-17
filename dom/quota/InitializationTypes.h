@@ -472,7 +472,7 @@ aRv
 ;
 }
 void
-ResetInitializationAttempts
+ResetFirstInitializationAttempts
 (
 )
 {

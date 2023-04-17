@@ -33972,7 +33972,7 @@ false
 }
 mInitializationInfo
 .
-ResetInitializationAttempts
+ResetFirstInitializationAttempts
 (
 )
 ;
