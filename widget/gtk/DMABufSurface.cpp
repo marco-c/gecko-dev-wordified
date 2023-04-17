@@ -5440,7 +5440,7 @@ size
 d
 x
 %
-d
+x
 format
 %
 x
