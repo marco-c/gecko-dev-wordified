@@ -15678,7 +15678,7 @@ newCursor
 GetCursorForImage
 (
 aCursor
-GdkScaleFactor
+GdkCeiledScaleFactor
 (
 )
 )
