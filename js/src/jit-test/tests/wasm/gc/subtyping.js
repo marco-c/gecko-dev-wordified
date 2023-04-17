@@ -16,8 +16,8 @@ wasmGcEnabled
 function
 assertSubtype
 (
-a
-b
+superType
+subType
 types
 )
 {
@@ -72,7 +72,7 @@ block
 (
 param
 {
-b
+subType
 }
 )
 (
@@ -80,7 +80,7 @@ block
 (
 param
 {
-a
+superType
 }
 )
 drop
@@ -94,8 +94,8 @@ drop
 function
 assertNotSubtype
 (
-a
-b
+superType
+subType
 types
 )
 {
@@ -108,8 +108,8 @@ assertErrorMessage
 {
 assertSubtype
 (
-a
-b
+superType
+subType
 types
 )
 ;
