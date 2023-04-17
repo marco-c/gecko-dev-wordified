@@ -3178,6 +3178,13 @@ MozForceBrokenImageIcon
 "
                 
 "
+text
+:
+:
+MozControlCharacterVisibility
+"
+                
+"
 MozListReversed
 "
                 

@@ -6143,8 +6143,8 @@ NS_STYLE_TEXT_COMBINE_UPRIGHT_
 mozilla
 :
 :
-StyleControlCharacterVisibility
-mControlCharacterVisibility
+StyleMozControlCharacterVisibility
+mMozControlCharacterVisibility
 ;
 uint8_t
 mTextEmphasisPosition
