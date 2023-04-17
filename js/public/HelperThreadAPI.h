@@ -190,6 +190,8 @@ HelperThreadTaskCallback
 callback
 size_t
 threadCount
+size_t
+stackSize
 )
 ;
 /
