@@ -10628,14 +10628,14 @@ ALL_BITS
 /
 *
 *
-TouchpadPinchPhase
+TouchpadGesturePhase
 states
 for
 SynthesizeNativeTouchPadPinch
 .
 Match
 *
-Phase
+phase
 states
 in
 nsIDOMWindowUtils
@@ -10645,7 +10645,7 @@ idl
 *
 /
 enum
-TouchpadPinchPhase
+TouchpadGesturePhase
 {
 PHASE_BEGIN
 =
@@ -10828,7 +10828,7 @@ virtual
 nsresult
 SynthesizeNativeTouchPadPinch
 (
-TouchpadPinchPhase
+TouchpadGesturePhase
 aEventPhase
 float
 aScale

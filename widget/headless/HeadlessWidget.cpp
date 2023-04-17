@@ -3029,7 +3029,7 @@ HeadlessWidget
 :
 SynthesizeNativeTouchPadPinch
 (
-TouchpadPinchPhase
+TouchpadGesturePhase
 aEventPhase
 float
 aScale

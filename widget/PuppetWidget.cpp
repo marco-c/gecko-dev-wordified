@@ -3091,7 +3091,7 @@ PuppetWidget
 :
 SynthesizeNativeTouchPadPinch
 (
-TouchpadPinchPhase
+TouchpadGesturePhase
 aEventPhase
 float
 aScale

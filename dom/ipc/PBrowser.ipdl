@@ -984,7 +984,7 @@ using
 nsIWidget
 :
 :
-TouchpadPinchPhase
+TouchpadGesturePhase
 from
 "
 nsIWidget
@@ -3387,7 +3387,7 @@ aObserverId
 async
 SynthesizeNativeTouchPadPinch
 (
-TouchpadPinchPhase
+TouchpadGesturePhase
 aEventPhase
 float
 aScale

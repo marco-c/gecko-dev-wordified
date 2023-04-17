@@ -2929,7 +2929,7 @@ IPCResult
 RecvSynthesizeNativeTouchPadPinch
 (
 const
-TouchpadPinchPhase
+TouchpadGesturePhase
 &
 aEventPhase
 const
