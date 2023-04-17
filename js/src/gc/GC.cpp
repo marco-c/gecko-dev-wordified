@@ -1948,13 +1948,6 @@ endif
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h
