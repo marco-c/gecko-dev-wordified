@@ -278,13 +278,6 @@ h
 #
 include
 "
-URIUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

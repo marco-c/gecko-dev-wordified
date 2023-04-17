@@ -1097,6 +1097,10 @@ PR_GetPhysicalMemorySize
 #
 include
 "
+mozilla
+/
+ipc
+/
 SharedMemoryBasic
 .
 h

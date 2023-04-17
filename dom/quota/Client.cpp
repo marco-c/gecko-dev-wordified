@@ -128,6 +128,10 @@ includes
 #
 include
 "
+mozilla
+/
+ipc
+/
 BackgroundParent
 .
 h

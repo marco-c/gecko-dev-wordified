@@ -158,6 +158,10 @@ endif
 #
 include
 "
+mozilla
+/
+ipc
+/
 ProcessUtils
 .
 h

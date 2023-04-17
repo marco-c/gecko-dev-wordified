@@ -317,6 +317,8 @@ MOZ_COUNT_DTOR
 #
 include
 "
+ipc
+/
 IPCMessageUtils
 .
 h

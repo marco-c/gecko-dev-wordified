@@ -123,6 +123,10 @@ mozilla_layers_AsyncPanZoomController_h
 #
 include
 "
+mozilla
+/
+ipc
+/
 CrossProcessMutex
 .
 h

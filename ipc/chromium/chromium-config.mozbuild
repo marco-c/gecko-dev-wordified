@@ -106,12 +106,6 @@ chromium
 /
 src
 '
-'
-/
-ipc
-/
-glue
-'
 ]
 if
 CONFIG

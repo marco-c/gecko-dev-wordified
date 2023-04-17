@@ -163,6 +163,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 ProcessUtils
 .
 h
@@ -366,6 +370,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 URIUtils
 .
 h

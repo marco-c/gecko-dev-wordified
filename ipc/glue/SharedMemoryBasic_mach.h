@@ -141,6 +141,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 SharedMemory
 .
 h
@@ -171,6 +175,10 @@ FUZZING
 #
 include
 "
+mozilla
+/
+ipc
+/
 SharedMemoryFuzzer
 .
 h

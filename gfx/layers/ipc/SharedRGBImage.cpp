@@ -139,6 +139,10 @@ etc
 #
 include
 "
+mozilla
+/
+ipc
+/
 Shmem
 .
 h

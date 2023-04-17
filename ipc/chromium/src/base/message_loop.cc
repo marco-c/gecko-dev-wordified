@@ -296,6 +296,10 @@ endif
 #
 include
 "
+mozilla
+/
+ipc
+/
 MessagePump
 .
 h

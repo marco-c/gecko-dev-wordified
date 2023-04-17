@@ -108,6 +108,8 @@ LOG
 #
 include
 "
+ipc
+/
 IPCMessageUtils
 .
 h

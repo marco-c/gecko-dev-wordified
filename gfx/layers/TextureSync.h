@@ -150,6 +150,10 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
 SharedMemory
 .
 h
