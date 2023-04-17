@@ -9000,8 +9000,8 @@ crv
 CKR_OK
 )
 {
-return
-crv
+goto
+loser
 ;
 }
 crv
@@ -14494,8 +14494,8 @@ crv
 CKR_OK
 )
 {
-return
-crv
+goto
+loser
 ;
 }
 inTransaction
