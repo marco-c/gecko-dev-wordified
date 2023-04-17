@@ -12113,6 +12113,7 @@ BLAKE2BContext
 *
 BLAKE2B_NewContext
 (
+void
 )
 ;
 /
