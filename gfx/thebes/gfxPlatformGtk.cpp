@@ -2718,6 +2718,9 @@ strcmp
 GFX_PREF_MAX_GENERIC_SUBSTITUTIONS
 aPref
 )
+!
+=
+0
 )
 {
 gfxPlatform
@@ -3265,6 +3268,9 @@ gamma
 (
 100
 +
+(
+float
+)
 retProperty
 [
 0x17
@@ -4691,6 +4697,9 @@ sGLXLibrary
 fWaitVideoSync
 (
 2
+(
+int
+)
 nextSync
 %
 2
@@ -4799,6 +4808,9 @@ PlatformThread
 :
 Sleep
 (
+(
+int
+)
 remaining
 )
 ;
