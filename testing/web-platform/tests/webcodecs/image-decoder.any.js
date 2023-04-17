@@ -1680,7 +1680,7 @@ promise_rejects_dom
 (
 t
 '
-EncodingError
+IndexSizeError
 '
 decoder
 .
@@ -1708,7 +1708,7 @@ promise_rejects_dom
 (
 t
 '
-EncodingError
+IndexSizeError
 '
 p1
 )
