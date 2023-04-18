@@ -1391,6 +1391,9 @@ nsIAuthModule
 >
 module
 ;
+#
+ifdef
+MOZ_AUTH_EXTENSION
 /
 /
 Check
@@ -1888,6 +1891,8 @@ identityInvalid
 true
 ;
 }
+#
+endif
 /
 /
 If

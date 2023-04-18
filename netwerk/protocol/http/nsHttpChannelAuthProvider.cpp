@@ -313,12 +313,17 @@ nsHttpDigestAuth
 h
 "
 #
+ifdef
+MOZ_AUTH_EXTENSION
+#
 include
 "
 nsHttpNegotiateAuth
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -7547,6 +7552,9 @@ nsIHttpAuthenticator
 >
 authenticator
 ;
+#
+ifdef
+MOZ_AUTH_EXTENSION
 if
 (
 authType
@@ -7570,6 +7578,8 @@ GetOrCreate
 ;
 }
 else
+#
+endif
 if
 (
 authType

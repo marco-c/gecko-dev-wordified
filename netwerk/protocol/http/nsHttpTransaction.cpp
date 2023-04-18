@@ -265,12 +265,17 @@ nsHttpNTLMAuth
 h
 "
 #
+ifdef
+MOZ_AUTH_EXTENSION
+#
 include
 "
 nsHttpNegotiateAuth
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -17751,6 +17756,9 @@ negotiate
 )
 )
 {
+#
+ifdef
+MOZ_AUTH_EXTENSION
 authenticator
 =
 new
@@ -17758,6 +17766,8 @@ nsHttpNegotiateAuth
 (
 )
 ;
+#
+endif
 }
 else
 if
