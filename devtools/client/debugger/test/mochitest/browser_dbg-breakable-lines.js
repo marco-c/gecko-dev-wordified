@@ -207,7 +207,7 @@ sourcemap
 replaces
 the
 content
-or
+of
 the
 original
 file
@@ -230,7 +230,7 @@ comment
 All
 the
 appended
-line
+lines
 are
 empty
 lines
@@ -442,6 +442,17 @@ the
 second
 orignal
 file
+"
+)
+;
+await
+waitForSource
+(
+dbg
+"
+original
+.
+js
 "
 )
 ;
