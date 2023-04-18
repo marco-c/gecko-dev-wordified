@@ -576,17 +576,6 @@ mozilla
 /
 dom
 /
-WorkerScope
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 JSExecutionManager
 .
 h
@@ -21591,7 +21580,7 @@ WorkerPrivate
 AddChildWorker
 (
 WorkerPrivate
-&
+*
 aChildWorker
 )
 {
@@ -21644,7 +21633,6 @@ mChildWorkers
 .
 Contains
 (
-&
 aChildWorker
 )
 "
@@ -21664,7 +21652,6 @@ mChildWorkers
 .
 AppendElement
 (
-&
 aChildWorker
 )
 ;
@@ -21696,7 +21683,7 @@ WorkerPrivate
 RemoveChildWorker
 (
 WorkerPrivate
-&
+*
 aChildWorker
 )
 {
@@ -21718,7 +21705,6 @@ mChildWorkers
 .
 Contains
 (
-&
 aChildWorker
 )
 "
@@ -21740,7 +21726,6 @@ mChildWorkers
 .
 RemoveElement
 (
-&
 aChildWorker
 )
 ;
@@ -22161,10 +22146,8 @@ Notify
 }
 AutoTArray
 <
-CheckedUnsafePtr
-<
 WorkerPrivate
->
+*
 10
 >
 children
@@ -30216,7 +30199,10 @@ mScope
 new
 SharedWorkerGlobalScope
 (
+WrapNotNull
+(
 this
+)
 CreateClientSource
 (
 )
@@ -30242,7 +30228,10 @@ mScope
 new
 ServiceWorkerGlobalScope
 (
+WrapNotNull
+(
 this
+)
 CreateClientSource
 (
 )
@@ -30262,7 +30251,10 @@ mScope
 new
 DedicatedWorkerGlobalScope
 (
+WrapNotNull
+(
 this
+)
 CreateClientSource
 (
 )
@@ -30423,7 +30415,10 @@ mDebuggerScope
 new
 WorkerDebuggerGlobalScope
 (
+WrapNotNull
+(
 this
+)
 std
 :
 :

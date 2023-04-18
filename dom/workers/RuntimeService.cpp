@@ -705,6 +705,13 @@ h
 #
 include
 "
+WorkerPrivate
+.
+h
+"
+#
+include
+"
 WorkerRunnable
 .
 h
@@ -6641,6 +6648,7 @@ parent
 >
 AddChildWorker
 (
+&
 aWorkerPrivate
 )
 )
@@ -7393,6 +7401,7 @@ parent
 >
 RemoveChildWorker
 (
+&
 aWorkerPrivate
 )
 ;
