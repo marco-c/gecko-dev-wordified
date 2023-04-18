@@ -9714,8 +9714,6 @@ UpdateUtils
 .
 jsm
 "
-{
-}
 )
 .
 UpdateUtils

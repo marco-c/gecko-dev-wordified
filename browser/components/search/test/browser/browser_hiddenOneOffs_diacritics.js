@@ -92,7 +92,9 @@ u2661
 "
 ;
 var
+{
 Preferences
+}
 =
 ChromeUtils
 .
@@ -111,11 +113,7 @@ Preferences
 .
 jsm
 "
-{
-}
 )
-.
-Preferences
 ;
 let
 searchIcon

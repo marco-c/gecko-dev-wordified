@@ -105,8 +105,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 const

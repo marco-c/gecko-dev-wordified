@@ -202,8 +202,6 @@ SessionFile
 .
 jsm
 "
-{
-}
 )
 .
 SessionFile

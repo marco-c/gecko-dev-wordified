@@ -3325,7 +3325,9 @@ html
 "
 ;
 let
+{
 HiddenFrame
+}
 =
 ChromeUtils
 .
@@ -3344,11 +3346,7 @@ HiddenFrame
 .
 jsm
 "
-{
-}
 )
-.
-HiddenFrame
 ;
 let
 hiddenFrame

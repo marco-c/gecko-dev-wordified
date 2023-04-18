@@ -98,8 +98,6 @@ FxAccountsCommon
 .
 js
 "
-{
-}
 )
 ;
 }

@@ -35,8 +35,6 @@ AddonTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -61,8 +59,6 @@ ExtensionPermissions
 .
 jsm
 "
-{
-}
 )
 ;
 const

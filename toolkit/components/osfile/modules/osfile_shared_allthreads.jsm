@@ -300,8 +300,6 @@ PromiseWorker
 .
 jsm
 "
-{
-}
 )
 .
 BasePromiseWorker

@@ -1820,8 +1820,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 let

@@ -4020,8 +4020,6 @@ CoverageUtils
 .
 jsm
 "
-{
-}
 )
 .
 CoverageCollector

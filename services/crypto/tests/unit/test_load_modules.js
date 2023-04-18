@@ -90,8 +90,6 @@ ChromeUtils
 import
 (
 resource
-{
-}
 )
 ;
 }

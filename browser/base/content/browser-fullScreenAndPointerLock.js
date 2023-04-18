@@ -5738,8 +5738,6 @@ PermissionUI
 .
 jsm
 "
-{
-}
 )
 ;
 return

@@ -83,8 +83,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 nextTest
