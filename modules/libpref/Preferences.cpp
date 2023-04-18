@@ -22803,6 +22803,7 @@ bool
 const
 char
 *
+bool
 )
 >
 &
@@ -22898,6 +22899,15 @@ pref
 Name
 (
 )
+/
+*
+will
+be
+fixed
+later
+*
+/
+false
 )
 )
 ;
@@ -36264,6 +36274,8 @@ const
 char
 *
 aPref
+bool
+aIsDestWebContentProcess
 )
 {
 #
