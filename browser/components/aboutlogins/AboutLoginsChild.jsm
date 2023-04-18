@@ -636,6 +636,9 @@ copyString
 event
 .
 detail
+ClipboardHelper
+.
+Sensitive
 )
 ;
 break
