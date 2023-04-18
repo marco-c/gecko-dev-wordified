@@ -1292,6 +1292,7 @@ nsAString
 aText
 )
 ;
+virtual
 void
 TextAtOffset
 (
@@ -1309,6 +1310,7 @@ nsAString
 &
 aText
 )
+override
 ;
 void
 TextAfterOffset
