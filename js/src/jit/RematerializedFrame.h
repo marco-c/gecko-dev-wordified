@@ -1470,8 +1470,9 @@ isFunctionFrame
 )
 )
 ;
-if
+MOZ_ASSERT
 (
+!
 callee
 (
 )
@@ -1481,13 +1482,7 @@ isArrow
 (
 )
 )
-{
-return
-NullValue
-(
-)
 ;
-}
 MOZ_ASSERT_IF
 (
 !
