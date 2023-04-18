@@ -369,7 +369,7 @@ const
 inspectorNode
 =
 await
-waitUntilPredicate
+waitFor
 (
 (
 )
