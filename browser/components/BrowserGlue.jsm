@@ -9487,7 +9487,6 @@ UrlbarPrefs
 .
 updateFirefoxSuggestScenario
 (
-true
 )
 ;
 /

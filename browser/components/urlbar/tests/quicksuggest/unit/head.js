@@ -755,8 +755,8 @@ the
 scenario
 update
 and
-pass
-true
+set
+isStartup
 to
 simulate
 startup
@@ -766,13 +766,15 @@ UrlbarPrefs
 .
 updateFirefoxSuggestScenario
 (
-true
 {
 .
 .
 .
 testOverrides
 scenario
+isStartup
+:
+true
 }
 )
 ;

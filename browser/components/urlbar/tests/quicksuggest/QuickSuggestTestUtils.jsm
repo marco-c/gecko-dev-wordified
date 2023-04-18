@@ -1188,7 +1188,6 @@ UrlbarPrefs
 .
 updateFirefoxSuggestScenario
 (
-false
 {
 scenario
 }
