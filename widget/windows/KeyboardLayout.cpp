@@ -12695,15 +12695,6 @@ eAllow
 )
 ;
 }
-[
-[
-fallthrough
-]
-]
-;
-case
-eKeyDownOnPlugin
-:
 aKeyEvent
 .
 mKeyCode
@@ -12737,9 +12728,6 @@ break
 ;
 case
 eKeyUp
-:
-case
-eKeyUpOnPlugin
 :
 aKeyEvent
 .
