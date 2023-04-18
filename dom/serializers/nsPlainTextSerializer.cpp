@@ -2661,6 +2661,7 @@ EditorUtils
 MaskString
 (
 textstr
+*
 content
 -
 >
