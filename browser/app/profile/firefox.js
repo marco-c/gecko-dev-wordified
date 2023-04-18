@@ -3656,7 +3656,7 @@ upgradeDialog
 .
 enabled
 "
-true
+false
 )
 ;
 /
