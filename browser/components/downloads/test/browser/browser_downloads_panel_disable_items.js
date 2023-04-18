@@ -515,7 +515,10 @@ BrowserTestUtils
 .
 openNewForegroundTab
 (
+{
 gBrowser
+opening
+:
 TEST_PATH
 +
 "
@@ -523,6 +526,13 @@ foo
 .
 txt
 "
+waitForLoad
+:
+false
+waitForStateStop
+:
+true
+}
 )
 ;
 await
