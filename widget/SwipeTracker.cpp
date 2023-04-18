@@ -261,15 +261,6 @@ kWholePagePixelSize
 static
 const
 double
-kRubberBandResistanceFactor
-=
-4
-.
-0
-;
-static
-const
-double
 kSwipeSuccessThreshold
 =
 0
