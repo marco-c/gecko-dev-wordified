@@ -66,7 +66,6 @@ log
 *
 globals
 main
-makeUuid
 deviceInfo
 analytics
 catcher
@@ -197,7 +196,9 @@ info
 {
 secret
 :
-makeUuid
+crypto
+.
+randomUUID
 (
 )
 registered

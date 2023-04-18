@@ -354,11 +354,6 @@ log
 js
 "
 "
-makeUuid
-.
-js
-"
-"
 catcher
 .
 js

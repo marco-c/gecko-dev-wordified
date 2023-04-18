@@ -66,7 +66,6 @@ analytics
 communication
 catcher
 log
-makeUuid
 auth
 senderror
 startBackground
@@ -1086,7 +1085,9 @@ copied
 const
 id
 =
-makeUuid
+crypto
+.
+randomUUID
 (
 )
 ;

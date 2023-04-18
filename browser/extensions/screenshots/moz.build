@@ -176,11 +176,6 @@ log
 js
 "
 "
-makeUuid
-.
-js
-"
-"
 manifest
 .
 json

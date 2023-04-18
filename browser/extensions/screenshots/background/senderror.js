@@ -62,7 +62,6 @@ globals
 startBackground
 analytics
 communication
-makeUuid
 Raven
 catcher
 auth
@@ -403,7 +402,9 @@ now
 const
 id
 =
-makeUuid
+crypto
+.
+randomUUID
 (
 )
 ;
