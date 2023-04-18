@@ -120,7 +120,7 @@ MercurialRevisionFinder
     
 MinifiedJavaScript
     
-MinifiedProperties
+MinifiedCommentStripped
     
 PreprocessedFile
 )
@@ -7115,14 +7115,14 @@ x00
 "
 )
 class
-TestMinifiedProperties
+TestMinifiedCommentStripped
 (
 TestWithTmpDir
 )
 :
     
 def
-test_minified_properties
+test_minified_comment_stripped
 (
 self
 )
@@ -7176,7 +7176,7 @@ self
 assertEqual
 (
             
-MinifiedProperties
+MinifiedCommentStripped
 (
 prop
 )
@@ -7234,7 +7234,7 @@ propLines
 )
 )
         
-MinifiedProperties
+MinifiedCommentStripped
 (
 File
 (
