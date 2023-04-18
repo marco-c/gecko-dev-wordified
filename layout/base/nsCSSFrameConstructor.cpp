@@ -27308,9 +27308,7 @@ StyleUI
 )
 -
 >
-ComputedPointerEvents
-(
-)
+mPointerEvents
 =
 =
 StylePointerEvents
@@ -27774,9 +27772,7 @@ StyleUI
 )
 -
 >
-ComputedPointerEvents
-(
-)
+mPointerEvents
 =
 =
 StylePointerEvents

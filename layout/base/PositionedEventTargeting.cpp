@@ -1875,9 +1875,7 @@ StyleUI
 )
 -
 >
-Cursor
-(
-)
+mCursor
 .
 keyword
 =

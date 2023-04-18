@@ -10624,14 +10624,12 @@ switch
 aFrame
 -
 >
-Style
+StyleUI
 (
 )
 -
 >
-PointerEvents
-(
-)
+mPointerEvents
 )
 {
 case
