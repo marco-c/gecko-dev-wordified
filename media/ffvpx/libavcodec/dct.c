@@ -1319,6 +1319,9 @@ nbits
 int
 i
 ;
+int
+ret
+;
 memset
 (
 s
@@ -1419,6 +1422,9 @@ ENOMEM
 ;
 if
 (
+(
+ret
+=
 ff_rdft_init
 (
 &
@@ -1431,6 +1437,7 @@ inverse
 =
 =
 DCT_III
+)
 )
 <
 0
@@ -1446,8 +1453,7 @@ csc2
 )
 ;
 return
--
-1
+ret
 ;
 }
 for

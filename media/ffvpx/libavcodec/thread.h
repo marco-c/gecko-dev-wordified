@@ -680,6 +680,9 @@ int
 field
 )
 ;
+#
+if
+FF_API_THREAD_SAFE_CALLBACKS
 /
 *
 *
@@ -754,6 +757,14 @@ AVPixelFormat
 fmt
 )
 ;
+#
+else
+#
+define
+ff_thread_get_format
+ff_get_format
+#
+endif
 /
 *
 *
@@ -932,6 +943,7 @@ ff_thread_ref_frame
 ThreadFrame
 *
 dst
+const
 ThreadFrame
 *
 src
