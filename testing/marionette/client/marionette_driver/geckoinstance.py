@@ -4688,6 +4688,25 @@ checkDefaultBrowser
 False
         
 #
+Disable
+session
+restore
+infobar
+        
+"
+browser
+.
+startup
+.
+couldRestoreSession
+.
+count
+"
+:
+-
+1
+        
+#
 Needed
 for
 branded
