@@ -9098,6 +9098,8 @@ aCollectNonEditableNodes
 {
 if
 (
+MOZ_UNLIKELY
+(
 NS_WARN_IF
 (
 !
@@ -9105,6 +9107,17 @@ aPointInOneHardLine
 .
 IsSet
 (
+)
+)
+|
+|
+NS_WARN_IF
+(
+aPointInOneHardLine
+.
+IsInNativeAnonymousSubtree
+(
+)
 )
 )
 )
