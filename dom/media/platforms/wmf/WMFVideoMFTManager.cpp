@@ -2453,6 +2453,9 @@ media_wmf_no_copy_nv12_textures
 &
 &
 mKnowsCompositor
+&
+&
+mKnowsCompositor
 -
 >
 UsingHardwareWebRender
