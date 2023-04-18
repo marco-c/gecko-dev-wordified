@@ -4433,13 +4433,6 @@ aFlags
 ;
 virtual
 void
-MaybeNotifyUnlocked
-(
-)
-{
-}
-virtual
-void
 UpdatedInternal
 (
 const
@@ -4997,12 +4990,6 @@ nsIntRegion
 aRegion
 =
 nullptr
-)
-override
-;
-void
-MaybeNotifyUnlocked
-(
 )
 override
 ;
