@@ -5501,6 +5501,14 @@ obj
 isExtensible
 (
 )
+|
+|
+obj
+-
+>
+isUsedAsPrototype
+(
+)
 )
 {
 return
