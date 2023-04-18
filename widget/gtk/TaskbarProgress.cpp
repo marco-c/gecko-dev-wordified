@@ -410,9 +410,6 @@ uint64_t
 aMaxValue
 )
 {
-#
-ifdef
-MOZ_X11
 NS_ENSURE_ARG_RANGE
 (
 aState
@@ -630,8 +627,6 @@ SetProgress
 progress
 )
 ;
-#
-endif
 return
 NS_OK
 ;
