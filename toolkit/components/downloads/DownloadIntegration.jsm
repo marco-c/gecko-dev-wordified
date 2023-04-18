@@ -7501,6 +7501,11 @@ MOZ_BUILD_APP
 "
 browser
 "
+&
+&
+this
+.
+_downloadSpamProtection
 )
 {
 Services
@@ -7509,11 +7514,9 @@ obs
 .
 removeObserver
 (
-DownloadIntegration
+this
 .
-getDownloadSpamProtection
-(
-)
+_downloadSpamProtection
 DownloadSpamProtection
 .
 TOPIC
