@@ -5799,10 +5799,7 @@ builds
     
 build_libcxx
 =
-not
-is_windows
-(
-)
+True
     
 if
 "
