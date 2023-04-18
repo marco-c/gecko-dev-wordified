@@ -3627,9 +3627,8 @@ if
 timed_out
 :
         
-if
-(
-            
+relpath
+=
 os
 .
 path
@@ -3650,13 +3649,13 @@ sep
 /
 "
 )
-            
+        
+if
+relpath
 in
 options
 .
 ignore_timeouts
-        
-)
 :
             
 return
