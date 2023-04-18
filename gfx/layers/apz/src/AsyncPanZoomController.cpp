@@ -33575,7 +33575,7 @@ forTelemetry
 Telemetry
 :
 :
-CanRecordExtended
+CanRecordBase
 (
 )
 ;
