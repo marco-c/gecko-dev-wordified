@@ -555,6 +555,15 @@ dom
 MediaStreamTrack
 *
 aSendTrack
+SharedWebrtcState
+*
+aSharedWebrtcState
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+aTrials
 RefPtr
 <
 TransceiverImpl

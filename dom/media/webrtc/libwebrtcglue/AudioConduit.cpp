@@ -1884,7 +1884,7 @@ decoder_factory
 mCall
 -
 >
-mDecoderFactory
+mAudioDecoderFactory
 ;
 mRecvStreamConfig
 .
