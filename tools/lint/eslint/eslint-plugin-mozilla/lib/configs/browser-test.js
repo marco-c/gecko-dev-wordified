@@ -104,6 +104,9 @@ false
 addLoadEvent
 :
 false
+add_setup
+:
+false
 add_task
 :
 false
