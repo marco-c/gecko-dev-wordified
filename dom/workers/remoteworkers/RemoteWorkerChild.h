@@ -620,7 +620,7 @@ PFetchEventOpProxyChild
 AllocPFetchEventOpProxyChild
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 &
 aArgs
 )
@@ -638,7 +638,7 @@ PFetchEventOpProxyChild
 *
 aActor
 const
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 &
 aArgs
 )

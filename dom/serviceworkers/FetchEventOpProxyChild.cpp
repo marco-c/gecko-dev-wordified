@@ -133,6 +133,17 @@ mozilla
 /
 dom
 /
+FetchTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ServiceWorkerOpPromise
 .
 h
@@ -275,7 +286,7 @@ namespace
 nsresult
 GetIPCSynthesizeResponseArgs
 (
-IPCSynthesizeResponseArgs
+ChildToParentSynthesizeResponseArgs
 *
 aIPCArgs
 SynthesizeResponseArgs
@@ -425,7 +436,7 @@ FetchEventOpProxyChild
 Initialize
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToChildServiceWorkerFetchEventOpArgs
 &
 aArgs
 )
@@ -460,6 +471,10 @@ InternalRequest
 (
 aArgs
 .
+common
+(
+)
+.
 internalRequest
 (
 )
@@ -468,6 +483,10 @@ internalRequest
 if
 (
 aArgs
+.
+common
+(
+)
 .
 preloadNavigation
 (
@@ -850,7 +869,7 @@ SynthesizeResponseArgs
 )
 )
 {
-IPCSynthesizeResponseArgs
+ChildToParentSynthesizeResponseArgs
 ipcArgs
 ;
 UniquePtr
@@ -1122,7 +1141,7 @@ FetchEventOpProxyChild
 :
 RecvPreloadResponse
 (
-IPCInternalResponse
+ParentToChildInternalResponse
 &
 &
 aResponse

@@ -1445,7 +1445,7 @@ RemoteWorkerController
 ExecServiceWorkerFetchEventOp
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 RefPtr
@@ -2635,7 +2635,7 @@ PendingSWFetchEventOp
 PendingSWFetchEventOp
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 RefPtr
@@ -2710,6 +2710,10 @@ IPCInternalRequest
 req
 =
 mArgs
+.
+common
+(
+)
 .
 internalRequest
 (

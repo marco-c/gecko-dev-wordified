@@ -234,7 +234,7 @@ SendFetchEvent
 PRemoteWorkerControllerChild
 *
 aManager
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 &
 aArgs
@@ -273,7 +273,7 @@ private
 :
 FetchEventOpChild
 (
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 &
 aArgs
@@ -350,7 +350,7 @@ ipc
 IPCResult
 RecvRespondWith
 (
-IPCFetchEventRespondWithResult
+ParentToParentFetchEventRespondWithResult
 &
 &
 aResult
@@ -381,7 +381,7 @@ override
 nsresult
 StartSynthesizedResponse
 (
-IPCSynthesizeResponseArgs
+ParentToParentSynthesizeResponseArgs
 &
 &
 aArgs
@@ -390,7 +390,7 @@ aArgs
 void
 SynthesizeResponse
 (
-IPCSynthesizeResponseArgs
+ParentToParentSynthesizeResponseArgs
 &
 &
 aArgs
@@ -416,7 +416,7 @@ MaybeScheduleRegistrationUpdate
 )
 const
 ;
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 mArgs
 ;
 nsCOMPtr

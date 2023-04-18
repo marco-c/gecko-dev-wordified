@@ -204,7 +204,7 @@ arrived
 .
 Maybe
 <
-IPCInternalResponse
+ParentToChildInternalResponse
 >
 OnStart
 (
@@ -257,7 +257,7 @@ ipc
 IPCResult
 RecvPreloadResponse
 (
-IPCInternalResponse
+ParentToParentInternalResponse
 &
 &
 aResponse
@@ -275,7 +275,7 @@ Pending
 {
 Maybe
 <
-IPCInternalResponse
+ParentToChildInternalResponse
 >
 mPreloadResponse
 ;

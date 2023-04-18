@@ -164,7 +164,7 @@ class
 PRemoteWorkerParent
 ;
 class
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 ;
 /
 *
@@ -293,7 +293,7 @@ Private
 &
 aPromise
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 RefPtr
@@ -380,7 +380,7 @@ IPCResult
 RecvRespondWith
 (
 const
-IPCFetchEventRespondWithResult
+ChildToParentFetchEventRespondWithResult
 &
 aResult
 )

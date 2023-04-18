@@ -1122,7 +1122,7 @@ ServiceWorkerFetchEventOpPromise
 ExecServiceWorkerFetchEventOp
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 RefPtr
@@ -1776,7 +1776,7 @@ public
 PendingSWFetchEventOp
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 RefPtr
@@ -1819,7 +1819,7 @@ override
 ;
 private
 :
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 mArgs
 ;
 RefPtr

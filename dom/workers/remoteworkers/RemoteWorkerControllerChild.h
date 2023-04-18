@@ -248,7 +248,7 @@ PFetchEventOpChild
 AllocPFetchEventOpChild
 (
 const
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 aArgs
 )

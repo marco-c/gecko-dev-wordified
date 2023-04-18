@@ -3607,7 +3607,7 @@ ServiceWorkerRegistrationInfo
 &
 &
 aRegistration
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 &
 aArgs
@@ -5032,8 +5032,10 @@ nsIInterceptedChannel
 )
 ;
 }
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 args
+(
+ServiceWorkerFetchEventOpArgsCommon
 (
 mOuter
 -
@@ -5044,13 +5046,7 @@ mInfo
 ScriptSpec
 (
 )
-std
-:
-:
-move
-(
 request
-)
 nsString
 (
 aClientId
@@ -5061,9 +5057,6 @@ aResultingClientId
 )
 isNonSubresourceRequest
 preloadNavigation
-Nothing
-(
-)
 mOuter
 -
 >
@@ -5071,6 +5064,10 @@ mInfo
 -
 >
 TestingInjectCancellation
+(
+)
+)
+Nothing
 (
 )
 )
@@ -5223,7 +5220,7 @@ ServiceWorkerRegistrationInfo
 &
 &
 aRegistration
-ServiceWorkerFetchEventOpArgs
+ParentToParentServiceWorkerFetchEventOpArgs
 &
 &
 aArgs
@@ -5297,6 +5294,10 @@ MaybeStoreStreamForBackgroundThread
 (
 aChannel
 aArgs
+.
+common
+(
+)
 .
 internalRequest
 (
@@ -6216,7 +6217,7 @@ type
 ServiceWorkerOpArgs
 :
 :
-TServiceWorkerFetchEventOpArgs
+TParentToChildServiceWorkerFetchEventOpArgs
 "
 FetchEvent
 operations
