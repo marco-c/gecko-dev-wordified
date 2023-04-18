@@ -2554,11 +2554,10 @@ TEST_UPDATER
 |
 defined
 (
-MOZ_MAINTENANCE_SERVICE
+XP_WIN
 )
 |
 |
-\
 defined
 (
 XP_MACOSX
@@ -14621,12 +14620,6 @@ if
 defined
 (
 XP_WIN
-)
-&
-&
-defined
-(
-MOZ_MAINTENANCE_SERVICE
 )
 /
 *
