@@ -695,12 +695,13 @@ bool
 *
 )
 (
+JSContext
+*
+cx
 const
 char
 *
 filename
-bool
-isSystemRealm
 )
 ;
 JS_PUBLIC_API
