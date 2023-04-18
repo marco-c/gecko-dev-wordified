@@ -294,6 +294,12 @@ ToSurfaceDescriptor
 )
 override
 ;
+void
+WaitForBufferOwnership
+(
+)
+override
+;
 }
 ;
 class
