@@ -1689,6 +1689,11 @@ ProfilerFeature
 :
 :
 CPUUtilization
+|
+ProfilerFeature
+:
+:
+ProcessCPU
 ;
 }
 /

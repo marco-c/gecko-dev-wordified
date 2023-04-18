@@ -1964,6 +1964,11 @@ ProfilerFeature
 :
 :
 Screenshots
+|
+ProfilerFeature
+:
+:
+ProcessCPU
 ;
 }
 /
