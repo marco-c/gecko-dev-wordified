@@ -4423,7 +4423,7 @@ GetInstance
 )
 -
 >
-HasPrototype
+HasData
 (
 mDocumentURI
 &

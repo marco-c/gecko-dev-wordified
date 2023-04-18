@@ -12118,7 +12118,7 @@ exists
 cache
 -
 >
-HasScript
+HasData
 (
 mSrcURI
 &
@@ -12175,7 +12175,7 @@ rv
 cache
 -
 >
-GetScriptOutputStream
+GetOutputStream
 (
 mSrcURI
 getter_AddRefs
@@ -12218,7 +12218,7 @@ tmp
 cache
 -
 >
-FinishScriptOutputStream
+FinishOutputStream
 (
 mSrcURI
 )
@@ -12654,7 +12654,7 @@ rv
 cache
 -
 >
-GetScriptInputStream
+GetInputStream
 (
 mSrcURI
 getter_AddRefs
@@ -12825,7 +12825,7 @@ GetStencil
 cache
 -
 >
-FinishScriptInputStream
+FinishInputStream
 (
 mSrcURI
 )
