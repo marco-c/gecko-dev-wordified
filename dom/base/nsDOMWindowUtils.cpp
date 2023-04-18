@@ -14328,7 +14328,7 @@ GetCurrentInnerWindow
 ;
 NS_ENSURE_STATE
 (
-window
+innerWindow
 )
 ;
 nsCOMPtr
