@@ -2606,6 +2606,10 @@ aLineNumber
 aColumnNumber
 nullptr
 string
+JS
+:
+:
+NothingHandleValue
 errorOut
 )
 )

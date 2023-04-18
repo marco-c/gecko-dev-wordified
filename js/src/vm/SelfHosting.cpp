@@ -3356,6 +3356,10 @@ toInt32
 )
 nullptr
 message
+JS
+:
+:
+NothingHandleValue
 &
 error
 )

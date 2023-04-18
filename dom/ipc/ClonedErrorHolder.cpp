@@ -2252,6 +2252,10 @@ mLineNumber
 mColumn
 nullptr
 message
+JS
+:
+:
+NothingHandleValue
 aResult
 )
 )
