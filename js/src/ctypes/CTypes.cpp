@@ -18633,9 +18633,10 @@ is_exact
 ;
 if
 (
-JSID_IS_INT
-(
 val
+.
+isInt
+(
 )
 )
 {
@@ -18661,9 +18662,10 @@ sign
 int32_t
 i
 =
-JSID_TO_INT
-(
 val
+.
+toInt
+(
 )
 ;
 return
