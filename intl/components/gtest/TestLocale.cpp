@@ -669,6 +669,10 @@ locale
 addLikelySubtags
 (
 )
+.
+isOk
+(
+)
 )
 ;
 TestBuffer
@@ -712,6 +716,10 @@ ASSERT_TRUE
 locale
 .
 removeLikelySubtags
+(
+)
+.
+isOk
 (
 )
 )

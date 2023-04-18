@@ -2571,12 +2571,7 @@ Likely_Subtags
 >
 *
 /
-[
-[
-nodiscard
-]
-]
-bool
+ICUResult
 addLikelySubtags
 (
 )
@@ -2617,12 +2612,7 @@ Likely_Subtags
 >
 *
 /
-[
-[
-nodiscard
-]
-]
-bool
+ICUResult
 removeLikelySubtags
 (
 )
