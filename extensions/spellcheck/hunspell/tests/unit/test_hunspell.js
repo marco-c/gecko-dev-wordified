@@ -1886,9 +1886,11 @@ n
 ;
 checker
 .
-dictionary
+dictionaries
 =
+[
 name
+]
 ;
 if
 (

@@ -905,13 +905,15 @@ test_registration
 {
 spellCheck
 .
-dictionary
+dictionaries
 =
+[
 "
 en
 -
 US
 "
+]
 ;
 ok
 (

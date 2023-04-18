@@ -266,7 +266,7 @@ function
 )
 {
 var
-onSpellCheck
+maybeOnSpellCheck
 =
 SpecialPowers
 .
@@ -287,10 +287,11 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
-null
+{
+}
 )
 .
-onSpellCheck
+maybeOnSpellCheck
 ;
 var
 elem
@@ -312,7 +313,7 @@ focus
 (
 )
 ;
-onSpellCheck
+maybeOnSpellCheck
 (
 elem
 function
