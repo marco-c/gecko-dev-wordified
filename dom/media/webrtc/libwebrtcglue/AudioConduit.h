@@ -85,6 +85,15 @@ include
 "
 mozilla
 /
+RWLock
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StateMirroring
 .
 h
@@ -1217,7 +1226,7 @@ thread
 .
 Guarded
 by
-mMutex
+mLock
 except
 for
 reads
@@ -1264,7 +1273,7 @@ thread
 .
 Guarded
 by
-mMutex
+mLock
 except
 for
 reads
@@ -1338,7 +1347,7 @@ thread
 .
 Guarded
 by
-mMutex
+mLock
 except
 for
 reads
@@ -1374,7 +1383,7 @@ thread
 .
 Guarded
 by
-mMutex
+mLock
 except
 for
 reads
@@ -1401,8 +1410,8 @@ bool
 mDtmfEnabled
 ;
 mutable
-Mutex
-mMutex
+RWLock
+mLock
 ;
 /
 /
