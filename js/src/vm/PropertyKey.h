@@ -300,7 +300,9 @@ HashGeneric
 (
 key
 .
-asBits
+asRawBits
+(
+)
 )
 ;
 }
