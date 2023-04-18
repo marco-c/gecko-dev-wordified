@@ -7574,6 +7574,9 @@ aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIPrincipal
+*
+aRedirectPrincipal
 BrowsingContext
 *
 aBrowsingContext
@@ -7611,6 +7614,7 @@ SendLoadURIExternal
 (
 aURI
 aTriggeringPrincipal
+aRedirectPrincipal
 aBrowsingContext
 aTriggeredExternally
 )
@@ -8266,6 +8270,10 @@ HandleURI
 (
 handler
 escapedURI
+aRedirectPrincipal
+?
+aRedirectPrincipal
+:
 aTriggeringPrincipal
 aBrowsingContext
 aTriggeredExternally

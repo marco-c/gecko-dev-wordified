@@ -482,6 +482,9 @@ aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIPrincipal
+*
+aRedirectPrincipal
 mozilla
 :
 :
