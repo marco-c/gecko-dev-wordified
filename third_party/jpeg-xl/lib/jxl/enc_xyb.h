@@ -217,6 +217,10 @@ Image3F
 *
 JXL_RESTRICT
 xyb
+const
+JxlCmsInterface
+&
+cms
 ImageBundle
 *
 JXL_RESTRICT
@@ -281,7 +285,7 @@ values
 unsigned
 )
 .
-void
+Status
 RgbToYcbcr
 (
 const
@@ -324,6 +328,10 @@ const
 Image3B
 &
 srgb8
+const
+JxlCmsInterface
+&
+cms
 )
 ;
 /

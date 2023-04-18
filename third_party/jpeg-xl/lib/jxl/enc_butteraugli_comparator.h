@@ -161,6 +161,10 @@ const
 ButteraugliParams
 &
 params
+const
+JxlCmsInterface
+&
+cms
 )
 ;
 Status
@@ -207,6 +211,9 @@ private
 :
 ButteraugliParams
 params_
+;
+JxlCmsInterface
+cms_
 ;
 std
 :
@@ -273,6 +280,10 @@ const
 ButteraugliParams
 &
 params
+const
+JxlCmsInterface
+&
+cms
 ImageF
 *
 distmap
@@ -300,6 +311,10 @@ const
 ButteraugliParams
 &
 params
+const
+JxlCmsInterface
+&
+cms
 ImageF
 *
 distmap

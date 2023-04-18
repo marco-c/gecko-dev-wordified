@@ -1285,6 +1285,10 @@ const
 CodecMetadata
 *
 metadata
+const
+JxlCmsInterface
+&
+cms
 ThreadPool
 *
 pool
@@ -1382,6 +1386,7 @@ metadata
 ib
 &
 passes_enc_state
+cms
 pool
 &
 preview_writer
@@ -1565,6 +1570,10 @@ passes_enc_state
 PaddedBytes
 *
 compressed
+const
+JxlCmsInterface
+&
+cms
 AuxOut
 *
 aux_out
@@ -1911,6 +1920,7 @@ metadata
 get
 (
 )
+cms
 pool
 &
 writer
@@ -2229,6 +2239,7 @@ frames
 i
 ]
 passes_enc_state
+cms
 pool
 &
 writer

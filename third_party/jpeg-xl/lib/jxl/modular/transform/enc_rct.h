@@ -74,6 +74,9 @@ size_t
 begin_c
 size_t
 rct_type
+ThreadPool
+*
+pool
 )
 ;
 }

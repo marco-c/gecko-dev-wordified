@@ -143,7 +143,6 @@ transcoding
 Status
 DecodeImageJPG
 (
-const
 Span
 <
 const
