@@ -203,6 +203,10 @@ quantity
 "
 rate
 "
+        
+"
+url
+"
     
 ]
 }
