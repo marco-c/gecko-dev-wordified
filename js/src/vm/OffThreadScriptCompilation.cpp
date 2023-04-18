@@ -272,10 +272,6 @@ h
 js
 :
 :
-OffThreadParsingMustWaitForGC
-js
-:
-:
 StartOffThreadParseScript
 #
 include

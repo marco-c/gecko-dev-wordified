@@ -1463,17 +1463,6 @@ progress
 GCs
 first
 .
-This
-ensures
-the
-parseWaitingOnGC
-*
-list
-is
-empty
-in
-CancelOffThreadParses
-.
 *
 /
 JSContext
