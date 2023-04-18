@@ -129,15 +129,6 @@ theoradec
 .
 h
 '
-'
-include
-/
-theora
-/
-theoraenc
-.
-h
-'
 ]
 #
 We
