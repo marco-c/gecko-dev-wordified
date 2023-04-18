@@ -979,6 +979,9 @@ Window
 interface
 FluentBundleAsyncIterator
 {
+[
+NewObject
+]
 Promise
 <
 FluentBundleIteratorResult

@@ -843,8 +843,10 @@ ShareData
 aData
 )
 ;
+already_AddRefed
+<
 Promise
-*
+>
 Share
 (
 const

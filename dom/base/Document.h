@@ -24809,6 +24809,9 @@ AddCertException
 (
 bool
 aIsTemporary
+ErrorResult
+&
+aError
 )
 ;
 void

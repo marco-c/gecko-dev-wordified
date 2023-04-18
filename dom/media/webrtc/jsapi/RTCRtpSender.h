@@ -317,6 +317,9 @@ ReplaceTrack
 MediaStreamTrack
 *
 aWithTrack
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -325,6 +328,9 @@ Promise
 >
 GetStats
 (
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -340,6 +346,9 @@ dom
 RTCRtpParameters
 &
 aParameters
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -522,6 +531,9 @@ Promise
 >
 MakePromise
 (
+ErrorResult
+&
+aError
 )
 const
 ;

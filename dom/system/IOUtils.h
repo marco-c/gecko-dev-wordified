@@ -480,6 +480,9 @@ const
 ReadOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -500,6 +503,9 @@ const
 ReadUTF8Options
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -520,6 +526,9 @@ const
 ReadUTF8Options
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -544,6 +553,9 @@ const
 WriteOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -568,6 +580,9 @@ const
 WriteOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -599,6 +614,9 @@ const
 WriteOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -623,6 +641,9 @@ const
 MoveOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -643,6 +664,9 @@ const
 RemoveOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -663,6 +687,9 @@ const
 MakeDirectoryOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -679,6 +706,9 @@ const
 nsAString
 &
 aPath
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -703,6 +733,9 @@ const
 CopyOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -726,6 +759,9 @@ int64_t
 >
 &
 aModification
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -746,6 +782,9 @@ const
 GetChildrenOptions
 &
 aOptions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -767,6 +806,9 @@ aPermissions
 const
 bool
 aHonorUmask
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -783,6 +825,9 @@ const
 nsAString
 &
 aPath
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -806,6 +851,9 @@ aPrefix
 const
 uint32_t
 aPermissions
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -829,6 +877,9 @@ aPrefix
 const
 uint32_t
 aPermissions
+ErrorResult
+&
+aError
 )
 ;
 private
@@ -871,6 +922,9 @@ aFileType
 const
 uint32_t
 aPermissions
+ErrorResult
+&
+aError
 )
 ;
 public
@@ -895,6 +949,9 @@ const
 nsAString
 &
 aPath
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -921,6 +978,9 @@ dom
 WindowsFileAttributes
 &
 aAttrs
+ErrorResult
+&
+aError
 )
 ;
 #
@@ -947,6 +1007,9 @@ const
 nsACString
 &
 aAttr
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -967,6 +1030,9 @@ const
 nsACString
 &
 aAttr
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -991,6 +1057,9 @@ const
 Uint8Array
 &
 aValue
+ErrorResult
+&
+aError
 )
 ;
 static
@@ -1011,6 +1080,9 @@ const
 nsACString
 &
 aAttr
+ErrorResult
+&
+aError
 )
 ;
 #
@@ -1164,6 +1236,9 @@ WithPromiseAndState
 GlobalObject
 &
 aGlobal
+ErrorResult
+&
+aError
 Fn
 aFn
 )
@@ -1303,6 +1378,9 @@ CreateJSPromise
 GlobalObject
 &
 aGlobal
+ErrorResult
+&
+aError
 )
 ;
 /

@@ -641,6 +641,9 @@ AbortSignal
 >
 &
 aSignal
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -663,6 +666,9 @@ AbortSignal
 >
 &
 aSignal
+ErrorResult
+&
+aError
 )
 ;
 already_AddRefed
@@ -675,6 +681,9 @@ const
 Credential
 &
 aCredential
+ErrorResult
+&
+aError
 )
 ;
 /
