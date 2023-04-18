@@ -367,6 +367,7 @@ XRVisibilityState
 VisibilityState
 (
 )
+const
 ;
 XRRenderState
 *
@@ -559,6 +560,12 @@ aTransform
 bool
 aEmulatedPosition
 )
+;
+bool
+CanReportPoses
+(
+)
+const
 ;
 /
 /
