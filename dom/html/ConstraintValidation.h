@@ -171,6 +171,11 @@ ErrorResult
 aError
 )
 ;
+bool
+CheckValidity
+(
+)
+;
 protected
 :
 /
