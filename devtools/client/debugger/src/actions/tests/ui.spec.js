@@ -687,8 +687,7 @@ getState
 .
 toEqual
 (
-{
-}
+undefined
 )
 ;
 }
