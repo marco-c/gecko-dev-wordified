@@ -9444,12 +9444,15 @@ is_null
 (
 )
 {
+drop
+(
 CString
 :
 :
 from_raw
 (
 msg
+)
 )
 ;
 }
