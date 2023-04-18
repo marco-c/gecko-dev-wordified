@@ -257,6 +257,9 @@ dom
 class
 ReadableStream
 ;
+class
+ReadableStreamDefaultReader
+;
 struct
 UnderlyingSource
 ;
@@ -265,6 +268,9 @@ UnderlyingSourceCancelCallbackHelper
 ;
 class
 UnderlyingSourcePullCallbackHelper
+;
+class
+UnderlyingSourceStartCallbackHelper
 ;
 class
 ReadableStreamDefaultController
