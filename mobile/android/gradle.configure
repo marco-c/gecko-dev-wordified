@@ -1907,6 +1907,11 @@ build_config
 .
 geckoview
 )
+"
+exoplayer2
+:
+publishDebugPublicationToMavenRepository
+"
 ]
 if
 aab_enabled
