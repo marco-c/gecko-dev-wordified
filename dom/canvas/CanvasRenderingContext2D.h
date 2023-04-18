@@ -3900,13 +3900,6 @@ PersistentBufferProvider
 aOutProvider
 )
 ;
-ClientWebGLContext
-*
-AsWebgl
-(
-)
-override
-;
 void
 RegisterAllocation
 (
