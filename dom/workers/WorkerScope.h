@@ -571,6 +571,13 @@ GetPrincipalHashValue
 const
 final
 ;
+OriginTrials
+Trials
+(
+)
+const
+final
+;
 StorageAccess
 GetStorageAccess
 (
