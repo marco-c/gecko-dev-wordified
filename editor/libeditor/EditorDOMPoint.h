@@ -4956,6 +4956,17 @@ DOM
 tree
 change
 .
+NS_ASSERTION
+(
+false
+"
+Failed
+to
+rewind
+offset
+"
+)
+;
 return
 false
 ;
