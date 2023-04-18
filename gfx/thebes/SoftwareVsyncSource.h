@@ -148,7 +148,6 @@ h
 "
 class
 SoftwareDisplay
-final
 :
 public
 mozilla
@@ -242,7 +241,7 @@ SoftwareDisplay
 (
 )
 ;
-private
+protected
 :
 mozilla
 :
@@ -351,8 +350,13 @@ VsyncSource
 {
 public
 :
+explicit
 SoftwareVsyncSource
 (
+bool
+aInit
+=
+true
 )
 ;
 virtual
@@ -381,7 +385,7 @@ return
 mGlobalDisplay
 ;
 }
-private
+protected
 :
 RefPtr
 <
