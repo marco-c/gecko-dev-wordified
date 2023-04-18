@@ -2028,10 +2028,6 @@ mHadContentfulPaintComposite
 (
 false
 )
-mWantsExtraTick
-(
-false
-)
 #
 ifdef
 DEBUG
