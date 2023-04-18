@@ -464,6 +464,7 @@ GraphDriver
 .
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 /
 /

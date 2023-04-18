@@ -3770,6 +3770,7 @@ mozilla
 :
 Mutex
 mCompositingLock
+MOZ_UNANNOTATED
 ;
 mozilla
 :

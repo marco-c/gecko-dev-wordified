@@ -307,6 +307,7 @@ mNativeCallbackPending
 ;
 Mutex
 mLastNativeEventScheduledMutex
+MOZ_UNANNOTATED
 ;
 TimeStamp
 mLastNativeEventScheduled

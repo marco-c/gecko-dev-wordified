@@ -227,6 +227,7 @@ sListenerId
 static
 StaticMutex
 sLock
+MOZ_UNANNOTATED
 ;
 static
 nsTHashMap

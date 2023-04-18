@@ -400,6 +400,7 @@ members
 static
 Mutex
 sAPLMutex
+MOZ_UNANNOTATED
 ;
 static
 ProfilerLabelEnter

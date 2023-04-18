@@ -253,6 +253,7 @@ members
 .
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 }
 ;

@@ -620,6 +620,7 @@ by
 mThread
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

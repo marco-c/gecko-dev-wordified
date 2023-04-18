@@ -1621,6 +1621,7 @@ lock
 mutable
 RecursiveMutex
 mRecursiveMutex
+MOZ_UNANNOTATED
 {
 "
 nsHttpResponseHead

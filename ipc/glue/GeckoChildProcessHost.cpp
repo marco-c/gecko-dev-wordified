@@ -5456,6 +5456,7 @@ mozilla
 :
 StaticMutex
 gIPCLaunchThreadMutex
+MOZ_UNANNOTATED
 ;
 static
 mozilla

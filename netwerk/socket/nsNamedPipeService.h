@@ -361,6 +361,7 @@ GetQueuedCompletionStatus
 /
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 nsTArray
 <

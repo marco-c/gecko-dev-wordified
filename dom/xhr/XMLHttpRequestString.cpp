@@ -543,6 +543,7 @@ mData
 }
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

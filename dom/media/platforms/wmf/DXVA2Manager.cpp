@@ -6196,6 +6196,7 @@ mSyncObject
 static
 StaticMutex
 sMutex
+MOZ_UNANNOTATED
 ;
 /
 /

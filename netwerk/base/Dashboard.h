@@ -316,6 +316,7 @@ mozilla
 :
 Mutex
 lock
+MOZ_UNANNOTATED
 ;
 }
 ;

@@ -684,6 +684,7 @@ mIOThread
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

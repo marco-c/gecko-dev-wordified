@@ -915,6 +915,7 @@ aLength2
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

@@ -250,6 +250,7 @@ nsIWorkerDebuggerManager
 {
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

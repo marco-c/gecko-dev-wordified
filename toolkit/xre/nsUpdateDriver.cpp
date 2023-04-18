@@ -648,6 +648,7 @@ then
 .
 Monitor
 monitor
+MOZ_UNANNOTATED
 (
 "
 nsUpdateDriver

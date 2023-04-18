@@ -244,6 +244,7 @@ mozilla
 :
 Mutex
 mShutdownLock
+MOZ_UNANNOTATED
 {
 "
 nsStreamTransportService

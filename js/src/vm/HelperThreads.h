@@ -315,6 +315,7 @@ variables
 extern
 Mutex
 gHelperThreadLock
+MOZ_UNANNOTATED
 ;
 class
 MOZ_RAII

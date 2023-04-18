@@ -191,6 +191,7 @@ sControllerThread
 static
 StaticMutex
 sControllerThreadMutex
+MOZ_UNANNOTATED
 ;
 /
 *

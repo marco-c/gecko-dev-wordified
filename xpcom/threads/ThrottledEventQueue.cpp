@@ -861,6 +861,7 @@ endif
 mutable
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 mutable
 CondVar

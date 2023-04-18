@@ -2858,6 +2858,7 @@ file
 .
 Mutex
 cacheLock_
+MOZ_UNANNOTATED
 ;
 Redirection
 *

@@ -5483,6 +5483,7 @@ mXDisplay
 ;
 Monitor
 mSetupLock
+MOZ_UNANNOTATED
 ;
 base
 :
@@ -5498,6 +5499,7 @@ mVsyncTask
 ;
 Monitor
 mVsyncEnabledLock
+MOZ_UNANNOTATED
 ;
 bool
 mVsyncEnabled

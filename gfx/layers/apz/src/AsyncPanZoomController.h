@@ -6361,6 +6361,7 @@ mGestureEventListener
 mutable
 Monitor
 mRefPtrMonitor
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -6853,6 +6854,7 @@ future
 mutable
 RecursiveMutex
 mRecursiveMutex
+MOZ_UNANNOTATED
 ;
 private
 :
@@ -12388,6 +12390,7 @@ protecting
 mCheckerboardEvent
 Mutex
 mCheckerboardEventLock
+MOZ_UNANNOTATED
 ;
 /
 /

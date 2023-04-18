@@ -180,6 +180,7 @@ mozilla
 :
 Monitor
 monitor
+MOZ_UNANNOTATED
 ;
 }
 ;

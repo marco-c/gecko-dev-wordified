@@ -1107,6 +1107,7 @@ thread
 .
 Mutex
 mShuttingDownMutex
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -1156,6 +1157,7 @@ middle
 .
 Mutex
 mBlockShutdownMutex
+MOZ_UNANNOTATED
 ;
 /
 /

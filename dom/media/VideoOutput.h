@@ -1507,6 +1507,7 @@ SendFramesEnsureLocked
 }
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 TimeStamp
 mLastFrameTime

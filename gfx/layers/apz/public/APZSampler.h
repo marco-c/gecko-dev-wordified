@@ -752,6 +752,7 @@ WebRender
 static
 StaticMutex
 sWindowIdLock
+MOZ_UNANNOTATED
 ;
 static
 StaticAutoPtr
@@ -789,6 +790,7 @@ mSamplerThreadId
 mutable
 Mutex
 mThreadIdLock
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -834,6 +836,7 @@ mSamplerThreadId
 ;
 Mutex
 mSampleTimeLock
+MOZ_UNANNOTATED
 ;
 /
 /

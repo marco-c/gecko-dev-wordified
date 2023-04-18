@@ -343,6 +343,7 @@ mozilla
 :
 StaticMutex
 sSharedLibrariesMutex
+MOZ_UNANNOTATED
 ;
 static
 void

@@ -367,6 +367,7 @@ mozilla
 :
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 protected
 :

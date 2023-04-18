@@ -1767,6 +1767,7 @@ mozilla
 :
 Mutex
 mLock
+MOZ_UNANNOTATED
 {
 "
 CacheStorageService
@@ -2253,6 +2254,7 @@ override
 ;
 Monitor
 mMon
+MOZ_UNANNOTATED
 ;
 bool
 mSignaled

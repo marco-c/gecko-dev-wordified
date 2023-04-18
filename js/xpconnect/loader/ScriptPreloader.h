@@ -3753,9 +3753,11 @@ mCacheData
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 Monitor
 mSaveMonitor
+MOZ_UNANNOTATED
 ;
 }
 ;

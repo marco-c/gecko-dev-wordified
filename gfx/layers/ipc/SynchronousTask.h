@@ -232,6 +232,7 @@ private
 :
 ReentrantMonitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 ReentrantMonitorAutoEnter
 mAutoEnter

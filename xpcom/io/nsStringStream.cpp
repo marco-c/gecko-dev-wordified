@@ -1076,6 +1076,7 @@ mozilla
 :
 ReentrantMonitor
 mMon
+MOZ_UNANNOTATED
 {
 "
 nsStringInputStream

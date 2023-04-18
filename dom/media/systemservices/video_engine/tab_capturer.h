@@ -387,6 +387,7 @@ MainThread
 .
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 webrtc
 :

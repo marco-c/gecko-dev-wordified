@@ -1191,6 +1191,7 @@ mPoolType
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 size_t
 mPoolFree

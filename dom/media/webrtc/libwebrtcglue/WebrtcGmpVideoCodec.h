@@ -1623,6 +1623,7 @@ Protects
 mCallback
 Mutex
 mCallbackMutex
+MOZ_UNANNOTATED
 ;
 webrtc
 :
@@ -2448,6 +2449,7 @@ Protects
 mCallback
 Mutex
 mCallbackMutex
+MOZ_UNANNOTATED
 ;
 webrtc
 :

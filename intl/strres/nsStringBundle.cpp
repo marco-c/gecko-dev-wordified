@@ -1057,6 +1057,7 @@ private
 :
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <
