@@ -1334,6 +1334,11 @@ exp
 month
 "
 ]
+?
+.
+toString
+(
+)
 expYear
 :
 aObj
@@ -1346,6 +1351,11 @@ exp
 year
 "
 ]
+?
+.
+toString
+(
+)
 type
 :
 aObj
