@@ -2337,8 +2337,11 @@ window
 )
 .
 attentionSuppressed
+|
 =
-true
+DownloadsCommon
+.
+SUPPRESS_PANEL_OPEN
 ;
 /
 /
@@ -2510,8 +2513,12 @@ window
 )
 .
 attentionSuppressed
+&
 =
-false
+~
+DownloadsCommon
+.
+SUPPRESS_PANEL_OPEN
 ;
 /
 /
