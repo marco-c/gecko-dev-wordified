@@ -145,9 +145,6 @@ GPUTextureDescriptor
 struct
 GPUTextureViewDescriptor
 ;
-class
-HTMLCanvasElement
-;
 }
 /
 /
@@ -167,6 +164,9 @@ WGPUTextureViewDescriptor
 /
 namespace
 ffi
+class
+CanvasContext
+;
 class
 Device
 ;
@@ -235,12 +235,9 @@ mBytesPerBlock
 ;
 WeakPtr
 <
-dom
-:
-:
-HTMLCanvasElement
+CanvasContext
 >
-mTargetCanvasElement
+mTargetContext
 ;
 private
 :
