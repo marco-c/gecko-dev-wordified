@@ -1277,6 +1277,13 @@ js
 "
 shims
 /
+kinja
+.
+js
+"
+"
+shims
+/
 live
 -
 test
