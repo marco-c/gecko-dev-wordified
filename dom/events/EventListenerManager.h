@@ -2750,6 +2750,11 @@ nsAtom
 aEvent
 )
 ;
+bool
+HasNonPassiveWheelListener
+(
+)
+;
 /
 /
 Return
