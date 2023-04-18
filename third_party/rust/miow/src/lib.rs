@@ -66,25 +66,6 @@ msvc
 "
 )
 ]
-extern
-crate
-socket2
-;
-extern
-crate
-winapi
-;
-#
-[
-cfg
-(
-test
-)
-]
-extern
-crate
-rand
-;
 use
 std
 :
@@ -148,7 +129,7 @@ expr
 )
 =
 >
-(
+{
 match
 e
 {
@@ -186,7 +167,8 @@ e
 e
 )
 }
-)
+}
+;
 }
 mod
 handle
@@ -208,6 +190,9 @@ pipe
 ;
 pub
 use
+crate
+:
+:
 overlapped
 :
 :
@@ -323,7 +308,6 @@ and_then
 |
 ms
 |
-{
 ms
 .
 checked_add
@@ -332,7 +316,6 @@ ms_extra
 as
 u64
 )
-}
 )
 .
 map
@@ -340,7 +323,6 @@ map
 |
 ms
 |
-{
 cmp
 :
 :
@@ -358,7 +340,6 @@ ms
 )
 as
 u32
-}
 )
 .
 unwrap_or
