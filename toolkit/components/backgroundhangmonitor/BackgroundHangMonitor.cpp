@@ -2203,14 +2203,6 @@ Wait
 waitTime
 )
 ;
-PROFILER_MARKER_UNTYPED
-(
-"
-Wakeup
-"
-OTHER
-)
-;
 TimeStamp
 newTime
 =

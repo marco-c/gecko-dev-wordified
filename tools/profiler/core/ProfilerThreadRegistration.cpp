@@ -148,6 +148,13 @@ nsString
 .
 h
 "
+#
+include
+"
+platform
+.
+h
+"
 namespace
 mozilla
 :
@@ -397,6 +404,10 @@ this
 }
 )
 ;
+profiler_mark_thread_awake
+(
+)
+;
 }
 ThreadRegistration
 :
@@ -576,6 +587,10 @@ Name
 return
 ;
 }
+profiler_mark_thread_asleep
+(
+)
+;
 ThreadRegistry
 :
 :
