@@ -3024,9 +3024,6 @@ CSSLayerBlockRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -3051,9 +3048,6 @@ name
 CSSLayerStatementRule
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
