@@ -581,7 +581,6 @@ SessionStore
 .
 getClosedWindowData
 (
-false
 )
 ;
 let

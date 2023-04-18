@@ -224,7 +224,6 @@ SessionStore
 .
 getClosedWindowData
 (
-false
 )
 ;
 for
@@ -857,7 +856,6 @@ SessionStore
 .
 getClosedWindowData
 (
-false
 )
 ;
 let

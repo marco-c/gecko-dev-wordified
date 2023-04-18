@@ -400,15 +400,10 @@ url
 }
 ]
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedWindowData
 (
-)
 )
 ;
 is
