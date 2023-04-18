@@ -13795,6 +13795,10 @@ CreateBGRA8DataSourceSurfaceForD3D11Texture
 ID3D11Texture2D
 *
 aSrcTexture
+uint32_t
+aArrayIndex
+=
+0
 )
 ;
 static
@@ -13822,6 +13826,10 @@ aDestCpuTexture
 ID3D11Texture2D
 *
 aSrcTexture
+uint32_t
+aArrayIndex
+=
+0
 )
 ;
 private
@@ -13910,6 +13918,10 @@ aDestCpuTexture
 ID3D11Texture2D
 *
 aSrcTexture
+uint32_t
+aArrayIndex
+=
+0
 )
 ;
 protected

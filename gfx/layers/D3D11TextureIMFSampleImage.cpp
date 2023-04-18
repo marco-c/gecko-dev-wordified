@@ -399,6 +399,7 @@ Factory
 CreateBGRA8DataSourceSurfaceForD3D11Texture
 (
 src
+mArrayIndex
 )
 ;
 }
