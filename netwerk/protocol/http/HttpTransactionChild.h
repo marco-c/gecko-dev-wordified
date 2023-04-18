@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIEarlyHintObserver
-.
-h
-"
-#
-include
-"
 nsIRequest
 .
 h
@@ -395,8 +388,6 @@ public
 nsIThrottledInputChannel
 public
 nsIThreadRetargetableStreamListener
-public
-nsIEarlyHintObserver
 {
 public
 :
@@ -406,7 +397,6 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSITHROTTLEDINPUTCHANNEL
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
-NS_DECL_NSIEARLYHINTOBSERVER
 explicit
 HttpTransactionChild
 (
