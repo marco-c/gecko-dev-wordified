@@ -630,6 +630,7 @@ GetOverflowState
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FireScrollPortEvent
 (
@@ -910,6 +911,7 @@ aDelayed
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireScrollEvent
 (
@@ -920,6 +922,7 @@ PostScrolledAreaEvent
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireScrolledAreaEvent
 (
