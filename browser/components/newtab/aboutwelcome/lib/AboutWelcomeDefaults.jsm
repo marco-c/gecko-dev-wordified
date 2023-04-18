@@ -188,9 +188,10 @@ backdrop
 :
 "
 #
-212121
+F9F9FB
 url
 (
+'
 chrome
 :
 /
@@ -207,11 +208,12 @@ content
 /
 assets
 /
-proton
+fx100
 -
-bkg
+noodles
 .
-avif
+svg
+'
 )
 center
 /
