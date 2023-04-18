@@ -132,6 +132,13 @@ mozilla
 :
 OriginAttributes
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 /
 /
 /
