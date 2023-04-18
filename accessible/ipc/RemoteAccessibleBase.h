@@ -2014,6 +2014,10 @@ friend
 class
 xpcAccessible
 ;
+friend
+class
+CachedTableCellAccessible
+;
 nsTArray
 <
 Derived
