@@ -95,12 +95,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-newAppInfo
-*
-/
 var
 manifests
 =
