@@ -123,3 +123,11 @@ TestDllBlocklist_NoOpEntryPoint
 dll
 "
 ]
+OS_LIBS
++
+=
+[
+"
+uuid
+"
+]

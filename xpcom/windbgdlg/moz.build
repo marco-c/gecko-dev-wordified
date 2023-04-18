@@ -93,3 +93,14 @@ windbgdlg
 "
 ]
 )
+OS_LIBS
++
+=
+[
+"
+advapi32
+"
+"
+user32
+"
+]

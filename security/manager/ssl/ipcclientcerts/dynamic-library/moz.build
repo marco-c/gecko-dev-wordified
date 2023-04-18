@@ -239,6 +239,9 @@ OS_LIBS
 =
 [
 "
+advapi32
+"
+"
 userenv
 "
 "
