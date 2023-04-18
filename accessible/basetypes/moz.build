@@ -98,6 +98,11 @@ Accessible
 .
 h
 "
+"
+HyperTextAccessibleBase
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
