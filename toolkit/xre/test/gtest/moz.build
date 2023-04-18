@@ -107,11 +107,6 @@ TestCompatVersionCompare
 .
 cpp
 "
-"
-TestGeckoArgs
-.
-cpp
-"
 ]
 LOCAL_INCLUDES
 +
