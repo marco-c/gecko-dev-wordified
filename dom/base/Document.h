@@ -1210,7 +1210,7 @@ uint8_t
 ;
 enum
 class
-StylePrefersColorScheme
+ColorScheme
 :
 uint8_t
 ;
@@ -24665,8 +24665,8 @@ No
 Yes
 }
 ;
-StylePrefersColorScheme
-PrefersColorScheme
+ColorScheme
+PreferredColorScheme
 (
 IgnoreRFP
 =
