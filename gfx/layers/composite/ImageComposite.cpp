@@ -1358,6 +1358,13 @@ mTextureHost
 aTexture
 )
 {
+aTexture
+-
+>
+UnbindTextureSource
+(
+)
+;
 mImages
 .
 RemoveElementAt
