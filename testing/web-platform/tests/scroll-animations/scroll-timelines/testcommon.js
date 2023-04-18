@@ -504,7 +504,7 @@ options
 |
 |
 {
-scrollSource
+source
 :
 createScroller
 (
@@ -532,7 +532,7 @@ createScrollTimeline
 (
 test
 {
-scrollSource
+source
 :
 createScroller
 (
