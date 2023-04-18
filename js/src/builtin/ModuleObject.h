@@ -1833,13 +1833,6 @@ script
 )
 const
 ;
-Scope
-*
-enclosingScope
-(
-)
-const
-;
 ModuleEnvironmentObject
 &
 initialEnvironment
