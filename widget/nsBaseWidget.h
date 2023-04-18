@@ -884,6 +884,7 @@ nsIWidgetListener
 GetWidgetListener
 (
 )
+const
 override
 ;
 void
@@ -1875,6 +1876,7 @@ nsIWidgetListener
 GetAttachedWidgetListener
 (
 )
+const
 override
 ;
 void
