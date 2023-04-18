@@ -271,7 +271,7 @@ public
 ChainedIterator
 <
 ArenaListIter
-4
+3
 >
 {
 public
@@ -305,15 +305,6 @@ zone
 arenas
 .
 getFirstCollectingArena
-(
-kind
-)
-zone
--
->
-arenas
-.
-getFirstArenaToSweep
 (
 kind
 )
