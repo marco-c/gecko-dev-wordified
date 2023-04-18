@@ -906,16 +906,6 @@ allow
 Atom
 (
 "
-allowdirs
-"
-"
-allowdirs
-"
-)
-    
-Atom
-(
-"
 allowdownloads
 "
 "
