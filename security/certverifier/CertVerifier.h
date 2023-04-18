@@ -1432,8 +1432,6 @@ CertificateTransparencyMode
 ctMode
 CRLiteMode
 crliteMode
-uint64_t
-crliteCTMergeDelaySeconds
 const
 Vector
 <
@@ -1508,10 +1506,6 @@ mCTMode
 const
 CRLiteMode
 mCRLiteMode
-;
-const
-uint64_t
-mCRLiteCTMergeDelaySeconds
 ;
 private
 :
