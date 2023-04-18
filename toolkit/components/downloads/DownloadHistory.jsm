@@ -913,6 +913,11 @@ metaData
 =
 {
 state
+deleted
+:
+download
+.
+deleted
 endTime
 :
 download
@@ -1521,6 +1526,7 @@ like
 {
 targetFileSpec
 state
+deleted
 endTime
 fileSize
 .
@@ -2567,6 +2573,14 @@ metaData
 .
 endTime
 ;
+this
+.
+deleted
+=
+metaData
+.
+deleted
+;
 /
 /
 Recreate
@@ -2875,6 +2889,12 @@ null
 this
 .
 canceled
+=
+false
+;
+this
+.
+deleted
 =
 false
 ;
