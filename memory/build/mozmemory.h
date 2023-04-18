@@ -156,6 +156,10 @@ jemalloc_stats
 /
 /
 -
+jemalloc_stats_num_bins
+/
+/
+-
 jemalloc_purge_freed_pages
 /
 /
