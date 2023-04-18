@@ -16869,6 +16869,15 @@ Zone
 MarkBlackOnly
 )
 ;
+zone
+-
+>
+arenas
+.
+moveArenasToCollectingLists
+(
+)
+;
 }
 if
 (
@@ -19095,7 +19104,7 @@ zone
 >
 arenas
 .
-mergeNewArenasInMarkPhase
+mergeArenasFromCollectingLists
 (
 )
 ;
