@@ -116,6 +116,8 @@ windows
 gl
 :
 {
+any
+(
 all
 (
 not
@@ -123,6 +125,8 @@ not
 wasm
 )
 unix_wo_apple
+)
+wasm
 )
 }
 }

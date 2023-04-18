@@ -10,11 +10,14 @@ ConstantSolvingError
 token
 :
 :
-{
-SourceMetadata
 TokenValue
 }
-}
+;
+use
+crate
+:
+:
+Span
 ;
 use
 pp_rs
@@ -1068,5 +1071,5 @@ happened
 pub
 meta
 :
-SourceMetadata
+Span
 }
