@@ -316,6 +316,12 @@ desc
 .
 isAsmJS
 )
+importedOrExported
+(
+desc
+.
+importedOrExported
+)
 length_
 (
 desc
@@ -397,6 +403,12 @@ isAsmJS_
 desc
 .
 isAsmJS
+)
+importedOrExported
+(
+desc
+.
+importedOrExported
 )
 length_
 (
@@ -1226,7 +1238,7 @@ nullptr
 ;
 }
 }
-void
+bool
 Table
 :
 :
@@ -1288,6 +1300,7 @@ i
 ;
 }
 return
+true
 ;
 }
 RootedFunction
@@ -1462,6 +1475,9 @@ instance
 )
 ;
 }
+return
+true
+;
 }
 AnyRef
 Table

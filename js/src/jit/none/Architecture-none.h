@@ -1084,6 +1084,13 @@ ShadowStackSpace
 static
 const
 uint32_t
+SizeOfReturnAddressAfterCall
+=
+0u
+;
+static
+const
+uint32_t
 JumpImmediateRange
 =
 INT32_MAX
