@@ -209,11 +209,11 @@ image
 *
 *
 *
-Provider
+Producer
 ID
 for
 image
-providers
+containers
 created
 by
 this
@@ -228,7 +228,7 @@ readonly
 attribute
 unsigned
 long
-providerId
+producerId
 ;
 /
 *

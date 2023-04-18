@@ -689,7 +689,7 @@ NS_IMETHODIMP
 DynamicImage
 :
 :
-GetProviderId
+GetProducerId
 (
 uint32_t
 *
@@ -966,7 +966,7 @@ ImgDrawResult
 DynamicImage
 :
 :
-GetImageProvider
+GetImageContainerAtSize
 (
 WindowRenderer
 *
@@ -994,10 +994,13 @@ ImageIntRegion
 aRegion
 uint32_t
 aFlags
-WebRenderImageProvider
+layers
+:
+:
+ImageContainer
 *
 *
-aProvider
+aContainer
 )
 {
 return
