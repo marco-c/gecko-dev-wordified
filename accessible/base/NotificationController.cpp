@@ -5135,6 +5135,13 @@ created
 )
 ;
 }
+mDocument
+-
+>
+ProcessPendingUpdates
+(
+)
+;
 nsTArray
 <
 CacheData
