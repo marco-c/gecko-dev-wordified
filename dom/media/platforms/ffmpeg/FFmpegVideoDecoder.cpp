@@ -1404,7 +1404,7 @@ NS_ERROR_DOM_MEDIA_FATAL_ERR
 StaticMutexAutoLock
 mon
 (
-sMonitor
+sMutex
 )
 ;
 if
