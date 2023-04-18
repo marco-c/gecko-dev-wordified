@@ -161,6 +161,12 @@ mObserveProxyResponse
 false
 }
 ;
+bool
+mObserveConnection
+{
+false
+}
+;
 }
 ;
 }
