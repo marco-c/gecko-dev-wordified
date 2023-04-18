@@ -58,7 +58,7 @@ MPL
 /
 const
 {
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 }
 =
 ChromeUtils
@@ -193,9 +193,9 @@ globalContext
 {
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 }
 ;
 const

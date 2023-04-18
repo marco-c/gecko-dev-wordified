@@ -119,7 +119,7 @@ BrowsingContextListener
 .
 jsm
 "
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 :
 "
 chrome
@@ -630,9 +630,9 @@ contextDescriptor
 {
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 }
 values
 :
@@ -715,9 +715,9 @@ contextDescriptor
 {
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 }
 values
 :

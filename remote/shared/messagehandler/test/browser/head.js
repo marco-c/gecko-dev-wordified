@@ -63,7 +63,7 @@ strict
 ;
 var
 {
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 }
 =
 ChromeUtils
@@ -95,9 +95,9 @@ contextDescriptorAll
 {
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 }
 ;
 function

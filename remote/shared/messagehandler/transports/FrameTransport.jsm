@@ -100,7 +100,7 @@ defineLazyModuleGetters
 (
 this
 {
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 :
 "
 chrome
@@ -671,9 +671,9 @@ type
 =
 =
 =
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 )
 {
 return
@@ -690,9 +690,9 @@ type
 =
 =
 =
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-TOP_BROWSING_CONTEXT
+TopBrowsingContext
 )
 {
 const

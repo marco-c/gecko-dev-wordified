@@ -100,7 +100,7 @@ defineLazyModuleGetters
 (
 this
 {
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 :
 "
 chrome
@@ -646,9 +646,9 @@ instance
 /
 type
 :
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-BROWSER_ELEMENT
+BrowserElement
 /
 /
 id
@@ -693,9 +693,9 @@ type
 =
 =
 =
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-BROWSER_ELEMENT
+BrowserElement
 &
 &
 /
@@ -741,9 +741,9 @@ type
 =
 =
 =
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 ;
 }
 }

@@ -118,7 +118,7 @@ Services
 .
 jsm
 "
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 :
 "
 chrome
@@ -1656,9 +1656,9 @@ type
 =
 =
 =
-CONTEXT_DESCRIPTOR_TYPES
+ContextDescriptorType
 .
-ALL
+All
 )
 {
 /
@@ -1668,7 +1668,9 @@ the
 id
 for
 type
-ALL
+"
+all
+"
 since
 we
 made
