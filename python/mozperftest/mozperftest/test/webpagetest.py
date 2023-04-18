@@ -856,6 +856,12 @@ values
 )
             
 ]
+            
+"
+shouldAlert
+"
+:
+True
         
 }
     
@@ -2269,14 +2275,16 @@ a
 threshold
 for
 failures
-maybe
-fail
-after
-data
-processing
+and
+consider
+failing
+see
+bug
+1762470
             
-raise
-WPTErrorWithWebsite
+self
+.
+warning
 (
                 
 f
@@ -2448,7 +2456,6 @@ name
 :
 "
 mozperftest
-:
 "
 }
                 
@@ -2465,6 +2472,12 @@ webpagetest
 :
 WebPageTestData
 "
+                
+"
+shouldAlert
+"
+:
+True
                 
 "
 results
@@ -2490,6 +2503,12 @@ name
 "
 :
 metric_name
+                        
+"
+shouldAlert
+"
+:
+True
                     
 }
                     
