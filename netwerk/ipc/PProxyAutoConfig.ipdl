@@ -152,11 +152,6 @@ nsCString
 aResult
 )
 ;
-async
-GC
-(
-)
-;
 }
 ;
 }
