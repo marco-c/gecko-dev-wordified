@@ -164,6 +164,7 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 ExtensionTest
 mGlobal
+mExtensionBrowser
 mOnMessageEventMgr
 )
 ;
@@ -194,10 +195,19 @@ mGlobal
 (
 aGlobal
 )
+mExtensionBrowser
+(
+aExtensionBrowser
+)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
 mGlobal
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mExtensionBrowser
 )
 ;
 }

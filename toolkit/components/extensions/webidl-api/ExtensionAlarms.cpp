@@ -128,6 +128,7 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 ExtensionAlarms
 mGlobal
+mExtensionBrowser
 mOnAlarmEventMgr
 )
 ;
@@ -158,10 +159,19 @@ mGlobal
 (
 aGlobal
 )
+mExtensionBrowser
+(
+aExtensionBrowser
+)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
 mGlobal
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+mExtensionBrowser
 )
 ;
 }
