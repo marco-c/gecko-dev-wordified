@@ -571,6 +571,7 @@ Blur
 (
 Au
 Au
+bool
 )
 Brightness
 (
@@ -901,10 +902,11 @@ Filter
 :
 :
 Blur
-(
+{
 width
 height
-)
+should_inflate
+}
 =
 >
 PictureCompositeKey
@@ -926,6 +928,7 @@ from_f32_px
 (
 height
 )
+should_inflate
 )
 Filter
 :
