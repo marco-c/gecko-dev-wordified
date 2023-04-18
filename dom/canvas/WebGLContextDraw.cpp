@@ -2448,13 +2448,11 @@ intersection
 )
 ;
 return
-bool
-(
+!
 intersection
 .
-size
+empty
 (
-)
 )
 ;
 }
