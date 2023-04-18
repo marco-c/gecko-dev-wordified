@@ -120,7 +120,6 @@ picture
 {
 PrimitiveList
 PictureCompositeMode
-PictureOptions
 PicturePrimitive
 SliceId
 }
@@ -3955,12 +3954,6 @@ PrimitiveFlags
 IS_BACKFACE_VISIBLE
 prim_list
 scroll_root
-PictureOptions
-:
-:
-default
-(
-)
 )
 )
 ;
