@@ -794,7 +794,7 @@ win
 signing_format
 =
 "
-autograph_authenticode
+autograph_authenticode_sha2
 "
     
 elif

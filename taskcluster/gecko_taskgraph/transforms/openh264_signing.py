@@ -472,7 +472,7 @@ formats
 =
 [
 "
-autograph_authenticode
+autograph_authenticode_sha2
 "
 ]
         
