@@ -295,11 +295,6 @@ ClassifierDummyChannelParent
 h
 "
 "
-EarlyHintsPreloader
-.
-h
-"
-"
 HttpAuthUtils
 .
 h
@@ -529,11 +524,6 @@ cpp
 "
 "
 DnsAndConnectSocket
-.
-cpp
-"
-"
-EarlyHintsPreloader
 .
 cpp
 "
