@@ -107,12 +107,16 @@ like
 so
 :
 *
-Components
-.
-utils
+const
+{
+Reflect
+}
+=
+ChromeUtils
 .
 import
 (
+*
 "
 resource
 :
@@ -126,6 +130,7 @@ reflect
 .
 jsm
 "
+*
 )
 ;
 *

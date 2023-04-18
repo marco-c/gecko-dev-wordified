@@ -894,6 +894,7 @@ ChromeUtils
 .
 import
 (
+          
 "
 resource
 :
@@ -907,6 +908,7 @@ Services
 .
 jsm
 "
+        
 )
 ;
         
@@ -1049,11 +1051,21 @@ marionette
 execute_script
 (
                 
-'
-Cu
+"
+"
+"
+\
+                
+const
+{
+ClientID
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -1067,11 +1079,10 @@ ClientID
 .
 jsm
 "
+                
 )
 ;
-'
                 
-"
 return
 ClientID
 .
@@ -1079,6 +1090,9 @@ getCachedClientID
 (
 )
 ;
+            
+"
+"
 "
             
 )
@@ -1352,10 +1366,16 @@ resolve
 arguments
 ;
             
-Cu
+const
+{
+TelemetryEnvironment
+}
+=
+ChromeUtils
 .
 import
 (
+              
 "
 resource
 :
@@ -1369,6 +1389,7 @@ TelemetryEnvironment
 .
 jsm
 "
+            
 )
 ;
             

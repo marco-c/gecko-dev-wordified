@@ -107,9 +107,12 @@ like
 so
 :
 *
-Components
-.
-utils
+const
+{
+ctypes
+}
+=
+ChromeUtils
 .
 import
 (
