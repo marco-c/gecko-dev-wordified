@@ -30218,8 +30218,6 @@ nsIPrincipal
 aPrincipal
 int32_t
 aDelay
-bool
-aMetaRefresh
 )
 {
 MOZ_ASSERT
@@ -30392,7 +30390,6 @@ this
 aURI
 aPrincipal
 aDelay
-aMetaRefresh
 )
 ;
 BusyFlags
@@ -30578,8 +30575,6 @@ nsIPrincipal
 aPrincipal
 int32_t
 aDelay
-bool
-aMetaRefresh
 nsITimer
 *
 aTimer
@@ -30679,7 +30674,6 @@ ForceRefreshURI
 aURI
 aPrincipal
 aDelay
-aMetaRefresh
 )
 ;
 }
@@ -30697,8 +30691,6 @@ nsIPrincipal
 aPrincipal
 int32_t
 aDelay
-bool
-aMetaRefresh
 )
 {
 NS_ENSURE_ARG
@@ -30755,7 +30747,7 @@ loadState
 >
 SetIsMetaRefresh
 (
-aMetaRefresh
+true
 )
 ;
 /
@@ -30932,13 +30924,8 @@ rv
 )
 &
 &
-(
 !
 equalUri
-)
-&
-&
-aMetaRefresh
 &
 &
 aDelay
@@ -32876,7 +32863,6 @@ aPrincipal
 seconds
 *
 1000
-true
 )
 ;
 }

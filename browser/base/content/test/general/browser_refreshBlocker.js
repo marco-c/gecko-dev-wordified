@@ -244,7 +244,6 @@ refreshURI
 URI
 null
 0
-true
 )
 ;
 Assert

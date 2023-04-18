@@ -1671,8 +1671,6 @@ nsIPrincipal
 aPrincipal
 int32_t
 aDelay
-bool
-aMetaRefresh
 nsITimer
 *
 aTimer
