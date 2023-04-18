@@ -8054,7 +8054,7 @@ mCurrentLoad
 >
 Cancel
 (
-NS_BINDING_ABORTED
+NS_BINDING_CANCELLED_OLD_LOAD
 )
 ;
 }
@@ -8211,7 +8211,7 @@ mCurrentLoad
 >
 Cancel
 (
-NS_BINDING_ABORTED
+NS_BINDING_CANCELLED_OLD_LOAD
 )
 ;
 }
@@ -8368,7 +8368,7 @@ mCurrentLoad
 >
 Cancel
 (
-NS_BINDING_ABORTED
+NS_BINDING_CANCELLED_OLD_LOAD
 )
 ;
 }
@@ -8516,7 +8516,7 @@ mCurrentLoad
 >
 Cancel
 (
-NS_BINDING_ABORTED
+NS_BINDING_CANCELLED_OLD_LOAD
 )
 ;
 }
@@ -13509,7 +13509,7 @@ mCurrentLoad
 >
 Cancel
 (
-NS_BINDING_ABORTED
+NS_BINDING_CANCELLED_OLD_LOAD
 )
 ;
 }
