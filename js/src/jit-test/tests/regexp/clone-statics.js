@@ -16,7 +16,7 @@ helperThreadCount
 =
 =
 0
-offThreadCompileScript
+offThreadCompileToStencil
 (
 function
 foo
@@ -107,7 +107,15 @@ foo
 ;
 )
 ;
-runOffThreadScript
+var
+stencil
+=
+finishOffThreadCompileToStencil
 (
+)
+;
+evalStencil
+(
+stencil
 )
 ;

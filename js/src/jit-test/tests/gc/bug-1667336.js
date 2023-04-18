@@ -47,11 +47,12 @@ gczeal
 ;
 g
 .
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 "
 )
+;
 setJitCompilerOption
 (
 "

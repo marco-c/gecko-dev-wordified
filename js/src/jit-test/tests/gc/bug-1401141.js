@@ -57,7 +57,7 @@ newGlobal
 ;
 lfGlobal
 .
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 "

@@ -27,7 +27,7 @@ function
 (
 )
 {
-offThreadCompileScript
+offThreadCompileToStencil
 (
 '
 '

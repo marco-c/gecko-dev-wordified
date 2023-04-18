@@ -25,7 +25,7 @@ newGlobal
 (
 )
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 let

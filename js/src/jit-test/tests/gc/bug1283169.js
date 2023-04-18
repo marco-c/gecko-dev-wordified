@@ -26,7 +26,7 @@ startgc
 45
 )
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 print

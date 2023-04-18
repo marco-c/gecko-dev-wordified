@@ -38,7 +38,7 @@ newGlobal
 (
 )
 .
-offThreadCompileScript
+offThreadCompileToStencil
 (
 \
 "
