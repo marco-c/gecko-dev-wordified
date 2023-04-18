@@ -95,11 +95,6 @@ CertDBTest
 cpp
 "
 "
-CertListTest
-.
-cpp
-"
-"
 CoseTest
 .
 cpp
