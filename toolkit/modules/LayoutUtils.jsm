@@ -212,7 +212,10 @@ parentFrame
 =
 win
 .
-frameElement
+browsingContext
+?
+.
+embedderElement
 ;
 while
 (
@@ -290,7 +293,10 @@ parentFrame
 =
 win
 .
-frameElement
+browsingContext
+?
+.
+embedderElement
 ;
 }
 return
