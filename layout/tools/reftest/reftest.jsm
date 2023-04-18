@@ -12891,9 +12891,13 @@ unwriteableMarginBottom
 ;
 ps
 .
-printToFile
+outputDestination
 =
-true
+Ci
+.
+nsIPrintSettings
+.
+kOutputDestinationFile
 ;
 ps
 .

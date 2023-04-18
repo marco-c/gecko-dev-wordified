@@ -2882,9 +2882,12 @@ job
 aNSSettings
 -
 >
-SetPrintToFile
+SetOutputDestination
 (
-false
+nsIPrintSettings
+:
+:
+kOutputDestinationPrinter
 )
 ;
 aNSSettings
