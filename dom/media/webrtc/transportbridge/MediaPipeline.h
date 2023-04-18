@@ -2762,11 +2762,6 @@ OnRtpPacketReceived
 )
 override
 ;
-void
-OnFrameDelivered
-(
-)
-;
 private
 :
 void
