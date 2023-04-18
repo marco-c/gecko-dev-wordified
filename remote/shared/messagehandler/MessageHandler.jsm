@@ -388,7 +388,11 @@ should
 be
 a
 *
-browserId
+WindowManager
+UUID
+created
+by
+getIdForBrowser
 .
 *
 /
