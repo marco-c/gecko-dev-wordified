@@ -6113,6 +6113,7 @@ ctx
 GetSharedWebrtcState
 (
 )
+mIdGenerator
 &
 transceiverImpl
 )

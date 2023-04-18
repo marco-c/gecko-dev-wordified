@@ -201,6 +201,9 @@ class
 MediaTransportHandler
 ;
 class
+RTCStatsIdGenerator
+;
+class
 WebrtcCallWrapper
 ;
 class
@@ -368,6 +371,9 @@ aSendTrack
 WebrtcCallWrapper
 *
 aCallWrapper
+RTCStatsIdGenerator
+*
+aIdGenerator
 )
 ;
 bool

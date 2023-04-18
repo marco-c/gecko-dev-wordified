@@ -179,6 +179,9 @@ class
 JsepTransceiver
 ;
 class
+RTCStatsIdGenerator
+;
+class
 TransceiverImpl
 ;
 namespace
@@ -241,6 +244,9 @@ aStsThread
 MediaSessionConduit
 *
 aConduit
+RTCStatsIdGenerator
+*
+aIdGenerator
 TransceiverImpl
 *
 aTransceiverImpl
@@ -761,6 +767,12 @@ RefPtr
 MediaTransportHandler
 >
 mTransportHandler
+;
+RefPtr
+<
+RTCStatsIdGenerator
+>
+mIdGenerator
 ;
 RefPtr
 <
