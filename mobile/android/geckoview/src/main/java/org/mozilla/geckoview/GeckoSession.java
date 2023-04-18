@@ -37259,6 +37259,14 @@ getContentDelegate
 (
 )
 ;
+if
+(
+delegate
+!
+=
+null
+)
+{
 delegate
 .
 onPointerIconChange
@@ -37267,6 +37275,7 @@ this
 icon
 )
 ;
+}
 }
 /
 *
