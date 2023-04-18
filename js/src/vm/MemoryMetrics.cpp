@@ -5417,6 +5417,13 @@ by
 a
 HelperThread
 .
+if
+(
+IsHelperThreadStateInitialized
+(
+)
+)
+{
 HelperThreadState
 (
 )
@@ -5427,6 +5434,7 @@ gStats
 lock
 )
 ;
+}
 #
 ifdef
 JS_TRACE_LOGGING
