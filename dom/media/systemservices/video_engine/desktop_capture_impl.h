@@ -798,11 +798,6 @@ Callback
 public
 VideoCaptureModule
 {
-/
-/
-public
-VideoCaptureExternal
-{
 public
 :
 /
@@ -923,10 +918,6 @@ CurrentDeviceName
 const
 override
 ;
-/
-/
-Implement
-VideoCaptureExternal
 /
 /
 |
