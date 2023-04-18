@@ -220,7 +220,8 @@ mPCHandle
 )
 ;
 mCreatedGmpPluginEvent
-.
+-
+>
 Forward
 (
 *
@@ -233,7 +234,8 @@ InitPluginEvent
 )
 ;
 mReleasedGmpPluginEvent
-.
+-
+>
 Forward
 (
 *
@@ -776,7 +778,8 @@ mPCHandle
 )
 ;
 mCreatedGmpPluginEvent
-.
+-
+>
 Forward
 (
 *
@@ -789,7 +792,8 @@ InitPluginEvent
 )
 ;
 mReleasedGmpPluginEvent
-.
+-
+>
 Forward
 (
 *
