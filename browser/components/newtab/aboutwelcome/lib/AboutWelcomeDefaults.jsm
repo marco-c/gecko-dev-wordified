@@ -1070,11 +1070,11 @@ type
 addonInfo
 .
 type
-themePreviewInfo
+screenshots
 :
 addonInfo
 .
-previews
+screenshots
 }
 ;
 }
