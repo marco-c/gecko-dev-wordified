@@ -6299,6 +6299,10 @@ mChannel
 =
 nullptr
 ;
+Unfollow
+(
+)
+;
 }
 NS_IMETHODIMP
 FetchDriver
@@ -9765,6 +9769,10 @@ nullptr
 mChannel
 =
 nullptr
+;
+Unfollow
+(
+)
 ;
 }
 NS_IMETHODIMP
