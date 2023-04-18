@@ -16340,6 +16340,10 @@ Construct
 aPipeline
 -
 >
+GetTimestampMaker
+(
+)
+.
 GetNow
 (
 )

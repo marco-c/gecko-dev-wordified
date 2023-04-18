@@ -339,12 +339,6 @@ MediaSessionConduit
 conduit
 )
 ;
-DOMHighResTimeStamp
-GetNow
-(
-)
-const
-;
 /
 /
 Allow
