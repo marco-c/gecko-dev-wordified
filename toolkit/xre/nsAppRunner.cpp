@@ -22457,8 +22457,13 @@ false
 }
 #
 endif
-static
 void
+mozilla
+:
+:
+startup
+:
+:
 IncreaseDescriptorLimits
 (
 )
@@ -23343,6 +23348,12 @@ NS_BREAK
 ;
 #
 endif
+mozilla
+:
+:
+startup
+:
+:
 IncreaseDescriptorLimits
 (
 )
