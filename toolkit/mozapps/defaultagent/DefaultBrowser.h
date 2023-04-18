@@ -153,6 +153,10 @@ EdgeWithBlink
 InternetExplorer
 Opera
 Brave
+Yandex
+QQBrowser
+_360Browser
+Sogou
 )
 )
 ;
