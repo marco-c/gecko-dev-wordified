@@ -553,7 +553,7 @@ FramesToUs
 (
 uint32_t
 frames
-int
+uint32_t
 rate
 )
 {
@@ -869,7 +869,13 @@ IsEmpty
 )
 {
 return
+static_cast
+<
+int64_t
+>
+(
 mBasePosition
+)
 ;
 }
 const
@@ -1712,9 +1718,6 @@ NS_ERROR_FAILURE
 if
 (
 aPreservesPitch
-=
-=
-true
 )
 {
 mTimeStretcher
@@ -2435,6 +2438,11 @@ mCubebStream
 get
 (
 )
+static_cast
+<
+float
+>
+(
 aVolume
 *
 CubebUtils
@@ -2442,6 +2450,7 @@ CubebUtils
 :
 GetVolumeScale
 (
+)
 )
 )
 !
@@ -3334,6 +3343,11 @@ return
 ;
 }
 return
+static_cast
+<
+int64_t
+>
+(
 std
 :
 :
@@ -3344,6 +3358,7 @@ uint64_t
 (
 position
 INT64_MAX
+)
 )
 ;
 }
@@ -3404,8 +3419,7 @@ return
 false
 ;
 }
-if
-(
+return
 aChunk
 -
 >
@@ -3414,14 +3428,6 @@ Channels
 )
 >
 8
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 void
@@ -3487,6 +3493,7 @@ numSamples
 )
 {
 auto
+*
 timeStretcher
 =
 mTimeStretcher
@@ -4034,6 +4041,7 @@ Frames
 }
 }
 auto
+*
 timeStretcher
 =
 mTimeStretcher
