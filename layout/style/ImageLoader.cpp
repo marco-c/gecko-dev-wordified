@@ -3518,7 +3518,7 @@ WebRenderUserData
 UserDataType
 :
 :
-eImageProvider
+eImage
 :
 if
 (
@@ -3527,7 +3527,7 @@ static_cast
 layers
 :
 :
-WebRenderImageProviderData
+WebRenderImageData
 *
 >
 (
@@ -3539,12 +3539,12 @@ get
 )
 -
 >
-Invalidate
+UsingSharedSurface
 (
 aRequest
 -
 >
-GetProviderId
+GetProducerId
 (
 )
 )

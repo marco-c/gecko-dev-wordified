@@ -414,7 +414,7 @@ Resolution
 h
 "
 "
-WebRenderImageProvider
+SourceSurfaceBlobImage
 .
 h
 "
@@ -430,11 +430,6 @@ cpp
 "
 "
 AnimationSurfaceProvider
-.
-cpp
-"
-"
-BlobSurfaceProvider
 .
 cpp
 "
@@ -570,6 +565,11 @@ cpp
 "
 "
 SourceBuffer
+.
+cpp
+"
+"
+SourceSurfaceBlobImage
 .
 cpp
 "
