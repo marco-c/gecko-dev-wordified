@@ -1210,7 +1210,9 @@ browserStopped
 tab
 .
 linkedBrowser
-null
+test
+.
+searchURL
 true
 )
 ]
