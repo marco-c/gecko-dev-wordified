@@ -2021,9 +2021,9 @@ ancestor
 bool
 DestroyFramesFor
 (
-Element
+nsIContent
 *
-aElement
+aContent
 )
 ;
 /
