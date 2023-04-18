@@ -3804,6 +3804,26 @@ FAILURE
 )
     
 #
+A
+WebSocket
+connection
+is
+failed
+.
+    
+errors
+[
+"
+NS_ERROR_WEBSOCKET_CONNECTION_REFUSED
+"
+]
+=
+FAILURE
+(
+87
+)
+    
+#
 XXX
 really
 need
