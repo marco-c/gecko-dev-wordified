@@ -584,16 +584,6 @@ aShaped
 ;
 #
 endif
-#
-ifdef
-MOZ_LOGGING
-bool
-IsPopup
-(
-)
-;
-#
-endif
 protected
 :
 RefPtr
