@@ -1542,6 +1542,10 @@ const
 SdpMediaSection
 &
 remote
+const
+SdpMediaSection
+&
+local
 )
 ;
 static
@@ -1975,7 +1979,14 @@ SdpMediaSection
 &
 remote
 bool
-isOffer
+remoteIsOffer
+Maybe
+<
+const
+SdpMediaSection
+&
+>
+local
 )
 ;
 JsConstraints
