@@ -98,6 +98,9 @@ reconfigure
 observeAsmJS
 :
 true
+observeWasm
+:
+true
 }
 )
 ;

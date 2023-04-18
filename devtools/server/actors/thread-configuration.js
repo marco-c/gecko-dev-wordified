@@ -267,6 +267,9 @@ md
 observeAsmJS
 :
 true
+observeWasm
+:
+true
 /
 /
 Should

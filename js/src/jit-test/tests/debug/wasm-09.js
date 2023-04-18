@@ -33,7 +33,7 @@ state
 of
 wasm
 when
-allowUnobservedAsmJS
+allowUnobservedWasm
 =
 =
 true
@@ -75,7 +75,7 @@ not
 enabled
 .
 function
-getWasmScriptWithoutAllowUnobservedAsmJS
+getWasmScriptWithoutAllowUnobservedWasm
 (
 wast
 )
@@ -102,7 +102,7 @@ Debugger
 ;
 dbg
 .
-allowUnobservedAsmJS
+allowUnobservedWasm
 =
 true
 ;
@@ -191,7 +191,7 @@ wasmScript
 var
 wasmScript1
 =
-getWasmScriptWithoutAllowUnobservedAsmJS
+getWasmScriptWithoutAllowUnobservedWasm
 (
 '
 (
@@ -297,7 +297,7 @@ enabled
 var
 wasmScript2
 =
-getWasmScriptWithoutAllowUnobservedAsmJS
+getWasmScriptWithoutAllowUnobservedWasm
 (
 '
 (

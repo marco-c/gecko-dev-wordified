@@ -349,6 +349,9 @@ removal
 observeAsmJS
 :
 true
+observeWasm
+:
+true
 breakpoints
 :
 sanitizeBreakpoints

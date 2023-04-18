@@ -539,6 +539,12 @@ true
 ;
 dbg
 .
+allowUnobservedWasm
+=
+true
+;
+dbg
+.
 uncaughtExceptionHook
 =
 reportDebuggerHookException
