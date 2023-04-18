@@ -360,6 +360,7 @@ export
 -
 clipboard
 (
+M
 )
 "
 "
@@ -372,6 +373,7 @@ export
 -
 file
 (
+F
 )
 "
 ]
@@ -563,6 +565,7 @@ export
 -
 clipboard
 (
+M
 )
 "
 "
@@ -575,6 +578,7 @@ export
 -
 file
 (
+F
 )
 "
 ]
