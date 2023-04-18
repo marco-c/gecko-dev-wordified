@@ -3081,7 +3081,7 @@ in
 JS
 :
 :
-DecodeMultiOffThreadStencils
+DecodeMultiStencilsOffThread
 .
 /
 /
