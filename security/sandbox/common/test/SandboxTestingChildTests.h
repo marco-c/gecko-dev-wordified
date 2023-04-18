@@ -546,7 +546,6 @@ ErrnoValueTest
 connect_abstract_blocked
 "
 _ns
-false
 ENETUNREACH
 [
 &
@@ -713,7 +712,6 @@ ErrnoValueTest
 connect_abstract_permit
 "
 _ns
-false
 ECONNREFUSED
 [
 &
@@ -1139,7 +1137,7 @@ SendReportTestResults
 CGSessionCopyCurrentDictionary
 "
 _ns
-false
+!
 gotWindowServerDetails
 gotWindowServerDetails
 ?
@@ -1589,7 +1587,6 @@ ErrnoValueTest
 ioctl_tiocsti
 "
 _ns
-false
 ENOSYS
 [
 &
@@ -1656,7 +1653,6 @@ ErrnoValueTest
 unlink
 "
 _ns
-false
 ENOENT
 [
 &
@@ -1686,7 +1682,6 @@ ErrnoValueTest
 unlinkat
 "
 _ns
-false
 ENOENT
 [
 &
