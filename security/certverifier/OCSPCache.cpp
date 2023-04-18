@@ -1295,6 +1295,12 @@ aProofOfLock
 /
 )
 {
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 if
 (
 mEntries
@@ -1497,6 +1503,12 @@ aProofOfLock
 /
 )
 {
+mMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 Entry
 *
 entry
