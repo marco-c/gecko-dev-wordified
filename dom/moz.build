@@ -454,6 +454,11 @@ prio
 "
 l10n
 "
+"
+origin
+-
+trials
+"
 ]
 if
 CONFIG
