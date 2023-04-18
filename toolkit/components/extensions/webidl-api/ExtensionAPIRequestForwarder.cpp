@@ -1821,6 +1821,15 @@ IsCurrentThreadRunningWorker
 )
 )
 ;
+mSWDescriptorId
+=
+mWorkerPrivate
+-
+>
+ServiceWorkerID
+(
+)
+;
 auto
 *
 workerScope
@@ -2670,6 +2679,7 @@ request
 Init
 (
 mClientInfo
+mSWDescriptorId
 callArgs
 callerStackValue
 )
