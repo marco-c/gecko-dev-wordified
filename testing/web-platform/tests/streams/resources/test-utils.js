@@ -412,7 +412,7 @@ if
 (
 self
 .
-testUtils
+TestUtils
 ?
 .
 gc
@@ -437,9 +437,9 @@ the
 -
 testutils
 -
-object
+namespace
 await
-testUtils
+TestUtils
 .
 gc
 (
