@@ -3475,23 +3475,13 @@ INFRA
 -
 ERROR
 :
-%
-s
 Failed
 to
 install
 %
 s
 "
-                
 %
-(
-type
-(
-e
-)
-.
-__name__
 os
 .
 path
@@ -3499,7 +3489,6 @@ path
 basename
 (
 app_path
-)
 )
                 
 EXIT_STATUS_DICT
