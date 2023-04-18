@@ -300,13 +300,6 @@ h
 "
 d3d11
 /
-ReadbackManagerD3D11
-.
-h
-"
-"
-d3d11
-/
 ShaderDefinitionsD3D11
 .
 h
@@ -353,13 +346,6 @@ cpp
 d3d11
 /
 DeviceAttachmentsD3D11
-.
-cpp
-"
-"
-d3d11
-/
-ReadbackManagerD3D11
 .
 cpp
 "
