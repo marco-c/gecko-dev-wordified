@@ -11186,9 +11186,6 @@ UChar32
 c
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -11255,7 +11252,7 @@ object
 for
 chaining
 *
-draft
+stable
 ICU
 69
 *
@@ -11270,11 +11267,6 @@ UnicodeString
 s
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

@@ -366,8 +366,10 @@ SPUString
 public
 UMemory
 {
+LocalPointer
+<
 UnicodeString
-*
+>
 fStr
 ;
 /
@@ -416,8 +418,10 @@ it
 )
 SPUString
 (
+LocalPointer
+<
 UnicodeString
-*
+>
 s
 )
 ;

@@ -1625,8 +1625,10 @@ status
 void
 generateIncrementOption
 (
-double
+uint32_t
 increment
+digits_t
+incrementMagnitude
 int32_t
 minFrac
 UnicodeString
