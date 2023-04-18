@@ -3548,10 +3548,6 @@ dom
 :
 Document
 *
-mozilla
-:
-:
-StyleSystemColorScheme
 const
 mozilla
 :
