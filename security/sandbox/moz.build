@@ -121,6 +121,13 @@ ini
 "
 test
 /
+browser_snap
+.
+ini
+"
+"
+test
+/
 browser_xdg
 .
 ini
