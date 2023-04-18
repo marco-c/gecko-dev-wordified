@@ -1176,28 +1176,18 @@ addPhaseKind
 (
                         
 "
-SWEEP_FINALIZATION_REGISTRIES
+SWEEP_FINALIZATION_OBSERVERS
 "
                         
 "
 Sweep
 FinalizationRegistries
+and
+WeakRefs
 "
                         
 74
                     
-)
-                    
-addPhaseKind
-(
-"
-SWEEP_WEAKREFS
-"
-"
-Sweep
-WeakRefs
-"
-75
 )
                     
 addPhaseKind
