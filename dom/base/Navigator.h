@@ -811,6 +811,11 @@ nsAString
 aResult
 )
 ;
+bool
+GlobalPrivacyControl
+(
+)
+;
 Geolocation
 *
 GetGeolocation
@@ -1780,6 +1785,9 @@ mLocks
 /
 namespace
 mozilla
+:
+:
+dom
 #
 endif
 /
