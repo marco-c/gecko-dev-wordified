@@ -865,7 +865,9 @@ true
 mRequest
 -
 >
-mLoadContext
+GetLoadContext
+(
+)
 -
 >
 NotifyStart
@@ -1478,7 +1480,9 @@ if
 mRequest
 -
 >
-mLoadContext
+GetLoadContext
+(
+)
 -
 >
 IsPreload
@@ -1489,7 +1493,9 @@ IsPreload
 mRequest
 -
 >
-mLoadContext
+GetLoadContext
+(
+)
 -
 >
 GetScriptElement
@@ -1964,7 +1970,9 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-mLoadContext
+GetLoadContext
+(
+)
 -
 >
 GetScriptElement
@@ -2035,7 +2043,9 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-mLoadContext
+GetLoadContext
+(
+)
 -
 >
 GetScriptElement
@@ -2072,7 +2082,9 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-mLoadContext
+GetLoadContext
+(
+)
 -
 >
 GetScriptElement
@@ -2219,7 +2231,9 @@ true
 mRequest
 -
 >
-mLoadContext
+GetLoadContext
+(
+)
 -
 >
 NotifyStart
@@ -2240,7 +2254,9 @@ MakeScopeExit
 mRequest
 -
 >
-mLoadContext
+GetLoadContext
+(
+)
 -
 >
 NotifyStop

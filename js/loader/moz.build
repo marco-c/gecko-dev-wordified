@@ -94,6 +94,11 @@ loader
 =
 [
 "
+LoadContextBase
+.
+h
+"
+"
 LoadedScript
 .
 h
@@ -123,6 +128,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+LoadContextBase
+.
+cpp
+"
 "
 LoadedScript
 .
