@@ -1896,6 +1896,8 @@ void
 user_ptr
 cubeb_resampler_quality
 quality
+cubeb_resampler_reclock
+reclock
 )
 {
 cubeb_sample_format
@@ -1953,6 +1955,7 @@ target_rate
 callback
 user_ptr
 quality
+reclock
 )
 ;
 case
@@ -1971,6 +1974,7 @@ target_rate
 callback
 user_ptr
 quality
+reclock
 )
 ;
 default

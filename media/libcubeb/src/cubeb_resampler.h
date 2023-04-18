@@ -72,6 +72,14 @@ CUBEB_RESAMPLER_QUALITY_DESKTOP
 }
 cubeb_resampler_quality
 ;
+typedef
+enum
+{
+CUBEB_RESAMPLER_RECLOCK_NONE
+CUBEB_RESAMPLER_RECLOCK_INPUT
+}
+cubeb_resampler_reclock
+;
 /
 *
 *
@@ -271,6 +279,8 @@ void
 user_ptr
 cubeb_resampler_quality
 quality
+cubeb_resampler_reclock
+reclock
 )
 ;
 /
