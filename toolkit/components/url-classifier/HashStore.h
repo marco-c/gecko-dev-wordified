@@ -113,13 +113,6 @@ h
 "
 #
 include
-"
-nsClassHashtable
-.
-h
-"
-#
-include
 <
 string
 >

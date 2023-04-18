@@ -397,15 +397,6 @@ h
 #
 include
 "
-mozilla
-/
-IntegerPrintfMacros
-.
-h
-"
-#
-include
-"
 zlib
 .
 h
