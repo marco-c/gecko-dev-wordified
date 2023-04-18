@@ -744,7 +744,7 @@ channel
 .
 loadInfo
 .
-innerWindowId
+innerWindowID
 )
 {
 return
@@ -752,7 +752,7 @@ channel
 .
 loadInfo
 .
-innerWindowId
+innerWindowID
 ;
 }
 /
