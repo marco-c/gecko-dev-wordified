@@ -498,6 +498,12 @@ defined
 (
 MOZ_ENABLE_DBUS
 )
+&
+&
+defined
+(
+MOZ_WAYLAND
+)
 static
 GdkPixbuf
 *
