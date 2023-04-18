@@ -2085,12 +2085,15 @@ ViewID
 &
 aScrollId
 const
+nsTArray
+<
 wr
 :
 :
-LayoutVector2D
+SampledScrollOffset
+>
 &
-aScrollOffset
+aSampledOffsets
 )
 {
 wr_transaction_scroll_layer
@@ -2098,7 +2101,8 @@ wr_transaction_scroll_layer
 mTxn
 aPipelineId
 aScrollId
-aScrollOffset
+&
+aSampledOffsets
 )
 ;
 }
