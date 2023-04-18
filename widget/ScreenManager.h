@@ -293,6 +293,14 @@ ContentParent
 aContentParent
 )
 ;
+already_AddRefed
+<
+Screen
+>
+GetPrimaryScreen
+(
+)
+;
 private
 :
 ScreenManager
