@@ -661,7 +661,7 @@ int32_t
 mDetail
 ;
 CSSIntPoint
-mClientPoint
+mDefaultClientPoint
 ;
 /
 /
