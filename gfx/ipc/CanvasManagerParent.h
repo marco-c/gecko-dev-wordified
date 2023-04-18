@@ -250,6 +250,10 @@ const
 int32_t
 &
 aProtocolId
+const
+CompositableHandle
+&
+aHandle
 webgl
 :
 :
