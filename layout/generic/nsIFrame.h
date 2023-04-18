@@ -16734,6 +16734,15 @@ UsedImageRendering
 )
 const
 ;
+mozilla
+:
+:
+StyleTouchAction
+UsedTouchAction
+(
+)
+const
+;
 enum
 class
 AllowCustomCursorImage

@@ -784,16 +784,6 @@ typedef
 mozilla
 :
 :
-layers
-:
-:
-SetAllowedTouchBehaviorCallback
-SetAllowedTouchBehaviorCallback
-;
-typedef
-mozilla
-:
-:
 CSSIntRect
 CSSIntRect
 ;
@@ -4005,9 +3995,6 @@ RefPtr
 APZEventState
 >
 mAPZEventState
-;
-SetAllowedTouchBehaviorCallback
-mSetAllowedTouchBehaviorCallback
 ;
 RefPtr
 <
