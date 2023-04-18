@@ -142,12 +142,17 @@ AllocationPolicy
 h
 "
 #
+ifdef
+MOZ_AV1
+#
 include
 "
 AOMDecoder
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -13069,6 +13074,9 @@ MediaInfoFlag
 VIDEO_VP9
 ;
 }
+#
+ifdef
+MOZ_AV1
 else
 if
 (
@@ -13090,6 +13098,8 @@ MediaInfoFlag
 VIDEO_AV1
 ;
 }
+#
+endif
 }
 PerformanceRecorder
 perfRecorder
