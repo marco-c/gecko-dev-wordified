@@ -2050,35 +2050,32 @@ p
 )
     
 #
-We
-don
-'
-t
-use
+we
+skip
 the
-manifest
-parser
-'
-s
 existence
--
 check
-only
+here
 because
-it
-will
+not
+all
+tests
+are
+built
     
 #
+for
+all
+platforms
+(
+and
+it
+will
 fail
 on
 Windows
-due
-to
-the
-.
-exe
-suffix
-.
+anyway
+)
     
 active_tests
 =
@@ -2208,21 +2205,24 @@ active_tests
 )
     
 #
-Manually
-confirm
-that
-all
+skip
+and
+warn
+for
+any
 tests
-named
 in
 the
 manifest
-exist
-.
+that
+are
+not
+found
     
-errors
+final_tests
 =
-False
+[
+]
     
 log
 =
@@ -2239,7 +2239,6 @@ tests
 :
         
 if
-not
 os
 .
 path
@@ -2253,13 +2252,19 @@ test
 )
 :
             
-errors
-=
-True
+final_tests
+.
+append
+(
+test
+)
+        
+else
+:
             
 log
 .
-error
+warning
 (
 "
 test
@@ -2269,6 +2274,8 @@ found
 :
 %
 s
+-
+skipped
 "
 %
 test
@@ -2277,28 +2284,8 @@ test
 ]
 )
     
-if
-errors
-:
-        
-raise
-RuntimeError
-(
-"
-One
-or
-more
-cppunittests
-not
-found
-;
-aborting
-.
-"
-)
-    
 return
-tests
+final_tests
 def
 update_mozinfo
 (
