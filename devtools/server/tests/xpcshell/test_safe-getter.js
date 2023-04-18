@@ -80,7 +80,7 @@ this
 const
 g
 =
-testGlobal
+createTestGlobal
 (
 "
 test
