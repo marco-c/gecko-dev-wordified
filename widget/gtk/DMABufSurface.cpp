@@ -3087,6 +3087,7 @@ offsets
 GetYUVColorSpace
 (
 )
+mColorRange
 fenceFDs
 mUID
 refCountFDs
@@ -6511,6 +6512,14 @@ yUVColorSpace
 (
 )
 ;
+mColorRange
+=
+aDesc
+.
+colorRange
+(
+)
+;
 mUID
 =
 aDesc
@@ -7099,6 +7108,7 @@ offsets
 GetYUVColorSpace
 (
 )
+mColorRange
 fenceFDs
 mUID
 refCountFDs
