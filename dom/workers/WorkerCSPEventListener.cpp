@@ -124,13 +124,6 @@ h
 #
 include
 "
-WorkerPrivate
-.
-h
-"
-#
-include
-"
 WorkerRef
 .
 h
@@ -139,6 +132,13 @@ h
 include
 "
 WorkerRunnable
+.
+h
+"
+#
+include
+"
+WorkerScope
 .
 h
 "

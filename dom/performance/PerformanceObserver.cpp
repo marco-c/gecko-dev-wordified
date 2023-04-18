@@ -172,17 +172,6 @@ mozilla
 /
 dom
 /
-WorkerPrivate
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerScope
 .
 h
