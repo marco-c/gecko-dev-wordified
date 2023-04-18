@@ -25278,13 +25278,9 @@ if
 InitPropertyOperation
 (
 cx
-JSOp
-(
-*
 REGS
 .
 pc
-)
 obj
 name
 rval

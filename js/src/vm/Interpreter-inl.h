@@ -2090,8 +2090,9 @@ InitPropertyOperation
 JSContext
 *
 cx
-JSOp
-op
+jsbytecode
+*
+pc
 HandleObject
 obj
 HandlePropertyName
@@ -2105,7 +2106,11 @@ propAttrs
 =
 GetInitDataPropAttrs
 (
-op
+JSOp
+(
+*
+pc
+)
 )
 ;
 return
