@@ -1300,6 +1300,12 @@ NeedsToAssociateIMC
 (
 )
 ;
+static
+bool
+NeedsSearchInputScope
+(
+)
+;
 /
 *
 *
