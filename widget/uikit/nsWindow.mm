@@ -2876,6 +2876,10 @@ mVisible
 (
 false
 )
+mSizeMode
+(
+nsSizeMode_Normal
+)
 mParent
 (
 nullptr

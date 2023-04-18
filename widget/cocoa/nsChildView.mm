@@ -1508,6 +1508,10 @@ mVisible
 (
 false
 )
+mSizeMode
+(
+nsSizeMode_Normal
+)
 mDrawing
 (
 false

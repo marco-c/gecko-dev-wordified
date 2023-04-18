@@ -607,6 +607,10 @@ mVisible
 (
 false
 )
+mSizeMode
+(
+nsSizeMode_Normal
+)
 mNeedIMEStateInit
 (
 false

@@ -11802,6 +11802,10 @@ mDynamicToolbarMaxHeight
 (
 0
 )
+mSizeMode
+(
+nsSizeMode_Normal
+)
 mIsFullScreen
 (
 false
@@ -13739,13 +13743,9 @@ mSizeMode
 return
 ;
 }
-nsBaseWidget
-:
-:
-SetSizeMode
-(
+mSizeMode
+=
 aMode
-)
 ;
 switch
 (

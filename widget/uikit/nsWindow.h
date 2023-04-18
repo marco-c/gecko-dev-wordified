@@ -290,6 +290,17 @@ aY
 override
 ;
 virtual
+nsSizeMode
+SizeMode
+(
+)
+override
+{
+return
+mSizeMode
+;
+}
+virtual
 void
 SetSizeMode
 (
@@ -585,6 +596,9 @@ mNativeView
 ;
 bool
 mVisible
+;
+nsSizeMode
+mSizeMode
 ;
 nsTArray
 <

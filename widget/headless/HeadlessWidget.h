@@ -477,6 +477,17 @@ aRepaint
 override
 ;
 virtual
+nsSizeMode
+SizeMode
+(
+)
+override
+{
+return
+mSizeMode
+;
+}
+virtual
 void
 SetSizeMode
 (
@@ -855,6 +866,9 @@ mTopLevel
 HeadlessCompositorWidget
 *
 mCompositorWidget
+;
+nsSizeMode
+mSizeMode
 ;
 /
 /

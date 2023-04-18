@@ -16288,13 +16288,9 @@ the
 requested
 state
 .
-nsBaseWidget
-:
-:
-SetSizeMode
-(
+mSizeMode
+=
 aMode
-)
 ;
 /
 /

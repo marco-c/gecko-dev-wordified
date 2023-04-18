@@ -1720,6 +1720,17 @@ aY
 override
 ;
 virtual
+nsSizeMode
+SizeMode
+(
+)
+override
+{
+return
+mSizeMode
+;
+}
+virtual
 void
 SetSizeMode
 (
@@ -2769,6 +2780,9 @@ sibling
 sheet
 contention
 only
+nsSizeMode
+mSizeMode
+;
 bool
 mInFullScreenMode
 ;
