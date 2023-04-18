@@ -1035,7 +1035,7 @@ Normal
 EventQueuePriority
 :
 :
-MediumHigh
+RenderBlocking
 )
 mTask
 (

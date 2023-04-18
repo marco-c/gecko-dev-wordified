@@ -3343,7 +3343,7 @@ already_AddRefed
 <
 nsIRunnable
 >
-CreateMediumHighRunnable
+CreateRenderBlockingRunnable
 (
 already_AddRefed
 <

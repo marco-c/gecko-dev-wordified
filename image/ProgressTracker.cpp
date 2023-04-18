@@ -973,10 +973,10 @@ mObservers
 ProgressTracker
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 (
 already_AddRefed
 <
@@ -999,7 +999,7 @@ aEvent
 nsIRunnablePriority
 :
 :
-PRIORITY_MEDIUMHIGH
+PRIORITY_RENDER_BLOCKING
 )
 {
 }
@@ -1007,7 +1007,7 @@ void
 ProgressTracker
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 :
 :
 AddObserver
@@ -1041,7 +1041,7 @@ void
 ProgressTracker
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 :
 :
 RemoveObserver
@@ -1081,12 +1081,12 @@ already_AddRefed
 ProgressTracker
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 >
 ProgressTracker
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 :
 :
 Create
@@ -1112,7 +1112,7 @@ RefPtr
 ProgressTracker
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 >
 event
 (
@@ -1120,7 +1120,7 @@ new
 ProgressTracker
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 (
 std
 :
@@ -1307,7 +1307,7 @@ mRunnable
 ProgressTracker
 :
 :
-MediumHighRunnable
+RenderBlockingRunnable
 :
 :
 Create
