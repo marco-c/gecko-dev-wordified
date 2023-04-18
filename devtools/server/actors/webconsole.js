@@ -1111,15 +1111,6 @@ this
 traits
 =
 {
-/
-/
-Supports
-retrieving
-blocked
-urls
-blockedUrls
-:
-true
 }
 ;
 }
