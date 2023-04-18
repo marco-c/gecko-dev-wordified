@@ -298,7 +298,7 @@ EnsureRegisterAsEarlyRunner
 )
 ;
 bool
-IsRegistereddWithCurrentPresShell
+IsRegisteredWithCurrentPresShell
 (
 )
 const

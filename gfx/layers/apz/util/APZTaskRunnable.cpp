@@ -691,7 +691,7 @@ bool
 APZTaskRunnable
 :
 :
-IsRegistereddWithCurrentPresShell
+IsRegisteredWithCurrentPresShell
 (
 )
 const
@@ -747,7 +747,7 @@ EnsureRegisterAsEarlyRunner
 {
 if
 (
-IsRegistereddWithCurrentPresShell
+IsRegisteredWithCurrentPresShell
 (
 )
 )
