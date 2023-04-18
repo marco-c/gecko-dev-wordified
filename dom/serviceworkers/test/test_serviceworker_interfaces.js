@@ -1662,7 +1662,7 @@ name
 "
 NetworkInformation
 "
-android
+disabled
 :
 true
 }
