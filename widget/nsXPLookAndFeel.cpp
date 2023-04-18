@@ -4190,6 +4190,12 @@ case
 ColorID
 :
 :
+Menu
+:
+case
+ColorID
+:
+:
 TextBackground
 :
 color
@@ -4249,6 +4255,12 @@ content
 page
 -
 color
+case
+ColorID
+:
+:
+Menutext
+:
 case
 ColorID
 :
