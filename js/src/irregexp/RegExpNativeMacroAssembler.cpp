@@ -6973,6 +6973,11 @@ temp0_
 ;
 #
 else
+(
+void
+)
+pushedNonVolatileRegisters
+;
 if
 (
 js
