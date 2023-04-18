@@ -439,16 +439,12 @@ String
 >
 >
 {
-Ok
-(
 get_meta
 (
 self
 .
 db
 SYNC_ID_META_KEY
-)
-?
 )
 }
 fn
