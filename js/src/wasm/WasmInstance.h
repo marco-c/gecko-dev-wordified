@@ -2161,8 +2161,7 @@ nbytes
 )
 ;
 static
-void
-*
+int32_t
 throwException
 (
 Instance

@@ -1732,8 +1732,8 @@ SymbolicAddress
 :
 :
 ThrowException
-_RoN
-_FailOnNullPtr
+_VOID
+_FailOnNegI32
 2
 {
 _PTR
@@ -9142,7 +9142,7 @@ ThrowException
 *
 abiType
 =
-Args_General2
+Args_Int32_GeneralGeneral
 ;
 MOZ_ASSERT
 (

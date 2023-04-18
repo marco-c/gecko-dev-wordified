@@ -10324,8 +10324,7 @@ forCompiledCode
 static
 *
 /
-void
-*
+int32_t
 Instance
 :
 :
@@ -10349,7 +10348,7 @@ failureMode
 FailureMode
 :
 :
-FailOnNullPtr
+FailOnNegI32
 )
 ;
 JSContext
@@ -10396,8 +10395,8 @@ nullptr
 By
 always
 returning
-a
-nullptr
+-
+1
 we
 trigger
 a
@@ -10423,7 +10422,8 @@ this
 exception
 .
 return
-nullptr
+-
+1
 ;
 }
 /
