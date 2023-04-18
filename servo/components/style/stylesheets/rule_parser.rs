@@ -4940,14 +4940,11 @@ self
 namespaces
 url_data
 :
-Some
-(
 self
 .
 context
 .
 url_data
-)
 }
 ;
 let
