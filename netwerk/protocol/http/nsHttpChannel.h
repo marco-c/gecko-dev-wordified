@@ -1590,11 +1590,6 @@ ChildEndpointPromise
 >
 AttachStreamFilter
 (
-base
-:
-:
-ProcessId
-aChildProcessId
 )
 ;
 private
