@@ -9531,7 +9531,7 @@ JS
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 name
 )

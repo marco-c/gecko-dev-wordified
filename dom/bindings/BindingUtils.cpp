@@ -5504,7 +5504,7 @@ JS
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 nameStr
 )
@@ -5535,7 +5535,7 @@ JS
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 will
 assert
 )
@@ -6039,7 +6039,7 @@ JS
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 name
 )

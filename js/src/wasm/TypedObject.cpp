@@ -3971,13 +3971,7 @@ properties
 .
 infallibleAppend
 (
-JS
-:
-:
-PropertyKey
-:
-:
-fromNonIntAtom
+NameToId
 (
 cx
 -

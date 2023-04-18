@@ -494,7 +494,7 @@ JS
 PropertyKey
 :
 :
-fromNonIntAtom
+NonIntAtom
 (
 str
 )
