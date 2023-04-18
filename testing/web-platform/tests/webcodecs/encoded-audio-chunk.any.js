@@ -367,6 +367,13 @@ enough
 '
 )
 ;
+const
+detached
+=
+makeDetachedArrayBuffer
+(
+)
+;
 assert_throws_js
 (
 TypeError
@@ -378,9 +385,7 @@ chunk
 .
 copyTo
 (
-makeDetachedArrayBuffer
-(
-)
+detached
 )
 '
 destination
