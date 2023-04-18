@@ -254,6 +254,13 @@ h
 #
 include
 "
+nsTextEquivUtils
+.
+h
+"
+#
+include
+"
 Pivot
 .
 h
@@ -1591,10 +1598,6 @@ textbox
 )
 )
 {
-/
-/
-XXX
-:
 nsTextEquivUtils
 :
 :
