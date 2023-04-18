@@ -933,7 +933,10 @@ isArrayIndex
 {
 propId
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 insn
 .

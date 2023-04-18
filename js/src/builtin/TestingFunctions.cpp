@@ -26699,7 +26699,10 @@ false
 }
 idx
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 inlineFrameNo
 )
@@ -26737,7 +26740,10 @@ array
 .
 idx
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 physicalFrameNo
 )
@@ -27376,7 +27382,10 @@ compartment
 {
 id
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 stackIndex
 )

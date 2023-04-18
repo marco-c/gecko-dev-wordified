@@ -7520,7 +7520,10 @@ fill
 (
 beg
 end
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 0
 )

@@ -6596,7 +6596,10 @@ props
 .
 infallibleAppend
 (
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 i
 )

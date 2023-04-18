@@ -11134,7 +11134,10 @@ nullptr
 }
 id
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 i
 )

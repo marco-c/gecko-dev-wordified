@@ -494,7 +494,10 @@ MOZ_ASSERT
 (
 containsPure
 (
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 index
 )

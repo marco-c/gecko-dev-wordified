@@ -8021,7 +8021,10 @@ childName
 .
 set
 (
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 i
 )

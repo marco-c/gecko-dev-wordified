@@ -9252,7 +9252,10 @@ entries
 .
 append
 (
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 i
 -

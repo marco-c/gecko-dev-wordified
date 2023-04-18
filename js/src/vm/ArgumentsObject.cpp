@@ -4839,7 +4839,10 @@ i
 {
 id
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 i
 )
@@ -6708,7 +6711,10 @@ i
 {
 id
 =
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 i
 )

@@ -103456,7 +103456,13 @@ props
 .
 append
 (
-INT_TO_JSID
+JS
+:
+:
+PropertyKey
+:
+:
+Int
 (
 i
 )

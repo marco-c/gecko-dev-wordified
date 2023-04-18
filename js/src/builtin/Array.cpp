@@ -6195,7 +6195,10 @@ obj
 getClass
 (
 )
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 0
 )
@@ -10101,7 +10104,10 @@ SuppressDeletedProperty
 (
 cx
 obj
-INT_TO_JSID
+PropertyKey
+:
+:
+Int
 (
 index
 )

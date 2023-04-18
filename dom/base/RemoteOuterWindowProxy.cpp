@@ -1094,7 +1094,13 @@ aIndexedProps
 .
 infallibleAppend
 (
-INT_TO_JSID
+JS
+:
+:
+PropertyKey
+:
+:
+Int
 (
 i
 )
