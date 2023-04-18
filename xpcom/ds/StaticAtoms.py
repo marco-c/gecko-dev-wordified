@@ -19696,6 +19696,18 @@ dateTime
 "
 )
     
+Atom
+(
+"
+tabbrowser_arrowscrollbox
+"
+"
+tabbrowser
+-
+arrowscrollbox
+"
+)
+    
 #
 Simple
 gestures
