@@ -202,8 +202,6 @@ assert
 jsonSchema
 (
 message
-.
-content
 update_schema
 )
 ;
@@ -347,8 +345,6 @@ assert
 jsonSchema
 (
 message
-.
-content
 spotlight_schema
 )
 ;
