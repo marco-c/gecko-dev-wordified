@@ -654,6 +654,10 @@ aTransform2d
 ScaleFactors
 (
 )
+.
+ToSize
+(
+)
 ;
 /
 /
