@@ -440,6 +440,11 @@ VsyncParent
 h
 "
 "
+VsyncWorkerChild
+.
+h
+"
+"
 WindowGlobalActor
 .
 h
@@ -739,6 +744,11 @@ cpp
 "
 "
 VsyncParent
+.
+cpp
+"
+"
+VsyncWorkerChild
 .
 cpp
 "
