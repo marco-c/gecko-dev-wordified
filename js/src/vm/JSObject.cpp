@@ -15157,7 +15157,7 @@ JSTYPE_STRING
 {
 str
 =
-JS_AtomizeAndPinString
+JS_AtomizeString
 (
 cx
 clasp
