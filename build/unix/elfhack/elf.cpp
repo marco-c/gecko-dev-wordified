@@ -1035,8 +1035,10 @@ std
 ifstream
 &
 file
+unsigned
 char
 ei_class
+unsigned
 char
 ei_data
 )
@@ -1143,6 +1145,7 @@ number
 and
 identification
 information
+unsigned
 char
 e_ident
 [
@@ -1160,6 +1163,10 @@ file
 .
 read
 (
+(
+char
+*
+)
 e_ident
 sizeof
 (
@@ -7414,8 +7421,10 @@ std
 ofstream
 &
 file
+unsigned
 char
 ei_class
+unsigned
 char
 ei_data
 )
@@ -7748,8 +7757,10 @@ std
 ofstream
 &
 file
+unsigned
 char
 ei_class
+unsigned
 char
 ei_data
 )
@@ -8459,8 +8470,10 @@ std
 ofstream
 &
 file
+unsigned
 char
 ei_class
+unsigned
 char
 ei_data
 )
