@@ -6502,7 +6502,7 @@ UrlbarPrefs
 get
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -6510,7 +6510,7 @@ blockedDigests
 "
 "
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 is
@@ -6720,7 +6720,7 @@ url
 Check
 _blockedDigests
 and
-quickSuggest
+quicksuggest
 .
 blockedDigests
 .
@@ -6756,7 +6756,7 @@ UrlbarPrefs
 get
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -6808,7 +6808,7 @@ Write
 some
 junk
 to
-quickSuggest
+quicksuggest
 .
 blockedDigests
 .
@@ -6833,7 +6833,7 @@ UrlbarPrefs
 set
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -7015,7 +7015,7 @@ UrlbarPrefs
 get
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -7115,7 +7115,7 @@ UrlbarPrefs
 get
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -7140,7 +7140,7 @@ UrlbarPrefs
 set
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
@@ -7240,7 +7240,7 @@ UrlbarPrefs
 clear
 (
 "
-quickSuggest
+quicksuggest
 .
 blockedDigests
 "
