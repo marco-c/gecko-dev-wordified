@@ -2574,7 +2574,7 @@ ValTypeVector
 &
 locals
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 size_t

@@ -9006,7 +9006,7 @@ exit
 stub
 .
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout_
 ;
@@ -9442,7 +9442,7 @@ StackMaps
 *
 stackMaps
 const
-MachineState
+RegisterOffsets
 &
 trapExitLayout
 const
@@ -9613,7 +9613,7 @@ and
 are
 created
 by
-GenerateTrapExitMachineState
+GenerateTrapExitRegisterOffsets
 (
 )
 .

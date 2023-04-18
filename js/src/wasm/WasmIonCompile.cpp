@@ -47191,13 +47191,13 @@ GenerateTrapExit
 (
 )
 .
-MachineState
+RegisterOffsets
 trapExitLayout
 ;
 size_t
 trapExitLayoutNumWords
 ;
-GenerateTrapExitMachineState
+GenerateTrapExitRegisterOffsets
 (
 &
 trapExitLayout

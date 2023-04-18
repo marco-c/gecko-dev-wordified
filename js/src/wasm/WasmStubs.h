@@ -1706,14 +1706,14 @@ codeRanges
 ;
 extern
 void
-GenerateTrapExitMachineState
+GenerateTrapExitRegisterOffsets
 (
 jit
 :
 :
-MachineState
+RegisterOffsets
 *
-machine
+offsets
 size_t
 *
 numWords
