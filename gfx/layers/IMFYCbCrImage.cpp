@@ -647,7 +647,9 @@ right
 =
 aData
 .
-mYSize
+YDataSize
+(
+)
 .
 width
 ;
@@ -657,7 +659,9 @@ bottom
 =
 aData
 .
-mYSize
+YDataSize
+(
+)
 .
 height
 ;
@@ -685,7 +689,9 @@ right
 =
 aData
 .
-mCbCrSize
+CbCrDataSize
+(
+)
 .
 width
 ;
@@ -695,7 +701,9 @@ bottom
 =
 aData
 .
-mCbCrSize
+CbCrDataSize
+(
+)
 .
 height
 ;
