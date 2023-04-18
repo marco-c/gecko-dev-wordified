@@ -783,6 +783,8 @@ rv
 ASSERT_EQ
 (
 tell
+int64_t
+(
 buf1
 .
 Length
@@ -793,6 +795,7 @@ buf2
 .
 Length
 (
+)
 )
 )
 ;
@@ -902,6 +905,8 @@ rv
 ASSERT_EQ
 (
 tell
+int64_t
+(
 buf1
 .
 Length
@@ -915,6 +920,7 @@ Length
 )
 +
 5
+)
 )
 ;
 /
@@ -1017,10 +1023,13 @@ rv
 ASSERT_EQ
 (
 tell
+int64_t
+(
 buf1
 .
 Length
 (
+)
 )
 )
 ;
@@ -1136,6 +1145,8 @@ rv
 ASSERT_EQ
 (
 tell
+int64_t
+(
 buf1
 .
 Length
@@ -1143,6 +1154,7 @@ Length
 )
 +
 6
+)
 )
 ;
 }
@@ -2243,6 +2255,8 @@ rv
 ASSERT_EQ
 (
 tell
+int64_t
+(
 buf1
 .
 Length
@@ -2259,6 +2273,7 @@ buf3
 .
 Length
 (
+)
 )
 )
 ;
@@ -2339,6 +2354,8 @@ rv
 ASSERT_EQ
 (
 tell
+int64_t
+(
 buf1
 .
 Length
@@ -2358,6 +2375,7 @@ Length
 )
 -
 1
+)
 )
 ;
 /
@@ -4895,6 +4913,8 @@ rv
 ;
 ASSERT_EQ
 (
+int64_t
+(
 buf
 .
 Length
@@ -4902,6 +4922,7 @@ Length
 )
 *
 2
+)
 length
 )
 ;
@@ -5073,6 +5094,8 @@ Called
 ;
 ASSERT_EQ
 (
+int64_t
+(
 buf
 .
 Length
@@ -5080,6 +5103,7 @@ Length
 )
 *
 3
+)
 callback
 -
 >

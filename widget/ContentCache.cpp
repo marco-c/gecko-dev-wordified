@@ -1868,7 +1868,7 @@ Length
 )
 =
 %
-u
+zu
 "
 this
 mText
@@ -3739,7 +3739,7 @@ Length
 )
 =
 %
-x
+zx
 mTextRectArray
 =
 %
@@ -3865,7 +3865,7 @@ Length
 )
 =
 %
-u
+zu
 "
 this
 aStartOffset
@@ -4586,7 +4586,7 @@ Length
 )
 =
 %
-u
+zu
 mSelection
 =
 %
@@ -5537,7 +5537,7 @@ Length
 )
 =
 %
-u
+zu
 "
 this
 mSelection
@@ -5746,7 +5746,7 @@ Length
 )
 =
 %
-u
+zu
 "
 this
 aEvent
@@ -5784,6 +5784,9 @@ std
 :
 :
 min
+<
+uint32_t
+>
 (
 aEvent
 .
@@ -5998,7 +6001,7 @@ Length
 )
 =
 %
-u
+zu
 "
 this
 aEvent
@@ -6316,10 +6319,13 @@ mInput
 .
 mOffset
 <
+int64_t
+(
 mText
 .
 Length
 (
+)
 )
 ?
 static_cast
@@ -6507,7 +6513,7 @@ Length
 )
 =
 %
-u
+zu
 "
 this
 aEvent
@@ -9037,7 +9043,7 @@ Length
 )
 =
 %
-u
+zu
 )
 mRanges
 -

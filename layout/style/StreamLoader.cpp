@@ -349,7 +349,10 @@ length
 {
 if
 (
+uint64_t
+(
 length
+)
 >
 std
 :
@@ -1189,6 +1192,9 @@ std
 :
 :
 min
+<
+size_t
+>
 (
 3
 -

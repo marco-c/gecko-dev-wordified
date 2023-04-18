@@ -17200,7 +17200,7 @@ Length
 )
 =
 %
-u
+zu
 )
 )
 "
@@ -20565,7 +20565,7 @@ Length
 )
 =
 %
-u
+zu
 aCursorPos
 =
 %

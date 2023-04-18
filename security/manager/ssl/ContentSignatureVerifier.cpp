@@ -2217,10 +2217,13 @@ get
 (
 )
 )
+uint32_t
+(
 rawSignature
 .
 Length
 (
+)
 )
 }
 ;

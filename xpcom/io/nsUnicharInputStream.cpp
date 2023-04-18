@@ -260,8 +260,9 @@ private
 StringUnicharInputStream
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMETHODIMP
@@ -400,6 +401,9 @@ rv
 aCount
 =
 XPCOM_MIN
+<
+uint32_t
+>
 (
 mString
 .

@@ -8539,10 +8539,13 @@ AppendElement
 Entry
 {
 mSize
+uint32_t
+(
 aKey
 .
 Length
 (
+)
 )
 aKey
 .

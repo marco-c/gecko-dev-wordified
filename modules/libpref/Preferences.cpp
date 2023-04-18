@@ -1176,10 +1176,13 @@ aStr
 .
 AppendInt
 (
+uint64_t
+(
 aChars
 .
 Length
 (
+)
 )
 )
 ;

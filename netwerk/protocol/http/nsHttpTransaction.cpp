@@ -12315,6 +12315,9 @@ std
 :
 :
 min
+<
+uint32_t
+>
 (
 len
 HTTPHeaderLen

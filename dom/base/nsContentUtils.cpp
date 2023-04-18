@@ -66752,7 +66752,7 @@ TruncatedURLForDisplay
 nsIURI
 *
 aURL
-uint32_t
+size_t
 aMaxLen
 )
 {

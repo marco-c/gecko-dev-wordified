@@ -1699,7 +1699,7 @@ nsDependentCString
 "
 "
 (
-uint32_t
+size_t
 )
 0
 )

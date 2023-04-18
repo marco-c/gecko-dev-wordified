@@ -5436,7 +5436,7 @@ CACHE_KEY
 "
 length
 %
-u
+zu
 "
 buf
 .

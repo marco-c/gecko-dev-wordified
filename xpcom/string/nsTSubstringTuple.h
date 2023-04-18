@@ -251,7 +251,7 @@ char_type
 base_string_type
 ;
 typedef
-uint32_t
+size_t
 size_type
 ;
 public
@@ -393,7 +393,7 @@ WriteTo
 char_type
 *
 aBuf
-uint32_t
+size_type
 aBufLen
 )
 const

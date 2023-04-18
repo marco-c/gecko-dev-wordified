@@ -9721,6 +9721,9 @@ std
 :
 :
 min
+<
+uint32_t
+>
 (
 aText
 .

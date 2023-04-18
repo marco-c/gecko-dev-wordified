@@ -2394,7 +2394,7 @@ PARSER_LOG
 Handling
 a
 %
-d
+zd
 -
 byte
 simple
@@ -2899,7 +2899,7 @@ PARSER_LOG
 Handling
 a
 %
-d
+zd
 -
 byte
 shavar
@@ -3141,7 +3141,7 @@ PARSER_LOG
 Handling
 a
 %
-d
+zd
 -
 byte
 digest256
@@ -6110,7 +6110,7 @@ of
 prefixes
 :
 %
-u
+zu
 "
 prefixes
 .

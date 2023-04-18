@@ -416,7 +416,7 @@ NS_LossyConvertUTF16toASCII
 const
 char16ptr_t
 aString
-uint32_t
+size_t
 aLength
 )
 {
@@ -511,7 +511,7 @@ const
 char
 *
 aCString
-uint32_t
+size_t
 aLength
 )
 {
@@ -638,7 +638,7 @@ NS_ConvertUTF16toUTF8
 const
 char16ptr_t
 aString
-uint32_t
+size_t
 aLength
 )
 {
@@ -755,7 +755,7 @@ const
 char
 *
 aCString
-uint32_t
+size_t
 aLength
 )
 {

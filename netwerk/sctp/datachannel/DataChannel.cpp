@@ -11837,7 +11837,7 @@ u
 (
 total
 %
-u
+zu
 )
 on
 channel
@@ -14263,7 +14263,7 @@ delivered
 message
 of
 %
-u
+zu
 bytes
 \
 n

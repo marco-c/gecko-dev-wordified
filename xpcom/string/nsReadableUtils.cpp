@@ -2871,7 +2871,7 @@ const_iterator
 aSearchEnd
 )
 {
-int32_t
+ptrdiff_t
 fragmentLength
 =
 aSearchEnd
@@ -2961,7 +2961,7 @@ const_iterator
 aSearchEnd
 )
 {
-int32_t
+ptrdiff_t
 fragmentLength
 =
 aSearchEnd

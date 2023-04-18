@@ -139,9 +139,9 @@ const
 substring_type
 &
 str
-uint32_t
+size_type
 startPos
-uint32_t
+size_type
 length
 )
 {
@@ -425,12 +425,9 @@ char_type
 (
 aStart
 )
-uint32_t
-(
 aEnd
 -
 aStart
-)
 DataFlags
 (
 0
@@ -576,8 +573,6 @@ get
 (
 )
 )
-uint32_t
-(
 aEnd
 .
 get
@@ -588,7 +583,6 @@ aStart
 .
 get
 (
-)
 )
 DataFlags
 (
@@ -719,7 +713,7 @@ Substring
 (
 char16ptr_t
 aData
-uint32_t
+size_t
 aLength
 )
 {

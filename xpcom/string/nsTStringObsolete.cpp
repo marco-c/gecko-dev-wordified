@@ -821,7 +821,7 @@ SetCharAt
 (
 char16_t
 aChar
-uint32_t
+index_type
 aIndex
 )
 {
@@ -2001,14 +2001,7 @@ this
 >
 mLength
 ;
-mozilla
-:
-:
-Result
-<
-uint32_t
-nsresult
->
+auto
 r
 =
 this

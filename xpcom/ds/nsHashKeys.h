@@ -629,9 +629,9 @@ const
 char
 *
 aRhs
-uint32_t
+size_t
 aLhsLength
-uint32_t
+size_t
 aRhsLength
 )
 {
@@ -670,9 +670,9 @@ const
 char
 *
 aRhs
-uint32_t
+size_t
 aLhsLength
-uint32_t
+size_t
 aRhsLength
 )
 {
@@ -711,9 +711,9 @@ const
 char16_t
 *
 aRhs
-uint32_t
+size_t
 aLhsLength
-uint32_t
+size_t
 aRhsLength
 )
 {

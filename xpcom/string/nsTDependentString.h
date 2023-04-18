@@ -382,7 +382,7 @@ const
 char_type
 *
 aData
-uint32_t
+size_type
 aLength
 )
 :
@@ -442,7 +442,7 @@ nsTDependentString
 (
 char16ptr_t
 aData
-uint32_t
+size_type
 aLength
 )
 :
@@ -482,15 +482,12 @@ char_type
 (
 aData
 )
-uint32_t
-(
 char_traits
 :
 :
 length
 (
 aData
-)
 )
 DataFlags
 :
@@ -562,7 +559,7 @@ const
 string_type
 &
 aStr
-uint32_t
+index_type
 aStartPos
 )
 :
@@ -699,15 +696,12 @@ aData
 Rebind
 (
 aData
-uint32_t
-(
 char_traits
 :
 :
 length
 (
 aData
-)
 )
 )
 ;
@@ -731,7 +725,7 @@ Rebind
 const
 string_type
 &
-uint32_t
+index_type
 aStartPos
 )
 ;

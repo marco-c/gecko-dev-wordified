@@ -3529,6 +3529,9 @@ std
 :
 :
 max
+<
+uint32_t
+>
 (
 *
 aLongest

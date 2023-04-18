@@ -1078,15 +1078,13 @@ end
 .
 goodSpace
 =
-static_cast
-<
-int32_t
->
-(
 std
 :
 :
 min
+<
+int32_t
+>
 (
 aWrapColumn
 -
@@ -1098,7 +1096,6 @@ Length
 )
 -
 1
-)
 )
 ;
 while

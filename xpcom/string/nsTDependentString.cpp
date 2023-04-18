@@ -147,12 +147,9 @@ char_type
 (
 aStart
 )
-uint32_t
-(
 aEnd
 -
 aStart
-)
 DataFlags
 :
 :
@@ -201,7 +198,7 @@ const
 string_type
 &
 str
-uint32_t
+index_type
 startPos
 )
 {
@@ -371,12 +368,9 @@ this
 Rebind
 (
 aStart
-uint32_t
-(
 aEnd
 -
 aStart
-)
 )
 ;
 }

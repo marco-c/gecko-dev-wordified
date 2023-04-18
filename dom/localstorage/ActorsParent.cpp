@@ -26239,9 +26239,9 @@ GetLoadState
 &
 ]
 (
-auto
+int64_t
 aKeyLength
-auto
+int64_t
 aValueLength
 )
 {
