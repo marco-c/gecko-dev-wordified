@@ -55,28 +55,26 @@ fetch
 /
 These
 tests
-verify
-that
-non
--
-secure
-contexts
-cannot
+mirror
 fetch
-subresources
-from
+.
+window
+.
+js
+but
+use
+XmlHttpRequest
+instead
+of
 /
 /
-less
--
-public
-address
-spaces
-and
-can
 fetch
-them
-otherwise
+(
+)
+to
+perform
+subresource
+fetches
 .
 /
 /
@@ -105,7 +103,7 @@ are
 defined
 in
 :
-fetch
+xhr
 .
 https
 .
@@ -148,7 +146,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -172,7 +170,7 @@ HTTP_LOCAL
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 SUCCESS
 }
@@ -194,7 +192,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -229,7 +227,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 SUCCESS
 }
@@ -251,7 +249,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -286,7 +284,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 SUCCESS
 }
@@ -308,7 +306,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -353,7 +351,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 FAILURE
 }
@@ -373,7 +371,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -397,7 +395,7 @@ HTTP_PRIVATE
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 SUCCESS
 }
@@ -419,7 +417,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -454,7 +452,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 SUCCESS
 }
@@ -476,7 +474,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -521,7 +519,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 FAILURE
 }
@@ -541,7 +539,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -586,7 +584,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 FAILURE
 }
@@ -606,7 +604,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -630,7 +628,7 @@ HTTP_PUBLIC
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 SUCCESS
 }
@@ -695,7 +693,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -743,7 +741,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 FAILURE
 }
@@ -769,7 +767,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -817,7 +815,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 FAILURE
 }
@@ -843,7 +841,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -881,7 +879,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 SUCCESS
 }
@@ -965,7 +963,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -1010,7 +1008,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 FAILURE
 }
@@ -1031,7 +1029,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -1076,7 +1074,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 FAILURE
 }
@@ -1097,7 +1095,7 @@ promise_test
 t
 =
 >
-fetchTest
+xhrTest
 (
 t
 {
@@ -1142,7 +1140,7 @@ allowCrossOrigin
 }
 expected
 :
-FetchTestResult
+XhrTestResult
 .
 FAILURE
 }
