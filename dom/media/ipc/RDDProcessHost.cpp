@@ -378,6 +378,15 @@ mPrefSerializer
 >
 SerializeToSharedMemory
 (
+GeckoProcessType_RDD
+/
+*
+remoteType
+*
+/
+"
+"
+_ns
 )
 )
 {
