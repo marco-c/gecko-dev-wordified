@@ -2760,11 +2760,11 @@ aState
 const
 nsRect
 &
-aContentArea
+aInsideBorderArea
 const
 nsRect
 &
-aOldScrollArea
+aOldScrollPort
 )
 ;
 void
