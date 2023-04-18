@@ -423,12 +423,10 @@ enabled
 )
 =
 >
-{
 Self
 :
 :
 Normal
-}
 other
 =
 >

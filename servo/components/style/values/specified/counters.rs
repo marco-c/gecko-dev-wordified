@@ -725,7 +725,6 @@ ident
 )
 =
 >
-{
 (
 CustomIdent
 :
@@ -744,7 +743,6 @@ none
 ?
 false
 )
-}
 Ok
 (
 &
@@ -889,7 +887,6 @@ start
 )
 =
 >
-{
 if
 start
 .
@@ -972,7 +969,6 @@ min_value
 else
 {
 start
-}
 }
 _
 =

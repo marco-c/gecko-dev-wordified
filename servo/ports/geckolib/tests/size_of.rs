@@ -115,8 +115,8 @@ rule_tree
 :
 :
 {
-StrongRuleNode
 RULE_NODE_SIZE
+StrongRuleNode
 }
 ;
 use

@@ -264,9 +264,9 @@ text
 :
 :
 {
-MozControlCharacterVisibility
 TextAlignLast
 TextUnderlinePosition
+MozControlCharacterVisibility
 }
 ;
 pub

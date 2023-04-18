@@ -154,8 +154,8 @@ stylist
 :
 :
 {
-CascadeData
 Rule
+CascadeData
 }
 ;
 use
@@ -3821,7 +3821,6 @@ if
 bucket_attributes
 =
 >
-{
 Bucket
 :
 :
@@ -3833,7 +3832,6 @@ local_name
 lower_name
 :
 local_name
-}
 }
 Component
 :
@@ -4088,7 +4086,6 @@ selector
 )
 =
 >
-{
 find_bucket
 (
 selector
@@ -4099,7 +4096,6 @@ iter
 disjoint_buckets
 bucket_attributes
 )
-}
 Component
 :
 :
@@ -4113,7 +4109,6 @@ selector
 )
 =
 >
-{
 find_bucket
 (
 selector
@@ -4124,7 +4119,6 @@ iter
 disjoint_buckets
 bucket_attributes
 )
-}
 Component
 :
 :

@@ -1577,7 +1577,6 @@ family
 )
 )
 }
-;
 }
 generic_font_family
 !
@@ -3941,6 +3940,7 @@ position
 |
 f
 |
+{
 match
 *
 f
@@ -3963,6 +3963,7 @@ _
 =
 >
 false
+}
 }
 )
 ;

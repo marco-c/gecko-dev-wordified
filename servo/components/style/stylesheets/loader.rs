@@ -118,8 +118,8 @@ import_rule
 :
 :
 {
-ImportLayer
 ImportRule
+ImportLayer
 }
 ;
 use
