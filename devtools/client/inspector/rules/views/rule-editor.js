@@ -232,16 +232,6 @@ utils
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 Services
 =
 require
@@ -2637,7 +2627,7 @@ _onToolChanged
 )
 ;
 }
-promise
+Promise
 .
 resolve
 (
