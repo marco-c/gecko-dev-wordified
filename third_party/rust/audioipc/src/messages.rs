@@ -1384,6 +1384,10 @@ isize
 State
 DeviceChange
 SharedMem
+Error
+(
+c_int
+)
 }
 #
 [
