@@ -354,17 +354,12 @@ WindowGlobalParent
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULElement
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -920,9 +915,6 @@ if
 focusedContent
 )
 {
-#
-ifdef
-MOZ_XUL
 RefPtr
 <
 nsXULElement
@@ -970,8 +962,6 @@ StealNSResult
 )
 ;
 }
-#
-endif
 HTMLTextAreaElement
 *
 htmlTextArea

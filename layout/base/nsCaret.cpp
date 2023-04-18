@@ -5638,9 +5638,6 @@ IsMenuPopupHidingCaret
 (
 )
 {
-#
-ifdef
-MOZ_XUL
 /
 /
 Check
@@ -5970,8 +5967,6 @@ true
 ;
 }
 }
-#
-endif
 /
 /
 There

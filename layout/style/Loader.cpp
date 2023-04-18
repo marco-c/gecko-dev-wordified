@@ -587,17 +587,12 @@ ReferrerInfo
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPrototypeCache
 .
 h
 "
-#
-endif
 #
 include
 "

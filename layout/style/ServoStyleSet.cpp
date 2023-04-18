@@ -3429,9 +3429,6 @@ forget
 )
 ;
 }
-#
-ifdef
-MOZ_XUL
 already_AddRefed
 <
 ComputedStyle
@@ -3503,8 +3500,6 @@ Consume
 )
 ;
 }
-#
-endif
 /
 /
 manage

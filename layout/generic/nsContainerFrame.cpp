@@ -5294,9 +5294,6 @@ uint32_t
 aFlags
 )
 {
-#
-ifdef
-MOZ_XUL
 if
 (
 !
@@ -5865,8 +5862,6 @@ minSize
 maxSize
 )
 ;
-#
-endif
 }
 void
 nsContainerFrame

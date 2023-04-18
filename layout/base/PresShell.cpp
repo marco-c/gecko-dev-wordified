@@ -1195,9 +1195,6 @@ nsCSSFrameConstructor
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsMenuFrame
@@ -1260,11 +1257,6 @@ nsXULElement
 .
 h
 "
-#
-endif
-/
-/
-MOZ_XUL
 #
 include
 "
@@ -58599,9 +58591,6 @@ WidgetMouseEvent
 aMouseEvent
 )
 {
-#
-ifdef
-MOZ_XUL
 /
 /
 if
@@ -58775,8 +58764,6 @@ true
 ;
 }
 }
-#
-endif
 /
 /
 If
@@ -60317,9 +60304,6 @@ extraTreeY
 =
 0
 ;
-#
-ifdef
-MOZ_XUL
 /
 /
 Set
@@ -60736,8 +60720,6 @@ focusedContent
 item
 ;
 }
-#
-endif
 nsIFrame
 *
 frame

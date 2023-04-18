@@ -627,17 +627,12 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsIDOMXULMenuListElement
 .
 h
 "
-#
-endif
 #
 ifdef
 ACCESSIBILITY
@@ -2110,9 +2105,6 @@ nsIContent
 aContent
 )
 {
-#
-ifdef
-MOZ_XUL
 if
 (
 aContent
@@ -2168,8 +2160,6 @@ inputField
 ;
 }
 }
-#
-endif
 return
 nullptr
 ;
@@ -22489,9 +22479,6 @@ false
 }
 else
 {
-#
-ifdef
-MOZ_XUL
 if
 (
 aType
@@ -22549,8 +22536,6 @@ ePopupTypePanel
 ;
 }
 }
-#
-endif
 if
 (
 popupFrame

@@ -4558,9 +4558,6 @@ requires
 define
 FCDATA_MAY_NEED_SCROLLFRAME
 0x80
-#
-ifdef
-MOZ_XUL
 /
 *
 If
@@ -4590,13 +4587,6 @@ handling
 define
 FCDATA_IS_POPUP
 0x100
-#
-endif
-/
-*
-MOZ_XUL
-*
-/
 /
 *
 If
@@ -9936,9 +9926,6 @@ helper
 functions
 and
 structures
-#
-ifdef
-MOZ_XUL
 static
 const
 FrameConstructionData
@@ -9999,13 +9986,6 @@ endif
 /
 *
 XP_MACOSX
-*
-/
-#
-endif
-/
-*
-MOZ_XUL
 *
 /
 /

@@ -1626,9 +1626,6 @@ GetNativeTextEventDispatcherListener
 )
 override
 ;
-#
-ifdef
-MOZ_XUL
 virtual
 void
 SetTransparencyMode
@@ -1656,11 +1653,6 @@ aOpaqueRegion
 )
 override
 ;
-#
-endif
-/
-/
-MOZ_XUL
 virtual
 nsresult
 SetNonClientMargins
@@ -3292,9 +3284,6 @@ transparency
 helpers
 *
 /
-#
-ifdef
-MOZ_XUL
 private
 :
 void
@@ -3355,11 +3344,6 @@ aButton
 ;
 protected
 :
-#
-endif
-/
-/
-MOZ_XUL
 static
 bool
 IsAsyncResponseEvent
@@ -3952,9 +3936,6 @@ mResizeState
 /
 /
 Transparency
-#
-ifdef
-MOZ_XUL
 nsTransparencyMode
 mTransparencyMode
 ;
@@ -3964,11 +3945,6 @@ mPossiblyTransparentRegion
 MARGINS
 mGlassMargins
 ;
-#
-endif
-/
-/
-MOZ_XUL
 /
 /
 Win7

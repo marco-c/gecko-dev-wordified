@@ -10594,9 +10594,6 @@ HasView
 )
 )
 {
-#
-ifdef
-MOZ_XUL
 if
 (
 IsMenuPopupFrame
@@ -10624,8 +10621,6 @@ it
 return
 ;
 }
-#
-endif
 nsView
 *
 view
@@ -86758,9 +86753,6 @@ viewport
 "
 )
 ;
-#
-ifdef
-MOZ_XUL
 AddFrameTypeInfo
 (
 LayoutFrameType
@@ -86803,8 +86795,6 @@ PopupSet
 "
 )
 ;
-#
-endif
 AddFrameTypeInfo
 (
 LayoutFrameType

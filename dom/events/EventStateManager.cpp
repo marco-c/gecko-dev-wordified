@@ -911,17 +911,12 @@ nsContentAreaDragDrop
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsTreeBodyFrame
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -20251,9 +20246,6 @@ ePanNone
 break
 ;
 }
-#
-ifdef
-MOZ_XUL
 /
 /
 Special
@@ -20313,8 +20305,6 @@ ePanVertical
 break
 ;
 }
-#
-endif
 nsIScrollableFrame
 *
 scrollableFrame

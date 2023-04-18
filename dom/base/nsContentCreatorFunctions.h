@@ -411,9 +411,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-#
-ifdef
-MOZ_XUL
 nsresult
 NS_NewXULElement
 (
@@ -494,8 +491,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-#
-endif
 nsresult
 NS_NewSVGElement
 (

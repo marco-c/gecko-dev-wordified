@@ -831,17 +831,12 @@ defined
 MOZ_WIDGET_ANDROID
 )
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPopupManager
 .
 h
 "
-#
-endif
 #
 include
 <
@@ -15262,9 +15257,6 @@ ScheduleApproximateFrameVisibilityUpdateNow
 )
 ;
 }
-#
-ifdef
-MOZ_XUL
 /
 /
 Update
@@ -15309,8 +15301,6 @@ this
 )
 ;
 }
-#
-endif
 UpdateIntersectionObservations
 (
 aNowTime

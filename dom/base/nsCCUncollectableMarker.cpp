@@ -497,17 +497,12 @@ sGeneration
 1
 ;
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPrototypeCache
 .
 h
 "
-#
-endif
 NS_IMPL_ISUPPORTS
 (
 nsCCUncollectableMarker
@@ -2280,9 +2275,6 @@ cleanupJS
 ;
 }
 }
-#
-ifdef
-MOZ_XUL
 nsXULPrototypeCache
 *
 xulCache
@@ -2308,8 +2300,6 @@ sGeneration
 )
 ;
 }
-#
-endif
 enum
 ForgetSkippableCleanupState
 {

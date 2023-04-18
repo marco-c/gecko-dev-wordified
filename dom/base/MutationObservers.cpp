@@ -227,17 +227,12 @@ nsPIDOMWindow
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULElement
 .
 h
 "
-#
-endif
 #
 include
 "

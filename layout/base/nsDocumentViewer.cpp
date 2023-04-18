@@ -641,17 +641,12 @@ nsCopySupport
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPopupManager
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -9067,9 +9062,6 @@ status
 )
 ;
 }
-#
-ifdef
-MOZ_XUL
 /
 /
 look
@@ -9103,8 +9095,6 @@ HidePopupsInDocument
 mDocument
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -17160,9 +17150,6 @@ GetPopupNode
 (
 )
 ;
-#
-ifdef
-MOZ_XUL
 if
 (
 !
@@ -17233,8 +17220,6 @@ rootDoc
 }
 }
 }
-#
-endif
 return
 node
 .

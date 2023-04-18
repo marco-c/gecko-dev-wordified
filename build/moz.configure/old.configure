@@ -830,13 +830,6 @@ updater
 -
 enable
 -
-xul
-"
-"
--
--
-enable
--
 zipwriter
 "
 "

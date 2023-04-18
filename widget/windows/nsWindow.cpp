@@ -5144,9 +5144,6 @@ mCachedHitTestResult
 =
 0
 ;
-#
-ifdef
-MOZ_XUL
 mTransparencyMode
 =
 eTransparencyOpaque
@@ -5160,8 +5157,6 @@ sizeof
 mGlassMargins
 )
 ;
-#
-endif
 DWORD
 background
 =
@@ -12084,9 +12079,6 @@ SWP_NOACTIVATE
 }
 }
 }
-#
-ifdef
-MOZ_XUL
 if
 (
 !
@@ -12122,8 +12114,6 @@ mWnd
 ;
 }
 }
-#
-endif
 if
 (
 mOpeningAnimationSuppressed
@@ -23651,9 +23641,6 @@ enabled
 *
 *
 /
-#
-ifdef
-MOZ_XUL
 nsTransparencyMode
 nsWindow
 :
@@ -24450,8 +24437,6 @@ policy
 ;
 }
 }
-#
-endif
 /
 *
 *
@@ -53563,9 +53548,6 @@ helpers
 *
 *
 /
-#
-ifdef
-MOZ_XUL
 void
 nsWindow
 :
@@ -54094,11 +54076,6 @@ ResetCompositors
 ;
 }
 }
-#
-endif
-/
-/
-MOZ_XUL
 /
 *
 *

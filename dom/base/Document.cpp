@@ -3574,9 +3574,6 @@ encoding_rs
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 mozilla
@@ -3633,8 +3630,6 @@ nsIDocShellTreeOwner
 .
 h
 "
-#
-endif
 #
 define
 XML_DECLARATION_BITS_DECLARATION_EXISTS
@@ -54399,9 +54394,6 @@ return
 nsAutoString
 tmp
 ;
-#
-ifdef
-MOZ_XUL
 if
 (
 rootElement
@@ -54427,8 +54419,6 @@ tmp
 ;
 }
 else
-#
-endif
 {
 Element
 *
@@ -54501,9 +54491,6 @@ rootElement
 return
 ;
 }
-#
-ifdef
-MOZ_XUL
 if
 (
 rootElement
@@ -54533,8 +54520,6 @@ true
 return
 ;
 }
-#
-endif
 Maybe
 <
 mozAutoDocUpdate

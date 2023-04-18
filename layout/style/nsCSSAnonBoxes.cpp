@@ -158,9 +158,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-MOZ_XUL
 /
 *
 static
@@ -197,8 +194,6 @@ _ns
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG

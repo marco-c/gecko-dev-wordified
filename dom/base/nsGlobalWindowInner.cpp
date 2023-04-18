@@ -2786,9 +2786,6 @@ xpcpublic
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsIDOMXULControlElement
@@ -2802,8 +2799,6 @@ nsMenuPopupFrame
 .
 h
 "
-#
-endif
 #
 ifdef
 NS_PRINTING
@@ -44600,9 +44595,6 @@ ErrorResult
 aError
 )
 {
-#
-ifdef
-MOZ_XUL
 /
 /
 Don
@@ -44832,17 +44824,6 @@ rv
 )
 ;
 }
-#
-else
-aError
-.
-Throw
-(
-NS_ERROR_NOT_IMPLEMENTED
-)
-;
-#
-endif
 }
 ChromeMessageBroadcaster
 *

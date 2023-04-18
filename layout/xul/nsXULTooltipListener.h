@@ -149,17 +149,12 @@ nsString
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 XULTreeElement
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -315,9 +310,6 @@ KillTooltipTimer
 (
 )
 ;
-#
-ifdef
-MOZ_XUL
 void
 CheckTreeBodyMove
 (
@@ -344,8 +336,6 @@ GetSourceTree
 (
 )
 ;
-#
-endif
 nsresult
 ShowTooltip
 (
@@ -584,9 +574,6 @@ bug
 bool
 mTooltipShownOnce
 ;
-#
-ifdef
-MOZ_XUL
 /
 /
 special
@@ -609,8 +596,6 @@ nsTreeColumn
 >
 mLastTreeCol
 ;
-#
-endif
 }
 ;
 #

@@ -80,17 +80,12 @@ inl
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 XULTreeAccessible
 .
 h
 "
-#
-endif
 #
 include
 "

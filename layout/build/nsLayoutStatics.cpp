@@ -581,9 +581,6 @@ nsMixedContentBlocker
 h
 "
 #
-ifdef
-MOZ_XUL
-#
 include
 "
 nsXULPopupManager
@@ -611,8 +608,6 @@ nsXULTooltipListener
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1463,9 +1458,6 @@ return
 rv
 ;
 }
-#
-ifdef
-MOZ_XUL
 rv
 =
 nsXULPopupManager
@@ -1497,8 +1489,6 @@ return
 rv
 ;
 }
-#
-endif
 rv
 =
 nsFocusManager
@@ -1918,9 +1908,6 @@ Shutdown
 (
 )
 ;
-#
-ifdef
-MOZ_XUL
 nsXULPopupManager
 :
 :
@@ -1928,8 +1915,6 @@ Shutdown
 (
 )
 ;
-#
-endif
 UIDirectionManager
 :
 :
@@ -2075,9 +2060,6 @@ Shutdown
 (
 )
 ;
-#
-ifdef
-MOZ_XUL
 nsXULContentUtils
 :
 :
@@ -2099,8 +2081,6 @@ Shutdown
 (
 )
 ;
-#
-endif
 SVGElementFactory
 :
 :
