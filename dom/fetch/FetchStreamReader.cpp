@@ -1029,7 +1029,10 @@ Promise
 >
 ignoredResultPromise
 =
+MOZ_KnownLive
+(
 mReader
+)
 -
 >
 Cancel
@@ -1527,6 +1530,7 @@ endif
 /
 nsIOutputStreamCallback
 interface
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 FetchStreamReader
 :
@@ -1821,7 +1825,10 @@ aes
 cx
 (
 )
+MOZ_KnownLive
+(
 mReader
+)
 readRequest
 rv
 )

@@ -2935,8 +2935,6 @@ aProofOfLock
 #
 ifdef
 MOZ_DOM_STREAMS
-/
-/
 void
 BodyStream
 :
@@ -3071,8 +3069,10 @@ IsByte
 )
 )
 ;
+RefPtr
+<
 ReadableByteStreamController
-*
+>
 byteStreamController
 =
 aStream
