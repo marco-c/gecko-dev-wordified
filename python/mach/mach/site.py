@@ -149,7 +149,7 @@ __init__
 self
 hex_version
 site_name
-file_path
+prefix
 )
 :
         
@@ -167,9 +167,9 @@ site_name
         
 self
 .
-file_path
+prefix
 =
-file_path
+prefix
     
 def
 write
@@ -200,9 +200,17 @@ site_name
 with
 open
 (
+os
+.
+path
+.
+join
+(
 self
 .
-file_path
+prefix
+METADATA_FILENAME
+)
 "
 w
 "
@@ -277,17 +285,9 @@ cls
 .
 from_path
 (
-os
-.
-path
-.
-join
-(
 sys
 .
 prefix
-METADATA_FILENAME
-)
 )
     
 classmethod
@@ -296,9 +296,21 @@ def
 from_path
 (
 cls
-path
+prefix
 )
 :
+        
+metadata_path
+=
+os
+.
+path
+.
+join
+(
+prefix
+METADATA_FILENAME
+)
         
 try
 :
@@ -306,7 +318,7 @@ try
 with
 open
 (
-path
+metadata_path
 "
 r
 "
@@ -342,7 +354,7 @@ virtualenv_name
 "
 ]
                 
-path
+prefix
             
 )
         
@@ -370,7 +382,7 @@ metadata
 at
 "
 {
-path
+metadata_path
 }
 "
 is
@@ -638,17 +650,9 @@ hexversion
             
 site_name
             
-os
-.
-path
-.
-join
-(
 self
 .
 virtualenv_root
-METADATA_FILENAME
-)
         
 )
     
@@ -959,9 +963,9 @@ from_path
 (
 self
 .
-_metadata
+_virtualenv
 .
-file_path
+prefix
 )
             
 if
