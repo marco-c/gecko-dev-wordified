@@ -7639,6 +7639,8 @@ aLinkURI
 nsIContent
 *
 aContent
+bool
+aIsUserTriggered
 )
 ;
 void
