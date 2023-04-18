@@ -3264,7 +3264,7 @@ s
 p
 ]
 %
-d
+lu
 bytes
 read
 "
@@ -3647,7 +3647,7 @@ s
 p
 ]
 %
-d
+lu
 bytes
 written
 "
@@ -3838,7 +3838,7 @@ s
 p
 ]
 %
-d
+lu
 bytes
 written
 "

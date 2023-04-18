@@ -29160,8 +29160,9 @@ AppendPrintf
 (
 "
 %
-08X
+08
 "
+PRIXPTR
 layout
 <
 0xA000
@@ -29260,8 +29261,9 @@ HKL
 :
 0x
 %
-08X
+08
 "
+PRIXPTR
 reinterpret_cast
 <
 uintptr_t
