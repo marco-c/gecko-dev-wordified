@@ -304,13 +304,6 @@ common
 .
 js
 const
-STATE_ANIMATED
-=
-nsIAccessibleStates
-.
-STATE_ANIMATED
-;
-const
 STATE_CHECKED
 =
 nsIAccessibleStates
