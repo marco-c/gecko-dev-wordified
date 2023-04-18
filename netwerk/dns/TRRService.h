@@ -1743,6 +1743,9 @@ const
 char
 *
 aReason
+const
+MutexAutoLock
+&
 )
 ;
 /
@@ -2070,6 +2073,10 @@ const
 char
 *
 aReason
+const
+MutexAutoLock
+&
+aLock
 )
 {
 mConfirmation
@@ -2077,6 +2084,7 @@ mConfirmation
 RecordEvent
 (
 aReason
+aLock
 )
 ;
 }
