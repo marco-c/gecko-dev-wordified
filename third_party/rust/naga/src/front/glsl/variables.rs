@@ -20,7 +20,7 @@ ErrorKind
 }
 Parser
 Result
-SourceMetadata
+Span
 }
 ;
 use
@@ -136,7 +136,7 @@ a
 [
 (
 TypeQualifier
-SourceMetadata
+Span
 )
 ]
 pub
@@ -166,7 +166,7 @@ Constant
 pub
 meta
 :
-SourceMetadata
+Span
 }
 /
 /
@@ -302,7 +302,7 @@ data
 BuiltInData
 meta
 :
-SourceMetadata
+Span
 )
 -
 >
@@ -320,7 +320,7 @@ module
 .
 types
 .
-fetch_or_append
+insert
 (
 Type
 {
@@ -334,10 +334,6 @@ data
 inner
 }
 meta
-.
-as_span
-(
-)
 )
 ;
 let
@@ -378,10 +374,6 @@ init
 None
 }
 meta
-.
-as_span
-(
-)
 )
 ;
 let
@@ -504,6 +496,9 @@ mutable
 data
 .
 mutable
+constant
+:
+None
 entry_arg
 :
 Some
@@ -546,7 +541,7 @@ name
 str
 meta
 :
-SourceMetadata
+Span
 )
 -
 >
@@ -940,7 +935,7 @@ module
 .
 types
 .
-fetch_or_append
+insert
 (
 Type
 {
@@ -966,10 +961,6 @@ width
 }
 }
 meta
-.
-as_span
-(
-)
 )
 ;
 BuiltInData
@@ -1206,7 +1197,7 @@ name
 str
 meta
 :
-SourceMetadata
+Span
 )
 -
 >
@@ -2929,10 +2920,6 @@ ty
 init
 }
 meta
-.
-as_span
-(
-)
 )
 ;
 let
@@ -3117,6 +3104,7 @@ GlobalLookupKind
 Constant
 (
 init
+ty
 )
 entry_arg
 :
@@ -3311,10 +3299,6 @@ ty
 init
 }
 meta
-.
-as_span
-(
-)
 )
 ;
 if
@@ -3676,10 +3660,6 @@ ty
 init
 }
 meta
-.
-as_span
-(
-)
 )
 ;
 let
