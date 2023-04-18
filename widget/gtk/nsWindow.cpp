@@ -38188,6 +38188,13 @@ NativeMoveResize
 %
 p
 ]
+move
+%
+d
+resize
+%
+d
+to
 %
 d
 %
@@ -38207,6 +38214,8 @@ void
 *
 )
 this
+aMoved
+aResized
 topLeft
 .
 x
@@ -38223,6 +38232,9 @@ height
 ;
 if
 (
+aResized
+&
+&
 !
 AreBoundsSane
 (
@@ -38486,6 +38498,11 @@ top
 -
 left
 .
+if
+(
+aMoved
+)
+{
 gtk_window_move
 (
 GTK_WINDOW
@@ -38500,6 +38517,12 @@ topLeft
 y
 )
 ;
+}
+if
+(
+aResized
+)
+{
 gtk_window_resize
 (
 GTK_WINDOW
@@ -38514,6 +38537,7 @@ size
 height
 )
 ;
+}
 }
 else
 if
@@ -38650,6 +38674,9 @@ mNeedsShow
 &
 &
 mIsShown
+&
+&
+aResized
 )
 {
 NativeShow
