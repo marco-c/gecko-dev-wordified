@@ -1950,9 +1950,13 @@ Throw
 cx
 -
 >
-setPendingExceptionAndCaptureStack
+setPendingException
 (
 arg
+ShouldCaptureStack
+:
+:
+Maybe
 )
 ;
 }

@@ -22677,9 +22677,13 @@ Capture
 cx
 -
 >
-setPendingExceptionAndCaptureStack
+setPendingException
 (
 value
+ShouldCaptureStack
+:
+:
+Always
 )
 ;
 }
