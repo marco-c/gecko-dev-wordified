@@ -6632,14 +6632,6 @@ frame
 )
 return
 ;
-ActiveLayerTracker
-:
-:
-NotifyContentChange
-(
-frame
-)
-;
 /
 /
 When
