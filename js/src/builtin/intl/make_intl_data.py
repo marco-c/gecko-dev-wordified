@@ -880,7 +880,7 @@ MOZ_ASSERT
 2
 }
 .
-Span
+span
 (
 )
 )
@@ -897,7 +897,7 @@ MOZ_ASSERT
 2
 }
 .
-Span
+span
 (
 )
 )
@@ -1251,7 +1251,7 @@ if
 {
 }
 .
-Length
+length
 (
 )
 =
@@ -1351,7 +1351,7 @@ return
 {
 }
 .
-EqualTo
+equalTo
 (
 "
 {
@@ -1419,7 +1419,7 @@ if
 {
 }
 .
-Set
+set
 (
 mozilla
 :
@@ -1568,7 +1568,7 @@ if
 {
 }
 .
-Set
+set
 (
 "
 {
@@ -1797,7 +1797,7 @@ aliases
 1
 }
 .
-Set
+set
 (
 mozilla
 :
@@ -1961,7 +1961,7 @@ intl
 Locale
 :
 :
-PerformComplexLanguageMappings
+performComplexLanguageMappings
 (
 )
 {
@@ -1970,11 +1970,11 @@ MOZ_ASSERT
 (
 IsStructurallyValidLanguageTag
 (
-Language
+language
 (
 )
 .
-Span
+span
 (
 )
 )
@@ -1985,11 +1985,11 @@ MOZ_ASSERT
 (
 IsCanonicallyCasedLanguageTag
 (
-Language
+language
 (
 )
 .
-Span
+span
 (
 )
 )
@@ -2154,11 +2154,11 @@ cond
 (
             
 '
-Language
+language
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 {
@@ -2262,7 +2262,7 @@ println
 "
 "
     
-SetLanguage
+setLanguage
 (
 "
 {
@@ -2309,18 +2309,18 @@ println
     
 if
 (
-Script
+script
 (
 )
 .
-Missing
+missing
 (
 )
 )
 {
 {
       
-SetScript
+setScript
 (
 "
 {
@@ -2370,18 +2370,18 @@ println
     
 if
 (
-Region
+region
 (
 )
 .
-Missing
+missing
 (
 )
 )
 {
 {
       
-SetRegion
+setRegion
 (
 "
 {
@@ -2503,7 +2503,7 @@ intl
 Locale
 :
 :
-PerformComplexRegionMappings
+performComplexRegionMappings
 (
 )
 {
@@ -2512,11 +2512,11 @@ MOZ_ASSERT
 (
 IsStructurallyValidLanguageTag
 (
-Language
+language
 (
 )
 .
-Span
+span
 (
 )
 )
@@ -2527,11 +2527,11 @@ MOZ_ASSERT
 (
 IsCanonicallyCasedLanguageTag
 (
-Language
+language
 (
 )
 .
-Span
+span
 (
 )
 )
@@ -2542,11 +2542,11 @@ MOZ_ASSERT
 (
 IsStructurallyValidRegionTag
 (
-Region
+region
 (
 )
 .
-Span
+span
 (
 )
 )
@@ -2557,11 +2557,11 @@ MOZ_ASSERT
 (
 IsCanonicallyCasedRegionTag
 (
-Region
+region
 (
 )
 .
-Span
+span
 (
 )
 )
@@ -2778,11 +2778,11 @@ cond
 (
             
 '
-Region
+region
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 {
@@ -2970,11 +2970,11 @@ None
                     
 return
 '
-Language
+language
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 {
@@ -2991,11 +2991,11 @@ language
 return
 '
 (
-Language
+language
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 {
@@ -3004,11 +3004,11 @@ EqualTo
 )
 &
 &
-Script
+script
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 {
@@ -3092,7 +3092,7 @@ println
 {
 {
       
-SetRegion
+setRegion
 (
 "
 {
@@ -3143,7 +3143,7 @@ else
 {
 {
       
-SetRegion
+setRegion
 (
 "
 {
@@ -3353,7 +3353,7 @@ intl
 Locale
 :
 :
-PerformVariantMappings
+performVariantMappings
 (
 )
 {
@@ -3379,12 +3379,12 @@ std
 :
 is_sorted
 (
-mVariants
+variants_
 .
 begin
 (
 )
-mVariants
+variants_
 .
 end
 (
@@ -3394,7 +3394,7 @@ IsLessThan
 <
 decltype
 (
-mVariants
+variants_
 )
 :
 :
@@ -3416,11 +3416,11 @@ index
 )
 {
     
-mVariants
+variants_
 .
 erase
 (
-mVariants
+variants_
 .
 begin
 (
@@ -3457,12 +3457,12 @@ std
 lower_bound
 (
         
-mVariants
+variants_
 .
 begin
 (
 )
-mVariants
+variants_
 .
 end
 (
@@ -3473,7 +3473,7 @@ IsLessThan
 <
 decltype
 (
-mVariants
+variants_
 )
 :
 :
@@ -3504,7 +3504,7 @@ if
 p
 !
 =
-mVariants
+variants_
 .
 end
 (
@@ -3556,7 +3556,7 @@ variant
 return
 !
 !
-mVariants
+variants_
 .
 insert
 (
@@ -3583,7 +3583,7 @@ i
 ;
 i
 <
-mVariants
+variants_
 .
 length
 (
@@ -3597,7 +3597,7 @@ char
 *
 variant
 =
-mVariants
+variants_
 [
 i
 ]
@@ -3836,7 +3836,7 @@ f
 "
 "
       
-SetLanguage
+setLanguage
 (
 "
 {
@@ -3878,7 +3878,7 @@ f
 "
 "
       
-SetRegion
+setRegion
 (
 "
 {
@@ -4080,7 +4080,7 @@ intl
 Locale
 :
 :
-UpdateLegacyMappings
+updateLegacyMappings
 (
 )
 {
@@ -4158,11 +4158,11 @@ MOZ_ASSERT
 (
 IsCanonicallyCasedLanguageTag
 (
-Language
+language
 (
 )
 .
-Span
+span
 (
 )
 )
@@ -4172,11 +4172,11 @@ Span
 if
 (
 !
-Language
+language
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 sgn
@@ -4184,7 +4184,7 @@ sgn
 )
 &
 &
-mVariants
+variants_
 .
 length
 (
@@ -4211,7 +4211,7 @@ auto
 &
 variant
 :
-Variants
+variants
 (
 )
 )
@@ -4260,12 +4260,12 @@ std
 :
 is_sorted
 (
-mVariants
+variants_
 .
 begin
 (
 )
-mVariants
+variants_
 .
 end
 (
@@ -4275,7 +4275,7 @@ IsLessThan
 <
 decltype
 (
-mVariants
+variants_
 )
 :
 :
@@ -4308,12 +4308,12 @@ std
 :
 lower_bound
 (
-mVariants
+variants_
 .
 begin
 (
 )
-mVariants
+variants_
 .
 end
 (
@@ -4324,7 +4324,7 @@ IsLessThan
 <
 decltype
 (
-mVariants
+variants_
 )
 :
 :
@@ -4343,7 +4343,7 @@ if
 p
 !
 =
-mVariants
+variants_
 .
 end
 (
@@ -4411,12 +4411,12 @@ std
 :
 lower_bound
 (
-mVariants
+variants_
 .
 begin
 (
 )
-mVariants
+variants_
 .
 end
 (
@@ -4427,7 +4427,7 @@ IsLessThan
 <
 decltype
 (
-mVariants
+variants_
 )
 :
 :
@@ -4459,7 +4459,7 @@ if
 p
 !
 =
-mVariants
+variants_
 .
 end
 (
@@ -4511,7 +4511,7 @@ variant
 return
 !
 !
-mVariants
+variants_
 .
 insert
 (
@@ -4550,7 +4550,7 @@ std
 :
 distance
 (
-mVariants
+variants_
 .
 begin
 (
@@ -4559,11 +4559,11 @@ p
 )
 ;
     
-mVariants
+variants_
 .
 erase
 (
-mVariants
+variants_
 .
 begin
 (
@@ -4600,7 +4600,7 @@ std
 :
 distance
 (
-mVariants
+variants_
 .
 begin
 (
@@ -4617,7 +4617,7 @@ std
 :
 distance
 (
-mVariants
+variants_
 .
 begin
 (
@@ -4640,11 +4640,11 @@ sorted
 )
 ;
     
-mVariants
+variants_
 .
 erase
 (
-mVariants
+variants_
 .
 begin
 (
@@ -4654,11 +4654,11 @@ qIndex
 )
 ;
     
-mVariants
+variants_
 .
 erase
 (
-mVariants
+variants_
 .
 begin
 (
@@ -4871,7 +4871,7 @@ println
   
 if
 (
-mVariants
+variants_
 .
 length
 (
@@ -5069,11 +5069,11 @@ println
   
 if
 (
-Language
+language
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 sgn
@@ -5084,28 +5084,28 @@ sgn
     
 if
 (
-Region
+region
 (
 )
 .
-Present
+present
 (
 )
 &
 &
-SignLanguageMapping
+signLanguageMapping
 (
-mLanguage
-Region
+language_
+region
 (
 )
 )
 )
 {
       
-mRegion
+region_
 .
-Set
+set
 (
 mozilla
 :
@@ -5434,11 +5434,11 @@ f
 "
 "
 "
-Language
+language
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 {
@@ -5832,7 +5832,7 @@ sorted_variants
 {
 indent
 }
-SetLanguage
+setLanguage
 (
 "
 {
@@ -6035,7 +6035,7 @@ intl
 Locale
 :
 :
-SignLanguageMapping
+signLanguageMapping
 (
 LanguageSubtag
 &
@@ -6052,7 +6052,7 @@ MOZ_ASSERT
 (
 language
 .
-EqualTo
+equalTo
 (
 "
 sgn
@@ -6067,7 +6067,7 @@ IsStructurallyValidRegionTag
 (
 region
 .
-Span
+span
 (
 )
 )
@@ -6080,7 +6080,7 @@ IsCanonicallyCasedRegionTag
 (
 region
 .
-Span
+span
 (
 )
 )
@@ -11863,7 +11863,7 @@ MOZ_ASSERT
 (
 subtag
 .
-Length
+length
 (
 )
 =
@@ -11895,7 +11895,7 @@ ptr
 =
 subtag
 .
-Span
+span
 (
 )
 .
@@ -12017,7 +12017,7 @@ MOZ_ASSERT
 (
 subtag
 .
-Length
+length
 (
 )
 =
@@ -12049,7 +12049,7 @@ ptr
 =
 subtag
 .
-Span
+span
 (
 )
 .
@@ -12748,7 +12748,7 @@ writeMappingsBinarySearch
 println
         
 "
-LanguageMapping
+languageMapping
 "
         
 "
@@ -12795,7 +12795,7 @@ writeMappingsBinarySearch
 println
         
 "
-ComplexLanguageMapping
+complexLanguageMapping
 "
         
 "
@@ -12845,7 +12845,7 @@ writeMappingsBinarySearch
 println
         
 "
-ScriptMapping
+scriptMapping
 "
         
 "
@@ -12892,7 +12892,7 @@ writeMappingsBinarySearch
 println
         
 "
-RegionMapping
+regionMapping
 "
         
 "
@@ -12939,7 +12939,7 @@ writeMappingsBinarySearch
 println
         
 "
-ComplexRegionMapping
+complexRegionMapping
 "
         
 "
@@ -24031,7 +24031,7 @@ intl
 Locale
 :
 :
-Replace
+replace
 {
 0
 }

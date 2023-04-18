@@ -644,7 +644,7 @@ intl
 LocaleParser
 :
 :
-TryParse
+tryParse
 (
 locale
 loc
@@ -663,7 +663,7 @@ isOk
 &
 loc
 .
-Canonicalize
+canonicalize
 (
 )
 .
@@ -674,11 +674,11 @@ isOk
 &
 loc
 .
-Language
+language
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 en
@@ -688,11 +688,11 @@ en
 &
 loc
 .
-Region
+region
 (
 )
 .
-EqualTo
+equalTo
 (
 "
 US

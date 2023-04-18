@@ -949,7 +949,7 @@ ASSERT_TRUE
 LocaleParser
 :
 :
-TryParse
+tryParse
 (
 locStr
 loc
