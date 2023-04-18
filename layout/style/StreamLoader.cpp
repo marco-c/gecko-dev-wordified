@@ -797,13 +797,6 @@ mSheetLoadData
 -
 >
 mURI
-nsContentUtils
-:
-:
-SubresourceKind
-:
-:
-Style
 )
 ;
 /
