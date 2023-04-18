@@ -533,15 +533,6 @@ using
 namespace
 js
 ;
-using
-js
-:
-:
-intl
-:
-:
-IcuLocale
-;
 const
 JSClassOps
 DisplayNamesObject
