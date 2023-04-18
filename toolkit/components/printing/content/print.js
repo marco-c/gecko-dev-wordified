@@ -16026,10 +16026,6 @@ sheetCount
 this
 .
 sheetCount
-*
-this
-.
-numCopies
 ;
 /
 /
@@ -16088,6 +16084,13 @@ sheetCount
 )
 ;
 }
+sheetCount
+*
+=
+this
+.
+numCopies
+;
 document
 .
 l10n
