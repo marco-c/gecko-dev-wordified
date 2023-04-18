@@ -110,16 +110,16 @@ MPL
 /
 #
 ifndef
-gc_FreeOp_inl_h
+gc_GCContext_inl_h
 #
 define
-gc_FreeOp_inl_h
+gc_GCContext_inl_h
 #
 include
 "
 gc
 /
-FreeOp
+GCContext
 .
 h
 "
@@ -255,4 +255,4 @@ isCollecting
 endif
 /
 /
-gc_JSFreeOp_inl_h
+gc_GCContext_inl_h

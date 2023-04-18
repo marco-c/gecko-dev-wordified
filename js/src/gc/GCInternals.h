@@ -147,7 +147,7 @@ include
 "
 gc
 /
-FreeOp
+GC
 .
 h
 "
@@ -156,7 +156,7 @@ include
 "
 gc
 /
-GC
+GCContext
 .
 h
 "

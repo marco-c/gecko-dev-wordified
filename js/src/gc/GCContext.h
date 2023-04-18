@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-gc_FreeOp_h
+gc_GCContext_h
 #
 define
-gc_FreeOp_h
+gc_GCContext_h
 #
 include
 "
@@ -1671,4 +1671,4 @@ js
 endif
 /
 /
-gc_FreeOp_h
+gc_GCContext_h

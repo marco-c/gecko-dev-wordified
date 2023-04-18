@@ -218,7 +218,7 @@ include
 "
 gc
 /
-FreeOp
+GCContext
 -
 inl
 .
