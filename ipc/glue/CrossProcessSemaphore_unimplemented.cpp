@@ -365,13 +365,8 @@ CrossProcessSemaphoreHandle
 CrossProcessSemaphore
 :
 :
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aTargetPid
 )
 {
 MOZ_CRASH

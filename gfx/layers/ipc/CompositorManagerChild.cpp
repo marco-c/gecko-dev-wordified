@@ -1086,6 +1086,10 @@ mCanSend
 (
 false
 )
+mSameProcess
+(
+true
+)
 {
 MOZ_ASSERT
 (
@@ -1182,6 +1186,10 @@ mResourceId
 0
 )
 mCanSend
+(
+false
+)
+mSameProcess
 (
 false
 )

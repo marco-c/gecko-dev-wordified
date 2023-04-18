@@ -9909,9 +9909,8 @@ CrossProcessSemaphoreDescriptor
 mSemaphore
 -
 >
-ShareToProcess
+CloneHandle
 (
-aOther
 )
 )
 )

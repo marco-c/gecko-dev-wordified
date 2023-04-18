@@ -2276,9 +2276,8 @@ return
 hyph
 -
 >
-ShareToProcess
+CloneHandle
 (
-aPid
 aOutHandle
 aOutSize
 )

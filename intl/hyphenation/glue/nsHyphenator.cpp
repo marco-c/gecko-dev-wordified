@@ -3780,13 +3780,8 @@ void
 nsHyphenator
 :
 :
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aPid
 base
 :
 :

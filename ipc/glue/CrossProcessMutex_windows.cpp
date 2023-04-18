@@ -416,13 +416,8 @@ CrossProcessMutexHandle
 CrossProcessMutex
 :
 :
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aTargetPid
 )
 {
 HANDLE

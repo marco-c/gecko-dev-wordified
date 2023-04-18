@@ -578,7 +578,7 @@ Unlock
 *
 *
 *
-ShareToProcess
+CloneHandle
 *
 This
 function
@@ -620,13 +620,8 @@ process
 *
 /
 CrossProcessMutexHandle
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aTargetPid
 )
 ;
 private

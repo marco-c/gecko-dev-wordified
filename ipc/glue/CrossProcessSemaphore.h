@@ -548,7 +548,7 @@ Signal
 *
 *
 *
-ShareToProcess
+CloneHandle
 *
 This
 function
@@ -590,13 +590,8 @@ process
 *
 /
 CrossProcessSemaphoreHandle
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aTargetPid
 )
 ;
 void

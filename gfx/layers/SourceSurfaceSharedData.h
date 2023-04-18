@@ -1234,13 +1234,8 @@ share
 *
 /
 nsresult
-ShareToProcess
+CloneHandle
 (
-base
-:
-:
-ProcessId
-aPid
 SharedMemoryBasic
 :
 :
@@ -1382,7 +1377,7 @@ to
 new
 processes
 .
-ShareToProcess
+CloneHandle
 must
 have
 failed
