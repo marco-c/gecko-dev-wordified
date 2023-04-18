@@ -1028,6 +1028,12 @@ LaunchSocketProcess
 (
 )
 ;
+static
+bool
+TooManySocketProcessCrash
+(
+)
+;
 private
 :
 /
@@ -1538,6 +1544,10 @@ mNetWon
 {
 0
 }
+;
+static
+uint32_t
+sSocketProcessCrashedCount
 ;
 /
 /
