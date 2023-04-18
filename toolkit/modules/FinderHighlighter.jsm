@@ -4153,13 +4153,16 @@ if
 available
 .
 let
-scrollElement
+scrollHeight
 =
 window
 .
 document
 .
 body
+?
+.
+scrollHeight
 |
 |
 window
@@ -4167,6 +4170,8 @@ window
 document
 .
 documentElement
+.
+scrollHeight
 ;
 let
 yAdj
@@ -4175,8 +4180,6 @@ window
 .
 scrollMaxY
 /
-scrollElement
-.
 scrollHeight
 ;
 for
