@@ -24,7 +24,7 @@ oomTest
 =
 >
 {
-offThreadCompileScript
+offThreadCompileToStencil
 (
 try
 {
@@ -37,8 +37,16 @@ NaN
 }
 )
 ;
-runOffThreadScript
+var
+stencil
+=
+finishOffThreadCompileToStencil
 (
+)
+;
+evalStencil
+(
+stencil
 )
 ;
 }

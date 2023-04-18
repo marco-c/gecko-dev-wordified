@@ -51,7 +51,7 @@ here
 .
 evaluate
 (
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 \
@@ -123,7 +123,7 @@ maxSize
 ;
 evaluate
 (
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 \

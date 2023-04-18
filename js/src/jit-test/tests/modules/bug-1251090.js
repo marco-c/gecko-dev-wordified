@@ -8,7 +8,7 @@ test
 error
 :
 Error
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 "

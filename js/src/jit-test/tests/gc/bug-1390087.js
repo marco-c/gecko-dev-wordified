@@ -35,7 +35,7 @@ allocationThreshold
 1
 )
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 "
 "

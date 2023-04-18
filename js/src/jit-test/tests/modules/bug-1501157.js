@@ -16,7 +16,7 @@ helperThreadCount
 =
 =
 0
-offThreadCompileScript
+offThreadCompileToStencil
 (
 '
 import

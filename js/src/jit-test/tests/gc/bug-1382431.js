@@ -42,7 +42,7 @@ fe
 =
 fe
 ;
-offThreadCompileScript
+offThreadCompileToStencil
 (
 fe
 {

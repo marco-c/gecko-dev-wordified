@@ -722,14 +722,14 @@ function
 )
 {
 }
-offThreadCompileScript
+offThreadCompileToStencil
 :
 function
 (
 )
 {
 }
-runOffThreadScript
+finishOffThreadCompileToStencil
 :
 function
 (
