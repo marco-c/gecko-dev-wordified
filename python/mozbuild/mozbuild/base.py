@@ -117,6 +117,8 @@ HgRepository
 InvalidRepoPath
     
 MissingConfigureInfo
+    
+MissingVCSTool
 )
 from
 .
@@ -3123,8 +3125,13 @@ self
         
 except
 (
+            
 BuildEnvironmentNotFoundException
+            
 MissingConfigureInfo
+            
+MissingVCSTool
+        
 )
 :
             
