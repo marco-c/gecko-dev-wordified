@@ -1381,6 +1381,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+TEST_URL
 )
 ;
 /
@@ -1443,6 +1445,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+TEST_URL
 )
 ;
 /
