@@ -21251,7 +21251,6 @@ do
 this
 check
 if
-constexpr
 (
 sizeof
 (
@@ -22489,7 +22488,6 @@ TEXT_ORIENT_MASK
 )
 ;
 if
-constexpr
 (
 sizeof
 (
@@ -22872,7 +22870,6 @@ word
 adjustment
 here
 if
-constexpr
 (
 sizeof
 (

@@ -17888,7 +17888,6 @@ aLength
 )
 ;
 if
-constexpr
 (
 sizeof
 (
@@ -20240,7 +20239,6 @@ in
 bit
 runs
 if
-constexpr
 (
 sizeof
 (
@@ -24708,7 +24706,6 @@ aString
 ]
 ;
 if
-constexpr
 (
 sizeof
 (
@@ -24925,7 +24922,6 @@ variation
 selector
 .
 if
-constexpr
 (
 sizeof
 (
