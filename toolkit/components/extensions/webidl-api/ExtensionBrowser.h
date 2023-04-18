@@ -179,6 +179,11 @@ JSObject
 aGlobal
 )
 ;
+void
+CreateAndDispatchInitWorkerContextRunnable
+(
+)
+;
 already_AddRefed
 <
 Runnable
