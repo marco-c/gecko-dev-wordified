@@ -1493,10 +1493,12 @@ bool
 needsSweep
 (
 )
-const
 {
+sweep
+(
+)
+;
 return
-!
 this
 -
 >

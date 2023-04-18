@@ -9366,11 +9366,10 @@ zone
 {
 if
 (
-!
 cache
 -
 >
-needsSweep
+empty
 (
 )
 )
