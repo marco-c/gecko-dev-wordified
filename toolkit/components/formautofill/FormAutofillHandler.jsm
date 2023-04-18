@@ -4455,7 +4455,9 @@ country
 !
 FormAutofill
 .
-isAutofillAddressesAvailableInCountry
+supportedCountries
+.
+includes
 (
 record
 .
