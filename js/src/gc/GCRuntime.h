@@ -1506,6 +1506,16 @@ finish
 (
 )
 ;
+#
+ifdef
+DEBUG
+void
+assertNoPermanentSharedThings
+(
+)
+;
+#
+endif
 void
 freezePermanentSharedThings
 (
