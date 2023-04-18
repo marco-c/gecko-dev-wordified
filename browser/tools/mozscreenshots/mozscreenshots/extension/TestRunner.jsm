@@ -1561,9 +1561,6 @@ restrictions
 let
 imported
 =
-{
-}
-;
 ChromeUtils
 .
 import
@@ -1581,7 +1578,6 @@ setName
 }
 .
 jsm
-imported
 )
 ;
 imported
