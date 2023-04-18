@@ -170,7 +170,7 @@ BrowserUsageTelemetry
 .
 jsm
 "
-BuiltInThemeConfig
+BuiltInThemes
 :
 "
 resource
@@ -180,7 +180,7 @@ resource
 /
 modules
 /
-BuiltInThemeConfig
+BuiltInThemes
 .
 jsm
 "
@@ -431,7 +431,9 @@ COLORWAY_IDS
 .
 .
 .
-BuiltInThemeConfig
+BuiltInThemes
+.
+builtInThemeMap
 .
 keys
 (
@@ -454,6 +456,15 @@ mozilla
 .
 org
 "
+)
+&
+&
+!
+BuiltInThemes
+.
+themeIsExpired
+(
+id
 )
 )
 )
