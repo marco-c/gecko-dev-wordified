@@ -1002,6 +1002,11 @@ ScrollbarPreferences
 h
 "
 "
+ScrollGeneration
+.
+h
+"
+"
 ScrollOrigin
 .
 h
@@ -1342,6 +1347,11 @@ cpp
 "
 "
 ScrollbarActivity
+.
+cpp
+"
+"
+ScrollGeneration
 .
 cpp
 "
