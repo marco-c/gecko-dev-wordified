@@ -2294,9 +2294,6 @@ DataSource
 &
 mDataSource
 ;
-bool
-mPrefillQuirk
-;
 /
 /
 The
