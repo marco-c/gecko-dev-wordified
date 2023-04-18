@@ -59,11 +59,6 @@ fonts
 .
 query
 (
-{
-persistentAccess
-:
-true
-}
 )
 ;
 assert_true
@@ -308,11 +303,6 @@ fonts
 .
 query
 (
-{
-persistentAccess
-:
-true
-}
 )
 ;
 assert_true
