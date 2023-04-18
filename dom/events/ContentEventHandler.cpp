@@ -2268,16 +2268,12 @@ ContentEventHandler
 :
 InitRootContent
 (
+const
 Selection
-*
+&
 aNormalSelection
 )
 {
-MOZ_ASSERT
-(
-aNormalSelection
-)
-;
 /
 /
 Root
@@ -2338,8 +2334,7 @@ instead
 MOZ_ASSERT
 (
 aNormalSelection
--
->
+.
 Type
 (
 )
@@ -2355,8 +2350,7 @@ if
 (
 !
 aNormalSelection
--
->
+.
 RangeCount
 (
 )
@@ -2391,8 +2385,7 @@ document
 mRootContent
 =
 aNormalSelection
--
->
+.
 GetAncestorLimiter
 (
 )
@@ -2438,8 +2431,7 @@ nsRange
 range
 (
 aNormalSelection
--
->
+.
 GetRangeAt
 (
 0
@@ -2868,6 +2860,7 @@ rv
 =
 InitRootContent
 (
+*
 normalSelection
 )
 ;
