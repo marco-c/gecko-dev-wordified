@@ -128,6 +128,10 @@ esr91
 "
 oak
 "
+    
+"
+cedar
+"
 }
 RELEASE_PROMOTION_PROJECTS
 =
