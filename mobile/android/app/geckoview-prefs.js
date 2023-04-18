@@ -714,9 +714,6 @@ GeckoRuntimeSettings
 .
 java
 )
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -733,8 +730,6 @@ COEP
 38
 )
 ;
-#
-endif
 /
 /
 Form
