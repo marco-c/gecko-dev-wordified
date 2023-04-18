@@ -32,15 +32,6 @@ use
 strict
 "
 ;
-const
-{
-PushDB
-PushService
-PushServiceWebSocket
-}
-=
-serviceExports
-;
 function
 run_test
 (

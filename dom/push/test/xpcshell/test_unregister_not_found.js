@@ -32,14 +32,6 @@ use
 strict
 "
 ;
-const
-{
-PushDB
-PushService
-}
-=
-serviceExports
-;
 function
 run_test
 (

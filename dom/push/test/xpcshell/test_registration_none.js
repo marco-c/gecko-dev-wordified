@@ -33,14 +33,6 @@ strict
 "
 ;
 const
-{
-PushDB
-PushService
-}
-=
-serviceExports
-;
-const
 userAgentID
 =
 "
