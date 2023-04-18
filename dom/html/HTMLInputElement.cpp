@@ -6872,6 +6872,13 @@ false
 it
 -
 >
+mIndeterminate
+=
+mIndeterminate
+;
+it
+-
+>
 DoneCreatingElement
 (
 )
@@ -9084,6 +9091,8 @@ aShouldInvalidate
 Repaint
 the
 frame
+if
+(
 nsIFrame
 *
 frame
@@ -9091,11 +9100,8 @@ frame
 GetPrimaryFrame
 (
 )
-;
-if
-(
-frame
 )
+{
 frame
 -
 >
@@ -9103,6 +9109,7 @@ InvalidateFrameSubtree
 (
 )
 ;
+}
 }
 UpdateState
 (
