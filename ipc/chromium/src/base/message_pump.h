@@ -113,7 +113,7 @@ nsISupportsImpl
 h
 "
 class
-nsIEventTarget
+nsISerialEventTarget
 ;
 namespace
 base
@@ -1147,7 +1147,7 @@ the
 nsThread
 .
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 GetXPCOMThread
 (

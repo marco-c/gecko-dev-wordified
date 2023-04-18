@@ -220,7 +220,7 @@ public
 explicit
 MessagePump
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -302,7 +302,7 @@ aDelayedWorkTime
 override
 ;
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 GetXPCOMThread
 (
@@ -342,7 +342,7 @@ aDelegate
 ;
 protected
 :
-nsIEventTarget
+nsISerialEventTarget
 *
 mEventTarget
 ;
@@ -455,7 +455,7 @@ public
 explicit
 MessagePumpForNonMainThreads
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -632,7 +632,7 @@ DoRunLoop
 override
 ;
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 GetXPCOMThread
 (
@@ -865,7 +865,7 @@ public
 explicit
 MessagePumpForAndroidUI
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -911,7 +911,7 @@ delayed_work_time
 )
 ;
 virtual
-nsIEventTarget
+nsISerialEventTarget
 *
 GetXPCOMThread
 (
@@ -934,7 +934,7 @@ MessagePumpForAndroidUI
 )
 {
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 mEventTarget
 ;

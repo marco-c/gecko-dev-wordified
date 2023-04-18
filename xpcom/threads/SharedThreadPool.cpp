@@ -1231,10 +1231,6 @@ mRefCnt
 0
 )
 {
-mEventTarget
-=
-aPool
-;
 }
 SharedThreadPool
 :

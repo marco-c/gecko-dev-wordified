@@ -65,13 +65,6 @@ nsStreamTransportService_h__
 #
 include
 "
-nsIDelayedRunnableObserver
-.
-h
-"
-#
-include
-"
 nsIStreamTransportService
 .
 h
