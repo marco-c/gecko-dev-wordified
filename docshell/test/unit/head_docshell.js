@@ -180,13 +180,6 @@ jsm
 )
 ;
 var
-dirSvc
-=
-Services
-.
-dirSvc
-;
-var
 profileDir
 =
 do_get_profile
