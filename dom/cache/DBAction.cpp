@@ -346,9 +346,9 @@ nsresult
 WipeDatabase
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aDBFile
@@ -377,7 +377,7 @@ MOZ_TO_RESULT
 (
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 aDBFile
 )
 )
@@ -428,7 +428,7 @@ MOZ_TO_RESULT
 (
 BodyDeleteDir
 (
-aQuotaInfo
+aClientMetadata
 *
 dbDir
 )
@@ -441,7 +441,7 @@ MOZ_TO_RESULT
 (
 WipePaddingFile
 (
-aQuotaInfo
+aClientMetadata
 dbDir
 )
 )
@@ -492,9 +492,9 @@ Resolver
 >
 aResolver
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 Data
 *
 aOptionalData
@@ -515,7 +515,7 @@ aResolver
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aQuotaInfo
+aClientMetadata
 .
 mDir
 )
@@ -571,7 +571,7 @@ dbDir
 CloneFileAndAppend
 (
 *
-aQuotaInfo
+aClientMetadata
 .
 mDir
 u
@@ -643,7 +643,7 @@ QM_TRY_UNWRAP
 conn
 OpenConnection
 (
-aQuotaInfo
+aClientMetadata
 *
 dbDir
 )
@@ -766,7 +766,7 @@ move
 (
 aResolver
 )
-aQuotaInfo
+aClientMetadata
 dbDir
 conn
 )
@@ -786,9 +786,9 @@ DBAction
 OpenConnection
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aDBDir
@@ -804,7 +804,7 @@ NS_IsMainThread
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aQuotaInfo
+aClientMetadata
 .
 mDirectoryLockId
 >
@@ -881,7 +881,7 @@ QM_TRY_RETURN
 (
 OpenDBConnection
 (
-aQuotaInfo
+aClientMetadata
 *
 dbFile
 )
@@ -925,9 +925,9 @@ Resolver
 >
 aResolver
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 *
 aDBDir
@@ -964,7 +964,7 @@ rv
 =
 RunSyncWithDBOnTarget
 (
-aQuotaInfo
+aClientMetadata
 aDBDir
 aConn
 )
@@ -989,9 +989,9 @@ nsresult
 OpenDBConnection
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aDBFile
@@ -1007,7 +1007,7 @@ NS_IsMainThread
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aQuotaInfo
+aClientMetadata
 .
 mDirectoryLockId
 >
@@ -1123,7 +1123,7 @@ const
 nsCString
 directoryLockIdClause
 =
-aQuotaInfo
+aClientMetadata
 .
 mDirectoryLockId
 >
@@ -1139,7 +1139,7 @@ _ns
 +
 IntToCString
 (
-aQuotaInfo
+aClientMetadata
 .
 mDirectoryLockId
 )
@@ -1241,7 +1241,7 @@ Fallback
 (
 [
 &
-aQuotaInfo
+aClientMetadata
 &
 aDBFile
 &
@@ -1312,7 +1312,7 @@ MOZ_TO_RESULT
 (
 WipeDatabase
 (
-aQuotaInfo
+aClientMetadata
 aDBFile
 )
 )
@@ -1401,7 +1401,7 @@ MOZ_TO_RESULT
 (
 WipeDatabase
 (
-aQuotaInfo
+aClientMetadata
 aDBFile
 )
 )
