@@ -2248,6 +2248,7 @@ unwrapped
 object
 .
 class
+MOZ_STACK_CLASS
 JS_PUBLIC_API
 ArrayBufferOrView
 {
@@ -2286,11 +2287,8 @@ uint8_t
 ;
 protected
 :
-Heap
-<
 JSObject
 *
->
 obj
 ;
 explicit
@@ -2468,7 +2466,7 @@ JSTracer
 trc
 )
 {
-TraceEdge
+UnsafeTraceRoot
 (
 trc
 &
