@@ -62,7 +62,7 @@ strict
 "
 ;
 const
-FRONTEND_BASE_URL
+FRONTEND_BASE_HOST
 =
 "
 http
@@ -72,6 +72,12 @@ http
 example
 .
 com
+"
+;
+const
+FRONTEND_BASE_PATH
+=
+"
 /
 browser
 /
@@ -93,6 +99,13 @@ frontend
 .
 html
 "
+;
+const
+FRONTEND_BASE_URL
+=
+FRONTEND_BASE_HOST
++
+FRONTEND_BASE_PATH
 ;
 add_task
 (
@@ -185,7 +198,8 @@ GetFeatures
 await
 setProfilerFrontendUrl
 (
-FRONTEND_BASE_URL
+FRONTEND_BASE_HOST
+FRONTEND_BASE_PATH
 )
 ;
 await
