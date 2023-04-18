@@ -113,6 +113,11 @@ issue
 "
 pictureinpicture
 "
+"
+proxy
+-
+failover
+"
 ]
 if
 CONFIG
