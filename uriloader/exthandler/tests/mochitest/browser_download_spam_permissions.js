@@ -525,7 +525,9 @@ async
 {
 DownloadIntegration
 .
-downloadSpamProtection
+getDownloadSpamProtection
+(
+)
 .
 clearDownloadSpam
 (
