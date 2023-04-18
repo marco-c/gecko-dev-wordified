@@ -972,7 +972,7 @@ dirsvc
 get
 (
 "
-ProfD
+ProfLD
 "
 Ci
 .
