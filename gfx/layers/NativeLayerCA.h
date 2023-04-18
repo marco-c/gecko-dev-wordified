@@ -2422,6 +2422,13 @@ HasUpdate
 (
 )
 ;
+bool
+CanSpecializeSurface
+(
+IOSurfaceRef
+surface
+)
+;
 /
 /
 Lazily
