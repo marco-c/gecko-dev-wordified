@@ -1256,6 +1256,10 @@ mIsFullyOccluded
 (
 false
 )
+mCurrentPanGestureBelongsToSwipe
+(
+false
+)
 {
 #
 ifdef
