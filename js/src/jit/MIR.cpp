@@ -15729,7 +15729,8 @@ isResumePoint
 )
 )
 {
-continue
+return
+true
 ;
 }
 MDefinition
