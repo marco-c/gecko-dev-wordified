@@ -4918,7 +4918,7 @@ Copy
 ]
 pub
 struct
-RustSdpAttributeImageAttrXYRange
+RustSdpAttributeImageAttrXyRange
 {
 /
 /
@@ -4959,10 +4959,10 @@ From
 &
 '
 a
-SdpAttributeImageAttrXYRange
+SdpAttributeImageAttrXyRange
 >
 for
-RustSdpAttributeImageAttrXYRange
+RustSdpAttributeImageAttrXyRange
 {
 fn
 from
@@ -4970,7 +4970,7 @@ from
 other
 :
 &
-SdpAttributeImageAttrXYRange
+SdpAttributeImageAttrXyRange
 )
 -
 >
@@ -4980,7 +4980,7 @@ match
 other
 {
 &
-SdpAttributeImageAttrXYRange
+SdpAttributeImageAttrXyRange
 :
 :
 Range
@@ -4992,7 +4992,7 @@ step
 =
 >
 {
-RustSdpAttributeImageAttrXYRange
+RustSdpAttributeImageAttrXyRange
 {
 min
 max
@@ -5015,7 +5015,7 @@ null
 }
 }
 &
-SdpAttributeImageAttrXYRange
+SdpAttributeImageAttrXyRange
 :
 :
 DiscreteValues
@@ -5026,7 +5026,7 @@ discrete_values
 =
 >
 {
-RustSdpAttributeImageAttrXYRange
+RustSdpAttributeImageAttrXyRange
 {
 min
 :
@@ -5263,11 +5263,11 @@ RustSdpAttributeImageAttrSet
 pub
 x
 :
-RustSdpAttributeImageAttrXYRange
+RustSdpAttributeImageAttrXyRange
 pub
 y
 :
-RustSdpAttributeImageAttrXYRange
+RustSdpAttributeImageAttrXyRange
 pub
 has_sar
 :
@@ -5320,7 +5320,7 @@ RustSdpAttributeImageAttrSet
 {
 x
 :
-RustSdpAttributeImageAttrXYRange
+RustSdpAttributeImageAttrXyRange
 :
 :
 from
@@ -5332,7 +5332,7 @@ x
 )
 y
 :
-RustSdpAttributeImageAttrXYRange
+RustSdpAttributeImageAttrXyRange
 :
 :
 from
