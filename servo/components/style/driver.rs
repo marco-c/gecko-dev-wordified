@@ -1141,9 +1141,10 @@ drain
 ;
 pool
 .
-install
+scope_fifo
 (
 |
+scope
 |
 {
 /
@@ -1218,15 +1219,6 @@ for
 style
 sharing
 .
-rayon
-:
-:
-scope_fifo
-(
-|
-scope
-|
-{
 gecko_profiler_label
 !
 (
@@ -1263,9 +1255,6 @@ pool
 traversal
 &
 tls
-)
-;
-}
 )
 ;
 }
