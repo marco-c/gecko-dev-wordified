@@ -8873,7 +8873,12 @@ aValue
 GetFlatThreadAnnotation
 (
 getThreadAnnotationCB
-false
+/
+*
+aIsHandlingException
+*
+/
+true
 )
 ;
 }
@@ -10362,6 +10367,11 @@ aValue
 GetFlatThreadAnnotation
 (
 getThreadAnnotationCB
+/
+*
+aIsHandlingException
+*
+/
 true
 )
 ;

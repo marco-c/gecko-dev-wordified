@@ -1432,7 +1432,8 @@ aIsHandlingException
 bool
 lockNeeded
 =
-true
+!
+aIsHandlingException
 ;
 #
 ifdef
