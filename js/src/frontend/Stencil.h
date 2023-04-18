@@ -1843,6 +1843,16 @@ class
 InputScope
 ;
 friend
+class
+AbstractBindingIter
+<
+frontend
+:
+:
+TaggedParserAtomIndex
+>
+;
+friend
 struct
 CompilationStencil
 ;
