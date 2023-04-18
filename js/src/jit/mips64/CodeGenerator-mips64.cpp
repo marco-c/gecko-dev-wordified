@@ -3249,10 +3249,7 @@ output
 input
 .
 reg
-ImmPtr
-(
-0
-)
+zero
 Assembler
 :
 :
