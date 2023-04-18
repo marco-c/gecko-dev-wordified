@@ -515,6 +515,17 @@ LEARN_MORE_URL
 ;
 }
 get
+BEST_MATCH_LEARN_MORE_URL
+(
+)
+{
+return
+UrlbarProviderQuickSuggest
+.
+bestMatchHelpUrl
+;
+}
+get
 SCALARS
 (
 )
