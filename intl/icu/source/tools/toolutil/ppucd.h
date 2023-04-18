@@ -345,6 +345,8 @@ char
 name
 )
 const
+=
+0
 ;
 virtual
 int32_t
@@ -358,6 +360,8 @@ char
 name
 )
 const
+=
+0
 ;
 }
 ;
@@ -722,9 +726,6 @@ Sets
 aliases
 )
 a
-non
--
-standard
 PropertyNames
 implementation
 .
@@ -1183,13 +1184,6 @@ kNumLineBuffers
 =
 3
 ;
-PropertyNames
-*
-icuPnames
-;
-/
-/
-owned
 const
 PropertyNames
 *

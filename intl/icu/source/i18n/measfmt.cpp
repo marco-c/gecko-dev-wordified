@@ -2683,7 +2683,7 @@ delete
 listFormatter
 ;
 }
-UBool
+bool
 MeasureFormat
 :
 :
@@ -2713,7 +2713,7 @@ Same
 object
 equal
 return
-TRUE
+true
 ;
 }
 if
@@ -2731,7 +2731,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -2793,7 +2793,7 @@ fWidth
 )
 {
 return
-FALSE
+false
 ;
 }
 /
@@ -2874,7 +2874,7 @@ assume
 not
 equal
 return
-FALSE
+false
 ;
 }
 if
@@ -2890,7 +2890,7 @@ rhsLocaleId
 )
 {
 return
-FALSE
+false
 ;
 }
 }

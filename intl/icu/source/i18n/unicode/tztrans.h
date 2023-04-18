@@ -631,7 +631,7 @@ ICU
 8
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -697,7 +697,7 @@ ICU
 8
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -1333,6 +1333,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

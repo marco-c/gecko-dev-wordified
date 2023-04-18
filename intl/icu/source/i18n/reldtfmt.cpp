@@ -1049,7 +1049,7 @@ this
 )
 ;
 }
-UBool
+bool
 RelativeDateFormat
 :
 :
@@ -1170,7 +1170,7 @@ fLocale
 ;
 }
 return
-FALSE
+false
 ;
 }
 static
@@ -3402,6 +3402,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 ResourceTable
 relDayTable

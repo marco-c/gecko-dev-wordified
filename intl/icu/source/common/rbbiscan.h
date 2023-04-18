@@ -1090,7 +1090,7 @@ rules
 The
 /
 /
-indicies
+indices
 for
 these
 are

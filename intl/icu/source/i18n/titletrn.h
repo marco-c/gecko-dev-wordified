@@ -472,6 +472,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -501,6 +502,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -620,6 +622,7 @@ UBool
 isIncremental
 )
 const
+override
 ;
 private
 :

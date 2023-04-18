@@ -471,6 +471,7 @@ int64_t
 number
 )
 const
+override
 {
 return
 number
@@ -484,6 +485,7 @@ double
 number
 )
 const
+override
 {
 return
 number
@@ -503,6 +505,7 @@ oldRuleValue
 /
 )
 const
+override
 {
 return
 newRuleValue
@@ -516,6 +519,7 @@ double
 oldUpperBound
 )
 const
+override
 {
 return
 oldUpperBound
@@ -527,6 +531,7 @@ tokenChar
 (
 )
 const
+override
 {
 return
 (
@@ -556,6 +561,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -649,6 +655,7 @@ UErrorCode
 &
 status
 )
+override
 {
 divisor
 =
@@ -673,7 +680,7 @@ U_PARSE_ERROR
 }
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -684,6 +691,7 @@ NFSubstitution
 rhs
 )
 const
+override
 ;
 virtual
 int64_t
@@ -693,6 +701,7 @@ int64_t
 number
 )
 const
+override
 {
 return
 number
@@ -708,6 +717,7 @@ double
 number
 )
 const
+override
 {
 if
 (
@@ -748,6 +758,7 @@ oldRuleValue
 /
 )
 const
+override
 {
 return
 newRuleValue
@@ -767,6 +778,7 @@ oldUpperBound
 /
 )
 const
+override
 {
 return
 static_cast
@@ -784,6 +796,7 @@ tokenChar
 (
 )
 const
+override
 {
 return
 (
@@ -813,6 +826,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -884,6 +898,7 @@ UErrorCode
 &
 status
 )
+override
 {
 divisor
 =
@@ -908,7 +923,7 @@ U_PARSE_ERROR
 }
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -919,6 +934,7 @@ NFSubstitution
 rhs
 )
 const
+override
 ;
 virtual
 void
@@ -938,6 +954,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -957,6 +974,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 int64_t
@@ -966,6 +984,7 @@ int64_t
 number
 )
 const
+override
 {
 return
 number
@@ -981,6 +1000,7 @@ double
 number
 )
 const
+override
 {
 return
 uprv_fmod
@@ -1020,6 +1040,7 @@ Formattable
 result
 )
 const
+override
 ;
 virtual
 double
@@ -1031,6 +1052,7 @@ double
 oldRuleValue
 )
 const
+override
 {
 return
 oldRuleValue
@@ -1062,6 +1084,7 @@ oldUpperBound
 /
 )
 const
+override
 {
 return
 static_cast
@@ -1079,6 +1102,7 @@ isModulusSubstitution
 (
 )
 const
+override
 {
 return
 TRUE
@@ -1090,6 +1114,7 @@ tokenChar
 (
 )
 const
+override
 {
 return
 (
@@ -1112,6 +1137,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 public
 :
@@ -1129,6 +1155,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -1189,6 +1216,7 @@ int64_t
 number
 )
 const
+override
 {
 return
 number
@@ -1202,6 +1230,7 @@ double
 number
 )
 const
+override
 {
 return
 uprv_floor
@@ -1220,6 +1249,7 @@ double
 oldRuleValue
 )
 const
+override
 {
 return
 newRuleValue
@@ -1239,6 +1269,7 @@ oldUpperBound
 /
 )
 const
+override
 {
 return
 DBL_MAX
@@ -1250,6 +1281,7 @@ tokenChar
 (
 )
 const
+override
 {
 return
 (
@@ -1279,6 +1311,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -1336,7 +1369,7 @@ FractionalPartSubstitution
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1347,6 +1380,7 @@ NFSubstitution
 rhs
 )
 const
+override
 ;
 virtual
 void
@@ -1366,6 +1400,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 void
@@ -1405,6 +1440,7 @@ status
 /
 )
 const
+override
 {
 }
 virtual
@@ -1419,6 +1455,7 @@ number
 /
 )
 const
+override
 {
 return
 0
@@ -1432,6 +1469,7 @@ double
 number
 )
 const
+override
 {
 return
 number
@@ -1466,6 +1504,7 @@ Formattable
 result
 )
 const
+override
 ;
 virtual
 double
@@ -1477,6 +1516,7 @@ double
 oldRuleValue
 )
 const
+override
 {
 return
 newRuleValue
@@ -1496,6 +1536,7 @@ oldUpperBound
 /
 )
 const
+override
 {
 return
 0
@@ -1509,6 +1550,7 @@ tokenChar
 (
 )
 const
+override
 {
 return
 (
@@ -1538,6 +1580,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -1598,6 +1641,7 @@ int64_t
 number
 )
 const
+override
 {
 return
 number
@@ -1619,6 +1663,7 @@ double
 number
 )
 const
+override
 {
 return
 uprv_fabs
@@ -1641,6 +1686,7 @@ oldRuleValue
 /
 )
 const
+override
 {
 return
 -
@@ -1659,6 +1705,7 @@ oldUpperBound
 /
 )
 const
+override
 {
 return
 DBL_MAX
@@ -1670,6 +1717,7 @@ tokenChar
 (
 )
 const
+override
 {
 return
 (
@@ -1699,6 +1747,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -1830,7 +1879,7 @@ NumeratorSubstitution
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1841,6 +1890,7 @@ NFSubstitution
 rhs
 )
 const
+override
 ;
 virtual
 int64_t
@@ -1850,6 +1900,7 @@ int64_t
 number
 )
 const
+override
 {
 return
 number
@@ -1865,6 +1916,7 @@ double
 number
 )
 const
+override
 {
 return
 uprv_round
@@ -1913,6 +1965,7 @@ status
 /
 )
 const
+override
 {
 }
 virtual
@@ -1933,6 +1986,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UBool
@@ -1962,6 +2016,7 @@ Formattable
 result
 )
 const
+override
 ;
 virtual
 double
@@ -1973,6 +2028,7 @@ double
 oldRuleValue
 )
 const
+override
 {
 return
 newRuleValue
@@ -1992,6 +2048,7 @@ oldUpperBound
 /
 )
 const
+override
 {
 return
 denominator
@@ -2003,6 +2060,7 @@ tokenChar
 (
 )
 const
+override
 {
 return
 (
@@ -2042,6 +2100,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -3572,7 +3631,7 @@ functionally
 equivalent
 *
 /
-UBool
+bool
 NFSubstitution
 :
 :
@@ -6472,7 +6531,7 @@ UOBJECT_DEFINE_RTTI_IMPLEMENTATION
 (
 MultiplierSubstitution
 )
-UBool
+bool
 MultiplierSubstitution
 :
 :
@@ -6823,7 +6882,7 @@ t
 alter
 how
 this
-substituion
+substitution
 calculates
 the
 /
@@ -6890,7 +6949,7 @@ UOBJECT_DEFINE_RTTI_IMPLEMENTATION
 (
 ModulusSubstitution
 )
-UBool
+bool
 ModulusSubstitution
 :
 :
@@ -10098,7 +10157,7 @@ TRUE
 ;
 }
 }
-UBool
+bool
 FractionalPartSubstitution
 :
 :
@@ -11250,7 +11309,7 @@ return
 TRUE
 ;
 }
-UBool
+bool
 NumeratorSubstitution
 :
 :

@@ -289,7 +289,7 @@ frequency
 /
 of
 -
-occurence
+occurrence
 analysis
 tool
 .
@@ -394,7 +394,7 @@ frequency
 /
 of
 -
-occurence
+occurrence
 analysis
 tool
 .
@@ -542,7 +542,7 @@ frequency
 /
 of
 -
-occurence
+occurrence
 analysis
 tool
 .
@@ -690,7 +690,7 @@ frequency
 /
 of
 -
-occurence
+occurrence
 analysis
 tool
 .
@@ -834,7 +834,7 @@ frequency
 /
 of
 -
-occurence
+occurrence
 analysis
 tool
 .
@@ -1570,7 +1570,7 @@ no
 statistics
 on
 frequently
-occuring
+occurring
 characters
 .
 /
@@ -1627,7 +1627,7 @@ else
 /
 Frequency
 of
-occurence
+occurrence
 statistics
 exist
 .

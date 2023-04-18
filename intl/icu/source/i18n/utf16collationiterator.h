@@ -394,7 +394,7 @@ UTF16CollationIterator
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -405,6 +405,7 @@ CollationIterator
 other
 )
 const
+override
 ;
 virtual
 void
@@ -413,6 +414,7 @@ resetToOffset
 int32_t
 newOffset
 )
+override
 ;
 virtual
 int32_t
@@ -420,6 +422,7 @@ getOffset
 (
 )
 const
+override
 ;
 void
 setText
@@ -457,6 +460,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UChar32
@@ -466,6 +470,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 protected
 :
@@ -518,18 +523,21 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UChar
 handleGetTrailSurrogate
 (
 )
+override
 ;
 virtual
 UBool
 foundNULTerminator
 (
 )
+override
 ;
 virtual
 void
@@ -541,6 +549,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 void
@@ -552,6 +561,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 /
 /
@@ -689,7 +699,7 @@ FCDUTF16CollationIterator
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -700,6 +710,7 @@ CollationIterator
 other
 )
 const
+override
 ;
 virtual
 void
@@ -708,6 +719,7 @@ resetToOffset
 int32_t
 newOffset
 )
+override
 ;
 virtual
 int32_t
@@ -715,6 +727,7 @@ getOffset
 (
 )
 const
+override
 ;
 virtual
 UChar32
@@ -724,6 +737,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UChar32
@@ -733,6 +747,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 protected
 :
@@ -747,12 +762,14 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UBool
 foundNULTerminator
 (
 )
+override
 ;
 virtual
 void
@@ -764,6 +781,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 void
@@ -775,6 +793,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 private
 :

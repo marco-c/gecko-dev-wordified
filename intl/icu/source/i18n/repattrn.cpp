@@ -2831,7 +2831,7 @@ different
 -
 -
 -
-UBool
+bool
 RegexPattern
 :
 :
@@ -2930,7 +2930,7 @@ NULL
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -2977,7 +2977,7 @@ fPattern
 }
 }
 return
-FALSE
+false
 ;
 }
 /

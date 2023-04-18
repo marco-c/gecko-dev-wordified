@@ -480,7 +480,7 @@ enum
 Returns
 NONE
 for
-urecongized
+unrecognized
 *
 category
 name
@@ -565,7 +565,7 @@ T
 must
 provide
 the
-followng
+following
 :
 *
 1

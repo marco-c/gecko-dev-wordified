@@ -1317,6 +1317,7 @@ appendCodeUnit
 char16_t
 c
 )
+override
 ;
 /
 *
@@ -1361,6 +1362,7 @@ appendCodePoint
 UChar32
 c
 )
+override
 ;
 /
 *
@@ -1424,6 +1426,7 @@ s
 int32_t
 length
 )
+override
 ;
 /
 *
@@ -1477,6 +1480,7 @@ reserveAppendCapacity
 int32_t
 appendCapacity
 )
+override
 ;
 /
 *
@@ -1662,6 +1666,7 @@ int32_t
 *
 resultCapacity
 )
+override
 ;
 private
 :

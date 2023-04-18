@@ -356,6 +356,7 @@ bytes
 int32_t
 n
 )
+override
 ;
 void
 Append
@@ -427,6 +428,7 @@ int32_t
 *
 result_capacity
 )
+override
 ;
 int32_t
 NumberOfBytesAppended

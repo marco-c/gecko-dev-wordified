@@ -365,7 +365,7 @@ U_ALPHAINDEX_NORMAL
 *
 *
 *
-Undeflow
+Underflow
 Label
 .
 The
@@ -477,7 +477,7 @@ U_ALPHAINDEX_INFLOW
 Overflow
 Label
 .
-Te
+The
 bucket
 with
 this
@@ -4628,6 +4628,9 @@ constructor
 .
 *
 internal
+(
+private
+)
 *
 /
 AlphabeticIndex
@@ -4677,10 +4680,13 @@ operators
 .
 *
 internal
+(
+private
+)
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -4701,10 +4707,13 @@ operator
 .
 *
 internal
+(
+private
+)
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =
@@ -5065,6 +5074,9 @@ Record
 )
 *
 internal
+(
+private
+)
 *
 /
 UVector

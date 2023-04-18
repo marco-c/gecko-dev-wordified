@@ -522,7 +522,7 @@ equal
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -582,7 +582,7 @@ unequal
 .
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -2290,6 +2290,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

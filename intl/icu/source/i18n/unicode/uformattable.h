@@ -1359,7 +1359,7 @@ then
 a
 conversion
 is
-peformed
+performed
 with
 *
 truncation
@@ -1543,7 +1543,7 @@ casting
 conversion
 is
 *
-peformed
+performed
 with
 truncation
 of
@@ -2213,7 +2213,7 @@ not
 thread
 safe
 and
-therfore
+therefore
 is
 not
 declared

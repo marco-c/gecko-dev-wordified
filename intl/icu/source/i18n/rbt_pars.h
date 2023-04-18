@@ -1061,7 +1061,7 @@ param
 pe
 Struct
 to
-recieve
+receive
 information
 on
 position

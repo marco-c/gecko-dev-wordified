@@ -2364,7 +2364,7 @@ ICU
 *
 /
 inline
-UBool
+bool
 operator
 !
 =

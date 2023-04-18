@@ -2473,6 +2473,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -2534,7 +2535,7 @@ arguments
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -2545,6 +2546,7 @@ Format
 other
 )
 const
+override
 ;
 /
 *
@@ -3313,6 +3315,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -3418,6 +3421,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -3523,6 +3527,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -3810,6 +3815,7 @@ ParsePosition
 parsePosition
 )
 const
+override
 ;
 /
 *
@@ -3890,6 +3896,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *
@@ -4362,7 +4369,7 @@ not
 have
 a
 UErrorCode
-paramater
+parameter
 .
 *
 We

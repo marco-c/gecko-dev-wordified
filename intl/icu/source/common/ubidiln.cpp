@@ -373,7 +373,7 @@ as
 defined
 in
 *
-http
+https
 :
 /
 /
@@ -382,8 +382,6 @@ www
 unicode
 .
 org
-/
-unicode
 /
 reports
 /
@@ -4299,7 +4297,7 @@ get
 here
 *
 /
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 /

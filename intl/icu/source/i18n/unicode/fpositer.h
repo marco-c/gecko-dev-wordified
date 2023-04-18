@@ -597,7 +597,7 @@ ICU
 4
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -651,7 +651,7 @@ ICU
 4
 *
 /
-UBool
+bool
 operator
 !
 =

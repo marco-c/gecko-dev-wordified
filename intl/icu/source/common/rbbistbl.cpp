@@ -460,7 +460,7 @@ the
 abstract
 symbol
 table
-inteface
+interface
 /
 /
 looks

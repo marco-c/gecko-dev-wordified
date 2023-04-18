@@ -712,7 +712,7 @@ for
 inner
 modifiers
 .
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 void

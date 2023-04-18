@@ -1087,6 +1087,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 }
 ;
@@ -1303,6 +1304,7 @@ UObject
 instance
 )
 const
+override
 {
 return
 (
@@ -1336,6 +1338,7 @@ UErrorCode
 status
 )
 const
+override
 {
 LocaleKey
 &
@@ -1448,6 +1451,7 @@ UErrorCode
 status
 )
 const
+override
 {
 UnicodeString
 ar
@@ -1488,6 +1492,7 @@ isDefault
 (
 )
 const
+override
 {
 return
 countFactories
@@ -4021,7 +4026,7 @@ constructor
 The
 task
 for
-determing
+determining
 the
 default
 collation
@@ -4163,7 +4168,7 @@ other
 )
 {
 }
-UBool
+bool
 Collator
 :
 :
@@ -4206,7 +4211,7 @@ other
 )
 ;
 }
-UBool
+bool
 Collator
 :
 :
@@ -4222,15 +4227,11 @@ other
 const
 {
 return
-(
-UBool
-)
 !
+operator
+=
+=
 (
-*
-this
-=
-=
 other
 )
 ;
@@ -4702,6 +4703,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 protected
 :
@@ -4716,6 +4718,7 @@ UErrorCode
 status
 )
 const
+override
 {
 if
 (
@@ -4751,6 +4754,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 }
 ;
@@ -5125,6 +5129,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 public
 :
@@ -5168,6 +5173,7 @@ clone
 (
 )
 const
+override
 {
 CollationLocaleListEnumeration
 *
@@ -5208,6 +5214,7 @@ status
 /
 )
 const
+override
 {
 return
 availableLocaleListCount
@@ -5230,6 +5237,7 @@ status
 *
 /
 )
+override
 {
 const
 char
@@ -5312,6 +5320,7 @@ UErrorCode
 &
 status
 )
+override
 {
 int32_t
 resultLength
@@ -5351,6 +5360,7 @@ status
 *
 /
 )
+override
 {
 index
 =

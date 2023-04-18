@@ -614,6 +614,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -672,7 +673,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -724,7 +725,7 @@ ICU
 2
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -940,6 +941,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *
@@ -1010,7 +1012,7 @@ const
 }
 ;
 inline
-UBool
+bool
 TimeUnitAmount
 :
 :

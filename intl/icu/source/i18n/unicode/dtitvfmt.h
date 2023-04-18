@@ -3426,6 +3426,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -3482,7 +3483,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -3493,6 +3494,7 @@ Format
 other
 )
 const
+override
 ;
 /
 *
@@ -3550,7 +3552,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -3744,6 +3746,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -4546,6 +4549,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 /
 *
@@ -4893,9 +4897,6 @@ TimeZone
 zone
 )
 ;
-#
-ifndef
-U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -5000,7 +5001,7 @@ the
 function
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -5092,7 +5093,7 @@ specified
 type
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -5109,11 +5110,6 @@ status
 )
 const
 ;
-#
-endif
-/
-/
-U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -5318,6 +5314,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 protected
 :
@@ -5561,7 +5558,7 @@ order
 can
 be
 *
-overriden
+overridden
 by
 prefixing
 the
@@ -8424,7 +8421,7 @@ fCapitalizationContext
 }
 ;
 inline
-UBool
+bool
 DateIntervalFormat
 :
 :

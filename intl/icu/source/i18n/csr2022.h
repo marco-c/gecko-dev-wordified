@@ -237,7 +237,7 @@ the
 ICU
 charset
 detection
-imlementation
+implementation
 .
 *
 This
@@ -442,6 +442,7 @@ getName
 (
 )
 const
+override
 ;
 UBool
 match
@@ -454,6 +455,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -482,6 +484,7 @@ getName
 (
 )
 const
+override
 ;
 UBool
 match
@@ -494,6 +497,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -518,6 +522,7 @@ getName
 (
 )
 const
+override
 ;
 UBool
 match
@@ -530,6 +535,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;

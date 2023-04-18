@@ -372,7 +372,7 @@ and
 *
 are
 not
-inteded
+intended
 to
 be
 used

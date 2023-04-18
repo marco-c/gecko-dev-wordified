@@ -223,7 +223,7 @@ End
 of
 #
 defines
-inteded
+intended
 to
 be
 directly
@@ -1136,7 +1136,7 @@ Start
 .
 /
 /
-Paramater
+Parameter
 is
 data
 location
@@ -2644,7 +2644,7 @@ code
 point
 from
 the
-orignal
+original
 UText
 .
 private
@@ -2783,7 +2783,7 @@ code
 point
 from
 the
-orignal
+original
 UText
 .
 int64_t

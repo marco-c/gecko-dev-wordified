@@ -1421,6 +1421,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 ifdef
@@ -2504,6 +2505,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2572,6 +2574,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2679,6 +2682,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 public
 :
@@ -2715,6 +2719,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 ifdef
@@ -2837,7 +2842,7 @@ default
 *
 ICUService
 will
-notifiy
+notify
 this
 listener
 when
@@ -3000,6 +3005,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 }
 ;
@@ -7464,6 +7470,7 @@ EventListener
 l
 )
 const
+override
 ;
 /
 *
@@ -7538,6 +7545,7 @@ EventListener
 l
 )
 const
+override
 ;
 /
 *

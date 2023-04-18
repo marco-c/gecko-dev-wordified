@@ -1089,7 +1089,7 @@ and
 return
 false
 if
-thre
+thrre
 is
 a
 partial

@@ -580,7 +580,7 @@ ICU
 2
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -608,7 +608,7 @@ ICU
 2
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -1054,6 +1054,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -1494,7 +1495,7 @@ fInternalStatus
 }
 ;
 inline
-UBool
+bool
 CurrencyPluralInfo
 :
 :

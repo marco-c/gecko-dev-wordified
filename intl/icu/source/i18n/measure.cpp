@@ -527,7 +527,7 @@ delete
 unit
 ;
 }
-UBool
+bool
 Measure
 :
 :
@@ -557,7 +557,7 @@ Same
 object
 equal
 return
-TRUE
+true
 ;
 }
 if
@@ -582,7 +582,7 @@ types
 not
 equal
 return
-FALSE
+false
 ;
 }
 const

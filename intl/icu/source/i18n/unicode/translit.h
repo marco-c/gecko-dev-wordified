@@ -310,7 +310,7 @@ C
 +
 API
 :
-Tranforms
+Transforms
 text
 from
 one
@@ -1692,7 +1692,7 @@ result
 is
 the
 *
-indentity
+identity
 transliterator
 that
 is
@@ -2476,7 +2476,7 @@ clone
 /
 tt
 >
-propertly
+properly
 .
 To
 register
@@ -3783,7 +3783,7 @@ be
 placed
 into
 the
-precending
+preceding
 or
 following
 context
@@ -10879,7 +10879,7 @@ param
 parseError
 Struct
 to
-recieve
+receive
 information
 on
 position
@@ -13242,7 +13242,7 @@ result
 fill
 -
 in
-paramter
+parameter
 to
 receive
 the
@@ -13394,7 +13394,7 @@ result
 fill
 -
 in
-paramter
+parameter
 to
 receive
 the
@@ -13564,7 +13564,7 @@ result
 fill
 -
 in
-paramter
+parameter
 to
 receive
 the
@@ -14075,6 +14075,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;

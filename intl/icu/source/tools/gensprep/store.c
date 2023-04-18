@@ -640,7 +640,7 @@ mappingTable
 -
 Contains
 the
-sequecence
+sequence
 of
 code
 units
@@ -3316,7 +3316,8 @@ put
 entries
 into
 the
-hastable
+hash
+table
 .
 Error
 :

@@ -2259,7 +2259,7 @@ len
 )
 ;
 }
-UBool
+bool
 BytesTrieBuilder
 :
 :
@@ -2287,7 +2287,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -2305,7 +2305,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const

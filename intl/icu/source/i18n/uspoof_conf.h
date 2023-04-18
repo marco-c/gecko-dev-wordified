@@ -851,7 +851,7 @@ etc
 .
 /
 /
-outut
+output
 :
 entry
 added

@@ -517,6 +517,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 }
 ;
@@ -4348,7 +4349,7 @@ return
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 int32_t
@@ -12136,6 +12137,7 @@ uint32_t
 ce32
 )
 const
+override
 {
 U_ASSERT
 (
@@ -12207,6 +12209,7 @@ int64_t
 ce
 )
 const
+override
 {
 if
 (

@@ -238,6 +238,13 @@ hasBody
 const
 U_OVERRIDE
 ;
+bool
+currencyAsDecimal
+(
+)
+const
+U_OVERRIDE
+;
 private
 :
 UnicodeString
@@ -254,6 +261,9 @@ negSuffix
 ;
 bool
 isCurrencyPattern
+;
+bool
+fCurrencyAsDecimal
 ;
 PropertiesAffixPatternProvider
 (
@@ -416,6 +426,13 @@ U_OVERRIDE
 ;
 bool
 hasBody
+(
+)
+const
+U_OVERRIDE
+;
+bool
+currencyAsDecimal
 (
 )
 const

@@ -383,6 +383,7 @@ resetToOffset
 int32_t
 newOffset
 )
+override
 ;
 virtual
 int32_t
@@ -390,6 +391,7 @@ getOffset
 (
 )
 const
+override
 ;
 virtual
 UChar32
@@ -399,6 +401,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UChar32
@@ -408,6 +411,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 protected
 :
@@ -422,12 +426,14 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UChar
 handleGetTrailSurrogate
 (
 )
+override
 ;
 virtual
 void
@@ -439,6 +445,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 void
@@ -450,6 +457,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 UCharIterator
 &
@@ -535,6 +543,7 @@ resetToOffset
 int32_t
 newOffset
 )
+override
 ;
 virtual
 int32_t
@@ -542,6 +551,7 @@ getOffset
 (
 )
 const
+override
 ;
 virtual
 UChar32
@@ -551,6 +561,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UChar32
@@ -560,6 +571,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 protected
 :
@@ -574,12 +586,14 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 UChar
 handleGetTrailSurrogate
 (
 )
+override
 ;
 virtual
 void
@@ -591,6 +605,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 void
@@ -602,6 +617,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 private
 :

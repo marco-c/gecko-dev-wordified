@@ -886,6 +886,7 @@ clone
 (
 )
 const
+override
 ;
 protected
 :
@@ -913,6 +914,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 }
 ;
@@ -957,6 +959,7 @@ clone
 (
 )
 const
+override
 ;
 protected
 :
@@ -984,6 +987,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :

@@ -544,6 +544,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 const
@@ -558,6 +559,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -610,6 +612,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -636,6 +639,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -666,6 +670,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *

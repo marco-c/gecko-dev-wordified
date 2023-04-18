@@ -826,9 +826,6 @@ ICU
 *
 /
 UCURR_NARROW_SYMBOL_NAME
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -890,7 +887,7 @@ TW
 .
 *
 *
-draft
+stable
 ICU
 68
 *
@@ -937,17 +934,12 @@ symbol
 .
 *
 *
-draft
+stable
 ICU
 68
 *
 /
 UCURR_VARIANT_SYMBOL_NAME
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 }
 UCurrNameStyle
 ;

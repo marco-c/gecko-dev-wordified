@@ -3214,7 +3214,7 @@ this
 .
 *
 return
-True
+true
 if
 the
 two
@@ -3234,7 +3234,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -3276,7 +3276,7 @@ this
 .
 *
 return
-True
+true
 if
 the
 two
@@ -3299,7 +3299,7 @@ ICU
 *
 /
 inline
-UBool
+bool
 operator
 !
 =
@@ -8479,6 +8479,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -9314,7 +9315,7 @@ locale_available_init
 }
 ;
 inline
-UBool
+bool
 Locale
 :
 :

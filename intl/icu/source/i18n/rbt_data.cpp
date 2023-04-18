@@ -659,7 +659,7 @@ if
 memory
 allocation
 error
-occured
+occurred
 .
 if
 (

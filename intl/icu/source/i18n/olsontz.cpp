@@ -2325,7 +2325,7 @@ equal
 .
 *
 /
-UBool
+bool
 OlsonTimeZone
 :
 :
@@ -5597,7 +5597,7 @@ NULL
 Get
 the
 first
-occurence
+occurrence
 of
 final
 rule

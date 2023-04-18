@@ -605,6 +605,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -643,6 +644,7 @@ toMatcher
 (
 )
 const
+override
 ;
 /
 *
@@ -681,6 +683,7 @@ toReplacer
 (
 )
 const
+override
 ;
 /
 *
@@ -915,6 +918,7 @@ limit
 UBool
 incremental
 )
+override
 ;
 /
 *
@@ -968,6 +972,7 @@ escapeUnprintable
 false
 )
 const
+override
 ;
 /
 *
@@ -1059,6 +1064,7 @@ uint8_t
 v
 )
 const
+override
 ;
 /
 *
@@ -1077,6 +1083,7 @@ UnicodeSet
 toUnionTo
 )
 const
+override
 ;
 /
 *
@@ -1094,6 +1101,7 @@ const
 TransliterationRuleData
 *
 )
+override
 ;
 /
 *
@@ -1275,6 +1283,7 @@ int32_t
 &
 cursor
 )
+override
 ;
 /
 *
@@ -1394,6 +1403,7 @@ UBool
 escapeUnprintable
 )
 const
+override
 ;
 /
 *
@@ -1454,6 +1464,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -1528,6 +1539,7 @@ UnicodeSet
 toUnionTo
 )
 const
+override
 ;
 private
 :

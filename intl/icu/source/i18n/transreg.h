@@ -960,7 +960,7 @@ and
 idSplitPoint
 is
 the
-offet
+offset
 in
 aliasID
 /
@@ -1516,7 +1516,7 @@ param
 parseError
 Struct
 to
-recieve
+receive
 information
 on
 position
@@ -2427,7 +2427,7 @@ result
 fill
 -
 in
-paramter
+parameter
 to
 receive
 the
@@ -2565,7 +2565,7 @@ result
 fill
 -
 in
-paramter
+parameter
 to
 receive
 the
@@ -2792,7 +2792,7 @@ result
 fill
 -
 in
-paramter
+parameter
 to
 receive
 the
@@ -3233,6 +3233,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 const
@@ -3244,6 +3245,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -3253,6 +3255,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 static
 UClassID
@@ -3267,6 +3270,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :

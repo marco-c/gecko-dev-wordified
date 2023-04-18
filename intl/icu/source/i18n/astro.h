@@ -4637,7 +4637,7 @@ tt
 if
 the
 next
-occurrance
+occurrence
 of
 the
 phase
@@ -4655,7 +4655,7 @@ tt
 for
 the
 previous
-occurrance
+occurrence
 .
 *
 internal

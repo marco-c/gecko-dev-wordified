@@ -1348,6 +1348,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :
@@ -1654,7 +1655,7 @@ segmentPos
 (
 with
 canonical
-rearrangment
+rearrangement
 !
 )
 *

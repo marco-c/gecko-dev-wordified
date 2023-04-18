@@ -1008,7 +1008,7 @@ collation
 order
 at
 the
-spefcifieid
+specified
 position
 will
 be
@@ -1204,7 +1204,7 @@ that
 an
 error
 has
-occured
+occurred
 while
 processing
 *
@@ -1388,7 +1388,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -1451,7 +1451,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -1532,7 +1532,7 @@ an
 *
 error
 has
-occured
+occurred
 or
 if
 the
@@ -1600,7 +1600,7 @@ an
 *
 error
 has
-occured
+occurred
 or
 if
 the
@@ -2152,6 +2152,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *

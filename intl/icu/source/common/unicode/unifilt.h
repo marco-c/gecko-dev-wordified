@@ -709,6 +709,7 @@ clone
 (
 )
 const
+override
 =
 0
 ;
@@ -838,6 +839,7 @@ toMatcher
 (
 )
 const
+override
 ;
 /
 *
@@ -871,6 +873,7 @@ limit
 UBool
 incremental
 )
+override
 ;
 /
 *
@@ -899,6 +902,7 @@ const
 TransliterationRuleData
 *
 )
+override
 ;
 /
 *

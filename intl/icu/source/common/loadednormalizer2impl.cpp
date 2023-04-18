@@ -1149,7 +1149,7 @@ errorCode
 }
 else
 {
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 /
 /

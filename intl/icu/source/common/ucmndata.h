@@ -376,7 +376,7 @@ there
 is
 an
 abstract
-inteface
+interface
 involved
 .
 *
@@ -394,7 +394,7 @@ and
 *
 are
 not
-inteded
+intended
 to
 be
 used

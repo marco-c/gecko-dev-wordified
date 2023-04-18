@@ -953,7 +953,7 @@ start
 determine
 the
 state
-entrys
+entry
 for
 this
 range

@@ -1157,7 +1157,7 @@ i
 {
 _ids
 .
-addElement
+addElementX
 (
 (
 (
@@ -1260,6 +1260,7 @@ clone
 (
 )
 const
+override
 {
 UErrorCode
 status
@@ -1350,6 +1351,7 @@ UErrorCode
 status
 )
 const
+override
 {
 return
 upToDate
@@ -1376,6 +1378,7 @@ UErrorCode
 &
 status
 )
+override
 {
 if
 (
@@ -1422,6 +1425,7 @@ UErrorCode
 &
 status
 )
+override
 {
 if
 (
@@ -1485,6 +1489,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

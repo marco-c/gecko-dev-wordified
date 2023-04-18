@@ -1414,7 +1414,7 @@ this
 )
 ;
 }
-UBool
+bool
 DateIntervalFormat
 :
 :
@@ -1445,7 +1445,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1469,7 +1469,7 @@ fmt
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1487,7 +1487,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1521,7 +1521,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1549,7 +1549,7 @@ fInfo
 )
 {
 return
-FALSE
+false
 ;
 }
 {
@@ -1589,7 +1589,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1617,7 +1617,7 @@ fDateFormat
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1665,7 +1665,7 @@ fSkeleton
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1697,7 +1697,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1725,7 +1725,7 @@ fDatePattern
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1757,7 +1757,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1785,7 +1785,7 @@ fTimePattern
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1817,7 +1817,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1845,7 +1845,7 @@ fDateTimeFormat
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1860,7 +1860,7 @@ fLocale
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -1904,7 +1904,7 @@ firstPart
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1929,7 +1929,7 @@ secondPart
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1954,7 +1954,7 @@ laterDateFirst
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1970,11 +1970,11 @@ fCapitalizationContext
 )
 {
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 UnicodeString

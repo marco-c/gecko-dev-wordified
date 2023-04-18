@@ -1055,6 +1055,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -1095,6 +1096,7 @@ int32_t
 handleGetExtendedYear
 (
 )
+override
 ;
 /
 *
@@ -1129,6 +1131,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 public
 :
@@ -1231,6 +1234,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *
@@ -1350,6 +1354,7 @@ getType
 (
 )
 const
+override
 ;
 /
 *
@@ -1373,6 +1378,7 @@ haveDefaultCentury
 (
 )
 const
+override
 ;
 /
 *
@@ -1395,6 +1401,7 @@ defaultCenturyStart
 (
 )
 const
+override
 ;
 /
 *
@@ -1417,6 +1424,7 @@ defaultCenturyStartYear
 (
 )
 const
+override
 ;
 private
 :
@@ -1452,6 +1460,7 @@ internalGetEra
 (
 )
 const
+override
 ;
 /
 *
@@ -1476,6 +1485,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -1506,6 +1516,7 @@ ELimitType
 limitType
 )
 const
+override
 ;
 /
 *
@@ -1572,6 +1583,7 @@ getDefaultMonthInYear
 int32_t
 eyear
 )
+override
 ;
 /
 *
@@ -1653,6 +1665,7 @@ eyear
 int32_t
 month
 )
+override
 ;
 }
 ;

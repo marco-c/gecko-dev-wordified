@@ -2281,6 +2281,19 @@ double
 n
 )
 ;
+FixedDecimal
+&
+operator
+=
+(
+const
+FixedDecimal
+&
+other
+)
+=
+default
+;
 bool
 operator
 =
@@ -2295,6 +2308,18 @@ const
 ;
 UnicodeString
 toString
+(
+)
+const
+;
+double
+doubleValue
+(
+)
+const
+;
+int64_t
+longValue
 (
 )
 const
@@ -2794,6 +2819,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 virtual
 const
@@ -2805,6 +2831,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -2814,6 +2841,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -2824,6 +2852,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :
@@ -2870,6 +2899,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -2879,6 +2909,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -2889,6 +2920,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :

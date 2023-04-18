@@ -3791,7 +3791,7 @@ with
 .
 *
 return
-True
+true
 if
 the
 given
@@ -3816,7 +3816,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -3854,7 +3854,7 @@ with
 .
 *
 return
-True
+true
 if
 the
 given
@@ -3879,7 +3879,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -12525,6 +12525,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;

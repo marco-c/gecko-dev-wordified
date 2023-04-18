@@ -499,7 +499,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -580,7 +580,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =
@@ -1805,6 +1805,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -1910,7 +1911,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1921,6 +1922,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -1991,7 +1993,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =
@@ -2002,6 +2004,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -2224,6 +2227,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -2331,6 +2335,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -2436,6 +2441,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -2582,6 +2588,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -2730,6 +2737,7 @@ UDate
 result
 )
 const
+override
 ;
 public
 :
@@ -2937,6 +2945,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -3508,6 +3517,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -3613,7 +3623,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -3624,6 +3634,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -3694,7 +3705,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =
@@ -3705,6 +3716,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -4108,6 +4120,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -4215,6 +4228,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -4320,6 +4334,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -4466,6 +4481,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -4614,6 +4630,7 @@ UDate
 result
 )
 const
+override
 ;
 private
 :
@@ -4833,6 +4850,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;
@@ -5197,6 +5215,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -5302,7 +5321,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -5313,6 +5332,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -5383,7 +5403,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =
@@ -5394,6 +5414,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -5699,6 +5720,7 @@ TimeZoneRule
 that
 )
 const
+override
 ;
 /
 *
@@ -5806,6 +5828,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -5911,6 +5934,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -6057,6 +6081,7 @@ UDate
 result
 )
 const
+override
 ;
 /
 *
@@ -6205,6 +6230,7 @@ UDate
 result
 )
 const
+override
 ;
 private
 :
@@ -6467,6 +6493,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

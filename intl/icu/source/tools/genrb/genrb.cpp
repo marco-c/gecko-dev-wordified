@@ -4561,7 +4561,9 @@ u_cleanup
 ;
 /
 *
-Dont
+Don
+'
+t
 return
 warnings
 as
@@ -4857,7 +4859,7 @@ filename
 is
 not
 file
-seperation
+separation
 char
 and
 the

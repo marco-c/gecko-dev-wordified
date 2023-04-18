@@ -1110,7 +1110,7 @@ across
 platforms
 with
 different
-endianess
+endianness
 .
 *
 /
@@ -3798,7 +3798,7 @@ stderr
 "
 Warning
 :
-Tranlate
+Translate
 attribute
 for
 resource
@@ -6373,11 +6373,6 @@ UErrorCode
 status
 )
 {
-uint32_t
-i
-=
-0
-;
 struct
 SResource
 *
@@ -6438,10 +6433,6 @@ res
 >
 fFirst
 ;
-i
-=
-0
-;
 while
 (
 current
@@ -6471,11 +6462,6 @@ status
 return
 ;
 }
-i
-+
-=
-1
-;
 current
 =
 current

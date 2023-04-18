@@ -6594,7 +6594,7 @@ version
 numbers
 generate
 the
-libary
+library
 file
 names
 and
@@ -11523,7 +11523,7 @@ the
 gencmn
 function
 and
-initailizes
+initializes
 the
 buffer
 .

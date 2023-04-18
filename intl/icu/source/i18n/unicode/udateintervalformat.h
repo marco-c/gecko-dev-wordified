@@ -2139,9 +2139,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2234,7 +2231,7 @@ receive
 any
 errors
 *
-draft
+stable
 ICU
 68
 *
@@ -2313,7 +2310,7 @@ specified
 type
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -2334,13 +2331,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 endif
 /

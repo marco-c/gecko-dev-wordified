@@ -1395,7 +1395,7 @@ not
 and
 how
 the
-hastable
+hashtable
 resizes
 itself
 .
@@ -2061,8 +2061,7 @@ initial
 capacity
 of
 this
-hash
-table
+hashtable
 .
 *
 param
@@ -2269,8 +2268,7 @@ initial
 capacity
 of
 this
-hash
-table
+hashtable
 .
 *
 param
@@ -2797,7 +2795,7 @@ not
 and
 how
 the
-hastable
+hashtable
 resizes
 itself
 .
@@ -6427,8 +6425,7 @@ Checks
 if
 the
 given
-hash
-tables
+hashtables
 are
 equal
 or

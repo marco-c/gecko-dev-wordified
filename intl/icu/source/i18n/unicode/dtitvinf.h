@@ -492,7 +492,7 @@ directly
 creating
 DateIntervalInfo
 and
-manupulating
+manipulating
 it
 .
 *
@@ -1202,7 +1202,7 @@ default
 order
 can
 be
-overriden
+overridden
 *
 by
 prefixing
@@ -1943,7 +1943,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -2002,7 +2002,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -2664,6 +2664,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -3033,7 +3034,7 @@ or
 *
 isolate
 the
-funtionality
+functionality
 in
 DateTimePatternGenerator
 *
@@ -3558,7 +3559,7 @@ end
 class
 DateIntervalInfo
 inline
-UBool
+bool
 DateIntervalInfo
 :
 :

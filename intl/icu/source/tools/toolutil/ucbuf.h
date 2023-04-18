@@ -1170,7 +1170,7 @@ int32_t
 to
 receive
 the
-lenth
+length
 of
 buffer
 *

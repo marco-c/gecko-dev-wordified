@@ -322,7 +322,7 @@ stream
 s
 '
 using
-deliminter
+delimiter
 '
 delim
 '

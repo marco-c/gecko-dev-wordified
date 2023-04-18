@@ -1683,7 +1683,7 @@ and
 11
 do
 not
-yeild
+yield
 an
 integral
 value
@@ -1716,7 +1716,7 @@ mm
 and
 210
 mm
-repectively
+respectively
 *
 and
 for
@@ -1782,7 +1782,7 @@ pointer
 to
 int
 to
-recieve
+receive
 the
 height
 information
@@ -1795,7 +1795,7 @@ pointer
 to
 int
 to
-recieve
+receive
 the
 width
 information
@@ -1870,10 +1870,12 @@ library
 *
 param
 versionArray
-fillin
+fill
+-
+in
 that
 will
-recieve
+receive
 the
 version
 number

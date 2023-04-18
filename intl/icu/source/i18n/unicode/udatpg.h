@@ -2416,7 +2416,7 @@ previous
 *
 value
 is
-overriden
+overridden
 .
 Otherwise
 the

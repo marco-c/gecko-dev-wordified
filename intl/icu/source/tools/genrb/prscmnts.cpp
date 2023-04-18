@@ -651,7 +651,7 @@ status
 ;
 /
 /
-remvoe
+remove
 trailing
 spcaes
 return

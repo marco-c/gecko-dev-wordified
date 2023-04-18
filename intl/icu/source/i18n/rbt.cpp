@@ -560,7 +560,7 @@ param
 parseError
 Struct
 to
-recieve
+receive
 information
 on
 position

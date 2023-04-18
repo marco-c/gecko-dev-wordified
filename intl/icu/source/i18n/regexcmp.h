@@ -1658,7 +1658,7 @@ was
 specified
 (
 unlimited
-occurences
+occurrences
 .
 )
 int64_t
@@ -1812,7 +1812,7 @@ fSetOpStack
 while
 scanning
 &
-evalueating
+evaluating
 [
 set
 expressions

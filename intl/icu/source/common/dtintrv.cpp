@@ -432,7 +432,7 @@ this
 )
 ;
 }
-UBool
+bool
 DateInterval
 :
 :

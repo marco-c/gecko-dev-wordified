@@ -6762,6 +6762,11 @@ internal
 ULOC_AVAILABLE_COUNT
 #
 endif
+/
+*
+U_HIDE_INTERNAL_API
+*
+/
 }
 ULocAvailableType
 ;

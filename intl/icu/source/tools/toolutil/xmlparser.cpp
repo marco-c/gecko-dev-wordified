@@ -853,7 +853,7 @@ occurrences
 /
 /
 of
-closeing
+closing
 square
 brackets
 .
@@ -1457,7 +1457,7 @@ checked
 syntactically
 but
 not
-separted
+separated
 out
 one
 by
@@ -4092,7 +4092,7 @@ end
 /
 /
 XML
-Attribue
+Attribute
 value
 normalization
 .
@@ -4689,7 +4689,7 @@ content
 /
 which
 is
-flaged
+flagged
 by
 start
 (

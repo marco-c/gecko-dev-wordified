@@ -372,7 +372,7 @@ there
 is
 an
 abstract
-inteface
+interface
 involved
 .
 *

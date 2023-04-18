@@ -844,7 +844,7 @@ Check
 to
 see
 that
-preceeding
+preceding
 item
 was
 a

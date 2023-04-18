@@ -896,7 +896,7 @@ with
 .
 *
 return
-True
+true
 if
 the
 given
@@ -922,7 +922,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -933,6 +933,7 @@ TimeZone
 that
 )
 const
+override
 ;
 /
 *
@@ -1130,7 +1131,7 @@ time
 rules
 can
 be
-specfied
+specified
 by
 using
 different
@@ -1510,7 +1511,7 @@ time
 rules
 can
 be
-specfied
+specified
 by
 using
 different
@@ -1914,7 +1915,7 @@ time
 rules
 can
 be
-specfied
+specified
 by
 using
 different
@@ -2704,7 +2705,7 @@ on
 or
 after
 the
-specfied
+specified
 day
 of
 the
@@ -3292,7 +3293,7 @@ on
 or
 after
 the
-specfied
+specified
 day
 of
 the
@@ -5545,6 +5546,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -5741,6 +5743,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -6001,6 +6004,7 @@ UErrorCode
 ec
 )
 const
+override
 ;
 #
 ifndef
@@ -6045,6 +6049,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 endif
@@ -6118,6 +6123,7 @@ getRawOffset
 void
 )
 const
+override
 ;
 /
 *
@@ -6187,6 +6193,7 @@ setRawOffset
 int32_t
 offsetMillis
 )
+override
 ;
 /
 *
@@ -6358,6 +6365,7 @@ getDSTSavings
 void
 )
 const
+override
 ;
 /
 *
@@ -6402,6 +6410,7 @@ useDaylightTime
 void
 )
 const
+override
 ;
 #
 ifndef
@@ -6548,6 +6557,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 endif
@@ -6616,6 +6626,7 @@ TimeZone
 other
 )
 const
+override
 ;
 /
 *
@@ -6663,6 +6674,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -6740,6 +6752,7 @@ TimeZoneTransition
 result
 )
 const
+override
 ;
 /
 *
@@ -6819,6 +6832,7 @@ TimeZoneTransition
 result
 )
 const
+override
 ;
 /
 *
@@ -6927,6 +6941,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -7133,6 +7148,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 public
 :
@@ -7239,6 +7255,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *

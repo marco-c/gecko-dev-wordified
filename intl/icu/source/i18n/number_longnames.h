@@ -261,7 +261,7 @@ function
 uses
 a
 fillIn
-intead
+instead
 of
 returning
 a
@@ -916,7 +916,7 @@ function
 uses
 a
 fillIn
-intead
+instead
 of
 returning
 a

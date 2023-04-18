@@ -1171,7 +1171,7 @@ param
 pos
 INPUT
 -
-OUPUT
+OUTPUT
 parameter
 .
 On

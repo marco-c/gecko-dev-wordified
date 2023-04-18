@@ -2330,7 +2330,7 @@ tricky
 -
 it
 will
-intially
+initially
 appear
 that
 /
@@ -3215,7 +3215,7 @@ Equality
 operator
 .
 Returns
-TRUE
+true
 if
 both
 BreakIterators
@@ -3238,7 +3238,7 @@ text
 .
 *
 /
-UBool
+bool
 RuleBasedBreakIterator
 :
 :
@@ -3269,7 +3269,7 @@ that
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -3282,7 +3282,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 /
@@ -3385,7 +3385,7 @@ s
 position
 .
 return
-FALSE
+false
 ;
 }
 if
@@ -3418,7 +3418,7 @@ fDone
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -3470,11 +3470,11 @@ same
 rules
 .
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 /
@@ -5369,7 +5369,7 @@ Returns
 true
 if
 the
-specfied
+specified
 position
 is
 a
@@ -8324,7 +8324,7 @@ machine
 .
 /
 /
-Transistion
+Transition
 to
 state
 zero
@@ -9994,6 +9994,17 @@ get
 rid
 of
 it
+U_ASSERT
+(
+!
+fLanguageBreakEngines
+-
+>
+hasDeleter
+(
+)
+)
+;
 if
 (
 U_FAILURE

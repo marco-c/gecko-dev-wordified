@@ -742,6 +742,7 @@ UBool
 useMonth
 )
 const
+override
 ;
 /
 *
@@ -772,6 +773,7 @@ ELimitType
 limitType
 )
 const
+override
 ;
 /
 *
@@ -851,6 +853,7 @@ UErrorCode
 &
 )
 const
+override
 ;
 /
 *
@@ -878,6 +881,7 @@ haveDefaultCentury
 (
 )
 const
+override
 ;
 protected
 :

@@ -1901,6 +1901,37 @@ filter_json
 default_filter_json
         
 #
+Special
+default
+for
+category
+"
+brkitr_lstm
+"
+as
+"
+exclude
+"
+for
+now
+.
+        
+if
+"
+brkitr_lstm
+"
+=
+=
+category
+:
+            
+filter_json
+=
+"
+exclude
+"
+        
+#
 Figure
 out
 the
@@ -1908,6 +1939,9 @@ correct
 filter
 to
 create
+for
+now
+.
         
 if
 "

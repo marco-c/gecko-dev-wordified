@@ -1356,7 +1356,7 @@ status
 -
 -
 -
-UBool
+bool
 ChoiceFormat
 :
 :
@@ -1380,7 +1380,7 @@ this
 that
 )
 return
-TRUE
+true
 ;
 if
 (
@@ -1396,7 +1396,7 @@ that
 )
 )
 return
-FALSE
+false
 ;
 ChoiceFormat
 &

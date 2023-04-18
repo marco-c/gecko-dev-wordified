@@ -1248,7 +1248,7 @@ continue
 supportedLocales_
 -
 >
-addElement
+addElementX
 (
 locale
 errorCode_
@@ -1373,7 +1373,7 @@ break
 supportedLocales_
 -
 >
-addElement
+addElementX
 (
 clone
 errorCode_
@@ -1461,7 +1461,7 @@ this
 supportedLocales_
 -
 >
-addElement
+addElementX
 (
 clone
 errorCode_

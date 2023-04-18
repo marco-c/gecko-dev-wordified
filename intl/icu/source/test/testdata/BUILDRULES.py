@@ -234,6 +234,22 @@ testtypes
 "
         
 #
+LSTM
+models
+        
+"
+Thai_graphclust_model4_heavy
+"
+        
+"
+Thai_codepoints_exclusive_model5_heavy
+"
+        
+"
+Burmese_graphclust_model5_heavy
+"
+        
+#
 "
 metaZones
 "

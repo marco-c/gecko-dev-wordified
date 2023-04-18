@@ -717,7 +717,7 @@ return
 this
 ;
 }
-UBool
+bool
 StringCharacterIterator
 :
 :
@@ -742,7 +742,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 /
@@ -790,7 +790,7 @@ that
 )
 {
 return
-FALSE
+false
 ;
 }
 StringCharacterIterator

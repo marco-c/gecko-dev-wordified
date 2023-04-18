@@ -2835,7 +2835,7 @@ Node
 right
 ;
 }
-UBool
+bool
 StringTrieBuilder
 :
 :
@@ -2914,7 +2914,7 @@ return
 edgeNumber
 ;
 }
-UBool
+bool
 StringTrieBuilder
 :
 :
@@ -2942,7 +2942,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -2960,7 +2960,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -3009,7 +3009,7 @@ TRUE
 )
 ;
 }
-UBool
+bool
 StringTrieBuilder
 :
 :
@@ -3037,7 +3037,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -3055,7 +3055,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -3093,7 +3093,7 @@ value
 )
 ;
 }
-UBool
+bool
 StringTrieBuilder
 :
 :
@@ -3121,7 +3121,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -3139,7 +3139,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -3234,7 +3234,7 @@ FALSE
 )
 ;
 }
-UBool
+bool
 StringTrieBuilder
 :
 :
@@ -3262,7 +3262,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -3280,7 +3280,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -3350,7 +3350,7 @@ return
 edgeNumber
 ;
 }
-UBool
+bool
 StringTrieBuilder
 :
 :
@@ -3378,7 +3378,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -3396,7 +3396,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -3472,12 +3472,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 int32_t
@@ -3945,7 +3945,7 @@ unitNumber
 ;
 }
 }
-UBool
+bool
 StringTrieBuilder
 :
 :
@@ -3973,7 +3973,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -3991,7 +3991,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -4198,7 +4198,7 @@ unit
 )
 ;
 }
-UBool
+bool
 StringTrieBuilder
 :
 :
@@ -4226,7 +4226,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -4244,7 +4244,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 const

@@ -2285,7 +2285,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -2363,7 +2363,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =
@@ -7421,6 +7421,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;
@@ -9249,7 +9250,7 @@ constructor
 The
 task
 for
-determing
+determining
 the
 default
 collation

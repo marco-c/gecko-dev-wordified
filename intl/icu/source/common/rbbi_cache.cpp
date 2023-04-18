@@ -433,7 +433,7 @@ TRUE
 ;
 }
 }
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 UBool
@@ -670,7 +670,7 @@ TRUE
 ;
 }
 }
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 void
@@ -1006,6 +1006,7 @@ text
 rangeStart
 rangeEnd
 fBreaks
+status
 )
 ;
 }
@@ -1309,7 +1310,7 @@ boundaries
 *
 *
 BreakCache
-implemetation
+implementation
 *
 /
 RuleBasedBreakIterator
@@ -2592,7 +2593,7 @@ populateFollowing
 )
 )
 {
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }

@@ -1524,7 +1524,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -1575,7 +1575,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -1953,6 +1953,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -2127,7 +2128,7 @@ this
 ;
 }
 inline
-UBool
+bool
 FieldPosition
 :
 :
@@ -2170,7 +2171,7 @@ fBeginIndex
 ;
 }
 inline
-UBool
+bool
 FieldPosition
 :
 :

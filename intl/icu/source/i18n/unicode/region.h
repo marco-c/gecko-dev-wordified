@@ -882,7 +882,7 @@ ICU
 51
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -925,7 +925,7 @@ ICU
 51
 *
 /
-UBool
+bool
 operator
 !
 =

@@ -1917,7 +1917,8 @@ happen
 Plugin
 hasn
 '
-tbeen
+t
+been
 loaded
 yet
 .
@@ -2019,7 +2020,8 @@ happen
 Plugin
 hasn
 '
-tbeen
+t
+been
 loaded
 yet
 .
@@ -2154,7 +2156,8 @@ happen
 Plugin
 hasn
 '
-tbeen
+t
+been
 loaded
 yet
 .
@@ -3092,7 +3095,7 @@ pluginStatus
 Initialize
 a
 plugin
-fron
+from
 an
 entrypoint
 and

@@ -2156,6 +2156,7 @@ SRBRoot
 *
 bundle
 )
+override
 ;
 virtual
 void
@@ -2165,6 +2166,7 @@ uint32_t
 *
 byteOffset
 )
+override
 ;
 virtual
 void
@@ -2177,6 +2179,7 @@ uint32_t
 *
 byteOffset
 )
+override
 ;
 SResource
 *
@@ -2260,6 +2263,7 @@ SRBRoot
 *
 bundle
 )
+override
 ;
 }
 ;
@@ -2381,6 +2385,7 @@ uint32_t
 *
 byteOffset
 )
+override
 ;
 virtual
 void
@@ -2393,6 +2398,7 @@ uint32_t
 *
 byteOffset
 )
+override
 ;
 /
 /
@@ -2634,6 +2640,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 virtual
 void
@@ -2643,6 +2650,7 @@ SRBRoot
 *
 bundle
 )
+override
 ;
 void
 writeUTF16v2
@@ -2860,6 +2868,7 @@ uint32_t
 *
 byteOffset
 )
+override
 ;
 virtual
 void
@@ -2872,6 +2881,7 @@ uint32_t
 *
 byteOffset
 )
+override
 ;
 /
 /
@@ -2939,6 +2949,7 @@ uint32_t
 *
 byteOffset
 )
+override
 ;
 virtual
 void
@@ -2951,6 +2962,7 @@ uint32_t
 *
 byteOffset
 )
+override
 ;
 /
 /

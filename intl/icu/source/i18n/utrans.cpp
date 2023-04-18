@@ -674,6 +674,7 @@ UnicodeString
 &
 text
 )
+override
 ;
 virtual
 void
@@ -688,6 +689,7 @@ UnicodeString
 target
 )
 const
+override
 ;
 virtual
 void
@@ -700,6 +702,7 @@ limit
 int32_t
 dest
 )
+override
 ;
 /
 /
@@ -753,6 +756,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -797,6 +801,7 @@ getLength
 (
 )
 const
+override
 ;
 virtual
 UChar
@@ -806,6 +811,7 @@ int32_t
 offset
 )
 const
+override
 ;
 virtual
 UChar32
@@ -815,6 +821,7 @@ int32_t
 offset
 )
 const
+override
 ;
 }
 ;

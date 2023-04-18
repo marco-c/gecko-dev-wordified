@@ -1259,7 +1259,7 @@ ToPrecision
 "
 /
 /
-Similarily
+Similarly
 the
 converter
 may
@@ -1670,7 +1670,7 @@ and
 /
 /
 EMIT_TRAILING_DECIMAL_POINT
-deactived
+deactivated
 :
 /
 /
@@ -2960,7 +2960,7 @@ ToPrecision
 "
 /
 /
-Similarily
+Similarly
 the
 converter
 may

@@ -2080,7 +2080,7 @@ comparison
 operators
 virtual
 inline
-UBool
+bool
 operator
 =
 =
@@ -2101,7 +2101,7 @@ other
 ;
 }
 inline
-UBool
+bool
 operator
 !
 =

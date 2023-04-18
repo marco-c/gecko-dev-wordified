@@ -659,7 +659,7 @@ i
 }
 }
 }
-UBool
+bool
 UVector32
 :
 :
@@ -686,7 +686,7 @@ other
 count
 )
 return
-FALSE
+false
 ;
 for
 (
@@ -720,12 +720,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 void

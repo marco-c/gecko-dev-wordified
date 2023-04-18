@@ -266,7 +266,7 @@ insertion
 Spieth
 Removed
 ICUListResourceBundle
-dependancy
+dependency
 *
 *
 *
@@ -4617,7 +4617,7 @@ TRUE
 Reset
 the
 start
-indictor
+indicator
 *
 /
 bName

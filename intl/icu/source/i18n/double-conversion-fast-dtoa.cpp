@@ -6371,7 +6371,7 @@ speed
 enhancements
 are
 not
-terriffic
+terrific
 .
 DiyFp
 scaled_boundary_minus
@@ -6476,7 +6476,7 @@ with
 "
 123
 "
-und
+and
 the
 decimal_exponent
 will

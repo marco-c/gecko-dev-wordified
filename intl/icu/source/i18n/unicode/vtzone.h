@@ -644,7 +644,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -655,6 +655,7 @@ TimeZone
 that
 )
 const
+override
 ;
 /
 *
@@ -726,7 +727,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =
@@ -1589,6 +1590,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -1922,6 +1924,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2172,6 +2175,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2405,6 +2409,7 @@ UErrorCode
 ec
 )
 const
+override
 ;
 #
 ifndef
@@ -2449,6 +2454,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 endif
@@ -2525,6 +2531,7 @@ setRawOffset
 int32_t
 offsetMillis
 )
+override
 ;
 /
 *
@@ -2591,6 +2598,7 @@ getRawOffset
 void
 )
 const
+override
 ;
 /
 *
@@ -2636,6 +2644,7 @@ useDaylightTime
 void
 )
 const
+override
 ;
 #
 ifndef
@@ -2760,6 +2769,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 endif
@@ -2855,6 +2865,7 @@ TimeZone
 other
 )
 const
+override
 ;
 /
 *
@@ -2932,6 +2943,7 @@ TimeZoneTransition
 result
 )
 const
+override
 ;
 /
 *
@@ -3011,6 +3023,7 @@ TimeZoneTransition
 result
 )
 const
+override
 ;
 /
 *
@@ -3119,6 +3132,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -3325,6 +3339,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :
@@ -3953,6 +3968,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

@@ -1414,7 +1414,7 @@ implementation
 of
 ModifierStore
 adopts
-Modifer
+Modifier
 pointers
 .
 *

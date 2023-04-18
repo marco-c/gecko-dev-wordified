@@ -503,7 +503,7 @@ else
 return
 UnicodeString
 (
-TRUE
+true
 symbol
 symbolLen
 )
@@ -707,7 +707,7 @@ else
 return
 UnicodeString
 (
-TRUE
+true
 symbol
 symbolLen
 )

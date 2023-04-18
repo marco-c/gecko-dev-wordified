@@ -2717,7 +2717,9 @@ res_getAlias
 parent
 -
 >
-fResData
+getResData
+(
+)
 )
 r
 &
@@ -4374,7 +4376,9 @@ res_getTableItemByIndex
 resource
 -
 >
-fResData
+getResData
+(
+)
 resource
 -
 >
@@ -4395,7 +4399,9 @@ res_getArrayItem
 resource
 -
 >
-fResData
+getResData
+(
+)
 resource
 -
 >

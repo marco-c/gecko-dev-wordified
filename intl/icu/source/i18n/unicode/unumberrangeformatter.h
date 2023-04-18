@@ -1144,12 +1144,14 @@ internal
 UNUM_IDENTITY_RESULT_COUNT
 #
 endif
+/
+*
+U_HIDE_INTERNAL_API
+*
+/
 }
 UNumberRangeIdentityResult
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 struct
 UNumberRangeFormatter
 ;
@@ -1196,7 +1198,7 @@ instead
 .
 *
 *
-draft
+stable
 ICU
 68
 *
@@ -1252,7 +1254,7 @@ instead
 .
 *
 *
-draft
+stable
 ICU
 68
 *
@@ -1491,7 +1493,7 @@ error
 occurs
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -1570,7 +1572,7 @@ error
 occurs
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -1721,7 +1723,7 @@ error
 occurs
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -1923,7 +1925,7 @@ error
 occurs
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -2056,7 +2058,7 @@ input
 object
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -2144,7 +2146,7 @@ see
 UNumberRangeIdentityResult
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -2326,7 +2328,7 @@ trailing
 NUL
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -2513,7 +2515,7 @@ trailing
 NUL
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -2563,7 +2565,7 @@ unumf_openForSkeletonAndLocale
 )
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -2604,7 +2606,7 @@ unumf_openResult
 )
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -2700,7 +2702,7 @@ LocalPointerBase
 see
 LocalPointer
 *
-draft
+stable
 ICU
 68
 *
@@ -2788,7 +2790,7 @@ LocalPointerBase
 see
 LocalPointer
 *
-draft
+stable
 ICU
 68
 *
@@ -2806,11 +2808,6 @@ endif
 /
 /
 U_SHOW_CPLUSPLUS_API
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 endif
 /

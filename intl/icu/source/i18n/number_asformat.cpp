@@ -194,7 +194,7 @@ LocalizedNumberFormatterAsFormat
 =
 default
 ;
-UBool
+bool
 LocalizedNumberFormatterAsFormat
 :
 :

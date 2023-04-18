@@ -397,6 +397,7 @@ InputText
 *
 det
 )
+override
 ;
 void
 parseCharacters
@@ -405,6 +406,7 @@ InputText
 *
 det
 )
+override
 ;
 }
 ;
@@ -436,6 +438,7 @@ getName
 (
 )
 const
+override
 =
 0
 ;
@@ -451,6 +454,7 @@ CharsetMatch
 results
 )
 const
+override
 =
 0
 ;
@@ -497,6 +501,7 @@ getName
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -510,6 +515,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -534,6 +540,7 @@ getName
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -547,6 +554,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -571,6 +579,7 @@ getName
 (
 )
 const
+override
 ;
 }
 ;
@@ -595,6 +604,7 @@ getName
 (
 )
 const
+override
 ;
 }
 ;
@@ -619,6 +629,7 @@ getName
 (
 )
 const
+override
 ;
 }
 ;
@@ -644,6 +655,7 @@ getName
 (
 )
 const
+override
 ;
 }
 ;
@@ -668,6 +680,7 @@ getName
 (
 )
 const
+override
 ;
 }
 ;
@@ -692,6 +705,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -705,6 +719,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -729,6 +744,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -742,6 +758,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -766,6 +783,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -779,6 +797,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -803,6 +822,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -811,6 +831,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -824,6 +845,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -848,6 +870,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -861,6 +884,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -885,6 +909,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -898,6 +923,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -922,6 +948,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -930,6 +957,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -943,6 +971,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -967,6 +996,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -975,6 +1005,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -988,6 +1019,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -1012,6 +1044,7 @@ getName
 (
 )
 const
+override
 ;
 const
 char
@@ -1020,6 +1053,7 @@ getLanguage
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -1033,6 +1067,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -1061,6 +1096,7 @@ getLanguage
 (
 )
 const
+override
 ;
 }
 ;
@@ -1085,6 +1121,7 @@ getName
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -1098,6 +1135,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -1120,6 +1158,7 @@ getName
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -1133,6 +1172,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -1157,6 +1197,7 @@ getLanguage
 (
 )
 const
+override
 ;
 int32_t
 match_sbcs
@@ -1176,6 +1217,7 @@ charMap
 ]
 )
 const
+override
 ;
 }
 ;
@@ -1200,6 +1242,7 @@ getName
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -1213,6 +1256,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -1235,6 +1279,7 @@ getName
 (
 )
 const
+override
 ;
 virtual
 UBool
@@ -1248,6 +1293,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;

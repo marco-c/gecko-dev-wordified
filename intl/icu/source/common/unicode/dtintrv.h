@@ -730,6 +730,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *
@@ -805,7 +806,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -845,7 +846,7 @@ ICU
 *
 /
 inline
-UBool
+bool
 operator
 !
 =
@@ -958,7 +959,7 @@ toDate
 ;
 }
 inline
-UBool
+bool
 DateInterval
 :
 :

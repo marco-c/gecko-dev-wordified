@@ -4310,7 +4310,7 @@ function
 pointers
 to
 appropriate
-funtions
+functions
 *
 /
 cnv
@@ -4745,7 +4745,7 @@ function
 pointers
 to
 appropriate
-funtions
+functions
 *
 /
 cnv
@@ -4996,7 +4996,7 @@ function
 pointers
 to
 appropriate
-funtions
+functions
 *
 /
 cnv
@@ -15517,7 +15517,7 @@ JP
 only
 and
 we
-successully
+successfully
 completed
 an
 escape
@@ -20976,7 +20976,7 @@ ESC
 >
 N
 must
-preceed
+precede
 every
 2
 byte
@@ -21024,7 +21024,7 @@ ESC
 >
 O
 must
-preceed
+precede
 every
 2
 byte
@@ -21074,7 +21074,7 @@ ESC
 >
 O
 must
-preceed
+precede
 every
 2
 byte

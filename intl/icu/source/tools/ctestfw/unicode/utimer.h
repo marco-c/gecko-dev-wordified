@@ -690,7 +690,7 @@ the
 *
 /
 /
-funtion
+function
 *
 for
 (
@@ -1255,7 +1255,7 @@ UTimer
 ;
 typedef
 void
-FuntionToBeTimed
+FunctionToBeTimed
 (
 void
 *
@@ -1555,7 +1555,7 @@ endif
 *
 *
 *
-Intializes
+Initializes
 the
 timer
 with
@@ -1572,7 +1572,7 @@ to
 UTimer
 struct
 to
-recieve
+receive
 the
 current
 time
@@ -1812,7 +1812,7 @@ loopCount
 output
 param
 to
-recieve
+receive
 the
 number
 of
@@ -1821,7 +1821,7 @@ iterations
 param
 fn
 The
-funtion
+function
 to
 be
 executed
@@ -1855,7 +1855,7 @@ thresholdTimeVal
 int32_t
 *
 loopCount
-FuntionToBeTimed
+FunctionToBeTimed
 fn
 void
 *

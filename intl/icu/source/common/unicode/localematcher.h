@@ -2709,9 +2709,6 @@ Locale
 locale
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2754,7 +2751,7 @@ locale
 .
 *
 *
-draft
+stable
 ICU
 68
 *
@@ -2765,11 +2762,6 @@ setNoDefaultLocale
 (
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3060,9 +3052,6 @@ return
 this
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3236,7 +3225,7 @@ this
 Builder
 object
 *
-draft
+stable
 ICU
 68
 *
@@ -3255,11 +3244,6 @@ Locale
 supported
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4354,9 +4338,6 @@ errorCode
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4466,7 +4447,7 @@ matches
 acceptably
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -4488,11 +4469,6 @@ errorCode
 )
 const
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 ifndef
 U_HIDE_INTERNAL_API

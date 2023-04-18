@@ -593,7 +593,7 @@ on
 relative
 proportion
 of
-recongized
+recognized
 vs
 .
 /

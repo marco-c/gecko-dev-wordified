@@ -341,7 +341,7 @@ use
 invariant
 conversion
 and
-substitue
+substitute
 *
 '
 ?

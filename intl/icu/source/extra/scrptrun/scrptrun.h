@@ -419,6 +419,7 @@ getDynamicClassID
 (
 )
 const
+override
 {
 return
 getStaticClassID

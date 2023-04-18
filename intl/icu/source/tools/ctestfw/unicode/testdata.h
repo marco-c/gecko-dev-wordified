@@ -340,7 +340,7 @@ default
 headers
 will
 be
-overriden
+overridden
 *
 by
 per
@@ -841,6 +841,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 virtual
 UBool
@@ -855,6 +856,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 UBool
@@ -869,6 +871,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 }
 ;

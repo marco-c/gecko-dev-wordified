@@ -2232,7 +2232,7 @@ and
 adjust
 the
 extended
-eyar
+year
 accordingly
 if
 (

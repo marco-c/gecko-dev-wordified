@@ -1720,7 +1720,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1731,6 +1731,7 @@ Collator
 other
 )
 const
+override
 ;
 /
 *
@@ -1769,6 +1770,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -2083,6 +2085,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2226,6 +2229,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2416,6 +2420,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2513,6 +2518,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2635,6 +2641,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2746,6 +2753,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2871,6 +2879,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2908,6 +2917,7 @@ hashCode
 (
 )
 const
+override
 ;
 #
 ifndef
@@ -3007,6 +3017,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 endif
@@ -3093,6 +3104,7 @@ UVersionInfo
 info
 )
 const
+override
 ;
 #
 ifndef
@@ -3335,6 +3347,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *
@@ -3794,6 +3807,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -3846,6 +3860,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -3991,6 +4006,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 /
 *
@@ -4031,6 +4047,7 @@ getMaxVariable
 (
 )
 const
+override
 ;
 #
 ifndef
@@ -4227,6 +4244,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -4402,6 +4420,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -4496,6 +4515,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 #
 endif
@@ -4565,6 +4585,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -4648,6 +4669,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -4776,6 +4798,7 @@ int32_t
 resultLength
 )
 const
+override
 ;
 /
 *
@@ -4935,6 +4958,7 @@ int32_t
 resultLength
 )
 const
+override
 ;
 /
 *
@@ -5066,6 +5090,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -5167,6 +5192,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -5202,6 +5228,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 /
 *
@@ -5428,6 +5455,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -5464,6 +5492,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 /
 /
@@ -5926,6 +5955,7 @@ Locale
 &
 actualLocale
 )
+override
 ;
 private
 :

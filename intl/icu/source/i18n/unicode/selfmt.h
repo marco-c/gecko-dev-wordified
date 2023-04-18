@@ -2518,7 +2518,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -2529,6 +2529,7 @@ Format
 other
 )
 const
+override
 ;
 /
 *
@@ -2578,7 +2579,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =
@@ -2628,6 +2629,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -2775,6 +2777,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -3042,6 +3045,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 /
 *
@@ -3112,6 +3116,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :

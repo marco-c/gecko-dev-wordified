@@ -1132,7 +1132,7 @@ return
 values
 -
 >
-addElement
+addElementX
 (
 fValues
 status
@@ -1163,7 +1163,7 @@ fValues
 )
 -
 >
-addElement
+addElementX
 (
 value
 status
@@ -1810,7 +1810,7 @@ key
 fLazyContents
 -
 >
-addElement
+addElementX
 (
 s
 status
@@ -1845,7 +1845,7 @@ return
 fLazyContents
 -
 >
-addElement
+addElementX
 (
 value
 status
@@ -3672,7 +3672,7 @@ bundles
 /
 which
 will
-perisist
+persist
 for
 the
 life
@@ -5197,7 +5197,7 @@ localStatus
 Ignore
 errors
 but
-propogate
+propagate
 possible
 warnings
 .
@@ -5338,6 +5338,7 @@ UErrorCode
 &
 errorCode
 )
+override
 {
 ResourceTable
 namesTable
@@ -5885,6 +5886,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 virtual
 const
@@ -5896,6 +5898,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -5905,6 +5908,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -5915,6 +5919,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :
@@ -6305,6 +6310,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 TimeZoneNames
 :
@@ -7329,7 +7335,7 @@ NULL
 ;
 }
 }
-UBool
+bool
 TimeZoneNamesImpl
 :
 :
@@ -7354,7 +7360,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 /
@@ -7364,7 +7370,7 @@ implementation
 for
 now
 return
-FALSE
+false
 ;
 }
 TimeZoneNamesImpl
@@ -7700,7 +7706,7 @@ mzID
 mzIDs
 -
 >
-addElement
+addElementX
 (
 (
 void
@@ -7845,7 +7851,7 @@ tzID
 /
 /
 static
-implementaion
+implementation
 of
 getReferenceZoneID
 UnicodeString
@@ -10313,6 +10319,7 @@ UErrorCode
 &
 status
 )
+override
 {
 ResourceTable
 timeZonesTable
@@ -12376,6 +12383,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 TimeZoneNames
 :
@@ -14008,7 +14016,7 @@ TZDBTimeZoneNames
 )
 {
 }
-UBool
+bool
 TZDBTimeZoneNames
 :
 :
@@ -14033,7 +14041,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 /
@@ -14043,7 +14051,7 @@ implementation
 for
 now
 return
-FALSE
+false
 ;
 }
 TZDBTimeZoneNames

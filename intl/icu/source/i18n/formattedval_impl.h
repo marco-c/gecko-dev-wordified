@@ -923,6 +923,11 @@ return
 fString
 ;
 }
+void
+resetString
+(
+)
+;
 /
 *
 *

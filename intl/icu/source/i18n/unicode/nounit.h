@@ -247,9 +247,6 @@ measunit
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -302,7 +299,7 @@ name
 see
 NumberFormatter
 *
-draft
+stable
 ICU
 68
 *
@@ -366,7 +363,7 @@ a
 MeasureUnit
 instance
 *
-draft
+stable
 ICU
 68
 *
@@ -443,7 +440,7 @@ a
 MeasureUnit
 instance
 *
-draft
+stable
 ICU
 68
 *
@@ -523,7 +520,7 @@ a
 MeasureUnit
 instance
 *
-draft
+stable
 ICU
 68
 *
@@ -547,13 +544,6 @@ getPermille
 }
 }
 U_NAMESPACE_END
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 endif
 /

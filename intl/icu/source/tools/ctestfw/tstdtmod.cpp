@@ -1232,7 +1232,7 @@ UNICODE_STRING_SIMPLE
 "
 Unable
 to
-initalize
+initialize
 test
 data
 -

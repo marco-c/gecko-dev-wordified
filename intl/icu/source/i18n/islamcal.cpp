@@ -3199,7 +3199,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 /
 /
@@ -7763,7 +7763,7 @@ invalid
 '
 civil
 '
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 /
 /

@@ -3873,7 +3873,7 @@ ICU
 8
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -3919,7 +3919,7 @@ ICU
 *
 /
 inline
-UBool
+bool
 operator
 !
 =
@@ -5693,7 +5693,7 @@ ICU
 8
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -5739,7 +5739,7 @@ ICU
 *
 /
 inline
-UBool
+bool
 operator
 !
 =

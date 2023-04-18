@@ -785,7 +785,7 @@ resetToDefaultToUnicode
 *
 boolean
 for
-reseting
+resetting
 to
 default
 delta
@@ -9275,7 +9275,7 @@ ZERO
 }
 /
 *
-DEFALT
+DEFAULT
 *
 /
 {
@@ -9705,7 +9705,7 @@ ii
 )
 EXT
 :
-Extention
+Extension
 code
 is
 used
@@ -9729,7 +9729,7 @@ i
 Halant
 :
 if
-preceeded
+preceded
 by
 a
 halant
@@ -9748,7 +9748,7 @@ Nukta
 a
 )
 if
-preceeded
+preceded
 by
 a
 halant
@@ -9762,7 +9762,7 @@ halant
 b
 )
 if
-preceeded
+preceded
 by
 specific
 consonants
@@ -9792,7 +9792,7 @@ Danda
 If
 Danda
 is
-preceeded
+preceded
 by
 a
 Danda
@@ -10050,7 +10050,7 @@ the
 post
 -
 context
-preform
+perform
 special
 processing
 *

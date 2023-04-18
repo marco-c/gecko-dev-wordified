@@ -1294,7 +1294,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -1343,7 +1343,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -1859,7 +1859,7 @@ then
 a
 conversion
 is
-peformed
+performed
 with
 *
 possible
@@ -2088,7 +2088,7 @@ then
 a
 conversion
 is
-peformed
+performed
 with
 *
 truncation
@@ -2306,7 +2306,7 @@ casting
 conversion
 is
 *
-peformed
+performed
 with
 truncation
 of
@@ -3332,7 +3332,7 @@ not
 thread
 safe
 and
-therfore
+therefore
 is
 not
 declared
@@ -4016,6 +4016,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *

@@ -1231,7 +1231,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -1288,7 +1288,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -1948,6 +1948,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -2420,7 +2421,7 @@ fUnion
 }
 ;
 inline
-UBool
+bool
 CollationKey
 :
 :

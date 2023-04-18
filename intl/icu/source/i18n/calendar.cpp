@@ -2909,6 +2909,7 @@ UErrorCode
 status
 )
 const
+override
 {
 if
 (
@@ -3023,6 +3024,7 @@ UErrorCode
 status
 )
 const
+override
 {
 #
 ifdef
@@ -3329,6 +3331,7 @@ UErrorCode
 status
 )
 const
+override
 {
 LocaleKey
 &
@@ -3540,6 +3543,7 @@ UObject
 instance
 )
 const
+override
 {
 UnicodeString
 *
@@ -3665,6 +3669,7 @@ UErrorCode
 status
 )
 const
+override
 {
 LocaleKey
 &
@@ -3829,6 +3834,7 @@ isDefault
 (
 )
 const
+override
 {
 return
 countFactories
@@ -7050,7 +7056,7 @@ locale
 this
 was
 an
-indirected
+indirect
 calendar
 )
 char
@@ -7524,7 +7530,7 @@ U_BUFFER_OVERFLOW_ERROR
 ;
 }
 }
-UBool
+bool
 Calendar
 :
 :
@@ -11363,7 +11369,7 @@ fields
 .
 These
 are
-indepent
+independent
 of
 the
 date
@@ -22602,7 +22608,7 @@ Find
 the
 previous
 zone
-transtion
+transition
 near
 the
 given
@@ -23178,7 +23184,7 @@ if
 btz
 )
 {
-int
+UTimeZoneLocalOption
 duplicatedTimeOpt
 =
 (
@@ -23188,17 +23194,11 @@ fRepeatedWallTime
 UCAL_WALLTIME_FIRST
 )
 ?
-BasicTimeZone
+UCAL_TZ_LOCAL_FORMER
 :
-:
-kFormer
-:
-BasicTimeZone
-:
-:
-kLatter
+UCAL_TZ_LOCAL_LATTER
 ;
-int
+UTimeZoneLocalOption
 nonExistingTimeOpt
 =
 (
@@ -23208,15 +23208,9 @@ fSkippedWallTime
 UCAL_WALLTIME_FIRST
 )
 ?
-BasicTimeZone
+UCAL_TZ_LOCAL_LATTER
 :
-:
-kLatter
-:
-BasicTimeZone
-:
-:
-kFormer
+UCAL_TZ_LOCAL_FORMER
 ;
 btz
 -
@@ -23542,7 +23536,7 @@ transition
 which
 means
 earliest
-possibe
+possible
 interpretation
 )
 .

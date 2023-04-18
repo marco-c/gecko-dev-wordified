@@ -3198,7 +3198,7 @@ pointer
 to
 UParseError
 to
-recieve
+receive
 information
 about
 errors
@@ -3382,7 +3382,7 @@ scheme
 *
 Attributes
 are
-overriden
+overridden
 by
 the
 subsequent
@@ -3614,7 +3614,7 @@ or
 if
 an
 error
-occured
+occurred
 (
 including
 an
@@ -4786,7 +4786,7 @@ UTF
 -
 8
 encoded
-trings
+strings
 .
 *
 The

@@ -4495,7 +4495,7 @@ simply
 look
 at
 the
-neigbors
+neighbors
 of
 the
 correct

@@ -454,7 +454,7 @@ child
 '
 s
 last
-postion
+position
 .
 UBool
 fNullable
@@ -685,7 +685,7 @@ other
 No
 defs
 .
-UBool
+bool
 operator
 =
 =
@@ -705,7 +705,7 @@ functions
 won
 '
 t
-accidently
+accidentally
 be
 used
 .

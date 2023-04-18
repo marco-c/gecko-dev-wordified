@@ -1893,7 +1893,7 @@ less
 than
 the
 Unicode
-Vesion
+Version
 of
 the
 normalization
@@ -1922,7 +1922,7 @@ less
 than
 the
 Unicode
-Vesion
+Version
 of
 the
 normalization

@@ -468,6 +468,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -591,6 +592,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *

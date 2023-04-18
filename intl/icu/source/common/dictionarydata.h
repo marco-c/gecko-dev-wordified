@@ -887,6 +887,7 @@ int32_t
 prefix
 )
 const
+override
 ;
 virtual
 int32_t
@@ -894,6 +895,7 @@ getType
 (
 )
 const
+override
 ;
 private
 :
@@ -1027,6 +1029,7 @@ int32_t
 prefix
 )
 const
+override
 ;
 virtual
 int32_t
@@ -1034,6 +1037,7 @@ getType
 (
 )
 const
+override
 ;
 private
 :
@@ -1241,15 +1245,13 @@ BytesTrie
 UCharsTrie
 see
 *
-http
+https
 :
 /
 /
-site
-.
 icu
--
-project
+.
+unicode
 .
 org
 /

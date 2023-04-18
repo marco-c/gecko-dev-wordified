@@ -3304,7 +3304,7 @@ page
 86
 of
 "
-Practial
+Practical
 Astronomy
 with
 your
@@ -4001,7 +4001,7 @@ page
 42
 of
 "
-Practial
+Practical
 Astronomy
 with
 your
@@ -5486,7 +5486,7 @@ page
 86
 of
 "
-Practial
+Practical
 Astronomy
 with
 your
@@ -5574,7 +5574,7 @@ page
 86
 of
 "
-Practial
+Practical
 Astronomy
 with
 your
@@ -6210,6 +6210,7 @@ CalendarAstronomer
 &
 a
 )
+override
 {
 return
 a
@@ -6299,6 +6300,7 @@ CalendarAstronomer
 &
 a
 )
+override
 {
 a
 .
@@ -10444,7 +10446,7 @@ page
 142
 of
 "
-Practial
+Practical
 Astronomy
 with
 your
@@ -11188,7 +11190,7 @@ page
 147
 of
 "
-Practial
+Practical
 Astronomy
 with
 your
@@ -11394,7 +11396,7 @@ page
 147
 of
 "
-Practial
+Practical
 Astronomy
 with
 your
@@ -11695,6 +11697,7 @@ CalendarAstronomer
 &
 a
 )
+override
 {
 return
 a
@@ -11800,7 +11803,7 @@ tt
 if
 the
 next
-occurrance
+occurrence
 of
 the
 phase
@@ -11818,7 +11821,7 @@ tt
 for
 the
 previous
-occurrance
+occurrence
 .
 *
 internal
@@ -11915,7 +11918,7 @@ tt
 if
 the
 next
-occurrance
+occurrence
 of
 the
 phase
@@ -11933,7 +11936,7 @@ tt
 for
 the
 previous
-occurrance
+occurrence
 .
 *
 internal
@@ -12012,6 +12015,7 @@ CalendarAstronomer
 &
 a
 )
+override
 {
 result
 =

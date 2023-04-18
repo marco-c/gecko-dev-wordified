@@ -491,7 +491,7 @@ sortedInsert
 *
 /
 static
-int8_t
+int32_t
 U_CALLCONV
 compareUnicodeString
 (
@@ -749,9 +749,6 @@ status
 )
 )
 {
-delete
-str
-;
 return
 false
 ;
@@ -1401,6 +1398,7 @@ UErrorCode
 &
 status
 )
+override
 {
 /
 /
@@ -1427,6 +1425,7 @@ clone
 (
 )
 const
+override
 {
 return
 new
@@ -1444,13 +1443,14 @@ getDynamicClassID
 void
 )
 const
+override
 {
 return
 NULL
 ;
 }
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1461,6 +1461,7 @@ BreakIterator
 o
 )
 const
+override
 {
 if
 (
@@ -1498,6 +1499,7 @@ UErrorCode
 &
 status
 )
+override
 {
 fDelegate
 -
@@ -1521,6 +1523,7 @@ UErrorCode
 &
 status
 )
+override
 {
 fDelegate
 -
@@ -1544,6 +1547,7 @@ CharacterIterator
 *
 it
 )
+override
 {
 fDelegate
 -
@@ -1563,6 +1567,7 @@ UnicodeString
 &
 text
 )
+override
 {
 fDelegate
 -
@@ -1600,6 +1605,7 @@ UErrorCode
 status
 )
 const
+override
 {
 return
 fDelegate
@@ -1620,6 +1626,7 @@ getText
 void
 )
 const
+override
 {
 return
 fDelegate
@@ -1645,6 +1652,7 @@ first
 (
 void
 )
+override
 ;
 virtual
 int32_t
@@ -1653,6 +1661,7 @@ preceding
 int32_t
 offset
 )
+override
 ;
 virtual
 int32_t
@@ -1660,6 +1669,7 @@ previous
 (
 void
 )
+override
 ;
 virtual
 UBool
@@ -1668,6 +1678,7 @@ isBoundary
 int32_t
 offset
 )
+override
 ;
 virtual
 int32_t
@@ -1676,6 +1687,7 @@ current
 void
 )
 const
+override
 {
 return
 fDelegate
@@ -1705,6 +1717,7 @@ next
 (
 void
 )
+override
 ;
 virtual
 int32_t
@@ -1713,6 +1726,7 @@ next
 int32_t
 n
 )
+override
 ;
 virtual
 int32_t
@@ -1721,6 +1735,7 @@ following
 int32_t
 offset
 )
+override
 ;
 virtual
 int32_t
@@ -1728,6 +1743,7 @@ last
 (
 void
 )
+override
 ;
 private
 :
@@ -3841,6 +3857,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 UBool
@@ -3854,6 +3871,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 BreakIterator
@@ -3867,6 +3885,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 private
 :

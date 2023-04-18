@@ -948,7 +948,7 @@ uvector
 .
 h
 static
-int8_t
+int32_t
 U_CALLCONV
 SPUStringCompare
 (
@@ -1181,7 +1181,7 @@ status
 fVec
 -
 >
-addElement
+addElementX
 (
 hashedString
 status

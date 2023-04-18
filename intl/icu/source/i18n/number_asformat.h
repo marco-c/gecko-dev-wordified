@@ -199,7 +199,7 @@ operator
 .
 *
 /
-UBool
+bool
 operator
 =
 =

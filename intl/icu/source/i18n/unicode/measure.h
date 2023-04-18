@@ -665,7 +665,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -955,6 +955,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 protected
 :

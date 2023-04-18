@@ -1147,7 +1147,7 @@ a
 small
 list
 of
-noticable
+noticeable
 differences
 between
 stdio
@@ -4057,7 +4057,7 @@ file
 .
 If
 this
-paramter
+parameter
 is
 NULL
 the
@@ -4273,7 +4273,7 @@ file
 .
 If
 this
-paramter
+parameter
 is
 NULL
 the
@@ -4441,7 +4441,7 @@ file
 .
 If
 this
-paramter
+parameter
 is
 NULL
 data
@@ -4631,7 +4631,7 @@ file
 .
 If
 this
-paramter
+parameter
 is
 NULL
 data
@@ -7733,7 +7733,7 @@ character
 that
 was
 not
-recieved
+received
 from
 the
 *

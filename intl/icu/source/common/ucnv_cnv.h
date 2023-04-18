@@ -1382,7 +1382,7 @@ to
 handle
 this
 *
-specificially
+specifically
 for
 the
 converter

@@ -653,7 +653,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }
@@ -1799,6 +1799,14 @@ continue
 /
 Generate
 Prefix
+/
+/
+TODO
+:
+Handle
+approximately
+sign
+?
 bool
 hasPrefix
 =
@@ -1812,6 +1820,7 @@ patternInfoToStringBuilder
 patternInfo
 true
 type
+false
 StandardPlural
 :
 :
@@ -1859,6 +1868,14 @@ nullptr
 /
 Generate
 Suffix
+/
+/
+TODO
+:
+Handle
+approximately
+sign
+?
 bool
 hasSuffix
 =
@@ -1872,6 +1889,7 @@ patternInfoToStringBuilder
 patternInfo
 false
 type
+false
 StandardPlural
 :
 :

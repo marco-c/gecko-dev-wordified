@@ -210,7 +210,7 @@ uspoof_impl
 h
 *
 *
-Implemenation
+Implementation
 header
 for
 spoof
@@ -299,7 +299,7 @@ U_NAMESPACE_BEGIN
 /
 /
 The
-maximium
+maximum
 length
 (
 in
@@ -789,6 +789,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 /
@@ -2264,7 +2265,7 @@ code
 units
 of
 the
-substition
+substitution
 string
 .
 int32_t
@@ -2821,7 +2822,7 @@ fLength
 /
 /
 Total
-lenght
+length
 in
 bytes
 of

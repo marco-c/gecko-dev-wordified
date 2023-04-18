@@ -2561,6 +2561,17 @@ status
 return
 ;
 }
+U_ASSERT
+(
+!
+dest
+-
+>
+hasDeleter
+(
+)
+)
+;
 if
 (
 fType
@@ -3319,7 +3330,7 @@ to
 .
 /
 /
-Unconditinally
+Unconditionally
 dump
 children
 of

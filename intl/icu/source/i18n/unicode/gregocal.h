@@ -875,6 +875,7 @@ createEnumeration
 60
 *
 1000
+success
 )
 ;
 *
@@ -895,22 +896,10 @@ out
 *
 if
 (
-ids
-=
-=
-0
-|
-|
-ids
--
->
-count
+U_FAILURE
 (
 success
 )
-=
-=
-0
 )
 {
 *
@@ -1967,7 +1956,7 @@ cout
 "
 An
 error
-occured
+occurred
 .
 success
 =
@@ -3106,6 +3095,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -3509,6 +3499,7 @@ Calendar
 other
 )
 const
+override
 ;
 #
 ifndef
@@ -3635,6 +3626,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 #
 endif
@@ -3750,6 +3742,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 #
 ifndef
@@ -4026,6 +4019,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 #
 ifndef
@@ -4283,6 +4277,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -4367,6 +4362,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 public
 :
@@ -4473,6 +4469,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *
@@ -4640,6 +4637,7 @@ getType
 (
 )
 const
+override
 ;
 private
 :
@@ -4827,6 +4825,7 @@ UBool
 useMonth
 )
 const
+override
 ;
 /
 *
@@ -4885,6 +4884,7 @@ handleComputeJulianDay
 UCalendarDateFields
 bestField
 )
+override
 ;
 /
 *
@@ -4949,6 +4949,7 @@ int32_t
 month
 )
 const
+override
 ;
 /
 *
@@ -5011,6 +5012,7 @@ int32_t
 eyear
 )
 const
+override
 ;
 /
 *
@@ -5458,6 +5460,7 @@ ELimitType
 limitType
 )
 const
+override
 ;
 /
 *
@@ -5523,6 +5526,7 @@ int32_t
 handleGetExtendedYear
 (
 )
+override
 ;
 /
 *
@@ -5593,6 +5597,7 @@ yearWoy
 int32_t
 woy
 )
+override
 ;
 /
 *
@@ -5690,6 +5695,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 private
 :
@@ -6354,6 +6360,7 @@ haveDefaultCentury
 (
 )
 const
+override
 ;
 /
 *
@@ -6376,6 +6383,7 @@ defaultCenturyStart
 (
 )
 const
+override
 ;
 /
 *
@@ -6399,6 +6407,7 @@ defaultCenturyStartYear
 (
 )
 const
+override
 ;
 }
 ;

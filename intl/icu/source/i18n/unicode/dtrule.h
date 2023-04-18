@@ -377,7 +377,7 @@ DOW
 <
 The
 Nth
-occurence
+occurrence
 of
 the
 day
@@ -399,7 +399,7 @@ DOW_GEQ_DOM
 <
 The
 first
-occurence
+occurrence
 of
 the
 day
@@ -431,7 +431,7 @@ DOW_LEQ_DOM
 <
 The
 last
-occurence
+occurrence
 of
 the
 day
@@ -678,7 +678,7 @@ of
 week
 and
 its
-oridinal
+ordinal
 *
 number
 and
@@ -1243,7 +1243,7 @@ ICU
 8
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -1309,7 +1309,7 @@ ICU
 8
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -1570,7 +1570,7 @@ ordinal
 number
 of
 the
-occurence
+occurrence
 of
 the
 day
@@ -1899,6 +1899,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

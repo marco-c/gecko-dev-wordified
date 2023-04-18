@@ -7001,6 +7001,8 @@ formatVersion
 8
 4
 "
+"
+"
 }
 ;
 \
@@ -7032,6 +7034,8 @@ dataInfo
 dataVersion
 8
 4
+"
+"
 "
 }
 ;
@@ -7076,6 +7080,8 @@ Normalizer2Impl
 :
 IX_COUNT
 "
+"
+"
 \
 n
 }
@@ -7096,6 +7102,7 @@ norm16Trie
 getAlias
 (
 )
+UPRV_TARGET_SYNTAX_CCODE
 )
 ;
 sprintf
@@ -7135,6 +7142,8 @@ extraData
 length
 (
 )
+"
+"
 "
 \
 n
@@ -7179,6 +7188,8 @@ sizeof
 (
 smallFCD
 )
+"
+"
 "
 \
 n

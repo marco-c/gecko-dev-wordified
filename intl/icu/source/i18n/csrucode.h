@@ -305,6 +305,7 @@ getName
 (
 )
 const
+override
 =
 0
 ;
@@ -352,6 +353,7 @@ CharsetMatch
 results
 )
 const
+override
 =
 0
 ;
@@ -378,6 +380,7 @@ getName
 (
 )
 const
+override
 ;
 UBool
 match
@@ -390,6 +393,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -414,6 +418,7 @@ getName
 (
 )
 const
+override
 ;
 UBool
 match
@@ -426,6 +431,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -467,6 +473,7 @@ getName
 (
 )
 const
+override
 =
 0
 ;
@@ -481,6 +488,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;
@@ -503,6 +511,7 @@ int32_t
 index
 )
 const
+override
 ;
 public
 :
@@ -519,6 +528,7 @@ getName
 (
 )
 const
+override
 ;
 }
 ;
@@ -541,6 +551,7 @@ int32_t
 index
 )
 const
+override
 ;
 public
 :
@@ -557,6 +568,7 @@ getName
 (
 )
 const
+override
 ;
 }
 ;

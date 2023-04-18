@@ -1074,7 +1074,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1085,6 +1085,7 @@ ForwardCharacterIterator
 that
 )
 const
+override
 ;
 /
 *
@@ -1143,6 +1144,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -1251,6 +1253,7 @@ UnicodeString
 &
 result
 )
+override
 ;
 /
 *
@@ -1292,6 +1295,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *

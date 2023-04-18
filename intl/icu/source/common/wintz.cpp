@@ -417,7 +417,7 @@ fallback
 path
 for
 RDP
-sesssions
+sessions
 .
 /
 /

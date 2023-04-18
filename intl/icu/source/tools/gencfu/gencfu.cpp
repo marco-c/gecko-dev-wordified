@@ -364,8 +364,7 @@ help
 The
 input
 rule
-filew
-is
+file
 are
 plain
 text
@@ -405,11 +404,10 @@ format
 is
 also
 accepted
-direaccepted
 by
 ICU
 spoof
-detedtors
+detectors
 .
 The
 /

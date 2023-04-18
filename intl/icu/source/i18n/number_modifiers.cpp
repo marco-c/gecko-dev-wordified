@@ -539,7 +539,7 @@ not
 currently
 used
 .
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 void
@@ -568,7 +568,7 @@ not
 currently
 used
 .
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 bool
@@ -1063,7 +1063,7 @@ not
 currently
 used
 .
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 void

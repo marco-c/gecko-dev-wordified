@@ -8700,7 +8700,7 @@ UCAL_GREATEST_MINIMUM
 /
 *
 *
-Leaest
+Least
 maximum
 value
 *

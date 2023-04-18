@@ -1828,7 +1828,7 @@ break
 ruleVector
 -
 >
-addElement
+addElementX
 (
 tempTranslitRule
 status
@@ -2137,7 +2137,7 @@ return
 ruleVector
 -
 >
-addElement
+addElementX
 (
 adoptedRule
 status
@@ -2710,7 +2710,7 @@ x
 {
 v
 .
-addElement
+addElementX
 (
 ruleVector
 -
@@ -2768,7 +2768,7 @@ rarely
 so
 we
 seldom
-tread
+treat
 this
 code
 path
@@ -2805,7 +2805,7 @@ x
 {
 v
 .
-addElement
+addElementX
 (
 r
 status
@@ -3368,7 +3368,7 @@ and
 return
 FALSE
 if
-thre
+there
 is
 a
 partial

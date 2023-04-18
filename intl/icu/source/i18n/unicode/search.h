@@ -607,7 +607,7 @@ text
 looking
 for
 all
-occurances
+occurrences
 of
 *
 a
@@ -2385,7 +2385,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -2436,7 +2436,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -4918,7 +4918,7 @@ setMatchNotFound
 }
 ;
 inline
-UBool
+bool
 SearchIterator
 :
 :

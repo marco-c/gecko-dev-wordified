@@ -430,6 +430,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 /
 *
@@ -525,6 +526,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 /
 *
@@ -891,6 +893,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 /
 *
@@ -920,6 +923,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 /
 *

@@ -47495,7 +47495,7 @@ to
 -
 1999999998
 for
-anormal
+abnormal
 numbers
 *
 /
@@ -48253,7 +48253,7 @@ from
 higher
 -
 level
-funtions
+functions
 (
 notable
 exp
@@ -52983,7 +52983,7 @@ from
 higher
 -
 level
-funtions
+functions
 (
 notable
 exp
@@ -69342,7 +69342,7 @@ five
 iterations
 will
 be
-neede
+needed
 -
 -
 so

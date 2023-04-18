@@ -521,7 +521,7 @@ region
 )
 ;
 }
-UBool
+bool
 LSR
 :
 :

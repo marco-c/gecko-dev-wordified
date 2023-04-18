@@ -298,7 +298,7 @@ C
 +
 guidelines
 *
-Derecated
+Deprecated
 Java
 style
 constants
@@ -2295,6 +2295,7 @@ clone
 (
 )
 const
+override
 =
 0
 ;
@@ -2343,7 +2344,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -2354,6 +2355,7 @@ Format
 other
 )
 const
+override
 ;
 using
 Format
@@ -2500,6 +2502,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2643,6 +2646,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2890,6 +2894,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 /
 *
@@ -5297,7 +5302,7 @@ operation
 is
 locale
 *
-dependant
+dependent
 and
 determined
 by
@@ -8004,6 +8009,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;
@@ -8809,6 +8815,7 @@ visible
 void
 )
 const
+override
 ;
 /
 *
@@ -8835,6 +8842,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 }
 ;

@@ -1604,7 +1604,7 @@ U_INVALID_FORMAT_ERROR
 -
 -
 -
-UBool
+bool
 Format
 :
 :
@@ -1723,7 +1723,7 @@ pattern
 where
 the
 error
-occured
+occurred
 *
 param
 parseError

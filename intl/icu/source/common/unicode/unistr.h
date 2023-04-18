@@ -2841,7 +2841,7 @@ ICU
 *
 /
 inline
-UBool
+bool
 operator
 =
 =
@@ -2901,7 +2901,7 @@ ICU
 *
 /
 inline
-UBool
+bool
 operator
 !
 =
@@ -11890,6 +11890,7 @@ UnicodeString
 target
 )
 const
+override
 ;
 /
 *
@@ -12041,7 +12042,7 @@ inv
 Signature
 -
 distinguishing
-paramater
+parameter
 use
 US_INV
 .
@@ -18315,6 +18316,7 @@ UnicodeString
 &
 text
 )
+override
 ;
 /
 *
@@ -18343,6 +18345,7 @@ hasMetaData
 (
 )
 const
+override
 ;
 /
 *
@@ -18484,6 +18487,7 @@ limit
 int32_t
 dest
 )
+override
 ;
 /
 *
@@ -24249,7 +24253,7 @@ inv
 Signature
 -
 distinguishing
-paramater
+parameter
 use
 US_INV
 .
@@ -24661,6 +24665,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -25504,6 +25509,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 /
@@ -25626,6 +25632,7 @@ getLength
 (
 )
 const
+override
 ;
 /
 *
@@ -25675,6 +25682,7 @@ int32_t
 offset
 )
 const
+override
 ;
 /
 *
@@ -25724,6 +25732,7 @@ int32_t
 offset
 )
 const
+override
 ;
 private
 :
@@ -28883,7 +28892,7 @@ srcLength
 }
 }
 inline
-UBool
+bool
 UnicodeString
 :
 :
@@ -28953,7 +28962,7 @@ len
 }
 }
 inline
-UBool
+bool
 UnicodeString
 :
 :

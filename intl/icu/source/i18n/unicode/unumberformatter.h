@@ -1599,9 +1599,6 @@ ICU
 UNUM_UNIT_WIDTH_ISO_CODE
 =
 3
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1655,7 +1652,7 @@ time
 .
 *
 *
-draft
+stable
 ICU
 68
 *
@@ -1714,7 +1711,7 @@ time
 .
 *
 *
-draft
+stable
 ICU
 68
 *
@@ -1722,11 +1719,6 @@ ICU
 UNUM_UNIT_WIDTH_VARIANT
 =
 5
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -5596,9 +5588,6 @@ UErrorCode
 ec
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -5749,7 +5738,7 @@ trailing
 NUL
 .
 *
-draft
+stable
 ICU
 68
 *
@@ -5773,11 +5762,6 @@ UErrorCode
 ec
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

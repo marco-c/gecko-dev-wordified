@@ -923,7 +923,7 @@ pathological
 input
 *
 (
-divident
+dividend
 >
 >
 divisor
@@ -1925,7 +1925,7 @@ mid
 output
 parameter
 to
-recieve
+receive
 millis
 -
 in

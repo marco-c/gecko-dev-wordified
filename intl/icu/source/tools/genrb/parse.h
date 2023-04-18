@@ -355,7 +355,7 @@ U_CDECL_BEGIN
 One
 time
 parser
-initalisation
+initialization
 *
 /
 void

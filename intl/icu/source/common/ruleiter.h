@@ -770,7 +770,7 @@ variables
 will
 not
 be
-deferenced
+dereferenced
 even
 if
 the

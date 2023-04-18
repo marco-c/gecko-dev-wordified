@@ -526,7 +526,7 @@ char16_t
 array
 to
 be
-iteratd
+iterated
 over
 *
 param
@@ -961,7 +961,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -972,6 +972,7 @@ ForwardCharacterIterator
 that
 )
 const
+override
 ;
 /
 *
@@ -1006,6 +1007,7 @@ hashCode
 void
 )
 const
+override
 ;
 /
 *
@@ -1063,6 +1065,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -1128,6 +1131,7 @@ first
 (
 void
 )
+override
 ;
 /
 *
@@ -1204,6 +1208,7 @@ firstPostInc
 (
 void
 )
+override
 ;
 /
 *
@@ -1294,6 +1299,7 @@ first32
 (
 void
 )
+override
 ;
 /
 *
@@ -1371,6 +1377,7 @@ first32PostInc
 (
 void
 )
+override
 ;
 /
 *
@@ -1436,6 +1443,7 @@ last
 (
 void
 )
+override
 ;
 /
 *
@@ -1501,6 +1509,7 @@ last32
 (
 void
 )
+override
 ;
 /
 *
@@ -1569,6 +1578,7 @@ setIndex
 int32_t
 position
 )
+override
 ;
 /
 *
@@ -1667,6 +1677,7 @@ setIndex32
 int32_t
 position
 )
+override
 ;
 /
 *
@@ -1708,6 +1719,7 @@ current
 void
 )
 const
+override
 ;
 /
 *
@@ -1749,6 +1761,7 @@ current32
 void
 )
 const
+override
 ;
 /
 *
@@ -1815,6 +1828,7 @@ next
 (
 void
 )
+override
 ;
 /
 *
@@ -1881,6 +1895,7 @@ nextPostInc
 (
 void
 )
+override
 ;
 /
 *
@@ -1980,6 +1995,7 @@ next32
 (
 void
 )
+override
 ;
 /
 *
@@ -2045,6 +2061,7 @@ next32PostInc
 (
 void
 )
+override
 ;
 /
 *
@@ -2129,6 +2146,7 @@ UBool
 hasNext
 (
 )
+override
 ;
 /
 *
@@ -2195,6 +2213,7 @@ previous
 (
 void
 )
+override
 ;
 /
 *
@@ -2261,6 +2280,7 @@ previous32
 (
 void
 )
+override
 ;
 /
 *
@@ -2341,6 +2361,7 @@ UBool
 hasPrevious
 (
 )
+override
 ;
 /
 *
@@ -2445,6 +2466,7 @@ delta
 EOrigin
 origin
 )
+override
 ;
 /
 *
@@ -2577,6 +2599,7 @@ delta
 EOrigin
 origin
 )
+override
 ;
 /
 *
@@ -2678,6 +2701,7 @@ UnicodeString
 &
 result
 )
+override
 ;
 /
 *
@@ -2759,6 +2783,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 protected
 :

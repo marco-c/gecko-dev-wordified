@@ -1037,7 +1037,7 @@ confidence
 score
 based
 on
-presense
+presence
 of
 a
 BOM

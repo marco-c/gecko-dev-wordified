@@ -376,7 +376,7 @@ NFRule
 (
 )
 ;
-UBool
+bool
 operator
 =
 =
@@ -388,7 +388,7 @@ rhs
 )
 const
 ;
-UBool
+bool
 operator
 !
 =

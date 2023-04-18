@@ -775,7 +775,7 @@ h
 to
 *
 provide
-definitios
+definitions
 getStaticClassID
 and
 getDynamicClassID
@@ -828,6 +828,7 @@ getDynamicClassID
 void
 )
 const
+override
 =
 0
 ;

@@ -3287,7 +3287,7 @@ of
 Unicode
 with
 any
-endianess
+endianness
 of
 UTF
 -
@@ -6299,7 +6299,7 @@ of
 Unicode
 with
 any
-endianess
+endianness
 of
 UTF
 -
@@ -7735,7 +7735,7 @@ with
 a
 BOM
 sensitive
-endianess
+endianness
 of
 UTF
 -

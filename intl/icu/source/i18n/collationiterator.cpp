@@ -1259,7 +1259,7 @@ delete
 skipped
 ;
 }
-UBool
+bool
 CollationIterator
 :
 :
@@ -1401,7 +1401,7 @@ isNumeric
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -1443,12 +1443,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 void

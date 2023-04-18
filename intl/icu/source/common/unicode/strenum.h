@@ -1354,7 +1354,7 @@ code
 param
 resultLength
 a
-ponter
+pointer
 to
 receive
 the
@@ -1722,7 +1722,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1785,7 +1785,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 !
 =

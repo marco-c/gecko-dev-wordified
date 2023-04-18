@@ -904,6 +904,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -925,6 +926,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -946,6 +948,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 virtual
 UnicodeString
@@ -967,6 +970,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 virtual
 void
@@ -985,6 +989,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 virtual
 void
@@ -1003,6 +1008,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 virtual
 void
@@ -1021,6 +1027,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 virtual
 void
@@ -1039,6 +1046,7 @@ UErrorCode
 errorCode
 )
 const
+override
 ;
 private
 :

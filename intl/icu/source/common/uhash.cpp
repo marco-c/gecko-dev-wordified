@@ -2882,7 +2882,7 @@ values
 so
 that
 the
-searchs
+searches
 stop
 within
 a
@@ -3403,7 +3403,7 @@ length
 .
 *
 /
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 return

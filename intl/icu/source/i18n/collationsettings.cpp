@@ -437,7 +437,7 @@ reorderCodes
 ;
 }
 }
-UBool
+bool
 CollationSettings
 :
 :
@@ -463,7 +463,7 @@ options
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -487,7 +487,7 @@ variableTop
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -501,7 +501,7 @@ reorderCodesLength
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -537,12 +537,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 int32_t

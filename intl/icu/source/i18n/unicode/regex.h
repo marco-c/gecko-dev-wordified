@@ -796,7 +796,7 @@ ICU
 4
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -869,7 +869,7 @@ ICU
 *
 /
 inline
-UBool
+bool
 operator
 !
 =
@@ -4276,6 +4276,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -13407,6 +13408,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :

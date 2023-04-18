@@ -572,7 +572,7 @@ together
 to
 eliminate
 the
-uneeded
+unneeded
 table
 column
 .
@@ -593,7 +593,7 @@ Check
 for
 and
 remove
-dupicate
+duplicate
 states
 (
 table

@@ -380,7 +380,7 @@ zero
 really
 means
 zero
-occurences
+occurrences
 .
 int16_t
 *

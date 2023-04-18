@@ -414,7 +414,7 @@ UChar
 *
 which
 is
-guranteed
+guaranteed
 to
 persist
 *

@@ -969,7 +969,7 @@ NULL
 not
 to
 be
-overidden
+overridden
 virtual
 void
 usage
@@ -1112,7 +1112,7 @@ NULL
 ;
 /
 /
-overide
+override
 !
 virtual
 UBool

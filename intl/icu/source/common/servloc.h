@@ -798,6 +798,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 /
 *
@@ -841,6 +842,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 /
 *
@@ -862,6 +864,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 /
 *
@@ -893,6 +896,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 /
 *
@@ -1033,6 +1037,7 @@ UBool
 fallback
 (
 )
+override
 ;
 /
 *
@@ -1073,6 +1078,7 @@ UnicodeString
 id
 )
 const
+override
 ;
 public
 :
@@ -1098,6 +1104,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *
@@ -1515,6 +1522,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 protected
 :
@@ -1571,6 +1579,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -1607,6 +1616,7 @@ UnicodeString
 result
 )
 const
+override
 ;
 protected
 :
@@ -1777,6 +1787,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 ifdef
@@ -2009,6 +2020,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2047,6 +2059,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 protected
 :
@@ -2108,6 +2121,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 ifdef
@@ -2420,6 +2434,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2467,6 +2482,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 public
 :
@@ -2492,6 +2508,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 ifdef
@@ -3205,6 +3222,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -3303,6 +3321,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *

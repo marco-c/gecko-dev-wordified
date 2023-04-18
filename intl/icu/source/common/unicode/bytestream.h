@@ -1607,6 +1607,7 @@ bytes
 int32_t
 n
 )
+override
 ;
 /
 *
@@ -1742,6 +1743,7 @@ int32_t
 *
 result_capacity
 )
+override
 ;
 /
 *
@@ -2225,6 +2227,7 @@ data
 int32_t
 n
 )
+override
 {
 dest_
 -

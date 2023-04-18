@@ -1122,7 +1122,7 @@ failure
 UErrorCode
 is
 *
-retured
+returned
 for
 methods
 which
@@ -1283,7 +1283,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1345,7 +1345,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -2612,7 +2612,7 @@ pattern
 where
 the
 error
-occured
+occurred
 *
 param
 parseError

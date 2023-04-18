@@ -445,7 +445,7 @@ WholeStringBreakIterator
 )
 U_OVERRIDE
 ;
-UBool
+bool
 operator
 =
 =
@@ -644,7 +644,7 @@ WholeStringBreakIterator
 )
 {
 }
-UBool
+bool
 WholeStringBreakIterator
 :
 :
@@ -659,7 +659,7 @@ BreakIterator
 const
 {
 return
-FALSE
+false
 ;
 }
 WholeStringBreakIterator
@@ -686,7 +686,7 @@ getText
 )
 const
 {
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 /
 /
@@ -819,7 +819,7 @@ CharacterIterator
 *
 )
 {
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 /
 /

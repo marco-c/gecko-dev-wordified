@@ -1357,7 +1357,7 @@ place
 as
 their
 ANSI
-eqivalents
+equivalents
 for
 speed
 .
@@ -1701,7 +1701,7 @@ after
 a
 0x14
 are
-intrepreted
+interpreted
 as
 UFT
 -
@@ -6052,7 +6052,7 @@ group
 that
 '
 s
-relevent
+relevant
 (
 single
 or
@@ -7172,7 +7172,7 @@ write
 as
 much
 as
-posible
+possible
 to
 target
 *

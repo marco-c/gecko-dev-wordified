@@ -1911,7 +1911,7 @@ width
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 return
@@ -3211,7 +3211,7 @@ return
 this
 ;
 }
-UBool
+bool
 TimeZoneFormat
 :
 :
@@ -3237,7 +3237,7 @@ TimeZoneFormat
 &
 other
 ;
-UBool
+bool
 isEqual
 =
 fLocale
@@ -3793,7 +3793,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 UVector
@@ -6171,7 +6171,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 int32_t
@@ -15199,7 +15199,7 @@ status
 result
 -
 >
-addElement
+addElementX
 (
 fld
 status
@@ -15347,7 +15347,7 @@ status
 result
 -
 >
-addElement
+addElementX
 (
 textfld
 status
@@ -15409,7 +15409,7 @@ status
 result
 -
 >
-addElement
+addElementX
 (
 fld
 status
@@ -15505,7 +15505,7 @@ status
 result
 -
 >
-addElement
+addElementX
 (
 fld
 status
@@ -15602,7 +15602,7 @@ status
 result
 -
 >
-addElement
+addElementX
 (
 tfld
 status
@@ -15647,7 +15647,7 @@ status
 result
 -
 >
-addElement
+addElementX
 (
 fld
 status
@@ -16714,6 +16714,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 const
 UChar
@@ -16945,8 +16946,17 @@ TimeZone
 :
 createEnumeration
 (
+status
 )
 ;
+if
+(
+U_SUCCESS
+(
+status
+)
+)
+{
 const
 UnicodeString
 *
@@ -17011,6 +17021,7 @@ status
 delete
 tzenum
 ;
+}
 }
 UnicodeString
 &

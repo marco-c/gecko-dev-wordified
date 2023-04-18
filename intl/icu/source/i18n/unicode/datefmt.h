@@ -1827,6 +1827,7 @@ clone
 (
 )
 const
+override
 =
 0
 ;
@@ -1857,7 +1858,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1867,6 +1868,7 @@ Format
 &
 )
 const
+override
 ;
 using
 Format
@@ -2018,6 +2020,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2173,6 +2176,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -2326,7 +2330,7 @@ set
 for
 the
 first
-occurence
+occurrence
 of
 that
 time
@@ -2395,7 +2399,7 @@ for
 the
 first
 *
-occurence
+occurrence
 of
 the
 timezone
@@ -2876,7 +2880,7 @@ set
 for
 the
 first
-occurence
+occurrence
 of
 that
 time
@@ -2945,7 +2949,7 @@ for
 the
 first
 *
-occurence
+occurrence
 of
 the
 timezone
@@ -4565,6 +4569,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 /
 *

@@ -1871,7 +1871,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1882,6 +1882,7 @@ Format
 other
 )
 const
+override
 ;
 /
 *
@@ -1924,6 +1925,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -2056,7 +2058,7 @@ data
 to
 this
 format
-instnace
+instance
 .
 *
 The
@@ -2113,7 +2115,7 @@ data
 to
 this
 format
-instnace
+instance
 .
 *
 param
@@ -2238,7 +2240,7 @@ object
 *
 param
 status
-Recieves
+Receives
 the
 status
 .
@@ -2835,7 +2837,7 @@ UTZFMT_PARSE_OPTION_NONE
 *
 To
 specify
-multipe
+multiple
 options
 use
 bitwise
@@ -4255,7 +4257,7 @@ parseOptions
 The
 parse
 options
-repesented
+represented
 by
 bitwise
 flags
@@ -4766,6 +4768,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -4922,6 +4925,7 @@ ParsePosition
 parse_pos
 )
 const
+override
 ;
 /
 *
@@ -4988,6 +4992,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 protected
 :
@@ -7882,7 +7887,7 @@ param
 idx
 the
 index
-withing
+within
 matches
 *
 param

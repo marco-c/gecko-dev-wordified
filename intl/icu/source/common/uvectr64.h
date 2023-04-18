@@ -758,7 +758,7 @@ comparer
 .
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -784,7 +784,7 @@ operator
 *
 /
 inline
-UBool
+bool
 operator
 !
 =
@@ -1489,6 +1489,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 private
 :
@@ -1886,7 +1887,7 @@ count
 ;
 }
 inline
-UBool
+bool
 UVector64
 :
 :

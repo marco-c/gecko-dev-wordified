@@ -1253,7 +1253,7 @@ overloading
 -
 -
 -
-UBool
+bool
 SearchIterator
 :
 :
@@ -1278,7 +1278,7 @@ that
 )
 {
 return
-TRUE
+true
 ;
 }
 return

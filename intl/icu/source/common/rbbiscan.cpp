@@ -1688,7 +1688,7 @@ rules
 /
 If
 errors
-occured
+occurred
 there
 may
 be
@@ -3182,7 +3182,7 @@ not
 the
 first
 rule
-encounted
+encountered
 .
 /
 /
@@ -10446,7 +10446,7 @@ RBBIDebugPrintf
 "
 UnicodeSet
 parse
-postion
+position
 .
 ErrorIndex
 =
@@ -10571,7 +10571,7 @@ Advance
 the
 RBBI
 parse
-postion
+position
 over
 the
 UnicodeSet
@@ -10735,7 +10735,7 @@ deleting
 /
 /
 -
-Mantains
+Maintains
 collection
 of
 all

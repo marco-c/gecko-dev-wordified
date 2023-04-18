@@ -780,7 +780,9 @@ saveBuf
 /
 *
 we
-dont
+don
+'
+t
 have
 enough
 room
@@ -902,7 +904,9 @@ saveBuf
 /
 *
 we
-dont
+don
+'
+t
 have
 enough
 room
@@ -1929,7 +1933,7 @@ it
 may
 have
 nulls
-embeded
+embedded
 and
 we
 need

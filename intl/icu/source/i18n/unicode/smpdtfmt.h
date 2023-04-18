@@ -9508,7 +9508,7 @@ fields
 are
 to
 be
-formattied
+formatted
 with
 *
 the
@@ -9901,7 +9901,7 @@ fields
 are
 to
 be
-formattied
+formatted
 with
 *
 the
@@ -10390,6 +10390,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -10446,7 +10447,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -10457,6 +10458,7 @@ Format
 other
 )
 const
+override
 ;
 using
 DateFormat
@@ -10639,6 +10641,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -10834,6 +10837,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 using
 DateFormat
@@ -11137,6 +11141,7 @@ ParsePosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -12321,6 +12326,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *
@@ -12406,6 +12412,7 @@ Calendar
 *
 calendarToAdopt
 )
+override
 ;
 /
 *
@@ -12667,6 +12674,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -12720,6 +12728,7 @@ NumberFormat
 *
 formatToAdopt
 )
+override
 ;
 /
 *
@@ -13797,7 +13806,7 @@ the
 given
 format
 character
-occuring
+occurring
 count
 *
 times
@@ -14470,7 +14479,7 @@ text
 .
 On
 *
-outupt
+output
 will
 be
 set

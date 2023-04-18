@@ -1595,7 +1595,7 @@ CleanPartialInitialization
 /
 i
 should
-initialy
+initially
 be
 the
 number
@@ -3742,7 +3742,7 @@ segmentPos
 (
 with
 canonical
-rearrangment
+rearrangement
 !
 )
 *

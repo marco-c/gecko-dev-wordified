@@ -1532,7 +1532,7 @@ receive
 any
 errors
 .
-Noteably
+Notably
 *
 a
 U_BUFFER_OVERFLOW_ERROR

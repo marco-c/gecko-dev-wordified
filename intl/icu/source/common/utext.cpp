@@ -4759,12 +4759,12 @@ defensive
 move
 /
 /
-inteded
+intended
 to
 cause
 applications
 that
-inadvertantly
+inadvertently
 use
 a
 closed
@@ -7627,7 +7627,7 @@ a
 /
 /
 Backwards
-Diretion
+Direction
 iteration
 request
 .
@@ -10032,7 +10032,7 @@ use
 code
 derived
 from
-tbe
+the
 macros
 in
 utf8
@@ -11446,7 +11446,7 @@ TODO
 There
 is
 an
-isssue
+issue
 with
 using
 utext_nativeLength
@@ -17036,8 +17036,8 @@ this
 because
 the
 current
-interation
-postion
+iteration
+position
 can
 '
 t

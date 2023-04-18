@@ -928,7 +928,7 @@ currentIndex
 nextIndex
 ;
 }
-UBool
+bool
 Normalizer
 :
 :

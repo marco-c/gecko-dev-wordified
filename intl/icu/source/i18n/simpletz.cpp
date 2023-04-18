@@ -1788,7 +1788,7 @@ this
 -
 -
 -
-UBool
+bool
 SimpleTimeZone
 :
 :
@@ -2421,7 +2421,7 @@ on
 or
 after
 the
-specfied
+specified
 day
 of
 the
@@ -4818,7 +4818,7 @@ the
 month
 it
 is
-desirible
+desirable
 to
 overflow
 *

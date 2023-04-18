@@ -1327,7 +1327,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -1388,7 +1388,7 @@ ICU
 50
 *
 /
-UBool
+bool
 operator
 !
 =

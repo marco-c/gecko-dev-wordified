@@ -526,7 +526,7 @@ break
 ;
 default
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 va_start
@@ -671,7 +671,7 @@ of
 subsequent
 lines
 (
-preceeding
+preceding
 char
 in
 buffer
@@ -2624,7 +2624,7 @@ Covers
 %
 %
 "
-outputing
+outputting
 a
 single
 '
@@ -2682,7 +2682,7 @@ does
 not
 increment
 when
-outputing
+outputting
 final
 null
 .

@@ -8714,7 +8714,7 @@ ICU
 0
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -15006,7 +15006,7 @@ Example
 for
 negatives
 in
-parantheses
+parentheses
 .
 *
 <
@@ -15052,7 +15052,7 @@ param
 parseError
 Struct
 to
-recieve
+receive
 information
 on
 position
@@ -15364,7 +15364,7 @@ Example
 for
 negatives
 in
-parantheses
+parentheses
 .
 *
 *
@@ -15407,7 +15407,7 @@ param
 parseError
 Struct
 to
-recieve
+receive
 information
 on
 position

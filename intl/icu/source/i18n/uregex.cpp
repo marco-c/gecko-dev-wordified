@@ -12400,7 +12400,7 @@ status
 /
 Note
 :
-Seperate
+Separate
 error
 code
 variables
@@ -13904,7 +13904,7 @@ U_ZERO_ERROR
 /
 Validate
 all
-paramters
+parameters
 /
 /
 if

@@ -4871,7 +4871,7 @@ instead
 .
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -4931,7 +4931,7 @@ instead
 *
 /
 inline
-UBool
+bool
 operator
 !
 =
@@ -6055,6 +6055,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 #
 endif
@@ -6683,7 +6684,7 @@ implementations
 ifndef
 U_HIDE_DEPRECATED_API
 inline
-UBool
+bool
 Normalizer
 :
 :

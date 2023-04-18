@@ -3352,7 +3352,7 @@ data
 is
 limited
 to
-singed
+signed
 /
 /
 32bit
@@ -8697,7 +8697,7 @@ endl
 /
 /
 32bit
-transtions
+transitions
 if
 (
 trn
@@ -8797,7 +8797,7 @@ endl
 /
 post
 32bit
-transitons
+transitions
 if
 (
 trn

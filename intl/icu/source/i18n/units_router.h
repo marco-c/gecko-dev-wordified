@@ -856,7 +856,7 @@ by
 knowing
 *
 the
-followings
+following
 :
 *
 -

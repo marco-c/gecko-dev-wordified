@@ -1106,7 +1106,7 @@ return
 this
 ;
 }
-UBool
+bool
 CollationKey
 :
 :

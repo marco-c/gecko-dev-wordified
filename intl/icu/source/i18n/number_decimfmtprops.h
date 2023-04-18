@@ -844,6 +844,9 @@ bool
 exponentSignAlwaysShown
 ;
 bool
+currencyAsDecimal
+;
+bool
 formatFailIfMoreThanMaxDigits
 ;
 /

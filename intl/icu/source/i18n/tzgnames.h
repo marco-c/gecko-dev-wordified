@@ -237,7 +237,7 @@ Time
 zone
 generic
 names
-classe
+classes
 *
 /
 #
@@ -347,7 +347,7 @@ status
 )
 ;
 virtual
-UBool
+bool
 operator
 =
 =
@@ -360,7 +360,7 @@ other
 const
 ;
 virtual
-UBool
+bool
 operator
 !
 =

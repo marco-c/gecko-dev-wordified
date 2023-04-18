@@ -2277,7 +2277,7 @@ or
 *
 skips
 only
-UNASSINGED_SEQUENCE
+UNASSIGNED_SEQUENCE
 depending
 on
 the
@@ -2709,7 +2709,7 @@ li
 >
 UCNV_ESCAPE_ICU
 :
-Substitues
+Substitutes
 the
 ILLEGAL
 SEQUENCE
@@ -2808,7 +2808,7 @@ li
 >
 UCNV_ESCAPE_JAVA
 :
-Substitues
+Substitutes
 the
 ILLEGAL
 SEQUENCE
@@ -2913,7 +2913,7 @@ li
 >
 UCNV_ESCAPE_C
 :
-Substitues
+Substitutes
 the
 ILLEGAL
 SEQUENCE
@@ -3016,7 +3016,7 @@ li
 >
 UCNV_ESCAPE_XML_DEC
 :
-Substitues
+Substitutes
 the
 ILLEGAL
 SEQUENCE
@@ -3140,7 +3140,7 @@ li
 >
 UCNV_ESCAPE_XML_HEX
 :
-Substitues
+Substitutes
 the
 ILLEGAL
 SEQUENCE
@@ -3407,7 +3407,7 @@ or
 *
 skips
 only
-UNASSINGED_SEQUENCE
+UNASSIGNED_SEQUENCE
 depending
 on
 the

@@ -3010,7 +3010,7 @@ with
 escapes
 *
 in
-resouce
+resource
 bundles
 *
 eg
@@ -4512,7 +4512,7 @@ filename
 is
 not
 file
-seperation
+separation
 char
 and
 the
@@ -4753,7 +4753,7 @@ to
 be
 *
 handled
-seperately
+separately
 *
 /
 static

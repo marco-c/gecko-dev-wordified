@@ -258,6 +258,7 @@ getName
 (
 )
 const
+override
 ;
 /
 *
@@ -303,6 +304,7 @@ CharsetMatch
 results
 )
 const
+override
 ;
 }
 ;

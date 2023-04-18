@@ -268,7 +268,7 @@ Unicode
 as
 defined
 in
-http
+https
 :
 /
 /
@@ -277,8 +277,6 @@ www
 unicode
 .
 org
-/
-unicode
 /
 reports
 /
@@ -1021,7 +1019,7 @@ SCSUData
 dynamic
 window
 offsets
-intitialize
+initialize
 to
 default
 values

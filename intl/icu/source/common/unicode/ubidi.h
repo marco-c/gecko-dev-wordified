@@ -848,13 +848,13 @@ code
 *
 #
 include
-"
+<
 unicode
 /
 ubidi
 .
 h
-"
+>
 *
 *
 typedef
@@ -1245,7 +1245,7 @@ i
 *
 styleLimit
 =
-styleRun
+styleRuns
 [
 i
 ]
@@ -1281,7 +1281,7 @@ start
 styleLimit
 *
 direction
-styleRun
+styleRuns
 [
 i
 ]
@@ -1349,7 +1349,7 @@ i
 *
 styleStart
 =
-styleRun
+styleRuns
 [
 i
 -
@@ -1399,7 +1399,7 @@ styleStart
 limit
 *
 direction
-styleRun
+styleRuns
 [
 i
 ]
@@ -1472,6 +1472,10 @@ StyleRun
 styleRuns
 int
 styleRunCount
+*
+UErrorCode
+*
+pErrorCode
 )
 {
 *
@@ -1564,7 +1568,7 @@ count
 =
 ubidi_countRuns
 (
-para
+line
 pErrorCode
 )
 ;
@@ -1627,7 +1631,7 @@ direction
 =
 ubidi_getVisualRun
 (
-para
+line
 i
 &
 start
@@ -1966,6 +1970,7 @@ length
 *
 styleRuns
 styleRunCount
+pErrorCode
 )
 ;
 *
@@ -2115,6 +2120,7 @@ styleRunStart
 styleRunLimit
 -
 styleRunStart
+pErrorCode
 )
 ;
 *

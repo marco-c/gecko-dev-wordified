@@ -1444,6 +1444,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 UVector
 *
@@ -1736,7 +1737,7 @@ UTZFMT_TIME_TYPE_UNKNOWN
 fResults
 -
 >
-addElement
+addElementX
 (
 gmatch
 status
@@ -2151,7 +2152,7 @@ const
 TZGNCore
 -
 core
-implmentation
+implementation
 of
 TimeZoneGenericNames
 /
@@ -3440,7 +3441,7 @@ name
 /
 getExemplarLocationName
 should
-retur
+return
 non
 -
 empty
@@ -7861,7 +7862,7 @@ return
 instance
 ;
 }
-UBool
+bool
 TimeZoneGenericNames
 :
 :

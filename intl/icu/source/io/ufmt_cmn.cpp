@@ -999,7 +999,7 @@ result
 ;
 /
 *
-intialize
+initialize
 parameters
 *
 /
@@ -1151,7 +1151,7 @@ result
 ;
 /
 *
-intialize
+initialize
 variables
 *
 /

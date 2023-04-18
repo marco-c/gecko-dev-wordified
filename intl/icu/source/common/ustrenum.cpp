@@ -919,7 +919,7 @@ return
 NULL
 ;
 }
-UBool
+bool
 StringEnumeration
 :
 :
@@ -948,7 +948,7 @@ that
 )
 ;
 }
-UBool
+bool
 StringEnumeration
 :
 :

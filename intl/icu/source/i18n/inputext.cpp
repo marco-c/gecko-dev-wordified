@@ -957,7 +957,7 @@ Tally
 up
 the
 byte
-occurence
+occurrence
 statistics
 .
 /

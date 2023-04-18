@@ -374,6 +374,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 virtual
 const
@@ -385,6 +386,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -394,6 +396,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -404,6 +407,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :

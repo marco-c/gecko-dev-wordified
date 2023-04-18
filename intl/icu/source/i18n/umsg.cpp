@@ -514,7 +514,7 @@ actLen
 /
 argument
 checking
-defered
+deferred
 to
 subsequent
 method
@@ -588,7 +588,7 @@ status
 /
 argument
 checking
-defered
+deferred
 to
 subsequent
 method
@@ -667,7 +667,7 @@ actLen
 /
 argument
 checking
-defered
+deferred
 to
 subsequent
 method
@@ -745,7 +745,7 @@ status
 /
 argument
 checking
-defered
+deferred
 to
 subsequent
 method
@@ -868,7 +868,7 @@ ap
 /
 argument
 checking
-defered
+deferred
 to
 subsequent
 method
@@ -938,7 +938,7 @@ status
 /
 argument
 checking
-defered
+deferred
 to
 subsequent
 method
@@ -1016,7 +1016,7 @@ ap
 /
 argument
 checking
-defered
+deferred
 to
 subsequent
 method
@@ -1090,7 +1090,7 @@ status
 /
 argument
 checking
-defered
+deferred
 to
 subsequent
 method
@@ -2030,7 +2030,7 @@ actLen
 /
 argument
 checking
-defered
+deferred
 to
 last
 method
@@ -2047,7 +2047,9 @@ are
 valid
 and
 we
-dont
+don
+'
+t
 care
 when
 arguments
@@ -2563,7 +2565,7 @@ unsupported
 argument
 type
 .
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }
@@ -2669,7 +2671,7 @@ ap
 /
 argument
 checking
-defered
+deferred
 to
 last
 method
@@ -2686,7 +2688,9 @@ are
 valid
 and
 we
-dont
+don
+'
+t
 care
 when
 arguments
@@ -3208,7 +3212,7 @@ thing
 [
 alan
 ]
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 /
 /
@@ -3222,7 +3226,7 @@ Formattable
 :
 kArray
 :
-UPRV_UNREACHABLE
+UPRV_UNREACHABLE_EXIT
 ;
 }
 }

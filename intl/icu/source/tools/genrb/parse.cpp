@@ -4246,6 +4246,7 @@ UErrorCode
 &
 errorCode
 )
+override
 ;
 private
 :

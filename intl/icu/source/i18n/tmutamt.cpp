@@ -346,7 +346,7 @@ return
 this
 ;
 }
-UBool
+bool
 TimeUnitAmount
 :
 :

@@ -3258,7 +3258,7 @@ receive
 any
 errors
 *
-occured
+occurred
 during
 parsing
 .

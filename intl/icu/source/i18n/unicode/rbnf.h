@@ -1142,7 +1142,7 @@ em
 and
 tells
 the
-fomatter
+formatter
 to
 *
 isolate
@@ -8732,6 +8732,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -8788,7 +8789,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -8799,6 +8800,7 @@ Format
 other
 )
 const
+override
 ;
 /
 /
@@ -9528,6 +9530,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -9603,6 +9606,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -9675,6 +9679,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -10194,6 +10199,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 public
 :
@@ -10209,7 +10215,7 @@ parse
 *
 Parses
 the
-specfied
+specified
 string
 beginning
 at
@@ -10364,6 +10370,7 @@ ParsePosition
 parsePosition
 )
 const
+override
 ;
 #
 if
@@ -10701,6 +10708,7 @@ setLenient
 UBool
 enabled
 )
+override
 ;
 /
 *
@@ -10757,6 +10765,7 @@ isLenient
 void
 )
 const
+override
 ;
 #
 endif
@@ -10997,6 +11006,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -11025,6 +11035,7 @@ getRoundingMode
 void
 )
 const
+override
 ;
 /
 *
@@ -11054,6 +11065,7 @@ setRoundingMode
 ERoundingMode
 roundingMode
 )
+override
 ;
 public
 :
@@ -11129,6 +11141,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *

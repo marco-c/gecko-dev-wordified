@@ -465,7 +465,7 @@ characters
 will
 appear
 in
-seperate
+separate
 *
 runs
 .

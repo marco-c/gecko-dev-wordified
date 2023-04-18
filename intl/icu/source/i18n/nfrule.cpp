@@ -1037,7 +1037,7 @@ off
 the
 /
 /
-descripton
+description
 string
 )
 NFRule
@@ -1697,7 +1697,7 @@ stuff
 in
 brackets
 :
-initalize
+initialize
 /
 /
 its
@@ -5121,7 +5121,7 @@ functionally
 equivalent
 *
 /
-UBool
+bool
 NFRule
 :
 :
@@ -13123,7 +13123,7 @@ JDK
 .
 1
 .
-Insted
+Instead
 /
 /
 we

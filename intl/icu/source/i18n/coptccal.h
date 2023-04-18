@@ -1246,6 +1246,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -1273,6 +1274,7 @@ getType
 (
 )
 const
+override
 ;
 protected
 :
@@ -1453,6 +1455,7 @@ int32_t
 handleGetExtendedYear
 (
 )
+override
 ;
 /
 *
@@ -1477,6 +1480,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -1513,6 +1517,7 @@ defaultCenturyStart
 (
 )
 const
+override
 ;
 /
 *
@@ -1537,6 +1542,7 @@ defaultCenturyStartYear
 (
 )
 const
+override
 ;
 /
 *
@@ -1558,6 +1564,7 @@ getJDEpochOffset
 (
 )
 const
+override
 ;
 public
 :
@@ -1660,6 +1667,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *

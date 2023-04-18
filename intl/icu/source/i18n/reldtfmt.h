@@ -506,6 +506,7 @@ clone
 (
 )
 const
+override
 ;
 /
 *
@@ -562,7 +563,7 @@ ICU
 *
 /
 virtual
-UBool
+bool
 operator
 =
 =
@@ -573,6 +574,7 @@ Format
 other
 )
 const
+override
 ;
 using
 DateFormat
@@ -755,6 +757,7 @@ FieldPosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -900,6 +903,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -1113,6 +1117,7 @@ ParsePosition
 pos
 )
 const
+override
 ;
 /
 *
@@ -1488,6 +1493,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 /
 *
@@ -1944,6 +1950,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 private
 :
@@ -2435,6 +2442,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 }
 ;

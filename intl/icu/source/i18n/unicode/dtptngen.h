@@ -976,7 +976,7 @@ ICU
 8
 *
 /
-UBool
+bool
 operator
 =
 =
@@ -1035,7 +1035,7 @@ ICU
 8
 *
 /
-UBool
+bool
 operator
 !
 =
@@ -1720,7 +1720,7 @@ previous
 *
 value
 is
-overriden
+overridden
 .
 Otherwise
 the
@@ -4117,6 +4117,7 @@ getDynamicClassID
 (
 )
 const
+override
 ;
 /
 *

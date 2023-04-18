@@ -1765,7 +1765,7 @@ continue
 then
 newCapacity
 will
-overlow
+overflow
 int32_t
 in
 the

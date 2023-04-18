@@ -1617,7 +1617,7 @@ that
 stores
 all
 the
-resouce
+resource
 data
 and
 the

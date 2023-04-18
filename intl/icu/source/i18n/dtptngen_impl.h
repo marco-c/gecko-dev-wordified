@@ -1167,7 +1167,7 @@ getFirstChar
 const
 ;
 inline
-UBool
+bool
 operator
 =
 =
@@ -1180,7 +1180,7 @@ other
 const
 ;
 inline
-UBool
+bool
 operator
 !
 =
@@ -1209,7 +1209,7 @@ UDATPG_FIELD_COUNT
 }
 ;
 inline
-UBool
+bool
 SkeletonFields
 :
 :
@@ -1260,7 +1260,7 @@ lengths
 ;
 }
 inline
-UBool
+bool
 SkeletonFields
 :
 :
@@ -2062,6 +2062,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 virtual
 const
@@ -2073,6 +2074,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -2082,6 +2084,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -2092,6 +2095,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 private
 :
@@ -2148,6 +2152,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 virtual
 const
@@ -2159,6 +2164,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 void
@@ -2168,6 +2174,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 virtual
 int32_t
@@ -2178,6 +2185,7 @@ UErrorCode
 status
 )
 const
+override
 ;
 void
 add

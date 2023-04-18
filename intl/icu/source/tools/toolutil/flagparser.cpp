@@ -593,10 +593,11 @@ for
 buffer
 if
 it
-didnot
+did
+not
 read
 the
-entrire
+entire
 line
 *
 /

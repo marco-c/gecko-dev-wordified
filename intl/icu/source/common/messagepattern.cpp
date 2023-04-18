@@ -2171,7 +2171,7 @@ numericValuesLength
 0
 ;
 }
-UBool
+bool
 MessagePattern
 :
 :
@@ -2196,7 +2196,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 return
@@ -2717,7 +2717,7 @@ Part
 *
 *
 *
-UBool
+bool
 MessagePattern
 :
 :
@@ -2745,7 +2745,7 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 return

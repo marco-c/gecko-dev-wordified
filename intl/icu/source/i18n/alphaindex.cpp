@@ -1948,6 +1948,15 @@ errorCode
 )
 const
 {
+U_ASSERT
+(
+indexCharacters
+.
+hasDeleter
+(
+)
+)
+;
 const
 Normalizer2
 *
@@ -2066,6 +2075,12 @@ initialLabels_
 ;
 while
 (
+U_SUCCESS
+(
+errorCode
+)
+&
+&
 iter
 .
 next
@@ -3111,7 +3126,7 @@ NULL
 bucketList
 -
 >
-addElement
+addElementX
 (
 bucket
 errorCode
@@ -3347,7 +3362,7 @@ NULL
 bucketList
 -
 >
-addElement
+addElementX
 (
 bucket
 errorCode
@@ -3398,7 +3413,7 @@ NULL
 bucketList
 -
 >
-addElement
+addElementX
 (
 bucket
 errorCode
@@ -3804,7 +3819,7 @@ singleBucket
 bucketList
 -
 >
-addElement
+addElementX
 (
 bucket
 errorCode
@@ -3937,7 +3952,7 @@ NULL
 bucketList
 -
 >
-addElement
+addElementX
 (
 bucket
 errorCode
@@ -4312,7 +4327,7 @@ NULL
 publicBucketList
 -
 >
-addElement
+addElementX
 (
 bucket
 errorCode
@@ -4903,7 +4918,7 @@ bucket
 records_
 -
 >
-addElement
+addElementX
 (
 r
 errorCode
@@ -5696,7 +5711,7 @@ return
 result
 ;
 }
-UBool
+bool
 AlphabeticIndex
 :
 :
@@ -5716,10 +5731,10 @@ other
 const
 {
 return
-FALSE
+false
 ;
 }
-UBool
+bool
 AlphabeticIndex
 :
 :
@@ -5739,7 +5754,7 @@ other
 const
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -6975,7 +6990,7 @@ NULL
 dest
 -
 >
-addElement
+addElementX
 (
 s
 status
@@ -7373,7 +7388,7 @@ this
 inputList_
 -
 >
-addElement
+addElementX
 (
 r
 status

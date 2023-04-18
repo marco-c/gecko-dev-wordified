@@ -768,6 +768,7 @@ clone
 (
 )
 const
+override
 ;
 public
 :
@@ -870,6 +871,7 @@ getDynamicClassID
 void
 )
 const
+override
 ;
 /
 *
@@ -989,6 +991,7 @@ getType
 (
 )
 const
+override
 ;
 private
 :
@@ -1068,6 +1071,7 @@ int32_t
 handleGetExtendedYear
 (
 )
+override
 ;
 /
 *
@@ -1103,6 +1107,7 @@ UErrorCode
 &
 status
 )
+override
 ;
 /
 *
@@ -1178,6 +1183,7 @@ ELimitType
 limitType
 )
 const
+override
 ;
 /
 *
@@ -1304,6 +1310,7 @@ UBool
 useMonth
 )
 const
+override
 ;
 /
 *
@@ -1330,6 +1337,7 @@ haveDefaultCentury
 (
 )
 const
+override
 ;
 /
 *
@@ -1366,6 +1374,7 @@ defaultCenturyStart
 (
 )
 const
+override
 ;
 /
 *
@@ -1390,6 +1399,7 @@ defaultCenturyStartYear
 (
 )
 const
+override
 ;
 }
 ;

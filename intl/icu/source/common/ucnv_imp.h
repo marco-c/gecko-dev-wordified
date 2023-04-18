@@ -212,7 +212,7 @@ definitions
 *
 Created
 &
-Maitained
+Maintained
 by
 Bertrand
 A

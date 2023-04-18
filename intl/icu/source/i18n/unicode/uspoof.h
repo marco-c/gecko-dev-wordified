@@ -9349,7 +9349,7 @@ length
 of
 the
 first
-identifer
+identifier
 expressed
 in
 *
