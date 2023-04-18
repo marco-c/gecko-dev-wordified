@@ -136,7 +136,7 @@ messagesUiById
 ;
 }
 function
-getAllMessagesPayloadById
+getAllCssMessagesMatchingElements
 (
 state
 )
@@ -146,7 +146,7 @@ state
 .
 messages
 .
-messagesPayloadById
+cssMessagesMatchingElements
 ;
 }
 function
@@ -304,7 +304,7 @@ exports
 getAllGroupsById
 getAllWarningGroupsById
 getAllMessagesById
-getAllMessagesPayloadById
+getAllCssMessagesMatchingElements
 getAllMessagesUiById
 getAllNetworkMessagesUpdateById
 getAllRepeatById

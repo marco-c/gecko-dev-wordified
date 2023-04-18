@@ -291,7 +291,6 @@ const
 dispatch
 message
 open
-payload
 serviceContainer
 timestampsVisible
 repeat
@@ -688,9 +687,6 @@ parameters
 message
 .
 parameters
-tableData
-:
-payload
 }
 )
 ;

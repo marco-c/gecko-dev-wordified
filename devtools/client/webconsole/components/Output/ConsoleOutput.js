@@ -152,7 +152,7 @@ const
 {
 getAllMessagesById
 getAllMessagesUiById
-getAllMessagesPayloadById
+getAllCssMessagesMatchingElements
 getAllNetworkMessagesUpdateById
 getVisibleMessages
 getAllRepeatById
@@ -338,7 +338,7 @@ timestampsVisible
 PropTypes
 .
 bool
-messagesPayload
+cssMatchingElements
 :
 PropTypes
 .
@@ -1398,7 +1398,7 @@ dispatch
 visibleMessages
 messages
 messagesUi
-messagesPayload
+cssMatchingElements
 messagesRepeat
 warningGroups
 networkMessagesUpdate
@@ -1478,9 +1478,9 @@ includes
 (
 messageId
 )
-payload
+cssMatchingElements
 :
-messagesPayload
+cssMatchingElements
 .
 get
 (
@@ -1639,9 +1639,9 @@ getAllMessagesUiById
 (
 state
 )
-messagesPayload
+cssMatchingElements
 :
-getAllMessagesPayloadById
+getAllCssMessagesMatchingElements
 (
 state
 )
