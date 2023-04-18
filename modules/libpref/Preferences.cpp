@@ -22807,7 +22807,7 @@ bool
 )
 >
 &
-aShouldSerializeFn
+aShouldSanitizeFn
 )
 {
 MOZ_RELEASE_ASSERT
@@ -22890,8 +22890,7 @@ pref
 SerializeAndAppend
 (
 aStr
-!
-aShouldSerializeFn
+aShouldSanitizeFn
 (
 pref
 -
@@ -36268,7 +36267,7 @@ Shutdown
 ;
 }
 bool
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 const
 char
@@ -36466,12 +36465,12 @@ mLen
 )
 {
 return
-false
+true
 ;
 }
 }
 return
-true
+false
 ;
 }
 }
