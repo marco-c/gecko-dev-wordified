@@ -1647,7 +1647,7 @@ EndStartingDebugger
 (
 )
 ;
-void
+nsresult
 Dispatch
 (
 already_AddRefed
@@ -1657,6 +1657,7 @@ nsIRunnable
 aRunnable
 )
 {
+return
 mHangMonitor
 -
 >
@@ -3628,6 +3629,9 @@ mProcess
 nullptr
 ;
 }
+nsresult
+rv
+=
 Dispatch
 (
 NewNonOwningRunnableMethod
@@ -3647,6 +3651,20 @@ ShutdownOnThread
 )
 )
 ;
+if
+(
+NS_WARN_IF
+(
+NS_FAILED
+(
+rv
+)
+)
+)
+{
+return
+;
+}
 while
 (
 !
@@ -5865,7 +5883,7 @@ aEndpoint
 )
 ;
 }
-void
+nsresult
 ProcessHangMonitor
 :
 :
@@ -5878,6 +5896,7 @@ nsIRunnable
 aRunnable
 )
 {
+return
 mThread
 -
 >
