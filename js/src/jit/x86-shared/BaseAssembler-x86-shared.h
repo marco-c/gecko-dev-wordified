@@ -38274,6 +38274,7 @@ byteRegRequiresRex
 reg
 )
 |
+|
 byteRegRequiresRex
 (
 rm
@@ -38330,6 +38331,7 @@ byteRegRequiresRex
 (
 reg
 )
+|
 |
 regRequiresRex
 (
@@ -38393,10 +38395,12 @@ byteRegRequiresRex
 reg
 )
 |
+|
 regRequiresRex
 (
 base
 )
+|
 |
 regRequiresRex
 (
@@ -38523,6 +38527,7 @@ regRequiresRex
 (
 reg
 )
+|
 |
 byteRegRequiresRex
 (
