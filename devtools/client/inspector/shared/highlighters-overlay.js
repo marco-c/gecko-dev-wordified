@@ -9100,11 +9100,13 @@ nodeFront
 await
 this
 .
-inspectorFront
+inspector
 .
-walker
+commands
 .
-findNodeFront
+inspectorCommand
+.
+findNodeFrontFromSelectors
 (
 selectors
 )
