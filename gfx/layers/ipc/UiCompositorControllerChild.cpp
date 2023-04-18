@@ -335,6 +335,9 @@ const
 LayersId
 &
 aRootLayerTreeId
+nsBaseWidget
+*
+aWidget
 )
 {
 RefPtr
@@ -347,6 +350,7 @@ new
 UiCompositorControllerChild
 (
 0
+aWidget
 )
 ;
 child
@@ -420,6 +424,9 @@ PUiCompositorControllerChild
 &
 &
 aEndpoint
+nsBaseWidget
+*
+aWidget
 )
 {
 RefPtr
@@ -432,6 +439,7 @@ new
 UiCompositorControllerChild
 (
 aProcessToken
+aWidget
 )
 ;
 RefPtr
@@ -1032,22 +1040,6 @@ false
 ;
 }
 }
-void
-UiCompositorControllerChild
-:
-:
-SetBaseWidget
-(
-nsBaseWidget
-*
-aWidget
-)
-{
-mWidget
-=
-aWidget
-;
-}
 bool
 UiCompositorControllerChild
 :
@@ -1407,6 +1399,9 @@ const
 uint64_t
 &
 aProcessToken
+nsBaseWidget
+*
+aWidget
 )
 :
 mIsOpen
@@ -1419,7 +1414,7 @@ aProcessToken
 )
 mWidget
 (
-nullptr
+aWidget
 )
 {
 }
