@@ -3333,8 +3333,6 @@ bool
 aUseFontSmoothing
 bool
 aApplySyntheticBold
-bool
-aHasColorGlyphs
 )
 {
 return
@@ -3350,7 +3348,6 @@ false
 aFontSmoothingBackgroundColor
 aUseFontSmoothing
 aApplySyntheticBold
-aHasColorGlyphs
 )
 ;
 }

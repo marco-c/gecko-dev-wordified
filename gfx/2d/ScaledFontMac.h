@@ -223,10 +223,6 @@ bool
 aApplySyntheticBold
 =
 false
-bool
-aHasColorGlyphs
-=
-false
 )
 ;
 ScaledFontMac
@@ -254,10 +250,6 @@ aUseFontSmoothing
 true
 bool
 aApplySyntheticBold
-=
-false
-bool
-aHasColorGlyphs
 =
 false
 )
@@ -422,9 +414,6 @@ mUseFontSmoothing
 bool
 mApplySyntheticBold
 ;
-bool
-mHasColorGlyphs
-;
 struct
 InstanceData
 {
@@ -457,13 +446,6 @@ aScaledFont
 >
 mApplySyntheticBold
 )
-mHasColorGlyphs
-(
-aScaledFont
--
->
-mHasColorGlyphs
-)
 {
 }
 InstanceData
@@ -492,9 +474,6 @@ mUseFontSmoothing
 ;
 bool
 mApplySyntheticBold
-;
-bool
-mHasColorGlyphs
 ;
 }
 ;
