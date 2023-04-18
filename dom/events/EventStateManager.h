@@ -1114,6 +1114,15 @@ TryToFlushPendingNotificationsToIME
 (
 )
 ;
+static
+bool
+IsKeyboardEventUserActivity
+(
+WidgetEvent
+*
+aEvent
+)
+;
 /
 *
 *
