@@ -4596,7 +4596,7 @@ required
 :
 true
 }
-remoteConfigs
+nimbusRollouts
 :
 {
 type
