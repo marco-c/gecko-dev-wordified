@@ -199,7 +199,7 @@ js
 /
 loader
 /
-ScriptLoadRequest
+LoadContextBase
 .
 h
 "
@@ -210,7 +210,7 @@ js
 /
 loader
 /
-LoadContextBase
+ModuleLoadRequest
 .
 h
 "
