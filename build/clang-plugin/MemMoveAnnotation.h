@@ -134,6 +134,9 @@ const
 TagDecl
 *
 D
+VisitFlags
+&
+ToVisit
 )
 const
 override
