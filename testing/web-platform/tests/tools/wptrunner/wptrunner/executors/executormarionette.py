@@ -6465,7 +6465,14 @@ testharness
 .
 close_old_windows
 (
+self
+.
+last_environment
+[
+"
 protocol
+"
+]
 )
         
 if
