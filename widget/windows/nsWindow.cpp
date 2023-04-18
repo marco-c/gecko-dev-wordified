@@ -13164,7 +13164,7 @@ this
 )
 )
 {
-LayoutDeviceIntSize
+LayoutDeviceSize
 size
 =
 nsLayoutUtils
@@ -13200,12 +13200,6 @@ NSToIntRound
 size
 .
 width
-*
-GetDesktopToDeviceScale
-(
-)
-.
-scale
 )
 ;
 int32_t
@@ -13216,12 +13210,6 @@ NSToIntRound
 size
 .
 height
-*
-GetDesktopToDeviceScale
-(
-)
-.
-scale
 )
 ;
 HRGN
