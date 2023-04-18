@@ -823,8 +823,6 @@ defaultIndex
 ;
 }
 }
-/
-/
 testBasic
 (
 )
