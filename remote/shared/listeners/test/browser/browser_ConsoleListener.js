@@ -310,7 +310,7 @@ level
 :
 currentLevel
 message
-timestamp
+timeStamp
 }
 =
 data
@@ -350,12 +350,12 @@ string
 is
 (
 typeof
-timestamp
+timeStamp
 "
 number
 "
 "
-timestamp
+timeStamp
 is
 of
 type
