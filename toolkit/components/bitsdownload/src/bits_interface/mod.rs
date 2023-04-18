@@ -1540,8 +1540,6 @@ proxy
 =
 match
 proxy
-as
-i64
 {
 nsIBits
 :

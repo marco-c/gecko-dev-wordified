@@ -1244,8 +1244,6 @@ Deferred
 }
 match
 typ
-as
-i64
 {
 mozIStorageAsyncConnection
 :

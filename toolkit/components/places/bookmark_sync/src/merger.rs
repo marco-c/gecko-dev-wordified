@@ -997,8 +997,6 @@ level
 |
 match
 level
-as
-i64
 {
 mozIServicesLogSink
 :

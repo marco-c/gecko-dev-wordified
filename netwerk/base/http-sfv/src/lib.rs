@@ -1528,7 +1528,7 @@ GetType
 )
 -
 >
-i64
+i32
 )
 ;
 fn
@@ -1541,7 +1541,7 @@ self
 >
 Result
 <
-i64
+i32
 nsresult
 >
 {
@@ -1750,7 +1750,7 @@ GetType
 )
 -
 >
-i64
+i32
 )
 ;
 fn
@@ -1763,7 +1763,7 @@ self
 >
 Result
 <
-i64
+i32
 nsresult
 >
 {
@@ -1989,7 +1989,7 @@ GetType
 )
 -
 >
-i64
+i32
 )
 ;
 fn
@@ -2002,7 +2002,7 @@ self
 >
 Result
 <
-i64
+i32
 nsresult
 >
 {
@@ -2228,7 +2228,7 @@ GetType
 )
 -
 >
-i64
+i32
 )
 ;
 fn
@@ -2241,7 +2241,7 @@ self
 >
 Result
 <
-i64
+i32
 nsresult
 >
 {
@@ -2467,7 +2467,7 @@ GetType
 )
 -
 >
-i64
+i32
 )
 ;
 fn
@@ -2480,7 +2480,7 @@ self
 >
 Result
 <
-i64
+i32
 nsresult
 >
 {
@@ -2689,7 +2689,7 @@ GetType
 )
 -
 >
-i64
+i32
 )
 ;
 fn
@@ -2702,7 +2702,7 @@ self
 >
 Result
 <
-i64
+i32
 nsresult
 >
 {
@@ -4948,7 +4948,7 @@ let
 mut
 obj_type
 :
-i64
+i32
 =
 -
 1
