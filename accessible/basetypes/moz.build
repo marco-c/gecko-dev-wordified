@@ -98,11 +98,6 @@ Accessible
 .
 h
 "
-"
-HyperTextAccessibleBase
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -110,11 +105,6 @@ UNIFIED_SOURCES
 [
 "
 Accessible
-.
-cpp
-"
-"
-HyperTextAccessibleBase
 .
 cpp
 "

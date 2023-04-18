@@ -148,9 +148,6 @@ namespace
 a11y
 {
 class
-HyperTextAccessibleBase
-;
-class
 LocalAccessible
 ;
 class
@@ -1485,17 +1482,6 @@ AsLocal
 (
 )
 ;
-virtual
-HyperTextAccessibleBase
-*
-AsHyperTextBase
-(
-)
-{
-return
-nullptr
-;
-}
 private
 :
 static
