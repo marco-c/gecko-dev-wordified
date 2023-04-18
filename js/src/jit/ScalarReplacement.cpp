@@ -1102,14 +1102,6 @@ isNewPlainObject
 ins
 -
 >
-isCreateThisWithTemplate
-(
-)
-|
-|
-ins
--
->
 isNewCallObject
 (
 )

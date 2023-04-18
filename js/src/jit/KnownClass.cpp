@@ -268,15 +268,6 @@ Opcode
 :
 CreateThis
 :
-case
-MDefinition
-:
-:
-Opcode
-:
-:
-CreateThisWithTemplate
-:
 return
 KnownClass
 :

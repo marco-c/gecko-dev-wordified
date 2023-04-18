@@ -1200,15 +1200,6 @@ CreateThisFromIon
 \
 _
 (
-CreateThisWithTemplate
-js
-:
-:
-CreateThisWithTemplate
-)
-\
-_
-(
 DebugAfterYield
 js
 :
