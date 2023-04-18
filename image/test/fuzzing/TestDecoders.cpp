@@ -292,6 +292,12 @@ v
 0
 ;
 \
+(
+void
+)
+v
+;
+\
 }
 class
 DecodeToSurfaceRunnableFuzzing
