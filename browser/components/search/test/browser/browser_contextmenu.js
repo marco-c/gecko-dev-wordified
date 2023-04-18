@@ -162,11 +162,10 @@ oldDefaultEngine
 let
 oldDefaultPrivateEngine
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

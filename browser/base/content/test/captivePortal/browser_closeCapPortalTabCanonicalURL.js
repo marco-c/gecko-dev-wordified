@@ -299,11 +299,10 @@ CANONICAL_SUCCESS_URL
 )
 ;
 }
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

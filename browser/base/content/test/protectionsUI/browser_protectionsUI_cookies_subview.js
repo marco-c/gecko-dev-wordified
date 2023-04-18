@@ -124,11 +124,10 @@ cookie
 cookieBehavior
 "
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

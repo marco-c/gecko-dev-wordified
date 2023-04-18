@@ -223,11 +223,10 @@ tests
 in
 this
 file
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

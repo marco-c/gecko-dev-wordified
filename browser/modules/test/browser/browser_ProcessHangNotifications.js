@@ -512,11 +512,10 @@ MOZ_DEV_EDITION
 :
 1
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

@@ -15,11 +15,10 @@ setTimeout
 let
 tempFile
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

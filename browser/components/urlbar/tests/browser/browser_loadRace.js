@@ -85,11 +85,10 @@ original
 search
 query
 .
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

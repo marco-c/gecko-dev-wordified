@@ -113,11 +113,10 @@ trackingprotection
 enabled
 "
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {
