@@ -466,12 +466,6 @@ aStatus
 )
 override
 ;
-nsRect
-GetInnerArea
-(
-)
-const
-;
 #
 ifdef
 ACCESSIBILITY
