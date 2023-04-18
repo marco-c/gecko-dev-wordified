@@ -712,6 +712,11 @@ contextMenus
 create
 (
 {
+id
+:
+"
+open_action
+"
 title
 :
 "
