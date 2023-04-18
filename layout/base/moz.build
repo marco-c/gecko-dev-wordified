@@ -274,6 +274,11 @@ nsAutoLayoutPhase
 h
 "
 "
+nsBidi
+.
+h
+"
+"
 nsBidiPresUtils
 .
 h
@@ -591,6 +596,11 @@ cpp
 "
 "
 MotionPathUtils
+.
+cpp
+"
+"
+nsBidi
 .
 cpp
 "
