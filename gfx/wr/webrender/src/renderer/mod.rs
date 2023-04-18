@@ -15947,8 +15947,6 @@ mut
 self
 )
 {
-loop
-{
 let
 err
 =
@@ -15964,18 +15962,6 @@ get_error
 (
 )
 ;
-if
-err
-=
-=
-gl
-:
-:
-NO_ERROR
-{
-break
-;
-}
 if
 err
 =
@@ -16007,7 +15993,6 @@ for
 other
 errors
 ?
-}
 }
 fn
 bind_textures
