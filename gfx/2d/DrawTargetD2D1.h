@@ -1300,6 +1300,12 @@ ID2D1Image
 >
 GetImageForLayerContent
 (
+const
+IntRect
+*
+aBounds
+=
+nullptr
 bool
 aShouldPreserveContent
 =
