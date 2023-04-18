@@ -331,13 +331,6 @@ __FUNCTION__
 ;
 MOZ_ASSERT
 (
-NS_IsMainThread
-(
-)
-)
-;
-MOZ_ASSERT
-(
 !
 mSendStream
 &
