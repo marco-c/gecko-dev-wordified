@@ -1122,12 +1122,6 @@ only
 .
 RefPtr
 <
-MediaConduitController
->
-mConduitController
-;
-RefPtr
-<
 MediaPipelineTransmit
 >
 mTransmitPipeline

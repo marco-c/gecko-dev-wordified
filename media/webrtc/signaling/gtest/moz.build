@@ -421,6 +421,11 @@ mediapipeline_unittest
 cpp
 "
 "
+MockCall
+.
+cpp
+"
+"
 sdp_unittests
 .
 cpp
