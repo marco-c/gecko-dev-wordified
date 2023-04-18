@@ -121,15 +121,6 @@ actions
 "
 ;
 import
-{
-memoize
-}
-from
-"
-lodash
-"
-;
-import
 showContextMenu
 from
 "
@@ -644,9 +635,6 @@ selectedSource
 ;
 }
 highlightText
-=
-memoize
-(
 (
 text
 =
@@ -654,8 +642,6 @@ text
 "
 editor
 )
-=
->
 {
 const
 node
@@ -694,12 +680,6 @@ innerHTML
 }
 ;
 }
-text
-=
->
-text
-)
-;
 render
 (
 )
