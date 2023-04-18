@@ -389,6 +389,14 @@ Ssrc
 )
 )
 ;
+MOCK_METHOD0
+(
+DisableSsrcChanges
+void
+(
+)
+)
+;
 MOCK_CONST_METHOD1
 (
 HasCodecPluginID
