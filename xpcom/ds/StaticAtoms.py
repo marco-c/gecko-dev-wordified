@@ -2116,18 +2116,6 @@ block
 Atom
 (
 "
-block_size
-"
-"
-block
--
-size
-"
-)
-    
-Atom
-(
-"
 blockquote
 "
 "
@@ -24932,18 +24920,6 @@ inlinevalue
 "
 "
 inline
-"
-)
-    
-Atom
-(
-"
-inline_size
-"
-"
-inline
--
-size
 "
 )
     
