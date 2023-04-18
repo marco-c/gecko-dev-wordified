@@ -1521,11 +1521,6 @@ venv
 is
 not
 None
-and
-not
-main_args
-.
-skip_venv_setup
 :
         
 requirements
@@ -1549,6 +1544,11 @@ requirements
 is
 not
 None
+and
+not
+main_args
+.
+skip_venv_setup
 :
             
 install_command_flag_requirements
