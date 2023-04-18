@@ -359,14 +359,9 @@ Go
 (
 int32_t
 aDelta
-mozilla
-:
-:
-dom
-:
-:
-CallerType
-aCallerType
+nsIPrincipal
+&
+aSubjectPrincipal
 mozilla
 :
 :
