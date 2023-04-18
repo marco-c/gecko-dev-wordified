@@ -380,6 +380,8 @@ resourceCommand
 this
 .
 targetFront
+.
+commands
 ;
 if
 (
