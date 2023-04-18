@@ -57,6 +57,15 @@ include
 wasm
 -
 rt
+.
+h
+"
+#
+include
+"
+wasm
+-
+rt
 -
 os
 .
@@ -1287,8 +1296,9 @@ counts_per_sec
 0
 )
 {
-abort
+wasm_rt_trap
 (
+WASM_RT_TRAP_WASI
 )
 ;
 }
@@ -1339,8 +1349,9 @@ if
 alloc
 )
 {
-abort
+wasm_rt_trap
 (
+WASM_RT_TRAP_WASI
 )
 ;
 }
