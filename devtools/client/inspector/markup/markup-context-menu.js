@@ -72,16 +72,6 @@ Services
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 PSEUDO_CLASSES
 }
@@ -1608,7 +1598,7 @@ content
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -1685,7 +1675,7 @@ content
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -1780,7 +1770,7 @@ content
 )
 {
 return
-promise
+Promise
 .
 reject
 (

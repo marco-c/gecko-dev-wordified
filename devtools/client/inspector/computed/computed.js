@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 flags
 =
 require
@@ -2167,7 +2157,6 @@ complete
 /
 selectElement
 :
-async
 function
 (
 element
@@ -2262,7 +2251,7 @@ refresh
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -2282,7 +2271,7 @@ _viewedElement
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -3466,7 +3455,7 @@ isPanelVisible
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -3500,7 +3489,7 @@ this
 _viewedElement
 ;
 return
-promise
+Promise
 .
 all
 (
@@ -3561,7 +3550,7 @@ _viewedElement
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -7507,7 +7496,7 @@ collapsed
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
