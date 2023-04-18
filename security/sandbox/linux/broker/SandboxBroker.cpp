@@ -3207,8 +3207,6 @@ kAllowedOpenFlags
 =
 O_APPEND
 |
-O_ASYNC
-|
 O_DIRECT
 |
 O_DIRECTORY
