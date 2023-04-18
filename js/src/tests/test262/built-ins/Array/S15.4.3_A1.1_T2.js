@@ -81,11 +81,6 @@ toString
 -
 *
 /
-/
-/
-CHECK
-#
-1
 Function
 .
 prototype

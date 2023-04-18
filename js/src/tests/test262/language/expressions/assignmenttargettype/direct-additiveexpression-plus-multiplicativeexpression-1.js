@@ -107,15 +107,9 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 1
 +
 2
 =
 1
 ;
-}

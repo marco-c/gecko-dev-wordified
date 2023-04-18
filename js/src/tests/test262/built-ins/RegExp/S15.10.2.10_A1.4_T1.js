@@ -76,11 +76,6 @@ string
 -
 *
 /
-/
-/
-CHECK
-#
-1
 var
 arr
 =
@@ -178,11 +173,6 @@ arr
 )
 ;
 }
-/
-/
-CHECK
-#
-2
 var
 arr
 =

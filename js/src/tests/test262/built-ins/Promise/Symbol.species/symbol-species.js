@@ -59,10 +59,11 @@ per
 spec
 includes
 :
--
+[
 propertyHelper
 .
 js
+]
 features
 :
 [

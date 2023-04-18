@@ -156,7 +156,6 @@ length
 [
 ]
 ;
-;
 reportCompare
 (
 0

@@ -78,11 +78,6 @@ algorithm
 -
 *
 /
-/
-/
-CHECK
-#
-1
 var
 x
 =
@@ -145,11 +140,6 @@ shift
 )
 ;
 }
-/
-/
-CHECK
-#
-2
 if
 (
 x
@@ -203,11 +193,6 @@ length
 )
 ;
 }
-/
-/
-CHECK
-#
-3
 var
 x
 =
@@ -286,11 +271,6 @@ shift
 )
 ;
 }
-/
-/
-CHECK
-#
-4
 if
 (
 x

@@ -60,6 +60,7 @@ prototype
 daysInWeek
 description
 :
+>
 Temporal
 .
 Calendar

@@ -93,11 +93,6 @@ index
 -
 *
 /
-/
-/
-CHECK
-#
-1
 var
 x
 =
@@ -204,11 +199,6 @@ be
 '
 )
 ;
-/
-/
-CHECK
-#
-4
 x
 .
 length
@@ -244,11 +234,6 @@ undefined
 '
 )
 ;
-/
-/
-CHECK
-#
-5
 x
 .
 length
@@ -280,11 +265,6 @@ undefined
 '
 )
 ;
-/
-/
-CHECK
-#
-6
 x
 .
 length

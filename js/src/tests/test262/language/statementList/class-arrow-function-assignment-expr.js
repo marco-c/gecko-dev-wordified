@@ -174,7 +174,6 @@ C
 >
 42
 ;
-;
 reportCompare
 (
 0

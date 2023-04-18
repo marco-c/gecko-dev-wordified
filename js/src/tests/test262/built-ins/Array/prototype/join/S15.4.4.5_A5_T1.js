@@ -86,11 +86,6 @@ prototype
 -
 *
 /
-/
-/
-CHECK
-#
-1
 Array
 .
 prototype
@@ -185,11 +180,6 @@ join
 )
 ;
 }
-/
-/
-CHECK
-#
-2
 Object
 .
 prototype

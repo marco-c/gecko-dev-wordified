@@ -125,6 +125,7 @@ exception
 features
 :
 [
+ArrayBuffer
 SharedArrayBuffer
 resizable
 -

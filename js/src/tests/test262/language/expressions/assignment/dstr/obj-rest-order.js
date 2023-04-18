@@ -281,7 +281,7 @@ rest
 vals
 ;
 assert
-(
+.
 compareArray
 (
 calls
@@ -300,7 +300,6 @@ foo
 )
 "
 ]
-)
 )
 ;
 assert

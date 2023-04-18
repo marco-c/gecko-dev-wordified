@@ -250,7 +250,6 @@ finalizationRegistry
 features
 :
 [
-cleanupSome
 FinalizationRegistry
 .
 prototype

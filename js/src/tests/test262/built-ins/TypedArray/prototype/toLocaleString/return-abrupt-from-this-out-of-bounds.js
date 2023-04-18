@@ -83,7 +83,11 @@ js
 features
 :
 [
+ArrayBuffer
 TypedArray
+arrow
+-
+function
 resizable
 -
 arraybuffer

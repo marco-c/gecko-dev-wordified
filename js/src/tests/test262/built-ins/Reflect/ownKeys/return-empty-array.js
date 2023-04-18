@@ -120,7 +120,7 @@ Reflect
 *
 /
 assert
-(
+.
 compareArray
 (
 Reflect
@@ -132,7 +132,6 @@ ownKeys
 )
 [
 ]
-)
 )
 ;
 var
@@ -150,7 +149,7 @@ o
 d
 ;
 assert
-(
+.
 compareArray
 (
 Reflect
@@ -161,7 +160,6 @@ o
 )
 [
 ]
-)
 )
 ;
 reportCompare

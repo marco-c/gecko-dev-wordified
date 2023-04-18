@@ -162,10 +162,11 @@ ArrayBufferByteLength
 features
 :
 [
-SharedArrayBuffer
+Reflect
 Reflect
 .
 construct
+SharedArrayBuffer
 ]
 -
 -

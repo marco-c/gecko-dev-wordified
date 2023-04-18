@@ -121,11 +121,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 yield
 *
@@ -134,4 +129,3 @@ x
 =
 1
 ;
-}

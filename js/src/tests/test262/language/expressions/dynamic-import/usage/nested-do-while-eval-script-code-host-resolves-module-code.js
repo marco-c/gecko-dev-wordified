@@ -70,7 +70,7 @@ import
 )
 from
 a
-ascript
+script
 code
 can
 load

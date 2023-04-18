@@ -99,11 +99,6 @@ property
 -
 *
 /
-/
-/
-CHECK
-#
-1
 Array
 .
 prototype

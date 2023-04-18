@@ -105,11 +105,6 @@ slice
 4294967295
 )
 ;
-/
-/
-CHECK
-#
-1
 if
 (
 arr
@@ -191,11 +186,6 @@ length
 )
 ;
 }
-/
-/
-CHECK
-#
-3
 if
 (
 arr

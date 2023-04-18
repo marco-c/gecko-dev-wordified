@@ -152,6 +152,9 @@ empty
 features
 :
 [
+BigInt
+SharedArrayBuffer
+Symbol
 resizable
 -
 arraybuffer

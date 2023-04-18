@@ -344,7 +344,6 @@ if
 +
 0
 /
--
 1
 )
 !
@@ -352,7 +351,7 @@ if
 =
 Number
 .
-NEGATIVE_INFINITY
+POSITIVE_INFINITY
 )
 {
 throw
@@ -368,7 +367,6 @@ Test262Error
 +
 0
 /
--
 1
 =
 =

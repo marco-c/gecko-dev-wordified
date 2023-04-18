@@ -94,12 +94,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 =
 1
 ;
-}

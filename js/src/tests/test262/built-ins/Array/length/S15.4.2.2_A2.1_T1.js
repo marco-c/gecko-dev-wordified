@@ -97,11 +97,6 @@ argument
 -
 *
 /
-/
-/
-CHECK
-#
-1
 var
 x
 =
@@ -134,11 +129,6 @@ be
 '
 )
 ;
-/
-/
-CHECK
-#
-2
 var
 x
 =
@@ -171,11 +161,6 @@ be
 '
 )
 ;
-/
-/
-CHECK
-#
-3
 var
 x
 =

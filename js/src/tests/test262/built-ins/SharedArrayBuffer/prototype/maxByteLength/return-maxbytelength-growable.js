@@ -166,6 +166,7 @@ length
 features
 :
 [
+SharedArrayBuffer
 resizable
 -
 arraybuffer

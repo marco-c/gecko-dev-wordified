@@ -144,7 +144,6 @@ FinalizationRegistry
 prototype
 .
 cleanupSome
-cleanupSome
 WeakRef
 host
 -

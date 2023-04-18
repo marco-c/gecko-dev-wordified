@@ -102,15 +102,9 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 f
 (
 )
 =
 1
 ;
-}

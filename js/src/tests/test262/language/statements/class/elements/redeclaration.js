@@ -390,7 +390,7 @@ true
 )
 ;
 assert
-(
+.
 compareArray
 (
 x
@@ -408,7 +408,6 @@ c
 d
 "
 ]
-)
 )
 ;
 reportCompare

@@ -41,10 +41,11 @@ Array
 isArray
 includes
 :
--
+[
 propertyHelper
 .
 js
+]
 esid
 :
 sec

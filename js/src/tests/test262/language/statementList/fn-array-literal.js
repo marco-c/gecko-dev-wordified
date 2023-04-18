@@ -151,7 +151,6 @@ fn
 [
 ]
 ;
-;
 reportCompare
 (
 0

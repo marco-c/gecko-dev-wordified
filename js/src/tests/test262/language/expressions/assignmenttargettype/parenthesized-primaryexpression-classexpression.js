@@ -114,11 +114,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 class
 {
@@ -127,4 +122,3 @@ class
 =
 1
 ;
-}

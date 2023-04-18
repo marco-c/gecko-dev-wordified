@@ -82,6 +82,7 @@ ArrayBuffer
 features
 :
 [
+ArrayBuffer
 SharedArrayBuffer
 ]
 -

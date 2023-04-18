@@ -234,6 +234,7 @@ exception
 ;
 }
 )
+;
 reportCompare
 (
 0

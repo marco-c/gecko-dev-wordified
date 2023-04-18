@@ -83,12 +83,12 @@ strict
 code
 negative
 :
-type
-:
-SyntaxError
 phase
 :
 parse
+type
+:
+SyntaxError
 flags
 :
 [

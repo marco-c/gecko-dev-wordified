@@ -142,7 +142,6 @@ Elision_opt
 [
 ]
 ;
-;
 reportCompare
 (
 0

@@ -173,6 +173,7 @@ maxByteLength
 features
 :
 [
+SharedArrayBuffer
 resizable
 -
 arraybuffer

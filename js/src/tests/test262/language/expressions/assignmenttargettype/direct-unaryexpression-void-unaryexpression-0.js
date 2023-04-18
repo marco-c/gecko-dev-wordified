@@ -106,14 +106,8 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 void
 x
 =
 1
 ;
-}

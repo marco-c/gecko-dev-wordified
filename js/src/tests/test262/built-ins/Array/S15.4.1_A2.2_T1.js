@@ -123,10 +123,6 @@ algorithm
 -
 *
 /
-/
-/
-CHECK
-#
 var
 x
 =

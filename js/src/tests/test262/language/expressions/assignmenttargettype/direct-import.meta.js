@@ -103,15 +103,9 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 import
 .
 meta
 =
 1
 ;
-}

@@ -159,7 +159,7 @@ p3
 44
 ;
 assert
-(
+.
 compareArray
 (
 Reflect
@@ -179,7 +179,6 @@ p2
 p3
 '
 ]
-)
 '
 return
 object

@@ -73,7 +73,7 @@ Named
 references
 .
 assert
-(
+.
 compareArray
 (
 [
@@ -105,7 +105,6 @@ k
 b
 >
 /
-)
 )
 )
 ;
@@ -145,7 +144,7 @@ inside
 group
 .
 assert
-(
+.
 compareArray
 (
 [
@@ -179,7 +178,6 @@ w
 .
 .
 /
-)
 )
 )
 ;
@@ -227,7 +225,7 @@ before
 group
 .
 assert
-(
+.
 compareArray
 (
 [
@@ -265,7 +263,6 @@ k
 a
 >
 /
-)
 )
 )
 ;
@@ -311,7 +308,7 @@ a
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -357,7 +354,6 @@ k
 b
 >
 /
-)
 )
 )
 ;
@@ -424,7 +420,7 @@ b
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -464,10 +460,9 @@ a
 /
 )
 )
-)
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -513,7 +508,6 @@ k
 b
 >
 /
-)
 )
 )
 ;

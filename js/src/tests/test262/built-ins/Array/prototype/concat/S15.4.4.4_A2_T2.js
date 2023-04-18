@@ -111,11 +111,6 @@ concat
 (
 )
 ;
-/
-/
-CHECK
-#
-0
 arr
 .
 getClass

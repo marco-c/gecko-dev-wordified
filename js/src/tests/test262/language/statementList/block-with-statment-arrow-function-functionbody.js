@@ -193,7 +193,6 @@ return
 ;
 }
 ;
-;
 reportCompare
 (
 0
