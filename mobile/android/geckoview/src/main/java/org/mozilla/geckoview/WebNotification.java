@@ -126,6 +126,7 @@ a
 single
 <
 a
+*
 href
 =
 "
@@ -159,8 +160,8 @@ Notification
 a
 >
 .
-*
 These
+*
 can
 be
 received
@@ -172,12 +173,12 @@ link
 WebNotificationDelegate
 }
 to
-*
 {
 link
 GeckoRuntime
 }
 via
+*
 {
 link
 GeckoRuntime
@@ -243,6 +244,7 @@ title
 "
 >
 Web
+*
 Notification
 -
 title
@@ -304,6 +306,7 @@ tag
 "
 >
 Web
+*
 Notification
 -
 tag
@@ -371,6 +374,7 @@ body
 "
 >
 Web
+*
 Notification
 -
 text
@@ -440,6 +444,7 @@ icon
 "
 >
 Web
+*
 Notification
 -
 icon
@@ -472,12 +477,11 @@ text
 is
 displayed
 .
-*
 Possible
+*
 values
 are
 :
-*
 auto
 :
 adopts
@@ -493,14 +497,13 @@ the
 default
 .
 )
-*
 ltr
 :
 left
 to
+*
 right
 .
-*
 rtl
 :
 right
@@ -541,6 +544,7 @@ dir
 "
 >
 Web
+*
 Notification
 -
 dir
@@ -572,10 +576,10 @@ specified
 using
 a
 DOMString
-*
 representing
 a
 BCP
+*
 47
 language
 tag
@@ -684,6 +688,7 @@ lang
 "
 >
 Web
+*
 Notification
 -
 lang
@@ -714,8 +719,8 @@ active
 until
 the
 user
-*
 clicks
+*
 or
 dismisses
 it
@@ -729,6 +734,7 @@ automatically
 see
 <
 a
+*
 href
 =
 "
@@ -758,6 +764,7 @@ requireInteraction
 "
 >
 Web
+*
 Notification
 -
 requireInteraction
@@ -792,10 +799,10 @@ generated
 the
 notification
 .
-*
 Null
 if
 this
+*
 notification
 was
 not
@@ -816,6 +823,9 @@ Extension
 .
 *
 *
+<
+p
+>
 TODO
 :
 make
@@ -850,6 +860,7 @@ be
 made
 .
 *
+*
 see
 <
 a
@@ -882,6 +893,7 @@ silent
 "
 >
 Web
+*
 Notification
 -
 silent
@@ -913,12 +925,12 @@ the
 notification
 .
 A
-*
 vibration
 pattern
 can
 be
 an
+*
 array
 with
 as
@@ -929,7 +941,6 @@ member
 .
 The
 values
-*
 are
 times
 in
@@ -938,6 +949,7 @@ where
 the
 even
 indices
+*
 (
 0
 2
@@ -946,7 +958,6 @@ etc
 .
 )
 indicate
-*
 how
 long
 to
@@ -961,8 +972,8 @@ long
 to
 pause
 .
-For
 *
+For
 example
 [
 300
@@ -976,9 +987,9 @@ pause
 100ms
 then
 vibrate
-*
 400ms
 .
+*
 *
 see
 <
@@ -1012,6 +1023,7 @@ vibrate
 "
 >
 Web
+*
 Notification
 -
 vibrate
@@ -1181,9 +1193,9 @@ notification
 Note
 that
 this
-*
 does
 not
+*
 automatically
 dismiss
 the
@@ -1196,12 +1208,12 @@ Content
 is
 concerned
 .
-*
 For
 that
 see
 {
 link
+*
 #
 dismiss
 (
@@ -1250,10 +1262,10 @@ notification
 .
 This
 is
-*
 important
 as
 there
+*
 may
 be
 a
@@ -1266,7 +1278,6 @@ active
 notifications
 each
 site
-*
 can
 display
 .

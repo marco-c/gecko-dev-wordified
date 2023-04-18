@@ -128,6 +128,13 @@ os
 RemoteException
 ;
 import
+java
+.
+io
+.
+File
+;
+import
 org
 .
 mozilla
@@ -148,13 +155,6 @@ test
 util
 .
 UiThreadUtils
-;
-import
-java
-.
-io
-.
-File
 ;
 public
 class
@@ -550,8 +550,8 @@ crash
 it
 sees
 is
-*
 intentional
+*
 and
 that
 its
@@ -817,8 +817,8 @@ to
 wait
 for
 the
-*
 result
+*
 from
 the
 crash

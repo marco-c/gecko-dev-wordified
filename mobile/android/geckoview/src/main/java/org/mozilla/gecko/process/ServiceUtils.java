@@ -156,8 +156,8 @@ not
 qualifed
 with
 any
-*
 unique
+*
 identifiers
 .
 *
@@ -225,8 +225,8 @@ class
 including
 any
 qualifiers
-*
 that
+*
 are
 needed
 to
@@ -311,8 +311,8 @@ used
 for
 the
 purpose
-*
 of
+*
 binding
 as
 an
@@ -321,6 +321,9 @@ service
 .
 *
 *
+<
+p
+>
 Content
 services
 are
@@ -358,10 +361,10 @@ simply
 need
 to
 repeatedly
-*
 re
 -
 use
+*
 the
 definition
 of
@@ -449,6 +452,7 @@ its
 class
 .
 *
+*
 return
 The
 name
@@ -463,8 +467,8 @@ of
 the
 service
 corresponding
-*
 to
+*
 type
 but
 without
@@ -518,6 +522,7 @@ of
 a
 service
 .
+*
 *
 param
 context
@@ -651,7 +656,6 @@ e
 /
 *
 *
-*
 Obtain
 the
 list
@@ -761,11 +765,12 @@ satisfy
 bindings
 for
 a
-*
 particular
+*
 service
 type
 .
+*
 *
 param
 context

@@ -66,13 +66,6 @@ gecko
 media
 ;
 import
-android
-.
-annotation
-.
-TargetApi
-;
-import
 static
 android
 .
@@ -83,6 +76,13 @@ Build
 VERSION_CODES
 .
 M
+;
+import
+android
+.
+annotation
+.
+TargetApi
 ;
 import
 android

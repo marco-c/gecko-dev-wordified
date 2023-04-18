@@ -171,13 +171,6 @@ provider
 Settings
 ;
 import
-androidx
-.
-annotation
-.
-RequiresApi
-;
-import
 android
 .
 util
@@ -190,6 +183,13 @@ android
 view
 .
 InputDevice
+;
+import
+androidx
+.
+annotation
+.
+RequiresApi
 ;
 import
 org
@@ -575,6 +575,9 @@ feature
 .
 *
 *
+<
+p
+>
 Uses
 Settings
 .
@@ -648,7 +651,6 @@ ANIMATOR_DURATION_SCALE
 ;
 }
 /
-*
 *
 *
 For

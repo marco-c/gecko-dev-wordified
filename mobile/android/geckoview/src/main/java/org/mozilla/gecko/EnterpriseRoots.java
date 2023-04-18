@@ -97,6 +97,13 @@ mozilla
 gecko
 ;
 import
+android
+.
+util
+.
+Log
+;
+import
 java
 .
 io
@@ -175,13 +182,6 @@ gecko
 annotation
 .
 WrapForJNI
-;
-import
-android
-.
-util
-.
-Log
 ;
 /
 /

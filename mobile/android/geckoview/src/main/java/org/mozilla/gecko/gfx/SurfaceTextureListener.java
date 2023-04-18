@@ -97,6 +97,13 @@ mozilla
 gecko
 ;
 import
+android
+.
+graphics
+.
+SurfaceTexture
+;
+import
 org
 .
 mozilla
@@ -117,13 +124,6 @@ gecko
 mozglue
 .
 JNIObject
-;
-import
-android
-.
-graphics
-.
-SurfaceTexture
 ;
 /
 *

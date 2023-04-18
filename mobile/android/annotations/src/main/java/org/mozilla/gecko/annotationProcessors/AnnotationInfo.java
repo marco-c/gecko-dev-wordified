@@ -68,7 +68,6 @@ annotationProcessors
 /
 *
 *
-*
 Object
 holding
 annotation

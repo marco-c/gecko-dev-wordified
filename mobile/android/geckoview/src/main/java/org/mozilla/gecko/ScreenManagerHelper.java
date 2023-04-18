@@ -124,7 +124,6 @@ ScreenManagerHelper
 /
 *
 *
-*
 Trigger
 a
 refresh
@@ -201,8 +200,8 @@ gecko
 "
 )
 private
-native
 static
+native
 void
 nativeRefreshScreenInfo
 (

@@ -158,10 +158,10 @@ A
 callback
 is
 provided
-*
 only
 if
 the
+*
 originating
 call
 included
@@ -169,7 +169,6 @@ a
 callback
 argument
 ;
-*
 otherwise
 callback
 will

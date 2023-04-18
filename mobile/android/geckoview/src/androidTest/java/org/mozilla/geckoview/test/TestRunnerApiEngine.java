@@ -118,8 +118,8 @@ WebExtension
 MessageDelegate
 {
 private
-final
 static
+final
 String
 LOGTAG
 =

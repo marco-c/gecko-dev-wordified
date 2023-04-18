@@ -117,6 +117,13 @@ graphics
 Bitmap
 ;
 import
+android
+.
+util
+.
+Log
+;
+import
 androidx
 .
 annotation
@@ -136,13 +143,6 @@ androidx
 annotation
 .
 Nullable
-;
-import
-android
-.
-util
-.
-Log
 ;
 import
 java
@@ -199,7 +199,6 @@ app
 manifests
 and
 media
-*
 session
 metadata
 .
@@ -262,7 +261,6 @@ false
 /
 *
 *
-*
 Represents
 the
 size
@@ -282,7 +280,6 @@ Size
 /
 *
 *
-*
 The
 width
 in
@@ -296,7 +293,6 @@ int
 width
 ;
 /
-*
 *
 *
 The
@@ -365,7 +361,6 @@ height
 /
 *
 *
-*
 The
 URI
 of
@@ -382,7 +377,6 @@ String
 src
 ;
 /
-*
 *
 *
 The
@@ -402,7 +396,6 @@ String
 type
 ;
 /
-*
 *
 *
 A
@@ -468,7 +461,6 @@ Size
 }
 array
 .
-*
 *
 /
 public
@@ -570,7 +562,6 @@ sizes
 string
 .
 *
-*
 see
 <
 a
@@ -603,6 +594,7 @@ sizes
 "
 >
 Attribute
+*
 spec
 for
 sizes
@@ -1012,11 +1004,11 @@ size
 code
 >
 .
-*
 Embedders
 are
 encouraged
 to
+*
 cache
 the
 result
@@ -1024,7 +1016,6 @@ of
 this
 method
 keyed
-*
 with
 this
 instance
@@ -1044,7 +1035,6 @@ be
 displayed
 at
 .
-*
 *
 return
 A
@@ -1103,7 +1093,6 @@ ImageResource
 }
 options
 .
-*
 Image
 resources
 are
@@ -1111,24 +1100,24 @@ often
 used
 in
 a
+*
 collection
 to
 provide
 multiple
 image
-*
 options
 for
 various
 sizes
 .
-*
 This
 data
 structure
 can
 be
 used
+*
 to
 retrieve
 the
@@ -1136,7 +1125,6 @@ best
 image
 resource
 for
-*
 any
 given
 target
@@ -1275,7 +1263,6 @@ ArrayList
 ;
 }
 /
-*
 *
 *
 Builder
@@ -1596,18 +1583,17 @@ the
 given
 size
 .
-*
 This
 is
 usually
 determined
+*
 based
 on
 the
 minimal
 difference
 between
-*
 the
 given
 size
@@ -1619,6 +1605,7 @@ supported
 widths
 of
 an
+*
 image
 resource
 .
@@ -1649,7 +1636,6 @@ given
 size
 from
 this
-*
 collection
 .
 *
@@ -1804,11 +1790,11 @@ size
 code
 >
 .
-*
 Embedders
 are
 encouraged
 to
+*
 cache
 the
 result
@@ -1816,7 +1802,6 @@ of
 this
 method
 keyed
-*
 with
 this
 instance
@@ -1836,7 +1821,6 @@ be
 displayed
 at
 .
-*
 *
 return
 A

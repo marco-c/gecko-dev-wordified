@@ -154,9 +154,7 @@ mozilla
 .
 gecko
 .
-annotation
-.
-WrapForJNI
+GeckoAppShell
 ;
 import
 org
@@ -165,7 +163,9 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+annotation
+.
+WrapForJNI
 ;
 /
 *

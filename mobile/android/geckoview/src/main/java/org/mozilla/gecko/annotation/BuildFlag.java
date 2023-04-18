@@ -117,11 +117,11 @@ are
 conditionally
 built
 behind
-*
 build
 flags
 .
 Any
+*
 generated
 JNI
 bindings
@@ -130,7 +130,6 @@ incorporate
 the
 specified
 build
-*
 flags
 .
 *
@@ -166,12 +165,12 @@ the
 generated
 bindings
 .
-*
 "
 MOZ_FOO
 "
 wraps
 generated
+*
 bindings
 in
 "
@@ -182,7 +181,6 @@ MOZ_FOO
 #
 endif
 "
-*
 "
 !
 MOZ_FOO
@@ -196,6 +194,7 @@ in
 ifndef
 MOZ_FOO
 /
+*
 #
 endif
 "

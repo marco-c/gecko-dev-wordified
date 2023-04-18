@@ -108,17 +108,6 @@ mozilla
 geckoview
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-WrapForJNI
-;
-import
 android
 .
 annotation
@@ -198,6 +187,17 @@ cert
 .
 X509Certificate
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WrapForJNI
+;
 /
 *
 *
@@ -214,9 +214,9 @@ and
 categories
 used
 by
-*
 {
 link
+*
 GeckoSession
 .
 NavigationDelegate
@@ -328,7 +328,6 @@ that
 don
 '
 t
-*
 currently
 fit
 into
@@ -336,6 +335,7 @@ any
 of
 the
 other
+*
 categories
 .
 *
@@ -351,7 +351,6 @@ ERROR_CATEGORY_UNKNOWN
 /
 *
 *
-*
 This
 is
 used
@@ -362,7 +361,6 @@ that
 relate
 to
 SSL
-*
 certificate
 validation
 .
@@ -379,7 +377,6 @@ ERROR_CATEGORY_SECURITY
 /
 *
 *
-*
 This
 is
 used
@@ -389,7 +386,6 @@ codes
 relating
 to
 network
-*
 problems
 .
 *
@@ -405,7 +401,6 @@ ERROR_CATEGORY_NETWORK
 /
 *
 *
-*
 This
 is
 used
@@ -415,7 +410,6 @@ codes
 relating
 to
 invalid
-*
 or
 corrupt
 web
@@ -458,7 +452,6 @@ ERROR_CATEGORY_SAFEBROWSING
 /
 *
 *
-*
 An
 unknown
 error
@@ -477,7 +470,6 @@ ERROR_UNKNOWN
 /
 Security
 /
-*
 *
 *
 This
@@ -504,7 +496,6 @@ ERROR_SECURITY_SSL
 /
 *
 *
-*
 This
 is
 used
@@ -514,7 +505,6 @@ an
 untrusted
 or
 otherwise
-*
 invalid
 SSL
 certificate
@@ -533,7 +523,6 @@ ERROR_SECURITY_BAD_CERT
 /
 Network
 /
-*
 *
 *
 The
@@ -555,7 +544,6 @@ ERROR_NET_INTERRUPT
 /
 *
 *
-*
 The
 network
 request
@@ -573,7 +561,6 @@ ERROR_NET_TIMEOUT
 0x33
 ;
 /
-*
 *
 *
 The
@@ -596,7 +583,6 @@ ERROR_CONNECTION_REFUSED
 0x43
 ;
 /
-*
 *
 *
 The
@@ -623,7 +609,6 @@ ERROR_UNKNOWN_SOCKET_TYPE
 /
 *
 *
-*
 A
 redirect
 loop
@@ -641,7 +626,6 @@ ERROR_REDIRECT_LOOP
 0x63
 ;
 /
-*
 *
 *
 This
@@ -664,7 +648,6 @@ ERROR_OFFLINE
 0x73
 ;
 /
-*
 *
 *
 The
@@ -695,7 +678,6 @@ ERROR_PORT_BLOCKED
 0x83
 ;
 /
-*
 *
 *
 The
@@ -730,8 +712,8 @@ HTTPS
 only
 mode
 .
-*
 Call
+*
 document
 .
 reloadWithHttpsOnlyException
@@ -743,10 +725,10 @@ error
 page
 to
 temporarily
-*
 disable
 HTTPS
 only
+*
 mode
 for
 this
@@ -754,6 +736,9 @@ request
 .
 *
 *
+<
+p
+>
 See
 also
 {
@@ -780,7 +765,6 @@ Content
 /
 *
 *
-*
 A
 content
 type
@@ -804,7 +788,6 @@ ERROR_UNSAFE_CONTENT_TYPE
 /
 *
 *
-*
 The
 content
 returned
@@ -824,7 +807,6 @@ ERROR_CORRUPTED_CONTENT
 /
 *
 *
-*
 The
 content
 process
@@ -841,7 +823,6 @@ ERROR_CONTENT_CRASHED
 0x44
 ;
 /
-*
 *
 *
 The
@@ -867,7 +848,6 @@ URI
 /
 *
 *
-*
 The
 host
 could
@@ -886,7 +866,6 @@ ERROR_UNKNOWN_HOST
 0x25
 ;
 /
-*
 *
 *
 An
@@ -908,7 +887,6 @@ ERROR_MALFORMED_URI
 /
 *
 *
-*
 An
 unknown
 protocol
@@ -926,7 +904,6 @@ ERROR_UNKNOWN_PROTOCOL
 0x45
 ;
 /
-*
 *
 *
 A
@@ -958,7 +935,6 @@ ERROR_FILE_NOT_FOUND
 /
 *
 *
-*
 The
 OS
 blocked
@@ -978,7 +954,6 @@ ERROR_FILE_ACCESS_DENIED
 0x65
 ;
 /
-*
 *
 *
 A
@@ -1013,7 +988,6 @@ Proxy
 /
 *
 *
-*
 The
 proxy
 server
@@ -1032,7 +1006,6 @@ ERROR_PROXY_CONNECTION_REFUSED
 0x26
 ;
 /
-*
 *
 *
 The
@@ -1063,7 +1036,6 @@ Safebrowsing
 /
 *
 *
-*
 The
 requested
 URI
@@ -1087,7 +1059,6 @@ ERROR_SAFEBROWSING_MALWARE_URI
 0x27
 ;
 /
-*
 *
 *
 The
@@ -1115,7 +1086,6 @@ ERROR_SAFEBROWSING_UNWANTED_URI
 /
 *
 *
-*
 The
 requested
 URI
@@ -1139,7 +1109,6 @@ ERROR_SAFEBROWSING_HARMFUL_URI
 0x47
 ;
 /
-*
 *
 *
 The
@@ -1167,7 +1136,6 @@ ERROR_SAFEBROWSING_PHISHING_URI
 /
 *
 *
-*
 The
 error
 code
@@ -1189,7 +1157,6 @@ int
 code
 ;
 /
-*
 *
 *
 The
@@ -1230,7 +1197,6 @@ the
 error
 code
 is
-*
 is
 e
 .
@@ -1238,6 +1204,7 @@ g
 .
 {
 link
+*
 #
 ERROR_SECURITY_BAD_CERT
 }
@@ -1265,6 +1232,7 @@ code
 and
 category
 .
+*
 *
 param
 code
@@ -1333,6 +1301,7 @@ code
 and
 category
 .
+*
 *
 param
 code

@@ -94,8 +94,8 @@ Gecko
 They
 are
 different
-*
 from
+*
 android
 .
 util
@@ -112,11 +112,11 @@ no
 padding
 and
 are
-*
 constant
 time
 .
 The
+*
 last
 bit
 is
@@ -129,7 +129,6 @@ that
 might
 be
 secret
-*
 as
 we
 do

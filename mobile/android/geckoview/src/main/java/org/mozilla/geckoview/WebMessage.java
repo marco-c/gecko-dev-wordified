@@ -108,17 +108,6 @@ mozilla
 geckoview
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-WrapForJNI
-;
-import
 androidx
 .
 annotation
@@ -160,8 +149,18 @@ util
 .
 TreeMap
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WrapForJNI
+;
 /
-*
 *
 *
 This
@@ -189,7 +188,6 @@ WebMessage
 /
 *
 *
-*
 The
 URI
 for
@@ -207,7 +205,6 @@ String
 uri
 ;
 /
-*
 *
 *
 An
@@ -360,7 +357,6 @@ values
 /
 *
 *
-*
 This
 is
 a
@@ -378,8 +374,8 @@ WebMessage
 /
 AnyThread
 public
-static
 abstract
+static
 class
 Builder
 {
@@ -525,8 +521,8 @@ headers
 .
 If
 an
-*
 existing
+*
 header
 of
 the
@@ -543,6 +539,9 @@ value
 .
 *
 *
+<
+p
+>
 Please
 note
 that
@@ -555,12 +554,12 @@ case
 -
 insensitive
 .
-*
 It
 means
 you
 can
 retrieve
+*
 "
 Content
 -
@@ -577,7 +576,6 @@ content
 type
 "
 )
-*
 and
 value
 for
@@ -589,6 +587,7 @@ Type
 will
 be
 overwritten
+*
 by
 map
 .
@@ -602,7 +601,6 @@ TYpe
 value
 )
 ;
-*
 The
 keys
 are
@@ -707,8 +705,8 @@ headers
 .
 If
 an
-*
 existing
+*
 header
 of
 the
@@ -723,6 +721,9 @@ merged
 .
 *
 *
+<
+p
+>
 Please
 note
 that
@@ -735,12 +736,12 @@ case
 -
 insensitive
 .
-*
 It
 means
 you
 can
 retrieve
+*
 "
 Content
 -
@@ -757,7 +758,6 @@ content
 type
 "
 )
-*
 and
 value
 for
@@ -769,6 +769,7 @@ Type
 will
 be
 overwritten
+*
 by
 map
 .
@@ -782,7 +783,6 @@ TYpe
 value
 )
 ;
-*
 The
 keys
 are

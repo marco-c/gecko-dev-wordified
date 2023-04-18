@@ -149,16 +149,15 @@ scope
 .
 A
 scope
-*
 uniquely
 identifies
 a
+*
 service
 worker
 .
 appServerKey
 optionally
-*
 creates
 a
 restricted
@@ -166,6 +165,9 @@ subscription
 .
 *
 *
+<
+p
+>
 Applications
 will
 likely
@@ -226,7 +228,6 @@ link
 WebPushSubscription
 }
 *
-*
 see
 <
 a
@@ -266,6 +267,7 @@ a
 see
 <
 a
+*
 href
 =
 "
@@ -292,6 +294,7 @@ applicationserverkey
 "
 >
 Application
+*
 server
 key
 <
@@ -369,10 +372,10 @@ link
 WebPushSubscription
 }
 *
-*
 see
 <
 a
+*
 href
 =
 "
@@ -442,10 +445,10 @@ apps
 should
 resolve
 the
-*
 returned
 {
 link
+*
 GeckoResult
 }
 with
@@ -481,10 +484,10 @@ successfully
 unsubscribing
 .
 *
-*
 see
 <
 a
+*
 href
 =
 "

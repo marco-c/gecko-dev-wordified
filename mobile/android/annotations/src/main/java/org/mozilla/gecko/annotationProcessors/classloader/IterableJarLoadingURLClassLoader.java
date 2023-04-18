@@ -178,12 +178,12 @@ was
 initialised
 with
 .
-*
 classNames
 is
 kept
 sorted
 to
+*
 ensure
 iteration
 order
@@ -193,13 +193,13 @@ across
 program
 invocations
 .
-*
 Otherwise
 we
 '
 d
 forever
 be
+*
 reporting
 the
 outdatedness
@@ -211,7 +211,6 @@ as
 we
 permute
 its
-*
 contents
 .
 *
@@ -263,7 +262,6 @@ provided
 as
 arguments
 .
-*
 Inner
 classes
 are

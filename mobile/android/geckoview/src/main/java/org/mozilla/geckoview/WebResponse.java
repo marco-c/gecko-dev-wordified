@@ -108,17 +108,6 @@ mozilla
 geckoview
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-WrapForJNI
-;
-import
 androidx
 .
 annotation
@@ -180,6 +169,17 @@ cert
 .
 X509Certificate
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WrapForJNI
+;
 /
 *
 *
@@ -197,10 +197,10 @@ It
 is
 normally
 created
-*
 by
 {
 link
+*
 GeckoWebExecutor
 #
 fetch
@@ -220,7 +220,6 @@ extends
 WebMessage
 {
 /
-*
 *
 *
 The
@@ -249,7 +248,6 @@ DEFAULT_READ_TIMEOUT_MS
 /
 *
 *
-*
 The
 HTTP
 status
@@ -273,7 +271,6 @@ statusCode
 /
 *
 *
-*
 A
 boolean
 indicating
@@ -283,7 +280,6 @@ not
 this
 response
 is
-*
 the
 result
 of
@@ -298,7 +294,6 @@ boolean
 redirected
 ;
 /
-*
 *
 *
 Whether
@@ -321,7 +316,6 @@ boolean
 isSecure
 ;
 /
-*
 *
 *
 The
@@ -358,12 +352,12 @@ body
 if
 available
 .
-*
 Attention
 :
 the
 stream
 must
+*
 be
 closed
 whenever
@@ -373,7 +367,6 @@ is
 done
 with
 it
-*
 even
 when
 the
@@ -381,9 +374,9 @@ body
 is
 ignored
 .
-*
 Otherwise
 the
+*
 connection
 will
 not
@@ -491,8 +484,8 @@ read
 )
 method
 .
-*
 By
+*
 default
 the
 read
@@ -508,6 +501,9 @@ DEFAULT_READ_TIMEOUT_MS
 .
 *
 *
+<
+p
+>
 If
 0
 there
@@ -580,7 +576,6 @@ millis
 }
 }
 /
-*
 *
 *
 Builder
@@ -904,7 +899,6 @@ this
 /
 *
 *
-*
 param
 encodedCert
 The
@@ -1116,7 +1110,6 @@ this
 ;
 }
 /
-*
 *
 *
 return

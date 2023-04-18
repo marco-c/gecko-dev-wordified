@@ -139,12 +139,12 @@ context
 with
 WebVR
 .
-*
 The
 context
 must
 be
 registered
+*
 before
 Gecko
 is
@@ -152,7 +152,6 @@ started
 .
 This
 API
-*
 is
 not
 intended
@@ -190,6 +189,7 @@ MozillaReality
 /
 FirefoxReality
 "
+*
 target
 =
 "
@@ -204,6 +204,7 @@ browser
 a
 >
 .
+*
 *
 see
 <
@@ -235,6 +236,7 @@ moz_external_vr
 .
 h
 "
+*
 target
 =
 "
@@ -288,16 +290,15 @@ external
 VR
 context
 .
-*
 The
 external
 VR
 context
 is
 defined
-*
 <
 a
+*
 href
 =
 "
@@ -325,6 +326,7 @@ moz_external_vr
 .
 h
 "
+*
 target
 =
 "
@@ -337,6 +339,7 @@ here
 a
 >
 .
+*
 *
 param
 externalContext

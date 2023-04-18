@@ -135,6 +135,7 @@ script
 event
 .
 *
+*
 see
 GeckoSession
 .

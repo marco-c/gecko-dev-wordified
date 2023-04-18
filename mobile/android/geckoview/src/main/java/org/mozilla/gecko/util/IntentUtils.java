@@ -104,7 +104,6 @@ Locale
 /
 *
 *
-*
 Utilities
 for
 Intents
@@ -134,7 +133,6 @@ is
 equivalent
 to
 uri
-*
 but
 with
 a
@@ -144,12 +142,12 @@ lowercase
 scheme
 as
 if
+*
 the
 API
 level
 16
 method
-*
 Uri
 .
 normalizeScheme
@@ -268,13 +266,13 @@ the
 given
 URI
 string
-*
 with
 cross
 -
 API
 -
 level
+*
 compatibility
 .
 *
@@ -389,13 +387,12 @@ load
 in
 respect
 to
-*
 its
 scheme
 .
-*
 Unsafe
 URIs
+*
 should
 be
 blocked
@@ -426,7 +423,6 @@ in
 respect
 to
 its
-*
 scheme
 .
 *
@@ -627,7 +623,6 @@ the
 given
 URI
 .
-*
 Intents
 with
 file
@@ -662,7 +657,6 @@ if
 URI
 is
 considered
-*
 unsafe
 .
 *

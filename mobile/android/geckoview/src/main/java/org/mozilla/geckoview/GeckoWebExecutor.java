@@ -210,10 +210,10 @@ WebRequest
 }
 and
 delivering
-*
 a
 {
 link
+*
 WebResponse
 }
 to
@@ -231,6 +231,7 @@ WebRequest
 .
 Example
 :
+*
 *
 <
 pre
@@ -493,7 +494,6 @@ FetchFlags
 /
 *
 *
-*
 No
 special
 treatment
@@ -509,7 +509,6 @@ FETCH_FLAGS_NONE
 0
 ;
 /
-*
 *
 *
 Don
@@ -538,7 +537,6 @@ FETCH_FLAGS_ANONYMOUS
 1
 ;
 /
-*
 *
 *
 Don
@@ -606,7 +604,6 @@ used
 /
 *
 *
-*
 Associates
 this
 download
@@ -631,7 +628,6 @@ FETCH_FLAGS_PRIVATE
 3
 ;
 /
-*
 *
 *
 This
@@ -755,9 +751,9 @@ will
 be
 completed
 exceptionally
-*
 with
 a
+*
 {
 link
 WebRequestError
@@ -878,9 +874,9 @@ will
 be
 completed
 exceptionally
-*
 with
 a
+*
 {
 link
 WebRequestError
@@ -1184,10 +1180,10 @@ a
 link
 List
 }
-*
 of
 {
 link
+*
 InetAddress
 }
 .
@@ -1200,11 +1196,11 @@ the
 link
 GeckoResult
 }
-*
 will
 be
 completed
 exceptionally
+*
 with
 a
 {
@@ -1316,7 +1312,6 @@ made
 to
 the
 host
-*
 in
 the
 specified
@@ -1324,6 +1319,7 @@ URI
 .
 This
 is
+*
 useful
 if
 an
@@ -1331,7 +1327,6 @@ app
 thinks
 it
 may
-*
 be
 making
 a
@@ -1346,8 +1341,8 @@ future
 .
 If
 no
-request
 *
+request
 is
 made
 the
@@ -1359,7 +1354,6 @@ up
 after
 an
 unspecified
-*
 amount
 of
 time

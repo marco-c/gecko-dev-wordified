@@ -66,13 +66,6 @@ gecko
 media
 ;
 import
-java
-.
-util
-.
-ArrayList
-;
-import
 android
 .
 media
@@ -106,6 +99,13 @@ android
 util
 .
 Log
+;
+import
+java
+.
+util
+.
+ArrayList
 ;
 final
 class

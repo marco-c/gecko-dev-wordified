@@ -164,7 +164,6 @@ ImageResource
 /
 *
 *
-*
 Represents
 an
 Web
@@ -179,7 +178,6 @@ app
 manifests
 and
 media
-*
 session
 metadata
 .
@@ -267,11 +265,11 @@ size
 code
 >
 .
-*
 Embedders
 are
 encouraged
 to
+*
 cache
 the
 result
@@ -279,7 +277,6 @@ of
 this
 method
 keyed
-*
 with
 this
 instance
@@ -300,7 +297,6 @@ displayed
 at
 .
 *
-*
 return
 A
 {
@@ -315,9 +311,9 @@ bitmap
 when
 ready
 .
-*
 Will
 resolve
+*
 exceptionally
 to
 {
@@ -327,7 +323,6 @@ ImageProcessingException
 if
 the
 image
-*
 cannot
 be
 processed
@@ -357,7 +352,6 @@ size
 ;
 }
 /
-*
 *
 *
 Thrown

@@ -128,6 +128,15 @@ mozilla
 .
 gecko
 .
+GeckoThread
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 annotation
 .
 WrapForJNI
@@ -143,17 +152,7 @@ mozglue
 .
 JNIObject
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-GeckoThread
-;
 /
-*
 *
 *
 The
@@ -217,7 +216,6 @@ T
 /
 *
 *
-*
 The
 runtime
 metric
@@ -232,7 +230,6 @@ String
 name
 ;
 /
-*
 *
 *
 The
@@ -320,7 +317,6 @@ null
 /
 *
 *
-*
 The
 Histogram
 telemetry
@@ -342,7 +338,6 @@ long
 >
 {
 /
-*
 *
 *
 Whether
@@ -424,7 +419,6 @@ runtime
 telemetry
 delegate
 .
-*
 Implement
 this
 if
@@ -437,8 +431,8 @@ runtime
 Gecko
 )
 telemetry
-and
 *
+and
 attach
 it
 via
@@ -635,8 +629,8 @@ delegate
 package
 *
 /
-final
 static
+final
 class
 Proxy
 extends

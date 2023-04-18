@@ -108,22 +108,11 @@ mozilla
 geckoview
 ;
 import
-java
+android
 .
-lang
+util
 .
-annotation
-.
-Retention
-;
-import
-java
-.
-lang
-.
-annotation
-.
-RetentionPolicy
+Log
 ;
 import
 androidx
@@ -161,11 +150,22 @@ annotation
 UiThread
 ;
 import
-android
+java
 .
-util
+lang
 .
-Log
+annotation
+.
+Retention
+;
+import
+java
+.
+lang
+.
+annotation
+.
+RetentionPolicy
 ;
 import
 org
@@ -216,10 +216,10 @@ for
 a
 GeckoSession
 .
-*
 This
 includes
 support
+*
 for
 the
 DOM
@@ -230,7 +230,6 @@ and
 regular
 HTML
 media
-*
 content
 .
 *
@@ -266,6 +265,7 @@ MediaSession
 >
 Media
 Session
+*
 API
 <
 /
@@ -330,7 +330,6 @@ session
 is
 active
 .
-*
 Only
 active
 media
@@ -341,6 +340,9 @@ controlled
 .
 *
 *
+<
+p
+>
 Changes
 in
 the
@@ -355,10 +357,10 @@ Delegate
 #
 onActivated
 }
-*
 and
 {
 link
+*
 Delegate
 #
 onDeactivated
@@ -380,7 +382,6 @@ MediaSession
 Delegate
 #
 onDeactivated
-*
 *
 return
 True
@@ -424,7 +425,6 @@ active
 ;
 }
 /
-*
 *
 *
 Pause
@@ -474,7 +474,6 @@ null
 /
 *
 *
-*
 Stop
 playback
 for
@@ -520,7 +519,6 @@ null
 ;
 }
 /
-*
 *
 *
 Start
@@ -577,7 +575,6 @@ a
 specific
 time
 .
-*
 Prefer
 using
 fast
@@ -589,11 +586,11 @@ in
 a
 sequence
 .
-*
 Don
 '
 t
 use
+*
 fast
 seeking
 for
@@ -719,7 +716,6 @@ bundle
 /
 *
 *
-*
 Seek
 forward
 by
@@ -789,7 +785,6 @@ bundle
 ;
 }
 /
-*
 *
 *
 Seek
@@ -871,7 +866,6 @@ the
 next
 track
 .
-*
 Move
 playback
 to
@@ -932,7 +926,6 @@ the
 previous
 track
 .
-*
 Move
 playback
 to
@@ -943,6 +936,7 @@ in
 the
 playlist
 when
+*
 supported
 .
 *
@@ -983,7 +977,6 @@ null
 ;
 }
 /
-*
 *
 *
 Skip
@@ -1042,7 +1035,6 @@ should
 be
 muted
 .
-*
 Muting
 audio
 is
@@ -1053,9 +1045,9 @@ and
 does
 not
 require
+*
 the
 media
-*
 session
 to
 be
@@ -1142,7 +1134,6 @@ bundle
 /
 *
 *
-*
 Implement
 this
 delegate
@@ -1173,20 +1164,19 @@ has
 become
 active
 .
-*
 It
 is
 always
 the
 first
 event
+*
 dispatched
 for
 a
 new
 or
 previously
-*
 deactivated
 media
 session
@@ -1241,17 +1231,20 @@ has
 become
 inactive
 .
-*
 Inactive
 media
 sessions
 can
 not
 be
+*
 controlled
 .
 *
 *
+<
+p
+>
 TODO
 :
 Add
@@ -1306,7 +1299,6 @@ on
 updated
 metadata
 .
-*
 Metadata
 may
 be
@@ -1319,8 +1311,8 @@ DOM
 API
 or
 by
-GeckoView
 *
+GeckoView
 when
 not
 availble
@@ -1382,7 +1374,6 @@ updated
 supported
 features
 .
-*
 Unsupported
 actions
 will
@@ -1738,7 +1729,6 @@ meta
 /
 *
 *
-*
 The
 representation
 of
@@ -1759,7 +1749,6 @@ ElementMetadata
 /
 *
 *
-*
 The
 media
 source
@@ -1776,7 +1765,6 @@ source
 /
 *
 *
-*
 The
 duration
 of
@@ -1785,7 +1773,6 @@ media
 in
 seconds
 .
-*
 0
 .
 0
@@ -1802,7 +1789,6 @@ duration
 /
 *
 *
-*
 The
 width
 of
@@ -1812,7 +1798,6 @@ in
 device
 pixels
 .
-*
 0
 if
 unknown
@@ -1827,7 +1812,6 @@ width
 /
 *
 *
-*
 The
 height
 of
@@ -1837,7 +1821,6 @@ in
 device
 pixels
 .
-*
 0
 if
 unknown
@@ -1850,7 +1833,6 @@ long
 height
 ;
 /
-*
 *
 *
 The
@@ -1871,7 +1853,6 @@ int
 audioTrackCount
 ;
 /
-*
 *
 *
 The
@@ -2103,7 +2084,6 @@ videoTrackCount
 /
 *
 *
-*
 The
 representation
 of
@@ -2124,12 +2104,10 @@ Metadata
 /
 *
 *
-*
 The
 media
 title
 .
-*
 May
 be
 backfilled
@@ -2141,7 +2119,6 @@ document
 s
 title
 .
-*
 May
 be
 null
@@ -2157,7 +2134,6 @@ String
 title
 ;
 /
-*
 *
 *
 The
@@ -2165,7 +2141,6 @@ media
 artist
 name
 .
-*
 May
 be
 null
@@ -2183,13 +2158,11 @@ artist
 /
 *
 *
-*
 The
 media
 album
 title
 .
-*
 May
 be
 null
@@ -2207,13 +2180,11 @@ album
 /
 *
 *
-*
 The
 media
 artwork
 image
 .
-*
 May
 be
 null
@@ -2697,7 +2668,6 @@ toString
 /
 *
 *
-*
 Holds
 the
 details
@@ -2720,7 +2690,6 @@ PositionState
 /
 *
 *
-*
 The
 duration
 of
@@ -2737,7 +2706,6 @@ double
 duration
 ;
 /
-*
 *
 *
 The
@@ -2766,7 +2734,6 @@ playback
 rate
 coefficient
 .
-*
 The
 rate
 is
@@ -2776,6 +2743,7 @@ forward
 and
 negative
 for
+*
 backward
 playback
 .
@@ -3043,7 +3011,6 @@ MSFeature
 /
 *
 *
-*
 Flags
 for
 supported
@@ -3069,7 +3036,6 @@ NONE
 /
 *
 *
-*
 Playback
 supported
 .
@@ -3087,7 +3053,6 @@ PLAY
 0
 ;
 /
-*
 *
 *
 Pausing
@@ -3109,7 +3074,6 @@ PAUSE
 /
 *
 *
-*
 Stopping
 supported
 .
@@ -3127,7 +3091,6 @@ STOP
 2
 ;
 /
-*
 *
 *
 Absolute
@@ -3148,7 +3111,6 @@ SEEK_TO
 3
 ;
 /
-*
 *
 *
 Relative
@@ -3174,7 +3136,6 @@ SEEK_FORWARD
 /
 *
 *
-*
 Relative
 seeking
 supported
@@ -3198,7 +3159,6 @@ SEEK_BACKWARD
 /
 *
 *
-*
 Skipping
 advertisements
 supported
@@ -3217,7 +3177,6 @@ SKIP_AD
 6
 ;
 /
-*
 *
 *
 Next
@@ -3241,7 +3200,6 @@ NEXT_TRACK
 /
 *
 *
-*
 Previous
 track
 selection
@@ -3261,7 +3219,6 @@ PREVIOUS_TRACK
 8
 ;
 /
-*
 *
 *
 Focusing

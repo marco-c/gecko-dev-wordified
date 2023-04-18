@@ -117,7 +117,6 @@ AnyThread
 /
 *
 *
-*
 This
 represents
 a

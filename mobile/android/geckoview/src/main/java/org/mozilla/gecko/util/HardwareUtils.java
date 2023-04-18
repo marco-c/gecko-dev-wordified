@@ -630,7 +630,6 @@ mozglue
 /
 *
 *
-*
 return
 The
 ABI

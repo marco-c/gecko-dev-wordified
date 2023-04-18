@@ -114,9 +114,9 @@ versions
 prior
 to
 21
-*
 when
 the
+*
 CursorAnchorInfo
 class
 was
@@ -126,11 +126,11 @@ introduced
 Without
 this
 class
-*
 tests
 will
 crash
 with
+*
 ClassNotFoundException
 when
 the
@@ -138,11 +138,11 @@ test
 rule
 uses
 reflection
-*
 to
 access
 the
 TextInputDelegate
+*
 interface
 .
 *

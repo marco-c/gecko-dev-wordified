@@ -107,9 +107,9 @@ using
 different
 units
 .
-*
 The
 default
+*
 unit
 is
 a
@@ -124,12 +124,12 @@ represented
 by
 a
 dimension
-*
 of
 the
 visual
 viewport
 or
+*
 of
 the
 full
@@ -174,7 +174,6 @@ ScreenLengthType
 /
 *
 *
-*
 Pixel
 units
 .
@@ -210,8 +209,8 @@ wide
 then
 a
 value
-*
 of
+*
 2
 .
 0
@@ -223,6 +222,7 @@ of
 200
 pixels
 .
+*
 *
 see
 <
@@ -253,6 +253,7 @@ Visual_Viewport
 >
 MDN
 Visual
+*
 Viewport
 <
 /
@@ -290,8 +291,8 @@ high
 then
 a
 value
-*
 of
+*
 2
 .
 0
@@ -303,6 +304,7 @@ of
 200
 pixels
 .
+*
 *
 see
 <
@@ -333,6 +335,7 @@ Visual_Viewport
 >
 MDN
 Visual
+*
 Viewport
 <
 /
@@ -367,8 +370,8 @@ is
 1000
 pixels
 wide
-*
 then
+*
 a
 value
 of
@@ -444,7 +447,6 @@ zero
 pixels
 length
 .
-*
 Type
 is
 {
@@ -453,6 +455,7 @@ link
 PIXEL
 }
 .
+*
 *
 return
 ScreenLength
@@ -494,7 +497,6 @@ zero
 pixels
 length
 .
-*
 Type
 is
 {
@@ -509,6 +511,7 @@ used
 to
 scroll
 to
+*
 the
 top
 of
@@ -517,12 +520,12 @@ page
 when
 used
 with
-*
 PanZoomController
 .
 scrollTo
 (
 )
+*
 *
 return
 ScreenLength
@@ -559,7 +562,6 @@ the
 documents
 height
 .
-*
 Type
 is
 {
@@ -572,6 +574,7 @@ Can
 be
 used
 to
+*
 scroll
 to
 the
@@ -582,7 +585,6 @@ page
 when
 used
 with
-*
 {
 link
 PanZoomController
@@ -590,9 +592,11 @@ PanZoomController
 scrollTo
 (
 ScreenLength
+*
 ScreenLength
 )
 }
+*
 *
 return
 ScreenLength
@@ -634,7 +638,6 @@ a
 specific
 length
 .
-*
 Type
 is
 {
@@ -643,6 +646,7 @@ link
 PIXEL
 }
 .
+*
 *
 param
 value
@@ -695,11 +699,11 @@ width
 as
 units
 .
-*
 Type
 is
 {
 link
+*
 #
 VISUAL_VIEWPORT_WIDTH
 }
@@ -715,10 +719,10 @@ PanZoomController
 scrollBy
 (
 ScreenLength
+*
 ScreenLength
 )
 }
-*
 to
 scroll
 a
@@ -731,6 +735,7 @@ visual
 viewport
 content
 .
+*
 *
 param
 value
@@ -750,9 +755,9 @@ would
 indicate
 a
 length
-*
 twice
 as
+*
 long
 as
 the
@@ -816,11 +821,11 @@ width
 as
 units
 .
-*
 Type
 is
 {
 link
+*
 #
 VISUAL_VIEWPORT_HEIGHT
 }
@@ -836,10 +841,10 @@ PanZoomController
 scrollBy
 (
 ScreenLength
+*
 ScreenLength
 )
 }
-*
 to
 scroll
 a
@@ -852,6 +857,7 @@ visual
 viewport
 content
 .
+*
 *
 param
 value
@@ -871,9 +877,9 @@ would
 indicate
 a
 length
-*
 twice
 as
+*
 long
 as
 the
@@ -970,7 +976,6 @@ to
 calculate
 length
 .
-*
 The
 units
 of
@@ -979,12 +984,12 @@ returned
 valued
 are
 defined
+*
 by
 what
 is
 returned
 by
-*
 {
 link
 #
@@ -992,6 +997,7 @@ getType
 (
 )
 }
+*
 *
 return
 Scalar
@@ -1024,7 +1030,6 @@ type
 of
 the
 length
-*
 The
 length
 can
@@ -1034,12 +1039,12 @@ of
 the
 following
 :
-*
 {
 link
 #
 PIXEL
 }
+*
 {
 link
 #
@@ -1055,11 +1060,13 @@ link
 #
 DOCUMENT_WIDTH
 }
+*
 {
 link
 #
 DOCUMENT_HEIGHT
 }
+*
 *
 return
 Unit

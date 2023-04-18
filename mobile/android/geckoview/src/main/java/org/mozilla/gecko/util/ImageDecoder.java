@@ -118,7 +118,6 @@ GeckoResult
 /
 *
 *
-*
 Provides
 access
 to
@@ -220,13 +219,13 @@ the
 specified
 location
 .
-*
 This
 method
 supports
 SVG
 PNG
 Bitmap
+*
 and
 other
 formats
@@ -282,7 +281,9 @@ the
 APK
 .
 *
-*
+<
+p
+>
 e
 .
 g
@@ -306,8 +307,8 @@ apk
 set
 the
 uri
-*
 to
+*
 resource
 :
 /
@@ -393,6 +394,9 @@ Gecko
 .
 *
 *
+<
+p
+>
 Note
 :
 The
@@ -454,7 +458,9 @@ the
 APK
 .
 *
-*
+<
+p
+>
 e
 .
 g
@@ -478,8 +484,8 @@ apk
 set
 the
 uri
-*
 to
+*
 resource
 :
 /
@@ -521,10 +527,10 @@ be
 resized
 efficiently
 .
-*
 If
 desiredLength
 is
+*
 0
 then
 the
@@ -535,7 +541,6 @@ decoded
 to
 its
 natural
-*
 size
 .
 *

@@ -333,6 +333,8 @@ it
 also
 contains
 wimax
+/
+/
 mixed
 unknown
 .
@@ -455,7 +457,6 @@ isConnected
 ;
 }
 /
-*
 *
 *
 For

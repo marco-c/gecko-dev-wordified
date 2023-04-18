@@ -41,7 +41,6 @@ rule
 /
 *
 *
-*
 Exception
 thrown
 when

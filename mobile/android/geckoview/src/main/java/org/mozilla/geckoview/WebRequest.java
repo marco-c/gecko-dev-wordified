@@ -108,17 +108,6 @@ mozilla
 geckoview
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-WrapForJNI
-;
-import
 androidx
 .
 annotation
@@ -187,6 +176,17 @@ charset
 .
 Charset
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WrapForJNI
+;
 /
 *
 *
@@ -224,6 +224,7 @@ responses
 via
 {
 link
+*
 GeckoWebExecutor
 #
 fetch
@@ -243,7 +244,6 @@ extends
 WebMessage
 {
 /
-*
 *
 *
 The
@@ -270,7 +270,6 @@ method
 /
 *
 *
-*
 The
 body
 of
@@ -285,7 +284,6 @@ directly
 allocated
 ByteBuffer
 .
-*
 May
 be
 null
@@ -316,12 +314,12 @@ link
 CACHE_MODE_DEFAULT
 }
 .
-*
 These
 modes
 match
 those
 from
+*
 the
 DOM
 Fetch
@@ -363,6 +361,7 @@ cache
 DOM
 Fetch
 API
+*
 cache
 modes
 <
@@ -378,7 +377,6 @@ int
 cacheMode
 ;
 /
-*
 *
 *
 The
@@ -429,7 +427,6 @@ CacheMode
 /
 *
 *
-*
 Default
 cache
 mode
@@ -464,13 +461,13 @@ server
 without
 looking
 in
-*
 the
 cache
 and
 will
 not
 update
+*
 the
 cache
 with
@@ -503,7 +500,6 @@ server
 without
 looking
 in
-*
 the
 cache
 .
@@ -511,6 +507,7 @@ The
 cache
 will
 be
+*
 updated
 with
 the
@@ -528,7 +525,6 @@ CACHE_MODE_RELOAD
 3
 ;
 /
-*
 *
 *
 Forces
@@ -575,13 +571,13 @@ whether
 it
 '
 s
-*
 fresh
 or
 not
 .
 If
 there
+*
 is
 no
 match
@@ -591,7 +587,6 @@ request
 will
 be
 made
-*
 and
 the
 cache
@@ -601,6 +596,7 @@ updated
 with
 the
 downloaded
+*
 response
 .
 *
@@ -633,13 +629,13 @@ whether
 it
 '
 s
-*
 fresh
 or
 not
 .
 If
 there
+*
 is
 no
 match
@@ -649,7 +645,6 @@ cache
 504
 Gateway
 Timeout
-*
 will
 be
 returned
@@ -701,6 +696,7 @@ specified
 URI
 .
 *
+*
 param
 uri
 A
@@ -739,7 +735,6 @@ uri
 ;
 }
 /
-*
 *
 *
 Constructs
@@ -823,7 +818,6 @@ null
 }
 }
 /
-*
 *
 *
 Builder
@@ -1019,7 +1013,6 @@ with
 the
 data
 .
-*
 Must
 be
 allocated
@@ -1027,6 +1020,7 @@ directly
 via
 {
 link
+*
 ByteBuffer
 #
 allocateDirect
@@ -1370,7 +1364,6 @@ this
 ;
 }
 /
-*
 *
 *
 return
