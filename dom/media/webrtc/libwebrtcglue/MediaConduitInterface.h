@@ -886,7 +886,7 @@ void
 UnsetRemoteSSRC
 (
 Ssrc
-ssrc
+aSsrc
 )
 =
 0
@@ -2245,16 +2245,6 @@ void
 DisableSsrcChanges
 (
 )
-=
-0
-;
-void
-UnsetRemoteSSRC
-(
-Ssrc
-ssrc
-)
-override
 =
 0
 ;

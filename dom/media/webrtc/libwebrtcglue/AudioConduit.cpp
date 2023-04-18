@@ -2104,7 +2104,7 @@ WebrtcAudioConduit
 OverrideRemoteSSRC
 (
 uint32_t
-ssrc
+aSsrc
 )
 {
 MOZ_ASSERT
@@ -2126,7 +2126,7 @@ rtp
 remote_ssrc
 =
 =
-ssrc
+aSsrc
 )
 {
 return
@@ -2139,7 +2139,7 @@ rtp
 .
 remote_ssrc
 =
-ssrc
+aSsrc
 ;
 const
 bool
