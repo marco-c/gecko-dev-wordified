@@ -390,6 +390,7 @@ void
 *
 aResult
 )
+override
 ;
 NS_IMETHOD
 LockFactory
