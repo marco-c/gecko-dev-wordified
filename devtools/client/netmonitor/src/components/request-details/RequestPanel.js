@@ -1206,6 +1206,7 @@ requestPostData
 requestPostData
 .
 postData
+?
 .
 text
 :
