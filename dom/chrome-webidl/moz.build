@@ -282,6 +282,11 @@ ChromeUtils
 .
 webidl
 "
+"
+IOUtils
+.
+webidl
+"
 ]
 WEBIDL_FILES
 =
@@ -353,11 +358,6 @@ webidl
 "
 "
 InspectorUtils
-.
-webidl
-"
-"
-IOUtils
 .
 webidl
 "
