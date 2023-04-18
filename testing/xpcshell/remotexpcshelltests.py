@@ -298,6 +298,9 @@ self
 extra_args
 env
 selectedProcess
+test_name
+=
+None
 )
 :
         
@@ -438,7 +441,11 @@ log
 .
 info
 (
+                    
 "
+%
+s
+|
 Checking
 that
 %
@@ -449,10 +456,15 @@ top
 activity
 .
 "
+                    
 %
+(
+test_name
 self
 .
 package
+)
+                
 )
                 
 top
@@ -562,6 +574,9 @@ interval
 0
 .
 1
+test_name
+=
+None
 )
 :
         
@@ -639,6 +654,9 @@ warning
 (
                 
 "
+%
+s
+|
 Failed
 wait
 for
@@ -650,10 +668,14 @@ s
 missing
 ?
 "
+                
 %
+(
+test_name
 self
 .
 remoteLogFile
+)
             
 )
         
@@ -707,13 +729,33 @@ log
 .
 info
 (
+                    
 "
+remotexpcshelltests
+.
+py
+|
+%
+s
+|
+%
+s
+|
 Timing
 out
-.
-.
-.
 "
+                    
+%
+(
+test_name
+str
+(
+self
+.
+pid
+)
+)
+                
 )
                 
 self
@@ -2308,6 +2350,7 @@ proc
 def
 launchProcess
 (
+        
 self
 cmd
 stdout
@@ -2317,6 +2360,10 @@ cwd
 timeout
 =
 None
+test_name
+=
+None
+    
 )
 :
         
@@ -2368,6 +2415,7 @@ rpm
 .
 launch_service
 (
+                
 cmd
 [
 1
@@ -2379,6 +2427,10 @@ env
 self
 .
 selectedProcess
+test_name
+=
+test_name
+            
 )
         
 except
@@ -2431,24 +2483,32 @@ log
 .
 info
 (
+            
 "
 remotexpcshelltests
 .
 py
 |
+%
+s
+|
+%
+s
+|
 Launched
 Test
 App
-PID
-=
-%
-s
 "
+            
 %
+(
+test_name
 str
 (
 pid
 )
+)
+        
 )
         
 if
@@ -2457,6 +2517,9 @@ rpm
 wait
 (
 timeout
+test_name
+=
+test_name
 )
 :
             
@@ -2487,6 +2550,12 @@ remotexpcshelltests
 .
 py
 |
+%
+s
+|
+%
+s
+|
 Application
 ran
 for
@@ -2496,6 +2565,12 @@ s
 "
             
 %
+(
+test_name
+str
+(
+pid
+)
 str
 (
 datetime
@@ -2507,6 +2582,7 @@ now
 )
 -
 startTime
+)
 )
         
 )
@@ -2552,6 +2628,12 @@ remotexpcshelltests
 .
 py
 |
+%
+s
+|
+%
+s
+|
 Could
 not
 read
@@ -2561,10 +2643,18 @@ file
 %
 s
 "
+                
 %
+(
+test_name
+str
+(
+pid
+)
 str
 (
 e
+)
 )
             
 )
