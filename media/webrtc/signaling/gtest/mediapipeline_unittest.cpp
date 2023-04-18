@@ -1182,7 +1182,7 @@ ExitPrivateMode
 override
 {
 }
-nsresult
+void
 CreateIceCtx
 (
 const
@@ -1192,6 +1192,13 @@ std
 string
 &
 aName
+)
+override
+{
+}
+nsresult
+SetIceConfig
+(
 const
 nsTArray
 <
