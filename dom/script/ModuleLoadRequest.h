@@ -318,6 +318,9 @@ aIntegrity
 nsIURI
 *
 aReferrer
+DOMScriptLoadContext
+*
+aContext
 bool
 aIsTopLevel
 bool
@@ -365,9 +368,6 @@ aURI
 ScriptFetchOptions
 *
 aFetchOptions
-Element
-*
-aElement
 const
 SRIMetadata
 &
@@ -378,6 +378,9 @@ aReferrer
 ScriptLoader
 *
 aLoader
+DOMScriptLoadContext
+*
+aContext
 )
 ;
 /
@@ -436,9 +439,9 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
-Element
+DOMScriptLoadContext
 *
-aElement
+aContext
 ScriptLoader
 *
 aLoader
