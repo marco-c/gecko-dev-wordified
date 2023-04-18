@@ -4027,6 +4027,11 @@ layout_lower_priority_refresh_driver_during_load
 )
 &
 &
+ShouldGiveNonVsyncTasksMoreTime
+(
+)
+&
+&
 mVsyncRefreshDriverTimer
 )
 {
