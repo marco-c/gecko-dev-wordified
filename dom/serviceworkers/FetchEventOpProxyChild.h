@@ -277,7 +277,7 @@ ipc
 IPCResult
 RecvPreloadResponse
 (
-ParentToChildResponseWithTiming
+ParentToChildInternalResponse
 &
 &
 aResponse
