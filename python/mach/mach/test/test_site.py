@@ -64,12 +64,6 @@ from
 unittest
 import
 mock
-from
-unittest
-.
-mock
-import
-Mock
 import
 pytest
 as
@@ -148,7 +142,7 @@ False
 True
 SitePackagesSource
 .
-SYSTEM
+NONE
 )
         
 (
@@ -157,7 +151,7 @@ True
 False
 SitePackagesSource
 .
-SYSTEM
+NONE
 )
         
 (
@@ -166,7 +160,7 @@ True
 True
 SitePackagesSource
 .
-SYSTEM
+NONE
 )
     
 ]
@@ -241,13 +235,9 @@ SitePackagesSource
 .
 from_environment
 (
-Mock
-(
-)
 "
 build
 "
-None
 )
 =
 =
@@ -291,30 +281,21 @@ virtualenv
 .
     
 assert
-(
-        
 SitePackagesSource
 .
 from_environment
 (
-Mock
-(
-)
 "
 python
 -
 test
 "
-None
 )
-        
 =
 =
 SitePackagesSource
 .
 VENV
-    
-)
 if
 __name__
 =
