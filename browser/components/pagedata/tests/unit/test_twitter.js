@@ -80,6 +80,11 @@ await
 verifyPageData
 (
 <
+!
+DOCTYPE
+html
+>
+<
 html
 >
 <
