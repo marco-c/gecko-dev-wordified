@@ -388,7 +388,7 @@ return
 SymbolicAddress
 :
 :
-MemoryGrow
+MemoryGrowM32
 ;
 case
 BD_SymbolicAddress
@@ -400,7 +400,7 @@ return
 SymbolicAddress
 :
 :
-MemorySize
+MemorySizeM32
 ;
 case
 BD_SymbolicAddress
@@ -412,7 +412,7 @@ return
 SymbolicAddress
 :
 :
-MemCopy32
+MemCopyM32
 ;
 case
 BD_SymbolicAddress
@@ -424,7 +424,7 @@ return
 SymbolicAddress
 :
 :
-MemCopyShared32
+MemCopySharedM32
 ;
 case
 BD_SymbolicAddress
@@ -448,7 +448,7 @@ return
 SymbolicAddress
 :
 :
-MemFill32
+MemFillM32
 ;
 case
 BD_SymbolicAddress
@@ -460,7 +460,7 @@ return
 SymbolicAddress
 :
 :
-MemFillShared32
+MemFillSharedM32
 ;
 case
 BD_SymbolicAddress
@@ -472,7 +472,7 @@ return
 SymbolicAddress
 :
 :
-MemInit32
+MemInitM32
 ;
 case
 BD_SymbolicAddress
