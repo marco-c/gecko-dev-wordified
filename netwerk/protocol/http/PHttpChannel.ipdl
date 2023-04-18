@@ -177,6 +177,16 @@ BackgroundUtils
 h
 "
 ;
+using
+struct
+ClassOfServiceStruct
+from
+"
+nsIClassOfService
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -292,7 +302,7 @@ ipdl
 async
 SetClassOfService
 (
-uint32_t
+ClassOfServiceStruct
 cos
 )
 ;

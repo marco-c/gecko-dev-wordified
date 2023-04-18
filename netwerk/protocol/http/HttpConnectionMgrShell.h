@@ -78,6 +78,9 @@ nsIHttpUpgradeListener
 class
 nsIInterfaceRequestor
 ;
+struct
+ClassOfServiceStruct
+;
 namespace
 mozilla
 {
@@ -738,7 +741,9 @@ UpdateClassOfServiceOnTransaction
 (
 HttpTransactionShell
 *
-uint32_t
+const
+ClassOfServiceStruct
+&
 classOfService
 )
 =
@@ -1434,9 +1439,12 @@ UpdateClassOfServiceOnTransaction
 \
 HttpTransactionShell
 *
-uint32_t
+const
+ClassOfServiceStruct
+&
 classOfService
 )
+\
 override
 ;
 \

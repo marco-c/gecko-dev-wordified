@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsIClassOfService
+.
+h
+"
+#
+include
+"
 TimingStruct
 .
 h
@@ -591,7 +598,7 @@ trafficCategory
 nsIRequestContext
 *
 requestContext
-uint32_t
+ClassOfServiceStruct
 classOfService
 uint32_t
 initialRwin
@@ -1184,7 +1191,7 @@ nsIRequestContext
 *
 requestContext
 \
-uint32_t
+ClassOfServiceStruct
 classOfService
 uint32_t
 initialRwin

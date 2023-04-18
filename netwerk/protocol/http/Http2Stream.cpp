@@ -8557,6 +8557,10 @@ trans
 ClassOfService
 (
 )
+.
+Flags
+(
+)
 ;
 if
 (

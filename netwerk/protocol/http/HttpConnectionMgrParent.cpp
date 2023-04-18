@@ -1003,7 +1003,9 @@ UpdateClassOfServiceOnTransaction
 HttpTransactionShell
 *
 aTrans
-uint32_t
+const
+ClassOfServiceStruct
+&
 aClassOfService
 )
 {

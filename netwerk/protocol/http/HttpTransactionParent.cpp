@@ -947,7 +947,7 @@ trafficCategory
 nsIRequestContext
 *
 requestContext
-uint32_t
+ClassOfServiceStruct
 classOfService
 uint32_t
 initialRwin
