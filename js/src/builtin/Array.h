@@ -1167,15 +1167,6 @@ result
 ;
 extern
 bool
-ObjectMayHaveExtraIndexedProperties
-(
-JSObject
-*
-obj
-)
-;
-extern
-bool
 PrototypeMayHaveIndexedProperties
 (
 NativeObject
