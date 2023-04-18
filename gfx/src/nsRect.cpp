@@ -299,14 +299,6 @@ Overflows
 )
 const
 {
-#
-ifdef
-NS_COORD_IS_FLOAT
-return
-false
-;
-#
-else
 mozilla
 :
 :
@@ -367,6 +359,4 @@ isValid
 (
 )
 ;
-#
-endif
 }
