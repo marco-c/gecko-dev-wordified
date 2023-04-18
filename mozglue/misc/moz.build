@@ -368,11 +368,6 @@ TimeStamp_windows
 cpp
 "
 "
-WindowsDllMain
-.
-cpp
-"
-"
 WindowsDpiInitialization
 .
 cpp
