@@ -5802,6 +5802,15 @@ script
 and
 requested
 .
+ModuleLoader
+*
+requestModuleLoader
+=
+aRequest
+-
+>
+mLoader
+;
 nsCOMPtr
 <
 nsIURI
@@ -5810,7 +5819,7 @@ uri
 =
 ResolveModuleSpecifier
 (
-aRequest
+requestModuleLoader
 -
 >
 mLoader
