@@ -2374,6 +2374,15 @@ NULL
 "
 \
 "
+hidden
+INTEGER
+DEFAULT
+0
+NOT
+NULL
+"
+\
+"
 builder
 TEXT
 NOT
