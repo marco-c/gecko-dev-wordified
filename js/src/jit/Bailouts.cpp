@@ -1957,10 +1957,10 @@ rfe
 >
 kind
 =
-ResumeFromException
+ExceptionResumeKind
 :
 :
-RESUME_BAILOUT
+Bailout
 ;
 rfe
 -

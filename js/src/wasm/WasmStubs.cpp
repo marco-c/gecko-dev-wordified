@@ -21717,10 +21717,10 @@ Imm32
 jit
 :
 :
-ResumeFromException
+ExceptionResumeKind
 :
 :
-RESUME_WASM_CATCH
+WasmCatch
 )
 &
 resumeCatch
@@ -21740,10 +21740,10 @@ Imm32
 jit
 :
 :
-ResumeFromException
+ExceptionResumeKind
 :
 :
-RESUME_WASM
+Wasm
 )
 &
 leaveWasm
