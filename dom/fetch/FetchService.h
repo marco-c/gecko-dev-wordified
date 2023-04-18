@@ -704,6 +704,12 @@ FetchDriver
 >
 mFetchDriver
 ;
+SafeRefPtr
+<
+InternalResponse
+>
+mResponse
+;
 MozPromiseHolder
 <
 FetchServiceResponsePromise
