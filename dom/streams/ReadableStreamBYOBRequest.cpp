@@ -230,8 +230,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 ReadableStreamBYOBRequest
@@ -812,9 +812,7 @@ aController
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
