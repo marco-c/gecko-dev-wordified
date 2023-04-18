@@ -59,6 +59,9 @@ get_running_loop
 (
 )
     
+else
+:
+        
 #
 Unlike
 the
@@ -70,7 +73,7 @@ create
 an
 event
 loop
-    
+        
 #
 if
 there
@@ -89,7 +92,7 @@ Python
 3
 .
 7
-    
+        
 #
 will
 allow
@@ -99,7 +102,23 @@ catch
 any
 behaviour
 difference
-    
+        
+#
+(
+Needs
+to
+be
+in
+else
+for
+mypy
+to
+believe
+this
+is
+reachable
+)
+        
 return
 asyncio
 .

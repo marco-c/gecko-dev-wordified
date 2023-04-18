@@ -1267,6 +1267,25 @@ Element
 doc
 )
     
+else
+:
+        
+#
+(
+needs
+to
+be
+in
+else
+for
+mypy
+to
+believe
+this
+is
+reachable
+)
+        
 return
 doc
 def

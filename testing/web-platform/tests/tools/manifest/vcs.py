@@ -799,13 +799,6 @@ GitHasher
 tests_root
 )
         
-if
-git
-is
-not
-None
-:
-            
 self
 .
 hash_cache
@@ -815,16 +808,6 @@ git
 hash_cache
 (
 )
-        
-else
-:
-            
-self
-.
-hash_cache
-=
-{
-}
     
 def
 __iter__

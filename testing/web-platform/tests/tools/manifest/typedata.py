@@ -1083,10 +1083,19 @@ type
 :
 Optional
 [
+Union
+[
 Dict
 [
 Text
 Any
+]
+Set
+[
+item
+.
+ManifestItem
+]
 ]
 ]
         
@@ -1100,10 +1109,17 @@ type
 :
 Optional
 [
+Union
+[
 Dict
 [
 Text
 Any
+]
+List
+[
+Any
+]
 ]
 ]
         
@@ -1327,6 +1343,26 @@ self
 .
 _data
 ]
+#
+type
+:
+List
+[
+Union
+[
+Dict
+[
+Text
+Any
+]
+Set
+[
+item
+.
+ManifestItem
+]
+]
+]
         
 while
 stack
@@ -1367,21 +1403,39 @@ values
 )
 )
         
-stack
+json_stack
 =
 [
 self
 .
 _json_data
 ]
+#
+type
+:
+List
+[
+Union
+[
+Dict
+[
+Text
+Any
+]
+List
+[
+Any
+]
+]
+]
         
 while
-stack
+json_stack
 :
             
-v
+json_v
 =
-stack
+json_stack
 .
 pop
 (
@@ -1390,7 +1444,7 @@ pop
 if
 isinstance
 (
-v
+json_v
 list
 )
 :
@@ -1403,11 +1457,11 @@ count
 else
 :
                 
-stack
+json_stack
 .
 extend
 (
-v
+json_v
 .
 values
 (

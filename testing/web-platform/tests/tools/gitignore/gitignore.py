@@ -142,6 +142,13 @@ parts
 seq
 =
 None
+#
+type
+:
+Optional
+[
+int
+]
     
 i
 =
@@ -438,7 +445,6 @@ parts
 [
 -
 1
-:
 ]
 =
 =
@@ -462,7 +468,6 @@ parts
 [
 -
 1
-:
 ]
 =
 =
@@ -475,9 +480,6 @@ parts
 [
 -
 2
-:
--
-1
 ]
 =
 =
@@ -487,14 +489,8 @@ b
 "
 :
                     
-parts
-=
-parts
-[
-:
--
-2
-]
+raise
+ValueError
                 
 else
 :

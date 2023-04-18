@@ -1,9 +1,9 @@
 import
 os
 import
-platform
-import
 subprocess
+import
+sys
 MYPY
 =
 False
@@ -210,15 +210,13 @@ u
 /
 "
 or
-platform
+sys
 .
-system
-(
-)
+platform
 =
 =
 "
-Windows
+win32
 "
     
 if
@@ -323,15 +321,13 @@ u
 /
 "
 or
-platform
+sys
 .
-system
-(
-)
+platform
 =
 =
 "
-Windows
+win32
 "
     
 if
@@ -483,18 +479,13 @@ e
 :
             
 if
-platform
+sys
 .
-uname
-(
-)
-[
-0
-]
+platform
 =
 =
 "
-Windows
+win32
 "
 and
 isinstance
