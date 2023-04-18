@@ -202,7 +202,7 @@ Makes
 sure
 UrlbarProviderQuickSuggest
 .
-_updateExperimentState
+_updateFeatureState
 (
 )
 is
@@ -226,7 +226,7 @@ add_task
 (
 async
 function
-test_updateExperimentState_pref
+test_updateFeatureState_pref
 (
 )
 {
@@ -276,7 +276,7 @@ spy
 (
 UrlbarProviderQuickSuggest
 "
-_updateExperimentState
+_updateFeatureState
 "
 )
 ;
@@ -306,7 +306,7 @@ spy
 callCount
 1
 "
-_updateExperimentState
+_updateFeatureState
 called
 once
 after
@@ -340,7 +340,7 @@ spy
 callCount
 2
 "
-_updateExperimentState
+_updateFeatureState
 called
 again
 after
@@ -364,7 +364,7 @@ Makes
 sure
 UrlbarProviderQuickSuggest
 .
-_updateExperimentState
+_updateFeatureState
 (
 )
 is
@@ -384,7 +384,7 @@ add_task
 (
 async
 function
-test_updateExperimentState_experiment
+test_updateFeatureState_experiment
 (
 )
 {
@@ -406,7 +406,7 @@ spy
 (
 UrlbarProviderQuickSuggest
 "
-_updateExperimentState
+_updateFeatureState
 "
 )
 ;
@@ -432,7 +432,7 @@ spy
 callCount
 1
 "
-_updateExperimentState
+_updateFeatureState
 called
 once
 after
@@ -454,7 +454,7 @@ spy
 callCount
 2
 "
-_updateExperimentState
+_updateFeatureState
 called
 again
 after
