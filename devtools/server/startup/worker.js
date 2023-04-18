@@ -358,8 +358,10 @@ devtools
 /
 shared
 /
-worker
+loader
 /
+worker
+-
 loader
 .
 js

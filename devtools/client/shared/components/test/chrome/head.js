@@ -108,6 +108,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm
@@ -170,9 +172,9 @@ resource
 /
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -

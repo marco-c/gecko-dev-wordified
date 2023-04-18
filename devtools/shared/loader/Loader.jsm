@@ -131,6 +131,8 @@ devtools
 /
 shared
 /
+loader
+/
 base
 -
 loader
@@ -156,6 +158,8 @@ resource
 devtools
 /
 shared
+/
+loader
 /
 loader
 -
@@ -930,6 +934,8 @@ devtools
 /
 shared
 /
+loader
+/
 builtin
 -
 modules
@@ -1063,6 +1069,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm
@@ -1147,6 +1155,8 @@ resource
 devtools
 /
 shared
+/
+loader
 /
 Loader
 .

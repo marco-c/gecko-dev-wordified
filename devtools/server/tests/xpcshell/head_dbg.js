@@ -177,6 +177,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm
@@ -201,8 +203,10 @@ devtools
 /
 shared
 /
-worker
+loader
 /
+worker
+-
 loader
 .
 js

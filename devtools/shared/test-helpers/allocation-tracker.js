@@ -673,6 +673,8 @@ devtools
 /
 shared
 /
+loader
+/
 builtin
 -
 modules

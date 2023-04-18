@@ -51,6 +51,8 @@ devtools
 /
 shared
 /
+loader
+/
 base
 -
 loader

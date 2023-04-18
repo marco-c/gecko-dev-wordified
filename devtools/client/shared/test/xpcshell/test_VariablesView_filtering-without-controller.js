@@ -98,6 +98,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm
@@ -115,6 +117,8 @@ require
 devtools
 /
 shared
+/
+loader
 /
 builtin
 -

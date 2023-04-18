@@ -371,6 +371,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm
@@ -387,6 +389,8 @@ resource
 devtools
 /
 shared
+/
+loader
 /
 Loader
 .
@@ -449,9 +453,9 @@ resource
 /
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -
@@ -2632,6 +2636,8 @@ resource
 devtools
 /
 shared
+/
+loader
 /
 Loader
 .

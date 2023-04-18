@@ -538,6 +538,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm
@@ -6049,6 +6051,8 @@ devtools
 /
 shared
 /
+loader
+/
 Loader
 .
 jsm
@@ -7361,6 +7365,8 @@ resource
 devtools
 /
 shared
+/
+loader
 /
 Loader
 .
