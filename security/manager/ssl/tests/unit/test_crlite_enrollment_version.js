@@ -98,7 +98,7 @@ profile
 contains
 a
 corrupted
-coverage
+enrollment
 file
 .
 Specifically
@@ -110,7 +110,7 @@ case
 /
 where
 the
-coverage
+enrollment
 file
 '
 s
@@ -142,11 +142,9 @@ coverage
 do_get_file
 (
 "
-test_crlite_corrupted
+test_crlite_preexisting
 /
-version
--
-0
+crlite
 .
 coverage
 "
@@ -158,9 +156,11 @@ enrollment
 do_get_file
 (
 "
-test_crlite_preexisting
+test_crlite_corrupted
 /
-crlite
+version
+-
+0
 .
 enrollment
 "
