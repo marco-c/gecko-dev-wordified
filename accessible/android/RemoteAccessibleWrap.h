@@ -444,8 +444,6 @@ aDOMNodeID
 )
 override
 ;
-private
-:
 virtual
 role
 WrapperRole
