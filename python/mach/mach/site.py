@@ -1406,7 +1406,7 @@ get_state_dir
 A
 function
 that
-resolve
+resolves
 the
 path
 to
@@ -2977,11 +2977,16 @@ topsrcdir
 :
 str
         
-checkout_scoped_state_dir
+get_state_dir
 :
+Callable
+[
+[
+]
 Optional
 [
 str
+]
 ]
         
 site_name
@@ -3011,17 +3016,21 @@ the
 Firefox
 repo
             
-checkout_scoped_state_dir
+get_state_dir
 :
-The
+A
+function
+that
+resolves
+the
 path
 to
 the
 checkout
 -
 scoped
-state_dir
                 
+state_dir
 generally
 ~
 /
@@ -3243,6 +3252,29 @@ SitePackagesSource
 .
 NONE
             
+)
+        
+checkout_scoped_state_dir
+=
+(
+            
+get_state_dir
+(
+)
+            
+if
+active_metadata
+.
+mach_site_packages_source
+=
+=
+SitePackagesSource
+.
+VENV
+            
+else
+None
+        
 )
         
 return

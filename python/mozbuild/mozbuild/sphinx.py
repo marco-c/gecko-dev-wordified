@@ -1175,6 +1175,8 @@ from_environment
         
 topsrcdir
         
+lambda
+:
 get_state_dir
 (
 specific_to_topsrcdir
