@@ -22368,6 +22368,7 @@ initiateShutdownWorkThreads
 (
 )
 |
+|
 static_cast
 <
 bool
