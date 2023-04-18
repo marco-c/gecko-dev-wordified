@@ -106,6 +106,10 @@ MPL
 /
 include
 protocol
+PCanvasManager
+;
+include
+protocol
 PCompositorBridge
 ;
 include
@@ -673,6 +677,16 @@ returns
 (
 MemoryReport
 aReport
+)
+;
+async
+InitCanvasManager
+(
+Endpoint
+<
+PCanvasManagerParent
+>
+endpoint
 )
 ;
 child

@@ -178,6 +178,13 @@ h
 #
 include
 "
+CanvasManagerParent
+.
+h
+"
+#
+include
+"
 VRGPUChild
 .
 h
@@ -4415,6 +4422,13 @@ ShutdownVideoBridge
 )
 ;
 CompositorThreadHolder
+:
+:
+Shutdown
+(
+)
+;
+CanvasManagerParent
 :
 :
 Shutdown
