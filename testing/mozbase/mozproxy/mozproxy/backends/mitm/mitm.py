@@ -3377,15 +3377,23 @@ mozprocess
 .
 winprocess
 import
+(
+                    
 ERROR_CONTROL_C_EXIT
+                    
+ERROR_CONTROL_C_EXIT_DECIMAL
+                
+)
 #
 noqa
                 
 if
 exit_code
-=
-=
+in
+[
 ERROR_CONTROL_C_EXIT
+ERROR_CONTROL_C_EXIT_DECIMAL
+]
 :
                     
 LOG
