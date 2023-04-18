@@ -41390,6 +41390,7 @@ masm
 .
 addInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -41412,6 +41413,7 @@ masm
 .
 addInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -41434,6 +41436,7 @@ masm
 .
 addInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -41456,6 +41459,7 @@ masm
 .
 addFloat32x4
 (
+rsd
 rs
 rsd
 )
@@ -41478,6 +41482,7 @@ masm
 .
 addInt64x2
 (
+rsd
 rs
 rsd
 )
@@ -41500,6 +41505,7 @@ masm
 .
 addFloat64x2
 (
+rsd
 rs
 rsd
 )
@@ -41522,6 +41528,7 @@ masm
 .
 addSatInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -41544,6 +41551,7 @@ masm
 .
 unsignedAddSatInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -41566,6 +41574,7 @@ masm
 .
 addSatInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -41588,6 +41597,7 @@ masm
 .
 unsignedAddSatInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -41610,6 +41620,7 @@ masm
 .
 subInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -41632,6 +41643,7 @@ masm
 .
 subInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -41654,6 +41666,7 @@ masm
 .
 subInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -41676,6 +41689,7 @@ masm
 .
 subFloat32x4
 (
+rsd
 rs
 rsd
 )
@@ -41698,6 +41712,7 @@ masm
 .
 subInt64x2
 (
+rsd
 rs
 rsd
 )
@@ -41720,6 +41735,7 @@ masm
 .
 subFloat64x2
 (
+rsd
 rs
 rsd
 )
@@ -41742,6 +41758,7 @@ masm
 .
 subSatInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -41764,6 +41781,7 @@ masm
 .
 unsignedSubSatInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -41786,6 +41804,7 @@ masm
 .
 subSatInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -41808,6 +41827,7 @@ masm
 .
 unsignedSubSatInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -41830,6 +41850,7 @@ masm
 .
 mulInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -41852,6 +41873,7 @@ masm
 .
 mulInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -41874,6 +41896,7 @@ masm
 .
 mulFloat32x4
 (
+rsd
 rs
 rsd
 )
@@ -41971,6 +41994,7 @@ masm
 .
 mulFloat64x2
 (
+rsd
 rs
 rsd
 )
@@ -41993,6 +42017,7 @@ masm
 .
 divFloat32x4
 (
+rsd
 rs
 rsd
 )
@@ -42015,6 +42040,7 @@ masm
 .
 divFloat64x2
 (
+rsd
 rs
 rsd
 )
@@ -42441,6 +42467,7 @@ masm
 .
 widenDotInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -44517,6 +44544,7 @@ masm
 .
 unsignedAverageInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -44539,6 +44567,7 @@ masm
 .
 unsignedAverageInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -44561,6 +44590,7 @@ masm
 .
 minInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -44583,6 +44613,7 @@ masm
 .
 unsignedMinInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -44605,6 +44636,7 @@ masm
 .
 maxInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -44627,6 +44659,7 @@ masm
 .
 unsignedMaxInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -44649,6 +44682,7 @@ masm
 .
 minInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -44671,6 +44705,7 @@ masm
 .
 unsignedMinInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -44693,6 +44728,7 @@ masm
 .
 maxInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -44715,6 +44751,7 @@ masm
 .
 unsignedMaxInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -44737,6 +44774,7 @@ masm
 .
 minInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -44759,6 +44797,7 @@ masm
 .
 unsignedMinInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -44781,6 +44820,7 @@ masm
 .
 maxInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -44803,6 +44843,7 @@ masm
 .
 unsignedMaxInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -44825,6 +44866,7 @@ masm
 .
 narrowInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -44847,6 +44889,7 @@ masm
 .
 unsignedNarrowInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -44869,6 +44912,7 @@ masm
 .
 narrowInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -44891,6 +44935,7 @@ masm
 .
 unsignedNarrowInt32x4
 (
+rsd
 rs
 rsd
 )
