@@ -432,14 +432,6 @@ IsValid
 return
 ;
 }
-mConduit
--
->
-SetPCHandle
-(
-mPCHandle
-)
-;
 mReceiver
 =
 new
@@ -836,6 +828,7 @@ Create
 (
 mCallWrapper
 mStsThread
+mPCHandle
 )
 ;
 if
@@ -2860,12 +2853,6 @@ Transmitting
 )
 )
 {
-WebrtcGmpPCHandleSetter
-setter
-(
-mPCHandle
-)
-;
 DebugOnly
 <
 nsresult
