@@ -3646,6 +3646,12 @@ ClearCachedWebrenderResources
 )
 override
 ;
+bool
+SetNeedFastSnaphot
+(
+)
+override
+;
 /
 *
 *
@@ -4284,6 +4290,9 @@ mIMEHasQuit
 ;
 bool
 mIsFullyOccluded
+;
+bool
+mNeedFastSnaphot
 ;
 /
 /
