@@ -300,7 +300,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -453,7 +453,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 )
 ;
@@ -1123,7 +1123,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -1609,7 +1609,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -2166,7 +2166,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -2730,7 +2730,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -3375,7 +3375,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -3834,7 +3834,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -4272,7 +4272,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -4732,7 +4732,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -5377,7 +5377,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )
@@ -5841,7 +5841,7 @@ http
 .
 http3
 .
-enabled
+enable
 "
 true
 )

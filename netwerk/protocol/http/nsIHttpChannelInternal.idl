@@ -1439,7 +1439,7 @@ http
 .
 http3
 .
-enabled
+enable
 preference
 is
 still
