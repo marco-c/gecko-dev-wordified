@@ -413,6 +413,11 @@ Services
 .
 prefs
 .
+getDefaultBranch
+(
+null
+)
+.
 getCharPref
 (
 "
