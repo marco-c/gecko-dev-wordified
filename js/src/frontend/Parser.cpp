@@ -55964,7 +55964,7 @@ we
 re
 construcing
 an
-ergnomic
+ergonomic
 brand
 check
 of
@@ -56041,7 +56041,7 @@ InExpr
 {
 error
 (
-JSMSG_ILLEGAL_PRIVATE_NAME
+JSMSG_INVALID_PRIVATE_NAME_PRECEDENCE
 )
 ;
 return
