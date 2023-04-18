@@ -151,6 +151,14 @@ startup
 "
 :
 {
+/
+/
+Imported
+for
+side
+-
+effects
+.
 ChromeUtils
 .
 import
@@ -168,7 +176,6 @@ CustomElementsListener
 .
 jsm
 "
-null
 )
 ;
 Services

@@ -81,6 +81,12 @@ MPL
 .
 *
 /
+var
+EXPORTED_SYMBOLS
+=
+[
+]
+;
 const
 {
 Services

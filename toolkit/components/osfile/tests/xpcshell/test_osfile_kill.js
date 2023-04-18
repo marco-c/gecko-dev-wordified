@@ -48,7 +48,9 @@ not
 exported
 .
 var
-AsyncFrontGlobal
+{
+Scheduler
+}
 =
 ChromeUtils
 .
@@ -69,15 +71,7 @@ osfile_async_front
 .
 jsm
 "
-null
 )
-;
-var
-Scheduler
-=
-AsyncFrontGlobal
-.
-Scheduler
 ;
 /
 *

@@ -91,7 +91,9 @@ writeAtomic
 ]
 ;
 var
-SharedAll
+{
+Constants
+}
 =
 ChromeUtils
 .
@@ -112,7 +114,6 @@ osfile_shared_allthreads
 .
 jsm
 "
-null
 )
 ;
 var
@@ -123,8 +124,6 @@ SysAll
 ;
 if
 (
-SharedAll
-.
 Constants
 .
 Win
@@ -156,8 +155,6 @@ SysAll
 else
 if
 (
-SharedAll
-.
 Constants
 .
 libc
