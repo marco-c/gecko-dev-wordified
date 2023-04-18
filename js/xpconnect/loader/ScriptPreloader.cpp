@@ -2240,6 +2240,10 @@ if
 mSaveComplete
 &
 &
+!
+mSaveThread
+&
+&
 mChildCache
 )
 {
