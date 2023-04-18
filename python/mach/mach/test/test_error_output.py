@@ -59,6 +59,10 @@ import
 absolute_import
 unicode_literals
 from
+pathlib
+import
+Path
+from
 mach
 .
 main
@@ -99,11 +103,14 @@ Error
 ]
 provider_files
 =
+Path
+(
 "
 throw
 .
 py
 "
+)
     
 )
     
@@ -151,11 +158,14 @@ stack
 ]
 provider_files
 =
+Path
+(
 "
 throw
 .
 py
 "
+)
     
 )
     
