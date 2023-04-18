@@ -11299,6 +11299,9 @@ InvalidateCachedChildInfo
 aBuilder
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 item
 -
 >
@@ -11308,6 +11311,8 @@ false
 true
 )
 ;
+#
+endif
 item
 -
 >
