@@ -20193,6 +20193,17 @@ true
 ;
 init
 .
+mIsAnchored
+=
+popupFrame
+-
+>
+IsAnchored
+(
+)
+;
+init
+.
 mAlignmentOffset
 =
 popupOffset
