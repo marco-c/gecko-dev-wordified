@@ -1050,6 +1050,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+PartialEq
+)
+]
 pub
 struct
 SceneSpatialNode
