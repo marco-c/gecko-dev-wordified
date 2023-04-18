@@ -1039,6 +1039,7 @@ stop
 (
 )
 ;
+await
 this
 .
 webDriverBiDi
