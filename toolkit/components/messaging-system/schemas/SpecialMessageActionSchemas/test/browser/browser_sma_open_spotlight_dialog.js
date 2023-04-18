@@ -229,6 +229,12 @@ data
 "
 )
 ;
+showSpotlightStub
+.
+restore
+(
+)
+;
 }
 )
 ;
