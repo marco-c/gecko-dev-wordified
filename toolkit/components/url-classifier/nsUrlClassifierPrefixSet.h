@@ -582,6 +582,14 @@ mTotalPrefixes
 nsCString
 mName
 ;
+/
+/
+Set
+in
+Init
+(
+)
+only
 mozilla
 :
 :
