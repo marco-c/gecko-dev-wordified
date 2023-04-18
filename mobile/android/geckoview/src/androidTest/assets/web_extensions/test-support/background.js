@@ -168,7 +168,7 @@ getRequestedLocales
 GetLinkColor
 (
 {
-uri
+tab
 selector
 }
 )
@@ -180,7 +180,9 @@ test
 .
 getLinkColor
 (
-uri
+tab
+.
+id
 selector
 )
 ;
