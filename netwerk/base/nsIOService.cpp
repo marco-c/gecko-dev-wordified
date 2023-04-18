@@ -3615,12 +3615,6 @@ isLocked
 /
 false
 !
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 (
 aName

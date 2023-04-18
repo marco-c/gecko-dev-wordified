@@ -1352,12 +1352,6 @@ processes
 if
 (
 !
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 (
 strData
@@ -1365,6 +1359,7 @@ strData
 Data
 (
 )
+false
 )
 )
 {
@@ -1388,12 +1383,6 @@ isLocked
 /
 false
 !
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 (
 strData

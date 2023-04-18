@@ -533,6 +533,7 @@ const
 char
 *
 aPref
+bool
 )
 -
 >
@@ -568,6 +569,7 @@ const
 char
 *
 aPref
+bool
 )
 -
 >
