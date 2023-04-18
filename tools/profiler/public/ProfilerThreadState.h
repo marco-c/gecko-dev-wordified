@@ -288,11 +288,6 @@ profiler_thread_is_being_profiled
 (
 ThreadProfilingFeatures
 aThreadProfilingFeatures
-=
-ThreadProfilingFeatures
-:
-:
-Any
 )
 {
 return
@@ -417,11 +412,6 @@ ProfilerThreadId
 aThreadId
 ThreadProfilingFeatures
 aThreadProfilingFeatures
-=
-ThreadProfilingFeatures
-:
-:
-Any
 )
 {
 if
