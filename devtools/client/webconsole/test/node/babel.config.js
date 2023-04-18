@@ -105,6 +105,17 @@ coalescing
 operator
 "
 "
+babel
+/
+plugin
+-
+proposal
+-
+private
+-
+methods
+"
+"
 transform
 -
 amd
