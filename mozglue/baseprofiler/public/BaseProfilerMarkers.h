@@ -1935,7 +1935,7 @@ baseprofiler
 :
 :
 AutoProfilerTextMarker
-BASE_PROFILER_RAII
+PROFILER_RAII
 (
 \
 markerName

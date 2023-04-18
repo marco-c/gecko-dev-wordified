@@ -638,6 +638,15 @@ include
 "
 mozilla
 /
+BaseProfilerRAIIMacro
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -1074,7 +1083,7 @@ baseprofiler
 :
 :
 AutoProfilerInit
-BASE_PROFILER_RAII
+PROFILER_RAII
 /
 /
 Clean
@@ -2127,7 +2136,7 @@ baseprofiler
 :
 :
 AutoProfilerRegisterThread
-BASE_PROFILER_RAII
+PROFILER_RAII
 (
 name
 )
@@ -2344,7 +2353,7 @@ baseprofiler
 :
 :
 AutoProfilerThreadSleep
-BASE_PROFILER_RAII
+PROFILER_RAII
 #
 define
 AUTO_BASE_PROFILER_THREAD_WAKE
@@ -2358,7 +2367,7 @@ baseprofiler
 :
 :
 AutoProfilerThreadWake
-BASE_PROFILER_RAII
+PROFILER_RAII
 /
 /
 -

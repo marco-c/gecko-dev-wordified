@@ -682,6 +682,13 @@ h
 "
 public
 /
+BaseProfilerRAIIMacro
+.
+h
+"
+"
+public
+/
 BaseProfilerState
 .
 h
