@@ -192,6 +192,7 @@ Array
 ArrayBuffer
 Int32Array
 Iterator
+Map
 Promise
 RegExp
 Set
