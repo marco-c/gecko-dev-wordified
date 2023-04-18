@@ -2927,16 +2927,6 @@ talos
 "
 :
             
-fg
-.
-_get_ci_tasks
-=
-mock
-.
-Mock
-(
-)
-            
 for
 suite
 suitetests
