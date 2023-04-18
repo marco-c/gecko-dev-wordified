@@ -1428,18 +1428,6 @@ libcxx_include_dir
     
 build_wasm
     
-compiler_rt_source_dir
-=
-None
-    
-runtimes_source_link
-=
-None
-    
-compiler_rt_source_link
-=
-None
-    
 is_final_stage
 =
 False
@@ -7016,19 +7004,6 @@ stages
         
 )
     
-runtimes_source_link
-=
-llvm_source_dir
-+
-"
-/
-runtimes
-/
-compiler
--
-rt
-"
-    
 if
 stages
 >
@@ -7190,12 +7165,6 @@ assertions
 libcxx_include_dir
             
 build_wasm
-            
-compiler_rt_source_dir
-            
-runtimes_source_link
-            
-compiler_rt_source_link
             
 is_final_stage
 =
@@ -7363,12 +7332,6 @@ assertions
 libcxx_include_dir
             
 build_wasm
-            
-compiler_rt_source_dir
-            
-runtimes_source_link
-            
-compiler_rt_source_link
             
 (
 stages
@@ -7635,12 +7598,6 @@ assertions
 libcxx_include_dir
             
 build_wasm
-            
-compiler_rt_source_dir
-            
-runtimes_source_link
-            
-compiler_rt_source_link
             
 (
 stages
