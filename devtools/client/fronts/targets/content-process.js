@@ -219,6 +219,14 @@ json
 .
 remoteType
 ;
+this
+.
+isXpcShellTarget
+=
+json
+.
+isXpcShellTarget
+;
 }
 get
 name
