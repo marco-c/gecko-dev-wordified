@@ -320,7 +320,7 @@ mozilla
 Maybe
 ;
 static
-TlsData
+Instance
 *
 ExtractCallerTlsFromFrameWithTls
 (
@@ -333,7 +333,7 @@ return
 *
 reinterpret_cast
 <
-TlsData
+Instance
 *
 *
 >
@@ -358,7 +358,7 @@ callerTlsOffset
 }
 static
 const
-TlsData
+Instance
 *
 ExtractCalleeTlsFromFrameWithTls
 (
@@ -372,7 +372,7 @@ return
 *
 reinterpret_cast
 <
-TlsData
+Instance
 *
 const
 *
@@ -3102,7 +3102,7 @@ WasmTlsReg
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfCx
@@ -5907,7 +5907,7 @@ loadPtr
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfJumpTable
@@ -7716,7 +7716,7 @@ SetFP
 ;
 }
 const
-TlsData
+Instance
 *
 js
 :
@@ -7892,7 +7892,7 @@ wasmCaller
 ;
 }
 }
-TlsData
+Instance
 *
 js
 :
@@ -7910,7 +7910,7 @@ fp
 return
 const_cast
 <
-TlsData
+Instance
 *
 >
 (

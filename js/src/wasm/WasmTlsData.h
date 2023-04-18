@@ -273,7 +273,7 @@ int32_t
 (
 ExportArg
 *
-TlsData
+Instance
 *
 )
 ;
@@ -368,7 +368,7 @@ The
 callee
 '
 s
-TlsData
+Instance
 pointer
 which
 must
@@ -391,7 +391,7 @@ calling
 code
 '
 .
-TlsData
+Instance
 *
 tls
 ;
@@ -669,7 +669,7 @@ s
 instance
 '
 s
-TlsData
+Instance
 .
 This
 must
@@ -685,7 +685,7 @@ calling
 code
 '
 .
-TlsData
+Instance
 *
 tls
 ;

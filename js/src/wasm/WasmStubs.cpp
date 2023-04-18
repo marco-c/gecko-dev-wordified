@@ -4540,7 +4540,7 @@ src
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfValueBoxClass
@@ -4834,7 +4834,7 @@ src
 Address
 (
 tls
-TlsData
+Instance
 :
 :
 offsetOfValueBoxClass
@@ -5524,7 +5524,7 @@ argv
 Arg
 2
 :
-TlsData
+Instance
 *
 arg
 =
@@ -6473,7 +6473,7 @@ toPrivate
 /
 =
 >
-TlsData
+Instance
 *
 offset
 =
@@ -6576,7 +6576,7 @@ loadPtr
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfCx
@@ -6605,7 +6605,7 @@ loadPtr
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfInstance
@@ -15702,7 +15702,7 @@ Address
 instancePtr
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfInstance
@@ -18377,7 +18377,7 @@ loadPtr
 Address
 (
 WasmTlsReg
-TlsData
+Instance
 :
 :
 offsetOfInstance

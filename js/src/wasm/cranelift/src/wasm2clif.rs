@@ -456,7 +456,7 @@ R32
 /
 Convert
 a
-TlsData
+Instance
 offset
 into
 a
@@ -2813,7 +2813,7 @@ Global
 variable
 representing
 the
-TlsData
+Instance
 :
 :
 instance
@@ -2844,7 +2844,7 @@ Global
 variable
 representing
 the
-TlsData
+Instance
 :
 :
 interrupt
@@ -2925,7 +2925,7 @@ the
 wasm
 :
 :
-TlsData
+Instance
 struct
 .
 cx_addr
@@ -2951,7 +2951,7 @@ the
 wasm
 :
 :
-TlsData
+Instance
 struct
 .
 realm_addr
@@ -6204,7 +6204,7 @@ bound
 /
 Get
 the
-TlsData
+Instance
 :
 :
 memoryBase
@@ -6283,7 +6283,7 @@ else
 /
 Get
 the
-TlsData
+Instance
 :
 :
 boundsCheckLimit

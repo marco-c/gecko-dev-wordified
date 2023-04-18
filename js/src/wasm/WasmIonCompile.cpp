@@ -1085,7 +1085,7 @@ in
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 pendingException
@@ -1099,9 +1099,9 @@ which
 branches
 to
 a
+/
+/
 new
-/
-/
 pre
 -
 pad
@@ -1159,7 +1159,7 @@ from
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 pendingExceptionTag
@@ -2456,7 +2456,7 @@ v12
 load
 exception
 from
-TlsData
+Instance
 |
 |
 v7
@@ -2559,7 +2559,7 @@ exception
 __block6_________________
 |
 from
-TlsData
+Instance
 and
 get
 v12
@@ -8036,7 +8036,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfMemoryBase
@@ -8264,7 +8264,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfBoundsCheckLimit
@@ -11931,7 +11931,7 @@ the
 value
 out
 of
-TlsData
+Instance
 :
 :
 globalArea
@@ -12066,7 +12066,7 @@ value
 directly
 out
 of
-TlsData
+Instance
 :
 :
 globalArea
@@ -12149,7 +12149,7 @@ the
 value
 out
 of
-TlsData
+Instance
 :
 :
 globalArea
@@ -12263,7 +12263,7 @@ the
 value
 directly
 in
-TlsData
+Instance
 :
 :
 globalArea
@@ -12298,7 +12298,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfGlobalArea
@@ -18351,7 +18351,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfPendingException
@@ -18407,7 +18407,7 @@ tlsPointer_
 wasm
 :
 :
-TlsData
+Instance
 :
 :
 offsetOfPendingExceptionTag
@@ -18466,7 +18466,7 @@ alloc
 (
 )
 tlsPointer_
-TlsData
+Instance
 :
 :
 offsetOfPendingException
@@ -18553,7 +18553,7 @@ alloc
 (
 )
 tlsPointer_
-TlsData
+Instance
 :
 :
 offsetOfPendingExceptionTag
@@ -18976,7 +18976,7 @@ pendingException
 in
 the
 Wasm
-TlsData
+Instance
 .
 MOZ_ASSERT
 (

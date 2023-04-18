@@ -4711,7 +4711,7 @@ StackOverflow
 {
 /
 /
-TlsData
+Instance
 :
 :
 setInterrupt
@@ -4726,7 +4726,7 @@ overflow
 Since
 /
 /
-TlsData
+Instance
 :
 :
 setInterrupt
@@ -5191,7 +5191,7 @@ CoerceInPlace_JitEntry
 (
 int
 funcExportIndex
-TlsData
+Instance
 *
 tlsData
 Value

@@ -1557,7 +1557,7 @@ ByteCodesPerOOBTrap
 Allocate
 space
 in
-TlsData
+Instance
 for
 declarations
 that

@@ -237,8 +237,8 @@ CodeRange
 class
 DebugFrame
 ;
-struct
-TlsData
+class
+Instance
 ;
 class
 TypeIdDesc
@@ -394,7 +394,7 @@ Frame
 *
 fp_
 ;
-TlsData
+Instance
 *
 tls_
 ;
@@ -613,7 +613,7 @@ return
 fp_
 ;
 }
-TlsData
+Instance
 *
 tls
 (
@@ -1554,7 +1554,7 @@ passed
 fp
 .
 const
-TlsData
+Instance
 *
 GetNearestEffectiveTls
 (
@@ -1564,7 +1564,7 @@ Frame
 fp
 )
 ;
-TlsData
+Instance
 *
 GetNearestEffectiveTls
 (
