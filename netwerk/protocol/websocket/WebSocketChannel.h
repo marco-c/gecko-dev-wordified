@@ -586,11 +586,6 @@ Shutdown
 (
 )
 ;
-bool
-IsOnTargetThread
-(
-)
-;
 /
 /
 Off
