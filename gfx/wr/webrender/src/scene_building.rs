@@ -2391,6 +2391,13 @@ builder
 wraps
 a
 picture
+#
+[
+allow
+(
+dead_code
+)
+]
 fn
 has_picture
 (
@@ -8887,7 +8894,7 @@ DisplayItem
 BackdropFilter
 (
 ref
-info
+_info
 )
 =
 >
@@ -8900,6 +8907,8 @@ backdrop
 "
 )
 ;
+/
+*
 let
 (
 layout
@@ -8968,6 +8977,8 @@ filter_datas
 filter_primitives
 )
 ;
+*
+/
 }
 /
 /
@@ -18134,6 +18145,13 @@ root
 }
 }
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 fn
 add_backdrop_filter
