@@ -553,6 +553,12 @@ IMPL_EVENT_HANDLER
 statechange
 )
 ;
+void
+DisconnectFromOwner
+(
+)
+override
+;
 private
 :
 MIDIAccess
