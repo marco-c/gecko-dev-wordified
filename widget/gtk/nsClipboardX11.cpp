@@ -1987,6 +1987,8 @@ Text
 aWhichClipboard
 )
 .
-mData
+ExtractText
+(
+)
 ;
 }
