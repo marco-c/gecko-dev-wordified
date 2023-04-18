@@ -3780,6 +3780,11 @@ return
 mFlip
 ;
 }
+void
+WidgetPositionOrSizeDidChange
+(
+)
+;
 protected
 :
 nsString
