@@ -7883,8 +7883,11 @@ use_change_array_by_copy
 is_nightly
 )
 :
+if
+is_nightly
+:
 return
-False
+True
 option
 (
 "
