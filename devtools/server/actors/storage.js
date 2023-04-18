@@ -4375,6 +4375,7 @@ this
 storageActor
 .
 document
+?
 .
 effectiveStoragePrincipal
 .
