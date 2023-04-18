@@ -6429,10 +6429,9 @@ to_owned
 }
 else
 {
-assert
+panic
 !
 (
-false
 "
 CLI
 arguments
@@ -6740,10 +6739,9 @@ to_owned
 }
 else
 {
-assert
+panic
 !
 (
-false
 "
 CLI
 arguments
