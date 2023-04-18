@@ -165,6 +165,15 @@ include
 "
 jit
 /
+CacheIRGenerator
+.
+h
+"
+#
+include
+"
+jit
+/
 CacheIRHealth
 .
 h

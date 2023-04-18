@@ -227,6 +227,15 @@ include
 "
 jit
 /
+CacheIRGenerator
+.
+h
+"
+#
+include
+"
+jit
+/
 IonCacheIRCompiler
 .
 h

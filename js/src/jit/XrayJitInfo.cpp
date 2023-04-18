@@ -124,7 +124,7 @@ include
 "
 jit
 /
-CacheIR
+CacheIRGenerator
 .
 h
 "

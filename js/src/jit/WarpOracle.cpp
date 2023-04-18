@@ -154,6 +154,15 @@ include
 "
 jit
 /
+CacheIRReader
+.
+h
+"
+#
+include
+"
+jit
+/
 CompileInfo
 .
 h

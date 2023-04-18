@@ -158,6 +158,15 @@ include
 "
 jit
 /
+CacheIRGenerator
+.
+h
+"
+#
+include
+"
+jit
+/
 CalleeToken
 .
 h

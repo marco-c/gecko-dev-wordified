@@ -131,6 +131,15 @@ include
 "
 jit
 /
+CacheIRWriter
+.
+h
+"
+#
+include
+"
+jit
+/
 JitFrames
 .
 h
