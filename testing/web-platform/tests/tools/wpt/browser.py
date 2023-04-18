@@ -4293,7 +4293,7 @@ chrome
 requirements
 =
 "
-requirements_chrome
+requirements_chromium
 .
 txt
 "
@@ -7447,7 +7447,7 @@ chrome_android
 requirements
 =
 "
-requirements_chrome_android
+requirements_chromium
 .
 txt
 "
@@ -7587,7 +7587,7 @@ working
 requirements
 =
 "
-requirements_android_webview
+requirements_chromium
 .
 txt
 "
@@ -7668,7 +7668,7 @@ android_webview
 requirements
 =
 "
-requirements_android_webview
+requirements_chromium
 .
 txt
 "
@@ -7975,11 +7975,7 @@ chrome_ios
     
 requirements
 =
-"
-requirements_chrome_ios
-.
-txt
-"
+None
     
 def
 download
@@ -8783,7 +8779,7 @@ msedgedriver
 requirements
 =
 "
-requirements_edge_chromium
+requirements_chromium
 .
 txt
 "
@@ -11173,11 +11169,7 @@ servo
     
 requirements
 =
-"
-requirements_servo
-.
-txt
-"
+None
     
 def
 platform_components
@@ -11961,11 +11953,7 @@ webkit
     
 requirements
 =
-"
-requirements_webkit
-.
-txt
-"
+None
     
 def
 download
@@ -13308,11 +13296,7 @@ epiphany
     
 requirements
 =
-"
-requirements_epiphany
-.
-txt
-"
+None
     
 def
 download

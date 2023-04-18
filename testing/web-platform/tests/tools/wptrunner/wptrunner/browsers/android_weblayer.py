@@ -38,6 +38,18 @@ from
 .
 executors
 .
+base
+import
+WdspecExecutor
+#
+noqa
+:
+F401
+from
+.
+.
+executors
+.
 executorwebdriver
 import
 (
@@ -49,18 +61,6 @@ F401
                                            
 WebDriverRefTestExecutor
 )
-#
-noqa
-:
-F401
-from
-.
-.
-executors
-.
-executorchrome
-import
-ChromeDriverWdspecExecutor
 #
 noqa
 :
@@ -130,7 +130,7 @@ wdspec
 "
 :
 "
-ChromeDriverWdspecExecutor
+WdspecExecutor
 "
 }
                  
@@ -739,18 +739,16 @@ testing
         
 super
 (
-WeblayerShell
-self
 )
 .
 __init__
 (
 logger
-                
+                         
 webdriver_binary
 remote_queue
 device_serial
-                
+                         
 webdriver_args
 stackwalk_binary
 symbols_path

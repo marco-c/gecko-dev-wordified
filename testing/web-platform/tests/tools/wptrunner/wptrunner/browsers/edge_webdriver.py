@@ -18,12 +18,6 @@ noqa
 :
 F401
                    
-EdgeDriverWdspecExecutor
-#
-noqa
-:
-F401
-                   
 check_args
 #
 noqa
@@ -71,6 +65,18 @@ from
 .
 executors
 .
+base
+import
+WdspecExecutor
+#
+noqa
+:
+F401
+from
+.
+.
+executors
+.
 executorwebdriver
 import
 (
@@ -109,21 +115,9 @@ check_args
 browser
 "
 :
-{
-None
-:
 "
 EdgeBrowser
 "
-                             
-"
-wdspec
-"
-:
-"
-NullBrowser
-"
-}
                  
 "
 executor
@@ -151,7 +145,7 @@ wdspec
 "
 :
 "
-EdgeDriverWdspecExecutor
+WdspecExecutor
 "
 }
                  
