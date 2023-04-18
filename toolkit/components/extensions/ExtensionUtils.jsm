@@ -539,9 +539,12 @@ e
 )
 {
 return
-e
-instanceof
 DOMException
+.
+isInstance
+(
+e
+)
 &
 &
 e

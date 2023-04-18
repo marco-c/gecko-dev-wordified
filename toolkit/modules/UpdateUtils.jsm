@@ -5554,9 +5554,12 @@ e
 {
 if
 (
-e
-instanceof
 DOMException
+.
+isInstance
+(
+e
+)
 &
 &
 e

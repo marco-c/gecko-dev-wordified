@@ -200,9 +200,12 @@ aParent
 {
 if
 (
-aParent
-instanceof
 Window
+.
+isInstance
+(
+aParent
+)
 )
 {
 this
