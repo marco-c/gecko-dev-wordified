@@ -2680,6 +2680,8 @@ ToAppUnits
 int32_t
 charCount
 =
+CharCountOfLargestOption
+(
 static_cast
 <
 nsComboboxControlFrame
@@ -2690,8 +2692,9 @@ kid
 )
 -
 >
-CharCountOfLargestOptionForInflation
+GetDropDown
 (
+)
 )
 ;
 mTextAmount

@@ -5324,6 +5324,16 @@ set
 "
 dom
 .
+select_popup_in_parent
+.
+enabled
+"
+true
+]
+[
+"
+dom
+.
 forms
 .
 select

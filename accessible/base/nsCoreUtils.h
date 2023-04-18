@@ -1960,15 +1960,6 @@ nsIContent
 aContent
 )
 ;
-static
-bool
-CanCreateAccessibleWithoutFrame
-(
-nsIContent
-*
-aContent
-)
-;
 /
 *
 *
