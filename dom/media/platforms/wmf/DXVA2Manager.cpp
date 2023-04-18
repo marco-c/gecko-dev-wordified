@@ -4673,7 +4673,7 @@ videoDevice
 CheckVideoDecoderFormat
 (
 &
-DXVA2_ModeH264_VLD_NoFGT
+guid
 DXGI_FORMAT_NV12
 &
 supported
@@ -4695,6 +4695,8 @@ desc
 Guid
 =
 guid
+;
+break
 ;
 }
 }
