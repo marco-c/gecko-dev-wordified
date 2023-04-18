@@ -3611,11 +3611,17 @@ OffscreenCanvas
 offscreenCanvas
 ErrorResult
 *
+const
+out_error
 )
 {
 mOffscreenCanvas
 =
 offscreenCanvas
+;
+mOut_error
+=
+out_error
 ;
 }
 TexImageSourceAdapter
