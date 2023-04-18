@@ -124,6 +124,9 @@ mozilla
 namespace
 net
 {
+[
+ManualDealloc
+]
 protocol
 PAltDataOutputStream
 {

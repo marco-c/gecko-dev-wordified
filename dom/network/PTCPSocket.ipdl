@@ -284,6 +284,7 @@ net
 -
 -
 [
+ManualDealloc
 ChildImpl
 =
 "

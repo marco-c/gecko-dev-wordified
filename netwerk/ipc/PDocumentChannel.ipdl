@@ -186,9 +186,6 @@ mozilla
 namespace
 net
 {
-[
-RefCounted
-]
 protocol
 PDocumentChannel
 {

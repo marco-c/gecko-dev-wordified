@@ -229,9 +229,6 @@ net
 -
 -
 -
-[
-RefCounted
-]
 async
 protocol
 PHttpBackgroundChannel

@@ -308,6 +308,7 @@ UI
 process
 .
 [
+ManualDealloc
 NeedsOtherPid
 ]
 protocol

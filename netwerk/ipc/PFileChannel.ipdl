@@ -162,7 +162,6 @@ id
 *
 /
 [
-RefCounted
 ChildImpl
 =
 virtual

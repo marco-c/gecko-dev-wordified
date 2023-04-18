@@ -375,9 +375,6 @@ instantiated
 .
 *
 /
-[
-RefCounted
-]
 sync
 protocol
 PAPZInputBridge

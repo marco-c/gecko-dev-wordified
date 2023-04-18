@@ -178,6 +178,7 @@ matchingList
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 "

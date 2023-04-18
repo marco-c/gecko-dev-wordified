@@ -117,6 +117,9 @@ mozilla
 namespace
 dom
 {
+[
+ManualDealloc
+]
 protocol
 PURLClassifier
 {

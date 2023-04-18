@@ -195,6 +195,7 @@ compositor
 *
 /
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

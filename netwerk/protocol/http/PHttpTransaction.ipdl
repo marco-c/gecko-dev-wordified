@@ -229,9 +229,6 @@ echConfigUsed
 ;
 }
 ;
-[
-RefCounted
-]
 protocol
 PHttpTransaction
 {

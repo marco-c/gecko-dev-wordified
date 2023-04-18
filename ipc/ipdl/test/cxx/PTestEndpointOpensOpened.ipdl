@@ -92,6 +92,7 @@ opened
 them
 )
 [
+ManualDealloc
 ChildImpl
 =
 "

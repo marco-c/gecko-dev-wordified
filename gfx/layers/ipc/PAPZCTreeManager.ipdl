@@ -464,6 +464,9 @@ protocol
 .
 *
 /
+[
+ManualDealloc
+]
 protocol
 PAPZCTreeManager
 {

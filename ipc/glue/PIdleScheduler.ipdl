@@ -400,9 +400,6 @@ queue
 .
 *
 /
-[
-RefCounted
-]
 async
 protocol
 PIdleScheduler

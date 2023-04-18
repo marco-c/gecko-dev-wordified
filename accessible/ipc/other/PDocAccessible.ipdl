@@ -393,6 +393,7 @@ EndOffset
 }
 ;
 [
+ManualDealloc
 NestedUpTo
 =
 inside_sync

@@ -144,6 +144,9 @@ in
 PImageBridge
 *
 /
+[
+ManualDealloc
+]
 sync
 protocol
 PMediaSystemResourceManager

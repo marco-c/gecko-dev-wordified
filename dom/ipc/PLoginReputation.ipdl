@@ -187,6 +187,7 @@ to
 telemetry
 .
 [
+ManualDealloc
 ChildImpl
 =
 virtual

@@ -178,6 +178,7 @@ process
 *
 /
 [
+ManualDealloc
 NestedUpTo
 =
 inside_cpow

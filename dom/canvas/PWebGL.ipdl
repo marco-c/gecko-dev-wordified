@@ -498,9 +498,6 @@ commands
 .
 *
 /
-[
-RefCounted
-]
 sync
 protocol
 PWebGL

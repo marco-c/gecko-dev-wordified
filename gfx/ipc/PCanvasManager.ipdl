@@ -185,9 +185,6 @@ instances
 .
 *
 /
-[
-RefCounted
-]
 sync
 protocol
 PCanvasManager

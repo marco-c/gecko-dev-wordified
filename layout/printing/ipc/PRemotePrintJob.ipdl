@@ -125,7 +125,6 @@ namespace
 layout
 {
 [
-RefCounted
 ChildImpl
 =
 virtual

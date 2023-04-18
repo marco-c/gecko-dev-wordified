@@ -217,6 +217,7 @@ TextAttributes
 }
 ;
 [
+ManualDealloc
 NestedUpTo
 =
 inside_sync

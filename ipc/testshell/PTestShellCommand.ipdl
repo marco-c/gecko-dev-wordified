@@ -115,6 +115,7 @@ namespace
 ipc
 {
 [
+ManualDealloc
 ChildImpl
 =
 virtual

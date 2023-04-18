@@ -129,8 +129,10 @@ PermissionMessageUtils
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 nsIPrincipal
 from
@@ -588,6 +590,9 @@ IPCBasicCardChangeDetails
 ;
 }
 ;
+[
+ManualDealloc
+]
 sync
 protocol
 PPaymentRequest

@@ -180,6 +180,7 @@ itself
 *
 /
 [
+ManualDealloc
 ChildImpl
 =
 "

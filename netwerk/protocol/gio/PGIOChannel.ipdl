@@ -154,6 +154,7 @@ namespace
 net
 {
 [
+ManualDealloc
 ChildImpl
 =
 virtual

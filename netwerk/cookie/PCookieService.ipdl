@@ -243,6 +243,7 @@ nsICookiePermission
 *
 /
 [
+ManualDealloc
 NestedUpTo
 =
 inside_cpow

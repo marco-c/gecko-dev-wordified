@@ -158,9 +158,6 @@ mozilla
 namespace
 net
 {
-[
-RefCounted
-]
 async
 protocol
 PDNSRequest

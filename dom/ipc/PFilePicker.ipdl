@@ -190,6 +190,7 @@ void_t
 }
 ;
 [
+ManualDealloc
 ChildImpl
 =
 virtual

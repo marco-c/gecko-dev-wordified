@@ -121,6 +121,9 @@ mozilla
 namespace
 a11y
 {
+[
+ManualDealloc
+]
 protocol
 PDocAccessiblePlatformExt
 {

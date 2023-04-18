@@ -82,6 +82,7 @@ namespace
 _ipdltest
 {
 [
+ManualDealloc
 ChildImpl
 =
 "

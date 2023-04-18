@@ -200,6 +200,7 @@ GPU
 process
 .
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

@@ -1618,7 +1618,6 @@ actors
 NestedUpTo
 =
 inside_cpow
-RefCounted
 ]
 sync
 protocol

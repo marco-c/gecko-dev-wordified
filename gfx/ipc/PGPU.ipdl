@@ -459,6 +459,7 @@ UI
 process
 .
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

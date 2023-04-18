@@ -133,7 +133,6 @@ namespace
 gmp
 {
 [
-RefCounted
 ChildImpl
 =
 virtual

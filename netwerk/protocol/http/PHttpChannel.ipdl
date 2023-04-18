@@ -253,7 +253,6 @@ net
 -
 -
 [
-RefCounted
 ChildImpl
 =
 virtual

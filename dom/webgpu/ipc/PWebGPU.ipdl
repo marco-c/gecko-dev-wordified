@@ -293,9 +293,6 @@ commands
 .
 *
 /
-[
-RefCounted
-]
 async
 protocol
 PWebGPU

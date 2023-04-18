@@ -437,6 +437,9 @@ hack
 in
 particular
 .
+[
+ManualDealloc
+]
 protocol
 PClassifierDummyChannel
 {

@@ -269,6 +269,7 @@ context
 *
 /
 [
+ManualDealloc
 ChildImpl
 =
 virtual

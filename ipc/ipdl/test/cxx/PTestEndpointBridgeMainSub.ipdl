@@ -99,6 +99,7 @@ they
 bridge
 )
 [
+ManualDealloc
 ChildImpl
 =
 "

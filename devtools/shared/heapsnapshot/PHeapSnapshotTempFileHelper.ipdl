@@ -141,6 +141,9 @@ OpenedFile
 ;
 }
 ;
+[
+ManualDealloc
+]
 sync
 protocol
 PHeapSnapshotTempFileHelper

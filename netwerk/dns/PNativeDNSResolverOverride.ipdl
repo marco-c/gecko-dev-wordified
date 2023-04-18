@@ -124,9 +124,6 @@ mozilla
 namespace
 net
 {
-[
-RefCounted
-]
 async
 protocol
 PNativeDNSResolverOverride
