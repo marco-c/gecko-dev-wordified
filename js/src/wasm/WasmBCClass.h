@@ -9610,7 +9610,7 @@ const
 GlobalDesc
 &
 global
-RegI32
+RegPtr
 tmp
 )
 ;
