@@ -9544,7 +9544,7 @@ LookAndFeel
 ColorID
 :
 :
-WidgetBackground
+Window
 this
 NS_RGB
 (
@@ -9572,7 +9572,7 @@ LookAndFeel
 ColorID
 :
 :
-WidgetForeground
+Windowtext
 this
 NS_RGB
 (
@@ -9600,7 +9600,7 @@ LookAndFeel
 ColorID
 :
 :
-Widget3DHighlight
+Threedhighlight
 this
 NS_RGB
 (
@@ -9628,7 +9628,7 @@ LookAndFeel
 ColorID
 :
 :
-Widget3DShadow
+Threedshadow
 this
 NS_RGB
 (

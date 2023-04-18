@@ -1770,7 +1770,7 @@ LookAndFeel
 ColorID
 :
 :
-WidgetSelectForeground
+Selecteditem
 :
 LookAndFeel
 :
@@ -1778,7 +1778,7 @@ LookAndFeel
 ColorID
 :
 :
-WidgetSelectBackground
+Selecteditemtext
 this
 )
 ;

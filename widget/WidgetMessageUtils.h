@@ -280,7 +280,7 @@ LookAndFeel
 ColorID
 :
 :
-WidgetBackground
+TextSelectBackgroundDisabled
 mozilla
 :
 :
@@ -326,7 +326,7 @@ LookAndFeel
 ColorID
 :
 :
-WidgetBackground
+TextSelectBackgroundDisabled
 )
 =
 =

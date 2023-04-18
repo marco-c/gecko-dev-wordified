@@ -834,10 +834,7 @@ LookAndFeel
 ColorID
 :
 :
-WindowBackground
-LookAndFeel
-:
-:
+Window
 ColorScheme
 :
 :
