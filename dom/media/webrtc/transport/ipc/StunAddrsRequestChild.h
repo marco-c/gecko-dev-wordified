@@ -169,9 +169,6 @@ StunAddrsRequestChild
 StunAddrsListener
 *
 listener
-nsISerialEventTarget
-*
-mainThreadEventTarget
 )
 ;
 NS_IMETHOD_

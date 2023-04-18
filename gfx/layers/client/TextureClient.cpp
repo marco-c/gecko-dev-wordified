@@ -6190,7 +6190,6 @@ GetFlags
 )
 mSerial
 mExternalImageId
-nullptr
 )
 ;
 if

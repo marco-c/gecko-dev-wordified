@@ -262,9 +262,6 @@ uint16_t
 aBacklog
 bool
 aUseArrayBuffers
-nsISerialEventTarget
-*
-aIPCEventTarget
 )
 ;
 ~

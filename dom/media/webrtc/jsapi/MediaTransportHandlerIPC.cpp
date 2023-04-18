@@ -333,15 +333,6 @@ MediaTransportChild
 this
 )
 ;
-actor
--
->
-SetEventTargetForActor
-(
-child
-mCallbackThread
-)
-;
 /
 /
 PBackgroungChild

@@ -3302,15 +3302,6 @@ mNeckoTarget
 return
 ;
 }
-gNeckoChild
--
->
-SetEventTargetForActor
-(
-this
-mNeckoTarget
-)
-;
 }
 }
 /

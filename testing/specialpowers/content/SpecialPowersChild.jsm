@@ -12392,7 +12392,6 @@ SystemGroup
 doUrlClassify
 (
 principal
-eventTarget
 callback
 )
 {
@@ -12498,7 +12497,6 @@ unwrap
 (
 principal
 )
-eventTarget
 wrapCallback
 )
 ;
