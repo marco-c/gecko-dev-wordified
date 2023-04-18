@@ -182,9 +182,6 @@ ct
 void
 DecodeSCTs
 (
-pkix
-:
-:
 Input
 encodedSctList
 std

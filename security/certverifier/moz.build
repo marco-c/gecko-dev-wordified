@@ -111,6 +111,11 @@ EXPORTS
 =
 [
 "
+BRNameMatchingPolicy
+.
+h
+"
+"
 CertVerifier
 .
 h
@@ -125,6 +130,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+BRNameMatchingPolicy
+.
+cpp
+"
 "
 CertVerifier
 .
