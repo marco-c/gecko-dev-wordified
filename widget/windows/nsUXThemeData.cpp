@@ -505,15 +505,6 @@ Edit
 "
 ;
 case
-eUXTooltip
-:
-return
-L
-"
-Tooltip
-"
-;
-case
 eUXRebar
 :
 return
