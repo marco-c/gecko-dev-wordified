@@ -1860,7 +1860,7 @@ GetDMABufDevice
 )
 -
 >
-GetGbmDeviceFd
+GetDRMFd
 (
 )
 handle

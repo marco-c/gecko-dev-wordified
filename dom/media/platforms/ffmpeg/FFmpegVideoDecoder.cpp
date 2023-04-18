@@ -1223,7 +1223,7 @@ GetDMABufDevice
 )
 -
 >
-GetGbmDeviceFd
+GetDRMFd
 (
 )
 )
