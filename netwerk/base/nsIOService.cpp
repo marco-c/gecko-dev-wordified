@@ -3628,6 +3628,12 @@ isLocked
 *
 /
 false
+/
+*
+isSanitized
+*
+/
+false
 Nothing
 (
 )
