@@ -265,10 +265,10 @@ WithDisplay
 (
 width
 =
-100
+400
 height
 =
-100
+400
 )
 class
 SelectionActionDelegateTest
