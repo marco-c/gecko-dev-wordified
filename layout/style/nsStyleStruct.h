@@ -11245,12 +11245,7 @@ PAINT
 StyleContain
 :
 :
-INLINE_SIZE
-|
-StyleContain
-:
-:
-BLOCK_SIZE
+SIZE
 ;
 }
 MOZ_ASSERT_UNREACHABLE
