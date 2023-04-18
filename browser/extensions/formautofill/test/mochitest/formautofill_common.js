@@ -138,7 +138,7 @@ FormAutofillUtils
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
