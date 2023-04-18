@@ -961,11 +961,6 @@ aDesc
 =
 0
 ;
-bool
-FenceImportFromFd
-(
-)
-;
 void
 GlobalRefCountImport
 (
