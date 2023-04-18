@@ -1469,6 +1469,13 @@ GetEchConfigUsed
 =
 0
 ;
+virtual
+void
+SanityCheck
+(
+)
+{
+}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
