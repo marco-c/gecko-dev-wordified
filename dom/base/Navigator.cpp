@@ -13457,14 +13457,6 @@ navigator
 requestMediaKeySystemAccess
 "
 _ns
-Telemetry
-:
-:
-VIDEO_EME_REQUEST_SUCCESS_LATENCY_MS
-Telemetry
-:
-:
-VIDEO_EME_REQUEST_FAILURE_LATENCY_MS
 )
 ;
 if
