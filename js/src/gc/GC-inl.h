@@ -2598,7 +2598,6 @@ if
 !
 IsAboutToBeFinalizedUnbarriered
 (
-&
 current
 )
 )

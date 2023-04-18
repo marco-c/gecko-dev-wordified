@@ -735,7 +735,6 @@ gc
 :
 IsAboutToBeFinalizedUnbarriered
 (
-&
 obj
 )
 )

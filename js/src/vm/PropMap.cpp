@@ -1014,7 +1014,6 @@ isGCSweeping
 &
 IsAboutToBeFinalizedUnbarriered
 (
-&
 child
 )
 )

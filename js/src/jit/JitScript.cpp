@@ -2175,7 +2175,6 @@ if
 (
 IsAboutToBeFinalizedUnbarriered
 (
-&
 script
 )
 )
