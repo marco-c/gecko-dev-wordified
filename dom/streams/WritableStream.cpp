@@ -368,13 +368,6 @@ nsISupports
 .
 h
 "
-#
-include
-<
-unistd
-.
-h
->
 namespace
 mozilla
 :
