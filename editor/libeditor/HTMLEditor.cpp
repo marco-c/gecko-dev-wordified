@@ -9221,7 +9221,7 @@ CommitComposition
 Do
 not
 use
-AutoTopLevelEditSubActionNotifier
+AutoEditSubActionNotifier
 -
 -
 rules
@@ -9231,10 +9231,10 @@ won
 t
 let
 us
-/
-/
 insert
 in
+/
+/
 <
 head
 >
@@ -9250,8 +9250,6 @@ and
 delete
 /
 insert
-/
-/
 directly
 .
 /
@@ -9261,7 +9259,7 @@ We
 '
 re
 using
-AutoTopLevelEditSubActionNotifier
+AutoEditSubActionNotifier
 above
 .
 .

@@ -113,6 +113,15 @@ include
 "
 mozilla
 /
+EditorForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventForwards
 .
 h
@@ -198,9 +207,6 @@ nsINode
 namespace
 mozilla
 {
-class
-HTMLEditor
-;
 namespace
 dom
 {

@@ -102,8 +102,6 @@ CompositionTransaction_h
 #
 include
 "
-mozilla
-/
 EditTransactionBase
 .
 h
@@ -115,15 +113,10 @@ class
 #
 include
 "
-mozilla
-/
-EditorDOMPoint
+EditorForwards
 .
 h
 "
-/
-/
-EditorDOMPointInText
 #
 include
 "
@@ -157,9 +150,6 @@ mStringToInsert
 namespace
 mozilla
 {
-class
-EditorBase
-;
 class
 TextComposition
 ;

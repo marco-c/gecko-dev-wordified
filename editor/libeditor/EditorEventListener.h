@@ -102,6 +102,13 @@ EditorEventListener_h
 #
 include
 "
+EditorForwards
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -202,9 +209,6 @@ endif
 namespace
 mozilla
 {
-class
-EditorBase
-;
 class
 PresShell
 ;

@@ -102,8 +102,6 @@ InsertNodeTransaction_h
 #
 include
 "
-mozilla
-/
 EditTransactionBase
 .
 h
@@ -117,8 +115,6 @@ etc
 #
 include
 "
-mozilla
-/
 EditorDOMPoint
 .
 h
@@ -127,6 +123,13 @@ h
 /
 for
 EditorDOMPoint
+#
+include
+"
+EditorForwards
+.
+h
+"
 #
 include
 "
