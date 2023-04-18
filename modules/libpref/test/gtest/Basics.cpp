@@ -543,6 +543,7 @@ return
 true
 ;
 }
+true
 )
 ;
 /
@@ -605,6 +606,7 @@ bool
 0
 ;
 }
+true
 )
 ;
 /
