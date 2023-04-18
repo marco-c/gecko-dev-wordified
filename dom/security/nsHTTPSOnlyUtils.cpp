@@ -3527,7 +3527,7 @@ responseStatus
 &
 responseStatus
 <
-512
+600
 )
 {
 /
