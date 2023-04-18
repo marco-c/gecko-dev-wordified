@@ -228,7 +228,7 @@ lots
 of
 useful
 warnings
-add_gcc_warning
+add_warning
 (
 "
 -
@@ -247,7 +247,7 @@ to
 smaller
 bit
 fields
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -268,7 +268,7 @@ this
 in
 lambdas
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -301,7 +301,7 @@ foo
 few
 false
 positives
-add_gcc_warning
+add_warning
 (
 "
 -
@@ -317,7 +317,7 @@ printf
 integer
 sizes
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -336,7 +336,7 @@ with
 qualifiers
 like
 const
-add_gcc_warning
+add_warning
 (
 "
 -
@@ -356,7 +356,7 @@ sizeof
 (
 void
 )
-add_gcc_warning
+add_warning
 (
 "
 -
@@ -374,7 +374,7 @@ that
 shadows
 member
 variable
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -396,7 +396,7 @@ signed
 /
 unsigned
 ints
-add_gcc_warning
+add_warning
 (
 "
 -
@@ -412,7 +412,7 @@ bugs
 few
 false
 positives
-add_gcc_warning
+add_warning
 (
 "
 -
@@ -434,7 +434,7 @@ deliberately
 in
 portable
 code
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -456,7 +456,7 @@ catches
 some
 dead
 code
-add_gcc_warning
+add_warning
 (
 "
 -
@@ -465,7 +465,7 @@ Wunreachable
 code
 "
 )
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -496,7 +496,7 @@ reports
 false
 positives
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -544,7 +544,7 @@ non
 POD
 types
 frequently
-add_gcc_warning
+add_warning
 (
 "
 -
@@ -566,7 +566,7 @@ to
 variadic
 functions
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -589,7 +589,7 @@ that
 have
 no
 effect
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -610,7 +610,7 @@ of
 floats
 to
 ints
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -621,7 +621,7 @@ overflow
 conversion
 "
 )
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -637,7 +637,7 @@ catches
 issues
 around
 loops
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -663,7 +663,7 @@ false
 #
 positives
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -686,7 +686,7 @@ forward
 -
 compat
 issues
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -707,7 +707,7 @@ of
 the
 comma
 operator
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -726,7 +726,7 @@ else
 -
 if
 chains
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -748,7 +748,7 @@ C
 +
 +
 20
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -765,7 +765,7 @@ unintentional
 switch
 case
 fallthroughs
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -818,7 +818,7 @@ ObjC
 method
 parameter
 name
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -837,7 +837,7 @@ of
 ObjC
 method
 found
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -857,7 +857,7 @@ no
 return
 type
 specified
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -879,7 +879,7 @@ ObjC
 BOOL
 and
 int
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -899,7 +899,7 @@ before
 ObjC
 method
 body
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -923,7 +923,7 @@ matching
 super
 class
 method
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1042,7 +1042,7 @@ warnings
 are
 produced
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1078,7 +1078,7 @@ used
 in
 boolean
 expressions
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1099,7 +1099,7 @@ delete
 '
 in
 mozalloc
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1130,7 +1130,7 @@ too
 many
 false
 positives
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1163,7 +1163,7 @@ API
 becomes
 deprecated
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1182,7 +1182,7 @@ positives
 depending
 on
 optimization
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1205,7 +1205,7 @@ of
 those
 PGO
 warnings
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1274,7 +1274,7 @@ Wbackend
 -
 plugin
 ]
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1293,7 +1293,7 @@ positives
 depending
 on
 optimizations
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1321,7 +1321,7 @@ for
 very
 little
 gain
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1369,7 +1369,7 @@ cgi
 id
 =
 37249
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1405,7 +1405,7 @@ of
 issues
 to
 fix
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1454,7 +1454,7 @@ cgi
 id
 =
 38593
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1494,7 +1494,7 @@ cgi
 id
 =
 1515356
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1518,7 +1518,7 @@ printf
 c_format_warning
 cxx_format_warning
 =
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1577,7 +1577,7 @@ it
 is
 an
 error
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1591,7 +1591,7 @@ c_format_warning
 &
 cxx_format_warning
 )
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1666,7 +1666,7 @@ does
 not
 recognize
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1700,7 +1700,7 @@ ifdef
 -
 ed
 out
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1749,7 +1749,7 @@ do
 that
 .
 )
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1790,7 +1790,7 @@ about
 these
 warnings
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1856,7 +1856,7 @@ not
 sure
 why
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1880,7 +1880,7 @@ the
 gtest
 INSTANTIATE_TEST_CASE_P
 macro
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1911,7 +1911,7 @@ for
 C
 code
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1942,7 +1942,7 @@ about
 this
 warning
 .
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -1962,7 +1962,7 @@ on
 old
 clang
 versions
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -
@@ -2022,7 +2022,7 @@ and
 have
 other
 issues
-check_and_add_gcc_warning
+check_and_add_warning
 (
 "
 -

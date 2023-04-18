@@ -1740,13 +1740,13 @@ only
 meant
 #
 for
-add_gcc_warning
+add_warning
 (
 )
 .
 template
 def
-check_and_add_gcc_warning
+check_and_add_warning
 (
 warning
 compiler
@@ -2007,7 +2007,7 @@ wanted
 .
 template
 def
-add_gcc_warning
+add_warning
 (
 warning
 compiler
@@ -2018,7 +2018,7 @@ when
 None
 )
 :
-check_and_add_gcc_warning
+check_and_add_warning
 (
 warning
 compiler
@@ -2186,13 +2186,13 @@ only
 meant
 for
 #
-add_gcc_flag
+add_flag
 (
 )
 .
 template
 def
-check_and_add_gcc_flag
+check_and_add_flag
 (
 flag
 compiler
@@ -2322,7 +2322,7 @@ wanted
 .
 template
 def
-add_gcc_flag
+add_flag
 (
 warning
 compiler
@@ -2333,7 +2333,7 @@ when
 None
 )
 :
-check_and_add_gcc_flag
+check_and_add_flag
 (
 warning
 compiler

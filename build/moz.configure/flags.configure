@@ -120,7 +120,7 @@ C
 14
 yet
 .
-check_and_add_gcc_flag
+check_and_add_flag
 (
 "
 -
@@ -164,7 +164,7 @@ both
 support
 this
 .
-check_and_add_gcc_flag
+check_and_add_flag
 (
 "
 -

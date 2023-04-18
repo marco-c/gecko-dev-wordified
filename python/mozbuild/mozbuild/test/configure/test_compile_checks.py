@@ -2175,7 +2175,7 @@ cxxflags
 )
     
 def
-test_check_and_add_gcc_warning
+test_check_and_add_warning
 (
 self
 )
@@ -2278,7 +2278,7 @@ dedent
 "
 \
                 
-check_and_add_gcc_warning
+check_and_add_warning
 (
 '
 %
@@ -2422,7 +2422,7 @@ flag
 )
     
 def
-test_check_and_add_gcc_warning_one
+test_check_and_add_warning_one
 (
 self
 )
@@ -2442,7 +2442,7 @@ dedent
 "
 \
             
-check_and_add_gcc_warning
+check_and_add_warning
 (
 '
 -
@@ -2557,7 +2557,7 @@ yes
 )
     
 def
-test_check_and_add_gcc_warning_when
+test_check_and_add_warning_when
 (
 self
 )
@@ -2593,7 +2593,7 @@ never
 return
 False
             
-check_and_add_gcc_warning
+check_and_add_warning
 (
 '
 -
@@ -2705,7 +2705,7 @@ always
 return
 True
             
-check_and_add_gcc_warning
+check_and_add_warning
 (
 '
 -
@@ -2823,7 +2823,7 @@ yes
 )
     
 def
-test_add_gcc_warning
+test_add_warning
 (
 self
 )
@@ -2843,7 +2843,7 @@ dedent
 "
 \
             
-add_gcc_warning
+add_warning
 (
 '
 -
@@ -2930,7 +2930,7 @@ out
 )
     
 def
-test_add_gcc_warning_one
+test_add_warning_one
 (
 self
 )
@@ -2950,7 +2950,7 @@ dedent
 "
 \
             
-add_gcc_warning
+add_warning
 (
 '
 -
@@ -3034,7 +3034,7 @@ out
 )
     
 def
-test_add_gcc_warning_when
+test_add_warning_when
 (
 self
 )
@@ -3070,7 +3070,7 @@ never
 return
 False
             
-add_gcc_warning
+add_warning
 (
 '
 -
@@ -3182,7 +3182,7 @@ always
 return
 True
             
-add_gcc_warning
+add_warning
 (
 '
 -
