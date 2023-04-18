@@ -13252,7 +13252,10 @@ i
 if
 (
 !
-PL_strcasecmp
+nsCRT
+:
+:
+strcasecmp
 (
 gPrefLangNames
 [
