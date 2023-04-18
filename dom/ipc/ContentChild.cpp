@@ -6365,6 +6365,8 @@ bool
 aForceNoOpener
 bool
 aForceNoReferrer
+bool
+aIsPopupRequested
 nsDocShellLoadState
 *
 aLoadState
@@ -6984,6 +6986,7 @@ Type
 :
 :
 Content
+aIsPopupRequested
 )
 ;
 MOZ_ALWAYS_SUCCEEDS

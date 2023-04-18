@@ -4826,6 +4826,8 @@ bool
 aForceNoOpener
 bool
 aForceNoReferrer
+bool
+aIsPopupRequested
 nsDocShellLoadState
 *
 aLoadState
@@ -5047,6 +5049,7 @@ aName
 aFeatures
 aForceNoOpener
 aForceNoReferrer
+aIsPopupRequested
 aLoadState
 aWindowIsNew
 aReturn
