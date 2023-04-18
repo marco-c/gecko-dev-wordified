@@ -356,6 +356,3 @@ mathfontUnicode
 properties
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True

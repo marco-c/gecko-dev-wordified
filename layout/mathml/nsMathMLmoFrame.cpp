@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsMathMLmoFrame
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -140,7 +147,7 @@ h
 #
 include
 "
-nsMathMLmoFrame
+nsLayoutUtils
 .
 h
 "

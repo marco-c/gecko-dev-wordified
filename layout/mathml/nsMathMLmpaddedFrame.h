@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsCSSValue
+.
+h
+"
+#
+include
+"
 nsMathMLContainerFrame
 .
 h
