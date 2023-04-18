@@ -252,7 +252,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -299,6 +298,7 @@ protected
 ReadableStreamDefaultTeePullAlgorithm
 (
 )
+override
 =
 default
 ;
@@ -363,7 +363,6 @@ aTeeState
 )
 {
 }
-virtual
 void
 ChunkSteps
 (
@@ -388,7 +387,6 @@ aRv
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 CloseSteps
 (
@@ -401,7 +399,6 @@ aRv
 )
 override
 ;
-virtual
 void
 ErrorSteps
 (
@@ -427,11 +424,11 @@ override
 ;
 protected
 :
-virtual
 ~
 ReadableStreamDefaultTeeReadRequest
 (
 )
+override
 =
 default
 ;

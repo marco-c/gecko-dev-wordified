@@ -563,7 +563,6 @@ this
 ;
 }
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -584,11 +583,11 @@ override
 ;
 protected
 :
-virtual
 ~
 IDLUnderlyingSourcePullCallbackHelper
 (
 )
+override
 {
 mozilla
 :
@@ -643,7 +642,6 @@ underlyingSource
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -664,11 +662,11 @@ override
 ;
 protected
 :
-virtual
 ~
 BodyStreamUnderlyingSourcePullCallbackHelper
 (
 )
+override
 =
 default
 ;
@@ -802,7 +800,6 @@ this
 ;
 }
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -836,11 +833,11 @@ override
 ;
 protected
 :
-virtual
 ~
 IDLUnderlyingSourceCancelCallbackHelper
 (
 )
+override
 {
 mozilla
 :
@@ -895,7 +892,6 @@ aUnderlyingSource
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -929,11 +925,11 @@ override
 ;
 protected
 :
-virtual
 ~
 BodyStreamUnderlyingSourceCancelCallbackHelper
 (
 )
+override
 =
 default
 ;
@@ -1012,7 +1008,6 @@ BodyStreamHolder
 aUnderlyingSource
 )
 ;
-virtual
 void
 Call
 (
@@ -1021,11 +1016,11 @@ override
 ;
 protected
 :
-virtual
 ~
 BodyStreamUnderlyingSourceErrorCallbackHelper
 (
 )
+override
 =
 default
 ;

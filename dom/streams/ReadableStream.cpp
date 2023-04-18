@@ -4400,7 +4400,6 @@ aIsCancel1
 {
 }
 MOZ_CAN_RUN_SCRIPT
-virtual
 already_AddRefed
 <
 Promise
@@ -4757,6 +4756,7 @@ protected
 ReadableStreamDefaultTeeCancelAlgorithm
 (
 )
+override
 =
 default
 ;
@@ -4840,6 +4840,7 @@ PromiseNativeHandler
 ReadableStreamTeeClosePromiseHandler
 (
 )
+override
 =
 default
 ;

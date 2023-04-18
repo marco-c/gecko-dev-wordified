@@ -372,11 +372,11 @@ override
 ;
 protected
 :
-virtual
 ~
 Read_ReadRequest
 (
 )
+override
 =
 default
 ;
@@ -415,6 +415,7 @@ protected
 ReadableStreamDefaultReader
 (
 )
+override
 ;
 public
 :
