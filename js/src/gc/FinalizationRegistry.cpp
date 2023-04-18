@@ -957,6 +957,12 @@ clear
 (
 )
 ;
+crossZoneCount
+.
+clear
+(
+)
+;
 }
 static
 FinalizationRecordObject
