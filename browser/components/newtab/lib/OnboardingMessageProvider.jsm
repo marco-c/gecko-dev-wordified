@@ -390,6 +390,11 @@ false
 promoEnabled
 :
 true
+promoType
+:
+"
+FOCUS
+"
 promoHeader
 :
 "
