@@ -1733,6 +1733,10 @@ request
 "
 )
 ;
+rv
+=
+NS_ERROR_UNEXPECTED
+;
 break
 ;
 }
