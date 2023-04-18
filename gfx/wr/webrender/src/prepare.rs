@@ -239,7 +239,6 @@ picture
 {
 PicturePrimitive
 SliceId
-TileCacheLogger
 ClusterFlags
 SurfaceRenderTasks
 }
@@ -441,11 +440,6 @@ scratch
 &
 mut
 PrimitiveScratchBuffer
-tile_cache_log
-:
-&
-mut
-TileCacheLogger
 tile_caches
 :
 &
@@ -864,7 +858,6 @@ frame_state
 plane_split_anchor
 data_stores
 scratch
-tile_cache_log
 tile_caches
 prim_instances
 )
@@ -1006,11 +999,6 @@ scratch
 &
 mut
 PrimitiveScratchBuffer
-tile_cache_log
-:
-&
-mut
-TileCacheLogger
 tile_caches
 :
 &
@@ -1159,7 +1147,6 @@ subpixel_mode
 frame_state
 frame_context
 scratch
-tile_cache_log
 tile_caches
 )
 {
@@ -1191,7 +1178,6 @@ frame_context
 frame_state
 data_stores
 scratch
-tile_cache_log
 tile_caches
 prim_instances
 )
