@@ -181,6 +181,17 @@ include
 "
 mozilla
 /
+ipc
+/
+PBackgroundSharedTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ServiceWorker

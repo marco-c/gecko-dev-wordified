@@ -262,6 +262,17 @@ WorkerPrivate
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+RootedDictionary
+.
+h
+"
 /
 /
 Template
