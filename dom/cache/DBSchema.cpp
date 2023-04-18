@@ -3718,7 +3718,7 @@ mode
 {
 QM_WARNONLY_TRY
 (
-ToResult
+MOZ_TO_RESULT
 (
 mConn
 -
@@ -4651,7 +4651,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 aConn
 .

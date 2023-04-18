@@ -3683,7 +3683,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 aConnection
 -
@@ -3984,7 +3984,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 aUsageFile
 .
@@ -6191,7 +6191,7 @@ QM_OR_ELSE_WARN
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 StorageDBUpdater
 :

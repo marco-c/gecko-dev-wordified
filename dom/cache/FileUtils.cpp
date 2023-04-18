@@ -761,7 +761,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 cacheDir
 -
@@ -882,7 +882,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 bodyDir
 -
@@ -2499,7 +2499,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 BodyTraverseFiles
 (
@@ -2928,7 +2928,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 marker
 -
@@ -3448,7 +3448,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 aFile
 .
@@ -4502,7 +4502,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 file
 -

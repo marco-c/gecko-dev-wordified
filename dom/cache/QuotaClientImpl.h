@@ -573,7 +573,7 @@ aCommitHook
 ;
 QM_WARNONLY_TRY
 (
-ToResult
+MOZ_TO_RESULT
 (
 DirectoryPaddingFinalizeWrite
 (

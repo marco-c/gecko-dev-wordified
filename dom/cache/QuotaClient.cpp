@@ -954,7 +954,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-ToResult
+MOZ_TO_RESULT
 (
 BodyTraverseFiles
 (
