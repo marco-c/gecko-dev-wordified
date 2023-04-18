@@ -20544,7 +20544,7 @@ backward
 compat
 {
 version
-95
+96
 }
 frame
 .
@@ -20552,7 +20552,7 @@ isTopLevel
 was
 added
 in
-95
+96
 .
 for
 (
