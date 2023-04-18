@@ -429,7 +429,6 @@ Reject
 (
 )
 ;
-}
 /
 /
 Cancel
@@ -442,6 +441,7 @@ CancelTimerIfArmed
 (
 )
 ;
+}
 delete
 this
 ;

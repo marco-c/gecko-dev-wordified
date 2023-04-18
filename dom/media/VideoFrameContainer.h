@@ -697,6 +697,12 @@ GetDroppedImageCount
 (
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 return
 mImageContainer
 -
@@ -741,7 +747,7 @@ the
 owner
 .
 The
-ownenr
+owner
 calls
 ForgetElement
 /
