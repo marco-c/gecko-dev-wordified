@@ -3300,6 +3300,12 @@ DownloadsPanel
 .
 showPanel
 (
+/
+*
+openedManually
+*
+/
+true
 )
 ;
 aEvent

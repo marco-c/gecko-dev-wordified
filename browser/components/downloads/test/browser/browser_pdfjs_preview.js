@@ -2309,6 +2309,17 @@ childElementCount
 =
 =
 expectedItemCount
+&
+&
+!
+richlistbox
+.
+getAttribute
+(
+"
+disabled
+"
+)
 )
 ;
 }

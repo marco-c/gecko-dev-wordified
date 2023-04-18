@@ -692,6 +692,17 @@ childElementCount
 =
 =
 2
+&
+&
+!
+listbox
+.
+getAttribute
+(
+"
+disabled
+"
+)
 ;
 }
 "
