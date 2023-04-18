@@ -2630,13 +2630,6 @@ bool
 aIsVideo
 )
 ;
-bool
-CanSpecializeSurface
-(
-IOSurfaceRef
-surface
-)
-;
 /
 /
 Lazily
