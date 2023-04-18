@@ -258,6 +258,10 @@ return
 nsIAboutModule
 .
 ALLOW_SCRIPT
+|
+nsIAboutModule
+.
+IS_SECURE_CHROME_UI
 ;
 }
 getChromeURI
