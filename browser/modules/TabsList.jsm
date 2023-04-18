@@ -1150,6 +1150,14 @@ _populate
 event
 )
 ;
+this
+.
+gBrowser
+.
+translateTabContextMenu
+(
+)
+;
 }
 break
 ;
