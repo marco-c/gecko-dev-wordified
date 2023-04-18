@@ -1269,6 +1269,7 @@ LXQT
 Deepin
 Dwm
 Budgie
+Sway
 Unknown
 Max
 }
