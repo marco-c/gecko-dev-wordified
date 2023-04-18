@@ -205,6 +205,11 @@ nsCocoaUtils
 .
 h
 "
+"
+SDKDeclarations
+.
+h
+"
 ]
 EXPORTS
 .
