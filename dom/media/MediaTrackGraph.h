@@ -653,7 +653,7 @@ MediaTrackGraph
 *
 /
 class
-AudioInputTrack
+AudioProcessingTrack
 ;
 class
 AudioNodeEngine
@@ -2574,7 +2574,7 @@ class
 AudioNodeExternalInputTrack
 ;
 virtual
-AudioInputTrack
+AudioProcessingTrack
 *
 AsAudioInputTrack
 (

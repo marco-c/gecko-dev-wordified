@@ -154,7 +154,7 @@ class
 AudioInputProcessing
 ;
 class
-AudioInputTrack
+AudioProcessingTrack
 ;
 /
 /
@@ -656,7 +656,7 @@ mCurrentPrefs
 /
 /
 The
-AudioInputTrack
+AudioProcessingTrack
 used
 to
 inteface
@@ -683,7 +683,7 @@ Deallocate
 .
 RefPtr
 <
-AudioInputTrack
+AudioProcessingTrack
 >
 mTrack
 ;
@@ -1520,7 +1520,7 @@ ended
 and
 removed
 the
-AudioInputTrack
+AudioProcessingTrack
 .
 bool
 mEnded
@@ -1640,7 +1640,7 @@ for
 MediaEngineWebRTCMicrophoneSource
 .
 class
-AudioInputTrack
+AudioProcessingTrack
 :
 public
 ProcessedMediaTrack
@@ -1768,7 +1768,7 @@ AudioDeviceID
 mDeviceId
 ;
 explicit
-AudioInputTrack
+AudioProcessingTrack
 (
 TrackRate
 aSampleRate
@@ -1789,7 +1789,7 @@ AudioSegment
 {
 }
 ~
-AudioInputTrack
+AudioProcessingTrack
 (
 )
 =
@@ -1892,7 +1892,7 @@ aInputProcessing
 )
 ;
 static
-AudioInputTrack
+AudioProcessingTrack
 *
 Create
 (
@@ -2041,7 +2041,7 @@ aChannels
 /
 Any
 thread
-AudioInputTrack
+AudioProcessingTrack
 *
 AsAudioInputTrack
 (
