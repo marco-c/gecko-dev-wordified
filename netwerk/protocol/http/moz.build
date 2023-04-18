@@ -300,11 +300,6 @@ ClassOfService
 h
 "
 "
-EarlyHintPreloader
-.
-h
-"
-"
 EarlyHintsService
 .
 h
@@ -539,11 +534,6 @@ cpp
 "
 "
 DnsAndConnectSocket
-.
-cpp
-"
-"
-EarlyHintPreloader
 .
 cpp
 "
