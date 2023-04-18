@@ -1276,7 +1276,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -1298,7 +1298,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -1586,7 +1586,7 @@ decoration
 if
 is_chased
 {
-println
+info
 !
 (
 "
@@ -5138,7 +5138,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -6905,7 +6905,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -7066,7 +7066,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -7230,7 +7230,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -7326,7 +7326,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "

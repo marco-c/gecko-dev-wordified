@@ -9463,7 +9463,7 @@ build_clip_chain_instance
 if
 is_chased
 {
-println
+info
 !
 (
 "
@@ -9733,7 +9733,7 @@ world_rect
 if
 is_chased
 {
-println
+info
 !
 (
 "
@@ -9751,7 +9751,7 @@ node
 item
 )
 ;
-println
+info
 !
 (
 "

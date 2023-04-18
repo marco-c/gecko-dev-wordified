@@ -4738,7 +4738,7 @@ sum
 (
 )
 ;
-println
+debug
 !
 (
 "
@@ -4765,7 +4765,7 @@ stats
 in
 stats
 {
-println
+debug
 !
 (
 "
@@ -4830,9 +4830,11 @@ max
 )
 ;
 }
-println
+debug
 !
 (
+"
+"
 )
 ;
 }
@@ -8955,7 +8957,7 @@ is_chased
 (
 )
 {
-println
+info
 !
 (
 "
@@ -12569,7 +12571,7 @@ config
 .
 chase_primitive
 {
-println
+debug
 !
 (
 "
@@ -14665,7 +14667,7 @@ config
 .
 chase_primitive
 {
-println
+debug
 !
 (
 "
