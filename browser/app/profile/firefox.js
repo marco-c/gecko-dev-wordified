@@ -17137,11 +17137,6 @@ moments
 page
 \
 "
-\
-"
-pbNewtab
-\
-"
 ]
 \
 "

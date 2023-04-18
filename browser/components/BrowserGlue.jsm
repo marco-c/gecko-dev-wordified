@@ -4450,11 +4450,6 @@ about
 welcome
 *
 "
-"
-about
-:
-privatebrowsing
-"
 ]
 remoteTypes
 :
