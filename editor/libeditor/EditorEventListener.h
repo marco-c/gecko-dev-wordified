@@ -488,12 +488,6 @@ GetPresContext
 )
 const
 ;
-nsIContent
-*
-GetFocusedRootContent
-(
-)
-;
 /
 /
 Returns
