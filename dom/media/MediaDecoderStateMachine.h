@@ -1766,12 +1766,10 @@ GenericPromise
 >
 InvokeSetSink
 (
-const
 RefPtr
 <
 AudioDeviceInfo
 >
-&
 aSink
 )
 ;
@@ -2246,9 +2244,7 @@ decoders
 void
 ResetDecode
 (
-const
 TrackSet
-&
 aTracks
 =
 TrackSet
@@ -2377,13 +2373,11 @@ GenericPromise
 >
 SetSink
 (
-const
 RefPtr
 <
 AudioDeviceInfo
 >
-&
-aDevice
+aSink
 )
 ;
 /

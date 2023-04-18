@@ -3360,7 +3360,7 @@ Image
 >
 mImage
 ;
-uint32_t
+int32_t
 mFrameID
 ;
 VideoData
