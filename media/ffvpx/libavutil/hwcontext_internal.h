@@ -389,6 +389,9 @@ dst_ctx
 AVHWDeviceContext
 *
 src_ctx
+AVDictionary
+*
+opts
 int
 flags
 )
@@ -961,6 +964,11 @@ extern
 const
 HWContextType
 ff_hwcontext_type_mediacodec
+;
+extern
+const
+HWContextType
+ff_hwcontext_type_vulkan
 ;
 #
 endif
