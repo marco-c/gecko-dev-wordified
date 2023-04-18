@@ -400,6 +400,7 @@ ARIARoleAtom
 )
 const
 ;
+virtual
 mozilla
 :
 :
@@ -410,6 +411,7 @@ GroupPos
 GroupPosition
 (
 )
+override
 ;
 void
 ScrollTo
