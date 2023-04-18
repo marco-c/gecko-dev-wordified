@@ -5601,8 +5601,10 @@ n
 return
 ;
 }
+RefPtr
+<
 GdkPixbuf
-*
+>
 pixbuf
 =
 nsImageToPixbuf
@@ -5670,11 +5672,6 @@ get
 gtk_selection_data_set_pixbuf
 (
 aSelectionData
-pixbuf
-)
-;
-g_object_unref
-(
 pixbuf
 )
 ;
