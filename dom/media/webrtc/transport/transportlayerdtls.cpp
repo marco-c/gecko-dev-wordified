@@ -8025,14 +8025,12 @@ VERIFY_DIGEST
 {
 MOZ_ASSERT
 (
+!
 digests_
 .
-size
+empty
 (
 )
-!
-=
-0
 )
 ;
 /
