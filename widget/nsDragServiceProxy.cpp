@@ -511,6 +511,7 @@ nsContentUtils
 :
 GetSurfaceData
 (
+*
 dataSurface
 &
 length

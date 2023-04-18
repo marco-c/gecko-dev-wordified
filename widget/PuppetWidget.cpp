@@ -5390,10 +5390,8 @@ nsContentUtils
 :
 GetSurfaceData
 (
-WrapNotNull
-(
+*
 dataSurface
-)
 &
 length
 &
