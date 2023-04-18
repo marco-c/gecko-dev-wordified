@@ -35,14 +35,14 @@ import
 sys
 import
 os
-from
-os
-import
-path
 import
 stat
 import
 re
+from
+pathlib
+import
+Path
 from
 shutil
 import
@@ -50,6 +50,7 @@ copy
 copytree
 move
 rmtree
+which
 from
 subprocess
 import
@@ -133,25 +134,26 @@ values
 .
 PARTNERS_DIR
 =
-path
-.
-join
+Path
 (
 "
 .
 .
 "
+)
+/
 "
 .
 .
 "
+/
 "
 workspace
 "
+/
 "
 partners
 "
-)
 #
 No
 platform
@@ -267,24 +269,30 @@ filename
 "
 WINDOWS_DEST_DIR
 =
+Path
+(
 "
 firefox
 "
+)
 MAC_DEST_DIR
 =
+Path
+(
 "
-{
-}
-/
 Contents
 /
 Resources
 "
+)
 LINUX_DEST_DIR
 =
+Path
+(
 "
 firefox
 "
+)
 BOUNCER_PRODUCT_TEMPLATE
 =
 (
@@ -380,149 +388,12 @@ errmsg
 headers
         
 )
-#
-Source
-:
-#
-http
-:
-/
-/
-stackoverflow
-.
-com
-/
-questions
-/
-377017
-/
-test
--
-if
--
-executable
--
-exists
--
-in
--
-python
-def
-which
-(
-program
-)
-:
-    
-def
-is_exe
-(
-fpath
-)
-:
-        
-return
-path
-.
-exists
-(
-fpath
-)
-and
-os
-.
-access
-(
-fpath
-os
-.
-X_OK
-)
-    
-try
-:
-        
-fpath
-=
-path
-.
-dirname
-(
-program
-)
-    
-except
-AttributeError
-:
-        
-return
-None
-    
-if
-fpath
-:
-        
-if
-is_exe
-(
-program
-)
-:
-            
-return
-program
-    
-else
-:
-        
-for
-p
-in
-os
-.
-environ
-[
-"
-PATH
-"
-]
-.
-split
-(
-os
-.
-pathsep
-)
-:
-            
-exe_file
-=
-path
-.
-join
-(
-p
-program
-)
-            
-if
-is_exe
-(
-exe_file
-)
-:
-                
-return
-exe_file
-    
-return
-None
 def
 rmdirRecursive
 (
 directory
 :
-str
+Path
 )
 :
     
@@ -639,11 +510,17 @@ it
 "
 "
         
-os
+path
+=
+Path
+(
+path
+)
+        
+path
 .
 chmod
 (
-path
 mode
 =
 stat
@@ -651,16 +528,18 @@ stat
 S_IWRITE
 )
         
-os
-.
-remove
-(
 path
+.
+unlink
+(
 )
     
 rmtree
 (
+str
+(
 directory
+)
 onerror
 =
 rmdir_including_read_only
@@ -752,17 +631,17 @@ log
 .
 debug
 (
+f
 "
 in
-%
-s
-"
-%
-os
+{
+Path
 .
-getcwd
+cwd
 (
 )
+}
+"
 )
     
 #
@@ -888,40 +767,11 @@ ret_real
 return
 True
 def
-mkdir
-(
-directory
-mode
-=
-0o755
-)
-:
-    
-if
-not
-path
-.
-exists
-(
-directory
-)
-:
-        
-return
-os
-.
-makedirs
-(
-directory
-mode
-)
-    
-return
-True
-def
 isLinux
 (
 platform
+:
+str
 )
 :
     
@@ -935,6 +785,8 @@ def
 isLinux32
 (
 platform
+:
+str
 )
 :
     
@@ -963,6 +815,8 @@ def
 isLinux64
 (
 platform
+:
+str
 )
 :
     
@@ -984,6 +838,8 @@ def
 isMac
 (
 platform
+:
+str
 )
 :
     
@@ -997,6 +853,8 @@ def
 isWin
 (
 platform
+:
+str
 )
 :
     
@@ -1010,6 +868,8 @@ def
 isWin32
 (
 platform
+:
+str
 )
 :
     
@@ -1023,6 +883,8 @@ def
 isWin64
 (
 platform
+:
+str
 )
 :
     
@@ -1037,6 +899,8 @@ def
 isWin64Aarch64
 (
 platform
+:
+str
 )
 :
     
@@ -1053,6 +917,8 @@ def
 isValidPlatform
 (
 platform
+:
+str
 )
 :
     
@@ -1098,8 +964,12 @@ platform
 def
 parseRepackConfig
 (
-filename
+file
+:
+Path
 platform
+:
+str
 )
 :
     
@@ -1141,20 +1011,14 @@ platforms
 [
 ]
     
-f
-=
-open
-(
-filename
-"
-r
-"
-)
-    
 for
 line
 in
-f
+file
+.
+open
+(
+)
 :
         
 line
@@ -1552,6 +1416,8 @@ def
 getFtpPlatform
 (
 platform
+:
+str
 )
 :
     
@@ -1680,6 +1546,8 @@ def
 getFileExtension
 (
 platform
+:
+str
 )
 :
     
@@ -1749,6 +1617,8 @@ def
 getFilename
 (
 platform
+:
+str
 )
 :
     
@@ -1769,21 +1639,23 @@ platform
 "
     
 return
+f
 "
 target
 .
-%
-s
-"
-%
+{
 getFileExtension
 (
 platform
 )
+}
+"
 def
 getAllFilenames
 (
 platform
+:
+str
 repack_stub_installer
 )
 :
@@ -1808,7 +1680,7 @@ platform
 "
 "
     
-files
+file_names
 =
 [
 getFilename
@@ -1848,7 +1720,7 @@ windows
 installers
 later
         
-files
+file_names
 .
 append
 (
@@ -1887,7 +1759,7 @@ and
 repack_stub_installer
 :
             
-files
+file_names
 .
 append
 (
@@ -1903,7 +1775,7 @@ exe
 return
 tuple
 (
-files
+file_names
 )
 def
 getTaskArtifacts
@@ -1917,6 +1789,7 @@ try
         
 retrieveFile
 (
+            
 TASKCLUSTER_ARTIFACTS
 .
 format
@@ -1925,11 +1798,15 @@ taskId
 =
 taskId
 )
+Path
+(
 "
 tc_artifacts
 .
 json
 "
+)
+        
 )
         
 tc_index
@@ -2125,12 +2002,14 @@ def
 getArtifactNames
 (
 platform
+:
+str
 locale
 repack_stub_installer
 )
 :
     
-files
+file_names
 =
 getAllFilenames
 (
@@ -2163,7 +2042,7 @@ f
 for
 f
 in
-files
+file_names
 ]
     
 else
@@ -2172,6 +2051,7 @@ else
 names
 =
 [
+            
 UPSTREAM_L10N_PATH
 .
 format
@@ -2186,7 +2066,8 @@ f
 for
 f
 in
-files
+file_names
+        
 ]
     
 return
@@ -2196,6 +2077,8 @@ retrieveFile
 (
 url
 file_path
+:
+Path
 )
 :
     
@@ -2224,45 +2107,46 @@ log
 .
 info
 (
+f
 "
 Downloading
 from
-%
-s
-"
-%
+{
 url
+}
+"
 )
     
 log
 .
 info
 (
+f
 "
 To
 :
-%
-s
-"
+{
 file_path
+}
+"
 )
     
 log
 .
 info
 (
+f
 "
 CWD
 :
-%
-s
-"
-%
-os
+{
+Path
 .
-getcwd
+cwd
 (
 )
+}
+"
 )
     
 try
@@ -2278,11 +2162,13 @@ properly
         
 retry
 (
+            
 StrictFancyURLopener
 (
 )
 .
 retrieve
+            
 kwargs
 =
 dict
@@ -2292,8 +2178,12 @@ url
 url
 filename
 =
+str
+(
 file_path
 )
+)
+        
 )
     
 except
@@ -2324,11 +2214,10 @@ False
 try
 :
             
-os
-.
-remove
-(
 file_path
+.
+unlink
+(
 )
         
 except
@@ -2339,14 +2228,14 @@ log
 .
 info
 (
+f
 "
 Cannot
 remove
-%
-s
-"
-%
+{
 file_path
+}
+"
 exc_info
 =
 True
@@ -2478,14 +2367,24 @@ __init__
 self
         
 build
+:
+str
         
 partner_dir
+:
+Path
         
 build_dir
+:
+Path
         
 final_dir
+:
+Path
         
 ftp_platform
+:
+str
         
 repack_info
         
@@ -2512,9 +2411,9 @@ self
 .
 base_dir
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
         
@@ -2528,25 +2427,18 @@ self
 .
 full_build_path
 =
-path
-.
-join
-(
 build_dir
+/
 build
-)
         
 if
 not
-os
-.
-path
-.
-isabs
-(
 self
 .
 full_build_path
+.
+is_absolute
+(
 )
 :
             
@@ -2554,45 +2446,33 @@ self
 .
 full_build_path
 =
-path
-.
-join
-(
 self
 .
 base_dir
+/
 self
 .
 full_build_path
-)
         
 self
 .
 full_partner_path
 =
-path
-.
-join
-(
 self
 .
 base_dir
+/
 partner_dir
-)
         
 self
 .
 working_dir
 =
-path
-.
-join
-(
 final_dir
+/
 "
 working
 "
-)
         
 self
 .
@@ -2604,22 +2484,14 @@ self
 .
 final_build
 =
-os
-.
-path
-.
-join
-(
 final_dir
-os
-.
-path
-.
-basename
+/
+Path
 (
 build
 )
-)
+.
+name
         
 self
 .
@@ -2657,11 +2529,21 @@ locale
 =
 locale
         
-mkdir
-(
 self
 .
 working_dir
+.
+mkdir
+(
+mode
+=
+0o755
+exist_ok
+=
+True
+parents
+=
+True
 )
     
 def
@@ -2749,9 +2631,12 @@ self
         
 copy
 (
+str
+(
 self
 .
 full_build_path
+)
 "
 .
 "
@@ -2762,6 +2647,8 @@ createOverrideIni
 (
 self
 partner_path
+:
+Path
 )
 :
         
@@ -2812,33 +2699,29 @@ self
 source_locale
 :
             
-filename
+file_path
 =
-path
-.
-join
-(
 partner_path
+/
 "
 distribution
 "
+/
 "
 distribution
 .
 ini
 "
-)
             
-f
-=
+with
+file_path
+.
 open
 (
-filename
-path
+file_path
 .
-isfile
+is_file
 (
-filename
 )
 and
 "
@@ -2849,8 +2732,11 @@ or
 w
 "
 )
-            
-f
+as
+open_file
+:
+                
+open_file
 .
 write
 (
@@ -2862,8 +2748,8 @@ Locale
 n
 "
 )
-            
-f
+                
+open_file
 .
 write
 (
@@ -2880,12 +2766,6 @@ locale
 \
 n
 "
-)
-            
-f
-.
-close
-(
 )
         
 "
@@ -2958,44 +2838,35 @@ split
 44
 :
             
-filename
+file_path
 =
-path
-.
-join
-(
 partner_path
+/
 "
 distribution
 "
+/
 "
 distribution
 .
 ini
 "
-)
             
-f
-=
+with
+file_path
+.
 open
 (
-filename
-"
-r
-"
 )
-            
+as
+open_file
+:
+                
 ini
 =
-f
+open_file
 .
 read
-(
-)
-            
-f
-.
-close
 (
 )
             
@@ -3018,46 +2889,47 @@ return
 else
 :
             
-browserDir
+browser_dir
 =
-path
-.
-join
-(
 partner_path
+/
 "
 browser
 "
-)
             
 if
 not
-path
+browser_dir
 .
 exists
 (
-browserDir
 )
 :
                 
+browser_dir
+.
 mkdir
 (
-browserDir
+mode
+=
+0o755
+exist_ok
+=
+True
+parents
+=
+True
 )
             
-filename
+file_path
 =
-path
-.
-join
-(
-browserDir
+browser_dir
+/
 "
 override
 .
 ini
 "
-)
         
 if
 "
@@ -3082,20 +2954,19 @@ r
 "
 %
 (
-filename
+file_path
 )
 )
             
-f
-=
+with
+file_path
+.
 open
 (
-filename
-path
+file_path
 .
-isfile
+is_file
 (
-filename
 )
 and
 "
@@ -3106,8 +2977,11 @@ or
 w
 "
 )
-            
-f
+as
+open_file
+:
+                
+open_file
 .
 write
 (
@@ -3119,8 +2993,8 @@ XRE
 n
 "
 )
-            
-f
+                
+open_file
 .
 write
 (
@@ -3132,18 +3006,14 @@ EnableProfileMigrator
 n
 "
 )
-            
-f
-.
-close
-(
-)
     
 def
 copyFiles
 (
 self
 platform_dir
+:
+Path
 )
 :
         
@@ -3151,15 +3021,15 @@ log
 .
 info
 (
+f
 "
 Copying
 files
 into
-%
-s
-"
-%
+{
 platform_dir
+}
+"
 )
         
 #
@@ -3179,17 +3049,26 @@ partner
         
 if
 not
-path
+platform_dir
 .
 exists
 (
-platform_dir
 )
 :
             
+platform_dir
+.
 mkdir
 (
-platform_dir
+mode
+=
+0o755
+exist_ok
+=
+True
+parents
+=
+True
 )
             
 for
@@ -3210,33 +3089,30 @@ searchplugins
                 
 full_path
 =
-path
-.
-join
-(
 self
 .
 full_partner_path
+/
 i
-)
                 
 if
-path
+full_path
 .
 exists
 (
-full_path
 )
 :
                     
 copytree
 (
+str
+(
 full_path
-path
-.
-join
+)
+str
 (
 platform_dir
+/
 i
 )
 )
@@ -3269,18 +3145,20 @@ move
 self
 .
 build
+str
+(
 self
 .
 final_dir
 )
+)
         
-os
-.
-chmod
-(
 self
 .
 final_build
+.
+chmod
+(
 self
 .
 file_mode
@@ -3293,13 +3171,12 @@ self
 )
 :
         
-os
-.
-remove
-(
 self
 .
 final_build
+.
+unlink
+(
 )
     
 def
@@ -3383,14 +3260,24 @@ __init__
 self
         
 build
+:
+str
         
 partner_dir
+:
+Path
         
 build_dir
+:
+Path
         
 final_dir
+:
+Path
         
 ftp_platform
+:
+str
         
 repack_info
         
@@ -3480,13 +3367,15 @@ bunzip2_cmd
         
 if
 not
-path
-.
-exists
+Path
 (
 self
 .
 uncompressed_build
+)
+.
+exists
+(
 )
 :
             
@@ -3494,6 +3383,7 @@ log
 .
 error
 (
+f
 "
 Error
 :
@@ -3501,13 +3391,12 @@ Unable
 to
 uncompress
 build
-%
-s
-"
-%
+{
 self
 .
 build
+}
+"
 )
             
 sys
@@ -3618,14 +3507,24 @@ __init__
 self
         
 build
+:
+str
         
 partner_dir
+:
+Path
         
 build_dir
+:
+Path
         
 final_dir
+:
+Path
         
 ftp_platform
+:
+str
         
 repack_info
         
@@ -3715,13 +3614,15 @@ gunzip_cmd
         
 if
 not
-path
-.
-exists
+Path
 (
 self
 .
 uncompressed_build
+)
+.
+exists
+(
 )
 :
             
@@ -3729,6 +3630,7 @@ log
 .
 error
 (
+f
 "
 Error
 :
@@ -3736,13 +3638,12 @@ Unable
 to
 uncompress
 build
-%
-s
-"
-%
+{
 self
 .
 build
+}
+"
 )
             
 sys
@@ -3855,14 +3756,14 @@ self
 .
 copyFiles
 (
-MAC_DEST_DIR
-.
-format
+Path
 (
 self
 .
 appName
 )
+/
+MAC_DEST_DIR
 )
     
 def
@@ -3938,14 +3839,14 @@ self
 .
 uncompressed_build
             
-MAC_DEST_DIR
-.
-format
+Path
 (
 self
 .
 appName
 )
+/
+MAC_DEST_DIR
         
 )
         
@@ -3984,14 +3885,24 @@ __init__
 self
         
 build
+:
+str
         
 partner_dir
+:
+Path
         
 build_dir
+:
+Path
         
 final_dir
+:
+Path
         
 ftp_platform
+:
+str
         
 repack_info
         
@@ -4079,23 +3990,21 @@ r
         
 zip_cmd
 =
+f
 "
 zip
-%
-s
-%
-s
-%
-s
-"
-%
-(
+{
 zip_flags
+}
+{
 self
 .
 build
+}
+{
 WINDOWS_DEST_DIR
-)
+}
+"
         
 shellCommand
 (
@@ -4159,9 +4068,12 @@ urls
             
 dest
 =
+str
+(
 self
 .
 final_build
+)
 .
 replace
 (
@@ -4209,32 +4121,32 @@ actual
 locale
             
 with
-open
-(
-path
-.
-join
 (
 self
 .
 full_partner_path
+/
 "
 stub
 "
+/
 "
 partner
 .
 ini
 "
 )
+.
+open
+(
 )
 as
-f
+open_file
 :
                 
 partner_ini_template
 =
-f
+open_file
 .
 readlines
 (
@@ -4412,9 +4324,14 @@ stage
         
 setup_dest
 =
+Path
+(
+str
+(
 self
 .
 final_build
+)
 .
 replace
 (
@@ -4428,6 +4345,7 @@ setup
 .
 exe
 "
+)
 )
         
 if
@@ -4498,9 +4416,12 @@ creation
             
 setup
 =
+str
+(
 self
 .
 full_build_path
+)
 .
 replace
 (
@@ -4519,14 +4440,16 @@ exe
 copy
 (
 setup
+str
+(
 setup_dest
 )
+)
         
-os
+setup_dest
 .
 chmod
 (
-setup_dest
 self
 .
 file_mode
@@ -4593,9 +4516,15 @@ creation
             
 setup_dest
 =
+Path
+(
+                
+str
+(
 self
 .
 final_build
+)
 .
 replace
 (
@@ -4613,14 +4542,20 @@ exe
 "
 )
             
+)
+            
 setup_source
 =
+str
+(
 self
 .
 full_build_path
+)
 .
 replace
 (
+                
 "
 target
 .
@@ -4633,19 +4568,22 @@ stub
 .
 exe
 "
+            
 )
             
 copy
 (
 setup_source
+str
+(
 setup_dest
 )
+)
             
-os
+setup_dest
 .
 chmod
 (
-setup_dest
 self
 .
 file_mode
@@ -4759,7 +4697,10 @@ partners_dir
         
 default
 =
+str
+(
 PARTNERS_DIR
+)
         
 help
 =
@@ -5165,6 +5106,8 @@ options
 .
 partners_dir
 =
+Path
+(
 options
 .
 partners_dir
@@ -5175,16 +5118,16 @@ rstrip
 /
 "
 )
+)
     
 if
 not
-path
-.
-isdir
-(
 options
 .
 partners_dir
+.
+is_dir
+(
 )
 :
         
@@ -5192,23 +5135,23 @@ log
 .
 error
 (
+f
 "
 Error
 :
 partners
 dir
-%
-s
+{
+options
+.
+partners_dir
+}
 is
 not
 a
 directory
 .
 "
-%
-options
-.
-partners_dir
 )
         
 error
@@ -5386,6 +5329,7 @@ log
 .
 error
 (
+f
 "
 Error
 :
@@ -5394,15 +5338,14 @@ couldn
 t
 find
 the
-%
-s
+{
+tool
+}
 executable
 in
 PATH
 .
 "
-%
-tool
 )
             
 error
@@ -5422,9 +5365,9 @@ exit
     
 base_workdir
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
     
@@ -5457,62 +5400,57 @@ builds
     
 script_directory
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
     
 original_builds_dir
 =
-path
-.
-join
 (
         
 script_directory
         
+/
 "
 original_builds
 "
         
+/
 options
 .
 version
         
+/
+f
 "
 build
-%
-s
-"
-%
+{
 options
 .
 build_number
+}
+"
     
 )
     
 repack_version
 =
+f
 "
-%
-s
--
-%
-s
-"
-%
-(
-        
+{
 options
 .
 version
-        
+}
+-
+{
 options
 .
 build_number
-    
-)
+}
+"
     
 if
 os
@@ -5532,6 +5470,8 @@ production
         
 repacked_builds_dir
 =
+Path
+(
 "
 /
 builds
@@ -5540,6 +5480,7 @@ worker
 /
 artifacts
 "
+)
     
 else
 :
@@ -5550,24 +5491,40 @@ development
         
 repacked_builds_dir
 =
-path
-.
-join
-(
 script_directory
+/
 "
 artifacts
 "
-)
     
-mkdir
-(
 original_builds_dir
-)
-    
+.
 mkdir
 (
+mode
+=
+0o755
+exist_ok
+=
+True
+parents
+=
+True
+)
+    
 repacked_builds_dir
+.
+mkdir
+(
+mode
+=
+0o755
+exist_ok
+=
+True
+parents
+=
+True
 )
     
 printSeparator
@@ -5634,7 +5591,7 @@ False
 for
 root
 _
-files
+all_files
 in
 os
 .
@@ -5663,9 +5620,12 @@ root
 [
 len
 (
+str
+(
 options
 .
 partners_dir
+)
 )
 +
 1
@@ -5736,13 +5696,13 @@ partner
 continue
         
 for
-f
+file
 in
-files
+all_files
 :
             
 if
-f
+file
 =
 =
 "
@@ -5776,6 +5736,7 @@ config
 .
 format
 (
+                        
 root
 "
 '
@@ -5786,52 +5747,24 @@ join
 (
 _
 )
-f
+file
+                    
 )
                 
 )
                 
-#
-partner_dirs
-[
-os
-.
-path
-.
-split
-(
 root
-)
-[
--
-1
-]
-]
 =
+Path
 (
 root
-os
-.
-path
-.
-join
-(
-root
-f
-)
 )
                 
 repack_cfg
 =
-os
-.
-path
-.
-join
-(
 root
-f
-)
+/
+file
                 
 repack_info
 =
@@ -6068,13 +6001,9 @@ up
         
 partner_repack_dir
 =
-path
-.
-join
-(
 repacked_builds_dir
+/
 DEFAULT_OUTPUT_DIR
-)
         
 #
 Figure
@@ -6262,47 +6191,62 @@ platform
                 
 local_filepath
 =
-path
-.
-join
-(
 original_builds_dir
+/
 ftp_platform
+/
 locale
-)
                 
+local_filepath
+.
 mkdir
 (
-local_filepath
+mode
+=
+0o755
+exist_ok
+=
+True
+parents
+=
+True
 )
                 
 final_dir
 =
+Path
+(
+                    
+str
+(
 partner_repack_dir
+)
+                    
 %
 dict
 (
-                    
+                        
 partner
 =
 partner
-                    
+                        
 partner_distro
 =
 partner_distro
-                    
+                        
 locale
 =
 locale
+                    
+)
                 
 )
                 
 if
-path
+final_dir
 .
 exists
 (
-final_dir
 )
 :
                     
@@ -6311,9 +6255,19 @@ rmdirRecursive
 final_dir
 )
                 
+final_dir
+.
 mkdir
 (
-final_dir
+mode
+=
+0o755
+exist_ok
+=
+True
+parents
+=
+True
 )
                 
 #
@@ -6323,7 +6277,7 @@ main
 repacking
 artifact
                 
-filename
+file_name
 =
 getFilename
 (
@@ -6332,13 +6286,9 @@ ftp_platform
                 
 local_filename
 =
-path
-.
-join
-(
 local_filepath
-filename
-)
+/
+file_name
                 
 #
 Check
@@ -6380,33 +6330,20 @@ artifacts
                     
 local_artifact
 =
-os
-.
-path
-.
-join
-(
-                        
 local_filepath
-os
-.
-path
-.
-basename
+/
+Path
 (
 artifact
 )
-                    
-)
+.
+name
                     
 if
-os
-.
-path
+local_artifact
 .
 exists
 (
-local_artifact
 )
 :
                         
@@ -6414,17 +6351,17 @@ log
 .
 info
 (
+f
 "
 Found
-%
-s
+{
+local_artifact
+}
 on
 disk
 not
 downloading
 "
-%
-local_artifact
 )
                         
 continue
@@ -6511,11 +6448,10 @@ now
                 
 if
 not
-path
+local_filename
 .
 exists
 (
-local_filename
 )
 :
                     
@@ -6523,19 +6459,19 @@ log
 .
 info
 (
+f
 "
 Error
 :
 Unable
 to
 retrieve
-%
-s
+{
+file_name
+}
 \
 n
 "
-%
-filename
 )
                     
 sys
@@ -6553,7 +6489,7 @@ ftp_platform
 ]
 (
                     
-filename
+file_name
                     
 full_partner_dir
                     

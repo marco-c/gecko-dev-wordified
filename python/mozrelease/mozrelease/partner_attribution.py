@@ -89,6 +89,10 @@ import
 urllib
 .
 parse
+from
+pathlib
+import
+Path
 logging
 .
 basicConfig
@@ -1450,15 +1454,7 @@ attribution
 )
 :
                 
-os
-.
-makedirs
-(
-os
-.
-path
-.
-dirname
+Path
 (
 job
 [
@@ -1467,6 +1463,14 @@ output
 "
 ]
 )
+.
+parent
+.
+mkdir
+(
+parents
+=
+True
 exist_ok
 =
 True
