@@ -803,6 +803,17 @@ kwargs
 specialpowers_path
 "
 ]
+            
+"
+debug_test
+"
+:
+kwargs
+[
+"
+debug_test
+"
+]
 }
 def
 executor_kwargs
@@ -4140,6 +4151,7 @@ extra_prefs
 e10s
                  
 enable_fission
+debug_test
 browser_channel
 binary
 certutil_binary
@@ -4189,6 +4201,12 @@ self
 enable_fission
 =
 enable_fission
+        
+self
+.
+debug_test
+=
+debug_test
         
 self
 .
@@ -4977,6 +4995,31 @@ disabled
 True
 }
 )
+        
+if
+self
+.
+debug_test
+:
+            
+profile
+.
+set_preferences
+(
+{
+"
+devtools
+.
+console
+.
+stdout
+.
+content
+"
+:
+True
+}
+)
     
 def
 _setup_ssl
@@ -5503,6 +5546,9 @@ False
 specialpowers_path
 =
 None
+debug_test
+=
+False
 *
 *
 kwargs
@@ -5602,6 +5648,8 @@ extra_prefs
 e10s
                                          
 enable_fission
+                                         
+debug_test
                                          
 browser_channel
                                          
@@ -6113,6 +6161,9 @@ nightly
 headless
 =
 None
+debug_test
+=
+False
 *
 *
 kwargs
@@ -6213,6 +6264,8 @@ extra_prefs
 e10s
                                          
 enable_fission
+                                         
+debug_test
                                          
 browser_channel
                                          
