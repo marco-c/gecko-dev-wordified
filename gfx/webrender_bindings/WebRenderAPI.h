@@ -2937,7 +2937,7 @@ const
 wr
 :
 :
-LayoutPoint
+LayoutVector2D
 &
 aScrollOffset
 wr
