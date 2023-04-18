@@ -284,9 +284,12 @@ static
 void
 SimpleGlobal_finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj

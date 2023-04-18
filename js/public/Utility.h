@@ -2694,7 +2694,10 @@ following
 operations
 on
 the
-JSFreeOp
+JS
+:
+:
+GCContext
 provided
 to
 the
@@ -2702,7 +2705,10 @@ finalizer
 :
 *
 *
-JSFreeOp
+JS
+:
+:
+GCContext
 :
 :
 {

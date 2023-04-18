@@ -20635,9 +20635,12 @@ nullptr
 void
 FinalizeGlobal
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-aFop
+aGcx
 JSObject
 *
 aObj

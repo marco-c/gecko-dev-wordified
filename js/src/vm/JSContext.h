@@ -1899,7 +1899,10 @@ runtime_
 emptyString
 ;
 }
-JSFreeOp
+JS
+:
+:
+GCContext
 *
 defaultFreeOp
 (

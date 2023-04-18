@@ -2678,9 +2678,12 @@ void
 JSFinalizeCallback
 )
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSFinalizeStatus
 status
 void

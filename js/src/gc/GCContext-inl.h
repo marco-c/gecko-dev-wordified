@@ -143,7 +143,10 @@ h
 "
 inline
 void
-JSFreeOp
+JS
+:
+:
+GCContext
 :
 :
 free_
@@ -186,7 +189,10 @@ T
 >
 inline
 void
-JSFreeOp
+JS
+:
+:
+GCContext
 :
 :
 release
@@ -226,7 +232,10 @@ Release
 }
 inline
 void
-JSFreeOp
+JS
+:
+:
+GCContext
 :
 :
 removeCellMemory

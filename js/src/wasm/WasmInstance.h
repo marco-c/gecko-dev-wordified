@@ -1377,9 +1377,12 @@ offset
 void
 destroyBreakpointSite
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 uint32_t
 offset
 )

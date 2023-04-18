@@ -2584,9 +2584,12 @@ static
 void
 ReadableByteStreamControllerFinalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj

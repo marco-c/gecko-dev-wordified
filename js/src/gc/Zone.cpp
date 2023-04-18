@@ -1056,11 +1056,14 @@ find
 /
 out
 .
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 =
-TlsFreeOp
+TlsGCContext
 .
 get
 (
@@ -1077,7 +1080,7 @@ MemoryUse
 :
 :
 ZoneAllocPolicy
-fop
+gcx
 -
 >
 isCollecting
@@ -2829,9 +2832,12 @@ Zone
 :
 discardJitCode
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 const
 DiscardOptions
 &
@@ -3005,7 +3011,7 @@ jit
 :
 InvalidateAll
 (
-fop
+gcx
 this
 )
 ;
@@ -3074,7 +3080,7 @@ jit
 :
 FinishInvalidation
 (
-fop
+gcx
 script
 )
 ;
@@ -3123,7 +3129,7 @@ jit
 :
 FinishDiscardBaselineScript
 (
-fop
+gcx
 script
 )
 ;
@@ -3239,7 +3245,7 @@ script
 >
 maybeReleaseJitScript
 (
-fop
+gcx
 )
 ;
 jitScript
@@ -3283,7 +3289,7 @@ collectCoverageForDebug
 &
 &
 !
-fop
+gcx
 -
 >
 runtime

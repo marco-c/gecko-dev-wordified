@@ -1074,9 +1074,12 @@ BaseScript
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 /
@@ -1170,7 +1173,7 @@ destroyScriptCounts
 )
 ;
 }
-fop
+gcx
 -
 >
 runtime
@@ -1268,7 +1271,7 @@ script
 >
 releaseJitScriptOnFinalize
 (
-fop
+gcx
 )
 ;
 }
@@ -1338,7 +1341,7 @@ MemCheckKind
 MakeNoAccess
 )
 ;
-fop
+gcx
 -
 >
 free_
@@ -4907,9 +4910,12 @@ ScriptSourceObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -4917,7 +4923,7 @@ obj
 {
 MOZ_ASSERT
 (
-fop
+gcx
 -
 >
 onMainThread
@@ -4970,7 +4976,7 @@ sso
 >
 setPrivate
 (
-fop
+gcx
 -
 >
 runtime

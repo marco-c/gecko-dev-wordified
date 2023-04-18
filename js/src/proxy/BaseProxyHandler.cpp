@@ -2319,9 +2319,12 @@ BaseProxyHandler
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 proxy

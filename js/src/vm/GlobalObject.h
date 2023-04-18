@@ -1801,9 +1801,12 @@ global
 void
 releaseData
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 ;
 void

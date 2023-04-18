@@ -351,7 +351,10 @@ void
 *
 )
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
 JS
 :
@@ -368,7 +371,10 @@ void
 *
 )
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
 JS
 :

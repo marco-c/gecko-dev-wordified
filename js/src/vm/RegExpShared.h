@@ -1469,9 +1469,12 @@ discardJitCode
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 ;
 static

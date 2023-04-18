@@ -508,9 +508,12 @@ Shape
 :
 purgeCache
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 if
@@ -522,7 +525,7 @@ isShapeSetForAdd
 )
 )
 {
-fop
+gcx
 -
 >
 delete_
@@ -554,9 +557,12 @@ Shape
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 if
@@ -571,7 +577,7 @@ isNone
 {
 purgeCache
 (
-fop
+gcx
 )
 ;
 }

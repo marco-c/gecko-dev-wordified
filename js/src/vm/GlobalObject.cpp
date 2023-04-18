@@ -6380,9 +6380,12 @@ GlobalObject
 :
 releaseData
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 GlobalObjectData
@@ -6402,7 +6405,7 @@ nullptr
 )
 )
 ;
-fop
+gcx
 -
 >
 delete_

@@ -3574,9 +3574,12 @@ MOZ_ALWAYS_INLINE
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 ;
 public

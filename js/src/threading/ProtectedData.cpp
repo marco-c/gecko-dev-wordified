@@ -656,7 +656,7 @@ GlobalLock
 :
 GCLock
 :
-TlsFreeOp
+TlsGCContext
 .
 get
 (

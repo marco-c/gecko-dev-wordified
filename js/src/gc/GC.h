@@ -261,9 +261,12 @@ extern
 void
 ReleaseAllJITCode
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-op
+gcx
 )
 ;
 extern

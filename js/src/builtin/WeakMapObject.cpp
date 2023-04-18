@@ -1454,9 +1454,12 @@ static
 void
 WeakCollection_finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -1483,7 +1486,7 @@ getMap
 )
 )
 {
-fop
+gcx
 -
 >
 delete_

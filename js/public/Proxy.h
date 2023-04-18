@@ -3185,9 +3185,12 @@ virtual
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 proxy

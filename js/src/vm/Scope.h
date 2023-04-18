@@ -486,9 +486,6 @@ class
 JSAtom
 ;
 class
-JSFreeOp
-;
-class
 JSFunction
 ;
 class
@@ -2627,9 +2624,12 @@ trc
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 ;
 size_t

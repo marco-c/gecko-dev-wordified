@@ -874,9 +874,12 @@ WeakRefObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj

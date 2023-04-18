@@ -770,9 +770,12 @@ trc
 void
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 /

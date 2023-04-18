@@ -3474,9 +3474,12 @@ RegExpShared
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 for
@@ -3504,7 +3507,7 @@ byteCodeLength
 (
 )
 ;
-fop
+gcx
 -
 >
 free_
@@ -3539,7 +3542,7 @@ sizeof
 uint32_t
 )
 ;
-fop
+gcx
 -
 >
 free_

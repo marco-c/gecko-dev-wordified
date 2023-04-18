@@ -2196,9 +2196,12 @@ SharedArrayBufferObject
 :
 Finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -2221,7 +2224,7 @@ object
 .
 MOZ_ASSERT
 (
-fop
+gcx
 -
 >
 onMainThread
@@ -2229,7 +2232,7 @@ onMainThread
 )
 )
 ;
-fop
+gcx
 -
 >
 runtime

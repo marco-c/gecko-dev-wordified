@@ -603,9 +603,12 @@ void
 DestroyRealmCallback
 )
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 Realm
 *
 realm

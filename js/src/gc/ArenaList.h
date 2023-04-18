@@ -2309,9 +2309,12 @@ stats
 void
 queueForegroundObjectsForSweep
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 ;
 void

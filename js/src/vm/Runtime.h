@@ -5101,7 +5101,10 @@ emptyString
 ;
 public
 :
-JSFreeOp
+JS
+:
+:
+GCContext
 *
 defaultFreeOp
 (

@@ -2963,9 +2963,12 @@ T
 size_t
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 AllocKind
 thingKind
 size_t

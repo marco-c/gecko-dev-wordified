@@ -1533,9 +1533,12 @@ BigInt
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 )
 {
 MOZ_ASSERT
@@ -1564,7 +1567,7 @@ sizeof
 Digit
 )
 ;
-fop
+gcx
 -
 >
 free_

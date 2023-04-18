@@ -1182,9 +1182,12 @@ TypedArrayObject
 :
 finalize
 (
-JSFreeOp
+JS
+:
+:
+GCContext
 *
-fop
+gcx
 JSObject
 *
 obj
@@ -1338,7 +1341,7 @@ Value
 )
 )
 ;
-fop
+gcx
 -
 >
 free_

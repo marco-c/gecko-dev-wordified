@@ -241,10 +241,6 @@ JSFunction
 ;
 class
 JS_PUBLIC_API
-JSFreeOp
-;
-class
-JS_PUBLIC_API
 JSObject
 ;
 struct
@@ -278,6 +274,10 @@ js
 namespace
 JS
 {
+class
+JS_PUBLIC_API
+GCContext
+;
 class
 JS_PUBLIC_API
 PropertyKey
