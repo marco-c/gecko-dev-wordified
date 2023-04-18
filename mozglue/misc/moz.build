@@ -141,6 +141,11 @@ PlatformMutex
 h
 "
 "
+PlatformRWLock
+.
+h
+"
+"
 Printf
 .
 h
@@ -561,6 +566,11 @@ Mutex_windows
 .
 cpp
 "
+"
+RWLock_windows
+.
+cpp
+"
 ]
 #
 WASI
@@ -620,6 +630,11 @@ cpp
 "
 "
 Mutex_posix
+.
+cpp
+"
+"
+RWLock_posix
 .
 cpp
 "
