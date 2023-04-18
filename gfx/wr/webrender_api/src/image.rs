@@ -2808,8 +2808,10 @@ FontKey
 )
 -
 >
-&
+Option
+<
 FontTemplate
+>
 ;
 /
 /

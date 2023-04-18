@@ -318,7 +318,7 @@ crate
 glyph_rasterizer
 :
 :
-SharedFontInstanceMap
+SharedFontResources
 ;
 use
 crate
@@ -6889,9 +6889,9 @@ dyn
 BlobImageHandler
 >
 >
-shared_font_instances
+fonts
 :
-SharedFontInstanceMap
+SharedFontResources
 }
 impl
 RenderApiSender
@@ -6937,9 +6937,9 @@ dyn
 BlobImageHandler
 >
 >
-shared_font_instances
+fonts
 :
-SharedFontInstanceMap
+SharedFontResources
 )
 -
 >
@@ -6951,7 +6951,7 @@ api_sender
 scene_sender
 low_priority_scene_sender
 blob_image_handler
-shared_font_instances
+fonts
 }
 }
 /
@@ -7110,7 +7110,7 @@ create_similar
 )
 self
 .
-shared_font_instances
+fonts
 .
 clone
 (
@@ -7298,7 +7298,7 @@ create_similar
 )
 self
 .
-shared_font_instances
+fonts
 .
 clone
 (
@@ -7450,7 +7450,7 @@ self
 .
 resources
 .
-get_shared_font_instances
+get_fonts
 (
 )
 )
