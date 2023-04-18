@@ -2214,11 +2214,6 @@ maxBufferSize
 mMaxBufferSetting
 )
 ;
-uint32_t
-removedCount
-=
-0
-;
 LOG
 (
 (
@@ -2260,10 +2255,6 @@ mHeaderTable
 RemoveElement
 (
 )
-;
-+
-+
-removedCount
 ;
 }
 mMaxBuffer
