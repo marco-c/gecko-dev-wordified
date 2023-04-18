@@ -507,7 +507,7 @@ fall
 into
 different
 frecency
-buckets
+groups
 var
 d1
 =

@@ -335,7 +335,7 @@ toFixed
 Tests
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -347,7 +347,7 @@ true
 add_task
 (
 function
-makeResultBuckets_true
+makeResultGroups_true
 (
 )
 {
@@ -357,7 +357,7 @@ deepEqual
 (
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -497,7 +497,7 @@ MAX_OMNIBOX_RESULT_COUNT
 /
 /
 main
-bucket
+group
 {
 flexChildren
 :
@@ -670,7 +670,7 @@ INPUT_HISTORY
 Tests
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -682,7 +682,7 @@ false
 add_task
 (
 function
-makeResultBuckets_false
+makeResultGroups_false
 (
 )
 {
@@ -692,7 +692,7 @@ deepEqual
 (
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -832,7 +832,7 @@ MAX_OMNIBOX_RESULT_COUNT
 /
 /
 main
-bucket
+group
 {
 flexChildren
 :
@@ -1145,7 +1145,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1207,7 +1207,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1276,7 +1276,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1341,7 +1341,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1409,7 +1409,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1444,7 +1444,7 @@ the
 /
 interaction
 between
-matchBuckets
+matchGroups
 showSearchSuggestionsFirst
 and
 /
@@ -1470,7 +1470,7 @@ is
 .
 The
 old
-matchBuckets
+matchGroups
 pref
 has
 some
@@ -1490,7 +1490,7 @@ to
 /
 /
 translate
-matchBuckets
+matchGroups
 into
 the
 newer
@@ -1529,7 +1529,7 @@ in
 tests
 :
 [
-matchBuckets
+matchGroups
 expectedShowSearchSuggestionsFirst
 ]
 let
@@ -1782,7 +1782,7 @@ true
 [
 "
 bogus
-buckets
+groups
 "
 true
 ]
@@ -1792,7 +1792,7 @@ for
 (
 let
 [
-matchBuckets
+matchGroups
 expectedValue
 ]
 of
@@ -1812,7 +1812,7 @@ JSON
 stringify
 (
 {
-matchBuckets
+matchGroups
 expectedValue
 }
 )
@@ -1836,7 +1836,7 @@ showSearchSuggestionsFirst
 /
 /
 Set
-matchBuckets
+matchGroups
 .
 Services
 .
@@ -1849,9 +1849,9 @@ browser
 .
 urlbar
 .
-matchBuckets
+matchGroups
 "
-matchBuckets
+matchGroups
 )
 ;
 /
@@ -1928,7 +1928,7 @@ resultGroups
 )
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -1960,7 +1960,7 @@ browser
 .
 urlbar
 .
-matchBuckets
+matchGroups
 "
 )
 ;

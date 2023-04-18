@@ -40,7 +40,7 @@ composition
 logic
 :
 child
-buckets
+groups
 /
 /
 availableSpan

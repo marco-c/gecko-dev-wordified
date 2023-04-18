@@ -786,7 +786,8 @@ state
 /
 Determine
 the
-buckets
+result
+groups
 to
 use
 for
@@ -797,9 +798,9 @@ In
 search
 mode
 with
+/
+/
 an
-/
-/
 engine
 show
 search
@@ -807,7 +808,7 @@ suggestions
 first
 .
 let
-rootBucket
+rootGroup
 =
 context
 .
@@ -818,7 +819,7 @@ engineName
 ?
 UrlbarPrefs
 .
-makeResultBuckets
+makeResultGroups
 (
 {
 showSearchSuggestionsFirst
@@ -840,10 +841,10 @@ logger
 .
 debug
 (
-Buckets
+Groups
 :
 {
-rootBucket
+rootGroup
 }
 )
 ;
@@ -863,7 +864,7 @@ this
 .
 _fillGroup
 (
-rootBucket
+rootGroup
 {
 availableSpan
 :
@@ -4446,7 +4447,7 @@ be
 added
 to
 its
-bucket
+group
 given
 the
 current
@@ -6094,7 +6095,7 @@ because
 the
 standard
 result
-buckets
+groups
 are
 set
 up
@@ -6121,7 +6122,7 @@ but
 /
 since
 result
-buckets
+groups
 are
 stored
 in

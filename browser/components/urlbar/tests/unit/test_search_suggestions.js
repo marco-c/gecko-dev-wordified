@@ -171,7 +171,7 @@ showSearchSuggestionsFirst
 "
 ;
 const
-RESULT_BUCKETS_PREF
+RESULT_GROUPS_PREF
 =
 "
 browser
@@ -579,9 +579,9 @@ bar
 ;
 }
 function
-setResultBuckets
+setResultGroups
 (
-buckets
+groups
 )
 {
 Services
@@ -590,7 +590,7 @@ prefs
 .
 setCharPref
 (
-RESULT_BUCKETS_PREF
+RESULT_GROUPS_PREF
 JSON
 .
 stringify
@@ -700,7 +700,7 @@ MAX_OMNIBOX_RESULT_COUNT
 .
 .
 .
-buckets
+groups
 ]
 }
 )
@@ -4112,7 +4112,7 @@ Change
 the
 mixup
 .
-setResultBuckets
+setResultGroups
 (
 [
 /
@@ -4578,7 +4578,7 @@ prefs
 .
 clearUserPref
 (
-RESULT_BUCKETS_PREF
+RESULT_GROUPS_PREF
 )
 ;
 Services
@@ -9309,7 +9309,7 @@ depend
 on
 the
 result
-buckets
+groups
 see
 below
 .

@@ -24147,7 +24147,7 @@ GENERAL_PARENT
 group
 UrlbarPrefs
 .
-migrateResultBuckets
+migrateResultGroups
 (
 )
 ;

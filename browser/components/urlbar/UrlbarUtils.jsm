@@ -428,10 +428,10 @@ in
 result
 /
 /
-buckets
+groups
 and
 result
-buckets
+groups
 are
 stored
 in
@@ -930,7 +930,7 @@ OTHER_NETWORK
 *
 *
 *
-Buckets
+Groups
 used
 for
 logging
