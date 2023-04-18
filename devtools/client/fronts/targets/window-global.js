@@ -283,6 +283,14 @@ json
 .
 browsingContextID
 ;
+this
+.
+innerWindowId
+=
+json
+.
+innerWindowId
+;
 /
 /
 Save

@@ -1518,6 +1518,16 @@ targetFront
 ;
 }
 }
+getCachedTarget
+(
+)
+{
+return
+this
+.
+_targetFront
+;
+}
 async
 getTarget
 (
