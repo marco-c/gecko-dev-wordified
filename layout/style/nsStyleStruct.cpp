@@ -19997,7 +19997,7 @@ ColorsFor
 (
 aDocument
 .
-PreferredColorScheme
+DefaultColorScheme
 (
 )
 )
