@@ -149,6 +149,11 @@ SchemaOrgPageData
 .
 jsm
 "
+"
+TwitterPageData
+.
+jsm
+"
 ]
 FINAL_TARGET_FILES
 .
