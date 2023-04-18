@@ -935,6 +935,9 @@ nsIAboutModule
 :
 IS_SECURE_CHROME_UI
 }
+#
+ifndef
+ANDROID
 {
 "
 plugins
@@ -962,6 +965,8 @@ nsIAboutModule
 :
 IS_SECURE_CHROME_UI
 }
+#
+endif
 {
 "
 processes
