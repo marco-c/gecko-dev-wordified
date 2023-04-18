@@ -498,6 +498,7 @@ aStrokeOptions
 nullptr
 )
 const
+override
 ;
 void
 StreamToSink
