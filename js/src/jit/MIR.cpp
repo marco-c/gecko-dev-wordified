@@ -19037,6 +19037,14 @@ operand
 isArrayBufferViewLength
 (
 )
+|
+|
+operand
+-
+>
+isArgumentsLength
+(
+)
 )
 &
 &
@@ -19076,6 +19084,8 @@ Int32
 Typed
 )
 ArrayLength
+and
+ArgumentsLength
 is
 always
 >
