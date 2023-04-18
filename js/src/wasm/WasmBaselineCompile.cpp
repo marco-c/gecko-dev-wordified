@@ -10358,6 +10358,12 @@ NeedsBoundsCheck
 (
 true
 )
+mozilla
+:
+:
+Nothing
+(
+)
 )
 ;
 }
