@@ -474,6 +474,15 @@ aDirectory
 )
 ;
 void
+Append
+(
+const
+FormData
+&
+aFormData
+)
+;
+void
 Delete
 (
 const
