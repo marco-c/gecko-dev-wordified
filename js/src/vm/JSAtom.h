@@ -180,6 +180,9 @@ h
 namespace
 js
 {
+class
+AtomSet
+;
 /
 *
 *
@@ -251,14 +254,6 @@ hooks
 /
 void
 TraceAtoms
-(
-JSTracer
-*
-trc
-)
-;
-void
-TraceWellKnownSymbols
 (
 JSTracer
 *
@@ -391,6 +386,9 @@ PermanentlyAtomizeChars
 JSContext
 *
 cx
+AtomSet
+&
+atomSet
 mozilla
 :
 :

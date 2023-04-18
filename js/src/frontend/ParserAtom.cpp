@@ -1026,6 +1026,9 @@ instantiatePermanentAtom
 JSContext
 *
 cx
+AtomSet
+&
+atomSet
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -1059,6 +1062,7 @@ atom
 PermanentlyAtomizeChars
 (
 cx
+atomSet
 hash
 (
 )
@@ -6762,6 +6766,9 @@ InstantiateMarkedAtomsAsPermanent
 JSContext
 *
 cx
+AtomSet
+&
+atomSet
 const
 ParserAtomSpan
 &
@@ -6880,6 +6887,7 @@ entry
 instantiatePermanentAtom
 (
 cx
+atomSet
 index
 atomCache
 )

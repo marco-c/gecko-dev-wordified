@@ -13156,6 +13156,9 @@ instantiateSelfHostedAtoms
 JSContext
 *
 cx
+AtomSet
+&
+atomSet
 CompilationAtomCache
 &
 atomCache
@@ -13193,6 +13196,7 @@ return
 InstantiateMarkedAtomsAsPermanent
 (
 cx
+atomSet
 parserAtomData
 atomCache
 )
