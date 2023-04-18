@@ -716,7 +716,7 @@ NS_OK
 ProcessPriorityManager
 :
 :
-ActivityChanged
+BrowserPriorityChanged
 (
 GetBrowsingContext
 (
@@ -873,7 +873,7 @@ NS_OK
 ProcessPriorityManager
 :
 :
-ActivityChanged
+BrowserPriorityChanged
 (
 GetBrowsingContext
 (
@@ -885,7 +885,7 @@ Canonical
 )
 /
 *
-aIsActive
+aPriority
 =
 *
 /
