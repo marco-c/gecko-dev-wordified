@@ -34429,12 +34429,9 @@ mShell
 )
 )
 {
-gtk_window_set_opacity
-(
-GTK_WINDOW
+gtk_widget_set_opacity
 (
 parent
-)
 0
 .
 0
@@ -44179,9 +44176,9 @@ GTK_STATE_NORMAL
 bgColor
 )
 ;
-gtk_window_set_opacity
+gtk_widget_set_opacity
 (
-gtkWin
+mWindow
 0
 .
 0
@@ -44409,9 +44406,7 @@ opacity
 opacity
 ;
 }
-gtk_window_set_opacity
-(
-GTK_WINDOW
+gtk_widget_set_opacity
 (
 data
 -
@@ -44420,7 +44415,6 @@ mWindow
 -
 >
 mWindow
-)
 opacity
 )
 ;
