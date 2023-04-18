@@ -185,11 +185,6 @@ Log
 .
 get
 (
-Log
-.
-TYPES
-.
-MARIONETTE
 )
 )
 ;

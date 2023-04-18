@@ -237,11 +237,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-print
+PDF
 .
-js
+jsm
 "
 windowManager
 :
