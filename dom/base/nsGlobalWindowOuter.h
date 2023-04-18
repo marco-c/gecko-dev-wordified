@@ -1389,16 +1389,6 @@ GetPrincipalHashValue
 const
 final
 ;
-mozilla
-:
-:
-OriginTrials
-Trials
-(
-)
-const
-final
-;
 /
 /
 nsIGlobalJSObjectHolder
