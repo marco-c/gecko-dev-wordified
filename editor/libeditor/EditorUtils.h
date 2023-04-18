@@ -277,14 +277,6 @@ nsITransferable
 namespace
 mozilla
 {
-template
-<
-class
-T
->
-class
-OwningNonNull
-;
 /
 *
 *
