@@ -598,6 +598,12 @@ document_idle
 ;
 options
 .
+matchAboutBlank
+=
+true
+;
+options
+.
 wantReturnValue
 =
 true
