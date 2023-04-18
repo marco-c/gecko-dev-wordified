@@ -4882,6 +4882,13 @@ parse_hsl_hwb
 component_parser
 arguments
 hsl_to_rgb
+/
+*
+allow_comma
+=
+*
+/
+true
 )
 ?
 "
@@ -4894,6 +4901,13 @@ parse_hsl_hwb
 component_parser
 arguments
 hwb_to_rgb
+/
+*
+allow_comma
+=
+*
+/
+false
 )
 ?
 _
@@ -5365,6 +5379,9 @@ f32
 f32
 f32
 )
+allow_comma
+:
+bool
 )
 -
 >
@@ -5493,6 +5510,9 @@ to
 let
 uses_commas
 =
+allow_comma
+&
+&
 arguments
 .
 try_parse
