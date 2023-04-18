@@ -29989,7 +29989,7 @@ mScrollType
 WidgetWheelEvent
 :
 :
-SCROLL_ASYNCHRONOUSELY
+SCROLL_ASYNCHRONOUSLY
 ;
 }
 /
