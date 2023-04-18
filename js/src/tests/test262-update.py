@@ -153,6 +153,12 @@ info
 "
         
 "
+Intl
+.
+DurationFormat
+"
+        
+"
 Atomics
 .
 waitAsync
@@ -181,11 +187,7 @@ Temporal
 "
         
 "
-callable
--
-boundary
--
-realms
+ShadowRealm
 "
         
 "
@@ -196,6 +198,20 @@ find
 from
 -
 last
+"
+        
+"
+array
+-
+grouping
+"
+        
+"
+regexp
+-
+v
+-
+flag
 "
     
 ]
@@ -272,7 +288,17 @@ RELEASE_OR_BETA
 =
 set
 (
+    
 [
+        
+"
+Intl
+.
+NumberFormat
+-
+v3
+"
+    
 ]
 )
 SHELL_OPTIONS
