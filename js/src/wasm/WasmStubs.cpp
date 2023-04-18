@@ -5859,7 +5859,7 @@ FramePointer
 ;
 masm
 .
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
@@ -9014,7 +9014,7 @@ state
 .
 masm
 .
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
@@ -11512,7 +11512,7 @@ WasmCalleeInstanceOffsetBeforeCall
 ;
 masm
 .
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
@@ -15010,7 +15010,7 @@ InstanceReg
 ;
 masm
 .
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
@@ -15024,7 +15024,7 @@ realm
 .
 masm
 .
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 ABINonArgReturnReg0
 ABINonArgReturnReg1
@@ -21804,13 +21804,13 @@ InstanceReg
 ;
 masm
 .
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
 masm
 .
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 scratch1
 scratch2

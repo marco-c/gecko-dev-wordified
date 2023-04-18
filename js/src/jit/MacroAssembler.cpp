@@ -12935,7 +12935,7 @@ void
 MacroAssembler
 :
 :
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 Register
 scratch1
@@ -25989,7 +25989,7 @@ WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
@@ -27363,7 +27363,7 @@ a
 null
 slot
 .
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 mozilla
 :
@@ -27409,13 +27409,13 @@ bind
 nonNull
 )
 ;
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
 #
 endif
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 index
 WasmTableCallScratchReg1
@@ -27473,11 +27473,11 @@ WasmCallerInstanceOffsetBeforeCall
 InstanceReg
 )
 ;
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 )
 ;
-switchToWasmTlsRealm
+switchToWasmInstanceRealm
 (
 ABINonArgReturnReg0
 ABINonArgReturnReg1
@@ -29165,7 +29165,7 @@ void
 MacroAssembler
 :
 :
-loadWasmPinnedRegsFromTls
+loadWasmPinnedRegsFromInstance
 (
 mozilla
 :
