@@ -25364,12 +25364,10 @@ symbolJSID
 (
                         
 "
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 aCx
 JS
@@ -25381,9 +25379,7 @@ SymbolCode
 %
 s
 )
-)
 "
-                        
 %
 name
                     
@@ -29424,12 +29420,10 @@ toPrimitive
 (
 aCx
               
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 aCx
 JS
@@ -29439,7 +29433,6 @@ SymbolCode
 :
 :
 toPrimitive
-)
 )
 )
 ;

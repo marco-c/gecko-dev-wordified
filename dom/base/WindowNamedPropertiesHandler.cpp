@@ -1784,12 +1784,10 @@ jsid
 toStringTagId
 (
 aCx
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 aCx
 JS
@@ -1799,7 +1797,6 @@ SymbolCode
 :
 :
 toStringTag
-)
 )
 )
 ;
@@ -1891,12 +1888,10 @@ jsid
 toStringTagId
 (
 aCx
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 aCx
 JS
@@ -1906,7 +1901,6 @@ SymbolCode
 :
 :
 toStringTag
-)
 )
 )
 ;

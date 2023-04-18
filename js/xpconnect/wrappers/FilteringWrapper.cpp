@@ -503,16 +503,13 @@ props
 .
 infallibleAppend
 (
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 cx
 code
-)
 )
 )
 ;

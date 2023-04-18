@@ -176,12 +176,10 @@ jsid
 well_known_symbol_id
 (
 cx
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 cx
 JS
@@ -191,7 +189,6 @@ SymbolCode
 :
 :
 iterator
-)
 )
 )
 ;

@@ -5740,12 +5740,10 @@ jsid
 hasInstanceId
 (
 cx
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 cx
 JS
@@ -5755,7 +5753,6 @@ SymbolCode
 :
 :
 hasInstance
-)
 )
 )
 ;
@@ -6434,12 +6431,10 @@ jsid
 unscopableId
 (
 cx
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 cx
 JS
@@ -6449,7 +6444,6 @@ SymbolCode
 :
 :
 unscopables
-)
 )
 )
 ;
@@ -6494,12 +6488,10 @@ jsid
 toStringTagId
 (
 cx
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 cx
 JS
@@ -6509,7 +6501,6 @@ SymbolCode
 :
 :
 toStringTag
-)
 )
 )
 ;

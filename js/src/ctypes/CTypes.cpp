@@ -11142,12 +11142,10 @@ RootedId
 toStringTagId
 (
 cx
-SYMBOL_TO_JSID
-(
 JS
 :
 :
-GetWellKnownSymbol
+GetWellKnownSymbolKey
 (
 cx
 JS
@@ -11157,7 +11155,6 @@ SymbolCode
 :
 :
 toStringTag
-)
 )
 )
 ;
