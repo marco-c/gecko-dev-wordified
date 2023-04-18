@@ -1878,9 +1878,6 @@ return
 nsresult
 WillBuildModel
 (
-nsString
-&
-aFilename
 )
 ;
 /
