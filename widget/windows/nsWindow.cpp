@@ -13021,6 +13021,12 @@ eWindowType_popup
 mPopupType
 =
 =
+ePopupTypeTooltip
+|
+|
+mPopupType
+=
+=
 ePopupTypeMenu
 |
 |
@@ -13127,6 +13133,12 @@ eWindowType_popup
 mPopupType
 =
 =
+ePopupTypeTooltip
+|
+|
+mPopupType
+=
+=
 ePopupTypeMenu
 |
 |
@@ -13137,6 +13149,8 @@ ePopupTypePanel
 )
 )
 {
+if
+(
 nsView
 *
 view
@@ -13148,10 +13162,6 @@ GetViewFor
 (
 this
 )
-;
-if
-(
-view
 )
 {
 LayoutDeviceIntSize
