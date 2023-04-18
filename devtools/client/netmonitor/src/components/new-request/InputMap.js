@@ -278,8 +278,6 @@ onUpdate
 PropTypes
 .
 func
-.
-isRequired
 onAdd
 :
 PropTypes
@@ -846,6 +844,9 @@ rows
 1
 }
 )
+onDelete
+&
+&
 button
 (
 {
@@ -886,6 +887,9 @@ index
 ;
 }
 )
+onAdd
+&
+&
 div
 (
 {
