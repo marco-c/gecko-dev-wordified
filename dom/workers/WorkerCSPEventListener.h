@@ -200,6 +200,7 @@ default
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -212,10 +213,6 @@ RefPtr
 WeakWorkerRef
 >
 mWorkerRef
-GUARDED_BY
-(
-mMutex
-)
 ;
 }
 ;

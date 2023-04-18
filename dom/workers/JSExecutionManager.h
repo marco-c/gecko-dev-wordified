@@ -802,10 +802,6 @@ WorkerPrivate
 *
 >
 mExecutionQueue
-GUARDED_BY
-(
-mExecutionQueueMutex
-)
 ;
 /
 /
@@ -827,10 +823,6 @@ mExecutionQueueMutex
 .
 int32_t
 mRunning
-GUARDED_BY
-(
-mExecutionQueueMutex
-)
 =
 0
 ;
@@ -860,10 +852,6 @@ mExecutionQueueMutex
 .
 int32_t
 mMaxRunning
-GUARDED_BY
-(
-mExecutionQueueMutex
-)
 =
 1
 ;
@@ -969,10 +957,6 @@ mExecutionQueueMutex
 .
 bool
 mMainThreadAwaitingExecution
-GUARDED_BY
-(
-mExecutionQueueMutex
-)
 =
 false
 ;
