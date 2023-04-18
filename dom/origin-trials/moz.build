@@ -140,13 +140,6 @@ inputs
 =
 [
 "
-/
-dom
-/
-origin
--
-trials
-/
 ffi
 "
 ]
