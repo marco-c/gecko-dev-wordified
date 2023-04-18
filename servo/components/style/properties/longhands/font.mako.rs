@@ -1999,7 +1999,7 @@ gecko
 gecko_enum_prefix
 =
 "
-StyleMathMLMathVariant
+StyleMathVariant
 "
 gecko_ffi_name
 =

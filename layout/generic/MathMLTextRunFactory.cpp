@@ -1369,7 +1369,7 @@ MathVariant
 (
 uint32_t
 aCh
-StyleMathMLMathVariant
+StyleMathVariant
 aMathVar
 )
 {
@@ -1396,7 +1396,7 @@ if
 aMathVar
 <
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Normal
@@ -1416,7 +1416,7 @@ if
 (
 aMathVar
 >
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Stretched
@@ -1480,7 +1480,7 @@ if
 aMathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Bold
@@ -1507,7 +1507,7 @@ if
 aMathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Bold
@@ -1534,7 +1534,7 @@ if
 aMathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Italic
@@ -1561,7 +1561,7 @@ if
 aMathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Italic
@@ -2094,7 +2094,7 @@ first
 one
 .
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Bold
@@ -2106,7 +2106,7 @@ multiplier
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 DoubleStruck
@@ -2118,7 +2118,7 @@ multiplier
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 SansSerif
@@ -2130,7 +2130,7 @@ multiplier
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 BoldSansSerif
@@ -2142,7 +2142,7 @@ multiplier
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Monospace
@@ -2287,7 +2287,7 @@ aMathVar
 )
 {
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Bold
@@ -2299,7 +2299,7 @@ multiplier
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Italic
@@ -2311,7 +2311,7 @@ multiplier
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 BoldItalic
@@ -2323,7 +2323,7 @@ multiplier
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 BoldSansSerif
@@ -2335,7 +2335,7 @@ multiplier
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 SansSerifBoldItalic
@@ -2453,7 +2453,7 @@ table
 *
 /
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Initial
@@ -2472,7 +2472,7 @@ gArabicInitialMapTable
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Tailed
@@ -2491,7 +2491,7 @@ gArabicTailedMapTable
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Stretched
@@ -2510,7 +2510,7 @@ gArabicStretchedMapTable
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Looped
@@ -2529,7 +2529,7 @@ gArabicLoopedMapTable
 break
 ;
 case
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 DoubleStruck
@@ -2580,7 +2580,7 @@ if
 (
 aMathVar
 >
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Monospace
@@ -2602,10 +2602,10 @@ aCh
 }
 multiplier
 =
-(
 uint8_t
-)
+(
 aMathVar
+)
 -
 2
 ;
@@ -2618,7 +2618,7 @@ because
 the
 values
 for
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 *
@@ -3455,10 +3455,10 @@ settingDTLS
 }
 }
 }
-StyleMathMLMathVariant
+StyleMathVariant
 mathVar
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 None
@@ -3529,7 +3529,7 @@ singleCharMI
 mathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 None
@@ -3677,7 +3677,7 @@ else
 {
 mathVar
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Italic
@@ -3741,7 +3741,7 @@ if
 mathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Bold
@@ -3750,7 +3750,7 @@ Bold
 mathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 BoldItalic
@@ -3759,7 +3759,7 @@ BoldItalic
 mathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Italic
@@ -4164,7 +4164,7 @@ if
 mathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Bold
@@ -4202,7 +4202,7 @@ if
 mathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Italic
@@ -4240,7 +4240,7 @@ if
 mathVar
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 BoldItalic
@@ -4278,7 +4278,7 @@ if
 mathVar
 !
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 None

@@ -279,7 +279,7 @@ return
 eMathMLFrameType_Ordinary
 ;
 }
-StyleMathMLMathVariant
+StyleMathVariant
 mathVariant
 =
 StyleFont
@@ -295,7 +295,7 @@ if
 mathVariant
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 None
@@ -331,7 +331,7 @@ NS_FRAME_IS_IN_SINGLE_CHAR_MI
 mathVariant
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Italic
@@ -340,7 +340,7 @@ Italic
 mathVariant
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 BoldItalic
@@ -349,7 +349,7 @@ BoldItalic
 mathVariant
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 SansSerifItalic
@@ -358,7 +358,7 @@ SansSerifItalic
 mathVariant
 =
 =
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 SansSerifBoldItalic

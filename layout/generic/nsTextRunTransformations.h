@@ -307,7 +307,7 @@ mTextTransform
 mozilla
 :
 :
-StyleMathMLMathVariant
+StyleMathVariant
 mMathVariant
 ;
 bool

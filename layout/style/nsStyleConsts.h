@@ -1986,7 +1986,7 @@ See
 nsStyleFont
 enum
 class
-StyleMathMLMathVariant
+StyleMathVariant
 :
 uint8_t
 {

@@ -1657,7 +1657,7 @@ mMathDepth
 )
 mMathVariant
 (
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 None

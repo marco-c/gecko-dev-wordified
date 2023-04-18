@@ -691,7 +691,7 @@ support
 mozilla
 :
 :
-StyleMathMLMathVariant
+StyleMathVariant
 mMathVariant
 ;
 /

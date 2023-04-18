@@ -15988,7 +15988,7 @@ GetParent
 ;
 if
 (
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 None
@@ -16002,7 +16002,7 @@ mMathVariant
 {
 if
 (
-StyleMathMLMathVariant
+StyleMathVariant
 :
 :
 Normal
