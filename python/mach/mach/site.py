@@ -6075,23 +6075,8 @@ site
 "
                 
 "
-print
-(
-"
-                
-"
-set
-(
-sys
-.
-path
-)
-"
-                
-"
--
-set
-(
+site_packages
+=
 [
 site
 .
@@ -6105,10 +6090,26 @@ site
 getsitepackages
 (
 )
-)
+;
 "
                 
 "
+print
+(
+[
+path
+for
+path
+in
+sys
+.
+path
+if
+path
+not
+in
+site_packages
+]
 )
 "
             
