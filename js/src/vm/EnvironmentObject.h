@@ -2076,9 +2076,6 @@ inline
 void
 setAliasedBinding
 (
-JSContext
-*
-cx
 uint32_t
 slot
 const
@@ -2335,9 +2332,6 @@ inline
 void
 setAliasedBinding
 (
-JSContext
-*
-cx
 EnvironmentCoordinate
 ec
 const
@@ -2350,9 +2344,6 @@ inline
 void
 setAliasedBinding
 (
-JSContext
-*
-cx
 const
 BindingIter
 &

@@ -323,9 +323,6 @@ EnvironmentObject
 :
 setAliasedBinding
 (
-JSContext
-*
-cx
 uint32_t
 slot
 const
@@ -348,9 +345,6 @@ EnvironmentObject
 :
 setAliasedBinding
 (
-JSContext
-*
-cx
 EnvironmentCoordinate
 ec
 const
@@ -391,7 +385,6 @@ slot
 ;
 setAliasedBinding
 (
-cx
 ec
 .
 slot
@@ -408,9 +401,6 @@ EnvironmentObject
 :
 setAliasedBinding
 (
-JSContext
-*
-cx
 const
 BindingIter
 &
@@ -445,7 +435,6 @@ Environment
 ;
 setAliasedBinding
 (
-cx
 bi
 .
 location
