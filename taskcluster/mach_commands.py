@@ -2238,10 +2238,12 @@ gecko_taskgraph
 .
 generator
     
-import
-gecko_taskgraph
+from
+taskgraph
 .
 parameters
+import
+parameters_loader
     
 try
 :
@@ -2271,10 +2273,6 @@ verbose
         
 parameters
 =
-gecko_taskgraph
-.
-parameters
-.
 parameters_loader
 (
 options

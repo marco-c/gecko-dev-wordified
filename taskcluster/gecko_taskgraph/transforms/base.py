@@ -62,7 +62,7 @@ config
 import
 GraphConfig
 from
-.
+taskgraph
 .
 parameters
 import
