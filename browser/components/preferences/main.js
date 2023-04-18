@@ -87,14 +87,6 @@ import
 globals
 -
 from
-.
-.
-/
-.
-.
-/
-.
-.
 /
 toolkit
 /
@@ -114,11 +106,8 @@ import
 globals
 -
 from
-.
-.
 /
-.
-.
+browser
 /
 base
 /

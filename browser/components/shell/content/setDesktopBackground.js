@@ -63,14 +63,8 @@ import
 globals
 -
 from
-.
-.
 /
-.
-.
-/
-.
-.
+browser
 /
 base
 /
