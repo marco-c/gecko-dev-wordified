@@ -60,6 +60,25 @@ MPL
 /
 import
 {
+createBreakpoint
+}
+from
+"
+.
+.
+/
+.
+.
+/
+client
+/
+firefox
+/
+create
+"
+;
+import
+{
 makeBreakpointLocation
 makeBreakpointId
 getASTLocation
@@ -689,6 +708,8 @@ SET_BREAKPOINT
 cx
 breakpoint
 :
+createBreakpoint
+(
 {
 .
 .
@@ -698,6 +719,7 @@ disabled
 :
 false
 }
+)
 [
 PROMISE
 ]
@@ -726,8 +748,6 @@ options
 {
 }
 disabled
-=
-false
 shouldCancel
 =
 (
@@ -940,6 +960,8 @@ location
 const
 breakpoint
 =
+createBreakpoint
+(
 {
 id
 thread
@@ -955,6 +977,7 @@ generatedLocation
 text
 originalText
 }
+)
 ;
 if
 (
@@ -1472,6 +1495,8 @@ SET_BREAKPOINT
 cx
 breakpoint
 :
+createBreakpoint
+(
 {
 .
 .
@@ -1481,6 +1506,7 @@ disabled
 :
 true
 }
+)
 [
 PROMISE
 ]
@@ -1629,6 +1655,8 @@ it
 .
 breakpoint
 =
+createBreakpoint
+(
 {
 .
 .
@@ -1639,6 +1667,7 @@ disabled
 false
 options
 }
+)
 ;
 return
 dispatch
