@@ -379,6 +379,7 @@ UniformityRequirements
 impl
 Uniformity
 {
+const
 fn
 new
 (
@@ -600,6 +601,7 @@ exit
 impl
 FunctionUniformity
 {
+const
 fn
 new
 (
@@ -643,6 +645,7 @@ flags
 if
 any
 .
+const
 fn
 exit_disruptor
 (
@@ -962,6 +965,7 @@ TypeResolution
 impl
 ExpressionInfo
 {
+const
 fn
 new
 (
@@ -1103,6 +1107,7 @@ crate
 :
 Expression
 {
+const
 fn
 to_global_or_argument
 (
@@ -1568,7 +1573,7 @@ Index
 <
 Handle
 <
-Globalvariable
+GlobalVariable
 >
 >
 /
@@ -1820,6 +1825,7 @@ impl
 FunctionInfo
 {
 pub
+const
 fn
 global_variable_count
 (
@@ -1839,6 +1845,7 @@ len
 )
 }
 pub
+const
 fn
 expression_count
 (

@@ -1420,10 +1420,7 @@ access
 :
 _
 }
-)
 |
-Some
-(
 crate
 :
 :
@@ -1434,9 +1431,11 @@ Uniform
 )
 =
 >
+{
 self
 .
 buffer
+}
 /
 /
 This

@@ -1814,6 +1814,13 @@ but
 /
 /
 /
+[
+Intel
+hangs
+in
+anv_queue_finish
+]
+(
 https
 :
 /
@@ -1833,6 +1840,8 @@ mesa
 issues
 /
 5508
+)
+.
 relay_semaphores
 :
 [

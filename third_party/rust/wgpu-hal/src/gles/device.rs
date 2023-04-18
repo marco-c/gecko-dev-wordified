@@ -1581,7 +1581,13 @@ Fragment
 Some
 (
 "
-_dummy
+(
+wgpu
+internal
+)
+dummy
+fragment
+shader
 "
 )
 )

@@ -465,7 +465,7 @@ specified
 in
 the
 shader
-trought
+trough
 the
 use
 of
@@ -492,7 +492,7 @@ specified
 in
 the
 shader
-trought
+trough
 the
 use
 of
@@ -1665,7 +1665,7 @@ state
 of
 the
 returned
-infomration
+information
 /
 /
 /
@@ -1691,6 +1691,7 @@ or
 both
 .
 pub
+const
 fn
 metadata
 (

@@ -543,10 +543,7 @@ ScalarKind
 :
 :
 Sint
-)
 |
-Some
-(
 crate
 :
 :

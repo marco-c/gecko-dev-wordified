@@ -1318,10 +1318,10 @@ the
 screen
 for
 [
-PrivateCapabilities
+Workarounds
 :
 :
-REQUIRES_SHADER_CLEAR
+MESA_I915_SRGB_SHADER_CLEAR
 ]
 /
 /

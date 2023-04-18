@@ -29,6 +29,7 @@ pub
 (
 super
 )
+const
 fn
 map_binary_operator
 (
@@ -427,6 +428,7 @@ pub
 (
 super
 )
+const
 fn
 map_relational_fun
 (
@@ -562,6 +564,7 @@ pub
 (
 super
 )
+const
 fn
 map_vector_size
 (
@@ -1597,6 +1600,9 @@ spirv
 :
 :
 Word
+invariant
+:
+bool
 )
 -
 >
@@ -1637,10 +1643,7 @@ Bi
 :
 :
 Position
-)
 |
-Some
-(
 Bi
 :
 :
@@ -1655,6 +1658,9 @@ BuiltIn
 :
 :
 Position
+{
+invariant
+}
 Some
 (
 Bi

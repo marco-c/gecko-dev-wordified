@@ -602,6 +602,7 @@ Instruction
 impl
 Block
 {
+const
 fn
 new
 (
@@ -3222,6 +3223,7 @@ Word
 impl
 GlobalVariable
 {
+const
 fn
 dummy
 (
@@ -3243,6 +3245,7 @@ access_id
 0
 }
 }
+const
 fn
 new
 (

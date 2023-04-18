@@ -363,6 +363,7 @@ FeaturesManager
 ]
 instance
 pub
+const
 fn
 new
 (
@@ -3170,12 +3171,12 @@ Binding
 :
 BuiltIn
 (
-builtin
+built_in
 )
 =
 >
 match
-builtin
+built_in
 {
 crate
 :

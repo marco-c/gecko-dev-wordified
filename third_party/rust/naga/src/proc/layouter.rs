@@ -122,6 +122,7 @@ an
 array
 .
 pub
+const
 fn
 to_stride
 (
@@ -566,6 +567,7 @@ LayoutErrorInner
 impl
 LayoutErrorInner
 {
+const
 fn
 with
 (
@@ -639,6 +641,7 @@ alignment
 boundary
 .
 pub
+const
 fn
 round_up
 (

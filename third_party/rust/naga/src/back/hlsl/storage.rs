@@ -796,10 +796,10 @@ to_hlsl_str
 width
 )
 ?
-rows
+columns
 as
 u8
-columns
+rows
 as
 u8
 )
@@ -822,10 +822,10 @@ contain
 vec4s
 .
 let
-padded_columns
+padded_rows
 =
 match
-columns
+rows
 {
 crate
 :
@@ -837,10 +837,10 @@ Tri
 =
 >
 4
-columns
+rows
 =
 >
-columns
+rows
 as
 u32
 }
@@ -852,7 +852,7 @@ width
 as
 u32
 *
-padded_columns
+padded_rows
 ;
 let
 iter
@@ -861,7 +861,7 @@ iter
 0
 .
 .
-rows
+columns
 as
 u32
 )
@@ -885,7 +885,7 @@ Vector
 {
 size
 :
-columns
+rows
 kind
 :
 crate
@@ -1865,10 +1865,10 @@ to_hlsl_str
 width
 )
 ?
-rows
+columns
 as
 u8
-columns
+rows
 as
 u8
 STORE_TEMP_NAME
@@ -1916,10 +1916,10 @@ contain
 vec4s
 .
 let
-padded_columns
+padded_rows
 =
 match
-columns
+rows
 {
 crate
 :
@@ -1931,10 +1931,10 @@ Tri
 =
 >
 4
-columns
+rows
 =
 >
-columns
+rows
 as
 u32
 }
@@ -1946,7 +1946,7 @@ width
 as
 u32
 *
-padded_columns
+padded_rows
 ;
 /
 /
@@ -1960,7 +1960,7 @@ in
 0
 .
 .
-rows
+columns
 as
 u32
 {
@@ -1994,7 +1994,7 @@ Vector
 {
 size
 :
-columns
+rows
 kind
 :
 crate
@@ -2195,6 +2195,7 @@ self
 write_array_size
 (
 module
+base
 crate
 :
 :
@@ -2964,7 +2965,7 @@ TypeInner
 :
 Matrix
 {
-rows
+columns
 width
 .
 .
@@ -2983,7 +2984,7 @@ as
 u32
 *
 if
-rows
+columns
 >
 crate
 :

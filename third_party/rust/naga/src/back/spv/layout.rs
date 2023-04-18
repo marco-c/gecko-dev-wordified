@@ -57,6 +57,7 @@ pub
 (
 super
 )
+const
 fn
 new
 (
@@ -573,6 +574,7 @@ pub
 (
 super
 )
+const
 fn
 new
 (

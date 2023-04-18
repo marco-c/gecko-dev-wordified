@@ -2557,6 +2557,13 @@ TypeQualifiers
 '
 qualifiers
 >
+/
+/
+/
+Indicates
+a
+global
+declaration
 external
 :
 bool

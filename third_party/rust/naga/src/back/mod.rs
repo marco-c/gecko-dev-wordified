@@ -227,6 +227,7 @@ usize
 impl
 Level
 {
+const
 fn
 next
 (
@@ -546,6 +547,7 @@ in
 the
 current
 function
+const
 fn
 name_key
 (
@@ -674,6 +676,7 @@ or
 equal
 to
 arg
+const
 fn
 argument_key
 (
@@ -1074,7 +1077,7 @@ a
 non
 -
 uniform
-contol
+control
 flow
 accidentally
 .
@@ -1114,6 +1117,7 @@ expression
 evaluation
 -
 time
+const
 fn
 bake_ref_count
 (
@@ -1355,6 +1359,7 @@ hlsl
 -
 out
 .
+const
 fn
 binary_operation_str
 (
@@ -1596,6 +1601,7 @@ hlsl
 -
 out
 .
+const
 fn
 vector_size_str
 (
@@ -1660,6 +1666,7 @@ crate
 :
 TypeInner
 {
+const
 fn
 is_handle
 (
@@ -1745,6 +1752,7 @@ explicit
 break
 .
 pub
+const
 fn
 is_terminator
 (

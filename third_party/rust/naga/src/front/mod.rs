@@ -373,6 +373,7 @@ super
 :
 ConstantInner
 {
+const
 fn
 boolean
 (
@@ -446,6 +447,7 @@ impl
 Typifier
 {
 pub
+const
 fn
 new
 (
@@ -716,7 +718,7 @@ cached
 type
 resolution
 for
-epxr_handle
+expr_handle
 forcing
 a
 recomputation
@@ -1084,6 +1086,7 @@ align_up
 /
 /
 pub
+const
 fn
 align_up
 (
