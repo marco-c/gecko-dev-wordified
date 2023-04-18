@@ -1342,12 +1342,13 @@ be
 format
 (
 f
+str
+(
 ALL_FIELDS
 [
 f
 ]
-.
-__name__
+)
 )
             
 for
@@ -1727,12 +1728,13 @@ self
 .
 _name
                         
+str
+(
 LIST_FIELDS_CONTENT
 [
 field
 ]
-.
-__name__
+)
                         
 BASE_DOC_URL
                     
