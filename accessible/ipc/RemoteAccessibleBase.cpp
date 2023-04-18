@@ -778,8 +778,7 @@ Derived
 :
 IndexOfEmbeddedChild
 (
-const
-Derived
+Accessible
 *
 aChild
 )

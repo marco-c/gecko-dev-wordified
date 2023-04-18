@@ -587,7 +587,7 @@ aLink
 )
 {
 return
-GetIndexOfEmbeddedChild
+IndexOfEmbeddedChild
 (
 aLink
 )
