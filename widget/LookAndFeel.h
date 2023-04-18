@@ -1125,14 +1125,8 @@ value
 to
 determine
 whether
-Mac
-OS
-X
-Lion
-style
 swipe
 animations
-*
 should
 be
 used
