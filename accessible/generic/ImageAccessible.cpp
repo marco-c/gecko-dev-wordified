@@ -745,6 +745,14 @@ a11y
 :
 :
 eHTMLImageMapType
+|
+|
+frame
+-
+>
+IsImageBoxFrame
+(
+)
 )
 ;
 if
