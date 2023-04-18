@@ -1017,6 +1017,15 @@ CompositorCapabilities
 aCaps
 )
 ;
+virtual
+void
+GetWindowVisibility
+(
+WindowVisibility
+*
+aVisibility
+)
+;
 /
 /
 Interface
