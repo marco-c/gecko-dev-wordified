@@ -12459,7 +12459,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-SpeculationFailed
+SpeculationFailed2
 "
 nsTArray
 <
