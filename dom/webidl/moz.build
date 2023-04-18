@@ -2939,11 +2939,6 @@ AnimationEvent
 webidl
 "
 "
-AnimationFrameProvider
-.
-webidl
-"
-"
 AnimationTimeline
 .
 webidl

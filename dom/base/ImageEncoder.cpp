@@ -655,10 +655,9 @@ GetDataSurfaceSafe
 }
 class
 EncodingCompleteEvent
-final
 :
 public
-DiscardableRunnable
+Runnable
 {
 virtual
 ~
@@ -678,7 +677,7 @@ EncodeCompleteCallback
 aEncodeCompleteCallback
 )
 :
-DiscardableRunnable
+Runnable
 (
 "
 EncodingCompleteEvent

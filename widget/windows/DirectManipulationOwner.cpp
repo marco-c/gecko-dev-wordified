@@ -377,14 +377,6 @@ mozilla
 :
 VsyncObserver
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-DManipEventHandler
-:
-:
-VObserver
-override
-)
 public
 :
 bool

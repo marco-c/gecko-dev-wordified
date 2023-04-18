@@ -143,10 +143,14 @@ mozilla
 /
 dom
 /
-AnimationFrameProviderBinding
+WindowBinding
 .
 h
 "
+/
+/
+For
+FrameRequestCallback
 #
 include
 "
