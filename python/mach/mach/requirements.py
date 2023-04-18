@@ -467,7 +467,7 @@ str
         
 is_thunderbird
         
-is_mach_or_build_site
+only_strict_requirements
         
 requirements_definition
     
@@ -497,7 +497,7 @@ topsrcdir
             
 is_thunderbird
             
-is_mach_or_build_site
+only_strict_requirements
         
 )
         
@@ -519,7 +519,7 @@ Path
     
 is_thunderbird
     
-is_mach_or_build_site
+only_strict_requirements
 )
 :
     
@@ -701,11 +701,13 @@ append
                 
 PypiSpecifier
 (
+                    
 _parse_package_specifier
 (
 params
-is_mach_or_build_site
+only_strict_requirements
 )
+                
 )
             
 )
@@ -822,7 +824,7 @@ repercussion
 _parse_package_specifier
 (
 raw_requirement
-is_mach_or_build_site
+only_strict_requirements
 )
                 
 )
@@ -991,11 +993,31 @@ _parse_requirements_definition_file
 root_requirements_path
 False
 )
+class
+UnexpectedFlexibleRequirementException
+(
+Exception
+)
+:
+    
+def
+__init__
+(
+self
+raw_requirement
+)
+:
+        
+self
+.
+raw_requirement
+=
+raw_requirement
 def
 _parse_package_specifier
 (
 raw_requirement
-is_mach_or_build_site
+only_strict_requirements
 )
 :
     
@@ -1007,8 +1029,7 @@ raw_requirement
 )
     
 if
-not
-is_mach_or_build_site
+only_strict_requirements
 and
 [
         
@@ -1034,47 +1055,9 @@ operator
 :
         
 raise
-Exception
+UnexpectedFlexibleRequirementException
 (
-            
-'
-All
-sites
-except
-for
-"
-mach
-"
-and
-"
-build
-"
-must
-pin
-pypi
-package
-'
-            
-f
-'
-versions
-in
-the
-format
-"
-package
-=
-=
-version
-"
-found
-"
-{
 raw_requirement
-}
-"
-'
-        
 )
     
 return
