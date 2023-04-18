@@ -236,6 +236,13 @@ h
 "
 #
 include
+"
+nsXULAppAPI
+.
+h
+"
+#
+include
 <
 atomic
 >
@@ -2756,6 +2763,13 @@ dom
 Pref
 *
 aPref
+const
+GeckoProcessType
+aDestinationProcessType
+const
+nsACString
+&
+aDestinationRemoteType
 )
 ;
 static
