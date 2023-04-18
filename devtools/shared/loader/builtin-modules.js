@@ -221,6 +221,7 @@ one
 )
 const
 {
+CanonicalBrowsingContext
 BrowsingContext
 WindowGlobalParent
 WindowGlobalChild
@@ -1401,6 +1402,7 @@ AbortController
 atob
 Blob
 btoa
+CanonicalBrowsingContext
 BrowsingContext
 WindowGlobalParent
 WindowGlobalChild

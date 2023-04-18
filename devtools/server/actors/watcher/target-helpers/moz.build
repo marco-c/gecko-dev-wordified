@@ -102,11 +102,6 @@ helper
 js
 "
 "
-utils
-.
-js
-"
-"
 worker
 -
 helper
