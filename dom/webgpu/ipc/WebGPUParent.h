@@ -221,6 +221,10 @@ ByteBuf
 aByteBuf
 RawId
 aNewId
+AdapterRequestDeviceResolver
+&
+&
+resolver
 )
 ;
 ipc

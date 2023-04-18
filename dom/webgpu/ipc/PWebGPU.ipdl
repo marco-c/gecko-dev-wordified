@@ -386,6 +386,11 @@ buf
 RawId
 newId
 )
+returns
+(
+bool
+success
+)
 ;
 async
 AdapterDestroy
