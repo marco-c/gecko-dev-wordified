@@ -277,7 +277,7 @@ waitFor
 >
 {
 const
-frameLinkNode
+messageLocationNode
 =
 node
 .
@@ -288,17 +288,13 @@ querySelector
 message
 -
 location
-.
-frame
--
-link
 "
 )
 ;
 const
 url
 =
-frameLinkNode
+messageLocationNode
 .
 getAttribute
 (
