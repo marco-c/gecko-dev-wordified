@@ -546,7 +546,7 @@ key
 .
 (
 %
-d
+ld
 )
 "
 retCode
@@ -635,7 +635,7 @@ certs
 .
 (
 %
-d
+ld
 )
 "
 retCode
@@ -986,7 +986,7 @@ check
 .
 (
 %
-d
+ld
 )
 "
 retCode

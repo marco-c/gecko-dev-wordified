@@ -817,7 +817,7 @@ AppendPrintf
 (
 "
 %
-u
+lu
 .
 log
 "
@@ -1356,7 +1356,7 @@ AppendPrintf
 (
 "
 %
-d
+ld
 "
 aVariant
 .
@@ -1382,7 +1382,7 @@ AppendPrintf
 (
 "
 %
-u
+lu
 "
 aVariant
 .
@@ -1406,7 +1406,7 @@ AppendPrintf
 (
 "
 %
-d
+ld
 "
 aVariant
 .
@@ -1427,7 +1427,7 @@ AppendPrintf
 (
 "
 %
-u
+lu
 "
 aVariant
 .

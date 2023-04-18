@@ -774,7 +774,7 @@ AppendPrintf
 HRESULT
 0x
 %
-08X
+08lX
 "
 curActCtx
 .
