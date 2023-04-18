@@ -5342,6 +5342,17 @@ records
 )
 )
 }
+#
+[
+allow
+(
+unknown_lints
+clippy
+:
+:
+branches_sharing_code
+)
+]
 pub
 fn
 close
