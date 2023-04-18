@@ -91,7 +91,7 @@ handleEvent
 {
 currentEvent
 =
-self
+window
 .
 event
 ;
@@ -133,7 +133,7 @@ event
 ;
 }
 "
-self
+window
 .
 event
 is
