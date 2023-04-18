@@ -2160,16 +2160,9 @@ buildid
 def
 get_version_maybe_buildid
 (
-min_version
+version
 )
 :
-    
-version
-=
-str
-(
-min_version
-)
     
 buildid
 =
@@ -2223,15 +2216,65 @@ if
 buildid
 :
         
+#
+Split
+into
+date
+/
+time
+parts
+so
+no
+part
+is
+>
+=
+2
+^
+31
+(
+bug
+1732676
+)
+        
+#
+Bug
+1733396
+may
+revisit
+that
+limit
+        
+date
+time
+=
+buildid
+[
+:
+8
+]
+buildid
+[
+8
+:
+]
+        
 version
 =
+f
+"
+{
 version
-+
-"
+}
 buildid
+{
+date
+}
+.
+{
+time
+}
 "
-+
-buildid
     
 return
 version
@@ -2724,6 +2767,8 @@ create_webmanifest
     
 locstr
     
+version
+    
 min_app_ver
     
 max_app_ver
@@ -2904,7 +2949,7 @@ version
 :
 get_version_maybe_buildid
 (
-min_app_ver
+version
 )
         
 "
@@ -3188,30 +3233,21 @@ parser
 .
 add_argument
 (
-        
 "
 -
 -
-min
--
 app
 -
-ver
+version
 "
 help
 =
 "
-Min
-version
+Version
 of
 the
 application
-the
-langpack
-is
-for
 "
-    
 )
     
 parser
@@ -3429,11 +3465,26 @@ args
 defines
 )
     
+#
+Mangle
+the
+app
+version
+to
+set
+min
+version
+(
+remove
+patch
+level
+)
+    
 min_app_version
 =
 args
 .
-min_app_ver
+app_version
     
 if
 "
@@ -3563,6 +3614,10 @@ create_webmanifest
 args
 .
 locales
+        
+args
+.
+app_version
         
 min_app_version
         
