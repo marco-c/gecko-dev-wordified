@@ -375,11 +375,6 @@ nsMenuX
 mm
 "
 "
-nsNativeBasicThemeCocoa
-.
-cpp
-"
-"
 nsPrintDialogX
 .
 mm
@@ -604,6 +599,12 @@ LOCAL_INCLUDES
 +
 =
 [
+"
+/
+dom
+/
+events
+"
 "
 /
 dom

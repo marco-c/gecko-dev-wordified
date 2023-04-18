@@ -246,6 +246,13 @@ endif
 MOZ_LOGGING
 *
 /
+using
+namespace
+mozilla
+:
+:
+gl
+;
 namespace
 mozilla
 :

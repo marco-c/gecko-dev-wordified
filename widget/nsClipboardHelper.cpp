@@ -104,6 +104,13 @@ basics
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
