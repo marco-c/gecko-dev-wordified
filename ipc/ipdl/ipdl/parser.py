@@ -1304,6 +1304,19 @@ t
 .
 value
 =
+StringLiteral
+(
+Loc
+(
+Parser
+.
+current
+.
+filename
+t
+.
+lineno
+)
 t
 .
 value
@@ -1313,6 +1326,7 @@ value
 -
 1
 ]
+)
     
 return
 t
@@ -1915,6 +1929,8 @@ p
 [
 2
 ]
+.
+value
 )
 def
 p_IncludeStmt
@@ -2183,6 +2199,8 @@ p
 [
 6
 ]
+.
+value
     
 )
 #
@@ -3935,6 +3953,12 @@ AttributeValue
 =
 '
 ID
+    
+|
+'
+=
+'
+STRING
     
 |
 "
