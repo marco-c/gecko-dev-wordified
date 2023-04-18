@@ -456,6 +456,9 @@ client
 debugger
 "
 "
+src
+"
+"
 .
 eslintignore
 "
@@ -508,6 +511,8 @@ devtools
 client
 /
 debugger
+/
+src
 /
 {
 p
