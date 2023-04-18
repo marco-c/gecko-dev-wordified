@@ -1757,7 +1757,14 @@ if
 (
 settings
 .
-printToFile
+outputDestination
+=
+=
+Ci
+.
+nsIPrintSettings
+.
+kOutputDestinationFile
 &
 &
 !
