@@ -867,6 +867,12 @@ End
 (
 )
 ;
+int64_t
+GetUsage
+(
+)
+const
+;
 private
 :
 ~
