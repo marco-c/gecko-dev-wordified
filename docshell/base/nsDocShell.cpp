@@ -83284,6 +83284,7 @@ URI
 (
 )
 triggeringPrincipal
+nullptr
 mBrowsingContext
 /
 *
