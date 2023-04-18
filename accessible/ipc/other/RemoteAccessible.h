@@ -288,6 +288,13 @@ DefaultTextAttributes
 )
 override
 ;
+virtual
+uint32_t
+StartOffset
+(
+)
+override
+;
 protected
 :
 explicit

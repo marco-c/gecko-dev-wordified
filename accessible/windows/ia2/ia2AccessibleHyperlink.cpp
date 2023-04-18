@@ -676,11 +676,11 @@ aIndex
 =
 0
 ;
-LocalAccessible
+Accessible
 *
 thisObj
 =
-LocalAcc
+Acc
 (
 )
 ;
