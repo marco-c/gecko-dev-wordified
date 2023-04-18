@@ -2309,6 +2309,12 @@ transport_
 GetMainThreadSerialEventTarget
 (
 )
+AbstractThread
+:
+:
+MainThread
+(
+)
 test_utils
 -
 >
@@ -2498,6 +2504,12 @@ MediaPipelineReceiveAudio
 test_pc
 transport_
 GetMainThreadSerialEventTarget
+(
+)
+AbstractThread
+:
+:
+MainThread
 (
 )
 test_utils
