@@ -1302,6 +1302,13 @@ j
 ]
 ;
 }
+if
+(
+aOutChannels
+>
+aInChannels
+)
+{
 for
 (
 int32_t
@@ -1331,6 +1338,7 @@ j
 =
 0
 ;
+}
 }
 }
 }
