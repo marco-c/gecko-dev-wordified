@@ -158,6 +158,14 @@ get_branch_repo
     
 get_branch_rev
 )
+from
+gecko_taskgraph
+.
+util
+.
+attributes
+import
+is_try
 mozharness_run_schema
 =
 Schema
@@ -1632,12 +1640,11 @@ script
 ]
     
 if
+is_try
+(
 config
 .
 params
-.
-is_try
-(
 )
 :
         
@@ -2420,12 +2427,11 @@ own
 .
     
 if
+is_try
+(
 config
 .
 params
-.
-is_try
-(
 )
 :
         

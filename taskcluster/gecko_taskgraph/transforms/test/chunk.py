@@ -73,6 +73,7 @@ util
 attributes
 import
 keymatch
+is_try
 from
 gecko_taskgraph
 .
@@ -316,12 +317,11 @@ chunks
 perfile_number_of_chunks
 (
                 
+is_try
+(
 config
 .
 params
-.
-is_try
-(
 )
                 
 env
