@@ -164,6 +164,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
