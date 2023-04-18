@@ -4161,7 +4161,11 @@ Reject
 (
 MediaResult
 (
-NS_ERROR_DOM_MEDIA_FATAL_ERR
+aError
+.
+Code
+(
+)
 RESULT_DETAIL
 (
 "
