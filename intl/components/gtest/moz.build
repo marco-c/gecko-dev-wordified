@@ -155,6 +155,11 @@ TestNumberingSystem
 cpp
 "
 "
+TestNumberParser
+.
+cpp
+"
+"
 TestPluralRules
 .
 cpp
