@@ -1176,6 +1176,13 @@ pageUrl
 }
 [
 shareActivity
+setEligibleForHandoff
+:
+NO
+]
+;
+[
+shareActivity
 setTitle
 :
 pageTitle
