@@ -3035,6 +3035,10 @@ Priority
 :
 :
 NORMAL
+MediaThreadType
+:
+:
+WEBRTC_CALL_THREAD
 )
 .
 release

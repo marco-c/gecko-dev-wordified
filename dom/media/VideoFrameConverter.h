@@ -424,7 +424,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-WEBRTC_DECODER
+WEBRTC_WORKER
 )
 "
 VideoFrameConverter
