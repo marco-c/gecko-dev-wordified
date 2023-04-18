@@ -1264,6 +1264,9 @@ bailouts
 union
 RegisterContent
 {
+float
+s
+;
 double
 d
 ;

@@ -2537,7 +2537,12 @@ reg
 )
 ;
 }
-double
+template
+<
+typename
+T
+>
+T
 fromRegister
 (
 FloatRegister
@@ -2550,6 +2555,9 @@ machine_
 -
 >
 read
+<
+T
+>
 (
 reg
 )
