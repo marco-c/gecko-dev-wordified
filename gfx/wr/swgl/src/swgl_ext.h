@@ -6971,9 +6971,12 @@ x
 |
 |
 (
+abs
+(
 uv_step
 .
 x
+)
 *
 span
 *
@@ -7022,9 +7025,12 @@ y
 |
 |
 (
+abs
+(
 uv_step
 .
 y
+)
 *
 span
 *
