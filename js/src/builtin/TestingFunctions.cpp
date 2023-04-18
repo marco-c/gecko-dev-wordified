@@ -26573,7 +26573,7 @@ cx
 stack
 id
 callee
-0
+JSPROP_ENUMERATE
 )
 )
 {
