@@ -294,6 +294,12 @@ aReason
 do
 {
 \
+if
+(
+nyx_handle_event
+)
+{
+\
 nyx_handle_event
 (
 aType
@@ -302,6 +308,8 @@ __LINE__
 aReason
 )
 ;
+\
+}
 \
 }
 while
@@ -321,6 +329,12 @@ aReason
 do
 {
 \
+if
+(
+nyx_handle_event
+)
+{
+\
 nyx_handle_event
 (
 aType
@@ -329,6 +343,8 @@ aLine
 aReason
 )
 ;
+\
+}
 \
 }
 while
