@@ -1144,12 +1144,13 @@ aDocument
 )
 )
 {
+depth
+=
 dx
 -
 >
 GetDepth
 (
-depth
 )
 ;
 }
