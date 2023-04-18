@@ -518,6 +518,13 @@ checkCompatibility
 "
 extensions
 .
+eventPages
+.
+enabled
+"
+"
+extensions
+.
 formautofill
 .
 "
@@ -525,6 +532,13 @@ formautofill
 extensions
 .
 lastAppVersion
+"
+"
+extensions
+.
+manifestV3
+.
+enabled
 "
 "
 extensions
