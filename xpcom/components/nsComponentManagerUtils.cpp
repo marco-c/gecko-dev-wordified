@@ -397,9 +397,6 @@ const
 nsCID
 &
 aCID
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -440,7 +437,6 @@ compMgr
 CreateInstance
 (
 aCID
-aDelegate
 aIID
 aResult
 )
@@ -457,9 +453,6 @@ const
 char
 *
 aContractID
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -499,7 +492,6 @@ compMgr
 CreateInstanceByContractID
 (
 aContractID
-aDelegate
 aIID
 aResult
 )
@@ -634,9 +626,6 @@ const
 nsCID
 &
 aCID
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -679,7 +668,6 @@ nsComponentManagerImpl
 CreateInstance
 (
 aCID
-aDelegate
 aIID
 aResult
 )
@@ -692,9 +680,6 @@ const
 char
 *
 aContractID
-nsISupports
-*
-aDelegate
 const
 nsIID
 &
@@ -737,7 +722,6 @@ nsComponentManagerImpl
 CreateInstanceByContractID
 (
 aContractID
-aDelegate
 aIID
 aResult
 )
@@ -878,7 +862,6 @@ status
 CallCreateInstance
 (
 mCID
-nullptr
 aIID
 aInstancePtr
 )
@@ -937,7 +920,6 @@ status
 CallCreateInstance
 (
 mContractID
-nullptr
 aIID
 aInstancePtr
 )

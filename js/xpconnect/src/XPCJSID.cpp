@@ -4539,7 +4539,6 @@ contractID
 get
 (
 )
-nullptr
 *
 iid
 getter_AddRefs

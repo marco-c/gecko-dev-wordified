@@ -88,12 +88,6 @@ ffi
 :
 CStr
 ;
-use
-std
-:
-:
-ptr
-;
 /
 /
 /
@@ -350,12 +344,6 @@ CreateInstanceByContractID
 id
 .
 as_ptr
-(
-)
-ptr
-:
-:
-null
 (
 )
 &

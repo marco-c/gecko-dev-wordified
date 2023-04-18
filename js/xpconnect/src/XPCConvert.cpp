@@ -8527,7 +8527,6 @@ cm
 CreateInstanceByContractID
 (
 NS_SUPPORTS_DOUBLE_CONTRACTID
-nullptr
 NS_GET_IID
 (
 nsISupportsDouble
@@ -8539,9 +8538,11 @@ data
 )
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 data
 -
 >
