@@ -8287,7 +8287,7 @@ MOZ_ASSERT
 (
 lazyStubs_
 .
-readLock
+lock
 (
 )
 -
@@ -8585,7 +8585,7 @@ data
 ;
 lazyStubs_
 .
-readLock
+lock
 (
 )
 -
@@ -10096,7 +10096,7 @@ lazyStubs
 (
 )
 .
-readLock
+lock
 (
 )
 ;

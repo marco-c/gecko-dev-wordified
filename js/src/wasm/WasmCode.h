@@ -4239,7 +4239,7 @@ stubs
 not
 serialized
 .
-RWExclusiveData
+ExclusiveData
 <
 LazyStubTier
 >
@@ -4394,7 +4394,7 @@ tier
 ;
 }
 const
-RWExclusiveData
+ExclusiveData
 <
 LazyStubTier
 >
