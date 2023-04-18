@@ -3675,11 +3675,9 @@ aColumnIndex
 )
 {
 return
-ToResultInvoke
-<
-IndexDataValuesAutoArray
->
+MOZ_TO_RESULT_INVOKE_TYPED
 (
+IndexDataValuesAutoArray
 &
 ReadCompressedIndexDataValuesFromSource
 <

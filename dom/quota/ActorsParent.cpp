@@ -20491,14 +20491,12 @@ do_Init
 (
 mIOThread
 )
-ToResultInvoke
-<
+MOZ_TO_RESULT_INVOKE_TYPED
+(
 nsCOMPtr
 <
 nsIThread
 >
->
-(
 MOZ_SELECT_OVERLOAD
 (
 NS_NewNamedThread
