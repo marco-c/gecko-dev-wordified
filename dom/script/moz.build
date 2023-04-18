@@ -152,6 +152,11 @@ LoadedScript
 h
 "
 "
+ModuleLoader
+.
+h
+"
+"
 ModuleMapKey
 .
 h
@@ -198,6 +203,11 @@ cpp
 "
 "
 LoadedScript
+.
+cpp
+"
+"
+ModuleLoader
 .
 cpp
 "
