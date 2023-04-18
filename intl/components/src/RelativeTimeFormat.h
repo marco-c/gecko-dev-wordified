@@ -512,7 +512,7 @@ constexpr
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 B
@@ -521,9 +521,6 @@ B
 CharType
 char
 >
-:
-:
-value
 )
 {
 mozilla
