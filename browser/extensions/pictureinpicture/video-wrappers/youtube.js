@@ -195,13 +195,9 @@ querySelector
 (
 "
 .
-ytp
+captions
 -
-caption
--
-window
--
-bottom
+text
 "
 )
 ?
