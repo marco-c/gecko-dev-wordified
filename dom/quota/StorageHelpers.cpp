@@ -272,7 +272,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 mDatabaseFile
 Exists
@@ -293,7 +293,7 @@ const
 auto
 &
 path
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 mDatabaseFile
@@ -307,7 +307,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <

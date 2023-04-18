@@ -697,7 +697,7 @@ const
 int64_t
 &
 fileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 bodyFile
 GetFileSize
@@ -1160,7 +1160,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDBFile
 Exists
@@ -2028,7 +2028,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 file
@@ -2210,7 +2210,7 @@ const
 int64_t
 &
 fileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 GetFileSize

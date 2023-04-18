@@ -3872,7 +3872,7 @@ OrElseIf
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -4098,7 +4098,7 @@ false
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -4153,7 +4153,7 @@ QM_TRY_UNWRAP
 (
 int32_t
 schemaVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 connection
 GetSchemaVersion
@@ -4373,7 +4373,7 @@ const
 int32_t
 &
 schemaVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 connection
 GetSchemaVersion
@@ -4398,7 +4398,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -4613,7 +4613,7 @@ NS_ERROR_FAILURE
 QM_TRY_UNWRAP
 (
 schemaVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 connection
 GetSchemaVersion
@@ -4671,7 +4671,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDBFile
 Exists
@@ -4689,7 +4689,7 @@ const
 int64_t
 &
 fileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDBFile
 GetFileSize
@@ -4722,7 +4722,7 @@ const
 auto
 &
 vacuumTimeStmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -4869,7 +4869,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 databaseFile
 Exists
@@ -4912,7 +4912,7 @@ QM_TRY_UNWRAP
 (
 auto
 connection
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5083,7 +5083,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 archiveFile
 IsDirectory
@@ -5148,7 +5148,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5418,7 +5418,7 @@ const
 auto
 &
 journalMode
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 *
@@ -5502,7 +5502,7 @@ const
 int32_t
 &
 pageSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -5712,7 +5712,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5770,7 +5770,7 @@ false
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -6079,7 +6079,7 @@ false
 QM_TRY_UNWRAP
 (
 connection
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -6178,7 +6178,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 shadowFile
 Exists
@@ -6219,7 +6219,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -6285,7 +6285,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 shadowFile
 Exists
@@ -6306,7 +6306,7 @@ const
 auto
 &
 path
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 shadowFile
@@ -6320,7 +6320,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -6683,7 +6683,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFile
 IsDirectory
@@ -6981,7 +6981,7 @@ const
 int64_t
 &
 fileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aUsageFile
 GetFileSize
@@ -7049,7 +7049,7 @@ const
 uint32_t
 &
 cookie
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read32
@@ -7077,7 +7077,7 @@ const
 uint64_t
 &
 usage
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read64
@@ -16553,7 +16553,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -16632,7 +16632,7 @@ const
 auto
 &
 originSuffix
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -16647,7 +16647,7 @@ const
 auto
 &
 originNoSuffix
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -16902,7 +16902,7 @@ NS_ERROR_FAILURE
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -21000,7 +21000,7 @@ NS_ERROR_FAILURE
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -23157,7 +23157,7 @@ const
 auto
 &
 databaseFilePath
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 directoryEntry
@@ -23268,7 +23268,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directoryEntry
 Exists
@@ -23324,7 +23324,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directoryEntry
 Exists
@@ -38878,7 +38878,7 @@ const
 auto
 &
 directoryPath
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 directoryEntry
@@ -39534,7 +39534,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -39663,7 +39663,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -39724,7 +39724,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -40124,7 +40124,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aEntry
 Exists
@@ -40293,7 +40293,7 @@ const
 auto
 &
 origin
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -42306,7 +42306,7 @@ QM_TRY_UNWRAP
 (
 auto
 key
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 stmt
@@ -42749,7 +42749,7 @@ const
 auto
 &
 value
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 aFunctionArguments
@@ -42911,7 +42911,7 @@ const
 auto
 &
 value
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 aFunctionArguments
@@ -46128,7 +46128,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directory
 Exists
@@ -46149,7 +46149,7 @@ const
 auto
 &
 directoryPath
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 directory
@@ -46638,7 +46638,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 file
@@ -47430,7 +47430,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -47520,7 +47520,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -49394,7 +49394,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -49929,7 +49929,7 @@ const
 auto
 &
 suffix
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 aFunctionArguments

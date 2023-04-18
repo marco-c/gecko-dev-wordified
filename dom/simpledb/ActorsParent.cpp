@@ -9293,7 +9293,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 IsDirectory
@@ -9350,7 +9350,7 @@ const
 int64_t
 &
 fileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 GetFileSize

@@ -2998,7 +2998,7 @@ const
 int32_t
 &
 storageVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 GetSchemaVersion
@@ -3089,7 +3089,7 @@ NS_ERROR_FILE_CORRUPTED
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -3118,7 +3118,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -3866,7 +3866,7 @@ else
 QM_TRY_UNWRAP
 (
 insertStmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -4124,7 +4124,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aWebAppsStoreFile
 Exists
@@ -4166,7 +4166,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aWebAppsStoreFile
 IsDirectory
@@ -4213,7 +4213,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -4451,7 +4451,7 @@ AssertIsOnIOThread
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 TableExists
@@ -4540,7 +4540,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -4655,7 +4655,7 @@ NS_ERROR_FILE_CORRUPTED
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -10558,7 +10558,7 @@ const
 auto
 &
 baseDomain
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 *
@@ -10769,7 +10769,7 @@ QM_TRY_UNWRAP
 (
 int64_t
 timestamp
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 metadataFile
 GetLastModifiedTime
@@ -12919,7 +12919,7 @@ aStorageName
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 storageDir
@@ -13065,7 +13065,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 aFile
@@ -13111,7 +13111,7 @@ QM_TRY_UNWRAP
 (
 int64_t
 timestamp
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFile
 GetLastModifiedTime
@@ -13363,7 +13363,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDirectory
 Create
@@ -13424,7 +13424,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDirectory
 IsDirectory
@@ -13511,7 +13511,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 &
 aFile
@@ -13908,7 +13908,7 @@ const
 auto
 &
 file
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -14107,7 +14107,7 @@ const
 auto
 &
 file
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -14431,7 +14431,7 @@ const
 auto
 &
 file
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -20409,7 +20409,7 @@ do_Init
 (
 mStoragePath
 )
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 baseDir
@@ -23202,7 +23202,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -23289,7 +23289,7 @@ const
 int32_t
 &
 repositoryId
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -23341,7 +23341,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mSuffix
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -23355,7 +23355,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mGroup
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -23369,7 +23369,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mOrigin
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -23384,7 +23384,7 @@ const
 auto
 &
 clientUsagesText
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -23415,7 +23415,7 @@ const
 int64_t
 &
 usage
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -23428,7 +23428,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mLastAccessTime
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -23442,7 +23442,7 @@ const
 int64_t
 &
 accessed
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -23455,7 +23455,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mPersisted
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -23614,7 +23614,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directory
 Exists
@@ -23639,7 +23639,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directory
 IsDirectory
@@ -23945,7 +23945,7 @@ const
 int32_t
 &
 valid
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -23979,7 +23979,7 @@ const
 auto
 &
 buildId
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 stmt
@@ -24583,7 +24583,7 @@ else
 QM_TRY_UNWRAP
 (
 insertStmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -24696,7 +24696,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -24868,7 +24868,7 @@ const
 auto
 &
 path
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 aFile
@@ -24938,7 +24938,7 @@ const
 auto
 &
 directoryPath
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 directory
@@ -24995,7 +24995,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFile
 Exists
@@ -25009,7 +25009,7 @@ exists
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFile
 GetFileSize
@@ -25939,7 +25939,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mLastAccessTime
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read64
@@ -25951,7 +25951,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mPersisted
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 ReadBoolean
@@ -25964,7 +25964,7 @@ const
 bool
 &
 reservedData1
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read32
@@ -25991,7 +25991,7 @@ const
 bool
 &
 reservedData2
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read32
@@ -26014,7 +26014,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mSuffix
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 binaryStream
@@ -26027,7 +26027,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mGroup
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 binaryStream
@@ -26040,7 +26040,7 @@ QM_TRY_UNWRAP
 fullOriginMetadata
 .
 mOrigin
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 binaryStream
@@ -26065,7 +26065,7 @@ const
 bool
 &
 dummy
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 ReadBoolean
@@ -26618,7 +26618,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 childDirectory
@@ -27239,7 +27239,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 targetDirectory
 Exists
@@ -27588,7 +27588,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 file
@@ -28615,7 +28615,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aPersistentStorageDir
 IsDirectory
@@ -28665,7 +28665,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 defaultStorageDir
 Exists
@@ -28802,7 +28802,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 temporaryStorageDir
 Exists
@@ -28820,7 +28820,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 temporaryStorageDir
 IsDirectory
@@ -29005,7 +29005,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directory
 Exists
@@ -29070,7 +29070,7 @@ const
 int32_t
 &
 storageVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 GetSchemaVersion
@@ -30163,7 +30163,7 @@ const
 int32_t
 &
 storageVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 GetSchemaVersion
@@ -30248,7 +30248,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aLsArchiveFile
 Exists
@@ -30373,7 +30373,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 defaultStorageDir
 Exists
@@ -30425,7 +30425,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 originDir
 Exists
@@ -30489,7 +30489,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 lsDir
 Exists
@@ -30516,7 +30516,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 lsDir
 IsDirectory
@@ -30620,7 +30620,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 originDir
@@ -30734,7 +30734,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aLsArchiveFile
 Exists
@@ -30888,7 +30888,7 @@ const
 auto
 &
 journalMode
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 *
@@ -31110,7 +31110,7 @@ const
 auto
 &
 lsArchiveTmpConnection
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -31444,7 +31444,7 @@ QM_TRY_UNWRAP
 (
 auto
 lsArchiveConnection
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -31517,7 +31517,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aLsArchiveFile
 Exists
@@ -31538,7 +31538,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aLsArchiveFile
 IsDirectory
@@ -31617,7 +31617,7 @@ QM_TRY_UNWRAP
 (
 auto
 connection
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -31778,7 +31778,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aLsArchiveFile
 Exists
@@ -32056,7 +32056,7 @@ const
 auto
 &
 storageFileExists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aStorageFile
 Exists
@@ -32088,7 +32088,7 @@ const
 auto
 &
 indexedDBDirExists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 indexedDBDir
 Exists
@@ -32148,7 +32148,7 @@ const
 auto
 &
 persistentStorageDirExists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 persistentStorageDir
 Exists
@@ -32196,7 +32196,7 @@ QM_TRY_UNWRAP
 (
 auto
 storageVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 GetSchemaVersion
@@ -32350,7 +32350,7 @@ const
 auto
 &
 storageDirExists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 storageDir
 Exists
@@ -32509,7 +32509,7 @@ const
 int32_t
 &
 storageVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 GetSchemaVersion
@@ -32771,7 +32771,7 @@ available
 QM_TRY_UNWRAP
 (
 storageVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 GetSchemaVersion
@@ -32839,7 +32839,7 @@ const
 bool
 &
 exists
-QM_TO_RESULT_INVOKE
+QM_TO_RESULT_INVOKE_MEMBER
 (
 lsArchiveTmpFile
 Exists
@@ -32919,7 +32919,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aLsArchiveFile
 Exists
@@ -33493,7 +33493,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aLsArchiveFile
 Exists
@@ -33632,7 +33632,7 @@ QM_TRY_UNWRAP
 const
 auto
 connection
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -33805,7 +33805,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -33864,7 +33864,7 @@ false
 QM_TRY_UNWRAP
 (
 connection
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -35006,7 +35006,7 @@ const
 int64_t
 &
 diskSpaceAvailable
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 storageDir
 GetDiskSpaceAvailable
@@ -35260,7 +35260,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDirectory
 Exists
@@ -35279,7 +35279,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 aDirectory
@@ -37155,7 +37155,7 @@ QM_TRY_UNWRAP
 const
 auto
 origin
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoCString
 aPrincipal
@@ -43299,7 +43299,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 Exists
@@ -46263,7 +46263,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directory
 Exists
@@ -46428,7 +46428,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 file
@@ -46948,7 +46948,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directory
 Exists
@@ -47057,7 +47057,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 originDir
@@ -50252,7 +50252,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 file
@@ -50404,7 +50404,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 Exists
@@ -51936,7 +51936,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 directory
 Exists
@@ -53902,7 +53902,7 @@ const
 uint64_t
 &
 timestamp
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read64
@@ -53915,7 +53915,7 @@ const
 auto
 &
 group
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 binaryStream
@@ -53929,7 +53929,7 @@ const
 auto
 &
 origin
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 binaryStream
@@ -54053,7 +54053,7 @@ const
 uint64_t
 &
 timestamp
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read64
@@ -54066,7 +54066,7 @@ const
 bool
 &
 persisted
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 ReadBoolean
@@ -54084,7 +54084,7 @@ const
 bool
 &
 reservedData1
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read32
@@ -54102,7 +54102,7 @@ const
 bool
 &
 reservedData2
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 Read32
@@ -54120,7 +54120,7 @@ const
 auto
 &
 suffix
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 binaryStream
@@ -54134,7 +54134,7 @@ const
 auto
 &
 group
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 binaryStream
@@ -54148,7 +54148,7 @@ const
 auto
 &
 origin
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 binaryStream
@@ -54162,7 +54162,7 @@ const
 bool
 &
 isApp
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 binaryStream
 ReadBoolean
@@ -54397,7 +54397,7 @@ const
 auto
 &
 newFile
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -54431,7 +54431,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 newFile
 Exists
@@ -54828,7 +54828,7 @@ const
 auto
 &
 baseDomain
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 specURL
@@ -55193,7 +55193,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 *
@@ -57544,7 +57544,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 mDirectory
 Exists
@@ -57591,7 +57591,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 originFile
@@ -57754,7 +57754,7 @@ const
 bool
 &
 removed
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 self
 PrepareOriginDirectory
@@ -57908,7 +57908,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 file
@@ -57980,7 +57980,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 dir
@@ -57994,7 +57994,7 @@ const
 bool
 &
 removed
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 self
 PrepareClientDirectory
@@ -58409,7 +58409,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 metadataFile
 Exists
@@ -58588,7 +58588,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 idbDirectory
 IsDirectory
@@ -58652,7 +58652,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsAutoString
 file
@@ -59020,7 +59020,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 newDirectory
 Exists
@@ -59618,7 +59618,7 @@ const
 auto
 &
 morgueDir
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -59656,7 +59656,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 morgueDir
 Exists

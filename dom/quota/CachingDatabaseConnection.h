@@ -1113,7 +1113,7 @@ const
 bool
 &
 hasResult
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 &
 *

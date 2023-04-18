@@ -780,7 +780,7 @@ const
 bool
 &
 hasResults
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 ExecuteStep
@@ -12685,7 +12685,7 @@ const
 bool
 &
 hasResult
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 ExecuteStep
@@ -16279,7 +16279,7 @@ available
 QM_TRY_UNWRAP
 (
 schemaVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 GetSchemaVersion

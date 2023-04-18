@@ -221,7 +221,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDirectory
 Exists
@@ -308,7 +308,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 file
@@ -405,7 +405,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 file

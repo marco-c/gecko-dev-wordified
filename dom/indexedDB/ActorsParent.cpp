@@ -4751,7 +4751,7 @@ const
 auto
 &
 mutator
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -5422,7 +5422,7 @@ const
 auto
 &
 journalMode
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 *
@@ -5594,7 +5594,7 @@ QM_TRY_UNWRAP
 (
 auto
 connection
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -6025,7 +6025,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDirectory
 Exists
@@ -6043,7 +6043,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDirectory
 IsDirectory
@@ -6467,7 +6467,7 @@ const
 int32_t
 &
 schemaVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 connection
 GetSchemaVersion
@@ -6662,7 +6662,7 @@ transaction
 QM_TRY
 (
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 connection
 ExecuteSimpleSQL
@@ -6858,7 +6858,7 @@ const
 int32_t
 &
 schemaVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 connection
 GetSchemaVersion
@@ -6905,7 +6905,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -6997,7 +6997,7 @@ aOrigin
 }
 QM_TRY
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 transaction
 Commit
@@ -7128,7 +7128,7 @@ const
 int32_t
 &
 pageSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -7224,7 +7224,7 @@ const
 auto
 &
 journalMode
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 *
@@ -7419,7 +7419,7 @@ const
 int64_t
 &
 fileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDBFile
 GetFileSize
@@ -7473,7 +7473,7 @@ const
 auto
 &
 vacuumTimeStmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -7681,7 +7681,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDatabaseFile
 Exists
@@ -29309,7 +29309,7 @@ inputStream
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 inputStream
 Available
@@ -30517,7 +30517,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFile
 GetFileSize
@@ -31780,7 +31780,7 @@ Yes
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFileManagerDirectory
 Remove
@@ -32166,7 +32166,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 fmDirectory
 Exists
@@ -32184,7 +32184,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 fmDirectory
 IsDirectory
@@ -39479,7 +39479,7 @@ DebugOnly
 bool
 >
 hasResult
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 &
 *
@@ -39499,7 +39499,7 @@ const
 int32_t
 &
 freelistCount
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 borrowedStatement
@@ -39901,7 +39901,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 Exists
@@ -39915,7 +39915,7 @@ exists
 {
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 GetFileSize
@@ -40647,7 +40647,7 @@ const
 int32_t
 &
 rows
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 mConnection
 -
@@ -41422,7 +41422,7 @@ const
 int32_t
 &
 type
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aValues
 GetTypeOfIndex
@@ -41451,7 +41451,7 @@ const
 auto
 &
 ids
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 aValues
@@ -41893,7 +41893,7 @@ const
 uint32_t
 &
 numEntries
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aValues
 GetNumEntries
@@ -41915,7 +41915,7 @@ const
 int32_t
 &
 type1
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aValues
 GetTypeOfIndex
@@ -41930,7 +41930,7 @@ const
 int32_t
 &
 type2
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aValues
 GetTypeOfIndex
@@ -66529,7 +66529,7 @@ QM_TRY_UNWRAP
 (
 auto
 path
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 aDirectory
@@ -66618,7 +66618,7 @@ QM_TRY_UNWRAP
 (
 auto
 path
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 journalDirectory
@@ -66646,7 +66646,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -66693,7 +66693,7 @@ const
 int64_t
 &
 id
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -66707,7 +66707,7 @@ const
 int32_t
 &
 dbRefCnt
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt32
@@ -67023,7 +67023,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 journalDirectory
 Exists
@@ -67042,7 +67042,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 journalDirectory
 IsDirectory
@@ -67263,7 +67263,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDirectory
 Exists
@@ -67286,7 +67286,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDirectory
 IsDirectory
@@ -67322,7 +67322,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 journalDirectory
 Exists
@@ -67340,7 +67340,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 journalDirectory
 IsDirectory
@@ -67394,7 +67394,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 file
@@ -67554,7 +67554,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -67594,7 +67594,7 @@ const
 auto
 &
 path
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 journalDirectory
@@ -67970,7 +67970,7 @@ QM_OR_ELSE_WARN_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 file
 GetFileSize
@@ -69447,7 +69447,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 subdirWithSuffix
 Exists
@@ -69624,7 +69624,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 file
@@ -69781,7 +69781,7 @@ AssertIsOnIOThread
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 this
 GetUsageForOriginInternal
@@ -69864,7 +69864,7 @@ AssertIsOnIOThread
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 this
 GetUsageForOriginInternal
@@ -70554,7 +70554,7 @@ const
 int64_t
 &
 fileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 databaseFile
 GetFileSize
@@ -70655,7 +70655,7 @@ QM_OR_ELSE_LOG_VERBOSE_IF
 /
 Expression
 .
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 walFile
 GetFileSize
@@ -71949,7 +71949,7 @@ const
 auto
 &
 leafName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 file
@@ -74081,7 +74081,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 storageDir
 Exists
@@ -74113,7 +74113,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 storageDir
 IsDirectory
@@ -74344,7 +74344,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 persistenceDir
 Exists
@@ -74366,7 +74366,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 persistenceDir
 IsDirectory
@@ -74751,7 +74751,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 idbDir
 Exists
@@ -74776,7 +74776,7 @@ const
 bool
 &
 isDirectory
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 idbDir
 IsDirectory
@@ -74869,7 +74869,7 @@ QM_TRY_UNWRAP
 (
 auto
 idbFilePath
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 idbDirFile
@@ -76650,7 +76650,7 @@ const
 auto
 &
 result
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 *
@@ -76745,7 +76745,7 @@ _ns
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -76936,7 +76936,7 @@ const
 int32_t
 &
 schemaVersion
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aConnection
 GetSchemaVersion
@@ -77105,7 +77105,7 @@ const
 PRTime
 &
 lastVacuumTime
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -77120,7 +77120,7 @@ const
 int64_t
 &
 lastVacuumSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -77413,7 +77413,7 @@ const
 int32_t
 &
 percentUnordered
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -77485,7 +77485,7 @@ const
 int64_t
 &
 currentFileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDatabaseFile
 GetFileSize
@@ -77568,7 +77568,7 @@ const
 int32_t
 &
 freelistCount
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -77695,7 +77695,7 @@ const
 int32_t
 &
 percentUnused
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 *
 stmt
@@ -77937,7 +77937,7 @@ const
 int64_t
 &
 fileSize
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aDatabaseFile
 GetFileSize
@@ -77979,7 +77979,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -81664,7 +81664,7 @@ QM_TRY_UNWRAP
 const
 DebugOnly
 oldProgressHandler
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -86041,7 +86041,7 @@ kSQLiteSuffix
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 dbFile
@@ -87455,7 +87455,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 dbDirectory
 Exists
@@ -87550,7 +87550,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 markerFile
 Exists
@@ -87650,7 +87650,7 @@ const
 auto
 &
 databaseFilePath
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 dbFile
@@ -88224,7 +88224,7 @@ const
 auto
 &
 databaseName
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 stmt
@@ -88259,7 +88259,7 @@ const
 auto
 &
 origin
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCString
 stmt
@@ -88310,7 +88310,7 @@ const
 int64_t
 &
 version
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -88383,7 +88383,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -88468,7 +88468,7 @@ const
 IndexOrObjectStoreId
 &
 objectStoreId
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -88652,7 +88652,7 @@ const
 int32_t
 &
 columnType
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetTypeOfIndex
@@ -88754,7 +88754,7 @@ const
 int64_t
 &
 nextAutoIncrementId
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -88877,7 +88877,7 @@ const
 auto
 &
 stmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -88974,7 +88974,7 @@ const
 IndexOrObjectStoreId
 &
 objectStoreId
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 stmt
 GetInt64
@@ -89780,7 +89780,7 @@ const
 auto
 &
 readStmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -89861,7 +89861,7 @@ writeStmt
 QM_TRY_UNWRAP
 (
 writeStmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -90107,7 +90107,7 @@ const
 auto
 &
 metaStmt
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsCOMPtr
 <
@@ -94115,7 +94115,7 @@ IDB_DIRECTORY_NAME
 QM_TRY_UNWRAP
 (
 mDatabaseDirectoryPath
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 directory
@@ -94156,7 +94156,7 @@ const
 auto
 &
 databaseFilePath
-MOZ_TO_RESULT_INVOKE_TYPED
+MOZ_TO_RESULT_INVOKE_MEMBER_TYPED
 (
 nsString
 dbFile
@@ -94181,7 +94181,7 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 dbFile
 Exists
@@ -102731,7 +102731,7 @@ const
 int32_t
 &
 valueType
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aValues
 GetTypeOfIndex
@@ -115825,7 +115825,7 @@ const
 bool
 &
 hasResult
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aStmt
 ExecuteStep
@@ -118838,7 +118838,7 @@ const
 bool
 &
 hasResult
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 &
 *
@@ -119711,7 +119711,7 @@ const
 auto
 &
 exists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFile
 Exists
@@ -119901,7 +119901,7 @@ const
 auto
 &
 isFile
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFile
 IsFile
@@ -119923,7 +119923,7 @@ const
 auto
 &
 journalExists
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aJournalFile
 Exists
@@ -119945,7 +119945,7 @@ const
 auto
 &
 journalIsFile
-MOZ_TO_RESULT_INVOKE
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aJournalFile
 IsFile
