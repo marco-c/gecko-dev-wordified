@@ -17553,11 +17553,6 @@ lhsDest
 )
 ;
 FloatRegister
-lhsDest
-=
-lhs
-;
-FloatRegister
 rhs
 =
 ToFloatRegister
@@ -18659,8 +18654,9 @@ masm
 .
 swizzleInt8x16
 (
+lhs
 rhs
-lhsDest
+dest
 )
 ;
 break
@@ -18678,8 +18674,9 @@ masm
 .
 swizzleInt8x16Relaxed
 (
+lhs
 rhs
-lhsDest
+dest
 )
 ;
 break

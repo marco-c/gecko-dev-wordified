@@ -46348,6 +46348,7 @@ masm
 .
 swizzleInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -46887,6 +46888,7 @@ masm
 .
 swizzleInt8x16Relaxed
 (
+rsd
 rs
 rsd
 )
