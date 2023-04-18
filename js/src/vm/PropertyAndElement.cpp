@@ -7211,7 +7211,6 @@ DefineFunctions
 cx
 obj
 fs
-NotIntrinsic
 )
 ;
 }
