@@ -2645,7 +2645,10 @@ mJitter
 .
 Construct
 (
+static_cast
+<
 double
+>
 (
 videoStats
 -
@@ -2655,14 +2658,10 @@ rtp_stats
 jitter
 )
 /
-(
 webrtc
 :
 :
 kVideoPayloadTypeFrequency
-/
-1000
-)
 )
 ;
 local
