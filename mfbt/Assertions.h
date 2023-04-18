@@ -3231,13 +3231,7 @@ DEBUG
 if
 defined
 (
-EARLY_BETA_OR_EARLIER
-)
-|
-|
-defined
-(
-DEBUG
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 )
 #
 define
@@ -3264,10 +3258,6 @@ MOZ_DIAGNOSTIC_ASSERT
 __VA_ARGS__
 )
 )
-#
-define
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
-1
 #
 else
 #
