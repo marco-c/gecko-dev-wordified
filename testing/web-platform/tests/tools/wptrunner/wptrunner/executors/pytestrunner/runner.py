@@ -397,6 +397,20 @@ SubtestResultRecorder
 try
 :
                 
+basetemp
+=
+os
+.
+path
+.
+join
+(
+cache
+"
+pytest
+"
+)
+                
 pytest
 .
 main
@@ -448,7 +462,7 @@ tests
 -
 basetemp
 "
-cache
+basetemp
 #
 temporary
 directory
@@ -1076,7 +1090,7 @@ mkdtemp
 prefix
 =
 "
-pytest
+wdspec
 -
 "
 )
