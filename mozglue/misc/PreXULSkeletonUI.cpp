@@ -10491,7 +10491,9 @@ variable
 -
 lwt
 -
-frame
+accent
+-
+color
 theme
 .
 tabBarColor

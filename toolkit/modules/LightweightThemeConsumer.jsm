@@ -199,13 +199,15 @@ toolkitVariableMap
 -
 lwt
 -
-frame
+accent
+-
+color
 "
 {
 lwtProperty
 :
 "
-frame
+accentcolor
 "
 processColor
 (
@@ -279,7 +281,7 @@ color
 lwtProperty
 :
 "
-tab_background_text
+textcolor
 "
 processColor
 (
@@ -2501,7 +2503,7 @@ back
 to
 black
 as
-tab_background_text
+textcolor
 processing
 does
 above
@@ -2521,7 +2523,7 @@ toolbar_text
 |
 aTheme
 .
-tab_background_text
+textcolor
 |
 |
 "
