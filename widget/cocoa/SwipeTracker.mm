@@ -834,7 +834,7 @@ x
 /
 mWidget
 .
-BackingScaleFactor
+GetDefaultScaleInternal
 (
 )
 /
