@@ -689,12 +689,6 @@ processes
 if
 (
 !
-dom
-:
-:
-ContentParent
-:
-:
 ShouldSyncPreference
 (
 strData
