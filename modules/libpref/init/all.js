@@ -30703,8 +30703,7 @@ monospace
 ar
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -30782,8 +30781,7 @@ monospace
 el
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -30866,6 +30864,7 @@ Transparent
 Miriam
 Fixed
 Rod
+Consolas
 Courier
 New
 "
@@ -31195,8 +31194,7 @@ x
 cyrillic
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -31282,8 +31280,7 @@ x
 unicode
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -31369,8 +31366,7 @@ x
 western
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;
@@ -33066,8 +33062,7 @@ x
 math
 "
 "
-Courier
-New
+Consolas
 "
 )
 ;

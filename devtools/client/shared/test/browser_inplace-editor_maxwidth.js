@@ -95,6 +95,11 @@ inplace
 editor
 to
 wrap
+over
+more
+than
+two
+lines
 .
 "
 ;
