@@ -283,6 +283,9 @@ define
 HB_NO_BUFFER_SERIALIZE
 #
 define
+HB_NO_BUFFER_VERIFY
+#
+define
 HB_NO_BITMAP
 #
 define

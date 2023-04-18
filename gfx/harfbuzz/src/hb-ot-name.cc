@@ -341,9 +341,6 @@ alive
 Returns
 :
 (
-out
-)
-(
 transfer
 none
 )
