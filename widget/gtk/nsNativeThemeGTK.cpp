@@ -770,7 +770,7 @@ nsNativeThemeGTK
 :
 Theme
 (
-DefaultPlatformScrollbarStyle
+ScrollbarStyle
 (
 )
 )
@@ -10381,7 +10381,7 @@ Theme
 Theme
 :
 :
-DefaultPlatformScrollbarStyle
+ScrollbarStyle
 (
 )
 )

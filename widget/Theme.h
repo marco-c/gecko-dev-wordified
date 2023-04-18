@@ -596,15 +596,6 @@ UniquePtr
 <
 ScrollbarDrawing
 >
-DefaultPlatformScrollbarStyle
-(
-)
-;
-static
-UniquePtr
-<
-ScrollbarDrawing
->
 ScrollbarStyle
 (
 )

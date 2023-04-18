@@ -2593,7 +2593,7 @@ nsNativeThemeCocoa
 :
 ThemeCocoa
 (
-DefaultPlatformScrollbarStyle
+ScrollbarStyle
 (
 )
 )

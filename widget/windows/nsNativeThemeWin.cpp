@@ -408,7 +408,7 @@ nsNativeThemeWin
 :
 Theme
 (
-DefaultPlatformScrollbarStyle
+ScrollbarStyle
 (
 )
 )
