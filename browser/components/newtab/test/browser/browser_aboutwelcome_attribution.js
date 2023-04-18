@@ -206,9 +206,6 @@ id
 "
 AW_STEP1
 "
-order
-:
-0
 content
 :
 {
@@ -245,9 +242,6 @@ id
 "
 AW_STEP2
 "
-order
-:
-1
 content
 :
 {

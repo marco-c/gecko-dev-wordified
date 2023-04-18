@@ -380,9 +380,6 @@ id
 "
 UPGRADE_PIN_FIREFOX
 "
-order
-:
-0
 content
 :
 {
@@ -808,9 +805,6 @@ id
 "
 DEFAULT_MODAL_UI
 "
-order
-:
-0
 content
 :
 {

@@ -2215,9 +2215,6 @@ id
 "
 AW_PIN_FIREFOX
 "
-order
-:
-0
 content
 :
 {
@@ -2356,9 +2353,6 @@ id
 "
 AW_SET_DEFAULT
 "
-order
-:
-1
 content
 :
 {
@@ -2506,9 +2500,6 @@ id
 "
 BACKGROUND_IMAGE
 "
-order
-:
-2
 content
 :
 {
@@ -2630,9 +2621,6 @@ id
 "
 BACKGROUND_COLOR
 "
-order
-:
-3
 content
 :
 {
