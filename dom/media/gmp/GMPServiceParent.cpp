@@ -408,15 +408,6 @@ MediaKeys
 kMediaKeysRequestTopic
 #
 endif
-using
-mozilla
-:
-:
-ipc
-:
-:
-Transport
-;
 namespace
 mozilla
 :

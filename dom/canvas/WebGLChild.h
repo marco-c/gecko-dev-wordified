@@ -112,6 +112,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
+include
 <
 string
 >

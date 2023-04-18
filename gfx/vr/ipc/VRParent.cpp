@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
