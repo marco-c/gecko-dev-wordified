@@ -54,16 +54,10 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-from
 setuptools
 import
 setup
 find_packages
-import
-sys
 version
 =
 "
@@ -96,39 +90,41 @@ mozfile
 "
     
 "
-mozhttpd
+wptserve
+>
 =
-=
-0
+3
 .
-7
+0
 "
     
 "
 mozinfo
 >
 =
-0
+1
 .
-10
+2
 "
     
 "
 mozinstall
 =
 =
-1
+2
 .
-16
+0
+.
+1
 "
     
 "
 mozprocess
 =
 =
-0
+1
 .
-26
+3
 "
     
 "
@@ -144,7 +140,7 @@ mozprofile
 mozrunner
 ~
 =
-7
+8
 .
 2
 "
@@ -153,9 +149,9 @@ mozrunner
 mozversion
 =
 =
-1
+2
 .
-5
+3
 "
     
 "
@@ -167,37 +163,6 @@ PyYAML
 0
 "
 ]
-#
-we
-only
-support
-python
-2
-.
-6
-+
-right
-now
-assert
-sys
-.
-version_info
-[
-0
-]
-=
-=
-2
-assert
-sys
-.
-version_info
-[
-1
-]
->
-=
-6
 setup
 (
     
