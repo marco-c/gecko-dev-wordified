@@ -99,7 +99,7 @@ jsm
 )
 ;
 class
-Command
+CommandModule
 extends
 Module
 {
@@ -176,5 +176,5 @@ windowGlobalValue
 const
 command
 =
-Command
+CommandModule
 ;

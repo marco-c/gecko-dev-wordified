@@ -99,7 +99,7 @@ jsm
 )
 ;
 class
-Command
+CommandModule
 extends
 Module
 {
@@ -413,5 +413,5 @@ false
 const
 command
 =
-Command
+CommandModule
 ;

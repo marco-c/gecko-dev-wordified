@@ -99,7 +99,7 @@ jsm
 )
 ;
 class
-Event
+EventModule
 extends
 Module
 {
@@ -230,5 +230,5 @@ text
 const
 event
 =
-Event
+EventModule
 ;

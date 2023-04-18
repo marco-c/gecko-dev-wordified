@@ -142,7 +142,7 @@ jsm
 )
 ;
 class
-Log
+LogModule
 extends
 Module
 {
@@ -357,5 +357,5 @@ entryAdded
 const
 log
 =
-Log
+LogModule
 ;

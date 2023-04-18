@@ -99,7 +99,7 @@ jsm
 )
 ;
 class
-CommandWindowGlobalOnly
+CommandWindowGlobalOnlyModule
 extends
 Module
 {
@@ -240,5 +240,5 @@ destination
 const
 commandwindowglobalonly
 =
-CommandWindowGlobalOnly
+CommandWindowGlobalOnlyModule
 ;

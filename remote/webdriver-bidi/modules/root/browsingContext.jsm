@@ -195,7 +195,7 @@ jsm
 )
 ;
 class
-BrowsingContext
+BrowsingContextModule
 extends
 Module
 {
@@ -769,5 +769,5 @@ contextCreated
 const
 browsingContext
 =
-BrowsingContext
+BrowsingContextModule
 ;

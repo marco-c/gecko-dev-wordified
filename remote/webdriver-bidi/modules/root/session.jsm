@@ -180,7 +180,7 @@ jsm
 )
 ;
 class
-Session
+SessionModule
 extends
 Module
 {
@@ -1265,5 +1265,5 @@ case
 const
 session
 =
-Session
+SessionModule
 ;

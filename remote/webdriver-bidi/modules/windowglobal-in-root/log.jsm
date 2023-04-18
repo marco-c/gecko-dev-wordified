@@ -123,7 +123,7 @@ jsm
 )
 ;
 class
-Log
+LogModule
 extends
 Module
 {
@@ -136,5 +136,5 @@ destroy
 const
 log
 =
-Log
+LogModule
 ;
