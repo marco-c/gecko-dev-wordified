@@ -4077,7 +4077,7 @@ grid
 container
 '
 s
-padding
+content
 box
 (
 which
@@ -4091,6 +4091,8 @@ subtracting
 away
 its
 border
+&
+padding
 from
 frame
 '
@@ -4109,12 +4111,12 @@ pcWM
 )
 ;
 LogicalMargin
-pcBorder
+pcBorderPadding
 =
 aPlaceholderContainer
 -
 >
-GetLogicalUsedBorder
+GetLogicalUsedBorderAndPadding
 (
 pcWM
 )
@@ -4122,7 +4124,7 @@ pcWM
 alignAreaSize
 -
 =
-pcBorder
+pcBorderPadding
 .
 Size
 (
