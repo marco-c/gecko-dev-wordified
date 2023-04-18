@@ -2156,6 +2156,9 @@ multiple
 pattern
 "
 "
+readonly
+"
+"
 required
 "
 "
