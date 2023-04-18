@@ -1838,6 +1838,7 @@ File
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CallPrintCallback
 (
