@@ -251,11 +251,9 @@ hash
 h
 "
 U_NAMESPACE_BEGIN
+typedef
 struct
 OlsonToMetaMappingEntry
-:
-public
-UMemory
 {
 const
 UChar
@@ -284,6 +282,7 @@ UDate
 to
 ;
 }
+OlsonToMetaMappingEntry
 ;
 class
 UVector

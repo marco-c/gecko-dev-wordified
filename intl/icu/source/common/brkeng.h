@@ -677,8 +677,6 @@ endPos
 UVector32
 &
 foundBreaks
-UBool
-isPhraseBreaking
 UErrorCode
 &
 status
@@ -1515,8 +1513,6 @@ endPos
 UVector32
 &
 foundBreaks
-UBool
-isPhraseBreaking
 UErrorCode
 &
 status

@@ -678,6 +678,9 @@ pre
 >
 *
 /
+#
+ifndef
+U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -1031,7 +1034,7 @@ result
 .
 *
 *
-stable
+draft
 ICU
 69
 *
@@ -1057,7 +1060,7 @@ constraints
 .
 *
 *
-stable
+draft
 ICU
 69
 *
@@ -1080,7 +1083,7 @@ precision
 .
 *
 *
-stable
+draft
 ICU
 69
 *
@@ -1089,6 +1092,11 @@ UNUM_ROUNDING_PRIORITY_STRICT
 }
 UNumberRoundingPriority
 ;
+#
+endif
+/
+/
+U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -3175,6 +3183,9 @@ ICU
 *
 /
 UNUM_SIGN_ACCOUNTING_EXCEPT_ZERO
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -3194,7 +3205,7 @@ zero
 .
 *
 *
-stable
+draft
 ICU
 69
 *
@@ -3219,12 +3230,17 @@ zero
 .
 *
 *
-stable
+draft
 ICU
 69
 *
 /
 UNUM_SIGN_ACCOUNTING_NEGATIVE
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 /
 Do
@@ -3478,6 +3494,9 @@ UNUM_DECIMAL_SEPARATOR_COUNT
 }
 UNumberDecimalSeparatorDisplay
 ;
+#
+ifndef
+U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -3518,7 +3537,7 @@ UNUM_TRAILING_ZERO_HIDE_IF_WHOLE
 10
 *
 *
-stable
+draft
 ICU
 69
 *
@@ -3547,7 +3566,7 @@ digits
 .
 *
 *
-stable
+draft
 ICU
 69
 *
@@ -3576,7 +3595,7 @@ zero
 .
 *
 *
-stable
+draft
 ICU
 69
 *
@@ -3585,6 +3604,11 @@ UNUM_TRAILING_ZERO_HIDE_IF_WHOLE
 }
 UNumberTrailingZeroDisplay
 ;
+#
+endif
+/
+/
+U_FORCE_HIDE_DRAFT_API
 struct
 UNumberFormatter
 ;
