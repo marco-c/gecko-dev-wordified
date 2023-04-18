@@ -354,17 +354,7 @@ FetchStart
 (
 )
 const
-{
-return
-mTimingData
--
->
-FetchStartHighRes
-(
-mPerformance
-)
 ;
-}
 DOMHighResTimeStamp
 RedirectStart
 (
