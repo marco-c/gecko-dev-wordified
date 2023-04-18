@@ -7907,7 +7907,6 @@ if
 mTrrService
 )
 {
-return
 mTrrService
 -
 >

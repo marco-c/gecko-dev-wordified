@@ -119,6 +119,9 @@ protocol
 PSocketProcess
 ;
 include
+NeckoChannelParams
+;
+include
 PSMIPCTypes
 ;
 namespace
@@ -144,6 +147,11 @@ NotifyNetworkConnectivityServiceObservers
 (
 nsCString
 aTopic
+)
+;
+async
+InitTRRConnectionInfo
+(
 )
 ;
 child
@@ -181,6 +189,14 @@ SetDetectedTrrURI
 (
 nsCString
 aURI
+)
+;
+async
+SetDefaultTRRConnectionInfo
+(
+HttpConnectionInfoCloneArgs
+?
+aConnInfoArgs
 )
 ;
 }
