@@ -866,7 +866,12 @@ MarkDirty
 )
 ;
 nsresult
-End
+ExplicitCheckpoint
+(
+)
+;
+nsresult
+ExplicitEnd
 (
 )
 ;
@@ -927,6 +932,10 @@ aDelta
 nsresult
 Checkpoint
 (
+bool
+aSync
+=
+false
 )
 ;
 nsresult
