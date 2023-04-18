@@ -774,6 +774,14 @@ failed
 .
 *
 -
+SYNC_BROKEN_ERROR
+:
+Synchronization
+is
+broken
+.
+*
+-
 CUSTOM_1_ERROR
 :
 Update
@@ -947,6 +955,11 @@ CLEANUP_ERROR
 :
 "
 cleanup_error
+"
+SYNC_BROKEN_ERROR
+:
+"
+sync_broken_error
 "
 CUSTOM_1_ERROR
 :
