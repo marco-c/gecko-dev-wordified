@@ -170,6 +170,17 @@ newlyReleasedChunks
 ;
 }
 ;
+struct
+GatherProfileProgress
+{
+uint32_t
+progressProportionValueUnderlyingType
+;
+nsCString
+progressLocation
+;
+}
+;
 }
 /
 /
