@@ -186,16 +186,6 @@ nsIDNSRecord
 aRecord
 )
 ;
-already_AddRefed
-<
-nsIChannel
->
-SetupIPCheckChannel
-(
-bool
-ipv4
-)
-;
 /
 /
 Will
