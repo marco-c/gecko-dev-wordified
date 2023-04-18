@@ -6931,6 +6931,12 @@ mozilla
 IOInterposerInit
 ioInterposerGuard
 ;
+XRE_InitCommandLine
+(
+argc
+argv
+)
+;
 char
 aLocal
 ;
@@ -9155,6 +9161,10 @@ profiler_shutdown
 )
 ;
 NS_LogTerm
+(
+)
+;
+XRE_DeinitCommandLine
 (
 )
 ;
