@@ -131,6 +131,15 @@ messages
 js
 "
 "
+extensions
+-
+backgroundscript
+-
+status
+.
+js
+"
+"
 index
 .
 js

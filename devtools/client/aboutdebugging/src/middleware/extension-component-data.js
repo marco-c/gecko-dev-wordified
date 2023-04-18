@@ -283,6 +283,7 @@ EXTENSION
 const
 {
 actor
+backgroundScriptStatus
 iconDataURL
 iconURL
 id
@@ -345,6 +346,7 @@ details
 :
 {
 actor
+backgroundScriptStatus
 location
 manifestURL
 persistentBackgroundScript
