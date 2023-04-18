@@ -2311,6 +2311,18 @@ if
 outgoing
 :
                 
+upstream
+=
+outgoing
+if
+isinstance
+(
+outgoing
+str
+)
+else
+None
+                
 try
 :
                     
@@ -2330,7 +2342,7 @@ AM
 "
 upstream
 =
-outgoing
+upstream
 )
                     
 )

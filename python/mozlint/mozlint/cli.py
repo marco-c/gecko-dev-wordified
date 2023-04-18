@@ -621,9 +621,7 @@ outgoing
 const
 "
 :
-"
-default
-"
+True
                 
 "
 nargs
@@ -2582,9 +2580,7 @@ values
             
 outgoing
 =
-"
-default
-"
+True
             
 workdir
 =
