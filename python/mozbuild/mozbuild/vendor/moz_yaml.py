@@ -997,8 +997,6 @@ com
 kinetiknz
 /
 nestegg
-.
-git
   
 #
 Any
@@ -1022,7 +1020,6 @@ vendoring
 from
 selected
 sources
-initially
 .
   
 url

@@ -119,7 +119,7 @@ self
 manifest
 [
 "
-origin
+vendoring
 "
 ]
 [
@@ -258,7 +258,7 @@ self
 manifest
 [
 "
-origin
+vendoring
 "
 ]
 [

@@ -147,7 +147,7 @@ self
 manifest
 [
 "
-origin
+vendoring
 "
 ]
 [
