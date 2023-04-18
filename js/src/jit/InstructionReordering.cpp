@@ -1693,11 +1693,12 @@ postCallTarget
 {
 MOZ_ASSERT
 (
-prev
--
->
-isWasmCall
+MWasmCallBase
+:
+:
+IsWasmCall
 (
+prev
 )
 |
 |
