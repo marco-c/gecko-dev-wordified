@@ -3617,8 +3617,9 @@ private
 void
 computeThisBinding
 (
-Scope
-*
+const
+InputScope
+&
 scope
 )
 ;
@@ -3646,12 +3647,11 @@ Scope
 enclosingScope
 )
 ;
-Scope
-*
+InputScope
 determineEffectiveScope
 (
-Scope
-*
+InputScope
+&
 scope
 JSObject
 *
