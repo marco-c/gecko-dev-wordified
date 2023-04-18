@@ -61,7 +61,7 @@ dom
 "
 ;
 import
-PopularTopics
+PopularTopicsLegacy
 from
 "
 .
@@ -69,9 +69,9 @@ from
 /
 components
 /
-PopularTopics
+PopularTopicsLegacy
 /
-PopularTopics
+PopularTopicsLegacy
 "
 ;
 import
@@ -473,7 +473,7 @@ ReactDOM
 render
 (
 <
-PopularTopics
+PopularTopicsLegacy
 pockethost
 =
 {
