@@ -189,7 +189,9 @@ GET
 key
 =
 uuidMap
-[
+.
+get
+(
 request
 .
 GET
@@ -199,7 +201,8 @@ b
 endpoint
 '
 ]
-]
+0
+)
     
 if
 b
