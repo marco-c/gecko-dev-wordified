@@ -36,7 +36,7 @@ const
 REMOTE_URL
 =
 "
-https
+http
 :
 /
 /

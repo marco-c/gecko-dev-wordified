@@ -59,7 +59,7 @@ const
 kTestPage
 =
 "
-https
+http
 :
 /
 /
