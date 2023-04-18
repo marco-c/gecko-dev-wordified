@@ -322,14 +322,6 @@ OS_TARGET
 Android
 "
 :
-DEFINES
-[
-"
-MULTI_MONITOR_SCREENSHARE
-"
-]
-=
-True
 UNIFIED_SOURCES
 +
 =
