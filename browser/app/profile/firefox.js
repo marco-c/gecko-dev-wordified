@@ -18435,11 +18435,11 @@ stream
 .
 discoverystream
 .
-includeDescriptions
+hideDescriptions
 .
 enabled
 "
-true
+false
 )
 ;
 pref
