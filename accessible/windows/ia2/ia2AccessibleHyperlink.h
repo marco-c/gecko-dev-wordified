@@ -143,6 +143,9 @@ namespace
 a11y
 {
 class
+Accessible
+;
+class
 AccessibleWrap
 ;
 class
@@ -329,6 +332,12 @@ valid
 ;
 private
 :
+Accessible
+*
+Acc
+(
+)
+;
 AccessibleWrap
 *
 LocalAcc
