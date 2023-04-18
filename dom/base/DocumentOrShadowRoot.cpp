@@ -1529,11 +1529,10 @@ aSource
 {
 if
 (
+!
 aSource
 .
-mAdoptedStyleSheets
-.
-IsEmpty
+AdoptedSheetCount
 (
 )
 )
