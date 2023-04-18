@@ -1882,7 +1882,7 @@ simulated
 selection
 .
 |
-filters
+options
 |
 is
 ignored
@@ -1890,7 +1890,7 @@ ignored
 async
 requestDevice
 (
-filters
+options
 )
 {
 return
