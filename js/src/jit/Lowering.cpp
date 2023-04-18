@@ -38536,7 +38536,7 @@ useRegister
 (
 lhs
 )
-useRegisterOrConstant
+useRegister
 (
 rhs
 )
@@ -38573,7 +38573,7 @@ useBox
 (
 lhs
 )
-useRegisterOrConstant
+useRegister
 (
 rhs
 )
