@@ -1621,16 +1621,10 @@ increasePeakUsage
 true
 /
 *
-requestedSize
-*
-/
-131072
-/
-*
 minSize
 *
 /
-4096
+0
 &
 initInfo
 )
