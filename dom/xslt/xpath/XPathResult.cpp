@@ -249,6 +249,10 @@ mResultNodes
 aResult
 .
 mResultNodes
+.
+Clone
+(
+)
 )
 mDocument
 (
@@ -522,7 +526,7 @@ nullptr
 return
 mResultNodes
 .
-SafeObjectAt
+SafeElementAt
 (
 mCurrentPos
 +
@@ -1015,7 +1019,7 @@ i
 ;
 mResultNodes
 .
-AppendObject
+AppendElement
 (
 node
 )
@@ -1055,13 +1059,12 @@ false
 ;
 if
 (
+!
 mResultNodes
 .
-Count
+IsEmpty
 (
 )
->
-0
 )
 {
 /
@@ -1280,12 +1283,9 @@ if
 (
 mResultNodes
 .
-Count
+IsEmpty
 (
 )
-=
-=
-0
 )
 {
 return
@@ -1310,7 +1310,7 @@ count
 =
 mResultNodes
 .
-Count
+Length
 (
 )
 ;

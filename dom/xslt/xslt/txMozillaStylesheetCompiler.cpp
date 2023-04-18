@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsCOMArray
-.
-h
-"
-#
-include
-"
 nsIAuthPrompt
 .
 h
