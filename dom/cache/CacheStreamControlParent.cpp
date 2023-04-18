@@ -929,11 +929,14 @@ NotifyCloseAll
 (
 )
 ;
-Unused
-<
-<
+QM_WARNONLY_TRY
+(
+OkIf
+(
 SendCloseAll
 (
+)
+)
 )
 ;
 }

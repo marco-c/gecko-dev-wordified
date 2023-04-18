@@ -678,11 +678,14 @@ destruction
 from
 parent
 process
-Unused
-<
-<
+QM_WARNONLY_TRY
+(
+OkIf
+(
 SendTeardown
 (
+)
+)
 )
 ;
 }
