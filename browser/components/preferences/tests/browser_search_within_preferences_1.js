@@ -880,6 +880,16 @@ id
 =
 =
 "
+colorsGroup
+"
+|
+|
+child
+.
+id
+=
+=
+"
 fontsGroup
 "
 |

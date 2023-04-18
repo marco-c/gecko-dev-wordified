@@ -176,7 +176,7 @@ Link
 Colors
 "
 "
-fontsGroup
+colorsGroup
 "
 )
 ;
