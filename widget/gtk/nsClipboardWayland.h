@@ -614,7 +614,7 @@ override
 virtual
 GdkAtom
 *
-GetTargets
+GetTargetsImpl
 (
 int32_t
 aWhichClipboard
