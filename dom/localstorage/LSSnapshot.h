@@ -929,6 +929,10 @@ Checkpoint
 nsresult
 Finish
 (
+bool
+aSync
+=
+false
 )
 ;
 void
