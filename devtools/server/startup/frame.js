@@ -461,6 +461,15 @@ data
 .
 addonId
 ;
+const
+addonBrowsingContextGroupId
+=
+msg
+.
+data
+.
+addonBrowsingContextGroupId
+;
 /
 /
 If
@@ -647,6 +656,7 @@ WebExtensionTargetActor
 conn
 {
 addonId
+addonBrowsingContextGroupId
 chromeGlobal
 isTopLevelTarget
 :

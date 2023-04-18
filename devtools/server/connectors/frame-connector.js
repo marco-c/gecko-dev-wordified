@@ -287,6 +287,7 @@ frame
 onDestroy
 {
 addonId
+addonBrowsingContextGroupId
 }
 =
 {
@@ -1829,6 +1830,7 @@ connect
 {
 prefix
 addonId
+addonBrowsingContextGroupId
 }
 )
 ;
