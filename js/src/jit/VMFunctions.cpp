@@ -970,7 +970,7 @@ by
 the
 gc
 see
-MarkJitExitFrame
+TraceJitExitFrame
 .
 template
 <

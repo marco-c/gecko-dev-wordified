@@ -7588,7 +7588,7 @@ JitFrames
 .
 h
 and
-MarkJitExitFrame
+TraceJitExitFrame
 in
 JitFrames
 .

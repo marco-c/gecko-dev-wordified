@@ -9329,7 +9329,7 @@ marked
 via
 /
 /
-MarkJitExitFrame
+TraceJitExitFrame
 and
 no
 registers
