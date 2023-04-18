@@ -1975,6 +1975,11 @@ aSite
 =
 0
 ;
+bool
+IsLoopbackHost
+(
+)
+;
 protected
 :
 BasePrincipal
