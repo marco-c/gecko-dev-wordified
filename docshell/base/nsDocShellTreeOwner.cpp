@@ -6273,7 +6273,10 @@ GetComposedTarget
 {
 mPossibleTooltipNode
 =
-do_QueryInterface
+nsINode
+:
+:
+FromEventTarget
 (
 eventTarget
 )
