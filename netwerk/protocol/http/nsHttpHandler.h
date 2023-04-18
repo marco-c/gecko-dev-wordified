@@ -3755,9 +3755,6 @@ mSpoofedUserAgent
 nsCString
 mUserAgentOverride
 ;
-nsCString
-mExperimentUserAgent
-;
 bool
 mUserAgentIsDirty
 {
