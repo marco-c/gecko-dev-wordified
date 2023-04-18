@@ -510,7 +510,7 @@ lastModified
 await
 IOUtils
 .
-touch
+setModificationTime
 (
 xpiPath
 newLastModTime
@@ -659,7 +659,7 @@ reason
 await
 IOUtils
 .
-touch
+setModificationTime
 (
 xpiPath
 fileInfo

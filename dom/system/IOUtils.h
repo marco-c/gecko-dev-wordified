@@ -710,7 +710,7 @@ already_AddRefed
 <
 Promise
 >
-Touch
+SetModificationTime
 (
 GlobalObject
 &
@@ -2129,7 +2129,7 @@ Result
 int64_t
 IOError
 >
-TouchSync
+SetModificationTimeSync
 (
 nsIFile
 *
