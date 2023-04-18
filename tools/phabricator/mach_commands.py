@@ -231,6 +231,8 @@ external_python
 active_metadata
 .
 external_python
+.
+python_path
     
 is_external_python_virtualenv
 =
