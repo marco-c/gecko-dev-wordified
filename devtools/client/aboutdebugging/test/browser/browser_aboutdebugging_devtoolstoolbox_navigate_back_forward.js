@@ -112,7 +112,7 @@ const
 ORIGINAL_URL
 =
 "
-http
+https
 :
 /
 /
@@ -135,7 +135,7 @@ const
 OTHER_URL
 =
 "
-http
+https
 :
 /
 /
