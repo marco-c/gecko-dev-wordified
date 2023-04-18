@@ -505,15 +505,6 @@ aWithMouse
 )
 override
 ;
-void
-GetLinkTarget
-(
-nsAString
-&
-aTarget
-)
-override
-;
 already_AddRefed
 <
 nsIURI
