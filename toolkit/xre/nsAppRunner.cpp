@@ -33329,12 +33329,6 @@ appStartup
 NS_ERROR_FAILURE
 )
 ;
-mDirProvider
-.
-DoStartup
-(
-)
-;
 #
 ifdef
 XP_WIN
@@ -33364,6 +33358,12 @@ EnsureWin32kInitialized
 ;
 #
 endif
+mDirProvider
+.
+DoStartup
+(
+)
+;
 /
 /
 As
