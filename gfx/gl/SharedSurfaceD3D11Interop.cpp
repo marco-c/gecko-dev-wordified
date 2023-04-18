@@ -2723,6 +2723,12 @@ mData
 .
 dxgiHandle
 )
+/
+*
+arrayIndex
+*
+/
+0
 format
 mDesc
 .

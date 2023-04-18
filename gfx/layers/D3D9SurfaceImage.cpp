@@ -575,6 +575,12 @@ WindowsHandle
 (
 mHandle
 )
+/
+*
+arrayIndex
+*
+/
+0
 mFormat
 GetSize
 (

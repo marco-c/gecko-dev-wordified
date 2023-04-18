@@ -6301,7 +6301,12 @@ Texture2D
 .
 ArraySlice
 =
-0
+texture
+-
+>
+ArrayIndex
+(
+)
 ;
 RefPtr
 <

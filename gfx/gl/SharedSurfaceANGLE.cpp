@@ -926,6 +926,12 @@ SurfaceDescriptorD3D10
 WindowsHandle
 )
 mShareHandle
+/
+*
+arrayIndex
+*
+/
+0
 format
 mDesc
 .
