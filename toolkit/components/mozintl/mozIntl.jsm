@@ -3056,6 +3056,11 @@ ru
 :
 "
 "
+sco
+:
+"
+Scots
+"
 si
 :
 "
@@ -3096,6 +3101,12 @@ SE
 :
 "
 Svenska
+"
+szl
+:
+"
+l
+nsko
 "
 ta
 :
