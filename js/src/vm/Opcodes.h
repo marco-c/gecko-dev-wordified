@@ -13459,9 +13459,12 @@ only
 when
 iterable
 is
+the
+sole
+argument
+in
 a
-simple
-name
+call
 as
 in
 f
