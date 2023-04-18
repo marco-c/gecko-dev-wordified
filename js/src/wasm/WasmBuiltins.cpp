@@ -1717,8 +1717,8 @@ _FailOnNullPtr
 3
 {
 _PTR
-_I32
-_I32
+_RoN
+_PTR
 _END
 }
 }
@@ -8994,7 +8994,7 @@ ExceptionNew
 *
 abiType
 =
-Args_General_GeneralInt32Int32
+Args_General3
 ;
 MOZ_ASSERT
 (
