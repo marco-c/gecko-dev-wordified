@@ -1634,17 +1634,6 @@ PropertyKey
 ;
 #
 define
-JSID_BITS
-(
-id
-)
-(
-id
-.
-asBits
-)
-#
-define
 JSID_INT_MIN
 0
 #
