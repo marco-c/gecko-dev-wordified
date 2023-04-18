@@ -4185,6 +4185,8 @@ dom
 :
 Document
 *
+bool
+aUseContent
 )
 ;
 mozilla
