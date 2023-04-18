@@ -193,19 +193,6 @@ arm
 -
 repack
 "
-#
-We
-don
-'
-t
-currently
-support
-bootstrapping
-on
-Windows
-yet
-.
-#
 WINDOWS_X86_64_ANDROID_AVD
 =
 "
@@ -219,7 +206,6 @@ x86_64
 -
 repack
 "
-#
 WINDOWS_ARM_ANDROID_AVD
 =
 "
