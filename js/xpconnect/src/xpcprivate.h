@@ -4308,7 +4308,7 @@ l
 }
 ;
 struct
-MapEntryGCPolicy
+SweepPolicy
 {
 static
 bool
@@ -4394,7 +4394,7 @@ js
 :
 :
 SystemAllocPolicy
-MapEntryGCPolicy
+SweepPolicy
 >
 Principal2JSObjectMap
 ;
@@ -18602,7 +18602,7 @@ mallocSizeOf
 )
 ;
 struct
-MapEntryGCPolicy
+SweepPolicy
 {
 static
 bool
@@ -18687,7 +18687,7 @@ js
 :
 :
 SystemAllocPolicy
-MapEntryGCPolicy
+SweepPolicy
 >
 RemoteProxyMap
 ;
