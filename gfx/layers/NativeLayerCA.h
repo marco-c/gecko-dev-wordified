@@ -1030,10 +1030,8 @@ aRepresentation
 const
 nsTArray
 <
-RefPtr
-<
 NativeLayerCA
->
+*
 >
 &
 aSublayers
