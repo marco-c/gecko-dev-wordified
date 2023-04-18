@@ -3136,6 +3136,9 @@ _is_version_eligible
 (
 command_context
 clang_paths
+log_error
+=
+True
 )
 :
     
@@ -3192,24 +3195,28 @@ current_version
 return
 True
     
+if
+log_error
+:
+        
 command_context
 .
 log
 (
-        
+            
 logging
 .
 ERROR
-        
+            
 "
 static
 -
 analysis
 "
-        
+            
 {
 }
-        
+            
 "
 ERROR
 :
@@ -3233,7 +3240,7 @@ format
 binary
 .
 "
-        
+            
 "
 Please
 update
@@ -3250,7 +3257,7 @@ least
 }
 )
 "
-        
+            
 "
 by
 running
@@ -3265,20 +3272,20 @@ bootstrap
 .
 format
 (
-            
+                
 _get_current_version
 (
 command_context
 clang_paths
 )
-            
+                
 _get_required_version
 (
 command_context
 )
-        
+            
 )
-    
+        
 )
     
 return
@@ -7751,6 +7758,18 @@ tools
             
 return
 1
+        
+if
+not
+_is_version_eligible
+(
+command_context
+clang_paths
+)
+:
+            
+return
+1
     
 else
 :
@@ -7775,18 +7794,6 @@ rc
             
 return
 rc
-    
-if
-not
-_is_version_eligible
-(
-command_context
-clang_paths
-)
-:
-        
-return
-1
     
 if
 path
@@ -9712,13 +9719,28 @@ rc
 clang_paths
     
 if
+(
+        
 _do_clang_tools_exist
 (
 clang_paths
 )
+        
+and
+_is_version_eligible
+(
+command_context
+clang_paths
+log_error
+=
+False
+)
+        
 and
 not
 force
+    
+)
 :
         
 return
@@ -9980,8 +10002,24 @@ chdir
 currentWorkingDir
 )
     
+if
+rc
+:
+        
 return
 rc
+clang_paths
+    
+return
+0
+if
+_is_version_eligible
+(
+command_context
+clang_paths
+)
+else
+1
 clang_paths
 def
 _get_clang_tools_from_source
