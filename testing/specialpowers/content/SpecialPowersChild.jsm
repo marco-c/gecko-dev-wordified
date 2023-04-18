@@ -12610,7 +12610,6 @@ return
 win
 .
 docShell
-?
 .
 browserChild
 .
