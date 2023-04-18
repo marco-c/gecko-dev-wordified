@@ -3863,8 +3863,9 @@ script
 >
 mOffset
 ;
-MOZ_RELEASE_ASSERT
+if
 (
+!
 JS
 :
 :
@@ -3877,7 +3878,14 @@ get
 )
 )
 )
+{
+return
+Err
+(
+NS_ERROR_UNEXPECTED
+)
 ;
+}
 if
 (
 scriptData
