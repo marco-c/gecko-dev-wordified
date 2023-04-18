@@ -496,8 +496,6 @@ BrowsingContext
 aBrowsingContext
 bool
 aWasTriggeredExternally
-bool
-aHasValidUserGestureActivation
 )
 override
 ;

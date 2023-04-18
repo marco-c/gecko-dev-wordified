@@ -1063,12 +1063,6 @@ mLoadInfo
 GetLoadTriggeredFromExternal
 (
 )
-mLoadInfo
--
->
-GetHasValidUserGestureActivation
-(
-)
 )
 ;
 if
