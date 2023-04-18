@@ -323,7 +323,7 @@ aIntegrity
 nsIURI
 *
 aReferrer
-DOMScriptLoadContext
+ScriptLoadContext
 *
 aContext
 bool

@@ -134,6 +134,17 @@ mozilla
 /
 dom
 /
+ScriptLoadContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScriptLoadRequest
 .
 h
@@ -475,7 +486,7 @@ aReferrer
 ScriptLoader
 *
 aLoader
-DOMScriptLoadContext
+ScriptLoadContext
 *
 aContext
 )
@@ -536,7 +547,7 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
-DOMScriptLoadContext
+ScriptLoadContext
 *
 aContext
 ScriptLoader
