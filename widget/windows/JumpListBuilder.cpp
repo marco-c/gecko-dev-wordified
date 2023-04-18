@@ -669,6 +669,12 @@ hr
 return
 ;
 }
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
+)
+;
 /
 /
 Since
@@ -839,6 +845,12 @@ nsAString
 aAppUserModelId
 )
 {
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
+)
+;
 if
 (
 !
