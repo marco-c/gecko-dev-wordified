@@ -65,7 +65,11 @@ true
 ;
 const
 {
+KintoStorageTestUtils
+:
+{
 EncryptionRemoteTransformer
+}
 }
 =
 ChromeUtils
@@ -85,7 +89,6 @@ ExtensionStorageSyncKinto
 .
 jsm
 "
-null
 )
 ;
 const

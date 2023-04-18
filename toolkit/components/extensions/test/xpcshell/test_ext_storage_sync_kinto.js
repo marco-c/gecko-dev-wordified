@@ -124,13 +124,17 @@ js
 ;
 const
 {
+ExtensionStorageSync
+KintoStorageTestUtils
+:
+{
 cleanUpForContext
 CollectionKeyEncryptionRemoteTransformer
 CryptoCollection
-ExtensionStorageSync
 idToKey
 keyToId
 KeyRingEncryptionRemoteTransformer
+}
 }
 =
 ChromeUtils
@@ -150,7 +154,6 @@ ExtensionStorageSyncKinto
 .
 jsm
 "
-null
 )
 ;
 const
