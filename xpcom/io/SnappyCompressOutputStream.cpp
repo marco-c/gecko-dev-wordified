@@ -449,7 +449,7 @@ aResultOut
 return
 WriteSegments
 (
-NS_CopySegmentToBuffer
+NS_CopyBufferToSegment
 const_cast
 <
 char
