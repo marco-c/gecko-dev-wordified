@@ -11296,6 +11296,8 @@ RuntimeService
 :
 ClampedHardwareConcurrency
 (
+bool
+aShouldResistFingerprinting
 )
 const
 {
@@ -11349,12 +11351,7 @@ if
 (
 MOZ_UNLIKELY
 (
-nsContentUtils
-:
-:
-ShouldResistFingerprinting
-(
-)
+aShouldResistFingerprinting
 )
 )
 {
