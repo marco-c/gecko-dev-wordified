@@ -1553,6 +1553,10 @@ NS_IsMainThread
 )
 )
 ;
+DeleteCache
+(
+)
+;
 delete
 sLocale
 ;
