@@ -1628,7 +1628,6 @@ if
 (
 mNewMenu
 )
-{
 pm
 -
 >
@@ -1636,9 +1635,9 @@ ShowMenu
 (
 mNewMenu
 mSelectFirstItem
+false
 )
 ;
-}
 return
 NS_OK
 ;
