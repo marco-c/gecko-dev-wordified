@@ -83,7 +83,7 @@ reselect
 import
 {
 getPrettySourceURL
-underRoot
+isDescendantOfRoot
 getRelativeUrl
 isGenerated
 getPlainUrl
@@ -4317,7 +4317,7 @@ resource
 id
 displayed
 :
-underRoot
+isDescendantOfRoot
 (
 resource
 projectDirectoryRoot

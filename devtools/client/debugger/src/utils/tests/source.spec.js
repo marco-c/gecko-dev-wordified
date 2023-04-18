@@ -68,7 +68,7 @@ getMode
 getSourceLineCount
 isThirdParty
 isJavaScript
-underRoot
+isDescendantOfRoot
 isUrlExtension
 isExtensionDirectoryPath
 getLineText
@@ -3231,7 +3231,7 @@ toEqual
 describe
 (
 "
-underRoot
+isDescendantOfRoot
 "
 (
 )
@@ -3298,7 +3298,7 @@ js
 ;
 expect
 (
-underRoot
+isDescendantOfRoot
 (
 source
 "
@@ -3364,7 +3364,7 @@ js
 ;
 expect
 (
-underRoot
+isDescendantOfRoot
 (
 source
 "
@@ -3431,7 +3431,7 @@ js
 ;
 expect
 (
-underRoot
+isDescendantOfRoot
 (
 source
 "
