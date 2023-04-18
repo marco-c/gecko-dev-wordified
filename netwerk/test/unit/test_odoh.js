@@ -382,9 +382,9 @@ odohconfig
 )
 ;
 let
-[
+{
 inRecord
-]
+}
 =
 await
 new
