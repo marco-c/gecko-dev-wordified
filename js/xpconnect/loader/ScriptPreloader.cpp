@@ -8016,6 +8016,12 @@ buffer
 .
 options
 .
+borrowBuffer
+=
+true
+;
+options
+.
 usePinnedBytecode
 =
 true
