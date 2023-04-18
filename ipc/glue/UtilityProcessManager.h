@@ -232,6 +232,15 @@ GetSingleton
 (
 )
 ;
+static
+RefPtr
+<
+UtilityProcessManager
+>
+GetIfExists
+(
+)
+;
 /
 /
 Launch
