@@ -5370,7 +5370,7 @@ setIsAsyncGenerator
 (
 AsyncGeneratorObject
 *
-asyncGenObj
+generator
 )
 {
 setFlagOnInitialState
@@ -5384,7 +5384,7 @@ ReactionRecordSlot_GeneratorOrPromiseToResolve
 ObjectValue
 (
 *
-asyncGenObj
+generator
 )
 )
 ;
@@ -14213,7 +14213,7 @@ Rooted
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 (
 cx
 reaction
@@ -14249,7 +14249,7 @@ AsyncGeneratorPromiseReactionJob
 (
 cx
 handler
-asyncGenObj
+generator
 argument
 )
 ;
@@ -36236,7 +36236,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 JS
 :
 :
@@ -36274,7 +36274,7 @@ reaction
 >
 setIsAsyncGenerator
 (
-asyncGenObj
+generator
 )
 ;
 }

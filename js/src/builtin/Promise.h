@@ -2061,7 +2061,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 JS
 :
 :

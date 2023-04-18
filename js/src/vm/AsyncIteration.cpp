@@ -356,7 +356,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 CompletionKind
 completionKind
 HandleValue
@@ -1133,7 +1133,7 @@ isGenerator
 ;
 AsyncGeneratorObject
 *
-asyncGenObj
+generator
 =
 OrdinaryCreateFromConstructorAsynGen
 (
@@ -1144,7 +1144,7 @@ asyncGen
 if
 (
 !
-asyncGenObj
+generator
 )
 {
 return
@@ -1173,7 +1173,7 @@ AsyncGeneratorStart
 Step
 7
 .
-asyncGenObj
+generator
 -
 >
 setSuspendedStart
@@ -1185,14 +1185,14 @@ setSuspendedStart
 Step
 8
 .
-asyncGenObj
+generator
 -
 >
 clearSingleQueueRequest
 (
 )
 ;
-asyncGenObj
+generator
 -
 >
 clearCachedRequest
@@ -1200,7 +1200,7 @@ clearCachedRequest
 )
 ;
 return
-asyncGenObj
+generator
 ;
 }
 /
@@ -1223,7 +1223,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 CompletionKind
 completionKind
 HandleValue
@@ -1239,7 +1239,7 @@ promise
 if
 (
 !
-asyncGenObj
+generator
 -
 >
 hasCachedRequest
@@ -1264,7 +1264,7 @@ AsyncGeneratorRequest
 *
 request
 =
-asyncGenObj
+generator
 -
 >
 takeCachedRequest
@@ -1309,7 +1309,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 Handle
 <
 AsyncGeneratorRequest
@@ -1320,7 +1320,7 @@ request
 {
 if
 (
-asyncGenObj
+generator
 -
 >
 isSingleQueue
@@ -1330,7 +1330,7 @@ isSingleQueue
 {
 if
 (
-asyncGenObj
+generator
 -
 >
 isSingleQueueEmpty
@@ -1338,7 +1338,7 @@ isSingleQueueEmpty
 )
 )
 {
-asyncGenObj
+generator
 -
 >
 setSingleQueueRequest
@@ -1384,7 +1384,7 @@ cx
 ObjectValue
 (
 *
-asyncGenObj
+generator
 -
 >
 singleQueueRequest
@@ -1435,7 +1435,7 @@ return
 false
 ;
 }
-asyncGenObj
+generator
 -
 >
 setQueue
@@ -1455,7 +1455,7 @@ ListObject
 queue
 (
 cx
-asyncGenObj
+generator
 -
 >
 queue
@@ -1505,12 +1505,12 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 )
 {
 if
 (
-asyncGenObj
+generator
 -
 >
 isSingleQueue
@@ -1522,14 +1522,14 @@ AsyncGeneratorRequest
 *
 request
 =
-asyncGenObj
+generator
 -
 >
 singleQueueRequest
 (
 )
 ;
-asyncGenObj
+generator
 -
 >
 clearSingleQueueRequest
@@ -1548,7 +1548,7 @@ ListObject
 queue
 (
 cx
-asyncGenObj
+generator
 -
 >
 queue
@@ -1587,12 +1587,12 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 )
 {
 if
 (
-asyncGenObj
+generator
 -
 >
 isSingleQueue
@@ -1601,7 +1601,7 @@ isSingleQueue
 )
 {
 return
-asyncGenObj
+generator
 -
 >
 singleQueueRequest
@@ -1611,7 +1611,7 @@ singleQueueRequest
 }
 return
 &
-asyncGenObj
+generator
 -
 >
 queue
@@ -1762,7 +1762,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 value
 )
@@ -1774,7 +1774,7 @@ Step
 .
 d
 .
-asyncGenObj
+generator
 -
 >
 setCompleted
@@ -1818,7 +1818,7 @@ if
 AsyncGeneratorCompleteStepNormal
 (
 cx
-asyncGenObj
+generator
 value
 true
 )
@@ -1832,7 +1832,7 @@ return
 AsyncGeneratorDrainQueue
 (
 cx
-asyncGenObj
+generator
 )
 ;
 }
@@ -1869,7 +1869,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 )
 {
 /
@@ -1879,7 +1879,7 @@ Step
 .
 d
 .
-asyncGenObj
+generator
 -
 >
 setCompleted
@@ -1960,7 +1960,7 @@ if
 AsyncGeneratorCompleteStepThrow
 (
 cx
-asyncGenObj
+generator
 value
 )
 )
@@ -1973,7 +1973,7 @@ return
 AsyncGeneratorDrainQueue
 (
 cx
-asyncGenObj
+generator
 )
 ;
 }
@@ -1994,14 +1994,14 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 value
 )
 {
 MOZ_ASSERT
 (
-asyncGenObj
+generator
 -
 >
 isAwaitingYieldReturn
@@ -2028,7 +2028,7 @@ return
 AsyncGeneratorResume
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -2054,14 +2054,14 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 reason
 )
 {
 MOZ_ASSERT
 (
-asyncGenObj
+generator
 -
 >
 isAwaitingYieldReturn
@@ -2086,7 +2086,7 @@ return
 AsyncGeneratorResume
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -2221,7 +2221,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 value
 )
@@ -2240,7 +2240,7 @@ bytecode
 Step
 6
 .
-asyncGenObj
+generator
 -
 >
 setSuspendedYield
@@ -2258,7 +2258,7 @@ if
 AsyncGeneratorCompleteStepNormal
 (
 cx
-asyncGenObj
+generator
 value
 false
 )
@@ -2270,7 +2270,7 @@ false
 }
 if
 (
-asyncGenObj
+generator
 -
 >
 isQueueEmpty
@@ -2295,7 +2295,7 @@ AsyncGeneratorObject
 :
 peekRequest
 (
-asyncGenObj
+generator
 )
 )
 ;
@@ -2335,7 +2335,7 @@ return
 AsyncGeneratorUnwrapYieldResumptionAndResume
 (
 cx
-asyncGenObj
+generator
 completionKind
 resumptionValue
 )
@@ -2372,14 +2372,14 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 value
 )
 {
 MOZ_ASSERT
 (
-asyncGenObj
+generator
 -
 >
 isExecuting
@@ -2402,7 +2402,7 @@ return
 AsyncGeneratorResume
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -2442,14 +2442,14 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 reason
 )
 {
 MOZ_ASSERT
 (
-asyncGenObj
+generator
 -
 >
 isExecuting
@@ -2472,7 +2472,7 @@ return
 AsyncGeneratorResume
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -2532,7 +2532,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 value
 )
@@ -2541,7 +2541,7 @@ return
 InternalAsyncGeneratorAwait
 (
 cx
-asyncGenObj
+generator
 value
 PromiseHandler
 :
@@ -2803,14 +2803,14 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 value
 )
 {
 MOZ_ASSERT
 (
-asyncGenObj
+generator
 -
 >
 isAwaitingReturn
@@ -2833,7 +2833,7 @@ state
 "
 )
 ;
-asyncGenObj
+generator
 -
 >
 setCompleted
@@ -2846,7 +2846,7 @@ if
 AsyncGeneratorCompleteStepNormal
 (
 cx
-asyncGenObj
+generator
 value
 true
 )
@@ -2860,7 +2860,7 @@ return
 AsyncGeneratorDrainQueue
 (
 cx
-asyncGenObj
+generator
 )
 ;
 }
@@ -2881,14 +2881,14 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 value
 )
 {
 MOZ_ASSERT
 (
-asyncGenObj
+generator
 -
 >
 isAwaitingReturn
@@ -2918,7 +2918,7 @@ Steps
 -
 2
 .
-asyncGenObj
+generator
 -
 >
 setCompleted
@@ -2936,7 +2936,7 @@ if
 AsyncGeneratorCompleteStepThrow
 (
 cx
-asyncGenObj
+generator
 value
 )
 )
@@ -2949,7 +2949,7 @@ return
 AsyncGeneratorDrainQueue
 (
 cx
-asyncGenObj
+generator
 )
 ;
 }
@@ -3332,7 +3332,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 CompletionKind
 completionKind
 HandleValue
@@ -3359,7 +3359,7 @@ AsyncGeneratorObject
 createRequest
 (
 cx
-asyncGenObj
+generator
 completionKind
 completionValue
 resultPromise
@@ -3383,7 +3383,7 @@ AsyncGeneratorObject
 enqueueRequest
 (
 cx
-asyncGenObj
+generator
 request
 )
 ;
@@ -3453,14 +3453,14 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 MutableHandleValue
 value
 )
 {
 if
 (
-asyncGenObj
+generator
 -
 >
 compartment
@@ -3485,7 +3485,7 @@ ar_
 emplace
 (
 cx
-asyncGenObj
+generator
 )
 ;
 return
@@ -3636,7 +3636,7 @@ Rooted
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 (
 cx
 &
@@ -3681,7 +3681,7 @@ maybeEnterRealm
 maybeEnterAndWrap
 (
 cx
-asyncGenObj
+generator
 &
 completionValue
 )
@@ -3717,7 +3717,7 @@ false
 }
 MOZ_ASSERT_IF
 (
-asyncGenObj
+generator
 -
 >
 isCompleted
@@ -3725,7 +3725,7 @@ isCompleted
 )
 |
 |
-asyncGenObj
+generator
 -
 >
 isSuspendedStart
@@ -3733,13 +3733,13 @@ isSuspendedStart
 )
 |
 |
-asyncGenObj
+generator
 -
 >
 isSuspendedYield
 (
 )
-asyncGenObj
+generator
 -
 >
 isQueueEmpty
@@ -3749,7 +3749,7 @@ isQueueEmpty
 ;
 if
 (
-asyncGenObj
+generator
 -
 >
 isCompleted
@@ -3813,7 +3813,7 @@ if
 AsyncGeneratorEnqueue
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -3829,7 +3829,7 @@ false
 }
 if
 (
-asyncGenObj
+generator
 -
 >
 isSuspendedStart
@@ -3837,7 +3837,7 @@ isSuspendedStart
 )
 |
 |
-asyncGenObj
+generator
 -
 >
 isSuspendedYield
@@ -3858,7 +3858,7 @@ if
 AsyncGeneratorResume
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -3961,7 +3961,7 @@ Rooted
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 (
 cx
 &
@@ -4006,7 +4006,7 @@ maybeEnterRealm
 maybeEnterAndWrap
 (
 cx
-asyncGenObj
+generator
 &
 completionValue
 )
@@ -4042,7 +4042,7 @@ false
 }
 MOZ_ASSERT_IF
 (
-asyncGenObj
+generator
 -
 >
 isCompleted
@@ -4050,7 +4050,7 @@ isCompleted
 )
 |
 |
-asyncGenObj
+generator
 -
 >
 isSuspendedStart
@@ -4058,13 +4058,13 @@ isSuspendedStart
 )
 |
 |
-asyncGenObj
+generator
 -
 >
 isSuspendedYield
 (
 )
-asyncGenObj
+generator
 -
 >
 isQueueEmpty
@@ -4078,7 +4078,7 @@ if
 AsyncGeneratorEnqueue
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -4094,7 +4094,7 @@ false
 }
 if
 (
-asyncGenObj
+generator
 -
 >
 isSuspendedStart
@@ -4102,7 +4102,7 @@ isSuspendedStart
 )
 |
 |
-asyncGenObj
+generator
 -
 >
 isCompleted
@@ -4110,7 +4110,7 @@ isCompleted
 )
 )
 {
-asyncGenObj
+generator
 -
 >
 setAwaitingReturn
@@ -4123,7 +4123,7 @@ if
 AsyncGeneratorAwaitReturn
 (
 cx
-asyncGenObj
+generator
 completionValue
 )
 )
@@ -4136,7 +4136,7 @@ false
 else
 if
 (
-asyncGenObj
+generator
 -
 >
 isSuspendedYield
@@ -4150,7 +4150,7 @@ if
 AsyncGeneratorUnwrapYieldResumptionAndResume
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -4252,7 +4252,7 @@ Rooted
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 (
 cx
 &
@@ -4297,7 +4297,7 @@ maybeEnterRealm
 maybeEnterAndWrap
 (
 cx
-asyncGenObj
+generator
 &
 completionValue
 )
@@ -4333,7 +4333,7 @@ false
 }
 MOZ_ASSERT_IF
 (
-asyncGenObj
+generator
 -
 >
 isCompleted
@@ -4341,7 +4341,7 @@ isCompleted
 )
 |
 |
-asyncGenObj
+generator
 -
 >
 isSuspendedStart
@@ -4349,13 +4349,13 @@ isSuspendedStart
 )
 |
 |
-asyncGenObj
+generator
 -
 >
 isSuspendedYield
 (
 )
-asyncGenObj
+generator
 -
 >
 isQueueEmpty
@@ -4365,7 +4365,7 @@ isQueueEmpty
 ;
 if
 (
-asyncGenObj
+generator
 -
 >
 isSuspendedStart
@@ -4373,7 +4373,7 @@ isSuspendedStart
 )
 )
 {
-asyncGenObj
+generator
 -
 >
 setCompleted
@@ -4383,7 +4383,7 @@ setCompleted
 }
 if
 (
-asyncGenObj
+generator
 -
 >
 isCompleted
@@ -4415,7 +4415,7 @@ if
 AsyncGeneratorEnqueue
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -4431,7 +4431,7 @@ false
 }
 if
 (
-asyncGenObj
+generator
 -
 >
 isSuspendedYield
@@ -4445,7 +4445,7 @@ if
 AsyncGeneratorResume
 (
 cx
-asyncGenObj
+generator
 CompletionKind
 :
 :
@@ -4617,7 +4617,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 CompletionKind
 completionKind
 HandleValue
@@ -4627,7 +4627,7 @@ argument
 MOZ_ASSERT
 (
 !
-asyncGenObj
+generator
 -
 >
 isClosed
@@ -4645,7 +4645,7 @@ generator
 ;
 MOZ_ASSERT
 (
-asyncGenObj
+generator
 -
 >
 isSuspended
@@ -4663,7 +4663,7 @@ generator
 "
 )
 ;
-asyncGenObj
+generator
 -
 >
 setExecuting
@@ -4759,7 +4759,7 @@ cx
 ObjectValue
 (
 *
-asyncGenObj
+generator
 )
 )
 ;
@@ -4797,7 +4797,7 @@ g
 if
 (
 !
-asyncGenObj
+generator
 -
 >
 isClosed
@@ -4805,7 +4805,7 @@ isClosed
 )
 )
 {
-asyncGenObj
+generator
 -
 >
 setClosed
@@ -4817,7 +4817,7 @@ return
 AsyncGeneratorThrown
 (
 cx
-asyncGenObj
+generator
 )
 ;
 }
@@ -4837,7 +4837,7 @@ steps
 .
 if
 (
-asyncGenObj
+generator
 -
 >
 isAfterAwait
@@ -4849,7 +4849,7 @@ return
 AsyncGeneratorAwait
 (
 cx
-asyncGenObj
+generator
 thisOrRval
 )
 ;
@@ -4871,7 +4871,7 @@ steps
 .
 if
 (
-asyncGenObj
+generator
 -
 >
 isAfterYield
@@ -4883,7 +4883,7 @@ return
 AsyncGeneratorYield
 (
 cx
-asyncGenObj
+generator
 thisOrRval
 )
 ;
@@ -4908,7 +4908,7 @@ return
 AsyncGeneratorReturned
 (
 cx
-asyncGenObj
+generator
 thisOrRval
 )
 ;
@@ -5917,7 +5917,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+generator
 HandleValue
 argument
 )
@@ -5962,7 +5962,7 @@ return
 AsyncGeneratorAwaitedFulfilled
 (
 cx
-asyncGenObj
+generator
 argument
 )
 ;
@@ -5976,7 +5976,7 @@ return
 AsyncGeneratorAwaitedRejected
 (
 cx
-asyncGenObj
+generator
 argument
 )
 ;
@@ -5990,7 +5990,7 @@ return
 AsyncGeneratorAwaitReturnFulfilled
 (
 cx
-asyncGenObj
+generator
 argument
 )
 ;
@@ -6004,7 +6004,7 @@ return
 AsyncGeneratorAwaitReturnRejected
 (
 cx
-asyncGenObj
+generator
 argument
 )
 ;
@@ -6018,7 +6018,7 @@ return
 AsyncGeneratorYieldReturnAwaitedFulfilled
 (
 cx
-asyncGenObj
+generator
 argument
 )
 ;
@@ -6032,7 +6032,7 @@ return
 AsyncGeneratorYieldReturnAwaitedRejected
 (
 cx
-asyncGenObj
+generator
 argument
 )
 ;

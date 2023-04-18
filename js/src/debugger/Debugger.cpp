@@ -8117,7 +8117,7 @@ AsyncGeneratorObject
 {
 auto
 *
-asyncGenObj
+generator
 =
 &
 genObj
@@ -8132,14 +8132,14 @@ AsyncGeneratorObject
 ;
 asyncGenState_
 =
-asyncGenObj
+generator
 -
 >
 state
 (
 )
 ;
-asyncGenObj
+generator
 -
 >
 setExecuting
@@ -12982,7 +12982,7 @@ Rooted
 AsyncFunctionGeneratorObject
 *
 >
-asyncGenObj
+generator
 (
 cx
 &
@@ -13023,7 +13023,7 @@ PromiseObject
 promise
 (
 cx
-asyncGenObj
+generator
 -
 >
 promise
@@ -13056,7 +13056,7 @@ if
 AsyncFunctionResolve
 (
 cx
-asyncGenObj
+generator
 vp
 AsyncFunctionResolveKind
 :
@@ -13088,7 +13088,7 @@ must
 be
 closed
 .
-asyncGenObj
+generator
 -
 >
 setClosed
