@@ -7321,9 +7321,13 @@ InstantiateScriptSourceObject
 JSContext
 *
 cx
-CompilationInput
+const
+JS
+:
+:
+ReadOnlyCompileOptions
 &
-input
+options
 const
 CompilationStencil
 &
@@ -7512,8 +7516,6 @@ initFromOptions
 (
 cx
 sourceObject
-input
-.
 options
 )
 )
@@ -10067,6 +10069,8 @@ prepareForInstantiate
 (
 cx
 input
+.
+atomCache
 stencil
 gcOutput
 )
@@ -10163,6 +10167,14 @@ isInitialStencil
 )
 )
 ;
+CompilationAtomCache
+&
+atomCache
+=
+input
+.
+atomCache
+;
 /
 /
 Phase
@@ -10179,8 +10191,6 @@ if
 InstantiateAtoms
 (
 cx
-input
-.
 atomCache
 stencil
 )
@@ -10212,6 +10222,8 @@ InstantiateScriptSourceObject
 (
 cx
 input
+.
+options
 stencil
 gcOutput
 )
@@ -10307,8 +10319,6 @@ if
 InstantiateModuleObject
 (
 cx
-input
-.
 atomCache
 stencil
 gcOutput
@@ -10326,8 +10336,6 @@ if
 InstantiateFunctions
 (
 cx
-input
-.
 atomCache
 stencil
 gcOutput
@@ -10502,8 +10510,6 @@ if
 InstantiateScriptStencils
 (
 cx
-input
-.
 atomCache
 stencil
 gcOutput
@@ -10572,8 +10578,6 @@ canLazilyParse
 UpdateEmittedInnerFunctions
 (
 cx
-input
-.
 atomCache
 stencil
 gcOutput
@@ -12038,9 +12042,9 @@ prepareForInstantiate
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &
@@ -12087,8 +12091,6 @@ false
 ;
 }
 return
-input
-.
 atomCache
 .
 allocate

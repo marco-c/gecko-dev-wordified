@@ -4982,9 +4982,9 @@ prepareForInstantiate
 JSContext
 *
 cx
-CompilationInput
+CompilationAtomCache
 &
-input
+atomCache
 const
 CompilationStencil
 &

@@ -2504,6 +2504,8 @@ prepareForInstantiate
 (
 cx
 input
+.
+atomCache
 stencil
 gcOutput
 )
