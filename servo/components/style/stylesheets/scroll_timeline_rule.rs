@@ -2554,17 +2554,6 @@ W
 :
 Write
 {
-use
-crate
-:
-:
-cssparser
-:
-:
-ToCss
-as
-CssparserToCss
-;
 dest
 .
 write_str

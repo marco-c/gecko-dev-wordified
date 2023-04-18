@@ -156,9 +156,6 @@ cssparser
 {
 Parser
 SourceLocation
-ToCss
-as
-CssParserToCss
 Token
 }
 ;
