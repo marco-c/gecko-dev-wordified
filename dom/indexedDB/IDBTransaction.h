@@ -1177,6 +1177,16 @@ return
 mMode
 ;
 }
+uint32_t
+GetPendingRequestCount
+(
+)
+const
+{
+return
+mPendingRequestCount
+;
+}
 IDBDatabase
 *
 Database
