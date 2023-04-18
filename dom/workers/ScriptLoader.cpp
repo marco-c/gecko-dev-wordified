@@ -3035,7 +3035,7 @@ aString
 override
 ;
 nsresult
-OnStreamCompleteInternal
+DataReceivedFromNetwork
 (
 nsIStreamLoader
 *
@@ -3060,7 +3060,7 @@ aRequest
 override
 ;
 nsresult
-OnStartRequestInternal
+PrepareForRequest
 (
 nsIRequest
 *
@@ -8191,7 +8191,7 @@ aString
 nsresult
 rv
 =
-OnStreamCompleteInternal
+DataReceivedFromNetwork
 (
 aLoader
 aStatus
@@ -8214,7 +8214,7 @@ nsresult
 LoaderListener
 :
 :
-OnStreamCompleteInternal
+DataReceivedFromNetwork
 (
 nsIStreamLoader
 *
@@ -9628,7 +9628,7 @@ aRequest
 nsresult
 rv
 =
-OnStartRequestInternal
+PrepareForRequest
 (
 aRequest
 )
@@ -9661,7 +9661,7 @@ nsresult
 LoaderListener
 :
 :
-OnStartRequestInternal
+PrepareForRequest
 (
 nsIRequest
 *
