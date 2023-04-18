@@ -185,6 +185,7 @@ RemoteDecodeIn
 Unspecified
 RddProcess
 GpuProcess
+UtilityProcess
 SENTINEL
 }
 ;

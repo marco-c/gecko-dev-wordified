@@ -103,6 +103,10 @@ include
 protocol
 PProfiler
 ;
+include
+protocol
+PUtilityAudioDecoder
+;
 #
 if
 defined
@@ -199,7 +203,7 @@ thread
 /
 of
 the
-Utility
+main
 process
 and
 the
@@ -211,7 +215,7 @@ main
 thread
 of
 the
-UI
+Utility
 /
 /
 process
@@ -458,6 +462,16 @@ returns
 (
 bool
 unused
+)
+;
+async
+StartUtilityAudioDecoderService
+(
+Endpoint
+<
+PUtilityAudioDecoderParent
+>
+aEndpoint
 )
 ;
 #
