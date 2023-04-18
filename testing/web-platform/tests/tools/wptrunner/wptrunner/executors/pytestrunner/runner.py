@@ -381,9 +381,13 @@ main
 -
 -
 strict
+-
+markers
 "
 #
 turn
+function
+marker
 warnings
 into
 errors

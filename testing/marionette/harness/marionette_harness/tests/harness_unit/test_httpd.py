@@ -138,7 +138,7 @@ www
 )
 pytest
 .
-yield_fixture
+fixture
 def
 server
 (

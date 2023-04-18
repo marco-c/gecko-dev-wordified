@@ -129,7 +129,7 @@ num_fails_crashed
 in
 request
 .
-funcargnames
+fixturenames
 :
         
 num_fails_crashed
@@ -244,7 +244,7 @@ num_fails_crashed
 in
 request
 .
-funcargnames
+fixturenames
 :
         
 failures

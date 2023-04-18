@@ -385,7 +385,7 @@ working_dir
 )
 pytest
 .
-yield_fixture
+fixture
 (
 params
 =
