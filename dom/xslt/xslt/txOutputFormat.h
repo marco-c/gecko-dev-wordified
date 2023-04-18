@@ -352,7 +352,7 @@ type
 of
 the
 output
-nsString
+nsCString
 mMediaType
 ;
 }

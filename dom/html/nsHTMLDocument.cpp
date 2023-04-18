@@ -1286,7 +1286,7 @@ be
 /
 changed
 .
-SetContentTypeInternal
+SetContentType
 (
 nsDependentCString
 (
