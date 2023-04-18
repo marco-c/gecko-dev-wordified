@@ -744,7 +744,6 @@ bootstrap
 "
 toolchains_base_dir
 bootstrap_toolchain_tasks
-shell
 build_environment
 dependable
 (
@@ -764,6 +763,12 @@ imports
 (
 "
 subprocess
+"
+)
+imports
+(
+"
+sys
 "
 )
 imports
@@ -813,7 +818,6 @@ bootstrap_path
 bootstrap
 toolchains_base_dir
 tasks
-shell
 build_env
 path
 )
@@ -1135,7 +1139,9 @@ subprocess
 run
 (
 [
-shell
+sys
+.
+executable
 os
 .
 path

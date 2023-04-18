@@ -3786,6 +3786,9 @@ build
 run_command
 (
 [
+sys
+.
+executable
 mach
 "
 build
@@ -3871,6 +3874,10 @@ run_command
 (
             
 [
+                
+sys
+.
+executable
                 
 mach
                 
