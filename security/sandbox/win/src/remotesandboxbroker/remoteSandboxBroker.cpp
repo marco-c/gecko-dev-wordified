@@ -766,6 +766,13 @@ launches
 .
 SpinEventLoopUntil
 (
+"
+RemoteSandboxBroker
+:
+:
+LaunchApp
+"
+_ns
 [
 &
 ]
