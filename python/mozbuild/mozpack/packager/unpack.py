@@ -275,6 +275,9 @@ source
 omnijar_name
 =
 None
+unpack_xpi
+=
+True
 )
 :
         
@@ -390,6 +393,12 @@ self
 compressed
 =
 False
+        
+self
+.
+_unpack_xpi
+=
+unpack_xpi
         
 jars
 =
@@ -707,26 +716,37 @@ m
             
 #
 If
+we
+'
+re
+unpacking
+packed
+addons
+and
 the
 file
 is
 a
 packed
 addon
+            
+#
 unpack
 it
 under
 a
 directory
 named
-            
-#
 after
 the
 xpi
 .
             
 if
+self
+.
+_unpack_xpi
+and
 p
 .
 endswith
