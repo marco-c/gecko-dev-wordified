@@ -1820,6 +1820,8 @@ Selection
 aSelection
 int32_t
 aReason
+int32_t
+aGranularity
 )
 :
 AccEvent
@@ -1839,6 +1841,10 @@ aSelection
 mReason
 (
 aReason
+)
+mGranularity
+(
+aGranularity
 )
 {
 }
@@ -2991,6 +2997,12 @@ cm
 -
 >
 IsAtEndOfLine
+(
+)
+cm
+-
+>
+GetGranularity
 (
 )
 )

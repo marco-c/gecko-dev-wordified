@@ -243,6 +243,8 @@ Selection
 aSel
 int32_t
 aReason
+int32_t
+aGranularity
 )
 :
 mSel
@@ -252,6 +254,10 @@ aSel
 mReason
 (
 aReason
+)
+mGranularity
+(
+aGranularity
 )
 {
 }
@@ -263,6 +269,9 @@ mSel
 ;
 int16_t
 mReason
+;
+int32_t
+mGranularity
 ;
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -1159,6 +1168,12 @@ caretCntr
 IsCaretAtEndOfLine
 (
 )
+event
+-
+>
+GetGranularity
+(
+)
 aEvent
 -
 >
@@ -1310,6 +1325,7 @@ SelData
 (
 aSelection
 aReason
+aAmount
 )
 ;
 document
@@ -1548,6 +1564,10 @@ aSelData
 -
 >
 mReason
+aSelData
+-
+>
+mGranularity
 )
 ;
 text

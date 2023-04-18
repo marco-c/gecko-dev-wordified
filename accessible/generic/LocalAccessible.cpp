@@ -6839,6 +6839,12 @@ event
 IsAtEndOfLine
 (
 )
+event
+-
+>
+GetGranularity
+(
+)
 )
 ;
 break

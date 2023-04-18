@@ -515,6 +515,8 @@ bool
 aIsSelectionCollapsed
 bool
 aIsAtEndOfLine
+int32_t
+aGranularity
 )
 ;
 async

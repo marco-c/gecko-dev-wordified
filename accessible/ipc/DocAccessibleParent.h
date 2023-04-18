@@ -715,6 +715,10 @@ const
 bool
 &
 aIsAtEndOfLine
+const
+int32_t
+&
+aGranularity
 )
 final
 ;
