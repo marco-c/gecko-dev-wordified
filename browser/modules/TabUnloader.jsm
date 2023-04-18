@@ -590,10 +590,12 @@ browser
 browsingContext
 ?
 .
-topWindowContext
+currentWindowGlobal
 ?
 .
 hasActivePeerConnections
+(
+)
 ?
 weight
 :
