@@ -18403,6 +18403,10 @@ condition
 .
 prefFuncIndex
                         
+condition
+.
+nonExposedGlobals
+                        
 toStringBool
 (
 condition
@@ -18413,10 +18417,6 @@ secureContext
 condition
 .
 trial
-                        
-condition
-.
-nonExposedGlobals
                         
 condition
 .
