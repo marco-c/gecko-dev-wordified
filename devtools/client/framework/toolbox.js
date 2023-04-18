@@ -476,7 +476,7 @@ js
 ;
 const
 {
-LocalizationHelper
+MultiLocalizationHelper
 }
 =
 require
@@ -494,7 +494,7 @@ const
 L10N
 =
 new
-LocalizationHelper
+MultiLocalizationHelper
 (
 "
 devtools
@@ -504,6 +504,19 @@ client
 locales
 /
 toolbox
+.
+properties
+"
+"
+chrome
+:
+/
+/
+branding
+/
+locale
+/
+brand
 .
 properties
 "
