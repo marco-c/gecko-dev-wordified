@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2021a
+2021d
 /
 /
 NOTE
@@ -48,14 +48,14 @@ non
 standard
 release
 "
-2021a1
+2021a2
 "
 .
 const
 tzdata
 =
 "
-2021a1
+2021a2
 "
 ;
 if

@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2021a
+2021d
 /
 /
 This
@@ -2362,6 +2362,11 @@ Honolulu
 Pacific
 /
 Johnston
+"
+"
+Pacific
+/
+Kanton
 "
 "
 Pacific

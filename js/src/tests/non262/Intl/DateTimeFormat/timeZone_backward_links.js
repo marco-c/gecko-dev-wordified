@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2021a
+2021d
 const
 tzMapper
 =
@@ -270,7 +270,7 @@ Virgin
 "
 America
 /
-Port_of_Spain
+St_Thomas
 "
 "
 Antarctica
