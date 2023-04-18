@@ -333,6 +333,12 @@ in
 Klass
 )
 55
+/
+/
+console
+.
+log
+62
 ]
 ;
 await
