@@ -265,6 +265,10 @@ try
 :
             
 return
+liburls
+.
+normalize_root_url
+(
 os
 .
 environ
@@ -273,6 +277,7 @@ environ
 TASKCLUSTER_PROXY_URL
 "
 ]
+)
         
 except
 KeyError
@@ -388,7 +393,12 @@ production
 )
             
 return
+liburls
+.
+normalize_root_url
+(
 PRODUCTION_TASKCLUSTER_ROOT_URL
+)
     
 logger
 .
@@ -441,6 +451,10 @@ else
 )
     
 return
+liburls
+.
+normalize_root_url
+(
 os
 .
 environ
@@ -449,6 +463,7 @@ environ
 TASKCLUSTER_ROOT_URL
 "
 ]
+)
 def
 requests_retry_session
 (
