@@ -4560,13 +4560,11 @@ FC_HINT_NONE
 ;
 if
 (
-(
 !
 printing
-|
-|
+&
+&
 hinting
-)
 &
 &
 FcPatternGetInteger
