@@ -2825,10 +2825,10 @@ Treatment
 A
 S
 =
-EnabledByTreatmentGroup
+EnabledByDefault
 SS
 =
-Enabl
+EnabledByDef
 .
 .
 .
@@ -2897,7 +2897,7 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+EnabledByDefault
             
 sessionStatus
 =
@@ -5486,7 +5486,8 @@ Treatment
 A
 S
 =
-EnabledByTreatmentG
+EnabledByDefault
+SS
 .
 .
 .
@@ -5608,7 +5609,7 @@ status
 =
 ContentWin32kLockdownState
 .
-EnabledByTreatmentGroup
+EnabledByDefault
             
 sessionStatus
 =
@@ -8261,7 +8262,7 @@ experimentStatus
 =
 ExperimentStatus
 .
-DISQUALIFIED
+ENROLLED_CONTROL
             
 pref
 =
@@ -8466,7 +8467,7 @@ experimentStatus
 =
 ExperimentStatus
 .
-UNENROLLED
+ENROLLED_CONTROL
             
 pref
 =
@@ -10591,7 +10592,7 @@ experimentStatus
 =
 ExperimentStatus
 .
-UNENROLLED
+ENROLLED_TREATMENT
             
 pref
 =
@@ -10836,7 +10837,7 @@ experimentStatus
 =
 ExperimentStatus
 .
-DISQUALIFIED
+ENROLLED_TREATMENT
             
 pref
 =
