@@ -1726,6 +1726,14 @@ NS_IsMainThread
 ;
 mFont
 .
+family
+.
+is_initial
+=
+true
+;
+mFont
+.
 size
 =
 mSize
