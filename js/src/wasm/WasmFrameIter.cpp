@@ -567,7 +567,7 @@ fp_
 ;
 tls_
 =
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 fp_
 )
@@ -7709,7 +7709,7 @@ js
 wasm
 :
 :
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 const
 Frame
@@ -7885,7 +7885,7 @@ js
 wasm
 :
 :
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 Frame
 *
@@ -7899,7 +7899,7 @@ Instance
 *
 >
 (
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 const_cast
 <
@@ -11035,7 +11035,7 @@ code_
 =
 =
 &
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 Frame
 :

@@ -2385,7 +2385,7 @@ Instance
 *
 instance
 =
-GetNearestEffectiveTls
+GetNearestEffectiveInstance
 (
 fp
 )
