@@ -1275,6 +1275,14 @@ mallocSizeOf
 )
 const
 ;
+void
+Trace
+(
+JSTracer
+*
+trc
+)
+;
 private
 :
 Map
