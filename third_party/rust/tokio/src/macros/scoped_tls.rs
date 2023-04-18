@@ -28,7 +28,7 @@ marker
 /
 /
 /
-Set
+Sets
 a
 reference
 as
@@ -36,6 +36,7 @@ a
 thread
 -
 local
+.
 macro_rules
 !
 scoped_thread_local
@@ -204,13 +205,6 @@ ScopedKey
 T
 >
 {
-#
-[
-doc
-(
-hidden
-)
-]
 pub
 (
 crate
@@ -230,13 +224,6 @@ const
 )
 >
 >
-#
-[
-doc
-(
-hidden
-)
-]
 pub
 (
 crate

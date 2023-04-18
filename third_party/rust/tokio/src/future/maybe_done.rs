@@ -6,6 +6,7 @@ of
 the
 MaybeDone
 combinator
+.
 use
 std
 :
@@ -78,6 +79,7 @@ yet
 -
 completed
 future
+.
 Future
 (
 Fut
@@ -91,6 +93,7 @@ of
 the
 completed
 future
+.
 Done
 (
 Fut
@@ -174,6 +177,7 @@ future
 into
 a
 MaybeDone
+.
 pub
 fn
 maybe_done

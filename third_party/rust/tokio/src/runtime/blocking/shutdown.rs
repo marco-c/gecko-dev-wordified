@@ -79,7 +79,7 @@ super
 struct
 Sender
 {
-tx
+_tx
 :
 Arc
 <
@@ -151,7 +151,7 @@ tx
 =
 Sender
 {
-tx
+_tx
 :
 Arc
 :
@@ -305,7 +305,7 @@ from_nanos
 )
 {
 return
-true
+false
 ;
 }
 let

@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+dead_code
+)
+]
 /
 /
 !
@@ -7,6 +15,7 @@ the
 PollFn
 adapter
 combinator
+.
 use
 std
 :

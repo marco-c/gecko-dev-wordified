@@ -14,6 +14,7 @@ Fast
 random
 number
 generate
+.
 /
 /
 /
@@ -57,6 +58,7 @@ s
 Xorshift
 paper
 :
+<
 https
 :
 /
@@ -76,6 +78,7 @@ v008i14
 xorshift
 .
 pdf
+>
 /
 /
 /
@@ -93,6 +96,7 @@ framework
 /
 /
 /
+<
 http
 :
 /
@@ -110,6 +114,7 @@ testu01
 tu01
 .
 html
+>
 #
 [
 derive
@@ -143,7 +148,7 @@ FastRand
 /
 /
 /
-Initialize
+Initializes
 a
 new
 thread
@@ -424,11 +429,6 @@ feature
 =
 "
 macros
-"
-feature
-=
-"
-stream
 "
 )
 )

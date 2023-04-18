@@ -41,6 +41,7 @@ that
 completes
 on
 poll
+.
 pub
 (
 crate
@@ -79,6 +80,7 @@ from
 the
 given
 function
+.
 pub
 (
 crate
@@ -148,6 +150,17 @@ FnOnce
 -
 >
 R
++
+Send
++
+'
+static
+R
+:
+Send
++
+'
+static
 {
 type
 Output

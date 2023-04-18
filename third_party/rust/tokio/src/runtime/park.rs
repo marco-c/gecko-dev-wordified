@@ -80,7 +80,10 @@ crate
 runtime
 :
 :
-time
+driver
+:
+:
+Driver
 ;
 use
 crate
@@ -272,9 +275,6 @@ driver
 :
 TryLock
 <
-time
-:
-:
 Driver
 >
 /
@@ -285,9 +285,6 @@ handle
 handle
 :
 <
-time
-:
-:
 Driver
 as
 Park
@@ -307,9 +304,6 @@ fn
 new
 (
 driver
-:
-time
-:
 :
 Driver
 )
@@ -804,10 +798,6 @@ mutex
 lock
 (
 )
-.
-unwrap
-(
-)
 ;
 match
 self
@@ -1029,9 +1019,6 @@ driver
 :
 &
 mut
-time
-:
-:
 Driver
 )
 {
@@ -1566,10 +1553,6 @@ self
 mutex
 .
 lock
-(
-)
-.
-unwrap
 (
 )
 )
