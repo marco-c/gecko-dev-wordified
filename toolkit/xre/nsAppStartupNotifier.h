@@ -126,7 +126,12 @@ NotifyObservers
 const
 char
 *
-aTopic
+aCategory
+nsISupports
+*
+aSubject
+=
+nullptr
 )
 ;
 }
