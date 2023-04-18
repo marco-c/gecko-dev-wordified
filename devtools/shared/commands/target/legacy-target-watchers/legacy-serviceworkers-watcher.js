@@ -617,7 +617,7 @@ targetCommand
 .
 descriptorFront
 .
-isLocalTab
+isTabDescriptor
 )
 {
 this
@@ -694,7 +694,7 @@ targetCommand
 .
 descriptorFront
 .
-isLocalTab
+isTabDescriptor
 )
 {
 await
@@ -771,7 +771,7 @@ targetCommand
 .
 descriptorFront
 .
-isLocalTab
+isTabDescriptor
 )
 {
 this
@@ -836,7 +836,7 @@ targetCommand
 .
 descriptorFront
 .
-isLocalTab
+isTabDescriptor
 )
 {
 /
@@ -2009,7 +2009,7 @@ targetCommand
 .
 descriptorFront
 .
-isLocalTab
+isTabDescriptor
 )
 {
 /
@@ -2025,7 +2025,6 @@ of
 main
 process
 &
-local
 /
 /
 tab
