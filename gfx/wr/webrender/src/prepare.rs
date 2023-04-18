@@ -4695,7 +4695,7 @@ local_prim_rect
 =
 surface
 .
-clipped_local_rect
+local_rect
 .
 cast_unit
 (

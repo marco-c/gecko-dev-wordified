@@ -2076,7 +2076,7 @@ pre_update
 (
 surface
 .
-unclipped_local_rect
+local_rect
 surface_index
 &
 visibility_context
