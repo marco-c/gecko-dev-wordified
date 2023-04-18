@@ -347,8 +347,10 @@ returnvalue
 ]
 .
 GCFunction
-=
-=
+.
+startswith
+(
+    
 "
 void
 GCInDestructor
@@ -359,6 +361,7 @@ GCInDestructor
 (
 )
 "
+)
 assert
 "
 container1
