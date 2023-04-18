@@ -2504,7 +2504,7 @@ void
 SetCicpValues
 (
 const
-NclxColourInformation
+Mp4parseNclxColourInformation
 *
 aNclx
 const
@@ -2680,7 +2680,7 @@ YUVColorSpace
 GetAVIFColorSpace
 (
 const
-NclxColourInformation
+Mp4parseNclxColourInformation
 *
 aNclx
 F
@@ -2768,7 +2768,7 @@ ColorRange
 GetAVIFColorRange
 (
 const
-NclxColourInformation
+Mp4parseNclxColourInformation
 *
 aNclx
 const
@@ -2835,7 +2835,7 @@ AVIFDecodedData
 SetCicpValues
 (
 const
-NclxColourInformation
+Mp4parseNclxColourInformation
 *
 aNclx
 const
@@ -4644,7 +4644,7 @@ AVIFDecodedData
 Dav1dPictureToDecodedData
 (
 const
-NclxColourInformation
+Mp4parseNclxColourInformation
 *
 aNclx
 Dav1dPicture
@@ -6412,7 +6412,7 @@ AVIFDecodedData
 AOMImageToToDecodedData
 (
 const
-NclxColourInformation
+Mp4parseNclxColourInformation
 *
 aNclx
 aom_image_t
@@ -6457,7 +6457,7 @@ Dav1dDecoder
 Dav1dPictureToDecodedData
 (
 const
-NclxColourInformation
+Mp4parseNclxColourInformation
 *
 aNclx
 Dav1dPicture
@@ -7225,7 +7225,7 @@ AOMDecoder
 AOMImageToToDecodedData
 (
 const
-NclxColourInformation
+Mp4parseNclxColourInformation
 *
 aNclx
 aom_image_t

@@ -8703,7 +8703,6 @@ new
 (
 )
 ;
-if
 data_len
 .
 write_u32
@@ -8718,21 +8717,8 @@ NativeEndian
 (
 content_len
 )
-.
-is_err
-(
-)
-{
-return
-Err
-(
-Mp4parseStatus
-:
-:
-Io
-)
+?
 ;
-}
 pssh_data
 .
 extend_from_slice
@@ -8902,7 +8888,6 @@ _
 }
 ;
 let
-mut
 buf
 =
 unsafe
@@ -8925,8 +8910,6 @@ input
 .
 read
 (
-&
-mut
 buf
 )
 {
