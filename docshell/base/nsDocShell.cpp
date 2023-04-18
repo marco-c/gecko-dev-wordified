@@ -10357,7 +10357,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-SetCurrentURI
+SetCurrentURIForSessionStore
 (
 nsIURI
 *
@@ -10408,7 +10408,10 @@ false
 aLocationFlags
 *
 /
-0
+nsIWebProgressListener
+:
+:
+LOCATION_CHANGE_SESSION_STORE
 )
 ;
 return

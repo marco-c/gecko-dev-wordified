@@ -823,7 +823,7 @@ boring
 .
 docShell
 .
-setCurrentURI
+setCurrentURIForSessionStore
 (
 Services
 .

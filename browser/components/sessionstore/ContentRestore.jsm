@@ -950,7 +950,7 @@ loadArguments
 {
 webNavigation
 .
-setCurrentURI
+setCurrentURIForSessionStore
 (
 Services
 .
@@ -1336,7 +1336,7 @@ isRemotenessUpdate
 {
 webNavigation
 .
-setCurrentURI
+setCurrentURIForSessionStore
 (
 Services
 .
@@ -2584,7 +2584,7 @@ this
 .
 webNavigation
 .
-setCurrentURI
+setCurrentURIForSessionStore
 (
 Services
 .
