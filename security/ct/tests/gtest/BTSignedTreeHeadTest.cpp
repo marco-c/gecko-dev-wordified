@@ -828,7 +828,7 @@ kSTHHex
 Result
 :
 :
-ERROR_BAD_DER
+ERROR_BAD_SIGNATURE
 0
 0
 nullptr
@@ -930,7 +930,7 @@ kSTHHex
 Result
 :
 :
-ERROR_BAD_DER
+ERROR_BAD_SIGNATURE
 0
 0
 nullptr
@@ -1338,7 +1338,7 @@ kSTHHex
 Result
 :
 :
-ERROR_BAD_DER
+ERROR_BAD_SIGNATURE
 0
 0
 nullptr
@@ -1372,7 +1372,7 @@ kSTHHex
 Result
 :
 :
-ERROR_BAD_SIGNATURE
+ERROR_INVALID_KEY
 0
 0
 nullptr
