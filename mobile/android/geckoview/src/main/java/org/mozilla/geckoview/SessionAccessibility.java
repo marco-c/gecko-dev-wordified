@@ -4984,12 +4984,12 @@ View
 NO_ID
 event
 .
-getRawX
+getX
 (
 )
 event
 .
-getRawY
+getY
 (
 )
 )

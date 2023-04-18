@@ -196,17 +196,6 @@ uint64_t
 aID
 )
 ;
-async
-ExploreByTouch
-(
-uint64_t
-aID
-float
-aX
-float
-aY
-)
-;
 parent
 :
 async
