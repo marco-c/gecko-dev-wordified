@@ -1819,6 +1819,16 @@ std
 :
 declval
 <
+ErrorResult
+&
+>
+(
+)
+std
+:
+:
+declval
+<
 Args
 >
 (
@@ -2089,6 +2099,9 @@ JS
 :
 :
 HandleValue
+ErrorResult
+&
+aRv
 )
 >
 &

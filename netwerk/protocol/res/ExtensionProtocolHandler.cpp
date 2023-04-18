@@ -3088,6 +3088,9 @@ JS
 :
 HandleValue
 aValue
+ErrorResult
+&
+aRv
 nsIStreamListener
 *
 aListener
