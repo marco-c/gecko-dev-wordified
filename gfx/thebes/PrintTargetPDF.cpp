@@ -150,8 +150,12 @@ if
 AppShutdown
 :
 :
-IsShuttingDown
+IsInOrBeyond
 (
+ShutdownPhase
+:
+:
+AppShutdownConfirmed
 )
 )
 {
@@ -507,8 +511,12 @@ mIsFinished
 AppShutdown
 :
 :
-IsShuttingDown
+IsInOrBeyond
 (
+ShutdownPhase
+:
+:
+AppShutdownConfirmed
 )
 )
 {

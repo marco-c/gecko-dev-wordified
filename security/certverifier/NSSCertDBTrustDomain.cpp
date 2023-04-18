@@ -12850,8 +12850,12 @@ if
 AppShutdown
 :
 :
-IsShuttingDown
+IsInOrBeyond
 (
+ShutdownPhase
+:
+:
+AppShutdownConfirmed
 )
 )
 {
@@ -12923,8 +12927,12 @@ if
 AppShutdown
 :
 :
-IsShuttingDown
+IsInOrBeyond
 (
+ShutdownPhase
+:
+:
+AppShutdownConfirmed
 )
 )
 {
