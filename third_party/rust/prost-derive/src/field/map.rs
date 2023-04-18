@@ -175,46 +175,6 @@ call_site
 )
 }
 }
-fn
-lib
-(
-&
-self
-)
--
->
-TokenStream
-{
-match
-self
-{
-MapTy
-:
-:
-HashMap
-=
->
-quote
-!
-{
-std
-}
-MapTy
-:
-:
-BTreeMap
-=
->
-quote
-!
-{
-prost
-:
-:
-alloc
-}
-}
-}
 }
 fn
 fake_scalar
@@ -430,7 +390,6 @@ String
 )
 =
 match
-&
 *
 attr
 {
@@ -448,6 +407,7 @@ Lit
 :
 Str
 (
+ref
 lit
 )
 .
@@ -575,6 +535,7 @@ Meta
 :
 List
 (
+ref
 meta_list
 )
 =
@@ -642,6 +603,7 @@ nested
 0
 ]
 {
+&
 NestedMeta
 :
 :
@@ -652,6 +614,7 @@ Meta
 :
 Path
 (
+ref
 k
 )
 )
@@ -714,6 +677,7 @@ nested
 1
 ]
 {
+&
 NestedMeta
 :
 :
@@ -724,6 +688,7 @@ Meta
 :
 Path
 (
+ref
 v
 )
 )
@@ -851,7 +816,7 @@ Some
 (
 map_ty
 key_ty
-value_ty
+val_ty
 )
 )
 Some
@@ -866,8 +831,16 @@ Some
 Field
 {
 map_ty
+:
+map_ty
+key_ty
+:
 key_ty
 value_ty
+:
+val_ty
+tag
+:
 tag
 }
 )
@@ -1007,7 +980,6 @@ module
 )
 ;
 match
-&
 self
 .
 value_ty
@@ -1025,6 +997,7 @@ Ty
 :
 Enumeration
 (
+ref
 ty
 )
 )
@@ -1113,6 +1086,7 @@ ValueTy
 :
 Scalar
 (
+ref
 value_ty
 )
 =
@@ -1349,7 +1323,6 @@ module
 )
 ;
 match
-&
 self
 .
 value_ty
@@ -1367,6 +1340,7 @@ Ty
 :
 Enumeration
 (
+ref
 ty
 )
 )
@@ -1437,6 +1411,7 @@ ValueTy
 :
 Scalar
 (
+ref
 value_ty
 )
 =
@@ -1630,7 +1605,6 @@ module
 )
 ;
 match
-&
 self
 .
 value_ty
@@ -1648,6 +1622,7 @@ Ty
 :
 Enumeration
 (
+ref
 ty
 )
 )
@@ -1720,6 +1695,7 @@ ValueTy
 :
 Scalar
 (
+ref
 value_ty
 )
 =
@@ -1899,11 +1875,11 @@ Ty
 :
 Enumeration
 (
+ref
 ty
 )
 )
 =
-&
 self
 .
 value_ty
@@ -2098,7 +2074,7 @@ key_ref_ty
 >
 :
 :
-core
+std
 :
 :
 option
@@ -2163,7 +2139,7 @@ ty
 >
 :
 :
-core
+std
 :
 :
 option
@@ -2369,17 +2345,6 @@ debug
 )
 ;
 let
-libname
-=
-self
-.
-map_ty
-.
-lib
-(
-)
-;
-let
 fmt
 =
 quote
@@ -2396,7 +2361,7 @@ f
 mut
 :
 :
-core
+std
 :
 :
 fmt
@@ -2408,7 +2373,7 @@ Formatter
 >
 :
 :
-core
+std
 :
 :
 fmt
@@ -2466,7 +2431,6 @@ finish
 }
 ;
 match
-&
 self
 .
 value_ty
@@ -2476,6 +2440,7 @@ ValueTy
 :
 Scalar
 (
+ref
 ty
 )
 =
@@ -2506,8 +2471,7 @@ a
 a
 :
 :
-#
-libname
+std
 :
 :
 collections
@@ -2530,7 +2494,7 @@ a
 >
 :
 :
-core
+std
 :
 :
 fmt
@@ -2576,8 +2540,7 @@ a
 a
 :
 :
-#
-libname
+std
 :
 :
 collections
@@ -2600,7 +2563,7 @@ V
 >
 :
 :
-core
+std
 :
 :
 fmt
@@ -2620,7 +2583,7 @@ V
 :
 :
 :
-core
+std
 :
 :
 fmt
@@ -2971,6 +2934,7 @@ self
 TokenStream
 {
 match
+*
 self
 {
 ValueTy
@@ -2978,6 +2942,7 @@ ValueTy
 :
 Scalar
 (
+ref
 ty
 )
 =

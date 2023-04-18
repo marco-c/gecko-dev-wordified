@@ -439,12 +439,16 @@ String
 >
 >
 {
+Ok
+(
 get_meta
 (
 self
 .
 db
 SYNC_ID_META_KEY
+)
+?
 )
 }
 fn
@@ -645,6 +649,7 @@ schema
 :
 create_empty_sync_temp_tables
 (
+&
 self
 .
 db
@@ -869,6 +874,7 @@ outgoing
 =
 get_outgoing
 (
+&
 self
 .
 db
@@ -998,6 +1004,7 @@ schema
 :
 create_empty_sync_temp_tables
 (
+&
 self
 .
 db

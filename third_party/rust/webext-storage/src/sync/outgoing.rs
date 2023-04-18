@@ -694,9 +694,13 @@ err_if_interrupted
 )
 ?
 ;
+Ok
+(
 outgoing_from_row
 (
 row
+)
+?
 )
 }
 )
@@ -903,6 +907,7 @@ sql_support
 :
 each_chunk
 (
+&
 items
 |
 chunk

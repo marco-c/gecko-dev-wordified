@@ -93,12 +93,6 @@ those
 terms
 .
 use
-crate
-:
-:
-Url
-;
-use
 std
 :
 :
@@ -112,6 +106,9 @@ RangeFrom
 RangeFull
 RangeTo
 }
+;
+use
+Url
 ;
 impl
 Index

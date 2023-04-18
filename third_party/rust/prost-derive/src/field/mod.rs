@@ -226,6 +226,7 @@ prost_attrs
 (
 attrs
 )
+?
 ;
 /
 /
@@ -484,6 +485,7 @@ prost_attrs
 (
 attrs
 )
+?
 ;
 /
 /
@@ -1241,7 +1243,7 @@ quote
 (
 :
 :
-core
+std
 :
 :
 default
@@ -1485,6 +1487,7 @@ Label
 fn
 as_str
 (
+&
 self
 )
 -
@@ -1495,6 +1498,7 @@ static
 str
 {
 match
+*
 self
 {
 Label
@@ -1546,6 +1550,8 @@ const
 VARIANTS
 :
 &
+'
+static
 [
 Label
 ]
@@ -1785,6 +1791,10 @@ baz
 )
 ]
 .
+pub
+(
+super
+)
 fn
 prost_attrs
 (
@@ -1797,11 +1807,17 @@ Attribute
 )
 -
 >
+Result
+<
 Vec
 <
 Meta
 >
+Error
+>
 {
+Ok
+(
 attrs
 .
 iter
@@ -1941,6 +1957,7 @@ lit
 .
 collect
 (
+)
 )
 }
 pub
@@ -2834,6 +2851,7 @@ attr
 ;
 }
 }
+return
 Ok
 (
 Some
@@ -2841,6 +2859,7 @@ Some
 tags
 )
 )
+;
 }
 Meta
 :
@@ -2924,7 +2943,13 @@ _
 .
 map
 (
+|
+tags
+|
 Some
+(
+tags
+)
 )
 _
 =

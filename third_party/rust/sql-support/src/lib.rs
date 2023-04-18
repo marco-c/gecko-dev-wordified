@@ -84,10 +84,6 @@ interrupt
 mod
 maybe_cached
 ;
-pub
-mod
-open_database
-;
 mod
 query_plan
 ;
