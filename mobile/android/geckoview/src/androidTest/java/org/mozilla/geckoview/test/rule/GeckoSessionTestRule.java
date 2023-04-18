@@ -15663,12 +15663,16 @@ void
 setResolutionAndScaleTo
 (
 final
+GeckoSession
+session
+final
 float
 resolution
 )
 {
 webExtensionApiCall
 (
+session
 "
 SetResolutionAndScaleTo
 "
