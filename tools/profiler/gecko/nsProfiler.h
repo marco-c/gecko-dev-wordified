@@ -354,6 +354,11 @@ void
 aClosure
 )
 ;
+void
+RestartGatheringTimer
+(
+)
+;
 RefPtr
 <
 SymbolTablePromise
