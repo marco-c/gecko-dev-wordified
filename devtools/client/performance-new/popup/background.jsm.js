@@ -1713,6 +1713,9 @@ IncomingVideoStream
 InotifyEventThread
 "
 "
+libwebrtcModuleThread
+"
+"
 MediaDecoderStateMachine
 "
 "
@@ -1747,6 +1750,9 @@ SwComposite
 "
 "
 VoiceProcessThread
+"
+"
+WebrtcWorker
 "
 ]
 duration
