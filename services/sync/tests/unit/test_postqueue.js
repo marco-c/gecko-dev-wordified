@@ -50,7 +50,6 @@ record
 .
 js
 "
-null
 )
 ;
 function

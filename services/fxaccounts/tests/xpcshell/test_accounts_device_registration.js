@@ -155,7 +155,6 @@ FxAccounts
 .
 jsm
 "
-null
 )
 ;
 initTestLogging

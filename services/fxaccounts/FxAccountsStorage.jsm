@@ -71,6 +71,15 @@ FxAccountsStorageManagerCanStoreField
 "
 FxAccountsStorageManager
 "
+/
+/
+Exported
+for
+tests
+.
+"
+LoginManagerStorage
+"
 ]
 ;
 const

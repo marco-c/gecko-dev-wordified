@@ -163,7 +163,6 @@ FxAccountsStorage
 .
 jsm
 "
-null
 )
 ;
 var
