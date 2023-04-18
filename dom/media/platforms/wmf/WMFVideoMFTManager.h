@@ -394,7 +394,10 @@ CanUseDXVA
 (
 IMFMediaType
 *
-aType
+aInputType
+IMFMediaType
+*
+aOutputType
 float
 aFramerate
 )
