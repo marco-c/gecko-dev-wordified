@@ -8881,6 +8881,8 @@ maybeFirstListItem
 >
 GetNextNode
 (
+&
+aListElement
 )
 )
 {
