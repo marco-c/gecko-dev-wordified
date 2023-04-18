@@ -13569,8 +13569,8 @@ vp
 wasm
 :
 :
-IntrinsicOp
-ops
+IntrinsicId
+ids
 [
 ]
 =
@@ -13578,7 +13578,7 @@ ops
 wasm
 :
 :
-IntrinsicOp
+IntrinsicId
 :
 :
 I8VecMul
@@ -13599,7 +13599,7 @@ wasm
 CompileIntrinsicModule
 (
 cx
-ops
+ids
 wasm
 :
 :

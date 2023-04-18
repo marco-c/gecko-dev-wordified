@@ -380,9 +380,9 @@ the
 Intrinsic
 for
 an
-IntrinsicOp
+IntrinsicId
 .
-IntrinsicOp
+IntrinsicId
 must
 be
 validated
@@ -391,10 +391,10 @@ static
 const
 Intrinsic
 &
-getFromOp
+getFromId
 (
-IntrinsicOp
-op
+IntrinsicId
+id
 )
 ;
 }
@@ -412,8 +412,7 @@ a
 given
 set
 of
-intrinsic
-ops
+operations
 .
 bool
 CompileIntrinsicModule
@@ -427,9 +426,9 @@ mozilla
 :
 Span
 <
-IntrinsicOp
+IntrinsicId
 >
-ops
+ids
 Shareable
 sharedMemory
 MutableHandleWasmModuleObject

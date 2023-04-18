@@ -13642,8 +13642,6 @@ nodiscard
 bool
 emitIntrinsic
 (
-IntrinsicOp
-op
 )
 ;
 }
