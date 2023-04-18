@@ -822,7 +822,6 @@ IsDarkBackground
 (
 nsIFrame
 *
-aFrame
 )
 ;
 static
@@ -841,7 +840,6 @@ mozilla
 :
 :
 StyleAppearance
-aAppearance
 )
 ;
 private

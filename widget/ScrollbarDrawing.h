@@ -519,17 +519,6 @@ bool
 aIsHorizontal
 )
 ;
-static
-bool
-ShouldUseDarkScrollbar
-(
-nsIFrame
-*
-const
-ComputedStyle
-&
-)
-;
 nscolor
 GetScrollbarButtonColor
 (
