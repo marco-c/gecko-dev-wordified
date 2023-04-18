@@ -1416,7 +1416,7 @@ runtime
 /
 check
 in
-CacheScriptLoader
+CacheLoadHandler
 .
 /
 /
@@ -2359,7 +2359,7 @@ const
 }
 ;
 class
-CacheScriptLoader
+CacheLoadHandler
 ;
 class
 CacheCreator
@@ -2420,7 +2420,7 @@ MovingNotNull
 <
 RefPtr
 <
-CacheScriptLoader
+CacheLoadHandler
 >
 >
 aLoader
@@ -2613,7 +2613,7 @@ NotNull
 <
 RefPtr
 <
-CacheScriptLoader
+CacheLoadHandler
 >
 >
 >
@@ -2632,7 +2632,7 @@ NS_IMPL_ISUPPORTS0
 CacheCreator
 )
 class
-CacheScriptLoader
+CacheLoadHandler
 final
 :
 public
@@ -2644,7 +2644,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTREAMLOADEROBSERVER
-CacheScriptLoader
+CacheLoadHandler
 (
 WorkerPrivate
 *
@@ -2725,7 +2725,7 @@ override
 private
 :
 ~
-CacheScriptLoader
+CacheLoadHandler
 (
 )
 {
@@ -2850,7 +2850,7 @@ mMainThreadEventTarget
 ;
 NS_IMPL_ISUPPORTS
 (
-CacheScriptLoader
+CacheLoadHandler
 nsIStreamLoaderObserver
 )
 class
@@ -2969,7 +2969,7 @@ NS_IMPL_ISUPPORTS0
 CachePromiseHandler
 )
 class
-LoaderListener
+NetworkLoadHandler
 final
 :
 public
@@ -2980,7 +2980,7 @@ nsIRequestObserver
 public
 :
 NS_DECL_ISUPPORTS
-LoaderListener
+NetworkLoadHandler
 (
 WorkerScriptLoader
 *
@@ -3068,7 +3068,7 @@ NS_OK
 private
 :
 ~
-LoaderListener
+NetworkLoadHandler
 (
 )
 =
@@ -3093,7 +3093,7 @@ mLoadInfo
 ;
 NS_IMPL_ISUPPORTS
 (
-LoaderListener
+NetworkLoadHandler
 nsIStreamLoaderObserver
 nsIRequestObserver
 )
@@ -3638,11 +3638,11 @@ CachePromiseHandler
 ;
 friend
 class
-CacheScriptLoader
+CacheLoadHandler
 ;
 friend
 class
-LoaderListener
+NetworkLoadHandler
 ;
 WorkerPrivate
 *
@@ -4725,7 +4725,7 @@ MakeNotNull
 <
 RefPtr
 <
-CacheScriptLoader
+CacheLoadHandler
 >
 >
 (
@@ -5511,12 +5511,12 @@ result
 .
 RefPtr
 <
-LoaderListener
+NetworkLoadHandler
 >
 listener
 =
 new
-LoaderListener
+NetworkLoadHandler
 (
 this
 aLoadInfo
@@ -7447,10 +7447,10 @@ return
 true
 ;
 }
-LoaderListener
+NetworkLoadHandler
 :
 :
-LoaderListener
+NetworkLoadHandler
 (
 WorkerScriptLoader
 *
@@ -7483,7 +7483,7 @@ mLoader
 ;
 }
 NS_IMETHODIMP
-LoaderListener
+NetworkLoadHandler
 :
 :
 OnStreamComplete
@@ -7527,7 +7527,7 @@ rv
 ;
 }
 nsresult
-LoaderListener
+NetworkLoadHandler
 :
 :
 DataReceivedFromNetwork
@@ -8931,7 +8931,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-LoaderListener
+NetworkLoadHandler
 :
 :
 OnStartRequest
@@ -8974,7 +8974,7 @@ rv
 ;
 }
 nsresult
-LoaderListener
+NetworkLoadHandler
 :
 :
 PrepareForRequest
@@ -9755,7 +9755,7 @@ have
 been
 canceled
 by
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 Fail
@@ -9874,7 +9874,7 @@ have
 been
 canceled
 by
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 Fail
@@ -10777,10 +10777,10 @@ NS_ERROR_FAILURE
 )
 ;
 }
-CacheScriptLoader
+CacheLoadHandler
 :
 :
-CacheScriptLoader
+CacheLoadHandler
 (
 WorkerPrivate
 *
@@ -10872,7 +10872,7 @@ AssertIsOnMainThread
 ;
 }
 void
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 Fail
@@ -11030,7 +11030,7 @@ aRv
 ;
 }
 void
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 Load
@@ -11260,7 +11260,7 @@ this
 ;
 }
 void
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 RejectedCallback
@@ -11308,7 +11308,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 ResolvedCallback
@@ -12127,7 +12127,7 @@ ReadingFromCache
 ;
 }
 NS_IMETHODIMP
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 OnStreamComplete
@@ -12256,7 +12256,7 @@ rv
 ;
 }
 nsresult
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 DataReceivedFromCache
@@ -12835,7 +12835,7 @@ rv
 ;
 }
 void
-CacheScriptLoader
+CacheLoadHandler
 :
 :
 DataReceived
