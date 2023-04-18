@@ -123,6 +123,7 @@ stream
 /
 [
 scriptable
+builtinclass
 uuid
 (
 a076fd12
@@ -155,6 +156,9 @@ multiplex
 stream
 *
 /
+[
+infallible
+]
 readonly
 attribute
 unsigned
