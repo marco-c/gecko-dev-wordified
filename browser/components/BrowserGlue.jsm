@@ -9951,6 +9951,7 @@ UrlbarPrefs
 .
 updateFirefoxSuggestScenario
 (
+true
 )
 ;
 /
