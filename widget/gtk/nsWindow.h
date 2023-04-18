@@ -2950,6 +2950,16 @@ aEvent
 )
 ;
 void
+EnableRenderingToWindow
+(
+)
+;
+void
+DisableRenderingToWindow
+(
+)
+;
+void
 ResumeCompositorHiddenWindow
 (
 )
