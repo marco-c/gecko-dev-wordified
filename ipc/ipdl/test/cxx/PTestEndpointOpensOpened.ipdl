@@ -91,6 +91,9 @@ Hi
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 HiRpc
 (
@@ -108,6 +111,9 @@ HelloSync
 (
 )
 ;
+[
+LegacyIntr
+]
 intr
 HelloRpc
 (
