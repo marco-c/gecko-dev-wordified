@@ -620,6 +620,7 @@ aError
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 Click
 (
@@ -4571,6 +4572,7 @@ override
 /
 *
 *
+*
 Handles
 dispatching
 a
@@ -4584,7 +4586,19 @@ or
 enter
 .
 *
+TODO
+:
+Convert
+this
+to
+MOZ_CAN_RUN_SCRIPT
+(
+bug
+1415230
+)
+*
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 HandleKeyboardActivation
 (
@@ -4612,6 +4626,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchSimulatedClick
