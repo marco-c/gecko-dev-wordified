@@ -2522,6 +2522,10 @@ itself
 .
 imgSet
 mUncachedImages
+GUARDED_BY
+(
+mUncachedImagesMutex
+)
 ;
 /
 /
@@ -2561,7 +2565,6 @@ destructor
 .
 Mutex
 mUncachedImagesMutex
-MOZ_UNANNOTATED
 ;
 static
 double
