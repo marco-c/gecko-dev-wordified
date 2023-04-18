@@ -269,7 +269,7 @@ StartupCache
 cache
 nsACString
 &
-uri
+cachePath
 JSContext
 *
 cx
@@ -322,7 +322,7 @@ GetBuffer
 (
 PromiseFlatCString
 (
-uri
+cachePath
 )
 .
 get
@@ -407,7 +407,7 @@ StartupCache
 cache
 nsACString
 &
-uri
+cachePath
 JSContext
 *
 cx
@@ -527,7 +527,7 @@ PutBuffer
 (
 PromiseFlatCString
 (
-uri
+cachePath
 )
 .
 get
