@@ -471,7 +471,7 @@ popSorter
 (
 )
 ;
-nsresult
+void
 pushChooseGotoList
 (
 )
