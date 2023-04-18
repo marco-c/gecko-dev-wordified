@@ -688,7 +688,7 @@ offset
 int64_t
 FrameIndexFromOffset
 (
-int64_t
+uint64_t
 aOffset
 )
 const
@@ -739,7 +739,7 @@ actual
 size
 read
 .
-int32_t
+uint32_t
 Read
 (
 uint8_t
@@ -814,7 +814,7 @@ the
 source
 stream
 .
-int64_t
+uint64_t
 mOffset
 ;
 /
