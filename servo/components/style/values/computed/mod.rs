@@ -563,7 +563,8 @@ counters
 Content
 ContentItem
 CounterIncrement
-CounterSetOrReset
+CounterReset
+CounterSet
 }
 ;
 pub

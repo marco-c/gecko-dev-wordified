@@ -752,6 +752,7 @@ aDecls
 SetCounterResetListItem
 (
 start
+haveReversed
 )
 ;
 }
