@@ -2545,7 +2545,7 @@ ModuleLoaderBase
 :
 ResolveModuleSpecifier
 (
-ScriptLoaderInterface
+ModuleLoaderBase
 *
 aLoader
 LoadedScript
@@ -2759,6 +2759,9 @@ else
 baseURL
 =
 aLoader
+-
+>
+mLoader
 -
 >
 GetBaseURI
@@ -3065,9 +3068,6 @@ uri
 ResolveModuleSpecifier
 (
 requestModuleLoader
--
->
-mLoader
 ms
 specifier
 )

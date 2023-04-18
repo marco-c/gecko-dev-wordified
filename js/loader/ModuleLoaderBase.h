@@ -841,7 +841,7 @@ nsIURI
 >
 ResolveModuleSpecifier
 (
-ScriptLoaderInterface
+ModuleLoaderBase
 *
 loader
 LoadedScript
