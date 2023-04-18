@@ -4130,17 +4130,24 @@ topobjdir
         
 include_tmpl
 =
+(
+            
 '
 include
 !
 (
-mozbuild
-:
-:
-objdir_path
+concat
+!
+(
+env
 !
 (
 "
+MOZ_TOPOBJDIR
+"
+)
+"
+/
 dist
 /
 xpcrs
@@ -4156,6 +4163,8 @@ rs
 )
 )
 '
+        
+)
         
 #
 Ensure
