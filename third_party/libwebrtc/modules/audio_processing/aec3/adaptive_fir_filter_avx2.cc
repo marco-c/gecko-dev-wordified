@@ -100,11 +100,13 @@ h
 "
 #
 include
-<
-immintrin
+"
+common_audio
+/
+intrin
 .
 h
->
+"
 #
 include
 "

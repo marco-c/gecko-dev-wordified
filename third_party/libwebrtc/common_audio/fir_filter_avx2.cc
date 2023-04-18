@@ -125,6 +125,15 @@ h
 #
 include
 "
+common_audio
+/
+intrin
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
