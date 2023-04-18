@@ -502,10 +502,6 @@ Some
 Field
 {
 ty
-:
-ty
-tags
-:
 tags
 }
 )
@@ -699,7 +695,7 @@ ident
 =
 :
 :
-std
+core
 :
 :
 option

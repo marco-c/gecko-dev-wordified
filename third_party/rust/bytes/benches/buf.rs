@@ -334,7 +334,7 @@ next_readlen
 ;
 }
 fn
-bytes
+chunk
 (
 &
 self
@@ -541,7 +541,7 @@ never
 )
 ]
 fn
-bytes
+chunk
 (
 &
 self
@@ -557,7 +557,7 @@ self
 .
 inner
 .
-bytes
+chunk
 (
 )
 }
@@ -1184,13 +1184,6 @@ bench_group
 !
 (
 get_u8
-)
-;
-bench
-!
-(
-option
-option
 )
 ;
 }
