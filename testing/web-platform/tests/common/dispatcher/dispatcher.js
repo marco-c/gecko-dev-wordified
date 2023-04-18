@@ -1,7 +1,7 @@
 /
 /
 Define
-an
+a
 universal
 message
 passing
