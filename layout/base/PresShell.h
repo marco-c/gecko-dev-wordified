@@ -11102,7 +11102,8 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mAllocatedPointers
-.
+-
+>
 Contains
 (
 aPtr
@@ -11110,7 +11111,8 @@ aPtr
 )
 ;
 mAllocatedPointers
-.
+-
+>
 Insert
 (
 aPtr
@@ -11133,7 +11135,8 @@ MOZ_DIAGNOSTIC_ASSERT_ENABLED
 MOZ_DIAGNOSTIC_ASSERT
 (
 mAllocatedPointers
-.
+-
+>
 Contains
 (
 aPtr
@@ -11141,7 +11144,8 @@ aPtr
 )
 ;
 mAllocatedPointers
-.
+-
+>
 Remove
 (
 aPtr
@@ -17669,10 +17673,13 @@ missing
 double
 frees
 .
+UniquePtr
+<
 nsTHashSet
 <
 void
 *
+>
 >
 mAllocatedPointers
 ;
