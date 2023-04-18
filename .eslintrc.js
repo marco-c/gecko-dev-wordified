@@ -4736,17 +4736,6 @@ files
 "
 dom
 /
-ipc
-/
-tests
-/
-browser_memory_distribution_telemetry
-.
-js
-"
-"
-dom
-/
 push
 /
 test
