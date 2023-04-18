@@ -273,9 +273,9 @@ bytefn
 dav1d_cdef_brow
 )
 (
-Dav1dFrameContext
+Dav1dTaskContext
 *
-f
+tc
 pixel
 *
 const
@@ -291,6 +291,10 @@ int
 by_start
 int
 by_end
+int
+sbrow_start
+int
+sby
 )
 ;
 #

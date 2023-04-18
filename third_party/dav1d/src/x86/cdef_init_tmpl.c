@@ -646,9 +646,6 @@ return
 ;
 #
 if
-HAVE_AVX512ICL
-&
-&
 BITDEPTH
 =
 =
