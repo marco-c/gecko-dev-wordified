@@ -1849,7 +1849,7 @@ ForwardErrorCorrectionFr
 SdpSsrcGroupSemantic
 :
 :
-SIM
+Sim
 =
 >
 RustSdpSsrcGroupSemantic
