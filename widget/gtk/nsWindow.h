@@ -4824,6 +4824,15 @@ WaylandPopupGetPositionFromLayout
 (
 )
 ;
+void
+WaylandPopupPropagateChangesToLayout
+(
+bool
+aMove
+bool
+aResize
+)
+;
 nsWindow
 *
 WaylandPopupFindLast
@@ -4873,6 +4882,8 @@ the
 original
 popup
 position
+/
+size
 from
 layout
 set
