@@ -22067,10 +22067,6 @@ mAudioRate
 audioInfo
 .
 mRate
-/
-1000
-.
-0f
 ;
 aInfo
 .
