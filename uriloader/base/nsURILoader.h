@@ -500,9 +500,6 @@ DispatchContent
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 )
 ;
 /

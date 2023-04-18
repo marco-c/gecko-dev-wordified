@@ -3757,7 +3757,6 @@ self
 DoOnStartRequest
 (
 self
-nullptr
 )
 ;
 }
@@ -3797,7 +3796,6 @@ get
 DoOnStartRequest
 (
 this
-nullptr
 )
 ;
 }
@@ -4100,9 +4098,6 @@ DoOnStartRequest
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 )
 {
 nsresult
@@ -4853,7 +4848,6 @@ return
 DoOnDataAvailable
 (
 this
-nullptr
 stringStream
 aOffset
 aCount
@@ -5433,9 +5427,6 @@ DoOnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aStream
@@ -6387,7 +6378,6 @@ DoOnStopRequest
 (
 this
 aChannelStatus
-nullptr
 )
 ;
 /
@@ -6850,9 +6840,6 @@ nsIRequest
 aRequest
 nsresult
 aChannelStatus
-nsISupports
-*
-aContext
 )
 {
 AUTO_PROFILER_LABEL

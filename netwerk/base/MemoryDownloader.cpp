@@ -247,7 +247,6 @@ OnDownloadComplete
 (
 this
 aRequest
-nullptr
 aStatus
 std
 :

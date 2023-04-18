@@ -423,9 +423,6 @@ do_OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aContext
 uint64_t
 aSourceOffset
 const

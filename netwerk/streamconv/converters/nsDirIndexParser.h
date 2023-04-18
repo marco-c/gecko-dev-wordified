@@ -294,9 +294,6 @@ ProcessData
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 )
 ;
 void

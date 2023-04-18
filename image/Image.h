@@ -1864,9 +1864,6 @@ OnImageDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInStr
@@ -1904,16 +1901,6 @@ request
 .
 *
 param
-aContext
-Context
-from
-Necko
-'
-s
-OnStopRequest
-.
-*
-param
 aStatus
 A
 success
@@ -1944,9 +1931,6 @@ OnImageDataComplete
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 bool

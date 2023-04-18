@@ -360,9 +360,6 @@ OnImageDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInStr
@@ -379,7 +376,6 @@ mInnerImage
 OnImageDataAvailable
 (
 aRequest
-aContext
 aInStr
 aSourceOffset
 aCount
@@ -395,9 +391,6 @@ OnImageDataComplete
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 bool
@@ -411,7 +404,6 @@ mInnerImage
 OnImageDataComplete
 (
 aRequest
-aContext
 aStatus
 aLastPart
 )

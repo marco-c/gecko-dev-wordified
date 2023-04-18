@@ -180,12 +180,6 @@ the
 request
 *
 param
-ctxt
--
-opaque
-parameter
-*
-param
 index
 -
 new
@@ -200,9 +194,6 @@ onIndexAvailable
 in
 nsIRequest
 aRequest
-in
-nsISupports
-aCtxt
 in
 nsIDirIndex
 aIndex
@@ -226,12 +217,6 @@ the
 request
 *
 param
-ctxt
--
-opaque
-parameter
-*
-param
 info
 -
 new
@@ -246,9 +231,6 @@ onInformationAvailable
 in
 nsIRequest
 aRequest
-in
-nsISupports
-aCtxt
 in
 AString
 aInfo

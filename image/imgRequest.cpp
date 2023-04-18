@@ -4614,7 +4614,6 @@ image
 OnImageDataComplete
 (
 aRequest
-nullptr
 status
 lastPart
 )
@@ -6301,7 +6300,6 @@ image
 OnImageDataAvailable
 (
 aRequest
-nullptr
 aInStr
 aOffset
 aCount

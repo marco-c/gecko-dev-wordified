@@ -254,9 +254,6 @@ aDownloader
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aCtxt
 nsresult
 aStatus
 Data

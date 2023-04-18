@@ -1609,9 +1609,6 @@ OnImageDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInStr
@@ -1685,7 +1682,6 @@ nextPart
 OnImageDataAvailable
 (
 aRequest
-aContext
 aInStr
 aSourceOffset
 aCount
@@ -1702,7 +1698,6 @@ InnerImage
 OnImageDataAvailable
 (
 aRequest
-aContext
 aInStr
 aSourceOffset
 aCount
@@ -1722,9 +1717,6 @@ OnImageDataComplete
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsresult
 aStatus
 bool
@@ -1795,7 +1787,6 @@ nextPart
 OnImageDataComplete
 (
 aRequest
-aContext
 aStatus
 aLastPart
 )
@@ -1811,7 +1802,6 @@ InnerImage
 OnImageDataComplete
 (
 aRequest
-aContext
 aStatus
 aLastPart
 )

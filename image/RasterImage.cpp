@@ -6399,8 +6399,6 @@ OnImageDataComplete
 (
 nsIRequest
 *
-nsISupports
-*
 nsresult
 aStatus
 bool
@@ -6871,8 +6869,6 @@ RasterImage
 OnImageDataAvailable
 (
 nsIRequest
-*
-nsISupports
 *
 nsIInputStream
 *
