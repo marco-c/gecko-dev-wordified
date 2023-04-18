@@ -31236,6 +31236,16 @@ IsReused
 (
 )
 {
+if
+(
+!
+mConnection
+)
+{
+return
+false
+;
+}
 return
 mConnection
 -
