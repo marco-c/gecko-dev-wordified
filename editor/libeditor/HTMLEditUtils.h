@@ -3099,6 +3099,16 @@ EmptyCheckOption
 TreatSingleBRElementAsVisible
 TreatListItemAsVisible
 TreatTableCellAsVisible
+IgnoreEditableState
+/
+/
+TODO
+:
+Change
+to
+"
+TreatNonEditableContentAsVisible
+"
 SafeToAskLayout
 }
 ;
