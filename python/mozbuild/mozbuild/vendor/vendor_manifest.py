@@ -79,6 +79,8 @@ tempfile
 import
 requests
 import
+functools
+import
 mozfile
 import
 mozpack
@@ -211,6 +213,25 @@ self
 yaml_file
 =
 yaml_file
+        
+self
+.
+logInfo
+=
+functools
+.
+partial
+(
+self
+.
+log
+logging
+.
+INFO
+"
+vendor
+"
+)
         
 if
 "
@@ -399,16 +420,8 @@ revision
         
 self
 .
-log
+logInfo
 (
-            
-logging
-.
-INFO
-            
-"
-vendor
-"
             
 {
 "
@@ -554,43 +567,19 @@ anything
             
 self
 .
-log
+logInfo
 (
-                
-logging
-.
-INFO
-                
-"
-vendor
-"
-                
 {
-"
-ref_type
-"
-:
-ref_type
 }
-                
 "
 Latest
 upstream
-{
-ref_type
-}
 matches
-{
-ref_type
-}
 in
 -
 tree
 .
-Returning
-.
 "
-            
 )
             
 return
@@ -648,14 +637,8 @@ else
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -682,14 +665,8 @@ actions
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -710,14 +687,8 @@ else
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -745,15 +716,8 @@ add
             
 self
 .
-log
+logInfo
 (
-                
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -764,7 +728,6 @@ version
 control
 .
 "
-            
 )
             
 self
@@ -808,14 +771,8 @@ else
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -841,14 +798,8 @@ check
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -874,14 +825,8 @@ else
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -911,14 +856,8 @@ yaml
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -943,14 +882,8 @@ else
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -982,14 +915,8 @@ build
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -1042,14 +969,8 @@ else
             
 self
 .
-log
+logInfo
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -1065,37 +986,25 @@ files
         
 self
 .
-log
+logInfo
 (
-            
-logging
-.
-INFO
-            
-"
-done
-"
-            
 {
 "
-revision
+rev
 "
 :
 revision
 }
-            
 "
-Update
+Updated
 to
 '
 {
-revision
+rev
 }
 '
-completed
 .
 "
-        
 )
         
 if
@@ -1779,35 +1688,24 @@ revision
         
 self
 .
-log
+logInfo
 (
-            
-logging
-.
-INFO
-            
-"
-vendor
-"
-            
 {
 "
-revision_url
+url
 "
 :
 url
 }
-            
 "
 Fetching
 code
 archive
 from
 {
-revision_url
+url
 }
 "
-        
 )
         
 with
@@ -1970,20 +1868,10 @@ keep
                     
 self
 .
-log
+logInfo
 (
-                        
-logging
-.
-INFO
-                        
-"
-vendor
-"
-                        
 {
 }
-                        
 "
 Retaining
 wanted
@@ -1993,7 +1881,6 @@ tree
 files
 .
 "
-                    
 )
                     
 to_keep
@@ -2052,29 +1939,20 @@ else
                     
 self
 .
-log
+logInfo
 (
-                        
-logging
-.
-INFO
-                        
-"
-vendor
-"
-                        
 {
 }
-                        
 "
 Skipping
 retention
 of
-included
+in
+-
+tree
 files
 .
 "
-                    
 )
                     
 to_keep
@@ -2084,36 +1962,25 @@ to_keep
                 
 self
 .
-log
+logInfo
 (
-                    
-logging
-.
-INFO
-                    
-"
-vendor
-"
-                    
 {
 "
-vendor_dir
+vd
 "
 :
 vendor_dir
 }
-                    
 "
 Cleaning
 {
-vendor_dir
+vd
 }
 to
 import
 changes
 .
 "
-                
 )
                 
 #
@@ -2173,36 +2040,25 @@ file
                 
 self
 .
-log
+logInfo
 (
-                    
-logging
-.
-INFO
-                    
-"
-vendor
-"
-                    
 {
 "
-vendor_dir
+vd
 "
 :
 vendor_dir
 }
-                    
 "
 Unpacking
 upstream
 files
 for
 {
-vendor_dir
+vd
 }
 .
 "
-                
 )
                 
 tar
@@ -2349,20 +2205,10 @@ include
                     
 self
 .
-log
+logInfo
 (
-                        
-logging
-.
-INFO
-                        
-"
-vendor
-"
-                        
 {
 }
-                        
 "
 Retaining
 wanted
@@ -2372,7 +2218,6 @@ upstream
 changes
 .
 "
-                    
 )
                     
 to_include
@@ -2412,20 +2257,10 @@ else
                     
 self
 .
-log
+logInfo
 (
-                        
-logging
-.
-INFO
-                        
-"
-vendor
-"
-                        
 {
 }
-                        
 "
 Skipping
 retention
@@ -2434,7 +2269,6 @@ included
 files
 .
 "
-                    
 )
                     
 to_include
@@ -2455,30 +2289,19 @@ exclude
                     
 self
 .
-log
+logInfo
 (
-                        
-logging
-.
-INFO
-                        
-"
-vendor
-"
-                        
 {
 }
-                        
 "
 Removing
-unwanted
+excluded
 files
 from
 upstream
 changes
 .
 "
-                    
 )
                     
 to_exclude
@@ -2518,15 +2341,8 @@ else
                     
 self
 .
-log
+logInfo
 (
-                        
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
@@ -2536,7 +2352,6 @@ excluded
 files
 .
 "
-                    
 )
                     
 to_exclude
@@ -2565,35 +2380,25 @@ to_exclude
                     
 self
 .
-log
+logInfo
 (
-                        
-logging
-.
-INFO
-                        
-"
-vendor
-"
-                        
 {
 "
 files
 "
 :
-to_exclude
-}
-                        
-"
-Removing
-:
-"
-+
 str
 (
 to_exclude
 )
-                    
+}
+"
+Removing
+:
+{
+files
+}
+"
 )
                     
 for
@@ -3042,42 +2847,28 @@ changed_files
             
 self
 .
-log
+logInfo
 (
-                
-logging
-.
-INFO
-                
-"
-done
-"
-                
 {
 "
-revision
+r
 "
 :
 revision
 }
-                
 "
 Upstream
-version
-'
 {
-revision
+r
 }
+hasn
 '
-has
-not
+t
 modified
-any
 files
 locally
 .
 "
-            
 )
             
 #
@@ -3148,7 +2939,7 @@ log
                     
 logging
 .
-INFO
+CRITICAL
                     
 "
 vendor
@@ -3216,20 +3007,12 @@ exit
         
 self
 .
-log
+logInfo
 (
-            
-logging
-.
-INFO
-            
-"
-done
-"
             
 {
 "
-revision
+rev
 "
 :
 revision
@@ -3247,7 +3030,7 @@ changed_files
 Version
 '
 {
-revision
+rev
 }
 '
 has
@@ -3355,30 +3138,21 @@ to
                 
 self
 .
-log
+logInfo
 (
-                    
-logging
-.
-INFO
-                    
-"
-vendor
-"
                     
 {
 "
-src
+s
 "
 :
 src
 "
-dst
+d
 "
 :
 dst
 }
-                    
 "
 action
 :
@@ -3388,12 +3162,12 @@ file
 src
 :
 {
-src
+s
 }
 dst
 :
 {
-dst
+d
 }
 "
                 
@@ -3481,16 +3255,8 @@ to
                 
 self
 .
-log
+logInfo
 (
-                    
-logging
-.
-INFO
-                    
-"
-vendor
-"
                     
 {
 "
@@ -3504,7 +3270,6 @@ dst
 :
 dst
 }
-                    
 "
 action
 :
@@ -3704,17 +3469,8 @@ file
                 
 self
 .
-log
+logInfo
 (
-                    
-logging
-.
-INFO
-                    
-"
-vendor
-"
-                    
 {
 "
 file
@@ -3722,7 +3478,6 @@ file
 :
 file
 }
-                    
 "
 action
 :
@@ -3737,7 +3492,6 @@ file
 file
 }
 "
-                
 )
                 
 with
@@ -3842,17 +3596,8 @@ path
                 
 self
 .
-log
+logInfo
 (
-                    
-logging
-.
-INFO
-                    
-"
-vendor
-"
-                    
 {
 "
 path
@@ -3860,7 +3605,6 @@ path
 :
 path
 }
-                    
 "
 action
 :
@@ -3873,7 +3617,6 @@ path
 path
 }
 "
-                
 )
                 
 mozfile
@@ -4027,16 +3770,8 @@ a
                 
 self
 .
-log
+logInfo
 (
-                    
-logging
-.
-INFO
-                    
-"
-vendor
-"
                     
 {
 "
@@ -4402,16 +4137,8 @@ header_files_to_add
         
 self
 .
-log
+logInfo
 (
-            
-logging
-.
-INFO
-            
-"
-vendor
-"
             
 {
 "
@@ -4655,14 +4382,8 @@ vendor_dir
         
 self
 .
-log
+logi
 (
-logging
-.
-INFO
-"
-vendor
-"
 {
 }
 "
