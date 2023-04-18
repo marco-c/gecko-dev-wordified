@@ -143,6 +143,11 @@ ProcInfo
 .
 h
 "
+"
+ProcInfo_linux
+.
+h
+"
 ]
 EXPORTS
 +
