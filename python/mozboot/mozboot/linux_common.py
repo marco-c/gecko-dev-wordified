@@ -94,7 +94,7 @@ absolute_import
 print_function
 unicode_literals
 import
-os
+platform
 def
 is_non_x86_64
 (
@@ -102,14 +102,11 @@ is_non_x86_64
 :
     
 return
-os
+platform
 .
-uname
+machine
 (
 )
-[
-4
-]
 !
 =
 "
@@ -607,6 +604,14 @@ mozboot
 import
 android
         
+os_arch
+=
+platform
+.
+machine
+(
+)
+        
 android
 .
 ensure_android
@@ -615,9 +620,13 @@ ensure_android
 "
 linux
 "
+            
+os_arch
+            
 artifact_mode
 =
 artifact_mode
+            
 no_interactive
 =
 self
@@ -634,6 +643,8 @@ ensure_android
 "
 linux
 "
+            
+os_arch
             
 artifact_mode
 =
@@ -665,6 +676,8 @@ ensure_android
 "
 linux
 "
+            
+os_arch
             
 artifact_mode
 =
