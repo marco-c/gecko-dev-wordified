@@ -346,7 +346,7 @@ addonId
 :
 watcherActor
 .
-context
+sessionContext
 .
 addonId
 }
@@ -412,7 +412,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 browserId
 ;
@@ -831,7 +831,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -878,7 +878,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =

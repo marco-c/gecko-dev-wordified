@@ -335,7 +335,7 @@ if
 (
 watcher
 .
-context
+sessionContext
 .
 type
 =
@@ -443,7 +443,7 @@ browserId
 =
 watcher
 .
-context
+sessionContext
 .
 browserId
 ;
@@ -551,7 +551,7 @@ parent
 (
 watcher
 .
-context
+sessionContext
 .
 type
 !
@@ -1028,11 +1028,11 @@ watcher
 conn
 .
 prefix
-context
+sessionContext
 :
 watcher
 .
-context
+sessionContext
 sessionData
 :
 watcher
@@ -1187,7 +1187,7 @@ isServerTargetSwitchingEnabled
 &
 watcher
 .
-context
+sessionContext
 .
 type
 =
@@ -1301,11 +1301,11 @@ watcherActorID
 watcher
 .
 actorID
-context
+sessionContext
 :
 watcher
 .
-context
+sessionContext
 }
 )
 ;
@@ -1314,7 +1314,7 @@ if
 (
 watcher
 .
-context
+sessionContext
 .
 type
 =
@@ -1509,11 +1509,11 @@ watcherActorID
 watcher
 .
 actorID
-context
+sessionContext
 :
 watcher
 .
-context
+sessionContext
 type
 entries
 }
@@ -1641,11 +1641,11 @@ watcherActorID
 watcher
 .
 actorID
-context
+sessionContext
 :
 watcher
 .
-context
+sessionContext
 type
 entries
 }
@@ -1842,7 +1842,7 @@ if
 (
 watcher
 .
-context
+sessionContext
 .
 type
 =
@@ -1856,7 +1856,7 @@ element
 |
 watcher
 .
-context
+sessionContext
 .
 type
 =
@@ -1873,7 +1873,7 @@ if
 (
 watcher
 .
-context
+sessionContext
 .
 type
 =
@@ -1899,7 +1899,7 @@ if
 (
 watcher
 .
-context
+sessionContext
 .
 type
 =
@@ -1917,7 +1917,7 @@ get
 (
 watcher
 .
-context
+sessionContext
 .
 addonBrowsingContextID
 )

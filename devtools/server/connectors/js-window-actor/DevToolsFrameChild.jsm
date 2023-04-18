@@ -306,7 +306,7 @@ function
 shouldNotifyWindowGlobal
 (
 windowGlobal
-context
+sessionContext
 {
 acceptTopLevelTarget
 =
@@ -636,7 +636,7 @@ elements
 .
 if
 (
-context
+sessionContext
 .
 type
 =
@@ -653,7 +653,7 @@ browsingContext
 browserId
 !
 =
-context
+sessionContext
 .
 browserId
 )
@@ -776,7 +776,7 @@ if
 acceptTopLevelTarget
 &
 &
-context
+sessionContext
 .
 type
 =
@@ -1454,7 +1454,7 @@ sessionDataByWatcherActor
 const
 {
 connectionPrefix
-context
+sessionContext
 isServerTargetSwitchingEnabled
 }
 =
@@ -1578,7 +1578,7 @@ shouldNotifyWindowGlobal
 this
 .
 manager
-context
+sessionContext
 {
 acceptTopLevelTarget
 }
@@ -1754,7 +1754,7 @@ _findTargetActor
 (
 {
 watcherActorID
-context
+sessionContext
 browsingContextId
 :
 this
@@ -2604,7 +2604,7 @@ browserId
 =
 sessionData
 .
-context
+sessionContext
 .
 browserId
 ;
@@ -3682,7 +3682,7 @@ message
 .
 data
 .
-context
+sessionContext
 .
 type
 =
@@ -3703,7 +3703,7 @@ message
 .
 data
 .
-context
+sessionContext
 ;
 /
 /
@@ -3908,7 +3908,7 @@ addSessionDataEntry
 const
 {
 watcherActorID
-context
+sessionContext
 type
 entries
 }
@@ -3923,7 +3923,7 @@ this
 _addSessionDataEntry
 (
 watcherActorID
-context
+sessionContext
 type
 entries
 )
@@ -3940,7 +3940,7 @@ removeSessionDataEntry
 const
 {
 watcherActorID
-context
+sessionContext
 type
 entries
 }
@@ -3955,7 +3955,7 @@ this
 _removeSessionDataEntry
 (
 watcherActorID
-context
+sessionContext
 type
 entries
 )
@@ -4098,7 +4098,7 @@ Object
 }
 options
 .
-context
+sessionContext
 *
 param
 {
@@ -4137,7 +4137,7 @@ _findTargetActor
 (
 {
 watcherActorID
-context
+sessionContext
 browsingContextId
 }
 )
@@ -4284,7 +4284,7 @@ browsingContext
 browserId
 =
 =
-context
+sessionContext
 .
 browserId
 ;
@@ -4300,14 +4300,14 @@ nodePrincipal
 addonId
 =
 =
-context
+sessionContext
 .
 addonId
 ;
 if
 (
 (
-context
+sessionContext
 .
 type
 =
@@ -4324,7 +4324,7 @@ isMatchingBrowserElement
 |
 |
 (
-context
+sessionContext
 .
 type
 =
@@ -4399,7 +4399,7 @@ TargetActorRegistry
 .
 getTargetActors
 (
-context
+sessionContext
 connectionPrefix
 )
 ;
@@ -4444,7 +4444,7 @@ null
 _addSessionDataEntry
 (
 watcherActorID
-context
+sessionContext
 type
 entries
 )
@@ -4498,7 +4498,7 @@ _findTargetActor
 (
 {
 watcherActorID
-context
+sessionContext
 }
 )
 ;
@@ -4530,7 +4530,7 @@ watcherActorID
 BrowserId
 :
 {
-context
+sessionContext
 .
 browserId
 }
@@ -4550,7 +4550,7 @@ entries
 _removeSessionDataEntry
 (
 watcherActorID
-context
+sessionContext
 type
 entries
 )
@@ -4604,7 +4604,7 @@ _findTargetActor
 (
 {
 watcherActorID
-context
+sessionContext
 }
 )
 ;
@@ -5434,7 +5434,7 @@ sessionDataByWatcherActor
 {
 const
 {
-context
+sessionContext
 isServerTargetSwitchingEnabled
 }
 =
@@ -5489,7 +5489,7 @@ _findTargetActor
 (
 {
 watcherActorID
-context
+sessionContext
 }
 )
 ;

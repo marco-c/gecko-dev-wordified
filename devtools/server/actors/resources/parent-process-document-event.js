@@ -713,7 +713,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -750,7 +750,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -772,7 +772,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -805,7 +805,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 addonId
 )
@@ -817,6 +817,7 @@ Error
 (
 "
 Unsupported
+session
 context
 type
 =
@@ -826,7 +827,7 @@ this
 .
 watcherActor
 .
-context
+sessionContext
 .
 type
 )

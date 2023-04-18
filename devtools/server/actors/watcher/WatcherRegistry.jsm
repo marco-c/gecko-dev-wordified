@@ -502,11 +502,12 @@ observed
 /
 /
 -
-context
+sessionContext
 :
 WatcherActor
 '
 s
+session
 context
 .
 Describe
@@ -1116,6 +1117,7 @@ sessionData
 /
 The
 "
+session
 context
 "
 object
@@ -1141,11 +1143,11 @@ for
 more
 info
 .
-context
+sessionContext
 :
 watcher
 .
-context
+sessionContext
 /
 /
 The
@@ -1404,7 +1406,7 @@ if
 (
 watcherActor
 .
-context
+sessionContext
 .
 type
 =
@@ -1418,7 +1420,7 @@ element
 &
 watcherActor
 .
-context
+sessionContext
 .
 browserId
 =

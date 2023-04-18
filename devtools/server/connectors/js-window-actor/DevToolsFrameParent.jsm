@@ -452,7 +452,7 @@ instantiateTarget
 {
 watcherActorID
 connectionPrefix
-context
+sessionContext
 sessionData
 }
 )
@@ -474,7 +474,7 @@ available
 {
 watcherActorID
 connectionPrefix
-context
+sessionContext
 sessionData
 }
 )
@@ -484,7 +484,7 @@ destroyTarget
 (
 {
 watcherActorID
-context
+sessionContext
 }
 )
 {
@@ -499,7 +499,7 @@ destroy
 "
 {
 watcherActorID
-context
+sessionContext
 }
 )
 ;
@@ -527,7 +527,7 @@ addSessionDataEntry
 (
 {
 watcherActorID
-context
+sessionContext
 type
 entries
 }
@@ -547,7 +547,7 @@ addSessionDataEntry
 "
 {
 watcherActorID
-context
+sessionContext
 type
 entries
 }
@@ -615,7 +615,7 @@ removeSessionDataEntry
 (
 {
 watcherActorID
-context
+sessionContext
 type
 entries
 }
@@ -632,7 +632,7 @@ removeSessionDataEntry
 "
 {
 watcherActorID
-context
+sessionContext
 type
 entries
 }
