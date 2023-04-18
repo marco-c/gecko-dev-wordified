@@ -175,7 +175,7 @@ DIST
 "
 )
 def
-check_build_environment
+build_environment
 (
 _
 dist
@@ -270,7 +270,7 @@ set_config
 "
 TOPSRCDIR
 "
-check_build_environment
+build_environment
 .
 topsrcdir
 )
@@ -279,7 +279,7 @@ set_config
 "
 TOPOBJDIR
 "
-check_build_environment
+build_environment
 .
 topobjdir
 )
@@ -288,7 +288,7 @@ set_config
 "
 DIST
 "
-check_build_environment
+build_environment
 .
 dist
 )
@@ -297,7 +297,7 @@ add_old_configure_assignment
 "
 _topsrcdir
 "
-check_build_environment
+build_environment
 .
 topsrcdir
 )
@@ -306,7 +306,7 @@ add_old_configure_assignment
 "
 _objdir
 "
-check_build_environment
+build_environment
 .
 topobjdir
 )
@@ -315,7 +315,7 @@ add_old_configure_assignment
 "
 DIST
 "
-check_build_environment
+build_environment
 .
 dist
 )
@@ -519,7 +519,7 @@ MOZCONFIG
 "
 OLD_CONFIGURE
 "
-check_build_environment
+build_environment
 "
 -
 -
@@ -1939,7 +1939,7 @@ value
 )
 depends
 (
-check_build_environment
+build_environment
 "
 -
 -
@@ -2045,7 +2045,7 @@ integration
 =
 depends
 (
-check_build_environment
+build_environment
 "
 MOZ_AUTOMATION
 "
@@ -2461,7 +2461,7 @@ keys
 .
 depends_all
 (
-check_build_environment
+build_environment
 hg
 hg_version
 )
@@ -2826,7 +2826,7 @@ repository
 .
 depends
 (
-check_build_environment
+build_environment
 exposed_vcs_checkout_type
 hg
 git
@@ -3075,7 +3075,7 @@ application
 )
 depends
 (
-check_build_environment
+build_environment
 js_package
 )
 def
@@ -6282,7 +6282,7 @@ enable
 -
 project
 "
-check_build_environment
+build_environment
 "
 -
 -
@@ -6623,7 +6623,7 @@ RELEASE_OR_BETA
 )
 depends
 (
-check_build_environment
+build_environment
 build_project
 version_path
 "

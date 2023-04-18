@@ -7796,7 +7796,7 @@ api
 )
 depends
 (
-check_build_environment
+build_environment
 when
 =
 "

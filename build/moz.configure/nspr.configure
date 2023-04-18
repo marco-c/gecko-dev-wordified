@@ -533,7 +533,7 @@ nspr
 .
 depends
 (
-check_build_environment
+build_environment
 c_compiler
 fold_libs
 when

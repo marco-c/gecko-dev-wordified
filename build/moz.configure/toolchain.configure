@@ -4178,7 +4178,7 @@ depends
 (
 host
 vs_major_version
-check_build_environment
+build_environment
 "
 VC_PATH
 "
@@ -11322,7 +11322,7 @@ hide_from_abi
 depends
 (
 target
-check_build_environment
+build_environment
 )
 def
 visibility_flags
@@ -14499,7 +14499,7 @@ depends
 (
 target
 c_compiler
-check_build_environment
+build_environment
 when
 =
 code_coverage
@@ -19770,7 +19770,7 @@ return
 depends
 (
 target
-check_build_environment
+build_environment
 target_sysroot
 .
 path
