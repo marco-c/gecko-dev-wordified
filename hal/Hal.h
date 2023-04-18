@@ -1445,15 +1445,7 @@ nodiscard
 ]
 RefPtr
 <
-mozilla
-:
-:
-MozPromise
-<
-bool
-bool
-false
->
+GenericNonExclusivePromise
 >
 LockScreenOrientation
 (

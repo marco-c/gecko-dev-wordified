@@ -472,12 +472,7 @@ change
 .
 RefPtr
 <
-MozPromise
-<
-bool
-bool
-false
->
+GenericNonExclusivePromise
 >
 LockDeviceOrientation
 (
