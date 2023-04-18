@@ -1888,10 +1888,10 @@ JS
 :
 GCReason
 reason
-int64_t
-millis
-=
-0
+const
+SliceBudget
+&
+budget
 )
 ;
 void
@@ -1902,10 +1902,10 @@ JS
 :
 GCReason
 reason
-int64_t
-millis
-=
-0
+const
+SliceBudget
+&
+budget
 )
 ;
 void
@@ -1931,6 +1931,7 @@ JS
 :
 GCOptions
 options
+const
 SliceBudget
 &
 budget
@@ -1939,6 +1940,7 @@ budget
 void
 debugGCSlice
 (
+const
 SliceBudget
 &
 budget
