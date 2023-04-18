@@ -449,15 +449,14 @@ isWaylandDisplay
 gdk_display_get_default
 (
 )
-?
+&
+&
 GdkIsWaylandDisplay
 (
 gdk_display_get_default
 (
 )
 )
-:
-false
 ;
 return
 isWaylandDisplay

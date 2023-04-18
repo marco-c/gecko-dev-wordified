@@ -1136,6 +1136,11 @@ GtkCSDReversedPlacement
 "
 ui
 .
+GtkWayland
+"
+"
+ui
+.
 systemUsesDarkTheme
 "
 "
