@@ -826,7 +826,10 @@ assert
 (
 !
 (
-ctx
+comp
+-
+>
+stream
 -
 >
 flags
@@ -6819,9 +6822,6 @@ cand
 -
 >
 stream
--
->
-ctx
 -
 >
 flags
