@@ -14664,15 +14664,6 @@ isCollecting
 zone
 -
 >
-usedByHelperThread
-(
-)
-&
-&
-!
-zone
--
->
 arenas
 .
 arenaListsAreEmpty
