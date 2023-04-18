@@ -798,10 +798,10 @@ result
 CanvasRenderingContextHelper
 :
 :
-GetContext
+GetOrCreateContext
 (
 aCx
-aContextId
+contextType
 aContextOptions
 aRv
 )
