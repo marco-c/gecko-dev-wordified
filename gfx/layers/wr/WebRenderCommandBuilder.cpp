@@ -14250,7 +14250,7 @@ item
 const
 ActiveScrolledRoot
 *
-stopAtAsrForDescendants
+stopAtAsrForChildren
 =
 asr
 ;
@@ -14329,7 +14329,7 @@ cases
 make
 sure
 our
-descendants
+children
 have
 stopAtAsr
 =
@@ -14367,7 +14367,7 @@ newLayerData
 mTransformShouldGetOwnLayer
 )
 {
-stopAtAsrForDescendants
+stopAtAsrForChildren
 =
 ActiveScrolledRoot
 :
@@ -14391,7 +14391,7 @@ mAsrStack
 .
 push_back
 (
-stopAtAsrForDescendants
+stopAtAsrForChildren
 )
 ;
 }
