@@ -80,6 +80,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 script
 >
 window

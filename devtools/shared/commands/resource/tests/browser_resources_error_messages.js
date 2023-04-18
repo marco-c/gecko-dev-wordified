@@ -115,6 +115,11 @@ res
 write
 (
 <
+!
+DOCTYPE
+html
+>
+<
 meta
 charset
 =

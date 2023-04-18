@@ -57,6 +57,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 Cache
 Test
 "
