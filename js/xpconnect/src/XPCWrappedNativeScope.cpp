@@ -1921,6 +1921,9 @@ XPCWrappedNativeScope
 :
 UpdateWeakPointersAfterGC
 (
+JSTracer
+*
+trc
 )
 {
 /
@@ -1936,8 +1939,9 @@ mWaiverWrapperMap
 mWaiverWrapperMap
 -
 >
-Sweep
+UpdateWeakPointers
 (
+trc
 )
 ;
 }
