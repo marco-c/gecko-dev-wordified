@@ -246,6 +246,13 @@ nsIURIMutator
 .
 h
 "
+#
+include
+"
+nsITextToSubURI
+.
+h
+"
 using
 mozilla
 :
@@ -254,6 +261,10 @@ intl
 :
 :
 LocaleService
+;
+using
+namespace
+mozilla
 ;
 NS_IMPL_ISUPPORTS
 (
