@@ -9633,7 +9633,7 @@ OffscreenCanvas
 insecureContext
 :
 true
-disabled
+nightly
 :
 true
 }
