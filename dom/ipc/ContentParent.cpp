@@ -46894,6 +46894,10 @@ const
 bool
 &
 aCloneEntryChildren
+const
+bool
+&
+aChannelExpired
 )
 {
 if
@@ -46920,6 +46924,7 @@ aChangeID
 aLoadType
 aPersist
 aCloneEntryChildren
+aChannelExpired
 )
 ;
 }
