@@ -3643,7 +3643,7 @@ point
 (
 aPoint
 .
-GetContainer
+ContainerAsContent
 (
 )
 )
@@ -3672,14 +3672,11 @@ IsAtLastContent
 )
 ;
 point
-.
-Set
-(
+=
 point
 .
-GetContainer
+ParentPoint
 (
-)
 )
 )
 {
