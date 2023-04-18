@@ -2249,15 +2249,6 @@ endif
 /
 MOZ_DUMP_PAINTING
 virtual
-LayersBackend
-GetBackendType
-(
-)
-const
-=
-0
-;
-virtual
 CompositorD3D11
 *
 AsCompositorD3D11
