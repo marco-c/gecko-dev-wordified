@@ -568,7 +568,7 @@ close
 }
 '
 Can
-read
+write
 a
 large
 amount
