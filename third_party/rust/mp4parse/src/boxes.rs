@@ -662,6 +662,13 @@ PrimaryItemBox
 "
 pitm
 "
+ItemDataBox
+0x6964_6174
+/
+/
+"
+idat
+"
 ItemInfoBox
 0x6969_6e66
 /
@@ -794,6 +801,13 @@ ImageSpatialExtentsProperty
 /
 "
 ispe
+"
+PixelAspectRatioBox
+0x7061_7370
+/
+/
+"
+pasp
 "
 PixelInformationBox
 0x7069_7869
