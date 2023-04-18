@@ -391,6 +391,11 @@ InitDmabufConfig
 )
 ;
 void
+InitVAAPIConfig
+(
+)
+;
+void
 InitPlatformGPUProcessPrefs
 (
 )
