@@ -113,6 +113,7 @@ LIBC
 Win
 createPipe
 libc
+win32
 *
 /
 /
@@ -129,6 +130,18 @@ as
 subprocess_win
 .
 jsm
+/
+*
+import
+-
+globals
+-
+from
+subprocess_shared
+.
+js
+*
+/
 /
 *
 import

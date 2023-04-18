@@ -1191,9 +1191,7 @@ else
 {
 resolve
 (
-ArrayBuffer
-.
-transfer
+ArrayBuffer_transfer
 (
 buffer
 read
