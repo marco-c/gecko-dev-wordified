@@ -1431,7 +1431,6 @@ stream
 default
 -
 controller
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpWritableStreamDefaultController
 (
@@ -2048,7 +2047,6 @@ from
 underlying
 -
 sink
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpWritableStreamDefaultControllerFromUnderlyingSink
 (

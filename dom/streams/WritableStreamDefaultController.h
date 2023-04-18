@@ -919,6 +919,7 @@ mStream
 ;
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 SetUpWritableStreamDefaultController
@@ -954,6 +955,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 SetUpWritableStreamDefaultControllerFromUnderlyingSink

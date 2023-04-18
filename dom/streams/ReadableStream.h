@@ -530,6 +530,23 @@ override
 /
 IDL
 Methods
+/
+/
+TODO
+:
+Use
+MOZ_CAN_RUN_SCRIPT
+when
+IDL
+constructors
+can
+use
+it
+(
+bug
+1749042
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 already_AddRefed
 <
@@ -570,6 +587,7 @@ Locked
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -613,6 +631,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Tee
 (
@@ -805,6 +824,7 @@ ReadIntoRequest
 aReadIntoRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 already_AddRefed
 <
@@ -870,6 +890,7 @@ ReadableStream
 aStream
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 already_AddRefed
 <

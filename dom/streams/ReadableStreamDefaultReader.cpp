@@ -1225,7 +1225,6 @@ default
 reader
 -
 read
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamDefaultReaderRead
 (
@@ -1452,7 +1451,6 @@ default
 reader
 -
 read
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -2066,7 +2064,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise

@@ -2515,6 +2515,7 @@ return
 false
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerCallPullIfNeeded
 (
@@ -2569,6 +2570,13 @@ ByteStreamPullIfNeededPromiseHandler
 =
 default
 ;
+/
+/
+Virtually
+const
+but
+cycle
+collected
 RefPtr
 <
 ReadableByteStreamController
@@ -2710,7 +2718,10 @@ rv
 ReadableByteStreamControllerCallPullIfNeeded
 (
 aCx
+MOZ_KnownLive
+(
 mController
+)
 rv
 )
 ;
@@ -2876,7 +2887,6 @@ pull
 if
 -
 needed
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerCallPullIfNeeded
 (
@@ -4064,7 +4074,6 @@ stream
 controller
 -
 enqueue
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerEnqueue
 (
@@ -4789,7 +4798,6 @@ rbs
 controller
 -
 enqueue
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamController
 :
@@ -5086,7 +5094,6 @@ controller
 private
 -
 cancel
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -5404,7 +5411,6 @@ controller
 private
 -
 pull
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamController
 :
@@ -7177,7 +7183,6 @@ controller
 respond
 -
 internal
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerRespondInternal
 (
@@ -7461,7 +7466,6 @@ stream
 controller
 -
 respond
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerRespond
 (
@@ -7790,7 +7794,6 @@ with
 new
 -
 view
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerRespondWithNewView
 (
@@ -9215,7 +9218,6 @@ controller
 pull
 -
 into
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerPullInto
 (
@@ -10827,7 +10829,6 @@ byte
 stream
 -
 controller
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpReadableByteStreamController
 (

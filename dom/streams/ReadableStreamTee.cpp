@@ -1354,6 +1354,7 @@ false
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 PullWithDefaultReader
 (
@@ -1368,6 +1369,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PullWithBYOBReader
 (
@@ -1488,6 +1490,7 @@ return
 /
 promise
 .
+MOZ_CAN_RUN_SCRIPT
 void
 ByteStreamTeePullAlgorithm
 (
@@ -1779,6 +1782,14 @@ final
 public
 UnderlyingSourcePullCallbackHelper
 {
+/
+/
+Virtually
+const
+but
+is
+cycle
+collected
 RefPtr
 <
 TeeState
@@ -1892,7 +1903,10 @@ ByteStreamTeePullAlgorithm
 (
 aCx
 mBranchIndex
+MOZ_KnownLive
+(
 mTeeState
+)
 aRv
 )
 ;
@@ -2695,7 +2709,10 @@ ByteStreamTeePullAlgorithm
 (
 cx
 1
+MOZ_KnownLive
+(
 mTeeState
+)
 rv
 )
 ;
@@ -2906,7 +2923,6 @@ readablebytestreamtee
 Step
 15
 .
-MOZ_CAN_RUN_SCRIPT
 void
 PullWithDefaultReader
 (
@@ -3917,7 +3933,10 @@ ByteStreamTeePullAlgorithm
 (
 cx
 1
+MOZ_KnownLive
+(
 mTeeState
+)
 rv
 )
 ;
@@ -3950,7 +3969,10 @@ ByteStreamTeePullAlgorithm
 (
 cx
 1
+MOZ_KnownLive
+(
 mTeeState
+)
 rv
 )
 ;
@@ -4629,7 +4651,6 @@ readablebytestreamtee
 Step
 16
 .
-MOZ_CAN_RUN_SCRIPT
 void
 PullWithBYOBReader
 (
@@ -5814,7 +5835,6 @@ abstract
 opdef
 -
 readablebytestreamtee
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamTee
 (

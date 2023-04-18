@@ -1176,6 +1176,7 @@ aRv
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ReadableStreamDefaultControllerCallPullIfNeeded
@@ -1215,7 +1216,6 @@ default
 controller
 -
 enqueue
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamDefaultControllerEnqueue
 (
@@ -1732,7 +1732,6 @@ default
 controller
 -
 close
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamDefaultController
 :
@@ -2153,6 +2152,13 @@ PullIfNeededNativePromiseHandler
 =
 default
 ;
+/
+/
+Virtually
+const
+but
+cycle
+collected
 RefPtr
 <
 ReadableStreamDefaultController
@@ -2183,6 +2189,7 @@ aController
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ResolvedCallback
 (
@@ -2293,7 +2300,10 @@ rv
 ReadableStreamDefaultControllerCallPullIfNeeded
 (
 aCx
+MOZ_KnownLive
+(
 mController
+)
 rv
 )
 ;
@@ -2468,7 +2478,6 @@ pull
 if
 -
 needed
-MOZ_CAN_RUN_SCRIPT
 static
 void
 ReadableStreamDefaultControllerCallPullIfNeeded
@@ -3243,7 +3252,6 @@ stream
 default
 -
 controller
-MOZ_CAN_RUN_SCRIPT
 void
 SetUpReadableStreamDefaultController
 (
@@ -3622,7 +3630,6 @@ from
 underlying
 -
 source
-MOZ_CAN_RUN_SCRIPT
 void
 SetupReadableStreamDefaultControllerFromUnderlyingSource
 (
@@ -3859,7 +3866,6 @@ controller
 private
 -
 cancel
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -4011,7 +4017,6 @@ controller
 private
 -
 pull
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamDefaultController
 :

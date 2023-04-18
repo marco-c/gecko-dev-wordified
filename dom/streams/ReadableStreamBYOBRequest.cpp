@@ -377,7 +377,6 @@ byob
 request
 -
 respond
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamBYOBRequest
 :
@@ -578,7 +577,6 @@ with
 new
 -
 view
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamBYOBRequest
 :

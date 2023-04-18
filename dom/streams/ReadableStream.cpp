@@ -2140,7 +2140,6 @@ readable
 stream
 -
 cancel
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -2685,7 +2684,6 @@ org
 rs
 -
 cancel
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -5027,7 +5025,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStream
 :
@@ -5254,7 +5251,6 @@ abstract
 opdef
 -
 createreadablebytestream
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 ReadableStream

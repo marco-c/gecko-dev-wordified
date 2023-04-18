@@ -1068,7 +1068,6 @@ byob
 reader
 -
 read
-MOZ_CAN_RUN_SCRIPT
 void
 ReadableStreamBYOBReaderRead
 (
@@ -1328,7 +1327,6 @@ byob
 reader
 -
 read
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise

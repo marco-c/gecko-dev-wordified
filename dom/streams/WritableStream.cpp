@@ -4963,7 +4963,6 @@ org
 ws
 -
 abort
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -5611,7 +5610,6 @@ org
 ws
 -
 close
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise

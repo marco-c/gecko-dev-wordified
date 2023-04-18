@@ -447,6 +447,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Enqueue
 (
@@ -484,6 +485,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 already_AddRefed
 <
@@ -511,6 +513,7 @@ aRv
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 PullSteps
@@ -2111,6 +2114,7 @@ default
 ;
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableByteStreamControllerRespond
@@ -2128,6 +2132,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableByteStreamControllerRespondInternal
@@ -2145,6 +2150,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableByteStreamControllerRespondWithNewView
@@ -2169,6 +2175,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableByteStreamControllerPullInto
@@ -2209,6 +2216,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableByteStreamControllerEnqueue
@@ -2259,6 +2267,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 SetUpReadableByteStreamController
