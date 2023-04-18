@@ -3353,9 +3353,12 @@ write_times
 True
         
 if
+(
+            
 args
 .
 log_no_times
+            
 or
 "
 MACH_NO_WRITE_TIMES
@@ -3364,6 +3367,17 @@ in
 os
 .
 environ
+            
+or
+"
+MOZ_AUTOMATION
+"
+in
+os
+.
+environ
+        
+)
 :
             
 write_times
