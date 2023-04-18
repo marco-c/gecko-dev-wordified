@@ -429,3 +429,15 @@ mochitest
 ini
 "
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+"
+tests
+/
+browser
+.
+ini
+"
+]
