@@ -901,6 +901,13 @@ context
 )
 {
 let
+{
+extension
+}
+=
+context
+;
+let
 onClickedProp
 =
 new
@@ -936,6 +943,11 @@ getCaller
 ;
 if
 (
+extension
+.
+persistentBackground
+&
+&
 createProperties
 .
 id
