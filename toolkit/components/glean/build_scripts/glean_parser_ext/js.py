@@ -146,7 +146,6 @@ util
 import
 generate_metric_ids
 generate_ping_ids
-get_metrics
 from
 glean_parser
 import
@@ -889,6 +888,14 @@ get_jinja2_template
 get_local_template
     
 if
+len
+(
+objs
+)
+=
+=
+1
+and
 "
 pings
 "
@@ -898,18 +905,7 @@ objs
         
 write_pings
 (
-{
-"
-pings
-"
-:
 objs
-[
-"
-pings
-"
-]
-}
 output_fd
 "
 js_pings
@@ -923,10 +919,7 @@ else
         
 write_metrics
 (
-get_metrics
-(
 objs
-)
 output_fd
 "
 js
@@ -1078,10 +1071,7 @@ for
 category_name
 objs
 in
-get_metrics
-(
 objs
-)
 .
 items
 (

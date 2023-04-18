@@ -90,7 +90,6 @@ util
 import
 generate_metric_ids
 generate_ping_ids
-get_metrics
 from
 glean_parser
 import
@@ -820,6 +819,14 @@ objs
 )
     
 if
+len
+(
+objs
+)
+=
+=
+1
+and
 "
 pings
 "
@@ -834,25 +841,6 @@ cpp_pings
 .
 jinja2
 "
-        
-if
-objs
-.
-get
-(
-"
-tags
-"
-)
-:
-            
-del
-objs
-[
-"
-tags
-"
-]
     
 else
 :
@@ -864,13 +852,6 @@ cpp
 .
 jinja2
 "
-        
-objs
-=
-get_metrics
-(
-objs
-)
     
 template
 =
