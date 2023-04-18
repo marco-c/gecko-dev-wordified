@@ -647,7 +647,7 @@ aCharsetSource
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHtml5Parser
 :
 :

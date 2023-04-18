@@ -475,7 +475,7 @@ if
 not
 *
 /
-NS_IMETHOD
+nsresult
 GetChannel
 (
 nsIChannel
@@ -483,7 +483,6 @@ nsIChannel
 *
 aChannel
 )
-override
 ;
 /
 *
