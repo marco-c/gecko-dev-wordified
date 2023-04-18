@@ -1204,7 +1204,7 @@ Reason
 scene
 Reason
 animated
-propert
+property
 Reason
 resource
 update
@@ -1236,7 +1236,7 @@ content
 sync
 Reason
 flush
-Reason
+On
 vsync
 Reason
 testing
@@ -4684,7 +4684,7 @@ float
 "
 Reason
 animated
-propert
+property
 "
 "
 "
@@ -4834,7 +4834,6 @@ float
 (
 "
 Reason
-texture
 cache
 flush
 "
