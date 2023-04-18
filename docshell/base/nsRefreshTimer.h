@@ -174,8 +174,6 @@ aPrincipal
 int32_t
 aDelay
 bool
-aRepeat
-bool
 aMetaRefresh
 )
 ;
@@ -211,9 +209,6 @@ mPrincipal
 ;
 int32_t
 mDelay
-;
-bool
-mRepeat
 ;
 bool
 mMetaRefresh

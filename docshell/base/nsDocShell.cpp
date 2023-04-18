@@ -30219,8 +30219,6 @@ aPrincipal
 int32_t
 aDelay
 bool
-aRepeat
-bool
 aMetaRefresh
 )
 {
@@ -30394,7 +30392,6 @@ this
 aURI
 aPrincipal
 aDelay
-aRepeat
 aMetaRefresh
 )
 ;
@@ -32879,7 +32876,6 @@ aPrincipal
 seconds
 *
 1000
-false
 true
 )
 ;
