@@ -1178,7 +1178,6 @@ idGen
 mIdGenerator
 ]
 (
-const
 nsTArray
 <
 UniquePtr
@@ -1186,7 +1185,6 @@ UniquePtr
 RTCStatsCollection
 >
 >
-&
 aStats
 )
 {
@@ -1198,7 +1196,13 @@ idGen
 >
 RewriteIds
 (
+std
+:
+:
+move
+(
 aStats
+)
 &
 opaqueStats
 )

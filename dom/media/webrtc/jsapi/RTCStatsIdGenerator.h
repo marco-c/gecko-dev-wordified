@@ -195,7 +195,6 @@ RTCStatsIdGenerator
 void
 RewriteIds
 (
-const
 nsTArray
 <
 UniquePtr
@@ -206,7 +205,6 @@ dom
 RTCStatsCollection
 >
 >
-&
 aFromStats
 dom
 :
