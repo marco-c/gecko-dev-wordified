@@ -10619,7 +10619,7 @@ of
 unload
 and
 beforeunload
-event
+even
 listeners
 registered
 on
