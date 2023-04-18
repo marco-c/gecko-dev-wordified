@@ -4090,7 +4090,7 @@ UnionWith
 child
 -
 >
-GetOverflowAreasRelativeToParent
+GetActualAndNormalOverflowAreasRelativeToParent
 (
 )
 )

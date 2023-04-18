@@ -20004,7 +20004,7 @@ UnionWith
 aChildFrame
 -
 >
-GetOverflowAreasRelativeToParent
+GetActualAndNormalOverflowAreasRelativeToParent
 (
 )
 )
