@@ -189,7 +189,7 @@ h
 #
 include
 "
-hwaccel
+hwconfig
 .
 h
 "

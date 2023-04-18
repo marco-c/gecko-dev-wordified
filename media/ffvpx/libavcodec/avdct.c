@@ -1113,6 +1113,10 @@ CONFIG_IDCTDSP
 {
 IDCTDSPContext
 idsp
+=
+{
+0
+}
 ;
 ff_idctdsp_init
 (
@@ -1177,6 +1181,12 @@ COPY
 (
 pdsp
 get_pixels
+)
+;
+COPY
+(
+pdsp
+get_pixels_unaligned
 )
 ;
 }
