@@ -486,6 +486,8 @@ beta
 chromium
 "
 "
+chromium
+-
 360se
 "
 "
@@ -4671,6 +4673,8 @@ u5668
 "
 :
 "
+chromium
+-
 360se
 "
 }
@@ -7593,6 +7597,8 @@ safari
 :
 8
 "
+chromium
+-
 360se
 "
 :
