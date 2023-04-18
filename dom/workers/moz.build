@@ -160,6 +160,11 @@ WorkerDebuggerManager
 h
 "
 "
+WorkerDocumentListener
+.
+h
+"
+"
 WorkerError
 .
 h
@@ -326,6 +331,11 @@ cpp
 "
 "
 WorkerDebuggerManager
+.
+cpp
+"
+"
+WorkerDocumentListener
 .
 cpp
 "

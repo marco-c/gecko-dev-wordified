@@ -448,6 +448,13 @@ nsIRemoteTab
 .
 h
 "
+#
+include
+"
+nsTHashSet
+.
+h
+"
 class
 nsBrowserStatusFilter
 ;
