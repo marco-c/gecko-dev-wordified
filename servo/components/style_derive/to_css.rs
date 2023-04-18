@@ -1359,6 +1359,16 @@ to_string
 (
 )
 )
+.
+replace
+(
+"
+_
+"
+"
+-
+"
+)
 ;
 quote
 !
