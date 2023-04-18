@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-SourceSurfaceBlobImage
+BlobSurfaceProvider
 .
 h
 "
