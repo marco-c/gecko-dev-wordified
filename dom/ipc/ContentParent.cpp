@@ -33243,6 +33243,10 @@ aCalledFromJS
 const
 bool
 &
+aWidthSpecified
+const
+bool
+&
 aForPrinting
 const
 bool
@@ -33845,6 +33849,7 @@ GetWindowOpenLocation
 outerWin
 aChromeFlags
 aCalledFromJS
+aWidthSpecified
 aForPrinting
 )
 ;
@@ -34755,6 +34760,10 @@ aCalledFromJS
 const
 bool
 &
+aWidthSpecified
+const
+bool
+&
 aForPrinting
 const
 bool
@@ -35416,6 +35425,7 @@ newBCOpenerId
 0
 aChromeFlags
 aCalledFromJS
+aWidthSpecified
 aForPrinting
 aForPrintPreview
 aURIToLoad
@@ -35617,6 +35627,10 @@ const
 bool
 &
 aCalledFromJS
+const
+bool
+&
+aWidthSpecified
 nsIURI
 *
 aURIToLoad
@@ -35907,6 +35921,7 @@ aSetOpener
 false
 aChromeFlags
 aCalledFromJS
+aWidthSpecified
 /
 *
 aForPrinting
