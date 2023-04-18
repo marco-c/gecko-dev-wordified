@@ -4975,6 +4975,11 @@ defaultMax
 /
 MaxMemoryPages
 (
+desc
+.
+indexType
+(
+)
 )
 /
 *
@@ -5059,6 +5064,11 @@ initialPages
 >
 MaxMemoryPages
 (
+desc
+.
+indexType
+(
+)
 )
 )
 {
@@ -5083,7 +5093,7 @@ cx
 if
 (
 !
-CreateWasmBuffer32
+CreateWasmBuffer
 (
 cx
 desc

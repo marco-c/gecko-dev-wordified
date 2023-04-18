@@ -46175,7 +46175,9 @@ is
 limited
 by
 what
+a
 wasm
+memory32
 can
 handle
 .
@@ -46185,6 +46187,10 @@ length
 >
 MaxMemoryBytes
 (
+IndexType
+:
+:
+I32
 )
 )
 {
