@@ -4446,6 +4446,17 @@ sInitializedJS
 false
 ;
 }
+mozilla
+:
+:
+KillClearOnShutdown
+(
+ShutdownPhase
+:
+:
+JSPostShutDown
+)
+;
 /
 /
 Release
