@@ -167,9 +167,6 @@ class
 HyperTextAccessibleBase
 ;
 class
-HyperTextAccessibleWrap
-;
-class
 ia2AccessibleHypertext
 :
 public
@@ -399,12 +396,6 @@ private
 HyperTextAccessibleBase
 *
 TextAcc
-(
-)
-;
-HyperTextAccessibleWrap
-*
-LocalTextAcc
 (
 )
 ;
