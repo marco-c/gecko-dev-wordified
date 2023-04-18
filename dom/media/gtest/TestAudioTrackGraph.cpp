@@ -1801,6 +1801,7 @@ OpenAudioInput
 (
 deviceId
 listener
+PRINCIPAL_HANDLE_NONE
 )
 ;
 EXPECT_EQ
@@ -2396,6 +2397,7 @@ OpenAudioInput
 (
 deviceId
 listener
+PRINCIPAL_HANDLE_NONE
 )
 ;
 return
@@ -3111,6 +3113,7 @@ OpenAudioInput
 (
 deviceId
 listener
+PRINCIPAL_HANDLE_NONE
 )
 ;
 return
@@ -3560,6 +3563,7 @@ OpenAudioInput
 (
 deviceId
 listener
+PRINCIPAL_HANDLE_NONE
 )
 ;
 }
@@ -4382,6 +4386,7 @@ OpenAudioInput
 (
 deviceId
 listener
+PRINCIPAL_HANDLE_NONE
 )
 ;
 inputTrack
@@ -5292,6 +5297,7 @@ OpenAudioInput
 (
 mInputDeviceID
 mListener
+PRINCIPAL_HANDLE_NONE
 )
 ;
 }
@@ -7187,6 +7193,7 @@ OpenAudioInput
 (
 deviceId
 listener
+PRINCIPAL_HANDLE_NONE
 )
 ;
 return

@@ -354,6 +354,10 @@ Create
 MediaTrackGraphImpl
 *
 aGraph
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 MOZ_ASSERT
@@ -376,6 +380,7 @@ aGraph
 GraphRate
 (
 )
+aPrincipalHandle
 )
 ;
 LOG
@@ -1032,7 +1037,7 @@ AppendFromInterleavedBuffer
 aBuffer
 aFrames
 aChannels
-PRINCIPAL_HANDLE_NONE
+mPrincipalHandle
 )
 ;
 }
