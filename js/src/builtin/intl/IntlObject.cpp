@@ -2141,7 +2141,7 @@ intl
 LocaleParser
 :
 :
-tryParse
+TryParse
 (
 chars
 tag
@@ -2198,7 +2198,7 @@ MOZ_ASSERT
 !
 tag
 .
-unicodeExtension
+GetUnicodeExtension
 (
 )
 "
@@ -2218,7 +2218,7 @@ result
 =
 tag
 .
-canonicalize
+Canonicalize
 (
 )
 ;
@@ -2288,7 +2288,7 @@ result
 =
 tag
 .
-toString
+ToString
 (
 buffer
 )
@@ -2626,7 +2626,7 @@ intl
 LocaleParser
 :
 :
-tryParse
+TryParse
 (
 chars
 tag
@@ -2639,7 +2639,7 @@ isOk
 &
 tag
 .
-canonicalize
+Canonicalize
 (
 )
 .
@@ -2728,7 +2728,7 @@ candidate
 .
 tag
 .
-clearUnicodeExtension
+ClearUnicodeExtension
 (
 )
 ;
@@ -2755,7 +2755,7 @@ result
 =
 tag
 .
-toString
+ToString
 (
 buffer
 )

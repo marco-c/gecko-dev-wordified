@@ -259,7 +259,7 @@ intl
 LocaleParser
 :
 :
-tryParse
+TryParse
 (
 chars
 result
@@ -385,7 +385,7 @@ false
 }
 result
 .
-set
+Set
 <
 Latin1Char
 >
@@ -432,7 +432,7 @@ false
 }
 result
 .
-set
+Set
 <
 char16_t
 >
@@ -528,7 +528,7 @@ false
 }
 result
 .
-set
+Set
 <
 Latin1Char
 >
@@ -575,7 +575,7 @@ false
 }
 result
 .
-set
+Set
 <
 char16_t
 >
@@ -671,7 +671,7 @@ false
 }
 result
 .
-set
+Set
 <
 Latin1Char
 >
@@ -718,7 +718,7 @@ false
 }
 result
 .
-set
+Set
 <
 char16_t
 >
@@ -1161,7 +1161,7 @@ nogc
 ;
 languageTag
 .
-set
+Set
 <
 Latin1Char
 >
@@ -1186,7 +1186,7 @@ nogc
 ;
 languageTag
 .
-set
+Set
 <
 char16_t
 >
@@ -1220,7 +1220,7 @@ case
 .
 languageTag
 .
-toLowerCase
+ToLowerCase
 (
 )
 ;
@@ -1256,7 +1256,7 @@ intl
 Locale
 :
 :
-complexLanguageMapping
+ComplexLanguageMapping
 (
 languageTag
 )
@@ -1294,7 +1294,7 @@ intl
 Locale
 :
 :
-languageMapping
+LanguageMapping
 (
 languageTag
 )
@@ -1314,7 +1314,7 @@ CanGC
 cx
 languageTag
 .
-span
+Span
 (
 )
 )
