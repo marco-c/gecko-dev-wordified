@@ -1598,6 +1598,12 @@ GetVsyncSource
 )
 override
 ;
+bool
+SynchronouslyRepaintOnResize
+(
+)
+override
+;
 void
 OnDPIChanged
 (
