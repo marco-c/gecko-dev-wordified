@@ -1479,7 +1479,7 @@ succEntry
 pc
 (
 )
-MResumePoint
+ResumeMode
 :
 :
 ResumeAt
@@ -3089,7 +3089,7 @@ this
 pc
 (
 )
-MResumePoint
+ResumeMode
 :
 :
 ResumeAt
@@ -3385,7 +3385,7 @@ this
 pc
 (
 )
-MResumePoint
+ResumeMode
 :
 :
 ResumeAt

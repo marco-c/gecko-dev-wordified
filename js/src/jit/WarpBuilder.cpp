@@ -22677,10 +22677,11 @@ alloc
 )
 current
 pc
-MResumePoint
-:
-:
-Outer
+callInfo
+.
+inliningResumeMode
+(
+)
 )
 ;
 if

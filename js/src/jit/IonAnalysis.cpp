@@ -6855,7 +6855,7 @@ mode
 )
 !
 =
-MResumePoint
+ResumeMode
 :
 :
 ResumeAt
