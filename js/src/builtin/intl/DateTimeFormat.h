@@ -213,7 +213,7 @@ INTERNALS_SLOT
 static
 constexpr
 uint32_t
-UDATE_FORMAT_SLOT
+DATE_FORMAT_SLOT
 =
 1
 ;
@@ -312,7 +312,7 @@ slot
 =
 getFixedSlot
 (
-UDATE_FORMAT_SLOT
+DATE_FORMAT_SLOT
 )
 ;
 if
@@ -365,7 +365,7 @@ dateFormat
 {
 setFixedSlot
 (
-UDATE_FORMAT_SLOT
+DATE_FORMAT_SLOT
 PrivateValue
 (
 dateFormat
