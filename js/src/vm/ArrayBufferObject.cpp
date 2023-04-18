@@ -11804,7 +11804,7 @@ p
 Map
 :
 :
-SweepPolicy
+EntryGCPolicy
 :
 :
 traceWeak
