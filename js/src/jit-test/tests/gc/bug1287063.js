@@ -22,7 +22,7 @@ schedulezone
 "
 )
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 "

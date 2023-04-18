@@ -46,7 +46,7 @@ helperThreadCount
 0
 )
 {
-offThreadCompileToStencil
+offThreadCompileScript
 (
 [
 null
@@ -87,16 +87,8 @@ oomAfterAllocations
 )
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 ;
 }

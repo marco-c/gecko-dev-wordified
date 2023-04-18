@@ -30,7 +30,7 @@ startgc
 8301
 )
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 (

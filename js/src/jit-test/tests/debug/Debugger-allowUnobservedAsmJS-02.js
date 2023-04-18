@@ -102,7 +102,7 @@ return
 f
 '
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 (
@@ -120,16 +120,8 @@ asmFunStr
 "
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 ;
 var

@@ -752,7 +752,7 @@ this
 JS
 :
 :
-DecodeMultiStencilsOffThread
+DecodeMultiOffThreadStencils
 checks
 some
 options

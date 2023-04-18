@@ -35,7 +35,7 @@ oomTest
 =
 >
 {
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 "

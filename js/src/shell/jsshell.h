@@ -995,11 +995,12 @@ srcName
 ;
 enum
 class
-OffThreadJobKind
+ScriptKind
 {
-CompileScript
-CompileModule
-Decode
+Script
+ScriptStencil
+DecodeScript
+Module
 }
 ;
 class

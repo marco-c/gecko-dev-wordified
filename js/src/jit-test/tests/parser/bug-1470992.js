@@ -16,7 +16,7 @@ helperThreadCount
 =
 =
 0
-offThreadCompileModuleToStencil
+offThreadCompileModule
 (
 "
 export

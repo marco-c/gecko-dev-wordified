@@ -53,7 +53,7 @@ return
 c
 ;
 }
-offThreadDecodeStencil
+offThreadDecodeScript
 (
 a
 (

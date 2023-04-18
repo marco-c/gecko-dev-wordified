@@ -8,13 +8,13 @@ test
 error
 :
 Error
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 "
 )
 ;
-finishOffThreadCompileModuleToStencil
+finishOffThreadModule
 (
 )
 ;

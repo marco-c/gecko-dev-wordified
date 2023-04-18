@@ -98,7 +98,7 @@ g
 ;
 g
 .
-offThreadCompileToStencil
+offThreadCompileScript
 (
 '
 debugger
@@ -108,17 +108,9 @@ debugger
 }
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
-(
-)
-;
 g
 .
-evalStencil
+runOffThreadScript
 (
-stencil
 )
 ;

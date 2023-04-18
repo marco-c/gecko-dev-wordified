@@ -98,7 +98,7 @@ off
 thread
 parse
 .
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 print
@@ -183,15 +183,7 @@ off
 thread
 parse
 .
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 ;

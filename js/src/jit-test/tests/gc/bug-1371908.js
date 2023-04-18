@@ -21,7 +21,7 @@ gczeal
 0
 )
 ;
-offThreadCompileToStencil
+offThreadCompileScript
 (
 "
 "
@@ -32,15 +32,7 @@ startgc
 0
 )
 ;
-var
-stencil
-=
-finishOffThreadCompileToStencil
+runOffThreadScript
 (
-)
-;
-evalStencil
-(
-stencil
 )
 ;
