@@ -5366,7 +5366,15 @@ nsIScreenManager
 screenForRect
 (
 eX
+*
+window
+.
+devicePixelRatio
 eY
+*
+window
+.
+devicePixelRatio
 1
 1
 )
