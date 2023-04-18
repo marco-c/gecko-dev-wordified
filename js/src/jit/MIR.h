@@ -13856,12 +13856,7 @@ the
 template
 object
 .
-[
-[
-nodiscard
-]
-]
-bool
+void
 initFromTemplateObject
 (
 TempAllocator
@@ -14239,12 +14234,7 @@ MArrayState
 state
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
+void
 initFromTemplateObject
 (
 TempAllocator

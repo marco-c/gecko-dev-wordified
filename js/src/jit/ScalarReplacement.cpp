@@ -2575,9 +2575,6 @@ the
 object
 state
 .
-if
-(
-!
 state
 -
 >
@@ -2586,12 +2583,7 @@ initFromTemplateObject
 alloc_
 undefinedVal_
 )
-)
-{
-return
-false
 ;
-}
 /
 /
 Hold
@@ -7403,9 +7395,6 @@ the
 array
 state
 .
-if
-(
-!
 state
 -
 >
@@ -7414,12 +7403,7 @@ initFromTemplateObject
 alloc_
 undefinedVal_
 )
-)
-{
-return
-false
 ;
-}
 /
 /
 Hold
