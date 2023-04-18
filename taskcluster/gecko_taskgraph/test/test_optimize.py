@@ -81,6 +81,12 @@ task
 import
 Task
 from
+taskgraph
+.
+taskgraph
+import
+TaskGraph
+from
 gecko_taskgraph
 import
 optimize
@@ -93,12 +99,6 @@ OptimizationStrategy
 All
 Any
 Not
-from
-gecko_taskgraph
-.
-taskgraph
-import
-TaskGraph
 class
 Remove
 (

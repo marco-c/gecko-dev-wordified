@@ -200,6 +200,7 @@ task
 import
 Task
 from
+taskgraph
 .
 taskgraph
 import

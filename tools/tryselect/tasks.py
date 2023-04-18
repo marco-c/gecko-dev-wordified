@@ -104,6 +104,12 @@ parameters
 import
 ParameterMismatch
 parameters_loader
+from
+taskgraph
+.
+taskgraph
+import
+TaskGraph
 import
 gecko_taskgraph
 from
@@ -112,12 +118,6 @@ gecko_taskgraph
 generator
 import
 TaskGraphGenerator
-from
-gecko_taskgraph
-.
-taskgraph
-import
-TaskGraph
 here
 =
 os

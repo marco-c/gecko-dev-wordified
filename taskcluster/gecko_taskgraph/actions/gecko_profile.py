@@ -66,6 +66,12 @@ HTTPError
 from
 taskgraph
 .
+taskgraph
+import
+TaskGraph
+from
+taskgraph
+.
 util
 .
 taskcluster
@@ -91,12 +97,6 @@ util
 taskgraph
 import
 find_decision_task
-from
-gecko_taskgraph
-.
-taskgraph
-import
-TaskGraph
 PUSHLOG_TMPL
 =
 "
