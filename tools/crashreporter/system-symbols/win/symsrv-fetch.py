@@ -158,10 +158,10 @@ server
 It
 honors
 a
-blacklist
+list
 #
 (
-blacklist
+ignorelist
 .
 txt
 )
@@ -1477,7 +1477,7 @@ get_missing_symbols
 (
 missing_symbols
 skiplist
-blacklist
+ignorelist
 )
 :
     
@@ -1492,7 +1492,7 @@ stats
 =
 {
 "
-blacklist
+ignorelist
 "
 :
 0
@@ -1596,13 +1596,13 @@ lower
 (
 )
 in
-blacklist
+ignorelist
 :
                 
 stats
 [
 "
-blacklist
+ignorelist
 "
 ]
 +
@@ -3253,7 +3253,7 @@ them
 get_list
 (
 "
-blacklist
+ignorelist
 .
 txt
 "
@@ -3564,7 +3564,7 @@ Started
 )
     
 missing_symbols
-blacklist
+ignorelist
 known_ms_symbols
 skiplist
 =
@@ -3584,7 +3584,7 @@ get_missing_symbols
 (
 missing_symbols
 skiplist
-blacklist
+ignorelist
 )
     
 symbol_path
@@ -3761,12 +3761,13 @@ present
 stats_skipped
 [
 '
-blacklist
+ignorelist
 '
 ]
 }
 in
-blacklist
+ignored
+list
 "
         
 f
