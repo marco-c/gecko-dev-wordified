@@ -232,6 +232,7 @@ reset
 (
 )
 ;
+await
 SnapshotMonitor
 .
 observe

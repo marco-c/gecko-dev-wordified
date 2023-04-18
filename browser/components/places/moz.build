@@ -169,6 +169,11 @@ CommonNames
 jsm
 "
 "
+DomainGroupBuilder
+.
+jsm
+"
+"
 Interactions
 .
 jsm
