@@ -1951,7 +1951,7 @@ window
 {
 owner_name
 =
-GetWindowOwnerPid
+GetWindowOwnerName
 (
 window
 )
