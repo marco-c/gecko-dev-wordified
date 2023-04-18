@@ -248,9 +248,7 @@ enum
 eAutoDetectResult
 {
 eUnknownDetect
-eValidDetect
 ePrimaryDetect
-eInvalidDetect
 }
 ;
 enum
