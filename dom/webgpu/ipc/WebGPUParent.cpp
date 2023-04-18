@@ -220,7 +220,7 @@ constexpr
 unsigned
 BUFFER_SIZE
 =
-256
+512
 ;
 char
 mUtf8
