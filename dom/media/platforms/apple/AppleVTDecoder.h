@@ -594,6 +594,13 @@ const
 gfx
 :
 :
+TransferFunction
+mTransferFunction
+;
+const
+gfx
+:
+:
 ColorRange
 mColorRange
 ;
