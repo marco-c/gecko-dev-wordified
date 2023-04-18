@@ -1351,8 +1351,7 @@ processes
 .
 if
 (
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 strData
 .
@@ -1382,14 +1381,14 @@ isLocked
 *
 /
 false
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 strData
 .
 Data
 (
 )
+false
 )
 Nothing
 (

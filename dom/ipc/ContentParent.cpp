@@ -16484,7 +16484,7 @@ ipc
 SharedPreferenceSerializer
 >
 (
-ShouldSyncPreference
+ShouldSanitizePreference
 )
 ;
 if
@@ -23164,8 +23164,7 @@ processes
 .
 if
 (
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 strData
 .
@@ -23189,8 +23188,7 @@ isLocked
 *
 /
 false
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 strData
 .

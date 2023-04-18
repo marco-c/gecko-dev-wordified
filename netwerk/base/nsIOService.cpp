@@ -3614,10 +3614,10 @@ isLocked
 *
 /
 false
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 aName
+false
 )
 Nothing
 (
