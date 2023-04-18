@@ -1643,6 +1643,12 @@ __FILE__
 )
 __LINE__
 )
+AbstractThread
+:
+:
+MainThread
+(
+)
 aModuleThread
 aAudioStateConfig
 aAudioDecoderFactory
