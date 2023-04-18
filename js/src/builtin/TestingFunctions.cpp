@@ -40166,7 +40166,7 @@ index
 +
 )
 {
-UniquePtr
+RefPtr
 <
 CompilationStencil
 >
@@ -40276,10 +40276,6 @@ addDelazification
 cx
 *
 innerStencil
-.
-get
-(
-)
 )
 )
 {
@@ -40288,7 +40284,7 @@ false
 ;
 }
 }
-UniquePtr
+RefPtr
 <
 CompilationStencil
 >
@@ -40297,7 +40293,7 @@ result
 cx
 -
 >
-make_unique
+new_
 <
 CompilationStencil
 >
@@ -40339,14 +40335,7 @@ StencilObject
 create
 (
 cx
-do_AddRef
-(
 result
-.
-release
-(
-)
-)
 )
 )
 ;

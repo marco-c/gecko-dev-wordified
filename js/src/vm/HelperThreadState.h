@@ -2026,7 +2026,7 @@ StartEncoding
 No
 )
 ;
-UniquePtr
+already_AddRefed
 <
 frontend
 :
@@ -2138,7 +2138,7 @@ StartEncoding
 No
 )
 ;
-UniquePtr
+already_AddRefed
 <
 frontend
 :
@@ -2217,11 +2217,13 @@ OffThreadToken
 token
 )
 ;
+already_AddRefed
+<
 frontend
 :
 :
 CompilationStencil
-*
+>
 finishStencilParseTask
 (
 JSContext
@@ -2819,7 +2821,7 @@ the
 decode
 task
 .
-UniquePtr
+RefPtr
 <
 frontend
 :

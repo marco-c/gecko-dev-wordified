@@ -245,7 +245,7 @@ struct
 ExtensibleCompilationStencil
 ;
 extern
-UniquePtr
+already_AddRefed
 <
 CompilationStencil
 >
@@ -271,7 +271,7 @@ scopeKind
 )
 ;
 extern
-UniquePtr
+already_AddRefed
 <
 CompilationStencil
 >
@@ -577,7 +577,7 @@ fun
 )
 ;
 extern
-UniquePtr
+already_AddRefed
 <
 CompilationStencil
 >
