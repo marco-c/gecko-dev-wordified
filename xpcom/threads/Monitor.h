@@ -1763,7 +1763,7 @@ AssertCurrentThreadOwns
 const
 ASSERT_CAPABILITY
 (
-this
+mMonitor
 )
 {
 mMonitor
