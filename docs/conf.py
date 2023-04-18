@@ -231,6 +231,12 @@ python
 /
 which
 "
+    
+"
+docs
+/
+_addons
+"
 )
 sys
 .
@@ -346,6 +352,10 @@ sphinx_markdown_tables
     
 "
 sphinx_panels
+"
+    
+"
+bzlink
 "
 ]
 #
