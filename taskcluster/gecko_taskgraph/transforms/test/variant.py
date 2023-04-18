@@ -186,10 +186,10 @@ suffix
 :
 str
             
-Optional
+Required
 (
 "
-contact
+component
 "
 )
 :
