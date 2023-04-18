@@ -462,7 +462,9 @@ if
 prototypeCodec
 -
 >
-mType
+Type
+(
+)
 =
 =
 mType
@@ -1413,7 +1415,9 @@ if
 codec
 -
 >
-mType
+Type
+(
+)
 =
 =
 SdpMediaSection
@@ -2904,7 +2908,9 @@ if
 codec
 -
 >
-mType
+Type
+(
+)
 =
 =
 SdpMediaSection
