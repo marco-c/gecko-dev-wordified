@@ -232,6 +232,14 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 TransformStreamDefaultController
 )
 void
+SetStream
+(
+TransformStream
+*
+aStream
+)
+;
+void
 SetAlgorithms
 (
 TransformerAlgorithms
@@ -359,6 +367,12 @@ mGlobal
 /
 Internal
 slots
+RefPtr
+<
+TransformStream
+>
+mStream
+;
 RefPtr
 <
 TransformerAlgorithms
