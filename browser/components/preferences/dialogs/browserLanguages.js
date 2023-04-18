@@ -2055,6 +2055,11 @@ getLocaleDisplayNames
 (
 undefined
 localeCodes
+{
+preferNative
+:
+true
+}
 )
 ;
 return
