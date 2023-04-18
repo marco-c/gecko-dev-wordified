@@ -1748,6 +1748,6 @@ js
 endif
 /
 *
-vm_StringType_h
+vm_StaticStrings_h
 *
 /
