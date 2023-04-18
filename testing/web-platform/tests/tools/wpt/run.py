@@ -2750,28 +2750,7 @@ MojoJS
 "
 )
         
-#
-TODO
-(
-Hexcles
-)
-:
-Enable
-this
-everywhere
-when
-Chrome
-86
-becomes
-stable
-.
-        
-elif
-browser_channel
-in
-self
-.
-experimental_channels
+else
 :
             
 try
