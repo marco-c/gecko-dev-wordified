@@ -554,7 +554,6 @@ api
 {
 RenderNotifier
 ImageBufferKind
-SharedFontInstanceMap
 }
 ;
 #
@@ -855,6 +854,7 @@ glyph_rasterizer
 {
 GlyphFormat
 GlyphRasterizer
+SharedFontInstanceMap
 }
 ;
 use
