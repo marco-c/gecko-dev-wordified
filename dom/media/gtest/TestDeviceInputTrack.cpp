@@ -521,6 +521,19 @@ flags
 =
 0
 ;
+const
+CubebUtils
+:
+:
+AudioDeviceID
+deviceId
+=
+(
+void
+*
+)
+1
+;
 AudioGenerator
 <
 AudioDataValue
@@ -591,6 +604,7 @@ mGraph
 get
 (
 )
+deviceId
 testPrincipal
 )
 ;

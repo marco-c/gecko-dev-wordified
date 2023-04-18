@@ -354,6 +354,11 @@ Create
 MediaTrackGraphImpl
 *
 aGraph
+CubebUtils
+:
+:
+AudioDeviceID
+aDeviceId
 const
 PrincipalHandle
 &
@@ -380,6 +385,7 @@ aGraph
 GraphRate
 (
 )
+aDeviceId
 aPrincipalHandle
 )
 ;
@@ -418,6 +424,11 @@ NativeInputTrack
 (
 TrackRate
 aSampleRate
+CubebUtils
+:
+:
+AudioDeviceID
+aDeviceId
 const
 PrincipalHandle
 &
@@ -435,6 +446,10 @@ new
 AudioSegment
 (
 )
+)
+mDeviceId
+(
+aDeviceId
 )
 mPrincipalHandle
 (
