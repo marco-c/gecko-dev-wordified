@@ -112,8 +112,8 @@ shortcuts
 Listen
 for
 "
-Web
-Developer
+Browser
+Tools
 "
 system
 menu
@@ -138,8 +138,8 @@ used
 by
 the
 "
-Web
-Developer
+Browser
+Tools
 "
 list
 displayed
@@ -3271,7 +3271,7 @@ initialized
 {
 this
 .
-hookWebDeveloperMenu
+hookBrowserToolsMenu
 (
 window
 )
@@ -3352,8 +3352,8 @@ users
 _But_
 the
 "
-Web
-Developer
+Browser
+Tools
 "
 entry
 in
@@ -3409,8 +3409,8 @@ entries
 from
 the
 "
-Web
-Developer
+Browser
+Tools
 "
 *
 menu
@@ -3435,7 +3435,7 @@ being
 hooked
 by
 "
-hookWebDeveloperMenu
+hookBrowserToolsMenu
 "
 which
 ends
@@ -4372,8 +4372,8 @@ listen
 to
 the
 "
-Web
-Developer
+Browser
+Tools
 "
 system
 menu
@@ -4420,7 +4420,7 @@ it
 .
 *
 /
-hookWebDeveloperMenu
+hookBrowserToolsMenu
 (
 window
 )
@@ -4435,7 +4435,7 @@ document
 getElementById
 (
 "
-webDeveloperMenu
+browserToolsMenu
 "
 )
 ;
