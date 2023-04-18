@@ -451,6 +451,9 @@ OS_LIBS
 "
 avrt
 "
+"
+ksuser
+"
 ]
 if
 CONFIG
