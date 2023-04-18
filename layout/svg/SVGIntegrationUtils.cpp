@@ -5699,6 +5699,11 @@ frame
 mat
 )
 ;
+if
+(
+path
+)
+{
 ctx
 .
 SetPath
@@ -5712,6 +5717,7 @@ Fill
 (
 )
 ;
+}
 return
 true
 ;
