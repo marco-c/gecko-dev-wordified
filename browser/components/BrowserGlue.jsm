@@ -10676,7 +10676,7 @@ param
 google_channel_us
 "
 "
-xus7
+tus7
 "
 )
 ;
@@ -10696,7 +10696,7 @@ param
 google_channel_row
 "
 "
-xrow7
+trow7
 "
 )
 ;
@@ -10716,7 +10716,7 @@ param
 bing_ptag
 "
 "
-MOZZ0000000032
+MOZZ0000000031
 "
 )
 ;
