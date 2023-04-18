@@ -833,6 +833,9 @@ mShouldResistFingerprinting
 OriginAttributes
 mOriginAttributes
 ;
+bool
+mIsThirdPartyContextToTopWindow
+;
 enum
 {
 eNotSet
