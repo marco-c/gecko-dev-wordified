@@ -9221,9 +9221,14 @@ MOZ_ASSERT
 parent
 -
 >
-ComputeIndexOf_Deprecated
+ComputeIndexOf
 (
 firstEditableLeaf
+)
+.
+valueOr
+(
+UINT32_MAX
 )
 =
 =
