@@ -261,7 +261,7 @@ aInvalidRegion
 )
 override
 ;
-void
+bool
 OnResumeComposition
 (
 )
@@ -310,6 +310,9 @@ mBuffer
 ;
 int32_t
 mFormat
+;
+LayoutDeviceIntSize
+mClientSize
 ;
 }
 ;

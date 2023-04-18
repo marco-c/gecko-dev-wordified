@@ -3972,6 +3972,9 @@ lock
 mResumeCompositionMonitor
 )
 ;
+bool
+resumed
+=
 mWidget
 -
 >
@@ -3979,9 +3982,11 @@ OnResumeComposition
 (
 )
 ;
-bool
 resumed
 =
+resumed
+&
+&
 mWrBridge
 -
 >
