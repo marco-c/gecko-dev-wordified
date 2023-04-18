@@ -41090,7 +41090,6 @@ get_canonical
 (
 )
 aTrackingPrincipal
-aTrackingOrigin
 aAllowMode
 )
 -
