@@ -3467,6 +3467,11 @@ Elements
 )
 )
 ;
+CloseFileDescriptors
+(
+lockFD
+)
+;
 if
 (
 mEGLImage
@@ -3490,11 +3495,6 @@ return
 false
 ;
 }
-CloseFileDescriptors
-(
-lockFD
-)
-;
 aGLContext
 -
 >
@@ -3761,6 +3761,11 @@ GetDmabuf
 )
 )
 {
+CloseFileDescriptors
+(
+lockFD
+)
+;
 return
 false
 ;
