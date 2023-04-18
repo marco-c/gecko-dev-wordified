@@ -380,6 +380,25 @@ subsystems
 "
 "
     
+#
+Needed
+by
+'
+generic_worker_run_task
+'
+    
+monkeypatch
+.
+setenv
+(
+"
+TASK_ID
+"
+"
+fakeid
+"
+)
+    
 def
 inner
 (
