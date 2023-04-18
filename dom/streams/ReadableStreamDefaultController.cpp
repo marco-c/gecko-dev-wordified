@@ -1094,7 +1094,6 @@ false
 ;
 }
 }
-static
 Nullable
 <
 double
