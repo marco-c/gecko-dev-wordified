@@ -709,6 +709,15 @@ SupportsThreadsafeGL
 bool
 false
 )
+\
+_
+(
+OffscreenCanvasDomainAllowlist
+nsCString
+nsCString
+(
+)
+)
 /
 *
 Add
