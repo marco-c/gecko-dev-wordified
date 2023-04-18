@@ -6198,15 +6198,9 @@ uint8_t
 aBuf
 uint32_t
 aLength
-mozilla
-:
-:
-UniquePtr
-<
+const
 uint8_t
-[
-]
->
+*
 &
 aTable
 )

@@ -14714,6 +14714,7 @@ gfxFontEntry
 >
 mFontEntry
 ;
+mutable
 mozilla
 :
 :

@@ -3687,6 +3687,15 @@ entry
 continue
 ;
 }
+AutoWriteLock
+lock
+(
+entry
+-
+>
+mLock
+)
+;
 entry
 -
 >
