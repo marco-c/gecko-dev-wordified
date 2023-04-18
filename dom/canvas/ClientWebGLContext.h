@@ -6063,11 +6063,11 @@ already_AddRefed
 mozilla
 :
 :
-Runnable
+CancelableRunnable
 >
 runnable
 =
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 enqueue

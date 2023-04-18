@@ -1514,6 +1514,10 @@ if
 (
 !
 mCanvasElement
+&
+&
+!
+mOffscreenCanvas
 )
 return
 ;
@@ -1531,6 +1535,11 @@ mIsCanvasDirty
 =
 true
 ;
+if
+(
+mCanvasElement
+)
+{
 SVGObserverUtils
 :
 :
@@ -1547,6 +1556,7 @@ InvalidateCanvasContent
 nullptr
 )
 ;
+}
 }
 void
 WebGLContext
@@ -9463,7 +9473,7 @@ const
 webgl
 )
 :
-Runnable
+DiscardableRunnable
 (
 "
 webgl
