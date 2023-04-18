@@ -588,7 +588,9 @@ if
 (
 value
 <
-ArenaSize
+SystemPageSize
+(
+)
 |
 |
 value
@@ -635,7 +637,9 @@ if
 (
 value
 <
-ArenaSize
+SystemPageSize
+(
+)
 |
 |
 value
