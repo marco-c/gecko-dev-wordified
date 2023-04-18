@@ -7013,6 +7013,7 @@ strict
 mode
 g
 =
+(
 function
 (
 )
@@ -7021,6 +7022,7 @@ return
 this
 ;
 }
+)
 (
 )
 ;
