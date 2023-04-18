@@ -353,7 +353,7 @@ domain
 return
 createFrameForUri
 (
-http
+https
 :
 /
 /
@@ -537,7 +537,7 @@ NESTED_FRAME_MARKUP
 =
 createFrameForUri
 (
-http
+https
 :
 /
 /
@@ -611,7 +611,7 @@ example
 org
 .
 return
-http
+https
 :
 /
 /
