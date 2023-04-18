@@ -782,14 +782,6 @@ aIndex
 )
 ;
 int32_t
-LinkIndexOf
-(
-RemoteAccessible
-*
-aLink
-)
-;
-int32_t
 LinkIndexAtOffset
 (
 uint32_t
