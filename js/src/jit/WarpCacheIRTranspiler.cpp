@@ -9899,11 +9899,6 @@ add
 length
 )
 ;
-bool
-needsHoleCheck
-=
-true
-;
 auto
 *
 load
@@ -9919,7 +9914,6 @@ alloc
 elements
 index
 length
-needsHoleCheck
 )
 ;
 add
