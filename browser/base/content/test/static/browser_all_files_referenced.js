@@ -1118,6 +1118,9 @@ platforms
 :
 [
 "
+linux
+"
+"
 macosx
 "
 ]
