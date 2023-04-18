@@ -66,6 +66,12 @@ mozunit
 import
 main
 from
+taskgraph
+.
+task
+import
+Task
+from
 gecko_taskgraph
 import
 target_tasks
@@ -85,12 +91,6 @@ gecko_taskgraph
 taskgraph
 import
 TaskGraph
-from
-gecko_taskgraph
-.
-task
-import
-Task
 class
 FakeTryOptionSyntax
 :

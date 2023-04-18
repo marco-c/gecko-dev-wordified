@@ -68,6 +68,12 @@ Hooks
 from
 taskgraph
 .
+task
+import
+Task
+from
+taskgraph
+.
 util
 import
 taskcluster
@@ -92,12 +98,6 @@ get_task_definition
     
 get_task_url
 )
-from
-gecko_taskgraph
-.
-task
-import
-Task
 logger
 =
 logging

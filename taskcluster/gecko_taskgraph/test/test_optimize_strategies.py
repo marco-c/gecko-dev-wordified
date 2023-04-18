@@ -42,6 +42,12 @@ mozunit
 import
 main
 from
+taskgraph
+.
+task
+import
+Task
+from
 gecko_taskgraph
 .
 optimize
@@ -83,12 +89,6 @@ FALLBACK
     
 SkipUnlessDebug
 )
-from
-gecko_taskgraph
-.
-task
-import
-Task
 from
 gecko_taskgraph
 .
