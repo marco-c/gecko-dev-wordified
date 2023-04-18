@@ -4738,6 +4738,17 @@ EnsureTheme
 )
 ;
 }
+void
+RecomputeTheme
+(
+)
+;
+bool
+UseOverlayScrollbars
+(
+)
+const
+;
 /
 *
 *

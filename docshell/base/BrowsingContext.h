@@ -6944,6 +6944,17 @@ DidSet
 (
 FieldIndex
 <
+IDX_InRDMPane
+>
+bool
+aOldValue
+)
+;
+void
+DidSet
+(
+FieldIndex
+<
 IDX_PrefersColorSchemeOverride
 >
 dom

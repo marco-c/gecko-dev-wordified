@@ -4469,16 +4469,6 @@ sandbox
 .
 webrender
 ;
-sandbox
-.
-usesOverlayScrollbars
-=
-g
-.
-windowUtils
-.
-usesOverlayScrollbars
-;
 /
 /
 Shortcuts
