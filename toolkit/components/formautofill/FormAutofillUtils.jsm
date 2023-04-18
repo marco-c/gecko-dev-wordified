@@ -4253,6 +4253,8 @@ g
 .
 FormAutofill
 preferences
+Web
+Payments
 )
 .
 *
