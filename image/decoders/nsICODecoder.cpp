@@ -1131,7 +1131,7 @@ e
 .
 mSize
 =
-IntSize
+OrientedIntSize
 (
 e
 .
@@ -1710,7 +1710,7 @@ below
 const
 Maybe
 <
-IntSize
+OrientedIntSize
 >
 desiredSize
 =
@@ -2405,6 +2405,10 @@ emplace
 OutputSize
 (
 )
+.
+ToUnknownSize
+(
+)
 )
 ;
 }
@@ -2696,7 +2700,7 @@ isSome
 ;
 Maybe
 <
-IntSize
+OrientedIntSize
 >
 expectedSize
 =
@@ -3205,7 +3209,7 @@ isSome
 ;
 Maybe
 <
-IntSize
+OrientedIntSize
 >
 expectedSize
 =
@@ -3867,6 +3871,10 @@ mDirEntry
 -
 >
 mSize
+.
+ToUnknownSize
+(
+)
 Nothing
 (
 )

@@ -269,7 +269,7 @@ nsresult
 CreateFrame
 (
 const
-nsIntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -289,10 +289,7 @@ aData
 size_t
 aLength
 const
-gfx
-:
-:
-IntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -454,10 +451,7 @@ the
 current
 frame
 .
-gfx
-:
-:
-IntRect
+OrientedIntRect
 mFrameRect
 ;
 /

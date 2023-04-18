@@ -605,7 +605,7 @@ metadataProgress
 FLAG_SIZE_AVAILABLE
 )
 ;
-IntSize
+OrientedIntSize
 metadataSize
 =
 decoder
@@ -917,7 +917,7 @@ image
 s
 size
 .
-IntSize
+OrientedIntSize
 fullSize
 =
 decoder

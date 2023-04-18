@@ -3853,10 +3853,10 @@ returns
 a
 frame
 .
-UnorientedIntRect
+OrientedIntRect
 rect
 =
-UnorientedIntRect
+OrientedIntRect
 :
 :
 FromUnknownRect

@@ -1188,7 +1188,7 @@ nsGIFDecoder2
 CheckForTransparency
 (
 const
-IntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -1278,7 +1278,7 @@ that
 as
 transparency
 .
-IntRect
+OrientedIntRect
 imageRect
 (
 0
@@ -1417,7 +1417,7 @@ nsGIFDecoder2
 BeginImageFrame
 (
 const
-IntRect
+OrientedIntRect
 &
 aFrameRect
 uint16_t
@@ -1495,6 +1495,10 @@ animParams
 emplace
 (
 aFrameRect
+.
+ToUnknownRect
+(
+)
 FrameTimeout
 :
 :
@@ -5661,7 +5665,7 @@ char
 aData
 )
 {
-IntRect
+OrientedIntRect
 frameRect
 ;
 /

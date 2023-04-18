@@ -381,10 +381,7 @@ nsresult
 BeginImageFrame
 (
 const
-gfx
-:
-:
-IntRect
+OrientedIntRect
 &
 aFrameRect
 uint16_t
@@ -556,10 +553,7 @@ bool
 CheckForTransparency
 (
 const
-gfx
-:
-:
-IntRect
+OrientedIntRect
 &
 aFrameRect
 )

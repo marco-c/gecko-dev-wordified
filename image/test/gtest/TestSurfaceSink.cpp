@@ -1821,7 +1821,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 row
@@ -1836,7 +1836,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 row
@@ -5273,7 +5273,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 row
@@ -5288,7 +5288,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 row
@@ -6166,7 +6166,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -6181,7 +6181,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -6334,7 +6334,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 1
@@ -6349,7 +6349,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 1
@@ -6678,7 +6678,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 9
@@ -6693,7 +6693,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 9
@@ -6914,7 +6914,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 10
@@ -6929,7 +6929,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 10
@@ -7393,7 +7393,7 @@ isSome
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 75
@@ -7408,7 +7408,7 @@ mInputSpaceRect
 ;
 EXPECT_EQ
 (
-IntRect
+OrientedIntRect
 (
 0
 75

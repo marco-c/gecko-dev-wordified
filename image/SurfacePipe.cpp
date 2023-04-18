@@ -206,7 +206,7 @@ returning
 .
 mInvalidRect
 =
-IntRect
+OrientedIntRect
 (
 )
 ;
@@ -353,7 +353,7 @@ mInvalidRect
 UnionRect
 (
 mInvalidRect
-IntRect
+OrientedIntRect
 (
 0
 invalidY

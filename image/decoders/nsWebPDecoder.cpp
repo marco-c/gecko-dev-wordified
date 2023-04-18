@@ -1354,7 +1354,7 @@ nsWebPDecoder
 CreateFrame
 (
 const
-nsIntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -1781,6 +1781,10 @@ animParams
 emplace
 (
 aFrameRect
+.
+ToUnknownRect
+(
+)
 mTimeout
 mCurrentFrame
 mBlend
@@ -2859,7 +2863,7 @@ aData
 size_t
 aLength
 const
-IntRect
+OrientedIntRect
 &
 aFrameRect
 )
@@ -3642,7 +3646,7 @@ iter
 duration
 )
 ;
-nsIntRect
+OrientedIntRect
 frameRect
 (
 iter

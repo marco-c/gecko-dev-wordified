@@ -880,10 +880,7 @@ case
 JXL_DEC_FULL_IMAGE
 :
 {
-gfx
-:
-:
-IntSize
+OrientedIntSize
 size
 (
 mInfo

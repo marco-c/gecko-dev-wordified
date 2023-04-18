@@ -458,10 +458,7 @@ IconDirEntryEx
 public
 IconDirEntry
 {
-gfx
-:
-:
-IntSize
+OrientedIntSize
 mSize
 ;
 }

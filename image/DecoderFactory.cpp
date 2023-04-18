@@ -1048,7 +1048,13 @@ decoder
 >
 SetOutputSize
 (
+OrientedIntSize
+:
+:
+FromUnknownSize
+(
 aOutputSize
+)
 )
 ;
 decoder
@@ -2085,7 +2091,7 @@ aIsMetadataDecode
 const
 Maybe
 <
-IntSize
+OrientedIntSize
 >
 &
 aExpectedSize
@@ -2523,8 +2529,14 @@ decoder
 >
 SetOutputSize
 (
+OrientedIntSize
+:
+:
+FromUnknownSize
+(
 *
 aOutputSize
+)
 )
 ;
 }

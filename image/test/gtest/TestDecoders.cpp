@@ -478,7 +478,7 @@ the
 correct
 size
 .
-IntSize
+OrientedIntSize
 size
 =
 aDecoder
@@ -2329,7 +2329,7 @@ the
 correct
 size
 .
-IntSize
+OrientedIntSize
 size
 =
 aDecoder

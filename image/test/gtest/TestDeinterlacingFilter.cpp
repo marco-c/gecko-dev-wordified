@@ -3462,7 +3462,7 @@ BGRAColor
 aColor
 WriteState
 aNextState
-IntRect
+OrientedIntRect
 aInvalidRect
 uint32_t
 aFirstHaeberliRow
@@ -3867,7 +3867,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -3930,7 +3930,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -4020,7 +4020,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 2
@@ -4070,7 +4070,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -4157,7 +4157,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 1
@@ -4231,7 +4231,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 3
@@ -4305,7 +4305,7 @@ WriteState
 :
 :
 FINISHED
-IntRect
+OrientedIntRect
 (
 0
 5
@@ -4618,7 +4618,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -4681,7 +4681,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -4771,7 +4771,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 2
@@ -4821,7 +4821,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 0
@@ -4908,7 +4908,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 1
@@ -4982,7 +4982,7 @@ WriteState
 :
 :
 NEED_MORE_DATA
-IntRect
+OrientedIntRect
 (
 0
 3
@@ -5056,7 +5056,7 @@ WriteState
 :
 :
 FINISHED
-IntRect
+OrientedIntRect
 (
 0
 5
