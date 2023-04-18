@@ -3487,6 +3487,17 @@ false
 .
 *
 /
+/
+/
+TODO
+:
+Mark
+this
+as
+MOZ_CAN_RUN_SCRIPT
+instead
+.
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 DispatchKeyboardEventInternal
 (
