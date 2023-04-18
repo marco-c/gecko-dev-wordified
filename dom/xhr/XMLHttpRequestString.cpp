@@ -203,7 +203,6 @@ UnsafeLength
 (
 )
 const
-NO_THREAD_SAFETY_ANALYSIS
 {
 return
 mData
@@ -232,7 +231,6 @@ UnsafeBulkWrite
 uint32_t
 aCapacity
 )
-NO_THREAD_SAFETY_ANALYSIS
 {
 return
 mData
@@ -545,6 +543,7 @@ mData
 }
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -559,10 +558,6 @@ mutex
 .
 nsString
 mData
-GUARDED_BY
-(
-mMutex
-)
 ;
 }
 ;
