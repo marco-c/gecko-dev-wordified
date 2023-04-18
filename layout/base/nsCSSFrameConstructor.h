@@ -5104,6 +5104,7 @@ mDataGetter
 FrameFullConstructor
 mFullConstructor
 ;
+explicit
 constexpr
 Func
 (
@@ -5117,6 +5118,7 @@ aFunc
 )
 {
 }
+explicit
 constexpr
 Func
 (
@@ -5130,6 +5132,7 @@ aDataGetter
 )
 {
 }
+explicit
 constexpr
 Func
 (
@@ -5204,6 +5207,7 @@ nullptr
 )
 {
 }
+MOZ_IMPLICIT
 constexpr
 FrameConstructionData
 (
@@ -5233,6 +5237,7 @@ aBits
 )
 {
 }
+MOZ_IMPLICIT
 constexpr
 FrameConstructionData
 (
@@ -5281,6 +5286,7 @@ aAnonBoxPseudo
 )
 {
 }
+MOZ_IMPLICIT
 constexpr
 FrameConstructionData
 (
@@ -5311,6 +5317,7 @@ NotPseudo
 )
 {
 }
+MOZ_IMPLICIT
 constexpr
 FrameConstructionData
 (
