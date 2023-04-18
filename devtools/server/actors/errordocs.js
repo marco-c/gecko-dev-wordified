@@ -1047,7 +1047,7 @@ CORSDisabled
 "
 CORSDisabled
 "
-CORSDidNotSucceed2
+CORSDidNotSucceed
 :
 "
 CORSDidNotSucceed
@@ -1067,7 +1067,7 @@ CORSRequestNotHttp
 "
 CORSRequestNotHttp
 "
-CORSMissingAllowOrigin2
+CORSMissingAllowOrigin
 :
 "
 CORSMissingAllowOrigin
@@ -1097,7 +1097,7 @@ CORSMissingAllowCredentials
 "
 CORSMissingAllowCredentials
 "
-CORSPreflightDidNotSucceed3
+CORSPreflightDidNotSucceed2
 :
 "
 CORSPreflightDidNotSucceed
