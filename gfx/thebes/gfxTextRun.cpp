@@ -11245,13 +11245,6 @@ aOrientation
 return
 ;
 }
-aFont
--
->
-InitWordCache
-(
-)
-;
 static
 const
 uint8_t
