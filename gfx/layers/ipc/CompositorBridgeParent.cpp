@@ -9419,7 +9419,7 @@ IsInCompositorThread
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -11374,7 +11374,6 @@ const
 SurfaceDescriptor
 &
 aSharedData
-const
 ReadLockDescriptor
 &
 aReadLock
@@ -11411,7 +11410,13 @@ CreateIPDLActor
 (
 this
 aSharedData
+std
+:
+:
+move
+(
 aReadLock
+)
 aLayersBackend
 aFlags
 aSerial
@@ -11651,7 +11656,7 @@ latencyNorm
 ;
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
