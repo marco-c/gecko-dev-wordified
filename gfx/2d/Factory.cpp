@@ -157,6 +157,13 @@ h
 #
 include
 "
+PathSkia
+.
+h
+"
+#
+include
+"
 ScaledFontBase
 .
 h
