@@ -1146,6 +1146,14 @@ TRRSkippedReason
 TRR_UNSET
 ;
 TRRSkippedReason
+mFirstTRRSkippedReason
+=
+TRRSkippedReason
+:
+:
+TRR_UNSET
+;
+TRRSkippedReason
 mTRRAFailReason
 =
 TRRSkippedReason
@@ -1807,6 +1815,11 @@ to
 resolve
 again
 .
+void
+NotifyRetryingTrr
+(
+)
+;
 void
 ResolveComplete
 (
