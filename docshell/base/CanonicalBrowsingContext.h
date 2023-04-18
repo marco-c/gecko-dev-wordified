@@ -2025,6 +2025,9 @@ uint64_t
 >
 &
 aChannelId
+nsIURI
+*
+aNewURI
 )
 ;
 /
