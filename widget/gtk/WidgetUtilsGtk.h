@@ -191,6 +191,16 @@ GdkIsX11Display
 (
 )
 ;
+bool
+IsRunningUnderFlatpak
+(
+)
+;
+bool
+ShouldUsePortal
+(
+)
+;
 /
 /
 Parse
