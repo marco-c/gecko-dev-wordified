@@ -14,7 +14,7 @@ offThreadCompileToStencil
 "
 )
 ;
-finishOffThreadModule
+finishOffThreadCompileModuleToStencil
 (
 )
 ;
