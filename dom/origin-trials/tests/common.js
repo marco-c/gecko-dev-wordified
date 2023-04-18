@@ -90,12 +90,6 @@ workerReply
 port
 )
 ;
-self
-.
-close
-(
-)
-;
 }
 )
 ;
