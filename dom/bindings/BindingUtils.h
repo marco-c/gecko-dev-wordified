@@ -7545,7 +7545,13 @@ isSymbol
 JS_MarkCrossZoneId
 (
 cx
-SYMBOL_TO_JSID
+JS
+:
+:
+PropertyKey
+:
+:
+Symbol
 (
 rval
 .

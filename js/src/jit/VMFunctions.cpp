@@ -11556,7 +11556,10 @@ isSymbol
 *
 id
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 idVal
 .

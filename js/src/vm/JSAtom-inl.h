@@ -447,7 +447,10 @@ isSymbol
 *
 id
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 v
 .
@@ -597,7 +600,10 @@ idp
 .
 set
 (
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 v
 .

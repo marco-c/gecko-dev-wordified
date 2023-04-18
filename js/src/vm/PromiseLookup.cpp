@@ -1022,7 +1022,10 @@ promiseCtor
 lookup
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -

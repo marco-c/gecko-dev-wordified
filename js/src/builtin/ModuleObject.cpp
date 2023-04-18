@@ -5160,7 +5160,10 @@ props
 .
 infallibleAppend
 (
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -

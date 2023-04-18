@@ -2058,7 +2058,10 @@ isInterestingSymbol
 jsid
 id
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 symbol
 )
@@ -2234,7 +2237,10 @@ jsid
 id
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 sym
 )
@@ -2325,7 +2331,10 @@ jsid
 id
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 sym
 )

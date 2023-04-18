@@ -22612,7 +22612,10 @@ valId
 PropertyKey
 key
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 idVal_
 .
@@ -30740,7 +30743,10 @@ nullptr
 jsid
 hasInstanceID
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx_
 -
@@ -32515,7 +32521,10 @@ property
 PropertyKey
 iteratorKey
 =
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -

@@ -3238,7 +3238,10 @@ RootedId
 matchId
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -
@@ -12892,7 +12895,10 @@ HasOwnDataPropertyPure
 (
 cx
 proto
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -
@@ -12929,7 +12935,10 @@ HasOwnDataPropertyPure
 (
 cx
 proto
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -

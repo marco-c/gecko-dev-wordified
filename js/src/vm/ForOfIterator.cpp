@@ -378,7 +378,10 @@ RootedId
 iteratorId
 (
 cx
-SYMBOL_TO_JSID
+PropertyKey
+:
+:
+Symbol
 (
 cx
 -
