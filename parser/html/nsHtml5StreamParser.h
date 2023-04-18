@@ -3485,9 +3485,6 @@ mHasHadErrors
 bool
 mDetectorHasSeenNonAscii
 ;
-bool
-mDetectorHadOnlySeenAsciiWhenFirstGuessing
-;
 /
 *
 *

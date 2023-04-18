@@ -16399,13 +16399,13 @@ kCharsetUninitialized
 aSource
 >
 =
-kCharsetFromFinalAutoDetectionWouldHaveBeenUTF8
+kCharsetFromFinalAutoDetectionWouldHaveBeenUTF8InitialWasASCII
 &
 &
 aSource
 <
 =
-kCharsetFromFinalAutoDetectionWouldNotHaveBeenUTF8DependedOnTLD
+kCharsetFromFinalAutoDetectionWouldNotHaveBeenUTF8DependedOnTLDInitialWasASCII
 )
 |
 |
