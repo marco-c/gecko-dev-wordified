@@ -4488,11 +4488,10 @@ default
 )
 }
 }
+pub
 fn
 next_namespace_id
 (
-&
-self
 )
 -
 >
@@ -5622,8 +5621,9 @@ sender
 .
 send
 (
-self
-.
+Self
+:
+:
 next_namespace_id
 (
 )
