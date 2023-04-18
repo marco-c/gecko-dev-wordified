@@ -431,6 +431,15 @@ use
 std
 :
 :
+hash
+:
+:
+BuildHasher
+;
+use
+std
+:
+:
 net
 :
 :
@@ -885,7 +894,6 @@ sized
 collection
 type
 or
-you
 something
 of
 that
@@ -6237,6 +6245,11 @@ Arbitrary
 '
 a
 >
+S
+:
+BuildHasher
++
+Default
 >
 Arbitrary
 <
@@ -6248,6 +6261,7 @@ HashMap
 <
 K
 V
+S
 >
 {
 fn
@@ -6380,6 +6394,11 @@ hash
 :
 :
 Hash
+S
+:
+BuildHasher
++
+Default
 >
 Arbitrary
 <
@@ -6390,6 +6409,7 @@ for
 HashSet
 <
 A
+S
 >
 {
 fn

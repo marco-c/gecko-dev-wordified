@@ -98,6 +98,7 @@ from
 element
 .
 pub
+const
 fn
 new
 (

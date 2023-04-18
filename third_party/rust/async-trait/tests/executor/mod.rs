@@ -51,6 +51,16 @@ test
 only
 )
 .
+#
+[
+allow
+(
+clippy
+:
+:
+missing_panics_doc
+)
+]
 pub
 fn
 block_on_simple
