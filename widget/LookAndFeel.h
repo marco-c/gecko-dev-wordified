@@ -2915,14 +2915,14 @@ mTheme
 (
 and
 other
+/
+/
 global
 LookAndFeel
 .
 This
 is
 used
-/
-/
 because
 mTheme
 is
@@ -2932,6 +2932,8 @@ so
 there
 '
 s
+/
+/
 no
 need
 to
@@ -2940,8 +2942,6 @@ it
 from
 more
 than
-/
-/
 one
 prescontext
 .
