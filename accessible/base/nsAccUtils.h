@@ -1183,7 +1183,7 @@ static
 uint32_t
 TextLength
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )

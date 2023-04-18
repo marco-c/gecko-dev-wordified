@@ -1329,6 +1329,11 @@ UINT32_MAX
 )
 override
 ;
+uint32_t
+GetCachedTextLength
+(
+)
+;
 protected
 :
 RemoteAccessibleBase
