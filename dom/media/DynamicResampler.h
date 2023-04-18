@@ -2431,7 +2431,7 @@ mIndex
 uint32_t
 mChunkCapacity
 =
-128
+WEBAUDIO_BLOCK_SIZE
 ;
 AudioSampleFormat
 mSampleFormat
