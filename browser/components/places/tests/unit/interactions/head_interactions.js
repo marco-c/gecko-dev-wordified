@@ -2264,7 +2264,7 @@ snapshots
 *
 param
 {
-object
+SelectionContext
 }
 context
 *
@@ -2290,11 +2290,11 @@ snapshots
 await
 Snapshots
 .
-queryOverlapping
+recommendationSources
+.
+Overlapping
 (
 context
-.
-url
 )
 ;
 await
@@ -2339,7 +2339,7 @@ snapshots
 *
 param
 {
-object
+SelectionContext
 }
 context
 *
@@ -2365,11 +2365,11 @@ snapshots
 await
 Snapshots
 .
-queryCommonReferrer
+recommendationSources
+.
+CommonReferrer
 (
 context
-.
-url
 )
 ;
 await
