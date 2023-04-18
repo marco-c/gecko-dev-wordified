@@ -2746,7 +2746,7 @@ asOptimizeSpreadCallIC
 (
 )
 ;
-Register
+ValueOperand
 output
 =
 ic
@@ -2791,17 +2791,7 @@ outputUnchecked_
 .
 emplace
 (
-TypedOrValueRegister
-(
-MIRType
-:
-:
-Boolean
-AnyRegister
-(
 output
-)
-)
 )
 ;
 MOZ_ASSERT
