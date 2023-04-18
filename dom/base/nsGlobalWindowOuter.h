@@ -2049,9 +2049,6 @@ aIsFullscreen
 nsIWidget
 *
 aWidget
-nsIScreen
-*
-aScreen
 )
 ;
 bool

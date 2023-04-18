@@ -11546,9 +11546,6 @@ MakeFullScreen
 (
 bool
 aFullScreen
-nsIScreen
-*
-aTargetScreen
 )
 {
 return
@@ -11569,9 +11566,6 @@ MakeFullScreenWithNativeTransition
 (
 bool
 aFullScreen
-nsIScreen
-*
-aTargetScreen
 )
 {
 return

@@ -1811,11 +1811,6 @@ MakeFullScreen
 (
 bool
 aFullScreen
-nsIScreen
-*
-aTargetScreen
-=
-nullptr
 )
 final
 ;
@@ -1824,11 +1819,6 @@ MakeFullScreenWithNativeTransition
 (
 bool
 aFullScreen
-nsIScreen
-*
-aTargetScreen
-=
-nullptr
 )
 final
 ;

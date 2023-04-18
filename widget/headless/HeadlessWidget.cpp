@@ -2145,9 +2145,6 @@ MakeFullScreen
 (
 bool
 aFullScreen
-nsIScreen
-*
-aTargetScreen
 )
 {
 /
@@ -2308,15 +2305,6 @@ self
 this
 )
 ;
-nsCOMPtr
-<
-nsIScreen
->
-targetScreen
-(
-aTargetScreen
-)
-;
 NS_DispatchToCurrentThread
 (
 NS_NewRunnableFunction
@@ -2329,7 +2317,6 @@ MakeFullScreen
 "
 [
 self
-targetScreen
 aFullScreen
 ]
 (
@@ -2344,7 +2331,6 @@ self
 InfallibleMakeFullScreen
 (
 aFullScreen
-targetScreen
 )
 ;
 }

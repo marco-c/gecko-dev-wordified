@@ -485,11 +485,6 @@ MakeFullScreen
 (
 bool
 aFullScreen
-nsIScreen
-*
-aTargetScreen
-=
-nullptr
 )
 override
 ;

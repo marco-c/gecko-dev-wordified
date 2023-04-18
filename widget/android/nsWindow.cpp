@@ -14044,8 +14044,6 @@ MakeFullScreen
 (
 bool
 aFullScreen
-nsIScreen
-*
 )
 {
 if
