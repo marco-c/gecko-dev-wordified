@@ -794,8 +794,14 @@ chunk
 return
 ;
 }
+RootedDictionary
+<
 ReadableStreamBYOBReadResult
+>
 result
+(
+aCx
+)
 ;
 result
 .
