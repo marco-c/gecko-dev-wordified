@@ -357,7 +357,7 @@ this
 emittedMessages
 =
 new
-WeakSet
+Set
 (
 )
 ;
@@ -397,6 +397,13 @@ this
 stopListening
 (
 )
+;
+this
+.
+#
+emittedMessages
+=
+null
 ;
 }
 startListening
