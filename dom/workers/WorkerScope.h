@@ -448,6 +448,8 @@ WorkerGlobalScopeBase
 public
 DOMEventTargetHelper
 public
+nsSupportsWeakReference
+public
 nsIGlobalObject
 {
 friend
@@ -992,8 +994,6 @@ WorkerGlobalScope
 :
 public
 WorkerGlobalScopeBase
-public
-nsSupportsWeakReference
 {
 public
 :
