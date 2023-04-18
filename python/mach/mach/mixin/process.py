@@ -294,6 +294,8 @@ _in_msys
 =
 False
 if
+(
+    
 os
 .
 environ
@@ -313,6 +315,16 @@ MINGW32
 "
 MINGW64
 "
+)
+    
+or
+"
+MOZILLABUILD
+"
+in
+os
+.
+environ
 )
 :
     
