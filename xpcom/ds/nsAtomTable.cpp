@@ -1703,7 +1703,6 @@ nsAtomTable
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 PLDHashTable
 mTable
@@ -1718,6 +1717,10 @@ GCLocked
 GCKind
 aKind
 )
+REQUIRES
+(
+mLock
+)
 ;
 void
 AddSizeOfExcludingThisLocked
@@ -1727,6 +1730,10 @@ aMallocSizeOf
 AtomsSizes
 &
 aSizes
+)
+REQUIRES
+(
+mLock
 )
 ;
 AtomTableEntry
@@ -1738,6 +1745,10 @@ AtomTableKey
 aKey
 )
 const
+REQUIRES
+(
+mLock
+)
 {
 mLock
 .
@@ -1769,6 +1780,10 @@ Add
 AtomTableKey
 &
 aKey
+)
+REQUIRES
+(
+mLock
 )
 {
 mLock

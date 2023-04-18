@@ -794,7 +794,6 @@ mozilla
 :
 Mutex
 mFifoInfoLock
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -802,6 +801,10 @@ protects
 mFifoInfo
 FifoInfoArray
 mFifoInfo
+GUARDED_BY
+(
+mFifoInfoLock
+)
 ;
 }
 ;
@@ -935,7 +938,6 @@ mozilla
 :
 Mutex
 mSignalInfoLock
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -943,6 +945,10 @@ protects
 mSignalInfo
 SignalInfoArray
 mSignalInfo
+GUARDED_BY
+(
+mSignalInfoLock
+)
 ;
 }
 ;

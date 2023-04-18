@@ -386,7 +386,6 @@ mWeakTellableInputStream
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 struct
 WaitClosureOnly
@@ -448,6 +447,10 @@ Maybe
 WaitClosureOnly
 >
 mWaitClosureOnly
+GUARDED_BY
+(
+mLock
+)
 ;
 /
 /
@@ -462,6 +465,10 @@ RefPtr
 AsyncWaitRunnable
 >
 mAsyncWaitCallback
+GUARDED_BY
+(
+mLock
+)
 ;
 /
 /
@@ -473,6 +480,10 @@ mLock
 .
 bool
 mClosed
+GUARDED_BY
+(
+mLock
+)
 ;
 }
 ;

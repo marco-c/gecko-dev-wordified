@@ -500,6 +500,10 @@ void
 ClearMessages
 (
 )
+REQUIRES
+(
+mLock
+)
 ;
 mozilla
 :
@@ -509,6 +513,10 @@ LinkedList
 MessageElement
 >
 mMessages
+GUARDED_BY
+(
+mLock
+)
 ;
 /
 /
@@ -520,6 +528,10 @@ mMessages
 .
 uint32_t
 mCurrentSize
+GUARDED_BY
+(
+mLock
+)
 ;
 /
 /
@@ -529,6 +541,7 @@ size
 of
 mMessages
 .
+const
 uint32_t
 mMaximumSize
 ;
@@ -566,6 +579,12 @@ avoid
 infinite
 repitition
 .
+/
+/
+Only
+touched
+on
+MainThread
 bool
 mDeliveringMessage
 ;
@@ -583,6 +602,10 @@ logged
 .
 ListenerHash
 mListeners
+GUARDED_BY
+(
+mLock
+)
 ;
 /
 /
@@ -596,7 +619,6 @@ mozilla
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 }
 ;
