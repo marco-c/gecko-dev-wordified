@@ -1500,6 +1500,16 @@ char
 aPrefName
 )
 ;
+static
+bool
+IsSanitized
+(
+const
+char
+*
+aPrefName
+)
+;
 /
 /
 Clears
