@@ -1414,7 +1414,7 @@ RG8
 Two
 -
 channels
-byte
+short
 storage
 .
 Similar
