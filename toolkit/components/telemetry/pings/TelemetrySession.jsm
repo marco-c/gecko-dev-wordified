@@ -305,17 +305,6 @@ jsm
 }
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-Glean
-"
-]
-)
-;
 const
 Utils
 =

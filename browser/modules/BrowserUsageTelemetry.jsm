@@ -326,17 +326,6 @@ expiry
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-Glean
-"
-]
-)
-;
 /
 /
 The

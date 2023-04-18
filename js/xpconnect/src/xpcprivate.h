@@ -16195,16 +16195,6 @@ rtcIdentityProvider
 :
 1
 ;
-bool
-glean
-:
-1
-;
-bool
-gleanPings
-:
-1
-;
 private
 :
 bool

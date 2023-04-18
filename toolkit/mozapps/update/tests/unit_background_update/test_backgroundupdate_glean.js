@@ -146,17 +146,6 @@ nsIApplicationUpdateService
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-Glean
-"
-]
-)
-;
 add_task
 (
 function

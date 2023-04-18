@@ -424,17 +424,6 @@ nsIApplicationUpdateService
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-Glean
-"
-]
-)
-;
 /
 /
 We
