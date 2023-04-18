@@ -62,8 +62,6 @@ import
 importlib
 import
 os
-import
-sys
 from
 docutils
 .
@@ -1185,12 +1183,6 @@ _venv
 "
 common
 "
-        
-log_handle
-=
-sys
-.
-stderr
     
 )
     
