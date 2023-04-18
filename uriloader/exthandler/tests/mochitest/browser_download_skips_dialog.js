@@ -169,9 +169,9 @@ gBrowser
 TEST_PATH
 +
 "
-file_pdf_application_pdf
+file_image_svgxml
 .
-pdf
+svg
 "
 )
 ;

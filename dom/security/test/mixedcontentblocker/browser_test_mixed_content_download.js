@@ -1717,7 +1717,7 @@ Test
 Download
 an
 insecure
-pdf
+svg
 and
 choose
 "
@@ -1729,7 +1729,7 @@ add_task
 (
 async
 function
-download_open_insecure_pdf
+download_open_insecure_SVG
 (
 )
 {
@@ -1777,7 +1777,7 @@ runTest
 (
 SECURE_BASE_URL
 "
-insecurePDF
+insecureSVG
 "
 async
 (
@@ -1883,7 +1883,7 @@ includes
 (
 "
 .
-pdf
+svg
 "
 )
 "
@@ -1928,7 +1928,7 @@ popPrefEnv
 "
 A
 Blocked
-PDF
+SVG
 can
 be
 opened
