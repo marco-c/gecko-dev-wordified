@@ -507,6 +507,27 @@ name
 )
 )
         
+add_option
+(
+env
+"
+browsertime
+.
+testType
+"
+test_site
+.
+get
+(
+"
+type
+"
+"
+pageload
+"
+)
+)
+        
 prefs
 =
 test_site
