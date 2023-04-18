@@ -180,6 +180,13 @@ utility
 0
 for
 GENERIC_UTILITY
+/
+/
+utility
+:
+1
+for
+UTILITY_AUDIO_DECODER
 var
 processTypes
 =
@@ -200,6 +207,11 @@ gmplugin
 utility
 :
 0
+"
+"
+utility
+:
+1
 "
 "
 gpu
