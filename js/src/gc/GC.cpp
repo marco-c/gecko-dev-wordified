@@ -11458,13 +11458,6 @@ chunksToDecommit
 chunk
 -
 >
-rebuildFreeArenasList
-(
-)
-;
-chunk
--
->
 decommitFreeArenas
 (
 this
