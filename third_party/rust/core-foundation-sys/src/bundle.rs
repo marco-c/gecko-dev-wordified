@@ -302,4 +302,16 @@ CFBundleRef
 >
 CFURLRef
 ;
+pub
+fn
+CFBundleCopyResourcesDirectoryURL
+(
+bundle
+:
+CFBundleRef
+)
+-
+>
+CFURLRef
+;
 }
