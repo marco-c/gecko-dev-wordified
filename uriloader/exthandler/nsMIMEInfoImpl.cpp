@@ -606,6 +606,12 @@ StaticPrefs
 browser_download_improvements_to_download_panel
 (
 )
+|
+|
+aClass
+!
+=
+eMIMEInfo
 )
 {
 }
