@@ -1766,7 +1766,7 @@ RustSdpSsrcGroupSemantic
 Duplication
 FlowIdentification
 ForwardErrorCorrection
-ForwardErrorCorrectionFR
+ForwardErrorCorrectionFr
 SIM
 }
 impl
@@ -1837,14 +1837,14 @@ ForwardErrorCorrection
 SdpSsrcGroupSemantic
 :
 :
-ForwardErrorCorrectionFR
+ForwardErrorCorrectionFr
 =
 >
 {
 RustSdpSsrcGroupSemantic
 :
 :
-ForwardErrorCorrectionFR
+ForwardErrorCorrectionFr
 }
 SdpSsrcGroupSemantic
 :
