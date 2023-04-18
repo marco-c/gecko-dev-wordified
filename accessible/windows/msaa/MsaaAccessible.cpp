@@ -298,6 +298,15 @@ sdnTextAccessible
 .
 h
 "
+#
+include
+"
+HyperTextAccessible
+-
+inl
+.
+h
+"
 using
 namespace
 mozilla
