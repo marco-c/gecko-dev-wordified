@@ -8886,6 +8886,13 @@ JSProto_WasmException
 )
 )
 ;
+RootedObject
+stack
+(
+cx
+nullptr
+)
+;
 return
 AnyRef
 :
@@ -8899,6 +8906,7 @@ create
 (
 cx
 tagObj
+stack
 proto
 )
 )
