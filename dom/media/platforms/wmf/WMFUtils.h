@@ -506,6 +506,15 @@ GetProgramW6432Path
 (
 )
 ;
+const
+char
+*
+MFTMessageTypeToStr
+(
+MFT_MESSAGE_TYPE
+aMsg
+)
+;
 }
 /
 /
