@@ -7951,13 +7951,7 @@ NS_BUILD_REFCNT_LOGGING
 if
 defined
 (
-DEBUG
-)
-|
-|
-defined
-(
-FORCE_BUILD_REFCNT_LOGGING
+NS_BUILD_REFCNT_LOGGING
 )
 #
 define
@@ -7986,10 +7980,7 @@ AssertValid
 endif
 /
 *
-DEBUG
-|
-|
-FORCE_BUILD_REFCNT_LOGGING
+NS_BUILD_REFCNT_LOGGING
 *
 /
 void
