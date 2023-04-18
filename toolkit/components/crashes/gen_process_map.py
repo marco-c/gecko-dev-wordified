@@ -111,6 +111,23 @@ string_name
 main
 "
         
+if
+p
+.
+string_name
+=
+=
+"
+tab
+"
+:
+            
+string_name
+=
+"
+content
+"
+        
 output
 .
 write
