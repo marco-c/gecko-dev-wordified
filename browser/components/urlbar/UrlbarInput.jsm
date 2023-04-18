@@ -22412,8 +22412,12 @@ return
 ;
 }
 let
-href
+uri
 =
+this
+.
+makeURIReadable
+(
 this
 .
 window
@@ -22421,6 +22425,12 @@ window
 gBrowser
 .
 currentURI
+)
+;
+let
+href
+=
+uri
 .
 displaySpec
 ;
