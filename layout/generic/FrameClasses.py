@@ -74,6 +74,7 @@ Frame
 AbstractFrame
 LEAF
 NOT_LEAF
+DYNAMIC_LEAF
 FRAME_CLASSES
 =
 [
@@ -471,7 +472,7 @@ nsImageFrame
 "
 Image
 "
-LEAF
+DYNAMIC_LEAF
 )
     
 Frame
