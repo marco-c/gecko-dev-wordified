@@ -4353,6 +4353,9 @@ var
 ActivityStreamProvider
 =
 {
+THUMB_FAVICON_SIZE
+:
+96
 /
 *
 *
@@ -5180,7 +5183,9 @@ PlacesUtils
 promiseFaviconData
 (
 aUri
-0
+this
+.
+THUMB_FAVICON_SIZE
 )
 ;
 Object
