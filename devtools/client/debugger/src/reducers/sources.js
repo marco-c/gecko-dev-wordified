@@ -2629,9 +2629,9 @@ if
 source
 )
 {
-throw
-new
-Error
+console
+.
+warn
 (
 source
 {
