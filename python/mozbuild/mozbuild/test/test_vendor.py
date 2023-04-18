@@ -367,7 +367,7 @@ mach
 module
 so
 that
-MozSiteManager
+CommandSiteManager
 can
 populate
 itself

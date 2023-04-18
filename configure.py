@@ -244,7 +244,7 @@ mach
 .
 site
 import
-MozSiteManager
+CommandSiteManager
 from
 mozbuild
 .
@@ -1875,7 +1875,7 @@ __file__
     
 build_site
 =
-MozSiteManager
+CommandSiteManager
 (
         
 topsrcdir
@@ -1902,7 +1902,7 @@ if
 not
 build_site
 .
-up_to_date
+ensure
 (
 )
 :
@@ -1910,17 +1910,11 @@ up_to_date
 print
 (
 "
-Creating
+Created
 Python
 3
 virtualenv
 "
-)
-        
-build_site
-.
-build
-(
 )
     
 build_site

@@ -1026,7 +1026,7 @@ mach
 .
 site
 import
-MozSiteManager
+CommandSiteManager
     
 from
 moztreedocs
@@ -1161,7 +1161,7 @@ topsrcdir
     
 site
 =
-MozSiteManager
+CommandSiteManager
 (
         
 topsrcdir

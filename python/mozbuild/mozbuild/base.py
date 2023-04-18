@@ -2005,7 +2005,7 @@ mach
 .
 site
 import
-MozSiteManager
+CommandSiteManager
         
 if
 self
@@ -2019,7 +2019,7 @@ self
 .
 _virtualenv_manager
 =
-MozSiteManager
+CommandSiteManager
 (
                 
 self
