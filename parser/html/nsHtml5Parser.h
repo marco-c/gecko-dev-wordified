@@ -1123,7 +1123,6 @@ nsIParser
 )
 *
 /
-virtual
 void
 MarkAsNotScriptCreated
 (
@@ -1132,7 +1131,6 @@ char
 *
 aCommand
 )
-override
 ;
 /
 *
