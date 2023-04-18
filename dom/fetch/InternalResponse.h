@@ -1544,6 +1544,16 @@ return
 mCacheInfoChannel
 ;
 }
+bool
+HasBeenCloned
+(
+)
+const
+{
+return
+mCloned
+;
+}
 void
 InitChannelInfo
 (
@@ -1930,6 +1940,9 @@ nsMainThreadPtrHandle
 nsICacheInfoChannel
 >
 mCacheInfoChannel
+;
+bool
+mCloned
 ;
 public
 :
