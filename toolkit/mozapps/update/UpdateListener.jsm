@@ -978,7 +978,7 @@ promptTime
 now
 ;
 }
-init
+maybeShowUnsupportedNotification
 (
 )
 {
@@ -1054,17 +1054,6 @@ url
 )
 ;
 }
-}
-uninit
-(
-)
-{
-this
-.
-reset
-(
-)
-;
 }
 reset
 (
