@@ -2561,6 +2561,12 @@ test_status
 .
 repeated_runs
     
+all_skipped
+=
+test_status
+.
+all_skipped
+    
 logger
 .
 _state
@@ -2609,6 +2615,7 @@ results
 inconsistent
 slow
 iterations
+all_skipped
 def
 get_steps
 (
@@ -3121,6 +3128,7 @@ results
 inconsistent
 slow
 iterations
+all_skipped
 =
 step_func
 (
@@ -3138,6 +3146,9 @@ and
 expected_iterations
 >
 1
+and
+not
+all_skipped
 :
             
 step_results
