@@ -95,6 +95,16 @@ nsIconChannel
 cpp
 "
 ]
+EXPORTS
++
+=
+[
+"
+nsIconChannel
+.
+h
+"
+]
 LOCAL_INCLUDES
 +
 =
