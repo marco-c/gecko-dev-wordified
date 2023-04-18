@@ -786,6 +786,19 @@ writeRawInt64Field
 )
     
 "
+DoubleField
+"
+:
+(
+"
+double
+"
+"
+writeDoubleField
+"
+)
+    
+"
 AllocSiteField
 "
 :
@@ -1983,6 +1996,26 @@ stubOffset
 )
     
 "
+DoubleField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
 AllocSiteField
 "
 :
@@ -2867,6 +2900,14 @@ spewField
     
 "
 RawInt64Field
+"
+:
+"
+spewField
+"
+    
+"
+DoubleField
 "
 :
 "
@@ -3901,6 +3942,12 @@ RawPointerField
     
 "
 RawInt64Field
+"
+:
+1
+    
+"
+DoubleField
 "
 :
 1

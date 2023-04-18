@@ -397,6 +397,13 @@ uint32_t
 stubOffset
 )
 ;
+double
+getDoubleField
+(
+uint32_t
+stubOffset
+)
+;
 gc
 :
 :

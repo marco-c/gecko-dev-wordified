@@ -6976,6 +6976,17 @@ StubField
 Type
 :
 :
+Double
+:
+break
+;
+case
+StubField
+:
+:
+Type
+:
+:
 Shape
 :
 static_assert
