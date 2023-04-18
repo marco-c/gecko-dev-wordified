@@ -7196,7 +7196,7 @@ null
 /
 saveToDisk
 and
-launchWithApplication
+setDownloadToLaunch
 can
 return
 errors
@@ -7329,7 +7329,7 @@ this
 .
 mLauncher
 .
-launchWithApplication
+setDownloadToLaunch
 (
 this
 .

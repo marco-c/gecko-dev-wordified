@@ -949,7 +949,7 @@ Picker
 *
 /
 void
-launchWithApplication
+setDownloadToLaunch
 (
 in
 boolean

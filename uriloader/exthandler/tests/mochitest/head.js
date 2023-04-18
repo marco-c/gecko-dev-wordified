@@ -448,7 +448,7 @@ cancel
 )
 {
 }
-launchWithApplication
+setDownloadToLaunch
 (
 )
 {
