@@ -506,7 +506,7 @@ style
 =
 '
 .
-jpg
+avif
 '
 ]
 "
@@ -769,7 +769,7 @@ style
 =
 '
 .
-jpg
+avif
 '
 ]
 "
@@ -890,7 +890,7 @@ style
 =
 '
 .
-jpg
+avif
 '
 ]
 "
