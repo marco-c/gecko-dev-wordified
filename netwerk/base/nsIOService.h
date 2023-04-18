@@ -1034,6 +1034,12 @@ TooManySocketProcessCrash
 (
 )
 ;
+static
+void
+IncreaseSocketProcessCrashCount
+(
+)
+;
 private
 :
 /

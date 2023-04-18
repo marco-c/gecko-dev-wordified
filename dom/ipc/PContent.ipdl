@@ -3244,6 +3244,11 @@ uint32_t
 type
 )
 ;
+async
+SocketProcessCrashed
+(
+)
+;
 /
 /
 Re
