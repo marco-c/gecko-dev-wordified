@@ -711,17 +711,7 @@ WasmTableTable
 \
 _
 (
-WasmTagTag
-)
-\
-_
-(
 WasmTagType
-)
-\
-_
-(
-WasmExceptionTag
 )
 \
 _
