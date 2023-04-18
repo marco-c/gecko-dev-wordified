@@ -365,8 +365,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 enum
@@ -2921,7 +2921,7 @@ SetUrgentStartPreferred
 hTrans
 -
 >
-ClassOfService
+GetClassOfService
 (
 )
 .
@@ -17173,9 +17173,7 @@ transactionBytes
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

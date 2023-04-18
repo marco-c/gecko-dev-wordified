@@ -273,8 +273,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 const
@@ -5296,7 +5296,7 @@ PR_IntervalNow
 (
 )
 ;
-ClassOfServiceStruct
+ClassOfService
 cos
 ;
 if
@@ -5309,7 +5309,7 @@ cos
 trans
 -
 >
-ClassOfService
+GetClassOfService
 (
 )
 ;
@@ -12993,9 +12993,7 @@ mLastWriteTime
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

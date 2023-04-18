@@ -339,8 +339,8 @@ nsISVCBRecord
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -1284,7 +1284,7 @@ aConnInfo
 void
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 cos
 )
 ;
@@ -3418,8 +3418,8 @@ CollectTelemetryForUploads
 ;
 public
 :
-ClassOfServiceStruct
 ClassOfService
+GetClassOfService
 (
 )
 {
@@ -3879,12 +3879,10 @@ mHashKeyOfConnectionEntry
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /

@@ -1032,7 +1032,7 @@ override
 NS_IMETHOD
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 cos
 )
 override

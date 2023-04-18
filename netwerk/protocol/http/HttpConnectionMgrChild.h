@@ -121,8 +121,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -255,7 +255,7 @@ PHttpTransactionChild
 *
 aTrans
 const
-ClassOfServiceStruct
+ClassOfService
 &
 aClassOfService
 )
@@ -346,12 +346,10 @@ mConnMgr
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /

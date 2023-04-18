@@ -347,8 +347,8 @@ HTTP_CHANNEL_CHILD_IID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -594,7 +594,7 @@ override
 NS_IMETHOD
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 inCos
 )
 override
@@ -2834,12 +2834,10 @@ mSuspendCount
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /

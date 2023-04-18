@@ -606,8 +606,8 @@ ipc
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 /
@@ -17668,7 +17668,7 @@ HttpChannelChild
 :
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 inCos
 )
 {
@@ -20750,9 +20750,7 @@ NS_OK
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

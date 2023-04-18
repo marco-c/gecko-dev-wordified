@@ -140,8 +140,8 @@ nsITransportEventSink
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 enum
@@ -598,7 +598,7 @@ trafficCategory
 nsIRequestContext
 *
 requestContext
-ClassOfServiceStruct
+ClassOfService
 classOfService
 uint32_t
 initialRwin
@@ -1191,7 +1191,7 @@ nsIRequestContext
 *
 requestContext
 \
-ClassOfServiceStruct
+ClassOfService
 classOfService
 uint32_t
 initialRwin
@@ -1611,12 +1611,10 @@ override
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /

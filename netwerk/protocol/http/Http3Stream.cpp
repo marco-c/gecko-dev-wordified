@@ -234,7 +234,7 @@ Http3Session
 *
 session
 const
-ClassOfServiceStruct
+ClassOfService
 &
 cos
 uint64_t

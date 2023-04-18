@@ -216,8 +216,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 NS_IMPL_ISUPPORTS_INHERITED
@@ -3701,7 +3701,7 @@ InterceptedHttpChannel
 :
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 cos
 )
 {
@@ -8130,9 +8130,7 @@ ToMilliseconds
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

@@ -201,7 +201,11 @@ h
 ;
 include
 "
-nsIClassOfService
+mozilla
+/
+net
+/
+ClassOfService
 .
 h
 "
@@ -2116,7 +2120,7 @@ uploadStreamHasHeaders
 int16_t
 priority
 ;
-ClassOfServiceStruct
+ClassOfService
 classOfService
 ;
 uint8_t
