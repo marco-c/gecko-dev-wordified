@@ -74,11 +74,11 @@ pathlib
 import
 Path
 from
-distutils
+packaging
 .
 version
 import
-LooseVersion
+Version
 from
 mozboot
 import
@@ -995,7 +995,7 @@ py
 .
 MODERN_MERCURIAL_VERSION
 =
-LooseVersion
+Version
 (
 "
 4
@@ -1012,7 +1012,7 @@ this
 .
 MODERN_RUST_VERSION
 =
-LooseVersion
+Version
 (
 MINIMUM_RUST_VERSION
 )
@@ -4211,7 +4211,7 @@ switch
 and
 returns
 a
-LooseVersion
+Version
 representing
 the
 output
@@ -4458,7 +4458,7 @@ return
 None
         
 return
-LooseVersion
+Version
 (
 match
 .
@@ -5673,7 +5673,7 @@ targets
 if
 rust_version
 <
-LooseVersion
+Version
 (
 "
 1
