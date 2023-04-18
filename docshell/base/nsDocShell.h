@@ -1795,7 +1795,7 @@ aURI
 nsIPrincipal
 *
 aPrincipal
-int32_t
+uint32_t
 aDelay
 nsITimer
 *
