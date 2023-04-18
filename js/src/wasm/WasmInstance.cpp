@@ -6213,6 +6213,8 @@ if
 (
 funcIndex
 <
+metadataTier
+.
 funcImports
 .
 length
@@ -14274,7 +14276,7 @@ if
 stubs
 -
 >
-createOne
+createOneEntryStub
 (
 funcExportIndex
 codeTier
@@ -14383,7 +14385,7 @@ MOZ_ASSERT
 stubs2
 -
 >
-hasStub
+hasEntryStub
 (
 fe
 .
@@ -14399,7 +14401,7 @@ if
 stubs2
 -
 >
-createOne
+createOneEntryStub
 (
 funcExportIndex
 codeTier
