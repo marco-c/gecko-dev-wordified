@@ -10590,7 +10590,7 @@ value
 )
 ;
 return
-HasInstance
+InstanceofOperator
 (
 cx
 obj

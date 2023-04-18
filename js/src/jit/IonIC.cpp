@@ -3065,7 +3065,7 @@ rhs
 )
 ;
 return
-HasInstance
+InstanceofOperator
 (
 cx
 rhs

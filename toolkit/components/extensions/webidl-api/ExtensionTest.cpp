@@ -1241,10 +1241,7 @@ constructor
 .
 NS_ENSURE_TRUE
 (
-JS
-:
-:
-InstanceofOperator
+JS_HasInstance
 (
 aCx
 expectedMatchObj
