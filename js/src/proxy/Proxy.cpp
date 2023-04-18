@@ -6587,10 +6587,7 @@ nullptr
 /
 /
 call
-Proxy
-:
-:
-hasInstance
+nullptr
 /
 /
 hasInstance
