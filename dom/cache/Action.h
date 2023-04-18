@@ -465,12 +465,9 @@ Resolver
 >
 aResolver
 const
-Maybe
-<
-CacheDirectoryMetadata
->
+QuotaInfo
 &
-aDirectoryMetadata
+aQuotaInfo
 Data
 *
 aOptionalData
