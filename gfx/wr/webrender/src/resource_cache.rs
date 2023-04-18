@@ -3633,6 +3633,10 @@ SharedFontResources
 :
 new
 (
+IdNamespace
+(
+0
+)
 )
 ;
 let
