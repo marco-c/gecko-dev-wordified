@@ -193,8 +193,6 @@ get
 Window
 "
 )
-.
-_grip
 }
 }
 )

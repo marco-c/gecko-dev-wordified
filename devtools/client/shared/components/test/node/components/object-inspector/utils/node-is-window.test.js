@@ -170,8 +170,6 @@ get
 Window
 "
 )
-.
-_grip
 )
 )
 )
