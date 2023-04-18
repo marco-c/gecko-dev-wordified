@@ -685,13 +685,6 @@ of
 the
 functions
 .
-(
-not
-\
-*
-implemented
-yet
-)
 \
 *
 /
