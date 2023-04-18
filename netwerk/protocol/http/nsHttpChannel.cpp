@@ -16068,6 +16068,9 @@ DoAuthRetry
 break
 ;
 case
+408
+:
+case
 425
 :
 case
@@ -16078,6 +16081,7 @@ case
 Do
 not
 cache
+408
 425
 and
 429
