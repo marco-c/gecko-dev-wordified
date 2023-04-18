@@ -271,8 +271,8 @@ viewport
 gboolean
 opaque_region_needs_updates
 ;
-gboolean
-opaque_region_subtract_corners
+int
+opaque_region_corner_radius
 ;
 gboolean
 opaque_region_used
@@ -510,8 +510,8 @@ moz_container_wayland_update_opaque_region
 MozContainer
 *
 container
-bool
-aSubtractCorners
+int
+corner_radius
 )
 ;
 gboolean
