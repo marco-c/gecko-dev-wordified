@@ -2178,11 +2178,6 @@ mOldValue
 }
 }
 ;
-void
-MaybeEnableNextGenLocalStorage
-(
-)
-;
 /
 *
 *
