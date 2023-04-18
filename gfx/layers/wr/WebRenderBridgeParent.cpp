@@ -14231,6 +14231,11 @@ mCompositorScheduler
 ScheduleComposition
 (
 mSkippedCompositeReasons
+|
+RenderReasons
+:
+:
+SKIPPED_COMPOSITE
 )
 ;
 }
@@ -14459,7 +14464,8 @@ Next
 PROFILER_MARKER_TEXT
 (
 "
-SkippedComposite
+Discarded
+composite
 "
 GRAPHICS
 MarkerInnerWindowId
