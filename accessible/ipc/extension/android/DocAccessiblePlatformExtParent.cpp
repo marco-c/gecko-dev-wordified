@@ -289,14 +289,8 @@ sessionAcc
 >
 UpdateAccessibleFocusBoundaries
 (
-WrapperFor
-(
 first
-)
-WrapperFor
-(
 last
-)
 )
 ;
 }
