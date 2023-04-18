@@ -1411,14 +1411,11 @@ iEndOffset
 }
 else
 {
+const
 LogicalMargin
 frameMargin
-(
-wm
-)
-;
+=
 SizeComputationInput
-os
 (
 aFloatAvoidingBlock
 mReflowInput
@@ -1432,10 +1429,6 @@ ISize
 wm
 )
 )
-;
-frameMargin
-=
-os
 .
 ComputedLogicalMargin
 (
@@ -5336,7 +5329,7 @@ aFloat
 const
 SizeComputationInput
 &
-aFloatOffsetState
+aFloatSizingInput
 )
 {
 AutoMaybeDisableFontInflation
@@ -5348,7 +5341,7 @@ aFloat
 WritingMode
 wm
 =
-aFloatOffsetState
+aFloatSizingInput
 .
 GetWritingMode
 (
@@ -5373,7 +5366,7 @@ ComputedSize
 wm
 )
 aFloatAvailableISize
-aFloatOffsetState
+aFloatSizingInput
 .
 ComputedLogicalMargin
 (
@@ -5384,7 +5377,7 @@ Size
 (
 wm
 )
-aFloatOffsetState
+aFloatSizingInput
 .
 ComputedLogicalBorderPadding
 (
@@ -5455,7 +5448,7 @@ size
 return
 floatISize
 +
-aFloatOffsetState
+aFloatSizingInput
 .
 ComputedLogicalMargin
 (
@@ -5467,7 +5460,7 @@ IStartEnd
 cbwm
 )
 +
-aFloatOffsetState
+aFloatSizingInput
 .
 ComputedLogicalBorderPadding
 (
@@ -6109,7 +6102,7 @@ parent
 )
 ;
 SizeComputationInput
-offsets
+sizingInput
 (
 aFloat
 mReflowInput
@@ -6136,7 +6129,7 @@ ISize
 wm
 )
 aFloat
-offsets
+sizingInput
 )
 ;
 LogicalMargin
