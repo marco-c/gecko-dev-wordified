@@ -77,10 +77,10 @@ nsIGlobalObject
 h
 "
 namespace
-JS
+mozilla
 :
 :
-loader
+dom
 {
 class
 ModuleMapKey
@@ -260,9 +260,9 @@ aFlags
 /
 /
 namespace
-JS
+mozilla
 :
 :
-loader
+dom
 #
 endif

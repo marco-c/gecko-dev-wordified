@@ -121,11 +121,9 @@ mozilla_dom_UnderlyingSourceCallbackHelpers_h
 #
 include
 "
-js
+mozilla
 /
-loader
-/
-ModuleMapKey
+HoldDropJSObjects
 .
 h
 "
@@ -134,7 +132,9 @@ include
 "
 mozilla
 /
-HoldDropJSObjects
+dom
+/
+ModuleMapKey
 .
 h
 "
