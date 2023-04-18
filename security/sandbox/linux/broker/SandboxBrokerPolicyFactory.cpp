@@ -4643,7 +4643,7 @@ AddFutureDir
 policy
 -
 >
-AddDir
+AddFutureDir
 (
 rdonly
 snap
