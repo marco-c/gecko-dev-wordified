@@ -175,7 +175,7 @@ comments
 .
 wast
 :
-52
+56
 :
 11
 let
@@ -210,7 +210,7 @@ comments
 .
 wast
 :
-62
+66
 let
 2
 =
@@ -250,7 +250,7 @@ comments
 .
 wast
 :
-71
+75
 let
 3
 =
