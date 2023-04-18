@@ -7858,10 +7858,9 @@ pdfjs
 .
 enablePermissions
 "
-!
 param
 .
-Enabled
+EnablePermissions
 )
 ;
 }
