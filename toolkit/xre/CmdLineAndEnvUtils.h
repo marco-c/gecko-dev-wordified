@@ -1334,19 +1334,6 @@ exit
 }
 /
 /
-Strip
-it
-:
-RemoveArg
-(
-aArgc
-aArgv
-+
-1
-)
-;
-/
-/
 Now
 only
 an
@@ -1365,7 +1352,7 @@ arg
 =
 aArgv
 [
-1
+2
 ]
 ;
 if
@@ -1491,7 +1478,7 @@ arg
 =
 aArgv
 [
-2
+3
 ]
 ;
 if
