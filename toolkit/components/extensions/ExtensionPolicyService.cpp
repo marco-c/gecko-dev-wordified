@@ -2798,6 +2798,9 @@ JS
 :
 HandleValue
 aValue
+ErrorResult
+&
+aRv
 ExtensionPolicyService
 *
 aSelf
@@ -2864,6 +2867,9 @@ JS
 :
 HandleValue
 aValue
+ErrorResult
+&
+aRv
 ExtensionPolicyService
 *
 aSelf

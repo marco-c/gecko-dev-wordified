@@ -3002,6 +3002,8 @@ JS
 :
 :
 HandleValue
+ErrorResult
+&
 RefPtr
 <
 Promise
