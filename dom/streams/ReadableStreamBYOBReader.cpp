@@ -782,6 +782,13 @@ chunk
 )
 )
 {
+aRv
+.
+StealExceptionFromJSContext
+(
+aCx
+)
+;
 return
 ;
 }
@@ -987,6 +994,13 @@ chunk
 )
 )
 {
+aRv
+.
+StealExceptionFromJSContext
+(
+aCx
+)
+;
 return
 ;
 }
