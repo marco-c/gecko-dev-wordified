@@ -614,6 +614,10 @@ gecko_profiler_thread_is_being_profiled
 return
 profiler_thread_is_being_profiled
 (
+ThreadProfilingFeatures
+:
+:
+Any
 )
 ;
 }
