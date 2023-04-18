@@ -308,6 +308,11 @@ GetRequestTimeout
 (
 )
 ;
+void
+StrictModeConfirm
+(
+)
+;
 LookupStatus
 CompleteLookup
 (
@@ -929,6 +934,7 @@ Init
 PrefChange
 Retry
 FailedLookups
+StrictMode
 URIChange
 CaptivePortalConnectivity
 NetworkUp
@@ -940,6 +946,8 @@ ConfirmFail
 /
 (
 FailedLookups
+/
+StrictMode
 /
 URIChange
 /
