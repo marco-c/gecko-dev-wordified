@@ -978,14 +978,12 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHtml5TreeOpExecutor
 :
 :
 WillBuildModel
 (
-nsDTDMode
-aDTDMode
 )
 {
 mDocument

@@ -247,9 +247,6 @@ ePrimaryDetect
 enum
 nsDTDMode
 {
-eDTDMode_unknown
-=
-0
 eDTDMode_quirks
 /
 /
@@ -258,10 +255,8 @@ pre
 .
 0
 versions
-eDTDMode_almost_standards
 eDTDMode_full_standards
 eDTDMode_autodetect
-eDTDMode_fragment
 }
 ;
 class
