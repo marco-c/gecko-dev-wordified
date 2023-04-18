@@ -149,7 +149,7 @@ include
 "
 mozilla
 /
-StaticMutex
+StaticMonitor
 .
 h
 "
@@ -578,7 +578,7 @@ SourceSurfaceSharedDataWrapper
 *
 aSurface
 const
-StaticMutexAutoLock
+StaticMonitorAutoLock
 &
 aAutoLock
 )
@@ -594,7 +594,7 @@ SourceSurfaceSharedDataWrapper
 *
 aSurface
 const
-StaticMutexAutoLock
+StaticMonitorAutoLock
 &
 aAutoLock
 )
@@ -616,7 +616,7 @@ SourceSurfaceSharedDataWrapper
 &
 aExpired
 const
-StaticMutexAutoLock
+StaticMonitorAutoLock
 &
 aAutoLock
 )
@@ -640,8 +640,8 @@ aExpired
 )
 ;
 static
-StaticMutex
-sMutex
+StaticMonitor
+sMonitor
 ;
 static
 StaticAutoPtr
@@ -672,8 +672,8 @@ gfx
 :
 SourceSurfaceSharedDataWrapper
 4
-StaticMutex
-StaticMutexAutoLock
+StaticMonitor
+StaticMonitorAutoLock
 >
 {
 public
@@ -695,8 +695,8 @@ gfx
 :
 SourceSurfaceSharedDataWrapper
 4
-StaticMutex
-StaticMutexAutoLock
+StaticMonitor
+StaticMonitorAutoLock
 >
 (
 aExpirationTimeoutMS
@@ -723,7 +723,7 @@ SourceSurfaceSharedDataWrapper
 &
 aExpired
 const
-StaticMutexAutoLock
+StaticMonitorAutoLock
 &
 aAutoLock
 )
@@ -740,7 +740,7 @@ SourceSurfaceSharedDataWrapper
 *
 aSurface
 const
-StaticMutexAutoLock
+StaticMonitorAutoLock
 &
 aAutoLock
 )
@@ -750,7 +750,7 @@ void
 NotifyHandlerEndLocked
 (
 const
-StaticMutexAutoLock
+StaticMonitorAutoLock
 &
 aAutoLock
 )
@@ -763,7 +763,7 @@ NotifyHandlerEnd
 )
 override
 ;
-StaticMutex
+StaticMonitor
 &
 GetMutex
 (
@@ -771,7 +771,7 @@ GetMutex
 override
 {
 return
-sMutex
+sMonitor
 ;
 }
 nsTArray
