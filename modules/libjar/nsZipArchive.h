@@ -1201,6 +1201,10 @@ mFiles
 [
 ZIP_TABSIZE
 ]
+GUARDED_BY
+(
+mLock
+)
 ;
 mozilla
 :
@@ -1215,6 +1219,10 @@ void
 )
 >
 mArena
+GUARDED_BY
+(
+mLock
+)
 ;
 /
 /
@@ -1226,6 +1234,10 @@ directory
 entries
 bool
 mBuiltSynthetics
+GUARDED_BY
+(
+mLock
+)
 ;
 private
 :
@@ -1243,6 +1255,10 @@ nsZipItem
 *
 CreateZipItem
 (
+)
+REQUIRES
+(
+mLock
 )
 ;
 nsresult
