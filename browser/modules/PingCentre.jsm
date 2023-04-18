@@ -155,7 +155,7 @@ defineModuleGetter
 (
 this
 "
-TelemetrySend
+sendStandalonePing
 "
 "
 resource
@@ -650,8 +650,6 @@ payload
 )
 {
 return
-TelemetrySend
-.
 sendStandalonePing
 (
 endpoint
