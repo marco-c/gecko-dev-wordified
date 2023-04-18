@@ -871,8 +871,6 @@ of
 TabManager
 .
 browsers
-(
-)
 )
 {
 if
