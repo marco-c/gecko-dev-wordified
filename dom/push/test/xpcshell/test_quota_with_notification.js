@@ -47,13 +47,6 @@ a920
 b88e9e7d7559
 "
 ;
-const
-nsIPushQuotaManager
-=
-Ci
-.
-nsIPushQuotaManager
-;
 function
 run_test
 (
