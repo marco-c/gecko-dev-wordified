@@ -278,6 +278,7 @@ the
 stream
 is
 closed
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 CloseSteps
