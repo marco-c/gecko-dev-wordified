@@ -250,7 +250,7 @@ NS_IMETHODIMP
 HeadlessClipboard
 :
 :
-GetData
+GetSomeData
 (
 nsITransferable
 *

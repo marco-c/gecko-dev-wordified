@@ -3434,7 +3434,7 @@ clipboard
 clipboard
 -
 >
-GetData
+GetSomeData
 (
 trans
 aClipboardType
