@@ -759,7 +759,7 @@ sendAsyncMessage
 "
 AboutLogins
 :
-MasterPasswordRequest
+PrimaryPasswordRequest
 "
 messageId
 )
