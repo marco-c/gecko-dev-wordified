@@ -1006,10 +1006,10 @@ for
 the
 URI
 return
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

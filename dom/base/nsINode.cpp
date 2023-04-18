@@ -12556,10 +12556,10 @@ EqualsLiteral
 nsresult
 rv
 =
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

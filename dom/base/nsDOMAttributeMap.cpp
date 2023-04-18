@@ -2289,10 +2289,10 @@ IsEmpty
 {
 nameSpaceID
 =
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

@@ -5393,10 +5393,10 @@ kNameSpaceID_XMLNS
 namespaceID
 )
 {
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

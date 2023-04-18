@@ -360,6 +360,13 @@ nsGlobalWindow
 .
 h
 "
+#
+include
+"
+nsNameSpaceManager
+.
+h
+"
 namespace
 mozilla
 :
@@ -7824,10 +7831,10 @@ ToString
 attrValue
 )
 ;
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

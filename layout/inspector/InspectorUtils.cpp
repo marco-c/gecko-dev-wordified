@@ -362,6 +362,13 @@ h
 #
 include
 "
+nsNameSpaceManager
+.
+h
+"
+#
+include
+"
 nsStyleUtil
 .
 h
@@ -4134,10 +4141,10 @@ false
 int32_t
 namespaceID
 ;
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -

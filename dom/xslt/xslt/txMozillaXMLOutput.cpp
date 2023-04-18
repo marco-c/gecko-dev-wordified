@@ -3063,10 +3063,10 @@ namespaceID
 nsresult
 rv
 =
-nsContentUtils
+nsNameSpaceManager
 :
 :
-NameSpaceManager
+GetInstance
 (
 )
 -
