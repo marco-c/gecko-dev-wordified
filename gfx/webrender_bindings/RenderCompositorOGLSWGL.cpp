@@ -713,7 +713,7 @@ RenderCompositorOGLSWGL
 ;
 #
 ifdef
-OZ_WIDGET_ANDROID
+MOZ_WIDGET_ANDROID
 java
 :
 :
