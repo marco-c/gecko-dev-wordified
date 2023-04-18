@@ -318,13 +318,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsICookieJarSettings
 .
 h
@@ -844,7 +837,7 @@ portUUID
 ;
 aRv
 =
-nsContentUtils
+nsID
 :
 :
 GenerateUUIDInPlace

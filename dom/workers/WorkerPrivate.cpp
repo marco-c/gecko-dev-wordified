@@ -5051,7 +5051,7 @@ ComputeWorkerPrivateId
 nsID
 uuid
 =
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
@@ -12982,7 +12982,7 @@ AgentClusterId
 (
 )
 :
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
@@ -13056,7 +13056,7 @@ failures
 .
 return
 {
-nsContentUtils
+nsID
 :
 :
 GenerateUUID
