@@ -798,9 +798,7 @@ internal
 .
 bypassProxy
 =
-this
-.
-bypassProxyEnabled
+true
 ;
 }
 }
