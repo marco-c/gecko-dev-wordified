@@ -73,6 +73,11 @@ data
 text
 /
 html
+<
+!
+DOCTYPE
+html
+>
 Test
 console
 .

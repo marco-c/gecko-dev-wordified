@@ -116,6 +116,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 Not
 private
 "
@@ -132,6 +137,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 Test
 console
 in

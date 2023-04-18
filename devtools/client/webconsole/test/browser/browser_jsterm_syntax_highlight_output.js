@@ -48,6 +48,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 Test
 syntax
 highlighted

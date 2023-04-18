@@ -171,6 +171,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 body
 >
 <

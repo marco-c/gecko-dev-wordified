@@ -57,6 +57,11 @@ data
 text
 /
 html
+<
+!
+DOCTYPE
+html
+>
 Test
 copy
 to

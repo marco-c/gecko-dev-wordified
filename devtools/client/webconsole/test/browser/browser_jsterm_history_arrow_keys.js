@@ -56,6 +56,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 Web
 Console
 test

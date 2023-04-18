@@ -55,6 +55,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 p
 >
 test

@@ -100,6 +100,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 Clickable
 URLS
 "

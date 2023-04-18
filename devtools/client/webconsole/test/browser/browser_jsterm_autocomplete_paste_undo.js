@@ -49,6 +49,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 p
 >
 test

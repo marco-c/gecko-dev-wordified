@@ -68,6 +68,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 top
 -
 level

@@ -70,6 +70,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 test
 for
 bug

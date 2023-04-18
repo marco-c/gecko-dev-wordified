@@ -105,6 +105,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 script
 >
 throw

@@ -114,6 +114,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 html
 >
 <

@@ -57,6 +57,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 h1
 >
 Object

@@ -58,6 +58,11 @@ charset
 =
 utf8
 <
+!
+DOCTYPE
+html
+>
+<
 title
 >
 browser_console_nsiconsolemessage

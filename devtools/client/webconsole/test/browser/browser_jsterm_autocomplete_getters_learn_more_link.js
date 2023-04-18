@@ -79,6 +79,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 head
 >
 <

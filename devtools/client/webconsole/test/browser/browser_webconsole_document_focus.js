@@ -67,6 +67,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 Test
 content
 focus
@@ -440,6 +445,11 @@ data
 text
 /
 html
+<
+!
+DOCTYPE
+html
+>
 <
 meta
 charset

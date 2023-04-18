@@ -95,6 +95,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 p
 >
 Web

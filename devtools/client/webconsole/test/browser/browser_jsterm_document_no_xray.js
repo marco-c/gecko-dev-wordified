@@ -42,6 +42,11 @@ data
 text
 /
 html
+<
+!
+DOCTYPE
+html
+>
 Test
 evaluating
 document

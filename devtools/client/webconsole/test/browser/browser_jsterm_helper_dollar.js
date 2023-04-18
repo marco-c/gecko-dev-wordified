@@ -42,6 +42,11 @@ text
 /
 html
 <
+!
+DOCTYPE
+html
+>
+<
 main
 >
 <

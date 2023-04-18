@@ -90,6 +90,11 @@ text
 /
 html
 <
+!
+DOCTYPE
+html
+>
+<
 meta
 charset
 =

@@ -74,6 +74,11 @@ data
 text
 /
 html
+<
+!
+DOCTYPE
+html
+>
 Test
 error
 documentation

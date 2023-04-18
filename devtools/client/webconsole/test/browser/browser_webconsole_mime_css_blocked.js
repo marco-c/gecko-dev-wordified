@@ -69,7 +69,7 @@ text
 html
 <
 !
-doctype
+DOCTYPE
 html
 >
 <

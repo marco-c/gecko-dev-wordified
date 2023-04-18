@@ -70,6 +70,11 @@ data
 text
 /
 html
+<
+!
+DOCTYPE
+html
+>
 Test
 repeated
 objects

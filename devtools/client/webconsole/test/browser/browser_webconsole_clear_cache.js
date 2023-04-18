@@ -87,6 +87,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 Test
 clear
 cache

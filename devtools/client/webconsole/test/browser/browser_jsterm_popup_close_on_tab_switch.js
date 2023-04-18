@@ -65,6 +65,11 @@ utf
 -
 8
 <
+!
+DOCTYPE
+html
+>
+<
 p
 >
 bug
@@ -96,6 +101,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 <
 p
 >

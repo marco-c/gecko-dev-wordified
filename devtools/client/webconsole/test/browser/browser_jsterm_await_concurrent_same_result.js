@@ -82,6 +82,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 Test
 concurrent
 top

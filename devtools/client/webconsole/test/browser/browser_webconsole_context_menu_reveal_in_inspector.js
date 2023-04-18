@@ -106,6 +106,11 @@ DOCTYPE
 html
 >
 <
+!
+DOCTYPE
+html
+>
+<
 html
 >
 <

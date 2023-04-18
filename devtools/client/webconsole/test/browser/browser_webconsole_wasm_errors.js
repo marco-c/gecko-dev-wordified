@@ -59,6 +59,11 @@ charset
 utf
 -
 8
+<
+!
+DOCTYPE
+html
+>
 Wasm
 errors
 ;

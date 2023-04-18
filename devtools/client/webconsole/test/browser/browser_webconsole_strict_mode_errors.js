@@ -71,6 +71,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 empty
 page
 "
@@ -326,6 +331,11 @@ html
 charset
 =
 utf8
+<
+!
+DOCTYPE
+html
+>
 <
 script
 >
