@@ -159,11 +159,6 @@ nsINavBookmarksService
 idl
 "
 "
-nsIPlacesPreviewsHelperService
-.
-idl
-"
-"
 nsITaggingService
 .
 idl
@@ -344,11 +339,6 @@ jsm
 "
 "
 PlacesExpiration
-.
-jsm
-"
-"
-PlacesPreviews
 .
 jsm
 "
