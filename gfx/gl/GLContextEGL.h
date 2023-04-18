@@ -669,10 +669,6 @@ static
 bool
 FindVisual
 (
-bool
-aUseWebRender
-bool
-useAlpha
 int
 *
 const
