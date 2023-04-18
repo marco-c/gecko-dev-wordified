@@ -7655,7 +7655,7 @@ number
 /
 /
 Wait
-1000ms
+100ms
 before
 submission
 to
@@ -7677,7 +7677,7 @@ content
 setTimeout
 (
 resolve
-1000
+100
 )
 )
 ;
@@ -8022,7 +8022,7 @@ getFullYear
 /
 /
 Wait
-1000ms
+100ms
 before
 submission
 to
@@ -8044,7 +8044,7 @@ content
 setTimeout
 (
 resolve
-1000
+100
 )
 )
 ;
