@@ -95,15 +95,6 @@ MPL
 /
 #
 include
-"
-minidump
--
-analyzer
-.
-h
-"
-#
-include
 <
 cstdio
 >
@@ -3244,6 +3235,7 @@ return
 res
 ;
 }
+static
 bool
 GenerateStacks
 (
