@@ -2698,7 +2698,7 @@ webrtc
 RtpExtension
 :
 :
-kRtpStreamIdUri
+kRidUri
 SdpDirectionAttribute
 :
 :
@@ -2736,7 +2736,7 @@ webrtc
 RtpExtension
 :
 :
-kRepairedRtpStreamIdUri
+kRepairedRidUri
 SdpDirectionAttribute
 :
 :
@@ -14842,7 +14842,7 @@ webrtc
 RtpExtension
 :
 :
-kMIdUri
+kMidUri
 SdpDirectionAttribute
 :
 :
