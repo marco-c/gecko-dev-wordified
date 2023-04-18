@@ -269,7 +269,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 const

@@ -85,8 +85,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 function

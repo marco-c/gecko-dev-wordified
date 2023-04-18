@@ -48,7 +48,7 @@ use
 strict
 "
 ;
-let
+const
 {
 Management
 }
@@ -70,7 +70,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 function

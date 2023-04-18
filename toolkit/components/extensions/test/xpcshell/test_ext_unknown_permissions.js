@@ -138,8 +138,6 @@ Extension
 .
 jsm
 "
-{
-}
 )
 )
 ;

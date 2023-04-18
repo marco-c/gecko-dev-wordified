@@ -137,7 +137,7 @@ startup
 true
 )
 ;
-let
+const
 {
 Management
 }
@@ -159,7 +159,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 /

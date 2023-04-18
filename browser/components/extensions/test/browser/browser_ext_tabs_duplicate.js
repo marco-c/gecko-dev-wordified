@@ -702,7 +702,7 @@ tabId
 =
 >
 {
-let
+const
 {
 Management
 :
@@ -732,7 +732,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 let

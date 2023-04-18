@@ -2410,7 +2410,7 @@ Tab
 title
 "
 ;
-let
+const
 {
 Management
 :
@@ -2440,7 +2440,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 let

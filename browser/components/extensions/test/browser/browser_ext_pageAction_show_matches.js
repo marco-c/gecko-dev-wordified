@@ -397,7 +397,7 @@ getId
 tab
 )
 {
-let
+const
 {
 Management
 :
@@ -427,7 +427,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 getId

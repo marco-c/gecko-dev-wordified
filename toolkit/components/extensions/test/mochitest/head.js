@@ -35,8 +35,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -61,8 +59,6 @@ AppTestDelegate
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -496,8 +492,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 (

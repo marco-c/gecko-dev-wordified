@@ -687,7 +687,7 @@ ready
 ]
 )
 ;
-let
+const
 {
 Management
 :
@@ -717,7 +717,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 let
