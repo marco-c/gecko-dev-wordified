@@ -2264,6 +2264,16 @@ str
 set
 (
 )
+required_files
+.
+add
+(
+"
+/
+/
+LICENSE
+"
+)
 run_checked
 (
 "
