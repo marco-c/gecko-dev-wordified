@@ -335,12 +335,17 @@ GRefPtr
 h
 "
 #
+ifdef
+MOZ_X11
+#
 include
 "
 gfxXlibSurface
 .
 h
 "
+#
+endif
 #
 include
 "
