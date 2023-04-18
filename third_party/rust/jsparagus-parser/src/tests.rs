@@ -3834,7 +3834,7 @@ assert_not_implemented
 "
 )
 ;
-assert_not_implemented
+assert_same_number
 (
 "
 4
@@ -3843,6 +3843,9 @@ assert_not_implemented
 -
 324
 "
+5e
+-
+324
 )
 ;
 }
