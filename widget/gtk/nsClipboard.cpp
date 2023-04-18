@@ -157,6 +157,13 @@ endif
 #
 include
 "
+nsGtkUtils
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h

@@ -339,6 +339,16 @@ NativeKeyBindings
 cpp
 "
 "
+NativeMenuGtk
+.
+cpp
+"
+"
+NativeMenuSupport
+.
+cpp
+"
+"
 nsApplicationChooser
 .
 cpp
