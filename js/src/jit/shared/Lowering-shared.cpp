@@ -2060,9 +2060,6 @@ assignWasmSafepoint
 LInstruction
 *
 ins
-MInstruction
-*
-mir
 )
 {
 MOZ_ASSERT
