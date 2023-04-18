@@ -4821,8 +4821,9 @@ null
 {
 sDensity
 =
-new
 Float
+.
+valueOf
 (
 getApplicationContext
 (
