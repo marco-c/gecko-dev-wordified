@@ -3543,7 +3543,7 @@ if
 DisplayPortUtils
 :
 :
-GetHighResolutionDisplayPort
+GetDisplayPort
 (
 rootScrollFrame
 -
