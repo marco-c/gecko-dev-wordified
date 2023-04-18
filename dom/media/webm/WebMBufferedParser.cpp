@@ -2751,6 +2751,12 @@ Reset
 (
 )
 {
+ReentrantMonitorAutoEnter
+mon
+(
+mReentrantMonitor
+)
+;
 mRangeParsers
 .
 Clear
