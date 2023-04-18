@@ -864,6 +864,7 @@ makeRequests
 urls
 )
 {
+await
 content
 .
 wrappedJSObject
@@ -874,11 +875,9 @@ urls
 [
 0
 ]
-(
 )
-=
->
-{
+;
+await
 content
 .
 wrappedJSObject
@@ -889,11 +888,8 @@ urls
 [
 1
 ]
-(
 )
-=
->
-{
+;
 info
 (
 "
@@ -901,12 +897,6 @@ XHR
 Requests
 executed
 "
-)
-;
-}
-)
-;
-}
 )
 ;
 }
