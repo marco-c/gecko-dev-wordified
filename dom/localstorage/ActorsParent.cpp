@@ -10190,7 +10190,7 @@ during
 Snapshot
 :
 :
-RecvCheckpoint
+RecvAsyncCheckpoint
 /
 *
 *
@@ -10200,7 +10200,7 @@ by
 Snapshot
 :
 :
-RecvCheckpoint
+RecvAsyncCheckpoint
 to
 set
 a
@@ -10211,7 +10211,6 @@ pair
 as
 part
 of
-a
 an
 *
 explicit
@@ -12666,7 +12665,7 @@ ipc
 :
 :
 IPCResult
-RecvCheckpoint
+RecvAsyncCheckpoint
 (
 nsTArray
 <
@@ -12685,7 +12684,7 @@ ipc
 :
 :
 IPCResult
-RecvCheckpointAndNotify
+RecvAsyncCheckpointAndNotify
 (
 nsTArray
 <
@@ -32410,7 +32409,7 @@ IPCResult
 Snapshot
 :
 :
-RecvCheckpoint
+RecvAsyncCheckpoint
 (
 nsTArray
 <
@@ -32679,7 +32678,7 @@ IPCResult
 Snapshot
 :
 :
-RecvCheckpointAndNotify
+RecvAsyncCheckpointAndNotify
 (
 nsTArray
 <

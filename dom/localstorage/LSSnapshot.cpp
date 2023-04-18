@@ -4746,7 +4746,7 @@ MOZ_ALWAYS_TRUE
 mActor
 -
 >
-SendCheckpointAndNotify
+SendAsyncCheckpointAndNotify
 (
 *
 mWriteAndNotifyInfos
@@ -4808,7 +4808,7 @@ MOZ_ALWAYS_TRUE
 mActor
 -
 >
-SendCheckpoint
+SendAsyncCheckpoint
 (
 writeInfos
 )
