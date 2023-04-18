@@ -2038,6 +2038,9 @@ return
 A
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 Array
@@ -3102,6 +3105,8 @@ return
 map
 ;
 }
+#
+endif
 /
 *
 ES5
