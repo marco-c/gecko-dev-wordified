@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+UniquePtrExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 SharedMemory
@@ -227,7 +236,6 @@ enum
 kGetPortsMsg
 =
 1
-kSharePortsMsg
 kWaitForTexturesMsg
 kUpdateTextureLocksMsg
 kReturnIdMsg
@@ -283,7 +291,10 @@ final
 public
 SharedMemoryCommon
 <
-mach_port_t
+mozilla
+:
+:
+UniqueMachSendRight
 >
 {
 public
@@ -495,7 +506,10 @@ SharedMemoryBasic
 (
 )
 ;
-mach_port_t
+mozilla
+:
+:
+UniqueMachSendRight
 mPort
 ;
 /
