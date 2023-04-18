@@ -326,7 +326,7 @@ const
 kContentDoc
 =
 "
-http
+https
 :
 /
 /
