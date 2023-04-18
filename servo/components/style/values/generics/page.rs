@@ -664,7 +664,7 @@ u8
 ]
 pub
 enum
-Orientation
+PageOrientation
 {
 /
 /
@@ -689,7 +689,7 @@ is_portrait
 orientation
 :
 &
-Orientation
+PageOrientation
 )
 -
 >
@@ -699,7 +699,7 @@ bool
 orientation
 =
 =
-Orientation
+PageOrientation
 :
 :
 Portrait
@@ -795,7 +795,7 @@ size
 .
 Orientation
 (
-Orientation
+PageOrientation
 )
 /
 /
@@ -818,7 +818,7 @@ is_portrait
 "
 )
 ]
-Orientation
+PageOrientation
 )
 }
 pub

@@ -1561,16 +1561,6 @@ ScrollDirection
 Auto
 }
 }
-/
-/
-Avoid
-name
-collision
-in
-cbindgen
-with
-StyleOrientation
-.
 pub
 use
 self

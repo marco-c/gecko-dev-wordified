@@ -137,7 +137,10 @@ crate
 queries
 :
 :
+{
 QueryCondition
+FeatureType
+}
 ;
 use
 crate
@@ -308,6 +311,10 @@ parse
 (
 context
 input
+FeatureType
+:
+:
+Media
 )
 ?
 ;

@@ -4582,7 +4582,7 @@ AsOrientation
 )
 =
 =
-StyleOrientation
+StylePageOrientation
 :
 :
 Portrait
@@ -4625,7 +4625,7 @@ AsOrientation
 )
 =
 =
-StyleOrientation
+StylePageOrientation
 :
 :
 Landscape

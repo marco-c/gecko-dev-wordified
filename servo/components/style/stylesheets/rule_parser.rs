@@ -129,6 +129,15 @@ use
 crate
 :
 :
+queries
+:
+:
+FeatureType
+;
+use
+crate
+:
+:
 selector_parser
 :
 :
@@ -3337,6 +3346,10 @@ self
 .
 context
 input
+FeatureType
+:
+:
+Container
 )
 ?
 ;

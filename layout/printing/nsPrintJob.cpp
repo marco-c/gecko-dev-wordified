@@ -12557,7 +12557,7 @@ if
 const
 Maybe
 <
-StyleOrientation
+StylePageOrientation
 >
 maybeOrientation
 =
@@ -12591,7 +12591,7 @@ value
 )
 =
 =
-StyleOrientation
+StylePageOrientation
 :
 :
 Landscape
@@ -12642,7 +12642,7 @@ value
 )
 =
 =
-StyleOrientation
+StylePageOrientation
 :
 :
 Portrait
@@ -19577,7 +19577,7 @@ map
 [
 ]
 (
-StyleOrientation
+StylePageOrientation
 o
 )
 -
@@ -19588,7 +19588,7 @@ return
 o
 =
 =
-StyleOrientation
+StylePageOrientation
 :
 :
 Landscape
