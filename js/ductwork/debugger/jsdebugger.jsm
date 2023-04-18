@@ -110,12 +110,16 @@ like
 so
 :
 *
-Components
-.
-utils
+const
+{
+addDebuggerToGlobal
+}
+=
+ChromeUtils
 .
 import
 (
+*
 "
 resource
 :
@@ -129,6 +133,7 @@ jsdebugger
 .
 jsm
 "
+*
 )
 ;
 *
