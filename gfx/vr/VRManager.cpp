@@ -3749,6 +3749,15 @@ StaticPrefs
 dom_vr_enabled
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+dom_vr_webxr_enabled
+(
+)
 )
 {
 return
