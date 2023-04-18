@@ -59,15 +59,6 @@ MPL
 *
 /
 import
-{
-escapeRegExp
-}
-from
-"
-lodash
-"
-;
-import
 buildQuery
 from
 "
@@ -1366,8 +1357,6 @@ source
 .
 toBe
 (
-escapeRegExp
-(
 "
 (
 ?
@@ -1380,7 +1369,6 @@ s
 *
 )
 "
-)
 )
 ;
 expect
@@ -1475,8 +1463,6 @@ source
 .
 toBe
 (
-escapeRegExp
-(
 "
 (
 ?
@@ -1489,7 +1475,6 @@ s
 *
 )
 "
-)
 )
 ;
 expect
