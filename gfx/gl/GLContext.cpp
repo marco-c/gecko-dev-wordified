@@ -9128,7 +9128,7 @@ extSymbols
 GLFeature
 :
 :
-texture_storage
+transform_feedback2
 )
 )
 {
