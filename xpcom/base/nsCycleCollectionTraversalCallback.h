@@ -257,12 +257,10 @@ void
 )
 NoteJSChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 aThing
 )
 =
