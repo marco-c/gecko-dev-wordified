@@ -1755,13 +1755,7 @@ aInputProcessing
 )
 mAudioProcessingConfig
 (
-std
-:
-:
-move
-(
 aAudioProcessingConfig
-)
 )
 mPassThrough
 (
