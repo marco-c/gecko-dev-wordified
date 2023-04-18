@@ -16,6 +16,11 @@ helperThreadCount
 =
 =
 0
+|
+|
+isLcovEnabled
+(
+)
 /
 /
 Extra
