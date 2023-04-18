@@ -20063,6 +20063,13 @@ IsWin10OrLater
 return
 ;
 }
+LookAndFeel
+:
+:
+EnsureColorSchemesInitialized
+(
+)
+;
 BOOL
 dark
 =
@@ -20074,9 +20081,6 @@ ColorSchemeForChrome
 )
 =
 =
-LookAndFeel
-:
-:
 ColorScheme
 :
 :
