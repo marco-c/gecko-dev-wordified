@@ -763,11 +763,10 @@ notifications
 )
 ;
 }
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

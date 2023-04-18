@@ -88,10 +88,9 @@ INDEX_QUARANTINE_ERROR
 =
 3
 ;
-add_task
+add_setup
 (
 function
-setup
 (
 )
 {

@@ -159,11 +159,10 @@ NOTIFICATION_TIMEOUT_SECS
 =
 2000
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

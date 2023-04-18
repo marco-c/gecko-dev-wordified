@@ -191,11 +191,10 @@ var
 someOtherTab
 testTab
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

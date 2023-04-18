@@ -58,11 +58,10 @@ closed
 var
 library
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

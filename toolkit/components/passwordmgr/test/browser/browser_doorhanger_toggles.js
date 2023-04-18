@@ -63,11 +63,10 @@ form_basic
 html
 "
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

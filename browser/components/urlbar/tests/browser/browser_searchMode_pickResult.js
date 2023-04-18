@@ -68,11 +68,10 @@ browser_searchMode_pickResult
 js
 "
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

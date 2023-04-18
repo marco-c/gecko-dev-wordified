@@ -101,11 +101,10 @@ searchSuggestionEngine2
 xml
 }
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

@@ -38,11 +38,10 @@ Test
 for
 Bug
 1247243
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

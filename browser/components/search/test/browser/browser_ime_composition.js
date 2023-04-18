@@ -37,11 +37,10 @@ handling
 on
 searchbar
 .
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

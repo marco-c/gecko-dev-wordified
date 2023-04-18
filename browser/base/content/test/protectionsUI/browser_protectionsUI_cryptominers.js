@@ -78,11 +78,10 @@ enabled
 let
 cmHistogram
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

@@ -249,11 +249,10 @@ return
 messageBar
 ;
 }
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

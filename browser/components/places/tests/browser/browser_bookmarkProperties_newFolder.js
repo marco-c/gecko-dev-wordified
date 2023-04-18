@@ -58,11 +58,10 @@ editBookmarkPanel
 let
 folders
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

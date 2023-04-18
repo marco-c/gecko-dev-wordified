@@ -68,11 +68,10 @@ content
 TEST_URI
 )
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {
