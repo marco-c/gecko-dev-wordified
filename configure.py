@@ -308,10 +308,6 @@ argv
 )
 :
     
-_activate_build_virtualenv
-(
-)
-    
 config
 =
 {
@@ -360,6 +356,17 @@ os
 .
 environ
 argv
+)
+    
+if
+not
+sandbox
+.
+_help
+:
+        
+_activate_build_virtualenv
+(
 )
     
 clobber_file
