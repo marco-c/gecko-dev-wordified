@@ -14827,6 +14827,18 @@ FAILURE
 15
 )
     
+errors
+[
+"
+NS_ERROR_DOM_MEDIA_REMOTE_DECODER_CRASHED_ERR
+"
+]
+=
+FAILURE
+(
+16
+)
+    
 #
 Internal
 platform
