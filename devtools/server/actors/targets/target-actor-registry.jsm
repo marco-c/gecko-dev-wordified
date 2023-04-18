@@ -712,6 +712,7 @@ element
 "
 &
 &
+(
 actor
 .
 browserId
@@ -720,6 +721,17 @@ browserId
 sessionContext
 .
 browserId
+|
+|
+actor
+.
+openerBrowserId
+=
+=
+sessionContext
+.
+browserId
+)
 )
 |
 |
