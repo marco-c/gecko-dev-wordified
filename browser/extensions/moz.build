@@ -118,6 +118,11 @@ proxy
 -
 failover
 "
+"
+search
+-
+detection
+"
 ]
 if
 CONFIG
