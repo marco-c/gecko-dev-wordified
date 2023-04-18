@@ -3351,7 +3351,7 @@ extract
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -4862,7 +4862,7 @@ ref
 )
 const
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5246,7 +5246,7 @@ value
 const
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5278,7 +5278,7 @@ value
 &
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5317,7 +5317,7 @@ const
 &
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5353,7 +5353,7 @@ ptr
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5387,7 +5387,7 @@ ptr
 )
 const
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5421,7 +5421,7 @@ operator
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5456,7 +5456,7 @@ operator
 )
 const
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5488,7 +5488,7 @@ ref
 )
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5522,7 +5522,7 @@ ref
 const
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5556,7 +5556,7 @@ ref
 &
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5598,7 +5598,7 @@ const
 &
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5637,7 +5637,7 @@ operator
 )
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5672,7 +5672,7 @@ operator
 const
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5707,7 +5707,7 @@ operator
 &
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5750,7 +5750,7 @@ const
 &
 &
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 isSome
 (
@@ -5801,7 +5801,7 @@ Args
 aArgs
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 isSome
