@@ -41,7 +41,7 @@ helper
 sourceURI
 PrintHelper
 .
-defaultTestPageUrl
+defaultTestPageUrlHTTPS
 "
 The
 URL
@@ -68,7 +68,7 @@ testModalPrintDialog
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper
@@ -169,7 +169,7 @@ testPrintMultiple
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper
@@ -324,7 +324,7 @@ testCancelButton
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper
@@ -425,7 +425,7 @@ testTabOrder
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper
@@ -1004,7 +1004,7 @@ filename
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper
@@ -1379,7 +1379,7 @@ openNewBrowserWindow
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper
@@ -1480,7 +1480,7 @@ testPrintProgressIndicator
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper
@@ -1641,7 +1641,7 @@ true
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper
@@ -1749,7 +1749,7 @@ true
 await
 PrintHelper
 .
-withTestPage
+withTestPageHTTPS
 (
 async
 helper

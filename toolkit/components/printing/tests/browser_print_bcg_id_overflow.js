@@ -80,7 +80,7 @@ OPENED_URI
 =
 PrintHelper
 .
-defaultTestPageUrl
+defaultTestPageUrlHTTPS
 ;
 /
 /

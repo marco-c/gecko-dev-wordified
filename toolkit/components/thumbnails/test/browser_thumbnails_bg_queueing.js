@@ -41,7 +41,7 @@ urls
 =
 [
 "
-http
+https
 :
 /
 /
@@ -54,7 +54,7 @@ com
 0
 "
 "
-http
+https
 :
 /
 /
@@ -90,7 +90,7 @@ wait
 }
 )
 "
-http
+https
 :
 /
 /
