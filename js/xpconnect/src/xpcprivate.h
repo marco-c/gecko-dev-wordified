@@ -16122,6 +16122,11 @@ fetch
 1
 ;
 bool
+structuredClone
+:
+1
+;
+bool
 indexedDB
 :
 1
