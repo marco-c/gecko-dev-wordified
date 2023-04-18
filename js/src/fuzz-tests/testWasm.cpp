@@ -1648,7 +1648,7 @@ compileArgs
 CompileArgs
 :
 :
-build
+buildAndReport
 (
 gCx
 std
