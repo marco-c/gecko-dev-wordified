@@ -633,14 +633,28 @@ Any
 }
     
 for
+(
+category_name
 category_val
+)
 in
 objects
 .
-values
+items
 (
 )
 :
+        
+if
+category_name
+=
+=
+"
+tags
+"
+:
+            
+continue
         
 for
 metric

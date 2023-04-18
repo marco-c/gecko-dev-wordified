@@ -116,6 +116,7 @@ from
 metrics_index
 import
 metrics_yamls
+tags_yamls
 #
 Shenanigans
 to
@@ -286,7 +287,7 @@ get_parser_options
 app_version
 )
     
-metrics_paths
+paths
 =
 [
 Path
@@ -298,6 +299,17 @@ x
 in
 metrics_yamls
 ]
++
+[
+Path
+(
+x
+)
+for
+x
+in
+tags_yamls
+]
     
 all_objs
 =
@@ -305,7 +317,7 @@ parser
 .
 parse_objects
 (
-metrics_paths
+paths
 options
 )
     
