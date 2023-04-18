@@ -705,10 +705,6 @@ mResizable
 (
 false
 )
-mIsPrivate
-(
-false
-)
 {
 }
 nsWindowType
@@ -913,9 +909,6 @@ resizable
 .
 bool
 mResizable
-;
-bool
-mIsPrivate
 ;
 }
 ;
