@@ -2557,6 +2557,14 @@ StaticPrefs
 network_dns_force_waiting_https_rr
 (
 )
+|
+|
+StaticPrefs
+:
+:
+network_dns_echconfig_enabled
+(
+)
 )
 {
 mCaps
