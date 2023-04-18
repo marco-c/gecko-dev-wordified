@@ -3048,6 +3048,13 @@ function
 return
 content
 .
+browsingContext
+.
+overrideDPPX
+|
+|
+content
+.
 devicePixelRatio
 ;
 }

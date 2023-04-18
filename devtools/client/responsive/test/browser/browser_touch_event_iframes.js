@@ -1111,9 +1111,9 @@ windowUtils
 const
 scale
 =
-utils
+win
 .
-screenPixelsPerCSSPixelNoOverride
+devicePixelRatio
 ;
 return
 new
