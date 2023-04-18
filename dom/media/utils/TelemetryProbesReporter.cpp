@@ -663,7 +663,7 @@ time
 "
 )
 ;
-PauseInvisibleVideoTimeAcculator
+PauseInvisibleVideoTimeAccumulator
 (
 )
 ;
@@ -809,7 +809,7 @@ Visibility
 eInvisible
 )
 {
-StartInvisibleVideoTimeAcculator
+StartInvisibleVideoTimeAccumulator
 (
 )
 ;
@@ -827,7 +827,7 @@ Visibility
 eInitial
 )
 {
-PauseInvisibleVideoTimeAcculator
+PauseInvisibleVideoTimeAccumulator
 (
 )
 ;
@@ -912,7 +912,7 @@ AudibleState
 eAudible
 )
 ;
-StartInaudibleAudioTimeAcculator
+StartInaudibleAudioTimeAccumulator
 (
 )
 ;
@@ -961,7 +961,7 @@ IsStarted
 )
 )
 {
-PauseInaudibleAudioTimeAcculator
+PauseInaudibleAudioTimeAccumulator
 (
 )
 ;
@@ -1039,7 +1039,7 @@ IsStarted
 )
 )
 {
-PauseInvisibleVideoTimeAcculator
+PauseInvisibleVideoTimeAccumulator
 (
 )
 ;
@@ -1406,7 +1406,7 @@ void
 TelemetryProbesReporter
 :
 :
-StartInvisibleVideoTimeAcculator
+StartInvisibleVideoTimeAccumulator
 (
 )
 {
@@ -1475,7 +1475,7 @@ void
 TelemetryProbesReporter
 :
 :
-PauseInvisibleVideoTimeAcculator
+PauseInvisibleVideoTimeAccumulator
 (
 )
 {
@@ -1535,7 +1535,7 @@ void
 TelemetryProbesReporter
 :
 :
-StartInaudibleAudioTimeAcculator
+StartInaudibleAudioTimeAccumulator
 (
 )
 {
@@ -1576,7 +1576,7 @@ void
 TelemetryProbesReporter
 :
 :
-PauseInaudibleAudioTimeAcculator
+PauseInaudibleAudioTimeAccumulator
 (
 )
 {
