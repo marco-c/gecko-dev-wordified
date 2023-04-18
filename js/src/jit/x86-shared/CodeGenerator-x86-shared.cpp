@@ -22184,14 +22184,6 @@ shift
 0
 )
 {
-if
-(
-src
-!
-=
-dest
-)
-{
 masm
 .
 moveSimd128
@@ -22200,7 +22192,6 @@ src
 dest
 )
 ;
-}
 return
 ;
 }
