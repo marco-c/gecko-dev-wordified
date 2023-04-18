@@ -3046,6 +3046,9 @@ n
 "
 )
 ;
+throw
+e
+;
 }
 }
 function
