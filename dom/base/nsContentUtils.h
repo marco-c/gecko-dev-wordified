@@ -637,9 +637,6 @@ class
 nsIXPConnect
 ;
 class
-nsNameSpaceManager
-;
-class
 nsNodeInfoManager
 ;
 class
@@ -22369,11 +22366,6 @@ static
 nsIPrincipal
 *
 sNullSubjectPrincipal
-;
-static
-nsNameSpaceManager
-*
-sNameSpaceManager
 ;
 static
 nsIIOService
