@@ -4005,7 +4005,7 @@ Finished
 )
 )
 {
-ExecuteFinishedScripts
+DispatchProcessPendingRequests
 (
 )
 ;
@@ -5320,7 +5320,7 @@ aCancelResult
 ;
 }
 }
-ExecuteFinishedScripts
+DispatchProcessPendingRequests
 (
 )
 ;
@@ -8862,7 +8862,7 @@ IsEvalAllowed
 }
 }
 void
-ExecuteFinishedScripts
+DispatchProcessPendingRequests
 (
 )
 {
