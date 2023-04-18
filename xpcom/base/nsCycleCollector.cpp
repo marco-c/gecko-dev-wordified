@@ -13140,12 +13140,6 @@ mNoteChildCount
 )
 ;
 }
-aBudget
-.
-resetOverBudget
-(
-)
-;
 if
 (
 !
@@ -15169,7 +15163,7 @@ if
 mBudget
 -
 >
-checkAndResetOverBudget
+isOverBudget
 (
 )
 )
@@ -15807,7 +15801,7 @@ if
 (
 mBudget
 .
-checkAndResetOverBudget
+isOverBudget
 (
 )
 )
@@ -22236,12 +22230,6 @@ while
 continueSlice
 )
 ;
-aBudget
-.
-resetOverBudget
-(
-)
-;
 /
 /
 Clear
@@ -22324,6 +22312,12 @@ MOZ_ASSERT
 IsIdle
 (
 )
+)
+;
+aBudget
+.
+resetOverBudget
+(
 )
 ;
 if
