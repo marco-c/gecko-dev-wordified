@@ -11935,7 +11935,7 @@ Show
 the
 best
 match
-toggle
+checkbox
 as
 appropriate
 .
@@ -11944,7 +11944,7 @@ document
 getElementById
 (
 "
-firefoxSuggestBestMatchOptionBox
+firefoxSuggestBestMatch
 "
 )
 .
