@@ -116,15 +116,6 @@ define
 vm_SharedMem_h
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 type_traits
 >
