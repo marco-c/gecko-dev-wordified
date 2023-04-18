@@ -336,10 +336,10 @@ tests
 .
 #
 ifndef
-GOOGLETEST_SAMPLES_PRIME_TABLES_H_
+GTEST_SAMPLES_PRIME_TABLES_H_
 #
 define
-GOOGLETEST_SAMPLES_PRIME_TABLES_H_
+GTEST_SAMPLES_PRIME_TABLES_H_
 #
 include
 <
@@ -533,16 +533,6 @@ p
 const
 override
 {
-if
-(
-p
-<
-0
-)
-return
--
-1
-;
 for
 (
 int
@@ -552,6 +542,9 @@ p
 +
 1
 ;
+n
+>
+0
 ;
 n
 +
@@ -569,6 +562,10 @@ return
 n
 ;
 }
+return
+-
+1
+;
 }
 }
 ;
@@ -925,4 +922,4 @@ rhs
 endif
 /
 /
-GOOGLETEST_SAMPLES_PRIME_TABLES_H_
+GTEST_SAMPLES_PRIME_TABLES_H_
