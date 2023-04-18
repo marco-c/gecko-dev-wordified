@@ -515,7 +515,7 @@ UpdateTransport
 (
 )
 ;
-nsresult
+void
 UpdateConduit
 (
 )
@@ -671,12 +671,12 @@ RTCRtpReceiver
 (
 )
 ;
-nsresult
+void
 UpdateVideoConduit
 (
 )
 ;
-nsresult
+void
 UpdateAudioConduit
 (
 )

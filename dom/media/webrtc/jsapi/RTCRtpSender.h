@@ -574,7 +574,7 @@ UpdateTransport
 (
 )
 ;
-nsresult
+void
 UpdateConduit
 (
 )
@@ -714,12 +714,12 @@ RTCRtpSender
 (
 )
 ;
-nsresult
+void
 UpdateVideoConduit
 (
 )
 ;
-nsresult
+void
 UpdateAudioConduit
 (
 )
@@ -742,7 +742,7 @@ RTCRtpParameters
 aParameters
 )
 ;
-nsresult
+void
 ConfigureVideoCodecMode
 (
 )
