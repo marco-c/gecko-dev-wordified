@@ -191,6 +191,8 @@ setattr
 (
         
 test_transforms
+.
+variant
         
 "
 TEST_VARIANTS
@@ -491,6 +493,8 @@ partial
 (
 run_transform
 test_transforms
+.
+variant
 .
 split_variants
 )
