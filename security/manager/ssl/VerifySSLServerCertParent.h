@@ -238,10 +238,6 @@ VerifySSLServerCertParent
 bool
 Dispatch
 (
-const
-ByteArray
-&
-aServerCert
 nsTArray
 <
 ByteArray

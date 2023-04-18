@@ -208,10 +208,6 @@ override
 explicit
 VerifySSLServerCertChild
 (
-const
-UniqueCERTCertificate
-&
-aCert
 SSLServerCertVerificationResult
 *
 aResultTask
@@ -281,9 +277,6 @@ VerifySSLServerCertChild
 =
 default
 ;
-UniqueCERTCertificate
-mCert
-;
 RefPtr
 <
 SSLServerCertVerificationResult
@@ -307,10 +300,6 @@ mProviderFlags
 SECStatus
 RemoteProcessCertVerification
 (
-const
-UniqueCERTCertificate
-&
-aCert
 nsTArray
 <
 nsTArray

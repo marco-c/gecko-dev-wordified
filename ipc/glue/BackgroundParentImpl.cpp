@@ -4593,10 +4593,6 @@ BackgroundParentImpl
 AllocPVerifySSLServerCertParent
 (
 const
-ByteArray
-&
-aServerCert
-const
 nsTArray
 <
 ByteArray
@@ -4692,10 +4688,6 @@ RecvPVerifySSLServerCertConstructor
 PVerifySSLServerCertParent
 *
 aActor
-const
-ByteArray
-&
-aServerCert
 nsTArray
 <
 ByteArray
@@ -4779,7 +4771,6 @@ authCert
 >
 Dispatch
 (
-aServerCert
 std
 :
 :
