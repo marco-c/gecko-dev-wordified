@@ -702,6 +702,13 @@ WebRenderRequiresHardwareDriver
 bool
 false
 )
+\
+_
+(
+SupportsThreadsafeGL
+bool
+false
+)
 /
 *
 Add
