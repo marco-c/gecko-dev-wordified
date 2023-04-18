@@ -6152,6 +6152,11 @@ RTCPeerConnectionStatic
 webidl
 "
 "
+RTCRtpParameters
+.
+webidl
+"
+"
 RTCRtpReceiver
 .
 webidl

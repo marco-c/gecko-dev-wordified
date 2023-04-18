@@ -239,6 +239,11 @@ RTCRtpReceiver
 cpp
 "
 "
+RTCRtpSender
+.
+cpp
+"
+"
 RTCStatsIdGenerator
 .
 cpp

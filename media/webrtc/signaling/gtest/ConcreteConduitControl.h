@@ -205,7 +205,7 @@ string
 )
 INIT_CANONICAL
 (
-mLocalMid
+mMid
 std
 :
 :
@@ -354,7 +354,7 @@ std
 :
 string
 >
-mLocalMid
+mMid
 ;
 Canonical
 <
@@ -647,14 +647,14 @@ std
 string
 >
 *
-CanonicalLocalMid
+CanonicalMid
 (
 )
 override
 {
 return
 &
-mLocalMid
+mMid
 ;
 }
 AbstractCanonical
