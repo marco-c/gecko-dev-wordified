@@ -70147,10 +70147,14 @@ ret
 false
 ;
 }
-}
 if
 (
-mLockCount
+win
+-
+>
+HasActiveLocks
+(
+)
 )
 {
 MOZ_LOG
@@ -70197,6 +70201,7 @@ ret
 =
 false
 ;
+}
 }
 return
 ret
