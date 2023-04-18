@@ -400,6 +400,9 @@ addVisits
 ;
 }
 let
+referrer
+;
+let
 info
 =
 {
@@ -477,8 +480,6 @@ string
 "
 )
 {
-place
-.
 referrer
 =
 Services
@@ -499,8 +500,10 @@ if
 place
 .
 referrer
-&
-&
+)
+{
+referrer
+=
 URL
 .
 isInstance
@@ -509,12 +512,7 @@ place
 .
 referrer
 )
-)
-{
-place
-.
-referrer
-=
+?
 Services
 .
 io
@@ -527,6 +525,10 @@ referrer
 .
 href
 )
+:
+place
+.
+referrer
 ;
 }
 let
@@ -686,10 +688,6 @@ transition
 date
 :
 visitDate
-referrer
-:
-place
-.
 referrer
 }
 ]
