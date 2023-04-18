@@ -615,13 +615,12 @@ static
 bool
 ValidateScriptFilename
 (
-JSContext
-*
-cx
 const
 char
 *
 aFilename
+bool
+aIsSystemRealm
 )
 ;
 /
