@@ -16862,14 +16862,14 @@ context
 .
 if
 (
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 !
 =
 aNewData
 .
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 )

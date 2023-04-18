@@ -3026,7 +3026,7 @@ mJustificationAssignment
 PerFrameData
 flags
 bool
-mRelativePos
+mIsRelativelyOrStickyPos
 :
 1
 ;

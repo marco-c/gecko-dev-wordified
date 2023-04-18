@@ -2499,7 +2499,7 @@ if
 cellFrame
 -
 >
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 )
 )
@@ -6232,7 +6232,7 @@ if
 kidFrame
 -
 >
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 )
 )

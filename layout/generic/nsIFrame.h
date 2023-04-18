@@ -32998,7 +32998,7 @@ const
 ;
 inline
 bool
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 )
 const

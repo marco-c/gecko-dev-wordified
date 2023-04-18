@@ -9250,7 +9250,7 @@ if
 disp
 -
 >
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 &
@@ -9258,7 +9258,7 @@ IsRelativelyPositionedStyle
 oldDisp
 -
 >
-IsRelativelyPositionedStyle
+IsRelativelyOrStickyPositionedStyle
 (
 )
 )
@@ -54731,7 +54731,7 @@ nullptr
 ;
 if
 (
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 )
 )

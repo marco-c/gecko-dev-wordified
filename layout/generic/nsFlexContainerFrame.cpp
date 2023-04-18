@@ -39450,7 +39450,7 @@ MOZ_UNLIKELY
 f
 -
 >
-IsRelativelyPositioned
+IsRelativelyOrStickyPositioned
 (
 )
 )
