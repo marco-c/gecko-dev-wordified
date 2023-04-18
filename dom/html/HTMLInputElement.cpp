@@ -5304,9 +5304,6 @@ nsIObserverService
 >
 observerService
 =
-mozilla
-:
-:
 services
 :
 :
@@ -5878,9 +5875,6 @@ HTMLInputElement
 (
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -17572,9 +17566,6 @@ the
 event
 RefPtr
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -25343,12 +25334,6 @@ while
 dispatching
 RefPtr
 <
-mozilla
-:
-:
-dom
-:
-:
 HTMLFormElement
 >
 form
@@ -33583,12 +33568,7 @@ filesAndDirs
 Length
 (
 )
-mozilla
-:
-:
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -41376,9 +41356,6 @@ nsIStringBundleService
 >
 stringService
 =
-mozilla
-:
-:
 components
 :
 :

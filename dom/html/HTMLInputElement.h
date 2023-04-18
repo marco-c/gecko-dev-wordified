@@ -1791,9 +1791,6 @@ HasTypeMismatch
 )
 const
 ;
-mozilla
-:
-:
 Maybe
 <
 bool
@@ -6617,9 +6614,6 @@ GetEditorState
 const
 ;
 MOZ_CAN_RUN_SCRIPT
-mozilla
-:
-:
 TextEditor
 *
 GetTextEditorFromState
@@ -9293,9 +9287,6 @@ INPUT_TYPE_SIZE
 =
 sizeof
 (
-mozilla
-:
-:
 Variant
 <
 TextInputType
