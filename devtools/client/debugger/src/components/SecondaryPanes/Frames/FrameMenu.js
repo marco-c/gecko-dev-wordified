@@ -100,15 +100,6 @@ utils
 clipboard
 "
 ;
-import
-{
-kebabCase
-}
-from
-"
-lodash
-"
-;
 const
 blackboxString
 =
@@ -169,10 +160,7 @@ node
 menu
 -
 {
-kebabCase
-(
-label
-)
+labelString
 }
 ;
 return

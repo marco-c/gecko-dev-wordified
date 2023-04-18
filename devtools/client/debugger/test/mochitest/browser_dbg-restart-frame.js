@@ -205,9 +205,7 @@ node
 -
 menu
 -
-restart
--
-frame
+restartFrame
 "
 )
 ;
