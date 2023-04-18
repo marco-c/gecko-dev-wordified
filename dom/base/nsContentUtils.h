@@ -2703,7 +2703,7 @@ aAncestorOffsets
 which
 is
 the
-IndexOf
+ComputeIndexOf
 the
 child
 in
@@ -2728,7 +2728,7 @@ GetInclusiveAncestorsAndOffsets
 nsINode
 *
 aNode
-int32_t
+uint32_t
 aOffset
 nsTArray
 <
@@ -2739,7 +2739,13 @@ nsIContent
 aAncestorNodes
 nsTArray
 <
-int32_t
+mozilla
+:
+:
+Maybe
+<
+uint32_t
+>
 >
 *
 aAncestorOffsets

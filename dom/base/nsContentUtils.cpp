@@ -15498,7 +15498,7 @@ GetInclusiveAncestorsAndOffsets
 nsINode
 *
 aNode
-int32_t
+uint32_t
 aOffset
 nsTArray
 <
@@ -15509,7 +15509,10 @@ nsIContent
 aAncestorNodes
 nsTArray
 <
-int32_t
+Maybe
+<
+uint32_t
+>
 >
 *
 aAncestorOffsets
@@ -15623,7 +15626,10 @@ aAncestorOffsets
 >
 AppendElement
 (
+Some
+(
 aOffset
+)
 )
 ;
 /
@@ -15670,7 +15676,7 @@ AppendElement
 parent
 -
 >
-ComputeIndexOf_Deprecated
+ComputeIndexOf
 (
 child
 )
