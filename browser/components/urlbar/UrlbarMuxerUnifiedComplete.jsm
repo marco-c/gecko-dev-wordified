@@ -3765,9 +3765,9 @@ it
 break
 us
 .
-Cu
+logger
 .
-reportError
+error
 (
 "
 fractionalDataArray
