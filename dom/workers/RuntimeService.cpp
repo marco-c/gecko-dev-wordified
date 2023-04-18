@@ -4919,6 +4919,11 @@ virtual
 void
 BeginCycleCollectionCallback
 (
+mozilla
+:
+:
+CCReason
+aReason
 )
 override
 {
@@ -5018,6 +5023,10 @@ collectedAnything
 =
 nsCycleCollector_collect
 (
+CCReason
+:
+:
+GC_FINISHED
 nullptr
 )
 ;
