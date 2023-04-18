@@ -9512,9 +9512,9 @@ NetworkInformation
 insecureContext
 :
 true
-disabled
+desktop
 :
-true
+false
 }
 /
 /
