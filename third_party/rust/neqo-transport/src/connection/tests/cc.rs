@@ -371,9 +371,9 @@ DEFAULT_RTT
 Create
 stream
 0
-let
-stream_id
-=
+assert_eq
+!
+(
 client
 .
 stream_create
@@ -387,11 +387,6 @@ BiDi
 unwrap
 (
 )
-;
-assert_eq
-!
-(
-stream_id
 0
 )
 ;
@@ -417,7 +412,7 @@ fill_cwnd
 &
 mut
 client
-stream_id
+0
 now
 )
 ;
@@ -501,7 +496,7 @@ ack_bytes
 &
 mut
 server
-stream_id
+0
 c_tx_dgrams
 now
 )
@@ -576,7 +571,7 @@ fill_cwnd
 &
 mut
 client
-stream_id
+0
 now
 )
 ;
@@ -645,7 +640,7 @@ ack_bytes
 &
 mut
 server
-stream_id
+0
 c_tx_dgrams
 now
 )
@@ -770,9 +765,9 @@ DEFAULT_RTT
 Create
 stream
 0
-let
-stream_id
-=
+assert_eq
+!
+(
 client
 .
 stream_create
@@ -786,11 +781,6 @@ BiDi
 unwrap
 (
 )
-;
-assert_eq
-!
-(
-stream_id
 0
 )
 ;
@@ -816,7 +806,7 @@ fill_cwnd
 &
 mut
 client
-stream_id
+0
 now
 )
 ;
@@ -875,7 +865,7 @@ ack_bytes
 &
 mut
 server
-stream_id
+0
 c_tx_dgrams
 now
 )
@@ -913,7 +903,7 @@ ack_bytes
 &
 mut
 server
-stream_id
+0
 c_tx_dgrams2
 now
 )
@@ -1090,9 +1080,9 @@ the
 congestion
 window
 .
-let
-stream_id
-=
+assert_eq
+!
+(
 client
 .
 stream_create
@@ -1106,11 +1096,6 @@ BiDi
 unwrap
 (
 )
-;
-assert_eq
-!
-(
-stream_id
 0
 )
 ;
@@ -1125,7 +1110,7 @@ fill_cwnd
 &
 mut
 client
-stream_id
+0
 now
 )
 ;
@@ -1354,9 +1339,9 @@ DEFAULT_RTT
 Create
 stream
 0
-let
-stream_id
-=
+assert_eq
+!
+(
 client
 .
 stream_create
@@ -1370,11 +1355,6 @@ BiDi
 unwrap
 (
 )
-;
-assert_eq
-!
-(
-stream_id
 0
 )
 ;
@@ -1401,7 +1381,7 @@ fill_cwnd
 &
 mut
 client
-stream_id
+0
 now
 )
 ;
@@ -1450,7 +1430,7 @@ ack_bytes
 &
 mut
 server
-stream_id
+0
 c_tx_dgrams
 now
 )
@@ -1569,7 +1549,7 @@ fill_cwnd
 &
 mut
 client
-stream_id
+0
 now
 )
 ;
@@ -1773,7 +1753,7 @@ ack_bytes
 &
 mut
 server
-stream_id
+0
 c_tx_dgrams
 .
 drain
@@ -1825,7 +1805,7 @@ fill_cwnd
 &
 mut
 client
-stream_id
+0
 now
 )
 ;
@@ -1850,7 +1830,7 @@ ack_bytes
 &
 mut
 server
-stream_id
+0
 c_tx_dgrams
 now
 )
@@ -1895,7 +1875,7 @@ fill_cwnd
 &
 mut
 client
-stream_id
+0
 now
 )
 ;
@@ -1987,6 +1967,11 @@ server
 DEFAULT_RTT
 )
 ;
+/
+/
+Create
+stream
+0
 let
 stream
 =
@@ -2026,7 +2011,7 @@ fill_cwnd
 &
 mut
 client
-stream
+0
 now
 )
 ;
@@ -2062,7 +2047,7 @@ ack_bytes
 &
 mut
 server
-stream
+0
 c_tx_dgrams
 now
 )
@@ -2183,7 +2168,7 @@ fill_cwnd
 &
 mut
 client
-stream
+0
 now
 )
 ;
@@ -2221,7 +2206,7 @@ ack_bytes
 &
 mut
 server
-stream
+0
 c_tx_dgrams
 now
 )
@@ -2264,7 +2249,7 @@ fill_cwnd
 &
 mut
 client
-stream
+0
 now
 )
 ;
@@ -2394,7 +2379,7 @@ fill_cwnd
 &
 mut
 client
-stream
+0
 now
 )
 ;
@@ -2434,7 +2419,7 @@ ack_bytes
 &
 mut
 server
-stream
+0
 c_tx_dgrams
 now
 )
@@ -2498,7 +2483,7 @@ fill_cwnd
 &
 mut
 client
-stream
+0
 now
 )
 ;
@@ -2541,7 +2526,7 @@ ack_bytes
 &
 mut
 server
-stream
+0
 c_tx_dgrams
 now
 )
@@ -2601,7 +2586,7 @@ fill_cwnd
 &
 mut
 client
-stream
+0
 now
 )
 ;
@@ -2661,9 +2646,9 @@ DEFAULT_RTT
 Create
 a
 stream
-let
-stream
-=
+assert_eq
+!
+(
 client
 .
 stream_create
@@ -2677,11 +2662,6 @@ BiDi
 unwrap
 (
 )
-;
-assert_eq
-!
-(
-stream
 0
 )
 ;
@@ -2713,7 +2693,7 @@ fill_cwnd
 &
 mut
 client
-stream
+0
 now
 )
 ;
@@ -2770,9 +2750,9 @@ eliciting
 "
 )
 ;
-let
-other_stream
-=
+assert_eq
+!
+(
 server
 .
 stream_create
@@ -2786,11 +2766,6 @@ BiDi
 unwrap
 (
 )
-;
-assert_eq
-!
-(
-other_stream
 1
 )
 ;
@@ -2798,7 +2773,7 @@ server
 .
 stream_send
 (
-other_stream
+1
 b
 "
 dropped
@@ -2868,7 +2843,7 @@ server
 .
 stream_send
 (
-other_stream
+1
 b
 "
 sent

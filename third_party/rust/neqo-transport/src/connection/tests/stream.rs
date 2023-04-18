@@ -173,6 +173,7 @@ crate
 :
 {
 Error
+StreamId
 StreamType
 }
 ;
@@ -1058,6 +1059,10 @@ server
 stream_recv
 (
 first_stream
+.
+as_u64
+(
+)
 &
 mut
 buf
@@ -1092,6 +1097,10 @@ server
 stream_recv
 (
 first_stream
+.
+as_u64
+(
+)
 &
 mut
 buf
@@ -1126,6 +1135,10 @@ server
 stream_recv
 (
 second_stream
+.
+as_u64
+(
+)
 &
 mut
 buf
@@ -1943,6 +1956,10 @@ streams
 get_send_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 .
 unwrap
@@ -1978,6 +1995,10 @@ streams
 get_send_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 .
 unwrap
@@ -2113,6 +2134,10 @@ streams
 get_send_stream_mut
 (
 stream_id
+.
+into
+(
+)
 )
 .
 unwrap
@@ -4233,7 +4258,13 @@ streams
 .
 get_send_stream_mut
 (
+StreamId
+:
+:
+from
+(
 stream_id
+)
 )
 .
 unwrap

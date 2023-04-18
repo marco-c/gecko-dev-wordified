@@ -111,12 +111,6 @@ qlog
 :
 NeqoQlog
 ;
-use
-neqo_transport
-:
-:
-StreamId
-;
 pub
 fn
 h3_data_moved_up
@@ -128,7 +122,7 @@ mut
 NeqoQlog
 stream_id
 :
-StreamId
+u64
 amount
 :
 usize
@@ -200,7 +194,7 @@ mut
 NeqoQlog
 stream_id
 :
-StreamId
+u64
 amount
 :
 usize
