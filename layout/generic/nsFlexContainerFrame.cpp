@@ -10197,7 +10197,7 @@ return
 StyleAlignFlags
 :
 :
-START
+FLEX_START
 ;
 }
 if
