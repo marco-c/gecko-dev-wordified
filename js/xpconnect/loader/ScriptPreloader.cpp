@@ -5495,6 +5495,16 @@ isErr
 )
 )
 ;
+{
+MonitorAutoLock
+lock
+(
+mChildCache
+-
+>
+mSaveMonitor
+)
+;
 result
 =
 mChildCache
@@ -5504,6 +5514,7 @@ WriteCache
 (
 )
 ;
+}
 Unused
 <
 <
