@@ -389,6 +389,9 @@ TextEncoder
 URL
 "
 "
+Window
+"
+"
 XMLHttpRequest
 "
 ]
@@ -417,6 +420,7 @@ Node
 TextDecoder
 TextEncoder
 URL
+Window
 XMLHttpRequest
 }
 =
@@ -1447,6 +1451,7 @@ StructuredCloneHolder
 TextDecoder
 TextEncoder
 URL
+Window
 XMLHttpRequest
 }
 ;
