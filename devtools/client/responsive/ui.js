@@ -2377,6 +2377,9 @@ targetCommand
 .
 unwatchTargets
 (
+{
+types
+:
 [
 this
 .
@@ -2388,9 +2391,12 @@ TYPES
 .
 FRAME
 ]
+onAvailable
+:
 this
 .
 onTargetAvailable
+}
 )
 ;
 this
@@ -2640,6 +2646,9 @@ targetCommand
 .
 watchTargets
 (
+{
+types
+:
 [
 this
 .
@@ -2651,9 +2660,12 @@ TYPES
 .
 FRAME
 ]
+onAvailable
+:
 this
 .
 onTargetAvailable
+}
 )
 ;
 /

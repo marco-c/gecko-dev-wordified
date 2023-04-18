@@ -159,9 +159,14 @@ targetCommand
 .
 watchTargets
 (
+{
+types
+:
 targetCommand
 .
 ALL_TYPES
+onAvailable
+:
 async
 function
 (
@@ -177,6 +182,7 @@ push
 targetFront
 )
 ;
+}
 }
 )
 ;
