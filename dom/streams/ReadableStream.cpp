@@ -3642,7 +3642,7 @@ readablestreamdefaulttee
 /
 /
 Step
-18
+19
 .
 class
 ReadableStreamTeeClosePromiseHandler
@@ -3729,7 +3729,7 @@ override
 /
 /
 Step
-18
+19
 .
 1
 .
@@ -3777,7 +3777,7 @@ return
 /
 /
 Step
-18
+19
 .
 2
 ReadableStreamDefaultControllerError
@@ -3821,7 +3821,7 @@ return
 /
 /
 Step
-18
+19
 .
 3
 if
@@ -3957,7 +3957,7 @@ Implicit
 Steps
 3
 -
-11
+12
 are
 contained
 in
@@ -3999,7 +3999,7 @@ return
 /
 /
 Step
-12
+13
 :
 RefPtr
 <
@@ -4036,7 +4036,7 @@ pullAlgorithm
 /
 /
 Step
-13
+14
 .
 RefPtr
 <
@@ -4054,7 +4054,7 @@ true
 /
 /
 Step
-14
+15
 .
 RefPtr
 <
@@ -4072,7 +4072,7 @@ false
 /
 /
 Step
-15
+16
 .
 Consumers
 are
@@ -4101,7 +4101,7 @@ startAlgorithm
 /
 /
 Step
-16
+17
 .
 nsCOMPtr
 <
@@ -4163,7 +4163,7 @@ return
 /
 /
 Step
-17
+18
 .
 teeState
 -
@@ -4203,7 +4203,7 @@ return
 /
 /
 Step
-18
+19
 .
 teeState
 -
@@ -4230,7 +4230,7 @@ teeState
 /
 /
 Step
-19
+20
 .
 aResult
 .
