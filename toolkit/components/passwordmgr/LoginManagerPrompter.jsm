@@ -3620,11 +3620,6 @@ anchor
 "
 loginRemoved
 "
-{
-hideArrow
-:
-true
-}
 )
 ;
 }
