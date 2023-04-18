@@ -9839,6 +9839,7 @@ GetTransceiverForLevel
 size_t
 level
 )
+const
 {
 for
 (
@@ -9921,6 +9922,7 @@ string
 &
 mid
 )
+const
 {
 for
 (
@@ -10468,6 +10470,7 @@ string
 &
 transportId
 )
+const
 {
 for
 (
