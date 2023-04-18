@@ -3582,7 +3582,7 @@ JS
 GCOptions
 :
 :
-Normal
+Shrink
 JS
 :
 :
