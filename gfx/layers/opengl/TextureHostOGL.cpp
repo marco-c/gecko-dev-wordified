@@ -284,13 +284,6 @@ GfxTexturesReporter
 #
 include
 "
-GLBlitTextureImageHelper
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

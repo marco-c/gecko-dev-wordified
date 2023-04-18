@@ -347,9 +347,6 @@ class
 GLBlitHelper
 ;
 class
-GLBlitTextureImageHelper
-;
-class
 GLLibraryEGL
 ;
 class
@@ -17492,12 +17489,6 @@ public
 GLBlitHelper
 *
 BlitHelper
-(
-)
-;
-GLBlitTextureImageHelper
-*
-BlitTextureImageHelper
 (
 )
 ;

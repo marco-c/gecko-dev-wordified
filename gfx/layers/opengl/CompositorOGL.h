@@ -521,9 +521,6 @@ Effect
 struct
 EffectChain
 ;
-class
-GLBlitTextureImageHelper
-;
 /
 *
 *
@@ -1358,12 +1355,6 @@ SurfaceFormat
 R8G8B8A8
 ;
 }
-GLBlitTextureImageHelper
-*
-BlitTextureImageHelper
-(
-)
-;
 /
 *
 *
@@ -1612,12 +1603,6 @@ RefPtr
 SurfacePoolHandle
 >
 mSurfacePoolHandle
-;
-UniquePtr
-<
-GLBlitTextureImageHelper
->
-mBlitTextureImageHelper
 ;
 gfx
 :
