@@ -1,7 +1,7 @@
 /
 /
 Basic
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 tests
 .
 var
@@ -88,7 +88,7 @@ obj
 .
 value
 .
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 (
 )
 ;

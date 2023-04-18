@@ -1128,7 +1128,7 @@ this
 .
 obj
 .
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 (
 )
 ;

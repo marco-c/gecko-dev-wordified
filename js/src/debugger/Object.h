@@ -738,7 +738,7 @@ nodiscard
 ]
 static
 bool
-getOwnPropertiesLength
+getOwnPropertyNamesLength
 (
 JSContext
 *
