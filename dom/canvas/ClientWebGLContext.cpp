@@ -18726,11 +18726,6 @@ info
 }
 if
 (
-isBuffer
-)
-{
-if
-(
 offset
 %
 4
@@ -18793,7 +18788,6 @@ info
 )
 ;
 }
-}
 break
 ;
 case
@@ -18848,11 +18842,6 @@ info
 }
 if
 (
-isBuffer
-)
-{
-if
-(
 offset
 %
 limits
@@ -18903,7 +18892,6 @@ LOCAL_GL_INVALID_VALUE
 info
 )
 ;
-}
 }
 break
 ;
