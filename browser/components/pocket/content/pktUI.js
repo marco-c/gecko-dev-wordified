@@ -3000,6 +3000,7 @@ const
 {
 position
 source
+model
 }
 =
 data
@@ -3012,6 +3013,19 @@ pktTelemetry
 createPingPayload
 (
 {
+.
+.
+.
+(
+model
+?
+{
+model
+}
+:
+{
+}
+)
 events
 :
 [
