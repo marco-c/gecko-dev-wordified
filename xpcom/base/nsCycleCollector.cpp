@@ -11556,7 +11556,7 @@ kind
 JS
 :
 :
-GCThingIsMarkedGray
+GCThingIsMarkedGrayInCC
 (
 thing
 )
