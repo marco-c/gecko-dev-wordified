@@ -1732,6 +1732,9 @@ getAttribute
 next
 "
 )
+?
+?
+0
 ]
 [
 getVariantIndex
