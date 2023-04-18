@@ -204,6 +204,7 @@ internal
 use
 .
 class
+CAPABILITY
 BaseProfilerMutex
 :
 private
@@ -377,6 +378,10 @@ AssertCurrentThreadOwns
 (
 )
 const
+ASSERT_CAPABILITY
+(
+this
+)
 {
 MOZ_ASSERT
 (
@@ -388,6 +393,9 @@ IsLockedOnCurrentThread
 }
 void
 Lock
+(
+)
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -476,6 +484,10 @@ nodiscard
 bool
 TryLock
 (
+)
+TRY_ACQUIRE
+(
+true
 )
 {
 const
@@ -578,6 +590,9 @@ true
 }
 void
 Unlock
+(
+)
+CAPABILITY_RELEASE
 (
 )
 {
@@ -1076,6 +1091,7 @@ endif
 /
 DEBUG
 }
+PUSH_IGNORE_THREAD_SAFETY
 void
 Lock
 (
@@ -1118,6 +1134,7 @@ Unlock
 ;
 }
 }
+POP_THREAD_SAFETY
 private
 :
 Maybe
