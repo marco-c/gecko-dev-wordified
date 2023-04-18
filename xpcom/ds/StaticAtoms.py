@@ -9406,6 +9406,16 @@ onprocessorerror
 Atom
 (
 "
+onprioritychange
+"
+"
+onprioritychange
+"
+)
+    
+Atom
+(
+"
 onpush
 "
 "
