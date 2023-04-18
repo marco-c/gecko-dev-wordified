@@ -1309,6 +1309,9 @@ ClientInfo
 >
 mClientInfo
 ;
+uint64_t
+mSWDescriptorId
+;
 /
 /
 Only
