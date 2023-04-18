@@ -1140,9 +1140,6 @@ CrashSubmit
 submit
 (
 reportId
-CrashSubmit
-.
-SUBMITTED_FROM_ABOUT_CRASHES
 {
 noThrottle
 :
