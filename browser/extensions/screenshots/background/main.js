@@ -66,7 +66,6 @@ analytics
 communication
 catcher
 log
-auth
 senderror
 startBackground
 blobConverters

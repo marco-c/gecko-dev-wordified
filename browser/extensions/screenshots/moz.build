@@ -225,13 +225,6 @@ js
 "
 background
 /
-auth
-.
-js
-"
-"
-background
-/
 communication
 .
 js
@@ -302,13 +295,6 @@ build
 build
 /
 inlineSelectionCss
-.
-js
-"
-"
-build
-/
-raven
 .
 js
 "

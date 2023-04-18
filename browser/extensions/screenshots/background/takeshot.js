@@ -64,7 +64,6 @@ communication
 getZoomFactor
 shot
 main
-auth
 catcher
 analytics
 blobConverters
