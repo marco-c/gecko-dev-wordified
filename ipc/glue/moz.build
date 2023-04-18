@@ -186,6 +186,11 @@ CrossProcessSemaphore
 h
 "
 "
+DataPipe
+.
+h
+"
+"
 Endpoint
 .
 h
@@ -884,6 +889,11 @@ cpp
 "
 "
 CrashReporterHost
+.
+cpp
+"
+"
+DataPipe
 .
 cpp
 "
