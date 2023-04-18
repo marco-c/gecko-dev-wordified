@@ -350,7 +350,6 @@ fop
 runtime
 (
 )
-&
 sw
 .
 str

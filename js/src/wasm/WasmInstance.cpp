@@ -12208,7 +12208,6 @@ trc
 runtime
 (
 )
-&
 object_
 )
 )
