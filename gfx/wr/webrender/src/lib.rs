@@ -807,6 +807,9 @@ mod
 spatial_node
 ;
 mod
+surface
+;
+mod
 texture_pack
 ;
 mod

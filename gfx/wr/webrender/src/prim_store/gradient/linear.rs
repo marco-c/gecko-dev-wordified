@@ -3292,9 +3292,11 @@ Surface
 (
 parent_surface
 )
+&
+mut
 frame_state
 .
-surfaces
+surface_builder
 |
 rg_builder
 |
@@ -3474,9 +3476,11 @@ Surface
 (
 parent_surface
 )
+&
+mut
 frame_state
 .
-surfaces
+surface_builder
 |
 rg_builder
 |
