@@ -920,6 +920,7 @@ GetCaptureCapability
 aCapEngine
 uniqueId
 j
+&
 cap
 )
 !

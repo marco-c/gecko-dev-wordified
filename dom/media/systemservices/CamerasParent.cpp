@@ -5150,7 +5150,7 @@ unique_id
 )
 {
 int
-numdev
+captureId
 =
 -
 1
@@ -5190,12 +5190,13 @@ sEngines
 aCapEngine
 ]
 ;
+captureId
+=
 engine
 -
 >
 CreateVideoCapture
 (
-numdev
 unique_id
 .
 get
@@ -5208,7 +5209,7 @@ engine
 >
 WithEntry
 (
-numdev
+captureId
 [
 &
 error
@@ -5250,7 +5251,7 @@ NewRunnableFrom
 (
 [
 self
-numdev
+captureId
 error
 ]
 (
@@ -5318,7 +5319,7 @@ nr
 %
 d
 "
-numdev
+captureId
 )
 ;
 Unused
@@ -5329,7 +5330,7 @@ self
 >
 SendReplyAllocateCapture
 (
-numdev
+captureId
 )
 ;
 return
