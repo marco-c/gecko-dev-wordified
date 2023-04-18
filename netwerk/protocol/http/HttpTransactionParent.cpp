@@ -761,6 +761,13 @@ this
 )
 )
 ;
+mEventQ
+-
+>
+NotifyReleasingOwner
+(
+)
+;
 }
 /
 /

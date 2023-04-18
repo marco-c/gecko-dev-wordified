@@ -1274,6 +1274,13 @@ flags
 }
 #
 endif
+mEventQ
+-
+>
+NotifyReleasingOwner
+(
+)
+;
 ReleaseMainThreadOnlyReferences
 (
 )

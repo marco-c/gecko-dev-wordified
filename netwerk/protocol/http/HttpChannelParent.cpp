@@ -802,6 +802,13 @@ mRedirectCallback
 nullptr
 ;
 }
+mEventQ
+-
+>
+NotifyReleasingOwner
+(
+)
+;
 }
 void
 HttpChannelParent
