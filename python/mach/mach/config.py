@@ -1732,14 +1732,6 @@ self
 _finalized
 =
 False
-        
-self
-.
-loaded_files
-=
-set
-(
-)
     
 def
 load_file
@@ -1866,18 +1858,6 @@ self
 load_fps
 (
 fps
-)
-        
-self
-.
-loaded_files
-.
-update
-(
-set
-(
-filtered
-)
 )
         
 for
