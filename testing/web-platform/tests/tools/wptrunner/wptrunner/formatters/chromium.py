@@ -1841,7 +1841,7 @@ contains
 a
 timestamp
 in
-microseconds
+milliseconds
 while
 time
 .
@@ -1856,11 +1856,26 @@ in
 seconds
 .
         
+if
+self
+.
+start_timestamp_seconds
+is
+None
+:
+            
+if
+'
+time
+'
+in
+data
+:
+                
 self
 .
 start_timestamp_seconds
 =
-(
 float
 (
 data
@@ -1872,19 +1887,18 @@ time
 )
 /
 1000
-if
-"
-time
-"
-in
-data
-                                        
+            
 else
+:
+                
+self
+.
+start_timestamp_seconds
+=
 time
 .
 time
 (
-)
 )
     
 def
@@ -2320,7 +2334,7 @@ browser_log
 ]
     
 def
-suite_end
+shutdown
 (
 self
 data
