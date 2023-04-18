@@ -1711,9 +1711,10 @@ aSessionType
 {
 assert
 (
+!
 aKeyIDs
 .
-size
+empty
 (
 )
 &
