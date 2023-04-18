@@ -1248,6 +1248,8 @@ config_path
 )
     
 if
+push
+and
 files_to_change
 :
         
