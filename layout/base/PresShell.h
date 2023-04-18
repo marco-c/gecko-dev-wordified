@@ -18106,12 +18106,6 @@ nsITimer
 >
 mPaintSuppressionTimer
 ;
-nsCOMPtr
-<
-nsITimer
->
-mDelayedPaintTimer
-;
 /
 /
 Information
