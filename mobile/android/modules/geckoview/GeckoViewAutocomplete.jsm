@@ -1623,6 +1623,15 @@ login
 entries
 for
 .
+If
+null
+all
+logins
+*
+will
+be
+fetched
+.
 *
 return
 {
@@ -1667,6 +1676,8 @@ password
 fetchLogins
 (
 aDomain
+=
+null
 )
 {
 debug
@@ -1674,6 +1685,12 @@ fetchLogins
 for
 {
 aDomain
+?
+?
+"
+All
+domains
+"
 }
 ;
 return
