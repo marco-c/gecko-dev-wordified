@@ -304,6 +304,29 @@ tracking
 ]
             
 if
+revision
+=
+=
+"
+tip
+"
+:
+                
+ref
+timestamp
+=
+self
+.
+source_host
+.
+upstream_commit
+(
+"
+HEAD
+"
+)
+            
+elif
 ref_type
 =
 =
@@ -3697,7 +3720,7 @@ log
                 
 logging
 .
-WARNIGN
+WARNING
                 
 "
 header_files_warning
@@ -3766,7 +3789,7 @@ log
             
 logging
 .
-DEBUG
+INFO
             
 "
 vendor
