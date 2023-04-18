@@ -1564,6 +1564,10 @@ this
 options
 .
 expectEarlyFail
+"
+asyncResolve
+ok
+"
 )
 ;
 }
@@ -1581,6 +1585,10 @@ this
 options
 .
 expectEarlyFail
+"
+asyncResolve
+fail
+"
 )
 ;
 this
