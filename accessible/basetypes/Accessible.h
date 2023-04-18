@@ -1835,11 +1835,9 @@ GetGroupInfo
 (
 )
 const
-{
-return
-nullptr
+=
+0
 ;
-}
 /
 *
 *
@@ -1860,11 +1858,9 @@ AccGroupInfo
 GetOrCreateGroupInfo
 (
 )
-{
-return
-nullptr
+=
+0
 ;
-}
 /
 *
 *
