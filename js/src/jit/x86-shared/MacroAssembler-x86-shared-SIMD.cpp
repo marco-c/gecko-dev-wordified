@@ -225,8 +225,10 @@ output
 return
 ;
 }
-zeroSimd128Int
+vpxor
 (
+scratch
+scratch
 scratch
 )
 ;
