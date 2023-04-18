@@ -2885,6 +2885,15 @@ TRR
 &
 &
 !
+StaticPrefs
+:
+:
+network_trr_strict_native_fallback
+(
+)
+&
+&
+!
 mTRRSuccess
 &
 &
