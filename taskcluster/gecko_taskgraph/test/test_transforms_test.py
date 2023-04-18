@@ -1425,6 +1425,8 @@ run_transform
 (
 test_transforms
 .
+other
+.
 set_test_setting
 task
 )
