@@ -442,6 +442,13 @@ getChildContext
 {
 return
 {
+fluentBundles
+:
+this
+.
+props
+.
+fluentBundles
 toolboxDoc
 :
 this
@@ -1670,6 +1677,11 @@ l10n
 PropTypes
 .
 object
+fluentBundles
+:
+PropTypes
+.
+array
 }
 ;
 const
