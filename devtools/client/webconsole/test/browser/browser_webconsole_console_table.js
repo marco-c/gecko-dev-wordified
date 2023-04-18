@@ -2730,8 +2730,6 @@ querySelectorAll
 .
 message
 .
-new
--
 consoletable
 "
 )
@@ -3307,8 +3305,6 @@ index
 }
 )
 .
-new
--
 consoletable
 )
 ;

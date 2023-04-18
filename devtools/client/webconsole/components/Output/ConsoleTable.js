@@ -341,8 +341,6 @@ div
 className
 :
 "
-new
--
 consoletable
 -
 header
@@ -603,8 +601,6 @@ div
 className
 :
 "
-new
--
 consoletable
 "
 role

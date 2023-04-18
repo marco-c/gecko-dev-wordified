@@ -822,8 +822,6 @@ querySelector
 (
 "
 .
-new
--
 consoletable
 "
 )
