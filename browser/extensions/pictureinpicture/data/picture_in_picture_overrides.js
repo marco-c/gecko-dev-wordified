@@ -376,6 +376,17 @@ keyboardControls
 KEYBOARD_CONTROLS
 .
 SEEK
+videoWrapperScriptPath
+:
+"
+video
+-
+wrappers
+/
+netflix
+.
+js
+"
 }
 "
 https
