@@ -254,7 +254,7 @@ const
 pageEmptyURL
 =
 "
-http
+https
 :
 /
 /
@@ -283,7 +283,7 @@ const
 sjsURL
 =
 "
-http
+https
 :
 /
 /

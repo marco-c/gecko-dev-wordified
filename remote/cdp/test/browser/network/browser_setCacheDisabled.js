@@ -48,7 +48,7 @@ const
 TEST_PAGE
 =
 "
-http
+https
 :
 /
 /

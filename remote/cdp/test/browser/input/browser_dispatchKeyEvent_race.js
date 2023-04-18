@@ -257,7 +257,7 @@ const
 PAGE_URL
 =
 "
-http
+https
 :
 /
 /
