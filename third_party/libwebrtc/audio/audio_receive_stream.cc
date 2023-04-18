@@ -1922,12 +1922,6 @@ GetSources
 )
 const
 {
-RTC_DCHECK_RUN_ON
-(
-&
-worker_thread_checker_
-)
-;
 return
 source_tracker_
 .
