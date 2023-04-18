@@ -249,12 +249,16 @@ aPort
 override
 ;
 void
-SendMessages
+SendMessage
 (
 const
 nsAString
 &
 aPort
+const
+MIDIMessage
+&
+aMessage
 )
 ;
 private
