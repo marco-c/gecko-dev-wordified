@@ -2227,9 +2227,13 @@ save_query
 =
 False
     
-push
+stage_changes
 =
-True
+False
+    
+dry_run
+=
+False
     
 message
 =
@@ -2280,6 +2284,14 @@ FZF_NOT_FOUND
         
 return
 1
+    
+push
+=
+not
+stage_changes
+and
+not
+dry_run
     
 check_working_directory
 (
@@ -3012,9 +3024,13 @@ selected
 try_config
 )
         
-push
+stage_changes
 =
-push
+stage_changes
+        
+dry_run
+=
+dry_run
         
 closed_tree
 =
