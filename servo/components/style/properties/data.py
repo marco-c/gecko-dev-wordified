@@ -3258,6 +3258,10 @@ PositiveIntegerOrNone
 "
                 
 "
+PrintColorAdjust
+"
+                
+"
 Resize
 "
                 

@@ -151,7 +151,10 @@ specified
 color
 :
 :
+{
 ColorScheme
+PrintColorAdjust
+}
 ;
 /
 /
