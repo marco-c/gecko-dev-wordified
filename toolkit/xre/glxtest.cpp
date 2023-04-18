@@ -3389,6 +3389,9 @@ EGL_EXTENSIONS
 ;
 if
 (
+deviceExtensions
+&
+&
 strstr
 (
 deviceExtensions
