@@ -1471,6 +1471,14 @@ autohideButton
 "
 false
 ]
+[
+"
+security
+.
+dialog_enable_delay
+"
+0
+]
 )
 ;
 await
