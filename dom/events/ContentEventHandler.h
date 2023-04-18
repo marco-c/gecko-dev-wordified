@@ -983,6 +983,8 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 InitCommon
 (
+EventMessage
+aEventMessage
 SelectionType
 aSelectionType
 =
