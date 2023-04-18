@@ -472,7 +472,7 @@ Registrations
 |
 |
 |
-FinalizationRegistryZone
+FinalizationObservers
 |
 |
 *
@@ -1821,7 +1821,7 @@ is
 cancelled
 .
 See
-FinalizationRegistryZone
+FinalizationObservers
 :
 :
 shouldRemoveRecord
