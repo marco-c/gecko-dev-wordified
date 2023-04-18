@@ -523,4 +523,11 @@ process
 -
 clocks
 "
+"
+wasi
+-
+emulated
+-
+getpid
+"
 ]
