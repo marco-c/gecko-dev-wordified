@@ -341,11 +341,14 @@ file
 destination
 callback
 .
+mozilla
+:
+:
+StaticRefPtr
+<
 nsIArray
-*
+>
 gDraggedTransferables
-=
-nullptr
 ;
 NSString
 *
