@@ -38,12 +38,6 @@ os
 import
 pytest
 from
-mach
-.
-logging
-import
-LoggingManager
-from
 responses
 import
 RequestsMock
@@ -178,23 +172,6 @@ responses
 datadir
 )
 :
-    
-#
-Setup
-logging
-.
-    
-lm
-=
-LoggingManager
-(
-)
-    
-lm
-.
-add_terminal_logging
-(
-)
     
 def
 inner
