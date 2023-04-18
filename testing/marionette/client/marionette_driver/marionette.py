@@ -3582,6 +3582,12 @@ None
         
 self
 .
+requested_capabilities
+=
+None
+        
+self
+.
 session
 =
 None
@@ -6858,6 +6864,9 @@ self
 .
 start_session
 (
+self
+.
+requested_capabilities
 )
             
 #
@@ -8468,6 +8477,9 @@ self
 .
 start_session
 (
+self
+.
+requested_capabilities
 )
         
 #
@@ -8753,6 +8765,12 @@ strictFileInteractability
 :
 True
 }
+        
+self
+.
+requested_capabilities
+=
+capabilities
         
 if
 timeout
