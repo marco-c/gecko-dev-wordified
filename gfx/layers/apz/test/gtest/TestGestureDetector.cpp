@@ -239,11 +239,8 @@ fm
 .
 SetZoom
 (
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 (
-2
-.
-0
 2
 .
 0
@@ -673,10 +670,6 @@ GetZoom
 (
 )
 .
-ToScaleFactor
-(
-)
-.
 scale
 ;
 EXPECT_EQ
@@ -684,10 +677,6 @@ EXPECT_EQ
 originalMetrics
 .
 GetZoom
-(
-)
-.
-ToScaleFactor
 (
 )
 .
@@ -1562,10 +1551,6 @@ zoom
 finalMetrics
 .
 GetZoom
-(
-)
-.
-ToScaleFactor
 (
 )
 .

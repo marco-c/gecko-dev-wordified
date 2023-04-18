@@ -1168,7 +1168,7 @@ ParentLayerRect
 &
 aCompositionBounds
 const
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 &
 aZoom
 )
@@ -1255,7 +1255,7 @@ ParentLayerRect
 &
 aCompositionBounds
 const
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 &
 aZoom
 )
@@ -1265,9 +1265,8 @@ if
 aZoom
 =
 =
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 (
-0
 0
 )
 )

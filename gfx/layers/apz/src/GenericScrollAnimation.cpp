@@ -457,13 +457,14 @@ Time
 (
 )
 ;
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 zoom
-=
+(
 aFrameMetrics
 .
 GetZoom
 (
+)
 )
 ;
 if
@@ -471,9 +472,8 @@ if
 zoom
 =
 =
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 (
-0
 0
 )
 )

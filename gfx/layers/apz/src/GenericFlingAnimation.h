@@ -1123,9 +1123,8 @@ GetZoom
 )
 !
 =
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 (
-0
 0
 )
 )

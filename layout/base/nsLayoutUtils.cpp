@@ -18615,7 +18615,7 @@ GetResolution
 )
 ;
 }
-LayoutDeviceToLayerScale2D
+LayoutDeviceToLayerScale
 cumulativeResolution
 (
 LayoutDeviceToLayerScale
@@ -18711,7 +18711,7 @@ CalculateCompositionSizeForFrame
 frame
 )
 ;
-LayoutDeviceToParentLayerScale2D
+LayoutDeviceToParentLayerScale
 compBoundsScale
 ;
 if
@@ -18767,12 +18767,9 @@ GetCumulativeResolution
 ;
 compBoundsScale
 =
-LayoutDeviceToParentLayerScale2D
-(
 LayoutDeviceToParentLayerScale
 (
 res
-)
 )
 ;
 }
@@ -60531,8 +60528,6 @@ metrics
 .
 SetCumulativeResolution
 (
-LayoutDeviceToLayerScale2D
-(
 LayoutDeviceToLayerScale
 (
 presShell
@@ -60540,7 +60535,6 @@ presShell
 >
 GetCumulativeResolution
 (
-)
 )
 )
 )

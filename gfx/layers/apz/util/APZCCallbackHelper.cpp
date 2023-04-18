@@ -3163,10 +3163,6 @@ GetCumulativeResolution
 (
 )
 .
-ToScaleFactor
-(
-)
-.
 scale
 )
 *
@@ -3174,10 +3170,6 @@ scale
 aRequest
 .
 GetZoom
-(
-)
-.
-ToScaleFactor
 (
 )
 /

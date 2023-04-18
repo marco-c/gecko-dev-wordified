@@ -5921,10 +5921,6 @@ apzc
 GetCumulativeResolution
 (
 )
-.
-ToScaleFactor
-(
-)
 *
 LayerToParentLayerScale
 (

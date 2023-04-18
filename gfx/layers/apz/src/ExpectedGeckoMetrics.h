@@ -225,7 +225,7 @@ mVisualScrollOffset
 ;
 }
 const
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 &
 GetZoom
 (
@@ -253,7 +253,7 @@ private
 CSSPoint
 mVisualScrollOffset
 ;
-CSSToParentLayerScale2D
+CSSToParentLayerScale
 mZoom
 ;
 CSSToLayoutDeviceScale
