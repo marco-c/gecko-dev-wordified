@@ -1296,6 +1296,41 @@ to
 date
 .
     
+#
+Bug
+1766659
+:
+This
+is
+disabled
+for
+now
+due
+to
+sub
+-
+dependencies
+at
+the
+top
+    
+#
+level
+providing
+different
+module
+versions
+to
+those
+in
+eslint
+-
+plugin
+-
+mozilla
+.
+    
+#
 mozilla_json_path
 =
 os
@@ -1304,7 +1339,8 @@ path
 .
 join
 (
-        
+    
+#
 get_eslint_module_path
 (
 )
@@ -1321,8 +1357,10 @@ package
 json
 "
     
+#
 )
     
+#
 with
 open
 (
@@ -1341,7 +1379,8 @@ utf
 as
 f
 :
-        
+    
+#
 expected_modules
 .
 update
