@@ -4731,7 +4731,7 @@ GetWritingMode
 const
 ;
 uint32_t
-StartOffset
+AnchorOffset
 (
 )
 const
@@ -4756,7 +4756,7 @@ Length
 ;
 }
 uint32_t
-EndOffset
+FocusOffset
 (
 )
 const

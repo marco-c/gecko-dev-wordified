@@ -8485,7 +8485,7 @@ Length
 }
 MOZ_NEVER_INLINE_DEBUG
 uint32_t
-SelectionStartOffset
+AnchorOffset
 (
 )
 const
@@ -8525,7 +8525,7 @@ DataLength
 }
 MOZ_NEVER_INLINE_DEBUG
 uint32_t
-SelectionEndOffset
+FocusOffset
 (
 )
 const

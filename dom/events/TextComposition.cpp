@@ -3410,7 +3410,7 @@ querySelectedTextEvent
 mReply
 -
 >
-SelectionStartOffset
+AnchorOffset
 (
 )
 ;
