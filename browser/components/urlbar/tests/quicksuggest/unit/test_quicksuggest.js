@@ -648,7 +648,7 @@ sponsoredBlockId
 sponsoredAdvertiser
 :
 "
-testadvertiser
+TestAdvertiser
 "
 isSponsored
 :
@@ -791,7 +791,7 @@ sponsoredBlockId
 sponsoredAdvertiser
 :
 "
-testadvertisernonsponsored
+TestAdvertiserNonSponsored
 "
 isSponsored
 :
@@ -926,7 +926,7 @@ sponsoredBlockId
 sponsoredAdvertiser
 :
 "
-testadvertiserprefix
+TestAdvertiserPrefix
 "
 isSponsored
 :
@@ -1055,7 +1055,7 @@ sponsoredBlockId
 sponsoredAdvertiser
 :
 "
-testadvertiserprefix
+TestAdvertiserPrefix
 "
 isSponsored
 :
@@ -5869,7 +5869,7 @@ sponsoredBlockId
 sponsoredAdvertiser
 :
 "
-testadvertisertimestamp
+TestAdvertiserTimestamp
 "
 isSponsored
 :

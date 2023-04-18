@@ -997,10 +997,6 @@ sponsoredAdvertiser
 suggest
 .
 advertiser
-.
-toLowerCase
-(
-)
 isSponsored
 :
 suggest

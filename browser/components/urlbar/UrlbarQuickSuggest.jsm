@@ -852,10 +852,6 @@ advertiser
 result
 .
 advertiser
-.
-toLocaleLowerCase
-(
-)
 is_sponsored
 :
 !
