@@ -6648,7 +6648,6 @@ parent
 >
 AddChildWorker
 (
-&
 aWorkerPrivate
 )
 )
@@ -7401,7 +7400,6 @@ parent
 >
 RemoveChildWorker
 (
-&
 aWorkerPrivate
 )
 ;
