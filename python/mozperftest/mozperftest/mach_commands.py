@@ -1357,13 +1357,6 @@ Path
 from
 mozperftest
 .
-runner
-import
-_setup_path
-    
-from
-mozperftest
-.
 utils
 import
 (
@@ -1406,19 +1399,6 @@ get
 verbose
 "
 False
-)
-    
-#
-include
-in
-sys
-.
-path
-all
-deps
-    
-_setup_path
-(
 )
     
 try
