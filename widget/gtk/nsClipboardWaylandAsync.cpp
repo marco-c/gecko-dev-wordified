@@ -346,7 +346,6 @@ data
 {
 LOGCLIP
 (
-(
 "
 wayland_clipboard_contents_received_async
 (
@@ -359,7 +358,6 @@ p
 n
 "
 selection_data
-)
 )
 ;
 AsyncClipboardData
@@ -415,7 +413,6 @@ data
 {
 LOGCLIP
 (
-(
 "
 wayland_clipboard_text_received
 (
@@ -428,7 +425,6 @@ p
 n
 "
 text
-)
 )
 ;
 AsyncClipboardData
@@ -489,7 +485,6 @@ aData
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWaylandAsync
 :
@@ -507,7 +502,6 @@ p
 n
 "
 aData
-)
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -541,7 +535,6 @@ aClipboardRequestNumber
 {
 LOGCLIP
 (
-(
 "
 request
 number
@@ -553,13 +546,11 @@ match
 n
 "
 )
-)
 ;
 return
 ;
 }
 LOGCLIP
-(
 (
 "
 request
@@ -568,7 +559,6 @@ matches
 \
 n
 "
-)
 )
 ;
 int
@@ -646,7 +636,6 @@ dataLength
 {
 LOGCLIP
 (
-(
 "
 zero
 dataLength
@@ -655,7 +644,6 @@ quit
 \
 n
 "
-)
 )
 ;
 return
@@ -672,7 +660,6 @@ CLIPBOARD_TARGETS
 {
 LOGCLIP
 (
-(
 "
 getting
 %
@@ -686,7 +673,6 @@ targets
 n
 "
 dataLength
-)
 )
 ;
 gint
@@ -755,7 +741,6 @@ CLIPBOARD_TEXT
 {
 LOGCLIP
 (
-(
 "
 getting
 %
@@ -768,7 +753,6 @@ text
 n
 "
 dataLength
-)
 )
 ;
 mClipboardDataLength
@@ -822,7 +806,6 @@ mClipboardDataLength
 ;
 LOGCLIP
 (
-(
 "
 done
 mClipboardData
@@ -834,7 +817,6 @@ n
 "
 mClipboardData
 )
-)
 ;
 break
 ;
@@ -844,7 +826,6 @@ CLIPBOARD_DATA
 :
 {
 LOGCLIP
-(
 (
 "
 getting
@@ -858,7 +839,6 @@ data
 n
 "
 dataLength
-)
 )
 ;
 mClipboardDataLength
@@ -905,7 +885,6 @@ mClipboardDataLength
 ;
 LOGCLIP
 (
-(
 "
 done
 mClipboardData
@@ -916,7 +895,6 @@ p
 n
 "
 mClipboardData
-)
 )
 ;
 break
@@ -940,7 +918,6 @@ aTargetNum
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWaylandAsync
 :
@@ -951,7 +928,6 @@ GetTargets
 \
 n
 "
-)
 )
 ;
 if
@@ -966,7 +942,6 @@ TryLock
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWaylandAsync
 is
@@ -976,7 +951,6 @@ used
 \
 n
 "
-)
 )
 ;
 *
@@ -1198,7 +1172,6 @@ aContentLength
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWaylandAsync
 :
@@ -1214,7 +1187,6 @@ n
 "
 aMimeType
 )
-)
 ;
 if
 (
@@ -1228,7 +1200,6 @@ TryLock
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWaylandAsync
 is
@@ -1238,7 +1209,6 @@ used
 \
 n
 "
-)
 )
 ;
 *
@@ -1370,7 +1340,6 @@ aWhichClipboard
 ;
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWaylandAsync
 :
@@ -1399,7 +1368,6 @@ Primary
 Selection
 "
 )
-)
 ;
 if
 (
@@ -1413,7 +1381,6 @@ TryLock
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWaylandAsync
 is
@@ -1423,7 +1390,6 @@ used
 \
 n
 "
-)
 )
 ;
 return
@@ -1571,7 +1537,6 @@ kClipboardTimeout
 {
 LOGCLIP
 (
-(
 "
 failed
 to
@@ -1586,14 +1551,12 @@ limit
 n
 "
 )
-)
 ;
 break
 ;
 }
 }
 LOGCLIP
-(
 (
 "
 doing
@@ -1629,7 +1592,6 @@ entryTime
 1000
 )
 )
-)
 ;
 gtk_main_iteration
 (
@@ -1660,7 +1622,6 @@ aClipboardData
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWaylandAsync
 :
@@ -1674,7 +1635,6 @@ p
 n
 "
 aClipboardData
-)
 )
 ;
 if

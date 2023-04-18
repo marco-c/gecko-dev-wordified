@@ -164,6 +164,27 @@ endif
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
+nsIFile
+.
+h
+"
+#
+include
+"
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -255,6 +276,15 @@ include
 mozilla
 /
 SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_widget
 .
 h
 "
@@ -912,7 +942,6 @@ gtk_clipboard_store
 {
 LOGCLIP
 (
-(
 "
 nsClipboard
 storing
@@ -921,7 +950,6 @@ content
 \
 n
 "
-)
 )
 ;
 gtk_clipboard_store
@@ -1025,7 +1053,6 @@ NS_OK
 }
 LOGCLIP
 (
-(
 "
 nsClipboard
 :
@@ -1050,7 +1077,6 @@ primary
 "
 clipboard
 "
-)
 )
 ;
 /
@@ -1104,7 +1130,6 @@ rv
 {
 LOGCLIP
 (
-(
 "
 FlavorsTransferableCanExport
 failed
@@ -1112,7 +1137,6 @@ failed
 \
 n
 "
-)
 )
 ;
 /
@@ -1179,7 +1203,6 @@ i
 ;
 LOGCLIP
 (
-(
 "
 processing
 target
@@ -1192,7 +1215,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -1225,7 +1247,6 @@ kUnicodeMime
 {
 LOGCLIP
 (
-(
 "
 adding
 TEXT
@@ -1233,7 +1254,6 @@ targets
 \
 n
 "
-)
 )
 ;
 gtk_target_list_add_text_targets
@@ -1281,7 +1301,6 @@ image
 type
 LOGCLIP
 (
-(
 "
 adding
 IMAGE
@@ -1289,7 +1308,6 @@ targets
 \
 n
 "
-)
 )
 ;
 gtk_target_list_add_image_targets
@@ -1319,7 +1337,6 @@ valid
 targets
 LOGCLIP
 (
-(
 "
 adding
 OTHER
@@ -1333,7 +1350,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -1411,7 +1427,6 @@ numTargets
 {
 LOGCLIP
 (
-(
 "
 gtk_target_table_new_from_list
 (
@@ -1428,7 +1443,6 @@ targets
 \
 n
 "
-)
 )
 ;
 /
@@ -1569,7 +1583,6 @@ else
 {
 LOGCLIP
 (
-(
 "
 gtk_clipboard_set_with_data
 (
@@ -1579,7 +1592,6 @@ failed
 \
 n
 "
-)
 )
 ;
 EmptyClipboard
@@ -1629,7 +1641,6 @@ aClipboardDataLength
 {
 LOGCLIP
 (
-(
 "
 nsClipboard
 :
@@ -1645,7 +1656,6 @@ aFlavor
 .
 get
 (
-)
 )
 )
 ;
@@ -1791,14 +1801,12 @@ aFlavors
 {
 LOGCLIP
 (
-(
 "
 nsClipboard
 :
 :
 FilterImportedFlavors
 "
-)
 )
 ;
 int
@@ -1826,7 +1834,6 @@ targets
 {
 LOGCLIP
 (
-(
 "
 X11
 :
@@ -1842,7 +1849,6 @@ quit
 \
 n
 "
-)
 )
 ;
 return
@@ -2047,7 +2053,6 @@ problem
 .
 LOGCLIP
 (
-(
 "
 X11
 :
@@ -2064,7 +2069,6 @@ them
 \
 n
 "
-)
 )
 ;
 return
@@ -2161,7 +2165,6 @@ ifdef
 MOZ_LOGGING
 LOGCLIP
 (
-(
 "
 X11
 :
@@ -2174,7 +2177,6 @@ content
 \
 n
 "
-)
 )
 ;
 for
@@ -2199,7 +2201,6 @@ i
 {
 LOGCLIP
 (
-(
 "
 %
 s
@@ -2213,7 +2214,6 @@ i
 .
 get
 (
-)
 )
 )
 ;
@@ -2239,7 +2239,6 @@ aWhichClipboard
 {
 LOGCLIP
 (
-(
 "
 nsClipboard
 :
@@ -2264,7 +2263,6 @@ primary
 "
 clipboard
 "
-)
 )
 ;
 /
@@ -2333,7 +2331,6 @@ rv
 {
 LOGCLIP
 (
-(
 "
 FlavorsTransferableCanImport
 falied
@@ -2341,7 +2338,6 @@ falied
 \
 n
 "
-)
 )
 ;
 return
@@ -2353,7 +2349,6 @@ ifdef
 MOZ_LOGGING
 LOGCLIP
 (
-(
 "
 Flavors
 which
@@ -2364,7 +2359,6 @@ imported
 \
 n
 "
-)
 )
 ;
 for
@@ -2389,7 +2383,6 @@ i
 {
 LOGCLIP
 (
-(
 "
 %
 s
@@ -2403,7 +2396,6 @@ i
 .
 get
 (
-)
 )
 )
 ;
@@ -2543,7 +2535,6 @@ kJPEGImageMime
 }
 LOGCLIP
 (
-(
 "
 Getting
 image
@@ -2559,7 +2550,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -2594,7 +2584,6 @@ clipboardData
 {
 LOGCLIP
 (
-(
 "
 %
 s
@@ -2608,7 +2597,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -2650,7 +2638,6 @@ byteStream
 ;
 LOGCLIP
 (
-(
 "
 got
 %
@@ -2664,7 +2651,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -2711,7 +2697,6 @@ kUnicodeMime
 {
 LOGCLIP
 (
-(
 "
 Getting
 unicode
@@ -2727,7 +2712,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -2752,7 +2736,6 @@ clipboardData
 {
 LOGCLIP
 (
-(
 "
 failed
 to
@@ -2762,7 +2745,6 @@ data
 \
 n
 "
-)
 )
 ;
 /
@@ -2859,7 +2841,6 @@ unicodeData
 ;
 LOGCLIP
 (
-(
 "
 got
 unicode
@@ -2874,7 +2855,6 @@ ucs2string
 .
 Length
 (
-)
 )
 )
 ;
@@ -2902,7 +2882,6 @@ kFileMime
 {
 LOGCLIP
 (
-(
 "
 Getting
 %
@@ -2917,7 +2896,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -2948,7 +2926,6 @@ clipboardData
 {
 LOGCLIP
 (
-(
 "
 text
 /
@@ -2961,7 +2938,6 @@ missing
 \
 n
 "
-)
 )
 ;
 continue
@@ -3077,7 +3053,6 @@ file
 ;
 LOGCLIP
 (
-(
 "
 successfully
 set
@@ -3087,7 +3062,6 @@ clipboard
 \
 n
 "
-)
 )
 ;
 }
@@ -3107,7 +3081,6 @@ NS_OK
 }
 LOGCLIP
 (
-(
 "
 Getting
 %
@@ -3122,7 +3095,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -3160,7 +3132,6 @@ clipboardData
 {
 LOGCLIP
 (
-(
 "
 %
 s
@@ -3176,7 +3147,6 @@ get
 (
 )
 )
-)
 ;
 }
 #
@@ -3187,7 +3157,6 @@ clipboardData
 )
 {
 LOGCLIP
-(
 (
 "
 got
@@ -3204,7 +3173,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -3285,7 +3253,6 @@ kHTMLMarkupPrefix
 .
 LOGCLIP
 (
-(
 "
 Failed
 to
@@ -3304,7 +3271,6 @@ utf
 \
 n
 "
-)
 )
 ;
 charset
@@ -3335,7 +3301,6 @@ htmlBodyLen
 {
 LOGCLIP
 (
-(
 "
 failed
 to
@@ -3349,7 +3314,6 @@ UCS2
 \
 n
 "
-)
 )
 ;
 mContext
@@ -3410,7 +3374,6 @@ NS_OK
 }
 LOGCLIP
 (
-(
 "
 failed
 to
@@ -3421,7 +3384,6 @@ content
 \
 n
 "
-)
 )
 ;
 return
@@ -3439,7 +3401,6 @@ aWhichClipboard
 )
 {
 LOGCLIP
-(
 (
 "
 nsClipboard
@@ -3465,7 +3426,6 @@ primary
 "
 clipboard
 "
-)
 )
 ;
 if
@@ -3623,7 +3583,6 @@ NS_ERROR_NULL_POINTER
 }
 LOGCLIP
 (
-(
 "
 nsClipboard
 :
@@ -3648,7 +3607,6 @@ primary
 "
 clipboard
 "
-)
 )
 ;
 *
@@ -3691,7 +3649,6 @@ targets
 {
 LOGCLIP
 (
-(
 "
 no
 targes
@@ -3704,7 +3661,6 @@ null
 n
 "
 )
-)
 ;
 return
 NS_OK
@@ -3714,7 +3670,6 @@ NS_OK
 ifdef
 MOZ_LOGGING
 LOGCLIP
-(
 (
 "
 Clipboard
@@ -3730,7 +3685,6 @@ d
 n
 "
 targetNums
-)
 )
 ;
 for
@@ -3769,7 +3723,6 @@ atom_name
 {
 LOGCLIP
 (
-(
 "
 failed
 to
@@ -3779,13 +3732,11 @@ MIME
 n
 "
 )
-)
 ;
 continue
 ;
 }
 LOGCLIP
-(
 (
 "
 MIME
@@ -3796,11 +3747,9 @@ n
 "
 atom_name
 )
-)
 ;
 }
 LOGCLIP
-(
 (
 "
 Asking
@@ -3810,7 +3759,6 @@ content
 \
 n
 "
-)
 )
 ;
 for
@@ -3824,7 +3772,6 @@ aFlavorList
 {
 LOGCLIP
 (
-(
 "
 MIME
 %
@@ -3836,7 +3783,6 @@ flavor
 .
 get
 (
-)
 )
 )
 ;
@@ -3905,14 +3851,12 @@ true
 ;
 LOGCLIP
 (
-(
 "
 has
 kUnicodeMime
 \
 n
 "
-)
 )
 ;
 break
@@ -3970,7 +3914,6 @@ true
 ;
 LOGCLIP
 (
-(
 "
 has
 %
@@ -3979,7 +3922,6 @@ s
 n
 "
 atom_name
-)
 )
 ;
 }
@@ -4031,7 +3973,6 @@ true
 ;
 LOGCLIP
 (
-(
 "
 has
 image
@@ -4040,7 +3981,6 @@ jpg
 \
 n
 "
-)
 )
 ;
 }
@@ -4088,7 +4028,6 @@ true
 ;
 LOGCLIP
 (
-(
 "
 has
 text
@@ -4106,7 +4045,6 @@ moz
 -
 file
 "
-)
 )
 ;
 }
@@ -4138,7 +4076,6 @@ _retval
 {
 LOGCLIP
 (
-(
 "
 no
 targes
@@ -4151,7 +4088,6 @@ match
 \
 n
 "
-)
 )
 ;
 }
@@ -4379,7 +4315,6 @@ HEARD
 OF
 LOGCLIP
 (
-(
 "
 nsClipboard
 :
@@ -4404,7 +4339,6 @@ primary
 "
 clipboard
 "
-)
 )
 ;
 nsCOMPtr
@@ -4432,7 +4366,6 @@ nothing
 to
 serve
 LOGCLIP
-(
 (
 "
 nsClipboard
@@ -4464,7 +4397,6 @@ Primary
 Clipboard
 "
 )
-)
 ;
 return
 ;
@@ -4488,7 +4420,6 @@ aSelectionData
 ;
 LOGCLIP
 (
-(
 "
 selection
 target
@@ -4500,7 +4431,6 @@ n
 gdk_atom_name
 (
 selectionTarget
-)
 )
 )
 ;
@@ -4530,7 +4460,6 @@ selectionTarget
 {
 LOGCLIP
 (
-(
 "
 providing
 text
@@ -4540,7 +4469,6 @@ data
 \
 n
 "
-)
 )
 ;
 /
@@ -4610,7 +4538,6 @@ item
 {
 LOGCLIP
 (
-(
 "
 GetTransferData
 (
@@ -4625,7 +4552,6 @@ unicode
 \
 n
 "
-)
 )
 ;
 return
@@ -4670,7 +4596,6 @@ ucs2string
 ;
 LOGCLIP
 (
-(
 "
 sent
 %
@@ -4688,7 +4613,6 @@ utf8string
 .
 Length
 (
-)
 )
 )
 ;
@@ -4716,7 +4640,6 @@ FALSE
 {
 LOGCLIP
 (
-(
 "
 using
 gtk_selection_data_set
@@ -4735,7 +4658,6 @@ utf
 \
 n
 "
-)
 )
 ;
 /
@@ -4833,7 +4755,6 @@ TRUE
 {
 LOGCLIP
 (
-(
 "
 providing
 image
@@ -4841,7 +4762,6 @@ data
 \
 n
 "
-)
 )
 ;
 /
@@ -4929,7 +4849,6 @@ rv
 {
 LOGCLIP
 (
-(
 "
 %
 s
@@ -4946,7 +4865,6 @@ imageMimeTypes
 [
 i
 ]
-)
 )
 ;
 continue
@@ -4966,7 +4884,6 @@ image
 {
 LOGCLIP
 (
-(
 "
 %
 s
@@ -4983,7 +4900,6 @@ imageMimeTypes
 [
 i
 ]
-)
 )
 ;
 break
@@ -5011,7 +4927,6 @@ type
 ?
 LOGCLIP
 (
-(
 "
 Failed
 to
@@ -5027,7 +4942,6 @@ GetTransferData
 \
 n
 "
-)
 )
 ;
 return
@@ -5053,7 +4967,6 @@ pixbuf
 {
 LOGCLIP
 (
-(
 "
 nsImageToPixbuf
 :
@@ -5067,13 +4980,11 @@ failed
 n
 "
 )
-)
 ;
 return
 ;
 }
 LOGCLIP
-(
 (
 "
 Setting
@@ -5089,7 +5000,6 @@ n
 gdk_atom_name
 (
 selectionTarget
-)
 )
 )
 ;
@@ -5121,7 +5031,6 @@ FALSE
 {
 LOGCLIP
 (
-(
 "
 providing
 %
@@ -5131,7 +5040,6 @@ data
 n
 "
 kHTMLMime
-)
 )
 ;
 rv
@@ -5162,7 +5070,6 @@ item
 {
 LOGCLIP
 (
-(
 "
 failed
 to
@@ -5179,7 +5086,6 @@ GetTransferData
 n
 "
 kHTMLMime
-)
 )
 ;
 return
@@ -5206,7 +5112,6 @@ wideString
 {
 LOGCLIP
 (
-(
 "
 failed
 to
@@ -5215,7 +5120,6 @@ wideString
 interface
 !
 "
-)
 )
 ;
 return
@@ -5262,7 +5166,6 @@ html
 ;
 LOGCLIP
 (
-(
 "
 Setting
 %
@@ -5283,7 +5186,6 @@ Length
 gdk_atom_name
 (
 selectionTarget
-)
 )
 )
 ;
@@ -5314,7 +5216,6 @@ return
 }
 LOGCLIP
 (
-(
 "
 Try
 if
@@ -5334,7 +5235,6 @@ n
 gdk_atom_name
 (
 selectionTarget
-)
 )
 )
 ;
@@ -5373,7 +5273,6 @@ target_name
 {
 LOGCLIP
 (
-(
 "
 Failed
 to
@@ -5384,7 +5283,6 @@ name
 \
 n
 "
-)
 )
 ;
 return
@@ -5423,7 +5321,6 @@ item
 {
 LOGCLIP
 (
-(
 "
 Failed
 to
@@ -5437,7 +5334,6 @@ GetTransferData
 \
 n
 "
-)
 )
 ;
 g_free
@@ -5482,7 +5378,6 @@ primitive_data
 {
 LOGCLIP
 (
-(
 "
 Setting
 %
@@ -5500,7 +5395,6 @@ n
 "
 target_name
 dataLen
-)
 )
 ;
 gtk_selection_data_set
@@ -5536,7 +5430,6 @@ else
 {
 LOGCLIP
 (
-(
 "
 Failed
 to
@@ -5547,7 +5440,6 @@ data
 \
 n
 "
-)
 )
 ;
 }
@@ -5588,7 +5480,6 @@ return
 }
 LOGCLIP
 (
-(
 "
 nsClipboard
 :
@@ -5614,7 +5505,6 @@ primary
 clipboard
 "
 )
-)
 ;
 ClearTransferable
 (
@@ -5639,7 +5529,6 @@ user_data
 {
 LOGCLIP
 (
-(
 "
 clipboard_get_cb
 (
@@ -5648,7 +5537,6 @@ callback
 \
 n
 "
-)
 )
 ;
 nsClipboard
@@ -5686,7 +5574,6 @@ user_data
 {
 LOGCLIP
 (
-(
 "
 clipboard_clear_cb
 (
@@ -5695,7 +5582,6 @@ callback
 \
 n
 "
-)
 )
 ;
 nsClipboard
@@ -6048,7 +5934,6 @@ encoding
 {
 LOGCLIP
 (
-(
 "
 ConvertHTMLtoUCS2
 :
@@ -6059,7 +5944,6 @@ error
 \
 n
 "
-)
 )
 ;
 outUnicodeLen
@@ -6510,7 +6394,6 @@ UTF
 ;
 LOGCLIP
 (
-(
 "
 GetHTMLCharset
 :
@@ -6524,7 +6407,6 @@ UTF
 \
 n
 "
-)
 )
 ;
 return
@@ -6700,7 +6582,6 @@ str
 ;
 LOGCLIP
 (
-(
 "
 GetHTMLCharset
 :
@@ -6719,7 +6600,6 @@ get
 (
 )
 )
-)
 ;
 return
 true
@@ -6736,7 +6616,6 @@ UNKNOWN
 ;
 LOGCLIP
 (
-(
 "
 GetHTMLCharset
 :
@@ -6749,7 +6628,6 @@ Charset
 \
 n
 "
-)
 )
 ;
 return

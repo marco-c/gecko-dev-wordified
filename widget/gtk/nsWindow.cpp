@@ -3020,7 +3020,6 @@ nsWindow
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -3041,7 +3040,6 @@ void
 *
 )
 this
-)
 )
 ;
 delete
@@ -3215,7 +3213,6 @@ DispatchResized
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -3251,7 +3248,6 @@ int
 mBounds
 .
 height
-)
 )
 )
 ;
@@ -3995,7 +3991,6 @@ return
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -4013,7 +4008,6 @@ void
 *
 )
 this
-)
 )
 ;
 mIsDestroyed
@@ -4356,7 +4350,6 @@ this
 {
 LOG
 (
-(
 "
 automatically
 losing
@@ -4367,7 +4360,6 @@ focus
 \
 n
 "
-)
 )
 ;
 gFocusWindow
@@ -5586,7 +5578,6 @@ aModal
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -5607,7 +5598,6 @@ void
 )
 this
 aModal
-)
 )
 ;
 if
@@ -6467,7 +6457,6 @@ GDK_HINT_MIN_SIZE
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -6497,7 +6486,6 @@ min_width
 geometry
 .
 min_height
-)
 )
 ;
 }
@@ -6534,7 +6522,6 @@ GDK_HINT_MAX_SIZE
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -6564,7 +6551,6 @@ max_width
 geometry
 .
 max_height
-)
 )
 ;
 }
@@ -6638,7 +6624,6 @@ aState
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -6660,7 +6645,6 @@ void
 )
 this
 aState
-)
 )
 ;
 if
@@ -6751,7 +6735,6 @@ mCreated
 {
 LOG
 (
-(
 "
 \
 tbounds
@@ -6768,7 +6751,6 @@ yet
 \
 n
 "
-)
 )
 ;
 mNeedsShow
@@ -6850,7 +6832,6 @@ aRepaint
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -6899,7 +6880,6 @@ aHeight
 aRepaint
 aMove
 )
-)
 ;
 ConstrainSize
 (
@@ -6910,7 +6890,6 @@ aHeight
 )
 ;
 LOG
-(
 (
 "
 ConstrainSize
@@ -6928,7 +6907,6 @@ n
 "
 aWidth
 aHeight
-)
 )
 ;
 if
@@ -7177,7 +7155,6 @@ aRepaint
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -7201,7 +7178,6 @@ void
 this
 aWidth
 aHeight
-)
 )
 ;
 double
@@ -7277,7 +7253,6 @@ aRepaint
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -7318,7 +7293,6 @@ aY
 aWidth
 aHeight
 aRepaint
-)
 )
 ;
 double
@@ -7473,7 +7447,6 @@ scale
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -7498,7 +7471,6 @@ void
 this
 x
 y
-)
 )
 ;
 if
@@ -7559,7 +7531,6 @@ window
 .
 LOG
 (
-(
 "
 bounds
 %
@@ -7575,7 +7546,6 @@ y
 mBounds
 .
 y
-)
 )
 ;
 if
@@ -7604,7 +7574,6 @@ eWindowType_popup
 {
 LOG
 (
-(
 "
 position
 is
@@ -7614,7 +7583,6 @@ return
 \
 n
 "
-)
 )
 ;
 return
@@ -7651,7 +7619,6 @@ mCreated
 {
 LOG
 (
-(
 "
 is
 not
@@ -7661,7 +7628,6 @@ return
 \
 n
 "
-)
 )
 ;
 return
@@ -7739,7 +7705,6 @@ else
 {
 LOG
 (
-(
 "
 mBounds
 same
@@ -7750,7 +7715,6 @@ need
 to
 move
 "
-)
 )
 ;
 }
@@ -7971,7 +7935,6 @@ HideWaylandWindow
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -7986,7 +7949,6 @@ p
 n
 "
 this
-)
 )
 ;
 PauseCompositorHiddenWindow
@@ -8073,7 +8035,6 @@ aY
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -8089,7 +8050,6 @@ p
 n
 "
 this
-)
 )
 ;
 int
@@ -8130,13 +8090,11 @@ y
 {
 LOG
 (
-(
 "
 coordinates
 are
 correct
 "
-)
 )
 ;
 return
@@ -8144,7 +8102,6 @@ false
 ;
 }
 LOG
-(
 (
 "
 wrong
@@ -8162,7 +8119,6 @@ to
 "
 x
 y
-)
 )
 ;
 gdk_window_move
@@ -8208,7 +8164,6 @@ ShowWaylandWindow
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -8224,7 +8179,6 @@ n
 "
 this
 )
-)
 ;
 if
 (
@@ -8236,14 +8190,12 @@ IsWaylandPopup
 {
 LOG
 (
-(
 "
 toplevel
 show
 it
 now
 "
-)
 )
 ;
 gtk_widget_show
@@ -8262,7 +8214,6 @@ mPopupTrackInHierarchy
 {
 LOG
 (
-(
 "
 popup
 is
@@ -8275,7 +8226,6 @@ show
 it
 now
 "
-)
 )
 ;
 gtk_widget_show
@@ -8314,7 +8264,6 @@ mWaitingForMoveToRectCallback
 {
 LOG
 (
-(
 "
 active
 move
@@ -8328,7 +8277,6 @@ it
 as
 is
 "
-)
 )
 ;
 gtk_widget_show
@@ -8349,14 +8297,12 @@ mShell
 {
 LOG
 (
-(
 "
 is
 already
 visible
 quit
 "
-)
 )
 ;
 return
@@ -8389,7 +8335,6 @@ moved
 {
 LOG
 (
-(
 "
 move
 back
@@ -8405,7 +8350,6 @@ show
 "
 x
 y
-)
 )
 ;
 gdk_window_move
@@ -8430,7 +8374,6 @@ WaylandPopupMarkAsClosed
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -8445,7 +8388,6 @@ p
 n
 "
 this
-)
 )
 ;
 mPopupClosed
@@ -8543,7 +8485,6 @@ aRemoveFromPopupList
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -8564,7 +8505,6 @@ n
 "
 this
 aRemoveFromPopupList
-)
 )
 ;
 if
@@ -8599,7 +8539,6 @@ mShell
 ;
 LOG_POPUP
 (
-(
 "
 gtk_widget_is_visible
 (
@@ -8611,7 +8550,6 @@ d
 n
 "
 visible
-)
 )
 ;
 /
@@ -8748,7 +8686,6 @@ HideWaylandToplevelWindow
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -8763,7 +8700,6 @@ p
 n
 "
 this
-)
 )
 ;
 if
@@ -8840,7 +8776,6 @@ WaylandPopupRemoveClosedPopups
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -8855,7 +8790,6 @@ p
 n
 "
 this
-)
 )
 ;
 nsWindow
@@ -8932,14 +8866,12 @@ WaylandPopupHideTooltips
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
 :
 WaylandPopupHideTooltips
 "
-)
 )
 ;
 MOZ_ASSERT
@@ -8989,7 +8921,6 @@ ePopupTypeTooltip
 {
 LOG_POPUP
 (
-(
 "
 hidding
 tooltip
@@ -8999,7 +8930,6 @@ p
 ]
 "
 popup
-)
 )
 ;
 popup
@@ -9068,14 +8998,12 @@ CloseAllPopupsBeforeRemotePopup
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
 :
 CloseAllPopupsBeforeRemotePopup
 "
-)
 )
 ;
 MOZ_ASSERT
@@ -9169,7 +9097,6 @@ IsWidgetOverflowWindow
 {
 LOG_POPUP
 (
-(
 "
 remote
 popup
@@ -9179,7 +9106,6 @@ p
 ]
 "
 remotePopup
-)
 )
 ;
 break
@@ -9234,7 +9160,6 @@ remotePopup
 {
 LOG_POPUP
 (
-(
 "
 hidding
 popup
@@ -9244,7 +9169,6 @@ p
 ]
 "
 popup
-)
 )
 ;
 popup
@@ -9617,14 +9541,12 @@ aLayoutWidgetHierarchy
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
 :
 WaylandPopupHierarchyHideByLayout
 "
-)
 )
 ;
 MOZ_ASSERT
@@ -9714,7 +9636,6 @@ false
 {
 LOG_POPUP
 (
-(
 "
 hidding
 popup
@@ -9724,7 +9645,6 @@ p
 ]
 "
 popup
-)
 )
 ;
 popup
@@ -9770,14 +9690,12 @@ aLayoutWidgetHierarchy
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
 :
 WaylandPopupHierarchyValidateByLayout
 "
-)
 )
 ;
 nsWindow
@@ -9841,7 +9759,6 @@ true
 ;
 LOG_POPUP
 (
-(
 "
 popup
 [
@@ -9879,7 +9796,6 @@ popup
 >
 mPopupMatchesLayout
 )
-)
 ;
 }
 popup
@@ -9901,7 +9817,6 @@ WaylandPopupHierarchyHideTemporary
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -9915,7 +9830,6 @@ p
 ]
 "
 this
-)
 )
 ;
 nsWindow
@@ -9934,7 +9848,6 @@ popup
 {
 LOG_POPUP
 (
-(
 "
 temporary
 hidding
@@ -9945,7 +9858,6 @@ p
 ]
 "
 popup
-)
 )
 ;
 nsWindow
@@ -10003,7 +9915,6 @@ WaylandPopupHierarchyShowTemporaryHidden
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -10012,7 +9923,6 @@ WaylandPopupHierarchyShowTemporaryHidden
 (
 )
 "
-)
 )
 ;
 nsWindow
@@ -10043,7 +9953,6 @@ false
 ;
 LOG_POPUP
 (
-(
 "
 showing
 temporary
@@ -10055,7 +9964,6 @@ p
 ]
 "
 popup
-)
 )
 ;
 popup
@@ -10085,7 +9993,6 @@ WaylandPopupHierarchyCalculatePositions
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -10094,7 +10001,6 @@ WaylandPopupHierarchyCalculatePositions
 (
 )
 "
-)
 )
 ;
 /
@@ -10119,7 +10025,6 @@ popup
 )
 {
 LOG_POPUP
-(
 (
 "
 popup
@@ -10148,7 +10053,6 @@ popup
 -
 >
 mWaylandPopupPrev
-)
 )
 ;
 gtk_window_set_transient_for
@@ -10208,7 +10112,6 @@ to
 recalculate
 .
 LOG_POPUP
-(
 (
 "
 popup
@@ -10295,7 +10198,6 @@ FractionalScaleFactor
 )
 )
 )
-)
 ;
 #
 ifdef
@@ -10359,7 +10261,6 @@ GetFontScaleFactor
 ;
 LOG_POPUP
 (
-(
 "
 popup
 [
@@ -10405,7 +10306,6 @@ height
 /
 p2a
 )
-)
 ;
 }
 }
@@ -10428,7 +10328,6 @@ mPopupAnchored
 {
 LOG_POPUP
 (
-(
 "
 popup
 [
@@ -10441,7 +10340,6 @@ context
 menu
 "
 popup
-)
 )
 ;
 static
@@ -10514,7 +10412,6 @@ mPopupAnchored
 {
 LOG_POPUP
 (
-(
 "
 popup
 [
@@ -10525,7 +10422,6 @@ is
 anchored
 "
 popup
-)
 )
 ;
 if
@@ -10579,7 +10475,6 @@ nullptr
 {
 LOG_POPUP
 (
-(
 "
 popup
 [
@@ -10592,7 +10487,6 @@ as
 parent
 "
 popup
-)
 )
 ;
 popup
@@ -10622,7 +10516,6 @@ parentY
 ;
 LOG_POPUP
 (
-(
 "
 popup
 [
@@ -10637,10 +10530,8 @@ n
 "
 popup
 )
-)
 ;
 LOG_POPUP
-(
 (
 "
 parent
@@ -10657,10 +10548,8 @@ n
 parentX
 parentY
 )
-)
 ;
 LOG_POPUP
-(
 (
 "
 popup
@@ -10686,7 +10575,6 @@ popup
 mPopupPosition
 .
 y
-)
 )
 ;
 popup
@@ -10723,7 +10611,6 @@ parentY
 ;
 }
 LOG_POPUP
-(
 (
 "
 popup
@@ -10774,7 +10661,6 @@ popup
 mRelativePopupPosition
 .
 y
-)
 )
 ;
 popup
@@ -11169,7 +11055,6 @@ return
 }
 LOG_POPUP
 (
-(
 "
 Widget
 Popup
@@ -11178,7 +11063,6 @@ Hierarchy
 \
 n
 "
-)
 )
 ;
 if
@@ -11192,13 +11076,11 @@ mWaylandPopupNext
 {
 LOG_POPUP
 (
-(
 "
 Empty
 \
 n
 "
-)
 )
 ;
 }
@@ -11237,7 +11119,6 @@ indent
 )
 ;
 LOG_POPUP
-(
 (
 "
 %
@@ -11325,7 +11206,6 @@ popup
 mShell
 )
 )
-)
 ;
 indent
 +
@@ -11343,7 +11223,6 @@ mWaylandPopupNext
 }
 LOG_POPUP
 (
-(
 "
 Layout
 Popup
@@ -11352,7 +11231,6 @@ Hierarchy
 \
 n
 "
-)
 )
 ;
 AutoTArray
@@ -11383,13 +11261,11 @@ Length
 {
 LOG_POPUP
 (
-(
 "
 Empty
 \
 n
 "
-)
 )
 ;
 }
@@ -11461,7 +11337,6 @@ window
 {
 LOG_POPUP
 (
-(
 "
 %
 s
@@ -11548,13 +11423,11 @@ window
 mShell
 )
 )
-)
 ;
 }
 else
 {
 LOG_POPUP
-(
 (
 "
 %
@@ -11568,7 +11441,6 @@ indentString
 .
 get
 (
-)
 )
 )
 ;
@@ -11652,7 +11524,6 @@ parentWidget
 ;
 LOG_POPUP
 (
-(
 "
 Topmost
 window
@@ -11666,7 +11537,6 @@ nsWindow
 n
 "
 parentnsWindow
-)
 )
 ;
 return
@@ -11876,7 +11746,6 @@ GDK_WINDOW_TYPE_HINT_UTILITY
 }
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -11904,7 +11773,6 @@ void
 this
 mPopupTrackInHierarchy
 mPopupAnchored
-)
 )
 ;
 gtk_window_set_type_hint
@@ -11948,7 +11816,6 @@ AddWindowToPopupHierarchy
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -11966,7 +11833,6 @@ void
 *
 )
 this
-)
 )
 ;
 #
@@ -12028,7 +11894,6 @@ nodeId
 ;
 LOG_POPUP
 (
-(
 "
 popup
 node
@@ -12045,7 +11910,6 @@ get
 (
 )
 )
-)
 ;
 }
 #
@@ -12060,7 +11924,6 @@ GetFrame
 {
 LOG_POPUP
 (
-(
 "
 Window
 without
@@ -12074,7 +11937,6 @@ popup
 \
 n
 "
-)
 )
 ;
 return
@@ -12179,7 +12041,6 @@ UpdateWaylandPopupHierarchy
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -12197,7 +12058,6 @@ void
 *
 )
 this
-)
 )
 ;
 /
@@ -12233,7 +12093,6 @@ IsInPopupHierarchy
 {
 LOG_POPUP
 (
-(
 "
 popup
 [
@@ -12253,7 +12112,6 @@ void
 *
 )
 this
-)
 )
 ;
 return
@@ -12542,7 +12400,6 @@ changedPopup
 {
 LOG_POPUP
 (
-(
 "
 changed
 Popup
@@ -12554,13 +12411,11 @@ quit
 n
 "
 )
-)
 ;
 return
 ;
 }
 LOG_POPUP
-(
 (
 "
 first
@@ -12578,7 +12433,6 @@ void
 *
 )
 changedPopup
-)
 )
 ;
 /
@@ -12697,7 +12551,6 @@ mWaylandPopupNext
 {
 LOG_POPUP
 (
-(
 "
 last
 popup
@@ -12708,7 +12561,6 @@ quit
 \
 n
 "
-)
 )
 ;
 return
@@ -12887,7 +12739,6 @@ nullptr
 }
 LOG_POPUP
 (
-(
 "
 popup
 [
@@ -12944,7 +12795,6 @@ mWaylandToplevel
 =
 nullptr
 useMoveToRect
-)
 )
 ;
 popup
@@ -13010,7 +12860,6 @@ aWindow
 {
 LOG_POPUP
 (
-(
 "
 NativeMoveResizeCallback
 [
@@ -13030,10 +12879,8 @@ aWindow
 flipped_x
 flipped_y
 )
-)
 ;
 LOG_POPUP
-(
 (
 "
 new
@@ -13070,7 +12917,6 @@ final_rect
 -
 >
 height
-)
 )
 ;
 nsWindow
@@ -13147,7 +12993,6 @@ resized
 {
 LOG_POPUP
 (
-(
 "
 Another
 move
@@ -13161,7 +13006,6 @@ callback
 \
 n
 "
-)
 )
 ;
 /
@@ -13265,7 +13109,6 @@ return
 }
 LOG_POPUP
 (
-(
 "
 orig
 mBounds
@@ -13299,7 +13142,6 @@ width
 mBounds
 .
 height
-)
 )
 ;
 LayoutDeviceIntRect
@@ -13398,7 +13240,6 @@ height
 ;
 LOG_POPUP
 (
-(
 "
 new
 mBounds
@@ -13430,7 +13271,6 @@ width
 newBounds
 .
 height
-)
 )
 ;
 bool
@@ -13492,13 +13332,11 @@ needsSizeUpdate
 {
 LOG_POPUP
 (
-(
 "
 needSizeUpdate
 \
 n
 "
-)
 )
 ;
 /
@@ -13649,7 +13487,6 @@ needsPositionUpdate
 {
 LOG_POPUP
 (
-(
 "
 needPositionUpdate
 new
@@ -13667,7 +13504,6 @@ x
 newBounds
 .
 y
-)
 )
 ;
 mBounds
@@ -13986,7 +13822,6 @@ Size
 ;
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -14027,7 +13862,6 @@ width
 size
 .
 height
-)
 )
 ;
 mPopupPosition
@@ -14207,7 +14041,6 @@ popupWidth
 }
 LOG_POPUP
 (
-(
 "
 set
 position
@@ -14227,7 +14060,6 @@ mPopupPosition
 .
 y
 )
-)
 ;
 gtk_window_move
 (
@@ -14244,7 +14076,6 @@ y
 )
 ;
 LOG_POPUP
-(
 (
 "
 set
@@ -14264,7 +14095,6 @@ width
 size
 .
 height
-)
 )
 ;
 gtk_window_resize
@@ -14319,7 +14149,6 @@ FractionalScaleFactor
 ;
 LOG_POPUP
 (
-(
 "
 setting
 new
@@ -14339,7 +14168,6 @@ x
 mBounds
 .
 y
-)
 )
 ;
 NotifyWindowMoved
@@ -14663,7 +14491,6 @@ Size
 ;
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -14705,7 +14532,6 @@ size
 .
 height
 )
-)
 ;
 /
 /
@@ -14742,7 +14568,6 @@ AreBoundsSane
 {
 LOG_POPUP
 (
-(
 "
 Bounds
 are
@@ -14768,7 +14593,6 @@ mBounds
 .
 height
 )
-)
 ;
 return
 ;
@@ -14780,7 +14604,6 @@ mWaitingForMoveToRectCallback
 {
 LOG_POPUP
 (
-(
 "
 waiting
 for
@@ -14789,7 +14612,6 @@ to
 rect
 schedulling
 "
-)
 )
 ;
 if
@@ -14874,7 +14696,6 @@ aResize
 {
 LOG_POPUP
 (
-(
 "
 set
 size
@@ -14893,7 +14714,6 @@ width
 size
 .
 height
-)
 )
 ;
 gtk_window_resize
@@ -14952,7 +14772,6 @@ window
 .
 LOG_POPUP
 (
-(
 "
 fits
 parent
@@ -14963,7 +14782,6 @@ resize
 \
 n
 "
-)
 )
 ;
 return
@@ -15008,7 +14826,6 @@ changed
 .
 LOG_POPUP
 (
-(
 "
 popup
 position
@@ -15043,7 +14860,6 @@ position
 .
 y
 )
-)
 ;
 mPopupPosition
 =
@@ -15064,7 +14880,6 @@ WaylandPopupMove
 {
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -15082,7 +14897,6 @@ void
 *
 )
 this
-)
 )
 ;
 /
@@ -15150,7 +14964,6 @@ GetFrame
 ;
 LOG_POPUP
 (
-(
 "
 original
 widget
@@ -15172,10 +14985,8 @@ mPopupPosition
 .
 y
 )
-)
 ;
 LOG_POPUP
-(
 (
 "
 relative
@@ -15198,10 +15009,8 @@ mRelativePopupPosition
 .
 y
 )
-)
 ;
 LOG_POPUP
-(
 (
 "
 relative
@@ -15223,7 +15032,6 @@ x
 mRelativePopupOffset
 .
 y
-)
 )
 ;
 if
@@ -15278,7 +15086,6 @@ issues
 4308
 LOG_POPUP
 (
-(
 "
 use
 gtk_window_move
@@ -15309,7 +15116,6 @@ mRelativePopupOffset
 .
 y
 )
-)
 ;
 gtk_window_move
 (
@@ -15338,7 +15144,6 @@ else
 {
 LOG_POPUP
 (
-(
 "
 use
 gtk_window_move
@@ -15365,7 +15170,6 @@ y
 mRelativePopupOffset
 .
 y
-)
 )
 ;
 gtk_window_move
@@ -15441,7 +15245,6 @@ FractionalScaleFactor
 ;
 LOG_POPUP
 (
-(
 "
 popup
 is
@@ -15466,7 +15269,6 @@ x
 mBounds
 .
 y
-)
 )
 ;
 NotifyWindowMoved
@@ -15605,7 +15407,6 @@ the
 gdk_window_move_to_rect
 LOG_POPUP
 (
-(
 "
 layout
 popup
@@ -15639,7 +15440,6 @@ width
 anchorRect
 .
 height
-)
 )
 ;
 bool
@@ -15695,7 +15495,6 @@ y
 ;
 LOG_POPUP
 (
-(
 "
 Set
 anchor
@@ -15731,7 +15530,6 @@ anchorRect
 .
 height
 )
-)
 ;
 }
 else
@@ -15746,7 +15544,6 @@ width
 )
 {
 LOG_POPUP
-(
 (
 "
 No
@@ -15770,7 +15567,6 @@ x
 mRelativePopupPosition
 .
 y
-)
 )
 ;
 hasAnchorRect
@@ -15819,7 +15615,6 @@ parentY
 ;
 LOG_POPUP
 (
-(
 "
 subtract
 parent
@@ -15835,7 +15630,6 @@ n
 "
 parentX
 parentY
-)
 )
 ;
 anchorRect
@@ -15855,7 +15649,6 @@ parentY
 }
 }
 LOG_POPUP
-(
 (
 "
 final
@@ -15892,7 +15685,6 @@ width
 anchorRect
 .
 height
-)
 )
 ;
 /
@@ -16010,7 +15802,6 @@ menuAnchor
 }
 LOG_POPUP
 (
-(
 "
 parentRect
 gravity
@@ -16027,7 +15818,6 @@ n
 "
 rectAnchor
 menuAnchor
-)
 )
 ;
 /
@@ -16462,7 +16252,6 @@ this
 }
 LOG_POPUP
 (
-(
 "
 popup
 window
@@ -16489,7 +16278,6 @@ cursorOffset
 y
 /
 p2a
-)
 )
 ;
 GdkRectangle
@@ -16577,7 +16365,6 @@ WaylandPopupRemoveNegativePosition
 ;
 LOG_POPUP
 (
-(
 "
 move
 -
@@ -16586,7 +16373,6 @@ to
 rect
 call
 "
-)
 )
 ;
 mPopupLastAnchor
@@ -16791,7 +16577,6 @@ aMode
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -16812,7 +16597,6 @@ void
 )
 this
 aMode
-)
 )
 ;
 /
@@ -16871,12 +16655,10 @@ mSizeMode
 {
 LOG
 (
-(
 "
 already
 set
 "
-)
 )
 ;
 return
@@ -16892,12 +16674,10 @@ nsSizeMode_Maximized
 :
 LOG
 (
-(
 "
 set
 maximized
 "
-)
 )
 ;
 gtk_window_maximize
@@ -16915,12 +16695,10 @@ nsSizeMode_Minimized
 :
 LOG
 (
-(
 "
 set
 minimized
 "
-)
 )
 ;
 gtk_window_iconify
@@ -16938,12 +16716,10 @@ nsSizeMode_Fullscreen
 :
 LOG
 (
-(
 "
 set
 fullscreen
 "
-)
 )
 ;
 MakeFullScreen
@@ -16957,12 +16733,10 @@ default
 :
 LOG
 (
-(
 "
 set
 normal
 "
-)
 )
 ;
 /
@@ -18524,7 +18298,6 @@ case
 .
 LOG
 (
-(
 "
 SetFocus
 %
@@ -18548,7 +18321,6 @@ void
 *
 )
 this
-)
 )
 ;
 GtkWidget
@@ -18903,7 +18675,6 @@ GetFocusTimestamp
 ;
 LOG
 (
-(
 "
 requesting
 toplevel
@@ -18920,7 +18691,6 @@ void
 *
 )
 this
-)
 )
 ;
 NS_ASSERTION
@@ -19129,7 +18899,6 @@ this
 {
 LOG
 (
-(
 "
 already
 have
@@ -19146,7 +18915,6 @@ void
 *
 )
 this
-)
 )
 ;
 return
@@ -19183,7 +18951,6 @@ this
 }
 LOG
 (
-(
 "
 widget
 now
@@ -19205,7 +18972,6 @@ void
 *
 )
 this
-)
 )
 ;
 }
@@ -19353,7 +19119,6 @@ GdkCeiledScaleFactor
 ;
 LOG
 (
-(
 "
 GetScreenBounds
 [
@@ -19419,7 +19184,6 @@ rect
 height
 /
 scale
-)
 )
 ;
 #
@@ -19763,7 +19527,6 @@ y
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -19791,7 +19554,6 @@ x
 mClientOffset
 .
 y
-)
 )
 ;
 }
@@ -20570,7 +20332,6 @@ FALSE
 ;
 LOG
 (
-(
 "
 Invalidate
 (
@@ -20609,7 +20370,6 @@ width
 rect
 .
 height
-)
 )
 ;
 }
@@ -21508,7 +21268,6 @@ aCapture
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -21528,7 +21287,6 @@ void
 *
 )
 this
-)
 )
 ;
 if
@@ -21611,7 +21369,6 @@ return
 ;
 LOG
 (
-(
 "
 CaptureRollupEvents
 (
@@ -21629,7 +21386,6 @@ this
 int
 (
 aDoCapture
-)
 )
 )
 ;
@@ -21780,7 +21536,6 @@ widget
 .
 LOG
 (
-(
 "
 remove
 mContainer
@@ -21793,7 +21548,6 @@ p
 n
 "
 this
-)
 )
 ;
 gtk_grab_remove
@@ -21822,7 +21576,6 @@ aCycleCount
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -21840,7 +21593,6 @@ void
 *
 )
 this
-)
 )
 ;
 GtkWidget
@@ -22695,7 +22447,6 @@ FALSE
 ;
 LOG
 (
-(
 "
 received
 expose
@@ -22729,7 +22480,6 @@ mGdkWindow
 )
 :
 0
-)
 )
 ;
 LayoutDeviceIntRegion
@@ -24529,7 +24279,6 @@ coordinates
 .
 LOG
 (
-(
 "
 configure
 event
@@ -24578,7 +24327,6 @@ height
 gdk_window_get_scale_factor
 (
 mGdkWindow
-)
 )
 )
 ;
@@ -24641,7 +24389,6 @@ mGdkWindow
 {
 LOG
 (
-(
 "
 scale
 factor
@@ -24655,7 +24402,6 @@ early
 gdk_window_get_scale_factor
 (
 mGdkWindow
-)
 )
 )
 ;
@@ -25337,7 +25083,6 @@ aAllocation
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -25382,7 +25127,6 @@ aAllocation
 -
 >
 height
-)
 )
 ;
 /
@@ -25499,14 +25243,12 @@ size
 {
 LOG
 (
-(
 "
 Already
 the
 same
 size
 "
-)
 )
 ;
 /
@@ -25944,7 +25686,6 @@ time
 ;
 LOG
 (
-(
 "
 OnEnterNotify
 :
@@ -25958,7 +25699,6 @@ void
 *
 )
 this
-)
 )
 ;
 DispatchInputEvent
@@ -26240,7 +25980,6 @@ ePlatformChild
 ;
 LOG
 (
-(
 "
 OnLeaveNotify
 :
@@ -26254,7 +25993,6 @@ void
 *
 )
 this
-)
 )
 ;
 DispatchInputEvent
@@ -27294,7 +27032,6 @@ eSecondary
 }
 LOG
 (
-(
 "
 Synthesized
 button
@@ -27318,7 +27055,6 @@ void
 *
 )
 this
-)
 )
 ;
 /
@@ -27700,7 +27436,6 @@ aEvent
 {
 LOG
 (
-(
 "
 Button
 %
@@ -27721,7 +27456,6 @@ void
 *
 )
 this
-)
 )
 ;
 /
@@ -28303,7 +28037,6 @@ aEvent
 {
 LOG
 (
-(
 "
 Button
 %
@@ -28324,7 +28057,6 @@ void
 *
 )
 this
-)
 )
 ;
 if
@@ -28732,7 +28464,6 @@ aEvent
 {
 LOG
 (
-(
 "
 OnContainerFocusInEvent
 [
@@ -28747,7 +28478,6 @@ void
 *
 )
 this
-)
 )
 ;
 /
@@ -28815,7 +28545,6 @@ gBlockActivateEvent
 {
 LOG
 (
-(
 "
 activated
 notification
@@ -28833,7 +28562,6 @@ void
 *
 )
 this
-)
 )
 ;
 return
@@ -28926,7 +28654,6 @@ this
 }
 LOG
 (
-(
 "
 Events
 sent
@@ -28947,7 +28674,6 @@ void
 )
 this
 )
-)
 ;
 }
 void
@@ -28963,7 +28689,6 @@ aEvent
 {
 LOG
 (
-(
 "
 OnContainerFocusOutEvent
 [
@@ -28978,7 +28703,6 @@ void
 *
 )
 this
-)
 )
 ;
 if
@@ -29230,7 +28954,6 @@ UpdateMozWindowActive
 }
 LOG
 (
-(
 "
 Done
 with
@@ -29249,7 +28972,6 @@ void
 *
 )
 this
-)
 )
 ;
 }
@@ -29613,7 +29335,6 @@ aEvent
 {
 LOG
 (
-(
 "
 OnKeyPressEvent
 [
@@ -29628,7 +29349,6 @@ void
 *
 )
 this
-)
 )
 ;
 RefPtr
@@ -29666,7 +29386,6 @@ aEvent
 {
 LOG
 (
-(
 "
 OnKeyReleaseEvent
 [
@@ -29681,7 +29400,6 @@ void
 *
 )
 this
-)
 )
 ;
 RefPtr
@@ -29791,7 +29509,6 @@ time
 {
 LOG
 (
-(
 "
 [
 %
@@ -29814,7 +29531,6 @@ aEvent
 -
 >
 direction
-)
 )
 ;
 return
@@ -29988,7 +29704,6 @@ gdk_event_is_scroll_stop_event
 ;
 LOG
 (
-(
 "
 [
 %
@@ -30025,7 +29740,6 @@ aEvent
 >
 delta_y
 mPanInProgress
-)
 )
 ;
 PanGestureInput
@@ -30409,7 +30123,6 @@ aEvent
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -30449,7 +30162,6 @@ aEvent
 -
 >
 new_window_state
-)
 )
 ;
 if
@@ -30601,7 +30313,6 @@ mapped
 }
 LOG
 (
-(
 "
 \
 tquick
@@ -30616,7 +30327,6 @@ true
 \
 n
 "
-)
 )
 ;
 return
@@ -31285,7 +30995,6 @@ GDK_WINDOW_STATE_FULLSCREEN
 {
 LOG
 (
-(
 "
 \
 tearly
@@ -31298,7 +31007,6 @@ changed
 \
 n
 "
-)
 )
 ;
 return
@@ -31316,14 +31024,12 @@ GDK_WINDOW_STATE_ICONIFIED
 {
 LOG
 (
-(
 "
 \
 tIconified
 \
 n
 "
-)
 )
 ;
 mSizeState
@@ -31356,14 +31062,12 @@ GDK_WINDOW_STATE_FULLSCREEN
 {
 LOG
 (
-(
 "
 \
 tFullscreen
 \
 n
 "
-)
 )
 ;
 mSizeState
@@ -31384,14 +31088,12 @@ GDK_WINDOW_STATE_MAXIMIZED
 {
 LOG
 (
-(
 "
 \
 tMaximized
 \
 n
 "
-)
 )
 ;
 mSizeState
@@ -31415,14 +31117,12 @@ else
 {
 LOG
 (
-(
 "
 \
 tNormal
 \
 n
 "
-)
 )
 ;
 mSizeState
@@ -31454,14 +31154,12 @@ GDK_WINDOW_STATE_TILED
 {
 LOG
 (
-(
 "
 \
 tTiled
 \
 n
 "
-)
 )
 ;
 mIsTiled
@@ -31473,7 +31171,6 @@ else
 {
 LOG
 (
-(
 "
 \
 tNot
@@ -31481,7 +31178,6 @@ tiled
 \
 n
 "
-)
 )
 ;
 mIsTiled
@@ -32013,7 +31709,6 @@ aData
 {
 LOGDRAG
 (
-(
 "
 nsWindow
 :
@@ -32031,7 +31726,6 @@ void
 *
 )
 this
-)
 )
 ;
 RefPtr
@@ -32542,7 +32236,6 @@ aEvent
 {
 LOG
 (
-(
 "
 OnTouchEvent
 :
@@ -32573,7 +32266,6 @@ aEvent
 -
 >
 type
-)
 )
 ;
 if
@@ -32794,7 +32486,6 @@ null
 ;
 LOG
 (
-(
 "
 start
 window
@@ -32803,7 +32494,6 @@ window
 \
 n
 "
-)
 )
 ;
 gdk_window_begin_move_drag
@@ -32844,7 +32534,6 @@ mWindowShouldStartDragging
 {
 LOG
 (
-(
 "
 end
 of
@@ -32854,7 +32543,6 @@ window
 \
 n
 "
-)
 )
 ;
 mWindowShouldStartDragging
@@ -33976,7 +33664,6 @@ aInitData
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -34002,7 +33689,6 @@ GetWindowNodeName
 .
 get
 (
-)
 )
 )
 ;
@@ -34182,7 +33868,6 @@ aRect
 ;
 LOG
 (
-(
 "
 mBounds
 :
@@ -34217,7 +33902,6 @@ width
 mBounds
 .
 height
-)
 )
 ;
 mPreferredPopupRectFlushed
@@ -35125,7 +34809,6 @@ Size
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -35155,7 +34838,6 @@ width
 size
 .
 height
-)
 )
 ;
 gtk_window_resize
@@ -35202,7 +34884,6 @@ GDK_WINDOW_TYPE_HINT_DIALOG
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -35220,7 +34901,6 @@ p
 n
 "
 this
-)
 )
 ;
 if
@@ -35247,7 +34927,6 @@ GetGtkWidget
 ;
 LOG
 (
-(
 "
 set
 parent
@@ -35260,7 +34939,6 @@ p
 n
 "
 parentnsWindow
-)
 )
 ;
 }
@@ -35294,7 +34972,6 @@ mPopupHint
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -35311,7 +34988,6 @@ p
 n
 "
 this
-)
 )
 ;
 if
@@ -35607,7 +35283,6 @@ gtkTypeHint
 }
 LOG_POPUP
 (
-(
 "
 nsWindow
 :
@@ -35635,7 +35310,6 @@ get
 (
 )
 )
-)
 ;
 if
 (
@@ -35643,7 +35317,6 @@ parentnsWindow
 )
 {
 LOG_POPUP
-(
 (
 "
 set
@@ -35666,7 +35339,6 @@ mGtkWindowRoleName
 .
 get
 (
-)
 )
 )
 ;
@@ -35818,7 +35490,6 @@ SetDefaultIcon
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -35836,7 +35507,6 @@ n
 "
 this
 )
-)
 ;
 if
 (
@@ -35845,7 +35515,6 @@ mIsPIPWindow
 {
 LOG
 (
-(
 "
 Is
 PIP
@@ -35853,7 +35522,6 @@ Window
 \
 n
 "
-)
 )
 ;
 gtk_window_set_type_hint
@@ -35972,6 +35640,7 @@ moz_container_wayland_add_initial_draw_callback
 (
 mContainer
 [
+this
 self
 ]
 (
@@ -35980,25 +35649,7 @@ self
 >
 void
 {
-MOZ_LOG
-(
-self
--
->
-IsPopup
-(
-)
-?
-gWidgetPopupLog
-:
-gWidgetLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+LOG
 (
 "
 moz_container_wayland
@@ -36010,7 +35661,6 @@ ResumeCompositorHiddenWindow
 (
 )
 "
-)
 )
 ;
 self
@@ -37587,7 +37237,6 @@ nullptr
 }
 LOG
 (
-(
 "
 nsWindow
 [
@@ -37618,7 +37267,6 @@ window
 "
 "
 )
-)
 ;
 if
 (
@@ -37626,7 +37274,6 @@ mShell
 )
 {
 LOG
-(
 (
 "
 \
@@ -37660,7 +37307,6 @@ mGdkWindow
 :
 0
 )
-)
 ;
 }
 else
@@ -37670,7 +37316,6 @@ mContainer
 )
 {
 LOG
-(
 (
 "
 \
@@ -37686,7 +37331,6 @@ n
 mContainer
 mGdkWindow
 )
-)
 ;
 }
 else
@@ -37696,7 +37340,6 @@ mGdkWindow
 )
 {
 LOG
-(
 (
 "
 \
@@ -37713,7 +37356,6 @@ mGdkWindow
 gdk_window_get_parent
 (
 mGdkWindow
-)
 )
 )
 ;
@@ -38449,7 +38091,6 @@ TopLeft
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -38491,7 +38132,6 @@ size
 .
 height
 )
-)
 ;
 if
 (
@@ -38503,7 +38143,6 @@ AreBoundsSane
 {
 LOG
 (
-(
 "
 bounds
 are
@@ -38512,7 +38151,6 @@ hidding
 the
 window
 "
-)
 )
 ;
 /
@@ -38627,7 +38265,6 @@ aMoved
 {
 LOG
 (
-(
 "
 moving
 to
@@ -38643,7 +38280,6 @@ x
 topLeft
 .
 y
-)
 )
 ;
 gtk_window_move
@@ -38983,7 +38619,6 @@ GetRemoteRenderer
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -39001,7 +38636,6 @@ void
 *
 )
 this
-)
 )
 ;
 MOZ_ASSERT
@@ -39168,7 +38802,6 @@ return
 }
 LOG
 (
-(
 "
 nsWindow
 :
@@ -39186,7 +38819,6 @@ void
 *
 )
 this
-)
 )
 ;
 mCompositorState
@@ -39237,13 +38869,11 @@ mCompositorWidgetDelegate
 {
 LOG
 (
-(
 "
 deleted
 layer
 manager
 "
-)
 )
 ;
 DestroyLayerManager
@@ -39261,12 +38891,10 @@ sync
 IPC
 LOG
 (
-(
 "
 paused
 compositor
 "
-)
 )
 ;
 remoteRenderer
@@ -39307,6 +38935,7 @@ moz_container_wayland_add_initial_draw_callback
 (
 mContainer
 [
+this
 self
 ]
 (
@@ -39315,25 +38944,7 @@ self
 >
 void
 {
-MOZ_LOG
-(
-self
--
->
-IsPopup
-(
-)
-?
-gWidgetPopupLog
-:
-gWidgetLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+LOG
 (
 "
 moz_container_wayland
@@ -39345,7 +38956,6 @@ ResumeCompositorHiddenWindow
 (
 )
 "
-)
 )
 ;
 self
@@ -39501,7 +39111,6 @@ return
 }
 LOG
 (
-(
 "
 nsWindow
 :
@@ -39521,7 +39130,6 @@ void
 *
 )
 this
-)
 )
 ;
 if
@@ -39625,7 +39233,6 @@ return
 }
 LOG
 (
-(
 "
 nsWindow
 :
@@ -39645,7 +39252,6 @@ void
 *
 )
 this
-)
 )
 ;
 if
@@ -40055,7 +39661,6 @@ false
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -40070,7 +39675,6 @@ p
 n
 "
 this
-)
 )
 ;
 if
@@ -40161,7 +39765,6 @@ else
 {
 LOG
 (
-(
 "
 calling
 gtk_widget_show
@@ -40176,7 +39779,6 @@ p
 n
 "
 this
-)
 )
 ;
 gtk_widget_show
@@ -40194,7 +39796,6 @@ mContainer
 {
 LOG
 (
-(
 "
 calling
 gtk_widget_show
@@ -40204,7 +39805,6 @@ mContainer
 \
 n
 "
-)
 )
 ;
 gtk_widget_show
@@ -40224,14 +39824,12 @@ mGdkWindow
 {
 LOG
 (
-(
 "
 calling
 gdk_window_show_unraised
 \
 n
 "
-)
 )
 ;
 gdk_window_show_unraised
@@ -40319,7 +39917,6 @@ false
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -40334,7 +39931,6 @@ p
 n
 "
 this
-)
 )
 ;
 if
@@ -41578,7 +41174,6 @@ return
 }
 LOG
 (
-(
 "
 nsWindow
 :
@@ -41595,7 +41190,6 @@ p
 "
 aIsTransparent
 this
-)
 )
 ;
 cairo_rectangle_int_t
@@ -44036,7 +43630,6 @@ aTime
 {
 LOG
 (
-(
 "
 GrabPointer
 time
@@ -44057,7 +43650,6 @@ int
 )
 aTime
 mRetryPointerGrab
-)
 )
 ;
 mRetryPointerGrab
@@ -44109,7 +43701,6 @@ mHasMappedToplevel
 {
 LOG
 (
-(
 "
 window
 not
@@ -44117,7 +43708,6 @@ visible
 \
 n
 "
-)
 )
 ;
 mRetryPointerGrab
@@ -44253,7 +43843,6 @@ GDK_GRAB_NOT_VIEWABLE
 {
 LOG
 (
-(
 "
 GrabPointer
 :
@@ -44266,7 +43855,6 @@ retry
 \
 n
 "
-)
 )
 ;
 mRetryPointerGrab
@@ -44285,7 +43873,6 @@ GDK_GRAB_SUCCESS
 {
 LOG
 (
-(
 "
 GrabPointer
 :
@@ -44299,7 +43886,6 @@ i
 n
 "
 retval
-)
 )
 ;
 /
@@ -44408,13 +43994,11 @@ void
 {
 LOG
 (
-(
 "
 ReleaseGrabs
 \
 n
 "
-)
 )
 ;
 mRetryPointerGrab
@@ -45372,7 +44956,6 @@ GetWidgetScreen
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -45386,7 +44969,6 @@ p
 ]
 "
 this
-)
 )
 ;
 /
@@ -45433,14 +45015,12 @@ forget
 }
 LOG
 (
-(
 "
 fallback
 to
 Gtk
 code
 "
-)
 )
 ;
 nsCOMPtr
@@ -45726,7 +45306,6 @@ aTargetScreen
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -45748,7 +45327,6 @@ void
 )
 this
 aFullScreen
-)
 )
 ;
 if
@@ -45938,7 +45516,6 @@ aStyle
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -45963,7 +45540,6 @@ void
 )
 this
 aStyle
-)
 )
 ;
 if
@@ -50039,13 +49615,11 @@ event
 {
 LOGW
 (
-(
 "
 key_press_event_cb
 \
 n
 "
-)
 )
 ;
 UpdateLastInputEventTime
@@ -50366,13 +49940,11 @@ event
 {
 LOGW
 (
-(
 "
 key_release_event_cb
 \
 n
 "
-)
 )
 ;
 UpdateLastInputEventTime
@@ -51406,7 +50978,6 @@ window
 }
 LOGDRAG
 (
-(
 "
 WindowDragMotionHandler
 nsWindow
@@ -51420,7 +50991,6 @@ void
 *
 )
 innerMostWindow
-)
 )
 ;
 LayoutDeviceIntPoint
@@ -51549,7 +51119,6 @@ aWidget
 {
 LOGDRAG
 (
-(
 "
 WindowDragLeaveHandler
 (
@@ -51557,7 +51126,6 @@ WindowDragLeaveHandler
 \
 n
 "
-)
 )
 ;
 RefPtr
@@ -51586,7 +51154,6 @@ IsDragActive
 {
 LOGDRAG
 (
-(
 "
 Already
 finished
@@ -51594,7 +51161,6 @@ finished
 \
 n
 "
-)
 )
 ;
 return
@@ -51619,7 +51185,6 @@ window
 {
 LOGDRAG
 (
-(
 "
 Failed
 -
@@ -51632,7 +51197,6 @@ nsWindow
 \
 n
 "
-)
 )
 ;
 return
@@ -51725,7 +51289,6 @@ again
 .
 LOGDRAG
 (
-(
 "
 Failed
 -
@@ -51736,7 +51299,6 @@ GetMostRecentDestWindow
 \
 n
 "
-)
 )
 ;
 return
@@ -51811,7 +51373,6 @@ run
 .
 LOGDRAG
 (
-(
 "
 Failed
 -
@@ -51823,13 +51384,11 @@ GetMozContainerWidget
 n
 "
 )
-)
 ;
 return
 ;
 }
 LOGDRAG
-(
 (
 "
 WindowDragLeaveHandler
@@ -51844,7 +51403,6 @@ void
 *
 )
 mostRecentDragWindow
-)
 )
 ;
 dragService
@@ -51983,7 +51541,6 @@ window
 }
 LOGDRAG
 (
-(
 "
 WindowDragDropHandler
 nsWindow
@@ -51997,7 +51554,6 @@ void
 *
 )
 innerMostWindow
-)
 )
 ;
 LayoutDeviceIntPoint
@@ -52515,7 +52071,6 @@ mRootAccessible
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -52526,7 +52081,6 @@ Accessibility
 \
 n
 "
-)
 )
 ;
 mRootAccessible
@@ -53761,7 +53315,6 @@ delegate
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -53782,7 +53335,6 @@ void
 )
 this
 delegate
-)
 )
 ;
 if
@@ -53994,7 +53546,6 @@ y
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -54022,7 +53573,6 @@ x
 mClientOffset
 .
 y
-)
 )
 ;
 /
@@ -54105,7 +53655,6 @@ aState
 {
 LOG
 (
-(
 "
 nsWindow
 :
@@ -54136,7 +53685,6 @@ aState
 int
 )
 mGtkWindowDecoration
-)
 )
 ;
 if
@@ -54213,7 +53761,6 @@ GTK_DECORATION_CLIENT
 {
 LOG
 (
-(
 "
 Using
 CSD
@@ -54221,7 +53768,6 @@ mode
 \
 n
 "
-)
 )
 ;
 /
@@ -54616,7 +54162,6 @@ Size
 ;
 LOG
 (
-(
 "
 resize
 to
@@ -54634,7 +54179,6 @@ width
 size
 .
 height
-)
 )
 ;
 gtk_window_resize
@@ -59690,7 +59234,6 @@ height
 ;
 LOG
 (
-(
 "
 nsWindow
 :
@@ -59723,7 +59266,6 @@ width
 height
 mAspectRatio
 )
-)
 ;
 }
 else
@@ -59735,7 +59277,6 @@ mAspectRatio
 0
 ;
 LOG
-(
 (
 "
 nsWindow
@@ -59759,7 +59300,6 @@ void
 *
 )
 this
-)
 )
 ;
 }

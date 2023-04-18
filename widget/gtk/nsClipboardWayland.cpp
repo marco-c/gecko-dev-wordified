@@ -241,6 +241,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_widget
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -506,7 +515,6 @@ data
 ;
 LOGCLIP
 (
-(
 "
 Data
 offer
@@ -521,7 +529,6 @@ n
 "
 wl_data_offer
 type
-)
 )
 ;
 offer
@@ -928,7 +935,6 @@ fd
 {
 LOGCLIP
 (
-(
 "
 DataOffer
 :
@@ -945,7 +951,6 @@ n
 "
 aMimeType
 fd
-)
 )
 ;
 if
@@ -1144,7 +1149,6 @@ FALSE
 {
 LOGCLIP
 (
-(
 "
 DataOffer
 :
@@ -1162,7 +1166,6 @@ n
 "
 aMimeType
 )
-)
 ;
 return
 true
@@ -1170,7 +1173,6 @@ true
 }
 }
 LOGCLIP
-(
 (
 "
 DataOffer
@@ -1187,7 +1189,6 @@ s
 n
 "
 aMimeType
-)
 )
 ;
 return
@@ -1240,7 +1241,6 @@ aContentLength
 {
 LOGCLIP
 (
-(
 "
 GetDataInternal
 (
@@ -1252,7 +1252,6 @@ s
 n
 "
 aMimeType
-)
 )
 ;
 int
@@ -1533,7 +1532,6 @@ while
 {
 LOGCLIP
 (
-(
 "
 reading
 data
@@ -1543,7 +1541,6 @@ data
 \
 n
 "
-)
 )
 ;
 ret
@@ -1752,7 +1749,6 @@ nullptr
 }
 LOGCLIP
 (
-(
 "
 Got
 clipboard
@@ -1765,7 +1761,6 @@ n
 "
 *
 aContentLength
-)
 )
 ;
 return
@@ -1816,7 +1811,6 @@ aContentLength
 {
 LOGCLIP
 (
-(
 "
 DataOffer
 :
@@ -1832,7 +1826,6 @@ n
 "
 aMimeType
 )
-)
 ;
 if
 (
@@ -1844,7 +1837,6 @@ aMimeType
 )
 {
 LOGCLIP
-(
 (
 "
 Failed
@@ -1861,7 +1853,6 @@ MIME
 n
 "
 aMimeType
-)
 )
 ;
 return
@@ -1894,7 +1885,6 @@ aContentLength
 {
 LOGCLIP
 (
-(
 "
 DataOffer
 :
@@ -1910,7 +1900,6 @@ n
 "
 aMimeType
 )
-)
 ;
 if
 (
@@ -1922,7 +1911,6 @@ aMimeType
 )
 {
 LOGCLIP
-(
 (
 "
 Failed
@@ -1939,7 +1927,6 @@ MIME
 n
 "
 aMimeType
-)
 )
 ;
 return
@@ -1958,7 +1945,6 @@ TryLock
 {
 LOGCLIP
 (
-(
 "
 Failed
 :
@@ -1970,7 +1956,6 @@ used
 \
 n
 "
-)
 )
 ;
 return
@@ -2032,7 +2017,6 @@ failed
 transfers
 LOGCLIP
 (
-(
 "
 data
 offer
@@ -2045,7 +2029,6 @@ clearing
 \
 n
 "
-)
 )
 ;
 g_clear_pointer
@@ -2180,7 +2163,6 @@ kClipboardTimeout
 {
 LOGCLIP
 (
-(
 "
 hit
 time
@@ -2189,14 +2171,12 @@ limit
 n
 "
 )
-)
 ;
 break
 ;
 }
 }
 LOGCLIP
-(
 (
 "
 doing
@@ -2232,7 +2212,6 @@ entryTime
 1000
 )
 )
-)
 ;
 gtk_main_iteration
 (
@@ -2246,7 +2225,6 @@ mGetterFinished
 )
 {
 LOGCLIP
-(
 (
 "
 failed
@@ -2262,7 +2240,6 @@ limit
 n
 "
 )
-)
 ;
 *
 aContentLength
@@ -2274,7 +2251,6 @@ nullptr
 ;
 }
 LOGCLIP
-(
 (
 "
 ineration
@@ -2291,7 +2267,6 @@ n
 "
 mAsyncContentData
 mAsyncContentLength
-)
 )
 ;
 *
@@ -2317,7 +2292,6 @@ aMimeType
 {
 LOGDRAG
 (
-(
 "
 DataOffer
 :
@@ -2335,7 +2309,6 @@ n
 aMimeType
 mTime
 )
-)
 ;
 if
 (
@@ -2347,7 +2320,6 @@ aMimeType
 )
 {
 LOGCLIP
-(
 (
 "
 DataOffer
@@ -2364,7 +2336,6 @@ MIME
 n
 "
 aMimeType
-)
 )
 ;
 return
@@ -2423,7 +2394,6 @@ WL_DATA_DEVICE_MANAGER_DND_ACTION_NONE
 ;
 LOGDRAG
 (
-(
 "
 DataOffer
 :
@@ -2436,7 +2406,6 @@ d
 n
 "
 aPreferredAction
-)
 )
 ;
 /
@@ -2696,7 +2665,6 @@ mime_type
 {
 LOGCLIP
 (
-(
 "
 Primary
 data
@@ -2712,7 +2680,6 @@ n
 "
 primary_selection_offer
 mime_type
-)
 )
 ;
 auto
@@ -2755,7 +2722,6 @@ mime_type
 {
 LOGCLIP
 (
-(
 "
 Primary
 data
@@ -2771,7 +2737,6 @@ n
 "
 primary_selection_offer
 mime_type
-)
 )
 ;
 auto
@@ -3152,7 +3117,6 @@ aContentLength
 {
 LOGDRAG
 (
-(
 "
 DataOffer
 :
@@ -3164,7 +3128,6 @@ s
 n
 "
 aMimeType
-)
 )
 ;
 if
@@ -3368,7 +3331,6 @@ aDataOffer
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -3384,7 +3346,6 @@ n
 "
 aDataOffer
 )
-)
 ;
 if
 (
@@ -3396,7 +3357,6 @@ aDataOffer
 {
 LOGCLIP
 (
-(
 "
 offer
 already
@@ -3407,7 +3367,6 @@ error
 \
 n
 "
-)
 )
 ;
 return
@@ -3436,7 +3395,6 @@ aPrimaryDataOffer
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -3451,7 +3409,6 @@ p
 n
 "
 aPrimaryDataOffer
-)
 )
 ;
 if
@@ -3468,7 +3425,6 @@ aPrimaryDataOffer
 {
 LOGCLIP
 (
-(
 "
 offer
 already
@@ -3479,7 +3435,6 @@ error
 \
 n
 "
-)
 )
 ;
 return
@@ -3508,7 +3463,6 @@ aPrimaryDataOffer
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -3525,7 +3479,6 @@ n
 "
 aPrimaryDataOffer
 )
-)
 ;
 if
 (
@@ -3541,7 +3494,6 @@ aPrimaryDataOffer
 {
 LOGCLIP
 (
-(
 "
 offer
 already
@@ -3552,7 +3504,6 @@ error
 \
 n
 "
-)
 )
 ;
 return
@@ -3581,7 +3532,6 @@ aDataOffer
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -3596,7 +3546,6 @@ p
 n
 "
 aDataOffer
-)
 )
 ;
 /
@@ -3663,7 +3612,6 @@ aPrimaryDataOffer
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -3678,7 +3626,6 @@ p
 n
 "
 aPrimaryDataOffer
-)
 )
 ;
 /
@@ -3747,7 +3694,6 @@ aPrimaryDataOffer
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -3763,7 +3709,6 @@ p
 n
 "
 aPrimaryDataOffer
-)
 )
 ;
 /
@@ -3832,7 +3777,6 @@ aDropDataOffer
 {
 LOGDRAG
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -3844,7 +3788,6 @@ p
 n
 "
 aDropDataOffer
-)
 )
 ;
 /
@@ -3924,7 +3867,6 @@ offer
 {
 LOGCLIP
 (
-(
 "
 data_device_data_offer
 (
@@ -3936,7 +3878,6 @@ p
 n
 "
 offer
-)
 )
 ;
 nsRetrievalContextWayland
@@ -3990,7 +3931,6 @@ offer
 {
 LOGCLIP
 (
-(
 "
 data_device_selection
 (
@@ -4003,7 +3943,6 @@ p
 n
 "
 offer
-)
 )
 ;
 nsRetrievalContextWayland
@@ -4070,12 +4009,10 @@ offer
 {
 LOGDRAG
 (
-(
 "
 nsWindow
 data_device_enter
 "
-)
 )
 ;
 nsRetrievalContextWayland
@@ -4152,7 +4089,6 @@ return
 }
 LOGDRAG
 (
-(
 "
 nsWindow
 data_device_enter
@@ -4168,7 +4104,6 @@ void
 *
 )
 gtkWidget
-)
 )
 ;
 dragContext
@@ -4205,12 +4140,10 @@ data_device
 {
 LOGDRAG
 (
-(
 "
 nsWindow
 data_device_leave
 "
-)
 )
 ;
 nsRetrievalContextWayland
@@ -4256,7 +4189,6 @@ GetWidget
 ;
 LOGDRAG
 (
-(
 "
 nsWindow
 data_device_leave
@@ -4276,7 +4208,6 @@ dropContext
 >
 GetWidget
 (
-)
 )
 )
 ;
@@ -4310,12 +4241,10 @@ y_fixed
 {
 LOGDRAG
 (
-(
 "
 nsWindow
 data_device_motion
 "
-)
 )
 ;
 nsRetrievalContextWayland
@@ -4377,7 +4306,6 @@ y
 ;
 LOGDRAG
 (
-(
 "
 nsWindow
 data_device_motion
@@ -4397,7 +4325,6 @@ dropContext
 >
 GetWidget
 (
-)
 )
 )
 ;
@@ -4433,12 +4360,10 @@ data_device
 {
 LOGDRAG
 (
-(
 "
 nsWindow
 data_device_drop
 "
-)
 )
 ;
 nsRetrievalContextWayland
@@ -4494,7 +4419,6 @@ y
 ;
 LOGDRAG
 (
-(
 "
 nsWindow
 data_device_drop
@@ -4513,7 +4437,6 @@ dropContext
 >
 GetWidget
 (
-)
 )
 )
 ;
@@ -4743,7 +4666,6 @@ primary_offer
 {
 LOGCLIP
 (
-(
 "
 primary_selection_data_offer
 (
@@ -4751,7 +4673,6 @@ primary_selection_data_offer
 \
 n
 "
-)
 )
 ;
 /
@@ -4801,7 +4722,6 @@ primary_offer
 {
 LOGCLIP
 (
-(
 "
 primary_selection_data_offer
 (
@@ -4809,7 +4729,6 @@ primary_selection_data_offer
 \
 n
 "
-)
 )
 ;
 /
@@ -4859,7 +4778,6 @@ primary_offer
 {
 LOGCLIP
 (
-(
 "
 primary_selection_selection
 (
@@ -4867,7 +4785,6 @@ primary_selection_selection
 \
 n
 "
-)
 )
 ;
 nsRetrievalContextWayland
@@ -4911,7 +4828,6 @@ primary_offer
 {
 LOGCLIP
 (
-(
 "
 primary_selection_selection
 (
@@ -4919,7 +4835,6 @@ primary_selection_selection
 \
 n
 "
-)
 )
 ;
 nsRetrievalContextWayland
@@ -5092,7 +5007,6 @@ void
 {
 LOGDRAG
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -5103,7 +5017,6 @@ ClearDragAndDropDataOffer
 \
 n
 "
-)
 )
 ;
 mDragContext
@@ -5331,7 +5244,6 @@ data
 {
 LOGCLIP
 (
-(
 "
 wayland_clipboard_contents_received
 (
@@ -5344,7 +5256,6 @@ p
 n
 "
 selection_data
-)
 )
 ;
 FastTrackClipboard
@@ -5400,7 +5311,6 @@ aSelectionData
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -5419,7 +5329,6 @@ n
 "
 aSelectionData
 )
-)
 ;
 if
 (
@@ -5430,7 +5339,6 @@ aClipboardRequestNumber
 )
 {
 LOGCLIP
-(
 (
 "
 request
@@ -5443,13 +5351,11 @@ match
 n
 "
 )
-)
 ;
 return
 ;
 }
 LOGCLIP
-(
 (
 "
 request
@@ -5458,7 +5364,6 @@ matches
 \
 n
 "
-)
 )
 ;
 int
@@ -5478,7 +5383,6 @@ dataLength
 {
 LOGCLIP
 (
-(
 "
 gtk_clipboard_request_contents
 (
@@ -5494,7 +5398,6 @@ data
 \
 n
 "
-)
 )
 ;
 ReleaseClipboardData
@@ -5516,7 +5419,6 @@ CLIPBOARD_TARGETS
 {
 LOGCLIP
 (
-(
 "
 fastracking
 %
@@ -5530,7 +5432,6 @@ targets
 n
 "
 dataLength
-)
 )
 ;
 gint
@@ -5594,7 +5495,6 @@ CLIPBOARD_TEXT
 {
 LOGCLIP
 (
-(
 "
 fastracking
 %
@@ -5607,7 +5507,6 @@ data
 n
 "
 dataLength
-)
 )
 ;
 mClipboardDataLength
@@ -5671,7 +5570,6 @@ mClipboardDataLength
 ;
 LOGCLIP
 (
-(
 "
 done
 mClipboardData
@@ -5682,7 +5580,6 @@ p
 n
 "
 mClipboardData
-)
 )
 ;
 }
@@ -5783,7 +5680,6 @@ selection
 {
 LOGCLIP
 (
-(
 "
 Asking
 for
@@ -5794,7 +5690,6 @@ content
 \
 n
 "
-)
 )
 ;
 mClipboardRequestNumber
@@ -5976,7 +5871,6 @@ here
 ;
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -5994,7 +5888,6 @@ n
 "
 this
 aMimeType
-)
 )
 ;
 /
@@ -6069,7 +5962,6 @@ selection
 {
 LOGCLIP
 (
-(
 "
 Asking
 for
@@ -6080,7 +5972,6 @@ content
 \
 n
 "
-)
 )
 ;
 mClipboardRequestNumber
@@ -6113,7 +6004,6 @@ else
 {
 LOGCLIP
 (
-(
 "
 Asking
 for
@@ -6124,7 +6014,6 @@ content
 \
 n
 "
-)
 )
 ;
 RefPtr
@@ -6178,7 +6067,6 @@ wayland
 .
 LOGCLIP
 (
-(
 "
 We
 '
@@ -6192,7 +6080,6 @@ null
 \
 n
 "
-)
 )
 ;
 mClipboardData
@@ -6208,7 +6095,6 @@ else
 {
 LOGCLIP
 (
-(
 "
 Getting
 clipboard
@@ -6222,7 +6108,6 @@ s
 n
 "
 aMimeType
-)
 )
 ;
 mClipboardData
@@ -6251,7 +6136,6 @@ mClipboardDataLength
 ;
 LOGCLIP
 (
-(
 "
 Got
 %
@@ -6268,7 +6152,6 @@ n
 "
 mClipboardDataLength
 mClipboardData
-)
 )
 ;
 }
@@ -6312,7 +6195,6 @@ aWhichClipboard
 ;
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -6344,7 +6226,6 @@ Primary
 Selection
 "
 )
-)
 ;
 const
 auto
@@ -6370,7 +6251,6 @@ dataOffer
 {
 LOGCLIP
 (
-(
 "
 We
 '
@@ -6382,7 +6262,6 @@ offer
 \
 n
 "
-)
 )
 ;
 return
@@ -6422,7 +6301,6 @@ i
 {
 LOGCLIP
 (
-(
 "
 We
 have
@@ -6444,7 +6322,6 @@ sTextMimeTypes
 i
 ]
 )
-)
 ;
 uint32_t
 unused
@@ -6465,7 +6342,6 @@ unused
 }
 LOGCLIP
 (
-(
 "
 There
 isn
@@ -6480,7 +6356,6 @@ clipboard
 \
 n
 "
-)
 )
 ;
 return
@@ -6501,7 +6376,6 @@ aClipboardData
 {
 LOGCLIP
 (
-(
 "
 nsRetrievalContextWayland
 :
@@ -6515,7 +6389,6 @@ p
 n
 "
 aClipboardData
-)
 )
 ;
 if
