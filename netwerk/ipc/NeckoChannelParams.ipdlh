@@ -2539,9 +2539,6 @@ initialClientInfo
 DocumentChannelElementCreationArgs
 elementCreationArgs
 ;
-uint64_t
-parentInitiatedNavigationEpoch
-;
 }
 ;
 struct
