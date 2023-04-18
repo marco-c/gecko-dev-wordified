@@ -497,9 +497,6 @@ compat
 config
 "
 "
-devtools
-"
-"
 downloads
 "
 "
