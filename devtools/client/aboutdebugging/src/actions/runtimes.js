@@ -1038,6 +1038,11 @@ deviceDescription
 .
 deviceName
 icon
+isFenix
+:
+runtime
+.
+isFenix
 name
 :
 runtimeName

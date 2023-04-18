@@ -2804,6 +2804,15 @@ super
 pick
 (
 doFocus
+this
+.
+targetFront
+.
+commands
+.
+descriptorFront
+.
+isLocalTab
 )
 ;
 }

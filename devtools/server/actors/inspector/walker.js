@@ -17247,6 +17247,7 @@ rawNode
 pick
 (
 doFocus
+isLocalTab
 )
 {
 this
@@ -17256,6 +17257,7 @@ nodePicker
 pick
 (
 doFocus
+isLocalTab
 )
 ;
 }
