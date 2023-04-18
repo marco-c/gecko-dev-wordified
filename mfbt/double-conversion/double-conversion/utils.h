@@ -847,6 +847,13 @@ __mips__
 \
 defined
 (
+__loongarch__
+)
+|
+|
+\
+defined
+(
 __nios2__
 )
 |

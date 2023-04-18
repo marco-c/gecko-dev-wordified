@@ -3424,14 +3424,13 @@ has
 no
 importance
 .
-Mimick
+Mimic
 /
 /
 Gay
 '
 s
 dtoa
-and
 and
 set
 it
