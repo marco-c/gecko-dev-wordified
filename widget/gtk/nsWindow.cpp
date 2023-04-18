@@ -56788,9 +56788,9 @@ mRefPoint
 x
 +
 =
-wl_fixed_to_double
+wl_fixed_to_int
 (
-dx_unaccel_w
+dx_w
 )
 ;
 event
@@ -56800,9 +56800,9 @@ mRefPoint
 y
 +
 =
-wl_fixed_to_double
+wl_fixed_to_int
 (
-dy_unaccel_w
+dy_w
 )
 ;
 event
