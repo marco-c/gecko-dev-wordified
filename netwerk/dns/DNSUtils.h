@@ -140,6 +140,9 @@ namespace
 net
 {
 class
+NetworkConnectivityService
+;
+class
 ODoHService
 ;
 class
@@ -158,6 +161,10 @@ ODoHService
 friend
 class
 TRR
+;
+friend
+class
+NetworkConnectivityService
 ;
 static
 nsresult
