@@ -1328,7 +1328,7 @@ RABALDR_PIN_INSTANCE
 Register
 tmp
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -3970,7 +3970,7 @@ fr
 .
 storeTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 if
@@ -4335,7 +4335,7 @@ we
 need
 to
 reload
-WasmTlsReg
+InstanceReg
 because
 /
 /
@@ -4348,7 +4348,7 @@ fr
 .
 loadTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -4706,7 +4706,7 @@ fr
 .
 loadTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -4940,7 +4940,7 @@ Operand
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -5080,7 +5080,7 @@ Operand
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -5216,7 +5216,7 @@ MemOperand
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -5294,7 +5294,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -5550,7 +5550,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -5677,7 +5677,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -5809,7 +5809,7 @@ ma_ldr
 (
 DTRAddr
 (
-WasmTlsReg
+InstanceReg
 DtrOffImm
 (
 Instance
@@ -5958,7 +5958,7 @@ jump
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -10237,7 +10237,7 @@ fr
 .
 loadTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 masm
@@ -10301,7 +10301,7 @@ fr
 .
 loadTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 masm
@@ -12010,7 +12010,7 @@ fr
 .
 loadTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -12410,7 +12410,7 @@ computeEffectiveAddress
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -12459,7 +12459,7 @@ computeEffectiveAddress
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :
@@ -15329,7 +15329,7 @@ movePtr
 (
 RegPtr
 (
-WasmTlsReg
+InstanceReg
 )
 tmp
 )
@@ -26926,13 +26926,13 @@ that
 was
 left
 in
-WasmTlsReg
+InstanceReg
 by
 the
 exception
+/
+/
 handling
-/
-/
 mechanism
 that
 is
@@ -26945,10 +26945,10 @@ but
 with
 the
 exception
+/
+/
 filled
 in
-/
-/
 Instance
 :
 :
@@ -26958,7 +26958,7 @@ fr
 .
 storeTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 /
@@ -27630,13 +27630,13 @@ that
 was
 left
 in
-WasmTlsReg
+InstanceReg
 by
 the
 exception
+/
+/
 handling
-/
-/
 mechanism
 that
 is
@@ -27649,10 +27649,10 @@ but
 with
 the
 exception
+/
+/
 filled
 in
-/
-/
 Instance
 :
 :
@@ -27662,7 +27662,7 @@ fr
 .
 storeTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 /
@@ -27817,7 +27817,7 @@ loadTag
 (
 RegPtr
 (
-WasmTlsReg
+InstanceReg
 )
 info
 .
@@ -28094,7 +28094,7 @@ RABALDR_PIN_INSTANCE
 RegPtr
 tls
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -29086,7 +29086,7 @@ fr
 .
 loadTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -37433,7 +37433,7 @@ RABALDR_PIN_INSTANCE
 Register
 tls
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -38081,7 +38081,7 @@ fr
 .
 loadTlsPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #

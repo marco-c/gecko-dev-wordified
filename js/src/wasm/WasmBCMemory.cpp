@@ -1843,7 +1843,7 @@ movePtr
 (
 RegPtr
 (
-WasmTlsReg
+InstanceReg
 )
 heapBase
 )
@@ -3331,7 +3331,7 @@ RABALDR_PIN_INSTANCE
 /
 NOTE
 returning
-WasmTlsReg
+InstanceReg
 here
 depends
 for
@@ -3340,9 +3340,9 @@ on
 *
 ALL
 *
+/
+/
 clients
-/
-/
 not
 attempting
 to
@@ -3356,6 +3356,8 @@ it
 on
 the
 value
+/
+/
 stack
 .
 /
@@ -3462,7 +3464,7 @@ stack
 return
 RegPtr
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #
@@ -3528,7 +3530,7 @@ movePtr
 (
 RegPtr
 (
-WasmTlsReg
+InstanceReg
 )
 specific
 )

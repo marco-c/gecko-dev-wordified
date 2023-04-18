@@ -5525,7 +5525,7 @@ div
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -5586,7 +5586,7 @@ div
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -5764,7 +5764,7 @@ mod
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -5815,7 +5815,7 @@ mod
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;

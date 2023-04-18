@@ -21,7 +21,7 @@ also
 testing
 that
 the
-WasmTlsReg
+InstanceReg
 /
 HeapReg
 are

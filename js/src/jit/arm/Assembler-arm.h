@@ -1398,7 +1398,7 @@ functions
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 =
 r9
 ;
@@ -1423,7 +1423,7 @@ the
 ABI
 argument
 registers
-WasmTlsReg
+InstanceReg
 and
 each
 other
@@ -1486,11 +1486,11 @@ overlap
 ReturnReg
 JSReturnOperand
 or
-WasmTlsReg
+InstanceReg
 .
+/
+/
 It
-/
-/
 must
 be
 a

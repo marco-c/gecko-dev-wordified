@@ -1458,7 +1458,7 @@ ins
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 LDefinition
 :
@@ -1495,7 +1495,7 @@ ins
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 LDefinition
 :

@@ -2138,7 +2138,7 @@ to
 restore
 the
 *
-WasmTlsReg
+InstanceReg
 and
 HeapReg
 after

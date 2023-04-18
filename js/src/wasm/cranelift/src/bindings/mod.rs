@@ -1156,7 +1156,7 @@ the
 offset
 from
 the
-WasmTlsReg
+InstanceReg
 to
 the
 memory
@@ -1249,7 +1249,7 @@ the
 offset
 from
 the
-WasmTlsReg
+InstanceReg
 to
 the
 wasm

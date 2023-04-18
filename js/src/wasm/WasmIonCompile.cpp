@@ -3776,7 +3776,7 @@ alloc
 )
 ABIArg
 (
-WasmTlsReg
+InstanceReg
 )
 MIRType
 :
@@ -13518,7 +13518,7 @@ Arg
 (
 AnyRegister
 (
-WasmTlsReg
+InstanceReg
 )
 tlsPointer_
 )

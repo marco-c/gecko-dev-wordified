@@ -5946,7 +5946,7 @@ nonvolatile
 static
 constexpr
 Register
-WasmTlsReg
+InstanceReg
 {
 Registers
 :
@@ -5975,7 +5975,7 @@ the
 ABI
 argument
 registers
-WasmTlsReg
+InstanceReg
 and
 each
 other
@@ -6038,11 +6038,11 @@ overlap
 ReturnReg
 JSReturnOperand
 or
-WasmTlsReg
+InstanceReg
 .
+/
+/
 It
-/
-/
 must
 be
 a

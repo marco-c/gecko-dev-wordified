@@ -3714,7 +3714,7 @@ RABALDR_PIN_INSTANCE
 /
 If
 the
-WasmTlsReg
+InstanceReg
 is
 pinned
 then
@@ -3723,13 +3723,15 @@ is
 never
 available
 for
+/
+/
 allocation
 .
 availGPR
 .
 take
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 #

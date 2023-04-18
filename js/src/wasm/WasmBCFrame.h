@@ -4518,7 +4518,7 @@ Assembler
 Below
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :

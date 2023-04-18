@@ -4384,7 +4384,7 @@ ins
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 maybeTemp
 )
@@ -4416,7 +4416,7 @@ ins
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 maybeTemp
 )

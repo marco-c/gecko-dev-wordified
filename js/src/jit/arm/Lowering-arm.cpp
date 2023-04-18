@@ -2167,7 +2167,7 @@ ins
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 LDefinition
 :
@@ -2204,7 +2204,7 @@ ins
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 LDefinition
 :
@@ -3555,7 +3555,7 @@ div
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -3606,7 +3606,7 @@ div
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -3699,7 +3699,7 @@ mod
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -3750,7 +3750,7 @@ mod
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;
@@ -8469,7 +8469,7 @@ opd
 useFixedAtStart
 (
 tls
-WasmTlsReg
+InstanceReg
 )
 )
 ins
@@ -8569,7 +8569,7 @@ ins
 tls
 (
 )
-WasmTlsReg
+InstanceReg
 )
 )
 ;

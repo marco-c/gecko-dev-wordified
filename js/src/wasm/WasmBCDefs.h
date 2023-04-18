@@ -927,7 +927,7 @@ h
 RABALDR_PIN_INSTANCE
 /
 /
-WasmTlsReg
+InstanceReg
 is
 not
 allocatable

@@ -2452,7 +2452,7 @@ pointer
 which
 is
 the
-WasmTlsReg
+InstanceReg
 pointing
 to
 the

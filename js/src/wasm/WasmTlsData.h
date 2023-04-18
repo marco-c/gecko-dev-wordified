@@ -375,11 +375,11 @@ must
 be
 loaded
 to
-WasmTlsReg
+InstanceReg
+/
+/
 (
 along
-/
-/
 with
 any
 pinned
@@ -622,7 +622,7 @@ that
 /
 /
 -
-WasmTlsReg
+InstanceReg
 and
 any
 pinned
@@ -678,7 +678,7 @@ loaded
 into
 /
 /
-WasmTlsReg
+InstanceReg
 before
 calling
 '

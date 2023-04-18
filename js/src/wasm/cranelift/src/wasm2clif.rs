@@ -970,7 +970,7 @@ to
 SpiderMonkey
 '
 s
-WasmTlsReg
+InstanceReg
 hidden
 argument
 .

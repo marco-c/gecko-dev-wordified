@@ -57970,7 +57970,7 @@ getStackPointer
 )
 WasmCallerTlsOffsetBeforeCall
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 masm
@@ -62044,7 +62044,7 @@ masm
 .
 Push
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 int32_t
@@ -62176,7 +62176,7 @@ masm
 .
 Pop
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }

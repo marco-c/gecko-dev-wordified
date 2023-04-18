@@ -3083,7 +3083,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
@@ -5891,7 +5891,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 Instance
 :
 :

@@ -12947,7 +12947,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
@@ -12965,7 +12965,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
@@ -16747,7 +16747,7 @@ compilingWasm
 {
 Push
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -17074,7 +17074,7 @@ compilingWasm
 {
 Pop
 (
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -21453,7 +21453,7 @@ tlsOffset
 +
 stackAdjust
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 }
@@ -25621,7 +25621,7 @@ Assembler
 Below
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
@@ -25707,7 +25707,7 @@ Assembler
 Below
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
@@ -25781,7 +25781,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
@@ -25822,7 +25822,7 @@ callee
 {
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -25878,7 +25878,7 @@ static_assert
 ABINonArgReg0
 !
 =
-WasmTlsReg
+InstanceReg
 "
 by
 constraint
@@ -25916,7 +25916,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
@@ -25974,12 +25974,12 @@ wasm
 FuncImportTls
 tls
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -26042,7 +26042,7 @@ ABIArg
 ;
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -26054,7 +26054,7 @@ WasmCallerTlsOffsetBeforeCall
 ;
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -26081,7 +26081,7 @@ GPR
 {
 movePtr
 (
-WasmTlsReg
+InstanceReg
 instanceArg
 .
 gpr
@@ -26108,7 +26108,7 @@ Stack
 {
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -26529,7 +26529,7 @@ scratch
 ;
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -26541,7 +26541,7 @@ WasmCallerTlsOffsetBeforeCall
 ;
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -26986,7 +26986,7 @@ Condition
 Above
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
@@ -27217,7 +27217,7 @@ Assembler
 :
 :
 Equal
-WasmTlsReg
+InstanceReg
 newTlsTemp
 &
 fastCall
@@ -27306,7 +27306,7 @@ normally
 .
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -27319,12 +27319,12 @@ WasmCallerTlsOffsetBeforeCall
 movePtr
 (
 newTlsTemp
-WasmTlsReg
+InstanceReg
 )
 ;
 storePtr
 (
-WasmTlsReg
+InstanceReg
 Address
 (
 getStackPointer
@@ -27385,8 +27385,8 @@ Assembler
 :
 :
 NonZero
-WasmTlsReg
-WasmTlsReg
+InstanceReg
+InstanceReg
 &
 nonNull
 )
@@ -27470,7 +27470,7 @@ getStackPointer
 )
 WasmCallerTlsOffsetBeforeCall
 )
-WasmTlsReg
+InstanceReg
 )
 ;
 loadWasmPinnedRegsFromTls
@@ -29241,7 +29241,7 @@ loadPtr
 (
 Address
 (
-WasmTlsReg
+InstanceReg
 wasm
 :
 :
