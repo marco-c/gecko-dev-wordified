@@ -2635,8 +2635,9 @@ Compact
 )
 ;
 #
-ifndef
-U_HIDE_DRAFT_API
+if
+!
+MOZ_SYSTEM_ICU
 case
 UNUM_APPROXIMATELY_SIGN_FIELD
 :
