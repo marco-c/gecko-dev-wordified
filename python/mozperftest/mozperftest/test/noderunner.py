@@ -192,6 +192,9 @@ node
 (
 self
 args
+line_handler
+=
+None
 )
 :
         
@@ -236,7 +239,7 @@ append_env
             
 pass_thru
 =
-True
+False
 #
 Allow
 user
@@ -272,6 +275,10 @@ self
 .
 topsrcdir
 )
+            
+line_handler
+=
+line_handler
         
 )
     
