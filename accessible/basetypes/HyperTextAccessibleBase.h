@@ -1076,6 +1076,10 @@ TextLeafPoint
 aOrigin
 AccessibleTextBoundary
 aBoundaryType
+bool
+aAtOffset
+=
+false
 )
 const
 ;
