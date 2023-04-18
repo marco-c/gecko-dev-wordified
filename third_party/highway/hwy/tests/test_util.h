@@ -208,6 +208,15 @@ highway
 .
 h
 "
+#
+include
+"
+hwy
+/
+highway_export
+.
+h
+"
 namespace
 hwy
 {
@@ -572,6 +581,7 @@ endif
 /
 HWY_COMPILER_MSVC
 }
+HWY_TEST_DLLEXPORT
 bool
 BytesEqual
 (
@@ -907,6 +917,7 @@ return
 info
 ;
 }
+HWY_TEST_DLLEXPORT
 bool
 IsEqual
 (
@@ -924,6 +935,7 @@ void
 actual_ptr
 )
 ;
+HWY_TEST_DLLEXPORT
 void
 TypeName
 (
@@ -938,6 +950,7 @@ char
 string100
 )
 ;
+HWY_TEST_DLLEXPORT
 void
 PrintArray
 (
@@ -965,6 +978,7 @@ max_lanes
 7
 )
 ;
+HWY_TEST_DLLEXPORT
 HWY_NORETURN
 void
 PrintMismatchAndAbort
@@ -1001,6 +1015,7 @@ num_lanes
 1
 )
 ;
+HWY_TEST_DLLEXPORT
 void
 AssertArrayEqual
 (
