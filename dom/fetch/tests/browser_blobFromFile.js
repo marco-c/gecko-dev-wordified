@@ -172,7 +172,7 @@ file
 write
 create
 truncate
-0666
+0o666
 0
 )
 ;
