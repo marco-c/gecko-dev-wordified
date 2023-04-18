@@ -1149,6 +1149,12 @@ sessionId
 this
 .
 _context
+)
+;
+messageHandler
+.
+applyInitialSessionDataItems
+(
 sessionDataItems
 )
 ;
