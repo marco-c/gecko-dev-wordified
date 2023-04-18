@@ -258,7 +258,7 @@ this
 executeInChild
 (
 "
-addContentEventListener
+_addContentEventListener
 "
 "
 click
@@ -283,7 +283,7 @@ this
 executeInChild
 (
 "
-waitForContentEvent
+_waitForContentEvent
 "
 id
 )
@@ -301,7 +301,7 @@ eventPromise
 new
 Promise
 (
-r
+resolve
 =
 >
 {
@@ -312,7 +312,7 @@ chromeEventHandler
 addEventListener
 (
 eventName
-r
+resolve
 {
 mozSystemGroup
 :
