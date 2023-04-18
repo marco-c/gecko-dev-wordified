@@ -387,13 +387,6 @@ return
 this
 ;
 }
-virtual
-void
-RestoreOriginalDescriptor
-(
-)
-{
-}
 Maybe
 <
 gfx
