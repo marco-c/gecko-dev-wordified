@@ -646,6 +646,14 @@ attribute
 nsIContentViewer
 contentViewer
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isInBFCache
+;
 /
 *
 *
