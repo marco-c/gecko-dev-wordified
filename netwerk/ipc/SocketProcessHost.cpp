@@ -485,6 +485,15 @@ prefSerializer
 .
 SerializeToSharedMemory
 (
+GeckoProcessType_VR
+/
+*
+remoteType
+*
+/
+"
+"
+_ns
 )
 )
 {
