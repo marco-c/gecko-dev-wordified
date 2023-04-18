@@ -394,7 +394,7 @@ false
 }
 ]
 ;
-add_setup
+add_task
 (
 async
 function

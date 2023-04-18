@@ -38,7 +38,7 @@ Test
 for
 Bug
 1247243
-add_setup
+add_task
 (
 async
 function
