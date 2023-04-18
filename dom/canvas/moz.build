@@ -706,11 +706,6 @@ cpp
 See
 bug
 1745384
-"
-SourceSurfaceWebgl
-.
-cpp
-"
 ]
 #
 WebGL

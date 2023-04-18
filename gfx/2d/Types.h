@@ -388,16 +388,6 @@ a
 ScopedMap
 *
 /
-WEBGL
-/
-*
-Surface
-wrapping
-a
-DrawTargetWebgl
-texture
-*
-/
 }
 ;
 enum

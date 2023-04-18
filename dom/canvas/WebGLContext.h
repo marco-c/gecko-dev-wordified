@@ -2510,11 +2510,6 @@ gl
 SwapChain
 &
 swapChain
-WebGLFramebuffer
-*
-srcFb
-=
-nullptr
 )
 ;
 bool
@@ -7205,12 +7200,6 @@ const
 void
 BlitBackbufferToCurDriverFB
 (
-WebGLFramebuffer
-*
-const
-srcAsWebglFb
-=
-nullptr
 const
 gl
 :
@@ -7218,7 +7207,7 @@ gl
 MozFramebuffer
 *
 const
-srcAsMozFb
+source
 =
 nullptr
 )
