@@ -15988,7 +15988,10 @@ GetParent
 ;
 if
 (
-NS_MATHML_MATHVARIANT_NONE
+StyleMathMLMathVariant
+:
+:
+None
 !
 =
 fontStyle
@@ -15999,7 +16002,10 @@ mMathVariant
 {
 if
 (
-NS_MATHML_MATHVARIANT_NORMAL
+StyleMathMLMathVariant
+:
+:
+Normal
 !
 =
 fontStyle

@@ -1996,10 +1996,10 @@ engines
 "
 gecko
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_MATHML_MATHVARIANT
+StyleMathMLMathVariant
 "
 gecko_ffi_name
 =

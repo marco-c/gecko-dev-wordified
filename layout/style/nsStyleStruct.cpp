@@ -1657,7 +1657,10 @@ mMathDepth
 )
 mMathVariant
 (
-NS_MATHML_MATHVARIANT_NONE
+StyleMathMLMathVariant
+:
+:
+None
 )
 mMathStyle
 (

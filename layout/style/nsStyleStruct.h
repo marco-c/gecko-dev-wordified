@@ -688,7 +688,10 @@ mMathDepth
 MathML
 mathvariant
 support
-uint8_t
+mozilla
+:
+:
+StyleMathMLMathVariant
 mMathVariant
 ;
 /
