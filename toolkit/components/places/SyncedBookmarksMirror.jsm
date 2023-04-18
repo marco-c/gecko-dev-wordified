@@ -10834,6 +10834,7 @@ type
 placeId
 guid
 parentGuid
+title
 isUntagging
 )
 VALUES
@@ -10859,6 +10860,9 @@ tagEntryGuid
 OLD
 .
 tagFolderGuid
+OLD
+.
+tag
 1
 )
 ;
@@ -11786,6 +11790,10 @@ NOT
 NULL
 type
 INTEGER
+NOT
+NULL
+title
+TEXT
 NOT
 NULL
 placeId
@@ -12866,6 +12874,9 @@ AS
 url
 v
 .
+title
+v
+.
 guid
 v
 .
@@ -12971,6 +12982,16 @@ getResultByName
 (
 "
 url
+"
+)
+title
+:
+row
+.
+getResultByName
+(
+"
+title
 "
 )
 guid
@@ -14803,6 +14824,11 @@ urlHref
 |
 "
 "
+title
+:
+info
+.
+title
 guid
 :
 info

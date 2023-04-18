@@ -931,6 +931,11 @@ event
 .
 url
 )
+title
+:
+event
+.
+title
 }
 ;
 this
