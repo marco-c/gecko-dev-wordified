@@ -3719,7 +3719,7 @@ true
 ;
 mWindowRenderer
 =
-CreateBasicLayerManager
+CreateFallbackRenderer
 (
 )
 ;

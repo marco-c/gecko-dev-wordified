@@ -30071,7 +30071,7 @@ mBasicLayersSurface
 ;
 mWindowRenderer
 =
-CreateBasicLayerManager
+CreateFallbackRenderer
 (
 )
 ;

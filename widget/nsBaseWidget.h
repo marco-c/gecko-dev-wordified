@@ -3479,7 +3479,7 @@ CreateChildWindow
 }
 WindowRenderer
 *
-CreateBasicLayerManager
+CreateFallbackRenderer
 (
 )
 ;

@@ -10840,7 +10840,7 @@ mWindowRenderer
 {
 mWindowRenderer
 =
-CreateBasicLayerManager
+CreateFallbackRenderer
 (
 )
 ;
@@ -10855,7 +10855,7 @@ WindowRenderer
 nsBaseWidget
 :
 :
-CreateBasicLayerManager
+CreateFallbackRenderer
 (
 )
 {
