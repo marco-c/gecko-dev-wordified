@@ -694,12 +694,10 @@ mCaretRatio
 .
 0f
 ;
-float
+int32_t
 mTitlebarRadius
 =
 0
-.
-0f
 ;
 char16_t
 mInvisibleCharacter
