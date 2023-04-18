@@ -181,7 +181,6 @@ frontend
 {
 CompileGlobalScriptToExtensibleStencil
 FireOnNewScript
-FireOnNewScripts
 }
 #
 include
