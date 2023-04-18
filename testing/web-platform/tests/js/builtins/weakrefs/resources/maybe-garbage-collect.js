@@ -108,7 +108,7 @@ maybeGarbageCollectAsync
 if
 (
 typeof
-TestUtils
+testUtils
 !
 =
 =
@@ -117,13 +117,13 @@ undefined
 '
 &
 &
-TestUtils
+testUtils
 .
 gc
 )
 {
 await
-TestUtils
+testUtils
 .
 gc
 (

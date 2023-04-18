@@ -1441,6 +1441,11 @@ SyncMessageSender
 h
 "
 "
+TestUtils
+.
+h
+"
+"
 Text
 .
 h
@@ -2294,6 +2299,11 @@ cpp
 "
 "
 SubtleCrypto
+.
+cpp
+"
+"
+TestUtils
 .
 cpp
 "
