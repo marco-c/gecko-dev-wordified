@@ -391,7 +391,7 @@ check
 )
 ;
 let
-currentState
+currentSize
 =
 null
 ;
@@ -401,11 +401,11 @@ check
 )
 {
 const
-previousState
+previousSize
 =
-currentState
+currentSize
 ;
-currentState
+currentSize
 =
 store
 .
@@ -415,7 +415,7 @@ getState
 .
 sourceActors
 .
-values
+size
 ;
 /
 /
@@ -433,10 +433,10 @@ not
 change
 if
 (
-previousState
+previousSize
 =
 =
-currentState
+currentSize
 )
 {
 return
