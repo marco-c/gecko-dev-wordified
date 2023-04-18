@@ -14581,8 +14581,6 @@ sorted_ipdl_sources
 sorted_nonstatic_ipdl_sources
         
 sorted_static_ipdl_sources
-        
-unified_ipdl_cppsrcs_mapping
     
 )
 :
@@ -14728,21 +14726,6 @@ sorted_static_ipdl_sources
 )
             
 )
-        
-)
-        
-self
-.
-_add_unified_build_rules
-(
-            
-mk
-unified_ipdl_cppsrcs_mapping
-unified_files_makefile_variable
-=
-"
-CPPSRCS
-"
         
 )
         
