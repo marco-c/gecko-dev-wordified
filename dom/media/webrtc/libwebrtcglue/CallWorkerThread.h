@@ -190,12 +190,6 @@ CallWorkerThread
 UniquePtr
 <
 TaskQueueWrapper
-<
-DeletionPolicy
-:
-:
-NonBlocking
->
 >
 aWebrtcTaskQueue
 )
@@ -279,12 +273,6 @@ const
 UniquePtr
 <
 TaskQueueWrapper
-<
-DeletionPolicy
-:
-:
-NonBlocking
->
 >
 mWebrtcTaskQueue
 ;
