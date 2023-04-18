@@ -451,6 +451,7 @@ RefPtr
 <
 AccAttributes
 >
+uint64_t
 >
 ;
 static_assert
