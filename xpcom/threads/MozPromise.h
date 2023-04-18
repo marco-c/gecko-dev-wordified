@@ -7453,6 +7453,8 @@ p
 ]
 (
 ResolveValueType
+&
+&
 aArg
 )
 {
@@ -7461,7 +7463,10 @@ p
 >
 Resolve
 (
+MaybeMove
+(
 aArg
+)
 __func__
 )
 ;
@@ -7484,6 +7489,8 @@ p
 ]
 (
 RejectValueType
+&
+&
 aArg
 )
 {
@@ -7492,7 +7499,10 @@ p
 >
 Reject
 (
+MaybeMove
+(
 aArg
+)
 __func__
 )
 ;
