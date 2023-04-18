@@ -1673,6 +1673,9 @@ SendFlushFOGData
 {
 RefPtr
 <
+mozilla
+:
+:
 gmp
 :
 :
@@ -1680,6 +1683,9 @@ GeckoMediaPluginServiceParent
 >
 gmps
 (
+mozilla
+:
+:
 gmp
 :
 :
@@ -2206,6 +2212,9 @@ case
 GeckoProcessType_GMPlugin
 :
 {
+mozilla
+:
+:
 gmp
 :
 :
@@ -2543,6 +2552,9 @@ PROCESS_TYPE_GMPLUGIN
 {
 RefPtr
 <
+mozilla
+:
+:
 gmp
 :
 :
@@ -2550,6 +2562,9 @@ GeckoMediaPluginServiceParent
 >
 gmps
 (
+mozilla
+:
+:
 gmp
 :
 :
