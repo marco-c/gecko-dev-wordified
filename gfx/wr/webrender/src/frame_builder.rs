@@ -2329,12 +2329,6 @@ scene
 surfaces
 &
 frame_context
-data_stores
-&
-mut
-scene
-.
-prim_instances
 )
 ;
 {
