@@ -274,8 +274,9 @@ N
 N
 ]
 ;
-ComputeTransposedScaledDCT
+ComputeScaledDCT
 <
+N
 N
 >
 (
@@ -398,8 +399,9 @@ N
 )
 )
 ;
-ComputeTransposedScaledIDCT
+ComputeScaledIDCT
 <
+N
 N
 >
 (

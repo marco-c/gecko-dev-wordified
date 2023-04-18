@@ -139,7 +139,7 @@ jxl
 /
 base
 /
-status
+printf_macros
 .
 h
 "
@@ -150,7 +150,9 @@ lib
 /
 jxl
 /
-common
+base
+/
+status
 .
 h
 "

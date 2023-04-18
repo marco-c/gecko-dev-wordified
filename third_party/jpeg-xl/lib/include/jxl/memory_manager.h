@@ -169,7 +169,7 @@ memory
 region
 .
 *
-returns
+return
 c
 NULL
 if
@@ -180,7 +180,7 @@ not
 be
 allocated
 *
-returns
+return
 pointer
 to
 the

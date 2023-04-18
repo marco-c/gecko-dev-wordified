@@ -544,7 +544,7 @@ be
 positive
 .
 *
-returns
+return
 0
 if
 the
@@ -554,7 +554,7 @@ was
 successful
 .
 *
-returns
+return
 an
 error
 code
@@ -899,7 +899,7 @@ process
 .
 *
 *
-returns
+return
 0
 if
 the
@@ -923,7 +923,7 @@ runner
 code
 .
 *
-returns
+return
 JXL_PARALLEL_RET_RUNNER_ERROR
 if
 an

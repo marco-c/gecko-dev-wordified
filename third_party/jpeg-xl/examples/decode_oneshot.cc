@@ -399,6 +399,15 @@ jxl
 size
 )
 ;
+JxlDecoderCloseInput
+(
+dec
+.
+get
+(
+)
+)
+;
 for
 (
 ;
