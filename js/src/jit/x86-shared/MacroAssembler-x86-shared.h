@@ -3585,8 +3585,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 xtmp
 FloatRegister
@@ -3627,8 +3625,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 xtmp
 FloatRegister
@@ -3653,8 +3649,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 xtmp
 FloatRegister
@@ -3679,8 +3673,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 xtmp
 FloatRegister
@@ -3705,8 +3697,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 dest
 )
@@ -3718,8 +3708,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 dest
 )
@@ -3731,8 +3719,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 dest
 )
@@ -3744,8 +3730,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 dest
 )
@@ -3757,8 +3741,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 dest
 )
@@ -3770,8 +3752,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 dest
 )
@@ -3783,8 +3763,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 dest
 )
@@ -3796,10 +3774,8 @@ FloatRegister
 in
 Register
 count
-Register
-temp1
 FloatRegister
-temp2
+temp
 FloatRegister
 dest
 )
@@ -3822,8 +3798,6 @@ FloatRegister
 in
 Register
 count
-Register
-temp
 FloatRegister
 dest
 )

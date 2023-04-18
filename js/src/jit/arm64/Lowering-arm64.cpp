@@ -8617,12 +8617,6 @@ LDefinition
 BogusTemp
 (
 )
-LDefinition
-:
-:
-BogusTemp
-(
-)
 )
 ;
 define

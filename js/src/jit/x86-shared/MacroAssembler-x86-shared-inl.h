@@ -12531,10 +12531,8 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp1
 FloatRegister
-temp2
+temp
 )
 {
 MacroAssemblerX86Shared
@@ -12544,8 +12542,7 @@ packedLeftShiftByScalarInt8x16
 (
 lhsDest
 rhs
-temp1
-temp2
+temp
 lhsDest
 )
 ;
@@ -12585,8 +12582,6 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -12596,7 +12591,6 @@ packedLeftShiftByScalarInt16x8
 (
 lhsDest
 rhs
-temp
 lhsDest
 )
 ;
@@ -12639,8 +12633,6 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -12650,7 +12642,6 @@ packedLeftShiftByScalarInt32x4
 (
 lhsDest
 rhs
-temp
 lhsDest
 )
 ;
@@ -12693,8 +12684,6 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -12704,7 +12693,6 @@ packedLeftShiftByScalarInt64x2
 (
 lhsDest
 rhs
-temp
 lhsDest
 )
 ;
@@ -12753,10 +12741,8 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp1
 FloatRegister
-temp2
+temp
 )
 {
 MacroAssemblerX86Shared
@@ -12766,8 +12752,7 @@ packedRightShiftByScalarInt8x16
 (
 lhsDest
 rhs
-temp1
-temp2
+temp
 lhsDest
 )
 ;
@@ -12807,10 +12792,8 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp1
 FloatRegister
-temp2
+temp
 )
 {
 MacroAssemblerX86Shared
@@ -12820,8 +12803,7 @@ packedUnsignedRightShiftByScalarInt8x16
 (
 lhsDest
 rhs
-temp1
-temp2
+temp
 lhsDest
 )
 ;
@@ -12861,8 +12843,6 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -12872,7 +12852,6 @@ packedRightShiftByScalarInt16x8
 (
 lhsDest
 rhs
-temp
 lhsDest
 )
 ;
@@ -12915,8 +12894,6 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -12926,7 +12903,6 @@ packedUnsignedRightShiftByScalarInt16x8
 (
 lhsDest
 rhs
-temp
 lhsDest
 )
 ;
@@ -12969,8 +12945,6 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -12980,7 +12954,6 @@ packedRightShiftByScalarInt32x4
 (
 lhsDest
 rhs
-temp
 lhsDest
 )
 ;
@@ -13023,8 +12996,6 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -13034,7 +13005,6 @@ packedUnsignedRightShiftByScalarInt32x4
 (
 lhsDest
 rhs
-temp
 lhsDest
 )
 ;
@@ -13077,10 +13047,8 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp1
 FloatRegister
-temp2
+temp
 )
 {
 MacroAssemblerX86Shared
@@ -13090,8 +13058,7 @@ packedRightShiftByScalarInt64x2
 (
 lhsDest
 rhs
-temp1
-temp2
+temp
 lhsDest
 )
 ;
@@ -13131,8 +13098,6 @@ Register
 rhs
 FloatRegister
 lhsDest
-Register
-temp
 )
 {
 MacroAssemblerX86Shared
@@ -13142,7 +13107,6 @@ packedUnsignedRightShiftByScalarInt64x2
 (
 lhsDest
 rhs
-temp
 lhsDest
 )
 ;
