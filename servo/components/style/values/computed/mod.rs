@@ -697,9 +697,9 @@ image
 {
 Gradient
 Image
+ImageRendering
 LineDirection
 MozImageRect
-ImageRendering
 }
 ;
 pub

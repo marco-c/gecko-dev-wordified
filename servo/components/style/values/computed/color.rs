@@ -106,9 +106,9 @@ color
 :
 :
 {
+GenericCaretColor
 GenericColor
 GenericColorOrAuto
-GenericCaretColor
 }
 ;
 use
