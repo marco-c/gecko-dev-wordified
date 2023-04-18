@@ -1912,6 +1912,16 @@ lock
 ;
 HelperThreadTask
 *
+maybeGetLowPrioIonCompileTask
+(
+const
+AutoLockHelperThreadState
+&
+lock
+)
+;
+HelperThreadTask
+*
 maybeGetIonFreeTask
 (
 const
@@ -1997,6 +2007,8 @@ const
 AutoLockHelperThreadState
 &
 lock
+bool
+checkExecutionStatus
 )
 ;
 private
