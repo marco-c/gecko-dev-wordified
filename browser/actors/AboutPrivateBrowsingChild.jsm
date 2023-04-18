@@ -327,7 +327,6 @@ source
 }
 PrivateBrowsingFeatureConfig
 (
-defaultValues
 )
 {
 const
@@ -339,10 +338,11 @@ privatebrowsing
 .
 getAllVariables
 (
-{
-defaultValues
-}
 )
+|
+|
+{
+}
 ;
 NimbusFeatures
 .
