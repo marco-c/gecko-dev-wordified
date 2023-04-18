@@ -481,7 +481,7 @@ popChooseGotoList
 (
 )
 ;
-nsresult
+void
 pushObject
 (
 txObject
