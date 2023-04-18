@@ -802,6 +802,17 @@ platform
 "
 android
 "
+&
+&
+AppConstants
+.
+MOZ_APP_NAME
+!
+=
+=
+"
+thunderbird
+"
 )
 {
 await
