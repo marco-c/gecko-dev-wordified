@@ -933,11 +933,6 @@ MIDIMessage
 aMsgArray
 )
 {
-uint32_t
-bytesRead
-=
-0
-;
 bool
 inSysexMessage
 =
@@ -961,10 +956,6 @@ byte
 aByteBuffer
 )
 {
-bytesRead
-+
-+
-;
 if
 (
 IsSystemRealtimeMessage
