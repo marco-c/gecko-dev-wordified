@@ -963,7 +963,7 @@ engine
 .
 tabs
 .
-filteredUrls
+filteredSchemes
 since
 it
 includes
