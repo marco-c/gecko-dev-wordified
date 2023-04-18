@@ -1956,12 +1956,6 @@ GCReason
 :
 :
 API
-SliceBudget
-:
-:
-unlimited
-(
-)
 )
 ;
 JS
