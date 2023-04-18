@@ -244,9 +244,7 @@ nsCString
 &
 testName
 bool
-shouldSucceed
-bool
-didSucceed
+passed
 const
 nsCString
 &
