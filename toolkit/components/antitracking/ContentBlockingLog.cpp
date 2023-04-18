@@ -233,6 +233,12 @@ h
 namespace
 mozilla
 {
+using
+ipc
+:
+:
+AutoIPCStream
+;
 typedef
 Telemetry
 :

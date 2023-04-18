@@ -1247,6 +1247,12 @@ TParentToChildStream
 ;
 mBodyStream
 =
+static_cast
+<
+RemoteLazyInputStreamChild
+*
+>
+(
 body
 -
 >
@@ -1254,7 +1260,13 @@ get_ParentToChildStream
 (
 )
 .
-stream
+actorChild
+(
+)
+)
+-
+>
+CreateStream
 (
 )
 ;

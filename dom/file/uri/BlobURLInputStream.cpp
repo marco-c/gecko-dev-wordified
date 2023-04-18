@@ -807,12 +807,6 @@ mAsyncWaitCallback
 &
 &
 aCallback
-&
-&
-mAsyncWaitCallback
-!
-=
-aCallback
 )
 )
 {
