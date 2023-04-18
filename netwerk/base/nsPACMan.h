@@ -1643,7 +1643,11 @@ mShutdown
 TimeStamp
 mScheduledReload
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mLoadFailureCount
 ;
 bool
