@@ -1295,10 +1295,6 @@ NotLeaf
 eFrameClassBitsNone
 #
 define
-DynamicLeaf
-eFrameClassBitsDynamicLeaf
-#
-define
 FRAME_ID
 (
 class_
@@ -1332,9 +1328,6 @@ Leaf
 #
 undef
 NotLeaf
-#
-undef
-DynamicLeaf
 #
 undef
 FRAME_ID

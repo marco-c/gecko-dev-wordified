@@ -74,7 +74,6 @@ Frame
 AbstractFrame
 LEAF
 NOT_LEAF
-DYNAMIC_LEAF
 FRAME_CLASSES
 =
 [
@@ -769,7 +768,7 @@ nsMenuPopupFrame
 "
 MenuPopup
 "
-DYNAMIC_LEAF
+NOT_LEAF
 )
     
 Frame
