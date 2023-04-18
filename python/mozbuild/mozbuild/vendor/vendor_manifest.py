@@ -524,6 +524,17 @@ patches
 "
 ]
                 
+os
+.
+path
+.
+dirname
+(
+self
+.
+yaml_file
+)
+                
 self
 .
 manifest
@@ -4675,13 +4686,14 @@ import_local_patches
 (
 self
 patches
+yaml_dir
 vendor_dir
 )
 :
         
 self
 .
-logi
+logInfo
 (
 {
 }
@@ -4689,6 +4701,8 @@ logi
 Importing
 local
 patches
+.
+.
 .
 "
 )
@@ -4700,7 +4714,7 @@ self
 .
 convert_patterns_to_paths
 (
-vendor_dir
+yaml_dir
 patches
 )
 :
