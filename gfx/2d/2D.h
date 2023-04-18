@@ -6522,6 +6522,7 @@ modification
 bool
 Lock
 (
+const
 void
 *
 aOwner
@@ -6604,6 +6605,7 @@ owner
 void
 ForgetLockOwner
 (
+const
 void
 *
 aOwner
@@ -6685,6 +6687,7 @@ owner
 .
 Atomic
 <
+const
 void
 *
 >
