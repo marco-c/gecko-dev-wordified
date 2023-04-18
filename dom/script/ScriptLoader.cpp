@@ -5825,6 +5825,7 @@ ScriptFetchOptions
 aCORSMode
 aReferrerPolicy
 aTriggeringPrincipal
+domElement
 )
 ;
 RefPtr
@@ -5836,7 +5837,6 @@ context
 new
 ScriptLoadContext
 (
-domElement
 )
 ;
 if
@@ -15486,9 +15486,7 @@ mBaseURL
 aRequest
 -
 >
-GetLoadContext
-(
-)
+mFetchOptions
 -
 >
 mElement
