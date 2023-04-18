@@ -251,15 +251,6 @@ type
 -
 webserviceworker
 "
-webLargeAllocation
-:
-"
-process
--
-type
--
-weblargeallocation
-"
 }
 kFallback
 :

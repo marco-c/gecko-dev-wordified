@@ -301,7 +301,6 @@ File
 Extension
 PrivilegedAbout
 PrivilegedMozilla
-WebLargeAllocation
 WebCOOPCOEP
 WebServiceWorker
 /
