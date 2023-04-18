@@ -1196,9 +1196,7 @@ events
 .
 this
 .
-messageHandler
-.
-emitMessageHandlerEvent
+emitProtocolEvent
 (
 "
 log
@@ -1274,9 +1272,7 @@ stacktrace
 ;
 this
 .
-messageHandler
-.
-emitMessageHandlerEvent
+emitProtocolEvent
 (
 "
 log
