@@ -42,7 +42,7 @@ scriptSecurityManager
 createContentPrincipalFromOrigin
 (
 "
-http
+https
 :
 /
 /
@@ -83,7 +83,7 @@ view
 -
 source
 :
-http
+https
 :
 /
 /
