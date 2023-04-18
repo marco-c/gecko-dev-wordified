@@ -271,6 +271,12 @@ LOCALE
 firefox
 /
 beta
+?
+reason
+=
+manual
+-
+update
 "
 )
 ;
@@ -443,6 +449,12 @@ LOCALE
 firefox
 /
 new
+?
+reason
+=
+manual
+-
+update
 "
 )
 ;

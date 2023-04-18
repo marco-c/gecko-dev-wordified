@@ -259,6 +259,12 @@ firefox
 /
 nightly
 /
+?
+reason
+=
+manual
+-
+update
 "
 )
 ;
