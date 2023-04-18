@@ -141,7 +141,6 @@ value
 ;
 import
 {
-isOriginal
 isPretty
 }
 from
@@ -238,10 +237,9 @@ source
 )
 &
 &
-isOriginal
-(
 source
-)
+.
+isOriginal
 )
 {
 const
@@ -337,10 +335,9 @@ id
 }
 if
 (
-isOriginal
-(
 source
-)
+.
+isOriginal
 )
 {
 const

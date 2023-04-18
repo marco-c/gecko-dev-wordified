@@ -172,9 +172,6 @@ actions
 ;
 import
 {
-isOriginal
-as
-isOriginalSource
 isUrlExtension
 isExtensionDirectoryPath
 shouldBlackbox
@@ -2266,10 +2263,9 @@ source
 |
 |
 !
-isOriginalSource
-(
 source
-)
+.
+isOriginal
 )
 {
 return

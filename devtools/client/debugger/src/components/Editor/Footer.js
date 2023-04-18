@@ -127,7 +127,6 @@ import
 {
 isPretty
 getFilename
-isOriginal
 shouldBlackbox
 }
 from
@@ -832,10 +831,9 @@ selectedSource
 |
 |
 !
-isOriginal
-(
 selectedSource
-)
+.
+isOriginal
 )
 {
 return
