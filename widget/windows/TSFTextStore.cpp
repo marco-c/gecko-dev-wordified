@@ -13637,7 +13637,7 @@ Destroyed
 {
 mPendingSelectionChangeData
 .
-Clear
+reset
 (
 )
 ;
@@ -13806,7 +13806,7 @@ Clear
 ;
 mPendingSelectionChangeData
 .
-Clear
+reset
 (
 )
 ;
@@ -15990,7 +15990,7 @@ if
 (
 mPendingSelectionChangeData
 .
-IsValid
+isSome
 (
 )
 )
@@ -18035,10 +18035,9 @@ same
 .
 if
 (
-!
 mPendingSelectionChangeData
 .
-IsValid
+isNothing
 (
 )
 )
@@ -18053,6 +18052,7 @@ mSelectionForTSF
 >
 EqualsExceptDirection
 (
+*
 mPendingSelectionChangeData
 )
 ;
@@ -40918,8 +40918,8 @@ selection
 information
 .
 mPendingSelectionChangeData
-.
-Assign
+=
+Some
 (
 selectionChangeData
 )
@@ -41061,7 +41061,7 @@ MOZ_ASSERT
 (
 mPendingSelectionChangeData
 .
-IsValid
+isSome
 (
 )
 )
@@ -41104,6 +41104,7 @@ mSelectionForTSF
 .
 emplace
 (
+*
 mPendingSelectionChangeData
 )
 ;
@@ -41117,13 +41118,14 @@ mSelectionForTSF
 >
 SetSelection
 (
+*
 mPendingSelectionChangeData
 )
 )
 {
 mPendingSelectionChangeData
 .
-Clear
+reset
 (
 )
 ;
@@ -41164,7 +41166,7 @@ return
 }
 mPendingSelectionChangeData
 .
-Clear
+reset
 (
 )
 ;
