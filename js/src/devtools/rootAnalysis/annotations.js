@@ -356,7 +356,6 @@ Examples
 /
 /
 _ZL13gAbortHandler
-|
 mozalloc_oom
 .
 cpp
@@ -372,7 +371,6 @@ size_t
 /
 /
 _ZL14pMutexUnlockFn
-|
 umutex
 .
 cpp
@@ -2789,6 +2787,7 @@ true
 function
 extraGCFunctions
 (
+readableNames
 )
 {
 return
@@ -2953,6 +2952,7 @@ function
 ignoreGCFunction
 (
 mangled
+readableNames
 )
 {
 /
