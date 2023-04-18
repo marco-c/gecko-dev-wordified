@@ -129,9 +129,11 @@ ReportTestResults
 nsCString
 testName
 bool
-passed
+shouldSucceed
+bool
+didSucceed
 nsCString
-message
+resultMessage
 )
 ;
 async

@@ -244,7 +244,9 @@ nsCString
 &
 testName
 bool
-passed
+shouldSucceed
+bool
+didSucceed
 const
 nsCString
 &
