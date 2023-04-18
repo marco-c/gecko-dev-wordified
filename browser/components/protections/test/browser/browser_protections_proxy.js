@@ -134,7 +134,11 @@ false
 "
 browser
 .
-vpn_promo
+contentblocking
+.
+report
+.
+vpn
 .
 enabled
 "
