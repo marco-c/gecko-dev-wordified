@@ -1425,6 +1425,11 @@ JSContext
 aCx
 )
 ;
+void
+UnrootGlobalScopes
+(
+)
+;
 bool
 InterruptCallback
 (
