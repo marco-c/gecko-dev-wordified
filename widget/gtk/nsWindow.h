@@ -2231,7 +2231,6 @@ support
 CSD
 at
 all
-GTK_DECORATION_UNKNOWN
 }
 GtkWindowDecoration
 ;
