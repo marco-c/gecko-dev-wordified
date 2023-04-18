@@ -465,13 +465,6 @@ split
 "
 )
 ;
-/
-/
-let
-pages_visited
-=
-0
-;
 for
 (
 let
