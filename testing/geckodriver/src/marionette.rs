@@ -1423,7 +1423,6 @@ session_id
 clone
 (
 )
-&
 capabilities
 )
 ?

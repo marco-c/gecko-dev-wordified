@@ -2788,7 +2788,6 @@ load_android
 settings
 .
 android_storage
-&
 options
 )
 ?
@@ -2802,7 +2801,6 @@ FirefoxOptions
 :
 load_args
 (
-&
 options
 )
 ?
@@ -2816,7 +2814,6 @@ FirefoxOptions
 :
 load_env
 (
-&
 options
 )
 ?
@@ -2830,7 +2827,6 @@ FirefoxOptions
 :
 load_log
 (
-&
 options
 )
 ?
@@ -2844,7 +2840,6 @@ FirefoxOptions
 :
 load_prefs
 (
-&
 options
 )
 ?
@@ -2858,7 +2853,6 @@ FirefoxOptions
 :
 load_profile
 (
-&
 options
 )
 ?
