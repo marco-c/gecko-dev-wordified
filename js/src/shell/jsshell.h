@@ -999,7 +999,7 @@ ScriptKind
 {
 ScriptStencil
 DecodeScript
-Module
+ModuleStencil
 }
 ;
 class

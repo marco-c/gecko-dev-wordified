@@ -26,7 +26,7 @@ eval
 source
 )
 {
-offThreadCompileModule
+offThreadCompileModuleToStencil
 (
 source
 )
