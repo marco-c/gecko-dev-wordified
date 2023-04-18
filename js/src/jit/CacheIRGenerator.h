@@ -2390,7 +2390,7 @@ JSContext
 *
 cx_
 ;
-HandleValue
+HandleFunction
 callee_
 ;
 HandleValue
@@ -3283,6 +3283,8 @@ InlinableNativeIRGenerator
 CallIRGenerator
 &
 generator
+HandleFunction
+callee
 CallFlags
 flags
 )
@@ -3305,9 +3307,7 @@ cx_
 )
 callee_
 (
-generator
-.
-callee_
+callee
 )
 newTarget_
 (
