@@ -10711,8 +10711,8 @@ routines
 *
 /
 virtual
-LayoutDeviceIntRect
-GetMoveToRectPopupRect
+LayoutDeviceIntSize
+GetMoveToRectPopupSize
 (
 )
 const
@@ -10729,7 +10729,7 @@ wayland
 )
 ;
 return
-LayoutDeviceIntRect
+LayoutDeviceIntSize
 (
 )
 ;
