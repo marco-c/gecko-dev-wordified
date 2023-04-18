@@ -3526,7 +3526,7 @@ rl
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /
@@ -3936,7 +3936,7 @@ rl
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /
@@ -4670,7 +4670,7 @@ rl
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /
@@ -4718,7 +4718,7 @@ rl
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /
@@ -4914,7 +4914,7 @@ rl
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /
@@ -5078,7 +5078,7 @@ rl
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /
@@ -5275,7 +5275,7 @@ rl
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /
@@ -5914,7 +5914,7 @@ rl
 *
 TODO
 Unescape
-delimeters
+delimiters
 .
 *
 /
