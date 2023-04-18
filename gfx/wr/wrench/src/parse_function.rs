@@ -411,8 +411,6 @@ start
 :
 0
 o
-:
-o
 }
 ;
 p
@@ -788,12 +786,9 @@ not_in_bracket
 =
 brackets
 .
-len
+is_empty
 (
 )
-=
-=
-0
 &
 &
 prev_bracket_count

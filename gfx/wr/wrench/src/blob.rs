@@ -212,7 +212,6 @@ iter
 (
 )
 ;
-return
 match
 (
 iter
@@ -308,7 +307,6 @@ Err
 )
 )
 }
-;
 }
 /
 /
@@ -827,8 +825,6 @@ usize
 texels
 [
 pixel_offset
-+
-0
 ]
 =
 premul
@@ -1392,7 +1388,6 @@ unwrap
 request
 )
 (
-&
 requests
 )
 ;
@@ -1522,7 +1517,7 @@ Command
 =
 requests
 .
-into_iter
+iter
 (
 )
 .

@@ -127,7 +127,10 @@ std
 path
 :
 :
+{
+Path
 PathBuf
+}
 ;
 use
 std
@@ -152,12 +155,6 @@ mpsc
 :
 :
 Receiver
-;
-use
-time
-;
-use
-webrender
 ;
 use
 webrender
@@ -987,7 +984,7 @@ scene_root
 root
 :
 &
-PathBuf
+Path
 scene
 :
 u32
@@ -1026,7 +1023,7 @@ frame_root
 root
 :
 &
-PathBuf
+Path
 scene
 :
 u32
@@ -1331,6 +1328,16 @@ BlobCallbacks
 impl
 Wrench
 {
+#
+[
+allow
+(
+clippy
+:
+:
+too_many_arguments
+)
+]
 pub
 fn
 new
@@ -3900,7 +3907,6 @@ unwrap
 )
 ;
 for
-ref
 co
 in
 &
@@ -3936,7 +3942,6 @@ line_height
 )
 ;
 for
-ref
 line
 in
 &
