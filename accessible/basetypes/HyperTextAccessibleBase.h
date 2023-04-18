@@ -430,6 +430,7 @@ accessible
 .
 *
 /
+virtual
 uint32_t
 CharacterCount
 (

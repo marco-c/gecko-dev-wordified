@@ -462,11 +462,6 @@ aOffset
 )
 ;
 int32_t
-CharacterCount
-(
-)
-;
-int32_t
 SelectionCount
 (
 )

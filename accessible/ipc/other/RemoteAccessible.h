@@ -250,6 +250,14 @@ RemoteAccessibleShared
 .
 h
 "
+virtual
+uint32_t
+CharacterCount
+(
+)
+const
+override
+;
 protected
 :
 explicit
