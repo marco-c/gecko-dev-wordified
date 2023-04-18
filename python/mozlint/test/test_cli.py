@@ -226,6 +226,13 @@ f
 =
 stylish
 "
+"
+files
+/
+foobar
+.
+js
+"
 ]
     
 env
