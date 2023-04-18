@@ -3624,6 +3624,9 @@ prevCurrentEngine
 &
 &
 newCurrentEngine
+&
+&
+newCurrentEngine
 !
 =
 =
