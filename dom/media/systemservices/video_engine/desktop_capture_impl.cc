@@ -1793,9 +1793,6 @@ SelectSource
 sourceId
 )
 ;
-DesktopCaptureOptions
-options
-;
 desktop_capturer_cursor_composer_
 =
 std
@@ -1887,9 +1884,6 @@ SelectSource
 (
 sourceId
 )
-;
-DesktopCaptureOptions
-options
 ;
 desktop_capturer_cursor_composer_
 =
