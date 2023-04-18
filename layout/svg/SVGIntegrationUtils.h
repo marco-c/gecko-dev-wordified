@@ -1591,6 +1591,9 @@ nsRect
 >
 &
 aPostFilterClip
+bool
+&
+aInitialized
 )
 ;
 /

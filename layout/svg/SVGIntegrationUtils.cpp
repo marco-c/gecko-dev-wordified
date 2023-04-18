@@ -7990,6 +7990,9 @@ nsRect
 >
 &
 aPostFilterClip
+bool
+&
+aInitialized
 )
 {
 return
@@ -8002,6 +8005,7 @@ aFilteredFrame
 aFilters
 aWrFilters
 aPostFilterClip
+aInitialized
 )
 ;
 }
@@ -8042,6 +8046,11 @@ AsSpan
 (
 )
 ;
+bool
+initialized
+=
+true
+;
 return
 CreateWebRenderCSSFilters
 (
@@ -8057,6 +8066,7 @@ aFrame
 filterChain
 wrFilters
 filterClip
+initialized
 )
 ;
 }
