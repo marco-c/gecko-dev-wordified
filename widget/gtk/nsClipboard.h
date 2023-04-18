@@ -188,6 +188,7 @@ LOGCLIP
 .
 .
 )
+\
 MOZ_LOG
 (
 gClipboardLog
