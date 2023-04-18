@@ -418,6 +418,14 @@ private
 :
 int32_t
 mIndex
+=
+0
+;
+nsIFrame
+*
+mSelectedBoxCache
+=
+nullptr
 ;
 void
 Animate
