@@ -117,11 +117,12 @@ sessions
         
 self
 .
-search_in_new_tab
+navigate_in_new_tab
 (
 "
-mozilla
-firefox
+about
+:
+glean
 "
 )
         
@@ -355,11 +356,12 @@ tagging_script
         
 self
 .
-search_in_new_tab
+navigate_in_new_tab
 (
 "
-python
-unittest
+about
+:
+glean
 "
 )
         
