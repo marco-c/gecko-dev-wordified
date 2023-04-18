@@ -3136,7 +3136,9 @@ false
 }
 if
 (
-!
+auto
+res
+=
 tag
 .
 setUnicodeExtension
@@ -3147,6 +3149,12 @@ begin
 (
 )
 )
+;
+res
+.
+isErr
+(
+)
 )
 {
 intl
@@ -3155,6 +3163,11 @@ intl
 ReportInternalError
 (
 cx
+res
+.
+unwrapErr
+(
+)
 )
 ;
 return

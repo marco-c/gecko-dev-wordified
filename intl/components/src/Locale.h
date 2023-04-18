@@ -2142,12 +2142,7 @@ subtag
 .
 *
 /
-[
-[
-nodiscard
-]
-]
-bool
+ICUResult
 setUnicodeExtension
 (
 const
