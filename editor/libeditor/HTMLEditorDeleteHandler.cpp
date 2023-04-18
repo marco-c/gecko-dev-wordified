@@ -18623,7 +18623,7 @@ startCiteNode
 =
 aHTMLEditor
 .
-GetMostAncestorMailCiteElement
+GetMostDistantAncestorMailCiteElement
 (
 *
 aRangesToDelete
@@ -18644,7 +18644,7 @@ endCiteNode
 =
 aHTMLEditor
 .
-GetMostAncestorMailCiteElement
+GetMostDistantAncestorMailCiteElement
 (
 *
 aRangesToDelete
@@ -19639,7 +19639,7 @@ startCiteNode
 =
 aHTMLEditor
 .
-GetMostAncestorMailCiteElement
+GetMostDistantAncestorMailCiteElement
 (
 *
 aRangesToDelete
@@ -19662,7 +19662,7 @@ endCiteNode
 =
 aHTMLEditor
 .
-GetMostAncestorMailCiteElement
+GetMostDistantAncestorMailCiteElement
 (
 *
 aRangesToDelete
@@ -32408,7 +32408,7 @@ Element
 >
 mailCiteElement
 =
-GetMostAncestorMailCiteElement
+GetMostDistantAncestorMailCiteElement
 (
 aContent
 )

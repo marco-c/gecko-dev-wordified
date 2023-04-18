@@ -1468,9 +1468,10 @@ static
 bool
 IsMailCite
 (
-nsINode
-*
-aNode
+const
+Element
+&
+aElement
 )
 ;
 static
