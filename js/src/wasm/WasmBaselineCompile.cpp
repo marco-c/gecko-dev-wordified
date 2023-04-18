@@ -43023,6 +43023,7 @@ masm
 compareForEqualityInt64x2
 (
 cond
+rsd
 rs
 rsd
 )
@@ -43055,6 +43056,7 @@ masm
 compareForOrderingInt64x2
 (
 cond
+rsd
 rs
 rsd
 temp1
