@@ -241,6 +241,9 @@ OS_LIBS
 "
 mfuuid
 "
+"
+uuid
+"
 ]
 DEFINES
 [

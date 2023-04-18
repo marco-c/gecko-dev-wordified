@@ -145,6 +145,9 @@ OS_LIBS
 =
 [
 "
+advapi32
+"
+"
 ntdll
 "
 "
@@ -155,6 +158,9 @@ shlwapi
 "
 "
 user32
+"
+"
+uuid
 "
 ]
 DELAYLOAD_DLLS

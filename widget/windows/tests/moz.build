@@ -120,6 +120,9 @@ shlwapi
 "
 urlmon
 "
+"
+uuid
+"
 ]
 if
 CONFIG
