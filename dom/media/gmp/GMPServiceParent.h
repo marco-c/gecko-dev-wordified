@@ -892,9 +892,6 @@ GMPParent
 >
 mPlugins
 ;
-bool
-mShuttingDown
-;
 /
 /
 True
@@ -971,6 +968,12 @@ T
 mValue
 ;
 }
+;
+MainThreadOnly
+<
+bool
+>
+mShuttingDown
 ;
 MainThreadOnly
 <
