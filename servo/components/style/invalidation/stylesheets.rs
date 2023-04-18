@@ -3405,12 +3405,6 @@ ScrollTimeline
 .
 )
 |
-Container
-(
-.
-.
-)
-|
 Style
 (
 .
@@ -3743,12 +3737,6 @@ Media
 )
 |
 Supports
-(
-.
-.
-)
-|
-Container
 (
 .
 .
