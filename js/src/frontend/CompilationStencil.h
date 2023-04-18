@@ -3670,8 +3670,9 @@ input
 JSObject
 *
 enclosingEnvironment
-Scope
-*
+const
+InputScope
+&
 effectiveScope
 ParserAtomsTable
 &
