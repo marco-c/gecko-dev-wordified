@@ -375,12 +375,9 @@ MediaEventBlocker
 >
 mBlocker
 ;
-RefPtr
-<
 MediaEventForwarder
 <
 void
->
 >
 mShutdownEventForwarder
 ;
@@ -396,15 +393,8 @@ RefCountedTicket
 :
 mShutdownEventForwarder
 (
-new
-MediaEventForwarder
-<
-void
->
-(
 GetMainThreadSerialEventTarget
 (
-)
 )
 )
 {
@@ -448,8 +438,7 @@ aName
 )
 ;
 mShutdownEventForwarder
--
->
+.
 Forward
 (
 mBlocker
@@ -488,7 +477,6 @@ ShutdownEvent
 )
 {
 return
-*
 mShutdownEventForwarder
 ;
 }
@@ -527,8 +515,7 @@ get
 )
 ;
 mShutdownEventForwarder
--
->
+.
 DisconnectAll
 (
 )
