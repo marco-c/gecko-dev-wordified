@@ -335,6 +335,16 @@ return
 /
 NS_WORDBREAKER_NEED_MORE_TEXT
 .
+/
+/
+/
+/
+DEPRECATED
+:
+Use
+WordBreakIteratorUtf16
+instead
+.
 static
 int32_t
 Next
