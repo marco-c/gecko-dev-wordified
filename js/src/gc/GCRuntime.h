@@ -4517,14 +4517,6 @@ budget
 )
 ;
 void
-markFinalizationRegistryRoots
-(
-JSTracer
-*
-trc
-)
-;
-void
 checkNoRuntimeRoots
 (
 AutoGCSession

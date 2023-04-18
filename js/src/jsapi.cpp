@@ -11274,6 +11274,7 @@ globalObj
 traceData
 (
 trc
+globalObj
 )
 ;
 if
