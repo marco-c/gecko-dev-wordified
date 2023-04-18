@@ -332,9 +332,6 @@ overrideContext
 nativeMessaging
 "
 "
-scripting
-"
-"
 search
 "
 "
