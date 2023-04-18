@@ -748,6 +748,17 @@ Session
 (
 self
 )
+        
+self
+.
+browsing_context
+=
+modules
+.
+BrowsingContext
+(
+self
+)
     
 classmethod
     
