@@ -11300,7 +11300,6 @@ UpdateVisualViewportSizeForPotentialScrollbarChange
 else
 if
 (
-(
 oldScrollPort
 .
 Size
@@ -11312,14 +11311,6 @@ newScrollPort
 .
 Size
 (
-)
-)
-&
-&
-!
-HasAnyStateBits
-(
-NS_FRAME_FIRST_REFLOW
 )
 )
 {
