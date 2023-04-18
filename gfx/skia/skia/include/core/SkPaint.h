@@ -1703,8 +1703,6 @@ getAlpha
 const
 {
 return
-uint8_t
-(
 sk_float_round2int
 (
 this
@@ -1715,7 +1713,6 @@ getAlphaf
 )
 *
 255
-)
 )
 ;
 }
