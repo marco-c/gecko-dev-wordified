@@ -320,7 +320,10 @@ Resolver
 >
 aResolver
 const
+Maybe
+<
 ClientMetadata
+>
 &
 aClientMetadata
 Data
