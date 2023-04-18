@@ -500,7 +500,7 @@ processedPromise
 listenForTestNotification
 (
 "
-ShowDoorhanger
+FormSubmit
 "
 )
 ;

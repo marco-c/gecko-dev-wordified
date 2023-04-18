@@ -239,7 +239,7 @@ processedPromise
 listenForTestNotification
 (
 "
-ShowDoorhanger
+FormSubmit
 "
 )
 ;
@@ -562,7 +562,7 @@ processedPromise
 listenForTestNotification
 (
 "
-ShowDoorhanger
+FormSubmit
 "
 )
 ;
@@ -819,7 +819,7 @@ processedPromise
 listenForTestNotification
 (
 "
-ShowDoorhanger
+FormSubmit
 "
 )
 ;
@@ -1139,7 +1139,7 @@ processedPromise
 listenForTestNotification
 (
 "
-ShowDoorhanger
+FormSubmit
 "
 )
 ;

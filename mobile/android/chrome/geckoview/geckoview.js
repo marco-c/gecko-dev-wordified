@@ -3576,7 +3576,7 @@ false
 "
 PasswordManager
 :
-ShowDoorhanger
+onFormSubmit
 "
 :
 {
