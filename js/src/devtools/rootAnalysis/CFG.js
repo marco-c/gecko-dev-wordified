@@ -153,7 +153,7 @@ findAllPoints
 (
 bodies
 blockId
-limits
+bits
 )
 {
 var
@@ -236,7 +236,7 @@ Index
 [
 0
 ]
-limits
+bits
 ]
 )
 ;
@@ -264,7 +264,7 @@ bodies
 edge
 .
 BlockId
-limits
+bits
 )
 )
 ;
@@ -688,7 +688,7 @@ Func
 )
 ;
 const
-limits
+bits
 =
 isConstructor
 (
@@ -704,7 +704,7 @@ Name
 if
 (
 !
-limits
+bits
 )
 continue
 ;
@@ -750,7 +750,7 @@ pointsInRAIIScope
 bodies
 body
 edge
-limits
+bits
 )
 )
 ;
@@ -1129,7 +1129,7 @@ pointsInRAIIScope
 bodies
 body
 constructorEdge
-limits
+bits
 )
 {
 var
@@ -1194,7 +1194,7 @@ push
 [
 body
 point
-limits
+bits
 ]
 )
 ;
@@ -1262,7 +1262,7 @@ bodies
 nedge
 .
 BlockId
-limits
+bits
 )
 )
 ;
