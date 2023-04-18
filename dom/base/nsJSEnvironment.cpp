@@ -9528,7 +9528,7 @@ MinorGC
 JS
 :
 :
-RunIdleTimeGCTask
+MaybeRunNurseryCollection
 (
 CycleCollectedJSRuntime
 :
@@ -9541,6 +9541,11 @@ Get
 Runtime
 (
 )
+step
+.
+mParam
+.
+mReason
 )
 ;
 sScheduler
@@ -9574,6 +9579,8 @@ FireForgetSkippable
 bool
 (
 step
+.
+mParam
 .
 mRemoveChildless
 )
@@ -9650,6 +9657,8 @@ nsJSContext
 RunCycleCollectorSlice
 (
 step
+.
+mParam
 .
 mCCReason
 aDeadline
