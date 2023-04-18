@@ -194,6 +194,9 @@ compositor
 .
 *
 /
+[
+NeedsOtherPid
+]
 sync
 protocol
 PUiCompositorController

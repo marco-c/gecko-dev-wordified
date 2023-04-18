@@ -331,6 +331,9 @@ processes
 .
 *
 /
+[
+NeedsOtherPid
+]
 sync
 protocol
 PVRManager

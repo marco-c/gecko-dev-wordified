@@ -168,6 +168,9 @@ compositor
 .
 *
 /
+[
+NeedsOtherPid
+]
 sync
 protocol
 PVideoBridge

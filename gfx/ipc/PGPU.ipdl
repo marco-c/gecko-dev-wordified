@@ -447,6 +447,9 @@ the
 UI
 process
 .
+[
+NeedsOtherPid
+]
 sync
 protocol
 PGPU

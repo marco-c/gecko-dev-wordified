@@ -503,6 +503,9 @@ instance
 .
 *
 /
+[
+NeedsOtherPid
+]
 sync
 protocol
 PCompositorManager

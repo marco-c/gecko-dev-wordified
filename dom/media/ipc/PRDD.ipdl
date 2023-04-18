@@ -296,6 +296,9 @@ the
 UI
 process
 .
+[
+NeedsOtherPid
+]
 protocol
 PRDD
 {

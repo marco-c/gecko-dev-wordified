@@ -5295,6 +5295,9 @@ mChildProcessHandle
 mChildProcessHandle
 !
 =
+base
+:
+:
 kInvalidProcessHandle
 )
 {

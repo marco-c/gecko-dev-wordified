@@ -547,6 +547,9 @@ mSandboxBroker
 ;
 }
 ;
+[
+NeedsOtherPid
+]
 sync
 protocol
 PSocketProcess

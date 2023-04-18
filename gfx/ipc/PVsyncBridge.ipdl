@@ -199,6 +199,9 @@ the
 GPU
 process
 .
+[
+NeedsOtherPid
+]
 sync
 protocol
 PVsyncBridge

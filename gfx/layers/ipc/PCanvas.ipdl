@@ -201,6 +201,7 @@ drawing
 /
 [
 RefCounted
+NeedsOtherPid
 ]
 async
 protocol

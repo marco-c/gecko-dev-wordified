@@ -119,6 +119,9 @@ the
 GPU
 process
 .
+[
+NeedsOtherPid
+]
 async
 protocol
 PVRGPU

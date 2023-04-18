@@ -167,6 +167,9 @@ mozilla
 namespace
 gfx
 {
+[
+NeedsOtherPid
+]
 async
 protocol
 PVR

@@ -181,6 +181,7 @@ process
 NestedUpTo
 =
 inside_cpow
+NeedsOtherPid
 ]
 sync
 protocol
