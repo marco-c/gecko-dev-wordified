@@ -526,6 +526,11 @@ template
 rows
 "
 "
+hyphenate
+-
+character
+"
+"
 hyphens
 "
 "
