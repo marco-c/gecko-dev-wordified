@@ -155,11 +155,12 @@ accessible
 .
 *
 /
+virtual
 uint64_t
 State
 (
 )
-const
+override
 ;
 /
 *
