@@ -1812,6 +1812,11 @@ IsOnCurrentThread
 )
 )
 ;
+PROCESS_DECODE_LOG
+(
+aSample
+)
+;
 AVPacket
 packet
 ;

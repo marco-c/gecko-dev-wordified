@@ -1030,6 +1030,11 @@ IsOnCurrentThread
 )
 )
 ;
+PROCESS_DECODE_LOG
+(
+aSample
+)
+;
 const
 unsigned
 char

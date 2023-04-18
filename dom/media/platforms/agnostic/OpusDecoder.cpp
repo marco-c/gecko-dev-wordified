@@ -1278,6 +1278,11 @@ IsOnCurrentThread
 )
 )
 ;
+PROCESS_DECODE_LOG
+(
+aSample
+)
+;
 uint32_t
 channels
 =
