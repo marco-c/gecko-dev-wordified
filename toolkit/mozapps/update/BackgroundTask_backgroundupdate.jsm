@@ -91,6 +91,9 @@ EXPORTED_SYMBOLS
 backgroundTaskTimeoutSec
 "
 "
+maybeSubmitBackgroundUpdatePing
+"
+"
 runBackgroundTask
 "
 ]
