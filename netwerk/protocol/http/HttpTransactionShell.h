@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsIEarlyHintObserver
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
