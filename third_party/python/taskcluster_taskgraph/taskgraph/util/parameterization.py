@@ -314,7 +314,6 @@ Resolve
 all
 instances
 of
-      
 {
 '
 task
@@ -335,7 +334,6 @@ reference
 }
     
 and
-      
 {
 '
 artifact
@@ -366,6 +364,8 @@ using
 the
 given
 dependencies
+.
+    
 "
 "
 "

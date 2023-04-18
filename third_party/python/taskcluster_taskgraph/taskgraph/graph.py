@@ -72,7 +72,6 @@ Graph
 "
 "
 "
-    
 Generic
 representation
 of
@@ -238,7 +237,6 @@ False
 "
 "
 "
-        
 Return
 the
 transitive
@@ -299,15 +297,16 @@ nodes
 .
         
 Example
+:
         
+.
+.
+code
 -
--
--
--
--
--
--
-        
+block
+:
+:
+            
 a
 -
 -
@@ -325,9 +324,9 @@ b
 -
 >
 c
-                  
+                      
 |
-                  
+                      
 -
 -
 -
@@ -428,13 +427,40 @@ nodes
 set
 )
         
-assert
+if
+not
+(
 nodes
 <
 =
 self
 .
 nodes
+)
+:
+            
+raise
+Exception
+(
+                
+f
+"
+Unknown
+nodes
+in
+transitive
+closure
+:
+{
+nodes
+-
+self
+.
+nodes
+}
+"
+            
+)
         
 #
 generate

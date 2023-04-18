@@ -365,13 +365,17 @@ parameters
         
 Decision
 task
+:
+class
+:
 parameters
-see
+<
 taskgraph
 .
 parameters
 .
 Parameters
+>
 .
     
 input
@@ -440,23 +444,15 @@ to
 register_callback_action
 .
     
-Parameters
-    
--
--
--
--
--
--
--
--
--
--
-    
-name
+Args
 :
-str
         
+name
+(
+str
+)
+:
+            
 An
 identifier
 for
@@ -470,11 +466,13 @@ find
 the
 action
 .
-    
-title
-:
-str
         
+title
+(
+str
+)
+:
+            
 A
 human
 readable
@@ -490,7 +488,7 @@ label
 on
 a
 button
-        
+            
 or
 text
 on
@@ -501,11 +499,13 @@ triggering
 the
 action
 .
-    
-symbol
-:
-str
         
+symbol
+(
+str
+)
+:
+            
 Treeherder
 symbol
 for
@@ -518,7 +518,7 @@ the
 symbol
 that
 the
-        
+            
 task
 calling
 your
@@ -534,18 +534,20 @@ usually
 1
 -
 3
-        
+            
 letters
 abbreviating
 the
 action
 title
 .
-    
-description
-:
-str
         
+description
+(
+str
+)
+:
+            
 A
 human
 readable
@@ -560,7 +562,7 @@ markdown
 *
 *
 .
-        
+            
 This
 will
 be
@@ -574,7 +576,7 @@ window
 when
 the
 action
-        
+            
 is
 triggered
 .
@@ -591,11 +593,13 @@ use
 the
 action
 .
-    
-order
-:
-int
         
+order
+(
+int
+)
+:
+            
 Order
 of
 the
@@ -609,18 +613,20 @@ to
 the
 order
 of
-        
+            
 other
 actions
 declared
 .
-    
+        
 context
-:
+(
 list
 of
 dict
-        
+)
+:
+            
 List
 of
 tag
@@ -637,7 +643,7 @@ take
 as
 input
 .
-        
+            
 If
 no
 tag
@@ -653,7 +659,7 @@ is
 related
 to
 the
-        
+            
 entire
 task
 -
@@ -669,7 +675,7 @@ a
 given
 task
 .
-        
+            
 Otherwise
 if
 context
@@ -703,7 +709,7 @@ t
 ]
 will
 only
-        
+            
 be
 displayed
 in
@@ -714,7 +720,7 @@ for
 tasks
 that
 has
-        
+            
 task
 .
 tags
@@ -747,7 +753,7 @@ k
 t
 '
 .
-        
+            
 Esentially
 this
 allows
@@ -757,7 +763,7 @@ task
 .
 tags
 .
-        
+            
 If
 this
 is
@@ -772,7 +778,7 @@ parameters
 and
 must
 return
-        
+            
 a
 value
 of
@@ -781,11 +787,13 @@ form
 described
 above
 .
-    
-available
-:
-function
         
+available
+(
+function
+)
+:
+            
 An
 optional
 function
@@ -796,7 +804,7 @@ parameters
 decides
 if
 the
-        
+            
 action
 is
 available
@@ -810,11 +818,13 @@ always
 returns
 True
 .
-    
-schema
-:
-dict
         
+schema
+(
+dict
+)
+:
+            
 JSON
 schema
 specifying
@@ -824,7 +834,7 @@ by
 the
 action
 .
-        
+            
 This
 is
 optional
@@ -839,11 +849,12 @@ input
 is
 taken
 .
-    
-generic
-:
-boolean
         
+generic
+(
+bool
+)
+            
 Whether
 this
 is
@@ -856,11 +867,13 @@ its
 own
 permissions
 .
-    
-cb_name
-:
-string
         
+cb_name
+(
+str
+)
+:
+            
 The
 name
 under
@@ -872,7 +885,7 @@ be
 registered
 defaulting
 to
-        
+            
 name
 .
 This
@@ -886,7 +899,7 @@ non
 -
 generic
 hook
-        
+            
 actions
 and
 thus
@@ -900,7 +913,7 @@ various
 role
 and
 hook
-        
+            
 names
 .
 Unlike
@@ -913,7 +926,7 @@ times
 cb_name
 must
 be
-        
+            
 unique
 among
 all
@@ -922,22 +935,14 @@ callbacks
 .
     
 Returns
-    
--
--
--
--
--
--
--
-    
-function
+:
         
-To
+function
+:
+Decorator
+to
 be
 used
-as
-decorator
 for
 the
 callback
@@ -1888,44 +1893,34 @@ json
 artifact
 .
     
-Parameters
-    
--
--
--
--
--
--
--
--
--
--
-    
-parameters
+Args
 :
+        
+parameters
+(
+:
+class
+:
+~
 taskgraph
 .
 parameters
 .
 Parameters
-        
+)
+:
+            
 Decision
 task
 parameters
 .
     
 Returns
-    
--
--
--
--
--
--
--
-    
-dict
+:
         
+dict
+:
+            
 JSON
 object
 representation
@@ -1936,6 +1931,7 @@ public
 actions
 .
 json
+            
 artifact
 .
     
