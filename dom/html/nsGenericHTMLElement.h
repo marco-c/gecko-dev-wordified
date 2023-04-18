@@ -3941,13 +3941,6 @@ aCurrentForm
 nullptr
 )
 ;
-virtual
-void
-RecompileScriptEventListeners
-(
-)
-override
-;
 /
 *
 *

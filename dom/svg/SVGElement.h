@@ -2115,13 +2115,6 @@ FlushAnimations
 (
 )
 ;
-virtual
-void
-RecompileScriptEventListeners
-(
-)
-override
-;
 void
 GetStringBaseValue
 (
@@ -2513,6 +2506,7 @@ nsAtom
 *
 aAttr
 )
+override
 ;
 struct
 LengthInfo

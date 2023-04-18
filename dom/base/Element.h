@@ -9130,13 +9130,11 @@ get
 nullptr
 ;
 }
-virtual
 void
 RecompileScriptEventListeners
 (
 )
-{
-}
+;
 /
 *
 *
@@ -12885,7 +12883,7 @@ listener
 .
 *
 /
-static
+virtual
 nsAtom
 *
 GetEventNameForAttr
