@@ -209,11 +209,6 @@ OGLShaderProgram
 .
 h
 "
-"
-ReadbackLayer
-.
-h
-"
 ]
 if
 CONFIG
