@@ -1068,8 +1068,10 @@ emit
 "
 markers
 "
+{
 markers
 endTime
+}
 )
 ;
 }
@@ -1095,7 +1097,12 @@ emit
 "
 ticks
 "
+{
+delta
+:
 endTime
+timestamps
+:
 this
 .
 _framerate
@@ -1103,6 +1110,7 @@ _framerate
 getPendingTicks
 (
 )
+}
 )
 ;
 }
@@ -1128,7 +1136,12 @@ emit
 "
 memory
 "
+{
+delta
+:
 endTime
+measurement
+:
 this
 .
 _memory
@@ -1136,6 +1149,7 @@ _memory
 measure
 (
 )
+}
 )
 ;
 }
@@ -1183,8 +1197,12 @@ emit
 "
 frames
 "
+{
+delta
+:
 endTime
 frames
+}
 )
 ;
 }
@@ -2106,6 +2124,9 @@ emit
 "
 markers
 "
+{
+markers
+:
 collections
 .
 map
@@ -2146,6 +2167,7 @@ end
 }
 )
 endTime
+}
 )
 ;
 }
