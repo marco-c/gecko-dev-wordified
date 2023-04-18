@@ -527,6 +527,13 @@ u
 "
 _ns
 aGroupId
+MediaDevice
+:
+:
+IsScary
+:
+:
+No
 )
 ;
 }
@@ -592,6 +599,13 @@ u
 "
 _ns
 aGroupId
+MediaDevice
+:
+:
+IsScary
+:
+:
+No
 )
 ;
 }

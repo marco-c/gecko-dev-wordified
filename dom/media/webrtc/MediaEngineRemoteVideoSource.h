@@ -638,8 +638,6 @@ camera
 :
 CaptureEngine
 aCapEngine
-bool
-aScary
 )
 ;
 /
@@ -811,17 +809,6 @@ GetGroupId
 const
 override
 ;
-bool
-GetScary
-(
-)
-const
-override
-{
-return
-mScary
-;
-}
 RefPtr
 <
 GenericNonExclusivePromise
@@ -955,10 +942,6 @@ cam
 screen
 etc
 )
-const
-bool
-mScary
-;
 /
 /
 mMutex

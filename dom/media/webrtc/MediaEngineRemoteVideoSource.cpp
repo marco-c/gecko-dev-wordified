@@ -595,17 +595,11 @@ camera
 :
 CaptureEngine
 aCapEngine
-bool
-aScary
 )
 :
 mCapEngine
 (
 aCapEngine
-)
-mScary
-(
-aScary
 )
 mMutex
 (
