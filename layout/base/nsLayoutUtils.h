@@ -6734,13 +6734,16 @@ frame
 if
 this
 transform
-is
+can
+be
+drawn
 2D
 or
 the
 identity
 scale
 factors
+*
 otherwise
 .
 *
