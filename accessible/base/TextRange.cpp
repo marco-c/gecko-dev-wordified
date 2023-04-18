@@ -1718,13 +1718,6 @@ aContainer
 }
 }
 else
-if
-(
-containerPos
-!
-=
-0
-)
 {
 /
 /
@@ -1960,13 +1953,6 @@ aContainer
 }
 }
 else
-if
-(
-containerPos
-!
-=
-0
-)
 {
 boundary
 =
