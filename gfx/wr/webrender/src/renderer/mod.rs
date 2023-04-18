@@ -7548,6 +7548,9 @@ compositor_kind
 tile_size_override
 :
 None
+max_surface_override
+:
+None
 max_depth_ids
 :
 device
@@ -10537,6 +10540,14 @@ DebugCommand
 :
 :
 SetPictureTileSize
+(
+_
+)
+|
+DebugCommand
+:
+:
+SetMaximumSurfaceSize
 (
 _
 )

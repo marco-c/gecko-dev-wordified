@@ -927,12 +927,6 @@ pic
 take_context
 (
 pic_index
-pic_context
-.
-surface_spatial_node_index
-pic_context
-.
-raster_spatial_node_index
 Some
 (
 pic_context
