@@ -799,7 +799,7 @@ _static
 htmlhelp_basename
 =
 "
-MozillaTreeDocs
+FirefoxTreeDocs
 "
 moz_project_name
 =
