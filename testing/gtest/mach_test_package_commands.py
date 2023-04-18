@@ -419,23 +419,12 @@ tester
 .
 run_gtest
 (
-        
 prog
-        
 xre_path
-        
 cwd
-        
 utility_path
 =
 utility_path
-        
-enable_webrender
-=
-args
-.
-enable_webrender
-    
 )
 def
 run_gtest_android
@@ -677,10 +666,6 @@ libxul_path
 args
 .
 symbols_path
-        
-args
-.
-enable_webrender
     
 )
 def

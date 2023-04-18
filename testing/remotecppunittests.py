@@ -874,9 +874,6 @@ def
 build_environment
 (
 self
-enable_webrender
-=
-False
 )
 :
         
@@ -888,7 +885,6 @@ build_core_environment
 (
 {
 }
-enable_webrender
 )
         
 env
@@ -2079,12 +2075,6 @@ xre_path
 options
 .
 symbols_path
-        
-enable_webrender
-=
-options
-.
-enable_webrender
     
 )
     

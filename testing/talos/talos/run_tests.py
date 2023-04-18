@@ -2366,17 +2366,22 @@ sw
 "
 )
     
-elif
-browser_config
-.
-get
-(
-"
-enable_webrender
-"
-False
-)
+else
 :
+        
+#
+we
+need
+to
+add
+'
+webrender
+'
+so
+reported
+data
+is
+consistent
         
 talos_results
 .

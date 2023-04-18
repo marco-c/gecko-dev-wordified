@@ -138,10 +138,6 @@ memory_test
 =
 False
         
-enable_webrender
-=
-False
-        
 chimera
 =
 False
@@ -278,10 +274,6 @@ memory_test
 =
 False
         
-enable_webrender
-=
-False
-        
 chimera
 =
 False
@@ -380,10 +372,6 @@ cpu_test
 False
         
 memory_test
-=
-False
-        
-enable_webrender
 =
 False
         
@@ -488,10 +476,6 @@ memory_test
 =
 False
         
-enable_webrender
-=
-False
-        
 chimera
 =
 False
@@ -589,10 +573,6 @@ memory_test
 =
 False
         
-enable_webrender
-=
-False
-        
 chimera
 =
 False
@@ -681,10 +661,6 @@ cpu_test
 False
         
 memory_test
-=
-False
-        
-enable_webrender
 =
 False
         

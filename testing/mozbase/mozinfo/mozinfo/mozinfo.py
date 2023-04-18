@@ -444,12 +444,6 @@ has_sandbox
 unknown
     
 "
-webrender
-"
-:
-False
-    
-"
 automation
 "
 :

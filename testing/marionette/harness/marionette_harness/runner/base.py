@@ -2929,49 +2929,6 @@ add_argument
             
 "
 -
--
-enable
--
-webrender
-"
-            
-action
-=
-"
-store_true
-"
-            
-dest
-=
-"
-enable_webrender
-"
-            
-default
-=
-False
-            
-help
-=
-"
-Enable
-the
-WebRender
-compositor
-in
-Gecko
-.
-"
-        
-)
-        
-self
-.
-add_argument
-(
-            
-"
--
 z
 "
             
@@ -4323,10 +4280,6 @@ enable_fission
 =
 False
         
-enable_webrender
-=
-False
-        
 *
 *
 kwargs
@@ -4614,12 +4567,6 @@ self
 headless
 =
 headless
-        
-self
-.
-enable_webrender
-=
-enable_webrender
         
 self
 .
@@ -5737,14 +5684,6 @@ symbols_path
 self
 .
 symbols_path
-            
-"
-enable_webrender
-"
-:
-self
-.
-enable_webrender
         
 }
         
@@ -7779,14 +7718,6 @@ headless
 self
 .
 headless
-                    
-"
-webrender
-"
-:
-self
-.
-enable_webrender
                 
 }
             

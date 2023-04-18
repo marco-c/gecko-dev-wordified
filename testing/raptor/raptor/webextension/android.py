@@ -603,20 +603,6 @@ LOG_VERBOSE
 R_LOG_LEVEL
 =
 6
-                
-MOZ_WEBRENDER
-=
-int
-(
-self
-.
-config
-[
-"
-enable_webrender
-"
-]
-)
             
 )
         

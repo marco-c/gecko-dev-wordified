@@ -870,12 +870,6 @@ SignalHandler
 (
 )
             
-enable_webrender
-=
-args
-.
-enable_webrender
-            
 extra_prefs
 =
 args

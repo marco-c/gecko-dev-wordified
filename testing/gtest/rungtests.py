@@ -166,10 +166,6 @@ None
 utility_path
 =
 None
-        
-enable_webrender
-=
-False
     
 )
 :
@@ -323,7 +319,6 @@ self
 .
 build_environment
 (
-enable_webrender
 )
         
 log
@@ -930,7 +925,6 @@ def
 build_environment
 (
 self
-enable_webrender
 )
 :
         
@@ -1292,10 +1286,23 @@ s
 llvmsym
 )
         
-if
-enable_webrender
-:
-            
+#
+webrender
+needs
+gfx
+.
+webrender
+.
+all
+=
+true
+gtest
+doesn
+'
+t
+use
+prefs
+        
 env
 [
 "
@@ -1306,7 +1313,7 @@ MOZ_WEBRENDER
 "
 1
 "
-            
+        
 env
 [
 "
@@ -1316,20 +1323,6 @@ MOZ_ACCELERATED
 =
 "
 1
-"
-        
-else
-:
-            
-env
-[
-"
-MOZ_WEBRENDER
-"
-]
-=
-"
-0
 "
         
 return
@@ -1532,49 +1525,6 @@ containing
 utility
 program
 binaries
-"
-        
-)
-        
-self
-.
-add_argument
-(
-            
-"
--
--
-enable
--
-webrender
-"
-            
-action
-=
-"
-store_true
-"
-            
-dest
-=
-"
-enable_webrender
-"
-            
-default
-=
-False
-            
-help
-=
-"
-Enable
-the
-WebRender
-compositor
-in
-Gecko
-.
 "
         
 )
@@ -1882,12 +1832,6 @@ utility_path
 options
 .
 utility_path
-            
-enable_webrender
-=
-options
-.
-enable_webrender
         
 )
     
