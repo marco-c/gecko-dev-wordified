@@ -210,6 +210,14 @@ AllocPWebGLParent
 (
 )
 ;
+already_AddRefed
+<
+PWebGPUParent
+>
+AllocPWebGPUParent
+(
+)
+;
 mozilla
 :
 :

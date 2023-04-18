@@ -1256,10 +1256,6 @@ initialize
 (
 )
 )
-mIPCOpen
-(
-false
-)
 {
 }
 WebGPUChild

@@ -168,9 +168,9 @@ include
 "
 mozilla
 /
-layers
+gfx
 /
-CompositorBridgeChild
+CanvasManagerChild
 .
 h
 "
@@ -233,10 +233,10 @@ WEBGPU
 {
 bridge
 =
-layers
+gfx
 :
 :
-CompositorBridgeChild
+CanvasManagerChild
 :
 :
 Get

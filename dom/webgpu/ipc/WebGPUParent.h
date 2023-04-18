@@ -170,6 +170,7 @@ PWebGPUParent
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 WebGPUParent
+override
 )
 public
 :
@@ -684,13 +685,13 @@ DevicePopErrorScopeResolver
 aResolver
 )
 ;
-ipc
-:
-:
-IPCResult
-RecvShutdown
+void
+ActorDestroy
 (
+ActorDestroyReason
+aWhy
 )
+override
 ;
 private
 :
