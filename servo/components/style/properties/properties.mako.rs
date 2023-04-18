@@ -375,10 +375,7 @@ computed_value_flags
 *
 ;
 use
-crate
-:
-:
-hash
+fxhash
 :
 :
 FxHashMap

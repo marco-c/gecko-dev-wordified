@@ -198,10 +198,7 @@ std
 mem
 ;
 use
-crate
-:
-:
-hash
+fxhash
 :
 :
 FxHashMap
