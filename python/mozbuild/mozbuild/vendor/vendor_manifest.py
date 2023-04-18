@@ -2513,11 +2513,6 @@ join
 (
 yaml
 )
-+
-"
-\
-n
-"
 )
 .
 encode
