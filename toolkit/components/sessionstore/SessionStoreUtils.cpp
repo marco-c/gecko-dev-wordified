@@ -9080,7 +9080,7 @@ document
 window
 -
 >
-GetDoc
+GetExtantDoc
 (
 )
 ;
