@@ -876,6 +876,11 @@ MouseEvents
 h
 "
 "
+SwipeTracker
+.
+h
+"
+"
 TextEventDispatcher
 .
 h
@@ -1191,6 +1196,11 @@ cpp
 "
 "
 SharedWidgetUtils
+.
+cpp
+"
+"
+SwipeTracker
 .
 cpp
 "

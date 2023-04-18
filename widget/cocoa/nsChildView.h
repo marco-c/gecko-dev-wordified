@@ -315,9 +315,6 @@ InputData
 class
 PanGestureInput
 ;
-class
-SwipeTracker
-;
 struct
 SwipeEventQueue
 ;
@@ -3376,11 +3373,6 @@ Modifiers
 aModifiers
 )
 ;
-void
-SwipeFinished
-(
-)
-;
 /
 /
 Called
@@ -4005,15 +3997,6 @@ mozilla
 VibrancyManager
 >
 mVibrancyManager
-;
-RefPtr
-<
-mozilla
-:
-:
-SwipeTracker
->
-mSwipeTracker
 ;
 mozilla
 :

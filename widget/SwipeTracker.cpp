@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsChildView
+nsIWidget
 .
 h
 "
@@ -218,6 +218,8 @@ similar
 to
 the
 native
+/
+/
 swipe
 .
 static
@@ -359,7 +361,7 @@ SwipeTracker
 :
 SwipeTracker
 (
-nsChildView
+nsIWidget
 &
 aWidget
 const
