@@ -313,6 +313,9 @@ nsresult
 status
 uint32_t
 requestBlockingReason
+nsCString
+?
+logString
 )
 ;
 /
