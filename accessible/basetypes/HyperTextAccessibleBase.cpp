@@ -2214,6 +2214,12 @@ nsIAccessibleText
 :
 BOUNDARY_LINE_END
 :
+case
+nsIAccessibleText
+:
+:
+BOUNDARY_PARAGRAPH
+:
 TextLeafPoint
 start
 end
