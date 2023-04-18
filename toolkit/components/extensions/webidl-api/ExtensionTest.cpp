@@ -2454,8 +2454,9 @@ aExpectedError
 u
 "
 Function
-threw
-expecting
+did
+throw
+expected
 error
 "
 _ns

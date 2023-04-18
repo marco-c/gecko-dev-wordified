@@ -9,7 +9,7 @@ exported
 createHttpServer
 cleanupDir
 clearCache
-isInBackgroundServiceWorkerTests
+optionalPermissionsPromptHandler
 promiseConsoleOutput
 promiseQuotaManagerServiceReset
 promiseQuotaManagerServiceClear

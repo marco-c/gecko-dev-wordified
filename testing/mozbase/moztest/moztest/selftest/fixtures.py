@@ -540,9 +540,6 @@ copytree
 files_dir
 test_root
 )
-            
-return
-test_root
         
 elif
 "
