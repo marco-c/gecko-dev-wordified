@@ -191,6 +191,9 @@ class
 ShadowRoot
 ;
 class
+ValidityState
+;
+class
 ElementInternals
 final
 :
@@ -302,6 +305,15 @@ ErrorResult
 aRv
 )
 const
+;
+ValidityState
+*
+GetValidity
+(
+ErrorResult
+&
+aRv
+)
 ;
 already_AddRefed
 <
