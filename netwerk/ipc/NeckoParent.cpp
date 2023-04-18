@@ -1820,6 +1820,9 @@ dom
 :
 MaybeDiscarded
 <
+dom
+:
+:
 BrowsingContext
 >
 &
@@ -1870,6 +1873,9 @@ dom
 :
 MaybeDiscarded
 <
+dom
+:
+:
 BrowsingContext
 >
 &

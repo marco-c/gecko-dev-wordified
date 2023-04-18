@@ -213,6 +213,12 @@ mSourcePromiseRequestHolder
 nsID
 mClientId
 ;
+mozilla
+:
+:
+ipc
+:
+:
 PrincipalInfo
 mPrincipalInfo
 ;

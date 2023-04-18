@@ -249,6 +249,12 @@ aEntityID
 const
 Maybe
 <
+mozilla
+:
+:
+ipc
+:
+:
 IPCStream
 >
 &
