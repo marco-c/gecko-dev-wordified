@@ -198,6 +198,11 @@ automation
 .
 *
 /
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 4
