@@ -10111,10 +10111,6 @@ GCReason
 :
 :
 COMPONENT_UTILS
-nsJSContext
-:
-:
-NonIncrementalGC
 mShrinking
 ?
 nsJSContext
