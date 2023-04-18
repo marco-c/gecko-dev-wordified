@@ -4432,14 +4432,6 @@ backend_file
             
 self
 .
-_process_linked_libraries
-(
-obj
-backend_file
-)
-            
-self
-.
 _no_skip
 [
 "
@@ -10737,7 +10729,7 @@ backend_file
 write
 (
 "
-WASM_LIBRARY
+WASM_ARCHIVE
 :
 =
 %
@@ -10748,7 +10740,7 @@ n
 %
 libdef
 .
-lib_name
+basename
 )
     
 def
