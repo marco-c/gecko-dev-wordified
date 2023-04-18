@@ -1671,6 +1671,8 @@ int32_t
 aCaretOffset
 bool
 aIsSelectionCollapsed
+bool
+aIsAtEndOfLine
 EIsFromUserInput
 aIsFromUserInput
 =
@@ -1695,6 +1697,10 @@ aCaretOffset
 mIsSelectionCollapsed
 (
 aIsSelectionCollapsed
+)
+mIsAtEndOfLine
+(
+aIsAtEndOfLine
 )
 {
 }
@@ -1763,6 +1769,15 @@ return
 mIsSelectionCollapsed
 ;
 }
+bool
+IsAtEndOfLine
+(
+)
+{
+return
+mIsAtEndOfLine
+;
+}
 private
 :
 int32_t
@@ -1770,6 +1785,9 @@ mCaretOffset
 ;
 bool
 mIsSelectionCollapsed
+;
+bool
+mIsAtEndOfLine
 ;
 }
 ;

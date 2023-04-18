@@ -2012,6 +2012,10 @@ const
 bool
 &
 aIsSelectionCollapsed
+const
+bool
+&
+aIsAtEndOfLine
 )
 {
 if
@@ -2058,6 +2062,18 @@ IPC_OK
 )
 ;
 }
+mCaretId
+=
+aID
+;
+mCaretOffset
+=
+aOffset
+;
+mIsCaretAtEndOfLine
+=
+aIsAtEndOfLine
+;
 #
 if
 defined
@@ -2161,6 +2177,7 @@ node
 fromUser
 aOffset
 aIsSelectionCollapsed
+aIsAtEndOfLine
 )
 ;
 nsCoreUtils

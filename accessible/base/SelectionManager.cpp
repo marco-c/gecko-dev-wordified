@@ -1153,6 +1153,12 @@ selection
 IsCollapsed
 (
 )
+caretCntr
+-
+>
+IsCaretAtEndOfLine
+(
+)
 aEvent
 -
 >

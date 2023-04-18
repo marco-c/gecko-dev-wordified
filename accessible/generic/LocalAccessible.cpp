@@ -7002,6 +7002,12 @@ event
 IsSelectionCollapsed
 (
 )
+event
+-
+>
+IsAtEndOfLine
+(
+)
 )
 ;
 break
