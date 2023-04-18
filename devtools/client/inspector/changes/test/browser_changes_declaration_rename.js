@@ -197,7 +197,7 @@ newPropertyName
 ;
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "
@@ -336,7 +336,7 @@ changes
 ;
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "
