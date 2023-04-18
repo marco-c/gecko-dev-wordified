@@ -4728,8 +4728,10 @@ fInterimChar
 FALSE
 ;
 }
+const
 WritingMode
-GetWritingMode
+&
+WritingModeRef
 (
 )
 const

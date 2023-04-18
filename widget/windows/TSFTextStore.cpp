@@ -26419,7 +26419,7 @@ isSome
 selectionForTSF
 -
 >
-GetWritingMode
+WritingModeRef
 (
 )
 .
@@ -26479,7 +26479,7 @@ isSome
 selectionForTSF
 -
 >
-GetWritingMode
+WritingModeRef
 (
 )
 .
@@ -48793,7 +48793,7 @@ WritingMode
 mSelection
 -
 >
-GetWritingMode
+WritingModeRef
 (
 )
 ;
