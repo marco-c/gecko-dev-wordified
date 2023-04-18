@@ -1132,6 +1132,17 @@ const
 override
 ;
 virtual
+Maybe
+<
+float
+>
+Opacity
+(
+)
+const
+override
+;
+virtual
 uint8_t
 ActionCount
 (
