@@ -115,6 +115,9 @@ LayersMessageUtils
 h
 "
 ;
+[
+MoveOnly
+]
 using
 mozilla
 :
@@ -150,6 +153,9 @@ LayersTypes
 h
 "
 ;
+[
+MoveOnly
+]
 using
 mozilla
 :

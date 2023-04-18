@@ -197,6 +197,9 @@ gfx
 h
 "
 ;
+[
+MoveOnly
+]
 using
 mozilla
 :

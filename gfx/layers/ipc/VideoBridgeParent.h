@@ -243,7 +243,6 @@ const
 SurfaceDescriptor
 &
 aSharedData
-const
 ReadLockDescriptor
 &
 aReadLock

@@ -3696,9 +3696,7 @@ SharedMemoryBasic
 :
 SetHandle
 (
-const
 Handle
-&
 aHandle
 OpenRights
 aRights
