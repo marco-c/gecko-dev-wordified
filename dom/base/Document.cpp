@@ -90799,8 +90799,6 @@ FrameForPointOption
 :
 IgnorePaintSuppression
 ;
-/
-/
 options
 .
 mBits
