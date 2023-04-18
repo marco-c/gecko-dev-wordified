@@ -282,13 +282,6 @@ aHaveNotified
 )
 override
 ;
-EventStates
-IntrinsicState
-(
-)
-const
-override
-;
 virtual
 nsresult
 BindToTree
