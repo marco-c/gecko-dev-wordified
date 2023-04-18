@@ -267,9 +267,11 @@ seen
 up
 to
 a
-1e
+4
+.
+17e
 -
-6
+5
 difference
 in
 /
@@ -284,7 +286,7 @@ and
 accept
 up
 to
-1e
+5e
 -
 5
 .
@@ -302,7 +304,7 @@ startTime
 -
 startTime
 )
-1e
+5e
 -
 5
 "
