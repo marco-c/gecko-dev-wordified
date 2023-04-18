@@ -3563,6 +3563,13 @@ int32_t
 int_id
 )
 ;
+float
+Gecko_GetLookAndFeelFloat
+(
+int32_t
+float_id
+)
+;
 void
 Gecko_AddPropertyToSet
 (

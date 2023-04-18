@@ -1972,6 +1972,13 @@ factor
 TextScaleFactor
 /
 /
+GTK
+titlebar
+radius
+.
+TitlebarRadius
+/
+/
 Not
 an
 ID
