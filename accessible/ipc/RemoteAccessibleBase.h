@@ -1911,6 +1911,15 @@ RetrieveCachedBounds
 )
 const
 ;
+bool
+ApplyTransform
+(
+nsRect
+&
+aBounds
+)
+const
+;
 virtual
 void
 ARIAGroupPosition
