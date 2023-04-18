@@ -549,7 +549,7 @@ promiseWebAuthnMakeCredential
 (
 tab
 "
-indirect
+none
 "
 {
 }
@@ -1002,7 +1002,7 @@ promiseWebAuthnMakeCredential
 (
 tab_one
 "
-indirect
+none
 "
 {
 }
@@ -1333,7 +1333,7 @@ promiseWebAuthnMakeCredential
 (
 tab
 "
-indirect
+none
 "
 {
 }
