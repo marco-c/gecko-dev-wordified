@@ -447,6 +447,15 @@ label
 "
 ]
                 
+description
+=
+task_dict
+[
+"
+description
+"
+]
+                
 attributes
 =
 task_dict
@@ -495,6 +504,19 @@ get
 (
 "
 soft
+-
+dependencies
+"
+)
+                
+if_dependencies
+=
+task_dict
+.
+get
+(
+"
+if
 -
 dependencies
 "
@@ -1474,6 +1496,27 @@ self
 )
 :
         
+#
+Initial
+verifications
+that
+don
+'
+t
+depend
+on
+any
+generation
+state
+.
+        
+verifications
+(
+"
+initial
+"
+)
+        
 logger
 .
 info
@@ -1637,6 +1680,9 @@ filters
 ]
         
 yield
+self
+.
+verify
 (
 "
 parameters
@@ -1758,6 +1804,14 @@ kind
 )
         
 }
+        
+verifications
+(
+"
+kinds
+"
+kinds
+)
         
 edges
 =
@@ -2030,13 +2084,16 @@ set
 )
         
 yield
-verifications
+self
+.
+verify
 (
 "
 full_task_set
 "
 full_task_set
 graph_config
+parameters
 )
         
 logger
@@ -2143,13 +2200,16 @@ edges
 )
         
 yield
-verifications
+self
+.
+verify
 (
 "
 full_task_graph
 "
 full_task_graph
 graph_config
+parameters
 )
         
 logger
@@ -2286,13 +2346,16 @@ target_tasks
 )
         
 yield
-verifications
+self
+.
+verify
 (
 "
 target_task_set
 "
 target_task_set
 graph_config
+parameters
 )
         
 logger
@@ -2478,13 +2541,18 @@ target_graph
 )
         
 yield
-verifications
+self
+.
+verify
 (
+            
 "
 target_task_graph
 "
 target_task_graph
 graph_config
+parameters
+        
 )
         
 logger
@@ -2578,13 +2646,18 @@ existing_tasks
 )
         
 yield
-verifications
+self
+.
+verify
 (
+            
 "
 optimized_task_graph
 "
 optimized_task_graph
 graph_config
+parameters
+        
 )
         
 morphed_task_graph
@@ -2607,13 +2680,18 @@ label_to_taskid
 label_to_taskid
         
 yield
-verifications
+self
+.
+verify
 (
+            
 "
 morphed_task_graph
 "
 morphed_task_graph
 graph_config
+parameters
+        
 )
     
 def
@@ -2681,6 +2759,35 @@ _run_results
 [
 name
 ]
+    
+def
+verify
+(
+self
+name
+obj
+*
+args
+*
+*
+kwargs
+)
+:
+        
+verifications
+(
+name
+obj
+*
+args
+*
+*
+kwargs
+)
+        
+return
+name
+obj
 def
 load_tasks_for_kind
 (

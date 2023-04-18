@@ -1576,13 +1576,11 @@ https
 :
 /
 /
-hg
+github
 .
-mozilla
-.
-org
+com
 /
-ci
+taskcluster
 /
 taskgraph
 "
