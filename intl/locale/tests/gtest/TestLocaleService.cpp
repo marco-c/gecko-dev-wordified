@@ -943,7 +943,7 @@ IsEmpty
 ;
 ASSERT_TRUE
 (
-Locale
+MozLocale
 (
 locStr
 )

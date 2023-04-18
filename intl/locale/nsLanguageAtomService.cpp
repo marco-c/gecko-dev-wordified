@@ -1396,7 +1396,7 @@ BeginReading
 )
 ;
 }
-Locale
+MozLocale
 loc
 (
 langStr

@@ -629,7 +629,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 loc
 =
 mozilla
@@ -638,7 +638,7 @@ mozilla
 intl
 :
 :
-Locale
+MozLocale
 (
 locale
 )

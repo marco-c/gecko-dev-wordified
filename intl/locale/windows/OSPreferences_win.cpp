@@ -592,7 +592,7 @@ we
 use
 /
 /
-Locale
+MozLocale
 :
 :
 Maximize
@@ -609,7 +609,7 @@ go
 with
 it
 .
-Locale
+MozLocale
 locale
 (
 loc

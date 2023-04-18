@@ -399,7 +399,7 @@ primary
 language
 tag
 .
-Locale
+MozLocale
 loc
 (
 langStr
