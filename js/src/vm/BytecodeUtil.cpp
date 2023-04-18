@@ -8554,6 +8554,11 @@ if
 str
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
