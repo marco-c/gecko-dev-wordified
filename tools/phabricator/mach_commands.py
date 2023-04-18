@@ -226,11 +226,11 @@ from_runtime
 (
 )
     
-external_python
+original_python
 =
 active_metadata
 .
-external_python
+original_python
 .
 python_path
     
@@ -245,7 +245,7 @@ check_output
             
 [
                 
-external_python
+original_python
                 
 "
 -
@@ -329,7 +329,7 @@ subprocess
 run
 (
 [
-external_python
+original_python
 "
 -
 c
@@ -403,7 +403,7 @@ exit
 command
 =
 [
-external_python
+original_python
 "
 -
 m
@@ -807,7 +807,7 @@ check_output
 (
         
 [
-external_python
+original_python
 "
 -
 m
