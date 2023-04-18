@@ -120,6 +120,13 @@ nsIObserver
 .
 h
 "
+#
+include
+"
+nsIAsyncVerifyRedirectCallback
+.
+h
+"
 namespace
 mozilla
 {

@@ -448,6 +448,17 @@ mozilla
 /
 dom
 /
+MaybeDiscarded
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 network
 /
 TCPSocketParent
@@ -1797,6 +1808,9 @@ NeckoParent
 AllocPDocumentChannelParent
 (
 const
+dom
+:
+:
 MaybeDiscarded
 <
 BrowsingContext
@@ -1844,6 +1858,9 @@ PDocumentChannelParent
 *
 aActor
 const
+dom
+:
+:
 MaybeDiscarded
 <
 BrowsingContext
@@ -3461,6 +3478,9 @@ uint32_t
 flags
 )
 {
+dom
+:
+:
 HTMLDNSPrefetch
 :
 :
@@ -3512,6 +3532,9 @@ nsresult
 reason
 )
 {
+dom
+:
+:
 HTMLDNSPrefetch
 :
 :
