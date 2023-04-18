@@ -22269,6 +22269,14 @@ false
 ;
 }
 ;
+enum
+class
+SubresourceKind
+{
+Style
+Image
+}
+;
 /
 *
 *
@@ -22297,6 +22305,7 @@ nsIRequest
 *
 nsIURI
 *
+SubresourceKind
 )
 ;
 static

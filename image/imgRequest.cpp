@@ -3443,6 +3443,13 @@ GetSubresourceCacheValidationInfo
 (
 aRequest
 uri
+nsContentUtils
+:
+:
+SubresourceKind
+:
+:
+Image
 )
 ;
 /
