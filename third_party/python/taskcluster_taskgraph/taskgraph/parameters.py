@@ -447,8 +447,21 @@ rsplit
 ]
     
 except
+(
 CalledProcessError
+IndexError
+)
 :
+        
+#
+IndexError
+because
+not
+all
+repo_urls
+have
+slashes
+.
         
 repo_url
 =
