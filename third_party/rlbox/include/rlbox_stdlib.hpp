@@ -1367,7 +1367,10 @@ param
 num
 Number
 of
-bytes
+T
+-
+sized
+elements
 in
 the
 buffer
@@ -1612,7 +1615,12 @@ memcpy
 sandbox
 copy
 src
-num_trunc
+num
+*
+sizeof
+(
+T
+)
 )
 ;
 if
