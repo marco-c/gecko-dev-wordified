@@ -1617,7 +1617,7 @@ topsrcdir
 :
 str
         
-checkout_scoped_state_dir
+virtualenv_root
 :
 Optional
 [
@@ -1657,33 +1657,19 @@ the
 Firefox
 repo
             
-checkout_scoped_state_dir
+virtualenv_root
 :
 The
 path
 to
 the
-checkout
--
-scoped
-state_dir
+the
+associated
+Mach
+virtualenv
                 
-generally
-~
-/
-.
-mozbuild
-/
-srcdirs
-/
-<
-checkout
--
-based
--
-dir
->
-/
+if
+any
             
 requirements
 :
@@ -1799,20 +1785,7 @@ self
 .
 _virtualenv_root
 =
-(
-            
-_mach_virtualenv_root
-(
-checkout_scoped_state_dir
-)
-            
-if
-checkout_scoped_state_dir
-            
-else
-None
-        
-)
+virtualenv_root
         
 self
 .
@@ -2105,11 +2078,17 @@ requirements
         
 )
         
-state_dir
+virtualenv_root
 =
+(
+            
+_mach_virtualenv_root
+(
 get_state_dir
 (
 )
+)
+            
 if
 source
 =
@@ -2117,8 +2096,11 @@ source
 SitePackagesSource
 .
 VENV
+            
 else
 None
+        
+)
         
 return
 cls
@@ -2126,7 +2108,7 @@ cls
             
 topsrcdir
             
-state_dir
+virtualenv_root
             
 requirements
             
@@ -3224,7 +3206,7 @@ topsrcdir
 :
 str
         
-checkout_scoped_state_dir
+mach_virtualenv_root
 :
 Optional
 [
@@ -3270,33 +3252,16 @@ the
 Firefox
 repo
             
-checkout_scoped_state_dir
+mach_virtualenv_root
 :
 The
 path
 to
 the
-checkout
--
-scoped
-state_dir
-                
-generally
-~
-/
-.
-mozbuild
-/
-srcdirs
-/
-<
-checkout
--
-based
--
-dir
->
-/
+Mach
+virtualenv
+if
+any
             
 virtualenv_root
 :
@@ -3384,9 +3349,9 @@ topsrcdir
         
 self
 .
-_checkout_scoped_state_dir
+_mach_virtualenv_root
 =
-checkout_scoped_state_dir
+mach_virtualenv_root
         
 self
 .
@@ -3728,12 +3693,15 @@ installed
             
 )
         
-checkout_scoped_state_dir
+mach_virtualenv_root
 =
 (
             
+_mach_virtualenv_root
+(
 get_state_dir
 (
+)
 )
             
 if
@@ -3757,7 +3725,7 @@ cls
             
 topsrcdir
             
-checkout_scoped_state_dir
+mach_virtualenv_root
             
 os
 .
@@ -5212,7 +5180,7 @@ directory
 assert
 self
 .
-_checkout_scoped_state_dir
+_mach_virtualenv_root
             
 lines
 .
@@ -5221,14 +5189,9 @@ append
                 
 PythonVirtualenv
 (
-                    
-_mach_virtualenv_root
-(
 self
 .
-_checkout_scoped_state_dir
-)
-                
+_mach_virtualenv_root
 )
 .
 site_packages_dir
@@ -9180,6 +9143,67 @@ _mach_virtualenv_root
 checkout_scoped_state_dir
 )
 :
+    
+workspace
+=
+os
+.
+environ
+.
+get
+(
+"
+WORKSPACE
+"
+)
+    
+if
+os
+.
+environ
+.
+get
+(
+"
+MOZ_AUTOMATION
+"
+)
+and
+workspace
+:
+        
+#
+In
+CI
+put
+Mach
+virtualenv
+in
+the
+WORKSPACE
+dir
+which
+should
+be
+cleaned
+        
+#
+between
+jobs
+.
+        
+return
+os
+.
+path
+.
+join
+(
+workspace
+"
+mach_virtualenv
+"
+)
     
 return
 os
