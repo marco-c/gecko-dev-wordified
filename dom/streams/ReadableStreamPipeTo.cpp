@@ -6358,7 +6358,6 @@ reader
 =
 AcquireReadableStreamDefaultReader
 (
-cx
 aSource
 aRv
 )
