@@ -429,6 +429,12 @@ return
 mIsDynamicImport
 ;
 }
+nsIGlobalObject
+*
+GetGlobalObject
+(
+)
+;
 void
 SetReady
 (
