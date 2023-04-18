@@ -659,6 +659,7 @@ Theme
 >
 ThemeWantsButtonInnerFocusRing
 (
+mFrame
 disp
 -
 >

@@ -2252,6 +2252,8 @@ HeadlessThemeGTK
 :
 ThemeDrawsFocusForWidget
 (
+nsIFrame
+*
 StyleAppearance
 aAppearance
 )
