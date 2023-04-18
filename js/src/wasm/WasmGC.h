@@ -860,12 +860,12 @@ for
 the
 size
 of
-FrameWithTls
+FrameWithInstances
 including
 any
+/
+/
 shadow
-/
-/
 stack
 (
 at
@@ -881,9 +881,9 @@ little
 headroom
 in
 case
+/
+/
 the
-/
-/
 argument
 area
 had
@@ -893,7 +893,7 @@ aligned
 .
 static_assert
 (
-FrameWithTls
+FrameWithInstances
 :
 :
 sizeOf

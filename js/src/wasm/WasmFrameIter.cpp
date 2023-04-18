@@ -322,7 +322,7 @@ Maybe
 static
 Instance
 *
-ExtractCallerTlsFromFrameWithTls
+ExtractCallerInstanceFromFrameWithInstances
 (
 Frame
 *
@@ -347,10 +347,10 @@ uint8_t
 fp
 )
 +
-FrameWithTls
+FrameWithInstances
 :
 :
-callerTlsOffset
+callerInstanceOffset
 (
 )
 )
@@ -360,7 +360,7 @@ static
 const
 Instance
 *
-ExtractCalleeTlsFromFrameWithTls
+ExtractCalleeInstanceFromFrameWithInstances
 (
 const
 Frame
@@ -388,10 +388,10 @@ uint8_t
 fp
 )
 +
-FrameWithTls
+FrameWithInstances
 :
 :
-calleeTlsOffset
+calleeInstanceOffset
 (
 )
 )
@@ -1774,7 +1774,7 @@ mightBeCrossInstance
 {
 tls_
 =
-ExtractCallerTlsFromFrameWithTls
+ExtractCallerInstanceFromFrameWithInstances
 (
 prevFP
 )
@@ -7757,7 +7757,7 @@ returnAddress
 )
 ;
 return
-ExtractCalleeTlsFromFrameWithTls
+ExtractCalleeInstanceFromFrameWithInstances
 (
 fp
 )
@@ -7809,7 +7809,7 @@ isEntry
 )
 {
 return
-ExtractCalleeTlsFromFrameWithTls
+ExtractCalleeInstanceFromFrameWithInstances
 (
 fp
 )
@@ -7860,7 +7860,7 @@ mightBeCrossInstance
 )
 {
 return
-ExtractCalleeTlsFromFrameWithTls
+ExtractCalleeInstanceFromFrameWithInstances
 (
 fp
 )

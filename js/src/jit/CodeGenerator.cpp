@@ -57968,7 +57968,7 @@ masm
 getStackPointer
 (
 )
-WasmCallerTlsOffsetBeforeCall
+WasmCallerInstanceOffsetBeforeCall
 )
 InstanceReg
 )

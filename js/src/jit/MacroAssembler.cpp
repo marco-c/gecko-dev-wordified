@@ -25828,7 +25828,7 @@ Address
 getStackPointer
 (
 )
-WasmCallerTlsOffsetBeforeCall
+WasmCallerInstanceOffsetBeforeCall
 )
 )
 ;
@@ -25985,7 +25985,7 @@ Address
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -26048,7 +26048,7 @@ Address
 getStackPointer
 (
 )
-WasmCallerTlsOffsetBeforeCall
+WasmCallerInstanceOffsetBeforeCall
 )
 )
 ;
@@ -26060,7 +26060,7 @@ Address
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -26535,7 +26535,7 @@ Address
 getStackPointer
 (
 )
-WasmCallerTlsOffsetBeforeCall
+WasmCallerInstanceOffsetBeforeCall
 )
 )
 ;
@@ -26547,7 +26547,7 @@ Address
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -27312,7 +27312,7 @@ Address
 getStackPointer
 (
 )
-WasmCallerTlsOffsetBeforeCall
+WasmCallerInstanceOffsetBeforeCall
 )
 )
 ;
@@ -27330,7 +27330,7 @@ Address
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -27468,7 +27468,7 @@ Address
 getStackPointer
 (
 )
-WasmCallerTlsOffsetBeforeCall
+WasmCallerInstanceOffsetBeforeCall
 )
 InstanceReg
 )

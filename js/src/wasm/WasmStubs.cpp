@@ -5875,7 +5875,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -9030,7 +9030,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -11506,7 +11506,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeInstanceOffsetBeforeCall
 )
 )
 ;
@@ -12628,7 +12628,7 @@ scratch
 /
 This
 is
-FrameWithTls
+FrameWithInstances
 :
 :
 sizeOf
@@ -12639,9 +12639,9 @@ ShadowStackSpace
 because
 the
 latter
+/
+/
 is
-/
-/
 accounted
 for
 by
@@ -12654,7 +12654,7 @@ offsetFromFPToCallerStackArgs
 =
 sizeof
 (
-FrameWithTls
+FrameWithInstances
 )
 ;
 GenPrintf
@@ -13409,7 +13409,7 @@ scratch2
 /
 This
 is
-FrameWithTls
+FrameWithInstances
 :
 :
 sizeOf
@@ -13420,9 +13420,9 @@ ShadowStackSpace
 because
 the
 latter
+/
+/
 is
-/
-/
 accounted
 for
 by
@@ -13435,7 +13435,7 @@ offsetFromFPToCallerStackArgs
 =
 sizeof
 (
-FrameWithTls
+FrameWithInstances
 )
 ;
 /
@@ -14802,7 +14802,7 @@ fields
 of
 /
 /
-FrameWithTls
+FrameWithInstances
 .
 unsigned
 offsetFromFPToCallerStackArgs
@@ -19344,7 +19344,7 @@ needed
 /
 This
 is
-FrameWithTls
+FrameWithInstances
 :
 :
 sizeOf
@@ -19355,9 +19355,9 @@ ShadowStackSpace
 because
 the
 latter
+/
+/
 is
-/
-/
 accounted
 for
 by
@@ -19369,7 +19369,7 @@ offsetFromFPToCallerStackArgs
 =
 sizeof
 (
-FrameWithTls
+FrameWithInstances
 )
 ;
 Register
