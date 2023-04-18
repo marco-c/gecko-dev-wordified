@@ -2056,9 +2056,8 @@ contains
 the
 list
 of
-high
-priority
-TabIds
+active
+TabId
 for
 this
 process

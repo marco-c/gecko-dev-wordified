@@ -2635,16 +2635,6 @@ active
 =
 aActive
 ;
-browser
-.
-frameLoader
-.
-remoteTab
-.
-priorityHint
-=
-aActive
-;
 if
 (
 aActive
