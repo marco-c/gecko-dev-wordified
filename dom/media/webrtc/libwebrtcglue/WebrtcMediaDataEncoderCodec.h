@@ -232,7 +232,7 @@ vector
 webrtc
 :
 :
-FrameType
+VideoFrameType
 >
 *
 aFrameTypes
@@ -301,6 +301,8 @@ InitEncoder
 (
 )
 ;
+/
+*
 webrtc
 :
 :
@@ -322,6 +324,8 @@ MediaRawData
 aFrame
 )
 ;
+*
+/
 const
 RefPtr
 <
