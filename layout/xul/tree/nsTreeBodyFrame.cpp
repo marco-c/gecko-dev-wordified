@@ -14486,7 +14486,9 @@ StyleUI
 )
 -
 >
-mCursor
+Cursor
+(
+)
 .
 keyword
 ;
