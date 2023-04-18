@@ -1301,6 +1301,30 @@ subtests
 "
 ]
     
+should_alert
+=
+SHOULD_ALERT
+.
+get
+(
+name
+False
+)
+    
+if
+"
+gecko
+-
+profile
+"
+in
+extra_options
+:
+        
+should_alert
+=
+False
+    
 if
 name
 not
@@ -1347,13 +1371,7 @@ ms
 shouldAlert
 "
 :
-SHOULD_ALERT
-.
-get
-(
-name
-False
-)
+should_alert
         
 }
     
