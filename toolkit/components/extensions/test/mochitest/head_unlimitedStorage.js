@@ -68,7 +68,7 @@ NetUtil
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
