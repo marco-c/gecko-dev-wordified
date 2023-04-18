@@ -1705,7 +1705,7 @@ bytecodeOffset
 CallSiteDesc
 :
 :
-Dynamic
+Indirect
 )
 ;
 masm
