@@ -10495,6 +10495,16 @@ MallocSizeOf
 this
 )
 ;
+{
+mozilla
+:
+:
+MutexAutoLock
+autoLock
+(
+mMutex
+)
+;
 n
 +
 =
@@ -10517,6 +10527,7 @@ ShallowSizeOfIncludingThis
 MallocSizeOf
 )
 ;
+}
 MOZ_COLLECT_REPORT
 (
 "
@@ -10902,6 +10913,10 @@ return
 rv
 ;
 }
+/
+/
+MainThread
+only
 nsresult
 nsMemoryReporterManager
 :
@@ -11301,7 +11316,9 @@ forget
 if
 (
 !
-mIsRegistrationBlocked
+IsRegistrationBlocked
+(
+)
 &
 &
 net
@@ -11851,6 +11868,10 @@ return
 NS_OK
 ;
 }
+/
+/
+MainThread
+only
 NS_IMETHODIMP
 nsMemoryReporterManager
 :
