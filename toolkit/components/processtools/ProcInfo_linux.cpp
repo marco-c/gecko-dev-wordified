@@ -379,7 +379,10 @@ We
 first
 extract
 the
-filename
+file
+or
+thread
+name
 int32_t
 startPos
 =
@@ -441,9 +444,7 @@ startPos
 1
 )
 ;
-aInfo
-.
-filename
+mName
 .
 Assign
 (
@@ -882,8 +883,8 @@ mMaxIndex
 nsCString
 mFilepath
 ;
-ProcInfo
-mProcInfo
+nsString
+mName
 ;
 private
 :
@@ -1284,9 +1285,7 @@ name
 .
 Assign
 (
-info
-.
-filename
+mName
 )
 ;
 return

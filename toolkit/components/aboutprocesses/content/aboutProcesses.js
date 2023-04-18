@@ -1604,11 +1604,6 @@ childID
 cur
 .
 childID
-filename
-:
-cur
-.
-filename
 totalRamSize
 :
 cur
@@ -4934,7 +4929,7 @@ window
 /
 Column
 :
-filename
+name
 let
 nameCell
 =
@@ -5505,7 +5500,7 @@ thread
 /
 Column
 :
-filename
+name
 let
 nameCell
 =
