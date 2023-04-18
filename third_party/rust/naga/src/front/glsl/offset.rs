@@ -1047,7 +1047,6 @@ Struct
 {
 ref
 members
-top_level
 .
 .
 }
@@ -1191,7 +1190,6 @@ TypeInner
 :
 Struct
 {
-top_level
 members
 span
 }

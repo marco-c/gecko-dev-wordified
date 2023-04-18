@@ -24,9 +24,6 @@ PartialOrd
 )
 ]
 pub
-(
-crate
-)
 struct
 Version
 {
@@ -67,6 +64,9 @@ OpenGL
 version
 number
 pub
+(
+crate
+)
 fn
 new
 (
@@ -118,6 +118,9 @@ ES
 version
 number
 pub
+(
+crate
+)
 fn
 new_embedded
 (
@@ -343,6 +346,9 @@ ES
 .
 0
 pub
+(
+crate
+)
 fn
 parse
 (

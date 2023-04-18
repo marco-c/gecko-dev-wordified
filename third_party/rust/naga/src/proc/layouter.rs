@@ -820,9 +820,6 @@ Ti
 :
 Struct
 {
-top_level
-:
-_
 span
 ref
 members

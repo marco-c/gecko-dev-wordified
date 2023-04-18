@@ -8017,6 +8017,14 @@ Some
 (
 hal_instance
 )
+.
+.
+Default
+:
+:
+default
+(
+)
 }
 }
 fn

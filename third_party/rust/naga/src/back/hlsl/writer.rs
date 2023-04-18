@@ -1109,7 +1109,6 @@ TypeInner
 :
 Struct
 {
-top_level
 ref
 members
 .
@@ -1232,7 +1231,6 @@ write_struct
 (
 module
 handle
-top_level
 members
 ep_result
 .
@@ -5119,9 +5117,6 @@ crate
 :
 Type
 >
-_block
-:
-bool
 members
 :
 &
@@ -14792,9 +14787,6 @@ TypeInner
 :
 Struct
 {
-top_level
-:
-true
 ref
 members
 .

@@ -1140,7 +1140,7 @@ raw_window_handle
 RawWindowHandle
 :
 :
-Windows
+Win32
 (
 handle
 )
