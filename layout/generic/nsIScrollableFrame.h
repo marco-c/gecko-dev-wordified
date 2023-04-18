@@ -2274,7 +2274,7 @@ clean
 /
 virtual
 void
-ScrollToCSSPixelsApproximate
+ScrollToCSSPixelsForApz
 (
 const
 mozilla
@@ -2283,13 +2283,6 @@ mozilla
 CSSPoint
 &
 aScrollPosition
-ScrollOrigin
-aOrigin
-=
-ScrollOrigin
-:
-:
-NotSpecified
 )
 =
 0
