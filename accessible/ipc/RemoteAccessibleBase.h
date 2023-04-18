@@ -1157,6 +1157,16 @@ aName
 )
 override
 ;
+virtual
+bool
+DoAction
+(
+uint8_t
+aIndex
+)
+const
+override
+;
 /
 /
 Methods
