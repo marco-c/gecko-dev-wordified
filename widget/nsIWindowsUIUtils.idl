@@ -148,6 +148,14 @@ imgIContainer
 aLargeIcon
 )
 ;
+void
+setWindowIconNoData
+(
+in
+mozIDOMWindowProxy
+aWindow
+)
+;
 /
 *
 *
