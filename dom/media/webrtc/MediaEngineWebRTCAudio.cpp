@@ -1298,10 +1298,13 @@ if
 mode
 =
 =
-GainControl
+AudioProcessing
 :
 :
-Mode
+Config
+:
+:
+GainController1
 :
 :
 kAdaptiveAnalog

@@ -442,6 +442,10 @@ name
 }
 CalledByNative
 Map
+<
+String
+String
+>
 getParams
 (
 )
