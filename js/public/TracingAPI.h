@@ -311,6 +311,7 @@ Moving
 GrayBuffering
 ClearEdges
 Sweeping
+MinorSweeping
 Barrier
 /
 /

@@ -4716,9 +4716,6 @@ freed
 void
 sweep
 (
-JSTracer
-*
-trc
 )
 ;
 /
