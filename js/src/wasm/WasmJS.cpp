@@ -13821,7 +13821,10 @@ hazards
 UniqueTlsData
 tlsData
 =
-CreateTlsData
+TlsData
+:
+:
+create
 (
 globalDataLength
 )

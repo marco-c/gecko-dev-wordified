@@ -783,6 +783,8 @@ tls
 -
 >
 instance
+(
+)
 -
 >
 trace
@@ -1060,6 +1062,8 @@ tls
 -
 >
 instance
+(
+)
 ;
 const
 CodeRange
@@ -1159,6 +1163,8 @@ tls
 -
 >
 instance
+(
+)
 -
 >
 objectUnbarriered
@@ -1198,6 +1204,8 @@ tls
 -
 >
 instance
+(
+)
 -
 >
 objectUnbarriered
@@ -1678,6 +1686,8 @@ tls
 -
 >
 instance
+(
+)
 -
 >
 objectUnbarriered
@@ -1815,6 +1825,8 @@ tls
 -
 >
 instance
+(
+)
 -
 >
 objectUnbarriered
@@ -1872,6 +1884,8 @@ tls
 -
 >
 instance
+(
+)
 -
 >
 objectUnbarriered

@@ -4519,13 +4519,14 @@ Below
 Address
 (
 WasmTlsReg
-offsetof
-(
 wasm
 :
 :
 TlsData
-stackLimit
+:
+:
+offsetOfStackLimit
+(
 )
 )
 tmp

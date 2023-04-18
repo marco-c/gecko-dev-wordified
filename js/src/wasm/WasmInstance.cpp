@@ -2360,6 +2360,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 instance
@@ -2497,6 +2499,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 if
 (
@@ -2927,6 +2931,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 /
 /
@@ -3325,6 +3331,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 RootedWasmMemoryObject
 memory
@@ -3415,7 +3423,7 @@ tlsData
 )
 -
 >
-memoryBase
+memoryBase_
 =
 =
 instance
@@ -3492,6 +3500,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 RootedWasmMemoryObject
 memory
@@ -3542,7 +3552,7 @@ tlsData
 )
 -
 >
-memoryBase
+memoryBase_
 =
 =
 instance
@@ -3636,6 +3646,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -3782,6 +3794,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -4229,6 +4243,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryCopy
@@ -4292,6 +4308,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryCopyShared
@@ -4355,6 +4373,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryCopy
@@ -4418,6 +4438,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryCopyShared
@@ -4777,6 +4799,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryFill
@@ -4840,6 +4864,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryFillShared
@@ -4903,6 +4929,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryFill
@@ -4966,6 +4994,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryFillShared
@@ -5473,6 +5503,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryInit
@@ -5564,6 +5596,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 return
 MemoryInit
@@ -5721,6 +5755,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 const
 SharedTable
@@ -6567,6 +6603,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 if
 (
@@ -6851,6 +6889,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 Table
 &
@@ -7030,6 +7070,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 const
 Table
@@ -7229,6 +7271,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 RootedAnyRef
 ref
@@ -7401,6 +7445,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 Table
 &
@@ -7610,6 +7656,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 Tier
 tier
@@ -8387,6 +8435,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 cx
 -
@@ -8493,6 +8543,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 cx
 -
@@ -8708,6 +8760,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 Rooted
 <
@@ -8788,6 +8842,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 Rooted
 <
@@ -8870,6 +8926,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 RootedWasmTagObject
 tagObj
@@ -8981,6 +9039,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 RootedValue
 exnVal
@@ -9103,6 +9163,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 ASSERT_ANYREF_IS_JSOBJECT
 ;
@@ -9215,6 +9277,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 ASSERT_ANYREF_IS_JSOBJECT
 ;
@@ -9356,6 +9420,8 @@ tlsData
 -
 >
 cx
+(
+)
 ;
 const
 WasmArrayRawBuffer
@@ -9897,7 +9963,7 @@ tlsData
 )
 -
 >
-memoryBase
+memoryBase_
 =
 memory_
 ?
@@ -9973,7 +10039,7 @@ tlsData
 )
 -
 >
-boundsCheckLimit
+boundsCheckLimit_
 =
 limit
 ;
@@ -9982,7 +10048,7 @@ tlsData
 )
 -
 >
-instance
+instance_
 =
 this
 ;
@@ -9991,7 +10057,7 @@ tlsData
 )
 -
 >
-realm
+realm_
 =
 realm_
 ;
@@ -10000,7 +10066,7 @@ tlsData
 )
 -
 >
-cx
+cx_
 =
 cx
 ;
@@ -10009,7 +10075,7 @@ tlsData
 )
 -
 >
-valueBoxClass
+valueBoxClass_
 =
 &
 WasmValueBox
@@ -10032,7 +10098,7 @@ tlsData
 )
 -
 >
-jumpTable
+jumpTable_
 =
 code_
 -
@@ -10046,7 +10112,7 @@ tlsData
 )
 -
 >
-addressOfNeedsIncrementalBarrier
+addressOfNeedsIncrementalBarrier_
 =
 cx
 -
@@ -10496,7 +10562,7 @@ tlsData
 )
 -
 >
-pendingException
+pendingException_
 =
 nullptr
 ;
@@ -10505,7 +10571,7 @@ tlsData
 )
 -
 >
-pendingExceptionTag
+pendingExceptionTag_
 =
 nullptr
 ;
@@ -11621,7 +11687,7 @@ tlsData
 )
 -
 >
-pendingException
+pendingException_
 )
 ;
 #
@@ -12138,7 +12204,7 @@ tlsData
 )
 -
 >
-pendingException
+pendingException_
 "
 wasm
 pending
@@ -12156,7 +12222,7 @@ tlsData
 )
 -
 >
-pendingExceptionTag
+pendingExceptionTag_
 "
 wasm
 pending
@@ -13123,7 +13189,7 @@ tlsData
 )
 -
 >
-memoryBase
+memoryBase_
 =
 =
 memory_
@@ -15750,7 +15816,7 @@ tlsData
 )
 -
 >
-pendingException
+pendingException_
 )
 ;
 #
@@ -15818,7 +15884,7 @@ tlsData
 )
 -
 >
-pendingException
+pendingException_
 )
 ;
 #
@@ -16090,7 +16156,7 @@ tlsData
 )
 -
 >
-pendingException
+pendingException_
 =
 exn
 .
@@ -16107,7 +16173,7 @@ tlsData
 )
 -
 >
-pendingExceptionTag
+pendingExceptionTag_
 =
 GetExceptionTag
 (
@@ -16587,7 +16653,7 @@ tlsData
 )
 -
 >
-memoryBase
+memoryBase_
 =
 buffer
 .
@@ -16646,7 +16712,7 @@ tlsData
 )
 -
 >
-boundsCheckLimit
+boundsCheckLimit_
 =
 limit
 ;

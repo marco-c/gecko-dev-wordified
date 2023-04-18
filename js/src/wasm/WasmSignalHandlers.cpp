@@ -5023,6 +5023,8 @@ frame
 -
 >
 instance
+(
+)
 ;
 MOZ_RELEASE_ASSERT
 (
@@ -8167,6 +8169,8 @@ fp
 -
 >
 instance
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -8248,13 +8252,14 @@ uint8_t
 *
 >
 (
-offsetof
-(
 wasm
 :
 :
 TlsData
-memoryBase
+:
+:
+offsetOfMemoryBase
+(
 )
 )
 )
