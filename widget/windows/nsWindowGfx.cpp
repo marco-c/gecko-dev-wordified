@@ -3085,12 +3085,6 @@ case
 LayersBackend
 :
 :
-LAYERS_CLIENT
-:
-case
-LayersBackend
-:
-:
 LAYERS_WR
 :
 {

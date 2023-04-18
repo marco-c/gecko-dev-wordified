@@ -248,17 +248,6 @@ case
 LayersBackend
 :
 :
-LAYERS_CLIENT
-:
-return
-"
-client
-"
-;
-case
-LayersBackend
-:
-:
 LAYERS_WR
 :
 MOZ_ASSERT
