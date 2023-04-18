@@ -13389,7 +13389,7 @@ stencil
 JS
 :
 :
-FinishOffThreadCompileToStencil
+FinishCompileToStencilOffThread
 (
 cx
 mToken

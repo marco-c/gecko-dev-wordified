@@ -1323,7 +1323,7 @@ already_AddRefed
 <
 Stencil
 >
-FinishOffThreadCompileToStencil
+FinishCompileToStencilOffThread
 (
 JSContext
 *

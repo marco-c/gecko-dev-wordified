@@ -1089,7 +1089,7 @@ CompileToStencilOffThread
 JS
 :
 :
-FinishOffThreadCompileToStencil
+FinishCompileToStencilOffThread
 #
 include
 "
@@ -39202,7 +39202,7 @@ stencil
 JS
 :
 :
-FinishOffThreadCompileToStencil
+FinishCompileToStencilOffThread
 (
 cx
 token
