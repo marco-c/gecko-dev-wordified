@@ -10178,6 +10178,14 @@ UserData
 ;
 if
 (
+acc
+-
+>
+IsInDocument
+(
+)
+&
+&
 !
 acc
 -
