@@ -12847,7 +12847,7 @@ asMasm
 .
 addPtr
 (
-Imm32
+ImmWord
 (
 offset
 )
@@ -13329,7 +13329,7 @@ asMasm
 .
 addPtr
 (
-Imm32
+ImmWord
 (
 offset
 )
