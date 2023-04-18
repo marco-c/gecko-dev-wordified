@@ -243,12 +243,6 @@ final
 public
 nsXPLookAndFeel
 {
-static
-OperatingSystemVersion
-GetOperatingSystemVersion
-(
-)
-;
 public
 :
 nsLookAndFeel

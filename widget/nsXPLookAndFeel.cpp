@@ -1060,11 +1060,6 @@ menuBarDrag
 "
 ui
 .
-operatingSystemVersionIdentifier
-"
-"
-ui
-.
 scrollbarButtonAutoRepeatBehavior
 "
 "
