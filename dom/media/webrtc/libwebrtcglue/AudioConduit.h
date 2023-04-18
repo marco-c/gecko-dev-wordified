@@ -1031,7 +1031,7 @@ bool
 OverrideRemoteSSRC
 (
 uint32_t
-aSsrc
+ssrc
 )
 ;
 public
@@ -1040,7 +1040,7 @@ void
 UnsetRemoteSSRC
 (
 uint32_t
-aSsrc
+ssrc
 )
 override
 {
