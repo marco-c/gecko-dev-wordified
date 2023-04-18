@@ -2022,6 +2022,11 @@ DeviceListChanged
 (
 )
 ;
+void
+HandleDeviceListChanged
+(
+)
+;
 /
 /
 Returns
