@@ -2894,6 +2894,12 @@ BackendType
 :
 WEBRENDER_TEXT
 :
+case
+BackendType
+:
+:
+WEBGL
+:
 return
 false
 ;
