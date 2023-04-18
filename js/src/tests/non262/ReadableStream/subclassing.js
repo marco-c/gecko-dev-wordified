@@ -11,6 +11,17 @@ if
 xulRuntime
 .
 shell
+|
+|
+!
+this
+.
+hasOwnProperty
+(
+'
+ReadableStream
+'
+)
 )
 -
 -
