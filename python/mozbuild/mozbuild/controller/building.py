@@ -124,6 +124,12 @@ mixin
 logging
 import
 LoggingMixin
+from
+mach
+.
+util
+import
+get_state_dir
 import
 mozfile
 from
@@ -11538,9 +11544,17 @@ self
 .
 topsrcdir
             
+get_state_dir
+(
+specific_to_topsrcdir
+=
+True
+topsrcdir
+=
 self
 .
-statedir
+topsrcdir
+)
             
 "
 build
