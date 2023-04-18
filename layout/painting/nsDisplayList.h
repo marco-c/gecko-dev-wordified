@@ -24875,15 +24875,7 @@ aBuilder
 )
 const
 override
-{
-return
-CanBuildWebRenderDisplayItems
-(
-aManager
-aBuilder
-)
 ;
-}
 /
 *
 *
