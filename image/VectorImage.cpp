@@ -7110,6 +7110,9 @@ mAnimationConsumers
 =
 =
 0
+&
+&
+mHaveAnimations
 )
 {
 SendOnUnlockedDraw

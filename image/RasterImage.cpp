@@ -9338,6 +9338,9 @@ mAnimationConsumers
 =
 =
 0
+&
+&
+mAnimationState
 )
 {
 SendOnUnlockedDraw
