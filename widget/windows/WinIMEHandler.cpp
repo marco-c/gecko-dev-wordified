@@ -5003,6 +5003,12 @@ if
 IsWin10OrLater
 (
 )
+&
+&
+!
+IsWin11OrLater
+(
+)
 )
 {
 if
