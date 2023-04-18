@@ -605,6 +605,17 @@ content
 /
 test
 /
+tabcrashed
+/
+browser_aboutRestartRequired
+.
+ini
+"
+"
+content
+/
+test
+/
 tabdialogs
 /
 browser
