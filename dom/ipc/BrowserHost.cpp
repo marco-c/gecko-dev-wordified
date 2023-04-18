@@ -404,11 +404,15 @@ const
 {
 return
 mRoot
+?
+mRoot
 -
 >
 GetTopLevelDocAccessible
 (
 )
+:
+nullptr
 ;
 }
 void
