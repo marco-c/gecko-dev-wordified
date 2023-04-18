@@ -14559,12 +14559,6 @@ sHasShutdown
 return
 ;
 }
-mDeviceListChangeEvent
-.
-Notify
-(
-)
-;
 /
 /
 Wait
@@ -14875,6 +14869,12 @@ HandleDeviceListChanged
 (
 )
 {
+mDeviceListChangeEvent
+.
+Notify
+(
+)
+;
 EnumerateRawDevices
 (
 MediaSourceEnum

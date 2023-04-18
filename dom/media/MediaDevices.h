@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsTHashSet
 .
 h
@@ -542,12 +535,6 @@ Promise
 >
 >
 mPendingEnumerateDevicesPromises
-;
-nsCOMPtr
-<
-nsITimer
->
-mFuzzTimer
 ;
 /
 /
