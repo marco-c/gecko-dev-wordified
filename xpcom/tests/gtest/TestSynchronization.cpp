@@ -295,6 +295,7 @@ TEST
 Synchronization
 Sanity
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 Mutex
 lock
@@ -881,6 +882,7 @@ arg
 *
 /
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 for
 (
@@ -1037,6 +1039,7 @@ arg
 *
 /
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 gMon3
 -
@@ -2042,6 +2045,7 @@ TEST
 Synchronization
 AutoMonitor
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 ReentrantMonitor
 m1
