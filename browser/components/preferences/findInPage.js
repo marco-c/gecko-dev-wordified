@@ -4679,7 +4679,6 @@ hidden
 )
 ;
 }
-}
 this
 .
 subItems
@@ -4688,6 +4687,7 @@ clear
 (
 )
 ;
+}
 }
 /
 *
