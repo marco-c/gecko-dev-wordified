@@ -261,7 +261,7 @@ shell
         
 self
 .
-assertEquals
+assertEqual
 (
             
 "
@@ -293,7 +293,7 @@ browser
         
 self
 .
-assertEquals
+assertEqual
 (
             
 "
@@ -367,7 +367,7 @@ browser
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -405,7 +405,7 @@ out
         
 self
 .
-assertEquals
+assertEqual
 (
             
 "
@@ -484,7 +484,7 @@ appears
         
 self
 .
-assertEquals
+assertEqual
 (
             
 "
@@ -528,7 +528,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
             
 "
@@ -572,7 +572,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
             
 "

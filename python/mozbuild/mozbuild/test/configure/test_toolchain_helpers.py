@@ -808,7 +808,7 @@ input
         
 self
 .
-assertEquals
+assertEqual
 (
 pp
 .
@@ -1002,7 +1002,7 @@ input
         
 self
 .
-assertEquals
+assertEqual
 (
 pp
 .
@@ -1149,7 +1149,7 @@ input
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 IFDEF_A
@@ -1953,7 +1953,7 @@ B
             
 self
 .
-assertEquals
+assertEqual
 (
 compiler
 (
@@ -2078,7 +2078,7 @@ B
             
 self
 .
-assertEquals
+assertEqual
 (
 compiler
 (
@@ -2107,9 +2107,8 @@ C
             
 self
 .
-assertEquals
+assertEqual
 (
-                
 compiler
 (
 None
@@ -2137,12 +2136,11 @@ foo
 "
 "
 )
-            
 )
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 compiler
@@ -2177,7 +2175,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
 compiler
 (
@@ -2210,7 +2208,7 @@ C
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 compiler
@@ -2249,7 +2247,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 compiler
@@ -2288,7 +2286,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 compiler
@@ -2327,7 +2325,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 compiler
@@ -2366,7 +2364,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
 compiler
 (
@@ -2397,7 +2395,7 @@ C
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 compiler
@@ -2466,7 +2464,7 @@ C
         
 self
 .
-assertEquals
+assertEqual
 (
 compiler
 {
@@ -2524,7 +2522,7 @@ C
         
 self
 .
-assertEquals
+assertEqual
 (
 compiler
 {
@@ -2600,7 +2598,7 @@ D
         
 self
 .
-assertEquals
+assertEqual
 (
 compiler
 {
@@ -2703,7 +2701,7 @@ E
         
 self
 .
-assertEquals
+assertEqual
 (
             
 compiler
@@ -3059,7 +3057,7 @@ CompilerResult
         
 self
 .
-assertEquals
+assertEqual
 (
             
 result
@@ -3172,7 +3170,7 @@ gnu99
         
 self
 .
-assertEquals
+assertEqual
 (
             
 result
@@ -3270,7 +3268,7 @@ m32
         
 self
 .
-assertEquals
+assertEqual
 (
             
 result2
@@ -3362,7 +3360,7 @@ untouched
         
 self
 .
-assertEquals
+assertEqual
 (
 result
 .
@@ -3427,7 +3425,7 @@ m32
         
 self
 .
-assertEquals
+assertEqual
 (
             
 result3

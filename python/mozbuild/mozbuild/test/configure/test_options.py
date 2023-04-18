@@ -162,7 +162,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -173,7 +173,7 @@ prefix
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -185,7 +185,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -217,7 +217,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -229,7 +229,7 @@ enable
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -241,7 +241,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -273,7 +273,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -285,7 +285,7 @@ disable
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -297,7 +297,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -329,7 +329,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -341,7 +341,7 @@ with
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -353,7 +353,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -385,7 +385,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -397,7 +397,7 @@ without
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -409,7 +409,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -448,7 +448,7 @@ MOZ_OPTION
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -471,7 +471,7 @@ MOZ_OPTION
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -482,7 +482,7 @@ prefix
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -492,7 +492,7 @@ None
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -543,7 +543,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -594,7 +594,7 @@ default
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -648,7 +648,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -705,7 +705,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -756,7 +756,7 @@ default
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -810,7 +810,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -864,7 +864,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -923,7 +923,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -976,7 +976,7 @@ default
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -1032,7 +1032,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -1106,7 +1106,7 @@ nargs
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -1157,7 +1157,7 @@ nargs
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -1205,7 +1205,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1231,7 +1231,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1259,7 +1259,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1291,7 +1291,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1326,7 +1326,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1352,7 +1352,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1376,7 +1376,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1402,7 +1402,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1432,7 +1432,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1465,7 +1465,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
 option
 .
@@ -1530,7 +1530,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 Option
 (
@@ -1543,7 +1543,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 Option
 (
@@ -1571,7 +1571,7 @@ False
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 opt
@@ -1622,7 +1622,7 @@ True
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 opt
@@ -1663,7 +1663,7 @@ without
         
 self
 .
-assertEquals
+assertEqual
 (
 Option
 (
@@ -1722,7 +1722,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -1776,7 +1776,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -1837,7 +1837,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -1898,7 +1898,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -1976,7 +1976,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -2044,7 +2044,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -2127,7 +2127,7 @@ c
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -2179,7 +2179,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2256,7 +2256,7 @@ c
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -2308,7 +2308,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2437,7 +2437,7 @@ d
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2476,7 +2476,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2511,7 +2511,7 @@ d
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2558,7 +2558,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2617,7 +2617,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2662,7 +2662,7 @@ e
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -2732,7 +2732,7 @@ e
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -2791,7 +2791,7 @@ e
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -3139,7 +3139,7 @@ PositiveOptionValue
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3164,7 +3164,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3189,7 +3189,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3214,7 +3214,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3239,7 +3239,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3260,7 +3260,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 VALUE
@@ -3290,7 +3290,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3317,7 +3317,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3344,7 +3344,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3371,7 +3371,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3398,7 +3398,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3421,7 +3421,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 VALUE
@@ -3454,7 +3454,7 @@ b
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3482,7 +3482,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3510,7 +3510,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3538,7 +3538,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3566,7 +3566,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3590,7 +3590,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 VALUE
@@ -3616,7 +3616,7 @@ NegativeOptionValue
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3641,7 +3641,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3666,7 +3666,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3691,7 +3691,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -3716,7 +3716,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 "
@@ -3734,7 +3734,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 VALUE
@@ -3879,7 +3879,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 posOptionValue
@@ -3889,7 +3889,7 @@ posOptionValue
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -3936,7 +3936,7 @@ nargs
                 
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -3968,9 +3968,8 @@ nargs
                 
 self
 .
-assertEquals
+assertEqual
 (
-                    
 str
 (
 e
@@ -3990,7 +3989,6 @@ values
 "
 %
 name
-                
 )
             
 else
@@ -3998,7 +3996,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -4031,7 +4029,7 @@ get_value
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 defaultValue
@@ -4039,7 +4037,7 @@ defaultValue
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -4060,7 +4058,7 @@ None
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 defaultValue
@@ -4068,7 +4066,7 @@ defaultValue
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -4191,7 +4189,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -4205,7 +4203,7 @@ PositiveOptionValue
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -4250,9 +4248,8 @@ disabled
                 
 self
 .
-assertEquals
+assertEqual
 (
-                    
 str
 (
 e
@@ -4272,7 +4269,6 @@ s
 "
 %
 name
-                
 )
             
 else
@@ -4280,7 +4276,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -4350,7 +4346,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -4365,7 +4361,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -4411,9 +4407,8 @@ disabled
                 
 self
 .
-assertEquals
+assertEqual
 (
-                    
 str
 (
 e
@@ -4433,7 +4428,6 @@ s
 "
 %
 name
-                
 )
             
 else
@@ -4441,7 +4435,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -4509,7 +4503,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -4527,7 +4521,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -4577,9 +4571,8 @@ disabled
                 
 self
 .
-assertEquals
+assertEqual
 (
-                    
 str
 (
 e
@@ -4599,7 +4592,6 @@ s
 "
 %
 name
-                
 )
             
 elif
@@ -4613,7 +4605,7 @@ nargs
                 
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -4641,7 +4633,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -4744,7 +4736,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 posOptionValue
@@ -4754,7 +4746,7 @@ posOptionValue
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -4798,9 +4790,8 @@ disabled
                 
 self
 .
-assertEquals
+assertEqual
 (
-                    
 str
 (
 e
@@ -4820,7 +4811,6 @@ s
 "
 %
 name
-                
 )
             
 elif
@@ -4834,9 +4824,8 @@ nargs
                 
 self
 .
-assertEquals
+assertEqual
 (
-                    
 str
 (
 e
@@ -4856,7 +4845,6 @@ values
 "
 %
 name
-                
 )
             
 else
@@ -4864,7 +4852,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -4917,7 +4905,7 @@ get_value
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 defaultValue
@@ -4925,7 +4913,7 @@ defaultValue
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -4946,7 +4934,7 @@ None
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 defaultValue
@@ -4954,7 +4942,7 @@ defaultValue
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -4981,7 +4969,7 @@ environment
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 NegativeOptionValue
@@ -4991,7 +4979,7 @@ NegativeOptionValue
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5033,7 +5021,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -5043,7 +5031,7 @@ PositiveOptionValue
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5082,7 +5070,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -5097,7 +5085,7 @@ PositiveOptionValue
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5137,7 +5125,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -5195,7 +5183,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -5209,7 +5197,7 @@ PositiveOptionValue
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5257,9 +5245,8 @@ disabled
                 
 self
 .
-assertEquals
+assertEqual
 (
-                    
 str
 (
 e
@@ -5279,7 +5266,6 @@ s
 "
 %
 name
-                
 )
             
 else
@@ -5287,7 +5273,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -5374,7 +5360,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -5389,7 +5375,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5429,7 +5415,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -5481,7 +5467,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -5499,7 +5485,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5549,7 +5535,7 @@ nargs
                 
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -5572,7 +5558,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -5668,7 +5654,7 @@ get_value
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 defaultValue
@@ -5676,7 +5662,7 @@ defaultValue
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5703,7 +5689,7 @@ environment
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 negOptionValue
@@ -5713,7 +5699,7 @@ negOptionValue
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5755,7 +5741,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 posOptionValue
@@ -5772,7 +5758,7 @@ value
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5811,7 +5797,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -5826,7 +5812,7 @@ PositiveOptionValue
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -5866,7 +5852,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -5964,7 +5950,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -5979,7 +5965,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -6019,7 +6005,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -6071,7 +6057,7 @@ environment
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -6089,7 +6075,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -6139,7 +6125,7 @@ nargs
                 
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -6162,7 +6148,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -6274,7 +6260,7 @@ option
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 NegativeOptionValue
@@ -6284,7 +6270,7 @@ NegativeOptionValue
         
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -6355,7 +6341,7 @@ option
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 PositiveOptionValue
@@ -6365,7 +6351,7 @@ PositiveOptionValue
             
 self
 .
-assertEquals
+assertEqual
 (
 value
 .
@@ -6417,9 +6403,8 @@ nargs
                 
 self
 .
-assertEquals
+assertEqual
 (
-                    
 str
 (
 e
@@ -6439,7 +6424,6 @@ value
 "
 %
 enable
-                
 )
             
 elif
@@ -6453,7 +6437,7 @@ nargs
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -6485,7 +6469,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
                     
 str
@@ -6563,7 +6547,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -6619,7 +6603,7 @@ nargs
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -6730,7 +6714,7 @@ nargs
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -6839,7 +6823,7 @@ nargs
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -7164,7 +7148,7 @@ nargs
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -7226,7 +7210,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
 [
 "
@@ -7261,7 +7245,7 @@ qux
         
 self
 .
-assertEquals
+assertEqual
 (
 [
 "
@@ -7307,7 +7291,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
 [
 "
@@ -7331,7 +7315,7 @@ helper
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -7341,7 +7325,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -7370,7 +7354,7 @@ baz
         
 self
 .
-assertEquals
+assertEqual
 (
 [
 "
@@ -7394,7 +7378,7 @@ helper
         
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -7404,7 +7388,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 None
 option
@@ -7497,7 +7481,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -7515,7 +7499,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -7529,7 +7513,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -7586,7 +7570,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -7596,7 +7580,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -7610,7 +7594,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -7664,7 +7648,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -7682,7 +7666,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -7696,7 +7680,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -7775,7 +7759,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -7793,7 +7777,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -7807,7 +7791,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -7862,7 +7846,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -7872,7 +7856,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -7886,7 +7870,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -7939,7 +7923,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -7949,7 +7933,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 environment
@@ -7961,7 +7945,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 FOO
@@ -8010,7 +7994,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -8028,7 +8012,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 environment
@@ -8040,7 +8024,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 FOO
@@ -8090,7 +8074,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -8100,7 +8084,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -8114,7 +8098,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 FOO
@@ -8161,7 +8145,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -8179,7 +8163,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -8193,7 +8177,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 FOO
@@ -8243,7 +8227,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -8261,7 +8245,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -8275,7 +8259,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -8328,7 +8312,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -8338,7 +8322,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -8352,7 +8336,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -8437,7 +8421,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -8458,7 +8442,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 other
@@ -8472,7 +8456,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 FOO
@@ -8549,7 +8533,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -8570,7 +8554,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 other
@@ -8584,7 +8568,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -8865,7 +8849,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -8886,7 +8870,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 other
@@ -8900,7 +8884,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 FOO
@@ -9287,7 +9271,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -9308,7 +9292,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 other
@@ -9322,7 +9306,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -
@@ -9713,7 +9697,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -9723,7 +9707,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 command
@@ -9737,7 +9721,7 @@ origin
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 -

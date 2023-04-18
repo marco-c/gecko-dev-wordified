@@ -420,7 +420,7 @@ to_app_version
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -677,7 +677,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1084,7 +1084,7 @@ x86
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1477,7 +1477,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1892,7 +1892,7 @@ close
         
 self
 .
-assertEquals
+assertEqual
 (
 open
 (
@@ -2301,7 +2301,7 @@ thisChunk
         
 self
 .
-assertEquals
+assertEqual
 (
 chunkedConfig
 uvc2
@@ -2707,7 +2707,7 @@ thisChunk
         
 self
 .
-assertEquals
+assertEqual
 (
 chunkedConfig
 uvc2
@@ -2763,7 +2763,7 @@ from_path
         
 self
 .
-assertEquals
+assertEqual
 (
             
 self
@@ -2849,7 +2849,7 @@ from_path
         
 self
 .
-assertEquals
+assertEqual
 (
             
 self
@@ -2944,7 +2944,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -3256,7 +3256,7 @@ ftp_server_to
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -3519,7 +3519,7 @@ ftp_server_to
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .

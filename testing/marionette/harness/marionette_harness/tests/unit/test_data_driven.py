@@ -228,7 +228,7 @@ test_2
         
 self
 .
-assertEquals
+assertEqual
 (
 test
 .
@@ -403,7 +403,7 @@ test_2
         
 self
 .
-assertEquals
+assertEqual
 (
 test
 .

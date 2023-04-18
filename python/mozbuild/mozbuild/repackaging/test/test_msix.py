@@ -249,7 +249,7 @@ buildid
             
 self
 .
-assertEquals
+assertEqual
 (
 version
 output
@@ -335,7 +335,7 @@ buildid
             
 self
 .
-assertEquals
+assertEqual
 (
 version
 output

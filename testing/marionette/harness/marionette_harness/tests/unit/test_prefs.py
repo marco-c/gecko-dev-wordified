@@ -1568,7 +1568,7 @@ True
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1590,7 +1590,7 @@ int
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1614,7 +1614,7 @@ def
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1902,7 +1902,7 @@ def
                 
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1949,7 +1949,7 @@ pass
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .

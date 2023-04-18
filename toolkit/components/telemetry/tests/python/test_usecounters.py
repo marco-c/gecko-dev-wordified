@@ -260,7 +260,7 @@ exit_func
         
 self
 .
-assertEquals
+assertEqual
 (
 hist
 .
@@ -277,7 +277,7 @@ DATASET_ALL_CHANNELS
         
 self
 .
-assertEquals
+assertEqual
 (
 hist
 .
@@ -388,7 +388,7 @@ exit_func
         
 self
 .
-assertEquals
+assertEqual
 (
 hist
 .
@@ -402,7 +402,7 @@ never
         
 self
 .
-assertEquals
+assertEqual
 (
 hist
 .
@@ -416,7 +416,7 @@ boolean
         
 self
 .
-assertEquals
+assertEqual
 (
 hist
 .
@@ -434,7 +434,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
 hist
 .

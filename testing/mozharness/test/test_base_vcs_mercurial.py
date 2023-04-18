@@ -390,7 +390,7 @@ get_mercurial_vcs_obj
             
 self
 .
-assertEquals
+assertEqual
 (
 m
 .
@@ -426,7 +426,7 @@ get_mercurial_vcs_obj
             
 self
 .
-assertEquals
+assertEqual
 (
 m
 .
@@ -467,7 +467,7 @@ get_mercurial_vcs_obj
             
 self
 .
-assertEquals
+assertEqual
 (
 m
 .
@@ -509,7 +509,7 @@ get_mercurial_vcs_obj
             
 self
 .
-assertEquals
+assertEqual
 (
 m
 .
@@ -553,7 +553,7 @@ get_mercurial_vcs_obj
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 m
@@ -804,7 +804,7 @@ wc
         
 self
 .
-assertEquals
+assertEqual
 (
 b
 "
@@ -850,7 +850,7 @@ wc
         
 self
 .
-assertEquals
+assertEqual
 (
 sorted
 (
@@ -901,7 +901,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 None
@@ -909,7 +909,7 @@ None
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -924,7 +924,7 @@ wc
         
 self
 .
-assertEquals
+assertEqual
 (
 sorted
 (
@@ -1013,7 +1013,7 @@ False
         
 self
 .
-failUnless
+assertTrue
 (
 not
 os
@@ -1072,7 +1072,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -1149,7 +1149,7 @@ hg_ver
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1171,7 +1171,7 @@ else
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -1236,7 +1236,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -1300,7 +1300,7 @@ revisions
         
 self
 .
-assertEquals
+assertEqual
 (
             
 self
@@ -1359,7 +1359,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 None
@@ -1386,7 +1386,7 @@ revisions
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -1443,7 +1443,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -1487,7 +1487,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 None
@@ -1495,7 +1495,7 @@ None
         
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -1554,7 +1554,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -1610,7 +1610,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 None
@@ -1633,7 +1633,7 @@ branch
         
 self
 .
-assertEquals
+assertEqual
 (
             
 get_revisions
@@ -1706,7 +1706,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -1756,7 +1756,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 None
@@ -1799,7 +1799,7 @@ hg_ver
             
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -1821,7 +1821,7 @@ else
             
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -2013,7 +2013,7 @@ wc
         
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -2119,7 +2119,7 @@ default
             
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -2193,7 +2193,7 @@ revisions
         
 self
 .
-assertEquals
+assertEqual
 (
 get_revisions
 (
@@ -2282,7 +2282,7 @@ ensure_repo_and_revision
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -2483,7 +2483,7 @@ ensure_repo_and_revision
             
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -2602,7 +2602,7 @@ ensure_repo_and_revision
             
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -2627,7 +2627,7 @@ away
             
 self
 .
-failUnless
+assertTrue
 (
 os
 .
@@ -2742,7 +2742,7 @@ ensure_repo_and_revision
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -2842,7 +2842,7 @@ ensure_repo_and_revision
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -2867,7 +2867,7 @@ away
         
 self
 .
-failUnless
+assertTrue
 (
 os
 .
@@ -2970,7 +2970,7 @@ ensure_repo_and_revision
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -3081,7 +3081,7 @@ ensure_repo_and_revision
         
 self
 .
-assertEquals
+assertEqual
 (
 rev
 self
@@ -3106,7 +3106,7 @@ away
         
 self
 .
-failUnless
+assertTrue
 (
 os
 .
@@ -3253,7 +3253,7 @@ py
         
 self
 .
-assertEquals
+assertEqual
 (
 file_url
 expected_url
@@ -3326,7 +3326,7 @@ default
         
 self
 .
-assertEquals
+assertEqual
 (
 file_url
 expected_url
@@ -3389,7 +3389,7 @@ tools
         
 self
 .
-assertEquals
+assertEqual
 (
 repo_url
 expected_url
@@ -3452,7 +3452,7 @@ tools
         
 self
 .
-assertEquals
+assertEqual
 (
 repo_url
 expected_url

@@ -285,7 +285,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 args
 .
@@ -313,7 +313,7 @@ argv
             
 self
 .
-assertEquals
+assertEqual
 (
 args
 .

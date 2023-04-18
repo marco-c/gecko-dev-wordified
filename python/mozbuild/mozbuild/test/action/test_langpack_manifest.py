@@ -259,7 +259,7 @@ manifest
         
 self
 .
-assertEquals
+assertEqual
 (
 data
 [
@@ -276,7 +276,7 @@ Pack
         
 self
 .
-assertEquals
+assertEqual
 (
             
 data
@@ -301,7 +301,7 @@ White
         
 self
 .
-assertEquals
+assertEqual
 (
 data
 [
@@ -432,7 +432,7 @@ manifest
         
 self
 .
-assertEquals
+assertEqual
 (
 data
 [
@@ -449,7 +449,7 @@ Pack
         
 self
 .
-assertEquals
+assertEqual
 (
 data
 [

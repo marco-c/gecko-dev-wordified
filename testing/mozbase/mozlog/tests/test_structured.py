@@ -285,7 +285,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 set
 (
@@ -3610,7 +3610,7 @@ pop_last_item
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -3625,7 +3625,7 @@ log
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -3746,7 +3746,7 @@ pop_last_item
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -3761,7 +3761,7 @@ log
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -3867,7 +3867,7 @@ pop_last_item
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -3882,7 +3882,7 @@ log
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -3941,7 +3941,7 @@ pop_last_item
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -3956,7 +3956,7 @@ log
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -4027,7 +4027,7 @@ pop_last_item
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -4042,7 +4042,7 @@ log
         
 self
 .
-assertEquals
+assertEqual
 (
 last_item
 [
@@ -5766,7 +5766,7 @@ PY3
                 
 self
 .
-assertEquals
+assertEqual
 (
 data
 .
@@ -5782,7 +5782,7 @@ else
                 
 self
 .
-assertEquals
+assertEqual
 (
 data
 "
@@ -7845,7 +7845,7 @@ value
         
 self
 .
-assertEquals
+assertEqual
 (
 set
 (
@@ -8483,7 +8483,7 @@ limit
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -8530,7 +8530,7 @@ list
         
 self
 .
-assertEquals
+assertEqual
 (
 [
 4
@@ -8883,7 +8883,7 @@ data
         
 self
 .
-assertEquals
+assertEqual
 (
 data
 list
@@ -9023,7 +9023,7 @@ f_action_1
         
 self
 .
-assertEquals
+assertEqual
 (
             
 [
@@ -9190,7 +9190,7 @@ f_action_1
         
 self
 .
-assertEquals
+assertEqual
 (
 {
 "
@@ -9305,7 +9305,7 @@ item
                 
 test
 .
-assertEquals
+assertEqual
 (
 item
 [
@@ -9335,7 +9335,7 @@ item
                 
 test
 .
-assertEquals
+assertEqual
 (
 item
 [
@@ -9376,7 +9376,7 @@ handler
         
 self
 .
-assertEquals
+assertEqual
 (
 handler
 .
@@ -9386,7 +9386,7 @@ action_0_count
         
 self
 .
-assertEquals
+assertEqual
 (
 handler
 .

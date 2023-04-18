@@ -5768,7 +5768,7 @@ log_as_xml
         
 self
 .
-assertEquals
+assertEqual
 (
             
 "

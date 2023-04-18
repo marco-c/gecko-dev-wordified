@@ -3926,7 +3926,7 @@ mozbuild
             
 self
 .
-assertEquals
+assertEqual
 (
 sandbox
 [

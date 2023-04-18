@@ -3036,7 +3036,7 @@ code
         
 self
 .
-assertEquals
+assertEqual
 (
 status
 0
@@ -3074,7 +3074,7 @@ u00B4
         
 self
 .
-assertEquals
+assertEqual
 (
 six
 .

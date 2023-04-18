@@ -86,7 +86,7 @@ fail
         
 self
 .
-assertEquals
+assertEqual
 (
 True
 False

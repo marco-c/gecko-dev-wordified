@@ -6240,7 +6240,7 @@ fail
         
 self
 .
-assertEquals
+assertEqual
 (
 2
 self
@@ -6273,7 +6273,7 @@ sleeptime
         
 self
 .
-assertEquals
+assertEqual
 (
 ret
 True
@@ -6313,7 +6313,7 @@ sleeptime
         
 self
 .
-assertEquals
+assertEqual
 (
 cleanup
 .

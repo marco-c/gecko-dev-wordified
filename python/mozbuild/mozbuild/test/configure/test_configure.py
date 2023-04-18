@@ -251,7 +251,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 "
 "
@@ -325,7 +325,7 @@ None
         
 self
 .
-assertEquals
+assertEqual
 (
             
 {
@@ -461,7 +461,7 @@ configure
         
 self
 .
-assertEquals
+assertEqual
 (
 {
 }
@@ -476,7 +476,7 @@ None
         
 self
 .
-assertEquals
+assertEqual
 (
             
 "
@@ -926,7 +926,7 @@ config
             
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -1006,7 +1006,7 @@ config
             
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -1202,7 +1202,7 @@ config
             
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -1322,7 +1322,7 @@ config
             
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -1462,7 +1462,7 @@ config
             
 self
 .
-assertEquals
+assertEqual
 (
 NegativeOptionValue
 (
@@ -1528,7 +1528,7 @@ config
             
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -1568,7 +1568,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -1624,7 +1624,7 @@ name
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -1711,7 +1711,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -1758,7 +1758,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -1846,7 +1846,7 @@ config
             
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -1923,7 +1923,7 @@ config
             
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2047,7 +2047,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -2096,7 +2096,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 PositiveOptionValue
 (
@@ -2169,7 +2169,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -2461,7 +2461,7 @@ sandbox
         
 self
 .
-assertEquals
+assertEqual
 (
 sandbox
 [
@@ -2527,7 +2527,7 @@ sandbox
         
 self
 .
-assertEquals
+assertEqual
 (
 sandbox
 [
@@ -2668,7 +2668,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 f
 .
@@ -2880,7 +2880,7 @@ executed
         
 self
 .
-assertEquals
+assertEqual
 (
 list
 (
@@ -2898,7 +2898,7 @@ foo
         
 self
 .
-assertEquals
+assertEqual
 (
 sandbox
 [
@@ -3152,7 +3152,7 @@ sandbox
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -3522,7 +3522,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3545,7 +3545,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3568,7 +3568,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3617,7 +3617,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3640,7 +3640,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3691,7 +3691,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3832,7 +3832,7 @@ help
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -3866,7 +3866,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3914,7 +3914,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3954,7 +3954,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -3996,7 +3996,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -4017,7 +4017,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -4187,7 +4187,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -4225,7 +4225,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -4299,7 +4299,7 @@ help
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -4344,7 +4344,7 @@ DEFINES
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -4407,7 +4407,7 @@ DEFINES
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -4457,7 +4457,7 @@ DEFINES
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -4509,7 +4509,7 @@ DEFINES
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -4535,7 +4535,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -4710,7 +4710,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -4753,7 +4753,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -4834,7 +4834,7 @@ help
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -4851,7 +4851,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -4885,7 +4885,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -4931,7 +4931,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -5028,7 +5028,7 @@ help
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -5045,7 +5045,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -5079,7 +5079,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -5125,7 +5125,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -5200,7 +5200,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -5246,7 +5246,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -5343,7 +5343,7 @@ help
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -5360,7 +5360,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -5396,7 +5396,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -5444,7 +5444,7 @@ config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 [
@@ -5501,7 +5501,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -5601,7 +5601,7 @@ help
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -5618,7 +5618,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -5658,7 +5658,7 @@ bar
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -5736,7 +5736,7 @@ configure
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -5824,7 +5824,7 @@ help
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -5841,7 +5841,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -6137,7 +6137,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -6267,7 +6267,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -6395,7 +6395,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -6433,7 +6433,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -6620,7 +6620,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -6666,7 +6666,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -6712,7 +6712,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -6776,7 +6776,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -6843,7 +6843,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -7031,7 +7031,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -7077,7 +7077,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -7134,7 +7134,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -7217,7 +7217,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -7284,7 +7284,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -7496,7 +7496,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -7542,7 +7542,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -7599,7 +7599,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -7685,7 +7685,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -7755,7 +7755,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -8042,7 +8042,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8081,7 +8081,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8127,7 +8127,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8189,7 +8189,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -8287,7 +8287,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8371,7 +8371,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8458,7 +8458,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8545,7 +8545,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8634,7 +8634,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -8840,7 +8840,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -8878,7 +8878,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -8931,7 +8931,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -8986,7 +8986,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -9039,7 +9039,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -9090,7 +9090,7 @@ QUX
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -9132,7 +9132,7 @@ QUX
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -9169,7 +9169,7 @@ help
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 help
@@ -9286,7 +9286,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 help
@@ -9463,7 +9463,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -9604,7 +9604,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -10263,7 +10263,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -10379,7 +10379,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -10463,7 +10463,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -10898,7 +10898,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -10924,7 +10924,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
 config
 {
@@ -10950,7 +10950,7 @@ bar
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -10997,7 +10997,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -11050,7 +11050,7 @@ really
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -11261,7 +11261,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -11336,7 +11336,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -11433,7 +11433,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -11504,7 +11504,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -11587,7 +11587,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -11655,7 +11655,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -11746,7 +11746,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -11822,7 +11822,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
             
 str
@@ -11981,7 +11981,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -12019,7 +12019,7 @@ qux
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 config
@@ -12108,7 +12108,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -12201,7 +12201,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -12314,7 +12314,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -12388,7 +12388,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -12460,7 +12460,7 @@ get_config
         
 self
 .
-assertEquals
+assertEqual
 (
 str
 (
@@ -12914,7 +12914,7 @@ foo
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -13023,7 +13023,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str
@@ -13183,7 +13183,7 @@ get_config
             
 self
 .
-assertEquals
+assertEqual
 (
                 
 str

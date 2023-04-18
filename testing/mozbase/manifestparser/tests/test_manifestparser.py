@@ -3599,7 +3599,7 @@ manifest_defaults
         
 self
 .
-assertEquals
+assertEqual
 (
 parser
 .

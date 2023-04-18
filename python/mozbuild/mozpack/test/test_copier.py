@@ -3737,7 +3737,7 @@ created
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (

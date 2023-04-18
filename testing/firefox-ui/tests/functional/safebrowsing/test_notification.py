@@ -841,7 +841,7 @@ found
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .

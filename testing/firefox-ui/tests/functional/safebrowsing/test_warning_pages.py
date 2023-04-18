@@ -1149,7 +1149,7 @@ topic
         
 self
 .
-assertEquals
+assertEqual
 (
 topic
 .
@@ -1250,7 +1250,7 @@ feature
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .

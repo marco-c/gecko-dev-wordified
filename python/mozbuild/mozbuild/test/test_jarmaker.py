@@ -3310,7 +3310,7 @@ NO_OUTPUT_REQUIRED
         
 self
 .
-assertEquals
+assertEqual
 (
             
 jm
@@ -3391,7 +3391,7 @@ NO_OUTPUT_REQUIRED
         
 self
 .
-assertEquals
+assertEqual
 (
 jm
 .
@@ -3451,7 +3451,7 @@ NO_OUTPUT_REQUIRED
         
 self
 .
-assertEquals
+assertEqual
 (
             
 jm
@@ -3557,7 +3557,7 @@ NO_OUTPUT_REQUIRED
         
 self
 .
-assertEquals
+assertEqual
 (
             
 jm
@@ -3684,7 +3684,7 @@ NO_OUTPUT_REQUIRED
         
 self
 .
-assertEquals
+assertEqual
 (
 jm
 .

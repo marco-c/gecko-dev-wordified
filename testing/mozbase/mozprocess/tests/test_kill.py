@@ -840,7 +840,7 @@ kill
         
 self
 .
-assertEquals
+assertEqual
 (
 p
 .
@@ -930,7 +930,7 @@ kill
         
 self
 .
-assertEquals
+assertEqual
 (
 p
 .
@@ -1033,7 +1033,7 @@ timeout
         
 self
 .
-assertEquals
+assertEqual
 (
 p
 .
@@ -1070,7 +1070,7 @@ SIGKILL
         
 self
 .
-assertEquals
+assertEqual
 (
 p
 .
