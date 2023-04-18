@@ -413,6 +413,12 @@ GtkStyleContext
 aStyle
 )
 ;
+bool
+HeaderBarShouldDrawContainer
+(
+WidgetNodeType
+)
+;
 #
 endif
 /
