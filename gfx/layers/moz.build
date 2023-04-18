@@ -2580,11 +2580,6 @@ VideoBridgeParent
 cpp
 "
 "
-LayerManager
-.
-cpp
-"
-"
 Layers
 .
 cpp

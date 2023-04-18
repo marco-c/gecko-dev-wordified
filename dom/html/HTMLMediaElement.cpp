@@ -37813,10 +37813,10 @@ new
 VideoFrameContainer
 (
 this
-LayerManager
-:
-:
-CreateImageContainer
+MakeAndAddRef
+<
+ImageContainer
+>
 (
 ImageContainer
 :

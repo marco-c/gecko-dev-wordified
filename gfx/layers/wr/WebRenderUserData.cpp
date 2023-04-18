@@ -2488,10 +2488,10 @@ mContainer
 {
 mContainer
 =
-LayerManager
-:
-:
-CreateImageContainer
+MakeAndAddRef
+<
+ImageContainer
+>
 (
 )
 ;
