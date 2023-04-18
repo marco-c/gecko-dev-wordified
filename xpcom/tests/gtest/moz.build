@@ -798,6 +798,14 @@ for
 other
 files
 .
+if
+CONFIG
+[
+"
+MOZ_MEMORY
+"
+]
+:
 SOURCES
 +
 =
@@ -807,6 +815,11 @@ TestAllocReplacement
 .
 cpp
 "
+]
+SOURCES
++
+=
+[
 "
 TestCOMArray
 .
