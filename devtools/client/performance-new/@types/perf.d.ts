@@ -2274,7 +2274,7 @@ the
 /
 from
 -
-addon
+browser
 in
 order
 to
