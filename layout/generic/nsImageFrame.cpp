@@ -15221,9 +15221,9 @@ mImage
 If
 the
 image
-container
+provider
 is
-empty
+null
 we
 don
 '
@@ -15263,11 +15263,6 @@ value
 from
 PushImage
 .
-if
-(
-provider
-)
-{
 aManager
 -
 >
@@ -15286,7 +15281,6 @@ destRect
 destRect
 )
 ;
-}
 nsDisplayItemGenericImageGeometry
 :
 :

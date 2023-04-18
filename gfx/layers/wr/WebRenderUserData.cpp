@@ -1664,11 +1664,6 @@ IpcResourceUpdateQueue
 aResources
 )
 {
-MOZ_ASSERT
-(
-aProvider
-)
-;
 if
 (
 mProvider
@@ -1695,6 +1690,8 @@ nsresult
 rv
 =
 mProvider
+?
+mProvider
 -
 >
 UpdateKey
@@ -1703,6 +1700,8 @@ mManager
 aResources
 key
 )
+:
+NS_ERROR_FAILURE
 ;
 mKey
 =
@@ -1743,6 +1742,10 @@ if
 (
 !
 aProviderId
+|
+|
+!
+mProvider
 |
 |
 mProvider
