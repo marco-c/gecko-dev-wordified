@@ -63,7 +63,7 @@ sys
 from
 mozwebidlcodegen
 import
-BuildSystemWebIDL
+create_build_system_manager
 from
 mozbuild
 .
@@ -98,13 +98,9 @@ system
     
 manager
 =
-BuildSystemWebIDL
-.
-from_environment
+create_build_system_manager
 (
 )
-.
-manager
     
 manager
 .
