@@ -5377,7 +5377,7 @@ merino
 .
 enabled
 "
-false
+true
 )
 ;
 /
