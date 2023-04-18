@@ -12413,7 +12413,7 @@ true
 ;
 }
 bool
-ApplySyntheticBold
+IsSyntheticBold
 (
 )
 const
