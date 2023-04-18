@@ -464,6 +464,7 @@ Appearance
 BreakBetween
 BreakWithin
 Clear
+ContentVisibility
 Float
 }
 ;
