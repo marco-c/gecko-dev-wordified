@@ -1703,7 +1703,14 @@ no
 void
 "
 :
+[
 2
+{
+allowAsStatement
+:
+true
+}
+]
 "
 no
 -
