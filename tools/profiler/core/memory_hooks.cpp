@@ -729,7 +729,7 @@ aMemoryAddress
 if
 (
 !
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 profiler_main_thread_id
 (

@@ -3135,7 +3135,7 @@ self
 mURI
 &
 &
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )

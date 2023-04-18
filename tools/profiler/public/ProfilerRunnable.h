@@ -194,7 +194,7 @@ Now
 if
 (
 !
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -232,7 +232,7 @@ Now
 if
 (
 !
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -297,7 +297,7 @@ AutoProfileRunnable
 if
 (
 !
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )

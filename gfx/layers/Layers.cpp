@@ -376,7 +376,7 @@ h
 /
 /
 for
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 PROFILER_MARKER_TEXT
 #
 include
@@ -1143,7 +1143,7 @@ aPayloads
 {
 if
 (
-profiler_thread_is_being_profiled_for_markers
+profiler_thread_is_being_profiled
 (
 )
 )
