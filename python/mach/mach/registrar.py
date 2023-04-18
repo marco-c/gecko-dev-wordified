@@ -665,6 +665,18 @@ handler
 .
 func
         
+if
+handler
+.
+virtualenv_name
+:
+            
+instance
+.
+activate_virtualenv
+(
+)
+        
 profile
 =
 None

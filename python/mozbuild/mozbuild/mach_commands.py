@@ -597,12 +597,6 @@ noqa
 return
 1
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 from
 mozbuild
 .
@@ -1257,12 +1251,6 @@ problems
 "
 "
 "
-    
-command_context
-.
-activate_virtualenv
-(
-)
     
 from
 mozbuild

@@ -929,12 +929,6 @@ kwargs
 )
 :
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 if
 test_objects
 is

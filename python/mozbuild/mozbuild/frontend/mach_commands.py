@@ -257,12 +257,6 @@ False
 )
 :
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 from
 mozbuild
 .

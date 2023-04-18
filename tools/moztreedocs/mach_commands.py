@@ -693,12 +693,6 @@ None
 )
 :
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 #
 TODO
 :

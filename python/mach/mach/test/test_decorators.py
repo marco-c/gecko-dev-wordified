@@ -74,6 +74,7 @@ unittest
 mock
 import
 Mock
+patch
 from
 mach
 .
@@ -114,6 +115,12 @@ import
 CommandArgument
 Command
 SubCommand
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 pytest
 .
 fixture
@@ -663,6 +670,18 @@ from_environment_patch
 )
 :
         
+with
+patch
+.
+object
+(
+MachCommandBase
+"
+activate_virtualenv
+"
+)
+:
+            
 registrar
 .
 dispatch
@@ -672,7 +691,7 @@ cmd_foo
 "
 context
 )
-        
+            
 inner_function
 .
 assert_called_with
@@ -681,7 +700,7 @@ assert_called_with
 foo
 "
 )
-        
+            
 registrar
 .
 dispatch
@@ -691,7 +710,7 @@ cmd_bar
 "
 context
 )
-        
+            
 inner_function
 .
 assert_called_with
