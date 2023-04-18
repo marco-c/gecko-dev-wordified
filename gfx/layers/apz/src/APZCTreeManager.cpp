@@ -12270,7 +12270,7 @@ to
 /
 GetUserPrefsForWheelEvent
 in
-IAPZCTreeManager
+APZInputBridge
 .
 cpp
 for
