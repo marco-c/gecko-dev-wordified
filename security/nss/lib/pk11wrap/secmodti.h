@@ -907,6 +907,10 @@ NSSToken
 *
 nssToken
 ;
+PZLock
+*
+nssTokenLock
+;
 /
 *
 the
