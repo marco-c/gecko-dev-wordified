@@ -231,7 +231,7 @@ third_party
 /
 python
 /
-Click
+click
 \
 n
 "

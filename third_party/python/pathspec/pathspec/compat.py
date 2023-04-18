@@ -181,3 +181,9 @@ import
 Container
 as
 Collection
+CollectionType
+=
+Collection
+IterableType
+=
+Iterable
