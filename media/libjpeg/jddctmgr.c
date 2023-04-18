@@ -68,6 +68,7 @@ C
 )
 2010
 2015
+2022
 D
 .
 R
@@ -2095,12 +2096,13 @@ multiplier_table
 )
 )
 ;
-MEMZERO
+memset
 (
 compptr
 -
 >
 dct_table
+0
 sizeof
 (
 multiplier_table

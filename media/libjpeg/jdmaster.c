@@ -57,6 +57,7 @@ C
 2011
 2016
 2019
+2022
 D
 .
 R
@@ -3714,7 +3715,7 @@ x
 0
 *
 /
-MEMZERO
+memset
 (
 table
 -
@@ -3723,6 +3724,7 @@ MAXJSAMPLE
 +
 1
 )
+0
 (
 MAXJSAMPLE
 +
@@ -3850,7 +3852,7 @@ IDCT
 table
 *
 /
-MEMZERO
+memset
 (
 table
 +
@@ -3863,6 +3865,7 @@ MAXJSAMPLE
 1
 )
 )
+0
 (
 2
 *
@@ -3881,7 +3884,7 @@ JSAMPLE
 )
 )
 ;
-MEMCOPY
+memcpy
 (
 table
 +

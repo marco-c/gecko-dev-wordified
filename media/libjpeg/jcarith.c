@@ -41,6 +41,9 @@ C
 )
 2015
 2018
+2021
+-
+2022
 D
 .
 R
@@ -2807,7 +2810,7 @@ Ah
 )
 )
 {
-MEMZERO
+memset
 (
 entropy
 -
@@ -2819,6 +2822,7 @@ compptr
 >
 dc_tbl_no
 ]
+0
 DC_STAT_BINS
 )
 ;
@@ -2880,7 +2884,7 @@ cinfo
 Se
 )
 {
-MEMZERO
+memset
 (
 entropy
 -
@@ -2892,6 +2896,7 @@ compptr
 >
 ac_tbl_no
 ]
+0
 AC_STAT_BINS
 )
 ;
@@ -6744,7 +6749,7 @@ pass
 ERREXIT
 (
 cinfo
-JERR_NOT_COMPILED
+JERR_NOTIMPL
 )
 ;
 /
@@ -7013,7 +7018,7 @@ JPOOL_IMAGE
 DC_STAT_BINS
 )
 ;
-MEMZERO
+memset
 (
 entropy
 -
@@ -7022,6 +7027,7 @@ dc_stats
 [
 tbl
 ]
+0
 DC_STAT_BINS
 )
 ;
@@ -7154,7 +7160,7 @@ JPOOL_IMAGE
 AC_STAT_BINS
 )
 ;
-MEMZERO
+memset
 (
 entropy
 -
@@ -7163,6 +7169,7 @@ ac_stats
 [
 tbl
 ]
+0
 AC_STAT_BINS
 )
 ;

@@ -46,6 +46,7 @@ C
 2010
 2016
 2018
+2022
 D
 .
 R
@@ -2099,7 +2100,7 @@ JQUANT_TBL
 )
 )
 ;
-MEMCOPY
+memcpy
 (
 qtbl
 cinfo

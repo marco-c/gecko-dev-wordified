@@ -45,6 +45,7 @@ C
 )
 2012
 2015
+2022
 D
 .
 R
@@ -2903,13 +2904,14 @@ return
 FALSE
 )
 ;
-MEMZERO
+memset
 (
 &
 huffval
 [
 count
 ]
+0
 (
 256
 -
@@ -3036,7 +3038,7 @@ j_common_ptr
 cinfo
 )
 ;
-MEMCOPY
+memcpy
 (
 (
 *
@@ -3058,7 +3060,7 @@ bits
 )
 )
 ;
-MEMCOPY
+memcpy
 (
 (
 *

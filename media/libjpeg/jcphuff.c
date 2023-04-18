@@ -47,6 +47,8 @@ C
 2015
 2018
 2021
+-
+2022
 D
 .
 R
@@ -1989,7 +1991,7 @@ long
 )
 )
 ;
-MEMZERO
+memset
 (
 entropy
 -
@@ -1998,6 +2000,7 @@ count_ptrs
 [
 tbl
 ]
+0
 257
 *
 sizeof
@@ -4067,6 +4070,9 @@ values
 k
 ]
 =
+(
+JCOEF
+)
 temp
 ;
 \
@@ -4077,6 +4083,9 @@ k
 DCTSIZE2
 ]
 =
+(
+JCOEF
+)
 temp2
 ;
 \
@@ -7180,9 +7189,10 @@ counts
 !
 *
 /
-MEMZERO
+memset
 (
 did
+0
 sizeof
 (
 did

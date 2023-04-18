@@ -53,6 +53,7 @@ Copyright
 C
 )
 2020
+2022
 D
 .
 R
@@ -777,7 +778,7 @@ j_common_ptr
 dstinfo
 )
 ;
-MEMCOPY
+memcpy
 (
 (
 *

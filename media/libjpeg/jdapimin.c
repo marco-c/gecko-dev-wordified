@@ -44,6 +44,7 @@ Copyright
 C
 )
 2016
+2022
 D
 .
 R
@@ -402,9 +403,10 @@ complaint
 here
 *
 /
-MEMZERO
+memset
 (
 cinfo
+0
 sizeof
 (
 struct
@@ -656,12 +658,13 @@ my_decomp_master
 )
 )
 ;
-MEMZERO
+memset
 (
 cinfo
 -
 >
 master
+0
 sizeof
 (
 my_decomp_master

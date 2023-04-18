@@ -44,6 +44,7 @@ Copyright
 C
 )
 2013
+2022
 D
 .
 R
@@ -170,7 +171,7 @@ length
 counts
 *
 /
-MEMCOPY
+memcpy
 (
 (
 *
@@ -286,7 +287,7 @@ cinfo
 JERR_BAD_HUFF_TABLE
 )
 ;
-MEMCOPY
+memcpy
 (
 (
 *
@@ -304,7 +305,7 @@ UINT8
 )
 )
 ;
-MEMZERO
+memset
 (
 &
 (
@@ -319,6 +320,7 @@ huffval
 nsymbols
 ]
 )
+0
 (
 256
 -
