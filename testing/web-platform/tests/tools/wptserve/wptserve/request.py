@@ -15,6 +15,12 @@ io
 import
 BytesIO
 from
+typing
+import
+Dict
+List
+TypeVar
+from
 urllib
 .
 parse
@@ -32,6 +38,22 @@ import
 HTTPException
 isomorphic_encode
 isomorphic_decode
+KT
+=
+TypeVar
+(
+'
+KT
+'
+)
+VT
+=
+TypeVar
+(
+'
+VT
+'
+)
 missing
 =
 object
@@ -2192,7 +2214,14 @@ request_handler
 class
 RequestHeaders
 (
-dict
+Dict
+[
+bytes
+List
+[
+bytes
+]
+]
 )
 :
     
@@ -3141,7 +3170,11 @@ other
 class
 MultiDict
 (
-dict
+Dict
+[
+KT
+VT
+]
 )
 :
     
@@ -3761,6 +3794,10 @@ BinaryCookieParser
 BaseCookie
 )
 :
+#
+type
+:
+ignore
     
 "
 "
@@ -3928,6 +3965,10 @@ class
 Cookies
 (
 MultiDict
+[
+bytes
+CookieValue
+]
 )
 :
     

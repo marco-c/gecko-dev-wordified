@@ -2315,6 +2315,10 @@ file_handler
 FileHandler
 (
 )
+#
+type
+:
+ignore
 class
 PythonScriptHandler
 :
@@ -2859,6 +2863,10 @@ python_script_handler
 PythonScriptHandler
 (
 )
+#
+type
+:
+ignore
 class
 FunctionHandler
 :
@@ -3327,6 +3335,10 @@ as_is_handler
 AsIsHandler
 (
 )
+#
+type
+:
+ignore
 class
 BasicAuthHandler
 :
@@ -3540,6 +3552,10 @@ file_handler
 None
 None
 )
+#
+type
+:
+ignore
 class
 ErrorHandler
 :

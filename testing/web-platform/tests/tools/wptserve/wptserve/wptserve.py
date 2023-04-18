@@ -11,8 +11,11 @@ import
 argparse
 import
 os
-import
+from
+.
 server
+import
+WebTestHttpd
 def
 abs_path
 (
@@ -202,8 +205,6 @@ parse_args
     
 httpd
 =
-server
-.
 WebTestHttpd
 (
 host
@@ -216,14 +217,14 @@ port
 args
 .
 port
-                                
+                         
 use_ssl
 =
 False
 certificate
 =
 None
-                                
+                         
 doc_root
 =
 args
@@ -248,3 +249,7 @@ __main__
 main
 (
 )
+#
+type
+:
+ignore
