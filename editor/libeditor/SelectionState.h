@@ -2758,7 +2758,12 @@ mNewOffset
 )
 ;
 }
-EditorRawDOMPoint
+template
+<
+typename
+EditorDOMPointType
+>
+EditorDOMPointType
 ComputeInsertionPoint
 (
 )
@@ -2780,7 +2785,7 @@ mNewOffset
 )
 {
 return
-EditorRawDOMPoint
+EditorDOMPointType
 (
 &
 mNewParent
@@ -2791,7 +2796,7 @@ mNewOffset
 ;
 }
 return
-EditorRawDOMPoint
+EditorDOMPointType
 (
 &
 mNewParent
