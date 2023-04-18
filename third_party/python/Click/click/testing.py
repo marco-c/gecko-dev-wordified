@@ -1,42 +1,77 @@
 import
-contextlib
-import
 os
-import
-shlex
-import
-shutil
 import
 sys
 import
+shutil
+import
 tempfile
-from
-.
 import
-formatting
-from
-.
+contextlib
 import
-termui
-from
-.
-import
-utils
+shlex
 from
 .
 _compat
 import
 iteritems
-from
-.
-_compat
-import
 PY2
-from
-.
-_compat
-import
 string_types
+#
+If
+someone
+wants
+to
+vendor
+click
+we
+want
+to
+ensure
+the
+#
+correct
+package
+is
+discovered
+.
+Ideally
+we
+could
+use
+a
+#
+relative
+import
+here
+but
+unfortunately
+Python
+does
+not
+#
+support
+that
+.
+clickpkg
+=
+sys
+.
+modules
+[
+__name__
+.
+rsplit
+(
+'
+.
+'
+1
+)
+[
+0
+]
+]
 if
 PY2
 :
@@ -258,9 +293,9 @@ if
 hasattr
 (
 input
-"
+'
 read
-"
+'
 )
 :
         
@@ -291,7 +326,7 @@ rv
 raise
 TypeError
 (
-"
+'
 Could
 not
 find
@@ -301,7 +336,7 @@ for
 input
 stream
 .
-"
+'
 )
     
 if
@@ -313,8 +348,8 @@ None
 input
 =
 b
-"
-"
+'
+'
     
 elif
 not
@@ -378,17 +413,16 @@ script
 def
 __init__
 (
-        
 self
 runner
 stdout_bytes
 stderr_bytes
 exit_code
+                 
 exception
 exc_info
 =
 None
-    
 )
 :
         
@@ -430,7 +464,10 @@ error
 as
 bytes
 or
-None
+False
+(
+y
+)
 if
 not
 available
@@ -549,25 +586,25 @@ self
 runner
 .
 charset
-"
+'
 replace
-"
+'
 )
+\
+            
 .
 replace
 (
-            
-"
+'
 \
 r
 \
 n
-"
-"
+'
+'
 \
 n
-"
-        
+'
 )
     
 property
@@ -594,11 +631,10 @@ string
 "
         
 if
+not
 self
 .
 stderr_bytes
-is
-None
 :
             
 raise
@@ -624,25 +660,25 @@ self
 runner
 .
 charset
-"
+'
 replace
-"
+'
 )
+\
+            
 .
 replace
 (
-            
-"
+'
 \
 r
 \
 n
-"
-"
+'
+'
 \
 n
-"
-        
+'
 )
     
 def
@@ -653,16 +689,15 @@ self
 :
         
 return
-"
+'
 <
-{
-}
-{
-}
+%
+s
+%
+s
 >
-"
-.
-format
+'
+%
 (
             
 type
@@ -671,20 +706,21 @@ self
 )
 .
 __name__
+            
+self
+.
+exception
+and
 repr
 (
 self
 .
 exception
 )
-if
-self
-.
-exception
-else
-"
+or
+'
 okay
-"
+'
         
 )
 class
@@ -901,6 +937,7 @@ None
 echo_stdin
 =
 False
+                 
 mix_stderr
 =
 True
@@ -915,11 +952,11 @@ None
             
 charset
 =
-"
+'
 utf
 -
 8
-"
+'
         
 self
 .
@@ -999,9 +1036,9 @@ cli
 .
 name
 or
-"
+'
 root
-"
+'
     
 def
 make_env
@@ -1245,10 +1282,14 @@ stderr
         
 old_forced_width
 =
+clickpkg
+.
 formatting
 .
 FORCED_WIDTH
         
+clickpkg
+.
 formatting
 .
 FORCED_WIDTH
@@ -1360,6 +1401,7 @@ io
 .
 TextIOWrapper
 (
+                
 bytes_output
 encoding
 =
@@ -1391,6 +1433,7 @@ io
 .
 TextIOWrapper
 (
+                    
 bytes_error
 encoding
 =
@@ -1436,8 +1479,8 @@ write
 (
 prompt
 or
-"
-"
+'
+'
 )
             
 val
@@ -1450,12 +1493,12 @@ readline
 .
 rstrip
 (
-"
+'
 \
 r
 \
 n
-"
+'
 )
             
 sys
@@ -1464,17 +1507,12 @@ stdout
 .
 write
 (
-"
-{
-}
+val
++
+'
 \
 n
-"
-.
-format
-(
-val
-)
+'
 )
             
 sys
@@ -1503,20 +1541,17 @@ stdout
 .
 write
 (
-"
-{
-}
-\
-n
-"
-.
-format
 (
 prompt
 or
-"
-"
+'
+'
 )
++
+'
+\
+n
+'
 )
             
 sys
@@ -1536,12 +1571,12 @@ readline
 .
 rstrip
 (
-"
+'
 \
 r
 \
 n
-"
+'
 )
         
 def
@@ -1618,46 +1653,62 @@ color
         
 old_visible_prompt_func
 =
+clickpkg
+.
 termui
 .
 visible_prompt_func
         
 old_hidden_prompt_func
 =
+clickpkg
+.
 termui
 .
 hidden_prompt_func
         
 old__getchar_func
 =
+clickpkg
+.
 termui
 .
 _getchar
         
 old_should_strip_ansi
 =
+clickpkg
+.
 utils
 .
 should_strip_ansi
         
+clickpkg
+.
 termui
 .
 visible_prompt_func
 =
 visible_input
         
+clickpkg
+.
 termui
 .
 hidden_prompt_func
 =
 hidden_input
         
+clickpkg
+.
 termui
 .
 _getchar
 =
 _getchar
         
+clickpkg
+.
 utils
 .
 should_strip_ansi
@@ -1808,30 +1859,40 @@ stdin
 =
 old_stdin
             
+clickpkg
+.
 termui
 .
 visible_prompt_func
 =
 old_visible_prompt_func
             
+clickpkg
+.
 termui
 .
 hidden_prompt_func
 =
 old_hidden_prompt_func
             
+clickpkg
+.
 termui
 .
 _getchar
 =
 old__getchar_func
             
+clickpkg
+.
 utils
 .
 should_strip_ansi
 =
 old_should_strip_ansi
             
+clickpkg
+.
 formatting
 .
 FORCED_WIDTH
@@ -1841,35 +1902,30 @@ old_forced_width
 def
 invoke
 (
-        
 self
-        
 cli
-        
 args
 =
 None
-        
 input
 =
 None
-        
 env
 =
 None
-        
+               
 catch_exceptions
 =
 True
-        
 color
 =
 False
-        
+mix_stderr
+=
+False
 *
 *
 extra
-    
 )
 :
         
@@ -2287,10 +2343,10 @@ stdout
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
                     
 exit_code
@@ -2348,21 +2404,13 @@ getvalue
 (
 )
                 
-if
-self
-.
-mix_stderr
-:
-                    
 stderr
 =
-None
-                
-else
-:
-                    
-stderr
-=
+outstreams
+[
+1
+]
+and
 outstreams
 [
 1
@@ -2375,31 +2423,29 @@ getvalue
 return
 Result
 (
-            
 runner
 =
 self
-            
+                      
 stdout_bytes
 =
 stdout
-            
+                      
 stderr_bytes
 =
 stderr
-            
+                      
 exit_code
 =
 exit_code
-            
+                      
 exception
 =
 exception
-            
+                      
 exc_info
 =
 exc_info
-        
 )
     
 contextlib
@@ -2498,9 +2544,5 @@ OSError
 IOError
 )
 :
-#
-noqa
-:
-B014
                 
 pass
