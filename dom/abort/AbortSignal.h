@@ -398,6 +398,17 @@ ErrorResult
 aRv
 )
 ;
+void
+ThrowIfAborted
+(
+JSContext
+*
+aCx
+ErrorResult
+&
+aRv
+)
+;
 /
 /
 AbortSignalImpl
