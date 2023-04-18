@@ -23361,6 +23361,14 @@ ProcessPendingRestyles
 (
 )
 {
+AUTO_PROFILER_LABEL_RELEVANT_FOR_JS
+(
+"
+Styles
+"
+LAYOUT
+)
+;
 #
 ifdef
 DEBUG
