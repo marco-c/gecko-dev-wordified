@@ -3268,7 +3268,6 @@ Step
 .
 SetUpReadableStreamDefaultReader
 (
-aCx
 reader
 aStream
 aRv

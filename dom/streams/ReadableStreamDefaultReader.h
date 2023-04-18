@@ -562,9 +562,6 @@ extern
 void
 SetUpReadableStreamDefaultReader
 (
-JSContext
-*
-aCx
 ReadableStreamDefaultReader
 *
 aReader

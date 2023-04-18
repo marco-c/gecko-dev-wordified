@@ -2732,9 +2732,6 @@ reader
 void
 SetUpReadableStreamDefaultReader
 (
-JSContext
-*
-aCx
 ReadableStreamDefaultReader
 *
 aReader
