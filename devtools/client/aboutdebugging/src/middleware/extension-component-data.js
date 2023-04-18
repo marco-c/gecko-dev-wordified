@@ -288,6 +288,7 @@ iconURL
 id
 manifestURL
 name
+persistentBackgroundScript
 warnings
 }
 =
@@ -346,6 +347,7 @@ details
 actor
 location
 manifestURL
+persistentBackgroundScript
 uuid
 warnings
 :
