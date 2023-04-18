@@ -4056,9 +4056,6 @@ required
 .
 depends
 (
-"
-MOZ_PGO
-"
 build_project
 target
 "
@@ -4080,7 +4077,6 @@ environment
 def
 build_gtest
 (
-pgo
 build_project
 target
 automation
@@ -4114,20 +4110,6 @@ android
 and
 not
 (
-(
-pgo
-and
-target
-.
-os
-=
-=
-"
-WINNT
-"
-)
-or
-(
 target
 .
 os
@@ -4145,7 +4127,6 @@ cpu
 "
 x86_64
 "
-)
 )
 )
 option
