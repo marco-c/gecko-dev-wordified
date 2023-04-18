@@ -2826,12 +2826,6 @@ case
 ColorID
 :
 :
-TextBackground
-:
-case
-ColorID
-:
-:
 Appworkspace
 :
 /
@@ -2884,12 +2878,6 @@ ColorID
 :
 :
 WidgetForeground
-:
-case
-ColorID
-:
-:
-TextForeground
 :
 case
 ColorID

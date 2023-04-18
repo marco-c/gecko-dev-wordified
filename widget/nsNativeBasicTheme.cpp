@@ -3644,7 +3644,7 @@ SystemPair
 StyleSystemColor
 :
 :
-TextBackground
+Window
 StyleSystemColor
 :
 :
@@ -4163,7 +4163,7 @@ System
 StyleSystemColor
 :
 :
-TextBackground
+Window
 )
 }
 ;
@@ -4332,7 +4332,7 @@ System
 StyleSystemColor
 :
 :
-TextBackground
+Window
 )
 ;
 }
@@ -5799,7 +5799,7 @@ return
 StyleSystemColor
 :
 :
-TextForeground
+Windowtext
 ;
 }
 return
@@ -5924,11 +5924,11 @@ SystemPair
 StyleSystemColor
 :
 :
-TextBackground
+Window
 StyleSystemColor
 :
 :
-TextForeground
+Windowtext
 )
 ;
 }
