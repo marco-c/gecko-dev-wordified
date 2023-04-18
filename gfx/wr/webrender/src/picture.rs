@@ -27298,10 +27298,6 @@ let
 blur_inflation_x
 =
 max_blur_radius_x
-.
-ceil
-(
-)
 *
 BLUR_SAMPLE_SCALE
 ;
@@ -27309,10 +27305,6 @@ let
 blur_inflation_y
 =
 max_blur_radius_y
-.
-ceil
-(
-)
 *
 BLUR_SAMPLE_SCALE
 ;
@@ -28073,10 +28065,6 @@ let
 blur_inflation_x
 =
 blur_radius_x
-.
-ceil
-(
-)
 *
 BLUR_SAMPLE_SCALE
 ;
@@ -28084,10 +28072,6 @@ let
 blur_inflation_y
 =
 blur_radius_y
-.
-ceil
-(
-)
 *
 BLUR_SAMPLE_SCALE
 ;
@@ -45065,10 +45049,6 @@ let
 blur_inflation_x
 =
 blur_radius_x
-.
-ceil
-(
-)
 *
 BLUR_SAMPLE_SCALE
 ;
@@ -45076,10 +45056,6 @@ let
 blur_inflation_y
 =
 blur_radius_y
-.
-ceil
-(
-)
 *
 BLUR_SAMPLE_SCALE
 ;
