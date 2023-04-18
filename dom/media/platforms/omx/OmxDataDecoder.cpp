@@ -6442,6 +6442,7 @@ info
 ImageRect
 (
 )
+nullptr
 )
 ;
 MOZ_LOG

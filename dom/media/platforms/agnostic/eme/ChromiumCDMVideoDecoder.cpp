@@ -216,6 +216,12 @@ aParams
 .
 mImageContainer
 )
+mKnowsCompositor
+(
+aParams
+.
+mKnowsCompositor
+)
 {
 }
 ChromiumCDMVideoDecoder
@@ -724,6 +730,17 @@ imageContainer
 =
 mImageContainer
 ;
+RefPtr
+<
+layers
+:
+:
+KnowsCompositor
+>
+knowsCompositor
+=
+mKnowsCompositor
+;
 return
 InvokeAsync
 (
@@ -734,6 +751,7 @@ cdm
 config
 info
 imageContainer
+knowsCompositor
 ]
 (
 )
@@ -747,6 +765,7 @@ InitializeVideoDecoder
 config
 info
 imageContainer
+knowsCompositor
 )
 ;
 }

@@ -6958,6 +6958,7 @@ FromMicroseconds
 1
 )
 pictureRegion
+mKnowsCompositor
 )
 ;
 return
@@ -7355,6 +7356,14 @@ layers
 ImageContainer
 >
 aImageContainer
+RefPtr
+<
+layers
+:
+:
+KnowsCompositor
+>
+aKnowsCompositor
 )
 {
 MOZ_ASSERT
@@ -7691,6 +7700,10 @@ true
 mImageContainer
 =
 aImageContainer
+;
+mKnowsCompositor
+=
+aKnowsCompositor
 ;
 mVideoInfo
 =

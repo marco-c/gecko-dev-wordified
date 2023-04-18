@@ -3146,8 +3146,6 @@ layers
 KnowsCompositor
 *
 aAllocator
-=
-nullptr
 )
 ;
 static
