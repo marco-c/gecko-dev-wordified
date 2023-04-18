@@ -444,6 +444,7 @@ background
 "
 url
 (
+'
 chrome
 :
 /
@@ -463,6 +464,7 @@ assets
 confetti
 .
 svg
+'
 )
 top
 /
