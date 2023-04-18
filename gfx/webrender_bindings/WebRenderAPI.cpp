@@ -2088,9 +2088,9 @@ const
 wr
 :
 :
-LayoutPoint
+LayoutVector2D
 &
-aScrollPosition
+aScrollOffset
 )
 {
 wr_transaction_scroll_layer
@@ -2098,7 +2098,7 @@ wr_transaction_scroll_layer
 mTxn
 aPipelineId
 aScrollId
-aScrollPosition
+aScrollOffset
 )
 ;
 }
