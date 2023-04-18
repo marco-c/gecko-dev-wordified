@@ -9757,7 +9757,7 @@ wrapPosition
 lineBreaker
 -
 >
-Next
+DeprecatedNext
 (
 aSequenceStart
 (

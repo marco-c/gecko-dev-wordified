@@ -1794,7 +1794,7 @@ breakPt
 lineBreaker
 -
 >
-Next
+DeprecatedNext
 (
 tString
 .

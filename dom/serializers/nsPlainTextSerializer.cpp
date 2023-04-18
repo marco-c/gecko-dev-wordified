@@ -1208,7 +1208,7 @@ goodSpace
 aLineBreaker
 -
 >
-Next
+DeprecatedNext
 (
 mContent
 .
