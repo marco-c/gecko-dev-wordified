@@ -2015,11 +2015,12 @@ altDataType
 .
 Equals
 (
-nsContentUtils
+ScriptLoader
 :
 :
-JSBytecodeMimeType
+BytecodeMimeTypeFor
 (
+mRequest
 )
 )
 )
