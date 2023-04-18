@@ -680,7 +680,7 @@ compileArgs
 CompileArgs
 :
 :
-build
+buildAndReport
 (
 cx
 ScriptedCaller
