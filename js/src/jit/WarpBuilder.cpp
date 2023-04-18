@@ -18726,17 +18726,6 @@ environmentChain
 (
 )
 ;
-MDefinition
-*
-newTarget
-=
-current
--
->
-pop
-(
-)
-;
 JSFunction
 *
 fun
@@ -18774,7 +18763,6 @@ alloc
 (
 )
 env
-newTarget
 funConst
 )
 ;

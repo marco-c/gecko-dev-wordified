@@ -3831,8 +3831,6 @@ HandleFunction
 fun
 HandleObject
 parent
-HandleValue
-newTargetv
 )
 ;
 bool
