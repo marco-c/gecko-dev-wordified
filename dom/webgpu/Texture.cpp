@@ -127,9 +127,9 @@ include
 "
 mozilla
 /
-webgpu
+dom
 /
-CanvasContext
+HTMLCanvasElement
 .
 h
 "

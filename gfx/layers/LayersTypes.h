@@ -2016,17 +2016,6 @@ mHandle
 ;
 }
 ;
-enum
-class
-CompositableHandleOwner
-:
-uint8_t
-{
-WebRenderBridge
-ImageBridge
-InProcessManager
-}
-;
 /
 /
 clang

@@ -185,9 +185,6 @@ instances
 .
 *
 /
-[
-NeedsOtherPid
-]
 sync
 protocol
 PCanvasManager

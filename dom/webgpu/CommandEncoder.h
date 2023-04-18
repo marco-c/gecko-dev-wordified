@@ -156,6 +156,9 @@ dom
 struct
 GPUComputePassDescriptor
 ;
+class
+HTMLCanvasElement
+;
 template
 <
 typename
@@ -229,9 +232,6 @@ BindGroup
 ;
 class
 Buffer
-;
-class
-CanvasContext
 ;
 class
 CommandBuffer
@@ -364,10 +364,13 @@ nsTArray
 <
 WeakPtr
 <
-CanvasContext
+dom
+:
+:
+HTMLCanvasElement
 >
 >
-mTargetContexts
+mTargetCanvases
 ;
 public
 :

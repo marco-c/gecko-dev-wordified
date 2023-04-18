@@ -248,7 +248,6 @@ aFlags
 TextureHost
 *
 aTexture
-const
 wr
 :
 :
