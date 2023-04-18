@@ -2512,7 +2512,7 @@ void
 AudioChannelService
 :
 :
-NotifyMediaResumedFromBlock
+NotifyResumingDelayedMedia
 (
 nsPIDOMWindowOuter
 *
@@ -2575,6 +2575,15 @@ winData
 NotifyMediaBlockStop
 (
 aWindow
+)
+;
+RefreshAgentsSuspend
+(
+aWindow
+nsISuspendedTypes
+:
+:
+NONE_SUSPENDED
 )
 ;
 }
