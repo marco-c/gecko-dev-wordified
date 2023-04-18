@@ -1439,6 +1439,8 @@ JS_Init
 void
 SetAVXEnabled
 (
+bool
+enabled
 )
 ;
 }
