@@ -379,11 +379,6 @@ nullptr
 if
 (
 isSecurityError
-&
-&
-NS_IsMainThread
-(
-)
 )
 {
 /
