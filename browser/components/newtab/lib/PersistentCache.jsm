@@ -405,12 +405,9 @@ PathUtils
 .
 join
 (
-await
 PathUtils
 .
-getLocalProfileDir
-(
-)
+localProfileDir
 this
 .
 _filename
@@ -533,12 +530,9 @@ PathUtils
 .
 join
 (
-await
 PathUtils
 .
-getLocalProfileDir
-(
-)
+localProfileDir
 this
 .
 _filename
