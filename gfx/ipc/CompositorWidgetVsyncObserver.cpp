@@ -191,7 +191,7 @@ CompositorWidgetVsyncObserver
 =
 default
 ;
-bool
+void
 CompositorWidgetVsyncObserver
 :
 :
@@ -238,9 +238,6 @@ NotifyVsync
 aVsync
 mRootLayerTreeId
 )
-;
-return
-true
 ;
 }
 }

@@ -282,7 +282,7 @@ this
 ;
 }
 }
-bool
+void
 VsyncParent
 :
 :
@@ -307,7 +307,6 @@ aVsync
 )
 ;
 return
-true
 ;
 }
 /
@@ -371,9 +370,6 @@ EventQueuePriority
 Vsync
 )
 )
-;
-return
-true
 ;
 }
 void

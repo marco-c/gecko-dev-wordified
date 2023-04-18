@@ -502,7 +502,7 @@ mOwner
 )
 ;
 }
-bool
+void
 CompositorVsyncScheduler
 :
 :
@@ -530,10 +530,8 @@ mOwner
 )
 {
 return
-false
 ;
 }
-return
 mOwner
 -
 >
@@ -1232,7 +1230,7 @@ aReasons
 }
 }
 }
-bool
+void
 CompositorVsyncScheduler
 :
 :
@@ -1489,9 +1487,6 @@ aVsync
 .
 mTime
 )
-;
-return
-true
 ;
 }
 void

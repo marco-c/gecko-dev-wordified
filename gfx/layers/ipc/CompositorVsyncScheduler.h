@@ -365,7 +365,7 @@ thread
 .
 *
 /
-bool
+void
 NotifyVsync
 (
 const
@@ -954,7 +954,7 @@ CompositorVsyncScheduler
 aOwner
 )
 ;
-bool
+void
 NotifyVsync
 (
 const

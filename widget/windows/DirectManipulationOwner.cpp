@@ -396,7 +396,7 @@ override
 )
 public
 :
-bool
+void
 NotifyVsync
 (
 const
@@ -422,9 +422,6 @@ Update
 )
 ;
 }
-return
-true
-;
 }
 explicit
 VObserver

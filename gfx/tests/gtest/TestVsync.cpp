@@ -226,7 +226,7 @@ VsyncMonitor
 {
 }
 virtual
-bool
+void
 NotifyVsync
 (
 const
@@ -251,9 +251,6 @@ mVsyncMonitor
 Notify
 (
 )
-;
-return
-true
 ;
 }
 void
