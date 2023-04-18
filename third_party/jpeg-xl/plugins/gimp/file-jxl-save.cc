@@ -59,6 +59,11 @@ h
 "
 #
 include
+<
+cmath
+>
+#
+include
 "
 gobject
 /

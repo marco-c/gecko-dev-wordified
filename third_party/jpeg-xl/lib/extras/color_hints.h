@@ -128,11 +128,9 @@ include
 "
 lib
 /
-jxl
+extras
 /
-base
-/
-status
+packed_image
 .
 h
 "
@@ -143,7 +141,9 @@ lib
 /
 jxl
 /
-codec_in_out
+base
+/
+status
 .
 h
 "
@@ -428,7 +428,7 @@ the
 decoded
 image
 in
-CodecInOut
+PackedPixelFile
 if
 any
 .
@@ -469,9 +469,9 @@ bool
 color_already_set
 bool
 is_gray
-CodecInOut
+PackedPixelFile
 *
-io
+ppf
 )
 ;
 }

@@ -3953,8 +3953,8 @@ control
 points
 :
 %
-zu
 "
+PRIuS
 *
 total_num_control_points
 )
@@ -4256,8 +4256,8 @@ many
 splines
 :
 %
-zu
 "
+PRIuS
 num_splines
 )
 ;
@@ -4632,8 +4632,8 @@ points
 in
 spline
 %
-zu
 "
+PRIuS
 i
 )
 ;

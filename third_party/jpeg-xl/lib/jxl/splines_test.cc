@@ -2324,7 +2324,9 @@ printf
 "
 Wrote
 %
-zu
+"
+PRIuS
+"
 bits
 of
 splines

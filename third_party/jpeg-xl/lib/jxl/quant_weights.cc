@@ -920,7 +920,9 @@ stderr
 "
 Channel
 %
-zu
+"
+PRIuS
+"
 \
 n
 "
@@ -1169,9 +1171,13 @@ fprintf
 stderr
 "
 %
-zu
+"
+PRIuS
+"
 %
-zu
+"
+PRIuS
+"
 %
 15
 .

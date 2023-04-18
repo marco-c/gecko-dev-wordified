@@ -171,7 +171,7 @@ region
 *
 returns
 c
-0
+NULL
 if
 the
 memory
@@ -226,7 +226,7 @@ p
 address
 is
 c
-0
+NULL
 .
 *
 *
@@ -254,7 +254,9 @@ by
 jpegxl_alloc_func
 or
 c
-0
+*
+NULL
+.
 *
 /
 typedef

@@ -591,6 +591,8 @@ bool
 allow_partial_frames
 bool
 allow_partial_dc_global
+bool
+output_needed
 )
 ;
 struct
@@ -2142,6 +2144,11 @@ size_t
 num_renders_
 =
 0
+;
+bool
+allocated_
+=
+false
 ;
 std
 :

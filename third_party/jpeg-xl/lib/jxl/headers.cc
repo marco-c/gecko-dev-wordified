@@ -1480,10 +1480,14 @@ SizeHeader
 kMaxBits
 from
 %
-zu
+"
+PRIuS
+"
 to
 %
-zu
+"
+PRIuS
+"
 \
 n
 "

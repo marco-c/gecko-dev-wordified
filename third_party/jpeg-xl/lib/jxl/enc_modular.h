@@ -380,6 +380,8 @@ nl_dc
 PassesEncoderState
 *
 enc_state
+bool
+jpeg_transcode
 )
 ;
 /

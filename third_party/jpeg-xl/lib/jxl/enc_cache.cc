@@ -1593,6 +1593,13 @@ SpeedTier
 :
 kFalcon
 enc_state
+/
+*
+jpeg_transcode
+=
+*
+/
+false
 )
 ;
 }
