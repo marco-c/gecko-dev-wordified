@@ -131,13 +131,11 @@ FinalTargetFiles
     
 GeneratedFile
     
-GeneratedSources
-    
 GnProjectData
     
 HostLibrary
     
-HostGeneratedSources
+HostSources
     
 IPDLCollection
     
@@ -148,6 +146,8 @@ LocalizedFiles
 SandboxedWasmLibrary
     
 SharedLibrary
+    
+Sources
     
 StaticLibrary
     
@@ -917,6 +917,21 @@ UnifiedSources
 )
 :
             
+if
+obj
+.
+generated_files
+:
+                
+self
+.
+_handle_generated_sources
+(
+obj
+.
+generated_files
+)
+            
 #
 Unified
 sources
@@ -1063,19 +1078,25 @@ isinstance
 (
 obj
 (
-GeneratedSources
-HostGeneratedSources
+Sources
+HostSources
 )
 )
 :
             
+if
+obj
+.
+generated_files
+:
+                
 self
 .
 _handle_generated_sources
 (
 obj
 .
-files
+generated_files
 )
             
 return
