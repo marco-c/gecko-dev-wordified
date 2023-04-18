@@ -419,9 +419,6 @@ aCORSMode
 enum
 ReferrerPolicy
 aReferrerPolicy
-Element
-*
-aElement
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -2254,6 +2251,9 @@ public
 explicit
 DOMScriptLoadContext
 (
+Element
+*
+aElement
 ScriptLoadRequest
 *
 aRequest
@@ -2934,6 +2934,12 @@ released
 during
 cancellation
 .
+nsCOMPtr
+<
+Element
+>
+mElement
+;
 RefPtr
 <
 ScriptLoadRequest

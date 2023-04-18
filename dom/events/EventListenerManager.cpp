@@ -7511,7 +7511,6 @@ GetReferrerPolicy
 (
 )
 aElement
-aElement
 -
 >
 OwnerDoc
@@ -7536,6 +7535,7 @@ EventScript
 (
 fetchOptions
 uri
+aElement
 )
 ;
 JS

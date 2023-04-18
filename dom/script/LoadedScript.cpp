@@ -317,6 +317,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mBaseURL
 )
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mElement
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
@@ -325,6 +329,7 @@ LoadedScript
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mFetchOptions
+mElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
@@ -353,6 +358,9 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
+Element
+*
+aElement
 )
 :
 mKind
@@ -366,6 +374,10 @@ aFetchOptions
 mBaseURL
 (
 aBaseURL
+)
+mElement
+(
+aElement
 )
 {
 MOZ_ASSERT
@@ -837,6 +849,9 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
+Element
+*
+aElement
 )
 :
 LoadedScript
@@ -847,6 +862,7 @@ ScriptKind
 eEvent
 aFetchOptions
 aBaseURL
+aElement
 )
 {
 }
@@ -988,6 +1004,9 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
+Element
+*
+aElement
 )
 :
 LoadedScript
@@ -998,6 +1017,7 @@ ScriptKind
 eClassic
 aFetchOptions
 aBaseURL
+aElement
 )
 {
 }
@@ -1216,6 +1236,9 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
+Element
+*
+aElement
 )
 :
 LoadedScript
@@ -1226,6 +1249,7 @@ ScriptKind
 eModule
 aFetchOptions
 aBaseURL
+aElement
 )
 mDebuggerDataInitialized
 (
