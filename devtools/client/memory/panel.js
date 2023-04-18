@@ -78,14 +78,12 @@ emitter
 )
 ;
 const
-{
-Cu
-}
+ChromeUtils
 =
 require
 (
 "
-chrome
+ChromeUtils
 "
 )
 ;
@@ -136,7 +134,7 @@ const
 BrowserLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

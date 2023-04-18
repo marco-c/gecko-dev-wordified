@@ -463,11 +463,20 @@ strict
 "
 ;
 const
+ChromeUtils
+=
+require
+(
+"
+ChromeUtils
+"
+)
+;
+const
 {
 components
 Cc
 Ci
-Cu
 }
 =
 require
@@ -542,7 +551,7 @@ const
 asn1js
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -568,7 +577,7 @@ const
 pkijs
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -594,7 +603,7 @@ const
 pvutils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -649,7 +658,7 @@ const
 certDecoderInitializer
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
