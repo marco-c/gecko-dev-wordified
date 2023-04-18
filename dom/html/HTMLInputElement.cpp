@@ -35072,14 +35072,6 @@ aFormData
 {
 /
 /
-Disabled
-elements
-don
-'
-t
-submit
-/
-/
 For
 type
 =
@@ -35134,11 +35126,6 @@ checked
 true
 if
 (
-IsDisabled
-(
-)
-|
-|
 mType
 =
 =
