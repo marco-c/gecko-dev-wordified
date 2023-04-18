@@ -1502,6 +1502,13 @@ rv
 {
 SpinEventLoopUntil
 (
+"
+AppShutdown
+:
+:
+MaybeFastShutdown
+"
+_ns
 [
 &
 ]
