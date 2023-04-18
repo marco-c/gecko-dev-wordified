@@ -1110,7 +1110,6 @@ py
 deps
 =
 [
-__file__
 virtualenv_package
 ]
 +
