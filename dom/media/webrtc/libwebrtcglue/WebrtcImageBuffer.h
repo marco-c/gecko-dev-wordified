@@ -282,13 +282,13 @@ WrapI420Buffer
 data
 -
 >
-mPicSize
+mPictureRect
 .
 width
 data
 -
 >
-mPicSize
+mPictureRect
 .
 height
 data

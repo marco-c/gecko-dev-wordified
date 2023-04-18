@@ -1565,11 +1565,15 @@ mPictureRect
 srcImage
 -
 >
-mYSize
+GetYSize
+(
+)
 srcImage
 -
 >
-mCbCrSize
+GetCbCrSize
+(
+)
 srcImage
 -
 >
