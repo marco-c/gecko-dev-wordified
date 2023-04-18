@@ -688,7 +688,6 @@ index
 void
 *
 code
-const
 Instance
 *
 instance

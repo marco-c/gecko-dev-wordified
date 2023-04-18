@@ -1123,7 +1123,6 @@ index
 void
 *
 code
-const
 Instance
 *
 instance
@@ -1190,11 +1189,6 @@ elem
 tls
 =
 instance
--
->
-tlsData
-(
-)
 ;
 MOZ_ASSERT
 (
