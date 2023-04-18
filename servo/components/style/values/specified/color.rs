@@ -5595,9 +5595,6 @@ hsla
 hwb
 "
 "
-hwba
-"
-"
 currentColor
 "
 "
