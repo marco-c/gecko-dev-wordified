@@ -699,9 +699,13 @@ color
 "
 red
 "
+{
+commitValueWith
+:
 "
 ;
 "
+}
 )
 ;
 const
