@@ -9291,12 +9291,11 @@ within
 the
 loadInfo
 then
-then
 CheckLoadURIWithPrincipal
 is
-/
-/
 performed
+/
+/
 within
 nsCorsListenerProxy
 rv

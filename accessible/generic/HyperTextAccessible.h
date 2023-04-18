@@ -857,15 +857,14 @@ in
 if
 true
 then
-then
 this
 offset
 is
 not
 inclusive
 .
-*
 The
+*
 character
 indicated
 by
@@ -881,8 +880,8 @@ offset
 ]
 .
 This
-*
 means
+*
 if
 the
 passed

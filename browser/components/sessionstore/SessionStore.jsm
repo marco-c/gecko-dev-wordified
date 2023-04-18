@@ -17524,14 +17524,11 @@ is
 /
 TAB_STATE_NEEDS_RESTORE
 then
-then
 we
 haven
 '
 t
 restored
-/
-/
 this
 tab
 yet
