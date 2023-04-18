@@ -43282,13 +43282,6 @@ create
 (
 cx
 buffer
-/
-*
-hugeMemory
-=
-*
-/
-false
 nullptr
 )
 ;
@@ -46175,9 +46168,7 @@ is
 limited
 by
 what
-a
 wasm
-memory32
 can
 handle
 .
@@ -46187,10 +46178,6 @@ length
 >
 MaxMemoryBytes
 (
-IndexType
-:
-:
-I32
 )
 )
 {

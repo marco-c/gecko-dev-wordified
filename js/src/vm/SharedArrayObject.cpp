@@ -596,7 +596,6 @@ p
 =
 MapBufferMemory
 (
-wasmIndexType
 mappedSizeWithHeader
 accessibleSizeWithHeader
 )
@@ -798,9 +797,7 @@ limits
 wasm
 :
 :
-MaxMemoryPages
-(
-)
+MaxMemory32Pages
 )
 and
 we
@@ -974,11 +971,6 @@ Lock
 wasm
 :
 :
-IndexType
-t
-wasm
-:
-:
 Pages
 newPages
 )
@@ -1036,7 +1028,6 @@ wasm
 :
 MaxMemoryPages
 (
-t
 )
 &
 &
@@ -1411,9 +1402,6 @@ buffer
 .
 UnmapBufferMemory
 (
-wasmIndexType
-(
-)
 basePointer
 (
 )
