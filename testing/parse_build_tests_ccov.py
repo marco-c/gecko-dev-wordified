@@ -83,6 +83,10 @@ import
 zipfile
 import
 buildconfig
+from
+mozbuild
+import
+shellutil
 def
 main
 (
@@ -250,6 +254,10 @@ None
         
 config_opts
 =
+shellutil
+.
+split
+(
 buildconfig
 .
 substs
@@ -258,11 +266,6 @@ substs
 MOZ_CONFIGURE_OPTIONS
 "
 ]
-.
-split
-(
-"
-"
 )
         
 for
