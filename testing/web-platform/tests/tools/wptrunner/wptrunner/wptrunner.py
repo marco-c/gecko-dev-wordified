@@ -3335,6 +3335,12 @@ finally
         
 logger
 .
+shutdown
+(
+)
+        
+logger
+.
 remove_handler
 (
 handler
