@@ -14173,7 +14173,6 @@ map
 |
 info
 |
-{
 (
 PropertyBinding
 :
@@ -14188,7 +14187,6 @@ info
 .
 key
 )
-}
 )
 ;
 let
