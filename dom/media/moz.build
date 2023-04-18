@@ -1319,6 +1319,11 @@ CrossGraphPort
 cpp
 "
 "
+DeviceInputTrack
+.
+cpp
+"
+"
 DOMMediaStream
 .
 cpp

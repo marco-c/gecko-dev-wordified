@@ -122,6 +122,13 @@ h
 #
 include
 "
+DeviceInputTrack
+.
+h
+"
+#
+include
+"
 MediaManager
 .
 h
