@@ -14799,6 +14799,9 @@ RectF
 [
 ]
 rects
+final
+RectF
+caretRect
 )
 {
 /
@@ -14888,6 +14891,7 @@ mListener
 updateCompositionRects
 (
 rects
+caretRect
 )
 ;
 }

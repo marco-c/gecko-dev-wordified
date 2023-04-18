@@ -2331,6 +2331,9 @@ RectF
 [
 ]
 rects
+final
+RectF
+caretRect
 )
 {
 if
@@ -2403,6 +2406,7 @@ asBinder
 (
 )
 rects
+caretRect
 )
 ;
 }
