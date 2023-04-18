@@ -694,10 +694,12 @@ event_listeners
 :
 MutableMapping
 [
+            
 Optional
 [
 str
 ]
+            
 List
 [
 Callable
@@ -713,6 +715,7 @@ Any
 Any
 ]
 ]
+        
 ]
 =
 defaultdict
@@ -1089,6 +1092,7 @@ session
 .
 new
 (
+                
 self
 .
 requested_capabilities
@@ -1107,10 +1111,13 @@ async
 def
 send_command
 (
+        
 self
+        
 method
 :
 str
+        
 params
 :
 Mapping
@@ -1118,6 +1125,7 @@ Mapping
 str
 Any
 ]
+    
 )
 -
 >
@@ -1523,12 +1531,7 @@ await
 listener
 (
 method
-data
-[
-"
 params
-"
-]
 )
         
 else
@@ -1598,15 +1601,16 @@ None
 def
 add_event_listener
 (
+        
 self
-                           
+        
 name
 :
 Optional
 [
 str
 ]
-                           
+        
 fn
 :
 Callable
@@ -1619,12 +1623,12 @@ str
 Any
 ]
 ]
-                           
 Awaitable
 [
 Any
 ]
 ]
+    
 )
 -
 >
