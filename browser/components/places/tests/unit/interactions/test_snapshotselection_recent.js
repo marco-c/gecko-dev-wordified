@@ -169,11 +169,7 @@ selector
 new
 SnapshotSelector
 (
-{
-count
-:
 2
-}
 )
 ;
 let
