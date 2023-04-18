@@ -6077,7 +6077,6 @@ defaultFreeOp_
 (
 this
 runtime
-true
 )
 freeUnusedMemory
 (

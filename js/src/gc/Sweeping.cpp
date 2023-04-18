@@ -2166,9 +2166,18 @@ return
 ;
 }
 JSFreeOp
+*
 fop
+=
+TlsContext
+.
+get
 (
-nullptr
+)
+-
+>
+defaultFreeOp
+(
 )
 ;
 /
@@ -2282,7 +2291,6 @@ kinds
 {
 backgroundFinalize
 (
-&
 fop
 zone
 kind
