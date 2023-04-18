@@ -99,6 +99,7 @@ taskgraph
 util
 import
 path
+taskcluster
 from
 taskgraph
 .
@@ -1091,6 +1092,30 @@ matter
 .
     
 #
+TASK_ID
+is
+also
+set
+for
+test
+-
+action
+-
+callback
+so
+we
+check
+for
+that
+with
+    
+#
+taskcluster
+.
+testing
+.
+    
+#
 If
 we
 checked
@@ -1136,6 +1161,11 @@ in
 os
 .
 environ
+and
+not
+taskcluster
+.
+testing
 :
         
 if

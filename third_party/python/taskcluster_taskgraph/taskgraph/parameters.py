@@ -455,11 +455,16 @@ IndexError
         
 #
 IndexError
-because
-not
-all
-repo_urls
+is
+raised
+if
+repo
+url
+doesn
+'
+t
 have
+any
 slashes
 .
         
