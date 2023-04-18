@@ -294,6 +294,24 @@ update
 requirements
 .
 txt
+.
+            
+#
+"
+-
+-
+allow
+-
+unsafe
+"
+is
+required
+to
+vendor
+pip
+and
+setuptools
+.
             
 subprocess
 .
@@ -359,6 +377,14 @@ tmp_requirements_absolute
 generate
 -
 hashes
+"
+                    
+"
+-
+-
+allow
+-
+unsafe
 "
                 
 ]
