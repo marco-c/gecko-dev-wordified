@@ -31963,6 +31963,7 @@ dllServices
 >
 StartUntrustedModulesProcessor
 (
+false
 )
 ;
 auto
