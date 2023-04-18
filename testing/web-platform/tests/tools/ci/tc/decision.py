@@ -766,7 +766,12 @@ if
 event
 [
 "
-sender
+pull_request
+"
+]
+[
+"
+user
 "
 ]
 [
@@ -806,7 +811,12 @@ if
 event
 [
 "
-sender
+pull_request
+"
+]
+[
+"
+user
 "
 ]
 [
