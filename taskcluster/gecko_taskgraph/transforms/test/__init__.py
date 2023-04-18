@@ -4307,25 +4307,6 @@ label
 e10s
 "
         
-else
-:
-            
-label
-+
-=
-"
--
-1proc
-"
-            
-try_name
-+
-=
-"
--
-1proc
-"
-        
 if
 task
 [

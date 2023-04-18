@@ -2162,26 +2162,6 @@ unittest_variant
 "
 ]
         
-if
-not
-task
-.
-attributes
-[
-"
-e10s
-"
-]
-:
-            
-key
-+
-=
-"
--
-1proc
-"
-        
 important_manifests
 =
 set
