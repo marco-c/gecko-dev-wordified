@@ -1236,10 +1236,11 @@ thingp
 )
 {
 return
+!
 *
 thingp
-&
-&
+|
+|
 js
 :
 :
