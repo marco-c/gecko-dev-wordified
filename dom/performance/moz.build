@@ -298,6 +298,16 @@ PerformanceWorker
 cpp
 "
 ]
+IPDL_SOURCES
++
+=
+[
+"
+PerformanceTimingTypes
+.
+ipdlh
+"
+]
 include
 (
 "
