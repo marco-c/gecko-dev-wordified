@@ -11712,6 +11712,9 @@ mRefCnt
 void
 UpdateObjectPointerAfterGC
 (
+JSTracer
+*
+trc
 )
 {
 MOZ_ASSERT
@@ -11723,6 +11726,7 @@ IsRootWrapper
 ;
 JS_UpdateWeakPointerAfterGC
 (
+trc
 &
 mJSObj
 )
