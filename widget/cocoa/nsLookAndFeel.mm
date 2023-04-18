@@ -1023,7 +1023,7 @@ case
 ColorID
 :
 :
-TextSelectBackgroundDisabled
+TextSelectDisabledBackground
 :
 color
 =
