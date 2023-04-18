@@ -453,13 +453,6 @@ h
 /
 for
 already_AddRefed
-#
-include
-"
-nsTArray
-.
-h
-"
 namespace
 mozilla
 {
@@ -4156,12 +4149,6 @@ TimeStamp
 >
 >
 mTestSampleTime
-;
-CopyableTArray
-<
-MatrixMessage
->
-mLastMessages
 ;
 public
 :
