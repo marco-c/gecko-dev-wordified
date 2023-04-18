@@ -814,7 +814,7 @@ mappingPromise
 >
 Then
 (
-GetMainThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

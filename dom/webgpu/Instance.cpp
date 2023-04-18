@@ -484,7 +484,7 @@ aOptions
 >
 Then
 (
-GetMainThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

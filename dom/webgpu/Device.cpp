@@ -1806,7 +1806,7 @@ aDesc
 >
 Then
 (
-GetMainThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -1997,7 +1997,7 @@ aDesc
 >
 Then
 (
-GetMainThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -2551,7 +2551,7 @@ errorPromise
 >
 Then
 (
-GetMainThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
