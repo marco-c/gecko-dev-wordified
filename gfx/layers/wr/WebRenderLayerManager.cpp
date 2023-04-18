@@ -810,7 +810,14 @@ to
 connect
 WebRenderBridgeChild
 .
+isParent
+=
 "
+<
+<
+XRE_IsParentProcess
+(
+)
 ;
 aError
 .
