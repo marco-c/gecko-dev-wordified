@@ -2000,6 +2000,15 @@ Lambda
 \
 _
 (
+LambdaArrow
+js
+:
+:
+LambdaArrow
+)
+\
+_
+(
 LeaveWith
 js
 :

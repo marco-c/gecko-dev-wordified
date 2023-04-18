@@ -2841,6 +2841,12 @@ JSOp
 :
 Lambda
 :
+case
+JSOp
+:
+:
+LambdaArrow
+:
 {
 JSFunction
 *

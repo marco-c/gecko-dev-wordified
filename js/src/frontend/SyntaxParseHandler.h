@@ -1873,15 +1873,13 @@ return
 NodeLexicalDeclaration
 ;
 }
-NewTargetNodeType
+BinaryNodeType
 newNewTarget
 (
 NullaryNodeType
 newHolder
 NullaryNodeType
 targetHolder
-NameNodeType
-newTargetName
 )
 {
 return

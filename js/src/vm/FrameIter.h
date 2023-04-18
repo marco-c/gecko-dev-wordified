@@ -2802,6 +2802,15 @@ JS
 :
 :
 Value
+newTarget
+(
+)
+const
+;
+JS
+:
+:
+Value
 returnValue
 (
 )
