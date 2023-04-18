@@ -1295,7 +1295,6 @@ bounds
 [
 derive
 (
-Copy
 Clone
 Deserialize
 Serialize
