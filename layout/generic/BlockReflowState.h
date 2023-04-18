@@ -1070,7 +1070,7 @@ remaining
 )
 to
 accomodate
-aReplacedBlock
+aFloatAvoidingBlock
 .
 enum
 class
@@ -1102,7 +1102,7 @@ StyleClear
 aBreakType
 nsIFrame
 *
-aReplacedBlock
+aFloatAvoidingBlock
 =
 nullptr
 )
@@ -1339,11 +1339,11 @@ true
 ;
 }
 bool
-ReplacedBlockFitsInAvailSpace
+FloatAvoidingBlockFitsInAvailSpace
 (
 nsIFrame
 *
-aReplacedBlock
+aFloatAvoidingBlock
 const
 nsFlowAreaRect
 &
@@ -1457,11 +1457,11 @@ mBCoord
 )
 .
 void
-ComputeReplacedBlockOffsetsForFloats
+ComputeFloatAvoidingOffsets
 (
 nsIFrame
 *
-aFrame
+aFloatAvoidingBlock
 const
 mozilla
 :

@@ -19532,7 +19532,7 @@ MarkDirty
 }
 nsIFrame
 *
-replacedBlock
+floatAvoidingBlock
 =
 nullptr
 ;
@@ -19559,7 +19559,7 @@ mFirstChild
 )
 )
 {
-replacedBlock
+floatAvoidingBlock
 =
 line
 -
@@ -19618,7 +19618,7 @@ StyleClear
 None
 |
 |
-replacedBlock
+floatAvoidingBlock
 )
 )
 {
@@ -19695,7 +19695,7 @@ line
 GetBreakTypeBefore
 (
 )
-replacedBlock
+floatAvoidingBlock
 )
 ;
 if
@@ -27604,7 +27604,7 @@ None
 ;
 nsIFrame
 *
-replacedBlock
+floatAvoidingBlock
 =
 nullptr
 ;
@@ -27624,7 +27624,7 @@ mightClearFloats
 =
 true
 ;
-replacedBlock
+floatAvoidingBlock
 =
 frame
 ;
@@ -27727,7 +27727,7 @@ ClearFloats
 (
 curBCoord
 breakType
-replacedBlock
+floatAvoidingBlock
 )
 ;
 result
@@ -28347,7 +28347,7 @@ ClearFloats
 (
 curBCoord
 breakType
-replacedBlock
+floatAvoidingBlock
 )
 ;
 result
@@ -28550,7 +28550,7 @@ aState
 .
 mBCoord
 breakType
-replacedBlock
+floatAvoidingBlock
 )
 ;
 aState
@@ -28820,7 +28820,7 @@ ComputeBlockAvailSpace
 frame
 floatAvailableSpace
 (
-replacedBlock
+floatAvoidingBlock
 )
 )
 ;
@@ -29905,7 +29905,7 @@ if
 mayNeedRetry
 |
 |
-replacedBlock
+floatAvoidingBlock
 )
 {
 aState
@@ -30030,7 +30030,7 @@ again
 if
 (
 !
-replacedBlock
+floatAvoidingBlock
 )
 {
 break
@@ -30283,9 +30283,9 @@ if
 !
 aState
 .
-ReplacedBlockFitsInAvailSpace
+FloatAvoidingBlockFitsInAvailSpace
 (
-replacedBlock
+floatAvoidingBlock
 floatAvailableSpace
 )
 )
@@ -30363,7 +30363,7 @@ StyleClear
 :
 :
 None
-replacedBlock
+floatAvoidingBlock
 )
 ;
 /
@@ -30414,7 +30414,7 @@ ComputeBlockAvailSpace
 frame
 floatAvailableSpace
 (
-replacedBlock
+floatAvoidingBlock
 )
 )
 ;
@@ -58561,7 +58561,7 @@ static
 nsBlockFrame
 :
 :
-ReplacedElementISizeToClear
+FloatAvoidingISizeToClear
 nsBlockFrame
 :
 :
@@ -58577,7 +58577,7 @@ LogicalRect
 aFloatAvailableSpace
 nsIFrame
 *
-aFrame
+aFloatAvoidingBlock
 )
 {
 nscoord
@@ -58598,7 +58598,7 @@ GetWritingMode
 SizeComputationInput
 offsetState
 (
-aFrame
+aFloatAvoidingBlock
 aState
 .
 mReflowInput
@@ -58615,14 +58615,14 @@ wm
 )
 )
 ;
-ReplacedElementISizeToClear
+FloatAvoidingISizeToClear
 result
 ;
 aState
 .
-ComputeReplacedBlockOffsetsForFloats
+ComputeFloatAvoidingOffsets
 (
-aFrame
+aFloatAvoidingBlock
 aFloatAvailableSpace
 inlineStartOffset
 inlineEndOffset
@@ -58721,7 +58721,7 @@ argument
 WritingMode
 frWM
 =
-aFrame
+aFloatAvoidingBlock
 -
 >
 GetWritingMode
@@ -58753,7 +58753,7 @@ mPresContext
 aState
 .
 mReflowInput
-aFrame
+aFloatAvoidingBlock
 availSpace
 )
 ;

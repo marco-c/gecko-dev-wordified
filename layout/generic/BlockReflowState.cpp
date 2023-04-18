@@ -1220,11 +1220,11 @@ void
 BlockReflowState
 :
 :
-ComputeReplacedBlockOffsetsForFloats
+ComputeFloatAvoidingOffsets
 (
 nsIFrame
 *
-aFrame
+aFloatAvoidingBlock
 const
 LogicalRect
 &
@@ -1420,7 +1420,7 @@ wm
 SizeComputationInput
 os
 (
-aFrame
+aFloatAvoidingBlock
 mReflowInput
 .
 mRenderingContext
@@ -2221,7 +2221,7 @@ nscoord
 iStartOffset
 iEndOffset
 ;
-ComputeReplacedBlockOffsetsForFloats
+ComputeFloatAvoidingOffsets
 (
 aFrame
 aFloatAvailableSpace
@@ -2322,11 +2322,11 @@ bool
 BlockReflowState
 :
 :
-ReplacedBlockFitsInAvailSpace
+FloatAvoidingBlockFitsInAvailSpace
 (
 nsIFrame
 *
-aReplacedBlock
+aFloatAvoidingBlock
 const
 nsFlowAreaRect
 &
@@ -2390,7 +2390,7 @@ GetWritingMode
 nsBlockFrame
 :
 :
-ReplacedElementISizeToClear
+FloatAvoidingISizeToClear
 replacedISize
 =
 nsBlockFrame
@@ -2403,7 +2403,7 @@ this
 aFloatAvailableSpace
 .
 mRect
-aReplacedBlock
+aFloatAvoidingBlock
 )
 ;
 /
@@ -8342,7 +8342,7 @@ StyleClear
 aBreakType
 nsIFrame
 *
-aReplacedBlock
+aFloatAvoidingBlock
 )
 {
 #
@@ -8511,7 +8511,7 @@ FloatsPushedOrSplit
 }
 if
 (
-aReplacedBlock
+aFloatAvoidingBlock
 )
 {
 for
@@ -8530,9 +8530,9 @@ newBCoord
 ;
 if
 (
-ReplacedBlockFitsInAvailSpace
+FloatAvoidingBlockFitsInAvailSpace
 (
-aReplacedBlock
+aFloatAvoidingBlock
 floatAvailableSpace
 )
 )
