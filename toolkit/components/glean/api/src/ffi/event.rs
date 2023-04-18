@@ -1243,7 +1243,7 @@ does
 not
 drop
 its
-iternal
+internal
 buffer
 on
 the
