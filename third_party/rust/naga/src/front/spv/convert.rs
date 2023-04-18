@@ -2054,7 +2054,7 @@ Global
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Function
@@ -2102,7 +2102,7 @@ Global
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Private
@@ -2124,7 +2124,7 @@ Global
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Handle
@@ -2146,7 +2146,7 @@ Global
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Storage
@@ -2207,7 +2207,7 @@ Global
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 Uniform
@@ -2229,7 +2229,7 @@ Global
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 WorkGroup
@@ -2251,7 +2251,7 @@ Global
 crate
 :
 :
-StorageClass
+AddressSpace
 :
 :
 PushConstant

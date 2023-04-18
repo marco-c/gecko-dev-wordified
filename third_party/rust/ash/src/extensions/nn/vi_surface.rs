@@ -138,11 +138,9 @@ handle
 fp
 }
 }
-#
-[
-doc
-=
-"
+/
+/
+/
 <
 https
 :
@@ -162,7 +160,7 @@ specs
 /
 1
 .
-2
+3
 -
 extensions
 /
@@ -174,8 +172,6 @@ vkCreateViSurfaceNN
 .
 html
 >
-"
-]
 pub
 unsafe
 fn
@@ -222,11 +218,13 @@ zeroed
 (
 )
 ;
+(
 self
 .
 fp
 .
 create_vi_surface_nn
+)
 (
 self
 .
@@ -248,6 +246,7 @@ surface
 )
 }
 pub
+const
 fn
 name
 (
