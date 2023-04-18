@@ -87,9 +87,6 @@ locks
 isSecureContext
 :
 true
-nightly
-:
-true
 }
 "
 mediaCapabilities
