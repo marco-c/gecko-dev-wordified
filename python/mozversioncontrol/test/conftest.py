@@ -107,6 +107,13 @@ Initial
 commit
 "
         
+hg
+phase
+-
+-
+public
+.
+        
 "
 "
 "
