@@ -16241,6 +16241,7 @@ ArrayObject
 JSContext
 *
 HandleScript
+const
 jsbytecode
 *
 )
@@ -28992,6 +28993,7 @@ JSContext
 *
 BaselineFrame
 *
+const
 jsbytecode
 *
 )
@@ -29178,6 +29180,7 @@ JSContext
 *
 BaselineFrame
 *
+const
 jsbytecode
 *
 )
@@ -29333,6 +29336,7 @@ JSContext
 *
 BaselineFrame
 *
+const
 jsbytecode
 *
 )
@@ -29481,6 +29485,7 @@ JSContext
 *
 BaselineFrame
 *
+const
 jsbytecode
 *
 )
@@ -30087,6 +30092,7 @@ JSContext
 *
 BaselineFrame
 *
+const
 jsbytecode
 *
 )
@@ -34399,6 +34405,7 @@ HandleObject
 BaselineFrame
 *
 uint32_t
+const
 jsbytecode
 *
 )
@@ -34972,6 +34979,7 @@ bool
 JSContext
 *
 HandleObject
+const
 jsbytecode
 *
 )
@@ -42224,6 +42232,7 @@ JSContext
 *
 BaselineFrame
 *
+const
 uint8_t
 *
 )

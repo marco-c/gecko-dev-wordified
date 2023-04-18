@@ -23393,6 +23393,7 @@ JSScript
 :
 lookupScope
 (
+const
 jsbytecode
 *
 pc
@@ -23736,6 +23737,7 @@ JSScript
 :
 innermostScope
 (
+const
 jsbytecode
 *
 pc

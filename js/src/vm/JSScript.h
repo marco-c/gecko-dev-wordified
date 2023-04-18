@@ -13954,6 +13954,7 @@ JSObject
 *
 getObject
 (
+const
 jsbytecode
 *
 pc
@@ -14026,6 +14027,7 @@ Shape
 *
 getShape
 (
+const
 jsbytecode
 *
 pc
@@ -14388,6 +14390,7 @@ Scope
 *
 lookupScope
 (
+const
 jsbytecode
 *
 pc
@@ -14401,6 +14404,7 @@ Scope
 *
 innermostScope
 (
+const
 jsbytecode
 *
 pc

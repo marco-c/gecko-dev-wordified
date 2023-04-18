@@ -9039,6 +9039,7 @@ JSContext
 cx
 AbstractFramePtr
 frame
+const
 jsbytecode
 *
 pc
@@ -19589,6 +19590,7 @@ JSContext
 cx
 AbstractFramePtr
 frame
+const
 jsbytecode
 *
 pc
@@ -23844,6 +23846,7 @@ JSContext
 cx
 AbstractFramePtr
 frame
+const
 jsbytecode
 *
 pc
@@ -27313,6 +27316,7 @@ JSContext
 cx
 AbstractFramePtr
 frame
+const
 jsbytecode
 *
 pc
