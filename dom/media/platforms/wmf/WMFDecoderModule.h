@@ -378,11 +378,8 @@ virtual
 WMFDecoderModule
 (
 )
-;
-bool
-mWMFInitialized
 =
-false
+default
 ;
 }
 ;
