@@ -224,6 +224,11 @@ ExtensionUtils
 jsm
 "
 "
+ExtensionWorkerChild
+.
+jsm
+"
+"
 FindContent
 .
 jsm
