@@ -207,16 +207,6 @@ chrome
 "
 )
 ;
-var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 const
 {
 debounce
@@ -5689,7 +5679,7 @@ focus
 let
 splitConsolePromise
 =
-promise
+Promise
 .
 resolve
 (
@@ -5764,7 +5754,7 @@ false
 ;
 }
 await
-promise
+Promise
 .
 all
 (
@@ -15971,7 +15961,7 @@ ready
 '
 events
 .
-promise
+Promise
 .
 resolve
 (
@@ -16995,7 +16985,7 @@ return
 value
 .
 return
-promise
+Promise
 .
 resolve
 (
@@ -17047,7 +17037,7 @@ then
 )
 =
 >
-promise
+Promise
 .
 resolve
 (
@@ -18294,7 +18284,7 @@ focus
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -18387,7 +18377,7 @@ openSplitConsole
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -19800,7 +19790,7 @@ browser
 toolbox
 actor
 return
-promise
+Promise
 .
 resolve
 (
