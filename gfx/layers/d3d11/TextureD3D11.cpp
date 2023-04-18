@@ -5773,13 +5773,7 @@ Get
 >
 RegisterExternalImage
 (
-wr
-:
-:
-AsUint64
-(
 aExternalImageId
-)
 texture
 .
 forget
@@ -7830,13 +7824,7 @@ Get
 >
 RegisterExternalImage
 (
-wr
-:
-:
-AsUint64
-(
 aExternalImageId
-)
 texture
 .
 forget
