@@ -241,6 +241,12 @@ GetEchoPasswordImpl
 )
 override
 ;
+bool
+GetDefaultDrawInTitlebar
+(
+)
+override
+;
 template
 <
 typename
@@ -855,11 +861,6 @@ mCaretBlinkCount
 ;
 bool
 mCSDAvailable
-=
-false
-;
-bool
-mCSDHideTitlebarByDefault
 =
 false
 ;

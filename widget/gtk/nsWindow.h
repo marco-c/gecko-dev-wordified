@@ -2264,12 +2264,6 @@ GetSystemGtkWindowDecoration
 ;
 static
 bool
-HideTitlebarByDefault
-(
-)
-;
-static
-bool
 GetTopLevelWindowActiveState
 (
 nsIFrame

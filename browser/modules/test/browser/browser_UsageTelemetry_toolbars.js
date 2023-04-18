@@ -602,7 +602,7 @@ Services
 .
 prefs
 .
-setBoolPref
+setIntPref
 (
 "
 browser
