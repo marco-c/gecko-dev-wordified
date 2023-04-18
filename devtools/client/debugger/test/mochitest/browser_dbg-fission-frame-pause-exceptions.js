@@ -58,17 +58,12 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 TEST_COM_URI
 =
+{
 URL_ROOT_COM_SSL
-+
-"
+}
 examples
 /
 doc_dbg
@@ -80,7 +75,6 @@ pause
 exceptions
 .
 html
-"
 ;
 /
 /
@@ -129,6 +123,7 @@ caught
 exceptions
 "
 )
+;
 await
 togglePauseOnExceptions
 (
@@ -178,6 +173,7 @@ caught
 exceptions
 "
 )
+;
 await
 togglePauseOnExceptions
 (

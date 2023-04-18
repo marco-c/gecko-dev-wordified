@@ -39,6 +39,7 @@ can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,6 +54,7 @@ MPL
 .
 0
 /
+>
 .
 *
 /
@@ -80,11 +82,6 @@ t
 been
 opened
 .
-"
-use
-strict
-"
-;
 const
 IFRAME_TEST_COM_URI
 =
@@ -104,7 +101,7 @@ sjs
 ?
 html
 =
-+
+{
 encodeURI
 (
 <
@@ -131,6 +128,7 @@ a
 script
 >
 )
+}
 ;
 /
 /
@@ -167,7 +165,7 @@ sjs
 ?
 html
 =
-+
+{
 encodeURI
 (
 <
@@ -217,6 +215,7 @@ iframe
 body
 >
 )
+}
 ;
 add_task
 (

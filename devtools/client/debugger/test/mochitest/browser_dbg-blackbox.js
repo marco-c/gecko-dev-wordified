@@ -80,11 +80,6 @@ the
 debugger
 editor
 .
-"
-use
-strict
-"
-;
 requestLongerTimeout
 (
 5
@@ -223,6 +218,7 @@ line
 "
 }
 }
+;
 /
 /
 Tests
@@ -813,6 +809,7 @@ be
 hit
 "
 )
+;
 assertNotPaused
 (
 dbg

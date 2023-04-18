@@ -121,7 +121,7 @@ await
 checkEvaluateInTopFrame
 (
 dbg
-'
+"
 window
 .
 scrollBy
@@ -130,7 +130,7 @@ scrollBy
 10
 )
 ;
-'
+"
 undefined
 )
 ;

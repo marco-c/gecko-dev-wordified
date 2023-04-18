@@ -257,7 +257,7 @@ waitForPaused
 dbg
 )
 ;
-let
+const
 source
 =
 findSource
@@ -333,6 +333,7 @@ SOURCES
 ;
 await
 onBreakpoint
+;
 is
 (
 countSources
@@ -402,6 +403,7 @@ SOURCES
 ;
 await
 onBreakpoint
+;
 is
 (
 countSources
@@ -475,6 +477,7 @@ js
 ;
 await
 onBreakpoint
+;
 await
 waitForSelectedSource
 (

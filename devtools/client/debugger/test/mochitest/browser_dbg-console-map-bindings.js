@@ -290,7 +290,7 @@ shown
 "
 )
 ;
-let
+const
 jsterm
 =
 toolbox

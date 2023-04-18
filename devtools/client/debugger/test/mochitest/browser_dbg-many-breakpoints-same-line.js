@@ -158,6 +158,7 @@ dbg
 ;
 }
 )
+;
 async
 function
 testSimpleAndLog

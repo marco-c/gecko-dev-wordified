@@ -93,13 +93,12 @@ function
 await
 addTab
 (
+{
 EXAMPLE_URL
-+
-"
+}
 different_html
 .
 sjs
-"
 )
 ;
 /

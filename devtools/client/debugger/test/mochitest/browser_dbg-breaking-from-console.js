@@ -96,9 +96,9 @@ function
 const
 url
 =
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 script
@@ -106,7 +106,6 @@ script
 switching
 .
 html
-"
 ;
 const
 toolbox
@@ -128,7 +127,7 @@ debugger
 "
 into
 console
-let
+const
 wrapper
 =
 toolbox

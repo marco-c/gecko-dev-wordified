@@ -673,9 +673,9 @@ dbg
 await
 initDebuggerWithAbsoluteURL
 (
+{
 BASE_URL
-+
-"
+}
 doc
 -
 breakpoint
@@ -683,7 +683,6 @@ breakpoint
 reload
 .
 html
-"
 "
 script
 .
@@ -722,6 +721,7 @@ bar
 )
 "
 )
+;
 await
 addBreakpoint
 (
@@ -1020,6 +1020,7 @@ bar
 )
 "
 )
+;
 await
 reload
 (
@@ -1164,7 +1165,7 @@ assertTextContentOnLine
 (
 dbg
 3
-'
+"
 /
 /
 down
@@ -1174,7 +1175,7 @@ the
 breakpoint
 is
 on
-'
+"
 )
 ;
 info
@@ -1229,6 +1230,7 @@ comment
 line
 "
 )
+;
 await
 reload
 (

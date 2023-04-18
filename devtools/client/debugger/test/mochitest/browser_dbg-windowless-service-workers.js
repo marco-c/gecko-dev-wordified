@@ -160,7 +160,7 @@ enabled
 true
 )
 ;
-let
+const
 dbg
 =
 await
@@ -322,9 +322,9 @@ toolbox
 await
 openNewTabAndToolbox
 (
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 service
@@ -332,7 +332,6 @@ service
 workers
 .
 html
-"
 "
 jsdebugger
 "
@@ -511,9 +510,9 @@ toolbox
 await
 openNewTabAndToolbox
 (
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 service
@@ -521,7 +520,6 @@ service
 workers
 .
 html
-"
 "
 jsdebugger
 "
@@ -568,9 +566,9 @@ selectedTab
 await
 addTab
 (
+{
 EXAMPLE_URL
-+
-"
+}
 service
 -
 worker
@@ -580,7 +578,6 @@ sjs
 setStatus
 =
 newServiceWorker
-"
 )
 ;
 await
@@ -597,9 +594,9 @@ secondTab
 await
 addTab
 (
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 service
@@ -607,7 +604,6 @@ service
 workers
 .
 html
-"
 )
 ;
 await
@@ -876,9 +872,9 @@ test
 await
 addTab
 (
+{
 EXAMPLE_URL
-+
-"
+}
 service
 -
 worker
@@ -887,7 +883,6 @@ sjs
 ?
 setStatus
 =
-"
 )
 ;
 await
@@ -960,9 +955,9 @@ toolbox
 await
 openNewTabAndToolbox
 (
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 service
@@ -970,7 +965,6 @@ service
 workers
 .
 html
-"
 "
 jsdebugger
 "

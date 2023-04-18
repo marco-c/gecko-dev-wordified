@@ -58,11 +58,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Test

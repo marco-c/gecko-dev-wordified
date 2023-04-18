@@ -261,6 +261,7 @@ the
 iframe
 "
 )
+;
 await
 SpecialPowers
 .

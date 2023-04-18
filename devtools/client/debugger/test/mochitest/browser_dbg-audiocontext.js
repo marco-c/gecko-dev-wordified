@@ -155,6 +155,7 @@ the
 debugger
 "
 )
+;
 }
 )
 ;

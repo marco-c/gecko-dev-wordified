@@ -39,6 +39,7 @@ can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,6 +54,7 @@ MPL
 .
 0
 /
+>
 .
 *
 /
@@ -75,11 +77,6 @@ browser
 /
 toolbox
 .
-"
-use
-strict
-"
-;
 requestLongerTimeout
 (
 4
@@ -195,9 +192,9 @@ waitForAllTargetsToBeAttached
 await
 addTab
 (
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 all
@@ -205,7 +202,6 @@ all
 workers
 .
 html
-"
 )
 ;
 await

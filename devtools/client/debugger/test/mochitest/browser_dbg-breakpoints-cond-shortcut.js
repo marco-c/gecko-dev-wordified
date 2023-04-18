@@ -108,7 +108,7 @@ js
 "
 )
 ;
-let
+const
 cursorPosition
 =
 {
@@ -371,6 +371,7 @@ set
 cursorPosition
 "
 )
+;
 await
 enableFirstBreakpoint
 (

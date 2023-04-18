@@ -58,11 +58,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Tests
@@ -472,7 +467,7 @@ onload
 }
 ;
 }
-let
+const
 extension
 =
 ExtensionTestUtils

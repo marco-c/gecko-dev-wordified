@@ -141,15 +141,14 @@ onNavigated
 =
 navigateTo
 (
+{
 EXAMPLE_URL
-+
-"
+}
 doc
 -
 watchpoints
 .
 html
-"
 )
 ;
 await

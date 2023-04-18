@@ -58,11 +58,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Tests
@@ -239,6 +234,7 @@ message
 {
 return
 false
+;
 }
 return
 message

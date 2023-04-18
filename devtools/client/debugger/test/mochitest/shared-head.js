@@ -1454,7 +1454,6 @@ false
 }
 }
 else
-{
 if
 (
 source
@@ -1470,7 +1469,6 @@ id
 return
 false
 ;
-}
 }
 }
 return
@@ -4212,6 +4210,7 @@ data
 :
 URLs
 return
+(
 sourceFileName
 =
 =
@@ -4224,6 +4223,7 @@ url
 =
 =
 filenameOrUrlOrSource
+)
 ;
 }
 )
@@ -4331,16 +4331,15 @@ throw
 new
 Error
 (
-"
 Expected
 loaded
 source
 got
-"
-+
+{
 content
 .
 value
+}
 )
 ;
 }
@@ -14093,7 +14092,7 @@ messages
 {
 for
 (
-let
+const
 message
 of
 messages
@@ -14874,8 +14873,9 @@ html
 const
 url
 =
+{
 URL_ROOT
-+
+}
 examples
 /
 {
@@ -14894,7 +14894,6 @@ path
 ;
 info
 (
-"
 [
 test
 -
@@ -14904,9 +14903,9 @@ server
 ]
 serving
 :
-"
-+
+{
 url
+}
 )
 ;
 const

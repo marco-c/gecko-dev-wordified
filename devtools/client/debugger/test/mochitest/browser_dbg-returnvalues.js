@@ -246,7 +246,7 @@ other
 falsy
 values
 .
-let
+const
 label
 =
 getLabel

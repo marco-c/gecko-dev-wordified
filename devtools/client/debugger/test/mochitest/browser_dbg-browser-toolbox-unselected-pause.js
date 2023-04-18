@@ -39,6 +39,7 @@ can
 obtain
 one
 at
+<
 http
 :
 /
@@ -53,6 +54,7 @@ MPL
 .
 0
 /
+>
 .
 *
 /
@@ -79,11 +81,6 @@ t
 been
 opened
 .
-"
-use
-strict
-"
-;
 requestLongerTimeout
 (
 4
@@ -255,9 +252,7 @@ stringify
 selectors
 )
 async
-(
 _selectors
-)
 =
 >
 {
