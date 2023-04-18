@@ -373,6 +373,23 @@ return
 [
 ]
             
+depends
+(
+when
+=
+True
+)
+            
+def
+linker_ldflags
+(
+)
+:
+                
+return
+[
+]
+            
 target
 =
 depends
