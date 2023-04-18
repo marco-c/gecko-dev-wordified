@@ -935,7 +935,7 @@ actionElement
 addEventListener
 (
 "
-click
+command
 "
 function
 (
