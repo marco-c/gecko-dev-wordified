@@ -1600,6 +1600,12 @@ nsIEnterprisePolicies
 .
 UNINITIALIZED
 ;
+this
+.
+_parsedPolicies
+=
+undefined
+;
 for
 (
 let
