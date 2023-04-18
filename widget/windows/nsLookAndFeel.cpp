@@ -635,13 +635,6 @@ RefreshImpl
 (
 )
 {
-nsXPLookAndFeel
-:
-:
-RefreshImpl
-(
-)
-;
 mInitialized
 =
 false
@@ -658,6 +651,13 @@ they
 re
 used
 .
+nsXPLookAndFeel
+:
+:
+RefreshImpl
+(
+)
+;
 }
 nsresult
 nsLookAndFeel
