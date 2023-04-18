@@ -1535,7 +1535,7 @@ override
 return
 bool
 (
-GetChild
+GetParent
 (
 )
 )
@@ -1571,16 +1571,16 @@ override
 {
 UtilityProcessParent
 *
-child
+parent
 =
-GetChild
+GetParent
 (
 )
 ;
 if
 (
 !
-child
+parent
 )
 {
 return
@@ -1588,7 +1588,7 @@ false
 ;
 }
 return
-child
+parent
 -
 >
 SendRequestMemoryReport
@@ -1611,9 +1611,9 @@ if
 (
 UtilityProcessParent
 *
-child
+parent
 =
-GetChild
+GetParent
 (
 )
 )
@@ -1622,7 +1622,7 @@ return
 (
 int32_t
 )
-child
+parent
 -
 >
 OtherPid
@@ -1638,7 +1638,7 @@ private
 :
 UtilityProcessParent
 *
-GetChild
+GetParent
 (
 )
 const
@@ -1663,7 +1663,7 @@ if
 (
 UtilityProcessParent
 *
-child
+parent
 =
 utilitypm
 -
@@ -1674,7 +1674,7 @@ GetProcessParent
 )
 {
 return
-child
+parent
 ;
 }
 }
