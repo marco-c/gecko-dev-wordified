@@ -2185,6 +2185,15 @@ aId
 ;
 }
 static
+void
+UpdateCurrentTopByBrowserId
+(
+BrowsingContext
+*
+aNewBrowsingContext
+)
+;
+static
 already_AddRefed
 <
 BrowsingContext
