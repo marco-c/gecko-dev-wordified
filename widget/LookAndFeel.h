@@ -1908,6 +1908,13 @@ ColorScheme
 Light
 ;
 }
+static
+bool
+IsDarkColor
+(
+nscolor
+)
+;
 enum
 class
 ChromeColorSchemeSetting
