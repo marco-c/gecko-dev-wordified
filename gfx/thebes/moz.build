@@ -632,11 +632,6 @@ PrintTargetPDF
 .
 h
 "
-"
-PrintTargetPS
-.
-h
-"
 ]
 SOURCES
 +
@@ -664,11 +659,6 @@ cpp
 "
 "
 PrintTargetPDF
-.
-cpp
-"
-"
-PrintTargetPS
 .
 cpp
 "
