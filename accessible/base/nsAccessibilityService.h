@@ -2946,6 +2946,13 @@ changed
 /
 /
 EVENT_TABLE_STYLING_CHANGED
+"
+inner
+reorder
+"
+/
+/
+EVENT_INNER_REORDER
 }
 ;
 #
