@@ -21,6 +21,8 @@ re
 import
 signal
 import
+subprocess
+import
 threading
 import
 time
@@ -210,16 +212,34 @@ skip
             
 return
     
+subprocess
+.
+check_call
+(
+        
+[
+            
 virtualenv_manager
 .
-_run_pip
-(
-[
+python_path
+            
+"
+-
+m
+"
+            
+"
+pip
+"
+            
 "
 install
 "
+            
 package
+        
 ]
+    
 )
 def
 _kill_mozproxy

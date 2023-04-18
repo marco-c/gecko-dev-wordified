@@ -66,6 +66,8 @@ logging
 import
 os
 import
+subprocess
+import
 sys
 import
 tempfile
@@ -573,11 +575,13 @@ no_virtualenv
                 
 #
 Use
-_run_pip
+pip
 directly
 rather
 than
 install_pip_package
+(
+)
 to
 bypass
                 
@@ -596,20 +600,38 @@ installed
 ipython
 .
                 
+subprocess
+.
+check_call
+(
+                    
+[
+                        
 command_context
 .
 virtualenv_manager
 .
-_run_pip
-(
-[
+python_path
+                        
+"
+-
+m
+"
+                        
+"
+pip
+"
+                        
 "
 install
 "
+                        
 "
 ipython
 "
+                    
 ]
+                
 )
                 
 python_path

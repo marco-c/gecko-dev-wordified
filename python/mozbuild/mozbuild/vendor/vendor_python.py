@@ -450,14 +450,27 @@ of
 all
 packages
                 
+subprocess
+.
+check_call
+(
+                    
+[
+                        
 self
 .
 virtualenv_manager
 .
-_run_pip
-(
-                    
-[
+python_path
+                        
+"
+-
+m
+"
+                        
+"
+pip
+"
                         
 "
 download
