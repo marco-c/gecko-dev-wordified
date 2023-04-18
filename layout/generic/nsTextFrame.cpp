@@ -6749,6 +6749,8 @@ nsTextFrame
 :
 TextRunType
 aWhichTextRun
+bool
+aDoLineBreaking
 )
 :
 mDrawTarget
@@ -6792,6 +6794,10 @@ false
 mCanStopOnThisLine
 (
 false
+)
+mDoLineBreaking
+(
+aDoLineBreaking
 )
 mWhichTextRun
 (
@@ -7822,6 +7828,9 @@ mSkipIncompleteTextRuns
 ;
 bool
 mCanStopOnThisLine
+;
+bool
+mDoLineBreaking
 ;
 nsTextFrame
 :
@@ -9776,6 +9785,18 @@ PresContext
 (
 )
 ;
+bool
+doLineBreaking
+=
+!
+SVGUtils
+:
+:
+IsInSVGTextSubtree
+(
+aForFrame
+)
+;
 BuildTextRunsScanner
 scanner
 (
@@ -9783,6 +9804,7 @@ presContext
 aDrawTarget
 aLineContainer
 aWhichTextRun
+doLineBreaking
 )
 ;
 nsBlockFrame
@@ -11301,6 +11323,11 @@ textRun
 =
 mCurrentFramesAllSameTextRun
 ;
+if
+(
+mDoLineBreaking
+)
+{
 /
 /
 Feed
@@ -11327,6 +11354,7 @@ textRun
 {
 return
 ;
+}
 }
 /
 /
@@ -18152,6 +18180,11 @@ to
 avoid
 this
 .
+if
+(
+mDoLineBreaking
+)
+{
 SetupBreakSinksForTextRun
 (
 textRun
@@ -18162,6 +18195,7 @@ get
 textPtr
 )
 ;
+}
 if
 (
 anyTextEmphasis
