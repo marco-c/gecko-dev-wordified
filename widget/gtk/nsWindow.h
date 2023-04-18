@@ -3245,7 +3245,17 @@ PlatformCompositorWidgetDelegate
 *
 mCompositorWidgetDelegate
 ;
+mozilla
+:
+:
+Atomic
+<
 WindowCompositorState
+mozilla
+:
+:
+Relaxed
+>
 mCompositorState
 ;
 /
