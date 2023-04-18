@@ -379,12 +379,9 @@ NS_DECL_NSIOBSERVER
 nsGeolocationService
 (
 )
-{
-mHigherAccuracy
 =
-false
+default
 ;
-}
 nsresult
 Init
 (
@@ -456,9 +453,6 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 StartDevice
 (
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 /
@@ -483,7 +477,7 @@ StopDevice
 /
 create
 or
-reinitalize
+reinitialize
 the
 callback
 timer
@@ -654,6 +648,8 @@ higher
 accuracy
 bool
 mHigherAccuracy
+=
+false
 ;
 }
 ;
