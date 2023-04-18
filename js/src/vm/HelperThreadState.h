@@ -2049,17 +2049,6 @@ token
 )
 ;
 bool
-generateLCovSources
-(
-JSContext
-*
-cx
-ParseTask
-*
-parseTask
-)
-;
-bool
 finishMultiParseTask
 (
 JSContext
