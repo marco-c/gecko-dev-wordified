@@ -2794,8 +2794,7 @@ this
 .
 telemetry
 =
-[
-]
+null
 ;
 this
 .
@@ -3736,8 +3735,7 @@ this
 .
 telemetry
 =
-[
-]
+null
 ;
 this
 .
