@@ -33011,7 +33011,7 @@ if
 args
 -
 >
-isAnyElementDeleted
+hasOverriddenElement
 (
 )
 |
@@ -33295,7 +33295,7 @@ MOZ_ASSERT
 args
 -
 >
-isAnyElementDeleted
+hasOverriddenElement
 (
 )
 )
