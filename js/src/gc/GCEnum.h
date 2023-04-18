@@ -793,6 +793,11 @@ _
 (
 GlobalObjectData
 )
+\
+_
+(
+ProxyExternalValueArray
+)
 #
 define
 JS_FOR_EACH_MEMORY_USE
