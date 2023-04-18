@@ -1466,10 +1466,6 @@ id
 )
 ]
 ;
-Label
-failure
-done
-;
 switch
 (
 loc
@@ -10392,9 +10388,6 @@ return
 false
 ;
 }
-Label
-success
-;
 masm
 .
 branchTestNull

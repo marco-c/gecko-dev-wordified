@@ -12195,9 +12195,6 @@ from
 %
 -
 1
-Label
-notmin
-;
 masm
 .
 cmp32

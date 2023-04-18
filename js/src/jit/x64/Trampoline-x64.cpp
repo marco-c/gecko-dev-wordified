@@ -7741,9 +7741,6 @@ handle_IonICCall
 Label
 handle_Entry
 ;
-Label
-end
-;
 masm
 .
 branch32

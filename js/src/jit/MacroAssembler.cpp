@@ -29682,9 +29682,6 @@ length
 =
 initializedLength
 .
-Label
-done
-;
 Address
 initLength
 (
