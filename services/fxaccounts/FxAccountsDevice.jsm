@@ -3230,6 +3230,9 @@ updateUserAccountData
 device
 :
 null
+encryptedSendTabKeys
+:
+null
 }
 )
 ;
@@ -3475,6 +3478,9 @@ registrationVersion
 :
 null
 }
+encryptedSendTabKeys
+:
+null
 }
 )
 ;
@@ -3635,6 +3641,9 @@ updateUserAccountData
 (
 {
 device
+:
+null
+encryptedSendTabKeys
 :
 null
 }
