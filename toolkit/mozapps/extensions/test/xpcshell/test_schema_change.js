@@ -510,7 +510,7 @@ lastModified
 await
 IOUtils
 .
-setModificationTime
+touch
 (
 xpiPath
 newLastModTime

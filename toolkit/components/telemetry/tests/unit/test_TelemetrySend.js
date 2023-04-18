@@ -294,7 +294,7 @@ id
 return
 IOUtils
 .
-setModificationTime
+touch
 (
 path
 timestamp
