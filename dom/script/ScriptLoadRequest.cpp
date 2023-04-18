@@ -1069,7 +1069,7 @@ IsModuleRequest
 JS
 :
 :
-CancelOffThreadModule
+CancelCompileModuleToStencilOffThread
 (
 cx
 mOffThreadToken

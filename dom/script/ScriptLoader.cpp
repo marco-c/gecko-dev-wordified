@@ -12688,6 +12688,12 @@ rv
 rv
 )
 ;
+options
+.
+allocateInstantiationStorage
+=
+true
+;
 aRequest
 -
 >
@@ -12708,7 +12714,7 @@ char16_t
 JS
 :
 :
-CompileOffThreadModule
+CompileModuleToStencilOffThread
 (
 cx
 options
@@ -12737,7 +12743,7 @@ runnable
 JS
 :
 :
-CompileOffThreadModule
+CompileModuleToStencilOffThread
 (
 cx
 options
