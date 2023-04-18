@@ -3949,7 +3949,7 @@ support
 this
     
 def
-CopyDebug
+CopyExeAndDebugInfo
 (
 self
 file
@@ -3959,6 +3959,33 @@ code_file
 code_id
 )
 :
+        
+"
+"
+"
+This
+function
+will
+copy
+a
+library
+or
+executable
+and
+the
+file
+holding
+the
+        
+debug
+information
+to
+|
+symbol_path
+|
+"
+"
+"
         
 pass
     
@@ -5221,7 +5248,7 @@ arch_num
                     
 self
 .
-CopyDebug
+CopyExeAndDebugInfo
 (
 file
 debug_file
@@ -6007,7 +6034,7 @@ return
 False
     
 def
-CopyDebug
+CopyExeAndDebugInfo
 (
 self
 file
@@ -6018,7 +6045,29 @@ code_id
 )
 :
         
-file
+"
+"
+"
+This
+function
+will
+copy
+the
+executable
+or
+dll
+and
+pdb
+files
+to
+|
+symbol_path
+|
+"
+"
+"
+        
+pdb_file
 =
 locate_pdb
 (
@@ -6074,7 +6123,7 @@ shutil
 .
 copyfile
 (
-file
+pdb_file
 full_path
 )
         
@@ -6558,7 +6607,7 @@ return
 False
     
 def
-CopyDebug
+CopyExeAndDebugInfo
 (
 self
 file
@@ -7933,7 +7982,7 @@ return
 dsymbundle
     
 def
-CopyDebug
+CopyExeAndDebugInfo
 (
 self
 file
