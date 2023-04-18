@@ -142,13 +142,6 @@ h
 #
 include
 <
-strings
-.
-h
->
-#
-include
-<
 unistd
 .
 h

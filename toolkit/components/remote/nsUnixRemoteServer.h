@@ -118,7 +118,7 @@ __nsUnixRemoteServer_h__
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "
