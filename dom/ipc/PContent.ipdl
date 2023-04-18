@@ -9158,8 +9158,6 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aWidthSpecified
-bool
 aForPrinting
 bool
 aForWindowDotPrint
@@ -9195,8 +9193,6 @@ uint32_t
 aChromeFlags
 bool
 aCalledFromJS
-bool
-aWidthSpecified
 nsIURI
 aURIToLoad
 nsCString
