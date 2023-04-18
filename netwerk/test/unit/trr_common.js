@@ -2851,7 +2851,7 @@ Services
 .
 prefs
 .
-clearUserPref
+setBoolPref
 (
 "
 network
@@ -2860,6 +2860,7 @@ trr
 .
 strict_native_fallback
 "
+false
 )
 ;
 Services
