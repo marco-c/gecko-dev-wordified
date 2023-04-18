@@ -654,14 +654,6 @@ options
 .
 runAt
 =
-details
-.
-injectImmediately
-?
-"
-document_start
-"
-:
 "
 document_idle
 "
