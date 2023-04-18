@@ -7488,10 +7488,10 @@ topsrcdir
 python
 "
 "
-mozbuild
+mach
 "
 "
-mozbuild
+mach
 "
 "
 virtualenv
