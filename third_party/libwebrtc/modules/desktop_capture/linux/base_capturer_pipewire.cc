@@ -2641,10 +2641,10 @@ video_size_
 desktop_size_
 ;
 }
-rtc
+webrtc
 :
 :
-CritScope
+MutexLock
 lock
 (
 &
@@ -5580,10 +5580,10 @@ nullptr
 return
 ;
 }
-rtc
+webrtc
 :
 :
-CritScope
+MutexLock
 lock
 (
 &
