@@ -1638,6 +1638,9 @@ test_group
 "
 group_metadata
 "
+"
+force_stop
+"
 ]
 )
     
@@ -1660,6 +1663,9 @@ namedtuple
 stop
 "
 [
+"
+force_stop
+"
 ]
 )
 RunnerManagerState
@@ -2585,8 +2591,9 @@ cleanup
 "
 )
                 
-clean
+force_stop
 =
+not
 isinstance
 (
 self
@@ -2596,6 +2603,12 @@ RunnerManagerState
 .
 stop
 )
+or
+self
+.
+state
+.
+force_stop
                 
 self
 .
@@ -2603,8 +2616,7 @@ stop_runner
 (
 force
 =
-not
-clean
+force_stop
 )
                 
 self
@@ -2804,7 +2816,25 @@ RunnerManagerState
 .
 restarting
 (
-0
+self
+.
+state
+.
+test
+                                                 
+self
+.
+state
+.
+test_group
+                                                 
+self
+.
+state
+.
+group_metadata
+                                                 
+False
 )
         
 except
@@ -2858,6 +2888,7 @@ RunnerManagerState
 .
 stop
 (
+False
 )
             
 if
@@ -3029,7 +3060,25 @@ RunnerManagerState
 .
 restarting
 (
-0
+self
+.
+state
+.
+test
+                                                     
+self
+.
+state
+.
+test_group
+                                                     
+self
+.
+state
+.
+group_metadata
+                                                     
+False
 )
         
 else
@@ -3184,6 +3233,7 @@ RunnerManagerState
 .
 stop
 (
+True
 )
         
 else
@@ -3876,6 +3926,8 @@ self
 state
 .
 group_metadata
+                                                 
+False
 )
         
 self
@@ -5047,6 +5099,28 @@ restart_on_unexpected
 )
 )
         
+force_stop
+=
+test
+.
+test_type
+=
+=
+"
+wdspec
+"
+and
+file_result
+.
+status
+=
+=
+"
+EXTERNAL
+-
+TIMEOUT
+"
+        
 self
 .
 recording
@@ -5131,6 +5205,9 @@ after_test_end
 (
 test
 restart_before_next
+force_stop
+=
+force_stop
 )
     
 def
@@ -5210,6 +5287,9 @@ self
 test
 restart
 force_rerun
+=
+False
+force_stop
 =
 False
 )
@@ -5303,6 +5383,7 @@ RunnerManagerState
 .
 stop
 (
+force_stop
 )
             
 if
@@ -5381,6 +5462,7 @@ restarting
 test
 test_group
 group_metadata
+force_stop
 )
         
 else
@@ -5430,6 +5512,13 @@ self
 .
 stop_runner
 (
+force
+=
+self
+.
+state
+.
+force_stop
 )
         
 return
@@ -5985,6 +6074,7 @@ RunnerManagerState
 .
 stop
 (
+False
 )
     
 def

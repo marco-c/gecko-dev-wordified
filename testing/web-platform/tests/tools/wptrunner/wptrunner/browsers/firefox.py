@@ -6493,6 +6493,20 @@ session
 to
 cleanly
 shutdown
+if
+the
+        
+#
+process
+doesn
+'
+t
+have
+to
+be
+force
+stopped
+.
         
 #
 When
@@ -6504,7 +6518,7 @@ executor
 is
 usually
 sending
-a
+an
 end
 session
         
@@ -6559,6 +6573,9 @@ self
 is_alive
 (
 )
+and
+not
+force
 :
             
 end_time
