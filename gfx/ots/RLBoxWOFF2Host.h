@@ -275,8 +275,6 @@ public
 :
 RLBoxWOFF2SandboxData
 (
-uint64_t
-aSize
 mozilla
 :
 :
