@@ -1435,7 +1435,10 @@ errors
 SMILTime
 lMilliseconds
 =
-int64_t
+SVGUtils
+:
+:
+ClampToInt64
 (
 NS_round
 (
