@@ -56930,7 +56930,10 @@ if
 (
 innerWindow
 =
-do_QueryInterface
+nsPIDOMWindowInner
+:
+:
+FromEventTarget
 (
 aTarget
 )
