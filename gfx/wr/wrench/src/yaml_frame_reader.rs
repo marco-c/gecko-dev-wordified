@@ -12763,10 +12763,6 @@ spatial_id
 external_id
 content_rect
 clip_rect
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 external_scroll_offset
 self
 .

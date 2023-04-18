@@ -75,7 +75,6 @@ api
 {
 PipelineId
 ScrollClamping
-ScrollSensitivity
 SpatialTreeItemKey
 }
 ;
@@ -2428,9 +2427,6 @@ content_size
 :
 &
 LayoutSize
-scroll_sensitivity
-:
-ScrollSensitivity
 frame_kind
 :
 ScrollFrameKind
@@ -2489,7 +2485,6 @@ parent_index
 external_id
 frame_rect
 content_size
-scroll_sensitivity
 frame_kind
 external_scroll_offset
 is_root_coord_system
@@ -8033,10 +8028,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -8252,10 +8243,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -8344,10 +8331,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -8563,10 +8546,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -8655,10 +8634,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -8870,10 +8845,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -8962,10 +8933,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -9191,10 +9158,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -9350,10 +9313,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -9582,10 +9541,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :
@@ -9744,10 +9699,6 @@ new
 .
 0
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 ScrollFrameKind
 :
 :

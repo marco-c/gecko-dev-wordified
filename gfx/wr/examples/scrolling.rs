@@ -330,10 +330,6 @@ by
 1000
 )
 scrollbox
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 LayoutVector2D
 :
 :
@@ -701,10 +697,6 @@ to
 200
 300
 )
-ScrollSensitivity
-:
-:
-ScriptAndInputEvents
 LayoutVector2D
 :
 :
