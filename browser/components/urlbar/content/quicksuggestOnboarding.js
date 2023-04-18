@@ -2332,7 +2332,7 @@ choice
 =
 ONBOARDING_CHOICE
 .
-LEARN_MORE_2
+LEARN_MORE_1
 ;
 window
 .

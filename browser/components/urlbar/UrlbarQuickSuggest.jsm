@@ -403,6 +403,11 @@ DISMISS_2
 "
 dismiss_2
 "
+LEARN_MORE_1
+:
+"
+learn_more_1
+"
 LEARN_MORE_2
 :
 "
@@ -1909,6 +1914,11 @@ params
 choice
 )
 {
+case
+ONBOARDING_CHOICE
+.
+LEARN_MORE_1
+:
 case
 ONBOARDING_CHOICE
 .
