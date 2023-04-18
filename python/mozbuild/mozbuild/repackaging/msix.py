@@ -2714,6 +2714,7 @@ but
 it
 '
 s
+not
 necessary
 since
 this
@@ -4252,7 +4253,7 @@ required
 "
 "
 set
-SIGNTOOL
+MAKEAPPX
 or
 WINDOWSSDKDIR
 or
