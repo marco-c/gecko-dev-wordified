@@ -98,13 +98,6 @@ array
 :
 string
 "
-nativeConsoleAPI
-:
-"
-nullable
-:
-boolean
-"
 }
 )
 ;

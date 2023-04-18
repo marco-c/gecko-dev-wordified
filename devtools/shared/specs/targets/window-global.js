@@ -796,15 +796,6 @@ Option
 string
 "
 )
-nativeConsoleAPI
-:
-Option
-(
-0
-"
-boolean
-"
-)
 state
 :
 Option
