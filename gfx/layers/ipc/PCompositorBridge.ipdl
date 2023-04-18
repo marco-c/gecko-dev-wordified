@@ -1398,6 +1398,11 @@ CompositorOptions
 compositorOptions
 )
 ;
+async
+NotifyMemoryPressure
+(
+)
+;
 /
 /
 Make
