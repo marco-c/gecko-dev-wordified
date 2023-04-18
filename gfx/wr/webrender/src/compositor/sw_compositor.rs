@@ -814,6 +814,7 @@ Option
 DeviceIntRect
 DeviceIntRect
 bool
+bool
 )
 >
 {
@@ -1112,6 +1113,13 @@ try_cast
 (
 )
 ?
+transform
+.
+m11
+<
+0
+.
+0
 transform
 .
 m22
@@ -1597,6 +1605,9 @@ DeviceIntRect
 opaque
 :
 bool
+flip_x
+:
+bool
 flip_y
 :
 bool
@@ -1886,6 +1897,9 @@ self
 opaque
 self
 .
+flip_x
+self
+.
 flip_y
 image_rendering_to_gl_filter
 (
@@ -2103,6 +2117,9 @@ dst_rect
 height
 (
 )
+self
+.
+flip_x
 self
 .
 flip_y
@@ -4198,6 +4215,9 @@ DeviceIntRect
 opaque
 :
 bool
+flip_x
+:
+bool
 flip_y
 :
 bool
@@ -4324,6 +4344,7 @@ src_rect
 dst_rect
 clipped_dst
 opaque
+flip_x
 flip_y
 filter
 num_bands
@@ -7831,6 +7852,7 @@ Some
 (
 src_rect
 dst_rect
+flip_x
 flip_y
 )
 )
@@ -8109,6 +8131,7 @@ clip_rect
 surface
 .
 is_opaque
+flip_x
 flip_y
 filter
 tile
