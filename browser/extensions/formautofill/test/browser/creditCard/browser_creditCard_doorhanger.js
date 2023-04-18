@@ -5536,7 +5536,7 @@ onChanged
 waitForStorageChangedEvents
 (
 "
-add
+update
 "
 )
 ;
@@ -5715,7 +5715,7 @@ amex
 await
 clickDoorhangerButton
 (
-SECONDARY_BUTTON
+MAIN_BUTTON
 )
 ;
 }
@@ -5995,7 +5995,7 @@ onChanged
 waitForStorageChangedEvents
 (
 "
-add
+update
 "
 )
 ;
@@ -6172,7 +6172,7 @@ generic
 await
 clickDoorhangerButton
 (
-SECONDARY_BUTTON
+MAIN_BUTTON
 )
 ;
 }
