@@ -22698,6 +22698,16 @@ in
 case
 *
 /
+if
+(
+!
+mInputFrameDataStream
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 uint32_t
 streamID
 =
