@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_CSSLayerRule_h
+mozilla_dom_CSSLayerBlockRule_h
 #
 define
-mozilla_dom_CSSLayerRule_h
+mozilla_dom_CSSLayerBlockRule_h
 #
 include
 "
@@ -147,7 +147,8 @@ mozilla
 dom
 {
 class
-CSSLayerRule
+CSSLayerBlockRule
+final
 :
 public
 css
@@ -157,11 +158,11 @@ GroupRule
 {
 public
 :
-CSSLayerRule
+CSSLayerBlockRule
 (
 RefPtr
 <
-RawServoLayerRule
+RawServoLayerBlockRule
 >
 aRawRule
 StyleSheet
@@ -201,7 +202,7 @@ final
 ;
 #
 endif
-RawServoLayerRule
+RawServoLayerBlockRule
 *
 Raw
 (
@@ -217,7 +218,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoLayerRule
+RawServoLayerBlockRule
 >
 )
 ;
@@ -241,6 +242,14 @@ aCssText
 )
 const
 final
+;
+void
+GetName
+(
+nsACString
+&
+)
+const
 ;
 size_t
 SizeOfIncludingThis
@@ -270,7 +279,7 @@ override
 private
 :
 ~
-CSSLayerRule
+CSSLayerBlockRule
 (
 )
 =
@@ -278,7 +287,7 @@ default
 ;
 RefPtr
 <
-RawServoLayerRule
+RawServoLayerBlockRule
 >
 mRawRule
 ;
@@ -296,4 +305,4 @@ dom
 endif
 /
 /
-mozilla_dom_CSSLayerRule_h
+mozilla_dom_CSSLayerBlockRule_h

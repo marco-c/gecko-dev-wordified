@@ -191,6 +191,13 @@ nsAtom
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 namespace
 mozilla
 {

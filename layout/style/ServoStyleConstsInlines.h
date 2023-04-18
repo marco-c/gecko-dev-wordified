@@ -369,7 +369,14 @@ template
 struct
 StyleStrong
 <
-RawServoLayerRule
+RawServoLayerBlockRule
+>
+;
+template
+struct
+StyleStrong
+<
+RawServoLayerStatementRule
 >
 ;
 template

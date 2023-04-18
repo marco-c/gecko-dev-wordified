@@ -3333,6 +3333,12 @@ FontFeatureValues
 .
 )
 |
+LayerStatement
+(
+.
+.
+)
+|
 FontFace
 (
 .
@@ -3465,7 +3471,7 @@ Supports
 .
 )
 |
-Layer
+LayerBlock
 (
 .
 .
@@ -3688,7 +3694,13 @@ Supports
 .
 )
 |
-Layer
+LayerStatement
+(
+.
+.
+)
+|
+LayerBlock
 (
 .
 .

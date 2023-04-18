@@ -3314,7 +3314,12 @@ CSSKeyframesRule
 webidl
 "
 "
-CSSLayerRule
+CSSLayerBlockRule
+.
+webidl
+"
+"
+CSSLayerStatementRule
 .
 webidl
 "

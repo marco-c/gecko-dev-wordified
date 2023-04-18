@@ -2576,7 +2576,16 @@ now
 CssRule
 :
 :
-Layer
+LayerStatement
+(
+.
+.
+)
+|
+CssRule
+:
+:
+LayerBlock
 (
 .
 .

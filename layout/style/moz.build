@@ -768,7 +768,12 @@ CSSKeyframesRule
 h
 "
 "
-CSSLayerRule
+CSSLayerBlockRule
+.
+h
+"
+"
+CSSLayerStatementRule
 .
 h
 "
@@ -972,7 +977,12 @@ CSSKeyframesRule
 cpp
 "
 "
-CSSLayerRule
+CSSLayerBlockRule
+.
+cpp
+"
+"
+CSSLayerStatementRule
 .
 cpp
 "

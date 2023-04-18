@@ -363,8 +363,13 @@ RawServoScrollTimelineRule
 )
 SERVO_ARC_TYPE
 (
-LayerRule
-RawServoLayerRule
+LayerBlockRule
+RawServoLayerBlockRule
+)
+SERVO_ARC_TYPE
+(
+LayerStatementRule
+RawServoLayerStatementRule
 )
 SERVO_ARC_TYPE
 (
