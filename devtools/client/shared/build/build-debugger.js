@@ -520,11 +520,6 @@ fuzzaldrin
 plus
 "
 "
-lodash
--
-move
-"
-"
 react
 -
 aria
