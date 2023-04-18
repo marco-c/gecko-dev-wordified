@@ -441,7 +441,7 @@ commands
 .
 descriptorFront
 .
-isParentProcessDescriptor
+isBrowserProcessDescriptor
 &
 &
 !

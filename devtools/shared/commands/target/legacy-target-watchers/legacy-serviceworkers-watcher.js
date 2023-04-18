@@ -1982,7 +1982,7 @@ targetCommand
 .
 descriptorFront
 .
-isParentProcessDescriptor
+isBrowserProcessDescriptor
 )
 {
 /

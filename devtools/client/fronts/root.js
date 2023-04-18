@@ -1056,7 +1056,7 @@ if
 (
 processDescriptorFront
 .
-isParent
+isParentProcessDescriptor
 )
 {
 return

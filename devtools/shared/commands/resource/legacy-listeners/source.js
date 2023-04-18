@@ -382,7 +382,7 @@ targetCommand
 .
 descriptorFront
 .
-isParentProcessDescriptor
+isBrowserProcessDescriptor
 ;
 const
 isNonTopLevelFrameTarget

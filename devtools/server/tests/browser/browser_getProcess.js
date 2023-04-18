@@ -327,7 +327,7 @@ p
 !
 p
 .
-isParent
+isParentProcessDescriptor
 )
 [
 0
