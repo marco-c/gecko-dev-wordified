@@ -549,6 +549,7 @@ open_count
 matchBehavior
 :
 searchBehavior
+NULL
 )
 ORDER
 BY

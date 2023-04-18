@@ -15201,6 +15201,7 @@ NULL
 matchBehavior
 :
 searchBehavior
+NULL
 )
 "
 ;

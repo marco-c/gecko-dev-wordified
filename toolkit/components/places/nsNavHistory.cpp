@@ -14745,7 +14745,6 @@ nsPrintfCString
 d
 %
 d
-)
 "
 mozIPlacesAutoComplete
 :
@@ -14757,6 +14756,14 @@ searchBehavior
 get
 (
 )
+)
+.
+Str
+(
+"
+NULL
+)
+"
 )
 ;
 /
