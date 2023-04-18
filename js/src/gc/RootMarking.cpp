@@ -2228,7 +2228,7 @@ MARK_RUNTIME_DATA
 rt
 -
 >
-tracePermanentThingsDuringInit
+tracePermanentAtomsDuringInit
 (
 trc
 )
@@ -2237,6 +2237,11 @@ TraceAtoms
 (
 trc
 access
+)
+;
+TraceWellKnownSymbols
+(
+trc
 )
 ;
 jit

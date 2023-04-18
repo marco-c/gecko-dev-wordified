@@ -5941,7 +5941,7 @@ cx
 )
 ;
 void
-tracePermanentThingsDuringInit
+tracePermanentAtomsDuringInit
 (
 JSTracer
 *
