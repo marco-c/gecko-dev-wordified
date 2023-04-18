@@ -471,7 +471,7 @@ case
 "
 PasswordManager
 :
-onFormSubmit
+ShowDoorhanger
 "
 :
 {

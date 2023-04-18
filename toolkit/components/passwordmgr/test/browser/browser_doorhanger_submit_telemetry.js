@@ -1367,7 +1367,7 @@ formSubmittedPromise
 listenForTestNotification
 (
 "
-FormSubmit
+ShowDoorhanger
 "
 )
 ;
