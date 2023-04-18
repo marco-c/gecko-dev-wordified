@@ -3745,11 +3745,8 @@ T
 extern
 JS_PUBLIC_API
 bool
-TraceWeakEdge
+EdgeNeedsSweep
 (
-JSTracer
-*
-trc
 JS
 :
 :
@@ -3758,7 +3755,7 @@ Heap
 T
 >
 *
-thingp
+edgep
 )
 ;
 }

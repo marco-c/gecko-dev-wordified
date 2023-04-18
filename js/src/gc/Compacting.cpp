@@ -5298,8 +5298,6 @@ next
 {
 callWeakPointerCompartmentCallbacks
 (
-&
-trc
 comp
 )
 ;
@@ -5566,8 +5564,6 @@ pointers
 .
 callWeakPointerZonesCallbacks
 (
-&
-trc
 )
 ;
 }
