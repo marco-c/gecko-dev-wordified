@@ -8058,9 +8058,11 @@ laneSelectSimd128
 FloatRegister
 mask
 FloatRegister
-rhsDest
-FloatRegister
 lhs
+FloatRegister
+rhs
+FloatRegister
+dest
 )
 {
 MacroAssemblerX86Shared
@@ -8068,10 +8070,10 @@ MacroAssemblerX86Shared
 :
 laneSelectSimd128
 (
-lhs
-rhsDest
 mask
-rhsDest
+lhs
+rhs
+dest
 )
 ;
 }

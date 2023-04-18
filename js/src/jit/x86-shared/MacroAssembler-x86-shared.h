@@ -3322,11 +3322,11 @@ void
 laneSelectSimd128
 (
 FloatRegister
+mask
+FloatRegister
 lhs
 FloatRegister
 rhs
-FloatRegister
-mask
 FloatRegister
 output
 )
