@@ -44096,11 +44096,11 @@ nsHttpChannel
 :
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 cos
 )
 {
-ClassOfServiceStruct
+ClassOfService
 previous
 =
 mClassOfService

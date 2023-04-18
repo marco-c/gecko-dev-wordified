@@ -173,8 +173,8 @@ nsDNSPrefetch
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 class
@@ -477,7 +477,7 @@ override
 NS_IMETHOD
 SetClassOfService
 (
-ClassOfServiceStruct
+ClassOfService
 cos
 )
 override
@@ -906,12 +906,10 @@ NS_TRRSERVICECHANNEL_IID
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 #
 endif
 /
