@@ -766,10 +766,15 @@ nsAppShell
 (
 )
 {
+#
+ifdef
+MOZ_ENABLE_DBUS
 StopDBusListening
 (
 )
 ;
+#
+endif
 mozilla
 :
 :
