@@ -438,7 +438,6 @@ aSupportsTailDispatch
 )
 {
 }
-NS_DECL_THREADSAFE_ISUPPORTS
 /
 /
 We
