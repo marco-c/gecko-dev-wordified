@@ -631,9 +631,9 @@ set_permission
 name
 :
 '
-font
+local
 -
-access
+fonts
 '
 }
 '

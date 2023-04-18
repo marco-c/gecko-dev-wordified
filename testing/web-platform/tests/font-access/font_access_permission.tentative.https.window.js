@@ -95,9 +95,9 @@ set_permission
 name
 :
 '
-font
+local
 -
-access
+fonts
 '
 }
 '
@@ -162,9 +162,9 @@ set_permission
 name
 :
 '
-font
+local
 -
-access
+fonts
 '
 }
 '
