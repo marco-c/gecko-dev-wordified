@@ -29667,7 +29667,7 @@ index
 mapContent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aStartContent
 )

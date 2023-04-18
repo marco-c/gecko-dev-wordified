@@ -450,13 +450,14 @@ the
 parent
 node
 .
+const
 int32_t
 indexInParent
 =
 parentNode
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aNode
 )
@@ -597,7 +598,7 @@ like
 nsINode
 :
 :
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 )
 use

@@ -8785,13 +8785,14 @@ return
 nullptr
 ;
 }
+const
 int32_t
 offset
 =
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 content
 )

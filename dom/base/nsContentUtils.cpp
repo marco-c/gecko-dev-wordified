@@ -12864,7 +12864,7 @@ root
 doc
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aNode
 )
@@ -12872,7 +12872,7 @@ aNode
 doc
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 root
 )
@@ -15597,7 +15597,7 @@ AppendElement
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 child
 )
@@ -16368,6 +16368,7 @@ child1
 child2
 )
 {
+const
 int32_t
 child1index
 =
@@ -16385,7 +16386,7 @@ child1
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 child1
 )
@@ -16396,7 +16397,7 @@ child1index
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 child2
 )
@@ -16483,7 +16484,7 @@ child2Index
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 child2
 )
@@ -16555,7 +16556,7 @@ child1
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 child1
 )
@@ -19111,7 +19112,7 @@ KeyAppendInt
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 content
 )

@@ -11798,7 +11798,7 @@ outOffset
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 child
 )

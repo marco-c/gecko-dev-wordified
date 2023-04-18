@@ -508,7 +508,7 @@ return
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aSubject
 )
@@ -516,7 +516,7 @@ aSubject
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aNode
 )

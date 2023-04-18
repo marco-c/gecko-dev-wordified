@@ -1109,7 +1109,7 @@ offsetInParent
 parentContent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aContent
 )

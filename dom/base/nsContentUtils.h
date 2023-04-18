@@ -3182,7 +3182,7 @@ mIndex
 aParent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 aChild
 )

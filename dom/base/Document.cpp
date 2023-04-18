@@ -80410,13 +80410,14 @@ GetParentNode
 )
 )
 {
+const
 int32_t
 index
 =
 parent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 current
 )

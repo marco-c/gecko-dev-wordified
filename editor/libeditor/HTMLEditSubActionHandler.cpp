@@ -50726,6 +50726,7 @@ GetParentNode
 (
 )
 ;
+const
 int32_t
 itemOffset
 =
@@ -50734,7 +50735,7 @@ list
 list
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 &
 aListItem

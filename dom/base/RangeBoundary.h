@@ -1306,7 +1306,7 @@ index
 mParent
 -
 >
-ComputeIndexOf
+ComputeIndexOf_Deprecated
 (
 mRef
 )
