@@ -761,10 +761,8 @@ add
 a
 /
 /
-redundant
-MOZ_CRASH
-(
-)
+unreachable
+marker
 here
 to
 avoid
@@ -781,7 +779,7 @@ return
 /
 warning
 .
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE_MARKER
 (
 )
 ;
