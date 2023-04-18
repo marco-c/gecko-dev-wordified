@@ -376,9 +376,11 @@ etc
 /
 Result
 <
+Span
+<
 const
 char
-*
+>
 ICUError
 >
 GetBcp47Type

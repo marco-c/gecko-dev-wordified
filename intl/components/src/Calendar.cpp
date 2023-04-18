@@ -224,9 +224,11 @@ calendar
 }
 Result
 <
+Span
+<
 const
 char
-*
+>
 ICUError
 >
 Calendar
@@ -301,7 +303,10 @@ InternalError
 ;
 }
 return
+MakeStringSpan
+(
 bcp47Type
+)
 ;
 }
 static
