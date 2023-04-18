@@ -2181,15 +2181,6 @@ JSOp
 :
 :
 StrictEval
-|
-|
-op
-=
-=
-JSOp
-:
-:
-FunCall
 )
 ;
 return

@@ -2928,12 +2928,6 @@ case
 JSOp
 :
 :
-FunCall
-:
-case
-JSOp
-:
-:
 Call
 :
 case
@@ -4989,12 +4983,6 @@ JSOp
 :
 :
 CallIter
-:
-case
-JSOp
-:
-:
-FunCall
 :
 case
 JSOp

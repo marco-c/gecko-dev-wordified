@@ -9080,12 +9080,6 @@ case
 JSOp
 :
 :
-FunCall
-:
-case
-JSOp
-:
-:
 SpreadCall
 :
 case

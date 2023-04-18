@@ -50877,15 +50877,6 @@ JSOp
 :
 :
 SpreadCall
-|
-|
-op
-=
-=
-JSOp
-:
-:
-FunCall
 )
 {
 /

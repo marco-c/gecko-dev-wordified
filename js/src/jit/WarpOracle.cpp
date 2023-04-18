@@ -3189,12 +3189,6 @@ case
 JSOp
 :
 :
-FunCall
-:
-case
-JSOp
-:
-:
 New
 :
 case
