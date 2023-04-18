@@ -110,10 +110,9 @@ test_focus_promo_in_allowed_region
 (
 )
 {
-await
 ASRouter
 .
-_resetMessageState
+resetMessageState
 (
 )
 ;
@@ -233,10 +232,9 @@ test_focus_promo_in_disallowed_region
 (
 )
 {
-await
 ASRouter
 .
-_resetMessageState
+resetMessageState
 (
 )
 ;
