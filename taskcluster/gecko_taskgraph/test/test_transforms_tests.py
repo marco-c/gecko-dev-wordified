@@ -189,42 +189,6 @@ setattr
 test_transforms
         
 "
-bar_filter
-"
-        
-lambda
-t
-:
-t
-[
-"
-test
--
-platform
-"
-]
-.
-startswith
-(
-"
-linux
-"
-)
-        
-raising
-=
-False
-    
-)
-    
-monkeypatch
-.
-setattr
-(
-        
-test_transforms
-        
-"
 TEST_VARIANTS
 "
         
@@ -315,12 +279,36 @@ bar
 "
                 
 "
-filterfn
+when
+"
+:
+{
+                    
+"
+eval
 "
 :
 "
-bar_filter
+task
+[
+'
+test
+-
+platform
+'
+]
+[
+:
+5
+]
+=
+=
+'
+linux
+'
 "
+                
+}
                 
 "
 merge
@@ -626,7 +614,10 @@ expected
     
 #
 test
-filterfn
+'
+when
+'
+filter
     
 input_task
 =
