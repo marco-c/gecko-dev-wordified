@@ -30772,6 +30772,14 @@ mLastSampleTime
 =
 aSampleTime
 ;
+if
+(
+needComposite
+|
+|
+mAnimation
+)
+{
 /
 /
 Bump
@@ -30819,6 +30827,7 @@ NewAPZScrollGeneration
 (
 )
 ;
+}
 }
 if
 (
