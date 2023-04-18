@@ -132,6 +132,13 @@ nsStringStream
 .
 h
 "
+#
+include
+"
+PermissionMessageUtils
+.
+h
+"
 using
 namespace
 mozilla
