@@ -141,7 +141,7 @@ import
 getHasSiblingOfSameName
 getBreakpointsForSource
 getContext
-getThreadForSource
+getThread
 }
 from
 "
@@ -459,12 +459,12 @@ id
 )
 thread
 :
-getThreadForSource
+getThread
 (
 state
 source
 .
-id
+thread
 )
 }
 )

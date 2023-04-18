@@ -490,6 +490,16 @@ makeSourceURL
 (
 filename
 )
+thread
+:
+props
+.
+thread
+|
+|
+"
+FakeThread
+"
 isBlackBoxed
 :
 !
