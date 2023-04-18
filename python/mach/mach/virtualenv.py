@@ -256,6 +256,14 @@ lstrip
 (
 )
 class
+MozVirtualenvMetadataOutOfDateError
+(
+Exception
+)
+:
+    
+pass
+class
 MozVirtualenvMetadata
 :
     
@@ -405,6 +413,33 @@ virtualenv_name
 classmethod
     
 def
+from_runtime
+(
+cls
+)
+:
+        
+return
+cls
+.
+from_path
+(
+os
+.
+path
+.
+join
+(
+sys
+.
+prefix
+METADATA_FILENAME
+)
+)
+    
+classmethod
+    
+def
 from_path
 (
 cls
@@ -459,14 +494,41 @@ path
 )
         
 except
-(
 FileNotFoundError
-KeyError
-)
 :
             
 return
 None
+        
+except
+KeyError
+:
+            
+raise
+MozVirtualenvMetadataOutOfDateError
+(
+                
+f
+'
+The
+virtualenv
+metadata
+at
+"
+{
+path
+}
+"
+is
+out
+-
+of
+-
+date
+.
+'
+            
+)
 class
 VirtualenvHelper
 (
@@ -688,10 +750,6 @@ virtualenv_name
         
 *
         
-populate_local_paths
-=
-True
-        
 log_handle
 =
 sys
@@ -901,12 +959,6 @@ self
 log_handle
 =
 log_handle
-        
-self
-.
-populate_local_paths
-=
-populate_local_paths
         
 self
 .
@@ -1372,19 +1424,24 @@ been
 upgraded
 .
         
+try
+:
+            
 existing_metadata
 =
 MozVirtualenvMetadata
 .
 from_path
 (
+                
 self
 .
 _metadata
 .
 file_path
+            
 )
-        
+            
 if
 existing_metadata
 !
@@ -1393,13 +1450,18 @@ self
 .
 _metadata
 :
+                
+return
+False
+        
+except
+MozVirtualenvMetadataOutOfDateError
+:
             
 return
 False
         
 if
-(
-            
 env_requirements
 .
 pth_requirements
@@ -1407,12 +1469,6 @@ or
 env_requirements
 .
 vendored_requirements
-        
-)
-and
-self
-.
-populate_local_paths
 :
             
 try
@@ -2232,12 +2288,6 @@ requirements
 (
 )
         
-if
-self
-.
-populate_local_paths
-:
-            
 site_packages_dir
 =
 self
@@ -2245,7 +2295,7 @@ self
 _site_packages_dir
 (
 )
-            
+        
 with
 open
 (
@@ -2265,24 +2315,24 @@ a
 as
 f
 :
-                
+            
 for
 pth_requirement
 in
 (
-                    
+                
 env_requirements
 .
 pth_requirements
-                    
+                
 +
 env_requirements
 .
 vendored_requirements
-                
+            
 )
 :
-                    
+                
 path
 =
 os
@@ -2298,7 +2348,7 @@ pth_requirement
 .
 path
 )
-                    
+                
 #
 This
 path
@@ -2312,7 +2362,7 @@ file
 .
 Using
 a
-                    
+                
 #
 relative
 path
@@ -2322,7 +2372,7 @@ srcdir
 /
 objdir
 combination
-                    
+                
 #
 to
 be
@@ -2336,7 +2386,7 @@ the
 paths
 relative
 to
-                    
+                
 #
 each
 other
@@ -2345,7 +2395,7 @@ the
 same
 )
 .
-                    
+                
 f
 .
 write
