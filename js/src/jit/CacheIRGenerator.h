@@ -2279,6 +2279,13 @@ JSFunction
 callee
 )
 ;
+ObjOperandId
+emitFunCallGuard
+(
+Int32OperandId
+argcId
+)
+;
 AttachDecision
 tryAttachFunCall
 (
