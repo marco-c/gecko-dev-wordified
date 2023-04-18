@@ -2525,6 +2525,7 @@ SetSelected
 bool
 aSelect
 )
+override
 ;
 /
 *
@@ -2539,10 +2540,12 @@ container
 .
 *
 /
+virtual
 void
 TakeSelection
 (
 )
+override
 ;
 /
 *
@@ -3543,12 +3546,13 @@ SelectedItems
 (
 nsTArray
 <
-LocalAccessible
+Accessible
 *
 >
 *
 aItems
 )
+override
 ;
 /
 *
@@ -3568,6 +3572,7 @@ uint32_t
 SelectedItemCount
 (
 )
+override
 ;
 /
 *
@@ -3584,13 +3589,14 @@ index
 *
 /
 virtual
-LocalAccessible
+Accessible
 *
 GetSelectedItem
 (
 uint32_t
 aIndex
 )
+override
 ;
 /
 *
@@ -3615,6 +3621,7 @@ IsItemSelected
 uint32_t
 aIndex
 )
+override
 ;
 /
 *
@@ -3643,6 +3650,7 @@ AddItemToSelection
 uint32_t
 aIndex
 )
+override
 ;
 /
 *
@@ -3671,6 +3679,7 @@ RemoveItemFromSelection
 uint32_t
 aIndex
 )
+override
 ;
 /
 *
@@ -3692,6 +3701,7 @@ bool
 SelectAll
 (
 )
+override
 ;
 /
 *
@@ -3713,6 +3723,7 @@ bool
 UnselectAll
 (
 )
+override
 ;
 /
 /

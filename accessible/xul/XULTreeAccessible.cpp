@@ -1831,7 +1831,7 @@ SelectedItems
 (
 nsTArray
 <
-LocalAccessible
+Accessible
 *
 >
 *
@@ -2287,7 +2287,7 @@ return
 true
 ;
 }
-LocalAccessible
+Accessible
 *
 XULTreeAccessible
 :

@@ -1547,7 +1547,7 @@ SelectedItems
 (
 nsTArray
 <
-LocalAccessible
+Accessible
 *
 >
 *
@@ -1586,7 +1586,7 @@ aItems
 ;
 }
 }
-LocalAccessible
+Accessible
 *
 XULTabsAccessible
 :

@@ -574,7 +574,7 @@ SelectedItems
 (
 nsTArray
 <
-LocalAccessible
+Accessible
 *
 >
 *
@@ -756,7 +756,7 @@ item
 }
 }
 }
-LocalAccessible
+Accessible
 *
 XULSelectControlAccessible
 :
