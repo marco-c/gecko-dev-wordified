@@ -3612,6 +3612,10 @@ mFontlistInitCount
 +
 +
 ;
+InitializeCodepointsWithNoFonts
+(
+)
+;
 /
 /
 Try
