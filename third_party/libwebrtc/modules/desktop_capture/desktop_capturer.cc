@@ -163,7 +163,7 @@ WEBRTC_USE_PIPEWIRE
 |
 defined
 (
-USE_X11
+WEBRTC_USE_X11
 )
 #
 include
@@ -533,7 +533,7 @@ WEBRTC_USE_PIPEWIRE
 |
 defined
 (
-USE_X11
+WEBRTC_USE_X11
 )
 bool
 DesktopCapturer
@@ -607,7 +607,7 @@ WEBRTC_USE_PIPEWIRE
 |
 defined
 (
-USE_X11
+WEBRTC_USE_X11
 )
 }
 /
