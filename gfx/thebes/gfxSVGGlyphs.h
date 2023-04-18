@@ -790,6 +790,17 @@ aMallocSizeOf
 )
 const
 ;
+gfxFontEntry
+*
+FontEntry
+(
+)
+const
+{
+return
+mFontEntry
+;
+}
 private
 :
 Element
