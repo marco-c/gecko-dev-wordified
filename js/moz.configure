@@ -8787,6 +8787,8 @@ version
 2
 ]
 if
+str
+(
 x
 .
 version
@@ -8794,6 +8796,7 @@ version
 -
 2
 ]
+)
 in
 "
 ab
