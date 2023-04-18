@@ -949,17 +949,6 @@ CaptureEngine
 MaxEngine
 ]
 ;
-/
-/
-Number
-of
-CamerasParents
-for
-which
-mWebRTCAlive
-is
-true
-.
 static
 int32_t
 sNumOfOpenCamerasParentEngines
