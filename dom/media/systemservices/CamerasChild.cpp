@@ -1124,9 +1124,7 @@ aRequestingFunc
 nsIRunnable
 *
 aRunnable
-const
 T
-&
 aFailureValue
 const
 T
