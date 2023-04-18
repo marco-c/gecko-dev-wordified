@@ -3022,8 +3022,6 @@ F64x2RelaxedMin
 F64x2RelaxedMax
 =
 0x110
-/
-/
 I16x8RelaxedQ15MulrS
 =
 0x111

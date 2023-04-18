@@ -7975,6 +7975,15 @@ SimdOp
 F64x2RelaxedMax
 )
 :
+case
+uint32_t
+(
+SimdOp
+:
+:
+I16x8RelaxedQ15MulrS
+)
+:
 {
 if
 (
