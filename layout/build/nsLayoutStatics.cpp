@@ -1036,13 +1036,6 @@ nsComplexBreaker
 .
 h
 "
-#
-include
-"
-nsRLBoxExpatDriver
-.
-h
-"
 using
 namespace
 mozilla
@@ -1803,13 +1796,6 @@ Initialize
 )
 ;
 ComplexBreaker
-:
-:
-Initialize
-(
-)
-;
-RLBoxExpatSandboxPool
 :
 :
 Initialize
