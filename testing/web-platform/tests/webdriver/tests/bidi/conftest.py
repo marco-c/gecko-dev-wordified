@@ -42,6 +42,12 @@ tab
 "
 )
     
+initial_window
+=
+current_session
+.
+window_handle
+    
 current_session
 .
 window_handle
@@ -81,6 +87,31 @@ contexts
 [
 0
 ]
+    
+#
+Restore
+the
+focus
+and
+current
+window
+for
+the
+WebDriver
+session
+before
+    
+#
+closing
+the
+tab
+.
+    
+current_session
+.
+window_handle
+=
+initial_window
     
 await
 bidi_session
