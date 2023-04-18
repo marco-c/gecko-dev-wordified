@@ -1309,7 +1309,7 @@ processing
 is
 bypassed
 .
-UniquePtr
+Maybe
 <
 AudioPacketizer
 <
@@ -1346,7 +1346,7 @@ processing
 is
 bypassed
 .
-UniquePtr
+Maybe
 <
 AudioPacketizer
 <
