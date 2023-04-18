@@ -32823,15 +32823,13 @@ const
 auto
 &
 lsArchiveTmpFile
+QM_TO_RESULT_TRANSFORM
+(
 GetLocalStorageArchiveTmpFile
 (
 *
 mStoragePath
 )
-.
-mapErr
-(
-ToQMResult
 )
 )
 ;
