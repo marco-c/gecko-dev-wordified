@@ -592,6 +592,13 @@ BaseProfiler
 h
 "
 #
+include
+"
+ProfilerControl
+.
+h
+"
+#
 if
 defined
 (

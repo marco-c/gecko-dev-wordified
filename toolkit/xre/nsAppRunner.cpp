@@ -21901,6 +21901,13 @@ GeckoProfiler
 .
 h
 "
+#
+include
+"
+ProfilerControl
+.
+h
+"
 /
 /
 Encapsulates

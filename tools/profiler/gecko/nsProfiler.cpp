@@ -146,6 +146,13 @@ h
 #
 include
 "
+ProfilerControl
+.
+h
+"
+#
+include
+"
 ProfilerParent
 .
 h

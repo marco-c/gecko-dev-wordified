@@ -127,13 +127,6 @@ MOZ_GECKO_PROFILER
 #
 include
 "
-GeckoProfiler
-.
-h
-"
-#
-include
-"
 nsProfiler
 .
 h
@@ -144,6 +137,13 @@ endif
 include
 "
 GeckoProfiler
+.
+h
+"
+#
+include
+"
+ProfilerControl
 .
 h
 "

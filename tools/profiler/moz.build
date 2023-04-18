@@ -1092,6 +1092,13 @@ h
 "
 public
 /
+ProfilerControl
+.
+h
+"
+"
+public
+/
 ProfilerParent
 .
 h

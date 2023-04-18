@@ -531,6 +531,13 @@ h
 #
 include
 "
+ProfilerControl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EditorSpellCheck

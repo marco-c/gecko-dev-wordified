@@ -448,6 +448,13 @@ h
 #
 include
 "
+ProfilerControl
+.
+h
+"
+#
+include
+"
 ProfilerIOInterposeObserver
 .
 h
