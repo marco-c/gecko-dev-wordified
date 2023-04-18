@@ -445,7 +445,7 @@ isAsmJS_
 ;
 const
 bool
-importedOrExported
+isPublic_
 ;
 uint32_t
 length_
@@ -589,7 +589,7 @@ isAsmJS_
 ;
 }
 bool
-isImportedOrExported
+isPublic
 (
 )
 const
@@ -604,7 +604,7 @@ isFunc
 )
 ;
 return
-importedOrExported
+isPublic_
 ;
 }
 bool

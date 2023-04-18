@@ -328,11 +328,11 @@ desc
 .
 isAsmJS
 )
-importedOrExported
+isPublic_
 (
 desc
 .
-importedOrExported
+isImportedOrExported
 )
 length_
 (
@@ -416,11 +416,11 @@ desc
 .
 isAsmJS
 )
-importedOrExported
+isPublic_
 (
 desc
 .
-importedOrExported
+isImportedOrExported
 )
 length_
 (
@@ -2155,7 +2155,7 @@ objectUnbarriered
 }
 if
 (
-isImportedOrExported
+isPublic
 (
 )
 &
@@ -2163,7 +2163,7 @@ isImportedOrExported
 !
 srcTable
 .
-isImportedOrExported
+isPublic
 (
 )
 )

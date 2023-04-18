@@ -21278,7 +21278,7 @@ isAsmJS
 false
 /
 *
-importedOrExported
+isImportedOrExported
 =
 *
 /
