@@ -2255,8 +2255,6 @@ Validator
 schema
 )
 ;
-continue
-;
 }
 if
 (

@@ -2083,9 +2083,7 @@ value
 {
 testInt
 :
-"
-xyz456
-"
+456
 enabled
 :
 true
