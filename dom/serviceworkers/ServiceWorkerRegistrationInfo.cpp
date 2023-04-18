@@ -2721,6 +2721,10 @@ update
 if
 (
 mActiveWorker
+&
+&
+!
+mUnregistered
 )
 {
 uint32_t
