@@ -24060,12 +24060,6 @@ gfxTextRun
 >
 mTextRun
 ;
-RefPtr
-<
-nsPresContext
->
-mPresContext
-;
 /
 /
 pointer
@@ -24989,12 +24983,6 @@ nullptr
 }
 CanvasBidiProcessor
 processor
-;
-processor
-.
-mPresContext
-=
-presContext
 ;
 /
 /
