@@ -296,6 +296,9 @@ findcasesensitivitychange
 "
 findbarclose
 "
+"
+finddiacriticmatchingchange
+"
 ]
 ;
 class
@@ -1140,6 +1143,13 @@ aEvent
 detail
 .
 findPrevious
+matchDiacritics
+:
+aEvent
+.
+detail
+.
+matchDiacritics
 }
 ;
 }
