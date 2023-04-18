@@ -26200,12 +26200,6 @@ new
 (
 texture_id
 texture_target
-Swizzle
-:
-:
-default
-(
-)
 image
 .
 uv
@@ -26275,12 +26269,6 @@ new
 (
 0
 texture_target
-Swizzle
-:
-:
-default
-(
-)
 image
 .
 uv
