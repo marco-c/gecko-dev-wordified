@@ -1454,9 +1454,6 @@ devices
 IsEmpty
 (
 )
-|
-|
-manualInvalidation
 )
 {
 /
