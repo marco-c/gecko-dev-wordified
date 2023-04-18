@@ -2204,7 +2204,6 @@ mReentrantMonitor
 -
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 {
 "
 nsHttpConnectionMgr
@@ -2242,6 +2241,10 @@ nsCOMPtr
 nsIEventTarget
 >
 mSocketThreadTarget
+GUARDED_BY
+(
+mReentrantMonitor
+)
 ;
 Atomic
 <
