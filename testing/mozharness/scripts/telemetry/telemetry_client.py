@@ -1288,6 +1288,36 @@ vv
         
 ]
         
+#
+Symbols
+for
+crash
+reports
+        
+if
+self
+.
+symbols_path
+:
+            
+cmd
+.
+extend
+(
+[
+"
+-
+-
+symbols
+-
+path
+"
+self
+.
+symbols_path
+]
+)
+        
 cmd
 .
 extend
