@@ -1128,11 +1128,9 @@ this
 .
 obj
 .
-getOwnPropertyNames
+getOwnPropertiesLength
 (
 )
-.
-length
 ;
 }
 catch
