@@ -7488,6 +7488,9 @@ const
 nsAString
 &
 aThirdPartyOrigin
+const
+bool
+aRequireUserInteraction
 ErrorResult
 &
 aRv
@@ -27147,6 +27150,8 @@ AutomaticStorageAccessPermissionGrantPromise
 >
 AutomaticStorageAccessPermissionCanBeGranted
 (
+bool
+hasUserActivation
 )
 ;
 static
