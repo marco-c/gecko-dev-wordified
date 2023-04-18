@@ -284,7 +284,7 @@ ipc
 :
 :
 IPCResult
-AnswerStartPlugin
+RecvStartPlugin
 (
 const
 nsString
