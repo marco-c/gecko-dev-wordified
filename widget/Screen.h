@@ -268,16 +268,6 @@ return
 mScreenOrientation
 ;
 }
-float
-GetDPI
-(
-)
-const
-{
-return
-mDPI
-;
-}
 private
 :
 virtual
