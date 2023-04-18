@@ -4465,6 +4465,7 @@ const
 device
 :
 newDevice
+encryptedSendTabKeys
 }
 =
 await
@@ -4484,6 +4485,14 @@ registeredCommandsKeys
 .
 length
 1
+)
+;
+Assert
+.
+notEqual
+(
+encryptedSendTabKeys
+null
 )
 ;
 await

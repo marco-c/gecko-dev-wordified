@@ -6026,6 +6026,16 @@ credentials
 device
 )
 ;
+Assert
+.
+equal
+(
+null
+credentials
+.
+encryptedSendTabKeys
+)
+;
 /
 /
 "

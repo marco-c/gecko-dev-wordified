@@ -2435,6 +2435,9 @@ device
 "
 profileCache
 "
+"
+encryptedSendTabKeys
+"
 ]
 )
 ;
