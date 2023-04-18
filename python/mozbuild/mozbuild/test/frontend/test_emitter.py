@@ -101,8 +101,6 @@ FinalTargetPreprocessedFiles
     
 GeneratedFile
     
-GeneratedSources
-    
 HostProgram
     
 HostRustLibrary
@@ -10745,6 +10743,7 @@ objs
 generated_sources
 =
 [
+            
 o
 for
 o
@@ -10754,8 +10753,13 @@ if
 isinstance
 (
 o
-GeneratedSources
+Sources
 )
+and
+o
+.
+generated_files
+        
 ]
         
 self
@@ -10918,7 +10922,8 @@ assertEqual
                 
 sources
 .
-files
+generated_files
+                
 [
 mozpath
 .

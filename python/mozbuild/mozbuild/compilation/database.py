@@ -92,8 +92,6 @@ ComputedFlags
     
 Sources
     
-GeneratedSources
-    
 DirectoryTraversal
     
 PerSourceFlag
@@ -366,10 +364,7 @@ elif
 isinstance
 (
 obj
-(
 Sources
-GeneratedSources
-)
 )
 :
             
