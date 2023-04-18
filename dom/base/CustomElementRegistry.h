@@ -881,7 +881,7 @@ definition
 struct
 CustomElementDefinition
 {
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
+NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 CustomElementDefinition
 )
