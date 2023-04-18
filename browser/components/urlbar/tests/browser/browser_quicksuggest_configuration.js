@@ -75,7 +75,7 @@ init
 )
 {
 await
-UrlbarTestUtils
+QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (

@@ -375,7 +375,7 @@ test
 data
 .
 await
-UrlbarTestUtils
+QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (

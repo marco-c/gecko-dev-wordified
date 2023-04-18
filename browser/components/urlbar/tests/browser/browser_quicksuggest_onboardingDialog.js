@@ -124,39 +124,6 @@ subdialog
 xhtml
 "
 ;
-const
-LEARN_MORE_URL
-=
-Services
-.
-urlFormatter
-.
-formatURLPref
-(
-"
-app
-.
-support
-.
-baseURL
-"
-)
-+
-"
-firefox
--
-suggest
-"
-;
-const
-TELEMETRY_EVENT_CATEGORY
-=
-"
-contextservices
-.
-quicksuggest
-"
-;
 /
 /
 When
@@ -296,6 +263,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -311,6 +280,8 @@ enabled
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -326,6 +297,8 @@ enabled
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -485,6 +458,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -687,6 +662,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -773,6 +750,8 @@ BrowserTestUtils
 waitForNewTab
 (
 gBrowser
+QuickSuggestTestUtils
+.
 LEARN_MORE_URL
 )
 .
@@ -867,6 +846,8 @@ gBrowser
 currentURI
 .
 spec
+QuickSuggestTestUtils
+.
 LEARN_MORE_URL
 "
 Current
@@ -897,6 +878,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -1077,6 +1060,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -1215,6 +1200,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -1594,6 +1581,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -1724,6 +1713,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -1821,6 +1812,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -1836,6 +1829,8 @@ enabled
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -1851,6 +1846,8 @@ enabled
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -2034,6 +2031,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -2119,6 +2118,8 @@ BrowserTestUtils
 waitForNewTab
 (
 gBrowser
+QuickSuggestTestUtils
+.
 LEARN_MORE_URL
 )
 .
@@ -2195,6 +2196,8 @@ gBrowser
 currentURI
 .
 spec
+QuickSuggestTestUtils
+.
 LEARN_MORE_URL
 "
 Current
@@ -2225,6 +2228,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -2375,6 +2380,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -2476,6 +2483,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -2491,6 +2500,8 @@ enabled
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -2506,6 +2517,8 @@ enabled
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 method
 :
@@ -2849,6 +2862,8 @@ telemetryEvents
 {
 category
 :
+QuickSuggestTestUtils
+.
 TELEMETRY_EVENT_CATEGORY
 }
 )
