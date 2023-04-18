@@ -1405,7 +1405,7 @@ b
 1
 }
 ;
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 DOM_IndexedDB_Key
 TestWithParam_CString_ArrayBuffer_Pair
@@ -1523,7 +1523,7 @@ b
 1
 }
 ;
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 DOM_IndexedDB_Key
 TestWithParam_CString_String_Pair
@@ -1619,7 +1619,7 @@ ToString
 )
 ;
 }
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 DOM_IndexedDB_Key
 TestWithParam_LiteralString
@@ -2296,7 +2296,7 @@ element2
 foo
 "
 ;
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 DOM_IndexedDB_Key
 TestWithParam_ArrayBufferArray
@@ -2643,7 +2643,7 @@ element
 )
 ;
 }
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 DOM_IndexedDB_Key
 TestWithParam_StringArray

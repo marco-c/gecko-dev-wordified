@@ -30603,7 +30603,7 @@ false
 )
 ;
 }
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 RoundTripSerialize
 NewSdpTest

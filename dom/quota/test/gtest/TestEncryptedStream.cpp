@@ -4435,7 +4435,7 @@ AsConst
 )
 ;
 }
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 DOM_Quota_EncryptedStream_Parametrized
 ParametrizedCryptTest
@@ -4547,7 +4547,7 @@ AfterEachChunk
 TestParamToString
 )
 ;
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 DOM_IndexedDB_EncryptedStream_ParametrizedSeek
 ParametrizedSeekCryptTest

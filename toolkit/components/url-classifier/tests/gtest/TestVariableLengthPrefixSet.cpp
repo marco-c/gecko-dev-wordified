@@ -3061,7 +3061,7 @@ of
 "
 browser_safebrowsing_prefixset_max_array_size
 "
-INSTANTIATE_TEST_SUITE_P
+INSTANTIATE_TEST_CASE_P
 (
 UrlClassifierPrefixSetTest
 UrlClassifierPrefixSetTest

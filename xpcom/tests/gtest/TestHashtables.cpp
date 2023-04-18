@@ -3321,7 +3321,7 @@ Test
 {
 }
 ;
-TYPED_TEST_SUITE_P
+TYPED_TEST_CASE_P
 (
 BaseHashtableTest
 )
@@ -5705,7 +5705,7 @@ MarkImmutable
 )
 ;
 }
-REGISTER_TYPED_TEST_SUITE_P
+REGISTER_TYPED_TEST_CASE_P
 (
 BaseHashtableTest
 Contains
@@ -5764,7 +5764,7 @@ NonDefaultConstructible_NonDefaultConstructible
 NonDefaultConstructible_MovingNonDefaultConstructible
 >
 ;
-INSTANTIATE_TYPED_TEST_SUITE_P
+INSTANTIATE_TYPED_TEST_CASE_P
 (
 Hashtables
 BaseHashtableTest
