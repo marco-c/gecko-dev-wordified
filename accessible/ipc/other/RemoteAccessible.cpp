@@ -1665,7 +1665,7 @@ forget
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 RemoteAccessible
 :
 :
@@ -1679,7 +1679,7 @@ uint32_t
 aCoordType
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 Unused
@@ -1702,7 +1702,7 @@ return
 rect
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 RemoteAccessible
 :
 :
@@ -1714,7 +1714,7 @@ uint32_t
 aCoordType
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 Unused
@@ -2212,7 +2212,7 @@ return
 valid
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 RemoteAccessible
 :
 :
@@ -2222,7 +2222,7 @@ uint32_t
 aCoordType
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 retVal
 ;
 Unused
@@ -2243,7 +2243,7 @@ return
 retVal
 ;
 }
-nsIntSize
+LayoutDeviceIntSize
 RemoteAccessible
 :
 :
@@ -2251,7 +2251,7 @@ ImageSize
 (
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 retVal
 ;
 Unused
@@ -5349,7 +5349,7 @@ within
 its
 bounds
 .
-nsIntRect
+LayoutDeviceIntRect
 rect
 =
 target
@@ -5466,7 +5466,7 @@ of
 the
 iframe
 .
-nsIntRect
+LayoutDeviceIntRect
 docRect
 =
 target
@@ -5626,7 +5626,7 @@ return
 target
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 RemoteAccessible
 :
 :
@@ -5657,7 +5657,7 @@ Bounds
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 Unused

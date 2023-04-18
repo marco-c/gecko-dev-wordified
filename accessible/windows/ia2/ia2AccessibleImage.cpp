@@ -383,7 +383,7 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_PARENT_RELATIVE
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 pos
 =
 imageAcc
@@ -464,7 +464,7 @@ imageAcc
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsIntSize
+LayoutDeviceIntSize
 size
 =
 imageAcc

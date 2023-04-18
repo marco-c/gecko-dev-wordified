@@ -9863,7 +9863,7 @@ kVarChildIdSelf
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 rect
 =
 Acc
@@ -10623,7 +10623,7 @@ the
 OOP
 document
 .
-nsIntRect
+LayoutDeviceIntRect
 docRect
 =
 mAcc

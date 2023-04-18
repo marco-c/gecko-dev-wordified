@@ -1932,14 +1932,14 @@ if
 listAcc
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 optionRect
 =
 Bounds
 (
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 listRect
 =
 listAcc

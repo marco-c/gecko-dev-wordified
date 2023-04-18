@@ -693,7 +693,10 @@ MOZ_ASSERT
 node
 )
 ;
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 winCoords
 =
 nsCoreUtils
@@ -913,7 +916,10 @@ IsDefunct
 return
 ;
 }
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 screenRect
 =
 accWrap
@@ -941,7 +947,10 @@ aCoordType
 ATK_XY_WINDOW
 )
 {
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 winCoords
 =
 nsCoreUtils
