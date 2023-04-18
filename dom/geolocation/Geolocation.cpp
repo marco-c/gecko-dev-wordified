@@ -1470,7 +1470,7 @@ lastPosition
 position
 )
 {
-DOMTimeStamp
+EpochTimeStamp
 cachedPositionTime_ms
 ;
 lastPosition
@@ -1546,7 +1546,7 @@ isHighAccuracy
 bool
 isCachedWithinRequestedTime
 =
-DOMTimeStamp
+EpochTimeStamp
 (
 PR_Now
 (
@@ -1951,7 +1951,7 @@ mMaximumAge
 0
 )
 {
-DOMTimeStamp
+EpochTimeStamp
 positionTime_ms
 ;
 aPosition
@@ -1976,7 +1976,7 @@ const
 bool
 isTooOld
 =
-DOMTimeStamp
+EpochTimeStamp
 (
 PR_Now
 (

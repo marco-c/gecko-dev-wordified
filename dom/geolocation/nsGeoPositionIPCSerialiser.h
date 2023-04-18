@@ -620,7 +620,7 @@ isNull
 )
 return
 ;
-DOMTimeStamp
+EpochTimeStamp
 timeStamp
 ;
 aParam
@@ -733,7 +733,7 @@ return
 true
 ;
 }
-DOMTimeStamp
+EpochTimeStamp
 timeStamp
 ;
 RefPtr
