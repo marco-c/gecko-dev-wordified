@@ -74,7 +74,7 @@ moves
 import
 configparser
 from
-mozboot
+mach
 .
 util
 import

@@ -74,7 +74,7 @@ Thread
 import
 sentry_sdk
 from
-mozboot
+mach
 .
 util
 import

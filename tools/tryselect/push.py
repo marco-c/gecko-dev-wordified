@@ -64,7 +64,7 @@ traceback
 import
 six
 from
-mozboot
+mach
 .
 util
 import
@@ -291,7 +291,7 @@ join
     
 get_state_dir
 (
-srcdir
+specific_to_topsrcdir
 =
 True
 )
@@ -755,9 +755,10 @@ path
 .
 join
 (
+        
 get_state_dir
 (
-srcdir
+specific_to_topsrcdir
 =
 True
 )
@@ -767,6 +768,7 @@ cache
 "
 taskgraph
 "
+    
 )
     
 graph_cache

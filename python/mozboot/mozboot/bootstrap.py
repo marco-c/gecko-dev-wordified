@@ -90,6 +90,7 @@ mach
 .
 util
 import
+get_state_dir
 UserError
 from
 mach
@@ -183,12 +184,6 @@ mozconfig
 import
 find_mozconfig
 MozconfigBuilder
-from
-mozboot
-.
-util
-import
-get_state_dir
 #
 Use
 distro

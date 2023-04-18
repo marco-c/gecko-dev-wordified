@@ -132,7 +132,7 @@ moves
 import
 shlex_quote
 from
-mozboot
+mach
 .
 util
 import

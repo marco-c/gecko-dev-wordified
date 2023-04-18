@@ -1383,18 +1383,18 @@ import
 PerftestArgumentParser
     
 from
-mozboot
-.
-util
-import
-get_state_dir
-    
-from
 mach
 .
 logging
 import
 LoggingManager
+    
+from
+mach
+.
+util
+import
+get_state_dir
     
 mozconfig
 =

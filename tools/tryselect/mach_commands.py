@@ -75,7 +75,7 @@ SettingsProvider
 SubCommand
 )
 from
-mozboot
+mach
 .
 util
 import
