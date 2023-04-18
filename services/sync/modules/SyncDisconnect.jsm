@@ -247,6 +247,8 @@ FxAccountsCommon
 .
 js
 "
+{
+}
 )
 ;
 }
@@ -347,6 +349,8 @@ main
 .
 js
 "
+{
+}
 )
 .
 Weave

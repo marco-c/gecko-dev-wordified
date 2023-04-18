@@ -99,6 +99,8 @@ SessionFile
 .
 jsm
 "
+{
+}
 )
 .
 SessionFile

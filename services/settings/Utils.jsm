@@ -310,6 +310,8 @@ Console
 .
 jsm
 "
+{
+}
 )
 ;
 return

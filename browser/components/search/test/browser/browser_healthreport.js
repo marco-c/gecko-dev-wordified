@@ -34,9 +34,7 @@ strict
 "
 ;
 var
-{
 Preferences
-}
 =
 ChromeUtils
 .
@@ -55,7 +53,11 @@ Preferences
 .
 jsm
 "
+{
+}
 )
+.
+Preferences
 ;
 function
 test

@@ -325,6 +325,8 @@ TestRunner
 .
 jsm
 "
+{
+}
 )
 .
 TestRunner

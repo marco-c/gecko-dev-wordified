@@ -93,6 +93,8 @@ AddonTestUtils
 .
 jsm
 "
+{
+}
 )
 ;
 const

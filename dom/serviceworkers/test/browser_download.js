@@ -29,9 +29,7 @@ zero
 *
 /
 var
-{
 Downloads
-}
 =
 ChromeUtils
 .
@@ -50,7 +48,11 @@ Downloads
 .
 jsm
 "
+{
+}
 )
+.
+Downloads
 ;
 var
 gTestRoot

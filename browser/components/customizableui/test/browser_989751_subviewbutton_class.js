@@ -185,6 +185,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 .
 require

@@ -80,6 +80,8 @@ settings
 .
 js
 "
+{
+}
 )
 ;
 const

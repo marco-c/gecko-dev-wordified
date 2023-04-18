@@ -678,9 +678,7 @@ current
 session
 .
 let
-{
 SessionStore
-}
 =
 ChromeUtils
 .
@@ -700,7 +698,11 @@ SessionStore
 .
 jsm
 "
+{
+}
 )
+.
+SessionStore
 ;
 /
 /

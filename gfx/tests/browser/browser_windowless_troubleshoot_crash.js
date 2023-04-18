@@ -263,9 +263,7 @@ crashed
 )
 ;
 var
-{
 Troubleshoot
-}
 =
 ChromeUtils
 .
@@ -284,7 +282,11 @@ Troubleshoot
 .
 jsm
 "
+{
+}
 )
+.
+Troubleshoot
 ;
 var
 data

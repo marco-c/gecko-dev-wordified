@@ -482,6 +482,8 @@ FxAccounts
 .
 jsm
 "
+{
+}
 )
 ;
 this

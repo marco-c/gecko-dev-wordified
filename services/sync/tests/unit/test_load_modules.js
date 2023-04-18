@@ -248,6 +248,8 @@ ChromeUtils
 import
 (
 res
+{
+}
 )
 ;
 }
@@ -295,6 +297,8 @@ ChromeUtils
 import
 (
 res
+{
+}
 )
 ;
 }

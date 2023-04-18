@@ -688,6 +688,8 @@ ChromeUtils
 import
 (
 module
+{
+}
 )
 [
 name

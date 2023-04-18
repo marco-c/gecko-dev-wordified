@@ -55,6 +55,8 @@ UIState
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -79,6 +81,8 @@ FxAccountsPairing
 .
 jsm
 "
+{
+}
 )
 ;
 /

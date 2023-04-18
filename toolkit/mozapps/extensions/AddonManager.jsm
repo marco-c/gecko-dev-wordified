@@ -4034,6 +4034,8 @@ ChromeUtils
 import
 (
 url
+{
+}
 )
 ;
 logger

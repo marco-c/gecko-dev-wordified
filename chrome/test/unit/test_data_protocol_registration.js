@@ -129,9 +129,7 @@ Services
 uuid
 ;
 let
-{
 newAppInfo
-}
 =
 ChromeUtils
 .
@@ -150,7 +148,11 @@ AppInfo
 .
 jsm
 "
+{
+}
 )
+.
+newAppInfo
 ;
 let
 XULAppInfo

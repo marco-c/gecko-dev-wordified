@@ -411,6 +411,8 @@ SessionFile
 .
 jsm
 "
+{
+}
 )
 .
 SessionFile

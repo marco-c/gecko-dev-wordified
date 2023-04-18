@@ -55,6 +55,8 @@ FxAccountsPairing
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -79,6 +81,8 @@ EventEmitter
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -103,6 +107,8 @@ PromiseUtils
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -127,6 +133,8 @@ utils
 .
 js
 "
+{
+}
 )
 ;
 XPCOMUtils

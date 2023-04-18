@@ -57,6 +57,8 @@ Timer
 .
 jsm
 "
+{
+}
 )
 ;
 var

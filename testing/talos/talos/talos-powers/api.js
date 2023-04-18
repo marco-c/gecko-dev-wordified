@@ -1682,9 +1682,7 @@ SafeBrowsing
 list
 .
 let
-{
 SafeBrowsing
-}
 =
 ChromeUtils
 .
@@ -1703,7 +1701,11 @@ SafeBrowsing
 .
 jsm
 "
+{
+}
 )
+.
+SafeBrowsing
 ;
 /
 /

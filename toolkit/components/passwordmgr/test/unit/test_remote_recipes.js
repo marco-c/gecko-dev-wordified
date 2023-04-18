@@ -108,6 +108,8 @@ settings
 .
 js
 "
+{
+}
 )
 ;
 const
