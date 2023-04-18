@@ -186,15 +186,6 @@ Option
 number
 "
 )
-tabId
-:
-Option
-(
-0
-"
-number
-"
-)
 }
 response
 :
