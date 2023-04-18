@@ -1825,7 +1825,7 @@ pki
 .
 crlite_mode
 "
-1
+3
 )
 ;
 /
