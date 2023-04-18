@@ -3099,7 +3099,10 @@ aActiveTime
 {
 }
 ;
-int32_t
+Maybe
+<
+uint32_t
+>
 &
 CachedChildIndexRef
 (
@@ -4331,11 +4334,11 @@ cached
 in
 mCachedChildIndex
 .
-int32_t
+Maybe
+<
+uint32_t
+>
 mCachedChildIndex
-=
--
-1
 ;
 /
 /
