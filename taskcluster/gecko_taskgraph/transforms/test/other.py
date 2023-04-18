@@ -78,6 +78,7 @@ util
 .
 taskcluster
 import
+get_artifact_path
 get_index_url
 from
 voluptuous
@@ -124,14 +125,6 @@ util
 keyed_by
 import
 evaluate_keyed_by
-from
-gecko_taskgraph
-.
-util
-.
-taskcluster
-import
-get_artifact_path
 from
 gecko_taskgraph
 .

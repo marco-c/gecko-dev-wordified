@@ -72,6 +72,19 @@ description
 import
 copy
 from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_prefix
+from
+voluptuous
+import
+Required
+Optional
+from
 gecko_taskgraph
 .
 loader
@@ -108,14 +121,6 @@ optionally_keyed_by
     
 resolve_keyed_by
 )
-from
-gecko_taskgraph
-.
-util
-.
-taskcluster
-import
-get_artifact_prefix
 from
 gecko_taskgraph
 .
@@ -162,11 +167,6 @@ PACKAGE_FORMATS
 as
 PACKAGE_FORMATS_VANILLA
 )
-from
-voluptuous
-import
-Required
-Optional
 def
 _by_platform
 (

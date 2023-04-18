@@ -66,6 +66,7 @@ util
 .
 taskcluster
 import
+get_artifact_path
 get_artifact_url
 from
 voluptuous
@@ -102,14 +103,6 @@ util
 schema
 import
 Schema
-from
-gecko_taskgraph
-.
-util
-.
-taskcluster
-import
-get_artifact_path
 from
 gecko_taskgraph
 .
