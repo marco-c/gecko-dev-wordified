@@ -3193,6 +3193,11 @@ nsACString
 aOriginString
 =
 nullptr
+const
+bool
+aAllowPersistInPrivateBrowsing
+=
+false
 )
 ;
 void
