@@ -1112,7 +1112,7 @@ return
 root
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -

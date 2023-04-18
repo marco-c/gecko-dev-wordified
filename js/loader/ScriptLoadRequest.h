@@ -1990,7 +1990,7 @@ dom
 :
 ScriptLoadContext
 *
-GetLoadContext
+GetScriptLoadContext
 (
 )
 ;

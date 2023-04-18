@@ -6377,7 +6377,7 @@ HasLoadContext
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -6449,7 +6449,7 @@ HasLoadContext
 request
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -6645,7 +6645,7 @@ TRACE_FOR_TEST
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -

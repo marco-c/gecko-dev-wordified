@@ -1115,7 +1115,7 @@ IsDynamicImport
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1126,7 +1126,7 @@ mIsInline
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1177,7 +1177,7 @@ ProcessPendingRequests
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1230,7 +1230,7 @@ if
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1283,7 +1283,7 @@ aCx
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1320,7 +1320,7 @@ aCx
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1337,7 +1337,7 @@ address
 aRequest
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
@@ -1905,7 +1905,7 @@ mScriptMode
 aParent
 -
 >
-GetLoadContext
+GetScriptLoadContext
 (
 )
 -
