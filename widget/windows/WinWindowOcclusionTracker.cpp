@@ -5368,14 +5368,10 @@ LayoutDeviceIntRect
 (
 screenLeft
 screenTop
-screenLeft
-+
 GetSystemMetrics
 (
 SM_CXVIRTUALSCREEN
 )
-screenTop
-+
 GetSystemMetrics
 (
 SM_CYVIRTUALSCREEN
