@@ -1919,10 +1919,10 @@ relatedURI
 =
 aReferrerInfo
 ?
-aReferrerInfo
 .
 originalReferrer
-:
+|
+|
 sourceURI
 ;
 promiseTargetFile
