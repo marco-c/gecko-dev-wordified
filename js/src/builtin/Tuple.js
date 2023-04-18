@@ -1439,9 +1439,9 @@ arguments
 undefined
 ;
 return
-callContentFunction
+callFunction
 (
-ArrayIndexOf
+std_Array_indexOf
 ThisTupleValue
 (
 this

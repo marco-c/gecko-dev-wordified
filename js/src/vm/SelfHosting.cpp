@@ -17699,6 +17699,15 @@ array_construct
 0
 Array
 )
+JS_FN
+(
+"
+std_Array_indexOf
+"
+array_indexOf
+1
+0
+)
 JS_INLINABLE_FN
 (
 "
