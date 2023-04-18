@@ -144,7 +144,7 @@ import
 {
 getVisibleSelectedFrame
 getPauseReason
-getSourceWithContent
+getSourceTextContent
 getCurrentThread
 getPausePreviewLocation
 }
@@ -162,20 +162,15 @@ selectors
 function
 isDocumentReady
 (
-source
 location
+sourceTextContent
 )
 {
 return
 location
 &
 &
-source
-&
-&
-source
-.
-content
+sourceTextContent
 &
 &
 hasDocument
@@ -202,7 +197,7 @@ const
 {
 why
 location
-source
+sourceTextContent
 }
 =
 this
@@ -215,7 +210,7 @@ setDebugLine
 (
 why
 location
-source
+sourceTextContent
 )
 ;
 }
@@ -227,7 +222,7 @@ const
 {
 why
 location
-source
+sourceTextContent
 }
 =
 this
@@ -240,7 +235,7 @@ clearDebugLine
 (
 why
 location
-source
+sourceTextContent
 )
 ;
 }
@@ -253,7 +248,7 @@ const
 {
 why
 location
-source
+sourceTextContent
 }
 =
 this
@@ -276,7 +271,7 @@ prevProps
 location
 prevProps
 .
-source
+sourceTextContent
 )
 ;
 this
@@ -285,7 +280,7 @@ setDebugLine
 (
 why
 location
-source
+sourceTextContent
 )
 ;
 endOperation
@@ -297,7 +292,7 @@ setDebugLine
 (
 why
 location
-source
+sourceTextContent
 )
 {
 if
@@ -309,8 +304,8 @@ location
 !
 isDocumentReady
 (
-source
 location
+sourceTextContent
 )
 )
 {
@@ -480,7 +475,7 @@ clearDebugLine
 (
 why
 location
-source
+sourceTextContent
 )
 {
 if
@@ -492,8 +487,8 @@ location
 !
 isDocumentReady
 (
-source
 location
+sourceTextContent
 )
 )
 {
@@ -669,12 +664,12 @@ return
 {
 frame
 location
-source
+sourceTextContent
 :
 location
 &
 &
-getSourceWithContent
+getSourceTextContent
 (
 state
 location

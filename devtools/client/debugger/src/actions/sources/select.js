@@ -261,7 +261,7 @@ getSelectedSource
 canPrettyPrintSource
 getIsCurrentThreadPaused
 getSourceFromId
-getSourceWithContent
+getSourceTextContent
 tabExists
 }
 from
@@ -886,9 +886,9 @@ return
 ;
 }
 const
-sourceWithContent
+sourceTextContent
 =
-getSourceWithContent
+getSourceTextContent
 (
 getState
 (
@@ -933,7 +933,8 @@ id
 &
 isMinified
 (
-sourceWithContent
+source
+sourceTextContent
 )
 )
 {

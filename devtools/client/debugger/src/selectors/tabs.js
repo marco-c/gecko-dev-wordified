@@ -105,9 +105,6 @@ resourceAsSourceBase
 from
 "
 .
-.
-/
-selectors
 /
 sources
 "

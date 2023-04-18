@@ -203,7 +203,7 @@ getSourceByActorId
 getPendingSelectedLocation
 getPendingBreakpointsForSource
 getContext
-isSourceLoadingOrLoaded
+getSourceTextContent
 }
 from
 "
@@ -1626,7 +1626,7 @@ newSourceActor
 )
 &
 &
-isSourceLoadingOrLoaded
+getSourceTextContent
 (
 getState
 (
@@ -1635,6 +1635,9 @@ newSourceActor
 .
 source
 )
+!
+=
+null
 )
 {
 dispatch

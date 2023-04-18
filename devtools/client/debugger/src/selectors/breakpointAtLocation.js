@@ -66,9 +66,6 @@ getBreakpointPositionsForLine
 from
 "
 .
-.
-/
-selectors
 /
 sources
 "
@@ -80,9 +77,6 @@ getBreakpointsList
 from
 "
 .
-.
-/
-selectors
 /
 breakpoints
 "

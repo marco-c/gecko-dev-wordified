@@ -80,9 +80,6 @@ getSelectedLocation
 from
 "
 .
-.
-/
-selectors
 /
 sources
 "

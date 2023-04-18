@@ -78,7 +78,7 @@ import
 {
 getSource
 getSourceFromId
-getSourceWithContent
+getSourceTextContent
 getSourceContent
 getGeneratedSource
 getSourcesEpoch
@@ -906,11 +906,9 @@ null
 ;
 }
 const
-{
-content
-}
+sourceTextContent
 =
-getSourceWithContent
+getSourceTextContent
 (
 getState
 (
@@ -923,10 +921,10 @@ id
 if
 (
 !
-content
+sourceTextContent
 |
 |
-content
+sourceTextContent
 .
 state
 =
@@ -938,7 +936,7 @@ pending
 )
 {
 return
-content
+sourceTextContent
 ;
 }
 /
