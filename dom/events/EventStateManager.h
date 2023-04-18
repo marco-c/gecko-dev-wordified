@@ -704,6 +704,7 @@ Gecko
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DispatchLegacyMouseScrollEvents
 (
@@ -4970,6 +4971,7 @@ event
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 SendLineScrollEvent
 (
@@ -5094,6 +5096,7 @@ event
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 SendPixelScrollEvent
 (
