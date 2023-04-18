@@ -60,8 +60,10 @@ section
 /
 The
 Referer
+\
 [
 sic
+\
 ]
 header
 field

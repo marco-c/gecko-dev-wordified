@@ -1299,7 +1299,7 @@ deserialize
 T
 >
 (
-req
+res
 :
 Response
 <
@@ -1353,7 +1353,7 @@ parts
 body
 )
 =
-req
+res
 .
 into_parts
 (
@@ -1486,7 +1486,7 @@ serialize
 T
 >
 (
-req
+res
 :
 Response
 <
@@ -1531,7 +1531,7 @@ parts
 body
 )
 =
-req
+res
 .
 into_parts
 (
@@ -5573,7 +5573,7 @@ Response
 /
 /
 let
-req
+res
 =
 Response
 :
@@ -5601,7 +5601,7 @@ extension
 let
 extensions
 =
-req
+res
 .
 extensions_ref
 (
@@ -5764,7 +5764,7 @@ Response
 /
 let
 mut
-req
+res
 =
 Response
 :
@@ -5788,7 +5788,7 @@ let
 mut
 extensions
 =
-req
+res
 .
 extensions_mut
 (
