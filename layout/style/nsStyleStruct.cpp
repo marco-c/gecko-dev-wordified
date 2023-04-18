@@ -7298,14 +7298,6 @@ mSize
 !
 =
 mSize
-|
-|
-aNewData
-.
-mPage
-!
-=
-mPage
 )
 {
 return
