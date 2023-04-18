@@ -558,6 +558,17 @@ include
 "
 vm
 /
+NativeObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 StringObject
 -
 inl
