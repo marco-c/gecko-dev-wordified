@@ -7064,6 +7064,13 @@ must
 be
 "
     
+if
+moz_yaml_dir
+is
+not
+None
+:
+        
 #
 Ensure
 they
@@ -7072,7 +7079,7 @@ provided
 with
 trailing
 slashes
-    
+        
 moz_yaml_dir
 +
 =
@@ -7093,7 +7100,7 @@ moz_yaml_dir
 else
 "
 "
-    
+        
 vendoring_dir
 +
 =
