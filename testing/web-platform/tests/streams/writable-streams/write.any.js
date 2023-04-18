@@ -6,7 +6,6 @@ global
 =
 window
 worker
-jsshell
 /
 /
 META
