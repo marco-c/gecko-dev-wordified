@@ -1260,7 +1260,7 @@ Document
 aDocument
 )
 {
-IgnoredErrorResult
+ErrorResult
 rv
 ;
 RefPtr
@@ -1283,13 +1283,6 @@ InsertAnonymousContent
 (
 *
 element
-/
-*
-aForce
-=
-*
-/
-false
 rv
 )
 ;

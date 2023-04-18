@@ -269,11 +269,6 @@ bind
 (
 this
 )
-{
-waitForDocumentToLoad
-:
-false
-}
 )
 ;
 this
