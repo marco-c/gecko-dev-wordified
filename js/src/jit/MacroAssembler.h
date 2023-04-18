@@ -21924,6 +21924,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -21971,6 +21972,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -22018,6 +22020,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -22134,6 +22137,22 @@ DEFINED_ON
 (
 x86_shared
 arm64
+)
+;
+inline
+void
+bitwiseNotAndSimd128
+(
+FloatRegister
+lhs
+FloatRegister
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+x86_shared
 )
 ;
 /
@@ -22684,6 +22703,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -22826,6 +22846,19 @@ x86_shared
 /
 /
 On
+x86_shared
+limited
+to
+=
+=
+!
+=
+<
+<
+=
+/
+/
+On
 arm64
 use
 any
@@ -22853,6 +22886,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -23340,6 +23374,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -23438,6 +23473,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -23536,6 +23572,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -23634,6 +23671,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;

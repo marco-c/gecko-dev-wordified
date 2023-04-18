@@ -500,6 +500,7 @@ Operand
 src
 )
 scratch
+scratch
 )
 ;
 vmovmskps
@@ -542,6 +543,7 @@ Operand
 (
 src
 )
+scratch
 scratch
 )
 ;
@@ -4158,6 +4160,7 @@ vcmpneqps
 (
 rhs
 mask
+mask
 )
 ;
 }
@@ -4422,6 +4425,7 @@ mask
 vcmpneqps
 (
 rhs
+mask
 mask
 )
 ;
