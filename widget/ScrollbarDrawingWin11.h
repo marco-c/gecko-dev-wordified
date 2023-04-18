@@ -120,6 +120,13 @@ ScrollbarDrawing
 .
 h
 "
+#
+include
+"
+ScrollbarDrawingWin
+.
+h
+"
 namespace
 mozilla
 :
