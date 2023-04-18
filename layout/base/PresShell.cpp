@@ -5574,6 +5574,9 @@ mFrameManager
 (
 nullptr
 )
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 mAllocatedPointers
 (
 MakeUnique
@@ -5587,6 +5590,11 @@ void
 (
 )
 )
+#
+endif
+/
+/
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 mAutoWeakFrames
 (
 nullptr
@@ -5602,8 +5610,6 @@ nullptr
 endif
 /
 /
-#
-ifdef
 ACCESSIBILITY
 mCurrentEventFrame
 (
