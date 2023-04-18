@@ -1161,6 +1161,7 @@ real_manager
 start_search
 (
 session
+&
 attrs
 )
 )
@@ -1286,6 +1287,7 @@ real_manager
 get_signature_length
 (
 session
+&
 data
 )
 )
@@ -1311,6 +1313,7 @@ real_manager
 sign
 (
 session
+&
 data
 )
 )
@@ -2521,10 +2524,10 @@ mut
 self
 data
 :
-Vec
-<
+&
+[
 u8
->
+]
 params
 :
 &
@@ -2577,7 +2580,6 @@ key
 .
 get_signature_length
 (
-&
 data
 params
 )
@@ -2591,10 +2593,10 @@ mut
 self
 data
 :
-Vec
-<
+&
+[
 u8
->
+]
 params
 :
 &
@@ -2650,7 +2652,6 @@ key
 .
 sign
 (
-&
 data
 params
 )
@@ -2708,7 +2709,6 @@ by
 what
 handle
 .
-pub
 struct
 Manager
 <
@@ -3690,8 +3690,8 @@ session
 CK_SESSION_HANDLE
 attrs
 :
-Vec
-<
+&
+[
 (
 CK_ATTRIBUTE_TYPE
 Vec
@@ -3699,7 +3699,7 @@ Vec
 u8
 >
 )
->
+]
 )
 -
 >
@@ -3789,7 +3789,6 @@ attr
 _
 )
 in
-&
 attrs
 {
 if
@@ -3914,7 +3913,6 @@ scans
 if
 search_is_for_all_certificates_or_keys
 (
-&
 attrs
 )
 ?
@@ -3955,7 +3953,6 @@ object
 matches
 (
 slot_type
-&
 attrs
 )
 {
@@ -4507,10 +4504,10 @@ session
 CK_SESSION_HANDLE
 data
 :
-Vec
-<
+&
+[
 u8
->
+]
 )
 -
 >
@@ -4625,10 +4622,10 @@ session
 CK_SESSION_HANDLE
 data
 :
-Vec
-<
+&
+[
 u8
->
+]
 )
 -
 >
