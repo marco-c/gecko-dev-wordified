@@ -172,7 +172,13 @@ mozilla
 {
 const
 uint32_t
-NUM_OF_CHANNELS
+MAX_OUTPUT_CHANNELS
+=
+2
+;
+const
+uint32_t
+MAX_INPUT_CHANNELS
 =
 2
 ;
@@ -1283,7 +1289,7 @@ callback
 AudioDataValue
 mOutputBuffer
 [
-NUM_OF_CHANNELS
+MAX_OUTPUT_CHANNELS
 *
 1920
 ]
@@ -1294,7 +1300,7 @@ NUM_OF_CHANNELS
 AudioDataValue
 mInputBuffer
 [
-NUM_OF_CHANNELS
+MAX_INPUT_CHANNELS
 *
 1920
 ]
@@ -2953,7 +2959,7 @@ max_channels
 *
 max_channels
 =
-NUM_OF_CHANNELS
+MAX_OUTPUT_CHANNELS
 ;
 return
 CUBEB_OK
