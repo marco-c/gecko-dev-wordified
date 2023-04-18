@@ -1903,9 +1903,6 @@ ButtonLayout
 WidgetNodeType
 mType
 ;
-bool
-mAtRight
-;
 }
 ;
 /
