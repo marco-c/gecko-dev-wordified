@@ -2733,16 +2733,6 @@ browser
 .
 proton
 .
-enabled
-"
-_ns
-}
-{
-"
-browser
-.
-proton
-.
 places
 -
 tooltip
