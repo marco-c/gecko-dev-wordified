@@ -146,6 +146,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+WebSocketConnectionListener
+.
+h
+"
 namespace
 mozilla
 {
