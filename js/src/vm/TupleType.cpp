@@ -1892,6 +1892,9 @@ methods
 *
 /
 bool
+js
+:
+:
 IsTuple
 (
 const
@@ -1959,7 +1962,10 @@ the
 result
 TupleType
 &
-ThisTupleValue
+TupleType
+:
+:
+thisTupleValue
 (
 const
 Value
@@ -2069,7 +2075,10 @@ TupleType
 &
 tuple
 =
-ThisTupleValue
+TupleType
+:
+:
+thisTupleValue
 (
 args
 .
