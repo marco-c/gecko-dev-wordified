@@ -362,6 +362,7 @@ tracer
 .
 UnmarkGray
 VerifyTraceProtoAndIface
+CompartmentCheck
 }
 ;
 enum
