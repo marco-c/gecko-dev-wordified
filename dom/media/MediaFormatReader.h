@@ -508,10 +508,6 @@ NotifyDataArrivedPromise
 ;
 public
 :
-MOZ_DECLARE_THREADSAFEWEAKREFERENCE_TYPENAME
-(
-MediaFormatReader
-)
 MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 MediaFormatReader
