@@ -12563,7 +12563,6 @@ CacheStorageService
 TelemetryRecordEntryRemoval
 (
 CacheEntry
-const
 *
 entry
 )
