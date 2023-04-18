@@ -339,7 +339,7 @@ NetworkObserver
 {
 browserId
 :
-watcherActor
+this
 .
 browserId
 }
@@ -404,6 +404,8 @@ return
 this
 .
 watcherActor
+.
+context
 .
 browserId
 ;
@@ -839,7 +841,16 @@ this
 .
 watcherActor
 .
-browserId
+context
+.
+type
+=
+=
+"
+browser
+-
+element
+"
 &
 &
 windowGlobal
@@ -850,8 +861,6 @@ browserId
 !
 =
 this
-.
-watcherActor
 .
 browserId
 )
