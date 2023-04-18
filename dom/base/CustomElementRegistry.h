@@ -283,6 +283,7 @@ eConnected
 eDisconnected
 eAdopted
 eAttributeChanged
+eFormReset
 eGetCustomInterface
 }
 ;
