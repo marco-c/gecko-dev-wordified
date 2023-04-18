@@ -621,7 +621,7 @@ env
 var_os
 (
 "
-MOZ_DIST
+MOZ_TOPOBJDIR
 "
 )
 .
@@ -650,7 +650,7 @@ panic
 !
 (
 "
-MOZ_DIST
+MOZ_TOPOBJDIR
 must
 be
 an
@@ -670,6 +670,13 @@ display
 ;
 }
 path
+.
+join
+(
+"
+dist
+"
+)
 }
 ;
 static
