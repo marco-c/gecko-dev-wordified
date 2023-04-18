@@ -1190,7 +1190,7 @@ nsIFile
 *
 aFile
 const
-uint64_t
+uint32_t
 aOffset
 const
 Maybe
