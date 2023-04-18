@@ -8764,6 +8764,7 @@ dr
 (
 in_rate
 out_rate
+0
 )
 ;
 AudioChunk
@@ -9026,6 +9027,7 @@ dr
 (
 in_rate
 out_rate
+0
 )
 ;
 AudioChunk
