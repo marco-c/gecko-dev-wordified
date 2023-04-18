@@ -432,7 +432,7 @@ DirectoryPicker
 ;
 const
 {
-makeExponentialScale
+makeLinear10Scale
 makePowerOf2Scale
 formatFileSize
 featureDescriptions
@@ -1060,7 +1060,7 @@ this
 .
 _intervalExponentialScale
 =
-makeExponentialScale
+makeLinear10Scale
 (
 0
 .

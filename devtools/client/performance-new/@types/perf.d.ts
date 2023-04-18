@@ -2571,6 +2571,10 @@ fromFractionToSingleDigitValue
 :
 NumberScaler
 ;
+steps
+:
+number
+;
 }
 /
 *
