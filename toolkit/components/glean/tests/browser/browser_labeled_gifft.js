@@ -253,7 +253,7 @@ telemetry
 .
 test
 .
-keyed_unsigned_int
+another_mirror_for_labeled_counter
 "
 )
 ;
