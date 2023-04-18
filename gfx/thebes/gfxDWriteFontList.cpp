@@ -6141,6 +6141,12 @@ SlantStyleRange
 aStyleForEntry
 )
 {
+AutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 SharedFontList
