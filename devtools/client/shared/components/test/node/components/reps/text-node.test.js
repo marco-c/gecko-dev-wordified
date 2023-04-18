@@ -284,6 +284,8 @@ get
 testRendering
 "
 )
+.
+_grip
 )
 )
 .
@@ -320,6 +322,8 @@ get
 testRendering
 "
 )
+.
+_grip
 ;
 const
 renderRep
@@ -605,6 +609,8 @@ get
 testRenderingWithEOL
 "
 )
+.
+_grip
 ;
 const
 renderRep
@@ -876,6 +882,8 @@ get
 testRenderingWithDoubleQuote
 "
 )
+.
+_grip
 ;
 const
 renderRep
@@ -1146,6 +1154,8 @@ get
 testRenderingWithLongString
 "
 )
+.
+_grip
 ;
 const
 renderRep
@@ -1427,6 +1437,8 @@ get
 testRendering
 "
 )
+.
+_grip
 ;
 const
 onDOMNodeMouseOver
@@ -1515,6 +1527,8 @@ get
 testRendering
 "
 )
+.
+_grip
 ;
 const
 onDOMNodeMouseOut
@@ -1605,6 +1619,8 @@ get
 testRendering
 "
 )
+.
+_grip
 ;
 const
 onInspectIconClick
@@ -1785,6 +1801,8 @@ get
 testRenderingDisconnected
 "
 )
+.
+_grip
 ;
 const
 onInspectIconClick
