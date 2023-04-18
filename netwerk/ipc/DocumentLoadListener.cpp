@@ -7161,7 +7161,7 @@ nullptr
 )
 ;
 }
-mEarlyHintsPreloader
+mEarlyHintsService
 .
 Cancel
 (
@@ -15087,7 +15087,7 @@ GetResponseStatus
 responseStatus
 )
 ;
-mEarlyHintsPreloader
+mEarlyHintsService
 .
 FinalResponse
 (
@@ -15097,7 +15097,7 @@ responseStatus
 }
 else
 {
-mEarlyHintsPreloader
+mEarlyHintsService
 .
 Cancel
 (
@@ -17866,7 +17866,7 @@ n
 )
 )
 ;
-mEarlyHintsPreloader
+mEarlyHintsService
 .
 EarlyHint
 (

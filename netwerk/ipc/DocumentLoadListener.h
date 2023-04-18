@@ -132,7 +132,7 @@ h
 #
 include
 "
-EarlyHintsPreloader
+EarlyHintsService
 .
 h
 "
@@ -4005,8 +4005,8 @@ const
 bool
 mIsDocumentLoad
 ;
-EarlyHintsPreloader
-mEarlyHintsPreloader
+EarlyHintsService
+mEarlyHintsService
 ;
 }
 ;

@@ -295,7 +295,7 @@ ClassifierDummyChannelParent
 h
 "
 "
-EarlyHintsPreloader
+EarlyHintsService
 .
 h
 "
@@ -533,7 +533,7 @@ DnsAndConnectSocket
 cpp
 "
 "
-EarlyHintsPreloader
+EarlyHintsService
 .
 cpp
 "

@@ -114,7 +114,7 @@ MPL
 #
 include
 "
-EarlyHintsPreloader
+EarlyHintsService
 .
 h
 "
@@ -134,7 +134,7 @@ mozilla
 net
 {
 void
-EarlyHintsPreloader
+EarlyHintsService
 :
 :
 EarlyHint
@@ -170,7 +170,7 @@ NowLoRes
 }
 }
 void
-EarlyHintsPreloader
+EarlyHintsService
 :
 :
 FinalResponse
@@ -215,7 +215,7 @@ aResponseStatus
 ;
 }
 void
-EarlyHintsPreloader
+EarlyHintsService
 :
 :
 Cancel
@@ -242,7 +242,7 @@ true
 }
 }
 void
-EarlyHintsPreloader
+EarlyHintsService
 :
 :
 CollectTelemetry
