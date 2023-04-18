@@ -1755,6 +1755,11 @@ intl
 ReportInternalError
 (
 cx
+result
+.
+unwrapErr
+(
+)
 )
 ;
 return
@@ -1949,6 +1954,11 @@ intl
 ReportInternalError
 (
 cx
+keywordResult
+.
+unwrapErr
+(
+)
 )
 ;
 return
@@ -2206,6 +2216,11 @@ intl
 ReportInternalError
 (
 cx
+keywordResult
+.
+unwrapErr
+(
+)
 )
 ;
 return
@@ -2424,6 +2439,11 @@ intl
 ReportInternalError
 (
 cx
+categoriesResult
+.
+unwrapErr
+(
+)
 )
 ;
 return
