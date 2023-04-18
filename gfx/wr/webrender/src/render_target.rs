@@ -214,6 +214,7 @@ prim_store
 :
 :
 {
+PrimitiveInstance
 PrimitiveStore
 DeferredResolve
 PrimitiveScratchBuffer
@@ -857,6 +858,12 @@ _composite_state
 &
 mut
 CompositeState
+_prim_instances
+:
+&
+[
+PrimitiveInstance
+]
 )
 {
 }
@@ -1519,6 +1526,12 @@ composite_state
 &
 mut
 CompositeState
+prim_instances
+:
+&
+[
+PrimitiveInstance
+]
 )
 {
 if
@@ -1554,6 +1567,7 @@ prim_headers
 transforms
 z_generator
 composite_state
+prim_instances
 )
 ;
 }
@@ -1925,6 +1939,12 @@ composite_state
 &
 mut
 CompositeState
+prim_instances
+:
+&
+[
+PrimitiveInstance
+]
 )
 {
 profile_scope
@@ -2306,6 +2326,7 @@ pic_task
 surface_spatial_node_index
 z_generator
 composite_state
+prim_instances
 )
 ;
 let

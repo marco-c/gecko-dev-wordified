@@ -256,6 +256,7 @@ prim_store
 :
 {
 DeferredResolve
+PrimitiveInstance
 }
 ;
 use
@@ -2385,6 +2386,11 @@ surfaces
 &
 frame_context
 data_stores
+&
+mut
+scene
+.
+prim_instances
 )
 ;
 {
@@ -2516,6 +2522,11 @@ mut
 visibility_state
 tile_caches
 true
+&
+mut
+scene
+.
+prim_instances
 )
 ;
 }
@@ -2787,6 +2798,11 @@ scratch
 primitive
 tile_cache_logger
 tile_caches
+&
+mut
+scene
+.
+prim_instances
 )
 ;
 let
@@ -3009,9 +3025,9 @@ profiler
 PRIMITIVES
 scene
 .
-prim_store
+prim_instances
 .
-prim_count
+len
 (
 )
 )
@@ -3498,6 +3514,10 @@ scene
 config
 .
 gpu_supports_fast_clears
+&
+scene
+.
+prim_instances
 )
 ;
 has_texture_cache_tasks
@@ -4110,6 +4130,12 @@ CompositeState
 gpu_supports_fast_clears
 :
 bool
+prim_instances
+:
+&
+[
+PrimitiveInstance
+]
 )
 -
 >
@@ -4937,6 +4963,7 @@ root_spatial_node_index
 surface_spatial_node_index
 z_generator
 composite_state
+prim_instances
 )
 ;
 }
@@ -5412,6 +5439,7 @@ prim_headers
 transforms
 z_generator
 composite_state
+prim_instances
 )
 ;
 pass
@@ -5428,6 +5456,7 @@ prim_headers
 transforms
 z_generator
 composite_state
+prim_instances
 )
 ;
 pass

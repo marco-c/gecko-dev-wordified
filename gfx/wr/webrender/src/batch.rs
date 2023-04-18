@@ -5119,6 +5119,12 @@ composite_state
 &
 mut
 CompositeState
+prim_instances
+:
+&
+[
+PrimitiveInstance
+]
 )
 {
 for
@@ -5152,10 +5158,6 @@ for
 prim_instance
 in
 &
-pic
-.
-prim_list
-.
 prim_instances
 [
 cluster
@@ -5195,6 +5197,7 @@ root_spatial_node_index
 surface_spatial_node_index
 z_generator
 composite_state
+prim_instances
 )
 ;
 }
@@ -5304,6 +5307,12 @@ composite_state
 &
 mut
 CompositeState
+prim_instances
+:
+&
+[
+PrimitiveInstance
+]
 )
 {
 let
@@ -5480,10 +5489,6 @@ let
 child_prim_instance
 =
 &
-picture
-.
-prim_list
-.
 prim_instances
 [
 child
@@ -5946,6 +5951,7 @@ root_spatial_node_index
 surface_spatial_node_index
 z_generator
 composite_state
+prim_instances
 )
 ;
 }

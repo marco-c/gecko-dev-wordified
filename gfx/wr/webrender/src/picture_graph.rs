@@ -81,7 +81,10 @@ crate
 prim_store
 :
 :
+{
 PictureIndex
+PrimitiveInstance
+}
 ;
 use
 crate
@@ -676,6 +679,14 @@ data_stores
 &
 mut
 DataStores
+prim_instances
+:
+&
+mut
+Vec
+<
+PrimitiveInstance
+>
 )
 {
 for
@@ -765,6 +776,7 @@ parent_surface_index
 surfaces
 frame_context
 data_stores
+prim_instances
 )
 ;
 }

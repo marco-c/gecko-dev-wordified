@@ -196,6 +196,7 @@ prim_store
 PrimitiveStore
 PrimitiveStoreStats
 PictureIndex
+PrimitiveInstance
 }
 ;
 use
@@ -1720,6 +1721,13 @@ Vec
 <
 PlaneSplitter
 >
+pub
+prim_instances
+:
+Vec
+<
+PrimitiveInstance
+>
 }
 impl
 BuiltScene
@@ -1834,6 +1842,14 @@ new
 (
 )
 plane_splitters
+:
+Vec
+:
+:
+new
+(
+)
+prim_instances
 :
 Vec
 :
