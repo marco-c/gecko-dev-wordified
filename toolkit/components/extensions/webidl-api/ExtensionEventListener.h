@@ -945,6 +945,10 @@ ExtensionListenerCallWorkerRunnable
 {
 NS_ReleaseOnMainThread
 (
+"
+~
+ExtensionListenerCallWorkerRunnable
+"
 mPromiseResult
 .
 forget
