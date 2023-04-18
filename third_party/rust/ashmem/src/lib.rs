@@ -358,6 +358,8 @@ c_char
 =
 "
 libandroid
+.
+so
 \
 0
 "
@@ -710,6 +712,8 @@ c_char
 dev
 /
 ashmem
+\
+0
 "
 .
 as_ptr
