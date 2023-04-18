@@ -59,17 +59,6 @@ MPL
 *
 /
 import
-*
-as
-timings
-from
-"
-.
-/
-timings
-"
-;
-import
 {
 prefs
 asyncStore
@@ -502,7 +491,6 @@ selectors
 prefs
 asyncStore
 features
-timings
 getCM
 helpers
 :
