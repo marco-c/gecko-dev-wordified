@@ -21251,6 +21251,7 @@ do
 this
 check
 if
+constexpr
 (
 sizeof
 (
@@ -22488,6 +22489,7 @@ TEXT_ORIENT_MASK
 )
 ;
 if
+constexpr
 (
 sizeof
 (
