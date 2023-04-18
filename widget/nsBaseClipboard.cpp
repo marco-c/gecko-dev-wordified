@@ -448,7 +448,7 @@ NS_IMETHODIMP
 nsBaseClipboard
 :
 :
-GetSomeData
+GetData
 (
 nsITransferable
 *

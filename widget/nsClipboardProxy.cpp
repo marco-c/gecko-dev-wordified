@@ -272,7 +272,7 @@ NS_IMETHODIMP
 nsClipboardProxy
 :
 :
-GetSomeData
+GetData
 (
 nsITransferable
 *
