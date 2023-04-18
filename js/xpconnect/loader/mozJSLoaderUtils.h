@@ -152,7 +152,7 @@ h
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 namespace
 mozilla
 {
@@ -194,7 +194,7 @@ const
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 &
 options
 JS

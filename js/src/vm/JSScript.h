@@ -6992,6 +6992,13 @@ mode
 >
 *
 xdr
+const
+JS
+:
+:
+DecodeOptions
+*
+maybeOptions
 RefPtr
 <
 ScriptSource

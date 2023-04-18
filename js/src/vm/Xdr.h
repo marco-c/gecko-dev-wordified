@@ -259,7 +259,7 @@ h
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 #
 include
 "
@@ -2923,7 +2923,7 @@ const
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 &
 options
 frontend
@@ -2938,7 +2938,7 @@ const
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 &
 options
 (
@@ -2960,7 +2960,7 @@ const
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 *
 options_
 =

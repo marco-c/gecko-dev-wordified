@@ -11660,7 +11660,7 @@ const
 JS
 :
 :
-ReadOnlyCompileOptions
+DecodeOptions
 &
 aOptions
 JS
@@ -12624,16 +12624,8 @@ cx
 JS
 :
 :
-CompileOptions
+DecodeOptions
 options
-(
-cx
-)
-;
-FillCompileOptions
-(
-options
-)
 ;
 RefPtr
 <

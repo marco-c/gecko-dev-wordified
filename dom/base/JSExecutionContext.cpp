@@ -1068,7 +1068,16 @@ mCx
 mCompileOptions
 )
 ;
+JS
+:
+:
+DecodeOptions
+decodeOptions
+(
 options
+)
+;
+decodeOptions
 .
 borrowBuffer
 =
@@ -1123,7 +1132,7 @@ JS
 DecodeStencil
 (
 mCx
-options
+decodeOptions
 range
 getter_AddRefs
 (

@@ -279,6 +279,14 @@ JS
 :
 :
 ReadOnlyCompileOptions
+JS
+:
+:
+InstantiateOptions
+JS
+:
+:
+DecodeOptions
 #
 include
 "
@@ -881,7 +889,7 @@ JSContext
 *
 cx
 const
-ReadOnlyCompileOptions
+DecodeOptions
 &
 options
 const
