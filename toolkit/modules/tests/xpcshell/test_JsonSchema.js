@@ -29,7 +29,9 @@ zero
 *
 /
 const
+{
 JsonSchema
+}
 =
 ChromeUtils
 .
