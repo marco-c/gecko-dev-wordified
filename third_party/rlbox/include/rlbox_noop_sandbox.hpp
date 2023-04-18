@@ -335,6 +335,9 @@ T_Func
 func
 ;
 {
+#
+ifndef
+RLBOX_SINGLE_THREADED_INVOCATIONS
 RLBOX_ACQUIRE_SHARED_GUARD
 (
 lock
@@ -346,6 +349,8 @@ sandbox
 callback_mutex
 )
 ;
+#
+endif
 func
 =
 reinterpret_cast
