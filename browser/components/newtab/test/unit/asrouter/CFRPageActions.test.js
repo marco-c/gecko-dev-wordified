@@ -5201,6 +5201,9 @@ _popupStateChange
 persistent
 :
 false
+persistWhileVisible
+:
+false
 }
 )
 ;
