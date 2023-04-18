@@ -14971,7 +14971,7 @@ outer_buf
 ConnectExpectAlert
 (
 server_
-kTlsAlertUnsupportedExtension
+kTlsAlertIllegalParameter
 )
 ;
 client_
@@ -14979,7 +14979,7 @@ client_
 >
 CheckErrorCode
 (
-SSL_ERROR_UNSUPPORTED_EXTENSION_ALERT
+SSL_ERROR_ILLEGAL_PARAMETER_ALERT
 )
 ;
 server_
