@@ -317,15 +317,6 @@ MDefinition
 Opcode
 :
 :
-LambdaArrow
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 FunctionWithProto
 :
 return

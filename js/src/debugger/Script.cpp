@@ -9362,12 +9362,6 @@ case
 JSOp
 :
 :
-LambdaArrow
-:
-case
-JSOp
-:
-:
 PushLexicalEnv
 :
 case

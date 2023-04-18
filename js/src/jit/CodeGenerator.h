@@ -1402,15 +1402,6 @@ bool
 strict
 )
 ;
-void
-emitLambdaInit
-(
-Register
-output
-Register
-envChain
-)
-;
 template
 <
 class
