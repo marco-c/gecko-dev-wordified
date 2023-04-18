@@ -1139,7 +1139,7 @@ AppendElement
 SingleTouchData
 (
 0
-ParentLayerPoint
+ScreenIntPoint
 (
 25
 50
@@ -1285,7 +1285,7 @@ AppendElement
 SingleTouchData
 (
 1
-ParentLayerPoint
+ScreenIntPoint
 (
 75
 50
@@ -1562,7 +1562,7 @@ AppendElement
 SingleTouchData
 (
 0
-ParentLayerPoint
+ScreenIntPoint
 (
 25
 50
@@ -1719,7 +1719,7 @@ AppendElement
 SingleTouchData
 (
 1
-ParentLayerPoint
+ScreenIntPoint
 (
 75
 50
