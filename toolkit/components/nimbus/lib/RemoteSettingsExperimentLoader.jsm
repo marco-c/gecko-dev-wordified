@@ -2136,6 +2136,9 @@ featureId
 manifest
 .
 schema
+?
+.
+uri
 )
 {
 const
@@ -2149,6 +2152,8 @@ featureId
 manifest
 .
 schema
+.
+uri
 ;
 try
 {
