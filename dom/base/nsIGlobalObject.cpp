@@ -406,6 +406,9 @@ const
 if
 (
 mIsScriptForbidden
+|
+|
+mIsDying
 )
 {
 return
