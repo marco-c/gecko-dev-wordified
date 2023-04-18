@@ -811,14 +811,7 @@ inspector
 .
 searchSuggestions
 .
-once
-(
-"
-processing
--
-done
-"
-)
+_lastQuery
 )
 ;
 EventUtils

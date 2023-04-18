@@ -62,6 +62,16 @@ strict
 "
 ;
 const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
+const
 {
 style
 :
@@ -2783,7 +2793,7 @@ modification
 const
 resultPromise
 =
-Promise
+promise
 .
 resolve
 (

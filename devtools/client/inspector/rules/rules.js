@@ -62,6 +62,16 @@ strict
 "
 ;
 const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
+const
 Services
 =
 require
@@ -4461,7 +4471,7 @@ element
 pseudoClasses
 )
 ;
-Promise
+promise
 .
 all
 (
@@ -6125,7 +6135,7 @@ allowRefresh
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -6244,7 +6254,7 @@ null
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -6319,7 +6329,7 @@ values
 const
 dummyElementPromise
 =
-Promise
+promise
 .
 resolve
 (
@@ -6619,7 +6629,7 @@ _elementStyle
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -6677,7 +6687,7 @@ _applyingModifications
 }
 }
 return
-Promise
+promise
 .
 all
 (
@@ -8249,7 +8259,7 @@ rules
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -8727,7 +8737,7 @@ seenSearchTerm
 )
 ;
 return
-Promise
+promise
 .
 all
 (

@@ -623,6 +623,9 @@ inspector
 panelWin
 )
 ;
+await
+done
+;
 info
 (
 "
@@ -636,7 +639,11 @@ complete
 )
 ;
 await
-done
+inspector
+.
+searchSuggestions
+.
+_lastQuery
 ;
 is
 (
