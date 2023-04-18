@@ -1463,6 +1463,12 @@ file
   
 #
 -
+move
+-
+dir
+  
+#
+-
 replace
 -
 in
@@ -1503,6 +1509,10 @@ is
 copy
 -
 file
+or
+move
+-
+dir
 :
   
 #
@@ -3154,6 +3164,12 @@ file
 "
                                     
 "
+move
+-
+dir
+"
+                                    
+"
 replace
 -
 in
@@ -4020,13 +4036,19 @@ v
 action
 "
 ]
-=
-=
+in
+[
 "
 copy
 -
 file
 "
+"
+move
+-
+dir
+"
+]
 :
                 
 if
@@ -4062,9 +4084,8 @@ Invalid
 (
                         
 "
-copy
--
-file
+%
+s
 action
 must
 (
@@ -4080,6 +4101,14 @@ to
 '
 keys
 "
+                        
+%
+v
+[
+"
+action
+"
+]
                     
 )
             
