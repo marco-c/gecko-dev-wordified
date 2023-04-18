@@ -3812,7 +3812,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 "
     
 group
@@ -8137,7 +8137,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 "
 :
         
@@ -8150,7 +8150,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 .
 TestRunnerActivity
 "

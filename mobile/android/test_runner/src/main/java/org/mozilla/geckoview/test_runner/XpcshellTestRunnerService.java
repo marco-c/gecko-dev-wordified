@@ -34,7 +34,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 ;
 import
 android
@@ -553,13 +553,6 @@ googleLegacy
 build
 (
 )
-)
-.
-crashHandler
-(
-TestCrashHandler
-.
-class
 )
 .
 build

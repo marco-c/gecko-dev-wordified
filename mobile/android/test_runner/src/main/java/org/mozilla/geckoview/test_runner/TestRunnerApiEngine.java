@@ -34,7 +34,7 @@ mozilla
 .
 geckoview
 .
-test
+test_runner
 ;
 import
 android
