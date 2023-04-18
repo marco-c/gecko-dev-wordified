@@ -516,7 +516,6 @@ Info
 "
 PRIu64
 "
-d
 ]
 "
 arg
