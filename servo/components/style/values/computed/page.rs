@@ -65,6 +65,12 @@ at
 -
 rule
 properties
+and
+named
+-
+page
+style
+properties
 use
 crate
 :
@@ -162,6 +168,13 @@ page
 :
 :
 PaperSize
+;
+pub
+use
+specified
+:
+:
+PageName
 ;
 /
 /
