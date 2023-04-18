@@ -1029,6 +1029,13 @@ import
 CommandSiteManager
     
 from
+mozboot
+.
+util
+import
+get_state_dir
+    
+from
 moztreedocs
 import
 manager
@@ -1162,9 +1169,19 @@ topsrcdir
 site
 =
 CommandSiteManager
+.
+from_environment
 (
         
 topsrcdir
+        
+get_state_dir
+(
+)
+        
+"
+common
+"
         
 os
 .
@@ -1179,10 +1196,6 @@ outdir
 _venv
 "
 )
-        
-"
-common
-"
     
 )
     
