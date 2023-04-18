@@ -235,7 +235,7 @@ content
 .
 document
 .
-hasStorageAccess
+requestStorageAccess
 (
 )
 .
