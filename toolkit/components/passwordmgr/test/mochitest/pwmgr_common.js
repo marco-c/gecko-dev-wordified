@@ -55,7 +55,7 @@ LoginTestUtils
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -72,8 +72,6 @@ LoginTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 /
@@ -132,7 +130,7 @@ LoginHelper
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -149,8 +147,6 @@ LoginHelper
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -160,7 +156,7 @@ Services
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -177,8 +173,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
