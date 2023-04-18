@@ -506,16 +506,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
-BuildModel
-(
-)
-override
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
-NS_IMETHOD
 CancelParsingEvents
 (
 )
