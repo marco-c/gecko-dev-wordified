@@ -76,15 +76,19 @@ subprocess
 import
 time
 from
+typing
+import
+Optional
+from
+pathlib
+import
+Path
+from
 distutils
 .
 version
 import
 LooseVersion
-from
-mozfile
-import
-which
 from
 mach
 .
@@ -92,6 +96,8 @@ util
 import
 get_state_dir
 UserError
+to_optional_path
+to_optional_str
 from
 mach
 .
@@ -184,6 +190,10 @@ mozconfig
 import
 find_mozconfig
 MozconfigBuilder
+from
+mozfile
+import
+which
 #
 Use
 distro
@@ -1007,11 +1017,7 @@ arch
 "
 )
 or
-os
-.
-path
-.
-exists
+Path
 (
 "
 /
@@ -1021,6 +1027,10 @@ arch
 -
 release
 "
+)
+.
+exists
+(
 )
 :
                 
@@ -1532,6 +1542,8 @@ check_code_submission
 (
 self
 checkout_root
+:
+Path
 )
 :
         
@@ -1629,17 +1641,11 @@ return
         
 mach_binary
 =
-os
-.
-path
-.
-join
-(
 checkout_root
+/
 "
 mach
 "
-)
         
 subprocess
 .
@@ -1649,7 +1655,10 @@ check_call
 sys
 .
 executable
+str
+(
 mach_binary
+)
 "
 install
 -
@@ -2147,8 +2156,11 @@ return
         
 state_dir
 =
+Path
+(
 get_state_dir
 (
+)
 )
         
 self
@@ -2158,6 +2170,18 @@ instance
 state_dir
 =
 state_dir
+        
+hg
+=
+to_optional_path
+(
+which
+(
+"
+hg
+"
+)
+)
         
 #
 We
@@ -2201,14 +2225,10 @@ load_hgrc
 =
 True
 )
+            
 hg
 =
-which
-(
-"
 hg
-"
-)
         
 )
         
@@ -2328,6 +2348,18 @@ ensure_rust_modern
 (
 )
         
+git
+=
+to_optional_path
+(
+which
+(
+"
+git
+"
+)
+)
+        
 #
 Possibly
 configure
@@ -2395,12 +2427,7 @@ configure_hg
                 
 configure_mercurial
 (
-which
-(
-"
 hg
-"
-)
 state_dir
 )
         
@@ -2421,12 +2448,7 @@ Git
 .
         
 elif
-which
-(
-"
 git
-"
-)
 and
 checkout_type
 =
@@ -2489,12 +2511,10 @@ should_configure_git
 configure_git
 (
                     
-which
-(
-"
 git
-"
-)
+                    
+to_optional_path
+(
 which
 (
 "
@@ -2503,7 +2523,10 @@ git
 cinnabar
 "
 )
+)
+                    
 state_dir
+                    
 checkout_root
                 
 )
@@ -2565,8 +2588,14 @@ is_set_up
 initialize_telemetry_setting
 (
 settings
+str
+(
 checkout_root
+)
+str
+(
 state_dir
+)
 )
         
 print
@@ -2594,9 +2623,12 @@ instance
 .
 _parse_version
 (
+Path
+(
 "
 rustc
 "
+)
 )
 >
 =
@@ -2704,13 +2736,19 @@ raw_mozconfig
             
 mozconfig_path
 =
+Path
+(
 find_mozconfig
+(
+Path
 (
 self
 .
 mach_context
 .
 topdir
+)
+)
 )
             
 if
@@ -2727,21 +2765,18 @@ yet
                 
 mozconfig_path
 =
-os
-.
-path
-.
-join
+Path
 (
 self
 .
 mach_context
 .
 topdir
+)
+/
 "
 mozconfig
 "
-)
                 
 with
 open
@@ -2765,6 +2800,7 @@ raw_mozconfig
 print
 (
                     
+f
 '
 Your
 requested
@@ -2774,14 +2810,12 @@ been
 written
 to
 "
-%
-s
+{
+mozconfig_path
+}
 "
 .
 '
-                    
-%
-mozconfig_path
                 
 )
             
@@ -2958,11 +2992,14 @@ False
         
 pip3
 =
+to_optional_path
+(
 which
 (
 "
 pip3
 "
+)
 )
         
 if
@@ -3075,7 +3112,11 @@ def
 update_vct
 (
 hg
+:
+Path
 root_state_dir
+:
+Path
 )
 :
     
@@ -3103,13 +3144,8 @@ date
     
 vct_dir
 =
-os
-.
-path
-.
-join
-(
 root_state_dir
+/
 "
 version
 -
@@ -3117,7 +3153,6 @@ control
 -
 tools
 "
-)
     
 #
 Ensure
@@ -3169,7 +3204,14 @@ def
 configure_mercurial
 (
 hg
+:
+Optional
+[
+Path
+]
 root_state_dir
+:
+Path
 )
 :
     
@@ -3192,6 +3234,13 @@ update_vct
 (
 hg
 root_state_dir
+)
+    
+hg
+=
+to_optional_str
+(
+hg
 )
     
 #
@@ -3219,20 +3268,20 @@ hg
 config
 "
         
+f
 "
 extensions
 .
 configwizard
 =
-%
-s
+{
+vct_dir
+}
 /
 hgext
 /
 configwizard
 "
-%
-vct_dir
         
 "
 configwizard
@@ -3250,8 +3299,12 @@ def
 update_mercurial_repo
 (
 hg
+:
+Path
 url
 dest
+:
+Path
 revision
 )
 :
@@ -3295,17 +3348,17 @@ abort
 pull_args
 =
 [
+str
+(
 hg
+)
 ]
     
 if
-os
-.
-path
+dest
 .
 exists
 (
-dest
 )
 :
         
@@ -3342,7 +3395,10 @@ clone
 noupdate
 "
 url
+str
+(
 dest
+)
 ]
 )
         
@@ -3355,7 +3411,10 @@ cwd
 update_args
 =
 [
+str
+(
 hg
+)
 "
 update
 "
@@ -3377,23 +3436,21 @@ print
     
 print
 (
+f
 "
 Ensuring
-%
-s
+{
+url
+}
 is
 up
 to
 date
 at
-%
-s
-"
-%
-(
-url
+{
 dest
-)
+}
+"
 )
     
 env
@@ -3431,7 +3488,10 @@ check_call
 pull_args
 cwd
 =
+str
+(
 cwd
+)
 env
 =
 env
@@ -3444,7 +3504,10 @@ check_call
 update_args
 cwd
 =
+str
+(
 dest
+)
 env
 =
 env
@@ -3466,6 +3529,11 @@ current_firefox_checkout
 (
 env
 hg
+:
+Optional
+[
+Path
+]
 =
 None
 )
@@ -3522,9 +3590,9 @@ unified
     
 path
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
     
@@ -3534,44 +3602,29 @@ path
         
 hg_dir
 =
-os
-.
 path
-.
-join
-(
-path
+/
 "
 .
 hg
 "
-)
         
 git_dir
 =
-os
-.
 path
-.
-join
-(
-path
+/
 "
 .
 git
 "
-)
         
 if
 hg
 and
-os
-.
-path
+hg_dir
 .
 exists
 (
-hg_dir
 )
 :
             
@@ -3602,7 +3655,10 @@ check_output
 (
                     
 [
+str
+(
 hg
+)
 "
 log
 "
@@ -3627,7 +3683,10 @@ node
                     
 cwd
 =
+str
+(
 path
+)
                     
 env
 =
@@ -3651,12 +3710,10 @@ path
 )
                     
 return
-(
 "
 hg
 "
 path
-)
                 
 #
 Else
@@ -3727,40 +3784,28 @@ is
 complicated
         
 elif
-os
-.
-path
+git_dir
 .
 exists
 (
-git_dir
 )
 :
             
 moz_configure
 =
-os
-.
 path
-.
-join
-(
-path
+/
 "
 moz
 .
 configure
 "
-)
             
 if
-os
-.
-path
+moz_configure
 .
 exists
 (
-moz_configure
 )
 :
                 
@@ -3770,31 +3815,19 @@ path
 )
                 
 return
-(
 "
 git
 "
 path
-)
-        
-path
-child
-=
-os
-.
-path
-.
-split
-(
-path
-)
         
 if
-child
-=
-=
-"
-"
+not
+len
+(
+path
+.
+parents
+)
 :
             
 break
@@ -3836,7 +3869,14 @@ def
 update_git_tools
 (
 git
+:
+Optional
+[
+Path
+]
 root_state_dir
+:
+Path
 )
 :
     
@@ -3866,19 +3906,13 @@ date
     
 cinnabar_dir
 =
-os
-.
-path
-.
-join
-(
 root_state_dir
+/
 "
 git
 -
 cinnabar
 "
-)
     
 #
 Ensure
@@ -3916,6 +3950,13 @@ git
 cinnabar_dir
 )
     
+git
+=
+to_optional_str
+(
+git
+)
+    
 #
 Perform
 a
@@ -3946,7 +3987,10 @@ check_call
 download_args
 cwd
 =
+str
+(
 cinnabar_dir
+)
 )
     
 except
@@ -3968,8 +4012,15 @@ def
 update_git_repo
 (
 git
+:
+Optional
+[
+Path
+]
 url
 dest
+:
+Path
 )
 :
     
@@ -3992,20 +4043,24 @@ repository
 "
 "
     
+git_str
+=
+to_optional_str
+(
+git
+)
+    
 pull_args
 =
 [
-git
+git_str
 ]
     
 if
-os
-.
-path
+dest
 .
 exists
 (
-dest
 )
 :
         
@@ -4043,20 +4098,26 @@ no
 checkout
 "
 url
+str
+(
 dest
+)
 ]
 )
         
 cwd
 =
+Path
+(
 "
 /
 "
+)
     
 update_args
 =
 [
-git
+git_str
 "
 checkout
 "
@@ -4073,23 +4134,21 @@ print
     
 print
 (
+f
 "
 Ensuring
-%
-s
+{
+url
+}
 is
 up
 to
 date
 at
-%
-s
-"
-%
-(
-url
+{
 dest
-)
+}
+"
 )
     
 try
@@ -4102,7 +4161,10 @@ check_call
 pull_args
 cwd
 =
+str
+(
 cwd
+)
 )
         
 subprocess
@@ -4112,7 +4174,10 @@ check_call
 update_args
 cwd
 =
+str
+(
 dest
+)
 )
     
 finally
@@ -4129,10 +4194,28 @@ print
 def
 configure_git
 (
+    
 git
+:
+Optional
+[
+Path
+]
+    
 cinnabar
+:
+Optional
+[
+Path
+]
+    
 root_state_dir
+:
+Path
+    
 top_src_dir
+:
+Path
 )
 :
     
@@ -4148,6 +4231,13 @@ steps
 "
 "
 "
+    
+git_str
+=
+to_optional_str
+(
+git
+)
     
 match
 =
@@ -4180,7 +4270,7 @@ subprocess
 check_output
 (
 [
-git
+git_str
 "
 -
 -
@@ -4283,7 +4373,7 @@ check_call
 (
             
 [
-git
+git_str
 "
 config
 "
@@ -4298,16 +4388,22 @@ true
 ]
 cwd
 =
+str
+(
 top_src_dir
+)
         
 )
     
 cinnabar_dir
 =
+str
+(
 update_git_tools
 (
 git
 root_state_dir
+)
 )
     
 if
@@ -4414,6 +4510,8 @@ def
 _warn_if_risky_revision
 (
 path
+:
+Path
 )
 :
     

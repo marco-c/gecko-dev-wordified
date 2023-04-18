@@ -70,6 +70,14 @@ subprocess
 import
 sys
 from
+pathlib
+import
+PurePosixPath
+from
+pathlib
+import
+Path
+from
 distutils
 .
 version
@@ -94,6 +102,12 @@ from
 mozfile
 import
 which
+from
+mach
+.
+util
+import
+to_optional_path
 #
 NOTE
 :
@@ -2391,39 +2405,29 @@ toolchain_job
         
 clang_tools_path
 =
-os
-.
-path
-.
-join
-(
 self
 .
 state_dir
+/
 "
 clang
 -
 tools
 "
-)
         
 if
 not
-os
-.
-path
+clang_tools_path
 .
 exists
 (
-clang_tools_path
 )
 :
             
-os
+clang_tools_path
 .
 mkdir
 (
-clang_tools_path
 )
         
 self
@@ -2564,36 +2568,28 @@ devnull
             
 moz_configure
 =
-os
-.
-path
-.
-join
-(
 self
 .
 srcdir
+/
 "
 build
 "
+/
 "
 moz
 .
 configure
 "
-)
             
 sandbox
 .
 include_file
 (
-os
-.
-path
-.
-join
+str
 (
 moz_configure
+/
 "
 init
 .
@@ -2649,13 +2645,10 @@ sandbox
 .
 include_file
 (
-os
-.
-path
-.
-join
+str
 (
 moz_configure
+/
 "
 bootstrap
 .
@@ -2715,6 +2708,8 @@ install_toolchain_artifact_impl
         
 self
 install_dir
+:
+Path
 toolchain_job
 no_unpack
 =
@@ -2725,56 +2720,42 @@ False
         
 mach_binary
 =
-os
-.
-path
-.
-join
 (
 self
 .
 srcdir
+/
 "
 mach
 "
 )
-        
-mach_binary
-=
-os
 .
-path
-.
-abspath
+resolve
 (
-mach_binary
 )
         
 if
 not
-os
-.
-path
+mach_binary
 .
 exists
 (
-mach_binary
 )
 :
             
 raise
 ValueError
 (
+f
 "
 mach
 not
 found
 at
-%
-s
-"
-%
+{
 mach_binary
+}
+"
 )
         
 if
@@ -2820,38 +2801,41 @@ get_mach_virtualenv_binary
         
 if
 not
-os
-.
-path
+python_location
 .
 exists
 (
-python_location
 )
 :
             
 raise
 ValueError
 (
+f
 "
 python
 not
 found
 at
-%
-s
-"
-%
+{
 python_location
+}
+"
 )
         
 cmd
 =
 [
             
+str
+(
 python_location
+)
             
+str
+(
 mach_binary
+)
             
 "
 artifact
@@ -2903,7 +2887,10 @@ check_call
 cmd
 cwd
 =
+str
+(
 install_dir
+)
 )
     
 def
@@ -4193,6 +4180,8 @@ _parse_version_impl
 (
 self
 path
+:
+Path
 name
 env
 version_param
@@ -4301,14 +4290,9 @@ name
             
 name
 =
-os
-.
 path
 .
-basename
-(
-path
-)
+name
         
 if
 name
@@ -4343,7 +4327,10 @@ run
 (
             
 [
+str
+(
 path
+)
 version_param
 ]
             
@@ -4489,6 +4476,8 @@ _parse_version
 (
 self
 path
+:
+Path
 name
 =
 None
@@ -4643,11 +4632,14 @@ self
         
 hg
 =
+to_optional_path
+(
 which
 (
 "
 hg
 "
+)
 )
         
 if
@@ -4994,11 +4986,15 @@ is_rust_modern
 (
 self
 cargo_bin
+:
+Path
 )
 :
         
 rustc
 =
+to_optional_path
+(
 which
 (
 "
@@ -5007,8 +5003,12 @@ rustc
 extra_search_dirs
 =
 [
+str
+(
 cargo_bin
+)
 ]
+)
 )
         
 if
@@ -5067,53 +5067,40 @@ self
         
 cargo_home
 =
+Path
+(
 os
 .
 environ
 .
 get
 (
-            
 "
 CARGO_HOME
 "
-os
-.
-path
-.
-expanduser
-(
-os
-.
-path
-.
-join
+Path
 (
 "
 ~
-"
-"
+/
 .
 cargo
 "
 )
+.
+expanduser
+(
 )
-        
+)
 )
         
 cargo_bin
 =
-os
-.
-path
-.
-join
-(
 cargo_home
+/
 "
 bin
 "
-)
         
 return
 cargo_home
@@ -5124,6 +5111,8 @@ win_to_msys_path
 (
 self
 path
+:
+Path
 )
 :
         
@@ -5201,27 +5190,28 @@ path
             
 path
 =
+f
 "
 /
-%
-s
-/
-%
-s
-"
-%
-(
+{
 drive
 [
 :
 -
 1
 ]
+}
+/
+{
 path
-)
+}
+"
         
 return
+PurePosixPath
+(
 path
+)
     
 def
 print_rust_path_advice
@@ -5229,7 +5219,11 @@ print_rust_path_advice
 self
 template
 cargo_home
+:
+Path
 cargo_bin
+:
+Path
 )
 :
         
@@ -5247,37 +5241,30 @@ exists
 .
         
 if
-os
-.
-path
-.
-exists
-(
-os
-.
-path
-.
-join
 (
 cargo_home
+/
 "
 env
 "
 )
+.
+exists
+(
 )
 :
             
 cmd
 =
+f
 "
 source
-%
-s
+{
+cargo_home
+}
 /
 env
 "
-%
-cargo_home
         
 else
 :
@@ -5340,17 +5327,17 @@ cargo_bin
             
 cmd
 =
+f
 "
 export
 PATH
 =
-%
-s
+{
+cargo_bin
+}
 :
 PATH
 "
-%
-cargo_bin
         
 print
 (
@@ -5396,6 +5383,26 @@ is_rust_modern
 cargo_bin
 )
         
+rustup
+=
+to_optional_path
+(
+which
+(
+"
+rustup
+"
+extra_search_dirs
+=
+[
+str
+(
+cargo_bin
+)
+]
+)
+)
+        
 if
 modern
 :
@@ -5418,20 +5425,6 @@ enough
 "
 %
 version
-)
-            
-rustup
-=
-which
-(
-"
-rustup
-"
-extra_search_dirs
-=
-[
-cargo_bin
-]
 )
             
 if
@@ -5470,20 +5463,6 @@ old
 "
 %
 version
-)
-        
-rustup
-=
-which
-(
-"
-rustup
-"
-extra_search_dirs
-=
-[
-cargo_bin
-]
 )
         
 if
@@ -5606,6 +5585,8 @@ ensure_rust_targets
 (
 self
 rustup
+:
+Path
 rust_version
 )
 :
@@ -5634,7 +5615,10 @@ check_output
 (
             
 [
+str
+(
 rustup
+)
 "
 target
 "
@@ -5763,7 +5747,10 @@ subprocess
 check_call
 (
 [
+str
+(
 rustup
+)
 "
 target
 "
@@ -5881,7 +5868,10 @@ subprocess
 check_call
 (
 [
+str
+(
 rustup
+)
 "
 target
 "
@@ -5897,6 +5887,8 @@ upgrade_rust
 (
 self
 rustup
+:
+Path
 )
 :
         
@@ -5928,7 +5920,10 @@ subprocess
 check_call
 (
 [
+str
+(
 rustup
+)
 "
 update
 "
@@ -5968,7 +5963,10 @@ subprocess
 check_call
 (
 [
+str
+(
 rustup
+)
 "
 component
 "
@@ -6091,14 +6089,19 @@ mkstemp
 (
 prefix
 =
-os
-.
-path
-.
-basename
+Path
 (
 url
 )
+.
+name
+)
+        
+rustup_init
+=
+Path
+(
+rustup_init
 )
         
 os
@@ -6122,20 +6125,18 @@ checksum
             
 mode
 =
-os
+rustup_init
 .
 stat
 (
-rustup_init
 )
 .
 st_mode
             
-os
+rustup_init
 .
 chmod
 (
-rustup_init
 mode
 |
 stat
@@ -6170,7 +6171,10 @@ check_call
                 
 [
                     
+str
+(
 rustup_init
+)
                     
 "
 -
@@ -6237,11 +6241,10 @@ finally
 try
 :
                 
-os
-.
-remove
-(
 rustup_init
+.
+unlink
+(
 )
             
 except
@@ -6269,6 +6272,8 @@ http_download_and_save
 self
 url
 dest
+:
+Path
 hexhash
 digest
 =
@@ -6415,11 +6420,10 @@ hexdigest
 hexhash
 :
             
-os
-.
-remove
-(
 dest
+.
+unlink
+(
 )
             
 raise

@@ -76,6 +76,11 @@ time
 import
 requests
 from
+typing
+import
+Optional
+Union
+from
 pathlib
 import
 Path
@@ -253,27 +258,17 @@ repack
 "
 AVD_MANIFEST_X86_64
 =
-os
-.
-path
-.
-abspath
-(
-    
-os
-.
-path
-.
-join
-(
-os
-.
-path
-.
-dirname
+Path
 (
 __file__
 )
+.
+resolve
+(
+)
+.
+parent
+/
 "
 android
 -
@@ -283,31 +278,19 @@ x86_64
 .
 json
 "
-)
-)
 AVD_MANIFEST_ARM
 =
-os
-.
-path
-.
-abspath
-(
-    
-os
-.
-path
-.
-join
-(
-os
-.
-path
-.
-dirname
+Path
 (
 __file__
 )
+.
+resolve
+(
+)
+.
+parent
+/
 "
 android
 -
@@ -317,31 +300,19 @@ arm
 .
 json
 "
-)
-)
 AVD_MANIFEST_ARM64
 =
-os
-.
-path
-.
-abspath
-(
-    
-os
-.
-path
-.
-join
-(
-os
-.
-path
-.
-dirname
+Path
 (
 __file__
 )
+.
+resolve
+(
+)
+.
+parent
+/
 "
 android
 -
@@ -351,8 +322,6 @@ arm64
 .
 json
 "
-)
-)
 JAVA_VERSION_MAJOR
 =
 "
@@ -699,6 +668,8 @@ install_bundletool
 (
 url
 path
+:
+Path
 )
 :
     
@@ -718,23 +689,8 @@ directory
 "
 "
     
-old_path
-=
-os
-.
-getcwd
-(
-)
-    
 try
 :
-        
-os
-.
-chdir
-(
-path
-)
         
 subprocess
 .
@@ -764,23 +720,27 @@ bundletool
 jar
 "
 ]
+            
+cwd
+=
+str
+(
+path
+)
         
 )
     
 finally
 :
         
-os
-.
-chdir
-(
-old_path
-)
+pass
 def
 install_mobile_android_sdk_or_ndk
 (
 url
 path
+:
+Path
 )
 :
     
@@ -910,47 +870,32 @@ prematurely
 "
 "
     
-old_path
+download_path
 =
-os
-.
-getcwd
-(
-)
+path
+/
+"
+mozboot
+"
     
 try
 :
         
 download_path
+.
+mkdir
+(
+parents
 =
-os
-.
-path
-.
-join
-(
-path
-"
-mozboot
-"
+True
 )
-        
-try
-:
-            
-os
-.
-makedirs
-(
-download_path
-)
-        
+    
 except
 OSError
 as
 e
 :
-            
+        
 if
 e
 .
@@ -961,30 +906,20 @@ errno
 .
 EEXIST
 and
-os
-.
-path
-.
-isdir
-(
 download_path
+.
+is_dir
+(
 )
 :
-                
-pass
             
+pass
+        
 else
 :
-                
+            
 raise
-        
-os
-.
-chdir
-(
-download_path
-)
-        
+    
 file_name
 =
 url
@@ -999,26 +934,13 @@ split
 -
 1
 ]
-        
-abspath
+    
+download_file_path
 =
-os
-.
-path
-.
-join
-(
 download_path
+/
 file_name
-)
-        
-file
-=
-Path
-(
-abspath
-)
-        
+    
 with
 requests
 .
@@ -1028,7 +950,7 @@ Session
 as
 session
 :
-            
+        
 request
 =
 session
@@ -1037,7 +959,7 @@ head
 (
 url
 )
-            
+        
 remote_file_size
 =
 int
@@ -1053,38 +975,38 @@ length
 "
 ]
 )
-            
+        
 if
-file
+download_file_path
 .
 is_file
 (
 )
 :
-                
+            
 local_file_size
 =
-file
+download_file_path
 .
 stat
 (
 )
 .
 st_size
-                
+            
 if
 local_file_size
 =
 =
 remote_file_size
 :
-                    
+                
 print
 (
 f
 "
 {
-file
+download_file_path
 }
 already
 downloaded
@@ -1096,12 +1018,13 @@ download
 .
 "
 )
-                
+            
 else
 :
-                    
+                
 print
 (
+                    
 f
 "
 Partial
@@ -1112,55 +1035,55 @@ Resuming
 download
 of
 {
-file
+download_file_path
 }
 .
 .
 .
 "
+                
 )
-                    
+                
 download
 (
-file_name
+                    
+download_file_path
+                    
 session
+                    
 url
+                    
 remote_file_size
+                    
 local_file_size
+                
 )
-            
+        
 else
 :
-                
+            
 print
 (
 f
 "
 Downloading
 {
-file
+download_file_path
 }
 .
 .
 .
 "
 )
-                
+            
 download
 (
-file_name
+download_file_path
 session
 url
 remote_file_size
 )
-        
-os
-.
-chdir
-(
-path
-)
-        
+    
 if
 file_name
 .
@@ -1184,7 +1107,7 @@ tgz
 "
 )
 :
-            
+        
 cmd
 =
 [
@@ -1194,9 +1117,12 @@ tar
 "
 zxf
 "
-abspath
+str
+(
+download_file_path
+)
 ]
-        
+    
 elif
 file_name
 .
@@ -1210,7 +1136,7 @@ bz2
 "
 )
 :
-            
+        
 cmd
 =
 [
@@ -1220,9 +1146,12 @@ tar
 "
 jxf
 "
-abspath
+str
+(
+download_file_path
+)
 ]
-        
+    
 elif
 file_name
 .
@@ -1234,7 +1163,7 @@ zip
 "
 )
 :
-            
+        
 cmd
 =
 [
@@ -1245,9 +1174,12 @@ unzip
 -
 q
 "
-abspath
+str
+(
+download_file_path
+)
 ]
-        
+    
 elif
 file_name
 .
@@ -1259,7 +1191,7 @@ bin
 "
 )
 :
-            
+        
 #
 Execute
 the
@@ -1271,7 +1203,7 @@ unpacks
 the
 content
 .
-            
+        
 mode
 =
 os
@@ -1282,28 +1214,30 @@ path
 )
 .
 st_mode
-            
-os
+        
+download_file_path
 .
 chmod
 (
-abspath
 mode
 |
 stat
 .
 S_IXUSR
 )
-            
+        
 cmd
 =
 [
-abspath
+str
+(
+download_file_path
+)
 ]
-        
+    
 else
 :
-            
+        
 raise
 NotImplementedError
 (
@@ -1323,21 +1257,21 @@ file_name
 }
 "
 )
-        
+    
 print
 (
 f
 "
 Unpacking
 {
-file
+download_file_path
 }
 .
 .
 .
 "
 )
-        
+    
 with
 open
 (
@@ -1351,7 +1285,7 @@ w
 as
 stdout
 :
-            
+        
 #
 These
 unpack
@@ -1366,7 +1300,7 @@ ignore
 it
 .
 The
-            
+        
 #
 .
 bin
@@ -1384,7 +1318,7 @@ line
 flag
 to
 quiet
-            
+        
 #
 output
 so
@@ -1393,7 +1327,7 @@ use
 this
 hammer
 .
-            
+        
 subprocess
 .
 check_call
@@ -1402,15 +1336,21 @@ cmd
 stdout
 =
 stdout
+cwd
+=
+str
+(
+path
 )
-        
+)
+    
 print
 (
 f
 "
 Unpacking
 {
-file
+download_file_path
 }
 .
 .
@@ -1418,37 +1358,32 @@ file
 DONE
 "
 )
-        
+    
 #
 Now
 delete
 the
 archive
-        
-os
+    
+download_file_path
 .
 unlink
 (
-abspath
-)
-    
-finally
-:
-        
-os
-.
-chdir
-(
-old_path
 )
 def
 download
 (
     
-file_name
+download_file_path
+:
+Path
+    
 session
+    
 url
+    
 remote_file_size
+    
 resume_from_byte_pos
 :
 int
@@ -1501,7 +1436,7 @@ exist
 with
 open
 (
-file_name
+download_file_path
 "
 ab
 "
@@ -1633,7 +1568,9 @@ unit_divisor
             
 desc
 =
-file_name
+download_file_path
+.
+name
             
 initial
 =
@@ -1679,6 +1616,12 @@ def
 get_ndk_version
 (
 ndk_path
+:
+Union
+[
+str
+Path
+]
 )
 :
     
@@ -1712,22 +1655,23 @@ human
 "
 "
     
+ndk_path
+=
+Path
+(
+ndk_path
+)
+    
 with
 open
 (
-os
-.
-path
-.
-join
-(
 ndk_path
+/
 "
 source
 .
 properties
 "
-)
 "
 r
 "
@@ -1996,35 +1940,30 @@ os_name
     
 mozbuild_path
 =
+Path
+(
+        
 os
 .
 environ
 .
 get
 (
-        
 "
 MOZBUILD_STATE_PATH
 "
-os
-.
-path
-.
-expanduser
-(
-os
-.
-path
-.
-join
+Path
 (
 "
 ~
-"
-"
+/
 .
 mozbuild
 "
+)
+.
+expanduser
+(
 )
 )
     
@@ -2032,104 +1971,88 @@ mozbuild
     
 sdk_path
 =
+Path
+(
+        
 os
 .
 environ
 .
 get
 (
-        
 "
 ANDROID_SDK_HOME
 "
-        
-os
-.
-path
-.
-join
-(
 mozbuild_path
+/
+f
 "
 android
 -
 sdk
 -
 {
-0
+os_name
 }
 "
-.
-format
-(
-os_name
-)
 )
     
 )
     
 ndk_path
 =
+Path
+(
+        
 os
 .
 environ
 .
 get
 (
-        
+            
 "
 ANDROID_NDK_HOME
 "
-        
-os
-.
-path
-.
-join
-(
 mozbuild_path
+/
+f
 "
 android
 -
 ndk
 -
 {
-0
+NDK_VERSION
 }
 "
-.
-format
-(
-NDK_VERSION
-)
+        
 )
     
 )
     
 avd_home_path
 =
+Path
+(
+        
 os
 .
 environ
 .
 get
 (
-        
 "
 ANDROID_AVD_HOME
 "
-os
-.
-path
-.
-join
-(
 mozbuild_path
+/
 "
 android
 -
 device
 "
+/
 "
 avd
 "
@@ -2146,6 +2069,8 @@ def
 sdkmanager_tool
 (
 sdk_path
+:
+Path
 )
 :
     
@@ -2186,23 +2111,22 @@ sdkmanager
 "
     
 return
-os
-.
-path
-.
-join
 (
         
 sdk_path
+/
 "
 cmdline
 -
 tools
 "
+/
 CMDLINE_TOOLS_VERSION_STRING
+/
 "
 bin
 "
+/
 sdkmanager
     
 )
@@ -2210,6 +2134,8 @@ def
 avdmanager_tool
 (
 sdk_path
+:
+Path
 )
 :
     
@@ -2250,23 +2176,22 @@ avdmanager
 "
     
 return
-os
-.
-path
-.
-join
 (
         
 sdk_path
+/
 "
 cmdline
 -
 tools
 "
+/
 CMDLINE_TOOLS_VERSION_STRING
+/
 "
 bin
 "
+/
 sdkmanager
     
 )
@@ -2274,6 +2199,8 @@ def
 adb_tool
 (
 sdk_path
+:
+Path
 )
 :
     
@@ -2301,24 +2228,21 @@ adb
 "
     
 return
-os
-.
-path
-.
-join
-(
 sdk_path
+/
 "
 platform
 -
 tools
 "
+/
 adb
-)
 def
 emulator_tool
 (
 sdk_path
+:
+Path
 )
 :
     
@@ -2346,22 +2270,22 @@ emulator
 "
     
 return
-os
-.
-path
-.
-join
-(
 sdk_path
+/
 "
 emulator
 "
+/
 emulator
-)
 def
 ensure_dir
 (
-dir
+directory
+:
+Optional
+[
+Path
+]
 )
 :
     
@@ -2378,27 +2302,26 @@ exists
 "
     
 if
-dir
+directory
 and
 not
-os
-.
-path
+directory
 .
 exists
 (
-dir
 )
 :
         
 try
 :
             
-os
+directory
 .
-makedirs
+mkdir
 (
-dir
+parents
+=
+True
 )
         
 except
@@ -2444,6 +2367,11 @@ emulator_only
 False
     
 avd_manifest_path
+:
+Optional
+[
+Path
+]
 =
 None
     
@@ -2985,16 +2913,22 @@ ensure_android_sdk_and_ndk
 (
     
 mozbuild_path
+:
+Path
     
 os_name
     
 os_arch
     
 sdk_path
+:
+Path
     
 sdk_url
     
 ndk_path
+:
+Path
     
 ndk_url
     
@@ -3141,13 +3075,10 @@ install_ndk
 True
         
 if
-os
-.
-path
-.
-isdir
-(
 ndk_path
+.
+is_dir
+(
 )
 :
             
@@ -3276,16 +3207,13 @@ installed
 .
     
 if
-os
-.
-path
-.
-isfile
-(
 sdkmanager_tool
 (
 sdk_path
 )
+.
+is_file
+(
 )
 :
         
@@ -3297,13 +3225,10 @@ sdk_path
 )
     
 elif
-os
-.
-path
-.
-isdir
-(
 sdk_path
+.
+is_dir
+(
 )
 :
         
@@ -3363,35 +3288,24 @@ installations
         
 cmdline_tools_path
 =
-os
-.
-path
-.
-join
-(
-            
 mozbuild_path
+/
+f
 "
 android
 -
 sdk
 -
 {
-0
+os_name
 }
 "
-.
-format
-(
-os_name
-)
+/
 "
 cmdline
 -
 tools
 "
-        
-)
         
 install_mobile_android_sdk_or_ndk
 (
@@ -3422,34 +3336,22 @@ tools
 /
 CMDLINE_TOOLS_VERSION_STRING
         
-os
-.
-rename
-(
-            
-os
-.
-path
-.
-join
 (
 cmdline_tools_path
+/
 "
 cmdline
 -
 tools
 "
 )
-            
-os
 .
-path
-.
-join
+rename
 (
+            
 cmdline_tools_path
+/
 CMDLINE_TOOLS_VERSION_STRING
-)
         
 )
         
@@ -3513,14 +3415,24 @@ ensure_android_avd
 (
     
 avdmanager_tool
+:
+Path
     
 adb_tool
+:
+Path
     
 emulator_tool
+:
+Path
     
 avd_home_path
+:
+Path
     
 sdk_path
+:
+Path
     
 no_interactive
 =
@@ -3594,17 +3506,11 @@ here
     
 ensure_dir
 (
-os
-.
-path
-.
-join
-(
 sdk_path
+/
 "
 platforms
 "
-)
 )
     
 avd_name
@@ -3620,7 +3526,10 @@ args
 =
 [
         
+str
+(
 avdmanager_tool
+)
         
 "
 -
@@ -3712,7 +3621,10 @@ ANDROID_AVD_HOME
 "
 ]
 =
+str
+(
 avd_home_path
+)
     
 proc
 =
@@ -3785,14 +3697,13 @@ e
     
 avd_path
 =
-os
-.
-path
-.
-join
-(
 avd_home_path
+/
+(
+str
+(
 avd_name
+)
 +
 "
 .
@@ -3802,41 +3713,32 @@ avd
     
 config_file_name
 =
-os
-.
-path
-.
-join
-(
 avd_path
+/
 "
 config
 .
 ini
 "
-)
     
 print
 (
+f
 "
 Writing
 config
 at
-%
-s
-"
-%
+{
 config_file_name
+}
+"
 )
     
 if
-os
-.
-path
-.
-isfile
-(
 config_file_name
+.
+is_file
+(
 )
 :
         
@@ -3895,6 +3797,7 @@ raise
 NotImplementedError
 (
             
+f
 "
 Could
 not
@@ -3902,14 +3805,13 @@ find
 config
 file
 at
-%
-s
+{
+config_file_name
+}
 something
 went
 wrong
 "
-%
-config_file_name
         
 )
     
@@ -4001,37 +3903,30 @@ lock
         
 lock_file_path
 =
-os
-.
-path
-.
-join
-(
 avd_path
+/
 lock_file
-)
         
 try
 :
             
-os
-.
-remove
-(
 lock_file_path
+.
+unlink
+(
 )
             
 print
 (
+f
 "
 Removed
 lock
 file
-%
-s
-"
-%
+{
 lock_file_path
+}
+"
 )
         
 except
@@ -4056,10 +3951,19 @@ run_prewarm_avd
 (
     
 adb_tool
+:
+Path
+    
 emulator_tool
+:
+Path
+    
 env
+    
 avd_name
+    
 avd_manifest
+    
 no_interactive
 =
 False
@@ -4091,7 +3995,10 @@ iterations
 args
 =
 [
+str
+(
 emulator_tool
+)
 "
 -
 avd
@@ -4150,7 +4057,10 @@ range
 boot_completed_cmd
 =
 [
+str
+(
 adb_tool
+)
 "
 shell
 "
@@ -4309,7 +4219,10 @@ subprocess
 Popen
 (
 [
+str
+(
 adb_tool
+)
 "
 emu
 "
@@ -4340,6 +4253,8 @@ os_name
 os_arch
     
 sdkmanager_tool
+:
+Path
     
 emulator_only
 =
@@ -4465,30 +4380,19 @@ txt
     
 packages_file_path
 =
-os
-.
-path
-.
-abspath
 (
-        
-os
-.
-path
-.
-join
-(
-os
-.
-path
-.
-dirname
+Path
 (
 __file__
 )
+.
+parent
+/
 packages_file_name
 )
-    
+.
+resolve
+(
 )
     
 with
@@ -4534,7 +4438,10 @@ packages
 args
 =
 [
+str
+(
 sdkmanager_tool
+)
 ]
     
 if
@@ -4613,13 +4520,11 @@ JAVA_HOME
 "
 ]
 =
-os
-.
-path
-.
-dirname
+str
 (
 java_bin_path
+.
+parent
 )
     
 if
@@ -4783,7 +4688,10 @@ subprocess
 check_call
 (
 [
+str
+(
 sdkmanager_tool
+)
 "
 -
 -
@@ -5660,6 +5568,25 @@ os_arch
 return
 0
     
+avd_manifest_path
+=
+(
+        
+Path
+(
+options
+.
+avd_manifest_path
+)
+if
+options
+.
+avd_manifest_path
+else
+None
+    
+)
+    
 ensure_android
 (
         
@@ -5693,8 +5620,6 @@ emulator_only
         
 avd_manifest_path
 =
-options
-.
 avd_manifest_path
         
 prewarm_avd
@@ -5957,13 +5882,10 @@ os_name
     
 if
 not
-os
-.
-path
+java_path
 .
 exists
 (
-java_path
 )
 :
         
@@ -6127,17 +6049,11 @@ ext
 install_mobile_android_sdk_or_ndk
 (
 java_url
-os
-.
-path
-.
-join
-(
 mozbuild_path
+/
 "
 jdk
 "
-)
 )
     
 return
@@ -6147,6 +6063,8 @@ java_bin_path
 (
 os_name
 toolchain_path
+:
+Path
 )
 :
     
@@ -6197,18 +6115,13 @@ JAVA_VERSION_PATCH
     
 java_path
 =
-os
-.
-path
-.
-join
-(
 toolchain_path
+/
 "
 jdk
 "
+/
 jdk_folder
-)
     
 if
 os_name
@@ -6220,23 +6133,19 @@ macosx
 :
         
 return
-os
-.
-path
-.
-join
-(
 java_path
+/
 "
 Contents
 "
+/
 "
 Home
 "
+/
 "
 bin
 "
-)
     
 elif
 os_name
@@ -6248,17 +6157,11 @@ linux
 :
         
 return
-os
-.
-path
-.
-join
-(
 java_path
+/
 "
 bin
 "
-)
     
 elif
 os_name
@@ -6270,17 +6173,11 @@ windows
 :
         
 return
-os
-.
-path
-.
-join
-(
 java_path
+/
 "
 bin
 "
-)
     
 else
 :
@@ -6292,6 +6189,12 @@ locate_java_bin_path
 (
 host_kernel
 toolchain_path
+:
+Union
+[
+str
+Path
+]
 )
 :
     
@@ -6359,18 +6262,18 @@ path
 java_bin_path
 (
 os_name
+Path
+(
 toolchain_path
+)
 )
     
 if
 not
-os
-.
 path
 .
-isdir
+is_dir
 (
-path
 )
 :
         
@@ -6378,6 +6281,7 @@ raise
 JavaLocationFailedException
 (
             
+f
 "
 Could
 not
@@ -6385,6 +6289,7 @@ locate
 Java
 at
 {
+path
 }
 please
 run
@@ -6403,16 +6308,14 @@ system
 -
 changes
 "
-.
-format
-(
-path
-)
         
 )
     
 return
+str
+(
 path
+)
 class
 JavaLocationFailedException
 (

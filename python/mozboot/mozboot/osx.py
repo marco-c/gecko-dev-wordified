@@ -87,6 +87,10 @@ request
 import
 urlopen
 from
+pathlib
+import
+Path
+from
 distutils
 .
 version
@@ -102,6 +106,13 @@ from
 mozfile
 import
 which
+from
+mach
+.
+util
+import
+to_optional_path
+to_optional_str
 HOMEBREW_BOOTSTRAP
 =
 (
@@ -1484,11 +1495,14 @@ self
 .
 brew
 =
+to_optional_path
+(
 which
 (
 "
 brew
 "
+)
 )
         
 return
@@ -1543,9 +1557,12 @@ parameters
 base_cmd
 =
 [
+to_optional_str
+(
 self
 .
 brew
+)
 ]
             
 base_cmd
@@ -1728,9 +1745,12 @@ subprocess
 check_output
 (
 [
+to_optional_str
+(
 self
 .
 brew
+)
 "
 tap
 "
@@ -1767,10 +1787,14 @@ subprocess
 .
 check_output
 (
+                
 [
+to_optional_str
+(
 self
 .
 brew
+)
 "
 tap
 "
@@ -1782,6 +1806,7 @@ cask
 versions
 "
 ]
+            
 )
         
 #
@@ -1874,10 +1899,14 @@ subprocess
 .
 check_output
 (
+                
 [
+to_optional_str
+(
 self
 .
 brew
+)
 "
 untap
 "
@@ -1887,6 +1916,7 @@ caskroom
 versions
 "
 ]
+            
 )
         
 self
@@ -2005,16 +2035,15 @@ ordering
         
 brew_dir
 =
-os
-.
-path
-.
-dirname
-(
 self
 .
 brew
+.
+resolve
+(
 )
+.
+parent
         
 for
 path
@@ -2037,7 +2066,10 @@ pathsep
 :
             
 if
+Path
+(
 path
+)
 =
 =
 brew_dir
@@ -2372,9 +2404,12 @@ subprocess
 check_call
 (
 [
+to_optional_str
+(
 self
 .
 brew
+)
 "
 -
 v
@@ -2408,9 +2443,12 @@ check_output
 (
                 
 [
+to_optional_str
+(
 self
 .
 brew
+)
 "
 -
 v
@@ -2420,6 +2458,7 @@ upgrade
 "
 package
 ]
+                
 stderr
 =
 subprocess

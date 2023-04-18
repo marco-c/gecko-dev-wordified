@@ -61,6 +61,14 @@ import
 filecmp
 import
 os
+from
+pathlib
+import
+Path
+from
+typing
+import
+Union
 MOZ_MYCONFIG_ERROR
 =
 "
@@ -311,6 +319,12 @@ def
 find_mozconfig
 (
 topsrcdir
+:
+Union
+[
+str
+Path
+]
 env
 =
 os
@@ -437,6 +451,13 @@ above
 "
 "
     
+topsrcdir
+=
+Path
+(
+topsrcdir
+)
+    
 #
 Check
 for
@@ -480,15 +501,26 @@ not
 None
 :
         
-if
-not
-os
-.
-path
-.
-isabs
+env_path
+=
+Path
 (
 env_path
+)
+    
+if
+env_path
+is
+not
+None
+:
+        
+if
+not
+env_path
+.
+is_absolute
+(
 )
 :
             
@@ -496,9 +528,9 @@ potential_roots
 =
 [
 topsrcdir
-os
+Path
 .
-getcwd
+cwd
 (
 )
 ]
@@ -520,22 +552,24 @@ self
 topsrcdir
 =
 =
-os
+Path
 .
-curdir
+cwd
+(
+)
 .
             
-potential_roots
+potential_roots_strings
 =
 set
 (
-os
-.
-path
-.
-abspath
+str
 (
 p
+.
+resolve
+(
+)
 )
 for
 p
@@ -552,24 +586,20 @@ root
 for
 root
 in
-potential_roots
+potential_roots_strings
                 
 if
-os
-.
-path
+(
+Path
+(
+root
+)
+/
+env_path
+)
 .
 exists
 (
-os
-.
-path
-.
-join
-(
-root
-env_path
-)
 )
             
 ]
@@ -662,15 +692,9 @@ file
 mozconfigs
 =
 [
-os
-.
-path
-.
-join
-(
 root
+/
 env_path
-)
 for
 root
 in
@@ -749,7 +773,7 @@ of
 .
 join
 (
-potential_roots
+potential_roots_strings
 )
                         
 +
@@ -800,35 +824,26 @@ of
 .
 join
 (
-potential_roots
+potential_roots_strings
 )
                 
 )
             
 env_path
 =
-os
-.
-path
-.
-join
-(
 existing
 [
 0
 ]
+/
 env_path
-)
         
 elif
 not
-os
-.
-path
+env_path
 .
 exists
 (
-env_path
 )
 :
 #
@@ -852,26 +867,25 @@ path
 that
 "
                 
+f
 "
 does
 not
 exist
 :
-"
-+
+{
 env_path
+}
+"
             
 )
         
 if
 not
-os
-.
-path
-.
-isfile
-(
 env_path
+.
+is_file
+(
 )
 :
             
@@ -887,29 +901,25 @@ refers
 to
 a
 "
+f
 "
 non
 -
 file
 :
-"
-+
+{
 env_path
+}
+"
             
 )
     
 srcdir_paths
 =
 [
-os
-.
-path
-.
-join
-(
 topsrcdir
+/
 p
-)
 for
 p
 in
@@ -925,13 +935,10 @@ p
 in
 srcdir_paths
 if
-os
-.
-path
-.
-isfile
-(
 p
+.
+is_file
+(
 )
 ]
     
@@ -974,6 +981,13 @@ one
 .
 join
 (
+str
+(
+p
+)
+for
+p
+in
 existing
 )
         
@@ -1025,27 +1039,23 @@ None
 :
         
 return
-os
-.
-path
-.
-abspath
+str
 (
+Path
+.
+cwd
+(
+)
+/
 path
 )
     
 deprecated_paths
 =
 [
-os
-.
-path
-.
-join
-(
 topsrcdir
+/
 s
-)
 for
 s
 in
@@ -1071,20 +1081,21 @@ not
 None
 :
         
+home
+=
+Path
+(
+home
+)
+        
 deprecated_paths
 .
 extend
 (
 [
-os
-.
-path
-.
-join
-(
 home
+/
 s
-)
 for
 s
 in
@@ -1099,13 +1110,10 @@ deprecated_paths
 :
         
 if
-os
-.
 path
 .
 exists
 (
-path
 )
 :
             

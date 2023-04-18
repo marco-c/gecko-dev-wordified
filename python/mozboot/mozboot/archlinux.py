@@ -68,6 +68,10 @@ tempfile
 import
 subprocess
 from
+pathlib
+import
+Path
+from
 mozboot
 .
 base
@@ -447,6 +451,26 @@ artifact_mode
 =
 True
 )
+    
+def
+ensure_nasm_packages
+(
+self
+state_dir
+:
+Path
+checkout_root
+:
+Path
+)
+:
+        
+#
+installed
+via
+install_browser_packages
+        
+pass
     
 def
 install_mobile_android_packages
@@ -870,6 +894,8 @@ unpack
 (
 self
 path
+:
+Path
 name
 ext
 )
@@ -923,15 +949,10 @@ exit
         
 name
 =
-os
-.
 path
-.
-join
+/
 (
-path
 name
-)
 +
 "
 .
@@ -939,6 +960,7 @@ tar
 "
 +
 ext
+)
         
 command
 =
@@ -955,12 +977,18 @@ compression
 -
 f
 "
+str
+(
 name
+)
 "
 -
 C
 "
+str
+(
 path
+)
 ]
         
 self
@@ -1123,6 +1151,8 @@ return
         
 path
 =
+Path
+(
 tempfile
 .
 mkdtemp
@@ -1133,6 +1163,7 @@ prefix
 mozboot
 -
 "
+)
 )
         
 if
@@ -1254,9 +1285,9 @@ exit
         
 base_dir
 =
-os
+Path
 .
-getcwd
+cwd
 (
 )
         
@@ -1284,30 +1315,18 @@ package
             
 ext
 =
-os
-.
-path
-.
-splitext
+Path
 (
 url
 )
-[
--
-1
-]
+.
+suffix
             
 directory
 =
-os
-.
 path
-.
-join
-(
-path
+/
 name
-)
             
 self
 .
