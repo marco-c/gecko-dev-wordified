@@ -299,6 +299,16 @@ unused
 )
 ;
 async
+WaitOnePeriodicSampling
+(
+)
+returns
+(
+bool
+sampled
+)
+;
+async
 AwaitNextChunkManagerUpdate
 (
 )
