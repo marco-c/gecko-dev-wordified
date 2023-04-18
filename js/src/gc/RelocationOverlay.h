@@ -338,11 +338,12 @@ Cell
 dst
 )
 ;
+void
+setNext
+(
 RelocationOverlay
 *
-&
-nextRef
-(
+next
 )
 {
 MOZ_ASSERT
@@ -352,8 +353,9 @@ isForwarded
 )
 )
 ;
-return
 next_
+=
+next
 ;
 }
 RelocationOverlay
