@@ -1577,10 +1577,9 @@ actor
 .
 *
 Via
-browserId
-or
-browserElement
-attributes
+the
+sessionContext
+object
 for
 the
 watcher
