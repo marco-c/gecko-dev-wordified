@@ -1583,13 +1583,9 @@ ExternalImageId
 aExternalImage
 )
 ;
-gfx
-:
-:
-Matrix
+bool
 CalculateSwapChainSize
 (
-const
 gfx
 :
 :
