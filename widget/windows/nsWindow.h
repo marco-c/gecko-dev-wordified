@@ -3307,6 +3307,13 @@ MouseButton
 aButton
 )
 ;
+void
+SetSizeModeInternal
+(
+nsSizeMode
+aMode
+)
+;
 protected
 :
 static
