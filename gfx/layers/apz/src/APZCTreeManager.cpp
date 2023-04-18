@@ -26070,6 +26070,18 @@ false
 )
 ;
 }
+if
+(
+messages
+!
+=
+mLastMessages
+)
+{
+mLastMessages
+=
+messages
+;
 controller
 -
 >
@@ -26084,6 +26096,7 @@ messages
 )
 )
 ;
+}
 }
 void
 APZCTreeManager
