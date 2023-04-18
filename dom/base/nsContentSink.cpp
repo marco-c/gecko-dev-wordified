@@ -4053,7 +4053,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsContentSink
 :
 :
@@ -4091,9 +4091,6 @@ this
 mParsing
 =
 true
-;
-return
-NS_OK
 ;
 }
 nsresult

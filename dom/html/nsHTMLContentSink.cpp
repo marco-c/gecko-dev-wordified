@@ -772,10 +772,9 @@ void
 )
 override
 ;
-NS_IMETHOD
+void
 WillResume
 (
-void
 )
 override
 ;
@@ -4715,7 +4714,7 @@ WillInterruptImpl
 )
 ;
 }
-NS_IMETHODIMP
+void
 HTMLContentSink
 :
 :
@@ -4723,7 +4722,6 @@ WillResume
 (
 )
 {
-return
 WillResumeImpl
 (
 )

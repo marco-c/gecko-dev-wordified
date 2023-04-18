@@ -1366,13 +1366,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 XULContentSinkImpl
 :
 :
 WillResume
 (
-void
 )
 {
 /
@@ -1383,9 +1382,6 @@ the
 docshell
 if
 necessary
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 XULContentSinkImpl

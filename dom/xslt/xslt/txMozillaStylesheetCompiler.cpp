@@ -506,16 +506,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+void
 WillResume
 (
-void
 )
 override
 {
-return
-NS_OK
-;
 }
 NS_IMETHOD
 SetParser

@@ -526,7 +526,7 @@ only
 .
 *
 /
-NS_IMETHOD
+void
 WillResume
 (
 )

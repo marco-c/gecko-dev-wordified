@@ -554,10 +554,9 @@ WillInterruptImpl
 void
 )
 ;
-nsresult
+void
 WillResumeImpl
 (
-void
 )
 ;
 nsresult
