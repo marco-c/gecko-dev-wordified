@@ -234,9 +234,8 @@ WaitForClipboardData
 (
 ClipboardDataType
 aDataType
-GtkClipboard
-*
-clipboard
+int32_t
+aWhichClipboard
 const
 char
 *
