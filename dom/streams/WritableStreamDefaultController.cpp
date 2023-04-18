@@ -756,7 +756,7 @@ reason
 .
 RefPtr
 <
-UnderlyingSinkAlgorithms
+UnderlyingSinkAlgorithmsBase
 >
 algorithms
 =
@@ -967,7 +967,7 @@ aStream
 WritableStreamDefaultController
 *
 aController
-UnderlyingSinkAlgorithms
+UnderlyingSinkAlgorithmsBase
 *
 aAlgorithms
 double
@@ -2111,7 +2111,7 @@ closeAlgorithm
 .
 RefPtr
 <
-UnderlyingSinkAlgorithms
+UnderlyingSinkAlgorithmsBase
 >
 algorithms
 =
@@ -2465,7 +2465,7 @@ chunk
 .
 RefPtr
 <
-UnderlyingSinkAlgorithms
+UnderlyingSinkAlgorithmsBase
 >
 algorithms
 =
