@@ -5092,7 +5092,7 @@ rootBounds
 new
 DOMRect
 (
-this
+mOwner
 )
 ;
 rootBounds
@@ -5117,7 +5117,7 @@ boundingClientRect
 new
 DOMRect
 (
-this
+mOwner
 )
 ;
 boundingClientRect
@@ -5137,7 +5137,7 @@ intersectionRect
 new
 DOMRect
 (
-this
+mOwner
 )
 ;
 if
@@ -5171,7 +5171,7 @@ entry
 new
 DOMIntersectionObserverEntry
 (
-this
+mOwner
 time
 rootBounds
 .
