@@ -3544,11 +3544,6 @@ observer
 this
 .
 _win
-Services
-.
-tm
-.
-currentThread
 )
 ;
 this

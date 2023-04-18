@@ -436,10 +436,7 @@ ResetSync
 nsresult
 SyncWithMatchingVideoConduits
 (
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <
