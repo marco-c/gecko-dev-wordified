@@ -406,7 +406,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 internalResponse
 -
 >
-ToIPC
+ToChildToParentInternalResponse
 (
 &
 aIPCArgs

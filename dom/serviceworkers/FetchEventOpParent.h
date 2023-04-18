@@ -204,7 +204,7 @@ arrived
 .
 Maybe
 <
-ParentToChildInternalResponse
+ParentToParentInternalResponse
 >
 OnStart
 (
@@ -275,7 +275,7 @@ Pending
 {
 Maybe
 <
-ParentToChildInternalResponse
+ParentToParentInternalResponse
 >
 mPreloadResponse
 ;
