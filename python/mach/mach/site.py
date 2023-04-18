@@ -5184,7 +5184,7 @@ _mach_virtualenv_root
             
 lines
 .
-append
+extend
 (
                 
 PythonVirtualenv
@@ -5194,7 +5194,7 @@ self
 _mach_virtualenv_root
 )
 .
-site_packages_dir
+site_packages_dirs
 (
 )
             
@@ -5678,9 +5678,10 @@ None
 )
     
 def
-site_packages_dir
+resolve_sysconfig_packages_path
 (
 self
+sysconfig_path
 )
 :
         
@@ -5797,21 +5798,19 @@ data
 ]
 )
         
-purelib_path
+path
 =
 Path
 (
 sysconfig_paths
 [
-"
-purelib
-"
+sysconfig_path
 ]
 )
         
-relative_purelib_path
+relative_path
 =
-purelib_path
+path
 .
 relative_to
 (
@@ -5843,6 +5842,10 @@ site
 packages
 "
 directory
+for
+provided
+sysconfig
+path
         
 path
 =
@@ -5853,7 +5856,7 @@ path
 join
 (
 normalized_venv_root
-relative_purelib_path
+relative_path
 )
         
 local_folder
@@ -5921,6 +5924,36 @@ local_folder
         
 return
 path
+    
+def
+site_packages_dirs
+(
+self
+)
+:
+        
+return
+[
+            
+self
+.
+resolve_sysconfig_packages_path
+(
+"
+purelib
+"
+)
+            
+self
+.
+resolve_sysconfig_packages_path
+(
+"
+platlib
+"
+)
+        
+]
     
 def
 pip_install_with_constraints
@@ -7922,6 +7955,7 @@ path
 .
 join
 (
+                
 os
 .
 path
@@ -7930,11 +7964,16 @@ join
 (
 check_env
 .
-site_packages_dir
+resolve_sysconfig_packages_path
 (
+"
+platlib
+"
 )
 )
+                
 PTH_FILENAME
+            
 )
             
 "
@@ -8320,9 +8359,10 @@ virtualenv
 .
 prefix
         
+*
 virtualenv
 .
-site_packages_dir
+site_packages_dirs
 (
 )
     
@@ -8640,12 +8680,15 @@ virtualenv_root
     
 )
     
-site_packages_dir
+platlib_site_packages_dir
 =
 target_venv
 .
-site_packages_dir
+resolve_sysconfig_packages_path
 (
+"
+platlib
+"
 )
     
 pthfile_contents
@@ -8669,7 +8712,7 @@ path
 .
 join
 (
-site_packages_dir
+platlib_site_packages_dir
 PTH_FILENAME
 )
 "
@@ -8964,12 +9007,15 @@ values
 return
 False
     
-site_packages_dir
+platlib_site_packages_dir
 =
 target_venv
 .
-site_packages_dir
+resolve_sysconfig_packages_path
 (
+"
+platlib
+"
 )
     
 try
@@ -8984,7 +9030,7 @@ path
 .
 join
 (
-site_packages_dir
+platlib_site_packages_dir
 PTH_FILENAME
 )
 )
@@ -9108,9 +9154,10 @@ in
 virtualenv
 .
 prefix
+*
 virtualenv
 .
-site_packages_dir
+site_packages_dirs
 (
 )
 )
