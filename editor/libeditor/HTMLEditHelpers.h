@@ -2923,13 +2923,12 @@ container
 HTMLEditor
 :
 :
-CreateAndInsertElementWithTransaction
+CreateAndInsertElement
 (
 )
 or
 something
 similar
-*
 methods
 .
 *
