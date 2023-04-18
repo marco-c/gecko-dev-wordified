@@ -608,10 +608,11 @@ GetLocalSSRCs
 (
 )
 {
-MutexAutoLock
-lock
+MOZ_ASSERT
 (
-mMutex
+NS_IsMainThread
+(
+)
 )
 ;
 return
