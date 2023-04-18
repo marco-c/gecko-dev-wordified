@@ -768,6 +768,8 @@ aSucceeded
 ByteArray
 aOutCert
 ByteArray
+aOutKey
+ByteArray
 [
 ]
 aBuiltChain
