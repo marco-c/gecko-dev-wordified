@@ -596,14 +596,6 @@ AppendElement
 (
 )
 ;
-if
-(
-!
-step
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 step
 -
 >
