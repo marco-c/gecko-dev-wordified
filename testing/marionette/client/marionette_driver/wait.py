@@ -584,6 +584,8 @@ isinstance
 ignored_exceptions
 collections
 .
+abc
+.
 Iterable
 )
 :
