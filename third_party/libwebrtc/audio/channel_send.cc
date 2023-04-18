@@ -4369,6 +4369,9 @@ rtp_rtcp_
 >
 RegisterRtpHeaderExtension
 (
+webrtc
+:
+:
 AudioLevel
 :
 :
@@ -4384,6 +4387,9 @@ rtp_rtcp_
 >
 DeregisterSendRtpHeaderExtension
 (
+webrtc
+:
+:
 AudioLevel
 :
 :
