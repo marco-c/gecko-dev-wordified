@@ -14527,6 +14527,7 @@ SelectionBatcher
 selectionBatcher
 (
 selection
+__FUNCTION__
 nsISelectionListener
 :
 :
@@ -17712,6 +17713,7 @@ SelectionBatcher
 selectionBatcher
 (
 selection
+__FUNCTION__
 )
 ;
 /

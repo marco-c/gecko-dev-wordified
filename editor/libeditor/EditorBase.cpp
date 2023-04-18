@@ -6577,6 +6577,7 @@ selectionBatcher
 SelectionRef
 (
 )
+__FUNCTION__
 )
 ;
 if
@@ -7215,6 +7216,7 @@ preventSelectionChangeEvent
 (
 *
 this
+__FUNCTION__
 )
 ;
 NotifyEditorObservers
@@ -7623,6 +7625,7 @@ preventSelectionChangeEvent
 (
 *
 this
+__FUNCTION__
 )
 ;
 NotifyEditorObservers
@@ -7853,6 +7856,7 @@ NS_ERROR_FAILURE
 }
 BeginTransactionInternal
 (
+__FUNCTION__
 )
 ;
 return
@@ -7865,10 +7869,15 @@ EditorBase
 :
 BeginTransactionInternal
 (
+const
+char
+*
+aRequesterFuncName
 )
 {
 BeginUpdateViewBatch
 (
+aRequesterFuncName
 )
 ;
 if
@@ -7964,6 +7973,7 @@ NS_ERROR_FAILURE
 }
 EndTransactionInternal
 (
+__FUNCTION__
 )
 ;
 return
@@ -7976,6 +7986,10 @@ EditorBase
 :
 EndTransactionInternal
 (
+const
+char
+*
+aRequesterFuncName
 )
 {
 if
@@ -8028,6 +8042,7 @@ ignored
 }
 EndUpdateViewBatch
 (
+aRequesterFuncName
 )
 ;
 }
@@ -8040,6 +8055,10 @@ BeginPlaceholderTransaction
 nsStaticAtom
 &
 aTransactionName
+const
+char
+*
+aRequesterFuncName
 )
 {
 MOZ_ASSERT
@@ -8085,6 +8104,7 @@ the
 batch
 BeginUpdateViewBatch
 (
+aRequesterFuncName
 )
 ;
 mPlaceholderTransaction
@@ -8204,6 +8224,10 @@ EndPlaceholderTransaction
 (
 ScrollSelectionIntoView
 aScrollSelectionIntoView
+const
+char
+*
+aRequesterFuncName
 )
 {
 MOZ_ASSERT
@@ -8335,6 +8359,7 @@ the
 batch
 EndUpdateViewBatch
 (
+aRequesterFuncName
 )
 ;
 /
@@ -11448,6 +11473,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -16898,6 +16924,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 /
@@ -19413,6 +19440,7 @@ believe
 .
 BeginUpdateViewBatch
 (
+__FUNCTION__
 )
 ;
 nsresult
@@ -19442,6 +19470,7 @@ failed
 ;
 EndUpdateViewBatch
 (
+__FUNCTION__
 )
 ;
 if
@@ -21944,6 +21973,10 @@ EditorBase
 :
 BeginUpdateViewBatch
 (
+const
+char
+*
+aRequesterFuncName
 )
 {
 MOZ_ASSERT
@@ -21986,6 +22019,7 @@ SelectionRef
 .
 StartBatchChanges
 (
+aRequesterFuncName
 )
 ;
 }
@@ -22000,6 +22034,10 @@ EditorBase
 :
 EndUpdateViewBatch
 (
+const
+char
+*
+aRequesterFuncName
 )
 {
 MOZ_ASSERT
@@ -22022,10 +22060,13 @@ state
 ;
 if
 (
+NS_WARN_IF
+(
 mUpdateCount
 <
 =
 0
+)
 )
 {
 mUpdateCount
@@ -22061,6 +22102,7 @@ SelectionRef
 .
 EndBatchChanges
 (
+aRequesterFuncName
 )
 ;
 }
@@ -23173,6 +23215,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 MOZ_ASSERT
@@ -27054,6 +27097,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -28790,6 +28834,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 /
@@ -28813,6 +28858,7 @@ selectionBatcher
 SelectionRef
 (
 )
+__FUNCTION__
 )
 ;
 /
@@ -30018,6 +30064,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 }
@@ -32605,6 +32652,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -33020,6 +33068,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 /
@@ -33283,6 +33332,7 @@ preventSelectionChangeEvent
 (
 *
 this
+__FUNCTION__
 )
 ;
 /
@@ -38748,6 +38798,7 @@ ScrollSelectionIntoView
 :
 :
 Yes
+__FUNCTION__
 )
 ;
 rv
@@ -39870,6 +39921,7 @@ mSelection
 >
 EndBatchChanges
 (
+__FUNCTION__
 )
 ;
 }
@@ -40018,6 +40070,7 @@ aSelection
 .
 StartBatchChanges
 (
+__FUNCTION__
 )
 ;
 }

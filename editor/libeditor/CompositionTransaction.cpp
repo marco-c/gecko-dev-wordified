@@ -2202,6 +2202,7 @@ SelectionBatcher
 selectionBatcher
 (
 selection
+__FUNCTION__
 )
 ;
 /
