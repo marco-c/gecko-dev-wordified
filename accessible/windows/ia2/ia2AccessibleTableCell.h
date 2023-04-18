@@ -143,7 +143,7 @@ namespace
 a11y
 {
 class
-TableCellAccessible
+TableCellAccessibleBase
 ;
 class
 ia2AccessibleTableCell
@@ -476,7 +476,7 @@ ia2AccessibleHypertext
 ;
 private
 :
-TableCellAccessible
+TableCellAccessibleBase
 *
 CellAcc
 (
