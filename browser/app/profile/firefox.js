@@ -3712,7 +3712,7 @@ upgradeDialog
 .
 enabled
 "
-false
+true
 )
 ;
 /
