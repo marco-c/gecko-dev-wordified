@@ -5391,6 +5391,9 @@ mode
 webrtc
 :
 :
+VideoCodecMode
+:
+:
 kRealtimeVideo
 ;
 switch
@@ -5430,6 +5433,9 @@ mode
 webrtc
 :
 :
+VideoCodecMode
+:
+:
 kScreensharing
 ;
 break
@@ -5448,6 +5454,9 @@ default
 mode
 =
 webrtc
+:
+:
+VideoCodecMode
 :
 :
 kRealtimeVideo
