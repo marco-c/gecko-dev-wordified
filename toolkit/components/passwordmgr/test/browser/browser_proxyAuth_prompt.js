@@ -58,7 +58,6 @@ MPL
 /
 "
 use
--
 strict
 "
 ;

@@ -30,7 +30,6 @@ zero
 /
 "
 use
--
 strict
 "
 ;
