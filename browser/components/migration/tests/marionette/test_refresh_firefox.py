@@ -1275,10 +1275,11 @@ let
 TabStateFlusher
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
+            
 "
 resource
 :
@@ -1293,8 +1294,7 @@ TabStateFlusher
 .
 jsm
 "
-{
-}
+          
 )
 ;
           
@@ -1631,10 +1631,16 @@ length
 ]
 ;
           
-Cu
+let
+{
+FxAccountsStorageManager
+}
+=
+ChromeUtils
 .
 import
 (
+            
 "
 resource
 :
@@ -1648,6 +1654,7 @@ FxAccountsStorage
 .
 jsm
 "
+          
 )
 ;
           
@@ -3393,10 +3400,16 @@ runAsyncCode
 "
 "
           
-Cu
+let
+{
+FxAccountsStorageManager
+}
+=
+ChromeUtils
 .
 import
 (
+            
 "
 resource
 :
@@ -3410,6 +3423,7 @@ FxAccountsStorage
 .
 jsm
 "
+          
 )
 ;
           
@@ -3919,10 +3933,11 @@ global
 .
 Preferences
 =
-Cu
+ChromeUtils
 .
 import
 (
+            
 "
 resource
 :
@@ -3936,8 +3951,7 @@ Preferences
 .
 jsm
 "
-{
-}
+          
 )
 .
 Preferences
@@ -3947,10 +3961,11 @@ global
 .
 FormHistory
 =
-Cu
+ChromeUtils
 .
 import
 (
+            
 "
 resource
 :
@@ -3964,8 +3979,7 @@ FormHistory
 .
 jsm
 "
-{
-}
+          
 )
 .
 FormHistory
@@ -4001,10 +4015,11 @@ global
 .
 formAutofillStorage
 =
-Cu
+ChromeUtils
 .
 import
 (
+              
 "
 resource
 :
@@ -4016,8 +4031,7 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
+            
 )
 .
 formAutofillStorage
