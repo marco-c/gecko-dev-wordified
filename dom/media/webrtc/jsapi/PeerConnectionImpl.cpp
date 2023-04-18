@@ -1638,7 +1638,6 @@ mPCObserver
 mWindow
 mCertificate
 mSTSThread
-mTransceivers
 mReceiveStreams
 mKungFuDeathGrip
 )
@@ -1654,7 +1653,6 @@ mPCObserver
 mWindow
 mCertificate
 mSTSThread
-mTransceivers
 mReceiveStreams
 mKungFuDeathGrip
 )
