@@ -1787,7 +1787,6 @@ JS
 EncodeStencil
 (
 cx
-options
 stencil
 buffer
 )
@@ -2324,7 +2323,6 @@ JS
 EncodeStencil
 (
 cx
-options
 stencil
 buffer
 )

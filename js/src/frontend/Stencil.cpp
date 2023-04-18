@@ -25973,13 +25973,6 @@ EncodeStencil
 JSContext
 *
 cx
-const
-JS
-:
-:
-ReadOnlyCompileOptions
-&
-options
 JS
 :
 :

@@ -224,13 +224,6 @@ uri
 JSContext
 *
 cx
-const
-JS
-:
-:
-ReadOnlyCompileOptions
-&
-options
 JS
 :
 :
