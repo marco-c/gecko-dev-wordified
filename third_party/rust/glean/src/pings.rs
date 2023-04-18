@@ -287,7 +287,7 @@ PingType
 new
 (
 "
-events
+metrics
 "
 true
 false

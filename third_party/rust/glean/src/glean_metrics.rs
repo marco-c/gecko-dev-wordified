@@ -168,7 +168,7 @@ new
 (
 CommonMetricData
 {
-category
+name
 :
 "
 glean
@@ -179,7 +179,7 @@ error
 into
 (
 )
-name
+category
 :
 "
 preinit_tasks_overflow

@@ -112,16 +112,7 @@ pings
 from
 .
 import
-tags
-from
-.
-import
 util
-from
-.
-util
-import
-DictWrapper
 def
 kotlin_datatypes_filter
 (
@@ -1258,10 +1249,11 @@ type
     
 gecko_metrics
 :
-Dict
+OrderedDict
 [
+        
 str
-Dict
+OrderedDict
 [
 str
 List
@@ -1273,9 +1265,10 @@ str
 ]
 ]
 ]
+    
 ]
 =
-DictWrapper
+OrderedDict
 (
 )
     
@@ -1360,8 +1353,6 @@ it
 .
             
 if
-(
-                
 isinstance
 (
 metric
@@ -1369,26 +1360,16 @@ pings
 .
 Ping
 )
-                
-or
-isinstance
-(
-metric
-tags
-.
-Tag
-)
-                
 or
 not
 getattr
 (
+                
 metric
 "
 gecko_datapoint
 "
 False
-)
             
 )
 :

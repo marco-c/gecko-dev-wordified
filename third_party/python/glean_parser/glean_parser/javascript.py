@@ -92,8 +92,12 @@ typing
 import
 Any
 Dict
+List
 Optional
+Union
 Callable
+#
+noqa
 from
 .
 import
@@ -301,7 +305,7 @@ class
 name
 for
 that
-type
+time
 in
 the
 current
@@ -400,53 +404,6 @@ class_name
     
 return
 class_name
-def
-extra_type_name
-(
-extra_type
-:
-str
-)
--
->
-str
-:
-    
-"
-"
-"
-    
-Returns
-the
-equivalent
-TypeScript
-type
-to
-an
-extra
-type
-.
-    
-"
-"
-"
-    
-if
-extra_type
-=
-=
-"
-quantity
-"
-:
-        
-return
-"
-number
-"
-    
-return
-extra_type
 def
 import_path
 (
@@ -824,8 +781,10 @@ webext
 "
 )
     
-accepted_platforms
-=
+if
+platform
+not
+in
 [
 "
 qt
@@ -833,16 +792,7 @@ qt
 "
 webext
 "
-"
-node
-"
 ]
-    
-if
-platform
-not
-in
-accepted_platforms
 :
         
 raise
@@ -861,14 +811,11 @@ platform
 Accepted
 platforms
 are
-:
-{
-accepted_platforms
-}
+qt
+and
+webext
 .
 "
-#
-noqa
         
 )
     
@@ -945,13 +892,6 @@ class_name_factory
 (
 platform
 )
-)
-            
-(
-"
-extra_type_name
-"
-extra_type_name
 )
             
 (
