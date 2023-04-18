@@ -18014,6 +18014,15 @@ compareType
 MCompare
 :
 :
+Compare_UInt64
+&
+&
+compareType
+!
+=
+MCompare
+:
+:
 Compare_UIntPtr
 )
 ;
