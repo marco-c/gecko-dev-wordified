@@ -235,9 +235,12 @@ gcparam
 "
 allocationThreshold
 "
-1024
+1
+/
 *
-1024
+MB
+*
+/
 )
 ;
 /
