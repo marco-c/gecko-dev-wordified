@@ -2729,9 +2729,9 @@ const
 UNICODE_VERSION
 :
 (
-u64
-u64
-u64
+u8
+u8
+u8
 )
 =
 (

@@ -667,7 +667,7 @@ message
 a
 str
 }
-AssertUncaughtException
+AssertException
 {
 span
 :
@@ -818,7 +818,7 @@ span
 WastDirective
 :
 :
-AssertUncaughtException
+AssertException
 {
 span
 .
@@ -2206,7 +2206,7 @@ peek
 kw
 :
 :
-assert_uncaught_exception
+assert_exception
 >
 (
 )
@@ -2223,7 +2223,7 @@ parse
 kw
 :
 :
-assert_uncaught_exception
+assert_exception
 >
 (
 )
@@ -2236,7 +2236,7 @@ Ok
 WastDirective
 :
 :
-AssertUncaughtException
+AssertException
 {
 span
 exec
