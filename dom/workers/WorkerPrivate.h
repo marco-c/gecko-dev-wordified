@@ -7768,7 +7768,7 @@ CheckedUnsafePtr
 <
 WorkerPrivate
 >
-keepAliveWP
+workerPrivate
 =
 mWorkerPrivate
 ;
@@ -7776,7 +7776,7 @@ mWorkerPrivate
 =
 nullptr
 ;
-keepAliveWP
+workerPrivate
 -
 >
 AssertIsOnWorkerThread
@@ -7784,7 +7784,7 @@ AssertIsOnWorkerThread
 )
 ;
 return
-keepAliveWP
+workerPrivate
 -
 >
 RunCurrentSyncLoop
