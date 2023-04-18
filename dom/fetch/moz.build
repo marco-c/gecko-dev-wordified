@@ -225,6 +225,11 @@ FetchObserver
 cpp
 "
 "
+FetchService
+.
+cpp
+"
+"
 FetchStreamReader
 .
 cpp
