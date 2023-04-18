@@ -138,7 +138,7 @@ performRequests
 (
 monitor
 tab
-3
+12
 )
 ;
 let
@@ -539,7 +539,7 @@ netWorkEvent
 waitForNetworkEvents
 (
 monitor
-2
+3
 )
 ;
 await
