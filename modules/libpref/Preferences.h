@@ -2670,6 +2670,7 @@ bool
 const
 char
 *
+bool
 )
 >
 &
@@ -3415,6 +3416,8 @@ const
 char
 *
 aPref
+bool
+aIsDestWebContentProcess
 )
 ;
 }
