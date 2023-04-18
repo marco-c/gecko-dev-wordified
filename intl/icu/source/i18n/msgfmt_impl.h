@@ -355,8 +355,10 @@ public
 :
 FormatNameEnumeration
 (
+LocalPointer
+<
 UVector
-*
+>
 fFormatNames
 UErrorCode
 &
@@ -424,8 +426,10 @@ private
 int32_t
 pos
 ;
+LocalPointer
+<
 UVector
-*
+>
 fFormatNames
 ;
 }

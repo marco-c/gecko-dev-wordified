@@ -2412,7 +2412,7 @@ err
 UVector
 pluralCounts
 (
-0
+nullptr
 uhash_compareUnicodeString
 6
 err
@@ -2477,7 +2477,7 @@ NULL
 {
 pluralCounts
 .
-addElementX
+addElement
 (
 pluralCount
 err

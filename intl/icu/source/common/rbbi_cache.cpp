@@ -1006,6 +1006,10 @@ text
 rangeStart
 rangeEnd
 fBreaks
+fBI
+-
+>
+fIsPhraseBreaking
 status
 )
 ;

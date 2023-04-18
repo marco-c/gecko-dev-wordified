@@ -778,6 +778,7 @@ UVector32
 &
 other
 )
+const
 ;
 /
 *
@@ -804,6 +805,7 @@ UVector32
 &
 other
 )
+const
 ;
 /
 /
@@ -1998,6 +2000,7 @@ UVector32
 &
 other
 )
+const
 {
 return
 !
