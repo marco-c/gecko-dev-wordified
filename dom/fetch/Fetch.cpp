@@ -6815,7 +6815,7 @@ DerivedClass
 )
 -
 >
-GetSignalImpl
+GetSignalImplToConsumeBody
 (
 )
 ;
