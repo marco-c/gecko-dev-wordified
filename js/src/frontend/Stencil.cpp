@@ -28612,15 +28612,10 @@ refCount
 0
 )
 ;
-stencil
--
->
-refCount
--
--
-;
 if
 (
+-
+-
 stencil
 -
 >
