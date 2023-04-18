@@ -2999,11 +2999,7 @@ Feature
 SET_VIDEO_SURFACE
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 MSFeature
 {

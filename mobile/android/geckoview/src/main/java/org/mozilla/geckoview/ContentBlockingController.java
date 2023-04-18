@@ -966,11 +966,7 @@ Event
 REPLACED_TRACKING_CONTENT
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 LogEvent
 {

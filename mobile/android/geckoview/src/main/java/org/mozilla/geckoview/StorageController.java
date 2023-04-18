@@ -562,11 +562,7 @@ ClearFlags
 ALL
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 StorageControllerClearFlags
 {

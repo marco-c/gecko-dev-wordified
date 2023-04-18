@@ -6988,11 +6988,7 @@ COLOR_SCHEME_DARK
 COLOR_SCHEME_SYSTEM
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 ColorScheme
 {
@@ -7905,11 +7901,7 @@ HTTPS_ONLY_PRIVATE
 HTTPS_ONLY
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 HttpsOnlyMode
 {

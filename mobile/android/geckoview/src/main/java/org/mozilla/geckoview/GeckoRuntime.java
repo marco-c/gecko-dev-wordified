@@ -1181,11 +1181,7 @@ CRASHED_PROCESS_TYPE_FOREGROUND_CHILD
 CRASHED_PROCESS_TYPE_BACKGROUND_CHILD
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 CrashedProcessType
 {

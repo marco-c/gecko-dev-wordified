@@ -162,11 +162,7 @@ DOCUMENT_WIDTH
 DOCUMENT_HEIGHT
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 ScreenLengthType
 {

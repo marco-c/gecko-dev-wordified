@@ -1777,11 +1777,7 @@ BACKEND_SURFACE_VIEW
 BACKEND_TEXTURE_VIEW
 }
 )
-/
-*
-protected
-*
-/
+public
 interface
 ViewBackend
 {

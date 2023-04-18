@@ -5522,11 +5522,7 @@ SEND_COMPOSITION_NOTIFY_GECKO
 SEND_COMPOSITION_KEEP_CURRENT
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 CompositionFlags
 {

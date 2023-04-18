@@ -263,11 +263,7 @@ ERROR_CATEGORY_PROXY
 ERROR_CATEGORY_SAFEBROWSING
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 ErrorCategory
 {
@@ -311,11 +307,7 @@ ERROR_DATA_URI_TOO_LONG
 ERROR_HTTPS_ONLY
 }
 )
-/
-*
-package
-*
-/
+public
 interface
 Error
 {
