@@ -142,13 +142,6 @@ UTF
 "
 ;
 const
-CHARSET_ANNO
-=
-PlacesUtils
-.
-CHARSET_ANNO
-;
-const
 TEST_URI
 =
 "
