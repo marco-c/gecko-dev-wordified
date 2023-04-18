@@ -66,6 +66,11 @@ tabs
 with
 keyboard
 shortcuts
+"
+use
+strict
+"
+;
 add_task
 (
 async

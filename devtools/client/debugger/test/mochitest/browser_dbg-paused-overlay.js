@@ -64,6 +64,11 @@ Tests
 the
 paused
 overlay
+"
+use
+strict
+"
+;
 add_task
 (
 async

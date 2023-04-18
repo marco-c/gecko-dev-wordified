@@ -73,6 +73,11 @@ stepping
 in
 them
 .
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

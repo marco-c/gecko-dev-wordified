@@ -73,6 +73,11 @@ using
 windowless
 workers
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

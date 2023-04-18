@@ -76,6 +76,11 @@ opens
 the
 Inspector
 panel
+"
+use
+strict
+"
+;
 add_task
 (
 async

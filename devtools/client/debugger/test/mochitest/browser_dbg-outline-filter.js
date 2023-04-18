@@ -69,6 +69,11 @@ filtering
 of
 outline
 items
+"
+use
+strict
+"
+;
 add_task
 (
 async

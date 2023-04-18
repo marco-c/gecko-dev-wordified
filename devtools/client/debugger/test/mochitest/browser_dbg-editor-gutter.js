@@ -73,6 +73,11 @@ exist
 /
 /
 correctly
+"
+use
+strict
+"
+;
 /
 /
 FIXME

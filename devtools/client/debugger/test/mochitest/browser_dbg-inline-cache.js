@@ -95,6 +95,11 @@ caching
 enabled
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Breakpoint

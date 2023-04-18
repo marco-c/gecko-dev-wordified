@@ -86,6 +86,11 @@ to
 that
 call
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

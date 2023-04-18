@@ -58,6 +58,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 module
 .
 exports

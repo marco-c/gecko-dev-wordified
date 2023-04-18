@@ -77,6 +77,11 @@ the
 thread
 information
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

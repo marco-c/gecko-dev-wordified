@@ -84,6 +84,11 @@ invalid
 original
 location
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

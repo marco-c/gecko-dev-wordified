@@ -65,6 +65,11 @@ adding
 and
 removing
 tabs
+"
+use
+strict
+"
+;
 add_task
 (
 async

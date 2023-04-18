@@ -77,6 +77,11 @@ at
 column
 0
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

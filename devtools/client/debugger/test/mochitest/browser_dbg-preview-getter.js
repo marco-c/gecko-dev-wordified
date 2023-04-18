@@ -88,6 +88,11 @@ not
 working
 in
 Preview
+"
+use
+strict
+"
+;
 add_task
 (
 async

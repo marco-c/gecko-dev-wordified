@@ -70,6 +70,11 @@ together
 as
 expected
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

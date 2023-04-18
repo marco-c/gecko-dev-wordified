@@ -74,6 +74,11 @@ it
 s
 fetched
 separately
+"
+use
+strict
+"
+;
 add_task
 (
 async

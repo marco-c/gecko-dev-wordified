@@ -68,6 +68,11 @@ include
 the
 async
 separator
+"
+use
+strict
+"
+;
 add_task
 (
 async

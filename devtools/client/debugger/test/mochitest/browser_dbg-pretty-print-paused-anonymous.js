@@ -74,6 +74,11 @@ works
 while
 paused
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

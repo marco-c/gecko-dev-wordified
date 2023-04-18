@@ -71,6 +71,11 @@ losing
 your
 editor
 position
+"
+use
+strict
+"
+;
 add_task
 (
 async

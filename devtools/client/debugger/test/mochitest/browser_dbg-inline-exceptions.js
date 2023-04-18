@@ -79,6 +79,11 @@ the
 exception
 tooltip
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

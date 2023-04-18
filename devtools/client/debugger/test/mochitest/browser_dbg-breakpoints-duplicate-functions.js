@@ -101,6 +101,11 @@ the
 breakpoint
 sliding
 functionality
+"
+use
+strict
+"
+;
 add_task
 (
 async

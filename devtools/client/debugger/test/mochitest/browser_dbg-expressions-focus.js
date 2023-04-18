@@ -73,6 +73,11 @@ when
 "
 is
 clicked
+"
+use
+strict
+"
+;
 add_task
 (
 async

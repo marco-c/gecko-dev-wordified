@@ -84,6 +84,11 @@ on
 uncaught
 exceptions
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

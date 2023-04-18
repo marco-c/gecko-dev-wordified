@@ -70,6 +70,11 @@ in
 the
 list
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

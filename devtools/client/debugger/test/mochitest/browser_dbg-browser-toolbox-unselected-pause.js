@@ -81,6 +81,11 @@ t
 been
 opened
 .
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 4

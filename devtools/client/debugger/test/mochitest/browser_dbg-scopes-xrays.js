@@ -74,6 +74,11 @@ the
 scopes
 pane
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

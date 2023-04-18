@@ -74,6 +74,11 @@ on
 the
 next
 execution
+"
+use
+strict
+"
+;
 add_task
 (
 async

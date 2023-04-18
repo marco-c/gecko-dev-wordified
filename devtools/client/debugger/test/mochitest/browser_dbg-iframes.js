@@ -93,6 +93,11 @@ cgi
 id
 =
 1423158
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 3

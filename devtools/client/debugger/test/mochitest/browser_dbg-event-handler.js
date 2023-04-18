@@ -101,6 +101,11 @@ s
 text
 instead
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

@@ -88,6 +88,11 @@ F5
 .
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

@@ -69,6 +69,11 @@ breakpoints
 and
 debugger
 statements
+"
+use
+strict
+"
+;
 add_task
 (
 async

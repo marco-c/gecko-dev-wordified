@@ -83,6 +83,11 @@ changes
 .
 *
 /
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

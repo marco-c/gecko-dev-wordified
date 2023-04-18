@@ -87,6 +87,11 @@ URL
 -
 less
 source
+"
+use
+strict
+"
+;
 add_task
 (
 async

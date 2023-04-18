@@ -75,6 +75,11 @@ break
 /
 debugging
 .
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

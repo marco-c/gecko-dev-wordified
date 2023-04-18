@@ -71,6 +71,11 @@ using
 editor
 context
 menu
+"
+use
+strict
+"
+;
 add_task
 (
 async

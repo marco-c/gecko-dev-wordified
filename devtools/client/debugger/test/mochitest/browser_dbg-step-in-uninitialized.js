@@ -79,6 +79,11 @@ instead
 of
 undefined
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

@@ -79,6 +79,11 @@ t
 have
 functions
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

@@ -143,6 +143,11 @@ flag
 IS_BREAKPOINT_SHIFTING_ENABLED
 =
 false
+"
+use
+strict
+"
+;
 const
 IS_BREAKPOINT_SHIFTING_ENABLED
 =

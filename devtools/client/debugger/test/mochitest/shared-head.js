@@ -87,6 +87,11 @@ files
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 eslint

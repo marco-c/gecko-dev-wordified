@@ -83,6 +83,11 @@ breakpoints
 in
 them
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

@@ -73,6 +73,11 @@ have
 been
 GCed
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

@@ -76,6 +76,11 @@ the
 Call
 stack
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

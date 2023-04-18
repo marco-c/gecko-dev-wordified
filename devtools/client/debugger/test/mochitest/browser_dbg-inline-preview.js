@@ -65,6 +65,11 @@ checking
 inline
 preview
 feature
+"
+use
+strict
+"
+;
 add_task
 (
 async

@@ -78,6 +78,11 @@ the
 correct
 location
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

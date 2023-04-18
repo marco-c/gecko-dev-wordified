@@ -74,6 +74,11 @@ the
 /
 debugger
 pauses
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

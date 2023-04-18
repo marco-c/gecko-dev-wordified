@@ -70,6 +70,11 @@ unused
 vars
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 This

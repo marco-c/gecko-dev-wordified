@@ -68,6 +68,11 @@ in
 a
 remote
 frame
+"
+use
+strict
+"
+;
 const
 TEST_COM_URI
 =

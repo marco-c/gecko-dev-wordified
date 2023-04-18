@@ -77,6 +77,11 @@ by
 debugger
 hooks
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

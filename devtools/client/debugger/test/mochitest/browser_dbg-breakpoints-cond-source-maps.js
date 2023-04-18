@@ -77,6 +77,11 @@ in
 generated
 files
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

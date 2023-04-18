@@ -69,6 +69,11 @@ top
 level
 target
 .
+"
+use
+strict
+"
+;
 const
 PARENT_PROCESS_URI
 =

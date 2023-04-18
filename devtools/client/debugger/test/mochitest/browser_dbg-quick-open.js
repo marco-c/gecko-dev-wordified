@@ -63,6 +63,11 @@ MPL
 Testing
 quick
 open
+"
+use
+strict
+"
+;
 add_task
 (
 async

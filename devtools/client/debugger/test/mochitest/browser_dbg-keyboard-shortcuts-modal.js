@@ -69,6 +69,11 @@ shortcuts
 modal
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

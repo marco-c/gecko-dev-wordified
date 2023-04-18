@@ -69,6 +69,11 @@ printed
 tabs
 on
 load
+"
+use
+strict
+"
+;
 add_task
 (
 async

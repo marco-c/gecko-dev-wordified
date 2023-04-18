@@ -77,6 +77,11 @@ process
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 There

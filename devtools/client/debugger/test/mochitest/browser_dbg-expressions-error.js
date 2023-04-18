@@ -92,6 +92,11 @@ expand
 properties
 *
 /
+"
+use
+strict
+"
+;
 const
 EXPRESSION_SELECTORS
 =

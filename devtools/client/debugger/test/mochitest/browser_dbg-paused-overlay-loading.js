@@ -88,6 +88,11 @@ Bug
 1678636
 )
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

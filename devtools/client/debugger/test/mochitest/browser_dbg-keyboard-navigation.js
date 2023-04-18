@@ -71,6 +71,11 @@ of
 debugger
 code
 editor
+"
+use
+strict
+"
+;
 add_task
 (
 async

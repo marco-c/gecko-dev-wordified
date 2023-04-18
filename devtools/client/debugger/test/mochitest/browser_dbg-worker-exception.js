@@ -73,6 +73,11 @@ newly
 created
 workers
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

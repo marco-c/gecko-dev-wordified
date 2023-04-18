@@ -68,6 +68,11 @@ continuing
 to
 a
 line
+"
+use
+strict
+"
+;
 add_task
 (
 async

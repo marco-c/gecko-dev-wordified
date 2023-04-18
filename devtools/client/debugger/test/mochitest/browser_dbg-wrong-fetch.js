@@ -83,6 +83,11 @@ an
 open
 page
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

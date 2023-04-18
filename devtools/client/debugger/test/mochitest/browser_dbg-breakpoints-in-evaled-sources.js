@@ -121,6 +121,11 @@ the
 thread
 actor
 .
+"
+use
+strict
+"
+;
 const
 EVALED_SOURCE_TEXT
 =

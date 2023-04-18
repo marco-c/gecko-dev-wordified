@@ -79,6 +79,11 @@ reload
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 testServer
 =

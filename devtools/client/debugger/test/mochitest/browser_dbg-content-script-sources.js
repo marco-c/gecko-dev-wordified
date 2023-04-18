@@ -72,6 +72,11 @@ the
 source
 tree
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

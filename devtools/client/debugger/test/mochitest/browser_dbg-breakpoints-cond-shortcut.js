@@ -81,6 +81,11 @@ passed
 in
 cursorPosition
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

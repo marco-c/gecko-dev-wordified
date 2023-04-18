@@ -92,6 +92,11 @@ caught
 error
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

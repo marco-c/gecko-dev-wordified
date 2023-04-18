@@ -80,6 +80,11 @@ not
 persist
 upon
 reload
+"
+use
+strict
+"
+;
 add_task
 (
 async

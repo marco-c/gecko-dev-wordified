@@ -84,6 +84,11 @@ pause
 /
 breakpoint
 selection
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

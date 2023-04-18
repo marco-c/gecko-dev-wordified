@@ -99,6 +99,11 @@ during
 the
 same
 pause
+"
+use
+strict
+"
+;
 add_task
 (
 async

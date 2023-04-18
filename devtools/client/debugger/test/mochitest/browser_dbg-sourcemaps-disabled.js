@@ -69,6 +69,11 @@ bundles
 with
 sourcemaps
 disabled
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

@@ -106,6 +106,11 @@ are
 removed
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

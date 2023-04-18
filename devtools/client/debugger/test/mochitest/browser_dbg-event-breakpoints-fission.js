@@ -72,6 +72,11 @@ a
 remote
 frame
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

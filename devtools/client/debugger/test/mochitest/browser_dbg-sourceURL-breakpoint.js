@@ -75,6 +75,11 @@ a
 sourceURL
 property
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

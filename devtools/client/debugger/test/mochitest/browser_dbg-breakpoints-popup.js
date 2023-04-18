@@ -67,6 +67,11 @@ hit
 breakpoints
 on
 popups
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

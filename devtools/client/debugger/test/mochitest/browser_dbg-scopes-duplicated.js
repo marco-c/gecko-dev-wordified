@@ -75,6 +75,11 @@ See
 Bug
 1617210
 .
+"
+use
+strict
+"
+;
 const
 httpServer
 =

@@ -95,6 +95,11 @@ not
 paused
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

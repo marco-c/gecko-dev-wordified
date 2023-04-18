@@ -64,6 +64,11 @@ Testing
 basic
 project
 search
+"
+use
+strict
+"
+;
 add_task
 (
 async

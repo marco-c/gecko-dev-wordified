@@ -75,6 +75,11 @@ the
 /
 debugger
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

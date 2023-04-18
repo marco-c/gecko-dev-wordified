@@ -71,6 +71,11 @@ relevant
 breakpoint
 is
 hit
+"
+use
+strict
+"
+;
 add_task
 (
 async

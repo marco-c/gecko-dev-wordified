@@ -95,6 +95,11 @@ pollute
 other
 tests
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

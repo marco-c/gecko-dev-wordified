@@ -66,6 +66,11 @@ minfied
 source
 maps
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

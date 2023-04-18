@@ -80,6 +80,11 @@ the
 debugger
 editor
 .
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 5

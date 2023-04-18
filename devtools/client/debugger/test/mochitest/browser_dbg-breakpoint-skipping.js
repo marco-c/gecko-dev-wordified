@@ -76,6 +76,11 @@ pausing
 .
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

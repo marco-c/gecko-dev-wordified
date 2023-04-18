@@ -86,6 +86,11 @@ sort
 functions
 alphabetically
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

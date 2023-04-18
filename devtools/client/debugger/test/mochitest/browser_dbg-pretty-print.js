@@ -67,6 +67,11 @@ pretty
 printing
 functionality
 .
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

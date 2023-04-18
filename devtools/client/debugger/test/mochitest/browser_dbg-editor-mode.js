@@ -74,6 +74,11 @@ file
 /
 /
 types
+"
+use
+strict
+"
+;
 add_task
 (
 async

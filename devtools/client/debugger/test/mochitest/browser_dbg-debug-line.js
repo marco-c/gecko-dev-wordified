@@ -87,6 +87,11 @@ debugger
 issues
 /
 7755
+"
+use
+strict
+"
+;
 add_task
 (
 async

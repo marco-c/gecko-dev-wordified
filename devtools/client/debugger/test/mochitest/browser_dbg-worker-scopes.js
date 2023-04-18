@@ -58,6 +58,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 PromiseTestUtils
 .
 allowMatchingRejectionsGlobally

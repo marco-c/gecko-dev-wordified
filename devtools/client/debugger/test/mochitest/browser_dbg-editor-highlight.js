@@ -95,6 +95,11 @@ doesn
 t
 exist
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

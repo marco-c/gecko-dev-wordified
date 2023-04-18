@@ -131,6 +131,11 @@ outside
 this
 directory
 '
+"
+use
+strict
+"
+;
 const
 SOURCE_FILES
 =

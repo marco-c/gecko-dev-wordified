@@ -79,6 +79,11 @@ sync
 breakpoints
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

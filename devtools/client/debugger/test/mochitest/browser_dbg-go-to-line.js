@@ -74,6 +74,11 @@ to
 keyboard
 shortcuts
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

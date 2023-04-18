@@ -82,6 +82,11 @@ set
 in
 it
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

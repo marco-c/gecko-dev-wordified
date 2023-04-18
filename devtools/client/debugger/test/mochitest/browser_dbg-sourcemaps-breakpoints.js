@@ -77,6 +77,11 @@ the
 generated
 file
 .
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

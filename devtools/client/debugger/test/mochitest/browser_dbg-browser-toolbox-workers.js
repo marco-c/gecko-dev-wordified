@@ -77,6 +77,11 @@ browser
 /
 toolbox
 .
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 4

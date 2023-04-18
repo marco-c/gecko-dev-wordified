@@ -87,6 +87,11 @@ a
 slow
 machine
 .
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 2

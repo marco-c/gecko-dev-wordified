@@ -70,6 +70,11 @@ using
 the
 check
 boxes
+"
+use
+strict
+"
+;
 add_task
 (
 async

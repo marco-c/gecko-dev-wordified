@@ -72,6 +72,11 @@ outline
 focuses
 that
 function
+"
+use
+strict
+"
+;
 add_task
 (
 async

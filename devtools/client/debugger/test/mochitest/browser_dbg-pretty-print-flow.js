@@ -79,6 +79,11 @@ location
 is
 mapped
 afterwards
+"
+use
+strict
+"
+;
 add_task
 (
 async

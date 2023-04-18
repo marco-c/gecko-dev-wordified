@@ -71,6 +71,11 @@ navigating
 to
 another
 page
+"
+use
+strict
+"
+;
 add_task
 (
 async

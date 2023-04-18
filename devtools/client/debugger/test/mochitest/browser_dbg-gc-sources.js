@@ -112,6 +112,11 @@ HTTP
 response
 headers
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

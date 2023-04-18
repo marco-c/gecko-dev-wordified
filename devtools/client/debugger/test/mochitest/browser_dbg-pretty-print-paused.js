@@ -71,6 +71,11 @@ is
 currently
 paused
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

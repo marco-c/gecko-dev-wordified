@@ -77,6 +77,11 @@ Toolbox
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 gDevToolsBrowser

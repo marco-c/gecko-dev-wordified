@@ -74,6 +74,11 @@ pretty
 printed
 source
 matches
+"
+use
+strict
+"
+;
 add_task
 (
 async

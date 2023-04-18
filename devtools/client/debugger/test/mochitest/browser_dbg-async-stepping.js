@@ -68,6 +68,11 @@ step
 over
 await
 statements
+"
+use
+strict
+"
+;
 add_task
 (
 async

@@ -65,6 +65,11 @@ breakpoints
 syncing
 when
 reloading
+"
+use
+strict
+"
+;
 requestLongerTimeout
 (
 3

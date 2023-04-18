@@ -99,6 +99,11 @@ a
 function
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

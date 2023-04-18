@@ -78,6 +78,11 @@ last
 should
 be
 used
+"
+use
+strict
+"
+;
 /
 /
 Line

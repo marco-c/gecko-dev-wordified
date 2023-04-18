@@ -66,6 +66,11 @@ in
 a
 selected
 frame
+"
+use
+strict
+"
+;
 add_task
 (
 async

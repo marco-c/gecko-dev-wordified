@@ -76,6 +76,11 @@ the
 console
 *
 /
+"
+use
+strict
+"
+;
 add_task
 (
 async

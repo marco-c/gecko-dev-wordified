@@ -71,6 +71,11 @@ queries
 enter
 shift
 enter
+"
+use
+strict
+"
+;
 add_task
 (
 async
