@@ -105,7 +105,7 @@ telemetry
 ;
 import
 {
-remapBreakpoints
+updateBreakpointsForNewPrettyPrintedSource
 }
 from
 "
@@ -890,7 +890,7 @@ newPrettySource
 await
 dispatch
 (
-remapBreakpoints
+updateBreakpointsForNewPrettyPrintedSource
 (
 cx
 sourceId
