@@ -33130,7 +33130,7 @@ PBrowserParent
 *
 aThisTab
 BrowsingContext
-*
+&
 aParent
 bool
 aSetOpener
@@ -33157,10 +33157,6 @@ const
 nsCString
 &
 aFeatures
-const
-float
-&
-aFullZoom
 BrowserParent
 *
 aNextRemoteBrowser
@@ -33295,6 +33291,7 @@ openInfo
 >
 mParent
 =
+&
 aParent
 ;
 openInfo
@@ -34217,7 +34214,11 @@ OpenWindowWithRemoteTab
 thisBrowserHost
 aFeatures
 aCalledFromJS
-aFullZoom
+aParent
+.
+FullZoom
+(
+)
 openInfo
 getter_AddRefs
 (
@@ -34669,10 +34670,6 @@ const
 nsCString
 &
 aFeatures
-const
-float
-&
-aFullZoom
 const
 IPC
 :
@@ -35311,6 +35308,7 @@ ipcResult
 CommonCreateWindow
 (
 aThisTab
+*
 parent
 newBCOpenerId
 !
@@ -35322,7 +35320,6 @@ aForPrinting
 aForPrintPreview
 aURIToLoad
 aFeatures
-aFullZoom
 newTab
 VoidString
 (
@@ -35526,10 +35523,6 @@ const
 nsCString
 &
 aFeatures
-const
-float
-&
-aFullZoom
 const
 nsString
 &
@@ -35799,6 +35792,7 @@ ipcResult
 CommonCreateWindow
 (
 aThisTab
+*
 parent
 /
 *
@@ -35825,7 +35819,6 @@ aForPrintPreview
 false
 aURIToLoad
 aFeatures
-aFullZoom
 /
 *
 aNextRemoteBrowser

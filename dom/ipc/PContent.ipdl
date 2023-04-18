@@ -9197,8 +9197,6 @@ nsIURI
 aURIToLoad
 nsCString
 aFeatures
-float
-aFullZoom
 Principal
 aTriggeringPrincipal
 nsIContentSecurityPolicy
@@ -9229,8 +9227,6 @@ nsIURI
 aURIToLoad
 nsCString
 aFeatures
-float
-aFullZoom
 nsString
 aName
 nsIPrincipal

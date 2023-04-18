@@ -5976,9 +5976,6 @@ nsDocShellLoadState
 aLoadState
 bool
 aForceNoReferrer
-float
-*
-aFullZoom
 nsIReferrerInfo
 *
 *
@@ -5993,13 +5990,6 @@ nsIContentSecurityPolicy
 aCsp
 )
 {
-*
-aFullZoom
-=
-1
-.
-0f
-;
 if
 (
 !
@@ -6294,16 +6284,6 @@ swap
 (
 *
 aReferrerInfo
-)
-;
-*
-aFullZoom
-=
-parent
--
->
-FullZoom
-(
 )
 ;
 return
@@ -6724,9 +6704,6 @@ if
 loadInDifferentProcess
 )
 {
-float
-fullZoom
-;
 nsCOMPtr
 <
 nsIPrincipal
@@ -6752,8 +6729,6 @@ GetCreateWindowParams
 aOpenWindowInfo
 aLoadState
 aForceNoReferrer
-&
-fullZoom
 getter_AddRefs
 (
 referrerInfo
@@ -6825,7 +6800,6 @@ aChromeFlags
 aCalledFromJS
 aURI
 features
-fullZoom
 name
 triggeringPrincipal
 csp
@@ -8152,9 +8126,6 @@ open
 the
 window
 .
-float
-fullZoom
-;
 nsCOMPtr
 <
 nsIPrincipal
@@ -8180,8 +8151,6 @@ GetCreateWindowParams
 aOpenWindowInfo
 aLoadState
 aForceNoReferrer
-&
-fullZoom
 getter_AddRefs
 (
 referrerInfo
@@ -8232,7 +8201,6 @@ GetIsForWindowDotPrint
 )
 aURI
 features
-fullZoom
 Principal
 (
 triggeringPrincipal
