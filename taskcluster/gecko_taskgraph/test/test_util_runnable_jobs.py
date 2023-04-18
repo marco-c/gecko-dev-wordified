@@ -62,6 +62,12 @@ main
 from
 taskgraph
 .
+graph
+import
+Graph
+from
+taskgraph
+.
 task
 import
 Task
@@ -71,12 +77,6 @@ gecko_taskgraph
 decision
 import
 full_task_graph_to_runnable_jobs
-from
-gecko_taskgraph
-.
-graph
-import
-Graph
 from
 gecko_taskgraph
 .

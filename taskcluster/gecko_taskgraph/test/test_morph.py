@@ -58,6 +58,12 @@ pytest
 from
 taskgraph
 .
+graph
+import
+Graph
+from
+taskgraph
+.
 parameters
 import
 Parameters
@@ -71,12 +77,6 @@ from
 gecko_taskgraph
 import
 morph
-from
-gecko_taskgraph
-.
-graph
-import
-Graph
 from
 gecko_taskgraph
 .
