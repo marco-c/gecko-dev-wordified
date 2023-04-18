@@ -1777,6 +1777,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 {
 what
@@ -11555,6 +11557,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 "
 browser

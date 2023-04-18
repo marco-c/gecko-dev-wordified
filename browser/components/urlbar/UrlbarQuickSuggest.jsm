@@ -1631,6 +1631,8 @@ get
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 |
@@ -2096,6 +2098,8 @@ set
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 optedIn
 )
@@ -2384,6 +2388,8 @@ case
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 case
@@ -2554,6 +2560,8 @@ get
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 |

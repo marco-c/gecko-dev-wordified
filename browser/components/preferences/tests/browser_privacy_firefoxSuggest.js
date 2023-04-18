@@ -1058,6 +1058,8 @@ true
 suggest
 .
 quicksuggest
+.
+nonsponsored
 =
 true
 /
@@ -1096,6 +1098,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 true
 ]
@@ -1180,6 +1184,8 @@ popPrefEnv
 suggest
 .
 quicksuggest
+.
+nonsponsored
 =
 true
 /
@@ -1218,6 +1224,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 true
 ]
@@ -1304,6 +1312,8 @@ popPrefEnv
 suggest
 .
 quicksuggest
+.
+nonsponsored
 =
 true
 /
@@ -1342,6 +1352,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 true
 ]
@@ -1428,6 +1440,8 @@ popPrefEnv
 suggest
 .
 quicksuggest
+.
+nonsponsored
 =
 true
 /
@@ -1466,6 +1480,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 true
 ]
@@ -1550,6 +1566,8 @@ popPrefEnv
 suggest
 .
 quicksuggest
+.
+nonsponsored
 =
 false
 /
@@ -1588,6 +1606,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 false
 ]
@@ -1674,6 +1694,8 @@ popPrefEnv
 suggest
 .
 quicksuggest
+.
+nonsponsored
 =
 false
 /
@@ -1712,6 +1734,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 false
 ]
@@ -1796,6 +1820,8 @@ popPrefEnv
 suggest
 .
 quicksuggest
+.
+nonsponsored
 =
 false
 /
@@ -1834,6 +1860,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 false
 ]
@@ -1918,6 +1946,8 @@ popPrefEnv
 suggest
 .
 quicksuggest
+.
+nonsponsored
 =
 false
 /
@@ -1956,6 +1986,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 false
 ]
@@ -2124,6 +2156,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 true
 ]
@@ -2238,12 +2272,16 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 "
 suggest
 .
 quicksuggest
+.
+nonsponsored
 is
 false
 after
@@ -2334,12 +2372,16 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 "
 suggest
 .
 quicksuggest
+.
+nonsponsored
 remains
 false
 after
@@ -2465,12 +2507,16 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 "
 suggest
 .
 quicksuggest
+.
+nonsponsored
 remains
 false
 after
@@ -2704,6 +2750,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 true
 ]

@@ -4383,6 +4383,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 false
 sticky

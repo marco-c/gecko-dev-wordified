@@ -125,6 +125,8 @@ POLICY_PREF
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 ;
 let
@@ -941,6 +943,8 @@ true
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -1033,6 +1037,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 value
 :
@@ -1120,6 +1126,8 @@ false
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -1212,6 +1220,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 value
 :
@@ -1572,6 +1582,8 @@ false
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -1668,6 +1680,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 value
 :
@@ -1709,6 +1723,8 @@ clear
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 ;
@@ -2444,6 +2460,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -2475,6 +2493,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -2604,6 +2624,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -2644,6 +2666,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -2946,6 +2970,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -2995,6 +3021,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -3418,6 +3446,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -3449,6 +3479,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -3578,6 +3610,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -3618,6 +3652,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -3789,6 +3825,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -3978,6 +4016,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -4125,6 +4165,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -4165,6 +4207,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -4312,6 +4356,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -4361,6 +4407,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -4781,6 +4829,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -4812,6 +4862,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -4940,6 +4992,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -4980,6 +5034,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -5461,6 +5517,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -5501,6 +5559,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -5638,6 +5698,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -5687,6 +5749,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7008,6 +7072,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7042,6 +7108,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7068,6 +7136,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7102,6 +7172,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7122,6 +7194,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7205,6 +7279,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7225,6 +7301,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7259,6 +7337,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7279,6 +7359,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7400,6 +7482,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7434,6 +7518,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7460,6 +7546,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7494,6 +7582,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7514,6 +7604,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7597,6 +7689,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7617,6 +7711,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -7651,6 +7747,8 @@ defaultBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -7671,6 +7769,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true

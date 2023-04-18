@@ -1012,6 +1012,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 type
 :
@@ -11847,6 +11849,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 "
 browser
@@ -12380,6 +12384,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 .

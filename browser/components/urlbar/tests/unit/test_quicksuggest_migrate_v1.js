@@ -783,6 +783,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -943,6 +945,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -1367,6 +1371,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -1518,6 +1524,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 false
@@ -2158,6 +2166,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -2317,6 +2327,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -2744,6 +2756,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true
@@ -2919,6 +2933,8 @@ userBranch
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 :
 true

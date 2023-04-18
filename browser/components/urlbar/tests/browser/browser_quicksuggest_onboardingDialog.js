@@ -2685,6 +2685,8 @@ urlbar
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 false
 ]
@@ -2813,6 +2815,8 @@ get
 suggest
 .
 quicksuggest
+.
+nonsponsored
 "
 )
 expectOptIn
