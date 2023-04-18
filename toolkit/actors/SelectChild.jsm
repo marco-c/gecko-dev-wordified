@@ -89,6 +89,9 @@ EXPORTED_SYMBOLS
 "
 SelectChild
 "
+"
+SelectContentHelper
+"
 ]
 ;
 const
