@@ -523,7 +523,7 @@ mozilla
 /
 intl
 /
-Bidi
+BidiEmbeddingLevel
 .
 h
 "
@@ -10097,10 +10097,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 :
 :
 RTL
@@ -10113,10 +10110,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 :
 :
 LTR
@@ -37736,10 +37730,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 level
 =
 nsBidiPresUtils
@@ -38217,10 +38208,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 level
 =
 nsBidiPresUtils

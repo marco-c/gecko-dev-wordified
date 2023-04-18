@@ -319,7 +319,7 @@ mozilla
 /
 intl
 /
-Bidi
+BidiEmbeddingLevel
 .
 h
 "
@@ -37675,10 +37675,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 levelBefore
 =
 levels
@@ -37691,10 +37688,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 levelAfter
 =
 levels
@@ -37707,10 +37701,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 currentCaretLevel
 =
 frameSelection
@@ -37726,10 +37717,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 levelOfDeletion
 ;
 levelOfDeletion

@@ -144,7 +144,7 @@ mozilla
 /
 intl
 /
-Bidi
+BidiEmbeddingLevel
 .
 h
 "
@@ -1335,10 +1335,7 @@ mozilla
 intl
 :
 :
-Bidi
-:
-:
-EmbeddingLevel
+BidiEmbeddingLevel
 aBidiLevel
 nsIFrame
 *
