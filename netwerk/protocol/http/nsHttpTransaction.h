@@ -313,9 +313,6 @@ h
 -
 -
 class
-nsIHttpActivityObserver
-;
-class
 nsIDNSHTTPSSVCRecord
 ;
 class
@@ -2070,12 +2067,6 @@ mChannelId
 {
 0
 }
-;
-nsCOMPtr
-<
-nsIHttpActivityObserver
->
-mActivityDistributor
 ;
 nsCString
 mReqHeaderBuf
