@@ -615,7 +615,7 @@ assertValueConstantlyIncreases
 (
 videoChrome
 "
-totalPlayTime
+totalVideoPlayTime
 "
 )
 ;
@@ -629,7 +629,7 @@ assertValueKeptUnchanged
 (
 videoChrome
 "
-totalPlayTime
+totalVideoPlayTime
 "
 )
 ;
@@ -736,7 +736,7 @@ assertValueKeptUnchanged
 (
 videoChrome
 "
-totalPlayTime
+totalVideoPlayTime
 "
 )
 ;

@@ -8711,7 +8711,7 @@ double
 MediaDecoder
 :
 :
-GetTotalPlayTimeInSeconds
+GetTotalVideoPlayTimeInSeconds
 (
 )
 const

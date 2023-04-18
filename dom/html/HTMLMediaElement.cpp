@@ -12135,7 +12135,7 @@ double
 HTMLMediaElement
 :
 :
-TotalPlayTime
+TotalVideoPlayTime
 (
 )
 const
@@ -12146,7 +12146,7 @@ mDecoder
 mDecoder
 -
 >
-GetTotalPlayTimeInSeconds
+GetTotalVideoPlayTimeInSeconds
 (
 )
 :
