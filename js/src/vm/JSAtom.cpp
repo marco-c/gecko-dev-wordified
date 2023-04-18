@@ -276,6 +276,15 @@ include
 "
 vm
 /
+StaticStrings
+.
+h
+"
+#
+include
+"
+vm
+/
 SymbolType
 .
 h

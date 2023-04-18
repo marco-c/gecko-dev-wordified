@@ -364,6 +364,15 @@ include
 "
 vm
 /
+StaticStrings
+.
+h
+"
+#
+include
+"
+vm
+/
 TraceLogging
 .
 h

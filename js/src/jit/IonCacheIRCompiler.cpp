@@ -233,6 +233,15 @@ h
 #
 include
 "
+vm
+/
+StaticStrings
+.
+h
+"
+#
+include
+"
 jit
 /
 JSJitFrameIter
