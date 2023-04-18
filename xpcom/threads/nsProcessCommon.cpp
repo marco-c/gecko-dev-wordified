@@ -1366,6 +1366,13 @@ char
 *
 topic
 ;
+{
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 mExitValue
@@ -1393,6 +1400,7 @@ process
 finished
 "
 ;
+}
 }
 mPid
 =
@@ -2028,6 +2036,13 @@ aObserver
 ;
 }
 }
+{
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 mExitValue
 =
 -
@@ -2038,6 +2053,7 @@ mPid
 -
 1
 ;
+}
 #
 if
 defined
@@ -2746,6 +2762,12 @@ aBlocking
 Monitor
 (
 this
+)
+;
+MutexAutoLock
+lock
+(
+mLock
 )
 ;
 if

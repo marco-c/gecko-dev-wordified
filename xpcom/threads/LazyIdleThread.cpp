@@ -610,6 +610,16 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+DEBUG
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 MOZ_ASSERT
 (
 !
@@ -669,6 +679,9 @@ that
 "
 )
 ;
+}
+#
+endif
 nsresult
 rv
 ;

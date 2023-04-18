@@ -850,10 +850,6 @@ mThread
 *
 *
 *
-Protected
-by
-mMutex
-.
 Created
 when
 mThread
@@ -887,6 +883,14 @@ separate
 cancel
 event
 to
+the
+owning
+thread
+.
+*
+Only
+accessed
+from
 the
 owning
 thread
