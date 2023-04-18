@@ -906,9 +906,6 @@ kinds
 .
 *
 /
-#
-ifdef
-MOZ_GECKO_PROFILER
 namespace
 geckoprofiler
 :
@@ -1564,8 +1561,6 @@ geckoprofiler
 :
 :
 markers
-#
-endif
 namespace
 mozilla
 {
