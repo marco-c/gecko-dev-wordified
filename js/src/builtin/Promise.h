@@ -367,8 +367,8 @@ rejectedClosure
 Abstract
 Closure
 .
-AsyncGeneratorResumeNextReturnFulfilled
-AsyncGeneratorResumeNextReturnRejected
+AsyncGeneratorAwaitReturnFulfilled
+AsyncGeneratorAwaitReturnRejected
 /
 /
 AsyncGeneratorUnwrapYieldResumption

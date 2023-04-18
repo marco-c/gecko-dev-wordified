@@ -2817,7 +2817,7 @@ nodiscard
 ]
 static
 bool
-AsyncGeneratorResumeNextReturnFulfilled
+AsyncGeneratorAwaitReturnFulfilled
 (
 JSContext
 *
@@ -2895,7 +2895,7 @@ nodiscard
 ]
 static
 bool
-AsyncGeneratorResumeNextReturnRejected
+AsyncGeneratorAwaitReturnRejected
 (
 JSContext
 *
@@ -3008,11 +3008,11 @@ next
 PromiseHandler
 :
 :
-AsyncGeneratorResumeNextReturnFulfilled
+AsyncGeneratorAwaitReturnFulfilled
 PromiseHandler
 :
 :
-AsyncGeneratorResumeNextReturnRejected
+AsyncGeneratorAwaitReturnRejected
 )
 ;
 }
@@ -6002,10 +6002,10 @@ case
 PromiseHandler
 :
 :
-AsyncGeneratorResumeNextReturnFulfilled
+AsyncGeneratorAwaitReturnFulfilled
 :
 return
-AsyncGeneratorResumeNextReturnFulfilled
+AsyncGeneratorAwaitReturnFulfilled
 (
 cx
 asyncGenObj
@@ -6016,10 +6016,10 @@ case
 PromiseHandler
 :
 :
-AsyncGeneratorResumeNextReturnRejected
+AsyncGeneratorAwaitReturnRejected
 :
 return
-AsyncGeneratorResumeNextReturnRejected
+AsyncGeneratorAwaitReturnRejected
 (
 cx
 asyncGenObj
