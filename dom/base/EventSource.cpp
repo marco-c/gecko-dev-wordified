@@ -12320,6 +12320,12 @@ EventSourceImpl
 :
 CONNECTING
 ;
+guardESImpl
+.
+release
+(
+)
+;
 return
 eventSource
 .
