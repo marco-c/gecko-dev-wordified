@@ -225,7 +225,7 @@ inspector
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "
@@ -236,7 +236,7 @@ TRACK_CHANGE
 const
 onResetChanges
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

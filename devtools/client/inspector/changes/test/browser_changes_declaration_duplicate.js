@@ -201,7 +201,7 @@ tracked
 let
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "
@@ -249,7 +249,7 @@ onTrackChange
 ;
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "
@@ -464,7 +464,7 @@ declarations
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "
@@ -632,7 +632,7 @@ declaration
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

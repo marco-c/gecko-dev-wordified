@@ -100,7 +100,7 @@ info
 const
 onUpdate
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

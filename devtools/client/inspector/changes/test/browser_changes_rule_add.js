@@ -194,7 +194,7 @@ panel
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "
@@ -422,7 +422,7 @@ addition
 const
 onTrackChange
 =
-waitForDispatch
+waitUntilAction
 (
 store
 "

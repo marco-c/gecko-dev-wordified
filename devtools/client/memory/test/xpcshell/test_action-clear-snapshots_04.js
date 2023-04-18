@@ -300,14 +300,14 @@ Promise
 all
 (
 [
-waitForDispatch
+waitUntilAction
 (
 store
 actions
 .
 DELETE_SNAPSHOTS_START
 )
-waitForDispatch
+waitUntilAction
 (
 store
 actions
