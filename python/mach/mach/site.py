@@ -2064,6 +2064,21 @@ sys
 .
 path
                 
+external_site_packages
+=
+ExternalPythonSite
+(
+                    
+sys
+.
+executable
+                
+)
+.
+all_site_packages_dirs
+(
+)
+                
 sys
 .
 path
@@ -2071,29 +2086,17 @@ path
 [
                     
 path
-                    
 for
 path
 in
 sys
 .
 path
-                    
 if
 path
-                    
 not
 in
-ExternalPythonSite
-(
-sys
-.
-executable
-)
-.
-all_site_packages_dirs
-(
-)
+external_site_packages
                 
 ]
                 
@@ -2186,6 +2189,21 @@ sys
 .
 path
                     
+external_site_packages
+=
+ExternalPythonSite
+(
+                        
+sys
+.
+executable
+                    
+)
+.
+all_site_packages_dirs
+(
+)
+                    
 sys
 .
 path
@@ -2193,31 +2211,17 @@ path
 [
                         
 path
-                        
 for
 path
 in
 sys
 .
 path
-                        
 if
 path
-                        
 not
 in
-ExternalPythonSite
-(
-                            
-sys
-.
-executable
-                        
-)
-.
-all_site_packages_dirs
-(
-)
+external_site_packages
                     
 ]
                     
