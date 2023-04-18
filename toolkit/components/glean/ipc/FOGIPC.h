@@ -464,7 +464,6 @@ Method
 *
 *
 Trigger
-GMP
 GPU
 RDD
 or
