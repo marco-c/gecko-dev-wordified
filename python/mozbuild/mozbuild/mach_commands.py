@@ -1356,9 +1356,6 @@ verbose
 verbose
     
 )
-NO_AUTO_LOG
-=
-True
 CLOBBER_CHOICES
 =
 {
@@ -1399,6 +1396,10 @@ directory
 )
 .
 "
+    
+no_auto_log
+=
+True
 )
 CommandArgument
 (
@@ -2167,11 +2168,9 @@ True
     
 return
 ret
-NO_AUTO_LOG
-=
-True
 Command
 (
+    
 "
 show
 -
@@ -2191,6 +2190,9 @@ Display
 mach
 logs
 "
+no_auto_log
+=
+True
 )
 CommandArgument
 (

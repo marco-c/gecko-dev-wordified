@@ -285,6 +285,25 @@ seen
 "
 decl_order
 "
+        
+#
+Whether
+to
+disable
+automatic
+logging
+to
+last_log
+.
+json
+for
+the
+command
+.
+        
+"
+no_auto_log
+"
     
 )
     
@@ -327,6 +346,10 @@ virtualenv_name
 None
         
 ok_if_tests_disabled
+=
+False
+        
+no_auto_log
 =
 False
     
@@ -459,6 +482,12 @@ self
 decl_order
 =
 None
+        
+self
+.
+no_auto_log
+=
+no_auto_log
     
 def
 create_instance
@@ -533,13 +562,23 @@ MachCommandBase
 return
 subclass
 (
+            
 context
+            
 virtualenv_name
 =
 virtualenv_name
+            
 metrics
 =
 metrics
+            
+no_auto_log
+=
+self
+.
+no_auto_log
+        
 )
     
 property
