@@ -173,6 +173,16 @@ expectErrorPage
 about
 :
 devtools
+"
+)
+;
+await
+expectErrorPage
+(
+"
+about
+:
+devtools
 -
 toolbox
 "

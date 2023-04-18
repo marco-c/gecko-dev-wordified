@@ -787,6 +787,17 @@ js
 "
 startup
 /
+aboutdevtools
+/
+aboutdevtools
+-
+registration
+.
+js
+"
+"
+startup
+/
 aboutdevtoolstoolbox
 -
 registration
