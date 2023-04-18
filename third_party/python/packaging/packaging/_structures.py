@@ -36,8 +36,17 @@ for
 complete
 details
 .
+from
+__future__
+import
+absolute_import
+division
+print_function
 class
 InfinityType
+(
+object
+)
 :
     
 def
@@ -45,10 +54,16 @@ __repr__
 (
 self
 )
+:
+        
+#
+type
+:
+(
+)
 -
 >
 str
-:
         
 return
 "
@@ -60,10 +75,16 @@ __hash__
 (
 self
 )
+:
+        
+#
+type
+:
+(
+)
 -
 >
 int
-:
         
 return
 hash
@@ -79,13 +100,18 @@ __lt__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 False
@@ -95,13 +121,18 @@ __le__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 False
@@ -111,13 +142,18 @@ __eq__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 isinstance
@@ -133,13 +169,18 @@ __ne__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 not
@@ -156,13 +197,18 @@ __gt__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 True
@@ -172,13 +218,18 @@ __ge__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 True
@@ -187,15 +238,18 @@ def
 __neg__
 (
 self
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
-"
 NegativeInfinityType
-"
-:
         
 return
 NegativeInfinity
@@ -206,6 +260,9 @@ InfinityType
 )
 class
 NegativeInfinityType
+(
+object
+)
 :
     
 def
@@ -213,10 +270,16 @@ __repr__
 (
 self
 )
+:
+        
+#
+type
+:
+(
+)
 -
 >
 str
-:
         
 return
 "
@@ -229,10 +292,16 @@ __hash__
 (
 self
 )
+:
+        
+#
+type
+:
+(
+)
 -
 >
 int
-:
         
 return
 hash
@@ -248,13 +317,18 @@ __lt__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 True
@@ -264,13 +338,18 @@ __le__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 True
@@ -280,13 +359,18 @@ __eq__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 isinstance
@@ -302,13 +386,18 @@ __ne__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 not
@@ -325,13 +414,18 @@ __gt__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 False
@@ -341,13 +435,18 @@ __ge__
 (
 self
 other
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 bool
-:
         
 return
 False
@@ -356,13 +455,18 @@ def
 __neg__
 (
 self
+)
 :
+        
+#
+type
+:
+(
 object
 )
 -
 >
 InfinityType
-:
         
 return
 Infinity
