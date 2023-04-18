@@ -94,9 +94,7 @@ devtools
 .
 netmonitor
 .
-features
-.
-newEditAndResendState
+customRequest
 "
 "
 "
@@ -518,9 +516,7 @@ devtools
 .
 netmonitor
 .
-features
-.
-newEditAndResendState
+customRequest
 "
 "
 "
@@ -887,9 +883,7 @@ devtools
 .
 netmonitor
 .
-features
-.
-newEditAndResendState
+customRequest
 "
 "
 "
@@ -1244,9 +1238,7 @@ devtools
 .
 netmonitor
 .
-features
-.
-newEditAndResendState
+customRequest
 "
 "
 "

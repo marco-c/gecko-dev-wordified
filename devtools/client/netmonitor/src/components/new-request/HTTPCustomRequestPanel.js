@@ -857,9 +857,7 @@ devtools
 .
 netmonitor
 .
-features
-.
-newEditAndResendState
+customRequest
 "
 JSON
 .
@@ -1049,9 +1047,7 @@ devtools
 .
 netmonitor
 .
-features
-.
-newEditAndResendState
+customRequest
 "
 JSON
 .
@@ -1093,9 +1089,7 @@ devtools
 .
 netmonitor
 .
-features
-.
-newEditAndResendState
+customRequest
 "
 )
 )
