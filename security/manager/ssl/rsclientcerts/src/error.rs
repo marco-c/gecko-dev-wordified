@@ -205,6 +205,13 @@ macro
 to
 instantiate
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Error
@@ -474,6 +481,7 @@ derive
 (
 Copy
 Clone
+Debug
 )
 ]
 pub
