@@ -289,16 +289,11 @@ tab
 let
 tabData
 =
-JSON
-.
-parse
-(
 ss
 .
 getClosedTabData
 (
 window
-)
 )
 ;
 Assert

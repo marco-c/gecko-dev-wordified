@@ -356,7 +356,6 @@ SessionStore
 getClosedTabData
 (
 aWindow
-false
 )
 ;
 for

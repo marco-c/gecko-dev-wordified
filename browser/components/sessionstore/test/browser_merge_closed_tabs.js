@@ -393,16 +393,11 @@ _closedTabs
 let
 cData
 =
-JSON
-.
-parse
-(
 SessionStore
 .
 getClosedTabData
 (
 win
-)
 )
 ;
 is

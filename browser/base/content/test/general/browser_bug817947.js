@@ -286,16 +286,11 @@ state
 }
 ]
 =
-JSON
-.
-parse
-(
 SessionStore
 .
 getClosedTabData
 (
 window
-)
 )
 ;
 tab

@@ -593,7 +593,6 @@ getClosedTabData
 winData
 .
 win
-false
 )
 ;
 extension
