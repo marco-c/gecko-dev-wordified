@@ -24201,7 +24201,6 @@ vp
 .
 setExtendedPrimitive
 (
-*
 obj
 -
 >
