@@ -22397,6 +22397,8 @@ bool
 aCloneEntryChildren
 bool
 aChannelExpired
+uint32_t
+aCacheKey
 )
 {
 nsID
@@ -22668,6 +22670,7 @@ aLoadType
 aPersist
 aCloneEntryChildren
 aChannelExpired
+aCacheKey
 )
 ;
 }
@@ -22688,6 +22691,7 @@ aLoadType
 aPersist
 aCloneEntryChildren
 aChannelExpired
+aCacheKey
 )
 ;
 }

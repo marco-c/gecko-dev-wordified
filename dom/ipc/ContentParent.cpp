@@ -46848,6 +46848,10 @@ const
 bool
 &
 aChannelExpired
+const
+uint32_t
+&
+aCacheKey
 )
 {
 if
@@ -46875,6 +46879,7 @@ aLoadType
 aPersist
 aCloneEntryChildren
 aChannelExpired
+aCacheKey
 )
 ;
 }
