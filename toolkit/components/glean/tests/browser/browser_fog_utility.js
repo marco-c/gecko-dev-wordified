@@ -197,6 +197,13 @@ process
 }
 )
 ;
+await
+utilityProcessTest
+.
+stopProcess
+(
+)
+;
 }
 )
 ;
