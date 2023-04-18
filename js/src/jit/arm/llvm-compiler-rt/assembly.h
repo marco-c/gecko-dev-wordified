@@ -403,17 +403,16 @@ SYMBOL_NAME
 (
 name
 )
+\
 SEPARATOR
 DECLARE_SYMBOL_VISIBILITY
 (
 name
 )
-\
 SYMBOL_NAME
 (
 name
 )
-\
 :
 #
 define
@@ -428,6 +427,7 @@ SYMBOL_NAME
 (
 name
 )
+\
 SEPARATOR
 HIDDEN_DIRECTIVE
 SYMBOL_NAME
@@ -440,7 +440,6 @@ SYMBOL_NAME
 (
 name
 )
-\
 :
 #
 define
