@@ -6731,16 +6731,6 @@ false
 ;
 if
 (
-CurrentDriver
-(
-)
--
->
-AsAudioCallbackDriver
-(
-)
-)
-{
 AudioCallbackDriver
 *
 audioCallbackDriver
@@ -6753,7 +6743,8 @@ CurrentDriver
 AsAudioCallbackDriver
 (
 )
-;
+)
+{
 if
 (
 audioCallbackDriver
