@@ -3346,16 +3346,6 @@ Name
 name
 MutableHandleId
 id
-js
-:
-:
-PinningBehavior
-pin
-=
-js
-:
-:
-DoNotPinAtom
 )
 ;
 static

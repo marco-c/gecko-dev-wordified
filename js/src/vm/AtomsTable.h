@@ -552,8 +552,6 @@ CharT
 chars
 size_t
 length
-PinningBehavior
-pin
 const
 mozilla
 :

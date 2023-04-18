@@ -344,7 +344,6 @@ h
 /
 for
 Atomize
-DoNotPinAtom
 #
 include
 "
@@ -1315,7 +1314,6 @@ strlen
 (
 s
 )
-DoNotPinAtom
 )
 ;
 if
@@ -1415,7 +1413,6 @@ strlen
 (
 s
 )
-DoNotPinAtom
 )
 ;
 if

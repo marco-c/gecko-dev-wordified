@@ -117253,7 +117253,6 @@ JSContext
 *
 JSString
 *
-PinningBehavior
 )
 ;
 auto
@@ -117273,10 +117272,6 @@ ins
 ArgList
 (
 input
-Imm32
-(
-DoNotPinAtom
-)
 )
 StoreRegisterTo
 (
@@ -117404,7 +117399,6 @@ JSContext
 *
 JSString
 *
-PinningBehavior
 )
 ;
 auto
@@ -117424,10 +117418,6 @@ ins
 ArgList
 (
 str
-Imm32
-(
-DoNotPinAtom
-)
 )
 StoreRegisterTo
 (

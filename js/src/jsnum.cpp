@@ -5552,10 +5552,6 @@ Atomize
 cx
 start
 length
-js
-:
-:
-DoNotPinAtom
 indexValue
 )
 ;
