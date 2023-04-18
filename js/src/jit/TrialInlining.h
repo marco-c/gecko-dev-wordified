@@ -789,6 +789,8 @@ ICFallbackStub
 fallback
 BytecodeLocation
 loc
+CacheKind
+kind
 )
 ;
 [
@@ -807,6 +809,8 @@ ICFallbackStub
 fallback
 BytecodeLocation
 loc
+CacheKind
+kind
 )
 ;
 static
