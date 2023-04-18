@@ -121,6 +121,15 @@ h
 #
 include
 "
+HyperTextAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 a11y
@@ -5543,6 +5552,13 @@ nsIAccessibleText
 BOUNDARY_CHAR
 )
 {
+if
+(
+IsCaretAtEndOfLine
+(
+)
+)
+{
 /
 /
 The
@@ -5570,6 +5586,7 @@ aAdjustAtEndOfLine
 false
 )
 ;
+}
 }
 return
 ActualizeCaret
@@ -5820,6 +5837,8 @@ if
 searchFrom
 .
 mOffset
++
+1
 <
 static_cast
 <
