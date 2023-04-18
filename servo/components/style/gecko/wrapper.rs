@@ -13821,11 +13821,6 @@ Default
 NonTSPseudoClass
 :
 :
-MozSubmitInvalid
-|
-NonTSPseudoClass
-:
-:
 UserValid
 |
 NonTSPseudoClass
