@@ -2517,12 +2517,10 @@ mSink
 >
 WillBuildModel
 (
-mDTD
+mParserContext
 -
 >
-GetMode
-(
-)
+mDTDMode
 )
 ;
 /
