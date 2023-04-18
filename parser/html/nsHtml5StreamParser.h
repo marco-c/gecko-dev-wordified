@@ -2110,12 +2110,7 @@ data
 .
 *
 /
-[
-[
-nodiscard
-]
-]
-nsresult
+void
 CommitLocalFileToEncoding
 (
 )
@@ -2149,12 +2144,7 @@ fallback
 .
 *
 /
-[
-[
-nodiscard
-]
-]
-nsresult
+void
 ReDecodeLocalFile
 (
 )
