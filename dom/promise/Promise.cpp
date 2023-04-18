@@ -2553,7 +2553,7 @@ mInner
 aInner
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mInner
 )
