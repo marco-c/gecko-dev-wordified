@@ -1390,12 +1390,6 @@ bufSize
 )
 const
 ;
-nsCString
-ToString
-(
-)
-const
-;
 }
 ;
 #

@@ -103,11 +103,11 @@ nsACString
 &
 aAlpn
 const
-NetAddr
+nsACString
 &
 aLocalAddr
 const
-NetAddr
+nsACString
 &
 aRemoteAddr
 uint32_t
@@ -225,8 +225,8 @@ nsresult
 ProcessInput
 (
 const
-NetAddr
-&
+nsACString
+*
 aRemoteAddr
 const
 nsTArray
@@ -241,7 +241,6 @@ return
 neqo_http3conn_process_input
 (
 this
-&
 aRemoteAddr
 &
 aPacket
