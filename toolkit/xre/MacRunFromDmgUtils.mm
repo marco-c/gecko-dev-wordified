@@ -3210,12 +3210,9 @@ imageClass
 nsCocoaFeatures
 :
 :
-macOSVersionMajor
+OnMontereyOrLater
 (
 )
->
-=
-12
 ?
 "
 AppleDiskImageDevice
