@@ -284,9 +284,6 @@ aTransportHandler
 JsepTransceiver
 *
 aJsepTransceiver
-nsISerialEventTarget
-*
-aMainThread
 AbstractThread
 *
 aCallThread
@@ -398,7 +395,6 @@ MediaPipelineTransmit
 (
 mPCHandle
 aTransportHandler
-aMainThread
 aCallThread
 aStsThread
 aConduit

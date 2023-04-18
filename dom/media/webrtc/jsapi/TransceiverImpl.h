@@ -361,9 +361,6 @@ JsepTransceiver
 aJsepTransceiver
 nsISerialEventTarget
 *
-aMainThread
-nsISerialEventTarget
-*
 aStsThread
 dom
 :
@@ -1070,12 +1067,6 @@ RefPtr
 JsepTransceiver
 >
 mJsepTransceiver
-;
-nsCOMPtr
-<
-nsISerialEventTarget
->
-mMainThread
 ;
 nsCOMPtr
 <

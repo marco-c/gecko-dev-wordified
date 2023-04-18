@@ -229,9 +229,6 @@ aTransportHandler
 JsepTransceiver
 *
 aJsepTransceiver
-nsISerialEventTarget
-*
-aMainThread
 AbstractThread
 *
 aCallThread
@@ -723,12 +720,6 @@ bool
 mHaveSetupTransport
 =
 false
-;
-nsCOMPtr
-<
-nsISerialEventTarget
->
-mMainThread
 ;
 RefPtr
 <
