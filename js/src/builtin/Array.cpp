@@ -24062,6 +24062,9 @@ ArrayFilter
 1
 0
 )
+#
+ifdef
+NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -24084,6 +24087,8 @@ ArrayGroupByToMap
 1
 0
 )
+#
+endif
 JS_SELF_HOSTED_FN
 (
 "
