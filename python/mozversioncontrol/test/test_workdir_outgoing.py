@@ -59,6 +59,10 @@ import
 absolute_import
 import
 os
+from
+pathlib
+import
+Path
 import
 mozunit
 from
@@ -329,9 +333,19 @@ vcs
 path
 =
 =
+str
+(
+Path
+(
 repo
 .
 strpath
+)
+.
+resolve
+(
+)
+)
     
 remotepath
 =

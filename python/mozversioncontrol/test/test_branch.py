@@ -64,6 +64,10 @@ mozunit
 import
 pytest
 from
+pathlib
+import
+Path
+from
 mozversioncontrol
 import
 get_repository_object
@@ -174,9 +178,16 @@ vcs
 =
 get_repository_object
 (
+Path
+(
 repo
 .
 strpath
+)
+.
+resolve
+(
+)
 )
     
 if
