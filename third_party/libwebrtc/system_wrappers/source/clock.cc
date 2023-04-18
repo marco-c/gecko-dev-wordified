@@ -555,7 +555,7 @@ The
 rtc
 :
 :
-SystemTimeNanos
+WinUwpSystemTimeNanos
 (
 )
 method
@@ -565,9 +565,9 @@ time
 offset
 from
 a
+/
+/
 base
-/
-/
 epoch
 value
 and
@@ -580,9 +580,9 @@ an
 NTP
 time
 server
+/
+/
 as
-/
-/
 an
 added
 bonus
@@ -593,7 +593,7 @@ nanos
 rtc
 :
 :
-SystemTimeNanos
+WinUwpSystemTimeNanos
 (
 )
 ;
