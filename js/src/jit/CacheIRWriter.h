@@ -1485,12 +1485,10 @@ id
 {
 addStubField
 (
-uintptr_t
-(
-JSID_BITS
-(
 id
-)
+.
+asRawBits
+(
 )
 StubField
 :

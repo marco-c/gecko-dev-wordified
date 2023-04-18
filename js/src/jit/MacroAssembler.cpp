@@ -20321,8 +20321,6 @@ Push
 (
 ImmWord
 (
-JSID_BITS
-(
 JS
 :
 :
@@ -20332,6 +20330,9 @@ PropertyKey
 Void
 (
 )
+.
+asRawBits
+(
 )
 )
 )

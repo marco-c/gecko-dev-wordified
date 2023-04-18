@@ -1486,9 +1486,10 @@ mIdBits
 ;
 mIdBits
 =
-JSID_BITS
-(
 aId
+.
+asRawBits
+(
 )
 ;
 }
