@@ -3622,13 +3622,6 @@ AllocKind
 thingKind
 )
 ;
-void
-setParallelUnmarkEnabled
-(
-bool
-enabled
-)
-;
 /
 *
 *
