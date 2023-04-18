@@ -4697,6 +4697,12 @@ case
 ColorID
 :
 :
+Buttonshadow
+:
+case
+ColorID
+:
+:
 Threeddarkshadow
 :
 /
