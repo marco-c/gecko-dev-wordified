@@ -1394,6 +1394,11 @@ CrossGraphPort
 cpp
 "
 "
+CubebInputStream
+.
+cpp
+"
+"
 DeviceInputTrack
 .
 cpp
