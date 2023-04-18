@@ -12272,6 +12272,10 @@ pseudoType
 [
 idlName
 ]
+.
+toLowerCase
+(
+)
 testSample
 .
 expected
