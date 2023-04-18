@@ -715,6 +715,7 @@ WebAssembly
 Table
 (
 argument
+null
 {
 }
 )
