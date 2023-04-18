@@ -235,6 +235,10 @@ gQueryStringStripper
 nullptr
 ;
 }
+ShutdownPhase
+:
+:
+XPCOMShutdown
 )
 ;
 }
