@@ -236,6 +236,11 @@ connect
 "
 runtime
 .
+getFrameId
+"
+"
+runtime
+.
 getURL
 "
 "

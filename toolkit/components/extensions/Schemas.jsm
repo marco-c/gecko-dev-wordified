@@ -15865,6 +15865,9 @@ permissions
 "
 allowAmbiguousOptionalArguments
 "
+"
+allowCrossOriginArguments
+"
 ]
 )
 schema
@@ -15876,6 +15879,12 @@ false
 schema
 .
 allowAmbiguousOptionalArguments
+|
+|
+false
+schema
+.
+allowCrossOriginArguments
 |
 |
 false
@@ -15897,6 +15906,7 @@ name
 type
 unsupported
 allowAmbiguousOptionalArguments
+allowCrossOriginArguments
 returns
 permissions
 )
@@ -15929,6 +15939,12 @@ this
 permissions
 =
 permissions
+;
+this
+.
+allowCrossOriginArguments
+=
+allowCrossOriginArguments
 ;
 this
 .
@@ -16526,6 +16542,13 @@ stub
 context
 .
 cloneScope
+{
+allowCrossOriginArguments
+:
+this
+.
+allowCrossOriginArguments
+}
 )
 }
 revoke
