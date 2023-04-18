@@ -418,6 +418,16 @@ dll
 "
 )
 ;
+LoadLibraryW
+(
+L
+"
+winmm
+.
+dll
+"
+)
+;
 mozilla
 :
 :
