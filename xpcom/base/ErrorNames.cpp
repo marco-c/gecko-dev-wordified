@@ -146,6 +146,13 @@ prerror
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 /
 /
 Get
@@ -379,6 +386,11 @@ nullptr
 if
 (
 isSecurityError
+&
+&
+NS_IsMainThread
+(
+)
 )
 {
 /
