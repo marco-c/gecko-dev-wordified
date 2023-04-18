@@ -19411,12 +19411,14 @@ depends
 (
 target
 developer_options
+artifact_builds
 )
 def
 crashreporter_default
 (
 target
 developer_options
+artifacts
 )
 :
 if
@@ -19503,6 +19505,8 @@ Android
 or
 not
 developer_options
+or
+artifacts
 option
 (
 "
