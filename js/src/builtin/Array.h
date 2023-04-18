@@ -1174,6 +1174,15 @@ JSObject
 obj
 )
 ;
+extern
+bool
+PrototypeMayHaveIndexedProperties
+(
+NativeObject
+*
+obj
+)
+;
 /
 /
 JS
