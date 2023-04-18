@@ -237,10 +237,6 @@ types
 "
         
 "
-nasm
-"
-        
-"
 startup
 -
 notification
@@ -454,22 +450,6 @@ artifact_mode
 =
 True
 )
-    
-def
-ensure_nasm_packages
-(
-self
-state_dir
-checkout_root
-)
-:
-        
-#
-installed
-via
-install_browser_packages
-        
-pass
     
 def
 install_mobile_android_packages
