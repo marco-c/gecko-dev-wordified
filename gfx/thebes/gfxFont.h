@@ -253,6 +253,17 @@ h
 #
 include
 "
+mozilla
+/
+intl
+/
+UnicodeScriptCodes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -338,13 +349,6 @@ h
 include
 "
 nsTHashtable
-.
-h
-"
-#
-include
-"
-nsUnicodeScriptCodes
 .
 h
 "
@@ -4451,7 +4455,7 @@ typedef
 mozilla
 :
 :
-unicode
+intl
 :
 :
 Script
@@ -4950,7 +4954,7 @@ typedef
 mozilla
 :
 :
-unicode
+intl
 :
 :
 Script
@@ -8834,7 +8838,7 @@ typedef
 mozilla
 :
 :
-unicode
+intl
 :
 :
 Script
@@ -9943,7 +9947,7 @@ Script
 mozilla
 :
 :
-unicode
+intl
 :
 :
 Script
