@@ -701,9 +701,6 @@ case
 .
 return
 NewStringCopyUTF8N
-<
-CanGC
->
 (
 cx
 JS

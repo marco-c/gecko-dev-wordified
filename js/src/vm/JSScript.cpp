@@ -8341,9 +8341,6 @@ asChars
 ;
 return
 NewStringCopyUTF8N
-<
-CanGC
->
 (
 cx
 JS
@@ -8561,9 +8558,6 @@ deflation
 .
 return
 NewStringCopyUTF8N
-<
-CanGC
->
 (
 cx
 JS

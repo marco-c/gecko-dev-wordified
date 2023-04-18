@@ -16095,9 +16095,6 @@ get
 ;
 return
 NewStringCopyUTF8Z
-<
-CanGC
->
 (
 cx
 utf8chars
@@ -17668,9 +17665,6 @@ JSString
 str
 =
 NewStringCopyUTF8Z
-<
-CanGC
->
 (
 cx
 utf8chars
