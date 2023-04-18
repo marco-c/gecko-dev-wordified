@@ -4290,7 +4290,7 @@ are
 tests
 which
 are
-represeted
+represented
 by
 a
 promise
