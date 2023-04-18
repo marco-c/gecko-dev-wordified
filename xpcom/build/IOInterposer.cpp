@@ -2096,6 +2096,10 @@ RefPtr
 ObserverLists
 >
 mObserverLists
+GUARDED_BY
+(
+mLock
+)
 ;
 /
 /
@@ -2170,7 +2174,6 @@ IOInterposer
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 /
 /

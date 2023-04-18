@@ -461,7 +461,7 @@ mShutdownRequired
 =
 true
 ;
-lock
+mMonitor
 .
 Notify
 (
@@ -718,7 +718,7 @@ empty
 )
 )
 {
-lock
+mMonitor
 .
 Wait
 (
@@ -1153,7 +1153,7 @@ nullptr
 )
 )
 ;
-lock
+mMonitor
 .
 Notify
 (
