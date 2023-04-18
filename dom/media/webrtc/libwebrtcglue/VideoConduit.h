@@ -1698,7 +1698,7 @@ void
 VideoLatencyUpdate
 (
 uint64_t
-new_sample
+aNewSample
 )
 ;
 void
