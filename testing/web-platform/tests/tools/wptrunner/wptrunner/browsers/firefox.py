@@ -2170,6 +2170,25 @@ str
 stylo_threads
 )
     
+#
+Disable
+window
+occlusion
+.
+Bug
+1733955
+    
+env
+[
+"
+MOZ_WINDOW_OCCLUSION
+"
+]
+=
+"
+0
+"
+    
 if
 chaos_mode_flags
 is
