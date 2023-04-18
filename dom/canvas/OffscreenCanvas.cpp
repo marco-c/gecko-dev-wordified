@@ -395,10 +395,6 @@ DOMEventTargetHelper
 (
 aGlobal
 )
-mAttrDirty
-(
-false
-)
 mNeutered
 (
 false
