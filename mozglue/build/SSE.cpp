@@ -286,8 +286,10 @@ max
 =
 __get_cpuid_max
 (
-0
-NULL
+level
+&
+0x80000000u
+nullptr
 )
 ;
 if
