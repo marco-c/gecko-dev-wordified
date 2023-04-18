@@ -5450,31 +5450,6 @@ self
 session_config
 =
 {
-            
-"
-webdriver
-"
-:
-{
-                
-"
-binary
-"
-:
-self
-.
-webdriver_binary
-                
-"
-args
-"
-:
-self
-.
-webdriver_args
-            
-}
-            
 "
 host
 "
@@ -5484,7 +5459,7 @@ self
 server
 .
 host
-            
+                               
 "
 port
 "
@@ -5494,7 +5469,7 @@ self
 server
 .
 port
-            
+                               
 "
 capabilities
 "
@@ -5502,7 +5477,6 @@ capabilities
 self
 .
 capabilities
-        
 }
     
 def
