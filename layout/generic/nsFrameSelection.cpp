@@ -7091,7 +7091,7 @@ relToStart
 nsContentUtils
 :
 :
-ComparePoints_FixOffset2
+ComparePoints_AllowNegativeOffsets
 (
 rangeStartNode
 rangeStartOffset
@@ -7159,7 +7159,7 @@ relToEnd
 nsContentUtils
 :
 :
-ComparePoints_FixOffset2
+ComparePoints_AllowNegativeOffsets
 (
 rangeEndNode
 rangeEndOffset

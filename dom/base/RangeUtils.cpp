@@ -1354,7 +1354,7 @@ order
 nsContentUtils
 :
 :
-ComparePoints_FixOffset2
+ComparePoints_AllowNegativeOffsets
 (
 aAbstractRange
 -
