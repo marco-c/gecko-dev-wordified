@@ -90776,7 +90776,10 @@ nsIFrame
 *
 frame
 :
+Reversed
+(
 frames
+)
 )
 {
 /
