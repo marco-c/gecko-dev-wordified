@@ -1511,7 +1511,7 @@ add_argument
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -1519,12 +1519,12 @@ fission
 action
 =
 "
-store_true
+store_false
 "
             
 default
 =
-False
+True
             
 dest
 =
@@ -1543,7 +1543,7 @@ fission
 site
 isolation
 )
-enabled
+disabled
 .
 "
         

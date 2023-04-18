@@ -22056,6 +22056,34 @@ options
 extraPrefs
 )
         
+if
+"
+fission
+.
+autostart
+"
+not
+in
+self
+.
+extraPrefs
+:
+            
+self
+.
+extraPrefs
+[
+"
+fission
+.
+autostart
+"
+]
+=
+options
+.
+fission
+        
 #
 for
 test
@@ -22101,7 +22129,7 @@ fission
 .
 autostart
 "
-False
+True
 )
                 
 "
@@ -22227,7 +22255,7 @@ fission
 .
 autostart
 "
-False
+True
 )
                 
 "
