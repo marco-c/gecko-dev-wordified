@@ -798,11 +798,6 @@ TLSFilterTransaction
 cpp
 "
 "
-TlsHandshaker
-.
-cpp
-"
-"
 TRRServiceChannel
 .
 cpp
