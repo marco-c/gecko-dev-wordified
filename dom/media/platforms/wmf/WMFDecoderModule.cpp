@@ -1113,7 +1113,7 @@ with
 code
 0x
 %
-x
+lx
 "
 StreamTypeToString
 (

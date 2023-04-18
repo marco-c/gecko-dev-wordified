@@ -536,7 +536,7 @@ RESULT_DETAIL
 s
 :
 %
-x
+lx
 "
 aReason
 aError

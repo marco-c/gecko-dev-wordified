@@ -429,7 +429,7 @@ hrAsStr
 "
 0x
 %
-08X
+08lX
 "
 createStreamResult
 )
@@ -910,7 +910,7 @@ hrAsStr
 "
 0x
 %
-08X
+08lX
 "
 unmarshalResult
 )
@@ -2086,7 +2086,7 @@ hrAsStr
 "
 0x
 %
-08X
+08lX
 "
 createStreamResult
 )
@@ -2126,7 +2126,7 @@ hrAsStr
 "
 0x
 %
-08X
+08lX
 "
 marshalResult
 )
@@ -2193,7 +2193,7 @@ hrAsStr
 "
 0x
 %
-08X
+08lX
 "
 statResult
 )
@@ -2228,7 +2228,7 @@ hrAsStr
 "
 0x
 %
-08X
+08lX
 "
 getHGlobalResult
 )

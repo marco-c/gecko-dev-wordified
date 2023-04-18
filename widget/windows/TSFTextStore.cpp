@@ -8197,7 +8197,7 @@ instance
 (
 0x
 %
-08X
+08lX
 )
 "
 this
@@ -8291,7 +8291,7 @@ ITfInputProcessorProfileActivationSink
 (
 0x
 %
-08X
+08lX
 )
 "
 this
@@ -8442,7 +8442,7 @@ instance
 (
 0x
 %
-08X
+08lX
 )
 "
 this
@@ -8498,7 +8498,7 @@ ITfInputProcessorProfileActivationSink
 (
 0x
 %
-08X
+08lX
 )
 "
 this
@@ -9078,7 +9078,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 this
 hr
@@ -9150,7 +9150,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 this
 hr
@@ -9220,7 +9220,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 this
 hr
@@ -9393,7 +9393,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 this
 hr
@@ -9525,7 +9525,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 this
 hr
@@ -10774,7 +10774,7 @@ ITfDocumentMgr
 (
 0x
 %
-08X
+08lX
 )
 "
 this
@@ -10922,7 +10922,7 @@ context
 (
 0x
 %
-08X
+08lX
 )
 "
 this
@@ -11037,7 +11037,7 @@ context
 (
 0x
 %
-08X
+08lX
 )
 "
 this
@@ -44705,7 +44705,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -45635,7 +45635,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -45685,7 +45685,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -45755,7 +45755,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -45834,7 +45834,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -46124,7 +46124,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -46247,7 +46247,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -46369,7 +46369,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -46503,7 +46503,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -46582,7 +46582,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -46737,7 +46737,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )
@@ -47020,7 +47020,7 @@ hr
 =
 0x
 %
-08X
+08lX
 "
 hr
 )

@@ -710,7 +710,7 @@ get
 IDCompositionDesktopDevice
 failed
 %
-x
+lx
 )
 "
 hr
@@ -757,7 +757,7 @@ create
 DCompositionTarget
 failed
 %
-x
+lx
 )
 "
 hr
@@ -803,7 +803,7 @@ root
 DCompositionVisual
 failed
 %
-x
+lx
 )
 "
 hr
@@ -850,7 +850,7 @@ chain
 DCompositionVisual
 failed
 %
-x
+lx
 )
 "
 hr

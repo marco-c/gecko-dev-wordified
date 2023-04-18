@@ -1320,7 +1320,7 @@ loadResult
 "
 0x
 %
-08X
+08lX
 "
 hr
 )

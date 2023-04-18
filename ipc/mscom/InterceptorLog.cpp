@@ -1842,7 +1842,7 @@ p
 \
 t0x
 %
-08X
+08lX
 \
 n
 "
@@ -2418,7 +2418,7 @@ with
 HRESULT
 0x
 %
-08X
+08lX
 )
 "
 hr
@@ -2469,7 +2469,7 @@ with
 HRESULT
 0x
 %
-08X
+08lX
 )
 "
 hr
@@ -2525,7 +2525,7 @@ AppendPrintf
 "
 0x
 %
-08X
+08lX
 \
 n
 "
