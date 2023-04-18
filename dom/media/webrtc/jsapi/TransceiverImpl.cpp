@@ -360,7 +360,7 @@ dom
 MediaStreamTrack
 *
 aSendTrack
-WebRtcCallWrapper
+WebrtcCallWrapper
 *
 aCallWrapper
 )

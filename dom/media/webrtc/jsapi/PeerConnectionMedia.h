@@ -842,7 +842,7 @@ to
 PeerConnectionImpl
 RefPtr
 <
-WebRtcCallWrapper
+WebrtcCallWrapper
 >
 mCall
 ;

@@ -285,6 +285,13 @@ MediaTransportHandler
 h
 "
 #
+include
+"
+WebrtcCallWrapper
+.
+h
+"
+#
 define
 GTEST_HAS_RTTI
 0
@@ -1604,7 +1611,7 @@ false
 )
 call_
 (
-WebRtcCallWrapper
+WebrtcCallWrapper
 :
 :
 Create
@@ -1625,7 +1632,7 @@ ShutdownBlockingTicket
 (
 u
 "
-WebRtcCallWrapper
+WebrtcCallWrapper
 shutdown
 blocker
 "
@@ -2034,7 +2041,7 @@ audio_config_
 ;
 RefPtr
 <
-WebRtcCallWrapper
+WebrtcCallWrapper
 >
 call_
 ;
