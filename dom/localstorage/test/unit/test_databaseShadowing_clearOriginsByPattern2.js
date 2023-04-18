@@ -103,6 +103,12 @@ verifyData
 5
 6
 ]
+/
+*
+migrated
+*
+/
+true
 )
 ;
 }

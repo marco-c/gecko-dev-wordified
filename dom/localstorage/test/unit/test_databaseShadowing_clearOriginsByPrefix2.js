@@ -102,6 +102,12 @@ verifyData
 2
 3
 ]
+/
+*
+migrated
+*
+/
+true
 )
 ;
 }

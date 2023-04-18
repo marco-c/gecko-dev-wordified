@@ -96,6 +96,12 @@ verifyData
 (
 [
 ]
+/
+*
+migrated
+*
+/
+true
 )
 ;
 }
