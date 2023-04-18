@@ -130,6 +130,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 functional
 >
 #
