@@ -208,7 +208,7 @@ Bug
 Bug
 1688665
 .
-let
+const
 skipLocalStorageTests
 =
 !
