@@ -58,15 +58,6 @@ MPL
 .
 *
 /
-import
-{
-findIndex
-}
-from
-"
-lodash
-"
-;
 /
 /
 eslint
@@ -99,9 +90,10 @@ frames
 const
 index
 =
+frames
+.
 findIndex
 (
-frames
 frame
 =
 >
