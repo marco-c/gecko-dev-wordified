@@ -241,7 +241,7 @@ include
 "
 vm
 /
-BytecodeUtil
+Opcodes
 .
 h
 "
