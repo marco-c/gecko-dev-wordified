@@ -1087,7 +1087,7 @@ IsSource
 JS
 :
 :
-CancelOffThreadScript
+CancelCompileToStencilOffThread
 (
 cx
 mOffThreadToken
