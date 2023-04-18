@@ -1879,7 +1879,7 @@ let
 p
 v
 ]
-in
+of
 Object
 .
 entries
