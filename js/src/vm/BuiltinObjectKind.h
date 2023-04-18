@@ -194,6 +194,7 @@ Int32Array
 Iterator
 Promise
 RegExp
+Set
 SharedArrayBuffer
 Symbol
 /

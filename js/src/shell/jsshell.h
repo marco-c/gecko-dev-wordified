@@ -802,6 +802,15 @@ enableChangeArrayByCopy
 ;
 #
 endif
+#
+ifdef
+ENABLE_NEW_SET_METHODS
+extern
+bool
+enableNewSetMethods
+;
+#
+endif
 extern
 bool
 enableClassStaticBlocks
