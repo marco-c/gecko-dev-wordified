@@ -222,15 +222,6 @@ queries
 )
 *
 /
-const
-DEFAULT_INDEX
-=
-PlacesUtils
-.
-bookmarks
-.
-DEFAULT_INDEX
-;
 var
 test
 =

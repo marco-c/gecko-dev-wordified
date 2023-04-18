@@ -188,16 +188,6 @@ jsm
 "
 )
 ;
-/
-/
-Exported
-bookmarks
-file
-pointer
-.
-var
-bookmarksExportedFile
-;
 add_task
 (
 async

@@ -33,12 +33,6 @@ strict
 "
 ;
 var
-folderIds
-=
-[
-]
-;
-var
 folderGuids
 =
 [
