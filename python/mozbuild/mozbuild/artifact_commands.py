@@ -554,10 +554,6 @@ download_symbols
 =
 False
     
-download_host_bins
-=
-False
-    
 download_maven_zip
 =
 False
@@ -722,29 +718,6 @@ symbols
 )
         
 if
-download_host_bins
-:
-            
-raise
-ValueError
-(
-"
--
--
-maven
--
-zip
-requires
-no
--
--
-host
--
-bins
-"
-)
-        
-if
 not
 no_process
 :
@@ -824,10 +797,6 @@ download_tests
 download_symbols
 =
 download_symbols
-        
-download_host_bins
-=
-download_host_bins
         
 download_maven_zip
 =
@@ -1027,29 +996,6 @@ CommandArgument
 "
 -
 -
-host
--
-bins
-"
-action
-=
-"
-store_true
-"
-help
-=
-"
-Download
-host
-binaries
-.
-"
-)
-CommandArgument
-(
-"
--
--
 distdir
 "
 help
@@ -1161,10 +1107,6 @@ symbols
 =
 False
     
-host_bins
-=
-False
-    
 distdir
 =
 None
@@ -1213,10 +1155,6 @@ no_tests
 download_symbols
 =
 symbols
-        
-download_host_bins
-=
-host_bins
         
 download_maven_zip
 =
