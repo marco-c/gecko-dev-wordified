@@ -3104,6 +3104,15 @@ ScalarID
 :
 :
 NETWORKING_TRR_CONNECTION_CYCLE_COUNT
+NS_ConvertUTF8toUTF16
+(
+TRRService
+:
+:
+ProviderKey
+(
+)
+)
 1
 )
 ;
