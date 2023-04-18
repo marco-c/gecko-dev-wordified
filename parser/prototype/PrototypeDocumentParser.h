@@ -485,16 +485,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHOD
-CancelParsingEvents
-(
-)
-override
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
 virtual
 bool
 IsInsertionPointDefined
