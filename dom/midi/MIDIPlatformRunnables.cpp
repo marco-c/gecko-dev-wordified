@@ -290,7 +290,7 @@ Get
 >
 UpdateStatus
 (
-mPortId
+mPort
 mState
 mConnection
 )
