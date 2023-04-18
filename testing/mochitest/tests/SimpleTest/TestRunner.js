@@ -3082,11 +3082,13 @@ jscovDirPrefix
 )
 {
 var
+{
 CoverageCollector
+}
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -3103,11 +3105,7 @@ CoverageUtils
 .
 jsm
 "
-{
-}
 )
-.
-CoverageCollector
 ;
 coverageCollector
 =
