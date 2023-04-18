@@ -2795,7 +2795,7 @@ GetSpellTextAttr
 nsINode
 *
 aNode
-int32_t
+uint32_t
 aNodeOffset
 uint32_t
 *
