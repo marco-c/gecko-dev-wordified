@@ -1160,16 +1160,6 @@ aIncludeOrigin
 )
 const
 ;
-TextLeafPoint
-FindParagraphSameAcc
-(
-nsDirection
-aDirection
-bool
-aIncludeOrigin
-)
-const
-;
 }
 ;
 /
