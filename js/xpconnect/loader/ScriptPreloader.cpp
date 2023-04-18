@@ -4717,6 +4717,12 @@ NS_IsMainThread
 )
 )
 ;
+mSaveMonitor
+.
+AssertCurrentThreadOwns
+(
+)
+;
 if
 (
 !

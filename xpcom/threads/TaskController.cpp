@@ -3791,6 +3791,12 @@ MutexAutoLock
 aProofOfLock
 )
 {
+mGraphMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 /
 /
 Block
@@ -4257,6 +4263,12 @@ MutexAutoLock
 aProofOfLock
 )
 {
+mGraphMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 nsCOMPtr
 <
 nsIThread

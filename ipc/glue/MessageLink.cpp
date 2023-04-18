@@ -888,6 +888,13 @@ ok
 =
 false
 ;
+monitor
+-
+>
+AssertCurrentThreadOwns
+(
+)
+;
 {
 MonitorAutoUnlock
 guard

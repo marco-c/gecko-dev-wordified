@@ -4354,6 +4354,7 @@ return
 nativeImpl
 ;
 }
+PUSH_IGNORE_THREAD_SAFETY
 void
 Lock
 (
@@ -4380,6 +4381,7 @@ ReadUnlock
 )
 ;
 }
+POP_THREAD_SAFETY
 #
 if
 defined

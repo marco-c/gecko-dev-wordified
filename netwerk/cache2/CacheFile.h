@@ -784,6 +784,7 @@ CacheFile
 (
 )
 ;
+PUSH_IGNORE_THREAD_SAFETY
 void
 Lock
 (
@@ -854,6 +855,7 @@ Unlock
 )
 ;
 }
+POP_THREAD_SAFETY
 void
 AssertOwnsLock
 (

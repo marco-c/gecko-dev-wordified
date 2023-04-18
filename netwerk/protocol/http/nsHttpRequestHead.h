@@ -428,6 +428,7 @@ Headers
 )
 const
 ;
+PUSH_IGNORE_THREAD_SAFETY
 void
 Enter
 (
@@ -454,6 +455,7 @@ Unlock
 )
 ;
 }
+POP_THREAD_SAFETY
 void
 SetHeaders
 (

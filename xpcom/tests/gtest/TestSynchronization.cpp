@@ -1691,6 +1691,7 @@ TEST
 Synchronization
 AutoTryLock
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 Mutex
 l1

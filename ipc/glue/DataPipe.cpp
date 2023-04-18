@@ -2059,6 +2059,13 @@ lock
 mMutex
 )
 ;
+mMutex
+-
+>
+AssertCurrentThreadOwns
+(
+)
+;
 MOZ_LOG
 (
 gDataPipeLog

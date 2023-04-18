@@ -1142,6 +1142,7 @@ MappedSurface
 *
 aMappedSurface
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 mChangeMutex
 .
@@ -1205,6 +1206,7 @@ SourceSurfaceSkia
 Unmap
 (
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 MOZ_ASSERT
 (

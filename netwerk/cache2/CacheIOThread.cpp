@@ -2720,6 +2720,12 @@ uint32_t
 aLevel
 )
 {
+mMonitor
+.
+AssertCurrentThreadOwns
+(
+)
+;
 EventQueue
 events
 =

@@ -26326,6 +26326,7 @@ AssertOnUpdaterThread
 )
 ;
 }
+PUSH_IGNORE_THREAD_SAFETY
 void
 APZCTreeManager
 :
@@ -26364,6 +26365,7 @@ Unlock
 )
 ;
 }
+POP_THREAD_SAFETY
 void
 APZCTreeManager
 :

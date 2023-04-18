@@ -4097,6 +4097,12 @@ auto
 entry
 )
 {
+mLock
+.
+AssertCurrentThreadOwns
+(
+)
+;
 if
 (
 entry
@@ -8054,6 +8060,12 @@ nullptr
 ;
 nsresult
 rv
+;
+mLock
+.
+AssertCurrentThreadOwns
+(
+)
 ;
 {
 MonitorAutoUnlock

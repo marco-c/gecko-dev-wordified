@@ -6519,6 +6519,7 @@ modification
 .
 *
 /
+PUSH_IGNORE_THREAD_SAFETY
 bool
 Lock
 (
@@ -6563,6 +6564,7 @@ Unlock
 )
 ;
 }
+POP_THREAD_SAFETY
 /
 *
 *

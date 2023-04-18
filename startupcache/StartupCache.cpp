@@ -2217,6 +2217,7 @@ uint32_t
 *
 length
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 AUTO_PROFILER_LABEL
 (
@@ -2871,6 +2872,7 @@ inbuf
 uint32_t
 len
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 NS_ASSERTION
 (
@@ -2994,6 +2996,12 @@ MakeScopeExit
 &
 ]
 {
+mTableLock
+.
+AssertCurrentThreadOwns
+(
+)
+;
 mTableLock
 .
 Unlock
