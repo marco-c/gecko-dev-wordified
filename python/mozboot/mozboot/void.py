@@ -98,9 +98,6 @@ make
 mercurial
 "
 "
-nodejs
-"
-"
 unzip
 "
 "

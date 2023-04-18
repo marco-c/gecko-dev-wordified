@@ -151,9 +151,6 @@ SYSTEM_PACKAGES
 =
 [
 "
-nodejs
-"
-"
 unzip
 "
 "

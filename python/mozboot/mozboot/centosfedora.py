@@ -140,34 +140,11 @@ group_packages
 [
 ]
         
-#
-For
-CentOS
-7
-later
-versions
-of
-nodejs
-come
-from
-nodesource
-        
-#
-and
-include
-the
-npm
-package
-.
-        
 self
 .
 packages
 =
 [
-"
-nodejs
-"
 "
 which
 "
@@ -338,17 +315,6 @@ Development
 "
                 
 ]
-                
-self
-.
-packages
-+
-=
-[
-"
-npm
-"
-]
             
 else
 :
@@ -411,9 +377,6 @@ packages
 +
 =
 [
-"
-npm
-"
 "
 redhat
 -
