@@ -5843,7 +5843,7 @@ nsPrintfCString
 CreateNamedPipeW
 Failed
 %
-u
+lu
 "
 :
 :
@@ -5947,7 +5947,7 @@ nsPrintfCString
 CreateFileW
 Failed
 %
-u
+lu
 "
 :
 :
@@ -6022,7 +6022,7 @@ nsPrintfCString
 ConnectNamedPipe
 Failed
 %
-u
+lu
 "
 :
 :

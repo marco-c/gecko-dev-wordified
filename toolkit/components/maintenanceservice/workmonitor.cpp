@@ -2094,7 +2094,7 @@ ls
 .
 (
 %
-d
+lu
 )
 "
 argv
@@ -2289,7 +2289,7 @@ not
 supported
 (
 %
-d
+lu
 )
 "
 updater
@@ -2325,7 +2325,7 @@ failure
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2378,7 +2378,7 @@ file
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2413,7 +2413,7 @@ failure
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -2755,7 +2755,7 @@ loaded
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3104,7 +3104,7 @@ failure
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3327,7 +3327,7 @@ update
 status
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3445,7 +3445,7 @@ failure
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3491,7 +3491,7 @@ status
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3554,7 +3554,7 @@ status
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3686,7 +3686,7 @@ path
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3731,7 +3731,7 @@ path
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3780,7 +3780,7 @@ path
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -3837,7 +3837,7 @@ path
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -5082,7 +5082,7 @@ path
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -5742,7 +5742,7 @@ location
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -5925,7 +5925,7 @@ ls
 .
 (
 %
-d
+lu
 )
 "
 installDirUpdaterINIPath

@@ -486,7 +486,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -611,7 +611,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -733,7 +733,7 @@ service
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -885,7 +885,7 @@ failed
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1753,7 +1753,7 @@ failed
 .
 (
 %
-d
+lu
 )
 "
 GetLastError

@@ -862,7 +862,7 @@ changed
 .
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -953,7 +953,7 @@ s
 .
 (
 %
-d
+lu
 )
 "
 unneededPrivs

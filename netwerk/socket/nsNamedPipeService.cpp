@@ -850,7 +850,7 @@ CreateIoCompletionPort
 error
 (
 %
-d
+lu
 )
 "
 GetLastError
@@ -1340,7 +1340,7 @@ invalid
 overlapped
 (
 %
-d
+lu
 )
 "
 err
@@ -1567,7 +1567,7 @@ failed
 error
 =
 %
-d
+lu
 "
 obs
 .

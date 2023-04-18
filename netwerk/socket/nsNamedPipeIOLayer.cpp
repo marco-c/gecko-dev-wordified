@@ -1896,7 +1896,7 @@ CreateFile
 error
 (
 %
-d
+lu
 )
 "
 this
@@ -1938,7 +1938,7 @@ SetNamedPipeHandleState
 error
 (
 %
-d
+lu
 )
 "
 this
@@ -3330,7 +3330,7 @@ ReadFile
 failed
 (
 %
-d
+lu
 )
 "
 __func__
@@ -3457,7 +3457,7 @@ s
 p
 ]
 %
-d
+lu
 bytes
 read
 "
@@ -3496,7 +3496,7 @@ s
 p
 ]
 %
-d
+lu
 bytes
 read
 "
@@ -3532,7 +3532,7 @@ GetOverlappedResult
 failed
 (
 %
-d
+lu
 )
 "
 __func__
@@ -3681,7 +3681,7 @@ WriteFile
 failed
 (
 %
-d
+lu
 )
 "
 __func__
@@ -3793,7 +3793,7 @@ GetOverlappedResult
 failed
 (
 %
-d
+lu
 )
 "
 __func__

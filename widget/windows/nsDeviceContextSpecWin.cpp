@@ -3590,7 +3590,7 @@ GetLastEror
 )
 =
 %
-08x
+08lx
 \
 n
 "

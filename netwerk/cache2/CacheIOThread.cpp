@@ -1082,7 +1082,7 @@ with
 GetLastError
 =
 %
-u
+lu
 "
 error
 )
