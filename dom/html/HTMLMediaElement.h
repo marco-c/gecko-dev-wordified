@@ -4123,7 +4123,7 @@ for
 error
 .
 double
-TotalPlayTime
+TotalVideoPlayTime
 (
 )
 const
