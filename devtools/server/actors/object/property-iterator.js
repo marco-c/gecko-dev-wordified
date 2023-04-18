@@ -1561,7 +1561,6 @@ function
 getMapEntries
 (
 obj
-forPreview
 )
 {
 /
@@ -1790,6 +1789,7 @@ unwrapDebuggeeValue
 k
 )
 )
+;
 const
 value
 =
@@ -1819,9 +1819,6 @@ function
 enumMapEntries
 (
 objectActor
-forPreview
-=
-false
 )
 {
 const
@@ -1832,7 +1829,6 @@ getMapEntries
 objectActor
 .
 obj
-forPreview
 )
 ;
 return
@@ -2186,7 +2182,6 @@ function
 getWeakMapEntries
 (
 obj
-forPreview
 )
 {
 /
@@ -2363,9 +2358,6 @@ function
 enumWeakMapEntries
 (
 objectActor
-forPreview
-=
-false
 )
 {
 const
@@ -2376,7 +2368,6 @@ getWeakMapEntries
 objectActor
 .
 obj
-forPreview
 )
 ;
 return
@@ -2502,7 +2493,6 @@ function
 getSetValues
 (
 obj
-forPreview
 )
 {
 /
@@ -2677,9 +2667,6 @@ function
 enumSetEntries
 (
 objectActor
-forPreview
-=
-false
 )
 {
 const
@@ -2690,7 +2677,6 @@ getSetValues
 objectActor
 .
 obj
-forPreview
 )
 .
 map
@@ -2788,7 +2774,6 @@ function
 getWeakSetEntries
 (
 obj
-forPreview
 )
 {
 /
@@ -2939,9 +2924,6 @@ function
 enumWeakSetEntries
 (
 objectActor
-forPreview
-=
-false
 )
 {
 const
@@ -2952,7 +2934,6 @@ getWeakSetEntries
 objectActor
 .
 obj
-forPreview
 )
 ;
 return
