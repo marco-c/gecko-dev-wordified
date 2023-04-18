@@ -9703,6 +9703,11 @@ tryAttachArray
 )
 ;
 AttachDecision
+tryAttachArguments
+(
+)
+;
+AttachDecision
 tryAttachNotOptimizable
 (
 )
