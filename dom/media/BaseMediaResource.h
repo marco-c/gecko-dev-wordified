@@ -1010,7 +1010,7 @@ the
 load
 group
 .
-nsresult
+void
 ModifyLoadFlags
 (
 nsLoadFlags
