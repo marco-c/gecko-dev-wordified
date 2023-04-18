@@ -130,13 +130,6 @@ h
 #
 include
 <
-inttypes
-.
-h
->
-#
-include
-<
 mozilla
 /
 Types
