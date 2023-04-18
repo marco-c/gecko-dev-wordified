@@ -235,6 +235,12 @@ title
 )
 ;
 }
+title
+.
+CompressWhitespace
+(
+)
+;
 return
 nsCocoaUtils
 :
