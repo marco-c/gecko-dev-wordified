@@ -604,11 +604,6 @@ return
 mWindow
 ;
 }
-void
-RefreshMIMEArray
-(
-)
-;
 size_t
 SizeOfIncludingThis
 (

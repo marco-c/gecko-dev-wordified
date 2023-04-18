@@ -258,12 +258,6 @@ aGivenProto
 )
 override
 ;
-void
-Refresh
-(
-)
-{
-}
 /
 /
 MimeTypeArray
