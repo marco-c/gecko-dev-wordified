@@ -553,7 +553,7 @@ ipc
 :
 :
 IPCResult
-AnswerNeedShmem
+RecvNeedShmem
 (
 const
 uint32_t

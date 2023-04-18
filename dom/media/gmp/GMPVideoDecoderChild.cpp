@@ -1123,7 +1123,7 @@ mNeedShmemIntrCount
 ;
 rv
 =
-CallNeedShmem
+SendNeedShmem
 (
 aSize
 aMem
