@@ -19766,9 +19766,8 @@ JS_CODEGEN_MIPS64
 )
 masm
 .
-as_jr
+abiret
 (
-ra
 )
 ;
 #
