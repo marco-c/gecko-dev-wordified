@@ -274,7 +274,6 @@ variable
 /
 class
 MOZ_ONLY_USED_TO_AVOID_STATIC_CONSTRUCTORS
-CAPABILITY
 StaticMutex
 {
 public
@@ -345,9 +344,6 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
-(
-)
 {
 Mutex
 (
@@ -361,9 +357,6 @@ Lock
 }
 void
 Unlock
-(
-)
-CAPABILITY_RELEASE
 (
 )
 {
@@ -380,10 +373,6 @@ Unlock
 void
 AssertCurrentThreadOwns
 (
-)
-ASSERT_CAPABILITY
-(
-this
 )
 {
 #
