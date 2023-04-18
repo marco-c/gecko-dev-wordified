@@ -1963,6 +1963,19 @@ max
 "
 )
 ;
+final
+String
+stepValue
+=
+info
+.
+getString
+(
+"
+step
+"
+)
+;
 return
 new
 DateTimePrompt
@@ -1987,6 +2000,7 @@ intMode
 defaultValue
 minValue
 maxValue
+stepValue
 observer
 )
 ;
