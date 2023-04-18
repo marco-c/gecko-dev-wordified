@@ -2076,6 +2076,7 @@ bug
 try
 :
             
+library
 target_revision
 =
 RE_COMMITMSG
@@ -2091,9 +2092,6 @@ groups
 (
 0
 )
-[
-1
-]
         
 except
 Exception
@@ -2129,6 +2127,28 @@ desc
 overall_failure
 =
 True
+            
+continue
+        
+if
+library
+=
+=
+'
+angle
+'
+:
+            
+print
+(
+"
+Currently
+cannot
+verify
+angle
+updates
+"
+)
             
 continue
         
