@@ -148,6 +148,7 @@ callback_is_async
 )
 {
 return
+async
 function
 (
 actual
@@ -201,6 +202,7 @@ length
 '
 )
 ;
+await
 callback
 (
 actual
@@ -231,6 +233,7 @@ callback_is_async
 )
 {
 return
+async
 function
 (
 actual
@@ -282,6 +285,7 @@ actual
 input
 )
 ;
+await
 callback
 (
 actual
@@ -312,6 +316,7 @@ test_obj
 )
 {
 return
+async
 function
 (
 actual
@@ -326,6 +331,7 @@ in
 input
 )
 {
+await
 compare_func
 (
 actual
@@ -3798,6 +3804,7 @@ true
 )
 )
 ;
+async
 function
 compare_File
 (
@@ -3843,6 +3850,7 @@ lastModified
 '
 )
 ;
+await
 compare_Blob
 (
 actual
