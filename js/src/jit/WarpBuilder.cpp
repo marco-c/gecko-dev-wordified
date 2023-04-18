@@ -9948,6 +9948,17 @@ loc
 {
 MDefinition
 *
+options
+=
+current
+-
+>
+pop
+(
+)
+;
+MDefinition
+*
 specifier
 =
 current
@@ -9970,6 +9981,7 @@ alloc
 (
 )
 specifier
+options
 )
 ;
 current

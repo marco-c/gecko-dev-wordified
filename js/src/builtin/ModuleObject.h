@@ -2462,6 +2462,8 @@ HandleScript
 script
 HandleValue
 specifier
+HandleValue
+options
 )
 ;
 bool

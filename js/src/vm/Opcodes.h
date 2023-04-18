@@ -6356,6 +6356,7 @@ Operands
 Stack
 :
 moduleId
+options
 =
 >
 promise
@@ -6368,7 +6369,7 @@ DynamicImport
 dynamic_import
 NULL
 1
-1
+2
 1
 JOF_BYTE
 )

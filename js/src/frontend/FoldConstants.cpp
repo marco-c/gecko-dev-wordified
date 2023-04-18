@@ -1229,6 +1229,12 @@ case
 ParseNodeKind
 :
 :
+CallImportSpec
+:
+case
+ParseNodeKind
+:
+:
 ImportAssertionList
 :
 case

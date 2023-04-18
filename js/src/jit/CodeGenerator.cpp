@@ -24464,6 +24464,18 @@ lir
 LDynamicImport
 :
 :
+OptionsIndex
+)
+)
+;
+pushArg
+(
+ToValue
+(
+lir
+LDynamicImport
+:
+:
 SpecifierIndex
 )
 )
@@ -24502,6 +24514,7 @@ JSObject
 JSContext
 *
 HandleScript
+HandleValue
 HandleValue
 )
 ;

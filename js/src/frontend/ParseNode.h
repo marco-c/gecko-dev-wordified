@@ -1101,6 +1101,12 @@ BinaryNode
 \
 F
 (
+CallImportSpec
+BinaryNode
+)
+\
+F
+(
 InitExpr
 BinaryNode
 )
