@@ -1857,9 +1857,12 @@ int32_t
 XULMenuitemAccessible
 :
 :
-GetLevelInternal
+GetLevel
 (
+bool
+aFast
 )
+const
 {
 return
 nsAccUtils

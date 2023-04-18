@@ -298,13 +298,6 @@ const
 override
 ;
 virtual
-int32_t
-GetLevelInternal
-(
-)
-override
-;
-virtual
 already_AddRefed
 <
 AccAttributes
