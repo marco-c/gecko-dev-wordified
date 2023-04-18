@@ -576,6 +576,17 @@ aFlags
 )
 {
 }
+virtual
+bool
+WasTriggeredByScript
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 /

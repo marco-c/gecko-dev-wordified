@@ -10237,6 +10237,8 @@ const
 CSSPoint
 &
 aDestination
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 ;
 /
