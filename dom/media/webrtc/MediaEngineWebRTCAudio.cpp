@@ -724,11 +724,17 @@ testing
 int32_t
 maxChannels
 =
+static_cast
+<
+int32_t
+>
+(
 mDeviceInfo
 -
 >
 MaxChannels
 (
+)
 )
 ;
 /
