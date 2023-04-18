@@ -216,7 +216,7 @@ openNewForegroundTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
