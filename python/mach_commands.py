@@ -71,8 +71,6 @@ from
 multiprocessing
 import
 cpu_count
-import
-six
 from
 concurrent
 .
@@ -868,27 +866,6 @@ test
 )
 )
         
-if
-six
-.
-PY2
-:
-            
-os
-.
-environ
-[
-b
-"
-PYTHON_TEST_TMP
-"
-]
-=
-tempdir
-        
-else
-:
-            
 os
 .
 environ
@@ -1908,15 +1885,6 @@ line
 )
 :
         
-line
-=
-six
-.
-ensure_str
-(
-line
-)
-        
 if
 not
 file_displayed_test
@@ -2049,28 +2017,6 @@ copy
 (
 )
     
-if
-six
-.
-PY2
-:
-        
-env
-[
-b
-"
-PYTHONDONTWRITEBYTECODE
-"
-]
-=
-b
-"
-1
-"
-    
-else
-:
-        
 env
 [
 "
@@ -2088,15 +2034,22 @@ ProcessHandler
 (
         
 cmd
+        
 env
 =
 env
+        
 processOutputLine
 =
 _line_handler
+        
 storeOutput
 =
 False
+        
+universal_newlines
+=
+True
     
 )
     
