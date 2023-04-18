@@ -183,7 +183,6 @@ eUXMediaToolbar
 eUXCommunicationsToolbar
 eUXProgress
 eUXTab
-eUXScrollbar
 eUXTrackbar
 eUXSpin
 eUXStatus

@@ -610,15 +610,6 @@ Tab
 "
 ;
 case
-eUXScrollbar
-:
-return
-L
-"
-Scrollbar
-"
-;
-case
 eUXTrackbar
 :
 return
