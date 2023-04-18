@@ -4664,6 +4664,7 @@ addons
 .
 if
 (
+(
 this
 .
 type
@@ -4673,6 +4674,17 @@ type
 "
 extension
 "
+|
+|
+this
+.
+type
+=
+=
+"
+sitepermission
+"
+)
 &
 &
 this
