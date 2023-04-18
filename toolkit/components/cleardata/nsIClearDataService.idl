@@ -1445,23 +1445,6 @@ CLEAR_MEDIA_DEVICES
 *
 *
 *
-AppCache
-.
-*
-/
-const
-uint32_t
-CLEAR_APPCACHE
-=
-1
-<
-<
-7
-;
-/
-*
-*
-*
 LocalStorage
 IndexedDB
 ServiceWorkers
@@ -1480,7 +1463,7 @@ CLEAR_DOM_QUOTA
 1
 <
 <
-8
+7
 ;
 /
 *
@@ -1498,7 +1481,7 @@ CLEAR_PREDICTOR_NETWORK_DATA
 1
 <
 <
-9
+8
 ;
 /
 *
@@ -1516,7 +1499,7 @@ CLEAR_DOM_PUSH_NOTIFICATIONS
 1
 <
 <
-10
+9
 ;
 /
 *
@@ -1533,7 +1516,7 @@ CLEAR_HISTORY
 1
 <
 <
-11
+10
 ;
 /
 *
@@ -1550,7 +1533,7 @@ CLEAR_SESSION_HISTORY
 1
 <
 <
-12
+11
 ;
 /
 *
@@ -1567,7 +1550,7 @@ CLEAR_AUTH_TOKENS
 1
 <
 <
-13
+12
 ;
 /
 *
@@ -1584,7 +1567,7 @@ CLEAR_AUTH_CACHE
 1
 <
 <
-14
+13
 ;
 /
 *
@@ -1601,7 +1584,7 @@ CLEAR_PERMISSIONS
 1
 <
 <
-15
+14
 ;
 /
 *
@@ -1618,7 +1601,7 @@ CLEAR_CONTENT_PREFERENCES
 1
 <
 <
-16
+15
 ;
 /
 *
@@ -1636,7 +1619,7 @@ CLEAR_SECURITY_SETTINGS
 1
 <
 <
-17
+16
 ;
 /
 *
@@ -1654,7 +1637,7 @@ CLEAR_EME
 1
 <
 <
-18
+17
 ;
 /
 *
@@ -1673,7 +1656,7 @@ CLEAR_REPORTS
 1
 <
 <
-19
+18
 ;
 /
 *
@@ -1695,7 +1678,7 @@ CLEAR_STORAGE_ACCESS
 1
 <
 <
-20
+19
 ;
 /
 *
@@ -1714,7 +1697,7 @@ CLEAR_CERT_EXCEPTIONS
 1
 <
 <
-21
+20
 ;
 /
 *
@@ -1737,7 +1720,7 @@ CLEAR_CONTENT_BLOCKING_RECORDS
 1
 <
 <
-22
+21
 ;
 /
 *
@@ -1760,7 +1743,7 @@ CLEAR_CSS_CACHE
 1
 <
 <
-23
+22
 ;
 /
 *
@@ -1781,7 +1764,7 @@ CLEAR_PREFLIGHT_CACHE
 1
 <
 <
-24
+23
 ;
 /
 *
@@ -1940,8 +1923,6 @@ const
 uint32_t
 CLEAR_DOM_STORAGES
 =
-CLEAR_APPCACHE
-|
 CLEAR_DOM_QUOTA
 |
 CLEAR_DOM_PUSH_NOTIFICATIONS
