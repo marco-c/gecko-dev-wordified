@@ -1749,7 +1749,7 @@ idAndPc
 second
 -
 >
-RecordConduitTelemetry
+CollectConduitTelemetryData
 (
 )
 ;

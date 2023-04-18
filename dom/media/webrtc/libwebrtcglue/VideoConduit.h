@@ -1860,7 +1860,7 @@ false
 ;
 }
 void
-RecordTelemetry
+CollectTelemetryData
 (
 )
 override
@@ -2481,7 +2481,7 @@ stats
 for
 telemetry
 .
-Sts
+Main
 thread
 only
 .

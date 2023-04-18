@@ -2291,7 +2291,7 @@ aInternalStats
 )
 ;
 void
-RecordConduitTelemetry
+CollectConduitTelemetryData
 (
 )
 ;
