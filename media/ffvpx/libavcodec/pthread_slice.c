@@ -861,6 +861,7 @@ avctx
 >
 thread_count
 ;
+static
 void
 (
 *

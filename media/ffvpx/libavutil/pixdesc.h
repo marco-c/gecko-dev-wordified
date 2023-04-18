@@ -898,9 +898,6 @@ AV_PIX_FMT_FLAG_RGB
 <
 5
 )
-#
-if
-FF_API_PSEUDOPAL
 /
 *
 *
@@ -1093,8 +1090,6 @@ AV_PIX_FMT_FLAG_PSEUDOPAL
 <
 6
 )
-#
-endif
 /
 *
 *

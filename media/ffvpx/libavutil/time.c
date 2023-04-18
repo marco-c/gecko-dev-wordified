@@ -233,7 +233,7 @@ endif
 #
 include
 "
-time
+fftime
 .
 h
 "
@@ -352,7 +352,6 @@ ifdef
 __APPLE__
 if
 (
-&
 clock_gettime
 )
 #
@@ -426,7 +425,6 @@ __APPLE__
 if
 (
 !
-&
 clock_gettime
 )
 return

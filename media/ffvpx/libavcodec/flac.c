@@ -1429,7 +1429,7 @@ s
 >
 max_framesize
 =
-get_bits
+get_bits_long
 (
 &
 gb
@@ -1441,7 +1441,7 @@ s
 >
 samplerate
 =
-get_bits
+get_bits_long
 (
 &
 gb

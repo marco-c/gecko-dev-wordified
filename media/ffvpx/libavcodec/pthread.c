@@ -445,9 +445,9 @@ avctx
 codec
 -
 >
-caps_internal
+capabilities
 &
-FF_CODEC_CAP_AUTO_THREADS
+AV_CODEC_CAP_AUTO_THREADS
 )
 )
 {
