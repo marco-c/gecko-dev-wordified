@@ -12058,6 +12058,9 @@ if
 (
 !
 mDoLineBreaking
+&
+&
+textRun
 )
 {
 CreateObserversForAnimatedGlyphs
