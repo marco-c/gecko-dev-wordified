@@ -3550,7 +3550,7 @@ uintptr_t
 ptr
 +
 (
-total_size
+count
 -
 1
 )
