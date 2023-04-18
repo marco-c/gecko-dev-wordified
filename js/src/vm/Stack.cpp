@@ -307,7 +307,7 @@ include
 "
 wasm
 /
-WasmInstance
+WasmProcess
 .
 h
 "

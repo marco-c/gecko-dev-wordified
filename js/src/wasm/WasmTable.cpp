@@ -240,6 +240,17 @@ WasmJS
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmInstance
+-
+inl
+.
+h
+"
 using
 namespace
 js

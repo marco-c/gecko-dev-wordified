@@ -200,15 +200,6 @@ WasmBuiltins
 h
 "
 #
-include
-"
-wasm
-/
-WasmTlsData
-.
-h
-"
-#
 ifdef
 _M_ARM64
 #

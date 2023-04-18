@@ -26371,6 +26371,11 @@ Register
 dest
 )
 ;
+void
+loadWasmPinnedRegsFromTls
+(
+)
+;
 /
 /
 This

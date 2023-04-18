@@ -158,15 +158,6 @@ WasmBuiltins
 .
 h
 "
-#
-include
-"
-wasm
-/
-WasmTlsData
-.
-h
-"
 namespace
 js
 {

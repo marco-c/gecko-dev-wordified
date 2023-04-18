@@ -526,6 +526,17 @@ h
 /
 for
 NewTenuredObjectWithGivenProto
+#
+include
+"
+wasm
+/
+WasmInstance
+-
+inl
+.
+h
+"
 namespace
 js
 {

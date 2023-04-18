@@ -254,6 +254,15 @@ include
 "
 wasm
 /
+WasmCode
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmInstance
 .
 h

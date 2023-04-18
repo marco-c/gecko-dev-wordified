@@ -338,6 +338,17 @@ WasmModule
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmInstance
+-
+inl
+.
+h
+"
 using
 mozilla
 :

@@ -209,6 +209,15 @@ include
 "
 wasm
 /
+WasmDebug
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmInstance
 .
 h
