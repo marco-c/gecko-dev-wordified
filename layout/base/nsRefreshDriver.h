@@ -1772,6 +1772,16 @@ mFreezeCount
 0
 ;
 }
+bool
+IsThrottled
+(
+)
+const
+{
+return
+mThrottled
+;
+}
 /
 *
 *
