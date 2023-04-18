@@ -256,15 +256,6 @@ time
 )
     
 def
-upstream_tag
-(
-self
-)
-:
-        
-pass
-    
-def
 upstream_snapshot
 (
 self
