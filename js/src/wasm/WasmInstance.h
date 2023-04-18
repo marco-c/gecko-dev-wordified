@@ -1721,6 +1721,9 @@ valueBoxClass_
 )
 ;
 }
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
 static
 constexpr
 size_t
@@ -1751,6 +1754,11 @@ pendingExceptionTag_
 )
 ;
 }
+#
+endif
+/
+/
+ENABLE_WASM_EXCEPTIONS
 static
 constexpr
 size_t
@@ -2068,14 +2076,6 @@ resetInterrupt
 JSContext
 *
 cx
-)
-;
-void
-setPendingException
-(
-JSObject
-*
-pendingException
 )
 ;
 const
