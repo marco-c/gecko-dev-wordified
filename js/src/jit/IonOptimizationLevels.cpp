@@ -198,6 +198,10 @@ eliminateRedundantChecks_
 =
 true
 ;
+eliminateRedundantShapeGuards_
+=
+true
+;
 inlineInterpreted_
 =
 true
@@ -298,6 +302,10 @@ edgeCaseAnalysis_
 false
 ;
 eliminateRedundantChecks_
+=
+false
+;
+eliminateRedundantShapeGuards_
 =
 false
 ;
