@@ -371,10 +371,15 @@ defined
 (
 HAVE_LOCALTIME_R
 )
+#
+ifndef
+__wasi__
 tzset
 (
 )
 ;
+#
+endif
 return
 localtime_r
 (
