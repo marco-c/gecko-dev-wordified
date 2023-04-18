@@ -67,6 +67,10 @@ import
 (
     
 BuildEnvironmentNotFoundException
+    
+MachCommandConditions
+as
+conditions
 )
 from
 mach
@@ -219,6 +223,15 @@ format
 "
 "
 rustfmt
+"
+}
+VALID_ANDROID_FORMATTERS
+=
+{
+"
+android
+-
+format
 "
 }
 def
@@ -898,6 +911,24 @@ linters
 "
 ]
     
+formatters
+=
+VALID_FORMATTERS
+    
+if
+conditions
+.
+is_android
+(
+command_context
+)
+:
+        
+formatters
+|
+=
+VALID_ANDROID_FORMATTERS
+    
 if
 not
 linters
@@ -905,7 +936,7 @@ linters
         
 linters
 =
-VALID_FORMATTERS
+formatters
     
 else
 :
@@ -917,7 +948,7 @@ set
 linters
 )
 -
-VALID_FORMATTERS
+formatters
         
 if
 invalid_linters
@@ -967,7 +998,7 @@ join
 (
 sorted
 (
-VALID_FORMATTERS
+formatters
 )
 )
 )
