@@ -1643,10 +1643,7 @@ length
 DB_URL_LENGTH_MAX
 )
 )
-.
-call
 (
-this
 v
 )
 ;
