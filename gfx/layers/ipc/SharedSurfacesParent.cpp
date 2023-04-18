@@ -1445,8 +1445,8 @@ wr
 ExternalImageId
 &
 aId
-const
 SurfaceDescriptorShared
+&
 &
 aDesc
 base
@@ -1598,10 +1598,16 @@ aDesc
 format
 (
 )
+std
+:
+:
+move
+(
 aDesc
 .
 handle
 (
+)
 )
 aPid
 )
