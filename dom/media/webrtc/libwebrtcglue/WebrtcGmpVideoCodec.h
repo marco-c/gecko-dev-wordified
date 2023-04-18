@@ -2029,6 +2029,7 @@ aParameters
 }
 private
 :
+const
 RefPtr
 <
 RefCountedWebrtcVideoEncoder
@@ -2735,6 +2736,7 @@ ReleaseGmp
 }
 private
 :
+const
 RefPtr
 <
 WebrtcGmpVideoDecoder
