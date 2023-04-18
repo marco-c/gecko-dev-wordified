@@ -22103,6 +22103,9 @@ ClearReuseableDisplayItems
 (
 )
 ;
+#
+ifdef
+DEBUG
 mozilla
 :
 :
@@ -22119,6 +22122,8 @@ RootReferenceFrame
 )
 )
 ;
+#
+endif
 }
 list
 -
