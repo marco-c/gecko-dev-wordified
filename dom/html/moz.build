@@ -195,11 +195,6 @@ XPIDL_SOURCES
 =
 [
 "
-nsIFormSubmitObserver
-.
-idl
-"
-"
 nsIMenuBuilder
 .
 idl

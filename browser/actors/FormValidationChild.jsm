@@ -302,12 +302,6 @@ break
 ;
 }
 }
-/
-*
-*
-nsIFormSubmitObserver
-*
-/
 notifyInvalidSubmit
 (
 aFormElement
