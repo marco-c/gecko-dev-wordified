@@ -4526,7 +4526,7 @@ http2
 and
 http1
 .
-DOMScriptLoadContext
+ScriptLoadContext
 :
 :
 PrioritizeAsPreload
@@ -4534,7 +4534,7 @@ PrioritizeAsPreload
 channel
 )
 ;
-DOMScriptLoadContext
+ScriptLoadContext
 :
 :
 AddLoadBackgroundFlag
@@ -5629,12 +5629,12 @@ aTriggeringPrincipal
 ;
 RefPtr
 <
-DOMScriptLoadContext
+ScriptLoadContext
 >
 context
 =
 new
-DOMScriptLoadContext
+ScriptLoadContext
 (
 domElement
 )

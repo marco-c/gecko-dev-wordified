@@ -1929,7 +1929,7 @@ element
 ;
 RefPtr
 <
-DOMScriptLoadContext
+ScriptLoadContext
 >
 context
 ;
@@ -1984,7 +1984,7 @@ GetScriptElement
 context
 =
 new
-DOMScriptLoadContext
+ScriptLoadContext
 (
 element
 )
@@ -2205,7 +2205,7 @@ GetDocBaseURI
 context
 =
 new
-DOMScriptLoadContext
+ScriptLoadContext
 (
 nullptr
 global
@@ -3579,7 +3579,7 @@ aReferrer
 ScriptLoader
 *
 aLoader
-DOMScriptLoadContext
+ScriptLoadContext
 *
 aContext
 )
@@ -3662,12 +3662,12 @@ aParent
 {
 RefPtr
 <
-DOMScriptLoadContext
+ScriptLoadContext
 >
 newContext
 =
 new
-DOMScriptLoadContext
+ScriptLoadContext
 (
 aParent
 -
@@ -3818,7 +3818,7 @@ aFetchOptions
 nsIURI
 *
 aBaseURL
-DOMScriptLoadContext
+ScriptLoadContext
 *
 aContext
 ScriptLoader
@@ -3877,7 +3877,7 @@ aContext
 >
 mScriptMode
 =
-DOMScriptLoadContext
+ScriptLoadContext
 :
 :
 ScriptMode
