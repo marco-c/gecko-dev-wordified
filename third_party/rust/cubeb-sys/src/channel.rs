@@ -228,6 +228,8 @@ cubeb_enum
 pub
 enum
 cubeb_channel_layout
+:
+c_enum
 {
 CUBEB_LAYOUT_UNDEFINED
 =
