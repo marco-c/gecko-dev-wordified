@@ -119,6 +119,10 @@ nsEscape
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 In

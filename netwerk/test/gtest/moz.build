@@ -518,6 +518,3 @@ xpcom
 components
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True
