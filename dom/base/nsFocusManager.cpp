@@ -6921,6 +6921,9 @@ elsewhere
 .
 if
 (
+docShellBeingHidden
+&
+&
 nsDocShell
 :
 :
