@@ -50430,17 +50430,12 @@ mFrame
 nsCString
 buf
 ;
-int32_t
-totalContentLength
-;
 f
 -
 >
 ToCString
 (
 buf
-&
-totalContentLength
 )
 ;
 aStream

@@ -2039,9 +2039,6 @@ ToCString
 nsCString
 &
 aBuf
-int32_t
-*
-aTotalContentLength
 )
 const
 ;
