@@ -1466,9 +1466,6 @@ descendant
 :
 bar
 "
-nsresult
-rv
-;
 uint32_t
 current
 ;
@@ -1689,8 +1686,6 @@ new
 txUnionNodeTest
 )
 ;
-rv
-=
 unionTest
 -
 >
@@ -1702,12 +1697,6 @@ currentStep
 getNodeTest
 (
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 currentStep
@@ -1736,8 +1725,6 @@ nodetest
 into
 the
 union
-rv
-=
 unionTest
 -
 >
@@ -1749,12 +1736,6 @@ step
 getNodeTest
 (
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 step
