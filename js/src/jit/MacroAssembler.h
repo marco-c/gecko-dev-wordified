@@ -24098,6 +24098,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -24129,6 +24130,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -24160,6 +24162,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -24191,6 +24194,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -24474,6 +24478,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -24505,6 +24510,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -24536,6 +24542,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
@@ -24567,6 +24574,7 @@ dest
 )
 DEFINED_ON
 (
+x86_shared
 arm64
 )
 ;
