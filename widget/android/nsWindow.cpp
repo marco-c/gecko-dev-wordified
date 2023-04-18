@@ -18537,6 +18537,9 @@ java
 sdk
 :
 :
+Bitmap
+:
+:
 Config
 :
 :
