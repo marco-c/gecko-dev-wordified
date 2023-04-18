@@ -7016,6 +7016,13 @@ defined
 (
 JS_CODEGEN_MIPS64
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_LOONG64
+)
 return
 this
 -

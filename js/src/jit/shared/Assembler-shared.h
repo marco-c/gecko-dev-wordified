@@ -272,6 +272,13 @@ defined
 (
 JS_CODEGEN_MIPS64
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_LOONG64
+)
 /
 /
 Push
@@ -304,6 +311,12 @@ JS_CODEGEN_MIPS64
 defined
 (
 JS_CODEGEN_ARM64
+)
+|
+|
+defined
+(
+JS_CODEGEN_LOONG64
 )
 /
 /

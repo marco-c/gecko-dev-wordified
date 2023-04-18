@@ -430,6 +430,9 @@ arm
 "
 arm64
 "
+"
+loong64
+"
 ]
 )
 all_shared_architecture_names
@@ -445,6 +448,9 @@ arm
 "
 "
 arm64
+"
+"
+loong64
 "
 ]
 )

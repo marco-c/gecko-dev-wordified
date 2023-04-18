@@ -25,6 +25,8 @@ ppc64le
 s390x
 |
 mips64
+|
+loongarch64
 /
 )
 )
