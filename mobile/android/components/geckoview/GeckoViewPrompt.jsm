@@ -415,9 +415,10 @@ HTMLSelectElement
 {
 if
 (
+!
 target
 .
-multiple
+isCombobox
 )
 {
 this
@@ -439,9 +440,7 @@ return
 }
 /
 /
-non
--
-multiple
+combobox
 select
 is
 handled
