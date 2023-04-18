@@ -2790,6 +2790,17 @@ return
 mNetworkLinkType
 ;
 }
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvSocketProcessCrashed
+(
+)
+;
 /
 /
 Get
