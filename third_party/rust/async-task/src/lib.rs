@@ -841,7 +841,10 @@ crate
 task
 :
 :
+{
+FallibleTask
 Task
+}
 ;
 #
 [
