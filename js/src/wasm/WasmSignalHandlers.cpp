@@ -5020,11 +5020,6 @@ GetNearestEffectiveTls
 (
 frame
 )
--
->
-instance
-(
-)
 ;
 MOZ_RELEASE_ASSERT
 (
@@ -8149,6 +8144,7 @@ return
 false
 ;
 }
+const
 Instance
 &
 instance
@@ -8165,11 +8161,6 @@ regs
 .
 fp
 )
-)
--
->
-instance
-(
 )
 ;
 MOZ_ASSERT

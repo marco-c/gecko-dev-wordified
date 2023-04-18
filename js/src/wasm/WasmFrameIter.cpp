@@ -698,11 +698,6 @@ code_
 tls_
 -
 >
-instance
-(
-)
--
->
 code
 (
 )
@@ -1796,11 +1791,6 @@ tls
 )
 -
 >
-instance
-(
-)
--
->
 code
 (
 )
@@ -2327,11 +2317,6 @@ done
 ;
 return
 tls_
--
->
-instance
-(
-)
 ;
 }
 void
@@ -11059,11 +11044,6 @@ fromUntaggedWasmExitFP
 (
 callerFP_
 )
-)
--
->
-instance
-(
 )
 -
 >
