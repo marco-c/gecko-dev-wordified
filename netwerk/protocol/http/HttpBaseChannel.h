@@ -2570,6 +2570,11 @@ get
 )
 ;
 }
+void
+SetDummyChannelForImageCache
+(
+)
+;
 const
 NetAddr
 &
@@ -5219,6 +5224,9 @@ mBlockOpaqueResponseAfterSniff
 ;
 bool
 mCheckIsOpaqueResponseAllowedAfterSniff
+;
+bool
+mDummyChannelForImageCache
 ;
 /
 /
