@@ -67,14 +67,8 @@ threadFront
 5
 )
 ;
-threadFront
-.
-resume
-(
-)
-;
 await
-waitForPause
+resumeAndWaitForPause
 (
 threadFront
 )
@@ -86,6 +80,7 @@ threadFront
 2
 )
 ;
+await
 threadFront
 .
 resume

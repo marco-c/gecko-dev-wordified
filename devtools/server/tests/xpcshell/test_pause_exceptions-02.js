@@ -143,6 +143,7 @@ exception
 42
 )
 ;
+await
 threadFront
 .
 resume

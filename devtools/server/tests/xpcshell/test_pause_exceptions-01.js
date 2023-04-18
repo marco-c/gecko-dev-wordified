@@ -103,17 +103,11 @@ false
 }
 )
 ;
-threadFront
-.
-resume
-(
-)
-;
 const
 packet
 =
 await
-waitForPause
+resumeAndWaitForPause
 (
 threadFront
 )
@@ -144,6 +138,7 @@ exception
 42
 )
 ;
+await
 threadFront
 .
 resume

@@ -83,17 +83,11 @@ debuggee
 threadFront
 )
 ;
-threadFront
-.
-resume
-(
-)
-;
 const
 packet2
 =
 await
-waitForPause
+resumeAndWaitForPause
 (
 threadFront
 )
@@ -114,6 +108,7 @@ frame
 actor
 )
 ;
+await
 threadFront
 .
 resume

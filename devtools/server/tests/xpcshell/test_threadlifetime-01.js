@@ -148,17 +148,11 @@ error
 undefined
 )
 ;
-threadFront
-.
-resume
-(
-)
-;
 const
 packet2
 =
 await
-waitForPause
+resumeAndWaitForPause
 (
 threadFront
 )
@@ -270,6 +264,7 @@ thrown
 )
 ;
 }
+await
 threadFront
 .
 resume

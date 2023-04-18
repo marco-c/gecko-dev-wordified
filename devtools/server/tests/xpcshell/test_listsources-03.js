@@ -146,6 +146,7 @@ js
 )
 )
 ;
+await
 threadFront
 .
 resume

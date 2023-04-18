@@ -153,14 +153,8 @@ frames
 )
 ;
 }
-threadFront
-.
-resume
-(
-)
-;
 await
-waitForPause
+resumeAndWaitForPause
 (
 threadFront
 )
@@ -236,6 +230,7 @@ frames
 )
 ;
 }
+await
 threadFront
 .
 resume

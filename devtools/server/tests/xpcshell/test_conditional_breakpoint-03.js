@@ -158,17 +158,11 @@ breakpoint
 is
 hit
 .
-threadFront
-.
-resume
-(
-)
-;
 const
 packet2
 =
 await
-waitForPause
+resumeAndWaitForPause
 (
 threadFront
 )
@@ -278,6 +272,7 @@ removeBreakpoint
 location
 )
 ;
+await
 threadFront
 .
 resume
