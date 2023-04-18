@@ -171,6 +171,15 @@ h
 #
 include
 "
+mozilla
+/
+WinHeaderOnlyUtils
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -7316,7 +7325,10 @@ Z
 .
 if
 (
-PathGetDriveNumberW
+MozPathGetDriveNumber
+<
+wchar_t
+>
 (
 aFilePath
 .
