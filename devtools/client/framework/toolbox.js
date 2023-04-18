@@ -8603,7 +8603,7 @@ targetType
 }
 ;
 }
-_isDebugTargetFenix
+isDebugTargetFenix
 (
 )
 {
@@ -13625,7 +13625,7 @@ if
 (
 this
 .
-_isDebugTargetFenix
+isDebugTargetFenix
 (
 )
 )
@@ -13754,7 +13754,7 @@ if
 (
 this
 .
-_isDebugTargetFenix
+isDebugTargetFenix
 (
 )
 )
