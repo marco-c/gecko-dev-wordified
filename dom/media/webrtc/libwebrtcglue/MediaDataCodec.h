@@ -92,9 +92,9 @@ encoder
 object
 for
 codec
-type
+format
 |
-aCodecType
+aFormat
 |
 .
 Return
@@ -112,11 +112,13 @@ WebrtcVideoEncoder
 *
 CreateEncoder
 (
+const
 webrtc
 :
 :
-VideoCodecType
-aCodecType
+SdpVideoFormat
+&
+aFormat
 )
 ;
 /
