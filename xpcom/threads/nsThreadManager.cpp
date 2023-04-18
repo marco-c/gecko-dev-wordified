@@ -4176,7 +4176,7 @@ AppShutdownConfirmed
 }
 /
 /
-static
+statics
 from
 SpinEventLoopUntil
 .
@@ -4189,6 +4189,12 @@ AutoNestedEventLoopAnnotation
 sCurrent
 =
 nullptr
+;
+StaticMutex
+AutoNestedEventLoopAnnotation
+:
+:
+sStackMutex
 ;
 /
 /
