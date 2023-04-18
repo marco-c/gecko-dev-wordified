@@ -86,7 +86,7 @@ id
 .
 const
 {
-BuiltInThemeConfig
+BuiltInThemes
 }
 =
 ChromeUtils
@@ -101,7 +101,7 @@ resource
 /
 modules
 /
-BuiltInThemeConfig
+BuiltInThemes
 .
 jsm
 "
@@ -114,7 +114,9 @@ COLORWAY_IDS
 .
 .
 .
-BuiltInThemeConfig
+BuiltInThemes
+.
+builtInThemeMap
 .
 keys
 (
@@ -137,6 +139,15 @@ mozilla
 .
 org
 "
+)
+&
+&
+!
+BuiltInThemes
+.
+themeIsExpired
+(
+id
 )
 )
 ;
