@@ -205,6 +205,8 @@ tab_text
 "
 -
 -
+lwt
+-
 tab
 -
 line
@@ -283,6 +285,8 @@ toolbar_text
 [
 "
 -
+-
+lwt
 -
 tabs
 -
