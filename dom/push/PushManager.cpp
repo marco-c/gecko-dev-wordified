@@ -168,6 +168,17 @@ mozilla
 /
 dom
 /
+PermissionStatusBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PushManagerBinding
 .
 h
@@ -323,7 +334,7 @@ GetPermissionState
 nsIPrincipal
 *
 aPrincipal
-PushPermissionState
+PermissionState
 &
 aState
 )
@@ -430,7 +441,7 @@ false
 {
 aState
 =
-PushPermissionState
+PermissionState
 :
 :
 Granted
@@ -450,7 +461,7 @@ DENY_ACTION
 {
 aState
 =
-PushPermissionState
+PermissionState
 :
 :
 Denied
@@ -460,7 +471,7 @@ else
 {
 aState
 =
-PushPermissionState
+PermissionState
 :
 :
 Prompt
@@ -1361,7 +1372,7 @@ mProxy
 mScope
 )
 ;
-PushPermissionState
+PermissionState
 state
 ;
 nsresult
@@ -1398,7 +1409,7 @@ if
 state
 !
 =
-PushPermissionState
+PermissionState
 :
 :
 Granted
@@ -1632,7 +1643,7 @@ PromiseWorkerProxy
 aProxy
 nsresult
 aStatus
-PushPermissionState
+PermissionState
 aState
 )
 :
@@ -1756,7 +1767,7 @@ mProxy
 nsresult
 mStatus
 ;
-PushPermissionState
+PermissionState
 mState
 ;
 }
@@ -1828,7 +1839,7 @@ return
 NS_OK
 ;
 }
-PushPermissionState
+PermissionState
 state
 ;
 nsresult
