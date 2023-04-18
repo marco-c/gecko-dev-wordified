@@ -154,7 +154,6 @@ selectors
 {
 getSelectedSource
 }
-getState
 commands
 }
 =
@@ -450,12 +449,10 @@ displayed
 await
 waitFor
 (
-async
 (
 )
 =
 >
-await
 highlighterTestFront
 .
 isPausedDebuggerOverlayVisible

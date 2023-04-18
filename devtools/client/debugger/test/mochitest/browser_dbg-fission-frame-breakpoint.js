@@ -140,8 +140,6 @@ selectors
 :
 {
 getSelectedSource
-getIsPaused
-getCurrentThread
 }
 }
 =

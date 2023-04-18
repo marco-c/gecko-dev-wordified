@@ -597,7 +597,6 @@ const
 {
 identifier
 value
-expandedValue
 }
 =
 inlinePreview

@@ -268,7 +268,6 @@ selectors
 {
 getVisibleSelectedFrame
 }
-getState
 }
 =
 dbg

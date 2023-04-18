@@ -140,7 +140,6 @@ selectors
 {
 getBreakpointCount
 }
-getState
 }
 =
 dbg
@@ -450,7 +449,6 @@ selectors
 {
 getBreakpoint
 }
-getState
 }
 =
 dbg
@@ -492,7 +490,6 @@ selectors
 {
 getBreakpointCount
 }
-getState
 }
 =
 dbg

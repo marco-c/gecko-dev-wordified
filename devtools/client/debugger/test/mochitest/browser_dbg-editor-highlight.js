@@ -127,7 +127,6 @@ const
 selectors
 :
 {
-getSource
 getSourceContent
 }
 }

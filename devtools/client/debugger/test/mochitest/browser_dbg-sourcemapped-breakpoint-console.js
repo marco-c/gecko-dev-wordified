@@ -492,14 +492,11 @@ webconsole
 for
 (
 const
-[
-index
 statement
-]
 of
 statements
 .
-entries
+values
 (
 )
 )

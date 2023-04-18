@@ -98,7 +98,6 @@ selectors
 {
 getSelectedSource
 }
-getState
 }
 =
 dbg

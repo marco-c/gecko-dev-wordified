@@ -347,7 +347,6 @@ host
 {
 const
 {
-panel
 toolbox
 }
 =
@@ -449,7 +448,6 @@ width
 {
 const
 {
-panel
 toolbox
 }
 =
@@ -463,15 +461,6 @@ toolbox
 win
 .
 parent
-;
-const
-currentWidth
-=
-win
-.
-screen
-.
-width
 ;
 win
 .

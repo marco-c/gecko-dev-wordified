@@ -143,7 +143,6 @@ getSelectedSource
 getIsPaused
 getCurrentThread
 }
-getState
 }
 =
 dbg
