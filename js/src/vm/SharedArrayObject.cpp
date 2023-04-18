@@ -1046,6 +1046,7 @@ byteLength
 (
 )
 <
+=
 ArrayBufferObject
 :
 :
