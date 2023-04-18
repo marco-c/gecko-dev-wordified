@@ -63,7 +63,7 @@ HttpWinUtils_h__
 define
 HttpWinUtils_h__
 class
-nsIURI
+nsHttpChannel
 ;
 namespace
 mozilla
