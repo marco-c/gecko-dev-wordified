@@ -579,6 +579,11 @@ SubmittedFrom
 "
 CrashedTab
 "
+Throttleable
+:
+"
+1
+"
 Comments
 :
 null
@@ -620,6 +625,11 @@ SubmittedFrom
 :
 "
 CrashedTab
+"
+Throttleable
+:
+"
+1
 "
 comments
 :
@@ -677,6 +687,11 @@ SubmittedFrom
 "
 CrashedTab
 "
+Throttleable
+:
+"
+1
+"
 includeURL
 :
 true
@@ -725,6 +740,11 @@ SubmittedFrom
 :
 "
 CrashedTab
+"
+Throttleable
+:
+"
+1
 "
 includeURL
 :
