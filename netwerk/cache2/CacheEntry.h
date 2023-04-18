@@ -2122,7 +2122,11 @@ DoomAlreadyRemoved
 (
 )
 .
+Atomic
+<
 bool
+Relaxed
+>
 mIsDoomed
 {
 false
