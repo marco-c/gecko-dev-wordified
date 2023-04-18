@@ -793,9 +793,6 @@ LoadingSessionHistoryInfo
 aInfo
 nsIChannel
 *
-aOldChannel
-nsIChannel
-*
 aNewChannel
 )
 ;

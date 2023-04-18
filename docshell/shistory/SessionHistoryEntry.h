@@ -332,10 +332,7 @@ SessionHistoryInfo
 (
 nsIChannel
 *
-aOldChannel
-nsIChannel
-*
-aNewChannel
+aChannel
 uint32_t
 aLoadType
 nsIPrincipal
