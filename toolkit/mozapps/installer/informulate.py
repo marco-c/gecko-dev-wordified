@@ -342,6 +342,16 @@ MOZ_APP_ID
 "
         
 "
+MOZ_SOURCE_REPO
+"
+    
+]
+    
+other_substitutions
+=
+[
+        
+"
 CC
 "
         
@@ -351,10 +361,6 @@ CXX
         
 "
 AS
-"
-        
-"
-MOZ_SOURCE_REPO
 "
     
 ]
@@ -381,6 +387,36 @@ in
 important_substitutions
     
 }
+    
+all_key_value_pairs
+.
+update
+(
+        
+{
+x
+.
+lower
+(
+)
+:
+buildconfig
+.
+substs
+.
+get
+(
+x
+"
+"
+)
+for
+x
+in
+other_substitutions
+}
+    
+)
     
 build_id
 =
@@ -548,10 +584,10 @@ Z
 as
 "
 :
-s
+all_key_value_pairs
 [
 "
-AS
+as
 "
 ]
                 
@@ -559,10 +595,10 @@ AS
 cc
 "
 :
-s
+all_key_value_pairs
 [
 "
-CC
+cc
 "
 ]
                 
@@ -570,10 +606,10 @@ CC
 cxx
 "
 :
-s
+all_key_value_pairs
 [
 "
-CXX
+cxx
 "
 ]
                 
