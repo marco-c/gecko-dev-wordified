@@ -1196,6 +1196,10 @@ _mach_context
 append_env
 =
 append_env
+            
+virtualenv_topobjdir
+=
+orig_topobjdir
         
 )
         
@@ -1354,7 +1358,7 @@ pgo_cmd
 =
 [
             
-instr
+command_context
 .
 virtualenv_manager
 .
