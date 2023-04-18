@@ -2088,7 +2088,10 @@ __func__
 )
 ;
 }
+DebugOnly
+<
 bool
+>
 trimmed
 =
 false
@@ -2308,7 +2311,7 @@ mCodecContext
 channel_layout
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 duration
 =
