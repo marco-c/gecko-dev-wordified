@@ -117,7 +117,15 @@ used
 to
 connect
 to
-WebDriverBiDi
+a
+RemoteAgent
+supported
+protocol
+(
+CDP
+WebDriver
+BiDi
+)
 .
     
 "
@@ -131,7 +139,10 @@ None
 def
 _browser
 (
-enable_bidi
+use_bidi
+=
+False
+use_cdp
 =
 False
 extra_args
@@ -187,10 +198,18 @@ if
                 
 current_browser
 .
-enable_bidi
+use_bidi
 =
 =
-enable_bidi
+use_bidi
+                
+and
+current_browser
+.
+use_cdp
+=
+=
+use_cdp
                 
 and
 current_browser
@@ -207,6 +226,11 @@ extra_prefs
 =
 =
 extra_prefs
+                
+and
+current_browser
+.
+is_running
             
 )
 :
@@ -268,9 +292,13 @@ Browser
             
 firefox_options
             
-enable_bidi
+use_bidi
 =
-enable_bidi
+use_bidi
+            
+use_cdp
+=
+use_cdp
             
 extra_args
 =
@@ -408,7 +436,11 @@ self
         
 firefox_options
         
-enable_bidi
+use_bidi
+=
+False
+        
+use_cdp
 =
 False
         
@@ -425,9 +457,15 @@ None
         
 self
 .
-enable_bidi
+use_bidi
 =
-enable_bidi
+use_bidi
+        
+self
+.
+use_cdp
+=
+use_cdp
         
 self
 .
@@ -440,6 +478,12 @@ self
 extra_prefs
 =
 extra_prefs
+        
+self
+.
+debugger_address
+=
+None
         
 self
 .
@@ -521,7 +565,11 @@ remote
 if
 self
 .
-enable_bidi
+use_bidi
+or
+self
+.
+use_cdp
 :
             
 cmdargs
@@ -578,6 +626,24 @@ cmdargs
         
 )
     
+property
+    
+def
+is_running
+(
+self
+)
+:
+        
+return
+self
+.
+runner
+.
+is_running
+(
+)
+    
 def
 start
 (
@@ -598,6 +664,12 @@ start
 (
 )
         
+if
+self
+.
+use_bidi
+:
+            
 #
 Wait
 until
@@ -606,7 +678,7 @@ WebDriverBiDiActivePort
 file
 is
 ready
-        
+            
 port_file
 =
 os
@@ -624,7 +696,7 @@ profile
 WebDriverBiDiActivePort
 "
 )
-        
+            
 while
 not
 os
@@ -636,7 +708,7 @@ exists
 port_file
 )
 :
-            
+                
 time
 .
 sleep
@@ -645,7 +717,7 @@ sleep
 .
 1
 )
-        
+            
 #
 Read
 the
@@ -654,7 +726,7 @@ from
 the
 WebDriverBiDiActivePort
 file
-        
+            
 self
 .
 remote_agent_port
@@ -667,18 +739,146 @@ port_file
 read
 (
 )
+        
+if
+self
+.
+use_cdp
+:
+            
+#
+Wait
+until
+the
+DevToolsActivePort
+file
+is
+ready
+            
+port_file
+=
+os
+.
+path
+.
+join
+(
+self
+.
+profile
+.
+profile
+"
+DevToolsActivePort
+"
+)
+            
+while
+not
+os
+.
+path
+.
+exists
+(
+port_file
+)
+:
+                
+time
+.
+sleep
+(
+0
+.
+1
+)
+            
+#
+Read
+the
+port
+if
+needed
+and
+the
+debugger
+address
+from
+the
+            
+#
+DevToolsActivePort
+file
+            
+lines
+=
+open
+(
+port_file
+)
+.
+readlines
+(
+)
+            
+assert
+len
+(
+lines
+)
+=
+=
+2
+            
+if
+self
+.
+remote_agent_port
+is
+None
+:
+                
+self
+.
+remote_agent_port
+=
+lines
+[
+0
+]
+.
+strip
+(
+)
+            
+self
+.
+debugger_address
+=
+lines
+[
+1
+]
+.
+strip
+(
+)
     
 def
 quit
 (
 self
+clean_profile
+=
+True
 )
 :
         
 if
 self
 .
-runner
+is_running
 :
             
 self
@@ -696,6 +896,10 @@ runner
 cleanup
 (
 )
+        
+if
+clean_profile
+:
             
 self
 .
@@ -1006,6 +1210,7 @@ None
 :
                 
 raise
+Exception
 (
 f
 "
