@@ -832,10 +832,6 @@ numParseTasks
 (
 0
 )
-numActiveHelperThreadZones
-(
-0
-)
 numRealms
 (
 0
@@ -1673,14 +1669,6 @@ DESTROY_RUNTIME
 }
 AutoNoteSingleThreadedRegion
 anstr
-;
-MOZ_ASSERT
-(
-!
-hasHelperThreadZones
-(
-)
-)
 ;
 #
 ifdef
