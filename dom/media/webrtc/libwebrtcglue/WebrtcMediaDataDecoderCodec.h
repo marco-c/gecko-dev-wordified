@@ -340,6 +340,11 @@ const
 nsCString
 mCodecType
 ;
+bool
+mDisabledHardwareAcceleration
+=
+false
+;
 }
 ;
 }
