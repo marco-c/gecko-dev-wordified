@@ -126,6 +126,15 @@ h
 #
 include
 "
+jit
+/
+TrialInlining
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext
