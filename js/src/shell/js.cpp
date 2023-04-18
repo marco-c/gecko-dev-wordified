@@ -39227,6 +39227,15 @@ return
 false
 ;
 }
+JS
+:
+:
+DecodeOptions
+decodeOptions
+(
+options
+)
+;
 if
 (
 !
@@ -39236,7 +39245,7 @@ JS
 CanDecodeOffThread
 (
 cx
-options
+decodeOptions
 loadLength
 )
 )
