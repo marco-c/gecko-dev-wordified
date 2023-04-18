@@ -357,11 +357,6 @@ mObserving
 =
 false
 ;
-bool
-mRefreshObserver
-=
-false
-;
 RefPtr
 <
 nsRefreshDriver
