@@ -1742,7 +1742,6 @@ new
 AudioInputProcessing
 (
 2
-PRINCIPAL_HANDLE_NONE
 )
 ;
 inputTrack
@@ -2328,7 +2327,6 @@ new
 AudioInputProcessing
 (
 2
-PRINCIPAL_HANDLE_NONE
 )
 ;
 inputTrack
@@ -3075,7 +3073,6 @@ new
 AudioInputProcessing
 (
 2
-PRINCIPAL_HANDLE_NONE
 )
 ;
 inputTrack
@@ -4347,7 +4344,6 @@ new
 AudioInputProcessing
 (
 2
-PRINCIPAL_HANDLE_NONE
 )
 ;
 inputTrack
@@ -5238,7 +5234,6 @@ new
 AudioInputProcessing
 (
 aInputChannelCount
-PRINCIPAL_HANDLE_NONE
 )
 ;
 mInputTrack
@@ -7134,7 +7129,6 @@ new
 AudioInputProcessing
 (
 2
-PRINCIPAL_HANDLE_NONE
 )
 ;
 inputTrack
