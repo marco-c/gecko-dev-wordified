@@ -1101,7 +1101,7 @@ get
 index
 )
 .
-and_then
+map
 (
 |
 start_range
@@ -1234,6 +1234,10 @@ else
 None
 }
 }
+)
+.
+flatten
+(
 )
 }
 /

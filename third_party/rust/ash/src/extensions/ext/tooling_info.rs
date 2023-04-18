@@ -120,9 +120,11 @@ Self
 fp
 }
 }
-/
-/
-/
+#
+[
+doc
+=
+"
 <
 https
 :
@@ -142,7 +144,7 @@ specs
 /
 1
 .
-3
+2
 -
 extensions
 /
@@ -154,6 +156,8 @@ vkGetPhysicalDeviceToolPropertiesEXT
 .
 html
 >
+"
+]
 pub
 unsafe
 fn
@@ -188,13 +192,11 @@ count
 data
 |
 {
-(
 self
 .
 fp
 .
 get_physical_device_tool_properties_ext
-)
 (
 physical_device
 count
@@ -204,7 +206,6 @@ data
 )
 }
 pub
-const
 fn
 name
 (

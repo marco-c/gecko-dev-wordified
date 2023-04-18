@@ -123,9 +123,11 @@ handle
 fp
 }
 }
-/
-/
-/
+#
+[
+doc
+=
+"
 <
 https
 :
@@ -145,7 +147,7 @@ specs
 /
 1
 .
-3
+2
 -
 extensions
 /
@@ -157,6 +159,8 @@ vkGetDescriptorSetLayoutSupportKHR
 .
 html
 >
+"
+]
 pub
 unsafe
 fn
@@ -181,13 +185,11 @@ vk
 DescriptorSetLayoutSupportKHR
 )
 {
-(
 self
 .
 fp
 .
 get_descriptor_set_layout_support_khr
-)
 (
 self
 .
@@ -198,7 +200,6 @@ out
 ;
 }
 pub
-const
 fn
 name
 (

@@ -123,9 +123,11 @@ handle
 fp
 }
 }
-/
-/
-/
+#
+[
+doc
+=
+"
 <
 https
 :
@@ -145,7 +147,7 @@ specs
 /
 1
 .
-3
+2
 -
 extensions
 /
@@ -157,6 +159,8 @@ vkGetBufferDeviceAddressEXT
 .
 html
 >
+"
+]
 pub
 unsafe
 fn
@@ -179,13 +183,11 @@ vk
 :
 DeviceAddress
 {
-(
 self
 .
 fp
 .
 get_buffer_device_address_ext
-)
 (
 self
 .
@@ -194,7 +196,6 @@ info
 )
 }
 pub
-const
 fn
 name
 (

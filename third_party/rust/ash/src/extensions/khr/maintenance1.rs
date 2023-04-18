@@ -123,9 +123,11 @@ handle
 fp
 }
 }
-/
-/
-/
+#
+[
+doc
+=
+"
 <
 https
 :
@@ -145,7 +147,7 @@ specs
 /
 1
 .
-3
+2
 -
 extensions
 /
@@ -157,6 +159,8 @@ vkTrimCommandPoolKHR
 .
 html
 >
+"
+]
 pub
 unsafe
 fn
@@ -178,13 +182,11 @@ vk
 CommandPoolTrimFlagsKHR
 )
 {
-(
 self
 .
 fp
 .
 trim_command_pool_khr
-)
 (
 self
 .
@@ -195,7 +197,6 @@ flags
 ;
 }
 pub
-const
 fn
 name
 (

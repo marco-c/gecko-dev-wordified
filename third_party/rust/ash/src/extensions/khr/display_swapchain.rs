@@ -138,9 +138,11 @@ handle
 fp
 }
 }
-/
-/
-/
+#
+[
+doc
+=
+"
 <
 https
 :
@@ -160,7 +162,7 @@ specs
 /
 1
 .
-3
+2
 -
 extensions
 /
@@ -172,6 +174,8 @@ vkCreateSharedSwapchainsKHR
 .
 html
 >
+"
+]
 pub
 unsafe
 fn
@@ -231,13 +235,11 @@ len
 let
 err_code
 =
-(
 self
 .
 fp
 .
 create_shared_swapchains_khr
-)
 (
 self
 .
@@ -285,7 +287,6 @@ swapchains
 )
 }
 pub
-const
 fn
 name
 (

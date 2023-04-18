@@ -138,9 +138,11 @@ handle
 fp
 }
 }
-/
-/
-/
+#
+[
+doc
+=
+"
 <
 https
 :
@@ -160,7 +162,7 @@ specs
 /
 1
 .
-3
+2
 -
 extensions
 /
@@ -172,6 +174,8 @@ vkCreateIOSSurfaceMVK
 .
 html
 >
+"
+]
 pub
 unsafe
 fn
@@ -218,13 +222,11 @@ zeroed
 (
 )
 ;
-(
 self
 .
 fp
 .
 create_ios_surface_mvk
-)
 (
 self
 .
@@ -246,7 +248,6 @@ surface
 )
 }
 pub
-const
 fn
 name
 (

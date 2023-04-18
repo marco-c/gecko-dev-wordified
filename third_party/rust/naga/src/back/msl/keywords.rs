@@ -76,9 +76,6 @@ char
 int
 "
 "
-uint
-"
-"
 long
 "
 "
@@ -667,9 +664,6 @@ Naga
 utilities
 "
 DefaultConstructible
-"
-"
-clamped_lod_e
 "
 ]
 ;

@@ -1,11 +1,9 @@
 /
-*
+/
 !
 Interpolation
 defaults
 .
-*
-/
 impl
 crate
 :

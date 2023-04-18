@@ -132,9 +132,11 @@ handle
 fp
 }
 }
-/
-/
-/
+#
+[
+doc
+=
+"
 <
 https
 :
@@ -154,7 +156,7 @@ specs
 /
 1
 .
-3
+2
 -
 extensions
 /
@@ -166,6 +168,8 @@ vkWaitForPresentKHR
 .
 html
 >
+"
+]
 pub
 unsafe
 fn
@@ -194,13 +198,11 @@ VkResult
 )
 >
 {
-(
 self
 .
 fp
 .
 wait_for_present_khr
-)
 (
 self
 .
@@ -215,7 +217,6 @@ result
 )
 }
 pub
-const
 fn
 name
 (

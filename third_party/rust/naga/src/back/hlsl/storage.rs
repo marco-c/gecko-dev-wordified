@@ -1,5 +1,5 @@
 /
-*
+/
 !
 Logic
 related
@@ -7,6 +7,12 @@ to
 ByteAddressBuffer
 operations
 .
+/
+/
+!
+/
+/
+!
 HLSL
 backend
 uses
@@ -20,8 +26,6 @@ buffers
 in
 IR
 .
-*
-/
 use
 super
 :
@@ -1007,7 +1011,7 @@ base
 .
 inner
 .
-size
+span
 (
 &
 module
@@ -2279,7 +2283,7 @@ base
 .
 inner
 .
-size
+span
 (
 &
 module
