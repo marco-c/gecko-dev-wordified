@@ -1290,11 +1290,6 @@ EnumerateDevices
 nsPIDOMWindowInner
 *
 aWindow
-dom
-:
-:
-CallerType
-aCallerType
 )
 ;
 enum

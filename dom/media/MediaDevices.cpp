@@ -990,8 +990,6 @@ MediaDevices
 :
 EnumerateDevices
 (
-CallerType
-aCallerType
 ErrorResult
 &
 aRv
@@ -1155,7 +1153,6 @@ Get
 EnumerateDevices
 (
 owner
-aCallerType
 )
 -
 >

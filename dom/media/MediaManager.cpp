@@ -20789,8 +20789,6 @@ EnumerateDevices
 nsPIDOMWindowInner
 *
 aWindow
-CallerType
-aCallerType
 )
 {
 MOZ_ASSERT
@@ -21048,9 +21046,9 @@ resistFingerprinting
 nsContentUtils
 :
 :
-ResistFingerprinting
+ShouldResistFingerprinting
 (
-aCallerType
+doc
 )
 ;
 /
