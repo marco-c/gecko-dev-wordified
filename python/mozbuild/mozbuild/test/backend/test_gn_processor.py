@@ -920,26 +920,6 @@ src
 -
 I
 "
-+
-mozpath
-.
-join
-(
-flags_obj
-.
-topsrcdir
-"
-ipc
-"
-"
-glue
-"
-)
-                
-"
--
-I
-"
                 
 +
 mozpath
@@ -1065,12 +1045,6 @@ ipc
 chromium
 /
 src
-"
-"
-/
-ipc
-/
-glue
 "
 ]
         

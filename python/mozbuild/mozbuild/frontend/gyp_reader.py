@@ -3126,13 +3126,6 @@ chromium
 /
 src
 "
-                
-"
-/
-ipc
-/
-glue
-"
             
 ]
             
