@@ -2782,7 +2782,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 this
 )
@@ -3056,7 +3056,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 :
 this

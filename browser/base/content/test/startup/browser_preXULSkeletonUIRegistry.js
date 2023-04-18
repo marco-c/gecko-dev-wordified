@@ -562,7 +562,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 0
 )

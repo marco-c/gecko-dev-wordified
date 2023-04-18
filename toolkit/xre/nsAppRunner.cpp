@@ -11161,7 +11161,7 @@ nsDependentCString
 StaticPrefs
 :
 :
-GetPrefName_browser_tabs_drawInTitlebar
+GetPrefName_browser_tabs_inTitlebar
 (
 )
 )

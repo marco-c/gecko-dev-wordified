@@ -609,7 +609,7 @@ browser
 .
 tabs
 .
-drawInTitlebar
+inTitlebar
 "
 !
 targetState
