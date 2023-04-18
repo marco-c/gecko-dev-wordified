@@ -338,7 +338,7 @@ CLIENT
 .
 attachments
 .
-download
+downloadToDisk
 (
 records
 [
@@ -742,7 +742,7 @@ CLIENT
 .
 attachments
 .
-delete
+deleteFromDisk
 (
 deleted
 [
@@ -861,7 +861,7 @@ CLIENT
 .
 attachments
 .
-download
+downloadToDisk
 (
 changed
 [
