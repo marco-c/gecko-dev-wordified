@@ -5,12 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-avx
-;
 skip
 -
 if
