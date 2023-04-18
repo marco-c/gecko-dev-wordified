@@ -80,6 +80,7 @@ site
 import
 MozSiteMetadata
 PythonVirtualenv
+activate_virtualenv
 import
 pkg_resources
 def
@@ -293,12 +294,6 @@ carrot
 ]
 )
         
-activate_path
-=
-venv
-.
-activate_path
-        
 metadata
 =
 MozSiteMetadata
@@ -324,22 +319,9 @@ python_path
 )
 :
             
-exec
+activate_virtualenv
 (
-open
-(
-activate_path
-)
-.
-read
-(
-)
-dict
-(
-__file__
-=
-activate_path
-)
+venv
 )
         
 assert
