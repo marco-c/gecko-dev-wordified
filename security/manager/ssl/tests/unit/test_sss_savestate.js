@@ -988,7 +988,6 @@ maxAge
 +
 includeSubdomains
 secInfo
-0
 Ci
 .
 nsISiteSecurityService

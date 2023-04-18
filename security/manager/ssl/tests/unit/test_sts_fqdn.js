@@ -160,7 +160,6 @@ SSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -172,7 +171,6 @@ SSService
 isSecureURI
 (
 uri1
-0
 )
 )
 ;
@@ -202,7 +200,6 @@ SSService
 isSecureURI
 (
 uri2
-0
 )
 )
 ;
@@ -246,7 +243,6 @@ age
 includeSubdomains
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -261,7 +257,6 @@ SSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -272,7 +267,6 @@ SSService
 isSecureURI
 (
 uri1
-0
 )
 )
 ;
@@ -283,7 +277,6 @@ SSService
 isSecureURI
 (
 uri2
-0
 )
 )
 ;
@@ -292,7 +285,6 @@ SSService
 resetState
 (
 uri
-0
 )
 ;
 ok
@@ -303,7 +295,6 @@ SSService
 isSecureURI
 (
 uri
-0
 )
 )
 ;
@@ -315,7 +306,6 @@ SSService
 isSecureURI
 (
 uri1
-0
 )
 )
 ;
@@ -327,7 +317,6 @@ SSService
 isSecureURI
 (
 uri2
-0
 )
 )
 ;
@@ -392,7 +381,6 @@ SSService
 isSecureURI
 (
 uri
-0
 )
 ;
 }

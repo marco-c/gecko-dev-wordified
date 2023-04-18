@@ -3071,8 +3071,6 @@ ProcessHSTSHeader
 nsITransportSecurityInfo
 *
 aSecInfo
-uint32_t
-aFlags
 )
 ;
 void

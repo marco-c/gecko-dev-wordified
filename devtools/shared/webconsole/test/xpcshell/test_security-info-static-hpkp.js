@@ -305,6 +305,8 @@ NetworkHelper
 parseSecurityInfo
 (
 MockSecurityInfo
+{
+}
 MockHttpInfo
 new
 Map

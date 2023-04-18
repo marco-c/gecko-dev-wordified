@@ -29057,10 +29057,6 @@ nsIURI
 *
 aURI
 const
-uint32_t
-&
-aFlags
-const
 OriginAttributes
 &
 aOriginAttributes
@@ -29116,7 +29112,6 @@ sss
 IsSecureURI
 (
 aURI
-aFlags
 aOriginAttributes
 nullptr
 nullptr

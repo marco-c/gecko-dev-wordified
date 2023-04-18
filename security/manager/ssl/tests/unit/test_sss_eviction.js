@@ -396,7 +396,6 @@ example
 com
 "
 )
-0
 )
 )
 ;
@@ -481,7 +480,6 @@ age
 1000
 "
 secInfo
-0
 Ci
 .
 nsISiteSecurityService

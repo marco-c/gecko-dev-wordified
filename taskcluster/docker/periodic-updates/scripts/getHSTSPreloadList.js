@@ -1159,7 +1159,6 @@ processHeader
 uri
 header
 secInfo
-0
 Ci
 .
 nsISiteSecurityService

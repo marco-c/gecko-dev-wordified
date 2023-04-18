@@ -10965,12 +10965,6 @@ SPCleanUpSTSData
 "
 {
 origin
-flags
-:
-flags
-|
-|
-0
 }
 )
 ;

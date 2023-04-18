@@ -2028,6 +2028,13 @@ parseSecurityInfo
 secinfo
 this
 .
+request
+.
+loadInfo
+.
+originAttributes
+this
+.
 httpActivity
 this
 .

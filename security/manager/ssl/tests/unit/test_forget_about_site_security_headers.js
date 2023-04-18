@@ -354,7 +354,6 @@ processHeader
 uri
 GOOD_MAX_AGE
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -371,7 +370,6 @@ sss
 isSecureURI
 (
 uri
-0
 )
 "
 a
@@ -413,7 +411,6 @@ sss
 isSecureURI
 (
 uri
-0
 )
 "
 a
@@ -511,7 +508,6 @@ processHeader
 uri
 GOOD_MAX_AGE
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -528,7 +524,6 @@ sss
 isSecureURI
 (
 uri
-0
 )
 "
 a
@@ -584,7 +579,6 @@ processHeader
 unrelatedURI
 GOOD_MAX_AGE
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -601,7 +595,6 @@ sss
 isSecureURI
 (
 unrelatedURI
-0
 )
 "
 example
@@ -635,7 +628,6 @@ sss
 isSecureURI
 (
 uri
-0
 )
 "
 a
@@ -666,7 +658,6 @@ sss
 isSecureURI
 (
 unrelatedURI
-0
 )
 "
 example
@@ -829,7 +820,6 @@ processHeader
 uri
 GOOD_MAX_AGE
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -847,7 +837,6 @@ sss
 isSecureURI
 (
 uri
-0
 originAttributes
 )
 "
@@ -884,7 +873,6 @@ processHeader
 unrelatedURI
 GOOD_MAX_AGE
 secInfo
-0
 Ci
 .
 nsISiteSecurityService
@@ -902,7 +890,6 @@ sss
 isSecureURI
 (
 unrelatedURI
-0
 originAttributes
 )
 "
@@ -950,7 +937,6 @@ sss
 isSecureURI
 (
 uri
-0
 originAttributes
 )
 "
@@ -985,7 +971,6 @@ sss
 isSecureURI
 (
 unrelatedURI
-0
 originAttributes
 )
 "

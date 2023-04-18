@@ -17622,8 +17622,6 @@ nsIPrincipal
 *
 aChannelResultPrincipal
 bool
-aPrivateBrowsing
-bool
 aAllowSTS
 const
 OriginAttributes
@@ -17901,18 +17899,6 @@ hstsSource
 =
 0
 ;
-uint32_t
-flags
-=
-aPrivateBrowsing
-?
-nsISocketProvider
-:
-:
-NO_PERMANENT_STORAGE
-:
-0
-;
 /
 /
 Calling
@@ -18147,10 +18133,6 @@ move
 uri
 )
 }
-flags
-(
-flags
-)
 originAttributes
 (
 aOriginAttributes
@@ -18209,7 +18191,6 @@ service
 IsSecureURI
 (
 uri
-flags
 originAttributes
 nullptr
 &
@@ -18330,7 +18311,6 @@ sss
 IsSecureURI
 (
 aURI
-flags
 aOriginAttributes
 nullptr
 &

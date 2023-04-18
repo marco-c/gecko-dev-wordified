@@ -1739,8 +1739,6 @@ int64_t
 maxage
 bool
 includeSubdomains
-uint32_t
-flags
 SecurityPropertyState
 aHSTSState
 SecurityPropertySource
@@ -1823,7 +1821,6 @@ return
 MarkHostAsNotHSTS
 (
 hostname
-flags
 isPreload
 aOriginAttributes
 )
@@ -1920,12 +1917,11 @@ get
 bool
 isPrivate
 =
-flags
-&
-nsISocketProvider
-:
-:
-NO_PERMANENT_STORAGE
+aOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
 ;
 mozilla
 :
@@ -2139,8 +2135,6 @@ const
 nsAutoCString
 &
 aHost
-uint32_t
-aFlags
 bool
 aIsPreload
 const
@@ -2169,12 +2163,11 @@ NS_ERROR_INVALID_ARG
 bool
 isPrivate
 =
-aFlags
-&
-nsISocketProvider
-:
-:
-NO_PERMANENT_STORAGE
+aOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
 ;
 mozilla
 :
@@ -2326,8 +2319,6 @@ ResetState
 nsIURI
 *
 aURI
-uint32_t
-aFlags
 JS
 :
 :
@@ -2396,7 +2387,6 @@ return
 ResetStateInternal
 (
 aURI
-aFlags
 originAttributes
 )
 ;
@@ -2498,8 +2488,6 @@ ResetStateInternal
 nsIURI
 *
 aURI
-uint32_t
-aFlags
 const
 OriginAttributes
 &
@@ -2553,12 +2541,11 @@ storageKey
 bool
 isPrivate
 =
-aFlags
-&
-nsISocketProvider
-:
-:
-NO_PERMANENT_STORAGE
+aOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
 ;
 mozilla
 :
@@ -2646,8 +2633,6 @@ nsITransportSecurityInfo
 *
 aSecInfo
 uint32_t
-aFlags
-uint32_t
 aSource
 JS
 :
@@ -2711,7 +2696,6 @@ ProcessHeader
 aSourceURI
 aHeader
 aSecInfo
-aFlags
 aSource
 originAttributes
 aMaxAge
@@ -2736,8 +2720,6 @@ aHeader
 nsITransportSecurityInfo
 *
 aSecInfo
-uint32_t
-aFlags
 uint32_t
 aHeaderSource
 const
@@ -2816,7 +2798,6 @@ PromiseFlatCString
 aHeader
 )
 aSecInfo
-aFlags
 source
 aOriginAttributes
 aMaxAge
@@ -2841,8 +2822,6 @@ aHeader
 nsITransportSecurityInfo
 *
 aSecInfo
-uint32_t
-aFlags
 SecurityPropertySource
 aSource
 const
@@ -3082,7 +3061,6 @@ ProcessSTSHeader
 (
 aSourceURI
 aHeader
-aFlags
 aSource
 aOriginAttributes
 aMaxAge
@@ -3768,8 +3746,6 @@ const
 nsCString
 &
 aHeader
-uint32_t
-aFlags
 SecurityPropertySource
 aSource
 const
@@ -3980,7 +3956,6 @@ get
 )
 maxAge
 foundIncludeSubdomains
-aFlags
 SecurityPropertySet
 aSource
 aOriginAttributes
@@ -4072,8 +4047,6 @@ IsSecureURIScriptable
 nsIURI
 *
 aURI
-uint32_t
-aFlags
 JS
 :
 :
@@ -4134,7 +4107,6 @@ return
 IsSecureURI
 (
 aURI
-aFlags
 originAttributes
 aCached
 aSource
@@ -4151,8 +4123,6 @@ IsSecureURI
 nsIURI
 *
 aURI
-uint32_t
-aFlags
 const
 OriginAttributes
 &
@@ -4244,7 +4214,6 @@ return
 IsSecureHost
 (
 hostname
-aFlags
 aOriginAttributes
 aCached
 source
@@ -4534,8 +4503,6 @@ nsAutoCString
 aHost
 bool
 aRequireIncludeSubdomains
-uint32_t
-aFlags
 const
 OriginAttributes
 &
@@ -4668,12 +4635,11 @@ host
 bool
 isPrivate
 =
-aFlags
-&
-nsISocketProvider
-:
-:
-NO_PERMANENT_STORAGE
+aOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
 ;
 mozilla
 :
@@ -5066,8 +5032,6 @@ const
 nsACString
 &
 aHost
-uint32_t
-aFlags
 const
 OriginAttributes
 &
@@ -5174,7 +5138,6 @@ HostHasHSTSEntry
 (
 host
 false
-aFlags
 aOriginAttributes
 aResult
 aCached
@@ -5342,7 +5305,6 @@ HostHasHSTSEntry
 (
 subdomainString
 true
-aFlags
 aOriginAttributes
 aResult
 aCached

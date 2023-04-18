@@ -5951,8 +5951,6 @@ nsIPrincipal
 *
 aChannelResultPrincipal
 bool
-aPrivateBrowsing
-bool
 aAllowSTS
 const
 mozilla

@@ -6119,8 +6119,6 @@ IsSecureURI
 (
 nsIURI
 aURI
-uint32_t
-aFlags
 OriginAttributes
 aOriginAttributes
 )
