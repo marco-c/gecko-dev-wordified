@@ -578,6 +578,13 @@ getParent
 if
 (
 parent
+&
+&
+parent
+!
+=
+=
+this
 )
 {
 parent
