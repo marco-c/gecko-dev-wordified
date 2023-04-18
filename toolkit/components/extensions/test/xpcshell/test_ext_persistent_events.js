@@ -3062,7 +3062,7 @@ once
 "
 background
 -
-page
+script
 -
 aborted
 "

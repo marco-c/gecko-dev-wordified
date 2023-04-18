@@ -271,7 +271,7 @@ of
 "
 background
 -
-page
+script
 -
 event
 "
@@ -280,7 +280,7 @@ start
 -
 background
 -
-page
+script
 "
 ]
 )
@@ -737,7 +737,7 @@ get
 "
 background
 -
-page
+script
 -
 event
 "
@@ -750,7 +750,7 @@ have
 gotten
 a
 background
-page
+script
 event
 "
 )
@@ -819,7 +819,7 @@ extension
 "
 background
 -
-page
+script
 -
 event
 "
@@ -834,7 +834,7 @@ get
 "
 background
 -
-page
+script
 -
 event
 "
@@ -846,7 +846,7 @@ have
 gotten
 a
 background
-page
+script
 event
 "
 )
@@ -870,7 +870,7 @@ start
 -
 background
 -
-page
+script
 "
 )
 false
@@ -880,7 +880,7 @@ have
 gotten
 a
 background
-page
+script
 event
 "
 )
@@ -921,7 +921,7 @@ start
 -
 background
 -
-page
+script
 "
 )
 true
@@ -931,7 +931,7 @@ have
 gotten
 a
 background
-page
+script
 event
 "
 )
