@@ -186,6 +186,12 @@ filter
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

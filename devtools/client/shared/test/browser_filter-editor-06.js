@@ -441,6 +441,12 @@ filters
 ;
 }
 }
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

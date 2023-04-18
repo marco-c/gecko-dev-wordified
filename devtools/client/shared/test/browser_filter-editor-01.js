@@ -1199,6 +1199,12 @@ urls
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

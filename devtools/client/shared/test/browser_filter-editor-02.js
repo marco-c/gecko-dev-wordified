@@ -508,6 +508,12 @@ expected
 )
 ;
 }
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

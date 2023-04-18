@@ -752,6 +752,12 @@ value
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;

@@ -428,6 +428,12 @@ arrow
 "
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 triggerKey
 =
 null

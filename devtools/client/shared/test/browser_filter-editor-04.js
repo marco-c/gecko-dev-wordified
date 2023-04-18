@@ -627,6 +627,12 @@ _mouseUp
 (
 )
 ;
+widget
+.
+destroy
+(
+)
+;
 }
 )
 ;
