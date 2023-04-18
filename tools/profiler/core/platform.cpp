@@ -21510,9 +21510,10 @@ name
 via
 JNI
 .
-const
+ProfiledThreadData
+profiledThreadData
+(
 ThreadRegistrationInfo
-threadInfo
 {
 "
 AndroidUI
@@ -21531,11 +21532,6 @@ ProcessStartTime
 (
 )
 }
-;
-ProfiledThreadData
-profiledThreadData
-(
-threadInfo
 )
 ;
 profiledThreadData
