@@ -313,6 +313,13 @@ GetLoadContext
 const
 override
 ;
+bool
+CanRecv
+(
+)
+const
+override
+;
 void
 LoadURL
 (

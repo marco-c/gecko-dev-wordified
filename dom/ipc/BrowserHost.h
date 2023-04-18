@@ -398,6 +398,13 @@ GetLoadContext
 const
 override
 ;
+bool
+CanRecv
+(
+)
+const
+override
+;
 Element
 *
 GetOwnerElement

@@ -412,6 +412,15 @@ const
 0
 ;
 virtual
+bool
+CanRecv
+(
+)
+const
+=
+0
+;
+virtual
 void
 LoadURL
 (
