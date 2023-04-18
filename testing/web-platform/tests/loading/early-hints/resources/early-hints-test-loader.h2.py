@@ -36,6 +36,8 @@ hints
 -
 helpers
 .
+sub
+.
 js
 .
 import
