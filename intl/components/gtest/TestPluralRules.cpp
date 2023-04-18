@@ -204,7 +204,7 @@ categories
 size
 (
 )
-2
+2u
 )
 ;
 ASSERT_TRUE
@@ -328,7 +328,7 @@ categories
 size
 (
 )
-4
+4u
 )
 ;
 ASSERT_TRUE
@@ -472,7 +472,7 @@ categories
 size
 (
 )
-6
+6u
 )
 ;
 ASSERT_TRUE
@@ -660,7 +660,7 @@ categories
 size
 (
 )
-6
+6u
 )
 ;
 ASSERT_TRUE
@@ -836,7 +836,7 @@ categories
 size
 (
 )
-5
+5u
 )
 ;
 ASSERT_TRUE
@@ -1008,7 +1008,7 @@ categories
 size
 (
 )
-1
+1u
 )
 ;
 ASSERT_TRUE
@@ -1104,7 +1104,7 @@ categories
 size
 (
 )
-4
+4u
 )
 ;
 ASSERT_TRUE
@@ -1260,7 +1260,7 @@ categories
 size
 (
 )
-1
+1u
 )
 ;
 ASSERT_TRUE
