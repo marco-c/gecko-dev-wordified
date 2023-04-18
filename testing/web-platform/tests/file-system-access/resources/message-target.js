@@ -898,15 +898,6 @@ file_handle
 .
 createSyncAccessHandle
 (
-{
-mode
-:
-"
-in
--
-place
-"
-}
 )
 ;
 await
