@@ -4559,7 +4559,17 @@ self
 )
 :
         
+pthfile_lines
+=
+self
+.
+_pthfile_lines
+(
+)
+        
 if
+(
+            
 self
 .
 _site_packages_source
@@ -4568,6 +4578,18 @@ _site_packages_source
 SitePackagesSource
 .
 SYSTEM
+            
+or
+self
+.
+_mach_site_packages_source
+=
+=
+SitePackagesSource
+.
+SYSTEM
+        
+)
 :
             
 _assert_pip_check
@@ -4575,11 +4597,7 @@ _assert_pip_check
 self
 .
 _topsrcdir
-self
-.
-_pthfile_lines
-(
-)
+pthfile_lines
 self
 .
 _site_name
@@ -4597,11 +4615,7 @@ self
 .
 _virtualenv
             
-self
-.
-_pthfile_lines
-(
-)
+pthfile_lines
             
 self
 .
