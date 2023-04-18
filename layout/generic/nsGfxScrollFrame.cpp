@@ -16818,6 +16818,8 @@ nsIScrollbarMediator
 :
 ScrollSnapMode
 aSnap
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 {
 if
@@ -16846,6 +16848,7 @@ aMode
 aOrigin
 aRange
 aSnap
+aTriggeredByScript
 )
 ;
 }
@@ -17045,6 +17048,10 @@ nsIScrollableFrame
 :
 :
 ENABLE_SNAP
+ScrollTriggeredByScript
+:
+:
+Yes
 )
 ;
 /
@@ -17210,6 +17217,8 @@ nsIScrollbarMediator
 :
 ScrollSnapMode
 aSnap
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 {
 /
@@ -17723,6 +17732,7 @@ ApzSmoothScrollTo
 (
 mDestination
 aOrigin
+aTriggeredByScript
 )
 ;
 return
@@ -20167,6 +20177,8 @@ nsRect
 aRange
 ScrollOrigin
 aOrigin
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 {
 /
@@ -34709,6 +34721,10 @@ nsIScrollableFrame
 :
 :
 ENABLE_SNAP
+ScrollTriggeredByScript
+:
+:
+Yes
 )
 ;
 /
@@ -55229,6 +55245,8 @@ nsPoint
 aDestination
 ScrollOrigin
 aOrigin
+ScrollTriggeredByScript
+aTriggeredByScript
 )
 {
 if
@@ -55442,6 +55460,7 @@ NewSmoothScroll
 (
 aOrigin
 aDestination
+aTriggeredByScript
 )
 )
 ;
@@ -55898,6 +55917,10 @@ ScrollOrigin
 :
 :
 Other
+ScrollTriggeredByScript
+:
+:
+No
 )
 ;
 return
