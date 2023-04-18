@@ -929,12 +929,7 @@ be
 immediately
 sent
 .
-FrameToProcess
-f
-=
 mLastFrameQueuedForProcessing
-;
-f
 .
 mTime
 =
@@ -947,13 +942,7 @@ Now
 ;
 ProcessVideoFrame
 (
-std
-:
-:
-move
-(
-f
-)
+mLastFrameQueuedForProcessing
 )
 ;
 }
