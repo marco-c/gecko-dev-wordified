@@ -124,7 +124,7 @@ scrolling
 *
 *
 |
-eSmooth
+Smooth
 |
 scrolls
 have
@@ -157,7 +157,7 @@ time
 interval
 .
 |
-eSmooth
+Smooth
 |
 will
 only
@@ -187,7 +187,7 @@ events
 *
 *
 |
-eSmoothMsd
+SmoothMsd
 |
 implements
 a
@@ -209,7 +209,7 @@ damper
 system
 .
 |
-eSmoothMsd
+SmoothMsd
 |
 scrolls
 have
@@ -241,7 +241,7 @@ time
 interval
 .
 |
-eSmoothMsd
+SmoothMsd
 |
 will
 only
@@ -261,13 +261,13 @@ enabled
 *
 *
 |
-eInstant
+Instant
 |
 is
 always
 synchronous
 |
-eNormal
+Normal
 |
 can
 be
@@ -278,7 +278,7 @@ asynchronous
 If
 an
 |
-eInstant
+Instant
 |
 scroll
 request
@@ -286,7 +286,7 @@ happens
 while
 a
 |
-eSmooth
+Smooth
 |
 or
 async
@@ -315,11 +315,11 @@ destination
 If
 an
 |
-eInstant
+Instant
 |
 or
 |
-eSmooth
+Smooth
 |
 scroll
 request
@@ -327,7 +327,7 @@ happens
 while
 a
 |
-eSmoothMsd
+SmoothMsd
 |
 *
 scroll
@@ -337,7 +337,7 @@ in
 progress
 the
 |
-eSmoothMsd
+SmoothMsd
 |
 scroll
 is
