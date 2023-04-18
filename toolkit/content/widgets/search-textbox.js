@@ -319,7 +319,7 @@ readonly
 placeholder
 tabindex
 accesskey
-mozactionhint
+inputmode
 spellcheck
 "
 "
@@ -483,7 +483,7 @@ input
 setAttribute
 (
 "
-mozactionhint
+inputmode
 "
 "
 search
