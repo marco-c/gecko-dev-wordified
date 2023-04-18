@@ -181,6 +181,7 @@ eHTMLCanvasType
 eHTMLCaptionType
 eHTMLCheckboxType
 eHTMLComboboxType
+eHTMLDateTimeFieldType
 eHTMLFileInputType
 eHTMLGroupboxType
 eHTMLHRType
