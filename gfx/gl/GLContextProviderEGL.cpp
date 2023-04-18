@@ -1615,15 +1615,10 @@ nullptr
 else
 if
 (
-aHardwareWebRender
-&
-&
-(
 kIsWayland
 |
 |
 kIsX11
-)
 )
 {
 const
