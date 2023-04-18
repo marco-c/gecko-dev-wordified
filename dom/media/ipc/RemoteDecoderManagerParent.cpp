@@ -1570,7 +1570,6 @@ RGBDescriptor
 (
 size
 format
-true
 )
 MemoryOrShmem
 (

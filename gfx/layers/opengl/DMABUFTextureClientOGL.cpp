@@ -452,12 +452,6 @@ GetFormat
 ;
 aInfo
 .
-hasIntermediateBuffer
-=
-false
-;
-aInfo
-.
 hasSynchronization
 =
 false

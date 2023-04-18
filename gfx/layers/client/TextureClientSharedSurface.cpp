@@ -372,12 +372,6 @@ mFormat
 ;
 aInfo
 .
-hasIntermediateBuffer
-=
-false
-;
-aInfo
-.
 hasSynchronization
 =
 false

@@ -454,13 +454,6 @@ GetRGBStride
 )
 ;
 bool
-HasIntermediateBuffer
-(
-)
-const
-override
-;
-bool
 NeedsDeferredDeletion
 (
 )

@@ -1860,7 +1860,6 @@ rgbDesc
 (
 size
 aFormat
-false
 )
 ;
 /

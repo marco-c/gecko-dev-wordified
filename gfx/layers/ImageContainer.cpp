@@ -3156,12 +3156,6 @@ pdata
 -
 >
 mColorRange
-/
-*
-hasIntermediateBuffer
-*
-/
-false
 )
 ;
 CopyPlane

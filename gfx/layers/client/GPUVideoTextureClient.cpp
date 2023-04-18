@@ -283,12 +283,6 @@ B8G8R8X8
 ;
 aInfo
 .
-hasIntermediateBuffer
-=
-false
-;
-aInfo
-.
 hasSynchronization
 =
 false

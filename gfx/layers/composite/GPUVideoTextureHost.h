@@ -272,13 +272,6 @@ GPUVideoTextureHost
 }
 #
 endif
-bool
-HasIntermediateBuffer
-(
-)
-const
-override
-;
 void
 CreateRenderTexture
 (
