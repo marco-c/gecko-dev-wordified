@@ -4304,7 +4304,7 @@ aValue
 )
 ;
 bool
-MozPreservesPitch
+PreservesPitch
 (
 )
 const
@@ -4314,7 +4314,7 @@ mPreservesPitch
 ;
 }
 void
-SetMozPreservesPitch
+SetPreservesPitch
 (
 bool
 aPreservesPitch

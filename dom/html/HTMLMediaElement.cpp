@@ -41805,7 +41805,7 @@ void
 HTMLMediaElement
 :
 :
-SetMozPreservesPitch
+SetPreservesPitch
 (
 bool
 aPreservesPitch

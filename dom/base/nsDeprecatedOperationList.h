@@ -382,3 +382,7 @@ DEPRECATED_OPERATION
 (
 IDBMutableFileOpen
 )
+DEPRECATED_OPERATION
+(
+MozPreservesPitchDeprecatedPrefix
+)
