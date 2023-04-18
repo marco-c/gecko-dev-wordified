@@ -97,7 +97,6 @@ event
 :
 :
 Provider
-qtrace
 Datagram
 }
 ;

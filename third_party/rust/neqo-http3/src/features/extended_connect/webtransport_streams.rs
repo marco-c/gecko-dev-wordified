@@ -84,7 +84,7 @@ use
 super
 :
 :
-ExtendedConnectSession
+WebTransportSession
 ;
 use
 crate
@@ -179,7 +179,7 @@ Rc
 <
 RefCell
 <
-ExtendedConnectSession
+WebTransportSession
 >
 >
 session_id
@@ -215,7 +215,7 @@ Rc
 <
 RefCell
 <
-ExtendedConnectSession
+WebTransportSession
 >
 >
 )
@@ -542,7 +542,7 @@ Rc
 <
 RefCell
 <
-ExtendedConnectSession
+WebTransportSession
 >
 >
 session_id
@@ -575,7 +575,7 @@ Rc
 <
 RefCell
 <
-ExtendedConnectSession
+WebTransportSession
 >
 >
 local

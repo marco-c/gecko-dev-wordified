@@ -939,8 +939,6 @@ self
 call_instruction
 (
 instruction
-&
-mut
 conn
 .
 qlog_mut

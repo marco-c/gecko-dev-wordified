@@ -2086,7 +2086,9 @@ as_ref
 (
 )
 ;
-if
+assert_eq
+!
+(
 s
 .
 len
@@ -2094,13 +2096,7 @@ len
 )
 %
 2
-!
-=
 0
-{
-panic
-!
-(
 "
 Needs
 to
@@ -2110,7 +2106,6 @@ length
 "
 )
 ;
-}
 let
 cap
 =

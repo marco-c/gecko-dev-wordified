@@ -104,7 +104,7 @@ use
 crate
 :
 :
-hframe
+frames
 :
 :
 H3_FRAME_TYPE_HEADERS
@@ -1715,7 +1715,7 @@ use
 crate
 :
 :
-hframe
+frames
 :
 :
 H3_FRAME_TYPE_HEADERS

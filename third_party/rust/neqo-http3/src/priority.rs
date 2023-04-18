@@ -3,8 +3,11 @@ crate
 :
 :
 {
-Error
+frames
+:
+:
 HFrame
+Error
 Header
 Res
 }
@@ -605,6 +608,8 @@ last_send_priority
 priority
 }
 }
+/
+*
 pub
 fn
 priority
@@ -620,6 +625,8 @@ self
 .
 priority
 }
+*
+/
 /
 /
 /

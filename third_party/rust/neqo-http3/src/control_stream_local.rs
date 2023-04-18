@@ -84,7 +84,7 @@ use
 crate
 :
 :
-hframe
+frames
 :
 :
 HFrame
@@ -559,7 +559,7 @@ Push
 )
 ;
 let
-priority_handler
+stream
 =
 update_stream
 .
@@ -568,10 +568,6 @@ http_stream
 )
 .
 unwrap
-(
-)
-.
-priority_handler_mut
 (
 )
 ;
@@ -593,11 +589,10 @@ Some
 hframe
 )
 =
-priority_handler
+stream
 .
-maybe_encode_frame
+priority_update_frame
 (
-update_id
 )
 {
 let
@@ -633,7 +628,7 @@ enc
 )
 ?
 {
-priority_handler
+stream
 .
 priority_update_sent
 (

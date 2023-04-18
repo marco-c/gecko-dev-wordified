@@ -2622,6 +2622,11 @@ stats
 clone
 (
 )
+conn_params
+.
+get_fast_pto
+(
+)
 )
 events
 new_token
@@ -4938,7 +4943,6 @@ enc
 encode_vvec_with
 (
 |
-mut
 enc_inner
 |
 {
@@ -4952,8 +4956,6 @@ local
 .
 encode
 (
-&
-mut
 enc_inner
 )
 ;
