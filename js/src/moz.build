@@ -3582,6 +3582,13 @@ cpp
 "
 vm
 /
+StaticStrings
+.
+cpp
+"
+"
+vm
+/
 StencilObject
 .
 cpp
