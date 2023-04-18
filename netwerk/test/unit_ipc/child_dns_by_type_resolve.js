@@ -144,10 +144,10 @@ as
 DOH
 provider
 let
-{
+[
 inRecord
 inStatus
-}
+]
 =
 await
 new
