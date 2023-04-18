@@ -15066,6 +15066,7 @@ new
 ModuleLoader
 (
 scriptLoader
+this
 ModuleLoader
 :
 :
