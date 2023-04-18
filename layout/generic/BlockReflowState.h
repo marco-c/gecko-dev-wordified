@@ -503,7 +503,7 @@ in
 the
 block
 reflow
-input
+state
 then
 /
 /

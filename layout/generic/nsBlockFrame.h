@@ -2228,7 +2228,7 @@ frame
 *
 *
 param
-aBri
+aState
 BlockReflowState
 passed
 from
@@ -2239,7 +2239,7 @@ reflow
 *
 Note
 :
-aBri
+aState
 .
 mReflowStatus
 is
@@ -2398,7 +2398,7 @@ ComputeFinalBSize
 (
 BlockReflowState
 &
-aBri
+aState
 nscoord
 aBEndEdgeOfChildren
 )
@@ -5562,7 +5562,7 @@ aState
 the
 block
 reflow
-input
+state
 *
 param
 aLine

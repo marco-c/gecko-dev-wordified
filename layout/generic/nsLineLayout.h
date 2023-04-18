@@ -283,7 +283,7 @@ int32_t
 aLineNumber
 )
 {
-mBlockRI
+mBlockRS
 =
 aState
 ;
@@ -989,7 +989,7 @@ frames
 no
 block
 reflow
-input
+state
 is
 /
 /
@@ -1026,7 +1026,7 @@ case
 .
 MOZ_ASSERT
 (
-mBlockRI
+mBlockRS
 "
 Should
 not
@@ -1039,7 +1039,7 @@ is
 no
 block
 reflow
-input
+state
 "
 "
 available
@@ -1047,7 +1047,7 @@ available
 )
 ;
 return
-mBlockRI
+mBlockRS
 -
 >
 AddFloat
@@ -2646,7 +2646,9 @@ nsLineLayout
 AddFloat
 BlockReflowState
 *
-mBlockRI
+mBlockRS
+=
+nullptr
 ;
 /
 *

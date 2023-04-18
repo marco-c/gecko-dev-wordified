@@ -5278,6 +5278,8 @@ wrapper
 s
 containing
 block
+'
+s
 reflow
 input
 which
@@ -77503,12 +77505,14 @@ there
 s
 a
 usable
+reflow
 /
 /
+input
+for
+the
 containing
 block
-reflow
-input
 .
 nsMargin
 margin
