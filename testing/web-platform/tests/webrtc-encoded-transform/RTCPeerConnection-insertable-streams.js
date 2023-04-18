@@ -610,8 +610,7 @@ if
 (
 sdp
 .
-index
-f
+indexOf
 (
 '
 a
