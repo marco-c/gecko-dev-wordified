@@ -1880,7 +1880,7 @@ control
 (
 0x
 %
-04X
+04zX
 )
 "
 aCharCode
@@ -1904,7 +1904,7 @@ surrogate
 (
 0x
 %
-04X
+04zX
 )
 "
 aCharCode
@@ -1928,7 +1928,7 @@ surrogate
 (
 0x
 %
-04X
+04zX
 )
 "
 aCharCode
@@ -1951,7 +1951,7 @@ s
 (
 0x
 %
-04X
+04zX
 )
 "
 NS_ConvertUTF16toUTF8
@@ -1978,7 +1978,7 @@ s
 (
 0x
 %
-08X
+08zX
 )
 "
 NS_ConvertUTF16toUTF8
@@ -2602,7 +2602,7 @@ Invalid
 (
 0x
 %
-08X
+08zX
 )
 "
 aVK
@@ -3113,7 +3113,7 @@ command
 (
 0x
 %
-08X
+08zX
 )
 "
 aCommand
@@ -3175,7 +3175,10 @@ device
 (
 0x
 %
-04X
+04
+"
+PRIXLPTR
+"
 )
 "
 aDevice
@@ -3389,7 +3392,7 @@ Flags
 (
 0x
 %
-04X
+04zX
 )
 "
 aKeys
@@ -3523,7 +3526,9 @@ repeat
 count
 =
 %
-d
+"
+PRIdLPTR
+"
 "
 "
 scancode
@@ -3677,7 +3682,9 @@ repeat
 count
 =
 %
-d
+"
+PRIdLPTR
+"
 "
 "
 scancode
@@ -3818,7 +3825,7 @@ handle
 =
 0x
 %
-p
+zx
 app
 command
 =
@@ -3889,12 +3896,12 @@ AppendPrintf
 wParam
 =
 %
-u
+zu
 lParam
 =
 %
-u
 "
+PRIdLPTR
 aMSG
 .
 wParam
