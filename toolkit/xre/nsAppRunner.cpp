@@ -34103,7 +34103,14 @@ running
 from
 a
 DMG
+or
+an
+app
+translocated
+location
 and
+/
+/
 allow
 the
 user
@@ -34111,8 +34118,6 @@ to
 install
 to
 the
-/
-/
 Applications
 directory
 .
@@ -34121,7 +34126,7 @@ if
 MacRunFromDmgUtils
 :
 :
-MaybeInstallFromDmgAndRelaunch
+MaybeInstallAndRelaunch
 (
 )
 )
