@@ -2596,6 +2596,11 @@ size
 %
 u
 "
+static_cast
+<
+int
+>
+(
 (
 *
 aFrameTypes
@@ -2603,6 +2608,7 @@ aFrameTypes
 [
 0
 ]
+)
 aInputFrame
 .
 size
