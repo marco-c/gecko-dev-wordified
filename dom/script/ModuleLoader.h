@@ -407,7 +407,7 @@ aRequest
 override
 ;
 void
-ProcessLoadedModuleTree
+OnModuleLoadComplete
 (
 ModuleLoadRequest
 *

@@ -1074,7 +1074,7 @@ void
 ModuleLoader
 :
 :
-ProcessLoadedModuleTree
+OnModuleLoadComplete
 (
 ModuleLoadRequest
 *
