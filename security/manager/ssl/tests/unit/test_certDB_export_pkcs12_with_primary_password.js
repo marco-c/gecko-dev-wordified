@@ -76,7 +76,7 @@ has
 a
 /
 /
-master
+primary
 password
 set
 .
@@ -403,7 +403,7 @@ promptFactoryCID
 /
 Set
 a
-master
+primary
 password
 .
 let

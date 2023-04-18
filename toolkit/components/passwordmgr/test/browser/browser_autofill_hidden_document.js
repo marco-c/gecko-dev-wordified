@@ -170,7 +170,7 @@ visibility
 Waits
 for
 the
-master
+primary
 password
 prompt
 and
@@ -178,7 +178,7 @@ cancels
 it
 .
 function
-observeMasterPasswordDialog
+observePrimaryPasswordDialog
 (
 window
 result
@@ -287,7 +287,7 @@ wasShown
 "
 Wait
 for
-master
+primary
 password
 dialog
 "
@@ -312,7 +312,7 @@ ex
 {
 info
 (
-observeMasterPasswordDialog
+observePrimaryPasswordDialog
 caught
 exception
 from
@@ -1053,14 +1053,14 @@ add_task
 (
 async
 function
-test_immediate_autofill_with_masterpassword
+test_immediate_autofill_with_primarypassword
 (
 )
 {
 /
 /
 Set
-master
+primary
 password
 prompt
 timeout
@@ -1107,7 +1107,7 @@ timeout_ms
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -1124,7 +1124,7 @@ info
 (
 Have
 enabled
-masterPassword
+primaryPassword
 now
 isLoggedIn
 ?
@@ -1146,7 +1146,7 @@ function
 {
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (
@@ -1219,7 +1219,7 @@ to
 see
 if
 the
-master
+primary
 password
 dialog
 is
@@ -1285,7 +1285,7 @@ false
 ;
 dialogObserved
 =
-observeMasterPasswordDialog
+observePrimaryPasswordDialog
 (
 tab1
 .

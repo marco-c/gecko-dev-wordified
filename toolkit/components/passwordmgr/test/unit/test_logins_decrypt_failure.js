@@ -73,7 +73,7 @@ to
 resetting
 the
 *
-master
+primary
 password
 when
 it
@@ -84,7 +84,7 @@ known
 *
 /
 function
-resetMasterPassword
+resetPrimaryPassword
 (
 )
 {
@@ -141,7 +141,7 @@ Tests
 *
 Resets
 the
-master
+primary
 password
 after
 some
@@ -200,7 +200,7 @@ non
 -
 decryptable
 .
-resetMasterPassword
+resetPrimaryPassword
 (
 )
 ;
@@ -1066,7 +1066,7 @@ non
 -
 decryptable
 .
-resetMasterPassword
+resetPrimaryPassword
 (
 )
 ;
@@ -1246,7 +1246,7 @@ non
 -
 decryptable
 .
-resetMasterPassword
+resetPrimaryPassword
 (
 )
 ;

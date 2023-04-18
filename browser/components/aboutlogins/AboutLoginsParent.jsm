@@ -479,10 +479,10 @@ AUTH_TIMEOUT_MS
 5
 minutes
 const
-MASTER_PASSWORD_NOTIFICATION_ID
+PRIMARY_PASSWORD_NOTIFICATION_ID
 =
 "
-master
+primary
 -
 password
 -
@@ -1121,7 +1121,7 @@ if
 !
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 )
@@ -1163,7 +1163,7 @@ if
 !
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 )
@@ -1712,7 +1712,7 @@ sendAsyncMessage
 "
 AboutLogins
 :
-MasterPasswordResponse
+PrimaryPasswordResponse
 "
 {
 result
@@ -1962,11 +1962,11 @@ Setup
 logins
 selectedSort
 syncState
-masterPasswordEnabled
+primaryPasswordEnabled
 :
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 passwordRevealVisible
@@ -3274,7 +3274,7 @@ this
 .
 removeNotifications
 (
-MASTER_PASSWORD_NOTIFICATION_ID
+PRIMARY_PASSWORD_NOTIFICATION_ID
 )
 ;
 await
@@ -3303,7 +3303,7 @@ loginCanceled
 {
 this
 .
-showMasterPasswordLoginNotifications
+showPrimaryPasswordLoginNotifications
 (
 )
 ;
@@ -3835,7 +3835,7 @@ logins
 )
 ;
 }
-showMasterPasswordLoginNotifications
+showPrimaryPasswordLoginNotifications
 (
 )
 {
@@ -3846,7 +3846,7 @@ showNotifications
 {
 id
 :
-MASTER_PASSWORD_NOTIFICATION_ID
+PRIMARY_PASSWORD_NOTIFICATION_ID
 priority
 :
 "
@@ -3922,7 +3922,7 @@ messageSubscribers
 "
 AboutLogins
 :
-MasterPasswordAuthRequired
+PrimaryPasswordAuthRequired
 "
 )
 ;

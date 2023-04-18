@@ -10015,7 +10015,7 @@ the
 user
 has
 a
-master
+primary
 password
 set
 and
@@ -10024,7 +10024,7 @@ otherwise
 .
 *
 /
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 {
@@ -10074,7 +10074,7 @@ hasPassword
 *
 Shows
 the
-Master
+Primary
 Password
 prompt
 if
@@ -10190,7 +10190,7 @@ does
 no
 harm
 if
-master
+primary
 password
 isn
 '
@@ -10302,7 +10302,7 @@ if
 there
 is
 no
-master
+primary
 password
 and
 OS
@@ -10364,7 +10364,7 @@ if
 there
 is
 no
-master
+primary
 password
 if
 (
@@ -10442,7 +10442,7 @@ re
 -
 auth
 via
-Master
+Primary
 Password
 force
 a
@@ -10461,7 +10461,7 @@ checkPassword
 /
 If
 a
-master
+primary
 password
 prompt
 is
@@ -10518,7 +10518,7 @@ there
 '
 s
 a
-master
+primary
 password
 .
 But
@@ -10549,7 +10549,7 @@ and
 ask
 for
 the
-master
+primary
 password
 .
 token

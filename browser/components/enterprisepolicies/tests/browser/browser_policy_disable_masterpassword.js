@@ -377,7 +377,7 @@ access
 to
 setting
 a
-master
+primary
 password
 /
 /
@@ -437,7 +437,7 @@ points
 for
 creating
 a
-Master
+Primary
 Password
 should
 be
@@ -489,7 +489,7 @@ set
 /
 If
 a
-Master
+Primary
 Password
 is
 already

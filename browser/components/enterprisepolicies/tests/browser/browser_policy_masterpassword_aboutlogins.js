@@ -91,7 +91,7 @@ about
 logins
 asks
 for
-master
+primary
 password
 add_task
 (

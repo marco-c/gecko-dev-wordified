@@ -13385,7 +13385,7 @@ noMP
 !
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 ;
@@ -13867,7 +13867,7 @@ dialog
 in
 which
 the
-master
+primary
 password
 may
 be
@@ -13891,7 +13891,7 @@ user
 can
 set
 a
-Master
+Primary
 Password
 .
 /
@@ -13914,7 +13914,7 @@ if
 !
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 &

@@ -71,7 +71,7 @@ the
 user
 has
 a
-master
+primary
 /
 /
 password
@@ -621,7 +621,7 @@ certificateDialogsCID
 /
 Set
 a
-master
+primary
 password
 .
 let

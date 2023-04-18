@@ -173,9 +173,9 @@ dialogURL
 =
 aDialogURL
 ;
-masterPasswordSet
+primaryPasswordSet
 =
-masterPasswordNextState
+primaryPasswordNextState
 ;
 aCallback
 (
@@ -187,7 +187,7 @@ aCallback
 )
 ;
 let
-masterPasswordSet
+primaryPasswordSet
 =
 false
 ;
@@ -196,12 +196,12 @@ win
 LoginHelper
 =
 {
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 {
 return
-masterPasswordSet
+primaryPasswordSet
 ;
 }
 }
@@ -232,7 +232,7 @@ checkbox
 .
 checked
 "
-master
+primary
 password
 checkbox
 should
@@ -261,7 +261,7 @@ button
 .
 disabled
 "
-master
+primary
 password
 button
 should
@@ -273,7 +273,7 @@ default
 )
 ;
 let
-masterPasswordNextState
+primaryPasswordNextState
 =
 false
 ;
@@ -395,7 +395,7 @@ checkbox
 .
 checked
 "
-master
+primary
 password
 checkbox
 should
@@ -427,7 +427,7 @@ auth
 )
 ;
 }
-masterPasswordNextState
+primaryPasswordNextState
 =
 true
 ;
@@ -538,7 +538,8 @@ checkbox
 should
 open
 the
-masterpassword
+primary
+password
 dialog
 "
 )
@@ -546,7 +547,7 @@ dialog
 }
 else
 {
-masterPasswordSet
+primaryPasswordSet
 =
 true
 ;
@@ -576,7 +577,7 @@ disabled
 "
 waiting
 for
-master
+primary
 password
 button
 to
@@ -593,7 +594,7 @@ button
 .
 disabled
 "
-master
+primary
 password
 button
 should
@@ -609,7 +610,7 @@ checkbox
 .
 checked
 "
-master
+primary
 password
 checkbox
 should
@@ -677,7 +678,8 @@ button
 should
 open
 the
-masterpassword
+primary
+password
 dialog
 "
 )
@@ -689,7 +691,7 @@ button
 .
 disabled
 "
-master
+primary
 password
 button
 should
@@ -705,7 +707,7 @@ checkbox
 .
 checked
 "
-master
+primary
 password
 checkbox
 should
@@ -781,7 +783,7 @@ string
 "
 )
 ;
-masterPasswordNextState
+primaryPasswordNextState
 =
 false
 ;
@@ -821,7 +823,7 @@ the
 checkbox
 to
 uncheck
-master
+primary
 password
 should
 show
@@ -837,7 +839,7 @@ button
 .
 disabled
 "
-master
+primary
 password
 button
 should
@@ -854,7 +856,7 @@ checkbox
 .
 checked
 "
-master
+primary
 password
 checkbox
 should

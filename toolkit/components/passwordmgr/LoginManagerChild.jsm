@@ -4184,13 +4184,13 @@ boolean
 }
 options
 .
-showMasterPassword
+showPrimaryPassword
 -
 whether
 to
 show
 a
-master
+primary
 password
 prompt
 *
@@ -5224,7 +5224,7 @@ return
 ;
 }
 let
-isMasterPasswordSet
+isPrimaryPasswordSet
 =
 Services
 .
@@ -5235,7 +5235,7 @@ sharedData
 get
 (
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 "
 )
 ;
@@ -5259,7 +5259,7 @@ defer
 handling
 when
 a
-master
+primary
 password
 is
 set
@@ -5299,10 +5299,10 @@ document
 .
 visibilityState
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 :
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 ;
 if
@@ -5317,7 +5317,7 @@ visible
 "
 |
 |
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 {
 this
@@ -5422,7 +5422,7 @@ return
 ;
 }
 let
-isMasterPasswordSet
+isPrimaryPasswordSet
 =
 Services
 .
@@ -5433,7 +5433,7 @@ sharedData
 get
 (
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 "
 )
 ;
@@ -5457,10 +5457,10 @@ document
 .
 visibilityState
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 :
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 ;
 /
@@ -5582,7 +5582,7 @@ visible
 "
 |
 |
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 {
 this
@@ -5900,7 +5900,7 @@ pwField
 ownerDocument
 ;
 let
-isMasterPasswordSet
+isPrimaryPasswordSet
 =
 Services
 .
@@ -5911,7 +5911,7 @@ sharedData
 get
 (
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 "
 )
 ;
@@ -5926,10 +5926,10 @@ document
 .
 visibilityState
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 :
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 ;
 /
@@ -5943,7 +5943,7 @@ defer
 handling
 when
 a
-master
+primary
 password
 is
 set
@@ -5984,7 +5984,7 @@ visible
 "
 |
 |
-isMasterPasswordSet
+isPrimaryPasswordSet
 )
 {
 this
@@ -6541,7 +6541,7 @@ _getLoginDataFromParent
 (
 form
 {
-showMasterPassword
+showPrimaryPassword
 :
 true
 }
@@ -7965,7 +7965,7 @@ acForm
 guid
 :
 loginGUID
-showMasterPassword
+showPrimaryPassword
 :
 false
 }
@@ -14706,7 +14706,7 @@ t
 prompted
 for
 a
-master
+primary
 password
 /
 /

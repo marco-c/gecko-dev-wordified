@@ -1215,7 +1215,7 @@ log
 "
 Waiting
 for
-master
+primary
 password
 UI
 "
@@ -1260,7 +1260,7 @@ busy
 due
 to
 the
-master
+primary
 password
 dialog
 .

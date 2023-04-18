@@ -1293,7 +1293,7 @@ null
 if
 the
 *
-master
+primary
 password
 dialog
 was
@@ -1410,7 +1410,7 @@ ex
 /
 User
 canceled
-master
+primary
 password
 entry
 return
@@ -3705,7 +3705,7 @@ on
 the
 /
 /
-Master
+Primary
 Password
 dialog
 .

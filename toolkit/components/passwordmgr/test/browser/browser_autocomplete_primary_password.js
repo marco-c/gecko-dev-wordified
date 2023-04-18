@@ -101,7 +101,7 @@ brandFullName
 Waits
 for
 the
-master
+primary
 password
 prompt
 and
@@ -276,7 +276,7 @@ login
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -290,7 +290,7 @@ function
 {
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (
@@ -302,7 +302,7 @@ disable
 /
 /
 Set
-master
+primary
 password
 prompt
 timeout
@@ -353,7 +353,7 @@ does
 not
 trigger
 a
-master
+primary
 password
 prompt
 /
@@ -380,7 +380,7 @@ test_mpAutocompleteTimeout
 Wait
 for
 initial
-master
+primary
 password
 dialog
 after
@@ -637,7 +637,7 @@ does
 not
 trigger
 a
-master
+primary
 password
 prompt
 /
@@ -661,7 +661,7 @@ test_mpAutocompleteUIBusy
 Wait
 for
 initial
-master
+primary
 password
 dialog
 after

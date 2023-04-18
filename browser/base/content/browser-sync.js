@@ -7676,7 +7676,7 @@ tab
 /
 If
 a
-master
+primary
 -
 password
 is

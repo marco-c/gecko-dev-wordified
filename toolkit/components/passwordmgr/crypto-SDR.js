@@ -579,7 +579,7 @@ Exception
 "
 User
 canceled
-master
+primary
 password
 entry
 "
@@ -624,7 +624,7 @@ If
 we
 triggered
 a
-master
+primary
 password
 prompt
 notify
@@ -873,7 +873,7 @@ Exception
 "
 User
 canceled
-master
+primary
 password
 entry
 "
@@ -918,7 +918,7 @@ If
 we
 triggered
 a
-master
+primary
 password
 prompt
 notify
@@ -1179,7 +1179,7 @@ Exception
 "
 User
 canceled
-master
+primary
 password
 entry
 "
@@ -1224,7 +1224,7 @@ If
 we
 triggered
 a
-master
+primary
 password
 prompt
 notify
@@ -1532,7 +1532,7 @@ Exception
 "
 User
 canceled
-master
+primary
 password
 entry
 "
@@ -1582,7 +1582,7 @@ If
 we
 triggered
 a
-master
+primary
 password
 prompt
 notify
@@ -1752,7 +1752,7 @@ log
 Prompted
 for
 a
-master
+primary
 password
 notifying
 for

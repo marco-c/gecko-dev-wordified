@@ -96,7 +96,7 @@ true
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -149,7 +149,7 @@ disabled
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (
@@ -196,7 +196,7 @@ true
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 enable
 (
@@ -287,7 +287,7 @@ value
 =
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 masterPassword
 ;
@@ -340,7 +340,7 @@ changeMPWindow
 ;
 LoginTestUtils
 .
-masterPassword
+primaryPassword
 .
 disable
 (

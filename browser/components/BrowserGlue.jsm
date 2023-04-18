@@ -16325,7 +16325,7 @@ idleTasks
 /
 Telemetry
 for
-master
+primary
 -
 password
 -

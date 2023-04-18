@@ -432,7 +432,7 @@ before
 eventually
 showing
 a
-master
+primary
 -
 password
 dialog

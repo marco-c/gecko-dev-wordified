@@ -59,7 +59,7 @@ MPL
 import
 {
 recordTelemetryEvent
-promptForMasterPassword
+promptForPrimaryPassword
 }
 from
 "
@@ -1923,7 +1923,7 @@ Inspect
 Element
 even
 when
-Master
+Primary
 Password
 is
 enabled
@@ -2614,7 +2614,7 @@ We
 prompt
 for
 the
-master
+primary
 password
 when
 entering
@@ -2640,10 +2640,10 @@ editing
 )
 {
 let
-masterPasswordAuth
+primaryPasswordAuth
 =
 await
-promptForMasterPassword
+promptForPrimaryPassword
 (
 "
 about
@@ -2667,7 +2667,7 @@ message
 if
 (
 !
-masterPasswordAuth
+primaryPasswordAuth
 )
 {
 this
@@ -2950,10 +2950,10 @@ password
 )
 {
 let
-masterPasswordAuth
+primaryPasswordAuth
 =
 await
-promptForMasterPassword
+promptForPrimaryPassword
 (
 "
 about
@@ -2977,7 +2977,7 @@ message
 if
 (
 !
-masterPasswordAuth
+primaryPasswordAuth
 )
 {
 return
@@ -3253,10 +3253,10 @@ button
 )
 {
 let
-masterPasswordAuth
+primaryPasswordAuth
 =
 await
-promptForMasterPassword
+promptForPrimaryPassword
 (
 "
 about
@@ -3280,7 +3280,7 @@ message
 if
 (
 !
-masterPasswordAuth
+primaryPasswordAuth
 )
 {
 return
@@ -5784,7 +5784,7 @@ which
 means
 that
 the
-master
+primary
 password
 was
 already

@@ -400,7 +400,7 @@ classList
 remove
 (
 "
-master
+primary
 -
 password
 -
@@ -677,7 +677,7 @@ break
 }
 case
 "
-MasterPasswordAuthRequired
+PrimaryPasswordAuthRequired
 "
 :
 {
@@ -690,7 +690,7 @@ classList
 add
 (
 "
-master
+primary
 -
 password
 -

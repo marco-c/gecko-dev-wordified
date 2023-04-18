@@ -642,7 +642,7 @@ initializationPromise
 is
 resolved
 updating
-isMasterPasswordSet
+isPrimaryPasswordSet
 in
 sharedData
 "
@@ -657,11 +657,11 @@ sharedData
 set
 (
 "
-isMasterPasswordSet
+isPrimaryPasswordSet
 "
 LoginHelper
 .
-isMasterPasswordSet
+isPrimaryPasswordSet
 (
 )
 )

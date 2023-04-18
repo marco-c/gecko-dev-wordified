@@ -752,7 +752,7 @@ reset
 "
 of
 the
-master
+primary
 *
 password
 will
@@ -805,7 +805,7 @@ decrypted
 including
 if
 the
-master
+primary
 -
 password
 prompt
@@ -829,7 +829,7 @@ begin
 syncing
 if
 the
-master
+primary
 -
 password
 is
@@ -2729,7 +2729,7 @@ canceling
 entry
 of
 a
-master
+primary
 pw
 )
 if
@@ -4882,7 +4882,7 @@ the
 user
 cancels
 a
-master
+primary
 password
 entry
 .
@@ -5025,7 +5025,7 @@ instead
 of
 entering
 their
-master
+primary
 password
 )
 *
@@ -5112,7 +5112,7 @@ canceling
 entry
 of
 a
-master
+primary
 pw
 )
 if

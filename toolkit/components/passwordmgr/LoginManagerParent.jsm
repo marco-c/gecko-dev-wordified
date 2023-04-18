@@ -624,14 +624,14 @@ the
 user
 cancelled
 the
-master
+primary
 password
 prompt
 *
 to
 avoid
 spamming
-master
+primary
 password
 prompts
 on
@@ -1503,7 +1503,7 @@ log
 "
 User
 cancelled
-master
+primary
 password
 prompt
 .
@@ -2861,7 +2861,7 @@ formOrigin
 actionOrigin
 {
 guid
-showMasterPassword
+showPrimaryPassword
 }
 )
 {
@@ -2928,7 +2928,7 @@ URL
 if
 (
 !
-showMasterPassword
+showPrimaryPassword
 &
 &
 !
@@ -2958,7 +2958,7 @@ re
 currently
 displaying
 a
-master
+primary
 password
 prompt
 defer
@@ -3133,7 +3133,7 @@ sendLoginDataToChild
 formOrigin
 actionOrigin
 {
-showMasterPassword
+showPrimaryPassword
 }
 )
 ;
@@ -3461,7 +3461,7 @@ nsIAutoCompleteResult
 Cancel
 if
 the
-master
+primary
 password
 prompt
 is
@@ -3505,7 +3505,7 @@ for
 autocomplete
 since
 the
-master
+primary
 password
 prompt
 is
@@ -3573,7 +3573,7 @@ for
 autocomplete
 since
 the
-master
+primary
 password
 "
 +
