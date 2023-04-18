@@ -1859,6 +1859,11 @@ d
 CanUseHardwareVideoDecoding
 %
 d
+"
+"
+XRE_IsRDDProcess
+%
+d
 \
 n
 "
@@ -1889,6 +1894,9 @@ gfxVars
 CanUseHardwareVideoDecoding
 (
 )
+XRE_IsRDDProcess
+(
+)
 )
 )
 ;
@@ -1897,6 +1905,11 @@ StaticPrefs
 :
 :
 media_ffmpeg_vaapi_enabled
+(
+)
+&
+&
+XRE_IsRDDProcess
 (
 )
 &
