@@ -4761,6 +4761,9 @@ ImageBitmap
 class
 ImageData
 ;
+class
+OffscreenCanvas
+;
 }
 /
 /
@@ -4813,6 +4816,16 @@ dom
 ImageData
 *
 mImageData
+=
+nullptr
+;
+const
+dom
+:
+:
+OffscreenCanvas
+*
+mOffscreenCanvas
 =
 nullptr
 ;
