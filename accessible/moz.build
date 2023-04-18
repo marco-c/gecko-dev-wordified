@@ -315,6 +315,17 @@ tests
 /
 browser
 /
+selectable
+/
+browser
+.
+ini
+"
+"
+tests
+/
+browser
+/
 states
 /
 browser
