@@ -4900,15 +4900,6 @@ rv
 rv
 )
 ;
-RefPtr
-<
-nsIWebBrowserPersist
->
-localPersist
-(
-mPersist
-)
-;
 mPersist
 -
 >
