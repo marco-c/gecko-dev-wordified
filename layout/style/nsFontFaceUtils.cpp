@@ -1488,7 +1488,7 @@ No
 pc
 -
 >
-UsesExChUnits
+UsesFontMetricDependentFontUnits
 (
 )
 )
