@@ -242,6 +242,9 @@ byte_limit
 0
 |
 |
+webrtc
+:
+:
 kIvfHeaderSize
 <
 =
@@ -361,6 +364,9 @@ false
 uint8_t
 ivf_header
 [
+webrtc
+:
+:
 kIvfHeaderSize
 ]
 =
@@ -777,6 +783,9 @@ file_
 Write
 (
 ivf_header
+webrtc
+:
+:
 kIvfHeaderSize
 )
 )
@@ -808,11 +817,17 @@ if
 (
 bytes_written_
 <
+webrtc
+:
+:
 kIvfHeaderSize
 )
 {
 bytes_written_
 =
+webrtc
+:
+:
 kIvfHeaderSize
 ;
 }
