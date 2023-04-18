@@ -1432,13 +1432,6 @@ JS
 :
 AutoSuppressGCAnalysis
 nogc
-(
-TlsContext
-.
-get
-(
-)
-)
 ;
 /
 /
