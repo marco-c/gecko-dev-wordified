@@ -2028,6 +2028,10 @@ return
 true
 ;
 }
+WASM_DECLARE_SERIALIZABLE
+(
+TagType
+)
 }
 ;
 using
@@ -2041,7 +2045,7 @@ TagType
 using
 SharedTagType
 =
-RefPtr
+SerializableRefPtr
 <
 const
 TagType
@@ -2111,6 +2115,10 @@ isExport
 )
 {
 }
+WASM_DECLARE_SERIALIZABLE
+(
+TagDesc
+)
 }
 ;
 using

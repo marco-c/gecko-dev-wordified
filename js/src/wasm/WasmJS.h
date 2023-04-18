@@ -1494,6 +1494,9 @@ nodiscard
 bool
 CompileAndSerialize
 (
+JSContext
+*
+cx
 const
 ShareableBytes
 &

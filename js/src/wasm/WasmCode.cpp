@@ -6073,7 +6073,7 @@ tables
 #
 ifdef
 ENABLE_WASM_EXCEPTIONS
-SerializedPodVectorSize
+SerializedVectorSize
 (
 tags
 )
@@ -6190,7 +6190,7 @@ ifdef
 ENABLE_WASM_EXCEPTIONS
 cursor
 =
-SerializePodVector
+SerializeVector
 (
 cursor
 tags
@@ -6334,7 +6334,7 @@ ENABLE_WASM_EXCEPTIONS
 (
 cursor
 =
-DeserializePodVector
+DeserializeVector
 (
 cursor
 &

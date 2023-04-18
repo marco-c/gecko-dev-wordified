@@ -41664,6 +41664,7 @@ wasm
 :
 CompileAndSerialize
 (
+cx
 *
 bytecode
 &
