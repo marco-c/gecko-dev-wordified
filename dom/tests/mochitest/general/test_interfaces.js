@@ -5619,9 +5619,6 @@ HTMLDialogElement
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
