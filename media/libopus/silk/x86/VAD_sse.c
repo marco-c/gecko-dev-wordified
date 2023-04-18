@@ -507,7 +507,7 @@ VAD_N_BANDS
 4
 )
 ;
-celt_assert
+silk_assert
 (
 MAX_FRAME_LENGTH
 >
@@ -518,7 +518,7 @@ psEncC
 frame_length
 )
 ;
-celt_assert
+silk_assert
 (
 psEncC
 -
@@ -529,7 +529,7 @@ frame_length
 512
 )
 ;
-celt_assert
+silk_assert
 (
 psEncC
 -

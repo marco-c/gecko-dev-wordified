@@ -593,7 +593,7 @@ arch
 #
 endif
 opus_int64
-silk_inner_prod16_sse4_1
+silk_inner_prod16_aligned_64_sse4_1
 (
 const
 opus_int16
@@ -616,7 +616,7 @@ OPUS_X86_PRESUME_SSE4_1
 )
 #
 define
-silk_inner_prod16
+silk_inner_prod16_aligned_64
 (
 inVec1
 inVec2
@@ -631,7 +631,7 @@ void
 (
 arch
 )
-silk_inner_prod16_sse4_1
+silk_inner_prod16_aligned_64_sse4_1
 (
 inVec1
 inVec2
@@ -645,7 +645,7 @@ opus_int64
 (
 *
 const
-SILK_INNER_PROD16_IMPL
+SILK_INNER_PROD16_ALIGNED_64_IMPL
 [
 OPUS_ARCHMASK
 +
@@ -668,7 +668,7 @@ len
 ;
 #
 define
-silk_inner_prod16
+silk_inner_prod16_aligned_64
 (
 inVec1
 inVec2
@@ -679,7 +679,7 @@ arch
 (
 (
 *
-SILK_INNER_PROD16_IMPL
+SILK_INNER_PROD16_ALIGNED_64_IMPL
 [
 (
 arch

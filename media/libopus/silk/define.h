@@ -1547,17 +1547,6 @@ CNG_GAIN_SMTH_Q16
 /
 #
 define
-CNG_GAIN_SMTH_THRESHOLD_Q16
-46396
-/
-*
--
-3
-dB
-*
-/
-#
-define
 CNG_NLSF_SMTH_Q16
 16348
 /

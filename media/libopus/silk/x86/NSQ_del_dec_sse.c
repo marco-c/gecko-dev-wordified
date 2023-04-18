@@ -2128,7 +2128,7 @@ LTP_ORDER
 /
 2
 ;
-celt_assert
+silk_assert
 (
 start_idx
 >
@@ -3126,7 +3126,7 @@ b_sr_Q12_0123
 ;
 SAVE_STACK
 ;
-celt_assert
+silk_assert
 (
 nStatesDelayedDecision
 >

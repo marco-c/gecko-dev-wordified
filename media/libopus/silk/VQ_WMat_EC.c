@@ -718,7 +718,7 @@ cb_Q7
 ;
 /
 *
-If
+In
 things
 go
 really
@@ -1288,7 +1288,7 @@ half
 ;
 seems
 to
-slightly
+slghtly
 improve
 quality
 *

@@ -1420,6 +1420,7 @@ OPUS_ARG_NONNULL
 *
 *
 Destroys
+a
 an
 encoder
 state
@@ -2437,6 +2438,7 @@ OPUS_ARG_NONNULL
 *
 Destroys
 a
+an
 decoder
 state
 .

@@ -1016,9 +1016,6 @@ in
 i
 -
 =
-(
-opus_uint32
-)
 integer
 <
 <
@@ -1210,9 +1207,6 @@ res
 i
 +
 (
-(
-opus_uint32
-)
 integer
 <
 <

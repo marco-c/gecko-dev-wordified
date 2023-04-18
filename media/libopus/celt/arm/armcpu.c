@@ -597,13 +597,6 @@ Linux
 based
 *
 /
-#
-include
-<
-stdio
-.
-h
->
 opus_uint32
 opus_cpu_capabilities
 (

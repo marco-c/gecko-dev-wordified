@@ -4368,7 +4368,7 @@ codedBands
 ;
 }
 int
-clt_compute_allocation
+compute_allocation
 (
 const
 CELTMode

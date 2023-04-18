@@ -567,7 +567,7 @@ endif
 if
 defined
 (
-OPUS_X86_MAY_HAVE_SSE
+OPUS_X86_MAY_HAVE_SSE2
 )
 &
 &

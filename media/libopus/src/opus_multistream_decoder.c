@@ -1382,12 +1382,6 @@ packet_offset
 soft_clip
 )
 ;
-if
-(
-!
-do_plc
-)
-{
 data
 +
 =
@@ -1398,7 +1392,6 @@ len
 =
 packet_offset
 ;
-}
 if
 (
 ret
@@ -2552,8 +2545,9 @@ layout
 .
 nb_streams
 )
-goto
-bad_arg
+ret
+=
+OPUS_BAD_ARG
 ;
 value
 =

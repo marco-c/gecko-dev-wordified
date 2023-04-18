@@ -437,9 +437,6 @@ frequency
 axis
 *
 /
-#
-ifndef
-OVERRIDE_silk_warped_autocorrelation_FIX_c
 void
 silk_warped_autocorrelation_FIX_c
 (
@@ -958,10 +955,3 @@ QC
 *
 /
 }
-#
-endif
-/
-*
-OVERRIDE_silk_warped_autocorrelation_FIX_c
-*
-/
