@@ -4828,7 +4828,7 @@ TopLevelEditSubActionDataRef
 (
 )
 .
-mNeedsToCleanUpEmptyInlineElements
+mNeedsToCleanUpEmptyElements
 =
 false
 ;
