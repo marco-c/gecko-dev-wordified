@@ -114,10 +114,7 @@ crate
 context
 :
 :
-{
-SelectorFlagsMap
 SharedStyleContext
-}
 ;
 use
 crate
@@ -949,14 +946,6 @@ nth_index_cache
 &
 mut
 NthIndexCache
-selector_flags_map
-:
-&
-mut
-SelectorFlagsMap
-<
-E
->
 )
 -
 >
@@ -984,7 +973,6 @@ revalidation_match_results
 stylist
 bloom
 nth_index_cache
-selector_flags_map
 )
 ;
 let
