@@ -6984,7 +6984,7 @@ branchAdd64
 (
 Condition
 cond
-Imm32
+Imm64
 imm
 Register64
 dest
