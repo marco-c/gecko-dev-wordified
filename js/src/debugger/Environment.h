@@ -425,10 +425,7 @@ JSContext
 cx
 HandleDebuggerEnvironment
 environment
-MutableHandle
-<
-IdVector
->
+MutableHandleIdVector
 result
 )
 ;

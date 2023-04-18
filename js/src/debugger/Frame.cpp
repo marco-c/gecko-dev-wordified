@@ -12643,10 +12643,7 @@ IdVectorToArray
 JSContext
 *
 cx
-Handle
-<
-IdVector
->
+HandleIdVector
 ids
 )
 {
