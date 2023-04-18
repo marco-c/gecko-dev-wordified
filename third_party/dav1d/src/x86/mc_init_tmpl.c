@@ -1061,9 +1061,6 @@ BITDEPTH
 =
 =
 8
-&
-&
-ARCH_X86_64
 init_mc_scaled_fn
 (
 FILTER_2D_8TAP_REGULAR

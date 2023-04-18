@@ -258,7 +258,7 @@ src
 /
 ppc
 /
-types
+dav1d_types
 .
 h
 "

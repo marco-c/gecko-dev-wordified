@@ -3711,9 +3711,7 @@ ALIGN
 (
 dav1d_mc_subpel_filters
 [
-5
-+
-ARCH_X86_64
+6
 ]
 [
 15
@@ -4638,9 +4636,6 @@ DAV1D_FILTER_8TAP_SMOOTH
 0
 0
 }
-#
-if
-ARCH_X86_64
 /
 *
 Bilin
@@ -4829,8 +4824,6 @@ filter
 0
 0
 }
-#
-endif
 }
 }
 ;

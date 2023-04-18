@@ -899,6 +899,12 @@ unsigned
 frame_size_limit
 ;
 int
+strict_std_compliance
+;
+int
+output_invisible_frames
+;
+int
 drain
 ;
 enum
