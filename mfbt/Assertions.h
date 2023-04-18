@@ -3231,13 +3231,7 @@ DEBUG
 if
 defined
 (
-NIGHTLY_BUILD
-)
-|
-|
-defined
-(
-MOZ_DEV_EDITION
+EARLY_BETA_OR_EARLIER
 )
 |
 |
