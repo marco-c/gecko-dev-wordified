@@ -4760,6 +4760,8 @@ final
 public
 :
 enum
+:
+unsigned
 {
 NO_ARGS
 =

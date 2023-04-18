@@ -86329,6 +86329,8 @@ MOZ_COUNTED_DTOR
 FullscreenRoots
 )
 enum
+:
+uint32_t
 {
 NotFound
 =

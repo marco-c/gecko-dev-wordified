@@ -187,6 +187,8 @@ See
 EMPTY_SLOT_x
 enum
 StructuredCloneTags
+:
+uint32_t
 {
 SCTAG_BASE
 =
