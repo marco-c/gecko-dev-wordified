@@ -87,9 +87,9 @@ MPL
 .
 EXPORTS
 .
-mozilla
+js
 .
-dom
+loader
 +
 =
 [

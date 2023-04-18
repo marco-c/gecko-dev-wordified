@@ -65,10 +65,10 @@ h
 "
 using
 namespace
-mozilla
+JS
 :
 :
-dom
+loader
 ;
 ModuleMapKey
 :
@@ -241,6 +241,9 @@ wrong
 .
 hash
 =
+mozilla
+:
+:
 AddToHash
 (
 hash
