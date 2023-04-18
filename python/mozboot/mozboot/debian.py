@@ -475,19 +475,6 @@ exactly
 .
         
 "
-wget
-"
-#
-For
-downloading
-the
-Android
-SDK
-and
-NDK
-.
-        
-"
 libncurses5
 "
 #

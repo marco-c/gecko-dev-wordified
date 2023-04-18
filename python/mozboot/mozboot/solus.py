@@ -254,20 +254,6 @@ openjdk
 "
         
 #
-For
-downloading
-the
-Android
-SDK
-and
-NDK
-.
-        
-"
-wget
-"
-        
-#
 See
 comment
 about

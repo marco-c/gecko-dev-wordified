@@ -108,9 +108,6 @@ gtar
 rust
 "
 "
-wget
-"
-"
 unzip
 "
 "

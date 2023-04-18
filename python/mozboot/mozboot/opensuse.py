@@ -237,9 +237,6 @@ java
 -
 openjdk
 "
-"
-wget
-"
 ]
     
 def

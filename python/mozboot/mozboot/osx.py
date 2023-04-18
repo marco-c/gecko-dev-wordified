@@ -1139,21 +1139,6 @@ System
 packages
 .
         
-packages
-=
-[
-"
-wget
-"
-]
-        
-self
-.
-_ensure_homebrew_packages
-(
-packages
-)
-        
 casks
 =
 [

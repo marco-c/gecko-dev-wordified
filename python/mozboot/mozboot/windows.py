@@ -341,14 +341,6 @@ nsis
 "
 ]
     
-MOBILE_ANDROID_COMMON_PACKAGES
-=
-[
-"
-wget
-"
-]
-    
 def
 __init__
 (

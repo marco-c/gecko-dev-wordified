@@ -183,19 +183,6 @@ Java
 8
 exactly
 .
-        
-"
-wget
-"
-#
-For
-downloading
-the
-Android
-SDK
-and
-NDK
-.
     
 ]
     
