@@ -1594,6 +1594,10 @@ mUsingSpdyVersion
 =
 spdyVersion
 ;
+mEverUsedSpdy
+=
+true
+;
 mSpdySession
 =
 ASpdySession
