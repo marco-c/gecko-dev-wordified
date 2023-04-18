@@ -1213,7 +1213,9 @@ source1
 =
 makeMockSource
 (
-undefined
+"
+source1
+"
 "
 1
 "
@@ -1224,7 +1226,9 @@ source2
 =
 makeMockSource
 (
-undefined
+"
+source2
+"
 "
 2
 "
@@ -1271,6 +1275,16 @@ source2
 ]
 ;
 const
+blackboxedRanges
+=
+{
+source2
+:
+[
+]
+}
+;
+const
 sources
 =
 insertResources
@@ -1308,6 +1322,7 @@ formatCallStackFrames
 frames
 sources
 source1
+blackboxedRanges
 )
 ;
 const
