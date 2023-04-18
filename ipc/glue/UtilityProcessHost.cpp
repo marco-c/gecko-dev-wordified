@@ -1668,13 +1668,10 @@ this
 )
 ;
 }
-else
-{
 DestroyProcess
 (
 )
 ;
-}
 /
 /
 Release
