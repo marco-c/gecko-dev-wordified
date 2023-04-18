@@ -82,7 +82,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 breakpoints
 "
