@@ -111,9 +111,6 @@ DIRS
 =
 [
 "
-mdns
-"
-"
 tests
 "
 ]
