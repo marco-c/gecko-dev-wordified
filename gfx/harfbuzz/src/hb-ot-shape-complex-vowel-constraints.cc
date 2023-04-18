@@ -2435,7 +2435,7 @@ break
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;

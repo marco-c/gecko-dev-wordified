@@ -860,7 +860,7 @@ for
 the
 ductility
 axis
-tha
+that
 *
 still
 yields

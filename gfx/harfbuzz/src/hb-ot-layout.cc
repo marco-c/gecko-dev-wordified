@@ -9656,9 +9656,6 @@ OUT
 /
 )
 {
-hb_set_t
-cur_intersected_glyphs
-;
 hb_map_t
 done_lookups_glyph_count
 ;
@@ -9678,8 +9675,6 @@ c
 (
 face
 glyphs
-&
-cur_intersected_glyphs
 &
 done_lookups_glyph_count
 &
@@ -9827,9 +9822,6 @@ OUT
 /
 )
 {
-hb_set_t
-cur_intersected_glyphs
-;
 hb_map_t
 done_lookups_glyph_count
 ;
@@ -9849,8 +9841,6 @@ c
 (
 face
 glyphs
-&
-cur_intersected_glyphs
 &
 done_lookups_glyph_count
 &
@@ -9888,6 +9878,12 @@ glyphs_length
 ;
 do
 {
+c
+.
+reset_lookup_visit_count
+(
+)
+;
 glyphs_length
 =
 glyphs
@@ -12363,7 +12359,7 @@ inplace
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;

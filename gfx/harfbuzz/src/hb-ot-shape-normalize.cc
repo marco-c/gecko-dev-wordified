@@ -1222,6 +1222,7 @@ hb_unicode_funcs_t
 NOT_SPACE
 &
 &
+(
 c
 -
 >
@@ -1230,9 +1231,20 @@ font
 >
 get_nominal_glyph
 (
-0x0020u
+0x0020
 &
 space_glyph
+)
+|
+|
+(
+space_glyph
+=
+buffer
+-
+>
+invisible
+)
 )
 )
 {
@@ -2458,7 +2470,7 @@ successful
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;
@@ -3315,7 +3327,7 @@ out_len
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;

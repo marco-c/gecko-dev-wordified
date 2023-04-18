@@ -37,7 +37,7 @@ Input
 is
 a
 tab
-seperated
+separated
 list
 of
 unicode

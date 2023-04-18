@@ -437,6 +437,9 @@ layout
 .
 *
 /
+#
+ifndef
+HB_NO_VERTICAL
 HB_OT_TABLE
 (
 OT
@@ -447,6 +450,13 @@ HB_OT_ACCELERATOR
 OT
 vmtx
 )
+HB_OT_TABLE
+(
+OT
+VORG
+)
+#
+endif
 /
 *
 TrueType
@@ -478,11 +488,6 @@ HB_OT_ACCELERATOR
 (
 OT
 cff2
-)
-HB_OT_TABLE
-(
-OT
-VORG
 )
 #
 endif

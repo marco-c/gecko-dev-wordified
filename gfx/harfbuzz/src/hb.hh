@@ -3133,6 +3133,9 @@ HB_USE_ATEXIT
 #
 endif
 #
+ifndef
+hb_atexit
+#
 if
 !
 HB_USE_ATEXIT
@@ -3214,6 +3217,8 @@ _hb_atexit_
 #
 __LINE__
 ;
+#
+endif
 #
 endif
 #

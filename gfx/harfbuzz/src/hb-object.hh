@@ -340,7 +340,7 @@ item
 =
 items
 .
-find
+lsearch
 (
 v
 )
@@ -442,7 +442,7 @@ item
 =
 items
 .
-find
+lsearch
 (
 v
 )
@@ -529,7 +529,7 @@ item
 =
 items
 .
-find
+lsearch
 (
 v
 )

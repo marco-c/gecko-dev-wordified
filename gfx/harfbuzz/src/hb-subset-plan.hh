@@ -422,6 +422,10 @@ hb_set_t
 *
 _glyphset_mathed
 ;
+hb_set_t
+*
+_glyphset_colred
+;
 /
 /
 active

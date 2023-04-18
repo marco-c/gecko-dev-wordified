@@ -642,7 +642,7 @@ next_glyph
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;

@@ -2764,7 +2764,7 @@ true
 *
 TODO
 Specialize
-opeator
+operator
 =
 =
 for

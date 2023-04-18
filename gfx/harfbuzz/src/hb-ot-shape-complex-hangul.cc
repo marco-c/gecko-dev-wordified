@@ -891,7 +891,7 @@ can
 be
 fully
 precomposed
-partically
+partially
 precomposed
 or
 *
@@ -2888,7 +2888,7 @@ next_glyph
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;

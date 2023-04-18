@@ -5359,7 +5359,7 @@ in_place
 buffer
 -
 >
-swap_buffers
+sync
 (
 )
 ;

@@ -2896,6 +2896,10 @@ hb_map_retains_sorting
 glyph_map
 )
 ;
+if
+(
+it
+)
 out
 -
 >
@@ -2909,6 +2913,14 @@ c
 serializer
 it
 )
+;
+else
+out
+-
+>
+extendedShapeCoverage
+=
+0
 ;
 out
 -
@@ -5136,6 +5148,10 @@ this
 )
 ;
 }
+if
+(
+new_vert_coverage
+)
 out
 -
 >
@@ -5154,6 +5170,10 @@ iter
 )
 )
 ;
+if
+(
+new_hori_coverage
+)
 out
 -
 >

@@ -604,7 +604,7 @@ axis
 min_value
 :
 The
-mininum
+minimum
 value
 on
 the
