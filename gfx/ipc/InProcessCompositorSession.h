@@ -222,6 +222,8 @@ IntSize
 aSurfaceSize
 uint32_t
 aNamespace
+uint64_t
+aInnerWindowId
 )
 ;
 CompositorBridgeParent

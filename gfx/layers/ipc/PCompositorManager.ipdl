@@ -341,6 +341,9 @@ useExternalSurfaceSize
 IntSize
 surfaceSize
 ;
+uint64_t
+innerWindowId
+;
 }
 ;
 struct

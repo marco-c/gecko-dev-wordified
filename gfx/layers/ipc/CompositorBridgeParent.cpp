@@ -1986,6 +1986,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint64_t
+aInnerWindowId
 )
 :
 CompositorBridgeParentBase
@@ -2055,6 +2057,10 @@ false
 mForceCompositionTask
 (
 nullptr
+)
+mInnerWindowId
+(
+aInnerWindowId
 )
 mCompositorScheduler
 (

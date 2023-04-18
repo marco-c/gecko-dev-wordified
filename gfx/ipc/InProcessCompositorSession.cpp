@@ -328,6 +328,8 @@ IntSize
 aSurfaceSize
 uint32_t
 aNamespace
+uint64_t
+aInnerWindowId
 )
 {
 widget
@@ -376,6 +378,7 @@ aScale
 aOptions
 aUseExternalSurfaceSize
 aSurfaceSize
+aInnerWindowId
 )
 ;
 MOZ_ASSERT

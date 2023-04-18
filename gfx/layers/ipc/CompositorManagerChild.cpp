@@ -818,6 +818,8 @@ gfx
 IntSize
 &
 aSurfaceSize
+uint64_t
+aInnerWindowId
 )
 {
 MOZ_ASSERT
@@ -890,6 +892,7 @@ vsyncRate
 aOptions
 aUseExternalSurfaceSize
 aSurfaceSize
+aInnerWindowId
 )
 ;
 RefPtr
