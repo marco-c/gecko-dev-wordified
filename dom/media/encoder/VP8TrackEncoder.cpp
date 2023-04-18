@@ -876,7 +876,7 @@ rc_resize_allowed
 /
 /
 Allows
-10
+100
 %
 under
 target
@@ -891,14 +891,12 @@ config
 >
 rc_undershoot_pct
 =
-200
+100
 ;
 /
 /
 Allows
-1
-.
-5
+15
 %
 over
 target
@@ -913,7 +911,7 @@ config
 >
 rc_overshoot_pct
 =
-200
+15
 ;
 /
 /
