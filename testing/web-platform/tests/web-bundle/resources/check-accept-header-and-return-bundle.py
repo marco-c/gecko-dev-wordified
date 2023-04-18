@@ -30,7 +30,7 @@ webbundle
 ;
 v
 =
-b1
+b2
 "
 type
 otherwise
@@ -123,7 +123,7 @@ webbundle
 ;
 v
 =
-b1
+b2
 "
 in
 accept_values
