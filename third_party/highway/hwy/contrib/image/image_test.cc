@@ -413,15 +413,9 @@ values
 Iota
 (
 d
-static_cast
-<
-T
->
-(
 dist
 (
 rng
-)
 )
 )
 ;

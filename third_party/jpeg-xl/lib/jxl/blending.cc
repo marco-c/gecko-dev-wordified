@@ -4574,13 +4574,6 @@ i
 +
 )
 {
-if
-(
-xsize
-!
-=
-0
-)
 memcpy
 (
 out

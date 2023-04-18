@@ -314,9 +314,7 @@ function
 hwy
 :
 :
-GetChosenTarget
-(
-)
+chosen_target
 .
 Update
 (
@@ -371,9 +369,7 @@ function
 hwy
 :
 :
-GetChosenTarget
-(
-)
+chosen_target
 .
 DeInit
 (

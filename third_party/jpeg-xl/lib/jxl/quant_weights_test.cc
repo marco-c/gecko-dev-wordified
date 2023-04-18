@@ -1498,17 +1498,6 @@ encodings
 encoder
 )
 ;
-JXL_CHECK
-(
-dequant_matrices
-.
-EnsureComputed
-(
-~
-0u
-)
-)
-;
 const
 float
 dc_quant

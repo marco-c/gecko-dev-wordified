@@ -2069,16 +2069,6 @@ ColorSpace
 kGray
 ;
 }
-bool
-IsCMYK
-(
-)
-const
-{
-return
-cmyk_
-;
-}
 size_t
 Channels
 (
@@ -2944,7 +2934,7 @@ fails
 /
 Defined
 in
-enc_color_management
+color_management
 .
 cc
 .
@@ -3055,11 +3045,6 @@ color_space_
 Can
 be
 kUnknown
-bool
-cmyk_
-=
-false
-;
 /
 /
 Only

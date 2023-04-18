@@ -908,17 +908,6 @@ GetSpan
 (
 )
 ;
-if
-(
-span
-.
-size
-(
-)
-!
-=
-0
-)
 memcpy
 (
 storage_

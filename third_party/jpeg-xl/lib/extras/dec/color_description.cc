@@ -324,6 +324,12 @@ T
 value
 )
 {
+std
+:
+:
+string
+str
+;
 for
 (
 size_t

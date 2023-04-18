@@ -449,7 +449,9 @@ t
 )
 const
 {
-HWY_ASSERT_EQ
+HWY_ASSERT
+(
+IsEqual
 (
 T
 (
@@ -460,8 +462,11 @@ T
 0
 )
 )
+)
 ;
-HWY_ASSERT_EQ
+HWY_ASSERT
+(
+IsEqual
 (
 T
 (
@@ -472,8 +477,11 @@ T
 1
 )
 )
+)
 ;
-HWY_ASSERT_EQ
+HWY_ASSERT
+(
+IsEqual
 (
 T
 (
@@ -486,8 +494,11 @@ T
 1
 )
 )
+)
 ;
-HWY_ASSERT_EQ
+HWY_ASSERT
+(
+IsEqual
 (
 LimitsMin
 <
@@ -500,6 +511,7 @@ LimitsMin
 T
 >
 (
+)
 )
 )
 ;
