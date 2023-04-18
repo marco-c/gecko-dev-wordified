@@ -6360,7 +6360,7 @@ false
 /
 /
 comma
-seperated
+separated
 list
 of
 of
