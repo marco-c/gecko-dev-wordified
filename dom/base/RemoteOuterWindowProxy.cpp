@@ -934,9 +934,10 @@ accessible
 .
 if
 (
-JSID_IS_STRING
-(
 aId
+.
+isString
+(
 )
 )
 {
@@ -951,9 +952,10 @@ str
 init
 (
 aCx
-JSID_TO_STRING
-(
 aId
+.
+toString
+(
 )
 )
 )

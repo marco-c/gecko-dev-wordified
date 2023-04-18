@@ -19238,9 +19238,10 @@ check
 if
 (
 !
-JSID_IS_STRING
-(
 aId
+.
+isString
+(
 )
 )
 {
@@ -19706,9 +19707,10 @@ DoResolve
 if
 (
 !
-JSID_IS_STRING
-(
 aId
+.
+isString
+(
 )
 )
 {

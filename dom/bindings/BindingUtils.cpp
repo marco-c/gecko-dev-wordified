@@ -9420,9 +9420,10 @@ fun
 ;
 if
 (
-JSID_IS_STRING
-(
 id
+.
+isString
+(
 )
 )
 {

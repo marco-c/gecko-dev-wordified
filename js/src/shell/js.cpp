@@ -34776,12 +34776,13 @@ initDenseElement
 i
 StringValue
 (
-JSID_TO_STRING
-(
 ids
 [
 i
 ]
+.
+toString
+(
 )
 )
 )

@@ -287,9 +287,10 @@ RootedString
 propId
 (
 cx
-JSID_TO_STRING
-(
 aPropId
+.
+toString
+(
 )
 )
 ;

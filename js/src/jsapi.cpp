@@ -13880,9 +13880,10 @@ else
 {
 MOZ_ASSERT
 (
-JSID_IS_STRING
-(
 id
+.
+isString
+(
 )
 &
 &

@@ -570,9 +570,10 @@ obj2
 ;
 CHECK
 (
-JSID_IS_STRING
-(
 id
+.
+isString
+(
 )
 )
 ;
@@ -583,9 +584,10 @@ str
 JS_EnsureLinearString
 (
 cx
-JSID_TO_STRING
-(
 id
+.
+toString
+(
 )
 )
 ;

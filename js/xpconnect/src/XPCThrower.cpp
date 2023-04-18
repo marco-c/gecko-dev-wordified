@@ -1039,9 +1039,10 @@ bytes
 JS_EncodeStringToLatin1
 (
 ccx
-JSID_TO_STRING
-(
 id
+.
+toString
+(
 )
 )
 ;
