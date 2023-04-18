@@ -3708,6 +3708,26 @@ product
 .
 so
 "
+        
+#
+Preserve
+signatures
+when
+present
+.
+        
+"
+{
+product
+}
+/
+*
+*
+/
+*
+.
+sig
+"
     
 }
     
