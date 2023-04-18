@@ -328,10 +328,11 @@ result
 .
 get
 "
-!
-ShouldProcessUpdates
+ShouldNotProcessUpdates
 (
 )
+:
+DevToolsLaunching
 "
 "
 MOZ_TEST_PROCESS_UPDATES
