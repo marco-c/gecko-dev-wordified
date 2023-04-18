@@ -3389,6 +3389,10 @@ mTransportHandler
 =
 nullptr
 ;
+mSharedWebrtcState
+=
+nullptr
+;
 for
 (
 auto
