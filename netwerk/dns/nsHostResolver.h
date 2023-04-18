@@ -749,6 +749,8 @@ const
 nsACString
 &
 trrServer
+int32_t
+aPort
 uint16_t
 type
 const

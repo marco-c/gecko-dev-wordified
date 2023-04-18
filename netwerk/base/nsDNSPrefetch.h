@@ -383,6 +383,13 @@ private
 nsCString
 mHostname
 ;
+int32_t
+mPort
+{
+-
+1
+}
+;
 mozilla
 :
 :

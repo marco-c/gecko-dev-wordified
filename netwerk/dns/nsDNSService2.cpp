@@ -6275,6 +6275,13 @@ URL
 (
 aInfo
 )
+DNSAdditionalInfo
+:
+:
+Port
+(
+aInfo
+)
 type
 req
 -
@@ -7331,6 +7338,8 @@ hostname
 "
 "
 _ns
+-
+1
 RESOLVE_TYPE_DEFAULT
 aOriginAttributes
 flags
