@@ -7672,13 +7672,6 @@ if
 (
 !
 gkWindow
-|
-|
-!
-gkWindow
--
->
-mCompositorBridgeChild
 )
 {
 return
