@@ -192,7 +192,6 @@ h
 "
 ;
 using
-struct
 mozilla
 :
 :
@@ -212,7 +211,6 @@ h
 "
 ;
 using
-struct
 mozilla
 :
 :
@@ -251,7 +249,6 @@ h
 "
 ;
 using
-class
 mozilla
 :
 :
@@ -271,7 +268,6 @@ h
 "
 ;
 using
-class
 mozilla
 :
 :
@@ -326,7 +322,6 @@ h
 "
 ;
 using
-class
 mozilla
 :
 :

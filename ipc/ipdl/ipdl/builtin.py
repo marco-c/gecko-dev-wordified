@@ -411,6 +411,14 @@ h
 "
     
 "
+ipc
+/
+IPCMessageUtilsSpecializations
+.
+h
+"
+    
+"
 nsIFile
 .
 h

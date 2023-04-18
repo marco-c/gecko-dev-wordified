@@ -264,7 +264,7 @@ h
 "
 ;
 using
-class
+struct
 mozilla
 :
 :
@@ -499,7 +499,6 @@ h
 "
 ;
 using
-class
 mozilla
 :
 :
