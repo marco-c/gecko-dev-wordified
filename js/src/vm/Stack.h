@@ -4319,16 +4319,8 @@ isArrow
 )
 {
 return
-callee
+NullValue
 (
-)
-.
-getExtendedSlot
-(
-FunctionExtended
-:
-:
-ARROW_NEWTARGET_SLOT
 )
 ;
 }
