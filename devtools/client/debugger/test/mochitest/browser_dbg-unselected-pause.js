@@ -88,7 +88,7 @@ strict
 const
 IFRAME_TEST_COM_URI
 =
-http
+https
 :
 /
 /
@@ -151,7 +151,7 @@ iframe
 const
 IFRAME_TEST_URI
 =
-http
+https
 :
 /
 /
