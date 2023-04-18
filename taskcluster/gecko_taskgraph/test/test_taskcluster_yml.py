@@ -74,7 +74,7 @@ yaml
 import
 load_yaml
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
