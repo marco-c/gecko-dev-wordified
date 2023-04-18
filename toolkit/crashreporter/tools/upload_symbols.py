@@ -202,12 +202,6 @@ import
 shutil
 import
 sys
-from
-mozbuild
-.
-base
-import
-MozbuildObject
 log
 =
 logging
@@ -477,20 +471,6 @@ main
 )
 :
     
-config
-=
-MozbuildObject
-.
-from_environment
-(
-)
-    
-config
-.
-activate_virtualenv
-(
-)
-    
 logging
 .
 basicConfig
@@ -725,12 +705,6 @@ tarfile
         
 import
 tempfile
-        
-config
-.
-_ensure_zstd
-(
-)
         
 import
 zstandard
