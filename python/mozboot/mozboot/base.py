@@ -1061,12 +1061,17 @@ self
 state_dir
 =
 None
+        
+self
+.
+srcdir
+=
+None
     
 def
 validate_environment
 (
 self
-srcdir
 )
 :
         
@@ -1339,8 +1344,6 @@ def
 ensure_browser_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1391,8 +1394,6 @@ def
 ensure_js_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1437,8 +1438,6 @@ def
 ensure_browser_artifact_mode_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1804,8 +1803,6 @@ def
 ensure_mobile_android_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1870,8 +1867,6 @@ def
 ensure_mobile_android_artifact_mode_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -1908,8 +1903,6 @@ self
 .
 ensure_mobile_android_packages
 (
-state_dir
-checkout_root
 )
     
 def
@@ -2151,8 +2144,6 @@ def
 ensure_clang_static_analysis_package
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -2196,8 +2187,6 @@ def
 ensure_stylo_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -2243,8 +2232,6 @@ def
 ensure_nasm_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -2284,8 +2271,6 @@ def
 ensure_sccache_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -2307,8 +2292,6 @@ def
 ensure_node_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -2352,8 +2335,6 @@ def
 ensure_fix_stacks_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -2377,8 +2358,6 @@ def
 ensure_minidump_stackwalk_packages
 (
 self
-state_dir
-checkout_root
 )
 :
         
@@ -2399,12 +2378,8 @@ pass
 def
 install_toolchain_static_analysis
 (
-        
 self
-state_dir
-checkout_root
 toolchain_job
-    
 )
 :
         
@@ -2416,6 +2391,8 @@ path
 .
 join
 (
+self
+.
 state_dir
 "
 clang
@@ -2445,20 +2422,40 @@ clang_tools_path
         
 self
 .
-install_toolchain_artifact
+install_toolchain_artifact_impl
 (
 clang_tools_path
-checkout_root
 toolchain_job
 )
     
 def
 install_toolchain_artifact
 (
+self
+toolchain_job
+no_unpack
+=
+False
+)
+:
         
 self
+.
+install_toolchain_artifact_impl
+(
+self
+.
 state_dir
-checkout_root
+toolchain_job
+no_unpack
+)
+    
+def
+install_toolchain_artifact_impl
+(
+        
+self
+install_dir
 toolchain_job
 no_unpack
 =
@@ -2475,7 +2472,9 @@ path
 .
 join
 (
-checkout_root
+self
+.
+srcdir
 "
 mach
 "
@@ -2518,33 +2517,6 @@ s
 %
 mach_binary
 )
-        
-#
-NOTE
-:
-Use
-self
-.
-state_dir
-over
-the
-passed
--
-in
-state_dir
-which
-might
-be
-        
-#
-a
-subdirectory
-of
-the
-actual
-state
-directory
-.
         
 if
 not
@@ -2672,7 +2644,7 @@ check_call
 cmd
 cwd
 =
-state_dir
+install_dir
 )
     
 def
