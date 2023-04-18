@@ -1131,7 +1131,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsLoading
+IsFetching
 (
 )
 )
