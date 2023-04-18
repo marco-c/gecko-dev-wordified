@@ -465,8 +465,9 @@ Method
 *
 Trigger
 GPU
-or
 RDD
+or
+Socket
 process
 test
 instrumentation
@@ -481,7 +482,7 @@ of
 the
 PROCESS_TYPE_
 *
-constant
+constants
 from
 nsIXULRuntime
 .
@@ -504,7 +505,7 @@ it
 to
 *
 the
-RDD
+target
 process
 .
 *
