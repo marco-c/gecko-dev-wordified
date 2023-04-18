@@ -925,7 +925,9 @@ WEBRTC_WIN
 return
 SetThreadPriority
 (
-thread_
+GetCurrentThread
+(
+)
 priority
 )
 !
@@ -1192,7 +1194,9 @@ break
 return
 pthread_setschedparam
 (
-thread_
+pthread_self
+(
+)
 policy
 &
 param
