@@ -4631,6 +4631,14 @@ xdrWriter
 )
 ;
 bool
+initSelfHostingAtomsFromStencil
+(
+JSContext
+*
+cx
+)
+;
+bool
 initSelfHostingFromStencil
 (
 JSContext
