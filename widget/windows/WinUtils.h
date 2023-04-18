@@ -4116,6 +4116,15 @@ nsAString
 aName
 )
 ;
+static
+void
+EnableWindowOcclusion
+(
+const
+bool
+aEnable
+)
+;
 private
 :
 static

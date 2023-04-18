@@ -2272,6 +2272,13 @@ aState
 )
 override
 ;
+void
+MaybeEnableWindowOcclusion
+(
+bool
+aEnable
+)
+;
 protected
 :
 virtual
