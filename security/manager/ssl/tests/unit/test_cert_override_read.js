@@ -1372,11 +1372,9 @@ attributes
 host
 :
 "
-[
 :
 :
 1
-]
 "
 port
 :
