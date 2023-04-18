@@ -105,7 +105,7 @@ the
 system
 fonts
 .
-let
+const
 fonts
 =
 await
