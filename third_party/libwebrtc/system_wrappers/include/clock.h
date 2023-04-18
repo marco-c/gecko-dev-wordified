@@ -399,7 +399,7 @@ implementation
 static
 Clock
 *
-GetRealTimeClock
+GetRealTimeClockRaw
 (
 )
 ;

@@ -1439,7 +1439,7 @@ Clock
 Clock
 :
 :
-GetRealTimeClock
+GetRealTimeClockRaw
 (
 )
 {
