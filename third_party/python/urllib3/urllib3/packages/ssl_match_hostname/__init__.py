@@ -86,17 +86,8 @@ backports
 .
 ssl_match_hostname
 import
-(
-#
-type
-:
-ignore
-            
 CertificateError
-            
 match_hostname
-        
-)
     
 except
 ImportError
@@ -113,10 +104,6 @@ _implementation
 import
 CertificateError
 match_hostname
-#
-type
-:
-ignore
 #
 Not
 needed

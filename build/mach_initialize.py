@@ -3426,27 +3426,6 @@ mach_commands
 py
 "
 )
-        
-"
-test
--
-interventions
-"
-:
-MachCommandReference
-(
-            
-"
-testing
-/
-webcompat
-/
-mach_commands
-.
-py
-"
-        
-)
     
 }
     
