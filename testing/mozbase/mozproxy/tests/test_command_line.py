@@ -23,19 +23,18 @@ signal
 import
 subprocess
 import
+sys
+import
 threading
 import
 time
+from
+buildconfig
+import
+topsrcdir
+topobjdir
 import
 mozunit
-import
-pytest
-from
-mozbuild
-.
-base
-import
-MozbuildObject
 from
 mozprocess
 import
@@ -475,102 +474,9 @@ port_event
 set
 (
 )
-pytest
-.
-fixture
-(
-scope
-=
-"
-module
-"
-)
-def
-install_mozproxy
-(
-)
-:
-    
-build
-=
-MozbuildObject
-.
-from_environment
-(
-cwd
-=
-here
-)
-    
-build
-.
-virtualenv_manager
-.
-activate
-(
-)
-    
-mozbase
-=
-os
-.
-path
-.
-join
-(
-build
-.
-topsrcdir
-"
-testing
-"
-"
-mozbase
-"
-)
-    
-mozproxy_deps
-=
-[
-"
-mozinfo
-"
-"
-mozlog
-"
-"
-mozproxy
-"
-]
-    
-for
-i
-in
-mozproxy_deps
-:
-        
-_install_package
-(
-build
-.
-virtualenv_manager
-os
-.
-path
-.
-join
-(
-mozbase
-i
-)
-)
-    
-return
-build
 def
 test_help
 (
-install_mozproxy
 )
 :
     
@@ -579,6 +485,13 @@ p
 ProcessHandler
 (
 [
+sys
+.
+executable
+"
+-
+m
+"
 "
 mozproxy
 "
@@ -608,13 +521,8 @@ wait
 def
 test_run_record_no_files
 (
-install_mozproxy
 )
 :
-    
-build
-=
-install_mozproxy
     
 output_handler
 =
@@ -628,6 +536,15 @@ ProcessHandler
 (
         
 [
+            
+sys
+.
+executable
+            
+"
+-
+m
+"
             
 "
 mozproxy
@@ -662,8 +579,6 @@ topsrcdir
 =
 "
 +
-build
-.
 topsrcdir
             
 "
@@ -673,8 +588,6 @@ objdir
 =
 "
 +
-build
-.
 topobjdir
         
 ]
@@ -800,13 +713,8 @@ None
 def
 test_run_record_multiple_files
 (
-install_mozproxy
 )
 :
-    
-build
-=
-install_mozproxy
     
 output_handler
 =
@@ -820,6 +728,15 @@ ProcessHandler
 (
         
 [
+            
+sys
+.
+executable
+            
+"
+-
+m
+"
             
 "
 mozproxy
@@ -854,8 +771,6 @@ topsrcdir
 =
 "
 +
-build
-.
 topsrcdir
             
 "
@@ -865,8 +780,6 @@ objdir
 =
 "
 +
-build
-.
 topobjdir
             
 os
@@ -1020,13 +933,8 @@ None
 def
 test_run_record
 (
-install_mozproxy
 )
 :
-    
-build
-=
-install_mozproxy
     
 output_handler
 =
@@ -1040,6 +948,15 @@ ProcessHandler
 (
         
 [
+            
+sys
+.
+executable
+            
+"
+-
+m
+"
             
 "
 mozproxy
@@ -1074,8 +991,6 @@ topsrcdir
 =
 "
 +
-build
-.
 topsrcdir
             
 "
@@ -1085,8 +1000,6 @@ objdir
 =
 "
 +
-build
-.
 topobjdir
             
 os
@@ -1252,13 +1165,8 @@ zip
 def
 test_run_playback
 (
-install_mozproxy
 )
 :
-    
-build
-=
-install_mozproxy
     
 output_handler
 =
@@ -1272,6 +1180,15 @@ ProcessHandler
 (
         
 [
+            
+sys
+.
+executable
+            
+"
+-
+m
+"
             
 "
 mozproxy
@@ -1298,8 +1215,6 @@ topsrcdir
 =
 "
 +
-build
-.
 topsrcdir
             
 "
@@ -1309,8 +1224,6 @@ objdir
 =
 "
 +
-build
-.
 topobjdir
             
 os
@@ -1454,7 +1367,6 @@ None
 def
 test_failure
 (
-install_mozproxy
 )
 :
     
@@ -1470,6 +1382,15 @@ ProcessHandler
 (
         
 [
+            
+sys
+.
+executable
+            
+"
+-
+m
+"
             
 "
 mozproxy
