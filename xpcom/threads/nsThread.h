@@ -1881,6 +1881,12 @@ ThreadList
 (
 )
 ;
+static
+void
+ClearThreadList
+(
+)
+;
 void
 AddToThreadList
 (
@@ -2113,6 +2119,11 @@ JSRuntime
 .
 bool
 mCanInvokeJS
+;
+bool
+mHasTLSEntry
+=
+false
 ;
 /
 /
