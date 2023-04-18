@@ -525,6 +525,11 @@ CancelImports
 (
 )
 ;
+void
+CheckModuleDependenciesLoaded
+(
+)
+;
 public
 :
 /
