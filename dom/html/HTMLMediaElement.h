@@ -4164,6 +4164,12 @@ InaudiblePlayTime
 )
 const
 ;
+double
+MutedPlayTime
+(
+)
+const
+;
 /
 /
 Test
