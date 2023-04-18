@@ -1403,6 +1403,9 @@ mCookiePermissions
 bool
 mIsOnContentBlockingAllowList
 ;
+bool
+mIsOnContentBlockingAllowListUpdated
+;
 nsString
 mPartitionKey
 ;
