@@ -469,7 +469,7 @@ Next
 (
 )
 {
-LocalAccessible
+Accessible
 *
 target
 =
@@ -518,6 +518,15 @@ nullptr
 ;
 return
 target
+?
+target
+-
+>
+AsLocal
+(
+)
+:
+nullptr
 ;
 }
 private
