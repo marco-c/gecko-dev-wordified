@@ -638,8 +638,6 @@ webrtcUI
 .
 jsm
 "
-{
-}
 )
 .
 webrtcUI

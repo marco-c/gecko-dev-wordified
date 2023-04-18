@@ -1647,8 +1647,6 @@ FluentSyntax
 .
 jsm
 "
-{
-}
 )
 ;
 class

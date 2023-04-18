@@ -1726,7 +1726,9 @@ return
 ;
 }
 let
+{
 ProfileAge
+}
 =
 ChromeUtils
 .
@@ -1745,11 +1747,7 @@ ProfileAge
 .
 jsm
 "
-{
-}
 )
-.
-ProfileAge
 ;
 let
 profileAge

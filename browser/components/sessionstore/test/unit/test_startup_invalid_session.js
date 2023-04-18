@@ -60,8 +60,6 @@ SessionFile
 .
 jsm
 "
-{
-}
 )
 .
 SessionFile

@@ -313,8 +313,6 @@ FxAccountsCommon
 .
 js
 "
-{
-}
 )
 ;
 }
@@ -340,8 +338,6 @@ Log
 .
 jsm
 "
-{
-}
 )
 .
 Log

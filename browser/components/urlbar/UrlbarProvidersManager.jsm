@@ -793,8 +793,6 @@ ChromeUtils
 import
 (
 module
-{
-}
 )
 ;
 this
@@ -918,8 +916,6 @@ ChromeUtils
 import
 (
 module
-{
-}
 )
 ;
 this

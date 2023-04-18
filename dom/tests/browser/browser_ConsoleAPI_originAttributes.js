@@ -78,8 +78,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 )
 ;
