@@ -4350,6 +4350,10 @@ const
 object_t
 *
 objidx_t
+const
+object_t
+*
+objidx_t
 nullptr
 0
 >
