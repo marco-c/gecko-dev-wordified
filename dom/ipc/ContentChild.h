@@ -729,8 +729,6 @@ ipc
 StructuredCloneData
 &
 aInitialData
-bool
-aIsReadyForBackgroundProcessing
 )
 ;
 void
@@ -3206,17 +3204,6 @@ GetUntrustedModulesDataResolver
 aResolver
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvUnblockUntrustedModulesThread
-(
-)
-;
 #
 endif
 /
@@ -3274,10 +3261,6 @@ SharedMemoryHandle
 &
 &
 aSharedFontListBlocks
-const
-bool
-&
-aIsReadyForBackgroundProcessing
 )
 ;
 mozilla
