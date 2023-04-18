@@ -174,7 +174,7 @@ AccIterable
 {
 }
 virtual
-Accessible
+LocalAccessible
 *
 Next
 (

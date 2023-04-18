@@ -454,13 +454,6 @@ int32_t
 aEndOffset
 )
 ;
-virtual
-bool
-TableIsProbablyForLayout
-(
-)
-override
-;
 protected
 :
 explicit
