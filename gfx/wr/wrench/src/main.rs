@@ -6875,7 +6875,6 @@ hit_test
 wrench
 .
 document_id
-None
 cursor_position
 )
 ;
