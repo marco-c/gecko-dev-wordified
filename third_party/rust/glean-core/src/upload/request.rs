@@ -351,7 +351,7 @@ to_string
 )
 }
 fn
-create_user_agent_header_value
+create_x_telemetry_agent_header_value
 (
 version
 :
@@ -615,7 +615,9 @@ headers
 insert
 (
 "
-User
+X
+-
+Telemetry
 -
 Agent
 "
@@ -623,7 +625,7 @@ Agent
 to_string
 (
 )
-create_user_agent_header_value
+create_x_telemetry_agent_header_value
 (
 crate
 :
@@ -1590,7 +1592,9 @@ used
 to
 build
 the
-User
+X
+-
+Telemetry
 -
 Agent
 header
@@ -1998,14 +2002,14 @@ test_value
 test
 ]
 fn
-user_agent_header_resolution
+x_telemetry_agent_header_resolution
 (
 )
 {
 let
 test_value
 =
-create_user_agent_header_value
+create_x_telemetry_agent_header_value
 (
 "
 0
@@ -2175,7 +2179,9 @@ headers
 contains_key
 (
 "
-User
+X
+-
+Telemetry
 -
 Agent
 "
