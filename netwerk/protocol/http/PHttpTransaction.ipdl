@@ -341,6 +341,13 @@ nsCString
 requestString
 )
 ;
+async
+EarlyHint
+(
+nsCString
+value
+)
+;
 child
 :
 async
