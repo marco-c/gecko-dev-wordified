@@ -1167,7 +1167,7 @@ variable
 .
 pub
 fn
-tls_offset
+instance_offset
 (
 self
 )
@@ -1180,7 +1180,7 @@ unsafe
 low_level
 :
 :
-global_tlsOffset
+global_instanceOffset
 (
 self
 .
@@ -1262,7 +1262,7 @@ table
 .
 pub
 fn
-tls_offset
+instance_offset
 (
 self
 )
@@ -1275,7 +1275,7 @@ unsafe
 low_level
 :
 :
-table_tlsOffset
+table_instanceOffset
 (
 self
 .
@@ -1742,7 +1742,7 @@ pub
 crate
 )
 fn
-id_tls_offset
+id_instance_offset
 (
 &
 self
@@ -1756,7 +1756,7 @@ unsafe
 low_level
 :
 :
-funcType_idTlsOffset
+funcType_idInstanceOffset
 (
 self
 .
@@ -2520,7 +2520,7 @@ index
 }
 pub
 fn
-func_import_tls_offset
+func_import_instance_offset
 (
 &
 self
@@ -2537,7 +2537,7 @@ unsafe
 low_level
 :
 :
-env_func_import_tls_offset
+env_func_import_instance_offset
 (
 self
 .
