@@ -3372,6 +3372,8 @@ value
 JSFunction
 *
 fun
+=
+nullptr
 ;
 if
 (
