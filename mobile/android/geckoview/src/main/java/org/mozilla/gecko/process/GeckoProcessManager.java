@@ -1733,7 +1733,7 @@ setPriorityLevel
 (
 PriorityLevel
 .
-BACKGROUND
+IDLE
 )
 ;
 }
