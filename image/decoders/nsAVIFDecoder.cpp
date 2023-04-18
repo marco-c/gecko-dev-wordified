@@ -4202,6 +4202,12 @@ all_layers
 =
 0
 ;
+settings
+.
+max_frame_delay
+=
+1
+;
 /
 /
 TODO

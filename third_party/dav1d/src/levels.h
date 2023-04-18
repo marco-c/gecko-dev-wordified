@@ -265,6 +265,15 @@ headers
 .
 h
 "
+#
+include
+"
+common
+/
+attributes
+.
+h
+"
 enum
 ObuMetaType
 {
