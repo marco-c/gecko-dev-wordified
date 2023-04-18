@@ -839,7 +839,7 @@ ConfigureSendMediaCodec
 (
 const
 VideoCodecConfig
-*
+&
 codecInfo
 const
 RtpRtcpConfig
@@ -939,10 +939,7 @@ std
 :
 vector
 <
-UniquePtr
-<
 VideoCodecConfig
->
 >
 &
 codecConfigList
@@ -2384,12 +2381,12 @@ Call
 thread
 only
 .
-nsTArray
-<
-UniquePtr
+std
+:
+:
+vector
 <
 VideoCodecConfig
->
 >
 mRecvCodecList
 ;
@@ -2415,7 +2412,7 @@ the
 Call
 thread
 .
-UniquePtr
+Maybe
 <
 VideoCodecConfig
 >

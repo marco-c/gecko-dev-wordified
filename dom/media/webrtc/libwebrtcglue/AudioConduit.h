@@ -429,7 +429,7 @@ ConfigureSendMediaCodec
 (
 const
 AudioCodecConfig
-*
+&
 codecConfig
 )
 override
@@ -526,10 +526,7 @@ std
 :
 vector
 <
-UniquePtr
-<
 AudioCodecConfig
->
 >
 &
 codecConfigList
@@ -1192,7 +1189,7 @@ CodecConfigToWebRTCCodec
 (
 const
 AudioCodecConfig
-*
+&
 codecInfo
 webrtc
 :
@@ -1240,7 +1237,7 @@ ValidateCodecConfig
 (
 const
 AudioCodecConfig
-*
+&
 codecInfo
 bool
 send

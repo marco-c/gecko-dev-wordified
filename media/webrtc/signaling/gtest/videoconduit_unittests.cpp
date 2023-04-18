@@ -553,13 +553,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -567,7 +564,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 120
@@ -849,40 +845,6 @@ kMediaConduitMalformedArgument
 ;
 /
 /
-null
-codec
-codecs
-.
-clear
-(
-)
-;
-codecs
-.
-push_back
-(
-nullptr
-)
-;
-ec
-=
-mVideoConduit
--
->
-ConfigureRecvMediaCodecs
-(
-codecs
-rtpConf
-)
-;
-ASSERT_EQ
-(
-ec
-kMediaConduitMalformedArgument
-)
-;
-/
-/
 empty
 codec
 name
@@ -896,7 +858,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 120
@@ -941,13 +902,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -963,14 +921,8 @@ RtcpMode
 kCompound
 )
 ;
-UniquePtr
-<
 VideoCodecConfig
->
 codecConfig
-(
-new
-VideoCodecConfig
 (
 120
 "
@@ -978,11 +930,9 @@ VP8
 "
 constraints
 )
-)
 ;
 codecConfig
--
->
+.
 mFECFbSet
 =
 true
@@ -1004,7 +954,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 1
@@ -1019,7 +968,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 2
@@ -1300,13 +1248,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -1314,7 +1259,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 120
@@ -1345,7 +1289,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 120
@@ -1616,13 +1559,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -1682,7 +1622,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfig
@@ -1766,7 +1705,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfig
@@ -1846,13 +1784,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -1892,7 +1827,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfig
@@ -2159,13 +2093,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -2201,7 +2132,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfig
@@ -2468,13 +2398,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -2515,7 +2442,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfig
@@ -2824,7 +2750,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -2992,27 +2917,6 @@ StopTransmitting
 ;
 /
 /
-null
-codec
-ec
-=
-mVideoConduit
--
->
-ConfigureSendMediaCodec
-(
-nullptr
-rtpConf
-)
-;
-ASSERT_EQ
-(
-ec
-kMediaConduitMalformedArgument
-)
-;
-/
-/
 empty
 codec
 name
@@ -3032,7 +2936,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigBadName
 rtpConf
 )
@@ -3106,7 +3009,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -3212,7 +3114,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig2
 rtpConf
 )
@@ -3334,7 +3235,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -3447,7 +3347,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig2
 rtpConf
 )
@@ -3582,7 +3481,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -3814,7 +3712,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigTias
 rtpConf
 )
@@ -3941,7 +3838,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigTiasLow
 rtpConf
 )
@@ -4106,7 +4002,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -4303,7 +4198,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -4530,7 +4424,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -4664,7 +4557,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -4815,7 +4707,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -4963,7 +4854,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -5103,7 +4993,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -5162,7 +5051,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -5261,7 +5149,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -5369,7 +5256,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -5562,7 +5448,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -5688,7 +5573,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -5811,7 +5695,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -5940,7 +5823,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -6209,7 +6091,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -6339,7 +6220,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -6576,7 +6456,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -6803,7 +6682,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -7028,7 +6906,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -7465,7 +7342,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -7735,7 +7611,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -7819,13 +7694,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -7848,7 +7720,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 120
@@ -8130,7 +8001,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfigFecFb
@@ -8151,7 +8021,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfigFEC
@@ -8172,7 +8041,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfigRED
@@ -8432,7 +8300,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 120
@@ -8718,7 +8585,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfigNack
@@ -8996,7 +8862,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfigRemb
@@ -9279,7 +9144,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfigTmmbr
@@ -9597,7 +9461,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -9618,7 +9481,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -9847,7 +9709,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigFEC
 rtpConf
 )
@@ -9958,7 +9819,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigH264
 rtpConf
 )
@@ -10050,7 +9910,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigTias
 rtpConf
 )
@@ -10175,7 +10034,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigMaxBr
 rtpConf
 )
@@ -10308,7 +10166,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigMaxFs
 rtpConf
 )
@@ -10598,7 +10455,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -10619,7 +10475,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -10834,7 +10689,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigTias
 rtpConf
 )
@@ -10945,7 +10799,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigMaxBr
 rtpConf
 )
@@ -11064,7 +10917,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigMaxFs
 rtpConf
 )
@@ -11318,7 +11170,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigScaleDownBy
 rtpConf
 )
@@ -11406,7 +11257,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigScaleDownBy
 rtpConf
 )
@@ -11548,7 +11398,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -11858,7 +11707,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -12387,7 +12235,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -12687,7 +12534,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -12839,7 +12685,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigVP9
 rtpConf
 )
@@ -13001,7 +12846,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -13155,7 +12999,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfigVP9
 rtpConf
 )
@@ -13317,7 +13160,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -13461,7 +13303,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -13560,7 +13401,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -13745,7 +13585,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -14063,7 +13902,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -14369,7 +14207,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
@@ -14575,13 +14412,10 @@ std
 :
 vector
 <
-UniquePtr
-<
 mozilla
 :
 :
 VideoCodecConfig
->
 >
 codecs
 ;
@@ -14626,7 +14460,6 @@ codecs
 .
 emplace_back
 (
-new
 VideoCodecConfig
 (
 codecConfig
@@ -14657,7 +14490,6 @@ mVideoConduit
 >
 ConfigureSendMediaCodec
 (
-&
 codecConfig
 rtpConf
 )
