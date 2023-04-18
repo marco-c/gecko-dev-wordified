@@ -370,6 +370,13 @@ aNotify
 )
 override
 ;
+EventStates
+IntrinsicState
+(
+)
+const
+override
+;
 /
 /
 nsGenericHTMLFormElement
