@@ -112,11 +112,6 @@ bookmarks
 backups
 *
 /
-const
-NUMBER_OF_BACKUPS
-=
-10
-;
 /
 *
 *
