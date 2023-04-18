@@ -56,7 +56,7 @@ MPL
 import
 attr
 from
-.
+taskgraph
 .
 config
 import
