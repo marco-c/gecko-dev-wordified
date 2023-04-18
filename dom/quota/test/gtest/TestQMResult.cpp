@@ -482,6 +482,9 @@ auto
 okOrErr
 =
 ToResult
+<
+QMResult
+>
 (
 res
 )
@@ -581,6 +584,9 @@ auto
 okOrErr
 =
 ToResult
+<
+QMResult
+>
 (
 std
 :
@@ -774,6 +780,9 @@ OkOrErr
 okOrErr1
 =
 ToResult
+<
+QMResult
+>
 (
 ToQMResult
 (
