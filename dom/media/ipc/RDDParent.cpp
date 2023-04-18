@@ -339,6 +339,15 @@ ProcessChild
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPrefs_media
+.
+h
+"
+#
 if
 defined
 (
