@@ -908,15 +908,6 @@ libevent
 -
 with
 -
-system
--
-png
-"
-"
--
--
-with
--
 user
 -
 appdir
