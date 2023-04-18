@@ -48084,7 +48084,7 @@ if
 (
 aContext
 .
-IsNull
+IsNullOrDiscarded
 (
 )
 )
@@ -48101,12 +48101,7 @@ entry
 =
 aContext
 .
-GetMaybeDiscarded
-(
-)
--
->
-Canonical
+get_canonical
 (
 )
 -
