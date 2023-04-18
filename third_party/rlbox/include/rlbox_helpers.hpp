@@ -126,6 +126,16 @@ msg
 ;
 #
 else
+#
+ifdef
+RLBOX_CUSTOM_ABORT
+RLBOX_CUSTOM_ABORT
+(
+msg
+)
+;
+#
+else
 std
 :
 :
@@ -147,6 +157,8 @@ abort
 (
 )
 ;
+#
+endif
 #
 endif
 }
