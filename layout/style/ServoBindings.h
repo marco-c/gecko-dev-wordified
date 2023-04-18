@@ -534,10 +534,6 @@ BASIC_RULE_FUNCS
 (
 ScrollTimeline
 )
-GROUP_RULE_FUNCS
-(
-Container
-)
 #
 undef
 GROUP_RULE_FUNCS

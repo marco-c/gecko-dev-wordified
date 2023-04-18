@@ -403,11 +403,6 @@ RawServoMozDocumentRule
 )
 SERVO_ARC_TYPE
 (
-ContainerRule
-RawServoContainerRule
-)
-SERVO_ARC_TYPE
-(
 FontFeatureValuesRule
 RawServoFontFeatureValuesRule
 )

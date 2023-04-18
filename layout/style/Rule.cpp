@@ -816,15 +816,6 @@ StyleCssRuleType
 :
 :
 LayerBlock
-|
-|
-type
-=
-=
-StyleCssRuleType
-:
-:
-Container
 )
 ;
 }
