@@ -2091,14 +2091,18 @@ verify_run_using
 )
         
 yield
-verifications
+self
+.
+verify_graph
 (
+            
 "
 full_task_set
 "
 full_task_set
 graph_config
 parameters
+        
 )
         
 logger
@@ -2205,7 +2209,9 @@ edges
 )
         
 yield
-verifications
+self
+.
+verify_graph
 (
             
 "
@@ -2351,7 +2357,9 @@ target_tasks
 )
         
 yield
-verifications
+self
+.
+verify_graph
 (
             
 "
@@ -2573,7 +2581,9 @@ target_graph
 )
         
 yield
-verifications
+self
+.
+verify_graph
 (
             
 "
@@ -2726,7 +2736,9 @@ strategies
 )
         
 yield
-verifications
+self
+.
+verify_graph
 (
             
 "
@@ -2765,7 +2777,9 @@ label_to_taskid
 label_to_taskid
         
 yield
-verifications
+self
+.
+verify_graph
 (
             
 "
@@ -2842,6 +2856,29 @@ _run_results
 [
 name
 ]
+    
+def
+verify_graph
+(
+self
+name
+graph
+graph_config
+parameters
+)
+:
+        
+verifications
+(
+name
+graph
+graph_config
+parameters
+)
+        
+return
+name
+graph
     
 def
 verify_parameters
