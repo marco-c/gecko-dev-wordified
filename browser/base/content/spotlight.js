@@ -1003,17 +1003,6 @@ TELEMETRY_EVENT
 ;
 window
 .
-AWSendToDeviceEmailsSupported
-=
-receive
-(
-"
-SEND_TO_DEVICE_EMAILS_SUPPORTED
-"
-)
-;
-window
-.
 AWSendToParent
 =
 (
