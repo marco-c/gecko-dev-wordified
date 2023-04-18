@@ -5305,10 +5305,7 @@ RefPtr
 mozilla
 :
 :
-gfx
-:
-:
-VsyncSource
+WaylandVsyncSource
 >
 mWaylandVsyncSource
 ;

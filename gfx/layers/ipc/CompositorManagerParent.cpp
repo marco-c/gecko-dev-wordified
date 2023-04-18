@@ -893,10 +893,6 @@ GetHardwareVsync
 )
 -
 >
-GetGlobalDisplay
-(
-)
-.
 GetVsyncRate
 (
 )
