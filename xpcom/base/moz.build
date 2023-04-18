@@ -673,6 +673,11 @@ OwningNonNull
 h
 "
 "
+RLBoxSandboxPool
+.
+h
+"
+"
 ShutdownPhase
 .
 h
@@ -1014,6 +1019,11 @@ cpp
 "
 "
 nsWeakReference
+.
+cpp
+"
+"
+RLBoxSandboxPool
 .
 cpp
 "

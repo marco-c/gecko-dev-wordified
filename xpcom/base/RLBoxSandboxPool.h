@@ -620,7 +620,6 @@ RLBoxSandboxPoolData
 )
 ;
 }
-const
 RLBoxSandboxDataBase
 *
 SandboxData
