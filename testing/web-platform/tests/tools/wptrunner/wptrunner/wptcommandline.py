@@ -191,22 +191,11 @@ is
 None
 :
         
-config_data
-=
-config
-.
-load
-(
-)
-        
 product_choices
 =
 products
 .
-products_enabled
-(
-config_data
-)
+product_list
     
 parser
 =
@@ -7472,22 +7461,11 @@ is
 None
 :
         
-config_data
-=
-config
-.
-load
-(
-)
-        
 product_choices
 =
 products
 .
-products_enabled
-(
-config_data
-)
+product_list
     
 parser
 =
