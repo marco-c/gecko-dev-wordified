@@ -67315,7 +67315,7 @@ aFrame
 aFrame
 -
 >
-GetRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 rootFrame
