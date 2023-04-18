@@ -40609,17 +40609,7 @@ mDocumentContainer
 .
 if
 (
-nsCOMPtr
-<
-nsIRefreshURI
->
-refresher
-=
 mDocumentContainer
-.
-get
-(
-)
 )
 {
 /
@@ -40688,7 +40678,7 @@ assert
 equality
 here
 .
-refresher
+mDocumentContainer
 -
 >
 SetupRefreshURIFromHeader
