@@ -901,6 +901,11 @@ CrashReporterHost
 cpp
 "
 "
+Endpoint
+.
+cpp
+"
+"
 FileDescriptor
 .
 cpp
