@@ -488,7 +488,7 @@ n
 )
 ;
 }
-bool
+void
 HitTestInfoManager
 :
 :
@@ -650,7 +650,6 @@ HasHitTestInfo
 )
 {
 return
-false
 ;
 }
 const
@@ -709,7 +708,6 @@ IsEmpty
 )
 {
 return
-false
 ;
 }
 const
@@ -763,7 +761,6 @@ still
 valid
 .
 return
-false
 ;
 }
 HITTEST_INFO_LOG
@@ -821,9 +818,6 @@ area
 flags
 viewId
 )
-;
-return
-true
 ;
 }
 /
