@@ -938,7 +938,7 @@ artifacts
 blobber_upload_dir
 "
         
-fetches_dir
+work_dir
 =
 os
 .
@@ -950,11 +950,14 @@ get
 MOZ_FETCHES_DIR
 "
 )
+or
+abs_dirs
+[
+"
+abs_work_dir
+"
+]
         
-if
-fetches_dir
-:
-            
 dirs
 [
 "
@@ -968,7 +971,7 @@ path
 .
 join
 (
-fetches_dir
+work_dir
 "
 android
 -
@@ -977,7 +980,7 @@ sdk
 linux
 "
 )
-            
+        
 dirs
 [
 "
@@ -991,7 +994,7 @@ path
 .
 join
 (
-fetches_dir
+work_dir
 "
 android
 -
@@ -999,13 +1002,10 @@ device
 "
 )
         
-else
-:
-            
 dirs
 [
 "
-abs_sdk_dir
+abs_bundletool_path
 "
 ]
 =
@@ -1015,49 +1015,12 @@ path
 .
 join
 (
-                
-abs_dirs
-[
+work_dir
 "
-abs_work_dir
-"
-]
-"
-android
--
-sdk
--
-linux
-"
-            
-)
-            
-dirs
-[
-"
-abs_avds_dir
-"
-]
-=
-os
+bundletool
 .
-path
-.
-join
-(
-                
-abs_dirs
-[
+jar
 "
-abs_work_dir
-"
-]
-"
-android
--
-device
-"
-            
 )
         
 for
@@ -1367,7 +1330,7 @@ path
         
 self
 .
-install_apk
+install_android_app
 (
 self
 .

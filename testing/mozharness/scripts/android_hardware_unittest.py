@@ -3133,13 +3133,13 @@ path
         
 self
 .
-uninstall_apk
+uninstall_android_app
 (
 )
         
 self
 .
-install_apk
+install_android_app
 (
 self
 .
