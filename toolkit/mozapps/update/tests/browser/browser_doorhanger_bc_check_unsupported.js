@@ -318,7 +318,7 @@ badge
 ;
 UpdateListener
 .
-init
+maybeShowUnsupportedNotification
 (
 )
 ;
