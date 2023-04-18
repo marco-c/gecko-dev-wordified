@@ -189,6 +189,17 @@ PREF_STRING_DEFAULT_NOTEMPTY_VALUE
 beep
 "
 ;
+const
+PREF_STRING_LOCALIZED_MISSING
+=
+"
+intl
+.
+menuitems
+.
+alwaysappendaccesskeys
+"
+;
 /
 /
 Other
