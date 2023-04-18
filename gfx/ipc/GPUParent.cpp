@@ -3958,6 +3958,12 @@ move
 (
 aEndpoint
 )
+/
+*
+AllowHardwareDecoding
+*
+/
+true
 )
 )
 {
