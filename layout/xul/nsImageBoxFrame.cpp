@@ -576,6 +576,7 @@ override
 ;
 private
 :
+const
 nsCOMPtr
 <
 nsIContent
@@ -587,6 +588,21 @@ mMessage
 ;
 }
 ;
+/
+/
+TODO
+:
+Convert
+this
+to
+MOZ_CAN_RUN_SCRIPT
+(
+bug
+1415230
+bug
+1535398
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 nsImageBoxFrameEvent
 :
@@ -599,7 +615,7 @@ RefPtr
 <
 nsPresContext
 >
-pres_context
+presContext
 =
 mContent
 -
@@ -616,7 +632,7 @@ GetPresContext
 if
 (
 !
-pres_context
+presContext
 )
 {
 return
@@ -649,7 +665,7 @@ EventDispatcher
 Dispatch
 (
 mContent
-pres_context
+presContext
 &
 event
 nullptr
