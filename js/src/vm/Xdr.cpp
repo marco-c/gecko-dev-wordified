@@ -1983,10 +1983,13 @@ xdr
 ;
 MOZ_TRY
 (
-ScriptSource
+frontend
 :
 :
-XDR
+StencilXDR
+:
+:
+codeSource
 (
 xdr
 maybeOptions
