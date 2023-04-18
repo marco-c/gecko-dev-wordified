@@ -362,7 +362,7 @@ len
 0
 )
 ;
-assert_eq
+assert
 !
 (
 r
@@ -370,10 +370,9 @@ r
 is_empty
 (
 )
-true
 )
 ;
-assert_eq
+assert
 !
 (
 r
@@ -381,7 +380,6 @@ r
 is_full
 (
 )
-true
 )
 ;
 }

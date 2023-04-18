@@ -2158,7 +2158,7 @@ anyhow
 .
 0
 .
-51
+52
 "
 )
 ]
@@ -2253,6 +2253,10 @@ clippy
 :
 :
 redundant_else
+clippy
+:
+:
+return_self_not_must_use
 clippy
 :
 :

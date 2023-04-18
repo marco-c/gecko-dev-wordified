@@ -3851,12 +3851,7 @@ builder
 .
 spawn
 (
-move
-|
-|
 closure
-(
-)
 )
 ?
 }

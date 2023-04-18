@@ -552,7 +552,7 @@ unwrap
 2
 )
 ;
-assert_eq
+assert
 !
 (
 iter
@@ -564,7 +564,6 @@ next
 is_none
 (
 )
-true
 )
 ;
 }
@@ -662,7 +661,7 @@ unwrap
 2
 )
 ;
-assert_eq
+assert
 !
 (
 iter
@@ -674,7 +673,6 @@ next
 is_none
 (
 )
-true
 )
 ;
 }
