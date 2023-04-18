@@ -2594,6 +2594,7 @@ UiCompositorControllerChild
 CreateForSameProcess
 (
 aId
+aWidget
 )
 ;
 }
@@ -2696,6 +2697,7 @@ move
 (
 childPipe
 )
+aWidget
 )
 ;
 if
@@ -2717,20 +2719,6 @@ GetCompositorSurfaceManager
 )
 ;
 }
-}
-if
-(
-result
-)
-{
-result
--
->
-SetBaseWidget
-(
-aWidget
-)
-;
 }
 return
 result
