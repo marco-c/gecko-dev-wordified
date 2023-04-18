@@ -342,9 +342,6 @@ reader
 void
 SetUpReadableStreamBYOBReader
 (
-JSContext
-*
-aCx
 ReadableStreamBYOBReader
 *
 reader
@@ -601,11 +598,6 @@ Step
 .
 SetUpReadableStreamBYOBReader
 (
-global
-.
-Context
-(
-)
 reader
 stream
 rv
@@ -2451,7 +2443,6 @@ stream
 .
 SetUpReadableStreamBYOBReader
 (
-aCx
 reader
 *
 aStream
