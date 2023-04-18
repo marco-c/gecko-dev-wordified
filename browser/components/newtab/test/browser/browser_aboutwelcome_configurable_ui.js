@@ -234,6 +234,13 @@ selectors
 main
 .
 TEST_NOODLE_STEP
+[
+pos
+=
+'
+center
+'
+]
 "
 "
 div
@@ -491,6 +498,13 @@ selectors
 main
 .
 TEST_LOGO_STEP
+[
+pos
+=
+'
+center
+'
+]
 "
 div
 .
