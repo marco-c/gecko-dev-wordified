@@ -185,14 +185,14 @@ h
 #
 include
 "
-avcodec
+bsf
 .
 h
 "
 #
 include
 "
-bsf
+bsf_internal
 .
 h
 "
