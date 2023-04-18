@@ -1318,17 +1318,6 @@ ScrollbarStyle
 )
 )
 ;
-gNonNativeInstance
--
->
-GetScrollbarDrawing
-(
-)
-.
-RecomputeScrollbarParams
-(
-)
-;
 }
 }
 /

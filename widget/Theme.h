@@ -1280,6 +1280,13 @@ move
 aScrollbarDrawing
 )
 ;
+mScrollbarDrawing
+-
+>
+RecomputeScrollbarParams
+(
+)
+;
 }
 ScrollbarDrawing
 &
