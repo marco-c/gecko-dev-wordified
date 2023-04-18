@@ -397,7 +397,7 @@ CharT
 extern
 JSAtom
 *
-AtomizeCharsNonStatic
+AtomizeCharsNonStaticValidLength
 (
 JSContext
 *
