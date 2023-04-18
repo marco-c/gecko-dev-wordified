@@ -150,6 +150,19 @@ git
 clone
 "
                     
+"
+-
+c
+"
+                    
+"
+core
+.
+autocrlf
+=
+input
+"
+                    
 self
 .
 manifest
