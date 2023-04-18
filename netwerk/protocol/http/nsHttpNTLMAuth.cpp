@@ -378,6 +378,17 @@ ClearOnShutdown
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+DNS
+.
+h
+"
 namespace
 mozilla
 {

@@ -233,6 +233,9 @@ nsISocketTransport
 class
 nsISSLSocketControl
 ;
+class
+nsIDNSRecord
+;
 namespace
 mozilla
 {

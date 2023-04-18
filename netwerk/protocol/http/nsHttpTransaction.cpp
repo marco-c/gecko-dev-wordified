@@ -553,13 +553,6 @@ h
 -
 -
 -
-static
-NS_DEFINE_CID
-(
-kMultiplexInputStream
-NS_MULTIPLEXINPUTSTREAM_CID
-)
-;
 /
 /
 Place
