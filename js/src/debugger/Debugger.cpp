@@ -646,8 +646,7 @@ h
 /
 /
 for
-IsMarkedUnbarriered
-IsMarked
+IsAboutToBeFinalized
 #
 include
 "
