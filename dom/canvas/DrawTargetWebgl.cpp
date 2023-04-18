@@ -10840,7 +10840,7 @@ texDesc
 .
 unpacking
 .
-mUnpackAlignment
+alignmentInTypeElems
 =
 stride
 %
@@ -10854,7 +10854,7 @@ texDesc
 .
 unpacking
 .
-mUnpackRowLength
+rowLength
 =
 stride
 /
@@ -10864,7 +10864,7 @@ texDesc
 .
 unpacking
 .
-mUnpackImageHeight
+imageHeight
 =
 texSize
 .
