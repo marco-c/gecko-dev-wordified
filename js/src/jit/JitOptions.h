@@ -368,6 +368,9 @@ bool
 lessDebugCode
 ;
 bool
+enableWatchtowerMegamorphic
+;
+bool
 enableWasmJitExit
 ;
 bool
