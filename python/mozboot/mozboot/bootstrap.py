@@ -575,6 +575,10 @@ kali
 "
 devuan
 "
+    
+"
+pureos
+"
 )
 ADD_GIT_CINNABAR_PATH
 =
