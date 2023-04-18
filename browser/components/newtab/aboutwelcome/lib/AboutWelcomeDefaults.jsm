@@ -2184,9 +2184,6 @@ screen
 "
 theme
 "
-"
-colorway
-"
 ]
 .
 includes
