@@ -62,16 +62,6 @@ strict
 "
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 style
 :
@@ -2793,7 +2783,7 @@ modification
 const
 resultPromise
 =
-promise
+Promise
 .
 resolve
 (

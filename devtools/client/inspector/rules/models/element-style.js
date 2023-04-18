@@ -72,16 +72,6 @@ Services
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 Rule
 =
 require
@@ -779,7 +769,7 @@ populated
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -991,7 +981,7 @@ destroyed
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
