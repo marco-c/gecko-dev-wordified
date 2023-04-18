@@ -3949,6 +3949,7 @@ queue_write_texture
 self_id
 &
 dst
+&
 data
 &
 layout
