@@ -941,10 +941,11 @@ data
 ;
 if
 (
-!
 this
 .
-attached
+isDestroyed
+(
+)
 )
 {
 return
@@ -1016,10 +1017,11 @@ function
 {
 if
 (
-!
 this
 .
-attached
+isDestroyed
+(
+)
 )
 {
 return

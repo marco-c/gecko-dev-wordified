@@ -1715,8 +1715,8 @@ actor
 is
 /
 /
-currently
-attached
+not
+destroyed
 switch
 to
 the
@@ -1724,9 +1724,12 @@ fallback
 window
 if
 (
+!
 this
 .
-attached
+isDestroyed
+(
+)
 &
 &
 docShell

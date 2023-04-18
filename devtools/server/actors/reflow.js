@@ -893,11 +893,14 @@ false
 ;
 if
 (
+!
 this
 .
 targetActor
 .
-attached
+isDestroyed
+(
+)
 &
 &
 this
@@ -920,7 +923,7 @@ the
 targetActor
 is
 still
-attached
+active
 this
 .
 _stopListeners
