@@ -12710,14 +12710,6 @@ EventChainPreVisitor
 aVisitor
 )
 ;
-void
-DispatchChromeOnlyLinkClickEvent
-(
-EventChainPostVisitor
-&
-aVisitor
-)
-;
 /
 *
 *
