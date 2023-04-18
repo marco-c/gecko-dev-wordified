@@ -8212,11 +8212,6 @@ inline
 "
 nearest
 "
-behavior
-:
-"
-instant
-"
 }
 )
 ;
