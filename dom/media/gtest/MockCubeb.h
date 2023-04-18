@@ -2638,6 +2638,13 @@ collection
 >
 device
 ;
+collection
+-
+>
+count
+=
+0
+;
 return
 CUBEB_OK
 ;
