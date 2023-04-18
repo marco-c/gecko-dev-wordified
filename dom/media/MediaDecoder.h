@@ -4738,6 +4738,12 @@ GetInaudiblePlayTimeInSeconds
 )
 const
 ;
+double
+GetMutedPlayTimeInSeconds
+(
+)
+const
+;
 private
 :
 /
@@ -4825,6 +4831,11 @@ state
 changed
 void
 NotifyAudibleStateChanged
+(
+)
+;
+void
+NotifyVolumeChanged
 (
 )
 ;
