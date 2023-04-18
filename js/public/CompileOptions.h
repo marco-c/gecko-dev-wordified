@@ -1339,11 +1339,6 @@ topLevelAwait
 true
 ;
 bool
-classStaticBlocks
-=
-false
-;
-bool
 useFdlibmForSinCosTan
 =
 false
