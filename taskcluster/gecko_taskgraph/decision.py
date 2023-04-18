@@ -306,36 +306,12 @@ cedar
 :
 {
         
-#
-Create
-a
-new
-target
-in
-target_tasks
-.
-py
-if
-custom
-tasks
-desired
-        
 "
 target_tasks_method
 "
 :
 "
-cedar_tasks
-"
-        
-"
-release_type
-"
-:
-"
-nightly
--
-cedar
+default
 "
     
 }
