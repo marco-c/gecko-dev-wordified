@@ -2980,6 +2980,8 @@ LayoutRect
 aClip
 bool
 aIsBackfaceVisible
+bool
+aForceAntiAliasing
 const
 wr
 :
@@ -3341,6 +3343,8 @@ LayoutRect
 aClip
 bool
 aIsBackfaceVisible
+bool
+aForceAntiAliasing
 wr
 :
 :

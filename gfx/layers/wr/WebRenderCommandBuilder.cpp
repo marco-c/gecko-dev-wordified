@@ -5754,6 +5754,7 @@ dest
 dest
 !
 backfaceHidden
+false
 rendering
 wr
 :
@@ -15514,6 +15515,7 @@ aItem
 BackfaceIsHidden
 (
 )
+false
 rendering
 key
 .
@@ -15669,6 +15671,22 @@ return
 false
 ;
 }
+bool
+antialiased
+=
+aItem
+-
+>
+GetType
+(
+)
+=
+=
+DisplayItemType
+:
+:
+TYPE_SVG_GEOMETRY
+;
 auto
 rendering
 =
@@ -15725,6 +15743,7 @@ aItem
 BackfaceIsHidden
 (
 )
+antialiased
 rendering
 key
 .
@@ -20208,6 +20227,7 @@ aItem
 BackfaceIsHidden
 (
 )
+false
 rendering
 fallbackData
 -

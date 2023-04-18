@@ -3680,6 +3680,7 @@ PushImage
 aBounds
 aClip
 true
+false
 aFilter
 aImageKeys
 [

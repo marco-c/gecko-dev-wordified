@@ -223,6 +223,7 @@ PushRect
 dest
 dest
 kBackfaceIsVisible
+false
 wr
 :
 :
@@ -668,6 +669,7 @@ PushRect
 backgroundRect
 clip
 kBackfaceIsVisible
+false
 backgroundColor
 )
 ;

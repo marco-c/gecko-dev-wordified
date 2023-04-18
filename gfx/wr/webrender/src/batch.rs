@@ -6216,6 +6216,11 @@ TransformedRectKind
 :
 :
 AxisAligned
+|
+|
+prim_instance
+.
+anti_aliased
 {
 batch_features
 |
