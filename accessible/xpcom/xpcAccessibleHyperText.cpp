@@ -450,7 +450,7 @@ IsLocal
 *
 aCharacterCount
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -534,7 +534,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -639,7 +639,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -748,7 +748,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -850,7 +850,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -944,7 +944,7 @@ IsLocal
 *
 aCharacter
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1069,7 +1069,7 @@ AccAttributes
 >
 attributes
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1200,7 +1200,7 @@ AccAttributes
 >
 attributes
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1356,7 +1356,7 @@ IsLocal
 {
 rect
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1497,7 +1497,7 @@ IsLocal
 {
 rect
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1606,7 +1606,7 @@ IsLocal
 *
 aOffset
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1687,7 +1687,7 @@ IsLocal
 *
 aCaretOffset
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1747,7 +1747,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -1820,7 +1820,7 @@ IsLocal
 *
 aSelectionCount
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1931,7 +1931,7 @@ if
 aSelectionNum
 >
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -1940,10 +1940,12 @@ SelectionCount
 (
 )
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
-Intl
+}
+IntlLocal
 (
 )
 -
@@ -2039,7 +2041,7 @@ IsLocal
 if
 (
 !
-Intl
+IntlLocal
 (
 )
 -
@@ -2130,7 +2132,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -2191,7 +2193,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -2254,7 +2256,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -2325,7 +2327,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -2389,7 +2391,7 @@ nullptr
 if
 (
 !
-Intl
+IntlLocal
 (
 )
 )
@@ -2405,7 +2407,7 @@ range
 new
 xpcAccessibleTextRange
 ;
-Intl
+IntlLocal
 (
 )
 -
@@ -2475,7 +2477,7 @@ nullptr
 if
 (
 !
-Intl
+IntlLocal
 (
 )
 )
@@ -2513,7 +2515,7 @@ TextRange
 >
 ranges
 ;
-Intl
+IntlLocal
 (
 )
 -
@@ -2607,7 +2609,7 @@ nullptr
 if
 (
 !
-Intl
+IntlLocal
 (
 )
 )
@@ -2644,7 +2646,7 @@ TextRange
 >
 ranges
 ;
-Intl
+IntlLocal
 (
 )
 -
@@ -2741,7 +2743,7 @@ nullptr
 if
 (
 !
-Intl
+IntlLocal
 (
 )
 )
@@ -2773,7 +2775,7 @@ range
 new
 xpcAccessibleTextRange
 ;
-Intl
+IntlLocal
 (
 )
 -
@@ -2839,7 +2841,7 @@ nullptr
 if
 (
 !
-Intl
+IntlLocal
 (
 )
 )
@@ -2855,7 +2857,7 @@ range
 new
 xpcAccessibleTextRange
 ;
-Intl
+IntlLocal
 (
 )
 -
@@ -3005,7 +3007,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -3087,7 +3089,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -3169,7 +3171,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -3245,7 +3247,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -3321,7 +3323,7 @@ IsLocal
 )
 )
 {
-Intl
+IntlLocal
 (
 )
 -
@@ -3401,7 +3403,7 @@ HyperTextAccessible
 >
 acc
 =
-Intl
+IntlLocal
 (
 )
 ;
@@ -3572,13 +3574,19 @@ IsLocal
 *
 aLinkCount
 =
-Intl
+static_cast
+<
+int32_t
+>
+(
+IntlLocal
 (
 )
 -
 >
 LinkCount
 (
+)
 )
 ;
 }
@@ -3666,7 +3674,7 @@ aLink
 =
 ToXPC
 (
-Intl
+IntlLocal
 (
 )
 -
@@ -3788,7 +3796,7 @@ ToInternalAccessible
 *
 aIndex
 =
-Intl
+IntlLocal
 (
 )
 -
@@ -3929,7 +3937,7 @@ IsLocal
 *
 aLinkIndex
 =
-Intl
+IntlLocal
 (
 )
 -
