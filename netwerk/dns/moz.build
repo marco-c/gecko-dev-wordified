@@ -242,6 +242,11 @@ DNSListenerProxy
 h
 "
 "
+DNSPacket
+.
+h
+"
+"
 DNSRequestBase
 .
 h

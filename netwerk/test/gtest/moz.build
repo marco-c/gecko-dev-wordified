@@ -123,6 +123,11 @@ TestCookie
 cpp
 "
 "
+TestDNSPacket
+.
+cpp
+"
+"
 TestHeaders
 .
 cpp
