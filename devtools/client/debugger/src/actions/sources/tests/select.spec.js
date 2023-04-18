@@ -73,7 +73,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 ast
 "
