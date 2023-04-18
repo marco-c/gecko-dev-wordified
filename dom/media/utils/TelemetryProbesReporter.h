@@ -825,14 +825,6 @@ Visibility
 :
 eInitial
 ;
-AudibleState
-mAudibleState
-=
-AudibleState
-:
-:
-eNotAudible
-;
 MediaContent
 mMediaContent
 =
