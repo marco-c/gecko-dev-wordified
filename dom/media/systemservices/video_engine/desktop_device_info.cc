@@ -1357,13 +1357,9 @@ getScreenId
 ;
 #
 else
-snprintf
+SprintfLiteral
 (
 idStr
-sizeof
-(
-idStr
-)
 "
 %
 ld

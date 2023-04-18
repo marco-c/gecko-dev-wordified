@@ -210,13 +210,9 @@ idStr
 64
 ]
 ;
-snprintf
+SprintfLiteral
 (
 idStr
-sizeof
-(
-idStr
-)
 "
 %
 "
