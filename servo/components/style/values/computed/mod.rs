@@ -823,6 +823,7 @@ page
 :
 {
 Orientation
+PageName
 PageSize
 PaperSize
 }
