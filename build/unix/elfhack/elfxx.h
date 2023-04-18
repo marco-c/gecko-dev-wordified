@@ -879,7 +879,7 @@ public
 T
 :
 :
-Type32
+Type64
 {
 public
 :
@@ -896,7 +896,7 @@ typename
 T
 :
 :
-Type32
+Type64
 &
 p
 )
@@ -904,7 +904,7 @@ p
 T
 :
 :
-Type32
+Type64
 (
 p
 )
