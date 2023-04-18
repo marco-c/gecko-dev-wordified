@@ -1909,6 +1909,14 @@ ProcessFailureBehavior
 IgnoreAndContinue
 >
 (
+"
+TEST
+(
+TestAudioTrackGraph
+ErrorCallback
+)
+"
+_ns
 [
 &
 ]
