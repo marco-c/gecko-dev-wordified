@@ -731,14 +731,6 @@ ReaderState
 Readable
 ;
 }
-enum
-class
-CloseOrEnqueue
-{
-Close
-Enqueue
-}
-;
 /
 /
 https
@@ -795,7 +787,6 @@ error
 /
 messages
 .
-static
 bool
 ReadableStreamDefaultControllerCanCloseOrEnqueueAndThrow
 (
@@ -869,7 +860,6 @@ prefix
 Cannot
 close
 a
-readable
 stream
 that
 "
@@ -885,7 +875,6 @@ Cannot
 enqueue
 into
 a
-readable
 stream
 that
 "
@@ -2303,7 +2292,6 @@ should
 call
 -
 pull
-static
 bool
 ReadableStreamDefaultControllerShouldCallPull
 (

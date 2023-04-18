@@ -235,7 +235,7 @@ void
 SetStream
 (
 TransformStream
-*
+&
 aStream
 )
 ;
@@ -303,6 +303,7 @@ GetDesiredSize
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Enqueue
 (
@@ -325,6 +326,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Error
 (
@@ -347,9 +349,13 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Terminate
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aRv
@@ -367,6 +373,7 @@ mGlobal
 /
 Internal
 slots
+MOZ_KNOWN_LIVE
 RefPtr
 <
 TransformStream
