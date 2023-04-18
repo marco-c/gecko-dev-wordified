@@ -4594,6 +4594,12 @@ GetMaxMessageSize
 (
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 return
 mMaxMessageSize
 ;
