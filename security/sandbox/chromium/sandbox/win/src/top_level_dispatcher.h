@@ -294,6 +294,15 @@ Dispatcher
 >
 signed_dispatcher_
 ;
+std
+:
+:
+unique_ptr
+<
+Dispatcher
+>
+line_break_dispatcher_
+;
 Dispatcher
 *
 ipc_targets_

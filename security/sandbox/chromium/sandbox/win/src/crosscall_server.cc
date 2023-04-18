@@ -2175,6 +2175,12 @@ INOUTPTR_TYPE
 !
 =
 type
+&
+&
+INPTR_TYPE
+!
+=
+type
 )
 )
 return
