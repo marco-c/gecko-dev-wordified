@@ -2546,7 +2546,17 @@ geckoview
 "
         
 "
-libs
+docs
+"
+        
+"
+javadoc
+"
+        
+"
+withGeckoBinaries
+-
+debug
 "
         
 "
