@@ -1204,19 +1204,6 @@ worker
     
 )
     
-if
-test
-.
-get
-(
-"
-python
--
-3
-"
-)
-:
-        
 env
 [
 "
@@ -3362,20 +3349,6 @@ gz
         
 }
     
-py_3
-=
-test
-.
-get
-(
-"
-python
--
-3
-"
-False
-)
-    
 if
 is_windows
 :
@@ -3406,19 +3379,11 @@ exe
 .
 format
 (
-            
 python
 =
 "
 python3
 "
-if
-py_3
-else
-"
-python
-"
-        
 )
         
 mh_command
@@ -3462,12 +3427,6 @@ py_binary
 "
 python3
 "
-if
-py_3
-else
-"
-python
-"
         
 mh_command
 =
@@ -3507,12 +3466,6 @@ format
 (
 "
 python3
-"
-if
-py_3
-else
-"
-python2
 "
 )
         
@@ -3565,12 +3518,6 @@ format
 (
 "
 python3
-"
-if
-py_3
-else
-"
-python2
 "
 )
         
@@ -3644,10 +3591,6 @@ script
         
 ]
     
-if
-py_3
-:
-        
 env
 [
 "

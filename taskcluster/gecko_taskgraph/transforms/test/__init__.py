@@ -2857,26 +2857,6 @@ fetches
 object
         
 #
-Opt
--
-in
-to
-Python
-3
-support
-        
-Optional
-(
-"
-python
--
-3
-"
-)
-:
-bool
-        
-#
 Raptor
 /
 browsertime
