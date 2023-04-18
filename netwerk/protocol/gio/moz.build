@@ -214,6 +214,3 @@ Widget
 Gtk
 "
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
