@@ -710,6 +710,12 @@ return
 !
 !
 mGPUChild
+&
+&
+mChildProcessHandle
+!
+=
+0
 ;
 }
 /
