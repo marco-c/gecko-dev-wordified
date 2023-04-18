@@ -706,11 +706,6 @@ off
 if
 (
 !
-(
-aEvent
-.
-originalTarget
-instanceof
 aEvent
 .
 originalTarget
@@ -718,6 +713,12 @@ originalTarget
 ownerGlobal
 .
 HTMLInputElement
+.
+isInstance
+(
+aEvent
+.
+originalTarget
 )
 |
 |

@@ -2514,9 +2514,6 @@ use
 -
 ownerGlobal
 !
-(
-field
-instanceof
 aParent
 .
 ownerDocument
@@ -2524,6 +2521,10 @@ ownerDocument
 defaultView
 .
 HTMLInputElement
+.
+isInstance
+(
+field
 )
 )
 {

@@ -1009,9 +1009,12 @@ aError
 {
 if
 (
-aError
-instanceof
 XMLHttpRequest
+.
+isInstance
+(
+aError
+)
 &
 &
 [

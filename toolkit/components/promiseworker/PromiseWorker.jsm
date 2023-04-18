@@ -2131,9 +2131,12 @@ data
 }
 if
 (
-error
-instanceof
 ErrorEvent
+.
+isInstance
+(
+error
+)
 )
 {
 /

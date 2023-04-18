@@ -561,9 +561,12 @@ target
 {
 if
 (
-target
-instanceof
 Window
+.
+isInstance
+(
+target
+)
 )
 {
 return

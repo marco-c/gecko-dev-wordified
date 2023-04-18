@@ -829,10 +829,11 @@ e
 if
 (
 !
+DOMException
+.
+isInstance
 (
 e
-instanceof
-DOMException
 )
 |
 |

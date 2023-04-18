@@ -1231,9 +1231,12 @@ address
 ;
 if
 (
-actor
-instanceof
 JSWindowActorParent
+.
+isInstance
+(
+actor
+)
 )
 {
 address
