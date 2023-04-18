@@ -286,7 +286,8 @@ i
 ]
 )
 return
-AVERROR_INVALIDDATA
+-
+1
 ;
 overall_len
 +
@@ -414,7 +415,8 @@ overall_len
 extradata_size
 )
 return
-AVERROR_INVALIDDATA
+-
+1
 ;
 }
 header_len

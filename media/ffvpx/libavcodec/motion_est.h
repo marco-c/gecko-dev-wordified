@@ -580,7 +580,6 @@ qpel_avg
 16
 ]
 ;
-const
 uint8_t
 (
 *
@@ -605,7 +604,6 @@ to
 encode
 a
 MV
-const
 uint8_t
 *
 current_mv_penalty
@@ -856,8 +854,6 @@ struct
 MpegEncContext
 *
 s
-int
-type
 )
 ;
 void

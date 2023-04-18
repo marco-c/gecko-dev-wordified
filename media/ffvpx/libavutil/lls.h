@@ -190,7 +190,7 @@ h
 #
 include
 "
-mem_internal
+mem
 .
 h
 "

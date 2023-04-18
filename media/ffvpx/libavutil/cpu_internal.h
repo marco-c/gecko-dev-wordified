@@ -365,12 +365,6 @@ flags
 cpuext
 )
 int
-ff_get_cpu_flags_mips
-(
-void
-)
-;
-int
 ff_get_cpu_flags_aarch64
 (
 void
@@ -390,12 +384,6 @@ void
 ;
 int
 ff_get_cpu_flags_x86
-(
-void
-)
-;
-size_t
-ff_get_cpu_max_align_mips
 (
 void
 )

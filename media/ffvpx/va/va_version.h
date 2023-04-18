@@ -293,7 +293,7 @@ is
 #
 define
 VA_MINOR_VERSION
-13
+7
 /
 *
 *
@@ -355,7 +355,7 @@ define
 VA_VERSION
 1
 .
-13
+7
 .
 0
 /
@@ -391,7 +391,7 @@ VA_VERSION_S
 "
 1
 .
-13
+7
 .
 0
 "

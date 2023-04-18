@@ -223,13 +223,6 @@ avutil
 .
 h
 "
-#
-include
-"
-version
-.
-h
-"
 /
 *
 *
@@ -351,14 +344,6 @@ platforms
 *
 *
 {
-*
-/
-#
-if
-FF_API_DECLARE_ALIGNED
-/
-*
-*
 *
 *
 defgroup
@@ -963,8 +948,6 @@ endif
 }
 *
 /
-#
-endif
 /
 *
 *

@@ -193,15 +193,6 @@ include
 "
 libavutil
 /
-mem_internal
-.
-h
-"
-#
-include
-"
-libavutil
-/
 aarch64
 /
 cpu
