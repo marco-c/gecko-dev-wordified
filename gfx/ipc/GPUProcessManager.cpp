@@ -3032,6 +3032,9 @@ data
 if
 (
 mGPUChild
+&
+&
+mGPUChild
 -
 >
 SendSimulateDeviceReset
