@@ -162,17 +162,6 @@ mozilla
 /
 dom
 /
-NativeUnderlyingSource
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ReadableStream
 .
 h

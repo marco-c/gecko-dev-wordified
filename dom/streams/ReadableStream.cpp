@@ -273,17 +273,6 @@ mozilla
 /
 dom
 /
-NativeUnderlyingSource
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 QueueWithSizes
 .
 h

@@ -145,17 +145,6 @@ mozilla
 /
 dom
 /
-NativeUnderlyingSource
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Promise
 .
 h
