@@ -1078,6 +1078,12 @@ _retval
 )
 override
 ;
+NS_IMETHOD
+CrashGPUProcessForTests
+(
+)
+override
+;
 /
 /
 Total
