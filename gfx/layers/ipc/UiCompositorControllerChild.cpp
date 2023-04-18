@@ -1863,6 +1863,17 @@ Surface
 :
 Param
 aSurface
+java
+:
+:
+sdk
+:
+:
+SurfaceControl
+:
+:
+Param
+aSurfaceControl
 )
 {
 /
@@ -1910,6 +1921,7 @@ OnSurfaceChanged
 (
 aWidgetId
 aSurface
+aSurfaceControl
 )
 ;
 /

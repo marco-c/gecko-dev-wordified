@@ -195,6 +195,8 @@ GetVsyncObserver
 const
 override
 ;
+private
+:
 /
 /
 AndroidCompositorWidget
@@ -205,8 +207,6 @@ OnCompositorSurfaceChanged
 )
 override
 ;
-private
-:
 RefPtr
 <
 VsyncObserver

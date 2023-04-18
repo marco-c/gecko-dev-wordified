@@ -182,6 +182,8 @@ return
 this
 ;
 }
+private
+:
 /
 /
 AndroidCompositorWidget
@@ -192,8 +194,6 @@ OnCompositorSurfaceChanged
 )
 override
 ;
-private
-:
 nsWindow
 *
 mWindow
