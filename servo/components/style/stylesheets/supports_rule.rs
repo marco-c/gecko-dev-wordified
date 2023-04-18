@@ -2734,12 +2734,9 @@ context
 stylesheet_origin
 url_data
 :
-Some
-(
 context
 .
 url_data
-)
 }
 ;
 #
