@@ -109,9 +109,13 @@ html
 "
 "
 simple1
+.
+js
 "
 "
 simple2
+.
+js
 "
 )
 ;

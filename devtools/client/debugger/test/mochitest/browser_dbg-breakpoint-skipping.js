@@ -104,6 +104,8 @@ selectSource
 dbg
 "
 simple3
+.
+js
 "
 )
 ;
@@ -150,6 +152,8 @@ addBreakpoint
 dbg
 "
 simple3
+.
+js
 "
 2
 )
@@ -403,6 +407,8 @@ addBreakpoint
 dbg
 "
 simple3
+.
+js
 "
 3
 )

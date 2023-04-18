@@ -213,6 +213,8 @@ selectSource
 dbg
 "
 simple1
+.
+js
 "
 )
 ;
@@ -247,6 +249,8 @@ waitForLoadedSource
 dbg
 "
 simple1
+.
+js
 "
 )
 ;

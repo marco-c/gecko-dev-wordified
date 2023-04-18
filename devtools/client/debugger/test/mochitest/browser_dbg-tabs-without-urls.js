@@ -102,9 +102,13 @@ html
 "
 "
 simple1
+.
+js
 "
 "
 simple2
+.
+js
 "
 )
 ;
@@ -114,6 +118,8 @@ selectSource
 dbg
 "
 simple1
+.
+js
 "
 )
 ;
@@ -123,6 +129,8 @@ selectSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;
@@ -203,9 +211,13 @@ reload
 dbg
 "
 simple1
+.
+js
 "
 "
 simple2
+.
+js
 "
 )
 ;
@@ -272,6 +284,8 @@ selectSource
 dbg
 "
 simple1
+.
+js
 "
 )
 ;
@@ -281,6 +295,8 @@ selectSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;

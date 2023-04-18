@@ -328,8 +328,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 await
@@ -337,8 +335,6 @@ waitForSelectedSource
 (
 dbg
 source
-.
-url
 )
 ;
 await
@@ -455,8 +451,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 await
@@ -464,8 +458,6 @@ waitForSelectedSource
 (
 dbg
 source
-.
-url
 )
 ;
 /

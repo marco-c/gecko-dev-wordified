@@ -83,6 +83,8 @@ long
 js
 "
 "
+doc
+-
 scripts
 .
 html
@@ -225,6 +227,8 @@ selectSource
 dbg
 "
 simple1
+.
+js
 "
 )
 ;

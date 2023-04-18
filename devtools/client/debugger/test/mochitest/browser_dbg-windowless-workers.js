@@ -621,6 +621,8 @@ dbg
 simple
 -
 worker
+.
+js
 "
 10
 )

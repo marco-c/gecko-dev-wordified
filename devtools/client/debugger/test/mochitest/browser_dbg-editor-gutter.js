@@ -156,8 +156,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 /

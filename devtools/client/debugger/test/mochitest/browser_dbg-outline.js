@@ -108,6 +108,8 @@ html
 "
 "
 simple1
+.
+js
 "
 )
 ;
@@ -129,6 +131,8 @@ selectSource
 dbg
 "
 simple1
+.
+js
 "
 1
 )
@@ -256,6 +260,8 @@ assertHighlightLocation
 dbg
 "
 simple1
+.
+js
 "
 15
 )

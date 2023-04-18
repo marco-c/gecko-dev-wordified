@@ -103,6 +103,8 @@ html
 "
 "
 long
+.
+js
 "
 )
 ;
@@ -124,6 +126,8 @@ selectSource
 dbg
 "
 long
+.
+js
 "
 )
 ;
@@ -133,6 +137,8 @@ waitForSelectedSource
 dbg
 "
 long
+.
+js
 "
 )
 ;
@@ -428,6 +434,8 @@ findColumnBreakpoint
 dbg
 "
 long
+.
+js
 "
 32
 2
@@ -532,6 +540,8 @@ findColumnBreakpoint
 dbg
 "
 long
+.
+js
 "
 32
 26
@@ -871,6 +881,8 @@ addBreakpoint
 dbg
 "
 long
+.
+js
 "
 32
 )

@@ -158,19 +158,6 @@ html
 "
 )
 ;
-const
-simple1
-=
-findSource
-(
-dbg
-"
-simple1
-.
-js
-"
-)
-;
 /
 /
 Set
@@ -184,6 +171,8 @@ selectSource
 dbg
 "
 simple1
+.
+js
 "
 )
 ;
@@ -191,7 +180,11 @@ await
 addBreakpoint
 (
 dbg
+"
 simple1
+.
+js
+"
 26
 )
 ;
@@ -225,6 +218,8 @@ selectSource
 dbg
 "
 long
+.
+js
 "
 )
 ;
@@ -257,6 +252,8 @@ selectSource
 dbg
 "
 simple1
+.
+js
 "
 )
 ;
@@ -278,6 +275,8 @@ selectSource
 dbg
 "
 long
+.
+js
 "
 )
 ;
@@ -390,6 +389,8 @@ selectSource
 dbg
 "
 long
+.
+js
 "
 )
 ;
@@ -427,6 +428,8 @@ selectSource
 dbg
 "
 frames
+.
+js
 "
 )
 ;

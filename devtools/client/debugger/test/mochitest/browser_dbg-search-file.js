@@ -112,10 +112,8 @@ getState
 =
 dbg
 ;
-const
-source
-=
-findSource
+await
+selectSource
 (
 dbg
 "
@@ -123,15 +121,6 @@ simple1
 .
 js
 "
-)
-;
-await
-selectSource
-(
-dbg
-source
-.
-url
 )
 ;
 const
@@ -682,6 +671,8 @@ selectSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;

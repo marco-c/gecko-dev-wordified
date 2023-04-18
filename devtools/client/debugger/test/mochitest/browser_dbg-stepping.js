@@ -96,9 +96,9 @@ sourcemap
 html
 "
 "
-big
--
-sourcemap
+bundle
+.
+js
 "
 )
 ;

@@ -98,6 +98,8 @@ html
 "
 "
 long
+.
+js
 "
 )
 ;
@@ -107,6 +109,8 @@ selectSource
 dbg
 "
 long
+.
+js
 "
 )
 ;

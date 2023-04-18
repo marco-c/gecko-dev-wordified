@@ -80,6 +80,8 @@ html
 "
 "
 simple1
+.
+js
 "
 )
 ;
@@ -89,6 +91,8 @@ selectSource
 dbg
 "
 long
+.
+js
 "
 )
 ;
@@ -349,6 +353,8 @@ addBreakpoint
 dbg
 "
 long
+.
+js
 "
 32
 )

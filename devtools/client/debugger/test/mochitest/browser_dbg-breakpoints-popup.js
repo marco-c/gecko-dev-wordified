@@ -441,8 +441,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 await
@@ -450,8 +448,6 @@ addBreakpoint
 (
 dbg
 source
-.
-url
 4
 )
 ;
@@ -938,8 +934,6 @@ selectSource
 (
 dbg
 source
-.
-url
 )
 ;
 await
@@ -947,8 +941,6 @@ addBreakpoint
 (
 dbg
 source
-.
-url
 4
 )
 ;

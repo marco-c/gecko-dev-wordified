@@ -127,7 +127,7 @@ line
 )
 ;
 const
-filename
+url
 =
 "
 webpack3
@@ -144,13 +144,14 @@ cjs
 /
 input
 .
+js
 "
 ;
 await
 waitForSources
 (
 dbg
-filename
+url
 )
 ;
 const
@@ -159,7 +160,7 @@ source
 findSource
 (
 dbg
-filename
+url
 )
 ;
 await

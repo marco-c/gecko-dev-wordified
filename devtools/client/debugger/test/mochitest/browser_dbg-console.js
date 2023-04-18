@@ -97,9 +97,13 @@ switching
 html
 "
 "
+script
+-
 switching
 -
 01
+.
+js
 "
 )
 ;
@@ -108,9 +112,13 @@ selectSource
 (
 dbg
 "
+script
+-
 switching
 -
 01
+.
+js
 "
 )
 ;

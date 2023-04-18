@@ -117,6 +117,8 @@ html
 "
 "
 simple2
+.
+js
 "
 )
 ;
@@ -126,6 +128,8 @@ selectSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;
@@ -135,6 +139,8 @@ waitForSelectedSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;
@@ -175,6 +181,8 @@ addBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 BREAKPOINT_LINE
 )
@@ -237,6 +245,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 BREAKPOINT_LINE
 )
@@ -429,6 +439,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 BREAKPOINT_LINE
 )
@@ -501,6 +513,8 @@ findBreakpoint
 dbg
 "
 simple2
+.
+js
 "
 BREAKPOINT_LINE
 )

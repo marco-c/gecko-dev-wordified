@@ -98,9 +98,13 @@ waitForLoadedSource
 (
 dbg
 "
+script
+-
 switching
 -
 02
+.
+js
 "
 )
 /

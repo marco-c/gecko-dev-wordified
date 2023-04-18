@@ -93,6 +93,8 @@ html
 "
 "
 simple2
+.
+js
 "
 )
 ;
@@ -111,6 +113,8 @@ selectSource
 dbg
 "
 simple2
+.
+js
 "
 )
 ;
