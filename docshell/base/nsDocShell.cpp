@@ -9005,12 +9005,8 @@ outerWindow
 outerWindow
 -
 >
-SetMediaSuspend
+ActivateMediaComponents
 (
-nsISuspendedTypes
-:
-:
-NONE_SUSPENDED
 )
 ;
 }
