@@ -1351,8 +1351,7 @@ processes
 .
 if
 (
-!
-ShouldSyncPreference
+ShouldSanitizePreference
 (
 strData
 .

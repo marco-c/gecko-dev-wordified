@@ -219,7 +219,7 @@ bool
 >
 &
 &
-aShouldSerializeFn
+aShouldSanitizeFn
 )
 ;
 SharedPreferenceSerializer
@@ -337,7 +337,7 @@ char
 bool
 )
 >
-mShouldSerializeFn
+mShouldSanitizeFn
 ;
 }
 ;

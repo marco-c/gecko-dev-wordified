@@ -475,7 +475,7 @@ extraArgs
 SharedPreferenceSerializer
 prefSerializer
 (
-ShouldSyncPreference
+ShouldSanitizePreference
 )
 ;
 if
