@@ -540,7 +540,7 @@ data
 "
 )
 ;
-uint32_t
+gint
 dataLength
 =
 0
