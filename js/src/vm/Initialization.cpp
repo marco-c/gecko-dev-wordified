@@ -1594,6 +1594,13 @@ assertNoPermanentSharedThings
 }
 #
 endif
+{
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 if
 (
 !
@@ -1648,6 +1655,7 @@ cx
 return
 false
 ;
+}
 }
 if
 (
