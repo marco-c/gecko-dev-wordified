@@ -42635,6 +42635,7 @@ masm
 .
 extMulLowInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -42657,6 +42658,7 @@ masm
 .
 extMulHighInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -42679,6 +42681,7 @@ masm
 .
 unsignedExtMulLowInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -42701,6 +42704,7 @@ masm
 .
 unsignedExtMulHighInt8x16
 (
+rsd
 rs
 rsd
 )
@@ -42723,6 +42727,7 @@ masm
 .
 extMulLowInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -42745,6 +42750,7 @@ masm
 .
 extMulHighInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -42767,6 +42773,7 @@ masm
 .
 unsignedExtMulLowInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -42789,6 +42796,7 @@ masm
 .
 unsignedExtMulHighInt16x8
 (
+rsd
 rs
 rsd
 )
@@ -42811,6 +42819,7 @@ masm
 .
 extMulLowInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -42833,6 +42842,7 @@ masm
 .
 extMulHighInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -42855,6 +42865,7 @@ masm
 .
 unsignedExtMulLowInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -42877,6 +42888,7 @@ masm
 .
 unsignedExtMulHighInt32x4
 (
+rsd
 rs
 rsd
 )
@@ -42899,6 +42911,7 @@ masm
 .
 q15MulrSatInt16x8
 (
+rsd
 rs
 rsd
 )
