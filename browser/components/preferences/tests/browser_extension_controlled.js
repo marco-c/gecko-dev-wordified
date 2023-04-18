@@ -5126,12 +5126,9 @@ PathUtils
 .
 join
 (
-await
 PathUtils
 .
-getProfileDir
-(
-)
+profileDir
 jsonFileName
 )
 ;
