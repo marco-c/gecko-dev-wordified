@@ -5005,11 +5005,7 @@ nsContentUtils
 GetCurrentJSContext
 (
 )
-Some
-(
-&
 aSubjectPrincipal
-)
 )
 ;
 rv
@@ -5116,11 +5112,7 @@ OwnerDoc
 (
 )
 aCx
-Some
-(
-&
 aSubjectPrincipal
-)
 )
 ;
 return
@@ -5672,11 +5664,7 @@ OwnerDoc
 (
 )
 aCx
-Some
-(
-&
 aSubjectPrincipal
-)
 )
 ;
 CanvasRenderingContextHelper
