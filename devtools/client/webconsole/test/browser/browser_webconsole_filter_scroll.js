@@ -247,7 +247,7 @@ hud
 "
 init
 -
-1
+0
 "
 )
 null
@@ -326,7 +326,7 @@ hud
 "
 init
 -
-1
+0
 "
 )
 null
@@ -439,6 +439,7 @@ onMessagesFiltered
 =
 waitFor
 (
+async
 (
 )
 =
@@ -450,7 +451,7 @@ hud
 "
 init
 -
-1
+0
 "
 )
 null
@@ -513,7 +514,7 @@ hud
 "
 init
 -
-1
+0
 "
 )
 null

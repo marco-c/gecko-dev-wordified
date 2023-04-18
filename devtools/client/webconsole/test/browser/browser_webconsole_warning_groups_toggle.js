@@ -395,6 +395,7 @@ hud
 await
 onContentBlockingWarningMessage
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -489,6 +490,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -590,6 +592,7 @@ the
 expected
 positions
 .
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -665,6 +668,7 @@ CONTENT_BLOCKING_GROUP_LABEL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -716,6 +720,7 @@ BLOCKED_URL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -889,6 +894,7 @@ nothing
 is
 grouped
 .
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -968,6 +974,7 @@ CONTENT_BLOCKING_GROUP_LABEL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1074,6 +1081,7 @@ warningGroupMessage2
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1160,6 +1168,7 @@ BLOCKED_URL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud

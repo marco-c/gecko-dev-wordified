@@ -268,6 +268,11 @@ PropTypes
 string
 .
 isRequired
+setExpanded
+:
+PropTypes
+.
+func
 }
 ;
 }
@@ -374,6 +379,7 @@ const
 {
 dispatch
 serviceContainer
+setExpanded
 }
 =
 this
@@ -463,6 +469,7 @@ useQuotes
 false
 serviceContainer
 dispatch
+setExpanded
 }
 )
 ;

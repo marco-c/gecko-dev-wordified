@@ -463,6 +463,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -497,6 +498,7 @@ message
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -565,6 +567,7 @@ textContent
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -618,6 +621,7 @@ BLOCKED_URL
 )
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -705,6 +709,7 @@ displayed
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -843,6 +848,7 @@ message
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -970,6 +976,7 @@ text
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1064,6 +1071,7 @@ length
 6
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1176,6 +1184,7 @@ length
 4
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud
@@ -1276,6 +1285,7 @@ textContent
 "
 )
 ;
+await
 checkConsoleOutputForWarningGroup
 (
 hud

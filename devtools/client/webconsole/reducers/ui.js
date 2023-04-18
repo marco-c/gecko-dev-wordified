@@ -179,6 +179,9 @@ filterBarDisplayMode
 FILTERBAR_DISPLAY_MODES
 .
 WIDE
+cacheGeneration
+:
+0
 }
 overrides
 )
@@ -315,6 +318,13 @@ false
 frontInSidebar
 :
 null
+cacheGeneration
+:
+state
+.
+cacheGeneration
++
+1
 }
 ;
 case

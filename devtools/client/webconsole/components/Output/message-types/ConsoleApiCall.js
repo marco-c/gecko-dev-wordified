@@ -295,6 +295,7 @@ serviceContainer
 timestampsVisible
 repeat
 maybeScrollToBottom
+setExpanded
 }
 =
 props
@@ -333,6 +334,7 @@ userProvidedStyles
 serviceContainer
 type
 maybeScrollToBottom
+setExpanded
 /
 /
 When
@@ -649,6 +651,7 @@ false
 transformEmptyString
 :
 true
+setExpanded
 type
 }
 )
@@ -805,6 +808,7 @@ serviceContainer
 userProvidedStyles
 type
 maybeScrollToBottom
+setExpanded
 customFormat
 }
 =
@@ -875,6 +879,7 @@ loadedObjectProperties
 loadedObjectEntries
 type
 maybeScrollToBottom
+setExpanded
 customFormat
 }
 )
