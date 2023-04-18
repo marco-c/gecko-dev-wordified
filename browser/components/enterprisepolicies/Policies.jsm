@@ -8584,6 +8584,13 @@ update
 .
 migrated
 "
+"
+browser
+.
+vpn_promo
+.
+disallowed_regions
+"
 ]
 ;
 for
