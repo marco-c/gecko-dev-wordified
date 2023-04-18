@@ -31,7 +31,7 @@ zero
 /
 Test
 for
-mdn
+doc
 -
 utils
 "
@@ -180,7 +180,7 @@ src
 /
 utils
 /
-mdn
+doc
 -
 utils
 "
