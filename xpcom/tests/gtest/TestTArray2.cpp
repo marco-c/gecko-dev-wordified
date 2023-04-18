@@ -3547,7 +3547,7 @@ typename
 ArrayType
 :
 :
-elem_type
+value_type
 (
 )
 fallible

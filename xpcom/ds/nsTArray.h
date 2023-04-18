@@ -907,7 +907,7 @@ is
 a
 public
 type
-elem_type
+value_type
 defined
 as
 E
@@ -916,9 +916,9 @@ each
 array
 class
 and
+/
+/
 we
-/
-/
 reference
 the
 type
@@ -989,11 +989,11 @@ b
 int
 (
 const
-elem_type
+value_type
 &
 a
 const
-elem_type
+value_type
 &
 b
 )
@@ -1048,11 +1048,11 @@ bool
 Equals
 (
 const
-elem_type
+value_type
 &
 a
 const
-elem_type
+value_type
 &
 b
 )
@@ -1085,11 +1085,11 @@ bool
 LessThan
 (
 const
-elem_type
+value_type
 &
 a
 const
-elem_type
+value_type
 &
 b
 )
@@ -6970,10 +6970,6 @@ index_type
 ;
 typedef
 E
-elem_type
-;
-typedef
-E
 value_type
 ;
 typedef
@@ -7005,7 +7001,7 @@ mozilla
 :
 ArrayIterator
 <
-elem_type
+value_type
 &
 self_type
 >
@@ -7018,7 +7014,7 @@ mozilla
 ArrayIterator
 <
 const
-elem_type
+value_type
 &
 self_type
 >
@@ -7269,11 +7265,11 @@ MoveConstructNonAutoArray
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -7734,11 +7730,11 @@ MoveInit
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -8066,11 +8062,11 @@ MoveInit
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -8314,7 +8310,7 @@ dereferenced
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 Elements
 (
@@ -8324,7 +8320,7 @@ MOZ_NONNULL_RETURN
 return
 reinterpret_cast
 <
-elem_type
+value_type
 *
 >
 (
@@ -8383,7 +8379,7 @@ nodiscard
 ]
 ]
 const
-elem_type
+value_type
 *
 Elements
 (
@@ -8395,7 +8391,7 @@ return
 reinterpret_cast
 <
 const
-elem_type
+value_type
 *
 >
 (
@@ -8466,7 +8462,7 @@ array
 nodiscard
 ]
 ]
-elem_type
+value_type
 &
 ElementAt
 (
@@ -8572,7 +8568,7 @@ nodiscard
 ]
 ]
 const
-elem_type
+value_type
 &
 ElementAt
 (
@@ -8690,13 +8686,13 @@ bounds
 nodiscard
 ]
 ]
-elem_type
+value_type
 &
 SafeElementAt
 (
 index_type
 aIndex
-elem_type
+value_type
 &
 aDef
 )
@@ -8791,14 +8787,14 @@ nodiscard
 ]
 ]
 const
-elem_type
+value_type
 &
 SafeElementAt
 (
 index_type
 aIndex
 const
-elem_type
+value_type
 &
 aDef
 )
@@ -8834,7 +8830,7 @@ aIndex
 nodiscard
 ]
 ]
-elem_type
+value_type
 &
 operator
 [
@@ -8865,7 +8861,7 @@ nodiscard
 ]
 ]
 const
-elem_type
+value_type
 &
 operator
 [
@@ -8898,7 +8894,7 @@ length
 nodiscard
 ]
 ]
-elem_type
+value_type
 &
 LastElement
 (
@@ -8931,7 +8927,7 @@ nodiscard
 ]
 ]
 const
-elem_type
+value_type
 &
 LastElement
 (
@@ -8965,11 +8961,11 @@ def
 nodiscard
 ]
 ]
-elem_type
+value_type
 &
 SafeLastElement
 (
-elem_type
+value_type
 &
 aDef
 )
@@ -9003,12 +8999,12 @@ nodiscard
 ]
 ]
 const
-elem_type
+value_type
 &
 SafeLastElement
 (
 const
-elem_type
+value_type
 &
 aDef
 )
@@ -9286,7 +9282,7 @@ mozilla
 :
 Span
 <
-elem_type
+value_type
 >
 (
 )
@@ -9297,7 +9293,7 @@ mozilla
 :
 Span
 <
-elem_type
+value_type
 >
 (
 Elements
@@ -9321,7 +9317,7 @@ mozilla
 Span
 <
 const
-elem_type
+value_type
 >
 (
 )
@@ -9334,7 +9330,7 @@ mozilla
 Span
 <
 const
-elem_type
+value_type
 >
 (
 Elements
@@ -9546,7 +9542,7 @@ defined
 /
 /
 for
-elem_type
+value_type
 .
 /
 /
@@ -9594,7 +9590,7 @@ Contains
 aItem
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -9760,7 +9756,7 @@ aComp
 )
 ;
 const
-elem_type
+value_type
 *
 iter
 =
@@ -9771,7 +9767,7 @@ Elements
 aStart
 ;
 const
-elem_type
+value_type
 *
 iend
 =
@@ -9863,7 +9859,7 @@ operator
 is
 defined
 for
-elem_type
+value_type
 .
 /
 /
@@ -9931,7 +9927,7 @@ aItem
 aStart
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -10093,7 +10089,7 @@ aStart
 1
 ;
 const
-elem_type
+value_type
 *
 iend
 =
@@ -10104,7 +10100,7 @@ Elements
 1
 ;
 const
-elem_type
+value_type
 *
 iter
 =
@@ -10192,7 +10188,7 @@ operator
 is
 defined
 for
-elem_type
+value_type
 .
 /
 /
@@ -10280,7 +10276,7 @@ aItem
 aStart
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -10534,7 +10530,7 @@ removed
 ]
 (
 const
-elem_type
+value_type
 &
 aElement
 )
@@ -10664,7 +10660,7 @@ BinaryIndexOf
 aItem
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -10826,11 +10822,11 @@ MoveInit
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -10993,7 +10989,7 @@ will
 be
 constructed
 using
-elem_type
+value_type
 '
 s
 default
@@ -11254,7 +11250,7 @@ ActualAlloc
 class
 Item
 >
-elem_type
+value_type
 *
 ReplaceElementsAtInternal
 (
@@ -11282,7 +11278,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 ReplaceElementsAt
 (
@@ -11338,7 +11334,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 ReplaceElementsAt
 (
@@ -11383,7 +11379,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 ReplaceElementsAt
 (
@@ -11440,7 +11436,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 ReplaceElementsAt
 (
@@ -11493,7 +11489,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 ReplaceElementAt
@@ -11506,7 +11502,7 @@ Item
 aItem
 )
 {
-elem_type
+value_type
 *
 const
 elem
@@ -11584,7 +11580,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementsAt
 (
@@ -11629,7 +11625,7 @@ Allocator
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementsAt
 (
@@ -11682,7 +11678,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementsAt
 (
@@ -11732,7 +11728,7 @@ template
 typename
 ActualAlloc
 >
-elem_type
+value_type
 *
 InsertElementAtInternal
 (
@@ -11782,7 +11778,7 @@ public
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementAt
 (
@@ -11815,7 +11811,7 @@ ActualAlloc
 class
 Item
 >
-elem_type
+value_type
 *
 InsertElementAtInternal
 (
@@ -11850,7 +11846,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementAt
 (
@@ -11966,7 +11962,7 @@ array
 idx
 ]
 =
-elem_type
+value_type
 (
 )
 /
@@ -11981,7 +11977,7 @@ thing
 as
 long
 as
-elem_type
+value_type
 has
 the
 appropriate
@@ -12005,7 +12001,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 ReconstructElementAt
@@ -12014,7 +12010,7 @@ index_type
 aIndex
 )
 {
-elem_type
+value_type
 *
 elem
 =
@@ -12289,7 +12285,7 @@ Length
 ]
 (
 const
-elem_type
+value_type
 &
 aElement
 )
@@ -12357,7 +12353,7 @@ IndexOfFirstElementGt
 aItem
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -12376,7 +12372,7 @@ Item
 class
 Comparator
 >
-elem_type
+value_type
 *
 InsertElementSortedInternal
 (
@@ -12468,7 +12464,7 @@ Comparator
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementSorted
 (
@@ -12531,7 +12527,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementSorted
 (
@@ -12565,7 +12561,7 @@ aItem
 )
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 {
@@ -12582,7 +12578,7 @@ ActualAlloc
 class
 Item
 >
-elem_type
+value_type
 *
 AppendElementsInternal
 (
@@ -12670,7 +12666,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 AppendElements
 (
@@ -12709,7 +12705,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 AppendElements
 (
@@ -12771,7 +12767,7 @@ Allocator
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 AppendElements
 (
@@ -12821,7 +12817,7 @@ Item
 class
 Allocator
 >
-elem_type
+value_type
 *
 AppendElementsInternal
 (
@@ -12879,7 +12875,7 @@ Allocator
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 AppendElements
 (
@@ -12941,7 +12937,7 @@ class
 .
 Args
 >
-elem_type
+value_type
 *
 EmplaceBackInternal
 (
@@ -12969,7 +12965,7 @@ Args
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 EmplaceBack
 (
@@ -13023,7 +13019,7 @@ ActualAlloc
 class
 Item
 >
-elem_type
+value_type
 *
 AppendElementInternal
 (
@@ -13056,7 +13052,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 AppendElement
 (
@@ -13098,7 +13094,7 @@ template
 typename
 ActualAlloc
 >
-elem_type
+value_type
 *
 AppendElementsInternal
 (
@@ -13129,7 +13125,7 @@ Length
 aCount
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -13139,7 +13135,7 @@ return
 nullptr
 ;
 }
-elem_type
+value_type
 *
 elems
 =
@@ -13233,7 +13229,7 @@ public
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 AppendElements
 (
@@ -13301,7 +13297,7 @@ public
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 AppendElement
 (
@@ -13746,7 +13742,7 @@ it
 nodiscard
 ]
 ]
-elem_type
+value_type
 PopLastElement
 (
 )
@@ -13842,7 +13838,7 @@ InvalidArrayIndex_CRASH
 )
 ;
 }
-elem_type
+value_type
 elem
 =
 std
@@ -14365,11 +14361,11 @@ ShrinkCapacityToZero
 (
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -14590,7 +14586,7 @@ operator
 is
 defined
 for
-elem_type
+value_type
 .
 template
 <
@@ -14612,7 +14608,7 @@ RemoveElement
 aItem
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -14778,7 +14774,7 @@ RemoveElementSorted
 aItem
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -14870,11 +14866,11 @@ InfallibleAlloc
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -14975,11 +14971,11 @@ InfallibleAlloc
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -15053,11 +15049,11 @@ FallibleAlloc
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 )
@@ -15111,7 +15107,7 @@ F
 maybe
 -
 const
-elem_type
+value_type
 &
 )
 /
@@ -15128,12 +15124,12 @@ size_t
 maybe
 -
 const
-elem_type
+value_type
 &
 )
 /
 /
-elem_type
+value_type
 must
 be
 const
@@ -15548,7 +15544,7 @@ size_t
 maybe
 -
 const
-elem_type
+value_type
 &
 )
 or
@@ -15559,7 +15555,7 @@ size_t
 maybe
 -
 const
-elem_type
+value_type
 &
 )
 "
@@ -15748,7 +15744,7 @@ maybe
 -
 const
 ?
-elem_type
+value_type
 &
 )
 /
@@ -15761,7 +15757,7 @@ maybe
 -
 const
 ?
-elem_type
+value_type
 &
 )
 /
@@ -15801,7 +15797,7 @@ is
 const
 the
 referenced
-elem_type
+value_type
 must
 be
 const
@@ -15938,7 +15934,7 @@ aComp
 )
 ;
 const
-elem_type
+value_type
 *
 const
 elements
@@ -15948,7 +15944,7 @@ Elements
 )
 ;
 const
-elem_type
+value_type
 *
 const
 iend
@@ -15962,7 +15958,7 @@ Length
 for
 (
 const
-elem_type
+value_type
 *
 iter
 =
@@ -15996,7 +15992,7 @@ return
 InvokeWithIndexAndOrReference
 <
 const
-elem_type
+value_type
 >
 (
 std
@@ -16119,7 +16115,7 @@ comp
 aComp
 )
 ;
-elem_type
+value_type
 *
 const
 elements
@@ -16128,7 +16124,7 @@ Elements
 (
 )
 ;
-elem_type
+value_type
 *
 const
 iend
@@ -16141,7 +16137,7 @@ Length
 ;
 for
 (
-elem_type
+value_type
 *
 iter
 =
@@ -16174,7 +16170,7 @@ aItem
 return
 InvokeWithIndexAndOrReference
 <
-elem_type
+value_type
 >
 (
 std
@@ -16238,7 +16234,7 @@ aItem
 aStart
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -16301,7 +16297,7 @@ aItem
 aStart
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 (
@@ -16564,7 +16560,7 @@ ActualAlloc
 aCapacity
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -16635,7 +16631,7 @@ be
 /
 constructed
 using
-elem_type
+value_type
 '
 s
 default
@@ -16842,7 +16838,7 @@ therefore
 be
 called
 when
-elem_type
+value_type
 has
 no
 default
@@ -17033,7 +17029,7 @@ will
 be
 constructed
 using
-elem_type
+value_type
 '
 s
 default
@@ -17174,7 +17170,7 @@ constructing
 /
 them
 using
-elem_type
+value_type
 '
 s
 default
@@ -17224,7 +17220,7 @@ template
 typename
 ActualAlloc
 >
-elem_type
+value_type
 *
 InsertElementsAtInternal
 (
@@ -17255,11 +17251,11 @@ aIndex
 aCount
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 )
@@ -17276,7 +17272,7 @@ the
 extra
 array
 elements
-elem_type
+value_type
 *
 iter
 =
@@ -17286,7 +17282,7 @@ Elements
 +
 aIndex
 ;
-elem_type
+value_type
 *
 iend
 =
@@ -17331,7 +17327,7 @@ public
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementsAt
 (
@@ -17371,7 +17367,7 @@ constructing
 them
 /
 /
-elem_type
+value_type
 '
 s
 copy
@@ -17454,7 +17450,7 @@ ActualAlloc
 class
 Item
 >
-elem_type
+value_type
 *
 InsertElementsAtInternal
 (
@@ -17480,7 +17476,7 @@ Item
 nodiscard
 ]
 ]
-elem_type
+value_type
 *
 InsertElementsAt
 (
@@ -17538,11 +17534,11 @@ ShrinkCapacity
 (
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -17632,14 +17628,14 @@ aData
 )
 ;
 const
-elem_type
+value_type
 *
 a
 =
 static_cast
 <
 const
-elem_type
+value_type
 *
 >
 (
@@ -17647,14 +17643,14 @@ aE1
 )
 ;
 const
-elem_type
+value_type
 *
 b
 =
 static_cast
 <
 const
-elem_type
+value_type
 *
 >
 (
@@ -17735,7 +17731,7 @@ detail
 CompareWrapper
 <
 Comparator
-elem_type
+value_type
 >
 comp
 (
@@ -17752,7 +17748,7 @@ Length
 )
 sizeof
 (
-elem_type
+value_type
 )
 Compare
 <
@@ -17788,7 +17784,7 @@ operator
 is
 defined
 for
-elem_type
+value_type
 .
 void
 Sort
@@ -17799,8 +17795,8 @@ Sort
 (
 nsDefaultComparator
 <
-elem_type
-elem_type
+value_type
+value_type
 >
 (
 )
@@ -17895,7 +17891,7 @@ detail
 CompareWrapper
 <
 Comparator
-elem_type
+value_type
 >
 comp
 (
@@ -17960,7 +17956,7 @@ Reverse
 (
 )
 {
-elem_type
+value_type
 *
 elements
 =
@@ -18037,7 +18033,7 @@ ShrinkCapacity
 This
 method
 invokes
-elem_type
+value_type
 '
 s
 destructor
@@ -18080,7 +18076,7 @@ size_type
 aCount
 )
 {
-elem_type
+value_type
 *
 iter
 =
@@ -18090,7 +18086,7 @@ Elements
 +
 aStart
 ;
-elem_type
+value_type
 *
 iend
 =
@@ -18126,7 +18122,7 @@ iter
 This
 method
 invokes
-elem_type
+value_type
 '
 s
 copy
@@ -18206,7 +18202,7 @@ std
 is_same_v
 <
 Item
-elem_type
+value_type
 >
 >
 :
@@ -18364,7 +18360,7 @@ ActualAlloc
 aArrayLen
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -18488,7 +18484,7 @@ aArrayLen
 )
 -
 >
-elem_type
+value_type
 *
 {
 if
@@ -18556,7 +18552,7 @@ aArrayLen
 aCount
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -18586,11 +18582,11 @@ aCount
 aArrayLen
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -18757,11 +18753,11 @@ aCount
 0
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -18918,11 +18914,11 @@ aStart
 aCount
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -18983,7 +18979,7 @@ Length
 (
 )
 ;
-elem_type
+value_type
 *
 const
 elements
@@ -19095,7 +19091,7 @@ i
 1
 sizeof
 (
-elem_type
+value_type
 )
 )
 ;
@@ -19157,7 +19153,7 @@ aItem
 )
 -
 >
-elem_type
+value_type
 *
 {
 if
@@ -19181,11 +19177,11 @@ aIndex
 aCount
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 )
@@ -19202,7 +19198,7 @@ the
 extra
 array
 elements
-elem_type
+value_type
 *
 iter
 =
@@ -19212,7 +19208,7 @@ Elements
 +
 aIndex
 ;
-elem_type
+value_type
 *
 iend
 =
@@ -19278,7 +19274,7 @@ aIndex
 )
 -
 >
-elem_type
+value_type
 *
 {
 if
@@ -19349,7 +19345,7 @@ Length
 1
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -19373,15 +19369,15 @@ aIndex
 1
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
-elem_type
+value_type
 *
 elem
 =
@@ -19436,7 +19432,7 @@ aItem
 )
 -
 >
-elem_type
+value_type
 *
 {
 if
@@ -19507,7 +19503,7 @@ Length
 1
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -19531,15 +19527,15 @@ aIndex
 1
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
-elem_type
+value_type
 *
 elem
 =
@@ -19604,7 +19600,7 @@ aArrayLen
 )
 -
 >
-elem_type
+value_type
 *
 {
 if
@@ -19630,7 +19626,7 @@ Length
 aArrayLen
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -19707,7 +19703,7 @@ aArray
 )
 -
 >
-elem_type
+value_type
 *
 {
 if
@@ -19792,11 +19788,11 @@ ShrinkCapacityToZero
 (
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -19808,11 +19804,11 @@ MoveInit
 aArray
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -19859,7 +19855,7 @@ len
 otherLen
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -19887,7 +19883,7 @@ Elements
 otherLen
 sizeof
 (
-elem_type
+value_type
 )
 )
 ;
@@ -19912,11 +19908,11 @@ otherLen
 0
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -19959,7 +19955,7 @@ aItem
 )
 -
 >
-elem_type
+value_type
 *
 {
 /
@@ -20003,7 +19999,7 @@ Length
 1
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -20013,7 +20009,7 @@ return
 nullptr
 ;
 }
-elem_type
+value_type
 *
 elem
 =
@@ -20095,7 +20091,7 @@ aArgs
 )
 -
 >
-elem_type
+value_type
 *
 {
 /
@@ -20139,7 +20135,7 @@ Length
 1
 sizeof
 (
-elem_type
+value_type
 )
 )
 )
@@ -20149,7 +20145,7 @@ return
 nullptr
 ;
 }
-elem_type
+value_type
 *
 elem
 =
@@ -20407,13 +20403,6 @@ nsTArray
 <
 E
 >
-;
-using
-typename
-base_type
-:
-:
-elem_type
 ;
 using
 typename
@@ -20767,7 +20756,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 AppendElements
@@ -20811,7 +20800,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 AppendElements
@@ -20867,7 +20856,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 AppendElements
@@ -20923,7 +20912,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 AppendElements
@@ -20974,7 +20963,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 AppendElement
@@ -21019,7 +21008,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 AppendElements
@@ -21053,7 +21042,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 AppendElement
@@ -21106,7 +21095,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementsAt
@@ -21148,7 +21137,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementsAt
@@ -21195,7 +21184,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementsAt
@@ -21245,7 +21234,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementsAt
@@ -21303,7 +21292,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementsAt
@@ -21356,7 +21345,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementAt
@@ -21395,7 +21384,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementAt
@@ -21448,7 +21437,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 ReplaceElementsAt
@@ -21498,7 +21487,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 ReplaceElementsAt
@@ -21544,7 +21533,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 ReplaceElementsAt
@@ -21591,7 +21580,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 ReplaceElementsAt
@@ -21629,7 +21618,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementSorted
@@ -21684,7 +21673,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 InsertElementSorted
@@ -21722,7 +21711,7 @@ aItem
 )
 nsDefaultComparator
 <
-elem_type
+value_type
 Item
 >
 {
@@ -21744,7 +21733,7 @@ mozilla
 :
 NotNull
 <
-elem_type
+value_type
 *
 >
 EmplaceBack
@@ -22378,14 +22367,6 @@ typename
 base_type
 :
 :
-elem_type
-elem_type
-;
-typedef
-typename
-base_type
-:
-:
 value_type
 value_type
 ;
@@ -22429,11 +22410,11 @@ MoveInit
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -22463,11 +22444,11 @@ MoveInit
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -22482,7 +22463,7 @@ AutoTArray
 (
 nsTArray_Impl
 <
-elem_type
+value_type
 Allocator
 >
 &
@@ -22502,11 +22483,11 @@ MoveInit
 aOther
 sizeof
 (
-elem_type
+value_type
 )
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ;
@@ -22593,7 +22574,7 @@ operator
 (
 nsTArray_Impl
 <
-elem_type
+value_type
 Allocator
 >
 &
@@ -22702,7 +22683,7 @@ static_assert
 (
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 <
 =
@@ -22802,7 +22783,7 @@ GetAutoArrayBuffer
 (
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 =
@@ -22843,7 +22824,7 @@ alignment
 and
 /
 /
-elem_type
+value_type
 '
 s
 alignment
@@ -22893,7 +22874,7 @@ N
 *
 sizeof
 (
-elem_type
+value_type
 )
 ]
 ;
@@ -22928,7 +22909,7 @@ Header
 >
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 )
 ?
@@ -22939,7 +22920,7 @@ Header
 :
 MOZ_ALIGNOF
 (
-elem_type
+value_type
 )
 >
 mAlign

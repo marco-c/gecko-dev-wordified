@@ -608,7 +608,7 @@ nsTArray_Impl
 >
 :
 :
-elem_type
+value_type
 /
 /
 XXX

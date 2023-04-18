@@ -476,7 +476,7 @@ public
 :
 typedef
 T
-elem_type
+value_type
 ;
 typedef
 nsTArray
@@ -593,7 +593,7 @@ be
 dereferenced
 .
 const
-elem_type
+value_type
 *
 Elements
 (
@@ -608,7 +608,7 @@ Elements
 )
 ;
 }
-elem_type
+value_type
 *
 Elements
 (
@@ -694,7 +694,7 @@ of
 the
 array
 .
-elem_type
+value_type
 &
 ElementAt
 (
@@ -720,7 +720,7 @@ but
 readonly
 .
 const
-elem_type
+value_type
 &
 ElementAt
 (
@@ -805,13 +805,13 @@ out
 of
 bounds
 .
-elem_type
+value_type
 &
 SafeElementAt
 (
 index_type
 aIndex
-elem_type
+value_type
 &
 aDef
 )
@@ -835,14 +835,14 @@ but
 readonly
 .
 const
-elem_type
+value_type
 &
 SafeElementAt
 (
 index_type
 aIndex
 const
-elem_type
+value_type
 &
 aDef
 )
@@ -944,7 +944,7 @@ must
 be
 defined
 for
-elem_type
+value_type
 .
 /
 /
@@ -1030,7 +1030,7 @@ must
 be
 defined
 for
-elem_type
+value_type
 .
 /
 /
@@ -1185,7 +1185,7 @@ to
 avoid
 temporaries
 .
-elem_type
+value_type
 *
 InsertElementAt
 (
@@ -1193,7 +1193,7 @@ index_type
 aIndex
 )
 {
-elem_type
+value_type
 *
 item
 =
@@ -1241,7 +1241,7 @@ must
 be
 defined
 for
-elem_type
+value_type
 .
 /
 /
@@ -1360,7 +1360,7 @@ avoid
 /
 temporaries
 .
-elem_type
+value_type
 *
 AppendElement
 (
@@ -1401,7 +1401,7 @@ must
 be
 defined
 for
-elem_type
+value_type
 .
 /
 /
@@ -1541,7 +1541,7 @@ must
 be
 defined
 for
-elem_type
+value_type
 .
 /
 /
@@ -1680,7 +1680,7 @@ RemoveElementsBy
 ]
 (
 const
-elem_type
+value_type
 &
 aItem
 )
@@ -2300,7 +2300,7 @@ The
 next
 observer
 .
-elem_type
+value_type
 &
 GetNext
 (
@@ -2554,7 +2554,7 @@ The
 next
 observer
 .
-elem_type
+value_type
 &
 GetNext
 (
@@ -2864,7 +2864,7 @@ The
 next
 observer
 .
-elem_type
+value_type
 &
 GetNext
 (

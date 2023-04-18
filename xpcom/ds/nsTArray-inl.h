@@ -875,7 +875,7 @@ don
 '
 t
 know
-elem_type
+value_type
 '
 s
 alignment
@@ -1140,7 +1140,7 @@ We
 statically
 assert
 that
-elem_type
+value_type
 '
 s
 /

@@ -38756,7 +38756,7 @@ Flatten
 OriginInfosFlatTraversable
 :
 :
-elem_type
+value_type
 >
 (
 aDoomedOriginInfos
@@ -38839,7 +38839,7 @@ Flatten
 OriginInfosFlatTraversable
 :
 :
-elem_type
+value_type
 >
 (
 aDoomedOriginInfos

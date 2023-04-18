@@ -4197,7 +4197,7 @@ typename
 Container
 :
 :
-elem_type
+value_type
 *
 pointer
 >
@@ -4212,7 +4212,7 @@ typename
 Container
 :
 :
-elem_type
+value_type
 *
 decltype
 (
@@ -4325,7 +4325,7 @@ typename
 Container
 :
 :
-elem_type
+value_type
 *
 pointer
 >
@@ -4340,7 +4340,7 @@ typename
 Container
 :
 :
-elem_type
+value_type
 *
 decltype
 (
