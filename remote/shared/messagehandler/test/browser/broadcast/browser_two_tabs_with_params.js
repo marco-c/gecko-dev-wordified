@@ -171,7 +171,6 @@ some
 value
 "
 }
-contextDescriptorAll
 rootMessageHandler
 )
 ;
