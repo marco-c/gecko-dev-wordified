@@ -174,8 +174,6 @@ ConnectionMainThread
 nsPIDOMWindowInner
 *
 aWindow
-bool
-aShouldResistFingerprinting
 )
 ;
 /
