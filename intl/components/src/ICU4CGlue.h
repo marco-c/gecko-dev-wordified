@@ -1658,7 +1658,7 @@ size
 /
 /
 Use
-faillible
+fallible
 behavior
 here
 .
