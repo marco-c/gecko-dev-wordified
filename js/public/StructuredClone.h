@@ -5133,6 +5133,17 @@ str
 ;
 JS_PUBLIC_API
 bool
+JS_WriteDouble
+(
+JSStructuredCloneWriter
+*
+w
+double
+v
+)
+;
+JS_PUBLIC_API
+bool
 JS_WriteTypedArray
 (
 JSStructuredCloneWriter
