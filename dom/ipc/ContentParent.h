@@ -7000,6 +7000,9 @@ PFileDescriptorSetParent
 *
 )
 ;
+#
+ifdef
+MOZ_WEBRTC
 PWebrtcGlobalParent
 *
 AllocPWebrtcGlobalParent
@@ -7014,6 +7017,8 @@ PWebrtcGlobalParent
 aActor
 )
 ;
+#
+endif
 mozilla
 :
 :

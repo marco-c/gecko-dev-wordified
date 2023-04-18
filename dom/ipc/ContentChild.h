@@ -2958,6 +2958,9 @@ nsCString
 aDictionaries
 )
 ;
+#
+ifdef
+MOZ_WEBRTC
 PWebrtcGlobalChild
 *
 AllocPWebrtcGlobalChild
@@ -2972,6 +2975,8 @@ PWebrtcGlobalChild
 aActor
 )
 ;
+#
+endif
 PContentPermissionRequestChild
 *
 AllocPContentPermissionRequestChild
