@@ -13103,9 +13103,6 @@ extensionApi
 inputHandling
 =
 false
-resetIdleOnEvent
-=
-true
 }
 =
 params
@@ -13145,12 +13142,6 @@ this
 inputHandling
 =
 inputHandling
-;
-this
-.
-resetIdleOnEvent
-=
-resetIdleOnEvent
 ;
 if
 (
@@ -15300,14 +15291,6 @@ resetIdle
 )
 =
 >
-{
-if
-(
-this
-.
-resetIdleOnEvent
-)
-{
 extension
 ?
 .
@@ -15323,9 +15306,6 @@ reset
 idle
 "
 )
-;
-}
-}
 ;
 let
 fire

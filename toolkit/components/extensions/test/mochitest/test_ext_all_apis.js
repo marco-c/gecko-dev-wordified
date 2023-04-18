@@ -545,16 +545,6 @@ onStartup
 "
 runtime
 .
-onSuspend
-"
-"
-runtime
-.
-onSuspendCanceled
-"
-"
-runtime
-.
 onUpdateAvailable
 "
 "
