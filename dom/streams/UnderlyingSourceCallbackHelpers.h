@@ -380,7 +380,7 @@ StartCallback
 JSContext
 *
 aCx
-ReadableStreamDefaultController
+ReadableStreamController
 &
 aController
 JS
@@ -477,7 +477,7 @@ PullCallback
 JSContext
 *
 aCx
-ReadableStreamDefaultController
+ReadableStreamController
 &
 aController
 ErrorResult
@@ -570,7 +570,7 @@ PullCallback
 JSContext
 *
 aCx
-ReadableStreamDefaultController
+ReadableStreamController
 &
 aController
 ErrorResult

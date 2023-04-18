@@ -5942,7 +5942,17 @@ QueuingStrategy
 webidl
 "
 "
+ReadableByteStreamController
+.
+webidl
+"
+"
 ReadableStream
+.
+webidl
+"
+"
+ReadableStreamBYOBRequest
 .
 webidl
 "
