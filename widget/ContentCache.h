@@ -289,7 +289,10 @@ text
 in
 the
 target
+Maybe
+<
 nsString
+>
 mText
 ;
 /
@@ -1137,6 +1140,13 @@ mSelection
 mHasRange
 &
 &
+mText
+.
+isSome
+(
+)
+&
+&
 mSelection
 -
 >
@@ -1146,7 +1156,8 @@ EndOffset
 <
 =
 mText
-.
+-
+>
 Length
 (
 )
