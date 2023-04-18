@@ -216,8 +216,11 @@ unused
 -
 vars
 const
-global
+obj
 =
+{
+global
+:
 {
 clearInterval
 clearTimeout
@@ -226,6 +229,7 @@ setIntervalWithTarget
 setTimeout
 setTimeoutWithTarget
 Date
+}
 }
 ;
 Services
@@ -253,12 +257,14 @@ sinon
 .
 js
 "
-this
+obj
 )
 ;
 const
 sinon
 =
+obj
+.
 global
 .
 sinon
