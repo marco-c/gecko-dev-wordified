@@ -10302,6 +10302,17 @@ ins
 return
 ;
 }
+#
+ifdef
+ENABLE_RECORD_TUPLE
+case
+JSTYPE_RECORD
+:
+case
+JSTYPE_TUPLE
+:
+#
+endif
 case
 JSTYPE_LIMIT
 :
