@@ -48,7 +48,7 @@ assert_equals
 typeof
 self
 .
-getScreens
+getScreenDetails
 '
 function
 '
@@ -56,7 +56,7 @@ function
 ;
 }
 '
-getScreens
+getScreenDetails
 (
 )
 is
@@ -96,7 +96,7 @@ screensInterface
 await
 self
 .
-getScreens
+getScreenDetails
 (
 )
 ;
@@ -381,7 +381,7 @@ string
 ;
 }
 '
-getScreens
+getScreenDetails
 (
 )
 returns
@@ -427,7 +427,7 @@ assert_greater_than
 await
 self
 .
-getScreens
+getScreenDetails
 (
 )
 )
@@ -466,14 +466,14 @@ NotAllowedError
 '
 self
 .
-getScreens
+getScreenDetails
 (
 )
 )
 ;
 }
 '
-getScreens
+getScreenDetails
 (
 )
 rejects
@@ -538,7 +538,7 @@ iframe
 .
 contentWindow
 .
-getScreens
+getScreenDetails
 (
 )
 )
@@ -590,7 +590,7 @@ iframe
 .
 contentWindow
 .
-getScreens
+getScreenDetails
 ;
 constructor
 =
@@ -673,7 +673,7 @@ iframeGetScreens
 ;
 }
 "
-getScreens
+getScreenDetails
 (
 )
 resolves
@@ -741,7 +741,7 @@ iframe
 .
 contentWindow
 .
-getScreens
+getScreenDetails
 (
 )
 ;
