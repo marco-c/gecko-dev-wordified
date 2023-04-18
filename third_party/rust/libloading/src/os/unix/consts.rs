@@ -110,7 +110,7 @@ process
 /
 execution
 this
-behavior
+behaviour
 mimics
 the
 normal
@@ -219,7 +219,7 @@ never
 referenced
 .
 This
-behavior
+behaviour
 may
 be
 useful

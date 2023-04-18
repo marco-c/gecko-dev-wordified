@@ -2,6 +2,15 @@ use
 std
 :
 :
+borrow
+:
+:
+Cow
+;
+use
+std
+:
+:
 ffi
 :
 :
@@ -9,15 +18,6 @@ ffi
 CStr
 CString
 }
-;
-use
-std
-:
-:
-borrow
-:
-:
-Cow
 ;
 use
 std
@@ -39,6 +39,7 @@ Error
 /
 Checks
 for
+the
 last
 byte
 and
@@ -193,6 +194,7 @@ _
 )
 =
 >
+{
 Cow
 :
 :
@@ -221,6 +223,7 @@ source
 )
 ?
 )
+}
 }
 )
 }

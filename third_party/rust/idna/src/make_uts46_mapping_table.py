@@ -131,10 +131,6 @@ latest
 IdnaMappingTable
 .
 txt
-from
-__future__
-import
-print_function
 import
 collections
 import
@@ -150,7 +146,7 @@ print
 Copyright
 2013
 -
-2014
+2020
 The
 rust
 -
@@ -295,7 +291,7 @@ s
 :
     
 return
-unichr
+chr
 (
 int
 (
@@ -896,9 +892,7 @@ g1
 g2
 )
 in
-itertools
-.
-izip
+zip
 (
 a
 b
@@ -1220,8 +1214,6 @@ static
 TABLE
 :
 &
-'
-static
 [
 Range
 ]
@@ -1311,8 +1303,6 @@ static
 INDEX_TABLE
 :
 &
-'
-static
 [
 u16
 ]
@@ -1393,8 +1383,6 @@ static
 MAPPING_TABLE
 :
 &
-'
-static
 [
 Mapping
 ]
@@ -1481,8 +1469,6 @@ static
 STRING_TABLE
 :
 &
-'
-static
 str
 =
 \
@@ -1519,7 +1505,7 @@ s
 in
 strtab
 .
-iterkeys
+keys
 (
 )
 ]

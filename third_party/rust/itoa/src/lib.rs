@@ -810,7 +810,7 @@ itoa
 .
 4
 .
-7
+8
 "
 )
 ]
@@ -862,7 +862,9 @@ clippy
 "
 allow
 (
-const_static_lifetime
+expl_impl_clone_on_copy
+missing_errors_doc
+must_use_candidate
 transmute_ptr_to_ptr
 )
 )

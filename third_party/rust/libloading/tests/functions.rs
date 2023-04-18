@@ -1190,7 +1190,7 @@ windows
 gnu
 makes
 dll
-initialization
+initialisation
 code
 call
 abort
@@ -1613,7 +1613,7 @@ well
 known
 library
 without
-initializers
+initialisers
 is
 loaded
 .

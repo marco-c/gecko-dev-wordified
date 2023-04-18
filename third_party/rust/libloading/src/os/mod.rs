@@ -5,6 +5,7 @@ Unsafe
 but
 flexible
 platform
+-
 specific
 bindings
 to
@@ -24,9 +25,8 @@ modules
 expose
 more
 extensive
+and
 powerful
-less
-principled
 bindings
 to
 the

@@ -116,7 +116,7 @@ of
 size
 up
 to
-4
+12
 .
 pub
 trait
@@ -484,6 +484,7 @@ information
 derive
 (
 Clone
+Debug
 )
 ]
 #
