@@ -1009,6 +1009,8 @@ AsVideoSessionConduit
 0
 ;
 virtual
+Maybe
+<
 webrtc
 :
 :
@@ -1016,6 +1018,7 @@ Call
 :
 :
 Stats
+>
 GetCallStats
 (
 )
