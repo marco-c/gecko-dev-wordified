@@ -9348,7 +9348,10 @@ jsm
 )
 ;
 let
-detectorModule
+{
+LanguageDetector
+workerManager
+}
 =
 ChromeUtils
 .
@@ -9368,15 +9371,7 @@ LanguageDetector
 .
 jsm
 "
-null
 )
-;
-const
-LanguageDetector
-=
-detectorModule
-.
-LanguageDetector
 ;
 function
 check_result
@@ -9841,7 +9836,7 @@ the
 test
 infrastructure
 .
-detectorModule
+workerManager
 .
 LARGE_STRING
 =
@@ -9851,7 +9846,7 @@ length
 -
 1
 ;
-detectorModule
+workerManager
 .
 IDLE_TIMEOUT
 =
@@ -9859,8 +9854,6 @@ IDLE_TIMEOUT
 ;
 equal
 (
-detectorModule
-.
 workerManager
 .
 _idleTimeout
@@ -9926,8 +9919,6 @@ string
 .
 ok
 (
-detectorModule
-.
 workerManager
 .
 _idleTimeout
@@ -9945,8 +9936,6 @@ timeout
 ;
 ok
 (
-detectorModule
-.
 workerManager
 .
 _worker
@@ -9964,8 +9953,6 @@ instance
 ;
 ok
 (
-detectorModule
-.
 workerManager
 .
 _workerReadyPromise
@@ -10001,7 +9988,7 @@ resolve
 setTimeout
 (
 resolve
-detectorModule
+workerManager
 .
 IDLE_TIMEOUT
 )
@@ -10009,8 +9996,6 @@ IDLE_TIMEOUT
 ;
 equal
 (
-detectorModule
-.
 workerManager
 .
 _idleTimeout
@@ -10030,8 +10015,6 @@ elapsed
 ;
 equal
 (
-detectorModule
-.
 workerManager
 .
 _worker
@@ -10050,8 +10033,6 @@ timeout
 ;
 equal
 (
-detectorModule
-.
 workerManager
 .
 _workerReadyPromise
