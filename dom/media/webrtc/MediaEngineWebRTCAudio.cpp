@@ -2759,6 +2759,11 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+ApplySettings
+(
+mCurrentPrefs
+)
+;
 NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
@@ -2826,11 +2831,6 @@ principal
 ;
 }
 )
-)
-;
-ApplySettings
-(
-mCurrentPrefs
 )
 ;
 MOZ_ASSERT
