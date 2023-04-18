@@ -807,9 +807,6 @@ softDisabled
 embedderDisabled
 "
 "
-existingAddonID
-"
-"
 sourceURI
 "
 "
