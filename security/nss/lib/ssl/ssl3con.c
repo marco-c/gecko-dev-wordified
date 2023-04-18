@@ -3991,7 +3991,9 @@ if
 ss
 -
 >
-version
+vrange
+.
+min
 <
 SSL_LIBRARY_VERSION_TLS_1_3
 &
