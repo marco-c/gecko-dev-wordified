@@ -8940,8 +8940,6 @@ the
 outbound
 arg
 area
-16
--
 aligned
 (
 stackArgAreaSizeAligned
