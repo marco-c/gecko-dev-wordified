@@ -11422,7 +11422,7 @@ live
 globalRealm
 -
 >
-traceGlobal
+traceGlobalData
 (
 trc
 )

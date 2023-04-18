@@ -7930,7 +7930,7 @@ zone
 r
 -
 >
-traceWeakObjects
+traceWeakGlobalEdge
 (
 &
 trc

@@ -3176,7 +3176,7 @@ trc
 r
 -
 >
-traceWeakObjects
+traceWeakGlobalEdge
 (
 trc
 )
