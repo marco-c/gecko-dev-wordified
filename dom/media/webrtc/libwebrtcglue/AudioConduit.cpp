@@ -5200,9 +5200,7 @@ mCbrEnabled
 {
 parameters
 [
-"
-cbr
-"
+kCodecParamCbr
 ]
 =
 kParamValueTrue
