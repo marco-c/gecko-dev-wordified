@@ -2343,7 +2343,7 @@ enabled
 {
 gMainPane
 .
-initBrowserLocale
+initPrimaryBrowserLanguageUI
 (
 )
 ;
@@ -2838,7 +2838,7 @@ function
 {
 gMainPane
 .
-showBrowserLanguages
+showBrowserLanguagesSubDialog
 (
 {
 search
@@ -6745,7 +6745,7 @@ hidden
 false
 ;
 }
-initBrowserLocale
+initPrimaryBrowserLanguageUI
 (
 )
 {
@@ -6789,7 +6789,7 @@ document
 getElementById
 (
 "
-defaultBrowserLanguage
+primaryBrowserLocale
 "
 )
 ;
@@ -6803,7 +6803,7 @@ event
 {
 gMainPane
 .
-onBrowserLanguageChange
+onPrimaryBrowserLanguageMenuChange
 (
 event
 )
@@ -6813,7 +6813,7 @@ event
 ;
 gMainPane
 .
-setBrowserLocales
+updatePrimaryBrowserLanguageUI
 (
 Services
 .
@@ -6871,7 +6871,7 @@ confirmation
 *
 /
 async
-setBrowserLocales
+updatePrimaryBrowserLanguageUI
 (
 selected
 )
@@ -7057,7 +7057,7 @@ menuitem
 id
 =
 "
-defaultBrowserLanguageSearch
+primaryBrowserLocaleSearch
 "
 ;
 menuitem
@@ -7112,7 +7112,7 @@ document
 getElementById
 (
 "
-defaultBrowserLanguage
+primaryBrowserLocale
 "
 )
 ;
@@ -7696,7 +7696,7 @@ false
 ;
 gMainPane
 .
-selectedLocales
+selectedLocalesForRestart
 =
 locales
 ;
@@ -7955,7 +7955,7 @@ locale
 .
 *
 /
-onBrowserLanguageChange
+onPrimaryBrowserLanguageMenuChange
 (
 event
 )
@@ -7981,7 +7981,7 @@ search
 {
 gMainPane
 .
-showBrowserLanguages
+showBrowserLanguagesSubDialog
 (
 {
 search
@@ -9118,7 +9118,7 @@ value
 )
 ;
 }
-showBrowserLanguages
+showBrowserLanguagesSubDialog
 (
 {
 search
@@ -9183,11 +9183,11 @@ let
 opts
 =
 {
-selected
+selectedLocalesForRestart
 :
 gMainPane
 .
-selectedLocales
+selectedLocalesForRestart
 search
 telemetryId
 }
@@ -9330,7 +9330,7 @@ selected
 ;
 gMainPane
 .
-setBrowserLocales
+updatePrimaryBrowserLanguageUI
 (
 selected
 [
@@ -9354,7 +9354,7 @@ UI
 .
 gMainPane
 .
-setBrowserLocales
+updatePrimaryBrowserLanguageUI
 (
 Services
 .

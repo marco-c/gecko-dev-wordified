@@ -1247,7 +1247,7 @@ doc
 getElementById
 (
 "
-defaultBrowserLanguageSearch
+primaryBrowserLocaleSearch
 "
 )
 .
@@ -1260,7 +1260,7 @@ doc
 getElementById
 (
 "
-defaultBrowserLanguage
+primaryBrowserLocale
 "
 )
 .
@@ -4649,7 +4649,7 @@ doc
 getElementById
 (
 "
-defaultBrowserLanguage
+primaryBrowserLocale
 "
 )
 ;
@@ -4789,7 +4789,7 @@ doc
 getElementById
 (
 "
-defaultBrowserLanguage
+primaryBrowserLocale
 "
 )
 ;
@@ -5053,7 +5053,7 @@ doc
 getElementById
 (
 "
-defaultBrowserLanguage
+primaryBrowserLocale
 "
 )
 ;
