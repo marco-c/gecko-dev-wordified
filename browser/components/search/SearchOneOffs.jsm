@@ -3232,9 +3232,7 @@ this
 .
 window
 .
-windowUtils
-.
-screenPixelsPerCSSPixel
+devicePixelRatio
 ;
 if
 (
