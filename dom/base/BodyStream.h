@@ -744,9 +744,9 @@ JSObject
 *
 >
 aBuffer
-size_t
+uint32_t
 aLength
-size_t
+uint32_t
 *
 aByteWritten
 )
