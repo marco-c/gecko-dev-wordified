@@ -333,9 +333,6 @@ targetCommand
 .
 watchTargets
 (
-{
-types
-:
 [
 this
 .
@@ -347,12 +344,9 @@ TYPES
 .
 FRAME
 ]
-onAvailable
-:
 this
 .
 _onTargetAvailable
-}
 )
 ;
 /
@@ -513,9 +507,6 @@ targetCommand
 .
 unwatchTargets
 (
-{
-types
-:
 [
 this
 .
@@ -527,12 +518,9 @@ TYPES
 .
 FRAME
 ]
-onAvailable
-:
 this
 .
 _onTargetAvailable
-}
 )
 ;
 await

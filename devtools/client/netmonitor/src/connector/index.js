@@ -659,9 +659,6 @@ targetCommand
 .
 watchTargets
 (
-{
-types
-:
 [
 this
 .
@@ -673,12 +670,9 @@ TYPES
 .
 FRAME
 ]
-onAvailable
-:
 this
 .
 onTargetAvailable
-}
 )
 ;
 const
@@ -897,9 +891,6 @@ targetCommand
 .
 unwatchTargets
 (
-{
-types
-:
 [
 this
 .
@@ -911,12 +902,9 @@ TYPES
 .
 FRAME
 ]
-onAvailable
-:
 this
 .
 onTargetAvailable
-}
 )
 ;
 const

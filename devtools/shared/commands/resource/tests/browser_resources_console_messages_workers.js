@@ -222,9 +222,6 @@ targetCommand
 .
 watchTargets
 (
-{
-types
-:
 [
 targetCommand
 .
@@ -233,7 +230,6 @@ TYPES
 WORKER
 ]
 onAvailable
-}
 )
 ;
 }

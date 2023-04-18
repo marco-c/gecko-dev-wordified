@@ -2055,7 +2055,7 @@ init
 This
 is
 a
-distionary
+distionarry
 of
 arrays
 keyed
@@ -2195,9 +2195,6 @@ targetCommand
 .
 watchTargets
 (
-{
-types
-:
 [
 this
 .
@@ -2209,17 +2206,12 @@ TYPES
 .
 FRAME
 ]
-onAvailable
-:
 this
 .
 _onTargetAvailable
-onDestroyed
-:
 this
 .
 _onTargetDestroyed
-}
 )
 ;
 this
