@@ -1225,7 +1225,7 @@ surface_index
 0
 ]
 .
-local_rect
+unclipped_local_rect
 .
 cast_unit
 (
