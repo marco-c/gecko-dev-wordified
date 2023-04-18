@@ -1960,13 +1960,6 @@ isAsync
 )
 const
 ;
-void
-setAsync
-(
-bool
-isAsync
-)
-;
 bool
 isAsyncEvaluating
 (
