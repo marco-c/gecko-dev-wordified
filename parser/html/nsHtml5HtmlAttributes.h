@@ -326,9 +326,6 @@ class
 nsHtml5TreeBuilder
 ;
 class
-nsHtml5MetaScanner
-;
-class
 nsHtml5AttributeName
 ;
 class
