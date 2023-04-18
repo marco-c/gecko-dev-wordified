@@ -7462,6 +7462,18 @@ except
 ValueError
 :
             
+if
+raw_value
+=
+=
+"
+never
+"
+:
+                
+return
+0
+            
 pass
         
 value
