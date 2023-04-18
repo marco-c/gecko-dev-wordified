@@ -725,11 +725,6 @@ nodiscard
 bool
 fillFuncRef
 (
-Maybe
-<
-Tier
->
-tier
 uint32_t
 index
 uint32_t
