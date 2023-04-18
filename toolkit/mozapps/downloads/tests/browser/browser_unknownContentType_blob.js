@@ -742,7 +742,7 @@ doc
 getElementById
 (
 "
-downloadsRichListBox
+downloadsListBox
 "
 )
 ;

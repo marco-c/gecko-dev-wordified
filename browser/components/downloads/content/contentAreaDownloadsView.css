@@ -57,7 +57,7 @@ MPL
 *
 /
 #
-downloadsRichListBox
+downloadsListBox
 :
 not
 (
@@ -68,7 +68,7 @@ empty
 #
 downloadsListEmptyDescription
 #
-downloadsRichListBox
+downloadsListBox
 :
 empty
 {

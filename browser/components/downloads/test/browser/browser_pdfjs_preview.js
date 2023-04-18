@@ -935,7 +935,7 @@ itemSelector
 :
 "
 #
-downloadsRichListBox
+downloadsListBox
 richlistitem
 .
 downloadContainer
@@ -1020,7 +1020,7 @@ itemSelector
 :
 "
 #
-downloadsRichListBox
+downloadsListBox
 richlistitem
 .
 downloadContainer
@@ -1133,7 +1133,7 @@ itemSelector
 :
 "
 #
-downloadsRichListBox
+downloadsListBox
 richlistitem
 .
 downloadContainer
@@ -1219,7 +1219,7 @@ itemSelector
 :
 "
 #
-downloadsRichListBox
+downloadsListBox
 richlistitem
 .
 downloadContainer
@@ -1308,7 +1308,7 @@ itemSelector
 :
 "
 #
-downloadsRichListBox
+downloadsListBox
 richlistitem
 .
 downloadContainer
@@ -1411,7 +1411,7 @@ itemSelector
 :
 "
 #
-downloadsRichListBox
+downloadsListBox
 richlistitem
 .
 downloadContainer
@@ -2893,7 +2893,7 @@ document
 getElementById
 (
 "
-downloadsRichListBox
+downloadsListBox
 "
 )
 ;
@@ -3333,7 +3333,7 @@ document
 getElementById
 (
 "
-downloadsRichListBox
+downloadsListBox
 "
 )
 .
