@@ -430,7 +430,7 @@ wsaData
 endif
 /
 *
-Initalize
+Initialize
 the
 event
 library

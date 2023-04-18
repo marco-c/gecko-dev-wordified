@@ -380,6 +380,7 @@ NULL
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 *
 event_mm_malloc_
@@ -453,6 +454,7 @@ NULL
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 *
 event_mm_calloc_
@@ -529,6 +531,7 @@ NULL
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 char
 *
 event_mm_strdup_
@@ -539,6 +542,7 @@ char
 str
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 *
 event_mm_realloc_
@@ -550,6 +554,7 @@ size_t
 sz
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_mm_free_
 (

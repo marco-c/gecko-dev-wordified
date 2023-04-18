@@ -335,7 +335,6 @@ below
 )
 Note
 also
-also
 that
 we
 are

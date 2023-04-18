@@ -663,7 +663,7 @@ return
 ;
 /
 *
-Initalize
+Initialize
 the
 event
 library
@@ -675,7 +675,7 @@ event_init
 ;
 /
 *
-Initalize
+Initialize
 one
 event
 *

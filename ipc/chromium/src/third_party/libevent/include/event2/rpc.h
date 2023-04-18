@@ -283,6 +283,32 @@ EVENT2_RPC_H_INCLUDED_
 #
 define
 EVENT2_RPC_H_INCLUDED_
+/
+*
+For
+int
+types
+.
+*
+/
+#
+include
+<
+event2
+/
+util
+.
+h
+>
+#
+include
+<
+event2
+/
+visibility
+.
+h
+>
 #
 ifdef
 __cplusplus
@@ -1309,6 +1335,8 @@ rpc_data
 }
 ;
 \
+EVENT2_EXPORT_SYMBOL
+\
 int
 evrpc_send_request_
 #
@@ -1361,6 +1389,7 @@ EVRPC_GENERATE
 instead
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 evrpc_request_wrapper
 *
@@ -1956,6 +1985,7 @@ rpc
 request
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_request_done
 (
@@ -1975,6 +2005,7 @@ and
 reply
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 *
 evrpc_get_request
@@ -1985,6 +2016,7 @@ evrpc_req_generic
 req
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 *
 evrpc_get_reply
@@ -2140,6 +2172,12 @@ newly
 allocated
 evrpc_base
 struct
+or
+NULL
+if
+an
+error
+occurred
 *
 see
 evrpc_free
@@ -2147,6 +2185,7 @@ evrpc_free
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 evrpc_base
 *
@@ -2197,6 +2236,7 @@ see
 evrpc_init
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_free
 (
@@ -2399,7 +2439,7 @@ void
 request
 #
 #
-_new
+_new_with_arg
 NULL
 \
 (
@@ -2449,7 +2489,7 @@ void
 reply
 #
 #
-_new
+_new_with_arg
 NULL
 \
 (
@@ -2526,6 +2566,7 @@ EVRPC_REGISTER
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evrpc_register_rpc
 (
@@ -2615,6 +2656,7 @@ base
 #
 name
 )
+EVENT2_EXPORT_SYMBOL
 int
 evrpc_unregister_rpc
 (
@@ -2884,6 +2926,7 @@ EVRPC_MAKE_CTX
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evrpc_make_request
 (
@@ -2954,6 +2997,13 @@ allocated
 struct
 evrpc_pool
 object
+or
+NULL
+if
+an
+error
+*
+occurred
 *
 see
 evrpc_pool_free
@@ -2961,6 +3011,7 @@ evrpc_pool_free
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 evrpc_pool
 *
@@ -3001,6 +3052,7 @@ evrpc_pool_new
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_pool_free
 (
@@ -3063,6 +3115,7 @@ pool
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_pool_add_connection
 (
@@ -3123,6 +3176,7 @@ pool
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_pool_remove_connection
 (
@@ -3270,6 +3324,7 @@ callback
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_pool_set_timeout
 (
@@ -3594,6 +3649,7 @@ evrpc_remove_hook
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 *
 evrpc_add_hook
@@ -3680,6 +3736,7 @@ evrpc_add_hook
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evrpc_remove_hook
 (
@@ -3728,6 +3785,7 @@ hook
 call
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evrpc_resume_request
 (
@@ -3832,6 +3890,7 @@ the
 data
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_hook_add_meta
 (
@@ -3936,6 +3995,7 @@ on
 failure
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evrpc_hook_find_meta
 (
@@ -3986,8 +4046,16 @@ to
 the
 evhttp_connection
 object
+or
+NULL
+if
+an
+error
+*
+occurred
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 evhttp_connection
 *
@@ -4027,6 +4095,7 @@ EVRPC_MAKE_REQUEST
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evrpc_send_request_generic
 (
@@ -4130,6 +4199,7 @@ EVRPC_REGISTER
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evrpc_register_generic
 (
@@ -4246,6 +4316,7 @@ undocumented
 functionality
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 evrpc_pool
 *
@@ -4257,6 +4328,7 @@ evrpc_request_wrapper
 ctx
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_request_set_pool
 (
@@ -4270,6 +4342,7 @@ evrpc_pool
 pool
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evrpc_request_set_cb
 (

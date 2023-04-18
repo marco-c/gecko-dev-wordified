@@ -1674,7 +1674,7 @@ implement
 the
 common
 signal
-handelr
+handler
 code
 .
 *
@@ -2634,6 +2634,18 @@ h
 /
 #
 ifndef
+LIST_END
+#
+define
+LIST_END
+(
+head
+)
+NULL
+#
+endif
+#
+ifndef
 TAILQ_FIRST
 #
 define
@@ -2995,7 +3007,7 @@ event_del_nolock_
 Tells
 event_del
 to
-procede
+proceed
 even
 if
 the
@@ -3050,6 +3062,7 @@ short
 count
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 event_callback_activate_
 (
@@ -3112,6 +3125,7 @@ void
 )
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_callback_finalize_
 (
@@ -3167,6 +3181,7 @@ void
 )
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 event_active_later_
 (
@@ -3237,6 +3252,7 @@ document
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 event_base_add_virtual_
 (
@@ -3295,6 +3311,7 @@ failure
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 event_base_assert_ok_
 (

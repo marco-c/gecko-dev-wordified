@@ -5,7 +5,8 @@ usr
 /
 bin
 /
-python2
+env
+python
 #
 #
 Post
@@ -103,12 +104,12 @@ except
 ValueError
 :
     
-print
->
->
 sys
 .
 stderr
+.
+write
+(
 "
 Missing
 expected
@@ -118,6 +119,7 @@ in
 dumpevents
 output
 "
+)
     
 sys
 .
@@ -139,12 +141,12 @@ got_active_pos
 )
 :
     
-print
->
->
 sys
 .
 stderr
+.
+write
+(
 "
 Sections
 out
@@ -154,6 +156,7 @@ in
 dumpevents
 output
 "
+)
     
 sys
 .
@@ -366,12 +369,12 @@ cleaned_inserted
 want_inserted
 :
     
-print
->
->
 sys
 .
 stderr
+.
+write
+(
 "
 Inserted
 event
@@ -382,6 +385,7 @@ as
 expected
 !
 "
+)
     
 sys
 .
@@ -402,12 +406,12 @@ want_active
 )
 :
     
-print
->
->
 sys
 .
 stderr
+.
+write
+(
 "
 Active
 event
@@ -418,6 +422,7 @@ as
 expected
 !
 "
+)
     
 sys
 .

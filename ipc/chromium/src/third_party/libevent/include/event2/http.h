@@ -670,6 +670,11 @@ initialized
 evhttp
 server
 structure
+or
+NULL
+*
+on
+error
 *
 see
 evhttp_free
@@ -3476,6 +3481,11 @@ used
 for
 making
 requests
+or
+*
+NULL
+on
+error
 *
 /
 EVENT2_EXPORT_SYMBOL
@@ -4189,6 +4199,11 @@ used
 for
 making
 requests
+or
+*
+NULL
+on
+error
 *
 /
 EVENT2_EXPORT_SYMBOL
@@ -5922,7 +5937,7 @@ encoded
 string
 .
 Unlike
-evhttp_get_decoded_uri
+evhttp_uridecode
 it
 decodes
 all
@@ -5978,7 +5993,7 @@ probably
 want
 to
 use
-evhttp_get_decoded_uri
+evhttp_uridecode
 instead
 .
 param

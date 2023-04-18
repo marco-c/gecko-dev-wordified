@@ -678,7 +678,7 @@ EVUTIL_SHUT_WR
 ;
 /
 *
-Initalize
+Initialize
 the
 event
 library
@@ -690,7 +690,7 @@ event_init
 ;
 /
 *
-Initalize
+Initialize
 one
 event
 *

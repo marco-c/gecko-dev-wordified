@@ -735,6 +735,11 @@ Finalize
 library
 *
 /
+event_free
+(
+ev
+)
+;
 event_base_free
 (
 base

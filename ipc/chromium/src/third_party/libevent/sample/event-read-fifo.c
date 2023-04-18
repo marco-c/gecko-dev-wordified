@@ -765,7 +765,7 @@ fifo
 endif
 /
 *
-Initalize
+Initialize
 the
 event
 library
@@ -779,7 +779,7 @@ event_base_new
 ;
 /
 *
-Initalize
+Initialize
 one
 event
 *

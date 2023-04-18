@@ -375,6 +375,7 @@ argument
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 event_deferred_cb_init_
 (
@@ -429,6 +430,7 @@ event_base
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 event_deferred_cb_cancel_
 (
@@ -468,6 +470,7 @@ scheduled
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 event_deferred_cb_schedule_
 (

@@ -667,6 +667,7 @@ appended
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evtag_decode_int
 (
@@ -679,6 +680,7 @@ evbuffer
 evbuf
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_decode_int64
 (
@@ -691,6 +693,7 @@ evbuffer
 evbuf
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_encode_tag
 (
@@ -702,6 +705,7 @@ ev_uint32_t
 tag
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evtag_decode_tag
 (

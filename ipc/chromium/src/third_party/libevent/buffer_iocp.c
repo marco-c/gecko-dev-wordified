@@ -393,6 +393,13 @@ h
 #
 include
 <
+winerror
+.
+h
+>
+#
+include
+<
 windows
 .
 h

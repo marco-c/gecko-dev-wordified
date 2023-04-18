@@ -379,6 +379,15 @@ util
 .
 h
 >
+#
+include
+<
+event2
+/
+visibility
+.
+h
+>
 /
 *
 *
@@ -482,6 +491,7 @@ evdns_shutdown
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_init
 (
@@ -529,6 +539,7 @@ prone
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_base
 *
@@ -638,6 +649,7 @@ evdns_init
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evdns_shutdown
 (
@@ -732,6 +744,7 @@ evdns_nameserver_ip_add
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_nameserver_add
 (
@@ -828,6 +841,7 @@ evdns_nameserver_add
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_count_nameservers
 (
@@ -907,6 +921,7 @@ evdns_resume
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_clear_nameservers_and_suspend
 (
@@ -987,6 +1002,7 @@ evdns_clear_nameservers_and_suspend
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resume
 (
@@ -1067,6 +1083,7 @@ evdns_nameserver_add
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_nameserver_ip_add
 (
@@ -1179,6 +1196,7 @@ evdns_resolve_reverse_ipv6
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolve_ipv4
 (
@@ -1270,6 +1288,7 @@ evdns_resolve_reverse_ipv6
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolve_ipv6
 (
@@ -1390,6 +1409,7 @@ evdns_resolve_reverse_ipv6
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolve_reverse
 (
@@ -1505,6 +1525,7 @@ evdns_resolve_reverse_ipv6
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolve_reverse_ipv6
 (
@@ -1613,6 +1634,7 @@ error
 occurred
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_set_option
 (
@@ -1816,6 +1838,7 @@ evdns_config_windows_nameservers
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 int
 evdns_resolv_conf_parse
 (
@@ -1868,6 +1891,7 @@ evdns_base_search_clear
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evdns_search_clear
 (
@@ -1927,6 +1951,7 @@ search
 list
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evdns_search_add
 (
@@ -2006,6 +2031,7 @@ ndots
 parameter
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evdns_search_ndots_set
 (
@@ -2049,6 +2075,7 @@ evdns_add_server_port_with_base
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 evdns_server_port
 *
@@ -2068,6 +2095,7 @@ user_data
 #
 ifdef
 _WIN32
+EVENT2_EXPORT_SYMBOL
 int
 evdns_config_windows_nameservers
 (

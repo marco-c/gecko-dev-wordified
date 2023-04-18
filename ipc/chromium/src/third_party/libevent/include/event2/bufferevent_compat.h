@@ -288,6 +288,15 @@ EVENT2_BUFFEREVENT_COMPAT_H_INCLUDED_
 define
 EVENT2_BUFFEREVENT_COMPAT_H_INCLUDED_
 #
+include
+<
+event2
+/
+visibility
+.
+h
+>
+#
 define
 evbuffercb
 bufferevent_data_cb
@@ -612,6 +621,7 @@ bufferevent_free
 )
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 bufferevent
 *
@@ -663,6 +673,7 @@ write
 timeout
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 bufferevent_settimeout
 (

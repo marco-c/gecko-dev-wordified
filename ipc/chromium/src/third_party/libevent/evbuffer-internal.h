@@ -728,10 +728,10 @@ next
 '
 pointer_
 *
-points
+pointing
 at
 the
-last_with_datap
+last_with_data
 chain
 .
 If

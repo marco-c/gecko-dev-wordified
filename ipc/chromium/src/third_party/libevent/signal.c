@@ -713,8 +713,13 @@ this
 *
 /
 #
+ifndef
+__cdecl
+#
 define
 __cdecl
+#
+endif
 #
 endif
 static

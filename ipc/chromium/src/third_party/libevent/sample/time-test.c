@@ -465,7 +465,7 @@ flags
 }
 /
 *
-Initalize
+Initialize
 the
 event
 library
@@ -479,7 +479,7 @@ event_base_new
 ;
 /
 *
-Initalize
+Initialize
 one
 event
 *
@@ -525,6 +525,18 @@ evutil_gettimeofday
 (
 &
 lasttime
+NULL
+)
+;
+setbuf
+(
+stdout
+NULL
+)
+;
+setbuf
+(
+stderr
 NULL
 )
 ;

@@ -316,8 +316,19 @@ struct
 event_base
 ;
 #
-ifndef
+if
+!
+defined
+(
 _WIN32
+)
+&
+&
+!
+defined
+(
+__CYGWIN__
+)
 /
 *
 On
@@ -410,11 +421,13 @@ enabled
 .
 *
 /
+EVENT2_EXPORT_SYMBOL
 extern
 struct
 evthread_lock_callbacks
 evthread_lock_fns_
 ;
+EVENT2_EXPORT_SYMBOL
 extern
 struct
 evthread_condition_callbacks
@@ -431,6 +444,7 @@ evthread_id_fn_
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 extern
 int
 evthread_lock_debugging_enabled_
@@ -1484,12 +1498,14 @@ evthreadimpl_get_id_
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evthreadimpl_is_lock_debugging_enabled_
 (
 void
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 *
 evthreadimpl_lock_alloc_
@@ -1498,6 +1514,7 @@ unsigned
 locktype
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evthreadimpl_lock_free_
 (
@@ -1508,6 +1525,7 @@ unsigned
 locktype
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evthreadimpl_lock_lock_
 (
@@ -1518,6 +1536,7 @@ void
 lock
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evthreadimpl_lock_unlock_
 (
@@ -1528,6 +1547,7 @@ void
 lock
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 *
 evthreadimpl_cond_alloc_
@@ -1536,6 +1556,7 @@ unsigned
 condtype
 )
 ;
+EVENT2_EXPORT_SYMBOL
 void
 evthreadimpl_cond_free_
 (
@@ -1544,6 +1565,7 @@ void
 cond
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evthreadimpl_cond_signal_
 (
@@ -1554,6 +1576,7 @@ int
 broadcast
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evthreadimpl_cond_wait_
 (
@@ -2744,6 +2767,7 @@ while
 (
 0
 )
+EVENT2_EXPORT_SYMBOL
 int
 evthread_is_debug_lock_held_
 (
@@ -2873,6 +2897,7 @@ current
 evthread_lock_callbacks
 *
 /
+EVENT2_EXPORT_SYMBOL
 struct
 evthread_lock_callbacks
 *

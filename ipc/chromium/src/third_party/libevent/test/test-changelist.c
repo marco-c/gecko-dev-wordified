@@ -1079,7 +1079,7 @@ return
 ;
 /
 *
-Initalize
+Initialize
 the
 event
 library
@@ -1103,7 +1103,7 @@ return
 ;
 /
 *
-Initalize
+Initialize
 a
 timeout
 to

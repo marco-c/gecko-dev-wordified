@@ -106,19 +106,6 @@ HTTP_WRITE_TIMEOUT
 define
 HTTP_READ_TIMEOUT
 50
-#
-define
-HTTP_PREFIX
-"
-http
-:
-/
-/
-"
-#
-define
-HTTP_DEFAULTPORT
-80
 enum
 message_read_status
 {
@@ -1001,6 +988,7 @@ resets
 connection
 *
 /
+EVENT2_EXPORT_SYMBOL
 void
 evhttp_connection_fail_
 (
@@ -1015,6 +1003,7 @@ error
 enum
 message_read_status
 ;
+EVENT2_EXPORT_SYMBOL
 enum
 message_read_status
 evhttp_parse_firstline_
@@ -1027,6 +1016,7 @@ evbuffer
 *
 )
 ;
+EVENT2_EXPORT_SYMBOL
 enum
 message_read_status
 evhttp_parse_headers_
@@ -1090,6 +1080,7 @@ evbuffer
 *
 )
 ;
+EVENT2_EXPORT_SYMBOL
 int
 evhttp_decode_uri_internal
 (
@@ -1110,6 +1101,6 @@ decode_plus
 endif
 /
 *
-_HTTP_H
+HTTP_INTERNAL_H_INCLUDED_
 *
 /

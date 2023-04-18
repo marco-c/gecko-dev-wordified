@@ -1904,6 +1904,10 @@ return
 ;
 error
 :
+if
+(
+rpc_state
+)
 evrpc_reqstate_free_
 (
 rpc_state
@@ -4854,13 +4858,6 @@ ownership
 explicitly
 *
 /
-if
-(
-req
-!
-=
-NULL
-)
 evhttp_request_own
 (
 req
