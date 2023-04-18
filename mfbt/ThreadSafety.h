@@ -238,11 +238,17 @@ __clang__
 &
 &
 (
+__clang_major__
+>
+=
+8
+)
+&
+&
 !
 defined
 (
 SWIG
-)
 )
 #
 define
@@ -641,6 +647,7 @@ ACQUIRED_AFTER
 .
 .
 )
+\
 THREAD_ANNOTATION_ATTRIBUTE__
 (
 acquired_after
@@ -656,6 +663,7 @@ ACQUIRED_BEFORE
 .
 .
 )
+\
 THREAD_ANNOTATION_ATTRIBUTE__
 (
 acquired_before
@@ -958,6 +966,7 @@ CAPABILITY_RELEASE
 .
 .
 )
+\
 THREAD_ANNOTATION_ATTRIBUTE__
 (
 unlock_function
