@@ -6658,17 +6658,6 @@ hasEncoder
 )
 )
 {
-MOZ_ASSERT
-(
-!
-js
-:
-:
-UseOffThreadParseGlobal
-(
-)
-)
-;
 if
 (
 !

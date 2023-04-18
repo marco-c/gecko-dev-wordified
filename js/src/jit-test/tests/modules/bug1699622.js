@@ -16,16 +16,6 @@ helperThreadCount
 =
 =
 0
-;
--
--
-off
--
-thread
--
-parse
--
-global
 offThreadCompileModule
 (
 "

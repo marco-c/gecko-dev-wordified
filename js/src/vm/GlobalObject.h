@@ -3836,10 +3836,6 @@ GlobalObject
 *
 >
 global
-bool
-setUsedAsPrototype
-=
-false
 )
 ;
 static

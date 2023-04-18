@@ -19,16 +19,6 @@ helperThreadCount
 ;
 -
 -
-off
--
-thread
--
-parse
--
-global
-;
--
--
 code
 -
 coverage
