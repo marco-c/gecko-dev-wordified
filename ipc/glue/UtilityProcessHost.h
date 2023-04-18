@@ -596,10 +596,8 @@ this
 returns
 null
 .
-RefPtr
-<
 UtilityProcessParent
->
+*
 GetActor
 (
 )
@@ -614,6 +612,10 @@ NS_IsMainThread
 ;
 return
 mUtilityProcessParent
+.
+get
+(
+)
 ;
 }
 bool
