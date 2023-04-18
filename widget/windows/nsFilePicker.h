@@ -526,7 +526,6 @@ ComDlgFilterSpec
 )
 {
 }
-const
 uint32_t
 Length
 (
@@ -540,7 +539,6 @@ Length
 )
 ;
 }
-const
 bool
 IsEmpty
 (

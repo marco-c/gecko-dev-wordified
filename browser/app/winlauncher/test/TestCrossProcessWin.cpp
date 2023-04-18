@@ -1079,6 +1079,7 @@ reinterpret_cast
 <
 const
 wchar_t
+*
 (
 *
 )
