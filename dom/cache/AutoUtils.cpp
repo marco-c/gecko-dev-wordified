@@ -2605,6 +2605,13 @@ Delete
 mStreamControl
 )
 {
+mStreamControl
+-
+>
+AssertWillDelete
+(
+)
+;
 QM_WARNONLY_TRY
 (
 OkIf

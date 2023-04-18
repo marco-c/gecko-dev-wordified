@@ -1456,6 +1456,13 @@ nsIInputStream
 aBodyStream
 )
 ;
+void
+RecordMayNotDeleteCSCP
+(
+int32_t
+aCacheStreamControlParentId
+)
+;
 private
 :
 class

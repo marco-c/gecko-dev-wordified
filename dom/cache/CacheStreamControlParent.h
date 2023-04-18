@@ -292,6 +292,11 @@ aResolver
 )
 override
 ;
+void
+AssertWillDelete
+(
+)
+;
 private
 :
 ~
