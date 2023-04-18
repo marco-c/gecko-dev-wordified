@@ -8135,6 +8135,8 @@ endX
 =
 min
 (
+min
+(
 bounds
 .
 z
@@ -8143,6 +8145,13 @@ curUV
 x
 +
 span
+)
+int
+(
+size
+.
+x
+)
 )
 ;
 if
