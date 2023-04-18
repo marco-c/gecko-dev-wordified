@@ -1910,6 +1910,17 @@ gfx
 ScaleFactors2D
 <
 ScreenPixel
+ScreenPixel
+>
+ScreenToScreenScale2D
+;
+typedef
+gfx
+:
+:
+ScaleFactors2D
+<
+ScreenPixel
 LayerPixel
 >
 ScreenToLayerScale2D
