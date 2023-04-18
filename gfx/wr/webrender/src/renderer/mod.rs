@@ -6466,6 +6466,9 @@ clone
 )
 options
 .
+batched_upload_threshold
+options
+.
 cached_programs
 .
 take
@@ -33824,6 +33827,10 @@ upload_pbo_default_size
 :
 usize
 pub
+batched_upload_threshold
+:
+i32
+pub
 workers
 :
 Option
@@ -34639,6 +34646,11 @@ upload_pbo_default_size
 512
 *
 4
+batched_upload_threshold
+:
+512
+*
+512
 workers
 :
 None

@@ -8392,6 +8392,15 @@ UpdateWebRenderParameters
 gfxVars
 :
 :
+SetWebRenderBatchedUploadThresholdListener
+(
+&
+UpdateWebRenderParameters
+)
+;
+gfxVars
+:
+:
 SetWebRenderProfilerUIListener
 (
 &
