@@ -2553,6 +2553,11 @@ defaultValues
 .
 .
 .
+(
+featureValue
+?
+featureValue
+:
 this
 .
 getRollout
@@ -2561,14 +2566,6 @@ getRollout
 ?
 .
 value
-.
-.
-.
-(
-featureValue
-|
-|
-null
 )
 .
 .
