@@ -9230,12 +9230,6 @@ case
 JSOp
 :
 :
-ResumeIndex
-:
-case
-JSOp
-:
-:
 Int32
 :
 case
@@ -9699,12 +9693,6 @@ JSOp
 :
 :
 GetRval
-:
-case
-JSOp
-:
-:
-Retsub
 :
 case
 JSOp

@@ -2072,7 +2072,6 @@ ops
 (
 yield
 await
-retsub
 )
 have
 an
@@ -2082,9 +2081,9 @@ the
 script
 '
 s
-/
-/
 resumeOffsets
+/
+/
 list
 .
 This
@@ -2100,10 +2099,10 @@ op
 s
 resumeIndex
 to
-/
-/
 the
 bytecode
+/
+/
 offset
 of
 the
@@ -2116,12 +2115,12 @@ makes
 it
 easy
 to
-/
-/
 resume
 in
 the
 JIT
+/
+/
 (
 because
 BaselineScript
@@ -2131,8 +2130,6 @@ resumeIndex
 =
 >
 native
-/
-/
 code
 array
 )

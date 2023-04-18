@@ -3676,12 +3676,6 @@ case
 JSOp
 :
 :
-ResumeIndex
-:
-case
-JSOp
-:
-:
 BigInt
 :
 case

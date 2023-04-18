@@ -11730,10 +11730,9 @@ two
 values
 expected
 by
-JSOp
-:
-:
-Retsub
+the
+finally
+block
 :
 the
 exception
