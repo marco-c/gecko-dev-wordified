@@ -425,11 +425,8 @@ str
 :
         
 return
-sorted
-(
-            
 [
-                
+            
 os
 .
 path
@@ -445,7 +442,7 @@ pth
 .
 path
 )
-                
+            
 for
 pth
 in
@@ -458,10 +455,8 @@ self
 .
 vendored_requirements
 )
-            
-]
         
-)
+]
     
 classmethod
     
