@@ -2789,6 +2789,10 @@ key
 CheckGCThingAfterMovingGC
 (
 key
+.
+get
+(
+)
 )
 ;
 auto
