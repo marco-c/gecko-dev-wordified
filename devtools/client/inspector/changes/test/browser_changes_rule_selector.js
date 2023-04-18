@@ -255,7 +255,7 @@ addition
 const
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "

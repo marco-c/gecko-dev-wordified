@@ -347,7 +347,7 @@ doc
 const
 onUpdate
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "

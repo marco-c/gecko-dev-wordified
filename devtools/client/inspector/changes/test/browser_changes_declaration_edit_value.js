@@ -394,7 +394,7 @@ VALUE_CHANGE_ITERATIONS
 {
 onTrackChange
 =
-waitUntilAction
+waitForDispatch
 (
 store
 "
