@@ -26108,12 +26108,6 @@ status
 =
 nsEventStatus_eIgnore
 ;
-/
-/
-TODO
-:
-Bug
-1506441
 nsresult
 rv
 =
@@ -26122,12 +26116,9 @@ EventDispatcher
 :
 DispatchDOMEvent
 (
-MOZ_KnownLive
-(
 ToSupports
 (
 this
-)
 )
 nullptr
 &
