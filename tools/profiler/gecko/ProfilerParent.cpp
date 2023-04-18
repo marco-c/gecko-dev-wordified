@@ -307,13 +307,6 @@ PProfiler
 :
 CreateEndpoints
 (
-base
-:
-:
-GetCurrentProcId
-(
-)
-aOtherPid
 &
 parent
 &
