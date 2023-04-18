@@ -783,8 +783,6 @@ private
 CacheIndexRecordWrapper
 (
 )
-=
-default
 ;
 UniquePtr
 <
@@ -6172,8 +6170,8 @@ class
 CacheIndexIterator
 ;
 friend
-struct
-CacheIndexRecord
+class
+CacheIndexRecordWrapper
 ;
 virtual
 ~
@@ -9309,6 +9307,14 @@ const
 StaticMutexAutoLock
 &
 aProofOfLock
+)
+;
+bool
+RecordExistedUnlocked
+(
+CacheIndexRecordWrapper
+*
+aRecord
 )
 ;
 size_t
