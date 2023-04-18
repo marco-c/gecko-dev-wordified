@@ -295,11 +295,16 @@ Thread
 target
 =
 _is_unmodified_mach_core
+        
 args
 =
 [
 topsrcdir
 ]
+        
+daemon
+=
+True
     
 )
     
