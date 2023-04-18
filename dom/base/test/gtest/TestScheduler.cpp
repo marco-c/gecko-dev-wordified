@@ -427,6 +427,13 @@ mScheduler
 .
 NoteGCBegin
 (
+JS
+:
+:
+GCReason
+:
+:
+API
 )
 ;
 for
