@@ -1248,7 +1248,7 @@ aError
 override
 ;
 bool
-GetHasActiveSnapshot
+GetHasSnapshot
 (
 nsIPrincipal
 &
