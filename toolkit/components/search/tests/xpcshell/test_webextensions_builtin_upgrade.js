@@ -76,7 +76,6 @@ enabledScopes
 ;
 const
 {
-createAppInfo
 promiseShutdownManager
 promiseStartupManager
 }

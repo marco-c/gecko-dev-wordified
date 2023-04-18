@@ -47,11 +47,6 @@ use
 strict
 "
 ;
-const
-SEARCH_APP_DIR
-=
-1
-;
 add_task
 (
 async
