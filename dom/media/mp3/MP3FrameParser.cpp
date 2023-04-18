@@ -1183,7 +1183,7 @@ CHANNELMODE_MODEEXT_COPY_ORIG_EMPH
 6
 ;
 }
-int32_t
+uint32_t
 FrameParser
 :
 :
@@ -1219,7 +1219,7 @@ RawLayer
 ]
 ;
 }
-int32_t
+uint32_t
 FrameParser
 :
 :
@@ -1324,7 +1324,7 @@ RawSampleRate
 ]
 ;
 }
-int32_t
+uint32_t
 FrameParser
 :
 :
@@ -1370,7 +1370,7 @@ RawChannelMode
 2
 ;
 }
-int32_t
+uint32_t
 FrameParser
 :
 :
@@ -1480,7 +1480,7 @@ RawLayer
 ]
 ;
 }
-int32_t
+uint32_t
 FrameParser
 :
 :
@@ -1926,7 +1926,7 @@ RawBitrate
 ]
 ;
 }
-int32_t
+uint32_t
 FrameParser
 :
 :

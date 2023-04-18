@@ -781,7 +781,7 @@ actual
 size
 read
 .
-int32_t
+uint32_t
 Read
 (
 uint8_t
@@ -955,7 +955,7 @@ lengths
 in
 bytes
 .
-uint64_t
+int64_t
 mTotalFrameLen
 ;
 /
@@ -995,7 +995,7 @@ none
 /
 available
 .
-int32_t
+uint32_t
 mSamplesPerSecond
 ;
 /
@@ -1012,7 +1012,7 @@ if
 none
 available
 .
-int32_t
+uint32_t
 mChannels
 ;
 /

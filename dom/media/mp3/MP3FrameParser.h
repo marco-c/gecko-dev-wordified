@@ -1138,7 +1138,7 @@ frequency
 in
 Hz
 .
-int32_t
+uint32_t
 SampleRate
 (
 )
@@ -1151,7 +1151,7 @@ of
 audio
 channels
 .
-int32_t
+uint32_t
 Channels
 (
 )
@@ -1170,7 +1170,7 @@ version
 and
 layer
 .
-int32_t
+uint32_t
 SamplesPerFrame
 (
 )
@@ -1189,7 +1189,7 @@ on
 MPEG
 layer
 .
-int32_t
+uint32_t
 SlotSize
 (
 )
@@ -1205,7 +1205,7 @@ vary
 between
 frames
 .
-int32_t
+uint32_t
 Bitrate
 (
 )
@@ -1234,7 +1234,7 @@ II
 III
 )
 .
-int32_t
+uint32_t
 Layer
 (
 )
