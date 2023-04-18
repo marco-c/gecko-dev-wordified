@@ -2121,7 +2121,6 @@ function
 (
 {
 browserId
-outerWindowID
 tabId
 }
 )
@@ -2205,7 +2204,6 @@ getTab
 (
 {
 browserId
-outerWindowID
 tabId
 }
 )

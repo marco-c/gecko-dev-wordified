@@ -526,7 +526,7 @@ via
 *
 their
 current
-outerWindowID
+browserId
 .
 *
 But
@@ -616,7 +616,7 @@ Number
 }
 options
 .
-outerWindowID
+browserId
 :
 Mandatory
 attribute
@@ -662,7 +662,7 @@ async
 forRemoteTabInTest
 (
 {
-outerWindowID
+browserId
 client
 }
 )
@@ -692,7 +692,7 @@ mainRoot
 getTab
 (
 {
-outerWindowID
+browserId
 }
 )
 ;
