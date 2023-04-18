@@ -7503,7 +7503,6 @@ pv
 ;
 }
 }
-}
 HICON
 icon
 =
@@ -7533,6 +7532,7 @@ SetSmallIcon
 icon
 )
 ;
+}
 }
 mDeviceNotifyHandle
 =
