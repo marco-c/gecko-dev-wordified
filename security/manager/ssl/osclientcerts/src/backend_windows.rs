@@ -801,7 +801,6 @@ label
 =
 get_cert_subject_dn
 (
-&
 cert_info
 )
 ?
@@ -3194,9 +3193,9 @@ self
 u32
 {
 match
+*
 self
 {
-&
 SignParams
 :
 :
@@ -3204,7 +3203,6 @@ EC
 =
 >
 0
-&
 SignParams
 :
 :
@@ -3215,7 +3213,6 @@ _
 =
 >
 NCRYPT_PAD_PKCS1_FLAG
-&
 SignParams
 :
 :
@@ -3250,6 +3247,16 @@ EC
 and
 RSA
 .
+#
+[
+allow
+(
+clippy
+:
+:
+upper_case_acronyms
+)
+]
 #
 [
 derive
