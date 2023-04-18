@@ -163,8 +163,11 @@ enableLogging
 ;
 [
 NeedsOtherPid
+NestedUpTo
+=
+inside_sync
 ]
-intr
+sync
 protocol
 PRemoteSandboxBroker
 {
@@ -179,7 +182,12 @@ threadId
 ;
 child
 :
-intr
+[
+Nested
+=
+inside_sync
+]
+sync
 LaunchApp
 (
 LaunchParameters

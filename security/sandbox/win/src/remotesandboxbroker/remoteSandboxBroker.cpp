@@ -815,7 +815,7 @@ rv
 =
 mParent
 .
-CallLaunchApp
+SendLaunchApp
 (
 std
 :
