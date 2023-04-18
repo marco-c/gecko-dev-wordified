@@ -94,6 +94,9 @@ MPL
 *
 /
 #
+define
+UNICODE
+#
 include
 "
 nsWindowsShellService
