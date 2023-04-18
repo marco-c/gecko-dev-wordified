@@ -315,9 +315,9 @@ Serialize
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 bool
 aSerializeInterfaceType
 )
@@ -332,7 +332,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 u
 "
 scrollareaevent
@@ -346,7 +346,7 @@ Event
 :
 Serialize
 (
-aMsg
+aWriter
 false
 )
 ;
@@ -355,7 +355,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 X
 (
 )
@@ -366,7 +366,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 Y
 (
 )
@@ -377,7 +377,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 Width
 (
 )
@@ -388,7 +388,7 @@ IPC
 :
 WriteParam
 (
-aMsg
+aWriter
 Height
 (
 )
@@ -401,16 +401,12 @@ ScrollAreaEvent
 :
 Deserialize
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 )
 {
 NS_ENSURE_TRUE
@@ -420,8 +416,7 @@ Event
 :
 Deserialize
 (
-aMsg
-aIter
+aReader
 )
 false
 )
@@ -439,8 +434,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 x
 )
@@ -454,8 +448,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 y
 )
@@ -469,8 +462,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 width
 )
@@ -484,8 +476,7 @@ IPC
 :
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 height
 )

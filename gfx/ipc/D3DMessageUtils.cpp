@@ -259,9 +259,9 @@ DxgiAdapterDesc
 :
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -274,7 +274,7 @@ defined
 (
 XP_WIN
 )
-aMsg
+aWriter
 -
 >
 WriteBytes
@@ -292,7 +292,7 @@ Description
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 VendorId
@@ -300,7 +300,7 @@ VendorId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 DeviceId
@@ -308,7 +308,7 @@ DeviceId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 SubSysId
@@ -316,7 +316,7 @@ SubSysId
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 Revision
@@ -324,7 +324,7 @@ Revision
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 DedicatedVideoMemory
@@ -332,7 +332,7 @@ DedicatedVideoMemory
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 DedicatedSystemMemory
@@ -340,7 +340,7 @@ DedicatedSystemMemory
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 SharedSystemMemory
@@ -348,7 +348,7 @@ SharedSystemMemory
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 AdapterLuid
@@ -358,7 +358,7 @@ LowPart
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 AdapterLuid
@@ -378,13 +378,9 @@ DxgiAdapterDesc
 :
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -399,12 +395,11 @@ XP_WIN
 if
 (
 !
-aMsg
+aReader
 -
 >
 ReadBytesInto
 (
-aIter
 aResult
 -
 >
@@ -427,8 +422,7 @@ if
 (
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -439,8 +433,7 @@ VendorId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -451,8 +444,7 @@ DeviceId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -463,8 +455,7 @@ SubSysId
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -475,8 +466,7 @@ Revision
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -487,8 +477,7 @@ DedicatedVideoMemory
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -499,8 +488,7 @@ DedicatedSystemMemory
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -511,8 +499,7 @@ SharedSystemMemory
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -525,8 +512,7 @@ LowPart
 &
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

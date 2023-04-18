@@ -242,9 +242,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -260,7 +260,7 @@ IsString
 )
 )
 {
-aMsg
+aWriter
 -
 >
 WriteInt16
@@ -270,7 +270,7 @@ kString
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 GetAsString
@@ -289,7 +289,7 @@ IsStringSequence
 )
 )
 {
-aMsg
+aWriter
 -
 >
 WriteInt16
@@ -299,7 +299,7 @@ kStringSequence
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 GetAsStringSequence
@@ -310,7 +310,7 @@ GetAsStringSequence
 }
 else
 {
-aMsg
+aWriter
 -
 >
 WriteInt16
@@ -324,13 +324,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -342,12 +338,11 @@ type
 if
 (
 !
-aMsg
+aReader
 -
 >
 ReadInt16
 (
-aIter
 &
 type
 )
@@ -381,8 +376,7 @@ kString
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -
@@ -398,8 +392,7 @@ kStringSequence
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

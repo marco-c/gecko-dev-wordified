@@ -231,9 +231,9 @@ nsAtom
 :
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 nsAtom
 *
@@ -293,7 +293,7 @@ kAtomsCount
 ;
 WriteParam
 (
-aMsg
+aWriter
 index
 )
 ;
@@ -302,7 +302,7 @@ return
 }
 WriteParam
 (
-aMsg
+aWriter
 kDynamicAtomToken
 )
 ;
@@ -339,7 +339,7 @@ atomStr
 ;
 WriteParam
 (
-aMsg
+aWriter
 str
 )
 ;
@@ -359,13 +359,9 @@ nsAtom
 :
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 RefPtr
 <
 nsAtom
@@ -382,8 +378,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 token
 )
@@ -436,8 +431,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 static_cast
 <
 nsString

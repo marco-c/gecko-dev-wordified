@@ -161,9 +161,9 @@ nsIReferrerInfo
 :
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 nsIReferrerInfo
 *
 aParam
@@ -177,7 +177,7 @@ aParam
 ;
 WriteParam
 (
-aMsg
+aWriter
 isNull
 )
 ;
@@ -226,7 +226,7 @@ return
 }
 WriteParam
 (
-aMsg
+aWriter
 infoString
 )
 ;
@@ -241,13 +241,9 @@ nsIReferrerInfo
 :
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 RefPtr
 <
 nsIReferrerInfo
@@ -264,8 +260,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 isNull
 )
@@ -297,8 +292,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 infoString
 )

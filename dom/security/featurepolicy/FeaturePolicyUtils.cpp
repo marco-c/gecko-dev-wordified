@@ -1642,9 +1642,9 @@ Write
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 IProtocol
 *
 aActor
@@ -1664,7 +1664,7 @@ aParam
 {
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 false
 )
@@ -1674,7 +1674,7 @@ return
 }
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 true
 )
@@ -1773,7 +1773,7 @@ Clone
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 info
 )
@@ -1792,16 +1792,12 @@ FeaturePolicy
 :
 Read
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 IProtocol
 *
 aActor
@@ -1831,8 +1827,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 notnull
@@ -1864,8 +1859,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 info

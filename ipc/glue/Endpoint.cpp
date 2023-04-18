@@ -832,9 +832,9 @@ Write
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 IProtocol
 *
 aActor
@@ -857,7 +857,7 @@ isSome
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 isValid
 )
@@ -984,7 +984,7 @@ protocol
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 inner
 .
@@ -993,7 +993,7 @@ mId
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 inner
 .
@@ -1002,7 +1002,7 @@ mType
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 inner
 .
@@ -1011,7 +1011,7 @@ mManagerId
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 inner
 .
@@ -1033,16 +1033,12 @@ UntypedManagedEndpoint
 :
 Read
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 IProtocol
 *
 aActor
@@ -1072,8 +1068,7 @@ aActor
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 isValid
@@ -1132,8 +1127,7 @@ GetWeakLifecycleProxy
 return
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 inner
@@ -1144,8 +1138,7 @@ mId
 &
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 inner
@@ -1156,8 +1149,7 @@ mType
 &
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 inner
@@ -1168,8 +1160,7 @@ mManagerId
 &
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 inner

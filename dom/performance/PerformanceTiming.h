@@ -2627,9 +2627,9 @@ Write
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 IProtocol
 *
 aActor
@@ -2641,7 +2641,7 @@ aParam
 {
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2650,7 +2650,7 @@ mServerTiming
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2659,7 +2659,7 @@ mNextHopProtocol
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2668,7 +2668,7 @@ mAsyncOpen
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2677,7 +2677,7 @@ mRedirectStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2686,7 +2686,7 @@ mRedirectEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2695,7 +2695,7 @@ mDomainLookupStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2704,7 +2704,7 @@ mDomainLookupEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2713,7 +2713,7 @@ mConnectStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2722,7 +2722,7 @@ mSecureConnectionStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2731,7 +2731,7 @@ mConnectEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2740,7 +2740,7 @@ mRequestStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2749,7 +2749,7 @@ mResponseStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2758,7 +2758,7 @@ mCacheReadStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2767,7 +2767,7 @@ mResponseEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2776,7 +2776,7 @@ mCacheReadEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2785,7 +2785,7 @@ mWorkerStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2794,7 +2794,7 @@ mWorkerRequestStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2803,7 +2803,7 @@ mWorkerResponseEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2812,7 +2812,7 @@ mZeroTime
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2821,7 +2821,7 @@ mFetchStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2830,7 +2830,7 @@ mEncodedBodySize
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2839,7 +2839,7 @@ mTransferSize
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2848,7 +2848,7 @@ mDecodedBodySize
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2857,7 +2857,7 @@ mRedirectCount
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2866,7 +2866,7 @@ mAllRedirectsSameOrigin
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2875,7 +2875,7 @@ mAllRedirectsPassTAO
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2884,7 +2884,7 @@ mSecureConnection
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2893,7 +2893,7 @@ mTimingAllowed
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -2905,16 +2905,12 @@ static
 bool
 Read
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 IProtocol
 *
 aActor
@@ -2928,8 +2924,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -2948,8 +2943,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -2968,8 +2962,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -2988,8 +2981,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3008,8 +3000,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3028,8 +3019,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3048,8 +3038,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3068,8 +3057,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3088,8 +3076,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3108,8 +3095,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3128,8 +3114,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3148,8 +3133,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3168,8 +3152,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3188,8 +3171,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3208,8 +3190,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3228,8 +3209,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3248,8 +3228,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3268,8 +3247,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3288,8 +3266,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3308,8 +3285,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3328,8 +3304,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3348,8 +3323,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3368,8 +3342,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3388,8 +3361,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3408,8 +3380,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3428,8 +3399,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3448,8 +3418,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3468,8 +3437,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3488,8 +3456,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -3536,9 +3503,9 @@ Write
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 IProtocol
 *
 aActor
@@ -3595,21 +3562,21 @@ description
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 name
 )
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 duration
 )
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 description
 )
@@ -3619,16 +3586,12 @@ static
 bool
 Read
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 IProtocol
 *
 aActor
@@ -3651,8 +3614,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 name
@@ -3668,8 +3630,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 duration
@@ -3685,8 +3646,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 description

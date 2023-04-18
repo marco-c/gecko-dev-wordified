@@ -1091,9 +1091,9 @@ Write
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 ipc
 :
 :
@@ -1108,7 +1108,7 @@ aParam
 {
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -1117,7 +1117,7 @@ mSource
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -1126,7 +1126,7 @@ mSize
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 .
@@ -1171,16 +1171,12 @@ RemoteImageHolder
 :
 Read
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 ipc
 :
 :
@@ -1197,8 +1193,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -1211,8 +1206,7 @@ mSource
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult
@@ -1225,8 +1219,7 @@ mSize
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 aResult

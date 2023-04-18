@@ -3410,9 +3410,9 @@ Write
 IPC
 :
 :
-Message
+MessageWriter
 *
-aMsg
+aWriter
 IProtocol
 *
 aActor
@@ -3453,7 +3453,7 @@ get
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 unloadedURI
 ?
@@ -3469,7 +3469,7 @@ Nothing
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 loadedURI
 ?
@@ -3485,7 +3485,7 @@ Nothing
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 uint32_t
 (
@@ -3498,7 +3498,7 @@ mNavigationType
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3508,7 +3508,7 @@ mNavigationStartHighRes
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3518,7 +3518,7 @@ mNavigationStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3528,7 +3528,7 @@ mNonBlankPaint
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3538,7 +3538,7 @@ mContentfulComposite
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3548,7 +3548,7 @@ mDOMContentFlushed
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3558,7 +3558,7 @@ mBeforeUnloadStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3568,7 +3568,7 @@ mUnloadStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3578,7 +3578,7 @@ mUnloadEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3588,7 +3588,7 @@ mLoadEventStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3598,7 +3598,7 @@ mLoadEventEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3608,7 +3608,7 @@ mDOMLoading
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3618,7 +3618,7 @@ mDOMInteractive
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3628,7 +3628,7 @@ mDOMContentLoadedEventStart
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3638,7 +3638,7 @@ mDOMContentLoadedEventEnd
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3648,7 +3648,7 @@ mDOMComplete
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3658,7 +3658,7 @@ mTTFI
 ;
 WriteIPDLParam
 (
-aMsg
+aWriter
 aActor
 aParam
 -
@@ -3688,16 +3688,12 @@ nsDOMNavigationTiming
 :
 Read
 (
-const
 IPC
 :
 :
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 IProtocol
 *
 aActor
@@ -3746,8 +3742,7 @@ if
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 unloadedURI
@@ -3757,8 +3752,7 @@ unloadedURI
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 loadedURI
@@ -3768,8 +3762,7 @@ loadedURI
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 type
@@ -3779,8 +3772,7 @@ type
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3793,8 +3785,7 @@ mNavigationStartHighRes
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3807,8 +3798,7 @@ mNavigationStart
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3821,8 +3811,7 @@ mNonBlankPaint
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3835,8 +3824,7 @@ mContentfulComposite
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3849,8 +3837,7 @@ mDOMContentFlushed
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3863,8 +3850,7 @@ mBeforeUnloadStart
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3877,8 +3863,7 @@ mUnloadStart
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3891,8 +3876,7 @@ mUnloadEnd
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3905,8 +3889,7 @@ mLoadEventStart
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3919,8 +3902,7 @@ mLoadEventEnd
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3933,8 +3915,7 @@ mDOMLoading
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3947,8 +3928,7 @@ mDOMInteractive
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3961,8 +3941,7 @@ mDOMContentLoadedEventStart
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3975,8 +3954,7 @@ mDOMContentLoadedEventEnd
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -3989,8 +3967,7 @@ mDOMComplete
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing
@@ -4003,8 +3980,7 @@ mTTFI
 !
 ReadIPDLParam
 (
-aMsg
-aIter
+aReader
 aActor
 &
 timing

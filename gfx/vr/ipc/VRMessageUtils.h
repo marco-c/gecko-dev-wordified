@@ -401,9 +401,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -412,7 +412,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mBase64Image
@@ -420,7 +420,7 @@ mBase64Image
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mFormat
@@ -428,7 +428,7 @@ mFormat
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mWidth
@@ -436,7 +436,7 @@ mWidth
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mHeight
@@ -444,7 +444,7 @@ mHeight
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mFrameNum
@@ -455,13 +455,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -472,8 +468,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -487,8 +482,7 @@ mBase64Image
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -502,8 +496,7 @@ mFormat
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -517,8 +510,7 @@ mWidth
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult
@@ -532,8 +524,7 @@ mHeight
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 (
 aResult

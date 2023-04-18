@@ -403,9 +403,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -482,7 +482,7 @@ aValue
 ;
 WriteParam
 (
-aMsg
+aWriter
 uintParamType
 (
 aValue
@@ -494,13 +494,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -514,8 +510,7 @@ if
 !
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 value
 )

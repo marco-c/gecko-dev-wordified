@@ -326,9 +326,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -337,7 +337,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 mId
@@ -348,13 +348,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -363,8 +359,7 @@ aResult
 return
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 aResult
 -

@@ -2865,9 +2865,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -2883,7 +2883,7 @@ mBlockAndOffset
 ;
 WriteParam
 (
-aMsg
+aWriter
 v
 )
 ;
@@ -2892,13 +2892,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
-PickleIterator
-*
-aIter
+aReader
 paramType
 *
 aResult
@@ -2911,8 +2907,7 @@ if
 (
 ReadParam
 (
-aMsg
-aIter
+aReader
 &
 v
 )

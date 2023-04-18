@@ -178,9 +178,9 @@ static
 void
 Write
 (
-Message
+MessageWriter
 *
-aMsg
+aWriter
 const
 paramType
 &
@@ -189,7 +189,7 @@ aParam
 {
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 x
@@ -197,7 +197,7 @@ x
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 y
@@ -205,7 +205,7 @@ y
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 w
@@ -213,7 +213,7 @@ w
 ;
 WriteParam
 (
-aMsg
+aWriter
 aParam
 .
 h
@@ -224,10 +224,9 @@ static
 bool
 Read
 (
-const
-Message
+MessageReader
 *
-aMsg
+aReader
 void
 *
 *
@@ -241,7 +240,7 @@ return
 (
 ReadParam
 (
-aMsg
+aReader
 aIter
 &
 aResult
@@ -253,7 +252,7 @@ x
 &
 ReadParam
 (
-aMsg
+aReader
 aIter
 &
 aResult
@@ -265,7 +264,7 @@ y
 &
 ReadParam
 (
-aMsg
+aReader
 aIter
 &
 aResult
@@ -277,7 +276,7 @@ w
 &
 ReadParam
 (
-aMsg
+aReader
 aIter
 &
 aResult
