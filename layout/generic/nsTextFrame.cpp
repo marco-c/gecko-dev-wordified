@@ -71959,11 +71959,13 @@ fragString
 convertedString
 /
 *
-aAllUppercase
+aGlobalTransform
 =
 *
 /
-false
+Nothing
+(
+)
 /
 *
 aCaseTransformsOnly
