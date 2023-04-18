@@ -395,6 +395,12 @@ rv
 =
 NS_OK
 ;
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 /
 /
 The
