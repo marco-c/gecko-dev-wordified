@@ -2337,7 +2337,7 @@ enum
 {
 FONT_TIMEOUT_SECONDS
 =
-5
+10
 }
 ;
 explicit
@@ -2381,7 +2381,7 @@ enum
 {
 SHAPED_WORD_TIMEOUT_SECONDS
 =
-10
+60
 }
 ;
 explicit
