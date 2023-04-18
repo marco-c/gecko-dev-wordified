@@ -566,6 +566,14 @@ aValue
 override
 ;
 void
+LockNotified
+(
+bool
+aCreated
+)
+final
+;
+void
 Terminated
 (
 )
@@ -724,6 +732,11 @@ mSuspended
 ;
 bool
 mFrozen
+;
+uint32_t
+mLockCount
+=
+0
 ;
 /
 /

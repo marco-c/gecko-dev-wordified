@@ -8539,6 +8539,15 @@ bool
 aIncrement
 )
 {
+MOZ_ASSERT_IF
+(
+!
+aIncrement
+mLockCount
+>
+0
+)
+;
 mLockCount
 +
 =

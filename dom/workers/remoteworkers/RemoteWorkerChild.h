@@ -387,6 +387,13 @@ aIsErrorEvent
 )
 ;
 void
+NotifyLock
+(
+bool
+aCreated
+)
+;
+void
 FlushReportsOnMainThread
 (
 nsIConsoleReportCollector
