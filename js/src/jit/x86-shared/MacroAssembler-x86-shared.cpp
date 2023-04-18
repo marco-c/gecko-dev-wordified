@@ -5101,7 +5101,7 @@ Register
 boundsCheckLimit
 Label
 *
-label
+ok
 )
 {
 cmp32
@@ -5113,7 +5113,7 @@ boundsCheckLimit
 j
 (
 cond
-label
+ok
 )
 ;
 if
@@ -5149,7 +5149,7 @@ Address
 boundsCheckLimit
 Label
 *
-label
+ok
 )
 {
 cmp32
@@ -5164,7 +5164,7 @@ boundsCheckLimit
 j
 (
 cond
-label
+ok
 )
 ;
 if
