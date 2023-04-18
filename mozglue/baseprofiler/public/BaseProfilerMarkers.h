@@ -902,10 +902,15 @@ baseprofiler
 :
 AddMarkerToBuffer
 (
-base_profiler_markers_detail
 :
 :
-CachedBaseCoreBuffer
+mozilla
+:
+:
+baseprofiler
+:
+:
+profiler_get_core_buffer
 (
 )
 aName

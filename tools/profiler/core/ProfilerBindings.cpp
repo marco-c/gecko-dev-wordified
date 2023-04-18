@@ -2108,10 +2108,7 @@ auto
 &
 buffer
 =
-profiler_markers_detail
-:
-:
-CachedCoreBuffer
+profiler_get_core_buffer
 (
 )
 ;
