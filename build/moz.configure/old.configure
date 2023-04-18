@@ -700,17 +700,6 @@ datadir
 -
 enable
 -
-debug
--
-js
--
-modules
-"
-"
--
--
-enable
--
 dump
 -
 painting
