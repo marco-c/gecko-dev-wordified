@@ -39,7 +39,6 @@ PanelMultiView
 .
 jsm
 "
-null
 )
 ;
 const
