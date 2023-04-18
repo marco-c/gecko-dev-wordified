@@ -1144,6 +1144,7 @@ GetWorkerPrivate
 (
 )
 const
+NO_THREAD_SAFETY_ANALYSIS
 ;
 /
 /
@@ -1243,6 +1244,10 @@ Mutex
 Lock
 (
 )
+RETURN_CAPABILITY
+(
+mCleanUpLock
+)
 {
 return
 mCleanUpLock
@@ -1253,6 +1258,10 @@ CleanedUp
 (
 )
 const
+REQUIRES
+(
+mCleanUpLock
+)
 {
 mCleanUpLock
 .
@@ -1549,7 +1558,6 @@ mCleanedUp
 .
 Mutex
 mCleanUpLock
-MOZ_UNANNOTATED
 ;
 }
 ;
