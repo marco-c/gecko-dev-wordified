@@ -1120,7 +1120,7 @@ urls
 :
 [
 "
-https
+http
 :
 /
 /
