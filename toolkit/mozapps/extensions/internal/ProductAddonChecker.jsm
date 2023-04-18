@@ -284,6 +284,9 @@ need
 to
 cancel
 downloadXMLWithRequest
+*
+and
+conservativeFetch
 .
 *
 *
@@ -552,6 +555,12 @@ mozAnon
 true
 }
 )
+;
+request
+.
+timeout
+=
+TIMEOUT_DELAY_MS
 ;
 request
 .
