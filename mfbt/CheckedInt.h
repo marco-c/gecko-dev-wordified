@@ -2306,7 +2306,7 @@ template
 typename
 T
 >
-inline
+constexpr
 bool
 IsMulValid
 (
@@ -5635,7 +5635,7 @@ T
 typename
 U
 >
-inline
+constexpr
 bool
 operator
 =
@@ -5672,7 +5672,7 @@ T
 typename
 U
 >
-inline
+constexpr
 bool
 operator
 =
