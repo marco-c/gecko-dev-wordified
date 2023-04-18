@@ -2557,14 +2557,14 @@ top
 )
 *
 scale
-w
+width
 :
 rect
 .
 width
 *
 scale
-h
+height
 :
 rect
 .
