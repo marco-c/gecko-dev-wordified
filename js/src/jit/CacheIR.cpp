@@ -50470,7 +50470,9 @@ args_
 if
 (
 !
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 writer
@@ -52075,7 +52077,9 @@ value
 .
 if
 (
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 switch
@@ -52578,7 +52582,9 @@ value
 .
 if
 (
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 switch
@@ -53081,7 +53087,9 @@ value
 .
 if
 (
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 switch
@@ -54956,7 +54964,9 @@ argc_
 ;
 MOZ_ASSERT
 (
-script_
+script
+(
+)
 -
 >
 isFunction
@@ -55830,7 +55840,9 @@ argc_
 if
 (
 !
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 /
@@ -56050,7 +56062,9 @@ NoAction
 if
 (
 !
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 /
@@ -56612,7 +56626,9 @@ NoAction
 if
 (
 !
-isFirstStub_
+isFirstStub
+(
+)
 )
 {
 /
