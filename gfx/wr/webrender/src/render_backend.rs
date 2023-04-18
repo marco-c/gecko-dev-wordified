@@ -1778,15 +1778,6 @@ recycle
 recycler
 )
 ;
-self
-.
-frame
-.
-recycle
-(
-recycler
-)
-;
 }
 pub
 fn

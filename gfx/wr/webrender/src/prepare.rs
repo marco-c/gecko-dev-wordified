@@ -1051,9 +1051,12 @@ surface_spatial_node_index
 pic_context
 .
 raster_spatial_node_index
+Some
+(
 pic_context
 .
 surface_index
+)
 pic_context
 .
 subpixel_mode
