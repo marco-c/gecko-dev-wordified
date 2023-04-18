@@ -384,6 +384,7 @@ GetLane
 (
 SumOfLanes
 (
+df
 entropy_lanes
 )
 )
@@ -621,6 +622,7 @@ GetLane
 (
 SumOfLanes
 (
+df
 distance_lanes
 )
 )

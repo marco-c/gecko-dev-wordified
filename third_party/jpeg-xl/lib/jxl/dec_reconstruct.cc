@@ -3525,6 +3525,7 @@ Store
 (
 InterleaveLower
 (
+d
 left
 right
 )
@@ -3538,6 +3539,7 @@ Store
 (
 InterleaveUpper
 (
+d
 left
 right
 )

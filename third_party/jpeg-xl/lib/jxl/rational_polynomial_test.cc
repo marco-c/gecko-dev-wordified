@@ -371,6 +371,7 @@ JXL_DASSERT
 (
 AllTrue
 (
+di
 Abs
 (
 x_bits
