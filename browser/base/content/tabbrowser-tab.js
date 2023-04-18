@@ -216,7 +216,9 @@ pending
 /
 >
 <
-image
+html
+:
+img
 class
 =
 "
@@ -225,11 +227,6 @@ tab
 icon
 -
 image
-"
-validate
-=
-"
-never
 "
 role
 =
