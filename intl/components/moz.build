@@ -249,6 +249,13 @@ h
 "
 src
 /
+Script
+.
+h
+"
+"
+src
+/
 String
 .
 h
@@ -423,6 +430,13 @@ cpp
 src
 /
 RelativeTimeFormat
+.
+cpp
+"
+"
+src
+/
+Script
 .
 cpp
 "
