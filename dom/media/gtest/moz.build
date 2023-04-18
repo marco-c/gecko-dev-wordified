@@ -357,11 +357,6 @@ TestPacer
 cpp
 "
 "
-TestRTCStatsTimestampMaker
-.
-cpp
-"
-"
 TestRust
 .
 cpp
@@ -451,6 +446,11 @@ UNIFIED_SOURCES
 [
 "
 TestAudioInputProcessing
+.
+cpp
+"
+"
+TestRTCStatsTimestampMaker
 .
 cpp
 "
