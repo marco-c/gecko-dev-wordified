@@ -528,6 +528,11 @@ Promise
 promise
 )
 ;
+void
+RecordPowerMetrics
+(
+)
+;
 }
 /
 /
