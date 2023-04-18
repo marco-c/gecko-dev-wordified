@@ -366,6 +366,11 @@ nsLookAndFeel
 cpp
 "
 "
+nsNativeBasicThemeGTK
+.
+cpp
+"
+"
 nsSound
 .
 cpp

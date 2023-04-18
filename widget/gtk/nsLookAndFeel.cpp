@@ -297,7 +297,7 @@ h
 #
 include
 "
-ScrollbarDrawing
+nsNativeBasicThemeGTK
 .
 h
 "
@@ -380,13 +380,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-widget
 ;
 #
 ifdef
@@ -9055,7 +9048,7 @@ ToABGR
 ;
 mThemedScrollbarThumbHover
 =
-ThemeColors
+nsNativeBasicTheme
 :
 :
 AdjustUnthemedScrollbarThumbColor
@@ -9066,7 +9059,7 @@ NS_EVENT_STATE_HOVER
 ;
 mThemedScrollbarThumbActive
 =
-ThemeColors
+nsNativeBasicTheme
 :
 :
 AdjustUnthemedScrollbarThumbColor
