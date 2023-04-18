@@ -433,13 +433,6 @@ if
 !
 SpinEventLoopUntil
 (
-"
-nsJSInspector
-:
-:
-EnterNestedEventLoop
-"
-_ns
 [
 &
 ]

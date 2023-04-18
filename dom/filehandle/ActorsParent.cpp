@@ -3952,13 +3952,6 @@ MOZ_ALWAYS_TRUE
 (
 SpinEventLoopUntil
 (
-"
-FileHandleThreadPool
-:
-:
-Shutdown
-"
-_ns
 [
 &
 ]

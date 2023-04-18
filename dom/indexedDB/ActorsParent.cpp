@@ -43878,13 +43878,6 @@ MOZ_ALWAYS_TRUE
 (
 SpinEventLoopUntil
 (
-"
-ConnectionPool
-:
-:
-Shutdown
-"
-_ns
 [
 &
 ]
@@ -48426,13 +48419,6 @@ b
 =
 SpinEventLoopUntil
 (
-"
-ConnectionPool
-:
-:
-ThreadRunnable
-"
-_ns
 [
 &
 ]

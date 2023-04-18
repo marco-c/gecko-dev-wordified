@@ -325,13 +325,6 @@ completes
 .
 SpinEventLoopUntil
 (
-"
-FuzzRunner
-:
-:
-Run
-"
-_ns
 [
 &
 ]

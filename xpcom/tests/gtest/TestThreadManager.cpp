@@ -335,8 +335,7 @@ threadMan
 SpinEventLoopUntil
 (
 "
-xpcom
-:
+gtest
 TestThreadManager
 .
 cpp

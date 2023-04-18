@@ -1019,13 +1019,6 @@ nullptr
 ;
 SpinEventLoopUntil
 (
-"
-CompositorThreadHolder
-:
-:
-Shutdown
-"
-_ns
 [
 &
 ]

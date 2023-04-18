@@ -9056,16 +9056,6 @@ MOZ_ALWAYS_TRUE
 (
 SpinEventLoopUntil
 (
-"
-storage
-:
-:
-Connection
-:
-:
-SpinningSynchronousClose
-"
-_ns
 [
 &
 ]

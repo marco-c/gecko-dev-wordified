@@ -1007,13 +1007,6 @@ to
 complete
 SpinEventLoopUntil
 (
-"
-nsHttpConnectionMgr
-:
-:
-Shutdown
-"
-_ns
 [
 &
 shutdownWrapper

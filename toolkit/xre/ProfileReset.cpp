@@ -986,12 +986,6 @@ complete
 .
 SpinEventLoopUntil
 (
-"
-xre
-:
-ProfileResetCreateBackup
-"
-_ns
 [
 &
 ]
