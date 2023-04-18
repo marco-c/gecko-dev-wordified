@@ -13144,6 +13144,16 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+mConnection
+-
+>
+IsProxyConnectInProgress
+(
+)
+)
 {
 MutexAutoLock
 lock
