@@ -123,6 +123,13 @@ mozilla_layers_APZThreadUtils_h
 #
 include
 "
+nsIEventTarget
+.
+h
+"
+#
+include
+"
 nsINamed
 .
 h
@@ -331,6 +338,13 @@ Runnable
 &
 &
 aTask
+uint32_t
+flags
+=
+nsIEventTarget
+:
+:
+DISPATCH_NORMAL
 )
 ;
 /
