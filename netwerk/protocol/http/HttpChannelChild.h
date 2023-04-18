@@ -1674,7 +1674,6 @@ and
 mBgInitFailCallback
 Mutex
 mBgChildMutex
-MOZ_UNANNOTATED
 {
 "
 HttpChannelChild
@@ -1695,6 +1694,10 @@ RefPtr
 HttpBackgroundChannelChild
 >
 mBgChild
+GUARDED_BY
+(
+mBgChildMutex
+)
 ;
 /
 /
@@ -1712,6 +1715,10 @@ nsCOMPtr
 nsIRunnable
 >
 mBgInitFailCallback
+GUARDED_BY
+(
+mBgChildMutex
+)
 ;
 /
 /
@@ -1746,6 +1753,10 @@ nsCOMPtr
 nsIEventTarget
 >
 mODATarget
+GUARDED_BY
+(
+mEventTargetMutex
+)
 ;
 /
 /
@@ -1760,7 +1771,6 @@ mODATarget
 ;
 Mutex
 mEventTargetMutex
-MOZ_UNANNOTATED
 {
 "
 HttpChannelChild
