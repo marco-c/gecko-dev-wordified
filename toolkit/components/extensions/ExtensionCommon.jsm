@@ -13549,7 +13549,7 @@ emit
 "
 background
 -
-script
+page
 -
 event
 "

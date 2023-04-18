@@ -263,7 +263,7 @@ on
 "
 background
 -
-script
+page
 -
 started
 "
@@ -283,7 +283,7 @@ off
 "
 background
 -
-script
+page
 -
 started
 "
@@ -433,7 +433,7 @@ on
 "
 background
 -
-script
+page
 -
 started
 "
@@ -453,7 +453,7 @@ off
 "
 background
 -
-script
+page
 -
 started
 "

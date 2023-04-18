@@ -4711,9 +4711,6 @@ send
 CreateProxyContext
 "
 "
-ContextLoaded
-"
-"
 APICall
 "
 "
