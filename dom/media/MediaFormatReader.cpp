@@ -9077,6 +9077,15 @@ aRequestNextVideoKeyFrame
 )
 )
 {
+PROFILER_MARKER_UNTYPED
+(
+"
+RequestVideoData
+SkipVideoDemuxToNextKeyFrame
+"
+MEDIA_PLAYBACK
+)
+;
 RefPtr
 <
 VideoDataPromise
