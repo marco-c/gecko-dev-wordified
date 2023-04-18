@@ -7530,10 +7530,6 @@ nsJSContext
 :
 CycleCollectNow
 (
-CCReason
-:
-:
-API
 aListener
 )
 ;
@@ -7557,10 +7553,6 @@ nsJSContext
 :
 CycleCollectNow
 (
-CCReason
-:
-:
-API
 aListener
 )
 ;

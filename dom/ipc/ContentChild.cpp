@@ -17217,10 +17217,6 @@ nsJSContext
 :
 CycleCollectNow
 (
-CCReason
-:
-:
-IPC_MESSAGE
 )
 ;
 return

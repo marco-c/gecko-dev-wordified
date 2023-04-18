@@ -316,11 +316,6 @@ collected
 bool
 nsCycleCollector_collect
 (
-mozilla
-:
-:
-CCReason
-aReason
 nsICycleCollectorListener
 *
 aManualListener
@@ -335,11 +330,6 @@ js
 SliceBudget
 &
 budget
-mozilla
-:
-:
-CCReason
-aReason
 bool
 aPreferShorterSlices
 =
