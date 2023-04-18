@@ -12303,6 +12303,10 @@ mSourceUrl
 }
 if
 (
+!
+mForceSave
+&
+&
 StaticPrefs
 :
 :
