@@ -411,10 +411,11 @@ GCReason
 aReason
 IsShrinking
 aShrinking
-mozilla
+js
 :
 :
-TimeDuration
+SliceBudget
+&
 aBudget
 )
 ;
