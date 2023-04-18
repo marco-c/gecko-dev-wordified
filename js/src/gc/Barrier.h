@@ -9213,6 +9213,15 @@ Symbol
 >
 ;
 using
+WeakHeapPtrAtom
+=
+WeakHeapPtr
+<
+JSAtom
+*
+>
+;
+using
 WeakHeapPtrDebugEnvironmentProxy
 =
 WeakHeapPtr
