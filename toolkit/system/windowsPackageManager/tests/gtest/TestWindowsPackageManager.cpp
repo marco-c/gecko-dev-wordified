@@ -244,7 +244,7 @@ packages
 Length
 (
 )
-0
+0U
 )
 ;
 ASSERT_EQ
@@ -321,7 +321,7 @@ packages
 Length
 (
 )
-0
+0U
 )
 ;
 ASSERT_EQ
