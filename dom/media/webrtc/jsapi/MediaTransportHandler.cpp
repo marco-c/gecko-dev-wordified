@@ -556,7 +556,7 @@ std
 string
 &
 aPwd
-size_t
+int
 aComponentCount
 )
 override
@@ -4965,7 +4965,7 @@ std
 string
 &
 aPwd
-size_t
+int
 aComponentCount
 )
 {
@@ -5050,7 +5050,7 @@ s
 components
 =
 %
-u
+d
 "
 mIceCtx
 -
@@ -5067,13 +5067,7 @@ aTransportId
 c_str
 (
 )
-static_cast
-<
-unsigned
->
-(
 aComponentCount
-)
 )
 ;
 std
