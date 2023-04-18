@@ -218,6 +218,10 @@ GMenu
 )
 GOBJECT_TRAITS
 (
+GMenuItem
+)
+GOBJECT_TRAITS
+(
 GSimpleAction
 )
 GOBJECT_TRAITS
