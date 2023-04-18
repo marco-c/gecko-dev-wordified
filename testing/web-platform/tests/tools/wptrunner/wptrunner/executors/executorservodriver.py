@@ -378,7 +378,8 @@ self
 )
 :
         
-pass
+return
+False
     
 def
 set_window
@@ -652,12 +653,50 @@ True
 try
 :
                 
+return
 self
 .
 session
 .
 execute_async_script
 (
+"
+"
+"
+let
+callback
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+addEventListener
+(
+"
+__test_restart
+"
+e
+=
+>
+{
+e
+.
+preventDefault
+(
+)
+;
+callback
+(
+true
+)
+}
+)
+"
 "
 "
 )
@@ -699,6 +738,9 @@ format_exc
 )
                 
 break
+        
+return
+False
 class
 ServoWebDriverRun
 (
