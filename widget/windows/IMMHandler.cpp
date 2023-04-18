@@ -11869,7 +11869,6 @@ aWindow
 >
 DispatchWindowEvent
 (
-&
 aEvent
 )
 ;
