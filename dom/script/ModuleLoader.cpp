@@ -1103,6 +1103,9 @@ mURI
 aRequest
 -
 >
+mLoadContext
+-
+>
 GetWebExtGlobal
 (
 )
@@ -1117,6 +1120,9 @@ aRequest
 >
 mURI
 aRequest
+-
+>
+mLoadContext
 -
 >
 GetWebExtGlobal
@@ -1266,6 +1272,9 @@ aRequest
 >
 mURI
 aRequest
+-
+>
+mLoadContext
 -
 >
 GetWebExtGlobal
