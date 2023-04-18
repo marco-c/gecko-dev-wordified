@@ -3254,7 +3254,7 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_SECURITY_SETTINGS
+CLEAR_CLIENT_AUTH_REMEMBER_SERVICE
 |
 Ci
 .
@@ -6373,12 +6373,6 @@ Ci
 nsIClearDataService
 .
 CLEAR_DOM_STORAGES
-|
-Ci
-.
-nsIClearDataService
-.
-CLEAR_SECURITY_SETTINGS
 |
 Ci
 .
