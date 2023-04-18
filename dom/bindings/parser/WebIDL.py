@@ -10619,6 +10619,16 @@ member
 getExtendedAttribute
 (
 "
+Trial
+"
+)
+                        
+or
+member
+.
+getExtendedAttribute
+(
+"
 SecureContext
 "
 )
@@ -11903,18 +11913,27 @@ _ownMembersInSlots
 conditionExtendedAttributes
 =
 [
+        
 "
 Pref
 "
+        
 "
 ChromeOnly
 "
+        
 "
 Func
 "
+        
+"
+Trial
+"
+        
 "
 SecureContext
 "
+    
 ]
     
 def
@@ -13147,6 +13166,14 @@ identifier
 =
 =
 "
+Trial
+"
+                
+or
+identifier
+=
+=
+"
 Deprecated
 "
             
@@ -13791,6 +13818,14 @@ identifier
 =
 "
 Func
+"
+                
+or
+identifier
+=
+=
+"
+Trial
 "
             
 )
@@ -32336,6 +32371,14 @@ identifier
 =
 =
 "
+Trial
+"
+            
+or
+identifier
+=
+=
+"
 SecureContext
 "
             
@@ -36025,6 +36068,14 @@ identifier
 =
 =
 "
+Trial
+"
+            
+or
+identifier
+=
+=
+"
 SecureContext
 "
             
@@ -36838,6 +36889,14 @@ identifier
 =
 "
 Func
+"
+                
+or
+identifier
+=
+=
+"
+Trial
 "
                 
 or
@@ -42559,6 +42618,14 @@ identifier
 =
 =
 "
+Trial
+"
+            
+or
+identifier
+=
+=
+"
 SecureContext
 "
             
@@ -42923,6 +42990,14 @@ identifier
 =
 "
 Func
+"
+            
+or
+identifier
+=
+=
+"
+Trial
 "
             
 or
