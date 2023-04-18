@@ -608,8 +608,10 @@ nsIWidget
 *
 mWidget
 ;
+nsCOMPtr
+<
 nsIDragService
-*
+>
 mDragService
 ;
 /
