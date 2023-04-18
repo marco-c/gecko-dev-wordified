@@ -1193,6 +1193,15 @@ GetPreference
 (
 &
 pref
+GeckoProcessType_GPU
+/
+*
+remoteType
+*
+/
+"
+"
+_ns
 )
 ;
 if

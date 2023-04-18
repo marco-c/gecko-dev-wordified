@@ -23897,6 +23897,10 @@ GetPreference
 (
 &
 pref
+GeckoProcessType_Content
+GetRemoteType
+(
+)
 )
 ;
 if
