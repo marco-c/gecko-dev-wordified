@@ -154,7 +154,7 @@ JSM
 let
 Log
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -171,9 +171,8 @@ AndroidLog
 .
 jsm
 "
-{
-}
 )
+*
 .
 AndroidLog
 ;
