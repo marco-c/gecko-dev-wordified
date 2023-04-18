@@ -531,6 +531,13 @@ IsBufferAvailable
 const
 override
 ;
+bool
+IsValid
+(
+)
+const
+override
+;
 }
 ;
 class
