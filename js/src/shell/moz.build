@@ -521,3 +521,17 @@ stack
 first
 "
 ]
+OS_LIBS
++
+=
+[
+"
+wasi
+-
+emulated
+-
+process
+-
+clocks
+"
+]
