@@ -1711,6 +1711,12 @@ mousemove
 :
 if
 (
+!
+DownloadsView
+.
+contextMenuOpen
+&
+&
 this
 .
 panel
