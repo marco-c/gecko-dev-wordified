@@ -700,13 +700,6 @@ datadir
 -
 enable
 -
-logrefcnt
-"
-"
--
--
-enable
--
 negotiateauth
 "
 "
