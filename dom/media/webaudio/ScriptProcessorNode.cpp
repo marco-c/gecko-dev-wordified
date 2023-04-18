@@ -297,6 +297,10 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+REQUIRES
+(
+mMutex
+)
 {
 mMutex
 .
@@ -354,6 +358,10 @@ Lock
 (
 )
 const
+RETURN_CAPABILITY
+(
+mMutex
+)
 {
 return
 const_cast
@@ -374,6 +382,10 @@ ReadyToConsume
 (
 )
 const
+REQUIRES
+(
+mMutex
+)
 {
 /
 /
@@ -410,6 +422,10 @@ AudioChunk
 &
 Produce
 (
+)
+REQUIRES
+(
+mMutex
 )
 {
 mMutex
@@ -451,6 +467,10 @@ buffer
 AudioChunk
 Consume
 (
+)
+REQUIRES
+(
+mMutex
 )
 {
 mMutex
@@ -505,6 +525,10 @@ queue
 void
 Clear
 (
+)
+REQUIRES
+(
+mMutex
 )
 {
 mMutex
