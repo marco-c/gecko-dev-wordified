@@ -14477,7 +14477,7 @@ if
 (
 v
 .
-isObject
+hasObjectPayload
 (
 )
 )
@@ -14489,7 +14489,7 @@ obj2
 &
 v
 .
-toObject
+getObjectPayload
 (
 )
 ;
