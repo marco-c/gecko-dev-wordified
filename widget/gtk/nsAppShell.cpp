@@ -389,6 +389,14 @@ WidgetPopup
 )
 ;
 LazyLogModule
+gWidgetVsync
+(
+"
+WidgetVsync
+"
+)
+;
+LazyLogModule
 gDmabufLog
 (
 "
