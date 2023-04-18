@@ -359,10 +359,13 @@ mozilla
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 bool
 mShutdown
+GUARDED_BY
+(
+mLock
+)
 ;
 bool
 mBlocking
@@ -412,6 +415,10 @@ mLock
 .
 int32_t
 mExitValue
+GUARDED_BY
+(
+mLock
+)
 ;
 #
 if
@@ -421,6 +428,10 @@ PROCESSMODEL_WINAPI
 )
 HANDLE
 mProcess
+GUARDED_BY
+(
+mLock
+)
 ;
 #
 elif
@@ -432,6 +443,10 @@ XP_UNIX
 PRProcess
 *
 mProcess
+GUARDED_BY
+(
+mLock
+)
 ;
 #
 endif

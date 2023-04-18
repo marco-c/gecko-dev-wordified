@@ -786,7 +786,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 *
@@ -1059,6 +1058,10 @@ up
 /
 uint32_t
 mPendingEventCount
+GUARDED_BY
+(
+mMutex
+)
 ;
 /
 *
@@ -1104,6 +1107,10 @@ way
 /
 uint32_t
 mIdleNotificationCount
+GUARDED_BY
+(
+mMutex
+)
 ;
 /
 *
@@ -1214,6 +1221,10 @@ process
 /
 bool
 mThreadIsShuttingDown
+GUARDED_BY
+(
+mMutex
+)
 ;
 /
 *

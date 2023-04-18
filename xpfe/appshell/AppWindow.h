@@ -2014,13 +2014,16 @@ nsCOMPtr
 nsITimer
 >
 mSPTimer
+GUARDED_BY
+(
+mSPTimerLock
+)
 ;
 mozilla
 :
 :
 Mutex
 mSPTimerLock
-MOZ_UNANNOTATED
 ;
 WidgetListenerDelegate
 mWidgetListenerDelegate
