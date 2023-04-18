@@ -154,6 +154,7 @@ stackwalk
 "
 ]
 ;
+await
 Services
 .
 profiler

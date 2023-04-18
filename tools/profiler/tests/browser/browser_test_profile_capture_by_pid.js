@@ -347,6 +347,7 @@ content
 "
 )
 ;
+await
 startProfiler
 (
 {

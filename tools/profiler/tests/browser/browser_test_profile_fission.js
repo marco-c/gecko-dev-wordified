@@ -192,6 +192,7 @@ page
 "
 )
 ;
+await
 startProfiler
 (
 )
@@ -341,6 +342,7 @@ getProfileDataAsync
 (
 )
 ;
+await
 Services
 .
 profiler
@@ -728,6 +730,7 @@ page
 "
 )
 ;
+await
 startProfiler
 (
 )
@@ -880,6 +883,7 @@ getProfileDataAsync
 (
 )
 ;
+await
 Services
 .
 profiler

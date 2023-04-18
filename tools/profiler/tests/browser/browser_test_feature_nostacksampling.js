@@ -99,6 +99,7 @@ active
 "
 )
 ;
+await
 startProfiler
 (
 {
@@ -311,6 +312,7 @@ the
 profiler
 once
 .
+await
 startProfiler
 (
 {

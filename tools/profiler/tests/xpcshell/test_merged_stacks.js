@@ -113,6 +113,7 @@ stackwalk
 "
 ]
 ;
+await
 Services
 .
 profiler

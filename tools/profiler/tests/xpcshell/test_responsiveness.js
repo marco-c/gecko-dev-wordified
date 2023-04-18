@@ -102,6 +102,7 @@ features
 [
 ]
 ;
+await
 Services
 .
 profiler
