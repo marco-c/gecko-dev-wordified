@@ -2344,6 +2344,14 @@ isElement
 (
 obj
 )
+|
+|
+element
+.
+isShadowRoot
+(
+obj
+)
 )
 {
 /
