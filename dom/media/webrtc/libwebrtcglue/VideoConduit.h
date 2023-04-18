@@ -733,11 +733,13 @@ conduit
 MediaConduitErrorCode
 SendVideoFrame
 (
+const
 webrtc
 :
 :
 VideoFrame
-aFrame
+&
+frame
 )
 override
 ;
