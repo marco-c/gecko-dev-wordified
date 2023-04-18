@@ -147,6 +147,16 @@ disabled
 "
 )
 ;
+await
+testPageBlockedByPolicy
+(
+"
+about
+:
+telemetry
+"
+)
+;
 }
 )
 ;

@@ -37,7 +37,7 @@ add_task
 (
 async
 function
-test_pwmanagerbutton
+test_pwmanager_blocked
 (
 )
 {
@@ -97,6 +97,16 @@ disabled
 )
 ;
 }
+)
+;
+await
+testPageBlockedByPolicy
+(
+"
+about
+:
+logins
+"
 )
 ;
 }
