@@ -10952,7 +10952,6 @@ td
 )
 =
 >
-{
 fd
 .
 infinity_or
@@ -10984,7 +10983,6 @@ px
 )
 )
 )
-}
 (
 &
 TransformOperation

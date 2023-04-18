@@ -143,15 +143,6 @@ use
 crate
 :
 :
-stylist
-:
-:
-Stylist
-;
-use
-crate
-:
-:
 stylesheet_set
 :
 :
@@ -174,6 +165,15 @@ stylist
 :
 :
 CascadeData
+;
+use
+crate
+:
+:
+stylist
+:
+:
+Stylist
 ;
 use
 servo_arc
@@ -300,7 +300,6 @@ Arc
 CascadeData
 >
 =
-{
 Arc
 :
 :
@@ -313,7 +312,6 @@ new
 (
 )
 )
-}
 ;
 }
 impl

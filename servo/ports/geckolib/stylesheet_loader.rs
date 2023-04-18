@@ -233,8 +233,8 @@ import_rule
 :
 :
 {
-ImportSheet
 ImportLayer
+ImportSheet
 }
 ;
 use
