@@ -17054,6 +17054,11 @@ MakeHyphenTextRun
 DrawTarget
 *
 aDrawTarget
+gfx
+:
+:
+ShapedTextFlags
+aFlags
 uint32_t
 aAppUnitsPerDevUnit
 )
@@ -17149,9 +17154,7 @@ hyphen
 1
 aDrawTarget
 aAppUnitsPerDevUnit
-ShapedTextFlags
-(
-)
+aFlags
 nsTextFrameUtils
 :
 :
@@ -17179,9 +17182,7 @@ dash
 1
 aDrawTarget
 aAppUnitsPerDevUnit
-ShapedTextFlags
-(
-)
+aFlags
 nsTextFrameUtils
 :
 :
@@ -17242,6 +17243,12 @@ hyphRun
 MakeHyphenTextRun
 (
 dt
+aProvider
+-
+>
+GetShapedTextFlags
+(
+)
 aProvider
 -
 >
