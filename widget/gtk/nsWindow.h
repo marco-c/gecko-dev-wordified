@@ -4700,8 +4700,9 @@ WaylandPopupSetDirectPosition
 bool
 WaylandPopupFitsParentWindow
 (
+const
 GdkRectangle
-*
+&
 aSize
 )
 ;
