@@ -2004,6 +2004,8 @@ Text
 aWhichClipboard
 )
 .
-mData
+ExtractText
+(
+)
 ;
 }
