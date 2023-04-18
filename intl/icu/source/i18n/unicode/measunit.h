@@ -580,9 +580,6 @@ ICU
 UMEASURE_UNIT_MIXED
 }
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -637,7 +634,7 @@ values
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -699,7 +696,7 @@ values
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -723,7 +720,7 @@ yotta
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -785,7 +782,7 @@ zetta
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -809,7 +806,7 @@ exa
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -833,7 +830,7 @@ peta
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -857,7 +854,7 @@ tera
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -881,7 +878,7 @@ giga
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -905,7 +902,7 @@ mega
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -929,7 +926,7 @@ kilo
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -953,7 +950,7 @@ hecto
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -977,7 +974,7 @@ deka
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1002,7 +999,7 @@ deci
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1028,7 +1025,7 @@ centi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1054,7 +1051,7 @@ milli
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1080,7 +1077,7 @@ micro
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1106,7 +1103,7 @@ nano
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1132,7 +1129,7 @@ pico
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1158,7 +1155,7 @@ femto
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1184,7 +1181,7 @@ atto
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1210,7 +1207,7 @@ zepto
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1236,7 +1233,7 @@ yocto
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1350,7 +1347,7 @@ kibi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1410,7 +1407,7 @@ mebi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1434,7 +1431,7 @@ gibi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1458,7 +1455,7 @@ tebi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1482,7 +1479,7 @@ pebi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1506,7 +1503,7 @@ exbi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1530,7 +1527,7 @@ zebi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1554,7 +1551,7 @@ yobi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1645,7 +1642,7 @@ mebi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1697,7 +1694,7 @@ gibi
 .
 *
 *
-draft
+stable
 ICU
 69
 *
@@ -1711,11 +1708,6 @@ UMeasurePrefix
 unitPrefix
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2324,9 +2316,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2437,7 +2426,7 @@ SINGLE
 unit
 .
 *
-draft
+stable
 ICU
 69
 *
@@ -2553,7 +2542,7 @@ umeas_getPrefixBase
 see
 umeas_getPrefixPower
 *
-draft
+stable
 ICU
 69
 *
@@ -2567,11 +2556,6 @@ status
 )
 const
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -5642,9 +5626,6 @@ getKarat
 (
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -5693,7 +5674,7 @@ error
 code
 .
 *
-draft
+stable
 ICU
 69
 *
@@ -5739,7 +5720,7 @@ createMilligramOfglucosePerDeciliter
 }
 .
 *
-draft
+stable
 ICU
 69
 *
@@ -5750,13 +5731,6 @@ getMilligramOfglucosePerDeciliter
 (
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

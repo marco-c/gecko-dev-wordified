@@ -1539,9 +1539,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -1556,7 +1553,7 @@ wall
 time
 .
 *
-draft
+stable
 ICU
 69
 *
@@ -1583,13 +1580,6 @@ status
 )
 const
 ;
-#
-endif
-/
-*
-U_FORCE_HIDE_DRAFT_API
-*
-/
 #
 ifndef
 U_HIDE_INTERNAL_API

@@ -2013,7 +2013,7 @@ TRUE
 *
 Deleter
 for
-OlsonToMetaMappingEntry
+IsoCodeEntry
 *
 /
 static

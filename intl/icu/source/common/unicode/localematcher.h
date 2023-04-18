@@ -3008,7 +3008,7 @@ included
 *
 *
 param
-direction
+matchDirection
 the
 match
 direction
@@ -3031,7 +3031,7 @@ Builder
 setDirection
 (
 ULocMatchDirection
-direction
+matchDirection
 )
 {
 if
@@ -3044,7 +3044,7 @@ errorCode_
 {
 direction_
 =
-direction
+matchDirection
 ;
 }
 return
