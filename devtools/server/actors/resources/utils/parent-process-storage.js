@@ -1571,6 +1571,8 @@ this
 .
 watcherActor
 .
+sessionContext
+.
 isServerTargetSwitchingEnabled
 |
 |
@@ -2013,6 +2015,8 @@ if
 this
 .
 watcherActor
+.
+sessionContext
 .
 isServerTargetSwitchingEnabled
 )
@@ -3014,6 +3018,8 @@ isTopContext
 this
 .
 watcherActor
+.
+sessionContext
 .
 isServerTargetSwitchingEnabled
 )

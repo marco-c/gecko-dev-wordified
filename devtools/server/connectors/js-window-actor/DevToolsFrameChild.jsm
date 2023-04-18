@@ -1455,7 +1455,6 @@ const
 {
 connectionPrefix
 sessionContext
-isServerTargetSwitchingEnabled
 }
 =
 sessionData
@@ -1547,6 +1546,8 @@ DocShell
 const
 acceptTopLevelTarget
 =
+sessionContext
+.
 isServerTargetSwitchingEnabled
 |
 |
@@ -5440,7 +5441,6 @@ sessionDataByWatcherActor
 const
 {
 sessionContext
-isServerTargetSwitchingEnabled
 }
 =
 sessionData
@@ -5626,6 +5626,8 @@ isBfcacheInParentEnabled
 &
 &
 !
+sessionContext
+.
 isServerTargetSwitchingEnabled
 )
 {
