@@ -13238,12 +13238,10 @@ remove
 it
 now
 .
-GtkWidget
-*
-parent
-;
 if
 (
+GtkWidget
+*
 parent
 =
 gtk_widget_get_parent
