@@ -1970,15 +1970,11 @@ __init__
 self
 logger
 binary
-=
-None
 webdriver_binary
-=
-None
-                 
 webdriver_args
 =
 None
+                 
 host
 =
 "
@@ -1998,7 +1994,6 @@ base_path
 "
 /
 "
-                 
 env
 =
 None

@@ -760,7 +760,7 @@ server
 :
 Server
 .
-HTTP_PRIVATE
+HTTP_LOCAL
 behavior
 :
 {
@@ -791,10 +791,10 @@ FAILURE
 }
 )
 "
-public
+pubiic
 https
 to
-private
+local
 :
 failure
 .

@@ -26,18 +26,10 @@ newAnonymousIframe
 =
 (
 child_origin
-opt_headers
 )
 =
 >
 {
-opt_headers
-|
-|
-=
-"
-"
-;
 const
 sub_document_token
 =
@@ -64,8 +56,6 @@ src
 child_origin
 +
 executor_path
-+
-opt_headers
 +
 &
 uuid
