@@ -6125,9 +6125,6 @@ dll
 psapi
 .
 dll
-winmm
-.
-dll
 "
 _ns
 ;
