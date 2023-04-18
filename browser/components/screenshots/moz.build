@@ -124,3 +124,17 @@ Firefox
 Screenshots
 "
 )
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+"
+tests
+/
+browser
+/
+browser
+.
+ini
+"
+]
