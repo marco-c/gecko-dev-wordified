@@ -4548,6 +4548,23 @@ avd_path
 return
 True
         
+_log_warning
+(
+"
+Could
+not
+find
+AVD
+at
+%
+s
+"
+%
+self
+.
+avd_path
+)
+        
 return
 False
     
