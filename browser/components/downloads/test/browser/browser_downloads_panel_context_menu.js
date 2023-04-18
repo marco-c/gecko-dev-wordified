@@ -127,6 +127,17 @@ separator
 "
 menuseparator
 "
+deleteFile
+:
+'
+[
+command
+=
+"
+downloadsCmd_deleteFile
+"
+]
+'
 delete
 :
 '
@@ -230,6 +241,9 @@ copyLocation
 MENU_ITEMS
 .
 separator
+MENU_ITEMS
+.
+deleteFile
 MENU_ITEMS
 .
 delete
@@ -364,6 +378,9 @@ copyLocation
 MENU_ITEMS
 .
 separator
+MENU_ITEMS
+.
+deleteFile
 MENU_ITEMS
 .
 delete
@@ -501,6 +518,9 @@ copyLocation
 MENU_ITEMS
 .
 separator
+MENU_ITEMS
+.
+deleteFile
 MENU_ITEMS
 .
 delete
@@ -645,6 +665,9 @@ MENU_ITEMS
 separator
 MENU_ITEMS
 .
+deleteFile
+MENU_ITEMS
+.
 delete
 MENU_ITEMS
 .
@@ -752,6 +775,9 @@ copyLocation
 MENU_ITEMS
 .
 separator
+MENU_ITEMS
+.
+deleteFile
 MENU_ITEMS
 .
 delete
