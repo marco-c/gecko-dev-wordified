@@ -686,12 +686,7 @@ nsACString
 &
 aKey
 )
-{
-aKey
-=
-mKey
 ;
-}
 bool
 IsDoomed
 (
@@ -701,12 +696,7 @@ bool
 IsPinned
 (
 )
-const
-{
-return
-mPinned
 ;
-}
 /
 /
 Returns
