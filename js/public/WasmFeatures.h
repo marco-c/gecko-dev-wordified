@@ -1147,7 +1147,7 @@ relaxed_simd
 "
 )
 \
-EXPERIMENTAL
+DEFAULT
 (
 /
 *

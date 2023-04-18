@@ -9,12 +9,6 @@ test
 -
 wasm
 -
-memory64
-;
--
--
-wasm
--
 compiler
 =
 optimizing

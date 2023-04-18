@@ -5,12 +5,6 @@ jit
 -
 test
 |
--
--
-wasm
--
-memory64
-;
 skip
 -
 if
