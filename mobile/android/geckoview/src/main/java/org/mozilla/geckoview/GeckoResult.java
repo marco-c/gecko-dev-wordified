@@ -5938,11 +5938,12 @@ should
 mirror
 *
 /
-private
+public
 void
 completeFrom
 (
 final
+Nullable
 GeckoResult
 <
 T
