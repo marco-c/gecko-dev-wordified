@@ -270,7 +270,7 @@ namespace
 image
 {
 class
-Image
+ImageResource
 ;
 class
 ISurfaceProvider
@@ -307,10 +307,11 @@ image
 .
 *
 /
-typedef
-Image
-*
+using
 ImageKey
+=
+ImageResource
+*
 ;
 /
 *
