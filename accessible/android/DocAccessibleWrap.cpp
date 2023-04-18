@@ -1271,6 +1271,7 @@ SessionAccessibility
 :
 :
 HTML_GRANULARITY_DEFAULT
+true
 )
 ;
 Accessible
