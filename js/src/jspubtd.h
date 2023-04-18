@@ -248,12 +248,6 @@ JSTYPE_BOOLEAN
 boolean
 *
 /
-JSTYPE_NULL
-/
-*
-null
-*
-/
 JSTYPE_SYMBOL
 /
 *
