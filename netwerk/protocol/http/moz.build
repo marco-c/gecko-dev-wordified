@@ -643,11 +643,6 @@ HttpTransactionParent
 cpp
 "
 "
-InterceptedChannel
-.
-cpp
-"
-"
 InterceptedHttpChannel
 .
 cpp
