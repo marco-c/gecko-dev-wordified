@@ -6129,9 +6129,6 @@ IntlPluralRules
 SelectRangeEn
 )
 {
-#
-ifdef
-INTL_PLURAL_RULES_HAS_SELECT_RANGE
 for
 (
 auto
@@ -6311,8 +6308,6 @@ Other
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -6506,9 +6501,6 @@ IntlPluralRules
 SelectRangeFrCardinal
 )
 {
-#
-ifdef
-INTL_PLURAL_RULES_HAS_SELECT_RANGE
 PluralRulesOptions
 options
 ;
@@ -6689,8 +6681,6 @@ Keyword
 Other
 )
 ;
-#
-endif
 }
 /
 /
@@ -6753,9 +6743,6 @@ IntlPluralRules
 SelectRangeFrOrdinal
 )
 {
-#
-ifdef
-INTL_PLURAL_RULES_HAS_SELECT_RANGE
 PluralRulesOptions
 options
 ;
@@ -6936,8 +6923,6 @@ Keyword
 Other
 )
 ;
-#
-endif
 }
 }
 /

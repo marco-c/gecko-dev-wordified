@@ -3018,9 +3018,6 @@ return
 nf
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 UNumberRangeCollapse
 ToUNumberRangeCollapse
@@ -3264,8 +3261,6 @@ return
 nrf
 ;
 }
-#
-endif
 }
 /
 /

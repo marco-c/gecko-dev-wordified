@@ -109,9 +109,6 @@ IntlNumberRangeFormat
 Basic
 )
 {
-#
-ifdef
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
 NumberRangeFormatOptions
 options
 ;
@@ -424,8 +421,6 @@ u
 sv
 )
 ;
-#
-endif
 }
 TEST
 (
@@ -433,9 +428,6 @@ IntlNumberRangeFormat
 Currency
 )
 {
-#
-ifdef
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
 NumberRangeFormatOptions
 options
 ;
@@ -643,8 +635,6 @@ u
 sv
 )
 ;
-#
-endif
 }
 TEST
 (
@@ -652,9 +642,6 @@ IntlNumberRangeFormat
 Unit
 )
 {
-#
-ifdef
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
 NumberRangeFormatOptions
 options
 ;
@@ -767,8 +754,6 @@ segundo
 "
 )
 ;
-#
-endif
 }
 TEST
 (
@@ -776,9 +761,6 @@ IntlNumberRangeFormat
 FormatToParts
 )
 {
-#
-ifdef
-MOZ_INTL_HAS_NUMBER_RANGE_FORMAT
 NumberRangeFormatOptions
 options
 ;
@@ -1119,8 +1101,6 @@ End
 )
 )
 ;
-#
-endif
 }
 }
 /

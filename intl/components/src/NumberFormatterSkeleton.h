@@ -220,9 +220,6 @@ string_view
 locale
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -259,8 +256,6 @@ RangeIdentityFallback
 identity
 )
 ;
-#
-endif
 private
 :
 static
