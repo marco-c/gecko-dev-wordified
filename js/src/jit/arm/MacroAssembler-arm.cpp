@@ -43702,7 +43702,7 @@ asMasm
 (
 )
 .
-memoryBarrierAfter
+memoryBarrierBefore
 (
 access
 .
