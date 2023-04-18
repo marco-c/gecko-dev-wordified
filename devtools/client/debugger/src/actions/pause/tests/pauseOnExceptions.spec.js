@@ -98,7 +98,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 pause
 "

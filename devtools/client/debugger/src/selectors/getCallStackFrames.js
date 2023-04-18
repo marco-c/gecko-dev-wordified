@@ -82,9 +82,6 @@ getCurrentThreadFrames
 from
 "
 .
-.
-/
-reducers
 /
 pause
 "
