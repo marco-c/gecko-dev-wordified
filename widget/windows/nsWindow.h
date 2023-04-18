@@ -2572,6 +2572,11 @@ true
 )
 ;
 void
+UpdateDarkModeToolbar
+(
+)
+;
+void
 UpdateGetWindowInfoCaptionStatus
 (
 bool
