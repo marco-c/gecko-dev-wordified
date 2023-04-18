@@ -727,11 +727,12 @@ this
 )
 ;
 }
+virtual
 uint32_t
 EmbeddedChildCount
 (
 )
-const
+override
 ;
 virtual
 int32_t
