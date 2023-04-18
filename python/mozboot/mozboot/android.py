@@ -5930,6 +5930,25 @@ arch
 x64
 "
     
+ext
+=
+"
+zip
+"
+if
+os_name
+=
+=
+"
+windows
+"
+else
+"
+tar
+.
+gz
+"
+    
 java_path
 =
 java_bin_path
@@ -6078,9 +6097,9 @@ minor
 patch
 }
 .
-tar
-.
-gz
+{
+ext
+}
 "
         
 )
@@ -6107,6 +6126,10 @@ os_tag
 arch
 =
 arch
+            
+ext
+=
+ext
         
 )
         
