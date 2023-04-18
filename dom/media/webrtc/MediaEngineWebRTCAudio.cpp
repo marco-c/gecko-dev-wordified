@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIDUtils
 .
 h
@@ -7162,7 +7169,7 @@ rv
 ;
 rv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

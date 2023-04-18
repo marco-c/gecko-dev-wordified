@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h
@@ -273,7 +280,7 @@ const
 nsID
 mAgentClusterId
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUID

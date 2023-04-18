@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -382,7 +389,7 @@ uuid
 ;
 aRv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

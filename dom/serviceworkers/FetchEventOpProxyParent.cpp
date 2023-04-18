@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -386,7 +393,7 @@ uuid
 ;
 MOZ_TRY
 (
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

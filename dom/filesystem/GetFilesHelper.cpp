@@ -219,6 +219,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
@@ -2567,7 +2574,7 @@ return
 }
 aRv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

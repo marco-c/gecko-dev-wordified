@@ -168,6 +168,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -363,7 +370,7 @@ portUUID1
 ;
 aRv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace
@@ -389,7 +396,7 @@ portUUID2
 ;
 aRv
 =
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

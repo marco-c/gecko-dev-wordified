@@ -4827,7 +4827,7 @@ ParentToParentStream
 ;
 MOZ_TRY
 (
-nsID
+nsContentUtils
 :
 :
 GenerateUUIDInPlace

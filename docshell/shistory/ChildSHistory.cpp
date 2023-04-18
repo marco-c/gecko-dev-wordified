@@ -587,11 +587,15 @@ aLengthDelta
 nsID
 changeID
 =
-nsID
+{
+}
+;
+nsContentUtils
 :
 :
-GenerateUUID
+GenerateUUIDInPlace
 (
+changeID
 )
 ;
 PendingSHistoryChange
