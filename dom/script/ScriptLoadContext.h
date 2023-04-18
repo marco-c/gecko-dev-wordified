@@ -662,9 +662,6 @@ public
 explicit
 ScriptLoadContext
 (
-Element
-*
-aElement
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -1233,12 +1230,6 @@ modules
 .
 bool
 mIsPreload
-;
-nsCOMPtr
-<
-Element
->
-mElement
 ;
 RefPtr
 <
