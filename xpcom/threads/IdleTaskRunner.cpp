@@ -1153,6 +1153,13 @@ nsRefreshDriver
 GetIdleDeadlineHint
 (
 now
+nsRefreshDriver
+:
+:
+IdleCheck
+:
+:
+OnlyThisProcessRefreshDriver
 )
 !
 =
