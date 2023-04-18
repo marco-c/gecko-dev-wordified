@@ -287,7 +287,10 @@ dom
 :
 Sequence
 <
-nsCString
+dom
+:
+:
+OwningUTF8StringOrResourceId
 >
 &
 aResourceIds
