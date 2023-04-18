@@ -6610,7 +6610,7 @@ mDebuggerEventLoopLevel
 uint32_t
 mErrorHandlerRecursionCount
 ;
-uint32_t
+int32_t
 mNextTimeoutId
 ;
 /
