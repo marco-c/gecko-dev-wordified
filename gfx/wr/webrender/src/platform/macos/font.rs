@@ -4164,7 +4164,7 @@ on
 stable
 :
 (
-debug
+println
 !
 (
 "
@@ -4257,7 +4257,7 @@ pixel
 3
 ]
 ;
-debug
+print
 !
 (
 "
@@ -4279,7 +4279,7 @@ a
 )
 ;
 }
-debug
+println
 !
 (
 )

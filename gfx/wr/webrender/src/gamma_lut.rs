@@ -3189,7 +3189,7 @@ true_result
 ;
 /
 /
-debug
+println
 !
 (
 "
@@ -3222,7 +3222,7 @@ diff
 }
 /
 /
-debug
+println
 !
 (
 "

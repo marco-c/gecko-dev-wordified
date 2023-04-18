@@ -2637,7 +2637,7 @@ None
 =
 >
 {
-warn
+println
 !
 (
 "
@@ -4633,7 +4633,7 @@ print
 self
 )
 {
-debug
+println
 !
 (
 "
@@ -4663,7 +4663,7 @@ enumerate
 (
 )
 {
-debug
+println
 !
 (
 "
@@ -4723,7 +4723,7 @@ enumerate
 (
 )
 {
-debug
+println
 !
 (
 "
@@ -4753,7 +4753,7 @@ enumerate
 (
 )
 {
-debug
+println
 !
 (
 "
@@ -4781,7 +4781,7 @@ sub_pass
 .
 task_ids
 {
-debug
+println
 !
 (
 "

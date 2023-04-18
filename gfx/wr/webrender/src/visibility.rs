@@ -2203,7 +2203,7 @@ is_chased
 (
 )
 {
-info
+println
 !
 (
 "
@@ -2327,7 +2327,7 @@ is_chased
 (
 )
 {
-info
+println
 !
 (
 "
@@ -2513,7 +2513,7 @@ is_chased
 (
 )
 {
-info
+println
 !
 (
 "
@@ -2541,7 +2541,7 @@ is_chased
 (
 )
 {
-info
+println
 !
 (
 "
@@ -2580,7 +2580,7 @@ else
 }
 )
 ;
-info
+println
 !
 (
 "
@@ -2657,7 +2657,7 @@ is_chased
 (
 )
 {
-info
+println
 !
 (
 "
@@ -2754,7 +2754,7 @@ is_chased
 (
 )
 {
-info
+println
 !
 (
 "
@@ -3358,7 +3358,7 @@ is_chased
 (
 )
 {
-info
+println
 !
 (
 "
