@@ -391,9 +391,6 @@ MOZ_ASSERT
 mChannels
 &
 &
-mFrames
-&
-&
 mSampleRate
 "
 Mix
