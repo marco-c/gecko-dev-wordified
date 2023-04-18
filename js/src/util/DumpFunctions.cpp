@@ -3899,12 +3899,10 @@ asCell
 void
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 override
@@ -4463,12 +4461,10 @@ DumpHeapTracer
 :
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 {

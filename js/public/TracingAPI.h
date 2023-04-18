@@ -2443,12 +2443,10 @@ virtual
 void
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 thing
 )
 =

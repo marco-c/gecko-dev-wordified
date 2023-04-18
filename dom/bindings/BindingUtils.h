@@ -4935,12 +4935,10 @@ false
 void
 onChild
 (
-const
 JS
 :
 :
 GCCellPtr
-&
 )
 override
 {
