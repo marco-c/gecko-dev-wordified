@@ -3600,6 +3600,12 @@ SocketProcessReady
 aSucceeded
 )
 {
+mPendingEvents
+.
+Clear
+(
+)
+;
 return
 ;
 }
@@ -3813,6 +3819,12 @@ n
 )
 ;
 DestroySocketProcess
+(
+)
+;
+mPendingEvents
+.
+Clear
 (
 )
 ;
