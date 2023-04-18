@@ -202,7 +202,7 @@ DOMWindowUtils
 PHASE_END
 promiseNativePanEvent
 :
-promiseNativeTouchpadPan
+promiseNativeTouchpadPanEventAndWaitForObserver
 deltaOnRTL
 :
 50

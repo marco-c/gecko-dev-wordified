@@ -6996,6 +6996,9 @@ double
 aDeltaY
 int32_t
 aModifierFlags
+nsIObserver
+*
+aObserver
 )
 {
 nsCOMPtr
@@ -7043,6 +7046,8 @@ LayoutDeviceIntPoint
 double
 double
 uint32_t
+nsIObserver
+*
 >
 (
 "
@@ -7072,6 +7077,7 @@ aScreenY
 aDeltaX
 aDeltaY
 aModifierFlags
+aObserver
 )
 )
 )

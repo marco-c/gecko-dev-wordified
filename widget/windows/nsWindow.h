@@ -1667,7 +1667,10 @@ aDeltaX
 double
 aDeltaY
 int32_t
-aModifierFlags
+aModifierFlagsn
+nsIObserver
+*
+aObserver
 )
 override
 ;
