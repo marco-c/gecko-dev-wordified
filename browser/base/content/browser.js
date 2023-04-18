@@ -38119,7 +38119,15 @@ isExternal
 forceNotRemote
 userContextId
 aOpenWindowInfo
-null
+aOpenWindowInfo
+?
+.
+parent
+?
+.
+top
+.
+embedderElement
 aTriggeringPrincipal
 "
 "
