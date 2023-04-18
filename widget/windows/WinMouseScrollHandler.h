@@ -180,7 +180,7 @@ nsPoint
 h
 "
 class
-nsWindowBase
+nsWindow
 ;
 namespace
 mozilla
@@ -230,7 +230,7 @@ static
 bool
 ProcessMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -269,7 +269,7 @@ static
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -393,7 +393,7 @@ static
 void
 InitEvent
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 WidgetGUIEvent
@@ -609,7 +609,7 @@ message
 void
 ProcessNativeMouseWheelMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -715,7 +715,7 @@ FALSE
 bool
 ProcessNativeScrollMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -803,7 +803,7 @@ message
 void
 HandleMouseWheelMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -900,7 +900,7 @@ message
 void
 HandleScrollMessageAsMouseWheelMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -1033,7 +1033,7 @@ WM_MOUSEHWHEEL
 /
 EventInfo
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -1440,7 +1440,7 @@ FALSE
 bool
 InitWheelEvent
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 WidgetWheelEvent
@@ -2099,7 +2099,7 @@ aKeyStates
 void
 NativeMessageReceived
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT
@@ -2491,7 +2491,7 @@ static
 bool
 HandleKeyMessage
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 UINT

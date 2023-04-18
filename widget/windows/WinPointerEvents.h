@@ -111,7 +111,7 @@ h
 #
 include
 "
-nsWindowBase
+nsWindow
 .
 h
 "

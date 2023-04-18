@@ -3641,7 +3641,7 @@ CreateCompositor
 (
 )
 {
-nsWindowBase
+nsBaseWidget
 :
 :
 CreateCompositor
@@ -3692,7 +3692,7 @@ aEnable
 false
 )
 ;
-nsWindowBase
+nsBaseWidget
 :
 :
 DestroyCompositor

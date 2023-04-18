@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsWindowBase
+nsWindow
 .
 h
 "
@@ -888,7 +888,7 @@ static
 void
 AssociateIMEContext
 (
-nsWindowBase
+nsWindow
 *
 aWindowBase
 bool

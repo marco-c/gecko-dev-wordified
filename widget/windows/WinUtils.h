@@ -544,9 +544,6 @@ public
 class
 nsWindow
 ;
-class
-nsWindowBase
-;
 struct
 KeyPair
 ;
@@ -2465,7 +2462,7 @@ SetNSWindowBasePtr
 )
 associates
 an
-nsWindowBase
+nsWindow
 to
 aWnd
 .
@@ -2488,7 +2485,7 @@ GetNSWindowBasePtr
 )
 returns
 an
-nsWindowBase
+nsWindow
 pointer
 which
 was
@@ -2527,13 +2524,13 @@ SetNSWindowBasePtr
 (
 HWND
 aWnd
-nsWindowBase
+nsWindow
 *
 aWidget
 )
 ;
 static
-nsWindowBase
+nsWindow
 *
 GetNSWindowBasePtr
 (

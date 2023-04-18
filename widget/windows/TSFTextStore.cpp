@@ -10453,7 +10453,7 @@ TSFTextStore
 :
 Init
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -13886,7 +13886,7 @@ return
 }
 RefPtr
 <
-nsWindowBase
+nsWindow
 >
 widget
 (
@@ -38393,7 +38393,7 @@ OnFocusChange
 (
 bool
 aGotFocus
-nsWindowBase
+nsWindow
 *
 aFocusedWidget
 const
@@ -38977,7 +38977,7 @@ TSFTextStore
 :
 CreateAndSetFocus
 (
-nsWindowBase
+nsWindow
 *
 aFocusedWidget
 const
@@ -44717,7 +44717,7 @@ TSFTextStore
 :
 SetInputContext
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -47333,7 +47333,7 @@ TSFTextStore
 :
 ProcessMessage
 (
-nsWindowBase
+nsWindow
 *
 aWindow
 UINT

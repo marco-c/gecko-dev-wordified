@@ -3214,7 +3214,7 @@ IMEHandler
 :
 AssociateIMEContext
 (
-nsWindowBase
+nsWindow
 *
 aWindowBase
 bool
@@ -3742,7 +3742,7 @@ to
 do
 here
 .
-nsWindowBase
+nsWindow
 *
 windowBase
 =

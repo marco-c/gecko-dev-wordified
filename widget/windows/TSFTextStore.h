@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsWindowBase
+nsWindow
 .
 h
 "
@@ -986,7 +986,7 @@ static
 void
 ProcessMessage
 (
-nsWindowBase
+nsWindow
 *
 aWindow
 UINT
@@ -1073,7 +1073,7 @@ static
 void
 SetInputContext
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -1092,7 +1092,7 @@ OnFocusChange
 (
 bool
 aGotFocus
-nsWindowBase
+nsWindow
 *
 aFocusedWidget
 const
@@ -1573,7 +1573,7 @@ static
 bool
 IsComposingOn
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 )
@@ -1596,7 +1596,7 @@ aWidget
 ;
 }
 static
-nsWindowBase
+nsWindow
 *
 GetEnabledWindowBase
 (
@@ -1858,7 +1858,7 @@ static
 bool
 CreateAndSetFocus
 (
-nsWindowBase
+nsWindow
 *
 aFocusedWidget
 const
@@ -1900,7 +1900,7 @@ aContext
 bool
 Init
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -2793,7 +2793,7 @@ win32
 widget
 RefPtr
 <
-nsWindowBase
+nsWindow
 >
 mWidget
 ;

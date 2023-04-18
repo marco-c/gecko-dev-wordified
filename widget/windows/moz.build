@@ -523,11 +523,6 @@ nsWindow
 cpp
 "
 "
-nsWindowBase
-.
-cpp
-"
-"
 nsWindowDbg
 .
 cpp

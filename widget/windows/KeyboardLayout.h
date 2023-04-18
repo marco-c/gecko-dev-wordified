@@ -125,7 +125,7 @@ h
 #
 include
 "
-nsWindowBase
+nsWindow
 .
 h
 "
@@ -2363,7 +2363,7 @@ msg
 ;
 NativeKey
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -2868,7 +2868,7 @@ mReceivedMsg
 ;
 RefPtr
 <
-nsWindowBase
+nsWindow
 >
 mWidget
 ;
@@ -5780,7 +5780,7 @@ SynthesizeNativeKeyEvent
 nsresult
 SynthesizeNativeKeyEvent
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 int32_t
@@ -6590,7 +6590,7 @@ public
 :
 AutoFlusher
 (
-nsWindowBase
+nsWindow
 *
 aWidget
 const
@@ -6692,7 +6692,7 @@ mCancel
 ;
 RefPtr
 <
-nsWindowBase
+nsWindow
 >
 mWidget
 ;
