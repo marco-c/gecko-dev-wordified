@@ -23728,13 +23728,6 @@ WhenToScroll
 :
 IfNotFullyVisible
 ;
-{
-nsIFrame
-*
-prevBlock
-=
-nullptr
-;
 /
 /
 Reuse
@@ -23747,10 +23740,10 @@ calls
 to
 AccumulateFrameBounds
 .
-/
-/
 We
 set
+/
+/
 it
 every
 time
@@ -23765,6 +23758,12 @@ in
 prevBlock
 )
 .
+nsIFrame
+*
+prevBlock
+=
+nullptr
+;
 nsAutoLineIterator
 lines
 ;
@@ -23830,7 +23829,6 @@ GetNextContinuation
 )
 )
 ;
-}
 ScrollFrameRectIntoView
 (
 container
