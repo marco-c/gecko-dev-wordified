@@ -130,6 +130,7 @@ ShutdownBlockingTicket
 >
 mTicket
 ;
+explicit
 MainWorker
 (
 UniquePtr
