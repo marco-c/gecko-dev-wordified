@@ -1269,6 +1269,11 @@ ui
 .
 textScaleFactor
 "
+"
+ui
+.
+cursorScale
+"
 }
 ;
 /

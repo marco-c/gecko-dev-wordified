@@ -1947,6 +1947,14 @@ factor
 TextScaleFactor
 /
 /
+Mouse
+pointer
+scaling
+factor
+.
+CursorScale
+/
+/
 Not
 an
 ID
