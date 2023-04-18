@@ -1110,8 +1110,6 @@ ImageMagick
 .
 0
 -
-4
--
 portable
 -
 Q16
