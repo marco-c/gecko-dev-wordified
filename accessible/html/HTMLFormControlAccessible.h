@@ -1717,7 +1717,7 @@ class
 HTMLDateTimeAccessible
 :
 public
-AccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -1731,7 +1731,7 @@ DocAccessible
 aDoc
 )
 :
-AccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -1741,7 +1741,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLDateTimeAccessible
-AccessibleWrap
+HyperTextAccessibleWrap
 )
 /
 /
@@ -1780,7 +1780,7 @@ AccAttributes
 >
 attributes
 =
-AccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeAttributes
