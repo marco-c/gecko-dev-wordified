@@ -1971,13 +1971,7 @@ Stride
 (
 )
 format
-std
-:
-:
-move
-(
 handle
-)
 )
 )
 ;

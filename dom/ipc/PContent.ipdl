@@ -1042,9 +1042,6 @@ TelemetryComms
 h
 "
 ;
-[
-MoveOnly
-]
 using
 mozilla
 :
@@ -1171,9 +1168,6 @@ WindowContext
 h
 "
 ;
-[
-MoveOnly
-]
 using
 base
 :

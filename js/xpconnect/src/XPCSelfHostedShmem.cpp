@@ -538,13 +538,7 @@ shm
 >
 SetHandle
 (
-std
-:
-:
-move
-(
 aHandle
-)
 /
 *
 read_only

@@ -385,10 +385,12 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
+const
 SharedMemoryBasic
 :
 :
 Handle
+&
 aHandle
 base
 :

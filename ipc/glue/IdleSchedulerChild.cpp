@@ -293,11 +293,6 @@ mActiveCounter
 .
 SetHandle
 (
-std
-:
-:
-move
-(
 *
 Get
 <
@@ -305,7 +300,6 @@ Get
 >
 (
 aResult
-)
 )
 false
 )

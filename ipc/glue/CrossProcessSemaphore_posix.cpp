@@ -422,13 +422,7 @@ sharedBuffer
 >
 SetHandle
 (
-std
-:
-:
-move
-(
 aHandle
-)
 ipc
 :
 :

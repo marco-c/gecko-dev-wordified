@@ -284,8 +284,8 @@ aResponseData
 HWND
 mWindowHandle
 ;
-HANDLE
-mTargetProcess
+DWORD
+mTargetProcessId
 ;
 HANDLE
 mFileMapping

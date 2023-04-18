@@ -734,6 +734,7 @@ aInitialData
 void
 InitSharedUASheets
 (
+const
 Maybe
 <
 base
@@ -741,7 +742,6 @@ base
 :
 SharedMemoryHandle
 >
-&
 &
 aHandle
 uintptr_t
@@ -2047,11 +2047,11 @@ const
 uint32_t
 &
 aIndex
+const
 base
 :
 :
 SharedMemoryHandle
-&
 &
 aHandle
 )
@@ -3223,6 +3223,7 @@ SystemFontList
 &
 &
 aFontList
+const
 Maybe
 <
 base
@@ -3230,7 +3231,6 @@ base
 :
 SharedMemoryHandle
 >
-&
 &
 aSharedUASheetHandle
 const

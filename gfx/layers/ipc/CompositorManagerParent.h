@@ -308,8 +308,8 @@ wr
 ExternalImageId
 &
 aId
+const
 SurfaceDescriptorShared
-&
 &
 aDesc
 )

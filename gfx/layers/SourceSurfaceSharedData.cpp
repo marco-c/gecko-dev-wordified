@@ -289,10 +289,12 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
+const
 SharedMemoryBasic
 :
 :
 Handle
+&
 aHandle
 base
 :
@@ -347,13 +349,7 @@ mBuf
 >
 SetHandle
 (
-std
-:
-:
-move
-(
 aHandle
-)
 ipc
 :
 :

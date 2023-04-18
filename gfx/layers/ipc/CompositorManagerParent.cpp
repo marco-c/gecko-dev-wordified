@@ -1749,8 +1749,8 @@ wr
 ExternalImageId
 &
 aId
+const
 SurfaceDescriptorShared
-&
 &
 aDesc
 )
@@ -1761,13 +1761,7 @@ SharedSurfacesParent
 Add
 (
 aId
-std
-:
-:
-move
-(
 aDesc
-)
 OtherPid
 (
 )

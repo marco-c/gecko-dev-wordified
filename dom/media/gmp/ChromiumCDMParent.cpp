@@ -2665,7 +2665,13 @@ gmp
 :
 CDMInputBuffer
 (
+std
+:
+:
+move
+(
 shmem
+)
 crypto
 .
 mKeyId
