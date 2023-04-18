@@ -162,7 +162,7 @@ thread
 .
 if
 (
-ShutdownStarted
+IsShuttingDown
 (
 )
 )
