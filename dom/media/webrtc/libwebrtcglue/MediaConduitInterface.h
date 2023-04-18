@@ -121,6 +121,15 @@ h
 #
 include
 "
+mozilla
+/
+MozPromise
+.
+h
+"
+#
+include
+"
 VideoTypes
 .
 h
@@ -991,7 +1000,10 @@ type
 0
 ;
 virtual
-void
+RefPtr
+<
+GenericPromise
+>
 Shutdown
 (
 )

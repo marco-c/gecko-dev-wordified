@@ -881,7 +881,10 @@ type
 )
 override
 ;
-void
+RefPtr
+<
+GenericPromise
+>
 Shutdown
 (
 )
