@@ -1871,9 +1871,12 @@ udat_open
 (
 timeStyle
 dateStyle
+IcuLocale
+(
 AssertNullTerminatedString
 (
 aLocale
+)
 )
 tzID
 tzIDLength
@@ -3744,9 +3747,12 @@ udat_open
 (
 UDAT_PATTERN
 UDAT_PATTERN
+IcuLocale
+(
 AssertNullTerminatedString
 (
 aLocale
+)
 )
 tzID
 tzIDLength

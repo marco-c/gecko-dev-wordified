@@ -164,7 +164,10 @@ collator
 =
 ucol_open
 (
+IcuLocale
+(
 aLocale
+)
 &
 status
 )

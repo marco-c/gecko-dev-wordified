@@ -148,7 +148,10 @@ generator
 =
 udatpg_open
 (
+IcuLocale
+(
 aLocale
+)
 &
 status
 )

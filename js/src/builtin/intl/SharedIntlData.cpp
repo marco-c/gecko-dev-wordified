@@ -4568,10 +4568,7 @@ DateTimePatternGenerator
 :
 TryCreate
 (
-IcuLocale
-(
 locale
-)
 )
 ;
 if
