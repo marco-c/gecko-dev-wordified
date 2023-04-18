@@ -81,7 +81,7 @@ _resolve_command_site_names
 )
 :
     
-virtualenv_names
+site_names
 =
 [
 ]
@@ -96,7 +96,11 @@ topsrcdir
 )
 /
 "
-build
+python
+"
+/
+"
+sites
 "
 )
 .
@@ -109,15 +113,8 @@ if
 not
 child
 .
-name
-.
-endswith
+is_file
 (
-"
-_virtualenv_packages
-.
-txt
-"
 )
 :
             
@@ -130,7 +127,7 @@ name
 =
 =
 "
-mach_virtualenv_packages
+mach
 .
 txt
 "
@@ -138,33 +135,21 @@ txt
             
 continue
         
-virtualenv_names
+site_names
 .
 append
 (
 child
 .
-name
-[
-:
--
-len
-(
-"
-_virtualenv_packages
-.
-txt
-"
-)
-]
+stem
 )
     
 return
-virtualenv_names
+site_names
 def
 _requirement_definition_to_pip_format
 (
-virtualenv_name
+site_name
 cache
 is_mach_or_build_env
 )
@@ -189,28 +174,27 @@ format
     
 requirements_path
 =
-(
-        
 Path
 (
 topsrcdir
 )
 /
 "
-build
+python
+"
+/
+"
+sites
 "
 /
 f
 "
 {
-virtualenv_name
+site_name
 }
-_virtualenv_packages
 .
 txt
 "
-    
-)
     
 requirements
 =

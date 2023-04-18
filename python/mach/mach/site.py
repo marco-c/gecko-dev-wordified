@@ -1712,9 +1712,11 @@ from
 the
 file
 at
-build
+python
 /
-mach_virtualenv_packages
+sites
+/
+mach
 .
 txt
             
@@ -3362,12 +3364,13 @@ from
 the
 file
 at
-build
+python
+/
+sites
 /
 <
 site_name
 >
-_virtualenv_packages
 .
 txt
         
@@ -7170,7 +7173,7 @@ def
 resolve_requirements
 (
 topsrcdir
-virtualenv_name
+site_name
 )
 :
     
@@ -7182,21 +7185,21 @@ path
 .
 join
 (
-        
 topsrcdir
 "
-build
+python
+"
+"
+sites
 "
 f
 "
 {
-virtualenv_name
+site_name
 }
-_virtualenv_packages
 .
 txt
 "
-    
 )
     
 if
@@ -7225,17 +7228,17 @@ using
 the
 "
 {
-virtualenv_name
+site_name
 }
 "
 '
             
 "
-virtualenv
+site
 .
 However
 that
-virtualenv
+site
 is
 missing
 its
@@ -7308,7 +7311,7 @@ topsrcdir
             
 is_thunderbird
             
-virtualenv_name
+site_name
 not
 in
 PIP_NETWORK_INSTALL_RESTRICTED_VIRTUALENVS
@@ -7332,10 +7335,10 @@ f
 The
 "
 {
-virtualenv_name
+site_name
 }
 "
-virtualenv
+site
 does
 not
 have
@@ -7378,7 +7381,7 @@ the
 {
 PIP_NETWORK_INSTALL_RESTRICTED_VIRTUALENVS
 }
-virtualenvs
+sites
 are
 "
             

@@ -163,11 +163,21 @@ associated
 with
 a
 "
-virtualenv_packages
-.
-txt
+site
+dependency
+manifest
 "
-definition
+as
+    
+defined
+in
+"
+python
+/
+sites
+/
+"
+.
     
 Represents
 the
