@@ -2288,15 +2288,6 @@ OnDebuggerStatement
 \
 _
 (
-OptimizeSpreadCall
-js
-:
-:
-OptimizeSpreadCall
-)
-\
-_
-(
 ProcessCallSiteObjOperation
 js
 :

@@ -5636,8 +5636,7 @@ HandleScript
 IonOptimizeSpreadCallIC
 *
 HandleValue
-bool
-*
+MutableHandleValue
 )
 ;
 callVM
@@ -5652,7 +5651,7 @@ update
 lir
 )
 ;
-StoreRegisterTo
+StoreValueTo
 (
 optimizeSpreadCallIC
 -
@@ -5670,7 +5669,7 @@ this
 restoreLiveIgnore
 (
 lir
-StoreRegisterTo
+StoreValueTo
 (
 optimizeSpreadCallIC
 -
@@ -84249,17 +84248,12 @@ LOptimizeSpreadCallCache
 ValueIndex
 )
 ;
-Register
+ValueOperand
 output
 =
-ToRegister
+ToOutValue
 (
 lir
--
->
-output
-(
-)
 )
 ;
 Register

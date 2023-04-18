@@ -32865,9 +32865,9 @@ iterNextSlot
 ;
 writer
 .
-loadBooleanResult
+loadObjectResult
 (
-true
+objId
 )
 ;
 writer
@@ -32911,9 +32911,8 @@ setInputOperandId
 ;
 writer
 .
-loadBooleanResult
+loadUndefinedResult
 (
-false
 )
 ;
 writer

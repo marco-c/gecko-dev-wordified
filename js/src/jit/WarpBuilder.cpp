@@ -19236,10 +19236,8 @@ value
 current
 -
 >
-peek
+pop
 (
--
-1
 )
 ;
 return
@@ -22421,6 +22419,12 @@ CacheKind
 :
 ToPropertyKey
 :
+case
+CacheKind
+:
+:
+OptimizeSpreadCall
+:
 resultType
 =
 MIRType
@@ -22513,12 +22517,6 @@ CacheKind
 :
 :
 InstanceOf
-:
-case
-CacheKind
-:
-:
-OptimizeSpreadCall
 :
 resultType
 =
