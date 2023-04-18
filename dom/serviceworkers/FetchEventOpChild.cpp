@@ -427,8 +427,10 @@ CSPPermitsResponse
 nsILoadInfo
 *
 aLoadInfo
+SafeRefPtr
+<
 InternalResponse
-*
+>
 aResponse
 const
 nsACString
@@ -1831,7 +1833,7 @@ FromIPC
 .
 *
 /
-RefPtr
+SafeRefPtr
 <
 InternalResponse
 >
@@ -1931,6 +1933,10 @@ CSPPermitsResponse
 (
 loadInfo
 response
+.
+clonePtr
+(
+)
 mArgs
 .
 workerScriptSpec

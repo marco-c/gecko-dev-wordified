@@ -4501,7 +4501,7 @@ get
 break
 ;
 }
-RefPtr
+SafeRefPtr
 <
 InternalResponse
 >

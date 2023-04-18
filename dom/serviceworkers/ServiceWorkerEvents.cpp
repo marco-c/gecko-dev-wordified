@@ -1505,7 +1505,7 @@ nsIInterceptedChannel
 >
 mChannel
 ;
-RefPtr
+SafeRefPtr
 <
 InternalResponse
 >
@@ -1538,8 +1538,10 @@ nsIInterceptedChannel
 >
 &
 aChannel
+SafeRefPtr
+<
 InternalResponse
-*
+>
 aInternalResponse
 const
 ChannelInfo
@@ -1577,7 +1579,13 @@ aChannel
 )
 mInternalResponse
 (
+std
+:
+:
+move
+(
 aInternalResponse
+)
 )
 mWorkerChannelInfo
 (
@@ -3769,7 +3777,7 @@ return
 ;
 }
 }
-RefPtr
+SafeRefPtr
 <
 InternalResponse
 >
@@ -4230,6 +4238,10 @@ StartResponse
 (
 mInterceptedChannel
 ir
+.
+clonePtr
+(
+)
 worker
 -
 >

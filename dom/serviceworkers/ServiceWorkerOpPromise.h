@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-RefPtr
+Tuple
 .
 h
 "
@@ -148,7 +148,9 @@ include
 "
 mozilla
 /
-Tuple
+dom
+/
+SafeRefPtr
 .
 h
 "
@@ -177,7 +179,7 @@ SynthesizeResponseArgs
 =
 Tuple
 <
-RefPtr
+SafeRefPtr
 <
 InternalResponse
 >

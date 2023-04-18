@@ -300,7 +300,7 @@ IsOnCurrentThread
 )
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalResponse
 >
@@ -319,7 +319,13 @@ closure
 timeStamps
 )
 =
+std
+:
+:
+move
+(
 aArgs
+)
 ;
 aIPCArgs
 -
