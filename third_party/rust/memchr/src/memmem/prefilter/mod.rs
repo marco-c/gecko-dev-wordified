@@ -191,7 +191,7 @@ State
 that
 tracks
 the
-effectivess
+effectiveness
 of
 a
 prefilter
@@ -1469,7 +1469,7 @@ the
 ability
 to
 disable
-pefilters
+prefilters
 if
 you
 have

@@ -2263,7 +2263,7 @@ io
 :
 Result
 <
-usize
+u64
 >
 {
 Ok
@@ -2278,7 +2278,5 @@ metadata
 len
 (
 )
-as
-usize
 )
 }

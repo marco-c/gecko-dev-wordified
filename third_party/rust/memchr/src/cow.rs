@@ -83,7 +83,7 @@ variant
 /
 /
 /
-availble
+available
 .
 We
 can

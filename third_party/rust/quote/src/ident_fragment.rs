@@ -569,6 +569,7 @@ f
 )
 *
 }
+;
 }
 ident_fragment_display
 !

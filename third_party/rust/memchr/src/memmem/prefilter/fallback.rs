@@ -257,7 +257,7 @@ this
 technique
 in
 any
-prominant
+prominent
 substring
 search
 implementation

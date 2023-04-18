@@ -34,6 +34,7 @@ lit_of_outer_doc_comment
 (
 tokens
 :
+&
 TokenStream
 )
 -
@@ -71,6 +72,7 @@ lit_of_inner_doc_comment
 (
 tokens
 :
+&
 TokenStream
 )
 -
@@ -88,6 +90,7 @@ lit_of_doc_comment
 (
 tokens
 :
+&
 TokenStream
 inner
 :
@@ -659,6 +662,7 @@ lit
 =
 lit_of_outer_doc_comment
 (
+&
 stream
 )
 ;
@@ -707,6 +711,7 @@ lit
 =
 lit_of_inner_doc_comment
 (
+&
 stream
 )
 ;
@@ -757,6 +762,7 @@ lit
 =
 lit_of_outer_doc_comment
 (
+&
 stream
 )
 ;
@@ -807,6 +813,7 @@ lit
 =
 lit_of_inner_doc_comment
 (
+&
 stream
 )
 ;
@@ -868,6 +875,7 @@ lit
 =
 lit_of_outer_doc_comment
 (
+&
 stream
 )
 ;
@@ -920,6 +928,7 @@ lit
 =
 lit_of_outer_doc_comment
 (
+&
 stream
 )
 ;

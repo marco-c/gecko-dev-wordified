@@ -1548,7 +1548,7 @@ bytes
 so
 we
 should
-exericse
+exercise
 most
 branches
 .

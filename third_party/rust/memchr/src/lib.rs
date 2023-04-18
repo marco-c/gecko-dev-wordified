@@ -1365,8 +1365,6 @@ com
 /
 BurntSushi
 /
-rust
--
 memchr
 #
 [
