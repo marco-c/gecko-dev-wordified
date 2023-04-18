@@ -465,9 +465,10 @@ gfxGDIFont
 :
 GetScaledFont
 (
-DrawTarget
-*
-aTarget
+const
+TextRunDrawParams
+&
+aRunParams
 )
 {
 if

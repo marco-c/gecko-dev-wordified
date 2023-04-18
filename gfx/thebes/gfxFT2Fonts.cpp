@@ -1101,9 +1101,10 @@ gfxFT2Font
 :
 GetScaledFont
 (
-DrawTarget
-*
-aTarget
+const
+TextRunDrawParams
+&
+aRunParams
 )
 {
 if
