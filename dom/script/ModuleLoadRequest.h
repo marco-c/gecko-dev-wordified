@@ -178,9 +178,6 @@ class
 ModuleScript
 ;
 class
-ModuleLoader
-;
-class
 ScriptLoader
 ;
 /
@@ -322,7 +319,7 @@ bool
 aIsTopLevel
 bool
 aIsDynamicImport
-ModuleLoader
+ScriptLoader
 *
 aLoader
 VisitedURLSet
@@ -528,11 +525,6 @@ CancelImports
 (
 )
 ;
-void
-CheckModuleDependenciesLoaded
-(
-)
-;
 public
 :
 /
@@ -594,7 +586,7 @@ finishes
 .
 RefPtr
 <
-ModuleLoader
+ScriptLoader
 >
 mLoader
 ;
