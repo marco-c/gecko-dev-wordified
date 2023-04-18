@@ -8148,20 +8148,6 @@ python
 .
 10
             
-#
-TODO
-:
-add
-additional
-logic
-for
-apple
-silicon
-(
-Bug
-1748821
-)
-            
 self
 .
 setup_local_ffmpeg
