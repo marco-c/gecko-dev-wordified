@@ -533,6 +533,9 @@ nsIPrincipal
 >
 mPrincipal
 ;
+UDPAddressInfo
+mAddress
+;
 }
 ;
 }
