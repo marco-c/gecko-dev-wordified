@@ -1264,15 +1264,6 @@ HyperTextAccessibleWrap
 /
 LocalAccessible
 virtual
-nsAtom
-*
-LandmarkRole
-(
-)
-const
-override
-;
-virtual
 a11y
 :
 :

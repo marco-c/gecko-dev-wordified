@@ -413,6 +413,15 @@ UnselectAll
 )
 override
 ;
+virtual
+nsAtom
+*
+LandmarkRole
+(
+)
+const
+override
+;
 protected
 :
 explicit

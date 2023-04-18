@@ -387,13 +387,6 @@ IsSearchbox
 )
 const
 ;
-nsAtom
-*
-LandmarkRole
-(
-)
-const
-;
 nsStaticAtom
 *
 ARIARoleAtom
