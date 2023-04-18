@@ -164,6 +164,3 @@ Wno
 shadow
 '
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True
