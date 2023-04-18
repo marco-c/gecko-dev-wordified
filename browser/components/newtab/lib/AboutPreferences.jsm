@@ -371,7 +371,17 @@ SPONSORED_TOP_SITES
 icon
 :
 "
+chrome
+:
+/
+/
+browser
+/
+skin
+/
 topsites
+.
+svg
 "
 maxRows
 :
