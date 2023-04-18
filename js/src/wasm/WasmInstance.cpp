@@ -16052,6 +16052,9 @@ tag
 nullptr
 ;
 }
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
 void
 Instance
 :
@@ -16100,6 +16103,8 @@ asJSObject
 )
 ;
 }
+#
+endif
 bool
 Instance
 :
