@@ -1206,6 +1206,9 @@ apstag
 js
 "
 ]
+onlyIfBlockedByETP
+:
+true
 }
 {
 id
