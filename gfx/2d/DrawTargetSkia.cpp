@@ -2102,9 +2102,11 @@ if
 image
 )
 {
-ReleaseTemporarySurface
+releaseProc
 (
-nullptr
+map
+.
+mData
 surf
 )
 ;
