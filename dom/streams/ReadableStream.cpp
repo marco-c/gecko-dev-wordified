@@ -1459,7 +1459,7 @@ if
 StaticPrefs
 :
 :
-dom_streams_byte_streams
+dom_streams_byte_streams_enabled
 (
 )
 )
@@ -3344,7 +3344,7 @@ if
 StaticPrefs
 :
 :
-dom_streams_byte_streams
+dom_streams_byte_streams_enabled
 (
 )
 )
