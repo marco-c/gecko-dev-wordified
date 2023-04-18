@@ -163,11 +163,6 @@ urls
 "
 about
 :
-devtools
-"
-"
-about
-:
 debugging
 "
 "
