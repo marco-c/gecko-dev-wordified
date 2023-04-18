@@ -3,6 +3,20 @@ asyncio
 import
 pytest
 from
+webdriver
+.
+error
+import
+TimeoutException
+from
+tests
+.
+support
+.
+sync
+import
+AsyncPoll
+from
 .
 import
 assert_browsing_context
@@ -101,8 +115,6 @@ CONTEXT_CREATED_EVENT
 on_event
 )
     
-handle
-=
 current_session
 .
 new_window
@@ -114,24 +126,41 @@ tab
 "
 )
     
-await
-asyncio
-.
-sleep
+wait
+=
+AsyncPoll
 (
-0
+current_session
+timeout
+=
 .
 5
 )
     
-assert
+with
+pytest
+.
+raises
+(
+TimeoutException
+)
+:
+        
+await
+wait
+.
+until
+(
+lambda
+_
+:
 len
 (
 events
 )
-=
-=
+>
 0
+)
     
 remove_listener
 (
@@ -556,11 +585,6 @@ CONTEXT_CREATED_EVENT
 ]
 )
     
-events
-=
-[
-]
-    
 top_level_context_id
 =
 current_session
@@ -638,6 +662,11 @@ iframe
     
 )
     
+events
+=
+[
+]
+    
 async
 def
 on_event
@@ -684,18 +713,61 @@ url
 =
 url_page
     
-frame1_info
+wait
 =
-await
-wait_for_event
+AsyncPoll
 (
-CONTEXT_CREATED_EVENT
+        
+current_session
+        
+message
+=
+"
+Didn
+'
+t
+receive
+context
+created
+events
+for
+frames
+"
 )
+    
+await
+wait
+.
+until
+(
+lambda
+_
+:
+len
+(
+events
+)
+>
+=
+2
+)
+    
+assert
+len
+(
+events
+)
+=
+=
+2
     
 assert_browsing_context
 (
         
-frame1_info
+events
+[
+0
+]
         
 children
 =
@@ -715,18 +787,13 @@ top_level_context_id
     
 )
     
-frame2_info
-=
-await
-wait_for_event
-(
-CONTEXT_CREATED_EVENT
-)
-    
 assert_browsing_context
 (
         
-frame2_info
+events
+[
+1
+]
         
 children
 =
@@ -745,15 +812,6 @@ parent
 top_level_context_id
     
 )
-    
-assert
-len
-(
-events
-)
-=
-=
-2
     
 remove_listener
 (
@@ -809,11 +867,6 @@ events
 CONTEXT_CREATED_EVENT
 ]
 )
-    
-events
-=
-[
-]
     
 top_level_context_id
 =
@@ -882,6 +935,11 @@ iframe
 "
 )
     
+events
+=
+[
+]
+    
 async
 def
 on_event
@@ -928,18 +986,61 @@ url
 =
 url_page
     
-frame_info
+wait
 =
-await
-wait_for_event
+AsyncPoll
 (
-CONTEXT_CREATED_EVENT
+        
+current_session
+        
+message
+=
+"
+Didn
+'
+t
+receive
+context
+created
+events
+for
+frames
+"
 )
+    
+await
+wait
+.
+until
+(
+lambda
+_
+:
+len
+(
+events
+)
+>
+=
+2
+)
+    
+assert
+len
+(
+events
+)
+=
+=
+2
     
 assert_browsing_context
 (
         
-frame_info
+events
+[
+0
+]
         
 children
 =
@@ -959,18 +1060,13 @@ top_level_context_id
     
 )
     
-nested_frame_info
-=
-await
-wait_for_event
-(
-CONTEXT_CREATED_EVENT
-)
-    
 assert_browsing_context
 (
         
-nested_frame_info
+events
+[
+1
+]
         
 children
 =
@@ -986,7 +1082,10 @@ url_nested_iframe
         
 parent
 =
-frame_info
+events
+[
+0
+]
 [
 "
 context
@@ -994,15 +1093,6 @@ context
 ]
     
 )
-    
-assert
-len
-(
-events
-)
-=
-=
-2
     
 remove_listener
 (
