@@ -2287,14 +2287,6 @@ SetFocus
 aHWnd
 )
 ;
-aPrintSettings
--
->
-SetIsCancelled
-(
-true
-)
-;
 }
 )
 ;

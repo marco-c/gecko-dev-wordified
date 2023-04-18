@@ -711,16 +711,6 @@ mPrintBGImages
 false
 ;
 bool
-mIsCancelled
-=
-false
-;
-bool
-mSaveOnCancel
-=
-true
-;
-bool
 mPrintSilent
 =
 false
