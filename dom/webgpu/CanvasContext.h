@@ -356,7 +356,7 @@ aStream
 nullptr
 ;
 return
-NS_OK
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 already_AddRefed
