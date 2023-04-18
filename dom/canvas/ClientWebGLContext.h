@@ -4101,6 +4101,11 @@ string
 )
 const
 ;
+void
+UpdateCanvasParameters
+(
+)
+;
 public
 :
 void
