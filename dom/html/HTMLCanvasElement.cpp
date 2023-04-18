@@ -3460,10 +3460,10 @@ handled
 in
 /
 /
-nsSimplePageSequenceFrame
+nsPageSequenceFrame
 :
 :
-PrePrintNextPage
+PrePrintNextSheet
 .
 if
 (
