@@ -3972,6 +3972,10 @@ devices
 .
 if
 (
+vendor
+&
+&
+(
 strcmp
 (
 vendor
@@ -3982,6 +3986,7 @@ ARM
 =
 =
 0
+)
 )
 {
 MarkExtensionUnsupported
