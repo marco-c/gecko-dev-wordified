@@ -76,8 +76,6 @@ sys
 import
 etlparser
 import
-mozfile
-import
 xtalos
 from
 xperf_analyzer
@@ -234,6 +232,22 @@ analyze
 (
 )
         
+results
+=
+interval
+.
+get_results
+(
+)
+        
+if
+results
+!
+=
+{
+}
+:
+            
 output
 +
 =
@@ -246,11 +260,7 @@ n
 "
 %
 (
-interval
-.
-get_results
-(
-)
+results
 [
 XPerfAttribute
 .
@@ -650,7 +660,7 @@ not
 debug
 :
         
-mozfile
+os
 .
 remove
 (

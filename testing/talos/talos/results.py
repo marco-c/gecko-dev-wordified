@@ -3608,6 +3608,15 @@ splitlines
 (
 )
                 
+if
+len
+(
+lines
+)
+>
+1
+:
+                    
 value
 =
 float
@@ -3621,7 +3630,7 @@ strip
 (
 )
 )
-                
+                    
 counter_results
 .
 setdefault

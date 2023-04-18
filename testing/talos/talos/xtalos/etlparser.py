@@ -87,8 +87,6 @@ talos
 xtalos
 import
 xtalos
-import
-six
 EVENTNAME_INDEX
 =
 0
@@ -634,6 +632,12 @@ True
 break
         
 except
+UnicodeDecodeError
+:
+            
+continue
+        
+except
 csv
 .
 Error
@@ -839,21 +843,6 @@ filename
 )
 :
     
-print
-(
-"
-etlparser
-:
-in
-readfile
-:
-%
-s
-"
-%
-filename
-)
-    
 data
 =
 csv
@@ -865,18 +854,26 @@ open
 (
 filename
 "
-rb
+r
+"
+encoding
+=
+"
+cp1252
 "
 )
+        
 delimiter
 =
 "
 "
+        
 quotechar
 =
 '
 "
 '
+        
 skipinitialspace
 =
 True
@@ -2677,20 +2674,6 @@ stage
 =
 0
     
-print
-(
-"
-reading
-etl
-filename
-:
-%
-s
-"
-%
-etl_filename
-)
-    
 csvname
 =
 etl2csv
@@ -2883,11 +2866,10 @@ cntr
 in
 sorted
 (
-six
-.
-iterkeys
-(
 io
+.
+keys
+(
 )
 )
 :
@@ -3039,11 +3021,10 @@ x
 for
 x
 in
-six
-.
-iterkeys
-(
 files
+.
+keys
+(
 )
         
 if
@@ -3160,11 +3141,10 @@ x
 for
 x
 in
-six
-.
-iterkeys
-(
 files
+.
+keys
+(
 )
             
 if

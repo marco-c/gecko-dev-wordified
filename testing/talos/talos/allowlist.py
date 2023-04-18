@@ -106,12 +106,6 @@ import
 os
 import
 re
-from
-talos
-import
-utils
-import
-six
 KEY_XRE
 =
 "
@@ -370,13 +364,12 @@ for
 path
 subst
 in
-six
-.
-iteritems
-(
 self
 .
 path_substitutions
+.
+items
+(
 )
 :
             
@@ -634,13 +627,12 @@ for
 old_name
 new_name
 in
-six
-.
-iteritems
-(
 self
 .
 name_substitutions
+.
+items
+(
 )
 :
             
@@ -650,7 +642,7 @@ isinstance
 old_name
 re
 .
-_pattern_type
+Pattern
 )
 :
                 
@@ -739,11 +731,10 @@ errors
 for
 row_key
 in
-six
-.
-iterkeys
-(
 test
+.
+keys
+(
 )
 :
             
@@ -888,15 +879,12 @@ row_key
 row_value
 )
 in
-utils
-.
-indexed_items
-(
-six
-.
-iteritems
+enumerate
 (
 test
+.
+items
+(
 )
 )
 :
@@ -1154,11 +1142,10 @@ for
 filename
 data
 in
-six
-.
-iteritems
-(
 errors
+.
+items
+(
 )
 :
             
