@@ -118,7 +118,7 @@ lazyRequireGetter
 (
 this
 "
-matchRequest
+NetworkUtils
 "
 "
 devtools
@@ -131,11 +131,12 @@ network
 -
 monitor
 /
+utils
+/
 network
 -
-observer
+utils
 "
-true
 )
 ;
 loader
@@ -775,6 +776,8 @@ spec
 if
 (
 !
+NetworkUtils
+.
 matchRequest
 (
 channel

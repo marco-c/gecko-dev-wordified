@@ -142,7 +142,7 @@ lazyRequireGetter
 (
 this
 "
-matchRequest
+NetworkUtils
 "
 "
 devtools
@@ -155,11 +155,14 @@ network
 -
 monitor
 /
+utils
+/
 network
 -
-observer
+utils
+.
+js
 "
-true
 )
 ;
 class
@@ -772,6 +775,8 @@ use
 if
 (
 !
+NetworkUtils
+.
 matchRequest
 (
 channel
