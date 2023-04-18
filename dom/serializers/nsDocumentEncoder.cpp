@@ -778,9 +778,6 @@ read
 size_t
 written
 ;
-bool
-hadErrors
-;
 if
 (
 mIsPlainText
@@ -867,7 +864,7 @@ Tie
 result
 read
 written
-hadErrors
+Ignore
 )
 =
 mUnicodeEncoder
@@ -881,11 +878,6 @@ false
 )
 ;
 }
-Unused
-<
-<
-hadErrors
-;
 src
 =
 src

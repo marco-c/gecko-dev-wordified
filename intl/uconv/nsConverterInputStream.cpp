@@ -1232,9 +1232,6 @@ read
 size_t
 written
 ;
-bool
-hadErrors
-;
 /
 /
 The
@@ -1299,7 +1296,7 @@ Tie
 result
 read
 written
-hadErrors
+Ignore
 )
 =
 mConverter
@@ -1313,11 +1310,6 @@ false
 )
 ;
 }
-Unused
-<
-<
-hadErrors
-;
 mLeftOverBytes
 =
 mByteData

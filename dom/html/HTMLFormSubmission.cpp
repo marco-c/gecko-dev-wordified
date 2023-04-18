@@ -4580,15 +4580,10 @@ aEncodeType
 nsresult
 rv
 ;
-const
-Encoding
-*
-ignored
-;
 Tie
 (
 rv
-ignored
+Ignore
 )
 =
 mEncoding

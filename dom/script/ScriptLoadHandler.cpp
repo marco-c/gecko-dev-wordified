@@ -1294,13 +1294,10 @@ Encoding
 *
 encoding
 ;
-size_t
-bomLength
-;
 Tie
 (
 encoding
-bomLength
+Ignore
 )
 =
 Encoding

@@ -520,9 +520,6 @@ read
 size_t
 written
 ;
-bool
-hadErrors
-;
 if
 (
 mFatal
@@ -575,7 +572,7 @@ Tie
 result
 read
 written
-hadErrors
+Ignore
 )
 =
 mDecoder
@@ -622,11 +619,6 @@ Length
 (
 )
 )
-;
-Unused
-<
-<
-hadErrors
 ;
 if
 (
