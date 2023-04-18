@@ -106,6 +106,9 @@ deletion
 -
 request
 "
+"
+default
+"
 ]
 class
 Ping
@@ -138,6 +141,15 @@ List
 [
 str
 ]
+        
+metadata
+:
+Optional
+[
+Dict
+]
+=
+None
         
 data_reviews
 :
@@ -238,6 +250,23 @@ notification_emails
 notification_emails
         
 if
+metadata
+is
+None
+:
+            
+metadata
+=
+{
+}
+        
+self
+.
+metadata
+=
+metadata
+        
+if
 data_reviews
 is
 None
@@ -311,7 +340,7 @@ _validated
 indicates
 whether
 this
-metric
+ping
 has
 already
 been
