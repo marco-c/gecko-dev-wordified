@@ -5663,6 +5663,7 @@ GetKeyForPrincipal
 (
 topPrincipal
 false
+true
 topKey
 )
 ;
@@ -5860,6 +5861,7 @@ GetKeyForPrincipal
 (
 principal
 false
+true
 key
 )
 ;
