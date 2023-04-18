@@ -1892,9 +1892,15 @@ GetPacingFactor
 .
 value_or
 (
+static_cast
+<
+double
+>
+(
 pacing_config_
 .
 pacing_factor
+)
 )
 ;
 transport

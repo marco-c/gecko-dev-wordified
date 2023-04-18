@@ -586,6 +586,7 @@ return
 value_
 ;
 }
+explicit
 operator
 T
 (
@@ -1567,6 +1568,7 @@ Get
 )
 const
 ;
+explicit
 operator
 bool
 (
