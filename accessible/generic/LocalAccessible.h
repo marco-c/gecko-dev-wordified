@@ -1329,19 +1329,6 @@ NativelyUnavailable
 )
 const
 ;
-/
-*
-*
-*
-Return
-object
-attributes
-for
-the
-accessible
-.
-*
-/
 virtual
 already_AddRefed
 <
@@ -1350,6 +1337,7 @@ AccAttributes
 Attributes
 (
 )
+override
 ;
 /
 *
