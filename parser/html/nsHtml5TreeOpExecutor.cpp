@@ -2586,7 +2586,7 @@ nsresult
 aReason
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
