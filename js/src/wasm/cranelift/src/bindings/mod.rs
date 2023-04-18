@@ -1255,7 +1255,7 @@ the
 wasm
 :
 :
-TableTls
+TableInstanceData
 representing
 this
 table

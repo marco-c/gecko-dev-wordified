@@ -3466,7 +3466,9 @@ the
 offset
 of
 its
-FuncImportTls
+FuncImportInstanceData
+/
+/
 in
 /
 /
@@ -3767,7 +3769,7 @@ globalDataOffset_
 +
 offsetof
 (
-TableTls
+TableInstanceData
 length
 )
 ;
@@ -3794,7 +3796,7 @@ globalDataOffset_
 +
 offsetof
 (
-TableTls
+TableInstanceData
 functionBase
 )
 ;

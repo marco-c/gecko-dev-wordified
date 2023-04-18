@@ -1608,7 +1608,7 @@ allocateGlobalBytes
 (
 sizeof
 (
-FuncImportTls
+FuncImportInstanceData
 )
 sizeof
 (
@@ -1706,7 +1706,7 @@ allocateGlobalBytes
 (
 sizeof
 (
-TableTls
+TableInstanceData
 )
 sizeof
 (

@@ -2719,7 +2719,7 @@ GlobalValue
 Global
 variables
 containing
-FuncImportTls
+FuncImportInstanceData
 information
 about
 imported
@@ -3538,7 +3538,7 @@ global
 variable
 storing
 the
-FuncImportTls
+FuncImportInstanceData
 struct
 for
 an
@@ -7916,7 +7916,7 @@ vmctx
 from
 the
 associated
-FuncImportTls
+FuncImportInstanceData
 struct
 in
 a
@@ -7963,7 +7963,7 @@ sized
 fields
 from
 the
-FuncImportTls
+FuncImportInstanceData
 struct
 :
 code
@@ -10813,7 +10813,7 @@ a
 wasm
 :
 :
-TableTls
+TableInstanceData
 struct
 with
 two

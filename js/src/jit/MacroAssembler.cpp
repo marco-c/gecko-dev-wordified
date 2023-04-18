@@ -25864,7 +25864,7 @@ offsetof
 wasm
 :
 :
-FuncImportTls
+FuncImportInstanceData
 code
 )
 ABINonArgReg0
@@ -25906,7 +25906,7 @@ offsetof
 wasm
 :
 :
-FuncImportTls
+FuncImportInstanceData
 realm
 )
 ABINonArgReg1
@@ -25971,8 +25971,8 @@ offsetof
 wasm
 :
 :
-FuncImportTls
-tls
+FuncImportInstanceData
+instance
 )
 InstanceReg
 )
@@ -27205,7 +27205,7 @@ wasm
 :
 :
 FunctionTableElem
-tls
+instance
 )
 )
 newTlsTemp

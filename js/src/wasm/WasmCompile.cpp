@@ -2389,7 +2389,7 @@ are
 held
 *
 in
-FuncImportTls
+FuncImportInstanceData
 values
 in
 the
@@ -2401,8 +2401,8 @@ and
 for
 a
 wasm
-callee
 *
+callee
 what
 '
 s
@@ -2418,9 +2418,9 @@ best
 tier
 of
 the
+*
 callee
 that
-*
 was
 active
 at
@@ -2434,8 +2434,8 @@ resolved
 That
 could
 be
-baseline
 *
+baseline
 code
 and
 if
@@ -2452,8 +2452,8 @@ entries
 a
 call
 to
-an
 *
+an
 import
 will
 always

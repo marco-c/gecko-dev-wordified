@@ -279,7 +279,7 @@ Instance
 ;
 /
 /
-FuncImportTls
+FuncImportInstanceData
 describes
 the
 region
@@ -288,10 +288,10 @@ wasm
 global
 memory
 allocated
+/
+/
 in
 the
-/
-/
 instance
 '
 s
@@ -306,9 +306,9 @@ import
 .
 This
 is
+/
+/
 accessed
-/
-/
 directly
 from
 JIT
@@ -320,14 +320,14 @@ Instance
 as
 exits
 become
+/
+/
 optimized
 and
-/
-/
 deoptimized
 .
 struct
-FuncImportTls
+FuncImportInstanceData
 {
 /
 /
@@ -393,7 +393,7 @@ code
 .
 Instance
 *
-tls
+instance
 ;
 /
 /
@@ -462,7 +462,7 @@ access
 ;
 /
 /
-TableTls
+TableInstanceData
 describes
 the
 region
@@ -501,7 +501,7 @@ the
 table
 .
 struct
-TableTls
+TableInstanceData
 {
 /
 /
@@ -687,7 +687,7 @@ code
 .
 Instance
 *
-tls
+instance
 ;
 }
 ;
