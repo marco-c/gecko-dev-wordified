@@ -362,17 +362,6 @@ return
 0
 ;
 }
-void
-InsertAudioLevelForContributingSource
-(
-const
-RtpPacketInfos
-&
-packet_infos
-)
-override
-{
-}
 virtual
 ~
 MockAudioReceiveStream

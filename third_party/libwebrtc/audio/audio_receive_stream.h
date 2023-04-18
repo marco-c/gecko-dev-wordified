@@ -495,16 +495,6 @@ audio_frame
 )
 override
 ;
-void
-InsertAudioLevelForContributingSource
-(
-const
-RtpPacketInfos
-&
-packet_infos
-)
-override
-;
 int
 Ssrc
 (
