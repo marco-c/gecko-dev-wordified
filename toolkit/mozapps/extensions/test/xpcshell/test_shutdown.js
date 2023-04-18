@@ -123,9 +123,6 @@ AddonAuthor
 AddonScreenshot
 "
 "
-AddonType
-"
-"
 startup
 "
 "

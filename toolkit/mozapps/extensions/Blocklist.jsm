@@ -775,7 +775,7 @@ of
 /
 /
 the
-ALL_EXTERNAL_TYPES
+ALL_XPI_TYPES
 set
 defined
 by

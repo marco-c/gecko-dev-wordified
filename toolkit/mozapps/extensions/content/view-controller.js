@@ -164,11 +164,12 @@ addon
 ;
 if
 (
-param
-in
 AddonManager
 .
-addonTypes
+hasAddonType
+(
+param
+)
 |
 |
 [
