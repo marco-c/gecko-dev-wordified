@@ -19071,8 +19071,6 @@ true
 }
 if
 (
-NS_WARN_IF
-(
 !
 mContentCache
 .
@@ -19080,7 +19078,6 @@ HandleQueryContentEvent
 (
 aEvent
 textInputHandlingWidget
-)
 )
 |
 |
