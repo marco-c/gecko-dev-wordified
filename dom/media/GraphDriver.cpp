@@ -3467,17 +3467,6 @@ normal
 MacBook
 /
 /
-MacBookPro
-%
-d
-%
-d
-for
-a
-MacBook
-Pro
-/
-/
 MacBookAir
 %
 d
