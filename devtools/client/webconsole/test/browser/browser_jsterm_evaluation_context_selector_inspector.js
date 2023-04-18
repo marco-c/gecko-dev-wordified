@@ -215,8 +215,6 @@ pushPref
 "
 devtools
 .
-contenttoolbox
-.
 webconsole
 .
 input
