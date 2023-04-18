@@ -2509,7 +2509,7 @@ start
 -
 background
 -
-page
+script
 "
 )
 ;

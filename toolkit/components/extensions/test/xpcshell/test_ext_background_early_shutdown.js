@@ -818,7 +818,7 @@ off
 "
 background
 -
-page
+script
 -
 started
 "
@@ -834,7 +834,7 @@ off
 "
 background
 -
-page
+script
 -
 aborted
 "
@@ -850,7 +850,7 @@ eventName
 "
 background
 -
-page
+script
 -
 aborted
 "
@@ -860,7 +860,7 @@ info
 (
 "
 Background
-page
+script
 startup
 was
 interrupted
@@ -881,7 +881,7 @@ info
 (
 "
 Background
-page
+script
 startup
 finished
 normally
@@ -906,7 +906,7 @@ on
 "
 background
 -
-page
+script
 -
 started
 "
@@ -922,7 +922,7 @@ on
 "
 background
 -
-page
+script
 -
 aborted
 "
