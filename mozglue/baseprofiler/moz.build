@@ -780,6 +780,13 @@ h
 "
 public
 /
+ProgressLogger
+.
+h
+"
+"
+public
+/
 ProportionValue
 .
 h
