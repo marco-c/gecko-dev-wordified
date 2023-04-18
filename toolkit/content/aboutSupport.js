@@ -1680,8 +1680,6 @@ setAttributes
 (
 "
 crashes
--
-title
 "
 )
 "
@@ -2246,8 +2244,6 @@ win
 security
 -
 software
--
-title
 "
 )
 .
