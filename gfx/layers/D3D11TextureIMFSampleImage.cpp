@@ -117,6 +117,13 @@ MPL
 #
 include
 <
+d3d11
+.
+h
+>
+#
+include
+<
 memory
 >
 #
@@ -137,13 +144,6 @@ h
 include
 "
 WMF
-.
-h
-"
-#
-include
-"
-d3d11
 .
 h
 "
