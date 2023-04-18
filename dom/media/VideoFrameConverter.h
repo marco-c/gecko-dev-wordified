@@ -386,10 +386,10 @@ aTimestampMaker
 )
 mTaskQueue
 (
-MakeAndAddRef
-<
 TaskQueue
->
+:
+:
+Create
 (
 GetMediaThreadPool
 (

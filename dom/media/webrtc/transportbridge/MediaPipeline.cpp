@@ -654,8 +654,10 @@ aConduit
 )
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -8485,8 +8487,10 @@ WEBRTC_MAX_SAMPLE_RATE
 )
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

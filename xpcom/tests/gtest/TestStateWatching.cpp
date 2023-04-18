@@ -225,8 +225,10 @@ TaskQueue
 >
 queue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

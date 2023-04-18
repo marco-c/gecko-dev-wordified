@@ -3577,8 +3577,10 @@ aDemuxer
 :
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -5627,8 +5629,10 @@ aDemuxer
 :
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -6470,8 +6474,10 @@ mAudio
 .
 mTaskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -6495,8 +6501,10 @@ mVideo
 .
 mTaskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

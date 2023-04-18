@@ -536,8 +536,10 @@ mKnowsCompositor
 )
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

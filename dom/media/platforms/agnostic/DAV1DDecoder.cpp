@@ -228,8 +228,10 @@ VideoConfig
 )
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

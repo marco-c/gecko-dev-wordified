@@ -154,8 +154,10 @@ SUPERVISOR
 )
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 do_AddRef
 (
@@ -902,8 +904,10 @@ TaskQueue
 >
 tq
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

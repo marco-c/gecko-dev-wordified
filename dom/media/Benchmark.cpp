@@ -848,8 +848,10 @@ aParameters
 :
 QueueObject
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -1102,8 +1104,10 @@ aDemuxer
 :
 QueueObject
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -1126,8 +1130,10 @@ aGlobalState
 )
 mDecoderTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

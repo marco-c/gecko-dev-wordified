@@ -820,8 +820,10 @@ aPlayerId
 :
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

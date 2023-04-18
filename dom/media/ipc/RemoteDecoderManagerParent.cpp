@@ -464,8 +464,10 @@ false
 }
 sRemoteDecoderManagerParentThread
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -1141,8 +1143,10 @@ TaskQueue
 >
 decodeTaskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

@@ -792,8 +792,10 @@ aFormat
 :
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -1641,10 +1643,10 @@ Usage
 :
 :
 Realtime
-MakeRefPtr
-<
 TaskQueue
->
+:
+:
+Create
 (
 GetMediaThreadPool
 (

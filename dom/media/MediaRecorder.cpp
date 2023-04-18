@@ -5202,10 +5202,10 @@ return
 }
 mEncoderThread
 =
-MakeAndAddRef
-<
 TaskQueue
->
+:
+:
+Create
 (
 pool
 .

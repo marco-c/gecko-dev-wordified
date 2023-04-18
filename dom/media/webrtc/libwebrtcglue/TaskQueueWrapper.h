@@ -1108,10 +1108,10 @@ size
 auto
 taskQueue
 =
-MakeRefPtr
-<
 TaskQueue
->
+:
+:
+Create
 (
 GetMediaThreadPool
 (

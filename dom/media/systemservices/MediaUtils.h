@@ -1402,8 +1402,10 @@ TaskQueue
 >
 taskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 std
 :
@@ -1584,8 +1586,10 @@ TaskQueue
 >
 taskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 std
 :
@@ -1833,8 +1837,10 @@ TaskQueue
 >
 taskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 do_AddRef
 (
@@ -1982,8 +1988,10 @@ TaskQueue
 >
 taskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 do_AddRef
 (

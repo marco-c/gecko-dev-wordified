@@ -1185,8 +1185,10 @@ Other
 ;
 mPSupervisorTaskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (
@@ -1205,8 +1207,10 @@ mPSupervisorTaskQueue
 ;
 mPDecoderTaskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

@@ -13651,8 +13651,10 @@ TaskQueue
 >
 mediaThread
 =
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

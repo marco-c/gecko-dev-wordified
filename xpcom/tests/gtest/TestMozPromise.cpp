@@ -207,8 +207,10 @@ AutoTaskQueue
 :
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

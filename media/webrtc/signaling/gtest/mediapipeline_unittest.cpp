@@ -378,10 +378,10 @@ MainAsCurrent
 :
 TaskQueueWrapper
 (
-MakeRefPtr
-<
 TaskQueue
->
+:
+:
+Create
 (
 do_AddRef
 (

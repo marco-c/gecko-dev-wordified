@@ -222,8 +222,10 @@ aMFTManager
 :
 mTaskQueue
 (
-new
 TaskQueue
+:
+:
+Create
 (
 GetMediaThreadPool
 (

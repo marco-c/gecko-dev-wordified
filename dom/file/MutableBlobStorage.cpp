@@ -3494,8 +3494,10 @@ target
 ;
 mTaskQueue
 =
-new
 TaskQueue
+:
+:
+Create
 (
 target
 .
