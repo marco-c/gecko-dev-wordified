@@ -33644,13 +33644,8 @@ runtimereg
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-regs
-.
-takeAny
-(
-)
 )
 ;
 masm
@@ -35111,9 +35106,8 @@ index
 ;
 masm
 .
-setupUnalignedABICall
+setupAlignedABICall
 (
-runtimereg
 )
 ;
 masm
@@ -56396,7 +56390,7 @@ iterDone
 {
 masm
 .
-push
+Push
 (
 iter
 )
@@ -56441,7 +56435,7 @@ temp
 ;
 masm
 .
-pop
+Pop
 (
 iter
 )
