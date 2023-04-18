@@ -1539,16 +1539,6 @@ PopupNotifications
 window
 )
 ;
-await
-SimpleTest
-.
-promiseFocus
-(
-PopupNotifications
-.
-window
-)
-;
 return
 PopupNotifications
 .
