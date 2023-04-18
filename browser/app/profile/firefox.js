@@ -3472,7 +3472,7 @@ upgradeDialog
 .
 enabled
 "
-true
+false
 )
 ;
 /
