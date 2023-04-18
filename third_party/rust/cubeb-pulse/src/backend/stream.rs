@@ -1411,11 +1411,7 @@ c_void
 {
 let
 p
-:
-*
-mut
-c_void
-;
+=
 match
 &
 mut
@@ -1441,8 +1437,6 @@ nsamples
 0
 )
 ;
-p
-=
 b
 .
 as_mut_ptr
@@ -1452,7 +1446,6 @@ as
 *
 mut
 c_void
-;
 }
 LinearInputBuffer
 :
@@ -1473,8 +1466,6 @@ nsamples
 .
 )
 ;
-p
-=
 b
 .
 as_mut_ptr
@@ -1484,9 +1475,9 @@ as
 *
 mut
 c_void
+}
+}
 ;
-}
-}
 self
 .
 pull_input_data
@@ -7752,8 +7743,6 @@ invalid_format
 >
 Error
 {
-unsafe
-{
 Error
 :
 :
@@ -7765,7 +7754,6 @@ ffi
 CUBEB_ERROR_INVALID_FORMAT
 )
 }
-}
 fn
 not_supported
 (
@@ -7773,8 +7761,6 @@ not_supported
 -
 >
 Error
-{
-unsafe
 {
 Error
 :
@@ -7786,7 +7772,6 @@ ffi
 :
 CUBEB_ERROR_NOT_SUPPORTED
 )
-}
 }
 #
 [

@@ -204,6 +204,9 @@ clippy
 "
 allow
 (
+clippy
+:
+:
 too_many_arguments
 )
 )

@@ -11,6 +11,7 @@ test_get_all_onwed_devices
 test_get_default_device
 test_get_drift_compensations
 test_get_master_device
+DeviceFilter
 Scope
 }
 ;
@@ -313,6 +314,10 @@ devices
 =
 test_get_all_devices
 (
+DeviceFilter
+:
+:
+ExcludeCubebAggregate
 )
 ;
 for
@@ -1021,6 +1026,10 @@ devices
 =
 test_get_all_devices
 (
+DeviceFilter
+:
+:
+IncludeCubebAggregate
 )
 ;
 let

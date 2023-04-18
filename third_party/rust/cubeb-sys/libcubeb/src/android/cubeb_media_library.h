@@ -85,10 +85,10 @@ try
 the
 most
 recent
+/
+/
 signature
 .
-/
-/
 status_t
 AudioSystem
 :
@@ -98,6 +98,8 @@ getOutputLatency
 uint32_t
 *
 latency
+/
+/
 audio_stream_type_t
 streamType
 )

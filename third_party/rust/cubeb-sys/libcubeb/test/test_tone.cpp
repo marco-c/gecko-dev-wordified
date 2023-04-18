@@ -732,7 +732,7 @@ stream
 ;
 delay
 (
-500
+5000
 )
 ;
 cubeb_stream_stop

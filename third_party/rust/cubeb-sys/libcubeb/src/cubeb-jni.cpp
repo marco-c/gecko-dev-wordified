@@ -1,3 +1,11 @@
+/
+*
+clang
+-
+format
+off
+*
+/
 #
 include
 "
@@ -23,6 +31,14 @@ instances
 .
 h
 "
+/
+*
+clang
+-
+format
+on
+*
+/
 #
 define
 AUDIO_STREAM_TYPE_MUSIC
@@ -114,6 +130,8 @@ call
 it
 from
 another
+/
+/
 method
 jclass
 context_class
@@ -246,6 +264,8 @@ order
 to
 preserve
 method
+/
+/
 id
 jclass
 audio_manager_class

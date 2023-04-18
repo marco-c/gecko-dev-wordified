@@ -1509,13 +1509,13 @@ mod
 tests
 {
 use
-Device
-;
-use
 ffi
 :
 :
 cubeb_device
+;
+use
+Device
 ;
 #
 [

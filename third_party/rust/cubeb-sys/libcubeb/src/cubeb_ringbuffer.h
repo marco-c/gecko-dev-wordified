@@ -100,8 +100,8 @@ thread
 and
 consuming
 it
-on
 *
+on
 another
 thread
 safely
@@ -113,8 +113,8 @@ synchronization
 If
 used
 on
-two
 *
+two
 threads
 this
 data
@@ -127,8 +127,8 @@ safety
 .
 It
 is
-possible
 *
+possible
 to
 disable
 the
@@ -800,6 +800,7 @@ default
 constructed
 elements
 are
+*
 enqueued
 .
 *
@@ -824,8 +825,8 @@ coped
 from
 elements
 and
-inserted
 *
+inserted
 into
 the
 ring
@@ -863,9 +864,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 ;
@@ -877,9 +875,6 @@ write_index_
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -1035,9 +1030,6 @@ to_write
 std
 :
 :
-memory_order
-:
-:
 memory_order_release
 )
 ;
@@ -1160,9 +1152,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_acquire
 )
 ;
@@ -1174,9 +1163,6 @@ read_index_
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -1278,9 +1264,6 @@ to_read
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 ;
@@ -1350,9 +1333,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 write_index_
@@ -1360,9 +1340,6 @@ write_index_
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed
@@ -1436,9 +1413,6 @@ load
 std
 :
 :
-memory_order
-:
-:
 memory_order_relaxed
 )
 write_index_
@@ -1446,9 +1420,6 @@ write_index_
 load
 (
 std
-:
-:
-memory_order
 :
 :
 memory_order_relaxed

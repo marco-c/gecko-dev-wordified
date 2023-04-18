@@ -3319,7 +3319,7 @@ CUBEB_OK
 ;
 delay
 (
-500
+5000
 )
 ;
 do_drain
