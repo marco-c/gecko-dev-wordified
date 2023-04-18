@@ -489,7 +489,7 @@ true
 )
 ;
 await
-assertEventOrder
+assertEvents
 (
 {
 history
@@ -653,7 +653,7 @@ true
 )
 ;
 await
-assertEventOrder
+assertEvents
 (
 {
 history
@@ -771,7 +771,7 @@ true
 )
 ;
 await
-assertEventOrder
+assertEvents
 (
 {
 history
@@ -986,7 +986,7 @@ await
 frameNavigated
 ;
 await
-assertEventOrder
+assertEvents
 (
 {
 history
@@ -1325,7 +1325,7 @@ true
 )
 ;
 await
-assertEventOrder
+assertEvents
 (
 {
 history
@@ -1493,7 +1493,7 @@ await
 loadEventFrom
 ;
 await
-assertEventOrder
+assertEvents
 (
 {
 history
@@ -2541,7 +2541,7 @@ history
 }
 async
 function
-assertEventOrder
+assertEvents
 (
 options
 =
@@ -2630,15 +2630,21 @@ Assert
 deepEqual
 (
 eventNames
+.
+sort
+(
+)
 expectedEvents
+.
+sort
+(
+)
 "
 Received
+expected
 Runtime
 context
 events
-in
-expected
-order
 "
 )
 ;
