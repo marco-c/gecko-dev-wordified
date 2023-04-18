@@ -1607,7 +1607,7 @@ code
 =
 instance
 .
-createIndirectStub
+ensureAndGetIndirectStub
 (
 tier
 funcIndex
@@ -1623,6 +1623,14 @@ return
 false
 ;
 }
+/
+/
+Note
+infallible
+beyond
+this
+point
+.
 for
 (
 uint32_t
