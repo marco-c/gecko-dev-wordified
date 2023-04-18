@@ -198,3 +198,15 @@ xul
 REQUIRES_UNIFIED_BUILD
 =
 True
+CRASHTEST_MANIFESTS
++
+=
+[
+"
+crashtests
+/
+crashtests
+.
+list
+"
+]
