@@ -1221,6 +1221,7 @@ relaxed_simd
 \
 TENTATIVE
 (
+\
 /
 *
 capitalized
@@ -1258,7 +1259,6 @@ cx
 )
 |
 |
-\
 IonAvailable
 (
 cx
@@ -1270,14 +1270,6 @@ flag
 predicate
 *
 /
-!
-IsFuzzingIon
-(
-cx
-)
-&
-&
-\
 !
 IsFuzzingCranelift
 (
