@@ -288,6 +288,7 @@ nslots
 ;
 }
 static
+constexpr
 bool
 CanUseFixedElementsForArray
 (
