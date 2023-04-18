@@ -3419,17 +3419,6 @@ main_ping_assembling
 true
 )
 ;
-Glean
-.
-gifftValidation
-.
-mainPingAssembling
-.
-set
-(
-true
-)
-;
 const
 isSubsession
 =
