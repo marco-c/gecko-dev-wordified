@@ -54685,6 +54685,10 @@ _tabDialogManager
 let
 hasDialogs
 =
+(
+)
+=
+>
 this
 .
 _tabDialogManager
@@ -54703,6 +54707,8 @@ if
 (
 !
 hasDialogs
+(
+)
 )
 {
 this
@@ -54723,6 +54729,8 @@ if
 (
 !
 hasDialogs
+(
+)
 )
 {
 this
