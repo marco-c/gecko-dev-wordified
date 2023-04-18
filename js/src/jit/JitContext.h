@@ -842,6 +842,8 @@ Process
 -
 wide
 initialization
+and
+shutdown
 of
 JIT
 data
@@ -854,6 +856,11 @@ nodiscard
 ]
 bool
 InitializeJit
+(
+)
+;
+void
+ShutdownJit
 (
 )
 ;
