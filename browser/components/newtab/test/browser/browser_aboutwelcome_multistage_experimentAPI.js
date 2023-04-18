@@ -163,6 +163,9 @@ help
 text
 "
 }
+has_noodles
+:
+true
 }
 }
 {
@@ -208,6 +211,9 @@ label
 link
 "
 }
+has_noodles
+:
+true
 }
 }
 {
@@ -330,6 +336,9 @@ chrome
 }
 }
 }
+has_noodles
+:
+true
 }
 }
 {
@@ -375,6 +384,9 @@ label
 link
 "
 }
+has_noodles
+:
+true
 }
 }
 ]
@@ -694,6 +706,9 @@ test
 }
 }
 }
+has_noodles
+:
+true
 }
 }
 {
@@ -743,6 +758,9 @@ label
 link
 "
 }
+has_noodles
+:
+true
 }
 }
 {
@@ -806,6 +824,9 @@ chrome
 }
 }
 }
+has_noodles
+:
+true
 }
 }
 ]
