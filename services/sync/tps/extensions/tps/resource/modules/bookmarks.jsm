@@ -71,9 +71,7 @@ be
 imported
 via
 *
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
