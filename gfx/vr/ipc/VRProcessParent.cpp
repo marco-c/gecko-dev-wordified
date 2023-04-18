@@ -1173,7 +1173,6 @@ base
 :
 :
 PROCESS_END_KILLED_BY_USER
-false
 )
 )
 {
