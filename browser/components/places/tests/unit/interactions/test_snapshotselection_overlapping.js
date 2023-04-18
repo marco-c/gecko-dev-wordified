@@ -395,7 +395,7 @@ snapshotPromise
 Only
 snapshots
 with
-overlaping
+overlapping
 interactions
 should
 be

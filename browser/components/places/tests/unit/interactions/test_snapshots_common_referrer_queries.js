@@ -775,7 +775,7 @@ com
 /
 product_b
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -795,7 +795,7 @@ com
 /
 product_c
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -841,7 +841,7 @@ com
 /
 product_a
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -861,7 +861,7 @@ com
 /
 product_c
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -907,7 +907,7 @@ com
 /
 product_a
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -927,7 +927,7 @@ com
 /
 product_b
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -1245,7 +1245,7 @@ com
 /
 product_search
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -1291,7 +1291,7 @@ com
 /
 services_search
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -1345,7 +1345,7 @@ com
 /
 product_b
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -1391,7 +1391,7 @@ com
 /
 product_a
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -1746,7 +1746,7 @@ com
 /
 product_a
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -1792,7 +1792,7 @@ com
 /
 product_a
 "
-commonReferrerScoreEqualTo
+scoreEqualTo
 :
 1
 .
@@ -2371,7 +2371,7 @@ product_b
 }
 ;
 let
-snapshot
+recommendations
 =
 await
 Snapshots
@@ -2387,7 +2387,7 @@ Assert
 .
 equal
 (
-snapshot
+recommendations
 .
 length
 1
@@ -2404,10 +2404,12 @@ Assert
 .
 equal
 (
-snapshot
+recommendations
 [
 0
 ]
+.
+snapshot
 .
 url
 "
@@ -2434,10 +2436,12 @@ Assert
 .
 equal
 (
-snapshot
+recommendations
 [
 0
 ]
+.
+snapshot
 .
 siteName
 "
@@ -2458,10 +2462,12 @@ Assert
 .
 equal
 (
-snapshot
+recommendations
 [
 0
 ]
+.
+snapshot
 .
 description
 "
@@ -2482,10 +2488,12 @@ Assert
 .
 equal
 (
-snapshot
+recommendations
 [
 0
 ]
+.
+snapshot
 .
 pageData
 .
@@ -2507,10 +2515,12 @@ Assert
 .
 deepEqual
 (
-snapshot
+recommendations
 [
 0
 ]
+.
+snapshot
 .
 pageData
 .
