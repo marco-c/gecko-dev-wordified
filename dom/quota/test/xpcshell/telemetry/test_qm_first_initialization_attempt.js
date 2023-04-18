@@ -35,7 +35,7 @@ const
 AppConstants
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -59,7 +59,7 @@ const
 TelemetryTestUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

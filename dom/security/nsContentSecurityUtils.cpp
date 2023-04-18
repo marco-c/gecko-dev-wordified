@@ -9685,9 +9685,12 @@ function
 {
 \
 n
-Components
-.
-utils
+const
+{
+AboutSyncRedirector
+}
+=
+ChromeUtils
 .
 import
 (
