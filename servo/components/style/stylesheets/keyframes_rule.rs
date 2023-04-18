@@ -206,7 +206,7 @@ stylesheets
 layer_rule
 :
 :
-LayerOrder
+LayerId
 ;
 use
 crate
@@ -2584,7 +2584,7 @@ VendorPrefix
 /
 /
 The
-order
+id
 of
 the
 cascade
@@ -2596,9 +2596,9 @@ was
 in
 .
 pub
-layer_order
+layer_id
 :
-LayerOrder
+LayerId
 }
 /
 /
@@ -2964,9 +2964,9 @@ Option
 <
 VendorPrefix
 >
-layer_order
+layer_id
 :
-LayerOrder
+LayerId
 guard
 :
 &
@@ -2997,7 +2997,7 @@ new
 (
 )
 vendor_prefix
-layer_order
+layer_id
 }
 ;
 if

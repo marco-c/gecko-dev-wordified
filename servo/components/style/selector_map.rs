@@ -153,7 +153,10 @@ crate
 stylist
 :
 :
+{
 Rule
+CascadeData
+}
 ;
 use
 crate
@@ -1553,6 +1556,10 @@ F
 cascade_level
 :
 CascadeLevel
+cascade_data
+:
+&
+CascadeData
 )
 where
 E
@@ -1607,6 +1614,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+cascade_data
 )
 ;
 }
@@ -1651,6 +1659,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+cascade_data
 )
 }
 }
@@ -1691,6 +1700,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+cascade_data
 )
 }
 }
@@ -1736,6 +1746,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+cascade_data
 )
 }
 }
@@ -1773,6 +1784,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+cascade_data
 )
 }
 if
@@ -1806,6 +1818,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+cascade_data
 )
 }
 SelectorMap
@@ -1822,6 +1835,7 @@ matching_rules_list
 context
 flags_setter
 cascade_level
+cascade_data
 )
 ;
 }
@@ -1884,6 +1898,10 @@ F
 cascade_level
 :
 CascadeLevel
+cascade_data
+:
+&
+CascadeData
 )
 where
 E
@@ -1933,6 +1951,7 @@ rule
 to_applicable_declaration_block
 (
 cascade_level
+cascade_data
 )
 )
 ;
