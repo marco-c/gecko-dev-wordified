@@ -3157,18 +3157,6 @@ return
 mDidShutdown
 ;
 }
-[
-this
-]
-(
-uint32_t
-)
-{
-mInterruptRequested
-=
-true
-;
-}
 )
 ;
 }
@@ -3743,6 +3731,7 @@ TimeBudget
 (
 baseBudget
 )
+kNumCCNodesBetweenTimeChecks
 )
 ;
 }
@@ -3976,6 +3965,7 @@ baseBudget
 }
 )
 )
+kNumCCNodesBetweenTimeChecks
 )
 ;
 }
