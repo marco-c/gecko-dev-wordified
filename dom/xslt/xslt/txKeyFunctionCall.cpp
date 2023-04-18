@@ -1889,12 +1889,6 @@ aNode
 aEs
 )
 ;
-NS_ENSURE_TRUE
-(
-evalContext
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsresult
 rv
 =
