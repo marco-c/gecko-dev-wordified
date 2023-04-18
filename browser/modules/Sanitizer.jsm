@@ -6498,7 +6498,12 @@ Services
 .
 perms
 .
-all
+getAllWithTypePrefix
+(
+"
+cookie
+"
+)
 )
 {
 if
