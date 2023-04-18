@@ -10969,8 +10969,7 @@ GetExpatBaseURI
 aParserContext
 .
 mScanner
--
->
+.
 GetURI
 (
 )

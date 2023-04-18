@@ -317,7 +317,7 @@ eViewErrors
 enum
 eParserDocType
 {
-ePlainText
+eUnknown
 =
 0
 eXML
