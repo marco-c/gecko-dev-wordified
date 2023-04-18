@@ -4654,6 +4654,11 @@ BlendMode
 :
 :
 Exclusion
+|
+BlendMode
+:
+:
+PlusLighter
 =
 >
 {

@@ -2415,6 +2415,11 @@ Screen
 BlendMode
 :
 :
+PlusLighter
+|
+BlendMode
+:
+:
 Exclusion
 =
 >
