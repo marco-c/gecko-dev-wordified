@@ -3085,6 +3085,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 ;
@@ -3105,6 +3108,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 ;
@@ -3176,6 +3182,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 mPromise
@@ -3208,6 +3217,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 mPromise

@@ -2513,6 +2513,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 ;
@@ -2533,6 +2536,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 ;
@@ -3231,6 +3237,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 AutoCancel
@@ -4371,6 +4380,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 nsCString
@@ -5192,7 +5204,10 @@ JS
 :
 Value
 >
-aValue
+aValu
+ErrorResult
+&
+aRve
 )
 override
 {
@@ -5225,6 +5240,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 {

@@ -304,6 +304,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 JS
@@ -355,6 +358,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 JS

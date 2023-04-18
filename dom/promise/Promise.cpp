@@ -1571,6 +1571,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 RefPtr
@@ -1630,6 +1633,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 mPromise
@@ -2147,6 +2153,9 @@ toInt32
 )
 )
 ;
+ErrorResult
+rv
+;
 if
 (
 task
@@ -2187,6 +2196,7 @@ get
 (
 0
 )
+rv
 )
 ;
 }
@@ -2232,11 +2242,18 @@ get
 (
 0
 )
+rv
 )
 ;
 }
 return
-true
+!
+rv
+.
+MaybeSetPendingException
+(
+aCx
+)
 ;
 }
 static
@@ -2427,6 +2444,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 {
@@ -2451,6 +2471,7 @@ ResolvedCallback
 (
 aCx
 aValue
+aRv
 )
 ;
 MOZ_ASSERT
@@ -2478,6 +2499,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 {
@@ -2502,6 +2526,7 @@ RejectedCallback
 (
 aCx
 aValue
+aRv
 )
 ;
 MOZ_ASSERT
@@ -5001,6 +5026,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 RunCallback
@@ -5035,6 +5063,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 RunCallback

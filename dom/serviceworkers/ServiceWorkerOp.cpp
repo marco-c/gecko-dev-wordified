@@ -862,6 +862,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 {
@@ -888,6 +891,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 override
 {
@@ -7359,6 +7365,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 MOZ_ASSERT
@@ -8474,6 +8483,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 MOZ_ASSERT

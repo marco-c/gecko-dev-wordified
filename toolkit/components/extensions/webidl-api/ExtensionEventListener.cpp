@@ -4408,6 +4408,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 WorkerRunCallback
@@ -4441,6 +4444,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 {
 WorkerRunCallback
