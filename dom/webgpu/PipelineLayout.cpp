@@ -164,6 +164,17 @@ mId
 aId
 )
 {
+if
+(
+!
+aId
+)
+{
+mValid
+=
+false
+;
+}
 }
 PipelineLayout
 :
