@@ -1963,7 +1963,7 @@ data
 (
 default
 :
-true
+false
 )
 .
 *
@@ -2047,7 +2047,18 @@ dumpFallback
 true
 loadDumpIfNewer
 =
+false
+/
+/
+TODO
+bug
+1718083
+:
+should
+default
+to
 true
+.
 syncIfEmpty
 =
 true

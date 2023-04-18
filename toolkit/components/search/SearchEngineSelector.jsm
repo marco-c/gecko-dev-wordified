@@ -928,6 +928,9 @@ order
 "
 id
 "
+loadDumpIfNewer
+:
+true
 }
 )
 ;

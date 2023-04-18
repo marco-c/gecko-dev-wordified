@@ -6973,6 +6973,11 @@ _client
 .
 get
 (
+{
+loadDumpIfNewer
+:
+true
+}
 )
 ;
 if
