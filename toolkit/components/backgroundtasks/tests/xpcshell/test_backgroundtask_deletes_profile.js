@@ -149,7 +149,17 @@ extraArgs
 [
 sentinel
 ]
+onStdoutLine
+:
+line
+=
+>
 stdoutLines
+.
+push
+(
+line
+)
 }
 )
 ;
