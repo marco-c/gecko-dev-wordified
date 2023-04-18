@@ -258,7 +258,7 @@ gecko_taskgraph
 .
 transforms
 .
-tests
+test
 import
 test_setting_description_schema
     
