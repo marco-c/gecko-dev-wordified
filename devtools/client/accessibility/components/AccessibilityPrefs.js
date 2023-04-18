@@ -610,6 +610,13 @@ SCROLL_INTO_VIEW
 )
 hr
 (
+{
+key
+:
+"
+hr
+"
+}
 )
 MenuItem
 (
