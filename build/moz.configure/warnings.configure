@@ -475,9 +475,6 @@ Wsign
 -
 compare
 "
-when
-=
-not_clang_cl
 )
 #
 catches

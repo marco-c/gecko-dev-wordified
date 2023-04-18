@@ -7862,7 +7862,7 @@ CSIDL_DESKTOPDIRECTORY
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -9556,7 +9556,7 @@ StartMenu
 ;
 for
 (
-int
+size_t
 i
 =
 0
