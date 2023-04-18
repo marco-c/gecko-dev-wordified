@@ -87,7 +87,7 @@ monitor
 await
 initNetMonitor
 (
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 {
 requestCount
 :
@@ -148,7 +148,7 @@ monitor
 await
 navigateTo
 (
-SIMPLE_URL
+HTTPS_SIMPLE_URL
 )
 ;
 await

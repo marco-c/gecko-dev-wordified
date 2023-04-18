@@ -60,7 +60,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /

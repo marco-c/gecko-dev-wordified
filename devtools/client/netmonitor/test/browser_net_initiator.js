@@ -86,7 +86,7 @@ html
 const
 INITIATOR_URL
 =
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 INITIATOR_FILE_NAME
 ;
@@ -123,7 +123,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 stylesheet_request
@@ -148,7 +148,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 img_request
@@ -173,7 +173,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 img_srcset_request
@@ -198,7 +198,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 xhr_request
@@ -237,7 +237,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 fetch_request
@@ -276,7 +276,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 promise_fetch_request
@@ -334,7 +334,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 timeout_fetch_request
@@ -392,7 +392,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 favicon_request
@@ -500,7 +500,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 lazy_img_request
@@ -527,7 +527,7 @@ GET
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 lazy_img_srcset_request
@@ -554,7 +554,7 @@ POST
 "
 url
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 beacon_request

@@ -47,7 +47,7 @@ const
 EXAMPLE_COM_URL
 =
 "
-http
+https
 :
 /
 /
@@ -70,7 +70,7 @@ const
 EXAMPLE_NET_URL
 =
 "
-http
+https
 :
 /
 /
@@ -92,7 +92,7 @@ testnet
 const
 REQUEST_URL
 =
-SEARCH_SJS
+HTTPS_SEARCH_SJS
 +
 "
 ?

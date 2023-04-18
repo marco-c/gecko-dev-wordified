@@ -307,7 +307,7 @@ requestData
 {
 uri
 :
-EXAMPLE_URL
+HTTPS_EXAMPLE_URL
 +
 "
 test

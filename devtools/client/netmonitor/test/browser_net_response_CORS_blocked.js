@@ -92,7 +92,7 @@ monitor
 await
 initNetMonitor
 (
-CORS_URL
+HTTPS_CORS_URL
 {
 requestCount
 :
@@ -173,7 +173,7 @@ origin
 const
 requestUrl
 =
-EXAMPLE_ORG_URL
+HTTPS_EXAMPLE_ORG_URL
 +
 "
 sjs_simple
@@ -539,7 +539,7 @@ const
 requestUrl
 =
 "
-http
+https
 :
 /
 /
