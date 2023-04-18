@@ -984,6 +984,15 @@ ErrorResult
 aRv
 )
 ;
+extern
+void
+ReadableStreamDefaultControllerClearAlgorithms
+(
+ReadableStreamDefaultController
+*
+aController
+)
+;
 }
 /
 /
