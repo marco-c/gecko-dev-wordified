@@ -3845,9 +3845,10 @@ this
 .
 _view
 .
-activeSummary
-=
+setActiveSummary
+(
 summary
+)
 ;
 }
 }
@@ -4892,9 +4893,10 @@ this
 .
 _view
 .
-activeSummary
-=
+setActiveSummary
+(
 summary
+)
 ;
 }
 )
