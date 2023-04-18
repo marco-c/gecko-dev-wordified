@@ -26285,9 +26285,10 @@ ScrollbarbuttonRight
 nscolor
 buttonColor
 =
-ScrollbarDrawingWin
-:
-:
+GetScrollbarDrawing
+(
+)
+.
 GetScrollbarButtonColor
 (
 trackColor
@@ -26727,9 +26728,10 @@ arrow
 nscolor
 arrowColor
 =
-ScrollbarDrawingWin
-:
-:
+GetScrollbarDrawing
+(
+)
+.
 GetScrollbarArrowColor
 (
 buttonColor
