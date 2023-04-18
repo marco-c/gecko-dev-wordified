@@ -383,6 +383,13 @@ utils
 js
 "
 "
+worker
+-
+utils
+.
+js
+"
+"
 workers
 -
 listener
