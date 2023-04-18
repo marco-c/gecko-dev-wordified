@@ -226,6 +226,8 @@ url
 style
 .
 css
+?
+fetch
 '
 )
 )
