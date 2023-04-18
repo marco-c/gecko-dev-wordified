@@ -284,7 +284,7 @@ slash
 /
 '
 )
-url_AppleExtra
+url_NSURLRef
 =
 1u
 <
@@ -293,6 +293,8 @@ url_AppleExtra
 /
 /
 Extra
+URL
+ref
 encoding
 required
 for
