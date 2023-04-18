@@ -2177,6 +2177,13 @@ widget
 :
 ShouldUsePortal
 (
+widget
+:
+:
+PortalKind
+:
+:
+MimeHandler
 )
 )
 {
@@ -2548,6 +2555,13 @@ widget
 :
 ShouldUsePortal
 (
+widget
+:
+:
+PortalKind
+:
+:
+MimeHandler
 )
 )
 {

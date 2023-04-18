@@ -5887,6 +5887,13 @@ if
 (
 ShouldUsePortal
 (
+widget
+:
+:
+PortalKind
+:
+:
+Print
 )
 &
 &
