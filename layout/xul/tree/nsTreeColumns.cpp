@@ -258,7 +258,7 @@ Element
 aElement
 )
 :
-mElement
+mContent
 (
 aElement
 )
@@ -354,7 +354,7 @@ nsTreeColumn
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mElement
+mContent
 )
 if
 (
@@ -387,7 +387,7 @@ nsTreeColumn
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mElement
+mContent
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -436,7 +436,7 @@ GetFrame
 )
 {
 return
-mElement
+mContent
 -
 >
 GetPrimaryFrame
@@ -899,7 +899,7 @@ Fetch
 the
 Id
 .
-mElement
+mContent
 -
 >
 GetAttr
@@ -955,7 +955,7 @@ nsTreeUtils
 :
 GetColumnIndex
 (
-mElement
+mContent
 &
 mIndex
 )
@@ -1118,7 +1118,7 @@ drawn
 .
 mIsPrimary
 =
-mElement
+mContent
 -
 >
 AttrValueIs
@@ -1163,7 +1163,7 @@ happen
 .
 mIsCycler
 =
-mElement
+mContent
 -
 >
 AttrValueIs
@@ -1182,7 +1182,7 @@ eCaseMatters
 ;
 mIsEditable
 =
-mElement
+mContent
 -
 >
 AttrValueIs
@@ -1201,7 +1201,7 @@ eCaseMatters
 ;
 mOverflow
 =
-mElement
+mContent
 -
 >
 AttrValueIs
@@ -1257,7 +1257,7 @@ nullptr
 ;
 switch
 (
-mElement
+mContent
 -
 >
 FindAttrValueIn
@@ -1323,7 +1323,7 @@ nullptr
 ;
 switch
 (
-mElement
+mContent
 -
 >
 FindAttrValueIn
@@ -1372,7 +1372,7 @@ GetParentObject
 const
 {
 return
-mElement
+mContent
 ;
 }
 /
@@ -1426,7 +1426,7 @@ Element
 )
 {
 return
-mElement
+mContent
 ;
 }
 int32_t
@@ -1859,14 +1859,16 @@ GetNext
 {
 if
 (
+nsContentUtils
+:
+:
+HasNonEmptyAttr
+(
 currCol
 -
 >
-mElement
--
->
-HasNonEmptyAttr
-(
+mContent
+kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -1945,7 +1947,7 @@ if
 currCol
 -
 >
-mElement
+mContent
 -
 >
 AttrValueIs
@@ -1999,14 +2001,16 @@ currCol
 ;
 if
 (
+nsContentUtils
+:
+:
+HasNonEmptyAttr
+(
 currCol
 -
 >
-mElement
--
->
-HasNonEmptyAttr
-(
+mContent
+kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2111,7 +2115,7 @@ if
 currCol
 -
 >
-mElement
+mContent
 =
 =
 aElement

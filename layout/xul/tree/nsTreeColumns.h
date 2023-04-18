@@ -810,7 +810,7 @@ dom
 :
 Element
 >
-mElement
+mContent
 ;
 nsTreeColumns
 *
