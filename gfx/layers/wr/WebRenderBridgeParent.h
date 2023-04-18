@@ -2405,9 +2405,9 @@ CompositableHandle
 &
 aHandle
 const
-bool
+CompositableHandleOwner
 &
-aAsync
+aOwner
 wr
 :
 :

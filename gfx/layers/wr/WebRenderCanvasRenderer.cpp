@@ -378,6 +378,10 @@ mCanvasClient
 GetIPCHandle
 (
 )
+CompositableHandleOwner
+:
+:
+WebRenderBridge
 )
 ;
 }

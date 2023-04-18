@@ -1735,6 +1735,8 @@ GfxInfoFeatureStatus
 &
 &
 aFeatures
+uint32_t
+aWrNamespace
 )
 {
 for
@@ -2598,6 +2600,7 @@ RenderThread
 :
 Start
 (
+aWrNamespace
 )
 ;
 image
