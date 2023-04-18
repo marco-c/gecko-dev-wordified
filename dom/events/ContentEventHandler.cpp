@@ -562,11 +562,6 @@ mStart
 Container
 (
 )
-static_cast
-<
-int32_t
->
-(
 *
 mStart
 .
@@ -580,17 +575,11 @@ OffsetFilter
 :
 kValidOrInvalidOffsets
 )
-)
 mEnd
 .
 Container
 (
 )
-static_cast
-<
-int32_t
->
-(
 *
 mEnd
 .
@@ -603,7 +592,6 @@ OffsetFilter
 :
 :
 kValidOrInvalidOffsets
-)
 )
 )
 <
