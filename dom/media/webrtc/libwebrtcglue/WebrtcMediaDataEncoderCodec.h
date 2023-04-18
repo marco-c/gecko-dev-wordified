@@ -160,17 +160,6 @@ WebrtcMediaDataEncoder
 (
 )
 ;
-uint64_t
-PluginID
-(
-)
-const
-override
-{
-return
-0
-;
-}
 int32_t
 InitEncode
 (
