@@ -827,6 +827,9 @@ mServiceWorkersTestingInWindow
 OriginAttributes
 mOriginAttributes
 ;
+bool
+mIsThirdPartyContextToTopWindow
+;
 enum
 {
 eNotSet
