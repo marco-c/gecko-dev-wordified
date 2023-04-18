@@ -921,9 +921,8 @@ PictureInPictureParent
 actor
 *
 *
-return
+returns
 {
-DOM
 Window
 }
 the
