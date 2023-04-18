@@ -1710,13 +1710,6 @@ ScrollMode
 :
 :
 Instant
-ScrollOrigin
-aOrigin
-=
-ScrollOrigin
-:
-:
-NotSpecified
 )
 ;
 /
@@ -6545,13 +6538,6 @@ ScrollMode
 :
 :
 Instant
-ScrollOrigin
-aOrigin
-=
-ScrollOrigin
-:
-:
-NotSpecified
 )
 final
 {
@@ -6561,7 +6547,6 @@ ScrollToCSSPixels
 (
 aScrollPosition
 aMode
-aOrigin
 )
 ;
 }
@@ -9312,13 +9297,6 @@ ScrollMode
 :
 :
 Instant
-ScrollOrigin
-aOrigin
-=
-ScrollOrigin
-:
-:
-NotSpecified
 )
 final
 {
@@ -9328,7 +9306,6 @@ ScrollToCSSPixels
 (
 aScrollPosition
 aMode
-aOrigin
 )
 ;
 }
