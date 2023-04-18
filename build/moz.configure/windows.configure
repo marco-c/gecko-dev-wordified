@@ -329,10 +329,13 @@ return
 return
 set
 (
+normalize_path
+(
 x
 [
 1
 ]
+)
 for
 x
 in
