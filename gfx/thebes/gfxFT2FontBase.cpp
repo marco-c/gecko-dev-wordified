@@ -307,6 +307,11 @@ gfxFT2FontBase
 LockFTFace
 (
 )
+CAPABILITY_ACQUIRE
+(
+mFTFace
+)
+NO_THREAD_SAFETY_ANALYSIS
 {
 if
 (
@@ -375,6 +380,11 @@ gfxFT2FontBase
 UnlockFTFace
 (
 )
+CAPABILITY_RELEASE
+(
+mFTFace
+)
+NO_THREAD_SAFETY_ANALYSIS
 {
 mFTFace
 -

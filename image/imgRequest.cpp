@@ -438,10 +438,6 @@ ProgressTracker
 (
 )
 )
-mInnerWindowId
-(
-0
-)
 mIsMultiPartChannel
 (
 false

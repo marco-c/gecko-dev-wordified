@@ -1217,6 +1217,7 @@ void
 *
 aOwner
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 return
 int
@@ -1251,6 +1252,7 @@ void
 *
 aContext
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 static_cast
 <
@@ -3659,7 +3661,6 @@ aFTLibrary
 )
 ;
 }
-PUSH_IGNORE_THREAD_SAFETY
 void
 Factory
 :
@@ -3669,6 +3670,11 @@ LockFTLibrary
 FT_Library
 aFTLibrary
 )
+CAPABILITY_ACQUIRE
+(
+mFTLock
+)
+NO_THREAD_SAFETY_ANALYSIS
 {
 mFTLock
 .
@@ -3686,6 +3692,11 @@ UnlockFTLibrary
 FT_Library
 aFTLibrary
 )
+CAPABILITY_RELEASE
+(
+mFTLock
+)
+NO_THREAD_SAFETY_ANALYSIS
 {
 mFTLock
 .
@@ -3694,7 +3705,6 @@ Unlock
 )
 ;
 }
-POP_THREAD_SAFETY
 FT_Face
 Factory
 :
