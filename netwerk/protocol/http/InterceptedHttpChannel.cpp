@@ -231,6 +231,7 @@ nsIRequestObserver
 nsIStreamListener
 nsIThreadRetargetableRequest
 nsIThreadRetargetableStreamListener
+nsIClassOfService
 )
 InterceptedHttpChannel
 :
