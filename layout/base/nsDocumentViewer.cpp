@@ -8060,6 +8060,13 @@ false
 ;
 SpinEventLoopUntil
 (
+"
+nsDocumentViewer
+:
+:
+PermitUnload
+"
+_ns
 [
 &
 ]
