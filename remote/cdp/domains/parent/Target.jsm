@@ -567,6 +567,9 @@ TabManager
 addTab
 (
 {
+focus
+:
+true
 userContextId
 :
 browserContextId
