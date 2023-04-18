@@ -422,10 +422,11 @@ cache
 bool
 enabled
 =
+!
 StaticPrefs
 :
 :
-dom_storage_next_gen_DoNotUseDirectly
+dom_storage_enable_unsupported_legacy_implementation_DoNotUseDirectly
 (
 )
 ;
