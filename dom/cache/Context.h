@@ -1268,10 +1268,10 @@ aRv
 const
 Maybe
 <
-ClientMetadata
+CacheDirectoryMetadata
 >
 &
-aClientMetadata
+aDirectoryMetadata
 already_AddRefed
 <
 DirectoryLock
@@ -1328,9 +1328,9 @@ mOrphanedData
 ;
 Maybe
 <
-ClientMetadata
+CacheDirectoryMetadata
 >
-mClientMetadata
+mDirectoryMetadata
 ;
 RefPtr
 <
