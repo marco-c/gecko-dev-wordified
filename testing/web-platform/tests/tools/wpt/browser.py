@@ -8992,6 +8992,9 @@ s
 self
 .
 device_serial
+[
+0
+]
 ]
 )
         
