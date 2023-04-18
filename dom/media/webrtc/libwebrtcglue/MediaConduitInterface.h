@@ -1321,6 +1321,7 @@ Ssrcs
 GetLocalSSRCs
 (
 )
+const
 =
 0
 ;
@@ -1430,6 +1431,7 @@ Ssrc
 *
 ssrc
 )
+const
 =
 0
 ;
@@ -1504,6 +1506,7 @@ HasCodecPluginID
 uint64_t
 aPluginID
 )
+const
 =
 0
 ;

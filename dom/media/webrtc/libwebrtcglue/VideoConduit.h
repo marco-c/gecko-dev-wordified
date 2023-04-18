@@ -1459,6 +1459,7 @@ HasCodecPluginID
 uint64_t
 aPluginID
 )
+const
 override
 ;
 void
@@ -1572,6 +1573,7 @@ uint32_t
 GetLocalSSRCs
 (
 )
+const
 override
 ;
 /
@@ -1586,6 +1588,7 @@ uint32_t
 *
 ssrc
 )
+const
 override
 ;
 /
@@ -2037,6 +2040,7 @@ nsISerialEventTarget
 >
 mStsThread
 ;
+mutable
 Mutex
 mMutex
 ;

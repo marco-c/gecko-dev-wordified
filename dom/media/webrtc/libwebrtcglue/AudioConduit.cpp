@@ -681,6 +681,7 @@ WebrtcAudioConduit
 GetLocalSSRCs
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -785,6 +786,7 @@ uint32_t
 *
 ssrc
 )
+const
 {
 MOZ_ASSERT
 (
