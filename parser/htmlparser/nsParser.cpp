@@ -3813,7 +3813,7 @@ false
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsParser
 :
 :

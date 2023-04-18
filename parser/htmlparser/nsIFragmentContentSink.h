@@ -175,7 +175,7 @@ context
 .
 Also
 see
-nsIParser
+nsParser
 :
 :
 ParseFragment
