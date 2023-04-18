@@ -438,6 +438,9 @@ impl_CFTypeDescription
 !
 (
 CFArray
+<
+T
+>
 )
 ;
 unsafe
