@@ -3865,6 +3865,15 @@ options
 .
 frameIds
 *
+When
+omitted
+all
+frames
+will
+be
+queried
+.
+*
 param
 {
 boolean
