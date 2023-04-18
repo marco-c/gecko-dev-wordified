@@ -1023,13 +1023,13 @@ boundaries
 *
 /
 RawRangeBoundary
-GetStartRef
+FirstIMESelectionStartRef
 (
 )
 const
 ;
 RawRangeBoundary
-GetEndRef
+LastIMESelectionEndRef
 (
 )
 const
