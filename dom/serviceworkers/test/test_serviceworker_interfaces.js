@@ -347,9 +347,6 @@ Exception
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -358,9 +355,6 @@ name
 Tag
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
