@@ -385,9 +385,6 @@ focus
 (
 )
 ;
-}
-)
-;
 /
 /
 Initialize
@@ -411,6 +408,9 @@ this
 initializeCategories
 (
 )
+)
+;
+}
 )
 ;
 }
