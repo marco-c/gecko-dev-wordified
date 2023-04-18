@@ -85,6 +85,7 @@ capabilities
 {
 FirefoxCapabilities
 FirefoxOptions
+ProfileType
 }
 ;
 use
@@ -983,6 +984,17 @@ android
 is_none
 (
 )
+&
+&
+options
+.
+profile
+!
+=
+ProfileType
+:
+:
+Named
 &
 &
 !
@@ -7134,6 +7146,7 @@ browser
 marionette_port
 (
 )
+?
 {
 match
 MarionetteConnection
