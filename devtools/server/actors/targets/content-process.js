@@ -1339,7 +1339,7 @@ return
 }
 Resources
 .
-unwatchAllTargetResources
+unwatchAllResources
 (
 this
 )
