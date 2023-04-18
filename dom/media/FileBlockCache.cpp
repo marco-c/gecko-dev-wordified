@@ -2467,6 +2467,10 @@ pop_front
 ;
 /
 /
+MonitorAutoUnlock
+above
+/
+/
 If
 a
 new
@@ -2513,6 +2517,10 @@ blockIndex
 change
 )
 {
+/
+/
+MonitorAutoUnlock
+above
 mBlockChanges
 [
 blockIndex
@@ -2520,6 +2528,10 @@ blockIndex
 =
 nullptr
 ;
+/
+/
+MonitorAutoUnlock
+above
 }
 }
 mIsWriteScheduled
@@ -2583,6 +2595,12 @@ MakeScopeExit
 &
 ]
 {
+mDataMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 mIsReading
 =
 false
