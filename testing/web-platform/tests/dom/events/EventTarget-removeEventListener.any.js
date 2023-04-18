@@ -20,7 +20,7 @@ function
 {
 assert_equals
 (
-document
+globalThis
 .
 removeEventListener
 (
@@ -35,7 +35,7 @@ undefined
 ;
 assert_equals
 (
-document
+globalThis
 .
 removeEventListener
 (
@@ -50,7 +50,7 @@ undefined
 ;
 assert_equals
 (
-document
+globalThis
 .
 removeEventListener
 (
