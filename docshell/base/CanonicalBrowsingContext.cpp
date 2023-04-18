@@ -5091,6 +5091,9 @@ ShouldAddEntryForRefresh
 (
 newActiveEntry
 )
+&
+&
+mActiveEntry
 )
 {
 addEntry
