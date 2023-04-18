@@ -1128,6 +1128,15 @@ Attributes
 )
 override
 ;
+virtual
+nsAtom
+*
+TagName
+(
+)
+const
+override
+;
 /
 /
 Methods

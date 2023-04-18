@@ -5178,6 +5178,15 @@ CacheUpdateType
 aUpdateType
 )
 ;
+virtual
+nsAtom
+*
+TagName
+(
+)
+const
+override
+;
 protected
 :
 virtual
