@@ -4618,7 +4618,6 @@ pic
 .
 prepare_for_render
 (
-frame_context
 frame_state
 data_stores
 )
