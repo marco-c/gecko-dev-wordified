@@ -110120,7 +110120,7 @@ scheme
 pc
 -
 >
-GetOverriddenColorScheme
+GetOverriddenOrEmbedderColorScheme
 (
 )
 )

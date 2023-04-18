@@ -3427,11 +3427,14 @@ if
 any
 via
 either
+our
+embedder
+or
 DevTools
+/
+/
 emulation
 or
-/
-/
 printing
 .
 /
@@ -3459,7 +3462,7 @@ mozilla
 :
 ColorScheme
 >
-GetOverriddenColorScheme
+GetOverriddenOrEmbedderColorScheme
 (
 )
 const
@@ -8232,7 +8235,7 @@ dom
 :
 :
 PrefersColorSchemeOverride
-mColorSchemeOverride
+mOverriddenOrEmbedderColorScheme
 ;
 protected
 :

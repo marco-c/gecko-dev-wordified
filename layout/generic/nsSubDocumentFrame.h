@@ -937,6 +937,11 @@ ClearRetainedPaintData
 )
 ;
 void
+MaybeUpdateEmbedderColorScheme
+(
+)
+;
+void
 PropagateIsUnderHiddenEmbedderElementToSubView
 (
 bool

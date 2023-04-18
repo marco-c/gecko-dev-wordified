@@ -1967,6 +1967,15 @@ GetExplicitActive
 ;
 txn
 .
+SetEmbedderColorScheme
+(
+GetEmbedderColorScheme
+(
+)
+)
+;
+txn
+.
 SetHasRestoreData
 (
 GetHasRestoreData
