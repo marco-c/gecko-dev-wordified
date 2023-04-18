@@ -898,6 +898,11 @@ isFissionEnabled
 isServerTargetSwitchingEnabled
 (
 )
+|
+|
+isEveryFrameTargetEnabled
+(
+)
 )
 {
 /
