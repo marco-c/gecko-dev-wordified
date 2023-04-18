@@ -291,6 +291,17 @@ ByteBuf
 aBuf
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvInitCompleted
+(
+)
+;
 void
 ActorDestroy
 (
