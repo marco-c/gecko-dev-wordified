@@ -56399,6 +56399,9 @@ supportedCountries
 "
 US
 CA
+UK
+FR
+DE
 "
 )
 ;
