@@ -5676,6 +5676,9 @@ true
 should_snap
 :
 true
+paired_with_perspective
+:
+false
 }
 bounds
 .
@@ -12636,6 +12639,9 @@ true
 should_snap
 :
 true
+paired_with_perspective
+:
+false
 }
 LayoutVector2D
 :

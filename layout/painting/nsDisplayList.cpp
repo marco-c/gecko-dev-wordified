@@ -38846,6 +38846,10 @@ mHasTransformGetter
 (
 false
 )
+mHasAssociatedPerspective
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -38911,6 +38915,10 @@ mIsTransformSeparator
 false
 )
 mHasTransformGetter
+(
+false
+)
+mHasAssociatedPerspective
 (
 false
 )
@@ -38991,6 +38999,10 @@ false
 mHasTransformGetter
 (
 true
+)
+mHasAssociatedPerspective
+(
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -43620,6 +43632,12 @@ PrimitiveFlags
 {
 0
 }
+;
+params
+.
+paired_with_perspective
+=
+mHasAssociatedPerspective
 ;
 params
 .

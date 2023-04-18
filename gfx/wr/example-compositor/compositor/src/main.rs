@@ -1132,6 +1132,9 @@ false
 should_snap
 :
 false
+paired_with_perspective
+:
+false
 }
 SpatialTreeItemKey
 :
