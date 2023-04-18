@@ -517,11 +517,6 @@ id
 "
 cmd_delete
 "
-internal
-=
-"
-true
-"
 /
 >
 <
