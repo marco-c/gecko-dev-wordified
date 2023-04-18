@@ -94,11 +94,6 @@ TestBreak
 .
 cpp
 "
-"
-TestSegmenter
-.
-cpp
-"
 ]
 FINAL_LIBRARY
 =
