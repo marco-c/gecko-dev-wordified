@@ -3155,6 +3155,17 @@ InstallIntent
 .
 YES
         
+aab
+=
+kwargs
+.
+get
+(
+"
+aab
+"
+)
+        
 #
 verify
 installation
@@ -3179,6 +3190,10 @@ True
 app
 =
 app
+            
+aab
+=
+aab
             
 device_serial
 =
