@@ -399,13 +399,6 @@ return
 nullptr
 ;
 }
-compositor
--
->
-UseForSoftwareWebRender
-(
-)
-;
 return
 MakeUnique
 <
