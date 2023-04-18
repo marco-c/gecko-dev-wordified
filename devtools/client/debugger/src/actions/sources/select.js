@@ -118,7 +118,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 tabs
 "
