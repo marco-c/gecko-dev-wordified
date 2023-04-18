@@ -3272,7 +3272,7 @@ false
 )
 grayBitsValid
 (
-false
+true
 )
 majorGCTriggerReason
 (
