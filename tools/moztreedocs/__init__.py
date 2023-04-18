@@ -371,8 +371,29 @@ specific
 subtree
 .
             
+#
+topsrcdir
+always
+uses
+POSIX
+-
+style
+path
+normalize
+it
+for
+proper
+comparison
+.
+            
 absdir
 =
+os
+.
+path
+.
+normpath
+(
 os
 .
 path
@@ -384,6 +405,7 @@ build
 topsrcdir
 reldir
 value
+)
 )
             
 if
