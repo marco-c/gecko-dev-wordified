@@ -1023,6 +1023,9 @@ browser
 .
 goBack
 (
+aData
+.
+userInteraction
 )
 ;
 break
@@ -1040,6 +1043,9 @@ browser
 .
 goForward
 (
+aData
+.
+userInteraction
 )
 ;
 break
