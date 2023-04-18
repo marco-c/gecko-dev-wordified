@@ -515,9 +515,6 @@ ConsumeToken
 nsScanner
 &
 aScanner
-bool
-&
-aFlushTokens
 )
 {
 return

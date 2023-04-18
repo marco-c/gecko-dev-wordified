@@ -8625,9 +8625,6 @@ ConsumeToken
 nsScanner
 &
 aScanner
-bool
-&
-aFlushTokens
 )
 {
 /
