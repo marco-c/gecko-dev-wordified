@@ -14,6 +14,10 @@ Write
 /
 Internal
 use
+crate
+:
+:
+{
 app
 :
 :
@@ -21,9 +25,8 @@ parser
 :
 :
 Parser
-;
-use
 INTERNAL_ERROR_MSG
+}
 ;
 pub
 struct
@@ -92,8 +95,6 @@ Self
 {
 ElvishGen
 {
-p
-:
 p
 }
 }

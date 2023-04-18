@@ -383,7 +383,6 @@ Ok
 (
 parse_cooked_content
 (
-&
 s
 )
 )
@@ -861,7 +860,6 @@ rest
 =
 backslash_x
 (
-&
 s
 )
 ;
@@ -892,7 +890,6 @@ rest
 =
 backslash_u
 (
-&
 s
 )
 ;

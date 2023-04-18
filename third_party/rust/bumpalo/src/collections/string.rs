@@ -7937,7 +7937,7 @@ str
 .
 This
 is
-analagous
+analogous
 to
 /
 /

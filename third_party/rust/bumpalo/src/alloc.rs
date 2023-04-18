@@ -432,7 +432,7 @@ the
 &
 -
 mask
-wth
+with
 !
 (
 align

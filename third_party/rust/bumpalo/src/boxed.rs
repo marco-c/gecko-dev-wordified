@@ -6124,7 +6124,7 @@ This
 impl
 replaces
 unsize
-coersion
+coercion
 .
 impl
 <
@@ -6229,7 +6229,7 @@ This
 impl
 replaces
 unsize
-coersion
+coercion
 .
 impl
 <
