@@ -6258,17 +6258,6 @@ list
 nr_ice_cand_pair_head
 old_checklist
 ;
-assert
-(
-stream
--
->
-ice_state
-!
-=
-NR_ICE_MEDIA_STREAM_UNPAIRED
-)
-;
 /
 *
 Move
