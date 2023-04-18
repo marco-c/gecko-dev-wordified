@@ -226,7 +226,6 @@ open
 "
 ASHMEM_NAME_DEF
 O_RDWR
-0600
 )
 ;
 if
