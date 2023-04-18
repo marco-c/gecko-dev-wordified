@@ -3015,6 +3015,16 @@ mAudioQueue
 IsFinished
 (
 )
+&
+&
+mAudioQueue
+.
+GetSize
+(
+)
+=
+=
+0
 )
 {
 /
