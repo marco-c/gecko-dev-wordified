@@ -89,6 +89,7 @@ import
 download_file
 install_package
 get_output_dir
+ON_TRY
 from
 mozprocess
 import
@@ -1039,12 +1040,6 @@ driver
 "
 -
 -
-local
-"
-            
-"
--
--
 topsrcdir
 =
 "
@@ -1087,6 +1082,24 @@ directory
 )
         
 ]
+        
+if
+not
+ON_TRY
+:
+            
+command
+.
+extend
+(
+[
+"
+-
+-
+local
+"
+]
+)
         
 if
 metadata

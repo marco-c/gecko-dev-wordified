@@ -2304,8 +2304,6 @@ screenshots
 "
 )
 ;
-break
-;
 }
 }
 }
