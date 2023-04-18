@@ -965,14 +965,6 @@ get
 )
 ;
 }
-void
-GetFileName
-(
-nsACString
-&
-aFileName
-)
-;
 /
 /
 /
