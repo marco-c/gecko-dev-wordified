@@ -204,7 +204,7 @@ enum
 /
 /
 /
-Analagous
+Analogous
 to
 syn
 :

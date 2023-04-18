@@ -1598,7 +1598,7 @@ Unexpected
 end
 of
 hex
-excape
+escape
 .
 UnexpectedEndOfHexEscape
 /

@@ -7,7 +7,7 @@ constants
 :
 :
 {
-MAX_PRECISION
+MAX_PRECISION_U32
 POWERS_10
 U32_MASK
 }
@@ -1128,7 +1128,7 @@ u32
 if
 final_scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 {
 let
 mut
@@ -1158,7 +1158,7 @@ scale
 while
 final_scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 &
 &
 !
@@ -1187,7 +1187,7 @@ final_scale
 if
 final_scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 {
 /
 /
@@ -1579,12 +1579,12 @@ number
 if
 final_scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 {
 final_scale
 -
 =
-MAX_PRECISION
+MAX_PRECISION_U32
 ;
 /
 /
@@ -1813,7 +1813,7 @@ u64_result
 }
 final_scale
 =
-MAX_PRECISION
+MAX_PRECISION_U32
 ;
 }
 return
@@ -2682,7 +2682,7 @@ of
 if
 final_scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 {
 /
 /
@@ -2710,7 +2710,7 @@ result
 while
 final_scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 &
 &
 !
@@ -2774,7 +2774,7 @@ representing
 if
 final_scale
 >
-MAX_PRECISION
+MAX_PRECISION_U32
 {
 final_scale
 =
@@ -4709,7 +4709,6 @@ target
 .
 copy_from_slice
 (
-&
 temp
 )
 ;
@@ -4887,7 +4886,6 @@ target
 .
 copy_from_slice
 (
-&
 temp
 )
 ;
@@ -5045,7 +5043,6 @@ target
 .
 copy_from_slice
 (
-&
 temp
 )
 ;

@@ -1589,7 +1589,7 @@ map
 |
 (
 t
-d
+p
 )
 |
 Pair
@@ -1598,7 +1598,7 @@ Pair
 Punctuated
 (
 t
-d
+p
 )
 )
 }
@@ -6916,13 +6916,13 @@ Pair
 Punctuated
 (
 _
-d
+p
 )
 =
 >
 Some
 (
-d
+p
 )
 Pair
 :
@@ -6965,7 +6965,7 @@ new
 t
 :
 T
-d
+p
 :
 Option
 <
@@ -6977,11 +6977,11 @@ P
 Self
 {
 match
-d
+p
 {
 Some
 (
-d
+p
 )
 =
 >
@@ -6991,7 +6991,7 @@ Pair
 Punctuated
 (
 t
-d
+p
 )
 None
 =
@@ -7052,7 +7052,7 @@ Pair
 Punctuated
 (
 t
-d
+p
 )
 =
 >
@@ -7060,7 +7060,7 @@ d
 t
 Some
 (
-d
+p
 )
 )
 Pair

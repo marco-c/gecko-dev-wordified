@@ -5,7 +5,7 @@ crate
 constants
 :
 :
-MAX_PRECISION
+MAX_PRECISION_U32
 ;
 use
 alloc
@@ -175,7 +175,6 @@ f
 .
 pad
 (
-&
 err
 )
 Self
@@ -245,8 +244,10 @@ f
 "
 Scale
 exceeds
+the
 maximum
 precision
+allowed
 :
 {
 }
@@ -255,7 +256,7 @@ precision
 }
 "
 scale
-MAX_PRECISION
+MAX_PRECISION_U32
 )
 }
 }

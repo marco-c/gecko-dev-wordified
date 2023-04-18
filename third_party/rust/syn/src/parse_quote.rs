@@ -737,17 +737,6 @@ crate
 __private
 :
 :
-From
-:
-:
-from
-(
-crate
-:
-:
-__private
-:
-:
 quote
 :
 :
@@ -758,7 +747,6 @@ quote
 tt
 )
 *
-)
 )
 )
 }

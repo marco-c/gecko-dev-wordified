@@ -117,7 +117,7 @@ is
 the
 sum
 of
-lenghts
+lengths
 /
 /
 /

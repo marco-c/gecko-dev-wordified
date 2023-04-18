@@ -268,6 +268,9 @@ pretend_used
 (
 &
 cont
+params
+.
+is_packed
 )
 ;
 quote
@@ -6943,7 +6946,6 @@ get_member
 (
 params
 field
-&
 member
 )
 }

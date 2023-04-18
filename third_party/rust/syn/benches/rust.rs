@@ -407,13 +407,14 @@ None
 rustc_span
 :
 :
-with_session_globals
+create_session_if_not_set_then
 (
 Edition
 :
 :
 Edition2018
 |
+_
 |
 {
 let

@@ -144,7 +144,7 @@ u8
 ;
 unsafe
 {
-asm
+llvm_asm
 !
 (
 "
@@ -213,7 +213,7 @@ u8
 {
 unsafe
 {
-asm
+llvm_asm
 !
 (
 "
@@ -307,7 +307,7 @@ u16
 ;
 unsafe
 {
-asm
+llvm_asm
 !
 (
 "
@@ -376,7 +376,7 @@ u16
 {
 unsafe
 {
-asm
+llvm_asm
 !
 (
 "
@@ -470,7 +470,7 @@ u32
 ;
 unsafe
 {
-asm
+llvm_asm
 !
 (
 "
@@ -539,7 +539,7 @@ u32
 {
 unsafe
 {
-asm
+llvm_asm
 !
 (
 "
