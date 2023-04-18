@@ -2596,17 +2596,6 @@ IsWebMEnabled
 (
 )
 ;
-#
-ifdef
-MOZ_WMF
-static
-bool
-IsWMFEnabled
-(
-)
-;
-#
-endif
 /
 /
 Return
