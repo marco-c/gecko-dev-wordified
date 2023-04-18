@@ -165,6 +165,13 @@ h
 "
 src
 /
+DisplayNames
+.
+h
+"
+"
+src
+/
 FormatBuffer
 .
 h
@@ -367,6 +374,13 @@ cpp
 src
 /
 DateTimePatternGenerator
+.
+cpp
+"
+"
+src
+/
+DisplayNames
 .
 cpp
 "

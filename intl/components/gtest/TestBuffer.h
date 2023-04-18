@@ -798,6 +798,11 @@ PM
 "
 *
 /
+[
+[
+nodiscard
+]
+]
 bool
 verboseMatches
 (
