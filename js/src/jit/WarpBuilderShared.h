@@ -2265,6 +2265,8 @@ CallInfo
 &
 callInfo
 bool
+needsThisCheck
+bool
 isSameRealm
 =
 false

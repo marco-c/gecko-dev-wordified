@@ -25845,6 +25845,7 @@ makeSpreadCall
 (
 *
 callInfo_
+needsThisCheck
 flags
 .
 isSameRealm
