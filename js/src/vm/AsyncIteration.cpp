@@ -1801,7 +1801,7 @@ nodiscard
 ]
 static
 bool
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 JSContext
 *
@@ -1869,7 +1869,7 @@ Steps
 3
 .
 return
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 cx
 args
@@ -1948,7 +1948,7 @@ Steps
 3
 .
 return
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 cx
 args
@@ -2027,7 +2027,7 @@ Steps
 3
 .
 return
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 cx
 args
@@ -4287,7 +4287,7 @@ nodiscard
 ]
 static
 bool
-AsyncGeneratorEnqueue
+AsyncGeneratorMethodCommon
 (
 JSContext
 *
