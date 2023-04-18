@@ -7254,8 +7254,6 @@ GetMediaDevices
 MediaEngine
 *
 aEngine
-uint64_t
-aWindowId
 MediaSourceEnum
 aSrcType
 MediaManager
@@ -7292,12 +7290,6 @@ aEngine
 =
 %
 p
-aWindowId
-=
-%
-"
-PRIu64
-"
 aSrcType
 =
 %
@@ -7311,7 +7303,6 @@ s
 "
 __func__
 aEngine
-aWindowId
 static_cast
 <
 uint8_t
@@ -7342,7 +7333,6 @@ aEngine
 >
 EnumerateDevices
 (
-aWindowId
 aSrcType
 MediaSinkEnum
 :
@@ -11533,8 +11523,6 @@ MediaManager
 :
 EnumerateRawDevices
 (
-uint64_t
-aWindowId
 MediaSourceEnum
 aVideoInputType
 MediaSourceEnum
@@ -11811,12 +11799,6 @@ LOG
 %
 s
 :
-aWindowId
-=
-%
-"
-PRIu64
-"
 aVideoInputType
 =
 %
@@ -11841,7 +11823,6 @@ aAudioInputEnumType
 "
 PRIu8
 __func__
-aWindowId
 static_cast
 <
 uint8_t
@@ -12112,7 +12093,6 @@ move
 (
 holder
 )
-aWindowId
 aVideoInputType
 aAudioInputType
 aVideoInputEnumType
@@ -12185,10 +12165,7 @@ GetIfExists
 MOZ_RELEASE_ASSERT
 (
 manager
-)
-;
-/
-/
+"
 Must
 exist
 while
@@ -12196,6 +12173,9 @@ media
 thread
 is
 alive
+"
+)
+;
 realBackend
 =
 manager
@@ -12283,7 +12263,6 @@ real
 GetMediaDevices
 (
 videoBackend
-aWindowId
 aVideoInputType
 videos
 videoLoopDev
@@ -12355,7 +12334,6 @@ real
 GetMediaDevices
 (
 audioBackend
-aWindowId
 aAudioInputType
 audios
 audioLoopDev
@@ -12427,7 +12405,6 @@ realBackend
 >
 EnumerateDevices
 (
-aWindowId
 MediaSourceEnum
 :
 :
@@ -12532,9 +12509,9 @@ groupIds
 We
 use
 the
+/
+/
 backend
-/
-/
 of
 the
 camera
@@ -12546,11 +12523,11 @@ on
 devices
 in
 the
+/
+/
 same
 scope
 .
-/
-/
 If
 we
 don
@@ -12564,10 +12541,10 @@ only
 getUserMedia
 will
 not
+/
+/
 apply
 groupId
-/
-/
 constraints
 to
 the
@@ -12577,10 +12554,10 @@ of
 groupIds
 as
 gets
+/
+/
 returned
 by
-/
-/
 enumerateDevices
 .
 if
@@ -12604,9 +12581,9 @@ for
 the
 cameras
 have
+/
+/
 already
-/
-/
 been
 enumerated
 .
@@ -12629,7 +12606,6 @@ else
 GetMediaDevices
 (
 videoBackend
-aWindowId
 MediaSourceEnum
 :
 :
@@ -12664,9 +12640,9 @@ there
 could
 also
 be
+/
+/
 speakers
-/
-/
 to
 correlate
 with
@@ -12715,7 +12691,6 @@ realBackend
 >
 EnumerateDevices
 (
-aWindowId
 MediaSourceEnum
 :
 :
@@ -15090,7 +15065,6 @@ __func__
 return
 EnumerateRawDevices
 (
-0
 MediaSourceEnum
 :
 :
@@ -20394,7 +20368,6 @@ mgr
 >
 EnumerateRawDevices
 (
-windowId
 aVideoInputType
 aAudioInputType
 aAudioOutputType

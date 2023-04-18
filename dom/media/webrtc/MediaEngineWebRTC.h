@@ -457,8 +457,6 @@ SupportsDuplex
 void
 EnumerateDevices
 (
-uint64_t
-aWindowId
 dom
 :
 :
@@ -501,8 +499,6 @@ default
 void
 EnumerateVideoDevices
 (
-uint64_t
-aWindowId
 camera
 :
 :
@@ -521,8 +517,6 @@ MediaDevice
 void
 EnumerateMicrophoneDevices
 (
-uint64_t
-aWindowId
 nsTArray
 <
 RefPtr
@@ -536,8 +530,6 @@ MediaDevice
 void
 EnumerateSpeakerDevices
 (
-uint64_t
-aWindowId
 nsTArray
 <
 RefPtr

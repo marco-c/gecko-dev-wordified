@@ -474,8 +474,6 @@ MediaEngineWebRTC
 :
 EnumerateVideoDevices
 (
-uint64_t
-aWindowId
 camera
 :
 :
@@ -1124,8 +1122,6 @@ MediaEngineWebRTC
 :
 EnumerateMicrophoneDevices
 (
-uint64_t
-aWindowId
 nsTArray
 <
 RefPtr
@@ -1540,8 +1536,6 @@ MediaEngineWebRTC
 :
 EnumerateSpeakerDevices
 (
-uint64_t
-aWindowId
 nsTArray
 <
 RefPtr
@@ -1795,8 +1789,6 @@ MediaEngineWebRTC
 :
 EnumerateDevices
 (
-uint64_t
-aWindowId
 dom
 :
 :
@@ -1916,7 +1908,6 @@ testing
 .
 EnumerateVideoDevices
 (
-aWindowId
 camera
 :
 :
@@ -1926,7 +1917,6 @@ aDevices
 ;
 EnumerateVideoDevices
 (
-aWindowId
 camera
 :
 :
@@ -1936,7 +1926,6 @@ aDevices
 ;
 EnumerateVideoDevices
 (
-aWindowId
 camera
 :
 :
@@ -1957,7 +1946,6 @@ Screen
 :
 EnumerateVideoDevices
 (
-aWindowId
 camera
 :
 :
@@ -1978,7 +1966,6 @@ Browser
 :
 EnumerateVideoDevices
 (
-aWindowId
 camera
 :
 :
@@ -1999,7 +1986,6 @@ Camera
 :
 EnumerateVideoDevices
 (
-aWindowId
 camera
 :
 :
@@ -2109,7 +2095,6 @@ Microphone
 {
 EnumerateMicrophoneDevices
 (
-aWindowId
 aDevices
 )
 ;
@@ -2127,7 +2112,6 @@ Speaker
 {
 EnumerateSpeakerDevices
 (
-aWindowId
 aDevices
 )
 ;

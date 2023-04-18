@@ -2882,8 +2882,6 @@ MediaEngineDefault
 :
 EnumerateDevices
 (
-uint64_t
-aWindowId
 MediaSourceEnum
 aMediaSource
 MediaSinkEnum
