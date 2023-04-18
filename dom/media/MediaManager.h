@@ -2182,6 +2182,9 @@ GetUserMediaRequest
 >
 mPendingGUMRequest
 ;
+TimeStamp
+mUnhandledDeviceChangeTime
+;
 RefPtr
 <
 MediaTimer
