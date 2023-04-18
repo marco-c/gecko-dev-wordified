@@ -30280,14 +30280,10 @@ IsGeneratedContentFrame
 const
 {
 return
+HasAnyStateBits
 (
-mState
-&
 NS_FRAME_GENERATED_CONTENT
 )
-!
-=
-0
 ;
 }
 /

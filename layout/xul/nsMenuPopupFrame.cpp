@@ -1416,14 +1416,8 @@ const
 return
 aStyle
 .
-StyleUI
+PointerEvents
 (
-)
--
->
-GetEffectivePointerEvents
-(
-this
 )
 =
 =
