@@ -333,6 +333,14 @@ f
 )
 ;
 int
+dav1d_decode_frame_init_cdf
+(
+Dav1dFrameContext
+*
+f
+)
+;
+int
 dav1d_decode_frame_main
 (
 Dav1dFrameContext
