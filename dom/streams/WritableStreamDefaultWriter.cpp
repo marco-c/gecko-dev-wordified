@@ -211,6 +211,17 @@ mozilla
 /
 dom
 /
+WritableStream
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WritableStreamDefaultWriterBinding
 .
 h
