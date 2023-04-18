@@ -327,6 +327,11 @@ ev
 FIRST_PAINT2
 )
 {
+bool
+error
+=
+false
+;
 uint32_t
 firstPaintTime
 =
@@ -341,6 +346,8 @@ TimeStamp
 :
 ProcessCreation
 (
+&
+error
 )
 )
 .
@@ -348,6 +355,12 @@ ToMilliseconds
 (
 )
 ;
+if
+(
+!
+error
+)
+{
 Telemetry
 :
 :
@@ -376,5 +389,6 @@ TIMESTAMPS_FIRST_PAINT_TWO
 firstPaintTime
 )
 ;
+}
 }
 }
