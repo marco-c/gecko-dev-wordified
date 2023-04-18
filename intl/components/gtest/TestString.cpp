@@ -1558,6 +1558,8 @@ accented
 form
 is
 not
+/
+/
 available
 ASSERT_EQ
 (
@@ -1598,10 +1600,10 @@ the
 decomposition
 <
 0308
+/
+/
 0301
 >
-/
-/
 (
 see
 below

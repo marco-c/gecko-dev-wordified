@@ -214,6 +214,10 @@ GC
 ;
 }
 }
+/
+/
+namespace
+js
 struct
 Cell
 {
