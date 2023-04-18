@@ -1106,11 +1106,6 @@ GtkCSDHideTitlebarByDefault
 "
 ui
 .
-GtkCSDTransparentBackground
-"
-"
-ui
-.
 GtkCSDMinimizeButton
 "
 "
