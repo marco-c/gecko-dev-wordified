@@ -322,8 +322,6 @@ nsIXULRuntime
 :
 :
 PROCESS_TYPE_DEFAULT
-as
-u32
 ;
 if
 unsafe
@@ -351,8 +349,6 @@ nsIXULRuntime
 :
 :
 PROCESS_TYPE_DEFAULT
-as
-u32
 }
 pub
 fn
@@ -372,8 +368,6 @@ nsIXULRuntime
 :
 :
 PROCESS_TYPE_DEFAULT
-as
-u32
 }
 pub
 fn

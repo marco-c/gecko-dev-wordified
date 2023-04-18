@@ -401,8 +401,6 @@ nsIRunnablePriority
 :
 :
 PRIORITY_NORMAL
-as
-u32
 options
 :
 DispatchOptions

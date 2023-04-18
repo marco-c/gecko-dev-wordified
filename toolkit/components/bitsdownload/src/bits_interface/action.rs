@@ -332,9 +332,6 @@ self
 >
 i32
 {
-let
-val
-=
 match
 self
 {
@@ -429,10 +426,6 @@ nsIBits
 :
 ERROR_ACTION_SUSPEND
 }
-;
-val
-as
-i32
 }
 }
 #

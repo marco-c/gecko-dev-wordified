@@ -842,8 +842,6 @@ nsIXULRuntime
 :
 :
 PROCESS_TYPE_DEFAULT
-as
-u32
 )
 ;
 /
@@ -960,8 +958,6 @@ nsIXULRuntime
 :
 :
 PROCESS_TYPE_DEFAULT
-as
-u32
 }
 /
 /

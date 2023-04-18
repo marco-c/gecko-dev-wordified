@@ -2119,8 +2119,6 @@ nsICertStorage
 :
 :
 DATA_TYPE_CRLITE_FILTER_FULL
-as
-u8
 {
 return
 Ok
@@ -2143,8 +2141,6 @@ nsICertStorage
 :
 :
 DATA_TYPE_CRLITE_FILTER_INCREMENTAL
-as
-u8
 {
 return
 Ok
@@ -2664,8 +2660,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 Err
 (
 _
@@ -2707,8 +2701,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 {
 return
 Ok
@@ -2751,8 +2743,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 )
 Err
 (
@@ -2887,8 +2877,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 )
 Err
 (
@@ -3211,8 +3199,6 @@ nsICertStorage
 :
 :
 DATA_TYPE_CRLITE_FILTER_FULL
-as
-u8
 ]
 )
 &
@@ -3859,8 +3845,6 @@ nsICertStorage
 :
 :
 DATA_TYPE_CRLITE_FILTER_FULL
-as
-u8
 ]
 )
 )
@@ -3928,8 +3912,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 )
 )
 Ok
@@ -4007,8 +3989,6 @@ nsICertStorage
 :
 :
 STATE_ENFORCE
-as
-i16
 {
 return
 Ok
@@ -4019,8 +3999,6 @@ nsICertStorage
 :
 :
 STATE_NOT_ENROLLED
-as
-i16
 )
 )
 ;
@@ -4172,8 +4150,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 )
 )
 }
@@ -4192,8 +4168,6 @@ nsICertStorage
 :
 :
 STATE_ENFORCE
-as
-i16
 )
 )
 false
@@ -4207,8 +4181,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 )
 )
 }
@@ -4727,8 +4699,6 @@ nsICertStorage
 :
 :
 DATA_TYPE_CERTIFICATE
-as
-u8
 ]
 )
 &
@@ -11930,8 +11900,6 @@ nsICertStorage
 :
 :
 DATA_TYPE_REVOCATION
-as
-u8
 )
 )
 )
@@ -12102,8 +12070,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 ;
 let
 ss
@@ -12498,8 +12464,6 @@ nsICertStorage
 :
 :
 DATA_TYPE_CRLITE
-as
-u8
 )
 )
 )
@@ -12640,8 +12604,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 ;
 let
 ss
@@ -13214,8 +13176,6 @@ nsICertStorage
 :
 :
 STATE_UNSET
-as
-i16
 ;
 let
 ss
@@ -14351,14 +14311,10 @@ nsIMemoryReporter
 :
 :
 KIND_HEAP
-as
-i32
 nsIMemoryReporter
 :
 :
 UNITS_BYTES
-as
-i32
 size
 as
 i64

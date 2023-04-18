@@ -1147,8 +1147,6 @@ nsIEventTarget
 :
 :
 DISPATCH_NORMAL
-as
-u32
 )
 }
 }
@@ -1275,8 +1273,6 @@ nsIEventTarget
 :
 :
 DISPATCH_EVENT_MAY_BLOCK
-as
-u32
 ;
 if
 may_block
@@ -1434,8 +1430,6 @@ nsIEventTarget
 :
 :
 DISPATCH_AT_END
-as
-u32
 ;
 if
 may_block
