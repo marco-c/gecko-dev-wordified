@@ -627,11 +627,17 @@ evaluate
 .
 fromJSON
 (
+{
+obj
+:
 args
 seenEls
+win
+:
 container
 .
 frame
+}
 )
 ;
 if
@@ -646,7 +652,7 @@ touchId
 =
 this
 .
-nextTouchId
+nextTSouchId
 +
 +
 ;
