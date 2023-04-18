@@ -424,6 +424,15 @@ prefSerializer
 >
 SerializeToSharedMemory
 (
+GeckoProcessType_IPDLUnitTest
+/
+*
+remoteType
+*
+/
+"
+"
+_ns
 )
 )
 {
