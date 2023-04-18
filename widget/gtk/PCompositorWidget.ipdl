@@ -118,6 +118,15 @@ include
 protocol
 PCompositorBridge
 ;
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :

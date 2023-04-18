@@ -113,6 +113,15 @@ PVRManager
 ;
 include
 "
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
+include
+"
 VRLayerChild
 .
 h
