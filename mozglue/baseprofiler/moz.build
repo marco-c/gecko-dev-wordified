@@ -787,6 +787,13 @@ h
 "
 public
 /
+ProfileChunkedBufferDetail
+.
+h
+"
+"
+public
+/
 ProgressLogger
 .
 h
