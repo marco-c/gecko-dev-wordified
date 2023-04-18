@@ -1826,7 +1826,7 @@ template
 class
 Derived
 >
-nsIntRect
+LayoutDeviceIntRect
 RemoteAccessibleBase
 <
 Derived
@@ -1864,7 +1864,7 @@ bounds
 *
 maybeBounds
 ;
-nsIntRect
+LayoutDeviceIntRect
 devPxBounds
 ;
 dom
@@ -1986,7 +1986,7 @@ in
 dev
 pixels
 .
-nsIntRect
+LayoutDeviceIntRect
 localBounds
 =
 localAcc
@@ -2011,10 +2011,12 @@ dev
 pixels
 devPxBounds
 =
-bounds
-.
-ToNearestPixels
+LayoutDeviceIntRect
+:
+:
+FromAppUnitsToNearest
 (
+bounds
 presContext
 -
 >
@@ -2544,10 +2546,12 @@ MoveBy
 (
 -
 (
-viewportOffset
-.
-ToNearestPixels
+LayoutDeviceIntPoint
+:
+:
+FromAppUnitsToNearest
 (
+viewportOffset
 presContext
 -
 >
@@ -2564,7 +2568,7 @@ devPxBounds
 }
 }
 return
-nsIntRect
+LayoutDeviceIntRect
 (
 )
 ;

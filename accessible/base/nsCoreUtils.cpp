@@ -1858,7 +1858,7 @@ nsIFrame
 *
 aFrame
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
@@ -1882,6 +1882,9 @@ return
 nsPoint
 point
 =
+LayoutDeviceIntPoint
+:
+:
 ToAppUnits
 (
 aPoint
@@ -2200,7 +2203,7 @@ whenX
 )
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 nsCoreUtils
 :
 :
@@ -2211,7 +2214,7 @@ nsINode
 aNode
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 coords
 (
 0

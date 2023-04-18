@@ -1384,7 +1384,7 @@ return
 state
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 RemoteAccessible
 :
 :
@@ -1415,7 +1415,7 @@ Bounds
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 RefPtr

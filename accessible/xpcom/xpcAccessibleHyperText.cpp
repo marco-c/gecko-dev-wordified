@@ -1296,7 +1296,7 @@ mIntl
 return
 NS_ERROR_FAILURE
 ;
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 if
@@ -1437,7 +1437,7 @@ mIntl
 return
 NS_ERROR_FAILURE
 ;
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 if

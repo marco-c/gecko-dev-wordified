@@ -465,7 +465,10 @@ State
 )
 ;
 }
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 RemoteAccessibleWrap
 :
 :

@@ -678,7 +678,7 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_PARENT_RELATIVE
 ;
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 auto
