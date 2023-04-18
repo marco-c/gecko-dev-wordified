@@ -574,6 +574,11 @@ crashTabTestHelper
 {
 }
 {
+SubmittedFrom
+:
+"
+CrashedTab
+"
 Comments
 :
 null
@@ -611,6 +616,11 @@ await
 crashTabTestHelper
 (
 {
+SubmittedFrom
+:
+"
+CrashedTab
+"
 comments
 :
 COMMENTS
@@ -662,6 +672,11 @@ await
 crashTabTestHelper
 (
 {
+SubmittedFrom
+:
+"
+CrashedTab
+"
 includeURL
 :
 true
@@ -706,6 +721,11 @@ await
 crashTabTestHelper
 (
 {
+SubmittedFrom
+:
+"
+CrashedTab
+"
 includeURL
 :
 true
