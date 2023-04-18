@@ -1619,16 +1619,6 @@ break
 ;
 default
 :
-NS_WARNING
-(
-"
-Unknown
-color
-for
-nsLookAndFeel
-"
-)
-;
 idx
 =
 COLOR_WINDOW
