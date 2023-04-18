@@ -19062,9 +19062,6 @@ mModuleScript
 {
 rv
 =
-mLoader
--
->
 EvaluateModule
 (
 aRequest
@@ -20873,6 +20870,9 @@ IsModuleRequest
 )
 {
 return
+mModuleLoader
+-
+>
 EvaluateModule
 (
 globalObject
@@ -20889,7 +20889,7 @@ aRequest
 ;
 }
 nsresult
-ScriptLoader
+ModuleLoader
 :
 :
 EvaluateModule
@@ -21140,9 +21140,6 @@ IsDynamicImport
 )
 )
 {
-mModuleLoader
--
->
 FinishDynamicImport
 (
 cx
@@ -21183,9 +21180,6 @@ module
 nsresult
 rv
 =
-mModuleLoader
--
->
 InitDebuggerDataForModuleTree
 (
 cx
@@ -21441,9 +21435,6 @@ IsDynamicImport
 )
 )
 {
-mModuleLoader
--
->
 FinishDynamicImport
 (
 cx
@@ -22537,7 +22528,7 @@ rv
 ;
 }
 nsresult
-ScriptLoader
+ModuleLoader
 :
 :
 EvaluateModule
@@ -22553,6 +22544,9 @@ nsIGlobalObject
 >
 globalObject
 =
+mLoader
+-
+>
 GetGlobalForRequest
 (
 aRequest
