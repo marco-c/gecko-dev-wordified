@@ -894,7 +894,7 @@ bool
 StoragePrincipalHelper
 :
 :
-VerifyValidStoragePrincipalInfoForPrincipalInfo
+VerifyValidPartitionedPrincipalInfoForPrincipalInfo
 (
 const
 mozilla
@@ -905,7 +905,7 @@ ipc
 :
 PrincipalInfo
 &
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 const
 mozilla
 :
@@ -916,11 +916,13 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
+bool
+aIgnoreSpecForContentPrincipal
 )
 {
 if
 (
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 .
 type
 (
@@ -940,7 +942,7 @@ false
 }
 if
 (
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 .
 type
 (
@@ -970,7 +972,7 @@ ContentPrincipalInfo
 &
 spInfo
 =
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 .
 get_ContentPrincipalInfo
 (
@@ -1002,7 +1004,7 @@ attrs
 (
 )
 .
-EqualsIgnoringFPD
+EqualsIgnoringPartitionKey
 (
 pInfo
 .
@@ -1026,6 +1028,11 @@ originNoSuffix
 )
 |
 |
+(
+!
+aIgnoreSpecForContentPrincipal
+&
+&
 spInfo
 .
 spec
@@ -1037,6 +1044,7 @@ pInfo
 .
 spec
 (
+)
 )
 |
 |
@@ -1078,7 +1086,7 @@ true
 }
 if
 (
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 .
 type
 (
@@ -1110,7 +1118,7 @@ true
 }
 if
 (
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 .
 type
 (
@@ -1140,7 +1148,7 @@ NullPrincipalInfo
 &
 spInfo
 =
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 .
 get_NullPrincipalInfo
 (
@@ -1184,7 +1192,7 @@ attrs
 (
 )
 .
-EqualsIgnoringFPD
+EqualsIgnoringPartitionKey
 (
 pInfo
 .
@@ -1196,7 +1204,7 @@ attrs
 }
 if
 (
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 .
 type
 (
@@ -1226,7 +1234,7 @@ ExpandedPrincipalInfo
 &
 spInfo
 =
-aStoragePrincipalInfo
+aPartitionedPrincipalInfo
 .
 get_ExpandedPrincipalInfo
 (
@@ -1258,7 +1266,7 @@ attrs
 (
 )
 .
-EqualsIgnoringFPD
+EqualsIgnoringPartitionKey
 (
 pInfo
 .
@@ -1327,7 +1335,7 @@ i
 if
 (
 !
-VerifyValidStoragePrincipalInfoForPrincipalInfo
+VerifyValidPartitionedPrincipalInfoForPrincipalInfo
 (
 spInfo
 .
@@ -1345,6 +1353,7 @@ allowlist
 [
 i
 ]
+aIgnoreSpecForContentPrincipal
 )
 )
 {
