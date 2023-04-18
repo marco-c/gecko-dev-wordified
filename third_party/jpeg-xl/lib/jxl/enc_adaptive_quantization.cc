@@ -9890,7 +9890,12 @@ const
 size_t
 num_threads
 )
+-
+>
+Status
 {
+JXL_RETURN_IF_ERROR
+(
 dec_state
 -
 >
@@ -9907,6 +9912,7 @@ use_group_ids
 *
 /
 false
+)
 )
 ;
 group_dec_caches

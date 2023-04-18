@@ -726,6 +726,16 @@ data
 pos
 )
 ;
+/
+/
+'
+jbrd
+'
+is
+hardcoded
+for
+8bits
+:
 JXL_JPEG_VERIFY_INPUT
 (
 precision

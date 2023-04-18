@@ -676,14 +676,8 @@ out_callback
 =
 *
 /
-nullptr
-/
-*
-out_opaque
-=
-*
-/
-nullptr
+{
+}
 metadata
 .
 GetOrientation

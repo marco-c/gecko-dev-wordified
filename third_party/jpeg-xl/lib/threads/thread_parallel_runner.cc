@@ -554,6 +554,14 @@ if
 runner
 )
 {
+JxlMemoryManager
+local_memory_manager
+=
+runner
+-
+>
+memory_manager
+;
 /
 /
 Call
@@ -577,10 +585,7 @@ ThreadParallelRunner
 ThreadMemoryManagerFree
 (
 &
-runner
--
->
-memory_manager
+local_memory_manager
 runner
 )
 ;

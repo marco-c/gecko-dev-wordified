@@ -142,10 +142,8 @@ size_t
 xpos
 size_t
 ypos
-float
-*
-JXL_RESTRICT
-temp
+size_t
+thread_id
 )
 const
 final

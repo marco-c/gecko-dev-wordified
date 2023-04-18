@@ -306,14 +306,8 @@ out_callback
 =
 *
 /
-nullptr
-/
-*
-out_opaque
-=
-*
-/
-nullptr
+{
+}
 /
 *
 undo_orientation
