@@ -22052,12 +22052,13 @@ string
 ids
 if
 (
-JSID_IS_VOID
-(
 mStrIDs
 [
 0
 ]
+.
+isVoid
+(
 )
 )
 {

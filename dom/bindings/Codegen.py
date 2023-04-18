@@ -112658,9 +112658,6 @@ fill
         
 MOZ_ASSERT
 (
-JSID_IS_VOID
-(
-*
 reinterpret_cast
 <
 jsid
@@ -112669,6 +112666,10 @@ jsid
 (
 atomsCache
 )
+-
+>
+isVoid
+(
 )
 )
 ;
@@ -113396,9 +113397,6 @@ cx
                   
 if
 (
-JSID_IS_VOID
-(
-*
 reinterpret_cast
 <
 jsid
@@ -113407,6 +113405,10 @@ jsid
 (
 atomsCache
 )
+-
+>
+isVoid
+(
 )
 &
 &
@@ -114951,9 +114953,6 @@ cx
                 
 if
 (
-JSID_IS_VOID
-(
-*
 reinterpret_cast
 <
 jsid
@@ -114962,6 +114961,10 @@ jsid
 (
 atomsCache
 )
+-
+>
+isVoid
+(
 )
 &
 &
@@ -143648,9 +143651,6 @@ cx
 if
 (
 (
-JSID_IS_VOID
-(
-*
 reinterpret_cast
 <
 jsid
@@ -143659,6 +143659,10 @@ jsid
 (
 atomsCache
 )
+-
+>
+isVoid
+(
 )
 &
 &
@@ -144243,9 +144247,6 @@ cx
 if
 (
 (
-JSID_IS_VOID
-(
-*
 reinterpret_cast
 <
 jsid
@@ -144254,6 +144255,10 @@ jsid
 (
 atomsCache
 )
+-
+>
+isVoid
+(
 )
                  
 &
@@ -144492,9 +144497,6 @@ cx
 if
 (
 (
-JSID_IS_VOID
-(
-*
 reinterpret_cast
 <
 jsid
@@ -144503,6 +144505,10 @@ jsid
 (
 atomsCache
 )
+-
+>
+isVoid
+(
 )
 &
 &
