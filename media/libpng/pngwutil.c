@@ -2136,6 +2136,9 @@ png_ptr
 >
 zlib_strategy
 ;
+#
+ifdef
+PNG_WRITE_FILTER_SUPPORTED
 else
 if
 (
@@ -2151,6 +2154,8 @@ strategy
 =
 PNG_Z_DEFAULT_STRATEGY
 ;
+#
+endif
 else
 strategy
 =
@@ -5063,6 +5068,9 @@ do_filter
 PNG_NO_FILTERS
 )
 {
+#
+ifdef
+PNG_WRITE_FILTER_SUPPORTED
 if
 (
 png_ptr
@@ -5096,6 +5104,17 @@ do_filter
 =
 PNG_ALL_FILTERS
 ;
+#
+else
+png_ptr
+-
+>
+do_filter
+=
+PNG_FILTER_NONE
+;
+#
+endif
 }
 png_ptr
 -
