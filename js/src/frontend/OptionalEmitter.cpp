@@ -268,6 +268,9 @@ NULL
 OR
 -
 UNDEF
+return
+false
+;
 }
 if
 (
