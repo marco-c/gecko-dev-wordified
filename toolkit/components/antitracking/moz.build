@@ -183,11 +183,6 @@ URLDecorationAnnotationsService
 jsm
 "
 "
-URLQueryStrippingListProcessScript
-.
-js
-"
-"
 URLQueryStrippingListService
 .
 jsm
