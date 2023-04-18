@@ -15659,6 +15659,15 @@ inspector
 "
 )
 ;
+if
+(
+!
+inspector
+)
+{
+return
+;
+}
 inspector
 .
 addExtensionSidebar
