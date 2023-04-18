@@ -120,7 +120,7 @@ mozilla
 [
 ManualDealloc
 ]
-async
+sync
 protocol
 PSandboxTesting
 {
@@ -140,6 +140,18 @@ message
 async
 TestCompleted
 (
+)
+;
+sync
+GetSpecialDirectory
+(
+nsCString
+aSpecialDirName
+)
+returns
+(
+nsString
+aDirPath
 )
 ;
 child
