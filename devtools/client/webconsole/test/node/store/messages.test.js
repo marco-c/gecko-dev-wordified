@@ -40,7 +40,7 @@ getAllNetworkMessagesUpdateById
 getAllRepeatById
 getCurrentGroup
 getGroupsById
-getAllMessagesById
+getMutableMessagesById
 getVisibleMessages
 }
 =
@@ -196,7 +196,7 @@ setupActions
 describe
 (
 "
-messagesById
+mutableMessagesById
 "
 (
 )
@@ -421,7 +421,7 @@ packet2
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -627,7 +627,7 @@ packet
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -794,7 +794,7 @@ packet
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1000,7 +1000,7 @@ packet
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1162,7 +1162,7 @@ packet
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1285,7 +1285,7 @@ logKey
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1422,7 +1422,7 @@ undefined
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1530,7 +1530,7 @@ actions
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1636,7 +1636,7 @@ nanPacket
 let
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1717,7 +1717,7 @@ undefinedPacket
 ;
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1797,7 +1797,7 @@ nullPacket
 ;
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -1948,7 +1948,7 @@ packet2
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -2180,7 +2180,7 @@ message2
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -2287,7 +2287,7 @@ clear
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -2445,7 +2445,7 @@ getState
 ;
 expect
 (
-getAllMessagesById
+getMutableMessagesById
 (
 state
 )
@@ -2973,7 +2973,7 @@ packet
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -3397,7 +3397,7 @@ getState
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -3728,7 +3728,7 @@ getState
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -4071,7 +4071,7 @@ packetGroupEnd
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -4314,7 +4314,7 @@ message
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -4486,7 +4486,7 @@ message
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -4701,7 +4701,7 @@ length
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -4816,7 +4816,7 @@ test
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -4925,7 +4925,7 @@ message
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -5226,7 +5226,7 @@ state
 .
 expect
 (
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -8000,7 +8000,7 @@ data
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -8527,7 +8527,7 @@ dropped
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -8976,7 +8976,7 @@ logged
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (
@@ -9175,7 +9175,7 @@ id
 const
 messages
 =
-getAllMessagesById
+getMutableMessagesById
 (
 getState
 (

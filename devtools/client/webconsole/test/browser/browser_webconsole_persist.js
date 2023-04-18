@@ -1452,7 +1452,7 @@ url
 const
 {
 visibleMessages
-messagesById
+mutableMessagesById
 }
 =
 hud
@@ -1485,7 +1485,7 @@ at
 const
 lastMessage
 =
-messagesById
+mutableMessagesById
 .
 get
 (
