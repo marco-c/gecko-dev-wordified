@@ -34,6 +34,16 @@ oomAfterAllocations
 '
 in
 this
+&
+&
+this
+.
+hasOwnProperty
+(
+"
+ReadableStream
+"
+)
 )
 /
 /

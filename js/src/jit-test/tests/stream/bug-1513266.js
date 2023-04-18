@@ -28,6 +28,16 @@ oomTest
 '
 in
 this
+&
+&
+this
+.
+hasOwnProperty
+(
+"
+ReadableStream
+"
+)
 )
 ignoreUnhandledRejections
 (
