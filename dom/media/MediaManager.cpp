@@ -19265,7 +19265,7 @@ uint64_t
 aWindowId
 )
 {
-if
+MOZ_ASSERT
 (
 !
 aOriginKey
@@ -19274,7 +19274,7 @@ IsEmpty
 (
 )
 )
-{
+;
 for
 (
 RefPtr
@@ -19458,7 +19458,6 @@ rawGroupId
 name
 )
 ;
-}
 }
 }
 /
