@@ -2759,7 +2759,7 @@ u16Vec
 auto
 result
 =
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 u16Vec
 [
