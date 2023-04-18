@@ -225,12 +225,13 @@ MIDIPortList
 class
 Promise
 ;
-typedef
+using
+MIDIAccessDestructionObserver
+=
 Observer
 <
 void_t
 >
-MIDIAccessDestructionObserver
 ;
 /
 *
@@ -498,7 +499,7 @@ RemovePortListener
 (
 MIDIAccessDestructionObserver
 *
-aPort
+aObs
 )
 ;
 /

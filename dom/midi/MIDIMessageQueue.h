@@ -278,7 +278,7 @@ nsTArray
 MIDIMessage
 >
 &
-aMsgArray
+aMsgQueue
 )
 ;
 /
@@ -296,7 +296,7 @@ nsTArray
 MIDIMessage
 >
 &
-aMsgArray
+aMsgQueue
 )
 ;
 /
