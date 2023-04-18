@@ -3518,7 +3518,7 @@ this
 ;
 this
 .
-_impl
+_pc
 .
 initialize
 (
@@ -3561,52 +3561,6 @@ this
 initialized
 "
 )
-;
-}
-get
-_impl
-(
-)
-{
-if
-(
-!
-this
-.
-_pc
-)
-{
-throw
-new
-this
-.
-_win
-.
-DOMException
-(
-"
-RTCPeerConnection
-is
-gone
-(
-did
-you
-enter
-Offline
-mode
-?
-)
-"
-"
-InvalidStateError
-"
-)
-;
-}
-return
-this
-.
-_pc
 ;
 }
 getConfiguration
@@ -3706,7 +3660,7 @@ configWithPrefTweaks
 ;
 this
 .
-_impl
+_pc
 .
 setConfiguration
 (
@@ -3788,7 +3742,7 @@ _closed
 {
 this
 .
-_impl
+_pc
 .
 certificate
 =
@@ -6139,7 +6093,7 @@ reject
 ;
 this
 .
-_impl
+_pc
 .
 createOffer
 (
@@ -6400,7 +6354,7 @@ reject
 ;
 this
 .
-_impl
+_pc
 .
 createAnswer
 (
@@ -7003,7 +6957,7 @@ reject
 ;
 this
 .
-_impl
+_pc
 .
 setLocalDescription
 (
@@ -7088,7 +7042,7 @@ async
 Access
 this
 .
-_impl
+_pc
 synchronously
 in
 case
@@ -7101,7 +7055,7 @@ identity
 =
 this
 .
-_impl
+_pc
 .
 peerIdentity
 ;
@@ -7210,7 +7164,7 @@ event
 .
 this
 .
-_impl
+_pc
 .
 peerIdentity
 =
@@ -7381,7 +7335,7 @@ if
 !
 this
 .
-_impl
+_pc
 .
 peerIdentity
 )
@@ -7422,7 +7376,7 @@ if
 (
 this
 .
-_impl
+_pc
 .
 peerIdentity
 )
@@ -7600,7 +7554,7 @@ reject
 ;
 this
 .
-_impl
+_pc
 .
 setLocalDescription
 (
@@ -7693,7 +7647,7 @@ reject
 ;
 this
 .
-_impl
+_pc
 .
 setRemoteDescription
 (
@@ -7803,7 +7757,7 @@ peerIdentity
 |
 this
 .
-_impl
+_pc
 .
 peerIdentity
 ;
@@ -7839,7 +7793,7 @@ getIdentityAssertion
 (
 this
 .
-_impl
+_pc
 .
 fingerprint
 this
@@ -8230,7 +8184,7 @@ if
 !
 this
 .
-_impl
+_pc
 .
 pendingRemoteDescription
 .
@@ -8240,7 +8194,7 @@ length
 !
 this
 .
-_impl
+_pc
 .
 currentRemoteDescription
 .
@@ -8291,7 +8245,7 @@ reject
 ;
 this
 .
-_impl
+_pc
 .
 addIceCandidate
 (
@@ -8807,7 +8761,7 @@ transceiverImpl
 =
 this
 .
-_impl
+_pc
 .
 createTransceiverImpl
 (
@@ -8992,7 +8946,7 @@ withTrack
 {
 this
 .
-_impl
+_pc
 .
 replaceTrackNoRenegotiation
 (
@@ -9089,7 +9043,7 @@ setStopped
 }
 this
 .
-_impl
+_pc
 .
 close
 (
@@ -9100,11 +9054,6 @@ this
 _suppressEvents
 =
 true
-;
-delete
-this
-.
-_pc
 ;
 }
 getLocalStreams
@@ -9188,7 +9137,7 @@ _checkClosed
 return
 this
 .
-_impl
+_pc
 .
 getRemoteStreams
 (
@@ -9282,7 +9231,7 @@ sending
 {
 this
 .
-_impl
+_pc
 .
 enablePacketDump
 (
@@ -9301,7 +9250,7 @@ sending
 {
 this
 .
-_impl
+_pc
 .
 disablePacketDump
 (
@@ -9353,7 +9302,7 @@ sdp
 =
 this
 .
-_impl
+_pc
 .
 currentLocalDescription
 ;
@@ -9376,7 +9325,7 @@ type
 =
 this
 .
-_impl
+_pc
 .
 currentOfferer
 ?
@@ -9419,7 +9368,7 @@ sdp
 =
 this
 .
-_impl
+_pc
 .
 pendingLocalDescription
 ;
@@ -9442,7 +9391,7 @@ type
 =
 this
 .
-_impl
+_pc
 .
 pendingOfferer
 ?
@@ -9501,7 +9450,7 @@ sdp
 =
 this
 .
-_impl
+_pc
 .
 currentRemoteDescription
 ;
@@ -9524,7 +9473,7 @@ type
 =
 this
 .
-_impl
+_pc
 .
 currentOfferer
 ?
@@ -9567,7 +9516,7 @@ sdp
 =
 this
 .
-_impl
+_pc
 .
 pendingRemoteDescription
 ;
@@ -9590,7 +9539,7 @@ type
 =
 this
 .
-_impl
+_pc
 .
 pendingOfferer
 ?
@@ -9649,7 +9598,7 @@ id
 return
 this
 .
-_impl
+_pc
 .
 id
 ;
@@ -9662,7 +9611,7 @@ s
 {
 this
 .
-_impl
+_pc
 .
 id
 =
@@ -9731,7 +9680,7 @@ closed
 return
 this
 .
-_impl
+_pc
 .
 signalingState
 ;
@@ -10004,7 +9953,7 @@ onErr
 >
 this
 .
-_impl
+_pc
 .
 getStats
 (
@@ -10454,7 +10403,7 @@ dataChannel
 =
 this
 .
-_impl
+_pc
 .
 createDataChannel
 (
@@ -12513,7 +12462,7 @@ this
 .
 _pc
 .
-_impl
+_pc
 .
 getStats
 (
