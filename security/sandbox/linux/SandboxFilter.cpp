@@ -8915,6 +8915,8 @@ EvaluateIpcCall
 (
 int
 aCall
+int
+aArgShift
 )
 const
 override
@@ -9080,6 +9082,7 @@ SandboxPolicyCommon
 EvaluateIpcCall
 (
 aCall
+aArgShift
 )
 ;
 default
@@ -9091,6 +9094,7 @@ SandboxPolicyCommon
 EvaluateIpcCall
 (
 aCall
+aArgShift
 )
 ;
 }
