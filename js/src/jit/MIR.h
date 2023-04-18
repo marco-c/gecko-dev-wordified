@@ -60180,6 +60180,10 @@ isAtomic
 )
 )
 ;
+setGuard
+(
+)
+;
 setResultType
 (
 MIRType
@@ -60487,6 +60491,10 @@ access_
 isAtomic
 (
 )
+)
+;
+setGuard
+(
 )
 ;
 setResultType
