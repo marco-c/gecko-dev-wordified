@@ -934,6 +934,11 @@ visuallyselected
 activemedia
 -
 blocked
+indicator
+-
+replaces
+-
+favicon
 "
 "
 .
@@ -1042,6 +1047,11 @@ visuallyselected
 activemedia
 -
 blocked
+indicator
+-
+replaces
+-
+favicon
 "
 "
 .
