@@ -1287,6 +1287,12 @@ DataBuffer
 expected
 )
 {
+ASSERT_NE
+(
+nullptr
+prk
+)
+;
 std
 :
 :
@@ -1454,7 +1460,7 @@ rv
 ASSERT_NE
 (
 nullptr
-prk
+secret
 )
 ;
 VerifyKey
@@ -1515,7 +1521,7 @@ rv
 ASSERT_NE
 (
 nullptr
-prk
+secret
 )
 ;
 ScopedPK11SymKey

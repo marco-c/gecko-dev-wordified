@@ -302,7 +302,7 @@ nullptr
 )
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 nullptr
 slots
@@ -321,7 +321,7 @@ get
 )
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 nullptr
 element
@@ -548,7 +548,7 @@ c_str
 )
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 nullptr
 slot1
@@ -579,7 +579,7 @@ c_str
 )
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 nullptr
 slot2
