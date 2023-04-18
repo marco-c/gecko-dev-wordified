@@ -2475,7 +2475,7 @@ strict_native_fallback
 {
 what
 :
-RECORD_PREF_VALUE
+RECORD_DEFAULTPREF_VALUE
 }
 ]
 [
