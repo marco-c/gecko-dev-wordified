@@ -5402,7 +5402,7 @@ return
 CompileArgs
 :
 :
-buildAndReport
+build
 (
 cx
 std
@@ -29082,7 +29082,7 @@ compileArgs
 CompileArgs
 :
 :
-buildAndReport
+build
 (
 cx
 std
