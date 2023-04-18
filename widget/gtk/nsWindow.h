@@ -3920,8 +3920,13 @@ ApplySizeConstraints
 void
 )
 ;
+/
+/
+Wayland
+Popup
+section
 void
-GetParentPosition
+WaylandGetParentPosition
 (
 int
 *
@@ -3931,11 +3936,6 @@ int
 aY
 )
 ;
-/
-/
-Wayland
-Popup
-section
 bool
 WaylandPopupNeedsTrackInHierarchy
 (
