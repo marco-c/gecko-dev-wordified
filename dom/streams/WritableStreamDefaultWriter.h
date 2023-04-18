@@ -179,6 +179,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WritableStream
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -218,9 +229,6 @@ dom
 {
 class
 Promise
-;
-class
-WritableStream
 ;
 class
 WritableStreamDefaultWriter
