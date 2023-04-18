@@ -19757,7 +19757,7 @@ is
 overscrolled
 the
 above
-SnapBackOverscrolledApzcForMomemtum
+SnapBackOverscrolledApzcForMomentum
 /
 /
 triggers
