@@ -449,6 +449,8 @@ AnimationIterationCount
 AnimationName
 AnimationTimeline
 Contain
+ContainerName
+ContainerType
 }
 ;
 pub

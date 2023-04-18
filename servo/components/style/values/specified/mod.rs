@@ -465,6 +465,8 @@ box_
 Appearance
 BreakBetween
 BreakWithin
+ContainerName
+ContainerType
 }
 ;
 pub

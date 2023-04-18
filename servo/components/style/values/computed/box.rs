@@ -188,6 +188,8 @@ Clear
 as
 SpecifiedClear
 Contain
+ContainerName
+ContainerType
 ContentVisibility
 Display
 Float
