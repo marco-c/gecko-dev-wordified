@@ -536,6 +536,10 @@ CodegenConfig
 FUNCTIONS
 )
 .
+disable_untagged_union
+(
+)
+.
 size_t_is_usize
 (
 true
