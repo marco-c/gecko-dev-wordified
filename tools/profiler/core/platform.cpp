@@ -1928,6 +1928,7 @@ available
 )
 .
 static
+constexpr
 uint32_t
 DefaultFeatures
 (
@@ -1989,6 +1990,7 @@ available
 )
 .
 static
+constexpr
 uint32_t
 StartupExtraDefaultFeatures
 (
