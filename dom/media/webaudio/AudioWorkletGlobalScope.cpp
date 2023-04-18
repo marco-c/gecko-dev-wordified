@@ -1215,13 +1215,16 @@ aRv
 .
 ThrowTypeError
 <
-MSG_NOT_SEQUENCE
+MSG_CONVERSION_ERROR
 >
 (
 "
 AudioWorkletProcessor
 .
 parameterDescriptors
+"
+"
+sequence
 "
 )
 ;

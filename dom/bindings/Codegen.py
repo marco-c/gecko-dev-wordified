@@ -39444,36 +39444,45 @@ None
             
 notSequence
 =
+(
+                
 '
 cx
 .
 ThrowErrorMessage
 <
-MSG_NOT_SEQUENCE
+MSG_CONVERSION_ERROR
 >
 (
 "
 %
 s
 "
+"
+sequence
+"
 )
 ;
 \
 n
 '
+                
 "
 %
 s
 "
+                
 %
 (
-                
+                    
 firstCap
 (
 sourceDescription
 )
-                
+                    
 exceptionCode
+                
+)
             
 )
         
@@ -113527,10 +113536,13 @@ cx
 .
 ThrowErrorMessage
 <
-MSG_NOT_DICTIONARY
+MSG_CONVERSION_ERROR
 >
 (
 sourceDescription
+"
+dictionary
+"
 )
 ;
                 
