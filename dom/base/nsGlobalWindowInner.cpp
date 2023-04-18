@@ -24246,13 +24246,6 @@ ScrollByCSSPixels
 (
 scrollDelta
 scrollMode
-mozilla
-:
-:
-ScrollOrigin
-:
-:
-Relative
 )
 ;
 }

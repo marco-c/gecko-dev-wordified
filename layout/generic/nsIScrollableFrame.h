@@ -2487,13 +2487,6 @@ ScrollMode
 :
 :
 Instant
-ScrollOrigin
-aOrigin
-=
-ScrollOrigin
-:
-:
-NotSpecified
 )
 =
 0
