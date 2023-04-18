@@ -1314,6 +1314,30 @@ pull_uint32
 )
                 
 #
+4
+bytes
+for
+the
+uint32
+.
+                
+reason
+=
+buffer
+.
+pull_bytes
+(
+len
+(
+capsule
+.
+data
+)
+-
+4
+)
+                
+#
 TODO
 (
 yutakahirano
@@ -1324,19 +1348,11 @@ sure
 reason
 is
 a
-                
-#
 UTF
 -
 8
 text
 .
-                
-reason
-=
-buffer
-.
-data
                 
 self
 .
@@ -2252,7 +2268,9 @@ data
             
 self
 .
-send_stream_data
+_http
+.
+send_data
 (
 session_stream_id
 capsule
@@ -2260,11 +2278,16 @@ capsule
 encode
 (
 )
+end_stream
+=
+False
 )
         
 self
 .
-send_stream_data
+_http
+.
+send_data
 (
 session_stream_id
 b
@@ -2273,14 +2296,6 @@ b
 end_stream
 =
 True
-)
-        
-self
-.
-_protocol
-.
-transmit
-(
 )
         
 #
