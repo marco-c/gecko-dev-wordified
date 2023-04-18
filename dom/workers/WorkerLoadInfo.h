@@ -791,6 +791,9 @@ nsIReferrerInfo
 >
 mReferrerInfo
 ;
+uint32_t
+mPrincipalHashValue
+;
 bool
 mFromWindow
 ;

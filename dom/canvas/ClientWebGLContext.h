@@ -14125,6 +14125,12 @@ ShouldResistFingerprinting
 )
 const
 ;
+uint32_t
+GetPrincipalHashValue
+(
+)
+const
+;
 /
 /
 Prepare

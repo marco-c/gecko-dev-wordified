@@ -568,6 +568,10 @@ ReferrerInfo
 nullptr
 )
 )
+mPrincipalHashValue
+(
+0
+)
 mFromWindow
 (
 false
@@ -904,6 +908,15 @@ rv
 )
 ;
 }
+mPrincipalHashValue
+=
+aPrincipal
+-
+>
+GetHashValue
+(
+)
+;
 return
 NS_OK
 ;
