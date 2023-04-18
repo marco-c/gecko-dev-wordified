@@ -517,6 +517,11 @@ UnlockDeviceOrientation
 (
 )
 ;
+void
+CleanupFullscreenListener
+(
+)
+;
 /
 /
 This
