@@ -3795,7 +3795,7 @@ setElementCreationCallback
 "
 screenshots
 -
-buttons
+div
 "
 (
 )
@@ -3820,8 +3820,6 @@ content
 screenshots
 /
 screenshots
--
-buttons
 .
 js
 "
