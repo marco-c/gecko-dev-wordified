@@ -487,6 +487,12 @@ hal
 /
 js
 /
+loader
+'
+'
+/
+js
+/
 xpconnect
 '
 '
