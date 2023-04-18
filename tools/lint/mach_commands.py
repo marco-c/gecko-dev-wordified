@@ -647,6 +647,18 @@ path
         
 )
     
+setupargs
+=
+{
+        
+"
+mach_command_context
+"
+:
+command_context
+    
+}
+    
 return
 cli
 .
@@ -654,6 +666,9 @@ run
 (
 *
 runargs
+setupargs
+=
+setupargs
 *
 *
 lintargs

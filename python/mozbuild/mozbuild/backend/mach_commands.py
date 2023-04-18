@@ -1570,7 +1570,7 @@ clang_tidy_bin
         
 rc
 =
-_get_clang_tools
+get_clang_tools
 (
 command_context
 clang_tools_path
@@ -2296,7 +2296,7 @@ rc
 return
 0
 def
-_get_clang_tools
+get_clang_tools
 (
 command_context
 clang_tools_path
