@@ -6862,7 +6862,15 @@ nullptr
 )
 mResolveName
 (
-JSID_VOID
+JS
+:
+:
+PropertyKey
+:
+:
+Void
+(
+)
 )
 mResolvingWrapper
 (

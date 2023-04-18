@@ -621,7 +621,10 @@ xpc
 NewFunctionForwarder
 (
 aCx
-JSID_VOIDHANDLE
+JS
+:
+:
+VoidHandlePropertyKey
 obj
 forwarderOptions
 &
@@ -2629,9 +2632,10 @@ idArg
 if
 (
 id
-=
-=
-JSID_VOIDHANDLE
+.
+isVoid
+(
+)
 )
 {
 id

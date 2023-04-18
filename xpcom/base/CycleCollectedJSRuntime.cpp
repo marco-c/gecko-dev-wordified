@@ -10332,7 +10332,15 @@ override
 *
 aPtr
 =
-JSID_VOID
+JS
+:
+:
+PropertyKey
+:
+:
+Void
+(
+)
 ;
 }
 virtual

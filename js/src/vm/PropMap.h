@@ -6939,7 +6939,12 @@ keys_
 index
 ]
 =
-JSID_VOID
+PropertyKey
+:
+:
+Void
+(
+)
 ;
 }
 static

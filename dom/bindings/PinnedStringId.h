@@ -223,7 +223,15 @@ PinnedStringId
 :
 id
 (
-JSID_VOID
+JS
+:
+:
+PropertyKey
+:
+:
+Void
+(
+)
 )
 {
 }
