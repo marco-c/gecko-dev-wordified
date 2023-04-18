@@ -6463,13 +6463,7 @@ mTrack
 >
 SetInputProcessingImpl
 (
-std
-:
-:
-move
-(
 mProcessing
-)
 )
 ;
 }
