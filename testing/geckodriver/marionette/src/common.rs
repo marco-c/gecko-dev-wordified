@@ -939,10 +939,6 @@ struct
 Window
 {
 pub
-name
-:
-String
-pub
 handle
 :
 String
