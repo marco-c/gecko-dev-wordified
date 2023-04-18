@@ -1758,14 +1758,8 @@ JSTracer
 trc
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-JS
-:
-:
-RuntimeHeapIsBusy
-(
-)
 isInList
 (
 )
