@@ -144,6 +144,17 @@ include
 "
 mozilla
 /
+dom
+/
+SVGElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h

@@ -169,6 +169,15 @@ include
 "
 mozilla
 /
+SVGGradientFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGObserverUtils
 .
 h

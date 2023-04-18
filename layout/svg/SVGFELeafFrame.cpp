@@ -182,6 +182,13 @@ nsGkAtoms
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsIFrame
 *
 NS_NewSVGFELeafFrame

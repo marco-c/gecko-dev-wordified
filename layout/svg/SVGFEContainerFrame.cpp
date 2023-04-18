@@ -182,6 +182,13 @@ nsLiteralString
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsIFrame
 *
 NS_NewSVGFEContainerFrame

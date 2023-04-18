@@ -130,6 +130,17 @@ include
 "
 mozilla
 /
+dom
+/
+SVGFilters
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h
