@@ -359,6 +359,8 @@ label
 =
 expectedFolderName
 "
+Dialog
+:
 The
 folder
 is
@@ -393,6 +395,8 @@ value
 "
 "
 "
+Dialog
+:
 The
 tags
 field
@@ -1112,6 +1116,15 @@ BrowserTestUtils
 removeTab
 (
 tab
+)
+;
+await
+PlacesUtils
+.
+bookmarks
+.
+eraseEverything
+(
 )
 ;
 }
