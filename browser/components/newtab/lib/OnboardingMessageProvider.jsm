@@ -421,6 +421,11 @@ true
 title
 :
 {
+fontSize
+:
+"
+36px
+"
 string_id
 :
 "
@@ -437,7 +442,7 @@ title_style
 :
 "
 fancy
-larger
+shine
 "
 background
 :
