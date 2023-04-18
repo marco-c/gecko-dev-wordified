@@ -3956,10 +3956,6 @@ BOOL
 sIsOleInitialized
 ;
 static
-HCURSOR
-sCustomHCursor
-;
-static
 Cursor
 sCurrentCursor
 ;
