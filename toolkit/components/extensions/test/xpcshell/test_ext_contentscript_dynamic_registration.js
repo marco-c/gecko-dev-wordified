@@ -919,6 +919,9 @@ http
 html
 "
 ]
+persistAcrossSessions
+:
+false
 }
 ;
 await

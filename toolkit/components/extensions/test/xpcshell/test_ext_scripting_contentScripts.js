@@ -222,6 +222,9 @@ runAt
 "
 document_idle
 "
+persistAcrossSessions
+:
+false
 }
 ]
 }
@@ -283,6 +286,9 @@ defaults
 to
 document_idle
 .
+persistAcrossSessions
+:
+false
 }
 ]
 }
@@ -338,6 +344,9 @@ runAt
 "
 document_end
 "
+persistAcrossSessions
+:
+false
 }
 ]
 }
@@ -393,6 +402,9 @@ runAt
 "
 document_start
 "
+persistAcrossSessions
+:
+false
 }
 ]
 }
@@ -558,6 +570,9 @@ runAt
 "
 document_idle
 "
+persistAcrossSessions
+:
+false
 }
 {
 id
@@ -607,6 +622,9 @@ runAt
 "
 document_idle
 "
+persistAcrossSessions
+:
+false
 }
 {
 id
@@ -652,6 +670,9 @@ runAt
 "
 document_end
 "
+persistAcrossSessions
+:
+false
 }
 {
 id
@@ -697,6 +718,9 @@ runAt
 "
 document_start
 "
+persistAcrossSessions
+:
+false
 }
 ]
 )
@@ -1213,6 +1237,9 @@ file_sample
 html
 "
 ]
+persistAcrossSessions
+:
+false
 }
 ;
 let
@@ -1501,6 +1528,9 @@ file_sample
 html
 "
 ]
+persistAcrossSessions
+:
+false
 }
 ]
 )
@@ -1554,6 +1584,9 @@ file_sample
 html
 "
 ]
+persistAcrossSessions
+:
+false
 }
 ]
 )
@@ -1607,6 +1640,9 @@ file_sample
 html
 "
 ]
+persistAcrossSessions
+:
+false
 }
 ]
 )
