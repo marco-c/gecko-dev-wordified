@@ -66,6 +66,18 @@ collections
 import
 namedtuple
 from
+mozbuild
+.
+util
+import
+memoize
+from
+taskgraph
+.
+util
+import
+yaml
+from
 gecko_taskgraph
 import
 create
@@ -81,7 +93,6 @@ gecko_taskgraph
 util
 import
 taskcluster
-yaml
 hash
 from
 gecko_taskgraph
@@ -97,12 +108,6 @@ gecko_taskgraph
 parameters
 import
 Parameters
-from
-mozbuild
-.
-util
-import
-memoize
 actions
 =
 [
@@ -1039,11 +1044,14 @@ context_value
 =
 context
         
+def
 context
-=
-lambda
+(
 params
+)
 :
+            
+return
 context_value
 #
 noqa

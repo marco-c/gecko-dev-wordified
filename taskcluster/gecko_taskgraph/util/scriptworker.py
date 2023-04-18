@@ -223,6 +223,14 @@ util
 import
 memoize
 from
+taskgraph
+.
+util
+.
+yaml
+import
+load_yaml
+from
 .
 schema
 import
@@ -232,11 +240,6 @@ from
 taskcluster
 import
 get_artifact_prefix
-from
-.
-yaml
-import
-load_yaml
 #
 constants
 {

@@ -2002,6 +2002,13 @@ import
 requests
     
 from
+taskgraph
+.
+util
+import
+yaml
+    
+from
 gecko_taskgraph
 .
 util
@@ -2010,13 +2017,6 @@ taskcluster
 import
 get_artifact_url
 find_task_id
-    
-from
-gecko_taskgraph
-.
-util
-import
-yaml
     
 if
 overrides

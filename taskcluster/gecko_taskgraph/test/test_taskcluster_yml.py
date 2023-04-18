@@ -54,9 +54,9 @@ MPL
 /
 .
 import
-jsone
-import
 pprint
+import
+jsone
 import
 slugid
 import
@@ -66,7 +66,7 @@ mozunit
 import
 main
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
