@@ -3405,7 +3405,7 @@ if
 channel
 -
 >
-Unsound_IsClosed
+IsClosed
 (
 )
 )
@@ -3430,6 +3430,12 @@ channel
 }
 numQueuedMessages
 =
+0
+;
+/
+/
+XXX
+was
 channel
 -
 >
@@ -3437,6 +3443,8 @@ Unsound_NumQueuedMessages
 (
 )
 ;
+Bug
+1754876
 }
 nsPrintfCString
 path
