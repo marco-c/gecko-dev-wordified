@@ -636,6 +636,12 @@ get_info_func
 (
 )
 ;
+const
+uint32_t
+dont_override_heap_size
+=
+0
+;
 void
 *
 sandbox
@@ -644,6 +650,7 @@ sandbox_info
 .
 create_wasm2c_sandbox
 (
+dont_override_heap_size
 )
 ;
 if
