@@ -4018,13 +4018,7 @@ textFragment
 .
 CharAt
 (
-AssertedCast
-<
-int32_t
->
-(
 i
-)
 )
 =
 =
