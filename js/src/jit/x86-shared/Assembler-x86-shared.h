@@ -27797,7 +27797,9 @@ vpalignr
 const
 Operand
 &
-src
+src1
+FloatRegister
+src0
 FloatRegister
 dest
 uint8_t
@@ -27813,7 +27815,7 @@ HasSSE3
 ;
 switch
 (
-src
+src1
 .
 kind
 (
@@ -27831,9 +27833,14 @@ masm
 vpalignr_irr
 (
 shift
-src
+src1
 .
 fpu
+(
+)
+src0
+.
+encoding
 (
 )
 dest

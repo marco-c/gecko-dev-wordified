@@ -630,6 +630,7 @@ Operand
 input
 )
 output
+output
 8
 )
 ;
@@ -6503,6 +6504,7 @@ Operand
 (
 in
 )
+xtmp
 xtmp
 8
 )

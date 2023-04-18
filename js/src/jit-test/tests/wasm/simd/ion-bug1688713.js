@@ -44,6 +44,11 @@ getBuildConfiguration
 )
 .
 simulator
+|
+|
+isAvxPresent
+(
+)
 ;
 include
 :

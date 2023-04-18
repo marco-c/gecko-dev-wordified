@@ -8466,6 +8466,7 @@ Operand
 rhs
 )
 lhsDest
+lhsDest
 shift
 )
 ;
@@ -16574,6 +16575,7 @@ Operand
 src
 )
 dest
+dest
 8
 )
 ;
@@ -16627,6 +16629,7 @@ Operand
 (
 src
 )
+dest
 dest
 8
 )
@@ -16682,6 +16685,7 @@ Operand
 src
 )
 dest
+dest
 8
 )
 ;
@@ -16735,6 +16739,7 @@ Operand
 (
 src
 )
+dest
 dest
 8
 )
