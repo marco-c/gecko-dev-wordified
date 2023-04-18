@@ -32943,6 +32943,8 @@ aInputSource
 WinPointerInfo
 *
 aPointerInfo
+bool
+aIgnoreAPZ
 )
 {
 bool
@@ -33076,6 +33078,10 @@ y
 }
 if
 (
+!
+aIgnoreAPZ
+&
+&
 WinUtils
 :
 :
@@ -42241,6 +42247,8 @@ ePrimary
 MOUSE_INPUT_SOURCE
 (
 )
+nullptr
+true
 )
 ;
 DispatchPendingEvents

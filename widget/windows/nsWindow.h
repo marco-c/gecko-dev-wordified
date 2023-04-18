@@ -1769,6 +1769,10 @@ WinPointerInfo
 aPointerInfo
 =
 nullptr
+bool
+aIgnoreAPZ
+=
+false
 )
 ;
 virtual
