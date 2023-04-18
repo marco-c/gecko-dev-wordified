@@ -2543,6 +2543,11 @@ case
 resource
 "
 :
+return
+uri
+.
+displaySpec
+;
 case
 "
 moz
@@ -2550,11 +2555,6 @@ moz
 extension
 "
 :
-return
-uri
-.
-displaySpec
-;
 case
 "
 http

@@ -434,6 +434,7 @@ listener
 ;
 done
 (
+extension
 )
 ;
 }
@@ -487,7 +488,7 @@ installed
 "
 )
 ;
-await
+return
 onAddonInstalled
 ;
 }
@@ -845,6 +846,9 @@ createTemporaryXPI
 xpiData
 )
 ;
+const
+extension
+=
 await
 installTemporaryExtension
 (
@@ -885,7 +889,10 @@ document
 )
 ;
 return
+{
+extension
 xpiFile
+}
 ;
 }
 /
