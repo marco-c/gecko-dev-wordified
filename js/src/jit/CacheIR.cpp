@@ -68278,10 +68278,9 @@ NoAction
 if
 (
 !
-val_
-.
-isInt32
+CanConvertToInt32ForToNumber
 (
+val_
 )
 |
 |
@@ -68314,11 +68313,11 @@ setInputOperandId
 Int32OperandId
 intId
 =
-writer
-.
-guardToInt32
+EmitGuardToInt32ForToNumber
 (
+writer
 valId
+val_
 )
 ;
 switch
