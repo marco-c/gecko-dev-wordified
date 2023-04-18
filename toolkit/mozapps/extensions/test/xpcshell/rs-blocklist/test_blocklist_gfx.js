@@ -61,16 +61,7 @@ BLOCKED_DRIVER_VERSION
 "
 last_modified
 :
-9999999999999
-/
-/
-High
-timestamp
-to
-prevent
-load
-of
-dump
+1458035931837
 os
 :
 "
