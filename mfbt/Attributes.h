@@ -5810,8 +5810,8 @@ calls
 to
 functions
 or
-methods
 *
+methods
 marked
 as
 MOZ_MAY_CALL_AFTER_MUST_RETURN
@@ -5942,8 +5942,8 @@ in
 rare
 cases
 to
-indicate
 *
+indicate
 that
 is
 has
