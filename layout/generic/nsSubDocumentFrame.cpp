@@ -9243,12 +9243,14 @@ EffectsInfo
 VisibleWithinRect
 (
 visibleRect
+{
 scale
 .
 width
 scale
 .
 height
+}
 transformToAncestorScale
 )
 )

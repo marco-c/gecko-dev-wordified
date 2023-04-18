@@ -7399,7 +7399,9 @@ GetEffectsInfo
 (
 )
 .
-mScaleX
+mRasterScale
+.
+xScale
 ;
 resolutionToScreen
 .
@@ -7413,7 +7415,9 @@ GetEffectsInfo
 (
 )
 .
-mScaleY
+mRasterScale
+.
+yScale
 ;
 }
 /
