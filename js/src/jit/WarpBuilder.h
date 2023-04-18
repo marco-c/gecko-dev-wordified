@@ -344,11 +344,6 @@ finally
 \
 _
 (
-Finally
-)
-\
-_
-(
 Retsub
 )
 \
