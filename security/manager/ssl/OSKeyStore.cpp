@@ -3545,12 +3545,9 @@ mIVLength
 |
 inBytes
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 )
 {
