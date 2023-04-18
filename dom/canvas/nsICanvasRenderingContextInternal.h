@@ -1170,13 +1170,6 @@ nsString
 }
 virtual
 void
-OnVisibilityChange
-(
-)
-{
-}
-virtual
-void
 OnMemoryPressure
 (
 )
