@@ -578,7 +578,7 @@ THREAD_STATE
 {
 onAvailable
 :
-onBreakpointAvailable
+onThreadStateAvailable
 }
 )
 ;
@@ -693,7 +693,7 @@ THREAD_STATE
 {
 onAvailable
 :
-onBreakpointAvailable
+onThreadStateAvailable
 }
 )
 ;
@@ -1087,9 +1087,9 @@ frontendSources
 }
 async
 function
-onBreakpointAvailable
+onThreadStateAvailable
 (
-breakpoints
+resources
 )
 {
 for
@@ -1097,7 +1097,7 @@ for
 const
 resource
 of
-breakpoints
+resources
 )
 {
 if
