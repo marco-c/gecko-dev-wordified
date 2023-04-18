@@ -147,14 +147,26 @@ android
 "
                 
 "
-Defaults
+If
+not
+provided
+defaults
 to
 the
-current
-directory
-if
-not
-given
+files
+changed
+according
+"
+                
+"
+to
+-
+-
+outgoing
+and
+-
+-
+workdir
 .
 "
             
