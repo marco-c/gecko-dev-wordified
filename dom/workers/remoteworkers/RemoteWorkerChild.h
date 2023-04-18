@@ -613,8 +613,10 @@ ExecServiceWorkerOpResolver
 aResolve
 )
 ;
+already_AddRefed
+<
 PFetchEventOpProxyChild
-*
+>
 AllocPFetchEventOpProxyChild
 (
 const
@@ -641,14 +643,6 @@ ServiceWorkerFetchEventOpArgs
 aArgs
 )
 override
-;
-bool
-DeallocPFetchEventOpProxyChild
-(
-PFetchEventOpProxyChild
-*
-aActor
-)
 ;
 nsresult
 ExecWorkerOnMainThread
