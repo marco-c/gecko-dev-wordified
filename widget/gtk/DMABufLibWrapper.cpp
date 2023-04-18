@@ -1859,15 +1859,7 @@ gfx
 gfxVars
 :
 :
-UseEGL
-(
-)
-&
-&
-StaticPrefs
-:
-:
-media_ffmpeg_vaapi_enabled
+UseVAAPI
 (
 )
 &
