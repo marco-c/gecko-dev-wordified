@@ -1842,6 +1842,19 @@ i
 +
 )
 {
+/
+/
+We
+can
+'
+t
+be
+accessed
+by
+another
+thread
+yet
+PUSH_IGNORE_THREAD_SAFETY
 mRestrictedPortList
 .
 AppendElement
@@ -1852,6 +1865,7 @@ i
 ]
 )
 ;
+POP_THREAD_SAFETY
 }
 /
 /
