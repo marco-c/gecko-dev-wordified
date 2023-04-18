@@ -188,8 +188,8 @@ override
 /
 ActionAccessible
 virtual
-uint8_t
-ActionCount
+bool
+HasPrimaryAction
 (
 )
 const
@@ -205,16 +205,6 @@ nsAString
 &
 aName
 )
-override
-;
-virtual
-bool
-DoAction
-(
-uint8_t
-aIndex
-)
-const
 override
 ;
 /

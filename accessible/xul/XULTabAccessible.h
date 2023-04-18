@@ -226,8 +226,8 @@ override
 /
 ActionAccessible
 virtual
-uint8_t
-ActionCount
+bool
+HasPrimaryAction
 (
 )
 const
@@ -331,8 +331,8 @@ override
 /
 ActionAccessible
 virtual
-uint8_t
-ActionCount
+bool
+HasPrimaryAction
 (
 )
 const

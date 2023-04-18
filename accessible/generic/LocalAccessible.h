@@ -6305,6 +6305,14 @@ GetOrCreateGroupInfo
 override
 ;
 virtual
+bool
+HasPrimaryAction
+(
+)
+const
+override
+;
+virtual
 void
 ARIAGroupPosition
 (
