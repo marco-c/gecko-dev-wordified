@@ -152,15 +152,6 @@ OwnedRefCounted
 =
 default
 ;
-private
-:
-~
-OwnedRefCounted
-(
-)
-=
-default
-;
 }
 ;
 TEST
