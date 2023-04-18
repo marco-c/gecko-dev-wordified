@@ -4218,6 +4218,8 @@ WasmTagObject
 *
 >
 tag
+HandleObject
+proto
 )
 ;
 bool
