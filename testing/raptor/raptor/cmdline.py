@@ -2060,7 +2060,7 @@ add_arg
 "
 -
 -
-enable
+disable
 -
 fission
 "
@@ -2068,23 +2068,23 @@ fission
 dest
 =
 "
-enable_fission
+fission
 "
         
 action
 =
 "
-store_true
+store_false
 "
         
 default
 =
-False
+True
         
 help
 =
 "
-Enable
+Disable
 Fission
 (
 site
