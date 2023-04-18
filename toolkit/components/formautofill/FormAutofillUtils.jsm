@@ -1812,7 +1812,9 @@ getCreditCardNetworks
 return
 CreditCard
 .
-SUPPORTED_NETWORKS
+getSupportedNetworks
+(
+)
 ;
 }
 getCategoryFromFieldName

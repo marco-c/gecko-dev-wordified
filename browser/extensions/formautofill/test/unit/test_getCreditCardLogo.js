@@ -109,7 +109,9 @@ network
 of
 CreditCard
 .
-SUPPORTED_NETWORKS
+getSupportedNetworks
+(
+)
 )
 {
 const

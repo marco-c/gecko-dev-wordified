@@ -3043,7 +3043,9 @@ supportedNetworks
 =
 CreditCard
 .
-SUPPORTED_NETWORKS
+getSupportedNetworks
+(
+)
 ;
 Assert
 .
@@ -3212,7 +3214,9 @@ network
 of
 CreditCard
 .
-SUPPORTED_NETWORKS
+getSupportedNetworks
+(
+)
 )
 {
 Assert
