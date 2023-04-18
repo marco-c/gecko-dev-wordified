@@ -307,11 +307,6 @@ utils
 js
 "
 "
-SplitView
-.
-jsm
-"
-"
 string
 -
 utils

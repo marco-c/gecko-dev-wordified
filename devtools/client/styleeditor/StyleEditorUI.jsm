@@ -233,7 +233,7 @@ devtools
 /
 client
 /
-shared
+styleeditor
 /
 SplitView
 .
