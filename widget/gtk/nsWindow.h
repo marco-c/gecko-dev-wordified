@@ -749,7 +749,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 nsWindow
 nsBaseWidget
 )
-virtual
 nsresult
 DispatchEvent
 (
@@ -772,11 +771,9 @@ when
 we
 are
 destroyed
-virtual
 void
 OnDestroy
 (
-void
 )
 override
 ;
@@ -823,7 +820,6 @@ here
 nodiscard
 ]
 ]
-virtual
 nsresult
 Create
 (
@@ -842,14 +838,12 @@ aInitData
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 nsIWidget
 *
 GetParent
@@ -857,14 +851,12 @@ GetParent
 )
 override
 ;
-virtual
 float
 GetDPI
 (
 )
 override
 ;
-virtual
 double
 GetDefaultScaleInternal
 (
@@ -889,7 +881,6 @@ GetDesktopToDeviceScaleByScreen
 )
 override
 ;
-virtual
 void
 SetParent
 (
@@ -899,7 +890,6 @@ aNewParent
 )
 override
 ;
-virtual
 void
 SetModal
 (
@@ -908,7 +898,6 @@ aModal
 )
 override
 ;
-virtual
 bool
 IsVisible
 (
@@ -916,7 +905,6 @@ IsVisible
 const
 override
 ;
-virtual
 void
 ConstrainPosition
 (
@@ -931,7 +919,6 @@ aY
 )
 override
 ;
-virtual
 void
 SetSizeConstraints
 (
@@ -942,7 +929,6 @@ aConstraints
 )
 override
 ;
-virtual
 void
 LockAspectRatio
 (
@@ -951,7 +937,6 @@ aShouldLock
 )
 override
 ;
-virtual
 void
 Move
 (
@@ -962,7 +947,6 @@ aY
 )
 override
 ;
-virtual
 void
 Show
 (
@@ -971,7 +955,6 @@ aState
 )
 override
 ;
-virtual
 void
 Resize
 (
@@ -984,7 +967,6 @@ aRepaint
 )
 override
 ;
-virtual
 void
 Resize
 (
@@ -1001,7 +983,6 @@ aRepaint
 )
 override
 ;
-virtual
 bool
 IsEnabled
 (
@@ -1017,7 +998,6 @@ aZIndex
 )
 override
 ;
-virtual
 void
 SetSizeMode
 (
@@ -1026,7 +1006,6 @@ aMode
 )
 override
 ;
-virtual
 void
 GetWorkspaceID
 (
@@ -1036,7 +1015,6 @@ workspaceID
 )
 override
 ;
-virtual
 void
 MoveToWorkspace
 (
@@ -1047,7 +1025,6 @@ workspaceID
 )
 override
 ;
-virtual
 void
 Enable
 (
@@ -1056,7 +1033,6 @@ aState
 )
 override
 ;
-virtual
 void
 SetFocus
 (
@@ -1072,35 +1048,30 @@ aCallerType
 )
 override
 ;
-virtual
 LayoutDeviceIntRect
 GetScreenBounds
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntRect
 GetClientBounds
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntSize
 GetClientSize
 (
 )
 override
 ;
-virtual
 LayoutDeviceIntPoint
 GetClientOffset
 (
 )
 override
 ;
-virtual
 void
 SetCursor
 (
@@ -1110,7 +1081,6 @@ Cursor
 )
 override
 ;
-virtual
 void
 Invalidate
 (
@@ -1121,7 +1091,6 @@ aRect
 )
 override
 ;
-virtual
 void
 *
 GetNativeData
@@ -1131,7 +1100,6 @@ aDataType
 )
 override
 ;
-virtual
 nsresult
 SetTitle
 (
@@ -1142,7 +1110,6 @@ aTitle
 )
 override
 ;
-virtual
 void
 SetIcon
 (
@@ -1153,7 +1120,6 @@ aIconSpec
 )
 override
 ;
-virtual
 void
 SetWindowClass
 (
@@ -1164,14 +1130,12 @@ xulWinType
 )
 override
 ;
-virtual
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
 override
 ;
-virtual
 void
 CaptureMouse
 (
@@ -1180,7 +1144,6 @@ aCapture
 )
 override
 ;
-virtual
 void
 CaptureRollupEvents
 (
@@ -1197,7 +1160,6 @@ override
 nodiscard
 ]
 ]
-virtual
 nsresult
 GetAttention
 (
@@ -1206,14 +1168,12 @@ aCycleCount
 )
 override
 ;
-virtual
 bool
 HasPendingInputEvent
 (
 )
 override
 ;
-virtual
 bool
 PrepareForFullscreenTransition
 (
@@ -1224,7 +1184,6 @@ aData
 )
 override
 ;
-virtual
 void
 PerformFullscreenTransition
 (
@@ -1241,7 +1200,6 @@ aCallback
 )
 override
 ;
-virtual
 already_AddRefed
 <
 nsIScreen
@@ -1251,7 +1209,6 @@ GetWidgetScreen
 )
 override
 ;
-virtual
 nsresult
 MakeFullScreen
 (
@@ -1265,7 +1222,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 HideWindowChrome
 (
@@ -1577,7 +1533,6 @@ UpdateTopLevelOpaqueRegion
 (
 )
 ;
-virtual
 already_AddRefed
 <
 mozilla
@@ -1606,7 +1561,6 @@ aBufferMode
 )
 override
 ;
-virtual
 void
 EndRemoteDrawingInRegion
 (
@@ -1692,7 +1646,6 @@ sLastButtonPressTime
 nodiscard
 ]
 ]
-virtual
 nsresult
 BeginResizeDrag
 (
@@ -1880,7 +1833,6 @@ GetCurrentTimeGetter
 (
 )
 ;
-virtual
 void
 SetInputContext
 (
@@ -1895,14 +1847,12 @@ aAction
 )
 override
 ;
-virtual
 InputContext
 GetInputContext
 (
 )
 override
 ;
-virtual
 TextEventDispatcherListener
 *
 GetNativeTextEventDispatcherListener
@@ -1911,7 +1861,6 @@ GetNativeTextEventDispatcherListener
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 bool
 GetEditCommands
 (
@@ -1961,7 +1910,6 @@ ClearTransparencyBitmap
 (
 )
 ;
-virtual
 void
 SetTransparencyMode
 (
@@ -1970,14 +1918,12 @@ aMode
 )
 override
 ;
-virtual
 nsTransparencyMode
 GetTransparencyMode
 (
 )
 override
 ;
-virtual
 void
 SetWindowMouseTransparent
 (
@@ -2000,7 +1946,6 @@ int32_t
 aStride
 )
 ;
-virtual
 void
 ReparentNativeWidget
 (
@@ -2015,7 +1960,6 @@ UpdateTitlebarTransparencyBitmap
 (
 )
 ;
-virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
@@ -2039,7 +1983,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeMouseMove
 (
@@ -2077,7 +2020,6 @@ aObserver
 )
 ;
 }
-virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
@@ -2101,7 +2043,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchPoint
 (
@@ -2121,7 +2062,6 @@ aObserver
 )
 override
 ;
-virtual
 nsresult
 SynthesizeNativeTouchPadPinch
 (
@@ -2136,7 +2076,6 @@ aModifierFlags
 )
 override
 ;
-virtual
 void
 GetCompositorWidgetInitData
 (
@@ -2152,7 +2091,6 @@ aInitData
 )
 override
 ;
-virtual
 nsresult
 SetNonClientMargins
 (
@@ -2183,7 +2121,6 @@ GetTitlebarRect
 (
 )
 ;
-virtual
 void
 UpdateWindowDraggingRegion
 (
@@ -2280,7 +2217,6 @@ GdkRectangle
 rect
 )
 ;
-virtual
 bool
 WidgetTypeSupportsAcceleration
 (
@@ -2485,7 +2421,6 @@ GetWaylandDisplay
 (
 )
 ;
-virtual
 void
 CreateCompositorVsyncDispatcher
 (
@@ -2501,7 +2436,6 @@ return
 mNativePointerLockCenter
 ;
 }
-virtual
 void
 SetNativePointerLockCenter
 (
@@ -2512,21 +2446,18 @@ aLockCenter
 )
 override
 ;
-virtual
 void
 LockNativePointer
 (
 )
 override
 ;
-virtual
 void
 UnlockNativePointer
 (
 )
 override
 ;
-virtual
 nsRect
 GetPreferredPopupRect
 (
@@ -2538,7 +2469,6 @@ mPreferredPopupRect
 ;
 }
 ;
-virtual
 void
 FlushPreferredPopupRect
 (
@@ -4427,7 +4357,6 @@ ReleaseGdkWindow
 /
 /
 nsBaseWidget
-virtual
 WindowRenderer
 *
 GetWindowRenderer
@@ -4449,7 +4378,6 @@ CleanLayerManagerRecursive
 (
 )
 ;
-virtual
 int32_t
 RoundsWidgetCoordinatesTo
 (

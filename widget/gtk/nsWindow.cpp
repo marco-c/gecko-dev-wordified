@@ -3688,7 +3688,6 @@ nsWindow
 :
 GetParent
 (
-void
 )
 {
 return
