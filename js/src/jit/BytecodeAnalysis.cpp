@@ -1129,13 +1129,9 @@ because
 the
 resume
 index
-and
-throwing
 will
 have
 been
-/
-/
 popped
 .
 uint32_t
@@ -1166,7 +1162,7 @@ init
 (
 stackDepth
 -
-2
+1
 )
 ;
 infos_

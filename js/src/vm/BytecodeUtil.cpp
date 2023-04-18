@@ -6215,13 +6215,9 @@ because
 the
 resume
 index
-and
-throwing
 will
 have
 been
-/
-/
 popped
 .
 uint32_t
@@ -6249,7 +6245,7 @@ resumeOffset
 offsetStack
 stackDepth
 -
-2
+1
 )
 )
 {
@@ -13530,7 +13526,7 @@ return
 write
 (
 "
-THROWING
+PC
 "
 )
 ;
@@ -13547,7 +13543,7 @@ return
 write
 (
 "
-PC
+THROWING
 "
 )
 ;
