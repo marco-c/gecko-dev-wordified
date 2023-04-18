@@ -6079,7 +6079,7 @@ getusermedia
 .
 residual_echo_enabled
 "
-true
+false
 )
 ;
 pref
@@ -6103,12 +6103,12 @@ getusermedia
 .
 noise
 "
-1
+2
 )
 ;
 /
 /
-kModerate
+kHigh
 pref
 (
 "
@@ -6145,7 +6145,7 @@ getusermedia
 .
 agc2_forced
 "
-false
+true
 )
 ;
 pref
@@ -6169,7 +6169,7 @@ getusermedia
 .
 transient_enabled
 "
-false
+true
 )
 ;
 #
