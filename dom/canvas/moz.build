@@ -467,6 +467,11 @@ OffscreenCanvas
 h
 "
 "
+OffscreenCanvasDisplayHelper
+.
+h
+"
+"
 QueueParamTraits
 .
 h
@@ -598,6 +603,11 @@ cpp
 "
 "
 OffscreenCanvas
+.
+cpp
+"
+"
+OffscreenCanvasDisplayHelper
 .
 cpp
 "
