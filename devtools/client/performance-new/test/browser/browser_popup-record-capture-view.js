@@ -242,6 +242,7 @@ await
 openPopupAndAssertUrlForPreset
 (
 {
+window
 preset
 :
 "
@@ -302,6 +303,7 @@ await
 openPopupAndAssertUrlForPreset
 (
 {
+window
 preset
 :
 "
@@ -335,6 +337,7 @@ function
 openPopupAndAssertUrlForPreset
 (
 {
+window
 preset
 expectedUrl
 }
@@ -367,6 +370,13 @@ async
 =
 >
 {
+const
+{
+document
+}
+=
+window
+;
 {
 /
 /
