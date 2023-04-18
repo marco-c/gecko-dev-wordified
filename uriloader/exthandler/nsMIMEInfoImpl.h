@@ -851,6 +851,14 @@ aURI
 =
 0
 ;
+bool
+AutomationOnlyCheckIfLaunchStubbed
+(
+nsIFile
+*
+aFile
+)
+;
 static
 already_AddRefed
 <
