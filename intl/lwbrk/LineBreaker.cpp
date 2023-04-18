@@ -7011,7 +7011,7 @@ end
 begin
 )
 ;
-GetJISx4051Breaks
+ComputeBreakPositions
 (
 aText
 +
@@ -7258,7 +7258,7 @@ void
 LineBreaker
 :
 :
-GetJISx4051Breaks
+ComputeBreakPositions
 (
 const
 char16_t
@@ -8173,7 +8173,7 @@ void
 LineBreaker
 :
 :
-GetJISx4051Breaks
+ComputeBreakPositions
 (
 const
 uint8_t

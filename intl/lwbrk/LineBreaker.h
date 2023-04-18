@@ -258,6 +258,7 @@ return
 /
 NS_LINEBREAKER_NEED_MORE_TEXT
 .
+static
 int32_t
 Next
 (
@@ -356,8 +357,9 @@ aBreakBefore
 output
 array
 .
+static
 void
-GetJISx4051Breaks
+ComputeBreakPositions
 (
 const
 char16_t
@@ -376,8 +378,9 @@ uint8_t
 aBreakBefore
 )
 ;
+static
 void
-GetJISx4051Breaks
+ComputeBreakPositions
 (
 const
 uint8_t
