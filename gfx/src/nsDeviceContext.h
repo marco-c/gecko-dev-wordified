@@ -731,9 +731,12 @@ device
 .
 *
 /
-uint32_t
+nsresult
 GetDepth
 (
+uint32_t
+&
+aDepth
 )
 ;
 /
