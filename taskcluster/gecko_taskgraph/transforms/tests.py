@@ -4658,25 +4658,12 @@ variants
 "
 )
 :
-optionally_keyed_by
-(
-            
-"
-test
--
-platform
-"
-"
-project
-"
 Any
 (
 list
 (
 TEST_VARIANTS
 )
-)
-        
 )
         
 #
@@ -9787,10 +9774,6 @@ time
         
 "
 chunks
-"
-        
-"
-variants
 "
         
 "
