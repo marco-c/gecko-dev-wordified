@@ -525,13 +525,13 @@ l10n
 id
 "
 "
-passwords
+lockwise
 -
 title
 -
 logged
 -
-in
+in2
 "
 )
 ;
@@ -626,7 +626,7 @@ l10n
 id
 "
 "
-passwords
+lockwise
 -
 header
 -
