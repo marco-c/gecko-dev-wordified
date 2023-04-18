@@ -543,20 +543,6 @@ lastversion
 "
         
 "
-services
-.
-sync
-.
-autoconnectDelay
-"
-:
-60
-*
-60
-*
-10
-        
-"
 toolkit
 .
 startup
