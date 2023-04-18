@@ -4100,6 +4100,12 @@ tidy
 #
 clangd
 #
+run
+-
+clang
+-
+tidy
+#
 include
 /
 #
@@ -4356,6 +4362,14 @@ clangd
 clang
 -
 query
+"
+        
+"
+run
+-
+clang
+-
+tidy
 "
     
 ]
