@@ -1127,7 +1127,7 @@ const
 {
 highlightItems
 listItems
-parentMap
+getParent
 sourceTree
 }
 =
@@ -1151,16 +1151,6 @@ getChildren
 :
 getChildren
 getParent
-:
-item
-=
->
-parentMap
-.
-get
-(
-item
-)
 getPath
 :
 this
