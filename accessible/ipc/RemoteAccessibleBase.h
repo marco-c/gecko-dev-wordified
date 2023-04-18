@@ -1682,6 +1682,12 @@ UINT32_MAX
 )
 override
 ;
+virtual
+bool
+TableIsProbablyForLayout
+(
+)
+;
 uint32_t
 GetCachedTextLength
 (
