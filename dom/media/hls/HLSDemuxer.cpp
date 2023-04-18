@@ -829,6 +829,9 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+HLSDemuxer
+"
 /
 *
 aSupportsTailDispatch

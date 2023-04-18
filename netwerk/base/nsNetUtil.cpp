@@ -9137,6 +9137,11 @@ target
 forget
 (
 )
+"
+nsNetUtil
+:
+BufferWriter
+"
 )
 ;
 }

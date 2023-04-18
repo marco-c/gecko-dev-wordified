@@ -235,6 +235,10 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+TestWatchManager
+Shutdown
+"
 )
 ;
 RefPtr

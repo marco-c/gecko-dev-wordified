@@ -186,6 +186,10 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+TestTaskQueue
+tq1
+"
 true
 )
 ;
@@ -205,6 +209,10 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+TestTaskQueue
+tq2
+"
 true
 )
 ;
@@ -224,6 +232,10 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+TestTaskQueue
+tq3
+"
 true
 )
 ;
@@ -614,6 +626,10 @@ MediaThreadType
 :
 SUPERVISOR
 )
+"
+TestTaskQueue
+GetCurrentSerialEventTarget
+"
 false
 )
 ;
