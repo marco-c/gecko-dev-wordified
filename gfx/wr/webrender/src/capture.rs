@@ -352,12 +352,12 @@ new
 (
 )
 .
-with_enumerate_arrays
+enumerate_arrays
 (
 true
 )
 .
-with_indentor
+indentor
 (
 "
 "
