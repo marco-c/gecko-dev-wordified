@@ -339,8 +339,6 @@ frame
 link
 -
 source
--
-inner
 "
 )
 ;
