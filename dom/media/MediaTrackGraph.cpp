@@ -5910,7 +5910,7 @@ t
 track
 -
 >
-AsAudioInputTrack
+AsAudioProcessingTrack
 (
 )
 ;

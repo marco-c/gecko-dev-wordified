@@ -2043,7 +2043,7 @@ Any
 thread
 AudioProcessingTrack
 *
-AsAudioInputTrack
+AsAudioProcessingTrack
 (
 )
 override
