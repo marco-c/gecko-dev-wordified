@@ -144,7 +144,7 @@ upgrade
 -
 dialog
 -
-colorway
+start
 -
 title
 "
