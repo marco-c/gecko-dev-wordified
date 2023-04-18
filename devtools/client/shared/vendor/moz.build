@@ -105,11 +105,6 @@ jszip
 js
 '
 '
-lodash
-.
-js
-'
-'
 react
 -
 dom
