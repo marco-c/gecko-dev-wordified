@@ -2970,8 +2970,6 @@ PlanarYCbCrData
 :
 From
 SurfaceDescriptorBuffer
-"
-"
 w
 /
 uintptr_t

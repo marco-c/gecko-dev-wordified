@@ -2036,8 +2036,6 @@ Graphics
 Direct3D11
 vs_5_0
 ps_5_0
-/
-/
 D3D11
 -
 27
