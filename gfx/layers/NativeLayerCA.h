@@ -1822,11 +1822,6 @@ IsVideo
 (
 )
 ;
-bool
-ShouldSpecializeVideo
-(
-)
-;
 void
 SetRootWindowIsFullscreen
 (
@@ -2204,6 +2199,15 @@ Maybe
 SurfaceWithInvalidRegion
 >
 GetUnusedSurfaceAndCleanUp
+(
+const
+MutexAutoLock
+&
+aProofOfLock
+)
+;
+bool
+ShouldSpecializeVideo
 (
 const
 MutexAutoLock
