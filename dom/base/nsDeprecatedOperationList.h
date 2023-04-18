@@ -366,3 +366,7 @@ DEPRECATED_OPERATION
 (
 DocumentReleaseCapture
 )
+DEPRECATED_OPERATION
+(
+OffscreenCanvasToBlob
+)
