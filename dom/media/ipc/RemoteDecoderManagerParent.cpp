@@ -693,9 +693,6 @@ PRemoteDecoderManagerParent
 &
 &
 aEndpoint
-const
-bool
-aAllowHardwareDecoding
 )
 {
 MOZ_ASSERT
@@ -745,7 +742,6 @@ new
 RemoteDecoderManagerParent
 (
 sRemoteDecoderManagerParentThread
-aAllowHardwareDecoding
 )
 ;
 RefPtr
@@ -930,18 +926,11 @@ RemoteDecoderManagerParent
 nsISerialEventTarget
 *
 aThread
-const
-bool
-aAllowHardwareDecoding
 )
 :
 mThread
 (
 aThread
-)
-mAllowHardwareDecoding
-(
-aAllowHardwareDecoding
 )
 {
 MOZ_COUNT_CTOR

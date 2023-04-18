@@ -348,8 +348,6 @@ Endpoint
 PRemoteDecoderManagerParent
 >
 endpoint
-bool
-allowHardwareDecoding
 )
 ;
 async

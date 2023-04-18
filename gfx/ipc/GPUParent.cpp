@@ -4011,12 +4011,6 @@ move
 (
 aEndpoint
 )
-/
-*
-AllowHardwareDecoding
-*
-/
-true
 )
 )
 {

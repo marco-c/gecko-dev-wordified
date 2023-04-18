@@ -1290,10 +1290,6 @@ PRemoteDecoderManagerParent
 &
 &
 aEndpoint
-const
-bool
-&
-aAllowHardwareDecoding
 )
 {
 if
@@ -1311,7 +1307,6 @@ move
 (
 aEndpoint
 )
-aAllowHardwareDecoding
 )
 )
 {

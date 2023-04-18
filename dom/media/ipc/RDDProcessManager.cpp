@@ -1795,15 +1795,6 @@ move
 (
 parentPipe
 )
-/
-*
-aAllowHardwareDecoding
-*
-/
-mNumUnexpectedCrashes
-=
-=
-0
 )
 ;
 *
