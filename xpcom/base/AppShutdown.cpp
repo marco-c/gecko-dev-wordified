@@ -474,10 +474,6 @@ nullptr
 /
 /
 CCPostLastCycleCollection
-nullptr
-/
-/
-PostJSShutDown
 }
 ;
 static_assert

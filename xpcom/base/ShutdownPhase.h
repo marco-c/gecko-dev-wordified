@@ -150,7 +150,6 @@ XPCOMShutdownThreads
 XPCOMShutdownLoaders
 XPCOMShutdownFinal
 CCPostLastCycleCollection
-JSPostShutDown
 ShutdownPhase_Length
 /
 /
