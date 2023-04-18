@@ -303,6 +303,44 @@ CommandArgument
     
 "
 -
+f
+"
+    
+"
+-
+-
+force
+"
+    
+action
+=
+"
+store_true
+"
+    
+help
+=
+"
+Force
+a
+re
+-
+vendor
+even
+if
+we
+'
+re
+up
+to
+date
+"
+)
+CommandArgument
+(
+    
+"
+-
 -
 verify
 "
@@ -419,6 +457,10 @@ check_for_update
 False
     
 add_to_exports
+=
+False
+    
+force
 =
 False
     
@@ -827,6 +869,8 @@ manifest
 revision
         
 check_for_update
+        
+force
         
 add_to_exports
         

@@ -189,6 +189,8 @@ revision
         
 check_for_update
         
+force
+        
 add_to_exports
         
 patch_mode
@@ -504,6 +506,9 @@ directory
 return
         
 if
+not
+force
+and
 self
 .
 manifest
