@@ -429,6 +429,8 @@ uint32_t
 aServiced
 uint32_t
 aUnderrun
+bool
+aAudioThreadChanged
 )
 ;
 /
@@ -1556,6 +1558,8 @@ AudioDataValue
 aAudio
 uint32_t
 aFrames
+bool
+aAudioThreadChanged
 )
 =
 0
@@ -2484,6 +2488,16 @@ atomic
 bool
 >
 mPreservesPitch
+;
+/
+/
+Audio
+thread
+only
+bool
+mAudioThreadChanged
+=
+false
 ;
 }
 ;
