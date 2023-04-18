@@ -1466,6 +1466,8 @@ NS_IsMainThread
 )
 )
 ;
+AUTO_PROFILER_THREAD_SLEEP
+;
 MOZ_ALWAYS_TRUE
 (
 PR_WaitCondVar

@@ -1545,6 +1545,8 @@ defined
 (
 ACCESSIBILITY
 )
+AUTO_PROFILER_THREAD_SLEEP
+;
 DWORD
 waitResult
 ;

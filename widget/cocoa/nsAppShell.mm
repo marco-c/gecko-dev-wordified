@@ -2037,6 +2037,10 @@ IDLE
 0
 )
 ;
+profiler_thread_sleep
+(
+)
+;
 }
 )
 ;
@@ -2058,6 +2062,10 @@ pop
 mProfilingStackWhileWaiting
 =
 nullptr
+;
+profiler_thread_wake
+(
+)
 ;
 }
 }
