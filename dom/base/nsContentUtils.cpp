@@ -889,6 +889,15 @@ include
 "
 mozilla
 /
+ProfilerRunnable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RangeBoundary
 .
 h
