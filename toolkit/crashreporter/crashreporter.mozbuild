@@ -184,12 +184,6 @@ typedefs
 -
 Wno
 -
-shadow
-'
-'
--
-Wno
--
 deprecated
 -
 declarations

@@ -1395,14 +1395,6 @@ Wno
 -
 error
 =
-shadow
-"
-"
--
-Wno
--
-error
-=
 stack
 -
 protector

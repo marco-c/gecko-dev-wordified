@@ -267,12 +267,6 @@ local
 -
 typedefs
 '
-'
--
-Wno
--
-shadow
-'
 ]
 if
 CONFIG

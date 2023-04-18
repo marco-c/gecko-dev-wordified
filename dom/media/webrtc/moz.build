@@ -701,14 +701,6 @@ error
 =
 attributes
 "
-"
--
-Wno
--
-error
-=
-shadow
-"
 ]
 DEFINES
 [

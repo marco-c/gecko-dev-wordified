@@ -848,14 +848,6 @@ CXXFLAGS
 -
 Wno
 -
-error
-=
-shadow
-"
-"
--
-Wno
--
 ignored
 -
 qualifiers
