@@ -116,6 +116,7 @@ from
 typing
 import
 Optional
+Callable
 from
 mach
 .
@@ -1352,9 +1353,14 @@ cls
 topsrcdir
 :
 str
-state_dir
+get_state_dir
 :
+Callable
+[
+[
+]
 str
+]
 )
 :
         
@@ -1374,18 +1380,37 @@ the
 Firefox
 repo
             
-state_dir
+get_state_dir
 :
-The
+A
+function
+that
+resolve
+the
 path
 to
 the
+workdir
+-
+scoped
+                
 state_dir
 generally
 ~
 /
 .
 mozbuild
+/
+srcdirs
+/
+<
+worktree
+-
+based
+-
+dir
+>
+/
         
 "
 "
@@ -1526,6 +1551,12 @@ source
 SitePackagesSource
 .
 VENV
+            
+state_dir
+=
+get_state_dir
+(
+)
         
 elif
 not
@@ -1541,6 +1572,10 @@ source
 SitePackagesSource
 .
 NONE
+            
+state_dir
+=
+None
         
 else
 :
@@ -1570,6 +1605,10 @@ SitePackagesSource
 NONE
             
 )
+            
+state_dir
+=
+None
         
 return
 cls
