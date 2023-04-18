@@ -640,6 +640,11 @@ class
 isTopLevelTarget
 :
 true
+sessionContext
+:
+createBrowserSessionContext
+(
+)
 }
 )
 ;
