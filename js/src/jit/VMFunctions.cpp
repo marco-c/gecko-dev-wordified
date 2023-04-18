@@ -530,7 +530,7 @@ template
 class
 >
 struct
-TypeToDataType
+ReturnTypeToDataType
 {
 /
 *
@@ -549,7 +549,7 @@ template
 <
 >
 struct
-TypeToDataType
+ReturnTypeToDataType
 <
 void
 >
@@ -567,7 +567,7 @@ template
 <
 >
 struct
-TypeToDataType
+ReturnTypeToDataType
 <
 bool
 >
@@ -587,7 +587,7 @@ class
 T
 >
 struct
-TypeToDataType
+ReturnTypeToDataType
 <
 T
 *
@@ -2736,7 +2736,7 @@ returnType
 )
 {
 return
-TypeToDataType
+ReturnTypeToDataType
 <
 R
 >
