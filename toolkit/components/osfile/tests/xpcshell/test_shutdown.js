@@ -24,7 +24,7 @@ jsm
 ;
 const
 {
-Promise
+PromiseUtils
 }
 =
 ChromeUtils
@@ -40,7 +40,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -134,7 +134,7 @@ function
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

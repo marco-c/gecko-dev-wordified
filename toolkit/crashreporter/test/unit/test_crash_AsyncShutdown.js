@@ -121,7 +121,7 @@ jsm
 ;
 const
 {
-Promise
+PromiseUtils
 }
 =
 ChromeUtils
@@ -137,7 +137,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -227,7 +227,7 @@ n
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -473,7 +473,7 @@ jsm
 ;
 const
 {
-Promise
+PromiseUtils
 }
 =
 ChromeUtils
@@ -489,7 +489,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -549,7 +549,7 @@ resolved
 )
 =
 >
-Promise
+PromiseUtils
 .
 defer
 (
@@ -808,7 +808,7 @@ jsm
 ;
 const
 {
-Promise
+PromiseUtils
 }
 =
 ChromeUtils
@@ -824,7 +824,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -884,7 +884,7 @@ resolved
 )
 =
 >
-Promise
+PromiseUtils
 .
 defer
 (

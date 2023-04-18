@@ -73,7 +73,7 @@ table
 tests
 const
 {
-Promise
+PromiseUtils
 }
 =
 ChromeUtils
@@ -89,7 +89,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -759,7 +759,7 @@ dbFile
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -996,7 +996,7 @@ null
 .
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

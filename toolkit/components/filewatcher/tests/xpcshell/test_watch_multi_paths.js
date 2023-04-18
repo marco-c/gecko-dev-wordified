@@ -300,7 +300,7 @@ unwatchedResources
 let
 deferredChanges
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -309,7 +309,7 @@ defer
 let
 deferredSuccesses
 =
-Promise
+PromiseUtils
 .
 defer
 (
@@ -318,7 +318,7 @@ defer
 let
 deferredShutdown
 =
-Promise
+PromiseUtils
 .
 defer
 (

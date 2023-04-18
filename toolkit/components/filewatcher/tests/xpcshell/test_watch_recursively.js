@@ -271,7 +271,7 @@ makeWatcher
 let
 deferred
 =
-Promise
+PromiseUtils
 .
 defer
 (

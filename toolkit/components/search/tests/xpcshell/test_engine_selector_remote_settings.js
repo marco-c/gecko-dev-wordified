@@ -39,7 +39,7 @@ defineLazyModuleGetters
 (
 this
 {
-Promise
+PromiseUtils
 :
 "
 resource
@@ -50,7 +50,7 @@ gre
 /
 modules
 /
-Promise
+PromiseUtils
 .
 jsm
 "
@@ -542,7 +542,7 @@ listenerSpy
 let
 promise
 =
-Promise
+PromiseUtils
 .
 defer
 (
