@@ -140,6 +140,15 @@ h
 #
 include
 "
+mozilla
+/
+NullPrincipal
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h

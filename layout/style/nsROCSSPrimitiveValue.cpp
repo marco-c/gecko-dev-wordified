@@ -136,6 +136,15 @@ h
 #
 include
 "
+mozilla
+/
+ErrorResult
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

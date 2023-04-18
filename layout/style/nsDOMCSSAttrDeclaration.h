@@ -153,6 +153,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoTypes
+.
+h
+"
+#
+include
+"
 nsDOMCSSDeclaration
 .
 h
