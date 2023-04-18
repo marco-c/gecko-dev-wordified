@@ -167,7 +167,7 @@ class
 NullHttpTransaction
 ;
 class
-SpdyConnectTransaction
+Http2ConnectTransaction
 ;
 /
 /
@@ -1183,7 +1183,7 @@ doing
 /
 dynamic_cast
 <
-SpdyConnectTransaction
+Http2ConnectTransaction
 *
 >
 (
@@ -1205,9 +1205,9 @@ for
 other
 types
 virtual
-SpdyConnectTransaction
+Http2ConnectTransaction
 *
-QuerySpdyConnectTransaction
+QueryHttp2ConnectTransaction
 (
 )
 {

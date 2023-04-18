@@ -163,7 +163,7 @@ h
 #
 include
 "
-TunnelUtils
+Http2ConnectTransaction
 .
 h
 "
@@ -20159,7 +20159,7 @@ nsHttpTransaction
 :
 SetH2WSTransaction
 (
-SpdyConnectTransaction
+Http2ConnectTransaction
 *
 aH2WSTransaction
 )
