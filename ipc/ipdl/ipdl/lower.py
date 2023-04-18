@@ -13929,19 +13929,6 @@ segmentSize
 )
                         
 flags
-                        
-#
-Pass
-true
-to
-recordWriteLatency
-to
-collect
-telemetry
-                        
-ExprLiteral
-.
-TRUE
                     
 ]
                 
