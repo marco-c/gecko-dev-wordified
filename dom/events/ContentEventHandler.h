@@ -2180,7 +2180,10 @@ uint32_t
 aNewOffset
 =
 nullptr
-nsIContent
+dom
+:
+:
+Text
 *
 *
 aLastTextNode
