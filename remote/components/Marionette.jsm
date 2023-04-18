@@ -1138,6 +1138,13 @@ requested
 "
 )
 ;
+RecommendedPreferences
+.
+applyPreferences
+(
+RECOMMENDED_PREFS
+)
+;
 /
 /
 Only
@@ -1905,13 +1912,6 @@ All
 scripts
 recorded
 .
-)
-;
-RecommendedPreferences
-.
-applyPreferences
-(
-RECOMMENDED_PREFS
 )
 ;
 try
