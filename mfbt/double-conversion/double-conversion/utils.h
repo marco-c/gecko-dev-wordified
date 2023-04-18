@@ -342,8 +342,12 @@ define
 DOUBLE_CONVERSION_UNIMPLEMENTED
 (
 )
+\
 MOZ_CRASH
 (
+"
+DOUBLE_CONVERSION_UNIMPLEMENTED
+"
 )
 #
 endif
@@ -395,6 +399,9 @@ abort_noreturn
 {
 MOZ_CRASH
 (
+"
+abort_noreturn
+"
 )
 ;
 }
@@ -415,8 +422,12 @@ define
 DOUBLE_CONVERSION_UNREACHABLE
 (
 )
+\
 MOZ_CRASH
 (
+"
+DOUBLE_CONVERSION_UNREACHABLE
+"
 )
 #
 endif
