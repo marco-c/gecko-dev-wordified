@@ -399,6 +399,7 @@ Promise
 *
 aPromise
 )
+const
 ;
 private
 :
