@@ -1463,7 +1463,7 @@ rd
 )
 &
 &
-PR_XIsLocked
+_PR_XIsLocked
 (
 )
 &
@@ -1479,7 +1479,7 @@ _pr_xt_hack_okayToReleaseXLock
 )
 )
 {
-PR_XUnlock
+_PR_XUnlock
 (
 )
 ;
@@ -1512,7 +1512,7 @@ if
 needToLockXAgain
 )
 {
-PR_XLock
+_PR_XLock
 (
 )
 ;
