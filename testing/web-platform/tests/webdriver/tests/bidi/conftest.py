@@ -74,7 +74,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 context_id
 max_depth

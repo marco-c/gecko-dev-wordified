@@ -104,7 +104,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 None
 )
@@ -300,7 +300,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 other_top_level_context_id
 )
@@ -410,7 +410,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 top_level_context_id
 )
@@ -424,7 +424,7 @@ all_contexts
 =
 1
     
-parent_info
+root_info
 =
 all_contexts
 [
@@ -434,7 +434,7 @@ all_contexts
 assert_browsing_context
 (
         
-parent_info
+root_info
         
 top_level_context_id
         
@@ -454,7 +454,7 @@ test_page_nested_frames
     
 child1_info
 =
-parent_info
+root_info
 [
 "
 children
@@ -513,7 +513,7 @@ browsing_context
 .
 get_tree
 (
-parent
+root
 =
 child1_info
 [
@@ -540,7 +540,7 @@ child_contexts
 0
 ]
         
-parent_info
+root_info
 [
 "
 children
@@ -561,7 +561,7 @@ children
         
 parent
 =
-parent_info
+root_info
 [
 "
 context

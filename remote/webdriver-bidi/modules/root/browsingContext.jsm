@@ -935,7 +935,7 @@ level
 contexts
 when
 no
-parent
+root
 is
 provided
 .
@@ -980,12 +980,12 @@ param
 string
 =
 }
-parent
+root
 *
 Id
 of
 the
-parent
+root
 browsing
 context
 .
@@ -1031,9 +1031,9 @@ const
 maxDepth
 =
 null
-parent
+root
 :
-parentId
+rootId
 =
 null
 }
@@ -1075,7 +1075,7 @@ contexts
 ;
 if
 (
-parentId
+rootId
 !
 =
 =
@@ -1086,7 +1086,7 @@ null
 /
 With
 a
-parent
+root
 id
 specified
 return
@@ -1106,10 +1106,10 @@ assert
 .
 string
 (
-parentId
+rootId
 Expected
 "
-parent
+root
 "
 to
 be
@@ -1117,7 +1117,7 @@ a
 string
 got
 {
-parentId
+rootId
 }
 )
 ;
@@ -1129,7 +1129,7 @@ this
 #
 getBrowsingContext
 (
-parentId
+rootId
 )
 ]
 ;
