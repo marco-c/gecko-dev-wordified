@@ -751,16 +751,6 @@ mInitialized
 false
 }
 ;
-Atomic
-<
-uint32_t
-Relaxed
->
-mBlocklistDurationSeconds
-{
-60
-}
-;
 Mutex
 mLock
 {
