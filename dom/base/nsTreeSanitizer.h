@@ -1246,6 +1246,15 @@ the
 URL
 attribute
 *
+param
+aFragmentsOnly
+allows
+same
+-
+document
+references
+only
+*
 return
 true
 if
@@ -1275,6 +1284,10 @@ aNamespace
 nsAtom
 *
 aLocalName
+bool
+aFragmentsOnly
+=
+false
 )
 ;
 /
