@@ -1571,7 +1571,7 @@ maybeNonDefaultEnclosingScope
 }
 computeInScope
 (
-maybeNonDefaultEnclosingScope
+maybeNonDefaultEnclosingScope_
 )
 ;
 cacheEnclosingScope
@@ -2078,14 +2078,15 @@ ScopeContext
 :
 computeInScope
 (
-Scope
-*
+const
+InputScope
+&
 enclosingScope
 )
 {
 for
 (
-ScopeIter
+InputScopeIter
 si
 (
 enclosingScope
