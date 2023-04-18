@@ -5254,9 +5254,9 @@ TargetActorRegistry
 .
 getTargetActors
 (
-sessionData
+targetActor
 .
-context
+browserId
 sessionData
 .
 connectionPrefix

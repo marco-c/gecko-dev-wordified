@@ -992,13 +992,6 @@ WatcherActor
 this
 .
 conn
-{
-type
-:
-"
-all
-"
-}
 )
 ;
 this
