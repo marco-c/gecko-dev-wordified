@@ -381,7 +381,7 @@ jit
 CPUInfo
 :
 :
-GetSSEVersion
+GetFingerprint
 (
 )
 )
@@ -407,7 +407,7 @@ jit
 CPUInfo
 :
 :
-GetSSEVersion
+GetFingerprint
 (
 )
 )
@@ -432,7 +432,7 @@ jit
 CPUInfo
 :
 :
-GetSSEVersion
+GetFingerprint
 (
 )
 )
@@ -458,7 +458,7 @@ jit
 CPUInfo
 :
 :
-GetSSEVersion
+GetFingerprint
 (
 )
 )
