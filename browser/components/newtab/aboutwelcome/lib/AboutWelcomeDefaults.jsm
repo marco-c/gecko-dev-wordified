@@ -298,9 +298,6 @@ text
 help_text
 :
 {
-text
-:
-{
 string_id
 :
 "
@@ -314,7 +311,6 @@ image
 -
 caption
 "
-}
 }
 has_noodles
 :
@@ -2512,8 +2508,6 @@ deleteIfNotEn
 content
 .
 help_text
-.
-text
 ;
 }
 let
