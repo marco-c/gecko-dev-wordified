@@ -2519,7 +2519,6 @@ dllSvc
 >
 StartUntrustedModulesProcessor
 (
-true
 )
 ;
 for
