@@ -7472,7 +7472,7 @@ WaylandPopupMarkAsClosed
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -7583,7 +7583,7 @@ bool
 aRemoveFromPopupList
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -7632,7 +7632,7 @@ gtk_widget_is_visible
 mShell
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 gtk_widget_is_visible
@@ -7959,7 +7959,7 @@ WaylandPopupHideTooltips
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -8014,7 +8014,7 @@ mPopupType
 ePopupTypeTooltip
 )
 {
-LOG_POPUP
+LOG
 (
 "
 hidding
@@ -8091,7 +8091,7 @@ CloseAllPopupsBeforeRemotePopup
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -8190,7 +8190,7 @@ IsWidgetOverflowWindow
 )
 )
 {
-LOG_POPUP
+LOG
 (
 "
 remote
@@ -8253,7 +8253,7 @@ popup
 remotePopup
 )
 {
-LOG_POPUP
+LOG
 (
 "
 hidding
@@ -8634,7 +8634,7 @@ nsIWidget
 aLayoutWidgetHierarchy
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -8729,7 +8729,7 @@ false
 )
 )
 {
-LOG_POPUP
+LOG
 (
 "
 hidding
@@ -8783,7 +8783,7 @@ nsIWidget
 aLayoutWidgetHierarchy
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -8852,7 +8852,7 @@ aMustMatchParent
 true
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -8910,7 +8910,7 @@ WaylandPopupHierarchyHideTemporary
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -8941,7 +8941,7 @@ while
 popup
 )
 {
-LOG_POPUP
+LOG
 (
 "
 temporary
@@ -9008,7 +9008,7 @@ WaylandPopupHierarchyShowTemporaryHidden
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -9046,7 +9046,7 @@ mPopupTemporaryHidden
 =
 false
 ;
-LOG_POPUP
+LOG
 (
 "
 showing
@@ -9086,7 +9086,7 @@ WaylandPopupHierarchyCalculatePositions
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -9119,7 +9119,7 @@ while
 popup
 )
 {
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -9206,7 +9206,7 @@ need
 to
 recalculate
 .
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -9354,7 +9354,7 @@ GetFontScaleFactor
 (
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -9421,7 +9421,7 @@ popup
 mPopupAnchored
 )
 {
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -9505,7 +9505,7 @@ popup
 mPopupAnchored
 )
 {
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -9568,7 +9568,7 @@ mWaylandToplevel
 nullptr
 )
 {
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -9609,7 +9609,7 @@ parentX
 parentY
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -9626,7 +9626,7 @@ n
 popup
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 parent
@@ -9644,7 +9644,7 @@ parentX
 parentY
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -9705,7 +9705,7 @@ y
 parentY
 ;
 }
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -10148,7 +10148,7 @@ LOG_ENABLED
 return
 ;
 }
-LOG_POPUP
+LOG
 (
 "
 Widget
@@ -10169,7 +10169,7 @@ mWaylandToplevel
 mWaylandPopupNext
 )
 {
-LOG_POPUP
+LOG
 (
 "
 Empty
@@ -10213,7 +10213,7 @@ indent
 "
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 %
@@ -10316,7 +10316,7 @@ mWaylandPopupNext
 ;
 }
 }
-LOG_POPUP
+LOG
 (
 "
 Layout
@@ -10354,7 +10354,7 @@ Length
 0
 )
 {
-LOG_POPUP
+LOG
 (
 "
 Empty
@@ -10430,7 +10430,7 @@ if
 window
 )
 {
-LOG_POPUP
+LOG
 (
 "
 %
@@ -10522,7 +10522,7 @@ mShell
 }
 else
 {
-LOG_POPUP
+LOG
 (
 "
 %
@@ -10617,7 +10617,7 @@ nsWindow
 parentWidget
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 Topmost
@@ -10842,7 +10842,7 @@ gtkTypeHint
 GDK_WINDOW_TYPE_HINT_UTILITY
 ;
 }
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -10901,7 +10901,7 @@ AddWindowToPopupHierarchy
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -10921,7 +10921,7 @@ GetFrame
 )
 )
 {
-LOG_POPUP
+LOG
 (
 "
 Window
@@ -11038,7 +11038,7 @@ UpdateWaylandPopupHierarchy
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -11081,7 +11081,7 @@ IsInPopupHierarchy
 )
 )
 {
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -11379,7 +11379,7 @@ if
 changedPopup
 )
 {
-LOG_POPUP
+LOG
 (
 "
 changed
@@ -11396,7 +11396,7 @@ n
 return
 ;
 }
-LOG_POPUP
+LOG
 (
 "
 first
@@ -11530,7 +11530,7 @@ parentOfchangedPopup
 mWaylandPopupNext
 )
 {
-LOG_POPUP
+LOG
 (
 "
 last
@@ -11729,7 +11729,7 @@ nullptr
 )
 ;
 }
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -11983,7 +11983,7 @@ moved
 resized
 )
 {
-LOG_POPUP
+LOG
 (
 "
 Another
@@ -12099,7 +12099,7 @@ resized
 return
 ;
 }
-LOG_POPUP
+LOG
 (
 "
 orig
@@ -12230,7 +12230,7 @@ aFinalSize
 height
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 new
@@ -12322,7 +12322,7 @@ if
 needsSizeUpdate
 )
 {
-LOG_POPUP
+LOG
 (
 "
 needSizeUpdate
@@ -12607,7 +12607,7 @@ TopLeft
 )
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 apply
@@ -12647,7 +12647,7 @@ return
 ;
 }
 }
-LOG_POPUP
+LOG
 (
 "
 needPositionUpdate
@@ -12889,7 +12889,7 @@ Size
 )
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -13175,7 +13175,7 @@ popupWidth
 }
 }
 }
-LOG_POPUP
+LOG
 (
 "
 set
@@ -13211,7 +13211,7 @@ mPopupPosition
 y
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 set
@@ -13283,7 +13283,7 @@ FractionalScaleFactor
 (
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 setting
@@ -13625,7 +13625,7 @@ Size
 )
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -13693,7 +13693,7 @@ AreBoundsSane
 )
 )
 {
-LOG_POPUP
+LOG
 (
 "
 Bounds
@@ -13729,7 +13729,7 @@ if
 mWaitingForMoveToRectCallback
 )
 {
-LOG_POPUP
+LOG
 (
 "
 waiting
@@ -13821,7 +13821,7 @@ if
 aResize
 )
 {
-LOG_POPUP
+LOG
 (
 "
 set
@@ -13897,7 +13897,7 @@ reposition
 the
 window
 .
-LOG_POPUP
+LOG
 (
 "
 fits
@@ -13951,7 +13951,7 @@ hierarchy
 is
 changed
 .
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -14498,7 +14498,7 @@ WaylandPopupMove
 (
 )
 {
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -14573,7 +14573,7 @@ GetFrame
 )
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 original
@@ -14597,7 +14597,7 @@ mPopupPosition
 y
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 relative
@@ -14621,7 +14621,7 @@ mRelativePopupPosition
 y
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 relative
@@ -14712,7 +14712,7 @@ with
 relative
 position
 .
-LOG_POPUP
+LOG
 (
 "
 use
@@ -14770,7 +14770,7 @@ y
 }
 else
 {
-LOG_POPUP
+LOG
 (
 "
 use
@@ -14874,7 +14874,7 @@ FractionalScaleFactor
 (
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -15240,7 +15240,7 @@ popupAlign
 anchorAlign
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 layout
@@ -15305,7 +15305,7 @@ popupMargin
 mAnchorMargin
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 after
@@ -15370,7 +15370,7 @@ anchorRectAppUnits
 p2a
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 final
@@ -15497,7 +15497,7 @@ y
 2
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 Set
@@ -15543,7 +15543,7 @@ if
 hasAnchorRect
 )
 {
-LOG_POPUP
+LOG
 (
 "
 No
@@ -15608,7 +15608,7 @@ parentX
 parentY
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 subtract
@@ -15642,7 +15642,7 @@ y
 parentY
 ;
 }
-LOG_POPUP
+LOG
 (
 "
 final
@@ -15681,7 +15681,7 @@ anchorRect
 height
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 parentRect
@@ -16049,7 +16049,7 @@ WaylandPopupRemoveNegativePosition
 (
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 move
@@ -34630,7 +34630,7 @@ eWindowType_popup
 parentnsWindow
 )
 {
-LOG_POPUP
+LOG
 (
 "
 popup
@@ -34648,7 +34648,7 @@ GdkIsWaylandDisplay
 )
 )
 {
-LOG_POPUP
+LOG
 (
 "
 switch
@@ -35724,7 +35724,7 @@ mIsDragPopup
 =
 true
 ;
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -35819,7 +35819,7 @@ mShell
 gtkTypeHint
 )
 ;
-LOG_POPUP
+LOG
 (
 "
 nsWindow
@@ -35850,7 +35850,7 @@ if
 parentnsWindow
 )
 {
-LOG_POPUP
+LOG
 (
 "
 set
