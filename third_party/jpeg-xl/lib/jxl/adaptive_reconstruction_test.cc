@@ -1168,6 +1168,8 @@ Init
 )
 )
 ;
+JXL_CHECK
+(
 state
 .
 InitForAC
@@ -1179,6 +1181,7 @@ pool
 *
 /
 nullptr
+)
 )
 ;
 JXL_CHECK

@@ -736,6 +736,10 @@ PassesEncoderState
 *
 JXL_RESTRICT
 state
+const
+JxlCmsInterface
+&
+cms
 ThreadPool
 *
 pool
@@ -763,6 +767,10 @@ idx
 CompressParams
 &
 cparams
+const
+JxlCmsInterface
+&
+cms
 ThreadPool
 *
 pool

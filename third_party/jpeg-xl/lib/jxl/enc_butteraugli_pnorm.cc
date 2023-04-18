@@ -1024,6 +1024,10 @@ const
 ImageBundle
 &
 ib2
+const
+JxlCmsInterface
+&
+cms
 )
 {
 PROFILER_FUNC
@@ -1086,6 +1090,7 @@ IsGray
 (
 )
 )
+cms
 &
 copy1
 )
@@ -1143,6 +1148,7 @@ IsGray
 (
 )
 )
+cms
 &
 copy2
 )
@@ -1688,6 +1694,10 @@ const
 ImageBundle
 &
 ib2
+const
+JxlCmsInterface
+&
+cms
 )
 {
 return
@@ -1698,6 +1708,7 @@ ComputeDistance2
 (
 ib1
 ib2
+cms
 )
 ;
 }

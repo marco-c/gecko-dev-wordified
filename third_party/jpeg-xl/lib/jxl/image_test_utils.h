@@ -692,9 +692,6 @@ small
 relative
 errors
 .
-Returns
-max_relative
-.
 template
 <
 typename

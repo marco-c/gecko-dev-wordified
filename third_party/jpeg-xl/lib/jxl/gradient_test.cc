@@ -247,6 +247,17 @@ lib
 /
 jxl
 /
+enc_color_management
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 enc_file
 .
 h
@@ -1572,6 +1583,9 @@ io
 enc_state
 &
 compressed
+GetJxlCms
+(
+)
 aux_out
 pool
 )
@@ -1606,6 +1620,9 @@ metadata
 m
 .
 color_encoding
+GetJxlCms
+(
+)
 pool
 )
 )
