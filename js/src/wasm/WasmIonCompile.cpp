@@ -17779,6 +17779,9 @@ move
 patches
 around
 .
+#
+ifdef
+ENABLE_WASM_EXCEPTIONS
 for
 (
 uint32_t
@@ -17883,6 +17886,8 @@ block
 }
 }
 }
+#
+endif
 /
 /
 Discard
