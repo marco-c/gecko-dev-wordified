@@ -332,7 +332,7 @@ add_task
 (
 async
 function
-unknownContentType_title_with_pref_disabled
+unknownContentType_title_with_pref_enabled
 (
 )
 {
@@ -351,9 +351,9 @@ browser
 .
 download
 .
-improvements_to_download_panel
+always_ask_before_handling_new_types
 "
-false
+true
 ]
 ]
 }
@@ -505,7 +505,7 @@ add_task
 (
 async
 function
-unknownContentType_title_with_pref_enabled
+unknownContentType_title_with_pref_disabled
 (
 )
 {
@@ -524,9 +524,9 @@ browser
 .
 download
 .
-improvements_to_download_panel
+always_ask_before_handling_new_types
 "
-true
+false
 ]
 ]
 }
@@ -597,7 +597,7 @@ If
 the
 pref
 is
-enabled
+disabled
 then
 the
 downloads

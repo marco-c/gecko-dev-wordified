@@ -609,9 +609,9 @@ browser
 .
 download
 .
-improvements_to_download_panel
+always_ask_before_handling_new_types
 "
-true
+false
 ]
 [
 "
@@ -785,9 +785,9 @@ browser
 .
 download
 .
-improvements_to_download_panelpref
+always_ask_before_handling_new_types
 is
-enabled
+disabled
 .
 *
 /
@@ -923,9 +923,9 @@ browser
 .
 download
 .
-improvements_to_download_panelpref
+always_ask_before_handling_new_types
 is
-enabled
+disabled
 .
 For
 this
