@@ -6177,6 +6177,9 @@ bytecode
 op
 .
 InlinedAccessor
+Last
+=
+InlinedAccessor
 }
 ;
 inline
