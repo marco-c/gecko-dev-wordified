@@ -981,7 +981,7 @@ return
 }
 RootedDictionary
 <
-ReadableStreamDefaultReadResult
+ReadableStreamReadResult
 >
 result
 (
@@ -1131,7 +1131,7 @@ true
 .
 RootedDictionary
 <
-ReadableStreamDefaultReadResult
+ReadableStreamReadResult
 >
 result
 (
