@@ -3154,7 +3154,7 @@ sound
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .
