@@ -681,8 +681,14 @@ StaticPrefs
 layout_css_d_property_enabled
 (
 )
-&
-&
+)
+{
+FlushStyleIfNeeded
+(
+)
+;
+if
+(
 SVGGeometryProperty
 :
 :
@@ -696,6 +702,7 @@ callback
 return
 seg
 ;
+}
 }
 return
 mD
