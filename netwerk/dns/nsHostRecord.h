@@ -1711,6 +1711,14 @@ return
 mEffectiveTRRMode
 ;
 }
+nsresult
+GetTtl
+(
+uint32_t
+*
+aResult
+)
+;
 private
 :
 friend
