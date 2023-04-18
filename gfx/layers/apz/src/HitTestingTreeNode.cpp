@@ -239,10 +239,6 @@ ScrollableLayerGuid
 :
 NULL_SCROLL_ID
 )
-mIsBackfaceHidden
-(
-false
-)
 mOverride
 (
 EventRegionsOverride
@@ -1396,8 +1392,6 @@ const
 EventRegionsOverride
 &
 aOverride
-bool
-aIsBackfaceHidden
 const
 Maybe
 <
@@ -1433,10 +1427,6 @@ aClipRegion
 mOverride
 =
 aOverride
-;
-mIsBackfaceHidden
-=
-aIsBackfaceHidden
 ;
 mAsyncZoomContainerId
 =

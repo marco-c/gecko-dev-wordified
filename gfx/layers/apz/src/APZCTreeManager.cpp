@@ -8412,11 +8412,6 @@ aClipRegion
 aOverrideFlags
 aLayer
 .
-IsBackfaceHidden
-(
-)
-aLayer
-.
 GetAsyncZoomContainerId
 (
 )
