@@ -5015,12 +5015,9 @@ do
 {
 if
 (
-HTMLAnchorElement
-.
-isInstance
-(
 node
-)
+instanceof
+HTMLAnchorElement
 )
 {
 isInsideLink

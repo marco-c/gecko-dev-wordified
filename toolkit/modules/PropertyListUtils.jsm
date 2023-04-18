@@ -905,12 +905,9 @@ Ci
 nsIFile
 |
 |
-File
-.
-isInstance
-(
 aFile
-)
+instanceof
+File
 )
 )
 {

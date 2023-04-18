@@ -1231,12 +1231,9 @@ address
 ;
 if
 (
-JSWindowActorParent
-.
-isInstance
-(
 actor
-)
+instanceof
+JSWindowActorParent
 )
 {
 address

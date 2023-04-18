@@ -2082,12 +2082,9 @@ ex
 {
 if
 (
-DOMException
-.
-isInstance
-(
 ex
-)
+instanceof
+DOMException
 &
 &
 ex

@@ -2118,14 +2118,11 @@ in
 focusedElement
 &
 &
-BrowsingContext
-.
-isInstance
-(
 focusedElement
 .
 browsingContext
-)
+instanceof
+BrowsingContext
 )
 {
 return

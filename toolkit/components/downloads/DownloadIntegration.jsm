@@ -3692,11 +3692,10 @@ continue
 if
 (
 !
-DOMException
-.
-isInstance
 (
 ex
+instanceof
+DOMException
 )
 )
 {
@@ -4003,11 +4002,10 @@ completing
 if
 (
 !
-DOMException
-.
-isInstance
 (
 ex
+instanceof
+DOMException
 )
 )
 {

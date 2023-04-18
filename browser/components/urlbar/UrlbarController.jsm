@@ -5782,12 +5782,9 @@ else
 {
 action
 =
-MouseEvent
-.
-isInstance
-(
 event
-)
+instanceof
+MouseEvent
 ?
 "
 click

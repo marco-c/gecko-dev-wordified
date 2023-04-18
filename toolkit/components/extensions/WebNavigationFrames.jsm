@@ -561,12 +561,9 @@ target
 {
 if
 (
-Window
-.
-isInstance
-(
 target
-)
+instanceof
+Window
 )
 {
 return
