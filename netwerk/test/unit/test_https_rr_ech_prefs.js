@@ -278,7 +278,7 @@ network
 .
 http
 .
-spdy
+http2
 .
 enabled
 "
@@ -2806,7 +2806,7 @@ network
 .
 http
 .
-spdy
+http2
 .
 enabled
 "
@@ -3219,7 +3219,7 @@ network
 .
 http
 .
-spdy
+http2
 .
 enabled
 "

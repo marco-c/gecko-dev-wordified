@@ -405,7 +405,7 @@ static
 uint32_t
 kSendingChunkSize
 =
-4095
+16000
 ;
 const
 static
@@ -414,6 +414,18 @@ kTCPSendBufferSize
 =
 131072
 ;
+const
+static
+uint32_t
+kInitialPushAllowance
+=
+131072
+;
+/
+/
+match
+default
+pref
 /
 /
 This

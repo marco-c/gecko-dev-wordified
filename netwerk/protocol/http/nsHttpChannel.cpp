@@ -4578,10 +4578,10 @@ websocket
 )
 &
 &
-gHttpHandler
--
->
-IsH2WebsocketsEnabled
+StaticPrefs
+:
+:
+network_http_http2_websockets
 (
 )
 )
