@@ -120,6 +120,11 @@ BaseQueuingStrategy
 h
 "
 "
+ByteLengthQueuingStrategy
+.
+h
+"
+"
 ByteStreamHelpers
 .
 h
@@ -229,6 +234,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+ByteLengthQueuingStrategy
+.
+cpp
+"
 "
 ByteStreamHelpers
 .
