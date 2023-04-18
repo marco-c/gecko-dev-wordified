@@ -7275,6 +7275,18 @@ self
 device_serial
 :
             
+#
+Assume
+we
+have
+same
+version
+of
+browser
+on
+all
+devices
+            
 command
 .
 extend
@@ -7287,6 +7299,9 @@ s
 self
 .
 device_serial
+[
+0
+]
 ]
 )
         
