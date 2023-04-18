@@ -526,6 +526,13 @@ aElement
 this
 )
 ;
+mMenuGroupOwner
+-
+>
+RegisterForLocaleChanges
+(
+)
+;
 mNativeMenu
 =
 [
@@ -677,6 +684,13 @@ sPrefItemContent
 nullptr
 ;
 }
+mMenuGroupOwner
+-
+>
+UnregisterForLocaleChanges
+(
+)
+;
 /
 /
 make

@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsTHashMap
 .
 h
@@ -261,6 +268,8 @@ nsMenuGroupOwnerX
 :
 public
 nsIMutationObserver
+public
+nsIObserver
 {
 public
 :
@@ -330,6 +339,16 @@ uint32_t
 aCommandID
 )
 ;
+void
+RegisterForLocaleChanges
+(
+)
+;
+void
+UnregisterForLocaleChanges
+(
+)
+;
 /
 /
 The
@@ -390,6 +409,7 @@ get
 ;
 }
 NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
 NS_DECL_NSIMUTATIONOBSERVER
 protected
 :
