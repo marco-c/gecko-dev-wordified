@@ -467,12 +467,6 @@ kSPACE
 '
 '
 ;
-constexpr
-int32_t
-kNoFlags
-=
-0
-;
 static
 int32_t
 HeaderLevel
