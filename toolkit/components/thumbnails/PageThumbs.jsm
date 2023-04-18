@@ -3451,7 +3451,7 @@ infer
 URL
 frecency
 .
-_updateRevision
+updateRevision
 (
 aURL
 )
@@ -3715,7 +3715,7 @@ null
 {
 this
 .
-_updateRevision
+updateRevision
 (
 aURL
 )
@@ -3950,7 +3950,7 @@ then
 >
 this
 .
-_updateRevision
+updateRevision
 (
 aURL
 )
@@ -4101,7 +4101,7 @@ then
 >
 this
 .
-_updateRevision
+updateRevision
 (
 aTargetURL
 )
