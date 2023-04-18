@@ -147,7 +147,7 @@ targetCommand
 .
 descriptorFront
 .
-isLocalTab
+isTabDescriptor
 ;
 /
 /
