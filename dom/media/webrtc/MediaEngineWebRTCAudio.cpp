@@ -3125,6 +3125,10 @@ mEnded
 (
 false
 )
+mPacketCount
+(
+0
+)
 {
 }
 void
