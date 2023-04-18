@@ -292,6 +292,11 @@ WEBIDL_FILES
 =
 [
 "
+BrowserSessionStore
+.
+webidl
+"
+"
 BrowsingContext
 .
 webidl

@@ -15133,7 +15133,7 @@ browser_sessionstore_dom_storage_limit
 )
 /
 *
-aCancelSessionStoreTiemr
+aClearSessionStoreTimer
 =
 *
 /

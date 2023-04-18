@@ -74,6 +74,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+IPDLParamTraits
+.
+h
+"
+#
+include
+"
 SessionStoreData
 .
 h

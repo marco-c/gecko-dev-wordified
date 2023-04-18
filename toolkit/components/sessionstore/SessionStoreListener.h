@@ -434,7 +434,7 @@ is
 in
 parent
 process
-bool
+void
 ForceFlushFromParent
 (
 )
@@ -527,7 +527,7 @@ RemoveEventListeners
 (
 )
 ;
-bool
+void
 UpdateSessionStore
 (
 bool
