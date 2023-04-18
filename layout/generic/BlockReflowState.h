@@ -127,10 +127,10 @@ frames
 /
 #
 ifndef
-BlockReflowInput_h
+BlockReflowState_h
 #
 define
-BlockReflowInput_h
+BlockReflowState_h
 #
 include
 <
@@ -173,7 +173,7 @@ mozilla
 {
 /
 /
-BlockReflowInput
+BlockReflowState
 contains
 additional
 reflow
@@ -213,7 +213,7 @@ its
 children
 .
 class
-BlockReflowInput
+BlockReflowState
 {
 using
 BandInfoType
@@ -284,7 +284,7 @@ false
 Set
 in
 the
-BlockReflowInput
+BlockReflowState
 constructor
 when
 reflowing
@@ -354,7 +354,7 @@ mIsBStartMarginRoot
 Set
 in
 the
-BlockReflowInput
+BlockReflowState
 constructor
 when
 reflowing
@@ -618,7 +618,7 @@ also
 set
 in
 the
-BlockReflowInput
+BlockReflowState
 constructor
 if
 /
@@ -752,7 +752,7 @@ mCanHaveOverflowMarkers
 ;
 public
 :
-BlockReflowInput
+BlockReflowState
 (
 const
 ReflowInput
@@ -1131,7 +1131,7 @@ lifetime
 of
 "
 "
-BlockReflowInput
+BlockReflowState
 !
 "
 )
@@ -2980,4 +2980,4 @@ mozilla
 endif
 /
 /
-BlockReflowInput_h
+BlockReflowState_h

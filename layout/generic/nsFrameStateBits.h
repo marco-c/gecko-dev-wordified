@@ -4878,7 +4878,7 @@ IsMarginRoot
 This
 causes
 the
-BlockReflowInput
+BlockReflowState
 '
 s
 constructor

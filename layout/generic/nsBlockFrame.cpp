@@ -595,7 +595,7 @@ AbsPosReflowFlags
 using
 ClearFloatsResult
 =
-BlockReflowInput
+BlockReflowState
 :
 :
 ClearFloatsResult
@@ -9351,7 +9351,7 @@ blockStartMarginRoot
 blockEndMarginRoot
 )
 ;
-BlockReflowInput
+BlockReflowState
 state
 (
 *
@@ -10711,7 +10711,7 @@ reflow
 see
 /
 /
-BlockReflowInput
+BlockReflowState
 '
 s
 constructor
@@ -13264,7 +13264,7 @@ const
 ReflowInput
 &
 aReflowInput
-BlockReflowInput
+BlockReflowState
 &
 aState
 ReflowOutput
@@ -17284,7 +17284,7 @@ nsBlockFrame
 :
 PrepareResizeReflow
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 )
@@ -18091,7 +18091,7 @@ nsBlockFrame
 :
 PropagateFloatDamage
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -18805,7 +18805,7 @@ void
 DumpLine
 (
 const
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -19076,7 +19076,7 @@ nsBlockFrame
 :
 ReflowDirtyLines
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 )
@@ -24834,7 +24834,7 @@ nsBlockFrame
 :
 DeleteLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineList
@@ -25015,7 +25015,7 @@ nsBlockFrame
 :
 ReflowLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -25317,7 +25317,7 @@ nsBlockFrame
 :
 PullFrame
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -25992,7 +25992,7 @@ nsBlockFrame
 :
 SlideLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -26992,7 +26992,7 @@ nsBlockFrame
 :
 ShouldApplyBStartMargin
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -27333,7 +27333,7 @@ nsBlockFrame
 :
 ReflowBlockFrame
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -29639,7 +29639,7 @@ do
 in
 /
 /
-BlockReflowInput
+BlockReflowState
 :
 :
 ComputeBlockAvailSpace
@@ -32468,7 +32468,7 @@ nsBlockFrame
 :
 ReflowInlineFrames
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -33001,7 +33001,7 @@ nsBlockFrame
 :
 PushTruncatedLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -33041,7 +33041,7 @@ nsBlockFrame
 :
 DoReflowInlineFrames
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineLayout
@@ -34312,7 +34312,7 @@ code
 for
 blocks
 in
-BlockReflowInput
+BlockReflowState
 :
 :
 ClearFloats
@@ -35031,7 +35031,7 @@ nsBlockFrame
 :
 ReflowInlineFrame
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineLayout
@@ -36069,7 +36069,7 @@ nsBlockFrame
 :
 CreateContinuationFor
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -36161,7 +36161,7 @@ nsBlockFrame
 :
 SplitFloat
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsIFrame
@@ -36640,7 +36640,7 @@ nsBlockFrame
 :
 SplitLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineLayout
@@ -37128,7 +37128,7 @@ nsBlockFrame
 :
 IsLastLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -37328,7 +37328,7 @@ nsBlockFrame
 :
 PlaceLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineLayout
@@ -37723,7 +37723,7 @@ like
 we
 did
 in
-BlockReflowInput
+BlockReflowState
 :
 :
 AddFloat
@@ -39311,7 +39311,7 @@ nsBlockFrame
 :
 PushLines
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineList
@@ -41030,7 +41030,7 @@ are
 reflowed
 by
 (
-BlockReflowInput
+BlockReflowState
 /
 nsLineLayout
 )
@@ -45312,7 +45312,7 @@ yet
 need
 to
 investigate
-BlockReflowInput
+BlockReflowState
 :
 :
 mPushedFloats
@@ -49947,7 +49947,7 @@ nsBlockFrame
 :
 AdjustFloatAvailableSpace
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 const
@@ -50027,7 +50027,7 @@ nsBlockFrame
 :
 ComputeFloatISize
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 const
@@ -50142,7 +50142,7 @@ nsBlockFrame
 :
 ReflowFloat
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 const
@@ -50856,7 +50856,7 @@ be
 doing
 this
 in
-BlockReflowInput
+BlockReflowState
 :
 :
 FlowAndPlaceFloat
@@ -51114,7 +51114,7 @@ nsBlockFrame
 :
 ReflowPushedFloats
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 OverflowAreas
@@ -56755,7 +56755,7 @@ ReflowOutsideMarker
 nsIFrame
 *
 aMarkerFrame
-BlockReflowInput
+BlockReflowState
 &
 aState
 ReflowOutput
@@ -57651,7 +57651,7 @@ nsBlockFrame
 :
 CheckFloats
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 )
@@ -58559,7 +58559,7 @@ nsBlockFrame
 ISizeToClearPastFloats
 (
 const
-BlockReflowInput
+BlockReflowState
 &
 aState
 const
@@ -58913,7 +58913,7 @@ nsBlockFrame
 :
 ComputeFinalBSize
 (
-BlockReflowInput
+BlockReflowState
 &
 aBri
 nscoord

@@ -194,12 +194,12 @@ class
 nsLineLayout
 {
 using
-BlockReflowInput
+BlockReflowState
 =
 mozilla
 :
 :
-BlockReflowInput
+BlockReflowState
 ;
 using
 ReflowInput
@@ -274,7 +274,7 @@ nsLineLayout
 void
 Init
 (
-BlockReflowInput
+BlockReflowState
 *
 aState
 nscoord
@@ -2644,7 +2644,7 @@ nsLineLayout
 :
 :
 AddFloat
-BlockReflowInput
+BlockReflowState
 *
 mBlockRI
 ;

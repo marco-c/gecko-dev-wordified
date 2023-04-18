@@ -397,7 +397,7 @@ namespace
 mozilla
 {
 class
-BlockReflowInput
+BlockReflowState
 ;
 class
 PresShell
@@ -700,12 +700,12 @@ public
 nsContainerFrame
 {
 using
-BlockReflowInput
+BlockReflowState
 =
 mozilla
 :
 :
-BlockReflowInput
+BlockReflowState
 ;
 public
 :
@@ -2229,7 +2229,7 @@ frame
 *
 param
 aBri
-BlockReflowInput
+BlockReflowState
 passed
 from
 parent
@@ -2396,7 +2396,7 @@ mode
 nscoord
 ComputeFinalBSize
 (
-BlockReflowInput
+BlockReflowState
 &
 aBri
 nscoord
@@ -2587,7 +2587,7 @@ static
 nsresult
 GetCurrentLine
 (
-BlockReflowInput
+BlockReflowState
 *
 aState
 nsLineBox
@@ -2787,7 +2787,7 @@ ReplacedElementISizeToClear
 ISizeToClearPastFloats
 (
 const
-BlockReflowInput
+BlockReflowState
 &
 aState
 const
@@ -2866,7 +2866,7 @@ status
 void
 SplitFloat
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsIFrame
@@ -3275,7 +3275,7 @@ manager
 void
 SlideLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -3321,7 +3321,7 @@ const
 ReflowInput
 &
 aReflowInput
-BlockReflowInput
+BlockReflowState
 &
 aState
 ReflowOutput
@@ -4593,7 +4593,7 @@ floats
 void
 ReflowPushedFloats
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 mozilla
@@ -4782,7 +4782,7 @@ dirty
 void
 PrepareResizeReflow
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 )
@@ -4803,7 +4803,7 @@ dirty
 void
 ReflowDirtyLines
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 )
@@ -4946,7 +4946,7 @@ lines
 void
 ReflowLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -4996,7 +4996,7 @@ otherwise
 bool
 PlaceLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineLayout
@@ -5151,7 +5151,7 @@ go
 bool
 IsLastLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -5161,7 +5161,7 @@ aLine
 void
 DeleteLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineList
@@ -5228,7 +5228,7 @@ reflow
 bool
 ShouldApplyBStartMargin
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -5239,7 +5239,7 @@ aLine
 void
 ReflowBlockFrame
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -5252,7 +5252,7 @@ aKeepGoing
 void
 ReflowInlineFrames
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -5265,7 +5265,7 @@ aKeepLineGoing
 void
 DoReflowInlineFrames
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineLayout
@@ -5298,7 +5298,7 @@ aAllowPullUp
 void
 ReflowInlineFrame
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineLayout
@@ -5330,7 +5330,7 @@ mozilla
 LogicalRect
 AdjustFloatAvailableSpace
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 const
@@ -5357,7 +5357,7 @@ float
 nscoord
 ComputeFloatISize
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 const
@@ -5412,7 +5412,7 @@ AdjustFloatAvailableSpace
 void
 ReflowFloat
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 const
@@ -5594,7 +5594,7 @@ not
 bool
 CreateContinuationFor
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -5648,7 +5648,7 @@ incomplete
 void
 PushTruncatedLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -5661,7 +5661,7 @@ aKeepReflowGoing
 void
 SplitLine
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineLayout
@@ -5720,7 +5720,7 @@ nsIFrame
 *
 PullFrame
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 LineIterator
@@ -5899,7 +5899,7 @@ line
 void
 PushLines
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineList
@@ -5912,7 +5912,7 @@ aLineBefore
 void
 PropagateFloatDamage
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 nsLineBox
@@ -5925,7 +5925,7 @@ aDeltaBCoord
 void
 CheckFloats
 (
-BlockReflowInput
+BlockReflowState
 &
 aState
 )
@@ -5983,7 +5983,7 @@ ReflowOutsideMarker
 nsIFrame
 *
 aMarkerFrame
-BlockReflowInput
+BlockReflowState
 &
 aState
 ReflowOutput
@@ -6505,7 +6505,7 @@ class
 mozilla
 :
 :
-BlockReflowInput
+BlockReflowState
 ;
 friend
 class

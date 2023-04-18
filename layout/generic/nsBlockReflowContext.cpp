@@ -1588,7 +1588,7 @@ aFrameRI
 nsReflowStatus
 &
 aFrameReflowStatus
-BlockReflowInput
+BlockReflowState
 &
 aState
 )
