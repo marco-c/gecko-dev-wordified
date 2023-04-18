@@ -21346,12 +21346,6 @@ rv
 rv
 =
 =
-NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
-|
-|
-rv
-=
-=
 NS_ERROR_FILE_NOT_FOUND
 ;
 }
