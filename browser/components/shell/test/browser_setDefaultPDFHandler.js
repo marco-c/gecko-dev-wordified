@@ -478,7 +478,7 @@ aumi
 pdf
 "
 "
-FirefoxHTML
+FirefoxPDF
 "
 ]
 }
@@ -690,7 +690,7 @@ aumi
 pdf
 "
 "
-FirefoxHTML
+FirefoxPDF
 "
 ]
 }

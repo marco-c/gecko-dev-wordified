@@ -205,7 +205,7 @@ L
 pdf
 "
 "
-FirefoxHTML
+FirefoxPDF
 "
 nullptr
 *
