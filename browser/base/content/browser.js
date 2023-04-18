@@ -12101,6 +12101,10 @@ init
 (
 )
 ;
+UpdateUrlbarSearchSplitterState
+(
+)
+;
 PanelUI
 .
 init
@@ -12108,7 +12112,9 @@ init
 shouldSuppressPopupNotifications
 )
 ;
-UpdateUrlbarSearchSplitterState
+gTabsPanel
+.
+init
 (
 )
 ;
