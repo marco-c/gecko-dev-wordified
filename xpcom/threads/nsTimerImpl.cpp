@@ -3660,7 +3660,7 @@ nsCOMPtr
 <
 nsITimer
 >
-kungFuDeathGrip
+timer
 ;
 {
 /
@@ -3784,7 +3784,7 @@ in
 the
 callback
 .
-kungFuDeathGrip
+timer
 =
 mITimer
 ;
@@ -4060,7 +4060,7 @@ i
 >
 Notify
 (
-mITimer
+timer
 )
 ;
 }
@@ -4079,7 +4079,7 @@ o
 >
 Observe
 (
-mITimer
+timer
 NS_TIMER_CALLBACK_TOPIC
 nullptr
 )
@@ -4099,7 +4099,7 @@ f
 .
 mFunc
 (
-mITimer
+timer
 f
 .
 mClosure
@@ -4120,7 +4120,7 @@ c
 .
 mFunc
 (
-mITimer
+timer
 )
 ;
 }
