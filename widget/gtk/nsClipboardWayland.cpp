@@ -249,10 +249,10 @@ mozilla
 :
 widget
 ;
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 (
 void
 )
@@ -275,7 +275,7 @@ mClipboardDataLength
 mMutex
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 "
 )
 {
@@ -291,7 +291,7 @@ int
 aClipboardRequestNumber
 RefPtr
 <
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 >
 aRetrievalContex
 )
@@ -321,7 +321,7 @@ mClipboardRequestNumber
 ;
 RefPtr
 <
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 >
 mRetrievalContex
 ;
@@ -379,7 +379,7 @@ fastTrack
 mRetrievalContex
 -
 >
-TransferAsyncClipboardData
+TransferClipboardData
 (
 fastTrack
 -
@@ -446,7 +446,7 @@ fastTrack
 mRetrievalContex
 -
 >
-TransferAsyncClipboardData
+TransferClipboardData
 (
 fastTrack
 -
@@ -468,10 +468,10 @@ fastTrack
 ;
 }
 void
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
-TransferAsyncClipboardData
+TransferClipboardData
 (
 ClipboardDataType
 aDataType
@@ -486,10 +486,10 @@ aData
 LOGCLIP
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
-TransferAsyncClipboardData
+TransferClipboardData
 (
 )
 "
@@ -904,7 +904,7 @@ break
 }
 GdkAtom
 *
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 GetTargets
@@ -919,7 +919,7 @@ aTargetNum
 LOGCLIP
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 GetTargets
@@ -943,7 +943,7 @@ TryLock
 LOGCLIP
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 is
 already
 used
@@ -981,7 +981,7 @@ to
 /
 /
 unlock
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 .
 auto
 unlock
@@ -1091,10 +1091,10 @@ integer
 see
 /
 /
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
-TransferAsyncClipboardData
+TransferClipboardData
 (
 )
 *
@@ -1154,7 +1154,7 @@ targets
 const
 char
 *
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 GetClipboardData
@@ -1173,7 +1173,7 @@ aContentLength
 LOGCLIP
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 GetClipboardData
@@ -1201,7 +1201,7 @@ TryLock
 LOGCLIP
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 is
 already
 used
@@ -1321,7 +1321,7 @@ mClipboardData
 const
 char
 *
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 GetClipboardText
@@ -1341,7 +1341,7 @@ aWhichClipboard
 LOGCLIP
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 GetClipboardText
@@ -1382,7 +1382,7 @@ TryLock
 LOGCLIP
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 is
 already
 used
@@ -1472,7 +1472,7 @@ mClipboardData
 ;
 }
 bool
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 WaitForClipboardContent
@@ -1609,7 +1609,7 @@ nullptr
 ;
 }
 void
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 ReleaseClipboardData
@@ -1623,7 +1623,7 @@ aClipboardData
 LOGCLIP
 (
 "
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 :
 :
 ReleaseClipboardData

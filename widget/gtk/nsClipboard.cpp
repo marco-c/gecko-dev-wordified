@@ -779,7 +779,7 @@ GdkIsWaylandDisplay
 mContext
 =
 new
-nsRetrievalContextWaylandAsync
+nsRetrievalContextWayland
 (
 )
 ;
