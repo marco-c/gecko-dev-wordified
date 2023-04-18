@@ -1182,10 +1182,14 @@ stuff
 *
 /
 static
+Atomic
+<
 int64_t
+>
 gCanvasAzureMemoryUsed
-=
+(
 0
+)
 ;
 /
 /
