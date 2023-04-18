@@ -6979,7 +6979,7 @@ image
 wrapper
 -
 >
-AsPlanarYCbCrImage
+AsImage
 (
 )
 ;
