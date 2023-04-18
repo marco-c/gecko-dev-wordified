@@ -15481,7 +15481,7 @@ lineOrBytecode
 CallSiteDesc
 :
 :
-Indirect
+Dynamic
 )
 ;
 ArgTypeVector
@@ -15640,7 +15640,7 @@ lineOrBytecode
 CallSiteDesc
 :
 :
-Import
+Dynamic
 )
 ;
 auto
