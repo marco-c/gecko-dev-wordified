@@ -808,6 +808,9 @@ paneContainers
 "
 paneExperimental
 "
+"
+paneMoreFromMozilla
+"
 ]
 ;
 const
