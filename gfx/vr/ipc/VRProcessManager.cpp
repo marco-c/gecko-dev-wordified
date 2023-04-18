@@ -1402,6 +1402,15 @@ GetPreference
 (
 &
 pref
+GeckoProcessType_VR
+/
+*
+remoteType
+*
+/
+"
+"
+_ns
 )
 ;
 if

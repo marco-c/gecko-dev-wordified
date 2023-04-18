@@ -3649,6 +3649,15 @@ GetPreference
 (
 &
 pref
+GeckoProcessType_Socket
+/
+*
+remoteType
+*
+/
+"
+"
+_ns
 )
 ;
 auto
