@@ -61,8 +61,10 @@ from
 __future__
 import
 unicode_literals
+from
+pathlib
 import
-os
+Path
 from
 buildconfig
 import
@@ -225,15 +227,20 @@ self
 .
 _run_mach
 (
+            
 args
+Path
+(
 "
 conditions
 .
 py
 "
+)
 context_handler
 =
 context_handler
+        
 )
     
 def
@@ -513,10 +520,13 @@ m
 =
 Mach
 (
-os
-.
-getcwd
+str
 (
+Path
+.
+cwd
+(
+)
 )
 )
         
@@ -551,19 +561,13 @@ m
 .
 load_commands_from_file
             
-os
-.
-path
-.
-join
-(
 PROVIDER_DIR
+/
 "
 conditions_invalid
 .
 py
 "
-)
         
 )
     

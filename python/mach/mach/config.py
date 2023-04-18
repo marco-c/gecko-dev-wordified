@@ -150,11 +150,18 @@ collections
 .
 abc
 import
-os
-import
 sys
 import
 six
+from
+pathlib
+import
+Path
+from
+typing
+import
+List
+Union
 from
 functools
 import
@@ -1739,6 +1746,12 @@ load_file
 (
 self
 filename
+:
+Union
+[
+str
+Path
+]
 )
 :
         
@@ -1747,7 +1760,10 @@ self
 load_files
 (
 [
+Path
+(
 filename
+)
 ]
 )
     
@@ -1756,6 +1772,11 @@ load_files
 (
 self
 filenames
+:
+List
+[
+Path
+]
 )
 :
         
@@ -1817,13 +1838,10 @@ f
 in
 filenames
 if
-os
-.
-path
+f
 .
 exists
 (
-f
 )
 ]
         
