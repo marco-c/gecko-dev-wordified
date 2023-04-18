@@ -134,6 +134,11 @@ Platform
 cpp
 "
 "
+RemoteAccessibleWrap
+.
+cpp
+"
+"
 RootAccessibleWrap
 .
 cpp

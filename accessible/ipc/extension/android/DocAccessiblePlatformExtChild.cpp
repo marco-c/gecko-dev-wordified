@@ -148,7 +148,7 @@ IPCResult
 DocAccessiblePlatformExtChild
 :
 :
-RecvPivotTo
+RecvPivot
 (
 uint64_t
 aID
