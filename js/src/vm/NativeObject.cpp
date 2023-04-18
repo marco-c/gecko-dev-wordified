@@ -8449,7 +8449,7 @@ property
 .
 /
 /
-These
+This
 function
 doesn
 '
@@ -18999,7 +18999,7 @@ property
 if
 (
 !
-AddDataPropertyNonPrototype
+AddDataPropertyToPlainObject
 (
 cx
 target
