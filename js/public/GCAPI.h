@@ -2591,9 +2591,9 @@ void
 JSWeakPointerZonesCallback
 )
 (
-JSContext
+JSTracer
 *
-cx
+trc
 void
 *
 data
@@ -2606,9 +2606,9 @@ void
 JSWeakPointerCompartmentCallback
 )
 (
-JSContext
+JSTracer
 *
-cx
+trc
 JS
 :
 :
