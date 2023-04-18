@@ -645,6 +645,11 @@ CompositionOp
 :
 OP_SOURCE
 ;
+uint32_t
+mMaxTextureSize
+=
+0
+;
 public
 :
 DrawTargetWebgl
@@ -681,6 +686,13 @@ aSize
 SurfaceFormat
 aFormat
 )
+;
+bool
+IsValid
+(
+)
+const
+override
 ;
 DrawTargetType
 GetType
