@@ -2381,6 +2381,14 @@ site_packages_dir
 )
 )
         
+old_env_variables
+=
+{
+}
+        
+try
+:
+            
 #
 We
 ignore
@@ -2392,7 +2400,7 @@ have
 been
 altered
 by
-        
+            
 #
 configure
 or
@@ -2406,7 +2414,7 @@ shell
 .
 We
 trust
-        
+            
 #
 Python
 is
@@ -2421,7 +2429,7 @@ and
 to
 use
 the
-        
+            
 #
 proper
 compiler
@@ -2438,9 +2446,10 @@ is
 likely
 broken
 .
-        
-IGNORE_ENV_VARIABLES
-=
+            
+for
+k
+in
 (
 "
 CC
@@ -2458,19 +2467,6 @@ CXXFLAGS
 LDFLAGS
 "
 )
-        
-try
-:
-            
-old_env_variables
-=
-{
-}
-            
-for
-k
-in
-IGNORE_ENV_VARIABLES
 :
                 
 if
@@ -3761,10 +3757,10 @@ Python
 instance
 when
 building
-packages
-.
     
 #
+packages
+.
 However
 it
 '
@@ -3779,11 +3775,11 @@ be
 a
 universal
 binary
+    
+#
 (
 x86_64
 and
-    
-#
 arm64
 )
 without
@@ -3794,11 +3790,11 @@ SDK
 supporting
 arm64
 thereby
+    
+#
 causing
 a
 build
-    
-#
 failure
 .
 To
@@ -3811,11 +3807,11 @@ the
 build
 to
 only
+    
+#
 target
 a
 single
-    
-#
 architecture
 -
 our
