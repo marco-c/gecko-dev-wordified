@@ -620,10 +620,12 @@ define
 DLOG_IF
 (
 info
+condition
 )
 LOG_IF
 (
 info
+condition
 )
 #
 define
