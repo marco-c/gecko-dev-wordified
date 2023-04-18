@@ -12357,6 +12357,12 @@ location
 "
 )
 ;
+[
+[
+fallthrough
+]
+]
+;
 default
 :
 return

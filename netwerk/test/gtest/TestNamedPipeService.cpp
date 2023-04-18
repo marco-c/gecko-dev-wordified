@@ -1062,6 +1062,12 @@ hEvent
 )
 break
 ;
+[
+[
+fallthrough
+]
+]
+;
 default
 :
 /
