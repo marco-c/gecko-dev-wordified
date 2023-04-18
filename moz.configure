@@ -2300,6 +2300,15 @@ dependable
 (
 False
 )
+#
+And
+dmd
+dmd
+=
+dependable
+(
+False
+)
 include
 (
 include_project_configure
