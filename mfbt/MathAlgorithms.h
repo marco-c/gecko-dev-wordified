@@ -2503,6 +2503,7 @@ typename
 T
 >
 inline
+constexpr
 uint_fast8_t
 FloorLog2
 (
