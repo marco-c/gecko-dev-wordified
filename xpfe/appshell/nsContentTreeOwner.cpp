@@ -4098,8 +4098,6 @@ uint32_t
 aChromeFlags
 bool
 aCalledFromJS
-bool
-aWidthSpecified
 nsIURI
 *
 aURI
@@ -4241,7 +4239,6 @@ GetDOMWindow
 )
 aChromeFlags
 aCalledFromJS
-aWidthSpecified
 aOpenWindowInfo
 -
 >
