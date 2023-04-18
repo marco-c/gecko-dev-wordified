@@ -1522,6 +1522,11 @@ acceptableParams
 "
 url
 "
+"
+private
+-
+window
+"
 nullptr
 }
 ;
