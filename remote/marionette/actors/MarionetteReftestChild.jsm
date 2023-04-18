@@ -694,6 +694,12 @@ const
 event
 =
 new
+this
+.
+document
+.
+defaultView
+.
 Event
 (
 "
