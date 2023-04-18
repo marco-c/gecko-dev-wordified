@@ -2422,11 +2422,6 @@ FrameVisibilityContext
 global_device_pixel_scale
 spatial_tree
 global_screen_world_rect
-surfaces
-:
-&
-mut
-surfaces
 debug_flags
 scene_properties
 config
@@ -2687,6 +2682,9 @@ mut
 scene
 .
 prim_instances
+&
+mut
+surfaces
 )
 ;
 /
