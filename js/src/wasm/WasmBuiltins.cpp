@@ -3741,6 +3741,10 @@ isThrowingOutOfMemory
 )
 )
 ;
+hasCatchableException
+=
+false
+;
 continue
 ;
 }
