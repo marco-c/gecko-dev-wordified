@@ -6499,7 +6499,7 @@ Tier
 tier
 const
 bool
-tableIsPublic
+tableIsImportedOrExported
 )
 {
 const
@@ -6713,7 +6713,7 @@ continue
 if
 (
 !
-tableIsPublic
+tableIsImportedOrExported
 |
 |
 getIndirectStub
@@ -6845,7 +6845,7 @@ Tier
 tier
 const
 bool
-tableIsPublic
+tableIsImportedOrExported
 )
 {
 if
@@ -6901,7 +6901,7 @@ functionIndices
 0
 1u
 tier
-tableIsPublic
+tableIsImportedOrExported
 )
 ;
 }
@@ -7092,7 +7092,7 @@ len
 tier
 table
 .
-isPublic
+isImportedOrExported
 (
 )
 )
@@ -7362,7 +7362,7 @@ instance
 If
 table
 is
-isPublic
+isImportedOrExported
 then
 some
 other
@@ -7410,7 +7410,7 @@ if
 (
 table
 .
-isPublic
+isImportedOrExported
 (
 )
 )
@@ -8597,7 +8597,7 @@ address
 tier
 table
 .
-isPublic
+isImportedOrExported
 (
 )
 )

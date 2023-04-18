@@ -14568,7 +14568,7 @@ back
 (
 )
 .
-isImportedOrExported
+importedOrExported
 =
 true
 ;
@@ -16704,7 +16704,7 @@ tables
 tableIndex
 ]
 .
-isImportedOrExported
+importedOrExported
 =
 true
 ;
@@ -18527,7 +18527,7 @@ seg
 tableIndex
 ]
 .
-isImportedOrExported
+importedOrExported
 ;
 #
 endif
