@@ -5946,7 +5946,7 @@ UNKNOWN_ACTION
 .
 static
 bool
-HasSitePerm
+HasExactSitePerm
 (
 nsIPrincipal
 *
