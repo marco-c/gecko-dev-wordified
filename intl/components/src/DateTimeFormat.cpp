@@ -1880,10 +1880,7 @@ timeStyle
 dateStyle
 IcuLocale
 (
-AssertNullTerminatedString
-(
 aLocale
-)
 )
 tzID
 tzIDLength
@@ -3756,10 +3753,7 @@ UDAT_PATTERN
 UDAT_PATTERN
 IcuLocale
 (
-AssertNullTerminatedString
-(
 aLocale
-)
 )
 tzID
 tzIDLength
