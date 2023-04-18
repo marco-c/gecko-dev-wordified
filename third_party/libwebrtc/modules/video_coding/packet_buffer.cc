@@ -869,7 +869,7 @@ return
 result
 ;
 }
-void
+uint32_t
 PacketBuffer
 :
 :
@@ -918,6 +918,7 @@ seq_num
 )
 {
 return
+0
 ;
 }
 /
@@ -942,6 +943,7 @@ if
 first_packet_received_
 )
 return
+0
 ;
 /
 /
@@ -973,6 +975,11 @@ buffer
 +
 +
 seq_num
+;
+uint32_t
+num_cleared_packets
+=
+0
 ;
 size_t
 diff
@@ -1054,6 +1061,10 @@ seq_num
 )
 )
 {
++
++
+num_cleared_packets
+;
 stored
 =
 nullptr
@@ -1148,6 +1159,9 @@ clear_to_it
 )
 ;
 }
+return
+num_cleared_packets
+;
 }
 void
 PacketBuffer
