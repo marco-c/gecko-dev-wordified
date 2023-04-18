@@ -222,6 +222,8 @@ one
 const
 {
 BrowsingContext
+WindowGlobalParent
+WindowGlobalChild
 console
 DebuggerNotificationObserver
 DOMPoint
@@ -1400,6 +1402,8 @@ atob
 Blob
 btoa
 BrowsingContext
+WindowGlobalParent
+WindowGlobalChild
 console
 crypto
 CSS
