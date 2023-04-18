@@ -284,10 +284,6 @@ GdkDragContext
 )
 GOBJECT_TRAITS
 (
-GDBusMessage
-)
-GOBJECT_TRAITS
-(
 GdkPixbuf
 )
 #
