@@ -3570,8 +3570,11 @@ sweepAfterMinorGC
 )
 ;
 void
-sweepDebugEnvironments
+traceWeakDebugEnvironmentEdges
 (
+JSTracer
+*
+trc
 )
 ;
 void

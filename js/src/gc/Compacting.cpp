@@ -3184,8 +3184,9 @@ trc
 r
 -
 >
-sweepDebugEnvironments
+traceWeakDebugEnvironmentEdges
 (
+trc
 )
 ;
 r

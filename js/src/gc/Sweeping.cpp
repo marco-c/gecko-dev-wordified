@@ -8443,6 +8443,12 @@ JSFreeOp
 fop
 )
 {
+SweepingTracer
+trc
+(
+rt
+)
+;
 AutoLockStoreBuffer
 lock
 (
@@ -8582,8 +8588,10 @@ next
 r
 -
 >
-sweepDebugEnvironments
+traceWeakDebugEnvironmentEdges
 (
+&
+trc
 )
 ;
 }
