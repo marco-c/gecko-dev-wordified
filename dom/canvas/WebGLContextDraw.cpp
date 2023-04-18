@@ -4341,6 +4341,8 @@ drawArraysInstanced
 "
 )
 ;
+/
+/
 AUTO_PROFILER_LABEL
 (
 "
@@ -4678,14 +4680,6 @@ vertCount
 instanceCount
 )
 {
-AUTO_PROFILER_LABEL
-(
-"
-glDrawArraysInstanced
-"
-GRAPHICS
-)
-;
 if
 (
 HasInstancedDrawing
@@ -5306,6 +5300,8 @@ drawElementsInstanced
 "
 )
 ;
+/
+/
 AUTO_PROFILER_LABEL
 (
 "
@@ -5751,14 +5747,6 @@ indexCount
 instanceCount
 )
 {
-AUTO_PROFILER_LABEL
-(
-"
-glDrawElementsInstanced
-"
-GRAPHICS
-)
-;
 if
 (
 HasInstancedDrawing
