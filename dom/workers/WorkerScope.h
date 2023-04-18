@@ -2246,6 +2246,17 @@ aRv
 )
 ;
 void
+ClearConsoleEvents
+(
+JSContext
+*
+aCx
+ErrorResult
+&
+aRv
+)
+;
+void
 SetConsoleEventHandler
 (
 JSContext
