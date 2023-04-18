@@ -1563,14 +1563,10 @@ debugger
 >
 <
 AppErrorBoundary
-className
+componentName
 =
 "
-app
--
-error
--
-boundary
+Debugger
 "
 panel
 =
