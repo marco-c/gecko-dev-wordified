@@ -552,7 +552,7 @@ maybeFeatures
 if
 (
 !
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 profiler_main_thread_id
 (
@@ -561,7 +561,7 @@ profiler_main_thread_id
 &
 &
 !
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
@@ -640,7 +640,7 @@ markers
 if
 (
 !
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 |
@@ -806,7 +806,7 @@ MarkerThreadId
 else
 if
 (
-profiler_thread_is_being_profiled
+profiler_thread_is_being_profiled_for_markers
 (
 )
 )
