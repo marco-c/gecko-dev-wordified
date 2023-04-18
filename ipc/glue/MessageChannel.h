@@ -2084,9 +2084,6 @@ HasPendingEvents
 void
 ProcessPendingRequests
 (
-ActorLifecycleProxy
-*
-aProxy
 AutoEnterTransaction
 &
 aTransaction
@@ -2095,9 +2092,6 @@ aTransaction
 bool
 ProcessPendingRequest
 (
-ActorLifecycleProxy
-*
-aProxy
 Message
 &
 &
@@ -2123,9 +2117,6 @@ handler
 void
 DispatchMessage
 (
-ActorLifecycleProxy
-*
-aProxy
 Message
 &
 &
@@ -3001,9 +2992,6 @@ aMsg
 void
 RunMessage
 (
-ActorLifecycleProxy
-*
-aProxy
 MessageTask
 &
 aTask

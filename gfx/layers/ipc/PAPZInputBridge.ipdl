@@ -93,15 +93,6 @@ MPL
 .
 *
 /
-include
-"
-ipc
-/
-nsGUIEventIPC
-.
-h
-"
-;
 using
 LayoutDeviceIntPoint
 from

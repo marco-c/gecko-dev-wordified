@@ -104,15 +104,6 @@ MPL
 .
 *
 /
-include
-"
-mozilla
-/
-GfxMessageUtils
-.
-h
-"
-;
 using
 struct
 DxgiAdapterDesc

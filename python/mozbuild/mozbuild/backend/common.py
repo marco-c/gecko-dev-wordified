@@ -131,11 +131,13 @@ FinalTargetFiles
     
 GeneratedFile
     
+GeneratedSources
+    
 GnProjectData
     
 HostLibrary
     
-HostSources
+HostGeneratedSources
     
 IPDLCollection
     
@@ -146,8 +148,6 @@ LocalizedFiles
 SandboxedWasmLibrary
     
 SharedLibrary
-    
-Sources
     
 StaticLibrary
     
@@ -803,6 +803,48 @@ IPDLCollection
             
 self
 .
+_handle_generated_sources
+(
+                
+mozpath
+.
+join
+(
+obj
+.
+objdir
+f
+)
+for
+f
+in
+obj
+.
+all_generated_sources
+(
+)
+            
+)
+            
+self
+.
+_write_unified_files
+(
+                
+obj
+.
+unified_source_mapping
+obj
+.
+objdir
+poison_windows_h
+=
+False
+            
+)
+            
+self
+.
 _handle_ipdl_sources
 (
                 
@@ -845,6 +887,10 @@ all_regular_sources
 )
 )
 )
+                
+obj
+.
+unified_source_mapping
             
 )
         
@@ -870,21 +916,6 @@ obj
 UnifiedSources
 )
 :
-            
-if
-obj
-.
-generated_files
-:
-                
-self
-.
-_handle_generated_sources
-(
-obj
-.
-generated_files
-)
             
 #
 Unified
@@ -1032,25 +1063,19 @@ isinstance
 (
 obj
 (
-Sources
-HostSources
+GeneratedSources
+HostGeneratedSources
 )
 )
 :
             
-if
-obj
-.
-generated_files
-:
-                
 self
 .
 _handle_generated_sources
 (
 obj
 .
-generated_files
+files
 )
             
 return

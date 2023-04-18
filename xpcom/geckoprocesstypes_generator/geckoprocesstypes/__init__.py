@@ -630,7 +630,7 @@ IPDLUnitTest
 "
         
 "
-Self
+PluginContainer
 "
         
 "
