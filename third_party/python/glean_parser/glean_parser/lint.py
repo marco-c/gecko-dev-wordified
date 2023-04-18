@@ -3627,7 +3627,12 @@ parser_config
 {
 }
     
-if
+errors
+=
+0
+    
+nits
+=
 lint_yaml_files
 (
 input_filepaths
@@ -3638,10 +3643,14 @@ parser_config
 =
 parser_config
 )
-:
-        
-return
-1
+    
+errors
++
+=
+len
+(
+nits
+)
     
 objs
 =
@@ -3653,17 +3662,15 @@ input_filepaths
 parser_config
 )
     
-if
+errors
++
+=
 util
 .
 report_validation_errors
 (
 objs
 )
-:
-        
-return
-1
     
 nits
 =
@@ -3680,9 +3687,18 @@ file
 file
 )
     
-if
-any
+errors
++
+=
+len
 (
+[
+nit
+for
+nit
+in
+nits
+if
 nit
 .
 check_type
@@ -3691,21 +3707,11 @@ check_type
 CheckType
 .
 error
-for
-nit
-in
-nits
+]
 )
-:
-        
-return
-1
     
 if
-len
-(
-nits
-)
+errors
 =
 =
 0
@@ -3724,6 +3730,22 @@ file
 =
 file
 )
-    
+        
 return
 0
+    
+print
+(
+f
+"
+Found
+{
+errors
+}
+errors
+.
+"
+)
+    
+return
+1

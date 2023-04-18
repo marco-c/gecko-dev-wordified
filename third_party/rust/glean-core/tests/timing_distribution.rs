@@ -2071,7 +2071,6 @@ accumulate_raw_samples_nanos
 (
 &
 glean
-&
 [
 seconds_to_nanos
 2
@@ -2082,7 +2081,7 @@ seconds_to_nanos
 seconds_to_nanos
 ]
 .
-to_vec
+as_ref
 (
 )
 )

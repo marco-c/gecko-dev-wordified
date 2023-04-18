@@ -170,7 +170,7 @@ util
 :
 {
 get_iso_time_string
-local_now_with_offset_and_record
+local_now_with_offset
 }
 ;
 use
@@ -839,9 +839,8 @@ start_time
 let
 end_time_data
 =
-local_now_with_offset_and_record
+local_now_with_offset
 (
-glean
 )
 ;
 /

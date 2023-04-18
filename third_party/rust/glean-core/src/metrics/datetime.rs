@@ -127,7 +127,7 @@ util
 :
 {
 get_iso_time_string
-local_now_with_offset_and_record
+local_now_with_offset
 }
 ;
 use
@@ -812,12 +812,7 @@ value
 .
 unwrap_or_else
 (
-|
-|
-local_now_with_offset_and_record
-(
-glean
-)
+local_now_with_offset
 )
 ;
 let
