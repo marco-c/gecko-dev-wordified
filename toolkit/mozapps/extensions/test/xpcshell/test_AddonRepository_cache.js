@@ -4261,7 +4261,7 @@ EMPTY_RESULT
 )
 ;
 await
-AddonManagerInternal
+AddonManagerPrivate
 .
 backgroundUpdateCheck
 (
@@ -4346,7 +4346,7 @@ true
 )
 ;
 await
-AddonManagerInternal
+AddonManagerPrivate
 .
 backgroundUpdateCheck
 (
@@ -4433,7 +4433,7 @@ GETADDONS_RESULTS
 )
 ;
 await
-AddonManagerInternal
+AddonManagerPrivate
 .
 backgroundUpdateCheck
 (
@@ -4558,7 +4558,7 @@ baz
 )
 ;
 await
-AddonManagerInternal
+AddonManagerPrivate
 .
 backgroundUpdateCheck
 (

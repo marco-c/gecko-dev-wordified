@@ -408,8 +408,10 @@ getXS
 (
 )
 {
-let
-XPI
+const
+{
+XPIInternal
+}
 =
 ChromeUtils
 .
@@ -430,11 +432,10 @@ XPIProvider
 .
 jsm
 "
-null
 )
 ;
 return
-XPI
+XPIInternal
 .
 XPIStates
 ;

@@ -2167,7 +2167,7 @@ onInstallEnded
 =
 >
 {
-AddonManagerInternal
+AddonManagerPrivate
 .
 backgroundUpdateCheck
 (
@@ -4430,7 +4430,7 @@ addInstallListener
 listener
 )
 ;
-AddonManagerInternal
+AddonManagerPrivate
 .
 backgroundUpdateCheck
 (
