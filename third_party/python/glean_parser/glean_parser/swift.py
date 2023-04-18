@@ -105,6 +105,10 @@ pings
 from
 .
 import
+tags
+from
+.
+import
 util
 #
 An
@@ -958,6 +962,9 @@ Metric
 pings
 .
 Ping
+tags
+.
+Tag
 ]
 ]
     
