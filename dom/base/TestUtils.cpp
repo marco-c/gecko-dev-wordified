@@ -327,10 +327,6 @@ DOM_TESTUTILS
 nsJSContext
 :
 :
-NonIncrementalGC
-nsJSContext
-:
-:
 NonShrinkingGC
 )
 ;

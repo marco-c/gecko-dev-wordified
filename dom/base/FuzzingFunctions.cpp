@@ -249,10 +249,6 @@ COMPONENT_UTILS
 nsJSContext
 :
 :
-NonIncrementalGC
-nsJSContext
-:
-:
 NonShrinkingGC
 )
 ;
@@ -285,10 +281,6 @@ GCReason
 :
 :
 COMPONENT_UTILS
-nsJSContext
-:
-:
-NonIncrementalGC
 nsJSContext
 :
 :
