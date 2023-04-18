@@ -705,7 +705,7 @@ testingFunc
 ;
 #
 elif
-__AFL_COMPILER
+AFLFUZZ
 testingFunc
 (
 nullptr

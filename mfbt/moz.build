@@ -322,6 +322,11 @@ FunctionTypeTraits
 h
 "
 "
+Fuzzing
+.
+h
+"
+"
 HashFunctions
 .
 h

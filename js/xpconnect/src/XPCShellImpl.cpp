@@ -8788,7 +8788,7 @@ fuzzerDriver
 ;
 #
 elif
-__AFL_COMPILER
+AFLFUZZ
 MOZ_CRASH
 (
 "

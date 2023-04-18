@@ -159,7 +159,7 @@ mozilla
 {
 #
 ifdef
-__AFL_COMPILER
+AFLFUZZ
 void
 afl_interface_stream
 (
