@@ -13234,11 +13234,6 @@ State
 :
 :
 Sweep
-|
-|
-hasBlackEntries
-(
-)
 )
 {
 /
