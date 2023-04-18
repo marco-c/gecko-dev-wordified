@@ -15927,6 +15927,13 @@ NS_ConvertUTF16toUTF8
 (
 aFilename
 )
+/
+*
+dontEscape
+=
+*
+/
+true
 unescaped
 )
 ;

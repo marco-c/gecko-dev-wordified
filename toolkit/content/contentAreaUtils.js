@@ -6225,6 +6225,13 @@ textToSubURI
 unEscapeURIForUI
 (
 fileName
+/
+*
+dontEscape
+=
+*
+/
+true
 )
 )
 ;
@@ -6402,6 +6409,13 @@ unEscapeURIForUI
 url
 .
 fileName
+/
+*
+dontEscape
+=
+*
+/
+true
 )
 )
 ;
