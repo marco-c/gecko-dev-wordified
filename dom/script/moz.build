@@ -152,7 +152,7 @@ LoadedScript
 h
 "
 "
-ModuleLoader
+ModuleLoaderBase
 .
 h
 "
@@ -207,7 +207,7 @@ LoadedScript
 cpp
 "
 "
-ModuleLoader
+ModuleLoaderBase
 .
 cpp
 "
