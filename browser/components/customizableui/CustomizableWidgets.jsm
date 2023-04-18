@@ -1479,7 +1479,7 @@ setAttribute
 command
 "
 "
-cmd_print
+cmd_printPreviewToggle
 "
 )
 ;
