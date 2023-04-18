@@ -2859,15 +2859,6 @@ compare
 bookmark
 and
 editedBookmark
-if
-(
-this
-.
-_node
-.
-bookmarkGuid
-)
-{
 window
 .
 arguments
@@ -2881,7 +2872,6 @@ gEditItemOverlay
 .
 _bookmarkState
 ;
-}
 /
 /
 We
