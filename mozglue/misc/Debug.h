@@ -295,7 +295,6 @@ endif
 /
 /
 __cplusplus
-inline
 void
 printf_stderr
 (
@@ -311,6 +310,19 @@ MOZ_FORMAT_PRINTF
 (
 1
 2
+)
+;
+inline
+void
+printf_stderr
+(
+const
+char
+*
+fmt
+.
+.
+.
 )
 {
 #
