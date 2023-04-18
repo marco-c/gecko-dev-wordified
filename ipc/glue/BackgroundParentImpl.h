@@ -695,6 +695,15 @@ override
 ;
 already_AddRefed
 <
+PBackgroundSessionStorageServiceParent
+>
+AllocPBackgroundSessionStorageServiceParent
+(
+)
+override
+;
+already_AddRefed
+<
 PIdleSchedulerParent
 >
 AllocPIdleSchedulerParent
