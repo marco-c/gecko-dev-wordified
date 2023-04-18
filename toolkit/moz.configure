@@ -6225,17 +6225,6 @@ unzip
 check_prog
 (
 "
-ZIP
-"
-(
-"
-zip
-"
-)
-)
-check_prog
-(
-"
 GN
 "
 (
