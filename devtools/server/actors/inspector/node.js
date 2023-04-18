@@ -3057,8 +3057,8 @@ rawNode
 )
 {
 return
-[
-]
+"
+"
 ;
 }
 return
