@@ -127,15 +127,6 @@ h
 #
 include
 "
-mozilla
-/
-Mutex
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -340,9 +331,6 @@ UpdateODoHConfigFromURI
 (
 )
 ;
-mozilla
-:
-:
 Mutex
 mLock
 ;

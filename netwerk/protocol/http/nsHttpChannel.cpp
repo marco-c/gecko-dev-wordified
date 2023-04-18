@@ -386,13 +386,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsStreamUtils
 .
 h

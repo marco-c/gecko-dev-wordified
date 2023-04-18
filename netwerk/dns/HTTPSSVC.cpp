@@ -102,13 +102,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-"
-nsIDNSService
-.
-h
-"
 namespace
 mozilla
 {

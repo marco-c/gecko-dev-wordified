@@ -179,13 +179,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsIChannel
-.
-h
-"
 namespace
 mozilla
 {
