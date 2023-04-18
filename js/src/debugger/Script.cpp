@@ -3240,7 +3240,7 @@ get
 match
 (
 [
-=
+this
 ]
 (
 BaseScript
@@ -3264,7 +3264,7 @@ get
 ;
 }
 [
-=
+this
 ]
 (
 WasmInstanceObject
