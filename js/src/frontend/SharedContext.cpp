@@ -958,8 +958,6 @@ extra
 ScopeContext
 &
 scopeContext
-FunctionFlags
-flags
 FunctionSyntaxKind
 kind
 )
@@ -972,7 +970,6 @@ extra
 initStandaloneOrLazy
 (
 scopeContext
-flags
 kind
 )
 ;
@@ -1011,8 +1008,6 @@ initWithEnclosingParseContext
 ParseContext
 *
 enclosing
-FunctionFlags
-flags
 FunctionSyntaxKind
 kind
 )
@@ -1086,7 +1081,7 @@ binding
 .
 if
 (
-flags
+flags_
 .
 isArrow
 (
@@ -1266,7 +1261,7 @@ true
 ;
 allowSuperProperty_
 =
-flags
+flags_
 .
 allowSuperProperty
 (
@@ -1485,8 +1480,6 @@ initStandalone
 ScopeContext
 &
 scopeContext
-FunctionFlags
-flags
 FunctionSyntaxKind
 kind
 )
@@ -1494,7 +1487,6 @@ kind
 initStandaloneOrLazy
 (
 scopeContext
-flags
 kind
 )
 ;
@@ -1512,15 +1504,13 @@ initStandaloneOrLazy
 ScopeContext
 &
 scopeContext
-FunctionFlags
-flags
 FunctionSyntaxKind
 kind
 )
 {
 if
 (
-flags
+flags_
 .
 isArrow
 (
@@ -1566,7 +1556,7 @@ true
 ;
 allowSuperProperty_
 =
-flags
+flags_
 .
 allowSuperProperty
 (

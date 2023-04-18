@@ -2790,8 +2790,6 @@ extra
 ScopeContext
 &
 scopeContext
-FunctionFlags
-flags
 FunctionSyntaxKind
 kind
 )
@@ -2811,8 +2809,6 @@ initStandalone
 ScopeContext
 &
 scopeContext
-FunctionFlags
-flags
 FunctionSyntaxKind
 kind
 )
@@ -2825,8 +2821,6 @@ initStandaloneOrLazy
 ScopeContext
 &
 scopeContext
-FunctionFlags
-flags
 FunctionSyntaxKind
 kind
 )
@@ -2839,8 +2833,6 @@ initWithEnclosingParseContext
 ParseContext
 *
 enclosing
-FunctionFlags
-flags
 FunctionSyntaxKind
 kind
 )
