@@ -1530,9 +1530,6 @@ Default
 struct
 Identities
 {
-surfaces
-:
-IdentityManager
 vulkan
 :
 IdentityHub
