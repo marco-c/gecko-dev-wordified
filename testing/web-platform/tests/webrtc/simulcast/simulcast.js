@@ -1006,6 +1006,11 @@ ramp
 -
 up
 .
+await
+setMediaPermission
+(
+)
+;
 const
 stream
 =
