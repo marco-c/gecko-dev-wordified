@@ -395,7 +395,7 @@ private
 :
 HyperTextAccessibleWrap
 *
-TextAcc
+LocalTextAcc
 (
 )
 ;
