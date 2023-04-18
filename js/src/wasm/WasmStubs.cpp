@@ -18761,10 +18761,10 @@ len
 =
 0
 ;
-uint32_t
+uint64_t
 i
 =
-uint32_t
+uint64_t
 (
 abiType
 )
@@ -18814,10 +18814,10 @@ i
 len
 )
 ;
-uint32_t
+uint64_t
 abi
 =
-uint32_t
+uint64_t
 (
 abiType
 )
