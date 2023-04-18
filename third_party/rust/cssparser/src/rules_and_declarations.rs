@@ -2971,8 +2971,7 @@ to
 deal
 with
 legacy
-work
-arounds
+workarounds
 for
 <
 style

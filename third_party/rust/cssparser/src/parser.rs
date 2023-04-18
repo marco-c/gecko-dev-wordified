@@ -412,7 +412,7 @@ QualifiedRuleInvalid
 /
 /
 The
-funamental
+fundamental
 parsing
 errors
 that
@@ -4712,7 +4712,7 @@ vector
 /
 This
 method
-retuns
+returns
 Err
 (
 (

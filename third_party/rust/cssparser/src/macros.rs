@@ -166,7 +166,7 @@ Make
 doctest
 not
 wrap
-everythig
+everything
 in
 its
 own
@@ -1297,7 +1297,7 @@ be
 removed
 between
 any
-verisons
+versions
 .
 *
 *
