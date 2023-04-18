@@ -177,6 +177,9 @@ LockRequestChild
 >
 (
 aRequest
+aOptions
+.
+mSignal
 )
 ;
 SendPLockRequestConstructor

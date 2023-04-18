@@ -211,8 +211,9 @@ ipc
 IPCResult
 Recv__delete__
 (
+bool
+aAborted
 )
-final
 ;
 private
 :
