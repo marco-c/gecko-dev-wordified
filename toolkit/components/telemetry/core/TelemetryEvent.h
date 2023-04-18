@@ -153,7 +153,7 @@ h
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "

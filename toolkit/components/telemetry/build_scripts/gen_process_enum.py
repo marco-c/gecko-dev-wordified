@@ -147,6 +147,11 @@ mozilla_TelemetryProcessEnums_h
 #
 define
 mozilla_TelemetryProcessEnums_h
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {

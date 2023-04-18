@@ -165,15 +165,6 @@ String
 .
 h
 "
-#
-include
-"
-mozilla
-/
-HangAnnotations
-.
-h
-"
 namespace
 mozilla
 :
