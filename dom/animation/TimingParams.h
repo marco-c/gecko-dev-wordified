@@ -253,12 +253,14 @@ dom
 struct
 TimingParams
 {
+constexpr
 TimingParams
 (
 )
 =
 default
 ;
+constexpr
 TimingParams
 (
 float
@@ -320,6 +322,7 @@ Update
 )
 ;
 }
+constexpr
 TimingParams
 (
 const

@@ -163,6 +163,7 @@ SMILKeySpline
 {
 public
 :
+constexpr
 SMILKeySpline
 (
 )
@@ -781,6 +782,9 @@ mSampleValues
 [
 kSplineTableSize
 ]
+=
+{
+}
 ;
 static
 const
