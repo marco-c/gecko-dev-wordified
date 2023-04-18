@@ -9425,6 +9425,8 @@ RLBoxExpatSandboxPool
 :
 CreateSandboxData
 (
+uint64_t
+aSize
 )
 {
 /
@@ -9463,6 +9465,7 @@ infallible
 *
 /
 false
+aSize
 )
 ;
 #
@@ -9502,6 +9505,7 @@ MakeUnique
 RLBoxExpatSandboxData
 >
 (
+aSize
 )
 ;
 /
