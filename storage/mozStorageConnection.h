@@ -1084,7 +1084,6 @@ mCancelRequested
 /
 Mutex
 sharedAsyncExecutionMutex
-MOZ_UNANNOTATED
 ;
 /
 *

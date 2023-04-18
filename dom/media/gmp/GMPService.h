@@ -590,7 +590,6 @@ GetShutdownBarrier
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -604,8 +603,6 @@ and
 some
 members
 in
-/
-/
 derived
 classes
 .

@@ -3568,7 +3568,6 @@ lock
 .
 Mutex
 lock_
-MOZ_UNANNOTATED
 ;
 /
 /

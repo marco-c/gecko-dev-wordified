@@ -1203,7 +1203,6 @@ mSanitizedSQL
 ;
 Mutex
 mHashMutex
-MOZ_UNANNOTATED
 ;
 Atomic
 <

@@ -771,7 +771,6 @@ finishes
 .
 Monitor
 mon
-MOZ_UNANNOTATED
 (
 "
 ThreadPool

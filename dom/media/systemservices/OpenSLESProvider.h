@@ -335,7 +335,6 @@ mozilla
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 SLObjectItf
 mSLEngine

@@ -346,7 +346,6 @@ and
 mAsyncInputStream
 Mutex
 mStateMachineMutex
-MOZ_UNANNOTATED
 ;
 State
 mState

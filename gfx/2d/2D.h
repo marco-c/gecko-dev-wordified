@@ -6627,7 +6627,6 @@ mData
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -13275,7 +13274,6 @@ mFTLibrary
 static
 StaticMutex
 mFTLock
-MOZ_UNANNOTATED
 ;
 public
 :
@@ -13652,7 +13650,6 @@ DrawTargetD2D1
 static
 StaticMutex
 mDeviceLock
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -13674,7 +13671,6 @@ graph
 static
 StaticMutex
 mDTDependencyLock
-MOZ_UNANNOTATED
 ;
 friend
 class

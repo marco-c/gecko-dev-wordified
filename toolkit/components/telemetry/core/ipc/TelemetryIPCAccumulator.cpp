@@ -701,7 +701,6 @@ BloatView
 static
 StaticMutex
 gTelemetryIPCAccumulatorMutex
-MOZ_UNANNOTATED
 ;
 namespace
 {

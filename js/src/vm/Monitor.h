@@ -205,7 +205,6 @@ AutoUnlockMonitor
 ;
 Mutex
 lock_
-MOZ_UNANNOTATED
 ;
 ConditionVariable
 condVar_

@@ -334,7 +334,6 @@ mozilla
 :
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 ;
 #
 ifdef

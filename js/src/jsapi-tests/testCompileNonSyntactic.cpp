@@ -344,7 +344,6 @@ js
 :
 Monitor
 monitor
-MOZ_UNANNOTATED
 ;
 OffThreadToken
 *

@@ -572,7 +572,6 @@ mCallbacks
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /

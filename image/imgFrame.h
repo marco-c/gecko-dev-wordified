@@ -1525,7 +1525,6 @@ mMonitor
 mutable
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 /
 *

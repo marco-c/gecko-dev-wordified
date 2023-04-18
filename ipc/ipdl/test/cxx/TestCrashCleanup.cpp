@@ -261,7 +261,6 @@ main
 thread
 Mutex
 mutex
-MOZ_UNANNOTATED
 (
 "
 TestCrashCleanup

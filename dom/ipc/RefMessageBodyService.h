@@ -756,7 +756,6 @@ threads
 .
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 UniquePtr
 <

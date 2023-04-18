@@ -373,7 +373,6 @@ gInstance
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 uint32_t
 mCacheSize

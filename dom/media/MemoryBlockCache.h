@@ -607,7 +607,6 @@ below
 .
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 nsTArray
 <

@@ -334,7 +334,6 @@ background
 static
 StaticMutex
 gMutex
-MOZ_UNANNOTATED
 ;
 /
 /

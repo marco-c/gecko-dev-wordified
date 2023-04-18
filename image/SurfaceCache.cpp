@@ -543,7 +543,6 @@ cache
 static
 StaticMutex
 sInstanceMutex
-MOZ_UNANNOTATED
 ;
 /
 /

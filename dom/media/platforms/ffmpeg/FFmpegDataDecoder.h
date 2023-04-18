@@ -426,7 +426,6 @@ protected
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 /
 /

@@ -2617,7 +2617,6 @@ sSingleton
 static
 StaticMutex
 sSingletonMutex
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -2631,7 +2630,6 @@ graph
 .
 Mutex
 mGraphMutex
-MOZ_UNANNOTATED
 ;
 /
 /

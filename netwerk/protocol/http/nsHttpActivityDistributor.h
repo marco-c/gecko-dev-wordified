@@ -150,7 +150,6 @@ mObservers
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 nsHttpActivityDistributor

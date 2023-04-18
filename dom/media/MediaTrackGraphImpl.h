@@ -5056,7 +5056,6 @@ queue
 .
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 /
 /

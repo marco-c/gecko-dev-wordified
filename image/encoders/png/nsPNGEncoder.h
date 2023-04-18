@@ -457,7 +457,6 @@ AsyncWait
 .
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 ;
 }
 ;

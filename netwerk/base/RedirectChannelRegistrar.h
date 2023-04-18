@@ -193,7 +193,6 @@ mParentChannels
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 static
 StaticRefPtr

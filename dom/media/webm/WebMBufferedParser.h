@@ -1946,7 +1946,6 @@ mLastBlockOffset
 .
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 ;
 /
 /

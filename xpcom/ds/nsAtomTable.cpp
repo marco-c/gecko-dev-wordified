@@ -1703,7 +1703,6 @@ nsAtomTable
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 PLDHashTable
 mTable

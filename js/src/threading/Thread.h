@@ -1656,7 +1656,6 @@ creation
 .
 Mutex
 createMutex
-MOZ_UNANNOTATED
 ;
 /
 /

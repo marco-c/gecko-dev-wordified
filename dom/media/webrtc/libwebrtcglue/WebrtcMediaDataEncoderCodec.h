@@ -343,7 +343,6 @@ mEncoder
 ;
 Mutex
 mCallbackMutex
-MOZ_UNANNOTATED
 ;
 /
 /

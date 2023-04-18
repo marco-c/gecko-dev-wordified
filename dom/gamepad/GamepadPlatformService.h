@@ -1012,7 +1012,6 @@ monitor
 thread
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 std
 :

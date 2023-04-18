@@ -1180,7 +1180,6 @@ false
 .
 Monitor
 mFrozenStartMonitor
-MOZ_UNANNOTATED
 ;
 /
 /

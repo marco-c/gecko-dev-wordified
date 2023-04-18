@@ -381,7 +381,6 @@ access
 .
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

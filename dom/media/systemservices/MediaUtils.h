@@ -1419,7 +1419,6 @@ MozPromiseAwait
 ;
 Monitor
 mon
-MOZ_UNANNOTATED
 (
 __func__
 )
@@ -1601,7 +1600,6 @@ MozPromiseAwait
 ;
 Monitor
 mon
-MOZ_UNANNOTATED
 (
 __func__
 )
@@ -2464,7 +2462,6 @@ true
 }
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 /
 /

@@ -450,7 +450,6 @@ const
 mutable
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 HTMLCanvasElement
 *

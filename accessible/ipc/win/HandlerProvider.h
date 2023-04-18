@@ -855,7 +855,6 @@ mRefCnt
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -994,7 +993,6 @@ mPayload
 ;
 Mutex
 mPayloadMutex
-MOZ_UNANNOTATED
 ;
 /
 /

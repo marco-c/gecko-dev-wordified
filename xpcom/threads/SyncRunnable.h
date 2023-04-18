@@ -789,7 +789,6 @@ mozilla
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mDone

@@ -455,7 +455,6 @@ mActivities
 accesses
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 }
 ;

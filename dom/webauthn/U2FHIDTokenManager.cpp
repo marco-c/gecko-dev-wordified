@@ -172,7 +172,6 @@ dom
 static
 StaticMutex
 gInstanceMutex
-MOZ_UNANNOTATED
 ;
 static
 U2FHIDTokenManager

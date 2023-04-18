@@ -275,7 +275,6 @@ mozilla
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mShuttingDown
