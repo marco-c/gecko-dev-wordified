@@ -308,6 +308,8 @@ validate_schema
                 
 test_setting_description_schema
                 
+dict
+(
 task
 .
 task
@@ -323,6 +325,7 @@ test
 setting
 "
 ]
+)
                 
 task
 .
