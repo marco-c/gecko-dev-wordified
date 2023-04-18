@@ -18329,6 +18329,16 @@ btoa
 "
 )
 ;
+s
+.
+importFunction
+(
+ChromeUtils
+"
+ChromeUtils
+"
+)
+;
 /
 /
 Define
