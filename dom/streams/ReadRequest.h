@@ -236,6 +236,7 @@ aRv
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 CloseSteps

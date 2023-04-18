@@ -1436,8 +1436,10 @@ return
 Step
 2
 .
+RefPtr
+<
 ReadableStream
-*
+>
 stream
 =
 aController
@@ -1663,8 +1665,10 @@ return
 Step
 2
 .
+RefPtr
+<
 ReadableStream
-*
+>
 stream
 =
 aController
@@ -4146,8 +4150,10 @@ aRv
 Step
 1
 .
+RefPtr
+<
 ReadableStream
-*
+>
 stream
 =
 mStream

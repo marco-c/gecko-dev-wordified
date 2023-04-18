@@ -408,6 +408,7 @@ GetDesiredSize
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Close
 (
@@ -924,6 +925,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 ReadableStreamDefaultControllerClose
