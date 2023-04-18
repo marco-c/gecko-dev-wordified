@@ -163,6 +163,9 @@ id
 /
 [
 RefCounted
+ChildImpl
+=
+virtual
 ]
 async
 protocol

@@ -124,6 +124,14 @@ mozilla
 namespace
 dom
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PColorPicker
 {

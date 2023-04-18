@@ -124,6 +124,11 @@ mozilla
 namespace
 net
 {
+[
+ChildImpl
+=
+virtual
+]
 async
 protocol
 PSimpleChannel

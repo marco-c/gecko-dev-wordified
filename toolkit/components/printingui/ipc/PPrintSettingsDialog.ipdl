@@ -131,6 +131,14 @@ nsresult
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 protocol
 PPrintSettingsDialog
 {

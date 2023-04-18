@@ -346,6 +346,14 @@ EventSuppressed
 ;
 }
 ;
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PDocAccessible

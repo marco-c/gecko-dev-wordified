@@ -118,6 +118,14 @@ mozilla
 namespace
 embedding
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PPrinting

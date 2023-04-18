@@ -182,6 +182,14 @@ TextureHost
 .
 *
 /
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PTexture

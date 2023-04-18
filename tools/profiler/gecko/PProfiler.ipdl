@@ -194,6 +194,14 @@ thread
 is
 unresponsive
 .
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 async
 protocol
 PProfiler

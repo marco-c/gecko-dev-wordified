@@ -121,6 +121,14 @@ mozilla
 namespace
 dom
 {
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 async
 protocol
 PSpeechSynthesisRequest

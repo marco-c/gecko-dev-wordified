@@ -126,6 +126,12 @@ layout
 {
 [
 RefCounted
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
 ]
 async
 protocol

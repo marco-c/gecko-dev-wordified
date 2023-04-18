@@ -178,6 +178,14 @@ process
 .
 *
 /
+[
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PBackgroundStorage

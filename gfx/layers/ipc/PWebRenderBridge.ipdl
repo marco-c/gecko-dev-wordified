@@ -492,6 +492,11 @@ mozilla
 namespace
 layers
 {
+[
+ParentImpl
+=
+virtual
+]
 sync
 protocol
 PWebRenderBridge

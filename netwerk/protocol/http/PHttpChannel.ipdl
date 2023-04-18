@@ -254,6 +254,12 @@ net
 -
 [
 RefCounted
+ChildImpl
+=
+virtual
+ParentImpl
+=
+virtual
 ]
 protocol
 PHttpChannel
