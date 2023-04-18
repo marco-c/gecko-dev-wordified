@@ -1236,6 +1236,7 @@ mOwningElement
 >
 IsFrameCaptureRequested
 (
+aTime
 )
 )
 {
@@ -7583,6 +7584,10 @@ HTMLCanvasElement
 :
 IsFrameCaptureRequested
 (
+const
+TimeStamp
+&
+aTime
 )
 const
 {
@@ -7613,6 +7618,7 @@ listener
 >
 FrameCaptureRequested
 (
+aTime
 )
 )
 {
