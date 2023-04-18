@@ -1250,15 +1250,13 @@ android
 -
 hw
 -
-s7
+a51
 -
-8
+11
 -
 0
 -
-android
--
-aarch64
+arm7
 -
 shippable
 -
@@ -1282,7 +1280,7 @@ arch
 "
 :
 "
-aarch64
+arm7
 "
                     
 "
@@ -1290,7 +1288,7 @@ device
 "
 :
 "
-s7
+a51
 "
                     
 "
@@ -1312,7 +1310,7 @@ version
 "
 :
 "
-8
+11
 .
 0
 "
