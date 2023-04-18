@@ -9598,6 +9598,14 @@ mIsInPool
 :
 1
 ;
+#
+ifdef
+DEBUG
+bool
+mBlockShutdownCalled
+;
+#
+endif
 nsCOMPtr
 <
 nsIContentProcessInfo
