@@ -5424,7 +5424,7 @@ SECItem
 *
 aKeyData
 const
-nsString
+nsAString
 &
 aNamedCurve
 )
