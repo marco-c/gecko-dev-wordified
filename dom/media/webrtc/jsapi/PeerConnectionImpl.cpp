@@ -19521,6 +19521,8 @@ id
 /
 /
 TODO
+bug
+1739451
 call
 this
 from
@@ -19690,6 +19692,8 @@ mozalloc_handle_oom
 )
 ;
 }
+}
+}
 if
 (
 aConfig
@@ -19716,8 +19720,6 @@ Value
 )
 )
 ;
-}
-}
 }
 mJsConfiguration
 .
