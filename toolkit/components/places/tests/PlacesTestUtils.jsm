@@ -400,9 +400,6 @@ addVisits
 ;
 }
 let
-referrer
-;
-let
 info
 =
 {
@@ -480,6 +477,8 @@ string
 "
 )
 {
+place
+.
 referrer
 =
 Services
@@ -512,6 +511,8 @@ referrer
 )
 )
 {
+place
+.
 referrer
 =
 Services
@@ -685,6 +686,10 @@ transition
 date
 :
 visitDate
+referrer
+:
+place
+.
 referrer
 }
 ]

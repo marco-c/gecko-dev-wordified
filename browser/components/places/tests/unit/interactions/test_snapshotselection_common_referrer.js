@@ -140,6 +140,10 @@ addInteractions
 url
 :
 TEST_SEARCH_URL
+referrer
+:
+"
+"
 }
 {
 url
@@ -161,6 +165,10 @@ TEST_SEARCH_URL
 url
 :
 TEST_PRODUCT_C_URL
+referrer
+:
+"
+"
 }
 ]
 )
