@@ -4877,6 +4877,10 @@ kMozStorageMemoryStorageKey
 VoidCString
 (
 )
+mozIStorageService
+:
+:
+CONNECTION_DEFAULT
 getter_AddRefs
 (
 data
@@ -4897,6 +4901,10 @@ storage
 OpenDatabase
 (
 aPermissionsFile
+mozIStorageService
+:
+:
+CONNECTION_DEFAULT
 getter_AddRefs
 (
 data

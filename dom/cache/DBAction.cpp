@@ -1255,6 +1255,10 @@ dbFileUrl
 "
 "
 _ns
+mozIStorageService
+:
+:
+CONNECTION_DEFAULT
 )
 /
 /
@@ -1359,6 +1363,10 @@ dbFileUrl
 "
 "
 _ns
+mozIStorageService
+:
+:
+CONNECTION_DEFAULT
 )
 )
 ;
@@ -1449,6 +1457,10 @@ dbFileUrl
 "
 "
 _ns
+mozIStorageService
+:
+:
+CONNECTION_DEFAULT
 )
 )
 ;

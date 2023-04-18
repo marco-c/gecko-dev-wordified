@@ -5754,6 +5754,10 @@ mStorageService
 OpenUnsharedDatabase
 (
 mCookieFile
+mozIStorageService
+:
+:
+CONNECTION_DEFAULT
 getter_AddRefs
 (
 mSyncConn
@@ -11856,6 +11860,10 @@ mStorageService
 OpenUnsharedDatabase
 (
 mCookieFile
+mozIStorageService
+:
+:
+CONNECTION_DEFAULT
 getter_AddRefs
 (
 mDBConn
