@@ -1067,7 +1067,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -1087,6 +1086,10 @@ instead
 .
 uint16_t
 mReadyState
+GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;
