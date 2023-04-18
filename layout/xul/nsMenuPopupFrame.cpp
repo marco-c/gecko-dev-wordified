@@ -1864,6 +1864,8 @@ if
 aRecreate
 )
 {
+if
+(
 auto
 *
 widget
@@ -1871,10 +1873,6 @@ widget
 GetWidget
 (
 )
-;
-if
-(
-widget
 )
 {
 /
@@ -1924,6 +1922,10 @@ HasWidget
 {
 NS_ASSERTION
 (
+aRecreate
+|
+|
+(
 !
 mGeneratedChildren
 &
@@ -1935,6 +1937,7 @@ PrincipalChildList
 .
 FirstChild
 (
+)
 )
 "
 Creating
