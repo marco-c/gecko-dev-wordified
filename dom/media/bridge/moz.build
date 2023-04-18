@@ -196,14 +196,6 @@ third_party
 /
 libwebrtc
 "
-"
-/
-third_party
-/
-libwebrtc
-/
-webrtc
-"
 ]
 if
 CONFIG

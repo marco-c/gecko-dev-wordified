@@ -123,8 +123,6 @@ WebrtcImageBuffer_h__
 #
 include
 "
-webrtc
-/
 common_video
 /
 include
@@ -136,8 +134,6 @@ h
 #
 include
 "
-webrtc
-/
 rtc_base
 /
 keep_ref_until_done

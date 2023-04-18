@@ -185,8 +185,6 @@ h
 #
 include
 "
-webrtc
-/
 common_video
 /
 include
@@ -198,8 +196,6 @@ h
 #
 include
 "
-webrtc
-/
 common_video
 /
 libyuv
