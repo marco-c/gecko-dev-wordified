@@ -762,8 +762,9 @@ FinalizationRegistryObject
 (
 )
 .
-sweep
+traceWeak
 (
+trc
 )
 ;
 }
@@ -836,8 +837,9 @@ GC
 .
 records
 .
-sweep
+traceWeak
 (
+trc
 )
 ;
 /
