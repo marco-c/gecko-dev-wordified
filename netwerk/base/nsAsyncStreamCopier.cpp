@@ -1305,6 +1305,7 @@ closeSource
 bool
 closeSink
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 NS_ASSERTION
 (
