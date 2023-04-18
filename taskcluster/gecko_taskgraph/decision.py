@@ -84,14 +84,6 @@ taskgraph
 .
 util
 .
-taskcluster
-import
-get_artifact
-from
-taskgraph
-.
-util
-.
 yaml
 import
 load_yaml
@@ -195,6 +187,7 @@ util
 .
 taskcluster
 import
+get_artifact
 insert_index
 from
 .
