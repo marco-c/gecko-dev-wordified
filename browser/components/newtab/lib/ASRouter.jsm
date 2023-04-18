@@ -2290,7 +2290,7 @@ reporting
 await
 downloader
 .
-download
+downloadToDisk
 (
 record
 .

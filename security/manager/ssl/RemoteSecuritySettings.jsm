@@ -3908,7 +3908,7 @@ client
 .
 attachments
 .
-download
+downloadToDisk
 (
 filter
 )
