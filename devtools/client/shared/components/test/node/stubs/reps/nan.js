@@ -105,7 +105,9 @@ set
 (
 NaN
 {
+"
 type
+"
 :
 "
 NaN
