@@ -4747,6 +4747,8 @@ bool
 aCloneSHChildren
 )
 ;
+public
+:
 /
 /
 If
@@ -4782,8 +4784,6 @@ CollectWireframe
 (
 )
 ;
-public
-:
 /
 /
 Helper
