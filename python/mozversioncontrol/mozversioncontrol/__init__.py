@@ -3696,7 +3696,7 @@ un
 path
 )
 .
-split
+splitlines
 (
 )
 :
