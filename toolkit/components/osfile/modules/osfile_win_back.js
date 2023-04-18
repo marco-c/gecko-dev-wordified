@@ -218,9 +218,9 @@ We
 do
 not
 wish
-osfile_win
+osfile_win_back
 .
-jsm
+js
 to
 be
 used
@@ -280,9 +280,9 @@ new
 Error
 (
 "
-osfile_win
+osfile_win_back
 .
-jsm
+js
 cannot
 be
 used

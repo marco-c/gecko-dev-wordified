@@ -114,7 +114,7 @@ jsm
 "
 osfile_shared_front
 .
-jsm
+js
 "
 "
 ospath
@@ -159,12 +159,12 @@ jsm
 "
 osfile_win_back
 .
-jsm
+js
 "
 "
 osfile_win_front
 .
-jsm
+js
 "
 ]
 else
@@ -183,11 +183,11 @@ jsm
 "
 osfile_unix_back
 .
-jsm
+js
 "
 "
 osfile_unix_front
 .
-jsm
+js
 "
 ]

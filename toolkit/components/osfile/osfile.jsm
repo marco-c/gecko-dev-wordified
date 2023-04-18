@@ -276,7 +276,7 @@ osfile
 /
 osfile_win_back
 .
-jsm
+js
 "
 "
 resource
@@ -291,7 +291,7 @@ osfile
 /
 osfile_shared_front
 .
-jsm
+js
 "
 "
 resource
@@ -306,7 +306,7 @@ osfile
 /
 osfile_win_front
 .
-jsm
+js
 "
 )
 ;
@@ -328,7 +328,7 @@ osfile
 /
 osfile_unix_back
 .
-jsm
+js
 "
 "
 resource
@@ -343,7 +343,7 @@ osfile
 /
 osfile_shared_front
 .
-jsm
+js
 "
 "
 resource
@@ -358,7 +358,7 @@ osfile
 /
 osfile_unix_front
 .
-jsm
+js
 "
 )
 ;

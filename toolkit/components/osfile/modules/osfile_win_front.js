@@ -147,7 +147,7 @@ not
 wish
 osfile_win_front
 .
-jsm
+js
 to
 be
 used
@@ -168,7 +168,7 @@ Error
 "
 osfile_win_front
 .
-jsm
+js
 cannot
 be
 used
@@ -204,7 +204,7 @@ created
 by
 osfile_win_back
 .
-jsm
+js
 if
 (
 exports

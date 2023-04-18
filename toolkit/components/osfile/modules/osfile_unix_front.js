@@ -147,7 +147,7 @@ not
 wish
 osfile_unix_front
 .
-jsm
+js
 to
 be
 used
@@ -168,7 +168,7 @@ Error
 "
 osfile_unix_front
 .
-jsm
+js
 cannot
 be
 used
@@ -204,7 +204,7 @@ created
 by
 osfile_unix_back
 .
-jsm
+js
 if
 (
 exports

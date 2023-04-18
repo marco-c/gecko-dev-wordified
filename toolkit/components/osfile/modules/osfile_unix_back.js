@@ -109,7 +109,7 @@ not
 wish
 osfile_unix_back
 .
-jsm
+js
 to
 be
 used
@@ -171,7 +171,7 @@ Error
 "
 osfile_unix_back
 .
-jsm
+js
 cannot
 be
 used
