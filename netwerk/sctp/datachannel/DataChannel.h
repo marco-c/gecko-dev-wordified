@@ -1119,7 +1119,7 @@ aChannel
 ;
 /
 /
-CloseInt
+CloseLocked
 (
 )
 must
@@ -1129,7 +1129,7 @@ with
 mLock
 held
 void
-CloseInt
+CloseLocked
 (
 DataChannel
 *
