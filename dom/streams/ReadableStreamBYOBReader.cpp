@@ -676,7 +676,7 @@ Value
 aChunk
 ErrorResult
 &
-errorResult
+aRv
 )
 override
 {
@@ -852,7 +852,7 @@ Value
 aChunk
 ErrorResult
 &
-errorResult
+aRv
 )
 override
 {
@@ -1049,7 +1049,7 @@ Value
 e
 ErrorResult
 &
-errorResult
+aRv
 )
 override
 {
