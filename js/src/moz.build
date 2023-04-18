@@ -4261,6 +4261,14 @@ varargs
 -
 Wno
 -
+sign
+-
+compare
+"
+"
+-
+Wno
+-
 unknown
 -
 pragmas
