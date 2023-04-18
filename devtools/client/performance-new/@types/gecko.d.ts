@@ -1472,6 +1472,17 @@ string
 >
 ChromeWindow
 ;
+getMostRecentNonPBWindow
+:
+(
+name
+:
+string
+)
+=
+>
+ChromeWindow
+;
 }
 ;
 focus
