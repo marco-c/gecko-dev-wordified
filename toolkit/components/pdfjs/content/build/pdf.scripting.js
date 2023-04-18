@@ -13,7 +13,7 @@ notice
 for
 the
 *
-JavaScript
+Javascript
 code
 in
 this
@@ -155,7 +155,7 @@ notice
 for
 the
 *
-JavaScript
+Javascript
 code
 in
 this
@@ -26065,14 +26065,14 @@ pdfjsVersion
 .
 14
 .
-224
+171
 '
 ;
 const
 pdfjsBuild
 =
 '
-2be19e828
+3f5c31e20
 '
 ;
 }
