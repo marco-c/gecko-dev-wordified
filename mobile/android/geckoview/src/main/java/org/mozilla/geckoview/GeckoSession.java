@@ -6412,8 +6412,6 @@ String
 id
 String
 chromeUri
-int
-screenId
 boolean
 privateMode
 )
@@ -8254,16 +8252,6 @@ getChromeUri
 )
 ;
 final
-int
-screenId
-=
-mSettings
-.
-getScreenId
-(
-)
-;
-final
 boolean
 isPrivate
 =
@@ -8342,7 +8330,6 @@ createInitData
 )
 mId
 chromeUri
-screenId
 isPrivate
 )
 ;
@@ -8409,7 +8396,6 @@ String
 .
 class
 chromeUri
-screenId
 isPrivate
 )
 ;
