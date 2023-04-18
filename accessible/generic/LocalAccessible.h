@@ -2301,13 +2301,15 @@ index
 .
 *
 /
+virtual
 LocalAccessible
 *
-GetEmbeddedChildAt
+EmbeddedChildAt
 (
 uint32_t
 aIndex
 )
+override
 ;
 /
 *

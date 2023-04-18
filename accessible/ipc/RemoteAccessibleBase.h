@@ -757,13 +757,15 @@ Derived
 aChild
 )
 ;
-Derived
+virtual
+Accessible
 *
 EmbeddedChildAt
 (
-size_t
+uint32_t
 aChildIdx
 )
+override
 ;
 void
 Shutdown

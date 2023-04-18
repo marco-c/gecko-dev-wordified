@@ -558,7 +558,7 @@ aIndex
 )
 {
 return
-GetEmbeddedChildAt
+EmbeddedChildAt
 (
 aIndex
 )
