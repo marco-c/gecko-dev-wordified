@@ -2141,11 +2141,9 @@ if
 (
 mKeys
 .
-size
+empty
 (
 )
-<
-1
 )
 {
 /
