@@ -405,7 +405,6 @@ nsPluginArray
 (
 )
 ;
-static
 bool
 ForceNoPlugins
 (

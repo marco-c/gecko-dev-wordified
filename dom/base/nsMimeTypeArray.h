@@ -397,7 +397,6 @@ nsMimeTypeArray
 (
 )
 ;
-static
 bool
 ForceNoPlugins
 (
