@@ -218,7 +218,7 @@ tag
 ;
 assert_throws_js
 (
-RangeError
+TypeError
 (
 )
 =
