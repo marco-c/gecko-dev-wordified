@@ -2735,6 +2735,10 @@ const
 NIMBUS_DEFAULTS
 =
 {
+experimentType
+:
+"
+"
 isBestMatchExperiment
 :
 false

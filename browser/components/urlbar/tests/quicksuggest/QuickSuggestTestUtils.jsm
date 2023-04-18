@@ -4761,7 +4761,7 @@ _didSendExposureEvent
 =
 false
 ;
-UrlbarProviderQuickSuggest
+UrlbarQuickSuggest
 .
 _recordedExposureEvent
 =
@@ -4849,7 +4849,7 @@ Assert
 .
 equal
 (
-UrlbarProviderQuickSuggest
+UrlbarQuickSuggest
 .
 _recordedExposureEvent
 expectedRecorded
