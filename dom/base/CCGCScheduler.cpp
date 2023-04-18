@@ -3731,7 +3731,6 @@ TimeBudget
 (
 baseBudget
 )
-kNumCCNodesBetweenTimeChecks
 )
 ;
 }
@@ -3965,7 +3964,6 @@ baseBudget
 }
 )
 )
-kNumCCNodesBetweenTimeChecks
 )
 ;
 }
