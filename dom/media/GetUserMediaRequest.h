@@ -132,7 +132,7 @@ namespace
 mozilla
 {
 class
-MediaDevice
+LocalMediaDevice
 ;
 namespace
 media
@@ -172,7 +172,7 @@ nsWrapperCache
 public
 :
 using
-MediaDeviceSetRefCnt
+LocalMediaDeviceSetRefCnt
 =
 media
 :
@@ -183,7 +183,7 @@ nsTArray
 <
 RefPtr
 <
-MediaDevice
+LocalMediaDevice
 >
 >
 >
@@ -208,7 +208,7 @@ nsAString
 aCallID
 RefPtr
 <
-MediaDeviceSetRefCnt
+LocalMediaDeviceSetRefCnt
 >
 aMediaDeviceSet
 const
@@ -241,7 +241,7 @@ nsAString
 aCallID
 RefPtr
 <
-MediaDeviceSetRefCnt
+LocalMediaDeviceSetRefCnt
 >
 aMediaDeviceSet
 const
@@ -419,7 +419,7 @@ mMediaSource
 const
 RefPtr
 <
-MediaDeviceSetRefCnt
+LocalMediaDeviceSetRefCnt
 >
 mMediaDeviceSet
 ;

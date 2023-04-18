@@ -153,7 +153,7 @@ nsAString
 aCallID
 RefPtr
 <
-MediaDeviceSetRefCnt
+LocalMediaDeviceSetRefCnt
 >
 aMediaDeviceSet
 const
@@ -242,7 +242,7 @@ nsAString
 aCallID
 RefPtr
 <
-MediaDeviceSetRefCnt
+LocalMediaDeviceSetRefCnt
 >
 aMediaDeviceSet
 const

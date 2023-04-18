@@ -148,6 +148,9 @@ class
 AllocationHandle
 ;
 class
+MediaDevice
+;
+class
 MediaEngineSource
 ;
 enum
