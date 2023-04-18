@@ -74,6 +74,14 @@ gecko_taskgraph
 .
 util
 .
+attributes
+import
+release_level
+from
+gecko_taskgraph
+.
+util
+.
 scriptworker
 import
 get_release_config
@@ -426,12 +434,16 @@ release
 level
 "
 :
+release_level
+(
 config
 .
 params
-.
-release_level
-(
+[
+"
+project
+"
+]
 )
                     
 "

@@ -92,7 +92,12 @@ util
 .
 attributes
 import
+(
+    
 copy_attributes_from_dependent_job
+    
+release_level
+)
 from
 gecko_taskgraph
 .
@@ -690,12 +695,16 @@ release
 level
 "
 :
+release_level
+(
 config
 .
 params
-.
-release_level
-(
+[
+"
+project
+"
+]
 )
             
 }

@@ -91,6 +91,7 @@ attributes
 import
 RELEASE_PROJECTS
 is_try
+release_level
 from
 gecko_taskgraph
 .
@@ -1521,12 +1522,16 @@ release
 level
 "
 :
+release_level
+(
 config
 .
 params
-.
-release_level
-(
+[
+"
+project
+"
+]
 )
 }
         
