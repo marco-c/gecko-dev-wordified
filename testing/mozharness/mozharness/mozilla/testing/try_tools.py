@@ -195,6 +195,15 @@ chrome
 }
     
 "
+browser
+-
+a11y
+"
+:
+{
+}
+    
+"
 chrome
 "
 :
@@ -549,6 +558,12 @@ None
 browser
 -
 chrome
+"
+                
+"
+browser
+-
+a11y
 "
                 
 "

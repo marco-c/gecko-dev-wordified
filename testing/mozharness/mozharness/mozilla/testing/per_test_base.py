@@ -1890,6 +1890,32 @@ chrome
 "
                     
 "
+a11y
+"
+                    
+None
+                
+)
+:
+"
+mochitest
+-
+browser
+-
+a11y
+"
+                
+(
+                    
+"
+mochitest
+-
+browser
+-
+chrome
+"
+                    
+"
 devtools
 "
                     
