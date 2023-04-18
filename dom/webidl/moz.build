@@ -5856,6 +5856,11 @@ WebSocket
 webidl
 "
 "
+WebTaskScheduling
+.
+webidl
+"
+"
 WebXR
 .
 webidl
@@ -6668,6 +6673,11 @@ webidl
 "
 "
 SubmitEvent
+.
+webidl
+"
+"
+TaskPriorityChangeEvent
 .
 webidl
 "

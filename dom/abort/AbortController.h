@@ -169,7 +169,6 @@ AbortSignal
 ;
 class
 AbortController
-final
 :
 public
 nsISupports
@@ -258,8 +257,9 @@ Value
 aReason
 )
 ;
-private
+protected
 :
+virtual
 ~
 AbortController
 (
