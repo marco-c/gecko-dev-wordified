@@ -1744,7 +1744,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 file
 .
@@ -1987,7 +1987,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 file
 .
@@ -2252,7 +2252,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 file
 .
@@ -2536,7 +2536,7 @@ promise_rejects_dom
 (
 t
 '
-InvalidStateError
+NoModificationAllowedError
 '
 file
 .
