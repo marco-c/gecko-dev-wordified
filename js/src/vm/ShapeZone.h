@@ -1215,14 +1215,6 @@ zone
 )
 ;
 void
-clearTables
-(
-JSFreeOp
-*
-fop
-)
-;
-void
 purgeShapeCaches
 (
 JSFreeOp
