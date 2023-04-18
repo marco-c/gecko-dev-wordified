@@ -250,15 +250,6 @@ h
 >
 #
 include
-<
-gdk
-/
-gdkx
-.
-h
->
-#
-include
 "
 nsCRT
 .

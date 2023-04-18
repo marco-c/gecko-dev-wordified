@@ -133,15 +133,6 @@ h
 #
 include
 <
-gdk
-/
-gdkx
-.
-h
->
-#
-include
-<
 stdio
 .
 h
