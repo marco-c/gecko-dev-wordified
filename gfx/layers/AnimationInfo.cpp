@@ -1351,7 +1351,7 @@ widget
 )
 -
 >
-HasLayerManager
+HasWindowRenderer
 (
 )
 )

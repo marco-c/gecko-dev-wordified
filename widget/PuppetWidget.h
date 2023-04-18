@@ -1155,7 +1155,7 @@ aInitializeFunc
 )
 ;
 bool
-HasLayerManager
+HasWindowRenderer
 (
 )
 {

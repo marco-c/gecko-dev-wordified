@@ -17399,7 +17399,7 @@ MOZ_ASSERT
 mPuppetWidget
 -
 >
-HasLayerManager
+HasWindowRenderer
 (
 )
 |
@@ -18232,7 +18232,7 @@ if
 mPuppetWidget
 -
 >
-HasLayerManager
+HasWindowRenderer
 (
 )
 )
@@ -20838,7 +20838,7 @@ mPuppetWidget
 mPuppetWidget
 -
 >
-HasLayerManager
+HasWindowRenderer
 (
 )
 )
