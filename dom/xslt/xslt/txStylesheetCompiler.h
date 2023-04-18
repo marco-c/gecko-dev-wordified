@@ -458,7 +458,7 @@ popHandlerTable
 (
 )
 ;
-nsresult
+void
 pushSorter
 (
 txPushNewContext
