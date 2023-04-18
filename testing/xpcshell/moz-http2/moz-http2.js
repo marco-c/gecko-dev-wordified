@@ -2731,8 +2731,14 @@ error
 .
 return
 "
-<
-12bytes
+\
+x0F
+\
+x0F
+\
+x0F
+\
+x0F
 "
 ;
 }
