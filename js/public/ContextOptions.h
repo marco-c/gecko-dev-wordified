@@ -323,6 +323,10 @@ ergonomicBrandChecks_
 (
 false
 )
+classStaticBlocks_
+(
+false
+)
 importAssertions_
 (
 false
