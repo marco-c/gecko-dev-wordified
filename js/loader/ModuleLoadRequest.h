@@ -658,9 +658,6 @@ this
 nsresult
 EvaluateModule
 (
-nsIGlobalObject
-*
-aGlobalObject
 )
 {
 return
@@ -669,7 +666,6 @@ mLoader
 >
 EvaluateModule
 (
-aGlobalObject
 this
 )
 ;
