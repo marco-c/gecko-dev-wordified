@@ -131,6 +131,7 @@ Expression
 }
 {
 }
+;
 reportCompare
 (
 0

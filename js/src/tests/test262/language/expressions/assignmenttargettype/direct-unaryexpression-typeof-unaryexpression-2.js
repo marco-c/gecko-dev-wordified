@@ -106,8 +106,14 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 typeof
 true
 =
 1
 ;
+}

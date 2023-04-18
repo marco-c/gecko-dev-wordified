@@ -149,6 +149,7 @@ Elision_opt
 42
 ]
 ;
+;
 reportCompare
 (
 0

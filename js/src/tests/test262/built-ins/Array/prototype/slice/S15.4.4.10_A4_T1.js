@@ -106,6 +106,11 @@ slice
 (
 )
 ;
+/
+/
+CHECK
+#
+1
 if
 (
 arr
@@ -178,6 +183,11 @@ arr
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 if
 (
 arr
@@ -250,6 +260,11 @@ arr
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 if
 (
 arr

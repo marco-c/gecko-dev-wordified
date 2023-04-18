@@ -133,6 +133,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 (
 true
@@ -145,3 +150,4 @@ true
 =
 1
 ;
+}

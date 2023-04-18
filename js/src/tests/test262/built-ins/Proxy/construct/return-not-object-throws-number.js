@@ -110,6 +110,12 @@ Proxy
 -
 *
 /
+function
+Target
+(
+)
+{
+}
 var
 P
 =

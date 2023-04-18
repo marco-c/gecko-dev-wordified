@@ -79,6 +79,11 @@ slice
 NaN
 )
 ;
+/
+/
+CHECK
+#
+1
 arr
 .
 getClass
@@ -162,6 +167,11 @@ getClass
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 if
 (
 arr
@@ -223,6 +233,11 @@ length
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 if
 (
 arr

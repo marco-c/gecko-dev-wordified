@@ -84,6 +84,11 @@ prototype
 -
 *
 /
+/
+/
+CHECK
+#
+1
 var
 n
 =

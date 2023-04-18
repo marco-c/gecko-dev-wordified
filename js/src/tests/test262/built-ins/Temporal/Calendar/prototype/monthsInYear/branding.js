@@ -101,19 +101,6 @@ function
 "
 )
 ;
-const
-arg
-=
-new
-Temporal
-.
-PlainDate
-(
-2021
-3
-4
-)
-;
 assert
 .
 throws
@@ -128,7 +115,6 @@ monthsInYear
 call
 (
 undefined
-arg
 )
 "
 undefined
@@ -149,7 +135,6 @@ monthsInYear
 call
 (
 null
-arg
 )
 "
 null
@@ -170,7 +155,6 @@ monthsInYear
 call
 (
 true
-arg
 )
 "
 true
@@ -192,7 +176,6 @@ call
 (
 "
 "
-arg
 )
 "
 empty
@@ -216,7 +199,6 @@ call
 Symbol
 (
 )
-arg
 )
 "
 symbol
@@ -237,7 +219,6 @@ monthsInYear
 call
 (
 1
-arg
 )
 "
 1
@@ -259,7 +240,6 @@ call
 (
 {
 }
-arg
 )
 "
 plain
@@ -283,7 +263,6 @@ call
 Temporal
 .
 Calendar
-arg
 )
 "
 Temporal
@@ -310,7 +289,6 @@ Temporal
 Calendar
 .
 prototype
-arg
 )
 "
 Temporal

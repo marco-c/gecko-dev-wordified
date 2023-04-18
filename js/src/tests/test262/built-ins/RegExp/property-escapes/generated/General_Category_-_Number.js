@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2021
+2020
 Mathias
 Bynens
 .
@@ -67,7 +67,7 @@ escapes
 -
 tests
 Unicode
-v14
+v13
 .
 0
 .
@@ -564,10 +564,6 @@ ranges
 [
 0x016A60
 0x016A69
-]
-[
-0x016AC0
-0x016AC9
 ]
 [
 0x016B50
@@ -1283,10 +1279,6 @@ ranges
 ]
 [
 0x016A6A
-0x016ABF
-]
-[
-0x016ACA
 0x016B4F
 ]
 [

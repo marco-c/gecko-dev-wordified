@@ -220,6 +220,7 @@ FinalizationRegistry
 prototype
 .
 cleanupSome
+cleanupSome
 FinalizationRegistry
 Symbol
 host

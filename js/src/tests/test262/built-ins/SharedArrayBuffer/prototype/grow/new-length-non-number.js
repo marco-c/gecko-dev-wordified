@@ -139,7 +139,6 @@ newLength
 features
 :
 [
-SharedArrayBuffer
 resizable
 -
 arraybuffer

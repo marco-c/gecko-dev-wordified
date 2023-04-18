@@ -127,6 +127,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 x
 instanceof
@@ -135,3 +140,4 @@ y
 =
 1
 ;
+}

@@ -125,6 +125,7 @@ c
 ;
 b
 ;
+;
 reportCompare
 (
 0

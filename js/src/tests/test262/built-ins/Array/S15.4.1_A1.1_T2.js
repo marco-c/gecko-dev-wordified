@@ -92,6 +92,11 @@ toString
 -
 *
 /
+/
+/
+CHECK
+#
+1
 Array
 .
 prototype
@@ -143,6 +148,11 @@ Array
 '
 )
 ;
+/
+/
+CHECK
+#
+2
 Array
 .
 prototype

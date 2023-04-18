@@ -97,7 +97,13 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 true
 =
 1
 ;
+}

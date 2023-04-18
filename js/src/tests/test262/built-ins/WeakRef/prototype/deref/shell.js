@@ -65,10 +65,6 @@ collectors
 features
 :
 [
-FinalizationRegistry
-.
-prototype
-.
 cleanupSome
 FinalizationRegistry
 Symbol

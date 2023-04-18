@@ -140,9 +140,15 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 eval
 )
 =
 1
 ;
+}

@@ -259,6 +259,11 @@ alphabet
 "
 ]
 ;
+/
+/
+CHECK
+#
+1
 alphabetR
 .
 sort

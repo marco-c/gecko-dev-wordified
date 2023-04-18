@@ -116,6 +116,11 @@ property
 -
 *
 /
+/
+/
+CHECK
+#
+1
 Array
 .
 prototype
@@ -167,6 +172,11 @@ false
 '
 )
 ;
+/
+/
+CHECK
+#
+2
 x
 .
 length

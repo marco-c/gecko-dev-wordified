@@ -104,11 +104,10 @@ i
 )
 includes
 :
-[
+-
 propertyHelper
 .
 js
-]
 -
 -
 -

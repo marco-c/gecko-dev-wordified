@@ -162,7 +162,6 @@ undefined
 features
 :
 [
-SharedArrayBuffer
 resizable
 -
 arraybuffer

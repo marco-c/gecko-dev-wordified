@@ -60,7 +60,6 @@ prototype
 year
 description
 :
->
 Temporal
 .
 Calendar

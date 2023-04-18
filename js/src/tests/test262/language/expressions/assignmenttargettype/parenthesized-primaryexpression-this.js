@@ -114,9 +114,15 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 this
 )
 =
 1
 ;
+}

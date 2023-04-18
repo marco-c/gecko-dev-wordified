@@ -146,7 +146,7 @@ p
 )
 ;
 assert
-.
+(
 compareArray
 (
 Object
@@ -169,6 +169,7 @@ enumerable
 configurable
 '
 ]
+)
 )
 ;
 assert

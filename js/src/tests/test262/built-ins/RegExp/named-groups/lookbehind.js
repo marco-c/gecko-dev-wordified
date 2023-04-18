@@ -77,7 +77,7 @@ js
 Unicode
 mode
 assert
-.
+(
 compareArray
 (
 [
@@ -114,6 +114,7 @@ w
 f
 /
 u
+)
 )
 )
 ;
@@ -270,7 +271,7 @@ u
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -304,9 +305,10 @@ f
 u
 )
 )
+)
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -344,9 +346,10 @@ f
 u
 )
 )
+)
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -381,6 +384,7 @@ d
 f
 /
 u
+)
 )
 )
 ;
@@ -419,7 +423,7 @@ u
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -456,11 +460,12 @@ f
 f
 /
 u
+)
 )
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -497,6 +502,7 @@ f
 f
 /
 u
+)
 )
 )
 ;
@@ -507,7 +513,7 @@ Non
 Unicode
 mode
 assert
-.
+(
 compareArray
 (
 [
@@ -543,6 +549,7 @@ w
 )
 f
 /
+)
 )
 )
 ;
@@ -695,7 +702,7 @@ f
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -728,9 +735,10 @@ f
 /
 )
 )
+)
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -767,9 +775,10 @@ f
 /
 )
 )
+)
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -803,6 +812,7 @@ d
 )
 f
 /
+)
 )
 )
 ;
@@ -840,7 +850,7 @@ f
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -876,11 +886,12 @@ f
 |
 f
 /
+)
 )
 )
 ;
 assert
-.
+(
 compareArray
 (
 [
@@ -916,6 +927,7 @@ f
 |
 f
 /
+)
 )
 )
 ;
@@ -934,7 +946,7 @@ to
 right
 order
 assert
-.
+(
 compareArray
 (
 [
@@ -981,6 +993,7 @@ abcd
 )
 .
 groups
+)
 )
 )
 ;

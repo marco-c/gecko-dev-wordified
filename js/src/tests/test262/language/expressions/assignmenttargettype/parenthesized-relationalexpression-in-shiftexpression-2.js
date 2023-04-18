@@ -127,6 +127,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 true
 in
@@ -135,3 +140,4 @@ false
 =
 1
 ;
+}

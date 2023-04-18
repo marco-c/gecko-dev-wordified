@@ -49,7 +49,7 @@ Checks
 handling
 of
 the
-signDisplay
+compactDisplay
 option
 to
 the
@@ -2379,9 +2379,6 @@ formatToParts
 987
 )
 negative
-"
-negative
-"
 )
 ;
 verifyFormatParts
@@ -2396,9 +2393,6 @@ formatToParts
 0001
 )
 negativeNearZero
-"
-negativeNearZero
-"
 )
 ;
 verifyFormatParts
@@ -2411,9 +2405,6 @@ formatToParts
 0
 )
 negativeZero
-"
-negativeZero
-"
 )
 ;
 verifyFormatParts
@@ -2425,9 +2416,6 @@ formatToParts
 0
 )
 zero
-"
-zero
-"
 )
 ;
 verifyFormatParts
@@ -2441,9 +2429,6 @@ formatToParts
 0001
 )
 positiveNearZero
-"
-positiveNearZero
-"
 )
 ;
 verifyFormatParts
@@ -2455,9 +2440,6 @@ formatToParts
 987
 )
 positive
-"
-positive
-"
 )
 ;
 }

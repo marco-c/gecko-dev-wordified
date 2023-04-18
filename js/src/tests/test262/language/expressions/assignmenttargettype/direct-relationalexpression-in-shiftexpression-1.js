@@ -107,9 +107,15 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 1
 in
 2
 =
 1
 ;
+}

@@ -121,6 +121,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 (
 x
@@ -132,3 +137,4 @@ x
 =
 1
 ;
+}

@@ -104,6 +104,11 @@ splice
 1
 )
 ;
+/
+/
+CHECK
+#
+1
 if
 (
 arr
@@ -186,6 +191,11 @@ length
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 if
 (
 arr
@@ -270,6 +280,11 @@ arr
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 if
 (
 obj
@@ -351,6 +366,11 @@ length
 )
 ;
 }
+/
+/
+CHECK
+#
+4
 if
 (
 obj

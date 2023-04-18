@@ -113,7 +113,6 @@ true
 features
 :
 [
-SharedArrayBuffer
 resizable
 -
 arraybuffer

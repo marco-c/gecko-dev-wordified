@@ -60,7 +60,6 @@ prototype
 daysinweeks
 description
 :
->
 Temporal
 .
 Calendar

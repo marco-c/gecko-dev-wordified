@@ -99,6 +99,11 @@ undefined
 -
 *
 /
+/
+/
+CHECK
+#
+1
 var
 x
 =
@@ -166,6 +171,11 @@ be
 '
 )
 ;
+/
+/
+CHECK
+#
+3
 var
 y
 =

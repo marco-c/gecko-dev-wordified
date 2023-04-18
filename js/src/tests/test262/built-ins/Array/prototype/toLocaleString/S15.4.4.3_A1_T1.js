@@ -144,6 +144,11 @@ toLocaleString
 (
 )
 ;
+/
+/
+CHECK
+#
+1
 if
 (
 n

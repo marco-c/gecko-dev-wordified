@@ -144,7 +144,6 @@ exception
 features
 :
 [
-SharedArrayBuffer
 resizable
 -
 arraybuffer

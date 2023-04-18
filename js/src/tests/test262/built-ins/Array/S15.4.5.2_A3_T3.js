@@ -87,6 +87,11 @@ length
 -
 *
 /
+/
+/
+CHECK
+#
+1
 var
 x
 =
@@ -122,6 +127,11 @@ be
 '
 )
 ;
+/
+/
+CHECK
+#
+2
 try
 {
 x

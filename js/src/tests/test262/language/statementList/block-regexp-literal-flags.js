@@ -144,6 +144,7 @@ RegularExpressionFlags
 /
 g
 ;
+;
 reportCompare
 (
 0

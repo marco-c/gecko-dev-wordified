@@ -111,7 +111,6 @@ ArrayBufferData
 features
 :
 [
-SharedArrayBuffer
 resizable
 -
 arraybuffer

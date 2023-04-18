@@ -245,12 +245,13 @@ Sub
 )
 ;
 assert
-.
+(
 compareArray
 (
 a3
 [
 ]
+)
 )
 ;
 assert

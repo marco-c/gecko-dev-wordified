@@ -109,6 +109,11 @@ slice
 1
 )
 ;
+/
+/
+CHECK
+#
+1
 arr
 .
 getClass
@@ -193,6 +198,11 @@ getClass
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 if
 (
 arr
@@ -255,6 +265,11 @@ length
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 if
 (
 arr
@@ -320,6 +335,11 @@ arr
 )
 ;
 }
+/
+/
+CHECK
+#
+4
 if
 (
 arr

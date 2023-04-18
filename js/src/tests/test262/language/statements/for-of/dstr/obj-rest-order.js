@@ -351,7 +351,7 @@ o
 )
 {
 assert
-.
+(
 compareArray
 (
 calls
@@ -370,6 +370,7 @@ foo
 )
 "
 ]
+)
 )
 ;
 assert

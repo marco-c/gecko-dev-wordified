@@ -249,6 +249,11 @@ return
 0
 ;
 }
+/
+/
+CHECK
+#
+1
 alphabet
 .
 sort

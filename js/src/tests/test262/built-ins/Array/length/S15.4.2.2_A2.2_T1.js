@@ -91,6 +91,11 @@ len
 -
 *
 /
+/
+/
+CHECK
+#
+1
 try
 {
 new
@@ -166,6 +171,11 @@ true
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 try
 {
 new
@@ -238,6 +248,11 @@ true
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 try
 {
 new

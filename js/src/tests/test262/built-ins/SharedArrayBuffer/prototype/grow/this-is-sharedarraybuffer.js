@@ -126,7 +126,6 @@ features
 :
 [
 ArrayBuffer
-SharedArrayBuffer
 resizable
 -
 arraybuffer

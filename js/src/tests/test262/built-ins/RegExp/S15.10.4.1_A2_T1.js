@@ -100,6 +100,11 @@ fail
 -
 *
 /
+/
+/
+CHECK
+#
+1
 var
 regExpObj
 =

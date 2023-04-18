@@ -120,7 +120,6 @@ ArrayBufferMaxByteLength
 features
 :
 [
-SharedArrayBuffer
 resizable
 -
 arraybuffer

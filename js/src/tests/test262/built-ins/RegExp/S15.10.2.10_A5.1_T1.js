@@ -105,6 +105,11 @@ is
 -
 *
 /
+/
+/
+CHECK
+#
+1
 var
 non_ident
 =

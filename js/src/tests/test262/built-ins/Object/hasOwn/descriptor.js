@@ -51,11 +51,10 @@ Object
 hasOwn
 includes
 :
-[
+-
 propertyHelper
 .
 js
-]
 author
 :
 Jamie

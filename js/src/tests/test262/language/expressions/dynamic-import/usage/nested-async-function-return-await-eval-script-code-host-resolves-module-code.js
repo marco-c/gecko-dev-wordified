@@ -74,7 +74,7 @@ import
 )
 from
 a
-script
+ascript
 code
 can
 load

@@ -126,6 +126,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 typeof
 x
@@ -133,3 +138,4 @@ x
 =
 1
 ;
+}

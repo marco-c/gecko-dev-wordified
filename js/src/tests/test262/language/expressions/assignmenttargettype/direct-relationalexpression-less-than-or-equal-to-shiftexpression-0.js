@@ -116,6 +116,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 x
 <
 =
@@ -123,3 +128,4 @@ y
 =
 1
 ;
+}

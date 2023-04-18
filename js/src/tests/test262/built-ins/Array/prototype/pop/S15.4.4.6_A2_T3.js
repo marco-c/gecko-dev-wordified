@@ -105,6 +105,11 @@ prototype
 .
 pop
 ;
+/
+/
+CHECK
+#
+1
 obj
 .
 length
@@ -183,6 +188,11 @@ pop
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 if
 (
 obj
@@ -252,6 +262,11 @@ length
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 obj
 .
 length
@@ -334,6 +349,11 @@ pop
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 if
 (
 obj

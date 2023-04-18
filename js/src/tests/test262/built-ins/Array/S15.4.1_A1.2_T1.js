@@ -74,6 +74,11 @@ toString
 -
 *
 /
+/
+/
+CHECK
+#
+1
 var
 x
 =
@@ -123,6 +128,11 @@ Array
 '
 )
 ;
+/
+/
+CHECK
+#
+2
 var
 x
 =

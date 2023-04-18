@@ -102,6 +102,11 @@ length
 -
 4294967294
 ;
+/
+/
+CHECK
+#
+1
 var
 shift
 =
@@ -189,6 +194,11 @@ shift
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 if
 (
 obj
@@ -275,6 +285,11 @@ length
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 if
 (
 obj
@@ -368,6 +383,11 @@ obj
 )
 ;
 }
+/
+/
+CHECK
+#
+4
 if
 (
 obj

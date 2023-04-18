@@ -127,7 +127,6 @@ function
 features
 :
 [
-SharedArrayBuffer
 resizable
 -
 arraybuffer

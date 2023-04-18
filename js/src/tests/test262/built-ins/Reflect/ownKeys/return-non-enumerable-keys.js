@@ -120,7 +120,7 @@ Reflect
 *
 /
 assert
-.
+(
 compareArray
 (
 Reflect
@@ -135,6 +135,7 @@ ownKeys
 length
 '
 ]
+)
 '
 return
 non
@@ -147,7 +148,7 @@ array
 )
 ;
 assert
-.
+(
 compareArray
 (
 Reflect
@@ -166,6 +167,7 @@ ownKeys
 length
 '
 ]
+)
 '
 return
 array
@@ -220,7 +222,7 @@ false
 )
 ;
 assert
-.
+(
 compareArray
 (
 Reflect
@@ -237,6 +239,7 @@ p1
 p2
 '
 ]
+)
 )
 ;
 reportCompare

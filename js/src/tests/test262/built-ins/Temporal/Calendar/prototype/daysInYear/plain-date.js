@@ -60,7 +60,6 @@ prototype
 daysinyear
 description
 :
->
 Temporal
 .
 Calendar

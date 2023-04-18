@@ -76,12 +76,12 @@ chaining
 ]
 negative
 :
-phase
-:
-parse
 type
 :
 SyntaxError
+phase
+:
+parse
 -
 -
 -

@@ -66,6 +66,11 @@ prototype
 -
 *
 /
+/
+/
+CHECK
+#
+1
 if
 (
 Array

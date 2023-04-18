@@ -121,6 +121,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 import
 (
@@ -129,3 +134,4 @@ import
 =
 1
 ;
+}

@@ -68,6 +68,11 @@ symbols
 -
 *
 /
+/
+/
+CHECK
+#
+0
 var
 arr
 =
@@ -163,6 +168,11 @@ arr
 )
 ;
 }
+/
+/
+CHECK
+#
+1
 var
 arr
 =
@@ -258,6 +268,11 @@ arr
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 var
 arr
 =
@@ -353,6 +368,11 @@ arr
 )
 ;
 }
+/
+/
+CHECK
+#
+3
 var
 arr
 =

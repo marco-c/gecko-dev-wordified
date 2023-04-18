@@ -101,6 +101,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 async
 x
@@ -111,3 +116,4 @@ x
 =
 1
 ;
+}

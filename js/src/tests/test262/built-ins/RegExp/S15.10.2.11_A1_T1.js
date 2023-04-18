@@ -84,6 +84,11 @@ Unicodevalue0000
 -
 *
 /
+/
+/
+CHECK
+#
+1
 var
 arr
 =
@@ -179,6 +184,11 @@ arr
 )
 ;
 }
+/
+/
+CHECK
+#
+2
 var
 arr
 =

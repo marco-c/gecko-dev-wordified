@@ -252,11 +252,6 @@ desc
 Return
 true
 .
-features
-:
-[
-AggregateError
-]
 -
 -
 -

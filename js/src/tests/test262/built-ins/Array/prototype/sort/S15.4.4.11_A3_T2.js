@@ -231,6 +231,11 @@ sort
 myComparefn
 )
 ;
+/
+/
+CHECK
+#
+0
 alphabetR
 .
 getClass
@@ -288,6 +293,11 @@ object
 )
 ;
 }
+/
+/
+CHECK
+#
+1
 var
 result
 =

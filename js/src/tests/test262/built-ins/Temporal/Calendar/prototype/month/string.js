@@ -60,7 +60,6 @@ prototype
 month
 description
 :
->
 Temporal
 .
 Calendar

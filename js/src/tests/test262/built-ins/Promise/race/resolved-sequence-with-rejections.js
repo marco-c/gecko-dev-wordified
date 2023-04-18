@@ -396,8 +396,6 @@ result
 =
 >
 {
-assert
-.
 compareArray
 (
 result

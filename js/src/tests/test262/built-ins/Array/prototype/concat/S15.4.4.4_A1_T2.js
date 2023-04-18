@@ -145,6 +145,11 @@ NaN
 "
 )
 ;
+/
+/
+CHECK
+#
+0
 arr
 .
 getClass

@@ -119,6 +119,11 @@ AAAAAAAAAAA
 "
 )
 ;
+/
+/
+CHECK
+#
+1
 if
 (
 (
@@ -260,6 +265,11 @@ i
 +
 )
 {
+/
+/
+CHECK
+#
+i
 if
 (
 (

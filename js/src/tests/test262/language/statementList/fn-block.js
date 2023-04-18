@@ -140,6 +140,7 @@ fn
 }
 {
 }
+;
 reportCompare
 (
 0

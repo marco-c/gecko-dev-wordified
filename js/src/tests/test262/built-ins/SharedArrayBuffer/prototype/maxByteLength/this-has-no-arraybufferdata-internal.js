@@ -121,8 +121,7 @@ features
 :
 [
 DataView
-SharedArrayBuffer
-TypedArray
+Int8Array
 resizable
 -
 arraybuffer

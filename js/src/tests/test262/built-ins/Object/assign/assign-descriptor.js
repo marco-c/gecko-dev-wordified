@@ -40,11 +40,10 @@ Object
 assign
 includes
 :
-[
+-
 propertyHelper
 .
 js
-]
 es6id
 :
 19

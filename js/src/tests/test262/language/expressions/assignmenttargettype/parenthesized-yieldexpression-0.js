@@ -121,6 +121,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 (
 yield
 x
@@ -128,3 +133,4 @@ x
 =
 1
 ;
+}

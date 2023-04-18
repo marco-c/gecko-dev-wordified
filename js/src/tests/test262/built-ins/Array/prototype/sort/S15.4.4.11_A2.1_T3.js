@@ -182,6 +182,11 @@ true
 undefined
 ]
 ;
+/
+/
+CHECK
+#
+1
 alphabetR
 .
 sort

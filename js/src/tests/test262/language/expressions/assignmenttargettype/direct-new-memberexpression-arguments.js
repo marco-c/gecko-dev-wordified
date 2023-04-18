@@ -105,6 +105,11 @@ DONOTEVALUATE
 (
 )
 ;
+function
+_
+(
+)
+{
 new
 f
 (
@@ -112,3 +117,4 @@ f
 =
 1
 ;
+}

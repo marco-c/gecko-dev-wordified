@@ -283,6 +283,11 @@ z
 "
 ]
 ;
+/
+/
+CHECK
+#
+1
 alphabetR
 .
 sort
