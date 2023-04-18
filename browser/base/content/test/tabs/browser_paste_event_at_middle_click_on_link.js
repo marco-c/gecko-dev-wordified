@@ -189,7 +189,7 @@ mochitests
 content
 "
 "
-http
+https
 :
 /
 /
@@ -277,7 +277,7 @@ waitForNewTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -326,7 +326,7 @@ currentURI
 .
 spec
 "
-http
+https
 :
 /
 /
@@ -547,7 +547,7 @@ waitForNewTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -600,7 +600,7 @@ currentURI
 .
 spec
 "
-http
+https
 :
 /
 /
