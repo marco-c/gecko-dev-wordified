@@ -16087,7 +16087,13 @@ UserDisable
 "
 Disabled
 by
-pref
+layers
+.
+acceleration
+.
+disabled
+=
+true
 "
 "
 FEATURE_FAILURE_COMP_PREF
