@@ -182,7 +182,7 @@ MessageHandlerFrameActor
 .
 jsm
 "
-windowManager
+TabManager
 :
 "
 chrome
@@ -195,7 +195,7 @@ content
 /
 shared
 /
-WindowManager
+TabManager
 .
 jsm
 "
@@ -715,7 +715,7 @@ const
 browserId
 }
 =
-windowManager
+TabManager
 .
 getBrowserById
 (

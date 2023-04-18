@@ -35,7 +35,7 @@ strict
 ;
 const
 {
-windowManager
+TabManager
 }
 =
 ChromeUtils
@@ -53,7 +53,7 @@ content
 /
 shared
 /
-WindowManager
+TabManager
 .
 jsm
 "
@@ -413,7 +413,7 @@ CONTEXT_DESCRIPTOR_TYPES
 TOP_BROWSING_CONTEXT
 id
 :
-windowManager
+TabManager
 .
 getBrowserIdForBrowsingContext
 (
