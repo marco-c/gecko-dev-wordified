@@ -21775,6 +21775,9 @@ ActivateByHyperlink
 )
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 if
 (
 nsAccessibilityService
@@ -21795,6 +21798,8 @@ target
 )
 ;
 }
+#
+endif
 }
 else
 if
