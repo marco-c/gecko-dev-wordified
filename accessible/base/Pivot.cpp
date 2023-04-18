@@ -3570,7 +3570,7 @@ FILTER_MATCH
 match
 )
 {
-LayoutDeviceIntRect
+nsIntRect
 childRect
 =
 child

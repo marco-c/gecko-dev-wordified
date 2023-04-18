@@ -185,13 +185,10 @@ h
 "
 ;
 using
-mozilla
-:
-:
-LayoutDeviceIntRect
+nsIntRect
 from
 "
-Units
+nsRect
 .
 h
 "
@@ -346,7 +343,7 @@ aEndOffset
 )
 returns
 (
-LayoutDeviceIntRect
+nsIntRect
 aRetVal
 )
 ;

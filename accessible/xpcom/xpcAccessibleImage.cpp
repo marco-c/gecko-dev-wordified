@@ -350,7 +350,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-LayoutDeviceIntPoint
+nsIntPoint
 point
 =
 Intl
@@ -425,7 +425,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-LayoutDeviceIntSize
+nsIntSize
 size
 =
 Intl

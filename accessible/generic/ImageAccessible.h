@@ -237,14 +237,14 @@ override
 /
 /
 ImageAccessible
-LayoutDeviceIntPoint
+nsIntPoint
 Position
 (
 uint32_t
 aCoordType
 )
 ;
-LayoutDeviceIntSize
+nsIntSize
 Size
 (
 )

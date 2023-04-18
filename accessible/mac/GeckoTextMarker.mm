@@ -4023,7 +4023,7 @@ Bounds
 )
 const
 {
-LayoutDeviceIntRect
+nsIntRect
 rect
 ;
 if

@@ -699,10 +699,7 @@ Relation
 )
 ;
 }
-mozilla
-:
-:
-LayoutDeviceIntRect
+nsIntRect
 ApplicationAccessible
 :
 :
@@ -712,10 +709,7 @@ Bounds
 const
 {
 return
-mozilla
-:
-:
-LayoutDeviceIntRect
+nsIntRect
 (
 )
 ;

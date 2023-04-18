@@ -354,7 +354,7 @@ INVISIBLE
 return
 S_OK
 ;
-LayoutDeviceIntRect
+nsIntRect
 rect
 =
 acc
@@ -455,7 +455,7 @@ s
 coordinate
 system
 .
-LayoutDeviceIntRect
+nsIntRect
 parentRect
 =
 acc

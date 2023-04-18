@@ -2092,7 +2092,7 @@ IntlGeneric
 return
 NS_ERROR_FAILURE
 ;
-LayoutDeviceIntRect
+nsIntRect
 rect
 ;
 if

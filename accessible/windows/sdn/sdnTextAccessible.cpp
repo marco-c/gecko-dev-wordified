@@ -589,7 +589,7 @@ Crash
 "
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 docRect
 =
 document
@@ -599,7 +599,7 @@ Bounds
 (
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 unclippedRect
 (
 x
@@ -608,7 +608,7 @@ width
 height
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 clippedRect
 ;
 clippedRect

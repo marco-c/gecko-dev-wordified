@@ -288,7 +288,7 @@ State
 override
 ;
 virtual
-LayoutDeviceIntRect
+nsIntRect
 Bounds
 (
 )

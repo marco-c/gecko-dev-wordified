@@ -251,7 +251,7 @@ const
 int32_t
 &
 aEndOffset
-LayoutDeviceIntRect
+nsIntRect
 *
 aBounds
 )

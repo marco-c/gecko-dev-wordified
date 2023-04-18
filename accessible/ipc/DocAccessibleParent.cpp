@@ -5863,7 +5863,7 @@ isActive
 =
 true
 ;
-LayoutDeviceIntRect
+nsIntRect
 rect
 (
 CW_USEDEFAULT
@@ -5888,7 +5888,7 @@ Bounds
 (
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 rootRect
 =
 rootDocument

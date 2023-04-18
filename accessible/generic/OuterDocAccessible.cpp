@@ -752,7 +752,7 @@ EWhichChildAtPoint
 aWhichChild
 )
 {
-LayoutDeviceIntRect
+nsIntRect
 docRect
 =
 Bounds
@@ -1742,7 +1742,7 @@ EWhichChildAtPoint
 aWhichChild
 )
 {
-LayoutDeviceIntRect
+nsIntRect
 docRect
 =
 Bounds

@@ -2072,7 +2072,7 @@ aHeight
 -
 1
 ;
-LayoutDeviceIntRect
+nsIntRect
 rect
 ;
 uint32_t
@@ -2274,7 +2274,7 @@ height
 -
 1
 ;
-LayoutDeviceIntRect
+nsIntRect
 rect
 ;
 uint32_t

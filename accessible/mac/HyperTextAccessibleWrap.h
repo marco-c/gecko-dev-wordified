@@ -196,7 +196,7 @@ int32_t
 aEndOffset
 )
 ;
-LayoutDeviceIntRect
+nsIntRect
 BoundsForRange
 (
 int32_t
