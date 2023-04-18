@@ -154,12 +154,11 @@ WeakMap
 (
 )
 ;
+class
+SplitView
+{
 /
 *
-*
-*
-SplitView
-constructor
 *
 *
 Initialize
@@ -230,8 +229,7 @@ see
 appendItem
 *
 /
-function
-SplitView
+constructor
 (
 root
 )
@@ -295,6 +293,12 @@ details
 this
 .
 _activeSummary
+=
+null
+;
+this
+.
+_filter
 =
 null
 ;
@@ -641,11 +645,6 @@ true
 )
 ;
 }
-SplitView
-.
-prototype
-=
-{
 /
 *
 *
@@ -1018,8 +1017,6 @@ appendItem
 *
 /
 getSummaryElementByOrdinal
-:
-function
 (
 ordinal
 )
@@ -1225,8 +1222,6 @@ ordinal
 *
 /
 appendItem
-:
-function
 (
 summary
 details
@@ -1460,8 +1455,6 @@ appendItem
 *
 /
 appendTemplatedItem
-:
-function
 (
 name
 options
@@ -1641,8 +1634,6 @@ remove
 *
 /
 removeItem
-:
-function
 (
 summary
 )
@@ -1725,8 +1716,6 @@ view
 *
 /
 removeAll
-:
-function
 (
 )
 {
@@ -1818,8 +1807,6 @@ classes
 *
 /
 setItemClassName
-:
-function
 (
 summary
 className
@@ -1944,4 +1931,3 @@ className
 ;
 }
 }
-;
