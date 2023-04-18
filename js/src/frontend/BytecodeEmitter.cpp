@@ -16235,6 +16235,7 @@ if
 !
 emitInitializeInstanceMembers
 (
+true
 )
 )
 {
@@ -63169,6 +63170,8 @@ BytecodeEmitter
 :
 emitInitializeInstanceMembers
 (
+bool
+isDerivedClassConstructor
 )
 {
 const
@@ -63271,6 +63274,11 @@ false
 }
 if
 (
+isDerivedClassConstructor
+)
+{
+if
+(
 !
 emitCheckPrivateField
 (
@@ -63319,6 +63327,7 @@ BRAND
 return
 false
 ;
+}
 }
 if
 (
