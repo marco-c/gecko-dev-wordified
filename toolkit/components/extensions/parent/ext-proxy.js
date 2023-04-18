@@ -848,14 +848,6 @@ EventManager
 (
 {
 context
-name
-:
-proxy
-.
-onRequest
-persistent
-:
-{
 module
 :
 "
@@ -866,7 +858,6 @@ event
 "
 onRequest
 "
-}
 register
 :
 (
