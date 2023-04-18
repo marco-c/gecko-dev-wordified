@@ -356,6 +356,9 @@ DIRS
 =
 [
 "
+colorways
+"
+"
 myfirefox
 "
 ]
