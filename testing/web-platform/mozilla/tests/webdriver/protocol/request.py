@@ -1,12 +1,10 @@
 import
 pytest
 from
-support
 .
-network
 import
 get_host
-http_request
+request
 pytest
 .
 mark
@@ -550,7 +548,7 @@ port
     
 response
 =
-http_request
+request
 (
 configuration
 [
@@ -660,7 +658,7 @@ port
     
 response
 =
-http_request
+request
 (
 configuration
 [
