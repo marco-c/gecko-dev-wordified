@@ -4552,6 +4552,7 @@ aContainer
 get
 (
 )
+aInterlinePosition
 )
 ;
 }
