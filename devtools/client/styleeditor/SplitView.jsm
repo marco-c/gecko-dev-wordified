@@ -570,6 +570,7 @@ el
 =
 this
 .
+#
 getSummaryElementByOrdinal
 (
 newFocusOrdinal
@@ -885,6 +886,7 @@ see
 appendItem
 *
 /
+#
 getSummaryElementByOrdinal
 (
 ordinal
