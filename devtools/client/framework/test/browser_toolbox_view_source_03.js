@@ -53,7 +53,7 @@ var
 URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 doc_viewsource
 .
@@ -63,7 +63,7 @@ var
 CSS_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 doc_theme
 .

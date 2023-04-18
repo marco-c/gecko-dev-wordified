@@ -53,7 +53,7 @@ const
 PAGE_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 doc_empty
 -
@@ -66,7 +66,7 @@ html
 const
 JS_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 code_bundle_late_script

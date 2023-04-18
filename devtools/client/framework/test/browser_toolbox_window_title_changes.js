@@ -106,7 +106,7 @@ abcde
 const
 URL_2
 =
-URL_ROOT_ORG
+URL_ROOT_ORG_SSL
 +
 "
 browser_toolbox_window_title_changes_page
@@ -117,7 +117,7 @@ html
 const
 URL_3
 =
-URL_ROOT_COM
+URL_ROOT_COM_SSL
 +
 "
 browser_toolbox_window_title_changes_page
@@ -128,7 +128,7 @@ html
 const
 URL_4
 =
-http
+https
 :
 /
 /

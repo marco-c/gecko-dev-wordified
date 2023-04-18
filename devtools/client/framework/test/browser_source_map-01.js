@@ -151,7 +151,7 @@ const
 PAGE_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 doc_empty
 -
@@ -165,7 +165,7 @@ const
 JS_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 code_binary_search
 .
@@ -175,7 +175,7 @@ const
 COFFEE_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 code_binary_search
 .

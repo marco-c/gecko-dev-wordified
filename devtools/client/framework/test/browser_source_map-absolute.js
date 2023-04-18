@@ -111,7 +111,7 @@ const
 PAGE_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 doc_empty
 -
@@ -125,7 +125,7 @@ const
 JS_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 code_binary_search_absolute
 .
@@ -135,7 +135,7 @@ const
 ORIGINAL_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 code_binary_search
 .

@@ -57,7 +57,7 @@ const
 EXAMPLE_COM_URI
 =
 "
-http
+https
 :
 /
 /
@@ -83,16 +83,16 @@ com
 "
 ;
 const
-EXAMPLE_NET_URI
+EXAMPLE_ORG_URI
 =
 "
-http
+https
 :
 /
 /
 example
 .
-net
+org
 /
 document
 -
@@ -106,9 +106,9 @@ html
 div
 id
 =
-net
+org
 >
-net
+org
 "
 ;
 add_task
@@ -262,7 +262,7 @@ descriptor
 await
 navigateTo
 (
-EXAMPLE_NET_URI
+EXAMPLE_ORG_URI
 )
 ;
 info
@@ -298,7 +298,7 @@ tabDescriptor
 .
 url
 )
-EXAMPLE_NET_URI
+EXAMPLE_ORG_URI
 "
 The
 existing
@@ -397,7 +397,7 @@ created
 for
 example
 .
-net
+org
 "
 )
 ;
