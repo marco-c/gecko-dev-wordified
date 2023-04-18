@@ -3049,10 +3049,6 @@ service
 OpenUnsharedDatabase
 (
 mDatabaseFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 getter_AddRefs
 (
 mWorkerConnection
@@ -3100,10 +3096,6 @@ service
 OpenUnsharedDatabase
 (
 mDatabaseFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 getter_AddRefs
 (
 mWorkerConnection
@@ -3134,10 +3126,6 @@ kMozStorageMemoryStorageKey
 lsprivatedb
 "
 _ns
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 getter_AddRefs
 (
 mWorkerConnection

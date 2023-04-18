@@ -4182,10 +4182,6 @@ aStorageService
 OpenUnsharedDatabase
 &
 aWebAppsStoreFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 /
 /
@@ -31018,10 +31014,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 lsArchiveTmpFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -31357,10 +31349,6 @@ ss
 OpenUnsharedDatabase
 &
 aLsArchiveFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -31534,10 +31522,6 @@ ss
 OpenUnsharedDatabase
 &
 aLsArchiveFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -33553,10 +33537,6 @@ ss
 OpenUnsharedDatabase
 &
 aLsArchiveFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -33729,10 +33709,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 storageFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 /
 /
@@ -33792,10 +33768,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 storageFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;

@@ -4046,10 +4046,6 @@ storageService
 OpenDatabase
 &
 aDBFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 /
 /
@@ -4276,10 +4272,6 @@ storageService
 OpenDatabase
 &
 aDBFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -5151,10 +5143,6 @@ mozIStorageConnection
 ss
 OpenDatabase
 databaseFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -5391,10 +5379,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 archiveFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 /
 /
@@ -5959,10 +5943,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 shadowFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 /
 /
@@ -6021,10 +6001,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 shadowFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -6334,10 +6310,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 shadowFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
@@ -6478,10 +6450,6 @@ mozIStorageConnection
 ss
 OpenUnsharedDatabase
 shadowFile
-mozIStorageService
-:
-:
-CONNECTION_DEFAULT
 )
 )
 ;
