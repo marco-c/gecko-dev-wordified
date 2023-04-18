@@ -2692,9 +2692,9 @@ aOtherPid
 bool
 Open
 (
-MessageChannel
+IToplevelProtocol
 *
-aChannel
+aTarget
 nsISerialEventTarget
 *
 aEventTarget
@@ -2781,9 +2781,9 @@ crash
 bool
 OpenOnSameThread
 (
-MessageChannel
+IToplevelProtocol
 *
-aChannel
+aTarget
 mozilla
 :
 :
