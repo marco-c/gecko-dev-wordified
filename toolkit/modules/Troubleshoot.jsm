@@ -3919,11 +3919,6 @@ cleartypeParameters
 "
 clearTypeParameters
 "
-UsesTiling
-:
-"
-usesTiling
-"
 TargetFrameRate
 :
 "

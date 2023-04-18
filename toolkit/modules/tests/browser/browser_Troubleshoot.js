@@ -2781,15 +2781,6 @@ type
 string
 "
 }
-usesTiling
-:
-{
-type
-:
-"
-boolean
-"
-}
 clearTypeParameters
 :
 {

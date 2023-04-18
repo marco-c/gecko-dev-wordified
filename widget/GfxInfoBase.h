@@ -543,15 +543,6 @@ aIsHeadless
 override
 ;
 NS_IMETHOD
-GetUsesTiling
-(
-bool
-*
-aUsesTiling
-)
-override
-;
-NS_IMETHOD
 GetTargetFrameRate
 (
 uint32_t
