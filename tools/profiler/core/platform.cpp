@@ -43619,11 +43619,8 @@ PSAutoLock
 lock
 ;
 {
-RegistryLockExclusive
+LockedRegistry
 lock
-{
-sRegistryMutex
-}
 ;
 MOZ_RELEASE_ASSERT
 (
@@ -43933,11 +43930,8 @@ psLock
 aOnThreadRef
 )
 ;
-RegistryLockExclusive
-lock
-{
-sRegistryMutex
-}
+LockedRegistry
+registryLock
 ;
 for
 (
