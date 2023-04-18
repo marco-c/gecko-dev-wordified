@@ -464,6 +464,9 @@ wr
 WrSpaceAndClipChain
 SwitchItem
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsDisplayItem
 *
 aItem
