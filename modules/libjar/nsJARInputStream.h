@@ -357,9 +357,13 @@ failure
 nsresult
 InitFile
 (
-nsJAR
+nsZipHandle
 *
-aJar
+aFd
+const
+uint8_t
+*
+aData
 nsZipItem
 *
 item
