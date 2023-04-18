@@ -2909,6 +2909,11 @@ experimentType
 isBestMatchExperiment
 :
 false
+quickSuggestRemoteSettingsDataType
+:
+"
+data
+"
 }
 ;
 /
