@@ -284,6 +284,7 @@ eDisconnected
 eAdopted
 eAttributeChanged
 eFormReset
+eFormDisabled
 eGetCustomInterface
 }
 ;
@@ -330,6 +331,18 @@ RefPtr
 Document
 >
 mNewDocument
+;
+/
+/
+Used
+by
+the
+form
+disabled
+callback
+.
+bool
+mDisabled
 ;
 size_t
 SizeOfExcludingThis
