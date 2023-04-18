@@ -140,7 +140,7 @@ DelayedRunnable
 (
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 aTarget
 already_AddRefed
