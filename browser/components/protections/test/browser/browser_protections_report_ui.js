@@ -279,11 +279,7 @@ true
 "
 browser
 .
-contentblocking
-.
-report
-.
-vpn
+vpn_promo
 .
 enabled
 "
