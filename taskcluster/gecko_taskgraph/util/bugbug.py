@@ -77,6 +77,10 @@ util
 taskcluster
 import
 requests_retry_session
+from
+gecko_taskgraph
+import
+create
 try
 :
     
@@ -410,6 +414,27 @@ branch
 rev
 )
 :
+    
+#
+Noop
+if
+we
+'
+re
+in
+test
+-
+action
+-
+callback
+    
+if
+create
+.
+testing
+:
+        
+return
     
 url
 =
