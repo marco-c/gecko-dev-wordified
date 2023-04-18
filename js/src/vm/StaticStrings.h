@@ -212,6 +212,10 @@ struct
 CompilationAtomCache
 ;
 }
+/
+/
+namespace
+frontend
 class
 StaticStrings
 {
