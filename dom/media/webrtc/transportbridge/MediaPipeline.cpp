@@ -3847,9 +3847,6 @@ len
 )
 )
 ;
-(
-void
-)
 mConduit
 -
 >
@@ -3868,11 +3865,6 @@ len
 header
 )
 ;
-/
-/
-Ignore
-error
-codes
 }
 void
 MediaPipeline
@@ -4193,9 +4185,6 @@ c_str
 return
 ;
 }
-(
-void
-)
 mConduit
 -
 >
@@ -4213,11 +4202,6 @@ len
 )
 )
 ;
-/
-/
-Ignore
-error
-codes
 }
 void
 MediaPipeline
