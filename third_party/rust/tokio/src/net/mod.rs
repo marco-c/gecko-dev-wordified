@@ -295,6 +295,9 @@ unix
 datagram
 :
 :
+socket
+:
+:
 UnixDatagram
 ;
 pub

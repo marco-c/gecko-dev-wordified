@@ -69,8 +69,8 @@ resolves
 to
 a
 (
-Metadata
 File
+Metadata
 )
 instance
 .
@@ -205,7 +205,6 @@ blocking_io
 (
 |
 |
-{
 StdFile
 :
 :
@@ -217,7 +216,6 @@ std
 (
 )
 )
-}
 )
 )
 ;

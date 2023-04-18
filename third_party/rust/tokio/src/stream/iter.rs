@@ -37,6 +37,10 @@ the
 [
 iter
 ]
+(
+fn
+iter
+)
 function
 .
 #
@@ -351,6 +355,9 @@ Item
 >
 >
 {
+let
+coop
+=
 ready
 !
 (
@@ -364,6 +371,12 @@ poll_proceed
 (
 cx
 )
+)
+;
+coop
+.
+made_progress
+(
 )
 ;
 Poll

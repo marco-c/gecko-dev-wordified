@@ -78,7 +78,7 @@ release
 .
 pub
 (
-super
+crate
 )
 struct
 NoopSchedule

@@ -362,6 +362,7 @@ into
 (
 )
 )
+;
 }
 if
 self

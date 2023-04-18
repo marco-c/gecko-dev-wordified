@@ -131,7 +131,7 @@ stream
 /
 /
 rust
-norun
+no_run
 /
 /
 /

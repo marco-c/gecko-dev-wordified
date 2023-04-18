@@ -35,10 +35,10 @@ Future
 for
 the
 [
-ready
+ok
 ]
 (
-ready
+ok
 (
 )
 )

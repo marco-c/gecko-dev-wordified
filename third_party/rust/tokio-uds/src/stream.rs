@@ -607,9 +607,6 @@ a
 b
 )
 =
-try
-!
-(
 mio_uds
 :
 :
@@ -619,7 +616,7 @@ UnixStream
 pair
 (
 )
-)
+?
 ;
 let
 a
@@ -1981,6 +1978,7 @@ Async
 :
 NotReady
 )
+;
 }
 if
 let
@@ -1989,9 +1987,6 @@ Some
 e
 )
 =
-try
-!
-(
 stream
 .
 io
@@ -2003,13 +1998,14 @@ get_ref
 take_error
 (
 )
-)
+?
 {
 return
 Err
 (
 e
 )
+;
 }
 }
 State
@@ -2066,6 +2062,7 @@ Err
 (
 e
 )
+;
 }
 State
 :

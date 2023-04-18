@@ -47,6 +47,10 @@ the
 [
 once
 ]
+(
+fn
+once
+)
 function
 .
 #

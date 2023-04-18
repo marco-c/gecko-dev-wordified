@@ -261,7 +261,7 @@ enhancements
 to
 the
 Rust
-langague
+language
 .
 pub
 trait

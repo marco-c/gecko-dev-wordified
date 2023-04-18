@@ -1071,6 +1071,7 @@ Spawn
 <
 Box
 <
+dyn
 Future
 <
 Item
@@ -1409,6 +1410,7 @@ item
 :
 Box
 <
+dyn
 Future
 <
 Item
@@ -2878,6 +2880,7 @@ future
 :
 Box
 <
+dyn
 Future
 <
 Item
@@ -5384,6 +5387,7 @@ U
 >
 *
 mut
+dyn
 UnsafeNotify
 {
 mem
@@ -5395,6 +5399,7 @@ p
 as
 *
 mut
+dyn
 UnsafeNotify
 )
 }
