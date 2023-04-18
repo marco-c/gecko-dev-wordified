@@ -1060,6 +1060,7 @@ AmdR600
 NvidiaRolloutWebRender
 IntelRolloutWebRender
 IntelModernRolloutWebRender
+IntelWebRenderBlocked
 AtiRolloutWebRender
 Max
 }
