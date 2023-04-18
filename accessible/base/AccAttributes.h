@@ -485,6 +485,10 @@ gfx
 :
 Matrix4x4
 >
+nsTArray
+<
+uint64_t
+>
 >
 ;
 static_assert
