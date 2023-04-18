@@ -6191,7 +6191,7 @@ if
 (
 areaProperties
 .
-has
+get
 (
 "
 overflowable
