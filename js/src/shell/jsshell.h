@@ -783,10 +783,6 @@ enableIteratorHelpers
 ;
 extern
 bool
-enableArrayGrouping
-;
-extern
-bool
 enablePrivateClassFields
 ;
 extern
