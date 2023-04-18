@@ -573,13 +573,7 @@ FunCall
 JSOp
 :
 :
-FunApply
-JSOp
-:
-:
 Eval
-/
-/
 JSOp
 :
 :
@@ -590,6 +584,8 @@ Callsites
 )
 or
 an
+/
+/
 inlinable
 getter
 or

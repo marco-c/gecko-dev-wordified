@@ -9086,12 +9086,6 @@ case
 JSOp
 :
 :
-FunApply
-:
-case
-JSOp
-:
-:
 SpreadCall
 :
 case
