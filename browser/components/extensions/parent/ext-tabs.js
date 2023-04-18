@@ -7996,13 +7996,9 @@ true
 ;
 printSettings
 .
-outputDestination
+printToFile
 =
-Ci
-.
-nsIPrintSettings
-.
-kOutputDestinationFile
+true
 ;
 printSettings
 .

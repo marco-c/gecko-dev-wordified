@@ -1669,13 +1669,9 @@ kOutputFormatNative
 ;
 defaultSettings
 .
-outputDestination
+printToFile
 =
-Ci
-.
-nsIPrintSettings
-.
-kOutputDestinationPrinter
+false
 ;
 defaultSettings
 .
