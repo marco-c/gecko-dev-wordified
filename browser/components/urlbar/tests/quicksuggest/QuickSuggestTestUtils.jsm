@@ -1189,7 +1189,9 @@ UrlbarPrefs
 updateFirefoxSuggestScenario
 (
 false
+{
 scenario
+}
 )
 ;
 }
