@@ -789,6 +789,11 @@ ErrorResult
 aRv
 )
 ;
+bool
+PdfViewerEnabled
+(
+)
+;
 Permissions
 *
 GetPermissions
@@ -1632,12 +1637,6 @@ GetDocShell
 nullptr
 ;
 }
-RefPtr
-<
-nsMimeTypeArray
->
-mMimeTypes
-;
 RefPtr
 <
 nsPluginArray
