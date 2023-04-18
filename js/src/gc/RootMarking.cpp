@@ -1746,10 +1746,6 @@ traceRuntimeAtoms
 (
 trc
 session
-.
-checkAtomsAccess
-(
-)
 )
 ;
 }

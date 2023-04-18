@@ -405,7 +405,7 @@ class
 AutoTraceSession
 ;
 class
-AutoCheckCanAccessAtomsDuringGC
+AutoGCSession
 ;
 class
 AutoSuppressNurseryCellAlloc
@@ -7636,9 +7636,9 @@ const
 gc
 :
 :
-AutoCheckCanAccessAtomsDuringGC
+AutoGCSession
 &
-canAccess
+session
 )
 {
 }
