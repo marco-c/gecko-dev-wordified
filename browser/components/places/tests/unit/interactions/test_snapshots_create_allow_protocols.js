@@ -185,7 +185,11 @@ add
 url
 userPersisted
 :
-true
+Snapshots
+.
+USER_PERSISTED
+.
+MANUAL
 }
 )
 ;
@@ -205,7 +209,11 @@ add
 url
 userPersisted
 :
-true
+Snapshots
+.
+USER_PERSISTED
+.
+MANUAL
 }
 )
 /

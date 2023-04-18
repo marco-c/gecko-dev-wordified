@@ -284,7 +284,11 @@ url
 TEST_URL1
 userPersisted
 :
-false
+Snapshots
+.
+USER_PERSISTED
+.
+NO
 documentType
 :
 Interactions
