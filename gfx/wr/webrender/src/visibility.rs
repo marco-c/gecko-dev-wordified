@@ -1913,6 +1913,9 @@ pic
 .
 is_visible
 (
+frame_context
+.
+spatial_tree
 )
 pic
 .
