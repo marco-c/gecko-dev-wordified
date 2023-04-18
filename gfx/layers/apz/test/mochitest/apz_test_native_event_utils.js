@@ -2407,9 +2407,9 @@ getResolution
 const
 deviceScale
 =
-utils
+window
 .
-screenPixelsPerCSSPixel
+devicePixelRatio
 ;
 const
 deviceScaleNoOverride

@@ -840,9 +840,7 @@ y
 expectedYPosition
 window
 .
-windowUtils
-.
-screenPixelsPerCSSPixel
+devicePixelRatio
 "
 y
 position

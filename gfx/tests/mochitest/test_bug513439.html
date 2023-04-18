@@ -199,13 +199,6 @@ waitForExplicitFinish
 (
 )
 ;
-var
-domWindowUtils
-=
-SpecialPowers
-.
-DOMWindowUtils
-;
 SpecialPowers
 .
 pushPrefEnv
@@ -235,9 +228,9 @@ devPixelsPerPx
 {
 is
 (
-domWindowUtils
+window
 .
-screenPixelsPerCSSPixel
+devicePixelRatio
 2
 "
 devPixelsPerPx
@@ -280,9 +273,9 @@ devPixelsPerPx
 {
 is
 (
-domWindowUtils
+window
 .
-screenPixelsPerCSSPixel
+devicePixelRatio
 1
 .
 5
