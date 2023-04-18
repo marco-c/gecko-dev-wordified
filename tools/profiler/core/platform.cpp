@@ -43034,6 +43034,8 @@ nsCString
 aUrl
 uint64_t
 aEmbedderInnerWindowID
+bool
+aIsPrivateBrowsing
 )
 {
 DEBUG_LOG
@@ -43055,6 +43057,8 @@ s
 "
 PRIu64
 "
+%
+s
 )
 "
 aTabID
@@ -43065,6 +43069,15 @@ get
 (
 )
 aEmbedderInnerWindowID
+aIsPrivateBrowsing
+?
+"
+true
+"
+:
+"
+false
+"
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -43140,6 +43153,7 @@ aTabID
 aInnerWindowID
 aUrl
 aEmbedderInnerWindowID
+aIsPrivateBrowsing
 )
 ;
 CorePS
