@@ -1731,6 +1731,11 @@ HTMLCanvasElement
 (
 )
 ;
+void
+Destroy
+(
+)
+;
 virtual
 JSObject
 *
