@@ -432,6 +432,7 @@ void
 Enter
 (
 )
+const
 {
 mRecursiveMutex
 .
@@ -444,6 +445,7 @@ void
 Exit
 (
 )
+const
 {
 mRecursiveMutex
 .
@@ -1045,6 +1047,7 @@ while
 under
 lock
 .
+mutable
 RecursiveMutex
 mRecursiveMutex
 {
