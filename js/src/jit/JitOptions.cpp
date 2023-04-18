@@ -2159,7 +2159,7 @@ enabled
 SET_DEFAULT
 (
 enableWatchtowerMegamorphic
-false
+true
 )
 ;
 SET_DEFAULT
