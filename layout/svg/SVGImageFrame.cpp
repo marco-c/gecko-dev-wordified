@@ -4491,12 +4491,6 @@ case
 ImgDrawResult
 :
 :
-INCOMPLETE
-:
-case
-ImgDrawResult
-:
-:
 TEMPORARY_ERROR
 :
 /
