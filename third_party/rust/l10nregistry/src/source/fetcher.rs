@@ -5,6 +5,15 @@ async_trait
 async_trait
 ;
 use
+fluent_fallback
+:
+:
+types
+:
+:
+ResourceId
+;
+use
 std
 :
 :
@@ -127,10 +136,10 @@ fetch_sync
 (
 &
 self
-path
+resource_id
 :
 &
-str
+ResourceId
 )
 -
 >
@@ -256,7 +265,7 @@ self
 path
 :
 &
-str
+ResourceId
 )
 -
 >

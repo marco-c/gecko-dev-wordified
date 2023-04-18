@@ -53,7 +53,10 @@ FluentBundleResult
 types
 :
 :
+{
 L10nKey
+ResourceId
+}
 Localization
 LocalizationError
 }
@@ -321,7 +324,7 @@ res_ids
 :
 Vec
 <
-String
+ResourceId
 >
 }
 impl
@@ -691,6 +694,8 @@ resources
 "
 locale
 res_id
+.
+value
 )
 ;
 let
@@ -871,7 +876,7 @@ res_ids
 :
 Vec
 <
-String
+ResourceId
 >
 )
 -
@@ -902,7 +907,7 @@ res_ids
 :
 Vec
 <
-String
+ResourceId
 >
 )
 -
@@ -933,7 +938,7 @@ resource_ids
 :
 Vec
 <
-String
+ResourceId
 >
 =
 vec
@@ -1172,7 +1177,7 @@ resource_ids
 :
 Vec
 <
-String
+ResourceId
 >
 =
 vec
@@ -1396,7 +1401,7 @@ resource_ids
 :
 Vec
 <
-String
+ResourceId
 >
 =
 vec
@@ -1738,7 +1743,7 @@ resource_ids
 :
 Vec
 <
-String
+ResourceId
 >
 =
 vec
@@ -2080,7 +2085,7 @@ resource_ids
 :
 Vec
 <
-String
+ResourceId
 >
 =
 vec
@@ -2531,7 +2536,7 @@ resource_ids
 :
 Vec
 <
-String
+ResourceId
 >
 =
 vec
@@ -2858,7 +2863,7 @@ resource_ids
 :
 Vec
 <
-String
+ResourceId
 >
 =
 vec
@@ -3234,7 +3239,7 @@ resource_ids
 :
 Vec
 <
-String
+ResourceId
 >
 =
 vec
