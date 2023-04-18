@@ -10296,7 +10296,7 @@ extSymbols
 GLFeature
 :
 :
-draw_buffers
+draw_buffers_indexed
 )
 ;
 }
