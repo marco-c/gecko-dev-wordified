@@ -299,7 +299,13 @@ ASSERT_EQ
 GetLastError
 (
 )
+static_cast
+<
+DWORD
+>
+(
 ERROR_ACCESS_DENIED
+)
 )
 ;
 }

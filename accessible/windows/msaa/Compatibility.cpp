@@ -985,7 +985,13 @@ if
 exceptionCode
 =
 =
+static_cast
+<
+DWORD
+>
+(
 RPC_E_CANTCALLOUT_ININPUTSYNCCALL
+)
 &
 &
 NS_IsMainThread

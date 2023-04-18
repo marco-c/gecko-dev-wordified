@@ -2652,12 +2652,12 @@ k3rdPartyWindowProp
 )
 )
 {
-DWORD
+LONG
 objId
 =
 static_cast
 <
-DWORD
+LONG
 >
 (
 lParam
