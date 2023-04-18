@@ -893,13 +893,6 @@ CONFIG
 MOZ_X11
 "
 ]
-or
-CONFIG
-[
-"
-MOZ_WAYLAND
-"
-]
 :
 UNIFIED_SOURCES
 +
@@ -1029,13 +1022,6 @@ CONFIG
 [
 "
 MOZ_X11
-"
-]
-or
-CONFIG
-[
-"
-MOZ_WAYLAND
 "
 ]
 :

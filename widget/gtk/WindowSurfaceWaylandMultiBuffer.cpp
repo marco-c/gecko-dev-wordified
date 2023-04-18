@@ -123,13 +123,6 @@ h
 >
 #
 include
-<
-prenv
-.
-h
->
-#
-include
 "
 gfx2DGlue
 .

@@ -110,9 +110,6 @@ gtk
 h
 >
 #
-ifdef
-MOZ_X11
-#
 include
 <
 gdk
@@ -121,8 +118,6 @@ gdkx
 .
 h
 >
-#
-endif
 #
 include
 <
@@ -159,17 +154,12 @@ nsString
 h
 "
 #
-ifdef
-MOZ_X11
-#
 include
 "
 nsX11ErrorHandler
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -262,9 +252,6 @@ gpointer
 user_data
 )
 {
-#
-ifdef
-MOZ_X11
 if
 (
 strstr
@@ -652,8 +639,6 @@ event
 ;
 }
 else
-#
-endif
 {
 g_log_default_handler
 (
@@ -694,9 +679,6 @@ GdkErrorHandler
 nullptr
 )
 ;
-#
-ifdef
-MOZ_X11
 if
 (
 PR_GetEnv
@@ -719,6 +701,4 @@ X11True
 )
 ;
 }
-#
-endif
 }

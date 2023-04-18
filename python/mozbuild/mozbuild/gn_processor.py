@@ -1165,27 +1165,18 @@ input_vars
 gn_mozbuild_vars
 =
 (
-        
 "
 MOZ_DEBUG
 "
-        
 "
 OS_TARGET
 "
-        
 "
 HOST_CPU_ARCH
 "
-        
 "
 CPU_ARCH
 "
-        
-"
-MOZ_X11
-"
-    
 )
     
 mozbuild_args
@@ -3797,15 +3788,6 @@ MOZ_DEBUG
 "
 "
 OS_TARGET
-"
-)
-                
-(
-"
-OS_TARGET
-"
-"
-MOZ_X11
 "
 )
                 
