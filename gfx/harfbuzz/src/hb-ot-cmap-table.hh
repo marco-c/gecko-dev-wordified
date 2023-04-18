@@ -3705,7 +3705,7 @@ covered
 /
 ArrayOf
 <
-HBGlyphID
+HBGlyphID16
 UINT
 >
 glyphIdArray
@@ -5376,7 +5376,7 @@ the
 UVS
 *
 /
-HBGlyphID
+HBGlyphID16
 glyphID
 ;
 /

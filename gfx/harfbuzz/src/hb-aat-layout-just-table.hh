@@ -597,7 +597,7 @@ protected
 ActionSubrecordHeader
 header
 ;
-HBGlyphID
+HBGlyphID16
 addGlyph
 ;
 /
@@ -691,7 +691,7 @@ recalculated
 .
 *
 /
-HBGlyphID
+HBGlyphID16
 addGlyph
 ;
 /
@@ -735,7 +735,7 @@ redone
 .
 *
 /
-HBGlyphID
+HBGlyphID16
 substGlyph
 ;
 /
@@ -991,7 +991,7 @@ to
 .
 *
 /
-HBGlyphID
+HBGlyphID16
 glyph
 ;
 /

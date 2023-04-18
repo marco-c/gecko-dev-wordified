@@ -479,7 +479,7 @@ c
 plan
 -
 >
-glyphset
+glyphset_gsub
 (
 )
 ;
@@ -1464,7 +1464,10 @@ dispatch
 u
 .
 format1
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -1490,7 +1493,10 @@ dispatch
 u
 .
 format2
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -1516,7 +1522,10 @@ dispatch
 u
 .
 format3
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -2142,7 +2151,7 @@ c
 plan
 -
 >
-glyphset
+glyphset_gsub
 (
 )
 ;

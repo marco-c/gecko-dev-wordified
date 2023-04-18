@@ -1110,6 +1110,10 @@ get_nominal_glyph
 u
 &
 glyph
+c
+-
+>
+not_found
 )
 )
 {
@@ -1157,6 +1161,10 @@ get_nominal_glyph
 u
 &
 glyph
+c
+-
+>
+not_found
 )
 )
 {
@@ -1988,6 +1996,10 @@ buffer
 -
 >
 unicode
+buffer
+-
+>
+not_found
 plan
 -
 >

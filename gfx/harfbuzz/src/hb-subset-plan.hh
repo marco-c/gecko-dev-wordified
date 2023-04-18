@@ -418,6 +418,10 @@ hb_set_t
 *
 _glyphset_gsub
 ;
+hb_set_t
+*
+_glyphset_mathed
+;
 /
 /
 active

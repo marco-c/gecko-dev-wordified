@@ -311,7 +311,7 @@ this
 }
 public
 :
-HBGlyphID
+HBGlyphID16
 glyph
 ;
 FWORD

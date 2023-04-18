@@ -472,7 +472,7 @@ this
 }
 protected
 :
-HBGlyphID
+HBGlyphID16
 stdGlyph
 ;
 /
@@ -625,7 +625,7 @@ c
 }
 protected
 :
-HBGlyphID
+HBGlyphID16
 stdGlyph
 ;
 /

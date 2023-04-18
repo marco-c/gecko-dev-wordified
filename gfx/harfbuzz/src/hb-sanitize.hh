@@ -1189,7 +1189,10 @@ obj
 sanitize
 (
 this
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -1237,7 +1240,10 @@ obj
 dispatch
 (
 this
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -1282,7 +1288,10 @@ _dispatch
 (
 obj
 hb_prioritize
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >

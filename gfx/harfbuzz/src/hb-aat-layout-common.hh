@@ -527,7 +527,7 @@ base
 )
 ;
 }
-HBGlyphID
+HBGlyphID16
 last
 ;
 /
@@ -539,7 +539,7 @@ this
 segment
 *
 /
-HBGlyphID
+HBGlyphID16
 first
 ;
 /
@@ -949,7 +949,10 @@ last
 first
 +
 1
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -963,7 +966,7 @@ ds
 )
 ;
 }
-HBGlyphID
+HBGlyphID16
 last
 ;
 /
@@ -975,7 +978,7 @@ this
 segment
 *
 /
-HBGlyphID
+HBGlyphID16
 first
 ;
 /
@@ -1311,7 +1314,7 @@ base
 )
 ;
 }
-HBGlyphID
+HBGlyphID16
 glyph
 ;
 /
@@ -1646,7 +1649,7 @@ format
 8
 *
 /
-HBGlyphID
+HBGlyphID16
 firstGlyph
 ;
 /
@@ -1914,7 +1917,7 @@ value
 .
 *
 /
-HBGlyphID
+HBGlyphID16
 firstGlyph
 ;
 /
@@ -4260,7 +4263,7 @@ c
 }
 protected
 :
-HBGlyphID
+HBGlyphID16
 firstGlyph
 ;
 /

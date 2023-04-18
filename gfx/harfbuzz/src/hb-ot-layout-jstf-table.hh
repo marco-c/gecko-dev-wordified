@@ -778,7 +778,7 @@ Table
 typedef
 SortedArray16Of
 <
-HBGlyphID
+HBGlyphID16
 >
 ExtenderGlyphs
 ;

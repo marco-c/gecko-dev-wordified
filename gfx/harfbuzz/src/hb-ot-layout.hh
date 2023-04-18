@@ -983,7 +983,7 @@ s
 one
 of
 the
-three
+four
 Mongolian
 Free
 Variation
@@ -1121,7 +1121,7 @@ SELECTOR
 1
 .
 .
-3
+4
 or
 TAG
 characters
@@ -1368,7 +1368,7 @@ if
 (
 unlikely
 (
-hb_in_range
+hb_in_ranges
 <
 hb_codepoint_t
 >
@@ -1376,6 +1376,8 @@ hb_codepoint_t
 u
 0x180Bu
 0x180Du
+0x180Fu
+0x180Fu
 )
 )
 )

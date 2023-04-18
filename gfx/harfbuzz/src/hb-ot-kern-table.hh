@@ -950,7 +950,10 @@ dispatch
 u
 .
 format1
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -1010,7 +1013,10 @@ dispatch
 u
 .
 format3
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -1970,7 +1976,10 @@ dispatch
 u
 .
 ot
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
@@ -1999,7 +2008,10 @@ dispatch
 u
 .
 aat
-hb_forward
+std
+:
+:
+forward
 <
 Ts
 >
