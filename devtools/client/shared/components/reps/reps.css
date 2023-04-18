@@ -391,6 +391,17 @@ wrap
 }
 .
 objectBox
+*
+{
+unicode
+-
+bidi
+:
+isolate
+;
+}
+.
+objectBox
 -
 number
 .
