@@ -268,7 +268,7 @@ AssertOnMainThreadAndNotShutdown
 ;
 if
 (
-mTotalPlayTime
+mTotalVideoPlayTime
 .
 IsStarted
 (
@@ -343,7 +343,7 @@ AssertOnMainThreadAndNotShutdown
 if
 (
 !
-mTotalPlayTime
+mTotalVideoPlayTime
 .
 IsStarted
 (
@@ -382,7 +382,7 @@ time
 "
 )
 ;
-mTotalPlayTime
+mTotalVideoPlayTime
 .
 Pause
 (
@@ -653,7 +653,7 @@ AssertOnMainThreadAndNotShutdown
 if
 (
 !
-mTotalPlayTime
+mTotalVideoPlayTime
 .
 IsStarted
 (
@@ -970,9 +970,9 @@ return
 }
 const
 double
-totalPlayTimeS
+totalVideoPlayTimeS
 =
-mTotalPlayTime
+mTotalVideoPlayTime
 .
 GetAndClearTotal
 (
@@ -1016,7 +1016,7 @@ playing
 .
 if
 (
-totalPlayTimeS
+totalVideoPlayTimeS
 =
 =
 0
@@ -1029,7 +1029,7 @@ return
 }
 MOZ_ASSERT
 (
-totalPlayTimeS
+totalVideoPlayTimeS
 >
 =
 invisiblePlayTimeS
@@ -1043,7 +1043,7 @@ VIDEO_PLAY_TIME_S
 %
 f
 "
-totalPlayTimeS
+totalVideoPlayTimeS
 )
 ;
 Telemetry
@@ -1057,7 +1057,7 @@ Telemetry
 VIDEO_PLAY_TIME_MS
 SECONDS_TO_MS
 (
-totalPlayTimeS
+totalVideoPlayTimeS
 )
 )
 ;
@@ -1105,7 +1105,7 @@ VIDEO_ENCRYPTED_PLAY_TIME_S
 %
 f
 "
-totalPlayTimeS
+totalVideoPlayTimeS
 )
 ;
 Telemetry
@@ -1119,7 +1119,7 @@ Telemetry
 VIDEO_ENCRYPTED_PLAY_TIME_MS
 SECONDS_TO_MS
 (
-totalPlayTimeS
+totalVideoPlayTimeS
 )
 )
 ;
@@ -1164,7 +1164,7 @@ VIDEO_CLEARKEY_PLAY_TIME_S
 %
 f
 "
-totalPlayTimeS
+totalVideoPlayTimeS
 )
 ;
 Telemetry
@@ -1178,7 +1178,7 @@ Telemetry
 VIDEO_CLEARKEY_PLAY_TIME_MS
 SECONDS_TO_MS
 (
-totalPlayTimeS
+totalVideoPlayTimeS
 )
 )
 ;
@@ -1201,7 +1201,7 @@ VIDEO_WIDEVINE_PLAY_TIME_S
 %
 f
 "
-totalPlayTimeS
+totalVideoPlayTimeS
 )
 ;
 Telemetry
@@ -1215,7 +1215,7 @@ Telemetry
 VIDEO_WIDEVINE_PLAY_TIME_MS
 SECONDS_TO_MS
 (
-totalPlayTimeS
+totalVideoPlayTimeS
 )
 )
 ;
@@ -1415,7 +1415,7 @@ resolution
 auto
 visiblePlayTimeS
 =
-totalPlayTimeS
+totalVideoPlayTimeS
 -
 invisiblePlayTimeS
 ;
@@ -1500,7 +1500,7 @@ lround
 (
 invisiblePlayTimeS
 /
-totalPlayTimeS
+totalVideoPlayTimeS
 *
 100
 .
@@ -1583,7 +1583,7 @@ lround
 (
 videoDecodeSuspendTimeS
 /
-totalPlayTimeS
+totalVideoPlayTimeS
 *
 100
 .
@@ -1647,7 +1647,7 @@ get
 ;
 ReportResultForVideoFrameStatistics
 (
-totalPlayTimeS
+totalVideoPlayTimeS
 key
 )
 ;
@@ -2141,13 +2141,13 @@ double
 TelemetryProbesReporter
 :
 :
-GetTotalPlayTimeInSeconds
+GetTotalVideoPlayTimeInSeconds
 (
 )
 const
 {
 return
-mTotalPlayTime
+mTotalVideoPlayTime
 .
 PeekTotal
 (
@@ -2164,7 +2164,7 @@ GetVisibleVideoPlayTimeInSeconds
 const
 {
 return
-GetTotalPlayTimeInSeconds
+GetTotalVideoPlayTimeInSeconds
 (
 )
 -

@@ -265,7 +265,7 @@ OnShutdown
 )
 ;
 double
-GetTotalPlayTimeInSeconds
+GetTotalVideoPlayTimeInSeconds
 (
 )
 const
@@ -576,7 +576,7 @@ on
 playing
 .
 TimeDurationAccumulator
-mTotalPlayTime
+mTotalVideoPlayTime
 ;
 /
 /

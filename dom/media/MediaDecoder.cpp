@@ -8658,7 +8658,7 @@ return
 mTelemetryProbesReporter
 -
 >
-GetTotalPlayTimeInSeconds
+GetTotalVideoPlayTimeInSeconds
 (
 )
 ;
