@@ -416,6 +416,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -441,6 +442,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -466,6 +468,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise

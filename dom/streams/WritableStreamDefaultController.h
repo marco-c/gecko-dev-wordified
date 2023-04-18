@@ -345,6 +345,7 @@ return
 mSignal
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 Error
 (
@@ -374,6 +375,7 @@ aRv
 AbortSteps
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 virtual
 already_AddRefed
 <
@@ -980,6 +982,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 WritableStreamDefaultControllerClose
@@ -995,6 +998,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 WritableStreamDefaultControllerWrite
@@ -1023,6 +1027,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 WritableStreamDefaultControllerError
@@ -1049,6 +1054,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 void
 WritableStreamDefaultControllerErrorIfNeeded
@@ -1075,6 +1081,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 double
 WritableStreamDefaultControllerGetChunkSize

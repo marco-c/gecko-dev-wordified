@@ -551,6 +551,7 @@ mInFlightCloseRequest
 /
 /
 WritableStreamDealWithRejection
+MOZ_CAN_RUN_SCRIPT
 void
 DealWithRejection
 (
@@ -576,6 +577,7 @@ aRv
 /
 /
 WritableStreamFinishErroring
+MOZ_CAN_RUN_SCRIPT
 void
 FinishErroring
 (
@@ -598,6 +600,7 @@ FinishInFlightClose
 /
 /
 WritableStreamFinishInFlightCloseWithError
+MOZ_CAN_RUN_SCRIPT
 void
 FinishInFlightCloseWithError
 (
@@ -631,6 +634,7 @@ FinishInFlightWrite
 /
 /
 WritableStreamFinishInFlightWriteWithError
+MOZ_CAN_RUN_SCRIPT
 void
 FinishInFlightWriteWithError
 (
@@ -696,6 +700,7 @@ RejectCloseAndClosedPromiseIfNeeded
 /
 /
 WritableStreamStartErroring
+MOZ_CAN_RUN_SCRIPT
 void
 StartErroring
 (
@@ -1026,6 +1031,7 @@ Locked
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 extern
 already_AddRefed
 <
@@ -1055,6 +1061,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 extern
 already_AddRefed
 <

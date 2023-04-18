@@ -905,6 +905,7 @@ default
 writer
 -
 abort
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -1151,6 +1152,8 @@ default
 writer
 -
 close
+MOZ_CAN_RUN_SCRIPT
+static
 already_AddRefed
 <
 Promise
@@ -1887,6 +1890,8 @@ default
 writer
 -
 write
+MOZ_CAN_RUN_SCRIPT
+static
 already_AddRefed
 <
 Promise

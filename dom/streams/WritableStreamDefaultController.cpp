@@ -918,6 +918,8 @@ mSignal
 aSignal
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+static
 void
 WritableStreamDefaultControllerAdvanceQueueIfNeeded
 (
@@ -946,6 +948,13 @@ WritableStartPromiseNativeHandler
 =
 default
 ;
+/
+/
+Virtually
+const
+but
+cycle
+collected
 RefPtr
 <
 WritableStreamDefaultController
@@ -976,6 +985,7 @@ aController
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ResolvedCallback
 (
@@ -1149,7 +1159,10 @@ rv
 WritableStreamDefaultControllerAdvanceQueueIfNeeded
 (
 aCx
+MOZ_KnownLive
+(
 mController
+)
 rv
 )
 ;
@@ -1167,6 +1180,7 @@ return
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT
 void
 RejectedCallback
 (
@@ -2411,6 +2425,7 @@ FinishInFlightClose
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 RejectedCallback
 (
@@ -2594,6 +2609,8 @@ controller
 process
 -
 close
+MOZ_CAN_RUN_SCRIPT
+static
 void
 WritableStreamDefaultControllerProcessClose
 (
@@ -2860,6 +2877,14 @@ SinkWriteNativePromiseHandler
 =
 default
 ;
+/
+/
+Virtually
+const
+but
+is
+cycle
+collected
 RefPtr
 <
 WritableStreamDefaultController
@@ -2890,6 +2915,7 @@ aController
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ResolvedCallback
 (
@@ -3238,7 +3264,10 @@ rv
 WritableStreamDefaultControllerAdvanceQueueIfNeeded
 (
 aCx
+MOZ_KnownLive
+(
 mController
+)
 rv
 )
 ;
@@ -3269,6 +3298,7 @@ failed
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 RejectedCallback
 (
@@ -3498,6 +3528,8 @@ controller
 process
 -
 write
+MOZ_CAN_RUN_SCRIPT
+static
 void
 WritableStreamDefaultControllerProcessWrite
 (
@@ -3771,6 +3803,7 @@ queue
 if
 -
 needed
+static
 void
 WritableStreamDefaultControllerAdvanceQueueIfNeeded
 (
