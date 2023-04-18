@@ -200,6 +200,8 @@ querySelectorAll
 (
 "
 span
+>
+span
 "
 )
 ;
