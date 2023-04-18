@@ -1594,8 +1594,6 @@ outLoadInfo
 LoadInfo
 (
 )
-=
-default
 ;
 void
 ComputeIsThirdPartyContext
@@ -1722,6 +1720,12 @@ aFrameBrowsingContextID
 }
 bool
 DispatchRelease
+(
+)
+;
+MOZ_NEVER_INLINE
+void
+ReleaseMembers
 (
 )
 ;
