@@ -558,6 +558,16 @@ mozilla
 :
 SpinEventLoopUntil
 (
+"
+places
+:
+TEST
+(
+IHistory
+Test
+)
+"
+_ns
 [
 &
 ]
