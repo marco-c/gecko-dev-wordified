@@ -449,7 +449,6 @@ GetLine
 int32_t
 aLineNumber
 )
-const
 =
 0
 ;
@@ -598,7 +597,6 @@ bool
 *
 aPosIsAfterLastFrame
 )
-const
 =
 0
 ;
