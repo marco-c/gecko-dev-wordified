@@ -263,7 +263,7 @@ text
 toEqual
 (
 "
-StyleSheet
+CSSStyleSheet
 https
 :
 /
@@ -293,7 +293,7 @@ title
 toEqual
 (
 "
-StyleSheet
+CSSStyleSheet
 https
 :
 /
