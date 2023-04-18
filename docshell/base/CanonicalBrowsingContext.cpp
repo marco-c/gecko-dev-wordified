@@ -1254,16 +1254,6 @@ GetSingleton
 (
 )
 ;
-if
-(
-!
-cpm
-)
-{
-return
-nullptr
-;
-}
 return
 cpm
 -
