@@ -1602,15 +1602,6 @@ follows
 .
 /
 mach
-create
--
-mach
--
-environment
-  
-.
-/
-mach
 build
 This
 will
