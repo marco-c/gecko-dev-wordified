@@ -269,14 +269,14 @@ kObserverTopics
 TimeStamp
 mLowMemoryStart
 ;
+protected
+:
 uint32_t
 mNumOfTabUnloading
 ;
 uint32_t
 mNumOfMemoryPressure
 ;
-protected
-:
 nsCOMPtr
 <
 nsITabUnloader
