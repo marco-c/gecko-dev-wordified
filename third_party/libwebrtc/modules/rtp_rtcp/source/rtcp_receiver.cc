@@ -2449,9 +2449,9 @@ packet_count
 uint32_t
 *
 octet_count
-NtpTime
+int64_t
 *
-ntp_timestamp
+ntp_timestamp_ms
 )
 const
 {
@@ -2473,9 +2473,13 @@ octet_count
 remote_sender_octet_count_
 ;
 *
-ntp_timestamp
+ntp_timestamp_ms
 =
 remote_sender_ntp_time_
+.
+ToMs
+(
+)
 ;
 }
 /
