@@ -3501,7 +3501,7 @@ authenticator
 *
 Matches
 the
-Remoce
+Remove
 All
 Credentials
 *

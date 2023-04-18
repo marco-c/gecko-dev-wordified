@@ -12991,7 +12991,7 @@ be
 less
 than
 or
-eqaul
+equal
 to
 .
 *
@@ -14918,7 +14918,7 @@ throw
 (
 if
 the
-exeception
+exception
 comes
 from
 another
