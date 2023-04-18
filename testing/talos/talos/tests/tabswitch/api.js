@@ -98,12 +98,6 @@ jsm
 )
 ;
 let
-context
-=
-{
-}
-;
-let
 TalosParentProfiler
 ;
 /
@@ -1313,6 +1307,8 @@ n
 return
 ;
 }
+TalosParentProfiler
+=
 ChromeUtils
 .
 import
@@ -1330,12 +1326,7 @@ TalosParentProfiler
 .
 jsm
 "
-context
 )
-;
-TalosParentProfiler
-=
-context
 .
 TalosParentProfiler
 ;

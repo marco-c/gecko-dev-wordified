@@ -470,9 +470,6 @@ js
 let
 constants
 =
-{
-}
-;
 ChromeUtils
 .
 import
@@ -490,7 +487,6 @@ constants
 .
 js
 "
-constants
 )
 ;
 XPCOMUtils

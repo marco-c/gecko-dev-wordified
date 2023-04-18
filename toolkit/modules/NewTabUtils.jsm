@@ -151,6 +151,8 @@ false
 ;
 try
 {
+shortURL
+=
 ChromeUtils
 .
 import
@@ -170,9 +172,10 @@ ShortURL
 .
 jsm
 "
-shortURL
 )
 ;
+searchShortcuts
+=
 ChromeUtils
 .
 import
@@ -192,7 +195,6 @@ SearchShortcuts
 .
 jsm
 "
-searchShortcuts
 )
 ;
 didSuccessfulImport
@@ -335,6 +337,8 @@ BrowserWindowTracker
 ;
 try
 {
+BrowserWindowTracker
+=
 ChromeUtils
 .
 import
@@ -351,8 +355,9 @@ BrowserWindowTracker
 .
 jsm
 "
-BrowserWindowTracker
 )
+.
+BrowserWindowTracker
 ;
 }
 catch

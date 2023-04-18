@@ -525,9 +525,6 @@ namespace
 let
 sync
 =
-{
-}
-;
 ChromeUtils
 .
 import
@@ -547,7 +544,6 @@ sync
 .
 js
 "
-sync
 )
 ;
 for

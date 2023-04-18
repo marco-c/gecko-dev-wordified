@@ -211,9 +211,6 @@ Scheduler
 var
 SharedAll
 =
-{
-}
-;
 ChromeUtils
 .
 import
@@ -233,7 +230,6 @@ osfile_shared_allthreads
 .
 jsm
 "
-SharedAll
 )
 ;
 const
@@ -304,9 +300,6 @@ errors
 .
 var
 SysAll
-=
-{
-}
 ;
 if
 (
@@ -317,6 +310,8 @@ Constants
 Win
 )
 {
+SysAll
+=
 ChromeUtils
 .
 import
@@ -336,7 +331,6 @@ osfile_win_allthreads
 .
 jsm
 "
-SysAll
 )
 ;
 }
@@ -350,6 +344,8 @@ Constants
 libc
 )
 {
+SysAll
+=
 ChromeUtils
 .
 import
@@ -369,7 +365,6 @@ osfile_unix_allthreads
 .
 jsm
 "
-SysAll
 )
 ;
 }
@@ -411,9 +406,6 @@ Type
 var
 Path
 =
-{
-}
-;
 ChromeUtils
 .
 import
@@ -433,7 +425,6 @@ ospath
 .
 jsm
 "
-Path
 )
 ;
 /
