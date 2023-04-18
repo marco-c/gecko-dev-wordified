@@ -14259,7 +14259,7 @@ presContext
 AppUnitsPerDevPixel
 (
 )
-LayerManager
+WindowRenderer
 :
 :
 END_DEFAULT

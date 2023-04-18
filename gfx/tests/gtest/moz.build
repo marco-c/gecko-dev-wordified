@@ -145,11 +145,6 @@ TestGfxWidgets
 cpp
 "
 "
-TestLayers
-.
-cpp
-"
-"
 TestMatrix
 .
 cpp

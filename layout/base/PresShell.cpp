@@ -43102,12 +43102,12 @@ PaintInternalFlags
 PaintComposite
 )
 ?
-LayerManager
+WindowRenderer
 :
 :
 END_DEFAULT
 :
-LayerManager
+WindowRenderer
 :
 :
 END_NO_COMPOSITE

@@ -253,6 +253,13 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+WindowRenderer
+.
+h
+"
 /
 *
 *

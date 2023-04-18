@@ -443,6 +443,13 @@ h
 /
 /
 JS_DefineProperty
+#
+include
+"
+WindowRenderer
+.
+h
+"
 namespace
 mozilla
 {

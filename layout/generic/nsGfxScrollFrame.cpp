@@ -834,6 +834,13 @@ h
 "
 #
 include
+"
+WindowRenderer
+.
+h
+"
+#
+include
 <
 algorithm
 >

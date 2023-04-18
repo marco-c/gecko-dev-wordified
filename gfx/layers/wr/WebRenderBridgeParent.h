@@ -187,17 +187,6 @@ mozilla
 /
 layers
 /
-LayerManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 PWebRenderBridgeParent
 .
 h

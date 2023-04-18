@@ -1019,6 +1019,13 @@ WebRenderCanvasRenderer
 h
 "
 #
+include
+"
+WindowRenderer
+.
+h
+"
+#
 undef
 free
 /

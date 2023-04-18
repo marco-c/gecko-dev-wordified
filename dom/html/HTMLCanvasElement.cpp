@@ -520,6 +520,13 @@ ClientWebGLContext
 .
 h
 "
+#
+include
+"
+WindowRenderer
+.
+h
+"
 using
 namespace
 mozilla

@@ -611,6 +611,13 @@ h
 #
 include
 "
+WindowRenderer
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h

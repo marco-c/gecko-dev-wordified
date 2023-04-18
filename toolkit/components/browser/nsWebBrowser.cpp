@@ -280,6 +280,13 @@ h
 #
 include
 "
+WindowRenderer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

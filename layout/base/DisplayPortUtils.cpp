@@ -307,6 +307,13 @@ h
 "
 #
 include
+"
+WindowRenderer
+.
+h
+"
+#
+include
 <
 ostream
 >
