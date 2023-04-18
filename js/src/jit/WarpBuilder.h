@@ -2237,6 +2237,14 @@ uint32_t
 numHops
 )
 ;
+void
+buildCreateThis
+(
+CallInfo
+&
+callInfo
+)
+;
 [
 [
 nodiscard
