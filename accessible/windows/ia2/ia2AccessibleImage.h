@@ -325,14 +325,6 @@ MsaaAccessible
 :
 MsaaAccessible
 ;
-private
-:
-ImageAccessible
-*
-ImageAcc
-(
-)
-;
 }
 ;
 }

@@ -343,9 +343,7 @@ aY
 if
 (
 !
-Intl
-(
-)
+mIntl
 )
 return
 NS_ERROR_FAILURE
@@ -353,9 +351,7 @@ NS_ERROR_FAILURE
 LayoutDeviceIntPoint
 point
 =
-Intl
-(
-)
+mIntl
 -
 >
 Position
@@ -418,9 +414,7 @@ aHeight
 if
 (
 !
-Intl
-(
-)
+mIntl
 )
 return
 NS_ERROR_FAILURE
@@ -428,9 +422,7 @@ NS_ERROR_FAILURE
 LayoutDeviceIntSize
 size
 =
-Intl
-(
-)
+mIntl
 -
 >
 Size
