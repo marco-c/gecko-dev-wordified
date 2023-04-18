@@ -7069,6 +7069,11 @@ moz_yaml_dir
 is
 not
 None
+and
+vendoring_dir
+is
+not
+None
 :
         
 #
