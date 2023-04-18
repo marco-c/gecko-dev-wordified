@@ -476,8 +476,6 @@ test
 "
 )
 ;
-return
-;
 }
 if
 (
