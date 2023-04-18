@@ -3578,18 +3578,7 @@ running
 the
 test
 .
-Implies
--
--
-no
--
-autorun
-.
 "
-#
-NOQA
-:
-E501
             
 }
         
