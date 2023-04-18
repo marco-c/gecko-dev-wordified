@@ -1006,6 +1006,9 @@ locale
 "
 theme
 "
+"
+sitepermission
+"
 ]
 )
 ;
