@@ -260,6 +260,16 @@ mozilla
 =
 [
 "
+GRefPtr
+.
+h
+"
+"
+GUniquePtr
+.
+h
+"
+"
 WidgetUtilsGtk
 .
 h
