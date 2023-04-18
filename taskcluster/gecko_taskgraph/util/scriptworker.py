@@ -2828,6 +2828,8 @@ kwargs
 )
         
 if
+(
+            
 job
 .
 get
@@ -2836,10 +2838,10 @@ get
 dependencies
 "
 )
+            
 and
 getattr
 (
-            
 job
 [
 "
@@ -2850,9 +2852,30 @@ dependencies
 dep
 ]
 "
-release_artifacts
+attributes
 "
 None
+)
+            
+and
+job
+[
+"
+dependencies
+"
+]
+[
+dep
+]
+.
+attributes
+.
+get
+(
+"
+release_artifacts
+"
+)
         
 )
 :
@@ -2881,7 +2904,12 @@ dependencies
 dep
 ]
 .
+attributes
+[
+"
 release_artifacts
+"
+]
             
 ]
         

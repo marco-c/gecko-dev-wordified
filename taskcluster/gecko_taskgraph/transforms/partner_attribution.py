@@ -901,11 +901,18 @@ directory
 ]
         
 task
+.
+setdefault
+(
+"
+attributes
+"
+{
+}
+)
 [
 "
-release
--
-artifacts
+release_artifacts
 "
 ]
 =
