@@ -1066,6 +1066,7 @@ RemoteAccessible
 CaretOffset
 (
 )
+const
 {
 int32_t
 offset
