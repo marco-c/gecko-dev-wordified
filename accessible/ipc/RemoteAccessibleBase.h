@@ -1044,6 +1044,17 @@ const
 override
 ;
 virtual
+void
+Value
+(
+nsString
+&
+aValue
+)
+const
+override
+;
+virtual
 double
 CurValue
 (

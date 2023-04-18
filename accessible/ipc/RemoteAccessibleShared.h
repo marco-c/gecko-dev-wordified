@@ -240,6 +240,7 @@ nsString
 aValue
 )
 const
+override
 ;
 /
 *

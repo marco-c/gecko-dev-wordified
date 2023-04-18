@@ -770,6 +770,7 @@ nsString
 aValue
 )
 const
+override
 ;
 /
 *
