@@ -337,15 +337,6 @@ GetDocGroup
 )
 const
 ;
-void
-RemoveDuplicates
-(
-const
-nsAttrValue
-*
-aAttr
-)
-;
 uint32_t
 Length
 (

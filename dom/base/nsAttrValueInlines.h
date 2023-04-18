@@ -379,7 +379,7 @@ mURL
 mozilla
 :
 :
-AtomArray
+AttrAtomArray
 *
 mAtomArray
 ;
@@ -1001,7 +1001,7 @@ inline
 mozilla
 :
 :
-AtomArray
+AttrAtomArray
 *
 nsAttrValue
 :

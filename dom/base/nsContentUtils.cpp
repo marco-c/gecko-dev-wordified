@@ -40234,14 +40234,14 @@ std
 :
 move
 (
-*
-(
 attrValue
 .
 GetAtomArrayValue
 (
 )
-)
+-
+>
+mArray
 )
 ;
 }
