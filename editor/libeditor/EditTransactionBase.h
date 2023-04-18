@@ -184,9 +184,6 @@ class
 CompositionTransaction
 ;
 class
-CreateElementTransaction
-;
-class
 DeleteNodeTransaction
 ;
 class
@@ -355,10 +352,6 @@ ChangeStyleTransaction
 NS_DECL_GETASTRANSACTION_BASE
 (
 CompositionTransaction
-)
-NS_DECL_GETASTRANSACTION_BASE
-(
-CreateElementTransaction
 )
 NS_DECL_GETASTRANSACTION_BASE
 (

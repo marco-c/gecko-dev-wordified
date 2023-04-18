@@ -604,9 +604,6 @@ class
 CompositionTransaction
 ;
 class
-CreateElementTransaction
-;
-class
 CSSEditUtils
 ;
 class
@@ -17294,10 +17291,6 @@ AutoRangeArray
 friend
 class
 CompositionTransaction
-;
-friend
-class
-CreateElementTransaction
 ;
 friend
 class
