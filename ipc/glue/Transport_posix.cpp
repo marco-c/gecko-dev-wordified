@@ -194,11 +194,6 @@ ipc
 nsresult
 CreateTransport
 (
-base
-:
-:
-ProcessId
-aProcIdOne
 TransportDescriptor
 *
 aOne
