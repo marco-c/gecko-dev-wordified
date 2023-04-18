@@ -139,14 +139,8 @@ expectedProcess
 Utility
 (
 pid
-:
 {
 utilityPid
-}
-sandboxingKind
-:
-{
-kGenericUtility
 }
 )
 ;

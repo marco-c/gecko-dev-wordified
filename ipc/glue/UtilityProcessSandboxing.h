@@ -164,7 +164,8 @@ SandboxingKind
 uint64_t
 {
 GENERIC_UTILITY
-COUNT
+=
+0x01
 }
 ;
 }

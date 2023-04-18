@@ -4236,7 +4236,7 @@ ReportNoTests
 endif
 }
 void
-RunTestsGenericUtility
+RunTestsUtility
 (
 SandboxTestingChild
 *
