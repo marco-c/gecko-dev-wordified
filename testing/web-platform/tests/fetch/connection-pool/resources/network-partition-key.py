@@ -1,12 +1,3 @@
-#
-!
-/
-usr
-/
-bin
-/
-env
-python
 import
 mimetypes
 import

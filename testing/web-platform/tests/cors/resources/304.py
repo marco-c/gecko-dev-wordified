@@ -1,13 +1,4 @@
 #
-!
-/
-usr
-/
-bin
-/
-env
-python
-#
 A
 header
 used
