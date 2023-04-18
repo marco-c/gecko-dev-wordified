@@ -343,6 +343,11 @@ tabs
 "
 webRequestBlocking
 "
+"
+webRequestFilterResponse
+.
+serviceWorkerScript
+"
 ]
 ;
 OptionalPermissions

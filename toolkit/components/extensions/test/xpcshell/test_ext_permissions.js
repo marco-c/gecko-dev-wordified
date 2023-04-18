@@ -3609,6 +3609,11 @@ webRequest
 "
 webRequestBlocking
 "
+"
+webRequestFilterResponse
+.
+serviceWorkerScript
+"
 ]
 ;
 add_task
