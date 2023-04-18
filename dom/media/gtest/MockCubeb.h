@@ -2119,7 +2119,10 @@ StreamInitEvent
 ;
 MediaEventSource
 <
-void
+RefPtr
+<
+SmartMockCubebStream
+>
 >
 &
 StreamDestroyEvent
@@ -2571,7 +2574,10 @@ mStreamInitEvent
 ;
 MediaEventProducer
 <
-void
+RefPtr
+<
+SmartMockCubebStream
+>
 >
 mStreamDestroyEvent
 ;
