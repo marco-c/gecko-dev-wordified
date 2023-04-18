@@ -505,6 +505,7 @@ protected
 :
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 DXVA2Manager
 (

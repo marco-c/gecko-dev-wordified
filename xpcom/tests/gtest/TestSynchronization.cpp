@@ -1543,6 +1543,7 @@ AutoLock
 {
 Mutex
 l1
+MOZ_UNANNOTATED
 (
 "
 autolock
@@ -1564,6 +1565,7 @@ AssertCurrentThreadOwns
 {
 Mutex
 l2
+MOZ_UNANNOTATED
 (
 "
 autolock2
@@ -1689,6 +1691,7 @@ AutoTryLock
 {
 Mutex
 l1
+MOZ_UNANNOTATED
 (
 "
 autotrylock
@@ -1737,6 +1740,7 @@ AssertCurrentThreadOwns
 {
 Mutex
 l2
+MOZ_UNANNOTATED
 (
 "
 autotrylock2
@@ -1867,6 +1871,7 @@ AutoUnlock
 {
 Mutex
 l1
+MOZ_UNANNOTATED
 (
 "
 autounlock
@@ -1875,6 +1880,7 @@ autounlock
 ;
 Mutex
 l2
+MOZ_UNANNOTATED
 (
 "
 autounlock2

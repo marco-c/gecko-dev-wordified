@@ -360,6 +360,7 @@ sSnapshotContext
 static
 StaticMutex
 sSnapshotContextMutex
+MOZ_UNANNOTATED
 ;
 already_AddRefed
 <

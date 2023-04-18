@@ -1674,6 +1674,7 @@ and
 mBgInitFailCallback
 Mutex
 mBgChildMutex
+MOZ_UNANNOTATED
 {
 "
 HttpChannelChild
@@ -1759,6 +1760,7 @@ mODATarget
 ;
 Mutex
 mEventTargetMutex
+MOZ_UNANNOTATED
 {
 "
 HttpChannelChild

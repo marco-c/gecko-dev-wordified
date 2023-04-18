@@ -793,6 +793,7 @@ nullptr
 }
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 private
 :

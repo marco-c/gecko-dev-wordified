@@ -1137,6 +1137,7 @@ mRendertraceInfo
 mutable
 Monitor
 mRendertraceLock
+MOZ_UNANNOTATED
 ;
 /
 *

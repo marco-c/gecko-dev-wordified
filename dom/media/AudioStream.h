@@ -2267,6 +2267,7 @@ below
 .
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 const
 uint32_t

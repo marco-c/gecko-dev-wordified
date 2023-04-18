@@ -261,6 +261,7 @@ main
 thread
 Mutex
 mutex
+MOZ_UNANNOTATED
 (
 "
 TestInterruptErrorCleanup

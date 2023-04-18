@@ -1150,6 +1150,7 @@ objects
 .
 Mutex
 mMessageQueueMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

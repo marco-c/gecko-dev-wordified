@@ -1247,6 +1247,7 @@ mFramesMutex
 mutable
 Mutex
 mDecodingMutex
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -1282,6 +1283,7 @@ mDecodingMutex
 mutable
 Mutex
 mFramesMutex
+MOZ_UNANNOTATED
 ;
 /
 /

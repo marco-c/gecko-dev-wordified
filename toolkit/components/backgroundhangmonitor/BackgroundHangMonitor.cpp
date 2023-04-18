@@ -736,6 +736,7 @@ this
 class
 Monitor
 mLock
+MOZ_UNANNOTATED
 ;
 /
 /

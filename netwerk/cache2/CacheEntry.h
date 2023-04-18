@@ -1947,6 +1947,7 @@ mozilla
 :
 Mutex
 mLock
+MOZ_UNANNOTATED
 {
 "
 CacheEntry

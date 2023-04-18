@@ -370,6 +370,7 @@ Observe
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

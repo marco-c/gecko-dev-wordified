@@ -301,6 +301,7 @@ mTarget
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 nsTransportStatusEvent
 *

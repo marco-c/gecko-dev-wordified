@@ -570,6 +570,7 @@ mBufferList
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /

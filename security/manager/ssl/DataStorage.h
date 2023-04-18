@@ -1500,6 +1500,7 @@ aProofOfLock
 ;
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -1602,6 +1603,7 @@ called
 .
 Monitor
 mReadyMonitor
+MOZ_UNANNOTATED
 ;
 /
 /

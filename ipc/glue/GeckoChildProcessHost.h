@@ -1427,6 +1427,7 @@ mIsFileContent
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 FilePath
 mProcessPath
@@ -2045,6 +2046,7 @@ sGeckoChildProcessHosts
 static
 StaticMutex
 sMutex
+MOZ_UNANNOTATED
 ;
 }
 ;

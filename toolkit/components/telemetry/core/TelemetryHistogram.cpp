@@ -1313,6 +1313,7 @@ BloatView
 static
 StaticMutex
 gTelemetryHistogramMutex
+MOZ_UNANNOTATED
 ;
 /
 /

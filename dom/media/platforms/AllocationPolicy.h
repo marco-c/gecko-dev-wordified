@@ -433,6 +433,7 @@ Instance
 static
 StaticMutex
 sMutex
+MOZ_UNANNOTATED
 ;
 }
 ;
@@ -628,6 +629,7 @@ mMaxDecoderLimit
 ;
 ReentrantMonitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 /
 /

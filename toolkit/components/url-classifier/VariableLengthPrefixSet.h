@@ -413,6 +413,7 @@ mozilla
 :
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 const
 RefPtr

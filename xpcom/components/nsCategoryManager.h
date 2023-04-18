@@ -560,6 +560,7 @@ mozilla
 :
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 }
 ;
@@ -806,6 +807,7 @@ mozilla
 :
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 bool
 mSuppressNotifications

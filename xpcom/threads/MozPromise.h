@@ -8060,6 +8060,7 @@ For
 logging
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 ResolveOrRejectValue
 mValue

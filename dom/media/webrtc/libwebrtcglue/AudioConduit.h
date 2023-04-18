@@ -1560,6 +1560,7 @@ mDtmfEnabled
 mutable
 RWLock
 mLock
+MOZ_UNANNOTATED
 ;
 /
 /

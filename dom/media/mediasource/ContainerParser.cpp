@@ -893,6 +893,7 @@ mapping
 ;
 ReentrantMonitor
 dummy
+MOZ_ANNOTATED
 (
 "
 dummy
@@ -1000,6 +1001,7 @@ mapping
 ;
 ReentrantMonitor
 dummy
+MOZ_ANNOTATED
 (
 "
 dummy
@@ -1330,6 +1332,7 @@ Clear
 ;
 ReentrantMonitor
 dummy
+MOZ_ANNOTATED
 (
 "
 dummy

@@ -487,6 +487,7 @@ sNumThreads
 ;
 RWLock
 rwlock
+MOZ_UNANNOTATED
 (
 "
 test
@@ -734,6 +735,7 @@ AutoTryReadLock
 {
 RWLock
 l1
+MOZ_UNANNOTATED
 (
 "
 autotryreadlock
@@ -799,6 +801,7 @@ autol2
 {
 RWLock
 l2
+MOZ_UNANNOTATED
 (
 "
 autotryreadlock2
@@ -922,6 +925,7 @@ AutoTryWriteLock
 {
 RWLock
 l1
+MOZ_UNANNOTATED
 (
 "
 autotrywritelock
@@ -987,6 +991,7 @@ autol2
 {
 RWLock
 l2
+MOZ_UNANNOTATED
 (
 "
 autotrywritelock2

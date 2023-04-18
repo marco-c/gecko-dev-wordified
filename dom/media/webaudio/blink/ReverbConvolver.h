@@ -597,6 +597,7 @@ mozilla
 :
 Monitor
 m_backgroundThreadMonitor
+MOZ_UNANNOTATED
 ;
 bool
 m_useBackgroundThreads

@@ -1982,6 +1982,7 @@ mozilla
 :
 ReentrantMonitor
 mReentrantMonitor
+MOZ_UNANNOTATED
 ;
 bool
 unwedged

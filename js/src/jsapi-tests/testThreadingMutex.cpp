@@ -150,6 +150,7 @@ js
 :
 Mutex
 mutex
+MOZ_UNANNOTATED
 (
 js
 :
@@ -190,6 +191,7 @@ js
 :
 Mutex
 mutex
+MOZ_UNANNOTATED
 (
 js
 :
@@ -233,6 +235,7 @@ js
 :
 Mutex
 mutex
+MOZ_UNANNOTATED
 (
 js
 :

@@ -773,6 +773,7 @@ mutex
 .
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 CondVar
 mCondVar

@@ -807,6 +807,7 @@ js
 :
 Mutex
 lock
+MOZ_UNANNOTATED
 ;
 public
 :

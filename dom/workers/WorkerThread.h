@@ -317,6 +317,7 @@ Observer
 ;
 Mutex
 mLock
+MOZ_UNANNOTATED
 ;
 CondVar
 mWorkerPrivateCondVar

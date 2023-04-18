@@ -966,6 +966,7 @@ mozilla
 :
 Mutex
 m_threadLock
+MOZ_UNANNOTATED
 ;
 PRThread
 *

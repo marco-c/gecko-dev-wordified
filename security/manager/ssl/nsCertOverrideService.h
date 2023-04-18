@@ -718,6 +718,7 @@ mozilla
 :
 Mutex
 mMutex
+MOZ_UNANNOTATED
 ;
 bool
 mDisableAllSecurityCheck

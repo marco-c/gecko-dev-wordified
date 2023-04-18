@@ -1108,6 +1108,7 @@ mHangMonitor
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -1708,6 +1709,7 @@ mIPCOpen
 ;
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 /
 /
@@ -1753,6 +1755,7 @@ mBrowserCrashDumpIds
 ;
 Mutex
 mBrowserCrashDumpHashLock
+MOZ_UNANNOTATED
 ;
 mozilla
 :

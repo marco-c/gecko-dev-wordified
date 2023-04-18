@@ -1001,6 +1001,7 @@ mTimer
 mutable
 Monitor
 mMonitor
+MOZ_UNANNOTATED
 ;
 uint32_t
 mBlockTime
