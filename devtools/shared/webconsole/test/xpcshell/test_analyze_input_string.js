@@ -70,11 +70,11 @@ shared
 /
 webconsole
 /
-js
+analyze
 -
-property
+input
 -
-provider
+string
 "
 )
 ;
