@@ -311,6 +311,7 @@ needed
 .
 class
 AbortSignal
+final
 :
 public
 DOMEventTargetHelper
@@ -454,18 +455,7 @@ RunAbortAlgorithm
 )
 override
 ;
-virtual
-bool
-IsTaskSignal
-(
-)
-const
-{
-return
-false
-;
-}
-protected
+private
 :
 ~
 AbortSignal
