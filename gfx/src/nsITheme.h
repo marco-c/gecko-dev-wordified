@@ -1727,7 +1727,7 @@ already_AddRefed
 <
 nsITheme
 >
-do_GetAndroidNonNativeThemeDoNotUseDirectly
+do_GetBasicNativeThemeDoNotUseDirectly
 (
 )
 ;
@@ -1736,7 +1736,7 @@ already_AddRefed
 <
 nsITheme
 >
-do_GetBasicNativeThemeDoNotUseDirectly
+do_GetRDMThemeDoNotUseDirectly
 (
 )
 ;
