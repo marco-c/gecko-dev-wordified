@@ -214,6 +214,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h

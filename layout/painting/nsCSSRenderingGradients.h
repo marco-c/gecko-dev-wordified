@@ -123,6 +123,13 @@ nsCSSRenderingGradients_h__
 #
 include
 "
+gfxRect
+.
+h
+"
+#
+include
+"
 nsStyleStruct
 .
 h
@@ -165,6 +172,9 @@ webrender_ffi
 .
 h
 "
+class
+gfxPattern
+;
 namespace
 mozilla
 {
