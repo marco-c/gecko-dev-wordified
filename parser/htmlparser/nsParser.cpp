@@ -2515,7 +2515,6 @@ WillBuildModel
 (
 *
 mParserContext
-tokenizer
 mSink
 )
 ;
@@ -6720,7 +6719,6 @@ mDTD
 >
 BuildModel
 (
-theTokenizer
 mSink
 )
 ;

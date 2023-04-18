@@ -168,6 +168,9 @@ nsCOMPtr
 .
 h
 "
+class
+nsITokenizer
+;
 /
 *
 *
