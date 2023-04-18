@@ -6603,6 +6603,11 @@ isRtamo
 props
 .
 isRtamo
+addonName
+:
+props
+.
+addonName
 isTheme
 :
 props
