@@ -326,12 +326,6 @@ using
 namespace
 mozilla
 ;
-NS_IMPL_ISUPPORTS
-(
-TailDispatchingTarget
-nsIEventTarget
-nsISerialEventTarget
-)
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
