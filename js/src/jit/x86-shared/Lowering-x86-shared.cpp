@@ -8271,7 +8271,7 @@ wasm
 SimdOp
 :
 :
-I8x16AddSaturateS
+I8x16AddSatS
 :
 case
 wasm
@@ -8280,7 +8280,7 @@ wasm
 SimdOp
 :
 :
-I8x16AddSaturateU
+I8x16AddSatU
 :
 case
 wasm
@@ -8289,7 +8289,7 @@ wasm
 SimdOp
 :
 :
-I16x8AddSaturateS
+I16x8AddSatS
 :
 case
 wasm
@@ -8298,7 +8298,7 @@ wasm
 SimdOp
 :
 :
-I16x8AddSaturateU
+I16x8AddSatU
 :
 case
 wasm
@@ -8307,7 +8307,7 @@ wasm
 SimdOp
 :
 :
-I8x16SubSaturateS
+I8x16SubSatS
 :
 case
 wasm
@@ -8316,7 +8316,7 @@ wasm
 SimdOp
 :
 :
-I8x16SubSaturateU
+I8x16SubSatU
 :
 case
 wasm
@@ -8325,7 +8325,7 @@ wasm
 SimdOp
 :
 :
-I16x8SubSaturateS
+I16x8SubSatS
 :
 case
 wasm
@@ -8334,7 +8334,7 @@ wasm
 SimdOp
 :
 :
-I16x8SubSaturateU
+I16x8SubSatU
 :
 case
 wasm
@@ -8658,7 +8658,7 @@ wasm
 SimdOp
 :
 :
-I32x4DotSI16x8
+I32x4DotI16x8S
 :
 case
 wasm
@@ -8739,7 +8739,7 @@ wasm
 SimdOp
 :
 :
-I8x16NarrowSI16x8
+I8x16NarrowI16x8S
 :
 case
 wasm
@@ -8748,7 +8748,7 @@ wasm
 SimdOp
 :
 :
-I8x16NarrowUI16x8
+I8x16NarrowI16x8U
 :
 case
 wasm
@@ -8757,7 +8757,7 @@ wasm
 SimdOp
 :
 :
-I16x8NarrowSI32x4
+I16x8NarrowI32x4S
 :
 case
 wasm
@@ -8766,7 +8766,7 @@ wasm
 SimdOp
 :
 :
-I16x8NarrowUI32x4
+I16x8NarrowI32x4U
 :
 return
 true
@@ -10867,7 +10867,7 @@ wasm
 SimdOp
 :
 :
-I32x4TruncSSatF32x4
+I32x4TruncSatF32x4S
 :
 case
 wasm
@@ -10876,7 +10876,7 @@ wasm
 SimdOp
 :
 :
-F32x4ConvertUI32x4
+F32x4ConvertI32x4U
 :
 case
 wasm
@@ -10885,7 +10885,7 @@ wasm
 SimdOp
 :
 :
-I16x8ExtAddPairwiseI8x16S
+I16x8ExtaddPairwiseI8x16S
 :
 case
 wasm
@@ -10894,7 +10894,7 @@ wasm
 SimdOp
 :
 :
-I16x8ExtAddPairwiseI8x16U
+I16x8ExtaddPairwiseI8x16U
 :
 case
 wasm
@@ -10903,7 +10903,7 @@ wasm
 SimdOp
 :
 :
-I32x4ExtAddPairwiseI16x8S
+I32x4ExtaddPairwiseI16x8S
 :
 case
 wasm
@@ -10912,7 +10912,7 @@ wasm
 SimdOp
 :
 :
-I32x4ExtAddPairwiseI16x8U
+I32x4ExtaddPairwiseI16x8U
 :
 case
 wasm
@@ -10957,7 +10957,7 @@ wasm
 SimdOp
 :
 :
-I64x2WidenHighSI32x4
+I64x2ExtendHighI32x4S
 :
 case
 wasm
@@ -10966,7 +10966,7 @@ wasm
 SimdOp
 :
 :
-I64x2WidenHighUI32x4
+I64x2ExtendHighI32x4U
 :
 /
 /
@@ -11017,7 +11017,7 @@ wasm
 SimdOp
 :
 :
-I32x4TruncUSatF32x4
+I32x4TruncSatF32x4U
 :
 case
 wasm
@@ -11086,7 +11086,7 @@ wasm
 SimdOp
 :
 :
-I16x8WidenLowSI8x16
+I16x8ExtendLowI8x16S
 :
 case
 wasm
@@ -11095,7 +11095,7 @@ wasm
 SimdOp
 :
 :
-I16x8WidenHighSI8x16
+I16x8ExtendHighI8x16S
 :
 case
 wasm
@@ -11104,7 +11104,7 @@ wasm
 SimdOp
 :
 :
-I16x8WidenLowUI8x16
+I16x8ExtendLowI8x16U
 :
 case
 wasm
@@ -11113,7 +11113,7 @@ wasm
 SimdOp
 :
 :
-I16x8WidenHighUI8x16
+I16x8ExtendHighI8x16U
 :
 case
 wasm
@@ -11122,7 +11122,7 @@ wasm
 SimdOp
 :
 :
-I32x4WidenLowSI16x8
+I32x4ExtendLowI16x8S
 :
 case
 wasm
@@ -11131,7 +11131,7 @@ wasm
 SimdOp
 :
 :
-I32x4WidenHighSI16x8
+I32x4ExtendHighI16x8S
 :
 case
 wasm
@@ -11140,7 +11140,7 @@ wasm
 SimdOp
 :
 :
-I32x4WidenLowUI16x8
+I32x4ExtendLowI16x8U
 :
 case
 wasm
@@ -11149,7 +11149,7 @@ wasm
 SimdOp
 :
 :
-I32x4WidenHighUI16x8
+I32x4ExtendHighI16x8U
 :
 case
 wasm
@@ -11158,7 +11158,7 @@ wasm
 SimdOp
 :
 :
-I64x2WidenLowSI32x4
+I64x2ExtendLowI32x4S
 :
 case
 wasm
@@ -11167,7 +11167,7 @@ wasm
 SimdOp
 :
 :
-I64x2WidenLowUI32x4
+I64x2ExtendLowI32x4U
 :
 case
 wasm
@@ -11176,7 +11176,7 @@ wasm
 SimdOp
 :
 :
-F32x4ConvertSI32x4
+F32x4ConvertI32x4S
 :
 case
 wasm

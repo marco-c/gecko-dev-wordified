@@ -21514,7 +21514,7 @@ writeOp
 Op
 :
 :
-SetLocal
+LocalSet
 )
 )
 {
@@ -21724,7 +21724,7 @@ writeOp
 Op
 :
 :
-GetLocal
+LocalGet
 )
 )
 {
@@ -21867,7 +21867,7 @@ writeOp
 Op
 :
 :
-GetGlobal
+GlobalGet
 )
 &
 &
@@ -23799,7 +23799,7 @@ writeOp
 Op
 :
 :
-TeeLocal
+LocalTee
 )
 )
 {
@@ -27103,7 +27103,7 @@ writeOp
 Op
 :
 :
-F32ConvertSI32
+F32ConvertI32S
 )
 ;
 }
@@ -27128,7 +27128,7 @@ writeOp
 Op
 :
 :
-F32ConvertUI32
+F32ConvertI32U
 )
 ;
 }
@@ -28653,7 +28653,7 @@ writeOp
 Op
 :
 :
-F64ConvertSI32
+F64ConvertI32S
 )
 )
 {
@@ -28686,7 +28686,7 @@ writeOp
 Op
 :
 :
-F64ConvertUI32
+F64ConvertI32U
 )
 )
 {
@@ -29720,12 +29720,12 @@ isMaybeDouble
 Op
 :
 :
-I32TruncSF64
+I32TruncF64S
 :
 Op
 :
 :
-I32TruncSF32
+I32TruncF32S
 ;
 return
 f

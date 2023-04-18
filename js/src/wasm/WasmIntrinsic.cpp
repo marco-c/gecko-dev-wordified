@@ -546,7 +546,7 @@ writeOp
 Op
 :
 :
-GetLocal
+LocalGet
 )
 |
 |

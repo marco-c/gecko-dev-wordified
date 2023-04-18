@@ -49525,7 +49525,7 @@ uint16_t
 Op
 :
 :
-GetLocal
+LocalGet
 )
 :
 CHECK_NEXT
@@ -49541,7 +49541,7 @@ uint16_t
 Op
 :
 :
-SetLocal
+LocalSet
 )
 :
 CHECK_NEXT
@@ -49557,7 +49557,7 @@ uint16_t
 Op
 :
 :
-TeeLocal
+LocalTee
 )
 :
 CHECK_NEXT
@@ -49573,7 +49573,7 @@ uint16_t
 Op
 :
 :
-GetGlobal
+GlobalGet
 )
 :
 CHECK_NEXT
@@ -49589,7 +49589,7 @@ uint16_t
 Op
 :
 :
-SetGlobal
+GlobalSet
 )
 :
 CHECK_NEXT
@@ -49902,7 +49902,7 @@ uint16_t
 Op
 :
 :
-I32TruncSF32
+I32TruncF32S
 )
 :
 CHECK_NEXT
@@ -49930,7 +49930,7 @@ uint16_t
 Op
 :
 :
-I32TruncUF32
+I32TruncF32U
 )
 :
 CHECK_NEXT
@@ -49958,7 +49958,7 @@ uint16_t
 Op
 :
 :
-I32TruncSF64
+I32TruncF64S
 )
 :
 CHECK_NEXT
@@ -49986,7 +49986,7 @@ uint16_t
 Op
 :
 :
-I32TruncUF64
+I32TruncF64U
 )
 :
 CHECK_NEXT
@@ -50806,7 +50806,7 @@ uint16_t
 Op
 :
 :
-I64TruncSF32
+I64TruncF32S
 )
 :
 #
@@ -50861,7 +50861,7 @@ uint16_t
 Op
 :
 :
-I64TruncUF32
+I64TruncF32U
 )
 :
 #
@@ -50916,7 +50916,7 @@ uint16_t
 Op
 :
 :
-I64TruncSF64
+I64TruncF64S
 )
 :
 #
@@ -50971,7 +50971,7 @@ uint16_t
 Op
 :
 :
-I64TruncUF64
+I64TruncF64U
 )
 :
 #
@@ -51026,7 +51026,7 @@ uint16_t
 Op
 :
 :
-I64ExtendSI32
+I64ExtendI32S
 )
 :
 CHECK_NEXT
@@ -51051,7 +51051,7 @@ uint16_t
 Op
 :
 :
-I64ExtendUI32
+I64ExtendI32U
 )
 :
 CHECK_NEXT
@@ -51948,7 +51948,7 @@ uint16_t
 Op
 :
 :
-F32ConvertSI32
+F32ConvertI32S
 )
 :
 CHECK_NEXT
@@ -51973,7 +51973,7 @@ uint16_t
 Op
 :
 :
-F32ConvertUI32
+F32ConvertI32U
 )
 :
 CHECK_NEXT
@@ -51998,7 +51998,7 @@ uint16_t
 Op
 :
 :
-F32ConvertSI64
+F32ConvertI64S
 )
 :
 #
@@ -52050,7 +52050,7 @@ uint16_t
 Op
 :
 :
-F32ConvertUI64
+F32ConvertI64U
 )
 :
 #
@@ -52549,7 +52549,7 @@ uint16_t
 Op
 :
 :
-F64ConvertSI32
+F64ConvertI32S
 )
 :
 CHECK_NEXT
@@ -52574,7 +52574,7 @@ uint16_t
 Op
 :
 :
-F64ConvertUI32
+F64ConvertI32U
 )
 :
 CHECK_NEXT
@@ -52599,7 +52599,7 @@ uint16_t
 Op
 :
 :
-F64ConvertSI64
+F64ConvertI64S
 )
 :
 #
@@ -52651,7 +52651,7 @@ uint16_t
 Op
 :
 :
-F64ConvertUI64
+F64ConvertI64U
 )
 :
 #
@@ -56144,7 +56144,7 @@ uint32_t
 SimdOp
 :
 :
-I8x16AddSaturateS
+I8x16AddSatS
 )
 :
 CHECK_NEXT
@@ -56161,7 +56161,7 @@ uint32_t
 SimdOp
 :
 :
-I8x16AddSaturateU
+I8x16AddSatU
 )
 :
 CHECK_NEXT
@@ -56195,7 +56195,7 @@ uint32_t
 SimdOp
 :
 :
-I8x16SubSaturateS
+I8x16SubSatS
 )
 :
 CHECK_NEXT
@@ -56212,7 +56212,7 @@ uint32_t
 SimdOp
 :
 :
-I8x16SubSaturateU
+I8x16SubSatU
 )
 :
 CHECK_NEXT
@@ -56314,7 +56314,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8AddSaturateS
+I16x8AddSatS
 )
 :
 CHECK_NEXT
@@ -56331,7 +56331,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8AddSaturateU
+I16x8AddSatU
 )
 :
 CHECK_NEXT
@@ -56365,7 +56365,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8SubSaturateS
+I16x8SubSatS
 )
 :
 CHECK_NEXT
@@ -56382,7 +56382,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8SubSaturateU
+I16x8SubSatU
 )
 :
 CHECK_NEXT
@@ -56858,7 +56858,7 @@ uint32_t
 SimdOp
 :
 :
-I8x16NarrowSI16x8
+I8x16NarrowI16x8S
 )
 :
 CHECK_NEXT
@@ -56875,7 +56875,7 @@ uint32_t
 SimdOp
 :
 :
-I8x16NarrowUI16x8
+I8x16NarrowI16x8U
 )
 :
 CHECK_NEXT
@@ -56892,7 +56892,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8NarrowSI32x4
+I16x8NarrowI32x4S
 )
 :
 CHECK_NEXT
@@ -56909,7 +56909,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8NarrowUI32x4
+I16x8NarrowI32x4U
 )
 :
 CHECK_NEXT
@@ -56926,7 +56926,7 @@ uint32_t
 SimdOp
 :
 :
-V8x16Swizzle
+I8x16Swizzle
 )
 :
 CHECK_NEXT
@@ -57011,7 +57011,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4DotSI16x8
+I32x4DotI16x8S
 )
 :
 CHECK_NEXT
@@ -57028,7 +57028,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8ExtMulLowSI8x16
+I16x8ExtmulLowI8x16S
 )
 :
 CHECK_NEXT
@@ -57045,7 +57045,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8ExtMulHighSI8x16
+I16x8ExtmulHighI8x16S
 )
 :
 CHECK_NEXT
@@ -57062,7 +57062,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8ExtMulLowUI8x16
+I16x8ExtmulLowI8x16U
 )
 :
 CHECK_NEXT
@@ -57079,7 +57079,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8ExtMulHighUI8x16
+I16x8ExtmulHighI8x16U
 )
 :
 CHECK_NEXT
@@ -57096,7 +57096,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4ExtMulLowSI16x8
+I32x4ExtmulLowI16x8S
 )
 :
 CHECK_NEXT
@@ -57113,7 +57113,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4ExtMulHighSI16x8
+I32x4ExtmulHighI16x8S
 )
 :
 CHECK_NEXT
@@ -57130,7 +57130,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4ExtMulLowUI16x8
+I32x4ExtmulLowI16x8U
 )
 :
 CHECK_NEXT
@@ -57147,7 +57147,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4ExtMulHighUI16x8
+I32x4ExtmulHighI16x8U
 )
 :
 CHECK_NEXT
@@ -57164,7 +57164,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2ExtMulLowSI32x4
+I64x2ExtmulLowI32x4S
 )
 :
 CHECK_NEXT
@@ -57181,7 +57181,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2ExtMulHighSI32x4
+I64x2ExtmulHighI32x4S
 )
 :
 CHECK_NEXT
@@ -57198,7 +57198,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2ExtMulLowUI32x4
+I64x2ExtmulLowI32x4U
 )
 :
 CHECK_NEXT
@@ -57215,7 +57215,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2ExtMulHighUI32x4
+I64x2ExtmulHighI32x4U
 )
 :
 CHECK_NEXT
@@ -57283,7 +57283,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8WidenLowSI8x16
+I16x8ExtendLowI8x16S
 )
 :
 CHECK_NEXT
@@ -57300,7 +57300,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8WidenHighSI8x16
+I16x8ExtendHighI8x16S
 )
 :
 CHECK_NEXT
@@ -57317,7 +57317,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8WidenLowUI8x16
+I16x8ExtendLowI8x16U
 )
 :
 CHECK_NEXT
@@ -57334,7 +57334,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8WidenHighUI8x16
+I16x8ExtendHighI8x16U
 )
 :
 CHECK_NEXT
@@ -57368,7 +57368,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4WidenLowSI16x8
+I32x4ExtendLowI16x8S
 )
 :
 CHECK_NEXT
@@ -57385,7 +57385,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4WidenHighSI16x8
+I32x4ExtendHighI16x8S
 )
 :
 CHECK_NEXT
@@ -57402,7 +57402,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4WidenLowUI16x8
+I32x4ExtendLowI16x8U
 )
 :
 CHECK_NEXT
@@ -57419,7 +57419,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4WidenHighUI16x8
+I32x4ExtendHighI16x8U
 )
 :
 CHECK_NEXT
@@ -57436,7 +57436,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4TruncSSatF32x4
+I32x4TruncSatF32x4S
 )
 :
 CHECK_NEXT
@@ -57453,7 +57453,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4TruncUSatF32x4
+I32x4TruncSatF32x4U
 )
 :
 CHECK_NEXT
@@ -57487,7 +57487,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2WidenLowSI32x4
+I64x2ExtendLowI32x4S
 )
 :
 CHECK_NEXT
@@ -57504,7 +57504,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2WidenHighSI32x4
+I64x2ExtendHighI32x4S
 )
 :
 CHECK_NEXT
@@ -57521,7 +57521,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2WidenLowUI32x4
+I64x2ExtendLowI32x4U
 )
 :
 CHECK_NEXT
@@ -57538,7 +57538,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2WidenHighUI32x4
+I64x2ExtendHighI32x4U
 )
 :
 CHECK_NEXT
@@ -57606,7 +57606,7 @@ uint32_t
 SimdOp
 :
 :
-F32x4ConvertSI32x4
+F32x4ConvertI32x4S
 )
 :
 CHECK_NEXT
@@ -57623,7 +57623,7 @@ uint32_t
 SimdOp
 :
 :
-F32x4ConvertUI32x4
+F32x4ConvertI32x4U
 )
 :
 CHECK_NEXT
@@ -58031,7 +58031,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8ExtAddPairwiseI8x16S
+I16x8ExtaddPairwiseI8x16S
 )
 :
 CHECK_NEXT
@@ -58048,7 +58048,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8ExtAddPairwiseI8x16U
+I16x8ExtaddPairwiseI8x16U
 )
 :
 CHECK_NEXT
@@ -58065,7 +58065,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4ExtAddPairwiseI16x8S
+I32x4ExtaddPairwiseI16x8S
 )
 :
 CHECK_NEXT
@@ -58082,7 +58082,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4ExtAddPairwiseI16x8U
+I32x4ExtaddPairwiseI16x8U
 )
 :
 CHECK_NEXT
@@ -58347,7 +58347,7 @@ uint32_t
 SimdOp
 :
 :
-V8x16Shuffle
+I8x16Shuffle
 )
 :
 CHECK_NEXT
@@ -58428,7 +58428,7 @@ uint32_t
 SimdOp
 :
 :
-V8x16LoadSplat
+V128Load8Splat
 )
 :
 CHECK_NEXT
@@ -58448,7 +58448,7 @@ uint32_t
 SimdOp
 :
 :
-V16x8LoadSplat
+V128Load16Splat
 )
 :
 CHECK_NEXT
@@ -58468,7 +58468,7 @@ uint32_t
 SimdOp
 :
 :
-V32x4LoadSplat
+V128Load32Splat
 )
 :
 CHECK_NEXT
@@ -58488,7 +58488,7 @@ uint32_t
 SimdOp
 :
 :
-V64x2LoadSplat
+V128Load64Splat
 )
 :
 CHECK_NEXT
@@ -58508,7 +58508,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8LoadS8x8
+V128Load8x8S
 )
 :
 CHECK_NEXT
@@ -58528,7 +58528,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8LoadU8x8
+V128Load8x8U
 )
 :
 CHECK_NEXT
@@ -58548,7 +58548,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4LoadS16x4
+V128Load16x4S
 )
 :
 CHECK_NEXT
@@ -58568,7 +58568,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4LoadU16x4
+V128Load16x4U
 )
 :
 CHECK_NEXT
@@ -58588,7 +58588,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2LoadS32x2
+V128Load32x2S
 )
 :
 CHECK_NEXT
@@ -58608,7 +58608,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2LoadU32x2
+V128Load32x2U
 )
 :
 CHECK_NEXT
@@ -59446,7 +59446,7 @@ uint32_t
 MiscOp
 :
 :
-I32TruncSSatF32
+I32TruncSatF32S
 )
 :
 CHECK_NEXT
@@ -59474,7 +59474,7 @@ uint32_t
 MiscOp
 :
 :
-I32TruncUSatF32
+I32TruncSatF32U
 )
 :
 CHECK_NEXT
@@ -59504,7 +59504,7 @@ uint32_t
 MiscOp
 :
 :
-I32TruncSSatF64
+I32TruncSatF64S
 )
 :
 CHECK_NEXT
@@ -59532,7 +59532,7 @@ uint32_t
 MiscOp
 :
 :
-I32TruncUSatF64
+I32TruncSatF64U
 )
 :
 CHECK_NEXT
@@ -59562,7 +59562,7 @@ uint32_t
 MiscOp
 :
 :
-I64TruncSSatF32
+I64TruncSatF32S
 )
 :
 #
@@ -59617,7 +59617,7 @@ uint32_t
 MiscOp
 :
 :
-I64TruncUSatF32
+I64TruncSatF32U
 )
 :
 #
@@ -59674,7 +59674,7 @@ uint32_t
 MiscOp
 :
 :
-I64TruncSSatF64
+I64TruncSatF64S
 )
 :
 #
@@ -59729,7 +59729,7 @@ uint32_t
 MiscOp
 :
 :
-I64TruncUSatF64
+I64TruncSatF64U
 )
 :
 #
@@ -59786,7 +59786,7 @@ uint32_t
 MiscOp
 :
 :
-MemCopy
+MemoryCopy
 )
 :
 CHECK_NEXT
@@ -59825,7 +59825,7 @@ uint32_t
 MiscOp
 :
 :
-MemFill
+MemoryFill
 )
 :
 CHECK_NEXT
@@ -59841,7 +59841,7 @@ uint32_t
 MiscOp
 :
 :
-MemInit
+MemoryInit
 )
 :
 CHECK_NEXT
