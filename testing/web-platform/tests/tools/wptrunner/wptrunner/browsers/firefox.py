@@ -941,20 +941,6 @@ kwargs
 reftest_internal
 "
 ]
-        
-executor_kwargs
-[
-"
-reftest_screenshot
-"
-]
-=
-kwargs
-[
-"
-reftest_screenshot
-"
-]
     
 if
 test_type

@@ -3971,6 +3971,12 @@ None
 debug_test
 =
 False
+                 
+reftest_screenshot
+=
+"
+unexpected
+"
 *
 *
 kwargs
@@ -4013,6 +4019,10 @@ timeout_multiplier
 debug_info
 =
 debug_info
+                                 
+reftest_screenshot
+=
+reftest_screenshot
 )
         
 self
