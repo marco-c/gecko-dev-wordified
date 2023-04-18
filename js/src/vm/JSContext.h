@@ -1334,6 +1334,13 @@ void
 setHelperThread
 (
 const
+JS
+:
+:
+ContextOptions
+&
+options
+const
 js
 :
 :
