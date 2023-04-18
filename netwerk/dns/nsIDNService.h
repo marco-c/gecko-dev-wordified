@@ -123,15 +123,6 @@ h
 #
 include
 "
-unicode
-/
-uidna
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex
