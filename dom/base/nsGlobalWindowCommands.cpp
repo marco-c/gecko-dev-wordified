@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsCommandParams
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

@@ -240,15 +240,6 @@ include
 "
 mozilla
 /
-MozPromise
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h

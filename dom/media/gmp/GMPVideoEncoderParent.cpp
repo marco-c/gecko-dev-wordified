@@ -190,13 +190,6 @@ runnable_utils
 .
 h
 "
-#
-include
-"
-GMPLog
-.
-h
-"
 namespace
 mozilla
 :

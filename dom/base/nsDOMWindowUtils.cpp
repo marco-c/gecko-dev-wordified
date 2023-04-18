@@ -420,13 +420,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

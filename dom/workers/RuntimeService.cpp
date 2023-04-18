@@ -508,17 +508,6 @@ include
 "
 mozilla
 /
-ipc
-/
-BackgroundChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h

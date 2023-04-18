@@ -292,17 +292,6 @@ nsWeakReference
 h
 "
 #
-include
-"
-mozilla
-/
-dom
-/
-ImageBitmapBinding
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

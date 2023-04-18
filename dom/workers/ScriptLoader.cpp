@@ -706,17 +706,6 @@ mozilla
 /
 dom
 /
-SerializedStackHolder
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ServiceWorkerBinding
 .
 h

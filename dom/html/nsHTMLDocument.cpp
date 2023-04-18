@@ -450,13 +450,6 @@ h
 #
 include
 "
-nsIContentViewer
-.
-h
-"
-#
-include
-"
 nsIScriptElement
 .
 h

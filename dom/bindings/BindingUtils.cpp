@@ -841,15 +841,6 @@ include
 "
 mozilla
 /
-UseCounter
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 DocGroup

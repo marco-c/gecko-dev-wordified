@@ -183,13 +183,6 @@ h
 #
 include
 "
-nsICryptoHash
-.
-h
-"
-#
-include
-"
 hasht
 .
 h

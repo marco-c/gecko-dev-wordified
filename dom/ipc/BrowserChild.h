@@ -396,13 +396,6 @@ h
 #
 include
 "
-nsIWebBrowserChrome
-.
-h
-"
-#
-include
-"
 nsITopLevelNavigationDelegate
 .
 h

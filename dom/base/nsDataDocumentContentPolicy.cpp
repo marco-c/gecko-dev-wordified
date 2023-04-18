@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
 nsDataDocumentContentPolicy
 .
 h

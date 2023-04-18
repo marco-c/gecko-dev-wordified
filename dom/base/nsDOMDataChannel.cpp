@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsDOMDataChannel
-.
-h
-"
-#
-include
-"
 mozilla
 /
 DOMEventTargetHelper

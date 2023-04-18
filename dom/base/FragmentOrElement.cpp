@@ -560,13 +560,6 @@ h
 #
 include
 "
-nsXULElement
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

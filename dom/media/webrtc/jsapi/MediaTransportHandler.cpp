@@ -315,16 +315,6 @@ h
 "
 #
 include
-"
-nsNetUtil
-.
-h
-"
-/
-/
-NS_CheckPortSafety
-#
-include
 <
 string
 >

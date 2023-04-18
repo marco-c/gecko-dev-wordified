@@ -384,13 +384,6 @@ h
 #
 include
 "
-nsBaseCommandController
-.
-h
-"
-#
-include
-"
 nsTextControlFrame
 .
 h
