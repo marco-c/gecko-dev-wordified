@@ -1193,6 +1193,18 @@ resolve
 #
 abspath
     
+get_config
+=
+kwargs
+.
+get
+(
+"
+get_config
+"
+None
+)
+    
 try
 :
         
@@ -1239,6 +1251,8 @@ ssh_key_dir
 )
                     
 actions
+                    
+get_config
                 
 )
             
@@ -1272,6 +1286,8 @@ ssh_secret
 ssh_key_dir
     
 actions
+    
+get_config
 )
 :
     
@@ -1281,9 +1297,15 @@ import
 CrossChannelCreator
 get_default_config
     
+get_config
+=
+get_config
+or
+get_default_config
+    
 config
 =
-get_default_config
+get_config
 (
 Path
 (
