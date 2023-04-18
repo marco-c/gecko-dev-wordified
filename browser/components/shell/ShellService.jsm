@@ -2632,6 +2632,7 @@ exception
 means
 no
 .
+await
 this
 .
 shellService
@@ -2643,7 +2644,7 @@ Ci
 nsIWindowsShellService
 )
 .
-checkPinCurrentAppToTaskbar
+checkPinCurrentAppToTaskbarAsync
 (
 privateBrowsing
 )
