@@ -554,12 +554,6 @@ aScrollId
 )
 const
 ;
-ScreenMargin
-GetGeckoFixedLayerMargins
-(
-)
-const
-;
 /
 *
 *
