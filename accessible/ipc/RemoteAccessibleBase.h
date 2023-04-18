@@ -1357,6 +1357,16 @@ TakeFocus
 const
 override
 ;
+virtual
+void
+ScrollTo
+(
+uint32_t
+aHow
+)
+const
+override
+;
 /
 *
 *

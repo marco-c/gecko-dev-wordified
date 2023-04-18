@@ -2615,18 +2615,6 @@ TakeFocus
 const
 override
 ;
-/
-*
-*
-*
-Scroll
-the
-accessible
-into
-view
-.
-*
-/
 MOZ_CAN_RUN_SCRIPT
 virtual
 void
@@ -2636,6 +2624,7 @@ uint32_t
 aHow
 )
 const
+override
 ;
 /
 *
