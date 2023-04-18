@@ -61,7 +61,7 @@ MPL
 !
 Parsing
 for
-media
+query
 feature
 expressions
 like
@@ -85,19 +85,19 @@ use
 super
 :
 :
-media_feature
+feature
 :
 :
 {
 Evaluator
-MediaFeatureDescription
+QueryFeatureDescription
 }
 ;
 use
 super
 :
 :
-media_feature
+feature
 :
 :
 {
@@ -283,7 +283,6 @@ be
 performed
 on
 a
-media
 feature
 value
 .
@@ -335,7 +334,6 @@ was
 specified
 in
 this
-media
 feature
 .
 #
@@ -495,7 +493,6 @@ Operator
 /
 /
 Ranged
-media
 features
 are
 not
@@ -508,9 +505,6 @@ that
 d
 make
 no
-/
-/
-/
 sense
 )
 .
@@ -904,15 +898,13 @@ a
 reference
 to
 the
-media
 feature
 the
 value
-/
-/
-/
 the
-media
+/
+/
+/
 query
 contained
 and
@@ -934,7 +926,7 @@ PartialEq
 ]
 pub
 struct
-MediaFeatureExpression
+QueryFeatureExpression
 {
 feature_index
 :
@@ -943,7 +935,7 @@ value
 :
 Option
 <
-MediaExpressionValue
+QueryExpressionValue
 >
 range_or_operator
 :
@@ -955,7 +947,7 @@ RangeOrOperator
 impl
 ToCss
 for
-MediaFeatureExpression
+QueryFeatureExpression
 {
 fn
 to_css
@@ -1777,7 +1769,7 @@ enabled
 false
 }
 impl
-MediaFeatureExpression
+QueryFeatureExpression
 {
 fn
 new
@@ -1789,7 +1781,7 @@ value
 :
 Option
 <
-MediaExpressionValue
+QueryExpressionValue
 >
 range_or_operator
 :
@@ -1832,7 +1824,7 @@ self
 &
 '
 static
-MediaFeatureDescription
+QueryFeatureDescription
 {
 &
 MEDIA_FEATURES
@@ -1847,7 +1839,7 @@ feature_index
 /
 Parse
 a
-media
+feature
 expression
 of
 the
@@ -1941,7 +1933,6 @@ input
 /
 Parse
 a
-media
 feature
 expression
 where
@@ -1951,9 +1942,6 @@ ve
 already
 consumed
 the
-/
-/
-/
 parenthesis
 .
 pub
@@ -2330,13 +2318,12 @@ colon
 this
 is
 a
-media
 query
 of
 the
-/
-/
 form
+/
+/
 '
 (
 <
@@ -2351,8 +2338,6 @@ there
 s
 no
 value
-/
-/
 specified
 .
 /
@@ -2527,7 +2512,7 @@ None
 let
 value
 =
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 parse
@@ -2580,7 +2565,6 @@ range_or_operator
 Returns
 whether
 this
-media
 query
 evaluates
 to
@@ -2642,7 +2626,7 @@ match
 *
 value
 {
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 variant
@@ -2661,7 +2645,7 @@ unreachable
 (
 "
 Unexpected
-MediaExpressionValue
+QueryExpressionValue
 "
 )
 }
@@ -3126,7 +3110,6 @@ or
 expected
 in
 a
-media
 expression
 .
 /
@@ -3222,7 +3205,7 @@ ToShmem
 ]
 pub
 enum
-MediaExpressionValue
+QueryExpressionValue
 {
 /
 /
@@ -3364,7 +3347,7 @@ KeywordDiscriminant
 )
 }
 impl
-MediaExpressionValue
+QueryExpressionValue
 {
 fn
 to_css
@@ -3385,7 +3368,7 @@ W
 for_expr
 :
 &
-MediaFeatureExpression
+QueryFeatureExpression
 )
 -
 >
@@ -3405,7 +3388,7 @@ match
 *
 self
 {
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Length
@@ -3421,7 +3404,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Integer
@@ -3436,7 +3419,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Float
@@ -3451,7 +3434,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 BoolInteger
@@ -3478,7 +3461,7 @@ else
 "
 }
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 NumberRatio
@@ -3493,7 +3476,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Resolution
@@ -3509,7 +3492,7 @@ to_css
 (
 dest
 )
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Enumerated
@@ -3571,7 +3554,7 @@ t
 for_feature
 :
 &
-MediaFeatureDescription
+QueryFeatureDescription
 context
 :
 &
@@ -3592,7 +3575,7 @@ t
 >
 Result
 <
-MediaExpressionValue
+QueryExpressionValue
 ParseError
 <
 '
@@ -3631,7 +3614,7 @@ input
 )
 ?
 ;
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Length
@@ -3663,7 +3646,7 @@ input
 )
 ?
 ;
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Integer
@@ -3730,7 +3713,7 @@ UnspecifiedError
 )
 ;
 }
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 BoolInteger
@@ -3765,7 +3748,7 @@ input
 )
 ?
 ;
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Float
@@ -3815,7 +3798,7 @@ input
 )
 ?
 ;
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 NumberRatio
@@ -3853,7 +3836,7 @@ Resolution
 =
 >
 {
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Resolution
@@ -3881,7 +3864,7 @@ parser
 =
 >
 {
-MediaExpressionValue
+QueryExpressionValue
 :
 :
 Enumerated

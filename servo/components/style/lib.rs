@@ -684,10 +684,6 @@ pub
 mod
 matching
 ;
-#
-[
-macro_use
-]
 pub
 mod
 media_queries
@@ -699,6 +695,14 @@ parallel
 pub
 mod
 parser
+;
+#
+[
+macro_use
+]
+pub
+mod
+queries
 ;
 pub
 mod
