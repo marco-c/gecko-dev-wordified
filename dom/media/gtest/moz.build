@@ -352,6 +352,11 @@ TestOpusParser
 cpp
 "
 "
+TestPacer
+.
+cpp
+"
+"
 TestRTCStatsTimestampMaker
 .
 cpp
