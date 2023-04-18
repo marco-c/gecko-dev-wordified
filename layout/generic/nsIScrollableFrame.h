@@ -3436,8 +3436,11 @@ mozilla
 ScrollGeneration
 &
 aGeneration
-bool
-aApzAnimationInProgress
+mozilla
+:
+:
+APZScrollAnimationType
+aAPZScrollAnimationType
 )
 =
 0
