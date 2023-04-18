@@ -1312,7 +1312,6 @@ mCaps
 mClassOfService
 (
 0
-false
 )
 mTlsFlags
 (
@@ -25515,7 +25514,7 @@ cos
 cos
 -
 >
-SetClassOfService
+SetClassFlags
 (
 config
 .

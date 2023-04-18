@@ -294,8 +294,8 @@ BackgroundParent
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 NS_IMPL_ISUPPORTS
@@ -616,7 +616,7 @@ uint8_t
 httpTrafficCategory
 uint64_t
 requestContextID
-ClassOfService
+uint32_t
 classOfService
 uint32_t
 initialRwin
@@ -1256,7 +1256,7 @@ uint64_t
 &
 aRequestContextID
 const
-ClassOfService
+uint32_t
 &
 aClassOfService
 const
@@ -4621,7 +4621,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

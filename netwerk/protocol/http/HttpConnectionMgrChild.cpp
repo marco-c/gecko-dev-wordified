@@ -198,8 +198,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 HttpConnectionMgrChild
@@ -612,7 +612,7 @@ PHttpTransactionChild
 *
 aTrans
 const
-ClassOfService
+uint32_t
 &
 aClassOfService
 )
@@ -1083,7 +1083,9 @@ IPC_OK
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

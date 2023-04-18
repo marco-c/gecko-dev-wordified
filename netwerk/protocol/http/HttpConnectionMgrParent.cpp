@@ -216,8 +216,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 nsTHashMap
@@ -1003,9 +1003,7 @@ UpdateClassOfServiceOnTransaction
 HttpTransactionShell
 *
 aTrans
-const
-ClassOfService
-&
+uint32_t
 aClassOfService
 )
 {
@@ -1729,7 +1727,9 @@ this
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

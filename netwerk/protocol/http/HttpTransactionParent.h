@@ -187,8 +187,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -977,10 +977,12 @@ HTTP_TRANSACTION_PARENT_IID
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -202,8 +202,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 class
@@ -1257,10 +1257,12 @@ NS_HTTP3SESSION_IID
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

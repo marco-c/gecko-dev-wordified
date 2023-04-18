@@ -128,8 +128,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 /
@@ -246,10 +246,12 @@ sHttpUpgradeListenerMap
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
