@@ -611,15 +611,6 @@ return
 mTotalBytesRead
 ;
 }
-PRIntervalTime
-LastWriteTime
-(
-)
-{
-return
-mLastWriteTime
-;
-}
 nsresult
 SendData
 (
