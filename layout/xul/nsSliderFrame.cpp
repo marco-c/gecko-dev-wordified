@@ -8039,6 +8039,11 @@ CaptureFlags
 :
 :
 IgnoreAllowedState
+|
+CaptureFlags
+:
+:
+PreventDragStart
 )
 ;
 }
