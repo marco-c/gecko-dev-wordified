@@ -6168,7 +6168,7 @@ cacheReadEnd
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -9228,7 +9228,7 @@ mTransactionTimings
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -11267,7 +11267,7 @@ Now
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -13659,7 +13659,7 @@ Now
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )

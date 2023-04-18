@@ -33637,7 +33637,7 @@ if
 mEndMarkerAdded
 &
 &
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -37243,7 +37243,7 @@ mLastStatusReported
 mEndMarkerAdded
 &
 &
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -39470,7 +39470,7 @@ Now
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -51298,7 +51298,7 @@ if
 mEndMarkerAdded
 &
 &
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )

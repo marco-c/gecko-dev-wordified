@@ -585,7 +585,7 @@ Now
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -3165,7 +3165,7 @@ if
 mLastStatusReported
 &
 &
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -3879,7 +3879,7 @@ rv
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -5684,7 +5684,7 @@ MaybeReportTimingData
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )

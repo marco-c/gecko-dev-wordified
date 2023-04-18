@@ -7658,7 +7658,7 @@ false
 }
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -8314,7 +8314,7 @@ EnsureTimerStarted
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -8461,7 +8461,7 @@ if
 removed
 &
 &
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -9745,7 +9745,7 @@ true
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -13960,7 +13960,7 @@ profilerStr
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -15774,7 +15774,7 @@ transactionId
 ;
 if
 (
-profiler_can_accept_markers
+profiler_thread_is_being_profiled
 (
 )
 )
