@@ -123,12 +123,6 @@ controller
 signal
 ;
 return
-promise_rejects_dom
-(
-t
-'
-AbortError
-'
 scheduler
 .
 postTask
@@ -165,7 +159,6 @@ abort
 {
 signal
 }
-)
 )
 ;
 }
