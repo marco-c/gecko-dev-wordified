@@ -1454,8 +1454,17 @@ devices
 IsEmpty
 (
 )
+|
+|
+manualInvalidation
 )
 {
+devices
+.
+Clear
+(
+)
+;
 /
 /
 Bug
