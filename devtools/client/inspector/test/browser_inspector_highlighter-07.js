@@ -51,9 +51,9 @@ test
 /
 mochitest
 /
-helpers
-/
-context
+shared
+-
+head
 .
 js
 *
@@ -85,9 +85,9 @@ test
 /
 mochitest
 /
-helpers
-/
-context
+shared
+-
+head
 .
 js
 "
