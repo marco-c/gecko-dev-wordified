@@ -7244,6 +7244,13 @@ ClearTo
 seq_num
 )
 ;
+if
+(
+num_packets_cleared
+>
+0
+)
+{
 vcm_receive_statistics_
 -
 >
@@ -7252,6 +7259,7 @@ OnDiscardedPackets
 num_packets_cleared
 )
 ;
+}
 reference_finder_
 -
 >
