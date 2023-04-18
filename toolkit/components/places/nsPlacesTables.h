@@ -2244,6 +2244,11 @@ DEFAULT
 "
 \
 "
+title
+TEXT
+"
+\
+"
 FOREIGN
 KEY
 (
