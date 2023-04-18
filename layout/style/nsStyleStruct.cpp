@@ -17373,7 +17373,7 @@ mContentVisibility
 hint
 |
 =
-nsChangeHint_NeedReflow
+nsChangeHint_RepaintFrame
 ;
 }
 if

@@ -4455,6 +4455,16 @@ aBuilder
 aLists
 )
 ;
+if
+(
+IsContentHidden
+(
+)
+)
+{
+return
+;
+}
 const
 bool
 shouldDisplayPoster

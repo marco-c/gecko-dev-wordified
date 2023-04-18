@@ -2340,6 +2340,16 @@ pointerEventsNone
 return
 ;
 }
+if
+(
+IsContentHidden
+(
+)
+)
+{
+return
+;
+}
 /
 /
 If
