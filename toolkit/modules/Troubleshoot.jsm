@@ -2121,6 +2121,9 @@ locale
 "
 dictionary
 "
+"
+sitepermission
+"
 ]
 )
 ;
