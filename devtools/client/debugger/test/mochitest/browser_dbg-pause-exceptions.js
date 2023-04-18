@@ -150,13 +150,9 @@ uncaughtException
 (
 )
 ;
-ok
-(
-!
-isPaused
+assertNotPaused
 (
 dbg
-)
 )
 ;
 info

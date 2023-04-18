@@ -321,13 +321,9 @@ dbg
 )
 )
 ;
-ok
-(
-!
-isPaused
+assertNotPaused
 (
 dbg
-)
 "
 Stepping
 in

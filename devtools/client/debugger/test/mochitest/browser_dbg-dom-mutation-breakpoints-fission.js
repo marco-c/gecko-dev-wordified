@@ -706,13 +706,9 @@ disabled
 )
 )
 ;
-is
-(
-isPaused
+assertNotPaused
 (
 dbg
-)
-false
 "
 DOM
 breakpoint
