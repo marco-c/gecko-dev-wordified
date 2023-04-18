@@ -273,7 +273,7 @@ wbn
 /
 dynamic1
 -
-b2
+b1
 .
 wbn
 '
@@ -483,7 +483,7 @@ Subresource
 loading
 from
 a
-b2
+b1
 bundle
 '
 )
@@ -554,7 +554,7 @@ wbn
 /
 dynamic1
 -
-b2
+b1
 .
 wbn
 '
@@ -602,7 +602,7 @@ wbn
 /
 dynamic2
 -
-b2
+b1
 .
 wbn
 '
@@ -636,7 +636,7 @@ loaded
 from
 dynamic2
 -
-b2
+b1
 .
 wbn
 .
@@ -705,7 +705,7 @@ from
 a
 \
 '
-b2
+b1
 \
 '
 web
@@ -945,7 +945,7 @@ wbn
 /
 dynamic2
 -
-b2
+b1
 .
 wbn
 '
@@ -1378,7 +1378,7 @@ wbn
 /
 dynamic2
 -
-b2
+b1
 .
 wbn
 '
@@ -2590,7 +2590,7 @@ dynamic1
 -
 crossorigin
 -
-b2
+b1
 .
 wbn
 '
@@ -2645,7 +2645,7 @@ URL
 for
 \
 '
-b2
+b1
 \
 '
 bundles
@@ -2903,7 +2903,7 @@ urn
 -
 uuid
 -
-b2
+b1
 .
 wbn
 '
@@ -2956,7 +2956,7 @@ of
 a
 \
 '
-b2
+b1
 \
 '
 bundle
@@ -3010,7 +3010,7 @@ urn
 -
 uuid
 -
-b2
+b1
 .
 wbn
 '
@@ -3074,7 +3074,7 @@ of
 a
 \
 '
-b2
+b1
 \
 '
 bundle
