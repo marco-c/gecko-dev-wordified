@@ -1026,6 +1026,11 @@ elements
 rv
 )
 ;
+if
+(
+promise
+)
+{
 RefPtr
 <
 PromiseNativeHandler
@@ -1051,6 +1056,7 @@ AppendNativeHandler
 l10nMutationFinalizationHandler
 )
 ;
+}
 }
 void
 L10nMutations
