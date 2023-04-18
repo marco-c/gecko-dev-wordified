@@ -3677,6 +3677,12 @@ sampler
 si_lexp
 .
 sampler
+gather
+:
+None
+/
+/
+TODO
 coordinate
 array_index
 offset

@@ -531,6 +531,7 @@ s
 derive
 (
 Debug
+Clone
 )
 ]
 pub

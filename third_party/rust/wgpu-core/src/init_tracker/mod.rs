@@ -286,6 +286,7 @@ texture
 :
 :
 {
+has_copy_partial_init_tracker_coverage
 TextureInitRange
 TextureInitTracker
 TextureInitTrackerAction

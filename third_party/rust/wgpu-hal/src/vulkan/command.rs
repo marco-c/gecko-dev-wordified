@@ -3746,9 +3746,7 @@ vk
 StencilFaceFlags
 :
 :
-all
-(
-)
+FRONT_AND_BACK
 value
 )
 ;

@@ -5847,6 +5847,12 @@ wgt
 :
 :
 StencilFaceState
+compare_mask
+:
+u32
+write_mask
+:
+u32
 )
 -
 >
@@ -5893,13 +5899,7 @@ face
 compare
 )
 compare_mask
-:
-!
-0
 write_mask
-:
-!
-0
 reference
 :
 0
