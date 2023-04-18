@@ -12759,13 +12759,29 @@ path
 )
             
 assert
+os
+.
+path
+.
+normcase
+(
 pathAbs
+)
 .
 startswith
+(
+                
+os
+.
+path
+.
+normcase
 (
 self
 .
 testRootAbs
+)
+            
 )
             
 tp
