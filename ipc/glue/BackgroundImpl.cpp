@@ -2090,6 +2090,16 @@ base
 ProcessId
 ProcessId
 ;
+typedef
+mozilla
+:
+:
+ipc
+:
+:
+Transport
+Transport
+;
 class
 ShutdownObserver
 ;

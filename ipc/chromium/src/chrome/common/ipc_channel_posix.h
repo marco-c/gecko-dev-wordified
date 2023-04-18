@@ -283,8 +283,8 @@ listener
 ;
 ChannelImpl
 (
-ChannelHandle
-pipe
+int
+fd
 Mode
 mode
 Listener
@@ -359,6 +359,13 @@ int
 dest_fd
 )
 const
+;
+void
+ResetFileDescriptor
+(
+int
+fd
+)
 ;
 int
 GetFileDescriptor

@@ -184,13 +184,6 @@ h
 #
 include
 "
-nsWindowsHelpers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ArrayUtils
