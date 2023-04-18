@@ -1741,9 +1741,9 @@ getFloatPref
 (
 TOGGLE_VISIBILITY_THRESHOLD_PREF
 "
-0
+1
 .
-9
+0
 "
 )
 ;
@@ -5873,9 +5873,9 @@ getFloatPref
 (
 TOGGLE_VISIBILITY_THRESHOLD_PREF
 "
-0
+1
 .
-9
+0
 "
 )
 ;
