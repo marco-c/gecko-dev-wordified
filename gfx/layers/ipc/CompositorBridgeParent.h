@@ -3036,9 +3036,6 @@ ContentCompositorBridgeParent
 *
 mContentCompositorBridgeParent
 ;
-TargetConfig
-mTargetConfig
-;
 CompositorController
 *
 GetCompositorController
