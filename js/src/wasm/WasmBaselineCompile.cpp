@@ -5706,7 +5706,7 @@ convenient
 .
 masm
 .
-branchTestPtr
+branchTest32
 (
 Assembler
 :
@@ -5801,7 +5801,7 @@ scratch
 ;
 masm
 .
-branchTestPtr
+branchTest32
 (
 Assembler
 :
@@ -5879,7 +5879,7 @@ such
 /
 /
 as
-branchTestPtr
+branchTest32
 .
 static_assert
 (
@@ -6047,7 +6047,7 @@ scratch
 ;
 masm
 .
-branchTestPtr
+branchTest32
 (
 Assembler
 :
