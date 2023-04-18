@@ -1717,6 +1717,12 @@ using
 Base
 :
 :
+count
+;
+using
+Base
+:
+:
 empty
 ;
 using
