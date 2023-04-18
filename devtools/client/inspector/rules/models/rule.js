@@ -1256,6 +1256,7 @@ compatibilityIssues
 const
 targetBrowsers
 =
+await
 getTargetBrowsers
 (
 )

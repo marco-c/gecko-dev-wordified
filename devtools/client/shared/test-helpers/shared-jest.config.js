@@ -164,6 +164,16 @@ devtools
 utils
 "
 ^
+ChromeUtils
+"
+:
+{
+fixturesDir
+}
+/
+ChromeUtils
+"
+^
 Services
 "
 :

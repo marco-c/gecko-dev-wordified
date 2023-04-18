@@ -69,6 +69,7 @@ settings
 ;
 add_task
 (
+async
 (
 )
 =
@@ -95,6 +96,7 @@ status
 const
 defaultBrowsers
 =
+await
 getDefaultTargetBrowsers
 (
 )
