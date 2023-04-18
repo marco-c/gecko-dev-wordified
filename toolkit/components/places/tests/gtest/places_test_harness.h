@@ -480,6 +480,15 @@ mozilla
 :
 SpinEventLoopUntil
 (
+"
+places
+:
+WaitForTopicSpinner
+:
+:
+Spin
+"
+_ns
 [
 &
 ]

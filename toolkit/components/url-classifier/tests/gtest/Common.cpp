@@ -596,6 +596,14 @@ MOZ_ALWAYS_TRUE
 (
 SpinEventLoopUntil
 (
+"
+url
+-
+classifier
+:
+SyncApplyUpdates
+"
+_ns
 [
 &
 ]
