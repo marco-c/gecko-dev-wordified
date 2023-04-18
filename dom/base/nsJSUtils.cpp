@@ -699,6 +699,15 @@ return
 NS_OK
 ;
 }
+JS
+:
+:
+InstantiateOptions
+instantiateOptions
+(
+aOptions
+)
+;
 if
 (
 !
@@ -709,7 +718,7 @@ UpdateDebugMetadata
 (
 cx
 script
-aOptions
+instantiateOptions
 aPrivateValue
 aElementAttributeName
 nullptr

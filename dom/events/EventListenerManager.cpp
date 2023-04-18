@@ -6639,7 +6639,7 @@ get
 0
 )
 .
-setdeferDebugMetadata
+setDeferDebugMetadata
 (
 true
 )

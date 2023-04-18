@@ -19915,6 +19915,15 @@ return
 nullptr
 ;
 }
+JS
+:
+:
+InstantiateOptions
+instantiateOptions
+(
+options
+)
+;
 if
 (
 !
@@ -19925,7 +19934,7 @@ initFromOptions
 (
 cx
 sourceObject
-options
+instantiateOptions
 )
 )
 {

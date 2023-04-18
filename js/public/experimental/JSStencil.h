@@ -734,7 +734,7 @@ JSContext
 *
 cx
 const
-ReadOnlyCompileOptions
+InstantiateOptions
 &
 options
 Stencil
@@ -828,7 +828,7 @@ JSContext
 *
 cx
 const
-ReadOnlyCompileOptions
+InstantiateOptions
 &
 options
 Stencil

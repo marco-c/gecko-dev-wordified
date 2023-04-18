@@ -969,6 +969,15 @@ targetObj
 JS
 :
 :
+InstantiateOptions
+instantiateOptions
+(
+options
+)
+;
+JS
+:
+:
 RootedScript
 script
 (
@@ -979,7 +988,7 @@ JS
 InstantiateGlobalStencil
 (
 cx
-options
+instantiateOptions
 stencil
 )
 )

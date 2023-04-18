@@ -159,6 +159,10 @@ JS
 :
 :
 ReadOnlyCompileOptions
+JS
+:
+:
+InstantiateOptions
 #
 include
 "
@@ -2042,7 +2046,7 @@ JSScript
 >
 script
 const
-ReadOnlyCompileOptions
+InstantiateOptions
 &
 options
 HandleValue

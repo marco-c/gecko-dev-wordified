@@ -3784,9 +3784,10 @@ cx
 ;
 options
 .
-hideScriptFromDebugger
-=
+setHideScriptFromDebugger
+(
 true
+)
 ;
 options
 .
