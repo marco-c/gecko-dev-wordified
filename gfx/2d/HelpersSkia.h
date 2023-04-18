@@ -672,6 +672,10 @@ const
 StrokeOptions
 &
 aOptions
+bool
+aUsePathEffects
+=
+true
 )
 {
 /
@@ -791,6 +795,9 @@ aOptions
 mDashLength
 >
 0
+&
+&
+aUsePathEffects
 )
 {
 /
