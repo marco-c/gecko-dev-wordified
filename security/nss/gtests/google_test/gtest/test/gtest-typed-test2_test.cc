@@ -322,6 +322,9 @@ gtest
 .
 h
 "
+#
+if
+GTEST_HAS_TYPED_TEST_P
 /
 /
 Tests
@@ -381,3 +384,8 @@ int
 >
 )
 ;
+#
+endif
+/
+/
+GTEST_HAS_TYPED_TEST_P

@@ -335,10 +335,10 @@ NOT
 DELETE
 #
 ifndef
-GOOGLETEST_INCLUDE_GTEST_GTEST_SPI_H_
+GTEST_INCLUDE_GTEST_GTEST_SPI_H_
 #
 define
-GOOGLETEST_INCLUDE_GTEST_GTEST_SPI_H_
+GTEST_INCLUDE_GTEST_GTEST_SPI_H_
 #
 include
 "
@@ -351,7 +351,6 @@ h
 GTEST_DISABLE_MSC_WARNINGS_PUSH_
 (
 4251
-\
 /
 *
 class
@@ -1179,6 +1178,7 @@ ScopedFakeTestPartResultReporter
 :
 \
 INTERCEPT_ONLY_CURRENT_THREAD
+\
 &
 gtest_failures
 )
@@ -1297,8 +1297,8 @@ testing
 ScopedFakeTestPartResultReporter
 :
 :
-\
 INTERCEPT_ALL_THREADS
+\
 &
 gtest_failures
 )
@@ -1711,6 +1711,7 @@ ScopedFakeTestPartResultReporter
 :
 \
 INTERCEPT_ONLY_CURRENT_THREAD
+\
 &
 gtest_failures
 )
@@ -1731,8 +1732,10 @@ AlwaysTrue
 )
 )
 {
+\
 statement
 ;
+\
 }
 \
 }
@@ -1843,8 +1846,10 @@ AlwaysTrue
 )
 )
 {
+\
 statement
 ;
+\
 }
 \
 }
@@ -1868,4 +1873,4 @@ AlwaysFalse
 endif
 /
 /
-GOOGLETEST_INCLUDE_GTEST_GTEST_SPI_H_
+GTEST_INCLUDE_GTEST_GTEST_SPI_H_
