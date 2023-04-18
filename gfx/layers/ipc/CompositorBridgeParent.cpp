@@ -1840,6 +1840,12 @@ now
 .
 .
 .
+MonitorAutoLock
+lock
+(
+sIndirectLayerTreesLock
+)
+;
 sIndirectLayerTrees
 .
 clear
