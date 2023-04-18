@@ -114,6 +114,15 @@ MPL
 .
 *
 /
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :

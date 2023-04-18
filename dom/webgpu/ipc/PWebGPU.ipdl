@@ -230,6 +230,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 webgpu
 /
 WebGPUSerialize
