@@ -435,9 +435,11 @@ createRequireStringRegex
 (
 loaderUtils
 .
-getOptions
+urlToRequest
 (
 this
+.
+resourcePath
 )
 |
 |
