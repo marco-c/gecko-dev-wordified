@@ -107,13 +107,6 @@ Cookie
 .
 h
 "
-#
-include
-"
-nsIConsoleReportCollector
-.
-h
-"
 constexpr
 auto
 TIME_STRING_LENGTH

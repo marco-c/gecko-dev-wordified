@@ -132,13 +132,6 @@ nsIProtocolProxyCallback
 .
 h
 "
-#
-include
-"
-nsCOMPtr
-.
-h
-"
 class
 nsIURI
 ;

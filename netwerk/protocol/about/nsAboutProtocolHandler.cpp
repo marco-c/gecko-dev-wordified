@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -233,6 +226,13 @@ mozilla
 namespace
 net
 {
+static
+NS_DEFINE_CID
+(
+kSimpleURICID
+NS_SIMPLEURI_CID
+)
+;
 static
 NS_DEFINE_CID
 (

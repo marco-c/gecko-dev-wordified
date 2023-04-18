@@ -137,13 +137,6 @@ Unused
 .
 h
 "
-#
-include
-"
-WebSocketFrame
-.
-h
-"
 namespace
 mozilla
 {

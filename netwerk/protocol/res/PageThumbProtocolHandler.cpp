@@ -301,13 +301,6 @@ SimpleChannel
 h
 "
 #
-include
-"
-nsICancelable
-.
-h
-"
-#
 define
 PAGE_THUMB_HOST
 "
