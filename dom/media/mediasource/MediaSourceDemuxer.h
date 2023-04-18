@@ -932,6 +932,12 @@ TrackBuffersManager
 >
 mManager
 ;
+/
+/
+Only
+accessed
+on
+TaskQueue
 Maybe
 <
 RefPtr
@@ -964,6 +970,12 @@ at
 position
 0
 .
+/
+/
+Only
+accessed
+on
+TaskQueue
 bool
 mReset
 ;
