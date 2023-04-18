@@ -3006,6 +3006,12 @@ FakeAudioDeviceModule
 SharedThreadPoolWebRtcTaskQueueFactory
 taskQueueFactory
 ;
+constexpr
+bool
+supportTailDispatch
+=
+true
+;
 auto
 callWorkerThread
 =
@@ -3018,6 +3024,7 @@ CreateTaskQueueWrapper
 "
 CallWorker
 "
+supportTailDispatch
 webrtc
 :
 :
