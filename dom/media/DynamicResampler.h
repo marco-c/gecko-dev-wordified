@@ -2051,6 +2051,10 @@ uint32_t
 aTotalDuration
 uint32_t
 aChannels
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 AudioChunkList
@@ -2417,6 +2421,10 @@ aChannels
 ;
 private
 :
+const
+PrincipalHandle
+mPrincipalHandle
+;
 nsTArray
 <
 AudioChunk
@@ -2663,6 +2671,10 @@ uint32_t
 aOutRate
 uint32_t
 aPreBufferFrames
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 /

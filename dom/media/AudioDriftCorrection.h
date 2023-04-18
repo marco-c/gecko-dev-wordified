@@ -1260,6 +1260,10 @@ uint32_t
 aTargetRate
 uint32_t
 aBufferMs
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 :
 mDesiredBuffering
@@ -1292,6 +1296,7 @@ mResampler
 aSourceRate
 aTargetRate
 mDesiredBuffering
+aPrincipalHandle
 )
 {
 }
