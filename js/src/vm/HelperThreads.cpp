@@ -6475,9 +6475,6 @@ compileOptions
 )
 ;
 }
-#
-ifdef
-DEBUG
 bool
 js
 :
@@ -6496,6 +6493,18 @@ get
 (
 )
 ;
+/
+/
+Check
+whether
+this
+is
+a
+ParseTask
+or
+a
+DelazifyTask
+.
 return
 cx
 -
@@ -6513,8 +6522,6 @@ offThreadFrontendErrors
 )
 ;
 }
-#
-endif
 bool
 GlobalHelperThreadState
 :
