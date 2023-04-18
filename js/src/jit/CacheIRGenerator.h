@@ -2305,6 +2305,8 @@ tryAttachInlinableNative
 (
 HandleFunction
 calleeFunc
+CallFlags
+flags
 )
 ;
 AttachDecision
