@@ -520,7 +520,7 @@ PRIu64
 framerate
 :
 %
-s
+lf
 hasAlphaChannel
 :
 %
@@ -568,17 +568,10 @@ aConfig
 -
 >
 mBitrate
-NS_ConvertUTF16toUTF8
-(
 aConfig
 -
 >
 mFramerate
-)
-.
-get
-(
-)
 aConfig
 -
 >
