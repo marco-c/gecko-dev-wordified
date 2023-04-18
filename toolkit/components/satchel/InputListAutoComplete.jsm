@@ -332,6 +332,9 @@ comment
 :
 "
 "
+removable
+:
+false
 }
 )
 ;

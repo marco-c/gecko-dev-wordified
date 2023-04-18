@@ -442,6 +442,15 @@ aIndex
 )
 ;
 }
+isRemovableAt
+(
+aRowIndex
+)
+{
+return
+true
+;
+}
 removeValueAt
 (
 aRowIndex
