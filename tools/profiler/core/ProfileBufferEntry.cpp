@@ -8143,9 +8143,7 @@ ThreadSafety
 :
 :
 WithoutMutex
-WorkerChunkManager
-(
-)
+mWorkerChunkManager
 )
 ;
 er
@@ -8228,9 +8226,7 @@ runningTimes
 }
 )
 ;
-WorkerChunkManager
-(
-)
+mWorkerChunkManager
 .
 Reset
 (
@@ -9422,9 +9418,7 @@ ThreadSafety
 :
 :
 WithoutMutex
-WorkerChunkManager
-(
-)
+mWorkerChunkManager
 )
 ;
 er
@@ -9519,9 +9513,7 @@ Next
 }
 )
 ;
-WorkerChunkManager
-(
-)
+mWorkerChunkManager
 .
 Reset
 (
@@ -13519,9 +13511,7 @@ ThreadSafety
 :
 :
 WithoutMutex
-WorkerChunkManager
-(
-)
+mWorkerChunkManager
 )
 ;
 auto
@@ -13535,9 +13525,7 @@ MakeScopeExit
 (
 )
 {
-WorkerChunkManager
-(
-)
+mWorkerChunkManager
 .
 Reset
 (
