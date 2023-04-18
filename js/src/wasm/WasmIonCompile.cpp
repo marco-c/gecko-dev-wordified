@@ -21845,9 +21845,9 @@ ValType
 :
 I32
 ?
-SASigWaitI32
+SASigWaitI32M32
 :
-SASigWaitI64
+SASigWaitI64M32
 ;
 CallCompileState
 args
@@ -22189,7 +22189,7 @@ SymbolicAddressSignature
 &
 callee
 =
-SASigWake
+SASigWakeM32
 ;
 CallCompileState
 args
