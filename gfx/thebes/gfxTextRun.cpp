@@ -3735,7 +3735,7 @@ if
 aFont
 -
 >
-IsSyntheticBold
+ApplySyntheticBold
 (
 )
 )
