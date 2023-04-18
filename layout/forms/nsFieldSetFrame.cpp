@@ -3041,6 +3041,16 @@ ShouldReflowAllKids
 GetNextInFlow
 (
 )
+|
+|
+aReflowInput
+.
+AvailableBSize
+(
+)
+!
+=
+NS_UNCONSTRAINEDSIZE
 )
 {
 reflowInner
