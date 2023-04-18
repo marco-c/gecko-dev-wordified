@@ -142,6 +142,16 @@ AttributionCode
 jsm
 "
 ]
+SPHINX_TREES
+[
+"
+docs
+"
+]
+=
+"
+docs
+"
 if
 CONFIG
 [
