@@ -737,9 +737,6 @@ id
 value
 (
 )
-aDesc
-.
-mRequiredFeatures
 MakeUnique
 <
 ffi
@@ -796,6 +793,9 @@ SetlikeHelpers
 :
 Add
 (
+device
+-
+>
 mFeatures
 string
 aRv
