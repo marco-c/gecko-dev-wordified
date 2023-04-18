@@ -8515,6 +8515,7 @@ dllSvc
 >
 StartUntrustedModulesProcessor
 (
+true
 )
 ;
 auto
