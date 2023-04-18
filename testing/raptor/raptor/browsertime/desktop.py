@@ -176,7 +176,7 @@ args_list
 viewPort
 "
 "
-1024x768
+1280x1024
 "
 ]
         
