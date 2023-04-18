@@ -36439,6 +36439,8 @@ slowStartup
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36459,6 +36461,8 @@ cache
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36470,6 +36474,8 @@ manager
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36481,6 +36487,8 @@ gmpopenh264
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
