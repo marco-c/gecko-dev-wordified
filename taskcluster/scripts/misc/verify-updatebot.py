@@ -186,13 +186,10 @@ Update
 +
 )
 to
-new
-version
 (
 .
 +
 )
-from
 "
 )
 class
