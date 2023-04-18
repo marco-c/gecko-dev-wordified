@@ -158,6 +158,11 @@ TestIsValidIp
 cpp
 "
 "
+TestLinkHeader
+.
+cpp
+"
+"
 TestMIMEInputStream
 .
 cpp
