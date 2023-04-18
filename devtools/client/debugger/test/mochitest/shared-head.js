@@ -9369,14 +9369,6 @@ next
 .
 active
 "
-toggleBreakpoints
-:
-"
-.
-breakpoints
--
-toggle
-"
 prettyPrintButton
 :
 "
