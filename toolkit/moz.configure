@@ -9146,13 +9146,7 @@ xi
 "
 ]
 return
-"
-"
-.
-join
-(
 libs
-)
 pkg_check_modules
 (
 "
