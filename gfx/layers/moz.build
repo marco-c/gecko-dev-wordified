@@ -938,6 +938,13 @@ h
 "
 ipc
 /
+CompositableInProcessManager
+.
+h
+"
+"
+ipc
+/
 CompositableTransactionParent
 .
 h
@@ -2353,6 +2360,13 @@ cpp
 ipc
 /
 CompositableForwarder
+.
+cpp
+"
+"
+ipc
+/
+CompositableInProcessManager
 .
 cpp
 "
