@@ -4661,6 +4661,10 @@ EnsureResolvedURI
 ;
 nsAutoCString
 cachePath
+;
+rv
+=
+PathifyURI
 (
 JS_CACHE_PREFIX
 (
@@ -4670,12 +4674,6 @@ non
 syntactic
 "
 )
-)
-;
-rv
-=
-PathifyURI
-(
 aInfo
 .
 ResolvedURI
