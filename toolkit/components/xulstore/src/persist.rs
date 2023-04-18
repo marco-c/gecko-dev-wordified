@@ -225,7 +225,6 @@ moz_task
 :
 :
 {
-dispatch_background_task_with_options
 DispatchOptions
 Task
 TaskRunnable
@@ -279,12 +278,6 @@ time
 :
 Duration
 }
-;
-use
-xpcom
-:
-:
-RefPtr
 ;
 /
 /
@@ -1350,13 +1343,6 @@ new
 )
 )
 ;
-dispatch_background_task_with_options
-(
-RefPtr
-:
-:
-new
-(
 TaskRunnable
 :
 :
@@ -1372,10 +1358,8 @@ task
 )
 ?
 .
-coerce
+dispatch_background_task_with_options
 (
-)
-)
 DispatchOptions
 :
 :
