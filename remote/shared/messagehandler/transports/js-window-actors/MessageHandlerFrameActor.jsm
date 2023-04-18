@@ -231,6 +231,13 @@ DOMWindowCreated
 allFrames
 :
 true
+messageManagerGroups
+:
+[
+"
+browsers
+"
+]
 }
 ;
 /
