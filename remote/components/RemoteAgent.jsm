@@ -855,7 +855,7 @@ _host
 ;
 }
 get
-listening
+running
 (
 )
 {
@@ -1193,7 +1193,7 @@ if
 (
 this
 .
-listening
+running
 )
 {
 return
@@ -1391,7 +1391,7 @@ if
 !
 this
 .
-listening
+running
 )
 {
 return

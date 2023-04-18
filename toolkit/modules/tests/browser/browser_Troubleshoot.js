@@ -4345,7 +4345,7 @@ object
 properties
 :
 {
-listening
+running
 :
 {
 required

@@ -86,7 +86,7 @@ add_task
 (
 async
 function
-listening
+running
 (
 )
 {
@@ -94,12 +94,12 @@ is
 (
 remoteAgentInstance
 .
-listening
+running
 true
 "
 Agent
 is
-listening
+running
 "
 )
 ;
