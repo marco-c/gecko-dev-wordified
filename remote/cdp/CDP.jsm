@@ -692,16 +692,6 @@ within
 the
 profile
 .
-const
-profileDir
-=
-await
-PathUtils
-.
-getProfileDir
-(
-)
-;
 this
 .
 _activePortPath
@@ -710,6 +700,8 @@ PathUtils
 .
 join
 (
+PathUtils
+.
 profileDir
 "
 DevToolsActivePort
