@@ -98,6 +98,7 @@ TabUnloader
 .
 getSortedTabs
 (
+null
 )
 ;
 const
@@ -801,6 +802,7 @@ TabUnloader
 .
 unloadLeastRecentlyUsedTab
 (
+null
 )
 ;
 await
