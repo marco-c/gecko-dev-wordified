@@ -56,12 +56,6 @@ MPL
 import
 pytest
 from
-taskgraph
-.
-parameters
-import
-Parameters
-from
 gecko_taskgraph
 import
 morph
@@ -71,6 +65,12 @@ gecko_taskgraph
 graph
 import
 Graph
+from
+gecko_taskgraph
+.
+parameters
+import
+Parameters
 from
 gecko_taskgraph
 .

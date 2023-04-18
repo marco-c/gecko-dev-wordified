@@ -76,12 +76,6 @@ retry
 from
 taskgraph
 .
-parameters
-import
-Parameters
-from
-taskgraph
-.
 util
 .
 yaml
@@ -117,6 +111,7 @@ from
 .
 parameters
 import
+Parameters
 get_version
 get_app_version
 from
@@ -1874,10 +1869,6 @@ head_ref
 "
             
 "
-head_tag
-"
-            
-"
 project
 "
             
@@ -1895,10 +1886,6 @@ owner
             
 "
 level
-"
-            
-"
-repository_type
 "
             
 "
