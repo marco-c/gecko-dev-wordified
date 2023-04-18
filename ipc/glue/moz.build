@@ -121,6 +121,11 @@ ipc
 =
 [
 "
+AsyncBlockers
+.
+h
+"
+"
 BackgroundChild
 .
 h

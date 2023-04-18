@@ -143,9 +143,9 @@ include
 "
 mozilla
 /
-media
+ipc
 /
-MediaUtils
+AsyncBlockers
 .
 h
 "
@@ -183,6 +183,9 @@ GetSingleton
 (
 )
 ;
+ipc
+:
+:
 AsyncBlockers
 &
 AsyncShutdownService
@@ -508,6 +511,9 @@ ChildProfilerController
 >
 mProfilerController
 ;
+ipc
+:
+:
 AsyncBlockers
 mShutdownBlockers
 ;
