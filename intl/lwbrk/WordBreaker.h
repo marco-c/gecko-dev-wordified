@@ -242,6 +242,7 @@ equals
 to
 aLen
 .
+static
 WordRange
 FindWord
 (
@@ -320,6 +321,7 @@ return
 /
 NS_WORDBREAKER_NEED_MORE_TEXT
 .
+static
 int32_t
 Next
 (
