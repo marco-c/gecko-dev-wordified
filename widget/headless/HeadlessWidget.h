@@ -281,6 +281,12 @@ endif
 namespace
 mozilla
 {
+enum
+class
+NativeKeyBindingsType
+:
+uint8_t
+;
 namespace
 widget
 {

@@ -309,6 +309,12 @@ namespace
 namespace
 mozilla
 {
+enum
+class
+NativeKeyBindingsType
+:
+uint8_t
+;
 class
 InputData
 ;
@@ -2729,6 +2735,9 @@ virtual
 bool
 GetEditCommands
 (
+mozilla
+:
+:
 NativeKeyBindingsType
 aType
 const

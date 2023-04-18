@@ -491,6 +491,12 @@ nsPtrHashKey
 namespace
 mozilla
 {
+enum
+class
+NativeKeyBindingsType
+:
+uint8_t
+;
 class
 AbstractThread
 ;
@@ -2615,9 +2621,6 @@ aEffects
 void
 RequestEditCommands
 (
-nsIWidget
-:
-:
 NativeKeyBindingsType
 aType
 const
