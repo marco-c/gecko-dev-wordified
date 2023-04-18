@@ -6992,13 +6992,6 @@ mode
 >
 *
 xdr
-const
-JS
-:
-:
-ReadOnlyCompileOptions
-*
-maybeOptions
 RefPtr
 <
 ScriptSource

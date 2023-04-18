@@ -1930,13 +1930,6 @@ mode
 >
 *
 xdr
-const
-JS
-:
-:
-ReadOnlyCompileOptions
-*
-maybeOptions
 RefPtr
 <
 ScriptSource
@@ -1989,7 +1982,6 @@ ScriptSource
 XDR
 (
 xdr
-maybeOptions
 source
 )
 )
@@ -2095,7 +2087,6 @@ MOZ_TRY
 XDRStencilHeader
 (
 this
-nullptr
 const_cast
 <
 RefPtr
@@ -2514,7 +2505,6 @@ MOZ_TRY
 XDRStencilHeader
 (
 this
-options_
 stencil
 .
 source
