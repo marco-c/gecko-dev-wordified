@@ -666,10 +666,6 @@ aTarget
 SourceSurface
 *
 aExtraMask
-const
-Matrix
-&
-aExtraMasksTransform
 )
 {
 MOZ_ASSERT
@@ -692,12 +688,7 @@ aTarget
 >
 SetTransform
 (
-aExtraMasksTransform
-*
-aTarget
--
->
-GetTransform
+Matrix
 (
 )
 )
@@ -771,10 +762,6 @@ aMatrix
 SourceSurface
 *
 aExtraMask
-const
-Matrix
-&
-aExtraMasksTransform
 )
 {
 static
@@ -1191,7 +1178,6 @@ ComposeExtraMask
 (
 maskDT
 aExtraMask
-aExtraMasksTransform
 )
 ;
 }
@@ -1610,10 +1596,6 @@ aMatrix
 SourceSurface
 *
 aExtraMask
-const
-Matrix
-&
-aExtraMasksTransform
 )
 {
 RefPtr
@@ -1701,7 +1683,6 @@ maskContext
 aClippedFrame
 aMatrix
 aExtraMask
-aExtraMasksTransform
 )
 ;
 RefPtr
