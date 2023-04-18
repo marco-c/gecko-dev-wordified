@@ -103,6 +103,17 @@ h
 #
 include
 "
+mozilla
+/
+embedding
+/
+PPrintingTypes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

@@ -116,7 +116,7 @@ MPL
 /
 include
 protocol
-PPrinting
+PContent
 ;
 namespace
 mozilla
@@ -137,7 +137,7 @@ protocol
 PRemotePrintJob
 {
 manager
-PPrinting
+PContent
 ;
 both
 :

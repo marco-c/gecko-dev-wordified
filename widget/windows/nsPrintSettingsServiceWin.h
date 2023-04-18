@@ -98,17 +98,6 @@ nsPrintSettingsServiceWin_h
 #
 include
 "
-mozilla
-/
-embedding
-/
-PPrinting
-.
-h
-"
-#
-include
-"
 nsPrintSettingsService
 .
 h
