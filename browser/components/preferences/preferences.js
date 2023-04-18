@@ -387,6 +387,7 @@ css
 ]
 resizeCallback
 :
+async
 (
 {
 title
@@ -407,6 +408,7 @@ highlight
 matched
 keyword
 .
+await
 gSearchResultsPane
 .
 searchWithinNode
@@ -430,6 +432,7 @@ highlight
 matched
 keyword
 .
+await
 gSearchResultsPane
 .
 searchWithinNode
