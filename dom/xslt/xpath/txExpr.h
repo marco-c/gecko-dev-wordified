@@ -1271,15 +1271,8 @@ s
 parameter
 list
 *
-return
-nsresult
-indicating
-out
-of
-memory
-*
 /
-nsresult
+void
 addParam
 (
 Expr
@@ -1293,9 +1286,6 @@ AppendElement
 (
 aExpr
 )
-;
-return
-NS_OK
 ;
 }
 /
