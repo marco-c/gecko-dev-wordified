@@ -186,6 +186,15 @@ wasm_builtins_h
 #
 include
 "
+intgemm
+/
+IntegerGemmIntrinsic
+.
+h
+"
+#
+include
+"
 jit
 /
 IonTypes
