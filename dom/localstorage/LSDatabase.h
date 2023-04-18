@@ -438,9 +438,6 @@ aObject
 nsresult
 EndExplicitSnapshot
 (
-LSObject
-*
-aObject
 )
 ;
 private
