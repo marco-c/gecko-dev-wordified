@@ -5203,6 +5203,13 @@ setStreamsEnabled
 (
 sStreamsEnabled
 )
+/
+/
+Note
+:
+Overridden
+by
+MOZ_DOM_STREAMS
 .
 setWritableStreamsEnabled
 (

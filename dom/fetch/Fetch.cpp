@@ -7509,6 +7509,9 @@ JSObject
 aBody
 )
 ;
+#
+ifndef
+MOZ_DOM_STREAMS
 template
 <
 class
@@ -7839,6 +7842,8 @@ ErrorResult
 aRv
 )
 ;
+#
+endif
 template
 <
 class

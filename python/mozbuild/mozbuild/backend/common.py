@@ -2516,6 +2516,21 @@ topobjdir
 dist
 "
 )
+            
+use_builtin_readable_stream
+=
+False
+#
+Shouldn
+'
+t
+matter
+if
+true
+or
+false
+here
+.
         
 )
         

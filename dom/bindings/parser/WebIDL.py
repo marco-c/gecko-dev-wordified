@@ -44143,6 +44143,44 @@ IDENTIFIER
 "
 )
         
+#
+If
+Builtin
+readable
+streams
+are
+disabled
+mark
+ReadableStream
+as
+an
+identifier
+.
+        
+if
+t
+.
+type
+=
+=
+"
+READABLESTREAM
+"
+and
+not
+self
+.
+_use_builtin_readable_streams
+:
+            
+t
+.
+type
+=
+"
+IDENTIFIER
+"
+        
 return
 t
     
@@ -44975,8 +45013,17 @@ outputdir
 lexer
 =
 None
+use_builtin_readable_streams
+=
+True
 )
 :
+        
+self
+.
+_use_builtin_readable_streams
+=
+use_builtin_readable_streams
         
 if
 lexer
@@ -55810,6 +55857,9 @@ outputdir
 lexer
 =
 None
+use_builtin_readable_stream
+=
+True
 )
 :
         
@@ -55820,6 +55870,7 @@ __init__
 self
 outputdir
 lexer
+use_builtin_readable_stream
 )
         
 logger

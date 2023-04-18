@@ -2007,6 +2007,9 @@ BodyStreamHolder
 /
 anonymous
 namespace
+#
+ifndef
+MOZ_DOM_STREAMS
 void
 Blob
 :
@@ -2130,6 +2133,8 @@ GetReadableStreamBody
 )
 ;
 }
+#
+endif
 }
 /
 /
