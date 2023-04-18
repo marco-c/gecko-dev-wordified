@@ -11,7 +11,7 @@ wasm
 -
 compiler
 =
-ion
+optimizing
 ;
 -
 -
