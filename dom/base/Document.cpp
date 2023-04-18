@@ -108435,7 +108435,7 @@ return
 LookAndFeel
 :
 :
-SystemColorScheme
+ColorSchemeForChrome
 (
 )
 ;

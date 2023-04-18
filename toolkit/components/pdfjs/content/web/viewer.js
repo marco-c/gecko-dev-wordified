@@ -3030,11 +3030,6 @@ const
 mediaMatcher
 =
 "
--
-moz
--
-toolbar
--
 prefers
 -
 color

@@ -69,11 +69,6 @@ matchMedia
 (
 "
 (
--
-moz
--
-toolbar
--
 prefers
 -
 color
