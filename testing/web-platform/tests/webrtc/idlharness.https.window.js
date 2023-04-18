@@ -640,6 +640,11 @@ mediacapture
 streams
 '
 '
+hr
+-
+time
+'
+'
 dom
 '
 '
