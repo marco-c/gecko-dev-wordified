@@ -1354,6 +1354,11 @@ RtcpBandwidthObserver
 const
 rtcp_bandwidth_observer_
 ;
+RtcpEventObserver
+*
+const
+rtcp_event_observer_
+;
 RtcpIntraFrameObserver
 *
 const
