@@ -191,9 +191,9 @@ getMockedModule
 "
 devtools
 /
-client
-/
 shared
+/
+loader
 /
 browser
 -
