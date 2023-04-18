@@ -4793,7 +4793,7 @@ if
 activation
 -
 >
-wasmExitTls
+wasmExitInstance
 (
 )
 -

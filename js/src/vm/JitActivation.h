@@ -1668,7 +1668,7 @@ wasm
 :
 Instance
 *
-wasmExitTls
+wasmExitInstance
 (
 )
 const
