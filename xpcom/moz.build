@@ -115,6 +115,11 @@ parser
 /
 xpidl
 "
+"
+geckoprocesstypes_generator
+/
+geckoprocesstypes
+"
 ]
 DIRS
 +
