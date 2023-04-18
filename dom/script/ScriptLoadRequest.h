@@ -1928,9 +1928,6 @@ off
 thread
 parsing
 .
-int32_t
-mLineNo
-;
 /
 /
 The
@@ -2432,9 +2429,6 @@ mRequest
 -
 >
 mURI
-mRequest
--
->
 mLineNo
 )
 ;
@@ -3061,6 +3055,9 @@ released
 during
 cancellation
 .
+int32_t
+mLineNo
+;
 /
 /
 Set
