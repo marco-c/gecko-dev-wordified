@@ -23277,6 +23277,9 @@ CacheDomain
 :
 :
 GroupInfo
+&
+&
+mContent
 )
 {
 for
@@ -23571,6 +23574,9 @@ push
 .
 if
 (
+mContent
+&
+&
 mContent
 -
 >
