@@ -28841,7 +28841,7 @@ LookAndFeel
 ColorID
 :
 :
-WindowBackground
+Window
 mFrame
 )
 ;
