@@ -141,9 +141,6 @@ return
 chan
 ;
 }
-let
-processId
-;
 function
 channelOpenPromise
 (
