@@ -5786,14 +5786,6 @@ self
 .
 virtualenv_manager
 .
-ensure
-(
-)
-        
-self
-.
-virtualenv_manager
-.
 activate
 (
 )

@@ -470,14 +470,6 @@ topsrcdir
 else
 :
         
-command_context
-.
-virtualenv_manager
-.
-ensure
-(
-)
-        
 if
 not
 no_activate
@@ -488,6 +480,17 @@ command_context
 virtualenv_manager
 .
 activate
+(
+)
+        
+else
+:
+            
+command_context
+.
+virtualenv_manager
+.
+ensure
 (
 )
         
