@@ -970,6 +970,14 @@ testPairs
 =
 [
 {
+testEmptyValue
+:
+[
+"
+"
+]
+}
+{
 testSampleKey
 :
 [
