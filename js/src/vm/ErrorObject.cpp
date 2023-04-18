@@ -1318,6 +1318,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+maybeOnHelperThread
+(
+)
+)
+;
 if
 (
 JSErrorReport
