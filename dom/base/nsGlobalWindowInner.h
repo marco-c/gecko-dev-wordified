@@ -6216,17 +6216,6 @@ ErrorResult
 aError
 )
 ;
-double
-GetDesktopToDeviceScale
-(
-mozilla
-:
-:
-ErrorResult
-&
-aError
-)
-;
 int32_t
 GetScrollMinX
 (
