@@ -5592,6 +5592,12 @@ hsl
 hsla
 "
 "
+hwb
+"
+"
+hwba
+"
+"
 currentColor
 "
 "
