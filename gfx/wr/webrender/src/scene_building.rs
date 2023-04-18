@@ -15223,7 +15223,8 @@ NinePatchBorderSource
 :
 Image
 (
-image_key
+key
+rendering
 )
 =
 >
@@ -15238,14 +15239,7 @@ request
 ImageRequest
 {
 key
-:
-image_key
 rendering
-:
-ImageRendering
-:
-:
-Auto
 tile
 :
 None
