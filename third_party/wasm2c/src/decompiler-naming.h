@@ -1518,10 +1518,10 @@ RenameToIdentifiers
 (
 module
 .
-events
+tags
 module
 .
-event_bindings
+tag_bindings
 nullptr
 )
 ;

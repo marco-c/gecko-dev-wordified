@@ -1058,6 +1058,8 @@ ParseNat
 (
 uint64_t
 *
+bool
+is_64
 )
 ;
 Result
@@ -1089,7 +1091,7 @@ Module
 )
 ;
 Result
-ParseEventModuleField
+ParseTagModuleField
 (
 Module
 *

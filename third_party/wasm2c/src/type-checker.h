@@ -472,6 +472,14 @@ result_types
 )
 ;
 Result
+OnFuncRef
+(
+Index
+*
+out_index
+)
+;
+Result
 OnReturnCall
 (
 const
@@ -841,11 +849,6 @@ OnUnreachable
 )
 ;
 Result
-OnUnwind
-(
-)
-;
-Result
 EndFunction
 (
 )
@@ -1176,9 +1179,6 @@ OnEnd
 Label
 *
 label
-TypeVector
-&
-check_type
 const
 char
 *

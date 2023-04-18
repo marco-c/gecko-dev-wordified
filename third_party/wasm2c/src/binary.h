@@ -200,6 +200,14 @@ dylink
 "
 #
 define
+WABT_BINARY_SECTION_DYLINK0
+"
+dylink
+.
+0
+"
+#
+define
 WABT_FOREACH_BINARY_SECTION
 (
 V
@@ -249,8 +257,8 @@ memory
 \
 V
 (
-Event
-event
+Tag
+tag
 13
 )
 \
@@ -344,7 +352,7 @@ First
 Custom
 Last
 =
-Event
+Tag
 }
 ;
 /

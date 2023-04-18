@@ -396,7 +396,7 @@ mutable_
 override
 ;
 Result
-OnImportEvent
+OnImportTag
 (
 Index
 import_index
@@ -405,7 +405,7 @@ module_name
 string_view
 field_name
 Index
-event_index
+tag_index
 Index
 sig_index
 )
@@ -896,7 +896,7 @@ Result
 OnCatchExpr
 (
 Index
-event_index
+tag_index
 )
 override
 ;
@@ -913,6 +913,12 @@ Index
 sig_index
 Index
 table_index
+)
+override
+;
+Result
+OnCallRefExpr
+(
 )
 override
 ;
@@ -1267,7 +1273,7 @@ Result
 OnThrowExpr
 (
 Index
-event_index
+tag_index
 )
 override
 ;
@@ -1297,12 +1303,6 @@ override
 ;
 Result
 OnUnreachableExpr
-(
-)
-override
-;
-Result
-OnUnwindExpr
 (
 )
 override
@@ -1854,18 +1854,6 @@ count
 override
 ;
 Result
-OnSymbol
-(
-Index
-sybmol_index
-SymbolType
-type
-uint32_t
-flags
-)
-override
-;
-Result
 OnDataSymbol
 (
 Index
@@ -1924,7 +1912,7 @@ section_index
 override
 ;
 Result
-OnEventSymbol
+OnTagSymbol
 (
 Index
 index
@@ -1933,7 +1921,7 @@ flags
 string_view
 name
 Index
-event_index
+tag_index
 )
 override
 ;
@@ -1947,7 +1935,7 @@ flags
 string_view
 name
 Index
-event_index
+tag_index
 )
 override
 ;
@@ -2028,7 +2016,7 @@ EndLinkingSection
 override
 ;
 Result
-BeginEventSection
+BeginTagSection
 (
 Offset
 size
@@ -2036,7 +2024,7 @@ size
 override
 ;
 Result
-OnEventCount
+OnTagCount
 (
 Index
 count
@@ -2044,7 +2032,7 @@ count
 override
 ;
 Result
-OnEventType
+OnTagType
 (
 Index
 index
@@ -2054,7 +2042,7 @@ sig_index
 override
 ;
 Result
-EndEventSection
+EndTagSection
 (
 )
 override

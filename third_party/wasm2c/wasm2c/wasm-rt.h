@@ -136,6 +136,13 @@ WASM_RT_H_
 #
 include
 <
+stdbool
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
@@ -1376,7 +1383,7 @@ my_memory
 *
 /
 extern
-void
+bool
 wasm_rt_allocate_memory
 (
 wasm_rt_memory_t
