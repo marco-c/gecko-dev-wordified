@@ -307,6 +307,13 @@ NSView
 *
 )
 aView
+withAppearance
+:
+(
+NSAppearance
+*
+)
+aAppearance
 ;
 /
 /
