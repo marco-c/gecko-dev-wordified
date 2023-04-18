@@ -582,14 +582,6 @@ mCurrentOffset
 before
 returning
 .
-Acquires
-/
-/
-aReentrantMonitor
-before
-using
-aMapping
-.
 /
 /
 Returns
@@ -616,9 +608,6 @@ WebMTimeDataOffset
 >
 &
 aMapping
-ReentrantMonitor
-&
-aReentrantMonitor
 )
 ;
 bool
