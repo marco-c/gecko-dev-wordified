@@ -3859,6 +3859,15 @@ SwitchToBackupDNSService
 (
 )
 {
+if
+(
+!
+gDNSServiceWrapper
+)
+{
+return
+;
+}
 gDNSServiceWrapper
 -
 >
