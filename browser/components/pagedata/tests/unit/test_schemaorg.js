@@ -257,12 +257,12 @@ content
 "
 3
 .
-00
+50
 "
 >
 3
 .
-00
+50
 <
 /
 span
@@ -390,6 +390,8 @@ price
 value
 :
 3
+.
+5
 currency
 :
 "
@@ -552,12 +554,12 @@ content
 "
 3
 .
-00
+28
 "
 >
 3
 .
-00
+28
 <
 /
 span
@@ -744,6 +746,8 @@ price
 value
 :
 3
+.
+28
 currency
 :
 "

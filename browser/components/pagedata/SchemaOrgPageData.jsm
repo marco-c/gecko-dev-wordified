@@ -699,7 +699,7 @@ length
 let
 price
 =
-parseInt
+parseFloat
 (
 prices
 [
