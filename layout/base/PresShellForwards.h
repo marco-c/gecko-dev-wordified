@@ -1040,6 +1040,12 @@ ScrollSnap
 <
 <
 5
+TriggeredByScript
+=
+1
+<
+<
+6
 /
 /
 ScrollOverflowHidden
