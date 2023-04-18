@@ -222,6 +222,8 @@ browserId
 :
 watcher
 .
+context
+.
 browserId
 sessionData
 :
@@ -384,6 +386,8 @@ browserId
 :
 watcher
 .
+context
+.
 browserId
 }
 )
@@ -515,6 +519,8 @@ browserId
 :
 watcher
 .
+context
+.
 browserId
 type
 entries
@@ -635,6 +641,8 @@ actorID
 browserId
 :
 watcher
+.
+context
 .
 browserId
 type
