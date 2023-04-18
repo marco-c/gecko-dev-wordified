@@ -127,6 +127,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 VideoInfo
 from
 "
@@ -136,6 +139,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 AudioInfo
 from
 "
