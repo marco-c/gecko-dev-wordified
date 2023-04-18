@@ -4304,7 +4304,9 @@ we
 ve
 received
 a
-contentful
+non
+-
+blank
 paint
 in
 which
@@ -4321,7 +4323,7 @@ to
 transparent
 .
 bool
-mGotContentfulPaint
+mGotNonBlankPaint
 :
 1
 ;
@@ -4492,7 +4494,7 @@ GetWindowRenderer
 override
 ;
 void
-DidGetContentfulPaint
+DidGetNonBlankPaint
 (
 )
 override
