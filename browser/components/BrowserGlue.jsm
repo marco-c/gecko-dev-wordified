@@ -2272,6 +2272,16 @@ pocket
 home
 *
 "
+"
+about
+:
+pocket
+-
+style
+-
+guide
+*
+"
 ]
 }
 AboutPrivateBrowsing
