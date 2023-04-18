@@ -625,7 +625,7 @@ registerTool
 id
 :
 textboxToolId
-isTargetSupported
+isToolSupported
 :
 (
 )

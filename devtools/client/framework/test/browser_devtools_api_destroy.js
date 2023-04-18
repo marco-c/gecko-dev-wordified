@@ -78,7 +78,7 @@ testTool
 .
 enabled
 "
-isTargetSupported
+isToolSupported
 :
 (
 )

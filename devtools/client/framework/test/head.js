@@ -318,11 +318,9 @@ def
 >
 def
 .
-isTargetSupported
+isToolSupported
 (
 toolbox
-.
-target
 )
 )
 .

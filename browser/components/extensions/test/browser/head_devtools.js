@@ -230,7 +230,7 @@ label
 Blank
 Tool
 "
-isTargetSupported
+isToolSupported
 (
 )
 {

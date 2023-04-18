@@ -64,7 +64,7 @@ id
 "
 testTool
 "
-isTargetSupported
+isToolSupported
 :
 (
 )
@@ -214,7 +214,7 @@ unavailable
 .
 testToolDefinition
 .
-isTargetSupported
+isToolSupported
 =
 (
 )

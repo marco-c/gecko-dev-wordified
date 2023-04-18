@@ -381,13 +381,6 @@ etc
 .
 )
 const
-target
-=
-toolbox
-.
-target
-;
-const
 toolbarButtons
 =
 toolbox
@@ -401,9 +394,9 @@ tool
 >
 tool
 .
-isTargetSupported
+isToolSupported
 (
-target
+toolbox
 )
 )
 ;
