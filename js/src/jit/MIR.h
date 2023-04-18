@@ -24261,7 +24261,7 @@ setResultType
 MIRType
 :
 :
-String
+Int32
 )
 ;
 setMovable
