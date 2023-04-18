@@ -216,6 +216,7 @@ logger
 command_queue
 result_queue
 executor
+recording
 )
 :
         
@@ -258,6 +259,12 @@ self
 logger
 =
 logger
+        
+self
+.
+recording
+=
+recording
     
 def
 __enter__
@@ -722,6 +729,7 @@ executor_browser_kwargs
                  
 capture_stdio
 stop_flag
+recording
 )
 :
     
@@ -883,6 +891,7 @@ logger
 runner_command_queue
 runner_result_queue
 executor
+recording
 )
 as
 runner
@@ -3547,6 +3556,10 @@ capture_stdio
 self
 .
 child_stop_flag
+                
+self
+.
+recording
 )
         
 mp
