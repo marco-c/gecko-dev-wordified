@@ -563,7 +563,7 @@ GPU
 process
 asynchronously
 .
-void
+bool
 LaunchGPUProcess
 (
 )
