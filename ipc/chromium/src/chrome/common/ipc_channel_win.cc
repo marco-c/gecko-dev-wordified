@@ -3249,9 +3249,6 @@ more
 data
 .
 }
-return
-true
-;
 }
 bool
 Channel

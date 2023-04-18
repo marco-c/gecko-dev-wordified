@@ -2894,6 +2894,11 @@ isBlankPassword
 )
 ;
 #
+else
+return
+NS_OK
+;
+#
 endif
 /
 /
@@ -2905,9 +2910,6 @@ for
 this
 platform
 .
-return
-NS_OK
-;
 }
 static
 void

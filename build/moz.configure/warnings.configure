@@ -555,9 +555,6 @@ code
 -
 return
 "
-when
-=
-not_clang_cl
 )
 #
 catches

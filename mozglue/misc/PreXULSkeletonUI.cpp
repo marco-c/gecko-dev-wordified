@@ -10001,9 +10001,6 @@ return
 ;
 }
 }
-return
-0
-;
 }
 LRESULT
 WINAPI
