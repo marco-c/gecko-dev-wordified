@@ -3133,14 +3133,6 @@ nativeMessaging
 ]
 }
 }
-"
-somethingelse
-tests
-.
-mozilla
-.
-org
-"
 )
 ;
 await
