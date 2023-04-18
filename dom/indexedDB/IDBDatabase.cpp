@@ -369,7 +369,9 @@ mozilla
 /
 dom
 /
-QMResultInlines
+quota
+/
+QuotaManager
 .
 h
 "
@@ -382,7 +384,7 @@ dom
 /
 quota
 /
-QuotaManager
+ResultExtensions
 .
 h
 "
