@@ -198,6 +198,14 @@ Focus
 Handling
 "
 )
+if
+CONFIG
+[
+"
+COMPILE_ENVIRONMENT
+"
+]
+:
 DIRS
 +
 =
