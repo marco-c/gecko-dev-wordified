@@ -3179,7 +3179,13 @@ parser
 .
 *
 /
+mozilla
+:
+:
+Atomic
+<
 uint32_t
+>
 mSpeculationFailureCount
 ;
 /
