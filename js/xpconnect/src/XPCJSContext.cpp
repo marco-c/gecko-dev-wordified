@@ -7349,6 +7349,10 @@ static
 void
 DispatchOffThreadTask
 (
+JS
+:
+:
+DispatchReason
 )
 {
 TaskController

@@ -2510,6 +2510,11 @@ consumerWakeup
 void
 dispatch
 (
+JS
+:
+:
+DispatchReason
+reason
 const
 AutoLockHelperThreadState
 &
