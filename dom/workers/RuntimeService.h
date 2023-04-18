@@ -377,7 +377,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -391,6 +390,10 @@ nsCStringHashKey
 WorkerDomainInfo
 >
 mDomainMap
+GUARDED_BY
+(
+mMutex
+)
 ;
 /
 /
@@ -403,6 +406,10 @@ nsTArray
 IdleThreadInfo
 >
 mIdleThreadArray
+GUARDED_BY
+(
+mMutex
+)
 ;
 /
 /
@@ -879,6 +886,10 @@ WorkerPrivate
 >
 &
 aWorkers
+)
+REQUIRES
+(
+mMutex
 )
 ;
 nsTArray
