@@ -828,9 +828,11 @@ if
 !
 block
 )
+{
 return
 false
 ;
+}
 if
 (
 block
@@ -848,9 +850,11 @@ FirstChild
 (
 )
 )
+{
 return
 true
 ;
+}
 for
 (
 const
@@ -2302,6 +2306,7 @@ if
 (
 cm
 )
+{
 *
 cm
 =
@@ -2310,6 +2315,7 @@ cm
 0
 '
 ;
+}
 bool
 found
 =
@@ -2419,8 +2425,10 @@ if
 !
 cm
 )
+{
 break
 ;
+}
 *
 cm
 =
@@ -2700,11 +2708,13 @@ if
 !
 aChildIsBlock
 )
+{
 index
 |
 =
 1
 ;
+}
 /
 /
 Compute
@@ -5169,6 +5179,7 @@ firstInFlow
 =
 this
 )
+{
 return
 firstInFlow
 -
@@ -5178,6 +5189,7 @@ GetMinISize
 aRenderingContext
 )
 ;
+}
 DISPLAY_MIN_INLINE_SIZE
 (
 this
@@ -5716,6 +5728,7 @@ firstInFlow
 =
 this
 )
+{
 return
 firstInFlow
 -
@@ -5725,6 +5738,7 @@ GetPrefISize
 aRenderingContext
 )
 ;
+}
 DISPLAY_PREF_INLINE_SIZE
 (
 this
@@ -9079,6 +9093,7 @@ if
 (
 needFloatManager
 )
+{
 autoFloatManager
 .
 CreateFloatManager
@@ -9086,6 +9101,7 @@ CreateFloatManager
 aPresContext
 )
 ;
+}
 /
 /
 OK
@@ -12202,10 +12218,12 @@ if
 !
 numLines
 )
+{
 numLines
 =
 1
 ;
+}
 PRTime
 delta
 perLineDelta
@@ -18125,8 +18143,10 @@ HasAnyFloats
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Check
@@ -19420,6 +19440,7 @@ if
 (
 selfDirty
 )
+{
 line
 -
 >
@@ -19427,6 +19448,7 @@ MarkDirty
 (
 )
 ;
+}
 /
 /
 This
@@ -21983,6 +22005,7 @@ deltaBCoord
 =
 0
 )
+{
 SlideLine
 (
 aState
@@ -21990,11 +22013,14 @@ line
 deltaBCoord
 )
 ;
+}
 else
+{
 repositionViews
 =
 true
 ;
+}
 NS_ASSERTION
 (
 !
@@ -22773,6 +22799,7 @@ if
 (
 repositionViews
 )
+{
 nsContainerFrame
 :
 :
@@ -22781,6 +22808,7 @@ PlaceFrameView
 this
 )
 ;
+}
 /
 /
 We
@@ -24894,6 +24922,7 @@ aLine
 =
 aLineEnd
 )
+{
 aLine
 -
 >
@@ -24901,6 +24930,7 @@ MarkPreviousMarginDirty
 (
 )
 ;
+}
 }
 }
 /
@@ -33068,6 +33098,7 @@ HasFloats
 (
 )
 )
+{
 aLine
 -
 >
@@ -33076,6 +33107,7 @@ SetLineIsImpactedByFloat
 true
 )
 ;
+}
 #
 ifdef
 REALLY_NOISY_REFLOW
@@ -36436,9 +36468,11 @@ if
 !
 aFC
 )
+{
 return
 true
 ;
+}
 NS_ASSERTION
 (
 !
@@ -36542,6 +36576,7 @@ GetParent
 =
 aBlock
 )
+{
 return
 aLine
 -
@@ -36551,6 +36586,7 @@ Contains
 f
 )
 ;
+}
 }
 NS_ASSERTION
 (
@@ -42573,9 +42609,11 @@ if
 (
 result
 )
+{
 return
 result
 ;
+}
 result
 =
 new
@@ -46142,8 +46180,10 @@ if
 (
 child
 )
+{
 break
 ;
+}
 block
 =
 block
@@ -46164,9 +46204,11 @@ if
 !
 child
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -46245,8 +46287,10 @@ if
 !
 child
 )
+{
 return
 ;
+}
 LineIterator
 line_end
 =
@@ -46720,8 +46764,10 @@ FindValidLine
 (
 )
 )
+{
 return
 ;
+}
 do
 {
 if
@@ -46935,9 +46981,11 @@ if
 !
 mFrame
 )
+{
 return
 false
 ;
+}
 nsBlockFrame
 :
 :
@@ -47035,9 +47083,11 @@ mLine
 =
 end
 )
+{
 return
 true
 ;
+}
 bool
 currentlyInOverflowLines
 =
@@ -47076,9 +47126,11 @@ if
 !
 mFrame
 )
+{
 return
 false
 ;
+}
 mLineList
 =
 &
@@ -47108,9 +47160,11 @@ end
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 else
 {
@@ -50687,12 +50741,14 @@ IsIncomplete
 (
 )
 )
+{
 aReflowStatus
 .
 Reset
 (
 )
 ;
+}
 }
 /
 /
@@ -51989,6 +52045,7 @@ GetNextInFlow
 (
 )
 )
+{
 stop
 =
 f
@@ -51998,6 +52055,7 @@ GetNextInFlow
 (
 )
 ;
+}
 }
 /
 /
@@ -54512,10 +54570,12 @@ if
 !
 numLines
 )
+{
 numLines
 =
 1
 ;
+}
 PRTime
 lines
 deltaPerLine
@@ -57569,8 +57629,10 @@ if
 !
 aCollectSiblings
 )
+{
 break
 ;
+}
 aFrame
 =
 aFrame
