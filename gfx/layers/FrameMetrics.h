@@ -2314,7 +2314,7 @@ void
 SetScrollGeneration
 (
 const
-ScrollGeneration
+MainThreadScrollGeneration
 &
 aScrollGeneration
 )
@@ -2324,7 +2324,7 @@ mScrollGeneration
 aScrollGeneration
 ;
 }
-ScrollGeneration
+MainThreadScrollGeneration
 GetScrollGeneration
 (
 )
@@ -4230,7 +4230,7 @@ scroll
 offset
 update
 .
-ScrollGeneration
+MainThreadScrollGeneration
 mScrollGeneration
 ;
 /

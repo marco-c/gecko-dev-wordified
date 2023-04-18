@@ -199,6 +199,8 @@ CompositionPayload
 &
 &
 aPayload
+APZScrollGeneration
+aGeneration
 )
 :
 mLayoutViewport
@@ -234,6 +236,10 @@ move
 (
 aPayload
 )
+)
+mGeneration
+(
+aGeneration
 )
 {
 RemoveFractionalAsyncDelta

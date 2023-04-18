@@ -518,7 +518,7 @@ aOther
 )
 const
 ;
-ScrollGeneration
+MainThreadScrollGeneration
 GetGeneration
 (
 )
@@ -658,7 +658,7 @@ aUpdate
 ;
 private
 :
-ScrollGeneration
+MainThreadScrollGeneration
 mScrollGeneration
 ;
 /

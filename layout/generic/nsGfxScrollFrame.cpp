@@ -52070,9 +52070,13 @@ ScrollFrameHelper
 ResetScrollInfoIfNeeded
 (
 const
-ScrollGeneration
+MainThreadScrollGeneration
 &
 aGeneration
+const
+APZScrollGeneration
+&
+aGenerationOnApz
 APZScrollAnimationType
 aAPZScrollAnimationType
 )
@@ -52097,6 +52101,10 @@ mApzAnimationRequested
 false
 ;
 }
+mScrollGenerationOnApz
+=
+aGenerationOnApz
+;
 /
 /
 We

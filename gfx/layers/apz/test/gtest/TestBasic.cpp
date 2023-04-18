@@ -135,6 +135,10 @@ InputUtils
 .
 h
 "
+static
+ScrollGenerationCounter
+sGenerationCounter
+;
 TEST_F
 (
 APZCBasicTester
@@ -1834,10 +1838,9 @@ GetMetrics
 .
 SetScrollGeneration
 (
-ScrollGeneration
-:
-:
-New
+sGenerationCounter
+.
+NewMainThreadGeneration
 (
 )
 )

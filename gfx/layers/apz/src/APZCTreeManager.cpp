@@ -2249,6 +2249,12 @@ move
 aHitTester
 )
 )
+mScrollGenerationLock
+(
+"
+APZScrollGenerationLock
+"
+)
 {
 RefPtr
 <

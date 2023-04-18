@@ -227,6 +227,17 @@ mScrollGeneration
 <
 <
 "
+scrollGenerationOnApz
+=
+"
+<
+<
+aRequest
+.
+mScrollGenerationOnApz
+<
+<
+"
 dpMargins
 =
 "
