@@ -1874,7 +1874,7 @@ aff
 type
 :
 "
-statictheme
+theme
 "
 manifestProps
 :
@@ -1905,7 +1905,7 @@ tab_background_text
 type
 :
 "
-langpack
+locale
 "
 manifestProps
 :
@@ -2059,6 +2059,7 @@ checkAddon
 id
 addon
 {
+type
 creator
 homepageURL
 }
