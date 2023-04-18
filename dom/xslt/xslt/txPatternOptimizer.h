@@ -150,7 +150,7 @@ pattern
 .
 *
 /
-nsresult
+void
 optimize
 (
 txPattern
@@ -172,7 +172,7 @@ for
 optimizing
 specific
 classes
-nsresult
+void
 optimizeStep
 (
 txPattern
