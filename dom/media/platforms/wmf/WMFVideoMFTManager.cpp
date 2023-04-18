@@ -139,12 +139,17 @@ include
 algorithm
 >
 #
+ifdef
+MOZ_AV1
+#
 include
 "
 AOMDecoder
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2015,6 +2020,9 @@ or
 }
 break
 ;
+#
+ifdef
+MOZ_AV1
 case
 WMFStreamType
 :
@@ -2110,6 +2118,8 @@ profile
 }
 break
 ;
+#
+endif
 default
 :
 break
