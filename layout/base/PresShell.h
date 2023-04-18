@@ -1988,6 +1988,11 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+void
+RefreshZoomConstraintsForScreenSizeChange
+(
+)
+;
 private
 :
 /
