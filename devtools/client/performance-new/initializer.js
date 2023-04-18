@@ -1175,6 +1175,7 @@ profile
 const
 onProfileReceived
 =
+async
 profile
 =
 >
@@ -1222,6 +1223,7 @@ perfFront
 const
 browser
 =
+await
 openProfilerTab
 (
 profilerViewMode

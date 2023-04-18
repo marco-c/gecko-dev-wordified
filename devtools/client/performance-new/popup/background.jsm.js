@@ -2388,6 +2388,7 @@ BrowserModule
 const
 browser
 =
+await
 openProfilerTab
 (
 profilerViewMode
