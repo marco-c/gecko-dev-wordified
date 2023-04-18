@@ -2193,6 +2193,11 @@ spotlight
 content
 :
 {
+id
+:
+"
+control
+"
 template
 :
 "
