@@ -2103,6 +2103,9 @@ gl
 :
 :
 GLuint
+swizzle
+:
+Swizzle
 uv_rect
 :
 TexelRect
@@ -2120,6 +2123,9 @@ u32
 target
 :
 ImageBufferKind
+swizzle
+:
+Swizzle
 uv_rect
 :
 TexelRect
@@ -2137,6 +2143,7 @@ get_gl_target
 (
 target
 )
+swizzle
 uv_rect
 }
 }
