@@ -149,6 +149,15 @@ include
 "
 mozilla
 /
+HTMLEditHelpers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ManualNAC
 .
 h
