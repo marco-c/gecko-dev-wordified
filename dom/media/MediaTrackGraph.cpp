@@ -5913,8 +5913,6 @@ track
 AsAudioProcessingTrack
 (
 )
-;
-t
 )
 {
 t
