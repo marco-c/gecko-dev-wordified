@@ -292,9 +292,6 @@ utm_term
 "
 rtamo
 "
-totalNumberOfScreens
-:
-1
 order
 :
 0
@@ -333,6 +330,9 @@ amo
 subtitle
 "
 }
+has_noodles
+:
+true
 subtitle
 :
 {
@@ -371,7 +371,7 @@ caption
 "
 }
 }
-hideLogo
+hide_logo
 :
 true
 background_url
