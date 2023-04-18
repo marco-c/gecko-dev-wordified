@@ -405,6 +405,13 @@ wl_surface
 *
 moz_container_wayland_get_surface_locked
 (
+const
+mozilla
+:
+:
+MutexAutoLock
+&
+aProofOfLock
 MozContainer
 *
 container
