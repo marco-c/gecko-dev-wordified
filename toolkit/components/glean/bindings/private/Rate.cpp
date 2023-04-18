@@ -214,6 +214,12 @@ mId
 if
 (
 scalarId
+&
+&
+aAmount
+>
+=
+0
 )
 {
 Telemetry
@@ -264,6 +270,12 @@ mId
 if
 (
 scalarId
+&
+&
+aAmount
+>
+=
+0
 )
 {
 Telemetry
