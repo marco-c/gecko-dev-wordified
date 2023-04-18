@@ -1893,6 +1893,8 @@ WebRtcCallWrapper
 (
 )
 {
+/
+*
 if
 (
 mCall
@@ -1982,6 +1984,8 @@ nullptr
 )
 ;
 }
+*
+/
 }
 bool
 UnsetRemoteSSRC
@@ -2115,6 +2119,8 @@ mTimestampMaker
 aTimestampMaker
 )
 {
+/
+*
 auto
 voice_engine
 =
@@ -2283,6 +2289,8 @@ config
 )
 )
 ;
+*
+/
 }
 explicit
 WebRtcCallWrapper
@@ -2336,7 +2344,7 @@ mFakeAudioDeviceModule
 webrtc
 :
 :
-RtcEventLogNullImpl
+RtcEventLogNull
 mEventLog
 ;
 /
