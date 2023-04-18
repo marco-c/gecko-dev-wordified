@@ -10333,7 +10333,7 @@ case
 HTMLEditUtils
 :
 :
-kCarridgeReturn
+kCarriageReturn
 :
 case
 HTMLEditUtils
@@ -11206,7 +11206,7 @@ case
 HTMLEditUtils
 :
 :
-kCarridgeReturn
+kCarriageReturn
 :
 case
 HTMLEditUtils
