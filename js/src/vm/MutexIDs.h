@@ -209,12 +209,6 @@ ShellObjectMailbox
 \
 _
 (
-AtomsTable
-200
-)
-\
-_
-(
 WasmInitBuiltinThunks
 250
 )
