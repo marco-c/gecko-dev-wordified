@@ -132,14 +132,18 @@ h
 #
 include
 "
-nsGenericHTMLElement
+mozilla
+/
+dom
+/
+ConstraintValidation
 .
 h
 "
 #
 include
 "
-nsIConstraintValidation
+nsGenericHTMLElement
 .
 h
 "
@@ -542,7 +546,7 @@ final
 public
 nsGenericHTMLFormControlElementWithState
 public
-nsIConstraintValidation
+ConstraintValidation
 {
 public
 :
@@ -668,7 +672,7 @@ NO_RESELECT
 }
 ;
 using
-nsIConstraintValidation
+ConstraintValidation
 :
 :
 GetValidationMessage
@@ -1996,7 +2000,7 @@ mOptions
 }
 /
 /
-nsIConstraintValidation
+ConstraintValidation
 nsresult
 GetValidationMessage
 (
