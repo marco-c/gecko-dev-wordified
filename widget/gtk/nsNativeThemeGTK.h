@@ -590,16 +590,6 @@ StyleAppearance
 )
 override
 ;
-ScrollbarSizes
-GetScrollbarSizes
-(
-nsPresContext
-*
-StyleScrollbarWidth
-Overlay
-)
-override
-;
 nsNativeThemeGTK
 (
 )
