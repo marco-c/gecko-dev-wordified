@@ -540,12 +540,6 @@ nsID
 >
 mClientId
 ;
-Maybe
-<
-PrincipalInfo
->
-mClientPrincipalInfo
-;
 nsCString
 mOrigin
 ;
