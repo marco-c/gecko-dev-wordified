@@ -1497,14 +1497,6 @@ permChanged
 )
 ;
 }
-if
-(
-choice
-!
-=
-BLOCK
-)
-{
 let
 permissionPopupPromise
 =
@@ -1674,7 +1666,6 @@ hidePopup
 await
 permissionPopupPromise
 ;
-}
 BrowserTestUtils
 .
 removeTab
