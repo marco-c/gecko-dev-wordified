@@ -1537,6 +1537,14 @@ hasBlockedData
 |
 |
 false
+openDownloadsListOnStart
+:
+item
+.
+openDownloadsListOnStart
+?
+?
+true
 contentType
 :
 item
