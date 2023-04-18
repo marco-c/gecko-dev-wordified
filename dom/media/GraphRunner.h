@@ -464,7 +464,6 @@ GraphDriver
 .
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -524,6 +523,10 @@ Maybe
 IterationState
 >
 mIterationState
+GUARDED_BY
+(
+mMonitor
+)
 ;
 /
 /
@@ -540,6 +543,10 @@ mMonitor
 .
 IterationResult
 mIterationResult
+GUARDED_BY
+(
+mMonitor
+)
 ;
 enum
 class
@@ -639,6 +646,10 @@ modified
 .
 ThreadState
 mThreadState
+GUARDED_BY
+(
+mMonitor
+)
 ;
 /
 /
