@@ -1754,7 +1754,7 @@ get_box
 )
 ;
 let
-keyframes_could_have_changed
+keyframes_or_timeline_could_have_changed
 =
 context
 .
@@ -1833,6 +1833,10 @@ should
 check
 which
 keyframes
+/
+scroll
+-
+timeline
 were
 added
 /
@@ -1849,9 +1853,13 @@ corresponding
 to
 those
 keyframes
+/
+scroll
+-
+timeline
 .
 if
-keyframes_could_have_changed
+keyframes_or_timeline_could_have_changed
 {
 return
 true
