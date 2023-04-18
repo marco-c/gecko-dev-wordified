@@ -164,9 +164,6 @@ AppShutdownConfirmed
 /
 for
 iteration
-Last
-=
-XPCOMShutdownFinal
 }
 ;
 }
