@@ -3607,6 +3607,12 @@ ImmutableFlags
 NeedsHomeObject
 )
 ;
+flags_
+.
+setIsExtended
+(
+)
+;
 }
 bool
 isDerivedClassConstructor
