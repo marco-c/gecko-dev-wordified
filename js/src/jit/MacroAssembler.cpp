@@ -26803,7 +26803,7 @@ scratch
 Label
 nonNull
 ;
-branchTest32
+branchTestPtr
 (
 Assembler
 :
