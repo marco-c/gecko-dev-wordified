@@ -6107,12 +6107,10 @@ const
 return
 aSender
 .
-GetPcHandle
+IsMyPc
 (
+this
 )
-=
-=
-mHandle
 ;
 }
 nsresult
@@ -23312,9 +23310,7 @@ mWindow
 PrivacyNeeded
 (
 )
-GetHandle
-(
-)
+this
 mTransportHandler
 aJsepTransceiver
 mSTSThread
