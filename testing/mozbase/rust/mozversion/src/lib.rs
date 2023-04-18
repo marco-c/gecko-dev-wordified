@@ -2100,7 +2100,6 @@ into
 ;
 parse_binary_version
 (
-&
 output_str
 )
 }

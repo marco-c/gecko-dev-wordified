@@ -999,7 +999,6 @@ to_mut
 .
 push_str
 (
-&
 data
 )
 }
@@ -1014,7 +1013,6 @@ Cow
 :
 Borrowed
 (
-&
 data
 )
 }
@@ -1971,7 +1969,6 @@ token_data
 .
 add_slice_to_token
 (
-&
 self
 .
 data
@@ -1983,7 +1980,6 @@ token_data
 .
 push_char
 (
-&
 self
 escape_char
 )
@@ -2909,7 +2905,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3017,7 +3012,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3050,7 +3044,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3119,7 +3112,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -3176,7 +3168,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -3256,7 +3247,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3289,7 +3279,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3322,7 +3311,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3397,7 +3385,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -3458,7 +3445,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3470,7 +3456,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -3544,7 +3529,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3556,7 +3540,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -3620,7 +3603,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3654,7 +3636,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3722,7 +3703,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -3783,7 +3763,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -3889,7 +3868,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -4012,7 +3990,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -4061,7 +4038,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -4162,7 +4138,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -4194,7 +4169,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -4260,7 +4234,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -4308,7 +4281,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -4320,7 +4292,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -4359,7 +4330,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -4371,7 +4341,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -4446,7 +4415,6 @@ token_data
 .
 start
 (
-&
 self
 TokenType
 :
@@ -4458,7 +4426,6 @@ token_data
 .
 end
 (
-&
 self
 .
 data
@@ -6385,7 +6352,6 @@ a
 .
 cmp
 (
-&
 b
 .
 0
