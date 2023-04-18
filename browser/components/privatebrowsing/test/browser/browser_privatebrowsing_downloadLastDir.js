@@ -645,9 +645,11 @@ promptForSaveToFileAsync
 (
 launcher
 aWin
-null
-null
-null
+"
+"
+"
+"
+false
 )
 ;
 }

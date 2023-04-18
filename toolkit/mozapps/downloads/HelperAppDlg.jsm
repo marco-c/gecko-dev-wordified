@@ -1887,6 +1887,11 @@ preferredDir
 ;
 try
 {
+if
+(
+aDefaultFileName
+)
+{
 result
 =
 this
@@ -1898,6 +1903,7 @@ aDefaultFileName
 aSuggestedFileExtension
 )
 ;
+}
 }
 catch
 (
