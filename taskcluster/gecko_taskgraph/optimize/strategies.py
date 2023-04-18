@@ -78,6 +78,14 @@ util
 import
 memoize
 from
+taskgraph
+.
+util
+.
+taskcluster
+import
+find_task_id
+from
 gecko_taskgraph
 import
 files_changed
@@ -95,7 +103,6 @@ util
 .
 taskcluster
 import
-find_task_id
 status_task
 logger
 =
