@@ -11404,6 +11404,17 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+void
+nsBaseWidget
+:
+:
+SetResizeMargin
+(
+LayoutDeviceIntCoord
+aResizeMargin
+)
+{
+}
 uint32_t
 nsBaseWidget
 :

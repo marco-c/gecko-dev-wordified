@@ -331,6 +331,11 @@ TOGGLE_POSITION_LEFT
 left
 "
 ;
+const
+RESIZE_MARGIN_PX
+=
+16
+;
 /
 *
 *
@@ -2373,6 +2378,15 @@ PLAYER_URI
 null
 features
 null
+)
+;
+pipWindow
+.
+windowUtils
+.
+setResizeMargin
+(
+RESIZE_MARGIN_PX
 )
 ;
 if

@@ -1649,6 +1649,17 @@ aEnable
 )
 override
 ;
+void
+SetResizeMargin
+(
+mozilla
+:
+:
+LayoutDeviceIntCoord
+aResizeMargin
+)
+override
+;
 [
 [
 nodiscard
