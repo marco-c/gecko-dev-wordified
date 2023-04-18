@@ -6066,8 +6066,6 @@ nsIURI
 uri
 nsIPrincipal
 triggeringPrincipal
-nsIPrincipal
-redirectPrincipal
 MaybeDiscardedBrowsingContext
 browsingContext
 bool
