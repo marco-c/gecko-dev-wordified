@@ -8187,6 +8187,12 @@ mOverflowClipBoxInline
 mozilla
 :
 :
+StyleScrollbarGutter
+mScrollbarGutter
+;
+mozilla
+:
+:
 StyleResize
 mResize
 ;

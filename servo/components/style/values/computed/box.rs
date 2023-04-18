@@ -200,6 +200,7 @@ ScrollSnapAlign
 ScrollSnapAxis
 ScrollSnapStrictness
 ScrollSnapType
+ScrollbarGutter
 TouchAction
 TransitionProperty
 WillChange
