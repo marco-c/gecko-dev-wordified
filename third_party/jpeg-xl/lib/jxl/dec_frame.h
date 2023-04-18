@@ -1806,7 +1806,7 @@ AllocateOutput
 (
 )
 ;
-void
+Status
 PreparePipeline
 (
 )

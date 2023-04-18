@@ -887,7 +887,7 @@ visible
 hwy
 :
 :
-StoreFence
+FlushStream
 (
 )
 ;
@@ -3224,7 +3224,7 @@ max_packets_
 hwy
 :
 :
-StoreFence
+FlushStream
 (
 )
 ;
@@ -3263,7 +3263,7 @@ Dummy
 hwy
 :
 :
-StoreFence
+FlushStream
 (
 )
 ;

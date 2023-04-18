@@ -144,9 +144,6 @@ collisions
 undef
 LoadFence
 #
-undef
-StoreFence
-#
 endif
 #
 if

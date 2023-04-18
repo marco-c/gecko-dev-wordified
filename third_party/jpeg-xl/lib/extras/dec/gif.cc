@@ -1675,7 +1675,7 @@ frame
 >
 x0
 =
-image_rect
+total_rect
 .
 x0
 (
@@ -1686,7 +1686,7 @@ frame
 >
 y0
 =
-image_rect
+total_rect
 .
 y0
 (

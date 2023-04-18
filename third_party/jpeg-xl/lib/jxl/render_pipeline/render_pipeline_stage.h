@@ -428,6 +428,17 @@ default
 ;
 protected
 :
+virtual
+Status
+IsInitialized
+(
+)
+const
+{
+return
+true
+;
+}
 /
 /
 Processes
@@ -932,7 +943,7 @@ JXL_DASSERT
 offset
 <
 =
-1
+1ul
 <
 <
 settings_
@@ -952,7 +963,6 @@ offset
 kRenderPipelineXOffset
 ;
 }
-const
 Settings
 settings_
 ;

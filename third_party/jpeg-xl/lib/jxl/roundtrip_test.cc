@@ -775,6 +775,13 @@ Main
 (
 )
 float_in
+/
+*
+align
+=
+*
+/
+0
 )
 )
 ;
@@ -1790,6 +1797,13 @@ data_type
 =
 =
 JXL_TYPE_FLOAT
+/
+*
+align
+=
+*
+/
+0
 )
 true
 )

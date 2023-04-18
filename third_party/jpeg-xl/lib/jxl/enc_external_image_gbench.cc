@@ -258,6 +258,13 @@ float_in
 *
 /
 false
+/
+*
+align
+=
+*
+/
+0
 )
 )
 ;
