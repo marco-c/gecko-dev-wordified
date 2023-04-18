@@ -3797,7 +3797,7 @@ globalDataOffset_
 offsetof
 (
 TableInstanceData
-elements
+functionBase
 )
 ;
 }
