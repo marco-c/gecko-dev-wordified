@@ -6223,10 +6223,9 @@ assert
 (
 iter
 .
-find
+any
 (
 |
-&
 arg
 |
 arg
@@ -6246,10 +6245,6 @@ port
 to_owned
 (
 )
-)
-.
-is_some
-(
 )
 )
 ;
@@ -6539,10 +6534,9 @@ assert
 (
 iter
 .
-find
+any
 (
 |
-&
 arg
 |
 arg
@@ -6562,10 +6556,6 @@ port
 to_owned
 (
 )
-)
-.
-is_some
-(
 )
 )
 ;
@@ -8527,10 +8517,6 @@ into
 (
 )
 env
-.
-into
-(
-)
 )
 ;
 make_options
