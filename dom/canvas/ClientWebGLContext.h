@@ -2600,6 +2600,11 @@ mCanBeAvailable
 false
 ;
 bool
+mHasWarnedNotAvailable
+=
+false
+;
+bool
 mSignaled
 =
 false
