@@ -23157,13 +23157,11 @@ CacheDomain
 :
 :
 DOMNodeID
-)
-{
-MOZ_ASSERT
-(
+&
+&
 mContent
 )
-;
+{
 nsAtom
 *
 id
