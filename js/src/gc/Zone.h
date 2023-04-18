@@ -3114,6 +3114,14 @@ prepareForCompacting
 )
 ;
 void
+traceRootsInMajorGC
+(
+JSTracer
+*
+trc
+)
+;
+void
 sweepAfterMinorGC
 (
 JSTracer

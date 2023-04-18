@@ -6962,7 +6962,6 @@ finalizationRegistryData
 trace
 (
 trc
-global
 )
 ;
 }
