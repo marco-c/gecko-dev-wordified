@@ -998,15 +998,6 @@ TextTrack
 aTextTrack
 )
 ;
-void
-ReportTelemetryForTrack
-(
-TextTrack
-*
-aTextTrack
-)
-const
-;
 bool
 IsShutdown
 (
