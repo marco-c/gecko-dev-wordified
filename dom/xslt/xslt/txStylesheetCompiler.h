@@ -495,7 +495,7 @@ popObject
 (
 )
 ;
-nsresult
+void
 pushPtr
 (
 void
