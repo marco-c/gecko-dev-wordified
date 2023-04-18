@@ -169,7 +169,7 @@ threadsFilter
 GeckoMain
 "
 "
-BackgroundThreadPool
+BgIOThreadPool
 "
 ]
 filename
@@ -249,7 +249,7 @@ name
 startsWith
 (
 "
-BackgroundThreadPool
+BgIOThreadPool
 "
 )
 )
