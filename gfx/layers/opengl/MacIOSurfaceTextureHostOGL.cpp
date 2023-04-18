@@ -1502,7 +1502,7 @@ preferCompositorSurface
 aSupportsExternalCompositing
 *
 /
-true
+false
 )
 ;
 break
