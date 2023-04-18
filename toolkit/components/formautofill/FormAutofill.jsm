@@ -671,8 +671,9 @@ prefs
 getCharPref
 (
 BROWSER_SEARCH_REGION_PREF
-"
-"
+this
+.
+DEFAULT_REGION
 )
 ;
 return
