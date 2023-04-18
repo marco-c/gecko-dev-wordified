@@ -2384,6 +2384,12 @@ nsIWebProgress
 NOTIFY_STATE_WINDOW
 )
 ;
+browser
+.
+mute
+(
+)
+;
 /
 /
 an
