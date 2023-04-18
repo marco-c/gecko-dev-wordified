@@ -208,6 +208,9 @@ extension
 "
 theme
 "
+"
+sitepermission
+"
 ]
 ;
 XPCOMUtils
