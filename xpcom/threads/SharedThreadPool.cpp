@@ -602,6 +602,13 @@ NS_IsMainThread
 ;
 SpinEventLoopUntil
 (
+"
+SharedThreadPool
+:
+:
+SpinUntilEmpty
+"
+_ns
 [
 ]
 (
