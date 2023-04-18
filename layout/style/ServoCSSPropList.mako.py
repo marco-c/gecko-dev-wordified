@@ -651,31 +651,8 @@ shorthand
 "
 :
         
-#
-FIXME
-:
-Need
-to
-figure
-out
-what
-to
-do
-with
-relative
-mask
-urls
-.
-        
 return
-prop
-.
-name
-!
-=
-"
-mask
-"
+True
     
 #
 Keywords
