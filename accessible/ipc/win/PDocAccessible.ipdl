@@ -752,6 +752,13 @@ RestoreFocus
 (
 )
 ;
+async
+TakeFocus
+(
+uint64_t
+aID
+)
+;
 /
 *
 *

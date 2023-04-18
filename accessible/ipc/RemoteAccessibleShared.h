@@ -1280,11 +1280,6 @@ double
 aValue
 )
 ;
-void
-TakeFocus
-(
-)
-;
 RemoteAccessible
 *
 FocusedChild
