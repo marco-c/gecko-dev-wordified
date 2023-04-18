@@ -36410,6 +36410,8 @@ policy
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36421,6 +36423,8 @@ provider
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36430,6 +36434,8 @@ shell
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36439,6 +36445,8 @@ slowStartup
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36448,6 +36456,8 @@ startup
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36459,6 +36469,8 @@ cache
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36470,6 +36482,8 @@ manager
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
@@ -36481,6 +36495,8 @@ gmpopenh264
 .
 "
 )
+/
+/
 PREF_LIST_ENTRY
 (
 "
