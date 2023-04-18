@@ -1718,6 +1718,11 @@ networkRequest
 (
 url
 {
+sourceMapBaseURL
+:
+map
+.
+sourceMapBaseURL
 loadFromCache
 :
 false
