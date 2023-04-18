@@ -10899,8 +10899,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsAutoCString
-currentDictionary
+nsTArray
+<
+nsCString
+>
+currentDictionaries
 ;
 nsresult
 rv
@@ -10908,9 +10911,9 @@ rv
 mSpellCheck
 -
 >
-GetCurrentDictionary
+GetCurrentDictionaries
 (
-currentDictionary
+currentDictionaries
 )
 ;
 if
