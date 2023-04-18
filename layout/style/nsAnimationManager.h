@@ -179,11 +179,11 @@ nsTHashSet
 .
 h
 "
-struct
-nsStyleDisplay
-;
 class
 ServoCSSAnimationBuilder
+;
+struct
+nsStyleUIReset
 ;
 namespace
 mozilla
@@ -670,9 +670,9 @@ NonOwningAnimationTarget
 &
 aTarget
 const
-nsStyleDisplay
+nsStyleUIReset
 &
-aStyleDisplay
+aStyle
 ServoCSSAnimationBuilder
 &
 aBuilder

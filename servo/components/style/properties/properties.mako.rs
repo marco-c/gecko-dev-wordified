@@ -20805,7 +20805,7 @@ name
 =
 =
 "
-Box
+UI
 "
 :
 /
@@ -21921,10 +21921,6 @@ self
 bool
 {
 self
-.
-get_box
-(
-)
 .
 clone_display
 (

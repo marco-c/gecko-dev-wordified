@@ -11095,11 +11095,11 @@ properties
 LonghandIdSet
 ;
 let
-after_change_box_style
+after_change_ui_style
 =
 after_change_style
 .
-get_box
+get_ui
 (
 )
 ;
@@ -11159,7 +11159,7 @@ self
 needs_transitions_update_per_property
 (
 physical_longhand
-after_change_box_style
+after_change_ui_style
 .
 transition_combined_duration_at
 (
