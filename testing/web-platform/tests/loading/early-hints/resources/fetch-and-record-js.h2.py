@@ -1,5 +1,7 @@
 import
 importlib
+import
+time
 utils
 =
 importlib
@@ -77,6 +79,23 @@ script
 *
 /
 "
+    
+#
+Sleep
+to
+simulate
+loading
+time
+.
+    
+time
+.
+sleep
+(
+0
+.
+05
+)
     
 return
 (
