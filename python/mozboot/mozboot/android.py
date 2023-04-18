@@ -2137,42 +2137,11 @@ avd
     
 )
     
-emulator_path
-=
-os
-.
-environ
-.
-get
-(
-        
-"
-ANDROID_EMULATOR_HOME
-"
-os
-.
-path
-.
-join
-(
-mozbuild_path
-"
-android
--
-device
-"
-)
-    
-)
-    
 return
-(
 mozbuild_path
 sdk_path
 ndk_path
 avd_home_path
-emulator_path
-)
 def
 sdkmanager_tool
 (
@@ -2620,7 +2589,6 @@ mozbuild_path
 sdk_path
 ndk_path
 avd_home_path
-emulator_path
 =
 get_paths
 (
@@ -2998,10 +2966,6 @@ avd_home_path
 sdk_path
 =
 sdk_path
-        
-emulator_path
-=
-emulator_path
         
 no_interactive
 =
@@ -3557,8 +3521,6 @@ emulator_tool
 avd_home_path
     
 sdk_path
-    
-emulator_path
     
 no_interactive
 =
@@ -4843,7 +4805,6 @@ moz_state_dir
 sdk_path
 ndk_path
 avd_home_path
-emulator_path
 =
 get_paths
 (
@@ -5877,7 +5838,6 @@ os_arch
 :
     
 mozbuild_path
-_
 _
 _
 _
