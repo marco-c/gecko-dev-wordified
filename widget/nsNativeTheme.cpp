@@ -606,7 +606,7 @@ AsElement
 )
 -
 >
-State
+StyleState
 (
 )
 ;
@@ -640,7 +640,7 @@ AsElement
 )
 -
 >
-State
+StyleState
 (
 )
 .
