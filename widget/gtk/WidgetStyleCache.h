@@ -388,7 +388,6 @@ GTK_STATE_FLAG_NORMAL
 void
 ResetWidgetCache
 (
-void
 )
 ;
 bool

@@ -1173,6 +1173,11 @@ ui
 .
 titlebarRadius
 "
+"
+ui
+.
+GtkMenuRadius
+"
 }
 ;
 static_assert
