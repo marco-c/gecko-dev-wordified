@@ -3073,10 +3073,10 @@ FuzzyEqual
 (
 scaleFactor
 .
-width
+height
 1
 .
-0
+0f
 fuzzFactor
 )
 )
