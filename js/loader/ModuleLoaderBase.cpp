@@ -3249,6 +3249,13 @@ aRequest
 -
 >
 mBaseURL
+aRequest
+-
+>
+mLoadContext
+-
+>
+mElement
 )
 ;
 aRequest
