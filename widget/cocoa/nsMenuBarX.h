@@ -649,6 +649,12 @@ RefPtr
 <
 nsIContent
 >
+mAccountItemContent
+;
+RefPtr
+<
+nsIContent
+>
 mQuitItemContent
 ;
 /
