@@ -1496,13 +1496,6 @@ switch
 .
 if
 (
-useDarkTheme
-&
-&
-!
-updateGlobalThemeData
-&
-&
 this
 .
 _win
@@ -1517,6 +1510,15 @@ _win
 browsingContext
 .
 top
+)
+{
+if
+(
+useDarkTheme
+&
+&
+!
+updateGlobalThemeData
 )
 {
 this
@@ -1546,6 +1548,7 @@ prefersColorSchemeOverride
 none
 "
 ;
+}
 }
 let
 theme
