@@ -132,6 +132,13 @@ h
 #
 include
 "
+EarlyHintsPreloader
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
@@ -191,6 +198,13 @@ h
 include
 "
 nsIChannelEventSink
+.
+h
+"
+#
+include
+"
+nsIEarlyHintObserver
 .
 h
 "
@@ -688,6 +702,8 @@ public
 nsIMultiPartChannelListener
 public
 nsIProgressEventSink
+public
+nsIEarlyHintObserver
 {
 public
 :
@@ -1451,6 +1467,7 @@ NS_DECL_NSIASYNCVERIFYREDIRECTREADYCALLBACK
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIMULTIPARTCHANNELLISTENER
 NS_DECL_NSIPROGRESSEVENTSINK
+NS_DECL_NSIEARLYHINTOBSERVER
 /
 /
 We
@@ -3958,6 +3975,9 @@ false
 const
 bool
 mIsDocumentLoad
+;
+EarlyHintsPreloader
+mEarlyHintsPreloader
 ;
 }
 ;
