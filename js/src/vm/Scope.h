@@ -9543,9 +9543,6 @@ firstFrameSlot
 ;
 explicit
 AbstractBindingIter
-<
-JSAtom
->
 (
 Scope
 *
@@ -9554,9 +9551,6 @@ scope
 ;
 explicit
 AbstractBindingIter
-<
-JSAtom
->
 (
 JSScript
 *

@@ -866,9 +866,6 @@ T
 ;
 explicit
 InlineForwardListIterator
-<
-T
->
 (
 const
 InlineForwardList
@@ -932,9 +929,6 @@ endif
 {
 }
 InlineForwardListIterator
-<
-T
->
 (
 const
 InlineForwardList
@@ -3567,9 +3561,6 @@ T
 ;
 explicit
 InlineSpaghettiStackIterator
-<
-T
->
 (
 const
 InlineSpaghettiStack
