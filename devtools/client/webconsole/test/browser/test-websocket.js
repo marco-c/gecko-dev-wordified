@@ -51,7 +51,7 @@ new
 WebSocket
 (
 "
-ws
+wss
 :
 /
 /
@@ -107,7 +107,7 @@ frames
 WebSocket
 (
 "
-ws
+wss
 :
 /
 /

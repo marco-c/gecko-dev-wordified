@@ -92,7 +92,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -108,7 +108,7 @@ const
 TRACKER_URL
 =
 "
-http
+https
 :
 /
 /
