@@ -1168,8 +1168,10 @@ affFileName
 ;
 mHunspell
 =
-new
 RLBoxHunspell
+:
+:
+Create
 (
 affFileName
 dictFileName
