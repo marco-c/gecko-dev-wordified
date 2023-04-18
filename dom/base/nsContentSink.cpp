@@ -3439,6 +3439,12 @@ Truncate
 (
 )
 ;
+titleStar
+.
+Truncate
+(
+)
+;
 type
 .
 Truncate
