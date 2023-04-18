@@ -148,10 +148,6 @@ browser
 "
             
 "
-extensions
-"
-            
-"
 js
 "
             
