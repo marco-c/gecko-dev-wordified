@@ -16241,6 +16241,13 @@ BooleanValue
 (
 gc
 .
+isIncrementalGCInProgress
+(
+)
+&
+&
+gc
+.
 isShrinkingGC
 (
 )

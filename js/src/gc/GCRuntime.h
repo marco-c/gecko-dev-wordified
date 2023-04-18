@@ -2623,14 +2623,11 @@ isShrinkingGC
 const
 {
 return
-maybeGcOptions
-=
-=
-mozilla
-:
-:
-Some
+gcOptions
 (
+)
+=
+=
 JS
 :
 :
@@ -2638,7 +2635,6 @@ GCOptions
 :
 :
 Shrink
-)
 ;
 }
 bool
