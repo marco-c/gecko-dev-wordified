@@ -4171,6 +4171,13 @@ unEscapeURIForUI
 uri
 .
 fileName
+/
+*
+dontEscape
+=
+*
+/
+true
 )
 )
 ;
