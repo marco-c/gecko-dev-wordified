@@ -5744,7 +5744,7 @@ stderr
 MinorGC
 :
 %
-6zu
+7zu
 %
 14p
 %
