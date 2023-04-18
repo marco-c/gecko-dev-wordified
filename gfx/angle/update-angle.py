@@ -1121,7 +1121,7 @@ run_checked
 (
     
 "
-py
+python3
 "
     
 "
