@@ -13974,21 +13974,13 @@ aReader
 "
 )
     
-actor
-=
-ExprVar
-(
-"
-aActor
-"
-)
-    
 classmethod
     
 def
 ifsideis
 (
 cls
+rdrwtr
 side
 then
 els
@@ -14043,27 +14035,36 @@ StmtIf
             
 ExprBinary
 (
+                
 cxxside
+                
 "
 =
 =
 "
-ExprCall
+                
+ExprCode
 (
-ExprSelect
-(
-cls
-.
-actor
 "
+{
+rdrwtr
+}
 -
 >
-"
-"
+GetActor
+(
+)
+-
+>
 GetSide
+(
+)
 "
+rdrwtr
+=
+rdrwtr
 )
-)
+            
 )
         
 )
@@ -14098,6 +14099,7 @@ def
 fatalError
 (
 cls
+rdrwtr
 reason
 )
 :
@@ -14107,7 +14109,9 @@ StmtCode
 (
             
 "
-aActor
+{
+rdrwtr
+}
 -
 >
 FatalError
@@ -14118,6 +14122,11 @@ reason
 )
 ;
 "
+            
+rdrwtr
+=
+rdrwtr
+            
 reason
 =
 ExprLiteral
@@ -14309,7 +14318,6 @@ write
 cls
 var
 writervar
-actor
 ipdltype
 =
 None
@@ -14338,14 +14346,16 @@ ExprCall
 ExprVar
 (
 "
-WriteIPDLParam
+IPC
+:
+:
+WriteParam
 "
 )
 args
 =
 [
 writervar
-actor
 var
 ]
 )
@@ -14360,7 +14370,6 @@ ipdltype
 var
 writervar
 sentinelKey
-actor
 )
 :
         
@@ -14453,7 +14462,6 @@ write
 (
 var
 writervar
-actor
 ipdltype
 )
 )
@@ -14753,6 +14761,9 @@ cls
 .
 fatalError
 (
+cls
+.
+readervar
 errmsg
 )
 StmtReturn
@@ -14824,8 +14835,6 @@ paramtype
 sentinelKey
         
 errfnSentinel
-        
-actor
     
 )
 :
@@ -14853,14 +14862,16 @@ ExprCall
 ExprVar
 (
 "
-ReadIPDLParam
+IPC
+:
+:
+ReadParam
 "
 )
 args
 =
 [
 readervar
-actor
 var
 ]
 )
@@ -15036,6 +15047,9 @@ cls
 .
 fatalError
 (
+cls
+.
+readervar
 msg
 )
 StmtReturn
@@ -15074,12 +15088,6 @@ errfnSentinel
 errfnSentinel
 (
 )
-            
-actor
-=
-cls
-.
-actor
         
 )
     
@@ -15099,7 +15107,7 @@ False
 :
         
 #
-IPDLParamTraits
+ParamTraits
 impls
 are
 selected
@@ -15115,7 +15123,7 @@ Class
 (
             
 "
-IPDLParamTraits
+ParamTraits
 "
             
 specializes
@@ -15167,24 +15175,6 @@ fortype
 paramType
 "
 )
-)
-        
-iprotocoltype
-=
-Type
-(
-"
-mozilla
-:
-:
-ipc
-:
-:
-IProtocol
-"
-ptr
-=
-True
 )
         
 #
@@ -15267,16 +15257,6 @@ True
 cls
 .
 writervar
-.
-name
-)
-                    
-Decl
-(
-iprotocoltype
-cls
-.
-actor
 .
 name
 )
@@ -15383,16 +15363,6 @@ name
                     
 Decl
 (
-iprotocoltype
-cls
-.
-actor
-.
-name
-)
-                    
-Decl
-(
 outtype
 cls
 .
@@ -15456,13 +15426,7 @@ namespaces
 Namespace
 (
 "
-mozilla
-"
-)
-Namespace
-(
-"
-ipc
+IPC
 "
 )
 ]
@@ -15549,6 +15513,30 @@ StmtCode
 "
 "
             
+MOZ_RELEASE_ASSERT
+(
+                
+{
+writervar
+}
+-
+>
+GetActor
+(
+)
+                
+"
+Cannot
+serialize
+managed
+actors
+without
+an
+actor
+"
+)
+;
+            
 int32_t
 id
 ;
@@ -15623,8 +15611,13 @@ MOZ_RELEASE_ASSERT
 (
                     
 {
-actor
+writervar
 }
+-
+>
+GetActor
+(
+)
 -
 >
 GetIPCChannel
@@ -15706,11 +15699,11 @@ cls
 .
 var
             
-actor
+writervar
 =
 cls
 .
-actor
+writervar
             
 write
 =
@@ -15727,9 +15720,6 @@ id
 cls
 .
 writervar
-cls
-.
-actor
 )
         
 )
@@ -15752,6 +15742,30 @@ StmtCode
 "
 "
             
+MOZ_RELEASE_ASSERT
+(
+                
+{
+readervar
+}
+-
+>
+GetActor
+(
+)
+                
+"
+Cannot
+deserialize
+managed
+actors
+without
+an
+actor
+"
+)
+;
+            
 mozilla
 :
 :
@@ -15770,8 +15784,13 @@ actor
 =
                 
 {
-actor
+readervar
 }
+-
+>
+GetActor
+(
+)
 -
 >
 ReadActor
@@ -15832,12 +15851,6 @@ true
 "
 "
 "
-            
-actor
-=
-cls
-.
-actor
             
 readervar
 =
@@ -15970,6 +15983,159 @@ read
 [
 ]
         
+#
+If
+any
+field
+is
+special
+make
+sure
+we
+have
+an
+actor
+        
+for
+f
+in
+sd
+.
+fields_ipdl_order
+(
+)
+:
+            
+if
+not
+f
+.
+special
+:
+                
+continue
+            
+noactorerror
+=
+(
+                
+"
+'
+%
+s
+'
+(
+%
+s
+)
+member
+of
+'
+%
+s
+'
+must
+be
+sent
+over
+an
+IPDL
+actor
+"
+                
+%
+(
+f
+.
+getMethod
+(
+)
+.
+name
+f
+.
+ipdltype
+.
+name
+(
+)
+structtype
+.
+name
+(
+)
+)
+            
+)
+            
+write
+.
+append
+(
+                
+_abortIfFalse
+(
+                    
+ExprCode
+(
+"
+{
+writervar
+}
+-
+>
+GetActor
+(
+)
+"
+writervar
+=
+cls
+.
+writervar
+)
+                    
+noactorerror
+                
+)
+            
+)
+            
+read
+.
+append
+(
+                
+_abortIfFalse
+(
+                    
+ExprCode
+(
+"
+{
+readervar
+}
+-
+>
+GetActor
+(
+)
+"
+readervar
+=
+cls
+.
+readervar
+)
+                    
+noactorerror
+                
+)
+            
+)
+            
+break
+        
 for
 (
 size
@@ -16047,12 +16213,6 @@ sentinelKey
 f
 .
 basename
-                        
-actor
-=
-cls
-.
-actor
                     
 )
                     
@@ -16170,6 +16330,9 @@ cls
 .
 ifsideis
 (
+cls
+.
+writervar
 f
 .
 side
@@ -16182,6 +16345,9 @@ cls
 .
 ifsideis
 (
+cls
+.
+readervar
 f
 .
 side
@@ -16410,13 +16576,10 @@ checkedWrite
 (
                 
 None
-                
 typevar
-                
 cls
 .
 writervar
-                
 sentinelKey
 =
 uniontype
@@ -16424,12 +16587,6 @@ uniontype
 name
 (
 )
-                
-actor
-=
-cls
-.
-actor
             
 )
             
@@ -16552,6 +16709,48 @@ enum
 (
 )
             
+if
+c
+.
+special
+:
+                
+noactorerror
+=
+(
+                    
+"
+variant
+'
+%
+s
+'
+of
+'
+%
+s
+'
+must
+be
+sent
+over
+an
+IPDL
+actor
+"
+                    
+%
+(
+origenum
+uniontype
+.
+name
+(
+)
+)
+                
+)
+            
 writecase
 =
 StmtBlock
@@ -16598,12 +16797,6 @@ c
 enum
 (
 )
-                
-actor
-=
-cls
-.
-actor
             
 )
             
@@ -16613,6 +16806,41 @@ c
 special
 :
                 
+writecase
+.
+addstmts
+(
+                    
+[
+                        
+_abortIfFalse
+(
+                            
+ExprCode
+(
+                                
+"
+{
+writervar
+}
+-
+>
+GetActor
+(
+)
+"
+writervar
+=
+cls
+.
+writervar
+                            
+)
+                            
+noactorerror
+                        
+)
+                        
 #
 Report
 an
@@ -16627,31 +16855,51 @@ the
 side
 is
 wrong
-                
-wstmt
-=
+                        
 cls
 .
 ifsideis
 (
+                            
+cls
+.
+writervar
+                            
 c
 .
 side
+                            
 wstmt
+                            
 els
 =
 cls
 .
 fatalError
 (
+cls
+.
+writervar
 "
 wrong
 side
 !
 "
 )
+                        
+)
+                        
+StmtReturn
+(
+)
+                    
+]
+                
 )
             
+else
+:
+                
 writecase
 .
 addstmts
@@ -16742,38 +16990,82 @@ instead
                 
 readcase
 .
-addstmt
+addstmts
 (
                     
+[
+                        
+_abortIfFalse
+(
+                            
+ExprCode
+(
+                                
+"
+{
+readervar
+}
+-
+>
+GetActor
+(
+)
+"
+readervar
+=
+cls
+.
+readervar
+                            
+)
+                            
+noactorerror
+                        
+)
+                        
 cls
 .
 ifsideis
 (
-                        
+                            
+cls
+.
+readervar
+                            
 c
 .
 side
-                        
+                            
 StmtBlock
 (
+                                
 [
+                                    
 cls
 .
 fatalError
 (
+cls
+.
+readervar
 "
 wrong
 side
 !
 "
 )
+                                    
 StmtReturn
 .
 FALSE
+                                
 ]
+                            
+)
+                        
 )
                     
-)
+]
                 
 )
                 
@@ -16936,11 +17228,15 @@ DefaultLabel
             
 StmtBlock
 (
+                
 [
 cls
 .
 fatalError
 (
+cls
+.
+writervar
 "
 unknown
 union
@@ -16951,6 +17247,7 @@ StmtReturn
 (
 )
 ]
+            
 )
         
 )
@@ -16966,11 +17263,15 @@ DefaultLabel
             
 StmtBlock
 (
+                
 [
 cls
 .
 fatalError
 (
+cls
+.
+readervar
 "
 unknown
 union
@@ -16981,6 +17282,7 @@ StmtReturn
 .
 FALSE
 ]
+            
 )
         
 )
@@ -34884,10 +35186,6 @@ sentinelKey
 p
 .
 name
-                    
-actor
-=
-this
                 
 )
                 
@@ -35063,15 +35361,6 @@ sentinelKey
 p
 .
 name
-                
-actor
-=
-ExprVar
-(
-"
-self__
-"
-)
             
 )
             
@@ -35532,12 +35821,6 @@ sentinelKey
 r
 .
 name
-                    
-actor
-=
-ExprVar
-.
-THIS
                 
 )
                 
@@ -35841,12 +36124,6 @@ actor
 errfnSentinel
 =
 errfnSent
-                    
-actor
-=
-ExprVar
-.
-THIS
                 
 )
             
@@ -36002,12 +36279,6 @@ name
 errfnSentinel
 =
 errfnSent
-                    
-actor
-=
-ExprVar
-.
-THIS
                 
 )
                 
@@ -36228,13 +36499,15 @@ false
 if
 (
 !
-ReadIPDLParam
+IPC
+:
+:
+ReadParam
 (
 &
 {
 readervar
 }
-this
 &
 resolve__
 )
@@ -36289,13 +36562,15 @@ reason__
 if
 (
 !
-ReadIPDLParam
+IPC
+:
+:
+ReadParam
 (
 &
 {
 readervar
 }
-this
 &
 reason__
 )
@@ -36538,12 +36813,6 @@ actor
 errfnSentinel
 =
 errfnSent
-                    
-actor
-=
-ExprVar
-.
-THIS
                 
 )
             
@@ -36657,12 +36926,6 @@ name
 errfnSentinel
 =
 errfnSent
-                    
-actor
-=
-ExprVar
-.
-THIS
                 
 )
                 
@@ -36928,12 +37191,6 @@ name
 errfnSentinel
 =
 errfnSentinel
-                    
-actor
-=
-ExprVar
-.
-THIS
                 
 )
                 
