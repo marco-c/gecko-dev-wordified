@@ -13793,10 +13793,6 @@ scriptSource
 startIncrementalEncoding
 (
 cx
-parseTask
--
->
-options
 std
 :
 :
@@ -13835,10 +13831,6 @@ scriptSource
 startIncrementalEncoding
 (
 cx
-parseTask
--
->
-options
 std
 :
 :

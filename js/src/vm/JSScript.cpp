@@ -11959,13 +11959,6 @@ startIncrementalEncoding
 JSContext
 *
 cx
-const
-JS
-:
-:
-ReadOnlyCompileOptions
-&
-options
 UniquePtr
 <
 frontend
@@ -12095,7 +12088,6 @@ xdrEncoder_
 setInitial
 (
 cx
-options
 std
 :
 :

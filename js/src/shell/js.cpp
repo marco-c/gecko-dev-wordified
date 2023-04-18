@@ -13988,7 +13988,6 @@ source
 startIncrementalEncoding
 (
 cx
-options
 std
 :
 :
