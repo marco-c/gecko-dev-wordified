@@ -1023,9 +1023,14 @@ PrincipalInfoToPrincipal
 (
 aPrincipalInfo
 )
-IPC_FAIL_NO_REASON
+IPC_FAIL
 (
 this
+"
+PrincipalInfoToPrincipal
+failed
+!
+"
 )
 )
 ;
