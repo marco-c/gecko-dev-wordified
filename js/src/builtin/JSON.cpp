@@ -4503,7 +4503,10 @@ if
 i
 <
 =
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 )
 {
 MOZ_ASSERT

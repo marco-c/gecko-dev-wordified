@@ -11607,7 +11607,10 @@ NativeObject
 :
 MAX_DENSE_ELEMENTS_COUNT
 <
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 "
 All
 dense

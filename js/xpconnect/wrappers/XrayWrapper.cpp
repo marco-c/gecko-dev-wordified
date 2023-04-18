@@ -6528,7 +6528,10 @@ handle
 indices
 greater
 than
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 in
 the
 loop
@@ -6536,7 +6539,10 @@ below
 .
 static_assert
 (
-JSID_INT_MAX
+PropertyKey
+:
+:
+IntMax
 >
 =
 INT32_MAX
