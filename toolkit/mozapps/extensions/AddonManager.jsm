@@ -5570,9 +5570,6 @@ name
 to
 call
 *
-see
-callProvider
-*
 /
 callProviders
 (
@@ -6207,10 +6204,6 @@ in
 has
 changed
 .
-*
-*
-see
-nsIObserver
 *
 /
 observe
