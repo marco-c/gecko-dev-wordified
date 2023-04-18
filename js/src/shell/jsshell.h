@@ -759,10 +759,6 @@ enableBYOBStreamReaders
 ;
 extern
 bool
-enableWritableStreams
-;
-extern
-bool
 enableReadableStreamPipeTo
 ;
 extern
