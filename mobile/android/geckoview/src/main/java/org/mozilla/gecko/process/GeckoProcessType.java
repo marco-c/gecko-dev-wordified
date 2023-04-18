@@ -160,6 +160,12 @@ FORKSERVER
 forkserver
 "
 )
+UTILITY
+(
+"
+utility
+"
+)
 ;
 private
 final

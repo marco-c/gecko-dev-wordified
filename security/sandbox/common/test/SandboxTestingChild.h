@@ -332,9 +332,6 @@ ReportNoTests
 (
 )
 ;
-#
-ifdef
-XP_UNIX
 /
 /
 For
@@ -476,8 +473,6 @@ F
 aFunction
 )
 ;
-#
-endif
 private
 :
 explicit
