@@ -3842,16 +3842,6 @@ event
 .
 alignmentOffset
 ;
-this
-.
-setAttribute
-(
-"
-arrowposition
-"
-position
-)
-;
 /
 /
 if
