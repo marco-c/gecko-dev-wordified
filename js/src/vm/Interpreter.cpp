@@ -5792,9 +5792,6 @@ JSObject
 obj
 )
 {
-AutoUnsafeCallWithABI
-unsafe
-;
 if
 (
 EmulatesUndefined

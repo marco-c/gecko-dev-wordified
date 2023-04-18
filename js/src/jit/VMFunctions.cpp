@@ -13960,7 +13960,7 @@ main
 }
 JSString
 *
-TypeOfNameObject
+TypeOfObject
 (
 JSObject
 *
