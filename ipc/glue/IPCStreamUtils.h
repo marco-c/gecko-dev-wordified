@@ -1323,6 +1323,14 @@ SocketProcessParent
 aManager
 )
 ;
+bool
+Serialize
+(
+nsIInputStream
+*
+aStream
+)
+;
 /
 /
 Get
