@@ -247,9 +247,6 @@ GeckoResult
 GeckoRuntime
 "
 "
-GeckoScreenOrientation
-"
-"
 GeckoServiceChildProcess
 "
 "

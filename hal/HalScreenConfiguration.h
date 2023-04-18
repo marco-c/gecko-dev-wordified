@@ -263,17 +263,6 @@ MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
 ScreenOrientation
 )
 ;
-class
-ScreenConfiguration
-;
-using
-ScreenConfigurationObserver
-=
-Observer
-<
-ScreenConfiguration
->
-;
 }
 /
 /
