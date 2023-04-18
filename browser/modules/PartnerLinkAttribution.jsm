@@ -348,6 +348,13 @@ topsites
 -
 click
 "
+QS_BLOCK
+:
+"
+quicksuggest
+-
+block
+"
 QS_IMPRESSION
 :
 "
