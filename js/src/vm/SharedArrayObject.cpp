@@ -798,7 +798,9 @@ limits
 wasm
 :
 :
-MaxMemory32Pages
+MaxMemoryPages
+(
+)
 )
 and
 we
@@ -972,6 +974,11 @@ Lock
 wasm
 :
 :
+IndexType
+t
+wasm
+:
+:
 Pages
 newPages
 )
@@ -1029,6 +1036,7 @@ wasm
 :
 MaxMemoryPages
 (
+t
 )
 &
 &

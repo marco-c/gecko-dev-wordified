@@ -1120,6 +1120,11 @@ Lock
 wasm
 :
 :
+IndexType
+t
+wasm
+:
+:
 Pages
 newPages
 )
