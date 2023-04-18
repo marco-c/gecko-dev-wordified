@@ -1270,10 +1270,9 @@ defines
 )
 )
 )
-        
-else
-:
             
+continue
+        
 #
 Make
 sure
@@ -1285,7 +1284,7 @@ t
 preceded
 by
 whitespace
-            
+        
 assert
 not
 line
@@ -1298,6 +1297,30 @@ startswith
 (
 "
 MSG_DEF
+"
+)
+        
+#
+This
+script
+doesn
+'
+t
+support
+preprocessor
+        
+assert
+not
+line
+.
+strip
+(
+)
+.
+startswith
+(
+"
+#
 "
 )
     
