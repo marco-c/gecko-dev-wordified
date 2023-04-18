@@ -208,14 +208,6 @@ of
 mInput
 to
 aValue
-and
-notifies
-the
-input
-*
-of
-setting
-reason
 .
 *
 /
@@ -226,8 +218,6 @@ const
 nsString
 &
 aValue
-uint16_t
-aReason
 )
 ;
 /
