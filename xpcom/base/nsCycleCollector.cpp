@@ -7817,8 +7817,6 @@ FinishAnyIncrementalGCInProgress
 bool
 ShouldMergeZones
 (
-ccType
-aCCType
 ccIsManual
 aIsManual
 )
@@ -22722,8 +22720,6 @@ nsCycleCollector
 :
 ShouldMergeZones
 (
-ccType
-aCCType
 ccIsManual
 aIsManual
 )
@@ -23227,7 +23223,6 @@ mergeZones
 =
 ShouldMergeZones
 (
-aCCType
 aIsManual
 )
 ;
