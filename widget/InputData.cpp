@@ -2219,6 +2219,10 @@ mHandledByAPZ
 (
 false
 )
+mFollowedByMomentum
+(
+false
+)
 mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
 (
 false
@@ -2300,6 +2304,10 @@ mUserDeltaMultiplierY
 0
 )
 mHandledByAPZ
+(
+false
+)
+mFollowedByMomentum
 (
 false
 )
