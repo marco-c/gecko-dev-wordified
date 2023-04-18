@@ -625,7 +625,7 @@ nsCOMPtr
 <
 nsITimer
 >
-mTimer
+mIdleTimer
 ;
 LSSnapshotChild
 *
@@ -690,7 +690,7 @@ bool
 mHasPendingStableStateCallback
 ;
 bool
-mHasPendingTimerCallback
+mHasPendingIdleTimerCallback
 ;
 bool
 mDirty
@@ -926,13 +926,13 @@ Finish
 )
 ;
 void
-CancelTimer
+CancelIdleTimer
 (
 )
 ;
 static
 void
-TimerCallback
+IdleTimerCallback
 (
 nsITimer
 *
