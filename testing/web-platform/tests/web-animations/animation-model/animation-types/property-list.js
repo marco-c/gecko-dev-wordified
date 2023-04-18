@@ -11182,7 +11182,6 @@ options
 [
 [
 '
-filled
 circle
 '
 '
