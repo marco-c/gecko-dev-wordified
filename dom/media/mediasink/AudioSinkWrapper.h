@@ -331,7 +331,6 @@ AudioSinkWrapper
 AbstractThread
 *
 aOwnerThread
-const
 MediaQueue
 <
 AudioData
@@ -449,7 +448,6 @@ aTimeStamp
 =
 nullptr
 )
-const
 override
 ;
 bool
@@ -689,7 +687,6 @@ EndedPromise
 >
 mAudioSinkEndedPromise
 ;
-const
 MediaQueue
 <
 AudioData
