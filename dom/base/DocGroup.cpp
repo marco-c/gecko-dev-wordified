@@ -1279,7 +1279,7 @@ aBrowsingContextGroup
 )
 mAgentClusterId
 (
-nsContentUtils
+nsID
 :
 :
 GenerateUUID

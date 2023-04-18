@@ -4650,7 +4650,7 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-nsContentUtils
+nsID
 :
 :
 GenerateUUIDInPlace
