@@ -920,15 +920,6 @@ use
 crate
 :
 :
-spatial_tree
-:
-:
-SpatialNodeContainer
-;
-use
-crate
-:
-:
 tile_cache
 :
 :
@@ -5026,6 +5017,7 @@ info
 reference_frame
 .
 key
+pipeline_id
 )
 )
 ;
@@ -5126,6 +5118,7 @@ external
 info
 .
 key
+pipeline_id
 )
 )
 ;
@@ -10656,14 +10649,12 @@ self
 .
 spatial_tree
 .
-get_node_info
+is_root_coord_system
 (
 stacking_context
 .
 spatial_node_index
 )
-.
-is_root_coord_system
 {
 self
 .
