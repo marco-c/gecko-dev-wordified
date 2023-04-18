@@ -491,7 +491,7 @@ mParams
 /
 Stack
 functions
-nsresult
+void
 pushEvalContext
 (
 txIEvalContext
