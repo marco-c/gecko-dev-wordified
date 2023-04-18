@@ -239,7 +239,7 @@ pin
 header
 "
 }
-subtitle
+hero_text
 :
 {
 string_id
@@ -1065,6 +1065,16 @@ icons
 32
 "
 ]
+type
+:
+addonInfo
+.
+type
+themePreviewInfo
+:
+addonInfo
+.
+previews
 }
 ;
 }
