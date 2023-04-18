@@ -3843,10 +3843,6 @@ SVGMaskFrame
 &
 aMaskFrames
 const
-Matrix
-&
-aMaskSurfaceMatrix
-const
 nsPoint
 &
 aOffsetToUserSpace
@@ -4788,7 +4784,6 @@ aOpacity
 0
 aSC
 aMaskFrames
-maskSurfaceMatrix
 aOffsetToUserSpace
 )
 ;
@@ -5808,11 +5803,6 @@ Style
 (
 )
 maskFrames
-ctx
-.
-CurrentMatrix
-(
-)
 offsets
 .
 offsetToUserSpace
