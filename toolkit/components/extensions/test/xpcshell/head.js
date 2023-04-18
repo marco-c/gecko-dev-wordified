@@ -468,7 +468,7 @@ expectRemote
 false
 }
 ;
-add_task
+add_setup
 (
 function
 check_remote

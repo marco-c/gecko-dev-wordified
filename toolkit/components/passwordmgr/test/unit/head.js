@@ -473,7 +473,7 @@ common
 to
 all
 tests
-add_task
+add_setup
 (
 async
 function
@@ -646,7 +646,7 @@ setupWebsitesWithSharedCredentials
 }
 )
 ;
-add_task
+add_setup
 (
 async
 function

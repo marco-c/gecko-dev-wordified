@@ -1724,7 +1724,7 @@ fields
 )
 ;
 }
-add_task
+add_setup
 (
 async
 function
@@ -2058,7 +2058,7 @@ loadExtension
 let
 OSKeyStoreTestUtils
 ;
-add_task
+add_setup
 (
 async
 function

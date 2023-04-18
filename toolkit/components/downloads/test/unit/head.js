@@ -5457,7 +5457,7 @@ common
 to
 all
 tests
-add_task
+add_setup
 (
 function
 test_common_initialize
