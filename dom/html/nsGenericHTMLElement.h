@@ -6739,6 +6739,7 @@ nullptr
 .
 *
 /
+virtual
 void
 UpdateFormOwner
 (
