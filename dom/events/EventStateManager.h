@@ -7446,7 +7446,7 @@ we
 drag
 )
 .
-nsCOMPtr
+RefPtr
 <
 nsIContent
 >

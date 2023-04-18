@@ -17359,6 +17359,7 @@ local
 RefPtr
 variables
 .
+MOZ_KNOWN_LIVE
 RefPtr
 <
 Document
@@ -17366,6 +17367,7 @@ Document
 const
 mDocument
 ;
+MOZ_KNOWN_LIVE
 RefPtr
 <
 nsPresContext

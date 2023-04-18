@@ -1869,7 +1869,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsCOMPtr
+RefPtr
 <
 nsINode
 >
