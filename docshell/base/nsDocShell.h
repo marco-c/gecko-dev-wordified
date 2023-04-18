@@ -4779,7 +4779,14 @@ history
 /
 entry
 .
-void
+Returns
+true
+if
+wireframes
+were
+collected
+.
+bool
 CollectWireframe
 (
 )

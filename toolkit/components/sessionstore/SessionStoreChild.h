@@ -257,6 +257,10 @@ UpdateEventTargets
 void
 UpdateSessionStore
 (
+bool
+aSessionHistoryUpdate
+=
+false
 )
 ;
 void
