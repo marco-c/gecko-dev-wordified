@@ -180,7 +180,7 @@ desktop_capture
 /
 linux
 /
-shared_x_util
+x_window_property
 .
 h
 "
