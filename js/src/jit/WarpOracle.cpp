@@ -2655,11 +2655,12 @@ global
 )
 -
 >
-maybeExistingIntrinsicValue
+maybeGetIntrinsicValue
 (
 name
 &
 val
+cx_
 )
 &
 &
