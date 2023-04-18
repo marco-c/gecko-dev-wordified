@@ -1383,9 +1383,9 @@ arguments
 undefined
 ;
 return
-callContentFunction
+callFunction
 (
-ArrayIncludes
+std_Array_includes
 ThisTupleValue
 (
 this

@@ -17702,6 +17702,15 @@ Array
 JS_FN
 (
 "
+std_Array_includes
+"
+array_includes
+1
+0
+)
+JS_FN
+(
+"
 std_Array_indexOf
 "
 array_indexOf
