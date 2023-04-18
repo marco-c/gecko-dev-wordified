@@ -894,6 +894,11 @@ CRLiteModeEnforcePrefValue
 =
 2
 ;
+const
+CRLiteModeConfirmRevocationsValue
+=
+3
+;
 /
 /
 Convert

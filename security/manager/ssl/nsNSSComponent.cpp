@@ -10004,6 +10004,12 @@ CRLiteMode
 :
 Enforce
 :
+case
+CRLiteMode
+:
+:
+ConfirmRevocations
+:
 break
 ;
 default
