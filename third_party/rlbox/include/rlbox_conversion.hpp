@@ -915,9 +915,6 @@ T_To_C
 )
 )
 ;
-std
-:
-:
 memcpy
 (
 &
