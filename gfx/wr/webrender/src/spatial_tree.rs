@@ -8008,7 +8008,7 @@ stderr
 /
 logcat
 .
-println
+debug
 !
 (
 "
