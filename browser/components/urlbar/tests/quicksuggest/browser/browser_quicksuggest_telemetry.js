@@ -520,9 +520,6 @@ scenario
 "
 offline
 "
-search_query
-:
-undefined
 }
 )
 ;
@@ -592,9 +589,6 @@ scenario
 "
 offline
 "
-search_query
-:
-TEST_SEARCH_STRING
 }
 )
 ;
@@ -692,9 +686,6 @@ scenario
 "
 online
 "
-search_query
-:
-undefined
 }
 )
 ;
@@ -792,9 +783,6 @@ scenario
 "
 online
 "
-search_query
-:
-TEST_SEARCH_STRING
 }
 )
 ;
@@ -807,7 +795,6 @@ doImpressionTest
 (
 {
 scenario
-search_query
 }
 )
 {
@@ -945,7 +932,6 @@ assertImpressionPing
 index
 spy
 scenario
-search_query
 }
 )
 ;
@@ -1345,9 +1331,6 @@ scenario
 "
 offline
 "
-search_query
-:
-undefined
 }
 )
 ;
@@ -1422,9 +1405,6 @@ scenario
 "
 offline
 "
-search_query
-:
-TEST_SEARCH_STRING
 }
 )
 ;
@@ -1527,9 +1507,6 @@ scenario
 "
 online
 "
-search_query
-:
-undefined
 }
 )
 ;
@@ -1632,9 +1609,6 @@ scenario
 "
 online
 "
-search_query
-:
-TEST_SEARCH_STRING
 }
 )
 ;
@@ -1709,9 +1683,6 @@ scenario
 "
 offline
 "
-search_query
-:
-undefined
 }
 )
 ;
@@ -1786,9 +1757,6 @@ scenario
 "
 offline
 "
-search_query
-:
-TEST_SEARCH_STRING
 }
 )
 ;
@@ -1891,9 +1859,6 @@ scenario
 "
 online
 "
-search_query
-:
-undefined
 }
 )
 ;
@@ -1996,9 +1961,6 @@ scenario
 "
 online
 "
-search_query
-:
-TEST_SEARCH_STRING
 }
 )
 ;
@@ -2012,7 +1974,6 @@ doClickTest
 {
 useKeyboard
 scenario
-search_query
 }
 )
 {
@@ -2168,7 +2129,6 @@ assertImpressionPing
 index
 spy
 scenario
-search_query
 }
 )
 ;
