@@ -210,6 +210,16 @@ Total
 static
 const
 uint8_t
+FirstFloatReg
+=
+Registers
+:
+:
+Total
+;
+static
+const
+uint8_t
 Invalid
 =
 UINT8_MAX
