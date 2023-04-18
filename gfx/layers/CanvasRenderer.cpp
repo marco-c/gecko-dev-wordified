@@ -614,12 +614,6 @@ case
 LayersBackend
 :
 :
-LAYERS_OPENGL
-:
-case
-LayersBackend
-:
-:
 LAYERS_WR
 :
 break

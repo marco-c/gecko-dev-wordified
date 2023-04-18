@@ -226,17 +226,6 @@ case
 LayersBackend
 :
 :
-LAYERS_OPENGL
-:
-return
-"
-opengl
-"
-;
-case
-LayersBackend
-:
-:
 LAYERS_WR
 :
 MOZ_ASSERT
