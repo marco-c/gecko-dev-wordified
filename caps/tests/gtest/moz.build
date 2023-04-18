@@ -90,6 +90,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestNullPrincipalPrecursor
+.
+cpp
+"
+"
 TestOriginAttributes
 .
 cpp
