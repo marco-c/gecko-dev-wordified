@@ -2788,7 +2788,7 @@ candidate
 =
 buffer
 .
-toString
+toAsciiString
 (
 cx
 )

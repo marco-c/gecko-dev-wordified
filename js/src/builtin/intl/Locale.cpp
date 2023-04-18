@@ -939,7 +939,7 @@ tagStr
 cx
 buffer
 .
-toString
+toAsciiString
 (
 cx
 )
@@ -8843,7 +8843,7 @@ resultStr
 =
 buffer
 .
-toString
+toAsciiString
 (
 cx
 )
@@ -9174,7 +9174,7 @@ resultStr
 =
 buffer
 .
-toString
+toAsciiString
 (
 cx
 )
