@@ -4137,11 +4137,13 @@ of
 /
 the
 function
-Scope
-*
+InputScope
 enclosingScope
 =
+InputScope
+(
 nullptr
+)
 ;
 explicit
 CompilationInput
@@ -4247,6 +4249,8 @@ false
 }
 enclosingScope
 =
+InputScope
+(
 &
 cx
 -
@@ -4258,6 +4262,7 @@ global
 >
 emptyGlobalScope
 (
+)
 )
 ;
 return
@@ -4306,7 +4311,10 @@ false
 }
 enclosingScope
 =
+InputScope
+(
 evalEnclosingScope
+)
 ;
 return
 true
@@ -4442,6 +4450,8 @@ ss
 ;
 enclosingScope
 =
+InputScope
+(
 lazy_
 -
 >
@@ -4452,6 +4462,7 @@ function
 >
 enclosingScope
 (
+)
 )
 ;
 }
@@ -4529,8 +4540,7 @@ function
 nullptr
 otherwise
 .
-Scope
-*
+InputScope
 maybeNonDefaultEnclosingScope
 (
 )
@@ -4548,7 +4558,10 @@ enclosingScope
 ;
 }
 return
+InputScope
+(
 nullptr
+)
 ;
 }
 /

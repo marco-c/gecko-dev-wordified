@@ -11073,6 +11073,7 @@ superScopeNeedsHomeObject
 )
 &
 &
+!
 this
 -
 >
@@ -11081,6 +11082,10 @@ compilationState_
 input
 .
 enclosingScope
+.
+isNull
+(
+)
 )
 {
 /
