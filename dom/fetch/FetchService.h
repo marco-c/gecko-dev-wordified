@@ -610,6 +610,11 @@ Fetch
 (
 )
 ;
+void
+Cancel
+(
+)
+;
 /
 *
 FetchDriverObserver
@@ -692,6 +697,12 @@ RefPtr
 PerformanceStorage
 >
 mPerformanceStorage
+;
+RefPtr
+<
+FetchDriver
+>
+mFetchDriver
 ;
 MozPromiseHolder
 <

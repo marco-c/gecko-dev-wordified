@@ -459,6 +459,12 @@ FetchServiceResponsePromise
 >
 mPreloadResponseReadyPromiseRequestHolder
 ;
+RefPtr
+<
+FetchServiceResponsePromise
+>
+mPreloadResponseReadyPromise
+;
 }
 ;
 }
