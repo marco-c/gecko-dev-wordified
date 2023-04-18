@@ -6732,6 +6732,9 @@ attachmentId
 this
 .
 RS_ATTACHMENT_ID
+useCache
+:
+true
 fallbackToCache
 :
 true
