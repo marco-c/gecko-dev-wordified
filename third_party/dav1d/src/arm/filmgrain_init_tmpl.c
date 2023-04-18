@@ -267,7 +267,7 @@ include
 "
 src
 /
-film_grain
+filmgrain
 .
 h
 "

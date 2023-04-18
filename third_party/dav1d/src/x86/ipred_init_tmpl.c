@@ -944,6 +944,8 @@ ipred_v
 avx512icl
 )
 ;
+#
+endif
 init_angular_ipred_fn
 (
 PAETH_PRED
@@ -990,8 +992,6 @@ dav1d_pal_pred
 avx512icl
 )
 ;
-#
-endif
 #
 endif
 }

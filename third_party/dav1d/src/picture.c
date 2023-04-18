@@ -2168,6 +2168,15 @@ p
 )
 )
 ;
+dav1d_data_props_set_defaults
+(
+&
+p
+-
+>
+m
+)
+;
 }
 void
 dav1d_thread_picture_unref
