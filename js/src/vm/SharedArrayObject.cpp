@@ -249,6 +249,17 @@ include
 "
 vm
 /
+ArrayBufferObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 -
 inl
@@ -2551,7 +2562,7 @@ copyData
 (
 Handle
 <
-SharedArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 >
 toBuffer
@@ -2559,7 +2570,7 @@ size_t
 toIndex
 Handle
 <
-SharedArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 >
 fromBuffer
@@ -2636,7 +2647,7 @@ memcpySafeWhenRacy
 toBuffer
 -
 >
-dataPointerShared
+dataPointerEither
 (
 )
 +
@@ -2644,7 +2655,7 @@ toIndex
 fromBuffer
 -
 >
-dataPointerShared
+dataPointerEither
 (
 )
 +

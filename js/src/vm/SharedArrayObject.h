@@ -1624,7 +1624,7 @@ copyData
 (
 Handle
 <
-SharedArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 >
 toBuffer
@@ -1632,7 +1632,7 @@ size_t
 toIndex
 Handle
 <
-SharedArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 >
 fromBuffer
