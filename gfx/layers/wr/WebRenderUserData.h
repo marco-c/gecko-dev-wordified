@@ -1851,6 +1851,13 @@ RequestFrameReadback
 void
 RefreshExternalImage
 (
+const
+wr
+:
+:
+ExternalImageId
+&
+aExternalImageId
 )
 ;
 /
@@ -1917,11 +1924,6 @@ SurfaceFormat
 :
 :
 UNKNOWN
-;
-bool
-mDirty
-=
-false
 ;
 }
 ;

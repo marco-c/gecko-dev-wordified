@@ -612,6 +612,11 @@ textureId
 RawId
 commandEncoderId
 )
+returns
+(
+bool
+success
+)
 ;
 async
 SwapChainDestroy
