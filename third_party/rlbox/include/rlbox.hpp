@@ -4457,6 +4457,7 @@ of
 the
 verifier
 either
+*
 T_Ret
 (
 *
@@ -4656,9 +4657,9 @@ memory
 out
 of
 the
+/
+/
 sandbox
-/
-/
 however
 copy_and_verify_range
 ensures
@@ -4666,10 +4667,10 @@ that
 we
 never
 copy
+/
+/
 memory
 outsider
-/
-/
 the
 range
 auto
@@ -4813,9 +4814,9 @@ memory
 out
 of
 the
+/
+/
 sandbox
-/
-/
 however
 copy_and_verify_range
 ensures
@@ -4823,10 +4824,10 @@ that
 we
 never
 copy
+/
+/
 memory
 outsider
-/
-/
 the
 range
 auto
@@ -4930,6 +4931,8 @@ parameter
 should
 either
 be
+"
+"
 unique_ptr
 <
 char
