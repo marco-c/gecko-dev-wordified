@@ -3379,16 +3379,6 @@ CharsT
 char16_t
 *
 >
-|
-|
-std
-:
-:
-is_same_v
-<
-CharsT
-LittleEndianChars
->
 "
 This
 assert
