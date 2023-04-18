@@ -1380,15 +1380,14 @@ subtests
 ]
     
 if
-not
 browser_config
 .
 get
 (
 "
-fission
+enable_fission
 "
-True
+False
 )
 :
         
@@ -1406,7 +1405,7 @@ autostart
 "
 ]
 =
-False
+True
     
 browser_config
 [
@@ -2311,9 +2310,9 @@ browser_config
 get
 (
 "
-fission
+enable_fission
 "
-True
+False
 )
 :
         

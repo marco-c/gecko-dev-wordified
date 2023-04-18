@@ -2624,6 +2624,7 @@ LOG
 .
 info
 (
+            
 "
 Fission
 enabled
@@ -2639,10 +2640,11 @@ browser_config
 get
 (
 "
-fission
+enable_fission
 "
-True
+False
 )
+        
 )
         
 #

@@ -2910,7 +2910,7 @@ e10s
 "
 -
 -
-disable
+enable
 -
 fission
 "
@@ -2923,7 +2923,7 @@ action
 "
 :
 "
-store_false
+store_true
 "
                     
 "
@@ -2931,21 +2931,21 @@ dest
 "
 :
 "
-fission
+enable_fission
 "
                     
 "
 default
 "
 :
-True
+False
                     
 "
 help
 "
 :
 "
-Disable
+Enable
 Fission
 (
 site
@@ -6774,7 +6774,6 @@ cold
 )
         
 if
-not
 self
 .
 config
@@ -6782,9 +6781,9 @@ config
 get
 (
 "
-fission
+enable_fission
 "
-True
+False
 )
 :
             
@@ -6796,7 +6795,7 @@ extend
 "
 -
 -
-disable
+enable
 -
 fission
 "
