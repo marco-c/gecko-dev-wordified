@@ -544,6 +544,15 @@ aIsAuthChannel
 )
 override
 ;
+NS_IMETHOD
+SetEarlyHintObserver
+(
+nsIEarlyHintObserver
+*
+aObserver
+)
+override
+;
 /
 /
 nsISupportsPriority
