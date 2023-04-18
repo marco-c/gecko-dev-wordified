@@ -7185,6 +7185,13 @@ host
 port
 )
 ;
+browser
+.
+update_marionette_port
+(
+port
+)
+;
 return
 Ok
 (
