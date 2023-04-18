@@ -119,10 +119,6 @@ PHttpConnectionMgr
 ;
 include
 protocol
-PFileDescriptorSet
-;
-include
-protocol
 PInputChannelThrottleQueue
 ;
 include
@@ -639,9 +635,6 @@ PDNSRequest
 ;
 manages
 PWebrtcTCPSocket
-;
-manages
-PFileDescriptorSet
 ;
 manages
 PHttpTransaction
@@ -1428,13 +1421,6 @@ XP_WIN
 )
 both
 :
-async
-PFileDescriptorSet
-(
-FileDescriptor
-fd
-)
-;
 async
 PDNSRequest
 (
