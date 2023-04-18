@@ -806,12 +806,6 @@ msg
 __VA_ARGS__
 )
 )
-using
-std
-:
-:
-move
-;
 namespace
 mozilla
 :
@@ -4340,6 +4334,9 @@ mDecodeJobs
 .
 AppendElement
 (
+std
+:
+:
 move
 (
 job
@@ -5452,6 +5449,9 @@ Other
 >
 Dispatch
 (
+std
+:
+:
 move
 (
 aRunnable
@@ -6537,6 +6537,9 @@ ApplyAudioContextOperation
 DestinationTrack
 (
 )
+std
+:
+:
 move
 (
 tracks
@@ -7014,6 +7017,9 @@ ApplyAudioContextOperation
 DestinationTrack
 (
 )
+std
+:
+:
 move
 (
 tracks
@@ -7789,6 +7795,9 @@ Graph
 ApplyAudioContextOperation
 (
 ds
+std
+:
+:
 move
 (
 tracks
@@ -8206,6 +8215,9 @@ mWorkletParamDescriptors
 InsertOrUpdate
 (
 aName
+std
+:
+:
 move
 (
 *
