@@ -222,9 +222,9 @@ dom
 .
 storage
 .
-next_gen
+enable_unsupported_legacy_implementation
 "
-true
+false
 )
 ;
 for
