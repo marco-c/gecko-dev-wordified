@@ -3776,6 +3776,11 @@ isFinite
 (
 aSeconds
 )
+|
+|
+aSeconds
+<
+0
 )
 {
 l10n
