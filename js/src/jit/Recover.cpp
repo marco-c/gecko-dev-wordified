@@ -10772,17 +10772,6 @@ toObject
 )
 )
 ;
-RootedValue
-newTarget
-(
-cx
-iter
-.
-read
-(
-)
-)
-;
 RootedFunction
 fun
 (
@@ -10818,7 +10807,6 @@ LambdaArrow
 cx
 fun
 scopeChain
-newTarget
 )
 ;
 if
