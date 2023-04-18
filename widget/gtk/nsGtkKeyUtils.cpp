@@ -12164,16 +12164,6 @@ enough
 )
 aKeyEvent
 .
-mPluginEvent
-.
-Copy
-(
-*
-aGdkKeyEvent
-)
-;
-aKeyEvent
-.
 mTime
 =
 aGdkKeyEvent

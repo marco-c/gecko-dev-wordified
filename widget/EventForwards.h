@@ -2166,9 +2166,6 @@ EventFlags
 class
 WidgetEventTime
 ;
-class
-NativeEventData
-;
 /
 /
 TextEvents

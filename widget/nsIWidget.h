@@ -425,9 +425,6 @@ namespace
 mozilla
 {
 class
-NativeEventData
-;
-class
 WidgetGUIEvent
 ;
 class
