@@ -1849,9 +1849,6 @@ nsIStreamListener
 aDocListener
 bool
 aReset
-nsIContentSink
-*
-aSink
 )
 {
 nsresult
@@ -1868,7 +1865,6 @@ aLoadGroup
 aContainer
 aDocListener
 aReset
-aSink
 )
 ;
 if
@@ -1961,21 +1957,6 @@ nsIXMLContentSink
 >
 sink
 ;
-if
-(
-aSink
-)
-{
-sink
-=
-do_QueryInterface
-(
-aSink
-)
-;
-}
-else
-{
 nsCOMPtr
 <
 nsIDocShell
@@ -2021,7 +2002,6 @@ rv
 rv
 )
 ;
-}
 /
 /
 Set

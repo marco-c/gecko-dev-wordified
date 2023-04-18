@@ -20266,9 +20266,6 @@ nsIStreamListener
 aDocListener
 bool
 aReset
-nsIContentSink
-*
-aSink
 )
 {
 if

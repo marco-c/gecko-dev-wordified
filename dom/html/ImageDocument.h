@@ -222,11 +222,6 @@ bool
 aReset
 =
 true
-nsIContentSink
-*
-aSink
-=
-nullptr
 )
 override
 ;

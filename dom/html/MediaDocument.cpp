@@ -707,9 +707,6 @@ nsIStreamListener
 aDocListener
 bool
 aReset
-nsIContentSink
-*
-aSink
 )
 {
 nsresult
@@ -726,7 +723,6 @@ aLoadGroup
 aContainer
 aDocListener
 aReset
-aSink
 )
 ;
 if

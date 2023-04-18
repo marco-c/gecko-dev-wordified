@@ -233,11 +233,6 @@ bool
 aReset
 =
 true
-nsIContentSink
-*
-aSink
-=
-nullptr
 )
 override
 ;
@@ -348,9 +343,6 @@ nsIStreamListener
 aDocListener
 bool
 aReset
-nsIContentSink
-*
-aSink
 )
 {
 nsresult
@@ -367,7 +359,6 @@ aLoadGroup
 aContainer
 aDocListener
 aReset
-aSink
 )
 ;
 NS_ENSURE_SUCCESS
