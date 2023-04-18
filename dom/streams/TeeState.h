@@ -301,9 +301,6 @@ TeeState
 >
 Create
 (
-JSContext
-*
-aCx
 ReadableStream
 *
 aStream
@@ -874,9 +871,6 @@ private
 :
 TeeState
 (
-JSContext
-*
-aCx
 ReadableStream
 *
 aStream
