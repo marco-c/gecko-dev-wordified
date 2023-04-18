@@ -7684,6 +7684,9 @@ hsla
 hue
 "
 "
+hwb
+"
+"
 icon
 "
 "
