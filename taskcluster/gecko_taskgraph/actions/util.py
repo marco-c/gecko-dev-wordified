@@ -1981,13 +1981,6 @@ task_id
 slugid
 (
 )
-.
-decode
-(
-"
-ascii
-"
-)
     
 session
 =

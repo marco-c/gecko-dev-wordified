@@ -27,6 +27,13 @@ createSession
 #
 NOQA
 from
+.
+client
+import
+createTemporaryCredentials
+#
+NOQA
+from
 taskcluster
 .
 utils
@@ -44,6 +51,8 @@ import
 NOQA
 from
 taskcluster
+.
+generated
 .
 _client_importer
 import
@@ -65,9 +74,9 @@ environ
 .
 get
 (
-'
+"
 DEBUG_TASKCLUSTER_CLIENT
-'
+"
 )
 :
     

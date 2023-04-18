@@ -2293,13 +2293,6 @@ label
 slugid
 (
 )
-.
-decode
-(
-"
-ascii
-"
-)
     
 #
 resolve

@@ -37,6 +37,11 @@ import
 NOQA
 from
 .
+.
+generated
+.
+aio
+.
 _client_importer
 import
 *
@@ -57,9 +62,9 @@ environ
 .
 get
 (
-'
+"
 DEBUG_TASKCLUSTER_CLIENT
-'
+"
 )
 :
     

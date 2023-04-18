@@ -80,8 +80,6 @@ import
 requests
 from
 taskcluster
-.
-notify
 import
 Notify
 from

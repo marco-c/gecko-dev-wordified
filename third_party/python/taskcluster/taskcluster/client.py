@@ -414,6 +414,7 @@ ascii
 )
                     
 except
+Exception
 :
                         
 s
@@ -2004,21 +2005,6 @@ _subArgsInRoute
 entry
 routeParams
 )
-        
-#
-TODO
-:
-Check
-for
-limit
-being
-in
-the
-Query
-of
-the
-api
-ref
         
 if
 paginationLimit
@@ -4251,6 +4237,7 @@ json
 )
                 
 except
+Exception
 :
                     
 pass
@@ -5462,11 +5449,25 @@ utils
 slugId
 (
 )
+.
+encode
+(
+'
+ascii
+'
+)
 +
 utils
 .
 slugId
 (
+)
+.
+encode
+(
+'
+ascii
+'
 )
     
 )

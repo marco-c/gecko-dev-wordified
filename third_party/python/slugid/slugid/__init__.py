@@ -316,11 +316,11 @@ slugid
 __version__
 =
 '
-1
+2
 .
 0
 .
-7
+0
 '
 __author__
 =

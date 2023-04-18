@@ -42,6 +42,10 @@ import
 six
 import
 random
+import
+taskcluster_urls
+as
+liburls
 from
 .
 import
@@ -101,6 +105,7 @@ join
 (
 [
    
+r
 '
 ^
 (
@@ -130,6 +135,7 @@ ears
 ?
 '
    
+r
 '
 (
 \
@@ -158,6 +164,7 @@ nths
 ?
 '
    
+r
 '
 (
 \
@@ -186,6 +193,7 @@ eeks
 ?
 '
    
+r
 '
 (
 \
@@ -214,6 +222,7 @@ ays
 ?
 '
    
+r
 '
 (
 \
@@ -242,6 +251,7 @@ ours
 ?
 '
    
+r
 '
 (
 \
@@ -277,6 +287,7 @@ s
 *
 '
    
+r
 '
 (
 \
@@ -1421,13 +1432,35 @@ encode
 (
 )
     
-return
+if
+six
+.
+PY3
+:
+        
+b64str
+=
+base64
+.
+encodebytes
+(
+s
+)
+    
+else
+:
+        
+b64str
+=
 base64
 .
 encodestring
 (
 s
 )
+    
+return
+b64str
 .
 strip
 (
@@ -2084,8 +2117,6 @@ requests
 exceptions
 .
 RequestException
-as
-rerr
 :
             
 pass
@@ -2289,6 +2320,9 @@ payload
 headers
 =
 headers
+allow_redirects
+=
+False
 )
     
 log
@@ -2599,7 +2633,12 @@ rootUrl
 '
 ]
 =
+liburls
+.
+normalize_root_url
+(
 rootUrl
+)
     
 clientId
 =

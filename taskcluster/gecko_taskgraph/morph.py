@@ -819,13 +819,6 @@ task_id
 slugid
 (
 )
-.
-decode
-(
-"
-ascii
-"
-)
     
 return
 task
