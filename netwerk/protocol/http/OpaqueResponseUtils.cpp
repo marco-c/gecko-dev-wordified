@@ -902,7 +902,6 @@ if
 (
 rangeStart
 >
-=
 rangeEnd
 )
 {
