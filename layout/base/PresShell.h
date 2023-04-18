@@ -18472,6 +18472,15 @@ layers
 ScrollableLayerGuid
 mMouseEventTargetGuid
 ;
+/
+/
+Only
+populated
+on
+root
+content
+documents
+.
 nsSize
 mVisualViewportSize
 ;
