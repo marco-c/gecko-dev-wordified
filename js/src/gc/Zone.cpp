@@ -149,7 +149,7 @@ include
 "
 gc
 /
-FinalizationRegistry
+FinalizationObservers
 .
 h
 "

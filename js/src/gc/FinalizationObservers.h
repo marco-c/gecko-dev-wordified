@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-gc_FinalizationRegistry_h
+gc_FinalizationObservers_h
 #
 define
-gc_FinalizationRegistry_h
+gc_FinalizationObservers_h
 #
 include
 "
@@ -575,4 +575,4 @@ js
 endif
 /
 /
-gc_FinalizationRegistry_h
+gc_FinalizationObservers_h
