@@ -869,6 +869,9 @@ list
 nsIJumpListBuilder
 createJumpListBuilder
 (
+in
+boolean
+aPrivateBrowsing
 )
 ;
 /
