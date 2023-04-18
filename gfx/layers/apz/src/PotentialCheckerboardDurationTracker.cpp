@@ -205,6 +205,8 @@ PotentialCheckerboardDurationTracker
 :
 CheckerboardDone
 (
+bool
+aRecordTelemetry
 )
 {
 MOZ_ASSERT
@@ -224,6 +226,11 @@ if
 Tracking
 (
 )
+)
+{
+if
+(
+aRecordTelemetry
 )
 {
 mozilla
@@ -246,6 +253,7 @@ mCurrentPeriodStart
 ;
 }
 }
+}
 void
 PotentialCheckerboardDurationTracker
 :
@@ -254,6 +262,8 @@ InTransform
 (
 bool
 aInTransform
+bool
+aRecordTelemetry
 )
 {
 if
@@ -405,6 +415,11 @@ potential
 checkerboard
 period
 .
+if
+(
+aRecordTelemetry
+)
+{
 mozilla
 :
 :
@@ -423,6 +438,7 @@ CHECKERBOARD_POTENTIAL_DURATION
 mCurrentPeriodStart
 )
 ;
+}
 }
 }
 bool

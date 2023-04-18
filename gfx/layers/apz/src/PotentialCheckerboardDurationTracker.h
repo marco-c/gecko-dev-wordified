@@ -338,6 +338,8 @@ CheckerboardSeen
 void
 CheckerboardDone
 (
+bool
+aRecordTelemetry
 )
 ;
 /
@@ -372,6 +374,8 @@ InTransform
 (
 bool
 aInTransform
+bool
+aRecordTelemetry
 )
 ;
 private
