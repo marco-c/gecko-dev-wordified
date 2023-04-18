@@ -146,6 +146,9 @@ mozilla
 namespace
 dom
 {
+class
+ReadableStreamBYOBReader
+;
 /
 /
 Base
@@ -222,7 +225,16 @@ IsBYOB
 virtual
 ReadableStreamDefaultReader
 *
-asDefault
+AsDefault
+(
+)
+=
+0
+;
+virtual
+ReadableStreamBYOBReader
+*
+AsBYOB
 (
 )
 =
