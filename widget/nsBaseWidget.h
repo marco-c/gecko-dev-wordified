@@ -1264,6 +1264,7 @@ has
 /
 returned
 .
+virtual
 void
 NotifyCompositorSessionLost
 (

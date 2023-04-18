@@ -19759,6 +19759,16 @@ NotifyLayerManagerRecreated
 (
 )
 ;
+if
+(
+mRenderLayers
+)
+{
+SchedulePaint
+(
+)
+;
+}
 }
 void
 BrowserChild
