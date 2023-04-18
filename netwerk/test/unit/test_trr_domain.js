@@ -443,9 +443,9 @@ data
 )
 ;
 let
-[
+{
 inStatus
-]
+}
 =
 await
 new

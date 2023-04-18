@@ -1426,9 +1426,9 @@ value
 )
 ;
 let
-[
+{
 inRecord
-]
+}
 =
 await
 new
