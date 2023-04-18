@@ -153,6 +153,11 @@ DefaultBrowser
 cpp
 "
 "
+DefaultPDF
+.
+cpp
+"
+"
 EventLog
 .
 cpp
