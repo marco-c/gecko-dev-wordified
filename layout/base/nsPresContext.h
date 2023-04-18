@@ -2168,17 +2168,7 @@ DefaultBackgroundColor
 (
 )
 const
-{
-return
-PrefSheetPrefs
-(
-)
-.
-mColors
-.
-mDefaultBackground
 ;
-}
 nsISupports
 *
 GetContainerWeak

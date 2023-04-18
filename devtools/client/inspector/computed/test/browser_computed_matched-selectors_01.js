@@ -222,7 +222,7 @@ length
 is
 (
 numMatchedSelectors
-6
+7
 "
 CssLogic
 returns
