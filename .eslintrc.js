@@ -1557,17 +1557,6 @@ testConstants
 .
 js
 "
-"
-xpcom
-/
-tests
-/
-unit
-/
-test_hidden_files
-.
-js
-"
 /
 /
 These
