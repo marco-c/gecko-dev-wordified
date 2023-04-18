@@ -2069,7 +2069,6 @@ mozilla
 :
 StaticMutex
 mutex
-MOZ_UNANNOTATED
 ;
 static
 NowSingleton

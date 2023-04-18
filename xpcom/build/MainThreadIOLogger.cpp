@@ -375,7 +375,6 @@ IOInterposer
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mShutdownRequired

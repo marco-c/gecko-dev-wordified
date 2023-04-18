@@ -1085,7 +1085,6 @@ sCurrent
 static
 StaticMutex
 sStackMutex
-MOZ_UNANNOTATED
 ;
 /
 /

@@ -5707,7 +5707,6 @@ mozilla
 :
 Mutex
 mFontFamiliesMutex
-MOZ_UNANNOTATED
 ;
 /
 /

@@ -1334,7 +1334,6 @@ private
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 std
 :

@@ -10385,7 +10385,6 @@ mImageContainer
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /

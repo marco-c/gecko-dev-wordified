@@ -2013,7 +2013,6 @@ mCallbacks
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 transaction

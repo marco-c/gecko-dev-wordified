@@ -537,7 +537,6 @@ sCachedAppPath
 static
 StaticMutex
 sCachedAppPathMutex
-MOZ_UNANNOTATED
 ;
 /
 /

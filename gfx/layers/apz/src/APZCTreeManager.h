@@ -6020,7 +6020,6 @@ mozilla
 :
 RecursiveMutex
 mTreeLock
-MOZ_UNANNOTATED
 ;
 RefPtr
 <
@@ -6188,7 +6187,6 @@ mozilla
 :
 Mutex
 mMapLock
-MOZ_UNANNOTATED
 ;
 /
 *
@@ -7683,7 +7681,6 @@ mozilla
 :
 Mutex
 mTestDataLock
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -7748,7 +7745,6 @@ mozilla
 :
 Mutex
 mScrollGenerationLock
-MOZ_UNANNOTATED
 ;
 #
 if

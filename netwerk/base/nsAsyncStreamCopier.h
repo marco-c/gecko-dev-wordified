@@ -430,7 +430,6 @@ mozilla
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 nsAsyncStreamCopier

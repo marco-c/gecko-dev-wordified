@@ -1229,7 +1229,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 Callback
 mCallback
@@ -1255,7 +1254,6 @@ mozilla
 :
 StaticMutex
 sDeltaMutex
-MOZ_UNANNOTATED
 ;
 static
 double

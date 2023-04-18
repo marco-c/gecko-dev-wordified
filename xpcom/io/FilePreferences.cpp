@@ -221,7 +221,6 @@ FilePreferences
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 static
 bool

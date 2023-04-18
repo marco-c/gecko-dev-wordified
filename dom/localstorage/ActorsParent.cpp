@@ -9134,7 +9134,6 @@ mozilla
 :
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 const
 OriginMetadata
@@ -15489,7 +15488,6 @@ sInstance
 ;
 Mutex
 mShadowDatabaseMutex
-MOZ_UNANNOTATED
 ;
 bool
 mShutdownRequested

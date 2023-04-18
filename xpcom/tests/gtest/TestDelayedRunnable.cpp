@@ -1016,7 +1016,6 @@ false
 ;
 Monitor
 outerMonitor
-MOZ_UNANNOTATED
 (
 __func__
 )
@@ -1110,7 +1109,6 @@ __func__
 ;
 Monitor
 innerMonitor
-MOZ_UNANNOTATED
 (
 __func__
 )

@@ -586,7 +586,6 @@ threads
 mutable
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 RefPtr
 <
@@ -879,7 +878,6 @@ threads
 .
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 media
 :

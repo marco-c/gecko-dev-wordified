@@ -2575,7 +2575,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 DequeWrapperMW
 (

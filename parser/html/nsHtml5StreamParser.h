@@ -3054,7 +3054,6 @@ mozilla
 :
 Mutex
 mTokenizerMutex
-MOZ_UNANNOTATED
 ;
 /
 *
@@ -3213,7 +3212,6 @@ mozilla
 :
 Mutex
 mSpeculationMutex
-MOZ_UNANNOTATED
 ;
 /
 *
@@ -3553,7 +3551,6 @@ mozilla
 :
 Mutex
 mFlushTimerMutex
-MOZ_UNANNOTATED
 ;
 /
 *

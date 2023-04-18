@@ -16313,7 +16313,6 @@ point
 static
 StaticMutex
 gTelemetryScalarsMutex
-MOZ_UNANNOTATED
 ;
 void
 TelemetryScalar

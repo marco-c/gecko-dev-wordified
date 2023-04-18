@@ -1806,7 +1806,6 @@ msg
 ;
 ReentrantMonitor
 monitor_
-MOZ_UNANNOTATED
 ;
 /
 /

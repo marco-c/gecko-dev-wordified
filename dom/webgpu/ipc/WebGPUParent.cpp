@@ -468,7 +468,6 @@ mQueuedBufferIds
 ;
 Mutex
 mBuffersLock
-MOZ_UNANNOTATED
 ;
 PresentationData
 (

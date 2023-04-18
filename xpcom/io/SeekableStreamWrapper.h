@@ -495,7 +495,6 @@ mCurrent
 .
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 SeekableStreamWrapper

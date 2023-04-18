@@ -544,7 +544,6 @@ Singleton
 static
 StaticMutex
 sMutex
-MOZ_UNANNOTATED
 ;
 StaticMutexAutoLock
 lock

@@ -2386,7 +2386,6 @@ concurrently
 static
 StaticMutex
 sValsMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

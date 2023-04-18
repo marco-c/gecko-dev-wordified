@@ -478,7 +478,6 @@ aNeedsDepthBuffer
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /

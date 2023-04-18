@@ -729,7 +729,6 @@ mPromise
 .
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 ReorderQueue
 mReorderQueue

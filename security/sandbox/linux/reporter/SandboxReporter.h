@@ -563,7 +563,6 @@ mThread
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /

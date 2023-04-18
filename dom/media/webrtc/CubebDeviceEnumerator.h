@@ -517,7 +517,6 @@ mOutputDevices
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 RefPtr
 <

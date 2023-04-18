@@ -1877,7 +1877,6 @@ thread
 with
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 }
 ;

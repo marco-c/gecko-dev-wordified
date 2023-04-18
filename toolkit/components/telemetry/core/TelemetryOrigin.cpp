@@ -1188,7 +1188,6 @@ point
 static
 StaticMutex
 gTelemetryOriginMutex
-MOZ_UNANNOTATED
 ;
 typedef
 nsTArray

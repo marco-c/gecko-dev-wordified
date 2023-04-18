@@ -1216,7 +1216,6 @@ methods
 .
 Mutex
 mFileMutex
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -1371,7 +1370,6 @@ methods
 .
 Mutex
 mDataMutex
-MOZ_UNANNOTATED
 ;
 /
 /

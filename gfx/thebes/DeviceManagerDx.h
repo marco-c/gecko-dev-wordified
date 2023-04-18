@@ -1033,7 +1033,6 @@ mozilla
 :
 Mutex
 mDeviceLock
-MOZ_UNANNOTATED
 ;
 nsTArray
 <

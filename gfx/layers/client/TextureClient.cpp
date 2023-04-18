@@ -2967,7 +2967,6 @@ false
 ;
 ReentrantMonitor
 barrier
-MOZ_UNANNOTATED
 (
 "
 DeallocateTextureClient

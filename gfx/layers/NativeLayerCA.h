@@ -1088,7 +1088,6 @@ aProofOfLock
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -2803,7 +2802,6 @@ class
 .
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /

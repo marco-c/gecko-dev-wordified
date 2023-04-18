@@ -660,7 +660,6 @@ of
 mBackgroundThread
 Mutex
 mBgThreadMutex
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

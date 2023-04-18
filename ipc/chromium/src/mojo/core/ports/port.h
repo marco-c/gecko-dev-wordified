@@ -1731,7 +1731,6 @@ mozilla
 :
 Mutex
 lock_
-MOZ_UNANNOTATED
 {
 "
 Port

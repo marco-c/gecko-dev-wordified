@@ -487,7 +487,6 @@ return
 ;
 Mutex
 lock
-MOZ_UNANNOTATED
 ;
 LifoAlloc
 alloc

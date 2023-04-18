@@ -467,7 +467,6 @@ TimerThread
 mMonitor
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mShutdown

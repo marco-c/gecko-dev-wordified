@@ -1800,7 +1800,6 @@ mozilla
 :
 ReentrantMonitor
 mRendererMonitor
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -2175,7 +2174,6 @@ mWatchManager
 mutable
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /

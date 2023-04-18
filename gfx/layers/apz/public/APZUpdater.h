@@ -1537,7 +1537,6 @@ WebRender
 static
 StaticMutex
 sWindowIdLock
-MOZ_UNANNOTATED
 ;
 static
 StaticAutoPtr
@@ -1574,7 +1573,6 @@ mUpdaterThreadId
 mutable
 Mutex
 mThreadIdLock
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -1715,7 +1713,6 @@ protect
 mUpdaterQueue
 Mutex
 mQueueLock
-MOZ_UNANNOTATED
 ;
 /
 /

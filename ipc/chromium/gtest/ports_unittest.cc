@@ -1781,7 +1781,6 @@ mozilla
 :
 Mutex
 lock_
-MOZ_UNANNOTATED
 {
 "
 TestNode
@@ -2818,7 +2817,6 @@ mozilla
 :
 Mutex
 global_lock_
-MOZ_UNANNOTATED
 {
 "
 PortsTest
@@ -2832,7 +2830,6 @@ mozilla
 :
 Mutex
 lock_
-MOZ_UNANNOTATED
 {
 "
 PortsTest

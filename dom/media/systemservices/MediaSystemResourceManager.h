@@ -353,7 +353,6 @@ aSuccess
 ;
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mShutDown

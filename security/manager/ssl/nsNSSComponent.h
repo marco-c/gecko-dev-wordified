@@ -654,7 +654,6 @@ mozilla
 :
 Monitor
 mLoadableCertsLoadedMonitor
-MOZ_UNANNOTATED
 ;
 bool
 mLoadableCertsLoaded
@@ -682,7 +681,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /

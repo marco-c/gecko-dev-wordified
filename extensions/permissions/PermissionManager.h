@@ -2402,7 +2402,6 @@ PermissionManager
 static
 StaticMutex
 sCreationMutex
-MOZ_UNANNOTATED
 ;
 /
 *
@@ -3449,7 +3448,6 @@ reading
 .
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 enum
 State

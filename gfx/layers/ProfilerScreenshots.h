@@ -795,7 +795,6 @@ mAvailableSurfaces
 .
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 /
 /

@@ -2866,7 +2866,6 @@ IterationWaitHelper
 {
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 /
 /

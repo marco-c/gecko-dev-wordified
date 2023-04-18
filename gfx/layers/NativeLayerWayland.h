@@ -423,7 +423,6 @@ aProofOfLock
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 MozContainer
 *
@@ -888,7 +887,6 @@ aTime
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 const
 RefPtr

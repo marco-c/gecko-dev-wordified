@@ -516,7 +516,6 @@ destructor
 /
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 void
 *

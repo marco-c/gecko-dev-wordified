@@ -695,7 +695,6 @@ const
 ;
 Mutex
 mLock
-MOZ_UNANNOTATED
 ;
 /
 /

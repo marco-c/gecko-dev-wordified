@@ -1611,7 +1611,6 @@ mCacheData
 ;
 Mutex
 mTableLock
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <

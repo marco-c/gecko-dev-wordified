@@ -1890,7 +1890,6 @@ CloseHandleInternal
 mutable
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 int32_t
 mStride

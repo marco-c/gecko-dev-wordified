@@ -623,7 +623,6 @@ mReadArray
 ;
 Monitor
 mMonitor
-MOZ_UNANNOTATED
 ;
 Atomic
 <

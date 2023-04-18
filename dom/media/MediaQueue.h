@@ -1262,7 +1262,6 @@ elem
 mutable
 RecursiveMutex
 mRecursiveMutex
-MOZ_UNANNOTATED
 ;
 MediaEventProducer
 <

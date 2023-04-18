@@ -1191,7 +1191,6 @@ mozilla
 :
 Mutex
 mInterceptorMapMutex
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -1225,7 +1224,6 @@ mozilla
 :
 Mutex
 mStdMarshalMutex
-MOZ_UNANNOTATED
 ;
 /
 /

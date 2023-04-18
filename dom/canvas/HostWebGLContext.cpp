@@ -255,7 +255,6 @@ mozilla
 static
 StaticMutex
 sContextSetLock
-MOZ_UNANNOTATED
 ;
 static
 std

@@ -429,7 +429,6 @@ default
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 nsInputStreamTransport

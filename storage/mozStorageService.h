@@ -705,7 +705,6 @@ mLocaleCollation
 /
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 struct
 AutoVFSRegistration
@@ -789,7 +788,6 @@ mConnections
 /
 Mutex
 mRegistrationMutex
-MOZ_UNANNOTATED
 ;
 /
 *

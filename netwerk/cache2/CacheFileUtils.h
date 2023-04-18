@@ -824,7 +824,6 @@ calls
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -1199,7 +1198,6 @@ mShortAvg
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 static
 PerfData
@@ -1298,7 +1296,6 @@ mozilla
 :
 Mutex
 mLock
-MOZ_UNANNOTATED
 {
 "
 CacheFile

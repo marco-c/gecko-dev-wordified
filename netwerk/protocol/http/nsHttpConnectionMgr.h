@@ -2204,7 +2204,6 @@ mReentrantMonitor
 -
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 {
 "
 nsHttpConnectionMgr

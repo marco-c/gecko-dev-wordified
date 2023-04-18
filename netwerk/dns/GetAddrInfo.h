@@ -505,7 +505,6 @@ mozilla
 :
 RWLock
 mLock
-MOZ_UNANNOTATED
 {
 "
 NativeDNSResolverOverride
