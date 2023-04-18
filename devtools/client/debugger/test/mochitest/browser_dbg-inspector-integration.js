@@ -307,6 +307,7 @@ Bug
 1562165
 lands
 .
+await
 waitUntil
 (
 (
