@@ -371,7 +371,7 @@ else
 return
 0
 def
-determine_quantile
+determine_percentile
 (
 quantiles_file
 duration
@@ -424,7 +424,7 @@ readlines
 (
 )
 ]
-        
+    
 boundaries
 .
 sort
@@ -450,15 +450,15 @@ v
 break
     
 #
-In
-case
-we
-weren
-'
-t
-given
-100
-elements
+Estimate
+percentile
+from
+len
+(
+boundaries
+)
+-
+quantile
     
 return
 int
@@ -690,7 +690,7 @@ len
 tasklist
 )
     
-quantile
+percentile
 =
 None
     
@@ -717,11 +717,9 @@ graph_quantile_cache
 )
 :
         
-quantile
+percentile
 =
-100
--
-determine_quantile
+determine_percentile
 (
             
 graph_quantile_cache
@@ -732,17 +730,17 @@ total_requested_duration
 )
     
 if
-quantile
+percentile
 :
         
 output
 [
 "
-quantile
+percentile
 "
 ]
 =
-quantile
+percentile
     
 output
 [

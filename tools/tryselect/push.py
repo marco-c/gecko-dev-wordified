@@ -972,26 +972,32 @@ selected_duration
     
 print
 (
+        
 "
 estimates
 :
 In
 the
+top
 {
 }
 %
-percentile
+of
+durations
 "
 .
 format
 (
+100
+-
 durations
 [
 "
-quantile
+percentile
 "
 ]
 )
+    
 )
     
 print
