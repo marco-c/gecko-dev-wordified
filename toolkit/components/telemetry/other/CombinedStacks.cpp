@@ -1172,12 +1172,6 @@ mMaxStacksCount
 maxStacksCount
 ;
 }
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 void
 CombinedStacks
 :
@@ -1203,8 +1197,6 @@ clear
 )
 ;
 }
-#
-endif
 JSObject
 *
 CreateJSStackObject

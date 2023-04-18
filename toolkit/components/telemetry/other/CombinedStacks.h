@@ -297,12 +297,6 @@ unsigned
 aIndex
 )
 ;
-#
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
 /
 *
 *
@@ -323,8 +317,6 @@ Clear
 (
 )
 ;
-#
-endif
 private
 :
 std
