@@ -3110,6 +3110,12 @@ IsAutoscroll
 )
 const
 {
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 return
 mState
 =
