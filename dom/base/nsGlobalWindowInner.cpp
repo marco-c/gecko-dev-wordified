@@ -5991,6 +5991,10 @@ mHasOpenedExternalProtocolFrame
 (
 false
 )
+mScrollMarksOnHScrollbar
+(
+false
+)
 mStorageAllowedReasonCache
 (
 0
@@ -47905,6 +47909,8 @@ uint32_t
 >
 &
 aScrollMarks
+bool
+aOnHScrollbar
 )
 {
 mScrollMarks
@@ -47913,6 +47919,10 @@ Assign
 (
 aScrollMarks
 )
+;
+mScrollMarksOnHScrollbar
+=
+aOnHScrollbar
 ;
 /
 /
@@ -47962,7 +47972,7 @@ sf
 sf
 -
 >
-InvalidateVerticalScrollbar
+InvalidateScrollbars
 (
 )
 ;

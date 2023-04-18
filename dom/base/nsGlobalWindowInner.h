@@ -9378,6 +9378,16 @@ return
 mScrollMarks
 ;
 }
+bool
+GetScrollMarksOnHScrollbar
+(
+)
+const
+{
+return
+mScrollMarksOnHScrollbar
+;
+}
 void
 SetScrollMarks
 (
@@ -9388,6 +9398,8 @@ uint32_t
 >
 &
 aScrollMarks
+bool
+aOnHScrollbar
 )
 ;
 /
@@ -9973,6 +9985,11 @@ windows
 .
 bool
 mHasOpenedExternalProtocolFrame
+:
+1
+;
+bool
+mScrollMarksOnHScrollbar
 :
 1
 ;

@@ -3575,7 +3575,7 @@ changed
 /
 virtual
 void
-InvalidateVerticalScrollbar
+InvalidateScrollbars
 (
 )
 const
