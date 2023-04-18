@@ -23010,7 +23010,7 @@ aWebProgress
 nsIURI
 *
 aRefreshURI
-uint32_t
+int32_t
 aMillis
 bool
 aSameURI
