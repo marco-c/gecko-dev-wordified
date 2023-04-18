@@ -115,7 +115,7 @@ h
 "
 #
 ifdef
-HAVE_FONTCONFIG_FCFREETYPE_H
+USE_FC_FREETYPE
 #
 include
 <
@@ -167,7 +167,7 @@ return
 ;
 #
 ifdef
-HAVE_FONTCONFIG_FCFREETYPE_H
+USE_FC_FREETYPE
 /
 /
 FcFreeTypeCharIndex
@@ -437,7 +437,7 @@ return
 ;
 #
 ifdef
-HAVE_FONTCONFIG_FCFREETYPE_H
+USE_FC_FREETYPE
 /
 /
 FcFreeTypeCharIndex
