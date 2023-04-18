@@ -258,7 +258,7 @@ Type_Bool
 Type_Int32
 Type_Double
 Type_Pointer
-Type_Object
+Type_Cell
 Type_Value
 Type_Handle
 }
@@ -1518,7 +1518,7 @@ return
 returnType
 =
 =
-Type_Object
+Type_Cell
 |
 |
 outParam
@@ -2226,7 +2226,7 @@ Type_Bool
 returnType
 =
 =
-Type_Object
+Type_Cell
 )
 ;
 }

@@ -635,7 +635,7 @@ const
 DataType
 result
 =
-Type_Object
+Type_Cell
 ;
 }
 ;
