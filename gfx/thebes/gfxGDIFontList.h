@@ -1051,8 +1051,9 @@ mCharset
 )
 {
 }
+virtual
 void
-FindStyleVariationsLocked
+FindStyleVariations
 (
 FontInfoData
 *
@@ -1060,7 +1061,6 @@ aFontInfoData
 =
 nullptr
 )
-override
 ;
 bool
 FilterForFontList
@@ -1674,7 +1674,7 @@ const
 override
 ;
 bool
-FindAndAddFamiliesLocked
+FindAndAddFamilies
 (
 nsPresContext
 *

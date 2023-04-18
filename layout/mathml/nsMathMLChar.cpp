@@ -11942,13 +11942,6 @@ PlatformFontList
 (
 )
 ;
-pfl
--
->
-Lock
-(
-)
-;
 if
 (
 pfl
@@ -12017,13 +12010,6 @@ mathFallbacks
 )
 ;
 }
-pfl
--
->
-Unlock
-(
-)
-;
 InsertMathFallbacks
 (
 font

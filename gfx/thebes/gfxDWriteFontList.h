@@ -483,7 +483,7 @@ gfxDWriteFontFamily
 )
 ;
 void
-FindStyleVariationsLocked
+FindStyleVariations
 (
 FontInfoData
 *
@@ -1163,7 +1163,6 @@ aFontInfoData
 =
 nullptr
 )
-override
 ;
 bool
 IsCJKFont
@@ -2131,10 +2130,6 @@ aFamily
 bool
 aNeedFullnamePostscriptNames
 )
-REQUIRES
-(
-mLock
-)
 override
 ;
 bool
@@ -2261,7 +2256,7 @@ UseGDIFontTableAccess
 const
 ;
 bool
-FindAndAddFamiliesLocked
+FindAndAddFamilies
 (
 nsPresContext
 *
