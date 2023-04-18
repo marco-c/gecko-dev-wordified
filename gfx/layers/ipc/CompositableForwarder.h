@@ -246,9 +246,6 @@ SurfaceDescriptorTiles
 class
 TextureClient
 ;
-class
-ThebesBufferData
-;
 /
 *
 *
