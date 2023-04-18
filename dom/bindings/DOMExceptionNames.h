@@ -165,7 +165,7 @@ e
 .
 g
 .
-InvalidPointerId
+EncodingError
 )
 and
 has
