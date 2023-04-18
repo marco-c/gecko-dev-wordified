@@ -334,6 +334,11 @@ domain
 builderMetadata
 :
 {
+title
+:
+"
+example
+"
 domain
 :
 "
@@ -531,6 +536,11 @@ domain
 builderMetadata
 :
 {
+title
+:
+"
+example
+"
 domain
 :
 "

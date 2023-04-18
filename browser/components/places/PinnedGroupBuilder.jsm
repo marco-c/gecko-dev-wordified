@@ -985,10 +985,6 @@ generateEmptyGroup
 {
 return
 {
-title
-:
-"
-"
 builder
 :
 "
