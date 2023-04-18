@@ -7151,8 +7151,8 @@ TODO
 :
 remove
 the
-return
-statement
+if
+directive
 with
 bug
 598468
@@ -7170,8 +7170,9 @@ some
 edge
 cases
 .
-return
-;
+#
+if
+0
 /
 /
 Only
@@ -7273,6 +7274,8 @@ correctly
 ;
 }
 }
+#
+endif
 }
 /
 *
@@ -7341,8 +7344,8 @@ TODO
 :
 remove
 the
-return
-statement
+if
+directive
 with
 bug
 598468
@@ -7360,8 +7363,9 @@ some
 edge
 cases
 .
-return
-;
+#
+if
+0
 /
 /
 Only
@@ -7463,6 +7467,8 @@ correctly
 ;
 }
 }
+#
+endif
 }
 #
 endif
