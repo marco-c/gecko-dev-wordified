@@ -310,6 +310,12 @@ Create
 "
 stun
 "
+NrIceCtx
+:
+:
+Config
+(
+)
 )
 ;
 test_utils_
@@ -689,7 +695,6 @@ ice_ctx_
 ctx
 (
 )
-nullptr
 &
 local
 tcp_type
