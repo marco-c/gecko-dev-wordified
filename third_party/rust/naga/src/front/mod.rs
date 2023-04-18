@@ -8,9 +8,6 @@ shaders
 into
 memory
 .
-mod
-interpolator
-;
 #
 [
 cfg
@@ -73,7 +70,6 @@ arena
 {
 Arena
 Handle
-UniqueArena
 }
 proc
 :
@@ -273,9 +269,7 @@ span
 Span
 :
 :
-default
-(
-)
+Unknown
 ;
 let
 range
@@ -491,7 +485,7 @@ types
 &
 '
 a
-UniqueArena
+Arena
 <
 crate
 :

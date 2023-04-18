@@ -2847,7 +2847,7 @@ err
 CommandEncoderAction
 :
 :
-FillBuffer
+ClearBuffer
 {
 dst
 offset
@@ -2865,7 +2865,7 @@ err
 =
 self
 .
-command_encoder_fill_buffer
+command_encoder_clear_buffer
 :
 :
 <
