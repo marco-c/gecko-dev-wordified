@@ -283,9 +283,6 @@ mIOThread
 ReentrantMonitor
 mMonitor
 ;
-nsString
-mAppUserModelId
-;
 bool
 IsSeparator
 (
