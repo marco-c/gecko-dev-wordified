@@ -11551,9 +11551,6 @@ position
 "
 bottom
 "
-hideIfOffscreen
-:
-true
 }
 )
 ;
@@ -11759,9 +11756,6 @@ position
 "
 top
 "
-hideIfOffscreen
-:
-true
 }
 )
 ;
