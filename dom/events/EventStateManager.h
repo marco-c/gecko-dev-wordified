@@ -668,7 +668,6 @@ nsIContent
 aOverrideClickTarget
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 PostHandleKeyboardEvent
 (
@@ -705,7 +704,6 @@ Gecko
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DispatchLegacyMouseScrollEvents
 (
@@ -2570,7 +2568,6 @@ event
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 nsIFrame
 *
 DispatchMouseOrPointerEvent
@@ -2666,7 +2663,6 @@ document
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyMouseOver
 (
@@ -2705,18 +2701,6 @@ currently
 hovered
 content
 .
-*
-TODO
-:
-Convert
-this
-to
-MOZ_CAN_RUN_SCRIPT
-(
-bug
-1415230
-)
-*
 *
 param
 aMouseEvent
@@ -2785,7 +2769,6 @@ state
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyMouseOut
 (
@@ -4987,7 +4970,6 @@ event
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 void
 SendLineScrollEvent
 (
@@ -5112,7 +5094,6 @@ event
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 void
 SendPixelScrollEvent
 (

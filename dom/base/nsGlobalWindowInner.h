@@ -1866,19 +1866,6 @@ aVisitor
 )
 override
 ;
-/
-/
-TODO
-:
-Convert
-this
-to
-MOZ_CAN_RUN_SCRIPT
-(
-bug
-1415230
-)
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 PostHandleEvent
 (
@@ -9097,7 +9084,6 @@ re
 an
 iframe
 .
-MOZ_CAN_RUN_SCRIPT
 void
 FireFrameLoadEvent
 (

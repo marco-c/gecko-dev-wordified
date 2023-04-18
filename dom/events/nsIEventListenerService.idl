@@ -514,9 +514,6 @@ returns
 .
 *
 /
-[
-can_run_script
-]
 Array
 <
 EventTarget

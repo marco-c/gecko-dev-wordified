@@ -9703,7 +9703,6 @@ aChild
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT
 static
 void
 MaybeFireNodeRemoved
@@ -12972,18 +12971,6 @@ children
 .
 *
 *
-TODO
-:
-Convert
-this
-to
-MOZ_CAN_RUN_SCRIPT
-(
-bug
-1415230
-)
-*
-*
 param
 aContent
 Node
@@ -13026,7 +13013,6 @@ one
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 SetNodeTextContent

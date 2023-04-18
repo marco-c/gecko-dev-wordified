@@ -2420,7 +2420,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Reset
 (
