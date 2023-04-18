@@ -131,7 +131,7 @@ namespace
 a11y
 {
 class
-LocalAccessible
+Accessible
 ;
 /
 *
@@ -187,7 +187,7 @@ private
 bool
 IsSingleLineage
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -196,7 +196,7 @@ bool
 IsFlatSubtree
 (
 const
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -205,7 +205,7 @@ bool
 IsListItemBullet
 (
 const
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -214,7 +214,7 @@ bool
 HasName
 (
 const
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -222,7 +222,7 @@ aAccessible
 uint16_t
 DefaultMatch
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -230,7 +230,7 @@ aAccessible
 uint16_t
 LinkMatch
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -238,7 +238,7 @@ aAccessible
 uint16_t
 HeadingMatch
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -246,7 +246,7 @@ aAccessible
 uint16_t
 ControlMatch
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -254,7 +254,7 @@ aAccessible
 uint16_t
 SectionMatch
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -262,7 +262,7 @@ aAccessible
 uint16_t
 LandmarkMatch
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 )
