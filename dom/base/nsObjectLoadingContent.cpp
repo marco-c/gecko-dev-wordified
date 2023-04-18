@@ -12485,6 +12485,14 @@ cspToInherit
 )
 ;
 }
+loadState
+-
+>
+SetTriggeringSandboxFlags
+(
+sandboxFlags
+)
+;
 /
 /
 TODO

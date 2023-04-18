@@ -5244,12 +5244,10 @@ mIsDocumentLoad
 auto
 sandboxFlags
 =
-GetLoadingBrowsingContext
-(
-)
+aLoadState
 -
 >
-GetSandboxFlags
+TriggeringSandboxFlags
 (
 )
 ;
