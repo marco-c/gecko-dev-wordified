@@ -1727,7 +1727,7 @@ dom
 .
 securecontext
 .
-whitelist_onions
+allowlist_onions
 is
 true
 .
@@ -1750,7 +1750,7 @@ if
 StaticPrefs
 :
 :
-dom_securecontext_whitelist_onions
+dom_securecontext_allowlist_onions
 (
 )
 )
@@ -1827,7 +1827,7 @@ dom
 .
 securecontext
 .
-whitelist
+allowlist
 "
 )
 )
@@ -1842,7 +1842,7 @@ dom
 .
 securecontext
 .
-whitelist
+allowlist
 "
 *
 sSecurecontextAllowlist
@@ -1904,7 +1904,7 @@ dom
 .
 securecontext
 .
-whitelist
+allowlist
 "
 )
 ;
@@ -2403,7 +2403,7 @@ dom
 .
 securecontext
 .
-whitelist_onions
+allowlist_onions
 is
 true
 .
