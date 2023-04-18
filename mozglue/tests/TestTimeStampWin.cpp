@@ -345,11 +345,6 @@ the
 current
 timestamp
 .
-bool
-inconsistent
-=
-false
-;
 auto
 t0
 =
@@ -361,8 +356,6 @@ TimeStamp
 :
 ProcessCreation
 (
-&
-inconsistent
 )
 ;
 auto
