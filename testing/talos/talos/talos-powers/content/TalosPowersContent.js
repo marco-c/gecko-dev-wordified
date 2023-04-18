@@ -546,7 +546,7 @@ event
 }
 goQuitApplication
 (
-waitForSafeBrowsing
+waitForStartupFinished
 )
 {
 var
@@ -564,7 +564,9 @@ bubbles
 true
 detail
 :
-waitForSafeBrowsing
+{
+waitForStartupFinished
+}
 }
 )
 ;
