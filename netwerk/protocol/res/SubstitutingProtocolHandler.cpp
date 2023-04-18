@@ -306,13 +306,6 @@ nsResProtocol
 static
 NS_DEFINE_CID
 (
-kSubstitutingURLCID
-NS_SUBSTITUTINGURL_CID
-)
-;
-static
-NS_DEFINE_CID
-(
 kSubstitutingJARURIImplCID
 NS_SUBSTITUTINGJARURI_IMPL_CID
 )
