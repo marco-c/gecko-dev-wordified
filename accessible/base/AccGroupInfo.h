@@ -83,7 +83,7 @@ namespace
 a11y
 {
 class
-LocalAccessible
+Accessible
 ;
 /
 *
@@ -207,7 +207,7 @@ for
 .
 *
 /
-LocalAccessible
+Accessible
 *
 ConceptualParent
 (
@@ -249,7 +249,7 @@ AccGroupInfo
 CreateGroupInfo
 (
 const
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -270,12 +270,12 @@ container
 *
 /
 static
-LocalAccessible
+Accessible
 *
 FirstItemOf
 (
 const
-LocalAccessible
+Accessible
 *
 aContainer
 )
@@ -306,7 +306,7 @@ static
 uint32_t
 TotalItemCount
 (
-LocalAccessible
+Accessible
 *
 aContainer
 bool
@@ -333,11 +333,11 @@ item
 *
 /
 static
-LocalAccessible
+Accessible
 *
 NextItemTo
 (
-LocalAccessible
+Accessible
 *
 aItem
 )
@@ -347,7 +347,7 @@ protected
 AccGroupInfo
 (
 const
-LocalAccessible
+Accessible
 *
 aItem
 a11y
@@ -562,7 +562,7 @@ int32_t
 GetARIAOrDefaultLevel
 (
 const
-LocalAccessible
+Accessible
 *
 aAccessible
 )
@@ -573,12 +573,12 @@ mPosInSet
 uint32_t
 mSetSize
 ;
-LocalAccessible
+Accessible
 *
 mParent
 ;
 const
-LocalAccessible
+Accessible
 *
 mItem
 ;
