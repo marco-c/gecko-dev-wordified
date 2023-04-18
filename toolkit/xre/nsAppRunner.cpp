@@ -4481,6 +4481,16 @@ EnsureWin32kInitialized
 (
 )
 ;
+gfx
+:
+:
+gfxVars
+:
+:
+Initialize
+(
+)
+;
 if
 (
 gSafeMode
