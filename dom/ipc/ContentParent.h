@@ -4528,6 +4528,12 @@ aName
 nsresult
 &
 aResult
+nsCOMPtr
+<
+nsIRemoteTab
+>
+&
+aNewRemoteTab
 bool
 *
 aWindowIsNew
