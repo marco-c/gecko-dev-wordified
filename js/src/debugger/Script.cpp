@@ -9720,12 +9720,6 @@ case
 JSOp
 :
 :
-Gosub
-:
-case
-JSOp
-:
-:
 Retsub
 :
 case

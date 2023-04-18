@@ -1233,15 +1233,6 @@ BytecodeFallsThrough
 (
 op
 )
-&
-&
-op
-!
-=
-JSOp
-:
-:
-Gosub
 ;
 /
 /

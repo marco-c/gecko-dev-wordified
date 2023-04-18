@@ -270,7 +270,7 @@ JOF_RESUMEINDEX
 yield
 await
 or
-gosub
+retsub
 resume
 index
 *

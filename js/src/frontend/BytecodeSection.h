@@ -2072,7 +2072,7 @@ ops
 (
 yield
 await
-gosub
+retsub
 )
 have
 an

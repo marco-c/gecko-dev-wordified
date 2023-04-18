@@ -3135,7 +3135,7 @@ enditer
 ]
 and
 [
-gosub
+goto
 ]
 *
 opcodes
@@ -3227,7 +3227,7 @@ enditer
 ]
 and
 [
-gosub
+goto
 ]
 opcodes
 will
