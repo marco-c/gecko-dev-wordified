@@ -11526,7 +11526,6 @@ std
 :
 move
 (
-*
 parseTask
 -
 >

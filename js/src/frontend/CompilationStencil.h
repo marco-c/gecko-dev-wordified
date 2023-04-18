@@ -8866,7 +8866,10 @@ steal
 JSContext
 *
 cx
+RefPtr
+<
 CompilationStencil
+>
 &
 &
 other
