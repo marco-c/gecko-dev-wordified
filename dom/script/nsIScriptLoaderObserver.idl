@@ -339,6 +339,9 @@ loaded
 ?
 *
 /
+[
+can_run_script
+]
 void
 scriptEvaluated
 (
