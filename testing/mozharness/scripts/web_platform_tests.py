@@ -2017,6 +2017,29 @@ abs_test_install_dir
 ]
 )
         
+#
+Default
+to
+fission
+disabled
+        
+fission_enabled
+=
+"
+fission
+.
+autostart
+=
+true
+"
+in
+c
+[
+"
+extra_prefs
+"
+]
+        
 raw_log_file
 error_summary_file
 =
@@ -2326,22 +2349,7 @@ in
 test_types
             
 or
-"
-fission
-.
-autostart
-=
-true
-"
-in
-c
-[
-"
-extra_prefs
-"
-]
-            
-or
+fission_enabled
             
 #
 Bug
@@ -2356,6 +2364,7 @@ is
 denied
 .
             
+or
 is_windows_7
             
 and
@@ -2550,6 +2559,44 @@ extra_prefs
 "
 ]
 ]
+)
+        
+if
+not
+fission_enabled
+and
+"
+fission
+.
+autostart
+=
+false
+"
+not
+in
+c
+[
+"
+extra_prefs
+"
+]
+:
+            
+cmd
+.
+append
+(
+"
+-
+-
+setpref
+=
+fission
+.
+autostart
+=
+false
+"
 )
         
 if
