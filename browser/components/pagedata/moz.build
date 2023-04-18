@@ -135,11 +135,6 @@ OpenGraphPageData
 jsm
 "
 "
-PageDataCollector
-.
-jsm
-"
-"
 PageDataSchema
 .
 jsm
