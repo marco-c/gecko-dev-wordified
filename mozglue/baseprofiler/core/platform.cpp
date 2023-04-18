@@ -1759,6 +1759,11 @@ ProfilerFeature
 :
 :
 MainThreadIO
+|
+ProfilerFeature
+:
+:
+IPCMessages
 ;
 }
 /

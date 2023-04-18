@@ -2025,6 +2025,11 @@ ProfilerFeature
 :
 :
 FileIOAll
+|
+ProfilerFeature
+:
+:
+IPCMessages
 ;
 }
 /
