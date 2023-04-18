@@ -8544,13 +8544,6 @@ WEBFONT_SIZE_PER_PAGE
 )
 ;
 }
-mPresContext
--
->
-CancelManagedPostRefreshObservers
-(
-)
-;
 }
 #
 ifdef

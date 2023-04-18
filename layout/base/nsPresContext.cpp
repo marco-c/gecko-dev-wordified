@@ -6776,6 +6776,10 @@ mPresShell
 =
 nullptr
 ;
+CancelManagedPostRefreshObservers
+(
+)
+;
 if
 (
 mAnimationEventDispatcher
