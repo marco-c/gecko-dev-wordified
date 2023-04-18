@@ -427,7 +427,6 @@ producing
 audio
 data
 .
-virtual
 void
 Start
 (
@@ -440,7 +439,6 @@ producing
 audio
 data
 .
-virtual
 void
 Stop
 (
@@ -457,7 +455,6 @@ of
 data
 inside
 .
-virtual
 AudioSegment
 GetAudioSegment
 (
