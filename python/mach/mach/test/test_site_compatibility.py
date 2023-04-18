@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+os
+import
 shutil
 import
 subprocess
@@ -267,8 +269,6 @@ lines
 .
 append
 (
-str
-(
 cache
 .
 package_for_vendor_dir
@@ -278,7 +278,6 @@ Path
 vendored
 .
 path
-)
 )
 )
 )
@@ -544,10 +543,16 @@ _cache
 vendor_path
 ]
 =
+str
+(
 package_dir
+)
             
 return
+str
+(
 package_dir
+)
         
 #
 Pip
@@ -626,6 +631,8 @@ placeholder
         
 output_path
 =
+str
+(
 self
 .
 _storage_dir
@@ -646,15 +653,13 @@ none
 -
 any
 "
+)
         
 shutil
 .
 make_archive
 (
-str
-(
 output_path
-)
 "
 zip
 "
@@ -664,39 +669,22 @@ vendor_path
 whl_path
 =
 output_path
-.
-parent
-/
-(
-output_path
-.
-name
 +
 "
 .
 whl
 "
-)
         
+os
+.
+rename
 (
 output_path
-.
-parent
-/
-(
-output_path
-.
-name
 +
 "
 .
 zip
 "
-)
-)
-.
-rename
-(
 whl_path
 )
         
@@ -715,8 +703,6 @@ def
 test_sites_compatible
 (
 tmpdir
-:
-str
 )
 :
     
@@ -774,30 +760,27 @@ sys
 .
 executable
             
-str
+os
+.
+path
+.
+join
 (
                 
-Path
-(
 topsrcdir
-)
                 
-/
 "
 third_party
 "
                 
-/
 "
 python
 "
                 
-/
 "
 virtualenv
 "
                 
-/
 "
 virtualenv
 .

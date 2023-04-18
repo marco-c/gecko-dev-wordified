@@ -93,8 +93,8 @@ __init__
         
 self
 cwd
-:
-str
+=
+None
 settings
 =
 None

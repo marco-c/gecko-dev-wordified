@@ -67,10 +67,6 @@ subprocess
 import
 sys
 from
-pathlib
-import
-Path
-from
 six
 .
 moves
@@ -144,31 +140,33 @@ get_repository_object
 InvalidRepoPath
 MACH_METRICS_PATH
 =
+os
+.
+path
+.
+abspath
 (
-Path
+os
+.
+path
+.
+join
 (
 __file__
-)
-/
 "
 .
 .
 "
-/
 "
 .
 .
 "
-/
 "
 metrics
 .
 yaml
 "
 )
-.
-resolve
-(
 )
 def
 create_telemetry_from_environment
@@ -741,7 +739,11 @@ msys
 :
         
 return
-Path
+os
+.
+path
+.
+join
 (
 os
 .
@@ -755,18 +757,21 @@ APPDATA
 "
 "
 )
-)
-/
 "
 .
 arcrc
 "
+)
     
 else
 :
         
 return
-Path
+os
+.
+path
+.
+expanduser
 (
 "
 ~
@@ -775,34 +780,37 @@ Path
 arcrc
 "
 )
-.
-expanduser
-(
-)
 def
 resolve_setting_from_arcconfig
 (
 topsrcdir
-:
-Path
 setting
 )
 :
     
 git_path
 =
+os
+.
+path
+.
+join
+(
 topsrcdir
-/
 "
 .
 git
 "
+)
     
 if
-git_path
+os
 .
-is_file
+path
+.
+isfile
 (
+git_path
 )
 :
         
@@ -835,10 +843,7 @@ dir
             
 cwd
 =
-str
-(
 topsrcdir
-)
             
 universal_newlines
 =
@@ -851,31 +856,48 @@ arcconfig_path
 in
 [
         
+os
+.
+path
+.
+join
+(
 topsrcdir
-/
 "
 .
 hg
 "
-/
 "
 .
 arcconfig
 "
+)
         
+os
+.
+path
+.
+join
+(
 git_path
-/
 "
 .
 arcconfig
 "
+)
         
+os
+.
+path
+.
+join
+(
 topsrcdir
-/
 "
 .
 arcconfig
 "
+)
     
 ]
 :
@@ -934,8 +956,6 @@ def
 resolve_is_employee_by_credentials
 (
 topsrcdir
-:
-Path
 )
 :
     
@@ -1139,8 +1159,6 @@ def
 resolve_is_employee_by_vcs
 (
 topsrcdir
-:
-Path
 )
 :
     
@@ -1151,10 +1169,7 @@ vcs
 =
 get_repository_object
 (
-str
-(
 topsrcdir
-)
 )
     
 except
@@ -1192,8 +1207,6 @@ def
 resolve_is_employee
 (
 topsrcdir
-:
-Path
 )
 :
     
@@ -1310,8 +1323,6 @@ record_telemetry_settings
 main_settings
     
 state_dir
-:
-Path
     
 is_enabled
 )
@@ -1385,11 +1396,17 @@ it
     
 settings_path
 =
+os
+.
+path
+.
+join
+(
 state_dir
-/
 "
 machrc
 "
+)
     
 file_settings
 =
@@ -1419,13 +1436,12 @@ configparser
 .
 Error
 as
-error
+e
 :
         
 print
 (
             
-f
 "
 Your
 mach
@@ -1433,7 +1449,7 @@ configuration
 file
 at
 {
-settings_path
+path
 }
 cannot
 be
@@ -1445,6 +1461,18 @@ n
 error
 }
 "
+.
+format
+(
+                
+path
+=
+settings_path
+error
+=
+e
+            
+)
         
 )
         
@@ -1809,11 +1837,7 @@ initialize_telemetry_setting
 (
 settings
 topsrcdir
-:
-str
 state_dir
-:
-str
 )
 :
     
@@ -1872,34 +1896,6 @@ opt
 -
 in
 .
-    
-if
-topsrcdir
-is
-not
-None
-:
-        
-topsrcdir
-=
-Path
-(
-topsrcdir
-)
-    
-if
-state_dir
-is
-not
-None
-:
-        
-state_dir
-=
-Path
-(
-state_dir
-)
     
 if
 os

@@ -58,10 +58,8 @@ __future__
 import
 absolute_import
 unicode_literals
-from
-pathlib
 import
-Path
+os
 from
 unittest
 import
@@ -507,7 +505,11 @@ command_context
 assert
 (
             
-Path
+os
+.
+path
+.
+basename
 (
 command_context
 .
@@ -515,8 +517,7 @@ virtualenv_manager
 .
 virtualenv_root
 )
-.
-name
+            
 =
 =
 "
@@ -559,7 +560,11 @@ command_context
 assert
 (
             
-Path
+os
+.
+path
+.
+basename
 (
 command_context
 .
@@ -567,8 +572,7 @@ virtualenv_manager
 .
 virtualenv_root
 )
-.
-name
+            
 =
 =
 "
@@ -587,18 +591,10 @@ bar
 def
 from_environment_patch
 (
-        
 topsrcdir
-:
-str
 state_dir
-:
-str
 virtualenv_name
-directory
-:
-str
-    
+dir
 )
 :
         

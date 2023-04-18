@@ -67,10 +67,6 @@ collections
 .
 abc
 from
-typing
-import
-Optional
-from
 .
 base
 import
@@ -1149,11 +1145,6 @@ __init__
 self
 name
 metrics_path
-:
-Optional
-[
-str
-]
 =
 None
 *
@@ -1365,25 +1356,15 @@ __init__
 (
         
 self
-        
 command
-        
 subcommand
-        
 description
 =
 None
-        
 parser
 =
 None
-        
 metrics_path
-:
-Optional
-[
-str
-]
 =
 None
     
