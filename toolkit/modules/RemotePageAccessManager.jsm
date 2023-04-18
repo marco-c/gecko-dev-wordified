@@ -815,6 +815,9 @@ ShouldShowSearchBanner
 "
 ShouldShowVPNPromo
 "
+"
+SpecialMessageActionDispatch
+"
 ]
 RPMAddMessageListener
 :
