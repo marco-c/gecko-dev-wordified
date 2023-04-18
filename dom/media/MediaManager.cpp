@@ -17996,7 +17996,7 @@ prompted
 anyway
 .
 bool
-wantFakes
+forceFakes
 =
 c
 .
@@ -18005,7 +18005,8 @@ mFake
 WasPassed
 (
 )
-?
+&
+&
 c
 .
 mFake
@@ -18013,7 +18014,13 @@ mFake
 Value
 (
 )
-:
+;
+bool
+wantFakes
+=
+forceFakes
+|
+|
 Preferences
 :
 :
@@ -18078,6 +18085,10 @@ videoLoopDev
 IsEmpty
 (
 )
+&
+&
+!
+forceFakes
 )
 {
 videoEnumerationType
@@ -18147,6 +18158,10 @@ audioLoopDev
 IsEmpty
 (
 )
+&
+&
+!
+forceFakes
 )
 {
 audioEnumerationType
