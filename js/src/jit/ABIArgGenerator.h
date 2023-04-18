@@ -555,7 +555,7 @@ wasm
 FrameWithTls
 :
 :
-sizeWithoutFrame
+sizeOfTlsFields
 (
 )
 )
