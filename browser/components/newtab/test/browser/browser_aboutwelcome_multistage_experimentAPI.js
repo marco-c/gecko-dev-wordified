@@ -775,6 +775,10 @@ order
 content
 :
 {
+logo
+:
+{
+}
 title
 :
 "
