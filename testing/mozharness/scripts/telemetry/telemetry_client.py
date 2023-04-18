@@ -1273,6 +1273,24 @@ xml
 )
             
 #
+Symbols
+for
+crash
+reports
+            
+"
+-
+-
+symbols
+-
+path
+"
+            
+self
+.
+symbols_path
+            
+#
 Enable
 tracing
 output
