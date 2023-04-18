@@ -3114,15 +3114,6 @@ foo
 )
 )
 ;
-if
-(
-getRealmConfiguration
-(
-)
-.
-privateMethods
-)
-{
 /
 /
 #
@@ -3507,7 +3498,6 @@ getter
 SyntaxError
 )
 ;
-}
 /
 *
 SuperProperty

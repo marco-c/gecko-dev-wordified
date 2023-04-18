@@ -287,15 +287,6 @@ C
 ]
 )
 )
-if
-(
-getRealmConfiguration
-(
-)
-.
-privateFields
-)
-{
 assertExpr
 (
 "
@@ -432,7 +423,6 @@ lit
 ]
 )
 )
-}
 }
 runtest
 (
