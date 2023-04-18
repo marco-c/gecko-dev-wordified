@@ -13811,6 +13811,10 @@ nsIMIMEInfo
 :
 saveToDisk
 ;
+shouldAutomaticallyHandleInternally
+=
+false
+;
 }
 /
 /
