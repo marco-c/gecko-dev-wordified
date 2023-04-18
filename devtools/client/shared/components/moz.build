@@ -223,17 +223,4 @@ browser
 .
 ini
 "
-"
-test
-/
-node
-/
-stubs
-/
-reps
-/
-stubs
-.
-ini
-"
 ]
