@@ -157,7 +157,7 @@ rust_decimal
 "
 1
 .
-18
+20
 "
 /
 /
@@ -167,7 +167,7 @@ rust_decimal_macros
 "
 1
 .
-18
+20
 "
 /
 /
@@ -1913,6 +1913,7 @@ serde
 "
 )
 ]
+pub
 mod
 serde
 ;
@@ -2026,6 +2027,7 @@ num_traits
 {
 FromPrimitive
 One
+Signed
 ToPrimitive
 Zero
 }

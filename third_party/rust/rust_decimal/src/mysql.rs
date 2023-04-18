@@ -281,7 +281,6 @@ Decimal
 :
 from_str
 (
-&
 s
 )
 .

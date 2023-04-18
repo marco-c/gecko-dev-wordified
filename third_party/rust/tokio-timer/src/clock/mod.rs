@@ -247,8 +247,10 @@ clock
 :
 {
 now
+set_default
 with_default
 Clock
+DefaultGuard
 }
 ;
 pub

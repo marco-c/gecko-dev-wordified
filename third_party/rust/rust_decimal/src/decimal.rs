@@ -416,6 +416,7 @@ derive
 Clone
 Copy
 Debug
+PartialEq
 )
 ]
 pub
@@ -857,7 +858,7 @@ g
 5
 -
 >
-7
+6
 -
 6
 .

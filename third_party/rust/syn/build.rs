@@ -326,6 +326,17 @@ contains
 nightly
 "
 )
+|
+|
+version
+.
+ends_with
+(
+"
+-
+dev
+"
+)
 ;
 Some
 (

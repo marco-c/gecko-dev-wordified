@@ -3043,7 +3043,7 @@ postgres
 )
 ]
 mod
-postgres
+_postgres
 {
 use
 super

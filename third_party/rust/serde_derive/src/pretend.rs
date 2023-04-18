@@ -530,6 +530,7 @@ fields
 )
 =
 >
+{
 if
 is_packed
 {
@@ -546,6 +547,7 @@ pretend_fields_used_struct
 cont
 fields
 )
+}
 }
 Data
 :

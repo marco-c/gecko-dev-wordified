@@ -2738,7 +2738,7 @@ syn
 .
 0
 .
-82
+85
 "
 )
 ]
@@ -2773,6 +2773,10 @@ lints
 [
 allow
 (
+clippy
+:
+:
+cast_lossless
 clippy
 :
 :
@@ -2814,6 +2818,10 @@ clippy
 :
 :
 large_enum_variant
+clippy
+:
+:
+let_underscore_drop
 clippy
 :
 :
@@ -2863,6 +2871,10 @@ clippy
 :
 :
 never_loop
+clippy
+:
+:
+return_self_not_must_use
 clippy
 :
 :

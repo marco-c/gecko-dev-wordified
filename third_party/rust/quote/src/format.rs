@@ -292,6 +292,17 @@ present
 /
 /
 [
+IdentFragment
+]
+:
+crate
+:
+:
+IdentFragment
+/
+/
+/
+[
 Ident
 ]
 :
