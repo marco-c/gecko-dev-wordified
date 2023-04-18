@@ -3812,12 +3812,6 @@ entries
 functionAttrs
 )
 )
-{
-if
-(
-all
-)
-{
 limitedFunctions
 [
 functions
@@ -3834,8 +3828,6 @@ attributes
 all
 }
 ;
-}
-}
 for
 (
 const
