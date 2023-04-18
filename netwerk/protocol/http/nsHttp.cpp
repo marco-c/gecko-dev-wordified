@@ -2048,6 +2048,8 @@ loadFlags
 bool
 allowStaleCacheContent
 bool
+forceValidateCacheContent
+bool
 isImmutable
 bool
 customConditionalRequest
@@ -2258,12 +2260,17 @@ server
 if
 (
 (
+(
 loadFlags
 &
 nsIRequest
 :
 :
 VALIDATE_ALWAYS
+)
+|
+|
+forceValidateCacheContent
 )
 &
 &
