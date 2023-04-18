@@ -84152,7 +84152,7 @@ jit
 CPUInfo
 :
 :
-GetSSEVersion
+ComputeFlags
 (
 )
 ;

@@ -678,7 +678,7 @@ jit
 CPUInfo
 :
 :
-GetSSEVersion
+ComputeFlags
 (
 )
 ;
