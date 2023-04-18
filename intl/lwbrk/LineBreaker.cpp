@@ -152,17 +152,6 @@ Segmenter
 .
 h
 "
-#
-include
-"
-mozilla
-/
-intl
-/
-UnicodeProperties
-.
-h
-"
 using
 namespace
 mozilla
@@ -3524,9 +3513,6 @@ cls
 U_LB_POSTFIX_NUMERIC
 &
 &
-UnicodeProperties
-:
-:
 IsEastAsianWidthAFW
 (
 u
@@ -3545,9 +3531,6 @@ cls
 U_LB_PREFIX_NUMERIC
 &
 &
-UnicodeProperties
-:
-:
 IsEastAsianWidthAFW
 (
 u
@@ -3676,9 +3659,6 @@ cls
 U_LB_POSTFIX_NUMERIC
 &
 &
-UnicodeProperties
-:
-:
 IsEastAsianWidthAFW
 (
 u
@@ -3697,9 +3677,6 @@ cls
 U_LB_PREFIX_NUMERIC
 &
 &
-UnicodeProperties
-:
-:
 IsEastAsianWidthAFW
 (
 u
@@ -3894,9 +3871,6 @@ cls
 U_LB_POSTFIX_NUMERIC
 &
 &
-UnicodeProperties
-:
-:
 IsEastAsianWidthAFW
 (
 u
@@ -3915,9 +3889,6 @@ cls
 U_LB_PREFIX_NUMERIC
 &
 &
-UnicodeProperties
-:
-:
 IsEastAsianWidthAFW
 (
 u

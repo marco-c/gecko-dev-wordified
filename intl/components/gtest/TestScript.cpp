@@ -72,18 +72,14 @@ mozilla
 /
 intl
 /
-UnicodeProperties
+Script
 .
 h
 "
 #
 include
 "
-mozilla
-/
-intl
-/
-UnicodeScriptCodes
+nsUnicodeScriptCodes
 .
 h
 "
@@ -99,9 +95,6 @@ IntlScript
 GetExtensions
 )
 {
-UnicodeProperties
-:
-:
 ScriptExtensionVector
 extensions
 ;
@@ -132,7 +125,7 @@ ch
 {
 ASSERT_TRUE
 (
-UnicodeProperties
+Script
 :
 :
 GetExtensions
@@ -158,6 +151,9 @@ length
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -165,6 +161,9 @@ extensions
 0
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -199,7 +198,7 @@ ch
 {
 ASSERT_TRUE
 (
-UnicodeProperties
+Script
 :
 :
 GetExtensions
@@ -225,6 +224,9 @@ length
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -232,6 +234,9 @@ extensions
 0
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -257,7 +262,7 @@ Beng
 .
 ASSERT_TRUE
 (
-UnicodeProperties
+Script
 :
 :
 GetExtensions
@@ -283,6 +288,9 @@ length
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -290,6 +298,9 @@ extensions
 0
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -336,7 +347,7 @@ returned
 .
 ASSERT_TRUE
 (
-UnicodeProperties
+Script
 :
 :
 GetExtensions
@@ -362,6 +373,9 @@ length
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -369,6 +383,9 @@ extensions
 0
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -408,7 +425,7 @@ Dot
 .
 ASSERT_TRUE
 (
-UnicodeProperties
+Script
 :
 :
 GetExtensions
@@ -453,6 +470,9 @@ length
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -460,6 +480,9 @@ extensions
 0
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -468,6 +491,9 @@ BOPOMOFO
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -475,6 +501,9 @@ extensions
 1
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -483,6 +512,9 @@ HAN
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -490,6 +522,9 @@ extensions
 2
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -498,6 +533,9 @@ HANGUL
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -505,6 +543,9 @@ extensions
 3
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -513,6 +554,9 @@ HIRAGANA
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -520,6 +564,9 @@ extensions
 4
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -528,6 +575,9 @@ KATAKANA
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -535,6 +585,9 @@ extensions
 5
 ]
 )
+unicode
+:
+:
 Script
 :
 :
@@ -572,7 +625,7 @@ point
 .
 ASSERT_TRUE
 (
-UnicodeProperties
+Script
 :
 :
 GetExtensions
@@ -598,6 +651,9 @@ length
 ;
 ASSERT_EQ
 (
+unicode
+:
+:
 Script
 (
 extensions
@@ -605,6 +661,9 @@ extensions
 0
 ]
 )
+unicode
+:
+:
 Script
 :
 :

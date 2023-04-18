@@ -6638,10 +6638,10 @@ Warning
 Script
 script
 =
-intl
+mozilla
 :
 :
-UnicodeProperties
+unicode
 :
 :
 GetScriptCode
