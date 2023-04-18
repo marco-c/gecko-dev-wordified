@@ -6,7 +6,7 @@ Test
 for
 LoginAutoComplete
 .
-_isProbablyANewPasswordField
+isProbablyANewPasswordField
 .
 *
 /
@@ -315,7 +315,7 @@ password
 /
 /
 since
-_isProbablyANewPasswordField
+isProbablyANewPasswordField
 explicitly
 does
 not
@@ -1223,7 +1223,7 @@ result
 =
 LoginAutoComplete
 .
-_isProbablyANewPasswordField
+isProbablyANewPasswordField
 (
 input
 )
@@ -1416,7 +1416,7 @@ result
 =
 LoginAutoComplete
 .
-_isProbablyANewPasswordField
+isProbablyANewPasswordField
 (
 input
 )

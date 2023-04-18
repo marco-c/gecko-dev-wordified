@@ -557,7 +557,7 @@ attribute
 /
 LoginAutoComplete
 .
-_isProbablyANewPasswordField
+isProbablyANewPasswordField
 returns
 false
 isProbablyANewPasswordField
