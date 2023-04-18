@@ -1657,7 +1657,7 @@ data
 /
 async
 function
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcher
@@ -1748,7 +1748,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -1807,7 +1807,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -1871,7 +1871,7 @@ debug
 :
 add
 -
-watcher
+session
 -
 data
 -
@@ -1911,7 +1911,7 @@ removed
 *
 *
 See
-addWatcherDataEntry
+addSessionDataEntry
 for
 argument
 documentation
@@ -1919,7 +1919,7 @@ documentation
 *
 /
 function
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcher
@@ -1939,7 +1939,7 @@ debug
 :
 remove
 -
-watcher
+session
 -
 data
 -
@@ -1964,7 +1964,7 @@ exports
 {
 createTargets
 destroyTargets
-addWatcherDataEntry
-removeWatcherDataEntry
+addSessionDataEntry
+removeSessionDataEntry
 }
 ;

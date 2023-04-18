@@ -5228,7 +5228,7 @@ false
 ;
 }
 const
-watcherData
+watcherSessionData
 =
 Array
 .
@@ -5274,7 +5274,8 @@ targetActor
 )
 ;
 return
-watcherData
+(
+watcherSessionData
 ?
 .
 watcherTraits
@@ -5291,6 +5292,7 @@ STYLESHEET
 |
 |
 false
+)
 ;
 }
 module

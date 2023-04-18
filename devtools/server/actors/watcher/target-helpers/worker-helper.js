@@ -458,7 +458,7 @@ data
 /
 async
 function
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcher
@@ -503,7 +503,7 @@ getActor
 DEVTOOLS_WORKER_JS_WINDOW_ACTOR_NAME
 )
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcherActorID
@@ -580,7 +580,7 @@ removed
 *
 *
 See
-addWatcherDataEntry
+addSessionDataEntry
 for
 argument
 documentation
@@ -588,7 +588,7 @@ documentation
 *
 /
 function
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcher
@@ -624,7 +624,7 @@ getActor
 DEVTOOLS_WORKER_JS_WINDOW_ACTOR_NAME
 )
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcherActorID
@@ -778,7 +778,7 @@ exports
 {
 createTargets
 destroyTargets
-addWatcherDataEntry
-removeWatcherDataEntry
+addSessionDataEntry
+removeSessionDataEntry
 }
 ;

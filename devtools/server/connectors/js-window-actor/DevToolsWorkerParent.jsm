@@ -541,7 +541,7 @@ added
 *
 /
 async
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcherActorID
@@ -560,7 +560,7 @@ sendQuery
 "
 DevToolsWorkerParent
 :
-addWatcherDataEntry
+addSessionDataEntry
 "
 {
 watcherActorID
@@ -583,7 +583,7 @@ warn
 Failed
 to
 add
-watcher
+session
 data
 entry
 for
@@ -634,7 +634,7 @@ removed
 .
 *
 /
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcherActorID
@@ -650,7 +650,7 @@ sendAsyncMessage
 "
 DevToolsWorkerParent
 :
-removeWatcherDataEntry
+removeSessionDataEntry
 "
 {
 watcherActorID

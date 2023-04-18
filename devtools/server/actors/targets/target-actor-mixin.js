@@ -302,7 +302,7 @@ next
 line
 complexity
 async
-addWatcherDataEntry
+addSessionDataEntry
 (
 type
 entries
@@ -431,7 +431,7 @@ worker
 /
 /
 If
-addWatcherDataEntry
+addSessionDataEntry
 is
 called
 during
@@ -507,7 +507,7 @@ else
 /
 /
 If
-addWatcherDataEntry
+addSessionDataEntry
 is
 called
 for
@@ -1002,7 +1002,7 @@ entries
 ;
 }
 }
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 type
 entries

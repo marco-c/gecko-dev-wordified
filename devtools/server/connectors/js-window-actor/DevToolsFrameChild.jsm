@@ -2770,7 +2770,7 @@ continue
 }
 targetActor
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 type
 entries
@@ -3712,7 +3712,7 @@ case
 "
 DevToolsFrameParent
 :
-addWatcherDataEntry
+addSessionDataEntry
 "
 :
 {
@@ -3731,7 +3731,7 @@ data
 return
 this
 .
-_addWatcherDataEntry
+_addSessionDataEntry
 (
 watcherActorID
 browserId
@@ -3744,7 +3744,7 @@ case
 "
 DevToolsFrameParent
 :
-removeWatcherDataEntry
+removeSessionDataEntry
 "
 :
 {
@@ -3763,7 +3763,7 @@ data
 return
 this
 .
-_removeWatcherDataEntry
+_removeSessionDataEntry
 (
 watcherActorID
 browserId
@@ -4200,7 +4200,7 @@ return
 targetActor
 ;
 }
-_addWatcherDataEntry
+_addSessionDataEntry
 (
 watcherActorID
 browserId
@@ -4297,14 +4297,14 @@ browserId
 return
 targetActor
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 type
 entries
 )
 ;
 }
-_removeWatcherDataEntry
+_removeSessionDataEntry
 (
 watcherActorID
 browserId
@@ -4390,7 +4390,7 @@ targetActor
 return
 targetActor
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 type
 entries

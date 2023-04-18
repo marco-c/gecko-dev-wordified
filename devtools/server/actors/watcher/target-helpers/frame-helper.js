@@ -1411,7 +1411,7 @@ data
 /
 async
 function
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcher
@@ -1467,7 +1467,7 @@ DevToolsFrame
 "
 )
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 {
 watcherActorID
@@ -1544,7 +1544,7 @@ removed
 *
 *
 See
-addWatcherDataEntry
+addSessionDataEntry
 for
 argument
 documentation
@@ -1552,7 +1552,7 @@ documentation
 *
 /
 function
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcher
@@ -1599,7 +1599,7 @@ DevToolsFrame
 "
 )
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 {
 watcherActorID
@@ -1626,8 +1626,8 @@ exports
 {
 createTargets
 destroyTargets
-addWatcherDataEntry
-removeWatcherDataEntry
+addSessionDataEntry
+removeSessionDataEntry
 }
 ;
 /

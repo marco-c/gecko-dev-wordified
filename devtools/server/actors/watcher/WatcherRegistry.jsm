@@ -1576,7 +1576,7 @@ of
 data
 *
 /
-addWatcherDataEntry
+addSessionDataEntry
 (
 watcher
 type
@@ -1613,7 +1613,7 @@ new
 Error
 (
 Unsupported
-watcher
+session
 data
 type
 :
@@ -1686,7 +1686,7 @@ type
 *
 *
 See
-addWatcherDataEntry
+addSessionDataEntry
 for
 argument
 definition
@@ -1711,7 +1711,7 @@ actor
 .
 *
 /
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 watcher
 type
@@ -1753,7 +1753,7 @@ new
 Error
 (
 Unsupported
-watcher
+session
 data
 type
 :
@@ -1990,7 +1990,7 @@ targetType
 {
 this
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 watcher
 SUPPORTED_DATA
@@ -2056,7 +2056,7 @@ targetType
 return
 this
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 watcher
 SUPPORTED_DATA
@@ -2122,7 +2122,7 @@ resourceTypes
 {
 this
 .
-addWatcherDataEntry
+addSessionDataEntry
 (
 watcher
 SUPPORTED_DATA
@@ -2185,7 +2185,7 @@ resourceTypes
 return
 this
 .
-removeWatcherDataEntry
+removeSessionDataEntry
 (
 watcher
 SUPPORTED_DATA

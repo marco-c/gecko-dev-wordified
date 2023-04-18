@@ -172,7 +172,7 @@ to
 populate
 the
 shared
-watcher
+session
 data
 available
 to
