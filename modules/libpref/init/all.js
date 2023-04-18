@@ -52200,7 +52200,7 @@ reader
 color_scheme
 "
 "
-light
+auto
 "
 )
 ;
@@ -52239,6 +52239,11 @@ dark
 \
 "
 sepia
+\
+"
+\
+"
+auto
 \
 "
 ]
