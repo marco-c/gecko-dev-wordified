@@ -72,7 +72,7 @@ subprocess
 import
 CalledProcessError
 from
-mozbuild
+mach
 .
 virtualenv
 import
