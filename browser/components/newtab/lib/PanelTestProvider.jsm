@@ -2203,6 +2203,9 @@ backdrop
 "
 transparent
 "
+transitions
+:
+true
 screens
 :
 [
@@ -2218,6 +2221,9 @@ order
 content
 :
 {
+has_noodles
+:
+true
 title
 :
 {
@@ -2356,6 +2362,9 @@ order
 content
 :
 {
+has_noodles
+:
+true
 logo
 :
 {

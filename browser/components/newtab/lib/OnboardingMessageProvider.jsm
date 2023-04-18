@@ -368,6 +368,9 @@ id
 "
 FX_100_UPGRADE
 "
+transitions
+:
+true
 screens
 :
 [
@@ -415,6 +418,9 @@ height
 73px
 "
 }
+has_noodles
+:
+true
 title
 :
 {
@@ -434,6 +440,7 @@ title_style
 :
 "
 fancy
+larger
 "
 background
 :
@@ -1831,6 +1838,14 @@ browsing
 button
 -
 label
+"
+;
+pinScreen
+.
+auto_advance
+=
+"
+primary_button
 "
 ;
 delete
