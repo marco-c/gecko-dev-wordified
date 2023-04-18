@@ -298,7 +298,7 @@ forceReload
 )
 ;
 }
-toggleShowPassword
+toggleRevealPassword
 (
 targetIdentifier
 )
@@ -310,7 +310,7 @@ sendAsyncMessage
 "
 ContextMenu
 :
-ToggleShowPassword
+ToggleRevealPassword
 "
 {
 targetIdentifier

@@ -956,7 +956,7 @@ case
 "
 ContextMenu
 :
-ToggleShowPassword
+ToggleRevealPassword
 "
 :
 {
@@ -976,12 +976,12 @@ targetIdentifier
 ;
 target
 .
-showPassword
+revealPassword
 =
 !
 target
 .
-showPassword
+revealPassword
 ;
 break
 ;
@@ -6429,7 +6429,7 @@ context
 .
 target
 .
-showPassword
+revealPassword
 ;
 context
 .
