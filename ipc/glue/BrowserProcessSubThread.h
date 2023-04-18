@@ -325,7 +325,6 @@ lock
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -390,6 +389,10 @@ sBrowserThreads
 [
 ID_COUNT
 ]
+GUARDED_BY
+(
+sLock
+)
 ;
 }
 ;

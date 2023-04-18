@@ -278,7 +278,6 @@ private
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 static
 StaticRefPtr
@@ -286,6 +285,10 @@ StaticRefPtr
 CrashReporterClient
 >
 sClientSingleton
+GUARDED_BY
+(
+sLock
+)
 ;
 }
 ;
