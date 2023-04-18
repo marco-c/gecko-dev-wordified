@@ -291,7 +291,7 @@ dom
 cache
 :
 :
-QuotaInfo
+ClientMetadata
 ;
 class
 NullAction
@@ -321,7 +321,7 @@ Resolver
 >
 aResolver
 const
-QuotaInfo
+ClientMetadata
 &
 Data
 *
@@ -1232,8 +1232,8 @@ mInitiatingEventTarget
 nsresult
 mResult
 ;
-QuotaInfo
-mQuotaInfo
+ClientMetadata
+mClientMetadata
 ;
 RefPtr
 <
@@ -1313,7 +1313,7 @@ Get
 CreateDirectoryLock
 (
 PERSISTENCE_TYPE_DEFAULT
-mQuotaInfo
+mClientMetadata
 quota
 :
 :
@@ -1440,7 +1440,7 @@ Id
 0
 )
 ;
-mQuotaInfo
+mClientMetadata
 .
 mDirectoryLockId
 =
@@ -2599,7 +2599,7 @@ OriginMetadata
 &
 >
 (
-mQuotaInfo
+mClientMetadata
 )
 =
 {
@@ -2961,7 +2961,7 @@ EnsureTemporaryStorageIsInitialized
 ;
 QM_TRY_UNWRAP
 (
-mQuotaInfo
+mClientMetadata
 .
 mDir
 quotaManager
@@ -2970,7 +2970,7 @@ quotaManager
 EnsureTemporaryOriginIsInitialized
 (
 PERSISTENCE_TYPE_DEFAULT
-mQuotaInfo
+mClientMetadata
 )
 .
 map
@@ -3114,7 +3114,7 @@ resolver
 clonePtr
 (
 )
-mQuotaInfo
+mClientMetadata
 mData
 )
 ;
@@ -3188,7 +3188,7 @@ MOZ_ALWAYS_SUCCEEDS
 (
 CreateMarkerFile
 (
-mQuotaInfo
+mClientMetadata
 )
 )
 ;
@@ -3240,7 +3240,7 @@ mContext
 OnQuotaInit
 (
 mResult
-mQuotaInfo
+mClientMetadata
 mDirectoryLock
 .
 forget
@@ -3403,9 +3403,9 @@ Action
 >
 aAction
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 )
 :
 mContext
@@ -3436,9 +3436,9 @@ move
 aAction
 )
 )
-mQuotaInfo
+mClientMetadata
 (
-aQuotaInfo
+aClientMetadata
 )
 mInitiatingThread
 (
@@ -3482,7 +3482,7 @@ mAction
 ;
 /
 /
-mQuotaInfo
+mClientMetadata
 .
 mDir
 may
@@ -3887,8 +3887,8 @@ Action
 mAction
 ;
 const
-QuotaInfo
-mQuotaInfo
+ClientMetadata
+mClientMetadata
 ;
 nsCOMPtr
 <
@@ -4488,7 +4488,7 @@ RunOnTarget
 SafeRefPtrFromThis
 (
 )
-mQuotaInfo
+mClientMetadata
 mData
 )
 ;
@@ -6182,7 +6182,7 @@ this
 ;
 if
 (
-mQuotaInfo
+mClientMetadata
 .
 mDir
 &
@@ -6195,7 +6195,7 @@ MOZ_ALWAYS_SUCCEEDS
 (
 DeleteMarkerFile
 (
-mQuotaInfo
+mClientMetadata
 )
 )
 ;
@@ -6519,7 +6519,7 @@ move
 (
 aAction
 )
-mQuotaInfo
+mClientMetadata
 )
 ;
 if
@@ -6601,9 +6601,9 @@ OnQuotaInit
 nsresult
 aRv
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 already_AddRefed
 <
 DirectoryLock
@@ -6625,9 +6625,9 @@ mInitRunnable
 =
 nullptr
 ;
-mQuotaInfo
+mClientMetadata
 =
-aQuotaInfo
+aClientMetadata
 ;
 /
 /

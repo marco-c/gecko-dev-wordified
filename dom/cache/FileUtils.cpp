@@ -922,9 +922,9 @@ nsresult
 BodyDeleteDir
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aBaseDir
@@ -949,7 +949,7 @@ MOZ_TO_RESULT
 (
 RemoveNsIFileRecursively
 (
-aQuotaInfo
+aClientMetadata
 *
 bodyDir
 )
@@ -978,9 +978,9 @@ nsresult
 BodyStartWriteStream
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aBaseDir
@@ -1118,7 +1118,7 @@ fileStream
 CreateFileOutputStream
 (
 PERSISTENCE_TYPE_DEFAULT
-aQuotaInfo
+aClientMetadata
 Client
 :
 :
@@ -1387,9 +1387,9 @@ nsresult
 BodyOpen
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aBaseDir
@@ -1418,7 +1418,7 @@ QM_TRY_RETURN
 CreateFileInputStream
 (
 PERSISTENCE_TYPE_DEFAULT
-aQuotaInfo
+aClientMetadata
 Client
 :
 :
@@ -1472,9 +1472,9 @@ nsresult
 BodyMaybeUpdatePaddingSize
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aBaseDir
@@ -1542,7 +1542,7 @@ quotaManager
 GetQuotaObject
 (
 PERSISTENCE_TYPE_DEFAULT
-aQuotaInfo
+aClientMetadata
 Client
 :
 :
@@ -1660,9 +1660,9 @@ nsresult
 BodyDeleteFiles
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aBaseDir
@@ -1703,7 +1703,7 @@ removeFileForId
 =
 [
 &
-aQuotaInfo
+aClientMetadata
 &
 id
 ]
@@ -1746,7 +1746,7 @@ true
 (
 [
 &
-aQuotaInfo
+aClientMetadata
 &
 bodyFile
 ]
@@ -1763,7 +1763,7 @@ result
 =
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 bodyFile
 /
 *
@@ -1803,7 +1803,7 @@ result
 =
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 bodyFile
 )
 ;
@@ -1830,7 +1830,7 @@ MOZ_TO_RESULT
 (
 BodyTraverseFiles
 (
-aQuotaInfo
+aClientMetadata
 *
 bodyDir
 removeFileForId
@@ -2173,9 +2173,9 @@ nsresult
 BodyDeleteOrphanedFiles
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aBaseDir
@@ -2275,7 +2275,7 @@ CollectEachFile
 dir
 [
 &
-aQuotaInfo
+aClientMetadata
 &
 aKnownBodyIdList
 ]
@@ -2327,7 +2327,7 @@ removeOrphanedFiles
 =
 [
 &
-aQuotaInfo
+aClientMetadata
 &
 aKnownBodyIdList
 ]
@@ -2378,7 +2378,7 @@ MakeScopeExit
 (
 [
 &
-aQuotaInfo
+aClientMetadata
 &
 bodyFile
 ]
@@ -2391,7 +2391,7 @@ result
 =
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 bodyFile
 )
 ;
@@ -2501,7 +2501,7 @@ MOZ_TO_RESULT
 (
 BodyTraverseFiles
 (
-aQuotaInfo
+aClientMetadata
 *
 subdir
 removeOrphanedFiles
@@ -2586,7 +2586,7 @@ result
 =
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 *
 subdir
 /
@@ -2654,9 +2654,9 @@ nsresult
 GetMarkerFileHandle
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 )
 {
 QM_TRY_UNWRAP
@@ -2666,7 +2666,7 @@ marker
 CloneFileAndAppend
 (
 *
-aQuotaInfo
+aClientMetadata
 .
 mDir
 u
@@ -2709,9 +2709,9 @@ nsresult
 CreateMarkerFile
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 )
 {
 QM_TRY_INSPECT
@@ -2722,7 +2722,7 @@ auto
 marker
 GetMarkerFileHandle
 (
-aQuotaInfo
+aClientMetadata
 )
 )
 ;
@@ -3030,9 +3030,9 @@ nsresult
 DeleteMarkerFile
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 )
 {
 QM_TRY_INSPECT
@@ -3043,7 +3043,7 @@ auto
 marker
 GetMarkerFileHandle
 (
-aQuotaInfo
+aClientMetadata
 )
 )
 ;
@@ -3055,7 +3055,7 @@ result
 =
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 *
 marker
 /
@@ -3138,9 +3138,9 @@ bool
 MarkerFileExists
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 )
 {
 QM_TRY_INSPECT
@@ -3151,7 +3151,7 @@ auto
 marker
 GetMarkerFileHandle
 (
-aQuotaInfo
+aClientMetadata
 )
 false
 )
@@ -3171,9 +3171,9 @@ nsresult
 RemoveNsIFileRecursively
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aFile
@@ -3243,7 +3243,7 @@ CollectEachFile
 aFile
 [
 &
-aQuotaInfo
+aClientMetadata
 &
 aTrackQuota
 ]
@@ -3270,7 +3270,7 @@ MOZ_TO_RESULT
 (
 RemoveNsIFileRecursively
 (
-aQuotaInfo
+aClientMetadata
 *
 file
 aTrackQuota
@@ -3324,7 +3324,7 @@ ExistsAsFile
 return
 RemoveNsIFile
 (
-aQuotaInfo
+aClientMetadata
 aFile
 aTrackQuota
 )
@@ -3357,9 +3357,9 @@ nsresult
 RemoveNsIFile
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 nsIFile
 &
 aFile
@@ -3487,9 +3487,9 @@ MOZ_ASSERT
 aTrackQuota
 )
 ;
-DecreaseUsageForQuotaInfo
+DecreaseUsageForClientMetadata
 (
-aQuotaInfo
+aClientMetadata
 fileSize
 )
 ;
@@ -3499,12 +3499,12 @@ NS_OK
 ;
 }
 void
-DecreaseUsageForQuotaInfo
+DecreaseUsageForClientMetadata
 (
 const
-QuotaInfo
+ClientMetadata
 &
-aQuotaInfo
+aClientMetadata
 const
 int64_t
 aUpdatingSize
@@ -3543,7 +3543,7 @@ quota
 :
 ClientMetadata
 {
-aQuotaInfo
+aClientMetadata
 Client
 :
 :
