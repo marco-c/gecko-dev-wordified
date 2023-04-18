@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-VsyncChild
+VsyncMainChild
 .
 h
 "
@@ -152,10 +152,10 @@ mozilla
 :
 dom
 {
-VsyncChild
+VsyncMainChild
 :
 :
-VsyncChild
+VsyncMainChild
 (
 )
 :
@@ -181,11 +181,11 @@ NS_IsMainThread
 )
 ;
 }
-VsyncChild
+VsyncMainChild
 :
 :
 ~
-VsyncChild
+VsyncMainChild
 (
 )
 {
@@ -198,7 +198,7 @@ NS_IsMainThread
 ;
 }
 void
-VsyncChild
+VsyncMainChild
 :
 :
 AddChildRefreshTimer
@@ -269,7 +269,7 @@ aVsyncObserver
 ;
 }
 void
-VsyncChild
+VsyncMainChild
 :
 :
 RemoveChildRefreshTimer
@@ -324,7 +324,7 @@ SendUnobserve
 }
 }
 void
-VsyncChild
+VsyncMainChild
 :
 :
 ActorDestroy
@@ -385,7 +385,7 @@ ipc
 :
 :
 IPCResult
-VsyncChild
+VsyncMainChild
 :
 :
 RecvNotify
@@ -459,7 +459,7 @@ IPC_OK
 ;
 }
 TimeDuration
-VsyncChild
+VsyncMainChild
 :
 :
 GetVsyncRate

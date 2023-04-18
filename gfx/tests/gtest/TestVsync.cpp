@@ -202,6 +202,11 @@ TestVsyncObserver
 public
 VsyncObserver
 {
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+TestVsyncObserver
+override
+)
 public
 :
 TestVsyncObserver
@@ -332,6 +337,13 @@ false
 }
 private
 :
+~
+TestVsyncObserver
+(
+)
+=
+default
+;
 bool
 mDidGetVsyncNotification
 ;

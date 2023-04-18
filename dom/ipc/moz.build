@@ -430,6 +430,11 @@ VsyncChild
 h
 "
 "
+VsyncMainChild
+.
+h
+"
+"
 VsyncParent
 .
 h
@@ -728,7 +733,7 @@ ProcessHangMonitor
 cpp
 "
 "
-VsyncChild
+VsyncMainChild
 .
 cpp
 "

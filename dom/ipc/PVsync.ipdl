@@ -195,6 +195,9 @@ notifications
 .
 *
 /
+[
+RefCounted
+]
 async
 protocol
 PVsync
