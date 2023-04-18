@@ -1819,6 +1819,9 @@ auto
 &
 unit
 :
+intl
+:
+:
 simpleMeasureUnits
 )
 {
