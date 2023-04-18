@@ -3070,8 +3070,9 @@ weakRefMap
 (
 )
 .
-sweep
+traceWeak
 (
+trc
 &
 storeBuffer
 (

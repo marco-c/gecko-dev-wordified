@@ -8421,8 +8421,10 @@ weakRefMap
 (
 )
 .
-sweep
+traceWeak
 (
+&
+sweepingTracer
 &
 storeBuffer
 (
