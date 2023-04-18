@@ -288,7 +288,11 @@ preferAlternativeDataType
 altContentType
 "
 "
-true
+Ci
+.
+nsICacheInfoChannel
+.
+ASYNC
 )
 ;
 }
