@@ -3220,7 +3220,7 @@ is_pending
 assert_eq
 !
 (
-33
+32
 tasks
 .
 iter
