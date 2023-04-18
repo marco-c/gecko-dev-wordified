@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2021d
+2021e
 const
 tzMapper
 =
