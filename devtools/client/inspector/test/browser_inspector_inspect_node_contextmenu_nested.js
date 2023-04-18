@@ -138,7 +138,7 @@ const
 NESTED_SAME_PROCESS_FRAME_URI
 =
 "
-http
+https
 :
 /
 /
@@ -200,7 +200,7 @@ const
 REMOTE_FRAME1_URI
 =
 "
-http
+https
 :
 /
 /
@@ -233,7 +233,7 @@ const
 SAME_PROCESS_FRAME_URI
 =
 "
-http
+https
 :
 /
 /
@@ -278,7 +278,7 @@ const
 NESTED_REMOTE_FRAME_URI
 =
 "
-http
+https
 :
 /
 /
@@ -340,7 +340,7 @@ const
 REMOTE_FRAME2_URI
 =
 "
-http
+https
 :
 /
 /
@@ -439,7 +439,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
