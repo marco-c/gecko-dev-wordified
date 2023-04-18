@@ -403,6 +403,12 @@ MemoryTracker
 500
 )
 \
+_
+(
+StencilCache
+500
+)
+\
 \
 _
 (
