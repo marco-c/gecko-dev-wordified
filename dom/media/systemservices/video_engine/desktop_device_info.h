@@ -561,5 +561,9 @@ list
 ;
 }
 ;
+/
+/
+namespace
+webrtc
 #
 endif

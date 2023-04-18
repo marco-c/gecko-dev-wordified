@@ -141,6 +141,8 @@ QueryFullProcessImageNameProc
 HANDLE
 hProcess
 DWORD
+/
+/
 dwFlags
 LPTSTR
 lpExeName
@@ -188,6 +190,8 @@ GetProcessImageFileNameProc
 HANDLE
 hProcess
 LPTSTR
+/
+/
 lpImageFileName
 DWORD
 nSize
