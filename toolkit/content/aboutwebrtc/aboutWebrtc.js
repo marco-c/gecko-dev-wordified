@@ -4651,7 +4651,7 @@ id
 }
 }
 const
-estimateKbps
+estimateKBps
 =
 (
 timestamp
@@ -4914,7 +4914,7 @@ s
 +
 =
 {
-estimateKbps
+estimateKBps
 (
 timestamp
 history
@@ -4932,7 +4932,7 @@ id
 lastBytesReceived
 )
 }
-Kbps
+KBps
 ;
 }
 s
@@ -5127,7 +5127,7 @@ s
 +
 =
 {
-estimateKbps
+estimateKBps
 (
 timestamp
 history
@@ -5145,7 +5145,7 @@ id
 lastBytesSent
 )
 }
-Kbps
+KBps
 ;
 }
 s
