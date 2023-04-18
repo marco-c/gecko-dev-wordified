@@ -186,6 +186,13 @@ h
 #
 include
 "
+GRefPtr
+.
+h
+"
+#
+include
+"
 nsGtkUtils
 .
 h
