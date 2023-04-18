@@ -311,8 +311,13 @@ SizeOfThis
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 return
 mData
 .
