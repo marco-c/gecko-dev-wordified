@@ -219,6 +219,10 @@ char
 deviceUniqueIdUTF8
 )
 override
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+_apiLock
+)
 ;
 int32_t
 DisplayCaptureSettingsDialogBox
@@ -266,6 +270,10 @@ FillCapabilities
 (
 int
 fd
+)
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+_apiLock
 )
 ;
 int32_t
