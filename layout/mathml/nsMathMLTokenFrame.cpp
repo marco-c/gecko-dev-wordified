@@ -160,6 +160,13 @@ h
 "
 #
 include
+"
+gfxContext
+.
+h
+"
+#
+include
 <
 algorithm
 >

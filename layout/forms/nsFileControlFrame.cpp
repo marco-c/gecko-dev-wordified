@@ -383,6 +383,13 @@ nsTextFrame
 .
 h
 "
+#
+include
+"
+gfxContext
+.
+h
+"
 using
 namespace
 mozilla
