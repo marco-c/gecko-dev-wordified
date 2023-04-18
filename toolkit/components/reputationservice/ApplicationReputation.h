@@ -183,7 +183,7 @@ char
 const
 kNonBinaryExecutables
 [
-2
+3
 ]
 ;
 #
