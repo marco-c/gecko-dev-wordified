@@ -196,6 +196,7 @@ Empty
 {
 if
 (
+!
 gEmptyHitTestInfo
 )
 {
