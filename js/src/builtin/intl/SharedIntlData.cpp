@@ -2589,9 +2589,6 @@ region
 subtag
 using
 namespace
-mozilla
-:
-:
 intl
 :
 :
@@ -2807,12 +2804,6 @@ script
 if
 (
 !
-mozilla
-:
-:
-intl
-:
-:
 IsStructurallyValidScriptTag
 <
 char
@@ -2925,12 +2916,6 @@ region
 if
 (
 !
-mozilla
-:
-:
-intl
-:
-:
 IsStructurallyValidRegionTag
 <
 char
