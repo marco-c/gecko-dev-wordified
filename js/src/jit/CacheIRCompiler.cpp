@@ -48701,8 +48701,10 @@ JSContext
 TypedArrayObject
 *
 size_t
+const
 BigInt
 *
+const
 BigInt
 *
 )
@@ -50711,6 +50713,7 @@ void
 TypedArrayObject
 *
 size_t
+const
 BigInt
 *
 )

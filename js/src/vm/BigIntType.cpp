@@ -18016,6 +18016,7 @@ BigInt
 :
 toInt64
 (
+const
 BigInt
 *
 x
@@ -18037,6 +18038,7 @@ BigInt
 :
 toUint64
 (
+const
 BigInt
 *
 x

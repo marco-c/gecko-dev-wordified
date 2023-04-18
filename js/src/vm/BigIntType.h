@@ -1229,6 +1229,7 @@ static
 int64_t
 toInt64
 (
+const
 BigInt
 *
 x
@@ -1238,6 +1239,7 @@ static
 uint64_t
 toUint64
 (
+const
 BigInt
 *
 x

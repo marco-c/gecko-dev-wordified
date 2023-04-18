@@ -4296,6 +4296,7 @@ TypedArrayObject
 typedArray
 size_t
 index
+const
 BigInt
 *
 value
@@ -4313,9 +4314,11 @@ TypedArrayObject
 typedArray
 size_t
 index
+const
 BigInt
 *
 expected
+const
 BigInt
 *
 replacement
@@ -4333,6 +4336,7 @@ TypedArrayObject
 typedArray
 size_t
 index
+const
 BigInt
 *
 value
@@ -4350,6 +4354,7 @@ TypedArrayObject
 typedArray
 size_t
 index
+const
 BigInt
 *
 value
@@ -4367,6 +4372,7 @@ TypedArrayObject
 typedArray
 size_t
 index
+const
 BigInt
 *
 value
@@ -4384,6 +4390,7 @@ TypedArrayObject
 typedArray
 size_t
 index
+const
 BigInt
 *
 value
@@ -4401,6 +4408,7 @@ TypedArrayObject
 typedArray
 size_t
 index
+const
 BigInt
 *
 value
@@ -4418,6 +4426,7 @@ TypedArrayObject
 typedArray
 size_t
 index
+const
 BigInt
 *
 value

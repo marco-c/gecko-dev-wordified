@@ -5095,6 +5095,7 @@ JSContext
 TypedArrayObject
 *
 size_t
+const
 JS
 :
 :
