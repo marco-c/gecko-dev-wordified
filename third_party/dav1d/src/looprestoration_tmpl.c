@@ -347,7 +347,7 @@ pixel
 p
 const
 ptrdiff_t
-stride
+p_stride
 const
 pixel
 (
@@ -361,6 +361,9 @@ const
 pixel
 *
 lpf
+const
+ptrdiff_t
+lpf_stride
 int
 unit_w
 const
@@ -478,7 +481,7 @@ above_1
 +
 PXSTRIDE
 (
-stride
+lpf_stride
 )
 ;
 pixel_copy
@@ -635,7 +638,7 @@ lpf
 *
 PXSTRIDE
 (
-stride
+lpf_stride
 )
 ;
 const
@@ -648,7 +651,7 @@ below_1
 +
 PXSTRIDE
 (
-stride
+lpf_stride
 )
 ;
 pixel_copy
@@ -717,7 +720,7 @@ stripe_h
 *
 PXSTRIDE
 (
-stride
+p_stride
 )
 ;
 pixel_copy
@@ -885,7 +888,7 @@ p
 =
 PXSTRIDE
 (
-stride
+p_stride
 )
 ;
 }
@@ -1130,7 +1133,7 @@ pixel
 p
 const
 ptrdiff_t
-stride
+p_stride
 const
 pixel
 (
@@ -1145,6 +1148,9 @@ const
 pixel
 *
 lpf
+const
+ptrdiff_t
+lpf_stride
 const
 int
 w
@@ -1215,9 +1221,10 @@ padding
 (
 tmp
 p
-stride
+p_stride
 left
 lpf
+lpf_stride
 w
 h
 edges
@@ -1603,7 +1610,7 @@ j
 *
 PXSTRIDE
 (
-stride
+p_stride
 )
 +
 i
@@ -4116,7 +4123,7 @@ pixel
 p
 const
 ptrdiff_t
-stride
+p_stride
 const
 pixel
 (
@@ -4131,6 +4138,9 @@ const
 pixel
 *
 lpf
+const
+ptrdiff_t
+lpf_stride
 const
 int
 w
@@ -4231,9 +4241,10 @@ padding
 (
 tmp
 p
-stride
+p_stride
 left
 lpf
+lpf_stride
 w
 h
 edges
@@ -4349,7 +4360,7 @@ p
 =
 PXSTRIDE
 (
-stride
+p_stride
 )
 ;
 }
@@ -4363,7 +4374,7 @@ pixel
 p
 const
 ptrdiff_t
-stride
+p_stride
 const
 pixel
 (
@@ -4378,6 +4389,9 @@ const
 pixel
 *
 lpf
+const
+ptrdiff_t
+lpf_stride
 const
 int
 w
@@ -4427,9 +4441,10 @@ padding
 (
 tmp
 p
-stride
+p_stride
 left
 lpf
+lpf_stride
 w
 h
 edges
@@ -4545,7 +4560,7 @@ p
 =
 PXSTRIDE
 (
-stride
+p_stride
 )
 ;
 }
@@ -4559,7 +4574,7 @@ pixel
 p
 const
 ptrdiff_t
-stride
+p_stride
 const
 pixel
 (
@@ -4574,6 +4589,9 @@ const
 pixel
 *
 lpf
+const
+ptrdiff_t
+lpf_stride
 const
 int
 w
@@ -4631,9 +4649,10 @@ padding
 (
 tmp
 p
-stride
+p_stride
 left
 lpf
+lpf_stride
 w
 h
 edges
@@ -4788,7 +4807,7 @@ p
 =
 PXSTRIDE
 (
-stride
+p_stride
 )
 ;
 }
