@@ -382,6 +382,12 @@ inspectorFront
 isDestroyed
 (
 )
+|
+|
+!
+this
+.
+_listenerMap
 )
 {
 return
