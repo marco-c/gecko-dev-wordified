@@ -113,7 +113,7 @@ aLocaleOut
 auto
 result
 =
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 aLocaleOut
 [

@@ -1059,8 +1059,8 @@ result
 *
 *
 *
-A
-variant
+An
+overload
 of
 FillBufferWithICUCall
 that
@@ -1071,8 +1071,8 @@ mozilla
 :
 Vector
 rather
-than
 *
+than
 a
 Buffer
 .
@@ -1089,7 +1089,7 @@ CharType
 >
 static
 ICUResult
-FillVectorWithICUCall
+FillBufferWithICUCall
 (
 Vector
 <
