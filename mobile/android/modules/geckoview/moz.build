@@ -100,7 +100,7 @@ BrowserUsageTelemetry
 jsm
 "
 "
-ContentCrashHandler
+ChildCrashHandler
 .
 jsm
 "
