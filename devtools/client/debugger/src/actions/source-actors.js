@@ -69,7 +69,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 source
 -

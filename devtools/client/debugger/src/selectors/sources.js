@@ -193,7 +193,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 source
 -
