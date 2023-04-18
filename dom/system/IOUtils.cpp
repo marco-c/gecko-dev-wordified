@@ -4712,7 +4712,7 @@ Promise
 IOUtils
 :
 :
-Touch
+SetModificationTime
 (
 GlobalObject
 &
@@ -4847,7 +4847,7 @@ newTime
 )
 {
 return
-TouchSync
+SetModificationTimeSync
 (
 file
 newTime
@@ -9757,7 +9757,7 @@ IOError
 IOUtils
 :
 :
-TouchSync
+SetModificationTimeSync
 (
 nsIFile
 *
