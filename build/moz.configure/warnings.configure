@@ -328,6 +328,9 @@ enum
 -
 conversion
 "
+when
+=
+not_clang_cl
 )
 #
 catches
