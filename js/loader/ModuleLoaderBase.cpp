@@ -3249,13 +3249,6 @@ aRequest
 -
 >
 mBaseURL
-aRequest
--
->
-mFetchOptions
--
->
-mElement
 )
 ;
 aRequest
