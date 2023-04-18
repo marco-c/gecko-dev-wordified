@@ -234,6 +234,7 @@ Open
 the
 Search
 panel
+await
 store
 .
 dispatch
