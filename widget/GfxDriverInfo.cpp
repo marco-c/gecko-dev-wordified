@@ -4849,6 +4849,14 @@ APPEND_DEVICE
 ;
 /
 /
+Lucienne
+APPEND_DEVICE
+(
+0x164c
+)
+;
+/
+/
 Evergreen
 APPEND_RANGE
 (
