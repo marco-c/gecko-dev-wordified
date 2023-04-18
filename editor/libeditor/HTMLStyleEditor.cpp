@@ -4421,7 +4421,8 @@ return
 NS_OK
 ;
 }
-rv
+JoinNodesResult
+joinNodesResult
 =
 JoinNodesWithTransaction
 (
@@ -4433,9 +4434,10 @@ nextSibling
 ;
 NS_WARNING_ASSERTION
 (
-NS_SUCCEEDED
+joinNodesResult
+.
+Succeeded
 (
-rv
 )
 "
 HTMLEditor
@@ -4449,7 +4451,11 @@ failed
 )
 ;
 return
-rv
+joinNodesResult
+.
+Rv
+(
+)
 ;
 }
 }
