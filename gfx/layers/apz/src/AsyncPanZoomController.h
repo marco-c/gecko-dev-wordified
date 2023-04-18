@@ -8179,6 +8179,12 @@ LayoutAndVisual
 )
 const
 ;
+LayoutDevicePoint
+GetAsyncScrollDeltaForSampling
+(
+)
+const
+;
 /
 *
 *
