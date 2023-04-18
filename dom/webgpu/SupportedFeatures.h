@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-GPU_AdapterFeatures_H_
+GPU_SupportedFeatures_H_
 #
 define
-GPU_AdapterFeatures_H_
+GPU_SupportedFeatures_H_
 #
 include
 "
@@ -123,7 +123,7 @@ class
 Adapter
 ;
 class
-AdapterFeatures
+SupportedFeatures
 final
 :
 public
@@ -138,14 +138,14 @@ public
 :
 GPU_DECL_CYCLE_COLLECTION
 (
-AdapterFeatures
+SupportedFeatures
 )
 GPU_DECL_JS_WRAP
 (
-AdapterFeatures
+SupportedFeatures
 )
 explicit
-AdapterFeatures
+SupportedFeatures
 (
 Adapter
 *
@@ -156,7 +156,7 @@ aParent
 private
 :
 ~
-AdapterFeatures
+SupportedFeatures
 (
 )
 =
@@ -184,4 +184,4 @@ mozilla
 endif
 /
 /
-GPU_AdapterFeatures_H_
+GPU_SupportedFeatures_H_
