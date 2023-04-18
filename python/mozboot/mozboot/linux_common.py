@@ -138,18 +138,13 @@ self
 )
 :
         
-from
-mozboot
-import
-sccache
-        
 self
 .
 install_toolchain_artifact
 (
+"
 sccache
-.
-LINUX_SCCACHE
+"
 )
 class
 FixStacksInstall
@@ -177,18 +172,15 @@ self
 )
 :
         
-from
-mozboot
-import
-fix_stacks
-        
 self
 .
 install_toolchain_artifact
 (
-fix_stacks
-.
-LINUX_FIX_STACKS
+"
+fix
+-
+stacks
+"
 )
 class
 StyloInstall
@@ -215,11 +207,6 @@ ensure_stylo_packages
 self
 )
 :
-        
-from
-mozboot
-import
-stylo
         
 if
 is_non_x86_64
@@ -262,18 +249,18 @@ self
 .
 install_toolchain_artifact
 (
-stylo
-.
-LINUX_CLANG
+"
+clang
+"
 )
         
 self
 .
 install_toolchain_artifact
 (
-stylo
-.
-LINUX_CBINDGEN
+"
+cbindgen
+"
 )
 class
 NasmInstall
@@ -334,18 +321,13 @@ manually
             
 return
         
-from
-mozboot
-import
-nasm
-        
 self
 .
 install_toolchain_artifact
 (
+"
 nasm
-.
-LINUX_NASM
+"
 )
 class
 NodeInstall
@@ -407,18 +389,13 @@ manually
             
 return
         
-from
-mozboot
-import
-node
-        
 self
 .
 install_toolchain_artifact
 (
+"
 node
-.
-LINUX
+"
 )
 class
 ClangStaticAnalysisInstall
@@ -520,18 +497,13 @@ self
 )
 :
         
-from
-mozboot
-import
-minidump_stackwalk
-        
 self
 .
 install_toolchain_artifact
 (
+"
 minidump_stackwalk
-.
-LINUX_MINIDUMP_STACKWALK
+"
 )
 class
 MobileAndroidBootstrapper

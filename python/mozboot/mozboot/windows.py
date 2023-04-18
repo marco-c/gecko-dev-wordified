@@ -736,27 +736,22 @@ bootstrap
             
 )
         
-from
-mozboot
-import
-stylo
-        
 self
 .
 install_toolchain_artifact
 (
-stylo
-.
-WINDOWS_CLANG
+"
+clang
+"
 )
         
 self
 .
 install_toolchain_artifact
 (
-stylo
-.
-WINDOWS_CBINDGEN
+"
+cbindgen
+"
 )
     
 def
@@ -766,18 +761,13 @@ self
 )
 :
         
-from
-mozboot
-import
-nasm
-        
 self
 .
 install_toolchain_artifact
 (
+"
 nasm
-.
-WINDOWS_NASM
+"
 )
     
 def
@@ -787,59 +777,13 @@ self
 )
 :
         
-from
-mozboot
-import
-node
-        
-#
-We
-don
-'
-t
-have
-native
-aarch64
-node
-available
-but
-aarch64
-windows
-        
-#
-runs
-x86
-binaries
-so
-just
-use
-the
-x86
-packages
-for
-such
-hosts
-.
-        
-node_artifact
-=
-node
-.
-WIN32
-if
-is_aarch64_host
-(
-)
-else
-node
-.
-WIN64
-        
 self
 .
 install_toolchain_artifact
 (
-node_artifact
+"
+node
+"
 )
     
 def
