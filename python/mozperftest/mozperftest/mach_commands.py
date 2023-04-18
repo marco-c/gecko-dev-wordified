@@ -1667,9 +1667,6 @@ run_coverage_check
 =
 False
     
-import
-pytest
-    
 options
 =
 "
@@ -1729,14 +1726,18 @@ args
 "
 run
 "
+"
+-
+m
+"
+"
 pytest
-.
-__file__
+"
 options
 "
 -
 -
-duration
+durations
 "
 "
 10
