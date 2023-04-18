@@ -3748,6 +3748,16 @@ self
 .
 0
 }
+/
+/
+/
+Convert
+a
+NonCustomPropertyId
+into
+a
+nsCSSPropertyID
+.
 #
 [
 cfg
@@ -3763,6 +3773,7 @@ gecko
 [
 inline
 ]
+pub
 fn
 to_nscsspropertyid
 (
