@@ -466,6 +466,15 @@ include
 "
 mozilla
 /
+RefCountType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefCounted
 .
 h
@@ -1325,7 +1334,7 @@ public
 Compatibility
 with
 RefPtr
-void
+MozExternalRefCountType
 AddRef
 (
 )
@@ -1378,8 +1387,11 @@ this
 cnt
 )
 ;
+return
+cnt
+;
 }
-void
+MozExternalRefCountType
 Release
 (
 )
@@ -1570,6 +1582,9 @@ this
 )
 ;
 }
+return
+cnt
+;
 }
 /
 /
