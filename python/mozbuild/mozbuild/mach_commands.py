@@ -14822,23 +14822,15 @@ exists
 (
 command_context
 .
-get
-(
-"
 bindir
-"
-)
 )
 :
             
 input
 =
 command_context
-[
-"
+.
 bindir
-"
-]
         
 else
 :
