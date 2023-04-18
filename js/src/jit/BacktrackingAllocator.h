@@ -1347,6 +1347,9 @@ class
 LiveBundle
 ;
 class
+VirtualRegister
+;
+class
 LiveRange
 :
 public
@@ -1610,7 +1613,7 @@ range
 is
 for
 or
-zero
+nullptr
 if
 this
 does
@@ -1632,7 +1635,8 @@ callRanges
 bundle
 )
 .
-uint32_t
+VirtualRegister
+*
 vreg_
 ;
 /
@@ -1807,7 +1811,8 @@ hasDefinition_
 ;
 LiveRange
 (
-uint32_t
+VirtualRegister
+*
 vreg
 Range
 range
@@ -1875,7 +1880,8 @@ FallibleNew
 TempAllocator
 &
 alloc
-uint32_t
+VirtualRegister
+*
 vreg
 CodePosition
 from
@@ -1903,7 +1909,8 @@ to
 )
 ;
 }
-uint32_t
+VirtualRegister
+&
 vreg
 (
 )
@@ -1917,6 +1924,7 @@ hasVreg
 )
 ;
 return
+*
 vreg_
 ;
 }
@@ -1930,7 +1938,7 @@ return
 vreg_
 !
 =
-0
+nullptr
 ;
 }
 LiveBundle
@@ -2909,7 +2917,8 @@ addRange
 TempAllocator
 &
 alloc
-uint32_t
+VirtualRegister
+*
 vreg
 CodePosition
 from
