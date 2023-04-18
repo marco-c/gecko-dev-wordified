@@ -8892,7 +8892,7 @@ hkl
 =
 0x
 %
-08X
+p
 "
 "
 dwFlags

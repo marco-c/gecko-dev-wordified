@@ -12387,7 +12387,7 @@ aWnd
 =
 0x
 %
-X
+p
 aMessage
 =
 0x
@@ -12691,12 +12691,12 @@ GetWindowHandle
 =
 0x
 %
-X
+p
 mWnd
 =
 0x
 %
-X
+p
 "
 "
 aMessage

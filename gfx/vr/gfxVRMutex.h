@@ -287,7 +287,7 @@ AppendPrintf
 "
 WaitForMutex
 %
-d
+p
 ReleaseMutex
 error
 \

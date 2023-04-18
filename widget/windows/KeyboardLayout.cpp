@@ -7662,7 +7662,7 @@ mKeyboardLayout
 =
 0x
 %
-08X
+p
 "
 "
 mFocusedWndBeforeDispatch
@@ -20832,7 +20832,7 @@ layout
 =
 0x
 %
-08X
+p
 (
 %
 s
@@ -22185,7 +22185,7 @@ layout
 =
 0x
 %
-08X
+p
 (
 %
 s
@@ -22537,7 +22537,7 @@ layout
 =
 0x
 %
-08X
+p
 (
 %
 s
@@ -29733,7 +29733,7 @@ aLayout
 =
 0x
 %
-08X
+p
 (
 %
 s
