@@ -452,7 +452,6 @@ eCanContainOverflowContainers
 )
 ;
 }
-virtual
 nsIScrollableFrame
 *
 GetScrollTargetFrame
@@ -460,16 +459,7 @@ GetScrollTargetFrame
 )
 const
 override
-{
-return
-do_QueryFrame
-(
-GetInner
-(
-)
-)
 ;
-}
 /
 /
 Return
