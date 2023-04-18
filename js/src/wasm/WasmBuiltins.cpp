@@ -3822,11 +3822,6 @@ tlsData
 (
 )
 ;
-size_t
-offsetAdjustment
-=
-0
-;
 rfe
 -
 >
@@ -3842,14 +3837,10 @@ rfe
 >
 framePointer
 -
-(
 tryNote
 -
 >
 framePushed
-+
-offsetAdjustment
-)
 )
 ;
 rfe
