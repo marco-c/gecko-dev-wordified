@@ -2843,6 +2843,7 @@ document
 commandDispatcher
 .
 focusedElement
+?
 .
 blur
 (
