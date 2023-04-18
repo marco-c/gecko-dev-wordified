@@ -1,6 +1,5 @@
 import
 {
-RequestMode
 RequestIdTokenStatus
 LogoutRpsStatus
 RevokeStatus
@@ -428,8 +427,6 @@ Url
 provider
 string
 id_request
-RequestMode
-mode
 )
 =
 >
@@ -446,7 +443,6 @@ requestIdToken
 (
 provider
 idRequest
-mode
 )
 {
 if
