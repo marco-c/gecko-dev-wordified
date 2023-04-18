@@ -1418,7 +1418,7 @@ Data
 length
 (
 )
-1
+1U
 )
 ;
 /
@@ -2175,7 +2175,7 @@ EXPECT_EQ
 evt
 .
 mLoadStatus
-0
+0U
 )
 ;
 }
@@ -2345,7 +2345,7 @@ EXPECT_GT
 aData
 .
 mNumEvents
-0
+0U
 )
 ;
 if
@@ -2362,7 +2362,7 @@ mStacks
 GetModuleCount
 (
 )
-0
+0U
 )
 ;
 EXPECT_LE
@@ -2416,7 +2416,7 @@ mStacks
 GetModuleCount
 (
 )
-0
+0U
 )
 ;
 }
@@ -2431,7 +2431,7 @@ mStacks
 GetModuleCount
 (
 )
-0
+0U
 )
 ;
 }
@@ -2440,7 +2440,7 @@ EXPECT_EQ
 aData
 .
 mSanitizationFailures
-0
+0U
 )
 ;
 EXPECT_EQ
@@ -2448,7 +2448,7 @@ EXPECT_EQ
 aData
 .
 mTrustTestFailures
-0
+0U
 )
 ;
 }
