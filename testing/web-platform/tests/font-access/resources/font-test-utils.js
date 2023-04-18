@@ -9,7 +9,7 @@ Filters
 an
 array
 of
-FontMetadata
+FontData
 by
 font
 names

@@ -266,7 +266,7 @@ name
 to
 /
 /
-FontMetadata
+FontData
 .
 function
 getTestData

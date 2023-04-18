@@ -165,12 +165,12 @@ assert_true
 (
 font
 instanceof
-FontMetadata
+FontData
 '
 Results
 should
 be
-FontMetadata
+FontData
 instances
 '
 )
@@ -308,7 +308,7 @@ verify
 the
 values
 of
-FontMetadata
+FontData
 .
 const
 expectedFont
@@ -343,7 +343,7 @@ query
 (
 )
 :
-FontMetadata
+FontData
 property
 types
 and

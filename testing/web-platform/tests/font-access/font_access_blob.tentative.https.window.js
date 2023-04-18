@@ -275,7 +275,7 @@ BASE_TABLES
 }
 }
 '
-FontMetadata
+FontData
 .
 blob
 (
