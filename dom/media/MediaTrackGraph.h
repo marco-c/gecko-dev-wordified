@@ -686,6 +686,9 @@ class
 MediaTrackListener
 ;
 class
+DeviceInputConsumerTrack
+;
+class
 DeviceInputTrack
 ;
 class
@@ -2654,6 +2657,17 @@ virtual
 DeviceInputTrack
 *
 AsDeviceInputTrack
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+DeviceInputConsumerTrack
+*
+AsDeviceInputConsumerTrack
 (
 )
 {
