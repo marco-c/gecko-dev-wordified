@@ -208,7 +208,8 @@ PATH
 "
 {
 }
-:
+{
+}
 {
 }
 "
@@ -216,6 +217,9 @@ PATH
 format
 (
 path
+os
+.
+pathsep
 os
 .
 environ
