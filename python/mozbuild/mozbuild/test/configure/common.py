@@ -1912,12 +1912,6 @@ configure
 MOZCONFIG
 =
 mozconfig_path
-                
-MOZ_TEST_PYTHON
-=
-sys
-.
-executable
             
 )
             
