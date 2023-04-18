@@ -1250,13 +1250,6 @@ TracerKind
 :
 :
 Callback
-JS
-:
-:
-IdTraceAction
-:
-:
-CanSkip
 )
 mCb
 (
@@ -2828,13 +2821,6 @@ WeakEdgeTraceAction
 :
 :
 Trace
-JS
-:
-:
-IdTraceAction
-:
-:
-CanSkip
 )
 )
 mCb
