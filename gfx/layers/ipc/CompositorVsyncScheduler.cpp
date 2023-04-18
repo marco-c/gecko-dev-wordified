@@ -1212,6 +1212,14 @@ PostCompositeTask
 (
 vsyncEvent
 aReasons
+|
+wr
+:
+:
+RenderReasons
+:
+:
+START_OBSERVING_VSYNC
 )
 ;
 }
