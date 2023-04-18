@@ -52,7 +52,7 @@ here
 const
 TEST_URI
 =
-TEST_URI_ROOT
+TEST_URI_ROOT_SSL
 +
 "
 dummy
