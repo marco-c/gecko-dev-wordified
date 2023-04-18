@@ -3239,6 +3239,14 @@ aPresShell
 if
 (
 document
+&
+&
+document
+-
+>
+IPCDoc
+(
+)
 )
 {
 nsTArray
