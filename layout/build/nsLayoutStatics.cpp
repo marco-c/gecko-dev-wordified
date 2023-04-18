@@ -140,7 +140,11 @@ h
 #
 include
 "
-DateTimeFormat
+mozilla
+/
+intl
+/
+AppDateTimeFormat
 .
 h
 "
@@ -2285,7 +2289,13 @@ Shutdown
 (
 )
 ;
-DateTimeFormat
+mozilla
+:
+:
+intl
+:
+:
+AppDateTimeFormat
 :
 :
 Shutdown
