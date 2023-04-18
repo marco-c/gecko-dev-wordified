@@ -215,11 +215,11 @@ SRGB
 )
 /
 *
-has_alpha
+channels
 =
 *
 /
-true
+4
 /
 *
 alpha_is_premultiplied

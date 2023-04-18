@@ -856,6 +856,8 @@ bits_per_sample
 ThreadPool
 *
 pool
+size_t
+frame_index
 std
 :
 :
@@ -1034,7 +1036,7 @@ ppf
 .
 frames
 [
-0
+frame_index
 ]
 .
 color
@@ -1074,7 +1076,7 @@ ppf
 .
 frames
 [
-0
+frame_index
 ]
 .
 color
@@ -1086,7 +1088,7 @@ ppf
 .
 frames
 [
-0
+frame_index
 ]
 .
 color
@@ -1120,7 +1122,7 @@ ppf
 .
 frames
 [
-0
+frame_index
 ]
 .
 color
@@ -1130,7 +1132,7 @@ ppf
 .
 frames
 [
-0
+frame_index
 ]
 .
 color

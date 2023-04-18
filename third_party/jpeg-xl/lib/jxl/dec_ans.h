@@ -2750,8 +2750,6 @@ token
 br
 )
 ;
-return
-;
 }
 bool
 HuffRleOnly

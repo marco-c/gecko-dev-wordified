@@ -780,13 +780,8 @@ ThreadPool
 *
 pool
 RenderPipelineInput
-*
+&
 render_pipeline_input
-ImageBundle
-*
-output
-Rect
-rect
 Rect
 modular_rect
 )

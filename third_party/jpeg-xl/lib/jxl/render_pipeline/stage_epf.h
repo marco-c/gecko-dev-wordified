@@ -91,6 +91,17 @@ lib
 /
 jxl
 /
+image
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 loop_filter
 .
 h

@@ -880,6 +880,13 @@ EncodeImagePNM
 ppf
 bits_per_sample
 pool
+/
+*
+frame_index
+=
+*
+/
+0
 &
 bytes_vector
 )

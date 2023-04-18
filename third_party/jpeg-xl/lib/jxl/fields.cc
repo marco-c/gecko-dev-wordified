@@ -1532,6 +1532,7 @@ VisitorBase
 {
 public
 :
+explicit
 ReadVisitor
 (
 BitReader

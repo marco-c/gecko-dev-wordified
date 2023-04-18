@@ -535,7 +535,9 @@ GroupDone
 size_t
 group_id
 size_t
-padding
+padx
+size_t
+pady
 Rect
 *
 rects_to_finalize
@@ -783,19 +785,6 @@ kTopRight
 )
 ;
 size_t
-padx
-=
-PaddingX
-(
-padding
-)
-;
-size_t
-pady
-=
-padding
-;
-size_t
 x1
 =
 block_rect
@@ -929,7 +918,7 @@ min
 (
 frame_dim_
 .
-xsize_padded
+xsize
 block_rect
 .
 x0
@@ -944,7 +933,7 @@ is_last_group_x
 ?
 frame_dim_
 .
-xsize_padded
+xsize
 :
 x1
 *
@@ -958,7 +947,7 @@ min
 (
 frame_dim_
 .
-xsize_padded
+xsize
 x1
 *
 kBlockDim
@@ -1012,7 +1001,7 @@ min
 (
 frame_dim_
 .
-ysize_padded
+ysize
 block_rect
 .
 y0
@@ -1027,7 +1016,7 @@ is_last_group_y
 ?
 frame_dim_
 .
-ysize_padded
+ysize
 :
 y1
 *
@@ -1041,7 +1030,7 @@ min
 (
 frame_dim_
 .
-ysize_padded
+ysize
 y1
 *
 kBlockDim

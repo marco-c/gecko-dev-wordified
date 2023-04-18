@@ -1139,6 +1139,8 @@ char
 buf
 [
 JMSG_LENGTH_MAX
++
+1
 ]
 ;
 (
@@ -1155,6 +1157,13 @@ format_message
 cinfo
 buf
 )
+;
+buf
+[
+JMSG_LENGTH_MAX
+]
+=
+0
 ;
 JXL_WARNING
 (

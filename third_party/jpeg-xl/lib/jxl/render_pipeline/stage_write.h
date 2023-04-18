@@ -92,6 +92,8 @@ GetWriteToImageBundleStage
 ImageBundle
 *
 image_bundle
+ColorEncoding
+color_encoding
 )
 ;
 /

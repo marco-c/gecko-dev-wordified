@@ -559,13 +559,12 @@ const
 {
 JXL_DASSERT
 (
+!
 frames
 .
-size
+empty
 (
 )
->
-0
 )
 ;
 size_t

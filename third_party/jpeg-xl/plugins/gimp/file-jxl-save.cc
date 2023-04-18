@@ -4188,13 +4188,12 @@ ICC
 profile
 if
 (
+!
 icc
 .
-size
+empty
 (
 )
->
-0
 &
 &
 !

@@ -584,6 +584,7 @@ enum
 class
 TreeKind
 {
+kTrivialTreeNoPredictor
 kLearn
 kJpegTranscodeACMeta
 kFalconACMeta

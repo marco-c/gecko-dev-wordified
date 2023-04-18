@@ -921,10 +921,7 @@ const
 HWY_CAPPED
 (
 float
-GroupBorderAssigner
-:
-:
-kPaddingXRound
+kBlockDim
 )
 df
 ;

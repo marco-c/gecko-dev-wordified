@@ -2165,6 +2165,10 @@ frames
 size
 (
 )
+|
+|
+!
+have_anim
 )
 png_write_end
 (

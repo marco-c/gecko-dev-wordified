@@ -693,6 +693,9 @@ image
 \
 n
 "
+(
+uint64_t
+)
 y
 xsize_
 ysize_

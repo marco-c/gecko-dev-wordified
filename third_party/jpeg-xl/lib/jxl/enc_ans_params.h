@@ -118,6 +118,14 @@ just
 use
 kHybridUint420Config
 .
+k000
+/
+/
+force
+the
+fastest
+option
+.
 kFast
 /
 /

@@ -252,7 +252,7 @@ group_dec_cache
 size_t
 thread
 RenderPipelineInput
-*
+&
 render_pipeline_input
 ImageBundle
 *
@@ -264,6 +264,9 @@ bool
 force_draw
 bool
 dc_only
+bool
+*
+should_run_pipeline
 )
 ;
 Status
@@ -297,6 +300,9 @@ JXL_RESTRICT
 group_dec_cache
 size_t
 thread
+RenderPipelineInput
+&
+render_pipeline_input
 ImageBundle
 *
 JXL_RESTRICT

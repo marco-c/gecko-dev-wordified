@@ -375,9 +375,9 @@ original
 int32_t
 quantization_adjustment
 float
-ytox
+y_to_x
 float
-ytob
+y_to_b
 )
 ;
 Status
@@ -393,9 +393,9 @@ starting_point
 int32_t
 quantization_adjustment
 float
-ytox
+y_to_x
 float
-ytob
+y_to_b
 Spline
 &
 result
