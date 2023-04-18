@@ -1794,10 +1794,6 @@ PortDescriptor
 *
 port_descriptor
 )
-REQUIRES
-(
-ports_lock_
-)
 ;
 int
 AcceptPort
@@ -1967,10 +1963,6 @@ PortName
 &
 new_peer_port
 )
-REQUIRES
-(
-ports_lock_
-)
 ;
 /
 /
@@ -2005,10 +1997,6 @@ local_port_name
 Port
 *
 local_port
-)
-REQUIRES
-(
-ports_lock_
 )
 ;
 /
@@ -2074,10 +2062,6 @@ port1_name
 Port
 *
 port1
-)
-REQUIRES
-(
-ports_lock_
 )
 ;
 /
@@ -2354,6 +2338,7 @@ mozilla
 :
 Mutex
 ports_lock_
+MOZ_UNANNOTATED
 {
 "
 Ports
@@ -2373,10 +2358,6 @@ Port
 >
 >
 ports_
-GUARDED_BY
-(
-ports_lock_
-)
 ;
 /
 /
@@ -2593,10 +2574,6 @@ NodeName
 PeerPortMap
 >
 peer_port_maps_
-GUARDED_BY
-(
-ports_lock_
-)
 ;
 }
 ;

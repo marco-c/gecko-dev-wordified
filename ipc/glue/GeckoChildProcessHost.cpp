@@ -5456,6 +5456,7 @@ mozilla
 :
 StaticMutex
 gIPCLaunchThreadMutex
+MOZ_UNANNOTATED
 ;
 static
 mozilla
@@ -5466,10 +5467,6 @@ StaticRefPtr
 nsIThread
 >
 gIPCLaunchThread
-GUARDED_BY
-(
-gIPCLaunchThreadMutex
-)
 ;
 class
 IPCLaunchThreadObserver

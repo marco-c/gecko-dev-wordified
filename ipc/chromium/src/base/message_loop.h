@@ -3389,10 +3389,6 @@ TimerManager
 .
 TaskQueue
 incoming_queue_
-GUARDED_BY
-(
-incoming_queue_lock_
-)
 ;
 /
 /
@@ -3406,6 +3402,7 @@ mozilla
 :
 Mutex
 incoming_queue_lock_
+MOZ_UNANNOTATED
 ;
 RunState
 *

@@ -492,6 +492,7 @@ mozilla
 :
 Mutex
 lock_
+MOZ_UNANNOTATED
 ;
 std
 :
@@ -501,10 +502,6 @@ stack
 CallbackAndParam
 >
 stack_
-GUARDED_BY
-(
-lock_
-)
 ;
 AtExitManager
 *
