@@ -97,6 +97,13 @@ h
 #
 include
 "
+PeerConnectionCtx
+.
+h
+"
+#
+include
+"
 PeerConnectionImpl
 .
 h
@@ -3747,6 +3754,7 @@ mStunAddrsRequest
 {
 for
 (
+const
 auto
 &
 hostname
@@ -5372,6 +5380,7 @@ webrtc
 _ns
 ;
 auto
+*
 browserChild
 =
 BrowserChild
