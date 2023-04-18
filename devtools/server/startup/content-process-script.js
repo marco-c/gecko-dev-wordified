@@ -695,7 +695,7 @@ msg
 .
 data
 .
-watchedData
+sessionData
 true
 )
 ;
@@ -976,7 +976,7 @@ return
 ;
 }
 const
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 =
 sharedData
 .
@@ -988,7 +988,7 @@ SHARED_DATA_KEY_NAME
 if
 (
 !
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 return
@@ -1014,10 +1014,10 @@ for
 const
 [
 watcherActorID
-watchedData
+sessionData
 ]
 of
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 const
@@ -1026,7 +1026,7 @@ connectionPrefix
 targets
 }
 =
-watchedData
+sessionData
 ;
 /
 /
@@ -1072,7 +1072,7 @@ createTargetActor
 (
 watcherActorID
 connectionPrefix
-watchedData
+sessionData
 )
 ;
 }

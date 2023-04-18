@@ -223,11 +223,11 @@ browserId
 watcher
 .
 browserId
-watchedData
+sessionData
 :
 watcher
 .
-watchedData
+sessionData
 }
 )
 ;

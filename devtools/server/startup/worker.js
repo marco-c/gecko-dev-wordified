@@ -731,7 +731,7 @@ packet
 options
 ?
 .
-watchedData
+sessionData
 )
 {
 const
@@ -756,7 +756,7 @@ packet
 .
 options
 .
-watchedData
+sessionData
 )
 )
 {

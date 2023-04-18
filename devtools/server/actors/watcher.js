@@ -933,14 +933,14 @@ types
 *
 /
 get
-watchedData
+sessionData
 (
 )
 {
 return
 WatcherRegistry
 .
-getWatchedData
+getSessionData
 (
 this
 )
@@ -4250,7 +4250,7 @@ retrieve
 .
 *
 /
-getWatchedData
+getSessionDataForType
 (
 type
 )
@@ -4258,7 +4258,7 @@ type
 return
 this
 .
-watchedData
+sessionData
 ?
 .
 [

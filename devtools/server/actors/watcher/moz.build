@@ -98,7 +98,7 @@ helpers
 DevToolsModules
 (
 "
-WatchedDataHelpers
+SessionDataHelpers
 .
 jsm
 "

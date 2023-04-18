@@ -232,7 +232,7 @@ defineLazyModuleGetters
 (
 this
 {
-WatchedDataHelpers
+SessionDataHelpers
 :
 "
 resource
@@ -247,7 +247,7 @@ actors
 /
 watcher
 /
-WatchedDataHelpers
+SessionDataHelpers
 .
 jsm
 "
@@ -402,7 +402,7 @@ processes
 /
 /
 -
-watchedData
+sessionData
 :
 Data
 (
@@ -422,7 +422,7 @@ about
 See
 WatcherRegistry
 .
-getWatchedData
+getSessionData
 to
 see
 the
@@ -676,7 +676,7 @@ Services
 cpmm
 ;
 const
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 =
 sharedData
 .
@@ -688,7 +688,7 @@ SHARED_DATA_KEY_NAME
 if
 (
 !
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 throw
@@ -738,10 +738,10 @@ for
 const
 [
 watcherActorID
-watchedData
+sessionData
 ]
 of
-watchedDataByWatcherActor
+sessionDataByWatcherActor
 )
 {
 const
@@ -751,7 +751,7 @@ connectionPrefix
 browserId
 }
 =
-watchedData
+sessionData
 ;
 if
 (
@@ -783,7 +783,7 @@ watcherActorID
 parentConnectionPrefix
 :
 connectionPrefix
-watchedData
+sessionData
 }
 )
 ;
@@ -1016,7 +1016,7 @@ const
 {
 watcherActorID
 connectionPrefix
-watchedData
+sessionData
 }
 =
 message
@@ -1033,7 +1033,7 @@ watcherActorID
 parentConnectionPrefix
 :
 connectionPrefix
-watchedData
+sessionData
 }
 )
 ;
@@ -1278,7 +1278,7 @@ Object
 }
 options
 .
-watchedData
+sessionData
 :
 Data
 (
@@ -1297,7 +1297,7 @@ about
 See
 WatcherRegistry
 .
-getWatchedData
+getSessionData
 to
 see
 the
@@ -1315,7 +1315,7 @@ _watchWorkerTargets
 {
 watcherActorID
 parentConnectionPrefix
-watchedData
+sessionData
 }
 )
 {
@@ -1556,7 +1556,7 @@ workers
 [
 ]
 forwardingPrefix
-watchedData
+sessionData
 }
 )
 ;
@@ -1945,7 +1945,7 @@ watcherActorID
 ;
 const
 {
-watchedData
+sessionData
 }
 =
 watcherConnectionData
@@ -2006,7 +2006,7 @@ connection
 dbg
 workerThreadServerForwardingPrefix
 {
-watchedData
+sessionData
 }
 )
 ;
@@ -2514,13 +2514,13 @@ watcherConnectionData
 return
 ;
 }
-WatchedDataHelpers
+SessionDataHelpers
 .
-addWatchedDataEntry
+addSessionDataEntry
 (
 watcherConnectionData
 .
-watchedData
+sessionData
 type
 entries
 )
@@ -2597,13 +2597,13 @@ watcherConnectionData
 return
 ;
 }
-WatchedDataHelpers
+SessionDataHelpers
 .
-removeWatchedDataEntry
+removeSessionDataEntry
 (
 watcherConnectionData
 .
-watchedData
+sessionData
 type
 entries
 )

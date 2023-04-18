@@ -199,10 +199,10 @@ Object
 }
 options
 .
-watchedData
+sessionData
 :
 The
-watchedData
+sessionData
 object
 that
 will

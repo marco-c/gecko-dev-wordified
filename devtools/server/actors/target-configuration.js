@@ -112,7 +112,7 @@ configuration
 ;
 const
 {
-WatchedDataHelpers
+SessionDataHelpers
 }
 =
 require
@@ -126,7 +126,7 @@ actors
 /
 watcher
 /
-WatchedDataHelpers
+SessionDataHelpers
 .
 jsm
 "
@@ -137,7 +137,7 @@ const
 SUPPORTED_DATA
 }
 =
-WatchedDataHelpers
+SessionDataHelpers
 ;
 const
 {
@@ -1083,7 +1083,7 @@ this
 .
 watcherActor
 .
-getWatchedData
+getSessionDataForType
 (
 TARGET_CONFIGURATION
 )

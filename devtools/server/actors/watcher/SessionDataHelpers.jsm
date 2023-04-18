@@ -75,7 +75,7 @@ on
 updating
 the
 "
-watchedData
+sessionData
 "
 object
 .
@@ -105,7 +105,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-WatchedDataHelpers
+SessionDataHelpers
 "
 ]
 ;
@@ -350,7 +350,7 @@ all
 arrays
 stored
 in
-watchedData
+sessionData
 which
 are
 replicated
@@ -771,7 +771,7 @@ v
 ;
 }
 const
-WatchedDataHelpers
+SessionDataHelpers
 =
 {
 SUPPORTED_DATA
@@ -786,7 +786,7 @@ to
 the
 shared
 "
-watchedData
+sessionData
 "
 object
 .
@@ -794,7 +794,7 @@ object
 *
 param
 Object
-watchedData
+sessionData
 *
 The
 data
@@ -834,9 +834,9 @@ of
 data
 *
 /
-addWatchedDataEntry
+addSessionDataEntry
 (
-watchedData
+sessionData
 type
 entries
 )
@@ -869,7 +869,7 @@ entries
 const
 existingIndex
 =
-watchedData
+sessionData
 [
 type
 ]
@@ -958,7 +958,7 @@ same
 /
 key
 .
-watchedData
+sessionData
 [
 type
 ]
@@ -970,7 +970,7 @@ entry
 ;
 }
 }
-watchedData
+sessionData
 [
 type
 ]
@@ -994,7 +994,7 @@ from
 the
 shared
 "
-watchedData
+sessionData
 "
 object
 .
@@ -1002,7 +1002,7 @@ object
 *
 param
 Object
-watchedData
+sessionData
 *
 The
 data
@@ -1072,9 +1072,9 @@ removed
 .
 *
 /
-removeWatchedDataEntry
+removeSessionDataEntry
 (
-watchedData
+sessionData
 type
 entries
 )
@@ -1106,7 +1106,7 @@ entries
 const
 idx
 =
-watchedData
+sessionData
 [
 type
 ]
@@ -1143,7 +1143,7 @@ idx
 1
 )
 {
-watchedData
+sessionData
 [
 type
 ]
@@ -1233,8 +1233,8 @@ module
 .
 exports
 .
-WatchedDataHelpers
+SessionDataHelpers
 =
-WatchedDataHelpers
+SessionDataHelpers
 ;
 }

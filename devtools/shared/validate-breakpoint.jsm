@@ -69,7 +69,7 @@ function
 is
 used
 from
-WatchedDataHelpers
+SessionDataHelpers
 .
 jsm
 /

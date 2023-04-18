@@ -100,7 +100,7 @@ list
 ;
 const
 {
-WatchedDataHelpers
+SessionDataHelpers
 }
 =
 require
@@ -114,7 +114,7 @@ actors
 /
 watcher
 /
-WatchedDataHelpers
+SessionDataHelpers
 .
 jsm
 "
@@ -125,7 +125,7 @@ const
 SUPPORTED_DATA
 }
 =
-WatchedDataHelpers
+SessionDataHelpers
 ;
 const
 {
@@ -540,7 +540,7 @@ this
 .
 watcherActor
 .
-getWatchedData
+getSessionDataForType
 (
 EVENT_BREAKPOINTS
 )
