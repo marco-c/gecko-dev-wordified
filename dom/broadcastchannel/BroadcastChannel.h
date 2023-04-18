@@ -390,7 +390,7 @@ nsString
 mChannel
 ;
 nsString
-mOriginNoSuffix
+mOriginForEvents
 ;
 enum
 {
