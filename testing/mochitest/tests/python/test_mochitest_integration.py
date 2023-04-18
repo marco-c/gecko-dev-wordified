@@ -847,10 +847,6 @@ lines
 "
 :
 1
-if
-runFailures
-else
-0
     
 }
     
