@@ -224,7 +224,9 @@ gWidgetWaylandLog
 define
 LOGWAYLAND
 (
-args
+.
+.
+.
 )
 \
 MOZ_LOG
@@ -237,7 +239,9 @@ LogLevel
 :
 :
 Debug
-args
+(
+__VA_ARGS__
+)
 )
 #
 else
@@ -245,7 +249,9 @@ else
 define
 LOGWAYLAND
 (
-args
+.
+.
+.
 )
 #
 endif
@@ -1579,7 +1585,6 @@ ToUnknownRect
 ;
 LOGWAYLAND
 (
-(
 "
 WindowSurfaceWaylandMB
 :
@@ -1635,7 +1640,6 @@ GetNumRects
 (
 )
 )
-)
 ;
 #
 endif
@@ -1689,7 +1693,6 @@ newMozContainerSize
 ;
 LOGWAYLAND
 (
-(
 "
 new
 MozContainer
@@ -1708,7 +1711,6 @@ width
 mMozContainerSize
 .
 height
-)
 )
 ;
 if
@@ -2127,7 +2129,6 @@ ToUnknownRect
 ;
 LOGWAYLAND
 (
-(
 "
 WindowSurfaceWaylandMB
 :
@@ -2195,7 +2196,6 @@ mMozContainerSize
 .
 height
 )
-)
 ;
 #
 endif
@@ -2244,7 +2244,6 @@ waylandSurface
 {
 LOGWAYLAND
 (
-(
 "
 WindowSurfaceWaylandMB
 :
@@ -2275,7 +2274,6 @@ mWindow
 .
 get
 (
-)
 )
 )
 ;
@@ -2532,7 +2530,6 @@ GetDisplay
 {
 LOGWAYLAND
 (
-(
 "
 WindowSurfaceWaylandMB
 :
@@ -2555,7 +2552,6 @@ mWindow
 .
 get
 (
-)
 )
 )
 ;
