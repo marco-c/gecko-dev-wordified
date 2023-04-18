@@ -5700,6 +5700,10 @@ mOwner
 (
 aOwner
 )
+mWorkerPrivate
+(
+nullptr
+)
 mReadableStreamBody
 (
 nullptr
@@ -5726,9 +5730,7 @@ NS_IsMainThread
 )
 )
 {
-WorkerPrivate
-*
-wp
+mWorkerPrivate
 =
 GetCurrentThreadWorkerPrivate
 (
@@ -5736,12 +5738,12 @@ GetCurrentThreadWorkerPrivate
 ;
 MOZ_ASSERT
 (
-wp
+mWorkerPrivate
 )
 ;
 mMainThreadEventTarget
 =
-wp
+mWorkerPrivate
 -
 >
 MainThreadEventTarget
