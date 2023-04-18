@@ -1538,6 +1538,23 @@ MACRO
 (
 10
 "
+threads
+"
+Threads
+"
+Profile
+the
+registered
+secondary
+threads
+"
+)
+\
+\
+MACRO
+(
+11
+"
 jstracer
 "
 JSTracer
@@ -1554,7 +1571,7 @@ engine
 \
 MACRO
 (
-11
+12
 "
 jsallocations
 "
@@ -1573,7 +1590,7 @@ allocations
 \
 MACRO
 (
-12
+13
 "
 nostacksampling
 "
@@ -1612,7 +1629,7 @@ labels
 \
 MACRO
 (
-13
+14
 "
 preferencereads
 "
@@ -1630,7 +1647,7 @@ read
 \
 MACRO
 (
-14
+15
 "
 nativeallocations
 "
@@ -1662,7 +1679,7 @@ allocations
 \
 MACRO
 (
-15
+16
 "
 ipcmessages
 "
@@ -1684,7 +1701,7 @@ messages
 \
 MACRO
 (
-16
+17
 "
 audiocallbacktracing
 "
@@ -1700,7 +1717,7 @@ tracing
 \
 MACRO
 (
-17
+18
 "
 cpu
 "
@@ -1714,7 +1731,7 @@ utilization
 \
 MACRO
 (
-18
+19
 "
 notimerresolutionchange
 "
@@ -1748,7 +1765,7 @@ affected
 \
 MACRO
 (
-19
+20
 "
 cpuallthreads
 "
@@ -1769,7 +1786,7 @@ threads
 \
 MACRO
 (
-20
+21
 "
 samplingallthreads
 "
@@ -1789,7 +1806,7 @@ threads
 \
 MACRO
 (
-21
+22
 "
 markersallthreads
 "
@@ -1808,7 +1825,7 @@ threads
 \
 MACRO
 (
-22
+23
 "
 unregisteredthreads
 "

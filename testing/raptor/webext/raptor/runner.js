@@ -2256,6 +2256,9 @@ stackwalk
 cpu
 "
 "
+threads
+"
+"
 responsiveness
 "
 ]

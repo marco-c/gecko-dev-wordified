@@ -270,6 +270,9 @@ features
 :
 [
 "
+threads
+"
+"
 leaf
 "
 "
@@ -405,6 +408,9 @@ startProfiler
 features
 :
 [
+"
+threads
+"
 "
 leaf
 "
