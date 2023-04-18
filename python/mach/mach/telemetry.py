@@ -845,6 +845,13 @@ universal_newlines
 True
         
 )
+        
+git_path
+=
+Path
+(
+git_path
+)
     
 for
 arcconfig_path
