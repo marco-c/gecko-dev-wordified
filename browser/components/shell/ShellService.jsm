@@ -1741,6 +1741,9 @@ push
 .
 pdf
 "
+"
+FirefoxHTML
+"
 )
 ;
 }

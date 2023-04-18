@@ -191,7 +191,8 @@ of
 extra
 file
 *
-associations
+association
+pairs
 to
 set
 as
@@ -203,7 +204,11 @@ L
 .
 pdf
 "
+"
+FirefoxHTML
+"
 nullptr
+*
 }
 .
 *
