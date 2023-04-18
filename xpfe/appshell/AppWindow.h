@@ -928,6 +928,7 @@ mozilla
 :
 AppWindowTimerCallback
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ExecuteCloseHandler
 (
