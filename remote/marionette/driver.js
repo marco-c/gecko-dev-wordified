@@ -2935,6 +2935,7 @@ RemoteAgent
 webDriverBiDi
 )
 {
+await
 RemoteAgent
 .
 webDriverBiDi

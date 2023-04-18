@@ -1104,6 +1104,7 @@ matching
 code
 result
 =
+await
 RemoteAgent
 .
 webDriverBiDi
