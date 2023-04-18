@@ -4933,6 +4933,9 @@ int32_t
 strLen
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -5000,7 +5003,7 @@ NUL
 -
 terminated
 *
-stable
+draft
 ICU
 69
 *
@@ -5021,6 +5024,11 @@ int32_t
 length
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -5249,6 +5257,9 @@ UChar32
 end
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -5331,7 +5342,7 @@ NUL
 -
 terminated
 *
-stable
+draft
 ICU
 69
 *
@@ -5419,7 +5430,7 @@ NUL
 -
 terminated
 *
-stable
+draft
 ICU
 69
 *
@@ -5440,6 +5451,11 @@ int32_t
 length
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -5758,6 +5774,9 @@ USet
 set
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -5866,7 +5885,7 @@ inclusive
 of
 range
 *
-stable
+draft
 ICU
 69
 *
@@ -5960,7 +5979,7 @@ NUL
 -
 terminated
 *
-stable
+draft
 ICU
 69
 *
@@ -6048,7 +6067,7 @@ NUL
 -
 terminated
 *
-stable
+draft
 ICU
 69
 *
@@ -6069,6 +6088,11 @@ int32_t
 length
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *

@@ -6006,6 +6006,9 @@ ec
 const
 override
 ;
+#
+ifndef
+U_FORCE_HIDE_DRAFT_API
 /
 *
 *
@@ -6020,7 +6023,7 @@ wall
 time
 .
 *
-stable
+draft
 ICU
 69
 *
@@ -6048,6 +6051,13 @@ status
 const
 override
 ;
+#
+endif
+/
+*
+U_FORCE_HIDE_DRAFT_API
+*
+/
 /
 *
 *

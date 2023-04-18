@@ -111,7 +111,7 @@ lessPrecision
 "
 4
 .
-3
+30
 "
 morePrecision
 :
@@ -204,7 +204,7 @@ lessPrecision
 "
 4
 .
-3
+30
 "
 morePrecision
 :
@@ -307,7 +307,7 @@ morePrecision
 "
 1
 .
-0
+00
 "
 }
 }
@@ -352,7 +352,7 @@ morePrecision
 "
 1
 .
-0
+00
 "
 }
 }
@@ -390,7 +390,7 @@ lessPrecision
 "
 1
 .
-0
+00
 "
 morePrecision
 :
@@ -438,7 +438,7 @@ lessPrecision
 "
 1
 .
-0
+00
 "
 morePrecision
 :
