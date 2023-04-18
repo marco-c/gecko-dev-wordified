@@ -410,7 +410,7 @@ Create
 /
 Messages
 received
-form
+from
 the
 child
 .
@@ -423,6 +423,17 @@ IPC
 PBackground
 thread
 .
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvPCamerasConstructor
+(
+)
+;
 mozilla
 :
 :
