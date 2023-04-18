@@ -712,13 +712,16 @@ MessagePumpForNonMainUIThreads
 }
 bool
 mInWait
+GUARDED_BY
+(
+mWaitLock
+)
 ;
 mozilla
 :
 :
 Mutex
 mWaitLock
-MOZ_UNANNOTATED
 ;
 }
 ;
