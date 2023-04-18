@@ -1064,7 +1064,11 @@ __init__
 self
 logger
 binary
+=
+None
 webdriver_binary
+=
+None
 webdriver_args
 =
 None
@@ -1326,7 +1330,7 @@ return
 [
 self
 .
-binary
+webdriver_binary
 f
 "
 -
@@ -1402,6 +1406,7 @@ exe
 :
                 
 if
+(
 proc
 .
 info
@@ -1414,6 +1419,7 @@ is
 not
 None
 and
+                    
 os
 .
 path
@@ -1431,6 +1437,7 @@ exe
 self
 .
 safari_path
+)
 )
 :
                     
