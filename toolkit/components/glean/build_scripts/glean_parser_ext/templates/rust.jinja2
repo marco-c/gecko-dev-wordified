@@ -948,6 +948,12 @@ use
 crate
 :
 :
+HashState
+;
+use
+crate
+:
+:
 private
 :
 :
@@ -1001,6 +1007,7 @@ typ
 }
 }
 >
+HashState
 >
 >
 =
@@ -1019,7 +1026,7 @@ map
 HashMap
 :
 :
-with_capacity
+with_capacity_and_hasher
 (
 {
 {
@@ -1028,6 +1035,7 @@ metrics
 length
 }
 }
+HashState
 )
 ;
 {
@@ -2471,6 +2479,7 @@ u32
 String
 )
 u32
+HashState
 >
 >
 >
@@ -2490,8 +2499,9 @@ new
 HashMap
 :
 :
-new
+with_hasher
 (
+HashState
 )
 )
 )
@@ -2554,6 +2564,7 @@ typ
 1
 }
 }
+HashState
 >
 >
 >
@@ -2573,8 +2584,9 @@ new
 HashMap
 :
 :
-new
+with_hasher
 (
+HashState
 )
 )
 )
