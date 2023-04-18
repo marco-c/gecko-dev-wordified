@@ -1125,6 +1125,15 @@ env
 =
 None
     
+npm
+_
+=
+nodeutil
+.
+find_npm_executable
+(
+)
+    
 if
 kwargs
 .
@@ -1194,9 +1203,7 @@ ProcessHandler
         
 cmd
 =
-"
 npm
-"
         
 args
 =
@@ -1251,9 +1258,7 @@ wait_proc
 p
 cmd
 =
-"
 npm
-"
 exit_on_fail
 =
 kwargs
