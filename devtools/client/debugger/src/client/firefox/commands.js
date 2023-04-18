@@ -2178,15 +2178,13 @@ targetFront
 function
 removeThread
 (
-thread
+threadActorID
 )
 {
 delete
 targets
 [
-thread
-.
-actor
+threadActorID
 ]
 ;
 }

@@ -158,13 +158,6 @@ case
 REMOVE_THREAD
 "
 :
-const
-{
-oldThread
-}
-=
-action
-;
 return
 {
 .
@@ -182,9 +175,9 @@ filter
 thread
 =
 >
-oldThread
+action
 .
-actor
+threadActorID
 !
 =
 thread

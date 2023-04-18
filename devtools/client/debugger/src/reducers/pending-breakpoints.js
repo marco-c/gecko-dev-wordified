@@ -192,7 +192,7 @@ action
 ;
 case
 "
-REMOVE_BREAKPOINTS
+CLEAR_BREAKPOINTS
 "
 :
 {
