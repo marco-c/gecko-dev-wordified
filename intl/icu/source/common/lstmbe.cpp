@@ -34,12 +34,12 @@ html
 #
 include
 <
-utility
+complex
 >
 #
 include
 <
-ctgmath
+utility
 >
 #
 include
@@ -4033,6 +4033,12 @@ endPos
 UVector32
 &
 foundBreaks
+UBool
+/
+*
+isPhraseBreaking
+*
+/
 UErrorCode
 &
 status
