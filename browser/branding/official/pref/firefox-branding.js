@@ -442,6 +442,7 @@ LOCALE
 /
 firefox
 /
+new
 "
 )
 ;
