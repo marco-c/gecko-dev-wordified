@@ -960,7 +960,11 @@ compartment
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 chunk
 (
 aCx
