@@ -145,7 +145,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -157,7 +157,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -313,7 +313,7 @@ bitmap
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 1
 1
 0
@@ -335,7 +335,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 1
 48
 0
@@ -357,7 +357,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 98
 1
 0
@@ -379,7 +379,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 98
 48
 0
@@ -401,7 +401,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 48
 1
 0
@@ -423,7 +423,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 48
 48
 0
@@ -445,7 +445,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 51
 1
 0
@@ -467,7 +467,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 51
 48
 0
@@ -489,7 +489,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 25
 25
 0
@@ -511,7 +511,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 75
 25
 0

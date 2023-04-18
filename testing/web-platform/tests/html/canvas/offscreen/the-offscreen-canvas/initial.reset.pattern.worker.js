@@ -140,7 +140,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -152,7 +152,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -161,7 +161,7 @@ getContext
 '
 )
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -193,7 +193,7 @@ ctx
 .
 createPattern
 (
-offscreenCanvas
+canvas
 '
 repeat
 -
@@ -201,7 +201,7 @@ x
 '
 )
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -244,7 +244,7 @@ fillRect
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 50
 25
 0

@@ -142,7 +142,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -154,7 +154,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -292,7 +292,7 @@ restore
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 0
 0
 0
@@ -313,7 +313,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 50
 0
 0
@@ -334,7 +334,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 99
 0
 0
@@ -355,7 +355,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 0
 25
 0
@@ -376,7 +376,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 50
 25
 0
@@ -397,7 +397,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 99
 25
 0
@@ -418,7 +418,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 0
 49
 0
@@ -439,7 +439,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 50
 49
 0
@@ -460,7 +460,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 99
 49
 0

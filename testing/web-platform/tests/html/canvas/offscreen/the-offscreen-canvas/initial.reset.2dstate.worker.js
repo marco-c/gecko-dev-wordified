@@ -136,7 +136,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -148,7 +148,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -157,7 +157,7 @@ getContext
 '
 )
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -181,7 +181,7 @@ strokeStyle
 ff0000
 "
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -218,7 +218,7 @@ fillStyle
 ff0000
 "
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -254,7 +254,7 @@ globalAlpha
 .
 5
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -290,7 +290,7 @@ lineWidth
 .
 5
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -326,7 +326,7 @@ lineCap
 round
 "
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -362,7 +362,7 @@ lineJoin
 round
 "
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -398,7 +398,7 @@ miterLimit
 .
 5
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -432,7 +432,7 @@ shadowOffsetX
 =
 5
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -466,7 +466,7 @@ shadowOffsetY
 =
 5
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -500,7 +500,7 @@ shadowBlur
 =
 5
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -537,7 +537,7 @@ shadowColor
 ff0000
 "
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -573,7 +573,7 @@ globalCompositeOperation
 copy
 "
 ;
-offscreenCanvas
+canvas
 .
 width
 =

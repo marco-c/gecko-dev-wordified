@@ -134,7 +134,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -146,7 +146,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -155,7 +155,7 @@ getContext
 '
 )
 ;
-offscreenCanvas
+canvas
 .
 width
 =
@@ -165,7 +165,7 @@ width
 999
 '
 ;
-offscreenCanvas
+canvas
 .
 height
 =
@@ -177,12 +177,12 @@ height
 ;
 _assertSame
 (
-offscreenCanvas
+canvas
 .
 width
 100
 "
-offscreenCanvas
+canvas
 .
 width
 "
@@ -193,12 +193,12 @@ width
 ;
 _assertSame
 (
-offscreenCanvas
+canvas
 .
 height
 100
 "
-offscreenCanvas
+canvas
 .
 height
 "

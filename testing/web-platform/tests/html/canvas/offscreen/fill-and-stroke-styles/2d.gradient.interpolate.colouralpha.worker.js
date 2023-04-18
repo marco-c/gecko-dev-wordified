@@ -122,7 +122,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -134,7 +134,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -206,7 +206,7 @@ fillRect
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 25
 25
 190
@@ -228,7 +228,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 50
 25
 126
@@ -250,7 +250,7 @@ offscreenCanvas
 ;
 _assertPixelApprox
 (
-offscreenCanvas
+canvas
 75
 25
 62

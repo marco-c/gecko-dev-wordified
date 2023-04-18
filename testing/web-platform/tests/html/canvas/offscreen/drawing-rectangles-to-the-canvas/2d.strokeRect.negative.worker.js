@@ -130,7 +130,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -142,7 +142,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -231,7 +231,7 @@ strokeRect
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 25
 12
 0
@@ -252,7 +252,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 75
 12
 0
@@ -273,7 +273,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 25
 37
 0
@@ -294,7 +294,7 @@ offscreenCanvas
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 75
 37
 0

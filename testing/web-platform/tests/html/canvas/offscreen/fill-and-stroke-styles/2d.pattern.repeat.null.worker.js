@@ -122,7 +122,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -134,7 +134,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -149,7 +149,7 @@ ctx
 .
 createPattern
 (
-offscreenCanvas
+canvas
 null
 )
 !
@@ -160,7 +160,7 @@ ctx
 .
 createPattern
 (
-offscreenCanvas
+canvas
 null
 )
 !

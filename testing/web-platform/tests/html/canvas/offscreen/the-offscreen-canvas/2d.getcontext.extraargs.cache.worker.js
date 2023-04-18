@@ -150,7 +150,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -162,7 +162,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -173,7 +173,7 @@ getContext
 ;
 _assertDifferent
 (
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -192,7 +192,7 @@ false
 )
 null
 "
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -219,7 +219,7 @@ null
 ;
 _assertDifferent
 (
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -230,7 +230,7 @@ getContext
 )
 null
 "
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -247,7 +247,7 @@ null
 ;
 _assertDifferent
 (
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -260,7 +260,7 @@ test
 )
 null
 "
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -281,7 +281,7 @@ null
 ;
 _assertDifferent
 (
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -292,7 +292,7 @@ undefined
 )
 null
 "
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -309,7 +309,7 @@ null
 ;
 _assertDifferent
 (
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -320,7 +320,7 @@ null
 )
 null
 "
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -337,7 +337,7 @@ null
 ;
 _assertDifferent
 (
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -350,7 +350,7 @@ hasInstance
 )
 null
 "
-offscreenCanvas
+canvas
 .
 getContext
 (

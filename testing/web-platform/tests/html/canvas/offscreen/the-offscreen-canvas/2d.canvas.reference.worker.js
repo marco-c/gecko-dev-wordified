@@ -132,7 +132,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -144,7 +144,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -158,14 +158,14 @@ _assertSame
 ctx
 .
 canvas
-offscreenCanvas
+canvas
 "
 ctx
 .
 canvas
 "
 "
-offscreenCanvas
+canvas
 "
 )
 ;

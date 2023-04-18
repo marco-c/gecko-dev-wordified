@@ -122,7 +122,7 @@ function
 )
 {
 var
-offscreenCanvas
+canvas
 =
 new
 OffscreenCanvas
@@ -134,7 +134,7 @@ OffscreenCanvas
 var
 ctx
 =
-offscreenCanvas
+canvas
 .
 getContext
 (
@@ -211,7 +211,7 @@ fillRect
 ;
 _assertPixel
 (
-offscreenCanvas
+canvas
 75
 35
 0
