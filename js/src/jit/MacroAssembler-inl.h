@@ -3068,8 +3068,6 @@ constexpr
 int32_t
 mask
 =
-Imm32_16Adj
-(
 FunctionFlags
 :
 :
@@ -3084,14 +3082,11 @@ FunctionFlags
 :
 :
 CONSTRUCTOR
-)
 ;
 constexpr
 int32_t
 expected
 =
-Imm32_16Adj
-(
 FunctionFlags
 :
 :
@@ -3101,7 +3096,6 @@ FunctionFlags
 :
 :
 CONSTRUCTOR
-)
 ;
 load32
 (
