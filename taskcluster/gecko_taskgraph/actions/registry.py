@@ -82,6 +82,7 @@ taskgraph
 .
 util
 import
+taskcluster
 yaml
 from
 gecko_taskgraph
@@ -98,7 +99,6 @@ gecko_taskgraph
 .
 util
 import
-taskcluster
 hash
 from
 gecko_taskgraph
