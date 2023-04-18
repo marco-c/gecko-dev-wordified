@@ -820,7 +820,6 @@ mStream
 }
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 SetUpReadableStreamDefaultController
 (
@@ -853,7 +852,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 SetupReadableStreamDefaultControllerFromUnderlyingSource
 (
@@ -882,7 +880,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableStreamDefaultControllerEnqueue
 (
@@ -909,7 +906,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableStreamDefaultControllerClose
 (
@@ -925,7 +921,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableStreamDefaultReaderRead
 (
@@ -943,7 +938,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 void
 ReadableStreamDefaultControllerError
 (
@@ -969,7 +963,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 void
 ReadableStreamDefaultControllerClearAlgorithms
 (

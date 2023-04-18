@@ -2161,7 +2161,6 @@ default
 }
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableByteStreamControllerRespond
 (
@@ -2179,7 +2178,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableByteStreamControllerRespondInternal
 (
@@ -2197,7 +2195,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableByteStreamControllerRespondWithNewView
 (
@@ -2222,7 +2219,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableByteStreamControllerPullInto
 (
@@ -2245,7 +2241,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 void
 ReadableByteStreamControllerError
 (
@@ -2263,7 +2258,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableByteStreamControllerEnqueue
 (
@@ -2283,7 +2277,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 already_AddRefed
 <
 ReadableStreamBYOBRequest
@@ -2302,7 +2295,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableByteStreamControllerClose
 (
@@ -2318,7 +2310,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 SetUpReadableByteStreamController
 (
@@ -2356,7 +2347,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableByteStreamControllerCallPullIfNeeded
 (

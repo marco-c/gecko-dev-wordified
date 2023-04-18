@@ -987,7 +987,6 @@ mNativeUnderlyingSource
 ;
 }
 ;
-extern
 bool
 IsReadableStreamLocked
 (
@@ -996,7 +995,6 @@ ReadableStream
 aStream
 )
 ;
-extern
 double
 ReadableStreamGetNumReadRequests
 (
@@ -1005,7 +1003,6 @@ ReadableStream
 aStream
 )
 ;
-extern
 void
 ReadableStreamError
 (
@@ -1032,7 +1029,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableStreamClose
 (
@@ -1048,7 +1044,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 ReadableStreamFulfillReadRequest
 (
@@ -1076,7 +1071,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 void
 ReadableStreamAddReadRequest
 (
@@ -1088,7 +1082,6 @@ ReadRequest
 aReadRequest
 )
 ;
-extern
 void
 ReadableStreamAddReadIntoRequest
 (
@@ -1101,7 +1094,6 @@ aReadIntoRequest
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 already_AddRefed
 <
 Promise
@@ -1130,7 +1122,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 already_AddRefed
 <
 ReadableStreamDefaultReader
@@ -1145,7 +1136,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 bool
 ReadableStreamHasBYOBReader
 (
@@ -1154,7 +1144,6 @@ ReadableStream
 aStream
 )
 ;
-extern
 bool
 ReadableStreamHasDefaultReader
 (
@@ -1164,7 +1153,6 @@ aStream
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 already_AddRefed
 <
 ReadableStream

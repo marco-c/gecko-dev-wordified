@@ -558,7 +558,6 @@ mReadRequests
 ;
 }
 ;
-extern
 void
 SetUpReadableStreamDefaultReader
 (

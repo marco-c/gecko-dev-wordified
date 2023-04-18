@@ -920,7 +920,6 @@ mStream
 }
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 SetUpWritableStreamDefaultController
 (
@@ -956,7 +955,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 SetUpWritableStreamDefaultControllerFromUnderlyingSink
 (
@@ -985,7 +983,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 WritableStreamDefaultControllerClose
 (
@@ -1001,7 +998,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 WritableStreamDefaultControllerWrite
 (
@@ -1030,7 +1026,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 WritableStreamDefaultControllerError
 (
@@ -1057,7 +1052,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 void
 WritableStreamDefaultControllerErrorIfNeeded
 (
@@ -1084,7 +1078,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 double
 WritableStreamDefaultControllerGetChunkSize
 (

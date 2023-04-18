@@ -519,7 +519,6 @@ mClosedPromise
 ;
 }
 ;
-extern
 void
 SetUpWritableStreamDefaultWriter
 (
@@ -534,7 +533,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 void
 WritableStreamDefaultWriterEnsureClosedPromiseRejected
 (
@@ -557,7 +555,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 void
 WritableStreamDefaultWriterEnsureReadyPromiseRejected
 (
@@ -580,7 +577,6 @@ ErrorResult
 aRv
 )
 ;
-extern
 Nullable
 <
 double
@@ -592,7 +588,6 @@ WritableStreamDefaultWriter
 aWriter
 )
 ;
-extern
 void
 WritableStreamDefaultWriterRelease
 (
@@ -608,7 +603,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 already_AddRefed
 <
 Promise
@@ -638,7 +632,6 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-extern
 already_AddRefed
 <
 Promise
