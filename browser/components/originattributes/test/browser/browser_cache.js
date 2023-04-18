@@ -960,6 +960,16 @@ network_state
 "
 false
 ]
+[
+"
+dom
+.
+security
+.
+https_first
+"
+false
+]
 ]
 }
 )
