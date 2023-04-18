@@ -770,6 +770,16 @@ Key
 ;
 if
 (
+!
+otherEntry
+)
+{
+return
+false
+;
+}
+if
+(
 iter
 .
 Data
@@ -891,10 +901,6 @@ false
 else
 if
 (
-!
-otherEntry
-|
-|
 iter
 .
 Data
