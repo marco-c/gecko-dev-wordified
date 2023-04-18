@@ -598,7 +598,7 @@ actual
 size
 read
 .
-int32_t
+uint32_t
 Read
 (
 uint8_t
