@@ -19089,7 +19089,7 @@ option
 "
 -
 -
-enable
+disable
 -
 dom
 -
@@ -19098,11 +19098,14 @@ streams
 help
 =
 "
-Enable
-the
+Disable
 DOM
 Streams
-prototype
+(
+use
+JS
+Streams
+)
 "
 )
 set_config
