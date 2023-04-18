@@ -238,6 +238,7 @@ JSContext
 *
 aCx
 TransformStreamDefaultController
+&
 aController
 JS
 :
