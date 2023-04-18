@@ -622,6 +622,16 @@ mAccentColorForeground
 kWhite
 ;
 nscolor
+mSelectedItem
+=
+kWhite
+;
+nscolor
+mSelectedItemText
+=
+kBlack
+;
+nscolor
 mMozColHeaderText
 =
 kBlack
