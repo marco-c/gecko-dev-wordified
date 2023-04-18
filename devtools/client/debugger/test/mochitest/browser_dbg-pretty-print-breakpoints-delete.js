@@ -295,6 +295,7 @@ pretty
 js
 )
 ;
+await
 clickGutter
 (
 dbg
@@ -335,6 +336,7 @@ js
 formatted
 )
 ;
+await
 clickGutter
 (
 dbg
