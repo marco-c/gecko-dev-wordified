@@ -3180,6 +3180,10 @@ barrierTracer
 (
 rt
 )
+sweepingTracer
+(
+rt
+)
 heapSize
 (
 nullptr
