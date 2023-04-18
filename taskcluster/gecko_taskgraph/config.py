@@ -1131,6 +1131,23 @@ level
 str
             
 )
+            
+Required
+(
+"
+mac
+-
+requirements
+"
+)
+:
+optionally_keyed_by
+(
+"
+platform
+"
+str
+)
         
 }
         
