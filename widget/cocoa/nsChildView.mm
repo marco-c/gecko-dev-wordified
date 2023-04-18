@@ -27185,6 +27185,8 @@ currentEvent
 )
 ;
 }
+break
+;
 }
 default
 :

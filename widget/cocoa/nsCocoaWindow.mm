@@ -6683,7 +6683,7 @@ break
 ;
 default
 :
-MOZ_ASSERT_UNREACHABLE
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 unexpected
@@ -6692,10 +6692,6 @@ value
 "
 )
 ;
-/
-/
-fall
-through
 case
 nsIWidget
 :
