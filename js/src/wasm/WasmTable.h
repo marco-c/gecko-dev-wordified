@@ -854,6 +854,9 @@ nodiscard
 bool
 copy
 (
+JSContext
+*
+cx
 const
 Table
 &
