@@ -615,6 +615,10 @@ mServiceWorkersTestingInWindow
 (
 false
 )
+mShouldResistFingerprinting
+(
+false
+)
 mSecureContext
 (
 eNotSet
