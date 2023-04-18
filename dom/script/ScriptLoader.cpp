@@ -10181,6 +10181,11 @@ true
 request
 -
 >
+GetLoadContext
+(
+)
+-
+>
 mLineNo
 =
 aElement
@@ -14655,6 +14660,11 @@ mURI
 aRequest
 -
 >
+GetLoadContext
+(
+)
+-
+>
 mLineNo
 )
 ;
@@ -15192,6 +15202,11 @@ get
 (
 )
 aRequest
+-
+>
+GetLoadContext
+(
+)
 -
 >
 mLineNo
