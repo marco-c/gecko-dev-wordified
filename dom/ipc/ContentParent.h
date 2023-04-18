@@ -5507,7 +5507,7 @@ mozilla
 ipc
 :
 :
-PBackgroundParent
+PBackgroundStarterParent
 >
 &
 &

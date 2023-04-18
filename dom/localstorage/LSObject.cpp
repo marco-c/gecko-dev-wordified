@@ -3282,7 +3282,6 @@ BackgroundChild
 :
 GetOrCreateForCurrentThread
 (
-aMainEventTarget
 )
 :
 mozilla

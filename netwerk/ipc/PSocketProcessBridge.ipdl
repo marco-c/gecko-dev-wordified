@@ -113,7 +113,7 @@ MPL
 /
 include
 protocol
-PBackground
+PBackgroundStarter
 ;
 namespace
 mozilla
@@ -194,7 +194,7 @@ InitBackground
 (
 Endpoint
 <
-PBackgroundParent
+PBackgroundStarterParent
 >
 aEndpoint
 )

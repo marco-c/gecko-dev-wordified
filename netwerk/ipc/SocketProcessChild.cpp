@@ -1018,6 +1018,14 @@ Startup
 (
 )
 ;
+BackgroundChild
+:
+:
+InitSocketStarter
+(
+this
+)
+;
 SetThisProcessName
 (
 "

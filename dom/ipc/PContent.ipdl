@@ -116,7 +116,7 @@ MPL
 /
 include
 protocol
-PBackground
+PBackgroundStarter
 ;
 include
 protocol
@@ -5866,7 +5866,7 @@ InitBackground
 (
 Endpoint
 <
-PBackgroundParent
+PBackgroundStarterParent
 >
 aEndpoint
 )
