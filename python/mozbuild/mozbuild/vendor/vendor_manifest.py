@@ -216,7 +216,7 @@ information
         
 if
 "
-updatebot
+vendoring
 "
 in
 self
@@ -231,7 +231,7 @@ self
 manifest
 [
 "
-updatebot
+vendoring
 "
 ]
 [
