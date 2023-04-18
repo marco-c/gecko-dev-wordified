@@ -198,6 +198,9 @@ namespace
 let
 sync
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -217,6 +220,7 @@ Sync
 .
 jsm
 "
+sync
 )
 ;
 for

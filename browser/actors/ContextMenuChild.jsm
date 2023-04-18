@@ -323,8 +323,11 @@ PageMenuChild
 >
 {
 let
-pageMenu
+tmp
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -342,11 +345,12 @@ PageMenu
 .
 jsm
 "
+tmp
 )
 ;
 return
 new
-pageMenu
+tmp
 .
 PageMenuChild
 (

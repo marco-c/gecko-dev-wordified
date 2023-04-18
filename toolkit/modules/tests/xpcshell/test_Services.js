@@ -560,10 +560,11 @@ app
 info
 .
 let
-{
-updateAppInfo
-}
+tmp
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -581,8 +582,11 @@ AppInfo
 .
 jsm
 "
+tmp
 )
 ;
+tmp
+.
 updateAppInfo
 (
 )

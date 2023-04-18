@@ -5027,10 +5027,11 @@ Sync
 >
 {
 let
-{
-Weave
-}
+scope
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -5048,9 +5049,12 @@ main
 .
 js
 "
+scope
 )
 ;
 return
+scope
+.
 Weave
 .
 Service

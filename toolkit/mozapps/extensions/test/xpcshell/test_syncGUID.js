@@ -55,6 +55,12 @@ function
 (
 )
 {
+let
+scope
+=
+{
+}
+;
 return
 ChromeUtils
 .
@@ -75,6 +81,7 @@ XPIProvider
 .
 jsm
 "
+scope
 )
 .
 XPIProvider

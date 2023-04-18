@@ -92,6 +92,9 @@ jsm
 var
 Weave
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -109,6 +112,7 @@ constants
 .
 js
 "
+Weave
 )
 ;
 var

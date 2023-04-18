@@ -243,6 +243,9 @@ else
 let
 Scope
 =
+{
+}
+;
 ChromeUtils
 .
 import
@@ -262,10 +265,14 @@ osfile_shared_allthreads
 .
 jsm
 "
+Scope
 )
 ;
 let
 Path
+=
+{
+}
 ;
 if
 (
@@ -278,8 +285,6 @@ Constants
 Win
 )
 {
-Path
-=
 ChromeUtils
 .
 import
@@ -299,13 +304,12 @@ ospath_win
 .
 jsm
 "
+Path
 )
 ;
 }
 else
 {
-Path
-=
 ChromeUtils
 .
 import
@@ -325,6 +329,7 @@ ospath_unix
 .
 jsm
 "
+Path
 )
 ;
 }
