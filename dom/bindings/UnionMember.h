@@ -143,6 +143,15 @@ Alignment
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -409,6 +418,7 @@ T
 ;
 }
 }
+MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 ;
 }
 /
