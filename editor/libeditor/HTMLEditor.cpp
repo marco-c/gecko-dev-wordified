@@ -19244,6 +19244,7 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+const
 std
 :
 :
@@ -19255,7 +19256,6 @@ Element
 &
 )
 >
-&
 &
 aInitializer
 )
