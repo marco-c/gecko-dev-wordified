@@ -68,7 +68,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 sources
 "

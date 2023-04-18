@@ -107,6 +107,9 @@ getSpecificSourceByURL
 from
 "
 .
+.
+/
+selectors
 /
 sources
 "

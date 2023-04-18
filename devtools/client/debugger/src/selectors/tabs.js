@@ -105,7 +105,7 @@ from
 .
 .
 /
-reducers
+selectors
 /
 sources
 "
