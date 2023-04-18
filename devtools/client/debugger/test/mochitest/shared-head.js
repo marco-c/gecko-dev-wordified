@@ -491,10 +491,11 @@ msg
 }
 )
 ;
-return
 resolve
 (
 )
+;
+return
 ;
 }
 const
@@ -625,11 +626,6 @@ length
 )
 {
 return
-Promise
-.
-resolve
-(
-)
 ;
 }
 info
@@ -693,6 +689,13 @@ exists
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 )
 )
@@ -5632,8 +5635,10 @@ if
 invokeFailed
 )
 {
-return
+await
 invokeResult
+;
+return
 ;
 }
 assertPausedLocation
@@ -10571,6 +10576,7 @@ open
 )
 {
 return
+popup
 ;
 }
 await
@@ -11544,7 +11550,6 @@ tokenEl
 )
 {
 return
-false
 ;
 }
 const
@@ -11638,7 +11643,6 @@ el
 )
 {
 return
-false
 ;
 }
 EventUtils
@@ -11684,7 +11688,6 @@ tokenEl
 )
 {
 return
-false
 ;
 }
 info
@@ -11775,7 +11778,6 @@ tokenEl
 )
 {
 return
-false
 ;
 }
 InspectorUtils
