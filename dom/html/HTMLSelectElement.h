@@ -2938,10 +2938,8 @@ ContentReset
 notifications
 to
 list
-*
-and
-combo
 box
+*
 frames
 .
 *
