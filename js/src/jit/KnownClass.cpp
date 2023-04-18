@@ -271,6 +271,15 @@ Opcode
 :
 ArgumentsSlice
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+FrameArgumentsSlice
+:
 return
 KnownClass
 :

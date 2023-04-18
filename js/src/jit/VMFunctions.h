@@ -3106,6 +3106,17 @@ MutableHandleValue
 res
 )
 ;
+ArrayObject
+*
+NewArrayObjectEnsureDenseInitLength
+(
+JSContext
+*
+cx
+int32_t
+count
+)
+;
 JSObject
 *
 CopyLexicalEnvironmentObject
