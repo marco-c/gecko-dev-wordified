@@ -4242,11 +4242,6 @@ bool
 budgetWasIncreased
 )
 ;
-void
-waitForBackgroundTasksBeforeSlice
-(
-)
-;
 bool
 mightSweepInThisSlice
 (
