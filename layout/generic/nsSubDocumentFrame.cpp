@@ -2084,6 +2084,9 @@ TYPE_BACKGROUND_COLOR
 {
 nsDisplayList
 tmpList
+(
+aBuilder
+)
 ;
 tmpList
 .
@@ -2927,6 +2930,9 @@ true
 }
 nsDisplayList
 childItems
+(
+aBuilder
+)
 ;
 {
 DisplayListClipState

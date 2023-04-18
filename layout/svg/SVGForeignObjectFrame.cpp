@@ -1220,6 +1220,9 @@ return
 }
 nsDisplayList
 newList
+(
+aBuilder
+)
 ;
 nsDisplayListSet
 set
