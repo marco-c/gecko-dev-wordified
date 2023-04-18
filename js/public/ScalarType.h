@@ -332,6 +332,12 @@ for
 now
 .
 *
+E
+.
+g
+.
+DataView
+*
 /
 MaxTypedArrayViewType
 Int64
