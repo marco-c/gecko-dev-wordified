@@ -13,7 +13,7 @@ C
 +
 +
 "
-ArrayIndexOf
+ArrayMap
 "
 /
 /

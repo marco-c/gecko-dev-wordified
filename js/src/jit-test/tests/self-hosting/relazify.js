@@ -47,7 +47,7 @@ fun
 =
 obj
 .
-indexOf
+map
 ;
 assertEq
 (
@@ -66,6 +66,10 @@ fun
 call
 (
 obj
+x
+=
+>
+x
 )
 ;
 assertEq
