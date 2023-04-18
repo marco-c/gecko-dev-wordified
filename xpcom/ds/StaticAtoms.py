@@ -9096,6 +9096,16 @@ onMozMouseHittest
 Atom
 (
 "
+onMozMouseExploreByTouch
+"
+"
+onMozMouseExploreByTouch
+"
+)
+    
+Atom
+(
+"
 onmouseup
 "
 "

@@ -2920,6 +2920,9 @@ case
 eMouseMove
 :
 case
+eMouseExploreByTouch
+:
+case
 eContextMenu
 :
 case

@@ -622,11 +622,15 @@ NS_EVENT_MESSAGE
 (
 eMouseLongTap
 )
+NS_EVENT_MESSAGE
+(
+eMouseExploreByTouch
+)
 NS_EVENT_MESSAGE_FIRST_LAST
 (
 eMouseEvent
 eMouseMove
-eMouseLongTap
+eMouseExploreByTouch
 )
 /
 /
