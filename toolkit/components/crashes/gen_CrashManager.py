@@ -233,14 +233,6 @@ crashManagerPing
 =
 "
 "
-"
-let
-processPings
-=
-{
-"
-"
-"
     
 for
 p
@@ -302,19 +294,6 @@ false
 "
         
 }
-    
-crashManagerPing
-+
-=
-"
-"
-"
-    
-}
-;
-"
-"
-"
     
 return
 (
