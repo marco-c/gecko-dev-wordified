@@ -700,7 +700,7 @@ thread
 #
 ifdef
 DEBUG
-nsString
+nsCString
 mTestBuiltInRootHash
 ;
 #
