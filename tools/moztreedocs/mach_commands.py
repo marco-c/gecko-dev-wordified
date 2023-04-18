@@ -1898,11 +1898,25 @@ warnings
 finally
 :
         
+try
+:
+            
 os
 .
 unlink
 (
 warn_path
+)
+        
+except
+Exception
+as
+ex
+:
+            
+print
+(
+ex
 )
 def
 _check_sphinx_warnings
