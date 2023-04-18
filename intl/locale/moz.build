@@ -225,11 +225,6 @@ LocaleService
 h
 "
 "
-MozLocale
-.
-h
-"
-"
 MozLocaleBindings
 .
 h
@@ -256,11 +251,6 @@ cpp
 "
 "
 LocaleService
-.
-cpp
-"
-"
-MozLocale
 .
 cpp
 "
