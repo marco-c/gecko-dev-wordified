@@ -732,6 +732,15 @@ eScreenOrientation_LandscapePrimary
 eScreenOrientation_LandscapeSecondary
 :
 case
+eScreenOrientation_PortraitPrimary
+|
+eScreenOrientation_PortraitSecondary
+|
+eScreenOrientation_LandscapePrimary
+|
+eScreenOrientation_LandscapeSecondary
+:
+case
 eScreenOrientation_Default
 :
 {
