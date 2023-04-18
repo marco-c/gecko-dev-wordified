@@ -219,6 +219,15 @@ GetRootNode
 )
 const
 {
+mTreeManager
+-
+>
+mTreeLock
+.
+AssertCurrentThreadIn
+(
+)
+;
 return
 mTreeManager
 -
