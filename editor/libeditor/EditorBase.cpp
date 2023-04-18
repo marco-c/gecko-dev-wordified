@@ -271,14 +271,14 @@ InsertTextTransaction
 #
 include
 "
-JoinNodeTransaction
+JoinNodesTransaction
 .
 h
 "
 /
 /
 for
-JoinNodeTransaction
+JoinNodesTransaction
 #
 include
 "
