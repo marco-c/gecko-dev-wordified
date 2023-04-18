@@ -719,9 +719,6 @@ xml
 available
 :
 true
-managedElsewhere
-:
-true
 }
 {
 extension
@@ -794,9 +791,6 @@ by
 initAvailable
 (
 )
-managedElsewhere
-:
-true
 }
 {
 extension
