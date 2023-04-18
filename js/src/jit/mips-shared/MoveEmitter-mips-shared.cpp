@@ -175,14 +175,6 @@ stack
 for
 cycle
 resolution
-static_assert
-(
-SpillSlotSize
-=
-=
-8
-)
-;
 masm
 .
 reserveStack
@@ -193,7 +185,10 @@ numCycles
 (
 )
 *
-SpillSlotSize
+sizeof
+(
+double
+)
 )
 ;
 pushedAtCycle_
