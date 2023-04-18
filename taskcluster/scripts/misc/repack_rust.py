@@ -3953,6 +3953,22 @@ gnu
 "
             
 "
+x86_64
+-
+linux
+-
+android
+"
+            
+"
+i686
+-
+linux
+-
+android
+"
+            
+"
 thumbv7neon
 -
 linux
