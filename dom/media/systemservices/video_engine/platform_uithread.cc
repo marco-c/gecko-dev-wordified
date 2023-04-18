@@ -555,7 +555,7 @@ checking
 stop_
 |
 .
-run_function_deprecated_
+run_function_
 (
 obj_
 )
@@ -660,7 +660,7 @@ NativeEventCallback
 if
 (
 !
-run_function_deprecated_
+run_function_
 )
 {
 stop_
@@ -670,7 +670,7 @@ true
 return
 ;
 }
-run_function_deprecated_
+run_function_
 (
 obj_
 )

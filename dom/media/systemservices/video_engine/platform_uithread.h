@@ -100,6 +100,17 @@ platform_thread
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+deprecated
+/
+recursive_critical_section
+.
+h
+"
 namespace
 rtc
 {
@@ -119,7 +130,7 @@ public
 :
 PlatformUIThread
 (
-ThreadRunFunctionDeprecated
+ThreadRunFunction
 func
 void
 *
@@ -147,6 +158,10 @@ timerid_
 timeout_
 (
 0
+)
+stop_
+(
+false
 )
 {
 }
@@ -222,6 +237,9 @@ timerid_
 unsigned
 int
 timeout_
+;
+bool
+stop_
 ;
 }
 ;
