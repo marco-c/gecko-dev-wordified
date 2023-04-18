@@ -8462,9 +8462,6 @@ Vec
 <
 ClipItemKey
 >
-spatial_node_index
-:
-SpatialNodeIndex
 parent_clip_chain_id
 :
 ClipChainId
@@ -8540,6 +8537,11 @@ kind
 node_kind
 (
 )
+spatial_node_index
+:
+item
+.
+spatial_node_index
 }
 }
 )
@@ -8553,7 +8555,6 @@ clip_store
 add_clip_chain_node
 (
 handle
-spatial_node_index
 clip_chain_id
 )
 ;
@@ -9054,7 +9055,6 @@ self
 build_clip_chain
 (
 clip_items
-spatial_node_index
 clip_chain_id
 )
 ;
@@ -12768,6 +12768,7 @@ image_mask
 snapped_mask_rect
 polygon_handle
 )
+spatial_node_index
 }
 ;
 let
@@ -12794,6 +12795,7 @@ ClipNodeKind
 :
 :
 Complex
+spatial_node_index
 }
 }
 )
@@ -12814,7 +12816,6 @@ ClipInstance
 new
 (
 handle
-spatial_node_index
 )
 }
 ;
@@ -12915,6 +12916,7 @@ ClipMode
 :
 Clip
 )
+spatial_node_index
 }
 ;
 let
@@ -12941,6 +12943,7 @@ ClipNodeKind
 :
 :
 Rectangle
+spatial_node_index
 }
 }
 )
@@ -12961,7 +12964,6 @@ ClipInstance
 new
 (
 handle
-spatial_node_index
 )
 }
 ;
@@ -13049,6 +13051,7 @@ clip
 .
 mode
 )
+spatial_node_index
 }
 ;
 let
@@ -13075,6 +13078,7 @@ ClipNodeKind
 :
 :
 Complex
+spatial_node_index
 }
 }
 )
@@ -13095,7 +13099,6 @@ ClipInstance
 new
 (
 handle
-spatial_node_index
 )
 }
 ;
