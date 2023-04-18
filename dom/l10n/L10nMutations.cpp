@@ -939,9 +939,6 @@ mDOMLocalization
 return
 ;
 }
-ErrorResult
-rv
-;
 Sequence
 <
 OwningNonNull
@@ -1023,7 +1020,9 @@ mDOMLocalization
 TranslateElements
 (
 elements
-rv
+IgnoreErrors
+(
+)
 )
 ;
 if
