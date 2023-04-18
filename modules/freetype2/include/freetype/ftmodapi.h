@@ -2136,12 +2136,12 @@ face
 (
 (
 *
+FT_REINTERPRET_CAST
 (
 FT_Module_Class
 *
 *
-)
-(
+\
 (
 face
 )

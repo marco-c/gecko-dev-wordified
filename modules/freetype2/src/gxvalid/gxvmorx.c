@@ -593,7 +593,7 @@ d
 d
 (
 %
-d
+lu
 bytes
 )
 \
@@ -687,7 +687,7 @@ GXV_TRACE
 morx
 type
 %
-d
+lu
 is
 reserved
 \
@@ -1039,10 +1039,10 @@ GXV_TRACE
 validating
 chain
 %
-d
+lu
 /
 %
-d
+lu
 \
 n
 "

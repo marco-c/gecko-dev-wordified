@@ -472,7 +472,7 @@ available
 /
 #
 ifndef
-FT_LONG64
+FT_INT64
 typedef
 struct
 FT_Int64_
@@ -491,7 +491,7 @@ endif
 /
 *
 !
-FT_LONG64
+FT_INT64
 *
 /
 /
@@ -696,7 +696,7 @@ whether
 /
 /
 *
-FT_LONG64
+FT_INT64
 is
 defined
 .
@@ -988,7 +988,7 @@ v
 }
 #
 ifdef
-FT_LONG64
+FT_INT64
 /
 *
 documentation
@@ -1434,7 +1434,7 @@ else
 /
 *
 !
-FT_LONG64
+FT_INT64
 *
 /
 static
@@ -3717,7 +3717,7 @@ endif
 /
 *
 !
-FT_LONG64
+FT_INT64
 *
 /
 /
@@ -5645,7 +5645,7 @@ on
 /
 #
 ifdef
-FT_LONG64
+FT_INT64
 FT_Int64
 delta
 =

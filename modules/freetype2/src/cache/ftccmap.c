@@ -1999,10 +1999,6 @@ Exit
 ;
 FT_ASSERT
 (
-(
-FT_UInt
-)
-(
 char_code
 -
 FTC_CMAP_NODE
@@ -2012,7 +2008,6 @@ node
 -
 >
 first
-)
 <
 FTC_CMAP_INDICES_MAX
 )
@@ -2030,10 +2025,6 @@ clients
 /
 if
 (
-(
-FT_UInt
-)
-(
 char_code
 -
 FTC_CMAP_NODE
@@ -2046,7 +2037,6 @@ first
 >
 =
 FTC_CMAP_INDICES_MAX
-)
 )
 return
 0

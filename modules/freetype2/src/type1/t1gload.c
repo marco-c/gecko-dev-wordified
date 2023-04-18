@@ -588,9 +588,6 @@ char_string
 >
 length
 =
-(
-FT_Int
-)
 type1
 -
 >

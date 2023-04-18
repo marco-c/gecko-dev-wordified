@@ -1591,10 +1591,10 @@ GXV_TRACE
 validating
 chain
 %
-d
+lu
 /
 %
-d
+lu
 \
 n
 "

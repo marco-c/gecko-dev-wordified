@@ -5710,7 +5710,7 @@ request
 /
 FT_BASE
 (
-void
+FT_Error
 )
 FT_Request_Metrics
 (

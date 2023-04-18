@@ -2537,7 +2537,7 @@ GXV_TRACE
 version
 0x
 %
-08x
+08lx
 \
 n
 "
@@ -2698,7 +2698,7 @@ properties
 "
 remaining
 %
-d
+ld
 bytes
 are
 skipped

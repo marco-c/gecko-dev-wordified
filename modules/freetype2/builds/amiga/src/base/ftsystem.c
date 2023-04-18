@@ -2766,7 +2766,7 @@ stream
 >
 base
 =
-0
+NULL
 ;
 }
 /

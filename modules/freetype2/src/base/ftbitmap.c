@@ -644,10 +644,7 @@ target_size
 =
 size
 )
-(
-void
-)
-FT_QREALLOC
+FT_MEM_QREALLOC
 (
 target
 -
@@ -659,10 +656,7 @@ size
 ;
 }
 else
-(
-void
-)
-FT_QALLOC
+FT_MEM_QALLOC
 (
 target
 -

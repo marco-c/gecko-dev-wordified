@@ -2505,9 +2505,11 @@ FT_Glyph_Transform
 (
 FT_Glyph
 glyph
+const
 FT_Matrix
 *
 matrix
+const
 FT_Vector
 *
 delta
@@ -3993,6 +3995,7 @@ FT_Glyph
 the_glyph
 FT_Render_Mode
 render_mode
+const
 FT_Vector
 *
 origin

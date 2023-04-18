@@ -478,7 +478,7 @@ binary_length
 CID_FaceInfo
 cid
 ;
-FT_Int
+FT_UInt
 num_dict
 ;
 }

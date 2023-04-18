@@ -1060,7 +1060,7 @@ data
 else
 if
 (
-FT_ALLOC
+FT_QALLOC
 (
 node
 list

@@ -511,8 +511,9 @@ cf2_interpT2CharString
 (
 CF2_Font
 font
+const
 CF2_Buffer
-charstring
+buf
 CF2_OutlineCallbacks
 callbacks
 const

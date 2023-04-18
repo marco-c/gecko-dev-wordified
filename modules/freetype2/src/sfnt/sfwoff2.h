@@ -200,6 +200,9 @@ ftobjs
 h
 >
 FT_BEGIN_HEADER
+#
+ifdef
+FT_CONFIG_OPTION_USE_BROTLI
 /
 *
 Leave
@@ -410,6 +413,13 @@ FT_Long
 num_faces
 )
 ;
+#
+endif
+/
+*
+FT_CONFIG_OPTION_USE_BROTLI
+*
+/
 FT_END_HEADER
 #
 endif

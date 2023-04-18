@@ -515,13 +515,11 @@ stackSize
 {
 FT_Error
 error
-=
-FT_Err_Ok
 ;
 /
 *
 for
-FT_NEW
+FT_QNEW
 *
 /
 CF2_Stack

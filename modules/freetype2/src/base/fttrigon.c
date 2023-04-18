@@ -510,7 +510,7 @@ ft_trig_arctan_table
 ;
 #
 ifdef
-FT_LONG64
+FT_INT64
 /
 *
 multiply
@@ -615,7 +615,7 @@ else
 /
 *
 !
-FT_LONG64
+FT_INT64
 *
 /
 /
@@ -870,7 +870,7 @@ endif
 /
 *
 !
-FT_LONG64
+FT_INT64
 *
 /
 /

@@ -11460,8 +11460,9 @@ This
 should
 be
 *
-identical
-to
+one
+more
+than
 the
 number
 of
@@ -12794,12 +12795,11 @@ num_locations
 ;
 /
 *
-in
-broken
-TTF
-gid
->
+up
+to
 0xFFFF
++
+1
 *
 /
 FT_Byte
@@ -13486,7 +13486,7 @@ glyph_index
 FT_Stream
 stream
 ;
-FT_Int
+FT_UInt
 byte_len
 ;
 FT_Short

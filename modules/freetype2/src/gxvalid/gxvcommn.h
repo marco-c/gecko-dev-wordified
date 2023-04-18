@@ -502,6 +502,7 @@ purpose
 #
 define
 IS_PARANOID_VALIDATION
+\
 (
 gxvalid
 -
@@ -520,6 +521,8 @@ GXV_SET_ERR_IF_PARANOID
 (
 err
 )
+\
+do
 {
 if
 (
@@ -530,6 +533,10 @@ err
 )
 ;
 }
+while
+(
+0
+)
 /
 *
 *
@@ -1714,7 +1721,8 @@ gxvalid
 -
 >
 debug_indent
-0
+"
+"
 )
 )
 ;
@@ -1767,7 +1775,8 @@ gxvalid
 -
 >
 debug_indent
-0
+"
+"
 )
 )
 ;

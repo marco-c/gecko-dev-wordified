@@ -592,7 +592,7 @@ typedef
 struct
 WOFF_TableRec_
 {
-FT_ULong
+FT_Tag
 Tag
 ;
 /
@@ -1249,7 +1249,7 @@ and
 flags
 *
 /
-FT_ULong
+FT_Tag
 Tag
 ;
 /

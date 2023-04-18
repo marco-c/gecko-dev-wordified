@@ -1859,13 +1859,6 @@ num_maps
 =
 0
 ;
-table
--
->
-maps
-=
-NULL
-;
 if
 (
 !
@@ -2161,10 +2154,7 @@ num_glyphs
 2
 )
 {
-(
-void
-)
-FT_QRENEW_ARRAY
+FT_MEM_QRENEW_ARRAY
 (
 table
 -

@@ -12071,7 +12071,7 @@ seg1
 >
 link
 =
-0
+NULL
 ;
 seg1
 -
