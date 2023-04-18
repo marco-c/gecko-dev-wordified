@@ -16343,7 +16343,7 @@ aRect
 .
 x
 =
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 toDevPixels
 .
@@ -16356,7 +16356,7 @@ aRect
 .
 y
 =
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 toDevPixels
 .
@@ -16369,7 +16369,7 @@ aRect
 .
 width
 =
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 toDevPixels
 .
@@ -16382,7 +16382,7 @@ aRect
 .
 height
 =
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 toDevPixels
 .
