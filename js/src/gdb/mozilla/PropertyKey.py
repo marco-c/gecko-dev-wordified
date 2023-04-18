@@ -167,27 +167,23 @@ GDBs
 )
 .
     
-TYPE_STRING
+StringTypeTag
 =
 0x0
     
-TYPE_INT
+IntTagBit
 =
 0x1
     
-TYPE_VOID
+VoidTypeTag
 =
 0x2
     
-TYPE_SYMBOL
+SymbolTypeTag
 =
 0x4
     
-TYPE_EMPTY
-=
-0x6
-    
-TYPE_MASK
+TypeMask
 =
 0x7
     
@@ -240,7 +236,7 @@ self
 value
 [
 "
-asBits
+asBits_
 "
 ]
         
@@ -250,7 +246,7 @@ bits
 &
 PropertyKey
 .
-TYPE_MASK
+TypeMask
         
 if
 tag
@@ -258,7 +254,7 @@ tag
 =
 PropertyKey
 .
-TYPE_STRING
+StringTypeTag
 :
             
 body
@@ -279,7 +275,7 @@ tag
 &
 PropertyKey
 .
-TYPE_INT
+IntTagBit
 :
             
 body
@@ -295,12 +291,15 @@ tag
 =
 PropertyKey
 .
-TYPE_VOID
+VoidTypeTag
 :
             
 return
 "
-JSID_VOID
+JS
+:
+:
+VoidPropertyKey
 "
         
 elif
@@ -309,7 +308,7 @@ tag
 =
 PropertyKey
 .
-TYPE_SYMBOL
+SymbolTypeTag
 :
             
 body
@@ -320,7 +319,7 @@ bits
 ~
 PropertyKey
 .
-TYPE_MASK
+TypeMask
 )
 .
 cast
@@ -331,20 +330,6 @@ cache
 .
 JSSymbol_ptr_t
 )
-        
-elif
-tag
-=
-=
-PropertyKey
-.
-TYPE_EMPTY
-:
-            
-return
-"
-JSID_EMPTY
-"
         
 else
 :
