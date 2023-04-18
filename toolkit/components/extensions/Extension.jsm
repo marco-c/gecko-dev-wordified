@@ -13087,6 +13087,15 @@ remove
 -
 permissions
 "
+"
+background
+-
+script
+-
+suspend
+-
+ignored
+"
 ]
 )
 ;
