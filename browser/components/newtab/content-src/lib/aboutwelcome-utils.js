@@ -107,6 +107,11 @@ sendActionTelemetry
 (
 messageId
 elementId
+eventName
+=
+"
+CLICK_BUTTON
+"
 )
 {
 const
@@ -115,9 +120,7 @@ ping
 {
 event
 :
-"
-CLICK_BUTTON
-"
+eventName
 event_context
 :
 {
