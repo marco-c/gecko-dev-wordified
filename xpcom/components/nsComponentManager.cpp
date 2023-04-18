@@ -1137,9 +1137,6 @@ modules
 nsresult
 CreateInstance
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -1177,7 +1174,6 @@ nsFactoryEntry
 >
 CreateInstance
 (
-aOuter
 aIID
 aResult
 )
@@ -1198,7 +1194,6 @@ StaticModule
 >
 CreateInstance
 (
-aOuter
 aIID
 aResult
 )
@@ -8103,7 +8098,6 @@ aEntry
 .
 CreateInstance
 (
-nullptr
 aIID
 getter_AddRefs
 (
@@ -11140,9 +11134,6 @@ nsFactoryEntry
 :
 CreateInstance
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
@@ -11175,7 +11166,7 @@ factory
 >
 CreateInstance
 (
-aOuter
+nullptr
 aIID
 aResult
 )

@@ -811,9 +811,6 @@ const
 nsresult
 CreateInstance
 (
-nsISupports
-*
-aOuter
 const
 nsIID
 &
