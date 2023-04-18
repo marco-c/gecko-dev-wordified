@@ -2744,8 +2744,6 @@ raw_mozconfig
             
 mozconfig_path
 =
-Path
-(
 find_mozconfig
 (
 Path
@@ -2755,7 +2753,6 @@ self
 mach_context
 .
 topdir
-)
 )
 )
             

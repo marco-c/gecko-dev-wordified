@@ -1039,8 +1039,6 @@ None
 :
         
 return
-str
-(
 Path
 .
 cwd
@@ -1048,7 +1046,6 @@ cwd
 )
 /
 path
-)
     
 deprecated_paths
 =

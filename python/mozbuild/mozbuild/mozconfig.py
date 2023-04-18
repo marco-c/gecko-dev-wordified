@@ -711,6 +711,21 @@ self
 topsrcdir
 )
         
+if
+isinstance
+(
+path
+Path
+)
+:
+            
+path
+=
+str
+(
+path
+)
+        
 result
 =
 {
