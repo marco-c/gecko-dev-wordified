@@ -5331,6 +5331,12 @@ thread
 "
 )
 ;
+mTokenizerMutex
+.
+AssertCurrentThreadOwns
+(
+)
+;
 /
 /
 mLastBuffer
@@ -10091,6 +10097,7 @@ uint32_t
 *
 aWriteCount
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 nsHtml5StreamParser
 *
