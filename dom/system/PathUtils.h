@@ -333,9 +333,6 @@ const
 nsAString
 &
 aPath
-const
-int32_t
-aDepth
 nsString
 &
 aResult
