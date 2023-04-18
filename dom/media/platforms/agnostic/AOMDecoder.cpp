@@ -3517,6 +3517,7 @@ ReadBit
 (
 )
 ;
+const
 bool
 reducedStillPicture
 =
@@ -3547,6 +3548,9 @@ is
 false
 "
 )
+;
+return
+false
 ;
 }
 if
@@ -5847,6 +5851,9 @@ mProfile
 =
 =
 2
+&
+&
+highBitDepth
 )
 {
 bw
