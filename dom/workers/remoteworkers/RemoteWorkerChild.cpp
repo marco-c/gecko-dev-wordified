@@ -2090,6 +2090,16 @@ domain
 ;
 info
 .
+mTrials
+=
+aData
+.
+originTrials
+(
+)
+;
+info
+.
 mPrincipal
 =
 principal

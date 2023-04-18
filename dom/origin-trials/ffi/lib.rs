@@ -103,6 +103,7 @@ usage
 TestTrial
 =
 1
+MAX
 }
 impl
 OriginTrial
