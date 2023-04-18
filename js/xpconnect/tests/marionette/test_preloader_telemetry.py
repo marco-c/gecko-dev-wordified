@@ -443,7 +443,13 @@ start_time
 :
                     
 return
+            
+except
+OSError
+:
                 
+pass
+            
 if
 time
 .
@@ -453,7 +459,7 @@ time
 >
 expires
 :
-                    
+                
 raise
 Exception
 (
@@ -472,19 +478,13 @@ format
 path
 )
 )
-                
+            
 time
 .
 sleep
 (
 1
 )
-            
-except
-OSError
-:
-                
-pass
     
 def
 wait_for_observer_notification
