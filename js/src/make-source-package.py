@@ -1291,6 +1291,14 @@ rust
 *
 +
 /
+third_party
+/
+intgemm
+/
+*
+*
++
+/
 layout
 /
 tools
