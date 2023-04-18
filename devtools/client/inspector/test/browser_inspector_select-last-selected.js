@@ -89,7 +89,7 @@ reload
 var
 PAGE_1
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_inspector_select
@@ -106,7 +106,7 @@ html
 var
 PAGE_2
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_inspector_select

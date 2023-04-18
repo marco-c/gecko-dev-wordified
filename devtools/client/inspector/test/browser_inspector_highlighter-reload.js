@@ -77,7 +77,7 @@ reload
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_inspector_highlighter_dom

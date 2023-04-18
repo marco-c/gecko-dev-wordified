@@ -86,9 +86,6 @@ inspector
 /
 test
 /
-"
-+
-"
 doc_inspector_breadcrumbs
 .
 html
@@ -98,7 +95,7 @@ const
 TEST_URL_1
 =
 "
-http
+https
 :
 /
 /
@@ -116,7 +113,7 @@ const
 TEST_URL_2
 =
 "
-http
+https
 :
 /
 /

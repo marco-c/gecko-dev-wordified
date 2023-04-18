@@ -65,7 +65,7 @@ Fission
 const
 TEST_URI
 =
-URL_ROOT_COM
+URL_ROOT_COM_SSL
 +
 "
 doc_print_media_simulation

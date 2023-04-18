@@ -83,7 +83,7 @@ css
 const
 EXTERNAL_STYLESHEET_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 EXTERNAL_STYLESHEET_FILE_NAME
 ;
@@ -489,7 +489,7 @@ const
 EXAMPLE_ORG_DOCUMENT_URL
 =
 "
-http
+https
 :
 /
 /

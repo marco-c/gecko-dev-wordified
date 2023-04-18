@@ -132,7 +132,7 @@ const
 TEST_URL_3
 =
 "
-http
+https
 :
 /
 /
@@ -454,7 +454,7 @@ match
 (
 /
 ^
-http
+https
 :
 \
 /

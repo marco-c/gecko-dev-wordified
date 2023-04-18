@@ -42,7 +42,7 @@ simulation
 const
 TEST_URI
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_media_queries

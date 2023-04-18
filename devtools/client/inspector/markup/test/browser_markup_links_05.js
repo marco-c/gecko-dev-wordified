@@ -58,7 +58,7 @@ things
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_links
@@ -243,7 +243,7 @@ linkedBrowser
 currentURI
 .
 spec
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_tooltip

@@ -92,7 +92,7 @@ js
 const
 TEST_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 doc_markup_events_jquery
@@ -140,7 +140,7 @@ DOMContentLoaded
 "
 filename
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 TEST_LIB
 +
@@ -567,7 +567,7 @@ load
 "
 filename
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 TEST_LIB
 +
@@ -889,7 +889,7 @@ dblclick
 "
 filename
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 TEST_LIB
 +
@@ -1537,7 +1537,7 @@ dragend
 "
 filename
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 TEST_LIB
 +
@@ -2185,7 +2185,7 @@ dragleave
 "
 filename
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 TEST_LIB
 +
@@ -2833,7 +2833,7 @@ dragstart
 "
 filename
 :
-URL_ROOT
+URL_ROOT_SSL
 +
 TEST_LIB
 +
