@@ -29,12 +29,18 @@ syn
 Ident
 ;
 use
+crate
+:
+:
 ast
 :
 :
 Fields
 ;
 use
+crate
+:
+:
 codegen
 :
 :
@@ -47,6 +53,9 @@ ErrorDeclaration
 }
 ;
 use
+crate
+:
+:
 codegen
 :
 :
@@ -56,6 +65,9 @@ FieldsGen
 }
 ;
 use
+crate
+:
+:
 usage
 :
 :
@@ -792,7 +804,6 @@ ErrorCheck
 :
 with_location
 (
-&
 name_in_attr
 )
 ;
