@@ -2681,7 +2681,10 @@ return
 nsAttrValue
 asAttr
 ;
-HTMLLinkElement
+mozilla
+:
+:
+net
 :
 :
 ParseAsValue
@@ -2709,7 +2712,10 @@ notUsed
 auto
 policyType
 =
-HTMLLinkElement
+mozilla
+:
+:
+net
 :
 :
 AsValueToContentPolicy
@@ -2729,7 +2735,10 @@ TYPE_INVALID
 |
 |
 !
-HTMLLinkElement
+mozilla
+:
+:
+net
 :
 :
 CheckPreloadAttrs
@@ -2750,7 +2759,10 @@ or
 empty
 attributes
 .
-HTMLLinkElement
+mozilla
+:
+:
+net
 :
 :
 WarnIgnoredPreload
