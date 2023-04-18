@@ -816,6 +816,12 @@ MutexAutoLock
 aProofOfLock
 )
 ;
+/
+/
+Set
+in
+constructor
+only
 RefPtr
 <
 mozilla

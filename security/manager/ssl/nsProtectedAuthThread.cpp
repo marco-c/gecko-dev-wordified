@@ -266,6 +266,13 @@ nsIObserver
 aObserver
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 NS_ENSURE_ARG
 (
 aObserver
@@ -677,6 +684,13 @@ Join
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 !

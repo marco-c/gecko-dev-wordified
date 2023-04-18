@@ -1210,7 +1210,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 ;
 /
 /
