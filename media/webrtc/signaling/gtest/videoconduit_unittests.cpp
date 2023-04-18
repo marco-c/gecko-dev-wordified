@@ -298,6 +298,13 @@ nullptr
 mVideoConduit
 -
 >
+InitCall
+(
+)
+;
+mVideoConduit
+-
+>
 SetLocalSSRCs
 (
 {

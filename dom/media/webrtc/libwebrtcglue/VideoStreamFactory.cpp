@@ -1057,13 +1057,6 @@ VideoCodecMode
 aCodecMode
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 mCodecMode
 =
 aCodecMode
@@ -1080,13 +1073,6 @@ int
 aSendingFramerate
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 mSendingFramerate
 =
 aSendingFramerate
