@@ -270,13 +270,6 @@ h
 #
 include
 "
-nsParserCIID
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

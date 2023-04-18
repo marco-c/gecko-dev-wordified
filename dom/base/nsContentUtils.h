@@ -576,9 +576,6 @@ class
 nsIObserver
 ;
 class
-nsIParser
-;
-class
 nsIPluginTag
 ;
 class
@@ -628,6 +625,9 @@ nsIXPConnect
 ;
 class
 nsNodeInfoManager
+;
+class
+nsParser
 ;
 class
 nsPIWindowRoot
@@ -22841,7 +22841,7 @@ nsHtml5StringParser
 sHTMLFragmentParser
 ;
 static
-nsIParser
+nsParser
 *
 sXMLFragmentParser
 ;

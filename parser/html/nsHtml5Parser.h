@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsParserCIID
-.
-h
-"
-#
-include
-"
 nsIContentSink
 .
 h

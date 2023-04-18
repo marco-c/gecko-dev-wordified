@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsParserCIID
-.
-h
-"
-#
-include
-"
 CParserContext
 .
 h
