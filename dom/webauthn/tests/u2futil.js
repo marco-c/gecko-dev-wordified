@@ -91,7 +91,7 @@ AppConstants
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -108,8 +108,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 function

@@ -23,7 +23,7 @@ ManifestProcessor
 =
 SpecialPowers
 .
-Cu
+ChromeUtils
 .
 import
 (
