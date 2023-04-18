@@ -191,6 +191,12 @@ GdkIsX11Display
 (
 )
 ;
+GdkDevice
+*
+GdkGetPointer
+(
+)
+;
 bool
 IsRunningUnderFlatpak
 (
