@@ -1379,7 +1379,7 @@ params
 ;
 params
 .
-overlay
+isOverlay
 =
 nsLookAndFeel
 :
@@ -1400,7 +1400,7 @@ UseOverlayScrollbars
 ;
 params
 .
-rolledOver
+isRolledOver
 =
 IsParentScrollbarRolledOver
 (
@@ -1409,7 +1409,7 @@ aFrame
 ;
 params
 .
-small
+isSmall
 =
 aStyle
 .
@@ -1428,7 +1428,7 @@ Thin
 ;
 params
 .
-rtl
+isRtl
 =
 nsNativeTheme
 :
@@ -1440,13 +1440,13 @@ aFrame
 ;
 params
 .
-horizontal
+isHorizontal
 =
 aIsHorizontal
 ;
 params
 .
-onDarkBackground
+isOnDarkBackground
 =
 !
 StaticPrefs
@@ -1496,7 +1496,7 @@ if
 !
 params
 .
-overlay
+isOverlay
 )
 {
 const
@@ -1536,7 +1536,7 @@ AsColors
 ;
 params
 .
-custom
+isCustom
 =
 true
 ;
