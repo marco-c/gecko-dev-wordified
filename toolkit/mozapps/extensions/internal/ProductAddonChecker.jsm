@@ -2668,5 +2668,13 @@ e
 ;
 }
 }
+/
+/
+For
+test
+use
+only
+.
+computeHash
 }
 ;
