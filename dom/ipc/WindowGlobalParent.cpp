@@ -5912,7 +5912,7 @@ gfx
 CrossProcessPaintFlags
 :
 :
-None
+UseHighQualityScaling
 ;
 if
 (
@@ -5936,6 +5936,7 @@ visible
 viewport
 .
 flags
+|
 =
 gfx
 :
@@ -5953,6 +5954,7 @@ aResetScrollPosition
 )
 {
 flags
+|
 =
 gfx
 :
