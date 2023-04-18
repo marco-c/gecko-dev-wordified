@@ -179,6 +179,7 @@ in
 Node
 aNode
 in
+unsigned
 long
 aOffset
 )
@@ -193,6 +194,7 @@ in
 Node
 aNode
 in
+unsigned
 long
 aOffset
 in
