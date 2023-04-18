@@ -2507,8 +2507,10 @@ NativeThreadId
 aThreadId
 )
 ;
+already_AddRefed
+<
 PNeckoParent
-*
+>
 AllocPNeckoParent
 (
 )
@@ -5759,14 +5761,6 @@ DeallocPScriptCacheParent
 PScriptCacheParent
 *
 shell
-)
-;
-bool
-DeallocPNeckoParent
-(
-PNeckoParent
-*
-necko
 )
 ;
 already_AddRefed

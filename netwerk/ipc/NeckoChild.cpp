@@ -547,6 +547,17 @@ IsShuttingDown
 return
 ;
 }
+RefPtr
+<
+NeckoChild
+>
+child
+=
+new
+NeckoChild
+(
+)
+;
 gNeckoChild
 =
 cpc
@@ -554,6 +565,7 @@ cpc
 >
 SendPNeckoConstructor
 (
+child
 )
 ;
 NS_ASSERTION
