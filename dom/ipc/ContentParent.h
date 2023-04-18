@@ -6368,6 +6368,8 @@ BrowsingContext
 aContext
 bool
 aWasExternallyTriggered
+bool
+aHasValidUserGestureActivation
 )
 ;
 mozilla
