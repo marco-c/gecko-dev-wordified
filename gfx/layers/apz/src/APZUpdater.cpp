@@ -561,6 +561,13 @@ CurrentId
 }
 }
 /
+/
+Takes
+a
+conditional
+lock
+!
+/
 *
 static
 *
@@ -579,6 +586,7 @@ WrWindowId
 &
 aWindowId
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 if
 (
@@ -606,6 +614,15 @@ LockTree
 ;
 }
 }
+/
+/
+Assumes
+we
+took
+a
+conditional
+lock
+!
 /
 *
 static
