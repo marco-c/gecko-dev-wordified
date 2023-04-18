@@ -3447,6 +3447,9 @@ Step
 .
 2
 :
+(
+void
+)
 ReadableByteStreamControllerShiftPendingPullInto
 (
 aController

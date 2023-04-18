@@ -350,7 +350,7 @@ Step
 :
 RefPtr
 <
-ReadableStreamDefaultReader
+ReadableStreamGenericReader
 >
 reader
 (
