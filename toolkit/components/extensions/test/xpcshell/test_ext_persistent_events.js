@@ -121,7 +121,6 @@ undefined
 ;
 primeListener
 (
-extension
 event
 fire
 params

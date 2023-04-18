@@ -101,6 +101,9 @@ true
 ExtensionAPI
 :
 true
+ExtensionAPIPersistent
+:
+true
 ExtensionCommon
 :
 true
