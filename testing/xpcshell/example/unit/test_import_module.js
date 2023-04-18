@@ -129,9 +129,7 @@ folder
 through
 :
 *
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

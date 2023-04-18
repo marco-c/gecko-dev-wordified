@@ -208,12 +208,16 @@ resolve
 arguments
 ;
               
-Components
-.
-utils
+const
+{
+AddonManager
+}
+=
+ChromeUtils
 .
 import
 (
+                
 "
 resource
 :
@@ -227,6 +231,7 @@ AddonManager
 .
 jsm
 "
+              
 )
 ;
               
@@ -343,12 +348,16 @@ resolve
 arguments
 ;
                   
-Components
-.
-utils
+const
+{
+AddonManager
+}
+=
+ChromeUtils
 .
 import
 (
+                    
 "
 resource
 :
@@ -362,6 +371,7 @@ AddonManager
 .
 jsm
 "
+                  
 )
 ;
                   

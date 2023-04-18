@@ -577,12 +577,16 @@ execute_script
 "
 "
               
-Components
-.
-utils
+const
+{
+AppConstants
+}
+=
+ChromeUtils
 .
 import
 (
+                
 "
 resource
 :
@@ -596,6 +600,7 @@ AppConstants
 .
 jsm
 "
+              
 )
 ;
               
@@ -618,12 +623,16 @@ fennec
 )
 {
                 
-Components
-.
-utils
+const
+{
+Services
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -637,6 +646,7 @@ Services
 .
 jsm
 "
+                
 )
 ;
                 
@@ -660,12 +670,16 @@ browser
 else
 {
                 
-Components
-.
-utils
+const
+{
+BrowserWindowTracker
+}
+=
+ChromeUtils
 .
 import
 (
+                  
 "
 resource
 :
@@ -678,6 +692,7 @@ BrowserWindowTracker
 .
 jsm
 "
+                
 )
 ;
                 

@@ -686,12 +686,16 @@ execute_script
 "
 "
                   
-Components
-.
-utils
+const
+{
+Services
+}
+=
+ChromeUtils
 .
 import
 (
+                    
 "
 resource
 :
@@ -705,6 +709,7 @@ Services
 .
 jsm
 "
+                  
 )
 ;
                   
@@ -717,6 +722,7 @@ ChromeUtils
 .
 import
 (
+                    
 "
 chrome
 :
@@ -732,6 +738,7 @@ WindowManager
 .
 jsm
 "
+                  
 )
 ;
                   

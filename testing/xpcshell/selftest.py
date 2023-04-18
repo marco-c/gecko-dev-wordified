@@ -1583,9 +1583,12 @@ run_test
 )
 {
   
-Components
-.
-utils
+const
+{
+ctypes
+}
+=
+ChromeUtils
 .
 import
 (
@@ -1602,7 +1605,6 @@ ctypes
 .
 jsm
 "
-this
 )
 ;
   
@@ -1668,12 +1670,11 @@ let
 PromiseUtils
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
+    
 "
 resource
 :
@@ -1687,7 +1688,7 @@ PromiseUtils
 .
 jsm
 "
-this
+  
 )
 ;
   
