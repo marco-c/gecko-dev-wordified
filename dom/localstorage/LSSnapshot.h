@@ -681,6 +681,9 @@ LoadState
 mLoadState
 ;
 bool
+mHasOtherProcessDatabases
+;
+bool
 mHasOtherProcessObservers
 ;
 bool
