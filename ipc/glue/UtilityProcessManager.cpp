@@ -731,6 +731,15 @@ GetPreference
 (
 &
 pref
+GeckoProcessType_Utility
+/
+*
+remoteType
+*
+/
+"
+"
+_ns
 )
 ;
 for
