@@ -263,16 +263,6 @@ true
 /
 /
 Enable
-paint
-flashing
-mode
-.
-paintFlashing
-:
-true
-/
-/
-Enable
 print
 simulation
 mode

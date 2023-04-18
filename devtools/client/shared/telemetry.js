@@ -4805,11 +4805,6 @@ OPTIONS
 :
 case
 "
-PAINTFLASHING
-"
-:
-case
-"
 RESPONSIVE
 "
 :
