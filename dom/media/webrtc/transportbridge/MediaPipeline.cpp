@@ -9074,6 +9074,12 @@ aDesiredTime
 )
 )
 ;
+constexpr
+size_t
+mono
+=
+1
+;
 mAudioFrame
 -
 >
@@ -9099,7 +9105,7 @@ std
 :
 max
 (
-1UL
+mono
 mAudioFrame
 -
 >
