@@ -726,6 +726,11 @@ frame
 eval
 (
 condition
+{
+hideFromDebugger
+:
+true
+}
 )
 ;
 if
