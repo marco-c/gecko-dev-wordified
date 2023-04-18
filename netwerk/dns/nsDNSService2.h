@@ -465,9 +465,9 @@ uint16_t
 type
 uint32_t
 flags
-nsIDNSResolverInfo
+nsIDNSAdditionalInfo
 *
-aResolver
+aInfo
 nsIDNSListener
 *
 aListener
@@ -498,9 +498,9 @@ uint16_t
 aType
 uint32_t
 aFlags
-nsIDNSResolverInfo
+nsIDNSAdditionalInfo
 *
-aResolver
+aInfo
 nsIDNSListener
 *
 aListener

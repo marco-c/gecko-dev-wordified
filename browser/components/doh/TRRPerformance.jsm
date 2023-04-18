@@ -703,11 +703,13 @@ nsIDNSService
 RESOLVE_BYPASS_CACHE
 gDNSService
 .
-newTRRResolverInfo
+newAdditionalInfo
 (
 this
 .
 trrServer
+-
+1
 )
 this
 Services

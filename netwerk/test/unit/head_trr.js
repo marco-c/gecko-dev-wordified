@@ -1462,7 +1462,7 @@ nsIDNSService
 }
 this
 .
-resolverInfo
+additionalInfo
 =
 trrServer
 =
@@ -1474,9 +1474,11 @@ null
 :
 gDNS
 .
-newTRRResolverInfo
+newAdditionalInfo
 (
 trrServer
+-
+1
 )
 ;
 try
@@ -1505,7 +1507,7 @@ flags
 0
 this
 .
-resolverInfo
+additionalInfo
 this
 currentThread
 {

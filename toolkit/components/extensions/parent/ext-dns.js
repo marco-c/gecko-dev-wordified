@@ -487,7 +487,7 @@ dnsFlags
 null
 /
 /
-resolverInfo
+AdditionalInfo
 listener
 null
 {

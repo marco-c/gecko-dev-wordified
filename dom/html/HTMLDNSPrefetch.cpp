@@ -1794,7 +1794,7 @@ RESOLVE_SPECULATE
 nullptr
 /
 /
-resolverInfo
+AdditionalInfo
 sDNSListener
 aReason
 aPartitionedPrincipalOriginAttributes
@@ -1843,7 +1843,7 @@ RESOLVE_SPECULATE
 nullptr
 /
 /
-resolverInfo
+AdditionalInfo
 sDNSListener
 aReason
 aPartitionedPrincipalOriginAttributes
