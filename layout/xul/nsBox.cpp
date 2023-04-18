@@ -2498,7 +2498,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 nsITheme
 :
 :

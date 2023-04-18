@@ -314,7 +314,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 ;
 auto
 size

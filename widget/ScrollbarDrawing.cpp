@@ -528,7 +528,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 ;
 return
 scrollbarWidth
@@ -706,7 +708,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 ;
 auto
 overlay
@@ -1478,7 +1482,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 =
 =
 StyleScrollbarWidth

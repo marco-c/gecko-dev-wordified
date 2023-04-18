@@ -3361,7 +3361,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 =
 =
 StyleScrollbarWidth
@@ -8564,7 +8566,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 =
 =
 StyleScrollbarWidth
@@ -39352,7 +39356,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 !
 =
 StyleScrollbarWidth
@@ -49530,7 +49536,9 @@ StyleUIReset
 )
 -
 >
-mScrollbarWidth
+ScrollbarWidth
+(
+)
 ;
 auto
 sizes
