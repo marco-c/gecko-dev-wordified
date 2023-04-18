@@ -1032,10 +1032,6 @@ vSource
 GetGroupId
 (
 )
-u
-"
-"
-_ns
 )
 )
 ;
@@ -1326,10 +1322,6 @@ source
 GetGroupId
 (
 )
-u
-"
-"
-_ns
 )
 ;
 if
@@ -1993,10 +1985,6 @@ audioCaptureSource
 GetGroupId
 (
 )
-u
-"
-"
-_ns
 )
 )
 ;
