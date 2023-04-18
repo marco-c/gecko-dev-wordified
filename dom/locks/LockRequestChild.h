@@ -254,8 +254,10 @@ aIsAvailable
 )
 ;
 IPCResult
-RecvAbort
+Recv__delete__
 (
+bool
+aAborted
 )
 ;
 void
