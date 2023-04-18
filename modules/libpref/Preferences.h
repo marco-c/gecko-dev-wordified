@@ -2968,6 +2968,11 @@ SaveMethod
 aSaveMethod
 )
 ;
+nsresult
+ResetUserPrefs
+(
+)
+;
 /
 /
 Helpers
