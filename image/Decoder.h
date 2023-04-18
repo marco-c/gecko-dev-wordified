@@ -2881,7 +2881,7 @@ nsICODecoder
 ;
 friend
 class
-PalettedSurfaceSink
+ReorientSurfaceSink
 ;
 friend
 class
