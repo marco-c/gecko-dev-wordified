@@ -4209,12 +4209,6 @@ aGuiEvent
 )
 ;
 static
-bool
-debug_WantPaintFlashing
-(
-)
-;
-static
 void
 debug_DumpInvalidate
 (
