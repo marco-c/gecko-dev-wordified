@@ -148,17 +148,6 @@ include
 "
 mozilla
 /
-dom
-/
-RootedDictionary
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimelineConsumers
 .
 h

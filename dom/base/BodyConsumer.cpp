@@ -348,13 +348,6 @@ nsProxyRelease
 .
 h
 "
-#
-include
-"
-nsIInputStream
-.
-h
-"
 /
 /
 Undefine
