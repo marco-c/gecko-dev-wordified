@@ -6167,7 +6167,7 @@ if
 !
 valType
 .
-isReference
+isRefType
 (
 )
 )
@@ -6239,7 +6239,7 @@ if
 !
 valType
 .
-isReference
+isRefType
 (
 )
 )

@@ -1318,7 +1318,7 @@ if
 (
 argType
 .
-isReference
+isRefRepr
 (
 )
 )
@@ -1364,7 +1364,7 @@ argTypes
 i
 ]
 .
-isReference
+isRefRepr
 (
 )
 )
