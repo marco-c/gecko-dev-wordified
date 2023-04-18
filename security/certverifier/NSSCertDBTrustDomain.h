@@ -1443,6 +1443,12 @@ GetSCTListFromOCSPStapling
 const
 ;
 bool
+GetIsBuiltChainRootBuiltInRoot
+(
+)
+const
+;
+bool
 GetIsErrorDueToDistrustedCAPolicy
 (
 )
@@ -1764,6 +1770,9 @@ mBuiltChain
 non
 -
 owning
+bool
+mIsBuiltChainRootBuiltInRoot
+;
 PinningTelemetryInfo
 *
 mPinningTelemetryInfo

@@ -1065,6 +1065,17 @@ CertificateTransparencyInfo
 ctInfo
 =
 nullptr
+/
+*
+optional
+out
+*
+/
+bool
+*
+isBuiltChainRootBuiltInRoot
+=
+nullptr
 )
 ;
 mozilla
@@ -1284,7 +1295,7 @@ out
 /
 bool
 *
-isBuiltCertChainRootBuiltInRoot
+isBuiltChainRootBuiltInRoot
 =
 nullptr
 )
