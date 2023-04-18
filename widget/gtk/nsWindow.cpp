@@ -40958,6 +40958,10 @@ bool
 aIsTransparent
 )
 {
+mMouseTransparent
+=
+aIsTransparent
+;
 GdkWindow
 *
 window
