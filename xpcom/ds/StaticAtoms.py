@@ -9686,6 +9686,16 @@ onsuccess
 Atom
 (
 "
+onsystemstatusbarclick
+"
+"
+onsystemstatusbarclick
+"
+)
+    
+Atom
+(
+"
 ontypechange
 "
 "

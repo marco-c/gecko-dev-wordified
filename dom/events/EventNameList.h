@@ -2323,6 +2323,13 @@ eScrollPortUnderflow
 EventNameType_XUL
 eBasicEventClass
 )
+NON_IDL_EVENT
+(
+systemstatusbarclick
+eXULSystemStatusBarClick
+EventNameType_XUL
+eBasicEventClass
+)
 /
 /
 Various

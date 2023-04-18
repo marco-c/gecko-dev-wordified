@@ -867,6 +867,10 @@ NS_EVENT_MESSAGE
 (
 eXULCommandUpdate
 )
+NS_EVENT_MESSAGE
+(
+eXULSystemStatusBarClick
+)
 /
 /
 Legacy
