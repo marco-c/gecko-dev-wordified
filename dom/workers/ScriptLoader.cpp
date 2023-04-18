@@ -4253,7 +4253,7 @@ break
 if
 (
 !
-EvaluateLoadInfo
+EvaluateScript
 (
 aCx
 loadInfo
@@ -9218,7 +9218,7 @@ fail
 }
 }
 bool
-EvaluateLoadInfo
+EvaluateScript
 (
 JSContext
 *
