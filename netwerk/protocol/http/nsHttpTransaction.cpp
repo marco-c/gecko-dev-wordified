@@ -985,7 +985,7 @@ const
 {
 return
 (
-mClassOfService
+mClassOfServiceFlags
 &
 (
 nsIClassOfService
@@ -1023,7 +1023,7 @@ nsHttpTransaction
 :
 SetClassOfService
 (
-uint32_t
+ClassOfServiceStruct
 cos
 )
 {
@@ -1042,9 +1042,21 @@ EligibleForThrottling
 (
 )
 ;
-mClassOfService
+mClassOfServiceFlags
 =
 cos
+.
+Flags
+(
+)
+;
+mClassOfServiceIncremental
+=
+cos
+.
+Incremental
+(
+)
 ;
 bool
 isThrottling
@@ -1461,7 +1473,7 @@ trafficCategory
 nsIRequestContext
 *
 requestContext
-uint32_t
+ClassOfServiceStruct
 classOfService
 uint32_t
 initialRwin
@@ -5371,7 +5383,7 @@ ShouldThrottle
 {
 if
 (
-mClassOfService
+mClassOfServiceFlags
 &
 nsIClassOfService
 :
@@ -5543,7 +5555,7 @@ if
 (
 !
 (
-mClassOfService
+mClassOfServiceFlags
 &
 nsIClassOfService
 :

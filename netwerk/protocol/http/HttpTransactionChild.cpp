@@ -616,7 +616,7 @@ uint8_t
 httpTrafficCategory
 uint64_t
 requestContextID
-uint32_t
+ClassOfServiceStruct
 classOfService
 uint32_t
 initialRwin
@@ -1256,7 +1256,7 @@ uint64_t
 &
 aRequestContextID
 const
-uint32_t
+ClassOfServiceStruct
 &
 aClassOfService
 const

@@ -2924,6 +2924,10 @@ hTrans
 ClassOfService
 (
 )
+.
+Flags
+(
+)
 &
 nsIClassOfService
 :
