@@ -908,7 +908,7 @@ eslint
 /
 blob
 /
-master
+HEAD
 /
 packages
 /

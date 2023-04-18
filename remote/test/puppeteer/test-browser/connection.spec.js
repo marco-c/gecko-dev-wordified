@@ -345,7 +345,7 @@ confirm
 the
 result
 was
-recieved
+received
 successfully
 .
 *

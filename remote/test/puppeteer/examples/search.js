@@ -241,8 +241,9 @@ type
 .
 devsite
 -
-searchbox
-input
+search
+-
+field
 '
 '
 Headless
@@ -318,13 +319,6 @@ resultsSelector
 gsc
 -
 results
-.
-gsc
--
-thumbnail
--
-inside
-a
 .
 gs
 -
