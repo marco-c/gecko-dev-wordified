@@ -158,7 +158,6 @@ length
 /
 g
 ;
-;
 reportCompare
 (
 0

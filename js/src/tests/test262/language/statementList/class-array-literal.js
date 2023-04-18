@@ -144,7 +144,6 @@ C
 [
 ]
 ;
-;
 reportCompare
 (
 0

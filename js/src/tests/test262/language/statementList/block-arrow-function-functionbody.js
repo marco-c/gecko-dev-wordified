@@ -179,7 +179,6 @@ return
 ;
 }
 ;
-;
 reportCompare
 (
 0

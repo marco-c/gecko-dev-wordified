@@ -113,7 +113,7 @@ ListFormat
 )
 ;
 assert
-(
+.
 compareArray
 (
 [
@@ -123,7 +123,6 @@ lf
 formatToParts
 (
 undefined
-)
 )
 )
 ;

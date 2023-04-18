@@ -101,6 +101,19 @@ function
 "
 )
 ;
+const
+arg
+=
+new
+Temporal
+.
+PlainDate
+(
+2021
+3
+4
+)
+;
 assert
 .
 throws
@@ -115,6 +128,7 @@ inLeapYear
 call
 (
 undefined
+arg
 )
 "
 undefined
@@ -135,6 +149,7 @@ inLeapYear
 call
 (
 null
+arg
 )
 "
 null
@@ -155,6 +170,7 @@ inLeapYear
 call
 (
 true
+arg
 )
 "
 true
@@ -176,6 +192,7 @@ call
 (
 "
 "
+arg
 )
 "
 empty
@@ -199,6 +216,7 @@ call
 Symbol
 (
 )
+arg
 )
 "
 symbol
@@ -219,6 +237,7 @@ inLeapYear
 call
 (
 1
+arg
 )
 "
 1
@@ -240,6 +259,7 @@ call
 (
 {
 }
+arg
 )
 "
 plain
@@ -263,6 +283,7 @@ call
 Temporal
 .
 Calendar
+arg
 )
 "
 Temporal
@@ -289,6 +310,7 @@ Temporal
 Calendar
 .
 prototype
+arg
 )
 "
 Temporal

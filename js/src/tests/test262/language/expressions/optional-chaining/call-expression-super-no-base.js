@@ -80,12 +80,12 @@ chaining
 ]
 negative
 :
-type
-:
-SyntaxError
 phase
 :
 parse
+type
+:
+SyntaxError
 -
 -
 -

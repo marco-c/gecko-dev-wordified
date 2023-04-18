@@ -145,7 +145,6 @@ length
 }
 {
 }
-;
 reportCompare
 (
 0

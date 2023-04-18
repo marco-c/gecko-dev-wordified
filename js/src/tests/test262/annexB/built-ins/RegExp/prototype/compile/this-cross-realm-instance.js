@@ -160,6 +160,8 @@ assert
 .
 throws
 (
+other
+.
 TypeError
 function
 (

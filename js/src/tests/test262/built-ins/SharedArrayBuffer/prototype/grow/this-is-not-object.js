@@ -112,11 +112,12 @@ ArrayBufferMaxByteLength
 features
 :
 [
+BigInt
+SharedArrayBuffer
+Symbol
 resizable
 -
 arraybuffer
-Symbol
-BigInt
 ]
 -
 -

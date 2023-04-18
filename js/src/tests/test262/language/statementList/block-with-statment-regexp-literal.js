@@ -153,7 +153,6 @@ length
 1
 /
 ;
-;
 reportCompare
 (
 0

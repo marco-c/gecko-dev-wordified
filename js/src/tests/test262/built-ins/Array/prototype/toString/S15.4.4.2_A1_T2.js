@@ -120,11 +120,6 @@ separator
 -
 *
 /
-/
-/
-CHECK
-#
-1
 var
 x
 =
@@ -274,11 +269,6 @@ toString
 ;
 }
 }
-/
-/
-CHECK
-#
-2
 x
 =
 [
@@ -447,11 +437,6 @@ toString
 ;
 }
 }
-/
-/
-CHECK
-#
-3
 x
 =
 Array
@@ -593,11 +578,6 @@ toString
 ;
 }
 }
-/
-/
-CHECK
-#
-4
 x
 =
 [

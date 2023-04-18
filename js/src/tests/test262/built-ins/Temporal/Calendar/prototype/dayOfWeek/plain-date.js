@@ -60,6 +60,7 @@ prototype
 dayofweek
 description
 :
+>
 Temporal
 .
 Calendar

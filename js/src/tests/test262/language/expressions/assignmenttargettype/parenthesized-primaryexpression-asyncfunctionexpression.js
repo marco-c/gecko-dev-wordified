@@ -114,11 +114,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 async
 function
@@ -130,4 +125,3 @@ function
 =
 1
 ;
-}

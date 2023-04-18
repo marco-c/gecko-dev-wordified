@@ -81,12 +81,12 @@ a
 PropertyAssignment
 negative
 :
-type
-:
-SyntaxError
 phase
 :
 parse
+type
+:
+SyntaxError
 flags
 :
 [

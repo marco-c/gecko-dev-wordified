@@ -116,11 +116,6 @@ array
 -
 *
 /
-/
-/
-CHECK
-#
-1
 var
 x
 =
@@ -161,11 +156,6 @@ undefined
 '
 )
 ;
-/
-/
-CHECK
-#
-2
 x
 .
 length

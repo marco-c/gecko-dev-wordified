@@ -125,6 +125,15 @@ baz
 )
 ;
 }
+'
+baz
+(
+)
+throws
+a
+TypeError
+exception
+'
 )
 ;
 reportCompare

@@ -101,15 +101,9 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 import
 (
 )
 =
 1
 ;
-}

@@ -187,7 +187,6 @@ FinalizationRegistry
 prototype
 .
 cleanupSome
-cleanupSome
 WeakSet
 WeakMap
 FinalizationRegistry

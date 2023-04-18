@@ -88,12 +88,12 @@ Pattern_Syntax
 .
 negative
 :
-type
-:
-SyntaxError
 phase
 :
 parse
+type
+:
+SyntaxError
 -
 -
 -

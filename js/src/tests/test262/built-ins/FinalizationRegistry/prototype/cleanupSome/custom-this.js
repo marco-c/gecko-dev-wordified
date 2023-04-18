@@ -176,7 +176,6 @@ FinalizationRegistry
 prototype
 .
 cleanupSome
-cleanupSome
 FinalizationRegistry
 ]
 -

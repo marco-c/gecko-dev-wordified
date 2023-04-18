@@ -176,6 +176,7 @@ empty
 features
 :
 [
+SharedArrayBuffer
 resizable
 -
 arraybuffer

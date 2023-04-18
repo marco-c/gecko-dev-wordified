@@ -139,7 +139,6 @@ RegularExpressionFlags
 1
 /
 ;
-;
 reportCompare
 (
 0

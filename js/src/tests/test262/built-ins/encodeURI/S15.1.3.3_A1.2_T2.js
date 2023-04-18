@@ -119,14 +119,6 @@ count
 +
 +
 ;
-var
-hex
-=
-decimalToHexString
-(
-index
-)
-;
 try
 {
 encodeURI

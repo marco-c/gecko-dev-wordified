@@ -71,11 +71,6 @@ and
 -
 *
 /
-/
-/
-CHECK
-#
-1
 var
 x
 =
@@ -157,11 +152,6 @@ undefined
 )
 ;
 }
-/
-/
-CHECK
-#
-2
 x
 =
 [
@@ -254,11 +244,6 @@ undefined
 )
 ;
 }
-/
-/
-CHECK
-#
-3
 x
 =
 [

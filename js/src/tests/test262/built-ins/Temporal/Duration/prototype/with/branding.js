@@ -101,6 +101,15 @@ function
 "
 )
 ;
+const
+arg
+=
+{
+years
+:
+3
+}
+;
 assert
 .
 throws
@@ -115,6 +124,7 @@ with_
 call
 (
 undefined
+arg
 )
 "
 undefined
@@ -135,6 +145,7 @@ with_
 call
 (
 null
+arg
 )
 "
 null
@@ -155,6 +166,7 @@ with_
 call
 (
 true
+arg
 )
 "
 true
@@ -176,6 +188,7 @@ call
 (
 "
 "
+arg
 )
 "
 empty
@@ -199,6 +212,7 @@ call
 Symbol
 (
 )
+arg
 )
 "
 symbol
@@ -219,6 +233,7 @@ with_
 call
 (
 1
+arg
 )
 "
 1
@@ -240,6 +255,7 @@ call
 (
 {
 }
+arg
 )
 "
 plain
@@ -263,6 +279,7 @@ call
 Temporal
 .
 Duration
+arg
 )
 "
 Temporal
@@ -289,6 +306,7 @@ Temporal
 Duration
 .
 prototype
+arg
 )
 "
 Temporal

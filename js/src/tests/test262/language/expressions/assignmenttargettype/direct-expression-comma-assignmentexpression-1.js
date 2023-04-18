@@ -108,11 +108,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 x
 y
@@ -122,4 +117,3 @@ y
 =
 1
 ;
-}

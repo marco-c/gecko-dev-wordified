@@ -89,11 +89,6 @@ undefined
 -
 *
 /
-/
-/
-CHECK
-#
-1
 try
 {
 var
@@ -181,11 +176,6 @@ true
 )
 ;
 }
-/
-/
-CHECK
-#
-2
 try
 {
 x
@@ -276,11 +266,6 @@ true
 )
 ;
 }
-/
-/
-CHECK
-#
-3
 try
 {
 x
@@ -371,11 +356,6 @@ true
 )
 ;
 }
-/
-/
-CHECK
-#
-4
 try
 {
 x

@@ -310,7 +310,6 @@ FinalizationRegistry
 prototype
 .
 cleanupSome
-cleanupSome
 FinalizationRegistry
 host
 -

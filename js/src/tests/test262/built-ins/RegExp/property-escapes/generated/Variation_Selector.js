@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2020
+2021
 Mathias
 Bynens
 .
@@ -65,7 +65,7 @@ escapes
 -
 tests
 Unicode
-v13
+v14
 .
 0
 .
@@ -113,6 +113,7 @@ buildString
 loneCodePoints
 :
 [
+0x00180F
 ]
 ranges
 :
@@ -188,6 +189,7 @@ buildString
 loneCodePoints
 :
 [
+0x00180E
 ]
 ranges
 :
@@ -201,7 +203,7 @@ ranges
 0x00180A
 ]
 [
-0x00180E
+0x001810
 0x00DBFF
 ]
 [

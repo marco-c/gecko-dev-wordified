@@ -126,11 +126,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 void
 true
@@ -138,4 +133,3 @@ true
 =
 1
 ;
-}

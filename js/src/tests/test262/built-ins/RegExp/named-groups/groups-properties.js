@@ -146,7 +146,7 @@ textual
 order
 .
 assert
-(
+.
 compareArray
 (
 [
@@ -188,7 +188,6 @@ abcd
 )
 .
 groups
-)
 )
 )
 ;

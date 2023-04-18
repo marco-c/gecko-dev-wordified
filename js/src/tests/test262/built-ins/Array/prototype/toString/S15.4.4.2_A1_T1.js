@@ -95,11 +95,6 @@ string
 -
 *
 /
-/
-/
-CHECK
-#
-1
 var
 x
 =
@@ -229,11 +224,6 @@ toString
 ;
 }
 }
-/
-/
-CHECK
-#
-2
 x
 =
 [

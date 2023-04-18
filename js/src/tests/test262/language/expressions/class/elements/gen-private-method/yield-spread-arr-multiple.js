@@ -380,14 +380,13 @@ value
 )
 ;
 assert
-(
+.
 compareArray
 (
 item
 .
 value
 arr
-)
 )
 ;
 assert

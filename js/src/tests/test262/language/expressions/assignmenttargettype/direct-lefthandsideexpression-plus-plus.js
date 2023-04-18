@@ -123,15 +123,9 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 x
 +
 +
 =
 1
 ;
-}

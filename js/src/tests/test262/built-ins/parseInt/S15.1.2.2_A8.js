@@ -187,14 +187,6 @@ index
 )
 )
 {
-var
-hex
-=
-decimalToHexString
-(
-index
-)
-;
 if
 (
 parseInt

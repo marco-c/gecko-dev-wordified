@@ -94,11 +94,6 @@ length
 -
 1
 ;
-/
-/
-CHECK
-#
-1
 var
 pop
 =
@@ -177,11 +172,6 @@ pop
 )
 ;
 }
-/
-/
-CHECK
-#
-2
 if
 (
 obj
@@ -259,11 +249,6 @@ length
 )
 ;
 }
-/
-/
-CHECK
-#
-3
 if
 (
 obj

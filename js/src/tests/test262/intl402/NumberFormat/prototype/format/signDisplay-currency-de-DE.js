@@ -49,7 +49,7 @@ Checks
 handling
 of
 the
-compactDisplay
+signDisplay
 option
 to
 the

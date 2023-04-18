@@ -60,6 +60,7 @@ prototype
 daysInMonth
 description
 :
+>
 Temporal
 .
 Calendar

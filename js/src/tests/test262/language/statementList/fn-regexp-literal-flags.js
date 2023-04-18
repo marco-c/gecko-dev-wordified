@@ -153,7 +153,6 @@ fn
 /
 g
 ;
-;
 reportCompare
 (
 0

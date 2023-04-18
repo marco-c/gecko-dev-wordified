@@ -48,10 +48,11 @@ arguments
 "
 includes
 :
--
+[
 propertyHelper
 .
 js
+]
 es6id
 :
 8

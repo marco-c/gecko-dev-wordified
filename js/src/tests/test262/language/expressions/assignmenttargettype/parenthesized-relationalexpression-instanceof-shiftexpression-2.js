@@ -127,11 +127,6 @@ DONOTEVALUATE
 (
 )
 ;
-function
-_
-(
-)
-{
 (
 true
 instanceof
@@ -140,4 +135,3 @@ false
 =
 1
 ;
-}

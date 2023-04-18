@@ -111,12 +111,6 @@ Symbol
 -
 *
 /
-function
-Target
-(
-)
-{
-}
 var
 P
 =

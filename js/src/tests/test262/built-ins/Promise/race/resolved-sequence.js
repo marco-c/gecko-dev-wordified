@@ -390,6 +390,8 @@ result
 =
 >
 {
+assert
+.
 compareArray
 (
 result

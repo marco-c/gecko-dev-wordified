@@ -133,7 +133,6 @@ C
 }
 {
 }
-;
 reportCompare
 (
 0

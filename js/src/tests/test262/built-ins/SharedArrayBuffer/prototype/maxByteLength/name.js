@@ -116,6 +116,7 @@ js
 features
 :
 [
+SharedArrayBuffer
 resizable
 -
 arraybuffer

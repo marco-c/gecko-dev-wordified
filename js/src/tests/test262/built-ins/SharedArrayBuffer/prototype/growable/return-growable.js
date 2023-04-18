@@ -177,6 +177,7 @@ false
 features
 :
 [
+SharedArrayBuffer
 resizable
 -
 arraybuffer

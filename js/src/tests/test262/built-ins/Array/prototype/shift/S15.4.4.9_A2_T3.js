@@ -99,11 +99,6 @@ prototype
 .
 shift
 ;
-/
-/
-CHECK
-#
-1
 obj
 .
 length
@@ -182,11 +177,6 @@ shift
 )
 ;
 }
-/
-/
-CHECK
-#
-2
 if
 (
 obj
@@ -256,11 +246,6 @@ length
 )
 ;
 }
-/
-/
-CHECK
-#
-3
 obj
 .
 length
@@ -343,11 +328,6 @@ shift
 )
 ;
 }
-/
-/
-CHECK
-#
-3
 if
 (
 obj
