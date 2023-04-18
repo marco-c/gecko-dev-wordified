@@ -215,6 +215,10 @@ context
 =
 CommandContext
 (
+cwd
+=
+"
+"
 settings
 =
 mach
