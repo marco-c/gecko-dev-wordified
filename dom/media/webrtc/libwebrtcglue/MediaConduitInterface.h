@@ -1526,7 +1526,7 @@ type
 ;
 virtual
 void
-DeleteStreams
+Shutdown
 (
 )
 =

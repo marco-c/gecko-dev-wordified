@@ -1462,7 +1462,7 @@ aPluginID
 override
 ;
 void
-DeleteStreams
+Shutdown
 (
 )
 override

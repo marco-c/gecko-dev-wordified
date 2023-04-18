@@ -5515,7 +5515,7 @@ void
 WebrtcVideoConduit
 :
 :
-DeleteStreams
+Shutdown
 (
 )
 {

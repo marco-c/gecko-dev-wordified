@@ -213,7 +213,7 @@ override
 mAudioConduit
 -
 >
-DeleteStreams
+Shutdown
 (
 )
 ;
