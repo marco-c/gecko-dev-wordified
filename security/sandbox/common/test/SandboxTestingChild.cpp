@@ -570,7 +570,7 @@ SandboxingKind
 :
 GENERIC_UTILITY
 :
-RunTestsUtility
+RunTestsGenericUtility
 (
 this
 )
