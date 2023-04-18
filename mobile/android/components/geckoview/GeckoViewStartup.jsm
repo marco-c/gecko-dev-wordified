@@ -341,6 +341,10 @@ sourcetouch
 :
 {
 }
+MozOpenDateTimePicker
+:
+{
+}
 DOMPopupBlocked
 :
 {
