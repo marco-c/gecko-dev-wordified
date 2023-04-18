@@ -596,6 +596,7 @@ p
 =
 MapBufferMemory
 (
+wasmIndexType
 mappedSizeWithHeader
 accessibleSizeWithHeader
 )
@@ -1402,6 +1403,9 @@ buffer
 .
 UnmapBufferMemory
 (
+wasmIndexType
+(
+)
 basePointer
 (
 )

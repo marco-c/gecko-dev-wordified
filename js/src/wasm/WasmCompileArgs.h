@@ -582,10 +582,6 @@ Shareable
 :
 False
 )
-hugeMemory
-(
-false
-)
 simdWormhole
 (
 false
@@ -662,9 +658,6 @@ undef
 WASM_FEATURE
 Shareable
 sharedMemory
-;
-bool
-hugeMemory
 ;
 bool
 simdWormhole

@@ -679,17 +679,6 @@ Shareable
 :
 False
 ;
-features
-.
-hugeMemory
-=
-wasm
-:
-:
-IsHugeMemoryEnabled
-(
-)
-;
 /
 /
 See
