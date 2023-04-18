@@ -202,7 +202,6 @@ p
 ;
 *
 *
-await
 actions
 .
 send

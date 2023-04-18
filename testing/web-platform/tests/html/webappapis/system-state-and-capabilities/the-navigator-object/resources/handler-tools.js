@@ -617,11 +617,11 @@ query
 %
 3B
 %
-253C
+3C
 %
 3D
 %
-253E
+3E
 %
 3F
 %
@@ -635,7 +635,7 @@ query
 %
 5E_
 %
-2560abcdefghijklmnopqrstuvwxyz
+60abcdefghijklmnopqrstuvwxyz
 %
 7B
 %

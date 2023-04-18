@@ -306,28 +306,6 @@ debug
 extras
 =
 run_info_extras
-                                    
-device_serials
-=
-kwargs
-.
-get
-(
-"
-device_serial
-"
-)
-                                    
-adb_binary
-=
-kwargs
-.
-get
-(
-"
-adb_binary
-"
-)
 )
     
 test_manifests
@@ -3332,12 +3310,6 @@ has_log
     
 finally
 :
-        
-logger
-.
-shutdown
-(
-)
         
 logger
 .
