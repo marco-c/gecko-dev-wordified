@@ -542,9 +542,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -606,9 +603,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -670,9 +664,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -734,9 +725,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -798,9 +786,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -862,9 +847,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -926,9 +908,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -990,9 +969,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -1054,9 +1030,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -1118,9 +1091,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -1182,9 +1152,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -1246,9 +1213,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -1310,9 +1274,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -1374,9 +1335,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -1438,9 +1396,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >
@@ -1502,9 +1457,6 @@ spawn
 (
 &
 self
-_min_index
-:
-u32
 )
 -
 >

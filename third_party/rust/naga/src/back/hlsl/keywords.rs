@@ -1,12 +1,9 @@
 /
-/
+*
 !
 HLSL
 Reserved
 Words
-/
-/
-!
 -
 <
 https
@@ -39,9 +36,6 @@ appendix
 -
 keywords
 >
-/
-/
-!
 -
 <
 https
@@ -76,6 +70,8 @@ reserved
 -
 words
 >
+*
+/
 pub
 const
 RESERVED

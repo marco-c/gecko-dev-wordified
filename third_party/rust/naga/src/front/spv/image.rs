@@ -2079,7 +2079,13 @@ else
 ;
 let
 mut
-index
+sample
+=
+None
+;
+let
+mut
+level
 =
 None
 ;
@@ -2161,7 +2167,7 @@ block
 body_idx
 )
 ;
-index
+level
 =
 Some
 (
@@ -2209,7 +2215,7 @@ sample_expr
 .
 handle
 ;
-index
+sample
 =
 Some
 (
@@ -2457,7 +2463,8 @@ image_lexp
 handle
 coordinate
 array_index
-index
+sample
+level
 }
 ;
 self
