@@ -558,12 +558,6 @@ aSendTrack
 SharedWebrtcState
 *
 aSharedWebrtcState
-webrtc
-:
-:
-WebRtcKeyValueConfig
-*
-aTrials
 RefPtr
 <
 TransceiverImpl
