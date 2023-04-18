@@ -1441,6 +1441,12 @@ mState
 !
 =
 STATE_IDLE
+&
+&
+mState
+!
+=
+STATE_DEAD
 )
 ;
 return
@@ -1692,6 +1698,12 @@ mState
 !
 =
 STATE_IDLE
+&
+&
+mState
+!
+=
+STATE_DEAD
 NS_ERROR_UNEXPECTED
 )
 ;
@@ -1752,6 +1764,12 @@ mState
 !
 =
 STATE_IDLE
+&
+&
+mState
+!
+=
+STATE_DEAD
 NS_ERROR_UNEXPECTED
 )
 ;
@@ -1785,7 +1803,7 @@ afterwards
 set
 /
 /
-STATE_IDLE
+STATE_DEAD
 which
 we
 need
@@ -1805,10 +1823,12 @@ mSuspendCount
 &
 mAsyncStream
 )
+{
 EnsureWaiting
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -2811,6 +2831,12 @@ mState
 =
 =
 STATE_IDLE
+|
+|
+mState
+=
+=
+STATE_DEAD
 )
 {
 mWaitingForInputStreamReady
@@ -3370,6 +3396,7 @@ on
 the
 writing
 thread
+PUSH_IGNORE_THREAD_SAFETY
 AssertOnThread
 (
 )
@@ -3384,6 +3411,7 @@ OnStartRequest
 this
 )
 ;
+POP_THREAD_SAFETY
 }
 /
 /
@@ -4010,6 +4038,7 @@ use
 AssertOnThread
 (
 )
+PUSH_IGNORE_THREAD_SAFETY
 if
 (
 mTargetThread
@@ -4049,6 +4078,7 @@ mStreamOffset
 odaAvail
 )
 ;
+POP_THREAD_SAFETY
 }
 /
 /
@@ -4512,11 +4542,11 @@ CallOnStateStop
 NS_ENSURE_SUCCESS
 (
 rv
-STATE_IDLE
+STATE_DEAD
 )
 ;
 return
-STATE_IDLE
+STATE_DEAD
 ;
 }
 AUTO_PROFILER_LABEL
@@ -4653,7 +4683,7 @@ twice
 )
 ;
 return
-STATE_IDLE
+STATE_DEAD
 ;
 }
 if
@@ -4762,6 +4792,7 @@ on
 us
 here
 .
+PUSH_IGNORE_THREAD_SAFETY
 AssertOnThread
 (
 )
@@ -4775,6 +4806,7 @@ this
 mStatus
 )
 ;
+POP_THREAD_SAFETY
 }
 mTargetThread
 =
@@ -4799,7 +4831,7 @@ mStatus
 )
 ;
 return
-STATE_IDLE
+STATE_DEAD
 ;
 }
 nsresult
