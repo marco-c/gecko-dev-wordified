@@ -1664,7 +1664,11 @@ window
 .
 getTopWin
 (
+{
+skipPopups
+:
 true
+}
 )
 ;
 if
@@ -1717,7 +1721,11 @@ window
 .
 getTopWin
 (
+{
+skipPopups
+:
 true
+}
 )
 ;
 w

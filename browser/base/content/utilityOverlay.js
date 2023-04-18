@@ -577,7 +577,12 @@ BROWSER_NEW_TAB_URL
 function
 getTopWin
 (
+{
 skipPopups
+}
+=
+{
+}
 )
 {
 /
@@ -2076,7 +2081,11 @@ w
 =
 getTopWin
 (
+{
+skipPopups
+:
 true
+}
 )
 ;
 aRelatedToCurrent
