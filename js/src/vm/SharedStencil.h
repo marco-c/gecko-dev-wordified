@@ -2222,6 +2222,13 @@ isInlinableLargeFunction
 IsInlinableLargeFunction
 )
 \
+_
+(
+ImmutableFlags
+functionHasNewTargetBinding
+FunctionHasNewTargetBinding
+)
+\
 \
 GeneratorKind
 generatorKind

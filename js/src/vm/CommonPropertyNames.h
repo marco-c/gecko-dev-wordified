@@ -1212,6 +1212,16 @@ initializers
 \
 MACRO_
 (
+dotNewTarget
+dotNewTarget
+"
+.
+newTarget
+"
+)
+\
+MACRO_
+(
 dotPrivateBrand
 dotPrivateBrand
 "
