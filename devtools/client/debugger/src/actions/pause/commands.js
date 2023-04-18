@@ -224,7 +224,6 @@ thread
 return
 ;
 }
-await
 dispatch
 (
 {

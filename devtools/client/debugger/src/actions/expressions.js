@@ -324,7 +324,6 @@ cursor
 frameId
 )
 ;
-await
 dispatch
 (
 {
