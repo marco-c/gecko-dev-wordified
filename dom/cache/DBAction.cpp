@@ -492,7 +492,10 @@ Resolver
 >
 aResolver
 const
+Maybe
+<
 ClientMetadata
+>
 &
 aClientMetadata
 Data
@@ -516,7 +519,13 @@ aResolver
 MOZ_DIAGNOSTIC_ASSERT
 (
 aClientMetadata
-.
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+aClientMetadata
+-
+>
 mDir
 )
 ;
@@ -571,9 +580,12 @@ dbDir
 CloneFileAndAppend
 (
 *
+(
 aClientMetadata
-.
+-
+>
 mDir
+)
 u
 "
 cache
@@ -643,6 +655,7 @@ QM_TRY_UNWRAP
 conn
 OpenConnection
 (
+*
 aClientMetadata
 *
 dbDir
@@ -766,6 +779,7 @@ move
 (
 aResolver
 )
+*
 aClientMetadata
 dbDir
 conn
