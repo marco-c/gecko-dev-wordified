@@ -1314,6 +1314,11 @@ AudioDeviceInfo
 cpp
 "
 "
+AudioInputSource
+.
+cpp
+"
+"
 AudioRingBuffer
 .
 cpp
