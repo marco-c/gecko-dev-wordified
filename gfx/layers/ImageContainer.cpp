@@ -1404,6 +1404,17 @@ nullptr
 )
 ;
 }
+if
+(
+!
+tc
+)
+{
+return
+{
+}
+;
+}
 const
 auto
 &
