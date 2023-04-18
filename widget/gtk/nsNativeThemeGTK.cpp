@@ -8569,12 +8569,6 @@ case
 StyleAppearance
 :
 :
-ButtonFocus
-:
-case
-StyleAppearance
-:
-:
 Toolbarbutton
 :
 case
@@ -11564,12 +11558,6 @@ StyleAppearance
 :
 :
 Button
-:
-case
-StyleAppearance
-:
-:
-ButtonFocus
 :
 case
 StyleAppearance
