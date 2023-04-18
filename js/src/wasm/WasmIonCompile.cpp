@@ -44604,7 +44604,7 @@ uint32_t
 SimdOp
 :
 :
-I8x16LaneSelect
+I8x16RelaxedLaneSelect
 )
 :
 case
@@ -44613,7 +44613,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8LaneSelect
+I16x8RelaxedLaneSelect
 )
 :
 case
@@ -44622,7 +44622,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4LaneSelect
+I32x4RelaxedLaneSelect
 )
 :
 case
@@ -44631,7 +44631,7 @@ uint32_t
 SimdOp
 :
 :
-I64x2LaneSelect
+I64x2RelaxedLaneSelect
 )
 :
 {
@@ -44851,7 +44851,7 @@ uint32_t
 SimdOp
 :
 :
-V8x16RelaxedSwizzle
+I8x16RelaxedSwizzle
 )
 :
 {

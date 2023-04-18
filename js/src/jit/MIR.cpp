@@ -34718,7 +34718,7 @@ wasm
 SimdOp
 :
 :
-I8x16LaneSelect
+I8x16RelaxedLaneSelect
 )
 ;
 }

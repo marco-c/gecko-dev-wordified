@@ -17407,7 +17407,7 @@ wasm
 SimdOp
 :
 :
-I8x16LaneSelect
+I8x16RelaxedLaneSelect
 :
 case
 wasm
@@ -17416,7 +17416,7 @@ wasm
 SimdOp
 :
 :
-I16x8LaneSelect
+I16x8RelaxedLaneSelect
 :
 case
 wasm
@@ -17425,7 +17425,7 @@ wasm
 SimdOp
 :
 :
-I32x4LaneSelect
+I32x4RelaxedLaneSelect
 :
 case
 wasm
@@ -17434,7 +17434,7 @@ wasm
 SimdOp
 :
 :
-I64x2LaneSelect
+I64x2RelaxedLaneSelect
 :
 {
 FloatRegister
@@ -18668,7 +18668,7 @@ wasm
 SimdOp
 :
 :
-V8x16RelaxedSwizzle
+I8x16RelaxedSwizzle
 :
 masm
 .
