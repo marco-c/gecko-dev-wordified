@@ -14141,7 +14141,7 @@ null
 setMuted
 (
 video
-isMuted
+shouldMute
 )
 {
 return
@@ -14160,7 +14160,7 @@ args
 :
 [
 video
-isMuted
+shouldMute
 ]
 fallback
 :
@@ -14173,7 +14173,7 @@ video
 .
 muted
 =
-isMuted
+shouldMute
 ;
 }
 validateRetVal

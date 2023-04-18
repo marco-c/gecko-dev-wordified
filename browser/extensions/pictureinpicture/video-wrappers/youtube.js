@@ -67,7 +67,7 @@ PictureInPictureVideoWrapper
 setMuted
 (
 video
-isMuted
+shouldMute
 )
 {
 let
@@ -91,6 +91,15 @@ button
 ;
 if
 (
+video
+.
+muted
+!
+=
+=
+shouldMute
+&
+&
 muteButton
 )
 {
@@ -107,7 +116,7 @@ video
 .
 muted
 =
-isMuted
+shouldMute
 ;
 }
 }
