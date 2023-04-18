@@ -1364,8 +1364,6 @@ N
 N
 }
 ;
-EXPECT_TRUE
-(
 RunOnPool
 (
 &
@@ -1375,15 +1373,17 @@ kBlockSize
 ThreadPool
 :
 :
-NoInit
+SkipInit
+(
+)
 [
 accuracy
 ]
 (
 const
-uint32_t
+int
 task
-size_t
+int
 /
 *
 thread
@@ -1503,7 +1503,6 @@ k
 "
 TestInverse
 "
-)
 )
 ;
 }

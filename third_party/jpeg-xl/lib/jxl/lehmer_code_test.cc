@@ -347,7 +347,7 @@ rep
 ;
 rep
 <
-3
+100
 ;
 +
 +
@@ -544,8 +544,6 @@ PermutationT
 >
 working_sets
 ;
-JXL_CHECK
-(
 RunOnPool
 (
 pool
@@ -557,7 +555,6 @@ working_sets
 end
 ]
 (
-const
 size_t
 num_threads
 )
@@ -597,11 +594,9 @@ true
 working_sets
 ]
 (
-const
-uint32_t
+int
 n
-const
-size_t
+int
 thread
 )
 {
@@ -620,7 +615,6 @@ thread
 lehmer
 test
 "
-)
 )
 ;
 }

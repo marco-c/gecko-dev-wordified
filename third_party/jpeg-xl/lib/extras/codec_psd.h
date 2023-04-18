@@ -79,8 +79,6 @@ lib
 /
 extras
 /
-dec
-/
 color_hints
 .
 h
@@ -170,9 +168,6 @@ uint8_t
 >
 bytes
 const
-extras
-:
-:
 ColorHints
 &
 color_hints

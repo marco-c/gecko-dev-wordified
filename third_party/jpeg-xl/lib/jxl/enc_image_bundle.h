@@ -149,10 +149,6 @@ const
 ColorEncoding
 &
 c_desired
-const
-JxlCmsInterface
-&
-cms
 ThreadPool
 *
 pool

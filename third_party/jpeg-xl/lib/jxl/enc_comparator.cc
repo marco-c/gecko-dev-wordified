@@ -650,10 +650,6 @@ rgb1
 Comparator
 *
 comparator
-const
-JxlCmsInterface
-&
-cms
 ImageF
 *
 diffmap
@@ -715,7 +711,6 @@ IsGray
 (
 )
 )
-cms
 pool
 &
 store0
@@ -762,7 +757,6 @@ IsGray
 (
 )
 )
-cms
 pool
 &
 store1

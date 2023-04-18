@@ -486,9 +486,6 @@ io2
 cparams
 .
 ba_params
-GetJxlCms
-(
-)
 /
 *
 distmap
@@ -607,9 +604,6 @@ preview_frame
 cparams
 .
 ba_params
-GetJxlCms
-(
-)
 /
 *
 distmap
@@ -641,9 +635,6 @@ Main
 cparams
 .
 ba_params
-GetJxlCms
-(
-)
 /
 *
 distmap
