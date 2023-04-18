@@ -1953,6 +1953,17 @@ return
 mOffscreenCanvas
 ;
 }
+OffscreenCanvas
+*
+GetOffscreenCanvas
+(
+)
+const
+{
+return
+mOffscreenCanvas
+;
+}
 RefPtr
 <
 layers
