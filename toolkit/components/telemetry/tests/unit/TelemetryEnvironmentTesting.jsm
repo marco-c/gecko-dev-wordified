@@ -1945,7 +1945,7 @@ win32kLockdownState
 win32kLockdownState
 <
 =
-5
+15
 )
 ;
 }
