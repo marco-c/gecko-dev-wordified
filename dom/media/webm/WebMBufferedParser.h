@@ -141,7 +141,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+Mutex
 .
 h
 "
@@ -1694,7 +1694,7 @@ WebMBufferedState
 (
 )
 :
-mReentrantMonitor
+mMutex
 (
 "
 WebMBufferedState
@@ -1933,8 +1933,8 @@ array
 and
 mLastBlockOffset
 .
-ReentrantMonitor
-mReentrantMonitor
+Mutex
+mMutex
 ;
 /
 /
@@ -1973,7 +1973,7 @@ WebMTimeDataOffset
 mTimeMapping
 GUARDED_BY
 (
-mReentrantMonitor
+mMutex
 )
 ;
 /
@@ -1994,7 +1994,7 @@ int64_t
 mLastBlockOffset
 GUARDED_BY
 (
-mReentrantMonitor
+mMutex
 )
 ;
 /
