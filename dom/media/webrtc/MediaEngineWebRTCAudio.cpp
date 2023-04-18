@@ -2671,7 +2671,7 @@ are
 reliably
 excluded
 in
-OpenAudioInputImpl
+ConnectDeviceInputImpl
 (
 )
 /
@@ -2824,7 +2824,7 @@ Start
 track
 -
 >
-OpenAudioInput
+ConnectDeviceInput
 (
 deviceID
 inputProcessing
@@ -2997,7 +2997,7 @@ DeviceID
 track
 -
 >
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
@@ -8987,7 +8987,7 @@ NS_IsMainThread
 )
 )
 ;
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
@@ -10045,7 +10045,7 @@ nsresult
 AudioInputTrack
 :
 :
-OpenAudioInput
+ConnectDeviceInput
 (
 CubebUtils
 :
@@ -10214,7 +10214,7 @@ void
 AudioInputTrack
 :
 :
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 {

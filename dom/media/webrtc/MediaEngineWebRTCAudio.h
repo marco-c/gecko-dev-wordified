@@ -1715,7 +1715,7 @@ such
 /
 /
 that
-CloseAudioInput
+DisconnectDeviceInput
 can
 be
 idempotent
@@ -1842,7 +1842,7 @@ thread
 only
 .
 nsresult
-OpenAudioInput
+ConnectDeviceInput
 (
 CubebUtils
 :
@@ -1859,7 +1859,7 @@ aPrincipal
 )
 ;
 void
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;

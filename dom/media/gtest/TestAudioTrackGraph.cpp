@@ -1796,7 +1796,7 @@ listener
 inputTrack
 -
 >
-OpenAudioInput
+ConnectDeviceInput
 (
 deviceId
 listener
@@ -2057,7 +2057,7 @@ listener
 inputTrack
 -
 >
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
@@ -2391,7 +2391,7 @@ Ignore
 inputTrack
 -
 >
-OpenAudioInput
+ConnectDeviceInput
 (
 deviceId
 listener
@@ -2638,7 +2638,7 @@ listener
 inputTrack
 -
 >
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
@@ -2869,7 +2869,7 @@ nrDiscontinuities
 TEST
 (
 TestAudioTrackGraph
-ReOpenAudioInput
+ReConnectDeviceInput
 )
 {
 MockCubeb
@@ -3106,7 +3106,7 @@ listener
 inputTrack
 -
 >
-OpenAudioInput
+ConnectDeviceInput
 (
 deviceId
 listener
@@ -3371,7 +3371,7 @@ DispatchFunction
 inputTrack
 -
 >
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
@@ -3556,7 +3556,7 @@ Ignore
 inputTrack
 -
 >
-OpenAudioInput
+ConnectDeviceInput
 (
 deviceId
 listener
@@ -3765,7 +3765,7 @@ listener
 inputTrack
 -
 >
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
@@ -4378,7 +4378,7 @@ listener
 inputTrack
 -
 >
-OpenAudioInput
+ConnectDeviceInput
 (
 deviceId
 listener
@@ -4706,7 +4706,7 @@ listener
 inputTrack
 -
 >
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
@@ -5288,7 +5288,7 @@ mListener
 mInputTrack
 -
 >
-OpenAudioInput
+ConnectDeviceInput
 (
 mInputDeviceID
 mListener
@@ -5348,7 +5348,7 @@ mListener
 mInputTrack
 -
 >
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
@@ -7183,7 +7183,7 @@ listener
 inputTrack
 -
 >
-OpenAudioInput
+ConnectDeviceInput
 (
 deviceId
 listener
@@ -7766,7 +7766,7 @@ listener
 inputTrack
 -
 >
-CloseAudioInput
+DisconnectDeviceInput
 (
 )
 ;
