@@ -510,7 +510,6 @@ if
 (
 mLength
 >
-=
 INT32_MAX
 )
 {
