@@ -39762,7 +39762,7 @@ GetStepScaleFactor
 }
 /
 /
-ConstraintValidation
+nsIConstraintValidation
 void
 HTMLInputElement
 :
@@ -39775,7 +39775,7 @@ nsAString
 aError
 )
 {
-ConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity

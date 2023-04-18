@@ -305,7 +305,7 @@ nsAString
 aError
 )
 {
-ConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity
