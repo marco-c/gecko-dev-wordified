@@ -153,3 +153,17 @@ chrome
 ini
 "
 ]
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+"
+test
+/
+xpcshell
+/
+xpcshell
+.
+ini
+"
+]
