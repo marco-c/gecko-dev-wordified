@@ -427,10 +427,6 @@ replace
 AboutProtectionsParent
 .
 VPNSubStatus
-and
-Region
-.
-current
 const
 getVPNOverrides
 =
@@ -438,11 +434,6 @@ getVPNOverrides
 hasSubscription
 =
 false
-location
-=
-"
-us
-"
 )
 =
 >
@@ -457,10 +448,7 @@ vpnOverrides
 >
 {
 return
-{
 hasSubscription
-location
-}
 ;
 }
 }
