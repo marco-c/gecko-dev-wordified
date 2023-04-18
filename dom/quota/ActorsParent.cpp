@@ -32859,15 +32859,10 @@ const
 bool
 &
 exists
-MOZ_TO_RESULT_INVOKE
+QM_TO_RESULT_INVOKE
 (
 lsArchiveTmpFile
 Exists
-)
-.
-mapErr
-(
-ToQMResult
 )
 )
 ;
