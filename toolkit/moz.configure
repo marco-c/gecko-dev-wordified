@@ -22774,6 +22774,12 @@ flags
 "
 -
 Werror
+=
+implicit
+-
+function
+-
+declaration
 "
 ]
 check_msg
