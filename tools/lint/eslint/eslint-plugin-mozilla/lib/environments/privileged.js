@@ -1382,9 +1382,6 @@ false
 PlacesBookmarkRemoved
 :
 false
-PlacesBookmarkTags
-:
-false
 PlacesBookmarkTime
 :
 false
