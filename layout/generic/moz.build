@@ -1056,7 +1056,7 @@ AspectRatio
 cpp
 "
 "
-BlockReflowInput
+BlockReflowState
 .
 cpp
 "
