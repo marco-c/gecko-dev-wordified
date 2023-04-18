@@ -2056,6 +2056,19 @@ video
 "
 )
             
+extra_options
+.
+append
+(
+"
+-
+-
+browsertime
+-
+visualmetrics
+"
+)
+            
 test
 [
 "

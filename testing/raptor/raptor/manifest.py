@@ -4620,12 +4620,27 @@ measure
 "
 ]
 =
+(
+                
 "
 fnbpaint
 fcp
 dcf
 loadtime
 "
+                
+"
+ContentfulSpeedIndex
+PerceptualSpeedIndex
+"
+                
+"
+SpeedIndex
+FirstVisualChange
+LastVisualChange
+"
+            
+)
         
 #
 convert

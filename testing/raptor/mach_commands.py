@@ -2412,6 +2412,12 @@ node
 location
 next
         
+node_name
+=
+"
+node
+"
+        
 if
 platform
 .
@@ -2424,6 +2430,14 @@ system
 Windows
 "
 :
+            
+node_name
+=
+"
+node
+.
+exe
+"
             
 node_exe_path
 =
@@ -2495,9 +2509,7 @@ path
 join
 (
 node_exe_path
-"
-node
-"
+node_name
 )
         
 if
