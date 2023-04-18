@@ -5866,7 +5866,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeTLSOffsetBeforeCall
 )
 )
 ;
@@ -8997,7 +8997,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeTLSOffsetBeforeCall
 )
 )
 ;
@@ -11477,7 +11477,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetBeforeCall
+WasmCalleeTLSOffsetBeforeCall
 )
 )
 ;
@@ -19582,7 +19582,7 @@ masm
 getStackPointer
 (
 )
-WasmCallerTlsOffsetAfterCall
+WasmCallerTLSOffsetAfterCall
 )
 )
 ;
@@ -19606,7 +19606,7 @@ masm
 getStackPointer
 (
 )
-WasmCalleeTlsOffsetAfterCall
+WasmCalleeTLSOffsetAfterCall
 )
 )
 ;
@@ -19739,7 +19739,7 @@ masm
 getStackPointer
 (
 )
-WasmCallerTlsOffsetAfterCall
+WasmCallerTLSOffsetAfterCall
 )
 WasmTlsReg
 )
