@@ -1486,7 +1486,7 @@ onExperimentUpdated
 ;
 NimbusFeatures
 .
-newtab
+pocketNewtab
 .
 off
 (
