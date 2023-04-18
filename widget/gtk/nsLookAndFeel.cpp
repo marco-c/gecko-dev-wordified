@@ -10142,11 +10142,15 @@ color
 ;
 mMenuHover
 =
+NS_ComposeColors
+(
+mMenuBackground
 GetBackgroundColor
 (
 style
 mMenuHoverText
 GTK_STATE_FLAG_PRELIGHT
+)
 )
 ;
 GtkWidget
