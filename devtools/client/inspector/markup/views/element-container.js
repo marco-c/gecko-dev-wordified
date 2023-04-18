@@ -478,9 +478,6 @@ EventTooltip
 tooltip
 listenerInfo
 toolbox
-this
-.
-node
 )
 ;
 /
