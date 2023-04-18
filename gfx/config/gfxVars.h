@@ -725,6 +725,13 @@ nsCString
 (
 )
 )
+\
+_
+(
+AllowWebGPU
+bool
+false
+)
 /
 *
 Add

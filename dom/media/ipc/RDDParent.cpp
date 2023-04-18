@@ -1404,10 +1404,6 @@ Feature
 :
 :
 DIRECT2D
-Feature
-:
-:
-WEBGPU
 }
 aContentDeviceData
 .
