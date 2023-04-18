@@ -2416,6 +2416,15 @@ options
 {
 }
 ;
+Span
+<
+const
+char
+>
+calendar
+{
+}
+;
 auto
 result
 =
@@ -2462,6 +2471,7 @@ Weekday
 :
 :
 Monday
+calendar
 )
 .
 isOk
@@ -2494,6 +2504,7 @@ Weekday
 :
 :
 Tuesday
+calendar
 )
 .
 isOk
@@ -2526,6 +2537,7 @@ Weekday
 :
 :
 Wednesday
+calendar
 )
 .
 isOk
@@ -2558,6 +2570,7 @@ Weekday
 :
 :
 Thursday
+calendar
 )
 .
 isOk
@@ -2590,6 +2603,7 @@ Weekday
 :
 :
 Friday
+calendar
 )
 .
 isOk
@@ -2622,6 +2636,7 @@ Weekday
 :
 :
 Saturday
+calendar
 )
 .
 isOk
@@ -2654,6 +2669,7 @@ Weekday
 :
 :
 Sunday
+calendar
 )
 .
 isOk
@@ -2692,6 +2708,15 @@ DisplayNames
 :
 Options
 options
+{
+}
+;
+Span
+<
+const
+char
+>
+calendar
 {
 }
 ;
@@ -2741,6 +2766,7 @@ Weekday
 :
 :
 Monday
+calendar
 )
 .
 isOk
@@ -2773,6 +2799,7 @@ Weekday
 :
 :
 Tuesday
+calendar
 )
 .
 isOk
@@ -2805,6 +2832,7 @@ Weekday
 :
 :
 Wednesday
+calendar
 )
 .
 isOk
@@ -2838,6 +2866,7 @@ Weekday
 :
 :
 Thursday
+calendar
 )
 .
 isOk
@@ -2870,6 +2899,7 @@ Weekday
 :
 :
 Friday
+calendar
 )
 .
 isOk
@@ -2902,6 +2932,7 @@ Weekday
 :
 :
 Saturday
+calendar
 )
 .
 isOk
@@ -2935,6 +2966,7 @@ Weekday
 :
 :
 Sunday
+calendar
 )
 .
 isOk
@@ -2973,6 +3005,15 @@ DisplayNames
 :
 Options
 options
+{
+}
+;
+Span
+<
+const
+char
+>
+calendar
 {
 }
 ;
@@ -3022,6 +3063,7 @@ Month
 :
 :
 January
+calendar
 )
 .
 isOk
@@ -3054,6 +3096,7 @@ Month
 :
 :
 February
+calendar
 )
 .
 isOk
@@ -3086,6 +3129,7 @@ Month
 :
 :
 March
+calendar
 )
 .
 isOk
@@ -3118,6 +3162,7 @@ Month
 :
 :
 April
+calendar
 )
 .
 isOk
@@ -3150,6 +3195,7 @@ Month
 :
 :
 May
+calendar
 )
 .
 isOk
@@ -3182,6 +3228,7 @@ Month
 :
 :
 June
+calendar
 )
 .
 isOk
@@ -3214,6 +3261,7 @@ Month
 :
 :
 July
+calendar
 )
 .
 isOk
@@ -3246,6 +3294,7 @@ Month
 :
 :
 August
+calendar
 )
 .
 isOk
@@ -3278,6 +3327,7 @@ Month
 :
 :
 September
+calendar
 )
 .
 isOk
@@ -3310,6 +3360,7 @@ Month
 :
 :
 October
+calendar
 )
 .
 isOk
@@ -3342,6 +3393,7 @@ Month
 :
 :
 November
+calendar
 )
 .
 isOk
@@ -3374,6 +3426,7 @@ Month
 :
 :
 December
+calendar
 )
 .
 isOk
@@ -3406,6 +3459,7 @@ Month
 :
 :
 Undecimber
+calendar
 )
 .
 isOk
@@ -3443,6 +3497,15 @@ DisplayNames
 :
 Options
 options
+{
+}
+;
+Span
+<
+const
+char
+>
+calendar
 {
 }
 ;
@@ -3496,6 +3559,7 @@ Month
 :
 :
 January
+calendar
 )
 .
 isOk
@@ -3528,6 +3592,7 @@ Month
 :
 :
 February
+calendar
 )
 .
 isOk
@@ -3560,6 +3625,7 @@ Month
 :
 :
 March
+calendar
 )
 .
 isOk
@@ -3592,6 +3658,7 @@ Month
 :
 :
 April
+calendar
 )
 .
 isOk
@@ -3624,6 +3691,7 @@ Month
 :
 :
 May
+calendar
 )
 .
 isOk
@@ -3656,6 +3724,7 @@ Month
 :
 :
 June
+calendar
 )
 .
 isOk
@@ -3689,6 +3758,7 @@ Month
 :
 :
 July
+calendar
 )
 .
 isOk
@@ -3721,6 +3791,7 @@ Month
 :
 :
 August
+calendar
 )
 .
 isOk
@@ -3753,6 +3824,7 @@ Month
 :
 :
 September
+calendar
 )
 .
 isOk
@@ -3785,6 +3857,7 @@ Month
 :
 :
 October
+calendar
 )
 .
 isOk
@@ -3817,6 +3890,7 @@ Month
 :
 :
 November
+calendar
 )
 .
 isOk
@@ -3849,6 +3923,7 @@ Month
 :
 :
 December
+calendar
 )
 .
 isOk
@@ -3881,6 +3956,7 @@ Month
 :
 :
 Undecimber
+calendar
 )
 .
 isOk
@@ -3928,6 +4004,15 @@ options
 {
 }
 ;
+Span
+<
+const
+char
+>
+calendar
+{
+}
+;
 auto
 result
 =
@@ -3972,6 +4057,7 @@ Month
 :
 :
 January
+calendar
 )
 .
 isOk
@@ -4008,8 +4094,11 @@ options
 {
 }
 ;
-options
-.
+Span
+<
+const
+char
+>
 calendar
 =
 MakeStringSpan
@@ -4063,6 +4152,7 @@ Month
 :
 :
 January
+calendar
 )
 .
 isOk
@@ -4098,8 +4188,11 @@ options
 {
 }
 ;
-options
-.
+Span
+<
+const
+char
+>
 calendar
 =
 MakeStringSpan
@@ -4159,6 +4252,7 @@ Month
 :
 :
 January
+calendar
 )
 .
 isOk
@@ -4194,8 +4288,11 @@ options
 {
 }
 ;
-options
-.
+Span
+<
+const
+char
+>
 calendar
 =
 MakeStringSpan
@@ -4255,6 +4352,7 @@ Month
 :
 :
 January
+calendar
 )
 .
 isOk
@@ -4294,6 +4392,15 @@ DisplayNames
 :
 Options
 options
+{
+}
+;
+Span
+<
+const
+char
+>
+calendar
 {
 }
 ;
@@ -4343,6 +4450,7 @@ Quarter
 :
 :
 Q1
+calendar
 )
 .
 isOk
@@ -4376,6 +4484,7 @@ Quarter
 :
 :
 Q2
+calendar
 )
 .
 isOk
@@ -4409,6 +4518,7 @@ Quarter
 :
 :
 Q3
+calendar
 )
 .
 isOk
@@ -4442,6 +4552,7 @@ Quarter
 :
 :
 Q4
+calendar
 )
 .
 isOk
@@ -4481,6 +4592,15 @@ DisplayNames
 :
 Options
 options
+{
+}
+;
+Span
+<
+const
+char
+>
+calendar
 {
 }
 ;
@@ -4530,6 +4650,7 @@ DayPeriod
 :
 :
 AM
+calendar
 )
 .
 isOk
@@ -4562,6 +4683,7 @@ DayPeriod
 :
 :
 PM
+calendar
 )
 .
 isOk
@@ -4600,6 +4722,15 @@ DisplayNames
 :
 Options
 options
+{
+}
+;
+Span
+<
+const
+char
+>
+calendar
 {
 }
 ;
@@ -4647,6 +4778,7 @@ DayPeriod
 :
 :
 AM
+calendar
 )
 .
 isOk
@@ -4678,6 +4810,7 @@ DayPeriod
 :
 :
 PM
+calendar
 )
 .
 isOk
