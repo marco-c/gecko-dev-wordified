@@ -136,13 +136,6 @@ h
 #
 include
 "
-mpprime
-.
-h
-"
-#
-include
-"
 secmpi
 .
 h
@@ -3097,7 +3090,7 @@ p
 ;
 CHECK_MPI_OK
 (
-mpp_pprime
+mpp_pprime_secure
 (
 &
 p

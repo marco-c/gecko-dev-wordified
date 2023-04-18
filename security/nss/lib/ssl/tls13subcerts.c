@@ -1379,6 +1379,8 @@ rv
 ssl_PrivateKeySupportsRsaPss
 (
 priv
+NULL
+NULL
 &
 doesRsaPss
 )

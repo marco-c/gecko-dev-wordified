@@ -500,9 +500,7 @@ what
 (
 )
 const
-throw
-(
-)
+noexcept
 override
 {
 return

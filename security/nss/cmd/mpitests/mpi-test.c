@@ -159,7 +159,21 @@ h
 #
 include
 "
+blapi
+.
+h
+"
+#
+include
+"
 mpi
+.
+h
+"
+#
+include
+"
+secmpi
 .
 h
 "
@@ -14195,6 +14209,10 @@ err
 mp_err
 res
 ;
+RNG_RNGInit
+(
+)
+;
 mp_init
 (
 &
@@ -14211,7 +14229,7 @@ mp7
 ;
 if
 (
-mpp_pprime
+mpp_pprime_secure
 (
 &
 p
@@ -14260,7 +14278,7 @@ p
 ;
 res
 =
-mpp_pprime
+mpp_pprime_secure
 (
 &
 p
@@ -14312,7 +14330,7 @@ reason
 (
 "
 test
-mpp_pprime
+mpp_pprime_secure
 (
 9
 50
@@ -14345,7 +14363,7 @@ p
 ;
 res
 =
-mpp_pprime
+mpp_pprime_secure
 (
 &
 p
@@ -14397,7 +14415,7 @@ reason
 (
 "
 test
-mpp_pprime
+mpp_pprime_secure
 (
 15
 50

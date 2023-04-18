@@ -502,8 +502,6 @@ nssSlot_AddRef
 *
 nssSlot_GetName
 *
-nssSlot_GetTokenName
-*
 nssSlot_IsTokenPresent
 *
 nssSlot_IsPermanent
@@ -559,16 +557,6 @@ NSS_EXTERN
 NSSUTF8
 *
 nssSlot_GetName
-(
-NSSSlot
-*
-slot
-)
-;
-NSS_EXTERN
-NSSUTF8
-*
-nssSlot_GetTokenName
 (
 NSSSlot
 *

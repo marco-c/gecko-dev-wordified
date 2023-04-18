@@ -12230,7 +12230,7 @@ passed
 /
 err
 =
-mpp_pprime
+mpp_pprime_secure
 (
 &
 Q
@@ -13151,7 +13151,7 @@ passed
 /
 err
 =
-mpp_pprime
+mpp_pprime_secure
 (
 &
 P
@@ -15098,7 +15098,7 @@ prime
 /
 CHECKPARAM
 (
-mpp_pprime
+mpp_pprime_secure
 (
 &
 Q
@@ -15124,7 +15124,7 @@ prime
 /
 CHECKPARAM
 (
-mpp_pprime
+mpp_pprime_secure
 (
 &
 P

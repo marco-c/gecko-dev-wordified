@@ -372,15 +372,6 @@ module
 Parent
 *
 /
-NSSToken
-*
-token
-;
-/
-*
-Peer
-*
-/
 CK_SLOT_ID
 slotID
 ;

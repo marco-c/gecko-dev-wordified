@@ -1554,7 +1554,7 @@ primeLen
 ;
 err
 =
-mpp_make_prime
+mpp_make_prime_secure
 (
 prime
 primeLen
@@ -2814,7 +2814,7 @@ tests
 /
 res
 =
-mpp_pprime
+mpp_pprime_secure
 (
 p
 2

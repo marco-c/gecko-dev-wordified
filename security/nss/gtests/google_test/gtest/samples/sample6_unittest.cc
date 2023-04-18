@@ -602,9 +602,6 @@ table_
 ;
 }
 ;
-#
-if
-GTEST_HAS_TYPED_TEST
 using
 testing
 :
@@ -1161,14 +1158,6 @@ them
 multiple
 times
 .
-#
-endif
-/
-/
-GTEST_HAS_TYPED_TEST
-#
-if
-GTEST_HAS_TYPED_TEST_P
 using
 testing
 :
@@ -1980,11 +1969,6 @@ PrimeTableImplementations
 /
 Type
 list
-#
-endif
-/
-/
-GTEST_HAS_TYPED_TEST_P
 }
 /
 /
