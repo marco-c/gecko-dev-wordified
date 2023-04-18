@@ -693,6 +693,12 @@ None
 )
 :
     
+command_context
+.
+activate_virtualenv
+(
+)
+    
 #
 TODO
 :
@@ -709,31 +715,6 @@ a
 shared
 place
 .
-    
-sys
-.
-path
-.
-append
-(
-mozpath
-.
-join
-(
-command_context
-.
-topsrcdir
-"
-tools
-"
-"
-lint
-"
-"
-eslint
-"
-)
-)
     
 import
 setup_helper
@@ -847,12 +828,6 @@ PATH
 "
 ]
     
-)
-    
-command_context
-.
-activate_virtualenv
-(
 )
     
 command_context
