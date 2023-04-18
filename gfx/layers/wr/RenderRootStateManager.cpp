@@ -1375,7 +1375,7 @@ wr
 :
 :
 IpcResourceUpdateQueue
-*
+&
 aResources
 )
 {
@@ -1414,7 +1414,7 @@ wr
 :
 :
 IpcResourceUpdateQueue
-*
+&
 aResources
 )
 {

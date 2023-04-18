@@ -511,10 +511,8 @@ wr
 :
 :
 IpcResourceUpdateQueue
-*
+&
 aResources
-=
-nullptr
 )
 ;
 Maybe
@@ -536,10 +534,8 @@ wr
 :
 :
 IpcResourceUpdateQueue
-*
+&
 aResources
-=
-nullptr
 )
 ;
 void
