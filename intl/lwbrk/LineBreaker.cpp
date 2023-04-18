@@ -8023,7 +8023,7 @@ all
 grapheme
 clusters
 .
-ClusterIterator
+GraphemeClusterBreakIteratorUtf16
 ci
 (
 aChars
