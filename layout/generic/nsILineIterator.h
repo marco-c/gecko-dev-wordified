@@ -423,6 +423,8 @@ end
 /
 bool
 mIsWrapped
+=
+false
 ;
 }
 ;
