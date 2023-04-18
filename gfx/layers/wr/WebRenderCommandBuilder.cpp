@@ -821,9 +821,6 @@ SourceSurface
 >
 mExternalSurfaces
 ;
-IntRect
-mImageRect
-;
 BlobItemData
 (
 DIGroup
@@ -4200,13 +4197,6 @@ aData
 mClip
 =
 clip
-;
-aData
--
->
-mImageRect
-=
-mClippedImageBounds
 ;
 GP
 (
