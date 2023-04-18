@@ -245,6 +245,9 @@ img
 src
 =
 "
+.
+.
+/
 resources
 /
 circles
