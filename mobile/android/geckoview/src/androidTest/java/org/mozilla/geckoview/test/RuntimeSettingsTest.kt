@@ -686,9 +686,7 @@ fontSizeFactor
 1
 .
 0f
-sessionRule
-.
-session
+mainSession
 .
 loadTestPath
 (
@@ -725,9 +723,7 @@ fontSize
 val
 initialFontSize
 =
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (
@@ -746,9 +742,7 @@ settings
 fontSizeFactor
 =
 textSizeFactor
-sessionRule
-.
-session
+mainSession
 .
 reload
 (
@@ -761,9 +755,7 @@ waitForPageStop
 var
 fontSize
 =
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (
@@ -812,9 +804,7 @@ fontSizeFactor
 1
 .
 0f
-sessionRule
-.
-session
+mainSession
 .
 reload
 (
@@ -826,9 +816,7 @@ waitForPageStop
 )
 fontSize
 =
-sessionRule
-.
-session
+mainSession
 .
 evaluateJS
 (
