@@ -729,6 +729,9 @@ bool
 >
 mIsBuiltCertChainRootBuiltInRoot
 ;
+nsCString
+mPeerId
+;
 private
 :
 static

@@ -1121,9 +1121,6 @@ mEsniTxt
 nsCString
 mEchConfig
 ;
-nsCString
-mPeerId
-;
 bool
 mEarlyDataAccepted
 ;

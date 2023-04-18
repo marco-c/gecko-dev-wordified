@@ -297,9 +297,6 @@ nsIEventTarget
 mSocketThread
 ;
 nsCString
-mPeerId
-;
-nsCString
 mEchConfig
 ;
 nsCString
