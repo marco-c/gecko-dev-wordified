@@ -2858,6 +2858,9 @@ true
 mozSystemGroup
 :
 true
+wantUntrusted
+:
+true
 }
 auxclick
 :
@@ -2866,6 +2869,9 @@ capture
 :
 true
 mozSystemGroup
+:
+true
+wantUntrusted
 :
 true
 }
