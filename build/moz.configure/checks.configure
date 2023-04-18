@@ -1024,9 +1024,6 @@ False
 paths
 =
 None
-allow_spaces
-=
-False
 bootstrap
 =
 None
@@ -1542,7 +1539,6 @@ find_program
 (
 prog
 paths
-allow_spaces
 )
 if
 validate
