@@ -405,6 +405,15 @@ Value
 )
 ;
 }
+}
+void
+LockRequestChild
+:
+:
+MaybeSetWorkerRef
+(
+)
+{
 if
 (
 !
