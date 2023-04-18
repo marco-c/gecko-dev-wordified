@@ -3230,7 +3230,7 @@ bool
 hasRecentGrowthData
 ;
 double
-smoothedGrowthFactor
+smoothedTargetSize
 ;
 /
 /
