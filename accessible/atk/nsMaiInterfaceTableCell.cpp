@@ -779,7 +779,7 @@ aCell
 {
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >
@@ -827,7 +827,7 @@ Length
 ;
 for
 (
-LocalAccessible
+Accessible
 *
 header
 :
@@ -844,6 +844,11 @@ AccessibleWrap
 GetAtkObject
 (
 header
+-
+>
+AsLocal
+(
+)
 )
 ;
 g_object_ref
@@ -985,7 +990,7 @@ aCell
 {
 AutoTArray
 <
-LocalAccessible
+Accessible
 *
 10
 >
@@ -1033,7 +1038,7 @@ Length
 ;
 for
 (
-LocalAccessible
+Accessible
 *
 header
 :
@@ -1050,6 +1055,11 @@ AccessibleWrap
 GetAtkObject
 (
 header
+-
+>
+AsLocal
+(
+)
 )
 ;
 g_object_ref
