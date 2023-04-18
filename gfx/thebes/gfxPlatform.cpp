@@ -6555,7 +6555,7 @@ GetCString
 "
 gfx
 .
-offscreencavas
+offscreencanvas
 .
 domain
 -
