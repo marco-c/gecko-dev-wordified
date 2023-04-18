@@ -2400,6 +2400,11 @@ gc
 EphemeronEdgeVector
 &
 edges
+gc
+:
+:
+CellColor
+srcColor
 )
 ;
 size_t
