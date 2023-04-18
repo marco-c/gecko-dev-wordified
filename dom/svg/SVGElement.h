@@ -692,6 +692,17 @@ aFlags
 const
 override
 ;
+virtual
+bool
+IsSVGGraphicsElement
+(
+)
+const
+{
+return
+false
+;
+}
 /
 *
 *
