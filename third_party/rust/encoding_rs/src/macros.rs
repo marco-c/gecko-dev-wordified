@@ -1,9 +1,6 @@
 /
 /
 Copyright
-2015
--
-2016
 Mozilla
 Foundation
 .
@@ -2714,9 +2711,6 @@ read
 (
 )
 ;
-'
-innermost
-:
 loop
 {
 if
@@ -4081,9 +4075,6 @@ read
 (
 )
 ;
-'
-innermost
-:
 loop
 {
 if

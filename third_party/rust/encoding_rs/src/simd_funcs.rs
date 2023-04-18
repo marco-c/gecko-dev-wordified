@@ -1,7 +1,6 @@
 /
 /
 Copyright
-2016
 Mozilla
 Foundation
 .
@@ -188,7 +187,7 @@ simd
 =
 :
 :
-std
+core
 :
 :
 mem
@@ -200,7 +199,7 @@ uninitialized
 ;
 :
 :
-std
+core
 :
 :
 ptr
@@ -287,7 +286,7 @@ u8x16
 {
 :
 :
-std
+core
 :
 :
 ptr
@@ -379,7 +378,7 @@ simd
 =
 :
 :
-std
+core
 :
 :
 mem
@@ -391,7 +390,7 @@ uninitialized
 ;
 :
 :
-std
+core
 :
 :
 ptr
@@ -482,7 +481,7 @@ u16x8
 {
 :
 :
-std
+core
 :
 :
 ptr
@@ -575,7 +574,7 @@ x86_64
 ]
 {
 use
-std
+core
 :
 :
 arch
@@ -587,7 +586,7 @@ x86_64
 __m128i
 ;
 use
-std
+core
 :
 :
 arch
@@ -599,7 +598,7 @@ x86_64
 _mm_movemask_epi8
 ;
 use
-std
+core
 :
 :
 arch
@@ -634,7 +633,7 @@ x86
 ]
 {
 use
-std
+core
 :
 :
 arch
@@ -646,7 +645,7 @@ x86
 __m128i
 ;
 use
-std
+core
 :
 :
 arch
@@ -658,7 +657,7 @@ x86
 _mm_movemask_epi8
 ;
 use
-std
+core
 :
 :
 arch
@@ -685,7 +684,7 @@ aarch64
 ]
 {
 use
-std
+core
 :
 :
 arch
@@ -697,7 +696,7 @@ aarch64
 uint8x16_t
 ;
 use
-std
+core
 :
 :
 arch
@@ -709,7 +708,7 @@ aarch64
 uint16x8_t
 ;
 use
-std
+core
 :
 :
 arch
@@ -721,7 +720,7 @@ aarch64
 vmaxvq_u8
 ;
 use
-std
+core
 :
 :
 arch
@@ -2263,6 +2262,15 @@ super
 :
 *
 ;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
 #
 [
 test
@@ -3109,7 +3117,7 @@ unsafe
 {
 :
 :
-std
+core
 :
 :
 ptr

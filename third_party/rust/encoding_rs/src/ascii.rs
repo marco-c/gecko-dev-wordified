@@ -1,7 +1,6 @@
 /
 /
 Copyright
-2016
 Mozilla
 Foundation
 .
@@ -369,6 +368,9 @@ neon
 )
 ]
 use
+crate
+:
+:
 simd_funcs
 :
 :
@@ -402,7 +404,7 @@ unused_imports
 use
 :
 :
-std
+core
 :
 :
 intrinsics
@@ -420,7 +422,7 @@ unused_imports
 use
 :
 :
-std
+core
 :
 :
 intrinsics
@@ -839,7 +841,7 @@ alignment
 if
 :
 :
-std
+core
 :
 :
 mem
@@ -857,7 +859,7 @@ src_unit
 =
 :
 :
-std
+core
 :
 :
 mem
@@ -920,7 +922,7 @@ else
 if
 :
 :
-std
+core
 :
 :
 mem
@@ -937,7 +939,7 @@ src_unit
 <
 :
 :
-std
+core
 :
 :
 mem
@@ -1514,7 +1516,7 @@ alignment
 if
 :
 :
-std
+core
 :
 :
 mem
@@ -1532,7 +1534,7 @@ src_unit
 =
 :
 :
-std
+core
 :
 :
 mem
@@ -1607,7 +1609,7 @@ else
 if
 :
 :
-std
+core
 :
 :
 mem
@@ -1624,7 +1626,7 @@ src_unit
 <
 :
 :
-std
+core
 :
 :
 mem
@@ -1665,7 +1667,7 @@ if
 (
 dst
 .
-add
+wrapping_add
 (
 src_until_alignment
 )
@@ -1711,7 +1713,7 @@ if
 (
 src
 .
-add
+wrapping_add
 (
 dst_until_alignment
 )
@@ -2122,7 +2124,7 @@ until_alignment
 if
 :
 :
-std
+core
 :
 :
 mem
@@ -2139,7 +2141,7 @@ src_unit
 <
 :
 :
-std
+core
 :
 :
 mem
@@ -2180,7 +2182,7 @@ if
 (
 dst
 .
-add
+wrapping_add
 (
 src_until_alignment
 )
@@ -2226,7 +2228,7 @@ if
 (
 src
 .
-add
+wrapping_add
 (
 dst_until_alignment
 )
@@ -2891,7 +2893,7 @@ unit_size
 =
 :
 :
-std
+core
 :
 :
 mem
@@ -3905,7 +3907,7 @@ unit_size
 =
 :
 :
-std
+core
 :
 :
 mem
@@ -10570,7 +10572,15 @@ zero
 [
 cfg
 (
+all
+(
 test
+feature
+=
+"
+alloc
+"
+)
 )
 ]
 mod
@@ -10581,6 +10591,15 @@ super
 :
 :
 *
+;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
 ;
 macro_rules
 !

@@ -1,9 +1,6 @@
 /
 /
 Copyright
-2015
--
-2016
 Mozilla
 Foundation
 .
@@ -114,6 +111,9 @@ super
 *
 ;
 use
+crate
+:
+:
 variant
 :
 :
@@ -541,7 +541,15 @@ zero
 [
 cfg
 (
+all
+(
 test
+feature
+=
+"
+alloc
+"
+)
 )
 ]
 mod
