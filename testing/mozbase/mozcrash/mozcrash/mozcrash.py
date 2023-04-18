@@ -225,6 +225,10 @@ None
 quiet
 =
 False
+    
+keep
+=
+False
 )
 :
     
@@ -479,6 +483,20 @@ is
 detected
 .
     
+If
+keep
+is
+set
+minidump
+files
+will
+not
+be
+removed
+after
+processing
+.
+    
 Returns
 number
 of
@@ -584,6 +602,10 @@ dump_save_path
 stackwalk_binary
 =
 stackwalk_binary
+        
+keep
+=
+keep
     
 )
     
@@ -1473,14 +1495,22 @@ __init__
 (
         
 self
+        
 dump_directory
+        
 symbols_path
+        
 dump_save_path
 =
 None
+        
 stackwalk_binary
 =
 None
+        
+keep
+=
+False
     
 )
 :
@@ -1502,6 +1532,12 @@ self
 remove_symbols
 =
 False
+        
+self
+.
+keep
+=
+keep
         
 if
 dump_save_path
@@ -3477,6 +3513,11 @@ exists
 (
 path
 )
+and
+not
+self
+.
+keep
 :
             
 mozfile
@@ -3495,6 +3536,11 @@ exists
 (
 extra
 )
+and
+not
+self
+.
+keep
 :
             
 mozfile
@@ -6019,6 +6065,22 @@ parser
 add_argument
 (
 "
+-
+-
+keep
+"
+action
+=
+"
+store_true
+"
+)
+    
+parser
+.
+add_argument
+(
+"
 dump_directory
 "
 )
@@ -6068,5 +6130,11 @@ test_name
 args
 .
 test_name
+        
+keep
+=
+args
+.
+keep
     
 )
