@@ -29248,6 +29248,10 @@ ProfilerFeature
 :
 :
 MarkersAllThreads
+ProfilerFeature
+:
+:
+UnregisteredThreads
 }
 ;
 constexpr
