@@ -1780,8 +1780,6 @@ search
 :
 "
 ex
-.
-result
 )
 ;
 }
