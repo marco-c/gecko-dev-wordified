@@ -716,7 +716,6 @@ extension
 event
 fire
 params
-isInStartup
 )
 {
 /
@@ -739,10 +738,6 @@ it
 .
 if
 (
-!
-isInStartup
-|
-|
 params
 [
 1
