@@ -1705,11 +1705,6 @@ IsRasterImage
 (
 )
 ;
-bool
-IsAnimatedImage
-(
-)
-;
 /
 /
 /
