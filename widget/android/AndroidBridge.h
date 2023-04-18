@@ -99,6 +99,17 @@ define
 AndroidBridge_h__
 #
 include
+<
+unistd
+.
+h
+>
+/
+/
+for
+gettid
+#
+include
 "
 nsCOMPtr
 .
