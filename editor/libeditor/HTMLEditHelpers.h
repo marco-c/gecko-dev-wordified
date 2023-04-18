@@ -2967,9 +2967,13 @@ IsSet
 )
 {
 return
-EditorDOMPointType
-(
 mGivenSplitPoint
+.
+To
+<
+EditorDOMPointType
+>
+(
 )
 ;
 }
