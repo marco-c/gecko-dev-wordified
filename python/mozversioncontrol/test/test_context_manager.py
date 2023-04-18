@@ -110,7 +110,7 @@ get_repository_object
 (
 repo
 .
-strpath
+dir
 )
     
 output_subprocess

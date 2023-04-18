@@ -59,10 +59,6 @@ import
 absolute_import
 import
 os
-from
-pathlib
-import
-Path
 import
 mozunit
 from
@@ -324,7 +320,7 @@ get_repository_object
 (
 repo
 .
-strpath
+dir
 )
     
 assert
@@ -335,19 +331,12 @@ path
 =
 str
 (
-Path
-(
 repo
 .
-strpath
-)
-.
-resolve
-(
-)
+dir
 )
     
-remotepath
+remote_path
 =
 "
 .
@@ -376,11 +365,10 @@ Mutate
 files
 .
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert_files
@@ -553,7 +541,7 @@ get_outgoing_files
 "
 AMD
 "
-remotepath
+remote_path
 )
 [
 ]
@@ -565,11 +553,10 @@ a
 commit
 .
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert_files
@@ -638,7 +625,7 @@ get_outgoing_files
 "
 AMD
 "
-remotepath
+remote_path
 )
 [
 "
@@ -658,11 +645,10 @@ Mutate
 again
 .
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert_files
@@ -732,11 +718,10 @@ second
 commit
 .
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert_files
@@ -771,7 +756,7 @@ get_outgoing_files
 "
 AM
 "
-remotepath
+remote_path
 )
 [
 "

@@ -94,7 +94,7 @@ get_repository_object
 (
 repo
 .
-strpath
+dir
 )
     
 captured_commands
@@ -174,7 +174,10 @@ expected
 [
             
 (
+str
+(
 tool
+)
 "
 push
 -
@@ -190,7 +193,10 @@ commit_message
 )
             
 (
+str
+(
 tool
+)
 "
 revert
 "
@@ -210,7 +216,10 @@ expected
 [
             
 (
+str
+(
 tool
+)
 "
 cinnabar
 "
@@ -223,7 +232,10 @@ version
             
 (
                 
+str
+(
 tool
+)
                 
 "
 -
@@ -261,7 +273,10 @@ commit_message
             
 (
                 
+str
+(
 tool
+)
                 
 "
 push
@@ -302,7 +317,10 @@ tip
 )
             
 (
+str
+(
 tool
+)
 "
 reset
 "
@@ -371,7 +389,7 @@ get_repository_object
 (
 repo
 .
-strpath
+dir
 )
     
 orig

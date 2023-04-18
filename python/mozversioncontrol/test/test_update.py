@@ -200,7 +200,7 @@ get_repository_object
 (
 repo
 .
-strpath
+dir
 )
     
 rev0
@@ -209,11 +209,10 @@ vcs
 .
 head_ref
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 rev1
@@ -297,11 +296,10 @@ working
 directory
 .
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 with

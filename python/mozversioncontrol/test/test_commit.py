@@ -142,7 +142,7 @@ get_repository_object
 (
 repo
 .
-strpath
+dir
 )
     
 assert
@@ -159,11 +159,10 @@ foo
 and
 bar
     
-next
-(
 repo
 .
-step
+execute_next_step
+(
 )
     
 assert
