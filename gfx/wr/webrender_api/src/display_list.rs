@@ -215,6 +215,8 @@ crate
 :
 :
 {
+APZScrollGeneration
+HasScrollLinkedEffect
 PipelineId
 PropertyBinding
 }
@@ -11842,6 +11844,12 @@ LayoutRect
 external_scroll_offset
 :
 LayoutVector2D
+scroll_offset_generation
+:
+APZScrollGeneration
+has_scroll_linked_effect
+:
+HasScrollLinkedEffect
 key
 :
 di
@@ -11932,6 +11940,8 @@ parent_space
 scroll_frame_id
 external_id
 external_scroll_offset
+scroll_offset_generation
+has_scroll_linked_effect
 key
 }
 )

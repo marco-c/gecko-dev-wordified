@@ -1287,6 +1287,16 @@ LayoutVector2D
 zero
 (
 )
+APZScrollGeneration
+:
+:
+default
+(
+)
+HasScrollLinkedEffect
+:
+:
+No
 SpatialTreeItemKey
 :
 :
