@@ -68,13 +68,13 @@ test
 (
 {
 sandbox
-main
+pktPanelMessaging
 :
 testGlobal
 .
 window
 .
-thePKT_PANEL
+pktPanelMessaging
 }
 )
 ;
@@ -138,7 +138,7 @@ test_clickHelper
 (
 {
 sandbox
-main
+pktPanelMessaging
 }
 )
 {
@@ -198,8 +198,6 @@ sandbox
 .
 stub
 (
-testGlobal
-.
 pktPanelMessaging
 "
 sendMessage
@@ -217,7 +215,7 @@ trigger
 the
 click
 .
-main
+pktPanelMessaging
 .
 clickHelper
 (
@@ -246,8 +244,6 @@ Assert
 .
 ok
 (
-testGlobal
-.
 pktPanelMessaging
 .
 sendMessage
@@ -268,8 +264,6 @@ Assert
 .
 ok
 (
-testGlobal
-.
 pktPanelMessaging
 .
 sendMessage
