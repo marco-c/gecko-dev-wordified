@@ -632,7 +632,7 @@ webrtc
 ]
 [
 '
-WebIDL
+webidl
 '
 '
 mediacapture

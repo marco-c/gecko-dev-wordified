@@ -52,7 +52,7 @@ html
 dom
 '
 '
-WebIDL
+webidl
 '
 ]
 async
