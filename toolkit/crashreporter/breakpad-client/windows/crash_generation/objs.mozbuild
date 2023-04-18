@@ -108,6 +108,11 @@ minidump_generator
 .
 cc
 '
+'
+temporary_stack
+.
+cc
+'
 ]
 subdir
 =
