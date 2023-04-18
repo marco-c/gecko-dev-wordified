@@ -2484,7 +2484,8 @@ find
 better
 text
 node
-EditorRawDOMPoint
+const
+EditorDOMPoint
 insertionPoint
 =
 aEditorBase
@@ -2492,13 +2493,6 @@ aEditorBase
 FindBetterInsertionPoint
 (
 atStartOfSelection
-.
-To
-<
-EditorRawDOMPoint
->
-(
-)
 )
 ;
 if

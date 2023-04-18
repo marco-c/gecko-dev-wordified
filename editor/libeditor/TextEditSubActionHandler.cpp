@@ -583,6 +583,7 @@ after
 inserting
 text
 .
+const
 EditorRawDOMPoint
 point
 =
