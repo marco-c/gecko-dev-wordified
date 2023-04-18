@@ -1051,11 +1051,6 @@ menuBarDrag
 "
 ui
 .
-windowsThemeIdentifier
-"
-"
-ui
-.
 operatingSystemVersionIdentifier
 "
 "

@@ -4544,12 +4544,6 @@ case
 IntID
 :
 :
-WindowsThemeIdentifier
-:
-case
-IntID
-:
-:
 OperatingSystemVersionIdentifier
 :
 aResult
