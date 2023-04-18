@@ -686,6 +686,14 @@ aFontStyle
 )
 override
 ;
+void
+GetUserFontFeatures
+(
+FcPattern
+*
+aPattern
+)
+;
 /
 /
 pattern
