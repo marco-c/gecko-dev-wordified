@@ -748,7 +748,7 @@ const
 {
 targets
 connectionPrefix
-browserId
+context
 }
 =
 sessionData
@@ -770,7 +770,7 @@ shouldNotifyWindowGlobal
 this
 .
 manager
-browserId
+context
 )
 )
 {
@@ -842,7 +842,7 @@ message
 All
 messages
 pass
-browserId
+context
 (
 except
 packet
@@ -879,6 +879,8 @@ browserId
 message
 .
 data
+.
+context
 ;
 /
 /
@@ -927,7 +929,11 @@ shouldNotifyWindowGlobal
 this
 .
 manager
-browserId
+message
+.
+data
+.
+context
 )
 )
 {
@@ -1190,7 +1196,7 @@ for
 given
 connection
 and
-browserId
+context
 .
 Targets
 are
@@ -2894,7 +2900,7 @@ function
 shouldNotifyWindowGlobal
 (
 windowGlobal
-watchedBrowserId
+context
 )
 {
 const
@@ -2932,7 +2938,16 @@ it
 .
 if
 (
-watchedBrowserId
+context
+.
+type
+=
+=
+"
+browser
+-
+element
+"
 &
 &
 browsingContext
@@ -2940,7 +2955,9 @@ browsingContext
 browserId
 !
 =
-watchedBrowserId
+context
+.
+browserId
 )
 {
 return
