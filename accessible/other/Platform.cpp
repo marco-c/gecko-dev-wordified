@@ -208,6 +208,8 @@ int32_t
 aOffset
 bool
 aIsSelectionCollapsed
+int32_t
+aGranularity
 )
 {
 }

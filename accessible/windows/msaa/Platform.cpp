@@ -1292,6 +1292,8 @@ const
 LayoutDeviceIntRect
 &
 aCaretRect
+int32_t
+aGranularity
 )
 {
 AccessibleWrap

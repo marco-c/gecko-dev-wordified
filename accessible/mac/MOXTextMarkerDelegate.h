@@ -161,6 +161,9 @@ mCaret
 AXTextMarkerRef
 mPrevCaret
 ;
+int32_t
+mCaretMoveGranularity
+;
 }
 +
 (
@@ -288,6 +291,12 @@ at
 int32_t
 )
 offset
+moveGranularity
+:
+(
+int32_t
+)
+granularity
 ;
 -
 (
