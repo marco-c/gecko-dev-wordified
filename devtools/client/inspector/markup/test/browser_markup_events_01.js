@@ -111,9 +111,6 @@ attributes
 "
 Bubbling
 "
-"
-DOM0
-"
 ]
 handler
 :
@@ -174,9 +171,6 @@ attributes
 [
 "
 Capturing
-"
-"
-DOM2
 "
 ]
 handler
@@ -288,9 +282,6 @@ attributes
 "
 Bubbling
 "
-"
-DOM2
-"
 ]
 handler
 :
@@ -360,9 +351,6 @@ attributes
 [
 "
 Bubbling
-"
-"
-DOM2
 "
 ]
 handler
@@ -523,9 +511,6 @@ attributes
 "
 Bubbling
 "
-"
-DOM2
-"
 ]
 handler
 :
@@ -646,9 +631,6 @@ attributes
 "
 Bubbling
 "
-"
-DOM0
-"
 ]
 handler
 :
@@ -711,9 +693,6 @@ attributes
 [
 "
 Bubbling
-"
-"
-DOM2
 "
 ]
 handler

@@ -158,9 +158,6 @@ attributes
 "
 Bubbling
 "
-"
-DOM2
-"
 ]
 handler
 :
