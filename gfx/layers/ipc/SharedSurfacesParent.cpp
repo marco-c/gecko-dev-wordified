@@ -2415,8 +2415,10 @@ GPUProcessPid
 )
 !
 =
--
-1
+base
+:
+:
+kInvalidProcessId
 )
 {
 return

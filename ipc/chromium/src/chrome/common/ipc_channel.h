@@ -127,6 +127,15 @@ h
 #
 include
 "
+base
+/
+process
+.
+h
+"
+#
+include
+"
 build
 /
 build_config
@@ -489,7 +498,10 @@ virtual
 void
 OnChannelConnected
 (
-int32_t
+base
+:
+:
+ProcessId
 peer_pid
 )
 {

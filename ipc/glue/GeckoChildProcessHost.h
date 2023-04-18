@@ -878,7 +878,10 @@ virtual
 void
 OnChannelConnected
 (
-int32_t
+base
+:
+:
+ProcessId
 peer_pid
 )
 override
