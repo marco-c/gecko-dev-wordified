@@ -2493,16 +2493,6 @@ MOZ_CRASH
 ;
 }
 void
-loadWasmPinnedRegsFromTls
-(
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
-void
 setPrinter
 (
 Sprinter
