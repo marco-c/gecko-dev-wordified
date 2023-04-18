@@ -2191,6 +2191,12 @@ extensions
 :
 [
 ]
+                                 
+"
+supports_devtools
+"
+:
+False
 }
     
 def
@@ -2713,6 +2719,15 @@ env
 self
 .
 env
+        
+args
+[
+"
+supports_devtools
+"
+]
+=
+False
         
 return
 cls
