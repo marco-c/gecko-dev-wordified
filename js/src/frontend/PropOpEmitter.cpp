@@ -161,15 +161,6 @@ include
 "
 vm
 /
-StringType
-.
-h
-"
-#
-include
-"
-vm
-/
 ThrowMsgKind
 .
 h
