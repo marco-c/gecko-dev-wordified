@@ -272,13 +272,6 @@ nsAppRunner
 .
 h
 "
-#
-include
-"
-LayersHelpers
-.
-h
-"
 namespace
 mozilla
 {

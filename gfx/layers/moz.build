@@ -1187,11 +1187,6 @@ LayerManager
 h
 "
 "
-LayersHelpers
-.
-h
-"
-"
 LayersTypes
 .
 h
@@ -2573,11 +2568,6 @@ cpp
 "
 "
 Layers
-.
-cpp
-"
-"
-LayersHelpers
 .
 cpp
 "
