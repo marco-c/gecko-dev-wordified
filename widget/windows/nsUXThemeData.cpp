@@ -160,6 +160,13 @@ WinContentSystemParameters
 .
 h
 "
+#
+include
+"
+gfxWindowsPlatform
+.
+h
+"
 using
 namespace
 mozilla

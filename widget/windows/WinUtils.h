@@ -4105,6 +4105,17 @@ GetWhitelistedPaths
 (
 )
 ;
+static
+bool
+GetClassName
+(
+HWND
+aHwnd
+nsAString
+&
+aName
+)
+;
 private
 :
 static

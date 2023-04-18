@@ -979,6 +979,11 @@ WidgetMessageUtils
 .
 h
 "
+"
+WindowOcclusionState
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
