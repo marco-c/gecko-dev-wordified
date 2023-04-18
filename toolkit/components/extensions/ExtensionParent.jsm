@@ -865,6 +865,7 @@ e
 {
 id
 resourceURI
+isPrivileged
 }
 )
 =
@@ -904,6 +905,7 @@ new
 ExtensionData
 (
 resourceURI
+isPrivileged
 )
 ;
 await
