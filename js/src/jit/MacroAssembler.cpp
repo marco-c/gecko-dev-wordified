@@ -20278,12 +20278,6 @@ case
 VMFunctionData
 :
 :
-RootFunction
-:
-case
-VMFunctionData
-:
-:
 RootCell
 :
 case
@@ -20390,12 +20384,6 @@ VMFunctionData
 :
 :
 RootString
-:
-case
-VMFunctionData
-:
-:
-RootFunction
 :
 case
 VMFunctionData
