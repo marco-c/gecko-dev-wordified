@@ -199,6 +199,8 @@ rdi
 ;
 enum
 XMMRegisterID
+:
+uint8_t
 {
 xmm0
 xmm1

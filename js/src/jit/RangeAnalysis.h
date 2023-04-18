@@ -1266,6 +1266,8 @@ JSVAL_INT_MIN
 ;
 enum
 FractionalPartFlag
+:
+bool
 {
 ExcludesFractionalParts
 =
@@ -1277,6 +1279,8 @@ true
 ;
 enum
 NegativeZeroFlag
+:
+bool
 {
 ExcludesNegativeZero
 =
