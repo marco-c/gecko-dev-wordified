@@ -214,19 +214,11 @@ dom
 Document
 *
 aDoc
-const
-TimeStamp
-&
-aTimeStamp
 )
 :
 mDocument
 (
 aDoc
-)
-mTimeStamp
-(
-aTimeStamp
 )
 {
 MOZ_ASSERT
@@ -298,7 +290,6 @@ mDocument
 >
 ReportHasScrollLinkedEffect
 (
-mTimeStamp
 )
 ;
 sFoundScrollLinkedEffect

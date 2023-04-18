@@ -129,15 +129,6 @@ RefPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TimeStamp
-.
-h
-"
 namespace
 mozilla
 {
@@ -287,6 +278,7 @@ PositioningPropertyMutated
 (
 )
 ;
+explicit
 ScrollLinkedEffectDetector
 (
 dom
@@ -294,10 +286,6 @@ dom
 :
 Document
 *
-const
-TimeStamp
-&
-aTimeStamp
 )
 ;
 ~
@@ -315,9 +303,6 @@ dom
 Document
 >
 mDocument
-;
-TimeStamp
-mTimeStamp
 ;
 }
 ;

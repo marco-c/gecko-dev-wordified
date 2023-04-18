@@ -388,7 +388,6 @@ MutationClosureFunction
 void
 *
 aData
-nsCSSPropertyID
 )
 ;
 void
