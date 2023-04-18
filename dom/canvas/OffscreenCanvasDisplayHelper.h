@@ -232,12 +232,6 @@ const
 void
 UpdateContext
 (
-layers
-:
-:
-ImageContainer
-*
-aContainer
 CanvasContextType
 aType
 int32_t

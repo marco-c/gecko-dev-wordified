@@ -317,7 +317,7 @@ void
 TransferFromImageBitmap
 (
 ImageBitmap
-&
+*
 aImageBitmap
 )
 ;
