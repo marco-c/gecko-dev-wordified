@@ -428,7 +428,7 @@ sameSite
 .
 static
 bool
-ValidateSameSite
+ValidateRawSame
 (
 const
 CookieStruct
