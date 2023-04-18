@@ -911,7 +911,7 @@ MOZ_ASSERT
 mGraph
 -
 >
-OnGraphThreadOrNotRunning
+OnGraphThread
 (
 )
 )
@@ -1195,7 +1195,7 @@ MOZ_ASSERT
 aGraph
 -
 >
-OnGraphThreadOrNotRunning
+OnGraphThread
 (
 )
 )
