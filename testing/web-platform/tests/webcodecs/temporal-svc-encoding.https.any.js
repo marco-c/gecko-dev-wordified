@@ -89,11 +89,6 @@ av01
 08
 '
 }
-/
-/
-Not
-supported
-yet
 '
 ?
 vp8
