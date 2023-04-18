@@ -7036,9 +7036,11 @@ constraint
 /
 when
 creating
-BlockReflowInput
+a
+ReflowInput
 for
 ColumnSetFrame
+child
 )
 ;
 and
