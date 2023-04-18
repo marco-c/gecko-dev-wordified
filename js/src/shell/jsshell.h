@@ -990,8 +990,7 @@ NonshrinkingGCObjectVector
 public
 GCVector
 <
-JSObject
-*
+HeapPtrObject
 0
 SystemAllocPolicy
 >
@@ -1005,8 +1004,7 @@ sweep
 {
 for
 (
-JSObject
-*
+HeapPtrObject
 &
 obj
 :
@@ -1021,8 +1019,7 @@ JS
 :
 GCPolicy
 <
-JSObject
-*
+HeapPtrObject
 >
 :
 :
