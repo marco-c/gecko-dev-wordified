@@ -64,12 +64,6 @@ reading
 .
 properties
 files
-like
-#
-region
-.
-properties
-.
 from
 __future__
 import
