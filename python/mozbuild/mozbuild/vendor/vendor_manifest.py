@@ -2637,6 +2637,9 @@ update
 cwd
 "
 ]
+support_cwd
+=
+True
 )
                 
 self
@@ -2690,17 +2693,25 @@ self
 .
 run_process
 (
+                    
 args
 =
 [
 script
 ]
+                    
 cwd
 =
 run_dir
+                    
 log_name
 =
 script
+                    
+require_unix_environment
+=
+True
+                
 )
             
 else
