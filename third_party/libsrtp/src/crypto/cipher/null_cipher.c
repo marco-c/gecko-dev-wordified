@@ -589,7 +589,7 @@ cv
 ;
 *
 /
-debug_print
+debug_print0
 (
 srtp_mod_cipher
 "
@@ -597,7 +597,6 @@ initializing
 null
 cipher
 "
-NULL
 )
 ;
 return

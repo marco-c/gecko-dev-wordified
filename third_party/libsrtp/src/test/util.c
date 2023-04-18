@@ -311,6 +311,13 @@ DAMAGE
 #
 include
 "
+config
+.
+h
+"
+#
+include
+"
 util
 .
 h
@@ -338,6 +345,7 @@ null
 terminator
 *
 /
+static
 char
 bit_string
 [

@@ -666,6 +666,9 @@ us
 Sleep
 (
 (
+(
+DWORD
+)
 us
 )
 /
@@ -2567,12 +2570,6 @@ key
 ;
 policy
 .
-ekt
-=
-NULL
-;
-policy
-.
 next
 =
 NULL
@@ -3027,12 +3024,6 @@ policy
 allow_repeat_tx
 =
 0
-;
-policy
-.
-ekt
-=
-NULL
 ;
 policy
 .
@@ -4172,7 +4163,7 @@ name
 )
 {
 #
-if
+ifdef
 HAVE_SIGACTION
 struct
 sigaction

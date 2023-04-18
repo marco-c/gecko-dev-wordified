@@ -390,13 +390,6 @@ h
 #
 include
 "
-key
-.
-h
-"
-#
-include
-"
 crypto_kernel
 .
 h
@@ -814,9 +807,6 @@ direction
 ;
 int
 allow_repeat_tx
-;
-srtp_ekt_stream_t
-ekt
 ;
 int
 *
@@ -1274,7 +1264,7 @@ be
 -
 bit
 *
-alinged
+aligned
 *
 /
 #
