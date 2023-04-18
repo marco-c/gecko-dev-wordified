@@ -8472,7 +8472,10 @@ ZoomToRect
 (
 guid
 zoomTarget
-ZOOM_IN_IF_CANT_ZOOM_OUT
+ZoomToRectBehavior
+:
+:
+DEFAULT_BEHAVIOR
 )
 ;
 }
@@ -9177,9 +9180,6 @@ guid
 ZoomTarget
 {
 aRect
-Nothing
-(
-)
 }
 aFlags
 )
