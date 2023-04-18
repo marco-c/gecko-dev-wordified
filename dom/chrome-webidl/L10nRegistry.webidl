@@ -898,7 +898,7 @@ path
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

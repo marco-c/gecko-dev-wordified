@@ -132,7 +132,7 @@ obj
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
