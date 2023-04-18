@@ -6214,6 +6214,11 @@ ExtensionPort
 .
 webidl
 "
+"
+ExtensionTest
+.
+webidl
+"
 ]
 #
 We
