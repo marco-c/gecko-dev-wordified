@@ -1125,6 +1125,15 @@ aRv
 )
 ;
 static
+bool
+VsyncEnabled
+(
+GlobalObject
+&
+aGlobal
+)
+;
+static
 void
 Import
 (
