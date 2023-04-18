@@ -2729,8 +2729,10 @@ chrome
 /
 browser
 /
-locale
+content
 /
+default
+-
 bookmarks
 .
 html
