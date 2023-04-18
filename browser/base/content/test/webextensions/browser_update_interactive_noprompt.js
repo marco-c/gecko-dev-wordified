@@ -185,7 +185,7 @@ selectedBrowser
 "
 about
 :
-robots
+mozilla
 "
 )
 ;
