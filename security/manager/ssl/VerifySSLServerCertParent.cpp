@@ -345,8 +345,10 @@ aParent
 void
 Dispatch
 (
-nsNSSCertificate
-*
+nsCOMPtr
+<
+nsIX509Cert
+>
 aCert
 nsTArray
 <
@@ -414,8 +416,10 @@ IPCServerCertVerificationResult
 :
 Dispatch
 (
-nsNSSCertificate
-*
+nsCOMPtr
+<
+nsIX509Cert
+>
 aCert
 nsTArray
 <
