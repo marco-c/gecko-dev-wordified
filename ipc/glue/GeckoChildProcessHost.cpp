@@ -1783,8 +1783,11 @@ origSrcFd
 ;
 if
 (
+NS_WARN_IF
+(
 !
 mChannelSrcFd
+)
 )
 {
 return
@@ -7693,6 +7696,8 @@ childCrashRemapFd
 ;
 if
 (
+NS_WARN_IF
+(
 !
 CrashReporter
 :
@@ -7703,6 +7708,7 @@ CreateNotificationPipeForChild
 childCrashFd
 &
 childCrashRemapFd
+)
 )
 )
 {
@@ -9293,6 +9299,8 @@ LockDown
 ;
 if
 (
+NS_WARN_IF
+(
 !
 mResults
 .
@@ -9302,6 +9310,7 @@ mSandboxBroker
 SetSecurityLevelForGMPlugin
 (
 level
+)
 )
 )
 {
@@ -9441,6 +9450,8 @@ MOZ_DISABLE_RDD_SANDBOX
 {
 if
 (
+NS_WARN_IF
+(
 !
 mResults
 .
@@ -9449,6 +9460,7 @@ mSandboxBroker
 >
 SetSecurityLevelForRDDProcess
 (
+)
 )
 )
 {
@@ -9479,6 +9491,8 @@ MOZ_DISABLE_SOCKET_PROCESS_SANDBOX
 {
 if
 (
+NS_WARN_IF
+(
 !
 mResults
 .
@@ -9487,6 +9501,7 @@ mSandboxBroker
 >
 SetSecurityLevelForSocketProcess
 (
+)
 )
 )
 {
@@ -11028,10 +11043,13 @@ info
 ;
 if
 (
+NS_WARN_IF
+(
 !
 FillMacSandboxInfo
 (
 info
+)
 )
 )
 {
@@ -11623,6 +11641,8 @@ channel
 {
 if
 (
+NS_WARN_IF
+(
 !
 channel
 |
@@ -11631,6 +11651,7 @@ channel
 SetChannel
 (
 channel
+)
 )
 )
 {
