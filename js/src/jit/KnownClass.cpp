@@ -262,6 +262,15 @@ Opcode
 :
 Rest
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+ArgumentsSlice
+:
 return
 KnownClass
 :
