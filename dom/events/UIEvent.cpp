@@ -1313,6 +1313,15 @@ mEvent
 >
 mRefPoint
 )
+.
+valueOr
+(
+CSSIntPoint
+{
+0
+0
+}
+)
 ;
 Event
 :
