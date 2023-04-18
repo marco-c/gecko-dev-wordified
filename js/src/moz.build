@@ -3694,6 +3694,13 @@ cpp
 "
 vm
 /
+Watchtower
+.
+cpp
+"
+"
+vm
+/
 WellKnownAtom
 .
 cpp
