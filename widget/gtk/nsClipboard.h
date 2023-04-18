@@ -317,6 +317,7 @@ ReleaseClipboardData
 const
 char
 *
+*
 aClipboardData
 )
 =
