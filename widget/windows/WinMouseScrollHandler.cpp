@@ -953,7 +953,7 @@ keyboardState
 [
 0x
 %
-02X
+02zX
 ]
 =
 0x

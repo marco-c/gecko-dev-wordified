@@ -1128,7 +1128,7 @@ s
 size
 :
 %
-d
+zd
 hash
 :
 %
