@@ -552,6 +552,15 @@ maybeFeatures
 if
 (
 !
+profiler_thread_is_being_profiled
+(
+profiler_main_thread_id
+(
+)
+)
+&
+&
+!
 profiler_can_accept_markers
 (
 )

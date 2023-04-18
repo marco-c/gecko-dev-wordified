@@ -16000,7 +16000,7 @@ t
 be
 stored
 .
-EXPECT_TRUE
+EXPECT_FALSE
 (
 profiler_add_marker
 (
@@ -16134,7 +16134,7 @@ t
 be
 stored
 .
-EXPECT_TRUE
+EXPECT_FALSE
 (
 profiler_add_marker
 (
