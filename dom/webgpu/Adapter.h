@@ -323,6 +323,10 @@ Instance
 *
 const
 aParent
+WebGPUChild
+*
+const
+aBridge
 const
 ffi
 :

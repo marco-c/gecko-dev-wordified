@@ -817,6 +817,13 @@ ByteBuf
 aByteBuf
 )
 ;
+void
+ActorDestroy
+(
+ActorDestroyReason
+)
+override
+;
 }
 ;
 }
