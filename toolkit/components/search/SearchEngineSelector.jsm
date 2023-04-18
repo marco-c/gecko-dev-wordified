@@ -921,6 +921,9 @@ order
 "
 id
 "
+loadDumpIfNewer
+:
+true
 }
 )
 ;
