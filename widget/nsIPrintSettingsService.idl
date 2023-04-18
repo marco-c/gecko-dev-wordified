@@ -122,9 +122,6 @@ idl
 interface
 nsIPrintSettings
 ;
-interface
-nsIWebBrowserPrint
-;
 %
 {
 C
