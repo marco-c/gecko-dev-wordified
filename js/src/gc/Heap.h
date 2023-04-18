@@ -4379,6 +4379,8 @@ init
 GCRuntime
 *
 gc
+bool
+allMemoryCommitted
 )
 ;
 /
@@ -4411,11 +4413,6 @@ const
 ;
 #
 else
-void
-initAsDecommitted
-(
-)
-;
 void
 verify
 (

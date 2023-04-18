@@ -1668,6 +1668,11 @@ numArenasFree
 ArenasPerChunk
 ;
 }
+void
+initAsDecommitted
+(
+)
+;
 }
 ;
 /

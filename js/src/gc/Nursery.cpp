@@ -1334,6 +1334,13 @@ tenuredChunk
 init
 (
 gc
+/
+*
+allMemoryCommitted
+=
+*
+/
+false
 )
 ;
 AutoLockGC

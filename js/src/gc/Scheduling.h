@@ -5114,9 +5114,16 @@ GC
 .
 *
 /
-MainThreadOrGCTaskData
+mozilla
+:
+:
+Atomic
 <
 bool
+mozilla
+:
+:
+ReleaseAcquire
 >
 inHighFrequencyGCMode_
 ;
