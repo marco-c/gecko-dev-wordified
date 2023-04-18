@@ -3297,6 +3297,11 @@ mRootWindowIsFullscreen
 =
 false
 ;
+bool
+mSpecializeVideo
+=
+false
+;
 }
 ;
 }
