@@ -459,6 +459,32 @@ tsan
 "
 False
 )
+        
+"
+xorigin
+"
+:
+any
+(
+"
+xorigin
+"
+in
+key
+for
+key
+in
+setting
+[
+"
+runtime
+"
+]
+.
+keys
+(
+)
+)
     
 }
     
