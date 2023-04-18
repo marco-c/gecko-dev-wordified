@@ -1536,7 +1536,7 @@ pid
 ;
 GetWindowThreadProcessId
 (
-hwd
+hwnd
 &
 pid
 )
