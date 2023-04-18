@@ -1659,12 +1659,6 @@ nsAHttpTransaction
 )
 override
 ;
-void
-SanityCheck
-(
-)
-override
-;
 /
 /
 a
