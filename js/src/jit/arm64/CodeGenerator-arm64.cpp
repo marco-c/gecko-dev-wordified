@@ -21450,7 +21450,7 @@ output
 ;
 masm
 .
-assertCanonicalInt32
+debugAssertCanonicalInt32
 (
 output
 )
@@ -21518,7 +21518,7 @@ output
 ;
 masm
 .
-assertCanonicalInt32
+debugAssertCanonicalInt32
 (
 output
 )

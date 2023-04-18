@@ -2213,7 +2213,7 @@ ifdef
 RABALDR_ZERO_EXTENDS
 masm
 .
-assertCanonicalInt32
+debugAssertCanonicalInt32
 (
 ptr
 )

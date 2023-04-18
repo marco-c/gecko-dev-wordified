@@ -2396,7 +2396,7 @@ see
 MacroAssembler
 :
 :
-assertCanonicalInt32
+debugAssertCanonicalInt32
 (
 )
 .
@@ -36909,9 +36909,8 @@ the
 low
 bits
 .
-inline
 void
-assertCanonicalInt32
+debugAssertCanonicalInt32
 (
 Register
 r
