@@ -2162,7 +2162,7 @@ get
 )
 -
 >
-GetMozContainerWidget
+GetGtkWidget
 (
 )
 ;
@@ -15645,7 +15645,7 @@ mTargetWindow
 mTargetWindow
 -
 >
-GetMozContainerWidget
+GetGtkWidget
 (
 )
 :
