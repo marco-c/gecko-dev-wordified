@@ -50,6 +50,8 @@ window
 .
 thePKT_PANEL
 .
+overlay
+.
 create
 (
 )
