@@ -1540,15 +1540,6 @@ a
 signal
 .
         
-signal
-Sygnal
-that
-terminated
-the
-child
-process
-.
-        
 exited
 True
 if
@@ -2125,11 +2116,14 @@ ret_code
 )
     
 if
+bool
+(
 self
 .
 _return_code
-<
-0
+&
+0x80000000
+)
 :
       
 self
@@ -2143,15 +2137,6 @@ self
 exited
 =
 False
-      
-self
-.
-signal
-=
--
-self
-.
-_return_code
     
 else
 :

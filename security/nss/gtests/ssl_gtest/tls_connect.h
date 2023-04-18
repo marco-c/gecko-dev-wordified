@@ -1184,10 +1184,6 @@ bool
 set_server_config
 =
 true
-int
-maxConfigSize
-=
-100
 )
 ;
 protected
