@@ -604,15 +604,6 @@ false
 ;
 }
 return
-aLayersBackend
-!
-=
-LayersBackend
-:
-:
-LAYERS_BASIC
-|
-|
 aFormat
 =
 =

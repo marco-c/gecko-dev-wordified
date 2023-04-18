@@ -583,17 +583,6 @@ GetTextureFactoryIdentifier
 )
 ;
 return
-ident
-.
-mParentBackend
-!
-=
-LayersBackend
-:
-:
-LAYERS_BASIC
-&
-&
 !
 aKnowsCompositor
 -

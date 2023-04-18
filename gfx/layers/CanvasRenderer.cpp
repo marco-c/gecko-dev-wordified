@@ -604,12 +604,6 @@ LayersBackend
 :
 LAYERS_NONE
 :
-case
-LayersBackend
-:
-:
-LAYERS_BASIC
-:
 return
 TextureType
 :
