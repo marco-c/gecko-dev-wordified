@@ -12467,9 +12467,6 @@ bounds
 enum
 "
 "
-function
-"
-"
 integer
 -
 divide
