@@ -1722,6 +1722,16 @@ shutdown
 .
 SpinEventLoopUntil
 (
+"
+GeckoMediaPluginServiceParent
+:
+:
+Observe
+"
+"
+WaitingForPluginsSyncShutdown
+"
+_ns
 [
 &
 ]
