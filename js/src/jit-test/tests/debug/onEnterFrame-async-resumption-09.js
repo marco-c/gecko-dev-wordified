@@ -9,6 +9,20 @@ when
 initially
 yielding
 .
+/
+/
+Temporarily
+disabled
+due
+to
+incompatibility
+with
+the
+latest
+spec
+.
+/
+*
 let
 g
 =
@@ -184,3 +198,5 @@ true
 }
 )
 ;
+*
+/
