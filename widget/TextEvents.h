@@ -4135,11 +4135,11 @@ of
 TextEventDispatcher
 :
 :
-MaybeWritingModeAtSelection
+MaybeQueryWritingModeAtSelection
 (
 )
-is
 *
+is
 recommended
 .
 *
@@ -4265,11 +4265,11 @@ of
 TextEventDispatcher
 :
 :
-MaybeWritingModeAtSelection
+MaybeQueryWritingModeAtSelection
 (
 )
-is
 *
+is
 recommended
 .
 *
