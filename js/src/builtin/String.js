@@ -4712,13 +4712,15 @@ StringIteratorNext
 {
 var
 obj
+=
+this
 ;
 if
 (
 !
 IsObject
 (
-this
+obj
 )
 |
 |
@@ -4727,7 +4729,7 @@ obj
 =
 GuardToStringIterator
 (
-this
+obj
 )
 )
 =
