@@ -728,14 +728,6 @@ ImageSize
 (
 )
 ;
-uint32_t
-EndOffset
-(
-bool
-*
-aOk
-)
-;
 bool
 IsLinkValid
 (
