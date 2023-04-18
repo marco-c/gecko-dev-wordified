@@ -5103,6 +5103,39 @@ CFLAGS
 )
             
 )
+            
+(
+                
+#
+See
+bug
+414641
+                
+"
+NO_STRICT_ALIASING
+"
+                
+[
+"
+-
+fno
+-
+strict
+-
+aliasing
+"
+]
+                
+(
+"
+CXXFLAGS
+"
+"
+CFLAGS
+"
+)
+            
+)
         
 )
         
