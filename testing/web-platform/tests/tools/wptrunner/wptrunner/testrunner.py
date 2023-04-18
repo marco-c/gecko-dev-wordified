@@ -928,28 +928,6 @@ handle_error
 (
 e
 )
-manager_count
-=
-0
-def
-next_manager_number
-(
-)
-:
-    
-global
-manager_count
-    
-local
-=
-manager_count
-=
-manager_count
-+
-1
-    
-return
-local
 class
 BrowserManager
 (
@@ -1705,31 +1683,33 @@ __init__
 (
 self
 suite_name
+index
+test_type
 test_queue
 test_source_cls
 browser_cls
-browser_kwargs
                  
+browser_kwargs
 executor_cls
 executor_kwargs
 stop_flag
 rerun
 =
 1
+                 
 pause_after_test
 =
 False
-                 
 pause_on_unexpected
 =
 False
 restart_on_unexpected
 =
 True
+                 
 debug_info
 =
 None
-                 
 capture_stdio
 =
 True
@@ -1883,9 +1863,13 @@ self
 .
 manager_number
 =
-next_manager_number
-(
-)
+index
+        
+self
+.
+test_type
+=
+test_type
         
 self
 .
@@ -1924,7 +1908,9 @@ to
 runner
 according
 to
-manager_number
+current
+manager
+index
             
 self
 .
@@ -1946,11 +1932,7 @@ device_serial
 "
 ]
 [
-self
-.
-manager_number
--
-1
+index
 ]
 )
         
@@ -2091,12 +2073,16 @@ name
 TestRunnerManager
 -
 %
+s
+-
+%
 i
 "
 %
-self
-.
-manager_number
+(
+test_type
+index
+)
 )
         
 #
@@ -3545,12 +3531,21 @@ name
 TestRunner
 -
 %
+s
+-
+%
 i
 "
 %
+(
+                                               
+self
+.
+test_type
 self
 .
 manager_number
+)
 )
         
 self
@@ -6685,7 +6680,7 @@ test_source_kwargs
 )
         
 for
-_
+idx
 in
 range
 (
@@ -6702,6 +6697,10 @@ TestRunnerManager
 self
 .
 suite_name
+                                        
+idx
+                                        
+test_type
                                         
 test_queue
                                         
