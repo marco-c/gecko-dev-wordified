@@ -4264,6 +4264,9 @@ case
 kCharsetFromXmlDeclaration
 :
 case
+kCharsetFromMetaPrescan
+:
+case
 kCharsetFromMetaTag
 :
 case

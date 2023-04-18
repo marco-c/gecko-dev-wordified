@@ -464,6 +464,13 @@ h
 #
 include
 "
+nsHtml5MetaScanner
+.
+h
+"
+#
+include
+"
 nsHtml5StackNode
 .
 h
