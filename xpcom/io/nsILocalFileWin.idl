@@ -318,6 +318,9 @@ forms
 .
 *
 /
+[
+noscript
+]
 readonly
 attribute
 AString
