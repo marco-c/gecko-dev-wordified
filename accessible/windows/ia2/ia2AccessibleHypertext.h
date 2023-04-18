@@ -164,6 +164,9 @@ namespace
 a11y
 {
 class
+HyperTextAccessibleBase
+;
+class
 HyperTextAccessibleWrap
 ;
 class
@@ -393,6 +396,12 @@ MsaaAccessible
 ;
 private
 :
+HyperTextAccessibleBase
+*
+TextAcc
+(
+)
+;
 HyperTextAccessibleWrap
 *
 LocalTextAcc
