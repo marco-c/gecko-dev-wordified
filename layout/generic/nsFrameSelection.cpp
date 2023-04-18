@@ -4776,6 +4776,10 @@ KEYPRESS_REASON
 )
 ;
 }
+mCaretMoveAmount
+=
+aAmount
+;
 AutoPrepareFocusRange
 prep
 (
@@ -13725,6 +13729,10 @@ AddChangeReasons
 aReasons
 )
 ;
+mCaretMoveAmount
+=
+eSelectNoAmount
+;
 mBatching
 .
 mChangesDuringBatching
@@ -13804,6 +13812,10 @@ selection
 NotifySelectionListeners
 (
 )
+;
+mCaretMoveAmount
+=
+eSelectNoAmount
 ;
 return
 NS_OK

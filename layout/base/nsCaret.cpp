@@ -3667,6 +3667,8 @@ Selection
 aDomSel
 int16_t
 aReason
+int32_t
+aAmount
 )
 {
 /

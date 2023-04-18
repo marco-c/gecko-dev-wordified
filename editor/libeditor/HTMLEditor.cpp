@@ -3510,6 +3510,8 @@ Selection
 aSelection
 int16_t
 aReason
+int32_t
+aAmount
 )
 {
 if
@@ -3779,6 +3781,7 @@ NotifySelectionChanged
 aDocument
 aSelection
 aReason
+aAmount
 )
 ;
 NS_WARNING_ASSERTION

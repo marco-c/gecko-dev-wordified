@@ -5287,6 +5287,15 @@ return
 retval
 ;
 }
+nsSelectionAmount
+GetCaretMoveAmount
+(
+)
+{
+return
+mCaretMoveAmount
+;
+}
 bool
 IsUserSelectionReason
 (
@@ -6532,6 +6541,11 @@ nsISelectionController
 :
 :
 SELECTION_OFF
+;
+nsSelectionAmount
+mCaretMoveAmount
+=
+eSelectNoAmount
 ;
 struct
 Caret
