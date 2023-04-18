@@ -1429,6 +1429,14 @@ get_and_clear_legacy_stats
 ;
 stats
 .
+packets_discarded
+=
+ns
+.
+packetsDiscarded
+;
+stats
+.
 fec_packets_received
 =
 ns

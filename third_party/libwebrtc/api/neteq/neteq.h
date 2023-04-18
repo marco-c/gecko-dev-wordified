@@ -469,7 +469,7 @@ stats
 #
 dom
 -
-rtcmediastreamtrackstats
+rtcinboundrtpstreamstats
 uint64_t
 total_samples_received
 =

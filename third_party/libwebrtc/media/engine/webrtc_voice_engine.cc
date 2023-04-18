@@ -16262,6 +16262,14 @@ packets_lost
 ;
 rinfo
 .
+packets_discarded
+=
+stats
+.
+packets_discarded
+;
+rinfo
+.
 codec_name
 =
 stats
