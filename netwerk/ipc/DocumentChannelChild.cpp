@@ -1327,7 +1327,7 @@ nsresult
 &
 aLoadGroupStatus
 bool
-aSwitchedProcess
+aContinueNavigating
 )
 {
 /
@@ -1352,7 +1352,7 @@ immediately
 if
 (
 !
-aSwitchedProcess
+aContinueNavigating
 )
 {
 DisconnectChildListeners

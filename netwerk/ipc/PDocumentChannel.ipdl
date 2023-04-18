@@ -348,7 +348,7 @@ aStatus
 nsresult
 aLoadGroupReason
 bool
-aSwitchedProcess
+aContinueNavigating
 )
 ;
 /

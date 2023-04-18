@@ -14010,7 +14010,7 @@ CanonicalBrowsingContext
 EndDocumentLoad
 (
 bool
-aForProcessSwitch
+aContinueNavigating
 )
 {
 mCurrentLoad
@@ -14020,7 +14020,7 @@ nullptr
 if
 (
 !
-aForProcessSwitch
+aContinueNavigating
 )
 {
 /
