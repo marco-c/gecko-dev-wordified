@@ -923,7 +923,7 @@ nsDependentCString
 StaticPrefs
 :
 :
-GetPrefName_widget_gtk_follow_firefox_theme
+GetPrefName_widget_color_scheme_follow_firefox_theme
 (
 )
 )
@@ -962,7 +962,7 @@ nsDependentCString
 StaticPrefs
 :
 :
-GetPrefName_widget_gtk_follow_firefox_theme
+GetPrefName_widget_color_scheme_follow_firefox_theme
 (
 )
 )
@@ -7835,7 +7835,7 @@ if
 StaticPrefs
 :
 :
-widget_gtk_follow_firefox_theme
+widget_color_scheme_follow_firefox_theme
 (
 )
 )
