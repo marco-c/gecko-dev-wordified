@@ -15,7 +15,7 @@ test_payload
 (
 bidi_session
 inline
-top_context
+new_tab
 )
 :
     
@@ -47,7 +47,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -82,7 +82,7 @@ test_interactive_simultaneous_navigation
 (
 bidi_session
 inline
-top_context
+new_tab
 )
 :
     
@@ -155,7 +155,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -192,16 +192,14 @@ browsing_context
 .
 get_tree
 (
-        
 parent
 =
-top_context
+new_tab
 [
 "
 context
 "
 ]
-    
 )
     
 assert
@@ -616,16 +614,14 @@ browsing_context
 .
 get_tree
 (
-        
 parent
 =
-top_context
+new_tab
 [
 "
 context
 "
 ]
-    
 )
     
 assert
@@ -676,8 +672,8 @@ def
 test_relative_url
 (
 bidi_session
+new_tab
 url
-top_context
 )
 :
     
@@ -742,7 +738,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -771,7 +767,7 @@ get_tree
         
 parent
 =
-top_context
+new_tab
 [
 "
 context
@@ -827,7 +823,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -860,7 +856,7 @@ get_tree
         
 parent
 =
-top_context
+new_tab
 [
 "
 context
