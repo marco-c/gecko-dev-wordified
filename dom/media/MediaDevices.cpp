@@ -4407,10 +4407,6 @@ ondevicechange
 aCallback
 )
 ;
-SetupDeviceChangeListener
-(
-)
-;
 }
 void
 MediaDevices
