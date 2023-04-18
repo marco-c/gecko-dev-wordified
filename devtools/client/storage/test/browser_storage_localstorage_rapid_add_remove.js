@@ -98,7 +98,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage
@@ -117,7 +117,7 @@ selectTreeItem
 localStorage
 "
 "
-http
+https
 :
 /
 /

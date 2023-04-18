@@ -189,7 +189,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage
@@ -251,7 +251,7 @@ ids
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -327,7 +327,7 @@ ids
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -427,7 +427,7 @@ ids
 indexedDB
 "
 "
-http
+https
 :
 /
 /

@@ -251,7 +251,7 @@ doc
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -277,7 +277,7 @@ selectTreeItem
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -402,7 +402,7 @@ doc
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -425,7 +425,7 @@ doc
 sessionStorage
 "
 "
-http
+https
 :
 /
 /
@@ -464,7 +464,7 @@ selectTreeItem
 sessionStorage
 "
 "
-http
+https
 :
 /
 /

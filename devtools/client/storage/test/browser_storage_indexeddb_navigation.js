@@ -138,7 +138,7 @@ false
 const
 URL1
 =
-URL_ROOT_COM
+URL_ROOT_COM_SSL
 +
 "
 storage
@@ -153,7 +153,7 @@ html
 const
 URL2
 =
-URL_ROOT_NET
+URL_ROOT_NET_SSL
 +
 "
 storage
@@ -207,7 +207,7 @@ doc
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -233,7 +233,7 @@ selectTreeItem
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -389,7 +389,7 @@ doc
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -412,7 +412,7 @@ doc
 indexedDB
 "
 "
-http
+https
 :
 /
 /
@@ -522,7 +522,7 @@ doc
 indexedDB
 "
 "
-http
+https
 :
 /
 /

@@ -83,7 +83,7 @@ function
 await
 openTabAndSetupStorage
 (
-MAIN_DOMAIN
+MAIN_DOMAIN_SECURED
 +
 "
 storage
@@ -107,7 +107,7 @@ performAdd
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -128,7 +128,7 @@ performAdd
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -149,7 +149,7 @@ performAdd
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -170,7 +170,7 @@ performAdd
 localStorage
 "
 "
-http
+https
 :
 /
 /
@@ -191,7 +191,7 @@ performAdd
 localStorage
 "
 "
-http
+https
 :
 /
 /
