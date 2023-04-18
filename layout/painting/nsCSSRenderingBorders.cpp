@@ -31545,6 +31545,7 @@ CreateImageProviderKey
 (
 aItem
 provider
+drawResult
 aResources
 )
 ;

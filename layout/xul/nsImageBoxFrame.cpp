@@ -2680,6 +2680,7 @@ CreateImageProviderKey
 (
 aItem
 provider
+result
 aResources
 )
 ;

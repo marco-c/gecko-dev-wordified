@@ -227,6 +227,13 @@ DisplayItemCache
 .
 h
 "
+#
+include
+"
+ImgDrawResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -459,6 +466,11 @@ image
 WebRenderImageProvider
 *
 aProvider
+image
+:
+:
+ImgDrawResult
+aDrawResult
 mozilla
 :
 :
@@ -534,6 +546,11 @@ image
 WebRenderImageProvider
 *
 aProvider
+image
+:
+:
+ImgDrawResult
+aDrawResult
 mozilla
 :
 :

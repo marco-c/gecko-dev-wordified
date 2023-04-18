@@ -14965,6 +14965,11 @@ image
 WebRenderImageProvider
 *
 aProvider
+image
+:
+:
+ImgDrawResult
+aDrawResult
 mozilla
 :
 :
@@ -15002,6 +15007,7 @@ imageData
 UpdateImageKey
 (
 aProvider
+aDrawResult
 aResources
 )
 ;
@@ -15021,6 +15027,11 @@ image
 WebRenderImageProvider
 *
 aProvider
+image
+:
+:
+ImgDrawResult
+aDrawResult
 mozilla
 :
 :
@@ -15062,6 +15073,7 @@ CreateImageProviderKey
 (
 aItem
 aProvider
+aDrawResult
 aResources
 )
 ;
