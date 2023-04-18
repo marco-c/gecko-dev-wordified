@@ -5244,6 +5244,9 @@ mVideoFramePool
 MakeUnique
 <
 VideoFramePool
+<
+LIBAV_VER
+>
 >
 (
 )
