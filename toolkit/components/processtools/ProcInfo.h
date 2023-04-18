@@ -254,7 +254,7 @@ match
 the
 ones
 in
-ContentParent
+RemoteType
 .
 h
 and
@@ -269,6 +269,7 @@ PrivilegedAbout
 PrivilegedMozilla
 WebLargeAllocation
 WebCOOPCOEP
+WebServiceWorker
 /
 /
 the
