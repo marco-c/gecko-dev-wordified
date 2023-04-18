@@ -278,9 +278,6 @@ None
 unpack_xpi
 =
 True
-*
-*
-kwargs
 )
 :
         
@@ -291,10 +288,6 @@ source
 BaseFinder
 )
 :
-            
-assert
-not
-kwargs
             
 self
 .
@@ -312,9 +305,6 @@ _finder
 FileFinder
 (
 source
-*
-*
-kwargs
 )
         
 self

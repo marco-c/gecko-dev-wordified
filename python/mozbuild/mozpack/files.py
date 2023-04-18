@@ -5453,7 +5453,7 @@ _interfaces
 =
 0
 class
-MinifiedCommentStripped
+MinifiedProperties
 (
 BaseFile
 )
@@ -5466,19 +5466,16 @@ BaseFile
 File
 class
 for
-content
 minified
-by
-stripping
-comments
+properties
 .
 This
 wraps
 around
 a
-    
 BaseFile
 instance
+    
 and
 removes
 lines
@@ -5544,7 +5541,7 @@ content
 of
         
 the
-underlying
+properties
 file
 .
         
@@ -6639,21 +6636,15 @@ path
 .
 endswith
 (
-(
-"
-.
-ftl
-"
 "
 .
 properties
 "
 )
-)
 :
             
 return
-MinifiedCommentStripped
+MinifiedProperties
 (
 file
 )
