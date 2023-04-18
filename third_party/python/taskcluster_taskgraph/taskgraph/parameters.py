@@ -86,14 +86,6 @@ taskgraph
 .
 util
 .
-memoize
-import
-memoize
-from
-taskgraph
-.
-util
-.
 readonlydict
 import
 ReadOnlyDict
@@ -151,22 +143,6 @@ parameters
 "
 "
 "
-memoize
-def
-_repo
-(
-)
-:
-    
-return
-get_repository
-(
-os
-.
-getcwd
-(
-)
-)
 #
 Please
 keep
@@ -421,8 +397,24 @@ str
 def
 _get_defaults
 (
+repo_root
+=
+None
 )
 :
+    
+repo
+=
+get_repository
+(
+repo_root
+or
+os
+.
+getcwd
+(
+)
+)
     
 return
 {
@@ -431,9 +423,7 @@ return
 base_repository
 "
 :
-_repo
-(
-)
+repo
 .
 get_url
 (
@@ -480,9 +470,7 @@ target_tasks_method
 head_ref
 "
 :
-_repo
-(
-)
+repo
 .
 head_ref
         
@@ -490,9 +478,7 @@ head_ref
 head_repository
 "
 :
-_repo
-(
-)
+repo
 .
 get_url
 (
@@ -502,9 +488,7 @@ get_url
 head_rev
 "
 :
-_repo
-(
-)
+repo
 .
 head_ref
         
@@ -572,9 +556,7 @@ com
 project
 "
 :
-_repo
-(
-)
+repo
 .
 get_url
 (
@@ -616,9 +598,7 @@ pushlog_id
 repository_type
 "
 :
-_repo
-(
-)
+repo
 .
 tool
         
@@ -802,6 +782,9 @@ self
 strict
 =
 True
+repo_root
+=
+None
 *
 *
 kwargs
@@ -854,6 +837,9 @@ Parameters
 .
 _fill_defaults
 (
+repo_root
+=
+repo_root
 *
 *
 kwargs
@@ -1073,6 +1059,9 @@ staticmethod
 def
 _fill_defaults
 (
+repo_root
+=
+None
 *
 *
 kwargs
@@ -1096,6 +1085,7 @@ update
 (
 fn
 (
+repo_root
 )
 )
         
@@ -1915,6 +1905,7 @@ indent
 def
 load_parameters_file
 (
+    
 spec
 strict
 =
@@ -1923,6 +1914,9 @@ overrides
 =
 None
 trust_domain
+=
+None
+repo_root
 =
 None
 )
@@ -2013,6 +2007,9 @@ Parameters
 strict
 =
 strict
+repo_root
+=
+repo_root
 *
 *
 overrides
@@ -2286,6 +2283,9 @@ Parameters
 strict
 =
 strict
+repo_root
+=
+repo_root
 *
 *
 kwargs
@@ -2310,6 +2310,23 @@ graph_config
 )
 :
         
+try
+:
+            
+repo_root
+=
+graph_config
+.
+vcs_root
+        
+except
+Exception
+:
+            
+repo_root
+=
+None
+        
 parameters
 =
 load_parameters_file
@@ -2324,6 +2341,10 @@ strict
 overrides
 =
 overrides
+            
+repo_root
+=
+repo_root
             
 trust_domain
 =
