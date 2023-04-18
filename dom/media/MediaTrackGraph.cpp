@@ -6175,6 +6175,13 @@ driver
 )
 ;
 }
+else
+{
+ReevaluateInputDevice
+(
+)
+;
+}
 }
 nsresult
 MediaTrackGraphImpl
