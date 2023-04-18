@@ -8715,9 +8715,9 @@ bool
 ShouldSyncPreference
 (
 const
-char16_t
+char
 *
-aData
+aPref
 )
 ;
 already_AddRefed
