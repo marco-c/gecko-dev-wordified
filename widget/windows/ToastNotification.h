@@ -127,13 +127,6 @@ nsRefPtrHashtable
 .
 h
 "
-#
-include
-"
-nsWeakReference
-.
-h
-"
 namespace
 mozilla
 {
@@ -151,8 +144,6 @@ public
 nsIAlertsService
 public
 nsIObserver
-public
-nsSupportsWeakReference
 {
 public
 :
