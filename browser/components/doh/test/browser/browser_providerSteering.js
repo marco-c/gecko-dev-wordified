@@ -136,7 +136,7 @@ providerTestcases
 =
 [
 {
-name
+id
 :
 "
 provider1
@@ -167,7 +167,7 @@ query
 "
 }
 {
-name
+id
 :
 "
 provider2
@@ -360,7 +360,7 @@ for
 (
 let
 {
-name
+id
 canonicalName
 uri
 }
@@ -399,7 +399,7 @@ uri
 "
 enable_doh
 "
-name
+id
 )
 ;
 gDNSOverride
@@ -476,7 +476,7 @@ enable_doh
 "
 provider
 .
-name
+id
 )
 ;
 /
@@ -553,7 +553,7 @@ enable_doh
 "
 provider
 .
-name
+id
 )
 ;
 /
@@ -668,7 +668,7 @@ enable_doh
 "
 provider
 .
-name
+id
 )
 ;
 /
