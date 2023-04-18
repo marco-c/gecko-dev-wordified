@@ -1433,6 +1433,15 @@ StorageAccessPermissionGranted
 (
 )
 ;
+virtual
+void
+OnDocumentVisible
+(
+bool
+aVisible
+)
+{
+}
 protected
 :
 ~
