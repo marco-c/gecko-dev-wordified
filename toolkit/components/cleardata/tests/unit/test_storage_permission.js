@@ -1655,7 +1655,17 @@ deleteUserInteractionForClearingHistory
 [
 principalWithStorage
 ]
+/
+/
+ClearDataService
+takes
+PRTime
+(
+microseconds
+)
 timestamp
+*
+1000
 resolve
 )
 ;
