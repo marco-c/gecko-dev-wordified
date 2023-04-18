@@ -684,10 +684,10 @@ DOMRect
 (
 doc
 .
-scrollTop
+clientLeft
 doc
 .
-scrollLeft
+clientTop
 doc
 .
 scrollWidth
@@ -856,10 +856,10 @@ DOMRect
 (
 doc
 .
-clientTop
+scrollLeft
 doc
 .
-clientLeft
+scrollTop
 doc
 .
 clientWidth
