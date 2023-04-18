@@ -12526,6 +12526,11 @@ uint32_t
 aEpoch
 )
 {
+if
+(
+mSessionStoreListener
+)
+{
 mSessionStoreListener
 -
 >
@@ -12534,6 +12539,7 @@ SetEpoch
 aEpoch
 )
 ;
+}
 return
 IPC_OK
 (
