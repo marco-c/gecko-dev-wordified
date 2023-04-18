@@ -202,7 +202,7 @@ js
 66
 )
 ;
-info
+log
 (
 "
 Select
@@ -258,7 +258,7 @@ js
 16
 )
 ;
-info
+log
 (
 "
 Select
@@ -331,7 +331,7 @@ been
 loaded
 yet
 .
-info
+log
 (
 "
 Select

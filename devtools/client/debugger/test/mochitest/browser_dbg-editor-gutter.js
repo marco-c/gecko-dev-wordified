@@ -398,9 +398,13 @@ test
 should
 not
 pause
-assertNotPaused
+is
+(
+isPaused
 (
 dbg
+)
+false
 )
 ;
 info

@@ -288,7 +288,7 @@ const
 node
 =
 await
-waitFor
+waitUntilPredicate
 (
 (
 )

@@ -132,7 +132,7 @@ js
 "
 )
 ;
-info
+log
 (
 "
 1
@@ -150,12 +150,16 @@ uncaughtException
 (
 )
 ;
-assertNotPaused
+ok
+(
+!
+isPaused
 (
 dbg
 )
+)
 ;
-info
+log
 (
 "
 2
@@ -238,7 +242,7 @@ resume
 dbg
 )
 ;
-info
+log
 (
 "
 2
@@ -284,7 +288,7 @@ resume
 dbg
 )
 ;
-info
+log
 (
 "
 3
@@ -313,7 +317,7 @@ assertPausedLocation
 dbg
 )
 ;
-info
+log
 (
 "
 3
@@ -351,7 +355,7 @@ resume
 dbg
 )
 ;
-info
+log
 (
 "
 4
@@ -376,7 +380,7 @@ caughtException
 (
 )
 ;
-info
+log
 (
 "
 4
@@ -416,7 +420,7 @@ true
 true
 )
 ;
-info
+log
 (
 "
 5
@@ -482,7 +486,7 @@ resume
 dbg
 )
 ;
-info
+log
 (
 "
 6
@@ -572,7 +576,7 @@ resume
 dbg
 )
 ;
-info
+log
 (
 "
 7
@@ -663,7 +667,7 @@ resume
 dbg
 )
 ;
-info
+log
 (
 "
 8

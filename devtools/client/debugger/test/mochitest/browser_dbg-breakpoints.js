@@ -313,6 +313,15 @@ js
 5
 )
 ;
+assertEmptyLines
+(
+dbg
+[
+1
+2
+]
+)
+;
 assertBreakpointSnippet
 (
 dbg

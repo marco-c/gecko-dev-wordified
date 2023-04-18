@@ -930,7 +930,7 @@ while
 syncing
 .
 await
-wait
+waitForTime
 (
 1000
 )

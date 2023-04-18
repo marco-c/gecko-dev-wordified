@@ -315,7 +315,7 @@ case
 we
 regress
 await
-wait
+waitForTime
 (
 1000
 )

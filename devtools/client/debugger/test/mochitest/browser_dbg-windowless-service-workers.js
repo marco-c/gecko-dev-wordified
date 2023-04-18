@@ -632,7 +632,7 @@ const
 sources
 =
 await
-waitFor
+waitUntilPredicate
 (
 (
 )
