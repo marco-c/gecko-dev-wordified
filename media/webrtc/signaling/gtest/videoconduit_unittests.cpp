@@ -266,6 +266,12 @@ mCallWrapper
 GetCurrentSerialEventTarget
 (
 )
+VideoSessionConduit
+:
+:
+Options
+(
+)
 "
 "
 )
