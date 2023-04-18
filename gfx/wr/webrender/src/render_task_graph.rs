@@ -5479,6 +5479,17 @@ as
 usize
 ]
 ;
+if
+child_task
+.
+free_after
+!
+=
+PassId
+:
+:
+INVALID
+{
 child_task
 .
 free_after
@@ -5492,6 +5503,7 @@ min
 render_on
 )
 ;
+}
 }
 }
 assign_free_pass
