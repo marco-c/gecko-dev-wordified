@@ -486,7 +486,11 @@ h
 #
 include
 "
-nsUnicodeScriptCodes
+mozilla
+/
+intl
+/
+UnicodeScriptCodes
 .
 h
 "
@@ -503,7 +507,7 @@ typedef
 mozilla
 :
 :
-unicode
+intl
 :
 :
 Script

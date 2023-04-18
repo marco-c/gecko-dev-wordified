@@ -514,7 +514,7 @@ static
 bool
 IsBuggyIndicScript
 (
-unicode
+intl
 :
 :
 Script
@@ -525,7 +525,7 @@ return
 aScript
 =
 =
-unicode
+intl
 :
 :
 Script
@@ -537,7 +537,7 @@ BENGALI
 aScript
 =
 =
-unicode
+intl
 :
 :
 Script
@@ -549,7 +549,7 @@ KANNADA
 aScript
 =
 =
-unicode
+intl
 :
 :
 Script
@@ -561,7 +561,7 @@ ORIYA
 aScript
 =
 =
-unicode
+intl
 :
 :
 Script
