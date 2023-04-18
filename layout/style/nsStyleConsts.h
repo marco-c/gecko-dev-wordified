@@ -3045,6 +3045,7 @@ Hue
 Saturation
 Color
 Luminosity
+PlusLighter
 }
 ;
 /

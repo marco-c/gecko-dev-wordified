@@ -515,6 +515,9 @@ hue
 saturation
 color
 luminosity
+plus
+-
+lighter
 "
 "
 "

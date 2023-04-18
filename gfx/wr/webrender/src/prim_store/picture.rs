@@ -664,6 +664,7 @@ Hue
 Saturation
 Color
 Luminosity
+PlusLighter
 }
 impl
 From
@@ -869,6 +870,16 @@ PictureCompositeKey
 :
 :
 Luminosity
+MixBlendMode
+:
+:
+PlusLighter
+=
+>
+PictureCompositeKey
+:
+:
+PlusLighter
 }
 }
 Some
