@@ -3586,6 +3586,9 @@ networkStatus
 normandyAddonStudy
 "
 "
+scripting
+"
+"
 search
 "
 "
