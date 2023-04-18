@@ -169,6 +169,9 @@ nsWeakReference
 .
 h
 "
+class
+nsIHttpActivityObserver
+;
 namespace
 mozilla
 {
@@ -928,6 +931,9 @@ nsresult
 status
 uint32_t
 cap
+DnsAndConnectSocket
+*
+dnsAndSock
 HttpConnectionBase
 *
 *
@@ -1470,6 +1476,12 @@ bool
 mProxyTransparentResolvesHost
 =
 false
+;
+nsCOMPtr
+<
+nsIHttpActivityObserver
+>
+mActivityDistributor
 ;
 }
 ;
