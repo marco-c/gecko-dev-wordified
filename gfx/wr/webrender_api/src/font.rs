@@ -737,6 +737,7 @@ data
 [
 derive
 (
+Debug
 Clone
 Hash
 Eq
