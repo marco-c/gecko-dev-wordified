@@ -7280,7 +7280,7 @@ mDocument
 mDocument
 -
 >
-ProcessBoundsChanged
+ProcessQueuedCacheUpdates
 (
 )
 ;
