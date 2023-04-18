@@ -184,6 +184,11 @@ PlacesUIUtils
 jsm
 "
 "
+SnapshotGroups
+.
+jsm
+"
+"
 Snapshots
 .
 jsm
