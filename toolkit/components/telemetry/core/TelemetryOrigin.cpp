@@ -4554,7 +4554,7 @@ n
 =
 origins
 .
-ShallowSizeOfIncludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
