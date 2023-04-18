@@ -5106,7 +5106,7 @@ JS
 :
 GCContext
 *
-defaultFreeOp
+gcContext
 (
 )
 {
@@ -5114,7 +5114,7 @@ return
 &
 gc
 .
-mainThreadFreeOp
+mainThreadContext
 .
 ref
 (

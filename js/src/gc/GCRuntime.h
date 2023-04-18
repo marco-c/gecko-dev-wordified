@@ -5785,7 +5785,7 @@ JS
 :
 GCContext
 >
-mainThreadFreeOp
+mainThreadContext
 ;
 private
 :

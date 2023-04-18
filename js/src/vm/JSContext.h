@@ -1904,7 +1904,7 @@ JS
 :
 GCContext
 *
-defaultFreeOp
+gcContext
 (
 )
 {
@@ -1912,7 +1912,7 @@ return
 runtime_
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;

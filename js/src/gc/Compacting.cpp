@@ -3019,7 +3019,7 @@ runtimeFromMainThread
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -5159,7 +5159,7 @@ purgeShapeCaches
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )

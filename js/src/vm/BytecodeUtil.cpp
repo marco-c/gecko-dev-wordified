@@ -16752,7 +16752,7 @@ ReleaseAllJITCode
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )
@@ -16813,7 +16813,7 @@ ReleaseAllJITCode
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 )

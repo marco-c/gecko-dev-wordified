@@ -4793,7 +4793,7 @@ doFinalize
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 obj

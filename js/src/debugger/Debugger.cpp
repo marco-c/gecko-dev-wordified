@@ -5385,7 +5385,7 @@ terminateDebuggerFrame
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 this
@@ -5743,7 +5743,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 this
@@ -22675,7 +22675,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -32004,7 +32004,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 global
@@ -32195,7 +32195,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 global
@@ -32795,7 +32795,7 @@ gcx
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -45509,7 +45509,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -45644,7 +45644,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -45742,7 +45742,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 script

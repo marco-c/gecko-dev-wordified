@@ -3487,7 +3487,7 @@ Destroy
 rt_
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 const_cast

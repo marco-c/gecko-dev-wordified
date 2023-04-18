@@ -2748,7 +2748,7 @@ clearBaselineScript
 cx
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 script
@@ -3242,7 +3242,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 baselineScript
@@ -3713,7 +3713,7 @@ runtime
 )
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 entry

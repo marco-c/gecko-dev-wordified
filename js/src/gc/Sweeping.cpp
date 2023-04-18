@@ -14060,7 +14060,7 @@ gcx
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 ;
@@ -14615,7 +14615,7 @@ callFinalizeCallbacks
 rt
 -
 >
-defaultFreeOp
+gcContext
 (
 )
 JSFINALIZE_COLLECTION_END
