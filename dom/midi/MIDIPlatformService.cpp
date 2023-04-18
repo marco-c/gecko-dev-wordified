@@ -134,8 +134,8 @@ TestMIDIPlatformService
 h
 "
 #
-ifndef
-MOZ_WIDGET_ANDROID
+ifdef
+MOZ_WEBMIDI_MIDIR_IMPL
 #
 include
 "
@@ -147,7 +147,7 @@ h
 endif
 /
 /
-MOZ_WIDGET_ANDROID
+MOZ_WEBMIDI_MIDIR_IMPL
 #
 include
 "
@@ -1352,8 +1352,8 @@ TestMIDIPlatformService
 ;
 }
 #
-ifndef
-MOZ_WIDGET_ANDROID
+ifdef
+MOZ_WEBMIDI_MIDIR_IMPL
 else
 {
 gMIDIPlatformService
@@ -1368,7 +1368,7 @@ midirMIDIPlatformService
 endif
 /
 /
-MOZ_WIDGET_ANDROID
+MOZ_WEBMIDI_MIDIR_IMPL
 gMIDIPlatformService
 -
 >
