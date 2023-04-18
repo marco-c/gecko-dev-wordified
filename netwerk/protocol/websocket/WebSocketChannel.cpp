@@ -21841,7 +21841,7 @@ timer
 mReconnectDelayTimer
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mConnecting
 =
