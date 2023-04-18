@@ -1236,10 +1236,33 @@ job
     
 upstream_artifacts
 =
+[
+]
+    
+for
+package
+in
+job
+[
+"
+attributes
+"
+]
+[
+"
+maven_packages
+"
+]
+:
+        
+upstream_artifacts
++
+=
 get_geckoview_upstream_artifacts
 (
 config
 job
+package
 )
     
 return
