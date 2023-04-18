@@ -2002,8 +2002,13 @@ toolbox
 .
 nodePicker
 .
-cancel
+stop
 (
+{
+canceled
+:
+true
+}
 )
 ;
 /
