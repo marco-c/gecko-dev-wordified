@@ -141,9 +141,6 @@ support
 *
 /
 #
-if
-MOZ_STRING_WITH_OBSOLETE_API
-#
 include
 "
 nsDependentString
@@ -7099,9 +7096,3 @@ nsTString
 char16_t
 >
 ;
-#
-endif
-/
-/
-!
-MOZ_STRING_WITH_OBSOLETE_API
