@@ -3685,8 +3685,6 @@ mPrefMaxBitrate
 =
 0
 ;
-/
-/
 int
 mNegotiatedMaxBitrate
 =
