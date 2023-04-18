@@ -6257,7 +6257,7 @@ present
 *
 /
 MOZ_CAN_RUN_SCRIPT
-nsresult
+void
 MaybeSubmitForm
 (
 nsPresContext
