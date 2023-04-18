@@ -138,6 +138,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 ScriptTrace
 .
 h
