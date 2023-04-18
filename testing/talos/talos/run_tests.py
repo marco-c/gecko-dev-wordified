@@ -858,6 +858,18 @@ tests
 )
 :
         
+if
+config
+.
+get
+(
+"
+suite
+"
+False
+)
+:
+            
 test
 [
 "
