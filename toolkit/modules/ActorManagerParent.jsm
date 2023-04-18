@@ -1885,6 +1885,9 @@ true
 }
 }
 }
+includeChrome
+:
+true
 allFrames
 :
 true
