@@ -8899,11 +8899,11 @@ JSTracer
 trc
 )
 {
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
-functionOrGlobal_
+function_
 "
 function
 "
