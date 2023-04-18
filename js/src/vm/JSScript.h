@@ -9998,11 +9998,12 @@ delazified
 and
 relazified
 .
+GCStructPtr
+<
 PrivateScriptData
 *
+>
 data_
-=
-nullptr
 ;
 /
 /
