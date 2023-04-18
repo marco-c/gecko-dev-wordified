@@ -310,6 +310,11 @@ QuotaManager
 h
 "
 "
+QuotaManagerImpl
+.
+h
+"
+"
 QuotaManagerService
 .
 h
