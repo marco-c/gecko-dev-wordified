@@ -1497,11 +1497,6 @@ CompositingRenderTargetOGL
 aRenderTarget
 )
 ;
-bool
-SupportsTextureDirectMapping
-(
-)
-;
 void
 InsertFrameDoneSync
 (

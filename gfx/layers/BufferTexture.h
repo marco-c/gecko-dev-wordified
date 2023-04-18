@@ -189,8 +189,6 @@ SurfaceFormat
 aFormat
 LayersBackend
 aLayersBackend
-bool
-aSupportsTextureDirectMapping
 )
 ;
 class
