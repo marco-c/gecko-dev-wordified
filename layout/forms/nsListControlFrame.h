@@ -1387,6 +1387,9 @@ focus
 void
 FireMenuItemActiveEvent
 (
+nsIContent
+*
+aPreviousOption
 )
 ;
 /
