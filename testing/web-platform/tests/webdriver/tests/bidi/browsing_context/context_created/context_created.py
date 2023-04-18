@@ -116,9 +116,12 @@ CONTEXT_CREATED_EVENT
 on_event
 )
     
-current_session
+await
+bidi_session
 .
-new_window
+browsing_context
+.
+create
 (
 type_hint
 =
@@ -134,6 +137,7 @@ AsyncPoll
 current_session
 timeout
 =
+0
 .
 5
 )
@@ -189,7 +193,6 @@ def
 test_new_context
 (
 bidi_session
-current_session
 wait_for_event
 type_hint
 )
@@ -244,13 +247,18 @@ CONTEXT_CREATED_EVENT
     
 top_level_context_id
 =
-current_session
+await
+bidi_session
 .
-new_window
+browsing_context
+.
+create
 (
 type_hint
 =
-type_hint
+"
+tab
+"
 )
     
 context_info
@@ -663,7 +671,6 @@ AsyncPoll
 (
         
 current_session
-        
 message
 =
 "
@@ -677,6 +684,7 @@ events
 for
 frames
 "
+    
 )
     
 await
@@ -988,7 +996,6 @@ AsyncPoll
 (
         
 current_session
-        
 message
 =
 "
@@ -1002,6 +1009,7 @@ events
 for
 frames
 "
+    
 )
     
 await
