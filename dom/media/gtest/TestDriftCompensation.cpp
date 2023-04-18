@@ -281,6 +281,13 @@ true
 ;
 SpinEventLoopUntil
 (
+"
+DriftCompensatorTest
+:
+:
+DriftCompensatorTest
+"
+_ns
 [
 &
 ]

@@ -177,6 +177,13 @@ mozilla
 :
 SpinEventLoopUntil
 (
+"
+GMPTestMonitor
+:
+:
+AwaitFinished
+"
+_ns
 [
 &
 ]

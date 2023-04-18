@@ -6814,6 +6814,13 @@ MOZ_ALWAYS_TRUE
 (
 SpinEventLoopUntil
 (
+"
+RequestHelper
+:
+:
+StartAndReturnResponse
+"
+_ns
 [
 &
 ]

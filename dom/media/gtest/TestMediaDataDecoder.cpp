@@ -297,6 +297,13 @@ completes
 .
 SpinEventLoopUntil
 (
+"
+BenchmarkRunner
+:
+:
+Run
+"
+_ns
 [
 &
 ]
