@@ -16475,6 +16475,10 @@ mPrefSerializer
 >
 SerializeToSharedMemory
 (
+GeckoProcessType_Content
+GetRemoteType
+(
+)
 )
 )
 {
