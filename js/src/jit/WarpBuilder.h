@@ -432,6 +432,14 @@ IF_RECORD_TUPLE
 (
 _
 (
+AddRecordSpread
+)
+)
+\
+IF_RECORD_TUPLE
+(
+_
+(
 FinishRecord
 )
 )

@@ -9759,6 +9759,12 @@ case
 JSOp
 :
 :
+AddRecordSpread
+:
+case
+JSOp
+:
+:
 FinishRecord
 :
 case
