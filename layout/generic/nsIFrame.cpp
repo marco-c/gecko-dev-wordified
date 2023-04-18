@@ -5195,7 +5195,11 @@ IsContainLayout
 disp
 -
 >
-IsContainSize
+GetContainSizeAxes
+(
+)
+.
+IsBoth
 (
 )
 &

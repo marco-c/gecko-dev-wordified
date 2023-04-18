@@ -2847,9 +2847,11 @@ StyleDisplay
 )
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mIContained
 &
 &
 !

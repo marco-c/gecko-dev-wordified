@@ -24886,6 +24886,11 @@ inherit
 initial
 "
 "
+inline
+-
+size
+"
+"
 layout
 "
 "

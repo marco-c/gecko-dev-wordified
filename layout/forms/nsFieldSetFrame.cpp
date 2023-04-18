@@ -2608,9 +2608,11 @@ StyleDisplay
 )
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mIContained
 )
 {
 /
@@ -5731,9 +5733,11 @@ aReflowInput
 mStyleDisplay
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mBContained
 )
 {
 /
@@ -5745,6 +5749,9 @@ re
 size
 -
 contained
+in
+block
+axis
 then
 we
 must
@@ -5752,9 +5759,9 @@ set
 finalSize
 to
 be
+/
+/
 what
-/
-/
 it
 '
 d

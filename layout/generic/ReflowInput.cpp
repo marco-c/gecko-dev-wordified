@@ -3284,9 +3284,11 @@ if
 mStyleDisplay
 -
 >
-IsContainSize
+GetContainSizeAxes
 (
 )
+.
+mBContained
 )
 {
 /
@@ -3300,6 +3302,9 @@ box
 is
 size
 contained
+in
+block
+axis
 we
 want
 to
