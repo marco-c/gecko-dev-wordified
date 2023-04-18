@@ -1530,6 +1530,10 @@ fe
 Stretch
 (
 )
+.
+AsScalar
+(
+)
 psname
 .
 get
@@ -11794,6 +11798,10 @@ fe
 -
 >
 Stretch
+(
+)
+.
+AsScalar
 (
 )
 )
