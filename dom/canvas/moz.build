@@ -472,11 +472,6 @@ OffscreenCanvasDisplayHelper
 h
 "
 "
-OffscreenCanvasRenderingContext2D
-.
-h
-"
-"
 QueueParamTraits
 .
 h
@@ -690,15 +685,6 @@ cpp
 "
 "
 OffscreenCanvasDisplayHelper
-.
-cpp
-"
-#
-See
-bug
-1745384
-"
-OffscreenCanvasRenderingContext2D
 .
 cpp
 "
