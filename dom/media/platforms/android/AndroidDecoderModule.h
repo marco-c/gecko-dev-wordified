@@ -167,7 +167,10 @@ aParams
 )
 override
 ;
-bool
+media
+:
+:
+DecodeSupportSet
 SupportsMimeType
 (
 const
@@ -182,7 +185,10 @@ const
 override
 ;
 static
-bool
+media
+:
+:
+DecodeSupportSet
 SupportsMimeType
 (
 const

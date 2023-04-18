@@ -1145,7 +1145,10 @@ forget
 )
 ;
 }
-bool
+media
+:
+:
+DecodeSupportSet
 BlankDecoderModule
 :
 :
@@ -1162,7 +1165,13 @@ aDiagnostics
 const
 {
 return
-true
+media
+:
+:
+DecodeSupport
+:
+:
+SoftwareDecode
 ;
 }
 /

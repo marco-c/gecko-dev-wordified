@@ -349,7 +349,10 @@ return
 nullptr
 ;
 }
-bool
+media
+:
+:
+DecodeSupportSet
 SupportsMimeType
 (
 const
@@ -364,7 +367,13 @@ const
 override
 {
 return
-true
+media
+:
+:
+DecodeSupport
+:
+:
+SoftwareDecode
 ;
 }
 }

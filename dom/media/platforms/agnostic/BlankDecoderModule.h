@@ -323,7 +323,10 @@ aParams
 )
 override
 ;
-bool
+media
+:
+:
+DecodeSupportSet
 SupportsMimeType
 (
 const
