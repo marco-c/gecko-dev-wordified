@@ -2156,7 +2156,7 @@ JS
 ErrorReportBuilder
 :
 :
-WithSideEffects
+NoSideEffects
 )
 )
 {

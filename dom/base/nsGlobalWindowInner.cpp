@@ -25663,7 +25663,7 @@ JS
 ErrorReportBuilder
 :
 :
-WithSideEffects
+NoSideEffects
 )
 )
 {
