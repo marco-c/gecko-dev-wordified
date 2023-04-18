@@ -23264,7 +23264,7 @@ LInstructionHelper
 <
 1
 1
-0
+1
 >
 {
 SimdConstant
@@ -23300,6 +23300,10 @@ const
 SimdConstant
 &
 rhs
+const
+LDefinition
+&
+temp
 )
 :
 LInstructionHelper
@@ -23315,6 +23319,12 @@ setOperand
 (
 Lhs
 lhs
+)
+;
+setTemp
+(
+0
+temp
 )
 ;
 }
