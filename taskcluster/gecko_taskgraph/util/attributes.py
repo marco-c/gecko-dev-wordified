@@ -104,12 +104,6 @@ release
 "
 mozilla
 -
-esr78
-"
-    
-"
-mozilla
--
 esr91
 "
     
@@ -123,12 +117,6 @@ central
 comm
 -
 beta
-"
-    
-"
-comm
--
-esr78
 "
     
 "
