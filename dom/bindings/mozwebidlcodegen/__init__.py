@@ -1002,12 +1002,6 @@ GLOBAL_DECLARE_FILES
 {
         
 "
-BindingNames
-.
-h
-"
-        
-"
 GeneratedAtomList
 .
 h
@@ -1086,12 +1080,6 @@ files
 GLOBAL_DEFINE_FILES
 =
 {
-        
-"
-BindingNames
-.
-cpp
-"
         
 "
 RegisterBindings
