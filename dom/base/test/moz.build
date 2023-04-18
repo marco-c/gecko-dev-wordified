@@ -140,6 +140,13 @@ browser
 .
 ini
 "
+"
+fmm
+/
+browser
+.
+ini
+"
 ]
 TEST_DIRS
 +
