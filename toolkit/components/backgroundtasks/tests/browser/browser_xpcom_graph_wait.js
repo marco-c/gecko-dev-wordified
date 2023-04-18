@@ -976,17 +976,6 @@ startup
 ;
 1
 "
-"
-mozilla
-.
-org
-/
-uuid
--
-generator
-;
-1
-"
 {
 name
 :
