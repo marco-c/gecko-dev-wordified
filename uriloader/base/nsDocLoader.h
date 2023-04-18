@@ -1248,7 +1248,7 @@ aWebProgress
 nsIURI
 *
 aURI
-int32_t
+uint32_t
 aDelay
 bool
 aSameURI
