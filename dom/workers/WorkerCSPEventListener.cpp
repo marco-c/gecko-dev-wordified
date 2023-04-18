@@ -368,6 +368,15 @@ WorkerCSPEventListener
 (
 )
 ;
+MutexAutoLock
+lock
+(
+listener
+-
+>
+mMutex
+)
+;
 listener
 -
 >
