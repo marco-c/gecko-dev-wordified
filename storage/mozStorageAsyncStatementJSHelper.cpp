@@ -840,9 +840,10 @@ if
 :
 JS_LinearStringEqualsLiteral
 (
-JSID_TO_LINEAR_STRING
-(
 id
+.
+toLinearString
+(
 )
 "
 params

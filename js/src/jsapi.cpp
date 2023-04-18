@@ -13889,9 +13889,10 @@ isString
 &
 StringEqualsAscii
 (
-JSID_TO_LINEAR_STRING
-(
 id
+.
+toLinearString
+(
 )
 fs
 -

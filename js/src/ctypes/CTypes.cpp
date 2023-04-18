@@ -24217,9 +24217,10 @@ JSLinearString
 *
 name
 =
-JSID_TO_LINEAR_STRING
-(
 id
+.
+toLinearString
+(
 )
 ;
 const
@@ -39893,9 +39894,10 @@ nullptr
 ;
 }
 return
-JSID_TO_LINEAR_STRING
-(
 nameid
+.
+toLinearString
+(
 )
 ;
 }
