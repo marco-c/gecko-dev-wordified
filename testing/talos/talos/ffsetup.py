@@ -2570,6 +2570,7 @@ self
 .
 debug_mode
 and
+not
 self
 .
 test_config
@@ -2578,11 +2579,13 @@ test_config
 name
 "
 ]
-!
-=
+.
+startswith
+(
 "
 damp
 "
+)
 :
                 
 self
