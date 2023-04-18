@@ -203,7 +203,7 @@ citation
 .
 *
 /
-nsresult
+void
 InternetCiter
 :
 :
@@ -430,9 +430,6 @@ HTMLEditUtils
 kNewLine
 ;
 }
-return
-NS_OK
-;
 }
 static
 void
@@ -598,7 +595,7 @@ kNBSP
 )
 ;
 }
-nsresult
+void
 InternetCiter
 :
 :
@@ -2094,9 +2091,6 @@ over
 lines
 of
 aInString
-return
-NS_OK
-;
 }
 }
 /
