@@ -327,9 +327,6 @@ namespace
 js
 {
 class
-AutoAccessAtomsZone
-;
-class
 AutoLockHelperThreadState
 ;
 class
@@ -1867,13 +1864,6 @@ TraceAtomZoneRoots
 JSTracer
 *
 trc
-const
-js
-:
-:
-AutoAccessAtomsZone
-&
-access
 )
 ;
 [

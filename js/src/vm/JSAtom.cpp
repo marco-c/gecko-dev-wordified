@@ -2314,10 +2314,6 @@ tracePinnedAtoms
 JSTracer
 *
 trc
-const
-AutoAccessAtomsZone
-&
-access
 )
 {
 for
@@ -2382,10 +2378,6 @@ TraceAtoms
 JSTracer
 *
 trc
-const
-AutoAccessAtomsZone
-&
-access
 )
 {
 JSRuntime
@@ -2419,7 +2411,6 @@ atoms
 tracePinnedAtoms
 (
 trc
-access
 )
 ;
 }

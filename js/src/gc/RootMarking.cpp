@@ -1745,7 +1745,6 @@ isGCMarking
 traceRuntimeAtoms
 (
 trc
-session
 )
 ;
 }
@@ -2172,7 +2171,6 @@ MARK_ROOTS
 traceRuntimeAtoms
 (
 trc
-session
 )
 ;
 traceRuntimeCommon
@@ -2197,10 +2195,6 @@ traceRuntimeAtoms
 JSTracer
 *
 trc
-const
-AutoAccessAtomsZone
-&
-access
 )
 {
 gcstats
@@ -2232,7 +2226,6 @@ trc
 TraceAtoms
 (
 trc
-access
 )
 ;
 jit
@@ -2244,7 +2237,6 @@ JitRuntime
 TraceAtomZoneRoots
 (
 trc
-access
 )
 ;
 }

@@ -237,9 +237,6 @@ js
 namespace
 js
 {
-class
-AutoAccessAtomsZone
-;
 /
 *
 *
@@ -258,10 +255,6 @@ TraceAtoms
 JSTracer
 *
 trc
-const
-AutoAccessAtomsZone
-&
-access
 )
 ;
 void

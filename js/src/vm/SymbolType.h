@@ -241,17 +241,6 @@ StringType
 h
 "
 namespace
-js
-{
-class
-AutoAccessAtomsZone
-;
-}
-/
-/
-namespace
-js
-namespace
 JS
 {
 class

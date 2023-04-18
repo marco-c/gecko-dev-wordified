@@ -175,9 +175,6 @@ namespace
 js
 {
 class
-AutoAccessAtomsZone
-;
-class
 WeakMapBase
 ;
 static

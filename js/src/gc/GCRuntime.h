@@ -264,9 +264,6 @@ namespace
 js
 {
 class
-AutoAccessAtomsZone
-;
-class
 AutoLockGC
 ;
 class
@@ -4508,10 +4505,6 @@ traceRuntimeAtoms
 JSTracer
 *
 trc
-const
-AutoAccessAtomsZone
-&
-atomsAccess
 )
 ;
 void

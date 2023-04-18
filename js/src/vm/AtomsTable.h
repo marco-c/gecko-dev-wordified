@@ -948,10 +948,6 @@ tracePinnedAtoms
 JSTracer
 *
 trc
-const
-AutoAccessAtomsZone
-&
-access
 )
 ;
 /
