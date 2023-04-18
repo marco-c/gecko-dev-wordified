@@ -130,6 +130,17 @@ include
 "
 mozilla
 /
+dom
+/
+MediaTrackSettingsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorNames
 .
 h

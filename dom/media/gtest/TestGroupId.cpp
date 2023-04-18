@@ -157,6 +157,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+MediaTrackSettingsBinding
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
