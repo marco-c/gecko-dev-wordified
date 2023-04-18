@@ -2822,6 +2822,13 @@ enabled
 "
 _ns
 }
+/
+/
+Affects
+env
+(
+)
+.
 {
 "
 layout
@@ -2839,6 +2846,13 @@ content
 override
 "
 _ns
+widget
+:
+:
+ThemeChangeKind
+:
+:
+Style
 }
 /
 /

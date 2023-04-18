@@ -5585,10 +5585,12 @@ PrefersColorSchemeOverride
 :
 EndGuard_
 :
+break
+;
+}
 return
 true
 ;
-}
 }
 (
 )
