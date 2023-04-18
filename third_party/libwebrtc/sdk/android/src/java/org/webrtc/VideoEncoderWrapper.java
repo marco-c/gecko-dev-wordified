@@ -97,9 +97,7 @@ JNI
 generation
 .
 import
-android
-.
-support
+androidx
 .
 annotation
 .

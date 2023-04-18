@@ -149,9 +149,7 @@ opengl
 GLES11Ext
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .
