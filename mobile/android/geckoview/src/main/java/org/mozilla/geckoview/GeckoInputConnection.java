@@ -418,6 +418,7 @@ see
 comments
 in
 notifyIMEContext
+IMEState
 private
 int
 mIMEState
@@ -4353,6 +4354,7 @@ void
 notifyIME
 (
 final
+IMENotificationType
 int
 type
 )
@@ -4410,6 +4412,21 @@ NOTIFY_IME_OF_BLUR
 :
 break
 ;
+case
+NOTIFY_IME_OF_TOKEN
+:
+case
+NOTIFY_IME_OPEN_VKB
+:
+case
+NOTIFY_IME_REPLY_EVENT
+:
+case
+NOTIFY_IME_TO_CANCEL_COMPOSITION
+:
+case
+NOTIFY_IME_TO_COMMIT_COMPOSITION
+:
 default
 :
 if
@@ -4446,6 +4463,7 @@ synchronized
 void
 notifyIMEContext
 (
+IMEState
 final
 int
 state
@@ -4458,6 +4476,7 @@ modeHint
 final
 String
 actionHint
+IMEContextFlags
 final
 int
 flags
