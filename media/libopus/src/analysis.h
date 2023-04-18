@@ -464,6 +464,9 @@ read_subframe
 float
 hp_ener_accum
 ;
+int
+initialized
+;
 float
 rnn_state
 [

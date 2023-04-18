@@ -3061,19 +3061,6 @@ j
 )
 ;
 }
-if
-(
-psDec
--
->
-indices
-.
-signalType
-!
-=
-TYPE_NO_VOICE_ACTIVITY
-)
-{
 /
 *
 Gradually
@@ -3094,7 +3081,6 @@ rand_Gain_Q15
 15
 )
 ;
-}
 /
 *
 Slowly
