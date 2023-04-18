@@ -129,12 +129,6 @@ has_sandbox
 True
         
 "
-webrender
-"
-:
-True
-        
-"
 automation
 "
 :
@@ -464,12 +458,6 @@ bits
         
 "
 has_sandbox
-"
-:
-True
-        
-"
-webrender
 "
 :
 True
@@ -805,12 +793,6 @@ bits
         
 "
 has_sandbox
-"
-:
-True
-        
-"
-webrender
 "
 :
 True
