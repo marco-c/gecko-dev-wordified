@@ -6318,6 +6318,16 @@ DelazifyTask
 break
 ;
 }
+if
+(
+!
+strategy
+)
+{
+return
+false
+;
+}
 /
 /
 Queue
