@@ -293,9 +293,11 @@ tests
 /
 corrupt
 -
+gz
+-
 file
 .
-gz
+bin
 "
 )
 )

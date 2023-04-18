@@ -1834,7 +1834,7 @@ after
 the
 builder
 is
-droppped
+dropped
 /
 /
 /
@@ -2664,7 +2664,7 @@ the
 tx
 should
 be
-droped
+dropped
 /
 /
 so

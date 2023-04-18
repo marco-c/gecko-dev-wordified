@@ -47,7 +47,7 @@ to
 /
 /
 test
-behaviour
+behavior
 of
 the
 try_join

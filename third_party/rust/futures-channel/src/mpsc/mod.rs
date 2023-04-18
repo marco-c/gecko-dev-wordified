@@ -4043,16 +4043,6 @@ by
 bounded
 sender
 .
-#
-[
-allow
-(
-clippy
-:
-:
-debug_assert_with_mut_call
-)
-]
 fn
 do_send_b
 (
@@ -4078,7 +4068,7 @@ T
 /
 /
 Anyone
-callig
+calling
 do_send
 *
 should

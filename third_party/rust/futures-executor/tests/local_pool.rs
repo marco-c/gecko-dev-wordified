@@ -2529,7 +2529,7 @@ effect
 on
 the
 expected
-behaviour
+behavior
 of
 the
 executor
