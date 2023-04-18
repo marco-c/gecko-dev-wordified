@@ -862,17 +862,6 @@ literals
 "
 warn
 "
-"
-mozilla
-/
-reject
--
-importGlobalProperties
-"
-:
-"
-warn
-"
 }
 }
 {
