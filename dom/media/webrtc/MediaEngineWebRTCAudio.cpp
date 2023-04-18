@@ -10089,7 +10089,7 @@ aId
 auto
 r
 =
-NativeInputTrack
+DeviceInputTrack
 :
 :
 OpenAudio
@@ -10236,6 +10236,11 @@ isSome
 )
 )
 ;
+MOZ_ASSERT
+(
+mDeviceInputTrack
+)
+;
 LOG
 (
 "
@@ -10272,7 +10277,7 @@ Destroy
 (
 )
 ;
-NativeInputTrack
+DeviceInputTrack
 :
 :
 CloseAudio

@@ -1721,7 +1721,7 @@ get
 this
 RefPtr
 <
-NativeInputTrack
+DeviceInputTrack
 >
 mDeviceInputTrack
 ;

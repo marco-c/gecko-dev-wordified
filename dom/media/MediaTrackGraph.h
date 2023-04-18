@@ -686,7 +686,7 @@ class
 MediaTrackListener
 ;
 class
-NativeInputTrack
+DeviceInputTrack
 ;
 class
 ProcessedMediaTrack
@@ -2651,9 +2651,9 @@ nullptr
 ;
 }
 virtual
-NativeInputTrack
+DeviceInputTrack
 *
-AsNativeInputTrack
+AsDeviceInputTrack
 (
 )
 {
@@ -7038,7 +7038,7 @@ virtual
 void
 OpenAudioInput
 (
-NativeInputTrack
+DeviceInputTrack
 *
 aTrack
 )
@@ -7049,7 +7049,7 @@ virtual
 void
 CloseAudioInput
 (
-NativeInputTrack
+DeviceInputTrack
 *
 aTrack
 )
