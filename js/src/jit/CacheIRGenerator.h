@@ -2453,9 +2453,6 @@ CallIgnoresRv
 void
 emitNativeCalleeGuard
 (
-JSFunction
-*
-callee
 )
 ;
 auto

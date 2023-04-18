@@ -34531,9 +34531,6 @@ InlinableNativeIRGenerator
 :
 emitNativeCalleeGuard
 (
-JSFunction
-*
-callee
 )
 {
 /
@@ -34560,7 +34557,7 @@ realm
 .
 MOZ_ASSERT
 (
-callee
+callee_
 -
 >
 isNativeWithoutJitEntry
@@ -34598,7 +34595,7 @@ writer
 guardSpecificFunction
 (
 calleeObjId
-callee
+callee_
 )
 ;
 /
@@ -34637,7 +34634,7 @@ toObject
 )
 =
 =
-callee
+callee_
 )
 ;
 ValOperandId
@@ -34670,7 +34667,7 @@ writer
 guardSpecificFunction
 (
 newTargetObjId
-callee
+callee_
 )
 ;
 }
@@ -35108,7 +35105,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -35503,7 +35499,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -35759,7 +35754,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -36126,7 +36120,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -36350,7 +36343,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -36720,7 +36712,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -37131,7 +37122,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -38290,7 +38280,6 @@ Object
 {
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 }
@@ -41150,7 +41139,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -41379,7 +41367,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -41543,7 +41530,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -42071,7 +42057,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -42334,7 +42319,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -42525,7 +42509,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -42686,7 +42669,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -42850,7 +42832,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -43020,7 +43001,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 mozilla
@@ -43156,7 +43136,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -43343,7 +43322,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -43523,7 +43501,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -43776,7 +43753,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -44057,7 +44033,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -44323,7 +44298,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -44589,7 +44563,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -44844,7 +44817,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -45073,7 +45045,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -45204,7 +45175,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -45565,7 +45535,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -45821,7 +45790,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -46121,7 +46089,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -46342,7 +46309,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 if
@@ -46696,7 +46662,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -46847,7 +46812,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -47107,7 +47071,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -47268,7 +47231,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -47747,7 +47709,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -48164,7 +48125,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -49072,7 +49032,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -49537,7 +49496,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -49785,7 +49743,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -49910,7 +49867,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 if
@@ -50036,7 +49992,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 writer
@@ -50134,7 +50089,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -50285,7 +50239,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -50391,7 +50344,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
@@ -51114,7 +51066,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -51322,7 +51273,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -51507,7 +51457,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -51731,7 +51680,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -51941,7 +51889,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -52446,7 +52393,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -52951,7 +52897,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -56134,7 +56079,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 /
@@ -56468,7 +56412,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 Int32OperandId
@@ -56874,7 +56817,6 @@ function
 .
 emitNativeCalleeGuard
 (
-callee
 )
 ;
 ValOperandId
