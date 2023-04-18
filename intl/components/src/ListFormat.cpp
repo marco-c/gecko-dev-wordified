@@ -146,7 +146,10 @@ ulistfmt_openForType
 (
 IcuLocale
 (
+AssertNullTerminatedString
+(
 aLocale
+)
 )
 utype
 uwidth

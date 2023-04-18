@@ -71,6 +71,13 @@ algorithm
 #
 include
 "
+DateTimeFormat
+.
+h
+"
+#
+include
+"
 ScopedNSSTypes
 .
 h

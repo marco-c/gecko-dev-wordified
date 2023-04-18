@@ -90,7 +90,7 @@ UNIFIED_SOURCES
 =
 [
 "
-TestAppDateTimeFormat
+TestDateTimeFormat
 .
 cpp
 "

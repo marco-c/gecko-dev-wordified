@@ -196,6 +196,11 @@ EXPORTS
 =
 [
 "
+DateTimeFormat
+.
+h
+"
+"
 nsLanguageAtomService
 .
 h
@@ -214,11 +219,6 @@ intl
 +
 =
 [
-"
-AppDateTimeFormat
-.
-h
-"
 "
 LocaleService
 .
@@ -245,7 +245,7 @@ UNIFIED_SOURCES
 =
 [
 "
-AppDateTimeFormat
+DateTimeFormat
 .
 cpp
 "
