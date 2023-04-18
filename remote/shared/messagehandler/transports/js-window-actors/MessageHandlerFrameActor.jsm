@@ -268,11 +268,8 @@ registered
 :
 false
 register
-:
 (
 )
-=
->
 {
 if
 (
