@@ -33612,16 +33612,6 @@ pendingUpdate
 mVisualScrollOffset
 ;
 }
-if
-(
-presShell
--
->
-IsVisualViewportOffsetSet
-(
-)
-)
-{
 return
 presShell
 -
@@ -33630,7 +33620,6 @@ GetVisualViewportOffset
 (
 )
 ;
-}
 }
 return
 GetScrollPosition

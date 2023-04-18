@@ -59215,14 +59215,6 @@ CSSPoint
 visualScrollOffset
 =
 aIsRootContent
-&
-&
-presShell
--
->
-IsVisualViewportOffsetSet
-(
-)
 ?
 CSSPoint
 :
