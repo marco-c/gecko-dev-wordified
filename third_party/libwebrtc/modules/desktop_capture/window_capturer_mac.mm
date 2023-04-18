@@ -1030,6 +1030,14 @@ GetWindowId
 window
 )
 ;
+int
+pid
+=
+GetWindowOwnerPid
+(
+window
+)
+;
 if
 (
 window_id
@@ -1049,6 +1057,7 @@ DesktopCapturer
 Source
 {
 window_id
+pid
 GetWindowTitle
 (
 window
