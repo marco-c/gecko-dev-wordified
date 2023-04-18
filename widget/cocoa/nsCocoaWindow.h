@@ -2145,6 +2145,17 @@ override
 ;
 virtual
 void
+SetColorScheme
+(
+mozilla
+:
+:
+ColorScheme
+)
+override
+;
+virtual
+void
 SetShowsToolbarButton
 (
 bool
