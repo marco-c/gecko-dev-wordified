@@ -684,13 +684,6 @@ rootOKName
 let
 expectedNamesForOCSP
 =
-gEVExpected
-?
-[
-intFullName
-eeFullName
-]
-:
 [
 eeFullName
 ]
@@ -887,13 +880,6 @@ rootOKName
 ;
 expectedNamesForOCSP
 =
-gEVExpected
-?
-[
-intFullName
-eeFullName
-]
-:
 [
 eeFullName
 ]
