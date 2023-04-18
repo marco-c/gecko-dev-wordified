@@ -471,6 +471,13 @@ RawServoScrollTimelineRule
 >
 ;
 template
+struct
+StyleStrong
+<
+RawServoContainerRule
+>
+;
+template
 <
 typename
 T

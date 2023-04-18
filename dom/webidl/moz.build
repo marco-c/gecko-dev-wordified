@@ -3306,6 +3306,11 @@ CSSConditionRule
 webidl
 "
 "
+CSSContainerRule
+.
+webidl
+"
+"
 CSSCounterStyleRule
 .
 webidl
