@@ -345,7 +345,7 @@ create
 url
 :
 "
-http
+https
 :
 /
 /
@@ -361,7 +361,7 @@ result
 url
 :
 "
-http
+https
 :
 /
 /
@@ -383,7 +383,7 @@ view
 -
 source
 :
-http
+https
 :
 /
 /
@@ -403,7 +403,7 @@ view
 -
 source
 :
-http
+https
 :
 /
 /
@@ -454,7 +454,7 @@ create
 url
 :
 "
-http
+https
 :
 /
 /
@@ -482,7 +482,7 @@ url
 encodeURIComponent
 (
 "
-http
+https
 :
 /
 /
