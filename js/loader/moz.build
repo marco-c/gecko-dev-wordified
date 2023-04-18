@@ -109,11 +109,6 @@ ModuleLoadRequest
 h
 "
 "
-ModuleMapKey
-.
-h
-"
-"
 ScriptKind
 .
 h
@@ -140,11 +135,6 @@ cpp
 "
 "
 ModuleLoadRequest
-.
-cpp
-"
-"
-ModuleMapKey
 .
 cpp
 "

@@ -121,17 +121,6 @@ mozilla_dom_UnderlyingSourceCallbackHelpers_h
 #
 include
 "
-js
-/
-loader
-/
-ModuleMapKey
-.
-h
-"
-#
-include
-"
 mozilla
 /
 HoldDropJSObjects
