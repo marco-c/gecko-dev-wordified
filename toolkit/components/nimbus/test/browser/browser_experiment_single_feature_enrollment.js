@@ -95,6 +95,13 @@ appName
 "
 firefox_desktop
 "
+application
+:
+"
+firefox
+-
+desktop
+"
 arguments
 :
 {
