@@ -465,14 +465,6 @@ s
   
 LINK_LIBS
   
-clangAST
-  
-clangASTMatchers
-  
-clangBasic
-  
-clangLex
-  
 clangTidy
   
 clangTidyReadabilityModule
@@ -480,6 +472,21 @@ clangTidyReadabilityModule
 clangTidyUtils
   
 clangTidyMPIModule
+  
+)
+clang_target_link_libraries
+(
+clangTidyMozillaModule
+  
+PRIVATE
+  
+clangAST
+  
+clangASTMatchers
+  
+clangBasic
+  
+clangLex
   
 )
 "
