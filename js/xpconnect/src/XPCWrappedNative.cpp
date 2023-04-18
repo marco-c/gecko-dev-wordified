@@ -11565,7 +11565,7 @@ T_JSVAL
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 aTrc
 (

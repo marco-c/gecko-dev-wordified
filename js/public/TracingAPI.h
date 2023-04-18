@@ -3423,7 +3423,7 @@ barriers
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 |
 overloads
 allow
@@ -3474,7 +3474,7 @@ nullptr
 .
 #
 define
-JS_DECLARE_UNSAFE_TRACE_ROOT
+JS_DECLARE_TRACE_ROOT
 (
 type
 )
@@ -3482,7 +3482,7 @@ type
 extern
 JS_PUBLIC_API
 void
-UnsafeTraceRoot
+TraceRoot
 (
 JSTracer
 *
@@ -3513,11 +3513,11 @@ types
 .
 JS_FOR_EACH_PUBLIC_GC_POINTER_TYPE
 (
-JS_DECLARE_UNSAFE_TRACE_ROOT
+JS_DECLARE_TRACE_ROOT
 )
 JS_FOR_EACH_PUBLIC_TAGGED_GC_POINTER_TYPE
 (
-JS_DECLARE_UNSAFE_TRACE_ROOT
+JS_DECLARE_TRACE_ROOT
 )
 /
 /
@@ -3570,7 +3570,7 @@ declare
 them
 here
 .
-JS_DECLARE_UNSAFE_TRACE_ROOT
+JS_DECLARE_TRACE_ROOT
 (
 js
 :
@@ -3578,7 +3578,7 @@ js
 AbstractGeneratorObject
 *
 )
-JS_DECLARE_UNSAFE_TRACE_ROOT
+JS_DECLARE_TRACE_ROOT
 (
 js
 :
@@ -3588,7 +3588,7 @@ SavedFrame
 )
 #
 undef
-JS_DECLARE_UNSAFE_TRACE_ROOT
+JS_DECLARE_TRACE_ROOT
 extern
 JS_PUBLIC_API
 void

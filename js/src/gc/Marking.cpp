@@ -3329,7 +3329,7 @@ T
 >
 static
 void
-UnsafeTraceRootHelper
+TraceRootHelper
 (
 JSTracer
 *
@@ -3447,7 +3447,7 @@ void
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 JSTracer
 *
@@ -3463,7 +3463,7 @@ name
 )
 {
 \
-UnsafeTraceRootHelper
+TraceRootHelper
 (
 trc
 thingp
@@ -3475,7 +3475,7 @@ name
 /
 /
 Define
-UnsafeTraceRoot
+TraceRoot
 for
 each
 public
@@ -3498,7 +3498,7 @@ for
 the
 moment
 define
-UnsafeTraceRoot
+TraceRoot
 for
 internal
 GC

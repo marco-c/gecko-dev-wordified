@@ -5412,7 +5412,7 @@ trc
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &
@@ -5425,7 +5425,7 @@ mCallbackFunction
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 &

@@ -14527,7 +14527,7 @@ objp
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 objp
@@ -14616,7 +14616,7 @@ valp
 JS
 :
 :
-UnsafeTraceRoot
+TraceRoot
 (
 trc
 valp
