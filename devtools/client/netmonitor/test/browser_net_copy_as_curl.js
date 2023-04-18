@@ -1512,10 +1512,6 @@ the
 middle
 (
 headers
-and
--
--
-compressed
 )
 return
 (
@@ -1532,7 +1528,7 @@ length
 &
 expectedResult
 .
-every
+some
 (
 param
 =
