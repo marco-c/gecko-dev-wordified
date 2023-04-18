@@ -8327,7 +8327,7 @@ methods
 sync
 (
 )
-void
+bool
 callIndirect
 (
 uint32_t
