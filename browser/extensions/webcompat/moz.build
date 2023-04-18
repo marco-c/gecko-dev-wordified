@@ -1445,6 +1445,15 @@ js
 "
 shims
 /
+maxmind
+-
+geoip
+.
+js
+"
+"
+shims
+/
 microsoftLogin
 .
 js
