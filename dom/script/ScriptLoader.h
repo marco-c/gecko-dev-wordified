@@ -4169,14 +4169,6 @@ aRequest
 )
 ;
 void
-CheckModuleDependenciesLoaded
-(
-ModuleLoadRequest
-*
-aRequest
-)
-;
-void
 ProcessLoadedModuleTree
 (
 ModuleLoadRequest
