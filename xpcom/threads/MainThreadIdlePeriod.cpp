@@ -369,13 +369,6 @@ nsRefreshDriver
 GetIdleDeadlineHint
 (
 currentGuess
-nsRefreshDriver
-:
-:
-IdleCheck
-:
-:
-AllVsyncListeners
 )
 ;
 if
