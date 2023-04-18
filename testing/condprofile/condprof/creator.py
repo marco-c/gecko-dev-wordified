@@ -327,6 +327,16 @@ env
 skip_logs
 =
 False
+        
+remote_test_root
+=
+"
+/
+sdcard
+/
+test_root
+/
+"
     
 )
 :
@@ -372,6 +382,12 @@ self
 skip_logs
 =
 skip_logs
+        
+self
+.
+remote_test_root
+=
+remote_test_root
         
 self
 .
@@ -611,10 +627,17 @@ env
 .
 get_device
 (
+            
 2828
 verbose
 =
 True
+remote_test_root
+=
+self
+.
+remote_test_root
+        
 )
 as
 device

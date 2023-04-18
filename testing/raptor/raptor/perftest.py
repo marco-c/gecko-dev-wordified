@@ -514,6 +514,12 @@ kwargs
         
 self
 .
+_remote_test_root
+=
+None
+        
+self
+.
 _dirs_to_remove
 =
 [
@@ -1383,6 +1389,24 @@ localhost
 property
     
 def
+android_external_storage
+(
+self
+)
+:
+        
+return
+"
+/
+sdcard
+/
+test_root
+/
+"
+    
+property
+    
+def
 conditioned_profile_copy
 (
 self
@@ -1677,6 +1701,12 @@ True
 skip_logs
 =
 True
+            
+remote_test_root
+=
+self
+.
+android_external_storage
         
 )
         

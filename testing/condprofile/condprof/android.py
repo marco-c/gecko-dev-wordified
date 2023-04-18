@@ -125,14 +125,29 @@ AndroidDevice
 def
 __init__
 (
+        
 self
+        
 app_name
+        
 marionette_port
 =
 2828
+        
 verbose
 =
 False
+        
+remote_test_root
+=
+"
+/
+sdcard
+/
+test_root
+/
+"
+    
 )
 :
         
@@ -223,6 +238,12 @@ self
 log_file
 =
 None
+        
+self
+.
+remote_test_root
+=
+remote_test_root
         
 self
 .
@@ -553,12 +574,9 @@ adb
 "
 test_root
 =
-"
-/
-sdcard
-/
-test_root
-"
+self
+.
+remote_test_root
             
 )
         
@@ -706,26 +724,14 @@ device
 "
 )
         
-remote_test_root
-=
-posixpath
-.
-join
-(
-device
-.
-test_root
-"
-condprof
-"
-)
-        
 remote_profile
 =
 posixpath
 .
 join
 (
+self
+.
 remote_test_root
 "
 profile
@@ -750,26 +756,6 @@ s
 "
 %
 remote_profile
-)
-        
-device
-.
-rm
-(
-remote_test_root
-force
-=
-True
-recursive
-=
-True
-)
-        
-device
-.
-mkdir
-(
-remote_test_root
 )
         
 device
@@ -1519,6 +1505,7 @@ contextmanager
 def
 device
 (
+    
 app_name
 marionette_port
 =
@@ -1526,6 +1513,15 @@ marionette_port
 verbose
 =
 True
+remote_test_root
+=
+"
+/
+sdcard
+/
+test_root
+/
+"
 )
 :
     
@@ -1533,9 +1529,14 @@ device_
 =
 AndroidDevice
 (
+        
 app_name
 marionette_port
 verbose
+remote_test_root
+=
+remote_test_root
+    
 )
     
 try
