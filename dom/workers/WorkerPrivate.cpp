@@ -25952,6 +25952,9 @@ exception
 MOZ_ASSERT
 (
 aReport
+&
+&
+aReport
 -
 >
 isWarning
