@@ -709,16 +709,6 @@ stream
 (
 )
 ;
-if
-(
-!
-stream
-)
-{
-return
-nullptr
-;
-}
 return
 PrintTargetPDF
 :
