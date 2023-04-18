@@ -686,6 +686,10 @@ Destroy
 (
 )
 ;
+mRoot
+=
+nullptr
+;
 mPartialPrerenderedAnimations
 .
 Clear
