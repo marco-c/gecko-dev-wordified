@@ -136,7 +136,7 @@ final
 public
 :
 static
-nsresult
+void
 GetCiteString
 (
 const
@@ -149,7 +149,7 @@ aOutString
 )
 ;
 static
-nsresult
+void
 Rewrap
 (
 const
