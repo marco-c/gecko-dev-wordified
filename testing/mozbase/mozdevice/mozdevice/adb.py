@@ -31709,6 +31709,9 @@ install_app_bundle
 self
 bundletool
 bundle_path
+java_home
+=
+None
 timeout
 =
 None
@@ -31815,6 +31818,27 @@ used
 .
         
 :
+param
+str
+java_home
+:
+Path
+to
+the
+JDK
+location
+.
+Will
+default
+to
+            
+JAVA_HOME
+when
+not
+specififed
+.
+        
+:
 raises
 :
 :
@@ -31845,6 +31869,21 @@ get
 (
 "
 ANDROID_SERIAL
+"
+)
+        
+java_home
+=
+java_home
+or
+os
+.
+environ
+.
+get
+(
+"
+JAVA_HOME
 "
 )
         
@@ -31896,13 +31935,28 @@ keystore
 "
 )
             
+keytool_path
+=
+os
+.
+path
+.
+join
+(
+java_home
+"
+bin
+"
+"
+keytool
+"
+)
+            
 key_gen
 =
 [
                 
-"
-keytool
-"
+keytool_path
                 
 "
 -
@@ -32052,13 +32106,28 @@ format
 temporaryDirectory
 )
             
+java_path
+=
+os
+.
+path
+.
+join
+(
+java_home
+"
+bin
+"
+"
+java
+"
+)
+            
 build_apks
 =
 [
                 
-"
-java
-"
+java_path
                 
 "
 -
@@ -32245,9 +32314,7 @@ install_apks
 =
 [
                 
-"
-java
-"
+java_path
                 
 "
 -

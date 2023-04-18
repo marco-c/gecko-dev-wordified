@@ -453,28 +453,6 @@ MOBILE_ANDROID_COMMON_PACKAGES
 [
         
 "
-openjdk
--
-8
--
-jdk
--
-headless
-"
-#
-Android
-'
-s
-sdkmanager
-requires
-Java
-1
-.
-8
-exactly
-.
-        
-"
 libncurses5
 "
 #
@@ -792,13 +770,6 @@ MOBILE_ANDROID_COMMON_PACKAGES
 Android
 pieces
 .
-        
-self
-.
-ensure_java
-(
-mozconfig_builder
-)
         
 super
 (

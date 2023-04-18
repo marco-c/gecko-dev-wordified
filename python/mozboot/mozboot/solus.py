@@ -247,12 +247,6 @@ MOBILE_ANDROID_COMMON_PACKAGES
 =
 [
         
-"
-openjdk
--
-8
-"
-        
 #
 See
 comment
@@ -453,13 +447,6 @@ e
 Android
 pieces
 .
-        
-self
-.
-ensure_java
-(
-mozconfig_builder
-)
         
 super
 (

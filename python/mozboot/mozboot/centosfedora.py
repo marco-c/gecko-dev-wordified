@@ -259,21 +259,6 @@ self
 mobile_android_packages
 =
 [
-            
-"
-java
--
-1
-.
-8
-.
-0
--
-openjdk
--
-devel
-"
-        
 ]
         
 if
@@ -645,13 +630,6 @@ dnf_install
 self
 .
 mobile_android_packages
-)
-        
-self
-.
-ensure_java
-(
-mozconfig_builder
 )
         
 super
