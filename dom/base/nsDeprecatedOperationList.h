@@ -200,6 +200,14 @@ ImportXULIntoContent
 )
 DEPRECATED_OPERATION
 (
+InstallTriggerDeprecated
+)
+DEPRECATED_OPERATION
+(
+InstallTriggerInstallDeprecated
+)
+DEPRECATED_OPERATION
+(
 NavigatorGetUserMedia
 )
 DEPRECATED_OPERATION
