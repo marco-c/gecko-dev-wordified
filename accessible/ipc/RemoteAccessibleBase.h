@@ -1362,6 +1362,15 @@ GetCachedTextLines
 (
 )
 ;
+RefPtr
+<
+const
+AccAttributes
+>
+GetCachedTextAttributes
+(
+)
+;
 virtual
 HyperTextAccessibleBase
 *
