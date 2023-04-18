@@ -5596,8 +5596,6 @@ this
 .
 targetCommand
 .
-descriptorFront
-.
 isServerTargetSwitchingEnabled
 (
 )
