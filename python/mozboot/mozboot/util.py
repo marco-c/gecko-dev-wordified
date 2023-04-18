@@ -76,7 +76,7 @@ mach
 .
 site
 import
-VirtualenvHelper
+PythonVirtualenv
 from
 mozfile
 import
@@ -583,7 +583,7 @@ state_dir
 )
     
 return
-VirtualenvHelper
+PythonVirtualenv
 (
 root
 )

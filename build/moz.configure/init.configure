@@ -2064,7 +2064,7 @@ site
 _import
 =
 "
-VirtualenvHelper
+PythonVirtualenv
 "
 )
 def
@@ -2112,7 +2112,7 @@ path
 =
 normsep
 (
-VirtualenvHelper
+PythonVirtualenv
 (
 sys
 .
