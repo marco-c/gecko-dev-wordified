@@ -416,7 +416,7 @@ aRequest
 override
 ;
 nsresult
-CompileOrFinishModuleScript
+CompileFetchedModule
 (
 JSContext
 *

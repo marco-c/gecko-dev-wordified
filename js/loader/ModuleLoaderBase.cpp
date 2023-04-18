@@ -3177,7 +3177,7 @@ GetGlobalJSObject
 ;
 rv
 =
-CompileOrFinishModuleScript
+CompileFetchedModule
 (
 cx
 global
