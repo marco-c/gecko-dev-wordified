@@ -2696,7 +2696,7 @@ GdkDragContext
 *
 context
 =
-gtk_drag_begin
+gtk_drag_begin_with_coordinates
 (
 mHiddenWidget
 sourceList
@@ -2704,6 +2704,10 @@ action
 1
 &
 event
+-
+1
+-
+1
 )
 ;
 nsresult
