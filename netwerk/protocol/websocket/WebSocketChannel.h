@@ -1320,6 +1320,8 @@ IO
 thread
 cleared
 on
+/
+/
 IOThread
 nsCOMPtr
 <
@@ -1801,6 +1803,8 @@ AsyncOpenNative
 read
 on
 IO
+/
+/
 thread
 /
 /
@@ -1817,6 +1821,8 @@ Used
 on
 IO
 Thread
+/
+/
 (
 after
 mDataStarted
