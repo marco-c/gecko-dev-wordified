@@ -126,6 +126,9 @@ StringType
 .
 h
 "
+class
+JSLinearString
+;
 uint32_t
 TLStringToTextId
 (
