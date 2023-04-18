@@ -968,7 +968,7 @@ ClipboardTargets
 nsRetrievalContextX11
 :
 :
-GetTargets
+GetTargetsImpl
 (
 int32_t
 aWhichClipboard
@@ -980,7 +980,7 @@ LOGCLIP
 nsRetrievalContextX11
 :
 :
-GetTargets
+GetTargetsImpl
 (
 %
 s
