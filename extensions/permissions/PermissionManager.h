@@ -222,6 +222,15 @@ include
 "
 mozilla
 /
+StaticMutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ThreadBound
 .
 h
@@ -2389,6 +2398,10 @@ private
 PermissionManager
 (
 )
+;
+static
+StaticMutex
+sCreationMutex
 ;
 /
 *
