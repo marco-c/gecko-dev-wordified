@@ -970,11 +970,7 @@ Image
 GetAsImage
 (
 )
-{
-return
-nullptr
 ;
-}
 virtual
 bool
 UpdateWebRenderCanvasData
