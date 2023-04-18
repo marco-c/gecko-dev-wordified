@@ -120,6 +120,11 @@ TestDateTimeFormat
 cpp
 "
 "
+TestIDNA
+.
+cpp
+"
+"
 TestListFormat
 .
 cpp
