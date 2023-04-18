@@ -1946,7 +1946,6 @@ mLastBlockOffset
 .
 ReentrantMonitor
 mReentrantMonitor
-MOZ_UNANNOTATED
 ;
 /
 /
@@ -1983,6 +1982,10 @@ nsTArray
 WebMTimeDataOffset
 >
 mTimeMapping
+GUARDED_BY
+(
+mReentrantMonitor
+)
 ;
 /
 /
@@ -2000,6 +2003,10 @@ set
 .
 int64_t
 mLastBlockOffset
+GUARDED_BY
+(
+mReentrantMonitor
+)
 ;
 /
 /
