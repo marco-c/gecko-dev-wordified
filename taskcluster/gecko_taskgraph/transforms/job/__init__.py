@@ -1839,6 +1839,11 @@ artifact_names
 {
 }
     
+extra_env
+=
+{
+}
+    
 aliases
 =
 {
@@ -1903,6 +1908,18 @@ run
 toolchain
 -
 artifact
+"
+)
+            
+get_attribute
+(
+extra_env
+label
+run
+"
+toolchain
+-
+env
 "
 )
             
@@ -2023,6 +2040,27 @@ kind
 artifact
 "
             
+)
+            
+get_attribute
+(
+extra_env
+task
+.
+label
+task
+.
+attributes
+f
+"
+{
+task
+.
+kind
+}
+-
+env
+"
 )
             
 value
@@ -2197,6 +2235,19 @@ worker
 }
 )
         
+env
+=
+worker
+.
+setdefault
+(
+"
+env
+"
+{
+}
+)
+        
 prefix
 =
 get_artifact_prefix
@@ -2307,6 +2358,22 @@ fetch_name
                             
 )
                         
+)
+                    
+if
+label
+in
+extra_env
+:
+                        
+env
+.
+update
+(
+extra_env
+[
+label
+]
 )
                     
 path
@@ -3017,19 +3084,6 @@ artifact
 ]
 =
 task
-        
-env
-=
-worker
-.
-setdefault
-(
-"
-env
-"
-{
-}
-)
         
 env
 [
