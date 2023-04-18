@@ -4778,12 +4778,17 @@ changed
 {
 detail
 :
+{
+marks
+:
 Array
 .
 from
 (
 marks
 )
+onHorizontalScrollbar
+}
 }
 )
 )
