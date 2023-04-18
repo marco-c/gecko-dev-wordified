@@ -30081,11 +30081,6 @@ asString
 =
 "
 GeckoMain
-(
-pre
--
-xul
-)
 "
 )
 {
