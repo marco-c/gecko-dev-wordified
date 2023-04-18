@@ -12112,12 +12112,6 @@ UpdateUrlbarSearchSplitterState
 (
 )
 ;
-gTabsPanel
-.
-init
-(
-)
-;
 BookmarkingUI
 .
 init
