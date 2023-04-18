@@ -6029,10 +6029,9 @@ BrowserToolboxLauncher
 .
 init
 (
-null
-null
-null
+{
 binaryPath
+}
 )
 ;
 if
