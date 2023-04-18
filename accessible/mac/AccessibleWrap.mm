@@ -1983,6 +1983,12 @@ roles
 :
 TOGGLE_BUTTON
 :
+case
+roles
+:
+:
+SWITCH
+:
 return
 [
 mozCheckboxAccessible
