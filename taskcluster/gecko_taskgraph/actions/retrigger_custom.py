@@ -1431,6 +1431,7 @@ new_task_definition
     
 create_task_from_def
 (
+        
 new_task_definition
 parameters
 [
@@ -1438,4 +1439,14 @@ parameters
 level
 "
 ]
+action_tag
+=
+"
+retrigger
+-
+custom
+-
+task
+"
+    
 )
