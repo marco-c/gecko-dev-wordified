@@ -2897,11 +2897,6 @@ Animation
 webidl
 "
 "
-FileSystemFileHandle
-.
-webidl
-"
-"
 Node
 .
 webidl
@@ -3702,6 +3697,11 @@ webidl
 "
 "
 FileSystemFileEntry
+.
+webidl
+"
+"
+FileSystemFileHandle
 .
 webidl
 "

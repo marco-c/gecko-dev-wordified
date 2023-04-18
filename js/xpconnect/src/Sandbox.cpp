@@ -758,9 +758,6 @@ RequestBinding
 h
 "
 #
-ifdef
-MOZ_DOM_STREAMS
-#
 include
 "
 mozilla
@@ -771,8 +768,6 @@ ReadableStreamBinding
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -7074,9 +7069,6 @@ XMLSerializer
 =
 true
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 }
 else
 if
@@ -7094,8 +7086,6 @@ ReadableStream
 =
 true
 ;
-#
-endif
 }
 else
 if
@@ -8164,9 +8154,6 @@ cx
 return
 false
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 if
 (
 ReadableStream
@@ -8187,8 +8174,6 @@ cx
 return
 false
 ;
-#
-endif
 if
 (
 atob

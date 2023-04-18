@@ -1523,9 +1523,6 @@ RemoveReportRecords
 (
 )
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 /
 /
 https
@@ -1619,8 +1616,6 @@ Function
 aFunction
 )
 ;
-#
-endif
 /
 *
 *
@@ -1833,9 +1828,6 @@ Report
 >
 mReportRecords
 ;
-#
-ifdef
-MOZ_DOM_STREAMS
 /
 /
 https
@@ -1910,8 +1902,6 @@ Function
 >
 mByteLengthQueuingStrategySizeFunction
 ;
-#
-endif
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
