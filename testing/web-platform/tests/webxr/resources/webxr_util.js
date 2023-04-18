@@ -1117,12 +1117,6 @@ mode
 =
 sessionMode
 ;
-session
-.
-sessionInit
-=
-sessionInit
-;
 let
 glLayer
 =
