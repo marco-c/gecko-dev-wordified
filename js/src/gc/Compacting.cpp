@@ -3057,8 +3057,9 @@ isCollecting
 )
 )
 ;
-sweepFinalizationRegistries
+traceWeakFinalizationRegistryEdges
 (
+trc
 zone
 )
 ;

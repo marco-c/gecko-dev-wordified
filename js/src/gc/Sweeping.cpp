@@ -8293,6 +8293,12 @@ PhaseKind
 SWEEP_FINALIZATION_REGISTRIES
 )
 ;
+SweepingTracer
+trc
+(
+rt
+)
+;
 AutoLockStoreBuffer
 lock
 (
@@ -8324,8 +8330,10 @@ next
 )
 )
 {
-sweepFinalizationRegistries
+traceWeakFinalizationRegistryEdges
 (
+&
+trc
 zone
 )
 ;

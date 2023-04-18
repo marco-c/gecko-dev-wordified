@@ -4861,8 +4861,11 @@ sweepFinalizationRegistriesOnMainThread
 )
 ;
 void
-sweepFinalizationRegistries
+traceWeakFinalizationRegistryEdges
 (
+JSTracer
+*
+trc
 Zone
 *
 zone
