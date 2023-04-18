@@ -4570,7 +4570,7 @@ paintResult
 ;
 }
 const
-Rect
+LayoutDeviceRect
 &
 maskSurfaceRect
 =
@@ -4580,7 +4580,7 @@ maskRect
 .
 valueOr
 (
-Rect
+LayoutDeviceRect
 (
 )
 )
@@ -4638,6 +4638,10 @@ GetDrawTarget
 CreateClippedDrawTarget
 (
 maskSurfaceRect
+.
+ToUnknownRect
+(
+)
 SurfaceFormat
 :
 :

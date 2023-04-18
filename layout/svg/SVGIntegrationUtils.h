@@ -1112,10 +1112,7 @@ opacity
 .
 Maybe
 <
-gfx
-:
-:
-Rect
+LayoutDeviceRect
 >
 maskRect
 ;
