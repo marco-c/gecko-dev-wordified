@@ -430,12 +430,6 @@ topsrcdir
 virtualenvs_dir
         
 site_name
-        
-*
-        
-manifest_path
-=
-None
     
 )
 :
@@ -498,35 +492,6 @@ self
 _site_name
 =
 site_name
-        
-self
-.
-_manifest_path
-=
-manifest_path
-or
-os
-.
-path
-.
-join
-(
-            
-topsrcdir
-"
-build
-"
-f
-"
-{
-site_name
-}
-_virtualenv_packages
-.
-txt
-"
-        
-)
         
 self
 .
@@ -1106,6 +1071,35 @@ self
 )
 :
         
+manifest_path
+=
+os
+.
+path
+.
+join
+(
+            
+self
+.
+topsrcdir
+"
+build
+"
+f
+"
+{
+self
+.
+_site_name
+}
+_virtualenv_packages
+.
+txt
+"
+        
+)
+        
 if
 not
 os
@@ -1114,9 +1108,7 @@ path
 .
 exists
 (
-self
-.
-_manifest_path
+manifest_path
 )
 :
             
@@ -1161,9 +1153,7 @@ file
 at
 "
 {
-self
-.
-_manifest_path
+manifest_path
 }
 "
 .
@@ -1235,9 +1225,7 @@ build
 "
 )
             
-self
-.
-_manifest_path
+manifest_path
         
 )
     
