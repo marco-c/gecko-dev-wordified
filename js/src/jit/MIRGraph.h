@@ -2325,14 +2325,6 @@ discardLastIns
 )
 ;
 void
-discardDef
-(
-MDefinition
-*
-def
-)
-;
-void
 discardAllInstructions
 (
 )
