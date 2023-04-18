@@ -1395,7 +1395,7 @@ uint8_t
 p
 const
 ptrdiff_t
-stride
+p_stride
 const
 int32_t
 *
@@ -1603,7 +1603,7 @@ j
 *
 PXSTRIDE
 (
-stride
+p_stride
 )
 +
 i
@@ -1679,7 +1679,7 @@ j
 *
 PXSTRIDE
 (
-stride
+p_stride
 )
 +
 i
@@ -1708,7 +1708,7 @@ uint8_t
 p
 const
 ptrdiff_t
-stride
+p_stride
 const
 uint8_t
 (
@@ -1722,6 +1722,9 @@ const
 uint8_t
 *
 lpf
+const
+ptrdiff_t
+lpf_stride
 int
 unit_w
 const
@@ -1839,7 +1842,7 @@ above_1
 +
 PXSTRIDE
 (
-stride
+lpf_stride
 )
 ;
 pixel_copy
@@ -1996,7 +1999,7 @@ lpf
 *
 PXSTRIDE
 (
-stride
+lpf_stride
 )
 ;
 const
@@ -2009,7 +2012,7 @@ below_1
 +
 PXSTRIDE
 (
-stride
+lpf_stride
 )
 ;
 pixel_copy
@@ -2078,7 +2081,7 @@ stripe_h
 *
 PXSTRIDE
 (
-stride
+p_stride
 )
 ;
 pixel_copy
@@ -2246,7 +2249,7 @@ p
 =
 PXSTRIDE
 (
-stride
+p_stride
 )
 ;
 }
@@ -2491,7 +2494,7 @@ uint8_t
 p
 const
 ptrdiff_t
-stride
+p_stride
 const
 uint8_t
 (
@@ -2506,6 +2509,9 @@ const
 uint8_t
 *
 lpf
+const
+ptrdiff_t
+lpf_stride
 const
 int
 w
@@ -2587,9 +2593,10 @@ padding
 (
 tmp
 p
-stride
+p_stride
 left
 lpf
+lpf_stride
 w
 h
 edges
@@ -2632,7 +2639,7 @@ h
 wiener_filter_v_vsx
 (
 p
-stride
+p_stride
 hor
 filter
 [
