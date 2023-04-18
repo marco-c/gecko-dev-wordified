@@ -3407,9 +3407,6 @@ false
 ;
 nsDisplayList
 layerItems
-(
-aBuilder
-)
 ;
 /
 /
@@ -3511,9 +3508,6 @@ asr
 ;
 nsDisplayList
 thisItemList
-(
-aBuilder
-)
 ;
 nsDisplayBackgroundImage
 :

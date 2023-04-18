@@ -874,9 +874,6 @@ dirty
 ;
 nsDisplayList
 list
-(
-aBuilder
-)
 ;
 aFrame
 -
@@ -952,7 +949,7 @@ if
 aList
 -
 >
-Length
+Count
 (
 )
 !
@@ -1188,9 +1185,6 @@ aIsOpaque
 {
 nsDisplayList
 topLayerList
-(
-aBuilder
-)
 ;
 nsTArray
 <

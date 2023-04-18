@@ -479,9 +479,6 @@ aLists
 {
 nsDisplayList
 onTop
-(
-aBuilder
-)
 ;
 if
 (
