@@ -285,6 +285,15 @@ video
 -
 wrappers
 /
+primeVideo
+.
+js
+"
+"
+video
+-
+wrappers
+/
 youtube
 .
 js
