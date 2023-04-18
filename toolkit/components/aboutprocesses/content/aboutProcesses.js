@@ -3807,9 +3807,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 link
 .

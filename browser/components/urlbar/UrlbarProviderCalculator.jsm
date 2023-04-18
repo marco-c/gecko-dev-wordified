@@ -750,9 +750,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 edit
 -
