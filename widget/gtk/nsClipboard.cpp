@@ -4371,16 +4371,7 @@ _retval
 *
 _retval
 =
-mContext
-?
-mContext
--
->
-HasSelectionSupport
-(
-)
-:
-false
+true
 ;
 return
 NS_OK

@@ -606,15 +606,6 @@ aWhichClipboard
 =
 0
 ;
-virtual
-bool
-HasSelectionSupport
-(
-void
-)
-=
-0
-;
 protected
 :
 virtual
