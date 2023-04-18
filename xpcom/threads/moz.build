@@ -155,6 +155,11 @@ nsIThreadPool
 idl
 "
 "
+nsIThreadShutdown
+.
+idl
+"
+"
 nsITimer
 .
 idl
