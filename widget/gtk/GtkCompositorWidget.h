@@ -555,7 +555,7 @@ defined
 (
 MOZ_WAYLAND
 )
-void
+bool
 ConfigureWaylandBackend
 (
 RefPtr
@@ -573,7 +573,7 @@ defined
 (
 MOZ_X11
 )
-void
+bool
 ConfigureX11Backend
 (
 Window
