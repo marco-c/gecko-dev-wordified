@@ -32358,6 +32358,7 @@ ResumeFromException
 offsetOfKind
 (
 )
+)
 a0
 )
 ;
@@ -32437,7 +32438,7 @@ Assembler
 :
 :
 Equal
-r0
+a0
 Imm32
 (
 ExceptionResumeKind
@@ -32459,7 +32460,7 @@ Assembler
 :
 :
 Equal
-r0
+a0
 Imm32
 (
 ExceptionResumeKind
