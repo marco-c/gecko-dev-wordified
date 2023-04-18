@@ -508,6 +508,7 @@ enum
 SpecifierSlot
 =
 0
+AssertionSlot
 SlotCount
 }
 ;
@@ -539,6 +540,8 @@ JSContext
 cx
 HandleAtom
 specifier
+HandleArrayObject
+maybeAssertions
 )
 ;
 JSAtom
