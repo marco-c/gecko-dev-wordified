@@ -643,6 +643,9 @@ aDocumentState
 const
 Colors
 &
+const
+DPIRatio
+&
 )
 ;
 virtual

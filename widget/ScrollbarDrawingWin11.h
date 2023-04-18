@@ -202,6 +202,14 @@ Colors
 )
 override
 ;
+static
+bool
+UseOverlayStyle
+(
+nsPresContext
+*
+)
+;
 /
 /
 Returned
@@ -264,6 +272,9 @@ EventStates
 aDocumentState
 const
 Colors
+&
+const
+DPIRatio
 &
 )
 override
