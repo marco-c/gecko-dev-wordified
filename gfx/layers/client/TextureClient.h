@@ -541,6 +541,12 @@ TextureData
 class
 GPUVideoTextureData
 ;
+struct
+RawTextureBuffer
+;
+class
+RawYCbCrTextureBuffer
+;
 class
 TextureClient
 ;
