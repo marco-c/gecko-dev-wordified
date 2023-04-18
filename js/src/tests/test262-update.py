@@ -6784,7 +6784,7 @@ url
 default
 =
 "
-git
+https
 :
 /
 /
