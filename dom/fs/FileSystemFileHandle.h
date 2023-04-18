@@ -213,6 +213,14 @@ aOptions
 ;
 #
 endif
+already_AddRefed
+<
+Promise
+>
+CreateSyncAccessHandle
+(
+)
+;
 private
 :
 ~
