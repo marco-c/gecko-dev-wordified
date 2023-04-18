@@ -3807,9 +3807,6 @@ octet_count
 int64_t
 *
 ntp_timestamp_ms
-int64_t
-*
-remote_ntp_timestamp_ms
 )
 const
 {
@@ -3821,7 +3818,6 @@ RemoteRTCPSenderInfo
 packet_count
 octet_count
 ntp_timestamp_ms
-remote_ntp_timestamp_ms
 )
 ;
 }

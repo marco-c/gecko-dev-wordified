@@ -1035,6 +1035,7 @@ modification
 :
 Init
 these
+three
 .
 uint32_t
 rtcp_sender_packets_sent
@@ -1048,11 +1049,6 @@ rtcp_sender_octets_sent
 ;
 int64_t
 rtcp_sender_ntp_timestamp_ms
-=
-0
-;
-int64_t
-rtcp_sender_remote_ntp_timestamp_ms
 =
 0
 ;

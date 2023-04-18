@@ -1175,9 +1175,6 @@ octet_count
 int64_t
 *
 ntp_timestamp_ms
-int64_t
-*
-remote_ntp_timestamp_ms
 )
 const
 override
