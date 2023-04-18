@@ -251,6 +251,12 @@ InfallibleAllocPolicy
 IterImpl
 iter_
 ;
+mozilla
+:
+:
+TimeStamp
+start_
+;
 template
 <
 typename
