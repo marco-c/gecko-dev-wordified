@@ -308,8 +308,13 @@ Services
 .
 fog
 .
-testTriggerRDDMetrics
+testTriggerMetrics
 (
+Ci
+.
+nsIXULRuntime
+.
+PROCESS_TYPE_RDD
 )
 ;
 return
