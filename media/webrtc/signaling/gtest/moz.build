@@ -417,7 +417,6 @@ sdp_unittests
 .
 cpp
 "
-#
 "
 videoconduit_unittests
 .
