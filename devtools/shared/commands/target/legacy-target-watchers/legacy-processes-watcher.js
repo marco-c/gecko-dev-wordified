@@ -436,7 +436,5 @@ module
 .
 exports
 =
-{
 LegacyProcessesWatcher
-}
 ;
