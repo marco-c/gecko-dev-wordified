@@ -239,6 +239,10 @@ mWrCompositorDCompRequired
 (
 false
 )
+mWrForcePartialPresent
+(
+false
+)
 mWrPartialPresent
 (
 false
@@ -414,6 +418,9 @@ mWrDCompWinEnabled
 ;
 bool
 mWrCompositorDCompRequired
+;
+bool
+mWrForcePartialPresent
 ;
 bool
 mWrPartialPresent
