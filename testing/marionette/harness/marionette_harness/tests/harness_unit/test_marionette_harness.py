@@ -136,7 +136,7 @@ num_fails_crashed
 =
 request
 .
-getfuncargvalue
+getfixturevalue
 (
 "
 num_fails_crashed
@@ -252,7 +252,7 @@ crashed
 =
 request
 .
-getfuncargvalue
+getfixturevalue
 (
 "
 num_fails_crashed

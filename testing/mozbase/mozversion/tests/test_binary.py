@@ -83,9 +83,7 @@ selftest
 .
 fixtures
 import
-binary
-as
-real_binary
+binary_fixture
 #
 noqa
 :
@@ -114,14 +112,9 @@ pytest
 .
 fixture
 (
-name
-=
-"
-binary
-"
 )
 def
-fixure_binary
+fake_binary
 (
 tmpdir
 )
@@ -295,7 +288,7 @@ ini
 def
 test_real_binary
 (
-real_binary
+binary
 )
 :
 #
@@ -305,7 +298,7 @@ F811
     
 if
 not
-real_binary
+binary
 :
         
 pytest
@@ -323,7 +316,7 @@ v
 =
 get_version
 (
-real_binary
+binary
 )
     
 assert
@@ -335,7 +328,7 @@ dict
 def
 test_binary
 (
-binary
+fake_binary
 application_ini
 platform_ini
 )
@@ -345,7 +338,7 @@ _check_version
 (
 get_version
 (
-binary
+fake_binary
 )
 )
 pytest
@@ -379,7 +372,7 @@ platform
 def
 test_symlinked_binary
 (
-binary
+fake_binary
 application_ini
 platform_ini
 tmpdir
@@ -423,7 +416,7 @@ os
 .
 symlink
 (
-binary
+fake_binary
 symlink
 )
     
@@ -437,7 +430,7 @@ symlink
 def
 test_binary_in_current_path
 (
-binary
+fake_binary
 application_ini
 platform_ini
 tmpdir
@@ -464,7 +457,7 @@ def
 test_with_ini_files_on_osx
 (
     
-binary
+fake_binary
 application_ini
 platform_ini
 monkeypatch
@@ -503,7 +496,7 @@ get_version
 (
 binary
 =
-binary
+fake_binary
 )
 )
     
@@ -562,7 +555,7 @@ path
 .
 basename
 (
-binary
+fake_binary
 )
 )
 )
@@ -571,7 +564,7 @@ shutil
 .
 move
 (
-binary
+fake_binary
 moved_binary
 )
     
@@ -647,7 +640,7 @@ invalid
 def
 test_without_ini_files
 (
-binary
+fake_binary
 )
 :
     
@@ -680,12 +673,12 @@ AppNotFoundError
         
 get_version
 (
-binary
+fake_binary
 )
 def
 test_without_platform_ini_file
 (
-binary
+fake_binary
 application_ini
 )
 :
@@ -722,12 +715,12 @@ AppNotFoundError
         
 get_version
 (
-binary
+fake_binary
 )
 def
 test_without_application_ini_file
 (
-binary
+fake_binary
 platform_ini
 )
 :
@@ -764,7 +757,7 @@ AppNotFoundError
         
 get_version
 (
-binary
+fake_binary
 )
 def
 test_with_exe
@@ -835,7 +828,7 @@ binary
 def
 test_not_found_with_binary_specified
 (
-binary
+fake_binary
 )
 :
     
@@ -852,7 +845,7 @@ LocalAppNotFoundError
         
 get_version
 (
-binary
+fake_binary
 )
 def
 _check_version

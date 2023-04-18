@@ -85,7 +85,7 @@ selftest
 .
 fixtures
 import
-binary
+binary_fixture
 setup_test_harness
 #
 noqa
@@ -1032,7 +1032,7 @@ request
 .
 node
 .
-get_marker
+get_closest_marker
 (
 "
 skip_mozinfo

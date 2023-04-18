@@ -709,6 +709,9 @@ tuple
 )
 :
         
+try
+:
+            
 return
 param
 [
@@ -716,6 +719,13 @@ param
 ]
 .
 __name__
+        
+except
+AttributeError
+:
+            
+return
+None
     
 return
 None
