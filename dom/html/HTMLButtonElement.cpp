@@ -588,6 +588,12 @@ FormControlType
 ButtonReset
 |
 |
+HasFlag
+(
+ELEMENT_IS_DATALIST_OR_HAS_DATALIST_ANCESTOR
+)
+|
+|
 IsDisabled
 (
 )
@@ -1837,6 +1843,10 @@ rv
 rv
 )
 ;
+UpdateBarredFromConstraintValidation
+(
+)
+;
 /
 /
 Update
@@ -1876,6 +1886,10 @@ nsGenericHTMLFormControlElementWithState
 UnbindFromTree
 (
 aNullParent
+)
+;
+UpdateBarredFromConstraintValidation
+(
 )
 ;
 /

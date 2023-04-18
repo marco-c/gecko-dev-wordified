@@ -187,6 +187,11 @@ aNodeInfo
 )
 )
 {
+SetFlags
+(
+ELEMENT_IS_DATALIST_OR_HAS_DATALIST_ANCESTOR
+)
+;
 }
 /
 /
