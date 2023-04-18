@@ -1297,7 +1297,7 @@ VP8_USABLE_BUILD
 WmfDecoderModuleMarkerAndLog
 (
 "
-WMFInit
+CreateMFTDecoder
 VP8
 Failure
 "
@@ -1338,7 +1338,7 @@ UseVP8HwDecode
 WmfDecoderModuleMarkerAndLog
 (
 "
-WMFInit
+CreateMFTDecoder
 VP8
 Failure
 "
@@ -1374,7 +1374,7 @@ sDXVAEnabled
 WmfDecoderModuleMarkerAndLog
 (
 "
-WMFInit
+CreateMFTDecoder
 VPx
 Disabled
 "
@@ -1414,7 +1414,7 @@ Crashed
 WmfDecoderModuleMarkerAndLog
 (
 "
-WMFInit
+CreateMFTDecoder
 VPx
 Failure
 "
@@ -1512,7 +1512,7 @@ sDXVAEnabled
 WmfDecoderModuleMarkerAndLog
 (
 "
-WMFInit
+CreateMFTDecoder
 AV1
 Disabled
 "
