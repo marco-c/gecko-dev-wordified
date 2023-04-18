@@ -8775,7 +8775,6 @@ From
 (
 ycbcr_bias
 rgb_from_debiased_ycbcr
-rescaleFactor
 )
 ;
 auto
@@ -9283,7 +9282,6 @@ From
 (
 ycbcr_bias
 rgb_from_debiased_ycbcr
-rescaleFactor
 )
 ;
 auto
@@ -9754,7 +9752,6 @@ From
 (
 ycbcr_bias
 rgb_from_debiased_ycbcr
-rescaleFactor
 )
 ;
 for
@@ -10722,7 +10719,6 @@ From
 (
 ycbcr_bias
 rgb_from_debiased_ycbcr
-rescaleFactor
 )
 ;
 linear_row_yuv
