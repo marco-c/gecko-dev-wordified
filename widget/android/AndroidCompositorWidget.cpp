@@ -193,8 +193,11 @@ WINDOW_FORMAT_RGBA_8888
 )
 mClientSize
 (
-0
-0
+aInitData
+.
+clientSize
+(
+)
 )
 {
 }

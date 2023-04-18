@@ -16487,6 +16487,9 @@ widget
 AndroidCompositorWidgetInitData
 (
 mWidgetId
+GetClientSize
+(
+)
 )
 ;
 }
