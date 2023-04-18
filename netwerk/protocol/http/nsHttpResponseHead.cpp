@@ -1153,6 +1153,7 @@ nsACString
 &
 v
 )
+const
 {
 v
 .
@@ -7873,6 +7874,7 @@ nsACString
 &
 aOutput
 )
+const
 {
 aOutput
 .

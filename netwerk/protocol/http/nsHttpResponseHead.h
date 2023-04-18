@@ -615,6 +615,7 @@ nsACString
 &
 v
 )
+const
 ;
 void
 ClearHeader
@@ -1151,6 +1152,7 @@ nsACString
 &
 aOutput
 )
+const
 ;
 private
 :
