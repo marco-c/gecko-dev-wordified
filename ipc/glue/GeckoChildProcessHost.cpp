@@ -1129,8 +1129,8 @@ SprintfLiteral
 mPidString
 "
 %
-d
 "
+PRIPID
 base
 :
 :

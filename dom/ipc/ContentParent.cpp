@@ -27352,11 +27352,11 @@ process
 pid
 =
 %
-d
+"
+PRIPID
+"
 crashed
 without
-"
-"
 leaving
 a
 minidump
