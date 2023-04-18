@@ -264,6 +264,9 @@ HTTPS
 First
 Mode
 :
+Upgrading
+insecure
+request
 "
 )
 )
