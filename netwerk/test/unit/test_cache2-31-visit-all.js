@@ -277,9 +277,9 @@ lcis
 user
 Context
 3
-get_cache_service
-(
-)
+Services
+.
+cache2
 .
 asyncVisitAllStorages
 (
@@ -303,9 +303,9 @@ function
 (
 )
 {
-get_cache_service
-(
-)
+Services
+.
+cache2
 .
 asyncVisitAllStorages
 (
