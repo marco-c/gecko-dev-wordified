@@ -25816,7 +25816,7 @@ multilingual
 .
 liveReload
 "
-false
+true
 )
 ;
 pref
@@ -25842,7 +25842,7 @@ aboutWelcome
 .
 languageMismatchEnabled
 "
-false
+true
 )
 ;
 #
