@@ -4365,6 +4365,14 @@ ErrorResult
 aRv
 )
 ;
+void
+ShowPicker
+(
+ErrorResult
+&
+aRv
+)
+;
 bool
 WebkitDirectoryAttr
 (
