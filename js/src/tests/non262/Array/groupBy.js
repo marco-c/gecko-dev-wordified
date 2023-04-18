@@ -184,6 +184,16 @@ pos
 '
 )
 ;
+assertEq
+(
+Object
+.
+getPrototypeOf
+(
+groupedArray
+)
+null
+)
 assertDeepEq
 (
 groupedArray
