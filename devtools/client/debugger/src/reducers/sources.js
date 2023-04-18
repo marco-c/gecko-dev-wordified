@@ -225,6 +225,9 @@ getAllThreads
 from
 "
 .
+.
+/
+selectors
 /
 threads
 "
