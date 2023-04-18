@@ -170,6 +170,11 @@ gfx
 VsyncBridgeChild
 VsyncBridgeChild
 ;
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+CompositorWidgetVsyncObserver
+override
+)
 public
 :
 CompositorWidgetVsyncObserver
@@ -200,6 +205,12 @@ override
 ;
 private
 :
+~
+CompositorWidgetVsyncObserver
+(
+)
+override
+;
 RefPtr
 <
 VsyncBridgeChild
