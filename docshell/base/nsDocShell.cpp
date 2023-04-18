@@ -71979,7 +71979,7 @@ browser_history_collectWireframes
 mBrowsingContext
 -
 >
-IsTop
+IsTopContent
 (
 )
 &
