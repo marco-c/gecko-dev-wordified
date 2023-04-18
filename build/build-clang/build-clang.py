@@ -6397,6 +6397,23 @@ projects
 libcxxabi
 "
 )
+        
+(
+source_dir
++
+"
+/
+cmake
+"
+llvm_source_dir
++
+"
+/
+projects
+/
+cmake
+"
+)
     
 ]
     
