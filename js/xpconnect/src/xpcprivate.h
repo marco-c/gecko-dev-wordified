@@ -4312,8 +4312,11 @@ SweepPolicy
 {
 static
 bool
-needsSweep
+traceWeak
 (
+JSTracer
+*
+trc
 RefPtr
 <
 mozilla
@@ -4356,8 +4359,9 @@ JSObject
 >
 :
 :
-needsSweep
+traceWeak
 (
+trc
 value
 )
 ;
@@ -6080,6 +6084,9 @@ SweepAllWrappedNativeTearOffs
 void
 UpdateWeakPointersAfterGC
 (
+JSTracer
+*
+trc
 )
 ;
 static
@@ -18574,6 +18581,9 @@ get
 void
 UpdateWeakPointersAfterGC
 (
+JSTracer
+*
+trc
 )
 ;
 void
@@ -18596,8 +18606,11 @@ SweepPolicy
 {
 static
 bool
-needsSweep
+traceWeak
 (
+JSTracer
+*
+trc
 const
 void
 *
@@ -18635,8 +18648,9 @@ JSObject
 >
 :
 :
-needsSweep
+traceWeak
 (
+trc
 value
 )
 ;
