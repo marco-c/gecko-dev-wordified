@@ -1386,6 +1386,15 @@ str
 ]
 =
 None
+        
+virtualenv_name
+:
+Optional
+[
+str
+]
+=
+None
     
 )
 :
@@ -1400,15 +1409,22 @@ _MachCommand
 name
 =
 command
+            
 subcommand
 =
 subcommand
+            
 description
 =
 description
+            
 parser
 =
 parser
+            
+virtualenv_name
+=
+virtualenv_name
         
 )
         
