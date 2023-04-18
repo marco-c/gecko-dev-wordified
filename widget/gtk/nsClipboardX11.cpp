@@ -1773,7 +1773,7 @@ GdkAtom
 nsRetrievalContextX11
 :
 :
-GetTargetsImpl
+GetTargets
 (
 int32_t
 aWhichClipboard
@@ -1788,7 +1788,7 @@ LOGCLIP
 nsRetrievalContextX11
 :
 :
-GetTargetsImpl
+GetTargets
 (
 %
 s
