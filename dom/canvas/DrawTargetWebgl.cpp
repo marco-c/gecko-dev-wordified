@@ -14251,7 +14251,7 @@ pattern
 aPattern
 -
 >
-Clone
+CloneWeak
 (
 )
 ;
