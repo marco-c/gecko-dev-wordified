@@ -1828,7 +1828,10 @@ static
 uint32_t
 Predictor5_NEON
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1840,6 +1843,7 @@ top
 return
 Average3_NEON
 (
+*
 left
 top
 [
@@ -1856,7 +1860,10 @@ static
 uint32_t
 Predictor6_NEON
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1868,6 +1875,7 @@ top
 return
 Average2_NEON
 (
+*
 left
 top
 [
@@ -1881,7 +1889,10 @@ static
 uint32_t
 Predictor7_NEON
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1893,6 +1904,7 @@ top
 return
 Average2_NEON
 (
+*
 left
 top
 [
@@ -1905,7 +1917,10 @@ static
 uint32_t
 Predictor13_NEON
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1917,6 +1932,7 @@ top
 return
 ClampedAddSubtractHalf_NEON
 (
+*
 left
 top
 [

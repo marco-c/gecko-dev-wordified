@@ -1161,7 +1161,10 @@ Predictors
 uint32_t
 VP8LPredictor0_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1187,7 +1190,10 @@ ARGB_BLACK
 uint32_t
 VP8LPredictor1_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1202,13 +1208,17 @@ void
 top
 ;
 return
+*
 left
 ;
 }
 uint32_t
 VP8LPredictor2_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1232,7 +1242,10 @@ top
 uint32_t
 VP8LPredictor3_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1256,7 +1269,10 @@ top
 uint32_t
 VP8LPredictor4_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1281,7 +1297,10 @@ top
 uint32_t
 VP8LPredictor5_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1296,6 +1315,7 @@ pred
 =
 Average3
 (
+*
 left
 top
 [
@@ -1314,7 +1334,10 @@ pred
 uint32_t
 VP8LPredictor6_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1329,6 +1352,7 @@ pred
 =
 Average2
 (
+*
 left
 top
 [
@@ -1344,7 +1368,10 @@ pred
 uint32_t
 VP8LPredictor7_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1359,6 +1386,7 @@ pred
 =
 Average2
 (
+*
 left
 top
 [
@@ -1373,7 +1401,10 @@ pred
 uint32_t
 VP8LPredictor8_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1411,7 +1442,10 @@ pred
 uint32_t
 VP8LPredictor9_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1448,7 +1482,10 @@ pred
 uint32_t
 VP8LPredictor10_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1463,6 +1500,7 @@ pred
 =
 Average4
 (
+*
 left
 top
 [
@@ -1486,7 +1524,10 @@ pred
 uint32_t
 VP8LPredictor11_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1505,6 +1546,7 @@ top
 [
 0
 ]
+*
 left
 top
 [
@@ -1520,7 +1562,10 @@ pred
 uint32_t
 VP8LPredictor12_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1535,6 +1580,7 @@ pred
 =
 ClampedAddSubtractFull
 (
+*
 left
 top
 [
@@ -1554,7 +1600,10 @@ pred
 uint32_t
 VP8LPredictor13_C
 (
+const
 uint32_t
+*
+const
 left
 const
 uint32_t
@@ -1569,6 +1618,7 @@ pred
 =
 ClampedAddSubtractHalf
 (
+*
 left
 top
 [

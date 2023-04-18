@@ -1678,6 +1678,7 @@ pred
 PREDICTOR
 )
 (
+&
 out
 [
 x
