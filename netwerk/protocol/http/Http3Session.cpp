@@ -9114,7 +9114,7 @@ HasStreamId
 mHttp3Connection
 -
 >
-ResetStream
+CancelFetch
 (
 aStream
 -
