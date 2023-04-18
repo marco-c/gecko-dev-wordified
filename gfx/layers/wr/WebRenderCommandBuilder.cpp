@@ -661,7 +661,7 @@ by
 the
 frame
 property
-IntRect
+LayerIntRect
 mRect
 ;
 /
@@ -2046,7 +2046,7 @@ BlobItemData
 >
 mDisplayItems
 ;
-IntRect
+LayerIntRect
 mInvalidRect
 ;
 nsRect
@@ -2116,10 +2116,10 @@ is
 contained
 in
 mPreservedRect
-IntRect
+LayerIntRect
 mPreservedRect
 ;
-IntRect
+LayerIntRect
 mActualBounds
 ;
 int32_t
@@ -2171,7 +2171,7 @@ item
 being
 processed
 .
-IntRect
+LayerIntRect
 mClippedImageBounds
 ;
 /
@@ -2232,7 +2232,7 @@ void
 InvalidateRect
 (
 const
-IntRect
+LayerIntRect
 &
 aRect
 )
@@ -2274,7 +2274,7 @@ r
 ;
 }
 }
-IntRect
+LayerIntRect
 ItemBounds
 (
 nsDisplayItem
@@ -2415,7 +2415,7 @@ clear
 ;
 }
 static
-IntRect
+LayerIntRect
 ToDeviceSpace
 (
 nsRect
@@ -2456,12 +2456,17 @@ IsEmpty
 )
 {
 return
-IntRect
+LayerIntRect
 (
 )
 ;
 }
 return
+LayerIntRect
+:
+:
+FromUnknownRect
+(
 RoundedOut
 (
 aMatrix
@@ -2477,6 +2482,7 @@ RectToGfxRect
 (
 aBounds
 aAppUnitsPerDevPixel
+)
 )
 )
 )
@@ -2831,7 +2837,7 @@ move
 geometry
 )
 ;
-IntRect
+LayerIntRect
 transformedRect
 =
 ToDeviceSpace
@@ -3180,7 +3186,7 @@ have
 /
 no
 transform
-IntRect
+LayerIntRect
 transformedRect
 =
 ToDeviceSpace
@@ -3425,7 +3431,7 @@ ComputeInvalidationRegion
 )
 )
 ;
-IntRect
+LayerIntRect
 transformedRect
 =
 ToDeviceSpace
@@ -3590,7 +3596,7 @@ ComputeInvalidationRegion
 )
 )
 ;
-IntRect
+LayerIntRect
 transformedRect
 =
 ToDeviceSpace
@@ -3775,7 +3781,7 @@ move
 geometry
 )
 ;
-IntRect
+LayerIntRect
 transformedRect
 =
 ToDeviceSpace
@@ -3851,7 +3857,7 @@ ComputeInvalidationRegion
 )
 )
 ;
-IntRect
+LayerIntRect
 transformedRect
 =
 ToDeviceSpace
@@ -4018,7 +4024,7 @@ ComputeInvalidationRegion
 )
 )
 ;
-IntRect
+LayerIntRect
 transformedRect
 =
 ToDeviceSpace
@@ -5300,6 +5306,10 @@ ImagePixel
 >
 (
 mInvalidRect
+PixelCastJustification
+:
+:
+LayerIsImage
 )
 ;
 auto
@@ -5784,7 +5794,7 @@ GetBlobItemData
 item
 )
 ;
-IntRect
+LayerIntRect
 bounds
 =
 data
@@ -6246,6 +6256,10 @@ this
 item
 data
 bounds
+.
+ToUnknownRect
+(
+)
 dirty
 children
 aContext
@@ -6493,6 +6507,10 @@ GetDrawTarget
 FlushItem
 (
 bounds
+.
+ToUnknownRect
+(
+)
 )
 ;
 }
@@ -9386,10 +9404,6 @@ mFollowingGroup
 .
 mLastVisibleRect
 )
-.
-ToUnknownRect
-(
-)
 ;
 groupData
 -
@@ -9398,7 +9412,7 @@ mFollowingGroup
 .
 mActualBounds
 =
-IntRect
+LayerIntRect
 (
 )
 ;
@@ -9850,7 +9864,7 @@ corresponding
 clipping
 items
 .
-IntRect
+auto
 oldClippedImageBounds
 =
 aGroup
@@ -11477,7 +11491,7 @@ group
 .
 mActualBounds
 =
-IntRect
+LayerIntRect
 (
 )
 ;
@@ -11495,10 +11509,6 @@ group
 .
 mLastVisibleRect
 )
-.
-ToUnknownRect
-(
-)
 ;
 group
 .
@@ -11511,10 +11521,6 @@ group
 mClippedImageBounds
 =
 layerBounds
-.
-ToUnknownRect
-(
-)
 ;
 g
 .
