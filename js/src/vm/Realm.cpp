@@ -2110,6 +2110,9 @@ ObjectRealm
 :
 sweepAfterMinorGC
 (
+JSTracer
+*
+trc
 )
 {
 InnerViewTable
@@ -2135,6 +2138,7 @@ table
 .
 sweepAfterMinorGC
 (
+trc
 )
 ;
 }
@@ -2145,6 +2149,9 @@ Realm
 :
 sweepAfterMinorGC
 (
+JSTracer
+*
+trc
 )
 {
 globalWriteBarriered
@@ -2161,6 +2168,7 @@ objects_
 .
 sweepAfterMinorGC
 (
+trc
 )
 ;
 }

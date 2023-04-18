@@ -3635,6 +3635,7 @@ r
 >
 sweepAfterMinorGC
 (
+trc
 )
 ;
 }
