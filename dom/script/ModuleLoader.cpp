@@ -617,11 +617,17 @@ ModuleLoader
 ScriptLoader
 *
 aLoader
+Kind
+aKind
 )
 :
 ModuleLoaderBase
 (
 aLoader
+)
+mKind
+(
+aKind
 )
 {
 }
