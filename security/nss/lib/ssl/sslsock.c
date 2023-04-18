@@ -400,7 +400,7 @@ PR_TRUE
 .
 reuseServerECDHEKey
 =
-PR_TRUE
+PR_FALSE
 .
 enableFallbackSCSV
 =
@@ -23882,12 +23882,6 @@ size
 0
 )
 {
-exit
-(
--
-1
-)
-;
 return
 SECFailure
 ;

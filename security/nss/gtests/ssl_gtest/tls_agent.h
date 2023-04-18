@@ -1434,7 +1434,7 @@ groups
 )
 ;
 void
-DisableECDHEServerKeyReuse
+EnableECDHEServerKeyReuse
 (
 )
 ;

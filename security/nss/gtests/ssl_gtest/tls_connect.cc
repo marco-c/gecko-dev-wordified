@@ -5920,14 +5920,14 @@ void
 TlsConnectTestBase
 :
 :
-DisableECDHEServerKeyReuse
+EnableECDHEServerKeyReuse
 (
 )
 {
 server_
 -
 >
-DisableECDHEServerKeyReuse
+EnableECDHEServerKeyReuse
 (
 )
 ;

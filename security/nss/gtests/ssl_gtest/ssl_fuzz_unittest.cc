@@ -375,10 +375,6 @@ RESUME_NONE
 RESUME_NONE
 )
 ;
-DisableECDHEServerKeyReuse
-(
-)
-;
 /
 /
 Reset
@@ -457,10 +453,6 @@ ConfigureSessionCache
 (
 RESUME_NONE
 RESUME_NONE
-)
-;
-DisableECDHEServerKeyReuse
-(
 )
 ;
 /
@@ -635,10 +627,6 @@ ConfigureSessionCache
 (
 RESUME_NONE
 RESUME_NONE
-)
-;
-DisableECDHEServerKeyReuse
-(
 )
 ;
 DataBuffer

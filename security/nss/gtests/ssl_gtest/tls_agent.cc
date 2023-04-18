@@ -7400,7 +7400,7 @@ void
 TlsAgent
 :
 :
-DisableECDHEServerKeyReuse
+EnableECDHEServerKeyReuse
 (
 )
 {
@@ -7416,7 +7416,7 @@ role_
 SetOption
 (
 SSL_REUSE_SERVER_ECDHE_KEY
-PR_FALSE
+PR_TRUE
 )
 ;
 }

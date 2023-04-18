@@ -698,11 +698,6 @@ len
 )
 )
 {
-PR_ASSERT
-(
-false
-)
-;
 PR_SetError
 (
 PR_BUFFER_OVERFLOW_ERROR

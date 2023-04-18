@@ -1511,7 +1511,7 @@ time
 SSL_REUSE_SERVER_ECDHE_KEY
 is
 currently
-enabled
+disabled
 by
 default
 .
