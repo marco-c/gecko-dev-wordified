@@ -189,6 +189,14 @@ nsIWebVTTParserWrapper
 namespace
 mozilla
 {
+template
+<
+typename
+T
+>
+class
+Maybe
+;
 namespace
 dom
 {
@@ -204,7 +212,10 @@ HTMLMediaElement
 *
 mMediaElement
 ;
-int32_t
+Maybe
+<
+uint32_t
+>
 TrackChildPosition
 (
 TextTrack
