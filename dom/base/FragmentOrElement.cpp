@@ -1693,12 +1693,8 @@ body
 >
 if
 (
-doc
--
->
-HasFlag
+IsInDesignMode
 (
-NODE_IS_EDITABLE
 )
 &
 &

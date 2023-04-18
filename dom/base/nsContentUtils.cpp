@@ -44456,9 +44456,8 @@ GetExtantDoc
 )
 -
 >
-HasFlag
+IsInDesignMode
 (
-NODE_IS_EDITABLE
 )
 )
 {
