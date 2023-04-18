@@ -1285,6 +1285,13 @@ getSettings
 getFullAccessibilityTree
 (
 )
+|
+|
+nativeProvider
+.
+isCacheEnabled
+(
+)
 ?
 getNodeFromGecko
 (
