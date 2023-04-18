@@ -518,9 +518,6 @@ bool
 spectreJitToCxxCalls
 ;
 bool
-supportsFloatingPoint
-;
-bool
 supportsUnalignedAccesses
 ;
 DefaultJitOptions
@@ -630,11 +627,6 @@ HasJitBackend
 JitOptions
 .
 baselineInterpreter
-&
-&
-JitOptions
-.
-supportsFloatingPoint
 ;
 }
 }
