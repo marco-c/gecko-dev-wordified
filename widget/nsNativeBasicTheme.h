@@ -1418,6 +1418,7 @@ ComputeCheckboxColors
 const
 EventStates
 &
+StyleAppearance
 const
 Colors
 &
