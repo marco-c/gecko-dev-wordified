@@ -61,9 +61,10 @@ jsm
 let
 sendTriggerMessageSpy
 ;
-add_setup
+add_task
 (
 function
+setup
 (
 )
 {

@@ -88,10 +88,11 @@ by
 the
 profile
 service
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

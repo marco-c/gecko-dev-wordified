@@ -266,10 +266,11 @@ expectedEngineAlias
 let
 expectedIconURL
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

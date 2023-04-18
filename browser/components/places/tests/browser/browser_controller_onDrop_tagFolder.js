@@ -107,10 +107,11 @@ bookmarks
 var
 bookmarkId
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

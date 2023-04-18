@@ -221,10 +221,11 @@ sender
 let
 spy
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

@@ -88,10 +88,11 @@ block_cookies
 enabled
 "
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

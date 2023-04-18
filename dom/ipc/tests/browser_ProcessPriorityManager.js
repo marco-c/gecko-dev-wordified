@@ -1227,10 +1227,11 @@ priority
 let
 gTabPriorityWatcher
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

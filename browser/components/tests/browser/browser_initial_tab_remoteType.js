@@ -559,10 +559,11 @@ STATE_INITIAL_LAUNCH
 )
 ;
 }
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

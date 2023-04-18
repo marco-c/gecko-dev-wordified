@@ -369,10 +369,11 @@ TELEMETRY_TEST_UTILS_OPTIONS
 )
 ;
 }
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

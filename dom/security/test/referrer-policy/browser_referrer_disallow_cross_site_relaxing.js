@@ -977,10 +977,11 @@ REFERRER_NONE
 }
 ]
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

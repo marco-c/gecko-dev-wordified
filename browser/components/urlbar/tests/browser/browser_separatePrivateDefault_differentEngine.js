@@ -87,10 +87,11 @@ gAliasEngine
 let
 gPrivateEngine
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

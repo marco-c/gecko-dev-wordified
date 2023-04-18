@@ -161,9 +161,10 @@ await
 hiddenPromise
 ;
 }
-add_setup
+add_task
 (
 function
+setup
 (
 )
 {

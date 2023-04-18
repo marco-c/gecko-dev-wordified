@@ -23,10 +23,11 @@ file_assert_systemprincipal_documents
 html
 "
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

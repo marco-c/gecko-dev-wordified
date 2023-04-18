@@ -121,10 +121,11 @@ schema
 let
 tabInSecondWindow
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

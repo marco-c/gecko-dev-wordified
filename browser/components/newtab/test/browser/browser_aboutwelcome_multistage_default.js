@@ -3440,10 +3440,11 @@ DID_SEE_ABOUT_WELCOME_PREF
 }
 )
 ;
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {

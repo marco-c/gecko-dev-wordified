@@ -267,10 +267,11 @@ windows
 [
 10
 ]
-add_setup
+add_task
 (
 async
 function
+setup
 (
 )
 {
