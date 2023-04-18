@@ -861,12 +861,6 @@ static
 bool
 inWayland
 =
-mozilla
-:
-:
-widget
-:
-:
 GdkIsWaylandDisplay
 (
 )
