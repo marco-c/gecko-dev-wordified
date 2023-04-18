@@ -1311,6 +1311,9 @@ targetCommand
 .
 unwatchTargets
 (
+{
+types
+:
 [
 targetCommand
 .
@@ -1319,6 +1322,7 @@ TYPES
 WORKER
 ]
 onAvailable
+}
 )
 ;
 resolve
@@ -1332,6 +1336,9 @@ targetCommand
 .
 watchTargets
 (
+{
+types
+:
 [
 targetCommand
 .
@@ -1340,6 +1347,7 @@ TYPES
 WORKER
 ]
 onAvailable
+}
 )
 ;
 }
