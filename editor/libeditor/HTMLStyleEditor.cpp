@@ -6581,10 +6581,13 @@ eAllowToCreateEmptyContainer
 ;
 if
 (
+MOZ_UNLIKELY
+(
 splitNodeResult
 .
 Failed
 (
+)
 )
 )
 {
