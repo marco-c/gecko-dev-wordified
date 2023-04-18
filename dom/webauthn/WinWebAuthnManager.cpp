@@ -2513,6 +2513,17 @@ WEBAUTHN_ATTESTATION_CONVEYANCE_PREFERENCE_NONE
 /
 Zero
 AAGuid
+const
+uint8_t
+zeroGuid
+[
+16
+]
+=
+{
+0
+}
+;
 authenticatorData
 .
 ReplaceElementsAt
@@ -2529,7 +2540,8 @@ offset
 *
 /
 16
-0x0
+zeroGuid
+16
 )
 ;
 CryptoBuffer
