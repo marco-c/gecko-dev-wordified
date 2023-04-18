@@ -9531,9 +9531,9 @@ NetworkInformation
 insecureContext
 :
 true
-desktop
+disabled
 :
-false
+true
 }
 /
 /
