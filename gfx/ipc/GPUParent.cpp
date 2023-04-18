@@ -599,6 +599,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsThreadManager
 .
 h
@@ -4502,7 +4509,10 @@ a_counter
 .
 Add
 (
-45326
+nsIXULRuntime
+:
+:
+PROCESS_TYPE_GPU
 )
 ;
 aResolve
