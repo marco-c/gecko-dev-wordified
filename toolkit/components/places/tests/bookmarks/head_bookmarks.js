@@ -779,6 +779,11 @@ parentGuid
 event
 .
 parentGuid
+tags
+:
+event
+.
+tags
 lastModified
 :
 new
