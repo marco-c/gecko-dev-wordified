@@ -9072,6 +9072,11 @@ nsPoint
 aPrevLayoutScrollPos
 )
 ;
+void
+ResetVisualViewportOffset
+(
+)
+;
 nsPoint
 GetVisualViewportOffset
 (
