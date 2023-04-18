@@ -4002,10 +4002,9 @@ else
 {
 event
 .
-sendKeysToElement
+sendKeys
 (
 value
-el
 win
 )
 ;
@@ -4194,10 +4193,9 @@ focus
 ;
 event
 .
-sendKeysToElement
+sendKeys
 (
 value
-el
 win
 )
 ;
