@@ -169,8 +169,11 @@ aRv
 ;
 private
 :
+explicit
 ConnectionWorker
 (
+bool
+aShouldResistFingerprinting
 )
 ;
 ~
