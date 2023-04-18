@@ -343,7 +343,7 @@ None
                 
 logging
 .
-warn
+warning
 (
 '
 Command
