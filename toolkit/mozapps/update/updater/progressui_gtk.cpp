@@ -115,13 +115,6 @@ MPL
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 gtk
 /
 gtk
