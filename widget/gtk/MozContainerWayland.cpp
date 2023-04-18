@@ -11,7 +11,7 @@ tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -41,11 +41,11 @@ expandtab
 :
 shiftwidth
 =
-4
+2
 :
 tabstop
 =
-4
+2
 :
 *
 /
@@ -1640,6 +1640,12 @@ wl_container
 -
 >
 ready_to_draw
+&
+&
+wl_container
+-
+>
+surface
 )
 {
 initial_draw_cb
