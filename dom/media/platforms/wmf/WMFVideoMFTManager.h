@@ -398,6 +398,8 @@ aInputType
 IMFMediaType
 *
 aOutputType
+float
+aFramerate
 )
 ;
 /
