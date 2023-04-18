@@ -5547,6 +5547,8 @@ expansions
 then
 we
 can
+use
+the
 fast
 path
 .
