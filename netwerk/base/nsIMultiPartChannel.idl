@@ -125,6 +125,7 @@ MultiPartChannel
 /
 [
 scriptable
+builtinclass
 uuid
 (
 4fefb490
@@ -186,6 +187,14 @@ readonly
 attribute
 uint32_t
 partID
+;
+[
+noscript
+]
+readonly
+attribute
+boolean
+isFirstPart
 ;
 /
 *

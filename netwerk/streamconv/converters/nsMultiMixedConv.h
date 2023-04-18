@@ -281,6 +281,8 @@ nsIChannel
 aMultipartChannel
 uint32_t
 aPartID
+bool
+aIsFirstPart
 nsIStreamListener
 *
 aListener
@@ -522,6 +524,9 @@ of
 the
 multipart
 document
+bool
+mIsFirstPart
+;
 bool
 mIsLastPart
 {
