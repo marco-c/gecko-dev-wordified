@@ -50082,7 +50082,10 @@ issues
 4437
 if
 (
-GdkIsWaylandDisplay
+innerMostWindow
+-
+>
+IsWaylandPopup
 (
 )
 )
@@ -50682,7 +50685,10 @@ issues
 4437
 if
 (
-GdkIsWaylandDisplay
+innerMostWindow
+-
+>
+IsWaylandPopup
 (
 )
 )
