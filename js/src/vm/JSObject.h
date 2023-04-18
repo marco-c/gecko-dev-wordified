@@ -7110,7 +7110,7 @@ if
 (
 vp
 .
-isObject
+hasObjectPayload
 (
 )
 )
@@ -7119,7 +7119,7 @@ return
 &
 vp
 .
-toObject
+getObjectPayload
 (
 )
 ;
@@ -7157,7 +7157,7 @@ if
 (
 vp
 .
-isObject
+hasObjectPayload
 (
 )
 )
@@ -7166,7 +7166,7 @@ return
 &
 vp
 .
-toObject
+getObjectPayload
 (
 )
 ;
@@ -7204,7 +7204,7 @@ if
 (
 vp
 .
-isObject
+hasObjectPayload
 (
 )
 )
@@ -7213,7 +7213,7 @@ return
 &
 vp
 .
-toObject
+getObjectPayload
 (
 )
 ;
