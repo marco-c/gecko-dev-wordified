@@ -2133,9 +2133,6 @@ queryCommonReferrer
 context
 .
 url
-context
-.
-referrerUrl
 )
 ;
 await
