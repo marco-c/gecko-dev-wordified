@@ -295,8 +295,6 @@ uint32_t
 aOffset
 )
 const
-=
-0
 ;
 /
 *
@@ -427,8 +425,6 @@ aInvalidateAfter
 false
 )
 const
-=
-0
 ;
 /
 *
