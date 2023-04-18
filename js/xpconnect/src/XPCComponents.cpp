@@ -9896,6 +9896,10 @@ nsJSContext
 :
 CycleCollectNow
 (
+CCReason
+:
+:
+API
 listener
 )
 ;
