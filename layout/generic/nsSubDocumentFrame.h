@@ -834,6 +834,11 @@ uint32_t
 aFlags
 )
 ;
+nsRect
+GetDestRect
+(
+)
+;
 mozilla
 :
 :
