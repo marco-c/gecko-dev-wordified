@@ -2592,7 +2592,7 @@ if
 opaque
 )
 {
-FFMPEG_LOG
+FFMPEG_LOGV
 (
 "
 ReleaseVideoBufferWrapper
@@ -3686,7 +3686,7 @@ ColorRange
 :
 LIMITED
 ;
-FFMPEG_LOG
+FFMPEG_LOGV
 (
 "
 Created
@@ -3826,7 +3826,7 @@ int
 aFlags
 )
 {
-FFMPEG_LOG
+FFMPEG_LOGV
 (
 "
 GetVideoBuffer
