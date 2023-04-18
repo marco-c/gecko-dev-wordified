@@ -1054,6 +1054,11 @@ nullptr
 /
 strong
 bool
+mIsIsolatingVideo
+=
+false
+;
+bool
 mMutatedLayerStructure
 =
 false
