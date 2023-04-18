@@ -4650,12 +4650,6 @@ mIsBackground
 /
 Audio
 API
-SuspendTypes
-GetMediaSuspend
-(
-)
-const
-;
 bool
 GetAudioMuted
 (
