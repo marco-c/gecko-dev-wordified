@@ -1348,15 +1348,15 @@ aText
 proxy
 -
 >
-GetTextAtOffset
+TextAtOffset
 (
 aOffset
 aBoundaryType
-autoStr
 &
 startOffset
 &
 endOffset
+autoStr
 )
 ;
 }
