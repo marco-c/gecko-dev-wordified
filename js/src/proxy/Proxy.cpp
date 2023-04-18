@@ -6590,10 +6590,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 ProxyObject
 :

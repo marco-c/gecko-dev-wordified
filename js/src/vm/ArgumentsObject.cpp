@@ -7432,10 +7432,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 ArgumentsObject
 :
@@ -7645,10 +7641,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /

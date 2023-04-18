@@ -1220,10 +1220,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 nullptr
 /

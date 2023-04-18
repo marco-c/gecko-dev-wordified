@@ -761,10 +761,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 FinalizationRegistrationsObject
 :
@@ -1431,10 +1427,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /
@@ -4302,10 +4294,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /

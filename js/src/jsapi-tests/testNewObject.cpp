@@ -908,10 +908,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 constructHook
 /
 /
@@ -1274,10 +1270,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /

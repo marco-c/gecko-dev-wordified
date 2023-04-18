@@ -442,10 +442,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 CallTraceMethod
 <

@@ -3595,10 +3595,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 JS_GlobalObjectTraceHook
 /

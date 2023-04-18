@@ -6086,10 +6086,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 ArrayBufferViewObject
 :

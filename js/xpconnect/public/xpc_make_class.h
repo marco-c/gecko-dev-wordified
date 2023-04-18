@@ -593,15 +593,6 @@ nullptr
 \
 /
 *
-hasInstance
-*
-/
-\
-nullptr
-\
-\
-/
-*
 construct
 *
 /

@@ -2104,10 +2104,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 ForOfPIC_traceObject
 /

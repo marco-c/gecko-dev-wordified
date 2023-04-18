@@ -618,10 +618,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 DebugScriptObject
 :

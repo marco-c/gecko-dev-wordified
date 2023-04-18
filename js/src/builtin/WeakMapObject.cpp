@@ -2007,10 +2007,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 WeakCollection_trace
 /

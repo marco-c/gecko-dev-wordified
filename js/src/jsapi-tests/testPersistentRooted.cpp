@@ -206,10 +206,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 BarkWhenTracedClass
 :

@@ -3631,10 +3631,6 @@ ConstructAbstract
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 ConstructAbstract
 /
 /
@@ -3751,10 +3747,6 @@ ConstructData
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 CType
 :
 :
@@ -3834,10 +3826,6 @@ Call
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 FunctionType
 :
 :
@@ -3911,10 +3899,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /
@@ -4052,10 +4036,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /
@@ -5154,10 +5134,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /

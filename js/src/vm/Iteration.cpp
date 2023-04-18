@@ -8164,10 +8164,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 trace
 /

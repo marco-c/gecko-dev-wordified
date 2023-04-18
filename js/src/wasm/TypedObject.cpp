@@ -479,10 +479,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 RttValue
 :
@@ -4484,13 +4480,6 @@ nullptr
 /
 *
 call
-*
-/
-\
-nullptr
-/
-*
-hasInstance
 *
 /
 \

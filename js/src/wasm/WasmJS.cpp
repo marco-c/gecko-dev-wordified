@@ -9120,10 +9120,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 nullptr
 /
@@ -12598,10 +12594,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /
@@ -18249,10 +18241,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 nullptr
 /
@@ -20933,10 +20921,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /
@@ -23738,10 +23722,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 WasmGlobalObject
 :
@@ -25368,10 +25348,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 nullptr
 /
@@ -26310,10 +26286,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /
@@ -34487,10 +34459,6 @@ nullptr
 /
 /
 call
-nullptr
-/
-/
-hasInstance
 nullptr
 /
 /

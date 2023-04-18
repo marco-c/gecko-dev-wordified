@@ -7207,10 +7207,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 fun_trace
 /

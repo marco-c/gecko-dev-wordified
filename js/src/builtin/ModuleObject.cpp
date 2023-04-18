@@ -5427,10 +5427,6 @@ call
 nullptr
 /
 /
-hasInstance
-nullptr
-/
-/
 construct
 ModuleObject
 :
