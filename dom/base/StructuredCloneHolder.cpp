@@ -7252,10 +7252,11 @@ canvas
 ;
 if
 (
+!
 canvas
 -
 >
-IsNeutered
+MayNeuter
 (
 )
 )
