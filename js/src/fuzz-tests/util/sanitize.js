@@ -750,14 +750,14 @@ function
 )
 {
 }
-offThreadDecodeScript
+offThreadDecodeStencil
 :
 function
 (
 )
 {
 }
-runOffThreadDecodedScript
+finishOffThreadDecodeStencil
 :
 function
 (

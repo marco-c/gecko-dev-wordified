@@ -35,7 +35,7 @@ cacheEntry
 ;
 try
 {
-offThreadDecodeScript
+offThreadDecodeStencil
 (
 code
 )
@@ -48,7 +48,7 @@ e
 {
 /
 /
-offThreadDecodeScript
+offThreadDecodeStencil
 does
 not
 work
@@ -84,7 +84,7 @@ message
 includes
 (
 "
-offThreadDecodeScript
+offThreadDecodeStencil
 "
 )
 true
