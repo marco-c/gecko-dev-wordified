@@ -1078,7 +1078,7 @@ equal
 connection
 .
 schemaVersion
-11
+12
 )
 ;
 let
