@@ -2346,11 +2346,6 @@ gfx
 :
 ColorRange
 aColorRange
-gfx
-:
-:
-ChromaSubsampling
-aSubsampling
 TextureFlags
 aTextureFlags
 )
