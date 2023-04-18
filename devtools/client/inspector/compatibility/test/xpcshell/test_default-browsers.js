@@ -45,7 +45,7 @@ settings
 .
 const
 {
-getDefaultTargetBrowsers
+getBrowsersList
 }
 =
 require
@@ -97,7 +97,7 @@ const
 defaultBrowsers
 =
 await
-getDefaultTargetBrowsers
+getBrowsersList
 (
 )
 ;
