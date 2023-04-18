@@ -193,7 +193,17 @@ IPC
 class
 Message
 ;
+class
+MessageReader
+;
+class
+MessageWriter
+;
 }
+/
+/
+namespace
+IPC
 #
 ifdef
 _MSC_VER

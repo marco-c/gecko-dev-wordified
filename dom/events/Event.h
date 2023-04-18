@@ -266,6 +266,12 @@ IPC
 class
 Message
 ;
+class
+MessageReader
+;
+class
+MessageWriter
+;
 }
 /
 /
