@@ -280,10 +280,6 @@ impl_CFTypeDescription
 !
 (
 CFDictionary
-<
-K
-V
->
 )
 ;
 unsafe
