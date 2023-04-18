@@ -100,8 +100,6 @@ MarionetteTestCase
     
 run_if_manage_instance
     
-skip_unless_browser_pref
-    
 WindowManagerMixin
 )
 here
@@ -6913,6 +6911,33 @@ none
 }
 )
         
+#
+Navigate
+will
+return
+immediately
+.
+As
+such
+wait
+for
+the
+target
+URL
+to
+        
+#
+be
+the
+current
+location
+and
+the
+element
+to
+exist
+.
+        
 self
 .
 marionette
@@ -6972,6 +6997,24 @@ loaded
         
 )
         
+Wait
+(
+self
+.
+marionette
+ignored_exceptions
+=
+errors
+.
+NoSuchElementException
+)
+.
+until
+(
+            
+lambda
+_
+:
 self
 .
 marionette
@@ -6984,6 +7027,8 @@ ID
 "
 slow
 "
+)
+        
 )
     
 def
