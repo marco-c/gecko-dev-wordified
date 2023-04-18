@@ -784,14 +784,9 @@ has
 completed
 )
 .
-sync
+async
 SimulateDeviceReset
 (
-)
-returns
-(
-GPUDeviceData
-status
 )
 ;
 /
