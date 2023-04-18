@@ -5894,6 +5894,15 @@ StaticPrefs
 javascript_options_wasm_caching
 (
 )
+&
+&
+!
+mRequest
+-
+>
+SkipWasmCaching
+(
+)
 )
 {
 cic
