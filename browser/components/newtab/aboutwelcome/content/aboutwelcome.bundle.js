@@ -5889,6 +5889,11 @@ order
 content
 :
 {
+position
+:
+"
+corner
+"
 hero_text
 :
 {
