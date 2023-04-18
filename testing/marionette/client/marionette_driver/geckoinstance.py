@@ -1501,7 +1501,7 @@ max_resumed_crashes
         
 #
 Disable
-all
+most
 telemetry
 pings
         
@@ -4522,6 +4522,27 @@ override
 "
 :
 True
+        
+#
+Disable
+Activity
+Stream
+telemetry
+pings
+        
+"
+browser
+.
+newtabpage
+.
+activity
+-
+stream
+.
+telemetry
+"
+:
+False
         
 #
 Always
