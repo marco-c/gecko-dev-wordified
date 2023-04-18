@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsXULAppAPI
-.
-h
-"
-#
-include
-"
 nsSystemAlertsService
 .
 h

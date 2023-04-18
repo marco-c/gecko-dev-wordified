@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsXPCOMCIDInternal
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Components
@@ -203,13 +196,6 @@ include
 mozilla
 /
 Unused
-.
-h
-"
-#
-include
-"
-prtime
 .
 h
 "

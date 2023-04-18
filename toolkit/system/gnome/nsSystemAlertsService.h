@@ -113,13 +113,6 @@ nsTHashMap
 .
 h
 "
-#
-include
-"
-nsCOMPtr
-.
-h
-"
 class
 nsAlertsIconListener
 ;

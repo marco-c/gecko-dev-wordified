@@ -130,9 +130,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+nsISupports
 .
 h
 "
