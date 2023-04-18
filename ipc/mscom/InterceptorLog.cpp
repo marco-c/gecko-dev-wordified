@@ -1220,7 +1220,7 @@ IDispatch
 )
 0x
 %
-0p
+p
 "
 aVariant
 .
@@ -1248,7 +1248,7 @@ IDispatch
 )
 0x
 %
-0p
+p
 "
 (
 aVariant
@@ -1279,7 +1279,7 @@ IUnknown
 )
 0x
 %
-0p
+p
 "
 aVariant
 .
@@ -1307,7 +1307,7 @@ IUnknown
 )
 0x
 %
-0p
+p
 "
 (
 aVariant
@@ -1746,7 +1746,7 @@ s
 \
 t0x
 %
-0p
+p
 \
 tIUnknown
 :
