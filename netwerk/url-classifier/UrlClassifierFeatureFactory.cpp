@@ -217,6 +217,13 @@ h
 #
 include
 "
+nsIWebProgressListener
+.
+h
+"
+#
+include
+"
 nsAppRunner
 .
 h
