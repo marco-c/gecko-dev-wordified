@@ -60,7 +60,6 @@ js
 ;
 const
 {
-RemoteDefaultsLoader
 RemoteSettingsExperimentLoader
 }
 =
