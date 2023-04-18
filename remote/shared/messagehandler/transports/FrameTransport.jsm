@@ -695,18 +695,6 @@ ContextDescriptorType
 TopBrowsingContext
 )
 {
-const
-{
-browserId
-}
-=
-TabManager
-.
-getBrowserById
-(
-id
-)
-;
 return
 this
 .
@@ -714,6 +702,8 @@ _getBrowsingContexts
 (
 {
 browserId
+:
+id
 }
 )
 ;
