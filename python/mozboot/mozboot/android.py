@@ -3768,14 +3768,11 @@ prewarm_avd
         
 run_prewarm_avd
 (
-            
 adb_tool
 emulator_tool
 env
 avd_name
 avd_manifest
-no_interactive
-        
 )
     
 #
@@ -3910,10 +3907,6 @@ env
 avd_name
     
 avd_manifest
-    
-no_interactive
-=
-False
 )
 :
     
