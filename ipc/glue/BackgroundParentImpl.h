@@ -186,8 +186,6 @@ BackgroundParentImpl
 :
 public
 PBackgroundParent
-public
-ParentToChildStreamActorManager
 {
 protected
 :
