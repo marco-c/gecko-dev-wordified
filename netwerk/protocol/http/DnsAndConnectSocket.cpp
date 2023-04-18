@@ -6952,10 +6952,10 @@ rv
 {
 if
 (
-StaticPrefs
-:
-:
-network_http_http3_enable
+gHttpHandler
+-
+>
+IsHttp3Enabled
 (
 )
 &

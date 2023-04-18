@@ -204,7 +204,7 @@ http
 .
 http3
 .
-enable
+enabled
 "
 true
 )
@@ -859,7 +859,7 @@ http
 .
 http3
 .
-enable
+enabled
 "
 )
 ;
