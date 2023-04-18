@@ -194,6 +194,7 @@ bool
 const
 char
 *
+bool
 )
 >
 &
