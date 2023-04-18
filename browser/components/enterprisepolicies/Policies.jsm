@@ -532,6 +532,15 @@ EXPORTED_SYMBOLS
 "
 Policies
 "
+"
+setAndLockPref
+"
+"
+PoliciesUtils
+"
+"
+runOnce
+"
 ]
 ;
 /
@@ -1163,6 +1172,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -1198,6 +1209,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -1233,6 +1246,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -1281,6 +1296,8 @@ param
 AllowNonFQDN
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -1318,6 +1335,8 @@ param
 AllowNonFQDN
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -1363,6 +1382,8 @@ param
 AllowProxies
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -1398,6 +1419,8 @@ param
 AllowProxies
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -1430,6 +1453,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -2695,6 +2720,8 @@ newCookieBehavior
 REJECT_TRACKER
 ;
 }
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -2710,6 +2737,8 @@ param
 Locked
 )
 ;
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -2771,6 +2800,8 @@ newLifetimePolicy
 KEEP_COOKIES_UNTIL_END_OF_SESSION
 ;
 }
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -2798,6 +2829,8 @@ manager
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -4438,6 +4471,8 @@ Enabled
 :
 5
 ;
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -4461,6 +4496,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -4488,6 +4525,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -4642,6 +4681,8 @@ param
 Value
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -4657,6 +4698,8 @@ param
 Locked
 )
 ;
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -4713,6 +4756,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -4742,6 +4787,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -4823,6 +4870,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -5958,6 +6007,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -5987,6 +6038,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6018,6 +6071,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6047,6 +6102,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6080,6 +6137,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6103,6 +6162,8 @@ Pocket
 locked
 )
 ;
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6136,6 +6197,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6165,6 +6228,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6286,6 +6351,8 @@ Default
 undefined
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6691,6 +6758,8 @@ join
 )
 ;
 }
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -6879,6 +6948,8 @@ prefValue
 break
 ;
 }
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -7054,6 +7125,8 @@ manager
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -7080,6 +7153,8 @@ manager
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -7412,6 +7487,8 @@ present
 }
 else
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -7826,6 +7903,8 @@ prefValue
 break
 ;
 }
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -7976,6 +8055,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -8113,6 +8194,8 @@ Default
 undefined
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -8965,6 +9048,8 @@ ProxyPolicies
 configureProxySettings
 (
 param
+PoliciesUtils
+.
 setDefaultPref
 )
 ;
@@ -9224,6 +9309,8 @@ lockDefaultPrefs
 false
 ;
 }
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9246,6 +9333,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9264,6 +9353,8 @@ locked
 }
 else
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9287,6 +9378,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9305,6 +9398,8 @@ locked
 }
 else
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9328,6 +9423,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9346,6 +9443,8 @@ locked
 }
 else
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9369,6 +9468,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9387,6 +9488,8 @@ locked
 }
 else
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9410,6 +9513,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9428,6 +9533,8 @@ locked
 }
 else
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9451,6 +9558,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9469,6 +9578,8 @@ locked
 }
 else
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9492,6 +9603,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -9517,6 +9630,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -10842,6 +10957,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -10871,6 +10988,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -10906,6 +11025,8 @@ in
 param
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -10964,6 +11085,8 @@ SkipOnboarding
 "
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 "
@@ -11199,6 +11322,8 @@ prefName
 prefValue
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 prefName
@@ -11279,7 +11404,10 @@ the
 pref
 *
 /
-function
+var
+PoliciesUtils
+=
+{
 setDefaultPref
 (
 prefName
@@ -11525,6 +11653,8 @@ prefName
 ;
 }
 }
+}
+;
 /
 *
 *
@@ -11607,6 +11737,8 @@ policyParam
 BlockNewRequests
 )
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 prefName
@@ -11619,6 +11751,8 @@ Locked
 }
 else
 {
+PoliciesUtils
+.
 setDefaultPref
 (
 prefName

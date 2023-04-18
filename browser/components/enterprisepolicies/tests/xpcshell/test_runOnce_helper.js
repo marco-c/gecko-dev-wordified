@@ -56,7 +56,6 @@ Policies
 .
 jsm
 "
-null
 )
 ;
 let

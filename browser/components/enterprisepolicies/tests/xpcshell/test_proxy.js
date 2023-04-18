@@ -116,7 +116,6 @@ ProxyPolicies
 .
 jsm
 "
-null
 )
 ;
 for
