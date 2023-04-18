@@ -16387,9 +16387,9 @@ get_mach_virtualenv_root
 from
 mach
 .
-virtualenv
+site
 import
-VirtualenvManager
+MozSiteManager
     
 virtualenv_path
 =
@@ -16453,7 +16453,7 @@ return
     
 manager
 =
-VirtualenvManager
+MozSiteManager
 (
         
 command_context

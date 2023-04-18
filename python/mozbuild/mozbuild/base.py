@@ -2003,9 +2003,9 @@ self
 from
 mach
 .
-virtualenv
+site
 import
-VirtualenvManager
+MozSiteManager
         
 if
 self
@@ -2019,7 +2019,7 @@ self
 .
 _virtualenv_manager
 =
-VirtualenvManager
+MozSiteManager
 (
                 
 self

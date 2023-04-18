@@ -367,7 +367,7 @@ mach
 module
 so
 that
-VirtualenvManager
+MozSiteManager
 can
 populate
 itself
