@@ -5803,7 +5803,7 @@ nodiscard
 ]
 ]
 bool
-emitGoSub
+emitJumpToFinally
 (
 JumpList
 *
