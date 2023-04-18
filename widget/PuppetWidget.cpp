@@ -5479,6 +5479,10 @@ mCursor
 =
 aCursor
 ;
+mUpdateCursor
+=
+false
+;
 }
 void
 PuppetWidget
