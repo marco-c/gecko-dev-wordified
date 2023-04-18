@@ -3648,6 +3648,10 @@ IsNativeMenu
 return
 ;
 }
+mSizedToPopup
+=
+aSizedToPopup
+;
 SchedulePaint
 (
 )
@@ -4823,7 +4827,6 @@ mReflowCallbackData
 MarkPosted
 (
 aParentMenu
-aSizedToPopup
 openChanged
 )
 ;
@@ -4843,8 +4846,6 @@ mReflowCallbackData
 .
 mAnchor
 false
-mReflowCallbackData
-.
 mSizedToPopup
 )
 ;
@@ -16898,7 +16899,7 @@ SetPopupPosition
 (
 nullptr
 true
-false
+mSizedToPopup
 )
 ;
 RefPtr
