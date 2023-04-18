@@ -440,11 +440,11 @@ QM_TO_RESULT
 expr
 )
 ToResult
-(
-ToQMResult
+<
+QMResult
+>
 (
 expr
-)
 )
 #
 endif
