@@ -250,6 +250,15 @@ include
 "
 mozilla
 /
+OriginTrials
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CORSMode
 .
 h
@@ -27144,6 +27153,9 @@ mCharacterSet
 ;
 int32_t
 mCharacterSetSource
+;
+OriginTrials
+mTrials
 ;
 /
 /

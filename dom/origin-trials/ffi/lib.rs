@@ -142,7 +142,7 @@ pub
 enum
 OriginTrialResult
 {
-Success
+Ok
 {
 trial
 :
@@ -678,7 +678,7 @@ OriginMismatch
 OriginTrialResult
 :
 :
-Success
+Ok
 {
 trial
 }

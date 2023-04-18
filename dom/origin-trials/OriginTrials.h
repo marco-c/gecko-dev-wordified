@@ -211,6 +211,8 @@ class
 OriginTrials
 final
 {
+public
+:
 /
 /
 Parses
