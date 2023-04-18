@@ -36442,6 +36442,16 @@ mLen
 ;
 }
 ;
+if
+(
+!
+aIsContentProcess
+)
+{
+return
+false
+;
+}
 /
 /
 These
