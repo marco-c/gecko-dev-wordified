@@ -425,6 +425,17 @@ return
 mDocument
 ;
 }
+bool
+IsMonotonicallyIncreasing
+(
+)
+const
+override
+{
+return
+true
+;
+}
 protected
 :
 TimeStamp

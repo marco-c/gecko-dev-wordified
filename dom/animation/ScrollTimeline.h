@@ -731,6 +731,17 @@ mDocument
 ;
 }
 bool
+IsMonotonicallyIncreasing
+(
+)
+const
+override
+{
+return
+false
+;
+}
+bool
 IsScrollTimeline
 (
 )

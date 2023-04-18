@@ -738,6 +738,15 @@ const
 ;
 virtual
 bool
+IsMonotonicallyIncreasing
+(
+)
+const
+=
+0
+;
+virtual
+bool
 IsScrollTimeline
 (
 )
