@@ -137,13 +137,6 @@ getTarget
 (
 )
 ;
-await
-front
-.
-attach
-(
-)
-;
 const
 threadFront
 =

@@ -49,13 +49,6 @@ client
 target
 )
 {
-await
-target
-.
-attach
-(
-)
-;
 is
 (
 target

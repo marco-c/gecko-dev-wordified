@@ -650,13 +650,6 @@ check
 if
 it
 works
-await
-targetFront2
-.
-attach
-(
-)
-;
 const
 consoleFront
 =
@@ -729,13 +722,6 @@ if
 it
 still
 works
-await
-targetFront1
-.
-attach
-(
-)
-;
 const
 consoleFront
 =
