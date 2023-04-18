@@ -165,7 +165,7 @@ and
 another
 good
 one
-log
+info
 (
 Adding
 location
