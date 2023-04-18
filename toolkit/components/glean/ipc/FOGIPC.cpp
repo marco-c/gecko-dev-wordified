@@ -1767,7 +1767,7 @@ utilityManager
 UtilityProcessManager
 :
 :
-GetSingleton
+GetIfExists
 (
 )
 )
