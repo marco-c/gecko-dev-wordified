@@ -1286,6 +1286,7 @@ path
 .
 join
 (
+                
 os
 .
 path
@@ -1301,6 +1302,7 @@ cli_functional
 .
 py
 "
+            
 )
             
 "
