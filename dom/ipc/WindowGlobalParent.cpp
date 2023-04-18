@@ -8536,7 +8536,7 @@ IPC_OK
 nsCString
 BFCacheStatusToString
 (
-uint16_t
+uint32_t
 aFlags
 )
 {
@@ -8722,11 +8722,11 @@ WindowGlobalParent
 RecvUpdateBFCacheStatus
 (
 const
-uint16_t
+uint32_t
 &
 aOnFlags
 const
-uint16_t
+uint32_t
 &
 aOffFlags
 )

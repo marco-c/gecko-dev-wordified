@@ -1323,7 +1323,7 @@ return
 mSingleChannelId
 ;
 }
-uint16_t
+uint32_t
 GetBFCacheStatus
 (
 )
@@ -1826,11 +1826,11 @@ IPCResult
 RecvUpdateBFCacheStatus
 (
 const
-uint16_t
+uint32_t
 &
 aOnFlags
 const
-uint16_t
+uint32_t
 &
 aOffFlags
 )
@@ -2316,7 +2316,7 @@ mSentPageUseCounters
 =
 false
 ;
-uint16_t
+uint32_t
 mBFCacheStatus
 =
 0

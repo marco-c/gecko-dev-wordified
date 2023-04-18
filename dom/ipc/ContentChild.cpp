@@ -29430,7 +29430,7 @@ flags
 to
 telemetry
 .
-uint16_t
+uint32_t
 flags
 =
 0
