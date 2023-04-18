@@ -2773,6 +2773,11 @@ radioGroup
 .
 focus
 (
+{
+preventFocusRing
+:
+true
+}
 )
 ;
 }
