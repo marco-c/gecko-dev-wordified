@@ -521,6 +521,11 @@ SnappyUncompressInputStream
 .
 h
 "
+"
+StreamBufferSource
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
