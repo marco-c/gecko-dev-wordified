@@ -1884,6 +1884,13 @@ DLLVM_ENABLE_BINDINGS
 =
 OFF
 "
+            
+"
+-
+DLLVM_ENABLE_CURL
+=
+OFF
+"
         
 ]
         
