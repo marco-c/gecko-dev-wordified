@@ -1213,7 +1213,6 @@ Extension
 .
 jsm
 "
-null
 )
 ;
 return
